@@ -1,12 +1,12 @@
 ---
 title: Fonts
 second_title: Aspose.Sildes för .NET API-referens
-description: Fonts-samling.
+description: Fontsamling.
 type: docs
-weight: 4920
+weight: 4940
 url: /sv/aspose.slides/fonts/
 ---
-## Fonts-klass
+## Fonts klass
 
 Fonts samling.
 
@@ -14,24 +14,24 @@ Fonts samling.
 public class Fonts : IFonts
 ```
 
-## Properties
+## Egenskaper
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/fonts/complexscriptfont) { get; set; } | Returnerar eller anger det komplexa skriptteckensnittet. Läs/skriv [`IFontData`](../ifontdata). |
+| [ComplexScriptFont](../../aspose.slides/fonts/complexscriptfont) { get; set; } | Returnerar eller anger teckensnittet för komplexa skript. Läs/skriv [`IFontData`](../ifontdata). |
 | [EastAsianFont](../../aspose.slides/fonts/eastasianfont) { get; set; } | Returnerar eller anger det östasiatiska teckensnittet. Läs/skriv [`IFontData`](../ifontdata). |
 | [LatinFont](../../aspose.slides/fonts/latinfont) { get; set; } | Returnerar eller anger det latinska teckensnittet. Läs/skriv [`IFontData`](../ifontdata). |
 
-## Methods
+## Metoder
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
 | [GetScriptFont](../../aspose.slides/fonts/getscriptfont)(string) | Hämtar teckensnittets namn som är associerat med en specifik skripttagg från presentationens tema. |
-| [GetScriptFontMap](../../aspose.slides/fonts/getscriptfontmap)() | Returnerar en ordbok med alla definitioner av skriptteckensnitt i presentationen. |
-| [RemoveScriptFont](../../aspose.slides/fonts/removescriptfont)(string) | Tar bort teckensnittinställningen som är associerad med en specifik skripttagg från temats teckensnittssamling. |
-| [SetScriptFont](../../aspose.slides/fonts/setscriptfont)(string, string) | Tilldelar ett teckensnittsnamn till en specifik skripttagg, vilket definierar hur text för det skriptet kommer att renderas i presentationen. |
+| [GetScriptFontMap](../../aspose.slides/fonts/getscriptfontmap)() | Returnerar en ordbok med alla skriptteckensnittdefinitioner i presentationen. |
+| [RemoveScriptFont](../../aspose.slides/fonts/removescriptfont)(string) | Tar bort teckensnittsinställningen som är associerad med en specifik skripttagg från temats teckensnittssamling. |
+| [SetScriptFont](../../aspose.slides/fonts/setscriptfont)(string, string) | Tilldelar ett teckensnittsnamn till en specifik skripttagg, vilket definierar hur text för det skriptet renderas i presentationen. |
 
-### Se även
+### Se också
 
 * gränssnitt [IFonts](../ifonts)
 * namnrymd [Aspose.Slides](../../aspose.slides)

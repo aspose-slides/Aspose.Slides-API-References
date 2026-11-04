@@ -3,7 +3,7 @@ title: Control
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt een ActiveX-besturingselement voor.
 type: docs
-weight: 2690
+weight: 2710
 url: /nl/aspose.slides/control/
 ---
 ## Controlklasse
@@ -18,13 +18,13 @@ public class Control : DomObject<ControlCollection>, IControl
 
 | Naam | Beschrijving |
 | --- | --- |
-| [ActiveXControlBinary](../../aspose.slides/control/activexcontrolbinary) { get; } | Specificeert de persistentie van een ActiveX-besturingselement wanneer de te gebruiken methode om te bewaren PersistStream, PersistStreamInit of PersistStorage is. |
-| [ClassId](../../aspose.slides/control/classid) { get; set; } | Haalt de class-id van dit besturingselement op. Alleen-lezen Guid. |
-| [Frame](../../aspose.slides/control/frame) { get; set; } | Geeft het frame van het besturingselement terug of stelt dit in. Lezen/schrijven [`IShapeFrame`](../ishapeframe). |
-| [Name](../../aspose.slides/control/name) { get; set; } | Haalt de naam van dit besturingselement op of stelt deze in. Lezen/schrijven String. |
-| [Persistence](../../aspose.slides/control/persistence) { get; } | Haalt de methode op die wordt gebruikt om de eigenschappen van het ActiveX-besturingselement op te slaan. Alleen-lezen [`PersistenceType`](../persistencetype). |
-| [Properties](../../aspose.slides/control/properties) { get; } | Geeft een verzameling ActiveX-eigenschappen terug. Opmerking: Aspose.Slides ondersteunt alleen op XML gebaseerde ActiveX-eigenschappen. Als eigenschappen in binair formaat zijn opgeslagen, zal deze eigenschap null teruggeven. Alleen-lezen [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
-| [SubstitutePictureFormat](../../aspose.slides/control/substitutepictureformat) { get; } | Geeft Control image fill properties-object terug. Alleen-lezen [`IPictureFillFormat`](../ipicturefillformat). |
+| [ActiveXControlBinary](../../aspose.slides/control/activexcontrolbinary) { get; } | Specificeert de persistentie van een ActiveX-besturingselement wanneer de gebruikte methode om te behouden ofwel PersistStream, PersistStreamInit of PersistStorage is. |
+| [ClassId](../../aspose.slides/control/classid) { get; set; } | Haalt de class-id op van dit besturingselement. Alleen-lezen Guid. |
+| [Frame](../../aspose.slides/control/frame) { get; set; } | Retourneert of stelt het frame van het besturingselement in. Lezen/schrijven [`IShapeFrame`](../ishapeframe). |
+| [Name](../../aspose.slides/control/name) { get; set; } | Haalt de naam op of stelt deze in van dit besturingselement. Lezen/schrijven String. |
+| [Persistence](../../aspose.slides/control/persistence) { get; } | Haalt de methode op die wordt gebruikt om eigenschappen van het ActiveX-besturingselement op te slaan. Alleen-lezen [`PersistenceType`](../persistencetype). |
+| [Properties](../../aspose.slides/control/properties) { get; } | Retourneert een verzameling van ActiveX-eigenschappen. Opmerking: Aspose.Slides ondersteunt alleen op XML gebaseerde ActiveX-eigenschappen. Als eigenschappen in binair formaat zijn opgeslagen, zal deze eigenschap null retourneren. Alleen-lezen [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
+| [SubstitutePictureFormat](../../aspose.slides/control/substitutepictureformat) { get; } | Retourneert Control-afbeeldingsopvullings-eigenschappenobject. Alleen-lezen [`IPictureFillFormat`](../ipicturefillformat). |
 
 ### Zie ook
 

@@ -1,14 +1,14 @@
 ---
 title: IRowCollection
-second_title: Referencia de la API de Aspose.Sildes para .NET
-description: Representa una colección de filas de tabla.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Representa la colección de filas de tabla.
 type: docs
-weight: 6860
+weight: 6880
 url: /es/aspose.slides/irowcollection/
 ---
 ## IRowCollection interfaz
 
-Representa una colección de filas de tabla.
+Representa la colección de filas de tabla.
 
 ```csharp
 public interface IRowCollection : IGenericCollection<IRow>
@@ -16,13 +16,13 @@ public interface IRowCollection : IGenericCollection<IRow>
 
 ## Propiedades
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | [Item](../../aspose.slides/irowcollection/item) { get; } | Obtiene el elemento en el índice especificado. |
 
 ## Métodos
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | Crea una copia de la fila de plantilla especificada y la inserta en la parte inferior de una tabla. |
 | [InsertClone](../../aspose.slides/irowcollection/insertclone)(int, IRow, bool) | Crea una copia de la fila de plantilla especificada y la inserta en la posición especificada de una tabla. |

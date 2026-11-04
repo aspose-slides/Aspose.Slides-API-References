@@ -1,14 +1,14 @@
 ---
 title: ControlCollection
-second_title: Aspose.Sildes pro .NET – referenční příručka API
-description: Kolekce ActiveX ovládacích prvků.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Kolekce ovládacích prvků ActiveX.
 type: docs
-weight: 2700
+weight: 2720
 url: /cs/aspose.slides/controlcollection/
 ---
 ## ControlCollection třída
 
-Kolekce ActiveX ovládacích prvků.
+Kolekce ovládacích prvků ActiveX.
 
 ```csharp
 public class ControlCollection : IControlCollection
@@ -28,11 +28,11 @@ public class ControlCollection : IControlCollection
 | Název | Popis |
 | --- | --- |
 | [AddControl](../../aspose.slides/controlcollection/addcontrol)(ControlType, float, float, float, float) | Vytvoří a přidá nový ovládací prvek do kolekce. |
-| [Clear](../../aspose.slides/controlcollection/clear)() | Odstraní všechny ovládací prvky z kolekce. |
-| [CopyTo](../../aspose.slides/controlcollection/copyto)(Array, int) | Zkopíruje celou kolekci do určeného pole. |
+| [Clear](../../aspose.slides/controlcollection/clear)() | Odebere všechny ovládací prvky z kolekce. |
+| [CopyTo](../../aspose.slides/controlcollection/copyto)(Array, int) | Zkopíruje celou kolekci do zadaného pole. |
 | [GetEnumerator](../../aspose.slides/controlcollection/getenumerator)() | Vrací enumerátor, který prochází kolekcí. |
-| [Remove](../../aspose.slides/controlcollection/remove)(IControl) | Odstraní ActiveX ovládací prvek z kolekce. |
-| [RemoveAt](../../aspose.slides/controlcollection/removeat)(int) | Odstraní ActiveX ovládací prvek uložený na zadané pozici z kolekce. |
+| [Remove](../../aspose.slides/controlcollection/remove)(IControl) | Odebere ActiveX ovládací prvek z kolekce. |
+| [RemoveAt](../../aspose.slides/controlcollection/removeat)(int) | Odebere ActiveX ovládací prvek uložený na zadané pozici z kolekce. |
 
 ### Viz také
 

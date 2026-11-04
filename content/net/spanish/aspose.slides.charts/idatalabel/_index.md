@@ -1,14 +1,14 @@
 ---
 title: IDataLabel
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa las etiquetas de la serie.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Representa las etiquetas de una serie.
 type: docs
-weight: 2020
+weight: 2040
 url: /es/aspose.slides.charts/idatalabel/
 ---
 ## IDataLabel interfaz
 
-Representa las etiquetas de la serie.
+Represents a series labels.
 
 ```csharp
 public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
@@ -22,15 +22,16 @@ public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
 | [AsILayoutable](../../aspose.slides.charts/idatalabel/asilayoutable) { get; } | Devuelve la interfaz ILayoutable. Solo lectura [`ILayoutable`](../ilayoutable). |
 | [AsIOverridableText](../../aspose.slides.charts/idatalabel/asioverridabletext) { get; } | Devuelve la interfaz IOverridableText. Solo lectura [`IOverridableText`](../ioverridabletext). |
 | [DataLabelFormat](../../aspose.slides.charts/idatalabel/datalabelformat) { get; } | Devuelve el formato de la etiqueta de datos. Solo lectura [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | False significa que la etiqueta de datos no es visible (y por lo tanto todas las banderas Show*-flags (ShowValue, ...) son falsas). Solo lectura Boolean. |
-| [ValueFromCell](../../aspose.slides.charts/idatalabel/valuefromcell) { get; set; } | Obtiene o establece la celda de datos del libro de trabajo. Se aplica si la propiedad IDataLabelFormat.ShowLabelValueFromCell es verdadera. |
+| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | False significa que la etiqueta de datos no es visible (y por tanto todas las banderas Show*-flags (ShowValue, ...) son false). Booleano solo lectura. |
+| [LabelShapeType](../../aspose.slides.charts/idatalabel/labelshapetype) { get; set; } | Obtiene o establece el tipo de forma de la etiqueta de datos. Devuelve NotDefined si no se define ninguna forma. |
+| [ValueFromCell](../../aspose.slides.charts/idatalabel/valuefromcell) { get; set; } | Obtiene o establece la celda de datos del libro de trabajo. Se aplica si la propiedad IDataLabelFormat.ShowLabelValueFromCell es true. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetActualLabelText](../../aspose.slides.charts/idatalabel/getactuallabeltext)() | Devuelve el texto real de la etiqueta basado en la configuración DataLabelFormat o el valor TextFrameForOverriding.Text. |
-| [Hide](../../aspose.slides.charts/idatalabel/hide)() | Oculta la etiqueta de datos estableciendo todas las banderas Show*-flags (ShowValue, ...) al estado falso. IsVisible será false después de esto. |
+| [GetActualLabelText](../../aspose.slides.charts/idatalabel/getactuallabeltext)() | Devuelve el texto real de la etiqueta basado en la configuración DataLabelFormat o en el valor TextFrameForOverriding.Text. |
+| [Hide](../../aspose.slides.charts/idatalabel/hide)() | Oculta la etiqueta de datos estableciendo todas las banderas Show*-flags (ShowValue, ...) al estado false. IsVisible será false después de esto. |
 
 ### Ver también
 

@@ -3,10 +3,10 @@ title: IXamlOptions
 second_title: Aspose.Sildes for .NET API 参考
 description: 控制 XAML 文档保存方式的选项。
 type: docs
-weight: 4700
+weight: 4720
 url: /zh/aspose.slides.export.xaml/ixamloptions/
 ---
-## IXylamOptions 接口
+## IXamlOptions 接口
 
 控制 XAML 文档保存方式的选项。
 
@@ -18,9 +18,9 @@ public interface IXamlOptions : ISaveOptions
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export.xaml/ixamloptions/asisaveoptions) { get; } | 返回 ISaveOptions 接口. 只读 [`ISaveOptions`](../../aspose.slides.export/isaveoptions). |
-| [ExportHiddenSlides](../../aspose.slides.export.xaml/ixamloptions/exporthiddenslides) { get; set; } | 确定是否导出隐藏的幻灯片. |
-| [OutputSaver](../../aspose.slides.export.xaml/ixamloptions/outputsaver) { get; set; } | 表示 IOutputSaver 接口的实现. |
+| [AsISaveOptions](../../aspose.slides.export.xaml/ixamloptions/asisaveoptions) { get; } | 返回 ISaveOptions 接口。只读 [`ISaveOptions`](../../aspose.slides.export/isaveoptions)。 |
+| [ExportHiddenSlides](../../aspose.slides.export.xaml/ixamloptions/exporthiddenslides) { get; set; } | 确定是否导出隐藏的幻灯片。 |
+| [OutputSaver](../../aspose.slides.export.xaml/ixamloptions/outputsaver) { get; set; } | 表示 IOutputSaver 接口的实现。 |
 
 ### 示例
 
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [ISaveOptions](../../aspose.slides.export/isaveoptions)
 * 命名空间 [Aspose.Slides.Export.Xaml](../../aspose.slides.export.xaml)

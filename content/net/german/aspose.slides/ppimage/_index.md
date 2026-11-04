@@ -3,12 +3,12 @@ title: PPImage
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt ein Bild in einer Präsentation dar.
 type: docs
-weight: 9250
+weight: 9270
 url: /de/aspose.slides/ppimage/
 ---
 ## PPImage Klasse
 
-Represents an image in a presentation.
+Stellt ein Bild in einer Präsentation dar.
 
 ```csharp
 public class PPImage : IDisposable, IPPImage
@@ -18,14 +18,14 @@ public class PPImage : IDisposable, IPPImage
 
 | Name | Beschreibung |
 | --- | --- |
-| [BinaryData](../../aspose.slides/ppimage/binarydata) { get; } | Gibt eine Kopie der Bilddaten zurück. Nur lesend Byte[]. |
-| [ContentType](../../aspose.slides/ppimage/contenttype) { get; } | Gibt den MIME-Typ eines Bildes zurück, codiert in [`BinaryData`](./binarydata). Nur lesend String. |
-| [Height](../../aspose.slides/ppimage/height) { get; } | Gibt die Höhe eines Bildes zurück. Nur lesend Int32. |
-| [Image](../../aspose.slides/ppimage/image) { get; } | Gibt eine Kopie eines Bildes zurück. Nur lesend [`IImage`](../iimage). |
-| [SvgImage](../../aspose.slides/ppimage/svgimage) { get; set; } | Gibt das ISvgImage-Objekt zurück oder setzt es [`ISvgImage`](../isvgimage). |
-| [Width](../../aspose.slides/ppimage/width) { get; } | Gibt die Breite eines Bildes zurück. Nur lesend Int32. |
-| [X](../../aspose.slides/ppimage/x) { get; } | Gibt den X-Offset eines Bildes zurück. Nur lesend Int32. |
-| [Y](../../aspose.slides/ppimage/y) { get; } | Gibt den Y-Offset eines Bildes zurück. Nur lesend Int32. |
+| [BinaryData](../../aspose.slides/ppimage/binarydata) { get; } | Gibt eine Kopie der Bilddaten zurück. Nur lesbar Byte[]. |
+| [ContentType](../../aspose.slides/ppimage/contenttype) { get; } | Gibt den MIME-Typ eines Bildes zurück, codiert in [`BinaryData`](./binarydata). Nur lesbar String. |
+| [Height](../../aspose.slides/ppimage/height) { get; } | Gibt die Höhe eines Bildes zurück. Nur lesbar Int32. |
+| [Image](../../aspose.slides/ppimage/image) { get; } | Gibt eine Kopie eines Bildes zurück. Nur lesbar [`IImage`](../iimage). |
+| [SvgImage](../../aspose.slides/ppimage/svgimage) { get; set; } | Gibt das ISvgImage-Objekt [`ISvgImage`](../isvgimage) zurück oder setzt es. |
+| [Width](../../aspose.slides/ppimage/width) { get; } | Gibt die Breite eines Bildes zurück. Nur lesbar Int32. |
+| [X](../../aspose.slides/ppimage/x) { get; } | Gibt einen X-Offset eines Bildes zurück. Nur lesbar Int32. |
+| [Y](../../aspose.slides/ppimage/y) { get; } | Gibt einen Y-Offset eines Bildes zurück. Nur lesbar Int32. |
 
 ## Methoden
 
@@ -34,7 +34,7 @@ public class PPImage : IDisposable, IPPImage
 | [Dispose](../../aspose.slides/ppimage/dispose)() | Gibt das Objekt frei. |
 | override [GetHashCode](../../aspose.slides/ppimage/gethashcode)() | Gibt den Hashcode eines Bildes zurück. |
 | [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_2)(byte[]) | Ersetzt die Bilddaten. Die neuen Bilddaten. Wenn der Parameter newImageData null ist. |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage)(IImage) | Ersetzt die Bilddaten. Hinweis: Wenn das Bild eine Metadatei ist, wird es gerastert. Verwenden Sie stattdessen ReplaceImage(byte[]). Das neue Bild. Wenn der Parameter newImage null ist. |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage)(IImage) | Ersetzt die Bilddaten. Hinweis: Wenn das Image ein Metafile ist, wird es gerastert. Verwenden Sie stattdessen ReplaceImage(byte[]). Das neue Bild. Wenn der Parameter newImage null ist. |
 | [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_1)(IPPImage) | Ersetzt die Bilddaten. Das neue IPPImage. Wenn der Parameter newImage null ist. |
 
 ### Siehe auch

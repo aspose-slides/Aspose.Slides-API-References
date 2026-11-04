@@ -1,14 +1,14 @@
 ---
 title: JoinPortionsWithSameFormatting
-second_title: Aspose.Sildes .NET API Referansı
-description: Tüm paragraflarda aynı biçimlendirmeye sahip run'ları birleştirir.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Tüm paragraflardaki aynı biçimlendirmeye sahip koşulları birleştirir.
 type: docs
-weight: 110
+weight: 120
 url: /tr/aspose.slides/textframe/joinportionswithsameformatting/
 ---
 ## TextFrame.JoinPortionsWithSameFormatting metodu
 
-Tüm paragraflarda aynı biçimlendirmeye sahip run'ları birleştirir.
+Tüm paragraflardaki aynı biçimlendirmeye sahip koşulları birleştirir.
 
 ```csharp
 public void JoinPortionsWithSameFormatting()

@@ -1,14 +1,14 @@
 ---
 title: IMasterSlideCollection
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示主幻灯片的集合。
+description: 表示一组母版幻灯片的集合。
 type: docs
-weight: 6430
+weight: 6450
 url: /zh/aspose.slides/imasterslidecollection/
 ---
 ## IMasterSlideCollection 接口
 
-表示主幻灯片的集合。
+表示一组母版幻灯片的集合。
 
 ```csharp
 public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
@@ -24,11 +24,11 @@ public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
 
 | 名称 | 描述 |
 | --- | --- |
-| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | 向集合的末尾添加指定主幻灯片的副本。关联的布局幻灯片也将被复制。 |
-| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | 在集合的指定位置插入指定主幻灯片的副本。关联的布局幻灯片也将被复制。 |
-| [Remove](../../aspose.slides/imasterslidecollection/remove)(IMasterSlide) | 从集合中移除首次出现的特定对象。 |
+| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | 向集合的末尾添加指定母版幻灯片的副本。关联的布局幻灯片也将被复制。 |
+| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | 在集合的指定位置插入指定母版幻灯片的副本。关联的布局幻灯片也将被复制。 |
+| [Remove](../../aspose.slides/imasterslidecollection/remove)(IMasterSlide) | 从集合中移除特定对象的第一次出现。 |
 | [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | 移除集合中指定索引处的元素。 |
-| [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | 移除未使用的主幻灯片。 |
+| [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | 移除未使用的母版幻灯片。 |
 
 ### 另请参见
 

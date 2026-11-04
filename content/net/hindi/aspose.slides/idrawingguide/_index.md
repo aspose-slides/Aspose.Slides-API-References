@@ -1,14 +1,14 @@
 ---
 title: IDrawingGuide
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक समायोज्य ड्रॉइंग गाइड को दर्शाता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: एक समायोज्य ड्राइंग गाइड का प्रतिनिधित्व करता है।
 type: docs
-weight: 5720
+weight: 5740
 url: /hi/aspose.slides/idrawingguide/
 ---
 ## IDrawingGuide इंटरफ़ेस
 
-ड्रॉइंग गाइड को समायोज्य रूप से दर्शाता है।
+एक समायोज्य ड्राइंग गाइड का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IDrawingGuide
@@ -18,11 +18,11 @@ public interface IDrawingGuide
 
 | नाम | विवरण |
 | --- | --- |
-| [Color](../../aspose.slides/idrawingguide/color) { get; set; } | ड्रॉइंग गाइड के रंग को लौटाता है या सेट करता है। पढ़ें/लिखें Color. |
-| [Orientation](../../aspose.slides/idrawingguide/orientation) { get; set; } | ड्रॉइंग गाइड की अभिविन्यास को लौटाता है या सेट करता है। पढ़ें/लिखें [`Orientation`](../orientation). |
-| [Position](../../aspose.slides/idrawingguide/position) { get; set; } | ड्रॉइंग गाइड की स्थिति को स्लाइड के ऊपर बाएँ कोने से बिंदुओं में लौटाता है या सेट करता है। पढ़ें/लिखें Single. |
+| [Color](../../aspose.slides/idrawingguide/color) { get; set; } | ड्राइंग गाइड का रंग लौटाता या सेट करता है। पढ़ें/लिखें Color. |
+| [Orientation](../../aspose.slides/idrawingguide/orientation) { get; set; } | ड्राइंग गाइड की अभिविन्यास लौटाता या सेट करता है। पढ़ें/लिखें [`Orientation`](../orientation). |
+| [Position](../../aspose.slides/idrawingguide/position) { get; set; } | ड्राइंग गाइड की स्थिति को शीर्ष, बाएँ कोने से points में लौटाता या सेट करता है। पढ़ें/लिखें Single. |
 
-### देखें
+### देखें भी
 
 * नेमस्पेस [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: Compress
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Αντιπροσωπεύει μια ομάδα μεθόδων που προορίζονται για τη συμπίεση του Presentation../aspose.slides/presentation.
+second_title: Aspose.Sildes για .NET API Reference
+description: Αντιπροσωπεύει μια ομάδα μεθόδων που προορίζονται να συμπιέσουν Presentation../aspose.slides/presentation.
 type: docs
-weight: 7870
+weight: 7890
 url: /el/aspose.slides.lowcode/compress/
 ---
 ## Compress κλάση
 
-Αντιπροσωπεύει μια ομάδα μεθόδων που προορίζονται για τη συμπίεση του [`Presentation`](../../aspose.slides/presentation).
+Αντιπροσωπεύει μια ομάδα μεθόδων που προορίζονται να συμπιέσουν [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public static class Compress
@@ -18,9 +18,11 @@ public static class Compress
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | Δημιουργεί συμπίεση του [`Presentation`](../../aspose.slides/presentation) αφαιρώντας αχρησιμοποίητους χαρακτήρες από ενσωματωμένες γραμματοσειρές. |
-| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | Δημιουργεί συμπίεση του [`Presentation`](../../aspose.slides/presentation) αφαιρώντας αχρησιμοποίητες διαφάνειες διάταξης. |
-| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | Δημιουργεί συμπίεση του [`Presentation`](../../aspose.slides/presentation) αφαιρώντας αχρησιμοποίητες κύριες διαφάνειες. |
+| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | Κάνει τη συμπίεση του [`Presentation`](../../aspose.slides/presentation) αφαιρώντας αχρησιμοποίητους χαρακτήρες από τις ενσωματωμένες γραμματοσειρές. |
+| static [CompressImages](../../aspose.slides.lowcode/compress/compressimages)(IPresentation, PicturesCompression) | Μειώνει την ανάλυση των εικόνων στην παρουσίαση και διαγράφει τις περικομμένες περιοχές τους, παρόμοιο με το "Compress Pictures" του PowerPoint που εφαρμόζεται σε όλες τις εικόνες. Οι εικόνες στις διαφάνειες, στις διαφάνειες διάταξης και στις κύριες διαφάνειες επεξεργάζονται, συμπεριλαμβανομένων των εικόνων μέσα σε ομάδες σχημάτων και των γεμισμάτων εικόνας των σχημάτων. |
+| static [CompressPresentation](../../aspose.slides.lowcode/compress/compresspresentation)(Presentation) | Μειώνει το μέγεθος μιας παρουσίασης εφαρμόζοντας όλα τα διαθέσιμα βήματα συμπίεσης: |
+| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | Κάνει τη συμπίεση του [`Presentation`](../../aspose.slides/presentation) αφαιρώντας αχρησιμοποίητες διαφάνειες διάταξης. |
+| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | Κάνει τη συμπίεση του [`Presentation`](../../aspose.slides/presentation) αφαιρώντας αχρησιμοποίητες κύριες διαφάνειες. |
 
 ### Παραδείγματα
 

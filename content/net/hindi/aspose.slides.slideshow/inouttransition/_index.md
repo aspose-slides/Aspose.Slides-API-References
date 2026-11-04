@@ -1,14 +1,14 @@
 ---
 title: InOutTransition
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: इन-आउट स्लाइड ट्रांज़िशन प्रभाव।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: In-Out स्लाइड ट्रांज़िशन प्रभाव।
 type: docs
-weight: 10230
+weight: 10250
 url: /hi/aspose.slides.slideshow/inouttransition/
 ---
 ## InOutTransition क्लास
 
-इन-आउट स्लाइड ट्रांज़िशन प्रभाव।
+In-Out स्लाइड ट्रांज़िशन इफ़ेक्ट।
 
 ```csharp
 public class InOutTransition : TransitionValueBase, IInOutTransition
@@ -16,18 +16,18 @@ public class InOutTransition : TransitionValueBase, IInOutTransition
 
 ## गुण
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/inouttransition/direction) { get; set; } | ट्रांज़िशन प्रभाव की दिशा। पढ़ें/लिखें [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/inouttransition/direction) { get; set; } | एक ट्रांज़िशन इफ़ेक्ट की दिशा। पढ़ें/लिखें [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 
 ## विधियाँ
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | निर्धारित करता है कि दो TransitionValueBase उदाहरण समान हैं या नहीं। |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | किसी विशिष्ट प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है, जो हैशिंग एल्गोरिद्म और हैश टेबल जैसी डेटा संरचनाओं में उपयोगी है। |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | निर्धारित करता है कि दो TransitionValueBase उदाहरण बराबर हैं या नहीं। |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | एक विशिष्ट प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है, जो हैशिंग एल्गोरिद्म और हैश टेबल जैसी डेटा संरचनाओं में उपयोग के लिए उपयुक्त है। |
 
-### देखें
+### संबंधित देखें
 
 * क्लास [TransitionValueBase](../transitionvaluebase)
 * इंटरफ़ेस [IInOutTransition](../iinouttransition)

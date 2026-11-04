@@ -1,14 +1,14 @@
 ---
 title: Orientation
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk .NET Referensi API
 description: Mewakili orientasi sebuah shape.
 type: docs
-weight: 9240
+weight: 9260
 url: /id/aspose.slides/orientation/
 ---
 ## Enumerasi Orientasi
 
-Mewakili orientasi sebuah shape.
+Mewakili orientasi sebuah Shape.
 
 ```csharp
 public enum Orientation : sbyte
@@ -16,9 +16,9 @@ public enum Orientation : sbyte
 
 ### Nilai
 
-| Nama | Nilai | Deskripsi |
+| Name | Value | Description |
 | --- | --- | --- |
-| Horizontal | `0` | Horizontal. |
+| Horizontal | `0` | Mendatar. |
 | Vertical | `1` | Vertikal. |
 
 ### Lihat Juga

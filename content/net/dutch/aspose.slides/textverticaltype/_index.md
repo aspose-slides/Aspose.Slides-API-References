@@ -1,14 +1,14 @@
 ---
 title: TextVerticalType
-second_title: Aspose.Sildes voor .NET API Referentie
-description: Bepaalt de verticale schrijfrichting voor een tekst.
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Bepaalt de verticale schrijfmodus voor een tekst.
 type: docs
-weight: 11030
+weight: 11050
 url: /nl/aspose.slides/textverticaltype/
 ---
 ## TextVerticalType enumeratie
 
-Bepaalt de verticale schrijfrichting voor tekst.
+Bepaalt de verticale schrijfmodus voor een tekst.
 
 ```csharp
 public enum TextVerticalType : sbyte
@@ -22,10 +22,10 @@ public enum TextVerticalType : sbyte
 | Horizontal | `0` | Horizontale tekst. |
 | Vertical | `1` | Verticale tekst. |
 | Vertical270 | `2` | Verticale tekst van 270 graden. |
-| WordArtVertical | `3` | WordArt-verticale tekst. |
+| WordArtVertical | `3` | WordArt verticale tekst. |
 | EastAsianVertical | `4` | Oost-Aziatische verticale tekst. |
 | MongolianVertical | `5` | Mongoolse verticale tekst. |
-| WordArtVerticalRightToLeft | `6` | WordArt-verticale tekst van rechts naar links. |
+| WordArtVerticalRightToLeft | `6` | WordArt verticale tekst van rechts naar links. |
 
 ### Zie ook
 

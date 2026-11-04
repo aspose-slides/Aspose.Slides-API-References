@@ -1,12 +1,12 @@
 ---
 title: ForEach.ForEachLayoutSlideCallback
 second_title: Aspose.Sildes för .NET API-referens
-description: Callback som kommer att anropas för varje LayoutSlide./foreach/layoutslide i Presentation../aspose.slides/presentation.
+description: Återuppringning som kommer att anropas för varje LayoutSlide./foreach/layoutslide i Presentation../aspose.slides/presentation.
 type: docs
-weight: 7910
+weight: 7930
 url: /sv/aspose.slides.lowcode/foreach.foreachlayoutslidecallback/
 ---
-## ForEach.ForEachLayoutSlideCallback delegate
+## ForEach.ForEachLayoutSlideCallback delegat
 
 Återuppringning som kommer att anropas för varje [`LayoutSlide`](../foreach/layoutslide) i [`Presentation`](../../aspose.slides/presentation).
 
@@ -17,9 +17,9 @@ public delegate void ForEachLayoutSlideCallback(LayoutSlide layoutSlide, int ind
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | layoutSlide | LayoutSlide | Aktuell itererad layoutslide |
-| index | Int32 | Index för den aktuella layout slide |
+| index | Int32 | Index för den aktuella layoutsliden |
 
-### Se även
+### Se också
 
 * klass [LayoutSlide](../../aspose.slides/layoutslide)
 * klass [ForEach](../foreach)

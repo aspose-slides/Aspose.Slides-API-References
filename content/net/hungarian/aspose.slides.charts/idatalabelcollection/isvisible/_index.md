@@ -1,24 +1,24 @@
 ---
 title: IsVisible
 second_title: Aspose.Sildes a .NET API referencia
-description: A False azt jelenti, hogy az adatcímke alapértelmezés szerint nem látható, és ezért a DefaultDataLabelFormat tulajdonság összes Show*-flagje (ShowValue, ...) hamis. Csak olvasható Boolean.
+description: A False azt jelenti, hogy az adatcímke alapértelmezés szerint nem látható, és ezért a DefaultDataLabelFormat tulajdonság minden Show-flags ShowValue ... false állapotú. Csak olvasható Boolean.
 type: docs
-weight: 60
+weight: 70
 url: /hu/aspose.slides.charts/idatalabelcollection/isvisible/
 ---
 ## IDataLabelCollection.IsVisible tulajdonság
 
-A False azt jelenti, hogy az adatcímke alapértelmezés szerint nem látható (és ezért a DefaultDataLabelFormat tulajdonság összes Show*-jelzője (ShowValue, ...) hamis). Csak olvasható Boolean.
+A False azt jelenti, hogy az adatcímke alapértelmezés szerint nem látható (és így a DefaultDataLabelFormat tulajdonság összes Show*-flags (ShowValue, ...) false). Csak olvasható Boolean.
 
 ```csharp
 public bool IsVisible { get; }
 ```
 
-### Megjegyzések
+### Megjegyzés
 
-Ha az adatcímke alapértelmezés szerint látható, akkor a Hide() metódussal teheted alapértelmezés szerint rejtetté. Ha azonban az adatcímke alapértelmezés szerint nem látható (IsVisible hamis), akkor a DefaultDataLabelFormat tulajdonság Show*-jelzőinek (ShowValue, ...) true állapotra állításával teheted az adatcímkét „alapértelmezés szerint láthatóvá”.
+Ha az adatcímke alapértelmezés szerint látható, elrejtheti alapértelmezés szerint a Hide() metódussal. De ha az adatcímke alapértelmezés szerint nem látható (IsVisible false), a Show*-flags (ShowValue, ...) a DefaultDataLabelFormat tulajdonságban true állapotra állításával teheti az adatcímkét "alapértelmezés szerint láthatóvá".
 
-### Lásd még
+### További hivatkozások
 
 * interfész [IDataLabelCollection](../../idatalabelcollection)
 * névtér [Aspose.Slides.Charts](../../idatalabelcollection)

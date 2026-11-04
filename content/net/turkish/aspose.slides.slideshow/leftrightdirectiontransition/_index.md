@@ -3,7 +3,7 @@ title: LeftRightDirectionTransition
 second_title: Aspose.Sildes için .NET API Referansı
 description: Sol-sağ yönlü slayt geçiş efekti.
 type: docs
-weight: 10240
+weight: 10260
 url: /tr/aspose.slides.slideshow/leftrightdirectiontransition/
 ---
 ## LeftRightDirectionTransition sınıfı
@@ -18,16 +18,16 @@ public class LeftRightDirectionTransition : TransitionValueBase, ILeftRightDirec
 
 | Ad | Açıklama |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/leftrightdirectiontransition/direction) { get; set; } | Geçiş yönü. Okunur/Yazılır [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/leftrightdirectiontransition/direction) { get; set; } | Geçiş yönü. Okuma/Yazma [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | İki TransitionValueBase örneğinin eşit olup olmadığını belirler. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Belirli bir tip için bir karma işlevi görevi görür; karma tabloları gibi karma algoritmaları ve veri yapıları için uygundur. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Belirli bir tip için bir hash işlevi olarak hizmet eder, hash algoritmaları ve hash tablosu gibi veri yapılarını kullanmak için uygundur. |
 
-### Ayrıca Bakınız
+### İlgili Bağlantılar
 
 * sınıf [TransitionValueBase](../transitionvaluebase)
 * arayüz [ILeftRightDirectionTransition](../ileftrightdirectiontransition)

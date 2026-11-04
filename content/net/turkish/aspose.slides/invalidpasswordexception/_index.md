@@ -3,7 +3,7 @@ title: InvalidPasswordException
 second_title: Aspose.Sildes .NET için API Referansı
 description: Sunum dosyası formatı desteklenmediğinde atılan istisna.
 type: docs
-weight: 7620
+weight: 7640
 url: /tr/aspose.slides/invalidpasswordexception/
 ---
 ## InvalidPasswordException sınıfı
@@ -22,7 +22,7 @@ public class InvalidPasswordException : Exception
 | [InvalidPasswordException](invalidpasswordexception#constructor_1)(string) | Bu istisnaya bir mesaj eklenmesini sağlayan yapıcı. |
 | [InvalidPasswordException](invalidpasswordexception#constructor_2)(string, Exception) | Bir mesaj ve gömülü bir istisna içeren bir istisna için yapıcı. |
 
-### Bakınız
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

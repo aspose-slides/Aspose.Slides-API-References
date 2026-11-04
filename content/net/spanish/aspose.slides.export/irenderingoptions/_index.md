@@ -3,10 +3,10 @@ title: IRenderingOptions
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Proporciona opciones que controlan cómo se renderiza una presentación/diapositiva.
 type: docs
-weight: 4040
+weight: 4060
 url: /es/aspose.slides.export/irenderingoptions/
 ---
-## Interfaz IRenderingOptions
+## IRenderingOptions interfaz
 
 Proporciona opciones que controlan cómo se renderiza una presentación/diapositiva.
 
@@ -20,7 +20,7 @@ public interface IRenderingOptions : ISaveOptions
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/irenderingoptions/asisaveoptions) { get; } | Devuelve la interfaz ISaveOptions. Solo lectura [`ISaveOptions`](../isaveoptions). |
 | [DisableFontLigatures](../../aspose.slides.export/irenderingoptions/disablefontligatures) { get; set; } | Obtiene o establece un valor que indica si el texto se renderiza sin usar ligaduras. Cuando se establece en `true`, las ligaduras se desactivarán en la salida renderizada. Por defecto, esta propiedad está establecida en `false`. |
-| [InkOptions](../../aspose.slides.export/irenderingoptions/inkoptions) { get; } | Proporciona opciones que controlan el aspecto de los objetos Ink en el documento exportado. Solo lectura [`IInkOptions`](../iinkoptions) |
+| [InkOptions](../../aspose.slides.export/irenderingoptions/inkoptions) { get; } | Proporciona opciones que controlan la apariencia de los objetos Ink en el documento exportado. Solo lectura [`IInkOptions`](../iinkoptions) |
 | [SlidesLayoutOptions](../../aspose.slides.export/irenderingoptions/slideslayoutoptions) { get; set; } | Obtiene o establece el modo en que las diapositivas se colocan en la página al exportar una presentación [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### Ejemplos
@@ -42,7 +42,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Véase también
+### Ver también
 
 * interfaz [ISaveOptions](../isaveoptions)
 * espacio de nombres [Aspose.Slides.Export](../../aspose.slides.export)

@@ -1,14 +1,14 @@
 ---
 title: IEffectStyleCollection
-second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایشگر یک مجموعه از سبک‌های افکت است.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: نمایانگر یک مجموعه از سبک‌های افکت است.
 type: docs
-weight: 11180
+weight: 11200
 url: /fa/aspose.slides.theme/ieffectstylecollection/
 ---
 ## IEffectStyleCollection رابط
 
-نمایشگر یک مجموعه از سبک‌های افکت است.
+نمایانگر یک مجموعه از سبک‌های افکت است.
 
 ```csharp
 public interface IEffectStyleCollection : IGenericCollection<IEffectStyle>
@@ -18,7 +18,7 @@ public interface IEffectStyleCollection : IGenericCollection<IEffectStyle>
 
 | نام | توضیح |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ieffectstylecollection/item) { get; } | عنصری در موقعیت مشخص را باز می‌گرداند. فقط-خواندنی [`IEffectStyle`](../ieffectstyle). |
+| [Item](../../aspose.slides.theme/ieffectstylecollection/item) { get; } | عنصری را در موقعیت مشخص بازمی‌گرداند. فقط خواندنی [`IEffectStyle`](../ieffectstyle). |
 
 ### موارد مرتبط
 

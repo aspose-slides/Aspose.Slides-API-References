@@ -1,9 +1,9 @@
 ---
 title: NormalViewProperties
 second_title: Aspose.Sildes pro .NET API Reference
-description: "Reprezentuje vlastnosti normálního zobrazení. Normální zobrazení se skládá ze tří oblastí obsahu: samotného snímku, postranní oblasti obsahu a spodní oblasti obsahu."
+description: Reprezentuje vlastnosti normálního zobrazení. Normální zobrazení se skládá ze tří oblastí obsahu: samotného snímku, postranní oblasti obsahu a spodní oblasti obsahu.
 type: docs
-weight: 9110
+weight: 9130
 url: /cs/aspose.slides/normalviewproperties/
 ---
 ## NormalViewProperties třída
@@ -18,13 +18,13 @@ public class NormalViewProperties : INormalViewProperties
 
 | Název | Popis |
 | --- | --- |
-| [HorizontalBarState](../../aspose.slides/normalviewproperties/horizontalbarstate) { get; set; } | Určuje stav, ve kterém by měl být zobrazen vodorovný dělící pruh. Vodorovný dělící pruh odděluje snímek od oblasti obsahu pod snímkem. |
-| [PreferSingleView](../../aspose.slides/normalviewproperties/prefersingleview) { get; set; } | Určuje, zda uživatel upřednostňuje zobrazení jedné oblasti obsahu v celém okně místo standardního normálního zobrazení se třemi oblastmi obsahu. Pokud je povoleno, aplikace může zobrazit jednu z oblastí obsahu v celém okně. Čtení/zápis Boolean. |
-| [RestoredLeft](../../aspose.slides/normalviewproperties/restoredleft) { get; } | Tento prvek určuje velikost postranní oblasti obsahu normálního zobrazení, když je oblast v proměnném obnoveném stavu (ani minimalizovaná, ani maximalizovaná). Pouze pro čtení [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [RestoredTop](../../aspose.slides/normalviewproperties/restoredtop) { get; } | Tento prvek určuje velikost horní oblasti snímku normálního zobrazení, když je oblast v proměnném obnoveném stavu (ani minimalizovaná, ani maximalizovaná). Pouze pro čtení [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [ShowOutlineIcons](../../aspose.slides/normalviewproperties/showoutlineicons) { get; set; } | Určuje, zda by aplikace měla zobrazovat ikony při zobrazování obsahu osnovy v některé z oblastí obsahu režimu normálního zobrazení. Čtení/zápis Boolean. |
-| [SnapVerticalSplitter](../../aspose.slides/normalviewproperties/snapverticalsplitter) { get; set; } | Určuje, zda by se měl svislý dělící pruh přichytit do minimalizovaného stavu, když je postranní oblast dostatečně malá. Čtení/zápis Boolean. |
-| [VerticalBarState](../../aspose.slides/normalviewproperties/verticalbarstate) { get; set; } | Určuje stav, ve kterém by měl být zobrazen svislý dělící pruh. Svislý dělící pruh odděluje snímek od postranní oblasti obsahu. |
+| [HorizontalBarState](../../aspose.slides/normalviewproperties/horizontalbarstate) { get; set; } | Určuje stav, ve kterém by měla být zobrazena horizontální část děliče. Horizontální část děliče odděluje snímek od oblasti obsahu pod snímkem. |
+| [PreferSingleView](../../aspose.slides/normalviewproperties/prefersingleview) { get; set; } | Určuje, zda uživatel upřednostňuje zobrazení jedné oblasti obsahu na celé obrazovce místo standardního normálního zobrazení se třemi oblastmi obsahu. Pokud je povoleno, může aplikace zobrazit jednu z oblastí obsahu v celém okně. Read/write Boolean. |
+| [RestoredLeft](../../aspose.slides/normalviewproperties/restoredleft) { get; } | Tento prvek určuje velikost postranní oblasti obsahu normálního zobrazení, když je oblast v proměnné obnovené velikosti (ne minimalizovaná ani maximalizovaná). Pouze pro čtení [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [RestoredTop](../../aspose.slides/normalviewproperties/restoredtop) { get; } | Tento prvek určuje velikost horní oblasti snímku normálního zobrazení, když je oblast v proměnné obnovené velikosti (ne minimalizovaná ani maximalizovaná). Pouze pro čtení [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [ShowOutlineIcons](../../aspose.slides/normalviewproperties/showoutlineicons) { get; set; } | Určuje, zda by aplikace měla zobrazovat ikony při zobrazování obsahu osnovy v některé z oblastí obsahu normálního režimu zobrazení. Read/write Boolean. |
+| [SnapVerticalSplitter](../../aspose.slides/normalviewproperties/snapverticalsplitter) { get; set; } | Určuje, zda se vertikální dělič má přichytit k minimalizovanému stavu, když je postranní oblast dostatečně malá. Read/write Boolean. |
+| [VerticalBarState](../../aspose.slides/normalviewproperties/verticalbarstate) { get; set; } | Určuje stav, ve kterém by měla být zobrazena vertikální část děliče. Vertikální část děliče odděluje snímek od postranní oblasti obsahu. |
 
 ### Příklady
 

@@ -1,14 +1,14 @@
 ---
 title: IEmptyTransition
-second_title: Aspose.Sildes için .NET API Referansı
-description: Boş slayt geçiş efekti.
+second_title: Aspose.Sildes .NET API Referansı
+description: Boş slayt geçiş etkisi.
 type: docs
-weight: 10080
+weight: 10100
 url: /tr/aspose.slides.slideshow/iemptytransition/
 ---
-## IEmptyTransition arayüz
+## IEmptyTransition interface
 
-Boş slayt geçiş efekti.
+Boş slayt geçiş etkisi.
 
 ```csharp
 public interface IEmptyTransition : ITransitionValueBase
@@ -20,7 +20,7 @@ public interface IEmptyTransition : ITransitionValueBase
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/iemptytransition/asitransitionvaluebase) { get; } | Temel ITransitionValueBase arayüzünü almayı sağlar. Salt okunur [`ITransitionValueBase`](../itransitionvaluebase). |
 
-### Ayrıca
+### Ayrıca Bakınız
 
 * arayüz [ITransitionValueBase](../itransitionvaluebase)
 * ad alanı [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

@@ -1,14 +1,14 @@
 ---
 title: IControlPropertiesCollection
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: ActiveX नियंत्रणों का एक संग्रह।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: ActiveX नियंत्रणों का संग्रह।
 type: docs
-weight: 5650
+weight: 5670
 url: /hi/aspose.slides/icontrolpropertiescollection/
 ---
 ## IControlPropertiesCollection इंटरफ़ेस
 
-ActiveX नियंत्रणों का एक संग्रह।
+ActiveX नियंत्रणों का संग्रह।
 
 ```csharp
 public interface IControlPropertiesCollection : IEnumerable<KeyValuePair<string, string>>
@@ -18,10 +18,10 @@ public interface IControlPropertiesCollection : IEnumerable<KeyValuePair<string,
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides/icontrolpropertiescollection/asienumerable) { get; } | IEnumerable इंटरफ़ेस लौटाता है। केवल-पढ़ने योग्य IEnumerable। |
-| [Count](../../aspose.slides/icontrolpropertiescollection/count) { get; } | संग्रह में गुणों की संख्या लौटाता है। केवल-पढ़ने योग्य Int32। |
-| [Item](../../aspose.slides/icontrolpropertiescollection/item) { get; set; } | गुण लौटाता है या सेट करता है। |
-| [NamesOfProperties](../../aspose.slides/icontrolpropertiescollection/namesofproperties) { get; } | संग्रह में गुणों की संख्या लौटाता है। केवल-पढ़ने योग्य ICollection। |
+| [AsIEnumerable](../../aspose.slides/icontrolpropertiescollection/asienumerable) { get; } | IEnumerable इंटरफ़ेस लौटाता है। केवल पढ़ने योग्य IEnumerable। |
+| [Count](../../aspose.slides/icontrolpropertiescollection/count) { get; } | संग्रह में गुणों की संख्या लौटाता है। केवल पढ़ने योग्य Int32। |
+| [Item](../../aspose.slides/icontrolpropertiescollection/item) { get; set; } | गुण को लौटाता है या सेट करता है। |
+| [NamesOfProperties](../../aspose.slides/icontrolpropertiescollection/namesofproperties) { get; } | संग्रह में गुणों की संख्या लौटाता है। केवल पढ़ने योग्य ICollection। |
 
 ## मेथड्स
 
@@ -29,9 +29,9 @@ public interface IControlPropertiesCollection : IEnumerable<KeyValuePair<string,
 | --- | --- |
 | [Add](../../aspose.slides/icontrolpropertiescollection/add)(string, string) | संग्रह में एक गुण जोड़ता है। |
 | [Clear](../../aspose.slides/icontrolpropertiescollection/clear)() | सभी गुणों को हटाता है। |
-| [Remove](../../aspose.slides/icontrolpropertiescollection/remove)(string) | निर्दिष्ट नाम वाले गुण को हटाता है। |
+| [Remove](../../aspose.slides/icontrolpropertiescollection/remove)(string) | निर्दिष्ट नाम वाला गुण हटाता है। |
 
-### देखें
+### संबंधित देखें
 
 * नेमस्पेस [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

@@ -1,9 +1,9 @@
 ---
 title: IPortionFormat
-second_title: Aspose.Sildes dla .NET Referencja API
+second_title: Aspose.Sildes dla .NET API Referencja
 description: Ta klasa zawiera właściwości formatowania fragmentu tekstu. W przeciwieństwie do IPortionFormatEffectiveData./iportionformateffectivedata wszystkie właściwości tej klasy są zapisywalne.
 type: docs
-weight: 6730
+weight: 6750
 url: /pl/aspose.slides/iportionformat/
 ---
 ## IPortionFormat interfejs
@@ -19,23 +19,23 @@ public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
 | Nazwa | Opis |
 | --- | --- |
 | [AsIBasePortionFormat](../../aspose.slides/iportionformat/asibaseportionformat) { get; } | Zwraca interfejs IBasePortionFormat. Tylko do odczytu [`IBasePortionFormat`](../ibaseportionformat). |
-| [AsIHyperlinkContainer](../../aspose.slides/iportionformat/asihyperlinkcontainer) { get; } | Umożliwia pobranie podstawowego interfejsu IHyperlinkContainer. Tylko do odczytu [`IHyperlinkContainer`](../ihyperlinkcontainer). |
+| [AsIHyperlinkContainer](../../aspose.slides/iportionformat/asihyperlinkcontainer) { get; } | Umożliwia pobranie bazowego interfejsu IHyperlinkContainer. Tylko do odczytu [`IHyperlinkContainer`](../ihyperlinkcontainer). |
 | [BookmarkId](../../aspose.slides/iportionformat/bookmarkid) { get; set; } | Zwraca lub ustawia identyfikator zakładki. Odczyt/zapis String. |
-| [SmartTagClean](../../aspose.slides/iportionformat/smarttagclean) { get; set; } | Określa, czy znacznik inteligentny powinien być usunięty. Nie stosuje się dziedziczenia. Odczyt/zapis Boolean. |
+| [SmartTagClean](../../aspose.slides/iportionformat/smarttagclean) { get; set; } | Określa, czy inteligentny znacznik powinien być usunięty. Nie zastosowano dziedziczenia. Odczyt/zapis Boolean. |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [GetEffective](../../aspose.slides/iportionformat/geteffective)() | Pobiera efektywne dane formatowania fragmentu z zastosowanym dziedziczeniem. |
+| [GetEffective](../../aspose.slides/iportionformat/geteffective)() | Pobiera efektywne dane formatowania części z zastosowanym dziedziczeniem. |
 
 ### Uwagi
 
-Ta klasa służy do zwracania i manipulowania właściwościami formatowania fragmentu tekstu zdefiniowanymi dla konkretnego fragmentu. Oznacza to, że przy pobieraniu wartości nie jest stosowane dziedziczenie, więc w większości przypadków otrzymasz wartości oznaczające „niezdefiniowane”.
+Ta klasa jest używana do zwracania i manipulowania właściwościami formatowania fragmentu tekstu zdefiniowanymi dla konkretnego fragmentu. Oznacza to, że przy pobieraniu wartości nie jest stosowane dziedziczenie, więc w większości przypadków otrzymasz wartości oznaczające „niezdefiniowane”.
 
-Aby uzyskać efektywne wartości parametrów formatowania, w tym dziedziczone, należy użyć metody [`GetEffective`](./geteffective), która zwraca instancję [`IPortionFormatEffectiveData`](../iportionformateffectivedata).
+Aby uzyskać efektywne wartości parametrów formatowania, w tym odziedziczone, należy użyć metody [`GetEffective`](./geteffective), która zwraca instancję [`IPortionFormatEffectiveData`](../iportionformateffectivedata).
 
-### Zobacz także
+### Zobacz też
 
 * interfejs [IBasePortionFormat](../ibaseportionformat)
 * interfejs [IHyperlinkContainer](../ihyperlinkcontainer)

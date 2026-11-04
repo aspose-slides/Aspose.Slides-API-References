@@ -1,14 +1,14 @@
 ---
 title: MathGroupingCharacterFactory
 second_title: Aspose.Sildes för .NET API-referens
-description: Tillåter att skapa en matematisk grupperingssymbol
+description: Tillåter att skapa ett matematiskt grupperings-tecken
 type: docs
-weight: 8770
+weight: 8790
 url: /sv/aspose.slides.mathtext/mathgroupingcharacterfactory/
 ---
 ## MathGroupingCharacterFactory klass
 
-Tillåter att skapa en matematisk grupperingssymbol
+Tillåter att skapa ett matematiskt grupperings-tecken
 
 ```csharp
 public class MathGroupingCharacterFactory : IMathGroupingCharacterFactory
@@ -24,14 +24,14 @@ public class MathGroupingCharacterFactory : IMathGroupingCharacterFactory
 
 | Namn | Beskrivning |
 | --- | --- |
-| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/mathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter)(IMathElement) | Skapar en matematisk grupperingssymbol |
-| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/mathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter_1)(IMathElement, char, MathTopBotPositions, MathTopBotPositions) | Skapar en matematisk grupperingssymbol |
+| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/mathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter)(IMathElement) | Skapar ett matematiskt grupperings-tecken |
+| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/mathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter_1)(IMathElement, char, MathTopBotPositions, MathTopBotPositions) | Skapar ett matematiskt grupperings-tecken |
 
 ### Anmärkningar
 
 För COM-kompatibilitet
 
-### Se även
+### Se också
 
 * gränssnitt [IMathGroupingCharacterFactory](../imathgroupingcharacterfactory)
 * namnrymd [Aspose.Slides.MathText](../../aspose.slides.mathtext)

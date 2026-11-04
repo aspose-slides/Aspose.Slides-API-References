@@ -1,14 +1,14 @@
 ---
 title: MathRadicalFactory
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Staat toe om een wiskundige wortel te maken
+description: Staat toe een wiskundige wortel te maken
 type: docs
-weight: 8950
+weight: 8970
 url: /nl/aspose.slides.mathtext/mathradicalfactory/
 ---
 ## MathRadicalFactory klasse
 
-Staat toe om een wiskundige wortel te maken
+Staat toe een wiskundige wortel te maken
 
 ```csharp
 public class MathRadicalFactory : IMathRadicalFactory
@@ -16,15 +16,15 @@ public class MathRadicalFactory : IMathRadicalFactory
 
 ## Constructoren
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
 | [MathRadicalFactory](mathradicalfactory)() | De standaardconstructor. |
 
 ## Methoden
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [CreateMathRadical](../../aspose.slides.mathtext/mathradicalfactory/createmathradical)(IMathElement, IMathElement) | Creëert een wiskundige wortel |
+| [CreateMathRadical](../../aspose.slides.mathtext/mathradicalfactory/createmathradical)(IMathElement, IMathElement) | Maakt een wiskundige wortel |
 
 ### Opmerkingen
 

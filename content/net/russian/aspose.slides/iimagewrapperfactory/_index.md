@@ -1,9 +1,9 @@
 ---
 title: IImageWrapperFactory
-second_title: Aspose.Sildes для .NET справка API
+second_title: Aspose.Sildes для .NET — справочник API
 description: Этот интерфейс позволяет инициализировать IBitmapWrapper.
 type: docs
-weight: 6180
+weight: 6200
 url: /ru/aspose.slides/iimagewrapperfactory/
 ---
 ## IImageWrapperFactory интерфейс

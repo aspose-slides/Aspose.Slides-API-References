@@ -1,14 +1,14 @@
 ---
 title: IMasterTheme
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt ein Master-Thema dar.
+description: Stellt ein Master-Theme dar.
 type: docs
-weight: 11310
+weight: 11330
 url: /de/aspose.slides.theme/imastertheme/
 ---
-## IMasterTheme interface
+## IMasterTheme Schnittstelle
 
-Stellt ein Master-Thema dar.
+Stellt ein Master-Theme dar.
 
 ```csharp
 public interface IMasterTheme : ITheme
@@ -18,9 +18,9 @@ public interface IMasterTheme : ITheme
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsITheme](../../aspose.slides.theme/imastertheme/asitheme) { get; } | Ermöglicht das Abrufen der Basis-ITheme-Schnittstelle. Nur-Lese [`ITheme`](../itheme). |
-| [ExtraColorSchemes](../../aspose.slides.theme/imastertheme/extracolorschemes) { get; } | Gibt die Sammlung zusätzlicher Farbschemata zurück. Diese Schemata beeinflussen das Aussehen der Präsentation nicht, sie können als Hauptfarbschema für eine Folie ausgewählt werden. Nur-Lese [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
-| [Name](../../aspose.slides.theme/imastertheme/name) { get; set; } | Gibt den Namen eines Themas zurück. Lese/Schreib String. |
+| [AsITheme](../../aspose.slides.theme/imastertheme/asitheme) { get; } | Ermöglicht das Abrufen der Basis-ITheme-Schnittstelle. Nur lesend [`ITheme`](../itheme). |
+| [ExtraColorSchemes](../../aspose.slides.theme/imastertheme/extracolorschemes) { get; } | Gibt die Sammlung zusätzlicher Farbschemata zurück. Diese Schemata beeinflussen das Aussehen der Präsentation nicht, sie können als Hauptfarbschema für eine Folie ausgewählt werden. Nur lesend [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
+| [Name](../../aspose.slides.theme/imastertheme/name) { get; set; } | Gibt den Namen eines Themes zurück. Lese/Schreib String. |
 
 ### Siehe auch
 

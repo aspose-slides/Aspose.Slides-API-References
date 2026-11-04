@@ -3,12 +3,12 @@ title: SlideCollection
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili koleksi slide.
 type: docs
-weight: 9970
+weight: 9990
 url: /id/aspose.slides/slidecollection/
 ---
 ## SlideCollection kelas
 
-Mewakili kumpulan slide.
+Mewakili koleksi slide.
 
 ```csharp
 public sealed class SlideCollection : DomObject<Presentation>, ISlideCollection
@@ -18,10 +18,10 @@ public sealed class SlideCollection : DomObject<Presentation>, ISlideCollection
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Count](../../aspose.slides/slidecollection/count) { get; } | Mendapatkan jumlah elemen yang sebenarnya terkandung dalam koleksi. Read-only Int32. |
-| [IsSynchronized](../../aspose.slides/slidecollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (thread-safe). Read-only Boolean. |
-| [Item](../../aspose.slides/slidecollection/item) { get; } | Mendapatkan elemen pada indeks yang ditentukan. Read-only [`Slide`](../slide). |
-| [SyncRoot](../../aspose.slides/slidecollection/syncroot) { get; } | Mengembalikan root sinkronisasi. Read-only Object. |
+| [Count](../../aspose.slides/slidecollection/count) { get; } | Mengambil jumlah elemen yang sebenarnya terkandung dalam koleksi. Baca-saja Int32. |
+| [IsSynchronized](../../aspose.slides/slidecollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (aman untuk thread). Baca-saja Boolean. |
+| [Item](../../aspose.slides/slidecollection/item) { get; } | Mengambil elemen pada indeks yang ditentukan. Baca-saja [`Slide`](../slide). |
+| [SyncRoot](../../aspose.slides/slidecollection/syncroot) { get; } | Mengembalikan akar sinkronisasi. Baca-saja Object. |
 
 ## Metode
 
@@ -30,7 +30,7 @@ public sealed class SlideCollection : DomObject<Presentation>, ISlideCollection
 | [AddClone](../../aspose.slides/slidecollection/addclone#addclone)(ISlide) | Menambahkan salinan slide yang ditentukan ke akhir koleksi. |
 | [AddClone](../../aspose.slides/slidecollection/addclone#addclone_1)(ISlide, ILayoutSlide) | Menambahkan salinan slide yang ditentukan ke akhir koleksi. |
 | [AddClone](../../aspose.slides/slidecollection/addclone#addclone_3)(ISlide, ISection) | Menambahkan salinan slide yang ditentukan ke akhir bagian yang ditentukan. |
-| [AddClone](../../aspose.slides/slidecollection/addclone#addclone_2)(ISlide, IMasterSlide, bool) | Menambahkan salinan slide sumber yang ditentukan ke akhir koleksi. Layout yang sesuai akan dipilih secara otomatis dari master yang ditentukan (layout yang sesuai adalah layout dengan Type atau Name yang sama dengan layout slide sumber). Jika tidak ada layout yang sesuai maka layout slide sumber akan digandakan (jika allowCloneMissingLayout true) atau PptxEditException akan dilempar (jika allowCloneMissingLayout false). |
+| [AddClone](../../aspose.slides/slidecollection/addclone#addclone_2)(ISlide, IMasterSlide, bool) | Menambahkan salinan slide sumber yang ditentukan ke akhir koleksi. Tata letak yang sesuai akan dipilih secara otomatis dari master yang ditentukan (tata letak yang sesuai adalah tata letak dengan Type atau Name yang sama dengan tata letak slide sumber). Jika tidak ada tata letak yang sesuai, maka tata letak slide sumber akan digandakan (jika allowCloneMissingLayout bernilai true) atau PptxEditException akan dilempar (jika allowCloneMissingLayout bernilai false). |
 | [AddEmptySlide](../../aspose.slides/slidecollection/addemptyslide)(ILayoutSlide) | Menambahkan slide kosong baru ke akhir koleksi. |
 | [AddFromHtml](../../aspose.slides/slidecollection/addfromhtml#addfromhtml)(Stream) | Membuat slide dari teks HTML dan menambahkannya ke akhir koleksi. |
 | [AddFromHtml](../../aspose.slides/slidecollection/addfromhtml#addfromhtml_4)(string) | Membuat slide dari teks HTML dan menambahkannya ke akhir koleksi. |
@@ -41,13 +41,13 @@ public sealed class SlideCollection : DomObject<Presentation>, ISlideCollection
 | [AddFromPdf](../../aspose.slides/slidecollection/addfrompdf#addfrompdf)(Stream) | Membuat slide dari dokumen PDF dan menambahkannya ke akhir koleksi. |
 | [AddFromPdf](../../aspose.slides/slidecollection/addfrompdf#addfrompdf_2)(string) | Membuat slide dari dokumen PDF dan menambahkannya ke akhir koleksi. |
 | [AddFromPdf](../../aspose.slides/slidecollection/addfrompdf#addfrompdf_1)(Stream, PdfImportOptions) | Membuat slide dari dokumen PDF dan menambahkannya ke akhir koleksi. |
-| [AddFromPdf](../../aspose.slides/slidecollection/addfrompdf#addfrompdf_3)(string, PdfImportOptions) | Membuat slide dari dokumen PDF dan menambahkannya ke akhir koleksi dengan mempertimbangkan opsi impor PDF. |
+| [AddFromPdf](../../aspose.slides/slidecollection/addfrompdf#addfrompdf_3)(string, PdfImportOptions) | Membuat slide dari dokumen PDF dan menambahkannya ke akhir koleksi dengan mempertimbangkan opsi impor pdf. |
 | [CopyTo](../../aspose.slides/slidecollection/copyto)(Array, int) | Menyalin semua elemen dari koleksi ke array yang ditentukan. |
-| [GetEnumerator](../../aspose.slides/slidecollection/getenumerator)() | Mengembalikan enumerator yang mengiterasi melalui koleksi. |
+| [GetEnumerator](../../aspose.slides/slidecollection/getenumerator)() | Mengembalikan enumerator yang mengiterasi koleksi. |
 | [IndexOf](../../aspose.slides/slidecollection/indexof)(ISlide) | Mengembalikan indeks slide yang ditentukan dalam koleksi. |
 | [InsertClone](../../aspose.slides/slidecollection/insertclone#insertclone)(int, ISlide) | Menyisipkan salinan slide yang ditentukan ke posisi yang ditentukan dalam koleksi. |
 | [InsertClone](../../aspose.slides/slidecollection/insertclone#insertclone_1)(int, ISlide, ILayoutSlide) | Menyisipkan salinan slide yang ditentukan ke posisi yang ditentukan dalam koleksi. |
-| [InsertClone](../../aspose.slides/slidecollection/insertclone#insertclone_2)(int, ISlide, IMasterSlide, bool) | Menyisipkan salinan slide sumber yang ditentukan ke posisi yang ditentukan dalam koleksi. Layout yang sesuai akan dipilih secara otomatis dari master yang ditentukan (layout yang sesuai adalah layout dengan Type atau Name yang sama dengan layout slide sumber). Jika tidak ada layout yang sesuai maka layout slide sumber akan digandakan (jika allowCloneMissingLayout true) atau PptxEditException akan dilempar (jika allowCloneMissingLayout false). |
+| [InsertClone](../../aspose.slides/slidecollection/insertclone#insertclone_2)(int, ISlide, IMasterSlide, bool) | Menyisipkan salinan slide sumber yang ditentukan ke posisi yang ditentukan dalam koleksi. Tata letak yang sesuai akan dipilih secara otomatis dari master yang ditentukan (tata letak yang sesuai adalah tata letak dengan Type atau Name yang sama dengan tata letak slide sumber). Jika tidak ada tata letak yang sesuai, maka tata letak slide sumber akan digandakan (jika allowCloneMissingLayout bernilai true) atau PptxEditException akan dilempar (jika allowCloneMissingLayout bernilai false). |
 | [InsertEmptySlide](../../aspose.slides/slidecollection/insertemptyslide)(int, ILayoutSlide) | Menyisipkan salinan slide yang ditentukan ke posisi yang ditentukan dalam koleksi. |
 | [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml)(int, Stream) | Membuat slide dari teks HTML dan menyisipkannya ke koleksi pada posisi yang ditentukan. |
 | [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_6)(int, string) | Membuat slide dari teks HTML dan menyisipkannya ke koleksi pada posisi yang ditentukan. |
@@ -59,12 +59,12 @@ public sealed class SlideCollection : DomObject<Presentation>, ISlideCollection
 | [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_5)(int, TextReader, IExternalResourceResolver, string) | Membuat slide dari teks HTML dan menyisipkannya ke koleksi pada posisi yang ditentukan. |
 | [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_2)(int, Stream, IExternalResourceResolver, string, bool) | Membuat slide dari teks HTML dan menyisipkannya ke koleksi pada posisi yang ditentukan. |
 | [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_8)(int, string, IExternalResourceResolver, string, bool) | Membuat slide dari teks HTML dan menyisipkannya ke koleksi pada posisi yang ditentukan. |
-| [Remove](../../aspose.slides/slidecollection/remove)(ISlide) | Menghapus kemunculan pertama objek tertentu dari koleksi. |
+| [Remove](../../aspose.slides/slidecollection/remove)(ISlide) | Menghapus kejadian pertama dari objek tertentu dalam koleksi. |
 | [RemoveAt](../../aspose.slides/slidecollection/removeat)(int) | Menghapus elemen pada indeks yang ditentukan dalam koleksi. |
 | [Reorder](../../aspose.slides/slidecollection/reorder#reorder)(int, ISlide) | Memindahkan slide dari koleksi ke posisi yang ditentukan. |
 | [Reorder](../../aspose.slides/slidecollection/reorder#reorder_1)(int, params ISlide[]) | Memindahkan slide dari koleksi ke posisi yang ditentukan. Slide akan ditempatkan mulai dari indeks sesuai urutan mereka muncul dalam daftar. |
-| [ToArray](../../aspose.slides/slidecollection/toarray#toarray)() | Membuat dan mengembalikan array yang berisi semua slide di dalamnya. |
-| [ToArray](../../aspose.slides/slidecollection/toarray#toarray_1)(int, int) | Membuat dan mengembalikan array yang berisi semua slide dari rentang yang ditentukan di dalamnya. Indeks slide pertama yang akan ditambahkan. Jumlah slide yang akan ditambahkan. |
+| [ToArray](../../aspose.slides/slidecollection/toarray#toarray)() | Membuat dan mengembalikan array yang berisi semua slide. |
+| [ToArray](../../aspose.slides/slidecollection/toarray#toarray_1)(int, int) | Membuat dan mengembalikan array yang berisi semua slide dari rentang yang ditentukan. Indeks slide pertama yang akan ditambahkan. Jumlah slide yang akan ditambahkan. |
 
 ### Lihat Juga
 

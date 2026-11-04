@@ -1,14 +1,14 @@
 ---
 title: IPresentationHeaderFooterManager
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt den Manager dar, der das Verhalten aller Fußzeilen-, Datums- und Zeit- sowie Seitenzahlen-Platzhalter der Präsentation enthält.
+description: Stellt den Manager dar, der das Verhalten aller Fußzeilen-, Datum-Uhrzeit- und Seitenzahl-Platzhalter der Präsentation verwaltet.
 type: docs
-weight: 6780
+weight: 6800
 url: /de/aspose.slides/ipresentationheaderfootermanager/
 ---
 ## IPresentationHeaderFooterManager Schnittstelle
 
-Stellt den Manager dar, der das Verhalten aller Fußzeilen-, Datums- und Seitenzahl-Platzhalter der Präsentation enthält.
+Stellt den Manager dar, der das Verhalten aller Fußzeilen-, Datum-Uhrzeit- und Seitenzahl-Platzhalter der Präsentation verwaltet.
 
 ```csharp
 public interface IPresentationHeaderFooterManager : IBaseHeaderFooterManager
@@ -24,14 +24,14 @@ public interface IPresentationHeaderFooterManager : IBaseHeaderFooterManager
 
 | Name | Beschreibung |
 | --- | --- |
-| [SetAllDateTimesText](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimestext)(string) | Setzt den Text für alle Datums- und Zeit-Platzhalter, einschließlich Master-Folien, Layout-Folien und Folien. |
-| [SetAllDateTimesVisibility](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimesvisibility)(bool) | Ändert die Sichtbarkeit aller Datums- und Zeit-Platzhalter, einschließlich Master-Folien, Layout-Folien und Folien. |
+| [SetAllDateTimesText](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimestext)(string) | Setzt den Text für alle Datum-Uhrzeit-Platzhalter, einschließlich Master-Folien, Layout-Folien und Folien. |
+| [SetAllDateTimesVisibility](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimesvisibility)(bool) | Ändert die Sichtbarkeit aller Datum-Uhrzeit-Platzhalter, einschließlich Master-Folien, Layout-Folien und Folien. |
 | [SetAllFootersText](../../aspose.slides/ipresentationheaderfootermanager/setallfooterstext)(string) | Setzt den Text für alle Fußzeilen-Platzhalter, einschließlich Master-Folien, Layout-Folien und Folien. |
 | [SetAllFootersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallfootersvisibility)(bool) | Ändert die Sichtbarkeit aller Fußzeilen-Platzhalter, einschließlich Master-Folien, Layout-Folien und Folien. |
 | [SetAllHeadersText](../../aspose.slides/ipresentationheaderfootermanager/setallheaderstext)(string) | Setzt den Text für alle Kopfzeilen-Platzhalter, einschließlich Notizen-Master, Notizen-Folien und Handzettel-Master. |
 | [SetAllHeadersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallheadersvisibility)(bool) | Ändert die Sichtbarkeit aller Kopfzeilen-Platzhalter, einschließlich Notizen-Master, Notizen-Folien und Handzettel-Master. |
-| [SetAllSlideNumbersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Ändert die Sichtbarkeit aller Seitenzahlen-Platzhalter, einschließlich Master-Folien, Layout-Folien und Folien. |
-| [SetVisibilityOnAllTitleSlides](../../aspose.slides/ipresentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Ändert die Sichtbarkeit der Fußzeilen-, Datums- und Zeit- sowie Seitenzahlen-Platzhalter für alle Titelfolien und für die erste Layout-Folie. Titelfolien – Folien, die auf der ersten Layout-Folie basieren (unabhängig vom Typ dieses ersten Layouts). |
+| [SetAllSlideNumbersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Ändert die Sichtbarkeit aller Seitenzahl-Platzhalter, einschließlich Master-Folien, Layout-Folien und Folien. |
+| [SetVisibilityOnAllTitleSlides](../../aspose.slides/ipresentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Ändert die Sichtbarkeit der Fußzeilen-, Datum-Uhrzeit- und Seitenzahl-Platzhalter für alle Titelfolien und für die erste Layout-Folie. Titelfolien – Folien, die auf der ersten Layout-Folie basieren (unabhängig vom Typ dieser ersten Layout-Folie). |
 
 ### Siehe auch
 

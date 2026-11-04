@@ -1,9 +1,9 @@
 ---
 title: PictureFrameLock
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Menentukan operasi mana yang dinonaktifkan pada PictureFrame induk.
 type: docs
-weight: 9420
+weight: 9440
 url: /id/aspose.slides/pictureframelock/
 ---
 ## PictureFrameLock kelas
@@ -18,18 +18,18 @@ public class PictureFrameLock : BaseShapeLock, IPictureFrameLock
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/pictureframelock/adjusthandleslocked) { get; set; } | Menentukan apakah mengubah nilai penyesuaian dilarang. Baca/tulis Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/pictureframelock/arrowheadslocked) { get; set; } | Menentukan apakah mengubah kepala panah dilarang. Baca/tulis Boolean. |
-| [AspectRatioLocked](../../aspose.slides/pictureframelock/aspectratiolocked) { get; set; } | Menentukan apakah bentuk harus mempertahankan rasio aspek saat mengubah ukuran. Baca/tulis Boolean. |
+| [AdjustHandlesLocked](../../aspose.slides/pictureframelock/adjusthandleslocked) { get; set; } | Menentukan apakah perubahan nilai adjust dilarang. Baca/tulis Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/pictureframelock/arrowheadslocked) { get; set; } | Menentukan apakah perubahan arrowheads dilarang. Baca/tulis Boolean. |
+| [AspectRatioLocked](../../aspose.slides/pictureframelock/aspectratiolocked) { get; set; } | Menentukan apakah shape harus mempertahankan rasio aspek saat diubah ukurannya. Baca/tulis Boolean. |
 | [CropLocked](../../aspose.slides/pictureframelock/croplocked) { get; set; } | Menentukan apakah pemotongan gambar dilarang. Baca/tulis Boolean. |
-| [EditPointsLocked](../../aspose.slides/pictureframelock/editpointslocked) { get; set; } | Menentukan apakah mengubah kontur bentuk ini secara langsung dilarang. Baca/tulis Boolean. |
-| [GroupingLocked](../../aspose.slides/pictureframelock/groupinglocked) { get; set; } | Menentukan apakah menambahkan bentuk ini ke grup dilarang. Baca/tulis Boolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Mengembalikan true jika semua bendera kunci dinonaktifkan. Baca-saja Boolean. |
-| [PositionLocked](../../aspose.slides/pictureframelock/positionlocked) { get; set; } | Menentukan apakah memindahkan bentuk ini dilarang. Baca/tulis Boolean. |
-| [RotationLocked](../../aspose.slides/pictureframelock/rotationlocked) { get; set; } | Menentukan apakah mengubah sudut rotasi bentuk ini dilarang. Baca/tulis Boolean. |
-| [SelectLocked](../../aspose.slides/pictureframelock/selectlocked) { get; set; } | Menentukan apakah memilih bentuk ini dilarang. Baca/tulis Boolean. |
-| [ShapeTypeLocked](../../aspose.slides/pictureframelock/shapetypelocked) { get; set; } | Menentukan apakah mengubah tipe bentuk dilarang. Baca/tulis Boolean. |
-| [SizeLocked](../../aspose.slides/pictureframelock/sizelocked) { get; set; } | Menentukan apakah mengubah ukuran bentuk ini dilarang. Baca/tulis Boolean. |
+| [EditPointsLocked](../../aspose.slides/pictureframelock/editpointslocked) { get; set; } | Menentukan apakah perubahan langsung kontur shape ini dilarang. Baca/tulis Boolean. |
+| [GroupingLocked](../../aspose.slides/pictureframelock/groupinglocked) { get; set; } | Menentukan apakah menambahkan shape ini ke grup dilarang. Baca/tulis Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Mengembalikan true jika semua lock-flag dinonaktifkan. Baca-saja Boolean. |
+| [PositionLocked](../../aspose.slides/pictureframelock/positionlocked) { get; set; } | Menentukan apakah pemindahan shape ini dilarang. Baca/tulis Boolean. |
+| [RotationLocked](../../aspose.slides/pictureframelock/rotationlocked) { get; set; } | Menentukan apakah perubahan sudut rotasi shape ini dilarang. Baca/tulis Boolean. |
+| [SelectLocked](../../aspose.slides/pictureframelock/selectlocked) { get; set; } | Menentukan apakah pemilihan shape ini dilarang. Baca/tulis Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/pictureframelock/shapetypelocked) { get; set; } | Menentukan apakah perubahan tipe shape dilarang. Baca/tulis Boolean. |
+| [SizeLocked](../../aspose.slides/pictureframelock/sizelocked) { get; set; } | Menentukan apakah mengubah ukuran shape ini dilarang. Baca/tulis Boolean. |
 
 ### Lihat Juga
 

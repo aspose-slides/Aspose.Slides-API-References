@@ -1,14 +1,14 @@
 ---
 title: Label
 second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje popisek datového bodu grafu. Pouze pro čtení IDataLabelaspose.slides.charts/idatalabel.
+description: Reprezentuje štítek datového bodu grafu. Pouze pro čtení IDataLabelaspose.slides.charts/idatalabel.
 type: docs
-weight: 110
+weight: 150
 url: /cs/aspose.slides.charts/ichartdatapoint/label/
 ---
 ## IChartDataPoint.Label vlastnost
 
-Representuje popisek datového bodu grafu. Pouze pro čtení [`IDataLabel`](../../idatalabel).
+Reprezentuje štítek datového bodu grafu. Pouze pro čtení [`IDataLabel`](../../idatalabel).
 
 ```csharp
 public IDataLabel Label { get; }

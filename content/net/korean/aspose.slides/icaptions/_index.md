@@ -1,14 +1,14 @@
 ---
 title: ICaptions
 second_title: Aspose.Sildes for .NET API 참조
-description: WebVTT 닫힌 캡션을 나타냅니다.
+description: WebVTT 폐쇄 캡션을 나타냅니다.
 type: docs
-weight: 5430
+weight: 5450
 url: /ko/aspose.slides/icaptions/
 ---
 ## ICaptions 인터페이스
 
-Represents the WebVTT closed captions.
+WebVTT 닫힌 캡션을 나타냅니다.
 
 ```csharp
 public interface ICaptions
@@ -16,12 +16,12 @@ public interface ICaptions
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [BinaryData](../../aspose.slides/icaptions/binarydata) { get; } | 폐쇄 캡션의 바이너리 데이터를 반환합니다. 읽기 전용 Byte[]. |
-| [CaptionId](../../aspose.slides/icaptions/captionid) { get; } | 폐쇄 캡션의 전역 고유 식별자(GUID)를 반환합니다. 읽기 전용 Guid. |
-| [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | 폐쇄 캡션 데이터를 UTF-8 인코딩 문자열로 반환합니다. 읽기 전용 String. |
-| [Label](../../aspose.slides/icaptions/label) { get; set; } | 폐쇄 캡션의 레이블을 반환하거나 설정합니다. 읽기/쓰기 String. |
+| [BinaryData](../../aspose.slides/icaptions/binarydata) { get; } | 닫힌 캡션의 바이너리 데이터를 반환합니다. 읽기 전용 Byte[]. |
+| [CaptionId](../../aspose.slides/icaptions/captionid) { get; } | 닫힌 캡션의 전역 고유 식별자(GUID)를 반환합니다. 읽기 전용 Guid. |
+| [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | 닫힌 캡션 데이터를 UTF-8 인코딩 문자열로 반환합니다. 읽기 전용 String. |
+| [Label](../../aspose.slides/icaptions/label) { get; set; } | 닫힌 캡션의 레이블을 반환하거나 설정합니다. 읽기/쓰기 String. |
 
 ### 참고
 

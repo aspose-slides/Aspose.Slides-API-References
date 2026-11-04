@@ -1,14 +1,14 @@
 ---
 title: FlyThroughTransition
-second_title: Aspose.Sildes per .NET API Reference
-description: Effetto di transizione diapositiva fly-through.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Effetto di transizione slide fly-through.
 type: docs
-weight: 10040
+weight: 10060
 url: /it/aspose.slides.slideshow/flythroughtransition/
 ---
 ## FlyThroughTransition classe
 
-Effetto di transizione diapositiva fly-through.
+Effetto di transizione slide fly-through.
 
 ```csharp
 public class FlyThroughTransition : TransitionValueBase, IFlyThroughTransition
@@ -26,7 +26,7 @@ public class FlyThroughTransition : TransitionValueBase, IFlyThroughTransition
 | Nome | Descrizione |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina se le due istanze di TransitionValueBase sono uguali. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funziona come funzione hash per un tipo particolare, idonea per l'uso in algoritmi di hashing e strutture dati come una tabella hash. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funge da funzione hash per un tipo specifico, adatta all'uso in algoritmi di hashing e strutture dati come una tabella hash. |
 
 ### Vedi anche
 

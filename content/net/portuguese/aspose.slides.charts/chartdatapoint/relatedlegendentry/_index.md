@@ -3,10 +3,10 @@ title: RelatedLegendEntry
 second_title: Aspose.Sildes para .NET Referência da API
 description: Propriedades da entrada de legenda correspondente no caso de tipo de gráfico desta lista ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie. Somente leitura ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
 type: docs
-weight: 160
+weight: 200
 url: /pt/aspose.slides.charts/chartdatapoint/relatedlegendentry/
 ---
-## ChartDataPoint.RelatedLegendEntry property
+## ChartDataPoint.RelatedLegendEntry propriedade
 
 Propriedades da entrada de legenda correspondente no caso de tipo de gráfico desta lista: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Somente leitura [`ILegendEntryProperties`](../../ilegendentryproperties).
 

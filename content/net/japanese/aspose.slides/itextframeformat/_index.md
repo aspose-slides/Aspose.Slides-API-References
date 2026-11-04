@@ -1,14 +1,14 @@
 ---
 title: ITextFrameFormat
-second_title: Aspose.Sildes の .NET API リファレンス
-description: TextFrames の書式設定プロパティを含みます。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: TextFrames の書式設定プロパティを含んでいます。
 type: docs
-weight: 7280
+weight: 7300
 url: /ja/aspose.slides/itextframeformat/
 ---
 ## ITextFrameFormat インターフェイス
 
-TextFrame の書式設定プロパティを含みます。
+TextFrame の書式設定プロパティを含んでいます。
 
 ```csharp
 public interface ITextFrameFormat
@@ -18,28 +18,28 @@ public interface ITextFrameFormat
 
 | 名前 | 説明 |
 | --- | --- |
-| [AnchoringType](../../aspose.slides/itextframeformat/anchoringtype) { get; set; } | TextFrame の垂直アンカー テキストを取得または設定します。 読み取り/書き込み [`TextAnchorType`](../textanchortype)。 |
-| [AutofitType](../../aspose.slides/itextframeformat/autofittype) { get; set; } | テキストの自動調整モードを取得または設定します。 読み取り/書き込み [`TextAutofitType`](../textautofittype)。 |
-| [CenterText](../../aspose.slides/itextframeformat/centertext) { get; set; } | NullableBool.True の場合、テキストはボックス内で水平に中央揃えになります。 読み取り/書き込み [`NullableBool`](../nullablebool)。 |
-| [ColumnCount](../../aspose.slides/itextframeformat/columncount) { get; set; } | テキスト領域の列数を取得または設定します。この値は正の数でなければなりません。そうでない場合、値は0に設定されます。値0は未定義を意味します。 読み取り/書き込み Int32。 |
-| [ColumnSpacing](../../aspose.slides/itextframeformat/columnspacing) { get; set; } | テキスト領域内のテキスト列間の間隔（ポイント単位）を取得または設定します。これは列が2つ以上ある場合にのみ適用されます。この値は正の数でなければなりません。そうでない場合、値は0に設定されます。 読み取り/書き込み Double。 |
-| [KeepTextFlat](../../aspose.slides/itextframeformat/keeptextflat) { get; set; } | テキストを3Dシーンから完全に除外するかどうかを取得または設定します。 読み取り/書き込み Boolean。 |
-| [MarginBottom](../../aspose.slides/itextframeformat/marginbottom) { get; set; } | TextFrame の下余白（ポイント）を取得または設定します。 読み取り/書き込み Double。 |
-| [MarginLeft](../../aspose.slides/itextframeformat/marginleft) { get; set; } | TextFrame の左余白（ポイント）を取得または設定します。 読み取り/書き込み Double。 |
-| [MarginRight](../../aspose.slides/itextframeformat/marginright) { get; set; } | TextFrame の右余白（ポイント）を取得または設定します。 読み取り/書き込み Double。 |
-| [MarginTop](../../aspose.slides/itextframeformat/margintop) { get; set; } | TextFrame の上余白（ポイント）を取得または設定します。 読み取り/書き込み Double。 |
-| [RotationAngle](../../aspose.slides/itextframeformat/rotationangle) { get; set; } | バウンディングボックス内のテキストに適用されるカスタム回転を指定します。指定されていない場合、付随するシェイプの回転が使用されます。指定された場合、シェイプとは独立して適用されます。つまり、シェイプに回転が適用されると同時に、テキスト自体にも回転が適用されます。このプロパティと TextVerticalType プロパティの事前定義された垂直タイプから要約された視覚的テキスト回転の結果値です。 読み取り/書き込み Single。 |
-| [TextStyle](../../aspose.slides/itextframeformat/textstyle) { get; } | テキストのスタイルを取得します。 読み取り専用 [`ITextStyle`](../itextstyle)。 |
-| [TextVerticalType](../../aspose.slides/itextframeformat/textverticaltype) { get; set; } | テキストの方向を決定します。このプロパティと RotationAngle プロパティのカスタム角度から要約された視覚的テキスト回転の結果値です。 読み取り/書き込み [`TextVerticalType`](../textverticaltype)。 |
-| [ThreeDFormat](../../aspose.slides/itextframeformat/threedformat) { get; } | テキストの3D効果プロパティを表す ThreeDFormat オブジェクトを取得します。 読み取り専用 [`IThreeDFormat`](../ithreedformat)。 |
-| [Transform](../../aspose.slides/itextframeformat/transform) { get; set; } | テキストの折り返しシェイプを取得または設定します。 読み取り/書き込み [`TextShapeType`](../textshapetype)。 |
-| [WrapText](../../aspose.slides/itextframeformat/wraptext) { get; set; } | **True**  if text is wrapped at TextFrame's margins. 読み取り/書き込み [`NullableBool`](../nullablebool)。 |
+| [AnchoringType](../../aspose.slides/itextframeformat/anchoringtype) { get; set; } | TextFrame の垂直アンカーテキストを取得または設定します。読み書き可能 [`TextAnchorType`](../textanchortype)。 |
+| [AutofitType](../../aspose.slides/itextframeformat/autofittype) { get; set; } | テキストの自動フィットモードを取得または設定します。読み書き可能 [`TextAutofitType`](../textautofittype)。 |
+| [CenterText](../../aspose.slides/itextframeformat/centertext) { get; set; } | NullableBool.True の場合、テキストはボックス内で水平方向に中央揃えされます。読み書き可能 [`NullableBool`](../nullablebool)。 |
+| [ColumnCount](../../aspose.slides/itextframeformat/columncount) { get; set; } | テキスト領域の列数を取得または設定します。この値は正の数でなければなりません。そうでない場合、値は 0 に設定されます。値 0 は未定義を意味します。読み書き可能 Int32。 |
+| [ColumnSpacing](../../aspose.slides/itextframeformat/columnspacing) { get; set; } | テキスト領域内のテキスト列間のスペース（ポイント単位）を取得または設定します。これは列が 1 つ以上ある場合にのみ適用されます。この値は正の数でなければなりません。そうでない場合、値は 0 に設定されます。読み書き可能 Double。 |
+| [KeepTextFlat](../../aspose.slides/itextframeformat/keeptextflat) { get; set; } | テキストを 3D シーンから完全に除外するかどうかを取得または設定します。読み書き可能 Boolean。 |
+| [MarginBottom](../../aspose.slides/itextframeformat/marginbottom) { get; set; } | TextFrame の下余白（ポイント）を取得または設定します。読み書き可能 Double。 |
+| [MarginLeft](../../aspose.slides/itextframeformat/marginleft) { get; set; } | TextFrame の左余白（ポイント）を取得または設定します。読み書き可能 Double。 |
+| [MarginRight](../../aspose.slides/itextframeformat/marginright) { get; set; } | TextFrame の右余白（ポイント）を取得または設定します。読み書き可能 Double。 |
+| [MarginTop](../../aspose.slides/itextframeformat/margintop) { get; set; } | TextFrame の上余白（ポイント）を取得または設定します。読み書き可能 Double。 |
+| [RotationAngle](../../aspose.slides/itextframeformat/rotationangle) { get; set; } | バウンディングボックス内のテキストに適用されるカスタム回転を指定します。指定されていない場合は、付随するシェイプの回転が使用されます。指定されている場合、この回転はシェイプとは独立して適用されます。つまり、シェイプに回転が適用され、さらにテキスト自体にも回転が適用されることがあります。このプロパティと TextVerticalType プロパティの事前定義された垂直タイプから要約された視覚的テキスト回転の結果値です。読み書き可能 Single。 |
+| [TextStyle](../../aspose.slides/itextframeformat/textstyle) { get; } | テキストのスタイルを取得します。読み取り専用 [`ITextStyle`](../itextstyle)。 |
+| [TextVerticalType](../../aspose.slides/itextframeformat/textverticaltype) { get; set; } | テキストの方向を決定します。このプロパティと RotationAngle プロパティのカスタム角度から要約された視覚的テキスト回転の結果値です。読み書き可能 [`TextVerticalType`](../textverticaltype)。 |
+| [ThreeDFormat](../../aspose.slides/itextframeformat/threedformat) { get; } | テキストの 3D 効果プロパティを表す ThreeDFormat オブジェクトを取得します。読み取り専用 [`IThreeDFormat`](../ithreedformat)。 |
+| [Transform](../../aspose.slides/itextframeformat/transform) { get; set; } | テキストの折り返し形状を取得または設定します。読み書き可能 [`TextShapeType`](../textshapetype)。 |
+| [WrapText](../../aspose.slides/itextframeformat/wraptext) { get; set; } | **True** の場合、テキストが TextFrame の余白で折り返されます。読み書き可能 [`NullableBool`](../nullablebool)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [GetEffective](../../aspose.slides/itextframeformat/geteffective)() | 継承が適用された有効なテキスト フレームの書式設定データを取得します。 |
+| [GetEffective](../../aspose.slides/itextframeformat/geteffective)() | 継承が適用された有効なテキストフレームの書式設定データを取得します。 |
 
 ### 参照
 

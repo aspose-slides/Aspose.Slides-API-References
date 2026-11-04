@@ -1,14 +1,14 @@
 ---
 title: ShapeThumbnailBounds
-second_title: Aspose.Sildes for .NET API 参考
+second_title: 适用于 .NET 的 Aspose.Sildes API 参考
 description: 形状缩略图边界类型的枚举。
 type: docs
-weight: 9920
+weight: 9940
 url: /zh/aspose.slides/shapethumbnailbounds/
 ---
 ## ShapeThumbnailBounds 枚举
 
-形状缩略图边界的类型枚举。
+枚举形状缩略图边界的类型。
 
 ```csharp
 public enum ShapeThumbnailBounds
@@ -18,9 +18,9 @@ public enum ShapeThumbnailBounds
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Slide | `0` | 形状缩略图的大小将等于幻灯片大小。形状位置将被保存。 |
-| Shape | `1` | 形状缩略图的大小将等于形状边界矩形，并考虑形状轮廓设置。 |
-| Appearance | `2` | 形状缩略图的大小将等于形状外观（在幻灯片范围内）。可能出现形状外观不适合形状边界的情况。例如旋转、锐角的斜接、3D 效果等。 |
+| Slide | `0` | 形状缩略图的大小将等同于幻灯片大小。形状位置将被保存。 |
+| Shape | `1` | 形状缩略图的大小将等同于考虑形状轮廓设置后的形状边界矩形。 |
+| Appearance | `2` | 形状缩略图的大小将等同于形状外观（位于幻灯片范围内）。在某些情况下，形状外观可能不适合形状边界，例如旋转、锐角的斜接、3D 效果等。 |
 
 ### 另见
 

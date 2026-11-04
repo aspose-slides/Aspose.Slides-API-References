@@ -1,9 +1,9 @@
 ---
 title: ISlideSize
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa o tamanho e a orientação de um slide.
 type: docs
-weight: 7090
+weight: 7110
 url: /pt/aspose.slides/islidesize/
 ---
 ## ISlideSize interface
@@ -26,8 +26,8 @@ public interface ISlideSize
 
 | Nome | Descrição |
 | --- | --- |
-| [SetSize](../../aspose.slides/islidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | Define o tamanho do slide por tipo e escala o conteúdo existente. |
-| [SetSize](../../aspose.slides/islidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | Define explicitamente as dimensões do slide e escala o conteúdo existente. |
+| [SetSize](../../aspose.slides/islidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | Define o tamanho do slide por tipo e redimensiona o conteúdo existente. |
+| [SetSize](../../aspose.slides/islidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | Define as dimensões do slide explicitamente e redimensiona o conteúdo existente. |
 
 ### Veja Também
 

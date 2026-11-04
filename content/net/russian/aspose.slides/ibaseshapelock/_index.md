@@ -1,9 +1,9 @@
 ---
 title: IBaseShapeLock
-second_title: "Aspose.Sildes для .NET: справочник API"
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет отключённую операцию блокировки Shape.
 type: docs
-weight: 5330
+weight: 5350
 url: /ru/aspose.slides/ibaseshapelock/
 ---
 ## IBaseShapeLock интерфейс
@@ -18,9 +18,9 @@ public interface IBaseShapeLock
 
 | Имя | Описание |
 | --- | --- |
-| [NoLocks](../../aspose.slides/ibaseshapelock/nolocks) { get; } | Возвращает true, если все lock-flags отключены. Только для чтения Boolean. |
+| [NoLocks](../../aspose.slides/ibaseshapelock/nolocks) { get; } | Возвращает true, если все флаги блокировки отключены. Только для чтения Boolean. |
 
-### См. также
+### Смотрите также
 
 * пространство имён [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

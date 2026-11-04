@@ -1,9 +1,9 @@
 ---
 title: PptxEditException
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 編集プレゼンテーションエラーが検出されたときにスローされる例外を表します。
+description: プレゼンテーションの編集エラーが検出されたときにスローされる例外を表します。
 type: docs
-weight: 9550
+weight: 9570
 url: /ja/aspose.slides/pptxeditexception/
 ---
 ## PptxEditException クラス
@@ -14,15 +14,15 @@ url: /ja/aspose.slides/pptxeditexception/
 public class PptxEditException : PptxException
 ```
 
-## コンストラクター
+## コンストラクタ
 
 | 名前 | 説明 |
 | --- | --- |
-| [PptxEditException](pptxeditexception#constructor)() | 既定のコンストラクターです。 |
-| [PptxEditException](pptxeditexception#constructor_1)(string) | 例外にメッセージを追加できるコンストラクターです。 |
-| [PptxEditException](pptxeditexception#constructor_2)(string, Exception) | メッセージと埋め込み例外を含む例外のコンストラクターです。 |
+| [PptxEditException](pptxeditexception#constructor)() | デフォルトコンストラクタ。 |
+| [PptxEditException](pptxeditexception#constructor_1)(string) | 例外にメッセージを追加できるコンストラクタ。 |
+| [PptxEditException](pptxeditexception#constructor_2)(string, Exception) | メッセージと内部例外を含む例外のためのコンストラクタ。 |
 
-### 関連項目
+### 参照
 
 * クラス [PptxException](../pptxexception)
 * 名前空間 [Aspose.Slides](../../aspose.slides)

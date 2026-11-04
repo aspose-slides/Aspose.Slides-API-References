@@ -1,14 +1,14 @@
 ---
 title: MasterHandoutSlideHeaderFooterManager
-second_title: Aspose.Sildes için .NET API Referansı
-description: Üst bilgi yer tutucusunu da içeren ana el ilanı slaytı yer tutucularının davranışını tutan yöneticiyi temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Üstbilgi yer tutucusunu da içeren ana el ilanı slayt yer tutucularının davranışını tutan yöneticiyi temsil eder.
 type: docs
-weight: 7990
+weight: 8010
 url: /tr/aspose.slides/masterhandoutslideheaderfootermanager/
 ---
-## MasterHandoutSlideHeaderFooterManager sınıfı
+## MasterHandoutSlideHeaderFooterManager sınıf
 
-Üst bilgi yer tutucusunu da içeren ana el ilanı slaytı yer tutucularının davranışını tutan yöneticiyi temsil eder.
+Ana el ilanı slayt yer tutucularının davranışını tutan yöneticiyi temsil eder, üstbilgi yer tutucusu dahil.
 
 ```csharp
 public class MasterHandoutSlideHeaderFooterManager : BaseHandoutNotesSlideHeaderFooterManager, 
@@ -17,23 +17,23 @@ public class MasterHandoutSlideHeaderFooterManager : BaseHandoutNotesSlideHeader
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
 | [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Bir tarih-saat yer tutucusunun mevcut olduğunu gösteren değeri alır. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Bir alt bilgi yer tutucusunun mevcut olduğunu gösteren değeri alır. Read Boolean. |
-| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Bir üst bilgi yer tutucusunun mevcut olduğunu gösteren değeri alır. Read Boolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Bir altbilgi yer tutucusunun mevcut olduğunu gösteren değeri alır. Read Boolean. |
+| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Bir üstbilgi yer tutucusunun mevcut olduğunu gösteren değeri alır. Read Boolean. |
 | [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Bir sayfa numarası yer tutucusunun mevcut olduğunu gösteren değeri alır. ReadBoolean. |
 
 ## Yöntemler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
 | [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Slayt tarih-saat yer tutucusuna metin ayarlar. |
 | [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Slayt tarih-saat yer tutucusunun görünürlüğünü değiştirir. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Slayt alt bilgi yer tutucusuna metin ayarlar. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Slayt alt bilgi yer tutucusunun görünürlüğünü değiştirir. |
-| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Slayt üst bilgi yer tutucusuna metin ayarlar. |
-| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Slayt üst bilgi yer tutucusunun görünürlüğünü değiştirir. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Slayt altbilgi yer tutucusuna metin ayarlar. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Slayt altbilgi yer tutucusunun görünürlüğünü değiştirir. |
+| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Slayt üstbilgi yer tutucusuna metin ayarlar. |
+| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Slayt üstbilgi yer tutucusunun görünürlüğünü değiştirir. |
 | [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Slayt sayfa numarası yer tutucusunun görünürlüğünü değiştirir. |
 
 ### Ayrıca Bakınız

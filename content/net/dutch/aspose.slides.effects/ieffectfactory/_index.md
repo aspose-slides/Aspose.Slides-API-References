@@ -1,14 +1,14 @@
 ---
 title: IEffectFactory
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Staat toe instanties van effecten te maken
+description: Staat toe om instanties van effecten te maken
 type: docs
-weight: 3290
+weight: 3310
 url: /nl/aspose.slides.effects/ieffectfactory/
 ---
 ## IEffectFactory interface
 
-Staat toe instanties van effecten te maken
+Staat toe om instanties van effecten te maken
 
 ```csharp
 public interface IEffectFactory
@@ -24,12 +24,12 @@ public interface IEffectFactory
 
 | Naam | Beschrijving |
 | --- | --- |
-| [CreateGlow](../../aspose.slides.effects/ieffectfactory/createglow)() | Creëert Glow-effect. |
-| [CreateInnerShadow](../../aspose.slides.effects/ieffectfactory/createinnershadow)() | Creëert Inner shadow-effect. |
-| [CreateOuterShadow](../../aspose.slides.effects/ieffectfactory/createoutershadow)() | Creëert Outer shadow-effect. |
-| [CreatePresetShadow](../../aspose.slides.effects/ieffectfactory/createpresetshadow)() | Creëert Preset shadow-effect. |
-| [CreateReflection](../../aspose.slides.effects/ieffectfactory/createreflection)() | Creëert Reflection-effect. |
-| [CreateSoftEdge](../../aspose.slides.effects/ieffectfactory/createsoftedge)() | Creëert Soft Edge-effect. |
+| [CreateGlow](../../aspose.slides.effects/ieffectfactory/createglow)() | Creëert Glow effect. |
+| [CreateInnerShadow](../../aspose.slides.effects/ieffectfactory/createinnershadow)() | Creëert Inner shafow effect. |
+| [CreateOuterShadow](../../aspose.slides.effects/ieffectfactory/createoutershadow)() | Creëert Outer shadow effect. |
+| [CreatePresetShadow](../../aspose.slides.effects/ieffectfactory/createpresetshadow)() | Creëert Preset shadow effect. |
+| [CreateReflection](../../aspose.slides.effects/ieffectfactory/createreflection)() | Creëert Reflection effect. |
+| [CreateSoftEdge](../../aspose.slides.effects/ieffectfactory/createsoftedge)() | Creëert Soft Edge effect. |
 
 ### Opmerkingen
 

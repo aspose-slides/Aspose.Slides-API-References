@@ -1,14 +1,14 @@
 ---
 title: IDuotoneEffectiveData
 second_title: Aspose.Sildes dla .NET API Reference
-description: Niezmienny obiekt reprezentujący efekt Duotone. Dla każdego piksela łączy clr1 i clr2 poprzez liniową interpolację, aby określić nowy kolor tego piksela.
+description: Niezmienny obiekt, który reprezentuje efekt Duotone. Dla każdego piksela łączy clr1 i clr2 za pomocą interpolacji liniowej, aby określić nowy kolor tego piksela.
 type: docs
-weight: 3270
+weight: 3290
 url: /pl/aspose.slides.effects/iduotoneeffectivedata/
 ---
 ## IDuotoneEffectiveData interfejs
 
-Niezmienny obiekt reprezentujący efekt Duotone. Dla każdego piksela łączy clr1 i clr2 poprzez liniową interpolację, aby określić nowy kolor tego piksela.
+Niezmienny obiekt, który reprezentuje efekt Duotone. Dla każdego piksela łączy clr1 i clr2 za pomocą interpolacji liniowej, aby określić nowy kolor tego piksela.
 
 ```csharp
 public interface IDuotoneEffectiveData : IEffectEffectiveData
@@ -18,11 +18,11 @@ public interface IDuotoneEffectiveData : IEffectEffectiveData
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iduotoneeffectivedata/asieffecteffectivedata) { get; } | Umożliwia pobranie podstawowego interfejsu IEffectEffectiveData. Tylko do odczytu [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iduotoneeffectivedata/asieffecteffectivedata) { get; } | Umożliwia pobranie bazowego interfejsu IEffectEffectiveData. Tylko do odczytu [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Color1](../../aspose.slides.effects/iduotoneeffectivedata/color1) { get; } | Zwraca docelowy format koloru dla ciemnych pikseli. Tylko do odczytu Color. |
 | [Color2](../../aspose.slides.effects/iduotoneeffectivedata/color2) { get; } | Zwraca docelowy format koloru dla jasnych pikseli. Tylko do odczytu Color. |
 
-### Patrz także
+### Zobacz także
 
 * interfejs [IEffectEffectiveData](../ieffecteffectivedata)
 * przestrzeń nazw [Aspose.Slides.Effects](../../aspose.slides.effects)

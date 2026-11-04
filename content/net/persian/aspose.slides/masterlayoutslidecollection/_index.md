@@ -1,14 +1,14 @@
 ---
 title: MasterLayoutSlideCollection
-second_title: مرجع API Aspose.Sildes برای .NET
-description: نمایانگر مجموعه‌ای از تمام اسلایدهای طرح یک اسلاید اصلی تعریف‌شده است. این کلاس از LayoutSlideCollection ارث می‌برد و شامل متدهایی برای افزودن/درج/حذف/کلون/بازآرایی اسلایدهای طرح در زمینهٔ مجموعه‌های جداگانهٔ اسلایدهای طرح اسلایدهای اصلی می‌شود.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: نمایانگر مجموعه‌ای از تمام اسلایدهای طرح‌بندی اسلاید اصلی تعریف‌شده است. کلاس LayoutSlideCollection را با متدهایی برای افزودن/درج/حذف/کلون‌سازی/بازسازی ترتیب اسلایدهای طرح‌بندی در زمینه مجموعه‌های فردی اسلایدهای طرح‌بندی استاد گسترش می‌دهد.
 type: docs
-weight: 8000
+weight: 8020
 url: /fa/aspose.slides/masterlayoutslidecollection/
 ---
 ## MasterLayoutSlideCollection کلاس
 
-نمایانگر یک مجموعه از تمام اسلایدهای طرح یک اسلاید اصلی تعریف‌شده است. این کلاس از LayoutSlideCollection کلاس ارث می‌برد و شامل متدهایی برای افزودن/درج/حذف/کلون/بازآرایی اسلایدهای طرح در زمینهٔ مجموعه‌های جداگانهٔ اسلایدهای طرح اسلاید اصلی است.
+نمایانگر مجموعه‌ای از تمام اسلایدهای طرح‌بندی اسلاید اصلی تعریف‌شده است. کلاس LayoutSlideCollection را گسترش می‌دهد با متدهایی برای افزودن/inserting/removing/cloning/reordering اسلایدهای طرح‌بندی در زمینه مجموعه‌های فردی اسلایدهای طرح‌بندی استاد.
 
 ```csharp
 public sealed class MasterLayoutSlideCollection : LayoutSlideCollection, 
@@ -19,32 +19,32 @@ public sealed class MasterLayoutSlideCollection : LayoutSlideCollection,
 
 | نام | توضیح |
 | --- | --- |
-| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | تعداد اسلایدهای طرح را در یک مجموعه برمی‌گرداند. فقط خواندنی Int32. |
-| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | مقداری را برمی‌گرداند که نشان می‌دهد آیا دسترسی به مجموعه همگام‌سازی شده (امنیت‌درون‌خطی) است. فقط خواندنی Boolean. |
-| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | اسلاید طرح را بر اساس ایندکس برمی‌گرداند. فقط خواندنی [`LayoutSlide`](../layoutslide). |
-| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | ریشهٔ همگام‌سازی را برمی‌گرداند. فقط خواندنی Object. |
+| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | تعداد اسلایدهای طرح‌بندی در یک مجموعه را برمی‌گرداند. فقط-خواندنی Int32. |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | یک مقدار را برمی‌گرداند که نشان می‌دهد آیا دسترسی به مجموعه همگام‌سازی شده است (Thread-safe). فقط-خواندنی Boolean. |
+| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | اسلاید طرح‌بندی را بر اساس شاخص برمی‌گرداند. فقط-خواندنی [`LayoutSlide`](../layoutslide). |
+| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | ریشه همگام‌سازی را برمی‌گرداند. فقط-خواندنی Object. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [Add](../../aspose.slides/masterlayoutslidecollection/add)(SlideLayoutType, string) | یک اسلاید طرح جدید را به انتهای مجموعه اضافه می‌کند. |
-| [AddClone](../../aspose.slides/masterlayoutslidecollection/addclone)(ILayoutSlide) | یک کپی از اسلاید طرح مشخص شده را به انتهای مجموعه اضافه می‌کند. |
-| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | تمام عناصر را از مجموعه به آرایهٔ مشخص شده کپی می‌کند. |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | اولین اسلاید طرح از نوع مشخص‌شده را برمی‌گرداند. یک نوع از اسلاید طرح برای پیدا کردن.[`LayoutSlide`](../layoutslide) با نوع مشخص‌شده یا null اگر هیچ طرحی یافت نشد. |
-| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | یک Enumerator را برمی‌گرداند که از مجموعه عبور می‌کند. |
-| [Insert](../../aspose.slides/masterlayoutslidecollection/insert)(int, SlideLayoutType, string) | یک اسلاید طرح جدید را در موقعیت مشخصی از مجموعه درج می‌کند. |
-| [InsertClone](../../aspose.slides/masterlayoutslidecollection/insertclone)(int, ILayoutSlide) | یک کپی از اسلاید طرح مشخص‌شده را در موقعیت موردنظر مجموعه درج می‌کند. |
-| [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | یک طرح را از مجموعه حذف می‌کند. |
-| [RemoveAt](../../aspose.slides/masterlayoutslidecollection/removeat)(int) | عنصر در ایندکس مشخص شده از مجموعه را حذف می‌کند. |
-| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | اسلایدهای طرح استفاده‌نشده (اسلایدهایی که HasDependingSlides آنها false است) را حذف می‌کند. |
-| [Reorder](../../aspose.slides/masterlayoutslidecollection/reorder)(int, ILayoutSlide) | اسلاید طرح را از مجموعه به موقعیت مشخص‌شده منتقل می‌کند. |
+| [Add](../../aspose.slides/masterlayoutslidecollection/add)(SlideLayoutType, string) | یک اسلاید طرح‌بندی جدید به انتهای مجموعه اضافه می‌کند. |
+| [AddClone](../../aspose.slides/masterlayoutslidecollection/addclone)(ILayoutSlide) | یک کپی از اسلاید طرح‌بندی مشخص را به انتهای مجموعه اضافه می‌کند. |
+| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | تمام عناصر را از مجموعه به آرایه مشخص شده کپی می‌کند. |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | اولین اسلاید طرح‌بندی از نوع مشخص شده را برمی‌گرداند. نوع اسلاید طرح‌بندی برای جستجو.[`LayoutSlide`](../layoutslide) با نوع مشخص شده یا null اگر هیچ طرحی یافت نشود. |
+| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | یک enumerator را برمی‌گرداند که از طریق مجموعه پیمایش می‌کند. |
+| [Insert](../../aspose.slides/masterlayoutslidecollection/insert)(int, SlideLayoutType, string) | یک اسلاید طرح‌بندی جدید را در موقعیت مشخص شده در مجموعه درج می‌کند. |
+| [InsertClone](../../aspose.slides/masterlayoutslidecollection/insertclone)(int, ILayoutSlide) | یک کپی از اسلاید طرح‌بندی مشخص را در موقعیت مشخص شده در مجموعه درج می‌کند. |
+| [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | یک طرح‌بندی را از مجموعه حذف می‌کند. |
+| [RemoveAt](../../aspose.slides/masterlayoutslidecollection/removeat)(int) | عنصر در شاخص مشخص شده در مجموعه را حذف می‌کند. |
+| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | اسلایدهای طرح‌بندی استفاده‌نشده (اسلایدهایی که HasDependingSlides برابر false است) را حذف می‌کند. |
+| [Reorder](../../aspose.slides/masterlayoutslidecollection/reorder)(int, ILayoutSlide) | اسلاید طرح‌بندی را از مجموعه به موقعیت مشخص شده منتقل می‌کند. |
 
-### مباحث مرتبط
+### مراجع
 
 * کلاس [LayoutSlideCollection](../layoutslidecollection)
 * رابط [IMasterLayoutSlideCollection](../imasterlayoutslidecollection)
 * فضای‌نام [Aspose.Slides](../../aspose.slides)
-* مجتمع [Aspose.Slides](../../)
+* اسمبلی [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

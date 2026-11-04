@@ -1,14 +1,14 @@
 ---
 title: ColorOperation
-second_title: Aspose.Sildes dla .NET - Dokumentacja API
+second_title: Aspose.Sildes dla .NET Referencja API
 description: Reprezentuje różne operacje kolorów używane do transformacji kolorów. Obiekt niezmienny.
 type: docs
-weight: 2530
+weight: 2550
 url: /pl/aspose.slides/coloroperation/
 ---
 ## ColorOperation klasa
 
-Represents different color operations used for color transformations. Immutable object.
+Reprezentuje różne operacje kolorów używane do transformacji kolorów. Obiekt niezmienny.
 
 ```csharp
 public class ColorOperation : IColorOperation
@@ -16,26 +16,26 @@ public class ColorOperation : IColorOperation
 
 ## Konstruktory
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [ColorOperation](coloroperation#constructor)(ColorTransformOperation) | Tworzy nową operację transformacji koloru. |
 | [ColorOperation](coloroperation#constructor_1)(ColorTransformOperation, float) | Tworzy nową operację transformacji koloru. |
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [OperationType](../../aspose.slides/coloroperation/operationtype) { get; } | Zwraca lub ustawia typ operacji. Tylko do odczytu [`ColorTransformOperation`](../colortransformoperation). |
 | [Parameter](../../aspose.slides/coloroperation/parameter) { get; } | Zwraca parametr operacji. Tylko do odczytu Single. |
 
 ## Metody
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides/coloroperation/equals)(object) | Określa, czy dwa wystąpienia ColorOperation są równe. |
-| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | Służy jako funkcja skrótu dla określonego typu, odpowiednia do użycia w algorytmach haszujących i strukturach danych, takich jak tablica mieszająca. |
+| override [Equals](../../aspose.slides/coloroperation/equals)(object) | Określa, czy dwie instancje ColorOperation są równe. |
+| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | Służy jako funkcja skrótu dla określonego typu, odpowiednia do użycia w algorytmach haszujących i strukturach danych, takich jak tablica skrótów. |
 
-### Zobacz także
+### Zobacz również
 
 * interfejs [IColorOperation](../icoloroperation)
 * przestrzeń nazw [Aspose.Slides](../../aspose.slides)

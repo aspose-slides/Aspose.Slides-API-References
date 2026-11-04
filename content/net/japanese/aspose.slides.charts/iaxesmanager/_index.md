@@ -1,9 +1,9 @@
 ---
 title: IAxesManager
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes for .NET APIリファレンス
 description: チャート軸へのアクセスを提供します。
 type: docs
-weight: 1700
+weight: 1710
 url: /ja/aspose.slides.charts/iaxesmanager/
 ---
 ## IAxesManager インターフェイス
@@ -19,8 +19,8 @@ public interface IAxesManager
 | 名前 | 説明 |
 | --- | --- |
 | [HorizontalAxis](../../aspose.slides.charts/iaxesmanager/horizontalaxis) { get; } | チャートの水平軸を取得します。読み取り専用 [`IAxis`](../iaxis)。 |
-| [SecondaryHorizontalAxis](../../aspose.slides.charts/iaxesmanager/secondaryhorizontalaxis) { get; } | チャートの副水平軸を取得します。読み取り専用 [`IAxis`](../iaxis)。 |
-| [SecondaryVerticalAxis](../../aspose.slides.charts/iaxesmanager/secondaryverticalaxis) { get; } | チャートの副垂直軸を取得します。読み取り専用 [`IAxis`](../iaxis)。 |
+| [SecondaryHorizontalAxis](../../aspose.slides.charts/iaxesmanager/secondaryhorizontalaxis) { get; } | チャートの二次水平軸を取得します。読み取り専用 [`IAxis`](../iaxis)。 |
+| [SecondaryVerticalAxis](../../aspose.slides.charts/iaxesmanager/secondaryverticalaxis) { get; } | チャートの二次垂直軸を取得します。読み取り専用 [`IAxis`](../iaxis)。 |
 | [SeriesAxis](../../aspose.slides.charts/iaxesmanager/seriesaxis) { get; } | チャートの系列軸を取得します。読み取り専用 [`IAxis`](../iaxis)。 |
 | [VerticalAxis](../../aspose.slides.charts/iaxesmanager/verticalaxis) { get; } | チャートの垂直軸を取得します。読み取り専用 [`IAxis`](../iaxis)。 |
 

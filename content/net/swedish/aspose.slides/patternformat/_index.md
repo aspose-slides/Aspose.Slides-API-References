@@ -3,7 +3,7 @@ title: PatternFormat
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar ett mönster för att fylla en form.
 type: docs
-weight: 9350
+weight: 9370
 url: /sv/aspose.slides/patternformat/
 ---
 ## PatternFormat klass
@@ -21,7 +21,7 @@ public sealed class PatternFormat : PVIObject, IPatternFormat
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas-IPresentationComponent-gränssnittet. Skrivskyddad [`IPresentationComponent`](../ipresentationcomponent). |
 | [BackColor](../../aspose.slides/patternformat/backcolor) { get; } | Returnerar bakgrundsmönsterfärgen. Skrivskyddad [`IColorFormat`](../icolorformat). |
 | [ForeColor](../../aspose.slides/patternformat/forecolor) { get; } | Returnerar förgrundsmönsterfärgen. Skrivskyddad [`IColorFormat`](../icolorformat). |
-| [PatternStyle](../../aspose.slides/patternformat/patternstyle) { get; set; } | Returnerar eller sätter mönsterstil. Läs/skriv [`PatternStyle`](../patternstyle). |
+| [PatternStyle](../../aspose.slides/patternformat/patternstyle) { get; set; } | Returnerar eller anger mönsterstilen. Läs/skriv [`PatternStyle`](../patternstyle). |
 
 ## Metoder
 

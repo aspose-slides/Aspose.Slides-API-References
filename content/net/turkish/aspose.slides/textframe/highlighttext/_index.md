@@ -3,12 +3,12 @@ title: HighlightText
 second_title: Aspose.Sildes için .NET API Referansı
 description: Belirtilen renk ile örnek metnin tüm eşleşmelerini vurgular.
 type: docs
-weight: 100
+weight: 110
 url: /tr/aspose.slides/textframe/highlighttext/
 ---
 ## HighlightText(string, Color) {#highlighttext}
 
-Belirtilen renkle örnek metnin tüm eşleşmelerini vurgular.
+Belirtilen renk ile örnek metnin tüm eşleşmelerini vurgular.
 
 ```csharp
 public void HighlightText(string text, Color highlightColor)
@@ -17,7 +17,7 @@ public void HighlightText(string text, Color highlightColor)
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | text | String | Vurgulanacak metin örneği. |
-| highlightColor | Color | Metni vurgulamak için renk. |
+| highlightColor | Color | Metni vurgulamak için kullanılacak renk. |
 
 ### Ayrıca Bakınız
 
@@ -29,7 +29,7 @@ public void HighlightText(string text, Color highlightColor)
 
 ## HighlightText(string, Color, ITextSearchOptions, IFindResultCallback) {#highlighttext_2}
 
-Belirtilen renkle örnek metnin tüm eşleşmelerini vurgular.
+Belirtilen renk ile örnek metnin tüm eşleşmelerini vurgular.
 
 ```csharp
 public void HighlightText(string text, Color highlightColor, ITextSearchOptions options, 
@@ -39,7 +39,7 @@ public void HighlightText(string text, Color highlightColor, ITextSearchOptions 
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | text | String | Vurgulanacak metin. |
-| highlightColor | Color | Metni vurgulamak için renk. |
+| highlightColor | Color | Metni vurgulamak için kullanılacak renk. |
 | options | ITextSearchOptions | Metin arama seçenekleri [`ITextSearchOptions`](../../itextsearchoptions). |
 | callback | IFindResultCallback | Arama sonuçlarını almak için geri çağırma nesnesi [`IFindResultCallback`](../../ifindresultcallback). |
 
@@ -53,7 +53,7 @@ using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
 	// tüm 'important' kelimelerini vurgulama
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("important", Color.LightBlue);
-	// tüm ayrı 'the' geçişlerini vurgulama
+	// tüm ayrı 'the' örneklerini vurgulama
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("the", Color.Violet, new TextSearchOptions()
 	{ WholeWordsOnly = true }, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);

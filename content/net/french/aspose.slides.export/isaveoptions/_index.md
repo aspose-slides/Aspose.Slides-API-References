@@ -1,9 +1,9 @@
 ---
 title: ISaveOptions
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Options qui contrôlent la façon dont une présentation est enregistrée.
 type: docs
-weight: 4070
+weight: 4090
 url: /fr/aspose.slides.export/isaveoptions/
 ---
 ## interface ISaveOptions
@@ -18,11 +18,11 @@ public interface ISaveOptions
 
 | Nom | Description |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/isaveoptions/defaultregularfont) { get; set; } | Renvoie ou définit la police utilisée si la police source n'est pas trouvée. Lecture-écriture String. |
-| [GradientStyle](../../aspose.slides.export/isaveoptions/gradientstyle) { get; set; } | Renvoie ou définit le style visuel du dégradé. Lecture/écriture [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [DefaultRegularFont](../../aspose.slides.export/isaveoptions/defaultregularfont) { get; set; } | Retourne ou définit la police utilisée si la police source n'est pas trouvée. Lecture/écriture Chaîne. |
+| [GradientStyle](../../aspose.slides.export/isaveoptions/gradientstyle) { get; set; } | Retourne ou définit le style visuel du dégradé. Lecture/écriture [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [ProgressCallback](../../aspose.slides.export/isaveoptions/progresscallback) { get; set; } | Représente un objet de rappel pour les mises à jour de progression de l'enregistrement en pourcentage. Voir [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/isaveoptions/skipjavascriptlinks) { get; set; } | Spécifie s'il faut ignorer les hyperliens contenant des appels JavaScript lors de l'enregistrement de la présentation. Lecture/écriture Boolean. La valeur par défaut est **false**. |
-| [WarningCallback](../../aspose.slides.export/isaveoptions/warningcallback) { get; set; } | Renvoie ou définit un objet qui reçoit les avertissements et décide si le processus de chargement doit se poursuivre ou être interrompu. Lecture/écriture [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/isaveoptions/skipjavascriptlinks) { get; set; } | Spécifie s'il faut ignorer les hyperliens contenant des appels JavaScript lors de l'enregistrement de la présentation. Lecture/écriture Booléen. La valeur par défaut est **false**. |
+| [WarningCallback](../../aspose.slides.export/isaveoptions/warningcallback) { get; set; } | Retourne ou définit un objet qui reçoit les avertissements et décide si le processus de chargement doit continuer ou être interrompu. Lecture/écriture [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Voir aussi
 

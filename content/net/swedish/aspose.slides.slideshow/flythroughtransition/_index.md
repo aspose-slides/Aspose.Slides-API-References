@@ -1,14 +1,14 @@
 ---
 title: FlyThroughTransition
 second_title: Aspose.Sildes för .NET API-referens
-description: Fly-through-bildövergångseffekt.
+description: Fly-through bildövergångseffekt.
 type: docs
-weight: 10040
+weight: 10060
 url: /sv/aspose.slides.slideshow/flythroughtransition/
 ---
 ## FlyThroughTransition klass
 
-Fly-through-bildövergångseffekt.
+Fly-through bildövergångseffekt.
 
 ```csharp
 public class FlyThroughTransition : TransitionValueBase, IFlyThroughTransition
@@ -16,19 +16,19 @@ public class FlyThroughTransition : TransitionValueBase, IFlyThroughTransition
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/flythroughtransition/direction) { get; set; } | Riktning för övergången. Läs/skriv [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [HasBounce](../../aspose.slides.slideshow/flythroughtransition/hasbounce) { get; set; } | Anger att rörelsen av presentationens bilder under övergången inkluderar en studs. Läs/skriv Boolean. |
+| [HasBounce](../../aspose.slides.slideshow/flythroughtransition/hasbounce) { get; set; } | Anger att rörelsen av presentationsbilderna under övergången innehåller ett studs. Läs/skriv Boolean. |
 
 ## Metoder
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bestämmer om de två TransitionValueBase-instanserna är lika. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Fungerar som en hash-funktion för en viss typ, lämplig för användning i hash-algoritmer och datastrukturer som en hash-tabell. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Avgör om de två TransitionValueBase-instanserna är lika. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Fungerar som en hash-funktion för en viss typ, lämplig för användning i hash-algoritmer och datastrukturer som en hashtabell. |
 
-### Se även
+### Se också
 
 * klass [TransitionValueBase](../transitionvaluebase)
 * gränssnitt [IFlyThroughTransition](../iflythroughtransition)

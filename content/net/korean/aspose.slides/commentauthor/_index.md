@@ -1,14 +1,14 @@
 ---
 title: CommentAuthor
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 주석 작성자를 나타냅니다.
+description: 댓글 작성자를 나타냅니다.
 type: docs
-weight: 2630
+weight: 2650
 url: /ko/aspose.slides/commentauthor/
 ---
 ## CommentAuthor 클래스
 
-주석의 작성자를 나타냅니다.
+댓글 작성자를 나타냅니다.
 
 ```csharp
 public sealed class CommentAuthor : ICommentAuthor
@@ -18,9 +18,9 @@ public sealed class CommentAuthor : ICommentAuthor
 
 | 이름 | 설명 |
 | --- | --- |
-| [Comments](../../aspose.slides/commentauthor/comments) { get; } | 이 작성자가 만든 주석 컬렉션을 반환합니다. 읽기 전용 [`ICommentCollection`](../icommentcollection). |
-| [Initials](../../aspose.slides/commentauthor/initials) { get; set; } | 작성자 이니셜을 반환하거나 설정합니다. 읽기/쓰기 String. |
-| [Name](../../aspose.slides/commentauthor/name) { get; set; } | 작성자 이름을 반환하거나 설정합니다. 읽기/쓰기 String. |
+| [Comments](../../aspose.slides/commentauthor/comments) { get; } | 이 작성자가 만든 댓글 컬렉션을 반환합니다. 읽기 전용 [`ICommentCollection`](../icommentcollection). |
+| [Initials](../../aspose.slides/commentauthor/initials) { get; set; } | 작성자의 이니셜을 반환하거나 설정합니다. 읽기/쓰기 String. |
+| [Name](../../aspose.slides/commentauthor/name) { get; set; } | 작성자의 이름을 반환하거나 설정합니다. 읽기/쓰기 String. |
 
 ## 메서드
 

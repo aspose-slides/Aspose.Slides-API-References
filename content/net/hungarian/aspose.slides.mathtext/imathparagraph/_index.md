@@ -1,14 +1,14 @@
 ---
 title: IMathParagraph
-second_title: Aspose.Sildes .NET API referencia
-description: Matematikai bekezdés, amely egy tároló a matematikai blokkok IMathBlock számára
+second_title: Aspose.Sildes a .NET API hivatkozás
+description: Matematikai bekezdés, amely a matematikai blokkok (IMathBlock) tárolója
 type: docs
-weight: 8390
+weight: 8410
 url: /hu/aspose.slides.mathtext/imathparagraph/
 ---
 ## IMathParagraph interfész
 
-Matematikai bekezdés, amely a matematikai blokkok (IMathBlock) tárolóját képezi.
+Matematikai bekezdés, amely a matematikai blokkok (IMathBlock) tárolója
 
 ```csharp
 public interface IMathParagraph : IMathBlockCollection
@@ -18,15 +18,15 @@ public interface IMathParagraph : IMathBlockCollection
 
 | Név | Leírás |
 | --- | --- |
-| [AsIMathBlockCollection](../../aspose.slides.mathtext/imathparagraph/asimathblockcollection) { get; } | Lehetővé teszi az alap IMathBlockCollection interfész lekérését [`IMathBlockCollection`](../imathblockcollection) |
+| [AsIMathBlockCollection](../../aspose.slides.mathtext/imathparagraph/asimathblockcollection) { get; } | Lehetővé teszi az alap IMathBlockCollection interfész [`IMathBlockCollection`](../imathblockcollection) lekérését |
 | [Justification](../../aspose.slides.mathtext/imathparagraph/justification) { get; set; } | Bekezdés igazítása Alapértelmezett érték: CenteredAsGroup |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
 | [ToLatex](../../aspose.slides.mathtext/imathparagraph/tolatex)() | Lekéri a matematikai egyenletet LaTeX formátumban |
-| [WriteAsMathMl](../../aspose.slides.mathtext/imathparagraph/writeasmathml)(Stream) | Elmenti ennek [`IMathParagraph`](../imathparagraph) tartalmát MathML formátumban |
+| [WriteAsMathMl](../../aspose.slides.mathtext/imathparagraph/writeasmathml)(Stream) | Elmenti ennek a [`IMathParagraph`](../imathparagraph) tartalmát MathML formátumban |
 
 ### Példák
 

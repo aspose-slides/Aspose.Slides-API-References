@@ -1,14 +1,14 @@
 ---
 title: ShredTransition
 second_title: Aspose.Sildes per .NET Riferimento API
-description: Effetto di transizione diapositiva Shred.
+description: Effetto di transizione della diapositiva Shred.
 type: docs
-weight: 10300
+weight: 10320
 url: /it/aspose.slides.slideshow/shredtransition/
 ---
-## classe ShredTransition
+## ShredTransition classe
 
-Effetto di transizione diapositiva Shred.
+Shred slide transition effect.
 
 ```csharp
 public class ShredTransition : TransitionValueBase, IShredTransition
@@ -16,17 +16,17 @@ public class ShredTransition : TransitionValueBase, IShredTransition
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/shredtransition/direction) { get; set; } | Direzione della transizione. Lettura/scrittura [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/shredtransition/pattern) { get; set; } | Specifica la forma delle visualizzazioni usate durante la transizione. Lettura/scrittura [`TransitionShredPattern`](../transitionshredpattern). |
+| [Pattern](../../aspose.slides.slideshow/shredtransition/pattern) { get; set; } | Specifica la forma degli elementi visivi usati durante la transizione. Lettura/scrittura [`TransitionShredPattern`](../transitionshredpattern). |
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina se le due istanze di TransitionValueBase sono uguali. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funge da funzione hash per un tipo particolare, idonea per l'uso in algoritmi di hashing e strutture dati come una tabella hash. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funziona come funzione hash per un tipo specifico, adatta all'uso in algoritmi di hashing e strutture dati come una tabella hash. |
 
 ### Vedi anche
 

@@ -1,14 +1,14 @@
 ---
 title: PieSplitCustomPointCollection
-second_title: Aspose.Sildes للـ .NET مرجع API
-description: يمثّل مجموعة من النقاط لتقسيم النقطة في مخطط شريحة داخل شريحة (bar-of-pie) أو شريحة داخل شريحة (pie-of-pie) مع تقسيم مخصص.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: تمثّل مجموعة من النقاط لتقسيم نقطة في مخطط شريط-فطيرة أو فطيرة-فطيرة مع تقسيم مخصص.
 type: docs
-weight: 2370
+weight: 2390
 url: /ar/aspose.slides.charts/piesplitcustompointcollection/
 ---
 ## PieSplitCustomPointCollection فئة
 
-يمثّل مجموعة من النقاط لتقسيم النقطة في مخطط شريحة داخل شريحة (bar-of-pie) أو شريحة داخل شريحة (pie-of-pie) مع تقسيم مخصص.
+Represents a collection of points for splitting point in a bar-of-pie or pie-of-pie chart with a custom split.
 
 ```csharp
 public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
@@ -18,29 +18,29 @@ public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
 
 | الاسم | الوصف |
 | --- | --- |
-| [Count](../../aspose.slides.charts/piesplitcustompointcollection/count) { get; } | إرجاع أو تعيين عدد نقاط بيانات المخطط. للقراءة فقط Int32. |
-| [IsReadOnly](../../aspose.slides.charts/piesplitcustompointcollection/isreadonly) { get; } | يُعيد قيمة تشير إلى ما إذا كانت ICollection للقراءة فقط. للقراءة فقط Boolean. |
-| [IsSynchronized](../../aspose.slides.charts/piesplitcustompointcollection/issynchronized) { get; } | إرجاع قيمة تشير إلى ما إذا كان الوصول إلى المجموعة متزامن (آمن للخطوط المتعددة). للقراءة فقط Boolean. |
-| [Item](../../aspose.slides.charts/piesplitcustompointcollection/item) { get; } | إرجاع نقطة بيانات المخطط للمؤشر المحدد. |
-| [SyncRoot](../../aspose.slides.charts/piesplitcustompointcollection/syncroot) { get; } | إرجاع جذر المزامنة. للقراءة فقط Object. |
+| [Count](../../aspose.slides.charts/piesplitcustompointcollection/count) { get; } | إرجاع أو تعيين عدد نقاط بيانات المخطط. Int32 للقراءة فقط. |
+| [IsReadOnly](../../aspose.slides.charts/piesplitcustompointcollection/isreadonly) { get; } | إرجاع قيمة تشير إلى ما إذا كان ICollection للقراءة فقط. Boolean للقراءة فقط. |
+| [IsSynchronized](../../aspose.slides.charts/piesplitcustompointcollection/issynchronized) { get; } | إرجاع قيمة تشير إلى ما إذا كان الوصول إلى المجموعة متزامنًا (آمن للخيوط). Boolean للقراءة فقط. |
+| [Item](../../aspose.slides.charts/piesplitcustompointcollection/item) { get; } | إرجاع نقطة بيانات المخطط للفهرس المحدد. |
+| [SyncRoot](../../aspose.slides.charts/piesplitcustompointcollection/syncroot) { get; } | إرجاع جذر التزامن. Object للقراءة فقط. |
 
-## الأساليب
+## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add)(IChartDataPoint) | يضيف نقطة بيانات إلى المجموعة. |
-| [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add_1)(int) | يضيف نقطة بيانات بحسب فهرستها في مجموعة نقاط السلسلة الأم. |
-| [Clear](../../aspose.slides.charts/piesplitcustompointcollection/clear)() | يزيل جميع العناصر من ICollection. |
-| [Contains](../../aspose.slides.charts/piesplitcustompointcollection/contains)(IChartDataPoint) | يحدد ما إذا كانت ICollection تحتوي على قيمة محددة. |
-| [CopyTo](../../aspose.slides.charts/piesplitcustompointcollection/copyto)(IChartDataPoint[], int) | ينسخ عناصر ICollection إلى Array، بدءاً من فهرس Array معين. |
-| [GetEnumerator](../../aspose.slides.charts/piesplitcustompointcollection/getenumerator)() | إرجاع عداد (enumerator) يتنقل عبر المجموعة. |
-| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove)(IChartDataPoint) | يزيل العنصر من المجموعة. |
-| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove_1)(int) | يزيل العنصر من المجموعة بحسب فهرسته في مجموعة نقاط السلسلة الأم. |
+| [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add)(IChartDataPoint) | إضافة نقطة بيانات إلى المجموعة. |
+| [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add_1)(int) | إضافة نقطة بيانات بحسب فهرستها في مجموعة نقاط السلسلة الأصلية. |
+| [Clear](../../aspose.slides.charts/piesplitcustompointcollection/clear)() | إزالة جميع العناصر من ICollection. |
+| [Contains](../../aspose.slides.charts/piesplitcustompointcollection/contains)(IChartDataPoint) | تحديد ما إذا كان ICollection يحتوي على قيمة معينة. |
+| [CopyTo](../../aspose.slides.charts/piesplitcustompointcollection/copyto)(IChartDataPoint[], int) | نسخ عناصر ICollection إلى مصفوفة، بدءًا من فهرس مصفوفة معين. |
+| [GetEnumerator](../../aspose.slides.charts/piesplitcustompointcollection/getenumerator)() | إرجاع مكرر يتنقل عبر المجموعة. |
+| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove)(IChartDataPoint) | إزالة عنصر من المجموعة. |
+| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove_1)(int) | إزالة عنصر من المجموعة بحسب فهرسته في مجموعة نقاط السلسلة الأصلية. |
 
-### راجع أيضاً
+### انظر أيضًا
 
 * واجهة [IPieSplitCustomPointCollection](../ipiesplitcustompointcollection)
 * مساحة الاسم [Aspose.Slides.Charts](../../aspose.slides.charts)
-* تجميع [Aspose.Slides](../../)
+* التجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

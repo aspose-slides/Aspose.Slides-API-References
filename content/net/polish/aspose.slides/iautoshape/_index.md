@@ -1,9 +1,9 @@
 ---
 title: IAutoShape
-second_title: Aspose.Sildes dla .NET – odwołanie API
+second_title: Aspose.Sildes dla .NET Referencja API
 description: Reprezentuje AutoShape.
 type: docs
-weight: 5240
+weight: 5260
 url: /pl/aspose.slides/iautoshape/
 ---
 ## IAutoShape interfejs
@@ -23,7 +23,7 @@ public interface IAutoShape : IGeometryShape
 | [IsTextBox](../../aspose.slides/iautoshape/istextbox) { get; } | Określa, czy kształt jest polem tekstowym. |
 | [ShapeLock](../../aspose.slides/iautoshape/shapelock) { get; } | Zwraca blokady kształtu. Tylko do odczytu [`IAutoShapeLock`](../iautoshapelock). |
 | [TextFrame](../../aspose.slides/iautoshape/textframe) { get; } | Zwraca obiekt TextFrame dla AutoShape. Tylko do odczytu [`ITextFrame`](../itextframe). |
-| [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | Określa, czy ten autoshape powinien być wypełniony tłem slajdu zamiast określonego przez styl lub format wypełnienia. Odczyt/zapis Boolean. |
+| [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | Określa, czy ten autoshape ma być wypełniony tłem slajdu zamiast określonego przez styl lub format wypełnienia. Odczyt/zapis Boolean. |
 
 ## Metody
 

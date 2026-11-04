@@ -3,12 +3,12 @@ title: Metered
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Biedt methoden om de metered sleutel in te stellen.
 type: docs
-weight: 9080
+weight: 9100
 url: /nl/aspose.slides/metered/
 ---
-## Metered klasse
+## Metered-klasse
 
-Biedt methoden om de metered sleutel in te stellen.
+Biedt methoden om de metered-sleutel in te stellen.
 
 ```csharp
 public class Metered
@@ -16,23 +16,23 @@ public class Metered
 
 ## Constructors
 
-| Naam | Omschrijving |
+| Name | Description |
 | --- | --- |
 | [Metered](metered)() | Initialiseert een nieuw exemplaar van deze klasse. |
 
 ## Methoden
 
-| Naam | Omschrijving |
+| Name | Description |
 | --- | --- |
 | [GetProductName](../../aspose.slides/metered/getproductname)() |  |
-| [SetMeteredKey](../../aspose.slides/metered/setmeteredkey)(string, string) | Stelt de metered openbare en private sleutel in. Als u een metered-licentie aanschaft, moet deze API bij het starten van de applicatie worden aangeroepen; normaal gesproken is dit voldoende. Als het echter steeds mislukt om consumptiegegevens te uploaden en de 24 uur overschrijdt, wordt de licentie ingesteld op evaluatiestatus. Om zo’n geval te voorkomen, moet u regelmatig de licentiestatus controleren; als deze evaluatiestatus is, roept u deze API opnieuw aan. |
-| static [GetConsumptionCredit](../../aspose.slides/metered/getconsumptioncredit)() | Haalt consumptiekrediet op |
-| static [GetConsumptionQuantity](../../aspose.slides/metered/getconsumptionquantity)() | Haalt bestandsgrootte van consumptie op |
-| static [IsMeteredLicensed](../../aspose.slides/metered/ismeteredlicensed)() | Controleer of metered gelicentieerd is |
+| [SetMeteredKey](../../aspose.slides/metered/setmeteredkey)(string, string) | Stelt de metered publieke en private sleutel in. Als u een metered-licentie aanschaft, moet deze API bij het starten van de applicatie worden aangeroepen; normaal is dit voldoende. Echter, als het altijd mislukt om verbruiksgegevens te uploaden en 24 uur wordt overschreden, wordt de licentie op evaluatiestatus gezet. Om zo’n geval te voorkomen dient u regelmatig de licentiestatus te controleren; als deze evaluatiestatus is, roept u deze API opnieuw aan. |
+| static [GetConsumptionCredit](../../aspose.slides/metered/getconsumptioncredit)() | Haalt consumptiecredits op |
+| static [GetConsumptionQuantity](../../aspose.slides/metered/getconsumptionquantity)() | Haalt de bestandsgrootte van het verbruik op |
+| static [IsMeteredLicensed](../../aspose.slides/metered/ismeteredlicensed)() | Controleert of metered is gelicenseerd |
 
 ### Voorbeelden
 
-In dit voorbeeld wordt geprobeerd de metered openbare en private sleutel in te stellen
+In dit voorbeeld wordt geprobeerd de metered publieke en private sleutel in te stellen.
 
 ```csharp
 [C#]
@@ -47,7 +47,7 @@ Dim matered As Metered = New Metered
 matered.SetMeteredKey("PublicKey", "PrivateKey")
 ```
 
-het component-jar-bestand:
+het component-jarbestand:
 
 ```csharp
 Metered matered = new Metered();

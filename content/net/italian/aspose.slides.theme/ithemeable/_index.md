@@ -1,14 +1,14 @@
 ---
 title: IThemeable
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta oggetti che possono essere tematizzati con ITheme./itheme.
+description: Rappresenta gli oggetti che possono essere tematizzati con ITheme./itheme.
 type: docs
-weight: 11400
+weight: 11420
 url: /it/aspose.slides.theme/ithemeable/
 ---
 ## IThemeable interfaccia
 
-Rappresenta oggetti che possono essere tematizzati con [`ITheme`](../itheme).
+Rappresenta gli oggetti che possono essere tematizzati con [`ITheme`](../itheme).
 
 ```csharp
 public interface IThemeable : ISlideComponent
@@ -18,7 +18,7 @@ public interface IThemeable : ISlideComponent
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides.theme/ithemeable/asislidecomponent) { get; } | Restituisce l'interfaccia ISlideComponent. Solo lettura [`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [AsISlideComponent](../../aspose.slides.theme/ithemeable/asislidecomponent) { get; } | Restituisce l'interfaccia ISlideComponent. Sola lettura [`ISlideComponent`](../../aspose.slides/islidecomponent). |
 
 ## Metodi
 

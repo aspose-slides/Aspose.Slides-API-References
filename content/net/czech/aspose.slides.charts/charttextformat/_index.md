@@ -1,9 +1,9 @@
 ---
 title: ChartTextFormat
-second_title: Aspose.Sildes pro .NET referenci API
+second_title: Aspose.Sildes pro .NET API referenci
 description: Určuje výchozí formátování textu pro textové prvky grafu.
 type: docs
-weight: 1480
+weight: 1490
 url: /cs/aspose.slides.charts/charttextformat/
 ---
 ## ChartTextFormat třída
@@ -18,16 +18,16 @@ public class ChartTextFormat : IChartTextFormat
 
 | Název | Popis |
 | --- | --- |
-| [ParagraphFormat](../../aspose.slides.charts/charttextformat/paragraphformat) { get; } | ParagraphFormat. Jen pro čtení [`IChartParagraphFormat`](../ichartparagraphformat). |
-| [PortionFormat](../../aspose.slides.charts/charttextformat/portionformat) { get; } | PortionFormat. Jen pro čtení [`IChartPortionFormat`](../ichartportionformat). |
-| [TextBlockFormat](../../aspose.slides.charts/charttextformat/textblockformat) { get; } | TextBlockFormat. Jen pro čtení [`IChartTextBlockFormat`](../icharttextblockformat). |
+| [ParagraphFormat](../../aspose.slides.charts/charttextformat/paragraphformat) { get; } | ParagraphFormat. Pouze pro čtení [`IChartParagraphFormat`](../ichartparagraphformat). |
+| [PortionFormat](../../aspose.slides.charts/charttextformat/portionformat) { get; } | PortionFormat. Pouze pro čtení [`IChartPortionFormat`](../ichartportionformat). |
+| [TextBlockFormat](../../aspose.slides.charts/charttextformat/textblockformat) { get; } | TextBlockFormat. Pouze pro čtení [`IChartTextBlockFormat`](../icharttextblockformat). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [CopyFrom](../../aspose.slides.charts/charttextformat/copyfrom)(ITextFrame) | Zkopíruje formát textu ze zadaného textového rámce. |
-| [CopyTo](../../aspose.slides.charts/charttextformat/copyto)(ITextFrame) | Zkopíruje formát textu do zadaného textového rámce. |
+| [CopyFrom](../../aspose.slides.charts/charttextformat/copyfrom)(ITextFrame) | Kopíruje formát textu ze zadaného textového rámce. |
+| [CopyTo](../../aspose.slides.charts/charttextformat/copyto)(ITextFrame) | Kopíruje formát textu do zadaného textového rámce. |
 
 ### Viz také
 

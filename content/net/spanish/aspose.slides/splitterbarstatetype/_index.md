@@ -1,14 +1,14 @@
 ---
 title: SplitterBarStateType
 second_title: Aspose.Sildes para .NET Referencia de API
-description: Especifica el estado en el que debe mostrarse la barra divisora. La barra divisora separa una región primaria y una secundaria dentro de un área de visualización.
+description: Especifica el estado en el que debe mostrarse la barra divisor. La barra divisor separa una región primaria y una secundaria dentro de un área de visualización.
 type: docs
-weight: 10690
+weight: 10710
 url: /es/aspose.slides/splitterbarstatetype/
 ---
-## Enumeración SplitterBarStateType
+## SplitterBarStateType enumeración
 
-Especifica el estado en el que se debe mostrar la barra divisora. La barra divisora separa una región primaria y una secundaria dentro de un área de visualización.
+Especifica el estado en el que debe mostrarse la barra divisor. La barra divisor separa una región primaria y una secundaria dentro de un área de visualización.
 
 ```csharp
 public enum SplitterBarStateType
@@ -18,9 +18,9 @@ public enum SplitterBarStateType
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Minimized | `0` | La región primaria ocupa la menor cantidad de área de visualización permitida por la aplicación. |
+| Minimized | `0` | La región primaria ocupa la menor cantidad del área de visualización permitida por la aplicación. |
 | Restored | `1` | La región primaria tiene un tamaño intermedio específico. |
-| Maximized | `2` | La región primaria ocupa la mayor cantidad de área de visualización permitida por la aplicación. |
+| Maximized | `2` | La región primaria ocupa la mayor cantidad del área de visualización permitida por la aplicación. |
 
 ### Ver también
 

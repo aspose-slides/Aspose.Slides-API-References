@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeilingEffectiveData
-second_title: Aspose.Sildes für .NET API Referenz
-description: Unveränderliches Objekt, das einen Alpha Ceiling-Effekt darstellt. Alpha-Opazitätswerte größer als Null werden auf 100 geändert. Mit anderen Worten wird alles, das teilweise undurchsichtig ist, vollständig undurchsichtig.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Unveränderliches Objekt, das einen Alpha-Decken-Effekt darstellt. Alpha-Opazitätswerte größer als Null werden auf 100 geändert. Mit anderen Worten wird alles, das teilweise undurchsichtig ist, vollständig undurchsichtig.
 type: docs
-weight: 3050
+weight: 3070
 url: /de/aspose.slides.effects/ialphaceilingeffectivedata/
 ---
 ## IAlphaCeilingEffectiveData Schnittstelle
 
-Unveränderliches Objekt, das einen Alpha Ceiling Effekt darstellt. Alpha (Opazität) Werte größer als Null werden auf 100% geändert. Mit anderen Worten wird alles, das teilweise undurchsichtig ist, vollständig undurchsichtig.
+Unveränderliches Objekt, das einen Alpha-Decken-Effekt darstellt. Alpha-(Opazitäts-)Werte größer als Null werden auf 100 % geändert. Mit anderen Worten, alles, das teilweise undurchsichtig ist, wird vollständig undurchsichtig.
 
 ```csharp
 public interface IAlphaCeilingEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IAlphaCeilingEffectiveData : IEffectEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaceilingeffectivedata/asieffecteffectivedata) { get; } | Ermöglicht das Abrufen der Basis IEffectEffectiveData Schnittstelle. Nur lesbar [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaceilingeffectivedata/asieffecteffectivedata) { get; } | Ermöglicht das Abrufen der Basis-IEffectEffectiveData-Schnittstelle. Nur lesbar [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Siehe auch
 

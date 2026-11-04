@@ -1,14 +1,14 @@
 ---
 title: IVbaReferenceOleTwiddledTypeLib
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en modifierad OLE Automation-typbiblioteksreferens där alla kontroller är markerade som utbyggbara.
+description: Representerar modifierad OLE Automation-typbiblioteksreferens där alla kontroller är markerade som utbyggbara.
 type: docs
-weight: 11600
+weight: 11620
 url: /sv/aspose.slides.vba/ivbareferenceoletwiddledtypelib/
 ---
 ## IVbaReferenceOleTwiddledTypeLib gränssnitt
 
-Representerar en modifierad OLE Automation-typbiblioteksreferens där alla kontroller är markerade som utbyggbara.
+Representerar modifierad OLE Automation type library reference som alla kontroller är markerade som utbyggbara.
 
 ```csharp
 public interface IVbaReferenceOleTwiddledTypeLib : IVbaReference
@@ -18,9 +18,9 @@ public interface IVbaReferenceOleTwiddledTypeLib : IVbaReference
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletwiddledtypelib/asivbareference) { get; } | Returnerar IVbaReference-gränssnitt. Skrivskyddad [`IVbaReference`](../ivbareference). |
+| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletwiddledtypelib/asivbareference) { get; } | Returnerar IVbaReference interface. Skrivskyddad [`IVbaReference`](../ivbareference). |
 
-### Se även
+### Se också
 
 * gränssnitt [IVbaReference](../ivbareference)
 * namnrymd [Aspose.Slides.Vba](../../aspose.slides.vba)

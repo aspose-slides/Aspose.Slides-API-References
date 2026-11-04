@@ -1,14 +1,14 @@
 ---
 title: IGraphicalObjectLock
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для .NET справочника API
 description: Определяет, какие операции отключены у родительского GraphicalObjectEx.
 type: docs
-weight: 6070
+weight: 6090
 url: /ru/aspose.slides/igraphicalobjectlock/
 ---
 ## IGraphicalObjectLock интерфейс
 
-Определяет, какие операции отключены у родительского GraphicalObjectEx.
+Determines which operations are disabled on the parent GraphicalObjectEx.
 
 ```csharp
 public interface IGraphicalObjectLock : IBaseShapeLock
@@ -16,15 +16,15 @@ public interface IGraphicalObjectLock : IBaseShapeLock
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [AsIBaseShapeLock](../../aspose.slides/igraphicalobjectlock/asibaseshapelock) { get; } | Позволяет получить базовый интерфейс IBaseShapeLock. Только для чтения [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/igraphicalobjectlock/aspectratiolocked) { get; set; } | Определяет, должно ли изображение сохранять соотношение сторон при изменении размера. Чтение/запись Boolean. |
-| [DrilldownLocked](../../aspose.slides/igraphicalobjectlock/drilldownlocked) { get; set; } | Определяет, запрещён ли выбор подпредметов данного объекта. Чтение/запись Boolean. |
-| [GroupingLocked](../../aspose.slides/igraphicalobjectlock/groupinglocked) { get; set; } | Определяет, запрещено ли добавлять данное изображение в группу. Чтение/запись Boolean. |
-| [PositionLocked](../../aspose.slides/igraphicalobjectlock/positionlocked) { get; set; } | Определяет, запрещено ли перемещать данное изображение. Чтение/запись Boolean. |
-| [SelectLocked](../../aspose.slides/igraphicalobjectlock/selectlocked) { get; set; } | Определяет, запрещено ли выбирать данное изображение. Чтение/запись Boolean. |
-| [SizeLocked](../../aspose.slides/igraphicalobjectlock/sizelocked) { get; set; } | Определяет, запрещено ли изменять размер данного изображения. Чтение/запись Boolean. |
+| [AspectRatioLocked](../../aspose.slides/igraphicalobjectlock/aspectratiolocked) { get; set; } | Определяет, должна ли фигура сохранять соотношение сторон при изменении размера. Чтение/запись Boolean. |
+| [DrilldownLocked](../../aspose.slides/igraphicalobjectlock/drilldownlocked) { get; set; } | Определяет, запрещён ли выбор вложенных фигур данного объекта. Чтение/запись Boolean. |
+| [GroupingLocked](../../aspose.slides/igraphicalobjectlock/groupinglocked) { get; set; } | Определяет, запрещено ли добавление этой фигуры в группу. Чтение/запись Boolean. |
+| [PositionLocked](../../aspose.slides/igraphicalobjectlock/positionlocked) { get; set; } | Определяет, запрещено ли перемещение этой фигуры. Чтение/запись Boolean. |
+| [SelectLocked](../../aspose.slides/igraphicalobjectlock/selectlocked) { get; set; } | Определяет, запрещён ли выбор этой фигуры. Чтение/запись Boolean. |
+| [SizeLocked](../../aspose.slides/igraphicalobjectlock/sizelocked) { get; set; } | Определяет, запрещено ли изменение размера этой фигуры. Чтение/запись Boolean. |
 
 ### См. также
 

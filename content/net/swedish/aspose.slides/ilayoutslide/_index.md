@@ -1,9 +1,9 @@
 ---
 title: ILayoutSlide
-second_title: Aspose.Slides för .NET API-referens
+second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en layoutbild.
 type: docs
-weight: 6220
+weight: 6240
 url: /sv/aspose.slides/ilayoutslide/
 ---
 ## ILayoutSlide gränssnitt
@@ -18,21 +18,21 @@ public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/ilayoutslide/asibaseslide) { get; } | Tillåter att hämta bas IBASESlide-gränssnittet. Endast läsning [`IBaseSlide`](../ibaseslide). |
-| [AsIOverrideThemeable](../../aspose.slides/ilayoutslide/asioverridethemeable) { get; } | Returnerar IOverrideThemeable-gränssnittet. Endast läsning [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [DrawingGuides](../../aspose.slides/ilayoutslide/drawingguides) { get; } | Returnerar en samling av ritningsguider för layoutbilden. Endast läsning [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HasDependingSlides](../../aspose.slides/ilayoutslide/hasdependingslides) { get; } | Returnerar true om det finns minst en bild som beror på denna layoutbild. Endast läsning Boolean. |
-| [HeaderFooterManager](../../aspose.slides/ilayoutslide/headerfootermanager) { get; } | Returnerar HeaderFooter-hantagaren för layoutbilden. Endast läsning [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager). |
-| [LayoutType](../../aspose.slides/ilayoutslide/layouttype) { get; } | Returnerar layouttyp för denna layoutbild. Endast läsning [`SlideLayoutType`](../slidelayouttype). |
-| [MasterSlide](../../aspose.slides/ilayoutslide/masterslide) { get; set; } | Returnerar eller anger masterbilden för en layout. Läs/skriv [`IMasterSlide`](../imasterslide). |
-| [PlaceholderManager](../../aspose.slides/ilayoutslide/placeholdermanager) { get; } | Returnerar platshållarhanteraren för layoutbilden. Endast läsning [`ILayoutPlaceholderManager`](../ilayoutplaceholdermanager). |
+| [AsIBaseSlide](../../aspose.slides/ilayoutslide/asibaseslide) { get; } | Tillåter att hämta bas-IBaseSlide-gränssnittet. Skrivskyddad [`IBaseSlide`](../ibaseslide). |
+| [AsIOverrideThemeable](../../aspose.slides/ilayoutslide/asioverridethemeable) { get; } | Returnerar IOverrideThemeable-gränssnittet. Skrivskyddad [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
+| [DrawingGuides](../../aspose.slides/ilayoutslide/drawingguides) { get; } | Returnerar en samling med ritningsguider för layoutbilden. Skrivskyddad [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HasDependingSlides](../../aspose.slides/ilayoutslide/hasdependingslides) { get; } | Returnerar true om det finns minst en bild som beror på denna layoutbild. Skrivskyddad Boolean. |
+| [HeaderFooterManager](../../aspose.slides/ilayoutslide/headerfootermanager) { get; } | Returnerar HeaderFooter-hanteraren för layoutbilden. Skrivskyddad [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager). |
+| [LayoutType](../../aspose.slides/ilayoutslide/layouttype) { get; } | Returnerar layouttyp för denna layoutbild. Skrivskyddad [`SlideLayoutType`](../slidelayouttype). |
+| [MasterSlide](../../aspose.slides/ilayoutslide/masterslide) { get; set; } | Returnerar eller anger master-bilden för en layout. Läs/skriv [`IMasterSlide`](../imasterslide). |
+| [PlaceholderManager](../../aspose.slides/ilayoutslide/placeholdermanager) { get; } | Returnerar platshållarhanteraren för layoutbilden. Skrivskyddad [`ILayoutPlaceholderManager`](../ilayoutplaceholdermanager). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
 | [GetDependingSlides](../../aspose.slides/ilayoutslide/getdependingslides)() | Returnerar en array med alla bilder som beror på denna layoutbild. |
-| [Remove](../../aspose.slides/ilayoutslide/remove)() | Tar bort layout från presentationen. |
+| [Remove](../../aspose.slides/ilayoutslide/remove)() | Tar bort layouten från presentationen. |
 
 ### Se även
 

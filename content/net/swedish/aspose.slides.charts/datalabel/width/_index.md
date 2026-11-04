@@ -3,7 +3,7 @@ title: Width
 second_title: Aspose.Sildes för .NET API-referens
 description: Returnerar eller anger bredden på en titel som en bråkdel av diagrammets bredd. Läs/skriv Single.
 type: docs
-weight: 150
+weight: 160
 url: /sv/aspose.slides.charts/datalabel/width/
 ---
 ## DataLabel.Width egenskap

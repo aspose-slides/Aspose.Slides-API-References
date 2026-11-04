@@ -3,10 +3,10 @@ title: IMathNaryOperatorFactory
 second_title: مرجع API Aspose.Sildes لـ .NET
 description: يسمح بإنشاء IMathNaryOperator
 type: docs
-weight: 8370
+weight: 8390
 url: /ar/aspose.slides.mathtext/imathnaryoperatorfactory/
 ---
-## IMathNaryOperatorFactory واجهة
+## واجهة IMathNaryOperatorFactory
 
 يسمح بإنشاء IMathNaryOperator
 
@@ -14,7 +14,7 @@ url: /ar/aspose.slides.mathtext/imathnaryoperatorfactory/
 public interface IMathNaryOperatorFactory
 ```
 
-## الطرق
+## طرق
 
 | الاسم | الوصف |
 | --- | --- |
@@ -24,7 +24,7 @@ public interface IMathNaryOperatorFactory
 
 ### ملاحظات
 
-للتوافق مع COM
+لتوافق COM
 
 ### انظر أيضًا
 

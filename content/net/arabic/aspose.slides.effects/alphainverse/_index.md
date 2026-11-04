@@ -1,12 +1,12 @@
 ---
 title: AlphaInverse
-second_title: Aspose.Sildes لـ .NET مرجع API
-description: يمثل تأثير Alpha Inverse. يتم عكس قيم شفافية Alpha بطرحها من 100.
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
+description: يمثل تأثير Alpha Inverse. يتم عكس قيم الشفافية Alpha بطرحها من 100.
 type: docs
-weight: 2870
+weight: 2890
 url: /ar/aspose.slides.effects/alphainverse/
 ---
-## فئة AlphaInverse
+## AlphaInverse فئة
 
 يمثل تأثير Alpha Inverse. قيم Alpha (الشفافية) يتم عكسها بطرحها من 100%.
 
@@ -18,14 +18,14 @@ public sealed class AlphaInverse : ImageTransformOperation, IAlphaInverse
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | يسمح بالحصول على واجهة IPresentationComponent الأساسية. للقراءة فقط [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | يسمح بالحصول على واجهة IPresentationComponent الأساسية. قراءة فقط [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphainverse/equals)(object) | يحدد ما إذا كان [`AlphaInverse`](../alphainverse) المحدد يساوي [`AlphaInverse`](../alphainverse) الحالي. |
-| [GetEffective](../../aspose.slides.effects/alphainverse/geteffective)() | يحصل على بيانات تأثير Alpha Inverse الفعّالة مع تطبيق الوراثة. |
+| [GetEffective](../../aspose.slides.effects/alphainverse/geteffective)() | يحصل على بيانات تأثير Alpha Inverse الفعّال مع تطبيق الوراثة. |
 | override [GetHashCode](../../aspose.slides.effects/alphainverse/gethashcode)() | يعمل كدالة تجزئة لنوع معين. |
 
 ### انظر أيضًا

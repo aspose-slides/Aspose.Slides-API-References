@@ -3,7 +3,7 @@ title: TrendlineCollection
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示 Trendline 的集合
 type: docs
-weight: 2480
+weight: 2500
 url: /zh/aspose.slides.charts/trendlinecollection/
 ---
 ## TrendlineCollection 类
@@ -18,7 +18,7 @@ public class TrendlineCollection : DomObject<ChartSeries>, ITrendlineCollection
 
 | 名称 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides.charts/trendlinecollection/count) { get; } | 获取集合实际包含的元素数量。只读 Int32。 |
+| [Count](../../aspose.slides.charts/trendlinecollection/count) { get; } | 获取集合中实际包含的元素数量。只读 Int32。 |
 | [Item](../../aspose.slides.charts/trendlinecollection/item) { get; } | 获取指定索引处的元素。只读 [`Trendline`](../trendline)。 |
 
 ## 方法

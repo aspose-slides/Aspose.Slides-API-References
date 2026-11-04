@@ -1,14 +1,14 @@
 ---
 title: AlphaCeiling
-second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แทนค่าเอฟเฟกต์ Alpha Ceiling. ค่าความทึบ (opacity) ของ Alpha ที่มากกว่าศูนย์จะถูกเปลี่ยนเป็น 100. กล่าวคือ ทุกอย่างที่มีความโปร่งใสบางส่วนจะกลายเป็นโปร่งใสเต็มที่.
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: เป็นการแทนผลกระทบ Alpha Ceiling. ค่า Alpha opacity ที่มากกว่าศูนย์จะถูกเปลี่ยนเป็น 100. กล่าวคือ สิ่งที่มีความทึบบางส่วนจะกลายเป็นทึบเต็มที่.
 type: docs
-weight: 2850
+weight: 2870
 url: /th/aspose.slides.effects/alphaceiling/
 ---
 ## AlphaCeiling คลาส
 
-แทนค่าเอฟเฟกต์ Alpha Ceiling. ค่าความทึบ (opacity) ที่มากกว่าศูนย์จะถูกเปลี่ยนเป็น 100% กล่าวคือ ทุกอย่างที่โปร่งแสงบางส่วนจะกลายเป็นโปร่งแสงเต็มที่
+แทนผลกระทบ Alpha Ceiling. ค่า Alpha (ความทึบ) ที่มากกว่าศูนย์จะเปลี่ยนเป็น 100 %. กล่าวคือ สิ่งที่มีความทึบบางส่วนจะกลายเป็นทึบเต็มที่.
 
 ```csharp
 public sealed class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
@@ -18,14 +18,14 @@ public sealed class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IPresentationComponent พื้นฐาน. อ่านอย่างเดียว [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้รับอินเทอร์เฟซ IPresentationComponent พื้นฐาน. อ่านอย่างเดียว [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphaceiling/equals)(object) | กำหนดว่า [`AlphaCeiling`](../alphaceiling) ที่ระบุเท่ากับ [`AlphaCeiling`](../alphaceiling) ปัจจุบันหรือไม่. |
-| [GetEffective](../../aspose.slides.effects/alphaceiling/geteffective)() | ดึงข้อมูลผลกระทบ Alpha Ceiling ที่มีประสิทธิภาพพร้อมการสืบทอดที่ใช้. |
+| override [Equals](../../aspose.slides.effects/alphaceiling/equals)(object) | กำหนดว่าค่า [`AlphaCeiling`](../alphaceiling) ที่ระบุเท่ากับ [`AlphaCeiling`](../alphaceiling) ปัจจุบันหรือไม่. |
+| [GetEffective](../../aspose.slides.effects/alphaceiling/geteffective)() | รับข้อมูลผลกระทบ Alpha Ceiling ที่มีประสิทธิภาพโดยใช้การสืบทอด. |
 | override [GetHashCode](../../aspose.slides.effects/alphaceiling/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทเฉพาะ. |
 
 ### ดูเพิ่มเติม

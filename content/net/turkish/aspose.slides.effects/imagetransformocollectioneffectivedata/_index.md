@@ -1,14 +1,14 @@
 ---
 title: ImageTransformOCollectionEffectiveData
 second_title: Aspose.Sildes için .NET API Referansı
-description: Etkili görüntü dönüşüm efektlerinin yalnızca okunabilir bir koleksiyonunu temsil eden değiştirilemez nesne.
+description: Değiştirilemez nesne, etkili görüntü dönüştürme efektlerinin salt okunur bir koleksiyonunu temsil eder.
 type: docs
-weight: 3560
+weight: 3580
 url: /tr/aspose.slides.effects/imagetransformocollectioneffectivedata/
 ---
-## ImageTransformOCollectionEffectiveData sınıf
+## ImageTransformOCollectionEffectiveData sınıfı
 
-Değiştirilemez nesne, etkili görüntü dönüşüm efektlerinin yalnızca okunabilir bir koleksiyonunu temsil eder.
+Değiştirilemez nesne, etkili görüntü dönüştürme efektlerinin salt okunur bir koleksiyonunu temsil eder.
 
 ```csharp
 public class ImageTransformOCollectionEffectiveData : IImageTransformOCollectionEffectiveData
@@ -16,31 +16,31 @@ public class ImageTransformOCollectionEffectiveData : IImageTransformOCollection
 
 ## Yapıcılar
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
 | [ImageTransformOCollectionEffectiveData](imagetransformocollectioneffectivedata)() | Varsayılan yapıcı. |
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides.effects/imagetransformocollectioneffectivedata/count) { get; } | Bir koleksiyondaki görüntü efektlerinin sayısını döndürür. Yalnızca okunabilir Int32. |
-| [IsSynchronized](../../aspose.slides.effects/imagetransformocollectioneffectivedata/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını gösteren bir değeri döndürür. Yalnızca okunabilir Boolean. |
-| [Item](../../aspose.slides.effects/imagetransformocollectioneffectivedata/item) { get; } | Dizine göre öğeyi döndürür. |
-| [SyncRoot](../../aspose.slides.effects/imagetransformocollectioneffectivedata/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Yalnızca okunabilir Object. |
+| [Count](../../aspose.slides.effects/imagetransformocollectioneffectivedata/count) { get; } | Koleksiyondaki görüntü efektlerinin sayısını döndürür. Salt okunur Int32. |
+| [IsSynchronized](../../aspose.slides.effects/imagetransformocollectioneffectivedata/issynchronized) { get; } | Koleksiyona erişimin senkronize (çok iş parçacıklı) olup olmadığını gösteren bir değer döndürür. Salt okunur Boolean. |
+| [Item](../../aspose.slides.effects/imagetransformocollectioneffectivedata/item) { get; } | İndexe göre öğeyi döndürür. |
+| [SyncRoot](../../aspose.slides.effects/imagetransformocollectioneffectivedata/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt okunur Object. |
 
 ## Yöntemler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
 | [CopyTo](../../aspose.slides.effects/imagetransformocollectioneffectivedata/copyto)(Array, int) | Koleksiyondaki tüm öğeleri belirtilen diziye kopyalar. |
-| override [Equals](../../aspose.slides.effects/imagetransformocollectioneffectivedata/equals)(object) | Belirtilen nesnenin mevcut nesneye eşit olup olmadığını belirler. |
-| [GetEnumerator](../../aspose.slides.effects/imagetransformocollectioneffectivedata/getenumerator)() | Koleksiyon içinde dolaşan bir enumerator döndürür. |
-| override [GetHashCode](../../aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode)() | Belirli bir tip için bir hash işlevi olarak hizmet eder; hash tabloları gibi veri yapılarında ve hashleme algoritmalarında kullanılabilir. |
+| override [Equals](../../aspose.slides.effects/imagetransformocollectioneffectivedata/equals)(object) | Belirtilen nesnenin geçerli nesneye eşit olup olmadığını belirler. |
+| [GetEnumerator](../../aspose.slides.effects/imagetransformocollectioneffectivedata/getenumerator)() | Koleksiyonu yineleyen bir enumerator döndürür. |
+| override [GetHashCode](../../aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode)() | Belirli bir tip için hash işlevi olarak hizmet verir; hash tabloları gibi veri yapıları ve hashleme algoritmalarında kullanılabilir. |
 
-### Açıklama
+### Açıklamalar
 
-IImageTransformOperationCollectionEffectiveData adı, COM ad uzunluğu 39 karakteri aşamayacağı için IImageTransformOCollectionEffectiveData olarak kısaltıldı.
+IImageTransformOperationCollectionEffectiveData adı, COM adlarının uzunluğunun 39 karakteri aşamaması gerektiği için IImageTransformOCollectionEffectiveData olarak kesildi.
 
 ### Ayrıca Bakınız
 

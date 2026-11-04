@@ -3,7 +3,7 @@ title: SetAsTotal
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mengatur titik data sebagai total. Diterapkan hanya untuk tipe seri Waterfall.
 type: docs
-weight: 140
+weight: 180
 url: /id/aspose.slides.charts/ichartdatapoint/setastotal/
 ---
 ## IChartDataPoint.SetAsTotal properti

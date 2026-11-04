@@ -3,12 +3,12 @@ title: EmbedFontCharacters
 second_title: Aspose.Sildes için .NET API Referansı
 description: IPresentation içine yeni gömülü yazı tipi eklemek için kullanılacak kuralı temsil eder../aspose.slides/ipresentation
 type: docs
-weight: 3770
+weight: 3790
 url: /tr/aspose.slides.export/embedfontcharacters/
 ---
 ## EmbedFontCharacters enum
 
-Sunum içinde yeni gömülü yazı tipini eklemek için kullanılacak kuralı temsil eder [`IPresentation`](../../aspose.slides/ipresentation)
+[`IPresentation`](../../aspose.slides/ipresentation) içine yeni gömülü yazı tipi eklemek için kullanılacak kuralı temsil eder
 
 ```csharp
 public enum EmbedFontCharacters
@@ -16,12 +16,12 @@ public enum EmbedFontCharacters
 
 ### Değerler
 
-| Name | Value | Description |
+| Ad | Değer | Açıklama |
 | --- | --- | --- |
-| OnlyUsed | `0` | Sadece sunumda kullanılan karakterleri göm (dosya boyutunu azaltmak için en iyisidir). |
-| All | `1` | Tüm karakterleri göm (başkaları tarafından düzenleme için en iyisidir). |
+| OnlyUsed | `0` | Sunumda kullanılan karakterleri yalnızca göm (dosya boyutunu azaltmak için en iyisi). |
+| All | `1` | Tüm karakterleri göm (başkaları tarafından düzenleme için en iyisi). |
 
-### Diğer
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.Export](../../aspose.slides.export)
 * derleme [Aspose.Slides](../../)

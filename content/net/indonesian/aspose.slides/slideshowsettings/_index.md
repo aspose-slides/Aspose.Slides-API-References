@@ -1,14 +1,14 @@
 ---
 title: SlideShowSettings
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili pengaturan slide show untuk presentasi.
+description: Mewakili pengaturan pertunjukan slide untuk presentasi.
 type: docs
-weight: 10480
+weight: 10500
 url: /id/aspose.slides/slideshowsettings/
 ---
 ## SlideShowSettings kelas
 
-Mewakili pengaturan slide show untuk presentasi.
+Mewakili pengaturan pertunjukan slide untuk presentasi.
 
 ```csharp
 public class SlideShowSettings
@@ -24,7 +24,7 @@ public class SlideShowSettings
 | [ShowMediaControls](../../aspose.slides/slideshowsettings/showmediacontrols) { get; set; } | Tampilkan Kontrol Media |
 | [ShowNarration](../../aspose.slides/slideshowsettings/shownarration) { get; set; } | Tampilkan Narasi dalam Slide Show |
 | [Slides](../../aspose.slides/slideshowsettings/slides) { get; set; } | Rentang Slide |
-| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | Mendapatkan atau mengatur jenis slide show. Diwakili oleh [`SlideShowType`](./slideshowtype) nenek moyang berikut: [`BrowsedAtKiosk`](../browsedatkiosk), [`PresentedBySpeaker`](../presentedbyspeaker) dan [`BrowsedByIndividual`](../browsedbyindividual) |
+| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | Mendapatkan atau mengatur tipe slide show. Diwakili oleh [`SlideShowType`](./slideshowtype) induk berikut: [`BrowsedAtKiosk`](../browsedatkiosk), [`PresentedBySpeaker`](../presentedbyspeaker) dan [`BrowsedByIndividual`](../browsedbyindividual) |
 | [UseTimings](../../aspose.slides/slideshowsettings/usetimings) { get; set; } | Gunakan Timing dalam Slide Show |
 
 ### Lihat Juga

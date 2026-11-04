@@ -1,14 +1,14 @@
 ---
 title: TextUnderlineType
-second_title: Aspose.Sildes .NET için API Referansı
-description: Metin altı çizgi tipini temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Metin alt çizgisinin türünü temsil eder.
 type: docs
-weight: 11010
+weight: 11030
 url: /tr/aspose.slides/textunderlinetype/
 ---
-## TextUnderlineType enumerasyonu
+## TextUnderlineType numaralandırması
 
-Metin altı çizgi tipini temsil eder.
+Metin alt çizgisinin türünü temsil eder.
 
 ```csharp
 public enum TextUnderlineType : sbyte

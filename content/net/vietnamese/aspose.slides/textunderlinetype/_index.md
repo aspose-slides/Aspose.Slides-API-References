@@ -1,9 +1,9 @@
 ---
 title: TextUnderlineType
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Biểu diễn loại gạch chân văn bản.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Mô tả loại gạch chân văn bản.
 type: docs
-weight: 11010
+weight: 11030
 url: /vi/aspose.slides/textunderlinetype/
 ---
 ## TextUnderlineType liệt kê

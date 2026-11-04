@@ -1,14 +1,14 @@
 ---
 title: ChartTitle
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αναπαριστά τις ιδιότητες τίτλου διαγράμματος.
+description: Αντιπροσωπεύει τις ιδιότητες του τίτλου του διαγράμματος.
 type: docs
-weight: 1490
+weight: 1500
 url: /el/aspose.slides.charts/charttitle/
 ---
 ## ChartTitle κλάση
 
-Αντιπροσωπεύει τις ιδιότητες τίτλου διαγράμματος.
+Represents chart title properties.
 
 ```csharp
 public class ChartTitle : IChartTitle
@@ -18,18 +18,18 @@ public class ChartTitle : IChartTitle
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/charttitle/actualheight) { get; } | Καθορίζει το πραγματικό ύψος του στοιχείου διαγράμματος. Καλέστε τη μέθοδο IChart.ValidateChartLayout() πριν για να λάβετε τις πραγματικές τιμές. Ανάγνωση Single. |
-| [ActualWidth](../../aspose.slides.charts/charttitle/actualwidth) { get; } | Καθορίζει το πραγματικό πλάτος του στοιχείου διαγράμματος. Καλέστε τη μέθοδο IChart.ValidateChartLayout() πριν για να λάβετε τις πραγματικές τιμές. Ανάγνωση Single. |
-| [ActualX](../../aspose.slides.charts/charttitle/actualx) { get; } | Καθορίζει την πραγματική θέση x (αριστερά) του στοιχείου διαγράμματος σε σχέση με την αριστερή άνω γωνία του διαγράμματος. Καλέστε τη μέθοδο IChart.ValidateChartLayout() πριν για να λάβετε τις πραγματικές τιμές. Ανάγνωση Single. |
-| [ActualY](../../aspose.slides.charts/charttitle/actualy) { get; } | Καθορίζει το πραγματικό επάνω μέρος του στοιχείου διαγράμματος σε σχέση με την αριστερή άνω γωνία του διαγράμματος. Καλέστε τη μέθοδο IChart.ValidateChartLayout() πριν για να λάβετε τις πραγματικές τιμές. Ανάγνωση Single. |
-| [Bottom](../../aspose.slides.charts/charttitle/bottom) { get; } | Κάτω. Μόνο-ανάγνωση Single. |
-| [Chart](../../aspose.slides.charts/charttitle/chart) { get; } | Επιστρέφει το γονικό διάγραμμα. Μόνο-ανάγνωση [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/charttitle/format) { get; } | Επιστρέφει τα στυλ γεμίσματος, γραμμής και εφέ ενός τίτλου. Μόνο-ανάγνωση [`IFormat`](../iformat). |
+| [ActualHeight](../../aspose.slides.charts/charttitle/actualheight) { get; } | Καθορίζει το πραγματικό ύψος του στοιχείου του διαγράμματος. Καλέστε τη μέθοδο IChart.ValidateChartLayout() πριν για να λάβετε τις πραγματικές τιμές. Μόνο για ανάγνωση Single. |
+| [ActualWidth](../../aspose.slides.charts/charttitle/actualwidth) { get; } | Καθορίζει το πραγματικό πλάτος του στοιχείου του διαγράμματος. Καλέστε τη μέθοδο IChart.ValidateChartLayout() πριν για να λάβετε τις πραγματικές τιμές. Μόνο για ανάγνωση Single. |
+| [ActualX](../../aspose.slides.charts/charttitle/actualx) { get; } | Καθορίζει την πραγματική θέση x (αριστερά) του στοιχείου του διαγράμματος σε σχέση με την αριστερή άνω γωνία του διαγράμματος. Καλέστε τη μέθοδο IChart.ValidateChartLayout() πριν για να λάβετε τις πραγματικές τιμές. Μόνο για ανάγνωση Single. |
+| [ActualY](../../aspose.slides.charts/charttitle/actualy) { get; } | Καθορίζει το πραγματικό πάνω του στοιχείου του διαγράμματος σε σχέση με την αριστερή άνω γωνία του διαγράμματος. Καλέστε τη μέθοδο IChart.ValidateChartLayout() πριν για να λάβετε τις πραγματικές τιμές. Μόνο για ανάγνωση Single. |
+| [Bottom](../../aspose.slides.charts/charttitle/bottom) { get; } | Κάτω. Μόνο για ανάγνωση Single. |
+| [Chart](../../aspose.slides.charts/charttitle/chart) { get; } | Επιστρέφει το γονικό διάγραμμα. Μόνο για ανάγνωση [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/charttitle/format) { get; } | Επιστρέφει τα στιλ γεμίσματος, γραμμής, εφέ ενός τίτλου. Μόνο για ανάγνωση [`IFormat`](../iformat). |
 | [Height](../../aspose.slides.charts/charttitle/height) { get; set; } | Επιστρέφει ή ορίζει το ύψος ενός τίτλου ως κλάσμα του ύψους του διαγράμματος. Ανάγνωση/εγγραφή Single. |
-| [Overlay](../../aspose.slides.charts/charttitle/overlay) { get; set; } | Καθορίζει αν άλλα στοιχεία διαγράμματος επιτρέπεται να επικαλύπτουν τον τίτλο. Ανάγνωση/εγγραφή Boolean. |
-| [Right](../../aspose.slides.charts/charttitle/right) { get; } | Δεξιά. Μόνο-ανάγνωση Single. |
-| [TextFormat](../../aspose.slides.charts/charttitle/textformat) { get; } | Επιστρέφει τη μορφή κειμένου. Μόνο-ανάγνωση [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | Μπορεί να περιέχει διαμορφωμένο πλούσιο κείμενο. Εάν αυτή η ιδιότητα δεν είναι null, τότε αυτή η μορφοποιημένη τιμή κειμένου υπερισχύει του αυτόματα δημιουργημένου κειμένου. Το αυτόματα δημιουργημένο κείμενο είναι μια έμμεση ιδιότητα της ετικέτας δεδομένων, της ετικέτας μονάδας εμφάνισης του άξονα τιμών, του τίτλου άξονα, του τίτλου διαγράμματος, της ετικέτας της γραμμής τάσης. Το αυτόματα δημιουργημένο κείμενο μορφοποιείται με την ιδιότητα IFormattedTextContainer.TextFormat. Μόνο-ανάγνωση [`ITextFrame`](../../aspose.slides/itextframe). |
+| [Overlay](../../aspose.slides.charts/charttitle/overlay) { get; set; } | Καθορίζει εάν άλλα στοιχεία του διαγράμματος επιτρέπεται να επικαλύπτουν τον τίτλο. Ανάγνωση/εγγραφή Boolean. |
+| [Right](../../aspose.slides.charts/charttitle/right) { get; } | Δεξιά. Μόνο για ανάγνωση Single. |
+| [TextFormat](../../aspose.slides.charts/charttitle/textformat) { get; } | Επιστρέφει τη μορφή κειμένου. Μόνο για ανάγνωση [`IChartTextFormat`](../icharttextformat). |
+| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | Μπορεί να περιέχει εμπλουτισμένο μορφοποιημένο κείμενο. Εάν αυτή η ιδιότητα δεν είναι null, τότε αυτή η μορφοποιημένη τιμή κειμένου αντικαθιστά το αυτόματα δημιουργημένο κείμενο. Το αυτόματα δημιουργημένο κείμενο είναι μια έμμεση ιδιότητα της ετικέτας δεδομένων, της ετικέτας μονάδας εμφάνισης του άξονα τιμών, του τίτλου άξονα, του τίτλου του διαγράμματος, της ετικέτας της γραμμής τάσης. Το αυτόματα δημιουργημένο κείμενο μορφοποιείται με την ιδιότητα IFormattedTextContainer.TextFormat. Μόνο για ανάγνωση [`ITextFrame`](../../aspose.slides/itextframe). |
 | [Width](../../aspose.slides.charts/charttitle/width) { get; set; } | Επιστρέφει ή ορίζει το πλάτος ενός τίτλου ως κλάσμα του πλάτους του διαγράμματος. Ανάγνωση/εγγραφή Single. |
 | [X](../../aspose.slides.charts/charttitle/x) { get; set; } | Επιστρέφει ή ορίζει τη συντεταγμένη x ενός τίτλου ως κλάσμα του πλάτους του διαγράμματος. Ανάγνωση/εγγραφή Single. |
 | [Y](../../aspose.slides.charts/charttitle/y) { get; set; } | Επιστρέφει ή ορίζει τη συντεταγμένη y ενός τίτλου ως κλάσμα του ύψους του διαγράμματος. Ανάγνωση/εγγραφή Single. |
@@ -42,8 +42,8 @@ public class ChartTitle : IChartTitle
 
 ### Δείτε επίσης
 
-* διεπαφή [IChartTitle](../icharttitle)
-* χώρος ονομάτων [Aspose.Slides.Charts](../../aspose.slides.charts)
+* διασύνδεση [IChartTitle](../icharttitle)
+* χώρο ονομάτων [Aspose.Slides.Charts](../../aspose.slides.charts)
 * συναρμολόγηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

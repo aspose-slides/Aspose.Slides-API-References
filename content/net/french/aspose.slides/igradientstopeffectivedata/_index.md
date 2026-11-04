@@ -1,12 +1,12 @@
 ---
 title: IGradientStopEffectiveData
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: objet immuable qui représente un arrêt de dégradé.
 type: docs
-weight: 6050
+weight: 6070
 url: /fr/aspose.slides/igradientstopeffectivedata/
 ---
-## interface IGradientStopEffectiveData
+## IGradientStopEffectiveData interface
 
 objet immuable qui représente un arrêt de dégradé.
 
@@ -16,7 +16,7 @@ public interface IGradientStopEffectiveData
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [Color](../../aspose.slides/igradientstopeffectivedata/color) { get; } | Renvoie la couleur d'un arrêt de dégradé. Lecture seule Color. |
 | [Position](../../aspose.slides/igradientstopeffectivedata/position) { get; } | Renvoie la position (0..1) d'un arrêt de dégradé. Lecture seule Single. |

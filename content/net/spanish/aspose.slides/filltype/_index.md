@@ -3,10 +3,10 @@ title: FillType
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Especifica el tipo de relleno interior de varios objetos visuales.
 type: docs
-weight: 4790
+weight: 4810
 url: /es/aspose.slides/filltype/
 ---
-## enumeración FillType
+## Enumeración FillType
 
 Especifica el tipo de relleno interior de varios objetos visuales.
 
@@ -16,7 +16,7 @@ public enum FillType : sbyte
 
 ### Valores
 
-| Nombre | Valor | Descripción |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` | El tipo de relleno no está definido. |
 | NoFill | `0` | No se aplica relleno. |

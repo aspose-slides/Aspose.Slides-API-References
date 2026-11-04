@@ -1,14 +1,14 @@
 ---
 title: StreamWrapperFactory
 second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Fabrique de StreamWrappers. Pour l'interface COM.
+description: Fabricant de StreamWrappers. Pour l'interface COM.
 type: docs
-weight: 10760
+weight: 10780
 url: /fr/aspose.slides/streamwrapperfactory/
 ---
 ## StreamWrapperFactory classe
 
-Fabrique de StreamWrappers. Pour l'interface COM.
+Fabricant de StreamWrappers. Pour l'interface COM.
 
 ```csharp
 public class StreamWrapperFactory : IStreamWrapperFactory
@@ -18,14 +18,14 @@ public class StreamWrapperFactory : IStreamWrapperFactory
 
 | Nom | Description |
 | --- | --- |
-| [StreamWrapperFactory](streamwrapperfactory)() | Constructeur par défaut. |
+| [StreamWrapperFactory](streamwrapperfactory)() | Le constructeur par défaut. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
 | [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Crée un FileStream avec le chemin spécifié et le mode de création. |
-| [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Crée un FileStream avec le chemin spécifié, le mode de création et la permission de lecture/écriture. |
+| [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Crée un FileStream avec le chemin spécifié, le mode de création et l'autorisation de lecture/écriture. |
 | [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | Crée un wrapper MemoryStream. |
 | [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Crée un wrapper MemoryStream basé sur le tableau d'octets spécifié. |
 

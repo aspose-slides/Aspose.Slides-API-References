@@ -1,9 +1,9 @@
 ---
 title: JoinPortionsWithSameFormatting
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
 description: รวมรันที่มีการจัดรูปแบบเดียวกันในทุกย่อหน้า.
 type: docs
-weight: 100
+weight: 110
 url: /th/aspose.slides/itextframe/joinportionswithsameformatting/
 ---
 ## ITextFrame.JoinPortionsWithSameFormatting เมธอด

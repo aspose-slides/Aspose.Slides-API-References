@@ -1,9 +1,9 @@
 ---
 title: IRow
-second_title: Riferimento API di Aspose.Sildes per .NET
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta una riga in una tabella.
 type: docs
-weight: 6850
+weight: 6870
 url: /it/aspose.slides/irow/
 ---
 ## IRow interfaccia

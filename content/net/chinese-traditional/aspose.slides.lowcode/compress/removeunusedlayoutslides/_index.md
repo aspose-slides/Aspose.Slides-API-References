@@ -1,9 +1,9 @@
 ---
 title: RemoveUnusedLayoutSlides
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 透過移除未使用的版面投影片來壓縮 Presentationaspose.slides/presentation。
 type: docs
-weight: 20
+weight: 40
 url: /zh-hant/aspose.slides.lowcode/compress/removeunusedlayoutslides/
 ---
 ## Compress.RemoveUnusedLayoutSlides 方法
@@ -16,7 +16,7 @@ public static void RemoveUnusedLayoutSlides(Presentation pres)
 
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
-| pres | Presentation | 簡報實例 |
+| pres | Presentation | Presentation 實例 |
 
 ### 範例
 
@@ -29,7 +29,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 參見
+### 另請參閱
 
 * 類別 [Presentation](../../../aspose.slides/presentation)
 * 類別 [Compress](../../compress)

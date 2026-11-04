@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Restituisce o imposta la larghezza di un titolo come frazione della larghezza del grafico. Lettura/scrittura Single.
+description: Restituisce o imposta la larghezza di un titolo come frazione della larghezza del grafico. Lettura/Scrittura Single.
 type: docs
-weight: 150
+weight: 160
 url: /it/aspose.slides.charts/datalabel/width/
 ---
-## DataLabel.Width property
+## DataLabel.Width proprietà
 
-Restituisce o imposta la larghezza di un titolo come frazione della larghezza del grafico. Lettura/scrittura Single.
+Restituisce o imposta la larghezza di un titolo come frazione della larghezza del grafico. Lettura/Scrittura Single.
 
 ```csharp
 public float Width { get; set; }

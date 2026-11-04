@@ -1,9 +1,9 @@
 ---
 title: ForEach.ForEachShapeCallback
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Aspose.Sildes cho .NET Tham chiếu API
 description: Callback sẽ được gọi cho mỗi Shape./foreach/shape trong Presentation../aspose.slides/presentation.
 type: docs
-weight: 7950
+weight: 7970
 url: /vi/aspose.slides.lowcode/foreach.foreachshapecallback/
 ---
 ## ForEach.ForEachShapeCallback delegate

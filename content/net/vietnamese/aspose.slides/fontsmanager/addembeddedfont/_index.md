@@ -1,14 +1,14 @@
 ---
 title: AddEmbeddedFont
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Thêm phông chữ nhúng. Hãy nhớ rằng khi sao chép bất kỳ phông chữ nào, hầu hết các phông chữ đều có bản quyền. Đầu tiên, xác định giấy phép của phông chữ và xác minh chúng có thể được chuyển sang máy khác một cách tự do. Một ArgumentException có thể được ném nếu dữ liệu phông chữ là null hoặc phông chữ này đã được nhúng
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Thêm phông chữ nhúng. Hãy nhớ rằng khi sao chép bất kỳ phông chữ nào, hầu hết các phông chữ đều được bảo vệ bản quyền. Đầu tiên, hãy xác định giấy phép của phông chữ trước và xác nhận chúng có thể được chuyển sang máy khác một cách tự do. Có thể ném ArgumentException nếu dữ liệu phông chữ là null hoặc phông chữ này đã được nhúng
 type: docs
-weight: 30
+weight: 40
 url: /vi/aspose.slides/fontsmanager/addembeddedfont/
 ---
 ## AddEmbeddedFont(IFontData, EmbedFontCharacters) {#addembeddedfont}
 
-Thêm phông chữ nhúng. Hãy nhớ rằng khi sao chép bất kỳ phông chữ nào, hầu hết các phông chữ đều có bản quyền. Trước tiên, hãy xác định giấy phép của phông chữ và xác minh chúng có thể được chuyển sang máy khác một cách tự do. Một ArgumentException có thể được ném nếu dữ liệu phông chữ là null hoặc phông chữ này đã được nhúng.
+Thêm phông chữ nhúng. Hãy nhớ rằng khi sao chép bất kỳ phông chữ nào, hầu hết các phông chữ đều được bảo vệ bản quyền. Đầu tiên, hãy xác định giấy phép của phông chữ trước và xác nhận chúng có thể được chuyển sang máy khác một cách tự do. Có thể ném ArgumentException nếu dữ liệu phông chữ là null hoặc phông chữ này đã được nhúng.
 
 ```csharp
 public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRule)
@@ -26,7 +26,7 @@ public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRul
 
 ## AddEmbeddedFont(byte[], EmbedFontCharacters) {#addembeddedfont_1}
 
-Thêm phông chữ nhúng. Hãy nhớ rằng khi sao chép bất kỳ phông chữ nào, hầu hết các phông chữ đều có bản quyền. Trước tiên, hãy xác định giấy phép của phông chữ và xác minh chúng có thể được chuyển sang máy khác một cách tự do. Một ArgumentException có thể được ném nếu dữ liệu phông chữ là null hoặc phông chữ này đã được nhúng.
+Thêm phông chữ nhúng. Hãy nhớ rằng khi sao chép bất kỳ phông chữ nào, hầu hết các phông chữ đều được bảo vệ bản quyền. Đầu tiên, hãy xác định giấy phép của phông chữ trước và xác nhận chúng có thể được chuyển sang máy khác một cách tự do. Có thể ném ArgumentException nếu dữ liệu phông chữ là null hoặc phông chữ này đã được nhúng.
 
 ```csharp
 public void AddEmbeddedFont(byte[] fontData, EmbedFontCharacters embedFontRule)

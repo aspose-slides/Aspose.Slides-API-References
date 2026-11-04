@@ -3,7 +3,7 @@ title: ISmartArtNodeCollection
 second_title: Aspose.Sildes for .NET API 參考
 description: 表示 SmartArt 節點的集合。
 type: docs
-weight: 10560
+weight: 10580
 url: /zh-hant/aspose.slides.smartart/ismartartnodecollection/
 ---
 ## ISmartArtNodeCollection 介面
@@ -18,18 +18,18 @@ public interface ISmartArtNodeCollection : IGenericCollection<ISmartArtNode>
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Item](../../aspose.slides.smartart/ismartartnodecollection/item) { get; } | 依索引傳回節點。唯讀 [`ISmartArtNode`](../ismartartnode) |
+| [Item](../../aspose.slides.smartart/ismartartnodecollection/item) { get; } | 依索引返回節點。唯讀 [`ISmartArtNode`](../ismartartnode) |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
 | [AddNode](../../aspose.slides.smartart/ismartartnodecollection/addnode)() | 新增節點或子節點。 |
-| [AddNodeByPosition](../../aspose.slides.smartart/ismartartnodecollection/addnodebyposition)(int) | 在節點集合的選定位置新增節點。 |
+| [AddNodeByPosition](../../aspose.slides.smartart/ismartartnodecollection/addnodebyposition)(int) | 在節點集合的指定位置新增節點。 |
 | [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode_1)(int) | 依索引移除節點或子節點。 |
 | [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode)(ISmartArtNode) | 移除節點或子節點。 |
 
-### 另請參閱
+### 另見
 
 * 介面 [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * 介面 [ISmartArtNode](../ismartartnode)

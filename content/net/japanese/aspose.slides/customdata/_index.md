@@ -1,14 +1,14 @@
 ---
 title: CustomData
 second_title: Aspose.Sildes for .NET API リファレンス
-description: カスタム データのコンテナを表します。
+description: カスタムデータのコンテナを表します。
 type: docs
-weight: 2730
+weight: 2750
 url: /ja/aspose.slides/customdata/
 ---
 ## CustomData クラス
 
-カスタム データのコンテナを表します。
+カスタムデータのコンテナを表します。
 
 ```csharp
 public class CustomData : ICustomData
@@ -18,8 +18,8 @@ public class CustomData : ICustomData
 
 | 名前 | 説明 |
 | --- | --- |
-| [CustomXmlParts](../../aspose.slides/customdata/customxmlparts) { get; } | カスタム XML パーツ コレクションを返します。 読み取り専用 [`ICustomXmlPartCollection`](../icustomxmlpartcollection)。 |
-| [Tags](../../aspose.slides/customdata/tags) { get; } | カスタマー データ タグ コレクションを返します。 読み取り専用 [`ITagCollection`](../itagcollection)。 |
+| [CustomXmlParts](../../aspose.slides/customdata/customxmlparts) { get; } | カスタムXMLパーツコレクションを返します。読み取り専用 [`ICustomXmlPartCollection`](../icustomxmlpartcollection)。 |
+| [Tags](../../aspose.slides/customdata/tags) { get; } | Customer Data Tags コレクションを返します。読み取り専用 [`ITagCollection`](../itagcollection)。 |
 
 ### 参照
 

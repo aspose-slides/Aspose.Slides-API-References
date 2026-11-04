@@ -1,14 +1,14 @@
 ---
 title: IBrightnessContrast
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Reprezentuje efekt BrightnessContrast. Dostosowuje jasność i kontrast
+second_title: Aspose.Sildes dla .NET API Reference
+description: Reprezentuje efekt BrightnessContrast. Reguluje jasność i kontrast
 type: docs
-weight: 3200
+weight: 3220
 url: /pl/aspose.slides.effects/ibrightnesscontrast/
 ---
 ## IBrightnessContrast interfejs
 
-Reprezentuje efekt BrightnessContrast. Dostosowuje jasność i kontrast
+Reprezentuje efekt BrightnessContrast. Reguluje jasność i kontrast
 
 ```csharp
 public interface IBrightnessContrast : IAccessiblePVIObject<IBrightnessContrastEffectiveData>, 

@@ -1,14 +1,14 @@
 ---
 title: PieSplitType
-second_title: Aspose.Sildes için .NET API Referansı
-description: Bir pie-of-pie veya bar-of-pie grafiğinde ikinci pasta ya da çubuk üzerindeki bölme noktalarının bir türünü temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Pasta-üzeri-pasta veya çubuk-üzeri-pasta grafiklerinde ikinci pasta veya çubuk üzerindeki bölme noktalarının bir türünü temsil eder.
 type: docs
-weight: 2380
+weight: 2400
 url: /tr/aspose.slides.charts/piesplittype/
 ---
 ## PieSplitType enum
 
-Bir pie-of-pie veya bar-of-pie grafiğinde ikinci pasta ya da çubuk üzerindeki bölme noktalarının bir türünü temsil eder.
+Bu grafik türünde ikinci pasta veya çubuk üzerindeki bölme noktalarının bir tipini temsil eder.
 
 ```csharp
 public enum PieSplitType
@@ -18,13 +18,13 @@ public enum PieSplitType
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Default | `0` | Veri noktalarının bu grafik türü için varsayılan mekanizma kullanılarak bölüneceğini belirtir. |
-| Custom | `1` | Veri noktalarının pasta ile ikinci grafik arasında Custom Split değerlerine göre bölüneceğini belirtir. |
-| ByPercentage | `2` | Veri noktalarının pasta ile ikinci grafik arasında, yüzde değeri Split Position yüzdesinden düşük olan noktalar ikinci grafiğe yerleştirilerek bölüneceğini belirtir. |
-| ByPos | `3` | Veri noktalarının pasta ile ikinci grafik arasında, veri noktalarının son Split Position değeri ikinci grafiğe yerleştirilerek bölüneceğini belirtir. |
-| ByValue | `4` | Veri noktalarının pasta ile ikinci grafik arasında, değeri Split Position'dan düşük olan veri noktaları ikinci grafiğe yerleştirilerek bölüneceğini belirtir. |
+| Default | `0` | Bu grafik türü için varsayılan mekanizma kullanılarak veri noktalarının bölüneceğini belirtir. |
+| Custom | `1` | Veri noktalarının pasta ve ikinci grafik arasında, Özel Bölme değerlerine göre bölüneceğini belirtir. |
+| ByPercentage | `2` | Veri noktalarının, yüzde değeri Split Position yüzdesinden düşük olan noktalar ikinci grafiğe yerleştirilerek pasta ve ikinci grafik arasında bölüneceğini belirtir. |
+| ByPos | `3` | Veri noktalarının, veri noktalarının son Split Position değerini ikinci grafiğe yerleştirerek pasta ve ikinci grafik arasında bölüneceğini belirtir. |
+| ByValue | `4` | Veri noktalarının, değeri Split Position değerinden düşük olan veri noktaları ikinci grafiğe yerleştirerek pasta ve ikinci grafik arasında bölüneceğini belirtir. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)
 * derleme [Aspose.Slides](../../)

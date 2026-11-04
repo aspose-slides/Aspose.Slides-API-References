@@ -1,14 +1,14 @@
 ---
 title: LegendEntryProperties
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงคุณสมบัติคำอธิบายของแผนภูมิ
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: แทนคุณสมบัติตำนานของแผนภูมิ.
 type: docs
-weight: 2310
+weight: 2330
 url: /th/aspose.slides.charts/legendentryproperties/
 ---
 ## LegendEntryProperties คลาส
 
-แสดงคุณสมบัติคำอธิบายของแผนภูมิ
+แทนคุณสมบัติตำนานของแผนภูมิ.
 
 ```csharp
 public class LegendEntryProperties : ILegendEntryProperties
@@ -18,8 +18,8 @@ public class LegendEntryProperties : ILegendEntryProperties
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/legendentryproperties/chart) { get; } | คืนค่าชาร์ตแม่. อ่านอย่างเดียว [`IChart`](../ichart). |
-| [Hide](../../aspose.slides.charts/legendentryproperties/hide) { get; set; } | กำหนดว่ารายการคำอธิบายเลเจนด์ถูกซ่อนหรือไม่. อ่าน/เขียน Boolean. |
+| [Chart](../../aspose.slides.charts/legendentryproperties/chart) { get; } | คืนค่าชาร์ตหลัก. อ่านอย่างเดียว [`IChart`](../ichart). |
+| [Hide](../../aspose.slides.charts/legendentryproperties/hide) { get; set; } | กำหนดว่ารายการตำนานถูกซ่อนหรือไม่. อ่าน/เขียน Boolean. |
 | [TextFormat](../../aspose.slides.charts/legendentryproperties/textformat) { get; } | คืนค่ารูปแบบข้อความ. อ่านอย่างเดียว [`IChartTextFormat`](../icharttextformat). |
 
 ### ดูเพิ่มเติม

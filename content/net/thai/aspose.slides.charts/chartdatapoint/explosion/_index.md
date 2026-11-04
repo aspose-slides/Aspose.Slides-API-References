@@ -1,14 +1,14 @@
 ---
 title: Explosion
-second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
-description: ระบุจำนวนที่จุดข้อมูลจะถูกย้ายจากศูนย์กลางของพาย. อ่าน/เขียน Int32.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: ระบุจำนวนที่จุดข้อมูลจะถูกย้ายออกจากศูนย์กลางของพาย. อ่าน/เขียน Int32.
 type: docs
-weight: 90
+weight: 130
 url: /th/aspose.slides.charts/chartdatapoint/explosion/
 ---
 ## ChartDataPoint.Explosion คุณสมบัติ
 
-ระบุจำนวนที่จุดข้อมูลจะถูกย้ายจากศูนย์กลางของพาย. อ่าน/เขียน Int32.
+ระบุจำนวนที่จุดข้อมูลจะถูกย้ายออกจากศูนย์กลางของพาย. อ่าน/เขียน Int32.
 
 ```csharp
 public int Explosion { get; set; }

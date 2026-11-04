@@ -1,9 +1,9 @@
 ---
 title: NotesSize
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência de API
 description: Representa um tamanho de slide de notas.
 type: docs
-weight: 9130
+weight: 9150
 url: /pt/aspose.slides/notessize/
 ---
 ## NotesSize classe
@@ -26,7 +26,7 @@ public class NotesSize : INotesSize
 | --- | --- |
 | [Size](../../aspose.slides/notessize/size) { get; set; } | Retorna ou define o tamanho em pontos. Leitura/gravação SizeF. |
 
-### Veja Também
+### Ver também
 
 * interface [INotesSize](../inotessize)
 * namespace [Aspose.Slides](../../aspose.slides)

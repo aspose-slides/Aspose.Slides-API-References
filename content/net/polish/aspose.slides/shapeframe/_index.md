@@ -1,9 +1,9 @@
 ---
 title: ShapeFrame
-second_title: Aspose.Sildes dla .NET Referencja API
-description: Reprezentuje właściwości ramek kształtu.
+second_title: Aspose.Sildes dla .NET referencja API
+description: Reprezentuje właściwości ramki kształtu.
 type: docs
-weight: 9900
+weight: 9920
 url: /pl/aspose.slides/shapeframe/
 ---
 ## ShapeFrame klasa
@@ -26,11 +26,11 @@ public class ShapeFrame : IShapeFrame
 | --- | --- |
 | [CenterX](../../aspose.slides/shapeframe/centerx) { get; } | Zwraca współrzędną X środka ramki. Tylko do odczytu Single. |
 | [CenterY](../../aspose.slides/shapeframe/centery) { get; } | Zwraca współrzędną Y środka ramki. Tylko do odczytu Single. |
-| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | Określa, czy ramka jest odbita w poziomie. Tylko do odczytu [`NullableBool`](../nullablebool). |
-| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | Określa, czy ramka jest odbita w pionie. Tylko do odczytu [`NullableBool`](../nullablebool). |
+| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | Określa, czy ramka jest odwrócona w poziomie. Tylko do odczytu [`NullableBool`](../nullablebool). |
+| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | Określa, czy ramka jest odwrócona w pionie. Tylko do odczytu [`NullableBool`](../nullablebool). |
 | [Height](../../aspose.slides/shapeframe/height) { get; } | Zwraca wysokość ramki. Tylko do odczytu Single. |
 | [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | Zwraca współrzędne ramki. Tylko do odczytu RectangleF. |
-| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | Zwraca liczbę stopni, o które ramka jest obrócona wokół osi z. Wartość dodatnia oznacza obrót w kierunku zgodnym z ruchem wskazówek zegara; wartość ujemna oznacza obrót w kierunku przeciwnym do ruchu wskazówek zegara. Tylko do odczytu Single. |
+| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | Zwraca liczbę stopni, o które ramka jest obrócona wokół osi Z. Wartość dodatnia oznacza obrót zgodny z ruchem wskazówek zegara; wartość ujemna oznacza obrót przeciwny do ruchu wskazówek zegara. Tylko do odczytu Single. |
 | [Width](../../aspose.slides/shapeframe/width) { get; } | Zwraca szerokość ramki. Tylko do odczytu Single. |
 | [X](../../aspose.slides/shapeframe/x) { get; } | Zwraca współrzędną X lewego górnego rogu ramki. Tylko do odczytu Single. |
 | [Y](../../aspose.slides/shapeframe/y) { get; } | Zwraca współrzędną Y lewego górnego rogu ramki. Tylko do odczytu Single. |

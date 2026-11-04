@@ -1,14 +1,14 @@
 ---
 title: ITransitionValueBase
-second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
-description: เป็นตัวแทนของคลาสฐานสำหรับเอฟเฟกต์การเปลี่ยนสไลด์
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: เป็นคลาสพื้นฐานสำหรับเอฟเฟกต์การเปลี่ยนสไลด์
 type: docs
-weight: 10210
+weight: 10230
 url: /th/aspose.slides.slideshow/itransitionvaluebase/
 ---
 ## ITransitionValueBase อินเทอร์เฟซ
 
-เป็นตัวแทนของคลาสฐานสำหรับเอฟเฟกต์การเปลี่ยนสไลด์
+เป็นคลาสพื้นฐานสำหรับเอฟเฟกต์การเปลี่ยนสไลด์
 
 ```csharp
 public interface ITransitionValueBase

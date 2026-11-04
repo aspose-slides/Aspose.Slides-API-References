@@ -1,14 +1,14 @@
 ---
 title: IVbaReferenceOleTwiddledTypeLib
-second_title: مرجع API لـ Aspose.Sildes على .NET
-description: يمثل مرجع مكتبة أنواع OLE Automation المعدلة حيث يتم تعليم جميع العناصر القابلة للامتداد.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: يمثل مرجع مكتبة نوع OLE Automation معدل يتم فيه وضع علامة على جميع عناصر التحكم كقابلة للتمديد.
 type: docs
-weight: 11600
+weight: 11620
 url: /ar/aspose.slides.vba/ivbareferenceoletwiddledtypelib/
 ---
 ## IVbaReferenceOleTwiddledTypeLib واجهة
 
-يمثل مرجع مكتبة الأنواع OLE Automation المعدلة حيث يتم تعليم جميع العناصر القابلة للامتداد.
+يمثل مرجع مكتبة نوع OLE Automation معدل يتم فيه وضع علامة على جميع عناصر التحكم كقابلة للتمديد.
 
 ```csharp
 public interface IVbaReferenceOleTwiddledTypeLib : IVbaReference
@@ -18,7 +18,7 @@ public interface IVbaReferenceOleTwiddledTypeLib : IVbaReference
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletwiddledtypelib/asivbareference) { get; } | يعيد IVbaReference واجهة. للقراءة فقط [`IVbaReference`](../ivbareference). |
+| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletwiddledtypelib/asivbareference) { get; } | يُرجع واجهة IVbaReference. للقراءة فقط [`IVbaReference`](../ivbareference). |
 
 ### انظر أيضًا
 

@@ -3,7 +3,7 @@ title: ISlideImageFormat
 second_title: Aspose.Sildes pro .NET API Reference
 description: Určuje formát, ve kterém bude obrázek snímku uložen pro prezentaci při exportu do HTML.
 type: docs
-weight: 4090
+weight: 4110
 url: /cs/aspose.slides.export/islideimageformat/
 ---
 ## ISlideImageFormat rozhraní

@@ -1,14 +1,14 @@
 ---
 title: PdfCompliance
-second_title: Aspose.Sildes für .NET API Referenz
-description: Konstanten, die das PDF-Standard-Konformitätsniveau definieren.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Konstanten, die den Konformitätsgrad der PDF-Standards definieren.
 type: docs
-weight: 4320
+weight: 4340
 url: /de/aspose.slides.export/pdfcompliance/
 ---
 ## PdfCompliance Aufzählung
 
-Konstanten, die das PDF-Standard-Konformitätsniveau definieren.
+Konstanten, die den Konformitätsgrad der PDF-Standards definieren.
 
 ```csharp
 public enum PdfCompliance

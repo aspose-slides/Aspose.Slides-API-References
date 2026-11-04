@@ -1,14 +1,14 @@
 ---
 title: ITagCollection
-second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt de verzameling tags voor, door de gebruiker gedefinieerde stringparen
+second_title: Aspose.Sildes voor .NET API Referentie
+description: Stelt de collectie van tags voor (door de gebruiker gedefinieerde stringparen)
 type: docs
-weight: 7260
+weight: 7280
 url: /nl/aspose.slides/itagcollection/
 ---
 ## ITagCollection interface
 
-Stelt de verzameling tags voor (door de gebruiker gedefinieerde stringparen)
+Stelt de collectie van tags voor (door de gebruiker gedefinieerde stringparen)
 
 ```csharp
 public interface ITagCollection : IGenericCollection<KeyValuePair<string, string>>
@@ -16,21 +16,21 @@ public interface ITagCollection : IGenericCollection<KeyValuePair<string, string
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [Item](../../aspose.slides/itagcollection/item) { get; set; } | Retourneert of stelt een sleutel- en waardepaar van een tag in. |
+| [Item](../../aspose.slides/itagcollection/item) { get; set; } | Geeft een sleutel- en waardepaar van een tag terug of stelt deze in. |
 
 ## Methoden
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/itagcollection/add)(string, string) | Voegt een nieuwe tag toe aan de collectie. |
 | [Clear](../../aspose.slides/itagcollection/clear)() | Verwijdert alle tags uit de collectie. |
 | [Contains](../../aspose.slides/itagcollection/contains)(string) | Bepaalt of de collectie een specifieke naam bevat. |
-| [GetNameByIndex](../../aspose.slides/itagcollection/getnamebyindex)(int) | Retourneert de sleutel van een tag op de opgegeven index. |
-| [GetNamesOfTags](../../aspose.slides/itagcollection/getnamesoftags)() | Retourneert namen van tags. |
-| [GetValueByIndex](../../aspose.slides/itagcollection/getvaluebyindex)(int) | Retourneert de waarde van een tag op de opgegeven index. |
-| [IndexOfName](../../aspose.slides/itagcollection/indexofname)(string) | Retourneert de nulgebaseerde index van de opgegeven sleutel in de collectie. |
+| [GetNameByIndex](../../aspose.slides/itagcollection/getnamebyindex)(int) | Geeft de sleutel van een tag op de opgegeven index terug. |
+| [GetNamesOfTags](../../aspose.slides/itagcollection/getnamesoftags)() | Geeft de namen van tags terug. |
+| [GetValueByIndex](../../aspose.slides/itagcollection/getvaluebyindex)(int) | Geeft de waarde van een tag op de opgegeven index terug. |
+| [IndexOfName](../../aspose.slides/itagcollection/indexofname)(string) | Geeft de nulgebaseerde index van de opgegeven sleutel in de collectie terug. |
 | [Remove](../../aspose.slides/itagcollection/remove)(string) | Verwijdert de tag met een opgegeven naam uit de collectie. |
 | [RemoveAt](../../aspose.slides/itagcollection/removeat)(int) | Verwijdert de tag op de opgegeven index. |
 

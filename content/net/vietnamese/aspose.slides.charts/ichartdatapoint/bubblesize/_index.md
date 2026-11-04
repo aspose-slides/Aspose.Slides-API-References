@@ -1,14 +1,14 @@
 ---
 title: BubbleSize
-second_title: Aspose.Sildes cho .NET Tham khảo API
-description: Trả về kích thước bong bóng của điểm dữ liệu biểu đồ. Chỉ đọc IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Lấy kích thước bong bóng của một điểm dữ liệu biểu đồ. Chỉ đọc IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
 weight: 20
 url: /vi/aspose.slides.charts/ichartdatapoint/bubblesize/
 ---
 ## IChartDataPoint.BubbleSize thuộc tính
 
-Trả về kích thước bong bóng của điểm dữ liệu biểu đồ. Chỉ đọc [`IDoubleChartValue`](../../idoublechartvalue).
+Lấy kích thước bong bóng của một điểm dữ liệu biểu đồ. Chỉ đọc [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue BubbleSize { get; }

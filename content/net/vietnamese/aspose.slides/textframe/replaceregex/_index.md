@@ -1,9 +1,9 @@
 ---
 title: ReplaceRegex
-second_title: Aspose.Sildes cho .NET Tham khảo API
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Thay thế tất cả các khớp của biểu thức chính quy bằng chuỗi đã chỉ định.
 type: docs
-weight: 120
+weight: 130
 url: /vi/aspose.slides/textframe/replaceregex/
 ---
 ## TextFrame.ReplaceRegex phương thức
@@ -16,13 +16,13 @@ public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callba
 
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
-| regex | Regex | Biểu thức chính quy Regex để lấy các chuỗi cần được thay thế. |
-| newText | String | Chuỗi để thay thế tất cả các lần xuất hiện của các chuỗi cần được thay thế. |
-| callback | IFindResultCallback | Đối tượng Callback để lưu kết quả thao tác thay thế [`IFindResultCallback`](../../ifindresultcallback). |
+| regex | Regex | Biểu thức chính quy Regex để lấy các chuỗi cần thay thế. |
+| newText | String | Chuỗi dùng để thay thế mọi lần xuất hiện của các chuỗi cần thay thế. |
+| callback | IFindResultCallback | Đối tượng callback để lưu kết quả thao tác thay thế [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Ví dụ
 
-Mã mẫu sau đây cho thấy cách thay thế văn bản bằng biểu thức chính quy với chuỗi đã chỉ định.
+Mã mẫu sau đây minh họa cách thay thế văn bản bằng biểu thức chính quy với chuỗi đã chỉ định.
 
 ```csharp
 [C#]

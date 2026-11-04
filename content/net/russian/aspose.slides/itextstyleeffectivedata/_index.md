@@ -1,9 +1,9 @@
 ---
 title: ITextStyleEffectiveData
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для .NET Справочник API
 description: Неизменяемый объект, содержащий эффективные свойства стиля текста.
 type: docs
-weight: 7320
+weight: 7340
 url: /ru/aspose.slides/itextstyleeffectivedata/
 ---
 ## ITextStyleEffectiveData интерфейс
@@ -28,9 +28,9 @@ public interface ITextStyleEffectiveData
 
 ### Примечания
 
-Этот интерфейс используется вместе с интерфейсом [`ITextStyle`](../itextstyle) для возврата эффективных значений форматирования с учётом наследования.
+Этот интерфейс используется вместе с интерфейсом [`ITextStyle`](../itextstyle) для возврата эффективных значений форматирования с применённым наследованием.
 
-### Смотрите также
+### См. также
 
 * пространство имён [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

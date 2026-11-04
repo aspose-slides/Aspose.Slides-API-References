@@ -1,14 +1,14 @@
 ---
 title: CellInvalidReferenceException
-second_title: Aspose.Sildes .NET API 参考
-description: 当遇到无效的单元格引用时抛出的异常。
+second_title: Aspose.Sildes for .NET API 参考
+description: 当遇到无效单元格引用时抛出的异常。
 type: docs
-weight: 10720
+weight: 10740
 url: /zh/aspose.slides.spreadsheet/cellinvalidreferenceexception/
 ---
 ## CellInvalidReferenceException 类
 
-当遇到无效的单元格引用时抛出的异常。
+当遇到无效单元格引用时抛出的异常。
 
 ```csharp
 public class CellInvalidReferenceException : PptxEditException
@@ -20,14 +20,14 @@ public class CellInvalidReferenceException : PptxEditException
 | --- | --- |
 | [CellInvalidReferenceException](cellinvalidreferenceexception#constructor)() | 初始化 [`CellInvalidReferenceException`](../cellinvalidreferenceexception) 类的新实例。 |
 | [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_1)(string) | 使用指定的错误消息初始化 [`CellInvalidReferenceException`](../cellinvalidreferenceexception) 类的新实例。 |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_2)(string, Exception) | 使用指定的错误消息和指向导致此异常的内部异常的引用来初始化 [`CellInvalidReferenceException`](../cellinvalidreferenceexception) 类的新实例。 |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_3)(string, string) | 使用指定的错误消息和无效的单元格引用来初始化 [`CellCircularReferenceException`](../cellcircularreferenceexception) 类的新实例。 |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_2)(string, Exception) | 使用指定的错误消息和指向导致此异常的内部异常的引用，初始化 [`CellInvalidReferenceException`](../cellinvalidreferenceexception) 类的新实例。 |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_3)(string, string) | 使用指定的错误消息和无效单元格引用，初始化 [`CellCircularReferenceException`](../cellcircularreferenceexception) 类的新实例。 |
 
 ## 属性
 
 | 名称 | 描述 |
 | --- | --- |
-| [Reference](../../aspose.slides.spreadsheet/cellinvalidreferenceexception/reference) { get; } | 获取无效的单元格引用。 |
+| [Reference](../../aspose.slides.spreadsheet/cellinvalidreferenceexception/reference) { get; } | 获取无效单元格引用。 |
 
 ### 另请参见
 

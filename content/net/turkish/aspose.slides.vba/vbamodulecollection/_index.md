@@ -1,14 +1,14 @@
 ---
 title: VbaModuleCollection
-second_title: Aspose.Sildes .NET için API Referansı
-description: VBA Project modüllerinin bir koleksiyonunu temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: VBA Proje modüllerinin bir koleksiyonunu temsil eder.
 type: docs
-weight: 11640
+weight: 11660
 url: /tr/aspose.slides.vba/vbamodulecollection/
 ---
-## VbaModuleCollection sınıfı
+## VbaModuleCollection sınıf
 
-VBA Project modüllerinin bir koleksiyonunu temsil eder.
+VBA Proje modüllerinin bir koleksiyonunu temsil eder.
 
 ```csharp
 public sealed class VbaModuleCollection : IVbaModuleCollection
@@ -16,21 +16,21 @@ public sealed class VbaModuleCollection : IVbaModuleCollection
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides.vba/vbamodulecollection/count) { get; } | Koleksiyonda gerçekte bulunan öğe sayısını alır. Salt okunur Int32. |
-| [IsSynchronized](../../aspose.slides.vba/vbamodulecollection/issynchronized) { get; } | Erişimin koleksiyon ile senkronize olup olmadığını (iş parçacığı güvenli) gösteren bir değer döndürür. Salt okunur Boolean. |
-| [Item](../../aspose.slides.vba/vbamodulecollection/item) { get; } | Belirtilen dizindeki öğeyi alır. |
+| [Count](../../aspose.slides.vba/vbamodulecollection/count) { get; } | Koleksiyonda gerçekte bulunan eleman sayısını alır. Salt okunur Int32. |
+| [IsSynchronized](../../aspose.slides.vba/vbamodulecollection/issynchronized) { get; } | Koleksiyona erişimin eşzamanlı (iş parçacığı güvenli) olup olmadığını belirten bir değer döndürür. Salt okunur Boolean. |
+| [Item](../../aspose.slides.vba/vbamodulecollection/item) { get; } | Belirtilen indeksteki öğeyi alır. |
 | [SyncRoot](../../aspose.slides.vba/vbamodulecollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt okunur Object. |
 
 ## Yöntemler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [AddEmptyModule](../../aspose.slides.vba/vbamodulecollection/addemptymodule)(string) | VBA Project’e yeni boş bir modül ekler. |
+| [AddEmptyModule](../../aspose.slides.vba/vbamodulecollection/addemptymodule)(string) | VBA Projesine yeni boş bir modül ekler. |
 | [CopyTo](../../aspose.slides.vba/vbamodulecollection/copyto)(Array, int) | Koleksiyondaki tüm öğeleri belirtilen diziye kopyalar. |
-| [GetEnumerator](../../aspose.slides.vba/vbamodulecollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |
-| [Remove](../../aspose.slides.vba/vbamodulecollection/remove)(IVbaModule) | Koleksiyondan belirli bir nesnenin ilk görünümünü kaldırır. |
+| [GetEnumerator](../../aspose.slides.vba/vbamodulecollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumeratör döndürür. |
+| [Remove](../../aspose.slides.vba/vbamodulecollection/remove)(IVbaModule) | Koleksiyondan belirli bir nesnenin ilk meydana gelmesini kaldırır. |
 
 ### Ayrıca Bakınız
 

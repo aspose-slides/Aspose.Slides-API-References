@@ -1,20 +1,20 @@
 ---
 title: ForEach
-second_title: Aspose.Sildes untuk .NET Referensi API
-description: Mewakili sekelompok metode yang ditujukan untuk mengiterasi berbagai objek model Presentation../aspose.slides/presentation. Metode ini dapat berguna bila Anda perlu mengiterasi dan mengubah format atau konten beberapa elemen Presentation, misalnya mengubah format setiap bagian.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili sekelompok metode yang ditujukan untuk mengiterasi berbagai objek model Presentation../aspose.slides/presentation. Metode ini dapat berguna jika Anda perlu mengiterasi dan mengubah pemformatan atau konten beberapa elemen Presentation, misalnya mengubah pemformatan setiap bagian.
 type: docs
-weight: 7900
+weight: 7920
 url: /id/aspose.slides.lowcode/foreach/
 ---
-## kelas ForEach
+## ForEach kelas
 
-Mewakili sekelompok metode yang ditujukan untuk mengiterasi berbagai objek model [`Presentation`](../../aspose.slides/presentation). Metode ini dapat berguna jika Anda perlu mengiterasi dan mengubah format atau konten beberapa elemen Presentation, misalnya mengubah format setiap bagian.
+Mewakili sekelompok metode yang dimaksudkan untuk mengiterasi berbagai objek model [`Presentation`](../../aspose.slides/presentation). Metode-metode ini dapat berguna jika Anda perlu mengiterasi dan mengubah pemformatan atau konten beberapa elemen Presentation, misalnya mengubah pemformatan setiap bagian.
 
 ```csharp
 public static class ForEach
 ```
 
-## Metode
+## Methods
 
 | Nama | Deskripsi |
 | --- | --- |
@@ -26,10 +26,10 @@ public static class ForEach
 | static [Portion](../../aspose.slides.lowcode/foreach/portion#portion)(Presentation, bool, ForEachPortionCallback) | Iterasi setiap [`Portion`](./portion) dalam [`Presentation`](../../aspose.slides/presentation). Bagian akan diiterasi dalam semua jenis slide - [`Slide`](./slide), [`MasterSlide`](./masterslide), [`LayoutSlide`](./layoutslide) dan [`NotesSlide`](../../aspose.slides/notesslide) |
 | static [Shape](../../aspose.slides.lowcode/foreach/shape#shape)(BaseSlide, ForEachShapeCallback) | Iterasi setiap [`Shape`](./shape) dalam [`BaseSlide`](../../aspose.slides/baseslide). [`BaseSlide`](../../aspose.slides/baseslide) adalah tipe dasar untuk [`Slide`](./slide), [`MasterSlide`](./masterslide) dan [`LayoutSlide`](./layoutslide) |
 | static [Shape](../../aspose.slides.lowcode/foreach/shape#shape_2)(Presentation, ForEachShapeCallback) | Iterasi setiap [`Shape`](./shape) dalam [`Presentation`](../../aspose.slides/presentation). Bentuk akan diiterasi dalam semua jenis slide - [`Slide`](./slide), [`MasterSlide`](./masterslide) dan [`LayoutSlide`](./layoutslide) |
-| static [Shape](../../aspose.slides.lowcode/foreach/shape#shape_1)(Presentation, bool, ForEachShapeCallback) | Iterasi setiap [`Shape`](./shape) dalam [`Presentation`](../../aspose.slides/presentation). Bentuk akan diiterasi dalam semua jenis slide - [`Slide`](./slide), [`MasterSlide`](./masterslide), [`LayoutSlide`](./layoutslide) dan [`NotesSlide`](../../aspose.slides/notesslide) jika diperlukan. |
+| static [Shape](../../aspose.slides.lowcode/foreach/shape#shape_1)(Presentation, bool, ForEachShapeCallback) | Iterasi setiap [`Shape`](./shape) dalam [`Presentation`](../../aspose.slides/presentation). Bentuk akan diiterasi dalam semua jenis slide - [`Slide`](./slide), [`MasterSlide`](./masterslide), [`LayoutSlide`](./layoutslide) dan [`NotesSlide`](../../aspose.slides/notesslide) bila diperlukan. |
 | static [Slide](../../aspose.slides.lowcode/foreach/slide)(Presentation, ForEachSlideCallback) | Iterasi setiap [`Slide`](./slide) dalam [`Presentation`](../../aspose.slides/presentation). |
 
-## Anggota Lain
+## Anggota Lainnya
 
 | Nama | Deskripsi |
 | --- | --- |

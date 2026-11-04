@@ -3,10 +3,10 @@ title: GradientDirection
 second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje styl gradientu.
 type: docs
-weight: 4990
+weight: 5010
 url: /pl/aspose.slides/gradientdirection/
 ---
-## enumeracja GradientDirection
+## GradientDirection enumeracja
 
 Reprezentuje styl gradientu.
 
@@ -19,10 +19,10 @@ public enum GradientDirection
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
 | NotDefined | `-1` | Nie określono |
-| FromCorner1 | `0` | Z lewego górnego narożnika |
-| FromCorner2 | `1` | Z prawego górnego narożnika |
-| FromCorner3 | `2` | Z lewego dolnego narożnika |
-| FromCorner4 | `3` | Z prawego dolnego narożnika |
+| FromCorner1 | `0` | Z górnego lewego narożnika |
+| FromCorner2 | `1` | Z górnego prawego narożnika |
+| FromCorner3 | `2` | Z dolnego lewego narożnika |
+| FromCorner4 | `3` | Z dolnego prawego narożnika |
 | FromCenter | `4` | Z centrum |
 
 ### Zobacz także

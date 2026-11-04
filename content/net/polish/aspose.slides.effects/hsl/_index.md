@@ -1,14 +1,14 @@
 ---
 title: HSL
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Reprezentuje efekt Hue/Saturation/Luminance. Barwa, nasycenie i jasność mogą być dostosowane względem ich bieżącej wartości.
+second_title: Aspose.Sildes dla .NET Dokumentacja API
+description: Reprezentuje efekt Hue/Saturation/Luminance. Odcień, nasycenie i luminancja mogą być każda dostosowana względem jej bieżącej wartości.
 type: docs
-weight: 3010
+weight: 3030
 url: /pl/aspose.slides.effects/hsl/
 ---
-## HSL klasa
+## Klasa HSL
 
-Reprezentuje efekt Hue/Saturation/Luminance. Barwa, nasycenie i jasność mogą być dostosowane względem ich bieżącej wartości.
+Reprezentuje efekt Hue/Saturation/Luminance. Odcień, nasycenie i luminancja mogą być każda dostosowana względem bieżącej wartości.
 
 ```csharp
 public sealed class HSL : ImageTransformOperation, IHSL
@@ -18,15 +18,15 @@ public sealed class HSL : ImageTransformOperation, IHSL
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umożliwia uzyskanie podstawowego interfejsu IPresentationComponent. Tylko do odczytu [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umożliwia pobranie podstawowego interfejsu IPresentationComponent. Tylko do odczytu [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/hsl/equals)(object) | Określa, czy określony [`HSL`](../hsl) jest równy bieżącemu [`HSL`](../hsl). |
-| [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | Pobiera efektywne dane efektu Hue/Saturation/Luminance z uwzględnieniem dziedziczenia. |
-| override [GetHashCode](../../aspose.slides.effects/hsl/gethashcode)() | Służy jako funkcja skrótu dla określonego typu. |
+| override [Equals](../../aspose.slides.effects/hsl/equals)(object) | Określa, czy podany [`HSL`](../hsl) jest równy bieżącemu [`HSL`](../hsl). |
+| [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | Pobiera efektywne dane efektu Hue/Saturation/Luminance z zastosowanym dziedziczeniem. |
+| override [GetHashCode](../../aspose.slides.effects/hsl/gethashcode)() | Służy jako funkcja skrótu dla danego typu. |
 
 ### Zobacz także
 

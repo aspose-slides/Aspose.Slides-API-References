@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlideManager
 second_title: Referência da API Aspose.Sildes para .NET
-description: Gerenciador de slide de apostila mestre.
+description: Gerenciador de slide mestre de folheto.
 type: docs
-weight: 6370
+weight: 6390
 url: /pt/aspose.slides/imasterhandoutslidemanager/
 ---
 ## IMasterHandoutSlideManager interface
 
-Gerenciador de slides de apostila mestre.
+Gerenciador de slide mestre de folheto.
 
 ```csharp
 public interface IMasterHandoutSlideManager
@@ -16,18 +16,18 @@ public interface IMasterHandoutSlideManager
 
 ## Propriedades
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
-| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | Retorna um mestre para todos os slides de notas desta apresentação se houver um, caso contrário retorna null. Somente leitura [`IMasterHandoutSlide`](../imasterhandoutslide). |
+| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | Retorna um mestre para todos os slides de notas desta apresentação, se houver um, caso contrário retorna null. Somente leitura [`IMasterHandoutSlide`](../imasterhandoutslide). |
 
 ## Métodos
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
-| [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | Remove o slide de apostila mestre. |
-| [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | Define o slide de apostila mestre padrão para o slide de apostila relacionado. |
+| [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | Remove o slide de folheto mestre. |
+| [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | Define o slide mestre de folheto padrão como o slide de folheto relacionado. |
 
-### Veja Também
+### Ver também
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

@@ -3,12 +3,12 @@ title: IImageWrapperFactory
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Diese Schnittstelle ermöglicht die Initialisierung von IBitmapWrapper.
 type: docs
-weight: 6180
+weight: 6200
 url: /de/aspose.slides/iimagewrapperfactory/
 ---
 ## IImageWrapperFactory Schnittstelle
 
-Diese Schnittstelle ermöglicht die Initialisierung von IBitmapWrapper.
+Diese Schnittstelle ermöglicht das Initialisieren von IBitmapWrapper.
 
 ```csharp
 public interface IImageWrapperFactory
@@ -18,9 +18,9 @@ public interface IImageWrapperFactory
 
 | Name | Beschreibung |
 | --- | --- |
-| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | Initialisiert eine neue Instanz der ImageWrapper Klasse aus dem angegebenen vorhandenen Bild. |
-| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | Initialisiert eine neue Instanz der ImageWrapper Klasse aus dem angegebenen Datenstrom. |
-| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | Initialisiert eine neue Instanz der ImageWrapper Klasse aus der angegebenen Datei. |
+| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | Initialisiert eine neue Instanz der ImageWrapper class aus dem angegebenen vorhandenen Bild. |
+| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | Initialisiert eine neue Instanz der ImageWrapper class aus dem angegebenen Datenstrom. |
+| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | Initialisiert eine neue Instanz der ImageWrapper class aus der angegebenen Datei. |
 
 ### Siehe auch
 

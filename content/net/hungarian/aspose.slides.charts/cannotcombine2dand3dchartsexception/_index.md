@@ -1,14 +1,14 @@
 ---
 title: CannotCombine2DAnd3DChartsException
-second_title: Aspose.Sildes .NET API referencia
-description: Kivétel, amely akkor keletkezik, amikor megpróbálják kombinálni a 2D és 3D diagramtípusokat.
+second_title: Aspose.Sildes .NET API referenciája
+description: Kivétel, amely akkor kerül dobásra, amikor 2D és 3D diagramtípusok kombinálására próbálkozik.
 type: docs
-weight: 1240
+weight: 1250
 url: /hu/aspose.slides.charts/cannotcombine2dand3dchartsexception/
 ---
 ## CannotCombine2DAnd3DChartsException osztály
 
-Exception, amely akkor dobódik, amikor 2D és 3D diagramtípusokat próbál egyesíteni.
+Exception, amely akkor kerül dobásra, amikor 2D és 3D diagramtípusokat próbál kombinálni.
 
 ```csharp
 public class CannotCombine2DAnd3DChartsException : InvalidOperationException
@@ -19,8 +19,8 @@ public class CannotCombine2DAnd3DChartsException : InvalidOperationException
 | Név | Leírás |
 | --- | --- |
 | [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor)() | Alapértelmezett konstruktor. |
-| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_1)(string) | Konstruktor, amely lehetővé teszi, hogy üzenetet adjunk hozzá ehhez az Exception-hez. |
-| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_2)(string, Exception) | Konstruktor egy olyan Exception-hez, amely üzenetet és beágyazott Exception-t tartalmaz. |
+| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_1)(string) | Konstruktor, amely lehetővé teszi üzenet hozzáadását ehhez a kivételhez. |
+| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_2)(string, Exception) | Konstruktor egy olyan kivételhez, amely üzenetet és egy beágyazott kivételt tartalmaz. |
 
 ### Lásd még
 

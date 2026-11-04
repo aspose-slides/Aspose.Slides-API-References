@@ -1,14 +1,14 @@
 ---
 title: IMathAccent
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Especifica la función de acento compuesta por una base y una marca diacrítica combinada Ejemplo ́
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Especifica la función de acento que consiste en una base y una marca diacrítica combinada Ejemplo ́
 type: docs
-weight: 8080
+weight: 8100
 url: /es/aspose.slides.mathtext/imathaccent/
 ---
 ## IMathAccent interfaz
 
-Especifica la función de acento, compuesta por una base y una marca diacrítica combinada. Ejemplo: 𝑎́
+Especifica la función de acento, que consiste en una base y una marca diacrítica combinada Ejemplo: 𝑎́
 
 ```csharp
 public interface IMathAccent : IMathElement

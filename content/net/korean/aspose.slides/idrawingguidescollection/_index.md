@@ -1,14 +1,14 @@
 ---
 title: IDrawingGuidesCollection
 second_title: Aspose.Sildes for .NET API 참조
-description: 조정 가능한 그리기 가이드를 모은 컬렉션을 나타냅니다.
+description: 조정 가능한 그림 가이드들의 컬렉션을 나타냅니다.
 type: docs
-weight: 5730
+weight: 5750
 url: /ko/aspose.slides/idrawingguidescollection/
 ---
 ## IDrawingGuidesCollection 인터페이스
 
-조정 가능한 그리기 가이드를 모은 컬렉션을 나타냅니다.
+조정 가능한 그림 가이드들의 컬렉션을 나타냅니다.
 
 ```csharp
 public interface IDrawingGuidesCollection : IEnumerable<IDrawingGuide>
@@ -19,17 +19,17 @@ public interface IDrawingGuidesCollection : IEnumerable<IDrawingGuide>
 | 이름 | 설명 |
 | --- | --- |
 | [Count](../../aspose.slides/idrawingguidescollection/count) { get; } | 컬렉션에 있는 모든 요소의 수를 가져옵니다. 읽기 전용 Int32. |
-| [Item](../../aspose.slides/idrawingguidescollection/item) { get; } | 인덱스로 그리기 가이드를 반환합니다. 읽기 전용 [`IDrawingGuide`](../idrawingguide). |
+| [Item](../../aspose.slides/idrawingguidescollection/item) { get; } | 인덱스로 그림 가이드를 반환합니다. 읽기 전용 [`IDrawingGuide`](../idrawingguide). |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [Add](../../aspose.slides/idrawingguidescollection/add)(Orientation, float) | 컬렉션 끝에 그리기 가이드를 추가합니다. |
-| [Clear](../../aspose.slides/idrawingguidescollection/clear)() | 컬렉션의 모든 요소를 제거합니다. |
-| [RemoveAt](../../aspose.slides/idrawingguidescollection/removeat)(int) | 지정된 인덱스에서 그리기 가이드를 제거합니다. |
+| [Add](../../aspose.slides/idrawingguidescollection/add)(Orientation, float) | 컬렉션 끝에 그림 가이드를 추가합니다. |
+| [Clear](../../aspose.slides/idrawingguidescollection/clear)() | 컬렉션에서 모든 요소를 제거합니다. |
+| [RemoveAt](../../aspose.slides/idrawingguidescollection/removeat)(int) | 지정된 인덱스의 그림 가이드를 제거합니다. |
 
-### 참고
+### 참조
 
 * 인터페이스 [IDrawingGuide](../idrawingguide)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

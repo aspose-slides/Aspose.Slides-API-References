@@ -1,14 +1,14 @@
 ---
 title: IAlphaFloor
 second_title: Aspose.Sildes .NET API referencia
-description: Ábrázolja az Alpha Floor effektust. Az 100-nál kisebb alfa átlátszósági értékek nullára változnak. Más szóval, minden részben átlátszó teljesen átlátszóvá válik.
+description: Az Alpha Floor hatást képviseli. Az 100-nál kisebb alfa átlátszóság értékek nullára módosulnak. Más szóval, minden részben átlátszó teljesen átlátszóvá válik.
 type: docs
-weight: 3060
+weight: 3080
 url: /hu/aspose.slides.effects/ialphafloor/
 ---
 ## IAlphaFloor interfész
 
-Ábrázolja az Alpha Floor effektust. Az 100%-nál kisebb Alpha (átlátszóság) értékek nullára változnak. Más szóval, minden részben átlátszó teljesen átlátszóvá válik.
+Az Alpha Floor hatást képviseli. Az 100%-nál kisebb Alpha (átlátszóság) értékek nullára módosulnak. Más szóval, minden részben átlátszó teljesen átlátszóvá válik.
 
 ```csharp
 public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>,
 
 | Név | Leírás |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphafloor/asiaccessiblepviobject) { get; } | Lehetővé teszi a bázis IAccessiblePVIObject interfész lekérdezését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphafloor/asiimagetransformoperation) { get; } | Lehetővé teszi a bázis IImageTransformOperation interfész lekérdezését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphafloor/asiaccessiblepviobject) { get; } | Lehetővé teszi az alap IAccessiblePVIObject interfész lekérését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphafloor/asiimagetransformoperation) { get; } | Lehetővé teszi az alap IImageTransformOperation interfész lekérését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Lásd még
 

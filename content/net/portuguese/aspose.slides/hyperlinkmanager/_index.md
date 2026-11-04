@@ -1,14 +1,14 @@
 ---
 title: HyperlinkManager
 second_title: Referência da API Aspose.Sildes para .NET
-description: Fornece gerenciamento de hiperlinks, adicionando e removendo.
+description: Fornece gerenciamento de hyperlinks, adicionando e removendo.
 type: docs
-weight: 5150
+weight: 5170
 url: /pt/aspose.slides/hyperlinkmanager/
 ---
 ## HyperlinkManager classe
 
-Gerencia hiperlinks (adição, remoção).
+Fornece gerenciamento de hyperlinks (adição, remoção).
 
 ```csharp
 public sealed class HyperlinkManager : IHyperlinkManager
@@ -24,7 +24,7 @@ public sealed class HyperlinkManager : IHyperlinkManager
 | [SetExternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkmouseover)(string) | Define hyperlink externo ao passar o mouse. |
 | [SetInternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkclick)(ISlide) | Define hyperlink interno ao clicar. |
 | [SetInternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | Define hyperlink interno ao passar o mouse. |
-| [SetMacroHyperlinkClick](../../aspose.slides/hyperlinkmanager/setmacrohyperlinkclick)(string) | Define hyperlink de macro ao clicar. |
+| [SetMacroHyperlinkClick](../../aspose.slides/hyperlinkmanager/setmacrohyperlinkclick)(string) | Define hyperlink de Macro ao clicar. |
 
 ### Veja Também
 

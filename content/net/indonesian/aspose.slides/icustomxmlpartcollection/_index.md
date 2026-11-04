@@ -1,9 +1,9 @@
 ---
 title: ICustomXmlPartCollection
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili kumpulan bagian xml khusus.
+description: Mewakili koleksi bagian xml khusus.
 type: docs
-weight: 5680
+weight: 5700
 url: /id/aspose.slides/icustomxmlpartcollection/
 ---
 ## ICustomXmlPartCollection antarmuka
@@ -28,7 +28,7 @@ public interface ICustomXmlPartCollection : IGenericCollection<ICustomXmlPart>
 | [Add](../../aspose.slides/icustomxmlpartcollection/add#add_1)(Stream) | Menambahkan bagian xml khusus baru. |
 | [Add](../../aspose.slides/icustomxmlpartcollection/add#add_2)(string) | Menambahkan bagian xml khusus baru. |
 | [Clear](../../aspose.slides/icustomxmlpartcollection/clear)() | Menghapus semua item dari koleksi. |
-| [Remove](../../aspose.slides/icustomxmlpartcollection/remove)(ICustomXmlPart) | Menghapus kemunculan pertama dari objek tertentu di koleksi. |
+| [Remove](../../aspose.slides/icustomxmlpartcollection/remove)(ICustomXmlPart) | Menghapus kemunculan pertama dari objek tertentu dalam koleksi. |
 | [RemoveAt](../../aspose.slides/icustomxmlpartcollection/removeat)(int) | Menghapus bagian xml khusus pada indeks yang ditentukan. |
 
 ### Lihat Juga

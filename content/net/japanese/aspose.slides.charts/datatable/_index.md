@@ -1,9 +1,9 @@
 ---
 title: DataTable
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: データテーブルのプロパティを表します。
 type: docs
-weight: 1600
+weight: 1610
 url: /ja/aspose.slides.charts/datatable/
 ---
 ## DataTable クラス
@@ -18,13 +18,13 @@ public class DataTable : DomObject<Chart>, IDataTable
 
 | 名前 | 説明 |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/datatable/chart) { get; } | chart を返します。読み取り専用 [`IChart`](../ichart)。 |
-| [Format](../../aspose.slides.charts/datatable/format) { get; } | オブジェクトの線、塗りつぶし、エフェクトスタイルを返します。読み取り専用 [`IFormat`](../iformat)。 |
-| [HasBorderHorizontal](../../aspose.slides.charts/datatable/hasborderhorizontal) { get; set; } | チャート データテーブルに水平セル境界線がある場合は true が返されます。読み取り/書き込み Boolean。 |
-| [HasBorderOutline](../../aspose.slides.charts/datatable/hasborderoutline) { get; set; } | チャート データテーブルにアウトライン境界線がある場合は true が返されます。読み取り/書き込み Boolean。 |
-| [HasBorderVertical](../../aspose.slides.charts/datatable/hasbordervertical) { get; set; } | チャート データテーブルに垂直セル境界線がある場合は true が返されます。読み取り/書き込み Boolean。 |
-| [ShowLegendKey](../../aspose.slides.charts/datatable/showlegendkey) { get; set; } | データ ラベルの凡例キーが表示されている場合は true が返されます。読み取り/書き込み Boolean。 |
-| [TextFormat](../../aspose.slides.charts/datatable/textformat) { get; } | text format を返します。読み取り専用 [`IChartTextFormat`](../icharttextformat)。 |
+| [Chart](../../aspose.slides.charts/datatable/chart) { get; } | チャートを返します。読み取り専用 [`IChart`](../ichart)。 |
+| [Format](../../aspose.slides.charts/datatable/format) { get; } | オブジェクトの線、塗りつぶし、およびエフェクト スタイルを返します。読み取り専用 [`IFormat`](../iformat)。 |
+| [HasBorderHorizontal](../../aspose.slides.charts/datatable/hasborderhorizontal) { get; set; } | チャート データ テーブルに水平セル境界線がある場合は true。読み書き Boolean。 |
+| [HasBorderOutline](../../aspose.slides.charts/datatable/hasborderoutline) { get; set; } | チャート データ テーブルに輪郭境界線がある場合は true。読み書き Boolean。 |
+| [HasBorderVertical](../../aspose.slides.charts/datatable/hasbordervertical) { get; set; } | チャート データ テーブルに垂直セル境界線がある場合は true。読み書き Boolean。 |
+| [ShowLegendKey](../../aspose.slides.charts/datatable/showlegendkey) { get; set; } | データ ラベル凡例キーが表示されている場合は true。読み書き Boolean。 |
+| [TextFormat](../../aspose.slides.charts/datatable/textformat) { get; } | テキスト形式を返します。読み取り専用 [`IChartTextFormat`](../icharttextformat)。 |
 
 ### 参照
 

@@ -3,7 +3,7 @@ title: SectionCollection
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una colección de secciones.
 type: docs
-weight: 9760
+weight: 9780
 url: /es/aspose.slides/sectioncollection/
 ---
 ## SectionCollection clase
@@ -19,7 +19,7 @@ public sealed class SectionCollection : DomObject<Presentation>, ISectionCollect
 | Nombre | Descripción |
 | --- | --- |
 | [Count](../../aspose.slides/sectioncollection/count) { get; } | Obtiene el número de elementos realmente contenidos en la colección. Solo lectura Int32. |
-| [IsSynchronized](../../aspose.slides/sectioncollection/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (seguro para subprocesos). Solo lectura Boolean. |
+| [IsSynchronized](../../aspose.slides/sectioncollection/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (thread-safe). Solo lectura Boolean. |
 | [Item](../../aspose.slides/sectioncollection/item) { get; } | Obtiene el elemento en el índice especificado. Solo lectura [`ISection`](../isection). |
 | [SyncRoot](../../aspose.slides/sectioncollection/syncroot) { get; } | Devuelve una raíz de sincronización. Solo lectura Object. |
 
@@ -27,14 +27,14 @@ public sealed class SectionCollection : DomObject<Presentation>, ISectionCollect
 
 | Nombre | Descripción |
 | --- | --- |
-| [AddEmptySection](../../aspose.slides/sectioncollection/addemptysection)(string, int) | Añade una sección vacía a la posición especificada de la colección. |
-| [AddSection](../../aspose.slides/sectioncollection/addsection)(string, ISlide) | Añade una sección de diapositivas iniciada a partir de una diapositiva específica. |
+| [AddEmptySection](../../aspose.slides/sectioncollection/addemptysection)(string, int) | Añade una sección vacía en la posición especificada de la colección. |
+| [AddSection](../../aspose.slides/sectioncollection/addsection)(string, ISlide) | Añade una sección de diapositivas que comienza a partir de una diapositiva específica. |
 | [AppendEmptySection](../../aspose.slides/sectioncollection/appendemptysection)(string) | Añade una sección vacía al final de la colección. |
 | [Clear](../../aspose.slides/sectioncollection/clear)() | Elimina todas las secciones de la colección. |
-| [CopyTo](../../aspose.slides/sectioncollection/copyto)(Array, int) | Copia la colección completa al array especificado. |
+| [CopyTo](../../aspose.slides/sectioncollection/copyto)(Array, int) | Copia toda la colección al array especificado. |
 | [GetEnumerator](../../aspose.slides/sectioncollection/getenumerator)() | Devuelve un enumerador que recorre la colección. |
 | [IndexOf](../../aspose.slides/sectioncollection/indexof)(ISection) | Devuelve el índice de la sección especificada en la colección. |
-| [RemoveSection](../../aspose.slides/sectioncollection/removesection)(ISection) | Elimina la sección. Las diapositivas contenidas en la sección se combinarán con la sección anterior. |
+| [RemoveSection](../../aspose.slides/sectioncollection/removesection)(ISection) | Elimina la sección. Las diapositivas contenidas en la sección se fusionarán con la sección anterior. |
 | [RemoveSectionWithSlides](../../aspose.slides/sectioncollection/removesectionwithslides)(ISection) | Elimina la sección y las diapositivas contenidas en ella. |
 | [ReorderSectionWithSlides](../../aspose.slides/sectioncollection/reordersectionwithslides)(ISection, int) | Mueve la sección y sus diapositivas de la colección a la posición especificada. |
 

@@ -1,14 +1,14 @@
 ---
 title: CommonSlideViewProperties
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar gemensamma bildvisezegenskaper.
+description: Representerar gemensamma bildvisningsegenskaper.
 type: docs
-weight: 2660
+weight: 2680
 url: /sv/aspose.slides/commonslideviewproperties/
 ---
-## CommonSlideViewProperties-klass
+## CommonSlideViewProperties klass
 
-Representerar gemensamma egenskaper för bildvisning.
+Representerar gemensamma bildvisningsegenskaper.
 
 ```csharp
 public class CommonSlideViewProperties : ICommonSlideViewProperties
@@ -18,9 +18,9 @@ public class CommonSlideViewProperties : ICommonSlideViewProperties
 
 | Namn | Beskrivning |
 | --- | --- |
-| [DrawingGuides](../../aspose.slides/commonslideviewproperties/drawingguides) { get; } | Returnerar samlingen av ritningsguiderna. Skrivskyddad [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [Scale](../../aspose.slides/commonslideviewproperties/scale) { get; set; } | Anger visningsskalningsförhållandet i procent. Läs/skriv Int32. |
-| [VariableScale](../../aspose.slides/commonslideviewproperties/variablescale) { get; set; } | Anger att innehållet i vyn automatiskt ska skalas för att bäst passa den aktuella fönsterstorleken. Läs/skriv Boolean. |
+| [DrawingGuides](../../aspose.slides/commonslideviewproperties/drawingguides) { get; } | Returnerar samlingen av ritguiderna. Skrivskyddad [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [Scale](../../aspose.slides/commonslideviewproperties/scale) { get; set; } | Anger skaleringsförhållandet för vyn i procent. Läs/skriv Int32. |
+| [VariableScale](../../aspose.slides/commonslideviewproperties/variablescale) { get; set; } | Anger att visningsinnehållet automatiskt ska skalas för att bäst passa den aktuella fönsterstorleken. Läs/skriv Boolean. |
 
 ### Exempel
 
@@ -28,17 +28,17 @@ Följande exempel visar hur man ställer in zoomvärdet för en bild i en PowerP
 
 ```csharp
 [C#]
-// Instansiera ett Presentation-objekt som representerar en presentationsfil
+// Skapa ett Presentation-objekt som representerar en presentationsfil
 using (Presentation presentation = new Presentation("demo.pptx"))
 {
-    // Ställer in visningsegenskaper för presentationen
-    presentation.ViewProperties.SlideViewProperties.Scale = 100; // Zoomvärde i procent för bildvisning
-	presentation.ViewProperties.NotesViewProperties.Scale = 100; // Zoomvärde i procent för anteckningsvisning
+    // Ställer in vyegenskaper för presentationen
+    presentation.ViewProperties.SlideViewProperties.Scale = 100; // Zoomvärde i procent för bildvyn
+	presentation.ViewProperties.NotesViewProperties.Scale = 100; // Zoomvärde i procent för anteckningsvyn
     presentation.Save("Zoom_out.pptx", SaveFormat.Pptx);
 }
 ```
 
-### Se också
+### Se även
 
 * gränssnitt [ICommonSlideViewProperties](../icommonslideviewproperties)
 * namnrymd [Aspose.Slides](../../aspose.slides)

@@ -1,14 +1,14 @@
 ---
 title: IGradientStopCollectionEffectiveData
-second_title: Aspose.Sildes cho .NET API Tham chiếu
-description: Biểu diễn một tập hợp các đối tượng GradientStopDataEx.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu thị một bộ sưu tập các đối tượng GradientStopDataEx.
 type: docs
-weight: 6040
+weight: 6060
 url: /vi/aspose.slides/igradientstopcollectioneffectivedata/
 ---
-## IGradientStopCollectionEffectiveData giao diện
+## IGradientStopCollectionEffectiveData interface
 
-Biểu diễn một tập hợp các đối tượng GradientStopDataEx.
+Biểu thị một bộ sưu tập các đối tượng GradientStopDataEx.
 
 ```csharp
 public interface IGradientStopCollectionEffectiveData : 
@@ -19,7 +19,7 @@ public interface IGradientStopCollectionEffectiveData :
 
 | Tên | Mô tả |
 | --- | --- |
-| [Item](../../aspose.slides/igradientstopcollectioneffectivedata/item) { get; } | Trả về điểm dừng gradient theo chỉ mục. |
+| [Item](../../aspose.slides/igradientstopcollectioneffectivedata/item) { get; } | Trả về gradient stop theo chỉ mục. |
 
 ### Xem thêm
 

@@ -1,14 +1,14 @@
 ---
 title: ITextStyleEffectiveData
-second_title: Aspose.Sildes के लिये .NET API संदर्भ
-description: एक अपरिवर्तनीय ऑब्जेक्ट जो प्रभावी पाठ शैली गुणों को रखता है।
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: एक अपरिवर्तनीय वस्तु जो प्रभावी टेक्स्ट शैली गुणों को शामिल करती है।
 type: docs
-weight: 7320
+weight: 7340
 url: /hi/aspose.slides/itextstyleeffectivedata/
 ---
 ## ITextStyleEffectiveData इंटरफ़ेस
 
-एक अपरिवर्तनीय ऑब्जेक्ट जो प्रभावी पाठ शैली गुणों को रखता है।
+प्रभावी टेक्स्ट शैली गुणों को शामिल करने वाला अपरिवर्तनीय वस्तु।
 
 ```csharp
 public interface ITextStyleEffectiveData
@@ -18,19 +18,19 @@ public interface ITextStyleEffectiveData
 
 | नाम | विवरण |
 | --- | --- |
-| [DefaultParagraphFormat](../../aspose.slides/itextstyleeffectivedata/defaultparagraphformat) { get; } | प्रभावी डिफ़ॉल्ट पैराग्राफ़ गुण लौटाता है। केवल-पढ़ने योग्य [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata). |
+| [DefaultParagraphFormat](../../aspose.slides/itextstyleeffectivedata/defaultparagraphformat) { get; } | प्रभावी डिफ़ॉल्ट पैराग्राफ गुण लौटाता है। केवल-पढ़ने योग्य [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata)। |
 
-## विधियां
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
 | [GetLevel](../../aspose.slides/itextstyleeffectivedata/getlevel)(int) | प्रभावी शैली का स्तर लौटाता है। |
 
-### टिप्पणियाँ
+### टिप्पणी
 
-यह इंटरफ़ेस [`ITextStyle`](../itextstyle) इंटरफ़ेस के साथ मिलकर विरासत लागू किए हुए प्रभावी फ़ॉर्मेटिंग मान लौटाने के लिए उपयोग किया जाता है।
+यह इंटरफ़ेस [`ITextStyle`](../itextstyle) इंटरफ़ेस के साथ मिलकर उपयोग किया जाता है ताकि विरासत लागू होते हुए प्रभावी फ़ॉर्मेटिंग मान लौटाए जा सकें।
 
-### देखें
+### देखिए
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

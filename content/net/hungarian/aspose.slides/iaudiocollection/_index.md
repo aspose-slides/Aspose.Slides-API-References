@@ -1,14 +1,14 @@
 ---
 title: IAudioCollection
-second_title: Aspose.Sildes .NET API Referencia
-description: Beágyazott audiofájlok gyűjteményét képviseli.
+second_title: Aspose.Sildes .NET API referencia
+description: Beágyazott hangfájlok gyűjteményét képviseli.
 type: docs
-weight: 5220
+weight: 5240
 url: /hu/aspose.slides/iaudiocollection/
 ---
 ## IAudioCollection interfész
 
-Beágyazott audiofájlok gyűjteményét képviseli.
+Beágyazott hangfájlok gyűjteményét képviseli.
 
 ```csharp
 public interface IAudioCollection : IGenericCollection<IAudio>
@@ -18,15 +18,15 @@ public interface IAudioCollection : IGenericCollection<IAudio>
 
 | Név | Leírás |
 | --- | --- |
-| [Item](../../aspose.slides/iaudiocollection/item) { get; } | Lekéri a megadott indexű elemet. Írásvédett [`IAudio`](../iaudio). |
+| [Item](../../aspose.slides/iaudiocollection/item) { get; } | Visszaadja a megadott indexű elemet. Csak olvasható [`IAudio`](../iaudio). |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | Létrehozza és hozzáad egy audiofájlt a prezentációhoz byte tömbből. |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio)(IAudio) | Másolt egy audiofájlt egy másik prezentációból. |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Létrehozza és hozzáad egy audiofájlt a prezentációhoz adatfolyamból. |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | Létrehoz és hozzáad egy hangot a prezentációhoz bájt tömbből. |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio)(IAudio) | Hozzáad egy hangfájl másolatát egy másik prezentációból. |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Létrehoz és hozzáad egy hangot a prezentációhoz folyamából. |
 
 ### Lásd még
 

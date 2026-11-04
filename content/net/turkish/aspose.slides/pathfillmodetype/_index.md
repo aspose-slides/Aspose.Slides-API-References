@@ -1,14 +1,14 @@
 ---
 title: PathFillModeType
-second_title: Aspose.Sildes için .NET API Referansı
-description: Bir yolun nasıl doldurulacağını belirler
+second_title: Aspose.Sildes .NET için API Referansı
+description: Bir yolun nasıl doldurulacağını belirtir
 type: docs
-weight: 9330
+weight: 9350
 url: /tr/aspose.slides/pathfillmodetype/
 ---
-## PathFillModeType numaralandırması
+## PathFillModeType enumerasyonu
 
-Bir yolun nasıl doldurulacağını belirler
+Bir yolun nasıl doldurulacağını belirtir
 
 ```csharp
 public enum PathFillModeType : byte
@@ -18,14 +18,14 @@ public enum PathFillModeType : byte
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| None | `0` | Yol doldurulmaz. Bu, ilgili yolun doldurulmayacağını belirtir. |
-| Normal | `1` | Normal Yol Doldurması. Bu, ilgili yolun doldurmasına normal gölgeli bir renk uygulanacağını belirtir. |
-| Lighten | `2` | Açıklaştırılmış Yol Doldurması. Bu, ilgili yolun doldurmasına hafif gölgeli bir renk uygulanacağını belirtir. |
-| LightenLess | `3` | Daha Az Açıklaştırılmış Yol Doldurması. Bu, ilgili yolun doldurmasına biraz daha açık gölgeli bir renk uygulanacağını belirtir. |
-| Darken | `4` | Koyulaştırılmış Yol Doldurması. Bu, ilgili yolun doldurmasına daha koyu gölgeli bir renk uygulanacağını belirtir. |
-| DarkenLess | `5` | Daha Az Koyulaştırılmış Yol Doldurması. Bu, ilgili yolun doldurmasına biraz daha koyu gölgeli bir renk uygulanacağını belirtir. |
+| None | `0` | Doldurma Yok Bu, ilgili yolun doldurulmayacağını belirtir. |
+| Normal | `1` | Normal Yol Doldurma Bu, ilgili yolun doldurulmasına normal bir gölgelendirilmiş renk uygulanacağını belirtir. |
+| Lighten | `2` | Açıklaştırılmış Yol Doldurma Bu, ilgili yolun doldurulmasına hafif gölgelendirilmiş bir renk uygulanacağını belirtir. |
+| LightenLess | `3` | Daha Az Açıklaştırılmış Yol Doldurma Bu, ilgili yolun doldurulmasına biraz daha açık bir gölgelendirilmiş renk uygulanacağını belirtir. |
+| Darken | `4` | Koyulaştırılmış Yol Doldurma Bu, ilgili yolun doldurulmasına daha koyu bir gölgelendirilmiş renk uygulanacağını belirtir. |
+| DarkenLess | `5` | Daha Az Koyulaştırılmış Yol Doldurma Bu, ilgili yolun doldurulmasına biraz daha koyu bir gölgelendirilmiş renk uygulanacağını belirtir. |
 
-### Ayrıca Bakınız
+### Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

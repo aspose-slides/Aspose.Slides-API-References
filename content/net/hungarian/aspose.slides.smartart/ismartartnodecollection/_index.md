@@ -1,9 +1,9 @@
 ---
 title: ISmartArtNodeCollection
-second_title: Aspose.Sildes .NET API referenciája
-description: SmartArt csomópontok gyűjteményét képviseli.
+second_title: Aspose.Sildes a .NET API hivatkozáshoz
+description: A SmartArt csomópontok gyűjteményét képviseli.
 type: docs
-weight: 10560
+weight: 10580
 url: /hu/aspose.slides.smartart/ismartartnodecollection/
 ---
 ## ISmartArtNodeCollection interfész
@@ -20,14 +20,14 @@ public interface ISmartArtNodeCollection : IGenericCollection<ISmartArtNode>
 | --- | --- |
 | [Item](../../aspose.slides.smartart/ismartartnodecollection/item) { get; } | Visszaadja a csomópontot index alapján. Csak olvasható [`ISmartArtNode`](../ismartartnode) |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [AddNode](../../aspose.slides.smartart/ismartartnodecollection/addnode)() | Új csomópont vagy alcsomópont hozzáadása. |
-| [AddNodeByPosition](../../aspose.slides.smartart/ismartartnodecollection/addnodebyposition)(int) | Új csomópont hozzáadása a csomópontok gyűjteményének kiválasztott pozíciójába. |
-| [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode_1)(int) | Csomópont vagy alcsomópont eltávolítása index alapján. |
-| [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode)(ISmartArtNode) | Csomópont vagy alcsomópont eltávolítása. |
+| [AddNode](../../aspose.slides.smartart/ismartartnodecollection/addnode)() | Új csomópontot vagy alcsomópontot ad hozzá. |
+| [AddNodeByPosition](../../aspose.slides.smartart/ismartartnodecollection/addnodebyposition)(int) | Új csomópontot ad hozzá a csomópontok gyűjteményének kiválasztott pozíciójába. |
+| [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode_1)(int) | Csomópontot vagy alcsomópontot távolít el index alapján. |
+| [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode)(ISmartArtNode) | Csomópontot vagy alcsomópontot távolít el. |
 
 ### Lásd még
 

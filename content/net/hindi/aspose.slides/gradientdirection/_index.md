@@ -1,12 +1,12 @@
 ---
 title: GradientDirection
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: ग्रेडिएंट शैली का प्रतिनिधित्व करता है।
+description: ग्रेडिएंट शैली को दर्शाता है।
 type: docs
-weight: 4990
+weight: 5010
 url: /hi/aspose.slides/gradientdirection/
 ---
-## GradientDirection एनेमरेशन
+## GradientDirection एन्‍यूमरेशन
 
 ग्रेडिएंट शैली को दर्शाता है।
 
@@ -19,13 +19,13 @@ public enum GradientDirection
 | नाम | मान | विवरण |
 | --- | --- | --- |
 | NotDefined | `-1` | परिभाषित नहीं |
-| FromCorner1 | `0` | ऊपरी बाएँ कोना से |
-| FromCorner2 | `1` | ऊपरी दाएँ कोना से |
-| FromCorner3 | `2` | निचले बाएँ कोना से |
-| FromCorner4 | `3` | निचले दाएँ कोना से |
-| FromCenter | `4` | केन्द्र से |
+| FromCorner1 | `0` | ऊपर बाएँ कोने से |
+| FromCorner2 | `1` | ऊपर दाएँ कोने से |
+| FromCorner3 | `2` | निचले बाएँ कोने से |
+| FromCorner4 | `3` | निचले दाएँ कोने से |
+| FromCenter | `4` | केंद्र से |
 
-### संबंधित देखें
+### और देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

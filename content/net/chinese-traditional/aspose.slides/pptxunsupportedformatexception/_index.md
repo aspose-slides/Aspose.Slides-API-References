@@ -3,7 +3,7 @@ title: PptxUnsupportedFormatException
 second_title: Aspose.Sildes for .NET API 參考
 description: 當簡報檔案格式不受支援時拋出的例外。
 type: docs
-weight: 9580
+weight: 9600
 url: /zh-hant/aspose.slides/pptxunsupportedformatexception/
 ---
 ## PptxUnsupportedFormatException 類別
@@ -19,10 +19,10 @@ public class PptxUnsupportedFormatException : PptxReadException
 | 名稱 | 說明 |
 | --- | --- |
 | [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor)() | 預設建構函式。 |
-| [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor_1)(string) | 允許將訊息加入此例外的建構函式。 |
-| [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor_2)(string, Exception) | 包含訊息和內嵌例外的例外建構函式。 |
+| [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor_1)(string) | 允許在此例外加入訊息的建構函式。 |
+| [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor_2)(string, Exception) | 包含訊息與內嵌例外的建構函式。 |
 
-### 另請參閱
+### 相關參考
 
 * 類別 [PptxReadException](../pptxreadexception)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

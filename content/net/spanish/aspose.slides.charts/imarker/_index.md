@@ -1,14 +1,14 @@
 ---
 title: IMarker
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa el marcador de un gráfico.
+description: Representa el marcador de un chert.
 type: docs
-weight: 2160
+weight: 2180
 url: /es/aspose.slides.charts/imarker/
 ---
-## IMarker interfaz
+## Interfaz IMarker
 
-Representa el marcador de un gráfico.
+Representa el marcador de un chert.
 
 ```csharp
 public interface IMarker

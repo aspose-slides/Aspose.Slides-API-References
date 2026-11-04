@@ -1,14 +1,14 @@
 ---
 title: IColorReplace
-second_title: Riferimento API di Aspose.Sildes per .NET
-description: Rappresenta un effetto di sostituzione colore.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta un effetto di sostituzione del colore.
 type: docs
-weight: 3240
+weight: 3260
 url: /it/aspose.slides.effects/icolorreplace/
 ---
 ## IColorReplace interfaccia
 
-Rappresenta un effetto di sostituzione colore.
+Rappresenta un effetto di sostituzione del colore.
 
 ```csharp
 public interface IColorReplace : IAccessiblePVIObject<IColorReplaceEffectiveData>, 
@@ -19,9 +19,9 @@ public interface IColorReplace : IAccessiblePVIObject<IColorReplaceEffectiveData
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorreplace/asiaccessiblepviobject) { get; } | Consente di ottenere l'interfaccia base IAccessiblePVIObject. Solo lettura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/icolorreplace/asiimagetransformoperation) { get; } | Consente di ottenere l'interfaccia base IImageTransformOperation. Solo lettura [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Color](../../aspose.slides.effects/icolorreplace/color) { get; } | Restituisce il formato colore che sostituirà il colore di ogni pixel. Solo lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorreplace/asiaccessiblepviobject) { get; } | Consente di ottenere l'interfaccia base IAccessiblePVIObject. Sola lettura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/icolorreplace/asiimagetransformoperation) { get; } | Consente di ottenere l'interfaccia base IImageTransformOperation. Sola lettura [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Color](../../aspose.slides.effects/icolorreplace/color) { get; } | Restituisce il formato colore che sostituirà il colore di ogni pixel. Sola lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Vedi anche
 

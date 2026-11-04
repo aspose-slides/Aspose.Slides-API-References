@@ -1,14 +1,14 @@
 ---
 title: ChartDataPointLevelsManager
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Bộ chứa các mức dữ liệu điểm. Áp dụng cho các chuỗi Treeamp và Sunburst. Chỉ mục các mức dữ liệu điểm được tính từ không.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Bộ chứa các mức điểm dữ liệu. Được áp dụng cho các chuỗi Treeamp và Sunburst. Chỉ mục các mức điểm dữ liệu bắt đầu từ 0.
 type: docs
-weight: 1360
+weight: 1370
 url: /vi/aspose.slides.charts/chartdatapointlevelsmanager/
 ---
 ## ChartDataPointLevelsManager lớp
 
-Bộ chứa các mức dữ liệu điểm. Áp dụng cho các chuỗi Treeamp và Sunburst. Chỉ mục các mức dữ liệu điểm được tính từ không.
+Bộ chứa các mức điểm dữ liệu. Được áp dụng cho các chuỗi Treeamp và Sunburst. Chỉ mục các mức điểm dữ liệu bắt đầu từ 0.
 
 ```csharp
 public class ChartDataPointLevelsManager : DomObject<ChartDataPoint>, IChartDataPointLevelsManager
@@ -18,10 +18,10 @@ public class ChartDataPointLevelsManager : DomObject<ChartDataPoint>, IChartData
 
 | Tên | Mô tả |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartdatapointlevelsmanager/count) { get; } | Trả về số lượng mức dữ liệu điểm. |
+| [Count](../../aspose.slides.charts/chartdatapointlevelsmanager/count) { get; } | Trả về số lượng mức điểm dữ liệu. |
 | [Item](../../aspose.slides.charts/chartdatapointlevelsmanager/item) { get; } | Trả về đối tượng IChartDataPointLevel cho mức đã định nghĩa. |
 
-### Xem Thêm
+### Xem thêm
 
 * lớp [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * lớp [ChartDataPoint](../chartdatapoint)

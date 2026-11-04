@@ -1,12 +1,12 @@
 ---
 title: IThreeDFormat
-second_title: Aspose.Sildes dla .NET API Reference
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Reprezentuje właściwości 3-D.
 type: docs
-weight: 7330
+weight: 7350
 url: /pl/aspose.slides/ithreedformat/
 ---
-## interfejs IThreeDFormat
+## IThreeDFormat interfejs
 
 Reprezentuje właściwości 3-D.
 
@@ -16,15 +16,15 @@ public interface IThreeDFormat : IThreeDParamSource
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [AsIThreeDParamSource](../../aspose.slides/ithreedformat/asithreedparamsource) { get; } | Umożliwia pobranie podstawowego interfejsu IThreeDParamSource. Tylko do odczytu [`IThreeDParamSource`](../ithreedparamsource). |
-| [BevelBottom](../../aspose.slides/ithreedformat/bevelbottom) { get; } | Zwraca lub ustawia typ dolnego fazowania 3D. Tylko do odczytu [`IShapeBevel`](../ishapebevel). |
-| [BevelTop](../../aspose.slides/ithreedformat/beveltop) { get; } | Zwraca lub ustawia typ górnego fazowania 3D. Tylko do odczytu [`IShapeBevel`](../ishapebevel). |
+| [BevelBottom](../../aspose.slides/ithreedformat/bevelbottom) { get; } | Zwraca lub ustawia typ dolnej krawędzi 3-D. Tylko do odczytu [`IShapeBevel`](../ishapebevel). |
+| [BevelTop](../../aspose.slides/ithreedformat/beveltop) { get; } | Zwraca lub ustawia typ górnej krawędzi 3-D. Tylko do odczytu [`IShapeBevel`](../ishapebevel). |
 | [Camera](../../aspose.slides/ithreedformat/camera) { get; } | Zwraca lub ustawia ustawienia kamery. Tylko do odczytu [`ICamera`](../icamera). |
 | [ContourColor](../../aspose.slides/ithreedformat/contourcolor) { get; } | Zwraca lub ustawia kolor konturu. Tylko do odczytu [`IColorFormat`](../icolorformat). |
-| [ContourWidth](../../aspose.slides/ithreedformat/contourwidth) { get; set; } | Zwraca lub ustawia szerokość konturu 3D. Odczyt/zapis Double. |
-| [Depth](../../aspose.slides/ithreedformat/depth) { get; set; } | Zwraca lub ustawia głębokość kształtu 3D. Odczyt/zapis Double. |
+| [ContourWidth](../../aspose.slides/ithreedformat/contourwidth) { get; set; } | Zwraca lub ustawia szerokość konturu 3-D. Odczyt/zapis Double. |
+| [Depth](../../aspose.slides/ithreedformat/depth) { get; set; } | Zwraca lub ustawia głębokość kształtu 3-D. Odczyt/zapis Double. |
 | [ExtrusionColor](../../aspose.slides/ithreedformat/extrusioncolor) { get; } | Zwraca lub ustawia kolor ekstruzji. Tylko do odczytu [`IColorFormat`](../icolorformat). |
 | [ExtrusionHeight](../../aspose.slides/ithreedformat/extrusionheight) { get; set; } | Zwraca lub ustawia wysokość efektu ekstruzji. Odczyt/zapis Double. |
 | [LightRig](../../aspose.slides/ithreedformat/lightrig) { get; } | Zwraca lub ustawia typ światła. Tylko do odczytu [`ILightRig`](../ilightrig). |
@@ -32,9 +32,9 @@ public interface IThreeDFormat : IThreeDParamSource
 
 ## Metody
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
-| [GetEffective](../../aspose.slides/ithreedformat/geteffective)() | Pobiera skuteczne dane formatowania 3-D z zastosowanym dziedziczeniem. |
+| [GetEffective](../../aspose.slides/ithreedformat/geteffective)() | Pobiera skuteczne dane formatowania 3-D z uwzględnionym dziedziczeniem. |
 
 ### Zobacz także
 

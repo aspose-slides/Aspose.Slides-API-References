@@ -1,18 +1,19 @@
 ---
 title: IAlphaInverseEffectiveData
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Objeto inmutable que representa un efecto Alpha Inverse. Los valores de opacidad Alpha se invierten restándolos de 100.
+description: Objeto inmutable que representa un efecto Alpha Inverse. Los valores de opacidad Alpha se invierten restando de 100.
 type: docs
-weight: 3090
+weight: 3110
 url: /es/aspose.slides.effects/ialphainverseeffectivedata/
 ---
 ## IAlphaInverseEffectiveData interfaz
 
-Objeto inmutable que representa un efecto Alpha Inverse. Los valores Alpha (opacidad) se invierten restándolos de 100%.
+Objeto inmutable que representa un efecto Alpha Inverse. Los valores Alpha (opacidad) se invierten restando del 100%.
 
 ```csharp
 public interface IAlphaInverseEffectiveData : IEffectEffectiveData
 ```
+
 
 ## Propiedades
 

@@ -1,14 +1,14 @@
 ---
 title: GetFontBytes
-second_title: Aspose.Sildes para .NET Referência da API
-description: Recupera a matriz de bytes que representa os dados da fonte para um estilo de fonte e dados de fonte especificados.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Recupera o array de bytes que representa os dados da fonte para um estilo de fonte e dados de fonte especificados.
 type: docs
-weight: 50
+weight: 60
 url: /pt/aspose.slides/fontsmanager/getfontbytes/
 ---
 ## FontsManager.GetFontBytes método
 
-Recupera a matriz de bytes que representa os dados da fonte para um estilo de fonte e dados de fonte especificados.
+Recupera o array de bytes que representa os dados da fonte para um estilo de fonte e dados de fonte especificados.
 
 ```csharp
 public byte[] GetFontBytes(IFontData fontData, FontStyleType fontStyle)
@@ -19,9 +19,9 @@ public byte[] GetFontBytes(IFontData fontData, FontStyleType fontStyle)
 | fontData | IFontData | O objeto de dados da fonte que contém as informações sobre a fonte [`IFontData`](../../ifontdata). |
 | fontStyle | FontStyleType | O estilo da fonte para o qual os dados devem ser recuperados [`FontStyleType`](../../fontstyletype). |
 
-### Valor de Retorno
+### Valor de retorno
 
-Uma matriz de bytes contendo os dados da fonte para o estilo de fonte especificado. Se os dados da fonte ou o estilo não forem encontrados, retorna null.
+Um array de bytes contendo os dados da fonte para o estilo de fonte especificado. Se os dados da fonte ou o estilo não forem encontrados, retorna nulo.
 
 ### Exemplos
 
@@ -32,12 +32,12 @@ using (Presentation pres = new Presentation ("Presentation.pptx"))
     // Recupera todas as fontes usadas na apresentação
     IFontData[] fonts = pres.FontsManager.GetFonts();
 
-    // Obtém a matriz de bytes que representa o estilo regular da primeira fonte na apresentação
+    // Obtém o array de bytes que representa o estilo regular da primeira fonte na apresentação
     byte[] bytes = pres.FontsManager.GetFontBytes(fonts[0], FontStyleType.Regular);
 }
 ```
 
-### Ver Também
+### Ver também
 
 * interface [IFontData](../../ifontdata)
 * enum [FontStyleType](../../fontstyletype)

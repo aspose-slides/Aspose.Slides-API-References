@@ -1,14 +1,14 @@
 ---
 title: ShredTransition
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Shred dia overgangseffect.
+description: Shred-diaovergangseffect.
 type: docs
-weight: 10300
+weight: 10320
 url: /nl/aspose.slides.slideshow/shredtransition/
 ---
 ## ShredTransition klasse
 
-Shred slide overgangseffect.
+Shred-diaovergangseffect.
 
 ```csharp
 public class ShredTransition : TransitionValueBase, IShredTransition
@@ -18,15 +18,15 @@ public class ShredTransition : TransitionValueBase, IShredTransition
 
 | Name | Description |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/shredtransition/direction) { get; set; } | Richting van de overgang. Lezen/schrijven [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/shredtransition/pattern) { get; set; } | Specificeert de vorm van de visuele elementen die tijdens de overgang worden gebruikt. Lezen/schrijven [`TransitionShredPattern`](../transitionshredpattern). |
+| [Direction](../../aspose.slides.slideshow/shredtransition/direction) { get; set; } | Richting van de overgang. Lezen/Schrijven [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Pattern](../../aspose.slides.slideshow/shredtransition/pattern) { get; set; } | Specificeert de vorm van de visuals die tijdens de overgang worden gebruikt. Lezen/Schrijven [`TransitionShredPattern`](../transitionshredpattern). |
 
 ## Methoden
 
 | Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bepaalt of de twee TransitionValueBase-instanties gelijk zijn. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als een hash-functie voor een bepaald type, geschikt voor gebruik in hash-algoritmen en datastructuren zoals een hashtabel. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als een hash-functie voor een bepaald type, geschikt voor gebruik in hash-algoritmen en datastructuren zoals een hash-tabel. |
 
 ### Zie ook
 

@@ -1,9 +1,9 @@
 ---
 title: IMasterThemeable
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Représente le gestionnaire de thème maître.
 type: docs
-weight: 11330
+weight: 11350
 url: /fr/aspose.slides.theme/imasterthemeable/
 ---
 ## IMasterThemeable interface
@@ -16,7 +16,7 @@ public interface IMasterThemeable : IThemeable
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [AsIThemeable](../../aspose.slides.theme/imasterthemeable/asithemeable) { get; } | Renvoie l'interface IThemeable. Lecture seule [`IThemeable`](../ithemeable). |
 | [ThemeManager](../../aspose.slides.theme/imasterthemeable/thememanager) { get; } | Renvoie le gestionnaire de thème maître. Lecture seule [`IMasterThemeManager`](../imasterthememanager). |

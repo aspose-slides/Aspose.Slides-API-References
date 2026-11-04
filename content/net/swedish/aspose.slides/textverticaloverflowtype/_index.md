@@ -1,14 +1,14 @@
 ---
 title: TextVerticalOverflowType
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar vertikal översvämningstyp för text.
+description: Representerar typ av vertikal textöversvämning.
 type: docs
-weight: 11020
+weight: 11040
 url: /sv/aspose.slides/textverticaloverflowtype/
 ---
 ## TextVerticalOverflowType enumeration
 
-Representerar vertikal översvämningstyp för text.
+Representerar typ av vertikal textöversvämning.
 
 ```csharp
 public enum TextVerticalOverflowType : sbyte

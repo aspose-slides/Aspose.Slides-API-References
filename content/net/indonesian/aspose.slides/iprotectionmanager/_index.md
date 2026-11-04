@@ -1,9 +1,9 @@
 ---
 title: IProtectionManager
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Aspose.Sildes untuk .NET Referensi API
 description: Manajemen perlindungan kata sandi presentasi.
 type: docs
-weight: 6820
+weight: 6840
 url: /id/aspose.slides/iprotectionmanager/
 ---
 ## IProtectionManager antarmuka
@@ -19,10 +19,10 @@ public interface IProtectionManager
 | Name | Description |
 | --- | --- |
 | [EncryptDocumentProperties](../../aspose.slides/iprotectionmanager/encryptdocumentproperties) { get; set; } | Properti ini masuk akal bila presentasi dilindungi kata sandi. Jika true maka properti dokumen dienkripsi dalam file presentasi. Jika false maka properti dokumen bersifat publik sementara presentasi dienkripsi. Baca/tulis Boolean. |
-| [EncryptionPassword](../../aspose.slides/iprotectionmanager/encryptionpassword) { get; } | Mengembalikan kata sandi enkripsi. Baca-saja String. |
-| [IsEncrypted](../../aspose.slides/iprotectionmanager/isencrypted) { get; } | Mendapatkan nilai yang menunjukkan apakah instance ini terenkripsi. Baca-saja Boolean. |
-| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/iprotectionmanager/isonlydocumentpropertiesloaded) { get; } | Properti ini masuk akal bila file presentasi dilindungi kata sandi dan properti dokumen file ini bersifat publik. Nilai true berarti hanya properti dokumen yang dimuat dari file presentasi terenkripsi tanpa menggunakan kata sandi. Nilai false berarti seluruh presentasi terenkripsi dimuat dengan menggunakan kata sandi yang tepat, tidak hanya properti dokumen yang dimuat. Jika presentasi tidak terenkripsi maka nilai properti selalu false. Jika properti dokumen dari file terenkripsi tidak publik maka nilai properti selalu false. Jika PresentationEx.EncryptDocumentProperties bernilai true maka nilai properti IsOnlyDocumentPropertiesLoaded selalu false. Baca-saja Boolean. |
-| [IsWriteProtected](../../aspose.slides/iprotectionmanager/iswriteprotected) { get; } | Mendapatkan nilai yang menunjukkan apakah presentasi ini dilindungi penulisan. Baca-saja Boolean. |
+| [EncryptionPassword](../../aspose.slides/iprotectionmanager/encryptionpassword) { get; } | Mengembalikan kata sandi enkripsi. Hanya-baca String. |
+| [IsEncrypted](../../aspose.slides/iprotectionmanager/isencrypted) { get; } | Mendapatkan nilai yang menunjukkan apakah instance ini dienkripsi. Hanya-baca Boolean. |
+| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/iprotectionmanager/isonlydocumentpropertiesloaded) { get; } | Properti ini masuk akal bila file presentasi dilindungi kata sandi dan properti dokumen file ini bersifat publik. Nilai true berarti hanya properti dokumen yang dimuat dari file presentasi yang dienkripsi tanpa menggunakan kata sandi. Nilai false berarti seluruh presentasi yang dienkripsi dimuat dengan menggunakan kata sandi yang benar, bukan hanya properti dokumen yang dimuat. Jika presentasi tidak dienkripsi maka nilai properti selalu false. Jika properti dokumen dari file yang dienkripsi tidak publik maka nilai properti selalu false. Jika PresentationEx.EncryptDocumentProperties bernilai true maka nilai properti IsOnlyDocumentPropertiesLoaded selalu false. Hanya-baca Boolean. |
+| [IsWriteProtected](../../aspose.slides/iprotectionmanager/iswriteprotected) { get; } | Mendapatkan nilai yang menunjukkan apakah presentasi ini dilindungi penulisan. Hanya-baca Boolean. |
 | [ReadOnlyRecommended](../../aspose.slides/iprotectionmanager/readonlyrecommended) { get; set; } | Mendapatkan atau mengatur rekomendasi hanya-baca. Baca/tulis Boolean. |
 
 ## Metode
@@ -30,10 +30,10 @@ public interface IProtectionManager
 | Name | Description |
 | --- | --- |
 | [CheckWriteProtection](../../aspose.slides/iprotectionmanager/checkwriteprotection)(string) | Menentukan apakah sebuah presentasi dilindungi kata sandi untuk dimodifikasi. |
-| [Encrypt](../../aspose.slides/iprotectionmanager/encrypt)(string) | Mengenkripsi Presentation dengan kata sandi yang ditentukan. |
+| [Encrypt](../../aspose.slides/iprotectionmanager/encrypt)(string) | Mengenkripsi Presentasi dengan kata sandi yang ditentukan. |
 | [RemoveEncryption](../../aspose.slides/iprotectionmanager/removeencryption)() | Menghapus enkripsi. |
 | [RemoveWriteProtection](../../aspose.slides/iprotectionmanager/removewriteprotection)() | Menghapus perlindungan penulisan untuk presentasi ini. |
-| [SetWriteProtection](../../aspose.slides/iprotectionmanager/setwriteprotection)(string) | Menyetel perlindungan penulisan untuk presentasi ini dengan kata sandi yang ditentukan. |
+| [SetWriteProtection](../../aspose.slides/iprotectionmanager/setwriteprotection)(string) | Mengatur perlindungan penulisan untuk presentasi ini dengan kata sandi yang ditentukan. |
 
 ### Lihat Juga
 

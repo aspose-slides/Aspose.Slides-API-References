@@ -1,24 +1,24 @@
 ---
 title: ISketchFormat
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft eigenschappen voor schetsindeling van lijnen weer.
+description: Geeft de eigenschappen voor het schetsformaat van lijnen weer.
 type: docs
-weight: 7020
+weight: 7040
 url: /nl/aspose.slides/isketchformat/
 ---
 ## ISketchFormat interface
 
-Geeft eigenschappen voor schetsindeling van lijnen weer.
+Geeft de eigenschappen voor het schetsformaat van lijnen weer.
 
 ```csharp
 public interface ISketchFormat
 ```
 
-## Properties
+## Eigenschappen
 
 | Naam | Beschrijving |
 | --- | --- |
-| [SketchType](../../aspose.slides/isketchformat/sketchtype) { get; set; } | Geeft het schets type terug of stelt het in. Lezen/schrijven [`LineSketchType`](../linesketchtype). |
+| [SketchType](../../aspose.slides/isketchformat/sketchtype) { get; set; } | Geeft het schetstype terug of stelt het in. Lezen/Schrijven [`LineSketchType`](../linesketchtype). |
 
 ### Zie ook
 

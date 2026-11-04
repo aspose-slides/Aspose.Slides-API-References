@@ -1,9 +1,9 @@
 ---
 title: TransitionCornerDirectionType
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt Eckrichtungsübergangstypen dar.
+description: Stellt Eckrichtungs-Übergangstypen dar.
 type: docs
-weight: 10350
+weight: 10370
 url: /de/aspose.slides.slideshow/transitioncornerdirectiontype/
 ---
 ## TransitionCornerDirectionType Aufzählung

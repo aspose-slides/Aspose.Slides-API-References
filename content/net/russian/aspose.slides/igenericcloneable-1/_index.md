@@ -1,9 +1,9 @@
 ---
 title: IGenericCloneableT
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет обобщённую версию ICloneable
 type: docs
-weight: 5950
+weight: 5970
 url: /ru/aspose.slides/igenericcloneable-1/
 ---
 ## IGenericCloneable&lt;T&gt; интерфейс
@@ -28,7 +28,7 @@ public interface IGenericCloneable<T> : ICloneable
 
 | Имя | Описание |
 | --- | --- |
-| [CloneT](../../aspose.slides/igenericcloneable`1/clonet)() | Создаёт новый объект, который является копией текущего экземпляра. |
+| [CloneT](../../aspose.slides/igenericcloneable`1/clonet)() | Создаёт новый объект, являющийся копией текущего экземпляра. |
 
 ### См. также
 

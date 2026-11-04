@@ -1,14 +1,14 @@
 ---
 title: IGeometryShape
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili kelas induk untuk semua bentuk geometris.
 type: docs
-weight: 5980
+weight: 6000
 url: /id/aspose.slides/igeometryshape/
 ---
 ## IGeometryShape antarmuka
 
-Represents the parent class for all geometric shapes.
+Mewakili kelas induk untuk semua bentuk geometris.
 
 ```csharp
 public interface IGeometryShape : IShape
@@ -18,19 +18,19 @@ public interface IGeometryShape : IShape
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Adjustments](../../aspose.slides/igeometryshape/adjustments) { get; } | Mengembalikan koleksi nilai penyesuaian bentuk. Baca-saja [`IAdjustValueCollection`](../iadjustvaluecollection). |
-| [AsIShape](../../aspose.slides/igeometryshape/asishape) { get; } | Memungkinkan untuk mendapatkan antarmuka IShape dasar. Baca-saja [`IShape`](../ishape). |
-| [ShapeStyle](../../aspose.slides/igeometryshape/shapestyle) { get; } | Mengembalikan objek gaya bentuk. Baca-saja [`IShapeStyle`](../ishapestyle). |
-| [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | Mengembalikan atau mengatur jenis preset geometri. Catatan: saat nilai berubah semua nilai penyesuaian akan direset ke nilai defaultnya. Baca/tulis [`ShapeType`](../shapetype). |
+| [Adjustments](../../aspose.slides/igeometryshape/adjustments) { get; } | Mengembalikan koleksi nilai penyesuaian shape. Hanya-baca [`IAdjustValueCollection`](../iadjustvaluecollection). |
+| [AsIShape](../../aspose.slides/igeometryshape/asishape) { get; } | Memungkinkan untuk mendapatkan antarmuka IShape dasar. Hanya-baca [`IShape`](../ishape). |
+| [ShapeStyle](../../aspose.slides/igeometryshape/shapestyle) { get; } | Mengembalikan objek gaya shape. Hanya-baca [`IShapeStyle`](../ishapestyle). |
+| [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | Mengembalikan atau mengatur tipe preset geometri. Catatan: saat nilai berubah semua nilai penyesuaian akan direset ke nilai default mereka. Baca/tulis [`ShapeType`](../shapetype). |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
-| [CreateShapeElements](../../aspose.slides/igeometryshape/createshapeelements)() | Membuat dan mengembalikan array elemen bentuk. |
-| [GetGeometryPaths](../../aspose.slides/igeometryshape/getgeometrypaths)() | Mengembalikan salinan jalur bentuk geometri. Koordinat relatif terhadap sudut kiri atas bentuk. |
-| [SetGeometryPath](../../aspose.slides/igeometryshape/setgeometrypath)(IGeometryPath) | Memperbarui geometri bentuk dari objek [`IGeometryPath`](../igeometrypath). Koordinat harus relatif terhadap sudut kiri atas bentuk. Mengubah jenis bentuk ([`ShapeType`](./shapetype)) menjadi Custom. |
-| [SetGeometryPaths](../../aspose.slides/igeometryshape/setgeometrypaths)(IGeometryPath[]) | Memperbarui geometri bentuk dari array [`IGeometryPath`](../igeometrypath). Koordinat harus relatif terhadap sudut kiri atas bentuk. Mengubah jenis bentuk ([`ShapeType`](./shapetype)) menjadi Custom. |
+| [CreateShapeElements](../../aspose.slides/igeometryshape/createshapeelements)() | Membuat dan mengembalikan array elemen shape. |
+| [GetGeometryPaths](../../aspose.slides/igeometryshape/getgeometrypaths)() | Mengembalikan salinan jalur shape geometri. Koordinat relatif terhadap sudut kiri atas shape. |
+| [SetGeometryPath](../../aspose.slides/igeometryshape/setgeometrypath)(IGeometryPath) | Memperbarui geometri shape dari objek [`IGeometryPath`](../igeometrypath). Koordinat harus relatif terhadap sudut kiri atas shape. Mengubah tipe shape ([`ShapeType`](./shapetype)) menjadi Custom. |
+| [SetGeometryPaths](../../aspose.slides/igeometryshape/setgeometrypaths)(IGeometryPath[]) | Memperbarui geometri shape dari array [`IGeometryPath`](../igeometrypath). Koordinat harus relatif terhadap sudut kiri atas shape. Mengubah tipe shape ([`ShapeType`](./shapetype)) menjadi Custom. |
 
 ### Lihat Juga
 

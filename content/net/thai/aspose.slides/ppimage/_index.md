@@ -1,14 +1,14 @@
 ---
 title: PPImage
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงภาพในงานนำเสนอ
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: แสดงถึงรูปภาพในงานนำเสนอ.
 type: docs
-weight: 9250
+weight: 9270
 url: /th/aspose.slides/ppimage/
 ---
 ## PPImage คลาส
 
-แสดงภาพในงานนำเสนอ
+แสดงถึงรูปภาพในงานนำเสนอ.
 
 ```csharp
 public class PPImage : IDisposable, IPPImage
@@ -16,30 +16,30 @@ public class PPImage : IDisposable, IPPImage
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [BinaryData](../../aspose.slides/ppimage/binarydata) { get; } | ส่งคืนสำเนาข้อมูลของภาพ. อ่านอย่างเดียว Byte[]. |
-| [ContentType](../../aspose.slides/ppimage/contenttype) { get; } | ส่งคืนประเภท MIME ของภาพที่เข้ารหัสใน [`BinaryData`](./binarydata). อ่านอย่างเดียว String. |
-| [Height](../../aspose.slides/ppimage/height) { get; } | ส่งคืนความสูงของภาพ. อ่านอย่างเดียว Int32. |
-| [Image](../../aspose.slides/ppimage/image) { get; } | ส่งคืนสำเนาของภาพ. อ่านอย่างเดียว [`IImage`](../iimage). |
-| [SvgImage](../../aspose.slides/ppimage/svgimage) { get; set; } | ส่งคืนหรือกำหนดออบเจ็กต์ ISvgImage [`ISvgImage`](../isvgimage) |
-| [Width](../../aspose.slides/ppimage/width) { get; } | ส่งคืนความกว้างของภาพ. อ่านอย่างเดียว Int32. |
-| [X](../../aspose.slides/ppimage/x) { get; } | ส่งคืนค่าการเยื้อง X ของภาพ. อ่านอย่างเดียว Int32. |
-| [Y](../../aspose.slides/ppimage/y) { get; } | ส่งคืนค่าการเยื้อง Y ของภาพ. อ่านอย่างเดียว Int32. |
+| [BinaryData](../../aspose.slides/ppimage/binarydata) { get; } | ส่งคืนสำเนาข้อมูลของรูปภาพ. อ่านอย่างเดียว Byte[]. |
+| [ContentType](../../aspose.slides/ppimage/contenttype) { get; } | ส่งคืนประเภท MIME ของรูปภาพ, เข้ารหัสใน [`BinaryData`](./binarydata). อ่านอย่างเดียว String. |
+| [Height](../../aspose.slides/ppimage/height) { get; } | ส่งคืนความสูงของรูปภาพ. อ่านอย่างเดียว Int32. |
+| [Image](../../aspose.slides/ppimage/image) { get; } | ส่งคืนสำเนาของรูปภาพ. อ่านอย่างเดียว [`IImage`](../iimage). |
+| [SvgImage](../../aspose.slides/ppimage/svgimage) { get; set; } | ส่งคืนหรือกำหนดวัตถุ ISvgImage [`ISvgImage`](../isvgimage) |
+| [Width](../../aspose.slides/ppimage/width) { get; } | ส่งคืนความกว้างของรูปภาพ. อ่านอย่างเดียว Int32. |
+| [X](../../aspose.slides/ppimage/x) { get; } | ส่งคืนค่า X-offset ของรูปภาพ. อ่านอย่างเดียว Int32. |
+| [Y](../../aspose.slides/ppimage/y) { get; } | ส่งคืนค่า Y-offset ของรูปภาพ. อ่านอย่างเดียว Int32. |
 
 ## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [Dispose](../../aspose.slides/ppimage/dispose)() | ทำลายออบเจ็กต์. |
-| override [GetHashCode](../../aspose.slides/ppimage/gethashcode)() | ส่งคืนรหัสแฮชของภาพ. |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_2)(byte[]) | แทนที่ข้อมูลภาพ. ข้อมูลของภาพใหม่. เมื่อพารามิเตอร์ newImageData เป็น null. |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage)(IImage) | แทนที่ข้อมูลภาพ. หมายเหตุ: เมื่อ Image เป็นเมต้าไฟล์ - จะถูกแปลงเป็นราสเตอร์. ใช้ ReplaceImage(byte[]) แทน ภาพใหม่. เมื่อพารามิเตอร์ newImage เป็น null. |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_1)(IPPImage) | แทนที่ข้อมูลภาพ. IPPImage ใหม่. เมื่อพารามิเตอร์ newImage เป็น null. |
+| [Dispose](../../aspose.slides/ppimage/dispose)() | ทำลายออบเจกต์. |
+| override [GetHashCode](../../aspose.slides/ppimage/gethashcode)() | ส่งคืนค่าแฮชโค้ดของรูปภาพ. |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_2)(byte[]) | แทนที่ข้อมูลรูปภาพ. ข้อมูลของรูปภาพใหม่. เมื่อพารามิเตอร์ newImageData มีค่า null. |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage)(IImage) | แทนที่ข้อมูลรูปภาพ. คำเตือน: เมื่อ Image เป็น metafile - จะถูกแปลงเป็น raster. ใช้ ReplaceImage(byte[]) แทน รูปภาพใหม่. เมื่อพารามิเตอร์ newImage มีค่า null. |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_1)(IPPImage) | แทนที่ข้อมูลรูปภาพ. IPPImage ใหม่. เมื่อพารามิเตอร์ newImage มีค่า null. |
 
 ### ดูเพิ่มเติม
 
-* อินเทอร์เฟซ [IPPImage](../ippimage)
+* อินเตอร์เฟส [IPPImage](../ippimage)
 * เนมสเปซ [Aspose.Slides](../../aspose.slides)
 * แอสเซมบลี [Aspose.Slides](../../)
 

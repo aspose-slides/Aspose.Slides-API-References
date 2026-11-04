@@ -1,9 +1,9 @@
 ---
 title: ICommentCollection
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET справочника API
 description: Представляет коллекцию комментариев одного автора.
 type: docs
-weight: 5590
+weight: 5610
 url: /ru/aspose.slides/icommentcollection/
 ---
 ## ICommentCollection интерфейс
@@ -16,13 +16,13 @@ public interface ICommentCollection : IGenericCollection<IComment>
 
 ## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides/icommentcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`IComment`](../icomment). |
+| [Item](../../aspose.slides/icommentcollection/item) { get; } | Возвращает элемент по указанному индексу. Только для чтения [`IComment`](../icomment). |
 
 ## Методы
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | [AddComment](../../aspose.slides/icommentcollection/addcomment)(string, ISlide, PointF, DateTime) | Добавляет новый комментарий в конец коллекции. |
 | [AddModernComment](../../aspose.slides/icommentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | Добавляет новый современный комментарий в конец коллекции. |

@@ -1,9 +1,9 @@
 ---
 title: ReplaceRegex
-second_title: Aspose.Sildes para .NET Referência de API
+second_title: Aspose.Sildes para .NET Referência da API
 description: Substitui todas as correspondências de expressão regular por uma string especificada.
 type: docs
-weight: 120
+weight: 130
 url: /pt/aspose.slides/textframe/replaceregex/
 ---
 ## TextFrame.ReplaceRegex método
@@ -16,9 +16,9 @@ public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callba
 
 | Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
-| regex | Regex | A expressão regular Regex para obter as cadeias a serem substituídas. |
-| newText | String | A string para substituir todas as ocorrências das cadeias a serem substituídas. |
-| callback | IFindResultCallback | Objeto de retorno de chamada para salvar o resultado da operação de substituição [`IFindResultCallback`](../../ifindresultcallback). |
+| regex | Regex | A expressão regular Regex para obter strings a serem substituídas. |
+| newText | String | A String para substituir todas as ocorrências de strings a serem substituídas. |
+| callback | IFindResultCallback | Objeto Callback para salvar o resultado da operação de substituição [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Exemplos
 
@@ -34,7 +34,7 @@ using (Presentation presentation = new Presentation("SomePresentation.pptx")){
 }
 ```
 
-### Veja Também
+### Veja também
 
 * interface [IFindResultCallback](../../ifindresultcallback)
 * classe [TextFrame](../../textframe)

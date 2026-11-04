@@ -1,14 +1,14 @@
 ---
 title: ChartDataPointLevelsManager
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Kontainer level titik data. Diterapkan untuk seri Treeamp dan Sunburst. Pengindeksan level titik data berbasis nol.
+description: Kontainer level titik data. Diterapkan untuk seri Treeamp dan Sunburst. Pengindeksan level titik data dimulai dari nol.
 type: docs
-weight: 1360
+weight: 1370
 url: /id/aspose.slides.charts/chartdatapointlevelsmanager/
 ---
 ## ChartDataPointLevelsManager kelas
 
-Container of data point levels. Applied for Treeamp and Sunburst series. Data point levels indexing is zero-based.
+Kontainer level titik data. Diterapkan untuk seri Treeamp dan Sunburst. Pengindeksan level titik data dimulai dari nol.
 
 ```csharp
 public class ChartDataPointLevelsManager : DomObject<ChartDataPoint>, IChartDataPointLevelsManager

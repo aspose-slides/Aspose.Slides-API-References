@@ -1,14 +1,14 @@
 ---
 title: Y
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ส่งคืนหรือกำหนดพิกัด y ของหัวเรื่องเป็นสัดส่วนของความสูงของแผนภูมิ. อ่าน/เขียน Single.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: คืนค่า หรือกำหนดพิกัด y ของชื่อเรื่องเป็นสัดส่วนของความสูงของแผนภูมิ. อ่าน/เขียน Single.
 type: docs
-weight: 170
+weight: 180
 url: /th/aspose.slides.charts/datalabel/y/
 ---
 ## DataLabel.Y คุณสมบัติ
 
-ส่งคืนหรือกำหนดพิกัด y ของหัวเรื่องในรูปแบบส่วนของความสูงของแผนภูมิ. อ่าน/เขียน Single.
+คืนค่า หรือกำหนดพิกัด y ของชื่อเรื่องเป็นสัดส่วนของความสูงของแผนภูมิ. อ่าน/เขียน Single.
 
 ```csharp
 public float Y { get; set; }

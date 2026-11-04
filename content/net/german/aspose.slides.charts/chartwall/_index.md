@@ -1,14 +1,14 @@
 ---
 title: ChartWall
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt Wände in 3D-Diagrammen dar.
+description: Stellt Wände in 3d-Diagrammen dar.
 type: docs
-weight: 1520
+weight: 1530
 url: /de/aspose.slides.charts/chartwall/
 ---
 ## ChartWall Klasse
 
-Stellt Wände in 3D-Diagrammen dar.
+Stellt Wände in 3d-Diagrammen dar.
 
 ```csharp
 public class ChartWall : DomObject<Chart>, IChartWall
@@ -18,9 +18,9 @@ public class ChartWall : DomObject<Chart>, IChartWall
 
 | Name | Beschreibung |
 | --- | --- |
-| [Format](../../aspose.slides.charts/chartwall/format) { get; } | Gibt die Wandfüllung, Linie, Effekt und 3D-Stile zurück. Nur lesbar [`IFormat`](../iformat). |
-| [PictureType](../../aspose.slides.charts/chartwall/picturetype) { get; set; } | Gibt den Bildtyp zurück oder setzt ihn. Lese-/Schreib [`PictureType`](../picturetype). |
-| [Thickness](../../aspose.slides.charts/chartwall/thickness) { get; set; } | Gibt die Wandstärke zurück oder setzt sie als Prozentsatz der größten Dimension des Plotvolumens. Lese-/Schreib Int32. |
+| [Format](../../aspose.slides.charts/chartwall/format) { get; } | Gibt die Wandfüllung, Linie, Effekt, 3d-Stile zurück. Nur lesend [`IFormat`](../iformat). |
+| [PictureType](../../aspose.slides.charts/chartwall/picturetype) { get; set; } | Gibt den Bildtyp zurück oder setzt ihn. Lesen/Schreiben [`PictureType`](../picturetype). |
+| [Thickness](../../aspose.slides.charts/chartwall/thickness) { get; set; } | Gibt die Wanddicke zurück oder setzt sie als Prozentsatz der größten Dimension des Plotvolumens. Lesen/Schreiben Int32. |
 
 ### Siehe auch
 

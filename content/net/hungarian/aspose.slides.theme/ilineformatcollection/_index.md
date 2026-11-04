@@ -1,14 +1,14 @@
 ---
 title: ILineFormatCollection
-second_title: Aspose.Sildes .NET API referencia
-description: Képviseli a vonalstílusok gyűjteményét.
+second_title: Aspose.Sildes a .NET API-referencia
+description: A vonalstílusok gyűjteményét képviseli.
 type: docs
-weight: 11290
+weight: 11310
 url: /hu/aspose.slides.theme/ilineformatcollection/
 ---
 ## ILineFormatCollection interfész
 
-Képviseli a vonalstílusok gyűjteményét.
+A vonalstílusok gyűjteményét képviseli.
 
 ```csharp
 public interface ILineFormatCollection : IGenericCollection<ILineFormat>
@@ -18,7 +18,7 @@ public interface ILineFormatCollection : IGenericCollection<ILineFormat>
 
 | Név | Leírás |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ilineformatcollection/item) { get; } | Lekéri az elemet a megadott indexnél. Írásvédett [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Item](../../aspose.slides.theme/ilineformatcollection/item) { get; } | Az adott indexnél lévő elemet adja vissza. Csak olvasható [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### Lásd még
 

@@ -3,7 +3,7 @@ title: NotesSize
 second_title: Aspose.Sildes for .NET API リファレンス
 description: ノートスライドのサイズを表します。
 type: docs
-weight: 9130
+weight: 9150
 url: /ja/aspose.slides/notessize/
 ---
 ## NotesSize クラス
@@ -18,7 +18,7 @@ public class NotesSize : INotesSize
 
 | 名前 | 説明 |
 | --- | --- |
-| [NotesSize](notessize)() | デフォルト コンストラクタ。 |
+| [NotesSize](notessize)() | デフォルトコンストラクタです。 |
 
 ## プロパティ
 

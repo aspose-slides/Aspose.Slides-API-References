@@ -1,20 +1,20 @@
 ---
 title: ImageWrapperFactory
 second_title: Aspose.Sildes för .NET API-referens
-description: Denna klass möjliggör att initiera IBitmapWrapper.
+description: Denna klass tillåter att initiera IBitmapWrapper.
 type: docs
-weight: 7450
+weight: 7470
 url: /sv/aspose.slides/imagewrapperfactory/
 ---
 ## ImageWrapperFactory klass
 
-Denna klass möjliggör initiering av IBitmapWrapper.
+Denna klass tillåter att initiera IBitmapWrapper.
 
 ```csharp
 public class ImageWrapperFactory : IImageWrapperFactory
 ```
 
-## Konstruktorer
+## Konstruktörer
 
 | Namn | Beskrivning |
 | --- | --- |
@@ -24,11 +24,11 @@ public class ImageWrapperFactory : IImageWrapperFactory
 
 | Namn | Beskrivning |
 | --- | --- |
-| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | Initierar en ny instans av ImageWrapper-klass från den angivna befintliga bilden. |
-| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | Initierar en ny instans av BitmapWrapper-klass från den angivna dataströmmen. |
-| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | Initierar en ny instans av BitmapWrapper-klass från den angivna filen. |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | Initierar en ny instans av ImageWrapper klass från den angivna befintliga bilden. |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | Initierar en ny instans av BitmapWrapper klass från den angivna dataströmmen. |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | Initierar en ny instans av BitmapWrapper klass från den angivna filen. |
 
-### Se även
+### Se också
 
 * gränssnitt [IImageWrapperFactory](../iimagewrapperfactory)
 * namnrymd [Aspose.Slides](../../aspose.slides)

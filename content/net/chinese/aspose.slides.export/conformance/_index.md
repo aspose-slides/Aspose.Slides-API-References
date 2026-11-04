@@ -1,14 +1,14 @@
 ---
 title: Conformance
-second_title: Aspose.Sildes .NET API 参考
-description: 指定 PresentationML 文档符合的符合性类。
+second_title: Aspose.Sildes for .NET API 参考
+description: 指定 PresentationML 文档符合的合规类。
 type: docs
-weight: 3750
+weight: 3770
 url: /zh/aspose.slides.export/conformance/
 ---
-## 符合性枚举
+## 合规枚举
 
-指定 PresentationML 文档符合的符合性类。
+指定 PresentationML 文档符合的合规类。
 
 ```csharp
 public enum Conformance
@@ -19,8 +19,8 @@ public enum Conformance
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
 | Ecma376_2006 | `0` | 指定文档符合 ECMA376:2006。 |
-| Iso29500_2008_Transitional | `1` | 指定文档符合 ISO/IEC 29500:2008 过渡符合性类。 |
-| Iso29500_2008_Strict | `2` | 指定文档符合 ISO/IEC 29500:2008 严格符合性类。 |
+| Iso29500_2008_Transitional | `1` | 指定文档符合 ISO/IEC 29500:2008 过渡合规类。 |
+| Iso29500_2008_Strict | `2` | 指定文档符合 ISO/IEC 29500:2008 严格合规类。 |
 
 ### 另见
 

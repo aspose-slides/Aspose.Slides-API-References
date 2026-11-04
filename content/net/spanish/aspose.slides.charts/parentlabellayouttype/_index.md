@@ -3,10 +3,10 @@ title: ParentLabelLayoutType
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa el diseño de las etiquetas de datos de categoría. Se usa solo con series Treemap.
 type: docs
-weight: 2350
+weight: 2370
 url: /es/aspose.slides.charts/parentlabellayouttype/
 ---
-## Enumeración ParentLabelLayoutType
+## ParentLabelLayoutType enumeración
 
 Representa el diseño de las etiquetas de datos de categoría. Se usa solo con series Treemap.
 

@@ -1,14 +1,14 @@
 ---
 title: GetFonts
-second_title: Aspose.Sildes .NET API 參考
-description: 返回簡報中使用的字體
+second_title: Aspose.Sildes 的 .NET API 參考
+description: 返回簡報中使用的字型
 type: docs
-weight: 70
+weight: 80
 url: /zh-hant/aspose.slides/fontsmanager/getfonts/
 ---
 ## FontsManager.GetFonts 方法
 
-返回簡報中使用的字體
+返回簡報中使用的字型
 
 ```csharp
 public IFontData[] GetFonts()
@@ -16,7 +16,7 @@ public IFontData[] GetFonts()
 
 ### 返回值
 
-字體陣列
+字型陣列
 
 ### 另請參閱
 

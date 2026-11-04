@@ -1,14 +1,14 @@
 ---
 title: IMathFraction
 second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Xác định đối tượng phân số bao gồm tử số và mẫu số được ngăn cách bằng thanh phân số. Thanh phân số có thể nằm ngang hoặc chéo tùy thuộc vào các thuộc tính của phân số. Đối tượng phân số cũng được sử dụng để biểu diễn hàm xếp chồng, đặt một phần tử lên trên phần tử khác mà không có thanh phân số.
+description: Xác định đối tượng phân số bao gồm tử số và mẫu số được ngăn cách bằng một thanh phân số. Thanh phân số có thể nằm ngang hoặc chéo tùy thuộc vào các thuộc tính của phân số. Đối tượng phân số cũng được sử dụng để biểu diễn hàm stack, đặt một phần tử lên trên phần tử khác mà không có thanh phân số.
 type: docs
-weight: 8250
+weight: 8270
 url: /vi/aspose.slides.mathtext/imathfraction/
 ---
 ## IMathFraction giao diện
 
-Xác định đối tượng phân số, bao gồm tử số và mẫu số được ngăn cách bằng thanh phân số. Thanh phân số có thể nằm ngang hoặc chéo, tùy thuộc vào các thuộc tính của phân số. Đối tượng phân số cũng được sử dụng để đại diện cho hàm xếp chồng, đặt một phần tử lên trên phần tử khác mà không có thanh phân số.
+Xác định đối tượng phân số, bao gồm tử số và mẫu số được ngăn cách bằng một thanh phân số. Thanh phân số có thể nằm ngang hoặc chéo, tùy thuộc vào các thuộc tính của phân số. Đối tượng phân số cũng được sử dụng để biểu diễn hàm stack, đặt một phần tử lên trên phần tử khác mà không có thanh phân số.
 
 ```csharp
 public interface IMathFraction : IMathElement

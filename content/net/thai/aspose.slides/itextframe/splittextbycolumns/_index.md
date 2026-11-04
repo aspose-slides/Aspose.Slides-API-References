@@ -1,26 +1,26 @@
 ---
 title: SplitTextByColumns
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แยกเนื้อหาขข้อความของ ITextFrameaspose.slides/itextframe ออกเป็นอาเรย์ของสตริง โดยแต่ละองค์ประกอบจะแทนคอลัมน์ข้อความที่แยกจากกันภายในเฟรม
+description: แบ่งเนื้อหาข้อความของ ITextFrameaspose.slides/itextframe ออกเป็นอาเรย์ของสตริง โดยแต่ละสมาชิกสอดคล้องกับคอลัมน์ข้อความแยกต่างหากภายในเฟรม
 type: docs
-weight: 130
+weight: 140
 url: /th/aspose.slides/itextframe/splittextbycolumns/
 ---
 ## ITextFrame.SplitTextByColumns เมธอด
 
-แยกเนื้อหาข้อความของ [`ITextFrame`](../../itextframe) ออกเป็นอาเรย์ของสตริง โดยแต่ละองค์ประกอบจะสอดคล้องกับคอลัมน์ข้อความแยกต่าง ๆ ภายในเฟรม
+แยกเนื้อหาข้อความของ [`ITextFrame`](../../itextframe) ออกเป็นอาเรย์ของสตริง โดยแต่ละสมาชิกจะสอดคล้องกับคอลัมน์ข้อความแยกต่างหากภายในเฟรม.
 
 ```csharp
 public string[] SplitTextByColumns()
 ```
 
-### ค่ารีเทิร์น
+### ค่าที่ส่งกลับ
 
-อาเรย์ของสตริง, โดยแต่ละสตริงแทนเนื้อหาข้อความของคอลัมน์เฉพาะใน [`ITextFrame`](../../itextframe)
+อาเรย์ของสตริง โดยแต่ละสตริงแสดงเนื้อหาข้อความของคอลัมน์เฉพาะใน [`ITextFrame`](../../itextframe).
 
 ### หมายเหตุ
 
-หากเฟรมข้อความไม่มีหลายคอลัมน์, อาเรย์ที่ส่งกลับจะมีเพียงองค์ประกอบเดียวซึ่งบรรจุข้อความทั้งหมด คอลัมน์ที่ว่างจะถูกแสดงเป็นสตริงว่างในอาเรย์
+หากเฟรมข้อความไม่มีหลายคอลัมน์ อาเรย์ที่ส่งกลับจะมีเพียงสมาชิกเดียวซึ่งมีข้อความเต็มทั้งหมด คอลัมน์ที่ว่างเปล่าจะถูกแทนด้วยสตริงว่างในอาเรย์.
 
 ### ตัวอย่าง
 
@@ -29,9 +29,9 @@ public string[] SplitTextByColumns()
 ```csharp
 using (Presentation pres = new Presentation("example.pptx"))
 {
-    // รับรูปร่างแรกบนสไลด์และแคสต์เป็น ITextFrame
+    // ดึงรูปร่างแรกบนสไลด์และแปลงเป็น ITextFrame
     ITextFrame textFrame = pres.Slides[0].Shapes[0] as ITextFrame;
-    // แยกเนื้อหาเฟรมข้อความเป็นคอลัมน์
+    // แบ่งเนื้อหากรอบข้อความออกเป็นคอลัมน์
     string[] columnsText = textFrame.SplitTextByColumns();
     // พิมพ์ข้อความของแต่ละคอลัมน์ไปยังคอนโซล
     foreach (string column in columnsText)

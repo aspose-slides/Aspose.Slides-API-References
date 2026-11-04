@@ -3,7 +3,7 @@ title: Legend
 second_title: Aspose.Sildes for .NET API リファレンス
 description: チャートの凡例プロパティを表します。
 type: docs
-weight: 2280
+weight: 2300
 url: /ja/aspose.slides.charts/legend/
 ---
 ## Legend クラス
@@ -18,22 +18,22 @@ public class Legend : DomObject<Chart>, ILegend
 
 | 名前 | 説明 |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/legend/actualheight) { get; } | チャート要素の実際の高さを指定します。実際の値を取得するには、事前に IChart.ValidateChartLayout() メソッドを呼び出してください。読み取り専用 Single。 |
-| [ActualWidth](../../aspose.slides.charts/legend/actualwidth) { get; } | チャート要素の実際の幅を指定します。実際の値を取得するには、事前に IChart.ValidateChartLayout() メソッドを呼び出してください。読み取り専用 Single。 |
-| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | チャート要素の左上隅に対する実際の X 位置（左）を指定します。実際の値を取得するには、事前に IChart.ValidateChartLayout() メソッドを呼び出してください。読み取り専用 Single。 |
-| [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | チャート要素の左上隅に対する実際の上位置を指定します。実際の値を取得するには、事前に IChart.ValidateChartLayout() メソッドを呼び出してください。読み取り専用 Single。 |
-| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | 下側。読み取り専用 Single。 |
-| [Chart](../../aspose.slides.charts/legend/chart) { get; } | チャートを返します。読み取り専用 [`IChart`](../ichart)。 |
-| [Entries](../../aspose.slides.charts/legend/entries) { get; } | 凡例エントリを取得します。読み取り専用 [`ILegendEntryCollection`](../ilegendentrycollection)。 |
-| [Format](../../aspose.slides.charts/legend/format) { get; } | 凡例の書式を返します。読み取り専用 [`IFormat`](../iformat)。 |
-| [Height](../../aspose.slides.charts/legend/height) { get; set; } | 凡例の高さをチャートの高さの比率として取得または設定します。読み書き可能 Single。 |
-| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | 他のチャート要素が凡例と重なることを許可するかどうかを決定します。読み書き可能 Boolean。 |
-| [Position](../../aspose.slides.charts/legend/position) { get; set; } | チャート上の凡例の位置を指定します。X、Y、Width、Height プロパティの非 NaN 値はこのプロパティの効果を上書きします。読み書き可能 [`LegendPositionType`](../legendpositiontype)。 |
-| [Right](../../aspose.slides.charts/legend/right) { get; } | 右側。読み取り専用 Single。 |
-| [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | テキスト書式。読み取り専用 [`IChartTextFormat`](../icharttextformat)。 |
-| [Width](../../aspose.slides.charts/legend/width) { get; set; } | 凡例の幅をチャートの幅の比率として取得または設定します。読み書き可能 Single。 |
-| [X](../../aspose.slides.charts/legend/x) { get; set; } | 凡例の X 座標をチャートの幅の比率として取得または設定します。読み書き可能 Single。 |
-| [Y](../../aspose.slides.charts/legend/y) { get; set; } | 凡例の Y 座標をチャートの高さの比率として取得または設定します。読み書き可能 Single。 |
+| [ActualHeight](../../aspose.slides.charts/legend/actualheight) { get; } | 実際のチャート要素の高さを指定します。IChart.ValidateChartLayout() メソッドを呼び出して、実際の値を取得してください。Read Single. |
+| [ActualWidth](../../aspose.slides.charts/legend/actualwidth) { get; } | 実際のチャート要素の幅を指定します。IChart.ValidateChartLayout() メソッドを呼び出して、実際の値を取得してください。Read Single. |
+| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | チャート要素の左上隅に対する実際の x 位置（左）を指定します。IChart.ValidateChartLayout() メソッドを呼び出して、実際の値を取得してください。Read Single. |
+| [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | チャート要素の左上隅に対する実際の上位置を指定します。IChart.ValidateChartLayout() メソッドを呼び出して、実際の値を取得してください。Read Single. |
+| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | 下部。Read-only Single. |
+| [Chart](../../aspose.slides.charts/legend/chart) { get; } | チャートを返します。Read-only [`IChart`](../ichart). |
+| [Entries](../../aspose.slides.charts/legend/entries) { get; } | 凡例エントリを取得します。Read-only [`ILegendEntryCollection`](../ilegendentrycollection). |
+| [Format](../../aspose.slides.charts/legend/format) { get; } | 凡例の書式を返します。Read-only [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/legend/height) { get; set; } | 凡例の高さをチャートの高さの比率として取得または設定します。Read/write Single. |
+| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | 他のチャート要素が凡例と重なることを許可するかどうかを決定します。Read/write Boolean. |
+| [Position](../../aspose.slides.charts/legend/position) { get; set; } | チャート上の凡例の位置を指定します。X、Y、Width、Heigt プロパティの非 NaN 値はこのプロパティの効果を上書きします。Read/write [`LegendPositionType`](../legendpositiontype). |
+| [Right](../../aspose.slides.charts/legend/right) { get; } | 右。Read-only Single. |
+| [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | テキスト書式。Read-only [`IChartTextFormat`](../icharttextformat). |
+| [Width](../../aspose.slides.charts/legend/width) { get; set; } | 凡例の幅をチャートの幅の比率として取得または設定します。Read/write Single. |
+| [X](../../aspose.slides.charts/legend/x) { get; set; } | 凡例の x 座標をチャートの幅の比率として取得または設定します。Read/write Single. |
+| [Y](../../aspose.slides.charts/legend/y) { get; set; } | 凡例の y 座標をチャートの高さの比率として取得または設定します。Read/write Single. |
 
 ### 参照
 

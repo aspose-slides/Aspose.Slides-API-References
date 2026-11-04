@@ -1,14 +1,14 @@
 ---
 title: RowFormat
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Đại diện cho định dạng của một hàng bảng.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu diễn định dạng của một hàng bảng.
 type: docs
-weight: 9730
+weight: 9750
 url: /vi/aspose.slides/rowformat/
 ---
-## Lớp RowFormat
+## RowFormat lớp
 
-Đại diện cho định dạng của một hàng bảng.
+Biểu diễn định dạng của một hàng bảng.
 
 ```csharp
 public sealed class RowFormat : DomObject<Row>, IRowFormat
@@ -18,9 +18,9 @@ public sealed class RowFormat : DomObject<Row>, IRowFormat
 
 | Tên | Mô tả |
 | --- | --- |
-| [GetEffective](../../aspose.slides/rowformat/geteffective)() | Lấy các thuộc tính định dạng hàng bảng hiệu quả với kế thừa và các kiểu bảng đã áp dụng. |
+| [GetEffective](../../aspose.slides/rowformat/geteffective)() | Lấy các thuộc tính định dạng hàng bảng có hiệu lực với việc kế thừa và áp dụng kiểu bảng. |
 
-### Xem Thêm
+### Xem thêm
 
 * lớp [DomObject&lt;TParent&gt;](../domobject-1)
 * lớp [Row](../row)

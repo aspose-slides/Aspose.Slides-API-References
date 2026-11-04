@@ -3,12 +3,12 @@ title: OdpReadException
 second_title: Aspose.Sildes για .NET API Αναφορά
 description: Αντιπροσωπεύει μια εξαίρεση που προκαλείται σε σφάλματα ανάγνωσης παρουσίασης.
 type: docs
-weight: 9220
+weight: 9240
 url: /el/aspose.slides/odpreadexception/
 ---
 ## OdpReadException κλάση
 
-Αντιπροσωπεύει μια εξαίρεση που προκαλείται σε σφάλματα κατά την ανάγνωση παρουσίασης.
+Αντιπροσωπεύει μια εξαίρεση που προκαλείται σε σφάλματα ανάγνωσης παρουσίασης.
 
 ```csharp
 public class OdpReadException : OdpException
@@ -18,9 +18,9 @@ public class OdpReadException : OdpException
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [OdpReadException](odpreadexception#constructor)() | Προεπιλεγμένος κατασκευαστής |
-| [OdpReadException](odpreadexception#constructor_1)(string) | Κατασκευαστής που επιτρέπει την προσθήκη ενός μηνύματος σε αυτήν τη εξαίρεση. |
-| [OdpReadException](odpreadexception#constructor_2)(string, Exception) | Κατασκευαστής για μια εξαίρεση που περιέχει μήνυμα και μια ενσωματωμένη εξαίρεση. |
+| [OdpReadException](odpreadexception#constructor)() | Κατασκευαστής προεπιλογής |
+| [OdpReadException](odpreadexception#constructor_1)(string) | Κατασκευαστής που επιτρέπει την προσθήκη ενός μηνύματος σε αυτήν την εξαίρεση. |
+| [OdpReadException](odpreadexception#constructor_2)(string, Exception) | Κατασκευαστής για μια εξαίρεση που περιέχει ένα μήνυμα και μια ενσωματωμένη εξαίρεση. |
 
 ### Δείτε επίσης
 

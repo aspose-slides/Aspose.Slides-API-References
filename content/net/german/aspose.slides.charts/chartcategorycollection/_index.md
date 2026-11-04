@@ -1,9 +1,9 @@
 ---
 title: ChartCategoryCollection
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt eine Sammlung von ChartCategory dar./chartcategory
+description: Stellt eine Sammlung von ChartCategory./chartcategory
 type: docs
-weight: 1280
+weight: 1290
 url: /de/aspose.slides.charts/chartcategorycollection/
 ---
 ## ChartCategoryCollection Klasse
@@ -18,18 +18,18 @@ public class ChartCategoryCollection : DomObject<ChartData>, IChartCategoryColle
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartcategorycollection/count) { get; } | Gibt die Anzahl der Elemente int der Sammlung zurück. Nur-Lesen Int32. |
-| [GroupingLevelCount](../../aspose.slides.charts/chartcategorycollection/groupinglevelcount) { get; } | Gibt die Anzahl der verwendeten Kategoriegruppierungsebenen zurück. Ist mehr als eins für mehrstufige Kategorien. Nur-Lesen Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartcategorycollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Liste synchronisiert (Thread-sicher) ist. Nur-Lesen Boolean. |
-| [Item](../../aspose.slides.charts/chartcategorycollection/item) { get; } | Liefert das Element am angegebenen Index. |
-| [SyncRoot](../../aspose.slides.charts/chartcategorycollection/syncroot) { get; } | Gibt ein Objekt zurück, das zur Synchronisation des Zugriffs auf die Sammlung verwendet werden kann. Nur-Lesen Object. |
-| [UseCells](../../aspose.slides.charts/chartcategorycollection/usecells) { get; set; } | Wenn true, wird das Arbeitsblatt zum Speichern von Kategorien verwendet (dieser Fall unterstützt mehrstufige Kategorien). Wenn false, wird das Arbeitsblatt NICHT zum Speichern von Werten verwendet (und dieser Fall unterstützt keine mehrstufigen Kategorien). Lesen/Schreiben Boolean. |
+| [Count](../../aspose.slides.charts/chartcategorycollection/count) { get; } | Gibt die Anzahl der Elemente in der Sammlung zurück. Nur-Lesen Int32. |
+| [GroupingLevelCount](../../aspose.slides.charts/chartcategorycollection/groupinglevelcount) { get; } | Gibt die Anzahl der verwendeten Kategorisierungs-Ebenen zurück. Ist größer als eins für mehrstufige Kategorien. Nur-Lesen Int32. |
+| [IsSynchronized](../../aspose.slides.charts/chartcategorycollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Liste synchronisiert ist (Thread-sicher). Nur-Lesen Boolean. |
+| [Item](../../aspose.slides.charts/chartcategorycollection/item) { get; } | Gibt das Element am angegebenen Index zurück. |
+| [SyncRoot](../../aspose.slides.charts/chartcategorycollection/syncroot) { get; } | Gibt ein Objekt zurück, das zum Synchronisieren des Zugriffs auf die Sammlung verwendet werden kann. Nur-Lesen Object. |
+| [UseCells](../../aspose.slides.charts/chartcategorycollection/usecells) { get; set; } | Wenn true, wird das Arbeitsblatt zum Speichern von Kategorien verwendet (dieser Fall unterstützt mehrstufige Kategorien). Wenn false, wird das Arbeitsblatt NICHT zum Speichern von Werten verwendet (und dieser Fall unterstützt keine mehrstufigen Kategorien). Lese/Schreiben Boolean. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.slides.charts/chartcategorycollection/add#add)(IChartDataCell) | Wenn die Kategorie in der Sammlung existiert, wird sie zurückgegeben. Andernfalls wird eine neue Diagrammkategorie aus [`IChartDataCell`](../ichartdatacell) erstellt und der Sammlung hinzugefügt. |
+| [Add](../../aspose.slides.charts/chartcategorycollection/add#add)(IChartDataCell) | Wenn die Kategorie in der Sammlung existiert, wird sie zurückgegeben. Andernfalls wird eine neue Diagrammkategorie aus [`IChartDataCell`](../ichartdatacell) erstellt und zur Sammlung hinzugefügt. |
 | [Add](../../aspose.slides.charts/chartcategorycollection/add#add_1)(object) | Erstellt ein neues [`ChartCategory`](../chartcategory) aus dem Wert und fügt es der Sammlung hinzu. |
 | [Clear](../../aspose.slides.charts/chartcategorycollection/clear)() | Entfernt alle Elemente aus der Sammlung. |
 | [CopyTo](../../aspose.slides.charts/chartcategorycollection/copyto)(Array, int) | Kopiert alle Elemente der Sammlung in das angegebene Array. |

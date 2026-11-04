@@ -3,7 +3,7 @@ title: ISection
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt een sectie van dia's voor.
 type: docs
-weight: 6890
+weight: 6910
 url: /nl/aspose.slides/isection/
 ---
 ## ISection interface
@@ -19,7 +19,7 @@ public interface ISection
 | Naam | Beschrijving |
 | --- | --- |
 | [Name](../../aspose.slides/isection/name) { get; set; } | Naam van de sectie. |
-| [SectionId](../../aspose.slides/isection/sectionid) { get; } | Sectie Id. |
+| [SectionId](../../aspose.slides/isection/sectionid) { get; } | Sectie-Id. |
 | [StartedFromSlide](../../aspose.slides/isection/startedfromslide) { get; } | Retourneert de eerste dia van de sectie. |
 
 ## Methoden

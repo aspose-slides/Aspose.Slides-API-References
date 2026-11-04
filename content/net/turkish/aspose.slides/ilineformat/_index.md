@@ -1,9 +1,9 @@
 ---
 title: ILineFormat
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET için API Referansı
 description: Bir satırın biçimini temsil eder.
 type: docs
-weight: 6310
+weight: 6330
 url: /tr/aspose.slides/ilineformat/
 ---
 ## ILineFormat arayüzü
@@ -18,31 +18,31 @@ public interface ILineFormat : ILineParamSource
 
 | Ad | Açıklama |
 | --- | --- |
-| [Alignment](../../aspose.slides/ilineformat/alignment) { get; set; } | Satır hizalamasını alır veya ayarlar. Okuma/Yazma [`LineAlignment`](../linealignment). |
-| [AsILineParamSource](../../aspose.slides/ilineformat/asilineparamsource) { get; } | Temel ILineParamSource arayüzünü almayı sağlar. Sadece Okunur [`ILineParamSource`](../ilineparamsource). |
-| [BeginArrowheadLength](../../aspose.slides/ilineformat/beginarrowheadlength) { get; set; } | Bir satırın başındaki ok ucu uzunluğunu alır veya ayarlar. Okuma/Yazma [`LineArrowheadLength`](../linearrowheadlength). |
-| [BeginArrowheadStyle](../../aspose.slides/ilineformat/beginarrowheadstyle) { get; set; } | Bir satırın başındaki ok ucu stilini alır veya ayarlar. Okuma/Yazma [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [BeginArrowheadWidth](../../aspose.slides/ilineformat/beginarrowheadwidth) { get; set; } | Bir satırın başındaki ok ucu genişliğini alır veya ayarlar. Okuma/Yazma [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](../../aspose.slides/ilineformat/capstyle) { get; set; } | Satır kapak stilini alır veya ayarlar. Okuma/Yazma [`LineCapStyle`](../linecapstyle). |
-| [CustomDashPattern](../../aspose.slides/ilineformat/customdashpattern) { get; set; } | Özel tire desenini alır veya ayarlar. Okuma/Yazma Single[]. |
-| [DashStyle](../../aspose.slides/ilineformat/dashstyle) { get; set; } | Satır tire stilini alır veya ayarlar. Okuma/Yazma [`LineDashStyle`](../linedashstyle). |
-| [EndArrowheadLength](../../aspose.slides/ilineformat/endarrowheadlength) { get; set; } | Bir satırın sonundaki ok ucu uzunluğunu alır veya ayarlar. Okuma/Yazma [`LineArrowheadLength`](../linearrowheadlength). |
-| [EndArrowheadStyle](../../aspose.slides/ilineformat/endarrowheadstyle) { get; set; } | Bir satırın sonundaki ok ucu stilini alır veya ayarlar. Okuma/Yazma [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [EndArrowheadWidth](../../aspose.slides/ilineformat/endarrowheadwidth) { get; set; } | Bir satırın sonundaki ok ucu genişliğini alır veya ayarlar. Okuma/Yazma [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [FillFormat](../../aspose.slides/ilineformat/fillformat) { get; } | Bir satırın dolgu biçimini alır. Sadece Okunur [`ILineFillFormat`](../ilinefillformat). |
-| [IsFormatNotDefined](../../aspose.slides/ilineformat/isformatnotdefined) { get; } | Satır biçimi tanımlı değilse (yeni oluşturulmuş, varsayılan) true döndürür. Sadece Okunur Boolean. |
-| [JoinStyle](../../aspose.slides/ilineformat/joinstyle) { get; set; } | Satır birleşim stilini alır veya ayarlar. Okuma/Yazma [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/ilineformat/miterlimit) { get; set; } | Bir satırın kiriş limiti (miter) değerini alır veya ayarlar. Okuma/Yazma Single. |
-| [SketchFormat](../../aspose.slides/ilineformat/sketchformat) { get; } | Bir satırın taslak biçimini alır. Sadece Okunur [`ISketchFormat`](../isketchformat). |
-| [Style](../../aspose.slides/ilineformat/style) { get; set; } | Satır stilini alır veya ayarlar. Okuma/Yazma [`LineStyle`](../linestyle). |
-| [Width](../../aspose.slides/ilineformat/width) { get; set; } | Satır genişliğini alır veya ayarlar. Okuma/Yazma Double. |
+| [Alignment](../../aspose.slides/ilineformat/alignment) { get; set; } | Satır hizalamasını döndürür veya ayarlar. Okunur/yazılır [`LineAlignment`](../linealignment). |
+| [AsILineParamSource](../../aspose.slides/ilineformat/asilineparamsource) { get; } | Temel ILineParamSource arayüzünü almayı sağlar. Salt-okunur [`ILineParamSource`](../ilineparamsource). |
+| [BeginArrowheadLength](../../aspose.slides/ilineformat/beginarrowheadlength) { get; set; } | Bir satırın başlangıcındaki ok başı uzunluğunu döndürür veya ayarlar. Okunur/yazılır [`LineArrowheadLength`](../linearrowheadlength). |
+| [BeginArrowheadStyle](../../aspose.slides/ilineformat/beginarrowheadstyle) { get; set; } | Bir satırın başlangıcındaki ok başı stilini döndürür veya ayarlar. Okunur/yazılır [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [BeginArrowheadWidth](../../aspose.slides/ilineformat/beginarrowheadwidth) { get; set; } | Bir satırın başlangıcındaki ok başı genişliğini döndürür veya ayarlar. Okunur/yazılır [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [CapStyle](../../aspose.slides/ilineformat/capstyle) { get; set; } | Satır kapak stilini döndürür veya ayarlar. Okunur/yazılır [`LineCapStyle`](../linecapstyle). |
+| [CustomDashPattern](../../aspose.slides/ilineformat/customdashpattern) { get; set; } | Özel tire desenini döndürür veya ayarlar. Okunur/yazılır Single[]. |
+| [DashStyle](../../aspose.slides/ilineformat/dashstyle) { get; set; } | Satır tire stilini döndürür veya ayarlar. Okunur/yazılır [`LineDashStyle`](../linedashstyle). |
+| [EndArrowheadLength](../../aspose.slides/ilineformat/endarrowheadlength) { get; set; } | Bir satırın sonundaki ok başı uzunluğunu döndürür veya ayarlar. Okunur/yazılır [`LineArrowheadLength`](../linearrowheadlength). |
+| [EndArrowheadStyle](../../aspose.slides/ilineformat/endarrowheadstyle) { get; set; } | Bir satırın sonundaki ok başı stilini döndürür veya ayarlar. Okunur/yazılır [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [EndArrowheadWidth](../../aspose.slides/ilineformat/endarrowheadwidth) { get; set; } | Bir satırın sonundaki ok başı genişliğini döndürür veya ayarlar. Okunur/yazılır [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [FillFormat](../../aspose.slides/ilineformat/fillformat) { get; } | Bir satırın doldurma biçimini döndürür. Salt-okunur [`ILineFillFormat`](../ilinefillformat). |
+| [IsFormatNotDefined](../../aspose.slides/ilineformat/isformatnotdefined) { get; } | Satır biçimi tanımlı değilse (yeni oluşturulmuş, varsayılan) true döndürür. Salt-okunur Boolean. |
+| [JoinStyle](../../aspose.slides/ilineformat/joinstyle) { get; set; } | Satır birleştirme stilini döndürür veya ayarlar. Okunur/yazılır [`LineJoinStyle`](../linejoinstyle). |
+| [MiterLimit](../../aspose.slides/ilineformat/miterlimit) { get; set; } | Bir satırın mitre limitini döndürür veya ayarlar. Okunur/yazılır Single. |
+| [SketchFormat](../../aspose.slides/ilineformat/sketchformat) { get; } | Bir satırın taslak biçimini döndürür. Salt-okunur [`ISketchFormat`](../isketchformat). |
+| [Style](../../aspose.slides/ilineformat/style) { get; set; } | Satır stilini döndürür veya ayarlar. Okunur/yazılır [`LineStyle`](../linestyle). |
+| [Width](../../aspose.slides/ilineformat/width) { get; set; } | Bir satırın genişliğini döndürür veya ayarlar. Okunur/yazılır Double. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | [Equals](../../aspose.slides/ilineformat/equals)(ILineFormat) | İki LineFormat örneğinin eşit olup olmadığını belirler. |
-| [GetEffective](../../aspose.slides/ilineformat/geteffective)() | Uygulanan kalıtımla etkili satır biçimlendirme verilerini alır. |
+| [GetEffective](../../aspose.slides/ilineformat/geteffective)() | Miras uygulanmış etkili satır biçimlendirme verilerini alır. |
 
 ### Ayrıca Bakınız
 

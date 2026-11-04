@@ -1,14 +1,14 @@
 ---
 title: SizeValue
-second_title: Aspose.Slides for .NET API リファレンス
-description: チャート データ ポイントのサイズ値を返します。Treemap と Sunburst チャートで使用されます。読み取り専用 IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+second_title: Aspose.Sildes for .NET API リファレンス
+description: チャート データ ポイントのサイズ値を取得します。Treemap および Sunburst チャートで使用されます。読み取り専用 IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 150
+weight: 190
 url: /ja/aspose.slides.charts/ichartdatapoint/sizevalue/
 ---
 ## IChartDataPoint.SizeValue プロパティ
 
-チャート データ ポイントのサイズ値を返します。Treemap と Sunburst チャートで使用されます。読み取り専用 [`IDoubleChartValue`](../../idoublechartvalue).
+チャート データ ポイントのサイズ値を取得します。Treemap および Sunburst チャートで使用されます。読み取り専用 [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue SizeValue { get; }

@@ -1,9 +1,9 @@
 ---
 title: IResourceLoadingCallback
-second_title: Aspose.Sildes dla .NET referencja API
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
 description: Interfejs wywołania zwrotnego używany do zarządzania ładowaniem zasobów zewnętrznych.
 type: docs
-weight: 6840
+weight: 6860
 url: /pl/aspose.slides/iresourceloadingcallback/
 ---
 ## IResourceLoadingCallback interfejs

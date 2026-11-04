@@ -1,20 +1,20 @@
 ---
 title: ForEach.ForEachSlideCallback
 second_title: Aspose.Sildes for .NET API 參考
-description: 在簡報的每個 Slide（/foreach/slide）時會被呼叫的回呼
+description: 回呼會在每個 Slide./foreach/slide 中於 Presentation../aspose.slides/presentation 被呼叫。
 type: docs
-weight: 7960
+weight: 7980
 url: /zh-hant/aspose.slides.lowcode/foreach.foreachslidecallback/
 ---
-## ForEach.ForEachSlideCallback delegate
+## ForEach.ForEachSlideCallback 委派
 
-回呼將對每個 [`Slide`](../foreach/slide) 在 [`Presentation`](../../aspose.slides/presentation) 中觸發。
+此回呼會在 [`Presentation`](../../aspose.slides/presentation) 中的每個 [`Slide`](../foreach/slide) 被呼叫。
 
 ```csharp
 public delegate void ForEachSlideCallback(Slide slide, int index);
 ```
 
-| 參數 | 類型 | 說明 |
+| 參數 | 型別 | 說明 |
 | --- | --- | --- |
 | slide | Slide | 目前迭代的投影片 |
 | index | Int32 | 目前投影片的索引 |

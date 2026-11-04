@@ -1,14 +1,14 @@
 ---
 title: ILuminanceEffectiveData
-second_title: Aspose.Sildes for .NET API Referansı
-description: Parlaklık etkisini temsil eder. Parlaklık, tüm renkleri beyaza veya siyaha doğru lineer olarak kaydırır. Kontrast, tüm renklerin birbirine daha yakın veya daha uzak olmasını ölçeklendirir.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bir Luminance efektini temsil eder. Parlaklık, tüm renkleri lineer olarak beyaza ya da siyaha daha yakın hale getirir. Kontrast ise tüm renkleri birbirine daha yakın ya da daha uzak olacak şekilde ölçeklendirir.
 type: docs
-weight: 3450
+weight: 3470
 url: /tr/aspose.slides.effects/iluminanceeffectivedata/
 ---
 ## ILuminanceEffectiveData arayüz
 
-Bir Parlaklık etkisini temsil eder. Parlaklık, tüm renkleri beyaza veya siyaha doğru lineer olarak kaydırır. Kontrast, tüm renklerin birbirine daha yakın veya daha uzak olmasını ölçekler.
+Represents a Luminance effect. Brightness linearly shifts all colors closer to white or black. Contrast scales all colors to be either closer or further apart.
 
 ```csharp
 public interface ILuminanceEffectiveData : IEffectEffectiveData
@@ -18,11 +18,11 @@ public interface ILuminanceEffectiveData : IEffectEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iluminanceeffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arabirimini almayı sağlar. Sadece okuma [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Brightness](../../aspose.slides.effects/iluminanceeffectivedata/brightness) { get; } | Parlaklık. Sadece okuma Single. |
-| [Contrast](../../aspose.slides.effects/iluminanceeffectivedata/contrast) { get; } | Kontrast. Sadece okuma Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iluminanceeffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzünü almaya izin verir. Yalnızca okunabilir [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Brightness](../../aspose.slides.effects/iluminanceeffectivedata/brightness) { get; } | Parlaklık. Yalnızca okunabilir Single. |
+| [Contrast](../../aspose.slides.effects/iluminanceeffectivedata/contrast) { get; } | Kontrast. Yalnızca okunabilir Single. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * arayüz [IEffectEffectiveData](../ieffecteffectivedata)
 * ad alanı [Aspose.Slides.Effects](../../aspose.slides.effects)

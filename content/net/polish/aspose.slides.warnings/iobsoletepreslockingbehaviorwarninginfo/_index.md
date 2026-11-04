@@ -1,9 +1,9 @@
 ---
 title: IObsoletePresLockingBehaviorWarningInfo
-second_title: Aspose.Sildes dla .NET – referencja API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: To ostrzeżenie wskazuje, że użyto przestarzałego zachowania blokowania prezentacji.
 type: docs
-weight: 11780
+weight: 11800
 url: /pl/aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/
 ---
 ## IObsoletePresLockingBehaviorWarningInfo interfejs

@@ -1,9 +1,9 @@
 ---
 title: ExtraColorScheme
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Referencia de la API .NET de Aspose.Sildes
 description: Representa un esquema de color adicional que puede asignarse a una diapositiva.
 type: docs
-weight: 11100
+weight: 11120
 url: /es/aspose.slides.theme/extracolorscheme/
 ---
 ## ExtraColorScheme clase
@@ -19,7 +19,7 @@ public class ExtraColorScheme : IExtraColorScheme
 | Nombre | Descripción |
 | --- | --- |
 | [ColorScheme](../../aspose.slides.theme/extracolorscheme/colorscheme) { get; } | Devuelve un esquema de color. Solo lectura [`IColorScheme`](../icolorscheme). |
-| [Name](../../aspose.slides.theme/extracolorscheme/name) { get; } | Devuelve un nombre de este esquema. Solo lectura String. |
+| [Name](../../aspose.slides.theme/extracolorscheme/name) { get; } | Devuelve el nombre de este esquema. Solo lectura String. |
 
 ### Ver también
 

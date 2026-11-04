@@ -1,14 +1,14 @@
 ---
 title: StreamWrapperFactory
-second_title: Aspose.Sildes для .NET API Reference
-description: Фабрика StreamWrapper'ов. Для COM-интерфейса.
+second_title: Aspose.Sildes для .NET справочник API
+description: Фабрика StreamWrappers. Для COM-интерфейса.
 type: docs
-weight: 10760
+weight: 10780
 url: /ru/aspose.slides/streamwrapperfactory/
 ---
 ## StreamWrapperFactory класс
 
-Фабрика StreamWrapper'ов. Для COM-интерфейса.
+Factory of StreamWrappers. For COM interface.
 
 ```csharp
 public class StreamWrapperFactory : IStreamWrapperFactory
@@ -24,10 +24,10 @@ public class StreamWrapperFactory : IStreamWrapperFactory
 
 | Имя | Описание |
 | --- | --- |
-| [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Создаёт FileStream с указанным путём и режимом создания. |
-| [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Создаёт FileStream с указанным путём, режимом создания и правами чтения/записи. |
-| [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | Создаёт оболочку MemoryStream. |
-| [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Создаёт оболочку MemoryStream на основе указанного массива байтов. |
+| [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Создает FileStream с указанным путем и режимом создания. |
+| [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Создает FileStream с указанным путем, режимом создания и правами чтения/записи. |
+| [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | Создает обёртку MemoryStream. |
+| [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Создает обёртку MemoryStream на основе указанного массива байтов. |
 
 ### Смотрите также
 

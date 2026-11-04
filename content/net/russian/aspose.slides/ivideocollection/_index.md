@@ -1,14 +1,14 @@
 ---
 title: IVideoCollection
-second_title: Aspose.Sildes для .NET справочник API
-description: Представляет собой коллекцию объектов Video.
+second_title: Aspose.Sildes для .NET Справочник API
+description: Представляет коллекцию объектов Video.
 type: docs
-weight: 7370
+weight: 7390
 url: /ru/aspose.slides/ivideocollection/
 ---
 ## IVideoCollection интерфейс
 
-Представляет собой коллекцию объектов Video.
+Представляет коллекцию объектов Video.
 
 ```csharp
 public interface IVideoCollection : IGenericCollection<IVideo>
@@ -18,15 +18,15 @@ public interface IVideoCollection : IGenericCollection<IVideo>
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides/ivideocollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`IVideo`](../ivideo). |
+| [Item](../../aspose.slides/ivideocollection/item) { get; } | Получает элемент по заданному индексу. Только для чтения [`IVideo`](../ivideo). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_1)(byte[]) | Создаёт и добавляет видео в презентацию из массива байтов. |
-| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo)(IVideo) | Добавляет копию видеофайла из другой презентации. |
-| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | Создаёт и добавляет видео в презентацию из потока. |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_1)(byte[]) | Создает и добавляет видео в презентацию из массива байтов. |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo)(IVideo) | Добавляет копию файла видео из другой презентации. |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | Создает и добавляет видео в презентацию из потока. |
 
 ### Смотрите также
 

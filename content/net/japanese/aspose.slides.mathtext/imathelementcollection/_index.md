@@ -1,14 +1,14 @@
 ---
 title: IMathElementCollection
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 数式要素 MathElement のコレクションを表します。
+description: 数学要素 MathElement のコレクションを表します。
 type: docs
-weight: 8240
+weight: 8260
 url: /ja/aspose.slides.mathtext/imathelementcollection/
 ---
 ## IMathElementCollection インターフェイス
 
-数式要素 (MathElement) のコレクションを表します。
+数学要素 (MathElement) のコレクションを表します。
 
 ```csharp
 public interface IMathElementCollection : IEnumerable<IMathElement>
@@ -19,7 +19,7 @@ public interface IMathElementCollection : IEnumerable<IMathElement>
 | 名前 | 説明 |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.mathtext/imathelementcollection/asienumerable) { get; } | IEnumerable インターフェイスを返します。読み取り専用 IEnumerable。 |
-| [Count](../../aspose.slides.mathtext/imathelementcollection/count) { get; } | コレクションに実際に含まれる要素数を取得します。読み取り専用 Int32。 |
+| [Count](../../aspose.slides.mathtext/imathelementcollection/count) { get; } | コレクションに実際に含まれる要素の数を取得します。読み取り専用 Int32。 |
 | [Item](../../aspose.slides.mathtext/imathelementcollection/item) { get; } | 指定されたインデックスの要素を取得します。読み取り専用 [`IMathElement`](../imathelement)。 |
 
 ## メソッド
@@ -29,11 +29,11 @@ public interface IMathElementCollection : IEnumerable<IMathElement>
 | [Add](../../aspose.slides.mathtext/imathelementcollection/add)(IMathElement) | コレクションの末尾に数式要素を追加します。 |
 | [Clear](../../aspose.slides.mathtext/imathelementcollection/clear)() | コレクションからすべての要素を削除します。 |
 | [Contains](../../aspose.slides.mathtext/imathelementcollection/contains)(IMathElement) | コレクションが特定の値を含むかどうかを判断します。 |
-| [CopyTo](../../aspose.slides.mathtext/imathelementcollection/copyto)(IMathElement[], int) | 指定された配列へコピーします。 |
+| [CopyTo](../../aspose.slides.mathtext/imathelementcollection/copyto)(IMathElement[], int) | 指定された配列にコピーします。 |
 | [IndexOf](../../aspose.slides.mathtext/imathelementcollection/indexof)(IMathElement) | コレクション内の特定の数式要素のインデックスを決定します。 |
 | [Insert](../../aspose.slides.mathtext/imathelementcollection/insert)(int, IMathElement) | 指定されたインデックスに数式要素を挿入します。 |
 | [Remove](../../aspose.slides.mathtext/imathelementcollection/remove)(IMathElement) | コレクションから特定のオブジェクトの最初の出現を削除します。 |
-| [RemoveAt](../../aspose.slides.mathtext/imathelementcollection/removeat)(int) | コレクションの指定されたインデックスの要素を削除します。 |
+| [RemoveAt](../../aspose.slides.mathtext/imathelementcollection/removeat)(int) | コレクションの指定インデックスの要素を削除します。 |
 
 ### 例
 
@@ -44,7 +44,7 @@ public interface IMathElementCollection : IEnumerable<IMathElement>
 IMathElementCollection collection = new MathBlock();
 ```
 
-### 関連項目
+### 参照
 
 * インターフェイス [IMathElement](../imathelement)
 * 名前空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

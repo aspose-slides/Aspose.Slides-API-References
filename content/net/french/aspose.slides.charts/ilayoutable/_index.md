@@ -3,10 +3,10 @@ title: ILayoutable
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Spécifie la position exacte d'un élément de graphique.
 type: docs
-weight: 2120
+weight: 2140
 url: /fr/aspose.slides.charts/ilayoutable/
 ---
-## Interface ILayoutable
+## interface ILayoutable
 
 Spécifie la position exacte d'un élément de graphique.
 
@@ -19,12 +19,12 @@ public interface ILayoutable : IChartComponent
 | Nom | Description |
 | --- | --- |
 | [AsIChartComponent](../../aspose.slides.charts/ilayoutable/asichartcomponent) { get; } | Permet d'obtenir l'interface de base IChartComponent. Lecture seule [`IChartComponent`](../ichartcomponent). |
-| [Bottom](../../aspose.slides.charts/ilayoutable/bottom) { get; } | Obtient le haut de l'élément de graphique comme une fraction de la hauteur du graphique. Lecture seule Single. |
-| [Height](../../aspose.slides.charts/ilayoutable/height) { get; set; } | Spécifie la hauteur de l'élément de graphique comme une fraction de la hauteur du graphique. Lecture/écriture Single. |
-| [Right](../../aspose.slides.charts/ilayoutable/right) { get; } | Obtient le côté droit de l'élément de graphique comme une fraction de la largeur du graphique. Lecture seule Single. |
-| [Width](../../aspose.slides.charts/ilayoutable/width) { get; set; } | Spécifie la largeur de l'élément de graphique comme une fraction de la largeur du graphique. Lecture/écriture Single. |
-| [X](../../aspose.slides.charts/ilayoutable/x) { get; set; } | Spécifie la position x (gauche) de l'élément de graphique comme une fraction de la largeur du graphique. Lecture/écriture Single. |
-| [Y](../../aspose.slides.charts/ilayoutable/y) { get; set; } | Spécifie le haut de l'élément de graphique comme une fraction de la hauteur du graphique. Lecture/écriture Single. |
+| [Bottom](../../aspose.slides.charts/ilayoutable/bottom) { get; } | Obtient le haut de l'élément de graphique en tant que fraction de la hauteur du graphique. Lecture seule Single. |
+| [Height](../../aspose.slides.charts/ilayoutable/height) { get; set; } | Spécifie la hauteur de l'élément de graphique en tant que fraction de la hauteur du graphique. Lecture/écriture Single. |
+| [Right](../../aspose.slides.charts/ilayoutable/right) { get; } | Obtient le côté droit de l'élément de graphique en tant que fraction de la largeur du graphique. Lecture seule Single. |
+| [Width](../../aspose.slides.charts/ilayoutable/width) { get; set; } | Spécifie la largeur de l'élément de graphique en tant que fraction de la largeur du graphique. Lecture/écriture Single. |
+| [X](../../aspose.slides.charts/ilayoutable/x) { get; set; } | Spécifie l'emplacement x (gauche) de l'élément de graphique en tant que fraction de la largeur du graphique. Lecture/écriture Single. |
+| [Y](../../aspose.slides.charts/ilayoutable/y) { get; set; } | Spécifie le haut de l'élément de graphique en tant que fraction de la hauteur du graphique. Lecture/écriture Single. |
 
 ### Voir aussi
 

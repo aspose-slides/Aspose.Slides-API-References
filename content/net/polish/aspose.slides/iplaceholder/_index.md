@@ -1,14 +1,14 @@
 ---
 title: IPlaceholder
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Reprezentuje placeholder na slajdzie.
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Reprezentuje element zastępczy na slajdzie.
 type: docs
-weight: 6690
+weight: 6710
 url: /pl/aspose.slides/iplaceholder/
 ---
 ## IPlaceholder interfejs
 
-Reprezentuje placeholder na slajdzie.
+Reprezentuje element zastępczy na slajdzie.
 
 ```csharp
 public interface IPlaceholder
@@ -18,10 +18,10 @@ public interface IPlaceholder
 
 | Nazwa | Opis |
 | --- | --- |
-| [Index](../../aspose.slides/iplaceholder/index) { get; } | Zwraca indeks placeholdera. Tylko do odczytu UInt32. |
-| [Orientation](../../aspose.slides/iplaceholder/orientation) { get; } | Zwraca orientację placeholdera. Tylko do odczytu [`Orientation`](../orientation). |
-| [Size](../../aspose.slides/iplaceholder/size) { get; } | Zwraca rozmiar placeholdera. Tylko do odczytu [`PlaceholderSize`](../placeholdersize). |
-| [Type](../../aspose.slides/iplaceholder/type) { get; } | Zwraca typ placeholdera. Tylko do odczytu [`PlaceholderType`](../placeholdertype). |
+| [Index](../../aspose.slides/iplaceholder/index) { get; } | Zwraca indeks elementu zastępczego. Tylko do odczytu UInt32. |
+| [Orientation](../../aspose.slides/iplaceholder/orientation) { get; } | Zwraca orientację elementu zastępczego. Tylko do odczytu [`Orientation`](../orientation). |
+| [Size](../../aspose.slides/iplaceholder/size) { get; } | Zwraca rozmiar elementu zastępczego. Tylko do odczytu [`PlaceholderSize`](../placeholdersize). |
+| [Type](../../aspose.slides/iplaceholder/type) { get; } | Zwraca typ elementu zastępczego. Tylko do odczytu [`PlaceholderType`](../placeholdertype). |
 
 ### Zobacz także
 

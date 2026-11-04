@@ -1,14 +1,14 @@
 ---
 title: IPptxOptions
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示用于保存 OpenXml 演示文稿（PPTX、PPSX、POTX、PPTM、PPSM、POTM）的选项。
 type: docs
-weight: 4020
+weight: 4040
 url: /zh/aspose.slides.export/ipptxoptions/
 ---
 ## IPptxOptions 接口
 
-表示用于保存 OpenXml 演示文稿（PPTX、PPSX、POTX、PPTM、PPSM、POTM）的选项。
+表示用于保存 OpenXml 演示文稿 (PPTX, PPSX, POTX, PPTM, PPSM, POTM) 的选项。
 
 ```csharp
 public interface IPptxOptions : ISaveOptions
@@ -18,13 +18,13 @@ public interface IPptxOptions : ISaveOptions
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/ipptxoptions/asisaveoptions) { get; } | 允许获取基础 ISaveOptions 接口。只读 [`ISaveOptions`](../isaveoptions)。 |
-| [CompressionLevel](../../aspose.slides.export/ipptxoptions/compressionlevel) { get; set; } | 指定保存演示文稿时使用的压缩级别。默认值为 Level6。 |
-| [Conformance](../../aspose.slides.export/ipptxoptions/conformance) { get; set; } | 指定演示文稿符合的兼容性类别。默认值为 Ecma376_2006。 |
+| [AsISaveOptions](../../aspose.slides.export/ipptxoptions/asisaveoptions) { get; } | 允许获取基 ISaveOptions 接口。只读 [`ISaveOptions`](../isaveoptions)。 |
+| [CompressionLevel](../../aspose.slides.export/ipptxoptions/compressionlevel) { get; set; } | 指定在保存演示文稿时使用的压缩级别。默认值为 Level6。 |
+| [Conformance](../../aspose.slides.export/ipptxoptions/conformance) { get; set; } | 指定演示文稿符合的兼容性类。默认值为 Ecma376_2006 |
 | [RefreshThumbnail](../../aspose.slides.export/ipptxoptions/refreshthumbnail) { get; set; } | 指定是否刷新演示文稿缩略图。读写 Boolean。默认值为 **true**。 |
-| [Zip64Mode](../../aspose.slides.export/ipptxoptions/zip64mode) { get; set; } | 指定是否对演示文稿使用 ZIP64 格式。默认值为 IfNecessary。 |
+| [Zip64Mode](../../aspose.slides.export/ipptxoptions/zip64mode) { get; set; } | 指定是否对演示文稿使用 ZIP64 格式。默认值为 IfNecessary |
 
-### 另见
+### 另请参见
 
 * 接口 [ISaveOptions](../isaveoptions)
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)

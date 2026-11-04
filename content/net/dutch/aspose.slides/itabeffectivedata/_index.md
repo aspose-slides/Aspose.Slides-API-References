@@ -1,14 +1,14 @@
 ---
 title: ITabEffectiveData
-second_title: Aspose.Sildes for .NET API-referentie
-description: Onveranderlijk object dat de tabulatiestop-eigenschappen van effectieve teksten bevat.
+second_title: Aspose.Sildes voor .NET API Referentie
+description: Onveranderlijk object dat de tabulatie-stop-eigenschappen van effectieve teksten bevat.
 type: docs
-weight: 7210
+weight: 7230
 url: /nl/aspose.slides/itabeffectivedata/
 ---
 ## ITabEffectiveData interface
 
-Onveranderlijk object dat de tabulatiestop-eigenschappen van effectieve tekst bevat.
+Onveranderlijk object dat de tabulatie-stop-eigenschappen van effectieve tekst bevat.
 
 ```csharp
 public interface ITabEffectiveData : IComparable
@@ -18,9 +18,9 @@ public interface ITabEffectiveData : IComparable
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Alignment](../../aspose.slides/itabeffectivedata/alignment) { get; } | Retourneert de uitlijningsstijl van een tab. Alleen-lezen [`TabAlignment`](../tabalignment). |
-| [AsIComparable](../../aspose.slides/itabeffectivedata/asicomparable) { get; } | Retourneert IComparable interface. Alleen-lezen IComparable. |
-| [Position](../../aspose.slides/itabeffectivedata/position) { get; } | Retourneert de positie van een tab. Het toewijzen van deze eigenschap kan de index van de tab in de collectie wijzigen en de Enumerator ongeldig maken. Alleen-lezen Double. |
+| [Alignment](../../aspose.slides/itabeffectivedata/alignment) { get; } | Geeft de uitlijningsstijl van een tab terug. Alleen-lezen [`TabAlignment`](../tabalignment). |
+| [AsIComparable](../../aspose.slides/itabeffectivedata/asicomparable) { get; } | Geeft IComparable interface terug. Alleen-lezen IComparable. |
+| [Position](../../aspose.slides/itabeffectivedata/position) { get; } | Geeft de positie van een tab terug. Het toewijzen aan deze eigenschap kan de index van de tab in de collectie wijzigen en de Enumerator ongeldig maken. Alleen-lezen Double. |
 
 ### Opmerkingen
 

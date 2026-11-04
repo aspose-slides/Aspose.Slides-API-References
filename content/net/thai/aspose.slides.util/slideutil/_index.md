@@ -1,35 +1,35 @@
 ---
 title: SlideUtil
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ให้วิธีการที่ช่วยค้นหารูปร่างและข้อความในงานนำเสนอ
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: ให้เมธอดที่ช่วยในการค้นหารูปร่างและข้อความในงานนำเสนอ.
 type: docs
-weight: 11520
+weight: 11540
 url: /th/aspose.slides.util/slideutil/
 ---
-## คลาส SlideUtil
+## SlideUtil คลาส
 
-เสนอวิธีการที่ช่วยในการค้นหารูปร่างและข้อความในงานนำเสนอ
+Offer methods which help to search shapes and text in a presentation.
 
 ```csharp
 public static class SlideUtil
 ```
 
-## วิธีการ
+## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| Name | คำอธิบาย |
 | --- | --- |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes)(ShapesAlignmentType, bool, IBaseSlide) | เปลี่ยนตำแหน่งของรูปร่างทั้งหมดบนสไลด์ จัดแนวรูปร่างไปยังขอบหรือขอบของสไลด์ หรือจัดแนวตามสัมพันธ์กัน |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_2)(ShapesAlignmentType, bool, IGroupShape) | เปลี่ยนตำแหน่งของรูปร่างทั้งหมดภายในกลุ่มรูปร่าง จัดแนวรูปร่างไปยังขอบหรือขอบของสไลด์ หรือจัดแนวตามสัมพันธ์กัน |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_1)(ShapesAlignmentType, bool, IBaseSlide, int[]) | เปลี่ยนตำแหน่งของรูปร่างที่เลือกบนสไลด์ จัดแนวรูปร่างไปยังขอบหรือขอบของสไลด์ หรือจัดแนวตามสัมพันธ์กัน |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_3)(ShapesAlignmentType, bool, IGroupShape, int[]) | เปลี่ยนตำแหน่งของรูปร่างที่เลือกภายในกลุ่มรูปร่าง จัดแนวรูปร่างไปยังขอบหรือขอบของสไลด์ หรือจัดแนวตามสัมพันธ์กัน |
-| static [FindAndReplaceText](../../aspose.slides.util/slideutil/findandreplacetext)(IPresentation, bool, string, string, PortionFormat) | ค้นหาและแทนที่ข้อความในงานนำเสนอด้วยรูปแบบที่ระบุ |
-| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape)(IBaseSlide, string) | ค้นหารูปร่างโดยข้อความแทนที่บนสไลด์ในงานนำเสนอ PPTX |
-| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape_1)(IPresentation, string) | ค้นหารูปร่างโดยข้อความแทนที่ในงานนำเสนอ PPTX |
-| static [FindShapesByPlaceholderType](../../aspose.slides.util/slideutil/findshapesbyplaceholdertype)(IBaseSlide, PlaceholderType) | ค้นหารูปร่างทั้งหมดบนสไลด์ที่ระบุที่ตรงกับประเภทของ placeholder ที่ให้ไว้ |
-| static [GetAllTextBoxes](../../aspose.slides.util/slideutil/getalltextboxes)(IBaseSlide) | ส่งกลับ text frame ทั้งหมดบนสไลด์ในงานนำเสนอ PPTX |
-| static [GetAllTextFrames](../../aspose.slides.util/slideutil/getalltextframes)(IPresentation, bool) | ส่งกลับ text frame ทั้งหมดในงานนำเสนอ PPTX |
-| static [GetTextBoxesContainsText](../../aspose.slides.util/slideutil/gettextboxescontainstext)(IBaseSlide, string, bool) | ส่งกลับ text frame ทั้งหมดบนสไลด์ที่ระบุที่มีข้อความที่กำหนด |
-| static [ToSaveFormat](../../aspose.slides.util/slideutil/tosaveformat)(SourceFormat) | แปลงรูปแบบไฟล์ต้นทางเป็น [`SaveFormat`](../../aspose.slides.export/saveformat) ที่สอดคล้องกัน |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes)(ShapesAlignmentType, bool, IBaseSlide) | เปลี่ยนตำแหน่งของรูปร่างทั้งหมดบนสไลด์ จัดตำแหน่งรูปร่างให้สอดคล้องกับขอบหรือระยะขอบของสไลด์ หรือจัดตำแหน่งแบบสัมพันธ์กัน |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_2)(ShapesAlignmentType, bool, IGroupShape) | เปลี่ยนตำแหน่งของรูปร่างทั้งหมดภายในกลุ่มรูป จัดตำแหน่งรูปร่างให้สอดคล้องกับขอบหรือระยะขอบของสไลด์ หรือจัดตำแหน่งแบบสัมพันธ์กัน |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_1)(ShapesAlignmentType, bool, IBaseSlide, int[]) | เปลี่ยนตำแหน่งของรูปร่างที่เลือกบนสไลด์ จัดตำแหน่งรูปร่างให้สอดคล้องกับขอบหรือระยะขอบของสไลด์ หรือจัดตำแหน่งแบบสัมพันธ์กัน |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_3)(ShapesAlignmentType, bool, IGroupShape, int[]) | เปลี่ยนตำแหน่งของรูปร่างที่เลือกภายในกลุ่มรูป จัดตำแหน่งรูปร่างให้สอดคล้องกับขอบหรือระยะขอบของสไลด์ หรือจัดตำแหน่งแบบสัมพันธ์กัน |
+| static [FindAndReplaceText](../../aspose.slides.util/slideutil/findandreplacetext)(IPresentation, bool, string, string, PortionFormat) | ค้นหาและแทนที่ข้อความในงานนำเสนอด้วยรูปแบบที่กำหนด |
+| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape)(IBaseSlide, string) | ค้นหารูปร่างตามข้อความสำรองบนสไลด์ในงานนำเสนอ PPTX |
+| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape_1)(IPresentation, string) | ค้นหารูปร่างตามข้อความสำรองในงานนำเสนอ PPTX |
+| static [FindShapesByPlaceholderType](../../aspose.slides.util/slideutil/findshapesbyplaceholdertype)(IBaseSlide, PlaceholderType) | ค้นหารูปร่างทั้งหมดบนสไลด์ที่ระบุที่ตรงกับประเภท placeholder ที่กำหนด |
+| static [GetAllTextBoxes](../../aspose.slides.util/slideutil/getalltextboxes)(IBaseSlide) | ส่งคืนกรอบข้อความทั้งหมดบนสไลด์ในงานนำเสนอ PPTX |
+| static [GetAllTextFrames](../../aspose.slides.util/slideutil/getalltextframes)(IPresentation, bool) | ส่งคืนกรอบข้อความทั้งหมดในงานนำเสนอ PPTX |
+| static [GetTextBoxesContainsText](../../aspose.slides.util/slideutil/gettextboxescontainstext)(IBaseSlide, string, bool) | ส่งคืนกรอบข้อความทั้งหมดบนสไลด์ที่ระบุที่มีข้อความที่กำหนด |
+| static [ToSaveFormat](../../aspose.slides.util/slideutil/tosaveformat)(SourceFormat) | แปลงรูปแบบไฟล์ต้นทางเป็น [`SaveFormat`](../../aspose.slides.export/saveformat) ที่สอดคล้อง |
 
 ### ดูเพิ่มเติม
 

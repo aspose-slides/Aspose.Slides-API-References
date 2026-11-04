@@ -1,14 +1,14 @@
 ---
 title: IPieSplitCustomPointCollection
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงคอลเลกชันของจุดที่ต้องวาดในพายหรือแถบที่สองของแผนภูมิแบบ bar-of-pie หรือ pie-of-pie ที่มีการแบ่งแบบกำหนดเอง.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แทนที่คอลเลกชันของจุดที่จะถูกวาดในพายหรือแถบที่สองบนแผนภูมิ bar-of-pie หรือ pie-of-pie ด้วยการแยกแบบกำหนดเอง.
 type: docs
-weight: 2190
+weight: 2210
 url: /th/aspose.slides.charts/ipiesplitcustompointcollection/
 ---
 ## IPieSplitCustomPointCollection อินเทอร์เฟซ
 
-แสดงถึงคอลเลกชันของจุดที่ต้องวาดในพายหรือแถบที่สองของแผนภูมิแบบ bar-of-pie หรือ pie-of-pie ที่มีการแบ่งแบบกำหนดเอง.
+แทนที่การเป็นคอลเลกชันของจุดที่ต้องวาดในพายหรือแถบที่สองบนแผนภูมิ bar-of-pie หรือ pie-of-pie ด้วยการแยกแบบกำหนดเอง
 
 ```csharp
 public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
@@ -18,15 +18,15 @@ public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.charts/ipiesplitcustompointcollection/asienumerable) { get; } | คืนค่าอินเทอร์เฟซ IEnumerable |
-| [Item](../../aspose.slides.charts/ipiesplitcustompointcollection/item) { get; } | คืนค่าจุดข้อมูลแผนภูมิตามดัชนี |
+| [AsIEnumerable](../../aspose.slides.charts/ipiesplitcustompointcollection/asienumerable) { get; } | ส่งคืนอินเทอร์เฟซ IEnumerable. |
+| [Item](../../aspose.slides.charts/ipiesplitcustompointcollection/item) { get; } | ส่งคืนจุดข้อมูลแผนภูมิตามดัชนี. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ipiesplitcustompointcollection/add)(int) | เพิ่มจุดข้อมูลโดยใช้ดัชนีของมันในคอลเลกชันจุดของซีรีส์พาเรนต์ |
-| [Remove](../../aspose.slides.charts/ipiesplitcustompointcollection/remove)(int) | ลบรายการออกจากคอลเลกชันโดยใช้ดัชนีของมันในคอลเลกชันจุดของซีรีส์พาเรนต์ |
+| [Add](../../aspose.slides.charts/ipiesplitcustompointcollection/add)(int) | เพิ่มจุดข้อมูลตามดัชนีในคอลเลกชันจุดของซีรีส์แม่. |
+| [Remove](../../aspose.slides.charts/ipiesplitcustompointcollection/remove)(int) | ลบรายการจากคอลเลกชันตามดัชนีในคอลเลกชันจุดของซีรีส์แม่. |
 
 ### ดูเพิ่มเติม
 

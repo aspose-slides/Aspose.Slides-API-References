@@ -1,14 +1,14 @@
 ---
 title: ISideDirectionTransition
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Effect voor diaovergang in zijrichting.
+description: Slide-overgangseffect in zijrichting.
 type: docs
-weight: 10190
+weight: 10210
 url: /nl/aspose.slides.slideshow/isidedirectiontransition/
 ---
 ## ISideDirectionTransition interface
 
-Effect voor diaovergang in zijrichting.
+Effect voor slide-overgang in zijrichting.
 
 ```csharp
 public interface ISideDirectionTransition : ITransitionValueBase
@@ -18,8 +18,8 @@ public interface ISideDirectionTransition : ITransitionValueBase
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/isidedirectiontransition/asitransitionvaluebase) { get; } | Staat toe om de basis ITransitionValueBase interface op te halen. Alleen-lezen [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/isidedirectiontransition/direction) { get; set; } | Richting van de overgang. Lezen/Schrijven [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/isidedirectiontransition/asitransitionvaluebase) { get; } | Stelt toe om de basis-ITransitionValueBase-interface op te halen. Alleen-lezen [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/isidedirectiontransition/direction) { get; set; } | Richting van de overgang. Lezen/schrijven [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
 
 ### Zie ook
 

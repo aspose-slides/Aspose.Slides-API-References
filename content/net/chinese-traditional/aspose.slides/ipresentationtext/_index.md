@@ -1,14 +1,14 @@
 ---
 title: IPresentationText
-second_title: Aspose.Sildes for .NET API 參考
-description: 表示從投影片中擷取的文字
+second_title: Aspose.Sildes 用於 .NET 的 API 參考
+description: 表示從投影片中提取的文字
 type: docs
-weight: 6800
+weight: 6820
 url: /zh-hant/aspose.slides/ipresentationtext/
 ---
 ## IPresentationText 介面
 
-表示從投影片中擷取的文字
+表示從投影片中提取的文字
 
 ```csharp
 public interface IPresentationText
@@ -20,7 +20,7 @@ public interface IPresentationText
 | --- | --- |
 | [SlidesText](../../aspose.slides/ipresentationtext/slidestext) { get; } | 一個 [`SlideText`](../islidetext) 陣列包含簡報的文字。 |
 
-### 另請參閱
+### 參見
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

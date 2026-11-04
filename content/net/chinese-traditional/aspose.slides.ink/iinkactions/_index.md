@@ -1,9 +1,9 @@
 ---
 title: IInkActions
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 表示投影片上的墨跡物件。
+second_title: Aspose.Sildes for .NET API 參考
+description: 代表投影片上的墨跡物件。
 type: docs
-weight: 7520
+weight: 7540
 url: /zh-hant/aspose.slides.ink/iinkactions/
 ---
 ## IInkActions 介面
@@ -16,7 +16,7 @@ public interface IInkActions : IGraphicalObject
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
 | [AsIGraphicalObject](../../aspose.slides.ink/iinkactions/asigraphicalobject) { get; } | 允許取得基礎 IGraphicalObject 介面。唯讀 [`IGraphicalObject`](../../aspose.slides/igraphicalobject)。 |
 

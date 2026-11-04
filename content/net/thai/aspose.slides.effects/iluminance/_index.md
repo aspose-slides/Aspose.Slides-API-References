@@ -1,14 +1,14 @@
 ---
 title: ILuminance
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงเอฟเฟกต์ Luminance ความสว่างทำให้สีทั้งหมดเคลื่อนเข้าหาเนื้อสีขาวหรือสีดำอย่างเชิงเส้น คอนทราสต์ปรับสเกลสีทั้งหมดให้ห่างกันหรือเข้าใกล้กันมากขึ้นหรือน้อยลง
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: แสดงถึงเอฟเฟกต์ Luminance. ความสว่างปรับสีทั้งหมดเชิงเส้นให้ใกล้สีขาวหรือสีดำมากขึ้น. ความคมชัดปรับสเกลสีทั้งหมดให้ใกล้กันหรือห่างกันมากขึ้น.
 type: docs
-weight: 3440
+weight: 3460
 url: /th/aspose.slides.effects/iluminance/
 ---
 ## ILuminance อินเทอร์เฟซ
 
-แสดงถึงเอฟเฟกต์ Luminance ความสว่างทำให้สีทั้งหมดเคลื่อนเข้าหาเนื้อสีขาวหรือสีดำอย่างเชิงเส้น คอนทราสต์ปรับสเกลสีทั้งหมดให้ห่างกันหรือเข้าใกล้กันมากขึ้นหรือน้อยลง
+แทนค่าผลกระทบ Luminance. ความสว่างจะปรับสีทั้งหมดเชิงเส้นให้ใกล้สีขาวหรือสีดำมากขึ้น. ความคมชัดจะทำให้สีทั้งหมดใกล้กันหรือห่างกันมากขึ้น.
 
 ```csharp
 public interface ILuminance : IAccessiblePVIObject<ILuminanceEffectiveData>, 
@@ -19,8 +19,8 @@ public interface ILuminance : IAccessiblePVIObject<ILuminanceEffectiveData>,
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iluminance/asiaccessiblepviobject) { get; } | อนุญาตให้เรียกใช้ IAccessiblePVIObject อินเทอร์เฟซพื้นฐาน อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iluminance/asiimagetransformoperation) { get; } | อนุญาตให้เรียกใช้ IImageTransformOperation อินเทอร์เฟซพื้นฐาน อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iluminance/asiaccessiblepviobject) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IAccessiblePVIObject พื้นฐาน. อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iluminance/asiimagetransformoperation) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IImageTransformOperation พื้นฐาน. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### ดูเพิ่มเติม
 

@@ -1,9 +1,9 @@
 ---
 title: YValue
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: YValue. 읽기 전용 IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 210
+weight: 250
 url: /ko/aspose.slides.charts/chartdatapoint/yvalue/
 ---
 ## ChartDataPoint.YValue 속성
@@ -14,7 +14,7 @@ YValue. 읽기 전용 [`IDoubleChartValue`](../../idoublechartvalue).
 public IDoubleChartValue YValue { get; }
 ```
 
-### 참조
+### 참고
 
 * 인터페이스 [IDoubleChartValue](../../idoublechartvalue)
 * 클래스 [ChartDataPoint](../../chartdatapoint)

@@ -3,7 +3,7 @@ title: ChartDataWorksheetCollection
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar samlingen av arbetsblad i diagramdataboken.
 type: docs
-weight: 1400
+weight: 1410
 url: /sv/aspose.slides.charts/chartdataworksheetcollection/
 ---
 ## ChartDataWorksheetCollection klass
@@ -16,19 +16,19 @@ public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
 
 ## Egenskaper
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
 | [Count](../../aspose.slides.charts/chartdataworksheetcollection/count) { get; } | Returnerar antalet. Skrivskyddad Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | Returnerar ett värde som indikerar om åtkomst till samlingen är synkroniserad (trådsäker). Skrivskyddad Boolean. |
+| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | Returnerar ett värde som anger om åtkomst till samlingen är synkroniserad (trådsäker). Skrivskyddad Boolean. |
 | [Item](../../aspose.slides.charts/chartdataworksheetcollection/item) { get; } | Returnerar arbetsbladet efter index. |
 | [SyncRoot](../../aspose.slides.charts/chartdataworksheetcollection/syncroot) { get; } | Returnerar ett synkroniseringsrot. Skrivskyddad Object. |
 
 ## Metoder
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
 | [CopyTo](../../aspose.slides.charts/chartdataworksheetcollection/copyto)(Array, int) | Kopiera till angiven array. |
-| [GetEnumerator](../../aspose.slides.charts/chartdataworksheetcollection/getenumerator)() | Returnerar en enumerator som itererar genom samlingen. |
+| [GetEnumerator](../../aspose.slides.charts/chartdataworksheetcollection/getenumerator)() | Returnerar en enumerator som itererar igenom samlingen. |
 
 ### Exempel
 

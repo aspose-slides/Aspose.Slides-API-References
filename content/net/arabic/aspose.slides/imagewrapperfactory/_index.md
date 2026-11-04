@@ -1,14 +1,14 @@
 ---
 title: ImageWrapperFactory
-second_title: Aspose.Sildes لـ .NET مرجع API
-description: هذه الفئة تسمح بتهيئة IBitmapWrapper.
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
+description: تسمح هذه الفئة بتهيئة IBitmapWrapper.
 type: docs
-weight: 7450
+weight: 7470
 url: /ar/aspose.slides/imagewrapperfactory/
 ---
-## فئة ImageWrapperFactory
+## ImageWrapperFactory فئة
 
-This class allows to initialize IBitmapWrapper.
+تسمح هذه الفئة بتهيئة IBitmapWrapper.
 
 ```csharp
 public class ImageWrapperFactory : IImageWrapperFactory
@@ -24,9 +24,9 @@ public class ImageWrapperFactory : IImageWrapperFactory
 
 | الاسم | الوصف |
 | --- | --- |
-| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | ينشئ مثيلاً جديداً من ImageWrapper class من الصورة الموجودة المحددة. |
-| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | ينشئ مثيلاً جديداً من BitmapWrapper class من تدفق البيانات المحدد. |
-| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | ينشئ مثيلاً جديداً من BitmapWrapper class من الملف المحدد. |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | يُنشئ مثالًا جديدًا من الفئة ImageWrapper من الصورة الموجودة المحددة. |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | يُنشئ مثالًا جديدًا من الفئة BitmapWrapper من تدفق البيانات المحدد. |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | يُنشئ مثالًا جديدًا من الفئة BitmapWrapper من الملف المحدد. |
 
 ### انظر أيضًا
 

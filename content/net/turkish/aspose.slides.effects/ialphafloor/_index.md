@@ -1,14 +1,14 @@
 ---
 title: IAlphaFloor
-second_title: Aspose.Sildes için .NET API Referansı
-description: Bir Alpha Katmanı etkisini temsil eder. %100'den düşük alfa opaklık değerleri sıfıra ayarlanır. Başka bir deyişle, kısmen şeffaf olan her şey tamamen şeffaf hâle gelir.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Alpha Floor etkisini temsil eder. Alfa opaklık değeri 100'den az olduğunda sıfıra ayarlanır. Başka bir deyişle, kısmen şeffaf olan her şey tamamen şeffaf olur.
 type: docs
-weight: 3060
+weight: 3080
 url: /tr/aspose.slides.effects/ialphafloor/
 ---
 ## IAlphaFloor arayüz
 
-Alfa Katmanı (Alpha Floor) etkisini temsil eder. %100’ten düşük alfa (opaklık) değerleri sıfıra ayarlanır. Başka bir deyişle, kısmen şeffaf olan her şey tamamen şeffaf hâle gelir.
+Alfa Katman etkisini temsil eder. Alfa (opaklık) değeri %100'den düşük olduğunda sıfıra ayarlanır. Başka bir deyişle, kısmen şeffaf olan her şey tamamen şeffaf olur.
 
 ```csharp
 public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>,
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphafloor/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arayüzünü almaya izin verir. Yalnızca okuma [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphafloor/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arayüzünü almaya izin verir. Yalnızca okuma [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphafloor/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arayüzünü almayı sağlar. Salt okunur [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphafloor/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arayüzünü almayı sağlar. Salt okunur [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Ayrıca Bakınız
 

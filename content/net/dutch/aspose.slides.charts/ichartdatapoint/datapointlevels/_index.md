@@ -1,14 +1,14 @@
 ---
 title: DataPointLevels
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Retourneert container met data point-niveaus. Toegepast op Treeamp- en Sunburst-series. Indexering van data point-niveaus is nulgebaseerd.
+description: Retourneert de container van gegevenspuntniveaus. Toegepast op Treeamp- en Sunburst-series. De indexering van gegevenspuntniveaus is nulgebaseerd.
 type: docs
-weight: 40
+weight: 80
 url: /nl/aspose.slides.charts/ichartdatapoint/datapointlevels/
 ---
 ## IChartDataPoint.DataPointLevels eigenschap
 
-Retourneert container met data point-niveaus. Toegepast op Treeamp- en Sunburst-series. Indexering van data point-niveaus is nulgebaseerd.
+Retourneert de container van gegevenspuntniveaus. Toegepast op Treeamp- en Sunburst-series. De indexering van gegevenspuntniveaus is nulgebaseerd.
 
 ```csharp
 public IChartDataPointLevelsManager DataPointLevels { get; }

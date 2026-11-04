@@ -1,14 +1,14 @@
 ---
 title: ILuminanceEffectiveData
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक Luminance प्रभाव का प्रतिनिधित्व करता है। Brightness रैखिक रूप से सभी रंगों को सफेद या काले के करीब शिफ्ट करता है। Contrast सभी रंगों को या तो करीब या और दूर स्केल करता है।
+description: एक ल्यूमिनेंस प्रभाव का प्रतिनिधित्व करता है। ब्राइटनेस रैखिक रूप से सभी रंगों को सफेद या काली के निकट ले जाता है। कॉन्ट्रास्ट सभी रंगों को या तो निकटतर या अधिक दूर करने के लिए स्केल करता है।
 type: docs
-weight: 3450
+weight: 3470
 url: /hi/aspose.slides.effects/iluminanceeffectivedata/
 ---
 ## ILuminanceEffectiveData इंटरफ़ेस
 
-एक Luminance प्रभाव का प्रतिनिधित्व करता है। Brightness रैखिक रूप से सभी रंगों को सफेद या काले के करीब शिफ्ट करता है। Contrast सभी रंगों को या तो और करीब या और दूर स्केल करता है।
+Represents a Luminance effect. Brightness रैखिक रूप से सभी रंगों को सफेद या काली के निकट ले जाता है। Contrast सभी रंगों को या तो निकटतर या अधिक दूर करने के लिए स्केल करता है।
 
 ```csharp
 public interface ILuminanceEffectiveData : IEffectEffectiveData
@@ -18,11 +18,11 @@ public interface ILuminanceEffectiveData : IEffectEffectiveData
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iluminanceeffectivedata/asieffecteffectivedata) { get; } | आधार IEffectEffectiveData इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IEffectEffectiveData`](../ieffecteffectivedata)। |
-| [Brightness](../../aspose.slides.effects/iluminanceeffectivedata/brightness) { get; } | Brightness। केवल पढ़ने योग्य Single। |
-| [Contrast](../../aspose.slides.effects/iluminanceeffectivedata/contrast) { get; } | Contrast। केवल पढ़ने योग्य Single। |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iluminanceeffectivedata/asieffecteffectivedata) { get; } | IEffectEffectiveData मूल इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IEffectEffectiveData`](../ieffecteffectivedata)। |
+| [Brightness](../../aspose.slides.effects/iluminanceeffectivedata/brightness) { get; } | Brightness. केवल-पढ़ने योग्य Single। |
+| [Contrast](../../aspose.slides.effects/iluminanceeffectivedata/contrast) { get; } | Contrast. केवल-पढ़ने योग्य Single। |
 
-### देखें भी
+### देखें साथ में
 
 * इंटरफ़ेस [IEffectEffectiveData](../ieffecteffectivedata)
 * नामस्थान [Aspose.Slides.Effects](../../aspose.slides.effects)

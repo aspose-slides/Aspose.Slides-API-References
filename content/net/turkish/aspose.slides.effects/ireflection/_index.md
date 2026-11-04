@@ -1,9 +1,9 @@
 ---
 title: IReflection
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Bir yansıma etkisini temsil eder.
 type: docs
-weight: 3500
+weight: 3520
 url: /tr/aspose.slides.effects/ireflection/
 ---
 ## IReflection arayüzü
@@ -17,26 +17,26 @@ public interface IReflection : IAccessiblePVIObject<IReflectionEffectiveData>,
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ireflection/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arabirimine erişim sağlar. Sadece okuma [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ireflection/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arabirimine erişim sağlar. Sadece okuma [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/ireflection/blurradius) { get; set; } | Bulanıklık yarıçapı. Okuma/yazma Double. |
-| [Direction](../../aspose.slides.effects/ireflection/direction) { get; set; } | Yansıma yönü. Okuma/yazma Single. |
-| [Distance](../../aspose.slides.effects/ireflection/distance) { get; set; } | Yansıma mesafesi. Okuma/yazma Double. |
-| [EndPosAlpha](../../aspose.slides.effects/ireflection/endposalpha) { get; set; } | Son alfa değerinin (yüzde) alfa gradyan rampa boyunca son konumunu belirler. Okuma/yazma Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/ireflection/endreflectionopacity) { get; set; } | Son yansıma opaklığı. (yüzde). Okuma/yazma Single. |
-| [FadeDirection](../../aspose.slides.effects/ireflection/fadedirection) { get; set; } | Yansımanın kaydırma yönünü belirler. (açı). Okuma/yazma Single. |
-| [RectangleAlign](../../aspose.slides.effects/ireflection/rectanglealign) { get; set; } | Dikdörtgen hizalaması. Okuma/yazma [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ireflection/rotateshadowwithshape) { get; set; } | Şekil döndürülürse yansının şekille birlikte dönüp dönmeyeceğini belirler. Okuma/yazma Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ireflection/scalehorizontal) { get; set; } | Yatay ölçekleme faktörünü belirler, negatif ölçekleme ters çevirme yapar. (yüzde) Okuma/yazma Double. |
-| [ScaleVertical](../../aspose.slides.effects/ireflection/scalevertical) { get; set; } | Dikey ölçekleme faktörünü belirler, negatif ölçekleme ters çevirme yapar. (yüzde) Okuma/yazma Double. |
-| [SkewHorizontal](../../aspose.slides.effects/ireflection/skewhorizontal) { get; set; } | Yatay eğim açısını belirler. Okuma/yazma Double. |
-| [SkewVertical](../../aspose.slides.effects/ireflection/skewvertical) { get; set; } | Dikey eğim açısını belirler. Okuma/yazma Double. |
-| [StartPosAlpha](../../aspose.slides.effects/ireflection/startposalpha) { get; set; } | Başlangıç alfa değerinin (yüzde) alfa gradyan rampa boyunca başlangıç konumunu belirler. Okuma/yazma Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/ireflection/startreflectionopacity) { get; set; } | Başlangıç yansıma opaklığı. (yüzde). Okuma/yazma Single. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ireflection/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arayüzünü almaya izin verir. Salt okunur [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ireflection/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arayüzünü almaya izin verir. Salt okunur [`IImageTransformOperation`](../iimagetransformoperation). |
+| [BlurRadius](../../aspose.slides.effects/ireflection/blurradius) { get; set; } | Bulanıklaştırma yarıçapı. Okunabilir/Yazılabilir Double. |
+| [Direction](../../aspose.slides.effects/ireflection/direction) { get; set; } | Yansıma yönü. Okunabilir/Yazılabilir Single. |
+| [Distance](../../aspose.slides.effects/ireflection/distance) { get; set; } | Yansıma mesafesi. Okunabilir/Yazılabilir Double. |
+| [EndPosAlpha](../../aspose.slides.effects/ireflection/endposalpha) { get; set; } | Alpha gradyan rampasında son alfa değerinin (yüzde) son konumunu belirtir. Okunabilir/Yazılabilir Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/ireflection/endreflectionopacity) { get; set; } | Son yansıma opaklığı. (yüzde). Okunabilir/Yazılabilir Single. |
+| [FadeDirection](../../aspose.slides.effects/ireflection/fadedirection) { get; set; } | Yansımanın kaydırma yönünü belirtir. (açı). Okunabilir/Yazılabilir Single. |
+| [RectangleAlign](../../aspose.slides.effects/ireflection/rectanglealign) { get; set; } | Dikdörtgen hizalaması. Okunabilir/Yazılabilir [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ireflection/rotateshadowwithshape) { get; set; } | Şekil döndürülürse yansımanın da şekil ile birlikte dönüp dönmeyeceğini belirtir. Okunabilir/Yazılabilir Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ireflection/scalehorizontal) { get; set; } | Yatay ölçek faktörünü belirtir, negatif ölçekleme ters çevirme oluşturur. (yüzde) Okunabilir/Yazılabilir Double. |
+| [ScaleVertical](../../aspose.slides.effects/ireflection/scalevertical) { get; set; } | Dikey ölçek faktörünü belirtir, negatif ölçekleme ters çevirme oluşturur. (yüzde) Okunabilir/Yazılabilir Double. |
+| [SkewHorizontal](../../aspose.slides.effects/ireflection/skewhorizontal) { get; set; } | Yatay eğim açısını belirtir. Okunabilir/Yazılabilir Double. |
+| [SkewVertical](../../aspose.slides.effects/ireflection/skewvertical) { get; set; } | Dikey eğim açısını belirtir. Okunabilir/Yazılabilir Double. |
+| [StartPosAlpha](../../aspose.slides.effects/ireflection/startposalpha) { get; set; } | Alpha gradyan rampasında başlangıç alfa değerinin (yüzde) konumunu belirtir. Okunabilir/Yazılabilir Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/ireflection/startreflectionopacity) { get; set; } | Başlangıç yansıma opaklığı. (yüzde). Okunabilir/Yazılabilir Single. |
 
-### Başvurular
+### Ayrıca Bakınız
 
 * arayüz [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * arayüz [IReflectionEffectiveData](../ireflectioneffectivedata)

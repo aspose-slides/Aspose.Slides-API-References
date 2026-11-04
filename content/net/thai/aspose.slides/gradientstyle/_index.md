@@ -1,14 +1,14 @@
 ---
 title: GradientStyle
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: แสดงถึงสไตล์การไล่สีที่มีให้ใช้งาน.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงสไตล์การไล่สีที่พร้อมใช้งาน.
 type: docs
-weight: 5060
+weight: 5080
 url: /th/aspose.slides/gradientstyle/
 ---
-## enumeration ของ GradientStyle
+## GradientStyle enumeration
 
-แสดงถึงสไตล์การไล่สีที่มีให้ใช้งาน.
+แสดงถึงสไตล์การไล่สีที่พร้อมใช้งาน
 
 ```csharp
 public enum GradientStyle
@@ -18,8 +18,8 @@ public enum GradientStyle
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| Default | `0` | สไตล์การไล่สีเริ่มต้น. |
-| PowerPointUI | `1` | สไตล์การไล่สีตามที่แสดงในส่วนติดต่อผู้ใช้ของ PowerPoint. |
+| Default | `0` | สไตล์การไล่สีเริ่มต้น |
+| PowerPointUI | `1` | สไตล์การไล่สีตามที่แสดงในส่วนติดต่อผู้ใช้ของ PowerPoint |
 
 ### ดูเพิ่มเติม
 

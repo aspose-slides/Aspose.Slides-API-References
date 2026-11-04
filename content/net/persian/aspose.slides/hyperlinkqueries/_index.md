@@ -1,14 +1,14 @@
 ---
 title: HyperlinkQueries
-second_title: Aspose.Sildes برای .NET مرجع API
-description: دسترسی آسان به پیوندهای هایپرمتن موجود را فراهم می‌کند.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: دسترسی آسان به پیوندهای موجود را فراهم می‌کند.
 type: docs
-weight: 5160
+weight: 5180
 url: /fa/aspose.slides/hyperlinkqueries/
 ---
 ## HyperlinkQueries کلاس
 
-دسترسی آسان به پیوندهای هایپرمتن موجود را فراهم می‌کند.
+دسترسی آسان به پیوندهای موجود را فراهم می‌کند.
 
 ```csharp
 public sealed class HyperlinkQueries : IHyperlinkQueries
@@ -18,10 +18,10 @@ public sealed class HyperlinkQueries : IHyperlinkQueries
 
 | نام | توضیح |
 | --- | --- |
-| [GetAnyHyperlinks](../../aspose.slides/hyperlinkqueries/getanyhyperlinks)() | تمام زیرشیءهای IHyperlinkContainer که HyperlinkMouseOver غیرnull دارند را دریافت کنید. با شیء IHyperlinkContainer ارائه شده می‌توانید پیوندهای آن را (خواندن، به‌روزرسانی یا حذف) مدیریت کنید. مراجعه کنید به رابط IHyperlinkContainer. |
-| [GetHyperlinkClicks](../../aspose.slides/hyperlinkqueries/gethyperlinkclicks)() | تمام زیرشیءهای IHyperlinkContainer که HyperlinkClick غیرnull دارند را دریافت کنید. با شیء IHyperlinkContainer ارائه شده می‌توانید پیوندهای آن را (خواندن، به‌روزرسانی یا حذف) مدیریت کنید. مراجعه کنید به رابط IHyperlinkContainer. |
-| [GetHyperlinkMouseOvers](../../aspose.slides/hyperlinkqueries/gethyperlinkmouseovers)() | تمام زیرشیءهای IHyperlinkContainer که HyperlinkMouseOver غیرnull دارند را دریافت کنید. با شیء IHyperlinkContainer ارائه شده می‌توانید پیوندهای آن را (خواندن، به‌روزرسانی یا حذف) مدیریت کنید. مراجعه کنید به رابط IHyperlinkContainer. |
-| [RemoveAllHyperlinks](../../aspose.slides/hyperlinkqueries/removeallhyperlinks)() | تمام پیوندهای HyperlinkClick و HyperlinkMouseOver موجود را حذف می‌کند (در تمام زیرشیءهای IHyperlinkContainer). |
+| [GetAnyHyperlinks](../../aspose.slides/hyperlinkqueries/getanyhyperlinks)() | تمام زیر شیءهای IHyperlinkContainer را که HyperlinkMouseOver غیر تهی دارند، دریافت می‌کند. با شیء IHyperlinkContainer داده شده می‌توانید پیوند آن را (خواندن، به‌روزرسانی یا حذف) مدیریت کنید. برای جزئیات به رابط IHyperlinkContainer مراجعه کنید. |
+| [GetHyperlinkClicks](../../aspose.slides/hyperlinkqueries/gethyperlinkclicks)() | تمام زیر شیءهای IHyperlinkContainer را که HyperlinkClick غیر تهی دارند، دریافت می‌کند. با شیء IHyperlinkContainer داده شده می‌توانید پیوند آن را (خواندن، به‌روزرسانی یا حذف) مدیریت کنید. برای جزئیات به رابط IHyperlinkContainer مراجعه کنید. |
+| [GetHyperlinkMouseOvers](../../aspose.slides/hyperlinkqueries/gethyperlinkmouseovers)() | تمام زیر شیءهای IHyperlinkContainer را که HyperlinkMouseOver غیر تهی دارند، دریافت می‌کند. با شیء IHyperlinkContainer داده شده می‌توانید پیوند آن را (خواندن، به‌روزرسانی یا حذف) مدیریت کنید. برای جزئیات به رابط IHyperlinkContainer مراجعه کنید. |
+| [RemoveAllHyperlinks](../../aspose.slides/hyperlinkqueries/removeallhyperlinks)() | تمام پیوندهای HyperlinkClick و HyperlinkMouseOver موجود (در تمام زیر شیءهای IHyperlinkContainer) را حذف می‌کند. |
 
 ### همچنین ببینید
 

@@ -1,14 +1,14 @@
 ---
 title: EffectStyle
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示一种效果样式。
+second_title: Aspose.Sildes .NET API 参考
+description: 表示一个效果样式。
 type: docs
-weight: 11080
+weight: 11100
 url: /zh/aspose.slides.theme/effectstyle/
 ---
 ## EffectStyle 类
 
-表示一种效果样式。
+表示一个效果样式。
 
 ```csharp
 public class EffectStyle : DomObject<EffectStyleCollection>, IEffectStyle
@@ -18,10 +18,10 @@ public class EffectStyle : DomObject<EffectStyleCollection>, IEffectStyle
 
 | 名称 | 描述 |
 | --- | --- |
-| [EffectFormat](../../aspose.slides.theme/effectstyle/effectformat) { get; } | 返回一个效果格式。只读 [`IEffectFormat`](../../aspose.slides/ieffectformat)。 |
-| [ThreeDFormat](../../aspose.slides.theme/effectstyle/threedformat) { get; } | 返回一个3D格式。只读 [`IThreeDFormat`](../../aspose.slides/ithreedformat)。 |
+| [EffectFormat](../../aspose.slides.theme/effectstyle/effectformat) { get; } | 返回效果格式。只读 [`IEffectFormat`](../../aspose.slides/ieffectformat)。 |
+| [ThreeDFormat](../../aspose.slides.theme/effectstyle/threedformat) { get; } | 返回 3d 格式。只读 [`IThreeDFormat`](../../aspose.slides/ithreedformat)。 |
 
-### 另请参阅
+### 另见
 
 * 类 [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * 类 [EffectStyleCollection](../effectstylecollection)

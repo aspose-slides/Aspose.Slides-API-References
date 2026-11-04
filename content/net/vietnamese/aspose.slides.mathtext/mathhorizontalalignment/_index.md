@@ -1,29 +1,29 @@
 ---
 title: MathHorizontalAlignment
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Aspose.Sildes cho .NET Tham khảo API
 description: Căn ngang
 type: docs
-weight: 8780
+weight: 8800
 url: /vi/aspose.slides.mathtext/mathhorizontalalignment/
 ---
 ## MathHorizontalAlignment liệt kê
 
-Căn Ngang
+Căn ngang
 
 ```csharp
 public enum MathHorizontalAlignment
 ```
 
-### Giá Trị
+### Giá trị
 
-| Tên | Giá Trị | Mô Tả |
+| Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| NotDefined | `0` | Giá trị chưa được định nghĩa |
+| NotDefined | `0` | Giá trị không được xác định |
 | Left | `1` | Căn trái |
 | Center | `2` | Giữa |
-| Right | `3` | Căn phải |
+| Right | `3` | Phải |
 
-### Xem Thêm
+### Xem thêm
 
 * không gian tên [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * tập hợp [Aspose.Slides](../../)

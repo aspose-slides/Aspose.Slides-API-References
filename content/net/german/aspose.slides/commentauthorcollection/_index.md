@@ -1,14 +1,14 @@
 ---
 title: CommentAuthorCollection
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt eine Sammlung von Kommentar-Autoren dar.
+description: Stellt eine Sammlung von Kommentarautoren dar.
 type: docs
-weight: 2640
+weight: 2660
 url: /de/aspose.slides/commentauthorcollection/
 ---
 ## CommentAuthorCollection Klasse
 
-Stellt eine Sammlung von Kommentar-Autoren dar.
+Repräsentiert eine Sammlung von Kommentarautoren.
 
 ```csharp
 public sealed class CommentAuthorCollection : DomObject<Presentation>, ICommentAuthorCollection
@@ -18,10 +18,10 @@ public sealed class CommentAuthorCollection : DomObject<Presentation>, ICommentA
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides/commentauthorcollection/count) { get; } | Ermittelt die tatsächlich in der Sammlung enthaltene Anzahl von Elementen. Nur lesbar Int32. |
-| [IsSynchronized](../../aspose.slides/commentauthorcollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (thread-sicher) ist. Nur lesbar Boolean. |
-| [Item](../../aspose.slides/commentauthorcollection/item) { get; } | Ermittelt das Element am angegebenen Index. Nur lesbar [`ICommentAuthor`](../icommentauthor). |
-| [SyncRoot](../../aspose.slides/commentauthorcollection/syncroot) { get; } | Gibt die Synchronisationsbasis zurück. Nur lesbar Object. |
+| [Count](../../aspose.slides/commentauthorcollection/count) { get; } | Gibt die tatsächlich in der Sammlung enthaltene Elementanzahl zurück. Nur-Lesen Int32. |
+| [IsSynchronized](../../aspose.slides/commentauthorcollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (thread-safe) ist. Nur-Lesen Boolean. |
+| [Item](../../aspose.slides/commentauthorcollection/item) { get; } | Gibt das Element am angegebenen Index zurück. Nur-Lesen [`ICommentAuthor`](../icommentauthor). |
+| [SyncRoot](../../aspose.slides/commentauthorcollection/syncroot) { get; } | Gibt ein Synchronisationsobjekt zurück. Nur-Lesen Object. |
 
 ## Methoden
 
@@ -31,9 +31,9 @@ public sealed class CommentAuthorCollection : DomObject<Presentation>, ICommentA
 | [Clear](../../aspose.slides/commentauthorcollection/clear)() | Entfernt alle Autoren aus einer Sammlung. |
 | [CopyTo](../../aspose.slides/commentauthorcollection/copyto)(Array, int) | Kopiert alle Elemente der Sammlung in das angegebene Array. |
 | [FindByName](../../aspose.slides/commentauthorcollection/findbyname)(string) | Findet einen Autor in einer Sammlung anhand des Namens. |
-| [FindByNameAndInitials](../../aspose.slides/commentauthorcollection/findbynameandinitials)(string, string) | Findet einen Autor in einer Sammlung anhand von Namen und Initialen. |
+| [FindByNameAndInitials](../../aspose.slides/commentauthorcollection/findbynameandinitials)(string, string) | Findet einen Autor in einer Sammlung anhand von Name und Initialen. |
 | [GetEnumerator](../../aspose.slides/commentauthorcollection/getenumerator)() | Gibt einen Enumerator zurück, der die Sammlung durchläuft. |
-| [Remove](../../aspose.slides/commentauthorcollection/remove)(ICommentAuthor) | Entfernt das erste Vorkommen des angegebenen Autors in einer Sammlung. |
+| [Remove](../../aspose.slides/commentauthorcollection/remove)(ICommentAuthor) | Entfernt das erste Vorkommen des angegebenen Autors aus einer Sammlung. |
 | [RemoveAt](../../aspose.slides/commentauthorcollection/removeat)(int) | Entfernt den Autor am angegebenen Index der Sammlung. |
 | [ToArray](../../aspose.slides/commentauthorcollection/toarray)() | Erstellt und gibt ein Array mit allen Autoren zurück. |
 

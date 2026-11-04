@@ -1,9 +1,9 @@
 ---
 title: IHtmlGenerator
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: HTML जनरेटर।
 type: docs
-weight: 3960
+weight: 3980
 url: /hi/aspose.slides.export/ihtmlgenerator/
 ---
 ## IHtmlGenerator इंटरफ़ेस
@@ -16,30 +16,30 @@ public interface IHtmlGenerator
 
 ## गुण
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [NextSlideIndex](../../aspose.slides.export/ihtmlgenerator/nextslideindex) { get; } | वर्तमान स्लाइड के बाद रेंडर की जाएगी ऐसी स्लाइड का इंडेक्स लौटाता है या यदि वर्तमान में अंतिम स्लाइड रेंडर हो रही है तो -1 लौटाता है। केवल पढ़ने योग्य Int32. |
-| [PreviousSlideIndex](../../aspose.slides.export/ihtmlgenerator/previousslideindex) { get; } | पहले रेंडर की गई स्लाइड का इंडेक्स लौटाता है या यदि पहली स्लाइड रेंडर हो रही है तो -1 लौटाता है। केवल पढ़ने योग्य Int32. |
-| [SlideImageSize](../../aspose.slides.export/ihtmlgenerator/slideimagesize) { get; } | स्लाइड छवि का आकार लौटाता है। केवल पढ़ने योग्य SizeF. |
-| [SlideImageSizeUnit](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunit) { get; } | स्लाइड छवि आकार को निर्दिष्ट करने वाली इकाई लौटाता है। केवल पढ़ने योग्य [`SvgCoordinateUnit`](../svgcoordinateunit). |
-| [SlideImageSizeUnitCode](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunitcode) { get; } | स्लाइड छवि आकार को निर्दिष्ट करने वाली इकाई का CSS कोड लौटाता है। केवल पढ़ने योग्य String. |
-| [SlideIndex](../../aspose.slides.export/ihtmlgenerator/slideindex) { get; } | वर्तमान में रेंडर हो रही स्लाइड का इंडेक्स लौटाता है। केवल पढ़ने योग्य Int32. |
+| [NextSlideIndex](../../aspose.slides.export/ihtmlgenerator/nextslideindex) { get; } | वर्तमान स्लाइड के बाद रेंडर की जाने वाली स्लाइड का सूचकांक लौटाता है या यदि वर्तमान में अंतिम स्लाइड रेंडर हो रही है तो -1। केवल-पढ़ने योग्य Int32। |
+| [PreviousSlideIndex](../../aspose.slides.export/ihtmlgenerator/previousslideindex) { get; } | पहले रेंडर की गई स्लाइड का सूचकांक लौटाता है या यदि पहली स्लाइड रेंडर हो रही है तो -1। केवल-पढ़ने योग्य Int32। |
+| [SlideImageSize](../../aspose.slides.export/ihtmlgenerator/slideimagesize) { get; } | स्लाइड इमेज का आकार लौटाता है। केवल-पढ़ने योग्य SizeF। |
+| [SlideImageSizeUnit](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunit) { get; } | उसी इकाई को लौटाता है जिसमें स्लाइड इमेज का आकार निर्दिष्ट है। केवल-पढ़ने योग्य [`SvgCoordinateUnit`](../svgcoordinateunit)। |
+| [SlideImageSizeUnitCode](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunitcode) { get; } | स्लाइड इमेज आकार निर्दिष्ट करने वाली इकाई का CSS कोड लौटाता है। केवल-पढ़ने योग्य String। |
+| [SlideIndex](../../aspose.slides.export/ihtmlgenerator/slideindex) { get; } | वर्तमान में रेंडर हो रही स्लाइड का सूचकांक लौटाता है। केवल-पढ़ने योग्य Int32। |
 
-## विधियां
+## विधियाँ
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue)(char[]) | एट्रिब्यूट मान को उद्धरण में बंद करता है और इसे html फ़ाइल में जोड़ता है। |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_2)(string) | एट्रिब्यूट मान को उद्धरण में बंद करता है और इसे html फ़ाइल में जोड़ता है। |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | एट्रिब्यूट मान को उद्धरण में बंद करता है और इसे html फ़ाइल में जोड़ता है। |
-| [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml)(char[]) | फ़ॉर्मेटेड HTML टेक्स्ट जोड़ता है। |
-| [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_2)(string) | फ़ॉर्मेटेड HTML टेक्स्ट जोड़ता है। |
-| [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_1)(char[], int, int) | फ़ॉर्मेटेड HTML टेक्स्ट जोड़ता है। |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext)(char[]) | HTML फ़ाइलों में सादा टेक्स्ट जोड़ता है, विशेष वर्णों को HTML एंटिटी से बदलते हुए। लाइनब्रेक और व्हाइटस्पेस बदले नहीं जाते। |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_2)(string) | HTML फ़ाइलों में सादा टेक्स्ट जोड़ता है, विशेष वर्णों को HTML एंटिटी से बदलते हुए। लाइनब्रेक और व्हाइटस्पेस बदले नहीं जाते। |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_1)(char[], int, int) | HTML फ़ाइलों में सादा टेक्स्ट जोड़ता है, विशेष वर्णों को HTML एंटिटी से बदलते हुए। लाइनब्रेक और व्हाइटस्पेस बदले नहीं जाते। |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue)(char[]) | विशेषण मान को उद्धरण चिह्नों में रखता है और उसे HTML फ़ाइल में जोड़ता है। |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_2)(string) | विशेषण मान को उद्धरण चिह्नों में रखता है और उसे HTML फ़ाइल में जोड़ता है। |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | विशेषण मान को उद्धरण चिह्नों में रखता है और उसे HTML फ़ाइल में जोड़ता है। |
+| [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml)(char[]) | स्वरूपित HTML पाठ जोड़ता है। |
+| [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_2)(string) | स्वरूपित HTML पाठ जोड़ता है। |
+| [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_1)(char[], int, int) | स्वरूपित HTML पाठ जोड़ता है। |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext)(char[]) | HTML फ़ाइलों में साधारण पाठ जोड़ता है, विशेष अक्षरों को HTML इकाइयों से बदलता है। लाइन-ब्रेक और व्हाइटस्पेस नहीं बदले जाते। |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_2)(string) | HTML फ़ाइलों में साधारण पाठ जोड़ता है, विशेष अक्षरों को HTML इकाइयों से बदलता है। लाइन-ब्रेक और व्हाइटस्पेस नहीं बदले जाते। |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_1)(char[], int, int) | HTML फ़ाइलों में साधारण पाठ जोड़ता है, विशेष अक्षरों को HTML इकाइयों से बदलता है। लाइन-ब्रेक और व्हाइटस्पेस नहीं बदले जाते। |
 
-### देखें भी
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides.Export](../../aspose.slides.export)
 * असेंबली [Aspose.Slides](../../)

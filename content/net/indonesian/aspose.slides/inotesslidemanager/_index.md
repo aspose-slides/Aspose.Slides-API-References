@@ -3,10 +3,10 @@ title: INotesSlideManager
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Manajer slide catatan.
 type: docs
-weight: 6520
+weight: 6540
 url: /id/aspose.slides/inotesslidemanager/
 ---
-## INotesSlideManager antarmuka
+## INotesSlideManager interface
 
 Manajer slide catatan.
 
@@ -24,7 +24,7 @@ public interface INotesSlideManager
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AddNotesSlide](../../aspose.slides/inotesslidemanager/addnotesslide)() | Mengembalikan slide catatan untuk slide saat ini, membuat satu jika belum ada. |
+| [AddNotesSlide](../../aspose.slides/inotesslidemanager/addnotesslide)() | Mengembalikan slide catatan untuk slide saat ini, membuat satu jika tidak ada. |
 | [RemoveNotesSlide](../../aspose.slides/inotesslidemanager/removenotesslide)() | Menghapus slide catatan dari slide saat ini. |
 
 ### Lihat Juga

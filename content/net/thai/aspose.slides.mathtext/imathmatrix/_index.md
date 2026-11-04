@@ -1,14 +1,14 @@
 ---
 title: IMathMatrix
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: ระบุวัตถุ Matrix ที่ประกอบด้วยองค์ประกอบลูกซึ่งจัดเรียงเป็นหนึ่งหรือหลายแถวและคอลัมน์ จำเป็นต้องทราบว่ามาตริกซ์ไม่มีตัวคั่นในตัว เพื่อวางเมทริกซ์ในวงเล็บควรใช้วัตถุ delimiter IMathDelimiter สามารถใช้อาร์กิวเมนต์ null เพื่อสร้างช่องว่างในเมทริกซ์ได้
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: ระบุวัตถุ Matrix ที่ประกอบด้วยองค์ประกอบย่อยซึ่งจัดเรียงเป็นหนึ่งหรือหลายแถวและคอลัมน์ จำเป็นต้องสังเกตว่าเมทริกซ์ไม่มีตัวคั่นในตัว เพื่อวางเมทริกซ์ในวงเล็บควรใช้วัตถุตัวคั่น IMathDelimiter สามารถใช้ค่า Null เพื่อสร้างช่องว่างในเมทริกซ์ได้.
 type: docs
-weight: 8340
+weight: 8360
 url: /th/aspose.slides.mathtext/imathmatrix/
 ---
 ## IMathMatrix อินเทอร์เฟซ
 
-กำหนดวัตถุ Matrix ที่ประกอบด้วยองค์ประกอบลูกที่จัดเรียงเป็นหนึ่งแถวหรือหลายแถวและคอลัมน์ จำเป็นต้องทราบว่ามาตริกซ์ไม่มีตัวคั่นในตัว เพื่อวางเมทริกซ์ในวงเล็บควรใช้วัตถุ delimiter (IMathDelimiter) อาร์กิวเมนต์ null สามารถใช้เพื่อสร้างช่องว่างในเมทริกซ์ได้
+ระบุวัตถุ Matrix ที่ประกอบด้วยองค์ประกอบย่อยที่จัดเรียงเป็นหนึ่งหรือหลายแถวและคอลัมน์ จำเป็นต้องสังเกตว่าเมทริกซ์ไม่มีตัวคั่นในตัว เพื่อวางเมทริกซ์ในวงเล็บควรใช้วัตถุตัวคั่น (IMathDelimiter) สามารถใช้ค่า Null เพื่อสร้างช่องว่างในเมทริกซ์ได้.
 
 ```csharp
 public interface IMathMatrix : IMathElement
@@ -18,33 +18,35 @@ public interface IMathMatrix : IMathElement
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathmatrix/asimathelement) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IMathElement พื้นฐาน [`IMathElement`](../imathelement) |
-| [BaseJustification](../../aspose.slides.mathtext/imathmatrix/basejustification) { get; set; } | ระบุการจัดแนวแนวตั้งสัมพันธ์กับข้อความโดยรอบ ค่าใส่ได้คือ top, bottom, และ center ค่าเริ่มต้น: Center |
+| [AsIMathElement](../../aspose.slides.mathtext/imathmatrix/asimathelement) { get; } | อนุญาตให้รับอินเทอร์เฟซ IMathElement พื้นฐาน [`IMathElement`](../imathelement) |
+| [BaseJustification](../../aspose.slides.mathtext/imathmatrix/basejustification) { get; set; } | ระบุการจัดแนวตามแนวตั้งสัมพันธ์กับข้อความรอบข้าง ค่าที่เป็นไปได้คือ top, bottom, และ center ค่าเริ่มต้น: Center |
 | [ColumnCount](../../aspose.slides.mathtext/imathmatrix/columncount) { get; } | จำนวนคอลัมน์ในเมทริกซ์ |
-| [ColumnGap](../../aspose.slides.mathtext/imathmatrix/columngap) { get; set; } | ค่าการเว้นระยะแนวนอนระหว่างคอลัมน์ของเมทริกซ์; หาก ColumnGapRule ตั้งเป็น 3 ("Exactly") หน่วยจะตีความเป็น twips (1/20 ของจุด) หาก ColumnGapRule ตั้งเป็น 4 ("Multiple") หน่วยจะตีความเป็นจำนวนของการเพิ่ม 0.5 em. ในกรณีอื่นจะถูกละเว้น ค่าเริ่มต้น: 0 |
-| [ColumnGapRule](../../aspose.slides.mathtext/imathmatrix/columngaprule) { get; set; } | ประเภทของการเว้นระยะแนวนอนระหว่างคอลัมน์ของเมทริกซ์; หน่วยการเว้นระยะแนวนอนอาจเป็น ems หรือ points (เก็บเป็น twips). ค่าเริ่มต้น: SingleSpacingGap (0) |
-| [HidePlaceholders](../../aspose.slides.mathtext/imathmatrix/hideplaceholders) { get; set; } | ซ่อน Placeholder สำหรับองค์ประกอบเมทริกซ์ที่ว่าง ค่าเริ่มต้น: false |
+| [ColumnGap](../../aspose.slides.mathtext/imathmatrix/columngap) { get; set; } | ค่าของระยะห่างแนวนอนระหว่างคอลัมน์ของเมทริกซ์; หาก ColumnGapRule ตั้งค่าเป็น 3 (\"Exactly\"), หน่วยจะถูกตีความเป็น twips (1/20 ของจุด) หาก ColumnGapRule ตั้งเป็น 4 (\"Multiple\"), หน่วยจะถูกตีความเป็นจำนวนของการเพิ่ม 0.5 em ในกรณีอื่นจะถูกละเลย ค่าเริ่มต้น: 0 |
+| [ColumnGapRule](../../aspose.slides.mathtext/imathmatrix/columngaprule) { get; set; } | ประเภทของระยะห่างแนวนอนระหว่างคอลัมน์ของเมทริกซ์; หน่วยระยะห่างแนวนอนสามารถเป็น ems หรือ points (เก็บเป็น twips) ค่าเริ่มต้น: SingleSpacingGap (0) |
+| [HidePlaceholders](../../aspose.slides.mathtext/imathmatrix/hideplaceholders) { get; set; } | ซ่อนตัวแทนขององค์ประกอบเมทริกซ์ที่ว่างค่าเริ่มต้น: false |
 | [Item](../../aspose.slides.mathtext/imathmatrix/item) { get; set; } | องค์ประกอบของเมทริกซ์ |
-| [MinColumnWidth](../../aspose.slides.mathtext/imathmatrix/mincolumnwidth) { get; set; } | ความกว้างคอลัมน์ขั้นต่ำใน twips (1/20 ของจุด) ระยะห่าง (เรียกอีกอย่างว่า “Column Gap” หรือ “Gap Width”) จะเพิ่มไปยัง MinColumnWidth เพื่อกำหนดระยะห่างคอลัมน์ทั้งหมดของเมทริกซ์ (ระยะทางระหว่างขอบเดียวกันของคอลัมน์ต่างกัน). ค่าเริ่มต้น: 0. |
+| [MinColumnWidth](../../aspose.slides.mathtext/imathmatrix/mincolumnwidth) { get; set; } | ความกว้างคอลัมน์ขั้นต่ำใน twips (1/20 ของจุด) ระยะห่างช่อง (ยังเรียกว่า “Column Gap” หรือ “Gap Width”) จะถูกเพิ่มไปยัง MinColumnWidth เพื่อกำหนดระยะห่างคอลัมน์เมทริกซ์ทั้งหมด (ระยะทางระหว่างขอบเดียวกันของคอลัมน์ต่าง ๆ) ค่าเริ่มต้น: 0. |
 | [RowCount](../../aspose.slides.mathtext/imathmatrix/rowcount) { get; } | จำนวนแถวในเมทริกซ์ |
-| [RowGap](../../aspose.slides.mathtext/imathmatrix/rowgap) { get; set; } | ค่าการเว้นระยะแนวตั้งระหว่างแถวของเมทริกซ์; หาก RowGapRule ตั้งเป็น 3 ("Exactly") หน่วยเป็น twips (1/20 ของจุด) หาก RowGapRule ตั้งเป็น 4 ("Multiple") หน่วยเป็น half-lines. ค่าเริ่มต้น: 0 |
-| [RowGapRule](../../aspose.slides.mathtext/imathmatrix/rowgaprule) { get; set; } | ประเภทของการเว้นระยะแนวตั้งระหว่างแถวของเมทริกซ์; หน่วยแนวตั้งอาจเป็น lines หรือ points (เก็บเป็น twips). ค่าเริ่มต้น: SingleSpacingGap (0) |
+| [RowGap](../../aspose.slides.mathtext/imathmatrix/rowgap) { get; set; } | ค่าของระยะห่างแนวตั้งระหว่างแถวของเมทริกซ์; หาก RowGapRule ตั้งค่าเป็น 3 (\"Exactly\"), หน่วยจะตีความเป็น twips (1/20 ของจุด) หาก RowGapRule ตั้งเป็น 4 (\"Multiple\"), หน่วยจะตีความเป็นครึ่งบรรทัด ค่าเริ่มต้น: 0 |
+| [RowGapRule](../../aspose.slides.mathtext/imathmatrix/rowgaprule) { get; set; } | ประเภทของระยะห่างแนวตั้งระหว่างแถวของเมทริกซ์; หน่วยระยะห่างแนวตั้งสามารถเป็น lines หรือ points (เก็บเป็น twips) ค่าเริ่มต้น: SingleSpacingGap (0) |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [DeleteColumn](../../aspose.slides.mathtext/imathmatrix/deletecolumn)(int) | ลบคอลัมน์ที่ระบุ |
 | [DeleteRow](../../aspose.slides.mathtext/imathmatrix/deleterow)(int) | ลบแถวที่ระบุ |
-| [GetColumnAlignment](../../aspose.slides.mathtext/imathmatrix/getcolumnalignment)(int) | ดึงการจัดแนวนอนของคอลัมน์ที่ระบุ |
-| [InsertColumnAfter](../../aspose.slides.mathtext/imathmatrix/insertcolumnafter)(int) | แทรกคอลัมน์ใหม่หลังคอลัมน์ที่ระบุ ในตอนแรกทุกองค์ประกอบในคอลัมน์ใหม่เป็น null. |
-| [InsertColumnBefore](../../aspose.slides.mathtext/imathmatrix/insertcolumnbefore)(int) | แทรกคอลัมน์ใหม่ก่อนคอลัมน์ที่ระบุ ในตอนแรกทุกองค์ประกอบในคอลัมน์ใหม่เป็น null. |
-| [InsertRowAfter](../../aspose.slides.mathtext/imathmatrix/insertrowafter)(int) | แทรกแถวใหม่หลังแถวที่ระบุ ในตอนแรกทุกองค์ประกอบในแถวใหม่เป็น null. |
-| [InsertRowBefore](../../aspose.slides.mathtext/imathmatrix/insertrowbefore)(int) | แทรกแถวใหม่ก่อนแถวที่ระบุ ในตอนแรกทุกองค์ประกอบในแถวใหม่เป็น null. |
-| [SetColumnAlignment](../../aspose.slides.mathtext/imathmatrix/setcolumnalignment)(int, MathHorizontalAlignment) | ตั้งการจัดแนวนอนของคอลัมน์ที่ระบุ |
-| [SetColumnsAlignment](../../aspose.slides.mathtext/imathmatrix/setcolumnsalignment)(int, uint, MathHorizontalAlignment) | ตั้งการจัดแนวนอนของคอลัมน์ที่ระบุ |
+| [GetColumnAlignment](../../aspose.slides.mathtext/imathmatrix/getcolumnalignment)(int) | รับการจัดแนวแนวนอนของคอลัมน์ที่ระบุ |
+| [InsertColumnAfter](../../aspose.slides.mathtext/imathmatrix/insertcolumnafter)(int) | แทรกคอลัมน์ใหม่หลังจากคอลัมน์ที่ระบุ โดยเริ่มต้นทั้งหมดในคอลัมน์ใหม่เป็น null. |
+| [InsertColumnBefore](../../aspose.slides.mathtext/imathmatrix/insertcolumnbefore)(int) | แทรกคอลัมน์ใหม่ก่อนคอลัมน์ที่ระบุ โดยเริ่มต้นทั้งหมดในคอลัมน์ใหม่เป็น null. |
+| [InsertRowAfter](../../aspose.slides.mathtext/imathmatrix/insertrowafter)(int) | แทรกแถวใหม่หลังจากแถวที่ระบุ โดยเริ่มต้นทั้งหมดในแถวใหม่เป็น null. |
+| [InsertRowBefore](../../aspose.slides.mathtext/imathmatrix/insertrowbefore)(int) | แทรกแถวใหม่ก่อนแถวที่ระบุ โดยเริ่มต้นทั้งหมดในแถวใหม่เป็น null. |
+| [SetColumnAlignment](../../aspose.slides.mathtext/imathmatrix/setcolumnalignment)(int, MathHorizontalAlignment) | กำหนดการจัดแนวแนวนอนของคอลัมน์ที่ระบุ |
+| [SetColumnsAlignment](../../aspose.slides.mathtext/imathmatrix/setcolumnsalignment)(int, uint, MathHorizontalAlignment) | กำหนดการจัดแนวแนวนอนของคอลัมน์ที่ระบุ |
 
 ### ตัวอย่าง
+
+ตัวอย่าง:
 
 ```csharp
 [C#]

@@ -1,14 +1,14 @@
 ---
 title: PathSegment
-second_title: Aspose.Sildes voor .NET API Referentie
+second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt een segment van een grafisch pad van GeometryShape voor
 type: docs
-weight: 9340
+weight: 9360
 url: /nl/aspose.slides/pathsegment/
 ---
 ## PathSegment klasse
 
-Stelt een segment van een grafisch pad van GeometryShape voor
+Representeert segment van grafisch pad van GeometryShape
 
 ```csharp
 public sealed class PathSegment : IPathSegment

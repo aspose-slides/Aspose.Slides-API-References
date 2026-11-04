@@ -1,14 +1,14 @@
 ---
 title: IGlobalLayoutSlideCollection
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili koleksi semua slide tata letak dalam presentasi. Memperluas ILayoutSlideCollection antarmuka dengan metode untuk menambahkan/menyadur slide tata letak dalam konteks penggabungan koleksi individu slide tata letak master.
+description: Mewakili kumpulan semua slide tata letak dalam presentasi. Memperluas antarmuka ILayoutSlideCollection dengan metode untuk menambah/menyalin slide tata letak dalam konteks penggabungan kumpulan individu slide tata letak master.
 type: docs
-weight: 5990
+weight: 6010
 url: /id/aspose.slides/igloballayoutslidecollection/
 ---
 ## IGlobalLayoutSlideCollection antarmuka
 
-Mewakili sebuah koleksi semua slide tata letak dalam presentasi. Memperluas ILayoutSlideCollection antarmuka dengan metode untuk menambahkan/menyadur slide tata letak dalam konteks penggabungan koleksi individu slide tata letak master.
+Mewakili kumpulan semua slide tata letak dalam presentasi. Memperluas antarmuka ILayoutSlideCollection dengan metode untuk menambah/menyalin slide tata letak dalam konteks penggabungan kumpulan individu slide tata letak master.
 
 ```csharp
 public interface IGlobalLayoutSlideCollection : ILayoutSlideCollection

@@ -1,14 +1,14 @@
 ---
 title: ITintEffectiveData
-second_title: Aspose.Sildes для .NET справочник API
-description: Неизменяемый объект, представляющий эффект Tint. Сдвигает значения цвета эффекта к/от оттенка на заданное значение.
+second_title: Справочник API Aspose.Sildes для .NET
+description: Неизменяемый объект, представляющий эффект Tint. Смещает значения цвета эффекта в сторону/от оттенка на указанное количество.
 type: docs
-weight: 3550
+weight: 3570
 url: /ru/aspose.slides.effects/itinteffectivedata/
 ---
 ## ITintEffectiveData интерфейс
 
-Неизменяемый объект, представляющий эффект Tint. Сдвигает значения цвета эффекта к/от оттенка на указанную величину.
+Неизменяемый объект, представляющий эффект Tint. Смещает значения цвета эффекта в сторону/от оттенка на указанное количество.
 
 ```csharp
 public interface ITintEffectiveData : IEffectEffectiveData

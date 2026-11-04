@@ -1,9 +1,9 @@
 ---
 title: IDigitalSignatureCollection
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa uma coleção de assinaturas digitais anexadas a um documento.
 type: docs
-weight: 5700
+weight: 5720
 url: /pt/aspose.slides/idigitalsignaturecollection/
 ---
 ## IDigitalSignatureCollection interface
@@ -28,7 +28,7 @@ public interface IDigitalSignatureCollection : IGenericCollection<IDigitalSignat
 | [Clear](../../aspose.slides/idigitalsignaturecollection/clear)() | Remove todas as assinaturas da coleção. |
 | [RemoveAt](../../aspose.slides/idigitalsignaturecollection/removeat)(int) | Remove a assinatura no índice especificado. |
 
-### Veja também
+### Veja Também
 
 * interface [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * interface [IDigitalSignature](../idigitalsignature)

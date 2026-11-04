@@ -1,14 +1,14 @@
 ---
 title: SaveOptionsFactory
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Consente di creare istanze delle opzioni di salvataggio
+description: Consente di creare istanze di opzioni di salvataggio
 type: docs
-weight: 4460
+weight: 4480
 url: /it/aspose.slides.export/saveoptionsfactory/
 ---
 ## SaveOptionsFactory classe
 
-Consente di creare istanze delle opzioni di salvataggio
+Consente di creare istanze di opzioni di salvataggio
 
 ```csharp
 public class SaveOptionsFactory : ISaveOptionsFactory

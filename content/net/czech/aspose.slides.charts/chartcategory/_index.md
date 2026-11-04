@@ -1,9 +1,9 @@
 ---
 title: ChartCategory
-second_title: Aspose.Sildes pro .NET referenční příručka API
+second_title: Aspose.Sildes pro .NET – referenční příručka API
 description: Představuje kategorie grafu.
 type: docs
-weight: 1270
+weight: 1280
 url: /cs/aspose.slides.charts/chartcategory/
 ---
 ## ChartCategory třída
@@ -18,17 +18,18 @@ public class ChartCategory : IChartCategory
 
 | Název | Popis |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/chartcategory/ascell) { get; set; } | Vrací nebo nastavuje objekt IChartDataCell. Pokud je kategorie víceúrovňová, použije se objekt IChartDataCell pro úroveň "0". Čtení/zápis [`IChartDataCell`](../ichartdatacell). |
+| [AsCell](../../aspose.slides.charts/chartcategory/ascell) { get; set; } | Vrací nebo nastavuje objekt IChartDataCell. Pokud je kategorie víceúrovňová, pak se používá objekt IChartDataCell pro úroveň "0". Čtení/zápis [`IChartDataCell`](../ichartdatacell). |
 | [AsLiteral](../../aspose.slides.charts/chartcategory/asliteral) { get; set; } | Vrací nebo nastavuje objekt AsLiteral. Čtení/zápis Object. |
-| [GroupingLevels](../../aspose.slides.charts/chartcategory/groupinglevels) { get; } | Spravovaný kontejner hodnot úrovní seskupování kategorií grafu. Víceúrovňová kategorie obsahuje více než jednu úroveň seskupování. Indexování úrovní seskupování je založeno na nule. Pouze pro čtení [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
-| [UseCell](../../aspose.slides.charts/chartcategory/usecell) { get; } | Pokud je true, pak je vlastnost AsCell aktuální. Jinak řečeno, list je použit pro ukládání kategorie (tento případ podporuje víceúrovňovou kategorii). Pokud je false, pak je vlastnost AsLiteral aktuální. Jinak řečeno, list NENÍ použit pro ukládání kategorie (a tento případ nepodporuje víceúrovňové kategorie). Pouze pro čtení Boolean. |
+| [CachedValue](../../aspose.slides.charts/chartcategory/cachedvalue) { get; } | Získá uloženou hodnotu kategorie grafu. Pouze ke čtení [`ICachedChartValue`](../icachedchartvalue). |
+| [GroupingLevels](../../aspose.slides.charts/chartcategory/groupinglevels) { get; } | Spravovaný kontejner hodnot úrovní seskupování kategorií grafu. Víceúrovňová kategorie obsahuje více než jednu úroveň seskupování. Indexování úrovní seskupování začíná nulou. Pouze ke čtení [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
+| [UseCell](../../aspose.slides.charts/chartcategory/usecell) { get; } | Pokud je true, pak je vlastnost AsCell aktuální. Jinými slovy, list je používán k ukládání kategorie (tento případ podporuje víceúrovňovou kategorii). Pokud je false, pak je vlastnost AsLiteral aktuální. Jinými slovy, list NENÍ používán k ukládání kategorie (a tento případ nepodporuje víceúrovňové kategorie). Pouze ke čtení Boolean. |
 | [Value](../../aspose.slides.charts/chartcategory/value) { get; set; } | Pokud je UseCell true, pak tato vlastnost představuje vlastnost AsCell.Value. Pokud je UseCell false, pak tato vlastnost představuje vlastnost AsLiteral. Čtení/zápis Object. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [Remove](../../aspose.slides.charts/chartcategory/remove)() | Odstraní kategorii z grafu. |
+| [Remove](../../aspose.slides.charts/chartcategory/remove)() | Odstraňuje kategorii z grafu. |
 
 ### Viz také
 

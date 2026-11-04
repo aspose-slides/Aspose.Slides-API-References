@@ -1,9 +1,9 @@
 ---
 title: IPictureFrameLock
-second_title: Aspose.Sildes pour .NET Référence de l'API
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Détermine quelles opérations sont désactivées sur le parent PictureFrameEx.
 type: docs
-weight: 6680
+weight: 6700
 url: /fr/aspose.slides/ipictureframelock/
 ---
 ## IPictureFrameLock interface
@@ -21,7 +21,7 @@ public interface IPictureFrameLock : IBaseShapeLock
 | [AdjustHandlesLocked](../../aspose.slides/ipictureframelock/adjusthandleslocked) { get; set; } | Détermine si la modification des valeurs d'ajustement est interdite. Lecture/écriture Boolean. |
 | [ArrowheadsLocked](../../aspose.slides/ipictureframelock/arrowheadslocked) { get; set; } | Détermine si la modification des pointes de flèche est interdite. Lecture/écriture Boolean. |
 | [AsIBaseShapeLock](../../aspose.slides/ipictureframelock/asibaseshapelock) { get; } | Permet d'obtenir l'interface de base IBaseShapeLock. Lecture seule [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/ipictureframelock/aspectratiolocked) { get; set; } | Détermine si une forme doit conserver le ratio d'aspect lors du redimensionnement. Lecture/écriture Boolean. |
+| [AspectRatioLocked](../../aspose.slides/ipictureframelock/aspectratiolocked) { get; set; } | Détermine si une forme doit conserver le rapport d'aspect lors du redimensionnement. Lecture/écriture Boolean. |
 | [CropLocked](../../aspose.slides/ipictureframelock/croplocked) { get; set; } | Détermine si le recadrage d'image est interdit. Lecture/écriture Boolean. |
 | [EditPointsLocked](../../aspose.slides/ipictureframelock/editpointslocked) { get; set; } | Détermine si la modification directe du contour de cette forme est interdite. Lecture/écriture Boolean. |
 | [GroupingLocked](../../aspose.slides/ipictureframelock/groupinglocked) { get; set; } | Détermine si l'ajout de cette forme à un groupe est interdit. Lecture/écriture Boolean. |

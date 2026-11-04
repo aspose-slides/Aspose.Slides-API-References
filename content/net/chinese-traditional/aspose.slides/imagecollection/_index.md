@@ -3,7 +3,7 @@ title: ImageCollection
 second_title: Aspose.Sildes for .NET API 參考
 description: 表示 PPImage 的集合。
 type: docs
-weight: 7420
+weight: 7440
 url: /zh-hant/aspose.slides/imagecollection/
 ---
 ## ImageCollection 類別
@@ -18,8 +18,8 @@ public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Count](../../aspose.slides/imagecollection/count) { get; } | 傳回集合中圖像的數量。唯讀 Int32。 |
-| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | 傳回一個值，指示是否同步存取集合（執行緒安全）。唯讀 Boolean。 |
+| [Count](../../aspose.slides/imagecollection/count) { get; } | 傳回集合中影像的數量。唯讀 Int32。 |
+| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | 傳回一個值，指示對集合的存取是否已同步（執行緒安全）。唯讀 Boolean。 |
 | [Item](../../aspose.slides/imagecollection/item) { get; } | 取得指定索引處的元素。唯讀 [`IPPImage`](../ippimage)。 |
 | [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | 傳回同步根。唯讀 Object。 |
 
@@ -27,17 +27,17 @@ public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_3)(byte[]) | 從指定的緩衝區將圖像新增至簡報。 |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage)(IImage) | 將圖像新增至簡報。 |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_1)(IPPImage) | 從另一個簡報新增圖像的副本。 |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_2)(ISvgImage) | 從 Svg 物件將圖像新增至簡報。 |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_4)(MemoryStream) | 從串流將圖像新增至簡報。 |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_5)(Stream) | 從串流將圖像新增至簡報。 |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | 從串流建立並將圖像新增至簡報。 |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_3)(byte[]) | 從指定的緩衝區將影像新增至簡報。 |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage)(IImage) | 將影像新增至簡報。 |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_1)(IPPImage) | 從另一個簡報加入影像的副本。 |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_2)(ISvgImage) | 從 Svg 物件將影像新增至簡報。 |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_4)(MemoryStream) | 從串流將影像新增至簡報。 |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_5)(Stream) | 從串流將影像新增至簡報。 |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | 從串流建立並將影像新增至簡報。 |
 | [CopyTo](../../aspose.slides/imagecollection/copyto)(Array, int) | 將集合中的所有元素複製到指定的陣列。 |
-| [GetEnumerator](../../aspose.slides/imagecollection/getenumerator)() | 傳回可遍歷集合的列舉子。 |
+| [GetEnumerator](../../aspose.slides/imagecollection/getenumerator)() | 傳回可遍歷集合的列舉器。 |
 
-### 另請參閱
+### 另見
 
 * 類別 [DomObject&lt;TParent&gt;](../domobject-1)
 * 類別 [Presentation](../presentation)

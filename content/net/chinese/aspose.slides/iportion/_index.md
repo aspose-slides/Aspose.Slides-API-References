@@ -1,14 +1,14 @@
 ---
 title: IPortion
-second_title: Aspose.Sildes .NET API 参考
-description: 表示文本段落中一段文字。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示文本段落中的一段文本。
 type: docs
-weight: 6700
+weight: 6720
 url: /zh/aspose.slides/iportion/
 ---
 ## IPortion 接口
 
-表示文本段落中一段文字。
+Represents a portion of text inside a text paragraph.
 
 ```csharp
 public interface IPortion : ISlideComponent
@@ -18,9 +18,9 @@ public interface IPortion : ISlideComponent
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/iportion/asislidecomponent) { get; } | 允许获取基础 ISlideComponent 接口。只读 [`ISlideComponent`](../islidecomponent)。 |
+| [AsISlideComponent](../../aspose.slides/iportion/asislidecomponent) { get; } | 允许获取基 ISlideComponent 接口。只读 [`ISlideComponent`](../islidecomponent)。 |
 | [Field](../../aspose.slides/iportion/field) { get; } | 返回此部分的字段。只读 [`IField`](../ifield)。 |
-| [PortionFormat](../../aspose.slides/iportion/portionformat) { get; } | 返回格式化对象，该对象包含未应用继承的文本部分显式设置的格式属性。只读 [`IPortionFormat`](../iportionformat)。 |
+| [PortionFormat](../../aspose.slides/iportion/portionformat) { get; } | 返回格式化对象，其中包含对文本部分显式设置的格式属性且未应用继承。只读 [`IPortionFormat`](../iportionformat)。 |
 | [Text](../../aspose.slides/iportion/text) { get; set; } | 获取或设置部分的纯文本。读写 String。 |
 
 ## 方法
@@ -29,8 +29,8 @@ public interface IPortion : ISlideComponent
 | --- | --- |
 | [AddField](../../aspose.slides/iportion/addfield#addfield)(IFieldType) | 将此部分转换为自动更新的字段。 |
 | [AddField](../../aspose.slides/iportion/addfield#addfield_1)(string) | 将此部分转换为自动更新的字段。 |
-| [GetCoordinates](../../aspose.slides/iportion/getcoordinates)() | 获取部分起始位置的坐标。点的 X 坐标表示从第一个字符（包括左侧间距）开始的部分起点。Y 坐标包括顶部间距。 |
-| [GetRect](../../aspose.slides/iportion/getrect)() | 获取限定部分的矩形坐标。该矩形包括部分中的所有文本行，包括空行。 |
+| [GetCoordinates](../../aspose.slides/iportion/getcoordinates)() | 获取部分起始位置的坐标。点的 X 坐标表示从第一个字符开始的部分起始位置（包括左侧间距）。Y 坐标包括顶部间距。 |
+| [GetRect](../../aspose.slides/iportion/getrect)() | 获取边界部分的矩形坐标。该矩形包括部分中的所有文本行，包括空行。 |
 | [RemoveField](../../aspose.slides/iportion/removefield)() | 将此字段部分转换为普通部分。 |
 
 ### 另见

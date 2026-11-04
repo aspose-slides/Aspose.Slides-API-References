@@ -1,14 +1,14 @@
 ---
 title: IAxisFormat
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แทนคุณสมบัติการจัดรูปแบบแผนภูมิ.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: เป็นตัวแทนของคุณสมบัติการจัดรูปแบบแผนภูมิ.
 type: docs
-weight: 1720
+weight: 1730
 url: /th/aspose.slides.charts/iaxisformat/
 ---
 ## IAxisFormat อินเทอร์เฟซ
 
-Represents chart format properties.
+เป็นตัวแทนของคุณสมบัติการจัดรูปแบบแผนภูมิ
 
 ```csharp
 public interface IAxisFormat
@@ -18,9 +18,9 @@ public interface IAxisFormat
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/iaxisformat/effect) { get; } | คืนผลกระทบที่ใช้กับแกน. อ่านอย่างเดียว [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Fill](../../aspose.slides.charts/iaxisformat/fill) { get; } | คืนคุณลักษณะสไตล์การเติมของแกน. อ่านอย่างเดียว [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [Line](../../aspose.slides.charts/iaxisformat/line) { get; } | คืนคุณลักษณะสไตล์เส้นของแกน. อ่านอย่างเดียว [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect](../../aspose.slides.charts/iaxisformat/effect) { get; } | คืนค่าเอฟเฟกต์ที่ใช้สำหรับแกน. อ่านอย่างเดียว [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Fill](../../aspose.slides.charts/iaxisformat/fill) { get; } | คืนค่าคุณสมบัติสไตล์การเติมของแกน. อ่านอย่างเดียว [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Line](../../aspose.slides.charts/iaxisformat/line) { get; } | คืนค่าคุณสมบัติสไตล์เส้นของแกน. อ่านอย่างเดียว [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### ดูเพิ่มเติม
 

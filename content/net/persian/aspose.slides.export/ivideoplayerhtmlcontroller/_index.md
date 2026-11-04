@@ -1,27 +1,27 @@
 ---
 title: IVideoPlayerHtmlController
-second_title: Aspose.Sildes برای .NET – مرجع API
-description: این کلاس امکان استخراج فایل‌های ویدیو و صوتی را به یک HTML فراهم می‌کند
+second_title: مرجع API Aspose.Sildes برای .NET
+description: این کلاس امکان صادر کردن فایل‌های ویدئویی و صوتی به یک HTML را فراهم می‌کند
 type: docs
-weight: 4180
+weight: 4200
 url: /fa/aspose.slides.export/ivideoplayerhtmlcontroller/
 ---
 ## IVideoPlayerHtmlController رابط
 
-این کلاس امکان استخراج فایل‌های ویدیو و صوتی را به یک HTML فراهم می‌کند.
+این کلاس اجازه صادر کردن فایل‌های ویدئویی و صوتی به یک HTML را می‌دهد
 
 ```csharp
 public interface IVideoPlayerHtmlController : IHtmlFormattingController, ILinkEmbedController, 
     ISvgShapeFormattingController
 ```
 
-## خصوصیات
+## خواص
 
 | نام | توضیح |
 | --- | --- |
-| [AsIHtmlFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asihtmlformattingcontroller) { get; } | امکان دریافت رابط IHtmlFormattingController پایه را می‌دهد. فقط‌خواندنی [`IHtmlFormattingController`](../ihtmlformattingcontroller). |
-| [AsILinkEmbedController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asilinkembedcontroller) { get; } | امکان دریافت رابط ILinkEmbedController پایه را می‌دهد. فقط‌خواندنی [`ILinkEmbedController`](../ilinkembedcontroller). |
-| [AsISvgShapeFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asisvgshapeformattingcontroller) { get; } | امکان دریافت رابط ISvgShapeFormattingController پایه را می‌دهد. فقط‌خواندنی [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
+| [AsIHtmlFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asihtmlformattingcontroller) { get; } | اجازه می‌دهد رابط IHtmlFormattingController پایه را دریافت کند. فقط-خواندنی [`IHtmlFormattingController`](../ihtmlformattingcontroller). |
+| [AsILinkEmbedController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asilinkembedcontroller) { get; } | اجازه می‌دهد رابط ILinkEmbedController پایه را دریافت کند. فقط-خواندنی [`ILinkEmbedController`](../ilinkembedcontroller). |
+| [AsISvgShapeFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asisvgshapeformattingcontroller) { get; } | اجازه می‌دهد رابط ISvgShapeFormattingController پایه را دریافت کند. فقط-خواندنی [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
 
 ### موارد مرتبط
 

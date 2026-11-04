@@ -1,14 +1,14 @@
 ---
 title: SplitTextByColumns
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Dzieli zawartość tekstową ITextFrameaspose.slides/itextframe na tablicę łańcuchów znaków, przy czym każdy element odpowiada osobnej kolumnie tekstowej w ramce.
+second_title: Aspose.Sildes dla .NET referencja API
+description: Dzieli zawartość tekstową ITextFrameaspose.slides/itextframe na tablicę łańcuchów znaków, gdzie każdy element odpowiada osobnej kolumnie tekstowej w ramce.
 type: docs
-weight: 140
+weight: 150
 url: /pl/aspose.slides/textframe/splittextbycolumns/
 ---
 ## TextFrame.SplitTextByColumns metoda
 
-Dzieli zawartość tekstową [`ITextFrame`](../../itextframe) na tablicę łańcuchów znaków, przy czym każdy element odpowiada osobnej kolumnie tekstowej w ramce.
+Dzieli zawartość tekstową [`ITextFrame`](../../itextframe) na tablicę łańcuchów znaków, gdzie każdy element odpowiada osobnej kolumnie tekstowej w ramce.
 
 ```csharp
 public string[] SplitTextByColumns()
@@ -16,9 +16,9 @@ public string[] SplitTextByColumns()
 
 ### Wartość zwracana
 
-Tablica łańcuchów znaków, przy czym każdy łańcuch reprezentuje zawartość tekstową określonej kolumny w [`ITextFrame`](../../itextframe).
+Tablica łańcuchów znaków, gdzie każdy łańcuch reprezentuje zawartość tekstową konkretnej kolumny w [`ITextFrame`](../../itextframe).
 
-### Uwaga
+### Uwagi
 
 Jeśli ramka tekstowa nie zawiera wielu kolumn, zwrócona tablica będzie miała pojedynczy element zawierający cały tekst. Puste kolumny będą reprezentowane jako puste łańcuchy znaków w tablicy.
 

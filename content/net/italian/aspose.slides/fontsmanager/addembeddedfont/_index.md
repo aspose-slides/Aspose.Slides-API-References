@@ -1,14 +1,14 @@
 ---
 title: AddEmbeddedFont
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Aggiunge il font incorporato. Tieni presente che, copiando qualsiasi font, la maggior parte dei font è protetta da copyright. Prima individua la licenza di un font in anticipo e verifica che possa essere trasferita liberamente su un'altra macchina. Un'ArgumentException può essere generata se i dati del font sono null o se questo font è già incorporato.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Aggiunge il font incorporato. Tieni presente che la maggior parte dei font è coperta da copyright quando ne copi. Individua prima la licenza di un font e verifica che possa essere trasferita liberamente su un'altra macchina. Un'ArgumentException può essere generata se i dati del font sono null o se questo font è già incorporato
 type: docs
-weight: 30
+weight: 40
 url: /it/aspose.slides/fontsmanager/addembeddedfont/
 ---
 ## AddEmbeddedFont(IFontData, EmbedFontCharacters) {#addembeddedfont}
 
-Aggiunge il font incorporato. Tieni presente che, copiando qualsiasi font, la maggior parte dei font è protetta da copyright. Prima individua la licenza di un font in anticipo e verifica che possa essere trasferita liberamente su un'altra macchina. Un`ArgumentException` può essere generata se i dati del font sono null o se questo font è già incorporato.
+Aggiunge il font incorporato Tieni presente quando copi qualsiasi font che la maggior parte dei font è coperta da copyright. Prima individua la licenza di un font in anticipo e verifica che possa essere trasferita liberamente su un'altra macchina. Un'ArgumentException può essere generata se i dati del font sono null o se questo font è già incorporato
 
 ```csharp
 public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRule)
@@ -17,7 +17,7 @@ public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRul
 ### Vedi anche
 
 * interfaccia [IFontData](../../ifontdata)
-* enumerazione [EmbedFontCharacters](../../../aspose.slides.export/embedfontcharacters)
+* enum [EmbedFontCharacters](../../../aspose.slides.export/embedfontcharacters)
 * classe [FontsManager](../../fontsmanager)
 * spazio dei nomi [Aspose.Slides](../../fontsmanager)
 * assembly [Aspose.Slides](../../../)
@@ -26,7 +26,7 @@ public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRul
 
 ## AddEmbeddedFont(byte[], EmbedFontCharacters) {#addembeddedfont_1}
 
-Aggiunge il font incorporato. Tieni presente che, copiando qualsiasi font, la maggior parte dei font è protetta da copyright. Prima individua la licenza di un font in anticipo e verifica che possa essere trasferita liberamente su un'altra macchina. Un`ArgumentException` può essere generata se i dati del font sono null o se questo font è già incorporato.
+Aggiunge il font incorporato Tieni presente quando copi qualsiasi font che la maggior parte dei font è coperta da copyright. Prima individua la licenza di un font in anticipo e verifica che possa essere trasferita liberamente su un'altra macchina. Un'ArgumentException può essere generata se i dati del font sono null o se questo font è già incorporato
 
 ```csharp
 public void AddEmbeddedFont(byte[] fontData, EmbedFontCharacters embedFontRule)
@@ -34,7 +34,7 @@ public void AddEmbeddedFont(byte[] fontData, EmbedFontCharacters embedFontRule)
 
 ### Vedi anche
 
-* enumerazione [EmbedFontCharacters](../../../aspose.slides.export/embedfontcharacters)
+* enum [EmbedFontCharacters](../../../aspose.slides.export/embedfontcharacters)
 * classe [FontsManager](../../fontsmanager)
 * spazio dei nomi [Aspose.Slides](../../fontsmanager)
 * assembly [Aspose.Slides](../../../)

@@ -1,9 +1,9 @@
 ---
 title: IMathPortion
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili bagian dengan konteks matematika di dalamnya.
 type: docs
-weight: 8420
+weight: 8440
 url: /id/aspose.slides.mathtext/imathportion/
 ---
 ## IMathPortion antarmuka

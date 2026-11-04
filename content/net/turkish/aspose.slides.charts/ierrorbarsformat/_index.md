@@ -1,14 +1,14 @@
 ---
 title: IErrorBarsFormat
-second_title: Aspose.Sildes için .NET API Referansı
-description: Grafik serisinin hata çubuklarını temsil eder. ErrorBars özel değerleri ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues özelliğindeki IChartDataPointCollection içinde bulunur.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Grafik serisinin hata çubuklarını temsil eder. ErrorBars özelleştirilmiş değerler, ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues özelliğindeki IChartDataPointCollection içinde bulunur.
 type: docs
-weight: 2090
+weight: 2110
 url: /tr/aspose.slides.charts/ierrorbarsformat/
 ---
 ## IErrorBarsFormat arayüz
 
-Grafik serisinin hata çubuklarını temsil eder. ErrorBars özel değerleri IChartDataPointCollection içinde bulunur ([`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) özelliğinde).
+Grafik serisinin hata çubuklarını temsil eder. ErrorBars özelleştirilmiş değerleri IChartDataPointCollection içinde bulunur ([`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) özelliğinde).
 
 ```csharp
 public interface IErrorBarsFormat : IChartComponent
@@ -18,13 +18,13 @@ public interface IErrorBarsFormat : IChartComponent
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/ierrorbarsformat/asichartcomponent) { get; } | IChartComponent arayüzünü döndürür. Salt okunur [`IChartComponent`](../ichartcomponent). |
-| [Format](../../aspose.slides.charts/ierrorbarsformat/format) { get; set; } | Hata çubuklarının biçimini temsil eder. Okunur/yazılabilir [`IFormat`](../iformat). |
-| [HasEndCap](../../aspose.slides.charts/ierrorbarsformat/hasendcap) { get; set; } | Hata çubuklarında bir uç kapağı çizilmemesini belirtir. Okunur/yazılabilir Boolean. |
-| [IsVisible](../../aspose.slides.charts/ierrorbarsformat/isvisible) { get; set; } | Hata Çubukları görünürlüğünü alır veya ayarlar. Okunur/yazılabilir Boolean. |
-| [Type](../../aspose.slides.charts/ierrorbarsformat/type) { get; set; } | Hata çubukları tipini alır veya ayarlar. Okunur/yazılabilir [`ErrorBarType`](../errorbartype). |
-| [Value](../../aspose.slides.charts/ierrorbarsformat/value) { get; set; } | Hata çubuklarının uzunluğunu belirlemek için Fixed, Percentage ve StandardDeviation değer tipleriyle kullanılan değeri alır veya ayarlar. Okunur/yazılabilir Single. |
-| [ValueType](../../aspose.slides.charts/ierrorbarsformat/valuetype) { get; set; } | Hata çubuklarının uzunluğunu belirlemenin olası yollarını temsil eder. Özel değer tipi durumunda, değeri belirtmek için serinin DataPoints koleksiyonundaki belirli veri noktasının [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) özelliğini kullanın. Okunur/yazılabilir [`ErrorBarValueType`](../errorbarvaluetype). |
+| [AsIChartComponent](../../aspose.slides.charts/ierrorbarsformat/asichartcomponent) { get; } | IChartComponent arayüzünü döndürür. Yalnızca okuma [`IChartComponent`](../ichartcomponent). |
+| [Format](../../aspose.slides.charts/ierrorbarsformat/format) { get; set; } | Hata çubuklarının biçimini temsil eder. Okuma/yazma [`IFormat`](../iformat). |
+| [HasEndCap](../../aspose.slides.charts/ierrorbarsformat/hasendcap) { get; set; } | Hata çubukları üzerinde uç kapağı çizilmemesini belirtir. Okuma/yazma Boolean. |
+| [IsVisible](../../aspose.slides.charts/ierrorbarsformat/isvisible) { get; set; } | Error Bars görünürlüğünü alır veya ayarlar. Okuma/yazma Boolean. |
+| [Type](../../aspose.slides.charts/ierrorbarsformat/type) { get; set; } | Error bars tipini alır veya ayarlar. Okuma/yazma [`ErrorBarType`](../errorbartype). |
+| [Value](../../aspose.slides.charts/ierrorbarsformat/value) { get; set; } | Error bars uzunluğunu belirlemek için Fixed, Percentage ve StandardDeviation değer tipleriyle kullanılan değeri alır veya ayarlar. Okuma/yazma Single. |
+| [ValueType](../../aspose.slides.charts/ierrorbarsformat/valuetype) { get; set; } | Error bars uzunluğunu belirlemek için olası yolları temsil eder. Özelleştirilmiş değer tipinde değeri belirtmek için serinin DataPoints koleksiyonundaki belirli veri noktasının [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) özelliğini kullanın. Okuma/yazma [`ErrorBarValueType`](../errorbarvaluetype). |
 
 ### Ayrıca Bakınız
 

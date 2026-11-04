@@ -1,14 +1,14 @@
 ---
 title: FrameTickEventArgs
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงอาร์กิวเมนต์ของเหตุการณ์ FrameTick./presentationplayer/frametick.
+description: เป็นตัวแทนของอาร์กิวเมนต์ของเหตุการณ์ FrameTick./presentationplayer/frametick
 type: docs
-weight: 3810
+weight: 3830
 url: /th/aspose.slides.export/frametickeventargs/
 ---
-## FrameTickEventArgs คลาส
+## คลาส FrameTickEventArgs
 
-แสดงอาร์กิวเมนต์ของเหตุการณ์ [`FrameTick`](../presentationplayer/frametick).
+เป็นตัวแทนของอาร์กิวเมนต์ของเหตุการณ์ [`FrameTick`](../presentationplayer/frametick).
 
 ```csharp
 public class FrameTickEventArgs
@@ -18,13 +18,13 @@ public class FrameTickEventArgs
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Player](../../aspose.slides.export/frametickeventargs/player) { get; } | ดึงตัวเล่นงานนำเสนอ |
+| [Player](../../aspose.slides.export/frametickeventargs/player) { get; } | รับผู้เล่นการนำเสนอ |
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GetFrame](../../aspose.slides.export/frametickeventargs/getframe)() | ดึงเฟรม [`PresentationPlayer`](../presentationplayer) ปัจจุบัน. |
+| [GetFrame](../../aspose.slides.export/frametickeventargs/getframe)() | รับเฟรม [`PresentationPlayer`](../presentationplayer) ปัจจุบัน |
 
 ### ตัวอย่าง
 

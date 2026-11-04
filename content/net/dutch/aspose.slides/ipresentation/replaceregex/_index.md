@@ -1,14 +1,14 @@
 ---
 title: ReplaceRegex
-second_title: Aspose.Sildes voor .NET API Referentie
-description: Vervangt alle overeenkomsten van de reguliere expressie door de opgegeven string.
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Vervangt alle overeenkomsten van de reguliere expressie door de opgegeven tekenreeks.
 type: docs
-weight: 360
+weight: 370
 url: /nl/aspose.slides/ipresentation/replaceregex/
 ---
 ## IPresentation.ReplaceRegex methode
 
-Vervangt alle overeenkomsten van de reguliere expressie door de opgegeven string.
+Vervangt alle overeenkomsten van de reguliere expressie door de opgegeven tekenreeks.
 
 ```csharp
 public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callback)
@@ -16,13 +16,13 @@ public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callba
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| regex | Regex | De reguliere expressie Regex om de te vervangen strings te verkrijgen. |
-| newText | String | De string om alle voorkomens van de te vervangen strings te vervangen. |
+| regex | Regex | De reguliere expressie Regex om de te vervangen tekenreeksen te verkrijgen. |
+| newText | String | De tekenreeks om alle voorkomens van de te vervangen tekenreeksen te vervangen. |
 | callback | IFindResultCallback | Het callback-object voor het ontvangen van zoekresultaten [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Voorbeelden
 
-De volgende code-voorbeeld laat zien hoe tekst te vervangen met een reguliere expressie en de opgegeven string.
+De volgende code-voorbeeld laat zien hoe tekst te vervangen met een reguliere expressie en de opgegeven tekenreeks.
 
 ```csharp
 [C#]

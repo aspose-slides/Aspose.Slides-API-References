@@ -3,7 +3,7 @@ title: IActualLayout
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Gibt die tatsächliche Position eines Diagrammelements an.
 type: docs
-weight: 1690
+weight: 1700
 url: /de/aspose.slides.charts/iactuallayout/
 ---
 ## IActualLayout Schnittstelle
@@ -18,10 +18,10 @@ public interface IActualLayout
 
 | Name | Beschreibung |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/iactuallayout/actualheight) { get; } | Gibt die tatsächliche Höhe des Diagrammelements an. Rufen Sie die Methode IChart.ValidateChartLayout() auf, bevor Sie die tatsächlichen Werte abrufen. Lese Single. |
-| [ActualWidth](../../aspose.slides.charts/iactuallayout/actualwidth) { get; } | Gibt die tatsächliche Breite des Diagrammelements an. Rufen Sie die Methode IChart.ValidateChartLayout() auf, bevor Sie die tatsächlichen Werte abrufen. Lese Single. |
-| [ActualX](../../aspose.slides.charts/iactuallayout/actualx) { get; } | Gibt die tatsächliche x-Position (links) des Diagrammelements relativ zur linken oberen Ecke des Diagramms an. Rufen Sie die Methode IChart.ValidateChartLayout() auf, bevor Sie die tatsächlichen Werte abrufen. Lese Single. |
-| [ActualY](../../aspose.slides.charts/iactuallayout/actualy) { get; } | Gibt die tatsächliche obere Position des Diagrammelements relativ zur linken oberen Ecke des Diagramms an. Rufen Sie die Methode IChart.ValidateChartLayout() auf, bevor Sie die tatsächlichen Werte abrufen. Lese Single. |
+| [ActualHeight](../../aspose.slides.charts/iactuallayout/actualheight) { get; } | Gibt die tatsächliche Höhe des Diagrammelements an. Rufen Sie die Methode IChart.ValidateChartLayout() auf, bevor Sie die tatsächlichen Werte erhalten. Liest Single. |
+| [ActualWidth](../../aspose.slides.charts/iactuallayout/actualwidth) { get; } | Gibt die tatsächliche Breite des Diagrammelements an. Rufen Sie die Methode IChart.ValidateChartLayout() auf, bevor Sie die tatsächlichen Werte erhalten. Liest Single. |
+| [ActualX](../../aspose.slides.charts/iactuallayout/actualx) { get; } | Gibt die tatsächliche x-Position (links) des Diagrammelements relativ zur linken oberen Ecke des Diagramms an. Rufen Sie die Methode IChart.ValidateChartLayout() auf, bevor Sie die tatsächlichen Werte erhalten. Liest Single. |
+| [ActualY](../../aspose.slides.charts/iactuallayout/actualy) { get; } | Gibt die tatsächliche Oberseite des Diagrammelements relativ zur linken oberen Ecke des Diagramms an. Rufen Sie die Methode IChart.ValidateChartLayout() auf, bevor Sie die tatsächlichen Werte erhalten. Liest Single. |
 
 ### Siehe auch
 

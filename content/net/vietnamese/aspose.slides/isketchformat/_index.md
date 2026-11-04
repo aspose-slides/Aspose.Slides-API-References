@@ -3,7 +3,7 @@ title: ISketchFormat
 second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Đại diện cho các thuộc tính của định dạng phác thảo đường nét.
 type: docs
-weight: 7020
+weight: 7040
 url: /vi/aspose.slides/isketchformat/
 ---
 ## ISketchFormat giao diện
@@ -18,7 +18,7 @@ public interface ISketchFormat
 
 | Tên | Mô tả |
 | --- | --- |
-| [SketchType](../../aspose.slides/isketchformat/sketchtype) { get; set; } | Trả về hoặc thiết lập kiểu phác thảo. Đọc/ghi [`LineSketchType`](../linesketchtype). |
+| [SketchType](../../aspose.slides/isketchformat/sketchtype) { get; set; } | Trả về hoặc đặt kiểu phác thảo. Đọc/ghi [`LineSketchType`](../linesketchtype). |
 
 ### Xem thêm
 

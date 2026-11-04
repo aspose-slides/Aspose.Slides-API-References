@@ -1,14 +1,14 @@
 ---
 title: IDataLabel
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Biểu diễn các nhãn của chuỗi.
+second_title: Aspose.Sildes cho .NET Tham khảo API
+description: Mô tả các nhãn của chuỗi.
 type: docs
-weight: 2020
+weight: 2040
 url: /vi/aspose.slides.charts/idatalabel/
 ---
 ## IDataLabel giao diện
 
-Biểu diễn các nhãn của chuỗi.
+Mô tả các nhãn của chuỗi.
 
 ```csharp
 public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
@@ -22,15 +22,16 @@ public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
 | [AsILayoutable](../../aspose.slides.charts/idatalabel/asilayoutable) { get; } | Trả về giao diện ILayoutable. Chỉ đọc [`ILayoutable`](../ilayoutable). |
 | [AsIOverridableText](../../aspose.slides.charts/idatalabel/asioverridabletext) { get; } | Trả về giao diện IOverridableText. Chỉ đọc [`IOverridableText`](../ioverridabletext). |
 | [DataLabelFormat](../../aspose.slides.charts/idatalabel/datalabelformat) { get; } | Trả về định dạng của nhãn dữ liệu. Chỉ đọc [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | False có nghĩa là nhãn dữ liệu không hiển thị (và do đó tất cả các cờ Show*- (ShowValue, ...) đều là false). Chỉ đọc Boolean. |
-| [ValueFromCell](../../aspose.slides.charts/idatalabel/valuefromcell) { get; set; } | Lấy hoặc đặt ô dữ liệu workbook. Được áp dụng nếu thuộc tính IDataLabelFormat.ShowLabelValueFromCell bằng true. |
+| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | False có nghĩa là nhãn dữ liệu không hiển thị (và do đó tất cả các cờ Show*-flags (ShowValue, ...) đều là false). Boolean chỉ đọc. |
+| [LabelShapeType](../../aspose.slides.charts/idatalabel/labelshapetype) { get; set; } | Lấy hoặc đặt loại hình dạng của nhãn dữ liệu. Trả về NotDefined nếu không có hình dạng nào được xác định. |
+| [ValueFromCell](../../aspose.slides.charts/idatalabel/valuefromcell) { get; set; } | Lấy hoặc đặt ô dữ liệu của workbook. Được áp dụng nếu thuộc tính IDataLabelFormat.ShowLabelValueFromCell bằng true. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [GetActualLabelText](../../aspose.slides.charts/idatalabel/getactuallabeltext)() | Trả về văn bản nhãn thực dựa trên cài đặt DataLabelFormat hoặc giá trị TextFrameForOverriding.Text. |
-| [Hide](../../aspose.slides.charts/idatalabel/hide)() | Ẩn nhãn dữ liệu bằng cách đặt tất cả các cờ Show*- (ShowValue, ...) thành trạng thái false. IsVisible sẽ là false sau khi thực hiện. |
+| [GetActualLabelText](../../aspose.slides.charts/idatalabel/getactuallabeltext)() | Trả về văn bản nhãn thực tế dựa trên cài đặt DataLabelFormat hoặc giá trị TextFrameForOverriding.Text. |
+| [Hide](../../aspose.slides.charts/idatalabel/hide)() | Ẩn nhãn dữ liệu bằng cách đặt tất cả các cờ Show*-flags (ShowValue, ...) về trạng thái false. IsVisible sẽ là false sau khi thực hiện. |
 
 ### Xem thêm
 

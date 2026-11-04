@@ -1,14 +1,14 @@
 ---
 title: IImageCollection
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa una colección de PPImage.
+description: Representa la colección de PPImage.
 type: docs
-weight: 6160
+weight: 6180
 url: /es/aspose.slides/iimagecollection/
 ---
 ## IImageCollection interfaz
 
-Representa una colección de PPImage.
+Representa la colección de PPImage.
 
 ```csharp
 public interface IImageCollection : IGenericCollection<IPPImage>
@@ -16,15 +16,15 @@ public interface IImageCollection : IGenericCollection<IPPImage>
 
 ## Propiedades
 
-| Name | Description |
+| Nombre | Descripción |
 | --- | --- |
 | [Item](../../aspose.slides/iimagecollection/item) { get; } | Devuelve la imagen por su índice. |
 
 ## Métodos
 
-| Name | Description |
+| Nombre | Descripción |
 | --- | --- |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_3)(byte[]) | Agrega una imagen a una presentación desde el búfer especificado. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_3)(byte[]) | Agrega una imagen a una presentación desde un búfer especificado. |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage)(IImage) | Agrega una imagen a una presentación. |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_1)(IPPImage) | Agrega una copia de una imagen de otra presentación. |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_2)(ISvgImage) | Agrega una imagen a una presentación desde un objeto SVG. |

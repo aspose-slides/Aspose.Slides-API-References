@@ -3,7 +3,7 @@ title: ICommentAuthorCollection
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Sammlung von Kommentarautoren dar.
 type: docs
-weight: 5580
+weight: 5600
 url: /de/aspose.slides/icommentauthorcollection/
 ---
 ## ICommentAuthorCollection Schnittstelle
@@ -18,7 +18,7 @@ public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Item](../../aspose.slides/icommentauthorcollection/item) { get; } | Ruft das Element am angegebenen Index ab. Nur lesend [`ICommentAuthor`](../icommentauthor). |
+| [Item](../../aspose.slides/icommentauthorcollection/item) { get; } | Ruft das Element am angegebenen Index ab. Nur lesbar [`ICommentAuthor`](../icommentauthor). |
 
 ## Methoden
 
@@ -27,7 +27,7 @@ public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
 | [AddAuthor](../../aspose.slides/icommentauthorcollection/addauthor)(string, string) | Fügt einen neuen Autor am Ende einer Sammlung hinzu. |
 | [Clear](../../aspose.slides/icommentauthorcollection/clear)() | Entfernt alle Autoren aus einer Sammlung. |
 | [FindByName](../../aspose.slides/icommentauthorcollection/findbyname)(string) | Findet einen Autor in einer Sammlung anhand des Namens. |
-| [FindByNameAndInitials](../../aspose.slides/icommentauthorcollection/findbynameandinitials)(string, string) | Findet einen Autor in einer Sammlung anhand von Namen und Initialen. |
+| [FindByNameAndInitials](../../aspose.slides/icommentauthorcollection/findbynameandinitials)(string, string) | Findet einen Autor in einer Sammlung anhand von Name und Initialen. |
 | [Remove](../../aspose.slides/icommentauthorcollection/remove)(ICommentAuthor) | Entfernt das erste Vorkommen des angegebenen Autors aus einer Sammlung. |
 | [RemoveAt](../../aspose.slides/icommentauthorcollection/removeat)(int) | Entfernt den Autor am angegebenen Index der Sammlung. |
 | [ToArray](../../aspose.slides/icommentauthorcollection/toarray)() | Erstellt und gibt ein Array mit allen Autoren zurück. |

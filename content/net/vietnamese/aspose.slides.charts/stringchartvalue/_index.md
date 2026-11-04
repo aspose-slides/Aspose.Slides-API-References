@@ -1,14 +1,14 @@
 ---
 title: StringChartValue
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: "Biểu diễn giá trị chuỗi có thể được lưu trữ trong tài liệu trình chiếu pptx theo hai cách: 1) trong ô/ô của workbook liên quan đến biểu đồ; 2) dưới dạng giá trị nguyên thủy."
+description: Biểu diễn giá trị chuỗi có thể được lưu trong tài liệu trình chiếu pptx theo hai cách: 1) trong ô/ô của workbook liên quan đến biểu đồ; 2) dưới dạng giá trị literal.
 type: docs
-weight: 2410
+weight: 2430
 url: /vi/aspose.slides.charts/stringchartvalue/
 ---
-## Lớp StringChartValue
+## StringChartValue lớp
 
-Biểu diễn giá trị chuỗi có thể được lưu trữ trong tài liệu trình chiếu pptx theo hai cách: 1) trong ô/ô của workbook liên quan đến biểu đồ; 2) dưới dạng giá trị nguyên thủy.
+Biểu diễn giá trị chuỗi có thể được lưu trong tài liệu trình chiếu pptx theo hai cách: 1) trong ô/ô của workbook liên quan tới biểu đồ; 2) dưới dạng giá trị literal.
 
 ```csharp
 public class StringChartValue : BaseChartValue, IStringChartValue
@@ -18,17 +18,17 @@ public class StringChartValue : BaseChartValue, IStringChartValue
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | Không cho phép gán giá trị null. Giá trị trả về luôn không null. Đọc/ghi [`IChartCellCollection`](../ichartcellcollection). |
-| [AsLiteralString](../../aspose.slides.charts/stringchartvalue/asliteralstring) { get; set; } | Trả về hoặc đặt giá trị dưới dạng chuỗi nguyên thủy. Đọc/ghi String. |
-| override [Data](../../aspose.slides.charts/stringchartvalue/data) { get; set; } | Trả về hoặc đặt đối tượng Data. Đọc/ghi Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Xác định xem thuộc tính AsCell, AsCells, AsLiteralString hoặc AsLiteralDouble có thực tế trong các lớp con hay không. Nói cách khác, nó xác định loại giá trị của thuộc tính Data. Đọc/ghi [`DataSourceType`](../datasourcetype). |
+| [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | Không cho phép gán giá trị null. Giá trị trả về luôn không phải null. Đọc/ghi [`IChartCellCollection`](../ichartcellcollection). |
+| [AsLiteralString](../../aspose.slides.charts/stringchartvalue/asliteralstring) { get; set; } | Trả về hoặc gán giá trị dưới dạng chuỗi literal. Đọc/ghi String. |
+| override [Data](../../aspose.slides.charts/stringchartvalue/data) { get; set; } | Trả về hoặc gán đối tượng Data. Đọc/ghi Object. |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Xác định xem thuộc tính AsCell, AsCells, AsLiteralString hoặc AsLiteralDouble có thực tế trong các lớp con hay không. Nói cách khác, nó xác định kiểu giá trị của thuộc tính Data. Đọc/ghi [`DataSourceType`](../datasourcetype). |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
 | [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | Nếu thuộc tính DataSourceType là DataSourceType.Worksheet thì phương thức này trả về địa chỉ của các ô trong workbook đại diện cho dữ liệu chuỗi. Nếu không, trả về chuỗi rỗng. |
-| [SetFromOneCell](../../aspose.slides.charts/stringchartvalue/setfromonecell)(IChartDataCell) | Đặt giá trị từ ô được chỉ định. |
+| [SetFromOneCell](../../aspose.slides.charts/stringchartvalue/setfromonecell)(IChartDataCell) | Gán giá trị từ ô được chỉ định. |
 | override [ToString](../../aspose.slides.charts/stringchartvalue/tostring)() | Trả về dữ liệu giá trị chuỗi. Trả về null nếu DataSourceType là false và không có giá trị chuỗi nào được gán. |
 
 ### Xem thêm

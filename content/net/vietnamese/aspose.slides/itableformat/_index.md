@@ -1,14 +1,14 @@
 ---
 title: ITableFormat
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Mô tả định dạng của một bảng.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đại diện cho định dạng của một bảng.
 type: docs
-weight: 7240
+weight: 7260
 url: /vi/aspose.slides/itableformat/
 ---
 ## ITableFormat giao diện
 
-Mô tả định dạng của một bảng.
+Đại diện cho định dạng của một bảng.
 
 ```csharp
 public interface ITableFormat
@@ -18,14 +18,14 @@ public interface ITableFormat
 
 | Tên | Mô tả |
 | --- | --- |
-| [FillFormat](../../aspose.slides/itableformat/fillformat) { get; } | Trả về một đối tượng thuộc tính màu nền của bảng. Chỉ đọc [`IFillFormat`](../ifillformat). |
-| [Transparency](../../aspose.slides/itableformat/transparency) { get; set; } | Lấy hoặc đặt độ trong suốt của màu nền. Đọc/ghi Single. |
+| [FillFormat](../../aspose.slides/itableformat/fillformat) { get; } | Trả về một đối tượng thuộc tính tô màu bảng. Chỉ đọc [`IFillFormat`](../ifillformat). |
+| [Transparency](../../aspose.slides/itableformat/transparency) { get; set; } | Lấy hoặc đặt độ trong suốt của màu tô. Đọc/ghi Single. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [GetEffective](../../aspose.slides/itableformat/geteffective)() | Lấy các thuộc tính định dạng bảng thực tế với kế thừa và các kiểu bảng đã áp dụng. |
+| [GetEffective](../../aspose.slides/itableformat/geteffective)() | Lấy các thuộc tính định dạng bảng hiệu quả với kế thừa và các kiểu bảng đã áp dụng. |
 
 ### Xem thêm
 

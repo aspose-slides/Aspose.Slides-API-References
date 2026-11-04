@@ -3,10 +3,9 @@ title: VideoCollection
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en samling av Video-objekt.
 type: docs
-weight: 11710
+weight: 11730
 url: /sv/aspose.slides/videocollection/
 ---
-
 ## VideoCollection klass
 
 Representerar en samling av Video-objekt.
@@ -19,22 +18,22 @@ public class VideoCollection : DomObject<Presentation>, IVideoCollection
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Count](../../aspose.slides/videocollection/count) { get; } | Returnerar antalet videofiler i samlingen. Skrivskyddad Int32. |
-| [IsSynchronized](../../aspose.slides/videocollection/issynchronized) { get; } | Returnerar ett värde som indikerar om åtkomst till samlingen är synkroniserad (trådsäker). Skrivskyddad Boolean. |
-| [Item](../../aspose.slides/videocollection/item) { get; } | Hämtar elementet på angivet index. Skrivskyddad [`IVideo`](../ivideo). |
-| [SyncRoot](../../aspose.slides/videocollection/syncroot) { get; } | Returnerar ett synkroniseringsrot. Skrivskyddad Object. |
+| [Count](../../aspose.slides/videocollection/count) { get; } | Returnerar antalet videofiler i samlingen. Read-only Int32. |
+| [IsSynchronized](../../aspose.slides/videocollection/issynchronized) { get; } | Returnerar ett värde som indikerar om åtkomst till samlingen är synkroniserad (thread-safe). Read-only Boolean. |
+| [Item](../../aspose.slides/videocollection/item) { get; } | Hämtar elementet på det angivna indexet. Read-only [`IVideo`](../ivideo). |
+| [SyncRoot](../../aspose.slides/videocollection/syncroot) { get; } | Returnerar ett synkroniseringsrot. Read-only Object. |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_1)(byte[]) | Skapar och lägger till en video i en presentation från en bytearray. |
+| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_1)(byte[]) | Skapar och lägger till en video i en presentation från en byte-array. |
 | [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo)(IVideo) | Lägger till en kopia av en videofil från en annan presentation. |
 | [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | Skapar och lägger till en video i en presentation från en ström. |
-| [CopyTo](../../aspose.slides/videocollection/copyto)(Array, int) | Kopierar videor till specificerad array med start från angivet index. |
+| [CopyTo](../../aspose.slides/videocollection/copyto)(Array, int) | Kopierar videor till angiven array med start från angivet index. |
 | [GetEnumerator](../../aspose.slides/videocollection/getenumerator)() | Returnerar en enumerator som itererar genom samlingen. |
 
-### Se även
+### Se också
 
 * klass [DomObject&lt;TParent&gt;](../domobject-1)
 * klass [Presentation](../presentation)

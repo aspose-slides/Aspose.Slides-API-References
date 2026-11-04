@@ -1,14 +1,14 @@
 ---
 title: IRowFormatEffectiveData
-second_title: Referencia de API Aspose.Sildes para .NET
-description: Objeto inmutable que contiene las propiedades de formato efectivo de la fila de tabla.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Objeto inmutable que contiene las propiedades de formato de fila de tabla efectivas.
 type: docs
-weight: 6880
+weight: 6900
 url: /es/aspose.slides/irowformateffectivedata/
 ---
 ## IRowFormatEffectiveData interfaz
 
-Objeto inmutable que contiene las propiedades de formato efectivo de la fila de tabla.
+Objeto inmutable que contiene las propiedades de formato de fila de tabla efectivas.
 
 ```csharp
 public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -22,9 +22,9 @@ public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData
 
 ### Observaciones
 
-Esta interfaz se usa junto con la interfaz [`IRowFormat`](../irowformat) para devolver valores de formato efectivo con herencia y estilos de tabla aplicados.
+Esta interfaz se usa junto con la interfaz [`IRowFormat`](../irowformat) para devolver los valores de formato efectivos con herencia y estilos de tabla aplicados.
 
-### Ver también
+### Véase también
 
 * interfaz [IBaseTableFormatEffectiveData](../ibasetableformateffectivedata)
 * espacio de nombres [Aspose.Slides](../../aspose.slides)

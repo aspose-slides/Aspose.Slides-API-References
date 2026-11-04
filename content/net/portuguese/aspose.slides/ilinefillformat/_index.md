@@ -1,14 +1,14 @@
 ---
 title: ILineFillFormat
-second_title: Aspose.Sildes para .NET Referência de API
-description: Representa propriedades para preenchimento de linhas.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Representa propriedades de preenchimento de linhas.
 type: docs
-weight: 6290
+weight: 6310
 url: /pt/aspose.slides/ilinefillformat/
 ---
 ## ILineFillFormat interface
 
-Representa propriedades para preenchimento de linhas.
+Representa propriedades de preenchimento de linhas.
 
 ```csharp
 public interface ILineFillFormat : IFillParamSource
@@ -19,13 +19,13 @@ public interface ILineFillFormat : IFillParamSource
 | Nome | Descrição |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ilinefillformat/asifillparamsource) { get; } | Permite obter a interface base IFillParamSource. Somente leitura [`IFillParamSource`](../ifillparamsource). |
-| [FillType](../../aspose.slides/ilinefillformat/filltype) { get; set; } | Retorna ou define o tipo de preenchimento. Leitura/Gravação [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/ilinefillformat/gradientformat) { get; } | Retorna o formato de preenchimento em degradê. Somente leitura [`IGradientFormat`](../igradientformat). |
-| [PatternFormat](../../aspose.slides/ilinefillformat/patternformat) { get; } | Retorna o formato de preenchimento de padrão. Somente leitura [`IPatternFormat`](../ipatternformat). |
-| [RotateWithShape](../../aspose.slides/ilinefillformat/rotatewithshape) { get; set; } | Determina se o preenchimento deve ser rotacionado com uma forma. Leitura/Gravação [`NullableBool`](../nullablebool). |
+| [FillType](../../aspose.slides/ilinefillformat/filltype) { get; set; } | Retorna ou define o tipo de preenchimento. Leitura/gravação [`FillType`](../filltype). |
+| [GradientFormat](../../aspose.slides/ilinefillformat/gradientformat) { get; } | Retorna o formato de preenchimento gradiente. Somente leitura [`IGradientFormat`](../igradientformat). |
+| [PatternFormat](../../aspose.slides/ilinefillformat/patternformat) { get; } | Retorna o formato de preenchimento em padrão. Somente leitura [`IPatternFormat`](../ipatternformat). |
+| [RotateWithShape](../../aspose.slides/ilinefillformat/rotatewithshape) { get; set; } | Determina se o preenchimento deve ser rotacionado com uma forma. Leitura/gravação [`NullableBool`](../nullablebool). |
 | [SolidFillColor](../../aspose.slides/ilinefillformat/solidfillcolor) { get; } | Retorna a cor de um preenchimento sólido. Somente leitura [`IColorFormat`](../icolorformat). |
 
-### Veja Também
+### Veja também
 
 * interface [IFillParamSource](../ifillparamsource)
 * namespace [Aspose.Slides](../../aspose.slides)

@@ -1,14 +1,14 @@
 ---
 title: IMathElement
 second_title: Aspose.Sildes для .NET справочник API
-description: "Базовый интерфейс любого математического элемента: дроби, математического текста, функции, выражения с несколькими элементами и т.д."
+description: Базовый интерфейс любого математического элемента: дроби, математический текст, функция, выражение с несколькими элементами и т.д.
 type: docs
-weight: 8230
+weight: 8250
 url: /ru/aspose.slides.mathtext/imathelement/
 ---
 ## IMathElement интерфейс
 
-Базовый интерфейс любого математического элемента: дробь, математический текст, функция, выражение с несколькими элементами и т.д.
+Base interface of any mathematical element: fraction, mathmatical text, function, expression with multiple elements etc
 
 ```csharp
 public interface IMathElement
@@ -16,54 +16,54 @@ public interface IMathElement
 
 ## Методы
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
-| [Accent](../../aspose.slides.mathtext/imathelement/accent)(char) | Устанавливает знак акцента (символ над этим элементом) |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/imathelement/asargumentoffunction#asargumentoffunction)(IMathElement) | Принимает указанную функцию, используя этот экземпляр в качестве аргумента |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/imathelement/asargumentoffunction#asargumentoffunction_1)(MathFunctionsOfOneArgument) | Принимает указанную функцию, используя этот экземпляр в качестве аргумента |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/imathelement/asargumentoffunction#asargumentoffunction_4)(string) | Принимает указанную функцию, используя этот экземпляр в качестве аргумента |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/imathelement/asargumentoffunction#asargumentoffunction_2)(MathFunctionsOfTwoArguments, IMathElement) | Принимает указанную функцию, используя этот экземпляр в качестве аргумента, и указанный дополнительный аргумент |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/imathelement/asargumentoffunction#asargumentoffunction_3)(MathFunctionsOfTwoArguments, string) | Принимает указанную функцию, используя этот экземпляр в качестве аргумента, и указанный дополнительный аргумент |
-| [Divide](../../aspose.slides.mathtext/imathelement/divide#divide)(IMathElement) | Создаёт дробь с этим числителем и указанным знаменателем |
-| [Divide](../../aspose.slides.mathtext/imathelement/divide#divide_2)(string) | Создаёт дробь с этим числителем и указанным знаменателем |
-| [Divide](../../aspose.slides.mathtext/imathelement/divide#divide_1)(IMathElement, MathFractionTypes) | Создаёт дробь указанного типа с этим числителем и указанным знаменателем |
-| [Divide](../../aspose.slides.mathtext/imathelement/divide#divide_3)(string, MathFractionTypes) | Создаёт дробь указанного типа с этим числителем и указанным знаменателем |
-| [Enclose](../../aspose.slides.mathtext/imathelement/enclose#enclose)() | Обрамляет математический элемент скобками |
-| [Enclose](../../aspose.slides.mathtext/imathelement/enclose#enclose_1)(char, char) | Обрамляет этот элемент указанными символами, такими как скобки или другими символами в качестве рамки |
-| [Function](../../aspose.slides.mathtext/imathelement/function#function)(IMathElement) | Принимает функцию аргумента, используя этот экземпляр в качестве имени функции |
-| [Function](../../aspose.slides.mathtext/imathelement/function#function_1)(string) | Принимает функцию аргумента, используя этот экземпляр в качестве имени функции |
-| [GetChildren](../../aspose.slides.mathtext/imathelement/getchildren)() | Получает дочерние элементы |
-| [Group](../../aspose.slides.mathtext/imathelement/group#group)() | Размещает этот элемент в группе, используя нижнюю фигурную скобку |
-| [Group](../../aspose.slides.mathtext/imathelement/group#group_1)(char, MathTopBotPositions, MathTopBotPositions) | Размещает этот элемент в группе, используя группирующий символ, такой как нижняя фигурная скобка или другой |
-| [Integral](../../aspose.slides.mathtext/imathelement/integral#integral)(MathIntegralTypes) | Берёт интеграл без пределов |
-| [Integral](../../aspose.slides.mathtext/imathelement/integral#integral_1)(MathIntegralTypes, IMathElement, IMathElement) | Берёт интеграл |
-| [Integral](../../aspose.slides.mathtext/imathelement/integral#integral_3)(MathIntegralTypes, string, string) | Берёт интеграл |
-| [Integral](../../aspose.slides.mathtext/imathelement/integral#integral_2)(MathIntegralTypes, IMathElement, IMathElement, MathLimitLocations) | Берёт интеграл |
-| [Integral](../../aspose.slides.mathtext/imathelement/integral#integral_4)(MathIntegralTypes, string, string, MathLimitLocations) | Берёт интеграл |
-| [Join](../../aspose.slides.mathtext/imathelement/join#join)(IMathElement) | Объединяет математический элемент и формирует математический блок |
-| [Join](../../aspose.slides.mathtext/imathelement/join#join_1)(string) | Объединяет математический текст и формирует математический блок |
-| [Nary](../../aspose.slides.mathtext/imathelement/nary#nary)(MathNaryOperatorTypes, IMathElement, IMathElement) | Создаёт N-арный оператор |
-| [Nary](../../aspose.slides.mathtext/imathelement/nary#nary_1)(MathNaryOperatorTypes, string, string) | Создаёт N-арный оператор |
-| [Overbar](../../aspose.slides.mathtext/imathelement/overbar)() | Устанавливает черту над этим элементом |
-| [Radical](../../aspose.slides.mathtext/imathelement/radical#radical)(IMathElement) | Указывает математический корень заданной степени от указанного аргумента. |
-| [Radical](../../aspose.slides.mathtext/imathelement/radical#radical_1)(string) | Указывает математический корень заданной степени от указанного аргумента. |
-| [SetLowerLimit](../../aspose.slides.mathtext/imathelement/setlowerlimit#setlowerlimit)(IMathElement) | Берёт нижний предел |
-| [SetLowerLimit](../../aspose.slides.mathtext/imathelement/setlowerlimit#setlowerlimit_1)(string) | Берёт нижний предел |
-| [SetSubscript](../../aspose.slides.mathtext/imathelement/setsubscript#setsubscript)(IMathElement) | Создаёт нижний индекс |
-| [SetSubscript](../../aspose.slides.mathtext/imathelement/setsubscript#setsubscript_1)(string) | Создаёт нижний индекс |
-| [SetSubSuperscriptOnTheLeft](../../aspose.slides.mathtext/imathelement/setsubsuperscriptontheleft#setsubsuperscriptontheleft)(IMathElement, IMathElement) | Создаёт нижний и верхний индексы слева |
-| [SetSubSuperscriptOnTheLeft](../../aspose.slides.mathtext/imathelement/setsubsuperscriptontheleft#setsubsuperscriptontheleft_1)(string, string) | Создаёт нижний и верхний индексы слева |
-| [SetSubSuperscriptOnTheRight](../../aspose.slides.mathtext/imathelement/setsubsuperscriptontheright#setsubsuperscriptontheright)(IMathElement, IMathElement) | Создаёт нижний и верхний индексы справа |
-| [SetSubSuperscriptOnTheRight](../../aspose.slides.mathtext/imathelement/setsubsuperscriptontheright#setsubsuperscriptontheright_1)(string, string) | Создаёт нижний и верхний индексы справа |
-| [SetSuperscript](../../aspose.slides.mathtext/imathelement/setsuperscript#setsuperscript)(IMathElement) | Создаёт верхний индекс |
-| [SetSuperscript](../../aspose.slides.mathtext/imathelement/setsuperscript#setsuperscript_1)(string) | Создаёт верхний индекс |
-| [SetUpperLimit](../../aspose.slides.mathtext/imathelement/setupperlimit#setupperlimit)(IMathElement) | Берёт верхний предел |
-| [SetUpperLimit](../../aspose.slides.mathtext/imathelement/setupperlimit#setupperlimit_1)(string) | Берёт верхний предел |
-| [ToBorderBox](../../aspose.slides.mathtext/imathelement/toborderbox#toborderbox)() | Размещает этот элемент в рамочный блок |
-| [ToBorderBox](../../aspose.slides.mathtext/imathelement/toborderbox#toborderbox_1)(bool, bool, bool, bool, bool, bool, bool, bool) | Размещает этот элемент в рамочный блок |
-| [ToBox](../../aspose.slides.mathtext/imathelement/tobox)() | Размещает этот элемент в невизуальном блоке (логическая группировка), который используется для группировки компонентов уравнения или другого фрагмента математического текста. Объект в коробке может (например) выступать в качестве эмулятора оператора с точкой выравнивания или без неё, служить точкой разрыва строки или группироваться таким образом, чтобы не допускать разрыва строки внутри. |
-| [ToMathArray](../../aspose.slides.mathtext/imathelement/tomatharray)() | Размещает в вертикальном массиве |
-| [Underbar](../../aspose.slides.mathtext/imathelement/underbar)() | Устанавливает черту внизу этого элемента |
+| [Accent](../../aspose.slides.mathtext/imathelement/accent)(char) | Sets an accent mark (a character on the top of this element) |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/imathelement/asargumentoffunction#asargumentoffunction)(IMathElement) | Takes specified function using this instance as the argument |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/imathelement/asargumentoffunction#asargumentoffunction_1)(MathFunctionsOfOneArgument) | Takes specified function using this instance as the argument |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/imathelement/asargumentoffunction#asargumentoffunction_4)(string) | Takes specified function using this instance as the argument |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/imathelement/asargumentoffunction#asargumentoffunction_2)(MathFunctionsOfTwoArguments, IMathElement) | Takes specified function using this instance as the argument and specified additional argument |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/imathelement/asargumentoffunction#asargumentoffunction_3)(MathFunctionsOfTwoArguments, string) | Takes specified function using this instance as the argument and specified additional argument |
+| [Divide](../../aspose.slides.mathtext/imathelement/divide#divide)(IMathElement) | Creates a fraction with this numerator and specified denominator |
+| [Divide](../../aspose.slides.mathtext/imathelement/divide#divide_2)(string) | Creates a fraction with this numerator and specified denominator |
+| [Divide](../../aspose.slides.mathtext/imathelement/divide#divide_1)(IMathElement, MathFractionTypes) | Creates a fraction of the specified type with this numerator and specified denominator |
+| [Divide](../../aspose.slides.mathtext/imathelement/divide#divide_3)(string, MathFractionTypes) | Creates a fraction of the specified type with this numerator and specified denominator |
+| [Enclose](../../aspose.slides.mathtext/imathelement/enclose#enclose)() | Encloses a math element in parenthesis |
+| [Enclose](../../aspose.slides.mathtext/imathelement/enclose#enclose_1)(char, char) | Encloses this element in specified characters such as parenthesis or another characters as framing |
+| [Function](../../aspose.slides.mathtext/imathelement/function#function)(IMathElement) | Takes a function of an argument using this instance as the function name |
+| [Function](../../aspose.slides.mathtext/imathelement/function#function_1)(string) | Takes a function of an argument using this instance as the function name |
+| [GetChildren](../../aspose.slides.mathtext/imathelement/getchildren)() | Get children elements |
+| [Group](../../aspose.slides.mathtext/imathelement/group#group)() | Places this element in a group using a bottom curly bracket |
+| [Group](../../aspose.slides.mathtext/imathelement/group#group_1)(char, MathTopBotPositions, MathTopBotPositions) | Places this element in a group using a grouping character such as bottom curly bracket or another |
+| [Integral](../../aspose.slides.mathtext/imathelement/integral#integral)(MathIntegralTypes) | Takes the integral without limits |
+| [Integral](../../aspose.slides.mathtext/imathelement/integral#integral_1)(MathIntegralTypes, IMathElement, IMathElement) | Takes the integral |
+| [Integral](../../aspose.slides.mathtext/imathelement/integral#integral_3)(MathIntegralTypes, string, string) | Takes the integral |
+| [Integral](../../aspose.slides.mathtext/imathelement/integral#integral_2)(MathIntegralTypes, IMathElement, IMathElement, MathLimitLocations) | Takes the integral |
+| [Integral](../../aspose.slides.mathtext/imathelement/integral#integral_4)(MathIntegralTypes, string, string, MathLimitLocations) | Takes the integral |
+| [Join](../../aspose.slides.mathtext/imathelement/join#join)(IMathElement) | Joins a mathematical element and forms a mathematical block |
+| [Join](../../aspose.slides.mathtext/imathelement/join#join_1)(string) | Joins a mathematical text and forms a mathematical block |
+| [Nary](../../aspose.slides.mathtext/imathelement/nary#nary)(MathNaryOperatorTypes, IMathElement, IMathElement) | Creates a N-ary operator |
+| [Nary](../../aspose.slides.mathtext/imathelement/nary#nary_1)(MathNaryOperatorTypes, string, string) | Creates a N-ary operator |
+| [Overbar](../../aspose.slides.mathtext/imathelement/overbar)() | Sets a bar on the top of this element |
+| [Radical](../../aspose.slides.mathtext/imathelement/radical#radical)(IMathElement) | Specifies the mathematical root of the given degree from the specified argument. |
+| [Radical](../../aspose.slides.mathtext/imathelement/radical#radical_1)(string) | Specifies the mathematical root of the given degree from the specified argument. |
+| [SetLowerLimit](../../aspose.slides.mathtext/imathelement/setlowerlimit#setlowerlimit)(IMathElement) | Takes lower limit |
+| [SetLowerLimit](../../aspose.slides.mathtext/imathelement/setlowerlimit#setlowerlimit_1)(string) | Takes lower limit |
+| [SetSubscript](../../aspose.slides.mathtext/imathelement/setsubscript#setsubscript)(IMathElement) | Creates subscript |
+| [SetSubscript](../../aspose.slides.mathtext/imathelement/setsubscript#setsubscript_1)(string) | Creates subscript |
+| [SetSubSuperscriptOnTheLeft](../../aspose.slides.mathtext/imathelement/setsubsuperscriptontheleft#setsubsuperscriptontheleft)(IMathElement, IMathElement) | Creates subscript and superscript on the left |
+| [SetSubSuperscriptOnTheLeft](../../aspose.slides.mathtext/imathelement/setsubsuperscriptontheleft#setsubsuperscriptontheleft_1)(string, string) | Creates subscript and superscript on the left |
+| [SetSubSuperscriptOnTheRight](../../aspose.slides.mathtext/imathelement/setsubsuperscriptontheright#setsubsuperscriptontheright)(IMathElement, IMathElement) | Creates subscript and superscript on the right |
+| [SetSubSuperscriptOnTheRight](../../aspose.slides.mathtext/imathelement/setsubsuperscriptontheright#setsubsuperscriptontheright_1)(string, string) | Creates subscript and superscript on the right |
+| [SetSuperscript](../../aspose.slides.mathtext/imathelement/setsuperscript#setsuperscript)(IMathElement) | Creates superscript |
+| [SetSuperscript](../../aspose.slides.mathtext/imathelement/setsuperscript#setsuperscript_1)(string) | Creates superscript |
+| [SetUpperLimit](../../aspose.slides.mathtext/imathelement/setupperlimit#setupperlimit)(IMathElement) | Takes upper limit |
+| [SetUpperLimit](../../aspose.slides.mathtext/imathelement/setupperlimit#setupperlimit_1)(string) | Takes upper limit |
+| [ToBorderBox](../../aspose.slides.mathtext/imathelement/toborderbox#toborderbox)() | Places this element in a border-box |
+| [ToBorderBox](../../aspose.slides.mathtext/imathelement/toborderbox#toborderbox_1)(bool, bool, bool, bool, bool, bool, bool, bool) | Places this element in a border-box |
+| [ToBox](../../aspose.slides.mathtext/imathelement/tobox)() | Places this element in a non-visual box (logical grouping) which is used to group components of an equation or other instance of mathematical text. A boxed object can (for example) serve as an operator emulator with or without an alignment point, serve as a line break point, or be grouped such as not to allow line breaks within. |
+| [ToMathArray](../../aspose.slides.mathtext/imathelement/tomatharray)() | Puts in a vertical array |
+| [Underbar](../../aspose.slides.mathtext/imathelement/underbar)() | Sets a bar on the bottom of this element |
 
 ### Примеры
 

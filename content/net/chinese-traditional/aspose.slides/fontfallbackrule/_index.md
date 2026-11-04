@@ -1,9 +1,9 @@
 ---
 title: FontFallBackRule
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes 的 .NET API 參考
 description: 表示字型回退規則
 type: docs
-weight: 4840
+weight: 4860
 url: /zh-hant/aspose.slides/fontfallbackrule/
 ---
 ## FontFallBackRule 類別
@@ -18,32 +18,32 @@ public class FontFallBackRule : IFontFallBackRule
 
 | 名稱 | 說明 |
 | --- | --- |
-| [FontFallBackRule](fontfallbackrule#constructor)(uint, uint, string) | 建立新實例。 |
-| [FontFallBackRule](fontfallbackrule#constructor_1)(uint, uint, string[]) | 建立新實例。 |
+| [FontFallBackRule](fontfallbackrule#constructor)(uint, uint, string) | 建立新執行個體。 |
+| [FontFallBackRule](fontfallbackrule#constructor_1)(uint, uint, string[]) | 建立新執行個體。 |
 
 ## 屬性
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Count](../../aspose.slides/fontfallbackrule/count) { get; } | 取得此範圍實際定義的字型數量。唯讀 Int32。 |
-| [Item](../../aspose.slides/fontfallbackrule/item) { get; } | 取得指定索引處的字型名稱。唯讀 [`IFontFallBackRule`](../ifontfallbackrule)。 |
+| [Count](../../aspose.slides/fontfallbackrule/count) { get; } | 取得在範圍內實際定義的字型數量。唯讀 Int32。 |
+| [Item](../../aspose.slides/fontfallbackrule/item) { get; } | 取得在指定索引處的字型名稱。唯讀 [`IFontFallBackRule`](../ifontfallbackrule)。 |
 | [RangeEndIndex](../../aspose.slides/fontfallbackrule/rangeendindex) { get; set; } | 取得連續 Unicode 範圍的最後索引。 |
-| [RangeStartIndex](../../aspose.slides/fontfallbackrule/rangestartindex) { get; set; } | 取得連續 Unicode 範圍的第一個索引。 |
+| [RangeStartIndex](../../aspose.slides/fontfallbackrule/rangestartindex) { get; set; } | 取得連續 Unicode 範圍的第一索引。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | 將新的字型加入回退字型清單。 |
-| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | 將新的字型加入回退字型清單。 |
+| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | 將新字型（複數）加入 FallBack 字型清單。 |
+| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | 將新字型加入 FallBack 字型清單。 |
 | [Clear](../../aspose.slides/fontfallbackrule/clear)() | 從清單中移除所有字型。 |
 | [IndexOf](../../aspose.slides/fontfallbackrule/indexof)(string) | 傳回集合中指定規則的索引。 |
-| [Remove](../../aspose.slides/fontfallbackrule/remove)(string) | 從清單中移除第一個出現的特定回退字型。 |
-| [RemoveAt](../../aspose.slides/fontfallbackrule/removeat)(int) | 從清單中移除指定索引處的回退字型。 |
-| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray)() | 建立並傳回此規則的所有回退字型陣列。 |
-| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray_1)(int, int) | 建立並傳回清單中指定範圍的所有回退字型陣列。 |
+| [Remove](../../aspose.slides/fontfallbackrule/remove)(string) | 從清單中移除特定 FallBack 字型的首次出現。 |
+| [RemoveAt](../../aspose.slides/fontfallbackrule/removeat)(int) | 從清單中指定索引處移除 FallBack 字型。 |
+| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray)() | 建立並傳回包含此規則所有 FallBack 字型的陣列。 |
+| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray_1)(int, int) | 建立並傳回清單中指定範圍內所有 FallBack 字型的陣列。 |
 
-### 另請參閱
+### 另請參見
 
 * 介面 [IFontFallBackRule](../ifontfallbackrule)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

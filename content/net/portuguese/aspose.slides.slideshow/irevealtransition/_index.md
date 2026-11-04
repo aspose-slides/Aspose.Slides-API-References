@@ -1,14 +1,14 @@
 ---
 title: IRevealTransition
-second_title: Referência da API Aspose.Sildes para .NET
-description: Efeito de transição de slide de revelação.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Efeito de transição de slide Reveal.
 type: docs
-weight: 10160
+weight: 10180
 url: /pt/aspose.slides.slideshow/irevealtransition/
 ---
-## IRevealTransition interface
+## interface IRevealTransition
 
-Efeito de transição de slide de revelação.
+Efeito de transição de slide Reveal.
 
 ```csharp
 public interface IRevealTransition : ITransitionValueBase
@@ -20,7 +20,7 @@ public interface IRevealTransition : ITransitionValueBase
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/irevealtransition/asitransitionvaluebase) { get; } | Permite obter a interface base ITransitionValueBase. Somente leitura [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/irevealtransition/direction) { get; set; } | Direção da transição. Leitura/gravação [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
-| [ThroughBlack](../../aspose.slides.slideshow/irevealtransition/throughblack) { get; set; } | Especifica se a transição esmaece para preto. Leitura/gravação Boolean. |
+| [ThroughBlack](../../aspose.slides.slideshow/irevealtransition/throughblack) { get; set; } | Especifica se a transição desvanece para o preto. Leitura/gravação Boolean. |
 
 ### Veja Também
 

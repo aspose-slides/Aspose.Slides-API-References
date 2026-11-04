@@ -1,9 +1,9 @@
 ---
 title: ICommentAuthor
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Aspose.Sildes para .NET API Reference
 description: Representa um autor de comentários.
 type: docs
-weight: 5570
+weight: 5590
 url: /pt/aspose.slides/icommentauthor/
 ---
 ## ICommentAuthor interface
@@ -19,8 +19,8 @@ public interface ICommentAuthor
 | Nome | Descrição |
 | --- | --- |
 | [Comments](../../aspose.slides/icommentauthor/comments) { get; } | Retorna a coleção de comentários feitos por este autor. Somente leitura [`ICommentCollection`](../icommentcollection). |
-| [Initials](../../aspose.slides/icommentauthor/initials) { get; set; } | Retorna ou define as iniciais do autor. Leitura/Escrita String. |
-| [Name](../../aspose.slides/icommentauthor/name) { get; set; } | Retorna ou define o nome do autor. Leitura/Escrita String. |
+| [Initials](../../aspose.slides/icommentauthor/initials) { get; set; } | Retorna ou define as iniciais do autor. Leitura/gravação String. |
+| [Name](../../aspose.slides/icommentauthor/name) { get; set; } | Retorna ou define o nome do autor. Leitura/gravação String. |
 
 ## Métodos
 
@@ -28,7 +28,7 @@ public interface ICommentAuthor
 | --- | --- |
 | [Remove](../../aspose.slides/icommentauthor/remove)() | Remove o autor da coleção pai. |
 
-### Veja Também
+### Ver também
 
 * espaço de nomes [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

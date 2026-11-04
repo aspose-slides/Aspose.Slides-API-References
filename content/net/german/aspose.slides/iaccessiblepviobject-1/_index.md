@@ -3,10 +3,10 @@ title: IAccessiblePVIObjectT
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt einen Typ dar, der die entsprechenden effektiven Daten mit angewandter Vererbung zurückgeben kann.
 type: docs
-weight: 5170
+weight: 5190
 url: /de/aspose.slides/iaccessiblepviobject-1/
 ---
-## IAccessiblePVIObject&lt;T&gt; Schnittstelle
+## IAccessiblePVIObject<T> Schnittstelle
 
 Stellt einen Typ dar, der die entsprechenden effektiven Daten mit angewandter Vererbung zurückgeben kann.
 

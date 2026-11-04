@@ -1,14 +1,14 @@
 ---
 title: MathSpacingRules
-second_title: Aspose.Sildes dla .NET API Reference
-description: Typy przerw poziomego odstępu między kolumnami macierzy
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Typy odstępów poziomych między kolumnami macierzy
 type: docs
-weight: 8990
+weight: 9010
 url: /pl/aspose.slides.mathtext/mathspacingrules/
 ---
-## Wyliczenie MathSpacingRules
+## MathSpacingRules enumeracja
 
-Typy przerw (odstępów poziomych) między kolumnami macierzy
+Typy przerw (odstępów poziomych) pomiędzy kolumnami macierzy
 
 ```csharp
 public enum MathSpacingRules
@@ -16,13 +16,13 @@ public enum MathSpacingRules
 
 ### Wartości
 
-| Name | Value | Description |
+| Nazwa | Wartość | Opis |
 | --- | --- | --- |
-| SingleSpacingGap | `0` | Jednostkowy (1 em dla kolumn lub 1 linia dla wierszy) |
-| OneAndHalfSpacingGap | `1` | Jedna i pół (1.5 em dla kolumn lub 1.5 linii dla wierszy) |
-| DoubleSpacingGap | `2` | Podwójny odstęp (2 em dla kolumn lub 2 linie dla wierszy) |
-| Exactly | `3` | Dokładna wartość. Dla kolumn, opiera się na wartości ColumnGap, mierzona w twipsach. Dla wierszy, opiera się na wartości RowGap, mierzona w twipsach. |
-| Multiple | `4` | Wielokrotna. Dla kolumn, opiera się na wartości ColumnGap, mierzona w przyrostach 0.5 em. Dla wierszy, opiera się na wartości RowGap, mierzona w liniach. |
+| SingleSpacingGap | `0` | Single (1 em dla kolumn lub 1 linia dla wierszy) |
+| OneAndHalfSpacingGap | `1` | Jeden i pół (1.5 ems dla kolumn lub 1.5 linii dla wierszy) |
+| DoubleSpacingGap | `2` | Podwójny odstęp (2 ems dla kolumn lub 2 linii dla wierszy) |
+| Exactly | `3` | Dokładna wartość. Dla kolumn, zależy od wartości ColumnGap, mierzona w twipsach. Dla wierszy, zależy od wartości RowGap, mierzona w twipsach. |
+| Multiple | `4` | Wielokrotne. Dla kolumn, zależy od wartości ColumnGap, mierzona w przyrostach 0.5 em. Dla wierszy, zależy od wartości RowGap, mierzona w liniach. |
 
 ### Zobacz także
 

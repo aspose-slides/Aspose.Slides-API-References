@@ -1,14 +1,14 @@
 ---
 title: InOutTransition
 second_title: Aspose.Sildes for .NET API 参考
-description: 进出幻灯片过渡效果。
+description: In-Out 幻灯片过渡效果。
 type: docs
-weight: 10230
+weight: 10250
 url: /zh/aspose.slides.slideshow/inouttransition/
 ---
 ## InOutTransition 类
 
-进出幻灯片过渡效果。
+In-Out slide transition effect.
 
 ```csharp
 public class InOutTransition : TransitionValueBase, IInOutTransition
@@ -18,14 +18,14 @@ public class InOutTransition : TransitionValueBase, IInOutTransition
 
 | 名称 | 描述 |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/inouttransition/direction) { get; set; } | 过渡效果的方向。读/写 [`TransitionInOutDirectionType`](../transitioninoutdirectiontype)。 |
+| [Direction](../../aspose.slides.slideshow/inouttransition/direction) { get; set; } | 过渡效果的方向。可读写 [`TransitionInOutDirectionType`](../transitioninoutdirectiontype)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 确定两个 TransitionValueBase 实例是否相等。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 作为特定类型的散列函数，可用于散列算法和诸如散列表的数据结构。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 作为特定类型的哈希函数，适用于哈希算法和诸如哈希表的数据结构。 |
 
 ### 另见
 

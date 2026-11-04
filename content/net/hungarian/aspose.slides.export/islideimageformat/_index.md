@@ -1,14 +1,14 @@
 ---
 title: ISlideImageFormat
 second_title: Aspose.Sildes .NET API referencia
-description: Meghatározza a formátumot, amelyben a dia képe mentésre kerül a HTML exporthoz.
+description: Meghatározza a formátumot, amelyben a diakép a prezentáció HTML exportálásához lesz mentve.
 type: docs
-weight: 4090
+weight: 4110
 url: /hu/aspose.slides.export/islideimageformat/
 ---
 ## ISlideImageFormat interfész
 
-Meghatározza a formátumot, amelyben a dia képe mentésre kerül a HTML exporthoz.
+Meghatározza azt a formátumot, amelyben a diakép mentésre kerül a prezentáció HTML-exportálásához.
 
 ```csharp
 public interface ISlideImageFormat

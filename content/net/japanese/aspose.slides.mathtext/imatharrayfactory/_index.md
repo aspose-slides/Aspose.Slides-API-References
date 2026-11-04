@@ -3,12 +3,12 @@ title: IMathArrayFactory
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 数式配列を作成できます
 type: docs
-weight: 8110
+weight: 8130
 url: /ja/aspose.slides.mathtext/imatharrayfactory/
 ---
 ## IMathArrayFactory インターフェイス
 
-数式配列を作成できるようにします
+数式配列を作成できます
 
 ```csharp
 public interface IMathArrayFactory
@@ -18,8 +18,8 @@ public interface IMathArrayFactory
 
 | 名前 | 説明 |
 | --- | --- |
-| [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray)(IMathElement) | 数式配列を作成し、指定された要素をその中に配置します |
-| [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray_1)(IMathElementCollection) | 数式配列を作成し、指定された要素をその中に配置します |
+| [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray)(IMathElement) | 数式配列を作成し、指定された要素を配置します |
+| [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray_1)(IMathElementCollection) | 数式配列を作成し、指定された要素を配置します |
 
 ### 備考
 

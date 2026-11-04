@@ -1,14 +1,14 @@
 ---
 title: GetActualLabelText
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET 用 API リファレンス
 description: DataLabelFormat 設定または TextFrameForOverriding.Text の値に基づいて、実際のラベルテキストを返します。
 type: docs
-weight: 70
+weight: 80
 url: /ja/aspose.slides.charts/idatalabel/getactuallabeltext/
 ---
 ## IDataLabel.GetActualLabelText メソッド
 
-DataLabelFormat 設定または TextFrameForOverriding.Text 値に基づいて、実際のラベルテキストを返します。
+DataLabelFormat 設定または TextFrameForOverriding.Text の値に基づいて、実際のラベルテキストを返します。
 
 ```csharp
 public string GetActualLabelText()

@@ -1,14 +1,14 @@
 ---
 title: PictureFrameLock
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: निर्धारित करता है कि पैरेंट PictureFrame पर कौन-से ऑपरेशन्स अक्षम हैं।
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
+description: निर्धारित करता है कि पैरेंट PictureFrame पर कौन-से ऑपरेशन निष्क्रिय हैं।
 type: docs
-weight: 9420
+weight: 9440
 url: /hi/aspose.slides/pictureframelock/
 ---
 ## PictureFrameLock क्लास
 
-निर्धारित करता है कि पैरेंट PictureFrame पर कौन-से ऑपरेशन्स अक्षम हैं।
+निर्धारित करता है कि पैरेंट PictureFrame पर कौन-से ऑपरेशन अक्षम हैं।
 
 ```csharp
 public class PictureFrameLock : BaseShapeLock, IPictureFrameLock
@@ -18,24 +18,24 @@ public class PictureFrameLock : BaseShapeLock, IPictureFrameLock
 
 | नाम | विवरण |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/pictureframelock/adjusthandleslocked) { get; set; } | निर्धारित करता है कि adjust मानों में परिवर्तन प्रतिबंधित है। पढ़ने/लिखने योग्य बूलियन। |
-| [ArrowheadsLocked](../../aspose.slides/pictureframelock/arrowheadslocked) { get; set; } | निर्धारित करता है कि तीर-टिपों में परिवर्तन प्रतिबंधित है। पढ़ने/लिखने योग्य बूलियन। |
-| [AspectRatioLocked](../../aspose.slides/pictureframelock/aspectratiolocked) { get; set; } | निर्धारित करता है कि आकार को आकार बदलते समय अनुपात बनाए रखना चाहिए या नहीं। पढ़ने/लिखने योग्य बूलियन। |
-| [CropLocked](../../aspose.slides/pictureframelock/croplocked) { get; set; } | निर्धारित करता है कि छवि क्रॉपिंग प्रतिबंधित है। पढ़ने/लिखने योग्य बूलियन। |
-| [EditPointsLocked](../../aspose.slides/pictureframelock/editpointslocked) { get; set; } | निर्धारित करता है कि इस आकार की रूपरेखा में सीधा परिवर्तन प्रतिबंधित है। पढ़ने/लिखने योग्य बूलियन। |
-| [GroupingLocked](../../aspose.slides/pictureframelock/groupinglocked) { get; set; } | निर्धारित करता है कि इस आकार को समूह में जोड़ना प्रतिबंधित है। पढ़ने/लिखने योग्य बूलियन। |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | सभी लॉक-फ़्लैग अक्षम हैं तो true लौटाता है। केवल पढ़ने योग्य बूलियन। |
-| [PositionLocked](../../aspose.slides/pictureframelock/positionlocked) { get; set; } | निर्धारित करता है कि इस आकार को स्थानांतरित करना प्रतिबंधित है। पढ़ने/लिखने योग्य बूलियन। |
-| [RotationLocked](../../aspose.slides/pictureframelock/rotationlocked) { get; set; } | निर्धारित करता है कि इस आकार के घूर्णन कोण में परिवर्तन प्रतिबंधित है। पढ़ने/लिखने योग्य बूलियन। |
-| [SelectLocked](../../aspose.slides/pictureframelock/selectlocked) { get; set; } | निर्धारित करता है कि इस आकार को चयनित करना प्रतिबंधित है। पढ़ने/लिखने योग्य बूलियन। |
-| [ShapeTypeLocked](../../aspose.slides/pictureframelock/shapetypelocked) { get; set; } | निर्धारित करता है कि आकार प्रकार में परिवर्तन प्रतिबंधित है। पढ़ने/लिखने योग्य बूलियन। |
-| [SizeLocked](../../aspose.slides/pictureframelock/sizelocked) { get; set; } | निर्धारित करता है कि इस आकार का आकार बदलना प्रतिबंधित है। पढ़ने/लिखने योग्य बूलियन। |
+| [AdjustHandlesLocked](../../aspose.slides/pictureframelock/adjusthandleslocked) { get; set; } | निर्धारित करता है कि adjust मानों में परिवर्तन निषिद्ध है। पढ़ें/लिखें Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/pictureframelock/arrowheadslocked) { get; set; } | निर्धारित करता है कि arrowheads में परिवर्तन निषिद्ध है। पढ़ें/लिखें Boolean. |
+| [AspectRatioLocked](../../aspose.slides/pictureframelock/aspectratiolocked) { get; set; } | निर्धारित करता है कि आकार को रिसाइज़ करने पर aspect ratio बनाए रखना चाहिए या नहीं। पढ़ें/लिखें Boolean. |
+| [CropLocked](../../aspose.slides/pictureframelock/croplocked) { get; set; } | निर्धारित करता है कि इमेज क्रॉपिंग निषिद्ध है या नहीं। पढ़ें/लिखें Boolean. |
+| [EditPointsLocked](../../aspose.slides/pictureframelock/editpointslocked) { get; set; } | निर्धारित करता है कि इस आकार की आकृति (contour) में प्रत्यक्ष परिवर्तन निषिद्ध है। पढ़ें/लिखें Boolean. |
+| [GroupingLocked](../../aspose.slides/pictureframelock/groupinglocked) { get; set; } | निर्धारित करता है कि इस आकार को समूह में जोड़ना निषिद्ध है। पढ़ें/लिखें Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | यदि सभी lock-flags अक्षम हैं तो true लौटाएँ। केवल-पढ़ें Boolean. |
+| [PositionLocked](../../aspose.slides/pictureframelock/positionlocked) { get; set; } | निर्धारित करता है कि इस आकार को ले जाना निषिद्ध है। पढ़ें/लिखें Boolean. |
+| [RotationLocked](../../aspose.slides/pictureframelock/rotationlocked) { get; set; } | निर्धारित करता है कि इस आकार के घूर्णन कोण में परिवर्तन निषिद्ध है। पढ़ें/लिखें Boolean. |
+| [SelectLocked](../../aspose.slides/pictureframelock/selectlocked) { get; set; } | निर्धारित करता है कि इस आकार को चयनित करना निषिद्ध है। पढ़ें/लिखें Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/pictureframelock/shapetypelocked) { get; set; } | निर्धारित करता है कि आकार प्रकार में परिवर्तन निषिद्ध है। पढ़ें/लिखें Boolean. |
+| [SizeLocked](../../aspose.slides/pictureframelock/sizelocked) { get; set; } | निर्धारित करता है कि इस आकार का रिसाइज़ करना निषिद्ध है। पढ़ें/लिखें Boolean. |
 
 ### देखें
 
 * क्लास [BaseShapeLock](../baseshapelock)
 * इंटरफ़ेस [IPictureFrameLock](../ipictureframelock)
-* नेमस्पेस [Aspose.Slides](../../aspose.slides)
+* नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

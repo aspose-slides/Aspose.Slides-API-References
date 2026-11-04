@@ -1,9 +1,9 @@
 ---
 title: Marker
-second_title: Aspose.Slides pro .NET API reference
+second_title: Aspose.Sildes pro .NET API Reference
 description: Určuje datový marker. Pouze pro čtení IMarkeraspose.slides.charts/imarker.
 type: docs
-weight: 150
+weight: 190
 url: /cs/aspose.slides.charts/chartdatapoint/marker/
 ---
 ## ChartDataPoint.Marker vlastnost

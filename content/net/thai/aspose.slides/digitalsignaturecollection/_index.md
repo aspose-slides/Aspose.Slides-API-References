@@ -1,14 +1,14 @@
 ---
 title: DigitalSignatureCollection
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นคอลเลกชันของลายเซ็นดิจิทัลที่แนบอยู่ในเอกสาร
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: เป็นตัวแทนของคอลเลกชันของลายเซ็นดิจิทัลที่แนบมากับเอกสาร
 type: docs
-weight: 2780
+weight: 2800
 url: /th/aspose.slides/digitalsignaturecollection/
 ---
 ## DigitalSignatureCollection คลาส
 
-แทนที่คอลเลกชันของลายเซ็นดิจิทัลที่แนบกับเอกสาร
+เป็นตัวแทนของคอลเลกชันของลายเซ็นดิจิทัลที่แนบมากับเอกสาร
 
 ```csharp
 public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSignatureCollection
@@ -16,21 +16,21 @@ public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSigna
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| ชื่อ | รายละเอียด |
 | --- | --- |
 | [Count](../../aspose.slides/digitalsignaturecollection/count) { get; } | คืนค่าจำนวนขององค์ประกอบในคอลเลกชัน. อ่านอย่างเดียว Int32. |
-| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | คืนค่าที่บ่งบอกว่าการเข้าถึงคอลเลกชันถูกซิงโครไนซ์ (ปลอดภัยต่อเธรด). อ่านอย่างเดียว Boolean. |
-| [Item](../../aspose.slides/digitalsignaturecollection/item) { get; } | คืนลายเซ็นตามดัชนี. |
-| [SyncRoot](../../aspose.slides/digitalsignaturecollection/syncroot) { get; } | คืนรากของการซิงโครไนซ์. อ่านอย่างเดียว Object. |
+| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | คืนค่าค่าที่บ่งบอกว่าการเข้าถึงคอลเลกชันถูกซิงโครไนซ์ (ปลอดภัยต่อเธรด). อ่านอย่างเดียว Boolean. |
+| [Item](../../aspose.slides/digitalsignaturecollection/item) { get; } | คืนค่าลายเซ็นตามดัชนี. |
+| [SyncRoot](../../aspose.slides/digitalsignaturecollection/syncroot) { get; } | คืนค่ารากการซิงโครไนซ์. อ่านอย่างเดียว Object. |
 
 ## วิธีการ
 
-| ชื่อ | คำอธิบาย |
+| ชื่อ | รายละเอียด |
 | --- | --- |
-| [Add](../../aspose.slides/digitalsignaturecollection/add)(IDigitalSignature) | เพิ่มลายเซ็นที่ส่วนท้ายของคอลเลกชัน. |
-| [Clear](../../aspose.slides/digitalsignaturecollection/clear)() | ลบลายเซ็นทั้งหมดออกจากคอลเลกชัน. |
-| [CopyTo](../../aspose.slides/digitalsignaturecollection/copyto)(Array, int) | คัดลอกรายการทั้งหมดจากคอลเลกชันไปยังอาเรย์ที่ระบุ. |
-| [GetEnumerator](../../aspose.slides/digitalsignaturecollection/getenumerator)() | คืนตัววนซ้ำที่วนผ่านคอลเลกชัน. |
+| [Add](../../aspose.slides/digitalsignaturecollection/add)(IDigitalSignature) | เพิ่มลายเซ็นที่ท้ายของคอลเลกชัน. |
+| [Clear](../../aspose.slides/digitalsignaturecollection/clear)() | ลบลายเซ็นทั้งหมดจากคอลเลกชัน. |
+| [CopyTo](../../aspose.slides/digitalsignaturecollection/copyto)(Array, int) | คัดลอกองค์ประกอบทั้งหมดจากคอลเลกชันไปยังอาร์เรย์ที่ระบุ. |
+| [GetEnumerator](../../aspose.slides/digitalsignaturecollection/getenumerator)() | คืนค่า enumerator ที่วนซ้ำผ่านคอลเลกชัน. |
 | [RemoveAt](../../aspose.slides/digitalsignaturecollection/removeat)(int) | ลบลายเซ็นที่ดัชนีที่ระบุ. |
 
 ### ดูเพิ่มเติม

@@ -1,9 +1,9 @@
 ---
 title: DataSourceType
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes .NET API Referencia
 description: Adatforrás típusok.
 type: docs
-weight: 1580
+weight: 1590
 url: /hu/aspose.slides.charts/datasourcetype/
 ---
 ## DataSourceType enumeráció
@@ -18,9 +18,9 @@ public enum DataSourceType
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Worksheet | `0` | Használjon CellXls objektumokat az adatpont XValue, YValue, Value vagy BubbleSize értékeinek tárolásához a munkalapon. |
-| StringLiterals | `1` | Használjon gyors hozzáférésű string változót az adatpont XValue, YValue, Value vagy BubbleSize értékeinek tárolásához. A munkalap NEM használatos az értékek tárolására. |
-| DoubleLiterals | `2` | Használjon gyors hozzáférésű double változót az adatpont XValue, YValue, Value vagy BubbleSize értékeinek tárolásához. A munkalap NEM használatos az értékek tárolására. |
+| Worksheet | `0` | Használjon CellXls objektumokat az adatpont XValue, YValue, Value vagy BubbleSize tárolásához a munkalapon. |
+| StringLiterals | `1` | Használjon gyors hozzáférésű string változót az adatpont XValue, YValue, Value vagy BubbleSize tárolásához. Munkalap NEM használatos az értékek tárolására. |
+| DoubleLiterals | `2` | Használjon gyors hozzáférésű double változót az adatpont XValue, YValue, Value vagy BubbleSize tárolásához. Munkalap NEM használatos az értékek tárolására. |
 
 ### Lásd még
 

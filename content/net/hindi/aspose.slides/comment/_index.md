@@ -1,9 +1,9 @@
 ---
 title: Comment
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: स्लाइड पर टिप्पणी का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: स्लाइड पर एक टिप्पणी का प्रतिनिधित्व करता है।
 type: docs
-weight: 2620
+weight: 2640
 url: /hi/aspose.slides/comment/
 ---
 ## Comment क्लास
@@ -14,22 +14,22 @@ url: /hi/aspose.slides/comment/
 public class Comment : IComment
 ```
 
-## प्रॉपर्टीज़
+## गुण
 
 | नाम | विवरण |
 | --- | --- |
-| [Author](../../aspose.slides/comment/author) { get; } | टिप्पणी के लेखक को लौटाता है। केवल पढ़ने योग्य [`ICommentAuthor`](../icommentauthor)। |
-| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | टिप्पणी निर्माण के समय को लौटाता है या सेट करता है। इस प्रॉपर्टी को MinValue पर सेट करने से कोई टिप्पणी समय सेट नहीं होता। पढ़ने/लिखने योग्य DateTime। |
-| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | पैरेंट टिप्पणी को प्राप्त करता या सेट करता है। पढ़ने/लिखने योग्य [`IComment`](../icomment)। |
-| [Position](../../aspose.slides/comment/position) { get; set; } | स्लाइड पर टिप्पणी की स्थिति को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य PointF। |
-| [Slide](../../aspose.slides/comment/slide) { get; } | टिप्पणी के पैरेंट स्लाइड को लौटाता है। केवल पढ़ने योग्य [`ISlide`](../islide)। |
-| [Text](../../aspose.slides/comment/text) { get; set; } | स्लाइड टिप्पणी का साधारण पाठ लौटाता है या सेट करता है। पढ़ने/लिखने योग्य String। |
+| [Author](../../aspose.slides/comment/author) { get; } | एक टिप्पणी के लेखक को लौटाता है। केवल-पढ़ने योग्य [`ICommentAuthor`](../icommentauthor). |
+| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | एक टिप्पणी निर्माण का समय लौटाता है या सेट करता है। इस गुण को MinValue पर सेट करने का अर्थ है कि टिप्पणी का समय सेट नहीं है। पढ़ने/लिखने योग्य DateTime. |
+| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | माता-टिप्पणी को प्राप्त करता है या सेट करता है। पढ़ने/लिखने योग्य [`IComment`](../icomment). |
+| [Position](../../aspose.slides/comment/position) { get; set; } | स्लाइड पर टिप्पणी की स्थिति को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य PointF. |
+| [Slide](../../aspose.slides/comment/slide) { get; } | एक टिप्पणी की मूल स्लाइड को लौटाता है। केवल-पढ़ने योग्य [`ISlide`](../islide). |
+| [Text](../../aspose.slides/comment/text) { get; set; } | स्लाइड टिप्पणी का साधारण टेक्स्ट लौटाता है या सेट करता है। पढ़ने/लिखने योग्य String. |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [Remove](../../aspose.slides/comment/remove)() | टिप्पणी और उसके सभी उत्तरों को पैरेंट कलेक्शन से हटाता है। |
+| [Remove](../../aspose.slides/comment/remove)() | टिप्पणी और उसकी सभी प्रतिक्रियाओं को मूल संग्रह से हटाता है। |
 
 ### उदाहरण
 
@@ -37,7 +37,7 @@ public class Comment : IComment
 
 ```csharp
 [C#]
-// Presentation क्लास का इंस्टेंस बनाता है
+// Presentation क्लास का उदाहरण बनाता है
 using (Presentation presentation = new Presentation())
 {
     // एक खाली स्लाइड जोड़ता है
@@ -48,11 +48,11 @@ using (Presentation presentation = new Presentation())
     PointF point = new PointF();
     point.X = 0.2f;
     point.Y = 0.2f;
-    // स्लाइड 1 पर लेखक के लिए स्लाइड टिप्पणी जोड़ता है
+    // लेखक के लिए स्लाइड 1 पर स्लाइड टिप्पणी जोड़ता है
     author.Comments.AddComment("Hello Jawad, this is slide comment", presentation.Slides[0], point, DateTime.Now);
-    // स्लाइड 2 पर लेखक के लिए स्लाइड टिप्पणी जोड़ता है
+    // लेखक के लिए स्लाइड 2 पर स्लाइड टिप्पणी जोड़ता है
     author.Comments.AddComment("Hello Jawad, this is second slide comment", presentation.Slides[1], point, DateTime.Now);
-	// PowerPoint प्रस्तुति फ़ाइल को सहेजें
+	// PowerPoint प्रस्तुति फ़ाइल सहेजें
     presentation.Save("Comments_out.pptx", SaveFormat.Pptx);
 }
 ```
@@ -61,14 +61,14 @@ using (Presentation presentation = new Presentation())
 
 ```csharp
 [C#]
-// Presentation क्लास का इंस्टेंस बनाता है
+// Presentation क्लास का उदाहरण बनाता है
 using (Presentation presentation = new Presentation("Comments1.pptx"))
 {
-	// CommentAuthors को दोहराएँ
+	// CommentAuthors को इटरेट करें
     foreach (var commentAuthor in presentation.CommentAuthors)
     {
         var author = (CommentAuthor) commentAuthor;
-		// Comments को दोहराएँ
+		// Comments को इटरेट करें
         foreach (var comment1 in author.Comments)
         {
             var comment = (Comment) comment1;
@@ -78,11 +78,11 @@ using (Presentation presentation = new Presentation("Comments1.pptx"))
 }
 ```
 
-यह उदाहरण दिखाता है कि टिप्पणियाँ कैसे जोड़ें और उनके उत्तर कैसे प्राप्त करें।
+यह उदाहरण दिखाता है कि टिप्पणी कैसे जोड़ें और उनकी प्रतिक्रियाएँ कैसे प्राप्त करें।
 
 ```csharp
 [C#]
-// Presentation क्लास का इंस्टेंस बनाता है
+// Presentation क्लास का उदाहरण बनाता है
 using (Presentation pres = new Presentation())
 {
     // एक टिप्पणी जोड़ता है
@@ -102,7 +102,7 @@ using (Presentation pres = new Presentation())
     IComment comment3 = author2.Comments.AddComment("comment 3", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     IComment reply3 = author1.Comments.AddComment("reply 4 for comment 3", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     reply3.ParentComment = comment3;
-    // कंसोल पर टिप्पणियों की पदानुक्रम दिखाता है
+    // कंसोल पर टिप्पणी पदानुक्रम दिखाता है
     ISlide slide = pres.Slides[0];
     var comments = slide.GetSlideComments(null);
     for (int i = 0; i < comments.Length; i++)

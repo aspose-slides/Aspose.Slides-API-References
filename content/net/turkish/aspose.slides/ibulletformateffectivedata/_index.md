@@ -3,12 +3,12 @@ title: IBulletFormatEffectiveData
 second_title: Aspose.Sildes için .NET API Referansı
 description: Etkili paragraf madde işareti biçimlendirme özelliklerini içeren değiştirilemez nesne.
 type: docs
-weight: 5400
+weight: 5420
 url: /tr/aspose.slides/ibulletformateffectivedata/
 ---
-## IBulletFormatEffectiveData arabirimi
+## IBulletFormatEffectiveData arayüzü
 
-Değiştirilemez nesne, etkin paragraf madde işareti biçimlendirme özelliklerini içerir.
+Paragraf madde işareti biçimlendirme özelliklerini içeren değiştirilemez nesne.
 
 ```csharp
 public interface IBulletFormatEffectiveData
@@ -18,20 +18,20 @@ public interface IBulletFormatEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [ActualBulletValue](../../aspose.slides/ibulletformateffectivedata/actualbulletvalue) { get; } | Üst paragraf için mevcut madde işareti değerini döndürür. Salt-okunur String. |
-| [Char](../../aspose.slides/ibulletformateffectivedata/char) { get; } | Bir paragrafın madde işareti karakterini döndürür. Salt-okunur Char. |
-| [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | Bir paragrafın madde işareti dolgu biçimini döndürür. Salt-okunur [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
-| [Font](../../aspose.slides/ibulletformateffectivedata/font) { get; } | Bir paragrafın madde işareti yazı tipini döndürür. Salt-okunur [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/ibulletformateffectivedata/height) { get; } | Bir paragrafın madde işareti yüksekliğini döndürür. Salt-okunur Single. |
-| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | Madde işaretinin kendi renginin olup olmadığını veya paragraftaki ilk bölüme göre renk alıp almadığını belirler. Madde işareti kendi rengine sahipse **true** ve paragraftaki ilk bölümden rengi devralıyorsa **false** döndürür. Salt-okunur Boolean. |
-| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | Madde işaretinin kendi yazı tipine sahip olup olmadığını veya paragraftaki ilk bölüme göre yazı tipini devralıp devralmadığını belirler. Madde işareti kendi yazı tipine sahipse **true** ve paragraftaki ilk bölümden yazı tipini devralıyorsa **true** döndürür. Salt-okunur Boolean. |
-| [NumberedBulletStartWith](../../aspose.slides/ibulletformateffectivedata/numberedbulletstartwith) { get; } | Numaralı madde işareti grubunda kullanılan ilk sayıyı döndürür. Salt-okunur Int16. |
-| [NumberedBulletStyle](../../aspose.slides/ibulletformateffectivedata/numberedbulletstyle) { get; } | Numaralı bir madde işaretinin stilini döndürür. Salt-okunur [`NumberedBulletStyle`](../numberedbulletstyle). |
-| [Type](../../aspose.slides/ibulletformateffectivedata/type) { get; } | Bir paragrafın madde işareti tipini döndürür. Salt-okunur [`BulletType`](../bullettype). |
+| [ActualBulletValue](../../aspose.slides/ibulletformateffectivedata/actualbulletvalue) { get; } | Üst paragraf için geçerli madde işareti değerini döndürür. Salt okunur String. |
+| [Char](../../aspose.slides/ibulletformateffectivedata/char) { get; } | Bir paragrafın madde işareti karakterini döndürür. Salt okunur Char. |
+| [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | Bir paragrafın madde işareti dolgu biçimini döndürür. Salt okunur [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [Font](../../aspose.slides/ibulletformateffectivedata/font) { get; } | Bir paragrafın madde işareti yazı tipini döndürür. Salt okunur [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/ibulletformateffectivedata/height) { get; } | Bir paragrafın madde işareti yüksekliğini döndürür. Salt okunur Single. |
+| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | Madde işaretinin kendi renginin olup olmadığını veya paragraftaki ilk bölüme renk miras alıp almadığını belirler. Madde işareti kendi rengine sahipse **true**, paragraftaki ilk bölümden renk miras alıyorsa **false** döndürür. Salt okunur Boolean. |
+| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | Madde işaretinin kendi yazı tipine sahip olup olmadığını veya paragraftaki ilk bölüme yazı tipini miras alıp almadığını belirler. Madde işareti kendi yazı tipine sahipse **true**, paragraftaki ilk bölümden yazı tipini miras alıyorsa **true** döndürür. Salt okunur Boolean. |
+| [NumberedBulletStartWith](../../aspose.slides/ibulletformateffectivedata/numberedbulletstartwith) { get; } | Numaralı madde işaretleri grubunda kullanılan ilk sayıyı döndürür. Salt okunur Int16. |
+| [NumberedBulletStyle](../../aspose.slides/ibulletformateffectivedata/numberedbulletstyle) { get; } | Numaralı bir madde işaretinin stilini döndürür. Salt okunur [`NumberedBulletStyle`](../numberedbulletstyle). |
+| [Type](../../aspose.slides/ibulletformateffectivedata/type) { get; } | Bir paragrafın madde işareti türünü döndürür. Salt okunur [`BulletType`](../bullettype). |
 
 ### Açıklamalar
 
-Bu arabirim, [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) bir parçası olarak kullanılır.
+Bu arayüz [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata)'nin bir parçası olarak kullanılır.
 
 ### Ayrıca Bakınız
 

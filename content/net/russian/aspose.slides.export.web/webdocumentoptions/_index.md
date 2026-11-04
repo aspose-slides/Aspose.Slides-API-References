@@ -1,9 +1,9 @@
 ---
 title: WebDocumentOptions
-second_title: Aspose.Sildes для .NET – справочник API
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет набор параметров для сохранения WebDocument./webdocument.
 type: docs
-weight: 4690
+weight: 4710
 url: /ru/aspose.slides.export.web/webdocumentoptions/
 ---
 ## WebDocumentOptions класс
@@ -27,10 +27,10 @@ public class WebDocumentOptions
 | [AnimateShapes](../../aspose.slides.export.web/webdocumentoptions/animateshapes) { get; set; } | Возвращает или задаёт параметр анимации фигур. Чтение/запись Boolean. |
 | [AnimateTransitions](../../aspose.slides.export.web/webdocumentoptions/animatetransitions) { get; set; } | Возвращает или задаёт параметр анимации переходов. Чтение/запись Boolean. |
 | [EmbedImages](../../aspose.slides.export.web/webdocumentoptions/embedimages) { get; set; } | Возвращает или задаёт параметр встраивания изображений. Чтение/запись Boolean. |
-| [OutputSaver](../../aspose.slides.export.web/webdocumentoptions/outputsaver) { get; set; } | Возвращает или задаёт сохраняющий объект вывода. Чтение/запись [`IOutputSaver`](../ioutputsaver). |
+| [OutputSaver](../../aspose.slides.export.web/webdocumentoptions/outputsaver) { get; set; } | Возвращает или задаёт сохраняющий модуль вывода. Чтение/запись [`IOutputSaver`](../ioutputsaver). |
 | [TemplateEngine](../../aspose.slides.export.web/webdocumentoptions/templateengine) { get; set; } | Возвращает или задаёт движок шаблонов. Чтение/запись [`ITemplateEngine`](../itemplateengine). |
 
-### См. также
+### Смотрите также
 
 * пространство имён [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * сборка [Aspose.Slides](../../)

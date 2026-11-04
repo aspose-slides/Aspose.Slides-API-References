@@ -1,14 +1,14 @@
 ---
 title: IOuterShadow
-second_title: Aspose.Sildes .NET API 參考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示外部陰影效果。
 type: docs
-weight: 3460
+weight: 3480
 url: /zh-hant/aspose.slides.effects/ioutershadow/
 ---
 ## IOuterShadow 介面
 
-代表外部陰影效果。
+表示外部陰影效果。
 
 ```csharp
 public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>, 
@@ -21,18 +21,18 @@ public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>,
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | 允許取得基礎 IAccessiblePVIObject 介面。唯讀 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | 允許取得基礎 IImageTransformOperation 介面。唯讀 [`IImageTransformOperation`](../iimagetransformoperation)。 |
-| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | 模糊半徑（點）。預設值 – 0 pt。可讀寫 Double。 |
-| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | 陰影方向（度）。預設值 – 0 °（從左到右）。可讀寫 Single。 |
-| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | 陰影與物件之間的距離（點）。預設值 – 0 pt。可讀寫 Double。 |
+| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | 模糊半徑，單位為點。預設值 – 0 pt。可讀寫 Double。 |
+| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | 陰影方向，單位為度。預設值 – 0 ° (left-to-right)。可讀寫 Single。 |
+| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | 陰影與物件之間的距離，單位為點。預設值 – 0 pt。可讀寫 Double。 |
 | [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | 矩形對齊方式。預設值 – Bottom。可讀寫 [`RectangleAlignment`](../../aspose.slides/rectanglealignment)。 |
 | [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | 指示陰影是否隨形狀一起旋轉。預設值 – true。可讀寫 Boolean。 |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | 水平縮放係數，單位為原始大小的百分比。負的縮放會導致翻轉。預設值 – 100%。可讀寫 Double。 |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | 垂直縮放係數，單位為原始大小的百分比。負的縮放會導致翻轉。預設值 – 100%。可讀寫 Double。 |
-| [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | 陰影的顏色。預設值 – 自動黑色（依主題而定）。唯讀 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | 水平斜角（度）。預設值 – 0 °。可讀寫 Double。 |
-| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | 垂直斜角（度）。預設值 – 0 °。可讀寫 Double。 |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | 水平縮放係數，為原始大小的百分比。負縮放會造成翻轉。預設值 – 100 %。可讀寫 Double。 |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | 垂直縮放係數，為原始大小的百分比。負縮放會造成翻轉。預設值 – 100 %。可讀寫 Double。 |
+| [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | 陰影顏色。預設值 – 自動黑色（依主題而定）。唯讀 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | 水平斜切角度，單位為度。預設值 – 0 °。可讀寫 Double。 |
+| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | 垂直斜切角度，單位為度。預設值 – 0 °。可讀寫 Double。 |
 
-### 另見
+### 另請參閱
 
 * 介面 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 介面 [IOuterShadowEffectiveData](../ioutershadoweffectivedata)

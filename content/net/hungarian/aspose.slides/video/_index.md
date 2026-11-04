@@ -1,14 +1,14 @@
 ---
 title: Video
 second_title: Aspose.Sildes .NET API referencia
-description: Kép, amely beágyazott egy prezentációba.
+description: Egy prezentációba beágyazott képet képvisel.
 type: docs
-weight: 11700
+weight: 11720
 url: /hu/aspose.slides/video/
 ---
 ## Video osztály
 
-Represents an image embedded into a presentation.
+Egy prezentációba beágyazott képet képvisel.
 
 ```csharp
 public class Video : IVideo
@@ -18,14 +18,14 @@ public class Video : IVideo
 
 | Név | Leírás |
 | --- | --- |
-| [BinaryData](../../aspose.slides/video/binarydata) { get; } | Visszaadja a hang adatainak másolatát. Nagy mennyiségű adat esetén érdemes a [`GetStream`](./getstream) metódus használata a videó adatainak felesleges betöltésének memóriába vagy akár OutOfMemoryException kivétel elkerülése érdekében. Csak olvasható Byte[]. |
-| [ContentType](../../aspose.slides/video/contenttype) { get; } | Visszaadja egy videó MIME-típusát, amely [`BinaryData`](./binarydata) formátumban van kódolva. Csak olvasható String. |
+| [BinaryData](../../aspose.slides/video/binarydata) { get; } | Visszaadja a hang adatainak másolatát. Nagy mennyiségű adat esetén fontolja meg a [`GetStream`](./getstream) metódus használatát a videó adatainak felesleges betöltésének memóriába vagy akár OutOfMemoryException elkerülése érdekében. Csak olvasható Byte[]. |
+| [ContentType](../../aspose.slides/video/contenttype) { get; } | Visszaadja egy videó MIME típusát, amely [`BinaryData`](./binarydata)-ben van kódolva. Csak olvasható String. |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [GetStream](../../aspose.slides/video/getstream)() | Visszaad egy Stream objektumot olvasásra. Használja a 'using' kulcsszót vagy zárja be a streamet a használat után. |
+| [GetStream](../../aspose.slides/video/getstream)() | Visszaad egy Stream adatfolyamot olvasásra. Használja a 'using' kulcsszót, vagy zárja be az adatfolyamot használat után. |
 
 ### Lásd még
 

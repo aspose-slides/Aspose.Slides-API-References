@@ -1,14 +1,14 @@
 ---
 title: AlphaModulateFixed
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示 Alpha Modulate Fixed 效果。效果的 alpha 不透明度值将乘以固定的百分比。
+description: 表示 Alpha Modulate Fixed 效果。效果的 alpha 不透明度值乘以固定的百分比。
 type: docs
-weight: 2890
+weight: 2910
 url: /zh/aspose.slides.effects/alphamodulatefixed/
 ---
-## AlphaModulateFixed 类
+## AlphaModulateFixed class
 
-表示 Alpha Modulate Fixed 效果。效果的 alpha（不透明度）值将乘以固定的百分比。
+表示 Alpha Modulate Fixed 效果。效果的 alpha（不透明度）值乘以固定的百分比。
 
 ```csharp
 public sealed class AlphaModulateFixed : ImageTransformOperation, IAlphaModulateFixed
@@ -16,20 +16,20 @@ public sealed class AlphaModulateFixed : ImageTransformOperation, IAlphaModulate
 
 ## 属性
 
-| 名称 | 说明 |
+| Name | Description |
 | --- | --- |
 | [Amount](../../aspose.slides.effects/alphamodulatefixed/amount) { get; set; } | 返回效果的百分比值。读/写 Single。 |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基础 IPresentationComponent 接口。只读 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
 
 ## 方法
 
-| 名称 | 说明 |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphamodulatefixed/equals)(object) | 确定指定的 [`AlphaModulateFixed`](../alphamodulatefixed) 是否等于当前的 [`AlphaModulateFixed`](../alphamodulatefixed)。 |
 | [GetEffective](../../aspose.slides.effects/alphamodulatefixed/geteffective)() | 获取在应用继承后的有效 Alpha Modulate Fixed 效果数据。 |
-| override [GetHashCode](../../aspose.slides.effects/alphamodulatefixed/gethashcode)() | 作为特定类型的哈希函数。 |
+| override [GetHashCode](../../aspose.slides.effects/alphamodulatefixed/gethashcode)() | 作为特定类型的散列函数。 |
 
-### 参见
+### 另请参见
 
 * 类 [ImageTransformOperation](../imagetransformoperation)
 * 接口 [IAlphaModulateFixed](../ialphamodulatefixed)

@@ -3,7 +3,7 @@ title: IMathGroupingCharacterFactory
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Memungkinkan membuat karakter pengelompokan matematika
 type: docs
-weight: 8300
+weight: 8320
 url: /id/aspose.slides.mathtext/imathgroupingcharacterfactory/
 ---
 ## IMathGroupingCharacterFactory antarmuka
@@ -21,7 +21,7 @@ public interface IMathGroupingCharacterFactory
 | [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter)(IMathElement) | Membuat karakter pengelompokan matematika |
 | [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter_1)(IMathElement, char, MathTopBotPositions, MathTopBotPositions) | Membuat karakter pengelompokan matematika |
 
-### Catatan
+### Keterangan
 
 Untuk kompatibilitas COM
 

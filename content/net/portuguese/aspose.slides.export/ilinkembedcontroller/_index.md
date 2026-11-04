@@ -1,9 +1,9 @@
 ---
 title: ILinkEmbedController
-second_title: Referência da API Aspose.Sildes for .NET
-description: Interface de retorno de chamada usada para determinar como o objeto deve ser processado durante a gravação.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Interface de callback usada para determinar como o objeto deve ser processado durante a gravação.
 type: docs
-weight: 3990
+weight: 4010
 url: /pt/aspose.slides.export/ilinkembedcontroller/
 ---
 ## ILinkEmbedController interface
@@ -18,9 +18,9 @@ public interface ILinkEmbedController
 
 | Nome | Descrição |
 | --- | --- |
-| [GetObjectStoringLocation](../../aspose.slides.export/ilinkembedcontroller/getobjectstoringlocation)(int, byte[], string, string, string) | Determina onde o objeto deve ser armazenado. Este método é chamado uma vez para cada ID de objeto. Não há garantia de que não existam dois objetos com os mesmos dados, semanticName e contentType, mas com IDs diferentes. |
-| [GetUrl](../../aspose.slides.export/ilinkembedcontroller/geturl)(int, int) | Retorna uma URL para um objeto externo. Este método é sempre chamado se [`GetObjectStoringLocation`](./getobjectstoringlocation) retornou Link e pode ser chamado se [`GetObjectStoringLocation`](./getobjectstoringlocation) retornou Embed, mas a incorporação for impossível. Pode ser chamado várias vezes para o mesmo ID de objeto. |
-| [SaveExternal](../../aspose.slides.export/ilinkembedcontroller/saveexternal)(int, byte[]) | Salva objeto externo. |
+| [GetObjectStoringLocation](../../aspose.slides.export/ilinkembedcontroller/getobjectstoringlocation)(int, byte[], string, string, string) | Determina onde o objeto deve ser armazenado. Este método é chamado uma vez para cada id de objeto. Não há garantia de que não haverá dois objetos com os mesmos dados, semanticName e contentType, mas com id diferente. |
+| [GetUrl](../../aspose.slides.export/ilinkembedcontroller/geturl)(int, int) | Retorna uma URL para um objeto externo. Este método é sempre chamado se [`GetObjectStoringLocation`](./getobjectstoringlocation) retornou Link e pode ser chamado se [`GetObjectStoringLocation`](./getobjectstoringlocation) retornou Embed, mas a incorporação é impossível. Pode ser chamado várias vezes para o mesmo id de objeto. |
+| [SaveExternal](../../aspose.slides.export/ilinkembedcontroller/saveexternal)(int, byte[]) | Salva o objeto externo. |
 
 ### Veja Também
 

@@ -3,10 +3,10 @@ title: EmbeddingLevel
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar licensrättigheterna för att bädda in teckensnittet.
 type: docs
-weight: 3670
+weight: 3690
 url: /sv/aspose.slides/embeddinglevel/
 ---
-## EmbeddingLevel-enumeration
+## EmbeddingLevel enumeration
 
 Representerar licensrättigheterna för att bädda in teckensnittet.
 
@@ -19,12 +19,12 @@ public enum EmbeddingLevel : ushort
 
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Installable | `0` | Teckensnitt med denna inställning indikerar att de kan bäddas in och permanent installeras på det fjärran systemet av en applikation. Användaren av det fjärran systemet får samma rättigheter, skyldigheter och licenser för det teckensnittet som den ursprungliga köparen av teckensnittet, och är bunden av samma slut-användarlicensavtal, upphovsrätt, designpatent och/eller varumärke som den ursprungliga köparen. |
-| Restricted | `2` | Teckensnitt som endast har den här biten satta får inte modifieras, bäddas in eller utbytas på något sätt utan först ha inhämtat tillstånd från den rättsliga ägaren. |
-| PreviewPrint | `4` | När den här biten är satt kan teckensnittet bäddas in och temporärt laddas på det fjärran systemet. Dokument som innehåller Preview &amp; Print-teckensnitt måste öppnas "read-only"; inga redigeringar kan göras i dokumentet. |
-| Editable | `8` | När den här biten är satt kan teckensnittet bäddas in men får endast installeras temporärt på andra system. Till skillnad från Preview &amp; Print-teckensnitt kan dokument som innehåller Editable-teckensnitt öppnas för läsning, redigering är tillåten och ändringar kan sparas. |
-| NoSubsetting | `100` | När den här biten är satt får teckensnittet inte underdelas innan inbäddning. Andra inbäddningsrestriktioner som specificeras i bitarna 0-3 och 9 gäller också. |
-| BitmapOnly | `200` | När den här biten är satt får endast bitmapbilder som finns i teckensnittet bäddas in. Ingen konturdata får bäddas in. Om det inte finns några bitmapbilder tillgängliga i teckensnittet anses teckensnittet oinbäddningsbart och inbäddningstjänsterna kommer att misslyckas. |
+| Installable | `0` | Typsnitt med denna inställning indikerar att de kan bäddas in och permanent installeras på fjärrsystemet av en applikation. Användaren av fjärrsystemet får samma rättigheter, skyldigheter och licenser för det teckensnittet som den ursprungliga köparen av teckensnittet, och är föremål för samma slutanvändarlicensavtal, upphovsrätt, designpatent och/eller varumärke som den ursprungliga köparen. |
+| Restricted | `2` | Typsnitt som bara har denna bit satt får inte modifieras, bäddas in eller utbytas på något sätt utan att först inhämta tillstånd från den rättsliga ägaren. |
+| PreviewPrint | `4` | När denna bit är satt får teckensnittet bäddas in och tillfälligt laddas på fjärrsystemet. Dokument som innehåller Preview &amp; Print-teckensnitt måste öppnas "read-only;" inga redigeringar kan tillämpas på dokumentet. |
+| Editable | `8` | När denna bit är satt får teckensnittet bäddas in men får endast installeras tillfälligt på andra system. Till skillnad från Preview &amp; Print-teckensnitt kan dokument som innehåller Editable-teckensnitt öppnas för läsning, redigering är tillåten och ändringar kan sparas. |
+| NoSubsetting | `100` | När denna bit är satt får teckensnittet inte subsetas innan inbäddning. Andra inbäddningsrestriktioner som anges i bitarna 0-3 och 9 gäller också. |
+| BitmapOnly | `200` | När denna bit är satt får endast bitmaps som finns i teckensnittet bäddas in. Ingen konturdata får bäddas in. Om det inte finns några bitmaps tillgängliga i teckensnittet anses teckensnittet vara icke-inbäddningsbart och inbäddningstjänsterna kommer misslyckas. |
 
 ### Se även
 

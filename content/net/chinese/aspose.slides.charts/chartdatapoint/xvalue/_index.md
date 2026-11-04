@@ -1,21 +1,20 @@
 ---
 title: XValue
-second_title: Aspose.Sildes for .NET API Reference
-description: XValue. 只读 IStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue。
+second_title: Aspose.Sildes .NET API 参考
+description: XValue. 只读 IStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue.
 type: docs
-weight: 200
+weight: 240
 url: /zh/aspose.slides.charts/chartdatapoint/xvalue/
 ---
-
 ## ChartDataPoint.XValue 属性
 
-XValue. 只读 [`IStringOrDoubleChartValue`](../../istringordoublechartvalue)。
+XValue. 只读 [`IStringOrDoubleChartValue`](../../istringordoublechartvalue).
 
 ```csharp
 public IStringOrDoubleChartValue XValue { get; }
 ```
 
-### 参见
+### 另请参阅
 
 * 接口 [IStringOrDoubleChartValue](../../istringordoublechartvalue)
 * 类 [ChartDataPoint](../../chartdatapoint)

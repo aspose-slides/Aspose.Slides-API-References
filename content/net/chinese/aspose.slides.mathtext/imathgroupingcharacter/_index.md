@@ -3,7 +3,7 @@ title: IMathGroupingCharacter
 second_title: Aspose.Sildes for .NET API 参考
 description: 指定表达式上方或下方的分组符号，通常用于突出元素之间的关系
 type: docs
-weight: 8290
+weight: 8310
 url: /zh/aspose.slides.mathtext/imathgroupingcharacter/
 ---
 ## IMathGroupingCharacter 接口
@@ -20,9 +20,9 @@ public interface IMathGroupingCharacter : IMathElement
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathgroupingcharacter/asimathelement) { get; } | 允许获取基础 IMathElement 接口 [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathgroupingcharacter/base) { get; } | 基础参数 |
-| [Character](../../aspose.slides.mathtext/imathgroupingcharacter/character) { get; set; } | 分组字符 默认值：U+23DF (BOTTOM CURLY BRACKET) |
-| [Position](../../aspose.slides.mathtext/imathgroupingcharacter/position) { get; set; } | 分组字符的位置。默认：Bottom |
-| [VerticalJustification](../../aspose.slides.mathtext/imathgroupingcharacter/verticaljustification) { get; set; } | 组字符的垂直对齐方式。指定对象相对于基线的对齐方式。例如，当组字符位于对象上方时，VerticalJustification 为 Top 表示对象的顶部落在基线上；当 VerticalJustification 设置为 Bottom 时，对象的底部位于基线上。默认：Position=Top 时为 Bottom，Position=Bottom 时为 Top |
+| [Character](../../aspose.slides.mathtext/imathgroupingcharacter/character) { get; set; } | 分组字符 默认值: U+23DF (BOTTOM CURLY BRACKET) |
+| [Position](../../aspose.slides.mathtext/imathgroupingcharacter/position) { get; set; } | 分组字符的位置。默认: Bottom |
+| [VerticalJustification](../../aspose.slides.mathtext/imathgroupingcharacter/verticaljustification) { get; set; } | 组字符的垂直对齐方式。指定对象相对于基线的对齐方式。例如，当组字符位于对象上方时，VerticalJustification 为 Top 表示对象的顶部位于基线；当 VerticalJustification 设置为 Bottom 时，对象的底部位于基线。默认: Bottom（当 Position=Top 时），以及 Top（当 Position=Bottom 时） |
 
 ### 示例
 
@@ -33,7 +33,7 @@ public interface IMathGroupingCharacter : IMathElement
 IMathGroupingCharacter groupingElement = new MathematicalText("x;y;z").Group();
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IMathElement](../imathelement)
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

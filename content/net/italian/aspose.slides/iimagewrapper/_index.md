@@ -1,14 +1,14 @@
 ---
 title: IImageWrapper
-second_title: Riferimento API di Aspose.Sildes per .NET
-description: Wrapper di System.Drawing.Image per l'interfaccia COM.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Wrapper System.Drawing.Image per interfaccia COM.
 type: docs
-weight: 6170
+weight: 6190
 url: /it/aspose.slides/iimagewrapper/
 ---
-## IImageWrapper interfaccia
+## IImageWrapper interface
 
-System.Drawing.Image wrapper per l'interfaccia COM.
+Wrapper System.Drawing.Image per interfaccia COM.
 
 ```csharp
 public interface IImageWrapper : IDisposable
@@ -19,14 +19,14 @@ public interface IImageWrapper : IDisposable
 | Nome | Descrizione |
 | --- | --- |
 | [AsIDisposable](../../aspose.slides/iimagewrapper/asidisposable) { get; } | Restituisce l'interfaccia IDisposable. Solo lettura IDisposable. |
-| [ImageSource](../../aspose.slides/iimagewrapper/imagesource) { get; } | Ottiene l'immagine Image. Solo lettura Image. |
-| [Size](../../aspose.slides/iimagewrapper/size) { get; } | Ottiene la larghezza e l'altezza, in pixel, dell'Image. Solo lettura [`Size`](./size). |
+| [ImageSource](../../aspose.slides/iimagewrapper/imagesource) { get; } | Ottiene l'immagine Image di sola lettura. |
+| [Size](../../aspose.slides/iimagewrapper/size) { get; } | Ottiene la larghezza e l'altezza, in pixel, dell'Image Read-only [`Size`](./size). |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Save](../../aspose.slides/iimagewrapper/save#save_1)(string) | Salva Image nel file specificato. |
+| [Save](../../aspose.slides/iimagewrapper/save#save_1)(string) | Salva Image nel file specificato |
 | [Save](../../aspose.slides/iimagewrapper/save#save)(Stream, PPImageFormat) | Salva l'Image nello stream specificato nel formato specificato. |
 | [Save](../../aspose.slides/iimagewrapper/save#save_2)(string, PPImageFormat) | Salva l'Image nel file specificato nel formato specificato. |
 

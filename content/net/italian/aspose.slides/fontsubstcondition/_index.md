@@ -1,14 +1,14 @@
 ---
 title: FontSubstCondition
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta una regola per la sostituzione dei caratteri
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta una regola per la sostituzione dei font
 type: docs
-weight: 4880
+weight: 4900
 url: /it/aspose.slides/fontsubstcondition/
 ---
 ## FontSubstCondition enumerazione
 
-Rappresenta una regola per la sostituzione dei caratteri
+Rappresenta una regola per la sostituzione dei font
 
 ```csharp
 public enum FontSubstCondition
@@ -18,7 +18,7 @@ public enum FontSubstCondition
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| WhenInaccessible | `0` | Sostituisci quando il carattere non è trovato |
+| WhenInaccessible | `0` | Sostituisci quando il font non è trovato |
 | Always | `1` | Sostituisci sempre |
 
 ### Vedi anche

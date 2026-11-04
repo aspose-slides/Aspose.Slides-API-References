@@ -1,9 +1,9 @@
 ---
 title: IMathBlockFactory
-second_title: Aspose.Sildes a .NET API referencia
-description: Lehetővé teszi egy matematikai blokk létrehozását
+second_title: Aspose.Sildes .NET API-referencia
+description: Lehetővé teszi matematikai blokk létrehozását
 type: docs
-weight: 8160
+weight: 8180
 url: /hu/aspose.slides.mathtext/imathblockfactory/
 ---
 ## IMathBlockFactory interfész
@@ -22,9 +22,9 @@ public interface IMathBlockFactory
 | [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_1)(IMathElement) | Matematikai blokk létrehozása és az elem elhelyezése benne |
 | [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_2)(IMathElementCollection) | Matematikai blokk létrehozása és elemek elhelyezése benne |
 
-### Megjegyzések
+### Megjegyzés
 
-A COM kompatibilitás miatt
+COM-kompatibilitás érdekében
 
 ### Lásd még
 

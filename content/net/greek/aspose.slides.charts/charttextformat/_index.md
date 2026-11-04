@@ -1,9 +1,9 @@
 ---
 title: ChartTextFormat
-second_title: Aspose.Sildes για .NET API Αναφορά
+second_title: Aspose.Sildes για .NET Αναφορά API
 description: Καθορίζει την προεπιλεγμένη μορφοποίηση κειμένου για τα στοιχεία κειμένου διαγράμματος.
 type: docs
-weight: 1480
+weight: 1490
 url: /el/aspose.slides.charts/charttextformat/
 ---
 ## ChartTextFormat κλάση
@@ -18,20 +18,20 @@ public class ChartTextFormat : IChartTextFormat
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [ParagraphFormat](../../aspose.slides.charts/charttextformat/paragraphformat) { get; } | ParagraphFormat. Μόνο για ανάγνωση [`IChartParagraphFormat`](../ichartparagraphformat). |
-| [PortionFormat](../../aspose.slides.charts/charttextformat/portionformat) { get; } | PortionFormat. Μόνο για ανάγνωση [`IChartPortionFormat`](../ichartportionformat). |
-| [TextBlockFormat](../../aspose.slides.charts/charttextformat/textblockformat) { get; } | TextBlockFormat. Μόνο για ανάγνωση [`IChartTextBlockFormat`](../icharttextblockformat). |
+| [ParagraphFormat](../../aspose.slides.charts/charttextformat/paragraphformat) { get; } | ParagraphFormat. Μόνο-για-ανάγνωση [`IChartParagraphFormat`](../ichartparagraphformat). |
+| [PortionFormat](../../aspose.slides.charts/charttextformat/portionformat) { get; } | PortionFormat. Μόνο-για-ανάγνωση [`IChartPortionFormat`](../ichartportionformat). |
+| [TextBlockFormat](../../aspose.slides.charts/charttextformat/textblockformat) { get; } | TextBlockFormat. Μόνο-για-ανάγνωση [`IChartTextBlockFormat`](../icharttextblockformat). |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [CopyFrom](../../aspose.slides.charts/charttextformat/copyfrom)(ITextFrame) | Αντιγράφει τη μορφοποίηση κειμένου από το καθορισμένο πλαίσιο κειμένου. |
-| [CopyTo](../../aspose.slides.charts/charttextformat/copyto)(ITextFrame) | Αντιγράφει τη μορφοποίηση κειμένου στο καθορισμένο πλαίσιο κειμένου. |
+| [CopyFrom](../../aspose.slides.charts/charttextformat/copyfrom)(ITextFrame) | Αντιγράφει τη μορφή κειμένου από το καθορισμένο πλαίσιο κειμένου. |
+| [CopyTo](../../aspose.slides.charts/charttextformat/copyto)(ITextFrame) | Αντιγράφει τη μορφή κειμένου στο καθορισμένο πλαίσιο κειμένου. |
 
 ### Δείτε επίσης
 
-* διασύνδεση [IChartTextFormat](../icharttextformat)
+* διεπαφή [IChartTextFormat](../icharttextformat)
 * χώρο ονομάτων [Aspose.Slides.Charts](../../aspose.slides.charts)
 * συναρμολόγηση [Aspose.Slides](../../)
 

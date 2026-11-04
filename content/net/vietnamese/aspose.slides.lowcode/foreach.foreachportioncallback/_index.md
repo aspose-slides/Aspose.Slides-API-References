@@ -1,9 +1,9 @@
 ---
 title: ForEach.ForEachPortionCallback
-second_title: Tài liệu tham chiếu API Aspose.Sildes cho .NET
+second_title: Aspose.Sildes cho Tham chiếu API .NET
 description: Callback sẽ được gọi cho mỗi Portion./foreach/portion trong Paragraph./foreach/paragraph trên BaseSlide../aspose.slides/baseslide.
 type: docs
-weight: 7940
+weight: 7960
 url: /vi/aspose.slides.lowcode/foreach.foreachportioncallback/
 ---
 ## ForEach.ForEachPortionCallback delegate
@@ -17,10 +17,10 @@ public delegate void ForEachPortionCallback(Portion portion, Paragraph para, Bas
 
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
-| portion | Portion | Current iterated portion |
-| para | Paragraph | Current iterated paragraph |
-| slide | BaseSlide | Current iterated slide |
-| index | Int32 | Index of the current portion in the paragraph |
+| portion | Portion | portion hiện đang được lặp |
+| para | Paragraph | paragraph hiện đang được lặp |
+| slide | BaseSlide | slide hiện đang được lặp |
+| index | Int32 | Chỉ mục của portion hiện tại trong paragraph |
 
 ### Xem thêm
 

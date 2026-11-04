@@ -1,14 +1,14 @@
 ---
 title: ILayoutPlaceholderManager
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje správce, který umožňuje přidávat zástupné objekty do snímku rozvržení.
+description: Představuje správce, který vám umožňuje přidávat zástupné objekty do snímku rozložení.
 type: docs
-weight: 6210
+weight: 6230
 url: /cs/aspose.slides/ilayoutplaceholdermanager/
 ---
 ## ILayoutPlaceholderManager rozhraní
 
-Reprezentuje správce, který umožňuje přidávat zástupné objekty do snímku rozvržení.
+Představuje správce, který vám umožňuje přidávat zástupné objekty do snímku rozložení.
 
 ```csharp
 public interface ILayoutPlaceholderManager
@@ -18,16 +18,16 @@ public interface ILayoutPlaceholderManager
 
 | Název | Popis |
 | --- | --- |
-| [AddChartPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | Přidá nový tvar zástupného objektu do snímku rozvržení pro umístění grafu. |
-| [AddContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | Přidá nový tvar zástupného objektu do snímku rozvržení pro uchování obsahu, jako je obrázek, tabulka, multimédia nebo text. |
-| [AddMediaPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | Přidá nový tvar zástupného objektu do snímku rozvržení pro uchování mediálního objektu. |
-| [AddOnlineImagePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | Přidá nový tvar zástupného objektu do snímku rozvržení pro uchování online obrázku. |
-| [AddPicturePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | Přidá nový tvar zástupného objektu do snímku rozvržení pro uchování obrázku. |
-| [AddSmartArtPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | Přidá nový tvar zástupného objektu do snímku rozvržení pro uchování diagramu SmartArt. |
-| [AddTablePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | Přidá nový tvar zástupného objektu do snímku rozvržení pro uchování tabulky. |
-| [AddTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | Přidá nový tvar zástupného objektu do snímku rozvržení pro uchování textového obsahu. |
-| [AddVerticalContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | Přidá nový tvar zástupného objektu do snímku rozvržení pro uchování obsahu, jako je obrázek, tabulka, multimédia nebo text, ve vertikálním směru. |
-| [AddVerticalTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | Přidá nový tvar zástupného objektu do snímku rozvržení pro uchování textového obsahu ve vertikálním směru. |
+| [AddChartPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | Přidá nový tvar zástupného objektu do snímku rozložení, který bude obsahovat graf. |
+| [AddContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | Přidá nový tvar zástupného objektu do snímku rozložení, který bude obsahovat obsah, například obrázek, tabulku, média nebo text. |
+| [AddMediaPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | Přidá nový tvar zástupného objektu do snímku rozložení, který bude obsahovat mediální objekt. |
+| [AddOnlineImagePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | Přidá nový tvar zástupného objektu do snímku rozložení, který bude obsahovat online obrázek. |
+| [AddPicturePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | Přidá nový tvar zástupného objektu do snímku rozložení, který bude obsahovat obrázek. |
+| [AddSmartArtPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | Přidá nový tvar zástupného objektu do snímku rozložení, který bude obsahovat diagram SmartArt. |
+| [AddTablePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | Přidá nový tvar zástupného objektu do snímku rozložení, který bude obsahovat tabulku. |
+| [AddTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | Přidá nový tvar zástupného objektu do snímku rozložení, který bude obsahovat textový obsah. |
+| [AddVerticalContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | Přidá nový tvar zástupného objektu do snímku rozložení, který bude obsahovat obsah, například obrázek, tabulku, média nebo text ve svislém směru. |
+| [AddVerticalTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | Přidá nový tvar zástupného objektu do snímku rozložení, který bude obsahovat textový obsah ve svislém směru. |
 
 ### Viz také
 

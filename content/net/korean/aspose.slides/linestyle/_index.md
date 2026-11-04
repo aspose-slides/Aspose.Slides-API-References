@@ -1,9 +1,9 @@
 ---
 title: LineStyle
-second_title: Aspose.Sildes .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 선의 스타일을 나타냅니다.
 type: docs
-weight: 7820
+weight: 7840
 url: /ko/aspose.slides/linestyle/
 ---
 ## LineStyle 열거형
@@ -25,7 +25,7 @@ public enum LineStyle : sbyte
 | ThinThick | `3` |  |
 | ThickBetweenThin | `4` |  |
 
-### 참조
+### 추가 보기
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

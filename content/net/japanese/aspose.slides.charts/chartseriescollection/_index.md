@@ -1,9 +1,9 @@
 ---
 title: ChartSeriesCollection
-second_title: Aspose.Sildes for .NET APIリファレンス
-description: ChartSeries のコレクションを表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: ChartSeries のコレクションを表します。/chartseries
 type: docs
-weight: 1450
+weight: 1460
 url: /ja/aspose.slides.charts/chartseriescollection/
 ---
 ## ChartSeriesCollection クラス
@@ -18,28 +18,28 @@ public class ChartSeriesCollection : DomObject<ChartData>, IChartSeriesCollectio
 
 | 名前 | 説明 |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartseriescollection/count) { get; } | コレクション内のオブジェクト数を返します。読み取り専用の Int32。 |
-| [IsSynchronized](../../aspose.slides.charts/chartseriescollection/issynchronized) { get; } | コレクションへのアクセスが同期されているか (スレッドセーフ) を示す値を返します。読み取り専用の Boolean。 |
+| [Count](../../aspose.slides.charts/chartseriescollection/count) { get; } | コレクション内のオブジェクト数を返します。読み取り専用 Int32。 |
+| [IsSynchronized](../../aspose.slides.charts/chartseriescollection/issynchronized) { get; } | コレクションへのアクセスが同期化されているかどうかを示す値を返します（スレッド セーフ）。読み取り専用 Boolean。 |
 | [Item](../../aspose.slides.charts/chartseriescollection/item) { get; } | 指定されたインデックスの要素を取得します。 |
-| [SyncRoot](../../aspose.slides.charts/chartseriescollection/syncroot) { get; } | 同期ルートを返します。読み取り専用の Object。 |
+| [SyncRoot](../../aspose.slides.charts/chartseriescollection/syncroot) { get; } | 同期ルートを返します。読み取り専用 Object。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add)(ChartType) | 新しいチャート系列を作成し、コレクションに追加します。 |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add_1)(IChartCellCollection, ChartType) | [`ChartCellCollection`](../chartcellcollection) から新しいチャート系列を作成し、コレクションに追加します。 |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add_2)(IChartDataCell, ChartType) | [`ChartDataCell`](../chartdatacell) から新しいチャート系列を作成し、コレクションに追加します。 |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add_3)(string, ChartType) | 値から新しいチャート系列を作成し、コレクションに追加します。 |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add)(ChartType) | 新しいチャートシリーズを作成し、コレクションに追加します。 |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add_1)(IChartCellCollection, ChartType) | [`ChartCellCollection`](../chartcellcollection) から新しいチャートシリーズを作成し、コレクションに追加します。 |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add_2)(IChartDataCell, ChartType) | [`ChartDataCell`](../chartdatacell) から新しいチャートシリーズを作成し、コレクションに追加します。 |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add_3)(string, ChartType) | 値から新しいチャートシリーズを作成し、コレクションに追加します。 |
 | [Clear](../../aspose.slides.charts/chartseriescollection/clear)() | コレクションからすべてのコントロールを削除します。 |
 | [CopyTo](../../aspose.slides.charts/chartseriescollection/copyto)(Array, int) | コレクション全体を指定された配列にコピーします。 |
-| [GetEnumerator](../../aspose.slides.charts/chartseriescollection/getenumerator)() | コレクションを列挙する列挙子を返します。 |
-| [IndexOf](../../aspose.slides.charts/chartseriescollection/indexof)(IChartSeries) | 指定された [`ChartSeries`](../chartseries) を検索し、コレクション全体内での最初の出現位置のゼロベースインデックスを返します。 |
-| [Insert](../../aspose.slides.charts/chartseriescollection/insert)(int, ChartType) | 新しいチャート系列を作成し、コレクションに挿入します。 |
+| [GetEnumerator](../../aspose.slides.charts/chartseriescollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
+| [IndexOf](../../aspose.slides.charts/chartseriescollection/indexof)(IChartSeries) | 指定された [`ChartSeries`](../chartseries) を検索し、コレクション全体で最初に出現した位置の0ベースインデックスを返します。 |
+| [Insert](../../aspose.slides.charts/chartseriescollection/insert)(int, ChartType) | 新しいチャートシリーズを作成し、コレクションに挿入します。 |
 | [Remove](../../aspose.slides.charts/chartseriescollection/remove)(IChartSeries) | 指定された値を削除します。 |
-| [RemoveAt](../../aspose.slides.charts/chartseriescollection/removeat)(int) | コレクション内の指定された位置に格納された ActiveX コントロールを削除します。 |
+| [RemoveAt](../../aspose.slides.charts/chartseriescollection/removeat)(int) | 指定された位置に格納されている ActiveX コントロールをコレクションから削除します。 |
 
-### 参照
+### 関連項目
 
 * クラス [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * クラス [ChartData](../chartdata)

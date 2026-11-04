@@ -3,7 +3,7 @@ title: IExcelDataCell
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt een enkele cel in een Excel-werkmap voor.
 type: docs
-weight: 3700
+weight: 3720
 url: /nl/aspose.slides.excel/iexceldatacell/
 ---
 ## IExcelDataCell interface
@@ -18,9 +18,9 @@ public interface IExcelDataCell
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Column](../../aspose.slides.excel/iexceldatacell/column) { get; } | Haalt de nulgebaseerde index van de kolom op in het werkblad waarin de cel zich bevindt. Alleen-lezen Int32. |
+| [Column](../../aspose.slides.excel/iexceldatacell/column) { get; } | Haalt de nulgebaseerde index van de kolom op in het werkblad waar de cel zich bevindt. Alleen-lezen Int32. |
 | [Name](../../aspose.slides.excel/iexceldatacell/name) { get; } | Haalt de naam van de grafiekgegevenscel op. Alleen-lezen String. |
-| [Row](../../aspose.slides.excel/iexceldatacell/row) { get; } | Haalt de nulgebaseerde index van de rij op in het werkblad waarin de cel zich bevindt. Alleen-lezen Int32. |
+| [Row](../../aspose.slides.excel/iexceldatacell/row) { get; } | Haalt de nulgebaseerde index van de rij op in het werkblad waar de cel zich bevindt. Alleen-lezen Int32. |
 | [Value](../../aspose.slides.excel/iexceldatacell/value) { get; } | Haalt de waarde op die in de Excel-cel staat. Alleen-lezen Object. |
 
 ### Zie ook

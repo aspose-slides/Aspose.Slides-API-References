@@ -1,12 +1,12 @@
 ---
 title: ISplitTransition
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
 description: स्लाइड विभाजन संक्रमण प्रभाव।
 type: docs
-weight: 10200
+weight: 10220
 url: /hi/aspose.slides.slideshow/isplittransition/
 ---
-## ISplitTransition interface
+## ISplitTransition इंटरफ़ेस
 
 स्लाइड विभाजन संक्रमण प्रभाव।
 
@@ -18,11 +18,11 @@ public interface ISplitTransition : ITransitionValueBase
 
 | नाम | विवरण |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/isplittransition/asitransitionvaluebase) { get; } | बेस ITransitionValueBase इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़नीय [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/isplittransition/direction) { get; set; } | संक्रमण विभाजन की दिशा। पढ़ने/लिखने योग्य [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Orientation](../../aspose.slides.slideshow/isplittransition/orientation) { get; set; } | संक्रमण विभाजन की अभिविन्यास। पढ़ने/लिखने योग्य [`Orientation`](../../aspose.slides/orientation). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/isplittransition/asitransitionvaluebase) { get; } | बेस ITransitionValueBase इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`ITransitionValueBase`](../itransitionvaluebase)। |
+| [Direction](../../aspose.slides.slideshow/isplittransition/direction) { get; set; } | संक्रमण विभाजन की दिशा। पढ़ने/लिखने योग्य [`TransitionInOutDirectionType`](../transitioninoutdirectiontype)। |
+| [Orientation](../../aspose.slides.slideshow/isplittransition/orientation) { get; set; } | संक्रमण विभाजन का अभिविन्यास। पढ़ने/लिखने योग्य [`Orientation`](../../aspose.slides/orientation)। |
 
-### संबंधित देखें
+### और देखें
 
 * इंटरफ़ेस [ITransitionValueBase](../itransitionvaluebase)
 * नामस्थान [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

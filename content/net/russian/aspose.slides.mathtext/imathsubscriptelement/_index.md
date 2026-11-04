@@ -1,14 +1,14 @@
 ---
 title: IMathSubscriptElement
-second_title: Aspose.Sildes для .NET – справочник API
-description: Определяет объект нижнего индекса, который состоит из основания и уменьшенного нижнего индекса, расположенного ниже и справа.
+second_title: Aspose.Sildes для .NET API Reference
+description: Определяет объект нижнего индекса, который состоит из основания и уменьшенного по размеру индекса, размещённого ниже и правее.
 type: docs
-weight: 8470
+weight: 8490
 url: /ru/aspose.slides.mathtext/imathsubscriptelement/
 ---
 ## IMathSubscriptElement интерфейс
 
-Определяет объект нижнего индекса, который состоит из основания и уменьшенного нижнего индекса, расположенного ниже и справа.
+Определяет объект нижнего индекса, который состоит из основания и сниженного по размеру индекса, размещённого ниже и правее.
 
 ```csharp
 public interface IMathSubscriptElement : IMathElement
@@ -20,7 +20,7 @@ public interface IMathSubscriptElement : IMathElement
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathsubscriptelement/asimathelement) { get; } | Позволяет получить базовый интерфейс IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathsubscriptelement/base) { get; } | Базовый аргумент |
-| [Subscript](../../aspose.slides.mathtext/imathsubscriptelement/subscript) { get; } | Подстрочный индекс |
+| [Subscript](../../aspose.slides.mathtext/imathsubscriptelement/subscript) { get; } | Субскрипт |
 
 ### Примеры
 
@@ -31,7 +31,7 @@ public interface IMathSubscriptElement : IMathElement
 IMathSubscriptElement subscriptElement = new MathematicalText("N").SetSubscript("i");
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IMathElement](../imathelement)
 * пространство имён [Aspose.Slides.MathText](../../aspose.slides.mathtext)

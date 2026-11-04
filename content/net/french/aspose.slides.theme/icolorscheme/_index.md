@@ -3,7 +3,7 @@ title: IColorScheme
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Stocke les couleurs définies par le thème.
 type: docs
-weight: 11150
+weight: 11170
 url: /fr/aspose.slides.theme/icolorscheme/
 ---
 ## IColorScheme interface
@@ -18,18 +18,18 @@ public interface IColorScheme : ISlideComponent
 
 | Nom | Description |
 | --- | --- |
-| [Accent1](../../aspose.slides.theme/icolorscheme/accent1) { get; } | Première couleur d'accent dans le schéma. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent2](../../aspose.slides.theme/icolorscheme/accent2) { get; } | Deuxième couleur d'accent dans le schéma. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent3](../../aspose.slides.theme/icolorscheme/accent3) { get; } | Troisième couleur d'accent dans le schéma. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent4](../../aspose.slides.theme/icolorscheme/accent4) { get; } | Quatrième couleur d'accent dans le schéma. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent5](../../aspose.slides.theme/icolorscheme/accent5) { get; } | Cinquième couleur d'accent dans le schéma. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent6](../../aspose.slides.theme/icolorscheme/accent6) { get; } | Sixième couleur d'accent dans le schéma. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [AsISlideComponent](../../aspose.slides.theme/icolorscheme/asislidecomponent) { get; } | Renvoie l'interface ISlideComponent. Lecture seule [`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [Accent1](../../aspose.slides.theme/icolorscheme/accent1) { get; } | Première couleur d’accent dans le schéma. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent2](../../aspose.slides.theme/icolorscheme/accent2) { get; } | Deuxième couleur d’accent dans le schéma. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent3](../../aspose.slides.theme/icolorscheme/accent3) { get; } | Troisième couleur d’accent dans le schéma. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent4](../../aspose.slides.theme/icolorscheme/accent4) { get; } | Quatrième couleur d’accent dans le schéma. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent5](../../aspose.slides.theme/icolorscheme/accent5) { get; } | Cinquième couleur d’accent dans le schéma. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent6](../../aspose.slides.theme/icolorscheme/accent6) { get; } | Sixième couleur d’accent dans le schéma. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsISlideComponent](../../aspose.slides.theme/icolorscheme/asislidecomponent) { get; } | Renvoie l’interface ISlideComponent. Lecture seule [`ISlideComponent`](../../aspose.slides/islidecomponent). |
 | [Dark1](../../aspose.slides.theme/icolorscheme/dark1) { get; } | Première couleur sombre dans le schéma. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Dark2](../../aspose.slides.theme/icolorscheme/dark2) { get; } | Deuxième couleur sombre dans le schéma. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [FollowedHyperlink](../../aspose.slides.theme/icolorscheme/followedhyperlink) { get; } | Couleur des hyperliens visités. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Hyperlink](../../aspose.slides.theme/icolorscheme/hyperlink) { get; } | Couleur des hyperliens. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Item](../../aspose.slides.theme/icolorscheme/item) { get; } | Obtient l'élément à l'index spécifié. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Item](../../aspose.slides.theme/icolorscheme/item) { get; } | Obtient l’élément à l’index spécifié. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Light1](../../aspose.slides.theme/icolorscheme/light1) { get; } | Première couleur claire dans le schéma. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Light2](../../aspose.slides.theme/icolorscheme/light2) { get; } | Deuxième couleur claire dans le schéma. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
 

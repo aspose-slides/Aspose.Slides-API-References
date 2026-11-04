@@ -1,14 +1,14 @@
 ---
 title: PresentationLockingBehavior
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: लोड करते समय और IPresentation./ipresentation के एक उदाहरण के साथ काम करते समय IPresentation./ipresentation स्रोत फ़ाइल या स्ट्रीम को कैसे संभालना है, यह व्यवहार दर्शाता है।
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: लोड करते समय और IPresentation./ipresentation के एक उदाहरण के साथ काम करते समय IPresentation./ipresentation स्रोत फ़ाइल या Stream को संभालने के संबंध में व्यवहार को दर्शाता है।
 type: docs
-weight: 9630
+weight: 9650
 url: /hi/aspose.slides/presentationlockingbehavior/
 ---
-## PresentationLockingBehavior एन्यूमरेशन
+## PresentationLockingBehavior एन्यूमेरेशन
 
-लोड करते समय और [`IPresentation`](../ipresentation) के एक उदाहरण के साथ काम करते समय [`IPresentation`](../ipresentation) स्रोत (फ़ाइल या स्ट्रीम) को कैसे संभालना चाहिए, इस व्यवहार को दर्शाता है।
+[`IPresentation`](../ipresentation) स्रोत (फ़ाइल या Stream) को लोड करते समय और [`IPresentation`](../ipresentation) के एक उदाहरण के साथ काम करते समय व्यवहार को दर्शाता है।
 
 ```csharp
 public enum PresentationLockingBehavior
@@ -18,12 +18,12 @@ public enum PresentationLockingBehavior
 
 | नाम | मान | विवरण |
 | --- | --- | --- |
-| LoadAndRelease | `0` | स्रोत को केवल [`IPresentation`](../ipresentation) कन्स्ट्रक्टर निष्पादन के समय के लिए लॉक किया जाएगा। यदि [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) को false सेट किया जाता है, तो सभी BLOBs मेमोरी में लोड हो जाएंगे। अन्यथा, अस्थायी फ़ाइलों जैसी अन्य विधियों का उपयोग किया जा सकता है। यह व्यवहार KeepLocked की तुलना में धीमा है, और यदि स्रोत का स्वामित्व [`IPresentation`](../ipresentation) को पास करना संभव हो, तो KeepLocked का उपयोग करने की सिफ़ारिश की जाती है। |
-| KeepLocked | `1` | स्रोत को [`IPresentation`](../ipresentation) उदाहरण के पूरे जीवनकाल के दौरान लॉक किया जाएगा, जब तक कि उसे डिस्पोज़ नहीं किया जाता। इस व्यवहार का उपयोग करने के लिए [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) को true सेट किया जाना अनिवार्य है, अन्यथा अपवाद फेंका जाएगा। यह व्यवहार सुझाया जाता है, यह LoadAndRelease की तुलना में तेज़ है और कम मेमोरी उपयोग करता है। |
+| LoadAndRelease | `0` | स्रोत को केवल [`IPresentation`](../ipresentation) कंस्ट्रक्टर के निष्पादन के समय के लिए लॉक किया जाएगा। यदि [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) को false सेट किया गया है, तो सभी BLOBs मेमोरी में लोड हो जाएंगे। अन्यथा, अस्थायी फाइलों जैसी अन्य विधियों का उपयोग किया जा सकता है। यह व्यवहार KeepLocked की तुलना में धीमा है, और यदि स्रोत की स्वामित्व को [`IPresentation`](../ipresentation) को पास करना संभव हो, तो KeepLocked का उपयोग करने की सलाह दी जाती है। |
+| KeepLocked | `1` | स्रोत को [`IPresentation`](../ipresentation) उदाहरण के पूरे जीवनकाल के लिए लॉक किया जाएगा, जब तक वह नष्ट नहीं हो जाता। इस व्यवहार का उपयोग करने के लिए [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) को true पर सेट होना आवश्यक है, अन्यथा अपवाद फेंका जाएगा। यह व्यवहार अनुशंसित है, यह LoadAndRelease की तुलना में तेज़ है और कम मेमोरी का उपभोग करता है। |
 
 ### टिप्पणी
 
-स्रोत वह पैरामीटर है जो [`IPresentation`](../ipresentation) कन्स्ट्रक्टर में पास किया जाता है। नीचे के उदाहरण में, स्रोत "pres.pptx" फ़ाइल है:
+स्रोत वह पैरामीटर है जो [`IPresentation`](../ipresentation) कंस्ट्रक्टर को पास किया जाता है। नीचे दिए गए उदाहरण में, स्रोत "pres.pptx" फ़ाइल है:
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions { 
@@ -31,7 +31,7 @@ LoadOptions loadOptions = new LoadOptions {
 using (IPresentation pres = new Presentation("pres.pptx", loadOptions)) { }
 ```
 
-इस उदाहरण के लिए, स्रोत ("pres.pptx" फ़ाइल) [`IPresentation`](../ipresentation) उदाहरण के जीवनकाल के लिए लॉक रहेगा, अर्थात इसे अन्य प्रक्रिया द्वारा बदला या हटाया नहीं जा सकता।
+इस उदाहरण के लिए, स्रोत ("pres.pptx" फ़ाइल) एक [`IPresentation`](../ipresentation) उदाहरण जीवनकाल के लिए लॉक रहेगा, यानी इसे अन्य प्रक्रिया द्वारा बदला या हटाया नहीं जा सकता।
 
 ### देखें
 

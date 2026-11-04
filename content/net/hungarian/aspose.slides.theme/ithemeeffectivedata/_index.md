@@ -1,14 +1,14 @@
 ---
 title: IThemeEffectiveData
-second_title: Aspose.Sildes a .NET API referencia
+second_title: Aspose.Sildes .NET API referencia
 description: Módosíthatatlan objektum, amely a hatékony téma tulajdonságait tartalmazza.
 type: docs
-weight: 11380
+weight: 11400
 url: /hu/aspose.slides.theme/ithemeeffectivedata/
 ---
 ## IThemeEffectiveData interfész
 
-Módosíthatatlan objektum, amely tartalmazza a hatékony téma tulajdonságait.
+Módosíthatatlan objektum, amely a hatékony téma tulajdonságait tartalmazza.
 
 ```csharp
 public interface IThemeEffectiveData
@@ -18,10 +18,10 @@ public interface IThemeEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [FontScheme](../../aspose.slides.theme/ithemeeffectivedata/fontscheme) { get; } | Visszaadja a betűtípus sémát. Csak olvasható [`IFontSchemeEffectiveData`](../ifontschemeeffectivedata). |
-| [FormatScheme](../../aspose.slides.theme/ithemeeffectivedata/formatscheme) { get; } | Visszaadja az alakzat formátumsémáját. Csak olvasható [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata). |
+| [FontScheme](../../aspose.slides.theme/ithemeeffectivedata/fontscheme) { get; } | Visszaadja a betűkészlet sémát. Csak olvasható [`IFontSchemeEffectiveData`](../ifontschemeeffectivedata). |
+| [FormatScheme](../../aspose.slides.theme/ithemeeffectivedata/formatscheme) { get; } | Visszaadja a forma formátum sémát. Csak olvasható [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata). |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
@@ -29,7 +29,7 @@ public interface IThemeEffectiveData
 
 ### Megjegyzés
 
-Ez az interfész a(z) [`ITheme`](../itheme) interfésszel együtt használható, hogy öröklődéssel alkalmazott hatékony formázási értékeket adjon vissza.
+Ez az interfész a [`ITheme`](../itheme) interfésszel együtt használható a hatékony formázási értékek visszaadására, öröklődéssel alkalmazva.
 
 ### Lásd még
 

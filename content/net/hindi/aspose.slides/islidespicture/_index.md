@@ -1,14 +1,14 @@
 ---
 title: ISlidesPicture
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक प्रस्तुति में चित्र का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: प्रस्तुति में एक चित्र का प्रतिनिधित्व करता है।
 type: docs
-weight: 7110
+weight: 7130
 url: /hi/aspose.slides/islidespicture/
 ---
 ## ISlidesPicture इंटरफ़ेस
 
-एक प्रस्तुति में चित्र का प्रतिनिधित्व करता है।
+प्रस्तुति में एक चित्र का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface ISlidesPicture : ISlideComponent
@@ -18,12 +18,12 @@ public interface ISlidesPicture : ISlideComponent
 
 | नाम | विवरण |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/islidespicture/asislidecomponent) { get; } | बेस ISlideComponent इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`ISlideComponent`](../islidecomponent). |
-| [Image](../../aspose.slides/islidespicture/image) { get; set; } | एम्बेडेड छवि को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य [`IPPImage`](../ippimage). |
-| [ImageTransform](../../aspose.slides/islidespicture/imagetransform) { get; } | छवि ट्रांसफ़ॉर्म प्रभावों का संग्रह लौटाता है। केवल पढ़ने योग्य [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
-| [LinkPathLong](../../aspose.slides/islidespicture/linkpathlong) { get; set; } | लिंक्ड इमेज का URL लौटाता या सेट करता है। पढ़ने/लिखने योग्य स्ट्रिंग. |
+| [AsISlideComponent](../../aspose.slides/islidespicture/asislidecomponent) { get; } | आधार ISlideComponent इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`ISlideComponent`](../islidecomponent)। |
+| [Image](../../aspose.slides/islidespicture/image) { get; set; } | एम्बेडेड इमेज को प्राप्त या सेट करता है। पढ़ने/लिखने योग्य [`IPPImage`](../ippimage)। |
+| [ImageTransform](../../aspose.slides/islidespicture/imagetransform) { get; } | इमेज ट्रांसफ़ॉर्म इफ़ेक्ट्स का संग्रह लौटाता है। केवल-पढ़ने योग्य [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection)। |
+| [LinkPathLong](../../aspose.slides/islidespicture/linkpathlong) { get; set; } | लिंक्ड इमेज का URL लौटाता या सेट करता है। पढ़ने/लिखने योग्य String। |
 
-### देखें
+### देखें भी
 
 * इंटरफ़ेस [ISlideComponent](../islidecomponent)
 * नामस्थान [Aspose.Slides](../../aspose.slides)

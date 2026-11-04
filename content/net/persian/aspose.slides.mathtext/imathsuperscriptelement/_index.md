@@ -1,14 +1,14 @@
 ---
 title: IMathSuperscriptElement
 second_title: مرجع API Aspose.Sildes برای .NET
-description: شیء بالانویس را مشخص می‌کند که از یک پایه و یک بالانویس با اندازهٔ کوچک‌تر که بالای پایه و سمت راست قرار دارد، تشکیل شده است
+description: شیء بالانویس را مشخص می‌کند که از یک پایه و یک بالانویس با اندازهٔ کاهش یافته که بالای آن و به سمت راست قرار دارد، تشکیل شده است
 type: docs
-weight: 8490
+weight: 8510
 url: /fa/aspose.slides.mathtext/imathsuperscriptelement/
 ---
-## رابط IMathSuperscriptElement
+## IMathSuperscriptElement رابط
 
-شیء بالانویس را مشخص می‌کند که از یک پایه و یک بالانویس با اندازهٔ کوچک‌تر که بالای پایه و سمت راست قرار دارد، تشکیل شده است
+شیء بالانویس را مشخص می‌کند که از یک پایه و یک بالانویس با اندازهٔ کاهش یافته که بالای آن و به سمت راست قرار دارد، تشکیل شده است
 
 ```csharp
 public interface IMathSuperscriptElement : IMathElement
@@ -16,15 +16,15 @@ public interface IMathSuperscriptElement : IMathElement
 
 ## ویژگی‌ها
 
-| نام | توضیحات |
+| نام | توضیح |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathsuperscriptelement/asimathelement) { get; } | اجازه می‌دهد رابط پایه IMathElement را دریافت کند [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathsuperscriptelement/asimathelement) { get; } | اجازه می‌دهد تا رابط IMathElement پایه را دریافت کند [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathsuperscriptelement/base) { get; } | آرگومان پایه |
 | [Superscript](../../aspose.slides.mathtext/imathsuperscriptelement/superscript) { get; } | بالانویس |
 
 ### مثال‌ها
 
-Example:
+مثال:
 
 ```csharp
 [C#]

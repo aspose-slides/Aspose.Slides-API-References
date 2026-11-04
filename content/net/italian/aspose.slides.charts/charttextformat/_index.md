@@ -1,9 +1,9 @@
 ---
 title: ChartTextFormat
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per il riferimento API .NET
 description: Specifica la formattazione predefinita del testo per gli elementi di testo del grafico.
 type: docs
-weight: 1480
+weight: 1490
 url: /it/aspose.slides.charts/charttextformat/
 ---
 ## ChartTextFormat classe
@@ -18,16 +18,16 @@ public class ChartTextFormat : IChartTextFormat
 
 | Nome | Descrizione |
 | --- | --- |
-| [ParagraphFormat](../../aspose.slides.charts/charttextformat/paragraphformat) { get; } | ParagraphFormat. Solo lettura [`IChartParagraphFormat`](../ichartparagraphformat). |
-| [PortionFormat](../../aspose.slides.charts/charttextformat/portionformat) { get; } | PortionFormat. Solo lettura [`IChartPortionFormat`](../ichartportionformat). |
-| [TextBlockFormat](../../aspose.slides.charts/charttextformat/textblockformat) { get; } | TextBlockFormat. Solo lettura [`IChartTextBlockFormat`](../icharttextblockformat). |
+| [ParagraphFormat](../../aspose.slides.charts/charttextformat/paragraphformat) { get; } | ParagraphFormat. Sola lettura [`IChartParagraphFormat`](../ichartparagraphformat). |
+| [PortionFormat](../../aspose.slides.charts/charttextformat/portionformat) { get; } | PortionFormat. Sola lettura [`IChartPortionFormat`](../ichartportionformat). |
+| [TextBlockFormat](../../aspose.slides.charts/charttextformat/textblockformat) { get; } | TextBlockFormat. Sola lettura [`IChartTextBlockFormat`](../icharttextblockformat). |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [CopyFrom](../../aspose.slides.charts/charttextformat/copyfrom)(ITextFrame) | Copia il formato del testo dal frame di testo specificato. |
-| [CopyTo](../../aspose.slides.charts/charttextformat/copyto)(ITextFrame) | Copia il formato del testo nel frame di testo specificato. |
+| [CopyFrom](../../aspose.slides.charts/charttextformat/copyfrom)(ITextFrame) | Copia la formattazione del testo dal frame di testo specificato. |
+| [CopyTo](../../aspose.slides.charts/charttextformat/copyto)(ITextFrame) | Copia la formattazione del testo nel frame di testo specificato. |
 
 ### Vedi anche
 

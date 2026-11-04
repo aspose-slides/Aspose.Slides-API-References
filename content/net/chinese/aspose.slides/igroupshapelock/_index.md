@@ -3,12 +3,12 @@ title: IGroupShapeLock
 second_title: Aspose.Sildes for .NET API 参考
 description: 确定在父 GroupShape 上禁用哪些操作。
 type: docs
-weight: 6090
+weight: 6110
 url: /zh/aspose.slides/igroupshapelock/
 ---
 ## IGroupShapeLock 接口
 
-确定父 GroupShape 上哪些操作被禁用。
+确定在父 GroupShape 上禁用哪些操作。
 
 ```csharp
 public interface IGroupShapeLock : IBaseShapeLock
@@ -18,16 +18,16 @@ public interface IGroupShapeLock : IBaseShapeLock
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIBaseShapeLock](../../aspose.slides/igroupshapelock/asibaseshapelock) { get; } | 允许获取基础 IBaseShapeLock 接口。只读 [`IBaseShapeLock`](../ibaseshapelock)。 |
-| [AspectRatioLocked](../../aspose.slides/igroupshapelock/aspectratiolocked) { get; set; } | 确定在调整大小时形状是否必须保持宽高比。读/写 Boolean。 |
-| [GroupingLocked](../../aspose.slides/igroupshapelock/groupinglocked) { get; set; } | 确定是否禁止将此形状添加到组中。读/写 Boolean。 |
-| [PositionLocked](../../aspose.slides/igroupshapelock/positionlocked) { get; set; } | 确定是否禁止移动此形状。读/写 Boolean。 |
-| [RotationLocked](../../aspose.slides/igroupshapelock/rotationlocked) { get; set; } | 确定是否禁止更改此形状的旋转角度。读/写 Boolean。 |
-| [SelectLocked](../../aspose.slides/igroupshapelock/selectlocked) { get; set; } | 确定是否禁止选择此形状。读/写 Boolean。 |
-| [SizeLocked](../../aspose.slides/igroupshapelock/sizelocked) { get; set; } | 确定是否禁止调整此形状的大小。读/写 Boolean。 |
-| [UngroupingLocked](../../aspose.slides/igroupshapelock/ungroupinglocked) { get; set; } | 确定是否禁止拆分此组形状。读/写 Boolean。 |
+| [AsIBaseShapeLock](../../aspose.slides/igroupshapelock/asibaseshapelock) { get; } | 允许获取基 IBaseShapeLock 接口。只读 [`IBaseShapeLock`](../ibaseshapelock)。 |
+| [AspectRatioLocked](../../aspose.slides/igroupshapelock/aspectratiolocked) { get; set; } | 确定在调整大小时形状是否必须保持宽高比。读/写 布尔值。 |
+| [GroupingLocked](../../aspose.slides/igroupshapelock/groupinglocked) { get; set; } | 确定是否禁止将此形状添加到组中。读/写 布尔值。 |
+| [PositionLocked](../../aspose.slides/igroupshapelock/positionlocked) { get; set; } | 确定是否禁止移动此形状。读/写 布尔值。 |
+| [RotationLocked](../../aspose.slides/igroupshapelock/rotationlocked) { get; set; } | 确定是否禁止更改此形状的旋转角度。读/写 布尔值。 |
+| [SelectLocked](../../aspose.slides/igroupshapelock/selectlocked) { get; set; } | 确定是否禁止选择此形状。读/写 布尔值。 |
+| [SizeLocked](../../aspose.slides/igroupshapelock/sizelocked) { get; set; } | 确定是否禁止调整此形状的大小。读/写 布尔值。 |
+| [UngroupingLocked](../../aspose.slides/igroupshapelock/ungroupinglocked) { get; set; } | 确定是否禁止拆分此组形状。读/写 布尔值。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IBaseShapeLock](../ibaseshapelock)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

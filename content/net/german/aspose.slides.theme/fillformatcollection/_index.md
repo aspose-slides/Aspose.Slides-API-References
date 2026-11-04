@@ -1,9 +1,9 @@
 ---
 title: FillFormatCollection
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Stellt die Sammlung von Füllstilen dar.
 type: docs
-weight: 11120
+weight: 11140
 url: /de/aspose.slides.theme/fillformatcollection/
 ---
 ## FillFormatCollection Klasse
@@ -14,23 +14,23 @@ Stellt die Sammlung von Füllstilen dar.
 public sealed class FillFormatCollection : DomObject<FormatScheme>, IFillFormatCollection
 ```
 
-## Eigenschaften
+## Properties
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides.theme/fillformatcollection/count) { get; } | Gibt die tatsächlich in der Sammlung enthaltene Anzahl von Elementen zurück. Nur lesend Int32. |
-| [IsSynchronized](../../aspose.slides.theme/fillformatcollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (Thread-sicher) ist. Nur lesend Boolean. |
-| [Item](../../aspose.slides.theme/fillformatcollection/item) { get; } | Gibt das Element am angegebenen Index zurück. Nur lesend [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [SyncRoot](../../aspose.slides.theme/fillformatcollection/syncroot) { get; } | Gibt ein Synchronisationsobjekt zurück. Nur lesend Object. |
+| [Count](../../aspose.slides.theme/fillformatcollection/count) { get; } | Ruft die tatsächlich in der Sammlung enthaltene Anzahl von Elementen ab. Nur-Lese Int32. |
+| [IsSynchronized](../../aspose.slides.theme/fillformatcollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (Thread-sicher) ist. Nur-Lese Boolean. |
+| [Item](../../aspose.slides.theme/fillformatcollection/item) { get; } | Ruft das Element am angegebenen Index ab. Nur-Lese [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [SyncRoot](../../aspose.slides.theme/fillformatcollection/syncroot) { get; } | Gibt ein Synchronisations-Root zurück. Nur-Lese Object. |
 
-## Methoden
+## Methods
 
 | Name | Beschreibung |
 | --- | --- |
 | [CopyTo](../../aspose.slides.theme/fillformatcollection/copyto)(Array, int) | Kopiert alle Elemente der Sammlung in das angegebene Array. |
-| [GetEnumerator](../../aspose.slides.theme/fillformatcollection/getenumerator)() | Gibt einen Enumerator zurück, der durch die Sammlung iteriert. |
+| [GetEnumerator](../../aspose.slides.theme/fillformatcollection/getenumerator)() | Gibt einen Enumerator zurück, der die Sammlung durchläuft. |
 
-### Siehe auch
+### See Also
 
 * Klasse [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * Klasse [FormatScheme](../formatscheme)

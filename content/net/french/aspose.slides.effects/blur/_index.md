@@ -1,14 +1,14 @@
 ---
 title: Blur
 second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Représente un effet Blur appliqué à l’ensemble de la forme, y compris son remplissage. Tous les canaux de couleur, y compris l'alpha, sont affectés.
+description: Représente un effet de flou appliqué à l'ensemble de la forme, y compris son remplissage. Tous les canaux de couleur, y compris l'alpha, sont affectés.
 type: docs
-weight: 2920
+weight: 2940
 url: /fr/aspose.slides.effects/blur/
 ---
-## Blur classe
+## classe Blur
 
-Représente un effet Blur appliqué à l’ensemble de la forme, y compris son remplissage. Tous les canaux de couleur, y compris l’alpha, sont affectés.
+Représente un effet de flou appliqué à l'ensemble de la forme, y compris son remplissage. Tous les canaux de couleur, y compris l'alpha, sont affectés.
 
 ```csharp
 public sealed class Blur : ImageTransformOperation, IBlur
@@ -18,17 +18,17 @@ public sealed class Blur : ImageTransformOperation, IBlur
 
 | Nom | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'obtenir l'interface IPresentationComponent de base. Lecture seule [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | Détermine si les limites de l'objet doivent être agrandies à la suite du flou. True indique que les limites sont agrandies tandis que false indique qu'elles ne le sont pas. Lecture/écriture Boolean. |
-| [Radius](../../aspose.slides.effects/blur/radius) { get; set; } | Renvoie ou définit le rayon du flou. Lecture/écriture Double. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'obtenir l'interface de base IPresentationComponent. Lecture seule [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | Détermine si les limites de l'objet doivent être agrandies à la suite du flou. True indique que les limites sont agrandies, false indique le contraire. Lecture/écriture Boolean. |
+| [Radius](../../aspose.slides.effects/blur/radius) { get; set; } | Retourne ou définit le rayon du flou. Lecture/écriture Double. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/blur/equals)(object) | Détermine si le [`Blur`](../blur) spécifié est égal au [`Blur`](../blur) actuel. |
-| [GetEffective](../../aspose.slides.effects/blur/geteffective)() | Obtient les données effectives de l'effet Blur avec l'héritage appliqué. |
-| override [GetHashCode](../../aspose.slides.effects/blur/gethashcode)() | Fonctionne comme fonction de hachage pour un type particulier. |
+| [GetEffective](../../aspose.slides.effects/blur/geteffective)() | Obtient les données effectives de l'effet de flou avec l'héritage appliqué. |
+| override [GetHashCode](../../aspose.slides.effects/blur/gethashcode)() | Sert de fonction de hachage pour un type particulier. |
 
 ### Voir aussi
 

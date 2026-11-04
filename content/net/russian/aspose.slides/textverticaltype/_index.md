@@ -1,14 +1,14 @@
 ---
 title: TextVerticalType
-second_title: Aspose.Sildes для .NET API справочника
-description: Определяет вертикальный режим написания текста.
+second_title: Aspose.Sildes для .NET справочник API
+description: Определяет вертикальный режим письма для текста.
 type: docs
-weight: 11030
+weight: 11050
 url: /ru/aspose.slides/textverticaltype/
 ---
-## Перечисление TextVerticalType
+## TextVerticalType перечисление
 
-Определяет вертикальный режим написания текста.
+Определяет вертикальный режим письма для текста.
 
 ```csharp
 public enum TextVerticalType : sbyte
@@ -21,11 +21,11 @@ public enum TextVerticalType : sbyte
 | NotDefined | `-1` | Не определено. |
 | Horizontal | `0` | Горизонтальный текст. |
 | Vertical | `1` | Вертикальный текст. |
-| Vertical270 | `2` | Текст, вертикальный на 270 градусов. |
-| WordArtVertical | `3` | Текст WordArt в вертикальном положении. |
+| Vertical270 | `2` | Текст, повернутый на 270 градусов. |
+| WordArtVertical | `3` | Вертикальный текст WordArt. |
 | EastAsianVertical | `4` | Восточноазиатский вертикальный текст. |
 | MongolianVertical | `5` | Монгольский вертикальный текст. |
-| WordArtVerticalRightToLeft | `6` | Текст WordArt вертикальный справа налево. |
+| WordArtVerticalRightToLeft | `6` | Вертикальный текст WordArt справа налево. |
 
 ### См. также
 

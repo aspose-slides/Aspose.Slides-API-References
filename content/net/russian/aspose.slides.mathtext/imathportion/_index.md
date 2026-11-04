@@ -3,7 +3,7 @@ title: IMathPortion
 second_title: Aspose.Sildes для .NET справочник API
 description: Представляет часть с математическим контекстом.
 type: docs
-weight: 8420
+weight: 8440
 url: /ru/aspose.slides.mathtext/imathportion/
 ---
 ## IMathPortion интерфейс
@@ -35,7 +35,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Смотрите также
+### См. также
 
 * пространство имён [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)

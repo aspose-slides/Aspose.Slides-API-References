@@ -1,14 +1,14 @@
 ---
 title: HeadingPair
-second_title: Aspose.Sildes .NET API-referencia
-description: A dokumentum 'Heading pair' tulajdonságát képviseli. Jelzi a dokumentumrészek csoportnevét és a csoportban lévő részek számát.
+second_title: Aspose.Sildes a .NET API hivatkozáshoz
+description: A dokumentum 'Heading pair' tulajdonságát képviseli. Jelzi a dokumentum részeinek csoportnevét és a csoportban lévő részek számát.
 type: docs
-weight: 5110
+weight: 5130
 url: /hu/aspose.slides/headingpair/
 ---
 ## HeadingPair osztály
 
-'Heading pair' tulajdonságát jelenti a dokumentumnak. Ez jelzi a dokumentumrészek csoportnevét és a csoportban lévő részek számát.
+A dokumentum 'Heading pair' tulajdonságát képviseli. Jelzi a dokumentum részeinek csoportnevét és a csoportban lévő részek számát.
 
 ```csharp
 public sealed class HeadingPair : IHeadingPair
@@ -16,10 +16,10 @@ public sealed class HeadingPair : IHeadingPair
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Leírás |
 | --- | --- |
 | [Count](../../aspose.slides/headingpair/count) { get; } | Visszaadja a csoportban lévő részek számát. Csak olvasható Int32. |
-| [Name](../../aspose.slides/headingpair/name) { get; } | Visszaadja a dokumentumrészek csoportnevét. Csak olvasható String. |
+| [Name](../../aspose.slides/headingpair/name) { get; } | Visszaadja a dokumentum részeinek csoportnevét. Csak olvasható String. |
 
 ### Lásd még
 

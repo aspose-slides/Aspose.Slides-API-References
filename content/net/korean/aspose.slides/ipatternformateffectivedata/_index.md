@@ -1,9 +1,9 @@
 ---
 title: IPatternFormatEffectiveData
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 효과적인 패턴 채우기 속성을 포함하는 불변 객체입니다.
 type: docs
-weight: 6630
+weight: 6650
 url: /ko/aspose.slides/ipatternformateffectivedata/
 ---
 ## IPatternFormatEffectiveData 인터페이스
@@ -26,13 +26,13 @@ public interface IPatternFormatEffectiveData
 
 | 이름 | 설명 |
 | --- | --- |
-| [GetTileIImage](../../aspose.slides/ipatternformateffectivedata/gettileiimage)(Color, Color) | 지정된 색상으로 패턴 채우기용 타일 이미지를 생성합니다. |
+| [GetTileIImage](../../aspose.slides/ipatternformateffectivedata/gettileiimage)(Color, Color) | 지정된 색상으로 패턴 채우기를 위한 타일 이미지를 생성합니다. |
 
 ### 비고
 
 이 인터페이스는 [`IFillFormatEffectiveData`](../ifillformateffectivedata) 및 [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata)의 일부로 사용됩니다.
 
-### 관련 항목
+### 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

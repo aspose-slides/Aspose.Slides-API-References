@@ -1,9 +1,9 @@
 ---
 title: VbaProjectFactory
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 允许通过 COM 接口创建 VBA 项目
 type: docs
-weight: 11660
+weight: 11680
 url: /zh/aspose.slides.vba/vbaprojectfactory/
 ---
 ## VbaProjectFactory 类
@@ -16,19 +16,19 @@ public class VbaProjectFactory : IVbaProjectFactory
 
 ## 构造函数
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [VbaProjectFactory](vbaprojectfactory)() | 默认构造函数。 |
 
 ## 属性
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| static [Instance](../../aspose.slides.vba/vbaprojectfactory/instance) { get; } | VBA 项目工厂静态实例。只读 [`VbaProjectFactory`](../vbaprojectfactory)。 |
+| static [Instance](../../aspose.slides.vba/vbaprojectfactory/instance) { get; } | VBA 项目工厂的静态实例。只读 [`VbaProjectFactory`](../vbaprojectfactory)。 |
 
 ## 方法
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [CreateVbaProject](../../aspose.slides.vba/vbaprojectfactory/createvbaproject)() | 创建新的 VBA 项目。 |
 | [ReadVbaProject](../../aspose.slides.vba/vbaprojectfactory/readvbaproject)(byte[]) | 从 OLE 容器读取 VBA 项目。 |

@@ -1,14 +1,14 @@
 ---
 title: IBlur
-second_title: Referência da API Aspose.Sildes para .NET
-description: Representa um efeito de desfoque que é aplicado a toda a forma, incluindo seu preenchimento. Todos os canais de cor, incluindo alfa, são afetados.
+second_title: Aspose.Sildes para referência de API .NET
+description: Representa um efeito de desfoque que é aplicado em toda a forma, incluindo seu preenchimento. Todos os canais de cor, incluindo alfa, são afetados.
 type: docs
-weight: 3180
+weight: 3200
 url: /pt/aspose.slides.effects/iblur/
 ---
 ## IBlur interface
 
-Representa um efeito de desfoque que é aplicado a toda a forma, incluindo seu preenchimento. Todos os canais de cor, incluindo alfa, são afetados.
+Representa um efeito de desfoque que é aplicado em toda a forma, incluindo seu preenchimento. Todos os canais de cor, incluindo alfa, são afetados.
 
 ```csharp
 public interface IBlur : IAccessiblePVIObject<IBlurEffectiveData>, IImageTransformOperation
@@ -20,10 +20,10 @@ public interface IBlur : IAccessiblePVIObject<IBlurEffectiveData>, IImageTransfo
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/iblur/asiaccessiblepviobject) { get; } | Permite obter a interface base IAccessiblePVIObject. Somente leitura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/iblur/asiimagetransformoperation) { get; } | Permite obter a interface base IImageTransformOperation. Somente leitura [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Grow](../../aspose.slides.effects/iblur/grow) { get; set; } | Determina se os limites do objeto devem ser ampliados como resultado do desfoque. True indica que os limites são ampliados, enquanto false indica que não são. Leitura/gravação Boolean. |
-| [Radius](../../aspose.slides.effects/iblur/radius) { get; set; } | Retorna ou define o raio de desfoque. Leitura/gravação Double. |
+| [Grow](../../aspose.slides.effects/iblur/grow) { get; set; } | Determina se os limites do objeto devem ser ampliados como resultado do desfoque. True indica que os limites são ampliados enquanto false indica que não são. Leitura/Gravação Boolean. |
+| [Radius](../../aspose.slides.effects/iblur/radius) { get; set; } | Retorna ou define o raio de desfoque. Leitura/Gravação Double. |
 
-### Veja Também
+### Veja também
 
 * interface [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * interface [IBlurEffectiveData](../iblureffectivedata)

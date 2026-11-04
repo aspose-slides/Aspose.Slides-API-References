@@ -1,9 +1,9 @@
 ---
 title: IBrightnessContrastEffectiveData
-second_title: Aspose.Sildes برای مرجع API .NET
+second_title: Aspose.Sildes برای .NET مرجع API
 description: شیء غیرقابل تغییر که نمایانگر اثر BrightnessContrast است. روشنایی و کنتراست را تنظیم می‌کند
 type: docs
-weight: 3210
+weight: 3230
 url: /fa/aspose.slides.effects/ibrightnesscontrasteffectivedata/
 ---
 ## IBrightnessContrastEffectiveData رابط
@@ -14,12 +14,12 @@ url: /fa/aspose.slides.effects/ibrightnesscontrasteffectivedata/
 public interface IBrightnessContrastEffectiveData : IEffectEffectiveData
 ```
 
-## ویژگی‌ها
+## خواص
 
 | نام | توضیح |
 | --- | --- |
-| [Brightness](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/brightness) { get; } | روشنایی را برمی‌گرداند. فقط خواندنی Single. |
-| [Contrast](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/contrast) { get; } | کنتراست را برمی‌گرداند. فقط خواندنی Single. |
+| [Brightness](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/brightness) { get; } | روشنایی را برمی‌گرداند. فقط-خواندنی Single. |
+| [Contrast](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/contrast) { get; } | کنتراست را برمی‌گرداند. فقط-خواندنی Single. |
 
 ### موارد مرتبط
 

@@ -1,14 +1,14 @@
 ---
 title: IMathSubscriptElement
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 기준과 아래 및 오른쪽에 배치된 축소된 크기의 하위 첨자으로 구성된 하위 첨자 객체를 지정합니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 아래와 오른쪽에 배치된 기본과 축소된 크기의 아래첨자로 구성된 아래첨자 객체를 지정합니다.
 type: docs
-weight: 8470
+weight: 8490
 url: /ko/aspose.slides.mathtext/imathsubscriptelement/
 ---
 ## IMathSubscriptElement interface
 
-하위 첨자 객체를 지정합니다. 이 객체는 기준(base)과 아래 및 오른쪽에 배치된 축소된 크기의 하위 첨자로 구성됩니다.
+아래와 오른쪽에 배치된 기본과 축소된 크기의 아래첨자로 구성된 아래첨자 객체를 지정합니다.
 
 ```csharp
 public interface IMathSubscriptElement : IMathElement
@@ -18,9 +18,9 @@ public interface IMathSubscriptElement : IMathElement
 
 | 이름 | 설명 |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathsubscriptelement/asimathelement) { get; } | 기본 IMathElement 인터페이스를 가져올 수 있습니다 [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathsubscriptelement/asimathelement) { get; } | 기본 IMathElement 인터페이스 [`IMathElement`](../imathelement)를 가져올 수 있습니다 |
 | [Base](../../aspose.slides.mathtext/imathsubscriptelement/base) { get; } | 기본 인수 |
-| [Subscript](../../aspose.slides.mathtext/imathsubscriptelement/subscript) { get; } | 하위 첨자 |
+| [Subscript](../../aspose.slides.mathtext/imathsubscriptelement/subscript) { get; } | 아래첨자 |
 
 ### 예제
 
@@ -31,7 +31,7 @@ public interface IMathSubscriptElement : IMathElement
 IMathSubscriptElement subscriptElement = new MathematicalText("N").SetSubscript("i");
 ```
 
-### 또 보기
+### 참고
 
 * 인터페이스 [IMathElement](../imathelement)
 * 네임스페이스 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

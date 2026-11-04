@@ -1,14 +1,14 @@
 ---
 title: ColorValue
 second_title: Aspose.Sildes pro .NET API Reference
-description: Vrací hodnotu barvy datového bodu grafu. Používá se s mapovými grafy. Pouze ke čtení IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+description: Získá hodnotu barvy datového bodu grafu. Používá se u mapových grafů. Pouze pro čtení IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 30
+weight: 70
 url: /cs/aspose.slides.charts/ichartdatapoint/colorvalue/
 ---
 ## IChartDataPoint.ColorValue vlastnost
 
-Vrací hodnotu barvy datového bodu grafu. Používá se s mapovými grafy. Pouze ke čtení [`IDoubleChartValue`](../../idoublechartvalue).
+Získá hodnotu barvy datového bodu grafu. Používá se u mapových grafů. Pouze pro čtení [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue ColorValue { get; }

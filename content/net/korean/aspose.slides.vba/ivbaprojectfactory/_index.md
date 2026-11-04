@@ -1,14 +1,14 @@
 ---
 title: IVbaProjectFactory
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: COM 인터페이스를 통해 VBA 프로젝트를 생성할 수 있습니다
 type: docs
-weight: 11560
+weight: 11580
 url: /ko/aspose.slides.vba/ivbaprojectfactory/
 ---
 ## IVbaProjectFactory 인터페이스
 
-COM 인터페이스를 통해 VBA 프로젝트를 생성합니다
+COM 인터페이스를 통해 VBA 프로젝트를 생성할 수 있습니다
 
 ```csharp
 public interface IVbaProjectFactory
@@ -19,9 +19,9 @@ public interface IVbaProjectFactory
 | 이름 | 설명 |
 | --- | --- |
 | [CreateVbaProject](../../aspose.slides.vba/ivbaprojectfactory/createvbaproject)() | 새 VBA 프로젝트를 생성합니다. |
-| [ReadVbaProject](../../aspose.slides.vba/ivbaprojectfactory/readvbaproject)(byte[]) | OLE 컨테이너에서 VBA 프로젝트를 읽습니다. |
+| [ReadVbaProject](../../aspose.slides.vba/ivbaprojectfactory/readvbaproject)(byte[]) | OLE 컨테이너에서 VBA 프로젝트를 읽어옵니다. |
 
-### 관련 항목
+### 참고
 
 * 네임스페이스 [Aspose.Slides.Vba](../../aspose.slides.vba)
 * 어셈블리 [Aspose.Slides](../../)

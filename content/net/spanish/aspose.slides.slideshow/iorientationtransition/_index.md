@@ -3,7 +3,7 @@ title: IOrientationTransition
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Efecto de transición de diapositiva de orientación.
 type: docs
-weight: 10150
+weight: 10170
 url: /es/aspose.slides.slideshow/iorientationtransition/
 ---
 ## IOrientationTransition interfaz

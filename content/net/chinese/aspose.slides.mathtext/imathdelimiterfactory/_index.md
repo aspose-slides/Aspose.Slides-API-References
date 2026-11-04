@@ -1,9 +1,9 @@
 ---
 title: IMathDelimiterFactory
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes 的 .NET API 参考
 description: 允许创建数学分隔符
 type: docs
-weight: 8220
+weight: 8240
 url: /zh/aspose.slides.mathtext/imathdelimiterfactory/
 ---
 ## IMathDelimiterFactory 接口
@@ -19,7 +19,7 @@ public interface IMathDelimiterFactory
 | 名称 | 描述 |
 | --- | --- |
 | [CreateMathDelimiter](../../aspose.slides.mathtext/imathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | 通过应用于元素来创建数学分隔符 |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/imathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | 通过应用于元素集合来创建数学分隔符 |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/imathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | 通过应用于元素来创建数学分隔符 |
 
 ### 备注
 

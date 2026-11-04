@@ -1,9 +1,9 @@
 ---
 title: IFillFormatCollection
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET API Referenci
 description: Představuje kolekci výplňových stylů.
 type: docs
-weight: 11230
+weight: 11250
 url: /cs/aspose.slides.theme/ifillformatcollection/
 ---
 ## IFillFormatCollection rozhraní
@@ -18,7 +18,7 @@ public interface IFillFormatCollection : IGenericCollection<IFillFormat>
 
 | Název | Popis |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ifillformatcollection/item) { get; } | Získá prvek na určeném indexu. Pouze pro čtení [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Item](../../aspose.slides.theme/ifillformatcollection/item) { get; } | Získá prvek na zadaném indexu. Pouze ke čtení [`IFillFormat`](../../aspose.slides/ifillformat). |
 
 ### Viz také
 

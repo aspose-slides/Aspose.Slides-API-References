@@ -1,9 +1,9 @@
 ---
 title: VbaProject
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Stellt ein VBA-Projekt mit Präsentationsmakros dar.
 type: docs
-weight: 11650
+weight: 11670
 url: /de/aspose.slides.vba/vbaproject/
 ---
 ## VbaProject Klasse
@@ -16,23 +16,23 @@ public sealed class VbaProject : IVbaProject
 
 ## Konstruktoren
 
-| Name | Description |
+| Name | Beschreibung |
 | --- | --- |
-| [VbaProject](vbaproject#constructor)() | Dieser Konstruktor erstellt ein neues VBA-Projekt von Grund auf. Das Projekt wird im Codepage 1252 Windows Latin 1 (ANSI) erstellt. |
-| [VbaProject](vbaproject#constructor_1)(byte[]) | Dieser Konstruktor lädt ein VBA-Projekt aus der binären Darstellung eines OLE-Containers. |
+| [VbaProject](vbaproject#constructor)() | Dieser Konstruktor erstellt ein neues VBA-Projekt von Grund auf. Das Projekt wird in der Codepage 1252 Windows Latin 1 (ANSI) erstellt |
+| [VbaProject](vbaproject#constructor_1)(byte[]) | Dieser Konstruktor lädt das VBA-Projekt aus der binären Darstellung eines OLE-Containers. |
 
 ## Eigenschaften
 
-| Name | Description |
+| Name | Beschreibung |
 | --- | --- |
-| [IsPasswordProtected](../../aspose.slides.vba/vbaproject/ispasswordprotected) { get; } | Gibt an, ob das VBAProject durch ein Passwort geschützt ist, um Projekteigenschaften anzuzeigen. Schreibgeschützt Boolean. |
-| [Modules](../../aspose.slides.vba/vbaproject/modules) { get; } | Gibt die Liste aller Module zurück, die im VBA-Projekt enthalten sind. Schreibgeschützt [`IVbaModuleCollection`](../ivbamodulecollection). |
-| [Name](../../aspose.slides.vba/vbaproject/name) { get; } | Gibt den Namen des VBA-Projekts zurück. Schreibgeschützt String. |
-| [References](../../aspose.slides.vba/vbaproject/references) { get; } | Gibt die Liste aller Referenzen zurück, die im VBA-Projekt enthalten sind. Schreibgeschützt [`IVbaReferenceCollection`](../ivbareferencecollection). |
+| [IsPasswordProtected](../../aspose.slides.vba/vbaproject/ispasswordprotected) { get; } | Gibt an, ob das VBAProject durch ein Passwort geschützt ist, um Projekteigenschaften anzuzeigen. Nur lesbar Boolean. |
+| [Modules](../../aspose.slides.vba/vbaproject/modules) { get; } | Gibt die Liste aller Module zurück, die im VBA-Projekt enthalten sind. Nur lesbar [`IVbaModuleCollection`](../ivbamodulecollection). |
+| [Name](../../aspose.slides.vba/vbaproject/name) { get; } | Gibt den Namen des VBA-Projekts zurück. Nur lesbar String. |
+| [References](../../aspose.slides.vba/vbaproject/references) { get; } | Gibt die Liste aller Verweise zurück, die im VBA-Projekt enthalten sind. Nur lesbar [`IVbaReferenceCollection`](../ivbareferencecollection). |
 
 ## Methoden
 
-| Name | Description |
+| Name | Beschreibung |
 | --- | --- |
 | [ToBinary](../../aspose.slides.vba/vbaproject/tobinary)() | Gibt die binäre Darstellung des VBA-Projekts als OLE-Container zurück |
 

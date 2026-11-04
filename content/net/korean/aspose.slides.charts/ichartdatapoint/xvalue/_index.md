@@ -1,20 +1,20 @@
 ---
 title: XValue
-second_title: Aspose.Sildes .NET API 레퍼런스
-description: 차트 데이터 포인트의 x 값을 반환합니다. 읽기 전용 IStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue.
+second_title: Aspose.Sildes for .NET API 참조
+description: 차트 데이터 포인트의 x 값을 가져옵니다. 읽기 전용 IStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue.
 type: docs
-weight: 170
+weight: 210
 url: /ko/aspose.slides.charts/ichartdatapoint/xvalue/
 ---
 ## IChartDataPoint.XValue 속성
 
-차트 데이터 포인트의 x 값을 반환합니다. 읽기 전용 [`IStringOrDoubleChartValue`](../../istringordoublechartvalue).
+차트 데이터 포인트의 x 값을 가져옵니다. 읽기 전용 [`IStringOrDoubleChartValue`](../../istringordoublechartvalue).
 
 ```csharp
 public IStringOrDoubleChartValue XValue { get; }
 ```
 
-### 관련 항목
+### 참조
 
 * 인터페이스 [IStringOrDoubleChartValue](../../istringordoublechartvalue)
 * 인터페이스 [IChartDataPoint](../../ichartdatapoint)

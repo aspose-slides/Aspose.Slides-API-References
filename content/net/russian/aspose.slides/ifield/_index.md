@@ -3,7 +3,7 @@ title: IField
 second_title: Aspose.Sildes для .NET справочник API
 description: Представляет поле.
 type: docs
-weight: 5770
+weight: 5790
 url: /ru/aspose.slides/ifield/
 ---
 ## IField интерфейс

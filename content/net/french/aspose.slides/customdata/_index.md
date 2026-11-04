@@ -1,14 +1,14 @@
 ---
 title: CustomData
 second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Représente un conteneur de données personnalisées.
+description: Représente un conteneur pour les données personnalisées.
 type: docs
-weight: 2730
+weight: 2750
 url: /fr/aspose.slides/customdata/
 ---
 ## CustomData classe
 
-Représente un conteneur de données personnalisées.
+Représente un conteneur pour les données personnalisées.
 
 ```csharp
 public class CustomData : ICustomData

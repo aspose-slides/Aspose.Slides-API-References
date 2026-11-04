@@ -1,14 +1,14 @@
 ---
 title: AlphaCeiling
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: Alpha Ceiling प्रभाव का प्रतिनिधित्व करता है। शून्य से बड़े Alpha अपारदर्शिता मानों को 100 किया जाता है। दूसरे शब्दों में, कोई भी आंशिक रूप से अपारदर्शी चीज़ पूरी तरह से अपारदर्शी बन जाती है।
+description: एक Alpha Ceiling प्रभाव का प्रतिनिधित्व करता है। शून्य से बड़े Alpha opacity मानों को 100 में बदल दिया जाता है। दूसरे शब्दों में, कोई भी आंशिक रूप से अपारदर्शी वस्तु पूर्ण रूप से अपारदर्शी हो जाती है।
 type: docs
-weight: 2850
+weight: 2870
 url: /hi/aspose.slides.effects/alphaceiling/
 ---
-## AlphaCeiling क्लास
+## AlphaCeiling वर्ग
 
-Alpha Ceiling प्रभाव का प्रतिनिधित्व करता है। शून्य से बड़े Alpha (opacity) मानों को 100% कर दिया जाता है। दूसरे शब्दों में, कोई भी आंशिक रूप से अपारदर्शी चीज़ पूरी तरह से अपारदर्शी बन जाती है।
+Alpha Ceiling प्रभाव का प्रतिनिधित्व करता है। शून्य से बड़े Alpha (opacity) मानों को 100% में बदल दिया जाता है। दूसरे शब्दों में, कोई भी आंशिक रूप से अपारदर्शी चीज़ पूर्ण रूप से अपारदर्शी हो जाती है।
 
 ```csharp
 public sealed class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
@@ -18,17 +18,17 @@ public sealed class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | बेस IPresentationComponent इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)। |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | बेस IPresentationComponent इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphaceiling/equals)(object) | निर्धारित करता है कि निर्दिष्ट [`AlphaCeiling`](../alphaceiling) वर्तमान [`AlphaCeiling`](../alphaceiling) के बराबर है या नहीं। |
-| [GetEffective](../../aspose.slides.effects/alphaceiling/geteffective)() | विरासत लागू होने पर प्रभावी Alpha Ceiling प्रभाव डेटा प्राप्त करता है। |
+| [GetEffective](../../aspose.slides.effects/alphaceiling/geteffective)() | प्रभावी Alpha Ceiling प्रभाव डेटा को विरासत लागू करके प्राप्त करता है। |
 | override [GetHashCode](../../aspose.slides.effects/alphaceiling/gethashcode)() | विशिष्ट प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है। |
 
-### देखें
+### संबंधित देखें
 
 * वर्ग [ImageTransformOperation](../imagetransformoperation)
 * इंटरफ़ेस [IAlphaCeiling](../ialphaceiling)

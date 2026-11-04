@@ -3,7 +3,7 @@ title: MathBoxFactory
 second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
 description: อนุญาตให้สร้างกล่องคณิตศาสตร์
 type: docs
-weight: 8640
+weight: 8660
 url: /th/aspose.slides.mathtext/mathboxfactory/
 ---
 ## MathBoxFactory คลาส
@@ -16,19 +16,19 @@ public class MathBoxFactory : IMathBoxFactory
 
 ## คอนสตรัคเตอร์
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [MathBoxFactory](mathboxfactory)() | คอนสตรัคเตอร์เริ่มต้น |
+| [MathBoxFactory](mathboxfactory)() | คอนสตรัคเตอร์เริ่มต้น. |
 
 ## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [CreateMathBox](../../aspose.slides.mathtext/mathboxfactory/createmathbox)(IMathElement) | สร้างกล่องคณิตศาสตร์โดยประยุกต์กับองค์ประกอบ |
+| [CreateMathBox](../../aspose.slides.mathtext/mathboxfactory/createmathbox)(IMathElement) | สร้างกล่องคณิตศาสตร์โดยนำไปใช้กับองค์ประกอบ |
 
 ### หมายเหตุ
 
-สำหรับความเข้ากันได้ของ COM
+สำหรับความเข้ากันได้กับ COM
 
 ### ดูเพิ่มเติม
 

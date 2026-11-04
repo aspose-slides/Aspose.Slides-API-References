@@ -1,14 +1,14 @@
 ---
 title: VbaReferenceFactory
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: COM arabirimi üzerinden VBA proje referansları oluşturmayı sağlar
 type: docs
-weight: 11680
+weight: 11700
 url: /tr/aspose.slides.vba/vbareferencefactory/
 ---
 ## VbaReferenceFactory sınıfı
 
-COM arabirimi üzerinden VBA proje referansları oluşturmayı sağlar
+VBA proje referanslarını COM arabirimi üzerinden oluşturmayı sağlar
 
 ```csharp
 public class VbaReferenceFactory : IVbaReferenceFactory
@@ -16,21 +16,21 @@ public class VbaReferenceFactory : IVbaReferenceFactory
 
 ## Yapıcılar
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
 | [VbaReferenceFactory](vbareferencefactory)() | Varsayılan yapıcı. |
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| static [Instance](../../aspose.slides.vba/vbareferencefactory/instance) { get; } | VBA proje referansları fabrikasının statik örneği. Salt-okunur [`VbaReferenceFactory`](../vbareferencefactory). |
+| static [Instance](../../aspose.slides.vba/vbareferencefactory/instance) { get; } | VBA proje referansları fabrikası statik örneği. Sadece okunabilir [`VbaReferenceFactory`](../vbareferencefactory). |
 
 ## Yöntemler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [CreateOleTypeLibReference](../../aspose.slides.vba/vbareferencefactory/createoletypelibreference)(string, string) | Yeni OLE Automation tür kitaplığı referansı oluşturur. |
+| [CreateOleTypeLibReference](../../aspose.slides.vba/vbareferencefactory/createoletypelibreference)(string, string) | Yeni OLE Automation tip kitaplığı referansı oluşturur. |
 
 ### Ayrıca Bakınız
 

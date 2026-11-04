@@ -1,32 +1,32 @@
 ---
 title: IBackgroundEffectiveData
-second_title: Aspose.Sildes برای .NET مرجع API
+second_title: Aspose.Sildes برای مرجع API .NET
 description: شیء غیرقابل تغییر که ویژگی‌های پس‌زمینه مؤثر را شامل می‌شود.
 type: docs
-weight: 5280
+weight: 5300
 url: /fa/aspose.slides/ibackgroundeffectivedata/
 ---
 ## IBackgroundEffectiveData رابط
 
-شیء غیرقابل تغییر که ویژگی‌های پس‌زمینه مؤثر را شامل می‌شود.
+شیء غیرقابل تغییر که ویژگی‌های پس‌زمینه مؤثر را در خود دارد.
 
 ```csharp
 public interface IBackgroundEffectiveData : IFillParamSource
 ```
 
-## ویژگی‌ها
+## خصوصیات
 
 | نام | توضیح |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ibackgroundeffectivedata/asifillparamsource) { get; } | یک رابط IFillParamSource را برمی‌گرداند. |
-| [EffectFormat](../../aspose.slides/ibackgroundeffectivedata/effectformat) { get; } | فرمت اثر مؤثر را برمی‌گرداند. فقط-خواندنی [`IEffectFormatEffectiveData`](../ieffectformateffectivedata). |
-| [FillFormat](../../aspose.slides/ibackgroundeffectivedata/fillformat) { get; } | فرمت پر شدن مؤثر را برمی‌گرداند. فقط-خواندنی [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [EffectFormat](../../aspose.slides/ibackgroundeffectivedata/effectformat) { get; } | قالب اثر مؤثر را برمی‌گرداند. فقط-خواندنی [`IEffectFormatEffectiveData`](../ieffectformateffectivedata). |
+| [FillFormat](../../aspose.slides/ibackgroundeffectivedata/fillformat) { get; } | قالب پرکنش مؤثر را برمی‌گرداند. فقط-خواندنی [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 
 ### توضیحات
 
 این رابط همراه با رابط [`IBackground`](../ibackground) برای بازگرداندن مقادیر قالب‌بندی مؤثر با اعمال وراثت استفاده می‌شود.
 
-### مراجع
+### موارد مرتبط
 
 * رابط [IFillParamSource](../ifillparamsource)
 * فضای‌نام [Aspose.Slides](../../aspose.slides)

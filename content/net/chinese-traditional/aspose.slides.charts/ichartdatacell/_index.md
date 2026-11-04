@@ -1,9 +1,9 @@
 ---
 title: IChartDataCell
-second_title: Aspose.Sildes 適用於 .NET 的 API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 表示圖表資料的儲存格。
 type: docs
-weight: 1810
+weight: 1830
 url: /zh-hant/aspose.slides.charts/ichartdatacell/
 ---
 ## IChartDataCell 介面
@@ -16,25 +16,25 @@ public interface IChartDataCell
 
 ## 屬性
 
-| 名稱 | 描述 |
+| Name | Description |
 | --- | --- |
 | [ChartDataWorksheet](../../aspose.slides.charts/ichartdatacell/chartdataworksheet) { get; } | 取得工作表。唯讀 [`IChartDataWorksheet`](../ichartdataworksheet)。 |
-| [Column](../../aspose.slides.charts/ichartdatacell/column) { get; } | 傳回儲存格所在工作表之欄的索引。唯讀 Int32。 |
-| [CustomNumberFormat](../../aspose.slides.charts/ichartdatacell/customnumberformat) { get; set; } | 取得或設定數字和日期的自訂顯示格式。如果值為空，將使用 PresetNumberFormat 值。讀寫 String。 |
-| [Formula](../../aspose.slides.charts/ichartdatacell/formula) { get; set; } | 取得或設定 A1 風格的公式。 |
-| [IsHidden](../../aspose.slides.charts/ichartdatacell/ishidden) { get; } | 判斷儲存格是否隱藏。唯讀 Boolean。 |
-| [PresetNumberFormat](../../aspose.slides.charts/ichartdatacell/presetnumberformat) { get; set; } | 取得或設定數字和日期的內建顯示格式。Preset number 必須介於 [0..22] 或 [37..49] 之間。讀寫 Byte。 |
-| [R1C1Formula](../../aspose.slides.charts/ichartdatacell/r1c1formula) { get; set; } | 取得或設定 R1C1 風格的公式。 |
-| [Row](../../aspose.slides.charts/ichartdatacell/row) { get; } | 傳回儲存格所在工作表之列的索引。唯讀 Int32。 |
-| [Value](../../aspose.slides.charts/ichartdatacell/value) { get; set; } | 取得或設定儲存格的值。讀寫 Object。 |
+| [Column](../../aspose.slides.charts/ichartdatacell/column) { get; } | 傳回工作表中儲存格所在的欄索引。唯讀 Int32。 |
+| [CustomNumberFormat](../../aspose.slides.charts/ichartdatacell/customnumberformat) { get; set; } | 取得或設定數字與日期的自訂顯示格式。若值為空，將使用 PresetNumberFormat 值。可讀寫 String。 |
+| [Formula](../../aspose.slides.charts/ichartdatacell/formula) { get; set; } | 取得或設定公式（A1-style）。 |
+| [IsHidden](../../aspose.slides.charts/ichartdatacell/ishidden) { get; } | 判斷儲存格是否為隱藏。唯讀 Boolean。 |
+| [PresetNumberFormat](../../aspose.slides.charts/ichartdatacell/presetnumberformat) { get; set; } | 取得或設定內建的數字與日期顯示格式。預設數字必須在 [0..22] 或 [37..49] 之間。可讀寫 Byte。 |
+| [R1C1Formula](../../aspose.slides.charts/ichartdatacell/r1c1formula) { get; set; } | 取得或設定公式（R1C1-style）。 |
+| [Row](../../aspose.slides.charts/ichartdatacell/row) { get; } | 傳回工作表中儲存格所在的列索引。唯讀 Int32。 |
+| [Value](../../aspose.slides.charts/ichartdatacell/value) { get; set; } | 取得或設定儲存格的值。可讀寫 Object。 |
 
 ## 方法
 
-| 名稱 | 描述 |
+| Name | Description |
 | --- | --- |
-| [Calculate](../../aspose.slides.charts/ichartdatacell/calculate)(bool) | 如果儲存格包含公式，則會根據該公式更新其值。 |
+| [Calculate](../../aspose.slides.charts/ichartdatacell/calculate)(bool) | 如果儲存格包含公式，該值將根據公式更新。 |
 
-### 另見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 組件 [Aspose.Slides](../../)

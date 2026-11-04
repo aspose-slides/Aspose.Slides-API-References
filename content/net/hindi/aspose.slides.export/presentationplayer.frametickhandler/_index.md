@@ -1,25 +1,25 @@
 ---
 title: PresentationPlayer.FrameTickHandler
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: FrameTick./presentationplayer/frametick इवेंट के फ्रेम टिक हैंडलर का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: FrameTick./presentationplayer/frametick इवेंट का फ़्रेम टिक हैंडलर प्रतिनिधित्व करता है।
 type: docs
-weight: 4400
+weight: 4420
 url: /hi/aspose.slides.export/presentationplayer.frametickhandler/
 ---
-## PresentationPlayer.FrameTickHandler डेलीगेट
+## PresentationPlayer.FrameTickHandler डेलिगेट
 
-[`FrameTick`](../presentationplayer/frametick) इवेंट के फ्रेम टिक हैंडलर का प्रतिनिधित्व करता है।
+[`FrameTick`](../presentationplayer/frametick) इवेंट का फ़्रेम टिक हैंडलर प्रतिनिधित्व करता है।
 
 ```csharp
 public delegate void FrameTickHandler(PresentationPlayer sender, FrameTickEventArgs args);
 ```
 
-| पैरामीटर | टाइप | विवरण |
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| sender | PresentationPlayer | फ्रेम टिक इवेंट का प्रेषक। |
+| sender | PresentationPlayer | फ़्रेम टिक इवेंट का प्रेषक। |
 | args | FrameTickEventArgs | फ़्रेम टिक तर्क। |
 
-### देखें
+### संबंधित देखें
 
 * क्लास [FrameTickEventArgs](../frametickeventargs)
 * क्लास [PresentationPlayer](../presentationplayer)

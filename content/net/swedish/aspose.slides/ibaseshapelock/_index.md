@@ -3,7 +3,7 @@ title: IBaseShapeLock
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar Shape lock inaktiverad operation.
 type: docs
-weight: 5330
+weight: 5350
 url: /sv/aspose.slides/ibaseshapelock/
 ---
 ## IBaseShapeLock gränssnitt
@@ -18,7 +18,7 @@ public interface IBaseShapeLock
 
 | Namn | Beskrivning |
 | --- | --- |
-| [NoLocks](../../aspose.slides/ibaseshapelock/nolocks) { get; } | Returnerar true om alla lock-flags är inaktiverade. Skrivskyddad Boolean. |
+| [NoLocks](../../aspose.slides/ibaseshapelock/nolocks) { get; } | Returnerar true om alla låsförklaringar är inaktiverade. Skrivskyddad Boolean. |
 
 ### Se även
 

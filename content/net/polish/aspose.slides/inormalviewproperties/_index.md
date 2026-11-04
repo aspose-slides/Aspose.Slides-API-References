@@ -1,14 +1,14 @@
 ---
 title: INormalViewProperties
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
-description: "Reprezentuje właściwości normalnego widoku. Normalny widok składa się z trzech regionów zawartości: samego slajdu, bocznego regionu zawartości oraz dolnego regionu zawartości."
+second_title: Aspose.Sildes dla .NET API Reference
+description: Reprezentuje właściwości normalnego widoku. Normalny widok składa się z trzech obszarów zawartości: samego slajdu, bocznego obszaru zawartości i dolnego obszaru zawartości.
 type: docs
-weight: 6470
+weight: 6490
 url: /pl/aspose.slides/inormalviewproperties/
 ---
 ## INormalViewProperties interfejs
 
-Reprezentuje właściwości normalnego widoku. Normalny widok składa się z trzech regionów zawartości: samego slajdu, bocznego regionu zawartości oraz dolnego regionu zawartości.
+Reprezentuje właściwości normalnego widoku. Normalny widok składa się z trzech obszarów zawartości: samego slajdu, bocznego obszaru zawartości i dolnego obszaru zawartości.
 
 ```csharp
 public interface INormalViewProperties
@@ -18,17 +18,17 @@ public interface INormalViewProperties
 
 | Nazwa | Opis |
 | --- | --- |
-| [HorizontalBarState](../../aspose.slides/inormalviewproperties/horizontalbarstate) { get; set; } | Określa stan, w którym ma być wyświetlany poziomy pasek dzielący. Poziomy pasek dzielący oddziela slajd od regionu zawartości pod slajdem. |
-| [PreferSingleView](../../aspose.slides/inormalviewproperties/prefersingleview) { get; set; } | Określa, czy użytkownik preferuje wyświetlanie jednego, pełnoekranowego regionu zawartości zamiast standardowego normalnego widoku z trzema regionami. Jeśli włączone, aplikacja może wybrać wyświetlenie jednego z regionów w całym oknie. Odczyt/zapis Boolean. |
-| [RestoredLeft](../../aspose.slides/inormalviewproperties/restoredleft) { get; } | Ten element określa rozmiar bocznego regionu zawartości normalnego widoku, gdy region ma zmienny przywrócony rozmiar (nie zminimalizowany ani zmaksymalizowany). Tylko do odczytu [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [RestoredTop](../../aspose.slides/inormalviewproperties/restoredtop) { get; } | Ten element określa rozmiar górnego regionu slajdu normalnego widoku, gdy region ma zmienny przywrócony rozmiar (nie zminimalizowany ani zmaksymalizowany). Tylko do odczytu [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [ShowOutlineIcons](../../aspose.slides/inormalviewproperties/showoutlineicons) { get; set; } | Określa, czy aplikacja powinna wyświetlać ikony przy wyświetlaniu treści konspektu w dowolnym z regionów zawartości trybu normalnego widoku. Odczyt/zapis Boolean. |
-| [SnapVerticalSplitter](../../aspose.slides/inormalviewproperties/snapverticalsplitter) { get; set; } | Określa, czy pionowy podziałnik ma przyczepiać się do stanu zminimalizowanego, gdy boczny region jest wystarczająco mały. Odczyt/zapis Boolean. |
-| [VerticalBarState](../../aspose.slides/inormalviewproperties/verticalbarstate) { get; set; } | Określa stan, w którym ma być wyświetlany pionowy pasek dzielący. Pionowy pasek dzielący oddziela slajd od bocznego regionu zawartości. |
+| [HorizontalBarState](../../aspose.slides/inormalviewproperties/horizontalbarstate) { get; set; } | Określa stan, w którym powinna być wyświetlana pozioma belka podziału. Pozioma belka podziału oddziela slajd od obszaru zawartości pod slajdem. |
+| [PreferSingleView](../../aspose.slides/inormalviewproperties/prefersingleview) { get; set; } | Określa, czy użytkownik preferuje widok jednego obszaru zawartości na całym oknie zamiast standardowego normalnego widoku z trzema obszarami zawartości. Jeśli włączone, aplikacja może wyświetlić jeden z obszarów zawartości w całym oknie. Odczyt/zapis Boolean. |
+| [RestoredLeft](../../aspose.slides/inormalviewproperties/restoredleft) { get; } | Ten element określa rozmiar bocznego obszaru zawartości normalnego widoku, gdy obszar ma zmienny przywrócony rozmiar (nie jest zminimalizowany ani zmaksymalizowany). Tylko do odczytu [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [RestoredTop](../../aspose.slides/inormalviewproperties/restoredtop) { get; } | Ten element określa rozmiar górnego obszaru slajdu normalnego widoku, gdy obszar ma zmienny przywrócony rozmiar (nie jest zminimalizowany ani zmaksymalizowany). Tylko do odczytu [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [ShowOutlineIcons](../../aspose.slides/inormalviewproperties/showoutlineicons) { get; set; } | Określa, czy aplikacja powinna wyświetlać ikony przy wyświetlaniu zawartości konspektu w którymkolwiek z obszarów zawartości trybu normalnego widoku. Odczyt/zapis Boolean. |
+| [SnapVerticalSplitter](../../aspose.slides/inormalviewproperties/snapverticalsplitter) { get; set; } | Określa, czy pionowy podziałnik powinien przejść do stanu zminimalizowanego, gdy boczny obszar jest wystarczająco mały. Odczyt/zapis Boolean. |
+| [VerticalBarState](../../aspose.slides/inormalviewproperties/verticalbarstate) { get; set; } | Określa stan, w którym powinna być wyświetlana pionowa belka podziału. Pionowa belka podziału oddziela slajd od bocznego obszaru zawartości. |
 
 ### Zobacz także
 
 * przestrzeń nazw [Aspose.Slides](../../aspose.slides)
-* zbiór [Aspose.Slides](../../)
+* zestaw [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -3,7 +3,7 @@ title: IXamlOutputSaver
 second_title: Aspose.Sildes .NET API 参考
 description: 表示用于将数据传输到外部存储的输出保存器实现。
 type: docs
-weight: 4710
+weight: 4730
 url: /zh/aspose.slides.export.xaml/ixamloutputsaver/
 ---
 ## IXamlOutputSaver 接口
@@ -20,7 +20,7 @@ public interface IXamlOutputSaver
 | --- | --- |
 | [Save](../../aspose.slides.export.xaml/ixamloutputsaver/save)(string, byte[]) | 将字节数组保存到目标位置。 |
 
-### 另见
+### 参见
 
 * 命名空间 [Aspose.Slides.Export.Xaml](../../aspose.slides.export.xaml)
 * 程序集 [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IndexOf
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Trả về chỉ mục của DataLabel được chỉ định trong bộ sưu tập.
+description: Trả về chỉ mục của DataLabel đã chỉ định trong bộ sưu tập.
 type: docs
-weight: 110
+weight: 120
 url: /vi/aspose.slides.charts/datalabelcollection/indexof/
 ---
-## DataLabelCollection.IndexOf method
+## DataLabelCollection.IndexOf phương thức
 
-Trả về chỉ mục của DataLabel được chỉ định trong bộ sưu tập.
+Trả về chỉ mục của DataLabel đã chỉ định trong bộ sưu tập.
 
 ```csharp
 public int IndexOf(IDataLabel value)
@@ -20,7 +20,7 @@ public int IndexOf(IDataLabel value)
 
 ### Giá trị trả về
 
-Chỉ mục của DataLabel hoặc -1 nếu DataLabel không thuộc bộ sưu tập này.
+Chỉ mục của một DataLabel hoặc -1 nếu DataLabel không thuộc bộ sưu tập này.
 
 ### Xem thêm
 

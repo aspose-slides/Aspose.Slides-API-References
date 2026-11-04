@@ -3,12 +3,12 @@ title: IMarker
 second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje znacznik wykresu.
 type: docs
-weight: 2160
+weight: 2180
 url: /pl/aspose.slides.charts/imarker/
 ---
-## IMarker interfejs
+## interfejs IMarker
 
-Reprezentuje znacznik wykresu.
+Reprezentuje marker czerta.
 
 ```csharp
 public interface IMarker
@@ -18,9 +18,9 @@ public interface IMarker
 
 | Nazwa | Opis |
 | --- | --- |
-| [Format](../../aspose.slides.charts/imarker/format) { get; } | Pobiera wypełnienie znacznika. Tylko do odczytu [`IFormat`](../iformat). |
-| [Size](../../aspose.slides.charts/imarker/size) { get; set; } | Reprezentuje rozmiar znacznika w wykresie liniowym, wykresie punktowym lub wykresie radarowym. Odczyt/zapis Int32. |
-| [Symbol](../../aspose.slides.charts/imarker/symbol) { get; set; } | Reprezentuje styl znacznika w wykresie liniowym, wykresie punktowym lub wykresie radarowym. Odczyt/zapis [`MarkerStyleType`](../markerstyletype). |
+| [Format](../../aspose.slides.charts/imarker/format) { get; } | Pobiera wypełnienie markera. Tylko do odczytu [`IFormat`](../iformat). |
+| [Size](../../aspose.slides.charts/imarker/size) { get; set; } | Reprezentuje rozmiar markera w wykresie liniowym, wykresie punktowym lub wykresie radarowym. Odczyt/zapis Int32. |
+| [Symbol](../../aspose.slides.charts/imarker/symbol) { get; set; } | Reprezentuje styl markera w wykresie liniowym, wykresie punktowym lub wykresie radarowym. Odczyt/zapis [`MarkerStyleType`](../markerstyletype). |
 
 ### Zobacz także
 

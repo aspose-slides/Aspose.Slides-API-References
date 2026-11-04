@@ -1,14 +1,14 @@
 ---
 title: ILightRigEffectiveData
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 효과적인 라이트 릭 속성을 포함하는 불변 객체입니다.
 type: docs
-weight: 6280
+weight: 6300
 url: /ko/aspose.slides/ilightrigeffectivedata/
 ---
 ## ILightRigEffectiveData 인터페이스
 
-효과적인 라이트 릭 속성을 포함하는 불변 객체입니다.
+Immutable object which contains effective light rig properties.
 
 ```csharp
 public interface ILightRigEffectiveData
@@ -18,14 +18,14 @@ public interface ILightRigEffectiveData
 
 | 이름 | 설명 |
 | --- | --- |
-| [Direction](../../aspose.slides/ilightrigeffectivedata/direction) { get; } | 라이트 방향. 읽기 전용 [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | 도형에 적용할 수 있는 프리셋 라이트 오른쪽을 나타냅니다. 라이트 릭은 3D 씬에 대해 특정 방식으로 방향이 지정된 조명 그룹을 나타냅니다. 읽기 전용 [`LightRigPresetType`](../lightrigpresettype). |
+| [Direction](../../aspose.slides/ilightrigeffectivedata/direction) { get; } | 광 방향. 읽기 전용 [`LightingDirection`](../lightingdirection). |
+| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | 도형에 적용할 수 있는 사전 설정된 라이트 라이트를 나타냅니다. 라이트 릭은 3D 장면에 대해 특정 방식으로 배치된 조명 그룹을 나타냅니다. 읽기 전용 [`LightRigPresetType`](../lightrigpresettype). |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | 회전은 위도 좌표와 경도 좌표, 그리고 위도와 경도 좌표를 기준으로 축을 중심으로 하는 회전을 사용하여 정의됩니다. 반환 배열의 첫 번째 요소는 위도, 두 번째 요소는 경도, 세 번째 요소는 회전입니다. |
+| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | 회전은 위도 좌표, 경도 좌표 및 위도와 경도 좌표와 같은 축을 중심으로 한 회전에 의해 정의됩니다. 반환 배열의 첫 번째 요소는 위도, 두 번째는 경도, 세 번째는 회전입니다. |
 
 ### 비고
 

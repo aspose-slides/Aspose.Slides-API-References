@@ -1,14 +1,14 @@
 ---
 title: GetSubstitutions
-second_title: Aspose.Sildes .NET API referencia
-description: Lekérdezi a betűtípusokkal kapcsolatos információkat, amelyeket a prezentációk renderelésekor helyettesítenek.
+second_title: Aspose.Sildes for .NET API referencia
+description: A prezentációk renderelése során lecserélésre kerülő betűkészletekkel kapcsolatos információkat adja vissza.
 type: docs
-weight: 80
+weight: 90
 url: /hu/aspose.slides/fontsmanager/getsubstitutions/
 ---
 ## GetSubstitutions() {#getsubstitutions}
 
-Lekérdezi a betűtípusokkal kapcsolatos információkat, amelyeket a prezentáció renderelésekor helyettesítenek.
+A prezentáció renderelése során lecserélésre kerülő betűkészletekkel kapcsolatos információkat adja vissza.
 
 ```csharp
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions()
@@ -16,7 +16,7 @@ public IEnumerable<FontSubstitutionInfo> GetSubstitutions()
 
 ### Visszatérési érték
 
-Az összes betűtípus helyettesítés gyűjteménye [`FontSubstitutionInfo`](../../fontsubstitutioninfo).
+Az összes betűkészlet helyettesítésének gyűjteménye [`FontSubstitutionInfo`](../../fontsubstitutioninfo).
 
 ### Példák
 
@@ -41,7 +41,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## GetSubstitutions(int[]) {#getsubstitutions_1}
 
-Lekérdezi a betűtípusokkal kapcsolatos információkat, amelyeket a megadott diák renderelése során helyettesítenek.
+A megadott diák renderelése során lecserélésre kerülő betűkészletekkel kapcsolatos információkat adja vissza.
 
 ```csharp
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions(int[] slides)
@@ -49,11 +49,11 @@ public IEnumerable<FontSubstitutionInfo> GetSubstitutions(int[] slides)
 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| slides | Int32[] | A diák indexeinek tömbje, amelyekhez a betűtípus helyettesítési információt le kell kérni, 1-től kezdve. |
+| slides | Int32[] | Azoknak a diák indexeinek tömbje, amelyekhez a betűkészlet helyettesítés információját le kell kérni, 1-től kezdve. |
 
 ### Visszatérési érték
 
-Az összes betűtípus helyettesítést tartalmazó gyűjtemény ([`FontSubstitutionInfo`](../../fontsubstitutioninfo)) a megadott diákra.
+Az adott diákhoz tartozó összes betűkészlet helyettesítésének gyűjteménye ([`FontSubstitutionInfo`](../../fontsubstitutioninfo)).
 
 ### Példák
 

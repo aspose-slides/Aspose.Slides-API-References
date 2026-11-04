@@ -3,10 +3,10 @@ title: IEffectStyle
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente un style d'effet.
 type: docs
-weight: 11170
+weight: 11190
 url: /fr/aspose.slides.theme/ieffectstyle/
 ---
-## interface IEffectStyle
+## IEffectStyle interface
 
 Représente un style d'effet.
 
@@ -19,9 +19,9 @@ public interface IEffectStyle
 | Nom | Description |
 | --- | --- |
 | [EffectFormat](../../aspose.slides.theme/ieffectstyle/effectformat) { get; } | Renvoie un format d'effet. Lecture seule [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [ThreeDFormat](../../aspose.slides.theme/ieffectstyle/threedformat) { get; } | Renvoie un format 3D. Lecture seule [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
+| [ThreeDFormat](../../aspose.slides.theme/ieffectstyle/threedformat) { get; } | Renvoie un format 3d. Lecture seule [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
 
-### Voir aussi
+### Voir également
 
 * espace de noms [Aspose.Slides.Theme](../../aspose.slides.theme)
 * assembly [Aspose.Slides](../../)

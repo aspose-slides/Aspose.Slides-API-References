@@ -1,14 +1,14 @@
 ---
 title: IXamlOutputSaver
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Đại diện cho một triển khai bộ lưu đầu ra để chuyển dữ liệu tới bộ nhớ ngoài.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Đại diện cho một triển khai bộ lưu xuất để chuyển dữ liệu tới bộ nhớ ngoài.
 type: docs
-weight: 4710
+weight: 4730
 url: /vi/aspose.slides.export.xaml/ixamloutputsaver/
 ---
 ## IXamlOutputSaver giao diện
 
-Đại diện cho một triển khai bộ lưu đầu ra để chuyển dữ liệu tới bộ nhớ ngoài.
+Đại diện cho một triển khai bộ lưu xuất để chuyển dữ liệu tới bộ nhớ ngoài.
 
 ```csharp
 public interface IXamlOutputSaver

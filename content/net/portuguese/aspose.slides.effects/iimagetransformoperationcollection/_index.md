@@ -3,7 +3,7 @@ title: IImageTransformOperationCollection
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa uma coleção de efeitos aplicados a uma imagem.
 type: docs
-weight: 3400
+weight: 3420
 url: /pt/aspose.slides.effects/iimagetransformoperationcollection/
 ---
 ## IImageTransformOperationCollection interface
@@ -14,16 +14,16 @@ Representa uma coleção de efeitos aplicados a uma imagem.
 public interface IImageTransformOperationCollection : ICollection<IImageTransformOperation>
 ```
 
-## Propriedades
+## Properties
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.effects/iimagetransformoperationcollection/asienumerable) { get; } | Retorna a interface IEnumerable. IEnumerable somente leitura. |
-| [Item](../../aspose.slides.effects/iimagetransformoperationcollection/item) { get; } | Retorna um [`IImageTransformOperation`](../iimagetransformoperation) da coleção pelo seu índice. |
+| [Item](../../aspose.slides.effects/iimagetransformoperationcollection/item) { get; } | Retorna um [`IImageTransformOperation`](../iimagetransformoperation) da coleção por seu índice. |
 
-## Métodos
+## Methods
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [AddAlphaBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphabileveleffect)(float) | Adiciona o novo efeito Alpha Bi-Level ao final de uma coleção. |
 | [AddAlphaCeilingEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaceilingeffect)() | Adiciona o novo efeito Alpha Ceiling ao final de uma coleção. |
@@ -45,7 +45,7 @@ public interface IImageTransformOperationCollection : ICollection<IImageTransfor
 | [AddTintEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addtinteffect)(float, float) | Adiciona o novo efeito Tint ao final de uma coleção. |
 | [RemoveAt](../../aspose.slides.effects/iimagetransformoperationcollection/removeat)(int) | Remove um efeito de imagem de uma coleção no índice especificado. |
 
-### Ver também
+### Veja Também
 
 * interface [IImageTransformOperation](../iimagetransformoperation)
 * namespace [Aspose.Slides.Effects](../../aspose.slides.effects)

@@ -1,12 +1,14 @@
 ---
 title: ILayoutSlide
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET Referencja API
 description: Reprezentuje slajd układu.
 type: docs
-weight: 6220
+weight: 6240
 url: /pl/aspose.slides/ilayoutslide/
 ---
 ## ILayoutSlide interfejs
+
+Reprezentuje slajd układu.
 
 ```csharp
 public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
@@ -14,11 +16,11 @@ public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
 
 ## Właściwości
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/ilayoutslide/asibaseslide) { get; } | Umożliwia pobranie podstawowego interfejsu IBaseSlide. Tylko do odczytu [`IBaseSlide`](../ibaseslide). |
+| [AsIBaseSlide](../../aspose.slides/ilayoutslide/asibaseslide) { get; } | Umożliwia pobranie bazowego interfejsu IBaseSlide. Tylko do odczytu [`IBaseSlide`](../ibaseslide). |
 | [AsIOverrideThemeable](../../aspose.slides/ilayoutslide/asioverridethemeable) { get; } | Zwraca interfejs IOverrideThemeable. Tylko do odczytu [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [DrawingGuides](../../aspose.slides/ilayoutslide/drawingguides) { get; } | Zwraca kolekcję prowadnic rysowania dla slajdu układu. Tylko do odczytu [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [DrawingGuides](../../aspose.slides/ilayoutslide/drawingguides) { get; } | Zwraca kolekcję przewodników rysunkowych dla slajdu układu. Tylko do odczytu [`IDrawingGuidesCollection`](../idrawingguidescollection) |
 | [HasDependingSlides](../../aspose.slides/ilayoutslide/hasdependingslides) { get; } | Zwraca true, jeśli istnieje co najmniej jeden slajd zależny od tego slajdu układu. Tylko do odczytu Boolean. |
 | [HeaderFooterManager](../../aspose.slides/ilayoutslide/headerfootermanager) { get; } | Zwraca menedżera HeaderFooter slajdu układu. Tylko do odczytu [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager). |
 | [LayoutType](../../aspose.slides/ilayoutslide/layouttype) { get; } | Zwraca typ układu tego slajdu układu. Tylko do odczytu [`SlideLayoutType`](../slidelayouttype). |
@@ -27,7 +29,7 @@ public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
 
 ## Metody
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
 | [GetDependingSlides](../../aspose.slides/ilayoutslide/getdependingslides)() | Zwraca tablicę ze wszystkimi slajdami, które zależą od tego slajdu układu. |
 | [Remove](../../aspose.slides/ilayoutslide/remove)() | Usuwa układ z prezentacji. |

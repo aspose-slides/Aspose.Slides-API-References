@@ -1,14 +1,14 @@
 ---
 title: ICustomData
-second_title: Aspose.Sildes için .NET API Referansı
-description: Özel veri için kapsayıcıyı temsil eder.
+second_title: Aspose.Slides for .NET API Referansı
+description: Özel veriler için konteyneri temsil eder.
 type: docs
-weight: 5660
+weight: 5680
 url: /tr/aspose.slides/icustomdata/
 ---
 ## ICustomData arayüz
 
-Özel veri için kapsayıcıyı temsil eder.
+Özel veriler için konteyneri temsil eder.
 
 ```csharp
 public interface ICustomData
@@ -18,8 +18,8 @@ public interface ICustomData
 
 | Ad | Açıklama |
 | --- | --- |
-| [CustomXmlParts](../../aspose.slides/icustomdata/customxmlparts) { get; } | Özel XML parçaları koleksiyonunu döndürür. Yalnızca okuma [`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
-| [Tags](../../aspose.slides/icustomdata/tags) { get; } | Müşteri Veri Etiketleri koleksiyonunu döndürür. Yalnızca okuma [`ITagCollection`](../itagcollection). |
+| [CustomXmlParts](../../aspose.slides/icustomdata/customxmlparts) { get; } | Özel xml parçaları koleksiyonunu döndürür. Yalnızca okunur [`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
+| [Tags](../../aspose.slides/icustomdata/tags) { get; } | Müşteri Veri Etiketleri koleksiyonunu döndürür. Yalnızca okunur [`ITagCollection`](../itagcollection). |
 
 ### Ayrıca Bakınız
 

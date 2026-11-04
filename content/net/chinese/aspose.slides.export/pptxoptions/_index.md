@@ -1,14 +1,14 @@
 ---
 title: PptxOptions
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示用于保存 OpenXml 演示文稿（PPTX、PPSX、POTX、PPTM、PPSM、POTM）的选项。
 type: docs
-weight: 4370
+weight: 4390
 url: /zh/aspose.slides.export/pptxoptions/
 ---
 ## PptxOptions 类
 
-表示用于保存 OpenXml 演示文稿（PPTX、PPSX、POTX、PPTM、PPSM、POTM）的选项。
+表示用于保存 OpenXml 演示文稿 (PPTX、PPSX、POTX、PPTM、PPSM、POTM) 的选项。
 
 ```csharp
 public sealed class PptxOptions : SaveOptions, IPptxOptions
@@ -16,25 +16,25 @@ public sealed class PptxOptions : SaveOptions, IPptxOptions
 
 ## 构造函数
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [PptxOptions](pptxoptions)() | 创建 PptxOptions 的新实例 |
+| [PptxOptions](pptxoptions)() | 创建 PptxOptions 的新实例。 |
 
 ## 属性
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [CompressionLevel](../../aspose.slides.export/pptxoptions/compressionlevel) { get; set; } | 指定保存演示文稿文档时使用的压缩级别。默认值为 Level6。 |
-| [Conformance](../../aspose.slides.export/pptxoptions/conformance) { get; set; } | 指定演示文稿文档符合的符合类。默认值为 Ecma376_2006 |
+| [CompressionLevel](../../aspose.slides.export/pptxoptions/compressionlevel) { get; set; } | 指定在保存演示文稿时使用的压缩级别。默认值为 Level6。 |
+| [Conformance](../../aspose.slides.export/pptxoptions/conformance) { get; set; } | 指定演示文稿符合的合规类。默认值为 Ecma376_2006。 |
 | [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 返回或设置在未找到源字体时使用的字体。读写 String。 |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 返回或设置渐变的视觉样式。读/写 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 表示用于以百分比更新保存进度的回调对象。参见 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 返回或设置渐变的视觉样式。读写 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 表示用于保存进度百分比更新的回调对象。参见 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
 | [RefreshThumbnail](../../aspose.slides.export/pptxoptions/refreshthumbnail) { get; set; } | 指定是否刷新演示文稿缩略图。读写 Boolean。默认值为 **true**。 |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定在保存演示文稿时是否跳过包含 JavaScript 调用的超链接。读写 Boolean。默认值为 **false**。 |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 返回或设置接收警告并决定加载过程是继续还是中止的对象。读写 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
-| [Zip64Mode](../../aspose.slides.export/pptxoptions/zip64mode) { get; set; } | 指定是否为演示文稿文档使用 ZIP64 格式。默认值为 IfNecessary |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定在保存演示文稿时是否跳过带有 JavaScript 调用的超链接。读写 Boolean。默认值为 **false**。 |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 返回或设置一个接收警告并决定加载过程是继续还是中止的对象。读写 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
+| [Zip64Mode](../../aspose.slides.export/pptxoptions/zip64mode) { get; set; } | 指定是否对演示文稿使用 ZIP64 格式。默认值为 IfNecessary。 |
 
-### 另见
+### 另请参见
 
 * 类 [SaveOptions](../saveoptions)
 * 接口 [IPptxOptions](../ipptxoptions)

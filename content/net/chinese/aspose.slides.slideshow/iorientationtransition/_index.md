@@ -1,9 +1,9 @@
 ---
 title: IOrientationTransition
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 方向幻灯片过渡效果。
 type: docs
-weight: 10150
+weight: 10170
 url: /zh/aspose.slides.slideshow/iorientationtransition/
 ---
 ## IOrientationTransition 接口
@@ -19,9 +19,9 @@ public interface IOrientationTransition : ITransitionValueBase
 | 名称 | 描述 |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/iorientationtransition/asitransitionvaluebase) { get; } | 允许获取基 ITransitionValueBase 接口。只读 [`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [Direction](../../aspose.slides.slideshow/iorientationtransition/direction) { get; set; } | 转换的方向。读/写 [`Orientation`](../../aspose.slides/orientation)。 |
+| [Direction](../../aspose.slides.slideshow/iorientationtransition/direction) { get; set; } | 过渡方向。读写 [`Orientation`](../../aspose.slides/orientation)。 |
 
-### 另请参阅
+### 另见
 
 * 接口 [ITransitionValueBase](../itransitionvaluebase)
 * 命名空间 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

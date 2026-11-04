@@ -1,14 +1,14 @@
 ---
 title: IBiLevelEffectiveData
-second_title: Aspose.Sildes .NET API referenciája
-description: Módosíthatatlan objektum, amely egy bi-level fekete/fehér hatást reprezentál. A bemeneti színek, amelyek fényessége kisebb a megadott küszöbértéknél, feketére változnak. A bemeneti színek, amelyek fényessége nagyobb vagy egyenlő a megadott értéknél, fehérre állnak. Az alfa hatásértékek nem változnak ezen hatás által.
+second_title: Aspose.Sildes .NET API referencia
+description: Módosíthatatlan objektum, amely egy bi-level fekete/fehér hatást képvisel. A bemeneti színek, amelyek luminanciája kisebb a megadott küszöbértéknél, feketére változnak. A bemeneti színek, amelyek luminanciája nagyobb vagy egyenlő a megadott értéknél, fehérre állnak. Az alfa-effektus értékek nem módosulnak ezen hatás miatt.
 type: docs
-weight: 3170
+weight: 3190
 url: /hu/aspose.slides.effects/ibileveleffectivedata/
 ---
 ## IBiLevelEffectiveData interfész
 
-Módosíthatatlan objektum, amely egy bi-level (fekete/fehér) hatást reprezentál. Azok a bemeneti színek, amelyek fényessége kisebb a megadott küszöbértéknél, feketére változnak. Azok a bemeneti színek, amelyek fényessége nagyobb vagy egyenlő a megadott értéknél, fehérre állnak. Az alfa hatásértékek nem változnak ezen hatás által.
+Az a módosíthatatlan objektum, amely egy bi-level (fekete/fehér) effektust képvisel. A bemeneti színek, amelyek luminanciája kisebb a megadott küszöbértéknél, feketére változnak. A bemeneti színek, amelyek luminanciája nagyobb vagy egyenlő a megadott értéknél, fehérre állnak. Az alfa-effektusértékek nem változnak ennek az effektusnak hatására.
 
 ```csharp
 public interface IBiLevelEffectiveData : IEffectEffectiveData
@@ -16,9 +16,9 @@ public interface IBiLevelEffectiveData : IEffectEffectiveData
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ibileveleffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi az alap IEffectEffectiveData interfész lekérdezését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ibileveleffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi az alap IEffectEffectiveData interfész lekérését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Threshold](../../aspose.slides.effects/ibileveleffectivedata/threshold) { get; } | Visszaadja a küszöbértéket. Csak olvasható Single. |
 
 ### Lásd még

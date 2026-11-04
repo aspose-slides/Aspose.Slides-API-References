@@ -3,10 +3,10 @@ title: IOverrideTheme
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta un tema di sovrascrittura.
 type: docs
-weight: 11340
+weight: 11360
 url: /it/aspose.slides.theme/ioverridetheme/
 ---
-## interfaccia IOverrideTheme
+## IOverrideTheme interfaccia
 
 Rappresenta un tema di sovrascrittura.
 
@@ -16,14 +16,14 @@ public interface IOverrideTheme : ITheme
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [AsITheme](../../aspose.slides.theme/ioverridetheme/asitheme) { get; } | Consente di ottenere l'interfaccia base ITheme. Solo lettura [`ITheme`](../itheme). |
-| [IsEmpty](../../aspose.slides.theme/ioverridetheme/isempty) { get; } | Il valore true indica che ColorScheme, FontScheme, FormatScheme sono null e qualsiasi sovrascrittura con questo oggetto tema è disabilitata. Solo lettura Boolean. |
+| [AsITheme](../../aspose.slides.theme/ioverridetheme/asitheme) { get; } | Consente di ottenere l'interfaccia ITheme di base. Sola lettura [`ITheme`](../itheme). |
+| [IsEmpty](../../aspose.slides.theme/ioverridetheme/isempty) { get; } | Il valore true indica che ColorScheme, FontScheme, FormatScheme sono null e qualsiasi sovrascrittura con questo oggetto tema è disabilitata. Boolean di sola lettura. |
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [Clear](../../aspose.slides.theme/ioverridetheme/clear)() | Imposta ColorScheme, FontScheme, FormatScheme a null per disabilitare qualsiasi sovrascrittura con questo oggetto tema. |
 | [InitColorScheme](../../aspose.slides.theme/ioverridetheme/initcolorscheme)() | Inizializza ColorScheme con un nuovo oggetto per sovrascrivere ColorScheme di InheritedTheme. |

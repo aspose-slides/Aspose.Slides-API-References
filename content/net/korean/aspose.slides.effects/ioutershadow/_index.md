@@ -1,9 +1,9 @@
 ---
 title: IOuterShadow
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes .NET API 레퍼런스
 description: 외부 그림자 효과를 나타냅니다.
 type: docs
-weight: 3460
+weight: 3480
 url: /ko/aspose.slides.effects/ioutershadow/
 ---
 ## IOuterShadow 인터페이스
@@ -21,16 +21,16 @@ public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>,
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | 기본 IAccessiblePVIObject 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | 기본 IImageTransformOperation 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | 블러 반경(포인트 단위). 기본값 – 0 pt. 읽기/쓰기 Double. |
-| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | 그림자 방향(도 단위). 기본값 – 0 ° (왼쪽에서 오른쪽). 읽기/쓰기 Single. |
-| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | 객체로부터 그림자 거리(포인트 단위). 기본값 – 0 pt. 읽기/쓰기 Double. |
+| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | 블러 반경, 포인트 단위. 기본값 – 0 pt. 읽기/쓰기 Double. |
+| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | 그림자 방향, 도 단위. 기본값 – 0 ° (왼쪽에서 오른쪽). 읽기/쓰기 Single. |
+| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | 객체로부터 그림자까지의 거리, 포인트 단위. 기본값 – 0 pt. 읽기/쓰기 Double. |
 | [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | 사각형 정렬. 기본값 – Bottom. 읽기/쓰기 [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | 그림자가 도형과 함께 회전하는지 여부. 기본값 – true. 읽기/쓰기 Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | 원래 크기의 백분율로 나타낸 가로 스케일링 계수. 음수 스케일링은 뒤집힘을 일으킵니다. 기본값 – 100 %. 읽기/쓰기 Double. |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | 원래 크기의 백분율로 나타낸 세로 스케일링 계수. 음수 스케일링은 뒤집힘을 일으킵니다. 기본값 – 100 %. 읽기/쓰기 Double. |
-| [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | 그림자 색상. 기본값 – 자동 검정(테마 의존). 읽기 전용 [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | 가로 왜곡 각도(도 단위). 기본값 – 0 °. 읽기/쓰기 Double. |
-| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | 세로 왜곡 각도(도 단위). 기본값 – 0 °. 읽기/쓰기 Double. |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | 그림자가 모양과 함께 회전하는지 여부를 나타냅니다. 기본값 – true. 읽기/쓰기 Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | 원본 크기의 백분율로 나타낸 수평 스케일 팩터. 음수 스케일은 뒤집힘을 일으킵니다. 기본값 – 100 %. 읽기/쓰기 Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | 원본 크기의 백분율로 나타낸 수직 스케일 팩터. 음수 스케일은 뒤집힘을 일으킵니다. 기본값 – 100 %. 읽기/쓰기 Double. |
+| [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | 그림자 색상. 기본값 – 자동 검정 (테마에 따라 결정). 읽기 전용 [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | 수평 왜곡 각도, 도 단위. 기본값 – 0 °. 읽기/쓰기 Double. |
+| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | 수직 왜곡 각도, 도 단위. 기본값 – 0 °. 읽기/쓰기 Double. |
 
 ### 참조
 

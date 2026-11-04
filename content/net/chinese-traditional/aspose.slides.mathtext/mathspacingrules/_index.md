@@ -1,14 +1,14 @@
 ---
 title: MathSpacingRules
-second_title: Aspose.Sildes 的 .NET API 參考
-description: 矩陣列之間水平間距的類型
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 矩陣中欄位之間水平間距的類型
 type: docs
-weight: 8990
+weight: 9010
 url: /zh-hant/aspose.slides.mathtext/mathspacingrules/
 ---
 ## MathSpacingRules 列舉
 
-矩陣列之間的間隙（水平間距）類型
+矩陣中欄位之間的間隙（水平間距）類型
 
 ```csharp
 public enum MathSpacingRules
@@ -16,15 +16,15 @@ public enum MathSpacingRules
 
 ### 值
 
-| 名稱 | 值 | 說明 |
+| 名稱 | 數值 | 說明 |
 | --- | --- | --- |
-| SingleSpacingGap | `0` | 單一（列為 1 em，行為 1 行） |
-| OneAndHalfSpacingGap | `1` | 一半（列為 1.5 em，行為 1.5 行） |
-| DoubleSpacingGap | `2` | 雙倍間距（列為 2 em，行為 2 行） |
-| Exactly | `3` | 確切值；對於列，依賴 ColumnGap 的值，以 twips 為單位；對於行，依賴 RowGap 的值，以 twips 為單位 |
-| Multiple | `4` | 多重；對於列，依賴 ColumnGap 的值，以 0.5 em 為增量；對於行，依賴 RowGap 的值，以行為單位 |
+| SingleSpacingGap | `0` | 單一（每欄位 1 em 或每列 1 行） |
+| OneAndHalfSpacingGap | `1` | 一個半（每欄位 1.5 em 或每列 1.5 行） |
+| DoubleSpacingGap | `2` | 雙倍間距（每欄位 2 em 或每列 2 行） |
+| Exactly | `3` | 精確值 對欄位而言，依賴 ColumnGap 的值，以 twips 為單位；對列而言，依賴 RowGap 的值，以 twips 為單位 |
+| Multiple | `4` | 多重 對欄位而言，依賴 ColumnGap 的值，以 0.5 em 為增量；對列而言，依賴 RowGap 的值，以行為單位 |
 
-### 另請參閱
+### 參見
 
 * 命名空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 組件 [Aspose.Slides](../../)

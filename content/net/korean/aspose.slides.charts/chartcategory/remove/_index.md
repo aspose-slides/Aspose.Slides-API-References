@@ -1,14 +1,14 @@
 ---
 title: Remove
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 차트에서 범주를 제거합니다.
+second_title: Aspose.Sildes용 .NET API 레퍼런스
+description: 차트에서 카테고리를 제거합니다.
 type: docs
-weight: 60
+weight: 70
 url: /ko/aspose.slides.charts/chartcategory/remove/
 ---
 ## ChartCategory.Remove 메서드
 
-차트에서 범주를 제거합니다.
+차트에서 카테고리를 제거합니다.
 
 ```csharp
 public void Remove()
@@ -18,7 +18,7 @@ public void Remove()
 
 | 예외 | 조건 |
 | --- | --- |
-| [PptxEditException](../../../aspose.slides/pptxeditexception) | 이미 차트에서 범주가 제거된 경우 발생합니다. |
+| [PptxEditException](../../../aspose.slides/pptxeditexception) | 카테고리가 이미 차트에서 제거된 경우 예외가 발생합니다. |
 
 ### 참조
 

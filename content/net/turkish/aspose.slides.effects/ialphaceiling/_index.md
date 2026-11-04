@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeiling
-second_title: Aspose.Sildes için .NET API Referansı
-description: Alpha Tavan etkisini temsil eder. Sıfırdan büyük Alpha opaklık değerleri 100'e değiştirilir. Başka bir deyişle, kısmen opak olan her şey tamamen opak olur.
+second_title: Aspose.Slides için .NET API Referansı
+description: Alpha Ceiling etkisini temsil eder. Alpha opaklık değerleri sıfırdan büyük olduğunda %100'e değiştirilir. Başka bir deyişle, kısmen opak olan her şey tamamen opak hâle gelir.
 type: docs
-weight: 3040
+weight: 3060
 url: /tr/aspose.slides.effects/ialphaceiling/
 ---
 ## IAlphaCeiling arayüzü
 
-Alpha Tavan etkisini temsil eder. Sıfırdan büyük Alpha (opaklık) değerleri %100'e değiştirilir. Başka bir deyişle, kısmen opak olan her şey tamamen opak olur.
+Alpha Ceiling etkisini temsil eder. Sıfırdan büyük Alpha (opaklık) değerleri %100’e değiştirilir. Başka bir deyişle, kısmen opak olan her şey tamamen opak hâle gelir.
 
 ```csharp
 public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData>, 
@@ -17,10 +17,10 @@ public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphaceiling/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arabirimini almayı sağlar. Yalnızca okuma [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphaceiling/asiimagetransformoperation) { get; } | Temel IImageTransformOperationEx arabirimini almayı sağlar. Yalnızca okuma [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphaceiling/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arayüzünü almayı sağlar. Salt-okunur [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphaceiling/asiimagetransformoperation) { get; } | Temel IImageTransformOperationEx arayüzünü almayı sağlar. Salt-okunur [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Ayrıca Bakınız
 

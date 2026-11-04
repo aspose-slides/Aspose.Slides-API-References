@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeilingEffectiveData
-second_title: Aspose.Sildes for .NET API Referansı
-description: Değiştirilemez nesne, bir Alpha Tavan etkisini temsil eder. Sıfırdan büyük alfa opaklık değerleri %100'e değiştirilir. Başka bir deyişle, kısmen opak olan her şey tamamen opak hâle gelir.
+second_title: Aspose.Sildes .NET API Referansı
+description: Alfa Tavan etkisini temsil eden değiştirilemez bir nesnedir. Sıfırdan büyük alfa opaklık değerleri 100'e değiştirilir. Başka bir deyişle, kısmen opak olan her şey tamamen opak hâle gelir.
 type: docs
-weight: 3050
+weight: 3070
 url: /tr/aspose.slides.effects/ialphaceilingeffectivedata/
 ---
-## IAlphaCeilingEffectiveData arayüzü
+## IAlphaCeilingEffectiveData arayüz
 
-Alfa Tavan etkisini temsil eden değiştirilemez nesne. Sıfırdan büyük olan alfa (opaklık) değerleri %100'e değiştirilir. Başka bir deyişle, kısmen opak olan her şey tamamen opak hâle gelir.
+Alfa Tavan etkisini temsil eden değiştirilemez bir nesnedir. Sıfırdan büyük Alpha (opaklık) değerleri %100'e değiştirilir. Başka bir deyişle, kısmen opak olan her şey tamamen opak hâle gelir.
 
 ```csharp
 public interface IAlphaCeilingEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IAlphaCeilingEffectiveData : IEffectEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaceilingeffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzünü almayı sağlar. Salt okunur [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaceilingeffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzünü almaya izin verir. Yalnızca okunabilir [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Ayrıca Bakınız
 

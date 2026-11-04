@@ -1,14 +1,14 @@
 ---
 title: OrientationTransition
 second_title: Aspose.Sildes для .NET справочник API
-description: Эффект перехода слайда ориентации.
+description: Эффект перехода ориентации слайда.
 type: docs
-weight: 10270
+weight: 10290
 url: /ru/aspose.slides.slideshow/orientationtransition/
 ---
 ## OrientationTransition класс
 
-Эффект перехода слайдов ориентации.
+Эффект перехода ориентации слайда.
 
 ```csharp
 public class OrientationTransition : TransitionValueBase, IOrientationTransition
@@ -25,7 +25,7 @@ public class OrientationTransition : TransitionValueBase, IOrientationTransition
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли два экземпляра TransitionValueBase. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хеш-функцией для конкретного типа, пригодной для использования в алгоритмах хеширования и структурах данных, таких как хеш-таблица. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хеш-функцией для определённого типа, пригодной для использования в алгоритмах хеширования и структурах данных, таких как хеш-таблица. |
 
 ### См. также
 

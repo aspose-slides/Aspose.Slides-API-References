@@ -1,14 +1,14 @@
 ---
 title: IChartDataWorksheetCollection
 second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje kolekci listů pracovního sešitu s daty grafu.
+description: Představuje kolekci pracovních listů sešitu dat grafu.
 type: docs
-weight: 1880
+weight: 1900
 url: /cs/aspose.slides.charts/ichartdataworksheetcollection/
 ---
 ## IChartDataWorksheetCollection rozhraní
 
-Representuje kolekci listů sešitů dat grafu.
+Reprezentuje kolekci pracovních listů sešitu dat grafu.
 
 ```csharp
 public interface IChartDataWorksheetCollection : IGenericCollection<IChartDataWorksheet>
@@ -18,7 +18,7 @@ public interface IChartDataWorksheetCollection : IGenericCollection<IChartDataWo
 
 | Název | Popis |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartdataworksheetcollection/item) { get; } | Vrací list podle indexu. |
+| [Item](../../aspose.slides.charts/ichartdataworksheetcollection/item) { get; } | Vrací pracovní list podle indexu. |
 
 ### Příklady
 

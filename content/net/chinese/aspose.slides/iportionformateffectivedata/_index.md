@@ -1,14 +1,14 @@
 ---
 title: IPortionFormatEffectiveData
-second_title: Aspose.Sildes .NET API 参考
-description: 不可变对象，包含有效的文本部分格式属性。
+second_title: Aspose.Sildes for .NET API 参考
+description: 不可变对象，包含有效的文本段落格式属性。
 type: docs
-weight: 6740
+weight: 6760
 url: /zh/aspose.slides/iportionformateffectivedata/
 ---
 ## IPortionFormatEffectiveData 接口
 
-不可变对象，其中包含有效的文本部分格式属性。
+不可变对象，包含有效的文本段落格式属性。
 
 ```csharp
 public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
@@ -25,9 +25,9 @@ public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
 
 ### 备注
 
-此接口与 [`IPortionFormat`](../iportionformat) 接口一起使用，以返回应用继承后的有效格式化值。
+此接口与 [`IPortionFormat`](../iportionformat) 接口一起使用，以返回应用继承后的有效格式值。
 
-### 另请参阅
+### 另见
 
 * 接口 [IBasePortionFormatEffectiveData](../ibaseportionformateffectivedata)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

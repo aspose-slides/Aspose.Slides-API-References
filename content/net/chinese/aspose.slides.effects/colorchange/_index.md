@@ -1,14 +1,14 @@
 ---
 title: ColorChange
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示一种 Color Change 效果。FromColor 的实例将被 ToColor 的实例替换。
+description: 表示一种颜色更改效果。FromColor 实例将被 ToColor 实例替换。
 type: docs
-weight: 2940
+weight: 2960
 url: /zh/aspose.slides.effects/colorchange/
 ---
 ## ColorChange 类
 
-表示一个 Color Change 效果。FromColor 的实例将被 ToColor 的实例替换。
+表示一个 Color Change 效果。FromColor 实例将被 ToColor 实例替换。
 
 ```csharp
 public sealed class ColorChange : ImageTransformOperation, IColorChange
@@ -18,19 +18,19 @@ public sealed class ColorChange : ImageTransformOperation, IColorChange
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基础 IPresentationComponent 接口。只读 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基 IPresentationComponent 接口。只读 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
 | [FromColor](../../aspose.slides.effects/colorchange/fromcolor) { get; } | 将被替换的颜色。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [ToColor](../../aspose.slides.effects/colorchange/tocolor) { get; } | 将用于替换的颜色。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [ToColor](../../aspose.slides.effects/colorchange/tocolor) { get; } | 将替换的颜色。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/colorchange/equals)(object) | 确定指定的 [`ColorChange`](../colorchange) 是否等于当前的 [`ColorChange`](../colorchange)。 |
-| [GetEffective](../../aspose.slides.effects/colorchange/geteffective)() | 获取在应用继承后的有效 Color Change 效果数据。 |
-| override [GetHashCode](../../aspose.slides.effects/colorchange/gethashcode)() | 用作特定类型的哈希函数。 |
+| [GetEffective](../../aspose.slides.effects/colorchange/geteffective)() | 获取应用继承后的有效 Color Change 效果数据。 |
+| override [GetHashCode](../../aspose.slides.effects/colorchange/gethashcode)() | 作为特定类型的散列函数。 |
 
-### 另见
+### 参见
 
 * 类 [ImageTransformOperation](../imagetransformoperation)
 * 接口 [IColorChange](../icolorchange)

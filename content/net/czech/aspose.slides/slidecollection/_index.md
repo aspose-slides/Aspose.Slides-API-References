@@ -1,14 +1,14 @@
 ---
 title: SlideCollection
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET API referenci
 description: Reprezentuje kolekci snímků.
 type: docs
-weight: 9970
+weight: 9990
 url: /cs/aspose.slides/slidecollection/
 ---
 ## SlideCollection třída
 
-Represents a collection of a slides.
+Reprezentuje kolekci snímků.
 
 ```csharp
 public sealed class SlideCollection : DomObject<Presentation>, ISlideCollection
@@ -19,9 +19,9 @@ public sealed class SlideCollection : DomObject<Presentation>, ISlideCollection
 | Název | Popis |
 | --- | --- |
 | [Count](../../aspose.slides/slidecollection/count) { get; } | Vrací počet prvků skutečně obsažených v kolekci. Pouze pro čtení Int32. |
-| [IsSynchronized](../../aspose.slides/slidecollection/issynchronized) { get; } | Vrací hodnotu, která určuje, zda je přístup ke kolekci synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
+| [IsSynchronized](../../aspose.slides/slidecollection/issynchronized) { get; } | Vrací hodnotu indikující, zda je přístup ke kolekci synchronizován (thread-safe). Pouze pro čtení Boolean. |
 | [Item](../../aspose.slides/slidecollection/item) { get; } | Vrací prvek na zadaném indexu. Pouze pro čtení [`Slide`](../slide). |
-| [SyncRoot](../../aspose.slides/slidecollection/syncroot) { get; } | Vrací kořen synchronizace. Pouze pro čtení Object. |
+| [SyncRoot](../../aspose.slides/slidecollection/syncroot) { get; } | Vrací synchronizační kořen. Pouze pro čtení Object. |
 
 ## Metody
 
@@ -59,11 +59,11 @@ public sealed class SlideCollection : DomObject<Presentation>, ISlideCollection
 | [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_5)(int, TextReader, IExternalResourceResolver, string) | Vytvoří snímky z HTML textu a vloží je do kolekce na určenou pozici. |
 | [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_2)(int, Stream, IExternalResourceResolver, string, bool) | Vytvoří snímky z HTML textu a vloží je do kolekce na určenou pozici. |
 | [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_8)(int, string, IExternalResourceResolver, string, bool) | Vytvoří snímky z HTML textu a vloží je do kolekce na určenou pozici. |
-| [Remove](../../aspose.slides/slidecollection/remove)(ISlide) | Odstraní první výskyt konkrétního objektu z kolekce. |
-| [RemoveAt](../../aspose.slides/slidecollection/removeat)(int) | Odstraní prvek na zadaném indexu v kolekci. |
+| [Remove](../../aspose.slides/slidecollection/remove)(ISlide) | Odebere první výskyt konkrétního objektu z kolekce. |
+| [RemoveAt](../../aspose.slides/slidecollection/removeat)(int) | Odebere prvek na zadaném indexu v kolekci. |
 | [Reorder](../../aspose.slides/slidecollection/reorder#reorder)(int, ISlide) | Přesune snímek v kolekci na určenou pozici. |
-| [Reorder](../../aspose.slides/slidecollection/reorder#reorder_1)(int, params ISlide[]) | Přesune snímky v kolekci na určenou pozici. Snímky budou umístěny počínaje indexem v pořadí, v jakém se vyskytují v seznamu. |
-| [ToArray](../../aspose.slides/slidecollection/toarray#toarray)() | Vytvoří a vrátí pole obsahující všechny snímky. |
+| [Reorder](../../aspose.slides/slidecollection/reorder#reorder_1)(int, params ISlide[]) | Přesune snímky v kolekci na určenou pozici. Snímky budou umístěny počínaje indexem v pořadí, v jakém se objevují v seznamu. |
+| [ToArray](../../aspose.slides/slidecollection/toarray#toarray)() | Vytvoří a vrátí pole se všemi snímky. |
 | [ToArray](../../aspose.slides/slidecollection/toarray#toarray_1)(int, int) | Vytvoří a vrátí pole se všemi snímky ze zadaného rozsahu. Index prvního snímku k přidání. Počet snímků k přidání. |
 
 ### Viz také

@@ -1,9 +1,9 @@
 ---
 title: Compress
 second_title: Aspose.Sildes for .NET API リファレンス
-description: Presentation../aspose.slides/presentation を圧縮することを目的としたメソッドのグループを表します。
+description: Presentation を圧縮することを目的としたメソッドのグループを表します../aspose.slides/presentation.
 type: docs
-weight: 7870
+weight: 7890
 url: /ja/aspose.slides.lowcode/compress/
 ---
 ## Compress クラス
@@ -18,9 +18,11 @@ public static class Compress
 
 | 名前 | 説明 |
 | --- | --- |
-| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | [`Presentation`](../../aspose.slides/presentation) の圧縮を、組み込みフォントから未使用文字を削除して実行します。 |
-| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | [`Presentation`](../../aspose.slides/presentation) の圧縮を、未使用のレイアウトスライドを削除して実行します。 |
-| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | [`Presentation`](../../aspose.slides/presentation) の圧縮を、未使用のマスター スライドを削除して実行します。 |
+| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | 埋め込みフォントの未使用文字を削除して [`Presentation`](../../aspose.slides/presentation) を圧縮します。 |
+| static [CompressImages](../../aspose.slides.lowcode/compress/compressimages)(IPresentation, PicturesCompression) | プレゼンテーション内の画像の解像度を下げ、切り抜かれた領域を削除します。PowerPoint の「Compress Pictures」と同様にすべての画像に適用されます。スライド、レイアウトスライド、マスタースライド上の画像が処理され、グループシェイプ内の画像やシェイプの画像塗りつぶしも含まれます。 |
+| static [CompressPresentation](../../aspose.slides.lowcode/compress/compresspresentation)(Presentation) | 利用可能なすべての圧縮ステップを適用してプレゼンテーションのサイズを縮小します: |
+| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | 未使用のレイアウトスライドを削除して [`Presentation`](../../aspose.slides/presentation) を圧縮します。 |
+| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | 未使用のマスタースライドを削除して [`Presentation`](../../aspose.slides/presentation) を圧縮します。 |
 
 ### 例
 

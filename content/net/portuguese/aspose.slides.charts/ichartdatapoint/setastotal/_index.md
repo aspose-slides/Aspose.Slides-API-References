@@ -1,14 +1,14 @@
 ---
 title: SetAsTotal
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Define o ponto de dados como total. Aplicado apenas ao tipo de série Waterfall.
 type: docs
-weight: 140
+weight: 180
 url: /pt/aspose.slides.charts/ichartdatapoint/setastotal/
 ---
-## IChartDataPoint.SetAsTotal property
+## IChartDataPoint.SetAsTotal propriedade
 
-Define o ponto de dados como total. Aplicado apenas ao tipo de série Waterfall.
+Define o ponto de dados como total. Aplicado somente ao tipo de série Waterfall.
 
 ```csharp
 public bool SetAsTotal { get; set; }

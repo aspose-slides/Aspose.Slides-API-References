@@ -1,14 +1,14 @@
 ---
 title: BaseOverrideThemeManager
-second_title: Aspose.Sildes a .NET API Referenciához
-description: Alaposztály azokhoz az osztályokhoz, amelyek hozzáférést biztosítanak különböző típusú felülírt témákhoz.
+second_title: Aspose.Sildes .NET API Referencia
+description: Alaposztály azokhoz az osztályokhoz, amelyek hozzáférést biztosítanak a különböző típusú felülírt témákhoz.
 type: docs
-weight: 11040
+weight: 11060
 url: /hu/aspose.slides.theme/baseoverridethememanager/
 ---
 ## BaseOverrideThemeManager osztály
 
-Alaposztály azokhoz az osztályokhoz, amelyek hozzáférést biztosítanak különböző típusú felülírt témákhoz.
+Alaposztály azokhoz az osztályokhoz, amelyek hozzáférést biztosítanak a különböző típusú felülírt témákhoz.
 
 ```csharp
 public abstract class BaseOverrideThemeManager : BaseThemeManager, IOverrideThemeManager
@@ -18,8 +18,8 @@ public abstract class BaseOverrideThemeManager : BaseThemeManager, IOverrideThem
 
 | Név | Leírás |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Megállapítja, hogy az OverrideTheme felülírja-e a örökölt hatékony témát vagy sem. Az OverrideTheme felülírásának engedélyezéséhez használja az OverrideTheme.Init*() metódusokat. Az OverrideTheme felülírásának letiltásához használja az OverrideTheme.Clear() metódust. Read-only Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Visszaadja a felülíró téma objektumot. Read/write [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Megállapítja, hogy az OverrideTheme felülírja-e a örökölt hatékony témát vagy sem. Az OverrideTheme felülírásának engedélyezéséhez használja az OverrideTheme.Init*() metódusokat. Az OverrideTheme felülírásának letiltásához használja az OverrideTheme.Clear() metódust. Csak olvasható Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Visszaadja a felülíró téma objektumot. Olvasás/írás [`IOverrideTheme`](../ioverridetheme). |
 
 ## Metódusok
 

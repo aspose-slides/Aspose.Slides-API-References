@@ -3,10 +3,10 @@ title: Paragraph
 second_title: Aspose.Sildes для .NET справочник API
 description: Представляет абзац текста.
 type: docs
-weight: 9280
+weight: 9300
 url: /ru/aspose.slides/paragraph/
 ---
-## Класс Paragraph
+## Paragraph класс
 
 Представляет абзац текста.
 
@@ -19,24 +19,26 @@ public sealed class Paragraph : IParagraph
 | Имя | Описание |
 | --- | --- |
 | [Paragraph](paragraph#constructor)() | Инициализирует новый экземпляр класса Paragraph со свойствами по умолчанию. |
-| [Paragraph](paragraph#constructor_1)(Paragraph) | Конструктор копирования, который инициализирует новый экземпляр класса Paragraph. |
+| [Paragraph](paragraph#constructor_1)(Paragraph) | Конструктор копирования, инициализирующий новый экземпляр класса Paragraph. |
 
 ## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [EndParagraphPortionFormat](../../aspose.slides/paragraph/endparagraphportionformat) { get; set; } | Указывает свойства части, которые будут использоваться, если после последней части вставляется другая часть. |
+| [EndParagraphPortionFormat](../../aspose.slides/paragraph/endparagraphportionformat) { get; set; } | Указывает свойства части, которые следует использовать, если после последней части вставляется другая часть. |
 | [ParagraphFormat](../../aspose.slides/paragraph/paragraphformat) { get; } | Возвращает объект форматирования для этого абзаца. Только для чтения [`IParagraphFormat`](../iparagraphformat). |
 | [Portions](../../aspose.slides/paragraph/portions) { get; } | Возвращает коллекцию текстовых частей. Только для чтения [`IPortionCollection`](../iportioncollection). |
-| [Text](../../aspose.slides/paragraph/text) { get; set; } | Получает или задает простой текст абзаца. Чтение/запись String. |
+| [Text](../../aspose.slides/paragraph/text) { get; set; } | Получает или задаёт обычный текст абзаца. Чтение/запись String. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
+| [GetImage](../../aspose.slides/paragraph/getimage#getimage)() | Возвращает изображение абзаца. |
+| [GetImage](../../aspose.slides/paragraph/getimage#getimage_1)(float, float) | Возвращает изображение абзаца с указанным масштабом. |
 | [GetLinesCount](../../aspose.slides/paragraph/getlinescount)() | Получает количество строк в абзаце. |
 | [GetRect](../../aspose.slides/paragraph/getrect)() | Получает координаты прямоугольника, ограничивающего абзац. Прямоугольник включает все строки текста в абзаце, включая пустые. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/paragraph/joinportionswithsameformatting)() | Объединяет фрагменты с одинаковым форматированием. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/paragraph/joinportionswithsameformatting)() | Объединяет участки с одинаковым форматированием. |
 
 ### См. также
 

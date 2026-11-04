@@ -1,14 +1,14 @@
 ---
 title: IPictureFrameLock
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Determina quali operazioni sono disabilitate sul PictureFrameEx padre.
+description: Determina quali operazioni sono disabilitate sul PictureFrameEx genitore.
 type: docs
-weight: 6680
+weight: 6700
 url: /it/aspose.slides/ipictureframelock/
 ---
 ## IPictureFrameLock interfaccia
 
-Determina quali operazioni sono disabilitate sul PictureFrameEx padre.
+Determina quali operazioni sono disabilitate sul PictureFrameEx genitore.
 
 ```csharp
 public interface IPictureFrameLock : IBaseShapeLock
@@ -18,18 +18,18 @@ public interface IPictureFrameLock : IBaseShapeLock
 
 | Nome | Descrizione |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/ipictureframelock/adjusthandleslocked) { get; set; } | Determina se la modifica dei valori di regolazione è vietata. Boolean lettura/scrittura. |
-| [ArrowheadsLocked](../../aspose.slides/ipictureframelock/arrowheadslocked) { get; set; } | Determina se la modifica delle punte delle frecce è vietata. Boolean lettura/scrittura. |
-| [AsIBaseShapeLock](../../aspose.slides/ipictureframelock/asibaseshapelock) { get; } | Consente di ottenere l'interfaccia base IBaseShapeLock. Solo lettura [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/ipictureframelock/aspectratiolocked) { get; set; } | Determina se una forma deve preservare le proporzioni durante il ridimensionamento. Boolean lettura/scrittura. |
-| [CropLocked](../../aspose.slides/ipictureframelock/croplocked) { get; set; } | Determina se il ritaglio dell'immagine è vietato. Boolean lettura/scrittura. |
-| [EditPointsLocked](../../aspose.slides/ipictureframelock/editpointslocked) { get; set; } | Determina se la modifica diretta del contorno di questa forma è vietata. Boolean lettura/scrittura. |
-| [GroupingLocked](../../aspose.slides/ipictureframelock/groupinglocked) { get; set; } | Determina se l'aggiunta di questa forma a un gruppo è vietata. Boolean lettura/scrittura. |
-| [PositionLocked](../../aspose.slides/ipictureframelock/positionlocked) { get; set; } | Determina se lo spostamento di questa forma è vietato. Boolean lettura/scrittura. |
-| [RotationLocked](../../aspose.slides/ipictureframelock/rotationlocked) { get; set; } | Determina se la modifica dell'angolo di rotazione di questa forma è vietata. Boolean lettura/scrittura. |
-| [SelectLocked](../../aspose.slides/ipictureframelock/selectlocked) { get; set; } | Determina se la selezione di questa forma è vietata. Boolean lettura/scrittura. |
-| [ShapeTypeLocked](../../aspose.slides/ipictureframelock/shapetypelocked) { get; set; } | Determina se la modifica del tipo di forma è vietata. Boolean lettura/scrittura. |
-| [SizeLocked](../../aspose.slides/ipictureframelock/sizelocked) { get; set; } | Determina se il ridimensionamento di questa forma è vietato. Boolean lettura/scrittura. |
+| [AdjustHandlesLocked](../../aspose.slides/ipictureframelock/adjusthandleslocked) { get; set; } | Determina se la modifica dei valori di regolazione è proibita. Lettura/scrittura Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/ipictureframelock/arrowheadslocked) { get; set; } | Determina se la modifica delle punte delle frecce è proibita. Lettura/scrittura Boolean. |
+| [AsIBaseShapeLock](../../aspose.slides/ipictureframelock/asibaseshapelock) { get; } | Consente di ottenere l'interfaccia base IBaseShapeLock. Sola lettura [`IBaseShapeLock`](../ibaseshapelock). |
+| [AspectRatioLocked](../../aspose.slides/ipictureframelock/aspectratiolocked) { get; set; } | Determina se una forma deve preservare il rapporto d'aspetto durante il ridimensionamento. Lettura/scrittura Boolean. |
+| [CropLocked](../../aspose.slides/ipictureframelock/croplocked) { get; set; } | Determina se il ritaglio dell'immagine è proibito. Lettura/scrittura Boolean. |
+| [EditPointsLocked](../../aspose.slides/ipictureframelock/editpointslocked) { get; set; } | Determina se la modifica diretta del contorno di questa forma è proibita. Lettura/scrittura Boolean. |
+| [GroupingLocked](../../aspose.slides/ipictureframelock/groupinglocked) { get; set; } | Determina se l'aggiunta di questa forma a un gruppo è proibita. Lettura/scrittura Boolean. |
+| [PositionLocked](../../aspose.slides/ipictureframelock/positionlocked) { get; set; } | Determina se lo spostamento di questa forma è proibito. Lettura/scrittura Boolean. |
+| [RotationLocked](../../aspose.slides/ipictureframelock/rotationlocked) { get; set; } | Determina se la modifica dell'angolo di rotazione di questa forma è proibita. Lettura/scrittura Boolean. |
+| [SelectLocked](../../aspose.slides/ipictureframelock/selectlocked) { get; set; } | Determina se la selezione di questa forma è proibita. Lettura/scrittura Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/ipictureframelock/shapetypelocked) { get; set; } | Determina se la modifica del tipo di forma è proibita. Lettura/scrittura Boolean. |
+| [SizeLocked](../../aspose.slides/ipictureframelock/sizelocked) { get; set; } | Determina se il ridimensionamento di questa forma è proibito. Lettura/scrittura Boolean. |
 
 ### Vedi anche
 

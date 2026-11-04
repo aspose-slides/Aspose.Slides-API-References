@@ -1,14 +1,14 @@
 ---
 title: IChartDataCell
 second_title: Aspose.Sildes for .NET API リファレンス
-description: チャート データ用のセルを表します。
+description: チャート データのセルを表します。
 type: docs
-weight: 1810
+weight: 1830
 url: /ja/aspose.slides.charts/ichartdatacell/
 ---
 ## IChartDataCell インターフェイス
 
-チャート データ用のセルを表します。
+チャート データのセルを表します。
 
 ```csharp
 public interface IChartDataCell
@@ -18,15 +18,15 @@ public interface IChartDataCell
 
 | 名前 | 説明 |
 | --- | --- |
-| [ChartDataWorksheet](../../aspose.slides.charts/ichartdatacell/chartdataworksheet) { get; } | ワークシートを取得します。 読み取り専用 [`IChartDataWorksheet`](../ichartdataworksheet)。 |
-| [Column](../../aspose.slides.charts/ichartdatacell/column) { get; } | セルが位置するワークシートの列のインデックスを返します。 読み取り専用 Int32。 |
-| [CustomNumberFormat](../../aspose.slides.charts/ichartdatacell/customnumberformat) { get; set; } | 数値と日付のカスタム表示形式を取得または設定します。 値が空の場合は PresetNumberFormat の値が使用されます。 読み取り/書き込み String。 |
-| [Formula](../../aspose.slides.charts/ichartdatacell/formula) { get; set; } | A1 スタイルの数式を取得または設定します。 |
-| [IsHidden](../../aspose.slides.charts/ichartdatacell/ishidden) { get; } | セルが非表示かどうかを判断します。 読み取り専用 Boolean。 |
-| [PresetNumberFormat](../../aspose.slides.charts/ichartdatacell/presetnumberformat) { get; set; } | 数値と日付の組み込み表示形式を取得または設定します。 プリセット番号は [0..22] または [37..49] の範囲でなければなりません。 読み取り/書き込み Byte。 |
-| [R1C1Formula](../../aspose.slides.charts/ichartdatacell/r1c1formula) { get; set; } | R1C1 スタイルの数式を取得または設定します。 |
-| [Row](../../aspose.slides.charts/ichartdatacell/row) { get; } | セルが位置するワークシートの行のインデックスを返します。 読み取り専用 Int32。 |
-| [Value](../../aspose.slides.charts/ichartdatacell/value) { get; set; } | セルの値を取得または設定します。 読み取り/書き込み Object。 |
+| [ChartDataWorksheet](../../aspose.slides.charts/ichartdatacell/chartdataworksheet) { get; } | ワークシートを取得します。読み取り専用 [`IChartDataWorksheet`](../ichartdataworksheet)。 |
+| [Column](../../aspose.slides.charts/ichartdatacell/column) { get; } | セルが配置されているワークシートの列インデックスを返します。読み取り専用 Int32。 |
+| [CustomNumberFormat](../../aspose.slides.charts/ichartdatacell/customnumberformat) { get; set; } | 数値と日付のカスタム表示形式を取得または設定します。値が空の場合は PresetNumberFormat の値が使用されます。読み取り/書き込み String。 |
+| [Formula](../../aspose.slides.charts/ichartdatacell/formula) { get; set; } | A1 形式の数式を取得または設定します。 |
+| [IsHidden](../../aspose.slides.charts/ichartdatacell/ishidden) { get; } | セルが非表示かどうかを判定します。読み取り専用 Boolean。 |
+| [PresetNumberFormat](../../aspose.slides.charts/ichartdatacell/presetnumberformat) { get; set; } | 数値と日付の組み込み表示形式を取得または設定します。プリセット番号は [0..22] または [37..49] の範囲でなければなりません。読み取り/書き込み Byte。 |
+| [R1C1Formula](../../aspose.slides.charts/ichartdatacell/r1c1formula) { get; set; } | R1C1 形式の数式を取得または設定します。 |
+| [Row](../../aspose.slides.charts/ichartdatacell/row) { get; } | セルが配置されているワークシートの行インデックスを返します。読み取り専用 Int32。 |
+| [Value](../../aspose.slides.charts/ichartdatacell/value) { get; set; } | セルの値を取得または設定します。読み取り/書き込み Object。 |
 
 ## メソッド
 

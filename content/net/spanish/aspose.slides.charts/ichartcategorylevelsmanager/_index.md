@@ -1,14 +1,14 @@
 ---
 title: IChartCategoryLevelsManager
 second_title: Aspose.Sildes para la referencia de API de .NET
-description: Contenedor administrado de los valores de los niveles de categoría del gráfico.
+description: Contenedor gestionado de los valores de los niveles de categoría del gráfico.
 type: docs
-weight: 1770
+weight: 1790
 url: /es/aspose.slides.charts/ichartcategorylevelsmanager/
 ---
 ## IChartCategoryLevelsManager interfaz
 
-Contenedor administrado de los valores de los niveles de categoría del gráfico.
+Contenedor gestionado de los valores de los niveles de categoría del gráfico.
 
 ```csharp
 public interface IChartCategoryLevelsManager
@@ -16,13 +16,13 @@ public interface IChartCategoryLevelsManager
 
 ## Propiedades
 
-| Name | Description |
+| Nombre | Descripción |
 | --- | --- |
 | [Item](../../aspose.slides.charts/ichartcategorylevelsmanager/item) { get; } | Devuelve el objeto IChartDataCell para el nivel definido. |
 
 ## Métodos
 
-| Name | Description |
+| Nombre | Descripción |
 | --- | --- |
 | [DeleteGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/deletegroupingitem)(int) | Elimina el elemento de agrupación para el nivel definido. |
 | [SetGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/setgroupingitem)(int, object) | Establece el elemento de agrupación para el nivel definido. |

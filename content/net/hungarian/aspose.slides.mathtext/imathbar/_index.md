@@ -1,28 +1,28 @@
 ---
 title: IMathBar
-second_title: Aspose.Sildes .NET API referencia
-description: Meghatározza a vonal függvényt, amely egy alap argumentumból és egy felül- vagy alulhelyezett vonalból áll
+second_title: Aspose.Sildes a .NET API hivatkozáshoz
+description: Meghatározza a vonalfüggvényt, amely egy alap argumentumból és egy felül vagy alul elhelyezett vonalból áll
 type: docs
-weight: 8120
+weight: 8140
 url: /hu/aspose.slides.mathtext/imathbar/
 ---
-## IMathBar interfész
+## IMathBar interface
 
-Meghatározza a vonal függvényt, amely egy alap argumentumból és egy felül vagy alul elhelyezett vonalból áll
+Meghatározza a vonalfüggvényt, amely egy bázis argumentumból és egy felül vagy alul elhelyezett vonalból áll
 
 ```csharp
 public interface IMathBar : IMathElement
 ```
 
-## Tulajdonságok
+## Properties
 
 | Név | Leírás |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathbar/asimathelement) { get; } | Lehetővé teszi a base IMathElement interfész [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathbar/asimathelement) { get; } | Lehetővé teszi a base IMathElement interface [`IMathElement`](../imathelement) lekérését |
 | [Base](../../aspose.slides.mathtext/imathbar/base) { get; } | Alap argumentum |
-| [Position](../../aspose.slides.mathtext/imathbar/position) { get; set; } | A vonal pozíciója. Alapértelmezett: Felső |
+| [Position](../../aspose.slides.mathtext/imathbar/position) { get; set; } | A vonal vonalának pozíciója. Alapértelmezett: Felül |
 
-### Példák
+### Examples
 
 Példa:
 
@@ -31,7 +31,7 @@ Példa:
 IMathBar mathBar = new MathBar(new MathematicalText("x"));
 ```
 
-### Lásd még
+### See Also
 
 * interfész [IMathElement](../imathelement)
 * névtér [Aspose.Slides.MathText](../../aspose.slides.mathtext)

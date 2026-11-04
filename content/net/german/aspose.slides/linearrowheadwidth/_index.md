@@ -1,14 +1,14 @@
 ---
 title: LineArrowheadWidth
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt die Breite eines Pfeilkopfes dar.
+description: Stellt die Breite einer Pfeilspitze dar.
 type: docs
-weight: 7750
+weight: 7770
 url: /de/aspose.slides/linearrowheadwidth/
 ---
 ## LineArrowheadWidth Aufzählung
 
-Stellt die Breite eines Pfeilkopfes dar.
+Stellt die Breite einer Pfeilspitze dar.
 
 ```csharp
 public enum LineArrowheadWidth : sbyte

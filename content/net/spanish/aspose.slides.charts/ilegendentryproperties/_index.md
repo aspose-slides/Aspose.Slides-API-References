@@ -3,7 +3,7 @@ title: ILegendEntryProperties
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa las propiedades de la leyenda de un gráfico.
 type: docs
-weight: 2150
+weight: 2170
 url: /es/aspose.slides.charts/ilegendentryproperties/
 ---
 ## ILegendEntryProperties interfaz

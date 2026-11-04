@@ -1,14 +1,14 @@
 ---
 title: ILineFormatEffectiveData
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Unveränderliches Objekt, das effektive Linienformatierungseigenschaften enthält.
+description: Unveränderliches Objekt, das effektive Zeilenformatierungseigenschaften enthält.
 type: docs
-weight: 6320
+weight: 6340
 url: /de/aspose.slides/ilineformateffectivedata/
 ---
-## ILineFormatEffectiveData Schnittstelle
+## ILineFormatEffectiveData interface
 
-Unveränderliches Objekt, das effektive Linienformatierungseigenschaften enthält.
+Unveränderliches Objekt, das effektive Zeilenformatierungseigenschaften enthält.
 
 ```csharp
 public interface ILineFormatEffectiveData : ILineParamSource
@@ -18,20 +18,20 @@ public interface ILineFormatEffectiveData : ILineParamSource
 
 | Name | Beschreibung |
 | --- | --- |
-| [Alignment](../../aspose.slides/ilineformateffectivedata/alignment) { get; } | Gibt die Linienausrichtung zurück. Nur lesbar [`LineAlignment`](../linealignment). |
-| [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | Ermöglicht den Zugriff auf das Basis-ILineParamSource-Interface. Nur lesbar [`ILineParamSource`](../ilineparamsource). |
-| [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | Gibt die Pfeilspitzenlänge am Anfang einer Linie zurück. Nur lesbar [`LineArrowheadLength`](../linearrowheadlength). |
-| [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | Gibt den Pfeilspitzenstil am Anfang einer Linie zurück. Nur lesbar [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | Gibt die Pfeilspitzenbreite am Anfang einer Linie zurück. Nur lesbar [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | Gibt den Linienende-Stil zurück. Nur lesbar [`LineCapStyle`](../linecapstyle). |
+| [Alignment](../../aspose.slides/ilineformateffectivedata/alignment) { get; } | Gibt die Zeilenausrichtung zurück. Nur lesbar [`LineAlignment`](../linealignment). |
+| [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle ILineParamSource. Nur lesbar [`ILineParamSource`](../ilineparamsource). |
+| [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | Gibt die Pfeilspitzenlänge am Anfang einer Zeile zurück. Nur lesbar [`LineArrowheadLength`](../linearrowheadlength). |
+| [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | Gibt den Pfeilspitzenstil am Anfang einer Zeile zurück. Nur lesbar [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | Gibt die Pfeilspitzenbreite am Anfang einer Zeile zurück. Nur lesbar [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | Gibt den Linienendstil zurück. Nur lesbar [`LineCapStyle`](../linecapstyle). |
 | [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | Gibt das benutzerdefinierte Strichmuster zurück. Nur lesbar Single[]. |
-| [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | Gibt den Strichstil der Linie zurück. Nur lesbar [`LineDashStyle`](../linedashstyle). |
-| [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | Gibt die Pfeilspitzenlänge am Ende einer Linie zurück. Nur lesbar [`LineArrowheadLength`](../linearrowheadlength). |
-| [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | Gibt den Pfeilspitzenstil am Ende einer Linie zurück. Nur lesbar [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | Gibt die Pfeilspitzenbreite am Ende einer Linie zurück. Nur lesbar [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | Gibt den Linienstrichstil zurück. Nur lesbar [`LineDashStyle`](../linedashstyle). |
+| [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | Gibt die Pfeilspitzenlänge am Ende einer Zeile zurück. Nur lesbar [`LineArrowheadLength`](../linearrowheadlength). |
+| [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | Gibt den Pfeilspitzenstil am Ende einer Zeile zurück. Nur lesbar [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | Gibt die Pfeilspitzenbreite am Ende einer Zeile zurück. Nur lesbar [`LineArrowheadWidth`](../linearrowheadwidth). |
 | [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | Gibt das Füllformat einer Linie zurück. Nur lesbar [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata). |
 | [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | Gibt den Verbindungsstil der Linien zurück. Nur lesbar [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | Gibt den Gehrungsgrenzwert einer Linie zurück. Nur lesbar Single. |
+| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | Gibt die Gehrungsbegrenzung einer Linie zurück. Nur lesbar Single. |
 | [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | Gibt das Skizzenformat einer Linie zurück. Nur lesbar [`ISketchFormatEffectiveData`](../isketchformateffectivedata). |
 | [Style](../../aspose.slides/ilineformateffectivedata/style) { get; } | Gibt den Linienstil zurück. Nur lesbar [`LineStyle`](../linestyle). |
 | [Width](../../aspose.slides/ilineformateffectivedata/width) { get; } | Gibt die Breite einer Linie zurück. Nur lesbar Double. |
@@ -44,11 +44,11 @@ public interface ILineFormatEffectiveData : ILineParamSource
 
 ### Hinweise
 
-Dieses Interface wird zusammen mit dem [`ILineFormat`](../ilineformat) Interface verwendet, um effektive Formatierungswerte mit angewandter Vererbung zurückzugeben.
+Dieses Interface wird zusammen mit dem [`ILineFormat`](../ilineformat)-Interface verwendet, um effektive Formatierungswerte mit angewandter Vererbung zurückzugeben.
 
 ### Siehe auch
 
-* Schnittstelle [ILineParamSource](../ilineparamsource)
+* Interface [ILineParamSource](../ilineparamsource)
 * Namespace [Aspose.Slides](../../aspose.slides)
 * Assembly [Aspose.Slides](../../)
 

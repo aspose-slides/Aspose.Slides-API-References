@@ -1,14 +1,14 @@
 ---
 title: ExcelWorkbookImporter
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
-description: ให้ฟังก์ชันการทำงานสำหรับการนำเข้าข้อมูลจาก Excel workbook ไปยังการนำเสนอ
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: ให้ความสามารถในการนำเข้าข้อมูลจากสมุดงาน Excel ไปยังงานนำเสนอ
 type: docs
-weight: 7470
+weight: 7490
 url: /th/aspose.slides.import/excelworkbookimporter/
 ---
 ## ExcelWorkbookImporter คลาส
 
-ให้ฟังก์ชันการทำงานสำหรับการนำเข้าข้อมูลจาก Excel workbook ไปยังการนำเสนอ
+ให้ความสามารถในการนำเข้าข้อมูลจากสมุดงาน Excel ไปยังงานนำเสนอ
 
 ```csharp
 public static class ExcelWorkbookImporter
@@ -18,13 +18,13 @@ public static class ExcelWorkbookImporter
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, int, bool) | ดึงแผนภูมิจาก Excel workbook ที่ระบุและเพิ่มลงท้ายของ shape collection ที่กำหนดที่พิกัดที่ระบุ |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_1)(IShapeCollection, float, float, IExcelDataWorkbook, string, string, bool) | ดึงแผนภูมิจาก Excel workbook ที่ระบุและเพิ่มลงท้ายของ shape collection ที่กำหนดที่พิกัดที่ระบุ |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_2)(IShapeCollection, float, float, Stream, string, string, bool) | ดึงแผนภูมิจาก Excel workbook ที่ระบุและเพิ่มลงท้ายของ shape collection ที่กำหนดที่พิกัดที่ระบุ |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_3)(IShapeCollection, float, float, string, string, string, bool) | ดึงแผนภูมิจาก Excel workbook ที่ระบุและเพิ่มลงท้ายของ shape collection ที่กำหนดที่พิกัดที่ระบุ |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, string) | ดึงตารางจาก Excel workbook ที่ระบุและเพิ่มลงท้ายของ shape collection ที่กำหนดที่พิกัดที่ระบุ |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_1)(IShapeCollection, float, float, Stream, string, string) | ดึงตารางจากไฟล์ Excel workbook ที่ระบุและเพิ่มลงท้ายของ shape collection ที่กำหนดที่พิกัดที่ระบุ |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_2)(IShapeCollection, float, float, string, string, string) | ดึงตารางจากไฟล์ Excel workbook ที่ระบุและเพิ่มลงท้ายของ shape collection ที่กำหนดที่พิกัดที่ระบุ |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, int, bool) | ดึงแผนภูมิจากสมุดงาน Excel ที่ระบุและเพิ่มลงในส่วนท้ายของ shape collection ที่กำหนดตามพิกัดที่ระบุ |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_1)(IShapeCollection, float, float, IExcelDataWorkbook, string, string, bool) | ดึงแผนภูมิจากสมุดงาน Excel ที่ระบุและเพิ่มลงในส่วนท้ายของ shape collection ที่กำหนดตามพิกัดที่ระบุ |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_2)(IShapeCollection, float, float, Stream, string, string, bool) | ดึงแผนภูมิจากสมุดงาน Excel ที่ระบุและเพิ่มลงในส่วนท้ายของ shape collection ที่กำหนดตามพิกัดที่ระบุ |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_3)(IShapeCollection, float, float, string, string, string, bool) | ดึงแผนภูมิจากสมุดงาน Excel ที่ระบุและเพิ่มลงในส่วนท้ายของ shape collection ที่กำหนดตามพิกัดที่ระบุ |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, string) | ดึงตารางจากสมุดงาน Excel ที่ระบุและเพิ่มลงในส่วนท้ายของ shape collection ที่กำหนดตามพิกัดที่ระบุ |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_1)(IShapeCollection, float, float, Stream, string, string) | ดึงตารางจากไฟล์สมุดงาน Excel และเพิ่มลงในส่วนท้ายของ shape collection ที่กำหนดตามพิกัดที่ระบุ |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_2)(IShapeCollection, float, float, string, string, string) | ดึงตารางจากไฟล์สมุดงาน Excel และเพิ่มลงในส่วนท้ายของ shape collection ที่กำหนดตามพิกัดที่ระบุ |
 
 ### ดูเพิ่มเติม
 

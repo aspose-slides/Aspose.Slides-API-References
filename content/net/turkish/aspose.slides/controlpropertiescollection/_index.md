@@ -1,14 +1,14 @@
 ---
 title: ControlPropertiesCollection
-second_title: Aspose.Sildes için .NET API Referansı
-description: AcitveX özelliklerinin bir koleksiyonu.
+second_title: Aspose.Sildes .NET API Referansı
+description: ActiveX özelliklerinin bir koleksiyonu.
 type: docs
-weight: 2710
+weight: 2730
 url: /tr/aspose.slides/controlpropertiescollection/
 ---
 ## ControlPropertiesCollection sınıf
 
-AcitveX özelliklerinin bir koleksiyonu.
+ActiveX özelliklerinin bir koleksiyonu.
 
 ```csharp
 public class ControlPropertiesCollection : IControlPropertiesCollection
@@ -18,9 +18,9 @@ public class ControlPropertiesCollection : IControlPropertiesCollection
 
 | Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides/controlpropertiescollection/count) { get; } | Koleksiyondaki özellik sayısını döndürür. Yalnızca okunabilir Int32. |
+| [Count](../../aspose.slides/controlpropertiescollection/count) { get; } | Koleksiyondaki özellik sayısını döndürür. Salt okunur Int32. |
 | [Item](../../aspose.slides/controlpropertiescollection/item) { get; set; } | Özelliği döndürür veya ayarlar. |
-| [NamesOfProperties](../../aspose.slides/controlpropertiescollection/namesofproperties) { get; } | Özellik adlarının koleksiyonunu döndürür. Yalnızca okunabilir ICollection. |
+| [NamesOfProperties](../../aspose.slides/controlpropertiescollection/namesofproperties) { get; } | Özellik adlarının koleksiyonunu döndürür. Salt okunur ICollection. |
 
 ## Yöntemler
 
@@ -28,10 +28,10 @@ public class ControlPropertiesCollection : IControlPropertiesCollection
 | --- | --- |
 | [Add](../../aspose.slides/controlpropertiescollection/add)(string, string) | Koleksiyona bir özellik ekler. |
 | [Clear](../../aspose.slides/controlpropertiescollection/clear)() | Tüm özellikleri kaldırır. |
-| [GetEnumerator](../../aspose.slides/controlpropertiescollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |
+| [GetEnumerator](../../aspose.slides/controlpropertiescollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumeratör döndürür. |
 | [Remove](../../aspose.slides/controlpropertiescollection/remove)(string) | Belirtilen ada sahip bir özelliği kaldırır. |
 
-### Ayrıca Bakınız
+### Diğer
 
 * arayüz [IControlPropertiesCollection](../icontrolpropertiescollection)
 * ad alanı [Aspose.Slides](../../aspose.slides)

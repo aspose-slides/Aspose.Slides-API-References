@@ -1,20 +1,20 @@
 ---
 title: Format
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Mô tả các thuộc tính định dạng. Đọc/ghi IFormataspose.slides.charts/iformat.
+description: Biểu thị các thuộc tính định dạng. Đọc/ghi IFormataspose.slides.charts/iformat.
 type: docs
-weight: 100
+weight: 140
 url: /vi/aspose.slides.charts/chartdatapoint/format/
 ---
-## Thuộc tính ChartDataPoint.Format
+## ChartDataPoint.Format thuộc tính
 
-Mô tả các thuộc tính định dạng. Đọc/ghi [`IFormat`](../../iformat).
+Biểu thị các thuộc tính định dạng. Đọc/ghi [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; set; }
 ```
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [IFormat](../../iformat)
 * lớp [ChartDataPoint](../../chartdatapoint)

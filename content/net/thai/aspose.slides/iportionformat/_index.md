@@ -1,14 +1,14 @@
 ---
 title: IPortionFormat
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: คลาสนี้มีคุณสมบัติการจัดรูปแบบส่วนของข้อความ. แตกต่างจาก IPortionFormatEffectiveData./iportionformateffectivedata คุณสมบัติทั้งหมดของคลาสนี้สามารถเขียนได้.
+description: คลาสนี้มีคุณสมบัติการจัดรูปแบบส่วนข้อความ. แตกต่างจาก IPortionFormatEffectiveData./iportionformateffectivedata คุณสมบัติทั้งหมดของคลาสนี้สามารถเขียนได้.
 type: docs
-weight: 6730
+weight: 6750
 url: /th/aspose.slides/iportionformat/
 ---
-## IPortionFormat อินเทอร์เฟซ
+## IPortionFormat ส่วนต่อประสาน
 
-คลาสนี้มีคุณสมบัติการจัดรูปแบบส่วนของข้อความ. Unlike [`IPortionFormatEffectiveData`](../iportionformateffectivedata), all properties of this class are writeable.
+คลาสนี้มีคุณสมบัติการจัดรูปแบบส่วนข้อความ. แตกต่างจาก [`IPortionFormatEffectiveData`](../iportionformateffectivedata), คุณสมบัติทั้งหมดของคลาสนี้สามารถเขียนได้.
 
 ```csharp
 public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
@@ -18,27 +18,27 @@ public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIBasePortionFormat](../../aspose.slides/iportionformat/asibaseportionformat) { get; } | คืนค่า IBasePortionFormat อินเทอร์เฟซ. อ่านอย่างเดียว [`IBasePortionFormat`](../ibaseportionformat). |
-| [AsIHyperlinkContainer](../../aspose.slides/iportionformat/asihyperlinkcontainer) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IHyperlinkContainer พื้นฐาน. อ่านอย่างเดียว [`IHyperlinkContainer`](../ihyperlinkcontainer). |
-| [BookmarkId](../../aspose.slides/iportionformat/bookmarkid) { get; set; } | คืนค่า หรือ ตั้งค่าตัวระบุ bookmark. อ่าน/เขียน String. |
-| [SmartTagClean](../../aspose.slides/iportionformat/smarttagclean) { get; set; } | กำหนดว่า smart tag ควรถูกทำความสะอาดหรือไม่. ไม่ใช้การสืบทอด. อ่าน/เขียน Boolean. |
+| [AsIBasePortionFormat](../../aspose.slides/iportionformat/asibaseportionformat) { get; } | คืนค่าอินเตอร์เฟซ IBasePortionFormat. อ่านได้อย่างเดียว [`IBasePortionFormat`](../ibaseportionformat). |
+| [AsIHyperlinkContainer](../../aspose.slides/iportionformat/asihyperlinkcontainer) { get; } | อนุญาตให้ดึงอินเตอร์เฟซ IHyperlinkContainer พื้นฐาน. อ่านได้อย่างเดียว [`IHyperlinkContainer`](../ihyperlinkcontainer). |
+| [BookmarkId](../../aspose.slides/iportionformat/bookmarkid) { get; set; } | คืนค่าหรือกำหนดตัวระบุของบุ๊กมาร์ค. อ่านและเขียน String. |
+| [SmartTagClean](../../aspose.slides/iportionformat/smarttagclean) { get; set; } | กำหนดว่าป้ายกำกับอัจฉริยะควรทำความสะอาดหรือไม่. ไม่มีการสืบทอดที่นำไปใช้. อ่านและเขียน Boolean. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GetEffective](../../aspose.slides/iportionformat/geteffective)() | ดึงข้อมูลการจัดรูปแบบส่วนที่มีผลโดยใช้การสืบทอด. |
+| [GetEffective](../../aspose.slides/iportionformat/geteffective)() | ดึงข้อมูลการจัดรูปแบบส่วนที่มีผลโดยมีการสืบทอดที่นำไปใช้. |
 
 ### หมายเหตุ
 
-คลาสนี้ใช้เพื่อคืนค่าและจัดการคุณสมบัติการจัดรูปแบบส่วนของข้อความที่กำหนดไว้สำหรับส่วนเฉพาะ. สิ่งนี้หมายความว่าไม่มีการสืบทอดถูกใช้เมื่อดึงค่าต่าง ๆ ดังนั้นในหลายกรณีคุณจะได้รับค่าที่หมายถึง “undefined”.
+คลาสนี้ใช้เพื่อคืนค่าและจัดการคุณสมบัติการจัดรูปแบบส่วนข้อความที่กำหนดสำหรับส่วนเฉพาะ. นั่นหมายความว่าไม่มีการสืบทอดที่ใช้เมื่อดึงค่าจึงในกรณีส่วนใหญ่คุณจะได้ค่าที่หมายถึง “ไม่กำหนด”.
 
-เพื่อให้ได้ค่าพารามิเตอร์การจัดรูปแบบที่มีผลรวมถึงที่สืบทอด คุณต้องใช้เมธอด [`GetEffective`](./geteffective) ซึ่งคืนค่าอินสแตนซ์ [`IPortionFormatEffectiveData`](../iportionformateffectivedata).
+เพื่อให้ได้ค่าพารามิเตอร์การจัดรูปแบบที่มีผลรวมถึงที่สืบทอดคุณต้องใช้เมธอด [`GetEffective`](./geteffective) ซึ่งคืนค่าอินสแตนซ์ [`IPortionFormatEffectiveData`](../iportionformateffectivedata).
 
 ### ดูเพิ่มเติม
 
-* อินเทอร์เฟซ [IBasePortionFormat](../ibaseportionformat)
-* อินเทอร์เฟซ [IHyperlinkContainer](../ihyperlinkcontainer)
+* ส่วนต่อประสาน [IBasePortionFormat](../ibaseportionformat)
+* ส่วนต่อประสาน [IHyperlinkContainer](../ihyperlinkcontainer)
 * เนมสเปซ [Aspose.Slides](../../aspose.slides)
 * แอสเซมบลี [Aspose.Slides](../../)
 

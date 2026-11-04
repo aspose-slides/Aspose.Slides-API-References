@@ -1,12 +1,12 @@
 ---
 title: IDuotone
-second_title: Aspose.Sildes dla .NET API Reference
+second_title: Aspose.Sildes dla .NET – Referencja API
 description: Reprezentuje efekt Duotone.
 type: docs
-weight: 3260
+weight: 3280
 url: /pl/aspose.slides.effects/iduotone/
 ---
-## Interfejs IDuotone
+## IDuotone interfejs
 
 Reprezentuje efekt Duotone.
 
@@ -18,8 +18,8 @@ public interface IDuotone : IAccessiblePVIObject<IDuotoneEffectiveData>, IImageT
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iduotone/asiaccessiblepviobject) { get; } | Umożliwia pobranie podstawowego interfejsu IAccessiblePVIObject. Tylko do odczytu [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iduotone/asiimagetransformoperation) { get; } | Umożliwia pobranie podstawowego interfejsu IImageTransformOperation. Tylko do odczytu [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iduotone/asiaccessiblepviobject) { get; } | Umożliwia pobranie bazowego interfejsu IAccessiblePVIObject. Tylko do odczytu [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iduotone/asiimagetransformoperation) { get; } | Umożliwia pobranie bazowego interfejsu IImageTransformOperation. Tylko do odczytu [`IImageTransformOperation`](../iimagetransformoperation). |
 | [Color1](../../aspose.slides.effects/iduotone/color1) { get; } | Zwraca docelowy format koloru dla ciemnych pikseli. Tylko do odczytu [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Color2](../../aspose.slides.effects/iduotone/color2) { get; } | Zwraca docelowy format koloru dla jasnych pikseli. Tylko do odczytu [`IColorFormat`](../../aspose.slides/icolorformat). |
 

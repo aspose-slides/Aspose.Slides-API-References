@@ -1,14 +1,14 @@
 ---
 title: ParentSeries
-second_title: Aspose.Sildes pro .NET API Reference
-description: Vrací nadřazenou sérii grafu. Pouze pro čtení IChartSeriesaspose.slides.charts/ichartseries.
+second_title: Aspose.Sildes pro .NET – referenční dokumentace API
+description: Vrací nadřazenou řadu grafu. Pouze ke čtení IChartSeriesaspose.slides.charts/ichartseries.
 type: docs
-weight: 90
+weight: 100
 url: /cs/aspose.slides.charts/idatalabelcollection/parentseries/
 ---
 ## IDataLabelCollection.ParentSeries vlastnost
 
-Vrací nadřazenou sérii grafu. Pouze pro čtení [`IChartSeries`](../../ichartseries).
+Vrací nadřazenou řadu grafu. Pouze ke čtení [`IChartSeries`](../../ichartseries).
 
 ```csharp
 public IChartSeries ParentSeries { get; }

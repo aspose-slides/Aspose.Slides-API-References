@@ -1,9 +1,9 @@
 ---
 title: ISingleCellChartValue
-second_title: Aspose.Sildes - referencja API dla .NET
+second_title: Aspose.Sildes dla .NET Referencja API
 description: Reprezentuje komórkę danych wykresu.
 type: docs
-weight: 2210
+weight: 2230
 url: /pl/aspose.slides.charts/isinglecellchartvalue/
 ---
 ## ISingleCellChartValue interfejs

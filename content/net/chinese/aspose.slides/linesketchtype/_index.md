@@ -1,9 +1,9 @@
 ---
 title: LineSketchType
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示已分配给形状的草图类型或效果。
 type: docs
-weight: 7810
+weight: 7830
 url: /zh/aspose.slides/linesketchtype/
 ---
 ## LineSketchType 枚举
@@ -14,17 +14,17 @@ url: /zh/aspose.slides/linesketchtype/
 public enum LineSketchType
 ```
 
-### 值
+### Values
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
 | NotDefined | `-1` | 指定形状的 Sketch 效果未定义。 |
 | None | `0` | 指定形状没有 Sketch 效果。这相当于此属性为空。 |
-| Curved | `1` | 指定形状具有 Curved 效果，该效果将形状的每条边转化为一个大而柔和的曲线。 |
-| Freehand | `2` | 指定形状具有 Freehand 效果，该效果最接近手绘的、不完美的线条。 |
+| Curved | `1` | 指定形状具有 Curved 效果，该效果将形状的每条边转换为一个大而柔和的曲线。 |
+| Freehand | `2` | 指定形状具有 Freehand 效果，该效果最接近手绘的非完美线条。 |
 | Scribble | `3` | 指定形状具有 Scribble 效果，该效果具有夸张的振荡，仿佛故意画得凌乱。 |
 
-### 另见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

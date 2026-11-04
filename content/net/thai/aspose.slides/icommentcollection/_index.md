@@ -3,12 +3,12 @@ title: ICommentCollection
 second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
 description: แสดงถึงคอลเลกชันของคอมเมนต์จากผู้เขียนหนึ่งคน.
 type: docs
-weight: 5590
+weight: 5610
 url: /th/aspose.slides/icommentcollection/
 ---
 ## ICommentCollection อินเทอร์เฟซ
 
-แสดงถึงคอลเลกชันของคอมเมนต์จากผู้เขียนหนึ่งคน.
+เป็นตัวแทนของคอลเลกชันของคอมเมนต์จากผู้เขียนหนึ่งคน.
 
 ```csharp
 public interface ICommentCollection : IGenericCollection<IComment>
@@ -16,23 +16,23 @@ public interface ICommentCollection : IGenericCollection<IComment>
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [Item](../../aspose.slides/icommentcollection/item) { get; } | ดึงอิลีเมนต์ที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`IComment`](../icomment). |
+| [Item](../../aspose.slides/icommentcollection/item) { get; } | ดึงอิลิเมนต์ที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`IComment`](../icomment). |
 
 ## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
 | [AddComment](../../aspose.slides/icommentcollection/addcomment)(string, ISlide, PointF, DateTime) | เพิ่มคอมเมนต์ใหม่ที่ส่วนท้ายของคอลเลกชัน. |
-| [AddModernComment](../../aspose.slides/icommentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | เพิ่มคอมเมนต์ใหม่แบบสมัยใหม่ที่ส่วนท้ายของคอลเลกชัน. |
-| [Clear](../../aspose.slides/icommentcollection/clear)() | ลบคอมเมนต์ทั้งหมดจากคอลเลกชัน. |
-| [InsertComment](../../aspose.slides/icommentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | แทรกคอมเมนต์ใหม่ในคอลเลกชันที่ตำแหน่งที่ระบุ. |
-| [InsertModernComment](../../aspose.slides/icommentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | แทรกคอมเมนต์ใหม่แบบสมัยใหม่ในคอลเลกชันที่ตำแหน่งที่ระบุ. |
-| [Remove](../../aspose.slides/icommentcollection/remove)(IComment) | ลบการปรากฏครั้งแรกของคอมเมนต์ที่ระบุในคอลเลกชัน. |
-| [RemoveAt](../../aspose.slides/icommentcollection/removeat)(int) | ลบอิลีเมนต์ที่ตำแหน่งที่ระบุในคอลเลกชัน. |
-| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray)() | สร้างและคืนอาร์เรย์ที่มีคอมเมนต์ทั้งหมด. |
-| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray_1)(int, int) | สร้างและคืนอาร์เรย์ที่มีคอมเมนต์ทั้งหมดจากช่วงที่ระบุ. |
+| [AddModernComment](../../aspose.slides/icommentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | เพิ่มคอมเมนต์ใหม่สมัยใหม่ที่ส่วนท้ายของคอลเล็กชัน |
+| [Clear](../../aspose.slides/icommentcollection/clear)() | ลบคอมเมนต์ทั้งหมดจากคอลเล็กชัน |
+| [InsertComment](../../aspose.slides/icommentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | แทรกคอมเมนต์ใหม่ลงในคอลเล็กชันที่ตำแหน่งที่ระบุ |
+| [InsertModernComment](../../aspose.slides/icommentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | แทรกคอมเมนต์ใหม่สมัยใหม่ลงในคอลเล็กชันที่ตำแหน่งที่ระบุ |
+| [Remove](../../aspose.slides/icommentcollection/remove)(IComment) | ลบการพบครั้งแรกของคอมเมนต์ที่ระบุในคอลเล็กชัน |
+| [RemoveAt](../../aspose.slides/icommentcollection/removeat)(int) | ลบองค์ประกอบที่ตำแหน่งที่ระบุในคอลเล็กชัน |
+| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray)() | สร้างและคืนค่าอาเรย์ที่มีคอมเมนต์ทั้งหมด |
+| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray_1)(int, int) | สร้างและคืนค่าอาเรย์ที่มีคอมเมนต์ทั้งหมดจากช่วงที่ระบุ |
 
 ### ดูเพิ่มเติม
 

@@ -1,9 +1,9 @@
 ---
 title: Convert.GetOutPathCallback
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Callback yang akan dipanggil untuk setiap Slide../aspose.slides/slide jalur output yang diharapkan dikembalikan.
+description: Callback yang akan dipanggil untuk setiap Slide../aspose.slides/slide jalur output yang diharapkan untuk dikembalikan.
 type: docs
-weight: 7890
+weight: 7910
 url: /id/aspose.slides.lowcode/convert.getoutpathcallback/
 ---
 ## Convert.GetOutPathCallback delegate
@@ -16,7 +16,7 @@ public delegate string GetOutPathCallback(Slide slide, int index);
 
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| slide | Slide | Slide yang sedang diiterasi |
+| slide | Slide | Slide saat ini yang diiterasi |
 | index | Int32 | Indeks slide saat ini |
 
 ### Lihat Juga

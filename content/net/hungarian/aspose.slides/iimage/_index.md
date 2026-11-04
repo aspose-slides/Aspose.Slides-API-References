@@ -1,14 +1,14 @@
 ---
 title: IImage
-second_title: Aspose.Sildes .NET API referencia
-description: Egy raszteres vagy vektoros képet képvisel.
+second_title: Aspose.Sildes .NET API Referencia
+description: Raszter vagy vektor képet reprezentál.
 type: docs
-weight: 6150
+weight: 6170
 url: /hu/aspose.slides/iimage/
 ---
 ## IImage interfész
 
-Egy raszteres vagy vektoros képet képvisel.
+A raszter vagy vektor képet reprezentálja.
 
 ```csharp
 public interface IImage : IDisposable
@@ -16,25 +16,25 @@ public interface IImage : IDisposable
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [Height](../../aspose.slides/iimage/height) { get; } | Visszaadja a kép magasságát pixelekben. |
-| [Size](../../aspose.slides/iimage/size) { get; } | Visszaadja a kép méretét. |
-| [Width](../../aspose.slides/iimage/width) { get; } | Visszaadja a kép szélességét pixelekben. |
+| [Height](../../aspose.slides/iimage/height) { get; } | A kép magasságát pixelben adja vissza. |
+| [Size](../../aspose.slides/iimage/size) { get; } | A kép méretét adja vissza. |
+| [Width](../../aspose.slides/iimage/width) { get; } | A kép szélességét pixelben adja vissza. |
 
 ## Metódusok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [Save](../../aspose.slides/iimage/save#save_2)(string) | Ment a képet egy fájlba. |
-| [Save](../../aspose.slides/iimage/save#save)(Stream, ImageFormat) | Ment a képet egy adatfolyamra a megadott formátumban. |
-| [Save](../../aspose.slides/iimage/save#save_3)(string, ImageFormat) | Ment a képet egy fájlba a megadott formátumban. |
-| [Save](../../aspose.slides/iimage/save#save_1)(Stream, ImageFormat, int) | Ment a képet egy adatfolyamra a megadott formátumban és minőségben. |
-| [Save](../../aspose.slides/iimage/save#save_4)(string, ImageFormat, int) | Ment a képet egy fájlba a megadott formátumban és minőségben. |
+| [Save](../../aspose.slides/iimage/save#save_2)(string) | A képet egy fájlba menti. |
+| [Save](../../aspose.slides/iimage/save#save)(Stream, ImageFormat) | A képet a megadott formátumban stream-be menti. |
+| [Save](../../aspose.slides/iimage/save#save_3)(string, ImageFormat) | A képet a megadott formátumban fájlba menti. |
+| [Save](../../aspose.slides/iimage/save#save_1)(Stream, ImageFormat, int) | A képet a megadott formátumban és minőségben stream-be menti. |
+| [Save](../../aspose.slides/iimage/save#save_4)(string, ImageFormat, int) | A képet a megadott formátumban és minőségben fájlba menti. |
 
-### Megjegyzések
+### Megjegyzés
 
-Ez a felület közös absztrakciót biztosít a raszteres és vektoros képek kezeléséhez. A megvalósítások eltérhetnek az alapul szolgáló kép típusától függően.
+Ez az interfész közös absztrakciót biztosít a raszter és vektor képek kezeléséhez. A megvalósítások eltérhetnek az alapul szolgáló kép típusa szerint.
 
 ### Lásd még
 

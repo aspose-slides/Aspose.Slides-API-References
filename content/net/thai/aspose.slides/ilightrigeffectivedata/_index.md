@@ -1,14 +1,14 @@
 ---
 title: ILightRigEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติของ light rig อย่างมีประสิทธิภาพ
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติของ light rig ที่มีประสิทธิภาพ.
 type: docs
-weight: 6280
+weight: 6300
 url: /th/aspose.slides/ilightrigeffectivedata/
 ---
 ## ILightRigEffectiveData อินเทอร์เฟซ
 
-อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติของ light rig อย่างมีประสิทธิภาพ
+อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติของ light rig ที่มีประสิทธิภาพ.
 
 ```csharp
 public interface ILightRigEffectiveData
@@ -19,17 +19,17 @@ public interface ILightRigEffectiveData
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [Direction](../../aspose.slides/ilightrigeffectivedata/direction) { get; } | ทิศทางของแสง. อ่านอย่างเดียว [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | แสดงถึง preset light right ที่สามารถนำไปใช้กับรูปทรงได้. light rig แสดงถึงกลุ่มของแสงที่จัดเรียงในรูปแบบเฉพาะสัมพันธ์กับฉาก 3D. อ่านอย่างเดียว [`LightRigPresetType`](../lightrigpresettype). |
+| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | แสดงถึง preset light right ที่สามารถนำไปใช้กับ shape ได้. light rig แทนกลุ่มของแสงที่จัดแนวในรูปแบบเฉพาะสัมพันธ์กับฉาก 3D. อ่านอย่างเดียว [`LightRigPresetType`](../lightrigpresettype). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | การหมุนถูกกำหนดโดยการใช้พิกัดละติจูด, พิกัดลองจิจูด, และการหมุนรอบแกนตามพิกัดละติจูดและลองจิจูด. องค์ประกอบแรกในอาเรย์ผลลัพธ์ - latitude, องค์ประกอบที่สอง - longitude, องค์ประกอบที่สาม - revolution. |
+| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | การหมุนกำหนดโดยการใช้พิกัดละติจูด, พิกัดลองจิจูด, และการหมุนรอบแกนตามพิกัดละติจูดและลองจิจูด. องค์ประกอบแรกในอาร์เรย์ที่คืนค่า - ละติจูด, ตัวที่สอง - ลองจิจูด, ตัวที่สาม - การหมุน. |
 
 ### หมายเหตุ
 
-อินเทอร์เฟซนี้ถูกใช้เป็นส่วนหนึ่งของ [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata).
+อินเทอร์เฟซนี้ใช้เป็นส่วนหนึ่งของ [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata).
 
 ### ดูเพิ่มเติม
 

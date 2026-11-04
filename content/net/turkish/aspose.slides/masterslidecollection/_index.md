@@ -1,14 +1,14 @@
 ---
 title: MasterSlideCollection
 second_title: Aspose.Sildes için .NET API Referansı
-description: Usta slaytların bir koleksiyonunu temsil eder.
+description: Ana slaytların bir koleksiyonunu temsil eder.
 type: docs
-weight: 8040
+weight: 8060
 url: /tr/aspose.slides/masterslidecollection/
 ---
 ## MasterSlideCollection sınıfı
 
-Usta slaytların bir koleksiyonunu temsil eder.
+Koleksiyon içinde ana slaytları temsil eder.
 
 ```csharp
 public sealed class MasterSlideCollection : DomObject<Presentation>, IMasterSlideCollection
@@ -16,26 +16,26 @@ public sealed class MasterSlideCollection : DomObject<Presentation>, IMasterSlid
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/masterslidecollection/count) { get; } | Koleksiyonda gerçekte bulunan eleman sayısını alır. Salt okunur Int32. |
-| [IsSynchronized](../../aspose.slides/masterslidecollection/issynchronized) { get; } | Koleksiyona erişimin senkronize edilip edilmediğini (iş parçacığı güvenliğini) belirten bir değeri döndürür. Salt okunur Boolean. |
-| [Item](../../aspose.slides/masterslidecollection/item) { get; } | Belirtilen indeksteki öğeyi alır. Salt okunur [`MasterSlide`](../masterslide). |
-| [SyncRoot](../../aspose.slides/masterslidecollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt okunur Object. |
+| [Count](../../aspose.slides/masterslidecollection/count) { get; } | Koleksiyonda gerçekten bulunan öğe sayısını alır. Yalnızca okunabilir Int32. |
+| [IsSynchronized](../../aspose.slides/masterslidecollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını belirten bir değer döndürür. Yalnızca okunabilir Boolean. |
+| [Item](../../aspose.slides/masterslidecollection/item) { get; } | Belirtilen indeksteki öğeyi alır. Yalnızca okunabilir [`MasterSlide`](../masterslide). |
+| [SyncRoot](../../aspose.slides/masterslidecollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Yalnızca okunabilir Object. |
 
-## Metotlar
+## Yöntemler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [AddClone](../../aspose.slides/masterslidecollection/addclone)(IMasterSlide) | Belirtilen usta slaydının bir kopyasını koleksiyonun sonuna ekler. Bağlı yerleşim slaytları da kopyalanır. |
-| [CopyTo](../../aspose.slides/masterslidecollection/copyto)(Array, int) | Tüm öğeleri koleksiyondan belirtilen diziye kopyalar. |
-| [GetEnumerator](../../aspose.slides/masterslidecollection/getenumerator)() | Koleksiyon üzerinde yineleme yapacak bir enumerator döndürür. |
-| [InsertClone](../../aspose.slides/masterslidecollection/insertclone)(int, IMasterSlide) | Belirtilen usta slaydının bir kopyasını koleksiyonun belirli konumuna ekler. Bağlı yerleşim slaytları da kopyalanır. |
-| [Remove](../../aspose.slides/masterslidecollection/remove)(IMasterSlide) | Belirli bir nesnenin koleksiyondaki ilk oluşumunu kaldırır. |
-| [RemoveAt](../../aspose.slides/masterslidecollection/removeat)(int) | Belirtilen indeksteki öğeyi koleksiyondan kaldırır. |
-| [RemoveUnused](../../aspose.slides/masterslidecollection/removeunused)(bool) | Kullanılmayan usta slaytları kaldırır. |
+| [AddClone](../../aspose.slides/masterslidecollection/addclone)(IMasterSlide) | Belirtilen ana slaytın bir kopyasını koleksiyonun sonuna ekler. Bağlı yerleşim slaytları da kopyalanacaktır. |
+| [CopyTo](../../aspose.slides/masterslidecollection/copyto)(Array, int) | Koleksiyondaki tüm öğeleri belirtilen diziye kopyalar. |
+| [GetEnumerator](../../aspose.slides/masterslidecollection/getenumerator)() | Koleksiyon üzerinden yineleme yapan bir enumeratör döndürür. |
+| [InsertClone](../../aspose.slides/masterslidecollection/insertclone)(int, IMasterSlide) | Belirtilen ana slaytın bir kopyasını koleksiyonun belirtilen konumuna ekler. Bağlı yerleşim slaytları da kopyalanacaktır. |
+| [Remove](../../aspose.slides/masterslidecollection/remove)(IMasterSlide) | Koleksiyondan belirli bir nesnenin ilk oluşumunu kaldırır. |
+| [RemoveAt](../../aspose.slides/masterslidecollection/removeat)(int) | Koleksiyondaki belirtilen indeksteki öğeyi kaldırır. |
+| [RemoveUnused](../../aspose.slides/masterslidecollection/removeunused)(bool) | Kullanılmayan ana slaytları kaldırır. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * sınıf [DomObject&lt;TParent&gt;](../domobject-1)
 * sınıf [Presentation](../presentation)

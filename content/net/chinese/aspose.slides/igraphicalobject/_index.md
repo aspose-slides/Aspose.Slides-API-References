@@ -1,9 +1,9 @@
 ---
 title: IGraphicalObject
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示抽象图形对象。
 type: docs
-weight: 6060
+weight: 6080
 url: /zh/aspose.slides/igraphicalobject/
 ---
 ## IGraphicalObject 接口
@@ -19,10 +19,10 @@ public interface IGraphicalObject : IShape
 | 名称 | 描述 |
 | --- | --- |
 | [AsIShape](../../aspose.slides/igraphicalobject/asishape) { get; } | 允许获取基础 IShape 接口。只读 [`IShape`](../ishape)。 |
-| [GraphicalObjectLock](../../aspose.slides/igraphicalobject/graphicalobjectlock) { get; } | 返回形状的锁定。只读 [`IGraphicalObjectLock`](../igraphicalobjectlock)。 |
-| [ShapeLock](../../aspose.slides/igraphicalobject/shapelock) { get; } | 返回形状的锁定。只读 [`IGraphicalObjectLock`](../igraphicalobjectlock)。 |
+| [GraphicalObjectLock](../../aspose.slides/igraphicalobject/graphicalobjectlock) { get; } | 返回形状的锁。只读 [`IGraphicalObjectLock`](../igraphicalobjectlock)。 |
+| [ShapeLock](../../aspose.slides/igraphicalobject/shapelock) { get; } | 返回形状的锁。只读 [`IGraphicalObjectLock`](../igraphicalobjectlock)。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IShape](../ishape)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

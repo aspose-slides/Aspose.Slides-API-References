@@ -3,7 +3,7 @@ title: ColorValue
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mengembalikan nilai warna dari titik data diagram. Digunakan dengan diagram Peta. Hanya-baca IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 60
+weight: 100
 url: /id/aspose.slides.charts/chartdatapoint/colorvalue/
 ---
 ## ChartDataPoint.ColorValue properti

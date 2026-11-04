@@ -1,14 +1,14 @@
 ---
 title: EmptyTransition
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Effetto di transizione della diapositiva vuota.
+description: Effetto di transizione di slide vuota.
 type: docs
-weight: 10030
+weight: 10050
 url: /it/aspose.slides.slideshow/emptytransition/
 ---
 ## EmptyTransition classe
 
-Effetto di transizione della diapositiva vuota.
+Effetto di transizione di slide vuota.
 
 ```csharp
 public class EmptyTransition : TransitionValueBase, IEmptyTransition
@@ -19,7 +19,7 @@ public class EmptyTransition : TransitionValueBase, IEmptyTransition
 | Nome | Descrizione |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina se le due istanze di TransitionValueBase sono uguali. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Fornisce una funzione hash per un tipo specifico, adatta all'uso in algoritmi di hashing e strutture dati come una tabella hash. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funziona come funzione hash per un tipo particolare, adatta all'uso in algoritmi di hashing e strutture dati come una tabella hash. |
 
 ### Vedi anche
 

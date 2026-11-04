@@ -3,7 +3,7 @@ title: XamlOptions
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Opties die bepalen hoe een XAML-document wordt opgeslagen.
 type: docs
-weight: 4720
+weight: 4740
 url: /nl/aspose.slides.export.xaml/xamloptions/
 ---
 ## XamlOptions klasse
@@ -14,23 +14,23 @@ Opties die bepalen hoe een XAML-document wordt opgeslagen.
 public class XamlOptions : SaveOptions, IXamlOptions
 ```
 
-## Constructoren
+## Constructors
 
 | Naam | Beschrijving |
 | --- | --- |
-| [XamlOptions](xamloptions)() | Maakt een XamlOptions-instantie. |
+| [XamlOptions](xamloptions)() | Maakt de XamlOptions-instantie aan. |
 
 ## Eigenschappen
 
 | Naam | Beschrijving |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Retourneert of stelt het lettertype in dat wordt gebruikt indien het bronlettertype niet wordt gevonden. Lees-schrijf String. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Retourneert of stelt het lettertype in dat wordt gebruikt als het bronlettertype niet wordt gevonden. Lezen-schrijven String. |
 | [ExportHiddenSlides](../../aspose.slides.export.xaml/xamloptions/exporthiddenslides) { get; set; } | Bepaalt of verborgen dia's worden geëxporteerd. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Retourneert of stelt de visuele stijl van de gradiënt in. Lees-schrijf [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [OutputSaver](../../aspose.slides.export.xaml/xamloptions/outputsaver) { get; set; } | Stelt een implementatie van de IOutputSaver interface voor. |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Stelt een callback-object voor het opslaan van voortgangsupdates in procenten voor. Zie [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Specificeert of hyperlink met JavaScript-oproepen moeten worden overgeslagen bij het opslaan van de presentatie. Lees-schrijf Boolean. De standaardwaarde is **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Retourneert of stelt een object in dat waarschuwingen ontvangt en beslist of het laadproces wordt voortgezet of wordt afgebroken. Lees-schrijf [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Retourneert of stelt de visuele stijl van de kleurverloop in. Lezen/schrijven [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [OutputSaver](../../aspose.slides.export.xaml/xamloptions/outputsaver) { get; set; } | Vertegenwoordigt een implementatie van de IOutputSaver-interface. |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Vertegenwoordigt een callback-object voor het opslaan van voortgangsupdates in procenten. Zie [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Geeft aan of hyperlinks met JavaScript-aanroepen moeten worden overgeslagen bij het opslaan van de presentatie. Lezen/schrijven Boolean. De standaardwaarde is **false**. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Retourneert of stelt een object in dat waarschuwingen ontvangt en beslist of het laadproces wordt voortgezet of wordt afgebroken. Lezen/schrijven [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Voorbeelden
 

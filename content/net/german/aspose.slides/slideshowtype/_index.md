@@ -1,14 +1,14 @@
 ---
 title: SlideShowType
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Grundlegende Folieneinstellungen. Vorgänger repräsentieren Typen der Bildschirmanzeige PresentedBySpeaker./presentedbyspeaker Präsentiert von einem Redner Vollbild BrowsedByIndividual./browsedbyindividual Durch eine Einzelperson Fenster BrowsedAtKiosk./browsedatkiosk Durch einen Kiosk Vollbild
+description: Grundlegende Diashow-Einstellungen. Vorfahren repräsentieren Typen der Diashow PresentedBySpeaker./presentedbyspeaker Präsentiert von einem Redner Vollbild BrowsedByIndividual./browsedbyindividual Durchsucht von einer Einzelperson Fenster BrowsedAtKiosk./browsedatkiosk Durchsucht an einem Kiosk Vollbild
 type: docs
-weight: 10490
+weight: 10510
 url: /de/aspose.slides/slideshowtype/
 ---
 ## SlideShowType Klasse
 
-Grundlegende Folieneinstellungen. Vorgänger repräsentieren Typen der Bildschirmanzeige: [`PresentedBySpeaker`](../presentedbyspeaker) Präsentiert von einem Redner (Vollbild) [`BrowsedByIndividual`](../browsedbyindividual) Durch eine Einzelperson (Fenster) [`BrowsedAtKiosk`](../browsedatkiosk) Durch einen Kiosk (Vollbild)
+Grundlegende Einstellungen der Diashow. Vorfahren repräsentieren Typen der Diashow: [`PresentedBySpeaker`](../presentedbyspeaker) Präsentiert von einem Redner (Vollbild) [`BrowsedByIndividual`](../browsedbyindividual) Von einer Einzelperson durchsucht (Fenster) [`BrowsedAtKiosk`](../browsedatkiosk) An einem Kiosk durchsucht (Vollbild)
 
 ```csharp
 public abstract class SlideShowType

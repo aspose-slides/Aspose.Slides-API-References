@@ -1,14 +1,14 @@
 ---
 title: IFontsEffectiveData
-second_title: Aspose.Sildes for .NET API Referansı
-description: Etkin yazı tiplerini içeren değişmez nesne.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Etkili yazı tiplerini içeren değişmez nesne.
 type: docs
-weight: 5910
+weight: 5930
 url: /tr/aspose.slides/ifontseffectivedata/
 ---
-## IFontsEffectiveData arabirimi
+## IFontsEffectiveData arayüzü
 
-Etkin yazı tiplerini içeren değişmez nesne.
+Etkili yazı tiplerini içeren değişmez nesne.
 
 ```csharp
 public interface IFontsEffectiveData
@@ -24,7 +24,7 @@ public interface IFontsEffectiveData
 
 ### Açıklamalar
 
-Bu arabirim, [`IBasePortionFormatEffectiveData`](../ibaseportionformateffectivedata) ve [`IFontSchemeEffectiveData`](../../aspose.slides.theme/ifontschemeeffectivedata) arabirimlerinin bir parçası olarak kullanılır.
+Bu arayüz [`IBasePortionFormatEffectiveData`](../ibaseportionformateffectivedata) ve [`IFontSchemeEffectiveData`](../../aspose.slides.theme/ifontschemeeffectivedata) arayüzlerinin bir parçası olarak kullanılır.
 
 ### Ayrıca Bakınız
 

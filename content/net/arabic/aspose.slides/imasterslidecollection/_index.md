@@ -1,9 +1,9 @@
 ---
 title: IMasterSlideCollection
-second_title: Aspose.Sildes ل .NET مرجع API
+second_title: Aspose.Sildes لمرجع API .NET
 description: يمثل مجموعة من الشرائح الرئيسية.
 type: docs
-weight: 6430
+weight: 6450
 url: /ar/aspose.slides/imasterslidecollection/
 ---
 ## IMasterSlideCollection واجهة
@@ -18,19 +18,19 @@ public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
 
 | الاسم | الوصف |
 | --- | --- |
-| [Item](../../aspose.slides/imasterslidecollection/item) { get; } | يسترجع العنصر عند الفهرس المحدد. للقراءة فقط [`IMasterSlide`](../imasterslide). |
+| [Item](../../aspose.slides/imasterslidecollection/item) { get; } | يجلب العنصر في الفهرس المحدد. للقراءة فقط [`IMasterSlide`](../imasterslide). |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | يضيف نسخة من شريحة رئيسية محددة إلى نهاية المجموعة. ستتم نسخ الشرائح المرتبطة بالتخطيط أيضًا. |
-| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | يدخل نسخة من شريحة رئيسية محددة إلى الموضع المحدد في المجموعة. ستتم نسخ الشرائح المرتبطة بالتخطيط أيضًا. |
-| [Remove](../../aspose.slides/imasterslidecollection/remove)(IMasterSlide) | يزيل أول حدوث لكائن محدد من المجموعة. |
-| [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | يزيل العنصر عند الفهرس المحدد في المجموعة. |
+| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | يضيف نسخة من شريحة رئيسية محددة إلى نهاية المجموعة. سيتم نسخ الشرائح المرتبطة بالتخطيط أيضاً. |
+| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | يدرج نسخة من شريحة رئيسية محددة إلى الموضع المحدد في المجموعة. سيتم نسخ الشرائح المرتبطة بالتخطيط أيضاً. |
+| [Remove](../../aspose.slides/imasterslidecollection/remove)(IMasterSlide) | يزيل أول ظهور لكائن محدد من المجموعة. |
+| [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | يزيل العنصر في الفهرس المحدد من المجموعة. |
 | [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | يزيل الشرائح الرئيسية غير المستخدمة. |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * واجهة [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * واجهة [IMasterSlide](../imasterslide)

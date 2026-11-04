@@ -1,14 +1,14 @@
 ---
 title: Convert.GetOutPathCallback
-second_title: Aspose.Sildes .NET API Referenciája
-description: Visszahívás, amely minden egyes Slide../aspose.slides/slide esetén meghívódik, a visszaadandó kimeneti útvonalat tartalmazza.
+second_title: Aspose.Sildes .NET API referencia
+description: Visszahívás, amely minden egyes Slide../aspose.slides/slide esetén meghívásra kerül, a várt kimeneti útvonalat visszaadja.
 type: docs
-weight: 7890
+weight: 7910
 url: /hu/aspose.slides.lowcode/convert.getoutpathcallback/
 ---
-## Convert.GetOutPathCallback delegát
+## Convert.GetOutPathCallback delegate
 
-Visszahívás, amely minden egyes [`Slide`](../../aspose.slides/slide) esetén meghívódik, a visszaadandó kimeneti útvonalat tartalmazza.
+Visszahívás, amely minden egyes [`Slide`](../../aspose.slides/slide) esetén meghívásra kerül, és a kimeneti útvonalat kell visszaadni.
 
 ```csharp
 public delegate string GetOutPathCallback(Slide slide, int index);
@@ -16,7 +16,7 @@ public delegate string GetOutPathCallback(Slide slide, int index);
 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| slide | Slide | Az aktuális iterált dia |
+| slide | Slide | Jelenleg iterált dia |
 | index | Int32 | Az aktuális dia indexe |
 
 ### Lásd még

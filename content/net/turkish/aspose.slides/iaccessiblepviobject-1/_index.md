@@ -1,14 +1,14 @@
 ---
 title: IAccessiblePVIObjectT
 second_title: Aspose.Sildes için .NET API Referansı
-description: Kalıtım uygulandığında karşılık gelen etkili veriyi döndürebilen bir türü temsil eder.
+description: Miras uygulandığında karşılık gelen geçerli veriyi döndürebilen bir türü temsil eder.
 type: docs
-weight: 5170
+weight: 5190
 url: /tr/aspose.slides/iaccessiblepviobject-1/
 ---
 ## IAccessiblePVIObject<T> arayüz
 
-Kalıtım uygulandığında karşılık gelen etkili veriyi döndürebilen bir türü temsil eder.
+Miras uygulandığında karşılık gelen geçerli veriyi döndürebilen bir türü temsil eder.
 
 ```csharp
 public interface IAccessiblePVIObject<T>
@@ -17,13 +17,13 @@ public interface IAccessiblePVIObject<T>
 
 | Parametre | Açıklama |
 | --- | --- |
-| T | Etkili verinin tipi. |
+| T | Geçerli verinin türü. |
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [GetEffective](../../aspose.slides/iaccessiblepviobject`1/geteffective)() | Kalıtım uygulandığında etkili veriyi alır. |
+| [GetEffective](../../aspose.slides/iaccessiblepviobject`1/geteffective)() | Miras uygulandığında geçerli veriyi alır. |
 
 ### Ayrıca Bakınız
 

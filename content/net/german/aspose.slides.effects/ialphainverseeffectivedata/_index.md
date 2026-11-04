@@ -1,14 +1,14 @@
 ---
 title: IAlphaInverseEffectiveData
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Unveränderliches Objekt, das einen Alpha-Inverse-Effekt darstellt. Alpha-Opazitätswerte werden umgekehrt, indem sie von 100 subtrahiert werden.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Unveränderliches Objekt, das einen Alpha Inverse Effekt darstellt. Alpha Deckkraftwerte werden invertiert, indem sie von 100 subtrahiert werden.
 type: docs
-weight: 3090
+weight: 3110
 url: /de/aspose.slides.effects/ialphainverseeffectivedata/
 ---
 ## IAlphaInverseEffectiveData Schnittstelle
 
-Unveränderliches Objekt, das einen Alpha-Inverse-Effekt darstellt. Alpha-(Opazitäts-)Werte werden umgekehrt, indem sie von 100 % subtrahiert werden.
+Unveränderliches Objekt, das einen Alpha Inverse-Effekt darstellt. Alpha (Deckkraft) Werte werden invertiert, indem sie von 100 % subtrahiert werden.
 
 ```csharp
 public interface IAlphaInverseEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IAlphaInverseEffectiveData : IEffectEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphainverseeffectivedata/asieffecteffectivedata) { get; } | Ermöglicht das Abrufen der Basis IEffectEffectiveData Schnittstelle. Nur-Lesen [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphainverseeffectivedata/asieffecteffectivedata) { get; } | Ermöglicht das Abrufen der Basisschnittstelle IEffectEffectiveData. Nur lesbar [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Siehe auch
 

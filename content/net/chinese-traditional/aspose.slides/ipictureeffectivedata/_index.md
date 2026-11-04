@@ -3,12 +3,12 @@ title: IPictureEffectiveData
 second_title: Aspose.Sildes .NET API 參考
 description: 不可變的物件，包含有效的圖片屬性。
 type: docs
-weight: 6640
+weight: 6660
 url: /zh-hant/aspose.slides/ipictureeffectivedata/
 ---
 ## IPictureEffectiveData 介面
 
-不可變的物件，包含有效圖片屬性。
+不可變對象，包含有效圖片屬性。
 
 ```csharp
 public interface IPictureEffectiveData
@@ -18,13 +18,13 @@ public interface IPictureEffectiveData
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Image](../../aspose.slides/ipictureeffectivedata/image) { get; } | 傳回嵌入的圖像。唯讀 [`IPPImage`](../ippimage)。 |
-| [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | 傳回圖像變換效果的集合。唯讀 [`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata)。 |
-| [LinkPathLong](../../aspose.slides/ipictureeffectivedata/linkpathlong) { get; } | 傳回連結圖像的 URL。唯讀 String。 |
+| [Image](../../aspose.slides/ipictureeffectivedata/image) { get; } | 返回嵌入的圖像。唯讀 [`IPPImage`](../ippimage)。 |
+| [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | 返回圖像變換效果的集合。唯讀 [`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata)。 |
+| [LinkPathLong](../../aspose.slides/ipictureeffectivedata/linkpathlong) { get; } | 返回鏈接圖像的 URL。唯讀 String。 |
 
 ### 備註
 
-此介面用作 [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata) 以及 [`IBulletFormatEffectiveData`](../ibulletformateffectivedata) 的一部分。
+此介面用作 [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata) 和 [`IBulletFormatEffectiveData`](../ibulletformateffectivedata) 的一部分。
 
 ### 另請參閱
 

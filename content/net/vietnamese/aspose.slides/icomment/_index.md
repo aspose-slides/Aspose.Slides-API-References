@@ -1,14 +1,14 @@
 ---
 title: IComment
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn một bình luận trên slide.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Biểu thị một bình luận trên slide.
 type: docs
-weight: 5560
+weight: 5580
 url: /vi/aspose.slides/icomment/
 ---
 ## IComment giao diện
 
-Biểu diễn một bình luận trên slide.
+Biểu thị một bình luận trên slide.
 
 ```csharp
 public interface IComment
@@ -16,20 +16,20 @@ public interface IComment
 
 ## Thuộc tính
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
 | [Author](../../aspose.slides/icomment/author) { get; } | Trả về tác giả của một bình luận. Chỉ đọc [`ICommentAuthor`](../icommentauthor). |
 | [CreatedTime](../../aspose.slides/icomment/createdtime) { get; set; } | Trả về hoặc đặt thời gian tạo bình luận. Đặt thuộc tính này thành MinValue có nghĩa là không có thời gian bình luận được đặt. Đọc/ghi DateTime. |
 | [ParentComment](../../aspose.slides/icomment/parentcomment) { get; set; } | Lấy hoặc đặt bình luận cha. Đọc/ghi [`IComment`](../icomment). |
 | [Position](../../aspose.slides/icomment/position) { get; set; } | Trả về hoặc đặt vị trí của một bình luận trên slide. Đọc/ghi PointF. |
 | [Slide](../../aspose.slides/icomment/slide) { get; } | Trả về hoặc đặt slide cha của một bình luận. Chỉ đọc [`ISlide`](../islide). |
-| [Text](../../aspose.slides/icomment/text) { get; set; } | Trả về hoặc đặt văn bản thuần của bình luận trên slide. Đọc/ghi String. |
+| [Text](../../aspose.slides/icomment/text) { get; set; } | Trả về hoặc đặt văn bản thuần của bình luận slide. Đọc/ghi String. |
 
 ## Phương thức
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
-| [Remove](../../aspose.slides/icomment/remove)() | Xóa bình luận và tất cả phản hồi của nó khỏi bộ sưu tập cha. |
+| [Remove](../../aspose.slides/icomment/remove)() | Xóa bình luận và tất cả các phản hồi của nó khỏi bộ sưu tập cha. |
 
 ### Xem thêm
 

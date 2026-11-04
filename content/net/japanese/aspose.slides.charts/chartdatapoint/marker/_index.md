@@ -1,14 +1,14 @@
 ---
 title: Marker
 second_title: Aspose.Sildes の .NET API リファレンス
-description: データ マーカーを指定します。 読み取り専用 IMarkeraspose.slides.charts/imarker.
+description: データ マーカーを指定します。読み取り専用 IMarkeraspose.slides.charts/imarker.
 type: docs
-weight: 150
+weight: 190
 url: /ja/aspose.slides.charts/chartdatapoint/marker/
 ---
 ## ChartDataPoint.Marker プロパティ
 
-データ マーカーを指定します。 読み取り専用 [`IMarker`](../../imarker).
+データ マーカーを指定します。読み取り専用 [`IMarker`](../../imarker).
 
 ```csharp
 public IMarker Marker { get; }

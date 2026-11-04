@@ -1,12 +1,12 @@
 ---
 title: HighlightRegex
-second_title: Aspose.Sildes per .NET API Reference
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Evidenzia tutte le corrispondenze dell'espressione regolare con il colore specificato.
 type: docs
-weight: 80
+weight: 90
 url: /it/aspose.slides/itextframe/highlightregex/
 ---
-## Metodo ITextFrame.HighlightRegex
+## ITextFrame.HighlightRegex metodo
 
 Evidenzia tutte le corrispondenze dell'espressione regolare con il colore specificato.
 
@@ -16,9 +16,9 @@ public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallbac
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| regex | Regex | L'espressione regolare da utilizzare per ottenere le stringhe da evidenziare. |
-| highlightColor | Color | Il colore da usare per evidenziare il testo. |
-| callback | IFindResultCallback | L'oggetto di callback per ricevere i risultati della ricerca [`IFindResultCallback`](../../ifindresultcallback). |
+| regex | Regex | L'espressione regolare Regex per ottenere le stringhe da evidenziare. |
+| highlightColor | Color | Il colore per evidenziare il testo. |
+| callback | IFindResultCallback | L'oggetto callback per ricevere i risultati della ricerca [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Esempi
 

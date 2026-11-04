@@ -1,14 +1,14 @@
 ---
 title: ErrorBarsFormat
-second_title: Aspose.Sildes dla .NET – referencja API
-description: Reprezentuje paski błędów serii wykresu. Niestandardowe wartości ErrorBars znajdują się w IChartDataPointCollection w własności ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues.
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Reprezentuje słupki błędów serii wykresu. Niestandardowe wartości ErrorBars znajdują się w IChartDataPointCollection w właściwości ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues.
 type: docs
-weight: 1670
+weight: 1680
 url: /pl/aspose.slides.charts/errorbarsformat/
 ---
 ## ErrorBarsFormat klasa
 
-Reprezentuje paski błędów serii wykresu. Niestandardowe wartości ErrorBars znajdują się w IChartDataPointCollection (w właściwości [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues)).
+Reprezentuje słupki błędów serii wykresu. Wartości niestandardowe ErrorBars znajdują się w IChartDataPointCollection (w właściwości [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues)).
 
 ```csharp
 public class ErrorBarsFormat : DomObject<ChartSeries>, IErrorBarsFormat
@@ -16,15 +16,15 @@ public class ErrorBarsFormat : DomObject<ChartSeries>, IErrorBarsFormat
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [Chart](../../aspose.slides.charts/errorbarsformat/chart) { get; } | Zwraca nadrzędny wykres. Tylko do odczytu [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/errorbarsformat/format) { get; set; } | Reprezentuje format pasków błędów. Odczyt/zapis [`IFormat`](../iformat). |
-| [HasEndCap](../../aspose.slides.charts/errorbarsformat/hasendcap) { get; set; } | Określa, że na końcu pasków błędów nie jest rysowana nasadka. Odczyt/zapis Boolean. |
-| [IsVisible](../../aspose.slides.charts/errorbarsformat/isvisible) { get; set; } | Pobiera lub ustawia widoczność pasków błędów. Odczyt/zapis Boolean. |
-| [Type](../../aspose.slides.charts/errorbarsformat/type) { get; set; } | Pobiera lub ustawia typ pasków błędów. Odczyt/zapis [`ErrorBarType`](../errorbartype). |
-| [Value](../../aspose.slides.charts/errorbarsformat/value) { get; set; } | Pobiera lub ustawia wartość używaną z typami wartości Fixed, Percentage i StandardDeviation do określenia długości pasków błędów. W każdym innym przypadku zwróci NaN. Odczyt/zapis Single. |
-| [ValueType](../../aspose.slides.charts/errorbarsformat/valuetype) { get; set; } | Reprezentuje możliwe sposoby określenia długości pasków błędów. W przypadku typu wartości custom użyj właściwości [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) konkretnego punktu danych w kolekcji DataPoints serii. W przypadku typów wartości Fixed, Percentage lub StandardDeviation użyj właściwości Value, aby określić wartość. Odczyt/zapis [`ErrorBarValueType`](../errorbarvaluetype). |
+| [Format](../../aspose.slides.charts/errorbarsformat/format) { get; set; } | Reprezentuje format słupków błędów. Odczyt/zapis [`IFormat`](../iformat). |
+| [HasEndCap](../../aspose.slides.charts/errorbarsformat/hasendcap) { get; set; } | Określa, że zakończenie nie jest rysowane na słupkach błędów. Odczyt/zapis Boolean. |
+| [IsVisible](../../aspose.slides.charts/errorbarsformat/isvisible) { get; set; } | Pobiera lub ustawia widoczność słupków błędów. Odczyt/zapis Boolean. |
+| [Type](../../aspose.slides.charts/errorbarsformat/type) { get; set; } | Pobiera lub ustawia typ słupków błędów. Odczyt/zapis [`ErrorBarType`](../errorbartype). |
+| [Value](../../aspose.slides.charts/errorbarsformat/value) { get; set; } | Pobiera lub ustawia wartość używaną z typami wartości Fixed, Percentage i StandardDeviation do określenia długości słupków błędów. W każdym innym przypadku zwróci NaN. Odczyt/zapis Single. |
+| [ValueType](../../aspose.slides.charts/errorbarsformat/valuetype) { get; set; } | Reprezentuje możliwe sposoby określenia długości słupków błędów. W przypadku typu wartości niestandardowej, aby określić wartość, użyj właściwości [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) konkretnego punktu danych w kolekcji DataPoints serii. W przypadku typów wartości Fixed, Percentage lub StandardDeviation użyj właściwości Value, aby określić wartość. Odczyt/zapis [`ErrorBarValueType`](../errorbarvaluetype). |
 
 ### Zobacz także
 

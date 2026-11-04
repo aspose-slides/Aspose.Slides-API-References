@@ -1,14 +1,14 @@
 ---
 title: IMathGroupingCharacter
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Especifica un símbolo de agrupación por encima o por debajo de una expresión, usualmente para resaltar la relación entre los elementos
+second_title: Aspose.Sildes para la referencia de API de .NET
+description: Especifica un símbolo de agrupación encima o debajo de una expresión, generalmente para resaltar la relación entre los elementos
 type: docs
-weight: 8290
+weight: 8310
 url: /es/aspose.slides.mathtext/imathgroupingcharacter/
 ---
 ## IMathGroupingCharacter interfaz
 
-Especifica un símbolo de agrupación por encima o por debajo de una expresión, generalmente para resaltar la relación entre los elementos
+Especifica un símbolo de agrupación encima o debajo de una expresión, generalmente para resaltar la relación entre los elementos
 
 ```csharp
 public interface IMathGroupingCharacter : IMathElement
@@ -20,9 +20,9 @@ public interface IMathGroupingCharacter : IMathElement
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathgroupingcharacter/asimathelement) { get; } | Permite obtener la interfaz base IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathgroupingcharacter/base) { get; } | Argumento base |
-| [Character](../../aspose.slides.mathtext/imathgroupingcharacter/character) { get; set; } | Carácter de agrupación Valor predeterminado: U+23DF (LLAVE CURVA INFERIOR) |
+| [Character](../../aspose.slides.mathtext/imathgroupingcharacter/character) { get; set; } | Carácter de agrupación Valor predeterminado: U+23DF (CORCHETE RIZADO INFERIOR) |
 | [Position](../../aspose.slides.mathtext/imathgroupingcharacter/position) { get; set; } | Posición del carácter de agrupación. Predeterminado: Bottom |
-| [VerticalJustification](../../aspose.slides.mathtext/imathgroupingcharacter/verticaljustification) { get; set; } | Justificación vertical del carácter de agrupación. Especifica la alineación del objeto con respecto a la línea base. Por ejemplo, cuando el carácter de agrupación está por encima del objeto, VerticalJustification de Top indica que la parte superior del objeto se encuentra en la línea base; cuando VerticalJustification está configurado a Bottom, la parte inferior del objeto está en la línea base Predeterminado: Bottom para Position=Top, y Top para Position=Bottom |
+| [VerticalJustification](../../aspose.slides.mathtext/imathgroupingcharacter/verticaljustification) { get; set; } | Justificación vertical del carácter de agrupación. Especifica la alineación del objeto con respecto a la línea base. Por ejemplo, cuando el carácter de agrupación está encima del objeto, VerticalJustification de Top indica que la parte superior del objeto se sitúa en la línea base; cuando VerticalJustification se establece en Bottom, la parte inferior del objeto está en la línea base Valor predeterminado: Bottom para Position=Top, y Top para Position=Bottom |
 
 ### Ejemplos
 

@@ -1,14 +1,14 @@
 ---
 title: Explosion
-second_title: Aspose.Sildes for .NET API 參考
-description: 指定資料點應從圓餅圖中心移動的距離。可讀寫 Int32.
+second_title: Aspose.Sildes 的 .NET API 參考
+description: 指定資料點應從餅圖中心移動的量。Read/write Int32.
 type: docs
-weight: 90
+weight: 130
 url: /zh-hant/aspose.slides.charts/chartdatapoint/explosion/
 ---
 ## ChartDataPoint.Explosion 屬性
 
-指定資料點應從圓餅圖中心移動的距離。可讀寫 Int32.
+指定資料點應該從餅圖中心移動的量。Read/write Int32.
 
 ```csharp
 public int Explosion { get; set; }

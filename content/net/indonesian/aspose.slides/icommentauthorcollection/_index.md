@@ -1,9 +1,9 @@
 ---
 title: ICommentAuthorCollection
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili kumpulan penulis komentar.
+description: Mewakili koleksi penulis komentar.
 type: docs
-weight: 5580
+weight: 5600
 url: /id/aspose.slides/icommentauthorcollection/
 ---
 ## ICommentAuthorCollection antarmuka
@@ -26,11 +26,11 @@ public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
 | --- | --- |
 | [AddAuthor](../../aspose.slides/icommentauthorcollection/addauthor)(string, string) | Menambahkan penulis baru di akhir koleksi. |
 | [Clear](../../aspose.slides/icommentauthorcollection/clear)() | Menghapus semua penulis dari koleksi. |
-| [FindByName](../../aspose.slides/icommentauthorcollection/findbyname)(string) | Menemukan penulis dalam koleksi berdasarkan nama. |
-| [FindByNameAndInitials](../../aspose.slides/icommentauthorcollection/findbynameandinitials)(string, string) | Menemukan penulis dalam koleksi berdasarkan nama dan inisial. |
-| [Remove](../../aspose.slides/icommentauthorcollection/remove)(ICommentAuthor) | Menghapus kemunculan pertama dari penulis yang ditentukan dalam koleksi. |
+| [FindByName](../../aspose.slides/icommentauthorcollection/findbyname)(string) | Mencari penulis dalam koleksi berdasarkan nama. |
+| [FindByNameAndInitials](../../aspose.slides/icommentauthorcollection/findbynameandinitials)(string, string) | Mencari penulis dalam koleksi berdasarkan nama dan inisial. |
+| [Remove](../../aspose.slides/icommentauthorcollection/remove)(ICommentAuthor) | Menghapus kemunculan pertama penulis yang ditentukan dalam koleksi. |
 | [RemoveAt](../../aspose.slides/icommentauthorcollection/removeat)(int) | Menghapus penulis pada indeks yang ditentukan dalam koleksi. |
-| [ToArray](../../aspose.slides/icommentauthorcollection/toarray)() | Membuat dan mengembalikan array berisi semua penulis. |
+| [ToArray](../../aspose.slides/icommentauthorcollection/toarray)() | Membuat dan mengembalikan array dengan semua penulis. |
 
 ### Lihat Juga
 

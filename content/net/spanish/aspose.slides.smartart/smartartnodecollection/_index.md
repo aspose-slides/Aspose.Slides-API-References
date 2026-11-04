@@ -1,9 +1,9 @@
 ---
 title: SmartArtNodeCollection
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para la referencia de API de .NET
 description: Representa una colección de nodos SmartArt.
 type: docs
-weight: 10640
+weight: 10660
 url: /es/aspose.slides.smartart/smartartnodecollection/
 ---
 ## SmartArtNodeCollection clase
@@ -19,19 +19,19 @@ public sealed class SmartArtNodeCollection : ISmartArtNodeCollection
 | Nombre | Descripción |
 | --- | --- |
 | [Count](../../aspose.slides.smartart/smartartnodecollection/count) { get; } | Devuelve el recuento de nodos en la colección Solo lectura Int32 Solo lectura Int32. |
-| [IsSynchronized](../../aspose.slides.smartart/smartartnodecollection/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (seguro para subprocesos). Solo lectura Boolean. |
-| [Item](../../aspose.slides.smartart/smartartnodecollection/item) { get; } | Devuelve el nodo por índice |
+| [IsSynchronized](../../aspose.slides.smartart/smartartnodecollection/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (thread-safe). Solo lectura Boolean. |
+| [Item](../../aspose.slides.smartart/smartartnodecollection/item) { get; } | Devuelve nodo por índice |
 | [SyncRoot](../../aspose.slides.smartart/smartartnodecollection/syncroot) { get; } | Devuelve una raíz de sincronización. Solo lectura Object. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [AddNode](../../aspose.slides.smartart/smartartnodecollection/addnode)() | Agrega un nuevo nodo de SmartArt o subnodo. |
+| [AddNode](../../aspose.slides.smartart/smartartnodecollection/addnode)() | Agrega un nuevo nodo SmartArt o subnodo. |
 | [AddNodeByPosition](../../aspose.slides.smartart/smartartnodecollection/addnodebyposition)(int) | Agrega un nuevo nodo en la posición seleccionada de la colección de nodos |
 | [CopyTo](../../aspose.slides.smartart/smartartnodecollection/copyto)(Array, int) | Copia todos los elementos de la colección al array especificado. |
-| [GetEnumerator](../../aspose.slides.smartart/smartartnodecollection/getenumerator)() | Devuelve un enumerador que recorre la colección. |
-| [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode_1)(int) | Elimina el nodo o subnodo por índice |
+| [GetEnumerator](../../aspose.slides.smartart/smartartnodecollection/getenumerator)() | Devuelve un enumerador que itera a través de la colección. |
+| [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode_1)(int) | Elimina nodo o subnodo por índice |
 | [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode)(ISmartArtNode) | Elimina nodo o subnodo |
 
 ### Ver también

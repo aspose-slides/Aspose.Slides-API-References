@@ -1,9 +1,9 @@
 ---
 title: SummaryZoomSectionCollection
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示 Summary Zoom Section 对象的集合。
 type: docs
-weight: 10790
+weight: 10810
 url: /zh/aspose.slides/summaryzoomsectioncollection/
 ---
 ## SummaryZoomSectionCollection 类
@@ -20,7 +20,7 @@ public sealed class SummaryZoomSectionCollection : DomObject<SummaryZoomFrame>,
 | 名称 | 描述 |
 | --- | --- |
 | [Count](../../aspose.slides/summaryzoomsectioncollection/count) { get; } | 获取集合中实际包含的元素数量。只读 Int32。 |
-| [IsSynchronized](../../aspose.slides/summaryzoomsectioncollection/issynchronized) { get; } | 返回一个指示对集合的访问是否同步（线程安全）的值。只读 Boolean。 |
+| [IsSynchronized](../../aspose.slides/summaryzoomsectioncollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。只读 Boolean。 |
 | [Item](../../aspose.slides/summaryzoomsectioncollection/item) { get; } | 获取指定索引处的元素。只读 [`ISummaryZoomSection`](../isummaryzoomsection)。 |
 | [SyncRoot](../../aspose.slides/summaryzoomsectioncollection/syncroot) { get; } | 返回同步根。只读 Object。 |
 
@@ -28,7 +28,7 @@ public sealed class SummaryZoomSectionCollection : DomObject<SummaryZoomFrame>,
 
 | 名称 | 描述 |
 | --- | --- |
-| [AddSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/addsummaryzoomsection)(ISection) | 创建新的 Summary Zoom Section 对象并将其添加到集合中 |
+| [AddSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/addsummaryzoomsection)(ISection) | 创建新的 Summary Zoom Section 对象并将其添加到集合中。 |
 | [Clear](../../aspose.slides/summaryzoomsectioncollection/clear)() | 从集合中移除所有 SummaryZoomSection 对象。 |
 | [CopyTo](../../aspose.slides/summaryzoomsectioncollection/copyto)(Array, int) | 将整个集合复制到指定的数组。 |
 | [GetEnumerator](../../aspose.slides/summaryzoomsectioncollection/getenumerator)() | 返回一个遍历集合的枚举器。 |
@@ -36,7 +36,7 @@ public sealed class SummaryZoomSectionCollection : DomObject<SummaryZoomFrame>,
 | [IndexOf](../../aspose.slides/summaryzoomsectioncollection/indexof)(ISummaryZoomSection) | 返回指定 SummaryZoomSection 对象的索引。 |
 | [RemoveSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/removesummaryzoomsection)(ISection) | 从集合中移除 Summary Zoom Section 对象。 |
 
-### 参见
+### 另见
 
 * 类 [DomObject&lt;TParent&gt;](../domobject-1)
 * 类 [SummaryZoomFrame](../summaryzoomframe)

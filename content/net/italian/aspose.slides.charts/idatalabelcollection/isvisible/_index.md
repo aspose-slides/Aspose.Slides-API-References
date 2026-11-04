@@ -1,22 +1,22 @@
 ---
 title: IsVisible
 second_title: Riferimento API Aspose.Sildes per .NET
-description: False indica che l'etichetta dati non è visibile per impostazione predefinita e quindi tutti i flag Show-flags ShowValue ... della proprietà DefaultDataLabelFormat sono falsi. Solo lettura Boolean.
+description: False indica che l'etichetta dati non è visibile per impostazione predefinita e quindi tutti i flag Show (ShowValue, ...) della proprietà DefaultDataLabelFormat sono false. Sola lettura Boolean.
 type: docs
-weight: 60
+weight: 70
 url: /it/aspose.slides.charts/idatalabelcollection/isvisible/
 ---
 ## IDataLabelCollection.IsVisible proprietà
 
-False indica che l'etichetta dati non è visibile per impostazione predefinita (e quindi tutti i flag Show*-flags (ShowValue, ...) della proprietà DefaultDataLabelFormat sono falsi). Solo lettura Boolean.
+False significa che l’etichetta dati non è visibile per impostazione predefinita (e quindi tutti i flag Show* (ShowValue, ...) della proprietà DefaultDataLabelFormat sono falsi). Sola lettura Boolean.
 
 ```csharp
 public bool IsVisible { get; }
 ```
 
-### Note
+### Osservazioni
 
-Se l'etichetta dati è visibile per impostazione predefinita è possibile renderla nascosta per impostazione predefinita con il metodo Hide(). Ma se l'etichetta dati non è visibile per impostazione predefinita (IsVisible è false) è possibile rendere l'etichetta dati "visibile per impostazione predefinita" impostando i flag Show*-flags (ShowValue, ...) della proprietà DefaultDataLabelFormat su true state.
+Se l’etichetta dati è visibile per impostazione predefinita, è possibile renderla nascosta per impostazione predefinita con il metodo Hide(). Ma se l’etichetta dati non è visibile per impostazione predefinita (IsVisible è false) è possibile rendere l’etichetta dati "visibile per impostazione predefinita" impostando i flag Show* (ShowValue, ...) della proprietà DefaultDataLabelFormat allo stato true.
 
 ### Vedi anche
 

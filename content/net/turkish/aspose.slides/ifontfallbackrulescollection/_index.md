@@ -3,12 +3,12 @@ title: IFontFallBackRulesCollection
 second_title: Aspose.Sildes için .NET API Referansı
 description: Kullanıcı tarafından tanımlanan FontFallBack kurallarının bir koleksiyonunu temsil eder
 type: docs
-weight: 5860
+weight: 5880
 url: /tr/aspose.slides/ifontfallbackrulescollection/
 ---
 ## IFontFallBackRulesCollection arayüz
 
-Kullanıcı tarafından tanımlanan FontFallBack kurallarının bir koleksiyonunu temsil eder.
+Kullanıcı tarafından tanımlanan FontFallBack kurallarının bir koleksiyonunu temsil eder
 
 ```csharp
 public interface IFontFallBackRulesCollection : IGenericCollection<IFontFallBackRule>
@@ -16,16 +16,16 @@ public interface IFontFallBackRulesCollection : IGenericCollection<IFontFallBack
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
 | [Item](../../aspose.slides/ifontfallbackrulescollection/item) { get; } | Belirtilen dizindeki kuralı alır. Salt okunur [`IFontFallBackRule`](../ifontfallbackrule). |
 
 ## Yöntemler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
 | [Add](../../aspose.slides/ifontfallbackrulescollection/add)(IFontFallBackRule) | Koleksiyonun sonuna yeni bir FallBack kuralı ekler. |
-| [Remove](../../aspose.slides/ifontfallbackrulescollection/remove)(IFontFallBackRule) | Koleksiyondan belirli bir FallBack kuralının ilk oluşumunu kaldırır. |
+| [Remove](../../aspose.slides/ifontfallbackrulescollection/remove)(IFontFallBackRule) | Koleksiyondan belirli bir FallBack kuralının ilk ortaya çıkışını kaldırır. |
 
 ### Ayrıca Bakınız
 

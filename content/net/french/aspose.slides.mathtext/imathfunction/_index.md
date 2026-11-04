@@ -1,9 +1,9 @@
 ---
 title: IMathFunction
-second_title: Aspose.Sildes pour .NET Référence de l'API
+second_title: Aspose.Sildes pour .NET Référence d'API
 description: Spécifie une fonction d'un argument.
 type: docs
-weight: 8270
+weight: 8290
 url: /fr/aspose.slides.mathtext/imathfunction/
 ---
 ## IMathFunction interface
@@ -24,7 +24,7 @@ public interface IMathFunction : IMathElement
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]

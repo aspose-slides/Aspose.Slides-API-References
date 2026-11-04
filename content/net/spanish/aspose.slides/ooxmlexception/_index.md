@@ -1,9 +1,9 @@
 ---
 title: OOXMLException
-second_title: Aspose.Sildes para la referencia de API de .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa un tipo de excepción interno estándar relacionado con el formato de archivo Office Open XML.
 type: docs
-weight: 9200
+weight: 9220
 url: /es/aspose.slides/ooxmlexception/
 ---
 ## OOXMLException clase
@@ -19,10 +19,10 @@ public class OOXMLException : Exception
 | Nombre | Descripción |
 | --- | --- |
 | [OOXMLException](ooxmlexception#constructor)() | Constructor predeterminado. |
-| [OOXMLException](ooxmlexception#constructor_1)(string) | Constructor que permite añadir un mensaje a esta excepción. |
+| [OOXMLException](ooxmlexception#constructor_1)(string) | Constructor que permite agregar un mensaje a esta excepción. |
 | [OOXMLException](ooxmlexception#constructor_2)(string, Exception) | Constructor para una excepción que contiene un mensaje y una excepción incrustada. |
 
-### Ver también
+### Véase también
 
 * espacio de nombres [Aspose.Slides](../../aspose.slides)
 * ensamblado [Aspose.Slides](../../)

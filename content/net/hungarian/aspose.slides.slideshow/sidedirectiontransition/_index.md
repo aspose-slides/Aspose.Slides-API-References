@@ -1,14 +1,14 @@
 ---
 title: SideDirectionTransition
-second_title: Aspose.Sildes for .NET API Referencia
-description: Oldalsó irányú diaátmenet hatás.
+second_title: Aspose.Sildes .NET API referencia
+description: Oldalsó irányú diavetítés-átmenet hatás.
 type: docs
-weight: 10310
+weight: 10330
 url: /hu/aspose.slides.slideshow/sidedirectiontransition/
 ---
 ## SideDirectionTransition osztály
 
-Oldalsó irányú diaátmenet hatás.
+Oldalsó irányú diavetítés-átmenet hatás.
 
 ```csharp
 public class SideDirectionTransition : TransitionValueBase, ISideDirectionTransition
@@ -20,12 +20,12 @@ public class SideDirectionTransition : TransitionValueBase, ISideDirectionTransi
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/sidedirectiontransition/direction) { get; set; } | Az átmenet iránya. Olvasás/írás [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Megállapítja, hogy a két TransitionValueBase példány egyenlő-e. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Hash függvényként szolgál egy adott típushoz, alkalmas hash algoritmusokban és adatstruktúrákban, például hash táblában való használatra. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Meghatározza, hogy a két TransitionValueBase példány egyenlő-e. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Hash függvényként szolgál egy adott típushoz, amely alkalmas hash algoritmusokban és olyan adatstruktúrákban, mint a hash tábla. |
 
 ### Lásd még
 

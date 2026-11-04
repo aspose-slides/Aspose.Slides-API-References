@@ -3,7 +3,7 @@ title: IChartPlotArea
 second_title: Aspose.Sildes için .NET API Referansı
 description: Grafik başlığı özelliklerini temsil eder.
 type: docs
-weight: 1910
+weight: 1930
 url: /tr/aspose.slides.charts/ichartplotarea/
 ---
 ## IChartPlotArea arayüz
@@ -19,11 +19,11 @@ public interface IChartPlotArea : IActualLayout, ILayoutable
 | Ad | Açıklama |
 | --- | --- |
 | [AsIActualLayout](../../aspose.slides.charts/ichartplotarea/asiactuallayout) { get; } | IActualLayout arayüzünü döndürür. |
-| [AsILayoutable](../../aspose.slides.charts/ichartplotarea/asilayoutable) { get; } | Temel ILayoutable arayüzünü almaya izin verir. Salt okunur [`ILayoutable`](../ilayoutable). |
-| [Format](../../aspose.slides.charts/ichartplotarea/format) { get; } | Bir çizim alanının biçimini döndürür. Salt okunur [`IFormat`](../iformat). |
-| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | Çizim alanının yerleşimi manuel olarak tanımlanmış ise bu özellik, çizim alanını iç kısmına (eksen ve eksen etiketleri hariç) ya da dış kısmına (eksen ve eksen etiketleri dahil) göre yerleştirip yerleştirilmeyeceğini belirler. Okunabilir/Yazılabilir [`LayoutTargetType`](./layouttargettype). |
+| [AsILayoutable](../../aspose.slides.charts/ichartplotarea/asilayoutable) { get; } | Temel ILayoutable arayüzünü almanıza izin verir. Yalnızca okuma [`ILayoutable`](../ilayoutable). |
+| [Format](../../aspose.slides.charts/ichartplotarea/format) { get; } | Çizim alanının biçimini döndürür. Yalnızca okuma [`IFormat`](../iformat). |
+| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | Plot alanının yerleşimi manuel olarak tanımlanmışsa, bu özellik plot alanını iç kısmına (ekseni ve eksen etiketleri dahil olmadan) ya da dış kısmına (ekseni ve eksen etiketleri dahil) yerleştirip yerleştirilmeyeceğini belirtir. Okuma/yazma [`LayoutTargetType`](./layouttargettype). |
 
-### Ayrıca Bakınız
+### İlgili
 
 * arayüz [IActualLayout](../iactuallayout)
 * arayüz [ILayoutable](../ilayoutable)

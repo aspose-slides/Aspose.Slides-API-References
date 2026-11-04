@@ -1,14 +1,14 @@
 ---
 title: TextAnchorType
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Ausrichtung des Textfelds innerhalb eines Textbereichs.
+description: Ausrichtung des Textfeldes innerhalb eines Textbereichs.
 type: docs
-weight: 10910
+weight: 10930
 url: /de/aspose.slides/textanchortype/
 ---
 ## TextAnchorType Aufzählung
 
-Ausrichtung des Textfelds innerhalb eines Textbereichs.
+Ausrichtung des Textfeldes innerhalb eines Textbereichs.
 
 ```csharp
 public enum TextAnchorType : sbyte

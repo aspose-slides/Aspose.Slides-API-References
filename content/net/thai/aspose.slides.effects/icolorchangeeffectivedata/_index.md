@@ -1,9 +1,9 @@
 ---
 title: IColorChangeEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
 description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งแสดงถึงเอฟเฟกต์การเปลี่ยนสี ตัวอย่างของ FromColor จะถูกแทนที่ด้วยตัวอย่างของ ToColor.
 type: docs
-weight: 3230
+weight: 3250
 url: /th/aspose.slides.effects/icolorchangeeffectivedata/
 ---
 ## IColorChangeEffectiveData อินเทอร์เฟซ
@@ -18,10 +18,10 @@ public interface IColorChangeEffectiveData : IEffectEffectiveData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorchangeeffectivedata/asieffecteffectivedata) { get; } | Allows to get base IEffectEffectiveData interface. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [FromColor](../../aspose.slides.effects/icolorchangeeffectivedata/fromcolor) { get; } | Color which will be replaced. อ่านอย่างเดียว Color. |
-| [ToColor](../../aspose.slides.effects/icolorchangeeffectivedata/tocolor) { get; } | Color which will replace. อ่านอย่างเดียว Color. |
-| [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | Returns a boolean value which determines if alpha component should be used. อ่านอย่างเดียว Boolean. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorchangeeffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้รับอินเทอร์เฟซ IEffectEffectiveData พื้นฐาน. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [FromColor](../../aspose.slides.effects/icolorchangeeffectivedata/fromcolor) { get; } | สีที่จะถูกแทนที่. อ่านอย่างเดียว Color. |
+| [ToColor](../../aspose.slides.effects/icolorchangeeffectivedata/tocolor) { get; } | สีที่จะใช้แทน. อ่านอย่างเดียว Color. |
+| [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | ส่งคืนค่า boolean ที่กำหนดว่าควรใช้ส่วนประกอบ alpha หรือไม่. อ่านอย่างเดียว Boolean. |
 
 ### ดูเพิ่มเติม
 

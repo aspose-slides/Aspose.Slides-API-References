@@ -1,14 +1,14 @@
 ---
 title: HandoutType
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Xác định số lượng slide và thứ tự sắp xếp sẽ được đặt trên trang.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Xác định số lượng slide và thứ tự chúng sẽ được đặt trên trang.
 type: docs
-weight: 3850
+weight: 3870
 url: /vi/aspose.slides.export/handouttype/
 ---
-## Liệt kê HandoutType
+## HandoutType liệt kê
 
-Xác định số lượng slide và thứ tự sắp xếp sẽ được đặt trên trang.
+Chỉ định số lượng slide và thứ tự chúng sẽ được đặt trên trang.
 
 ```csharp
 public enum HandoutType
@@ -18,15 +18,15 @@ public enum HandoutType
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| Handouts1 | `0` | Một slide mỗi trang. |
-| Handouts2 | `1` | Hai slide mỗi trang. |
-| Handouts3 | `2` | Ba slide mỗi trang. |
-| Handouts4Horizontal | `3` | Bốn slide mỗi trang theo thứ tự ngang. |
-| Handouts4Vertical | `4` | Bốn slide mỗi trang theo thứ tự dọc. |
-| Handouts6Horizontal | `5` | Sáu slide mỗi trang theo thứ tự ngang. |
-| Handouts6Vertical | `6` | Sáu slide mỗi trang theo thứ tự dọc. |
-| Handouts9Horizontal | `7` | Chín slide mỗi trang theo thứ tự ngang. |
-| Handouts9Vertical | `8` | Chín slide mỗi trang theo thứ tự dọc. |
+| Handouts1 | `0` | Một slide trên mỗi trang. |
+| Handouts2 | `1` | Hai slide trên mỗi trang. |
+| Handouts3 | `2` | Ba slide trên mỗi trang. |
+| Handouts4Horizontal | `3` | Bốn slide trên mỗi trang theo thứ tự ngang. |
+| Handouts4Vertical | `4` | Bốn slide trên mỗi trang theo thứ tự dọc. |
+| Handouts6Horizontal | `5` | Sáu slide trên mỗi trang theo thứ tự ngang. |
+| Handouts6Vertical | `6` | Sáu slide trên mỗi trang theo thứ tự dọc. |
+| Handouts9Horizontal | `7` | Chín slide trên mỗi trang theo thứ tự ngang. |
+| Handouts9Vertical | `8` | Chín slide trên mỗi trang theo thứ tự dọc. |
 
 ### Xem thêm
 

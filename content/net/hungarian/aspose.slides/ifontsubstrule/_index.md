@@ -1,14 +1,14 @@
 ---
 title: IFontSubstRule
-second_title: Aspose.Sildes .NET API-referencia
-description: A betűtípus helyettesítési információkat képviseli
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Betűkészlet helyettesítési információkat ábrázol
 type: docs
-weight: 5880
+weight: 5900
 url: /hu/aspose.slides/ifontsubstrule/
 ---
 ## IFontSubstRule interfész
 
-A betűtípus helyettesítési információkat képviseli
+A betűkészlet helyettesítési információkat ábrázol
 
 ```csharp
 public interface IFontSubstRule
@@ -18,9 +18,9 @@ public interface IFontSubstRule
 
 | Név | Leírás |
 | --- | --- |
-| [DestFont](../../aspose.slides/ifontsubstrule/destfont) { get; } | A helyettesítéshez használandó betűtípus Csak olvasható [`IFontData`](../ifontdata). |
+| [DestFont](../../aspose.slides/ifontsubstrule/destfont) { get; } | A helyettesítéshez használandó betűkészlet Csak olvasható [`IFontData`](../ifontdata). |
 | [ReplaceFontCondition](../../aspose.slides/ifontsubstrule/replacefontcondition) { get; } | A helyettesítéshez alkalmazandó szabály Csak olvasható [`FontSubstCondition`](../fontsubstcondition). |
-| [SourceFont](../../aspose.slides/ifontsubstrule/sourcefont) { get; } | A helyettesítendő betűtípus Csak olvasható [`IFontData`](../ifontdata). |
+| [SourceFont](../../aspose.slides/ifontsubstrule/sourcefont) { get; } | A helyettesítendő betűkészlet Csak olvasható [`IFontData`](../ifontdata). |
 
 ### Lásd még
 

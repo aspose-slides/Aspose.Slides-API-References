@@ -1,9 +1,9 @@
 ---
 title: FontSubstRuleCollection
-second_title: Aspose.Sildes для .NET справка API
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет коллекцию замен шрифтов.
 type: docs
-weight: 4900
+weight: 4920
 url: /ru/aspose.slides/fontsubstrulecollection/
 ---
 ## FontSubstRuleCollection класс
@@ -27,14 +27,14 @@ public class FontSubstRuleCollection : IFontSubstRuleCollection
 | [Count](../../aspose.slides/fontsubstrulecollection/count) { get; } | Возвращает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32. |
 | [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потокобезопасный). Только для чтения Boolean. |
 | [Item](../../aspose.slides/fontsubstrulecollection/item) { get; } | Возвращает элемент по указанному индексу. |
-| [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
+| [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) { get; } | Возвращает объект синхронизации. Только для чтения Object. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | Добавляет новое правило замены шрифта в коллекцию |
-| [CopyTo](../../aspose.slides/fontsubstrulecollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
+| [CopyTo](../../aspose.slides/fontsubstrulecollection/copyto)(Array, int) | Копирует все элементы коллекции в указанный массив. |
 | [GetEnumerator](../../aspose.slides/fontsubstrulecollection/getenumerator)() | Возвращает перечислитель, который перебирает элементы коллекции. |
 | [Remove](../../aspose.slides/fontsubstrulecollection/remove)(IFontSubstRule) | Удаляет первое вхождение указанного объекта из коллекции. |
 

@@ -3,7 +3,7 @@ title: IXamlOptions
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Optionen, die steuern, wie ein XAML-Dokument gespeichert wird.
 type: docs
-weight: 4700
+weight: 4720
 url: /de/aspose.slides.export.xaml/ixamloptions/
 ---
 ## IXamlOptions Schnittstelle
@@ -18,7 +18,7 @@ public interface IXamlOptions : ISaveOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export.xaml/ixamloptions/asisaveoptions) { get; } | Gibt ISaveOptions Schnittstelle zurück. Nur lesbar [`ISaveOptions`](../../aspose.slides.export/isaveoptions). |
+| [AsISaveOptions](../../aspose.slides.export.xaml/ixamloptions/asisaveoptions) { get; } | Gibt zurück ISaveOptions Schnittstelle. Schreibgeschützt [`ISaveOptions`](../../aspose.slides.export/isaveoptions). |
 | [ExportHiddenSlides](../../aspose.slides.export.xaml/ixamloptions/exporthiddenslides) { get; set; } | Bestimmt, ob versteckte Folien exportiert werden. |
 | [OutputSaver](../../aspose.slides.export.xaml/ixamloptions/outputsaver) { get; set; } | Stellt eine Implementierung der IOutputSaver Schnittstelle dar. |
 

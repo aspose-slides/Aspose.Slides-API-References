@@ -3,12 +3,12 @@ title: ITableFormatEffectiveData
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Objeto inmutable que contiene propiedades de formato de tabla efectivas.
 type: docs
-weight: 7250
+weight: 7270
 url: /es/aspose.slides/itableformateffectivedata/
 ---
 ## ITableFormatEffectiveData interfaz
 
-Objeto inmutable que contiene propiedades de formato de tabla efectivas.
+Objeto inmutable que contiene las propiedades de formato de tabla efectivas.
 
 ```csharp
 public interface ITableFormatEffectiveData : IBaseTableFormatEffectiveData

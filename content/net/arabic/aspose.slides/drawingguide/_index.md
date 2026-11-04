@@ -1,12 +1,12 @@
 ---
 title: DrawingGuide
-second_title: Aspose.Sildes لمرجع واجهة برمجة التطبيقات .NET
+second_title: مرجع API لـ Aspose.Sildes ل .NET
 description: يمثل دليل رسم قابل للتعديل.
 type: docs
-weight: 2810
+weight: 2830
 url: /ar/aspose.slides/drawingguide/
 ---
-## DrawingGuide فئة
+## فئة DrawingGuide
 
 يمثل دليل رسم قابل للتعديل.
 
@@ -18,11 +18,11 @@ public sealed class DrawingGuide : IDrawingGuide
 
 | الاسم | الوصف |
 | --- | --- |
-| [Color](../../aspose.slides/drawingguide/color) { get; set; } | يرجع أو يضبط لون دليل الرسم. قراءة/كتابة Color. |
-| [Orientation](../../aspose.slides/drawingguide/orientation) { get; set; } | يرجع أو يضبط توجيه دليل الرسم. قراءة/كتابة [`Orientation`](../orientation). |
-| [Position](../../aspose.slides/drawingguide/position) { get; set; } | يرجع أو يضبط موضع دليل الرسم بالنقاط من الزاوية العليا اليسرى للشريحة. قراءة/كتابة Single. |
+| [Color](../../aspose.slides/drawingguide/color) { get; set; } | إرجاع أو تعيين لون دليل الرسم. قراءة/كتابة Color. |
+| [Orientation](../../aspose.slides/drawingguide/orientation) { get; set; } | إرجاع أو تعيين اتجاه دليل الرسم. قراءة/كتابة [`Orientation`](../orientation). |
+| [Position](../../aspose.slides/drawingguide/position) { get; set; } | إرجاع أو تعيين موضع دليل الرسم بالنقاط من الزاوية العليا اليسرى للشرائح. قراءة/كتابة Single. |
 
-### انظر أيضًا
+### انظر أيضا
 
 * واجهة [IDrawingGuide](../idrawingguide)
 * مساحة الاسم [Aspose.Slides](../../aspose.slides)

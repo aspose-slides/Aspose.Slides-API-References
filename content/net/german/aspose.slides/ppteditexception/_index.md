@@ -1,14 +1,14 @@
 ---
 title: PptEditException
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt eine Ausnahme dar, die ausgelöst wird, wenn ein Bearbeitungsfehler in der Präsentation erkannt wird.
+description: Stellt eine Ausnahme dar, die ausgelöst wird, wenn ein Bearbeitungsfehler der Präsentation erkannt wird.
 type: docs
-weight: 9510
+weight: 9530
 url: /de/aspose.slides/ppteditexception/
 ---
 ## PptEditException Klasse
 
-Stellt eine Ausnahme dar, die ausgelöst wird, wenn ein Bearbeitungsfehler in der Präsentation erkannt wird.
+Stellt eine Ausnahme dar, die ausgelöst wird, wenn ein Bearbeitungsfehler der Präsentation erkannt wird.
 
 ```csharp
 public class PptEditException : PptException
@@ -19,8 +19,8 @@ public class PptEditException : PptException
 | Name | Beschreibung |
 | --- | --- |
 | [PptEditException](ppteditexception#constructor)() | Standardkonstruktor. |
-| [PptEditException](ppteditexception#constructor_1)(string) | Konstruktor, der das Hinzufügen einer Nachricht zu dieser Exception ermöglicht. |
-| [PptEditException](ppteditexception#constructor_2)(string, Exception) | Konstruktor für eine Exception, die eine Nachricht und eine eingebettete Exception enthält. |
+| [PptEditException](ppteditexception#constructor_1)(string) | Konstruktor, der das Hinzufügen einer Nachricht zu dieser Ausnahme ermöglicht. |
+| [PptEditException](ppteditexception#constructor_2)(string, Exception) | Konstruktor für eine Ausnahme, die eine Nachricht und eine eingebettete Ausnahme enthält. |
 
 ### Siehe auch
 

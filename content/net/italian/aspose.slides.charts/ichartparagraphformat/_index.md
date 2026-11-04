@@ -3,10 +3,10 @@ title: IChartParagraphFormat
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta le proprietà di formattazione del paragrafo di un grafico.
 type: docs
-weight: 1900
+weight: 1920
 url: /it/aspose.slides.charts/ichartparagraphformat/
 ---
-## IChartParagraphFormat interfaccia
+## Interfaccia IChartParagraphFormat
 
 Rappresenta le proprietà di formattazione del paragrafo di un grafico.
 
@@ -16,22 +16,22 @@ public interface IChartParagraphFormat
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | Restituisce o imposta l'allineamento del testo in un paragrafo. Lettura/scrittura [`TextAlignment`](../../aspose.slides/textalignment). |
 | [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | Restituisce o imposta la dimensione di tabulazione predefinita. Lettura/scrittura Single. |
-| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | Determina se il ritorno a capo orientale è usato in un paragrafo. Lettura/scrittura [`NullableBool`](../../aspose.slides/nullablebool). |
-| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | Restituisce o imposta l'allineamento del carattere in un paragrafo. Lettura/scrittura [`FontAlignment`](../../aspose.slides/fontalignment). |
+| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | Determina se l'interruzione di riga East Asian è usata in un paragrafo. Lettura/scrittura [`NullableBool`](../../aspose.slides/nullablebool). |
+| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | Restituisce o imposta l'allineamento del font in un paragrafo. Lettura/scrittura [`FontAlignment`](../../aspose.slides/fontalignment). |
 | [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | Determina se la punteggiatura sospesa è usata in un paragrafo. Lettura/scrittura [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | Restituisce o imposta il rientro della prima riga / rientro sospeso del paragrafo. Il rientro sospeso può essere definito con valori negativi. Lettura/scrittura Single. |
-| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | Determina se il ritorno a capo latino è usato in un paragrafo. Lettura/scrittura [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | Restituisce o imposta l'indentazione della prima riga/indentazione sospesa del paragrafo. L'indentazione sospesa può essere definita con valori negativi. Lettura/scrittura Single. |
+| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | Determina se l'interruzione di riga Latin è usata in un paragrafo. Lettura/scrittura [`NullableBool`](../../aspose.slides/nullablebool). |
 | [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | Restituisce o imposta il margine sinistro in un paragrafo. Lettura/scrittura Single. |
 | [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | Restituisce o imposta il margine destro in un paragrafo. Lettura/scrittura Single. |
 | [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | Determina se la scrittura da destra a sinistra è usata in un paragrafo. Lettura/scrittura [`NullableBool`](../../aspose.slides/nullablebool). |
 | [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | Restituisce o imposta la quantità di spazio dopo l'ultima riga in un paragrafo. Lettura/scrittura Single. |
 | [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | Restituisce o imposta la quantità di spazio prima della prima riga in un paragrafo. Lettura/scrittura Single. |
 | [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | Restituisce o imposta la quantità di spazio tra le linee di base in un paragrafo. Lettura/scrittura Single. |
-| [Tabs](../../aspose.slides.charts/ichartparagraphformat/tabs) { get; } | Restituisce le tabulazioni di un paragrafo. Sola lettura [`ITabCollection`](../../aspose.slides/itabcollection). |
+| [Tabs](../../aspose.slides.charts/ichartparagraphformat/tabs) { get; } | Restituisce le tabulazioni di un paragrafo. Solo lettura [`ITabCollection`](../../aspose.slides/itabcollection). |
 
 ### Vedi anche
 

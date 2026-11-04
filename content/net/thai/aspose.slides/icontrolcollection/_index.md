@@ -1,9 +1,9 @@
 ---
 title: IControlCollection
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
 description: คอลเลกชันของคอนโทรล ActiveX.
 type: docs
-weight: 5640
+weight: 5660
 url: /th/aspose.slides/icontrolcollection/
 ---
 ## IControlCollection อินเทอร์เฟซ
@@ -20,11 +20,11 @@ public interface IControlCollection : IGenericCollection<IControl>
 | --- | --- |
 | [Item](../../aspose.slides/icontrolcollection/item) { get; } | ส่งคืนคอนโทรลที่ตำแหน่งที่ระบุ. |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AddControl](../../aspose.slides/icontrolcollection/addcontrol)(ControlType, float, float, float, float) | สร้างและเพิ่มคอนโทรลใหม่ลงในคอลเลกชัน. |
+| [AddControl](../../aspose.slides/icontrolcollection/addcontrol)(ControlType, float, float, float, float) | สร้างและเพิ่มคอนโทรลใหม่ไปยังคอลเลกชัน. |
 | [Clear](../../aspose.slides/icontrolcollection/clear)() | ลบคอนโทรลทั้งหมดออกจากคอลเลกชัน. |
 | [Remove](../../aspose.slides/icontrolcollection/remove)(IControl) | ลบคอนโทรล ActiveX ออกจากคอลเลกชัน. |
 | [RemoveAt](../../aspose.slides/icontrolcollection/removeat)(int) | ลบคอนโทรล ActiveX ที่จัดเก็บไว้ที่ตำแหน่งที่ระบุออกจากคอลเลกชัน. |

@@ -1,9 +1,9 @@
 ---
 title: IBackground
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir slaytın arka planını temsil eder.
+description: Bir slaydın arka planını temsil eder.
 type: docs
-weight: 5270
+weight: 5290
 url: /tr/aspose.slides/ibackground/
 ---
 ## IBackground arayüzü
@@ -18,19 +18,19 @@ public interface IBackground : IFillParamSource, ISlideComponent
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ibackground/asifillparamsource) { get; } | IFillParamSource arayüzünü döndürür. Salt okunur [`IFillParamSource`](../ifillparamsource). |
-| [AsISlideComponent](../../aspose.slides/ibackground/asislidecomponent) { get; } | ISlideComponent arayüzünü döndürür. Salt okunur [`ISlideComponent`](../islidecomponent). |
-| [EffectFormat](../../aspose.slides/ibackground/effectformat) { get; } | BackgroundType.OwnBackground doldurması için bir EffectFormat döndürür. Salt okunur [`IEffectFormat`](../ieffectformat). |
-| [FillFormat](../../aspose.slides/ibackground/fillformat) { get; } | BackgroundType.OwnBackground doldurması için bir FillFormat döndürür. Salt okunur [`IFillFormat`](../ifillformat). |
-| [StyleColor](../../aspose.slides/ibackground/stylecolor) { get; } | BackgroundType.Themed doldurması için bir ColorFormat döndürür. Salt okunur [`IColorFormat`](../icolorformat). |
-| [StyleIndex](../../aspose.slides/ibackground/styleindex) { get; set; } | BackgroundType.Themed doldurması için arka plan teması koleksiyonundaki bir dizini döndürür. 0, dolgu olmadığını ifade eder. 1..999 - dizin. Okuma/yazma UInt16. |
-| [Type](../../aspose.slides/ibackground/type) { get; set; } | Bir arka plan dolgu türünü döndürür. Okuma/yazma [`BackgroundType`](../backgroundtype). |
+| [AsIFillParamSource](../../aspose.slides/ibackground/asifillparamsource) { get; } | IFillParamSource arayüzünü döndürür. Yalnızca okuma [`IFillParamSource`](../ifillparamsource). |
+| [AsISlideComponent](../../aspose.slides/ibackground/asislidecomponent) { get; } | ISlideComponent arayüzünü döndürür. Yalnızca okuma [`ISlideComponent`](../islidecomponent). |
+| [EffectFormat](../../aspose.slides/ibackground/effectformat) { get; } | BackgroundType.OwnBackground doldurma için bir EffectFormat döndürür. Yalnızca okuma [`IEffectFormat`](../ieffectformat). |
+| [FillFormat](../../aspose.slides/ibackground/fillformat) { get; } | BackgroundType.OwnBackground doldurma için bir FillFormat döndürür. Yalnızca okuma [`IFillFormat`](../ifillformat). |
+| [StyleColor](../../aspose.slides/ibackground/stylecolor) { get; } | BackgroundType.Themed doldurma için bir ColorFormat döndürür. Yalnızca okuma [`IColorFormat`](../icolorformat). |
+| [StyleIndex](../../aspose.slides/ibackground/styleindex) { get; set; } | Arka plan teması koleksiyonunda BackgroundType.Themed doldurmanın bir dizinini döndürür. 0, doldurmanın olmadığını gösterir. 1..999 - dizin. Okuma/yazma UInt16. |
+| [Type](../../aspose.slides/ibackground/type) { get; set; } | Arka plan doldurmasının tipini döndürür. Okuma/yazma [`BackgroundType`](../backgroundtype). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [GetEffective](../../aspose.slides/ibackground/geteffective)() | Miras uygulanmış etkili arka plan verilerini alır. |
+| [GetEffective](../../aspose.slides/ibackground/geteffective)() | Uygulanan kalıtımla etkili arka plan verilerini alır. |
 
 ### Ayrıca Bakınız
 

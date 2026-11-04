@@ -1,14 +1,14 @@
 ---
 title: ControlType
 second_title: Aspose.Sildes für .NET API Referenz
-description: Definiert einen Steuertyp, der von AddControl./icontrolcollection/addcontrol eingebettet werden soll.
+description: Definiert einen Steuertyp, der von AddControl./icontrolcollection/addcontrol eingebettet werden sollte.
 type: docs
-weight: 2720
+weight: 2740
 url: /de/aspose.slides/controltype/
 ---
-## ControlType-Aufzählung
+## ControlType Aufzählung
 
-Definiert einen Steuertyp, der von [`AddControl`](../icontrolcollection/addcontrol) eingebettet werden soll.
+Definiert einen Steuertyp, der von [`AddControl`](../icontrolcollection/addcontrol) eingebettet werden sollte.
 
 ```csharp
 public enum ControlType

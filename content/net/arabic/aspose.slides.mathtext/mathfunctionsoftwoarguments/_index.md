@@ -1,14 +1,14 @@
 ---
 title: MathFunctionsOfTwoArguments
-second_title: Aspose.Sildes لمرجع API .NET
-description: دوال رياضية شائعة ذات معاملين
+second_title: مرجع API الخاص بـ Aspose.Sildes for .NET
+description: دوال رياضية شائعة لوسيطين
 type: docs
-weight: 8750
+weight: 8770
 url: /ar/aspose.slides.mathtext/mathfunctionsoftwoarguments/
 ---
 ## MathFunctionsOfTwoArguments تعداد
 
-دوال رياضية شائعة ذات معاملين
+دوال رياضية شائعة لوسيطين
 
 ```csharp
 public enum MathFunctionsOfTwoArguments
@@ -19,9 +19,9 @@ public enum MathFunctionsOfTwoArguments
 | الاسم | القيمة | الوصف |
 | --- | --- | --- |
 | Log | `0` | Log |
-| Lim | `1` | Limit |
-| Min | `2` | Minimum |
-| Max | `3` | Maximum |
+| Lim | `1` | حد |
+| Min | `2` | الحد الأدنى |
+| Max | `3` | الحد الأقصى |
 
 ### انظر أيضًا
 

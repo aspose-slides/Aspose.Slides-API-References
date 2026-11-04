@@ -1,14 +1,14 @@
 ---
 title: IBiLevelEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: อ็อบเจกต์ที่ไม่เปลี่ยนแปลงที่เป็นตัวแทนของเอฟเฟกต์ Bi-Level ขาว/ดำ. รายการสีอินพุตที่ความสว่างน้อยกว่าค่าธรณีที่กำหนดจะถูกเปลี่ยนเป็นสีดำ. รายการสีอินพุตที่ความสว่างมากกว่าหรือเท่ากับค่าที่กำหนดจะถูกตั้งค่าเป็นสีขาว. ค่าผลกระทบ alpha จะไม่ได้รับผลกระทบจากเอฟเฟกต์นี้.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: อ็อบเจกต์ที่ไม่สามารถเปลี่ยนแปลงได้ซึ่งเป็นตัวแทนของเอฟเฟกต์ระดับสองสีดำ/สีขาว สีอินพุตที่ความสว่างน้อยกว่าค่าขีดจำกัดที่ระบุจะถูกเปลี่ยนเป็นสีดำ สีอินพุตที่ความสว่างมากกว่าหรือเท่ากับค่าที่ระบุจะถูกตั้งเป็นสีขาว ค่าของเอฟเฟกต์อัลฟ่าไม่ถูกกระทบจากเอฟเฟกต์นี้.
 type: docs
-weight: 3170
+weight: 3190
 url: /th/aspose.slides.effects/ibileveleffectivedata/
 ---
 ## IBiLevelEffectiveData อินเทอร์เฟซ
 
-อ็อบเจกต์ไม่เปลี่ยนแปลงที่เป็นตัวแทนของเอฟเฟกต์ Bi-Level (ดำ/ขาว) รายการสีอินพุตที่ความสว่างน้อยกว่าค่าธรณีที่กำหนดจะถูกเปลี่ยนเป็นสีดำ รายการสีอินพุตที่ความสว่างมากกว่าหรือเท่ากับค่าที่กำหนดจะถูกตั้งค่าเป็นสีขาว ค่าผลกระทบ alpha จะไม่ได้รับผลกระทบจากเอฟเฟกต์นี้
+อ็อบเจกต์ที่ไม่สามารถเปลี่ยนแปลงได้ซึ่งเป็นตัวแทนของเอฟเฟกต์ระดับสอง (สีดำ/สีขาว) สีอินพุตที่ความสว่างน้อยกว่าค่าขีดจำกัดที่ระบุจะถูกเปลี่ยนเป็นสีดำ สีอินพุตที่ความสว่างเป็นค่ามากกว่าหรือเท่ากับค่าที่ระบุจะถูกตั้งเป็นสีขาว ค่าของเอฟเฟกต์อัลฟ่าไม่ถูกกระทบจากเอฟเฟกต์นี้.
 
 ```csharp
 public interface IBiLevelEffectiveData : IEffectEffectiveData
@@ -19,7 +19,7 @@ public interface IBiLevelEffectiveData : IEffectEffectiveData
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/ibileveleffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IEffectEffectiveData พื้นฐาน. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Threshold](../../aspose.slides.effects/ibileveleffectivedata/threshold) { get; } | คืนค่าค่าธรณี. อ่านอย่างเดียว Single. |
+| [Threshold](../../aspose.slides.effects/ibileveleffectivedata/threshold) { get; } | คืนค่าเกณฑ์ที่กำหนด. อ่านอย่างเดียว Single. |
 
 ### ดูเพิ่มเติม
 

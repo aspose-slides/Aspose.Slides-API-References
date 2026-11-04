@@ -1,14 +1,14 @@
 ---
 title: IEightDirectionTransition
-second_title: Aspose.Sildes για το .NET API Reference
-description: Επίδραση μετάβασης διαφάνειας οκτώ κατευθύνσεων.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Εφέ μετάβασης διαφάνειας με οκτώ κατευθύνσεις.
 type: docs
-weight: 10070
+weight: 10090
 url: /el/aspose.slides.slideshow/ieightdirectiontransition/
 ---
-## IEightDirectionTransition διεπαφή
+## IEightDirectionTransition διασύνδεση
 
-Eight direction slide transition effect.
+Εφέ μετάβασης διαφάνειας με οκτώ κατευθύνσεις.
 
 ```csharp
 public interface IEightDirectionTransition : ITransitionValueBase
@@ -18,12 +18,12 @@ public interface IEightDirectionTransition : ITransitionValueBase
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ieightdirectiontransition/asitransitionvaluebase) { get; } | Επιτρέπει την πρόσβαση στη βασική διεπαφή ITransitionValueBase. Μόνο για ανάγνωση [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/ieightdirectiontransition/direction) { get; set; } | Κατεύθυνση μετάβασης. Ανάγνωση/εγγραφή [`TransitionEightDirectionType`](../transitioneightdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ieightdirectiontransition/asitransitionvaluebase) { get; } | Επιτρέπει την ανάκτηση της βασικής διασύνδεσης ITransitionValueBase. Μόνο για ανάγνωση [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/ieightdirectiontransition/direction) { get; set; } | Κατεύθυνση της μετάβασης. Ανάγνωση/εγγραφή [`TransitionEightDirectionType`](../transitioneightdirectiontype). |
 
 ### Δείτε επίσης
 
-* διεπαφή [ITransitionValueBase](../itransitionvaluebase)
+* διασύνδεση [ITransitionValueBase](../itransitionvaluebase)
 * χώρο ονομάτων [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * συγκρότημα [Aspose.Slides](../../)
 

@@ -1,14 +1,14 @@
 ---
 title: InOutTransition
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET справочник API
 description: Эффект перехода слайда In-Out.
 type: docs
-weight: 10230
+weight: 10250
 url: /ru/aspose.slides.slideshow/inouttransition/
 ---
 ## InOutTransition класс
 
-Эффект перехода слайдов In-Out.
+Эффект перехода слайда In-Out.
 
 ```csharp
 public class InOutTransition : TransitionValueBase, IInOutTransition
@@ -25,7 +25,7 @@ public class InOutTransition : TransitionValueBase, IInOutTransition
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли два экземпляра TransitionValueBase. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хеш-функцией для определённого типа, пригодной для использования в алгоритмах хеширования и структурах данных, таких как хеш-таблица. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хеш-функцией для конкретного типа, подходящей для использования в хеш-алгоритмах и структурах данных, таких как хеш-таблица. |
 
 ### См. также
 

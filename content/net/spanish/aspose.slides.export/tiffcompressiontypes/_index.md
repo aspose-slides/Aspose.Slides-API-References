@@ -1,12 +1,12 @@
 ---
 title: TiffCompressionTypes
-second_title: Referencia de la API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Proporciona opciones que controlan cómo se comprime una presentación en formato TIFF.
 type: docs
-weight: 4560
+weight: 4580
 url: /es/aspose.slides.export/tiffcompressiontypes/
 ---
-## TiffCompressionTypes enumeración
+## Enumeración TiffCompressionTypes
 
 Proporciona opciones que controlan cómo se comprime una presentación en formato TIFF.
 
@@ -16,7 +16,7 @@ public enum TiffCompressionTypes
 
 ### Valores
 
-| Nombre | Valor | Descripción |
+| Name | Value | Description |
 | --- | --- | --- |
 | Default | `0` | Especifica el esquema de compresión predeterminado (LZW). |
 | None | `1` | Especifica que no hay compresión. |

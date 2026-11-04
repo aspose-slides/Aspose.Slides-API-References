@@ -1,9 +1,9 @@
 ---
 title: IMathLimitFactory
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 允许创建 IMathLimit
 type: docs
-weight: 8330
+weight: 8350
 url: /zh/aspose.slides.mathtext/imathlimitfactory/
 ---
 ## IMathLimitFactory 接口
@@ -18,14 +18,14 @@ public interface IMathLimitFactory
 
 | 名称 | 描述 |
 | --- | --- |
-| [CreateMathLimit](../../aspose.slides.mathtext/imathlimitfactory/createmathlimit#createmathlimit)(IMathElement, IMathElement) | 在底部创建 IMathLimit |
+| [CreateMathLimit](../../aspose.slides.mathtext/imathlimitfactory/createmathlimit#createmathlimit)(IMathElement, IMathElement) | 创建底部带限制的 IMathLimit |
 | [CreateMathLimit](../../aspose.slides.mathtext/imathlimitfactory/createmathlimit#createmathlimit_1)(IMathElement, IMathElement, bool) | 创建 IMathLimit |
 
 ### 备注
 
 用于 COM 兼容性
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 程序集 [Aspose.Slides](../../)

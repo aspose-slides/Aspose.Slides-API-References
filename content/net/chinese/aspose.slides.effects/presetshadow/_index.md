@@ -1,9 +1,9 @@
 ---
 title: PresetShadow
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示预设阴影效果。
 type: docs
-weight: 3630
+weight: 3650
 url: /zh/aspose.slides.effects/presetshadow/
 ---
 ## PresetShadow 类
@@ -16,22 +16,22 @@ public sealed class PresetShadow : IPresetShadow
 
 ## 属性
 
-| 名称 | 说明 |
+| 名称 | 描述 |
 | --- | --- |
-| [Direction](../../aspose.slides.effects/presetshadow/direction) { get; set; } | 阴影方向。读写 Single。 |
-| [Distance](../../aspose.slides.effects/presetshadow/distance) { get; set; } | 阴影距离。读写 Double。 |
-| [Preset](../../aspose.slides.effects/presetshadow/preset) { get; set; } | 预设。读写 [`PresetShadowType`](../../aspose.slides/presetshadowtype)。 |
+| [Direction](../../aspose.slides.effects/presetshadow/direction) { get; set; } | 阴影方向。读/写 Single。 |
+| [Distance](../../aspose.slides.effects/presetshadow/distance) { get; set; } | 阴影距离。读/写 Double。 |
+| [Preset](../../aspose.slides.effects/presetshadow/preset) { get; set; } | 预设。读/写 [`PresetShadowType`](../../aspose.slides/presetshadowtype)。 |
 | [ShadowColor](../../aspose.slides.effects/presetshadow/shadowcolor) { get; } | 阴影颜色。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
 
 ## 方法
 
-| 名称 | 说明 |
+| 名称 | 描述 |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/presetshadow/equals)(object) | 确定指定的 [`PresetShadow`](../presetshadow) 是否等于当前的 [`PresetShadow`](../presetshadow)。 |
-| [GetEffective](../../aspose.slides.effects/presetshadow/geteffective)() | 获取在应用继承后的有效 预设阴影 效果数据。 |
+| [GetEffective](../../aspose.slides.effects/presetshadow/geteffective)() | 获取在应用继承后有效的 预设阴影 效果数据。 |
 | override [GetHashCode](../../aspose.slides.effects/presetshadow/gethashcode)() | 作为特定类型的哈希函数。 |
 
-### 另请参阅
+### 另见
 
 * 接口 [IPresetShadow](../ipresetshadow)
 * 命名空间 [Aspose.Slides.Effects](../../aspose.slides.effects)

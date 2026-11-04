@@ -1,14 +1,14 @@
 ---
 title: IAlphaBiLevelEffectiveData
-second_title: Aspose.Sildes para .NET Referência de API
-description: Objeto imutável que representa um efeito Alpha Bi-Level. Valores de Opacidade Alpha menores que o limiar são alterados para 0 totalmente transparente e valores de alpha maiores ou iguais ao limiar são alterados para 100 totalmente opaco.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Objeto imutável que representa um efeito Alpha Bi-Level. Valores Alpha Opacity menores que o limiar são alterados para 0 totalmente transparente e valores alpha maiores ou iguais ao limiar são alterados para 100 totalmente opaco.
 type: docs
-weight: 3030
+weight: 3050
 url: /pt/aspose.slides.effects/ialphabileveleffectivedata/
 ---
-## interface IAlphaBiLevelEffectiveData
+## IAlphaBiLevelEffectiveData interface
 
-Objeto imutável que representa um efeito Alpha Bi-Level. Valores de Alpha (Opacidade) menores que o limiar são alterados para 0 (totalmente transparente) e valores de alpha maiores ou iguais ao limiar são alterados para 100 % (totalmente opaco).
+Objeto imutável que representa um efeito Alpha Bi-Level. Valores Alpha (Opacidade) menores que o limiar são alterados para 0 (totalmente transparente) e valores alpha maiores ou iguais ao limiar são alterados para 100% (totalmente opaco).
 
 ```csharp
 public interface IAlphaBiLevelEffectiveData : IEffectEffectiveData
@@ -18,10 +18,10 @@ public interface IAlphaBiLevelEffectiveData : IEffectEffectiveData
 
 | Nome | Descrição |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphabileveleffectivedata/asieffecteffectivedata) { get; } | Permite obter a interface IEffectEffectiveData base. Somente leitura [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphabileveleffectivedata/asieffecteffectivedata) { get; } | Permite obter a interface base IEffectEffectiveData. Somente leitura [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Threshold](../../aspose.slides.effects/ialphabileveleffectivedata/threshold) { get; } | Retorna o limiar do efeito. Somente leitura Single. |
 
-### Veja Também
+### Veja também
 
 * interface [IEffectEffectiveData](../ieffecteffectivedata)
 * namespace [Aspose.Slides.Effects](../../aspose.slides.effects)

@@ -1,14 +1,14 @@
 ---
 title: OdpReadException
-second_title: Referencia de la API de Aspose.Sildes para .NET
-description: Representa una excepción que se lanza en errores de lectura de presentación.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Representa una excepción que se lanza en errores de lectura de presentaciones.
 type: docs
-weight: 9220
+weight: 9240
 url: /es/aspose.slides/odpreadexception/
 ---
 ## OdpReadException clase
 
-Representa una excepción que se lanza en errores de lectura de presentación.
+Representa una excepción que se lanza en errores de lectura de presentaciones.
 
 ```csharp
 public class OdpReadException : OdpException

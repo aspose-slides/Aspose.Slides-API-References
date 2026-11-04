@@ -1,9 +1,9 @@
 ---
 title: LineDashStyle
-second_title: Aspose.Sildes .NET API 参考
-description: 表示线条虚线样式。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示线段的虚线样式。
 type: docs
-weight: 7770
+weight: 7790
 url: /zh/aspose.slides/linedashstyle/
 ---
 ## LineDashStyle 枚举

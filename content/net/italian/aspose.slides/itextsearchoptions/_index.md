@@ -1,14 +1,14 @@
 ---
 title: ITextSearchOptions
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta le opzioni che possono essere usate per cercare testo in una Presentation, Slide o TextFrame.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta le opzioni che possono essere usate per cercare testo in una Presentation Slide o TextFrame.
 type: docs
-weight: 7300
+weight: 7320
 url: /it/aspose.slides/itextsearchoptions/
 ---
 ## ITextSearchOptions interfaccia
 
-Rappresenta le opzioni che possono essere utilizzate per cercare testo in una Presentation, Slide o TextFrame.
+Rappresenta le opzioni che possono essere usate per cercare testo in una Presentation, Slide o TextFrame.
 
 ```csharp
 public interface ITextSearchOptions
@@ -16,11 +16,11 @@ public interface ITextSearchOptions
 
 ## Proprietà
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
-| [CaseSensitive](../../aspose.slides/itextsearchoptions/casesensitive) { get; set; } | Imposta true per utilizzare la ricerca sensibile al maiuscolo/minuscolo, false - altrimenti. Lettura/scrittura Boolean. |
-| [IncludeNotes](../../aspose.slides/itextsearchoptions/includenotes) { get; set; } | Imposta `true` per includere il testo contenuto nelle note della diapositiva durante la ricerca di testo, la sostituzione o le operazioni di evidenziazione. Il valore predefinito è `false`. |
-| [WholeWordsOnly](../../aspose.slides/itextsearchoptions/wholewordsonly) { get; set; } | Imposta true per corrispondere solo parole intere, false - altrimenti. Lettura/scrittura Boolean. |
+| [CaseSensitive](../../aspose.slides/itextsearchoptions/casesensitive) { get; set; } | Imposta true per usare la ricerca sensibile al maiuscolo/minuscolo, false altrimenti. Lettura/scrittura Boolean. |
+| [IncludeNotes](../../aspose.slides/itextsearchoptions/includenotes) { get; set; } | Imposta `true` per includere il testo contenuto nelle note della diapositiva durante l'esecuzione di ricerche di testo, sostituzioni o operazioni di evidenziazione. Il valore predefinito è `false`. |
+| [WholeWordsOnly](../../aspose.slides/itextsearchoptions/wholewordsonly) { get; set; } | Imposta true per corrispondere solo parole intere, false altrimenti. Lettura/scrittura Boolean. |
 
 ### Vedi anche
 

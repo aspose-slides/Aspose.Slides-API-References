@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachMasterSlideCallback
-second_title: Aspose.Sildes для .NET справка API
+second_title: Справочник API Aspose.Sildes для .NET
 description: Обратный вызов, который будет вызываться для каждого MasterSlide./foreach/masterslide в Presentation../aspose.slides/presentation.
 type: docs
-weight: 7920
+weight: 7940
 url: /ru/aspose.slides.lowcode/foreach.foreachmasterslidecallback/
 ---
 ## ForEach.ForEachMasterSlideCallback delegate
 
-Обратный вызов, который будет вызван для каждого [`MasterSlide`](../foreach/masterslide) в [`Presentation`](../../aspose.slides/presentation).
+Обратный вызов, который будет вызываться для каждого [`MasterSlide`](../foreach/masterslide) в [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public delegate void ForEachMasterSlideCallback(MasterSlide masterSlide, int index);
@@ -16,7 +16,7 @@ public delegate void ForEachMasterSlideCallback(MasterSlide masterSlide, int ind
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| masterSlide | MasterSlide | Текущий обрабатываемый мастер-слайд |
+| masterSlide | MasterSlide | Текущий перебираемый мастер-слайд |
 | index | Int32 | Индекс текущего мастер-слайда |
 
 ### См. также

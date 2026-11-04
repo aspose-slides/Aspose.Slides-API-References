@@ -1,14 +1,14 @@
 ---
 title: OrientationTransition
-second_title: Aspose.Sildes için .NET API Referansı
-description: Yön slayt geçiş efekti.
+second_title: Aspose.Sildes .NET API Referansı
+description: Yön kaydırma geçiş efekti.
 type: docs
-weight: 10270
+weight: 10290
 url: /tr/aspose.slides.slideshow/orientationtransition/
 ---
-## OrientationTransition sınıf
+## OrientationTransition sınıfı
 
-Orientation slide transition effect.
+Yön kaydırma geçiş efekti.
 
 ```csharp
 public class OrientationTransition : TransitionValueBase, IOrientationTransition
@@ -18,14 +18,14 @@ public class OrientationTransition : TransitionValueBase, IOrientationTransition
 
 | Ad | Açıklama |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/orientationtransition/direction) { get; set; } | Geçiş yönü. Okuma/yazma [`Orientation`](../../aspose.slides/orientation). |
+| [Direction](../../aspose.slides.slideshow/orientationtransition/direction) { get; set; } | Geçiş yönü. Okunur/yazılır [`Orientation`](../../aspose.slides/orientation). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | İki TransitionValueBase örneklerinin eşit olup olmadığını belirler. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Belirli bir tip için hash işlevi olarak hizmet eder, hash algoritmaları ve hash tablosu gibi veri yapılarına uygun olarak kullanılır. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | İki TransitionValueBase örneğinin eşit olup olmadığını belirler. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Belirli bir tip için bir hash işlevi olarak hizmet eder, hash algoritmaları ve hash tablosu gibi veri yapılarında kullanılmak için uygundur. |
 
 ### Ayrıca Bakınız
 

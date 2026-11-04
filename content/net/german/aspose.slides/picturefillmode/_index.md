@@ -3,7 +3,7 @@ title: PictureFillMode
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Bestimmt, wie das Bild den Bereich füllt.
 type: docs
-weight: 9400
+weight: 9420
 url: /de/aspose.slides/picturefillmode/
 ---
 ## PictureFillMode Aufzählung

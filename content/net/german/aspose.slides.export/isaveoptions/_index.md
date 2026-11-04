@@ -3,7 +3,7 @@ title: ISaveOptions
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Optionen, die steuern, wie eine Präsentation gespeichert wird.
 type: docs
-weight: 4070
+weight: 4090
 url: /de/aspose.slides.export/isaveoptions/
 ---
 ## ISaveOptions Schnittstelle
@@ -18,11 +18,11 @@ public interface ISaveOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/isaveoptions/defaultregularfont) { get; set; } | Gibt die Schriftart zurück oder legt sie fest, wenn die Quellschriftart nicht gefunden wird. Lesen/Schreiben String. |
-| [GradientStyle](../../aspose.slides.export/isaveoptions/gradientstyle) { get; set; } | Gibt den visuellen Stil des Farbverlaufs zurück oder legt ihn fest. Lesen/Schreiben [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/isaveoptions/progresscallback) { get; set; } | Stellt ein Callback-Objekt für prozentuale Fortschrittsaktualisierungen beim Speichern dar. Siehe [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/isaveoptions/skipjavascriptlinks) { get; set; } | Gibt an, ob beim Speichern der Präsentation Hyperlinks mit JavaScript-Aufrufen übersprungen werden sollen. Lesen/Schreiben Boolean. Der Standardwert ist **false**. |
-| [WarningCallback](../../aspose.slides.export/isaveoptions/warningcallback) { get; set; } | Gibt ein Objekt zurück oder legt es fest, das Warnungen empfängt und entscheidet, ob der Ladevorgang fortgesetzt oder abgebrochen wird. Lesen/Schreiben [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultRegularFont](../../aspose.slides.export/isaveoptions/defaultregularfont) { get; set; } | Gibt die Schrift zurück oder legt sie fest, die verwendet wird, falls die Quellschrift nicht gefunden wird. Lese-Schreib String. |
+| [GradientStyle](../../aspose.slides.export/isaveoptions/gradientstyle) { get; set; } | Gibt den visuellen Stil des Farbverlaufs zurück oder legt ihn fest. Lese/Schreiben [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/isaveoptions/progresscallback) { get; set; } | Stellt ein Rückrufobjekt für Fortschrittsaktualisierungen beim Speichern in Prozent dar. Siehe [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/isaveoptions/skipjavascriptlinks) { get; set; } | Gibt an, ob Hyperlinks mit JavaScript-Aufrufen beim Speichern der Präsentation übersprungen werden sollen. Lese/Schreiben Boolean. Der Standardwert ist **false**. |
+| [WarningCallback](../../aspose.slides.export/isaveoptions/warningcallback) { get; set; } | Gibt ein Objekt zurück oder legt es fest, das Warnungen empfängt und entscheidet, ob der Ladevorgang fortgesetzt oder abgebrochen wird. Lese/Schreiben [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Siehe auch
 

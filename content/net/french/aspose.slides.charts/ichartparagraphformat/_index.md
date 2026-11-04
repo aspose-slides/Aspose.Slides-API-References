@@ -1,14 +1,14 @@
 ---
 title: IChartParagraphFormat
 second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Représente les propriétés de mise en forme d'un paragraphe d'un diagramme.
+description: Représente les propriétés de mise en forme d'un paragraphe d'un graphique.
 type: docs
-weight: 1900
+weight: 1920
 url: /fr/aspose.slides.charts/ichartparagraphformat/
 ---
 ## IChartParagraphFormat interface
 
-Représente les propriétés de mise en forme d’un paragraphe d’un diagramme.
+Représente les propriétés de mise en forme d'un paragraphe d'un graphique.
 
 ```csharp
 public interface IChartParagraphFormat
@@ -16,12 +16,12 @@ public interface IChartParagraphFormat
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | Renvoie ou définit l'alignement du texte dans un paragraphe. Lecture/écriture [`TextAlignment`](../../aspose.slides/textalignment). |
 | [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | Renvoie ou définit la taille de tabulation par défaut. Lecture/écriture Single. |
 | [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | Détermine si le saut de ligne est-asiatique est utilisé dans un paragraphe. Lecture/écriture [`NullableBool`](../../aspose.slides/nullablebool). |
-| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | Renvoie ou définit l'alignement de police dans un paragraphe. Lecture/écriture [`FontAlignment`](../../aspose.slides/fontalignment). |
+| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | Renvoie ou définit l'alignement de la police dans un paragraphe. Lecture/écriture [`FontAlignment`](../../aspose.slides/fontalignment). |
 | [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | Détermine si la ponctuation suspendue est utilisée dans un paragraphe. Lecture/écriture [`NullableBool`](../../aspose.slides/nullablebool). |
 | [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | Renvoie ou définit le retrait de première ligne/retrait suspendu du paragraphe. Le retrait suspendu peut être défini avec des valeurs négatives. Lecture/écriture Single. |
 | [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | Détermine si le saut de ligne latin est utilisé dans un paragraphe. Lecture/écriture [`NullableBool`](../../aspose.slides/nullablebool). |

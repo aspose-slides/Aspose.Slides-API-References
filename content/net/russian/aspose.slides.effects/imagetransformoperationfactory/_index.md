@@ -1,14 +1,14 @@
 ---
 title: ImageTransformOperationFactory
 second_title: Aspose.Sildes для .NET справочник API
-description: Позволяет создавать операции преобразования изображения
+description: Позволяет создавать операции преобразования изображений
 type: docs
-weight: 3590
+weight: 3610
 url: /ru/aspose.slides.effects/imagetransformoperationfactory/
 ---
 ## ImageTransformOperationFactory класс
 
-Позволяет создавать операции преобразования изображения
+Позволяет создавать операции преобразования изображений
 
 ```csharp
 public class ImageTransformOperationFactory : IImageTransformOperationFactory
@@ -24,32 +24,32 @@ public class ImageTransformOperationFactory : IImageTransformOperationFactory
 
 | Имя | Описание |
 | --- | --- |
-| [CreateAlphaBiLevel](../../aspose.slides.effects/imagetransformoperationfactory/createalphabilevel)(float) | Создает эффект Alpha BiLevel. |
-| [CreateAlphaFloor](../../aspose.slides.effects/imagetransformoperationfactory/createalphafloor)() | Создает эффект Alpha floor. |
-| [CreateAlphaInverse](../../aspose.slides.effects/imagetransformoperationfactory/createalphainverse)() | Создает эффект Alpha inverse. |
-| [CreateAlphaModulate](../../aspose.slides.effects/imagetransformoperationfactory/createalphamodulate)() | Создает эффект Alpha modulate. |
-| [CreateAlphaModulateFixed](../../aspose.slides.effects/imagetransformoperationfactory/createalphamodulatefixed)(float) | Создает эффект Alpha modulate fixed. |
-| [CreateAlphaReplace](../../aspose.slides.effects/imagetransformoperationfactory/createalphareplace)(float) | Создает эффект Alpha replace. |
-| [CreateAlphCeiling](../../aspose.slides.effects/imagetransformoperationfactory/createalphceiling)() | Создает эффект Alpha Ceiling. |
-| [CreateBiLevel](../../aspose.slides.effects/imagetransformoperationfactory/createbilevel)(float) | Создает эффект BiLevel. |
-| [CreateBlur](../../aspose.slides.effects/imagetransformoperationfactory/createblur)(double, bool) | Создает эффект Blur. |
-| [CreateColorChange](../../aspose.slides.effects/imagetransformoperationfactory/createcolorchange)() | Создает эффект Color change. |
-| [CreateColorReplace](../../aspose.slides.effects/imagetransformoperationfactory/createcolorreplace)() | Создает эффект Color replace. |
-| [CreateDuotone](../../aspose.slides.effects/imagetransformoperationfactory/createduotone)() | Создает эффект Duotone. |
-| [CreateFillOverlay](../../aspose.slides.effects/imagetransformoperationfactory/createfilloverlay)() | Создает эффект Fill overlay. |
-| [CreateGrayScale](../../aspose.slides.effects/imagetransformoperationfactory/creategrayscale)() | Создает эффект Gray scale. |
-| [CreateHSL](../../aspose.slides.effects/imagetransformoperationfactory/createhsl)(float, float, float) | Создает эффект Hue Saturation Luminance. |
-| [CreateLuminance](../../aspose.slides.effects/imagetransformoperationfactory/createluminance)(float, float) | Создает эффект Luminance. |
-| [CreateTint](../../aspose.slides.effects/imagetransformoperationfactory/createtint)(float, float) | Создает эффект Tint. |
+| [CreateAlphaBiLevel](../../aspose.slides.effects/imagetransformoperationfactory/createalphabilevel)(float) | Создаёт эффект Alpha BiLevel. |
+| [CreateAlphaFloor](../../aspose.slides.effects/imagetransformoperationfactory/createalphafloor)() | Создаёт эффект Alpha floor. |
+| [CreateAlphaInverse](../../aspose.slides.effects/imagetransformoperationfactory/createalphainverse)() | Создаёт эффект Alpha inverse. |
+| [CreateAlphaModulate](../../aspose.slides.effects/imagetransformoperationfactory/createalphamodulate)() | Создаёт эффект Alpha modulate. |
+| [CreateAlphaModulateFixed](../../aspose.slides.effects/imagetransformoperationfactory/createalphamodulatefixed)(float) | Создаёт эффект Alpha modulate fixed. |
+| [CreateAlphaReplace](../../aspose.slides.effects/imagetransformoperationfactory/createalphareplace)(float) | Создаёт эффект Alpha replace. |
+| [CreateAlphCeiling](../../aspose.slides.effects/imagetransformoperationfactory/createalphceiling)() | Создаёт эффект Alpha Ceiling. |
+| [CreateBiLevel](../../aspose.slides.effects/imagetransformoperationfactory/createbilevel)(float) | Создаёт эффект BiLevel. |
+| [CreateBlur](../../aspose.slides.effects/imagetransformoperationfactory/createblur)(double, bool) | Создаёт эффект Blur. |
+| [CreateColorChange](../../aspose.slides.effects/imagetransformoperationfactory/createcolorchange)() | Создаёт эффект Color change. |
+| [CreateColorReplace](../../aspose.slides.effects/imagetransformoperationfactory/createcolorreplace)() | Создаёт эффект Color replace. |
+| [CreateDuotone](../../aspose.slides.effects/imagetransformoperationfactory/createduotone)() | Создаёт эффект Duotone. |
+| [CreateFillOverlay](../../aspose.slides.effects/imagetransformoperationfactory/createfilloverlay)() | Создаёт эффект Fill overlay. |
+| [CreateGrayScale](../../aspose.slides.effects/imagetransformoperationfactory/creategrayscale)() | Создаёт эффект Gray scale. |
+| [CreateHSL](../../aspose.slides.effects/imagetransformoperationfactory/createhsl)(float, float, float) | Создаёт эффект Hue Saturation Luminance. |
+| [CreateLuminance](../../aspose.slides.effects/imagetransformoperationfactory/createluminance)(float, float) | Создаёт эффект Luminance. |
+| [CreateTint](../../aspose.slides.effects/imagetransformoperationfactory/createtint)(float, float) | Создаёт эффект Tint. |
 
-### Примечания
+### Заметки
 
 Для совместимости с COM.
 
 ### См. также
 
 * интерфейс [IImageTransformOperationFactory](../iimagetransformoperationfactory)
-* пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
+* пространство имён [Aspose.Slides.Effects](../../aspose.slides.effects)
 * сборка [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

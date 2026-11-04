@@ -1,14 +1,14 @@
 ---
 title: IAlphaInverse
 second_title: Aspose.Sildes for .NET API リファレンス
-description: Alpha Inverse エフェクトを表します。Alpha の不透明度の値は 100 から減算することで反転します。
+description: Alpha 逆効果を表します。Alpha の不透明度の値は 100 から減算することで反転されます。
 type: docs
-weight: 3080
+weight: 3100
 url: /ja/aspose.slides.effects/ialphainverse/
 ---
 ## IAlphaInverse インターフェイス
 
-Alpha Inverse エフェクトを表します。Alpha (不透明度) の値は 100% から減算することで反転します。
+Alpha（不透明度）効果を表します。Alpha（不透明度）の値は 100% から減算することにより反転されます。
 
 ```csharp
 public interface IAlphaInverse : IAccessiblePVIObject<IAlphaInverseEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaInverse : IAccessiblePVIObject<IAlphaInverseEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphainverse/asiaccessiblepviobject) { get; } | ベースの IAccessiblePVIObject インターフェイスを取得できます。読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphainverse/asiimagetransformoperation) { get; } | ベースの IImageTransformOperation インターフェイスを取得できます。読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphainverse/asiaccessiblepviobject) { get; } | ベースの IAccessiblePVIObject インターフェイスを取得できるようにします。読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphainverse/asiimagetransformoperation) { get; } | ベースの IImageTransformOperation インターフェイスを取得できるようにします。読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation)。 |
 
 ### 参照
 

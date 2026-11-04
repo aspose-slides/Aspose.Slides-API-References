@@ -1,14 +1,14 @@
 ---
 title: IMathRightSubSuperscriptElement
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Określa obiekt Sub-Superscript, który składa się z podstawy oraz indeksu dolnego i górnego umieszczonych po prawej stronie podstawy.
+second_title: Aspose.Sildes dla .NET - odniesienie do API
+description: Określa obiekt indeksu dolnego i górnego, który składa się z podstawy oraz indeksu dolnego i górnego umieszczonych po prawej stronie podstawy.
 type: docs
-weight: 8450
+weight: 8470
 url: /pl/aspose.slides.mathtext/imathrightsubsuperscriptelement/
 ---
-## IMathRightSubSuperscriptElement interfejs
+## interfejs IMathRightSubSuperscriptElement
 
-Określa obiekt sub-superscript, który składa się z podstawy oraz indeksu dolnego i górnego umieszczonych po prawej stronie podstawy.
+Określa obiekt indeksu dolnego i górnego, który składa się z podstawy oraz indeksu dolnego i górnego umieszczonych po prawej stronie podstawy.
 
 ```csharp
 public interface IMathRightSubSuperscriptElement : IMathElement
@@ -18,15 +18,15 @@ public interface IMathRightSubSuperscriptElement : IMathElement
 
 | Nazwa | Opis |
 | --- | --- |
-| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | Określa wyrównanie indeksu dolnego/górnego. Gdy wartość jest true, indeks dolny i górny są wyrównane poziomo względem siebie. Gdy wartość jest false, są dopasowywane do kształtu podstawy. Domyślna wartość to false. |
+| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | Określa wyrównanie indeksu dolnego/górnego. Gdy wartość jest true, indeks dolny i górny są wyrównane poziomo względem siebie. Gdy wartość jest false, są dopasowywane do kształtu podstawy. Wartość domyślna to false. |
 | [AsIMathElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement) { get; } | Umożliwia pobranie interfejsu bazowego IMathElement [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/base) { get; } | Argument podstawy |
+| [Base](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/base) { get; } | Argument bazowy |
 | [Subscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript) { get; } | Argument indeksu dolnego |
 | [Superscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/superscript) { get; } | Argument indeksu górnego |
 
 ### Przykłady
 
-Przykład:
+Example:
 
 ```csharp
 [C#]

@@ -1,12 +1,12 @@
 ---
 title: Connector
-second_title: Aspose.Sildes per la documentazione API .NET
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta un connettore.
 type: docs
-weight: 2670
+weight: 2690
 url: /it/aspose.slides/connector/
 ---
-## Classe Connector
+## Connector classe
 
 Rappresenta un connettore.
 
@@ -16,64 +16,64 @@ public class Connector : GeometryShape, IConnector
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Descrizione |
 | --- | --- |
 | [Adjustments](../../aspose.slides/geometryshape/adjustments) { get; } | Restituisce una raccolta di valori di regolazione della forma. Solo lettura [`IAdjustValueCollection`](../iadjustvaluecollection). |
-| [AlternativeText](../../aspose.slides/shape/alternativetext) { get; set; } | Restituisce o imposta il testo alternativo associato a una forma. Lettura/Scrittura String. |
-| [AlternativeTextTitle](../../aspose.slides/shape/alternativetexttitle) { get; set; } | Restituisce o imposta il titolo del testo alternativo associato a una forma. Lettura/Scrittura String. |
-| [BlackWhiteMode](../../aspose.slides/shape/blackwhitemode) { get; set; } | La proprietà specifica come una forma verrà visualizzata in modalità bianco e nero. Lettura/Scrittura [`BlackWhiteMode`](../blackwhitemode). |
+| [AlternativeText](../../aspose.slides/shape/alternativetext) { get; set; } | Restituisce o imposta il testo alternativo associato a una forma. Lettura/scrittura String. |
+| [AlternativeTextTitle](../../aspose.slides/shape/alternativetexttitle) { get; set; } | Restituisce o imposta il titolo del testo alternativo associato a una forma. Lettura/scrittura String. |
+| [BlackWhiteMode](../../aspose.slides/shape/blackwhitemode) { get; set; } | La proprietà specifica come una forma verrà visualizzata in modalità bianco e nero. Lettura/scrittura [`BlackWhiteMode`](../blackwhitemode). |
 | [ConnectionSiteCount](../../aspose.slides/shape/connectionsitecount) { get; } | Restituisce il numero di punti di connessione sulla forma. Solo lettura Int32. |
 | [ConnectorLock](../../aspose.slides/connector/connectorlock) { get; } | Restituisce i blocchi del connettore. Solo lettura [`IConnectorLock`](../iconnectorlock). |
 | [CustomData](../../aspose.slides/shape/customdata) { get; } | Restituisce i dati personalizzati della forma. Solo lettura [`ICustomData`](../icustomdata). |
 | virtual [EffectFormat](../../aspose.slides/shape/effectformat) { get; } | Restituisce l'oggetto EffectFormat che contiene gli effetti pixel applicati a una forma. Nota: può restituire null per alcuni tipi di forme che non hanno proprietà di effetto. Solo lettura [`IEffectFormat`](../ieffectformat). |
-| [EndShapeConnectedTo](../../aspose.slides/connector/endshapeconnectedto) { get; set; } | Restituisce o imposta la forma a cui collegare l'estremità del connettore. Lettura/Scrittura [`IShape`](../ishape). |
-| [EndShapeConnectionSiteIndex](../../aspose.slides/connector/endshapeconnectionsiteindex) { get; set; } | Restituisce o imposta l'indice del punto di connessione per la forma finale. Lettura/Scrittura UInt32. |
+| [EndShapeConnectedTo](../../aspose.slides/connector/endshapeconnectedto) { get; set; } | Restituisce o imposta la forma a cui collegare l'estremità del connettore. Lettura/scrittura [`IShape`](../ishape). |
+| [EndShapeConnectionSiteIndex](../../aspose.slides/connector/endshapeconnectionsiteindex) { get; set; } | Restituisce o imposta l'indice del punto di connessione per la forma finale. Lettura/scrittura UInt32. |
 | virtual [FillFormat](../../aspose.slides/shape/fillformat) { get; } | Restituisce l'oggetto FillFormat che contiene le proprietà di formattazione del riempimento per una forma. Nota: può restituire null per alcuni tipi di forme che non hanno proprietà di riempimento. Solo lettura [`IFillFormat`](../ifillformat). |
-| [Frame](../../aspose.slides/shape/frame) { get; set; } | Restituisce o imposta le proprietà del riquadro della forma. Lettura/Scrittura [`IShapeFrame`](../ishapeframe). |
-| [Height](../../aspose.slides/shape/height) { get; set; } | Ottiene o imposta l'altezza della forma, misurata in punti. Lettura/Scrittura Single. |
-| [Hidden](../../aspose.slides/shape/hidden) { get; set; } | Determina se la forma è nascosta. Lettura/Scrittura Boolean. |
-| [HyperlinkClick](../../aspose.slides/shape/hyperlinkclick) { get; set; } | Restituisce o imposta il collegamento ipertestuale definito per il click del mouse. Lettura/Scrittura [`IHyperlink`](../ihyperlink). |
+| [Frame](../../aspose.slides/shape/frame) { get; set; } | Restituisce o imposta le proprietà del frame della forma. Lettura/scrittura [`IShapeFrame`](../ishapeframe). |
+| [Height](../../aspose.slides/shape/height) { get; set; } | Restituisce o imposta l'altezza della forma, misurata in punti. Lettura/scrittura Single. |
+| [Hidden](../../aspose.slides/shape/hidden) { get; set; } | Determina se la forma è nascosta. Lettura/scrittura Boolean. |
+| [HyperlinkClick](../../aspose.slides/shape/hyperlinkclick) { get; set; } | Restituisce o imposta il collegamento ipertestuale definito per il click del mouse. Lettura/scrittura [`IHyperlink`](../ihyperlink). |
 | [HyperlinkManager](../../aspose.slides/shape/hyperlinkmanager) { get; } | Restituisce il gestore dei collegamenti ipertestuali. Solo lettura [`IHyperlinkManager`](../ihyperlinkmanager). |
-| [HyperlinkMouseOver](../../aspose.slides/shape/hyperlinkmouseover) { get; set; } | Restituisce o imposta il collegamento ipertestuale definito per il passaggio del mouse. Lettura/Scrittura [`IHyperlink`](../ihyperlink). |
-| [IsDecorative](../../aspose.slides/shape/isdecorative) { get; set; } | Ottiene o imposta l'opzione 'Mark as decorative'. Lettura/Scrittura Boolean. |
+| [HyperlinkMouseOver](../../aspose.slides/shape/hyperlinkmouseover) { get; set; } | Restituisce o imposta il collegamento ipertestuale definito per il passaggio del mouse. Lettura/scrittura [`IHyperlink`](../ihyperlink). |
+| [IsDecorative](../../aspose.slides/shape/isdecorative) { get; set; } | Restituisce o imposta l'opzione 'Segna come decorativo'. Lettura/scrittura Boolean. |
 | [IsGrouped](../../aspose.slides/shape/isgrouped) { get; } | Determina se la forma è raggruppata. Solo lettura Boolean. |
 | [IsTextHolder](../../aspose.slides/shape/istextholder) { get; } | Determina se la forma è TextHolder_PPT. Solo lettura Boolean. |
 | virtual [LineFormat](../../aspose.slides/shape/lineformat) { get; } | Restituisce l'oggetto LineFormat che contiene le proprietà di formattazione della linea per una forma. Nota: può restituire null per alcuni tipi di forme che non hanno proprietà di linea. Solo lettura [`ILineFormat`](../ilineformat). |
-| [Name](../../aspose.slides/shape/name) { get; set; } | Restituisce o imposta il nome di una forma. Deve essere non nullo. Utilizzare una stringa vuota se necessario. Lettura/Scrittura String. |
-| [OfficeInteropShapeId](../../aspose.slides/shape/officeinteropshapeid) { get; } | Restituisce un identificatore univoco a livello di diapositiva che rimane costante per la durata della forma e consente a PowerPoint o al codice interop di fare riferimento alla forma in modo affidabile da qualsiasi punto del documento. Solo lettura UInt32. Vedi anche [`UniqueId`](../shape/uniqueid). |
-| [ParentGroup](../../aspose.slides/shape/parentgroup) { get; } | Restituisce l'oggetto GroupShape padre se la forma è raggruppata. Altrimenti restituisce null. Solo lettura [`IGroupShape`](../igroupshape). |
-| [Placeholder](../../aspose.slides/shape/placeholder) { get; } | Restituisce il segnaposto per una forma. Restituisce null se la forma non ha un segnaposto. Solo lettura [`IPlaceholder`](../iplaceholder). |
-| [Presentation](../../aspose.slides/shape/presentation) { get; } | Restituisce la presentazione padre di una diapositiva. Solo lettura [`IPresentation`](../ipresentation). |
-| [RawFrame](../../aspose.slides/shape/rawframe) { get; set; } | Restituisce o imposta le proprietà grezze del riquadro della forma. Lettura/Scrittura [`IShapeFrame`](../ishapeframe). |
-| [Rotation](../../aspose.slides/shape/rotation) { get; set; } | Restituisce o imposta il numero di gradi di rotazione della forma specificata attorno all'asse z. Un valore positivo indica rotazione in senso orario; un valore negativo indica rotazione in senso antiorario. Lettura/Scrittura Single. |
+| [Name](../../aspose.slides/shape/name) { get; set; } | Restituisce o imposta il nome di una forma. Deve essere non nullo. Usa una stringa vuota se necessario. Lettura/scrittura String. |
+| [OfficeInteropShapeId](../../aspose.slides/shape/officeinteropshapeid) { get; } | Restituisce un identificatore unico a livello di diapositiva che rimane costante per tutta la durata della forma e consente a PowerPoint o al codice interop di fare riferimento alla forma in modo affidabile da qualsiasi punto del documento. Solo lettura UInt32. Vedi anche [`UniqueId`](../shape/uniqueid). |
+| [ParentGroup](../../aspose.slides/shape/parentgroup) { get; } | Restituisce l'oggetto GroupShape genitore se la forma è raggruppata. Altrimenti restituisce null. Solo lettura [`IGroupShape`](../igroupshape). |
+| [Placeholder](../../aspose.slides/shape/placeholder) { get; } | Restituisce lo spazio riservato per una forma. Restituisce null se la forma non ha uno spazio riservato. Solo lettura [`IPlaceholder`](../iplaceholder). |
+| [Presentation](../../aspose.slides/shape/presentation) { get; } | Restituisce la presentazione principale di una diapositiva. Solo lettura [`IPresentation`](../ipresentation). |
+| [RawFrame](../../aspose.slides/shape/rawframe) { get; set; } | Restituisce o imposta le proprietà grezze del frame della forma. Lettura/scrittura [`IShapeFrame`](../ishapeframe). |
+| [Rotation](../../aspose.slides/shape/rotation) { get; set; } | Restituisce o imposta il numero di gradi di rotazione della forma specificata attorno all'asse z. Un valore positivo indica rotazione in senso orario; un valore negativo indica rotazione in senso antiorario. Lettura/scrittura Single. |
 | [ShapeLock](../../aspose.slides/connector/shapelock) { get; } | Restituisce i blocchi della forma. Solo lettura [`IConnectorLock`](../iconnectorlock). (2 proprietà) |
 | [ShapeStyle](../../aspose.slides/geometryshape/shapestyle) { get; } | Restituisce l'oggetto stile della forma. Solo lettura [`IShapeStyle`](../ishapestyle). |
-| override [ShapeType](../../aspose.slides/connector/shapetype) { get; set; } | Restituisce o imposta il tipo AutoShape. Lettura/Scrittura [`ShapeType`](../shapetype). |
-| [Slide](../../aspose.slides/shape/slide) { get; } | Restituisce la diapositiva padre di una forma. Solo lettura [`IBaseSlide`](../ibaseslide). |
-| [StartShapeConnectedTo](../../aspose.slides/connector/startshapeconnectedto) { get; set; } | Restituisce o imposta la forma a cui collegare l'inizio del connettore. Lettura/Scrittura [`IShape`](../ishape). |
-| [StartShapeConnectionSiteIndex](../../aspose.slides/connector/startshapeconnectionsiteindex) { get; set; } | Restituisce o imposta l'indice del punto di connessione per la forma iniziale. Lettura/Scrittura UInt32. |
-| virtual [ThreeDFormat](../../aspose.slides/shape/threedformat) { get; } | Restituisce l'oggetto ThreeDFormat che contiene le proprietà di effetto 3D per una forma. Nota: può restituire null per alcuni tipi di forme che non hanno proprietà 3D. Solo lettura [`IThreeDFormat`](../ithreedformat). |
-| [UniqueId](../../aspose.slides/shape/uniqueid) { get; } | Restituisce un identificatore interno, a livello di presentazione, destinato all'uso da parte di componenti aggiuntivi o altro codice. Poiché questo valore può essere riassegnato dall'utente o programmaticamente, non deve essere trattato come una chiave unica persistente. Solo lettura UInt32. Vedi anche [`OfficeInteropShapeId`](../shape/officeinteropshapeid). |
-| [Width](../../aspose.slides/shape/width) { get; set; } | Ottiene o imposta la larghezza della forma, misurata in punti. Lettura/Scrittura Single. |
-| [X](../../aspose.slides/shape/x) { get; set; } | Ottiene o imposta la coordinata x dell'angolo superiore sinistro della forma, misurata in punti. Lettura/Scrittura Single. |
-| [Y](../../aspose.slides/shape/y) { get; set; } | Ottiene o imposta la coordinata y dell'angolo superiore sinistro della forma, misurata in punti. Lettura/Scrittura Single. |
-| virtual [ZOrderPosition](../../aspose.slides/shape/zorderposition) { get; } | Restituisce la posizione di una forma nell'ordine z. Shapes[0] restituisce la forma più in fondo nell'ordine z, e Shapes[Shapes.Count - 1] restituisce la forma più in primo piano nell'ordine z. Solo lettura Int32. |
+| override [ShapeType](../../aspose.slides/connector/shapetype) { get; set; } | Restituisce o imposta il tipo AutoShape. Lettura/scrittura [`ShapeType`](../shapetype). |
+| [Slide](../../aspose.slides/shape/slide) { get; } | Restituisce la diapositiva genitore di una forma. Solo lettura [`IBaseSlide`](../ibaseslide). |
+| [StartShapeConnectedTo](../../aspose.slides/connector/startshapeconnectedto) { get; set; } | Restituisce o imposta la forma a cui collegare l'inizio del connettore. Lettura/scrittura [`IShape`](../ishape). |
+| [StartShapeConnectionSiteIndex](../../aspose.slides/connector/startshapeconnectionsiteindex) { get; set; } | Restituisce o imposta l'indice del punto di connessione per la forma di partenza. Lettura/scrittura UInt32. |
+| virtual [ThreeDFormat](../../aspose.slides/shape/threedformat) { get; } | Restituisce l'oggetto ThreeDFormat che contiene le proprietà dell'effetto 3D per una forma. Nota: può restituire null per alcuni tipi di forme che non hanno proprietà 3D. Solo lettura [`IThreeDFormat`](../ithreedformat). |
+| [UniqueId](../../aspose.slides/shape/uniqueid) { get; } | Restituisce un identificatore interno a livello di presentazione destinato all'uso da parte di componenti aggiuntivi o altro codice. Poiché questo valore può essere riassegnato dall'utente o programmaticamente, non deve essere considerato una chiave unica persistente. Solo lettura UInt32. Vedi anche [`OfficeInteropShapeId`](../shape/officeinteropshapeid). |
+| [Width](../../aspose.slides/shape/width) { get; set; } | Restituisce o imposta la larghezza della forma, misurata in punti. Lettura/scrittura Single. |
+| [X](../../aspose.slides/shape/x) { get; set; } | Restituisce o imposta la coordinata x dell'angolo in alto a sinistra della forma, misurata in punti. Lettura/scrittura Single. |
+| [Y](../../aspose.slides/shape/y) { get; set; } | Restituisce o imposta la coordinata y dell'angolo in alto a sinistra della forma, misurata in punti. Lettura/scrittura Single. |
+| virtual [ZOrderPosition](../../aspose.slides/shape/zorderposition) { get; } | Restituisce la posizione di una forma nell'ordine Z. Shapes[0] restituisce la forma più dietro nell'ordine Z, e Shapes[Shapes.Count - 1] restituisce la forma più in primo piano nell'ordine Z. Solo lettura Int32. |
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Descrizione |
 | --- | --- |
-| [AddPlaceholder](../../aspose.slides/shape/addplaceholder)(IPlaceholder) | Aggiunge un nuovo segnaposto se non esiste e imposta le proprietà del segnaposto su quello specificato. |
+| [AddPlaceholder](../../aspose.slides/shape/addplaceholder)(IPlaceholder) | Aggiunge un nuovo segnaposto se non esiste e imposta le proprietà del segnaposto a uno specificato. |
 | [CreateShapeElements](../../aspose.slides/geometryshape/createshapeelements)() | Crea e restituisce un array degli elementi della forma. |
-| [GetBasePlaceholder](../../aspose.slides/shape/getbaseplaceholder)() | Restituisce una forma segnaposto di base (forma dal layout e/o dalla diapositiva master da cui la forma corrente è ereditata). Viene restituito null se la forma corrente non è ereditata. |
-| [GetGeometryPaths](../../aspose.slides/geometryshape/getgeometrypaths)() | Restituisce una copia del percorso della forma geometrica. Le coordinate sono relative all'angolo superiore sinistro della forma. |
-| [GetImage](../../aspose.slides/shape/getimage)() | Restituisce la miniatura della forma. Il tipo ShapeThumbnailBounds.Shape per i limiti della miniatura della forma è usato per impostazione predefinita. |
-| [GetImage](../../aspose.slides/shape/getimage)(ShapeThumbnailBounds, float, float) | Restituisce la miniatura della forma. |
-| [GetVisualBounds](../../aspose.slides/shape/getvisualbounds)() | Ottiene i limiti visivi della forma calcolati dal suo contenuto renderizzato. |
+| [GetBasePlaceholder](../../aspose.slides/shape/getbaseplaceholder)() | Restituisce una forma segnaposto di base (forma dal layout e/o diapositiva master da cui la forma corrente è erediata). Viene restituito null se la forma corrente non è ereditata. |
+| [GetGeometryPaths](../../aspose.slides/geometryshape/getgeometrypaths)() | Restituisce una copia del percorso della forma geometrica. Le coordinate sono relative all'angolo in alto a sinistra della forma. |
+| [GetImage](../../aspose.slides/shape/getimage)() | Restituisce l'anteprima della forma. Il tipo ShapeThumbnailBounds.Shape per i limiti dell'anteprima della forma è usato per impostazione predefinita. |
+| [GetImage](../../aspose.slides/shape/getimage)(ShapeThumbnailBounds, float, float) | Restituisce l'anteprima della forma. |
+| [GetVisualBounds](../../aspose.slides/shape/getvisualbounds)() | Restituisce i limiti visivi della forma calcolati dal suo contenuto renderizzato. |
 | [RemovePlaceholder](../../aspose.slides/shape/removeplaceholder)() | Definisce che questa forma non è un segnaposto. |
-| [Reroute](../../aspose.slides/connector/reroute)() | Riorienta il connettore affinché segua il percorso più breve possibile tra le forme che collega. |
-| [SetGeometryPath](../../aspose.slides/geometryshape/setgeometrypath)(IGeometryPath) | Aggiorna la geometria della forma dall'oggetto [`IGeometryPath`](../igeometrypath). Le coordinate devono essere relative all'angolo superiore sinistro della forma. Cambia il tipo della forma ([`ShapeType`](../geometryshape/shapetype)) in Custom. |
-| [SetGeometryPaths](../../aspose.slides/geometryshape/setgeometrypaths)(IGeometryPath[]) | Aggiorna la geometria della forma da un array di [`IGeometryPath`](../igeometrypath). Le coordinate devono essere relative all'angolo superiore sinistro della forma. Cambia il tipo della forma ([`ShapeType`](../geometryshape/shapetype)) in Custom. |
+| [Reroute](../../aspose.slides/connector/reroute)() | Riroute il connettore in modo che segua il percorso più breve possibile tra le forme che collega. |
+| [SetGeometryPath](../../aspose.slides/geometryshape/setgeometrypath)(IGeometryPath) | Aggiorna la geometria della forma dall'oggetto [`IGeometryPath`](../igeometrypath). Le coordinate devono essere relative all'angolo in alto a sinistra della forma. Cambia il tipo della forma ([`ShapeType`](../geometryshape/shapetype)) in Custom. |
+| [SetGeometryPaths](../../aspose.slides/geometryshape/setgeometrypaths)(IGeometryPath[]) | Aggiorna la geometria della forma da un array di [`IGeometryPath`](../igeometrypath). Le coordinate devono essere relative all'angolo in alto a sinistra della forma. Cambia il tipo della forma ([`ShapeType`](../geometryshape/shapetype)) in Custom. |
 | [WriteAsSvg](../../aspose.slides/shape/writeassvg)(Stream) | Salva il contenuto della Forma come file SVG. |
 | [WriteAsSvg](../../aspose.slides/shape/writeassvg)(Stream, ISVGOptions) | Salva il contenuto della Forma come file SVG. |
 

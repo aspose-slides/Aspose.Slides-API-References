@@ -3,7 +3,7 @@ title: InkBrush
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar ett inkBrush-objekt.
 type: docs
-weight: 7570
+weight: 7590
 url: /sv/aspose.slides.ink/inkbrush/
 ---
 ## InkBrush klass
@@ -18,9 +18,9 @@ public class InkBrush : IInkBrush
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Color](../../aspose.slides.ink/inkbrush/color) { get; set; } | Hämtar eller anger penselfärgen för en linje. |
-| [InkEffect](../../aspose.slides.ink/inkbrush/inkeffect) { get; } | Hämtar ink-effekttypen (t.ex. Galaxy, Gold, Silver) som definierar den visuella stilen för bläckstrecket. Värdet hämtas från pensel-egenskapen "inkEffects". Om ingen erkänd effekt anges returneras NotDefined. |
-| [Size](../../aspose.slides.ink/inkbrush/size) { get; set; } | Hämtar eller anger penselstorleken för en linje i punkter. |
+| [Color](../../aspose.slides.ink/inkbrush/color) { get; set; } | Hämtar eller anger borstfärgen för en linje. |
+| [InkEffect](../../aspose.slides.ink/inkbrush/inkeffect) { get; } | Hämtar bläckeffekttypen (t.ex. Galaxy, Gold, Silver) som definierar den visuella stilen för bläckstrecket. Värdet läses från borstegenskapen "inkEffects". Om ingen igenkänd effekt anges returneras NotDefined. |
+| [Size](../../aspose.slides.ink/inkbrush/size) { get; set; } | Hämtar eller anger borststorleken för en linje i punkter. |
 
 ### Se även
 

@@ -1,12 +1,12 @@
 ---
 title: IPortion
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente une portion de texte à l'intérieur d'un paragraphe de texte.
 type: docs
-weight: 6700
+weight: 6720
 url: /fr/aspose.slides/iportion/
 ---
-## IPortion interface
+## interface IPortion
 
 Représente une portion de texte à l'intérieur d'un paragraphe de texte.
 
@@ -19,17 +19,17 @@ public interface IPortion : ISlideComponent
 | Nom | Description |
 | --- | --- |
 | [AsISlideComponent](../../aspose.slides/iportion/asislidecomponent) { get; } | Permet d'obtenir l'interface de base ISlideComponent. Lecture seule [`ISlideComponent`](../islidecomponent). |
-| [Field](../../aspose.slides/iportion/field) { get; } | Renvoie un champ de cette portion. Lecture seule [`IField`](../ifield). |
-| [PortionFormat](../../aspose.slides/iportion/portionformat) { get; } | Renvoie l'objet de formatage contenant les propriétés de formatage définies explicitement de la portion de texte sans héritage appliqué. Lecture seule [`IPortionFormat`](../iportionformat). |
+| [Field](../../aspose.slides/iportion/field) { get; } | Retourne un champ de cette portion. Lecture seule [`IField`](../ifield). |
+| [PortionFormat](../../aspose.slides/iportion/portionformat) { get; } | Retourne l'objet de mise en forme qui contient les propriétés de mise en forme explicitement définies de la portion de texte sans héritage appliqué. Lecture seule [`IPortionFormat`](../iportionformat). |
 | [Text](../../aspose.slides/iportion/text) { get; set; } | Obtient ou définit le texte brut d'une portion. Lecture/écriture String. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [AddField](../../aspose.slides/iportion/addfield#addfield)(IFieldType) | Convertit cette portion en champ automatiquement mis à jour. |
-| [AddField](../../aspose.slides/iportion/addfield#addfield_1)(string) | Convertit cette portion en champ automatiquement mis à jour. |
-| [GetCoordinates](../../aspose.slides/iportion/getcoordinates)() | Obtient les coordonnées du début de la portion. La coordonnée X du point représente le début de la portion à partir du premier caractère, y compris le débordement latéral gauche. La coordonnée Y inclut le débordement supérieur. |
+| [AddField](../../aspose.slides/iportion/addfield#addfield)(IFieldType) | Convertit cette portion en champ mis à jour automatiquement. |
+| [AddField](../../aspose.slides/iportion/addfield#addfield_1)(string) | Convertit cette portion en champ mis à jour automatiquement. |
+| [GetCoordinates](../../aspose.slides/iportion/getcoordinates)() | Obtient les coordonnées du début de la portion. La coordonnée X du point représente le début de la portion à partir du premier caractère, y compris le porte-guille gauche. La coordonnée Y comprend le porte-guille supérieur. |
 | [GetRect](../../aspose.slides/iportion/getrect)() | Obtient les coordonnées du rectangle qui encadre la portion. Le rectangle comprend toutes les lignes de texte de la portion, y compris les lignes vides. |
 | [RemoveField](../../aspose.slides/iportion/removefield)() | Convertit cette portion de champ en portion simple. |
 

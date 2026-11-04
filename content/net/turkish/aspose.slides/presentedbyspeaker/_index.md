@@ -1,12 +1,12 @@
 ---
 title: PresentedBySpeaker
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir konuşmacı tarafından tam ekran sunulur
+description: Tam ekranda bir konuşmacı tarafından sunulur
 type: docs
-weight: 9650
+weight: 9670
 url: /tr/aspose.slides/presentedbyspeaker/
 ---
-## PresentedBySpeaker sınıf
+## PresentedBySpeaker sınıfı
 
 Bir konuşmacı tarafından sunulur (tam ekran)
 
@@ -16,7 +16,7 @@ public class PresentedBySpeaker : SlideShowType
 
 ## Yapıcılar
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
 | [PresentedBySpeaker](presentedbyspeaker)() | PresentedBySpeaker sınıfının yeni bir örneğini başlatır. |
 
@@ -31,7 +31,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Bakınız
+### Ayrıca Bakınız
 
 * sınıf [SlideShowType](../slideshowtype)
 * ad alanı [Aspose.Slides](../../aspose.slides)

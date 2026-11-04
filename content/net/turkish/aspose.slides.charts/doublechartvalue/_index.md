@@ -1,14 +1,14 @@
 ---
 title: DoubleChartValue
-second_title: Aspose.Sildes için .NET API Referansı
-description: "pptx sunum belgesinde iki şekilde depolanabilen çift değeri temsil eder: 1) grafiğe ilişkili çalışma kitabının hücre/hücrelerinde, 2) literal değer olarak."
+second_title: Aspose.Sildes .NET için API Referansı
+description: pptx sunum belgesinde iki şekilde depolanabilen double değeri temsil eder: 1) grafikle ilişkili çalışma kitabının hücre/hücrelerinde, 2) literal değer olarak.
 type: docs
-weight: 1630
+weight: 1640
 url: /tr/aspose.slides.charts/doublechartvalue/
 ---
-## DoubleChartValue sınıfı
+## DoubleChartValue sınıf
 
-pptx sunum belgesinde iki şekilde depolanabilen çift değerini temsil eder: 1) grafiğe ilişkili çalışma kitabının hücre/hücrelerinde; 2) literal değer olarak.
+Double değerini temsil eder ve pptx sunum belgesinde iki şekilde depolanabilir: 1) grafiğe bağlı çalışma kitabının hücre/hücrelerinde; 2) literal değer olarak.
 
 ```csharp
 public class DoubleChartValue : BaseChartValue, IDoubleChartValue
@@ -18,18 +18,18 @@ public class DoubleChartValue : BaseChartValue, IDoubleChartValue
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/doublechartvalue/ascell) { get; set; } | Grafik veri hücresini alır veya ayarlar. Okuma/yazma [`IChartDataCell`](../ichartdatacell). |
-| [AsLiteralDouble](../../aspose.slides.charts/doublechartvalue/asliteraldouble) { get; set; } | Değeri literal çift olarak alır veya ayarlar. Okuma/yazma Double. |
-| override [Data](../../aspose.slides.charts/doublechartvalue/data) { get; set; } | Data nesnesini alır veya ayarlar. Okuma/yazma Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | AsCell, AsCells, AsLiteralString veya AsLiteralDouble özelliğinin descendant'larda geçerli olup olmadığını belirtir. Başka bir deyişle, Data özelliğinin değer türünü belirtir. Okuma/yazma [`DataSourceType`](../datasourcetype). |
+| [AsCell](../../aspose.slides.charts/doublechartvalue/ascell) { get; set; } | Chart veri hücresini döndürür veya ayarlar. Okunur/yazılabilir [`IChartDataCell`](../ichartdatacell). |
+| [AsLiteralDouble](../../aspose.slides.charts/doublechartvalue/asliteraldouble) { get; set; } | Değeri literal double olarak döndürür veya ayarlar. Okunur/yazılabilir Double. |
+| override [Data](../../aspose.slides.charts/doublechartvalue/data) { get; set; } | Data nesnesini döndürür veya ayarlar. Okunur/yazılabilir Object. |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Descendant sınıflarda AsCell, AsCells, AsLiteralString veya AsLiteralDouble özelliğinin geçerli olup olmadığını belirtir. Başka bir deyişle Data özelliğinin değer tipini belirtir. Okunur/yazılabilir [`DataSourceType`](../datasourcetype). |
 
-## Yöntemler
+## Metodlar
 
 | Ad | Açıklama |
 | --- | --- |
 | [ToDouble](../../aspose.slides.charts/doublechartvalue/todouble)() | Double'a dönüştürür. |
 
-### Ayrıca Bakınız
+### Bakınız
 
 * sınıf [BaseChartValue](../basechartvalue)
 * arayüz [IDoubleChartValue](../idoublechartvalue)

@@ -3,7 +3,7 @@ title: ILayoutable
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Especifica la posición exacta de un elemento de gráfico.
 type: docs
-weight: 2120
+weight: 2140
 url: /es/aspose.slides.charts/ilayoutable/
 ---
 ## ILayoutable interfaz
@@ -21,7 +21,7 @@ public interface ILayoutable : IChartComponent
 | [AsIChartComponent](../../aspose.slides.charts/ilayoutable/asichartcomponent) { get; } | Permite obtener la interfaz base IChartComponent. Solo lectura [`IChartComponent`](../ichartcomponent). |
 | [Bottom](../../aspose.slides.charts/ilayoutable/bottom) { get; } | Obtiene la parte superior del elemento de gráfico como una fracción de la altura del gráfico. Solo lectura Single. |
 | [Height](../../aspose.slides.charts/ilayoutable/height) { get; set; } | Especifica la altura del elemento de gráfico como una fracción de la altura del gráfico. Lectura/escritura Single. |
-| [Right](../../aspose.slides.charts/ilayoutable/right) { get; } | Obtiene el lado derecho del elemento de gráfico como una fracción del ancho del gráfico. Solo lectura Single. |
+| [Right](../../aspose.slides.charts/ilayoutable/right) { get; } | Obtiene la parte derecha del elemento de gráfico como una fracción del ancho del gráfico. Solo lectura Single. |
 | [Width](../../aspose.slides.charts/ilayoutable/width) { get; set; } | Especifica el ancho del elemento de gráfico como una fracción del ancho del gráfico. Lectura/escritura Single. |
 | [X](../../aspose.slides.charts/ilayoutable/x) { get; set; } | Especifica la ubicación x (izquierda) del elemento de gráfico como una fracción del ancho del gráfico. Lectura/escritura Single. |
 | [Y](../../aspose.slides.charts/ilayoutable/y) { get; set; } | Especifica la parte superior del elemento de gráfico como una fracción de la altura del gráfico. Lectura/escritura Single. |

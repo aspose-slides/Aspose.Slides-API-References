@@ -1,18 +1,22 @@
 ---
 title: GapWidth
 second_title: Aspose.Sildes för .NET API-referens
-description: Anger avståndet mellan stapel- eller kolumnkluster som en procentandel av stapel- eller kolumnbredden. Läs/skriv UInt16.
+description: Hämtar eller anger avståndet mellan stapel- eller kolumnkluster som en procentsats av stapel- eller kolumnbredden. Värdet måste vara mellan 0 och 500. Läs/skriv UInt16.
 type: docs
 weight: 70
 url: /sv/aspose.slides.charts/ichartseriesgroup/gapwidth/
 ---
 ## IChartSeriesGroup.GapWidth egenskap
 
-Anger avståndet mellan stapel- eller kolumnkluster, som en procentandel av stapel- eller kolumnbredden. Läs/skriv UInt16.
+Hämtar eller anger avståndet mellan stapel- eller kolumnkluster, som en procentsats av stapel- eller kolumnbredden. Värdet måste vara mellan 0 och 500. Läs/skriv UInt16.
 
 ```csharp
 public ushort GapWidth { get; set; }
 ```
+
+### Anmärkningar
+
+Denna egenskap gäller för serier av följande typer: Alla stapel- och kolumnundertyper, BarOfPie, PieOfPie, BoxAndWhisker, Funnel, Histogram, Waterfall.
 
 ### Se också
 

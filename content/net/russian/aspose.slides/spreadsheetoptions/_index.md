@@ -1,9 +1,9 @@
 ---
 title: SpreadsheetOptions
 second_title: Aspose.Sildes для .NET справочник API
-description: Представляет параметры, которые могут быть использованы для указания дополнительного поведения электронных таблиц.
+description: Представляет параметры, которые могут использоваться для указания дополнительного поведения электронных таблиц.
 type: docs
-weight: 10740
+weight: 10760
 url: /ru/aspose.slides/spreadsheetoptions/
 ---
 ## SpreadsheetOptions класс
@@ -24,8 +24,8 @@ public class SpreadsheetOptions : ISpreadsheetOptions
 
 | Имя | Описание |
 | --- | --- |
-| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | Получает или задает предпочтительные сведения о культуре для вычисления некоторых функций, предназначенных для использования с языками, использующими набор символов двойного байта (DBCS). |
-| [RecoverWorkbookFromChartCache](../../aspose.slides/spreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Если источник данных для диаграммы является внешней книгой и недоступен, он будет восстановлен из кэша диаграммы. |
+| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | Получает или задает предпочтительную информацию о культуре для вычисления некоторых функций, предназначенных для использования с языками, использующими набор двойных байтов (DBCS). |
+| [RecoverWorkbookFromChartCache](../../aspose.slides/spreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Если источник данных для диаграммы является внешней рабочей книгой и недоступен, он будет восстановлен из кэша диаграммы. |
 
 ### См. также
 

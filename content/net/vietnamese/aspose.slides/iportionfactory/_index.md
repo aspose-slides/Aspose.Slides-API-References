@@ -3,7 +3,7 @@ title: IPortionFactory
 second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Cho phép tạo các phần kiểm tra
 type: docs
-weight: 6720
+weight: 6740
 url: /vi/aspose.slides/iportionfactory/
 ---
 ## IPortionFactory giao diện
@@ -16,10 +16,10 @@ public interface IPortionFactory
 
 ## Phương thức
 
-| Tên | Mô tả |
+| Name | Mô tả |
 | --- | --- |
 | [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion)() | Tạo một phần văn bản trống. |
-| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_1)(IPortion) | Tạo một phần sử dụng dữ liệu phần đã chỉ định. |
+| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_1)(IPortion) | Tạo một phần bằng cách sử dụng dữ liệu phần được chỉ định. |
 | [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_2)(string) | Tạo một phần văn bản từ chuỗi được chỉ định. |
 
 ### Ghi chú

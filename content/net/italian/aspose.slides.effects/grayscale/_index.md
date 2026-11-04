@@ -1,14 +1,14 @@
 ---
 title: GrayScale
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta un effetto Gray Scale. Converte tutti i valori di colore dell'effetto in una tonalità di grigio corrispondente alla loro luminanza. I valori alfa di opacità dell'effetto non sono influenzati.
+description: Rappresenta un effetto Gray Scale. Converte tutti i valori di colore dell'effetto in una tonalità di grigio corrispondente alla loro luminanza. I valori di opacità alpha dell'effetto non sono influenzati.
 type: docs
-weight: 3000
+weight: 3020
 url: /it/aspose.slides.effects/grayscale/
 ---
-## GrayScale classe
+## GrayScale class
 
-Rappresenta un effetto Gray Scale. Converte tutti i valori di colore dell'effetto in una tonalità di grigio, corrispondente alla loro luminanza. I valori alfa (opacità) dell'effetto non vengono modificati.
+Rappresenta un effetto Gray Scale. Converte tutti i valori di colore dell'effetto in una tonalità di grigio, corrispondente alla loro luminanza. I valori alpha (opacità) dell'effetto rimangono invariati.
 
 ```csharp
 public sealed class GrayScale : ImageTransformOperation, IGrayScale
@@ -18,15 +18,15 @@ public sealed class GrayScale : ImageTransformOperation, IGrayScale
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia base IPresentationComponent. Solo lettura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia base IPresentationComponent. Sola lettura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/grayscale/equals)(object) | Determina se il [`GrayScale`](../grayscale) specificato è uguale al corrente [`GrayScale`](../grayscale). |
+| override [Equals](../../aspose.slides.effects/grayscale/equals)(object) | Determina se il [`GrayScale`](../grayscale) specificato è uguale al [`GrayScale`](../grayscale) corrente. |
 | [GetEffective](../../aspose.slides.effects/grayscale/geteffective)() | Ottiene i dati dell'effetto Gray Scale effettivo con l'ereditarietà applicata. |
-| override [GetHashCode](../../aspose.slides.effects/grayscale/gethashcode)() | Funziona come funzione hash per un tipo particolare. |
+| override [GetHashCode](../../aspose.slides.effects/grayscale/gethashcode)() | Funge da funzione hash per un tipo particolare. |
 
 ### Vedi anche
 

@@ -1,9 +1,9 @@
 ---
 title: ILayoutSlide
-second_title: Aspose.Sildes для .NET справочник API
-description: Представляет макетный слайд.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет макет слайда.
 type: docs
-weight: 6220
+weight: 6240
 url: /ru/aspose.slides/ilayoutslide/
 ---
 ## ILayoutSlide интерфейс
@@ -16,11 +16,11 @@ public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
 
 ## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | [AsIBaseSlide](../../aspose.slides/ilayoutslide/asibaseslide) { get; } | Позволяет получить базовый интерфейс IBaseSlide. Только для чтения [`IBaseSlide`](../ibaseslide). |
 | [AsIOverrideThemeable](../../aspose.slides/ilayoutslide/asioverridethemeable) { get; } | Возвращает интерфейс IOverrideThemeable. Только для чтения [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [DrawingGuides](../../aspose.slides/ilayoutslide/drawingguides) { get; } | Возвращает коллекцию направляющих рисования для макетного слайда. Только для чтения [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [DrawingGuides](../../aspose.slides/ilayoutslide/drawingguides) { get; } | Возвращает коллекцию руководств по рисованию для макетного слайда. Только для чтения [`IDrawingGuidesCollection`](../idrawingguidescollection) |
 | [HasDependingSlides](../../aspose.slides/ilayoutslide/hasdependingslides) { get; } | Возвращает true, если существует хотя бы один слайд, зависящий от этого макетного слайда. Только для чтения Boolean. |
 | [HeaderFooterManager](../../aspose.slides/ilayoutslide/headerfootermanager) { get; } | Возвращает менеджер HeaderFooter макетного слайда. Только для чтения [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager). |
 | [LayoutType](../../aspose.slides/ilayoutslide/layouttype) { get; } | Возвращает тип макета этого макетного слайда. Только для чтения [`SlideLayoutType`](../slidelayouttype). |
@@ -29,12 +29,12 @@ public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
 
 ## Методы
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [GetDependingSlides](../../aspose.slides/ilayoutslide/getdependingslides)() | Возвращает массив со всеми слайдами, которые зависят от этого макетного слайда. |
+| [GetDependingSlides](../../aspose.slides/ilayoutslide/getdependingslides)() | Возвращает массив со всеми слайдами, зависящими от этого макетного слайда. |
 | [Remove](../../aspose.slides/ilayoutslide/remove)() | Удаляет макет из презентации. |
 
-### См. также
+### Смотрите также
 
 * интерфейс [IBaseSlide](../ibaseslide)
 * интерфейс [IOverrideThemeable](../../aspose.slides.theme/ioverridethemeable)

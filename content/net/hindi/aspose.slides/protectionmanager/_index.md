@@ -1,14 +1,14 @@
 ---
 title: ProtectionManager
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: प्रेज़ेंटेशन पासवर्ड सुरक्षा प्रबंधन।
+description: प्रेजेंटेशन पासवर्ड सुरक्षा प्रबंधन।
 type: docs
-weight: 9680
+weight: 9700
 url: /hi/aspose.slides/protectionmanager/
 ---
 ## ProtectionManager क्लास
 
-प्रेज़ेंटेशन पासवर्ड सुरक्षा प्रबंधन।
+Presentation पासवर्ड सुरक्षा प्रबंधन।
 
 ```csharp
 public sealed class ProtectionManager : IProtectionManager
@@ -16,24 +16,24 @@ public sealed class ProtectionManager : IProtectionManager
 
 ## गुण
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [EncryptDocumentProperties](../../aspose.slides/protectionmanager/encryptdocumentproperties) { get; set; } | यह प्रॉपर्टी तभी अर्थपूर्ण है जब प्रेज़ेंटेशन पासवर्ड से संरक्षित हो। यदि सत्य है तो दस्तावेज़ गुण प्रेज़ेंटेशन फ़ाइल में एन्क्रिप्टेड होते हैं। यदि असत्य है तो दस्तावेज़ गुण सार्वजनिक होते हैं जबकि प्रेज़ेंटेशन एन्क्रिप्टेड होता है। पढ़ने/लिखने योग्य Boolean. |
-| [EncryptionPassword](../../aspose.slides/protectionmanager/encryptionpassword) { get; } | प्रेज़ेंटेशन एन्क्रिप्शन के लिए उपयोग किया जाने वाला पासवर्ड प्राप्त करता है। केवल-पढ़ने योग्य String. |
-| [IsEncrypted](../../aspose.slides/protectionmanager/isencrypted) { get; } | यह दर्शाने वाला मान प्राप्त करता है कि यह इंस्टेंस एन्क्रिप्टेड है या नहीं। केवल-पढ़ने योग्य Boolean. |
-| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/protectionmanager/isonlydocumentpropertiesloaded) { get; } | यह प्रॉपर्टी तभी अर्थपूर्ण है जब प्रेज़ेंटेशन फ़ाइल पासवर्ड से संरक्षित हो और इस फ़ाइल के दस्तावेज़ गुण सार्वजनिक हों। सत्य मान का अर्थ है कि केवल दस्तावेज़ गुण एन्क्रिप्टेड प्रेज़ेंटेशन फ़ाइल से पासवर्ड के बिना लोड होते हैं। असत्य मान का अर्थ है कि सही पासवर्ड के प्रयोग से संपूर्ण एन्क्रिप्टेड प्रेज़ेंटेशन लोड होता है, न कि केवल दस्तावेज़ गुण लोड होते हैं। यदि प्रेज़ेंटेशन एन्क्रिप्टेड नहीं है तो प्रॉपर्टी मान हमेशा असत्य रहता है। यदि एन्क्रिप्टेड फ़ाइल के दस्तावेज़ गुण सार्वजनिक नहीं हैं तो प्रॉपर्टी मान हमेशा असत्य रहता है। यदि Presentation.EncryptDocumentProperties सत्य है तो IsOnlyDocumentPropertiesLoaded प्रॉपर्टी मान हमेशा असत्य रहता है। केवल-पढ़ने योग्य Boolean. |
-| [IsWriteProtected](../../aspose.slides/protectionmanager/iswriteprotected) { get; } | यह दर्शाने वाला मान प्राप्त करता है कि यह प्रेज़ेंटेशन लेखन-रक्षित है या नहीं। केवल-पढ़ने योग्य Boolean. |
-| [ReadOnlyRecommended](../../aspose.slides/protectionmanager/readonlyrecommended) { get; set; } | केवल-पढ़ने योग्य अनुशंसा प्राप्त करता है या सेट करता है। पढ़ने/लिखने योग्य Boolean. |
+| [EncryptDocumentProperties](../../aspose.slides/protectionmanager/encryptdocumentproperties) { get; set; } | यह प्रॉपर्टी तभी अर्थपूर्ण है जब प्रस्तुति पासवर्ड-सुरक्षित हो। यदि true है तो दस्तावेज़ प्रॉपर्टी प्रस्तुति फ़ाइल में एन्क्रिप्ट हो जाता है। यदि false है तो दस्तावेज़ प्रॉपर्टी सार्वजनिक रहती है जबकि प्रस्तुति एन्क्रिप्टेड है। पढ़ने/लिखने वाला Boolean। |
+| [EncryptionPassword](../../aspose.slides/protectionmanager/encryptionpassword) { get; } | प्रेजेंटेशन एन्क्रिप्शन के लिए उपयोग किए जाने वाले पासवर्ड को प्राप्त करता है। पढ़ने-केवल String। |
+| [IsEncrypted](../../aspose.slides/protectionmanager/isencrypted) { get; } | यह संकेत करने वाला मान प्राप्त करता है कि यह इंस्टेंस एन्क्रिप्टेड है या नहीं। पढ़ने-केवल Boolean। |
+| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/protectionmanager/isonlydocumentpropertiesloaded) { get; } | यह प्रॉपर्टी तभी अर्थपूर्ण है जब प्रस्तुति फ़ाइल पासवर्ड-सुरक्षित हो और इस फ़ाइल की दस्तावेज़ प्रॉपर्टी सार्वजनिक हों। true मान का अर्थ है कि केवल दस्तावेज़ प्रॉपर्टी एन्क्रिप्टेड प्रस्तुति फ़ाइल से बिना पासवर्ड के लोड होती हैं। false मान का अर्थ है कि सही पासवर्ड का उपयोग करके पूरी एन्क्रिप्टेड प्रस्तुति लोड होती है, केवल दस्तावेज़ प्रॉपर्टी नहीं। यदि प्रस्तुति एन्क्रिप्टेड नहीं है तो प्रॉपर्टी मान हमेशा false रहता है। यदि एन्क्रिप्टेड फ़ाइल की दस्तावेज़ प्रॉपर्टी सार्वजनिक नहीं हैं तो प्रॉपर्टी मान हमेशा false रहता है। यदि Presentation.EncryptDocumentProperties true है तो IsOnlyDocumentPropertiesLoaded प्रॉपर्टी मान हमेशा false रहता है। पढ़ने-केवल Boolean। |
+| [IsWriteProtected](../../aspose.slides/protectionmanager/iswriteprotected) { get; } | यह संकेत करने वाला मान प्राप्त करता है कि यह प्रस्तुति लिखने से सुरक्षित है या नहीं। पढ़ने-केवल Boolean। |
+| [ReadOnlyRecommended](../../aspose.slides/protectionmanager/readonlyrecommended) { get; set; } | पढ़ने-केवल सिफ़ारिश को प्राप्त करता है या सेट करता है। पढ़ने/लिखने वाला Boolean। |
 
-## विधियाँ
+## विधियां
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [CheckWriteProtection](../../aspose.slides/protectionmanager/checkwriteprotection)(string) | निर्धारित करता है कि क्या प्रेज़ेंटेशन संशोधन हेतु पासवर्ड से संरक्षित है। |
-| [Encrypt](../../aspose.slides/protectionmanager/encrypt)(string) | निर्दिष्ट पासवर्ड से प्रेज़ेंटेशन को एन्क्रिप्ट करता है। |
-| [RemoveEncryption](../../aspose.slides/protectionmanager/removeencryption)() | एन्क्रिप्शन हटाता है। |
-| [RemoveWriteProtection](../../aspose.slides/protectionmanager/removewriteprotection)() | इस प्रेज़ेंटेशन की लेखन-रक्षा हटाता है। |
-| [SetWriteProtection](../../aspose.slides/protectionmanager/setwriteprotection)(string) | निर्दिष्ट पासवर्ड के साथ इस प्रेज़ेंटेशन के लिए लेखन-रक्षा सेट करता है। |
+| [CheckWriteProtection](../../aspose.slides/protectionmanager/checkwriteprotection)(string) | निर्धारित करता है कि कोई प्रस्तुति संशोधन के लिए पासवर्ड-सुरक्षित है या नहीं। |
+| [Encrypt](../../aspose.slides/protectionmanager/encrypt)(string) | निर्दिष्ट पासवर्ड के साथ Presentation को एन्क्रिप्ट करता है। |
+| [RemoveEncryption](../../aspose.slides/protectionmanager/removeencryption)() | एन्क्रिप्शन को हटाता है। |
+| [RemoveWriteProtection](../../aspose.slides/protectionmanager/removewriteprotection)() | इस प्रस्तुति के लिए लिखने की सुरक्षा हटाता है। |
+| [SetWriteProtection](../../aspose.slides/protectionmanager/setwriteprotection)(string) | निर्दिष्ट पासवर्ड के साथ इस प्रस्तुति के लिए लिखने की सुरक्षा सेट करता है। |
 
 ### संबंधित देखें
 

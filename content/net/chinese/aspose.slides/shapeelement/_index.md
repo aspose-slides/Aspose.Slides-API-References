@@ -1,14 +1,14 @@
 ---
 title: ShapeElement
-second_title: Aspose.Sildes .NET API 参考
-description: 表示形状的一个部分，具有相同的轮廓和填充属性。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示具有相同轮廓和填充属性的形状的一部分。
 type: docs
-weight: 9870
+weight: 9890
 url: /zh/aspose.slides/shapeelement/
 ---
 ## ShapeElement 类
 
-表示形状的一个部分，具有相同的轮廓和填充属性。
+表示具有相同轮廓和填充属性的形状的一部分。
 
 ```csharp
 public class ShapeElement : IShapeElement
@@ -24,7 +24,7 @@ public class ShapeElement : IShapeElement
 | [PathTypes](../../aspose.slides/shapeelement/pathtypes) { get; } | 获取指定元素路径中每个点类型的字节值数组。 |
 | [StrokeSource](../../aspose.slides/shapeelement/strokesource) { get; } | 返回有关如何描边元素的信息。只读 [`ShapeElementStrokeSource`](../shapeelementstrokesource)。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IShapeElement](../ishapeelement)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

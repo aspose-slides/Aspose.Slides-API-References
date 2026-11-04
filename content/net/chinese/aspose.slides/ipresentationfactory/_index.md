@@ -3,7 +3,7 @@ title: IPresentationFactory
 second_title: Aspose.Sildes for .NET API 参考
 description: 允许通过 COM 接口创建演示文稿
 type: docs
-weight: 6770
+weight: 6790
 url: /zh/aspose.slides/ipresentationfactory/
 ---
 ## IPresentationFactory 接口
@@ -19,18 +19,18 @@ public interface IPresentationFactory
 | 名称 | 描述 |
 | --- | --- |
 | [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation)() | 创建新的演示文稿。 |
-| [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | 创建新的演示文稿并使用附加的加载选项 |
-| [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | 获取指定流中演示文稿的信息。 |
-| [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | 获取指定文件中演示文稿的信息。 |
-| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | 检索幻灯片中的原始文本 |
-| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | 检索幻灯片中的原始文本 |
-| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | 检索幻灯片中的原始文本 |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation)(byte[]) | 从数组读取现有演示文稿 |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_2)(Stream) | 从流读取现有演示文稿 |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_4)(string) | 从文件读取现有演示文稿 |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | 从数组读取现有演示文稿并使用附加的加载选项 |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | 从流读取现有演示文稿并使用附加的加载选项 |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | 从流读取现有演示文稿并使用附加的加载选项 |
+| [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | 创建新的演示文稿，使用附加的加载选项。 |
+| [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | 获取在指定流中的演示文稿信息。 |
+| [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | 获取在指定文件中的演示文稿信息。 |
+| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | 检索幻灯片的原始文本。 |
+| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | 检索幻灯片的原始文本。 |
+| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | 检索幻灯片的原始文本。 |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation)(byte[]) | 从数组读取现有演示文稿。 |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_2)(Stream) | 从流读取现有演示文稿。 |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_4)(string) | 从文件读取现有演示文稿。 |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | 从数组读取现有演示文稿，使用附加的加载选项。 |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | 从流读取现有演示文稿，使用附加的加载选项。 |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | 从流读取现有演示文稿，使用附加的加载选项。 |
 
 ### 另见
 

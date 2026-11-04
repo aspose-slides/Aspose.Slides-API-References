@@ -1,12 +1,12 @@
 ---
 title: VbaProjectFactory
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Memungkinkan membuat proyek VBA melalui antarmuka COM
 type: docs
-weight: 11660
+weight: 11680
 url: /id/aspose.slides.vba/vbaprojectfactory/
 ---
-## Kelas VbaProjectFactory
+## VbaProjectFactory kelas
 
 Memungkinkan membuat proyek VBA melalui antarmuka COM
 
@@ -24,7 +24,7 @@ public class VbaProjectFactory : IVbaProjectFactory
 
 | Nama | Deskripsi |
 | --- | --- |
-| static [Instance](../../aspose.slides.vba/vbaprojectfactory/instance) { get; } | Instansi statik pabrik proyek VBA. Hanya-baca [`VbaProjectFactory`](../vbaprojectfactory). |
+| static [Instance](../../aspose.slides.vba/vbaprojectfactory/instance) { get; } | Instansi statis pabrik proyek VBA. Hanya-baca [`VbaProjectFactory`](../vbaprojectfactory). |
 
 ## Metode
 

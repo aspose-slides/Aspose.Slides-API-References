@@ -1,9 +1,9 @@
 ---
 title: MathTopBotPositions
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência de API
 description: Enumeração de posições superior/inferior
 type: docs
-weight: 9040
+weight: 9060
 url: /pt/aspose.slides.mathtext/mathtopbotpositions/
 ---
 ## MathTopBotPositions enumeração
@@ -22,7 +22,7 @@ public enum MathTopBotPositions
 | Top | `1` | Superior |
 | Bottom | `2` | Inferior |
 
-### Veja Também
+### Veja também
 
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * assembly [Aspose.Slides](../../)

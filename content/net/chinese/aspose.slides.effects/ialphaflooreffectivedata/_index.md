@@ -1,26 +1,25 @@
 ---
 title: IAlphaFloorEffectiveData
-second_title: Aspose.Sildes 的 .NET API 参考
-description: 不可变对象，表示 Alpha Floor 效果。Alpha 不透明度值小于 100 时会被更改为零。换句话说，任何部分透明的内容都会变为完全透明。
+second_title: Aspose.Sildes for .NET API 参考
+description: 不可变对象，表示 Alpha Floor 效果。Alpha 不透明度值小于 100 时被更改为零。换句话说，任何部分透明的内容都会变为完全透明。
 type: docs
-weight: 3070
+weight: 3090
 url: /zh/aspose.slides.effects/ialphaflooreffectivedata/
 ---
 ## IAlphaFloorEffectiveData 接口
 
-不可变对象，表示 Alpha Floor 效果。Alpha（不透明度）值低于 100% 时会被更改为零。换句话说，任何部分透明的内容都会变为完全透明。
+不可变对象，表示 Alpha（不透明度） 效果。Alpha（不透明度）值小于 100% 时会被更改为零。换句话说，任何部分透明的内容都会变为完全透明。
 
 ```csharp
 public interface IAlphaFloorEffectiveData : IEffectEffectiveData
 ```
-
 ## 属性
 
 | 名称 | 描述 |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaflooreffectivedata/asieffecteffectivedata) { get; } | 允许获取基 IEffectEffectiveData 接口。只读 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
 
-### 另请参见
+### 另见
 
 * 接口 [IEffectEffectiveData](../ieffecteffectivedata)
 * 命名空间 [Aspose.Slides.Effects](../../aspose.slides.effects)

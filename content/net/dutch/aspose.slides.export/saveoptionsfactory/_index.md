@@ -1,14 +1,14 @@
 ---
 title: SaveOptionsFactory
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Staat toe save-opties instanties te maken
+description: Staat toe om instanties van opslaopties te maken
 type: docs
-weight: 4460
+weight: 4480
 url: /nl/aspose.slides.export/saveoptionsfactory/
 ---
 ## SaveOptionsFactory klasse
 
-Staat toe instanties van save-opties te maken
+Staat toe om instanties van opslaopties te maken
 
 ```csharp
 public class SaveOptionsFactory : ISaveOptionsFactory
@@ -16,21 +16,21 @@ public class SaveOptionsFactory : ISaveOptionsFactory
 
 ## Constructors
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
 | [SaveOptionsFactory](saveoptionsfactory)() | De standaardconstructor. |
 
-## Methods
+## Methoden
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [CreatePptxOptions](../../aspose.slides.export/saveoptionsfactory/createpptxoptions)() | Maakt PPTX-save-opties. |
+| [CreatePptxOptions](../../aspose.slides.export/saveoptionsfactory/createpptxoptions)() | Maakt PPTX-opslaopties. |
 
-### Remarks
+### Opmerkingen
 
 Voor COM-compatibiliteit.
 
-### See Also
+### Zie ook
 
 * interface [ISaveOptionsFactory](../isaveoptionsfactory)
 * naamruimte [Aspose.Slides.Export](../../aspose.slides.export)

@@ -1,14 +1,14 @@
 ---
 title: LineArrowheadWidth
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu thị độ rộng của mũi tên.
+description: Biểu thị độ rộng của đầu mũi tên.
 type: docs
-weight: 7750
+weight: 7770
 url: /vi/aspose.slides/linearrowheadwidth/
 ---
 ## LineArrowheadWidth liệt kê
 
-Biểu thị độ rộng của mũi tên.
+Biểu thị độ rộng của đầu mũi tên.
 
 ```csharp
 public enum LineArrowheadWidth : sbyte

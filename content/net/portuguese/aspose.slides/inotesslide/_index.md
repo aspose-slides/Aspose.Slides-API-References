@@ -1,9 +1,9 @@
 ---
 title: INotesSlide
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa um slide de notas em uma apresentação.
 type: docs
-weight: 6500
+weight: 6520
 url: /pt/aspose.slides/inotesslide/
 ---
 ## INotesSlide interface
@@ -22,9 +22,9 @@ public interface INotesSlide : IBaseSlide, IOverrideThemeable
 | [AsIOverrideThemeable](../../aspose.slides/inotesslide/asioverridethemeable) { get; } | Retorna a interface IOverrideThemeable. Somente leitura [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
 | [HeaderFooterManager](../../aspose.slides/inotesslide/headerfootermanager) { get; } | Retorna o gerenciador HeaderFooter do slide de notas. Somente leitura [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
 | [NotesTextFrame](../../aspose.slides/inotesslide/notestextframe) { get; } | Retorna um TextFrame com o texto das notas, se houver. Somente leitura [`ITextFrame`](../itextframe). |
-| [ParentSlide](../../aspose.slides/inotesslide/parentslide) { get; } | Retorna um ParentSlide. Somente leitura [`ISlide`](../islide). |
+| [ParentSlide](../../aspose.slides/inotesslide/parentslide) { get; } | Retorna um ParentSlide Somente leitura [`ISlide`](../islide). |
 
-### Ver também
+### Veja Também
 
 * interface [IBaseSlide](../ibaseslide)
 * interface [IOverrideThemeable](../../aspose.slides.theme/ioverridethemeable)

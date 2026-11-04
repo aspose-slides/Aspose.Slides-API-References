@@ -1,18 +1,22 @@
 ---
 title: GapWidth
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
-description: ระบุช่องว่างระหว่างกลุ่มแท่งหรือคอลัมน์เป็นเปอร์เซ็นต์ของความกว้างของแท่งหรือคอลัมน์. อ่าน/เขียน UInt16.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: รับหรือกำหนดช่องว่างระหว่างกลุ่มบาร์หรือคอลัมน์เป็นเปอร์เซ็นต์ของความกว้างของบาร์หรือคอลัมน์ ค่าต้องอยู่ระหว่าง 0 ถึง 500 อ่าน/เขียน UInt16.
 type: docs
 weight: 70
 url: /th/aspose.slides.charts/chartseriesgroup/gapwidth/
 ---
 ## ChartSeriesGroup.GapWidth คุณสมบัติ
 
-ระบุช่องว่างระหว่างกลุ่มแท่งหรือคอลัมน์เป็นเปอร์เซ็นต์ของความกว้างของแท่งหรือคอลัมน์. อ่าน/เขียน UInt16.
+รับหรือกำหนดช่องว่างระหว่างกลุ่มบาร์หรือคอลัมน์เป็นเปอร์เซ็นต์ของความกว้างของบาร์หรือคอลัมน์ ค่าต้องอยู่ระหว่าง 0 ถึง 500 อ่าน/เขียน UInt16.
 
 ```csharp
 public ushort GapWidth { get; set; }
 ```
+
+### หมายเหตุ
+
+คุณสมบัตินี้ใช้กับชุดข้อมูลของประเภทต่อไปนี้: Bar ชนิดย่อย (ดูเพิ่มเติม [`IsChartTypeBar`](../../charttypecharacterizer/ischarttypebar) เมธอด), Column ชนิดย่อย (ดูเพิ่มเติม [`IsChartTypeColumn`](../../charttypecharacterizer/ischarttypecolumn) เมธอด), BarOfPie, PieOfPie, BoxAndWhisker, Funnel, Histogram, Waterfall.
 
 ### ดูเพิ่มเติม
 

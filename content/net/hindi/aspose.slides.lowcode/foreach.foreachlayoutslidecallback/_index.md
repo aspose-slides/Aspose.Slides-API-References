@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachLayoutSlideCallback
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: Callback जो प्रत्येक LayoutSlide./foreach/layoutslide के लिए Presentation../aspose.slides/presentation में बुलाया जाएगा।
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: कॉलबैक जो प्रत्येक LayoutSlide./foreach/layoutslide में Presentation../aspose.slides/presentation में बुलाया जाएगा।
 type: docs
-weight: 7910
+weight: 7930
 url: /hi/aspose.slides.lowcode/foreach.foreachlayoutslidecallback/
 ---
-## ForEach.ForEachLayoutSlideCallback delegate
+## ForEach.ForEachLayoutSlideCallback डेलिगेट
 
-कॉलबैक प्रत्येक [`LayoutSlide`](../foreach/layoutslide) को [`Presentation`](../../aspose.slides/presentation) में बुलाया जाएगा।
+कॉलबैक जो प्रत्येक [`LayoutSlide`](../foreach/layoutslide) के लिए [`Presentation`](../../aspose.slides/presentation) में बुलाया जाएगा।
 
 ```csharp
 public delegate void ForEachLayoutSlideCallback(LayoutSlide layoutSlide, int index);
@@ -16,13 +16,13 @@ public delegate void ForEachLayoutSlideCallback(LayoutSlide layoutSlide, int ind
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| layoutSlide | LayoutSlide | वर्तमान इटरिटेड लेआउट स्लाइड |
+| layoutSlide | LayoutSlide | वर्तमान दोहराए गए लेआउट स्लाइड |
 | index | Int32 | वर्तमान लेआउट स्लाइड का अनुक्रमांक |
 
-### देखें
+### संबंधित देखें
 
-* क्लास [LayoutSlide](../../aspose.slides/layoutslide)
-* क्लास [ForEach](../foreach)
+* वर्ग [LayoutSlide](../../aspose.slides/layoutslide)
+* वर्ग [ForEach](../foreach)
 * नामस्थान [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
 * असेंबली [Aspose.Slides](../../)
 

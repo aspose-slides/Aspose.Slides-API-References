@@ -3,7 +3,7 @@ title: GradientStop
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa um formato de gradiente.
 type: docs
-weight: 5020
+weight: 5040
 url: /pt/aspose.slides/gradientstop/
 ---
 ## GradientStop classe
@@ -20,7 +20,7 @@ public sealed class GradientStop : PVIObject, IGradientStop
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obter a interface base IPresentationComponent. Somente leitura [`IPresentationComponent`](../ipresentationcomponent). |
 | [Color](../../aspose.slides/gradientstop/color) { get; } | Retorna a cor de um ponto de gradiente. Somente leitura [`IColorFormat`](../icolorformat). |
-| [Position](../../aspose.slides/gradientstop/position) { get; set; } | Retorna ou define a posição (0..1) de um ponto de gradiente. Leitura/gravação Single. |
+| [Position](../../aspose.slides/gradientstop/position) { get; set; } | Retorna ou define a posição (0..1) de um ponto de gradiente. Leitura/Escrita Single. |
 
 ## Métodos
 
@@ -29,7 +29,7 @@ public sealed class GradientStop : PVIObject, IGradientStop
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compara com o objeto especificado. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Retorna o código hash. |
 
-### Ver também
+### Veja Também
 
 * classe [PVIObject](../pviobject)
 * interface [IGradientStop](../igradientstop)

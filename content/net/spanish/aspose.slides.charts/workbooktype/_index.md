@@ -1,14 +1,14 @@
 ---
 title: WorkbookType
-second_title: Aspose.Sildes para .NET Referencia de API
-description: Especifica el tipo de archivo de libro Open XML.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Especifica el tipo de archivo de libro de trabajo Open XML.
 type: docs
-weight: 2510
+weight: 2530
 url: /es/aspose.slides.charts/workbooktype/
 ---
-## WorkbookType enumeración
+## Enumeración WorkbookType
 
-Especifica el tipo de archivo de libro Open XML.
+Especifica el tipo de archivo de libro de trabajo Open XML.
 
 ```csharp
 public enum WorkbookType
@@ -18,14 +18,14 @@ public enum WorkbookType
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| NotDefined | `-1` | El tipo de libro no está definido. |
-| Workbook | `0` | Libro de Excel (*.xlsx). |
-| WorkbookMacro | `1` | Libro de Excel con macros (*.xlsm). |
+| NotDefined | `-1` | El tipo de libro de trabajo no está definido. |
+| Workbook | `0` | Libro de trabajo de Excel (*.xlsx). |
+| WorkbookMacro | `1` | Libro de trabajo de Excel con macros habilitadas (*.xlsm). |
 | Template | `2` | Plantilla de Excel (*.xltx). |
-| TemplateMacro | `3` | Plantilla de Excel con macros (*.xltm). |
-| WorkbookBinaryMacro | `4` | Libro binario de Excel con macros (*.xlsb). |
+| TemplateMacro | `3` | Plantilla de Excel con macros habilitadas (*.xltm). |
+| WorkbookBinaryMacro | `4` | Libro de trabajo binario de Excel con macros habilitadas (*.xlsb). |
 
-### Véase también
+### Ver también
 
 * espacio de nombres [Aspose.Slides.Charts](../../aspose.slides.charts)
 * ensamblado [Aspose.Slides](../../)

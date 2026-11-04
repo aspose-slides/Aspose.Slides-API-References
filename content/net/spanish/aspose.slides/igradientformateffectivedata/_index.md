@@ -1,9 +1,9 @@
 ---
 title: IGradientFormatEffectiveData
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Objeto inmutable que contiene propiedades efectivas de relleno de degradado.
+description: Objeto inmutable que contiene las propiedades efectivas de relleno de degradado.
 type: docs
-weight: 6010
+weight: 6030
 url: /es/aspose.slides/igradientformateffectivedata/
 ---
 ## IGradientFormatEffectiveData interfaz
@@ -18,10 +18,10 @@ public interface IGradientFormatEffectiveData : IFillParamSource
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/igradientformateffectivedata/asifillparamsource) { get; } | Permite obtener la interfaz base IFillParamSource. Solo lectura [`IFillParamSource`](../ifillparamsource). |
+| [AsIFillParamSource](../../aspose.slides/igradientformateffectivedata/asifillparamsource) { get; } | Permite obtener la interfaz IFillParamSource base. Solo lectura [`IFillParamSource`](../ifillparamsource). |
 | [GradientDirection](../../aspose.slides/igradientformateffectivedata/gradientdirection) { get; } | Devuelve el estilo de un degradado. Solo lectura [`GradientDirection`](../gradientdirection). |
 | [GradientShape](../../aspose.slides/igradientformateffectivedata/gradientshape) { get; } | Devuelve la forma de un degradado. Solo lectura [`GradientShape`](../gradientshape). |
-| [GradientStops](../../aspose.slides/igradientformateffectivedata/gradientstops) { get; } | Devuelve la colección de paradas de degradado. Solo lectura [`IGradientStopCollectionEffectiveData`](../igradientstopcollectioneffectivedata). |
+| [GradientStops](../../aspose.slides/igradientformateffectivedata/gradientstops) { get; } | Devuelve la colección de puntos de degradado. Solo lectura [`IGradientStopCollectionEffectiveData`](../igradientstopcollectioneffectivedata). |
 | [LinearGradientAngle](../../aspose.slides/igradientformateffectivedata/lineargradientangle) { get; } | Devuelve el ángulo de un degradado. Solo lectura Single. |
 | [LinearGradientScaled](../../aspose.slides/igradientformateffectivedata/lineargradientscaled) { get; } | Determina si un degradado está escalado. Solo lectura Boolean. |
 | [TileFlip](../../aspose.slides/igradientformateffectivedata/tileflip) { get; } | Devuelve el modo de volteo para un degradado. Solo lectura [`TileFlip`](../tileflip). |

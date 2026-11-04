@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachPortionCallback
-second_title: Aspose.Sildes .NET API-referencia
-description: Visszahívás, amely minden Portion./foreach/portion esetén meghívásra kerül a Paragraph./foreach/paragraph-ban a BaseSlide../aspose.slides/baseslide-on.
+second_title: Aspose.Sildes .NET API referenciája
+description: Visszahívás, amely minden egyes Portion./foreach/portion esetén a Paragraph./foreach/paragraph-ban a BaseSlide../aspose.slides/baseslide-on kerül meghívásra.
 type: docs
-weight: 7940
+weight: 7960
 url: /hu/aspose.slides.lowcode/foreach.foreachportioncallback/
 ---
-## ForEach.ForEachPortionCallback delegate
+## ForEach.ForEachPortionCallback delegátum
 
-Visszahívás, amely minden [`Portion`](../foreach/portion) esetén meghívásra kerül a [`Paragraph`](../foreach/paragraph)-ben a [`BaseSlide`](../../aspose.slides/baseslide)-on.
+Visszahívás, amely minden egyes [`Portion`](../foreach/portion) esetén a [`Paragraph`](../foreach/paragraph)-ban a [`BaseSlide`](../../aspose.slides/baseslide)-n kerül meghívásra.
 
 ```csharp
 public delegate void ForEachPortionCallback(Portion portion, Paragraph para, BaseSlide slide, 
@@ -17,9 +17,9 @@ public delegate void ForEachPortionCallback(Portion portion, Paragraph para, Bas
 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| portion | Portion | Jelenlegi iterált rész |
-| para | Paragraph | Jelenlegi iterált bekezdés |
-| slide | BaseSlide | Jelenlegi iterált dia |
+| portion | Portion | Aktuálisan iterált rész |
+| para | Paragraph | Aktuálisan iterált bekezdés |
+| slide | BaseSlide | Aktuálisan iterált dia |
 | index | Int32 | Az aktuális rész indexe a bekezdésben |
 
 ### Lásd még

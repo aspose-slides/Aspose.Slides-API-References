@@ -3,7 +3,7 @@ title: IRevealTransition
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Reveal-Folienübergangseffekt.
 type: docs
-weight: 10160
+weight: 10180
 url: /de/aspose.slides.slideshow/irevealtransition/
 ---
 ## IRevealTransition Schnittstelle
@@ -18,7 +18,7 @@ public interface IRevealTransition : ITransitionValueBase
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/irevealtransition/asitransitionvaluebase) { get; } | Ermöglicht den Zugriff auf die Basis-ITransitionValueBase-Schnittstelle. Nur-Lese [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/irevealtransition/asitransitionvaluebase) { get; } | Ermöglicht das Abrufen der Basis ITransitionValueBase Schnittstelle. Nur lesbar [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/irevealtransition/direction) { get; set; } | Richtung des Übergangs. Lese/Schreib [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
 | [ThroughBlack](../../aspose.slides.slideshow/irevealtransition/throughblack) { get; set; } | Gibt an, ob der Übergang über Schwarz ausblendet. Lese/Schreib Boolean. |
 

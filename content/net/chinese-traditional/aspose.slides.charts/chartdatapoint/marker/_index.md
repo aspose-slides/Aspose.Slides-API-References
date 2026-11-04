@@ -3,18 +3,18 @@ title: Marker
 second_title: Aspose.Sildes for .NET API 參考
 description: 指定資料標記。唯讀 IMarkeraspose.slides.charts/imarker.
 type: docs
-weight: 150
+weight: 190
 url: /zh-hant/aspose.slides.charts/chartdatapoint/marker/
 ---
 ## ChartDataPoint.Marker 屬性
 
-指定資料標記。唯讀 [`IMarker`](../../imarker).
+指定資料標記。唯讀 [`IMarker`](../../imarker)。
 
 ```csharp
 public IMarker Marker { get; }
 ```
 
-### 另見
+### 參見
 
 * 介面 [IMarker](../../imarker)
 * 類別 [ChartDataPoint](../../chartdatapoint)

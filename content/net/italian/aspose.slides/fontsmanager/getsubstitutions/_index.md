@@ -1,14 +1,14 @@
 ---
 title: GetSubstitutions
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Ottiene le informazioni sui font che saranno sostituiti durante il rendering delle presentazioni.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Ottiene le informazioni sui caratteri che verranno sostituiti durante il rendering delle presentazioni.
 type: docs
-weight: 80
+weight: 90
 url: /it/aspose.slides/fontsmanager/getsubstitutions/
 ---
 ## GetSubstitutions() {#getsubstitutions}
 
-Ottiene le informazioni sui font che saranno sostituiti durante il rendering della presentazione.
+Ottiene le informazioni sui caratteri che verranno sostituiti durante il rendering della presentazione.
 
 ```csharp
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions()
@@ -16,7 +16,7 @@ public IEnumerable<FontSubstitutionInfo> GetSubstitutions()
 
 ### Valore restituito
 
-Raccolta di tutte le sostituzioni di font [`FontSubstitutionInfo`](../../fontsubstitutioninfo).
+Collezione di tutte le sostituzioni dei caratteri [`FontSubstitutionInfo`](../../fontsubstitutioninfo).
 
 ### Esempi
 
@@ -41,7 +41,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## GetSubstitutions(int[]) {#getsubstitutions_1}
 
-Ottiene le informazioni sui font che saranno sostituiti durante il rendering delle diapositive specificate.
+Ottiene le informazioni sui caratteri che verranno sostituiti durante il rendering delle diapositive specificate.
 
 ```csharp
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions(int[] slides)
@@ -49,11 +49,11 @@ public IEnumerable<FontSubstitutionInfo> GetSubstitutions(int[] slides)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| slides | Int32[] | Un array di indici delle diapositive per le quali recuperare le informazioni di sostituzione dei font, a partire da 1. |
+| slides | Int32[] | Un array di indici delle diapositive per le quali recuperare le informazioni di sostituzione dei caratteri, a partire da 1. |
 
 ### Valore restituito
 
-Una raccolta di tutte le sostituzioni di font ([`FontSubstitutionInfo`](../../fontsubstitutioninfo)) per le diapositive specificate.
+Una collezione di tutte le sostituzioni dei caratteri ([`FontSubstitutionInfo`](../../fontsubstitutioninfo)) per le diapositive specificate.
 
 ### Esempi
 

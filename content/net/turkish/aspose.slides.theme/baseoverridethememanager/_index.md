@@ -1,14 +1,14 @@
 ---
 title: BaseOverrideThemeManager
 second_title: Aspose.Sildes için .NET API Referansı
-description: Farklı türde geçersiz kılınmış temalara erişim sağlayan sınıflar için temel sınıf.
+description: Farklı türde geçersiz kılınan temalara erişim sağlayan sınıflar için temel sınıf.
 type: docs
-weight: 11040
+weight: 11060
 url: /tr/aspose.slides.theme/baseoverridethememanager/
 ---
-## BaseOverrideThemeManager sınıf
+## BaseOverrideThemeManager sınıfı
 
-Farklı türde geçersiz kılınmış temalara erişim sağlayan sınıflar için temel sınıf.
+Farklı türde geçersiz kılınan temalara erişim sağlayan sınıflar için temel sınıf.
 
 ```csharp
 public abstract class BaseOverrideThemeManager : BaseThemeManager, IOverrideThemeManager
@@ -18,14 +18,14 @@ public abstract class BaseOverrideThemeManager : BaseThemeManager, IOverrideThem
 
 | Ad | Açıklama |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | OverrideTheme'in kalıtılan etkili temayı geçersiz kılıp kılmadığını belirler. OverrideTheme'i geçersiz kılmak için OverrideTheme.Init*() metodlarını kullanın. OverrideTheme'in geçersiz kılmasını devre dışı bırakmak için OverrideTheme.Clear() metodunu kullanın. Yalnızca okunur Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Geçersiz kılınan tema nesnesini döndürür. Okunabilir/Yazılabilir [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | OverrideTheme'in kalıtılmış etkili temayı geçersiz kılıp kılmadığını belirler. OverrideTheme'i geçersiz kılma için etkinleştirmek amacıyla OverrideTheme.Init*() yöntemlerini kullanın. OverrideTheme'in geçersiz kılmasını devre dışı bırakmak için OverrideTheme.Clear() yöntemini kullanın. Salt okunur Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Geçersiz kılınan tema nesnesini döndürür. Okunur/yazılabilir [`IOverrideTheme`](../ioverridetheme). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Bir slayta ek renk şeması uygular. |
+| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Bir slayda ekstra renk şemasını uygular. |
 | [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Tema nesnesini döndürür. |
 
 ### Ayrıca Bakınız

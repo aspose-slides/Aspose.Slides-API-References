@@ -3,7 +3,7 @@ title: HyperlinkQueries
 second_title: Aspose.Sildes .NET API referencia
 description: Könnyű hozzáférést biztosít a tárolt hiperhivatkozásokhoz.
 type: docs
-weight: 5160
+weight: 5180
 url: /hu/aspose.slides/hyperlinkqueries/
 ---
 ## HyperlinkQueries osztály
@@ -14,14 +14,14 @@ Könnyű hozzáférést biztosít a tárolt hiperhivatkozásokhoz.
 public sealed class HyperlinkQueries : IHyperlinkQueries
 ```
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [GetAnyHyperlinks](../../aspose.slides/hyperlinkqueries/getanyhyperlinks)() | Az összes IHyperlinkContainer alobjektumot lekéri, amelyek nem null HyperlinkMouseOver értékkel rendelkeznek. A megadott IHyperlinkContainer objektummal kezelheti annak hiperhivatkozását (olvasás, frissítés vagy eltávolítás). Lásd az IHyperlinkContainer interfészt. |
-| [GetHyperlinkClicks](../../aspose.slides/hyperlinkqueries/gethyperlinkclicks)() | Az összes IHyperlinkContainer alobjektumot lekéri, amelyek nem null HyperlinkClick értékkel rendelkeznek. A megadott IHyperlinkContainer objektummal kezelheti annak hiperhivatkozását (olvasás, frissítés vagy eltávolítás). Lásd az IHyperlinkContainer interfészt. |
-| [GetHyperlinkMouseOvers](../../aspose.slides/hyperlinkqueries/gethyperlinkmouseovers)() | Az összes IHyperlinkContainer alobjektumot lekéri, amelyek nem null HyperlinkMouseOver értékkel rendelkeznek. A megadott IHyperlinkContainer objektummal kezelheti annak hiperhivatkozását (olvasás, frissítés vagy eltávolítás). Lásd az IHyperlinkContainer interfészt. |
-| [RemoveAllHyperlinks](../../aspose.slides/hyperlinkqueries/removeallhyperlinks)() | Eltávolítja az összes tartalmazott HyperlinkClick és HyperlinkMouseOver hiperhivatkozást (az összes IHyperlinkContainer alobjektumban). |
+| [GetAnyHyperlinks](../../aspose.slides/hyperlinkqueries/getanyhyperlinks)() | Visszaadja az összes IHyperlinkContainer alobjektumot, amely nem null HyperlinkMouseOver értéket tartalmaz. A megadott IHyperlinkContainer objektummal kezelheti a hiperhivatkozását (olvasás, frissítés vagy eltávolítás). Lásd az IHyperlinkContainer interfészét. |
+| [GetHyperlinkClicks](../../aspose.slides/hyperlinkqueries/gethyperlinkclicks)() | Visszaadja az összes IHyperlinkContainer alobjektumot, amely nem null HyperlinkClick értéket tartalmaz. A megadott IHyperlinkContainer objektummal kezelheti a hiperhivatkozását (olvasás, frissítés vagy eltávolítás). Lásd az IHyperlinkContainer interfészét. |
+| [GetHyperlinkMouseOvers](../../aspose.slides/hyperlinkqueries/gethyperlinkmouseovers)() | Visszaadja az összes IHyperlinkContainer alobjektumot, amely nem null HyperlinkMouseOver értéket tartalmaz. A megadott IHyperlinkContainer objektummal kezelheti a hiperhivatkozását (olvasás, frissítés vagy eltávolítás). Lásd az IHyperlinkContainer interfészét. |
+| [RemoveAllHyperlinks](../../aspose.slides/hyperlinkqueries/removeallhyperlinks)() | Eltávolítja az összes tárolt HyperlinkClick és HyperlinkMouseOver hiperhivatkozást (az összes IHyperlinkContainer alobjektumban). |
 
 ### Lásd még
 

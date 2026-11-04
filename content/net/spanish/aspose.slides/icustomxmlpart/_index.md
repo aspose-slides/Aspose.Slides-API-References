@@ -1,9 +1,9 @@
 ---
 title: ICustomXmlPart
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una parte xml personalizada.
 type: docs
-weight: 5670
+weight: 5690
 url: /es/aspose.slides/icustomxmlpart/
 ---
 ## ICustomXmlPart interfaz
@@ -18,7 +18,7 @@ public interface ICustomXmlPart
 
 | Nombre | Descripción |
 | --- | --- |
-| [ItemId](../../aspose.slides/icustomxmlpart/itemid) { get; set; } | Especifica un identificador globalmente único (GUID) que identifica de forma única una sola parte XML personalizada dentro de un documento Office Open XML. Solo lectura Guid. |
+| [ItemId](../../aspose.slides/icustomxmlpart/itemid) { get; set; } | Especifica un identificador globalmente único (GUID) que identifica de forma única una única parte XML personalizada dentro de un documento Office Open XML. Solo lectura Guid. |
 | [NamespaceSchemas](../../aspose.slides/icustomxmlpart/namespaceschemas) { get; } | Devuelve la colección de esquemas XML que están asociados con la parte XML personalizada. Solo lectura String[]. |
 | [XmlAsString](../../aspose.slides/icustomxmlpart/xmlasstring) { get; set; } | Devuelve o establece los datos xml como cadena UTF-8. Lectura/escritura String. el valor es `null`. el valor está vacío o los datos xml son inválidos. |
 | [XmlData](../../aspose.slides/icustomxmlpart/xmldata) { get; set; } | Devuelve o establece los datos xml. Lectura/escritura Byte[]. el valor es `null`. el valor está vacío o los datos xml son inválidos. |

@@ -1,9 +1,9 @@
 ---
 title: HyperlinkQueries
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Fornisce un facile accesso ai collegamenti ipertestuali contenuti.
 type: docs
-weight: 5160
+weight: 5180
 url: /it/aspose.slides/hyperlinkqueries/
 ---
 ## HyperlinkQueries classe
@@ -18,9 +18,9 @@ public sealed class HyperlinkQueries : IHyperlinkQueries
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetAnyHyperlinks](../../aspose.slides/hyperlinkqueries/getanyhyperlinks)() | Ottiene tutti gli oggetti secondari IHyperlinkContainer che contengono un HyperlinkMouseOver non nullo. Con l'oggetto IHyperlinkContainer fornito è possibile gestire il suo collegamento ipertestuale (leggere, aggiornare o rimuovere). Vedi l'interfaccia IHyperlinkContainer. |
-| [GetHyperlinkClicks](../../aspose.slides/hyperlinkqueries/gethyperlinkclicks)() | Ottiene tutti gli oggetti secondari IHyperlinkContainer che contengono un HyperlinkClick non nullo. Con l'oggetto IHyperlinkContainer fornito è possibile gestire il suo collegamento ipertestuale (leggere, aggiornare o rimuovere). Vedi l'interfaccia IHyperlinkContainer. |
-| [GetHyperlinkMouseOvers](../../aspose.slides/hyperlinkqueries/gethyperlinkmouseovers)() | Ottiene tutti gli oggetti secondari IHyperlinkContainer che contengono un HyperlinkMouseOver non nullo. Con l'oggetto IHyperlinkContainer fornito è possibile gestire il suo collegamento ipertestuale (leggere, aggiornare o rimuovere). Vedi l'interfaccia IHyperlinkContainer. |
+| [GetAnyHyperlinks](../../aspose.slides/hyperlinkqueries/getanyhyperlinks)() | Ottieni tutti gli oggetti secondari IHyperlinkContainer che contengono un valore non nullo HyperlinkMouseOver. Con l'oggetto IHyperlinkContainer fornito è possibile gestire il suo collegamento ipertestuale (leggere, aggiornare o rimuovere). Vedi l'interfaccia IHyperlinkContainer. |
+| [GetHyperlinkClicks](../../aspose.slides/hyperlinkqueries/gethyperlinkclicks)() | Ottieni tutti gli oggetti secondari IHyperlinkContainer che contengono un valore non nullo HyperlinkClick. Con l'oggetto IHyperlinkContainer fornito è possibile gestire il suo collegamento ipertestuale (leggere, aggiornare o rimuovere). Vedi l'interfaccia IHyperlinkContainer. |
+| [GetHyperlinkMouseOvers](../../aspose.slides/hyperlinkqueries/gethyperlinkmouseovers)() | Ottieni tutti gli oggetti secondari IHyperlinkContainer che contengono un valore non nullo HyperlinkMouseOver. Con l'oggetto IHyperlinkContainer fornito è possibile gestire il suo collegamento ipertestuale (leggere, aggiornare o rimuovere). Vedi l'interfaccia IHyperlinkContainer. |
 | [RemoveAllHyperlinks](../../aspose.slides/hyperlinkqueries/removeallhyperlinks)() | Rimuove tutti i collegamenti ipertestuali HyperlinkClick e HyperlinkMouseOver contenuti (in tutti gli oggetti secondari IHyperlinkContainer). |
 
 ### Vedi anche

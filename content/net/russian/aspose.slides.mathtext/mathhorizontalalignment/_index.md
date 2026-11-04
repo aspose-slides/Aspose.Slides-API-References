@@ -1,12 +1,12 @@
 ---
 title: MathHorizontalAlignment
-second_title: Aspose.Sildes для .NET API справочник
+second_title: Aspose.Sildes для .NET справочник API
 description: Горизонтальное выравнивание
 type: docs
-weight: 8780
+weight: 8800
 url: /ru/aspose.slides.mathtext/mathhorizontalalignment/
 ---
-## MathHorizontalAlignment перечисление
+## Перечисление MathHorizontalAlignment
 
 Горизонтальное выравнивание
 
@@ -23,7 +23,7 @@ public enum MathHorizontalAlignment
 | Center | `2` | По центру |
 | Right | `3` | По правому краю |
 
-### Смотрите также
+### См. также
 
 * пространство имён [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)

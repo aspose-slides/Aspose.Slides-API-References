@@ -1,9 +1,9 @@
 ---
 title: RowCollection
-second_title: Aspose.Sildes .NET için API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Tablo satır koleksiyonunu temsil eder.
 type: docs
-weight: 9720
+weight: 9740
 url: /tr/aspose.slides/rowcollection/
 ---
 ## RowCollection sınıfı
@@ -16,24 +16,24 @@ public sealed class RowCollection : DomObject<Table>, IRowCollection
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/rowcollection/count) { get; } | Koleksiyonda gerçekte bulunan satır sayısını alır. Salt okunur Int32. |
-| [IsSynchronized](../../aspose.slides/rowcollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını gösteren bir değer döndürür. Salt okunur Boolean. |
-| [Item](../../aspose.slides/rowcollection/item) { get; } | Belirtilen dizindeki satırı döndürür. Salt okunur [`Row`](../row). |
-| [SyncRoot](../../aspose.slides/rowcollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt okunur Object. |
+| [Count](../../aspose.slides/rowcollection/count) { get; } | Koleksiyonda gerçekte bulunan satır sayısını alır. Salt-okunur Int32. |
+| [IsSynchronized](../../aspose.slides/rowcollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını gösteren bir değeri döndürür. Salt-okunur Boolean. |
+| [Item](../../aspose.slides/rowcollection/item) { get; } | Belirtilen dizindeki satırı döndürür. Salt-okunur [`Row`](../row). |
+| [SyncRoot](../../aspose.slides/rowcollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt-okunur Object. |
 
 ## Yöntemler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
 | [AddClone](../../aspose.slides/rowcollection/addclone)(IRow, bool) | Belirtilen şablon satırının bir kopyasını oluşturur ve tabloyun altına ekler. |
 | [CopyTo](../../aspose.slides/rowcollection/copyto)(Array, int) | Koleksiyondaki tüm öğeleri belirtilen diziye kopyalar. |
-| [GetEnumerator](../../aspose.slides/rowcollection/getenumerator)() | Koleksiyonun içinde dolaşan bir enumerator döndürür. |
+| [GetEnumerator](../../aspose.slides/rowcollection/getenumerator)() | Koleksiyonun içinde dolaşan bir yineleyici döndürür. |
 | [InsertClone](../../aspose.slides/rowcollection/insertclone)(int, IRow, bool) | Belirtilen şablon satırının bir kopyasını oluşturur ve tablo içinde belirtilen konuma ekler. |
-| [RemoveAt](../../aspose.slides/rowcollection/removeat)(int, bool) | Tablodan belirtilen konumdaki satırı kaldırır. |
+| [RemoveAt](../../aspose.slides/rowcollection/removeat)(int, bool) | Tablodan belirtilen konumdaki bir satırı kaldırır. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * sınıf [DomObject&lt;TParent&gt;](../domobject-1)
 * sınıf [Table](../table)

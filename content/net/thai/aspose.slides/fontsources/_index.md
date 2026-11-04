@@ -1,14 +1,14 @@
 ---
 title: FontSources
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: ให้แหล่งไฟล์และหน่วยความจำสำหรับฟอนต์ภายนอก
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+description: จัดหาไฟล์และแหล่งข้อมูลในหน่วยความจำสำหรับฟอนต์ภายนอก.
 type: docs
-weight: 4860
+weight: 4880
 url: /th/aspose.slides/fontsources/
 ---
 ## FontSources คลาส
 
-ให้แหล่งไฟล์และหน่วยความจำสำหรับฟอนต์ภายนอก
+จัดหาไฟล์และแหล่งข้อมูลในหน่วยความจำสำหรับฟอนต์ภายนอก.
 
 ```csharp
 public class FontSources : IFontSources
@@ -18,14 +18,14 @@ public class FontSources : IFontSources
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [FontSources](fontsources)() | สร้างตัวเลือกฟอนต์เริ่มต้นใหม่ |
+| [FontSources](fontsources)() | สร้างตัวเลือกฟอนต์เริ่มต้นใหม่. |
 
 ## คุณสมบัติ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [FontFolders](../../aspose.slides/fontsources/fontfolders) { get; set; } | โฟลเดอร์ที่ประกอบด้วยไฟล์ฟอนต์ ไฟล์ฟอนต์ทั้งหมดที่อยู่ในโฟลเดอร์เหล่านี้จะถูกรวมในคอลเลกชัน โฟลเดอร์ที่ค้นหาแบบเรียกซ้ำ |
-| [MemoryFonts](../../aspose.slides/fontsources/memoryfonts) { get; set; } | คอลเลกชันของฟอนต์ที่เป็นอาเรย์ของไบต์ |
+| [FontFolders](../../aspose.slides/fontsources/fontfolders) { get; set; } | โฟลเดอร์ที่บรรจุไฟล์ฟอนต์ ไฟล์ฟอนต์ทั้งหมดที่อยู่ในโฟลเดอร์เหล่านี้จะถูกรวมอยู่ในคอลเลกชัน โฟลเดอร์ที่ถูกค้นหาแบบเรียกซ้ำ. |
+| [MemoryFonts](../../aspose.slides/fontsources/memoryfonts) { get; set; } | คอลเลกชันของฟอนต์ที่แสดงเป็นอาเรย์ของไบต์. |
 
 ### ดูเพิ่มเติม
 

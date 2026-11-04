@@ -1,14 +1,14 @@
 ---
 title: IInk
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: स्लाइड पर एक स्याही ऑब्जेक्ट का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: स्लाइड पर एक इंक ऑब्जेक्ट का प्रतिनिधित्व करता है।
 type: docs
-weight: 7510
+weight: 7530
 url: /hi/aspose.slides.ink/iink/
 ---
 ## IInk इंटरफ़ेस
 
-स्लाइड पर एक स्याही ऑब्जेक्ट का प्रतिनिधित्व करता है।
+स्लाइड पर एक इंक ऑब्जेक्ट का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IInk : IGraphicalObject
@@ -21,7 +21,7 @@ public interface IInk : IGraphicalObject
 | [AsIGraphicalObject](../../aspose.slides.ink/iink/asigraphicalobject) { get; } | बेस IGraphicalObject इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IGraphicalObject`](../../aspose.slides/igraphicalobject)। |
 | [Traces](../../aspose.slides.ink/iink/traces) { get; } | IInk तत्व [`IInkTrace`](../iinktrace) में मौजूद सभी ट्रेस प्राप्त करता है। केवल-पढ़ने योग्य। |
 
-### अन्य देखें
+### देखें भी
 
 * इंटरफ़ेस [IGraphicalObject](../../aspose.slides/igraphicalobject)
 * नामस्थान [Aspose.Slides.Ink](../../aspose.slides.ink)

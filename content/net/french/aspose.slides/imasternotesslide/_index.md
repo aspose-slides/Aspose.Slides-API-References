@@ -1,9 +1,9 @@
 ---
 title: IMasterNotesSlide
-second_title: Aspose.Sildes pour .NET Référence API
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente la diapositive maître pour les notes.
 type: docs
-weight: 6390
+weight: 6410
 url: /fr/aspose.slides/imasternotesslide/
 ---
 ## IMasterNotesSlide interface
@@ -18,11 +18,11 @@ public interface IMasterNotesSlide : IBaseSlide, IMasterThemeable
 
 | Nom | Description |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasternotesslide/asibaseslide) { get; } | Permet d'obtenir l'interface de base IBaseSlide. Lecture seule [`IBaseSlide`](../ibaseslide). |
-| [AsIMasterThemeable](../../aspose.slides/imasternotesslide/asimasterthemeable) { get; } | Renvoie l'interface IMasterThemeable. Lecture seule [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [DrawingGuides](../../aspose.slides/imasternotesslide/drawingguides) { get; } | Renvoie une collection de guides de dessin pour la diapositive maître des notes. Lecture seule [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HeaderFooterManager](../../aspose.slides/imasternotesslide/headerfootermanager) { get; } | Renvoie le gestionnaire HeaderFooter de la diapositive maître des notes. Lecture seule [`IMasterNotesSlideHeaderFooterManager`](../imasternotesslideheaderfootermanager). |
-| [NotesStyle](../../aspose.slides/imasternotesslide/notesstyle) { get; } | Renvoie le style d'un texte de notes. Lecture seule [`ITextStyle`](../itextstyle). |
+| [AsIBaseSlide](../../aspose.slides/imasternotesslide/asibaseslide) { get; } | Permet d'obtenir l'interface de base IBaseSlide. En lecture seule [`IBaseSlide`](../ibaseslide). |
+| [AsIMasterThemeable](../../aspose.slides/imasternotesslide/asimasterthemeable) { get; } | Renvoie l'interface IMasterThemeable. En lecture seule [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
+| [DrawingGuides](../../aspose.slides/imasternotesslide/drawingguides) { get; } | Renvoie une collection de guides de dessin pour la diapositive maîtresse des notes. En lecture seule [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HeaderFooterManager](../../aspose.slides/imasternotesslide/headerfootermanager) { get; } | Renvoie le gestionnaire HeaderFooter de la diapositive maîtresse des notes. En lecture seule [`IMasterNotesSlideHeaderFooterManager`](../imasternotesslideheaderfootermanager). |
+| [NotesStyle](../../aspose.slides/imasternotesslide/notesstyle) { get; } | Renvoie le style du texte des notes. En lecture seule [`ITextStyle`](../itextstyle). |
 
 ### Voir aussi
 

@@ -1,34 +1,34 @@
 ---
 title: FillFormatCollection
-second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje kolekci stylů výplně.
+second_title: Aspose.Sildes pro .NET – reference API
+description: Reprezentuje kolekci výplňových stylů.
 type: docs
-weight: 11120
+weight: 11140
 url: /cs/aspose.slides.theme/fillformatcollection/
 ---
 ## FillFormatCollection třída
 
-Představuje kolekci stylů výplně.
+Representuje kolekci výplňových stylů.
 
 ```csharp
 public sealed class FillFormatCollection : DomObject<FormatScheme>, IFillFormatCollection
 ```
 
-## Properties
+## Vlastnosti
 
 | Název | Popis |
 | --- | --- |
-| [Count](../../aspose.slides.theme/fillformatcollection/count) { get; } | Získá počet prvků skutečně obsažených v kolekci. Pouze pro čtení Int32. |
-| [IsSynchronized](../../aspose.slides.theme/fillformatcollection/issynchronized) { get; } | Vrací hodnotu indikující, zda je přístup ke kolekci synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
-| [Item](../../aspose.slides.theme/fillformatcollection/item) { get; } | Získá prvek na zadaném indexu. Pouze pro čtení [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [SyncRoot](../../aspose.slides.theme/fillformatcollection/syncroot) { get; } | Vrací synchronizační kořen. Pouze pro čtení Object. |
+| [Count](../../aspose.slides.theme/fillformatcollection/count) { get; } | Získá počet prvků skutečně obsažených v kolekci. Pouze ke čtení Int32. |
+| [IsSynchronized](../../aspose.slides.theme/fillformatcollection/issynchronized) { get; } | Vrací hodnotu určující, zda je přístup ke kolekci synchronizován (vláknově bezpečný). Pouze ke čtení Boolean. |
+| [Item](../../aspose.slides.theme/fillformatcollection/item) { get; } | Získá prvek na zadaném indexu. Pouze ke čtení [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [SyncRoot](../../aspose.slides.theme/fillformatcollection/syncroot) { get; } | Vrací kořen synchronizace. Pouze ke čtení Object. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
 | [CopyTo](../../aspose.slides.theme/fillformatcollection/copyto)(Array, int) | Zkopíruje všechny prvky z kolekce do zadaného pole. |
-| [GetEnumerator](../../aspose.slides.theme/fillformatcollection/getenumerator)() | Vrací enumerátor, který prochází kolekci. |
+| [GetEnumerator](../../aspose.slides.theme/fillformatcollection/getenumerator)() | Vrací enumerátor, který prochází kolekcí. |
 
 ### Viz také
 

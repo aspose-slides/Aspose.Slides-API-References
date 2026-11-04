@@ -3,10 +3,10 @@ title: LineAlignment
 second_title: Справочник API Aspose.Sildes для .NET
 description: Представляет тип выравнивания строк.
 type: docs
-weight: 7720
+weight: 7740
 url: /ru/aspose.slides/linealignment/
 ---
-## LineAlignment перечисление
+## Перечисление LineAlignment
 
 Представляет тип выравнивания строк.
 
@@ -22,7 +22,7 @@ public enum LineAlignment : sbyte
 | Center | `0` |  |
 | Inset | `1` |  |
 
-### Смотрите также
+### См. также
 
 * пространство имён [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

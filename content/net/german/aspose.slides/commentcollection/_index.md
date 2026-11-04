@@ -3,7 +3,7 @@ title: CommentCollection
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Sammlung von Kommentaren eines Autors dar.
 type: docs
-weight: 2650
+weight: 2670
 url: /de/aspose.slides/commentcollection/
 ---
 ## CommentCollection Klasse
@@ -18,10 +18,10 @@ public sealed class CommentCollection : DomObject<CommentAuthor>, ICommentCollec
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides/commentcollection/count) { get; } | Gibt die tatsächlich in der Sammlung enthaltene Anzahl von Elementen zurück. Nur lesbar Int32. |
-| [IsSynchronized](../../aspose.slides/commentcollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (thread-sicher) ist. Nur lesbar Boolean. |
-| [Item](../../aspose.slides/commentcollection/item) { get; } | Gibt das Element am angegebenen Index zurück. Nur lesbar [`Comment`](../comment). |
-| [SyncRoot](../../aspose.slides/commentcollection/syncroot) { get; } | Gibt ein Synchronisations-Root zurück. Nur lesbar Object. |
+| [Count](../../aspose.slides/commentcollection/count) { get; } | Ruft die tatsächlich in der Sammlung enthaltene Anzahl von Elementen ab. Nur lesbar Int32. |
+| [IsSynchronized](../../aspose.slides/commentcollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (Thread-sicher) ist. Nur lesbar Boolean. |
+| [Item](../../aspose.slides/commentcollection/item) { get; } | Ruft das Element am angegebenen Index ab. Nur lesbar [`Comment`](../comment). |
+| [SyncRoot](../../aspose.slides/commentcollection/syncroot) { get; } | Gibt eine Synchronisationswurzel zurück. Nur lesbar Object. |
 
 ## Methoden
 
@@ -30,13 +30,13 @@ public sealed class CommentCollection : DomObject<CommentAuthor>, ICommentCollec
 | [AddComment](../../aspose.slides/commentcollection/addcomment)(string, ISlide, PointF, DateTime) | Fügt einen neuen Kommentar am Ende einer Sammlung hinzu. |
 | [AddModernComment](../../aspose.slides/commentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | Fügt einen neuen modernen Kommentar am Ende einer Sammlung hinzu. |
 | [Clear](../../aspose.slides/commentcollection/clear)() | Entfernt alle Kommentare aus einer Sammlung. |
-| [CopyTo](../../aspose.slides/commentcollection/copyto)(Array, int) | Kopiert alle Elemente der Sammlung in das angegebene Array. |
-| [FindCommentByIdx](../../aspose.slides/commentcollection/findcommentbyidx)(int) | Findet einen Kommentar in der Sammlung nach Index. |
+| [CopyTo](../../aspose.slides/commentcollection/copyto)(Array, int) | Kopiert alle Elemente aus der Sammlung in das angegebene Array. |
+| [FindCommentByIdx](../../aspose.slides/commentcollection/findcommentbyidx)(int) | Findet einen Kommentar in der Sammlung anhand des Index. |
 | [GetEnumerator](../../aspose.slides/commentcollection/getenumerator)() | Gibt einen Enumerator zurück, der die Sammlung durchläuft. |
-| [InsertComment](../../aspose.slides/commentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | Fügt einen neuen Kommentar an der angegebenen Position in eine Sammlung ein. |
-| [InsertModernComment](../../aspose.slides/commentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | Fügt einen neuen modernen Kommentar an der angegebenen Position in eine Sammlung ein. |
+| [InsertComment](../../aspose.slides/commentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | Fügt einen neuen Kommentar in eine Sammlung an dem angegebenen Index ein. |
+| [InsertModernComment](../../aspose.slides/commentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | Fügt einen neuen modernen Kommentar in eine Sammlung an dem angegebenen Index ein. |
 | [Remove](../../aspose.slides/commentcollection/remove)(IComment) | Entfernt das erste Vorkommen des angegebenen Kommentars aus einer Sammlung. |
-| [RemoveAt](../../aspose.slides/commentcollection/removeat)(int) | Entfernt das Element am angegebenen Index in einer Sammlung. |
+| [RemoveAt](../../aspose.slides/commentcollection/removeat)(int) | Entfernt das Element am angegebenen Index aus einer Sammlung. |
 | [ToArray](../../aspose.slides/commentcollection/toarray#toarray)() | Erstellt und gibt ein Array mit allen Kommentaren zurück. |
 | [ToArray](../../aspose.slides/commentcollection/toarray#toarray_1)(int, int) | Erstellt und gibt ein Array mit allen Kommentaren aus dem angegebenen Bereich zurück. |
 

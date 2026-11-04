@@ -1,9 +1,9 @@
 ---
 title: Remove
-second_title: Aspose.Sildes dla .NET API Reference
+second_title: Aspose.Sildes dla .NET Dokumentacja API
 description: Usuwa DataPoint z serii wykresu.
 type: docs
-weight: 200
+weight: 240
 url: /pl/aspose.slides.charts/ichartdatapoint/remove/
 ---
 ## IChartDataPoint.Remove metoda
@@ -18,7 +18,7 @@ public void Remove()
 
 | wyjątek | warunek |
 | --- | --- |
-| [PptxEditException](../../../aspose.slides/pptxeditexception) | Zgłaszany, jeśli DataPoint jest już usunięty z serii wykresu. |
+| [PptxEditException](../../../aspose.slides/pptxeditexception) | Rzucany, jeśli punkt danych został już usunięty z serii wykresu. |
 
 ### Zobacz także
 

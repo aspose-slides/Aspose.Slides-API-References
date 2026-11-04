@@ -1,14 +1,14 @@
 ---
 title: FontSubstCondition
-second_title: Aspose.Slides for .NET API 참조
-description: 폰트 대체 규칙을 나타냅니다
+second_title: Aspose.Sildes용 .NET API 레퍼런스
+description: 글꼴 대체 규칙을 나타냅니다
 type: docs
-weight: 4880
+weight: 4900
 url: /ko/aspose.slides/fontsubstcondition/
 ---
 ## FontSubstCondition 열거형
 
-폰트 대체에 대한 규칙을 나타냅니다
+글꼴 대체에 대한 규칙을 나타냅니다
 
 ```csharp
 public enum FontSubstCondition
@@ -16,9 +16,9 @@ public enum FontSubstCondition
 
 ### 값
 
-| 이름 | 값 | 설명 |
+| Name | Value | Description |
 | --- | --- | --- |
-| WhenInaccessible | `0` | 폰트를 찾을 수 없을 때 대체 |
+| WhenInaccessible | `0` | 글꼴을 찾을 수 없을 때 대체 |
 | Always | `1` | 항상 대체 |
 
 ### 참조

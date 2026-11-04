@@ -1,12 +1,12 @@
 ---
 title: ShredTransition
-second_title: Aspose.Sildes dla .NET - Dokumentacja API
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
 description: Efekt przejścia slajdu Shred.
 type: docs
-weight: 10300
+weight: 10320
 url: /pl/aspose.slides.slideshow/shredtransition/
 ---
-## ShredTransition klasa
+## Klasa ShredTransition
 
 Efekt przejścia slajdu Shred.
 
@@ -14,19 +14,19 @@ Efekt przejścia slajdu Shred.
 public class ShredTransition : TransitionValueBase, IShredTransition
 ```
 
-## Properties
+## Właściwości
 
 | Nazwa | Opis |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/shredtransition/direction) { get; set; } | Kierunek przejścia. Odczyt/zapis [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 | [Pattern](../../aspose.slides.slideshow/shredtransition/pattern) { get; set; } | Określa kształt elementów wizualnych używanych podczas przejścia. Odczyt/zapis [`TransitionShredPattern`](../transitionshredpattern). |
 
-## Methods
+## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Określa, czy dwa wystąpienia TransitionValueBase są równe. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Służy jako funkcja skrótu dla określonego typu, odpowiednia do użycia w algorytmach haszowania i strukturach danych, takich jak tablica mieszająca. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Określa, czy dwie instancje TransitionValueBase są równe. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Służy jako funkcja mieszająca dla określonego typu, odpowiednia do użycia w algorytmach mieszających i strukturach danych, takich jak tablica mieszająca. |
 
 ### Zobacz także
 

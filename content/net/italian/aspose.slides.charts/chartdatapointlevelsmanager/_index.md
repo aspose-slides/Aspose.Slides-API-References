@@ -1,14 +1,14 @@
 ---
 title: ChartDataPointLevelsManager
-second_title: Aspose.Sildes per il riferimento API .NET
-description: Contenitore dei livelli dei punti dati. Applicato per le serie Treeamp e Sunburst. L'indicizzazione dei livelli dei punti dati parte da zero.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Contenitore dei livelli dei punti dati. Applicato per le serie Treeamp e Sunburst. L'indicizzazione dei livelli dei punti dati è basata su zero.
 type: docs
-weight: 1360
+weight: 1370
 url: /it/aspose.slides.charts/chartdatapointlevelsmanager/
 ---
 ## ChartDataPointLevelsManager classe
 
-Contenitore dei livelli dei punti dati. Applicato per le serie Treeamp e Sunburst. L'indicizzazione dei livelli dei punti dati parte da zero.
+Contenitore dei livelli dei punti dati. Applicato per le serie Treeamp e Sunburst. L'indicizzazione dei livelli dei punti dati è basata su zero.
 
 ```csharp
 public class ChartDataPointLevelsManager : DomObject<ChartDataPoint>, IChartDataPointLevelsManager
@@ -18,7 +18,7 @@ public class ChartDataPointLevelsManager : DomObject<ChartDataPoint>, IChartData
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartdatapointlevelsmanager/count) { get; } | Restituisce il conteggio dei livelli dei punti dati. |
+| [Count](../../aspose.slides.charts/chartdatapointlevelsmanager/count) { get; } | Restituisce il conteggio dei livelli del punto dati. |
 | [Item](../../aspose.slides.charts/chartdatapointlevelsmanager/item) { get; } | Restituisce l'oggetto IChartDataPointLevel per il livello definito. |
 
 ### Vedi anche

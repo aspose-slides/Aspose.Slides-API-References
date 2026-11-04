@@ -1,14 +1,14 @@
 ---
 title: MathHorizontalAlignment
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 水平揃え
+description: 水平配置
 type: docs
-weight: 8780
+weight: 8800
 url: /ja/aspose.slides.mathtext/mathhorizontalalignment/
 ---
-## MathHorizontalAlignment 列挙型
+## MathHorizontalAlignment 列挙体
 
-水平揃え
+水平配置
 
 ```csharp
 public enum MathHorizontalAlignment
@@ -18,10 +18,10 @@ public enum MathHorizontalAlignment
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| NotDefined | `0` | 値が未定義です |
+| NotDefined | `0` | 値が定義されていません |
 | Left | `1` | 左揃え |
-| Center | `2` | 中央揃え |
-| Right | `3` | 右揃え |
+| Center | `2` | 中央 |
+| Right | `3` | 右 |
 
 ### 関連項目
 

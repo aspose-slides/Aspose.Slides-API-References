@@ -1,14 +1,14 @@
 ---
 title: IBaseHandoutNotesSlideHeaderFooterManag
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक प्रबंधक का प्रतिनिधित्व करता है जो प्लेसहोल्डरों के व्यवहार को संभालता है, जिसमें सभी प्रकार के हैंडआउट और नोट्स स्लाइड के लिए हेडर प्लेसहोल्डर शामिल है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: हैंडआउट और नोट्स स्लाइड्स के सभी प्रकारों के लिए हेडर प्लेसहोल्डर सहित, प्लेसहोल्डर्स के व्यवहार को धारण करने वाले प्रबंधक को दर्शाता है।
 type: docs
-weight: 5290
+weight: 5310
 url: /hi/aspose.slides/ibasehandoutnotesslideheaderfootermanag/
 ---
 ## IBaseHandoutNotesSlideHeaderFooterManag इंटरफ़ेस
 
-सभी प्रकार के हैंडआउट और नोट्स स्लाइड के लिए हेडर प्लेसहोल्डर सहित, प्लेसहोल्डर के व्यवहार को संभालने वाले मैनेजर का प्रतिनिधित्व करता है।
+हैंडआउट और नोट्स स्लाइड्स के सभी प्रकारों के लिए हेडर प्लेसहोल्डर सहित, प्लेसहोल्डर्स के व्यवहार को धारण करने वाला प्रबंधक दर्शाता है।
 
 ```csharp
 public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFooterManager
@@ -18,19 +18,19 @@ public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFoote
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/asibaseslideheaderfootermanager) { get; } | IBaseSlideHeaderFooterManager इंटरफ़ेस को लौटाता है। |
-| [IsHeaderVisible](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible) { get; } | एक हेडर प्लेसहोल्डर मौजूद होने को संकेत करने वाला मान प्राप्त करता है। Boolean पढ़ें। |
+| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/asibaseslideheaderfootermanager) { get; } | IBaseSlideHeaderFooterManager इंटरफ़ेस लौटाता है। |
+| [IsHeaderVisible](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible) { get; } | एक हेडर प्लेसहोल्डर मौजूद होने का संकेत करने वाला मान प्राप्त करता है। बूलियन पढ़ें। |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [SetHeaderText](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadertext)(string) | स्लाइड हेडर प्लेसहोल्डर में पाठ सेट करता है। |
+| [SetHeaderText](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadertext)(string) | स्लाइड हेडर प्लेसहोल्डर में टेक्स्ट सेट करता है। |
 | [SetHeaderVisibility](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadervisibility)(bool) | स्लाइड हेडर प्लेसहोल्डर की दृश्यता बदलता है। |
 
 ### टिप्पणी
 
-मूल इंटरफ़ेस नाम "IBaseHandoutNotesSlideHeaderFooterManager" को COM अनुकूलता के लिए "IBaseHandoutNotesSlideHeaderFooterManag" में संक्षिप्त किया गया है (टाइप नाम की लंबाई 39 से अधिक नहीं होनी चाहिए)।
+मूल इंटरफ़ेस नाम "IBaseHandoutNotesSlideHeaderFooterManager" को COM संगतता के लिए "IBaseHandoutNotesSlideHeaderFooterManag" में काट दिया गया है (प्रकार नाम की लंबाई अधिकतम 39 होनी चाहिए)।
 
 ### देखें
 

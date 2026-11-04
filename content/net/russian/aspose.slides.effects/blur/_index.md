@@ -1,14 +1,14 @@
 ---
 title: Blur
-second_title: Aspose.Sildes для .NET API Reference
-description: Представляет эффект Blur, который применяется ко всей фигуре, включая её заливку. Затрагиваются все цветовые каналы, включая альфа-канал.
+second_title: Aspose.Sildes для .NET API справка
+description: Представляет эффект Blur, который применяется ко всей фигуре, включая её заливку. Все цветовые каналы, включая альфа, затрагиваются.
 type: docs
-weight: 2920
+weight: 2940
 url: /ru/aspose.slides.effects/blur/
 ---
 ## Blur класс
 
-Представляет эффект Blur, который применяется ко всей фигуре, включая её заливку. Затрагиваются все цветовые каналы, включая альфа-канал.
+Представляет эффект Blur, который применяется ко всей фигуре, включая её заливку. Все цветовые каналы, включая альфа, затрагиваются.
 
 ```csharp
 public sealed class Blur : ImageTransformOperation, IBlur
@@ -16,19 +16,19 @@ public sealed class Blur : ImageTransformOperation, IBlur
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | Определяет, следует ли расширять границы объекта в результате размытия. True указывает, что границы расширяются, а false — что они не расширяются. Чтение/запись Boolean. |
-| [Radius](../../aspose.slides.effects/blur/radius) { get; set; } | Возвращает или задаёт радиус размытия. Чтение/запись Double. |
+| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | Определяет, должны ли границы объекта расширяться в результате размытия. True указывает, что границы расширяются, а false указывает, что они не расширяются. Чтение/запись Boolean. |
+| [Radius](../../aspose.slides.effects/blur/radius) { get; set; } | Возвращает или задает радиус размытия. Чтение/запись Double. |
 
 ## Методы
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/blur/equals)(object) | Определяет, равен ли указанный [`Blur`](../blur) текущему [`Blur`](../blur). |
-| [GetEffective](../../aspose.slides.effects/blur/geteffective)() | Получает эффективные данные эффекта Blur с учётом наследования. |
-| override [GetHashCode](../../aspose.slides.effects/blur/gethashcode)() | Служит в качестве хеш-функции для определённого типа. |
+| [GetEffective](../../aspose.slides.effects/blur/geteffective)() | Получает эффективные данные эффекта Blur с применённым наследованием. |
+| override [GetHashCode](../../aspose.slides.effects/blur/gethashcode)() | Служит хеш-функцией для определённого типа. |
 
 ### См. также
 

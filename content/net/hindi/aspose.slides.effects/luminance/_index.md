@@ -1,14 +1,14 @@
 ---
 title: Luminance
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: Luminance प्रभाव का प्रतिनिधित्व करता है। Brightness सभी रंगों को रैखिक रूप से सफेद या काले के करीब शिफ्ट करता है। Contrast सभी रंगों को या तो करीब या दूर रहने के लिए स्केल करता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: एक Luminance प्रभाव का प्रतिनिधित्व करता है। ब्राइटनेस सभी रंगों को रेखीय रूप से सफेद या काली की ओर ले जाता है। कंट्रास्ट सभी रंगों को इस प्रकार स्केल करता है कि वे या तो एक-दूसरे के करीब या दूर हों।
 type: docs
-weight: 3610
+weight: 3630
 url: /hi/aspose.slides.effects/luminance/
 ---
-## Luminance वर्ग
+## Luminance क्लास
 
-Luminance प्रभाव का प्रतिनिधित्व करता है। Brightness सभी रंगों को रैखिक रूप से सफेद या काले की ओर करीब शिफ्ट करता है। Contrast सभी रंगों को या तो करीब या दूर रहने के लिए स्केल करता है।
+एक Luminance प्रभाव का प्रतिनिधित्व करता है। ब्राइटनेस सभी रंगों को रेखीय रूप से सफेद या काली की ओर ले जाता है। कंट्रास्ट सभी रंगों को इस तरह स्केल करता है कि वे या तो एक-दूसरे के करीब या दूर हों।
 
 ```csharp
 public sealed class Luminance : ImageTransformOperation, ILuminance
@@ -18,19 +18,19 @@ public sealed class Luminance : ImageTransformOperation, ILuminance
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | बेस IPresentationComponent इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)। |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | बेस IPresentationComponent इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
-## विधियाँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/luminance/equals)(object) | निर्धारित करता है कि निर्दिष्ट [`Luminance`](../luminance) वर्तमान [`Luminance`](../luminance) के बराबर है या नहीं। |
-| [GetEffective](../../aspose.slides.effects/luminance/geteffective)() | विरासत लागू होने के साथ प्रभावी Luminance प्रभाव डेटा प्राप्त करता है। |
-| override [GetHashCode](../../aspose.slides.effects/luminance/gethashcode)() | एक विशिष्ट प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है। |
+| override [Equals](../../aspose.slides.effects/luminance/equals)(object) | यह निर्धारित करता है कि निर्दिष्ट [`Luminance`](../luminance) वर्तमान [`Luminance`](../luminance) के बराबर है या नहीं। |
+| [GetEffective](../../aspose.slides.effects/luminance/geteffective)() | विरासत लागू होने पर प्रभावी Luminance इफ़ेक्ट डेटा प्राप्त करता है। |
+| override [GetHashCode](../../aspose.slides.effects/luminance/gethashcode)() | विशिष्ट प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है। |
 
 ### संबंधित देखें
 
-* वर्ग [ImageTransformOperation](../imagetransformoperation)
+* क्लास [ImageTransformOperation](../imagetransformoperation)
 * इंटरफ़ेस [ILuminance](../iluminance)
 * नामस्थान [Aspose.Slides.Effects](../../aspose.slides.effects)
 * असेंबली [Aspose.Slides](../../)

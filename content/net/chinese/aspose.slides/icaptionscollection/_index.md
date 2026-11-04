@@ -1,14 +1,14 @@
 ---
 title: ICaptionsCollection
-second_title: Aspose.Sildes .NET API 参考
-description: 表示闭合字幕的集合。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示关闭字幕的集合。
 type: docs
-weight: 5440
+weight: 5460
 url: /zh/aspose.slides/icaptionscollection/
 ---
 ## ICaptionsCollection 接口
 
-表示闭合字幕的集合。
+表示关闭字幕的集合。
 
 ```csharp
 public interface ICaptionsCollection : IEnumerable<ICaptions>
@@ -19,19 +19,19 @@ public interface ICaptionsCollection : IEnumerable<ICaptions>
 | 名称 | 描述 |
 | --- | --- |
 | [Count](../../aspose.slides/icaptionscollection/count) { get; } | 返回集合中元素的数量。只读 Int32。 |
-| [Item](../../aspose.slides/icaptionscollection/item) { get; } | 返回指定索引处的闭合字幕。只读 [`ICaptions`](../icaptions)。 |
+| [Item](../../aspose.slides/icaptionscollection/item) { get; } | 返回指定索引处的关闭字幕。只读 [`ICaptions`](../icaptions)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [Add](../../aspose.slides/icaptionscollection/add#add)(string, Stream) | 从流中将 WebVTT 闭合字幕添加到集合的末尾。 |
-| [Add](../../aspose.slides/icaptionscollection/add#add_1)(string, string) | 将 WebVTT 闭合字幕添加到集合的末尾。 |
-| [Clear](../../aspose.slides/icaptionscollection/clear)() | 移除集合中所有闭合字幕。 |
-| [Remove](../../aspose.slides/icaptionscollection/remove)(ICaptions) | 移除集合中指定的闭合字幕。 |
-| [RemoveAt](../../aspose.slides/icaptionscollection/removeat)(int) | 移除指定索引处的闭合字幕。 |
+| [Add](../../aspose.slides/icaptionscollection/add#add)(string, Stream) | 从流中将 WebVTT 关闭字幕添加到集合的末尾。 |
+| [Add](../../aspose.slides/icaptionscollection/add#add_1)(string, string) | 将 WebVTT 关闭字幕添加到集合的末尾。 |
+| [Clear](../../aspose.slides/icaptionscollection/clear)() | 从集合中移除所有关闭字幕。 |
+| [Remove](../../aspose.slides/icaptionscollection/remove)(ICaptions) | 从集合中移除指定的关闭字幕。 |
+| [RemoveAt](../../aspose.slides/icaptionscollection/removeat)(int) | 移除指定索引处的关闭字幕。 |
 
-### 另请参阅
+### 参见
 
 * 接口 [ICaptions](../icaptions)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

@@ -1,14 +1,14 @@
 ---
 title: IGlowEffectiveData
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Unveränderliches Objekt, das einen Glow-Effekt darstellt, bei dem eine farbige, unscharfe Kontur außerhalb der Kanten des Objekts hinzugefügt wird.
+description: Unveränderliches Objekt, das einen Glow-Effekt darstellt, bei dem ein farbiger, unscharfer Umriss außerhalb der Kanten des Objekts hinzugefügt wird.
 type: docs
-weight: 3330
+weight: 3350
 url: /de/aspose.slides.effects/igloweffectivedata/
 ---
 ## IGlowEffectiveData Schnittstelle
 
-Unveränderliches Objekt, das einen Glow-Effekt darstellt, bei dem eine farbige, verschwommene Kontur außerhalb der Ränder des Objekts hinzugefügt wird.
+Unveränderliches Objekt, das einen Glow-Effekt darstellt, bei dem ein farbiger, unscharfer Umriss außerhalb der Kanten des Objekts hinzugefügt wird.
 
 ```csharp
 public interface IGlowEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface IGlowEffectiveData : IEffectEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/igloweffectivedata/asieffecteffectivedata) { get; } | Ermöglicht das Abrufen der Basis-IEffectEffectiveData Schnittstelle. Nur-Lesen [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Color](../../aspose.slides.effects/igloweffectivedata/color) { get; } | Farbe. Nur-Lesen Color. |
-| [Radius](../../aspose.slides.effects/igloweffectivedata/radius) { get; } | Radius. Nur-Lesen Double. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/igloweffectivedata/asieffecteffectivedata) { get; } | Ermöglicht den Zugriff auf die Basis-IEffectEffectiveData Schnittstelle. Nur-Lese [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Color](../../aspose.slides.effects/igloweffectivedata/color) { get; } | Color. Nur-Lese Color. |
+| [Radius](../../aspose.slides.effects/igloweffectivedata/radius) { get; } | Radius. Nur-Lese Double. |
 
 ### Siehe auch
 

@@ -3,7 +3,7 @@ title: ISlideComponent
 second_title: Aspose.Sildes for .NET API リファレンス
 description: スライドのコンポーネントを表します。
 type: docs
-weight: 7060
+weight: 7080
 url: /ja/aspose.slides/islidecomponent/
 ---
 ## ISlideComponent インターフェイス
@@ -19,7 +19,7 @@ public interface ISlideComponent : IPresentationComponent
 | 名前 | 説明 |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/islidecomponent/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [Slide](../../aspose.slides/islidecomponent/slide) { get; } | ベーススライドを返します。読み取り専用 [`IBaseSlide`](../ibaseslide)。 |
+| [Slide](../../aspose.slides/islidecomponent/slide) { get; } | ベース スライドを返します。読み取り専用 [`IBaseSlide`](../ibaseslide)。 |
 
 ### 参照
 

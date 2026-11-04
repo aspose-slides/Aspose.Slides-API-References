@@ -1,30 +1,30 @@
 ---
 title: CellUnsupportedDataException
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: जब स्प्रेडशीट सेल में असमर्थित डेटा पाया जाता है तो यह अपवाद फेंका जाता है।
+description: जब एक स्प्रेडशीट सेल में असमर्थित डेटा मिलता है तो फेंका जाने वाला अपवाद।
 type: docs
-weight: 10730
+weight: 10750
 url: /hi/aspose.slides.spreadsheet/cellunsupporteddataexception/
 ---
-## CellUnsupportedDataException क्लास
+## CellUnsupportedDataException वर्ग
 
-जब एक स्प्रेडशीट सेल में असमर्थित डेटा मिलता है तो फेंका गया अपवाद।
+जब एक स्प्रेडशीट सेल में असमर्थित डेटा मिलता है तो फेंका जाने वाला अपवाद।
 
 ```csharp
 public class CellUnsupportedDataException : PptxEditException
 ```
 
-## निर्माता
+## निर्माताएँ
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [CellUnsupportedDataException](cellunsupporteddataexception#constructor)() | [`CellUnsupportedDataException`](../cellunsupporteddataexception) क्लास का एक नया उदाहरण इनिशियलाइज़ करता है। |
-| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_1)(string) | निर्दिष्ट त्रुटि संदेश के साथ [`CellUnsupportedDataException`](../cellunsupporteddataexception) क्लास का एक नया उदाहरण इनिशियलाइज़ करता है। |
-| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_2)(string, Exception) | [`CellUnsupportedDataException`](../cellunsupporteddataexception) क्लास का एक नया उदाहरण निर्दिष्ट त्रुटि संदेश और अंतर्वर्ती अपवाद का एक संदर्भ जिसके कारण यह अपवाद हुआ, के साथ इनिशियलाइज़ करता है। |
+| [CellUnsupportedDataException](cellunsupporteddataexception#constructor)() | [`CellUnsupportedDataException`](../cellunsupporteddataexception) वर्ग का एक नया उदाहरण प्रारंभ करता है। |
+| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_1)(string) | [`CellUnsupportedDataException`](../cellunsupporteddataexception) वर्ग का एक नया उदाहरण निर्दिष्ट त्रुटि संदेश के साथ प्रारंभ करता है। |
+| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_2)(string, Exception) | [`CellUnsupportedDataException`](../cellunsupporteddataexception) वर्ग का एक नया उदाहरण निर्दिष्ट त्रुटि संदेश और इस अपवाद का कारण बनने वाले आंतरिक अपवाद का संदर्भ के साथ प्रारंभ करता है। |
 
-### देखें भी
+### संबंधित देखें
 
-* क्लास [PptxEditException](../../aspose.slides/pptxeditexception)
+* वर्ग [PptxEditException](../../aspose.slides/pptxeditexception)
 * नामस्थान [Aspose.Slides.Spreadsheet](../../aspose.slides.spreadsheet)
 * असेंबली [Aspose.Slides](../../)
 

@@ -3,7 +3,7 @@ title: IConnector
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt einen Connector dar.
 type: docs
-weight: 5610
+weight: 5630
 url: /de/aspose.slides/iconnector/
 ---
 ## IConnector Schnittstelle
@@ -16,21 +16,21 @@ public interface IConnector : IGeometryShape
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides/iconnector/asigeometryshape) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IGeometryShape. Nur lesbar [`IGeometryShape`](../igeometryshape). |
-| [ConnectorLock](../../aspose.slides/iconnector/connectorlock) { get; } | Gibt die Sperren des Connectors zurück. Nur lesbar [`IConnectorLock`](../iconnectorlock). |
-| [EndShapeConnectedTo](../../aspose.slides/iconnector/endshapeconnectedto) { get; set; } | Liefert oder legt die Form fest, an die das Ende des Connectors angeheftet wird. Lese-/Schreib [`IShape`](../ishape). |
-| [EndShapeConnectionSiteIndex](../../aspose.slides/iconnector/endshapeconnectionsiteindex) { get; set; } | Liefert oder legt den Index der Verbindungsstelle für die Endform fest. Lese-/Schreib UInt32. |
-| [ShapeLock](../../aspose.slides/iconnector/shapelock) { get; } | Gibt die Sperren der Form zurück. Nur lesbar [`IConnectorLock`](../iconnectorlock). |
-| [StartShapeConnectedTo](../../aspose.slides/iconnector/startshapeconnectedto) { get; set; } | Liefert oder legt die Form fest, an die der Anfang des Connectors angeheftet wird. Lese-/Schreib [`IShape`](../ishape). |
-| [StartShapeConnectionSiteIndex](../../aspose.slides/iconnector/startshapeconnectionsiteindex) { get; set; } | Liefert oder legt den Index der Verbindungsstelle für die Startform fest. Lese-/Schreib UInt32. |
+| [AsIGeometryShape](../../aspose.slides/iconnector/asigeometryshape) { get; } | Ermöglicht das Abrufen der Basis-IGeometryShape-Schnittstelle. Schreibgeschützt [`IGeometryShape`](../igeometryshape). |
+| [ConnectorLock](../../aspose.slides/iconnector/connectorlock) { get; } | Gibt die Sperren des Connectors zurück. Schreibgeschützt [`IConnectorLock`](../iconnectorlock). |
+| [EndShapeConnectedTo](../../aspose.slides/iconnector/endshapeconnectedto) { get; set; } | Gibt die Form zurück oder legt sie fest, an die das Ende des Connectors angebracht wird. Lese/Schreib [`IShape`](../ishape). |
+| [EndShapeConnectionSiteIndex](../../aspose.slides/iconnector/endshapeconnectionsiteindex) { get; set; } | Gibt den Index der Verbindungsstelle für die Endform zurück oder legt ihn fest. Lese/Schreib UInt32. |
+| [ShapeLock](../../aspose.slides/iconnector/shapelock) { get; } | Gibt die Sperren der Form zurück. Schreibgeschützt [`IConnectorLock`](../iconnectorlock). |
+| [StartShapeConnectedTo](../../aspose.slides/iconnector/startshapeconnectedto) { get; set; } | Gibt die Form zurück oder legt sie fest, an die der Anfang des Connectors angebracht wird. Lese/Schreib [`IShape`](../ishape). |
+| [StartShapeConnectionSiteIndex](../../aspose.slides/iconnector/startshapeconnectionsiteindex) { get; set; } | Gibt den Index der Verbindungsstelle für die Startform zurück oder legt ihn fest. Lese/Schreib UInt32. |
 
 ## Methoden
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [Reroute](../../aspose.slides/iconnector/reroute)() | Leitet den Connector um, sodass er den kürzest möglichen Pfad zwischen den Formen, die er verbindet, nimmt. |
+| [Reroute](../../aspose.slides/iconnector/reroute)() | Leitet den Connector neu, sodass er den kürzest möglichen Pfad zwischen den Formen, die er verbindet, nimmt. |
 
 ### Siehe auch
 

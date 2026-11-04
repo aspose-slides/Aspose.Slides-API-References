@@ -1,34 +1,34 @@
 ---
 title: IMathDelimiter
-second_title: Aspose.Sildes for .NET API リファレンス
-description: "開き括弧や閉じ括弧（丸括弧、波括弧、角括弧、縦棒など）で構成され、指定された文字で区切られた 1 つ以上の数式要素を内部に持つ区切りオブジェクトを指定します。例: 2 2x7C2"
+second_title: Aspose.Sildes for .NET APIリファレンス
+description: 開き括弧、閉じ括弧、波かっこ、角括弧、縦棒などの開始文字と終了文字で構成され、内部に 1 つ以上の数式要素が指定された文字で区切られる区切りオブジェクトを指定します。例: (𝑥2); [𝑥2|𝑦2]
 type: docs
-weight: 8210
+weight: 8230
 url: /ja/aspose.slides.mathtext/imathdelimiter/
 ---
 ## IMathDelimiter インターフェイス
 
-開きと閉じの文字（丸括弧、波括弧、角括弧、縦棒など）で構成され、指定された文字で区切られた 1 つ以上の数式要素を内部に持つ区切りオブジェクトを指定します。例: (𝑥2); [𝑥2&#x7C;𝑦2]
+区切り文字 (括弧、ブレース、角括弧、縦棒など) で囲まれた開始文字と終了文字から構成し、内部に 1 つ以上の数式要素が指定された文字で区切られる区切りオブジェクトを指定します。例: (𝑥2); [𝑥2&#x7C;𝑦2]
 
 ```csharp
 public interface IMathDelimiter : IMathElement
 ```
 
-## プロパティ
+## Properties
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [Arguments](../../aspose.slides.mathtext/imathdelimiter/arguments) { get; } | 区切り文字で分割された 1 つ以上の数式要素 |
-| [AsIMathElement](../../aspose.slides.mathtext/imathdelimiter/asimathelement) { get; } | ベースの IMathElement インターフェイス [`IMathElement`](../imathelement) を取得できます |
-| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | Delimiter Beginning Character は、開始、すなわち開く区切り文字を指定します。数式区切り文字は丸括弧、角括弧、波括弧などの囲み文字です。デフォルト値: '('。 |
-| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | 区切り文字オブジェクトの形状を指定します。MathDelimiterShape.Centered の場合、区切り文字は数式テキストの数式軸の周りにセンタリングされ、内容全体の高さに合わせて調整されます。MathDelimiterShape.Match の場合、高さと形状が内容に完全に合わせて変更されます。 |
-| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | Delimiter Ending Character は、終了、すなわち閉じる区切り文字を指定します。数式区切り文字は丸括弧、角括弧、波括弧などの囲み文字です。デフォルト: ')'。 |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | BeginningCharacter、SeparatorCharacter、EndingCharacter の伸長を指定します。true の場合、区切り文字は縦方向に伸びてオペランドの高さに合わせます。デフォルト値は true です |
-| [SeparatorCharacter](../../aspose.slides.mathtext/imathdelimiter/separatorcharacter) { get; set; } | Delimiter Separator Character は、区切りオブジェクト内で引数を区切る文字を指定します。デフォルト: '&#x7C;'. |
+| [Arguments](../../aspose.slides.mathtext/imathdelimiter/arguments) { get; } | 区切り文字で区切られた 1 つ以上の数式要素 |
+| [AsIMathElement](../../aspose.slides.mathtext/imathdelimiter/asimathelement) { get; } | 基本 IMathElement インターフェイス [`IMathElement`](../imathelement) を取得できます |
+| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | Delimiter Beginning Character は開始、すなわち開きの区切り文字を指定します。数式の区切り文字は括弧や角括弧、ブレースなどの囲む文字です。デフォルト値: '('. |
+| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | 区切りオブジェクト内の区切り記号の形状を指定します。MathDelimiterShape.Centered の場合、区切り記号は数式テキストの数軸の周りに中心揃えされ、内容全体の高さに合わせて調整されます。MathDelimiterShape.Match の場合、高さと形状が内容に正確に一致するように変更されます。 |
+| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set: } | Delimiter Ending Character は終了、すなわち閉じの区切り文字を指定します。数式の区切り文字は括弧や角括弧、ブレースなどの囲む文字です。デフォルト: ')'. |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | BeginningCharacter、SeparatorCharacter、EndingCharacter の成長を指定します。true の場合、区切り記号は縦方向に伸びてオペランドの高さに合わせます。デフォルト値は true です |
+| [SeparatorCharacter](../../aspose.slides.mathtext/imathdelimiter/separatorcharacter) { get; set; } | Delimiter Separator Character は区切りオブジェクト内で引数を区切る文字を指定します。デフォルト: '&#x7C;'. |
 
-## メソッド
+## Methods
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [Delimit](../../aspose.slides.mathtext/imathdelimiter/delimit)(char) | 指定された区切り文字を使用して引数を区切ります |
 
@@ -42,7 +42,7 @@ IMathElement element = new MathematicalText("x");
 IMathDelimiter delimiter = element.Enclose();
 ```
 
-### 参照
+### 関連項目
 
 * インターフェイス [IMathElement](../imathelement)
 * 名前空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

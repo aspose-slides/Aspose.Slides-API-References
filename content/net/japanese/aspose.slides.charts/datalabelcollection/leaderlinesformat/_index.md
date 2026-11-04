@@ -3,12 +3,12 @@ title: LeaderLinesFormat
 second_title: Aspose.Sildes for .NET API リファレンス
 description: データ ラベルのリーダー ラインの書式を表します。 読み取り専用 IChartLinesFormataspose.slides.charts/ichartlinesformat.
 type: docs
-weight: 70
+weight: 80
 url: /ja/aspose.slides.charts/datalabelcollection/leaderlinesformat/
 ---
 ## DataLabelCollection.LeaderLinesFormat プロパティ
 
-データ ラベルのリーダー ラインの書式を表します。 読み取り専用 [`IChartLinesFormat`](../../ichartlinesformat).
+データ ラベルのリーダー ラインの書式を表します。 読み取り専用 [`IChartLinesFormat`](../../ichartlinesformat)。
 
 ```csharp
 public IChartLinesFormat LeaderLinesFormat { get; }

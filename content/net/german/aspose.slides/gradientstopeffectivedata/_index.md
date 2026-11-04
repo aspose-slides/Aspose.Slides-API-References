@@ -1,14 +1,14 @@
 ---
 title: GradientStopEffectiveData
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Unveränderliches Objekt, das einen Gradientstopp darstellt.
+description: Unveränderliches Objekt, das einen Farbverlaufspunkt darstellt.
 type: docs
-weight: 5050
+weight: 5070
 url: /de/aspose.slides/gradientstopeffectivedata/
 ---
 ## GradientStopEffectiveData Klasse
 
-Unveränderliches Objekt, das einen Gradientstopps darstellt.
+Unveränderliches Objekt, das einen Farbverlaufspunkt darstellt.
 
 ```csharp
 public class GradientStopEffectiveData : IGradientStopEffectiveData
@@ -18,14 +18,14 @@ public class GradientStopEffectiveData : IGradientStopEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [Color](../../aspose.slides/gradientstopeffectivedata/color) { get; } | Gibt die Farbe eines Gradientstopps zurück. Nur Lesezugriff Color. |
-| [Position](../../aspose.slides/gradientstopeffectivedata/position) { get; } | Gibt die Position (0..1) eines Gradientstopps zurück. Nur Lesezugriff Single. |
+| [Color](../../aspose.slides/gradientstopeffectivedata/color) { get; } | Gibt die Farbe eines Farbverlaufspunkts zurück. Nur-Lese Color. |
+| [Position](../../aspose.slides/gradientstopeffectivedata/position) { get; } | Gibt die Position (0..1) eines Farbverlaufspunkts zurück. Nur-Lese Single. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | Bestimmt, ob das angegebene [`GradientStopEffectiveData`](../gradientstopeffectivedata) dem aktuellen [`GradientStopEffectiveData`](../gradientstopeffectivedata) entspricht. |
+| override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | Bestimmt, ob das angegebene [`GradientStopEffectiveData`](../gradientstopeffectivedata) gleich dem aktuellen [`GradientStopEffectiveData`](../gradientstopeffectivedata) ist. |
 | override [GetHashCode](../../aspose.slides/gradientstopeffectivedata/gethashcode)() |  |
 
 ### Siehe auch

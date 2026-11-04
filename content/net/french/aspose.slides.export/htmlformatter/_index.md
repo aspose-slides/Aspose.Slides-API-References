@@ -3,10 +3,10 @@ title: HtmlFormatter
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente le modèle de fichier HTML.
 type: docs
-weight: 3870
+weight: 3890
 url: /fr/aspose.slides.export/htmlformatter/
 ---
-## classe HtmlFormatter
+## HtmlFormatter classe
 
 Représente le modèle de fichier HTML.
 
@@ -18,9 +18,9 @@ public sealed class HtmlFormatter : IHtmlFormatter
 
 | Nom | Description |
 | --- | --- |
-| static [CreateCustomFormatter](../../aspose.slides.export/htmlformatter/createcustomformatter)(IHtmlFormattingController) | Crée et renvoie un formateur HTML pour une génération HTML personnalisée pilotée par des rappels. |
-| static [CreateDocumentFormatter](../../aspose.slides.export/htmlformatter/createdocumentformatter)(string, bool) | Crée et renvoie un formateur HTML pour une vue simple de document qui consiste en des séquences de diapositives les unes sous les autres. |
-| static [CreateSlideShowFormatter](../../aspose.slides.export/htmlformatter/createslideshowformatter)(string, bool) | Crée et renvoie un formateur HTML pour un diaporama HTML simple qui montre les diapositives les unes après les autres. |
+| static [CreateCustomFormatter](../../aspose.slides.export/htmlformatter/createcustomformatter)(IHtmlFormattingController) | Crée et renvoie le formateur HTML pour une génération HTML personnalisée pilotée par des rappels. |
+| static [CreateDocumentFormatter](../../aspose.slides.export/htmlformatter/createdocumentformatter)(string, bool) | Crée et renvoie le formateur HTML pour une vue de document simple qui consiste en une séquence de diapositives les unes sous les autres. |
+| static [CreateSlideShowFormatter](../../aspose.slides.export/htmlformatter/createslideshowformatter)(string, bool) | Crée et renvoie le formateur HTML pour un diaporama HTML simple qui affiche les diapositives les unes après les autres. |
 
 ### Voir aussi
 

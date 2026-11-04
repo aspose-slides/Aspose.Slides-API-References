@@ -1,14 +1,14 @@
 ---
 title: IEffectStyleCollectionEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
-description: Oföränderligt objekt som representerar en skrivskyddad samling av effektiva effektstilar.
+description: Oföränderligt objekt som representerar en skrivskyddad samling av effektstilar.
 type: docs
-weight: 11190
+weight: 11210
 url: /sv/aspose.slides.theme/ieffectstylecollectioneffectivedata/
 ---
 ## IEffectStyleCollectionEffectiveData gränssnitt
 
-Oföränderligt objekt som representerar en skrivskyddad samling av effektiva effektstilar.
+Oföränderligt objekt som representerar en skrivskyddad samling av effektstilar.
 
 ```csharp
 public interface IEffectStyleCollectionEffectiveData : IGenericCollection<IEffectStyleEffectiveData>
@@ -18,7 +18,7 @@ public interface IEffectStyleCollectionEffectiveData : IGenericCollection<IEffec
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ieffectstylecollectioneffectivedata/item) { get; } | Hämtar elementet på det angivna indexet. Skrivskyddad [`IEffectStyleEffectiveData`](../ieffectstyleeffectivedata). |
+| [Item](../../aspose.slides.theme/ieffectstylecollectioneffectivedata/item) { get; } | Hämtar elementet på angivet index. Skrivskyddad [`IEffectStyleEffectiveData`](../ieffectstyleeffectivedata). |
 
 ### Anmärkningar
 

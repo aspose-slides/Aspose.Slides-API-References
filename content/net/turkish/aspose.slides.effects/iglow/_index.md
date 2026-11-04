@@ -1,14 +1,14 @@
 ---
 title: IGlow
-second_title: Aspose.Sildes for .NET API Referansı
-description: Nesnenin kenarlarının dışına renkli bulanık bir kontur eklenen bir Parıltı etkisini temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Nesnenin kenarlarının dışına renkli, bulanık bir kontur eklenen bir Glow etkisini temsil eder.
 type: docs
-weight: 3320
+weight: 3340
 url: /tr/aspose.slides.effects/iglow/
 ---
-## IGlow arabirimi
+## IGlow arayüz
 
-Objenin kenarlarının dışına renkli bulanık bir kenarlık ekleyen bir Parıltı etkisini temsil eder.
+Bir Glow etkisini temsil eder; bu etki, nesnenin kenarlarının dışına renkli, bulanık bir kontur ekler.
 
 ```csharp
 public interface IGlow : IAccessiblePVIObject<IGlowEffectiveData>, IImageTransformOperation
@@ -18,16 +18,16 @@ public interface IGlow : IAccessiblePVIObject<IGlowEffectiveData>, IImageTransfo
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iglow/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arabiriminin alınmasına izin verir. Salt-okunur [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iglow/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arabiriminin alınmasına izin verir. Salt-okunur [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Color](../../aspose.slides.effects/iglow/color) { get; } | Renk biçimi. Salt-okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Radius](../../aspose.slides.effects/iglow/radius) { get; set; } | Yarıçap. Okunur/yazılabilir Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iglow/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arayüzüne erişim sağlar. Salt Okunur [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iglow/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arayüzüne erişim sağlar. Salt Okunur [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Color](../../aspose.slides.effects/iglow/color) { get; } | Renk biçimi. Salt Okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Radius](../../aspose.slides.effects/iglow/radius) { get; set; } | Yarıçap. Okunur/Yazılabilir Double. |
 
 ### Ayrıca Bakınız
 
-* arabirim [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
-* arabirim [IGlowEffectiveData](../igloweffectivedata)
-* arabirim [IImageTransformOperation](../iimagetransformoperation)
+* arayüz [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
+* arayüz [IGlowEffectiveData](../igloweffectivedata)
+* arayüz [IImageTransformOperation](../iimagetransformoperation)
 * ad alanı [Aspose.Slides.Effects](../../aspose.slides.effects)
 * derleme [Aspose.Slides](../../)
 

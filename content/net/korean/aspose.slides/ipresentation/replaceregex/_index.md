@@ -1,41 +1,41 @@
 ---
 title: ReplaceRegex
-second_title: Aspose.Sildes for .NET API 참조
-description: 정규식과 일치하는 모든 항목을 지정된 문자열로 교체합니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 정규식과 일치하는 모든 항목을 지정된 문자열로 바꿉니다.
 type: docs
-weight: 360
+weight: 370
 url: /ko/aspose.slides/ipresentation/replaceregex/
 ---
 ## IPresentation.ReplaceRegex 메서드
 
-정규식과 일치하는 모든 항목을 지정된 문자열로 교체합니다.
+정규식과 일치하는 모든 항목을 지정된 문자열로 바꿉니다.
 
 ```csharp
 public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callback)
 ```
 
-| 매개변수 | 형식 | 설명 |
+| 매개변수 | 유형 | 설명 |
 | --- | --- | --- |
-| regex | Regex | 교체할 문자열을 가져오는 정규식 Regex. |
-| newText | String | 교체될 문자열의 모든 발생을 교체하는 문자열. |
-| callback | IFindResultCallback | 검색 결과를 수신하기 위한 콜백 객체 [`IFindResultCallback`](../../ifindresultcallback). |
+| regex | Regex | 대체할 문자열을 가져오기 위한 정규식 Regex. |
+| newText | String | 대체될 문자열의 모든 발생을 대체할 문자열. |
+| callback | IFindResultCallback | 검색 결과를 받기 위한 콜백 객체 [`IFindResultCallback`](../../ifindresultcallback). |
 
-### 예제
+### 예시
 
-다음 코드 샘플은 정규식을 사용하여 지정된 문자열로 텍스트를 교체하는 방법을 보여줍니다.
+다음 코드 예제는 정규식을 사용하여 지정된 문자열로 텍스트를 바꾸는 방법을 보여줍니다.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// 10자 이상인 모든 단어를 '***'로 교체합니다
+	// 10자 이상인 모든 단어를 '***' 로 바꿉니다.
 	presentation.ReplaceRegex(regex, "***", null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }
 ```
 
-### 관련 항목
+### 참고
 
 * 인터페이스 [IFindResultCallback](../../ifindresultcallback)
 * 인터페이스 [IPresentation](../../ipresentation)

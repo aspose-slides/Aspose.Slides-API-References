@@ -1,26 +1,26 @@
 ---
 title: InvalidPasswordException
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: ข้อยกเว้นที่ถูกโยนเมื่อรูปแบบไฟล์การนำเสนอไม่รองรับ.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: ข้อยกเว้นที่ถูกโยนเมื่อรูปแบบไฟล์งานนำเสนอไม่รองรับ.
 type: docs
-weight: 7620
+weight: 7640
 url: /th/aspose.slides/invalidpasswordexception/
 ---
 ## InvalidPasswordException คลาส
 
-ข้อยกเว้นที่ถูกโยนเมื่อรูปแบบไฟล์การนำเสนอไม่รองรับ
+Exception which thrown when presentation file format is unsupported.
 
 ```csharp
 public class InvalidPasswordException : Exception
 ```
 
-## คอนสตรัคเตอร์
+## ตัวสร้าง
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [InvalidPasswordException](invalidpasswordexception#constructor)() | คอนสตรัคเตอร์เริ่มต้น |
-| [InvalidPasswordException](invalidpasswordexception#constructor_1)(string) | คอนสตรัคเตอร์ที่อนุญาตให้เพิ่มข้อความไปยังข้อยกเว้นนี้ |
-| [InvalidPasswordException](invalidpasswordexception#constructor_2)(string, Exception) | คอนสตรัคเตอร์สำหรับข้อยกเว้นที่มีข้อความและข้อยกเว้นที่ฝังอยู่ |
+| [InvalidPasswordException](invalidpasswordexception#constructor)() | คอนสตรักเตอร์เริ่มต้น. |
+| [InvalidPasswordException](invalidpasswordexception#constructor_1)(string) | คอนสตรักเตอร์ที่อนุญาตให้เพิ่มข้อความไปยังข้อยกเว้นนี้. |
+| [InvalidPasswordException](invalidpasswordexception#constructor_2)(string, Exception) | คอนสตรักเตอร์สำหรับข้อยกเว้นที่มีข้อความและข้อยกเว้นที่ฝังอยู่. |
 
 ### ดูเพิ่มเติม
 

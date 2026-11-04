@@ -3,7 +3,7 @@ title: MathSubscriptElementFactory
 second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: อนุญาตให้สร้าง IMathSubscriptElement
 type: docs
-weight: 9010
+weight: 9030
 url: /th/aspose.slides.mathtext/mathsubscriptelementfactory/
 ---
 ## MathSubscriptElementFactory คลาส
@@ -14,11 +14,11 @@ url: /th/aspose.slides.mathtext/mathsubscriptelementfactory/
 public class MathSubscriptElementFactory : IMathSubscriptElementFactory
 ```
 
-## คอนสตรัคเตอร์
+## ตัวสร้าง
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [MathSubscriptElementFactory](mathsubscriptelementfactory)() | คอนสตรัคเตอร์เริ่มต้น |
+| [MathSubscriptElementFactory](mathsubscriptelementfactory)() | คอนสตรัคเตอร์เริ่มต้น. |
 
 ## เมธอด
 
@@ -28,7 +28,7 @@ public class MathSubscriptElementFactory : IMathSubscriptElementFactory
 
 ### หมายเหตุ
 
-สำหรับความเข้ากันได้ของ COM
+สำหรับความเข้ากันได้กับ COM
 
 ### ดูเพิ่มเติม
 

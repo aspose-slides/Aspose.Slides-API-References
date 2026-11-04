@@ -1,9 +1,9 @@
 ---
 title: IChartSeriesCollection
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: เป็นตัวแทนของคอลเลกชันของ IChartSeries./ichartseries
 type: docs
-weight: 1940
+weight: 1960
 url: /th/aspose.slides.charts/ichartseriescollection/
 ---
 ## IChartSeriesCollection อินเทอร์เฟซ
@@ -16,23 +16,23 @@ public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartseriescollection/item) { get; } | ดึงเอาองค์ประกอบที่ตำแหน่งดัชนีที่ระบุ. |
+| [Item](../../aspose.slides.charts/ichartseriescollection/item) { get; } | ดึงเอาองค์ประกอบที่ตำแหน่งที่ระบุ |
 
 ## เมธอด
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add)(ChartType) | สร้างซีรีส์แผนภูมิใหม่และเพิ่มเข้าไปในคอลเลกชัน. |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_1)(IChartCellCollection, ChartType) | สร้างซีรีส์แผนภูมิใหม่จาก [`IChartCellCollection`](../ichartcellcollection) และเพิ่มเข้าไปในคอลเลกชัน. |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_2)(IChartDataCell, ChartType) | สร้างซีรีส์แผนภูมิใหม่จาก [`IChartDataCell`](../ichartdatacell) และเพิ่มเข้าไปในคอลเลกชัน. |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_3)(string, ChartType) | สร้างซีรีส์แผนภูมิใหม่จากค่าและเพิ่มเข้าไปในคอลเลกชัน. |
-| [Clear](../../aspose.slides.charts/ichartseriescollection/clear)() | ลบองค์ประกอบทั้งหมด (รวมถึงสไตล์ของแผนภูมิ) จากคอลเลกชัน. |
-| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | ค้นหา [`IChartSeries`](../ichartseries) ที่ระบุและคืนค่าอินเด็กซ์เริ่มจากศูนย์ของการปรากฏครั้งแรกภายในคอลเลกชันทั้งหมด |
-| [Insert](../../aspose.slides.charts/ichartseriescollection/insert)(int, ChartType) | สร้างซีรีส์แผนภูมิใหม่และแทรกเข้าไปในคอลเลกชัน. |
-| [Remove](../../aspose.slides.charts/ichartseriescollection/remove)(IChartSeries) | ลบค่าที่ระบุ. |
-| [RemoveAt](../../aspose.slides.charts/ichartseriescollection/removeat)(int) | ลบองค์ประกอบที่ตำแหน่งดัชนีที่ระบุ |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add)(ChartType) | สร้างซีรีส์แผนภูมิใหม่และเพิ่มลงในคอลเลกชัน |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_1)(IChartCellCollection, ChartType) | สร้างซีรีส์แผนภูมิใหม่จาก [`IChartCellCollection`](../ichartcellcollection) และเพิ่มลงในคอลเลกชัน |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_2)(IChartDataCell, ChartType) | สร้างซีรีส์แผนภูมิใหม่จาก [`IChartDataCell`](../ichartdatacell) และเพิ่มลงในคอลเลกชัน |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_3)(string, ChartType) | สร้างซีรีส์แผนภูมิใหม่จากค่าและเพิ่มลงในคอลเลกชัน |
+| [Clear](../../aspose.slides.charts/ichartseriescollection/clear)() | ลบทุกองค์ประกอบ (รวมถึงสไตล์แผนภูมิ) ออกจากคอลเลกชัน |
+| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | ค้นหา [`IChartSeries`](../ichartseries) ที่ระบุและคืนค่าดัชนีที่เริ่มจากศูนย์ของการพบครั้งแรกในคอลเลกชันทั้งหมด |
+| [Insert](../../aspose.slides.charts/ichartseriescollection/insert)(int, ChartType) | สร้างซีรีส์แผนภูมิใหม่และแทรกลงในคอลเลกชัน |
+| [Remove](../../aspose.slides.charts/ichartseriescollection/remove)(IChartSeries) | ลบค่าที่ระบุ |
+| [RemoveAt](../../aspose.slides.charts/ichartseriescollection/removeat)(int) | ลบองค์ประกอบที่ตำแหน่งที่ระบุ |
 
 ### ดูเพิ่มเติม
 

@@ -1,9 +1,9 @@
 ---
 title: IHyperlinkContainer
-second_title: Aspose.Sildes untuk .NET Referensi API
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili objek hyperlink.
 type: docs
-weight: 6120
+weight: 6140
 url: /id/aspose.slides/ihyperlinkcontainer/
 ---
 ## IHyperlinkContainer antarmuka
@@ -18,8 +18,8 @@ public interface IHyperlinkContainer
 
 | Nama | Deskripsi |
 | --- | --- |
-| [HyperlinkClick](../../aspose.slides/ihyperlinkcontainer/hyperlinkclick) { get; set; } | Mengembalikan atau mengatur hyperlink yang didefinisikan untuk klik mouse. Baca/tulis [`IHyperlink`](../ihyperlink). |
-| [HyperlinkManager](../../aspose.slides/ihyperlinkcontainer/hyperlinkmanager) { get; } | Manajer hyperlink Baca-saja [`IHyperlinkManager`](../ihyperlinkmanager). |
+| [HyperlinkClick](../../aspose.slides/ihyperlinkcontainer/hyperlinkclick) { get; set; } | Mengembalikan atau mengatur hyperlink yang didefinisikan untuk mouse click. Baca/tulis [`IHyperlink`](../ihyperlink). |
+| [HyperlinkManager](../../aspose.slides/ihyperlinkcontainer/hyperlinkmanager) { get; } | Manajer Hyperlinks Baca-saja [`IHyperlinkManager`](../ihyperlinkmanager). |
 | [HyperlinkMouseOver](../../aspose.slides/ihyperlinkcontainer/hyperlinkmouseover) { get; set; } | Mengembalikan atau mengatur hyperlink yang didefinisikan untuk mouse over. Baca/tulis [`IHyperlink`](../ihyperlink). |
 
 ### Lihat Juga

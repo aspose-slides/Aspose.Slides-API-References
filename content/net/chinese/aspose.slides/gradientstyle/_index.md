@@ -3,7 +3,7 @@ title: GradientStyle
 second_title: Aspose.Sildes .NET API 参考
 description: 表示可用的渐变样式。
 type: docs
-weight: 5060
+weight: 5080
 url: /zh/aspose.slides/gradientstyle/
 ---
 ## GradientStyle 枚举
@@ -18,10 +18,10 @@ public enum GradientStyle
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Default | `0` | 默认的渐变样式。 |
-| PowerPointUI | `1` | 在 PowerPoint 用户界面中显示的渐变样式。 |
+| Default | `0` | 默认渐变样式。 |
+| PowerPointUI | `1` | PowerPoint 用户界面中出现的渐变样式。 |
 
-### 另请参阅
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

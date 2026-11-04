@@ -1,12 +1,12 @@
 ---
 title: ChartCategoryLevelsManager
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: चार्ट श्रेणी स्तरों के मानों का प्रबंधित कंटेनर।
+description: चार्ट श्रेणी स्तरों के मानों के प्रबंधित कंटेनर।
 type: docs
-weight: 1290
+weight: 1300
 url: /hi/aspose.slides.charts/chartcategorylevelsmanager/
 ---
-## ChartCategoryLevelsManager वर्ग
+## ChartCategoryLevelsManager क्लास
 
 चार्ट श्रेणी स्तरों के मानों का प्रबंधित कंटेनर।
 
@@ -20,12 +20,12 @@ public class ChartCategoryLevelsManager : IChartCategoryLevelsManager
 | --- | --- |
 | [Item](../../aspose.slides.charts/chartcategorylevelsmanager/item) { get; } | परिभाषित स्तर के लिए IChartDataCell ऑब्जेक्ट लौटाता है। |
 
-## विधियाँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| [DeleteGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/deletegroupingitem)(int) | परिभाषित स्तर के लिए समूहित आइटम हटाता है। |
-| [SetGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/setgroupingitem)(int, object) | परिभाषित स्तर के लिए समूहित आइटम सेट करता है। |
+| [DeleteGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/deletegroupingitem)(int) | परिभाषित स्तर के लिए ग्रुपिंग आइटम हटाता है। |
+| [SetGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/setgroupingitem)(int, object) | परिभाषित स्तर के लिए ग्रुपिंग आइटम सेट करता है। |
 
 ### संबंधित देखें
 

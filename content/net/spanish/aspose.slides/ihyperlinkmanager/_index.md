@@ -1,9 +1,9 @@
 ---
 title: IHyperlinkManager
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Proporciona la gestión de hipervínculos añadiendo y eliminando.
+description: Proporciona la gestión de hipervínculos, agregar y eliminar.
 type: docs
-weight: 6130
+weight: 6150
 url: /es/aspose.slides/ihyperlinkmanager/
 ---
 ## IHyperlinkManager interfaz
@@ -19,14 +19,14 @@ public interface IHyperlinkManager
 | Nombre | Descripción |
 | --- | --- |
 | [RemoveHyperlinkClick](../../aspose.slides/ihyperlinkmanager/removehyperlinkclick)() | Elimina el hipervínculo al hacer clic. |
-| [RemoveHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/removehyperlinkmouseover)() | Elimina el hipervínculo al pasar el mouse. |
+| [RemoveHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/removehyperlinkmouseover)() | Elimina el hipervínculo al pasar el ratón. |
 | [SetExternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkclick)(string) | Establece un hipervínculo externo al hacer clic. |
-| [SetExternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkmouseover)(string) | Establece un hipervínculo externo al pasar el mouse. |
+| [SetExternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkmouseover)(string) | Establece un hipervínculo externo al pasar el ratón. |
 | [SetInternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkclick)(ISlide) | Establece un hipervínculo interno al hacer clic. |
-| [SetInternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | Establece un hipervínculo interno al pasar el mouse. |
+| [SetInternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | Establece un hipervínculo interno al pasar el ratón. |
 | [SetMacroHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setmacrohyperlinkclick)(string) | Establece un hipervínculo de Macro al hacer clic. |
 
-### Véase también
+### Ver también
 
 * espacio de nombres [Aspose.Slides](../../aspose.slides)
 * ensamblado [Aspose.Slides](../../)

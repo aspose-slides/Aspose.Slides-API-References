@@ -1,9 +1,9 @@
 ---
 title: MasterThemeManager
-second_title: Referencia de la API de Aspose.Sildes para .NET
+second_title: Referencia de la API Aspose.Sildes para .NET
 description: Proporciona acceso al tema maestro de la presentación.
 type: docs
-weight: 11440
+weight: 11460
 url: /es/aspose.slides.theme/masterthememanager/
 ---
 ## MasterThemeManager clase
@@ -18,7 +18,7 @@ public class MasterThemeManager : BaseThemeManager, IMasterThemeManager
 
 | Nombre | Descripción |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/masterthememanager/isoverridethemeenabled) { get; set; } | Determina si OverrideTheme sobrescribe el tema efectivo heredado (Presentation.MasterTheme) o no. Lectura/escritura Boolean. |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/masterthememanager/isoverridethemeenabled) { get; set; } | Determina si OverrideTheme sobrescribe el tema efectivo heredado (Presentation.MasterTheme) o no. Lectura/escritura Booleano. |
 | [OverrideTheme](../../aspose.slides.theme/masterthememanager/overridetheme) { get; set; } | Devuelve el objeto de tema de sobrescritura. Lectura/escritura [`IMasterTheme`](../imastertheme). |
 
 ## Métodos
@@ -28,7 +28,7 @@ public class MasterThemeManager : BaseThemeManager, IMasterThemeManager
 | [ApplyColorScheme](../../aspose.slides.theme/masterthememanager/applycolorscheme)(IExtraColorScheme) | Aplica un esquema de color adicional a una diapositiva. |
 | [CreateThemeEffective](../../aspose.slides.theme/masterthememanager/createthemeeffective)() | Devuelve el objeto de tema. |
 
-### Ver también
+### Véase también
 
 * clase [BaseThemeManager](../basethememanager)
 * interfaz [IMasterThemeManager](../imasterthememanager)

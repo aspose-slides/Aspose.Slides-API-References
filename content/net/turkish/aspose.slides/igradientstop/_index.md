@@ -1,14 +1,14 @@
 ---
 title: IGradientStop
 second_title: Aspose.Sildes .NET API Referansı
-description: Bir degrade biçimini temsil eder.
+description: Bir gradyan biçimini temsil eder.
 type: docs
-weight: 6020
+weight: 6040
 url: /tr/aspose.slides/igradientstop/
 ---
 ## IGradientStop arayüz
 
-Bir degrade biçimini temsil eder.
+Bir gradyan biçimini temsil eder.
 
 ```csharp
 public interface IGradientStop
@@ -18,8 +18,8 @@ public interface IGradientStop
 
 | Ad | Açıklama |
 | --- | --- |
-| [Color](../../aspose.slides/igradientstop/color) { get; } | Bir gradient durakının rengini döndürür. Salt okunur [`IColorFormat`](../icolorformat). |
-| [Position](../../aspose.slides/igradientstop/position) { get; set; } | Bir gradient durakının konumunu (0..1) döndürür veya ayarlar. Okunur/yazılabilir Single. |
+| [Color](../../aspose.slides/igradientstop/color) { get; } | Gradient durakının rengini döndürür. Salt-okunur [`IColorFormat`](../icolorformat). |
+| [Position](../../aspose.slides/igradientstop/position) { get; set; } | Gradient durakının konumunu (0..1) döndürür veya ayarlar. Okunur/yazılır Single. |
 
 ### Ayrıca Bakınız
 

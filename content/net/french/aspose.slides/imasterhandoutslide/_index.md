@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlide
 second_title: Référence API Aspose.Sildes pour .NET
-description: Représente la diapositive maître pour les documents d'accompagnement.
+description: Représente la diapositive maître pour les versions imprimées.
 type: docs
-weight: 6350
+weight: 6370
 url: /fr/aspose.slides/imasterhandoutslide/
 ---
 ## IMasterHandoutSlide interface
 
-Représente la diapositive maître pour les documents d’accompagnement.
+Représente la diapositive maître pour les versions imprimées.
 
 ```csharp
 public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
@@ -18,12 +18,12 @@ public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
 
 | Nom | Description |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | Permet d’obtenir l’interface de base IBaseSlide. Lecture seule [`IBaseSlide`](../ibaseslide). |
-| [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | Renvoie l’interface IMasterThemeable. Lecture seule [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [DrawingGuides](../../aspose.slides/imasterhandoutslide/drawingguides) { get; } | Renvoie une collection de repères de dessin pour la diapositive maître des documents d’accompagnement. Lecture seule [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | Renvoie le gestionnaire HeaderFooter de la diapositive maître des documents d’accompagnement. Lecture seule [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
+| [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | Permet d'obtenir l'interface IBaseSlide de base. Lecture seule [`IBaseSlide`](../ibaseslide). |
+| [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | Renvoie l'interface IMasterThemeable. Lecture seule [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
+| [DrawingGuides](../../aspose.slides/imasterhandoutslide/drawingguides) { get; } | Renvoie une collection de guides de dessin pour la diapositive principale de support. Lecture seule [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | Renvoie le gestionnaire HeaderFooter de la diapositive principale de support. Lecture seule [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
 
-### Voir aussi
+### Voir également
 
 * interface [IBaseSlide](../ibaseslide)
 * interface [IMasterThemeable](../../aspose.slides.theme/imasterthemeable)

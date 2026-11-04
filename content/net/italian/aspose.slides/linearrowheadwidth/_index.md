@@ -1,12 +1,12 @@
 ---
 title: LineArrowheadWidth
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta la larghezza di una punta di freccia.
 type: docs
-weight: 7750
+weight: 7770
 url: /it/aspose.slides/linearrowheadwidth/
 ---
-## LineArrowheadWidth enumerazione
+## Enumerazione LineArrowheadWidth
 
 Rappresenta la larghezza di una punta di freccia.
 

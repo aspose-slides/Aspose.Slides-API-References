@@ -1,14 +1,14 @@
 ---
 title: WebDocument
-second_title: Aspose.Sildes .NET API referencia
-description: A prezentáció webformátumba mentésére szolgáló átmeneti formátumot képviseli.
+second_title: Aspose.Sildes .NET API-referencia
+description: A prezentáció átmeneti formáját képviseli a webformátumba mentéshez.
 type: docs
-weight: 4680
+weight: 4700
 url: /hu/aspose.slides.export.web/webdocument/
 ---
 ## WebDocument osztály
 
-A prezentáció webformátumba mentésére szolgáló átmeneti formátumot képviseli.
+A prezentáció átmeneti formáját képviseli a webformátumba mentéshez.
 
 ```csharp
 public class WebDocument
@@ -32,7 +32,7 @@ public class WebDocument
 
 | Név | Leírás |
 | --- | --- |
-| [Save](../../aspose.slides.export.web/webdocument/save)() | A dokumentum kimenetét menti. |
+| [Save](../../aspose.slides.export.web/webdocument/save)() | Elmenti a dokumentum kimenetét. |
 
 ### Lásd még
 

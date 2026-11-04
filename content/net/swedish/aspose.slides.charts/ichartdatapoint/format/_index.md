@@ -3,7 +3,7 @@ title: Format
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar formateringsegenskaperna. Läs/skriv IFormataspose.slides.charts/iformat.
 type: docs
-weight: 70
+weight: 110
 url: /sv/aspose.slides.charts/ichartdatapoint/format/
 ---
 ## IChartDataPoint.Format egenskap

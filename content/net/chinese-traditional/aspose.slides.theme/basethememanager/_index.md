@@ -1,14 +1,14 @@
 ---
 title: BaseThemeManager
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 提供存取不同類型主題之類別的基底類別。
+second_title: Aspose.Sildes for .NET API 參考
+description: 提供存取不同類型主題的類別之基底類別。
 type: docs
-weight: 11050
+weight: 11070
 url: /zh-hant/aspose.slides.theme/basethememanager/
 ---
 ## BaseThemeManager 類別
 
-提供存取不同類型主題之類別的基底類別。
+基底類別，提供存取不同類型主題的功能。
 
 ```csharp
 public abstract class BaseThemeManager

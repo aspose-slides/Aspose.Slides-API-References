@@ -1,14 +1,14 @@
 ---
 title: IChartPortionFormat
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวแทนของคุณสมบัติกำหนดรูปแบบส่วนของแผนภูมิที่ใช้ในแผนภูมิ
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงคุณสมบัติการจัดรูปแบบส่วนของแผนภูมิที่ใช้ในแผนภูมิ
 type: docs
-weight: 1920
+weight: 1940
 url: /th/aspose.slides.charts/ichartportionformat/
 ---
 ## IChartPortionFormat อินเทอร์เฟซ
 
-เป็นตัวแทนของคุณสมบัติการจัดรูปแบบส่วนของแผนภูมิที่ใช้ในแผนภูมิ
+แสดงคุณสมบัติการจัดรูปแบบส่วนของแผนภูมิที่ใช้ในแผนภูมิ
 
 ```csharp
 public interface IChartPortionFormat : IBasePortionFormat
@@ -16,9 +16,9 @@ public interface IChartPortionFormat : IBasePortionFormat
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIBasePortionFormat](../../aspose.slides.charts/ichartportionformat/asibaseportionformat) { get; } | คืนค่า IBasePortionFormat อินเทอร์เฟซ. |
+| [AsIBasePortionFormat](../../aspose.slides.charts/ichartportionformat/asibaseportionformat) { get; } | คืนค่าอินเทอร์เฟซ IBasePortionFormat. |
 
 ### ดูเพิ่มเติม
 

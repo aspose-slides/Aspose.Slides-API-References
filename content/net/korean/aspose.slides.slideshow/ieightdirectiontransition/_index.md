@@ -1,14 +1,14 @@
 ---
 title: IEightDirectionTransition
 second_title: Aspose.Sildes for .NET API 참조
-description: 여덟 방향 슬라이드 전환 효과.
+description: 8 방향 슬라이드 전환 효과.
 type: docs
-weight: 10070
+weight: 10090
 url: /ko/aspose.slides.slideshow/ieightdirectiontransition/
 ---
 ## IEightDirectionTransition 인터페이스
 
-여덟 방향 슬라이드 전환 효과.
+8 방향 슬라이드 전환 효과.
 
 ```csharp
 public interface IEightDirectionTransition : ITransitionValueBase
@@ -21,7 +21,7 @@ public interface IEightDirectionTransition : ITransitionValueBase
 | [AsITransitionValueBase](../../aspose.slides.slideshow/ieightdirectiontransition/asitransitionvaluebase) { get; } | 기본 ITransitionValueBase 인터페이스를 가져올 수 있습니다. 읽기 전용 [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/ieightdirectiontransition/direction) { get; set; } | 전환 방향. 읽기/쓰기 [`TransitionEightDirectionType`](../transitioneightdirectiontype). |
 
-### 참고
+### 참조
 
 * 인터페이스 [ITransitionValueBase](../itransitionvaluebase)
 * 네임스페이스 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

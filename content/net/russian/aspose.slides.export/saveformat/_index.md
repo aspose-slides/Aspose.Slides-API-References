@@ -1,14 +1,14 @@
 ---
 title: SaveFormat
-second_title: Aspose.Sildes для .NET Справка API
-description: Константы, определяющие формат сохраняемой презентации.
+second_title: Aspose.Sildes для .NET API справочник
+description: Константы, определяющие формат сохранённой презентации.
 type: docs
-weight: 4440
+weight: 4460
 url: /ru/aspose.slides.export/saveformat/
 ---
 ## SaveFormat перечисление
 
-Константы, определяющие формат сохраняемой презентации.
+Константы, определяющие формат сохранённой презентации.
 
 ```csharp
 public enum SaveFormat
@@ -36,11 +36,11 @@ public enum SaveFormat
 | Pot | `20` | Сохранить презентацию в формате POT. |
 | Fodp | `21` | Сохранить презентацию в формате FODP. |
 | Gif | `22` | Сохранить презентацию в формате GIF. |
-| Html5 | `23` | Сохранить презентацию в формате HTML, используя новую систему шаблонов HTML5. |
+| Html5 | `23` | Сохранить презентацию в формате HTML с использованием новой системы шаблонов HTML5. |
 | Md | `24` | Сохранить презентацию в формате Markdown |
 | Xml | `25` | Сохранить презентацию в формате PowerPoint XML Presentation. |
 
-### Смотрите также
+### См. также
 
 * пространство имён [Aspose.Slides.Export](../../aspose.slides.export)
 * сборка [Aspose.Slides](../../)

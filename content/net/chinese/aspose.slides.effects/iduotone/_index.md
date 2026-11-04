@@ -1,14 +1,14 @@
 ---
 title: IDuotone
-second_title: Aspose.Sildes .NET API 参考
-description: 表示一种 Duotone 效果。
+second_title: Aspose.Sildes 的 .NET API 参考
+description: 表示 Duotone 效果。
 type: docs
-weight: 3260
+weight: 3280
 url: /zh/aspose.slides.effects/iduotone/
 ---
 ## IDuotone 接口
 
-表示一种 Duotone 效果。
+表示 Duotone 效果。
 
 ```csharp
 public interface IDuotone : IAccessiblePVIObject<IDuotoneEffectiveData>, IImageTransformOperation
@@ -23,7 +23,7 @@ public interface IDuotone : IAccessiblePVIObject<IDuotoneEffectiveData>, IImageT
 | [Color1](../../aspose.slides.effects/iduotone/color1) { get; } | 返回暗像素的目标颜色格式。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
 | [Color2](../../aspose.slides.effects/iduotone/color2) { get; } | 返回亮像素的目标颜色格式。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
 
-### 另请参见
+### 另见
 
 * 接口 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 接口 [IDuotoneEffectiveData](../iduotoneeffectivedata)

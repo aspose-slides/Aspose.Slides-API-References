@@ -1,9 +1,9 @@
 ---
 title: IAudioCollection
-second_title: Referencia de la API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para la referencia de API de .NET
 description: Representa una colección de archivos de audio incrustados.
 type: docs
-weight: 5220
+weight: 5240
 url: /es/aspose.slides/iaudiocollection/
 ---
 ## IAudioCollection interfaz
@@ -16,13 +16,13 @@ public interface IAudioCollection : IGenericCollection<IAudio>
 
 ## Propiedades
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
-| [Item](../../aspose.slides/iaudiocollection/item) { get; } | Obtiene el elemento en el índice especificado. Solo lectura [`IAudio`](../iaudio). |
+| [Item](../../aspose.slides/iaudiocollection/item) { get; } | Obtiene el elemento en el índice especificado. Solo de lectura [`IAudio`](../iaudio). |
 
 ## Métodos
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | Crea y agrega un audio a una presentación a partir de una matriz de bytes. |
 | [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio)(IAudio) | Agrega una copia de un archivo de audio desde otra presentación. |

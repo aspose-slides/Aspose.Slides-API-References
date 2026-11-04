@@ -1,14 +1,14 @@
 ---
 title: EmbeddedEotFontsHtmlController
-second_title: Aspose.Sildes .NET API Referansı
-description: EOT formatında yazı tiplerini gömmek için kullanılacak biçimlendirme denetleyicisi sınıfı
+second_title: Aspose.Sildes için .NET API Referansı
+description: EOT formatında fontları gömmek için kullanılacak biçimlendirme denetleyici sınıfı
 type: docs
-weight: 3780
+weight: 3800
 url: /tr/aspose.slides.export/embeddedeotfontshtmlcontroller/
 ---
 ## EmbeddedEotFontsHtmlController sınıfı
 
-EOT formatında yazı tiplerini gömmek için kullanılacak biçimlendirme denetleyicisi sınıfı
+EOT formatında fontları gömmek için kullanılacak biçimlendirme denetleyici sınıfı
 
 ```csharp
 public class EmbeddedEotFontsHtmlController : IEmbeddedEotFontsHtmlController

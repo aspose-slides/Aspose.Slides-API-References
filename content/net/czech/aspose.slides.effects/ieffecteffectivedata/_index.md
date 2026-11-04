@@ -1,14 +1,14 @@
 ---
 title: IEffectEffectiveData
 second_title: Aspose.Sildes pro .NET API Reference
-description: Základní třída pro neměnitelné objekty, které představují efekt.
+description: Základní třída pro neměnné objekty, které představují efekt.
 type: docs
-weight: 3280
+weight: 3300
 url: /cs/aspose.slides.effects/ieffecteffectivedata/
 ---
 ## IEffectEffectiveData rozhraní
 
-Základní třída pro neměnitelné objekty, které představují efekt.
+Základní třída pro neměnné objekty, které představují efekt.
 
 ```csharp
 public interface IEffectEffectiveData

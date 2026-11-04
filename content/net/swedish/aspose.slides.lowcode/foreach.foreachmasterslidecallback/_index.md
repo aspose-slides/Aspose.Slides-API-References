@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachMasterSlideCallback
 second_title: Aspose.Sildes för .NET API-referens
-description: Återanrop som kommer att anropas för varje MasterSlide./foreach/masterslide i Presentation../aspose.slides/presentation.
+description: Återuppringningsfunktion som kommer att anropas för varje MasterSlide./foreach/masterslide i Presentation../aspose.slides/presentation.
 type: docs
-weight: 7920
+weight: 7940
 url: /sv/aspose.slides.lowcode/foreach.foreachmasterslidecallback/
 ---
 ## ForEach.ForEachMasterSlideCallback delegat
 
-Återanrop som kommer att anropas för varje [`MasterSlide`](../foreach/masterslide) i [`Presentation`](../../aspose.slides/presentation).
+Återuppringningsfunktion som kommer att anropas för varje [`MasterSlide`](../foreach/masterslide) i [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public delegate void ForEachMasterSlideCallback(MasterSlide masterSlide, int index);
@@ -16,8 +16,8 @@ public delegate void ForEachMasterSlideCallback(MasterSlide masterSlide, int ind
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| masterSlide | MasterSlide | Aktuell itererad master slide |
-| index | Int32 | Index för den aktuella master slide |
+| masterSlide | MasterSlide | Aktuell master-slide som itereras |
+| index | Int32 | Index för den aktuella master-slide |
 
 ### Se även
 

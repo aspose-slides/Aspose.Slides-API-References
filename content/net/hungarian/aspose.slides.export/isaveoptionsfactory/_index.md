@@ -1,9 +1,9 @@
 ---
 title: ISaveOptionsFactory
-second_title: Aspose.Sildes .NET API referenciája
+second_title: Aspose.Sildes .NET API referencia
 description: Lehetővé teszi a mentési beállítások példányainak létrehozását
 type: docs
-weight: 4080
+weight: 4100
 url: /hu/aspose.slides.export/isaveoptionsfactory/
 ---
 ## ISaveOptionsFactory interfész
@@ -20,7 +20,7 @@ public interface ISaveOptionsFactory
 | --- | --- |
 | [CreatePptxOptions](../../aspose.slides.export/isaveoptionsfactory/createpptxoptions)() | Létrehozza a PPTX mentési beállításokat. |
 
-### Megjegyzések
+### Megjegyzés
 
 A COM kompatibilitás érdekében.
 

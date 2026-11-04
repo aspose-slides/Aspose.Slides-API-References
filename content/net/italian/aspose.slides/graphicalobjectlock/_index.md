@@ -1,14 +1,14 @@
 ---
 title: GraphicalObjectLock
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Determina quali operazioni sono disabilitate sull'oggetto grafico genitore.
+description: Determina quali operazioni sono disabilitate sul GraphicalObject padre.
 type: docs
-weight: 5080
+weight: 5100
 url: /it/aspose.slides/graphicalobjectlock/
 ---
 ## GraphicalObjectLock classe
 
-Determina quali operazioni sono disabilitate sull'oggetto grafico genitore.
+Determina quali operazioni sono disabilitate sul GraphicalObject padre.
 
 ```csharp
 public class GraphicalObjectLock : BaseShapeLock, IGraphicalObjectLock
@@ -16,15 +16,15 @@ public class GraphicalObjectLock : BaseShapeLock, IGraphicalObjectLock
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [AspectRatioLocked](../../aspose.slides/graphicalobjectlock/aspectratiolocked) { get; set; } | Determina se la forma deve conservare le proporzioni durante il ridimensionamento. Lettura/Scrittura Boolean. |
-| [DrilldownLocked](../../aspose.slides/graphicalobjectlock/drilldownlocked) { get; set; } | Determina se la selezione di sottoforme di questo oggetto è vietata. Lettura/Scrittura Boolean. |
-| [GroupingLocked](../../aspose.slides/graphicalobjectlock/groupinglocked) { get; set; } | Determina se l'aggiunta di questa forma a un gruppo è vietata. Lettura/Scrittura Boolean. |
+| [AspectRatioLocked](../../aspose.slides/graphicalobjectlock/aspectratiolocked) { get; set; } | Determina se la forma deve preservare le proporzioni durante il ridimensionamento. Lettura/scrittura Boolean. |
+| [DrilldownLocked](../../aspose.slides/graphicalobjectlock/drilldownlocked) { get; set; } | Determina se la selezione di sottogforme di questo oggetto è vietata. Lettura/scrittura Boolean. |
+| [GroupingLocked](../../aspose.slides/graphicalobjectlock/groupinglocked) { get; set; } | Determina se l'aggiunta di questa forma a un gruppo è vietata. Lettura/scrittura Boolean. |
 | [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Restituisce true se tutti i flag di blocco sono disabilitati. Sola lettura Boolean. |
-| [PositionLocked](../../aspose.slides/graphicalobjectlock/positionlocked) { get; set; } | Determina se lo spostamento di questa forma è vietato. Lettura/Scrittura Boolean. |
-| [SelectLocked](../../aspose.slides/graphicalobjectlock/selectlocked) { get; set; } | Determina se la selezione di questa forma è vietata. Lettura/Scrittura Boolean. |
-| [SizeLocked](../../aspose.slides/graphicalobjectlock/sizelocked) { get; set; } | Determina se il ridimensionamento di questa forma è vietato. Lettura/Scrittura Boolean. |
+| [PositionLocked](../../aspose.slides/graphicalobjectlock/positionlocked) { get; set; } | Determina se lo spostamento di questa forma è vietato. Lettura/scrittura Boolean. |
+| [SelectLocked](../../aspose.slides/graphicalobjectlock/selectlocked) { get; set; } | Determina se la selezione di questa forma è vietata. Lettura/scrittura Boolean. |
+| [SizeLocked](../../aspose.slides/graphicalobjectlock/sizelocked) { get; set; } | Determina se il ridimensionamento di questa forma è vietato. Lettura/scrittura Boolean. |
 
 ### Vedi anche
 

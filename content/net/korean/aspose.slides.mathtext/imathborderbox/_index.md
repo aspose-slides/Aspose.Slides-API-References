@@ -3,7 +3,7 @@ title: IMathBorderBox
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: IMathElement 주위에 직사각형 또는 기타 형태의 테두리를 그립니다.
 type: docs
-weight: 8170
+weight: 8190
 url: /ko/aspose.slides.mathtext/imathborderbox/
 ---
 ## IMathBorderBox 인터페이스
@@ -18,16 +18,16 @@ public interface IMathBorderBox : IMathElement
 
 | 이름 | 설명 |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathborderbox/asimathelement) { get; } | 기본 IMathElement 인터페이스를 가져올 수 있습니다 [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathborderbox/asimathelement) { get; } | 기본 IMathElement 인터페이스 [`IMathElement`](../imathelement)를 가져올 수 있습니다. |
 | [Base](../../aspose.slides.mathtext/imathborderbox/base) { get; } | 기본 인수 |
-| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | 하단 가장자리 숨기기 (기본값은 false) - 테두리 상자의 하단 가장자리 숨김 또는 표시 상태를 지정합니다. |
-| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | 왼쪽 가장자리 숨기기 (기본값은 false) - 테두리 상자의 왼쪽 가장자리 숨김 또는 표시 상태를 지정합니다. |
-| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | 오른쪽 가장자리 숨기기 (기본값은 false) - 테두리 상자의 오른쪽 가장자리 숨김 또는 표시 상태를 지정합니다. |
-| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | 위쪽 가장자리 숨기기 (기본값은 false) - 테두리 상자의 위쪽 가장자리 숨김 또는 표시 상태를 지정합니다. |
-| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | 왼쪽 아래에서 오른쪽 위로 횡단선 그리기 (기본값은 false). 테두리 상자의 왼쪽 아래 모서리에서 오른쪽 위 모서리까지 대각선 횡단선의 숨김 또는 표시 상태를 지정합니다. |
-| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | 가로 취소선 (기본값은 false) - 가로 취소선의 숨김 또는 표시 상태를 지정합니다. |
-| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | 왼쪽 위에서 오른쪽 아래로 횡단선 그리기 (기본값은 false). 테두리 상자의 왼쪽 위 모서리에서 오른쪽 아래 모서리까지 대각선 횡단선의 숨김 또는 표시 상태를 지정합니다. |
-| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | 세로 취소선 (기본값은 false) - 세로 취소선의 숨김 또는 표시 상태를 지정합니다. |
+| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | 아래쪽 가장자리 숨기기 (기본값은 false) - 테두리 상자의 아래쪽 가장자리의 숨김 또는 표시 상태를 지정합니다. |
+| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | 왼쪽 가장자리 숨기기 (기본값은 false) - 테두리 상자의 왼쪽 가장자리의 숨김 또는 표시 상태를 지정합니다. |
+| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | 오른쪽 가장자리 숨기기 (기본값은 false) - 테두리 상자의 오른쪽 가장자리의 숨김 또는 표시 상태를 지정합니다. |
+| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | 위쪽 가장자리 숨기기 (기본값은 false) - 테두리 상자의 위쪽 가장자리의 숨김 또는 표시 상태를 지정합니다. |
+| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | 좌하단에서 우상단까지 취소선 (기본값은 false). 테두리 상자의 좌하단 모서리에서 우상단 모서리까지 대각선 취소선의 숨김 또는 표시 상태를 지정합니다. |
+| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | 수평 취소선 (기본값은 false) - 수평 취소선의 숨김 또는 표시 상태를 지정합니다. |
+| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | 좌상단에서 우하단까지 취소선 (기본값은 false). 테두리 상자의 좌상단 모서리에서 우하단 모서리까지 대각선 취소선의 숨김 또는 표시 상태를 지정합니다. |
+| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | 수직 취소선 (기본값은 false) - 수직 취소선의 숨김 또는 표시 상태를 지정합니다. |
 
 ### 예제
 

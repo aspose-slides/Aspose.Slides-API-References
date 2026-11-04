@@ -1,14 +1,14 @@
 ---
 title: GrayScale
-second_title: Aspose.Sildes для справочника API .NET
-description: Представляет эффект Gray Scale. Преобразует все значения цветов эффекта в оттенок серого, соответствующий их яркости. Значения альфа-прозрачности эффекта не изменяются.
+second_title: Aspose.Sildes для .NET справка API
+description: Представляет эффект Gray Scale. Преобразует все цветовые значения эффекта в оттенок серого, соответствующий их яркости. Значения альфа-непрозрачности эффекта не изменяются.
 type: docs
-weight: 3000
+weight: 3020
 url: /ru/aspose.slides.effects/grayscale/
 ---
 ## GrayScale класс
 
-Представляет эффект Gray Scale. Преобразует все значения цветов эффекта в оттенок серого, соответствующий их яркости. Значения альфа-канала (непрозрачности) эффекта не изменяются.
+Представляет эффект Gray Scale. Преобразует все цветовые значения эффекта в оттенок серого, соответствующий их яркости. Значения альфа (непрозрачности) эффекта не изменяются.
 
 ```csharp
 public sealed class GrayScale : ImageTransformOperation, IGrayScale
@@ -26,9 +26,9 @@ public sealed class GrayScale : ImageTransformOperation, IGrayScale
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/grayscale/equals)(object) | Определяет, равен ли указанный [`GrayScale`](../grayscale) текущему [`GrayScale`](../grayscale). |
 | [GetEffective](../../aspose.slides.effects/grayscale/geteffective)() | Получает эффективные данные эффекта Gray Scale с учётом наследования. |
-| override [GetHashCode](../../aspose.slides.effects/grayscale/gethashcode)() | Служит в качестве хеш-функции для определённого типа. |
+| override [GetHashCode](../../aspose.slides.effects/grayscale/gethashcode)() | Служит в качестве хеш-функции для конкретного типа. |
 
-### См. также
+### Смотрите также
 
 * класс [ImageTransformOperation](../imagetransformoperation)
 * интерфейс [IGrayScale](../igrayscale)

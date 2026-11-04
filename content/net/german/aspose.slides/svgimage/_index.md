@@ -1,9 +1,9 @@
 ---
 title: SvgImage
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Stellt ein SVG-Bild dar.
 type: docs
-weight: 10800
+weight: 10820
 url: /de/aspose.slides/svgimage/
 ---
 ## SvgImage Klasse
@@ -16,7 +16,7 @@ public class SvgImage : ISvgImage
 
 ## Konstruktoren
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
 | [SvgImage](svgimage#constructor)(byte[]) | Erstellt ein neues SvgImage-Objekt. |
 | [SvgImage](svgimage#constructor_2)(Stream) | Erstellt ein neues SvgImage-Objekt. |
@@ -27,16 +27,16 @@ public class SvgImage : ISvgImage
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | Gibt die Basis-URI des angegebenen SVG zurück. Wird verwendet, um relative Links aufzulösen. Nur-Lese String. |
-| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | Gibt die Callback-Schnittstelle zurück, die zum Auflösen externer Ressourcen während des SVG-Dokumenten-Imports verwendet wird. Nur-Lese [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
-| [SvgContent](../../aspose.slides/svgimage/svgcontent) { get; } | Gibt den SVG-Inhalt zurück. Nur-Lese String. |
-| [SvgData](../../aspose.slides/svgimage/svgdata) { get; } | Gibt die SVG-Daten zurück. Nur-Lese Byte[]. |
+| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | Gibt die Basis-URI des angegebenen Svg zurück. Wird verwendet, um relative Links aufzulösen. Nur lesbarer String. |
+| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | Gibt das Callback-Interface zurück, das zum Auflösen externer Ressourcen während des Imports von Svg-Dokumenten verwendet wird. Nur lesbar [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
+| [SvgContent](../../aspose.slides/svgimage/svgcontent) { get; } | Gibt den SVG-Inhalt zurück. Nur lesbarer String. |
+| [SvgData](../../aspose.slides/svgimage/svgdata) { get; } | Gibt die SVG-Daten zurück. Nur lesbares Byte[]. |
 
 ## Methoden
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
 | [WriteAsEmf](../../aspose.slides/svgimage/writeasemf)(Stream) | Speichert das SVG-Bild als EMF-Datei. |
 

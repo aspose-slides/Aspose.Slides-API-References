@@ -1,14 +1,14 @@
 ---
 title: IReflectionEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งแสดงถึงเอฟเฟกต์การสะท้อน.
+second_title: Aspose.Sildes สำหรับ .NET แหล่งอ้างอิง API
+description: วัตถุที่ไม่สามารถเปลี่ยนแปลงได้ซึ่งแสดงถึงเอฟเฟกต์การสะท้อน
 type: docs
-weight: 3510
+weight: 3530
 url: /th/aspose.slides.effects/ireflectioneffectivedata/
 ---
-## IReflectionEffectiveData อินเทอร์เฟซ
+## IReflectionEffectiveData อินเตอร์เฟส
 
-อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งแสดงถึงเอฟเฟกต์การสะท้อน
+Immutable object which represents a Reflection effect.
 
 ```csharp
 public interface IReflectionEffectiveData : IEffectEffectiveData
@@ -18,25 +18,25 @@ public interface IReflectionEffectiveData : IEffectEffectiveData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ireflectioneffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้รับอินเทอร์เฟซ IEffectEffectiveData พื้นฐาน. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [BlurRadius](../../aspose.slides.effects/ireflectioneffectivedata/blurradius) { get; } | รัศมีเบลอ. อ่านอย่างเดียว Double. |
-| [Direction](../../aspose.slides.effects/ireflectioneffectivedata/direction) { get; } | ทิศทางของการสะท้อน. อ่านอย่างเดียว Single. |
-| [Distance](../../aspose.slides.effects/ireflectioneffectivedata/distance) { get; } | ระยะของการสะท้อน. อ่านอย่างเดียว Double. |
-| [EndPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/endposalpha) { get; } | ระบุตำแหน่งสิ้นสุด (ตามระดับความไล่ระดับอัลฟา) ของค่าอัลฟาสิ้นสุด (เปอร์เซ็นต์). อ่านอย่างเดียว Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity) { get; } | ความทึบของการสะท้อนที่สิ้นสุด. (เปอร์เซ็นต์). อ่านอย่างเดียว Single. |
-| [FadeDirection](../../aspose.slides.effects/ireflectioneffectivedata/fadedirection) { get; } | ระบุดิศทางการทำออฟเซ็ตการสะท้อน. (มุม). อ่านอย่างเดียว Single. |
-| [RectangleAlign](../../aspose.slides.effects/ireflectioneffectivedata/rectanglealign) { get; } | การจัดแนวสี่เหลี่ยม. อ่านอย่างเดียว [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape) { get; } | ระบุว่าการสะท้อนควรหมุนพร้อมกับรูปทรงหรือไม่หากรูปทรงถูกหมุน. อ่านอย่างเดียว Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/scalehorizontal) { get; } | ระบุตัวคูณการยืดแนวนอน, การสเกลเป็นลบทำให้พลิก. (เปอร์เซ็นต์) อ่านอย่างเดียว Double. |
-| [ScaleVertical](../../aspose.slides.effects/ireflectioneffectivedata/scalevertical) { get; } | ระบุตัวคูณการยืดแนวตั้ง, การสเกลเป็นลบทำให้พลิก. (เปอร์เซ็นต์) อ่านอย่างเดียว Double. |
-| [SkewHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/skewhorizontal) { get; } | ระบุมุมการบิดแนวนอน. อ่านอย่างเดียว Double. |
-| [SkewVertical](../../aspose.slides.effects/ireflectioneffectivedata/skewvertical) { get; } | ระบุมุมการบิดแนวตั้ง. อ่านอย่างเดียว Double. |
-| [StartPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/startposalpha) { get; } | ระบุตำแหน่งเริ่มต้น (ตามระดับความไล่ระดับอัลฟา) ของค่าอัลฟาเริ่มต้น (เปอร์เซ็นต์). อ่านอย่างเดียว Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity) { get; } | ความทึบของการสะท้อนเริ่มต้น. (เปอร์เซ็นต์). อ่านอย่างเดียว Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ireflectioneffectivedata/asieffecteffectivedata) { get; } | Allows to get base IEffectEffectiveData interface. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [BlurRadius](../../aspose.slides.effects/ireflectioneffectivedata/blurradius) { get; } | Blur radius. อ่านอย่างเดียว Double. |
+| [Direction](../../aspose.slides.effects/ireflectioneffectivedata/direction) { get; } | Direction of reflection. อ่านอย่างเดียว Single. |
+| [Distance](../../aspose.slides.effects/ireflectioneffectivedata/distance) { get; } | Distance of reflection. อ่านอย่างเดียว Double. |
+| [EndPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/endposalpha) { get; } | Specifies the end position (along the alpha gradient ramp) of the end alpha value (เปอร์เซ็นต์). อ่านอย่างเดียว Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity) { get; } | End reflection opacity. (เปอร์เซ็นต์). อ่านอย่างเดียว Single. |
+| [FadeDirection](../../aspose.slides.effects/ireflectioneffectivedata/fadedirection) { get; } | Specifies the direction to offset the reflection. (angle). อ่านอย่างเดียว Single. |
+| [RectangleAlign](../../aspose.slides.effects/ireflectioneffectivedata/rectanglealign) { get; } | Rectangle alignment. อ่านอย่างเดียว [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape) { get; } | Specifies whether the reflection should rotate with the shape if the shape is rotated. อ่านอย่างเดียว Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/scalehorizontal) { get; } | Specifies the horizontal scaling factor, negative scaling causes a flip. (เปอร์เซ็นต์) อ่านอย่างเดียว Double. |
+| [ScaleVertical](../../aspose.slides.effects/ireflectioneffectivedata/scalevertical) { get; } | Specifies the vertical scaling factor, negative scaling causes a flip. (เปอร์เซ็นต์) อ่านอย่างเดียว Double. |
+| [SkewHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/skewhorizontal) { get; } | Specifies the horizontal skew angle. อ่านอย่างเดียว Double. |
+| [SkewVertical](../../aspose.slides.effects/ireflectioneffectivedata/skewvertical) { get; } | Specifies the vertical skew angle. อ่านอย่างเดียว Double. |
+| [StartPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/startposalpha) { get; } | Specifies the start position (along the alpha gradient ramp) of the start alpha value (เปอร์เซ็นต์). อ่านอย่างเดียว Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity) { get; } | Starting reflection opacity. (เปอร์เซ็นต์). อ่านอย่างเดียว Single. |
 
 ### ดูเพิ่มเติม
 
-* อินเทอร์เฟซ [IEffectEffectiveData](../ieffecteffectivedata)
+* อินเตอร์เฟส [IEffectEffectiveData](../ieffecteffectivedata)
 * เนมสเปซ [Aspose.Slides.Effects](../../aspose.slides.effects)
 * แอสเซมบลี [Aspose.Slides](../../)
 

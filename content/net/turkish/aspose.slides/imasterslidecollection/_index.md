@@ -1,9 +1,9 @@
 ---
 title: IMasterSlideCollection
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Ana slaytların bir koleksiyonunu temsil eder.
 type: docs
-weight: 6430
+weight: 6450
 url: /tr/aspose.slides/imasterslidecollection/
 ---
 ## IMasterSlideCollection arayüz
@@ -16,21 +16,21 @@ public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [Item](../../aspose.slides/imasterslidecollection/item) { get; } | Belirtilen dizindeki öğeyi alır. Salt okunur [`IMasterSlide`](../imasterslide). |
+| [Item](../../aspose.slides/imasterslidecollection/item) { get; } | Belirtilen indeksteki öğeyi alır. Salt okunur [`IMasterSlide`](../imasterslide). |
 
 ## Yöntemler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | Belirtilen bir ana slaydın bir kopyasını koleksiyonun sonuna ekler. Bağlı yerleşim slaytları da kopyalanacaktır. |
-| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Belirtilen bir ana slaydın bir kopyasını koleksiyonun belirtilen konumuna ekler. Bağlı yerleşim slaytları da kopyalanacaktır. |
+| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | Belirtilen bir ana slaytın bir kopyasını koleksiyonun sonuna ekler. Bağlantılı yerleşim slaytları da kopyalanacaktır. |
+| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Belirtilen bir ana slaytın bir kopyasını koleksiyonun belirtilen konumuna ekler. Bağlantılı yerleşim slaytları da kopyalanacaktır. |
 | [Remove](../../aspose.slides/imasterslidecollection/remove)(IMasterSlide) | Koleksiyondan belirli bir nesnenin ilk oluşumunu kaldırır. |
-| [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | Koleksiyondaki belirtilen dizindeki öğeyi kaldırır. |
+| [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | Koleksiyondan belirtilen indeksteki öğeyi kaldırır. |
 | [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | Kullanılmayan ana slaytları kaldırır. |
 
-### Ayrıca Bakınız
+### Ayrıca
 
 * arayüz [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * arayüz [IMasterSlide](../imasterslide)

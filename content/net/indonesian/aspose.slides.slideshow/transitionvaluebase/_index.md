@@ -3,7 +3,7 @@ title: TransitionValueBase
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Kelas dasar untuk efek transisi slide.
 type: docs
-weight: 10460
+weight: 10480
 url: /id/aspose.slides.slideshow/transitionvaluebase/
 ---
 ## TransitionValueBase kelas

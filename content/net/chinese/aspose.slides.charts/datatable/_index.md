@@ -3,7 +3,7 @@ title: DataTable
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示数据表属性。
 type: docs
-weight: 1600
+weight: 1610
 url: /zh/aspose.slides.charts/datatable/
 ---
 ## DataTable 类
@@ -16,14 +16,14 @@ public class DataTable : DomObject<Chart>, IDataTable
 
 ## 属性
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [Chart](../../aspose.slides.charts/datatable/chart) { get; } | 返回图表。只读 [`IChart`](../ichart)。 |
 | [Format](../../aspose.slides.charts/datatable/format) { get; } | 返回对象的线条、填充和效果样式。只读 [`IFormat`](../iformat)。 |
-| [HasBorderHorizontal](../../aspose.slides.charts/datatable/hasborderhorizontal) { get; set; } | 如果图表数据表具有水平单元格边框，则为 True。读写 Boolean。 |
-| [HasBorderOutline](../../aspose.slides.charts/datatable/hasborderoutline) { get; set; } | 如果图表数据表具有轮廓边框，则为 True。读写 Boolean。 |
-| [HasBorderVertical](../../aspose.slides.charts/datatable/hasbordervertical) { get; set; } | 如果图表数据表具有垂直单元格边框，则为 True。读写 Boolean。 |
-| [ShowLegendKey](../../aspose.slides.charts/datatable/showlegendkey) { get; set; } | 如果数据标签图例键可见，则为 True。读写 Boolean。 |
+| [HasBorderHorizontal](../../aspose.slides.charts/datatable/hasborderhorizontal) { get; set; } | 如果图表数据表具有水平单元格边框，则为 true。可读写 Boolean。 |
+| [HasBorderOutline](../../aspose.slides.charts/datatable/hasborderoutline) { get; set; } | 如果图表数据表具有轮廓边框，则为 true。可读写 Boolean。 |
+| [HasBorderVertical](../../aspose.slides.charts/datatable/hasbordervertical) { get; set; } | 如果图表数据表具有垂直单元格边框，则为 true。可读写 Boolean。 |
+| [ShowLegendKey](../../aspose.slides.charts/datatable/showlegendkey) { get; set; } | 如果数据标签图例键可见，则为 true。可读写 Boolean。 |
 | [TextFormat](../../aspose.slides.charts/datatable/textformat) { get; } | 返回文本格式。只读 [`IChartTextFormat`](../icharttextformat)。 |
 
 ### 另请参见

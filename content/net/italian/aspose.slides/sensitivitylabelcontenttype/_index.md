@@ -1,12 +1,12 @@
 ---
 title: SensitivityLabelContentType
 second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta i tipi di marcatura del contenuto che dovrebbero essere applicati a un documento.
+description: Rappresenta i tipi di marcatura del contenuto che devono essere applicati a un documento.
 type: docs
-weight: 9820
+weight: 9840
 url: /it/aspose.slides/sensitivitylabelcontenttype/
 ---
-## Enumerazione SensitivityLabelContentType
+## SensitivityLabelContentType enumerazione
 
 Rappresenta i tipi di marcatura del contenuto che dovrebbero essere applicati a un documento.
 
@@ -19,10 +19,10 @@ public enum SensitivityLabelContentType
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | None | `0` | Implica che l'etichetta venga applicata per impostazione predefinita o automaticamente. |
-| Header | `1` | Implica che l'etichetta sia stata applicata manualmente. Utilizzare per qualsiasi etichetta di sensibilità che sia stata applicata direttamente dall'utente. |
-| Footer | `2` | Implica che l'etichetta sia stata applicata manualmente. Utilizzare per qualsiasi etichetta di sensibilità che sia stata applicata direttamente dall'utente. |
-| Watermark | `4` | Implica che l'etichetta sia stata applicata manualmente. Utilizzare per qualsiasi etichetta di sensibilità che sia stata applicata direttamente dall'utente. |
-| Encryption | `8` | Implica che l'etichetta sia stata applicata manualmente. Utilizzare per qualsiasi etichetta di sensibilità che sia stata applicata direttamente dall'utente. |
+| Header | `1` | Implica che l'etichetta sia stata applicata manualmente. Utilizzare per qualsiasi etichetta di sensibilità applicata direttamente dall'utente. |
+| Footer | `2` | Implica che l'etichetta sia stata applicata manualmente. Utilizzare per qualsiasi etichetta di sensibilità applicata direttamente dall'utente. |
+| Watermark | `4` | Implica che l'etichetta sia stata applicata manualmente. Utilizzare per qualsiasi etichetta di sensibilità applicata direttamente dall'utente. |
+| Encryption | `8` | Implica che l'etichetta sia stata applicata manualmente. Utilizzare per qualsiasi etichetta di sensibilità applicata direttamente dall'utente. |
 
 ### Vedi anche
 

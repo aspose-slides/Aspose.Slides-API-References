@@ -3,7 +3,7 @@ title: IStreamWrapperFactory
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Fabrik von StreamWrappers. Für COM-Schnittstelle.
 type: docs
-weight: 7140
+weight: 7160
 url: /de/aspose.slides/istreamwrapperfactory/
 ---
 ## IStreamWrapperFactory Schnittstelle
@@ -18,10 +18,10 @@ public interface IStreamWrapperFactory
 
 | Name | Beschreibung |
 | --- | --- |
-| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Erstellt ein FileStream mit dem angegebenen Pfad und dem Erstellungsmodus. |
-| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Erstellt ein FileStream mit dem angegebenen Pfad, dem Erstellungsmodus und der Lese-/Schreibberechtigung. |
-| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | Erstellt einen MemoryStream-Wrapper. |
-| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Erstellt einen MemoryStream-Wrapper basierend auf dem angegebenen Byte-Array. |
+| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Erstellt FileStream mit dem angegebenen Pfad und Erstellungsmodus. |
+| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Erstellt FileStream mit dem angegebenen Pfad, Erstellungsmodus und Lese-/Schreibberechtigung. |
+| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | Erstellt MemoryStream-Wrapper. |
+| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Erstellt MemoryStream-Wrapper basierend auf dem angegebenen Byte-Array. |
 
 ### Siehe auch
 

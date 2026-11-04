@@ -1,29 +1,29 @@
 ---
 title: ILegend
-second_title: Aspose.Sildes برای .NET مرجع API
-description: ویژگی‌های لگند نمودارها را نمایندگی می‌کند.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: ویژگی‌های لگند نمودارها را نمایش می‌دهد.
 type: docs
-weight: 2130
+weight: 2150
 url: /fa/aspose.slides.charts/ilegend/
 ---
-## رابط ILegend
+## ILegend رابط
 
-نمایندهٔ ویژگی‌های لگند نمودار.
+ویژگی‌های افسانه نمودار را نشان می‌دهد.
 
 ```csharp
 public interface ILegend : IActualLayout, IFormattedTextContainer, ILayoutable
 ```
 
-## خصوصیات
+## ویژگی‌ها
 
 | نام | توضیح |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | امکان دریافت رابط پایه IFormattedTextContainer را فراهم می‌کند. فقط‌خواندنی [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | امکان دریافت رابط پایه ILayoutable را فراهم می‌کند. فقط‌خواندنی [`ILayoutable`](../ilayoutable). |
-| [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | ورودهای لگند را دریافت می‌کند. فقط‌خواندنی [`ILegendEntryCollection`](../ilegendentrycollection). |
-| [Format](../../aspose.slides.charts/ilegend/format) { get; } | قالب لگند را برمی‌گرداند. فقط‌خواندنی [`IFormat`](../iformat). |
-| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | تعیین می‌کند آیا اجزای دیگر نمودار مجاز به همپوشانی با لگند هستند یا خیر. قابل خواندن و نوشتن Boolean. |
-| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | موقعیت لگند را روی نمودار مشخص می‌کند. مقادیر غیر NaN از ویژگی‌های X, Y, Width, Heigt اثر این ویژگی را نادیده می‌گیرند. قابل خواندن و نوشتن [`LegendPositionType`](../legendpositiontype). |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | اجاز می‌دهد تا رابط IFormattedTextContainer پایه را دریافت کند. فقط-خواندنی [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | اجاز می‌دهد تا رابط ILayoutable پایه را دریافت کند. فقط-خواندنی [`ILayoutable`](../ilayoutable). |
+| [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | ورودی‌های افسانه را دریافت می‌کند. فقط-خواندنی [`ILegendEntryCollection`](../ilegendentrycollection). |
+| [Format](../../aspose.slides.charts/ilegend/format) { get; } | قالب یک افسانه را برمی‌گرداند. فقط-خواندنی [`IFormat`](../iformat). |
+| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | مشخص می‌کند آیا عناصر دیگر نمودار مجاز به پوشش افسانه هستند یا نه. خواندنی/نوشتنی Boolean. |
+| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | موقعیت افسانه را روی نمودار مشخص می‌کند. مقادیر غیر-NaN ویژگی‌های X، Y، Width، Height اثر این ویژگی را نادیده می‌گیرند. خواندنی/نوشتنی [`LegendPositionType`](../legendpositiontype). |
 
 ### موارد مرتبط
 

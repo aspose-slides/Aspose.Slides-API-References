@@ -1,14 +1,14 @@
 ---
 title: IImageWrapper
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考文档
 description: System.Drawing.Image 的 COM 接口包装器。
 type: docs
-weight: 6170
+weight: 6190
 url: /zh/aspose.slides/iimagewrapper/
 ---
 ## IImageWrapper 接口
 
-System.Drawing.Image 的 COM 接口包装器。
+System.Drawing.Image wrapper for COM interface.
 
 ```csharp
 public interface IImageWrapper : IDisposable
@@ -19,18 +19,18 @@ public interface IImageWrapper : IDisposable
 | 名称 | 描述 |
 | --- | --- |
 | [AsIDisposable](../../aspose.slides/iimagewrapper/asidisposable) { get; } | 返回 IDisposable 接口。只读 IDisposable。 |
-| [ImageSource](../../aspose.slides/iimagewrapper/imagesource) { get; } | 获取图像，只读 Image。 |
+| [ImageSource](../../aspose.slides/iimagewrapper/imagesource) { get; } | 获取图像。只读 Image。 |
 | [Size](../../aspose.slides/iimagewrapper/size) { get; } | 获取 Image 的宽度和高度（单位为像素），只读 [`Size`](./size)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [Save](../../aspose.slides/iimagewrapper/save#save_1)(string) | 将 Image 保存到指定的文件。 |
-| [Save](../../aspose.slides/iimagewrapper/save#save)(Stream, PPImageFormat) | 将 Image 保存到指定的流中，以指定的格式。 |
-| [Save](../../aspose.slides/iimagewrapper/save#save_2)(string, PPImageFormat) | 将 Image 保存到指定的文件中，以指定的格式。 |
+| [Save](../../aspose.slides/iimagewrapper/save#save_1)(string) | 将 Image 保存到指定文件 |
+| [Save](../../aspose.slides/iimagewrapper/save#save)(Stream, PPImageFormat) | 将 Image 保存到指定的流中，使用指定的格式。 |
+| [Save](../../aspose.slides/iimagewrapper/save#save_2)(string, PPImageFormat) | 将 Image 保存到指定文件中，使用指定的格式。 |
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

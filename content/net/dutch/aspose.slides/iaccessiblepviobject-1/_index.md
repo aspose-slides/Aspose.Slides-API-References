@@ -1,14 +1,14 @@
 ---
 title: IAccessiblePVIObjectT
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een type voor dat de overeenkomstige effectieve gegevens kan retourneren met de toegepaste overerving.
+description: Stelt een type voor dat de overeenkomstige effectieve gegevens kan retourneren met de geërfde waarden toegepast.
 type: docs
-weight: 5170
+weight: 5190
 url: /nl/aspose.slides/iaccessiblepviobject-1/
 ---
 ## IAccessiblePVIObject<T> interface
 
-Stelt een type voor dat de overeenkomstige effectieve gegevens kan retourneren met de toegepaste overerving.
+Stelt een type voor dat de overeenkomstige effectieve gegevens kan retourneren met de geërfde waarden toegepast.
 
 ```csharp
 public interface IAccessiblePVIObject<T>
@@ -23,7 +23,7 @@ public interface IAccessiblePVIObject<T>
 
 | Naam | Beschrijving |
 | --- | --- |
-| [GetEffective](../../aspose.slides/iaccessiblepviobject`1/geteffective)() | Haalt effectieve gegevens op met de toegepaste overerving. |
+| [GetEffective](../../aspose.slides/iaccessiblepviobject`1/geteffective)() | Haal effectieve gegevens op met de geërfde waarden toegepast. |
 
 ### Zie ook
 

@@ -1,14 +1,14 @@
 ---
 title: CommentAuthor
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho một tác giả của các bình luận.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Biểu diễn một tác giả của các bình luận.
 type: docs
-weight: 2630
+weight: 2650
 url: /vi/aspose.slides/commentauthor/
 ---
 ## CommentAuthor lớp
 
-Đại diện cho một tác giả của các bình luận.
+Represents an author of comments.
 
 ```csharp
 public sealed class CommentAuthor : ICommentAuthor
@@ -18,17 +18,17 @@ public sealed class CommentAuthor : ICommentAuthor
 
 | Tên | Mô tả |
 | --- | --- |
-| [Comments](../../aspose.slides/commentauthor/comments) { get; } | Trả về bộ sưu tập các bình luận do tác giả này tạo. Chỉ-đọc [`ICommentCollection`](../icommentcollection). |
-| [Initials](../../aspose.slides/commentauthor/initials) { get; set; } | Trả về hoặc đặt các ký tự đầu của tác giả. Đọc/ghi String. |
+| [Comments](../../aspose.slides/commentauthor/comments) { get; } | Trả về tập hợp các bình luận do tác giả này tạo. Chỉ đọc [`ICommentCollection`](../icommentcollection). |
+| [Initials](../../aspose.slides/commentauthor/initials) { get; set; } | Trả về hoặc đặt ký tự viết tắt của tác giả. Đọc/ghi String. |
 | [Name](../../aspose.slides/commentauthor/name) { get; set; } | Trả về hoặc đặt tên của tác giả. Đọc/ghi String. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [Remove](../../aspose.slides/commentauthor/remove)() | Xóa tác giả khỏi bộ sưu tập cha. |
+| [Remove](../../aspose.slides/commentauthor/remove)() | Xóa tác giả khỏi tập hợp cha. |
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [ICommentAuthor](../icommentauthor)
 * không gian tên [Aspose.Slides](../../aspose.slides)

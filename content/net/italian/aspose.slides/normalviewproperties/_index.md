@@ -1,14 +1,14 @@
 ---
 title: NormalViewProperties
-second_title: Aspose.Sildes per .NET API Reference
-description: "Rappresenta le proprietà della visualizzazione normale. La visualizzazione normale è composta da tre regioni di contenuto: la diapositiva stessa, una regione di contenuto laterale e una regione di contenuto inferiore."
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Rappresenta le proprietà della visualizzazione normale. La visualizzazione normale è composta da tre aree di contenuto: la diapositiva stessa, un'area di contenuto laterale e un'area di contenuto inferiore.
 type: docs
-weight: 9110
+weight: 9130
 url: /it/aspose.slides/normalviewproperties/
 ---
 ## NormalViewProperties classe
 
-Rappresenta le proprietà della visualizzazione normale. La visualizzazione normale è composta da tre regioni di contenuto: la diapositiva stessa, una regione di contenuto laterale e una regione di contenuto inferiore.
+Rappresenta le proprietà della visualizzazione normale. La visualizzazione normale è composta da tre aree di contenuto: la diapositiva stessa, un'area di contenuto laterale e un'area di contenuto inferiore.
 
 ```csharp
 public class NormalViewProperties : INormalViewProperties
@@ -18,13 +18,13 @@ public class NormalViewProperties : INormalViewProperties
 
 | Nome | Descrizione |
 | --- | --- |
-| [HorizontalBarState](../../aspose.slides/normalviewproperties/horizontalbarstate) { get; set; } | Specifica lo stato in cui deve essere visualizzata la barra di divisione orizzontale. Una barra di divisione orizzontale separa la diapositiva dalla regione di contenuto sotto la diapositiva. |
-| [PreferSingleView](../../aspose.slides/normalviewproperties/prefersingleview) { get; set; } | Specifica se l'utente preferisce visualizzare una singola regione di contenuto a finestra intera rispetto alla visualizzazione normale standard con tre regioni di contenuto. Se abilitato, l'applicazione può scegliere di mostrare una delle regioni di contenuto nell'intera finestra. Lettura/scrittura Boolean. |
-| [RestoredLeft](../../aspose.slides/normalviewproperties/restoredleft) { get; } | Questo elemento specifica le dimensioni della regione di contenuto laterale della visualizzazione normale, quando la regione ha una dimensione variabile ripristinata (ne né minimizzata né massimizzata). Solo lettura [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [RestoredTop](../../aspose.slides/normalviewproperties/restoredtop) { get; } | Questo elemento specifica le dimensioni della regione superiore della diapositiva della visualizzazione normale, quando la regione ha una dimensione variabile ripristinata (ne né minimizzata né massimizzata). Solo lettura [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [ShowOutlineIcons](../../aspose.slides/normalviewproperties/showoutlineicons) { get; set; } | Specifica se l'applicazione deve mostrare icone durante la visualizzazione del contenuto della struttura in una qualsiasi delle regioni di contenuto della modalità di visualizzazione normale. Lettura/scrittura Boolean. |
-| [SnapVerticalSplitter](../../aspose.slides/normalviewproperties/snapverticalsplitter) { get; set; } | Specifica se la divisione verticale deve bloccare lo stato minimizzato quando la regione laterale è sufficientemente piccola. Lettura/scrittura Boolean. |
-| [VerticalBarState](../../aspose.slides/normalviewproperties/verticalbarstate) { get; set; } | Specifica lo stato in cui deve essere visualizzata la barra di divisione verticale. Una barra di divisione verticale separa la diapositiva dalla regione di contenuto laterale. |
+| [HorizontalBarState](../../aspose.slides/normalviewproperties/horizontalbarstate) { get; set; } | Specifica lo stato in cui la barra di divisione orizzontale deve essere visualizzata. Una barra di divisione orizzontale separa la diapositiva dall'area di contenuto sotto la diapositiva. |
+| [PreferSingleView](../../aspose.slides/normalviewproperties/prefersingleview) { get; set; } | Specifica se l'utente preferisce vedere un'area di contenuto singola a finestra intera rispetto alla visualizzazione normale standard con tre aree di contenuto. Se abilitato, l'applicazione può scegliere di visualizzare una delle aree di contenuto nell'intera finestra. Lettura/scrittura Boolean. |
+| [RestoredLeft](../../aspose.slides/normalviewproperties/restoredleft) { get; } | Questo elemento specifica le dimensioni dell'area di contenuto laterale della visualizzazione normale, quando l'area ha una dimensione variabile ripristinata (né ridotta né massimizzata). Solo lettura [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [RestoredTop](../../aspose.slides/normalviewproperties/restoredtop) { get; } | Questo elemento specifica le dimensioni dell'area superiore della diapositiva nella visualizzazione normale, quando l'area ha una dimensione variabile ripristinata (né ridotta né massimizzata). Solo lettura [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [ShowOutlineIcons](../../aspose.slides/normalviewproperties/showoutlineicons) { get; set; } | Specifica se l'applicazione deve mostrare le icone visualizzando il contenuto della struttura in una qualsiasi delle aree di contenuto della modalità di visualizzazione normale. Lettura/scrittura Boolean. |
+| [SnapVerticalSplitter](../../aspose.slides/normalviewproperties/snapverticalsplitter) { get; set; } | Specifica se la barra di divisione verticale deve agganciarsi a uno stato ridotto quando l'area laterale è sufficientemente piccola. Lettura/scrittura Boolean. |
+| [VerticalBarState](../../aspose.slides/normalviewproperties/verticalbarstate) { get; set; } | Specifica lo stato in cui la barra di divisione verticale deve essere visualizzata. Una barra di divisione verticale separa la diapositiva dall'area di contenuto laterale. |
 
 ### Esempi
 
@@ -32,7 +32,7 @@ Il seguente esempio mostra come configurare le proprietà ViewProperties.NormalV
 
 ```csharp
 [C#]
-//Instanzia un oggetto Presentation che rappresenta un file di presentazione
+//Crea un oggetto presentazione che rappresenta un file di presentazione
 using (Presentation pres = new Presentation("demo.pptx"))
 {
     pres.ViewProperties.NormalViewProperties.HorizontalBarState = SplitterBarStateType.Restored;

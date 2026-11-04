@@ -1,14 +1,14 @@
 ---
 title: MathNaryOperatorTypes
-second_title: Aspose.Sildes for .NET API Referenciája
-description: Nary operátor IMathNaryOperator típusok integrálok kivételével. Integrálok esetén MathIntegralTypes./mathintegraltypes
+second_title: Aspose.Sildes .NET API Referenciája
+description: N-áris operátor IMathNaryOperator típusok, az integrálok kivételével. Integrálok esetén a MathIntegralTypes./mathintegraltypes
 type: docs
-weight: 8890
+weight: 8910
 url: /hu/aspose.slides.mathtext/mathnaryoperatortypes/
 ---
-## MathNaryOperatorTypes enumeráció
+## MathNaryOperatorTypes felsorolás
 
-Nary operátor IMathNaryOperator típusok (kivéve az integrálokat) Integrálok esetén [`MathIntegralTypes`](../mathintegraltypes)
+N-áris operátor IMathNaryOperator típusok (az integrálok kivételével) az integrálokhoz [`MathIntegralTypes`](../mathintegraltypes)
 
 ```csharp
 public enum MathNaryOperatorTypes
@@ -18,13 +18,13 @@ public enum MathNaryOperatorTypes
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Summation | `0` | Summation: '∑' |
-| Product | `1` | Product: '∏' |
-| CoProduct | `2` | Coproduct: '∐' |
-| Intersection | `3` | Intersection: '∩' |
-| Union | `4` | Union: '∪' |
-| LogicalAnd | `5` | Logical And: '∧' |
-| LogicalOr | `6` | Logical Or: '∨' |
+| Summation | `0` | Összegzés: '∑' |
+| Product | `1` | Szorzat: '∏' |
+| CoProduct | `2` | Kótermék: '∐' |
+| Intersection | `3` | Metszet: '∩' |
+| Union | `4` | Unió: '∪' |
+| LogicalAnd | `5` | Logikai ÉS: '∧' |
+| LogicalOr | `6` | Logikai VAGY: '∨' |
 
 ### Lásd még
 

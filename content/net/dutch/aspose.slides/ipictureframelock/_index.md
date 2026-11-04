@@ -1,14 +1,14 @@
 ---
 title: IPictureFrameLock
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Bepaalt welke bewerkingen zijn uitgeschakeld op het bovenliggende PictureFrameEx.
+description: Bepaalt welke bewerkingen zijn uitgeschakeld op de bovenliggende PictureFrameEx.
 type: docs
-weight: 6680
+weight: 6700
 url: /nl/aspose.slides/ipictureframelock/
 ---
 ## IPictureFrameLock interface
 
-Bepaalt welke bewerkingen zijn uitgeschakeld op het bovenliggende PictureFrameEx.
+Determines which operations are disabled on the parent PictureFrameEx.
 
 ```csharp
 public interface IPictureFrameLock : IBaseShapeLock
@@ -19,7 +19,7 @@ public interface IPictureFrameLock : IBaseShapeLock
 | Naam | Beschrijving |
 | --- | --- |
 | [AdjustHandlesLocked](../../aspose.slides/ipictureframelock/adjusthandleslocked) { get; set; } | Bepaalt of het wijzigen van aanpassingswaarden verboden is. Lezen/Schrijven Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/ipictureframelock/arrowheadslocked) { get; set; } | Bepaalt of het wijzigen van pijlpunten verboden is. Lezen/Schrijven Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/ipictureframelock/arrowheadslocked) { get; set; } | Bepaalt of het wijzigen van pijpkoppen verboden is. Lezen/Schrijven Boolean. |
 | [AsIBaseShapeLock](../../aspose.slides/ipictureframelock/asibaseshapelock) { get; } | Staat toe de basis-IBaseShapeLock interface op te halen. Alleen-lezen [`IBaseShapeLock`](../ibaseshapelock). |
 | [AspectRatioLocked](../../aspose.slides/ipictureframelock/aspectratiolocked) { get; set; } | Bepaalt of een vorm de beeldverhouding moet behouden bij het schalen. Lezen/Schrijven Boolean. |
 | [CropLocked](../../aspose.slides/ipictureframelock/croplocked) { get; set; } | Bepaalt of bijsnijden van een afbeelding verboden is. Lezen/Schrijven Boolean. |

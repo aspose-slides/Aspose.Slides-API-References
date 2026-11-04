@@ -1,14 +1,14 @@
 ---
 title: SlideOrientation
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Đại diện cho hướng slide.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Mô tả hướng của slide.
 type: docs
-weight: 10000
+weight: 10020
 url: /vi/aspose.slides/slideorientation/
 ---
 ## SlideOrientation liệt kê
 
-Đại diện cho hướng slide.
+Mô tả hướng của slide.
 
 ```csharp
 public enum SlideOrientation

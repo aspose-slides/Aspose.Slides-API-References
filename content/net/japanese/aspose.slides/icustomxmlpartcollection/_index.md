@@ -1,9 +1,9 @@
 ---
 title: ICustomXmlPartCollection
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: カスタム XML パーツのコレクションを表します。
 type: docs
-weight: 5680
+weight: 5700
 url: /ja/aspose.slides/icustomxmlpartcollection/
 ---
 ## ICustomXmlPartCollection インターフェイス
@@ -18,7 +18,7 @@ public interface ICustomXmlPartCollection : IGenericCollection<ICustomXmlPart>
 
 | 名前 | 説明 |
 | --- | --- |
-| [Item](../../aspose.slides/icustomxmlpartcollection/item) { get; } | 指定されたインデックスにある要素を返します。 |
+| [Item](../../aspose.slides/icustomxmlpartcollection/item) { get; } | 指定されたインデックスの要素を返します。 |
 
 ## メソッド
 
@@ -28,10 +28,10 @@ public interface ICustomXmlPartCollection : IGenericCollection<ICustomXmlPart>
 | [Add](../../aspose.slides/icustomxmlpartcollection/add#add_1)(Stream) | 新しいカスタム XML パーツを追加します。 |
 | [Add](../../aspose.slides/icustomxmlpartcollection/add#add_2)(string) | 新しいカスタム XML パーツを追加します。 |
 | [Clear](../../aspose.slides/icustomxmlpartcollection/clear)() | コレクションからすべての項目を削除します。 |
-| [Remove](../../aspose.slides/icustomxmlpartcollection/remove)(ICustomXmlPart) | コレクションから特定のオブジェクトの最初の出現を削除します。 |
+| [Remove](../../aspose.slides/icustomxmlpartcollection/remove)(ICustomXmlPart) | コレクションから特定オブジェクトの最初の出現を削除します。 |
 | [RemoveAt](../../aspose.slides/icustomxmlpartcollection/removeat)(int) | 指定されたインデックスのカスタム XML パーツを削除します。 |
 
-### 関連項目
+### 参照
 
 * インターフェイス [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * インターフェイス [ICustomXmlPart](../icustomxmlpart)

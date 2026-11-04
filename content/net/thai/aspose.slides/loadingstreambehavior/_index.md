@@ -1,27 +1,27 @@
 ---
 title: LoadingStreamBehavior
 second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: Stream ที่ส่งให้กับเมธอดถือเป็น Binary Large Object BLOB ดูคำอธิบาย IBlobManagementOptions./iblobmanagementoptions. ค่าของ enumeration นี้ระบุว่าควรจัดการ Stream อย่างไรเมื่อส่งให้เมธอด ขึ้นอยู่กับความต้องการ การตัดสินใจต่าง ๆ สามารถทำได้เพื่อให้ได้พฤติกรรมที่มีประสิทธิภาพสูงสุด.
+description: Stream ที่ส่งให้เมธอดจะถูกพิจารณาเป็น Binary Large Object (BLOB) ดูคำอธิบายของ IBlobManagementOptions./iblobmanagementoptions. ค่าของ enumeration นี้ระบุว่า Stream ควรได้รับการจัดการอย่างไรเมื่อส่งให้เมธอด ขึ้นอยู่กับความต้องการสามารถตัดสินใจต่าง ๆ เพื่อให้ได้พฤติกรรมที่มีประสิทธิภาพสูงสุด.
 type: docs
-weight: 7850
+weight: 7870
 url: /th/aspose.slides/loadingstreambehavior/
 ---
 ## LoadingStreamBehavior enumeration
 
-Stream ที่ส่งให้กับเมธอดจะถือเป็น Binary Large Object (BLOB) (ดูคำอธิบาย [`IBlobManagementOptions`](../iblobmanagementoptions)) ค่าของ enumeration นี้ระบุว่าควรจัดการ Stream อย่างไรเมื่อส่งให้เมธอด ขึ้นอยู่กับความต้องการ การตัดสินใจต่าง ๆ สามารถทำได้เพื่อให้ได้พฤติกรรมที่มีประสิทธิภาพสูงสุด
+Stream ที่ส่งให้เมธอดจะถูกพิจารณาเป็น Binary Large Object (BLOB) (ดูคำอธิบายของ [`IBlobManagementOptions`](../iblobmanagementoptions)). ค่าของ enumeration นี้ระบุว่า Stream ควรจะถูกจัดการอย่างไรเมื่อถูกส่งให้เมธอด ขึ้นอยู่กับความต้องการสามารถตัดสินใจต่าง ๆ เพื่อให้ได้การทำงานที่มีประสิทธิภาพสูงสุด.
 
 ```csharp
 public enum LoadingStreamBehavior
 ```
 
-### ค่า
+### Values
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| ReadStreamAndRelease | `0` | Stream จะถูกอ่านจนถึงจุดสิ้นสุดแล้วปล่อย - คือ จะรับประกันว่า Stream นี้จะไม่ถูกใช้โดยอินสแตนซ์ [`IPresentation`](../ipresentation) ในอนาคต สามารถปิดโดยโค้ดของไคลเอนท์หรือใช้ในวิธีอื่น ๆ |
-| KeepLocked | `1` | Stream จะถูกล็อกอยู่ภายในอ็อบเจ็กต์ [`IPresentation`](../ipresentation) , คือ การเป็นเจ้าของ Stream จะถูกโอนให้ อ็อบเจ็กต์ [`IPresentation`](../ipresentation) จะรับผิดชอบในการปล่อย Stream อย่างถูกต้องเมื่ออ็อบเจ็กต์นี้ถูกปล่อยเอง พฤติกรรมนี้มีประโยชน์อย่างยิ่งเมื่อคุณต้องการทำซีเรียลไลซ์ไฟล์ BLOB ขนาดใหญ่ (เช่น วิดีโอหรือเสียงขนาดใหญ่ - ดูคำอธิบาย [`IBlobManagementOptions`](../iblobmanagementoptions)) และต้องการป้องกันการโหลดไฟล์นี้เข้าสู่หน่วยความจำหรือปัญหาประสิทธิภาพอื่น ๆ คุณสามารถเปิด FileStream สำหรับไฟล์นี้และส่งให้เมธอด โดยเลือก KeepLocked LoadingStreamBehavior |
+| ReadStreamAndRelease | `0` | Stream จะถูกอ่านจนสุดแล้วปล่อยออกไป - คือรับรองว่า Stream นี้จะไม่ถูกใช้โดยอินสแตนซ์ของ [`IPresentation`](../ipresentation) ในอนาคต สามารถปิดได้โดยโค้ดของไคลเอนต์หรือใช้ในวิธีอื่นใดก็ได้ |
+| KeepLocked | `1` | Stream จะถูกล็อกภายในออบเจกต์ [`IPresentation`](../ipresentation) หมายความว่าการเป็นเจ้าของ Stream จะถูกโอนไปให้ออบเจกต์ [`IPresentation`](../ipresentation) จะเป็นผู้รับผิดชอบในการปล่อย Stream อย่างถูกต้องเมื่อออบเจกต์นี้ถูกปล่อยเอง การทำเช่นนี้เป็นประโยชน์อย่างยิ่งเมื่อคุณต้องการทำซีเรียลไลซ์ไฟล์ BLOB ขนาดใหญ่ (เช่นวิดีโอหรือเสียงขนาดใหญ่ -ดูคำอธิบายของ [`IBlobManagementOptions`](../iblobmanagementoptions))และต้องการหลีกเลี่ยงการโหลดไฟล์นี้เข้าเมมโมรีหรือปัญหาประสิทธิภาพอื่น ๆ คุณอาจเปิด FileStream สำหรับไฟล์นี้และส่งให้เมธอดโดยเลือก KeepLocked LoadingStreamBehavior |
 
-### ดูเพิ่มเติม
+### See Also
 
 * เนมสเปซ [Aspose.Slides](../../aspose.slides)
 * แอสเซมบลี [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: GetFontEmbeddingLevel
 second_title: Aspose.Sildes for .NET API 參考
-description: 根據給定的位元組陣列和字型名稱判定字型的嵌入層級。
+description: 根據給定的位元組陣列和字體名稱確定字體的嵌入等級。
 type: docs
-weight: 60
+weight: 70
 url: /zh-hant/aspose.slides/fontsmanager/getfontembeddinglevel/
 ---
 ## FontsManager.GetFontEmbeddingLevel 方法
 
-根據給定的位元組陣列和字型名稱判定字型的嵌入層級。
+根據給定的位元組陣列和字體名稱確定字體的嵌入等級。
 
 ```csharp
 public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
@@ -19,15 +19,15 @@ public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
 | fontBytes | Byte[] | 包含字型資料的位元組陣列。 |
 | fontName | String | 字型的名稱。 |
 
-### 返回值
+### 回傳值
 
-指定字型的嵌入層級。
+指定字體的嵌入等級。
 
-### 例外情況
+### 例外狀況
 
-| 例外 | 條件 |
+| 例外狀況 | 條件 |
 | --- | --- |
-| ArgumentNullException | 當 *fontBytes* 為 null 時拋出。 |
+| ArgumentNullException | 當 *fontBytes* 為 null 時擲出此例外。 |
 
 ### 範例
 
@@ -38,17 +38,17 @@ using (Presentation pres = new Presentation(pptxFileName))
     // 取得簡報中使用的所有字型
     IFontData[] fontDatas = pres.FontsManager.GetFonts();
 
-    // 取得簡報中第一個字型的常規樣式所對應的位元組陣列
+    // 獲取簡報中第一個字型的常規樣式之位元組陣列
     byte[] bytes = pres.FontsManager.GetFontBytes(fontDatas[0], FontStyle.Regular);
 
-    // 判定字型的嵌入層級
+    // 判斷字型的嵌入等級
     EmbeddingLevel embeddingLevel = pres.FontsManager.GetFontEmbeddingLevel(bytes, fontDatas[0].FontName);
 }
 ```
 
 ### 另請參閱
 
-* enum [EmbeddingLevel](../../embeddinglevel)
+* 列舉 [EmbeddingLevel](../../embeddinglevel)
 * 類別 [FontsManager](../../fontsmanager)
 * 命名空間 [Aspose.Slides](../../fontsmanager)
 * 組件 [Aspose.Slides](../../../)

@@ -1,9 +1,9 @@
 ---
 title: Comment
-second_title: Aspose.Sildes voor .NET API Referentie
+second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt een opmerking op een dia voor.
 type: docs
-weight: 2620
+weight: 2640
 url: /nl/aspose.slides/comment/
 ---
 ## Comment klasse
@@ -18,14 +18,14 @@ public class Comment : IComment
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Author](../../aspose.slides/comment/author) { get; } | Geeft de auteur van een opmerking terug. Alleen-lezen [`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Geeft de tijd van een opmerkingcreatie terug of stelt deze in. Het instellen van deze eigenschap op MinValue betekent dat er geen opmerkingstijd is ingesteld. Lezen/Schrijven DateTime. |
-| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Haalt de bovenliggende opmerking op of stelt deze in. Lezen/Schrijven [`IComment`](../icomment). |
-| [Position](../../aspose.slides/comment/position) { get; set; } | Geeft de positie van een opmerking op een dia terug of stelt deze in. Lezen/Schrijven PointF. |
-| [Slide](../../aspose.slides/comment/slide) { get; } | Geeft de bovenliggende dia van een opmerking terug. Alleen-lezen [`ISlide`](../islide). |
-| [Text](../../aspose.slides/comment/text) { get; set; } | Geeft de platte tekst van een dia-opmerking terug of stelt deze in. Lezen/Schrijven String. |
+| [Author](../../aspose.slides/comment/author) { get; } | Retourneert de auteur van een opmerking. Alleen-lezen [`ICommentAuthor`](../icommentauthor). |
+| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Retourneert of stelt de tijd van een opmerkingcreatie in. Het instellen van deze eigenschap op MinValue betekent dat er geen opmerkingstijd is ingesteld. Lezen/schrijven DateTime. |
+| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Haalt of stelt de bovenliggende opmerking in. Lezen/schrijven [`IComment`](../icomment). |
+| [Position](../../aspose.slides/comment/position) { get; set; } | Retourneert of stelt de positie van een opmerking op een dia in. Lezen/schrijven PointF. |
+| [Slide](../../aspose.slides/comment/slide) { get; } | Retourneert of stelt de bovenliggende dia van een opmerking in. Alleen-lezen [`ISlide`](../islide). |
+| [Text](../../aspose.slides/comment/text) { get; set; } | Retourneert of stelt de platte tekst van een diaopmerking in. Lezen/schrijven String. |
 
-## Methoden
+## Methodes
 
 | Naam | Beschrijving |
 | --- | --- |
@@ -37,7 +37,7 @@ Dit voorbeeld laat zien hoe u een opmerking aan een dia in een PowerPoint-presen
 
 ```csharp
 [C#]
-// Instantieert de Presentation klasse
+// Instantieert de Presentation-klasse
 using (Presentation presentation = new Presentation())
 {
     // Voegt een lege dia toe
@@ -48,27 +48,27 @@ using (Presentation presentation = new Presentation())
     PointF point = new PointF();
     point.X = 0.2f;
     point.Y = 0.2f;
-    // Voegt een dia-opmerking toe voor een auteur op dia 1
+    // Voegt een diaopmerking toe voor een auteur op dia 1
     author.Comments.AddComment("Hello Jawad, this is slide comment", presentation.Slides[0], point, DateTime.Now);
-    // Voegt een dia-opmerking toe voor een auteur op dia 2
+    // Voegt een diaopmerking toe voor een auteur op dia 2
     author.Comments.AddComment("Hello Jawad, this is second slide comment", presentation.Slides[1], point, DateTime.Now);
 	// Sla het PowerPoint-presentatiebestand op
     presentation.Save("Comments_out.pptx", SaveFormat.Pptx);
 }
 ```
 
-Dit voorbeeld laat zien hoe u een bestaande opmerking op een dia in een PowerPoint-presentatie kunt benaderen.
+Dit voorbeeld laat zien hoe u een bestaande opmerking op een dia in een PowerPoint-presentatie kunt openen.
 
 ```csharp
 [C#]
-// Instantieert de Presentation klasse
+// Instantieert de Presentation-klasse
 using (Presentation presentation = new Presentation("Comments1.pptx"))
 {
-	// Itereren over CommentAuthors
+	// Doorloop CommentAuthors
     foreach (var commentAuthor in presentation.CommentAuthors)
     {
         var author = (CommentAuthor) commentAuthor;
-		// Itereren over Comments
+		// Doorloop Comments
         foreach (var comment1 in author.Comments)
         {
             var comment = (Comment) comment1;
@@ -78,11 +78,11 @@ using (Presentation presentation = new Presentation("Comments1.pptx"))
 }
 ```
 
-Dit voorbeeld laat zien hoe u opmerkingen kunt toevoegen en antwoorden kunt ophalen.
+Dit voorbeeld laat zien hoe u opmerkingen kunt toevoegen en antwoorden daarop kunt ontvangen.
 
 ```csharp
 [C#]
-// Instantieert de Presentation klasse
+// Instantieert de Presentation-klasse
 using (Presentation pres = new Presentation())
 {
     // Voegt een opmerking toe

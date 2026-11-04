@@ -3,7 +3,7 @@ title: IMultipleCellChartValue
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en samling av diagramceller.
 type: docs
-weight: 2170
+weight: 2190
 url: /sv/aspose.slides.charts/imultiplecellchartvalue/
 ---
 ## IMultipleCellChartValue gränssnitt
@@ -19,7 +19,7 @@ public interface IMultipleCellChartValue : IBaseChartValue
 | Namn | Beskrivning |
 | --- | --- |
 | [AsCells](../../aspose.slides.charts/imultiplecellchartvalue/ascells) { get; set; } | Returnerar eller anger samlingen av diagramceller. Läs/skriv [`IChartCellCollection`](../ichartcellcollection). |
-| [AsIBaseChartValue](../../aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue) { get; } | Tillåter att hämta bas-IBaseChartValue-gränssnittet. Endast läs [`IBaseChartValue`](../ibasechartvalue). |
+| [AsIBaseChartValue](../../aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue) { get; } | Tillåter att hämta bas-IBaseChartValue interface. Endast läsning [`IBaseChartValue`](../ibasechartvalue). |
 
 ### Se även
 

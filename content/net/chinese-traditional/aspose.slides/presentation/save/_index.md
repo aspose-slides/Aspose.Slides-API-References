@@ -1,14 +1,14 @@
 ---
 title: Save
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes for .NET API 參考
 description: 將簡報的所有投影片儲存為具有指定格式的檔案。
 type: docs
-weight: 390
+weight: 400
 url: /zh-hant/aspose.slides/presentation/save/
 ---
 ## Save(string, SaveFormat) {#save_5}
 
-將簡報的所有投影片儲存為指定格式的檔案。
+將簡報的所有投影片儲存為具有指定格式的檔案。
 
 ```csharp
 public void Save(string fname, SaveFormat format)
@@ -16,21 +16,21 @@ public void Save(string fname, SaveFormat format)
 
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
-| fname | String | 要建立的檔案路徑。 |
-| format | SaveFormat | 匯出資料的格式。 |
+| fname | String | Path to the created file. |
+| format | SaveFormat | Format of the exported data. |
 
 ### 另請參閱
 
-* 列舉 [SaveFormat](../../../aspose.slides.export/saveformat)
-* 類別 [Presentation](../../presentation)
-* 命名空間 [Aspose.Slides](../../presentation)
-* 程式集 [Aspose.Slides](../../../)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* class [Presentation](../../presentation)
+* namespace [Aspose.Slides](../../presentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## Save(Stream, SaveFormat) {#save_1}
 
-將簡報的所有投影片儲存至指定格式的串流中。
+將簡報的所有投影片儲存為指定格式的串流。
 
 ```csharp
 public void Save(Stream stream, SaveFormat format)
@@ -38,15 +38,15 @@ public void Save(Stream stream, SaveFormat format)
 
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
-| stream | Stream | 輸出串流。 |
-| format | SaveFormat | 匯出資料的格式。 |
+| stream | Stream | Output stream. |
+| format | SaveFormat | Format of the exported data. |
 
 ### 另請參閱
 
-* 列舉 [SaveFormat](../../../aspose.slides.export/saveformat)
-* 類別 [Presentation](../../presentation)
-* 命名空間 [Aspose.Slides](../../presentation)
-* 程式集 [Aspose.Slides](../../../)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* class [Presentation](../../presentation)
+* namespace [Aspose.Slides](../../presentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -58,17 +58,17 @@ public void Save(string fname, SaveFormat format, ISaveOptions options)
 
 ### 另請參閱
 
-* 列舉 [SaveFormat](../../../aspose.slides.export/saveformat)
-* 介面 [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* 類別 [Presentation](../../presentation)
-* 命名空間 [Aspose.Slides](../../presentation)
-* 程式集 [Aspose.Slides](../../../)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* class [Presentation](../../presentation)
+* namespace [Aspose.Slides](../../presentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## Save(Stream, SaveFormat, ISaveOptions) {#save_2}
 
-將簡報的所有投影片儲存至指定格式的串流中，並使用其他選項。
+將簡報的所有投影片儲存為指定格式的串流，並使用其他選項。
 
 ```csharp
 public void Save(Stream stream, SaveFormat format, ISaveOptions options)
@@ -76,29 +76,29 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
-| stream | Stream | 輸出串流。 |
-| format | SaveFormat | 匯出資料的格式。 |
-| options | ISaveOptions | 其他格式選項。 |
+| stream | Stream | Output stream. |
+| format | SaveFormat | Format of the exported data. |
+| options | ISaveOptions | Additional format options. |
 
-### 例外
+### 例外狀況
 
 | 例外 | 條件 |
 | --- | --- |
-| NotSupportedException | 若嘗試以非 Office 2007-2010 格式儲存加密檔案 |
+| NotSupportedException | If you try to save encrypted file in none Office 2007-2010 format |
 
 ### 另請參閱
 
-* 列舉 [SaveFormat](../../../aspose.slides.export/saveformat)
-* 介面 [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* 類別 [Presentation](../../presentation)
-* 命名空間 [Aspose.Slides](../../presentation)
-* 程式集 [Aspose.Slides](../../../)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* class [Presentation](../../presentation)
+* namespace [Aspose.Slides](../../presentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## Save(IXamlOptions) {#save}
 
-將簡報的所有投影片儲存為一組代表 XAML 標記的檔案。
+將簡報的所有投影片儲存為一組表示 XAML 標記的檔案。
 
 ```csharp
 public void Save(IXamlOptions options)
@@ -106,7 +106,7 @@ public void Save(IXamlOptions options)
 
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
-| options | IXamlOptions | XAML 格式的選項。 |
+| options | IXamlOptions | The XAML format options. |
 
 ### 範例
 
@@ -120,16 +120,16 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ### 另請參閱
 
-* 介面 [IXamlOptions](../../../aspose.slides.export.xaml/ixamloptions)
-* 類別 [Presentation](../../presentation)
-* 命名空間 [Aspose.Slides](../../presentation)
-* 程式集 [Aspose.Slides](../../../)
+* interface [IXamlOptions](../../../aspose.slides.export.xaml/ixamloptions)
+* class [Presentation](../../presentation)
+* namespace [Aspose.Slides](../../presentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## Save(string, int[], SaveFormat) {#save_7}
 
-將簡報中指定的投影片以保留頁碼的方式儲存為指定格式的檔案。
+將簡報中指定的投影片儲存為具有指定格式且保留頁碼的檔案。
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format)
@@ -137,30 +137,30 @@ public void Save(string fname, int[] slides, SaveFormat format)
 
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
-| fname | String | 要建立的檔案路徑。 |
-| slides | Int32[] | 投影片位置陣列，從 1 起算。 |
-| format | SaveFormat | 匯出資料的格式。 |
+| fname | String | Path to the created file. |
+| slides | Int32[] | Array with slide positions, starting from 1. |
+| format | SaveFormat | Format of the exported data. |
 
-### 例外
+### 例外狀況
 
 | 例外 | 條件 |
 | --- | --- |
-| ArgumentNullException | 當 stream 或 slides 參數為 null 時。 |
-| ArgumentOutOfRangeException | 當 slides 參數包含錯誤的頁碼時。 |
-| InvalidOperationException | 當使用不支援的 SaveFormat 時，例如 PPTX、PPTM、PPSX、PPSM、POTX、POTM、PPT、ODP。 |
+| ArgumentNullException | When stream or slides parameter is null. |
+| ArgumentOutOfRangeException | When slides parameter contains wrong page numbers. |
+| InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### 另請參閱
 
-* 列舉 [SaveFormat](../../../aspose.slides.export/saveformat)
-* 類別 [Presentation](../../presentation)
-* 命名空間 [Aspose.Slides](../../presentation)
-* 程式集 [Aspose.Slides](../../../)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* class [Presentation](../../presentation)
+* namespace [Aspose.Slides](../../presentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## Save(string, int[], SaveFormat, ISaveOptions) {#save_8}
 
-將簡報中指定的投影片以保留頁碼的方式儲存為指定格式的檔案，並使用其他選項。
+將簡報中指定的投影片儲存為具有指定格式且保留頁碼的檔案。
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions options)
@@ -168,24 +168,24 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
-| fname | String | 要建立的檔案路徑。 |
-| slides | Int32[] | 投影片位置陣列，從 1 起算。 |
-| format | SaveFormat | 匯出資料的格式。 |
-| options | ISaveOptions | 其他格式選項。 |
+| fname | String | Path to the created file. |
+| slides | Int32[] | Array with slide positions, starting from 1. |
+| format | SaveFormat | Format of the exported data. |
+| options | ISaveOptions | Additional format options. |
 
 ### 另請參閱
 
-* 列舉 [SaveFormat](../../../aspose.slides.export/saveformat)
-* 介面 [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* 類別 [Presentation](../../presentation)
-* 命名空間 [Aspose.Slides](../../presentation)
-* 程式集 [Aspose.Slides](../../../)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* class [Presentation](../../presentation)
+* namespace [Aspose.Slides](../../presentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## Save(Stream, int[], SaveFormat) {#save_3}
 
-將簡報中指定的投影片以保留頁碼的方式儲存至指定格式的串流中。
+將簡報中指定的投影片儲存為具有指定格式且保留頁碼的串流。
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format)
@@ -193,22 +193,22 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
-| stream | Stream | 輸出串流。 |
-| slides | Int32[] | 投影片位置陣列，從 1 起算。 |
-| format | SaveFormat | 匯出資料的格式。 |
+| stream | Stream | Output stream. |
+| slides | Int32[] | Array with slide positions, starting from 1. |
+| format | SaveFormat | Format of the exported data. |
 
 ### 另請參閱
 
-* 列舉 [SaveFormat](../../../aspose.slides.export/saveformat)
-* 類別 [Presentation](../../presentation)
-* 命名空間 [Aspose.Slides](../../presentation)
-* 程式集 [Aspose.Slides](../../../)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* class [Presentation](../../presentation)
+* namespace [Aspose.Slides](../../presentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## Save(Stream, int[], SaveFormat, ISaveOptions) {#save_4}
 
-將簡報中指定的投影片以保留頁碼的方式儲存至指定格式的串流中，並使用其他選項。
+將簡報中指定的投影片儲存為具有指定格式且保留頁碼的串流。
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions options)
@@ -216,22 +216,22 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
-| stream | Stream | 輸出串流。 |
-| slides | Int32[] | 投影片位置陣列，從 1 起算。 |
-| format | SaveFormat | 匯出資料的格式。 |
-| options | ISaveOptions | 其他格式選項。 |
+| stream | Stream | Output stream. |
+| slides | Int32[] | Array with slide positions, starting from 1. |
+| format | SaveFormat | Format of the exported data. |
+| options | ISaveOptions | Additional format options. |
 
-### 例外
+### 例外狀況
 
 | 例外 | 條件 |
 | --- | --- |
-| ArgumentNullException | 當 stream 或 slides 參數為 null 時。 |
-| ArgumentOutOfRangeException | 當 slides 參數包含錯誤的頁碼時。 |
-| InvalidOperationException | 當使用不支援的 SaveFormat 時，例如 PPTX、PPTM、PPSX、PPSM、POTX、POTM、PPT、ODP。 |
+| ArgumentNullException | When stream or slides parameter is null. |
+| ArgumentOutOfRangeException | When slides parameter contains wrong page numbers. |
+| InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### 範例
 
-以下示例說明如何將 PowerPoint 轉換為 PNG。
+以下範例示範如何將 PowerPoint 轉換為 PNG。
 
 ```csharp
 [C#]
@@ -245,7 +245,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-以下示例說明如何使用自訂尺寸將 PowerPoint 轉換為 PNG。
+以下範例示範如何將 PowerPoint 轉換為自訂尺寸的 PNG。
 
 ```csharp
 [C#]
@@ -261,7 +261,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-以下示例說明如何使用自訂大小將 PowerPoint 轉換為 PNG。
+以下範例示範如何將 PowerPoint 轉換為自訂大小的 PNG。
 
 ```csharp
 [C#]
@@ -278,10 +278,10 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ### 另請參閱
 
-* 列舉 [SaveFormat](../../../aspose.slides.export/saveformat)
-* 介面 [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* 類別 [Presentation](../../presentation)
-* 命名空間 [Aspose.Slides](../../presentation)
-* 程式集 [Aspose.Slides](../../../)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* class [Presentation](../../presentation)
+* namespace [Aspose.Slides](../../presentation)
+* assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

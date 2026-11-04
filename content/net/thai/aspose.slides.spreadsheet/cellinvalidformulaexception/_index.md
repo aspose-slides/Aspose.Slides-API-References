@@ -1,14 +1,14 @@
 ---
 title: CellInvalidFormulaException
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ข้อยกเว้นที่ถูกโยนเมื่อสูตรที่คำนวณได้ไม่ถูกต้องหรือไม่สามารถแยกวิเคราะห์ได้.
+description: ข้อยกเว้นที่ถูกโยนออกเมื่อสูตรที่คำนวณไม่ถูกต้องหรือไม่สามารถแยกวิเคราะห์ได้.
 type: docs
-weight: 10710
+weight: 10730
 url: /th/aspose.slides.spreadsheet/cellinvalidformulaexception/
 ---
 ## CellInvalidFormulaException คลาส
 
-ข้อยกเว้นที่ถูกโยนเมื่อสูตรที่คำนวณได้ไม่ถูกต้องหรือไม่สามารถแยกวิเคราะห์ได้
+ข้อยกเว้นที่ถูกโยนออกเมื่อสูตรที่คำนวณไม่ถูกต้องหรือไม่สามารถแยกวิเคราะห์ได้.
 
 ```csharp
 public class CellInvalidFormulaException : PptxEditException
@@ -18,16 +18,16 @@ public class CellInvalidFormulaException : PptxEditException
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor)() | เริ่มต้นอินสแตนซ์ใหม่ของคลาส [`CellInvalidFormulaException`](../cellinvalidformulaexception) |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_1)(string) | เริ่มต้นอินสแตนซ์ใหม่ของคลาส [`CellInvalidFormulaException`](../cellinvalidformulaexception) พร้อมข้อความแสดงข้อผิดพลาดที่ระบุ |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_2)(string, Exception) | เริ่มต้นอินสแตนซ์ใหม่ของคลาส [`CellInvalidFormulaException`](../cellinvalidformulaexception) พร้อมข้อความแสดงข้อผิดพลาดที่ระบุและอ้างอิงถึงข้อยกเว้นภายในที่เป็นสาเหตุของข้อยกเว้นนี้ |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_3)(string, string) | เริ่มต้นอินสแตนซ์ใหม่ของคลาส [`CellInvalidFormulaException`](../cellinvalidformulaexception) พร้อมข้อความแสดงข้อผิดพลาดที่ระบุและการอ้างอิงเซลล์ที่มีสูตรที่ไม่ถูกต้อง |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor)() | สร้างอินสแตนซ์ใหม่ของคลาส [`CellInvalidFormulaException`](../cellinvalidformulaexception). |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_1)(string) | สร้างอินสแตนซ์ใหม่ของคลาส [`CellInvalidFormulaException`](../cellinvalidformulaexception) พร้อมข้อความแสดงข้อผิดพลาดที่ระบุ. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_2)(string, Exception) | สร้างอินสแตนซ์ใหม่ของคลาส [`CellInvalidFormulaException`](../cellinvalidformulaexception) พร้อมข้อความแสดงข้อผิดพลาดที่ระบุและอ้างอิงถึงข้อยกเว้นภายในที่เป็นสาเหตุของข้อยกเว้นนี้. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_3)(string, string) | สร้างอินสแตนซ์ใหม่ของคลาส [`CellInvalidFormulaException`](../cellinvalidformulaexception) พร้อมข้อความแสดงข้อผิดพลาดที่ระบุและการอ้างอิงเซลล์ที่มีสูตรที่ไม่ถูกต้อง. |
 
 ## คุณสมบัติ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Reference](../../aspose.slides.spreadsheet/cellinvalidformulaexception/reference) { get; } | ดึงการอ้างอิงเซลล์ที่มีสูตรที่ไม่ถูกต้อง |
+| [Reference](../../aspose.slides.spreadsheet/cellinvalidformulaexception/reference) { get; } | รับการอ้างอิงเซลล์ที่มีสูตรที่ไม่ถูกต้อง. |
 
 ### ดูเพิ่มเติม
 

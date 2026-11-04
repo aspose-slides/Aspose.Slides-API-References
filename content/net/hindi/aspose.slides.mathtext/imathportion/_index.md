@@ -1,9 +1,9 @@
 ---
 title: IMathPortion
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes for .NET API संदर्भ
 description: गणितीय संदर्भ के साथ एक भाग का प्रतिनिधित्व करता है।
 type: docs
-weight: 8420
+weight: 8440
 url: /hi/aspose.slides.mathtext/imathportion/
 ---
 ## IMathPortion इंटरफ़ेस
@@ -16,7 +16,7 @@ public interface IMathPortion
 
 ## गुण
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
 | [MathParagraph](../../aspose.slides.mathtext/imathportion/mathparagraph) { get; } | गणित पैराग्राफ |
 
@@ -35,7 +35,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### संबंधित देखें
+### देखें
 
 * नामस्थान [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * असेंबली [Aspose.Slides](../../)

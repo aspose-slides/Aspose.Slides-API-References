@@ -3,7 +3,7 @@ title: TransitionValueBase
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Basisklasse für Folienübergangseffekte.
 type: docs
-weight: 10460
+weight: 10480
 url: /de/aspose.slides.slideshow/transitionvaluebase/
 ---
 ## TransitionValueBase Klasse
@@ -18,8 +18,8 @@ public class TransitionValueBase : ITransitionValueBase
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determines whether the two TransitionValueBase instances are equal. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bestimmt, ob die beiden TransitionValueBase-Instanzen gleich sind. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als Hash-Funktion für einen bestimmten Typ, geeignet für den Einsatz in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle. |
 
 ### Siehe auch
 

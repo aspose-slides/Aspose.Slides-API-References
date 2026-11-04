@@ -1,9 +1,9 @@
 ---
 title: TiffOptions
 second_title: Aspose.Sildes for .NET API Referansı
-description: Bir sunumun TIFF formatında nasıl kaydedileceğini kontrol eden seçenekleri sağlar.
+description: Sunumun TIFF formatında nasıl kaydedileceğini kontrol eden seçenekleri sağlar.
 type: docs
-weight: 4570
+weight: 4590
 url: /tr/aspose.slides.export/tiffoptions/
 ---
 ## TiffOptions sınıfı
@@ -16,28 +16,28 @@ public class TiffOptions : SaveOptions, ITiffOptions
 
 ## Yapıcılar
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
 | [TiffOptions](tiffoptions)() | Varsayılan yapıcı. |
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [BwConversionMode](../../aspose.slides.export/tiffoptions/bwconversionmode) { get; set; } | Renkli bir görüntüyü siyah beyaz bir görüntüye dönüştürmek için kullanılan algoritmayı belirtir. Bu seçenek yalnızca [`CompressionType`](./compressiontype) CCITT4 veya CCITT3 olarak ayarlandığında uygulanır. Varsayılan, Default'tır. Read/write [`BlackWhiteConversionMode`](../blackwhiteconversionmode). |
-| [CompressionType](../../aspose.slides.export/tiffoptions/compressiontype) { get; set; } | Sıkıştırma türünü belirtir. Read/write [`TiffCompressionTypes`](../tiffcompressiontypes). |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Kaynak yazı tipi bulunamadığında kullanılan yazı tipini döndürür veya ayarlar. Read-write String. |
-| [DpiX](../../aspose.slides.export/tiffoptions/dpix) { get; set; } | İnç başına nokta cinsinden yatay çözünürlüğü belirtir. Read/write UInt32. |
-| [DpiY](../../aspose.slides.export/tiffoptions/dpiy) { get; set; } | İnç başına nokta cinsinden dikey çözünürlüğü belirtir. Read/write UInt32. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Gradyanın görsel stilini döndürür veya ayarlar. Read/write [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ImageSize](../../aspose.slides.export/tiffoptions/imagesize) { get; set; } | Oluşturulan TIFF görüntüsünün boyutunu belirtir. Varsayılan değer 0x0'dır; bu, oluşturulan görüntü boyutlarının sunum slaytı boyutuna göre hesaplanacağı anlamına gelir. Read/write Size. |
-| [InkOptions](../../aspose.slides.export/tiffoptions/inkoptions) { get; } | Dışa aktarılan belgede Ink nesnelerinin görünümünü kontrol eden seçenekleri sağlar. Read-only [`IInkOptions`](../iinkoptions) |
-| [PixelFormat](../../aspose.slides.export/tiffoptions/pixelformat) { get; set; } | Oluşturulan görüntüler için piksel biçimini belirtir. Read/write [`ImagePixelFormat`](../imagepixelformat). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Kaydetme ilerleme güncellemelerini yüzde olarak bildiren bir geri çağırma nesnesini temsil eder. Bkz [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [ShowHiddenSlides](../../aspose.slides.export/tiffoptions/showhiddenslides) { get; set; } | Oluşturulan belgenin gizli slaytları içerip içermeyeceğini belirtir. Varsayılan `false`'tur. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Sunumu kaydederken JavaScript çağrısı içeren bağlantıların atlanıp atlanmayacağını belirtir. Read/write Boolean. Varsayılan değer **false**'dur. |
-| [SlidesLayoutOptions](../../aspose.slides.export/tiffoptions/slideslayoutoptions) { get; set; } | Sunumu dışa aktarırken slaytların sayfada yerleştirildiği modu alır veya ayarlar [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Uyarıları alan ve yükleme işleminin devam edip etmeyeceğine karar veren bir nesneyi döndürür veya ayarlar. Read/write [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [BwConversionMode](../../aspose.slides.export/tiffoptions/bwconversionmode) { get; set; } | Renkli bir görseli siyah beyaz bir görsele dönüştürme algoritmasını belirtir. Bu seçenek yalnızca [`CompressionType`](./compressiontype) CCITT4 veya CCITT3 olarak ayarlandığında uygulanır. Okunur/Yazılır [`BlackWhiteConversionMode`](../blackwhiteconversionmode). Varsayılan, Varsayılan'dır. |
+| [CompressionType](../../aspose.slides.export/tiffoptions/compressiontype) { get; set; } | Sıkıştırma türünü belirtir. Okunur/Yazılır [`TiffCompressionTypes`](../tiffcompressiontypes). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Kaynak font bulunamadığında kullanılan fontu döndürür veya ayarlar. Okunur/Yazılır String. |
+| [DpiX](../../aspose.slides.export/tiffoptions/dpix) { get; set; } | İnç başına nokta cinsinden yatay çözünürlüğü belirtir. Okunur/Yazılır UInt32. |
+| [DpiY](../../aspose.slides.export/tiffoptions/dpiy) { get; set; } | İnç başına nokta cinsinden dikey çözünürlüğü belirtir. Okunur/Yazılır UInt32. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Gradyentin görsel stilini döndürür veya ayarlar. Okunur/Yazılır [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ImageSize](../../aspose.slides.export/tiffoptions/imagesize) { get; set; } | Oluşturulan TIFF görüntüsünün boyutunu belirtir. Varsayılan değer 0x0'dir, bu da oluşturulan görüntü boyutlarının sunum slaytı boyutuna göre hesaplanacağı anlamına gelir. Okunur/Yazılır Size. |
+| [InkOptions](../../aspose.slides.export/tiffoptions/inkoptions) { get; } | Dışa aktarılan belgede Ink nesnelerinin görünümünü kontrol eden seçenekler sağlar. Sadece Okunur [`IInkOptions`](../iinkoptions) |
+| [PixelFormat](../../aspose.slides.export/tiffoptions/pixelformat) { get; set; } | Oluşturulan görüntüler için piksel biçimini belirtir. Okunur/Yazılır [`ImagePixelFormat`](../imagepixelformat). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Yüzde cinsinden kaydetme ilerleme güncellemeleri için bir geri çağırma nesnesini temsil eder. Bkz. [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [ShowHiddenSlides](../../aspose.slides.export/tiffoptions/showhiddenslides) { get; set; } | Oluşturulan belgenin gizli slaytları içerip içermeyeceğini belirtir. Varsayılan `false`. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Sunumu kaydederken JavaScript çağrıları içeren köprüleri atlayıp atlanmayacağını belirtir. Okunur/Yazılır Boolean. Varsayılan değer **false**. |
+| [SlidesLayoutOptions](../../aspose.slides.export/tiffoptions/slideslayoutoptions) { get; set; } | Sunum dışa aktarılırken slaytların sayfaya yerleştirildiği modu alır veya ayarlar [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Uyarıları alan ve yükleme sürecinin devam edip etmeyeceğine karar veren bir nesneyi döndürür veya ayarlar. Okunur/Yazılır [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Örnekler
 
@@ -45,70 +45,70 @@ Aşağıdaki örnek, PowerPoint'i varsayılan boyutla TIFF'e nasıl dönüştür
 
 ```csharp
 [C#]
-// Bir sunum dosyasını temsil eden Presentation nesnesi oluşturur
+// Bir sunum dosyasını temsil eden Presentation nesnesini oluşturur
 using (Presentation presentation = new Presentation("DemoFile.pptx"))
 {
-    // Sunumu TIFF belgesine kaydediyor
+    // Sunumu TIFF belgesine kaydetme
     presentation.Save("Tiffoutput_out.tiff", SaveFormat.Tiff);
 }
 ```
 
-Aşağıdaki örnek, PowerPoint'i özel boyutla TIFF'e nasıl dönüştüreceğinizi gösterir.
+Aşağıdaki örnek, PowerPoint'i özelleştirilmiş boyutla TIFF'e nasıl dönüştüreceğinizi gösterir.
 
 ```csharp
 [C#]
-// Bir Presentation dosyasını temsil eden Presentation nesnesi oluşturur
+// Bir sunum dosyasını temsil eden Presentation nesnesini oluşturur
 using (Presentation pres = new Presentation("Convert_Tiff_Custom.pptx"))
 {
     // TiffOptions sınıfını oluşturur
     TiffOptions opts = new TiffOptions();
-    // Sıkıştırma türü ayarlanıyor
+    // Sıkıştırma türünü ayarlama
     opts.CompressionType = TiffCompressionTypes.Default;
     NotesCommentsLayoutingOptions notesOptions = new NotesCommentsLayoutingOptions();
     notesOptions.NotesPosition = NotesPositions.BottomFull;
     opts.SlidesLayoutOption = notesOptions;
     // Sıkıştırma Türleri
     // Default - Varsayılan sıkıştırma şemasını (LZW) belirtir.
-    // None - Sıkıştırma yapılmadığını belirtir.
+    // None - Sıkıştırma olmadığını belirtir.
     // CCITT3
     // CCITT4
     // LZW
     // RLE
-    // Derinlik sıkıştırma türüne bağlıdır ve manuel olarak ayarlanamaz.
-    // Çözünürlük birimi her zaman “2” (dots per inch) eşittir.
-    // Görüntü DPI'sı ayarlanıyor
+    // Derinlik, sıkıştırma türüne bağlıdır ve manuel olarak ayarlanamaz.
+    // Çözünürlük birimi her zaman “2” (inç başına nokta) eşittir.
+    // Görüntü DPI'sını ayarlama
     opts.DpiX = 200;
     opts.DpiY = 100;
     // Görüntü Boyutunu Ayarla
     opts.ImageSize = new Size(1728, 1078);
-    // Save the presentation to TIFF with specified image size
+    // Sunumu belirtilen görüntü boyutuyla TIFF olarak kaydet
     pres.Save("TiffWithCustomSize_out.tiff", SaveFormat.Tiff, opts);
 }
 ```
 
-Aşağıdaki örnek, PowerPoint'i özel görüntü piksel biçimiyle TIFF'e nasıl dönüştüreceğinizi gösterir.
+Aşağıdaki örnek, PowerPoint'i özelleştirilmiş görüntü piksel biçimiyle TIFF'e nasıl dönüştüreceğinizi gösterir.
 
 ```csharp
 [C#]
-// Bir Presentation dosyasını temsil eden Presentation nesnesi oluşturur
+// Bir Presentation dosyasını temsil eden Presentation nesnesini oluşturur
 using (Presentation presentation = new Presentation("DemoFile.pptx"))
 {
     TiffOptions options = new TiffOptions();
     options.PixelFormat = ImagePixelFormat.Format8bppIndexed;
     /*
-    ImagePixelFormat aşağıdaki değerleri içerir (belgelerden görüldüğü gibi):
-    Format1bppIndexed; // 1 bit/piksel, indeksli.
-    Format4bppIndexed; // 4 bit/piksel, indeksli.
-    Format8bppIndexed; // 8 bit/piksel, indeksli.
-    Format24bppRgb; // 24 bit/piksel, RGB.
-    Format32bppArgb; // 32 bit/piksel, ARGB.
+    ImagePixelFormat aşağıdaki değerleri içerir (belgelerden görülebileceği gibi):
+    Format1bppIndexed; // piksel başına 1 bit, indeksli.
+    Format4bppIndexed; // piksel başına 4 bit, indeksli.
+    Format8bppIndexed; // piksel başına 8 bit, indeksli.
+    Format24bppRgb; // piksel başına 24 bit, RGB.
+    Format32bppArgb; // piksel başına 32 bit, ARGB.
     */
-    // Sunumu belirtilen görüntü boyutuyla TIFF formatında kaydeder
+    // Sunumu belirtilen görüntü boyutuyla TIFF olarak kaydeder
     presentation.Save("Tiff_With_Custom_Image_Pixel_Format_out.tiff", SaveFormat.Tiff, options);
 }
 ```
 
-### Ayrıca Bakınız
+### Diğer Bağlantılar
 
 * sınıf [SaveOptions](../saveoptions)
 * arayüz [ITiffOptions](../itiffoptions)

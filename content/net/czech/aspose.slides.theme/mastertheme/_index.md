@@ -1,12 +1,12 @@
 ---
 title: MasterTheme
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje hlavní motiv.
+description: Představuje hlavní motiv.
 type: docs
-weight: 11430
+weight: 11450
 url: /cs/aspose.slides.theme/mastertheme/
 ---
-## třída MasterTheme
+## MasterTheme třída
 
 Představuje hlavní motiv.
 
@@ -18,12 +18,12 @@ public sealed class MasterTheme : Theme, IMasterTheme
 
 | Název | Popis |
 | --- | --- |
-| override [ColorScheme](../../aspose.slides.theme/mastertheme/colorscheme) { get; } | Vrací barevné schéma. Pouze pro čtení [`IColorScheme`](../icolorscheme). |
-| [ExtraColorSchemes](../../aspose.slides.theme/mastertheme/extracolorschemes) { get; } | Vrací kolekci dalších barevných schémat. Tato schémata nemají vliv na vzhled prezentace, mohou být vybrána jako hlavní barevné schéma snímku. Pouze pro čtení [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
-| override [FontScheme](../../aspose.slides.theme/mastertheme/fontscheme) { get; } | Vrací schéma písem. Pouze pro čtení [`IFontScheme`](../ifontscheme). |
-| override [FormatScheme](../../aspose.slides.theme/mastertheme/formatscheme) { get; } | Vrací schéma formátu tvaru. Pouze pro čtení [`IFormatScheme`](../iformatscheme). |
-| [Name](../../aspose.slides.theme/mastertheme/name) { get; set; } | Vrací název motivu. Čtení/Zápis String. |
-| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Vrací nadřazenou prezentaci. Pouze pro čtení [`IPresentation`](../../aspose.slides/ipresentation). |
+| override [ColorScheme](../../aspose.slides.theme/mastertheme/colorscheme) { get; } | Vrací barevné schéma. Pouze ke čtení [`IColorScheme`](../icolorscheme). |
+| [ExtraColorSchemes](../../aspose.slides.theme/mastertheme/extracolorschemes) { get; } | Vrací kolekci dalších barevných schémat. Tato schémata neovlivňují vzhled prezentace, mohou být vybrána jako hlavní barevné schéma pro snímek. Pouze ke čtení [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
+| override [FontScheme](../../aspose.slides.theme/mastertheme/fontscheme) { get; } | Vrací schéma písem. Pouze ke čtení [`IFontScheme`](../ifontscheme). |
+| override [FormatScheme](../../aspose.slides.theme/mastertheme/formatscheme) { get; } | Vrací schéma formátu tvarů. Pouze ke čtení [`IFormatScheme`](../iformatscheme). |
+| [Name](../../aspose.slides.theme/mastertheme/name) { get; set; } | Vrací název motivu. Čtení/zápis String. |
+| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Vrací nadřazenou prezentaci. Pouze ke čtení [`IPresentation`](../../aspose.slides/ipresentation). |
 
 ## Metody
 

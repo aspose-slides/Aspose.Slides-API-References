@@ -1,14 +1,14 @@
 ---
 title: IBlurEffectiveData
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Αμετάβλητο αντικείμενο που αντιπροσωπεύει το εφέ Θόλωσης που εφαρμόζεται σε ολόκληρο το σχήμα, συμπεριλαμβανομένου του γεμίσματος. Όλα τα κανάλια χρώματος, συμπεριλαμβανομένου του άλφα, επηρεάζονται.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Αμετάβλητο αντικείμενο που αντιπροσωπεύει ένα εφέ Θόλωσης που εφαρμόζεται σε ολόκληρο το σχήμα, συμπεριλαμβανομένης της γέμισης. Όλα τα κανάλια χρώματος, συμπεριλαμβανομένου του alpha, επηρεάζονται.
 type: docs
-weight: 3190
+weight: 3210
 url: /el/aspose.slides.effects/iblureffectivedata/
 ---
-## IBlurEffectiveData διεπαφή
+## IBlurEffectiveData διασύνδεση
 
-Αμετάβλητο αντικείμενο που αντιπροσωπεύει το εφέ Θόλωσης που εφαρμόζεται σε ολόκληρο το σχήμα, συμπεριλαμβανομένου του γεμίσματος. Όλα τα κανάλια χρώματος, συμπεριλαμβανομένου του άλφα, επηρεάζονται.
+Αμετάβλητο αντικείμενο που αντιπροσωπεύει ένα εφέ Θόλωσης που εφαρμόζεται σε ολόκληρο το σχήμα, συμπεριλαμβανομένου του γέμισης. Όλα τα κανάλια χρώματος, συμπεριλαμβανομένου του alpha, επηρεάζονται.
 
 ```csharp
 public interface IBlurEffectiveData : IEffectEffectiveData
@@ -18,13 +18,13 @@ public interface IBlurEffectiveData : IEffectEffectiveData
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iblureffectivedata/asieffecteffectivedata) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής IEffectEffectiveData. Μόνο-ανάγνωση [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | Καθορίζει εάν τα όρια του αντικειμένου πρέπει να επεκταθούν ως αποτέλεσμα του θόλωσης. Η τιμή True υποδεικνύει ότι τα όρια επεκτείνονται, ενώ η τιμή false υποδεικνύει ότι δεν επεκτείνονται. Μόνο-ανάγνωση Boolean. |
-| [Radius](../../aspose.slides.effects/iblureffectivedata/radius) { get; } | Επιστρέφει ή ορίζει την ακτίνα θόλωσης. Μόνο-ανάγνωση Double. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iblureffectivedata/asieffecteffectivedata) { get; } | Επιτρέπει την πρόσβαση στη βασική διεπαφή IEffectEffectiveData. Μόνο για ανάγνωση [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | Καθορίζει αν τα όρια του αντικειμένου πρέπει να μεγαλώσουν ως αποτέλεσμα της θόλωσης. Η τιμή true υποδεικνύει ότι τα όρια μεγαλώνουν, ενώ false ότι δεν μεγαλώνουν. Μόνο για ανάγνωση Boolean. |
+| [Radius](../../aspose.slides.effects/iblureffectivedata/radius) { get; } | Επιστρέφει ή ορίζει την ακτίνα θόλωσης. Μόνο για ανάγνωση Double. |
 
 ### Δείτε επίσης
 
-* διεπαφή [IEffectEffectiveData](../ieffecteffectivedata)
+* διασύνδεση [IEffectEffectiveData](../ieffecteffectivedata)
 * χώρο ονομάτων [Aspose.Slides.Effects](../../aspose.slides.effects)
 * συγκρότημα [Aspose.Slides](../../)
 

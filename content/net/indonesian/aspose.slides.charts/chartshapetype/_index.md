@@ -1,14 +1,14 @@
 ---
 title: ChartShapeType
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili bentuk bagan.
+description: Mewakili bentuk chart.
 type: docs
-weight: 1470
+weight: 1480
 url: /id/aspose.slides.charts/chartshapetype/
 ---
 ## ChartShapeType enumerasi
 
-Mewakili bentuk bagan.
+Mewakili bentuk chart.
 
 ```csharp
 public enum ChartShapeType
@@ -18,13 +18,13 @@ public enum ChartShapeType
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| NotDefined | `-1` | Bentuk bagan tidak didefinisikan. |
-| Box | `0` | Menentukan bahwa bagan harus digambar dengan bentuk kotak. |
-| Cone | `1` | Menentukan bahwa bagan harus digambar sebagai kerucut, dengan dasar kerucut di lantai dan puncak kerucut di atas penanda data. |
-| ConeToMax | `2` | Menentukan bahwa bagan harus digambar dengan kerucut terpotong sehingga puncak kerucut mencapai nilai data maksimum. |
-| Cylinder | `3` | Menentukan bahwa bagan harus digambar sebagai silinder. |
-| Pyramid | `4` | Menentukan bahwa bagan harus digambar sebagai piramida persegi panjang, dengan dasar piramida di lantai dan puncak piramida di atas penanda data. |
-| PyramidToMaximum | `5` | Menentukan bahwa bagan harus digambar dengan kerucut terpotong sehingga puncak kerucut mencapai nilai data maksimum. |
+| NotDefined | `-1` | Bentuk chart tidak ditentukan. |
+| Box | `0` | Menentukan chart akan digambar dengan bentuk kotak. |
+| Cone | `1` | Menentukan chart akan digambar sebagai kerucut, dengan alas kerucut berada di lantai dan titik kerucut di puncak penanda data. |
+| ConeToMax | `2` | Menentukan chart akan digambar dengan kerucut terpotong sehingga titik kerucut akan menjadi nilai data maksimum. |
+| Cylinder | `3` | Menentukan chart akan digambar sebagai silinder. |
+| Pyramid | `4` | Menentukan chart akan digambar sebagai piramida berbentuk persegi panjang, dengan alas piramida berada di lantai dan titik piramida di puncak penanda data. |
+| PyramidToMaximum | `5` | Menentukan chart akan digambar dengan kerucut terpotong sehingga titik kerucut akan menjadi nilai data maksimum. |
 
 ### Lihat Juga
 

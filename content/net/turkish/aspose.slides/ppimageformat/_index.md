@@ -1,9 +1,9 @@
 ---
 title: PPImageFormat
-second_title: Aspose.Sildes for .NET API Referansı
-description: Görüntü formatları. Bu enum, System.Drawing.Imaging.ImageFormat sınıfının yerine geçer. COM uyumluluğu için gereklidir.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Görüntü biçimleri. Bu enum, System.Drawing.Imaging.ImageFormat sınıfının yerine geçer. COM uyumluluğu için gereklidir.
 type: docs
-weight: 9260
+weight: 9280
 url: /tr/aspose.slides/ppimageformat/
 ---
 ## PPImageFormat enum
@@ -24,12 +24,12 @@ public enum PPImageFormat
 | Gif | `3` | Grafik Değişim Biçimi (GIF) görüntü biçimini alır. |
 | Icon | `4` | Windows simge görüntü biçimini alır. |
 | Jpeg | `5` | Ortak Fotoğraf Uzmanları Grubu (JPEG) görüntü biçimini alır. |
-| MemoryBmp | `6` | Bellekteki bitmap'in biçimini alır. |
+| MemoryBmp | `6` | Bellekteki bitmap biçimini alır. |
 | Png | `7` | W3C Taşınabilir Ağ Grafikleri (PNG) görüntü biçimini alır. |
-| Tiff | `8` | Etiketli Görüntü Dosyası Biçimi (TIFF) görüntü biçimini alır. |
+| Tiff | `8` | Etiketli Görüntü Dosyası Formatı (TIFF) görüntü biçimini alır. |
 | Wmf | `9` | Windows metafile (WMF) görüntü biçimini alır. |
 
-### Diğer Bağlantılar
+### Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

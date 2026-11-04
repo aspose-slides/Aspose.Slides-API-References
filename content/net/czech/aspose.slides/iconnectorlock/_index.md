@@ -1,14 +1,12 @@
 ---
 title: IConnectorLock
 second_title: Aspose.Sildes pro .NET API Reference
-description: Určuje, které operace jsou na nadřazeném konektoru zakázány.
+description: Určuje, které operace jsou zakázány na nadřazeném konektoru.
 type: docs
-weight: 5620
+weight: 5640
 url: /cs/aspose.slides/iconnectorlock/
 ---
 ## IConnectorLock rozhraní
-
-Určuje, které operace jsou na nadřazeném konektoru zakázány.
 
 ```csharp
 public interface IConnectorLock : IBaseShapeLock
@@ -16,19 +14,19 @@ public interface IConnectorLock : IBaseShapeLock
 
 ## Vlastnosti
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/iconnectorlock/adjusthandleslocked) { get; set; } | Určuje, zda je zakázáno měnit hodnoty úpravy. Čtení/Zápis Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/iconnectorlock/arrowheadslocked) { get; set; } | Určuje, zda je zakázána změna šipek. Čtení/Zápis Boolean. |
-| [AsIBaseShapeLock](../../aspose.slides/iconnectorlock/asibaseshapelock) { get; } | Umožňuje získat základní rozhraní IBaseShapeLock. Pouze pro čtení [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/iconnectorlock/aspectratiolocked) { get; set; } | Určuje, zda má tvar zachovat poměr stran při změně velikosti. Čtení/Zápis Boolean. |
-| [EditPointsLocked](../../aspose.slides/iconnectorlock/editpointslocked) { get; set; } | Určuje, zda je zakázána přímá změna obrysu tohoto tvaru. Čtení/Zápis Boolean. |
-| [GroupingLocked](../../aspose.slides/iconnectorlock/groupinglocked) { get; set; } | Určuje, zda je zakázáno přidávat tento tvar do skupiny. Čtení/Zápis Boolean. |
-| [PositionMove](../../aspose.slides/iconnectorlock/positionmove) { get; set; } | Určuje, zda je zakázáno přesouvat tento tvar. Čtení/Zápis Boolean. |
-| [RotateLocked](../../aspose.slides/iconnectorlock/rotatelocked) { get; set; } | Určuje, zda je zakázána změna úhlu otáčení tohoto tvaru. Čtení/Zápis Boolean. |
-| [SelectLocked](../../aspose.slides/iconnectorlock/selectlocked) { get; set; } | Určuje, zda je zakázáno vybírat tento tvar. Čtení/Zápis Boolean. |
-| [ShapeTypeLocked](../../aspose.slides/iconnectorlock/shapetypelocked) { get; set; } | Určuje, zda je zakázána změna typu tvaru. Čtení/Zápis Boolean. |
-| [SizeLocked](../../aspose.slides/iconnectorlock/sizelocked) { get; set; } | Určuje, zda je zakázáno měnit velikost tohoto tvaru. Čtení/Zápis Boolean. |
+| [AdjustHandlesLocked](../../aspose.slides/iconnectorlock/adjusthandleslocked) { get; set; } | Určuje, zda je změna hodnot úpravy zakázána. Čtení/zápis Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/iconnectorlock/arrowheadslocked) { get; set; } | Určuje, zda je změna šipek zakázána. Čtení/zápis Boolean. |
+| [AsIBaseShapeLock](../../aspose.slides/iconnectorlock/asibaseshapelock) { get; } | Umožňuje získat základní rozhraní IBaseShapeLock. Pouze ke čtení [`IBaseShapeLock`](../ibaseshapelock). |
+| [AspectRatioLocked](../../aspose.slides/iconnectorlock/aspectratiolocked) { get; set; } | Určuje, zda má tvar zachovat poměr stran při změně velikosti. Čtení/zápis Boolean. |
+| [EditPointsLocked](../../aspose.slides/iconnectorlock/editpointslocked) { get; set; } | Určuje, zda je přímá změna obrysu tohoto tvaru zakázána. Čtení/zápis Boolean. |
+| [GroupingLocked](../../aspose.slides/iconnectorlock/groupinglocked) { get; set; } | Určuje, zda je přidání tohoto tvaru do skupiny zakázáno. Čtení/zápis Boolean. |
+| [PositionMove](../../aspose.slides/iconnectorlock/positionmove) { get; set; } | Určuje, zda je přesunutí tohoto tvaru zakázáno. Čtení/zápis Boolean. |
+| [RotateLocked](../../aspose.slides/iconnectorlock/rotatelocked) { get; set; } | Určuje, zda je změna úhlu otáčení tohoto tvaru zakázána. Čtení/zápis Boolean. |
+| [SelectLocked](../../aspose.slides/iconnectorlock/selectlocked) { get; set; } | Určuje, zda je výběr tohoto tvaru zakázán. Čtení/zápis Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/iconnectorlock/shapetypelocked) { get; set; } | Určuje, zda je změna typu tvaru zakázána. Čtení/zápis Boolean. |
+| [SizeLocked](../../aspose.slides/iconnectorlock/sizelocked) { get; set; } | Určuje, zda je změna velikosti tohoto tvaru zakázána. Čtení/zápis Boolean. |
 
 ### Viz také
 

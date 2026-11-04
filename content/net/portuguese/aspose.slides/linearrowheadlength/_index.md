@@ -3,7 +3,7 @@ title: LineArrowheadLength
 second_title: Aspose.Sildes para .NET Referência da API
 description: Representa o comprimento de uma ponta de seta.
 type: docs
-weight: 7730
+weight: 7750
 url: /pt/aspose.slides/linearrowheadlength/
 ---
 ## LineArrowheadLength enumeração
@@ -23,7 +23,7 @@ public enum LineArrowheadLength : sbyte
 | Medium | `1` |  |
 | Long | `2` |  |
 
-### Ver também
+### Veja Também
 
 * espaço de nomes [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

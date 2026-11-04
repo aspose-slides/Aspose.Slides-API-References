@@ -1,14 +1,14 @@
 ---
 title: IShapeFrame
-second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
-description: เป็นตัวแทนของคุณสมบัติของกรอบรูป.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงคุณสมบัติของกรอบรูปร่าง.
 type: docs
-weight: 7000
+weight: 7020
 url: /th/aspose.slides/ishapeframe/
 ---
 ## IShapeFrame อินเทอร์เฟซ
 
-เป็นตัวแทนของคุณสมบัติของกรอบรูป
+แสดงคุณสมบัติของกรอบรูปร่าง
 
 ```csharp
 public interface IShapeFrame : IGenericCloneable<IShapeFrame>
@@ -16,18 +16,18 @@ public interface IShapeFrame : IGenericCloneable<IShapeFrame>
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [CenterX](../../aspose.slides/ishapeframe/centerx) { get; } | คืนค่าพิกัด X ของจุดศูนย์กลางของเฟรม. อ่านอย่างเดียว Single. |
-| [CenterY](../../aspose.slides/ishapeframe/centery) { get; } | คืนค่าพิกัด Y ของจุดศูนย์กลางของเฟรม. อ่านอย่างเดียว Single. |
-| [FlipH](../../aspose.slides/ishapeframe/fliph) { get; } | ระบุว่าเฟรมถูกพลิกแนวนอนหรือไม่. อ่านอย่างเดียว [`NullableBool`](../nullablebool). |
-| [FlipV](../../aspose.slides/ishapeframe/flipv) { get; } | ระบุว่าเฟรมถูกพลิกแนวตั้งหรือไม่. อ่านอย่างเดียว [`NullableBool`](../nullablebool). |
-| [Height](../../aspose.slides/ishapeframe/height) { get; } | คืนค่าความสูงของเฟรม. อ่านอย่างเดียว Single. |
-| [Rectangle](../../aspose.slides/ishapeframe/rectangle) { get; } | คืนค่าพิกัดของเฟรม. อ่านอย่างเดียว RectangleF. |
-| [Rotation](../../aspose.slides/ishapeframe/rotation) { get; } | คืนค่าจำนวนองศาที่เฟรมถูกหมุนรอบแกน z. ค่าบวกแสดงการหมุนตามเข็มนาฬิกา; ค่าลบแสดงการหมุนทวนเข็มนาฬิกา. อ่านอย่างเดียว Single. |
-| [Width](../../aspose.slides/ishapeframe/width) { get; } | คืนค่าความกว้างของเฟรม. อ่านอย่างเดียว Single. |
-| [X](../../aspose.slides/ishapeframe/x) { get; } | คืนค่าพิกัด X ของมุมซ้ายบนของเฟรม. อ่านอย่างเดียว Single. |
-| [Y](../../aspose.slides/ishapeframe/y) { get; } | คืนค่าพิกัด Y ของมุมซ้ายบนของเฟรม. อ่านอย่างเดียว Single. |
+| [CenterX](../../aspose.slides/ishapeframe/centerx) { get; } | ส่งคืนพิกัด X ของศูนย์กลางของเฟรม. อ่านอย่างเดียว Single. |
+| [CenterY](../../aspose.slides/ishapeframe/centery) { get; } | ส่งคืนพิกัด Y ของศูนย์กลางของเฟรม. อ่านอย่างเดียว Single. |
+| [FlipH](../../aspose.slides/ishapeframe/fliph) { get; } | บ่งบอกว่าเฟรมถูกพลิกแนวนอนหรือไม่. อ่านอย่างเดียว [`NullableBool`](../nullablebool). |
+| [FlipV](../../aspose.slides/ishapeframe/flipv) { get; } | บ่งบอกว่าเฟรมถูกพลิกแนวตั้งหรือไม่. อ่านอย่างเดียว [`NullableBool`](../nullablebool). |
+| [Height](../../aspose.slides/ishapeframe/height) { get; } | ส่งคืนความสูงของเฟรม. อ่านอย่างเดียว Single. |
+| [Rectangle](../../aspose.slides/ishapeframe/rectangle) { get; } | ส่งคืนพิกัดของเฟรม. อ่านอย่างเดียว RectangleF. |
+| [Rotation](../../aspose.slides/ishapeframe/rotation) { get; } | ส่งคืนจำนวนองศาที่เฟรมหมุนรอบแกน z. ค่าเป็นบวกแสดงการหมุนตามเข็มนาฬิกา; ค่าเป็นลบแสดงการหมุนทวนเข็มนาฬิกา. อ่านอย่างเดียว Single. |
+| [Width](../../aspose.slides/ishapeframe/width) { get; } | ส่งคืนความกว้างของเฟรม. อ่านอย่างเดียว Single. |
+| [X](../../aspose.slides/ishapeframe/x) { get; } | ส่งคืนพิกัด X ของมุมซ้ายบนของเฟรม. อ่านอย่างเดียว Single. |
+| [Y](../../aspose.slides/ishapeframe/y) { get; } | ส่งคืนพิกัด Y ของมุมซ้ายบนของเฟรม. อ่านอย่างเดียว Single. |
 
 ### ดูเพิ่มเติม
 

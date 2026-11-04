@@ -1,20 +1,20 @@
 ---
 title: Marker
 second_title: Aspose.Sildes för .NET API-referens
-description: Specificerar en datamarkör. Skrivskyddad IMarker aspose.slides.charts/imarker.
+description: Anger en datamarkör. Skrivskyddad IMarkeraspose.slides.charts/imarker.
 type: docs
-weight: 150
+weight: 190
 url: /sv/aspose.slides.charts/chartdatapoint/marker/
 ---
 ## ChartDataPoint.Marker egenskap
 
-Specificerar en datamarkör. Skrivskyddad [`IMarker`](../../imarker).
+Anger en datamarkör. Skrivskyddad [`IMarker`](../../imarker).
 
 ```csharp
 public IMarker Marker { get; }
 ```
 
-### Se också
+### Se även
 
 * gränssnitt [IMarker](../../imarker)
 * klass [ChartDataPoint](../../chartdatapoint)

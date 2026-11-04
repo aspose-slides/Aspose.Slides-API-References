@@ -1,14 +1,14 @@
 ---
 title: ReplaceText
-second_title: Aspose.Slides .NET API Referencia
-description: Lecseréli a megadott szöveg összes előfordulását egy másik megadott szövegre.
+second_title: Aspose.Sildes .NET API-referencia
+description: Az összes előfordulását a megadott szövegnek egy másik megadott szöveggel cseréli.
 type: docs
-weight: 380
+weight: 390
 url: /hu/aspose.slides/presentation/replacetext/
 ---
 ## Presentation.ReplaceText metódus
 
-Lecseréli a megadott szöveg összes előfordulását egy másik megadott szövegre.
+Az összes előfordulását a megadott szövegnek egy másik megadott szöveggel cseréli.
 
 ```csharp
 public void ReplaceText(string oldText, string newText, ITextSearchOptions options, 
@@ -17,14 +17,14 @@ public void ReplaceText(string oldText, string newText, ITextSearchOptions optio
 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| oldText | String | A lecserélendő karakterlánc. |
-| newText | String | A karakterlánc, amely a oldText összes előfordulását helyettesíti. |
-| options | ITextSearchOptions | Szövegkeresési beállítások [`ITextSearchOptions`](../../itextsearchoptions). |
+| oldText | String | A cserélendő karakterlánc. |
+| newText | String | A karakterlánc, amely helyettesíti az oldText összes előfordulását. |
+| options | ITextSearchOptions | A szövegkeresési beállítások [`ITextSearchOptions`](../../itextsearchoptions). |
 | callback | IFindResultCallback | A visszahívási objektum a keresési eredmények fogadásához [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Példák
 
-Az alábbi példa kód bemutatja, hogyan lehet egy megadott karakterláncot egy másik megadott karakterláncra cserélni.
+A következő minta kód bemutatja, hogyan cseréljenek ki egy megadott karakterláncot egy másik megadott karakterláncra.
 
 ```csharp
 [C#]

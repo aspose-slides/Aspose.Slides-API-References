@@ -1,9 +1,9 @@
 ---
 title: ITabEffectiveData
-second_title: Aspose.Sildes pour la référence API .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Objet immuable qui contient les propriétés d'arrêt de tabulation du texte effectif.
 type: docs
-weight: 7210
+weight: 7230
 url: /fr/aspose.slides/itabeffectivedata/
 ---
 ## ITabEffectiveData interface
@@ -18,9 +18,9 @@ public interface ITabEffectiveData : IComparable
 
 | Nom | Description |
 | --- | --- |
-| [Alignment](../../aspose.slides/itabeffectivedata/alignment) { get; } | Renvoie le style d'alignement d'un onglet. Lecture seule [`TabAlignment`](../tabalignment). |
+| [Alignment](../../aspose.slides/itabeffectivedata/alignment) { get; } | Renvoie le style d'alignement d'une tabulation. Lecture seule [`TabAlignment`](../tabalignment). |
 | [AsIComparable](../../aspose.slides/itabeffectivedata/asicomparable) { get; } | Renvoie l'interface IComparable. Lecture seule IComparable. |
-| [Position](../../aspose.slides/itabeffectivedata/position) { get; } | Renvoie la position d'un onglet. L'affectation de cette propriété peut changer l'index de l'onglet dans la collection et invalider l'énumérateur. Lecture seule Double. |
+| [Position](../../aspose.slides/itabeffectivedata/position) { get; } | Renvoie la position d'une tabulation. L'affectation de cette propriété peut changer l'index de la tabulation dans la collection et invalider l'énumérateur. Lecture seule Double. |
 
 ### Remarques
 

@@ -1,9 +1,9 @@
 ---
 title: CommentAuthor
-second_title: Aspose.Sildes dla .NET Dokumentacja API
+second_title: Aspose.Sildes dla .NET Referencji API
 description: Reprezentuje autora komentarzy.
 type: docs
-weight: 2630
+weight: 2650
 url: /pl/aspose.slides/commentauthor/
 ---
 ## CommentAuthor klasa

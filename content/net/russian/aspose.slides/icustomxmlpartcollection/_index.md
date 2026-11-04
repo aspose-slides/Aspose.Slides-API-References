@@ -1,9 +1,9 @@
 ---
 title: ICustomXmlPartCollection
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для .NET API Справка
 description: Представляет коллекцию пользовательских XML-частей.
 type: docs
-weight: 5680
+weight: 5700
 url: /ru/aspose.slides/icustomxmlpartcollection/
 ---
 ## ICustomXmlPartCollection интерфейс
@@ -28,7 +28,7 @@ public interface ICustomXmlPartCollection : IGenericCollection<ICustomXmlPart>
 | [Add](../../aspose.slides/icustomxmlpartcollection/add#add_1)(Stream) | Добавляет новую пользовательскую XML-часть. |
 | [Add](../../aspose.slides/icustomxmlpartcollection/add#add_2)(string) | Добавляет новую пользовательскую XML-часть. |
 | [Clear](../../aspose.slides/icustomxmlpartcollection/clear)() | Удаляет все элементы из коллекции. |
-| [Remove](../../aspose.slides/icustomxmlpartcollection/remove)(ICustomXmlPart) | Удаляет первое вхождение указанного объекта из коллекции. |
+| [Remove](../../aspose.slides/icustomxmlpartcollection/remove)(ICustomXmlPart) | Удаляет первое вхождение конкретного объекта из коллекции. |
 | [RemoveAt](../../aspose.slides/icustomxmlpartcollection/removeat)(int) | Удаляет пользовательскую XML-часть по указанному индексу. |
 
 ### См. также

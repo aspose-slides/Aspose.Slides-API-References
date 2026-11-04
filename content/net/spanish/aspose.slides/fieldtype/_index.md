@@ -3,7 +3,7 @@ title: FieldType
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa un tipo de campo. Este valor determina qué texto se establecerá en la porción del campo cuando se actualice.
 type: docs
-weight: 4760
+weight: 4780
 url: /es/aspose.slides/fieldtype/
 ---
 ## FieldType clase
@@ -16,28 +16,28 @@ public sealed class FieldType : IFieldType
 
 ## Constructores
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
-| [FieldType](fieldtype)(string) | Inicializa una nueva instancia de la clase FieldType. |
+| [FieldType](fieldtype)(string) | Initializes a new instance of FieldType class. |
 
 ## Propiedades
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
-| static [DateTime](../../aspose.slides/fieldtype/datetime) { get; } | Fecha y hora actuales en el formato de fecha y hora predeterminado para la aplicación de renderizado. Solo lectura [`FieldType`](../fieldtype). |
-| static [DateTime1](../../aspose.slides/fieldtype/datetime1) { get; } | Fecha y hora actuales en el primer formato predefinido (MM/DD/YYYY para inglés). Solo lectura [`FieldType`](../fieldtype). |
-| static [DateTime10](../../aspose.slides/fieldtype/datetime10) { get; } | Fecha y hora actuales en el décimo formato predefinido (hh:mm para inglés). Solo lectura [`FieldType`](../fieldtype). |
-| static [DateTime11](../../aspose.slides/fieldtype/datetime11) { get; } | Fecha y hora actuales en el undécimo formato predefinido (hh:mm:ss para inglés). Solo lectura [`FieldType`](../fieldtype). |
-| static [DateTime12](../../aspose.slides/fieldtype/datetime12) { get; } | Fecha y hora actuales en el duodécimo formato predefinido (hh:mm AM/PM para inglés). Solo lectura [`FieldType`](../fieldtype). |
-| static [DateTime13](../../aspose.slides/fieldtype/datetime13) { get; } | Fecha y hora actuales en el decimotercer formato predefinido (hh:mm:ss AM/PM para inglés). Solo lectura [`FieldType`](../fieldtype). |
-| static [DateTime2](../../aspose.slides/fieldtype/datetime2) { get; } | Fecha y hora actuales en el segundo formato predefinido (Day, Month DD, YYYY para inglés). Solo lectura [`FieldType`](../fieldtype). |
-| static [DateTime3](../../aspose.slides/fieldtype/datetime3) { get; } | Fecha y hora actuales en el tercer formato predefinido (DD Month YYYY para inglés). Solo lectura [`FieldType`](../fieldtype). |
-| static [DateTime4](../../aspose.slides/fieldtype/datetime4) { get; } | Fecha y hora actuales en el cuarto formato predefinido (Month DD, YYYY para inglés). Solo lectura [`FieldType`](../fieldtype). |
-| static [DateTime5](../../aspose.slides/fieldtype/datetime5) { get; } | Fecha y hora actuales en el quinto formato predefinido (DD-Mon-YY para inglés). Solo lectura [`FieldType`](../fieldtype). |
-| static [DateTime6](../../aspose.slides/fieldtype/datetime6) { get; } | Fecha y hora actuales en el sexto formato predefinido (Month YY para inglés). Solo lectura [`FieldType`](../fieldtype). |
-| static [DateTime7](../../aspose.slides/fieldtype/datetime7) { get; } | Fecha y hora actuales en el séptimo formato predefinido (Mon-YY para inglés). Solo lectura [`FieldType`](../fieldtype). |
-| static [DateTime8](../../aspose.slides/fieldtype/datetime8) { get; } | Fecha y hora actuales en el octavo formato predefinido (MM/DD/YYYY hh:mm AM/PM para inglés). Solo lectura [`FieldType`](../fieldtype). |
-| static [DateTime9](../../aspose.slides/fieldtype/datetime9) { get; } | Fecha y hora actuales en el noveno formato predefinido (MM/DD/YYYY hh:mm:ss AM/PM para inglés). Solo lectura [`FieldType`](../fieldtype). |
+| static [DateTime](../../aspose.slides/fieldtype/datetime) { get; } | Fecha y hora actual en el formato de fecha y hora predeterminado para la aplicación de renderizado. Solo lectura [`FieldType`](../fieldtype). |
+| static [DateTime1](../../aspose.slides/fieldtype/datetime1) { get; } | Fecha y hora actual en el primer formato predefinido (MM/DD/YYYY para inglés). Solo lectura [`FieldType`](../fieldtype). |
+| static [DateTime10](../../aspose.slides/fieldtype/datetime10) { get; } | Fecha y hora actual en el décimo formato predefinido (hh:mm para inglés). Solo lectura [`FieldType`](../fieldtype). |
+| static [DateTime11](../../aspose.slides/fieldtype/datetime11) { get; } | Fecha y hora actual en el undécimo formato predefinido (hh:mm:ss para inglés). Solo lectura [`FieldType`](../fieldtype). |
+| static [DateTime12](../../aspose.slides/fieldtype/datetime12) { get; } | Fecha y hora actual en el duodécimo formato predefinido (hh:mm AM/PM para inglés). Solo lectura [`FieldType`](../fieldtype). |
+| static [DateTime13](../../aspose.slides/fieldtype/datetime13) { get; } | Fecha y hora actual en el decimotercer formato predefinido (hh:mm:ss AM/PM para inglés). Solo lectura [`FieldType`](../fieldtype). |
+| static [DateTime2](../../aspose.slides/fieldtype/datetime2) { get; } | Fecha y hora actual en el segundo formato predefinido (Day, Month DD, YYYY para inglés). Solo lectura [`FieldType`](../fieldtype). |
+| static [DateTime3](../../aspose.slides/fieldtype/datetime3) { get; } | Fecha y hora actual en el tercer formato predefinido (DD Month YYYY para inglés). Solo lectura [`FieldType`](../fieldtype). |
+| static [DateTime4](../../aspose.slides/fieldtype/datetime4) { get; } | Fecha y hora actual en el cuarto formato predefinido (Month DD, YYYY para inglés). Solo lectura [`FieldType`](../fieldtype). |
+| static [DateTime5](../../aspose.slides/fieldtype/datetime5) { get; } | Fecha y hora actual en el quinto formato predefinido (DD-Mon-YY para inglés). Solo lectura [`FieldType`](../fieldtype). |
+| static [DateTime6](../../aspose.slides/fieldtype/datetime6) { get; } | Fecha y hora actual en el sexto formato predefinido (Month YY para inglés). Solo lectura [`FieldType`](../fieldtype). |
+| static [DateTime7](../../aspose.slides/fieldtype/datetime7) { get; } | Fecha y hora actual en el séptimo formato predefinido (Mon-YY para inglés). Solo lectura [`FieldType`](../fieldtype). |
+| static [DateTime8](../../aspose.slides/fieldtype/datetime8) { get; } | Fecha y hora actual en el octavo formato predefinido (MM/DD/YYYY hh:mm AM/PM para inglés). Solo lectura [`FieldType`](../fieldtype). |
+| static [DateTime9](../../aspose.slides/fieldtype/datetime9) { get; } | Fecha y hora actual en el noveno formato predefinido (MM/DD/YYYY hh:mm:ss AM/PM para inglés). Solo lectura [`FieldType`](../fieldtype). |
 | static [Footer](../../aspose.slides/fieldtype/footer) { get; } | Pie de diapositiva. Solo lectura [`FieldType`](../fieldtype). |
 | static [Header](../../aspose.slides/fieldtype/header) { get; } | Encabezado de diapositiva. Solo lectura [`FieldType`](../fieldtype). |
 | static [SlideNumber](../../aspose.slides/fieldtype/slidenumber) { get; } | Número de la diapositiva actual. Solo lectura [`FieldType`](../fieldtype). |
@@ -45,14 +45,14 @@ public sealed class FieldType : IFieldType
 
 ## Métodos
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides/fieldtype/equals)(object) | Comprueba si este campo es igual a otro. |
-| override [GetHashCode](../../aspose.slides/fieldtype/gethashcode)() | Devuelve el código hash de este objeto. |
+| override [GetHashCode](../../aspose.slides/fieldtype/gethashcode)() | Devuelve el código hash para este objeto. |
 | [operator ==](../../aspose.slides/fieldtype/op_equality) | Comprueba si dos objetos FieldType son iguales. |
-| [operator !=](../../aspose.slides/fieldtype/op_inequality) | Comprueba si dos objetos FieldType no son iguales. |
+| [operator !=](../../aspose.slides/fieldtype/op_inequality) | Comprueba si dos objetos FieldType son diferentes. |
 
-### Ver también
+## Ver también
 
 * interfaz [IFieldType](../ifieldtype)
 * espacio de nombres [Aspose.Slides](../../aspose.slides)

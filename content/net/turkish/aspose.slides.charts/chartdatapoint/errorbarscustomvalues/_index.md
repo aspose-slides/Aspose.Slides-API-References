@@ -1,20 +1,20 @@
 ---
 title: ErrorBarsCustomValues
-second_title: Aspose.Sildes for .NET API Referansı
-description: Özel değer türü durumunda seri hata çubukları değerlerini temsil eder. Salt okunur IErrorBarsCustomValuesaspose.slides.charts/ierrorbarscustomvalues.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Özel değer türü durumunda serinin hata çubukları değerlerini temsil eder. Read-only IErrorBarsCustomValuesaspose.slides.charts/ierrorbarscustomvalues.
 type: docs
-weight: 80
+weight: 120
 url: /tr/aspose.slides.charts/chartdatapoint/errorbarscustomvalues/
 ---
 ## ChartDataPoint.ErrorBarsCustomValues özellik
 
-Seri hata çubukları değerlerini, Özel değer türü durumunda temsil eder. Salt okunur [`IErrorBarsCustomValues`](../../ierrorbarscustomvalues).
+Özel değer türü durumunda serinin hata çubukları değerlerini temsil eder. Yalnızca okuma [`IErrorBarsCustomValues`](../../ierrorbarscustomvalues).
 
 ```csharp
 public IErrorBarsCustomValues ErrorBarsCustomValues { get; }
 ```
 
-### Ayrıca bakınız
+### İlgili
 
 * arayüz [IErrorBarsCustomValues](../../ierrorbarscustomvalues)
 * sınıf [ChartDataPoint](../../chartdatapoint)

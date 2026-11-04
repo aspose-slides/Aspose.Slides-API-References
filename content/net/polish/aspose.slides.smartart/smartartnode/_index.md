@@ -1,14 +1,14 @@
 ---
 title: SmartArtNode
-second_title: Aspose.Sildes dla .NET API Reference
+second_title: Aspose.Sildes dla .NET – referencja API
 description: Reprezentuje węzeł obiektu SmartArt
 type: docs
-weight: 10630
+weight: 10650
 url: /pl/aspose.slides.smartart/smartartnode/
 ---
 ## SmartArtNode klasa
 
-Represents node of a SmartArt object
+Reprezentuje węzeł obiektu SmartArt
 
 ```csharp
 public sealed class SmartArtNode : ISmartArtNode
@@ -16,21 +16,21 @@ public sealed class SmartArtNode : ISmartArtNode
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
-| [BulletFillFormat](../../aspose.slides.smartart/smartartnode/bulletfillformat) { get; } | Zwraca obiekt FillFormat zawierający właściwości formatowania wypełnienia dla wypunktowania węzła. Uwaga: może zwrócić null dla niektórych typów układu SmartArt, które nie zapewniają wypunktowań dla węzłów. Tylko do odczytu [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [ChildNodes](../../aspose.slides.smartart/smartartnode/childnodes) { get; } | Zwraca kolekcje wszystkich węzłów podrzędnych bieżącego węzła. Tylko do odczytu [`ISmartArtNodeCollection`](../ismartartnodecollection). |
+| [BulletFillFormat](../../aspose.slides.smartart/smartartnode/bulletfillformat) { get; } | Zwraca obiekt FillFormat, który zawiera właściwości formatowania wypełnienia dla punktu wypunktowania węzła. Uwaga: może zwrócić wartość null dla niektórych typów układu SmartArt, które nie zapewniają punktów wypunktowania dla węzłów. Tylko do odczytu [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [ChildNodes](../../aspose.slides.smartart/smartartnode/childnodes) { get; } | Zwraca kolekcje wszystkich węzłów potomnych bieżącego węzła. Tylko do odczytu [`ISmartArtNodeCollection`](../ismartartnodecollection). |
 | [IsAssistant](../../aspose.slides.smartart/smartartnode/isassistant) { get; set; } | Zwraca lub ustawia węzeł jako asystenta. Odczyt/zapis Boolean. |
-| [IsHidden](../../aspose.slides.smartart/smartartnode/ishidden) { get; } | Zwraca true, jeśli ten węzeł jest ukrytym węzłem w modelu danych. Tylko do odczytu Boolean. |
+| [IsHidden](../../aspose.slides.smartart/smartartnode/ishidden) { get; } | Zwraca wartość true, jeśli ten węzeł jest ukrytym węzłem w modelu danych. Tylko do odczytu Boolean. |
 | [Level](../../aspose.slides.smartart/smartartnode/level) { get; } | Zwraca poziom zagnieżdżenia węzła. Tylko do odczytu Int32. |
-| [OrganizationChartLayout](../../aspose.slides.smartart/smartartnode/organizationchartlayout) { get; set; } | Zwraca lub ustawia typ układu wykresu organizacyjnego powiązany z bieżącym węzłem. Odczyt/zapis [`OrganizationChartLayoutType`](../organizationchartlayouttype). |
-| [Position](../../aspose.slides.smartart/smartartnode/position) { get; set; } | Zwraca lub ustawia pozycję węzła (indeksowaną od zera) wśród węzłów rodzeństwa. Odczyt/zapis Int32. |
+| [OrganizationChartLayout](../../aspose.slides.smartart/smartartnode/organizationchartlayout) { get; set; } | Zwraca lub ustawia typ układu organizacyjnego powiązany z bieżącym węzłem. Odczyt/zapis [`OrganizationChartLayoutType`](../organizationchartlayouttype). |
+| [Position](../../aspose.slides.smartart/smartartnode/position) { get; set; } | Zwraca lub ustawia pozycję węzła (indeksowane od zera) wśród węzłów siostrzanych. Odczyt/zapis Int32. |
 | [Shapes](../../aspose.slides.smartart/smartartnode/shapes) { get; } | Zwraca kolekcje wszystkich kształtów powiązanych z węzłem. Tylko do odczytu [`ISmartArtShapeCollection`](../ismartartshapecollection). |
 | [TextFrame](../../aspose.slides.smartart/smartartnode/textframe) { get; } | Zwraca ramkę tekstową węzła. Tylko do odczytu [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ## Metody
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [Remove](../../aspose.slides.smartart/smartartnode/remove)() | Usuwa bieżący węzeł. |
 

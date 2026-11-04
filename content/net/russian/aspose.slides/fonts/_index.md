@@ -1,12 +1,12 @@
 ---
 title: Fonts
-second_title: Aspose.Sildes для .NET, справочник API
+second_title: Aspose.Sildes для .NET справочника API
 description: Коллекция шрифтов.
 type: docs
-weight: 4920
+weight: 4940
 url: /ru/aspose.slides/fonts/
 ---
-## Fonts класс
+## Класс Fonts
 
 Коллекция Fonts.
 
@@ -18,18 +18,18 @@ public class Fonts : IFonts
 
 | Имя | Описание |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/fonts/complexscriptfont) { get; set; } | Возвращает или задает шрифт сложных сценариев. Чтение/запись [`IFontData`](../ifontdata). |
-| [EastAsianFont](../../aspose.slides/fonts/eastasianfont) { get; set; } | Возвращает или задает восточноазиатский шрифт. Чтение/запись [`IFontData`](../ifontdata). |
+| [ComplexScriptFont](../../aspose.slides/fonts/complexscriptfont) { get; set; } | Возвращает или задает шрифт сложных скриптов. Чтение/запись [`IFontData`](../ifontdata). |
+| [EastAsianFont](../../aspose.slides/fonts/eastasianfont) { get; set; } | Возвращает или задает шрифт Восточной Азии. Чтение/запись [`IFontData`](../ifontdata). |
 | [LatinFont](../../aspose.slides/fonts/latinfont) { get; set; } | Возвращает или задает латинский шрифт. Чтение/запись [`IFontData`](../ifontdata). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetScriptFont](../../aspose.slides/fonts/getscriptfont)(string) | Получает имя шрифта, связанное с определённым тегом сценария из темы презентации. |
-| [GetScriptFontMap](../../aspose.slides/fonts/getscriptfontmap)() | Возвращает словарь всех определений шрифтов сценариев в презентации. |
-| [RemoveScriptFont](../../aspose.slides/fonts/removescriptfont)(string) | Удаляет настройку шрифта, связанную с определённым тегом сценария, из коллекции шрифтов темы. |
-| [SetScriptFont](../../aspose.slides/fonts/setscriptfont)(string, string) | Назначает имя шрифта определённому тегу сценария, определяя, как текст этого сценария будет отображаться в презентации. |
+| [GetScriptFont](../../aspose.slides/fonts/getscriptfont)(string) | Получает имя шрифта, связанное с определённым тегом скрипта из темы презентации. |
+| [GetScriptFontMap](../../aspose.slides/fonts/getscriptfontmap)() | Возвращает словарь всех определений шрифтов скриптов в презентации. |
+| [RemoveScriptFont](../../aspose.slides/fonts/removescriptfont)(string) | Удаляет настройку шрифта, связанную с определённым тегом скрипта, из коллекции шрифтов темы. |
+| [SetScriptFont](../../aspose.slides/fonts/setscriptfont)(string, string) | Назначает имя шрифта конкретному тегу скрипта, определяя, как будет отображаться текст этого скрипта в презентации. |
 
 ### См. также
 

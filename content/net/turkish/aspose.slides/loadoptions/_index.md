@@ -1,14 +1,14 @@
 ---
 title: LoadOptions
-second_title: Aspose.Sildes .NET API Referansı
-description: Bir sunumu yüklerken biçim veya varsayılan yazı tipi gibi ek seçenekleri belirtmeye olanak tanır.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bir sunumu yüklerken format veya varsayılan yazı tipi gibi ek seçenekleri belirlemenizi sağlar.
 type: docs
-weight: 7840
+weight: 7860
 url: /tr/aspose.slides/loadoptions/
 ---
 ## LoadOptions sınıfı
 
-Sunumu yüklerken ek seçenekleri (örneğin biçim veya varsayılan yazı tipi) belirtmeye olanak tanır.
+Bir sunumu yüklerken ek seçenekleri (örneğin format veya varsayılan yazı tipi) belirtmenizi sağlar.
 
 ```csharp
 public class LoadOptions : ILoadOptions
@@ -18,27 +18,27 @@ public class LoadOptions : ILoadOptions
 
 | Ad | Açıklama |
 | --- | --- |
-| [LoadOptions](loadoptions#constructor)() | Yeni varsayılan yükleme seçeneklerini oluşturur. |
-| [LoadOptions](loadoptions#constructor_1)(LoadFormat) | Yeni yükleme seçeneklerini oluşturur. |
+| [LoadOptions](loadoptions#constructor)() | Yeni varsayılan yükleme seçenekleri oluşturur. |
+| [LoadOptions](loadoptions#constructor_1)(LoadFormat) | Yeni yükleme seçenekleri oluşturur. |
 
 ## Özellikler
 
 | Ad | Açıklama |
 | --- | --- |
-| [BlobManagementOptions](../../aspose.slides/loadoptions/blobmanagementoptions) { get; set; } | Binary Large Objects (BLOBs) işleme davranışını yönetmek için kullanılabilecek seçenekleri temsil eder, örneğin geçici dosyaların kullanılması veya bellek içindeki maksimum BLOB baytları gibi. Bu seçenekler belirli bir ortam veya gereksinimler için en iyi performans/bellek tüketimi oranını ayarlamayı amaçlar. Binary Large Object (BLOB), tek bir varlık olarak depolanan ikili veridir – yani BLOB bir ses, video veya sunum kendisi olabilir. |
-| [DefaultAsianFont](../../aspose.slides/loadoptions/defaultasianfont) { get; set; } | Kaynak yazı tipi bulunamadığında kullanılan Asya yazı tipini alır veya ayarlar. Okuma/yazma String. |
-| [DefaultRegularFont](../../aspose.slides/loadoptions/defaultregularfont) { get; set; } | Kaynak yazı tipi bulunamadığında kullanılan Normal yazı tipini alır veya ayarlar. Okuma/yazma String. |
-| [DefaultSymbolFont](../../aspose.slides/loadoptions/defaultsymbolfont) { get; set; } | Kaynak yazı tipi bulunamadığında kullanılan Sembol yazı tipini alır veya ayarlar. Okuma/yazma String. |
-| [DefaultTextLanguage](../../aspose.slides/loadoptions/defaulttextlanguage) { get; set; } | Sunum metni için varsayılan dili alır veya ayarlar. Okuma/yazma String. |
-| [DeleteEmbeddedBinaryObjects](../../aspose.slides/loadoptions/deleteembeddedbinaryobjects) { get; set; } | Sunum yüklenirken Aspose.Slides'ın tüm gömülü ikili nesneleri silip silmeyeceğini belirler. |
-| [DocumentLevelFontSources](../../aspose.slides/loadoptions/documentlevelfontsources) { get; set; } | Sunum tarafından kullanılacak dış yazı tipleri için kaynakları belirtir. Bu yazı tipleri sunum süresince kullanılabilir ve diğer sunumlarla paylaşılmaz. |
-| [InterruptionToken](../../aspose.slides/loadoptions/interruptiontoken) { get; set; } | Kesinti isteklerini izlemek için kullanılan token. Bu token, tüm [`IPresentation`](../ipresentation) örneği ömrünü yönetir. Sunumun yüklenmesi veya kaydedilmesi gibi uzun süren bir işlem, [`Interrupt`](../interruptiontokensource/interrupt) metodunun [`InterruptionTokenSource`](../interruptiontokensource) üzerinden çağrılmasıyla kesintiye uğratılabilir. |
-| [LoadFormat](../../aspose.slides/loadoptions/loadformat) { get; set; } | Yüklenecek sunumun formatını alır veya ayarlar. Okuma/yazma [`LoadFormat`](../loadformat). |
-| [OnlyLoadDocumentProperties](../../aspose.slides/loadoptions/onlyloaddocumentproperties) { get; set; } | Bu özellik, sunum dosyası parola ile korunmuşsa anlam kazanır. true değeri, şifreli bir sunum dosyasından yalnızca belge özelliklerinin yüklenmesi gerektiği ve parolanın göz ardı edilmesi anlamına gelir. false değeri, doğru parola kullanılarak tüm şifreli sunumun yüklenmesi gerektiği anlamına gelir. Sunum şifreli değilse bu özellik her zaman göz ardı edilir. Şifreli bir dosyanın belge özellikleri herkese açık değilse ve değer true ise belge özellikleri yüklenemez ve bir istisna fırlatılır. Okuma/yazma Boolean. |
-| [Password](../../aspose.slides/loadoptions/password) { get; set; } | Şifreyi alır veya ayarlar. Okuma/yazma String. |
-| [ResourceLoadingCallback](../../aspose.slides/loadoptions/resourceloadingcallback) { get; set; } | Dış kaynakların yüklenmesini yöneten geri arama arayüzünü alır veya ayarlar. Okuma/yazma [`IResourceLoadingCallback`](../iresourceloadingcallback). |
-| [SpreadsheetOptions](../../aspose.slides/loadoptions/spreadsheetoptions) { get; set; } | E-tablo seçeneklerini alır. Örneğin, bu seçenekler grafikler için formül hesaplamalarını etkiler. |
-| [WarningCallback](../../aspose.slides/loadoptions/warningcallback) { get; set; } | Uyarıları alan ve yükleme sürecinin devam edip etmeyeceğine karar veren bir nesneyi alır veya ayarlar. Okuma/yazma [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [BlobManagementOptions](../../aspose.slides/loadoptions/blobmanagementoptions) { get; set; } | Binary Large Objects (BLOBs) yönetim davranışını, örneğin geçici dosyaların kullanımı veya bellek içindeki maksimum BLOB baytları gibi, yönetmek için kullanılabilecek seçenekleri temsil eder. Bu seçenekler belirli bir ortam veya gereksinimler için en iyi performans/bellek tüketim oranını ayarlamak amacıyla tasarlanmıştır. Binary Large Object (BLOB), tek bir varlık olarak depolanan ikili veridir; yani BLOB bir ses, video veya sunumun kendisi olabilir. |
+| [DefaultAsianFont](../../aspose.slides/loadoptions/defaultasianfont) { get; set; } | Kaynak yazı tipi bulunamadığında kullanılan Asya yazı tipini döndürür veya ayarlar. Okunur/yazılır String. |
+| [DefaultRegularFont](../../aspose.slides/loadoptions/defaultregularfont) { get; set; } | Kaynak yazı tipi bulunamadığında kullanılan Normal (Regular) yazı tipini döndürür veya ayarlar. Okunur/yazılır String. |
+| [DefaultSymbolFont](../../aspose.slides/loadoptions/defaultsymbolfont) { get; set; } | Kaynak yazı tipi bulunamadığında kullanılan Symbol yazı tipini döndürür veya ayarlar. Okunur/yazılır String. |
+| [DefaultTextLanguage](../../aspose.slides/loadoptions/defaulttextlanguage) { get; set; } | Sunum metni için varsayılan dili döndürür veya ayarlar. Okunur/yazılır String. |
+| [DeleteEmbeddedBinaryObjects](../../aspose.slides/loadoptions/deleteembeddedbinaryobjects) { get; set; } | Sunum yüklenirken Aspose.Slides'in tüm gömülü ikili nesneleri silip silmeyeceğini belirler. |
+| [DocumentLevelFontSources](../../aspose.slides/loadoptions/documentlevelfontsources) { get; set; } | Sunum tarafından kullanılacak dış yazı tipleri için kaynakları belirler. Bu yazı tipleri, sunumun ömrü boyunca kullanılabilir ve diğer sunumlarla paylaşılmaz. |
+| [InterruptionToken](../../aspose.slides/loadoptions/interruptiontoken) { get; set; } | Kesinti isteklerini izlemek için kullanılan token. Bu token, tüm [`IPresentation`](../ipresentation) örnek ömrünü yönetir. Sunumun yüklenmesi veya kaydedilmesi gibi uzun süren bir işlem, [`InterruptionTokenSource`](../interruptiontokensource)'nin [`Interrupt`](../interruptiontokensource/interrupt) yöntemi çağrılarak kesilecektir. |
+| [LoadFormat](../../aspose.slides/loadoptions/loadformat) { get; set; } | Yüklenmek üzere bir sunumun formatını döndürür veya ayarlar. Okunur/yazılır [`LoadFormat`](../loadformat). |
+| [OnlyLoadDocumentProperties](../../aspose.slides/loadoptions/onlyloaddocumentproperties) { get; set; } | Bu özellik, sunum dosyası şifre korumalıysa anlam taşır. true değeri, şifrelenmiş bir sunum dosyasından yalnızca belge özelliklerinin yükleneceği ve şifrenin göz ardı edileceği anlamına gelir. false değeri, doğru şifre kullanılarak tüm şifreli sunumun yükleneceği anlamına gelir. Sunum şifreli değilse özellik değeri her zaman göz ardı edilir. Şifreli bir dosyanın belge özellikleri genel değilse ve özellik değeri true ise belge özellikleri yüklenemez ve bir istisna fırlatılır. Okunur/yazılır Boolean. |
+| [Password](../../aspose.slides/loadoptions/password) { get; set; } | Şifreyi alır veya ayarlar. Okunur/yazılır String. |
+| [ResourceLoadingCallback](../../aspose.slides/loadoptions/resourceloadingcallback) { get; set; } | Dış kaynakların yüklenmesini yöneten geri çağırma arayüzünü döndürür veya ayarlar. Okunur/yazılır [`IResourceLoadingCallback`](../iresourceloadingcallback). |
+| [SpreadsheetOptions](../../aspose.slides/loadoptions/spreadsheetoptions) { get; set; } | Elektronik tablolar için seçenekleri alır. Örneğin, bu seçenekler çizelgeler için formül hesaplamasını etkiler. |
+| [WarningCallback](../../aspose.slides/loadoptions/warningcallback) { get; set; } | Uyarıları alan ve yükleme işleminin devam edip etmeyeceğine karar veren bir nesneyi döndürür veya ayarlar. Okunur/yazılır [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Ayrıca Bakınız
 

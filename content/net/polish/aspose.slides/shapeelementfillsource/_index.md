@@ -3,12 +3,12 @@ title: ShapeElementFillSource
 second_title: Aspose.Sildes dla .NET – referencja API
 description: Reprezentuje sposób, w jaki element kształtu powinien być wypełniony.
 type: docs
-weight: 9880
+weight: 9900
 url: /pl/aspose.slides/shapeelementfillsource/
 ---
-## ShapeElementFillSource enumeracja
+## enumeracja ShapeElementFillSource
 
-Reprezentuje sposób wypełniania elementu kształtu.
+Reprezentuje sposób, w jaki element kształtu powinien być wypełniony.
 
 ```csharp
 public enum ShapeElementFillSource : byte

@@ -3,7 +3,7 @@ title: IMasterNotesSlide
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 노트를 위한 마스터 슬라이드를 나타냅니다.
 type: docs
-weight: 6390
+weight: 6410
 url: /ko/aspose.slides/imasternotesslide/
 ---
 ## IMasterNotesSlide 인터페이스
@@ -18,13 +18,13 @@ public interface IMasterNotesSlide : IBaseSlide, IMasterThemeable
 
 | 이름 | 설명 |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasternotesslide/asibaseslide) { get; } | IBaseSlide 기본 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IBaseSlide`](../ibaseslide). |
-| [AsIMasterThemeable](../../aspose.slides/imasternotesslide/asimasterthemeable) { get; } | IMasterThemeable 인터페이스를 반환합니다. 읽기 전용 [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [DrawingGuides](../../aspose.slides/imasternotesslide/drawingguides) { get; } | 마스터 노트 슬라이드의 그리기 가이드 컬렉션을 반환합니다. 읽기 전용 [`IDrawingGuidesCollection`](../idrawingguidescollection). |
+| [AsIBaseSlide](../../aspose.slides/imasternotesslide/asibaseslide) { get; } | 기본 IBaseSlide 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IBaseSlide`](../ibaseslide). |
+| [AsIMasterThemeable](../../aspose.slides/imasternotesslide/asimasterthemeable) { get; } | IMMasterThemeable 인터페이스를 반환합니다. 읽기 전용 [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
+| [DrawingGuides](../../aspose.slides/imasternotesslide/drawingguides) { get; } | 마스터 노트 슬라이드용 그리기 가이드 컬렉션을 반환합니다. 읽기 전용 [`IDrawingGuidesCollection`](../idrawingguidescollection) |
 | [HeaderFooterManager](../../aspose.slides/imasternotesslide/headerfootermanager) { get; } | 마스터 노트 슬라이드의 HeaderFooter 관리자를 반환합니다. 읽기 전용 [`IMasterNotesSlideHeaderFooterManager`](../imasternotesslideheaderfootermanager). |
 | [NotesStyle](../../aspose.slides/imasternotesslide/notesstyle) { get; } | 노트 텍스트의 스타일을 반환합니다. 읽기 전용 [`ITextStyle`](../itextstyle). |
 
-### 참고
+### 참조
 
 * 인터페이스 [IBaseSlide](../ibaseslide)
 * 인터페이스 [IMasterThemeable](../../aspose.slides.theme/imasterthemeable)

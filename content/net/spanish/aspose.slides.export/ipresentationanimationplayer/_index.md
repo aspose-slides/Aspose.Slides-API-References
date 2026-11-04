@@ -3,12 +3,12 @@ title: IPresentationAnimationPlayer
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa un reproductor de la animación. Animaciones generadas por PresentationAnimationsGenerator./presentationanimationsgenerator a través de su evento NewAnimation./presentationanimationsgenerator/newanimation.
 type: docs
-weight: 4030
+weight: 4050
 url: /es/aspose.slides.export/ipresentationanimationplayer/
 ---
 ## IPresentationAnimationPlayer interfaz
 
-Representa un reproductor de la animación. Animaciones generadas por [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) a través de su [`NewAnimation`](../presentationanimationsgenerator/newanimation) evento.
+Representa un reproductor de la animación.  Animaciones generadas por [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) a través de su evento [`NewAnimation`](../presentationanimationsgenerator/newanimation).
 
 ```csharp
 public interface IPresentationAnimationPlayer
@@ -18,14 +18,14 @@ public interface IPresentationAnimationPlayer
 
 | Nombre | Descripción |
 | --- | --- |
-| [Duration](../../aspose.slides.export/ipresentationanimationplayer/duration) { get; } | Obtiene la duración de la animación [ms] |
+| [Duration](../../aspose.slides.export/ipresentationanimationplayer/duration) { get; } | Obtener la duración de la animación [ms] |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetFrame](../../aspose.slides.export/ipresentationanimationplayer/getframe)() | Obtiene el fotograma para la posición de tiempo actual establecida previamente con el método [`SetTimePosition`](./settimeposition). |
-| [SetTimePosition](../../aspose.slides.export/ipresentationanimationplayer/settimeposition)(double) | Establece la posición de tiempo de la animación dentro del [`Duration`](./duration). |
+| [GetFrame](../../aspose.slides.export/ipresentationanimationplayer/getframe)() | Obtener el fotograma para la posición de tiempo actual previamente establecida con el método [`SetTimePosition`](./settimeposition). |
+| [SetTimePosition](../../aspose.slides.export/ipresentationanimationplayer/settimeposition)(double) | Establecer la posición de tiempo de la animación dentro del [`Duration`](./duration). |
 
 ### Ejemplos
 

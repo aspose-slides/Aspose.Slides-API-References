@@ -1,14 +1,14 @@
 ---
 title: VideoPlayerHtmlController
-second_title: Aspose.Sildes a .NET API referenciája
-description: Ez az osztály lehetővé teszi a videó- és hangfájlok exportálását HTML-be
+second_title: Aspose.Sildes .NET API-referencia
+description: Ez az osztály lehetővé teszi a videó- és hangfájlok HTML-be exportálását
 type: docs
-weight: 4580
+weight: 4600
 url: /hu/aspose.slides.export/videoplayerhtmlcontroller/
 ---
 ## VideoPlayerHtmlController osztály
 
-Ez az osztály lehetővé teszi a videó- és hangfájlok HTML-be exportálását.
+Ez az osztály lehetővé teszi a videó- és hangfájlok exportálását HTML-be
 
 ```csharp
 public class VideoPlayerHtmlController : IVideoPlayerHtmlController
@@ -18,9 +18,9 @@ public class VideoPlayerHtmlController : IVideoPlayerHtmlController
 
 | Név | Leírás |
 | --- | --- |
-| [VideoPlayerHtmlController](videoplayerhtmlcontroller)(string, string, string) | Új vezérlő példányt hoz létre |
+| [VideoPlayerHtmlController](videoplayerhtmlcontroller)(string, string, string) | Új példányt hoz létre a vezérlőből |
 
-### Lásd még
+### További hivatkozások
 
 * interfész [IVideoPlayerHtmlController](../ivideoplayerhtmlcontroller)
 * névtér [Aspose.Slides.Export](../../aspose.slides.export)

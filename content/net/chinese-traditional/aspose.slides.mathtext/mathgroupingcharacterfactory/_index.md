@@ -1,9 +1,9 @@
 ---
 title: MathGroupingCharacterFactory
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 允許建立數學分組字元
 type: docs
-weight: 8770
+weight: 8790
 url: /zh-hant/aspose.slides.mathtext/mathgroupingcharacterfactory/
 ---
 ## MathGroupingCharacterFactory 類別
@@ -31,7 +31,7 @@ public class MathGroupingCharacterFactory : IMathGroupingCharacterFactory
 
 用於 COM 相容性
 
-### 另請參閱
+### 另見
 
 * 介面 [IMathGroupingCharacterFactory](../imathgroupingcharacterfactory)
 * 命名空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

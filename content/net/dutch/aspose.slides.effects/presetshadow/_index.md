@@ -1,14 +1,14 @@
 ---
 title: PresetShadow
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een Preset Shadow effect voor.
+description: Stelt een Preset Shadow-effect voor.
 type: docs
-weight: 3630
+weight: 3650
 url: /nl/aspose.slides.effects/presetshadow/
 ---
 ## PresetShadow klasse
 
-Stelt een Preset Shadow effect voor.
+Stelt een Preset Shadow-effect voor.
 
 ```csharp
 public sealed class PresetShadow : IPresetShadow
@@ -18,10 +18,10 @@ public sealed class PresetShadow : IPresetShadow
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Direction](../../aspose.slides.effects/presetshadow/direction) { get; set; } | Richting van schaduw. Lezen/Schrijven Single. |
-| [Distance](../../aspose.slides.effects/presetshadow/distance) { get; set; } | Afstand van schaduw. Lezen/Schrijven Double. |
-| [Preset](../../aspose.slides.effects/presetshadow/preset) { get; set; } | Voorinstelling. Lezen/Schrijven [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
-| [ShadowColor](../../aspose.slides.effects/presetshadow/shadowcolor) { get; } | Kleur van schaduw. Alleen-lezen [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Direction](../../aspose.slides.effects/presetshadow/direction) { get; set; } | Richting van de schaduw. Lezen/schrijven Single. |
+| [Distance](../../aspose.slides.effects/presetshadow/distance) { get; set; } | Afstand van de schaduw. Lezen/schrijven Double. |
+| [Preset](../../aspose.slides.effects/presetshadow/preset) { get; set; } | Voorinstelling. Lezen/schrijven [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
+| [ShadowColor](../../aspose.slides.effects/presetshadow/shadowcolor) { get; } | Kleur van de schaduw. Alleen-lezen [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## Methoden
 
@@ -29,7 +29,7 @@ public sealed class PresetShadow : IPresetShadow
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/presetshadow/equals)(object) | Bepaalt of de opgegeven [`PresetShadow`](../presetshadow) gelijk is aan de huidige [`PresetShadow`](../presetshadow). |
 | [GetEffective](../../aspose.slides.effects/presetshadow/geteffective)() | Haalt effectieve Preset Shadow-effectgegevens op met de overerving toegepast. |
-| override [GetHashCode](../../aspose.slides.effects/presetshadow/gethashcode)() | Dient als hashfunctie voor een bepaald type. |
+| override [GetHashCode](../../aspose.slides.effects/presetshadow/gethashcode)() | Dient als hash-functie voor een bepaald type. |
 
 ### Zie ook
 

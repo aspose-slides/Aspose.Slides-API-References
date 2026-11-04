@@ -1,9 +1,9 @@
 ---
 title: IPlaceholder
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Representa un marcador de posición en una diapositiva.
 type: docs
-weight: 6690
+weight: 6710
 url: /es/aspose.slides/iplaceholder/
 ---
 ## IPlaceholder interfaz

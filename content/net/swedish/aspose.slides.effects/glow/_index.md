@@ -1,14 +1,14 @@
 ---
 title: Glow
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en Glow-effekt där en färgad suddig kontur läggs till utanför objektets kanter.
+description: Representerar en Glow-effekt där en färgad, suddig kontur läggs till utanför objektets kanter.
 type: docs
-weight: 2990
+weight: 3010
 url: /sv/aspose.slides.effects/glow/
 ---
 ## Glow klass
 
-Representerar en Glow-effekt, där en färgad suddig kontur läggs till utanför objektets kanter.
+Representerar en Glow-effekt, där en färg, suddig kontur läggs till utanför objektets kanter.
 
 ```csharp
 public sealed class Glow : IGlow
@@ -18,15 +18,15 @@ public sealed class Glow : IGlow
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Color](../../aspose.slides.effects/glow/color) { get; } | Färgformat. Endast läsning [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Color](../../aspose.slides.effects/glow/color) { get; } | Färgformat. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Radius](../../aspose.slides.effects/glow/radius) { get; set; } | Radie. Läs/skriv Double. |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/glow/equals)(object) | Avgör om den angivna [`Glow`](../glow) är lika med den aktuella [`Glow`](../glow). |
-| [GetEffective](../../aspose.slides.effects/glow/geteffective)() | Hämtar effektiv Glow-effektsdata med arv tillämpat. |
+| override [Equals](../../aspose.slides.effects/glow/equals)(object) | Bestämmer om den angivna [`Glow`](../glow) är lika med den aktuella [`Glow`](../glow). |
+| [GetEffective](../../aspose.slides.effects/glow/geteffective)() | Hämtar den effektiva Glow-effektsdata med ärvda inställningar tillämpade. |
 | override [GetHashCode](../../aspose.slides.effects/glow/gethashcode)() | Fungerar som en hashfunktion för en viss typ. |
 
 ### Se även

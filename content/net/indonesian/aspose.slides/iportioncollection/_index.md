@@ -1,14 +1,14 @@
 ---
 title: IPortionCollection
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili kumpulan Portion.
+description: Mewakili kumpulan bagian.
 type: docs
-weight: 6710
+weight: 6730
 url: /id/aspose.slides/iportioncollection/
 ---
 ## IPortionCollection antarmuka
 
-Mewakili kumpulan Portion.
+Mewakili kumpulan bagian.
 
 ```csharp
 public interface IPortionCollection : IEnumerable<IPortion>
@@ -29,10 +29,10 @@ public interface IPortionCollection : IEnumerable<IPortion>
 | [Add](../../aspose.slides/iportioncollection/add)(IPortion) | Menambahkan Portion ke akhir koleksi. |
 | [Clear](../../aspose.slides/iportioncollection/clear)() | Menghapus semua elemen dari koleksi. |
 | [Contains](../../aspose.slides/iportioncollection/contains)(IPortion) | Menentukan apakah ICollection berisi nilai tertentu. |
-| [IndexOf](../../aspose.slides/iportioncollection/indexof)(IPortion) | Menentukan indeks Portion tertentu dalam koleksi. |
+| [IndexOf](../../aspose.slides/iportioncollection/indexof)(IPortion) | Menentukan indeks dari portion tertentu dalam koleksi. |
 | [Insert](../../aspose.slides/iportioncollection/insert)(int, IPortion) | Menyisipkan Portion ke dalam koleksi pada indeks yang ditentukan. |
-| [Remove](../../aspose.slides/iportioncollection/remove)(IPortion) | Menghapus kemunculan pertama objek tertentu dari ICollection. |
-| [RemoveAt](../../aspose.slides/iportioncollection/removeat)(int) | Menghapus elemen pada indeks yang ditentukan dalam koleksi. |
+| [Remove](../../aspose.slides/iportioncollection/remove)(IPortion) | Menghapus kemunculan pertama dari objek tertentu dari ICollection. |
+| [RemoveAt](../../aspose.slides/iportioncollection/removeat)(int) | Menghapus elemen pada indeks yang ditentukan dari koleksi. |
 
 ### Lihat Juga
 

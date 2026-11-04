@@ -1,14 +1,14 @@
 ---
 title: CustomXmlPartCollection
-second_title: Référence API Aspose.Sildes pour .NET
-description: Représente une collection de parties xml personnalisées.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Représente une collection de parties XML personnalisées.
 type: docs
-weight: 2750
+weight: 2770
 url: /fr/aspose.slides/customxmlpartcollection/
 ---
-## CustomXmlPartCollection classe
+## classe CustomXmlPartCollection
 
-Représente une collection de parties xml personnalisées.
+Représente une collection de parties XML personnalisées.
 
 ```csharp
 public class CustomXmlPartCollection : ICustomXmlPartCollection
@@ -18,10 +18,10 @@ public class CustomXmlPartCollection : ICustomXmlPartCollection
 
 | Nom | Description |
 | --- | --- |
-| [Count](../../aspose.slides/customxmlpartcollection/count) { get; } | Renvoie le nombre de parties xml personnalisées dans la collection. Lecture seule Int32. |
-| [IsSynchronized](../../aspose.slides/customxmlpartcollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (thread-safe). Lecture seule Boolean. |
+| [Count](../../aspose.slides/customxmlpartcollection/count) { get; } | Renvoie le nombre de parties xml personnalisées dans la collection. Int32 en lecture seule. |
+| [IsSynchronized](../../aspose.slides/customxmlpartcollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (thread-safe). Boolean en lecture seule. |
 | [Item](../../aspose.slides/customxmlpartcollection/item) { get; } | Renvoie l'élément à l'index spécifié. |
-| [SyncRoot](../../aspose.slides/customxmlpartcollection/syncroot) { get; } | Renvoie la racine de synchronisation. Lecture seule Object. |
+| [SyncRoot](../../aspose.slides/customxmlpartcollection/syncroot) { get; } | Renvoie une racine de synchronisation. Object en lecture seule. |
 
 ## Méthodes
 

@@ -3,10 +3,10 @@ title: LineFormat
 second_title: Aspose.Sildes برای .NET مرجع API
 description: قالب یک خط را نشان می‌دهد.
 type: docs
-weight: 7790
+weight: 7810
 url: /fa/aspose.slides/lineformat/
 ---
-## کلاس LineFormat
+## LineFormat کلاس
 
 قالب یک خط را نشان می‌دهد.
 
@@ -14,36 +14,36 @@ url: /fa/aspose.slides/lineformat/
 public sealed class LineFormat : PVIObject, ILineFormat
 ```
 
-## خواص
+## ویژگی‌ها
 
 | نام | توضیح |
 | --- | --- |
-| [Alignment](../../aspose.slides/lineformat/alignment) { get; set; } | مقدار تراز خط را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن [`LineAlignment`](../linealignment). |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | امکان دریافت رابط IPresentationComponent پایه را فراهم می‌کند. فقط خواندنی [`IPresentationComponent`](../ipresentationcomponent). |
-| [BeginArrowheadLength](../../aspose.slides/lineformat/beginarrowheadlength) { get; set; } | طول سر پیکان در ابتدای خط را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن [`LineArrowheadLength`](../linearrowheadlength). |
-| [BeginArrowheadStyle](../../aspose.slides/lineformat/beginarrowheadstyle) { get; set; } | سبک سر پیکان در ابتدای خط را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [BeginArrowheadWidth](../../aspose.slides/lineformat/beginarrowheadwidth) { get; set; } | عرض سر پیکان در ابتدای خط را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](../../aspose.slides/lineformat/capstyle) { get; set; } | سبک سر انتهای خط را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن [`LineCapStyle`](../linecapstyle). |
-| [CustomDashPattern](../../aspose.slides/lineformat/customdashpattern) { get; set; } | الگوی خط شکسته سفارشی را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن Single[]. |
-| [DashStyle](../../aspose.slides/lineformat/dashstyle) { get; set; } | سبک خط شکسته را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن [`LineDashStyle`](../linedashstyle). |
-| [EndArrowheadLength](../../aspose.slides/lineformat/endarrowheadlength) { get; set; } | طول سر پیکان در انتهای خط را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن [`LineArrowheadLength`](../linearrowheadlength). |
-| [EndArrowheadStyle](../../aspose.slides/lineformat/endarrowheadstyle) { get; set; } | سبک سر پیکان در انتهای خط را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [EndArrowheadWidth](../../aspose.slides/lineformat/endarrowheadwidth) { get; set; } | عرض سر پیکان در انتهای خط را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [FillFormat](../../aspose.slides/lineformat/fillformat) { get; } | قالب پر کردن یک خط را برمی‌گرداند. فقط خواندنی [`ILineFillFormat`](../ilinefillformat). |
-| [IsFormatNotDefined](../../aspose.slides/lineformat/isformatnotdefined) { get; } | اگر قالب خط تعریف نشده باشد (همین‌که تازه ایجاد شده، پیش‌فرض) مقدار true را برمی‌گرداند. فقط خواندنی Boolean. |
-| [JoinStyle](../../aspose.slides/lineformat/joinstyle) { get; set; } | سبک اتصال خطوط را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/lineformat/miterlimit) { get; set; } | حد مِیتر یک خط را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن Single. |
-| [SketchFormat](../../aspose.slides/lineformat/sketchformat) { get; } | قالب طرح‌خط یک خط را برمی‌گرداند. فقط خواندنی [`ILineFillFormat`](../ilinefillformat). |
-| [Style](../../aspose.slides/lineformat/style) { get; set; } | سبک خط را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن [`LineStyle`](../linestyle). |
-| [Width](../../aspose.slides/lineformat/width) { get; set; } | عرض یک خط را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن Double. |
+| [Alignment](../../aspose.slides/lineformat/alignment) { get; set; } | مقدار تراز خط را برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن [`LineAlignment`](../linealignment). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | اجازه می‌دهد رابط IPresentationComponent پایه را دریافت کند. فقط-خواندنی [`IPresentationComponent`](../ipresentationcomponent). |
+| [BeginArrowheadLength](../../aspose.slides/lineformat/beginarrowheadlength) { get; set; } | طول سر فلش در ابتدای خط را برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن [`LineArrowheadLength`](../linearrowheadlength). |
+| [BeginArrowheadStyle](../../aspose.slides/lineformat/beginarrowheadstyle) { get; set; } | سبک سر فلش در ابتدای خط را برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [BeginArrowheadWidth](../../aspose.slides/lineformat/beginarrowheadwidth) { get; set; } | عرض سر فلش در ابتدای خط را برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [CapStyle](../../aspose.slides/lineformat/capstyle) { get; set; } | سبک سر انتهای خط را برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن [`LineCapStyle`](../linecapstyle). |
+| [CustomDashPattern](../../aspose.slides/lineformat/customdashpattern) { get; set; } | الگوی خط‌خط سفارشی را برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن Single[]. |
+| [DashStyle](../../aspose.slides/lineformat/dashstyle) { get; set; } | سبک خط‌خط را برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن [`LineDashStyle`](../linedashstyle). |
+| [EndArrowheadLength](../../aspose.slides/lineformat/endarrowheadlength) { get; set; } | طول سر فلش در انتهای خط را برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن [`LineArrowheadLength`](../linearrowheadlength). |
+| [EndArrowheadStyle](../../aspose.slides/lineformat/endarrowheadstyle) { get; set; } | سبک سر فلش در انتهای خط را برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [EndArrowheadWidth](../../aspose.slides/lineformat/endarrowheadwidth) { get; set; } | عرض سر فلش در انتهای خط را برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [FillFormat](../../aspose.slides/lineformat/fillformat) { get; } | قالب پر کردن یک خط را برمی‌گرداند. فقط-خواندنی [`ILineFillFormat`](../ilinefillformat). |
+| [IsFormatNotDefined](../../aspose.slides/lineformat/isformatnotdefined) { get; } | در صورتی که قالب خط تعریف نشده باشد (به‌عنوان تازه ایجاد شده، پیش‌فرض) مقدار true را برمی‌گرداند. فقط-خواندنی Boolean. |
+| [JoinStyle](../../aspose.slides/lineformat/joinstyle) { get; set; } | سبک اتصال خطوط را برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن [`LineJoinStyle`](../linejoinstyle). |
+| [MiterLimit](../../aspose.slides/lineformat/miterlimit) { get; set; } | حد نهایی مِیتر یک خط را برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن Single. |
+| [SketchFormat](../../aspose.slides/lineformat/sketchformat) { get; } | قالب اسکچ یک خط را برمی‌گرداند. فقط-خواندنی [`ILineFillFormat`](../ilinefillformat). |
+| [Style](../../aspose.slides/lineformat/style) { get; set; } | سبک خط را برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن [`LineStyle`](../linestyle). |
+| [Width](../../aspose.slides/lineformat/width) { get; set; } | عرض یک خط را برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن Double. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [Equals](../../aspose.slides/lineformat/equals#equals)(ILineFormat) | تعیین می‌کند که آیا دو نمونهٔ LineFormat برابر هستند یا نه. |
+| [Equals](../../aspose.slides/lineformat/equals#equals)(ILineFormat) | تشخیص می‌دهد آیا دو نمونه LineFormat برابر هستند یا نه. |
 | override [Equals](../../aspose.slides/lineformat/equals#equals_1)(object) |  |
-| [GetEffective](../../aspose.slides/lineformat/geteffective)() | داده‌های قالب‌بندی مؤثر خط را با اعمال ارث‌بری برمی‌گرداند. |
+| [GetEffective](../../aspose.slides/lineformat/geteffective)() | داده‌های قالب‌بندی مؤثر خط را با اعمال وراثت دریافت می‌کند. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | کد هش را برمی‌گرداند. |
 
 ### موارد مرتبط
@@ -51,6 +51,6 @@ public sealed class LineFormat : PVIObject, ILineFormat
 * کلاس [PVIObject](../pviobject)
 * رابط [ILineFormat](../ilineformat)
 * فضای‌نام [Aspose.Slides](../../aspose.slides)
-* مجوعه [Aspose.Slides](../../)
+* مجمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

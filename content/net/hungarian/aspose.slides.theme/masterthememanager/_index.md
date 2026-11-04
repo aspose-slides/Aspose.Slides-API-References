@@ -1,14 +1,14 @@
 ---
 title: MasterThemeManager
-second_title: Aspose.Sildes a .NET API referencia
-description: Hozzáférést biztosít a bemutató mester témához.
+second_title: Aspose.Sildes .NET API referencia
+description: Hozzáférést biztosít a prezentáció fő témájához.
 type: docs
-weight: 11440
+weight: 11460
 url: /hu/aspose.slides.theme/masterthememanager/
 ---
 ## MasterThemeManager osztály
 
-Hozzáférést biztosít a bemutató mester témához.
+Hozzáférést biztosít a prezentáció fő témájához.
 
 ```csharp
 public class MasterThemeManager : BaseThemeManager, IMasterThemeManager
@@ -18,15 +18,15 @@ public class MasterThemeManager : BaseThemeManager, IMasterThemeManager
 
 | Név | Leírás |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/masterthememanager/isoverridethemeenabled) { get; set; } | Meghatározza, hogy az OverrideTheme felülírja-e a örökölt hatékony témát (Presentation.MasterTheme) vagy sem. Olvasás/írás Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/masterthememanager/overridetheme) { get; set; } | Visszaadja a felülbíráló téma objektumot. Olvasás/írás [`IMasterTheme`](../imastertheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/masterthememanager/isoverridethemeenabled) { get; set; } | Megállapítja, hogy az OverrideTheme felülírja-e az örökölt hatékony témát (Presentation.MasterTheme), vagy sem. Olvasás/írás Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/masterthememanager/overridetheme) { get; set; } | Visszaadja a felülíró témát. Olvasás/írás [`IMasterTheme`](../imastertheme). |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/masterthememanager/applycolorscheme)(IExtraColorScheme) | Alkalmaz egy extra színsémát a diára. |
-| [CreateThemeEffective](../../aspose.slides.theme/masterthememanager/createthemeeffective)() | Visszaadja a téma objektumot. |
+| [ApplyColorScheme](../../aspose.slides.theme/masterthememanager/applycolorscheme)(IExtraColorScheme) | Alkalmaz egy extra színsémát egy diára. |
+| [CreateThemeEffective](../../aspose.slides.theme/masterthememanager/createthemeeffective)() | Visszaadja a témaobjektumot. |
 
 ### Lásd még
 

@@ -1,14 +1,14 @@
 ---
 title: TransitionEightDirectionType
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta otto tipi di transizione direzionali.
+description: Rappresenta otto tipi di transizione di direzione.
 type: docs
-weight: 10360
+weight: 10380
 url: /it/aspose.slides.slideshow/transitioneightdirectiontype/
 ---
 ## TransitionEightDirectionType enumerazione
 
-Rappresenta otto tipi di transizione direzionale.
+Rappresenta otto tipi di transizione di direzione.
 
 ```csharp
 public enum TransitionEightDirectionType

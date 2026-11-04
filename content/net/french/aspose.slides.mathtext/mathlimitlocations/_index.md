@@ -1,9 +1,9 @@
 ---
 title: MathLimitLocations
-second_title: Référence de l'API .NET Aspose.Sildes
+second_title: Référence API Aspose.Sildes pour .NET
 description: Emplacement des limites indice/exposant dans les opérateurs n-aires.
 type: docs
-weight: 8840
+weight: 8860
 url: /fr/aspose.slides.mathtext/mathlimitlocations/
 ---
 ## MathLimitLocations énumération

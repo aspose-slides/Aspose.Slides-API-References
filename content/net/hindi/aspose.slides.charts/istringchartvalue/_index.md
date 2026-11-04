@@ -1,14 +1,14 @@
 ---
 title: IStringChartValue
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: "pptx प्रस्तुति दस्तावेज़ में स्ट्रिंग मान को दो तरीकों से संग्रहीत किया जा सकता है: 1) चार्ट से संबंधित वर्कबुक की सेल/सेल्स में, 2) लिटरल मान के रूप में।"
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
+description: pptx प्रेज़ेंटेशन डॉक्यूमेंट में स्ट्रिंग वैल्यू को दो तरीकों से संग्रहीत किया जा सकता है: 1) चार्ट से संबंधित वर्कबुक के सेल/सेल्स में, 2) लिटरल वैल्यू के रूप में।
 type: docs
-weight: 2220
+weight: 2240
 url: /hi/aspose.slides.charts/istringchartvalue/
 ---
 ## IStringChartValue इंटरफ़ेस
 
-pptx प्रस्तुति दस्तावेज़ में स्ट्रिंग मान को दो तरीकों से संग्रहीत किया जा सकता है: 1) चार्ट से संबंधित वर्कबुक की सेल/सेल्स में; 2) लिटरल मान के रूप में।
+Represent string value which can be stored in pptx presentation document in two ways: 1) in cell/cells of workbook related to chart; 2) as literal value.
 
 ```csharp
 public interface IStringChartValue : IMultipleCellChartValue
@@ -18,18 +18,18 @@ public interface IStringChartValue : IMultipleCellChartValue
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIMultipleCellChartValue](../../aspose.slides.charts/istringchartvalue/asimultiplecellchartvalue) { get; } | बेस IMultipleCellChartValue इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IMultipleCellChartValue`](../imultiplecellchartvalue)। |
-| [AsLiteralString](../../aspose.slides.charts/istringchartvalue/asliteralstring) { get; set; } | यदि DataSourceType प्रॉपर्टी DataSourceType.StringLiterals है तो लिटरल स्ट्रिंग लौटाता या सेट करता है। पढ़ने/लिखने योग्य String। |
+| [AsIMultipleCellChartValue](../../aspose.slides.charts/istringchartvalue/asimultiplecellchartvalue) { get; } | IMultipleCellChartValue इंटरफ़ेस को बेस रूप में प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IMultipleCellChartValue`](../imultiplecellchartvalue). |
+| [AsLiteralString](../../aspose.slides.charts/istringchartvalue/asliteralstring) { get; set; } | यदि DataSourceType प्रॉपर्टी DataSourceType.StringLiterals है तो लिटरल स्ट्रिंग को लौटाता या सेट करता है। पढ़ने/लिखने योग्य String. |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [GetCellsAddressInWorkbook](../../aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook)() | यदि DataSourceType प्रॉपर्टी DataSourceType.Worksheet है तो यह मेथड वर्कबुक में उन सेल्स का पता लौटाता है जो स्ट्रिंग डेटा का प्रतिनिधित्व करते हैं। अन्यथा खाली स्ट्रिंग लौटाता है। |
-| [SetFromOneCell](../../aspose.slides.charts/istringchartvalue/setfromonecell)(IChartDataCell) | निर्दिष्ट सेल से मान सेट करता है। |
-| [ToString](../../aspose.slides.charts/istringchartvalue/tostring)() | स्ट्रिंग प्रतिनिधित्व लौटाता है। |
+| [GetCellsAddressInWorkbook](../../aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook)() | यदि DataSourceType प्रॉपर्टी DataSourceType.Worksheet है तो यह मेथड वह पता लौटाता है जहाँ वर्कबुक में स्ट्रिंग डेटा प्रतिनिधित्व करने वाले सेल्स होते हैं। अन्यथा खाली स्ट्रिंग वापस करता है. |
+| [SetFromOneCell](../../aspose.slides.charts/istringchartvalue/setfromonecell)(IChartDataCell) | निर्दिष्ट सेल से मान सेट करता है. |
+| [ToString](../../aspose.slides.charts/istringchartvalue/tostring)() | स्ट्रिंग प्रतिनिधित्व लौटाता है. |
 
-### देखें
+### देखें भी
 
 * इंटरफ़ेस [IMultipleCellChartValue](../imultiplecellchartvalue)
 * नेमस्पेस [Aspose.Slides.Charts](../../aspose.slides.charts)

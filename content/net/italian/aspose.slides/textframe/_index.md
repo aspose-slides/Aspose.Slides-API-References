@@ -1,9 +1,9 @@
 ---
 title: TextFrame
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta un TextFrame.
 type: docs
-weight: 10950
+weight: 10970
 url: /it/aspose.slides/textframe/
 ---
 ## TextFrame classe
@@ -20,10 +20,10 @@ public sealed class TextFrame : ITextFrame
 | --- | --- |
 | [HyperlinkQueries](../../aspose.slides/textframe/hyperlinkqueries) { get; } | Fornisce un facile accesso ai collegamenti ipertestuali contenuti. Solo lettura [`IHyperlinkQueries`](../ihyperlinkqueries). |
 | [Paragraphs](../../aspose.slides/textframe/paragraphs) { get; } | Restituisce l'elenco di tutti i paragrafi in un frame. Solo lettura [`IParagraphCollection`](../iparagraphcollection). |
-| [ParentCell](../../aspose.slides/textframe/parentcell) { get; } | Restituisce la cella genitore o null se l'oggetto genitore non implementa l'interfaccia ICell. Solo lettura [`ICell`](../icell). |
-| [ParentShape](../../aspose.slides/textframe/parentshape) { get; } | Restituisce la forma genitore o null se l'oggetto genitore non implementa l'interfaccia IShape. Solo lettura [`IShape`](../ishape). |
-| [Presentation](../../aspose.slides/textframe/presentation) { get; } | Restituisce la presentazione genitore di un TextFrame. Solo lettura [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/textframe/slide) { get; } | Restituisce la diapositiva genitore di un TextFrame. Solo lettura [`IBaseSlide`](../ibaseslide). |
+| [ParentCell](../../aspose.slides/textframe/parentcell) { get; } | Restituisce la cella padre o null se l'oggetto padre non implementa l'interfaccia ICell. Solo lettura [`ICell`](../icell). |
+| [ParentShape](../../aspose.slides/textframe/parentshape) { get; } | Restituisce la forma padre o null se l'oggetto padre non implementa l'interfaccia IShape. Solo lettura [`IShape`](../ishape). |
+| [Presentation](../../aspose.slides/textframe/presentation) { get; } | Restituisce la presentazione padre di un TextFrame. Solo lettura [`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/textframe/slide) { get; } | Restituisce la diapositiva padre di un TextFrame. Solo lettura [`IBaseSlide`](../ibaseslide). |
 | [Text](../../aspose.slides/textframe/text) { get; set; } | Ottiene o imposta il testo semplice per un TextFrame. Lettura/scrittura String. |
 | [TextFrameFormat](../../aspose.slides/textframe/textframeformat) { get; } | Restituisce l'oggetto di formattazione per questo oggetto TextFrame. Solo lettura [`ITextFrameFormat`](../itextframeformat). |
 
@@ -31,6 +31,7 @@ public sealed class TextFrame : ITextFrame
 
 | Nome | Descrizione |
 | --- | --- |
+| [GetTextRect](../../aspose.slides/textframe/gettextrect)() | Ottiene il rettangolo di testo definito dalla geometria della forma padre. |
 | [HighlightRegex](../../aspose.slides/textframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | Evidenzia tutte le corrispondenze dell'espressione regolare con il colore specificato. |
 | [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext)(string, Color) | Evidenzia tutte le corrispondenze del testo di esempio con il colore specificato. |
 | [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | Evidenzia tutte le corrispondenze del testo di esempio con il colore specificato. |

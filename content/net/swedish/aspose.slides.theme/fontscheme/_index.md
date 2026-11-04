@@ -1,14 +1,14 @@
 ---
 title: FontScheme
 second_title: Aspose.Sildes för .NET API-referens
-description: Lagrar temadefinierade teckensnitt.
+description: Lagrar temadefinierade typsnitt.
 type: docs
-weight: 11130
+weight: 11150
 url: /sv/aspose.slides.theme/fontscheme/
 ---
 ## FontScheme klass
 
-Lagrar temadefinierade teckensnitt.
+Lagrar temadefinierade typsnitt.
 
 ```csharp
 public class FontScheme : IFontScheme
@@ -18,11 +18,11 @@ public class FontScheme : IFontScheme
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Major](../../aspose.slides.theme/fontscheme/major) { get; } | Returnerar teckensnittssamlingen för en "heading"-del av bilden. Skrivskyddad [`IFonts`](../../aspose.slides/ifonts). |
-| [Minor](../../aspose.slides.theme/fontscheme/minor) { get; } | Returnerar teckensnittssamlingen för en "body"-del av bilden. Skrivskyddad [`IFonts`](../../aspose.slides/ifonts). |
-| [Name](../../aspose.slides.theme/fontscheme/name) { get; set; } | Returnerar namnet på teckensnittsschemat. Läs/skriv String. |
+| [Major](../../aspose.slides.theme/fontscheme/major) { get; } | Returnerar typsnittssamlingen för en "heading"-del av bilden. Skrivskyddad [`IFonts`](../../aspose.slides/ifonts). |
+| [Minor](../../aspose.slides.theme/fontscheme/minor) { get; } | Returnerar typsnittssamlingen för en "body"-del av bilden. Skrivskyddad [`IFonts`](../../aspose.slides/ifonts). |
+| [Name](../../aspose.slides.theme/fontscheme/name) { get; set; } | Returnerar namnet på typsnittsschemat. Läs/skriv String. |
 
-### Se också
+### Se även
 
 * gränssnitt [IFontScheme](../ifontscheme)
 * namnrymd [Aspose.Slides.Theme](../../aspose.slides.theme)

@@ -1,9 +1,9 @@
 ---
 title: HyperlinkManager
-second_title: Aspose.Sildes for .NET API 参考
-description: 提供超链接管理，包括添加和删除。
+second_title: Aspose.Sildes .NET API 参考
+description: 提供超链接管理（添加，删除）。
 type: docs
-weight: 5150
+weight: 5170
 url: /zh/aspose.slides/hyperlinkmanager/
 ---
 ## HyperlinkManager 类
@@ -26,7 +26,7 @@ public sealed class HyperlinkManager : IHyperlinkManager
 | [SetInternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | 鼠标悬停时设置内部超链接。 |
 | [SetMacroHyperlinkClick](../../aspose.slides/hyperlinkmanager/setmacrohyperlinkclick)(string) | 在单击时设置宏超链接。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IHyperlinkManager](../ihyperlinkmanager)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

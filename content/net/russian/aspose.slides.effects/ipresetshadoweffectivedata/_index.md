@@ -1,14 +1,14 @@
 ---
 title: IPresetShadowEffectiveData
-second_title: Aspose.Sildes для .NET API Reference
-description: Неизменяемый объект, представляющий эффект предустановленной тени.
+second_title: Aspose.Sildes для .NET справочник API
+description: Неизменяемый объект, представляющий эффект Preset Shadow.
 type: docs
-weight: 3490
+weight: 3510
 url: /ru/aspose.slides.effects/ipresetshadoweffectivedata/
 ---
 ## IPresetShadowEffectiveData интерфейс
 
-Неизменяемый объект, представляющий эффект предустановленной тени.
+Неизменяемый объект, представляющий эффект Preset Shadow.
 
 ```csharp
 public interface IPresetShadowEffectiveData : IEffectEffectiveData

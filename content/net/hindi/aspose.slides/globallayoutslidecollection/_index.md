@@ -1,47 +1,47 @@
 ---
 title: GlobalLayoutSlideCollection
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: प्रस्तुतिकरण में सभी लेआउट स्लाइड्स का संग्रह दर्शाता है। LayoutSlideCollection क्लास को विस्तारित करता है जिसमें मास्टर लेआउट स्लाइड्स के व्यक्तिगत संग्रहों को मिलाने के संदर्भ में लेआउट स्लाइड्स जोड़ने/क्लोन करने के लिए मेथड्स शामिल हैं।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: प्रस्तुति में सभी लेआउट स्लाइड्स का संग्रह दर्शाता है। LayoutSlideCollection वर्ग को विस्तारित करता है और मास्टर लेआउट स्लाइड्स के व्यक्तिगत संग्रहों को मिलाने के संदर्भ में लेआउट स्लाइड्स को जोड़ने/क्लोन करने के लिए विधियों को प्रदान करता है।
 type: docs
-weight: 4980
+weight: 5000
 url: /hi/aspose.slides/globallayoutslidecollection/
 ---
-## GlobalLayoutSlideCollection क्लास
+## GlobalLayoutSlideCollection वर्ग
 
-प्रस्तुति में सभी लेआउट स्लाइड्स का संग्रह दर्शाता है। LayoutSlideCollection क्लास को विस्तारित करता है जिसमें व्यक्तिगत मास्टर लेआउट स्लाइड्स के संग्रह को मिलाने के संदर्भ में लेआउट स्लाइड्स जोड़ने/क्लोन करने के लिए मेथड्स हैं।
+प्रस्तुति में सभी लेआउट स्लाइड्स का संग्रह दर्शाता है। LayoutSlideCollection वर्ग को विस्तारित करता है और मास्टर की लेआउट स्लाइड्स के व्यक्तिगत संग्रहों को मिलाते हुए लेआउट स्लाइड्स को जोड़ने/क्लोन करने के लिए विधियाँ प्रदान करता है।
 
 ```csharp
 public sealed class GlobalLayoutSlideCollection : LayoutSlideCollection, 
     IGlobalLayoutSlideCollection
 ```
 
-## गुण
+## Properties
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | एक संग्रह में लेआउट स्लाइड्स की संख्या लौटाता है। केवल पढ़ने योग्य Int32. |
-| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | यह दर्शाता है कि संग्रह तक पहुंच समन्वित (थ्रेड-सेफ़) है या नहीं। केवल पढ़ने योग्य Boolean. |
+| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | संग्रह में लेआउट स्लाइड्स की संख्या लौटाता है। केवल पढ़ने योग्य Int32. |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | यह दर्शाता है कि क्या संग्रह तक पहुंच समक्रमित (थ्रेड-सेफ़) है। केवल पढ़ने योग्य Boolean. |
 | [Item](../../aspose.slides/layoutslidecollection/item) { get; } | इंडेक्स द्वारा लेआउट स्लाइड लौटाता है। केवल पढ़ने योग्य [`LayoutSlide`](../layoutslide). |
-| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | एक समन्वयन रूट लौटाता है। केवल पढ़ने योग्य Object. |
+| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | समक्रमण मूल (synchronization root) लौटाता है। केवल पढ़ने योग्य Object. |
 
-## विधियाँ
+## Methods
 
 | Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/globallayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | प्रस्तुति में एक नई लेआउट स्लाइड जोड़ता है। |
 | [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone)(ILayoutSlide) | निर्दिष्ट लेआउट स्लाइड की एक प्रति प्रस्तुति में जोड़ता है। |
 | [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | निर्दिष्ट लेआउट स्लाइड की एक प्रति प्रस्तुति में जोड़ता है। |
-| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | संग्रह से सभी तत्व निर्दिष्ट एरे में कॉपी करता है। |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | निर्दिष्ट प्रकार की पहली लेआउट स्लाइड लौटाता है। खोजने के लिए लेआउट स्लाइड का प्रकार।[`LayoutSlide`](../layoutslide) निर्दिष्ट प्रकार के साथ या यदि कोई लेआउट नहीं मिला तो null। |
-| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | एक enumerator लौटाता है जो संग्रह के माध्यम से इटरैट करता है। |
+| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | संग्रह के सभी तत्वों को निर्दिष्ट एरे में कॉपी करता है। |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | निर्दिष्ट प्रकार की पहली लेआउट स्लाइड लौटाता है। निर्दिष्ट प्रकार की लेआउट स्लाइड खोजें।[`LayoutSlide`](../layoutslide) के साथ या यदि कोई लेआउट नहीं मिला तो null लौटाता है। |
+| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | वह इटररेटर लौटाता है जो संग्रह के माध्यम से पुनरावृत्ति करता है। |
 | [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | संग्रह से एक लेआउट हटाता है। |
-| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | अप्रयुक्त लेआउट स्लाइड्स हटाता है (जिन लेआउट स्लाइड्स का HasDependingSlides false है)। |
+| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | अनुपयोगी लेआउट स्लाइड्स (जिनकी HasDependingSlides false है) को हटाता है। |
 
-## देखें
+### See Also
 
-* क्लास [LayoutSlideCollection](../layoutslidecollection)
-* इंटरफ़ेस [IGlobalLayoutSlideCollection](../igloballayoutslidecollection)
-* नेमस्पेस [Aspose.Slides](../../aspose.slides)
-* असेंबली [Aspose.Slides](../../)
+* class [LayoutSlideCollection](../layoutslidecollection)
+* interface [IGlobalLayoutSlideCollection](../igloballayoutslidecollection)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -3,7 +3,7 @@ title: FillBlendMode
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 블렌드 모드를 결정합니다.
 type: docs
-weight: 4770
+weight: 4790
 url: /ko/aspose.slides/fillblendmode/
 ---
 ## FillBlendMode 열거형
@@ -24,7 +24,7 @@ public enum FillBlendMode
 | Overlay | `3` | Overlay 블렌드 모드. |
 | Screen | `4` | Screen 블렌드 모드. |
 
-### 참조
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

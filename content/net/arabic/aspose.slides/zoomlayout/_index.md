@@ -1,14 +1,14 @@
 ---
 title: ZoomLayout
-second_title: Aspose.Sildes لمرجع API لـ .NET
-description: يحدد تخطيط Zoom الملخص.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: يحدد تخطيط التكبير الموجز.
 type: docs
-weight: 11860
+weight: 11880
 url: /ar/aspose.slides/zoomlayout/
 ---
-## ZoomLayout تعداد
+## تعداد ZoomLayout
 
-يحدد تخطيط Zoom الملخص.
+يحدد تخطيط التكبير الموجز.
 
 ```csharp
 public enum ZoomLayout
@@ -19,7 +19,7 @@ public enum ZoomLayout
 | الاسم | القيمة | الوصف |
 | --- | --- | --- |
 | GridLayout | `0` | يحدد التخطيط كتنسيق شبكة لقائمة من الكائنات. |
-| FixedLayout | `1` | يحدد التخطيط مع تموضع Zoom محدد من قبل المستخدم. |
+| FixedLayout | `1` | يحدد التخطيط مع تموضع Zoom معرف من قبل المستخدم. |
 
 ### انظر أيضًا
 

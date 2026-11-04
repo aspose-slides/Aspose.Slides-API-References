@@ -1,20 +1,20 @@
 ---
 title: GroupingLevels
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Bộ chứa được quản lý của các giá trị của các mức nhóm danh mục biểu đồ. Danh mục đa mức chứa nhiều hơn một mức nhóm. Chỉ mục các mức nhóm bắt đầu từ số không. Chỉ đọc IChartCategoryLevelsManageraspose.slides.charts/ichartcategorylevelsmanager.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Bộ chứa được quản lý cho các giá trị của các mức nhóm danh mục biểu đồ. Danh mục đa cấp chứa nhiều hơn một mức nhóm. Chỉ mục các mức nhóm bắt đầu từ số 0. Chỉ-đọc IChartCategoryLevelsManageraspose.slides.charts/ichartcategorylevelsmanager.
 type: docs
-weight: 30
+weight: 40
 url: /vi/aspose.slides.charts/chartcategory/groupinglevels/
 ---
-## ChartCategory.GroupingLevels property
+## ChartCategory.GroupingLevels thuộc tính
 
-Bộ chứa được quản lý của các giá trị của các mức nhóm danh mục biểu đồ. Danh mục đa mức chứa nhiều hơn một mức nhóm. Chỉ mục các mức nhóm bắt đầu từ không. Chỉ đọc [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager).
+Bộ chứa được quản lý cho các giá trị của các mức nhóm danh mục biểu đồ. Danh mục đa cấp chứa nhiều hơn một mức nhóm. Chỉ mục các mức nhóm bắt đầu từ số 0. Chỉ-đọc [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager).
 
 ```csharp
 public IChartCategoryLevelsManager GroupingLevels { get; }
 ```
 
-### Xem thêm
+### Xem Thêm
 
 * giao diện [IChartCategoryLevelsManager](../../ichartcategorylevelsmanager)
 * lớp [ChartCategory](../../chartcategory)

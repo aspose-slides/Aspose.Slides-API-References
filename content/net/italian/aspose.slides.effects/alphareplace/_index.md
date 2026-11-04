@@ -1,14 +1,14 @@
 ---
 title: AlphaReplace
-second_title: Aspose.Sildes per .NET API Reference
-description: Rappresenta un effetto Alpha Replace. I valori di opacità alpha dell'effetto vengono sostituiti da un alpha fisso.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Rappresenta un effetto Alpha Replace. I valori di opacità alfa dell'effetto vengono sostituiti da un alfa fisso.
 type: docs
-weight: 2900
+weight: 2920
 url: /it/aspose.slides.effects/alphareplace/
 ---
 ## AlphaReplace classe
 
-Rappresenta un effetto Alpha Replace. I valori di alpha (opacità) dell'effetto vengono sostituiti da un alpha fisso.
+Rappresenta un effetto Alpha Replace. I valori di alfa (opacità) dell'effetto sono sostituiti da un alfa fisso.
 
 ```csharp
 public sealed class AlphaReplace : ImageTransformOperation, IAlphaReplace
@@ -24,9 +24,9 @@ public sealed class AlphaReplace : ImageTransformOperation, IAlphaReplace
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphareplace/equals)(object) | Determina se il [`AlphaReplace`](../alphareplace) specificato è uguale all'attuale [`AlphaReplace`](../alphareplace). |
+| override [Equals](../../aspose.slides.effects/alphareplace/equals)(object) | Determina se il [`AlphaReplace`](../alphareplace) specificato è uguale al [`AlphaReplace`](../alphareplace) corrente. |
 | [GetEffective](../../aspose.slides.effects/alphareplace/geteffective)() | Ottiene i dati effettivi dell'effetto Alpha Replace con l'ereditarietà applicata. |
-| override [GetHashCode](../../aspose.slides.effects/alphareplace/gethashcode)() | Funziona come funzione hash per un tipo specifico. |
+| override [GetHashCode](../../aspose.slides.effects/alphareplace/gethashcode)() | Funziona come funzione hash per un tipo particolare. |
 
 ### Vedi anche
 

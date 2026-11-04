@@ -1,14 +1,14 @@
 ---
 title: GroupingLevels
 second_title: Aspose.Sildes para .NET Referência da API
-description: Container gerenciado dos valores dos níveis de agrupamento da categoria de gráfico. Categoria de múltiplos níveis contém mais de um nível de agrupamento. A indexação dos níveis de agrupamento começa em zero. Somente leitura IChartCategoryLevelsManageraspose.slides.charts/ichartcategorylevelsmanager.
+description: Contêiner gerenciado dos valores dos níveis de agrupamento da categoria do gráfico. Categoria de múltiplos níveis contém mais de um nível de agrupamento. A indexação dos níveis de agrupamento é baseada em zero. Somente leitura IChartCategoryLevelsManageraspose.slides.charts/ichartcategorylevelsmanager.
 type: docs
-weight: 30
+weight: 40
 url: /pt/aspose.slides.charts/chartcategory/groupinglevels/
 ---
 ## ChartCategory.GroupingLevels propriedade
 
-Container gerenciado dos valores dos níveis de agrupamento da categoria de gráfico. Categoria de múltiplos níveis contém mais de um nível de agrupamento. A indexação dos níveis de agrupamento começa em zero. Somente leitura [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager).
+Contêiner gerenciado dos valores dos níveis de agrupamento da categoria do gráfico. Categoria de múltiplos níveis contém mais de um nível de agrupamento. A indexação dos níveis de agrupamento é baseada em zero. Somente leitura [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager).
 
 ```csharp
 public IChartCategoryLevelsManager GroupingLevels { get; }

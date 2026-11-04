@@ -1,9 +1,9 @@
 ---
 title: IHtmlGenerator
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET справочник API
 description: Генератор HTML.
 type: docs
-weight: 3960
+weight: 3980
 url: /ru/aspose.slides.export/ihtmlgenerator/
 ---
 ## IHtmlGenerator интерфейс
@@ -22,22 +22,22 @@ public interface IHtmlGenerator
 | [PreviousSlideIndex](../../aspose.slides.export/ihtmlgenerator/previousslideindex) { get; } | Возвращает индекс ранее отрисованного слайда или -1, если отрисовывается первый слайд. Только для чтения Int32. |
 | [SlideImageSize](../../aspose.slides.export/ihtmlgenerator/slideimagesize) { get; } | Возвращает размер изображения слайда. Только для чтения SizeF. |
 | [SlideImageSizeUnit](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunit) { get; } | Возвращает единицу измерения, в которой указан размер изображения слайда. Только для чтения [`SvgCoordinateUnit`](../svgcoordinateunit). |
-| [SlideImageSizeUnitCode](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunitcode) { get; } | Возвращает css-код единицы измерения, в которой указан размер изображения слайда. Только для чтения String. |
+| [SlideImageSizeUnitCode](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunitcode) { get; } | Возвращает CSS-код единицы измерения, в которой указан размер изображения слайда. Только для чтения String. |
 | [SlideIndex](../../aspose.slides.export/ihtmlgenerator/slideindex) { get; } | Возвращает индекс текущего отрисовываемого слайда. Только для чтения Int32. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue)(char[]) | Обрамляет значение атрибута кавычками и добавляет его в html-файл. |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_2)(string) | Обрамляет значение атрибута кавычками и добавляет его в html-файл. |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | Обрамляет значение атрибута кавычками и добавляет его в html-файл. |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue)(char[]) | Обрамляет значение атрибута кавычками и добавляет его в файл html. |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_2)(string) | Обрамляет значение атрибута кавычками и добавляет его в файл html. |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | Обрамляет значение атрибута кавычками и добавляет его в файл html. |
 | [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml)(char[]) | Добавляет отформатированный HTML-текст. |
 | [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_2)(string) | Добавляет отформатированный HTML-текст. |
 | [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_1)(char[], int, int) | Добавляет отформатированный HTML-текст. |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext)(char[]) | Добавляет обычный текст в html-файлы, заменяя специальные символы на html-сущности. Переносы строк и пробелы не заменяются. |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_2)(string) | Добавляет обычный текст в html-файлы, заменяя специальные символы на html-сущности. Переносы строк и пробелы не заменяются. |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_1)(char[], int, int) | Добавляет обычный текст в html-файлы, заменяя специальные символы на html-сущности. Переносы строк и пробелы не заменяются. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext)(char[]) | Добавляет обычный текст в файлы html, заменяя специальные символы HTML-сущностями. Переносы строк и пробелы не заменяются. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_2)(string) | Добавляет обычный текст в файлы html, заменяя специальные символы HTML-сущностями. Переносы строк и пробелы не заменяются. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_1)(char[], int, int) | Добавляет обычный текст в файлы html, заменяя специальные символы HTML-сущностями. Переносы строк и пробелы не заменяются. |
 
 ### См. также
 

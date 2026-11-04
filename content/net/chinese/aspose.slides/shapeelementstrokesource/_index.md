@@ -1,9 +1,9 @@
 ---
 title: ShapeElementStrokeSource
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示形状元素的绘制方式。
 type: docs
-weight: 9890
+weight: 9910
 url: /zh/aspose.slides/shapeelementstrokesource/
 ---
 ## ShapeElementStrokeSource 枚举
@@ -16,13 +16,13 @@ public enum ShapeElementStrokeSource : byte
 
 ### 值
 
-| 名称 | 值 | 说明 |
+| 名称 | 值 | 描述 |
 | --- | --- | --- |
-| NoStroke | `0` | 不要对基元进行描边。 |
-| Shape | `1` | 使用形状的 LineFormat。 |
-| OwnStroke | `2` | 使用自己的描边。 |
+| NoStroke | `0` | 不要对基元描边。 |
+| Shape | `1` | 使用 shape 的 LineFormat。 |
+| OwnStroke | `2` | 使用自身描边。 |
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

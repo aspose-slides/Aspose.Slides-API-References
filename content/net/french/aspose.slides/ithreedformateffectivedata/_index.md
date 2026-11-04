@@ -1,14 +1,14 @@
 ---
 title: IThreeDFormatEffectiveData
-second_title: Référence API Aspose.Sildes pour .NET
-description: Objet immuable qui représente les propriétés de formatage 3-D effectives.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Objet immuable qui représente les propriétés de mise en forme 3-D effectives.
 type: docs
-weight: 7340
+weight: 7360
 url: /fr/aspose.slides/ithreedformateffectivedata/
 ---
 ## IThreeDFormatEffectiveData interface
 
-Objet immuable qui représente les propriétés de formatage 3-D effectif.
+Objet immuable qui représente les propriétés de mise en forme 3-D effectives.
 
 ```csharp
 public interface IThreeDFormatEffectiveData : IThreeDParamSource
@@ -18,21 +18,21 @@ public interface IThreeDFormatEffectiveData : IThreeDParamSource
 
 | Nom | Description |
 | --- | --- |
-| [AsIThreeDParamSource](../../aspose.slides/ithreedformateffectivedata/asithreedparamsource) { get; } | Permet d'obtenir l'interface de base IThreeDParamSource. En lecture seule [`IThreeDParamSource`](../ithreedparamsource). |
-| [BevelBottom](../../aspose.slides/ithreedformateffectivedata/bevelbottom) { get; } | Renvoie le type d'un chanfrein 3D inférieur. En lecture seule [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
-| [BevelTop](../../aspose.slides/ithreedformateffectivedata/beveltop) { get; } | Renvoie le type d'un chanfrein 3D supérieur. En lecture seule [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
-| [Camera](../../aspose.slides/ithreedformateffectivedata/camera) { get; } | Renvoie les paramètres d'une caméra. En lecture seule [`ICameraEffectiveData`](../icameraeffectivedata). |
-| [ContourColor](../../aspose.slides/ithreedformateffectivedata/contourcolor) { get; } | Renvoie la couleur d'un contour. En lecture seule Color. |
-| [ContourWidth](../../aspose.slides/ithreedformateffectivedata/contourwidth) { get; } | Renvoie la largeur d'un contour 3D. En lecture seule Double. |
-| [Depth](../../aspose.slides/ithreedformateffectivedata/depth) { get; } | Renvoie la profondeur d'une forme 3D. En lecture seule Double. |
-| [ExtrusionColor](../../aspose.slides/ithreedformateffectivedata/extrusioncolor) { get; } | Renvoie la couleur d'une extrusion. En lecture seule Color. |
-| [ExtrusionHeight](../../aspose.slides/ithreedformateffectivedata/extrusionheight) { get; } | Renvoie la hauteur d'un effet d'extrusion. En lecture seule Double. |
-| [LightRig](../../aspose.slides/ithreedformateffectivedata/lightrig) { get; } | Renvoie le type d'une lumière. En lecture seule [`ILightRigEffectiveData`](../ilightrigeffectivedata). |
-| [Material](../../aspose.slides/ithreedformateffectivedata/material) { get; } | Renvoie le type d'un matériau. En lecture seule [`MaterialPresetType`](../materialpresettype). |
+| [AsIThreeDParamSource](../../aspose.slides/ithreedformateffectivedata/asithreedparamsource) { get; } | Permet d'obtenir l'interface de base IThreeDParamSource. Lecture seule [`IThreeDParamSource`](../ithreedparamsource). |
+| [BevelBottom](../../aspose.slides/ithreedformateffectivedata/bevelbottom) { get; } | Renvoie le type d'un biseau 3D inférieur. Lecture seule [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
+| [BevelTop](../../aspose.slides/ithreedformateffectivedata/beveltop) { get; } | Renvoie le type d'un biseau 3D supérieur. Lecture seule [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
+| [Camera](../../aspose.slides/ithreedformateffectivedata/camera) { get; } | Renvoie les paramètres d'une caméra. Lecture seule [`ICameraEffectiveData`](../icameraeffectivedata). |
+| [ContourColor](../../aspose.slides/ithreedformateffectivedata/contourcolor) { get; } | Renvoie la couleur d'un contour. Lecture seule Color. |
+| [ContourWidth](../../aspose.slides/ithreedformateffectivedata/contourwidth) { get; } | Renvoie la largeur d'un contour 3D. Lecture seule Double. |
+| [Depth](../../aspose.slides/ithreedformateffectivedata/depth) { get; } | Renvoie la profondeur d'une forme 3D. Lecture seule Double. |
+| [ExtrusionColor](../../aspose.slides/ithreedformateffectivedata/extrusioncolor) { get; } | Renvoie la couleur d'une extrusion. Lecture seule Color. |
+| [ExtrusionHeight](../../aspose.slides/ithreedformateffectivedata/extrusionheight) { get; } | Renvoie la hauteur d'un effet d'extrusion. Lecture seule Double. |
+| [LightRig](../../aspose.slides/ithreedformateffectivedata/lightrig) { get; } | Renvoie le type d'une lumière. Lecture seule [`ILightRigEffectiveData`](../ilightrigeffectivedata). |
+| [Material](../../aspose.slides/ithreedformateffectivedata/material) { get; } | Renvoie le type d'un matériau. Lecture seule [`MaterialPresetType`](../materialpresettype). |
 
 ### Remarques
 
-Cette interface est utilisée conjointement avec l'interface [`IThreeDFormat`](../ithreedformat) pour renvoyer les valeurs de formatage effectif avec l'héritage appliqué.
+Cette interface est utilisée avec l'interface [`IThreeDFormat`](../ithreedformat) pour renvoyer les valeurs de mise en forme effectives avec l'héritage appliqué.
 
 ### Voir aussi
 

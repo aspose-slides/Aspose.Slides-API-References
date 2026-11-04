@@ -3,7 +3,7 @@ title: ILayoutSlide
 second_title: Référence API Aspose.Sildes pour .NET
 description: Représente une diapositive de mise en page.
 type: docs
-weight: 6220
+weight: 6240
 url: /fr/aspose.slides/ilayoutslide/
 ---
 ## ILayoutSlide interface
@@ -21,10 +21,10 @@ public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
 | [AsIBaseSlide](../../aspose.slides/ilayoutslide/asibaseslide) { get; } | Permet d'obtenir l'interface de base IBaseSlide. Lecture seule [`IBaseSlide`](../ibaseslide). |
 | [AsIOverrideThemeable](../../aspose.slides/ilayoutslide/asioverridethemeable) { get; } | Renvoie l'interface IOverrideThemeable. Lecture seule [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
 | [DrawingGuides](../../aspose.slides/ilayoutslide/drawingguides) { get; } | Renvoie une collection de guides de dessin pour la diapositive de mise en page. Lecture seule [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HasDependingSlides](../../aspose.slides/ilayoutslide/hasdependingslides) { get; } | Renvoie true s’il existe au moins une diapositive qui dépend de cette diapositive de mise en page. Lecture seule Boolean. |
+| [HasDependingSlides](../../aspose.slides/ilayoutslide/hasdependingslides) { get; } | Renvoie true si au moins une diapositive dépend de cette diapositive de mise en page. Lecture seule Boolean. |
 | [HeaderFooterManager](../../aspose.slides/ilayoutslide/headerfootermanager) { get; } | Renvoie le gestionnaire HeaderFooter de la diapositive de mise en page. Lecture seule [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager). |
-| [LayoutType](../../aspose.slides/ilayoutslide/layouttype) { get; } | Renvoie le type de disposition de cette diapositive de mise en page. Lecture seule [`SlideLayoutType`](../slidelayouttype). |
-| [MasterSlide](../../aspose.slides/ilayoutslide/masterslide) { get; set; } | Renvoie ou définit la diapositive maître pour une mise en page. Lecture/écriture [`IMasterSlide`](../imasterslide). |
+| [LayoutType](../../aspose.slides/ilayoutslide/layouttype) { get; } | Renvoie le type de mise en page de cette diapositive de mise en page. Lecture seule [`SlideLayoutType`](../slidelayouttype). |
+| [MasterSlide](../../aspose.slides/ilayoutslide/masterslide) { get; set; } | Renvoie ou définit la diapositive principale pour une mise en page. Lecture/écriture [`IMasterSlide`](../imasterslide). |
 | [PlaceholderManager](../../aspose.slides/ilayoutslide/placeholdermanager) { get; } | Renvoie le gestionnaire d'espace réservé de la diapositive de mise en page. Lecture seule [`ILayoutPlaceholderManager`](../ilayoutplaceholdermanager). |
 
 ## Méthodes

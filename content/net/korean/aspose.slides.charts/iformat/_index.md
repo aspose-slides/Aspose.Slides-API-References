@@ -1,9 +1,9 @@
 ---
 title: IFormat
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 차트 형식 속성을 나타냅니다.
 type: docs
-weight: 2100
+weight: 2120
 url: /ko/aspose.slides.charts/iformat/
 ---
 ## IFormat 인터페이스
@@ -23,7 +23,7 @@ public interface IFormat
 | [Fill](../../aspose.slides.charts/iformat/fill) { get; } | 차트의 채우기 스타일 속성을 반환합니다. 읽기 전용 [`IFillFormat`](../../aspose.slides/ifillformat). |
 | [Line](../../aspose.slides.charts/iformat/line) { get; } | 차트의 선 스타일 속성을 반환합니다. 읽기 전용 [`ILineFormat`](../../aspose.slides/ilineformat). |
 
-### 참조
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 어셈블리 [Aspose.Slides](../../)

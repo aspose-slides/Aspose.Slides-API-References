@@ -1,14 +1,14 @@
 ---
 title: SideDirectionTransition
-second_title: Aspose.Sildes pour l'API de référence .NET
-description: Effet de transition de diapositive en direction latérale.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Effet de transition de diapositive côté direction.
 type: docs
-weight: 10310
+weight: 10330
 url: /fr/aspose.slides.slideshow/sidedirectiontransition/
 ---
-## SideDirectionTransition classe
+## classe SideDirectionTransition
 
-Effet de transition de diapositive en direction latérale.
+Effet de transition de diapositive côté direction.
 
 ```csharp
 public class SideDirectionTransition : TransitionValueBase, ISideDirectionTransition
@@ -24,8 +24,8 @@ public class SideDirectionTransition : TransitionValueBase, ISideDirectionTransi
 
 | Nom | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Détermine si les deux instances TransitionValueBase sont égales. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Sert de fonction de hachage pour un type particulier, adaptée à une utilisation dans des algorithmes de hachage et des structures de données telles qu'une table de hachage. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Détermine si les deux instances de TransitionValueBase sont égales. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Sert de fonction de hachage pour un type particulier, adaptée à une utilisation dans les algorithmes de hachage et les structures de données comme une table de hachage. |
 
 ### Voir aussi
 

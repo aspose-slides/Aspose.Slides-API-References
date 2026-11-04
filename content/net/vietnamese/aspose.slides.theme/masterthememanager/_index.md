@@ -1,14 +1,14 @@
 ---
 title: MasterThemeManager
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Cung cấp quyền truy cập vào chủ đề master của bản trình chiếu.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Cung cấp quyền truy cập vào chủ đề chính của bản trình chiếu.
 type: docs
-weight: 11440
+weight: 11460
 url: /vi/aspose.slides.theme/masterthememanager/
 ---
 ## MasterThemeManager lớp
 
-Cung cấp quyền truy cập vào chủ đề master của bản trình chiếu.
+Cung cấp quyền truy cập vào chủ đề chính của bản trình chiếu.
 
 ```csharp
 public class MasterThemeManager : BaseThemeManager, IMasterThemeManager
@@ -18,7 +18,7 @@ public class MasterThemeManager : BaseThemeManager, IMasterThemeManager
 
 | Tên | Mô tả |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/masterthememanager/isoverridethemeenabled) { get; set; } | Xác định xem OverrideTheme có ghi đè lên chủ đề hiệu lực kế thừa (Presentation.MasterTheme) hay không. Đọc/ghi Boolean. |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/masterthememanager/isoverridethemeenabled) { get; set; } | Xác định xem OverrideTheme có ghi đè lên chủ đề hiệu quả được kế thừa (Presentation.MasterTheme) hay không. Đọc/ghi Boolean. |
 | [OverrideTheme](../../aspose.slides.theme/masterthememanager/overridetheme) { get; set; } | Trả về đối tượng chủ đề ghi đè. Đọc/ghi [`IMasterTheme`](../imastertheme). |
 
 ## Phương thức

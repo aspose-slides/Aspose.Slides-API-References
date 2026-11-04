@@ -1,14 +1,14 @@
 ---
 title: IBlur
-second_title: Aspose.Sildes .NET API Referansı
-description: Tam şekle, doldurulması dahil, uygulanan bir Blur etkisini temsil eder. Alfa dahil tüm renk kanalları etkilenir.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bir şeklin tamamına, dolgu dahil, uygulanan Blur etkisini temsil eder. Alfa dahil tüm renk kanalları etkilenir.
 type: docs
-weight: 3180
+weight: 3200
 url: /tr/aspose.slides.effects/iblur/
 ---
 ## IBlur arayüz
 
-Tam şekle, dolgu dahil olmak üzere uygulanmış bir Blur efekti temsil eder. Alfa kanalı dahil tüm renk kanalları etkilenir.
+Bir şeklin tamamına, dolgu dahil, uygulanan Blur etkisini temsil eder. Alfa dahil tüm renk kanalları etkilenir.
 
 ```csharp
 public interface IBlur : IAccessiblePVIObject<IBlurEffectiveData>, IImageTransformOperation
@@ -18,12 +18,12 @@ public interface IBlur : IAccessiblePVIObject<IBlurEffectiveData>, IImageTransfo
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iblur/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arayüzünü almayı sağlar. Yalnızca okunur [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iblur/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arayüzünü almayı sağlar. Yalnızca okunur [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Grow](../../aspose.slides.effects/iblur/grow) { get; set; } | Nesnenin sınırlarının bulanıklaştırma sonucu genişletilip genişletilmemesi gerektiğini belirler. True sınırların genişletildiğini, false sınırların genişletilmediğini gösterir. Okunabilir/Yazılabilir Boolean. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iblur/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arayüzünü almaya izin verir. Yalnızca okunur [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iblur/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arayüzünü almaya izin verir. Yalnızca okunur [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Grow](../../aspose.slides.effects/iblur/grow) { get; set; } | Nesnenin sınırlarının bulanıklaştırma sonucunda büyütülüp büyütülmeyeceğini belirler. True, sınırların büyütüldüğünü, false ise büyütülmediğini gösterir. Okunabilir/Yazılabilir Boolean. |
 | [Radius](../../aspose.slides.effects/iblur/radius) { get; set; } | Bulanıklaştırma yarıçapını döndürür veya ayarlar. Okunabilir/Yazılabilir Double. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * arayüz [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * arayüz [IBlurEffectiveData](../iblureffectivedata)

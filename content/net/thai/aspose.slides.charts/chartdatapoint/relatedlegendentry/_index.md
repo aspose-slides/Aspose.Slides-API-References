@@ -1,14 +1,14 @@
 ---
 title: RelatedLegendEntry
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: คุณสมบัติของรายการคำอธิบายที่สอดคล้องในกรณีที่ประเภทแผนภูมิอยู่ในรายการนี้ ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie. อ่านอย่างเดียว ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: คุณสมบัติของรายการคำอธิบายตำนานที่สอดคล้องกันในกรณีที่ประเภทแผนภูมิอยู่ในรายการต่อไปนี้ ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie. อ่านอย่างเดียว ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
 type: docs
-weight: 160
+weight: 200
 url: /th/aspose.slides.charts/chartdatapoint/relatedlegendentry/
 ---
 ## ChartDataPoint.RelatedLegendEntry คุณสมบัติ
 
-คุณสมบัติของรายการคำอธิบายที่เกี่ยวข้องในกรณีที่ประเภทแผนภูมิอยู่ในรายการนี้: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. อ่านอย่างเดียว [`ILegendEntryProperties`](../../ilegendentryproperties).
+คุณสมบัติของรายการคำอธิบายตำนานที่สอดคล้องกันในกรณีที่ประเภทแผนภูมิอยู่ในรายการต่อไปนี้: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. อ่านอย่างเดียว [`ILegendEntryProperties`](../../ilegendentryproperties).
 
 ```csharp
 public ILegendEntryProperties RelatedLegendEntry { get; }

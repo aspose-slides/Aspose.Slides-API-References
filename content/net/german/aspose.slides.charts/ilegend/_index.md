@@ -1,14 +1,14 @@
 ---
 title: ILegend
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt die Eigenschaften der Legende von Diagrammen dar.
+description: Stellt die Legendeneigenschaften von Diagrammen dar.
 type: docs
-weight: 2130
+weight: 2150
 url: /de/aspose.slides.charts/ilegend/
 ---
 ## ILegend Schnittstelle
 
-Stellt die Eigenschaften der Legende eines Diagramms dar.
+Stellt die Legendeigenschaften des Diagramms dar.
 
 ```csharp
 public interface ILegend : IActualLayout, IFormattedTextContainer, ILayoutable
@@ -18,12 +18,12 @@ public interface ILegend : IActualLayout, IFormattedTextContainer, ILayoutable
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | Ermöglicht das Abrufen der Basisschnittstelle IFormattedTextContainer. Nur lesbar [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | Ermöglicht das Abrufen der Basisschnittstelle ILayoutable. Nur lesbar [`ILayoutable`](../ilayoutable). |
-| [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | Ruft Legendeneinträge ab. Nur lesbar [`ILegendEntryCollection`](../ilegendentrycollection). |
-| [Format](../../aspose.slides.charts/ilegend/format) { get; } | Gibt das Format einer Legende zurück. Nur lesbar [`IFormat`](../iformat). |
-| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | Bestimmt, ob andere Diagrammelemente die Legende überlappen dürfen. Lese-/Schreib Boolean. |
-| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Gibt die Position der Legende in einem Diagramm an. Nicht-NaN-Werte der Eigenschaften X, Y, Width, Heigt überschreiben die Wirkung dieser Eigenschaft. Lese-/Schreib [`LegendPositionType`](../legendpositiontype). |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | Ermöglicht das Abrufen der Basisschnittstelle IFormattedTextContainer. Schreibgeschützt [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | Ermöglicht das Abrufen der Basisschnittstelle ILayoutable. Schreibgeschützt [`ILayoutable`](../ilayoutable). |
+| [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | Gibt die Legendeneinträge zurück. Schreibgeschützt [`ILegendEntryCollection`](../ilegendentrycollection). |
+| [Format](../../aspose.slides.charts/ilegend/format) { get; } | Gibt das Format einer Legende zurück. Schreibgeschützt [`IFormat`](../iformat). |
+| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | Bestimmt, ob andere Diagrammelemente die Legende überlappen dürfen. Lese/Schreib Boolean. |
+| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Spezifiziert die Position der Legende in einem Diagramm. Nicht-NaN-Werte der Eigenschaften X, Y, Width, Heigt überschreiben die Wirkung dieser Eigenschaft. Lese/Schreib [`LegendPositionType`](../legendpositiontype). |
 
 ### Siehe auch
 

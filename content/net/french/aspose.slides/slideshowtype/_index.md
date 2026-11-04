@@ -1,14 +1,14 @@
 ---
 title: SlideShowType
-second_title: Référence API Aspose.Sildes pour .NET
-description: Paramètres de base du diaporama. Les ancêtres représentent les types de diaporama PresentedBySpeaker./presentedbyspeaker Présenté par un intervenant plein écran BrowsedByIndividual./browsedbyindividual Consulté par un particulier fenêtre BrowsedAtKiosk./browsedatkiosk Consulté sur un kiosque plein écran
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Paramètres de base du diaporama. Les ancêtres représentent les types de diaporama PresentedBySpeaker./presentedbyspeaker Présenté par un intervenant plein écran BrowsedByIndividual./browsedbyindividual Parcouru par un individu en fenêtre BrowsedAtKiosk./browsedatkiosk Parcouru sur un kiosque plein écran
 type: docs
-weight: 10490
+weight: 10510
 url: /fr/aspose.slides/slideshowtype/
 ---
 ## SlideShowType classe
 
-Paramètres de base du diaporama. Les ancêtres représentent les types de diaporama : [`PresentedBySpeaker`](../presentedbyspeaker) Présenté par un intervenant (plein écran) [`BrowsedByIndividual`](../browsedbyindividual) Consulté par un particulier (fenêtre) [`BrowsedAtKiosk`](../browsedatkiosk) Consulté sur un kiosque (plein écran)
+Paramètres de base du diaporama. Les ancêtres représentent les types de diaporama : [`PresentedBySpeaker`](../presentedbyspeaker) Présenté par un intervenant (plein écran) [`BrowsedByIndividual`](../browsedbyindividual) Parcouru par un individu (fenêtre) [`BrowsedAtKiosk`](../browsedatkiosk) Parcouru sur un kiosque (plein écran)
 
 ```csharp
 public abstract class SlideShowType

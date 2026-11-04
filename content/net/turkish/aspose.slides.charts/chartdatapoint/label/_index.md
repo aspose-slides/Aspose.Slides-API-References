@@ -1,22 +1,22 @@
 ---
 title: Label
-second_title: Aspose.Sildes for .NET API Referansı
-description: Label. Salt okunur IDataLabelaspose.slides.charts/idatalabel.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Etiket. Salt-okunur IDataLabelaspose.slides.charts/idatalabel.
 type: docs
-weight: 140
+weight: 180
 url: /tr/aspose.slides.charts/chartdatapoint/label/
 ---
 ## ChartDataPoint.Label özelliği
 
-Label. Salt okunur [`IDataLabel`](../../idatalabel).
+Label. Salt-okunur [`IDataLabel`](../../idatalabel).
 
 ```csharp
 public IDataLabel Label { get; }
 ```
 
-### Diğerlerine Bakın
+### İlgili
 
-* arabirim [IDataLabel](../../idatalabel)
+* arayüz [IDataLabel](../../idatalabel)
 * sınıf [ChartDataPoint](../../chartdatapoint)
 * ad alanı [Aspose.Slides.Charts](../../chartdatapoint)
 * derleme [Aspose.Slides](../../../)

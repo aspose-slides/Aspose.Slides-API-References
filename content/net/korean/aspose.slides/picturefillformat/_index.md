@@ -1,14 +1,14 @@
 ---
 title: PictureFillFormat
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 그림 채우기 스타일을 나타냅니다.
 type: docs
-weight: 9390
+weight: 9410
 url: /ko/aspose.slides/picturefillformat/
 ---
 ## PictureFillFormat 클래스
 
-그림 채우기 스타일을 나타냅니다.
+Represents a picture fill style.
 
 ```csharp
 public sealed class PictureFillFormat : PVIObject, IPictureFillFormat
@@ -18,22 +18,22 @@ public sealed class PictureFillFormat : PVIObject, IPictureFillFormat
 
 | 이름 | 설명 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 기본 IPresentationComponent 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IPresentationComponent`](../ipresentationcomponent). |
-| [CropBottom](../../aspose.slides/picturefillformat/cropbottom) { get; set; } | 그림 하단에서 잘려 나가는 실제 이미지 높이 비율(백분율)을 반환하거나 설정합니다. 읽기/쓰기 Single. |
-| [CropLeft](../../aspose.slides/picturefillformat/cropleft) { get; set; } | 그림 왼쪽에서 잘려 나가는 실제 이미지 너비 비율(백분율)을 반환하거나 설정합니다. 읽기/쓰기 Single. |
-| [CropRight](../../aspose.slides/picturefillformat/cropright) { get; set; } | 그림 오른쪽에서 잘려 나가는 실제 이미지 너비 비율(백분율)을 반환하거나 설정합니다. 읽기/쓰기 Single. |
-| [CropTop](../../aspose.slides/picturefillformat/croptop) { get; set; } | 그림 위쪽에서 잘려 나가는 실제 이미지 높이 비율(백분율)을 반환하거나 설정합니다. 읽기/쓰기 Single. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | IPresentationComponent 인터페이스의 기본을 가져올 수 있습니다. 읽기 전용 [`IPresentationComponent`](../ipresentationcomponent). |
+| [CropBottom](../../aspose.slides/picturefillformat/cropbottom) { get; set; } | 그림 하단에서 잘라내는 실제 이미지 높이 백분율을 반환하거나 설정합니다. 읽기/쓰기 Single. |
+| [CropLeft](../../aspose.slides/picturefillformat/cropleft) { get; set; } | 그림 왼쪽에서 잘라내는 실제 이미지 너비 백분율을 반환하거나 설정합니다. 읽기/쓰기 Single. |
+| [CropRight](../../aspose.slides/picturefillformat/cropright) { get; set; } | 그림 오른쪽에서 잘라내는 실제 이미지 너비 백분율을 반환하거나 설정합니다. 읽기/쓰기 Single. |
+| [CropTop](../../aspose.slides/picturefillformat/croptop) { get; set; } | 그림 상단에서 잘라내는 실제 이미지 높이 백분율을 반환하거나 설정합니다. 읽기/쓰기 Single. |
 | [Dpi](../../aspose.slides/picturefillformat/dpi) { get; set; } | 그림을 채우는 데 사용되는 dpi를 반환하거나 설정합니다. 읽기/쓰기 Int32. |
 | [Picture](../../aspose.slides/picturefillformat/picture) { get; } | 그림을 반환합니다. 읽기 전용 [`ISlidesPicture`](../islidespicture). |
 | [PictureFillMode](../../aspose.slides/picturefillformat/picturefillmode) { get; set; } | 그림 채우기 모드를 반환하거나 설정합니다. 읽기/쓰기 [`PictureFillMode`](../picturefillmode). |
-| [StretchOffsetBottom](../../aspose.slides/picturefillformat/stretchoffsetbottom) { get; set; } | 채우기 사각형의 아래쪽 가장자리를 반환하거나 설정합니다. 이 가장자리는 도형 경계 상자의 아래쪽 가장자리에서 백분율 오프셋으로 정의됩니다. 양수 비율은 안쪽 여백을 지정하고, 음수 비율은 바깥 여백을 지정합니다. 읽기/쓰기 Single. |
-| [StretchOffsetLeft](../../aspose.slides/picturefillformat/stretchoffsetleft) { get; set; } | 채우기 사각형의 왼쪽 가장자리를 반환하거나 설정합니다. 이 가장자리는 도형 경계 상자의 왼쪽 가장자리에서 백분율 오프셋으로 정의됩니다. 양수 비율은 안쪽 여백을 지정하고, 음수 비율은 바깥 여백을 지정합니다. 읽기/쓰기 Single. |
-| [StretchOffsetRight](../../aspose.slides/picturefillformat/stretchoffsetright) { get; set; } | 채우기 사각형의 오른쪽 가장자리를 반환하거나 설정합니다. 이 가장자리는 도형 경계 상자의 오른쪽 가장자리에서 백분율 오프셋으로 정의됩니다. 양수 비율은 안쪽 여백을 지정하고, 음수 비율은 바깥 여백을 지정합니다. 읽기/쓰기 Single. |
-| [StretchOffsetTop](../../aspose.slides/picturefillformat/stretchoffsettop) { get; set; } | 채우기 사각형의 위쪽 가장자리를 반환하거나 설정합니다. 이 가장자리는 도형 경계 상자의 위쪽 가장자리에서 백분율 오프셋으로 정의됩니다. 양수 비율은 안쪽 여백을 지정하고, 음수 비율은 바깥 여백을 지정합니다. 읽기/쓰기 Single. |
-| [TileAlignment](../../aspose.slides/picturefillformat/tilealignment) { get; set; } | 텍스처가 도형 내에서 정렬되는 방식을 반환하거나 설정합니다. 이 설정은 텍스처 패턴의 시작 지점과 도형 전체에 걸쳐 반복되는 방식을 제어합니다. 읽기/쓰기 [`RectangleAlignment`](../rectanglealignment). |
-| [TileFlip](../../aspose.slides/picturefillformat/tileflip) { get; set; } | 텍스처 타일을 가로, 세로 또는 두 축 모두에 대해 뒤집습니다. 읽기/쓰기 [`TileFlip`](../tileflip). |
-| [TileOffsetX](../../aspose.slides/picturefillformat/tileoffsetx) { get; set; } | 텍스처의 수평 오프셋을 도형 원점에서 포인트 단위로 반환하거나 설정합니다. 양수 값은 텍스처를 오른쪽으로 이동하고, 음수 값은 왼쪽으로 이동합니다. 읽기/쓰기 Single. |
-| [TileOffsetY](../../aspose.slides/picturefillformat/tileoffsety) { get; set; } | 텍스처의 수직 오프셋을 도형 원점에서 포인트 단위로 반환하거나 설정합니다. 양수 값은 텍스처를 아래쪽으로 이동하고, 음수 값은 위쪽으로 이동합니다. 읽기/쓰기 Single. |
+| [StretchOffsetBottom](../../aspose.slides/picturefillformat/stretchoffsetbottom) { get; set; } | 모양 경계 상자의 하단 가장자리에서 백분율 오프셋으로 정의된 채우기 사각형의 하단 가장자리를 반환하거나 설정합니다. 양의 백분율은 내부 삽입을 지정하고, 음의 백분율은 외부 삽입을 지정합니다. 읽기/쓰기 Single. |
+| [StretchOffsetLeft](../../aspose.slides/picturefillformat/stretchoffsetleft) { get; set; } | 모양 경계 상자의 왼쪽 가장자리에서 백분율 오프셋으로 정의된 채우기 사각형의 왼쪽 가장자리를 반환하거나 설정합니다. 양의 백분율은 내부 삽입을 지정하고, 음의 백분율은 외부 삽입을 지정합니다. 읽기/쓰기 Single. |
+| [StretchOffsetRight](../../aspose.slides/picturefillformat/stretchoffsetright) { get; set; } | 모양 경계 상자의 오른쪽 가장자리에서 백분율 오프셋으로 정의된 채우기 사각형의 오른쪽 가장자를 반환하거나 설정합니다. 양의 백분율은 내부 삽입을 지정하고, 음의 백분율은 외부 삽입을 지정합니다. 읽기/쓰기 Single. |
+| [StretchOffsetTop](../../aspose.slides/picturefillformat/stretchoffsettop) { get; set; } | 모양 경계 상자의 상단 가장자리에서 백분율 오프셋으로 정의된 채우기 사각형의 상단 가장자를 반환하거나 설정합니다. 양의 백분율은 내부 삽입을 지정하고, 음의 백분율은 외부 삽입을 지정합니다. 읽기/쓰기 Single. |
+| [TileAlignment](../../aspose.slides/picturefillformat/tilealignment) { get; set; } | 텍스처가 모양 내에서 정렬되는 방식을 반환하거나 설정합니다. 이 설정은 텍스처 패턴의 시작점과 모양 전체에 걸친 반복 방식을 제어합니다. 읽기/쓰기 [`RectangleAlignment`](../rectanglealignment). |
+| [TileFlip](../../aspose.slides/picturefillformat/tileflip) { get; set; } | 텍스처 타일을 수평, 수직 또는 양쪽 축을 기준으로 뒤집습니다. 읽기/쓰기 [`TileFlip`](../tileflip). |
+| [TileOffsetX](../../aspose.slides/picturefillformat/tileoffsetx) { get; set; } | 텍스처를 모양 원점에서 점 단위로 오른쪽(양수) 또는 왼쪽(음수)으로 이동시키는 수평 오프셋을 반환하거나 설정합니다. 읽기/쓰기 Single. |
+| [TileOffsetY](../../aspose.slides/picturefillformat/tileoffsety) { get; set; } | 텍스처를 모양 원점에서 점 단위로 아래쪽(양수) 또는 위쪽(음수)으로 이동시키는 수직 오프셋을 반환하거나 설정합니다. 읽기/쓰기 Single. |
 | [TileScaleX](../../aspose.slides/picturefillformat/tilescalex) { get; set; } | 텍스처 채우기의 수평 스케일을 백분율로 반환하거나 설정합니다. 읽기/쓰기 Single. |
 | [TileScaleY](../../aspose.slides/picturefillformat/tilescaley) { get; set; } | 텍스처 채우기의 수직 스케일을 백분율로 반환하거나 설정합니다. 읽기/쓰기 Single. |
 
@@ -41,9 +41,9 @@ public sealed class PictureFillFormat : PVIObject, IPictureFillFormat
 
 | 이름 | 설명 |
 | --- | --- |
-| [CompressImage](../../aspose.slides/picturefillformat/compressimage#compressimage_1)(bool, float) | 이미지를 도형 크기와 지정된 해상도를 기준으로 크기를 줄여 압축합니다. 선택적으로 잘려진 영역도 삭제합니다. |
-| [CompressImage](../../aspose.slides/picturefillformat/compressimage#compressimage)(bool, PicturesCompression) | 이미지를 도형 크기와 지정된 해상도를 기준으로 크기를 줄여 압축합니다. 선택적으로 잘려진 영역도 삭제합니다. |
-| [DeletePictureCroppedAreas](../../aspose.slides/picturefillformat/deletepicturecroppedareas)() | 채우기 그림의 잘려진 영역을 삭제합니다. |
+| [CompressImage](../../aspose.slides/picturefillformat/compressimage#compressimage_1)(bool, float) | 이미지를 압축하여 모양 크기와 지정된 해상도에 따라 크기를 줄입니다. 선택적으로 잘라낸 영역을 삭제합니다. |
+| [CompressImage](../../aspose.slides/picturefillformat/compressimage#compressimage)(bool, PicturesCompression) | 이미지를 압축하여 모양 크기와 지정된 해상도에 따라 크기를 줄입니다. 선택적으로 잘라낸 영역을 삭제합니다. |
+| [DeletePictureCroppedAreas](../../aspose.slides/picturefillformat/deletepicturecroppedareas)() | 채우기 그림의 잘라낸 영역을 삭제합니다. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 지정된 객체와 비교합니다. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 해시 코드를 반환합니다. |
 

@@ -1,14 +1,14 @@
 ---
 title: IRowFormatEffectiveData
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: كائن غير قابل للتغيير يحتوي على خصائص تنسيق صف الجدول الفعّال.
+description: كائن غير قابل للتغيير يحتوي على خصائص تنسيق صف الجدول الفعالة.
 type: docs
-weight: 6880
+weight: 6900
 url: /ar/aspose.slides/irowformateffectivedata/
 ---
 ## واجهة IRowFormatEffectiveData
 
-كائن غير قابل للتغيير يحتوي على خصائص تنسيق صف الجدول الفعّال.
+كائن غير قابل للتغيير يحتوي على خصائص تنسيق صف الجدول الفعالة.
 
 ```csharp
 public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -18,11 +18,11 @@ public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/irowformateffectivedata/asibasetableformateffectivedata) { get; } | يسمح بالحصول على الواجهة الأساسية IBaseTableFormatEffectiveData. للقراءة فقط [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/irowformateffectivedata/asibasetableformateffectivedata) { get; } | يسمح بالحصول على واجهة IBaseTableFormatEffectiveData الأساسية. قراءة فقط [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
 
 ### ملاحظات
 
-تُستخدم هذه الواجهة مع الواجهة [`IRowFormat`](../irowformat) لإرجاع قيم التنسيق الفعّالة مع تطبيق الميراث وأنماط الجدول.
+تُستخدم هذه الواجهة مع واجهة [`IRowFormat`](../irowformat) لإرجاع قيم التنسيق الفعالة مع تطبيق الوراثة وأنماط الجدول.
 
 ### انظر أيضًا
 

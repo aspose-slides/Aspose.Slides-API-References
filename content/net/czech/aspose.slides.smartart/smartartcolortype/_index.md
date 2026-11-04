@@ -3,10 +3,10 @@ title: SmartArtColorType
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje barevné schéma diagramu SmartArt.
 type: docs
-weight: 10610
+weight: 10630
 url: /cs/aspose.slides.smartart/smartartcolortype/
 ---
-## Výčtový typ SmartArtColorType
+## SmartArtColorType enumerace
 
 Reprezentuje barevné schéma diagramu SmartArt.
 

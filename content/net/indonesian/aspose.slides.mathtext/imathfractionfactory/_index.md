@@ -1,14 +1,14 @@
 ---
 title: IMathFractionFactory
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Memungkinkan membuat fraksi matematika
+description: Mengizinkan membuat pecahan matematika
 type: docs
-weight: 8260
+weight: 8280
 url: /id/aspose.slides.mathtext/imathfractionfactory/
 ---
 ## IMathFractionFactory antarmuka
 
-Memungkinkan membuat fraksi matematika
+Mengizinkan membuat pecahan matematika
 
 ```csharp
 public interface IMathFractionFactory
@@ -18,8 +18,8 @@ public interface IMathFractionFactory
 
 | Nama | Deskripsi |
 | --- | --- |
-| [CreateMathFraction](../../aspose.slides.mathtext/imathfractionfactory/createmathfraction#createmathfraction)(IMathElement, IMathElement) | Membuat fraksi matematika |
-| [CreateMathFraction](../../aspose.slides.mathtext/imathfractionfactory/createmathfraction#createmathfraction_1)(IMathElement, IMathElement, MathFractionTypes) | Membuat fraksi matematika |
+| [CreateMathFraction](../../aspose.slides.mathtext/imathfractionfactory/createmathfraction#createmathfraction)(IMathElement, IMathElement) | Membuat pecahan matematika |
+| [CreateMathFraction](../../aspose.slides.mathtext/imathfractionfactory/createmathfraction#createmathfraction_1)(IMathElement, IMathElement, MathFractionTypes) | Membuat pecahan matematika |
 
 ### Catatan
 

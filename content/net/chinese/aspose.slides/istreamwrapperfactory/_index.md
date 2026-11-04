@@ -1,9 +1,9 @@
 ---
 title: IStreamWrapperFactory
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: StreamWrappers 的工厂。用于 COM 接口。
 type: docs
-weight: 7140
+weight: 7160
 url: /zh/aspose.slides/istreamwrapperfactory/
 ---
 ## IStreamWrapperFactory 接口

@@ -1,9 +1,9 @@
 ---
 title: IDataLabelCollection
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET referencja API
 description: Reprezentuje etykiety serii.
 type: docs
-weight: 2030
+weight: 2050
 url: /pl/aspose.slides.charts/idatalabelcollection/
 ---
 ## IDataLabelCollection interfejs
@@ -23,16 +23,17 @@ public interface IDataLabelCollection : IChartComponent, IEnumerable<IDataLabel>
 | [Count](../../aspose.slides.charts/idatalabelcollection/count) { get; } | Zwraca liczbę wszystkich etykiet danych w kolekcji. Tylko do odczytu Int32. |
 | [CountOfVisibleDataLabels](../../aspose.slides.charts/idatalabelcollection/countofvisibledatalabels) { get; } | Zwraca liczbę widocznych etykiet danych w kolekcji. Tylko do odczytu Int32. |
 | [DefaultDataLabelFormat](../../aspose.slides.charts/idatalabelcollection/defaultdatalabelformat) { get; } | Zwraca domyślny format wszystkich etykiet danych w kolekcji. Tylko do odczytu [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/idatalabelcollection/isvisible) { get; } | False oznacza, że etykieta danych nie jest domyślnie widoczna (a więc wszystkie flagi Show* (ShowValue, ...) właściwości DefaultDataLabelFormat mają wartość false). Tylko do odczytu Boolean. |
-| [Item](../../aspose.slides.charts/idatalabelcollection/item) { get; } | Zwraca etykietę danych dla punktu danych o określonym indeksie. |
+| [DefaultLabelShapeType](../../aspose.slides.charts/idatalabelcollection/defaultlabelshapetype) { get; set; } | Pobiera lub ustawia domyślny typ kształtu dla etykiet danych. Zwraca NotDefined, jeśli nie zdefiniowano kształtu. |
+| [IsVisible](../../aspose.slides.charts/idatalabelcollection/isvisible) { get; } | False oznacza, że etykieta danych nie jest widoczna domyślnie (a więc wszystkie flagi Show*- (ShowValue, ...) właściwości DefaultDataLabelFormat są false). Tylko do odczytu Boolean. |
+| [Item](../../aspose.slides.charts/idatalabelcollection/item) { get; } | Pobiera etykietę danych dla punktu danych o podanym indeksie. |
 | [LeaderLinesFormat](../../aspose.slides.charts/idatalabelcollection/leaderlinesformat) { get; } | Reprezentuje format linii prowadzących etykiet danych. Tylko do odczytu [`IChartLinesFormat`](../ichartlinesformat). |
-| [ParentSeries](../../aspose.slides.charts/idatalabelcollection/parentseries) { get; } | Zwraca serię wykresu nadrzędnego. Tylko do odczytu [`IChartSeries`](../ichartseries). |
+| [ParentSeries](../../aspose.slides.charts/idatalabelcollection/parentseries) { get; } | Zwraca nadrzędną serię wykresu. Tylko do odczytu [`IChartSeries`](../ichartseries). |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [Hide](../../aspose.slides.charts/idatalabelcollection/hide)() | Sprawia, że etykieta danych jest domyślnie ukryta, ustawiając wszystkie flagi Show* (ShowValue, ...) właściwości DefaultDataLabelFormat na stan false. IsVisible będzie po tym false. |
+| [Hide](../../aspose.slides.charts/idatalabelcollection/hide)() | Sprawia, że etykieta danych jest domyślnie ukryta, ustawiając wszystkie flagi Show*- (ShowValue, ...) właściwości DefaultDataLabelFormat na stan false. IsVisible będzie false po tej operacji. |
 | [IndexOf](../../aspose.slides.charts/idatalabelcollection/indexof)(IDataLabel) | Zwraca indeks określonej DataLabel w kolekcji. |
 
 ### Zobacz także

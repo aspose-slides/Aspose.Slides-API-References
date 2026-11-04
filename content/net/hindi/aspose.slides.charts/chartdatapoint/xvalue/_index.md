@@ -1,20 +1,20 @@
 ---
 title: XValue
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: XValue. केवल-पढ़ने योग्य IStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue.
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
+description: XValue. केवल पढ़ने योग्य IStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue.
 type: docs
-weight: 200
+weight: 240
 url: /hi/aspose.slides.charts/chartdatapoint/xvalue/
 ---
 ## ChartDataPoint.XValue प्रॉपर्टी
 
-XValue. केवल-पढ़ने योग्य [`IStringOrDoubleChartValue`](../../istringordoublechartvalue).
+XValue. केवल पढ़ने योग्य [`IStringOrDoubleChartValue`](../../istringordoublechartvalue).
 
 ```csharp
 public IStringOrDoubleChartValue XValue { get; }
 ```
 
-### संबंधित देखें
+### और देखें
 
 * इंटरफ़ेस [IStringOrDoubleChartValue](../../istringordoublechartvalue)
 * क्लास [ChartDataPoint](../../chartdatapoint)

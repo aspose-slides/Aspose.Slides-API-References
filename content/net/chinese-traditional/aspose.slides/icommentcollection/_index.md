@@ -3,7 +3,7 @@ title: ICommentCollection
 second_title: Aspose.Sildes for .NET API 參考
 description: 表示單一作者的評論集合。
 type: docs
-weight: 5590
+weight: 5610
 url: /zh-hant/aspose.slides/icommentcollection/
 ---
 ## ICommentCollection 介面
@@ -16,25 +16,25 @@ public interface ICommentCollection : IGenericCollection<IComment>
 
 ## 屬性
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
-| [Item](../../aspose.slides/icommentcollection/item) { get; } | 取得指定索引處的元素。 唯讀 [`IComment`](../icomment)。 |
+| [Item](../../aspose.slides/icommentcollection/item) { get; } | 在指定的索引取得元素。唯讀 [`IComment`](../icomment). |
 
 ## 方法
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
 | [AddComment](../../aspose.slides/icommentcollection/addcomment)(string, ISlide, PointF, DateTime) | 在集合的末端新增評論。 |
 | [AddModernComment](../../aspose.slides/icommentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | 在集合的末端新增現代評論。 |
 | [Clear](../../aspose.slides/icommentcollection/clear)() | 移除集合中的所有評論。 |
-| [InsertComment](../../aspose.slides/icommentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | 在指定索引處插入新評論。 |
-| [InsertModernComment](../../aspose.slides/icommentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | 在指定索引處插入新現代評論。 |
-| [Remove](../../aspose.slides/icommentcollection/remove)(IComment) | 移除集合中第一次出現的指定評論。 |
-| [RemoveAt](../../aspose.slides/icommentcollection/removeat)(int) | 移除集合中指定索引處的元素。 |
+| [InsertComment](../../aspose.slides/icommentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | 在集合的指定索引插入新評論。 |
+| [InsertModernComment](../../aspose.slides/icommentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | 在集合的指定索引插入新現代評論。 |
+| [Remove](../../aspose.slides/icommentcollection/remove)(IComment) | 移除集合中指定評論的第一個出現項。 |
+| [RemoveAt](../../aspose.slides/icommentcollection/removeat)(int) | 移除集合中指定索引的元素。 |
 | [ToArray](../../aspose.slides/icommentcollection/toarray#toarray)() | 建立並傳回包含所有評論的陣列。 |
 | [ToArray](../../aspose.slides/icommentcollection/toarray#toarray_1)(int, int) | 建立並傳回指定範圍內所有評論的陣列。 |
 
-### 另見
+### 另請參閱
 
 * 介面 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 介面 [IComment](../icomment)

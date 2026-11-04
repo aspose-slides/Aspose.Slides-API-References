@@ -1,14 +1,14 @@
 ---
 title: Hide
-second_title: Aspose.Sildes para referência da API .NET
-description: Tornar o rótulo de dados oculto por padrão definindo todas as flags Show-flags ShowValue ... da propriedade DefaultDataLabelFormat para o estado false. IsVisible será false após isso.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Torne o rótulo de dados oculto por padrão definindo todas as bandeiras Show-flags ShowValue ... da propriedade DefaultDataLabelFormat para o estado false. IsVisible será false após isso.
 type: docs
-weight: 100
+weight: 110
 url: /pt/aspose.slides.charts/idatalabelcollection/hide/
 ---
-## IDataLabelCollection.Hide método
+## IDataLabelCollection.Hide method
 
-Tornar o rótulo de dados oculto por padrão definindo todas as flags Show*-flags (ShowValue, ...) da propriedade DefaultDataLabelFormat para o estado false. IsVisible será false após isso.
+Torne o rótulo de dados oculto por padrão definindo todas as bandeiras Show*-flags (ShowValue, ...) da propriedade DefaultDataLabelFormat para o estado false. IsVisible será false após isso.
 
 ```csharp
 public void Hide()
@@ -16,7 +16,7 @@ public void Hide()
 
 ### Observações
 
-Se o rótulo de dados não estiver visível por padrão (IsVisible é false) você pode tornar o rótulo de dados "visível por padrão" definindo as flags Show*-flags (ShowValue, ...) da propriedade DefaultDataLabelFormat para o estado true.
+Se o rótulo de dados não estiver visível por padrão (IsVisible é false) você pode tornar o rótulo de dados "visível por padrão" definindo as bandeiras Show*-flags (ShowValue, ...) da propriedade DefaultDataLabelFormat para o estado true.
 
 ### Veja Também
 

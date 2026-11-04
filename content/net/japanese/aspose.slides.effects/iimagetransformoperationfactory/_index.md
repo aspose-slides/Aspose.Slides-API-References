@@ -3,12 +3,12 @@ title: IImageTransformOperationFactory
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 画像エフェクトのインスタンスを作成できます
 type: docs
-weight: 3410
+weight: 3430
 url: /ja/aspose.slides.effects/iimagetransformoperationfactory/
 ---
 ## IImageTransformOperationFactory インターフェイス
 
-画像エフェクトのインスタンスを作成できます
+画像エフェクトのインスタンスを作成できる
 
 ```csharp
 public interface IImageTransformOperationFactory
@@ -38,9 +38,9 @@ public interface IImageTransformOperationFactory
 
 ### 備考
 
-COM インターフェイスです。
+COM インターフェイス向けです。
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides.Effects](../../aspose.slides.effects)
 * アセンブリ [Aspose.Slides](../../)

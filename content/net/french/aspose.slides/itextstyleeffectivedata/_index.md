@@ -1,14 +1,14 @@
 ---
 title: ITextStyleEffectiveData
-second_title: Aspose.Sildes pour .NET Référence API
-description: Objet immuable qui contient les propriétés de style de texte effectives.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Objet immutable qui contient les propriétés de style de texte effectives.
 type: docs
-weight: 7320
+weight: 7340
 url: /fr/aspose.slides/itextstyleeffectivedata/
 ---
 ## ITextStyleEffectiveData interface
 
-Objet immuable qui contient les propriétés de style de texte effectives.
+Objet immutable qui contient les propriétés de style de texte effectives.
 
 ```csharp
 public interface ITextStyleEffectiveData

@@ -1,14 +1,14 @@
 ---
 title: IVbaModule
-second_title: Aspose.Sildes для .NET API Reference
-description: Представляет модуль, содержащийся в VBA проекте.
+second_title: Aspose.Sildes для .NET справочник API
+description: Представляет модуль, который содержится в проекте VBA.
 type: docs
-weight: 11530
+weight: 11550
 url: /ru/aspose.slides.vba/ivbamodule/
 ---
 ## IVbaModule интерфейс
 
-Представляет модуль, содержащийся в VBA проекте.
+Представляет модуль, который содержится в проекте VBA.
 
 ```csharp
 public interface IVbaModule
@@ -21,7 +21,7 @@ public interface IVbaModule
 | [Name](../../aspose.slides.vba/ivbamodule/name) { get; } | Имя модуля. Только для чтения String. |
 | [SourceCode](../../aspose.slides.vba/ivbamodule/sourcecode) { get; set; } | Исходный код модуля. Чтение/запись String. |
 
-### См. также
+### Смотрите также
 
 * пространство имён [Aspose.Slides.Vba](../../aspose.slides.vba)
 * сборка [Aspose.Slides](../../)

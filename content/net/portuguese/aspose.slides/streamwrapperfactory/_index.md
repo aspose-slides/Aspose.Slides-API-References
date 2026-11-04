@@ -1,14 +1,14 @@
 ---
 title: StreamWrapperFactory
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Fábrica de StreamWrappers. Para interface COM.
 type: docs
-weight: 10760
+weight: 10780
 url: /pt/aspose.slides/streamwrapperfactory/
 ---
 ## StreamWrapperFactory classe
 
-Fábrica de StreamWrappers. Para interface COM.
+Factory of StreamWrappers. For COM interface.
 
 ```csharp
 public class StreamWrapperFactory : IStreamWrapperFactory
@@ -26,8 +26,8 @@ public class StreamWrapperFactory : IStreamWrapperFactory
 | --- | --- |
 | [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Cria FileStream com o caminho especificado e o modo de criação. |
 | [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Cria FileStream com o caminho especificado, modo de criação e permissão de leitura/gravação. |
-| [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | Cria um wrapper MemoryStream. |
-| [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Cria um wrapper MemoryStream com base no array de bytes especificado. |
+| [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | Cria wrapper MemoryStream. |
+| [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Cria wrapper MemoryStream baseado no array de bytes especificado. |
 
 ### Veja também
 

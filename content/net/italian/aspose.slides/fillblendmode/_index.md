@@ -3,10 +3,10 @@ title: FillBlendMode
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Determina la modalità di fusione.
 type: docs
-weight: 4770
+weight: 4790
 url: /it/aspose.slides/fillblendmode/
 ---
-## enumerazione FillBlendMode
+## Enumerazione FillBlendMode
 
 Determina la modalità di fusione.
 

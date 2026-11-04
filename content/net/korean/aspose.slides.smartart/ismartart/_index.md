@@ -1,9 +1,9 @@
 ---
 title: ISmartArt
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: SmartArt 다이어그램을 나타냅니다.
 type: docs
-weight: 10540
+weight: 10560
 url: /ko/aspose.slides.smartart/ismartart/
 ---
 ## ISmartArt 인터페이스
@@ -20,13 +20,13 @@ public interface ISmartArt : IGraphicalObject
 | --- | --- |
 | [AllNodes](../../aspose.slides.smartart/ismartart/allnodes) { get; } | SmartArt 개체의 모든 노드 컬렉션을 반환합니다. 읽기 전용 [`ISmartArtNodeCollection`](../ismartartnodecollection). |
 | [AsIGraphicalObject](../../aspose.slides.smartart/ismartart/asigraphicalobject) { get; } | 기본 IGraphicalObject 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
-| [ColorStyle](../../aspose.slides.smartart/ismartart/colorstyle) { get; set; } | SmartArt 개체의 색상 스타일을 가져오거나 설정합니다. 읽기/쓰기 [`SmartArtColorType`](../smartartcolortype). |
-| [IsReversed](../../aspose.slides.smartart/ismartart/isreversed) { get; set; } | 다이어그램이 뒤집기를 지원하는 경우 (왼쪽에서 오른쪽) LTR 또는 (오른쪽에서 왼쪽) RTL에 대한 SmartArt 다이어그램의 상태를 가져오거나 설정합니다. 읽기/쓰기 Boolean. |
-| [Layout](../../aspose.slides.smartart/ismartart/layout) { get; set; } | SmartArt 개체의 레이아웃을 가져오거나 설정합니다. 읽기/쓰기 [`SmartArtLayoutType`](../smartartlayouttype). |
+| [ColorStyle](../../aspose.slides.smartart/ismartart/colorstyle) { get; set; } | SmartArt 개체의 색상 스타일을 반환하거나 설정합니다. 읽기/쓰기 [`SmartArtColorType`](../smartartcolortype). |
+| [IsReversed](../../aspose.slides.smartart/ismartart/isreversed) { get; set; } | 다이어그램이 역전환을 지원하는 경우, (왼쪽에서 오른쪽) LTR 또는 (오른쪽에서 왼쪽) RTL에 대한 SmartArt 다이어그램의 상태를 반환하거나 설정합니다. 읽기/쓰기 Boolean. |
+| [Layout](../../aspose.slides.smartart/ismartart/layout) { get; set; } | SmartArt 개체의 레이아웃을 반환하거나 설정합니다. 읽기/쓰기 [`SmartArtLayoutType`](../smartartlayouttype). |
 | [Nodes](../../aspose.slides.smartart/ismartart/nodes) { get; } | SmartArt 개체의 루트 노드 컬렉션을 반환합니다. 읽기 전용 [`ISmartArtNodeCollection`](../ismartartnodecollection). |
-| [QuickStyle](../../aspose.slides.smartart/ismartart/quickstyle) { get; set; } | SmartArt 개체의 빠른 스타일을 가져오거나 설정합니다. 읽기/쓰기 [`SmartArtQuickStyleType`](../smartartquickstyletype). |
+| [QuickStyle](../../aspose.slides.smartart/ismartart/quickstyle) { get; set; } | SmartArt 개체의 빠른 스타일을 반환하거나 설정합니다. 읽기/쓰기 [`SmartArtQuickStyleType`](../smartartquickstyletype). |
 
-### 관련 항목
+### 참조
 
 * 인터페이스 [IGraphicalObject](../../aspose.slides/igraphicalobject)
 * 네임스페이스 [Aspose.Slides.SmartArt](../../aspose.slides.smartart)

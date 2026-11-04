@@ -1,9 +1,9 @@
 ---
 title: DisplayBlanksAsType
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Bestimmt, wie fehlende Daten angezeigt werden.
 type: docs
-weight: 1610
+weight: 1620
 url: /de/aspose.slides.charts/displayblanksastype/
 ---
 ## DisplayBlanksAsType Aufzählung

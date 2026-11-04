@@ -1,12 +1,12 @@
 ---
 title: Comment
-second_title: Aspose.Sildes pro .NET referenci API
+second_title: Aspose.Sildes pro .NET API referenci
 description: Představuje komentář na snímku.
 type: docs
-weight: 2620
+weight: 2640
 url: /cs/aspose.slides/comment/
 ---
-## Třída Comment
+## Comment třída
 
 Představuje komentář na snímku.
 
@@ -33,7 +33,7 @@ public class Comment : IComment
 
 ### Příklady
 
-Tento příklad ukazuje, jak přidat komentář na snímek v prezentaci PowerPoint.
+Tento příklad ukazuje, jak přidat komentář do snímku v prezentaci PowerPoint.
 
 ```csharp
 [C#]
@@ -48,9 +48,9 @@ using (Presentation presentation = new Presentation())
     PointF point = new PointF();
     point.X = 0.2f;
     point.Y = 0.2f;
-    // Přidá komentář ke snímku od autora na snímku 1
+    // Přidá komentář ke snímku pro autora na snímku 1
     author.Comments.AddComment("Hello Jawad, this is slide comment", presentation.Slides[0], point, DateTime.Now);
-    // Přidá komentář ke snímku od autora na snímku 2
+    // Přidá komentář ke snímku pro autora na snímku 2
     author.Comments.AddComment("Hello Jawad, this is second slide comment", presentation.Slides[1], point, DateTime.Now);
 	// Uloží soubor PowerPoint prezentace
     presentation.Save("Comments_out.pptx", SaveFormat.Pptx);
@@ -64,11 +64,11 @@ Tento příklad ukazuje, jak získat přístup k existujícímu komentáři na s
 // Vytvoří instanci třídy Presentation
 using (Presentation presentation = new Presentation("Comments1.pptx"))
 {
-	// Projde CommentAuthors
+	// Iteruje CommentAuthors
     foreach (var commentAuthor in presentation.CommentAuthors)
     {
         var author = (CommentAuthor) commentAuthor;
-		// Projde komentáře
+		// Iteruje Comments
         foreach (var comment1 in author.Comments)
         {
             var comment = (Comment) comment1;
@@ -78,7 +78,7 @@ using (Presentation presentation = new Presentation("Comments1.pptx"))
 }
 ```
 
-Tento příklad ukazuje, jak přidat komentáře a získat na ně odpovědi.
+Tento příklad ukazuje, jak přidat komentáře a získat k nim odpovědi.
 
 ```csharp
 [C#]
@@ -102,7 +102,7 @@ using (Presentation pres = new Presentation())
     IComment comment3 = author2.Comments.AddComment("comment 3", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     IComment reply3 = author1.Comments.AddComment("reply 4 for comment 3", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     reply3.ParentComment = comment3;
-    // Zobrazí hierarchii komentářů v konzoli
+    // Zobrazí hierarchii komentářů na konzoli
     ISlide slide = pres.Slides[0];
     var comments = slide.GetSlideComments(null);
     for (int i = 0; i < comments.Length; i++)

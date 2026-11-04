@@ -1,14 +1,14 @@
 ---
 title: Item
-second_title: Aspose.Sildes pro .NET API Reference
-description: Vrací popisek dat pro datový bod se zadaným indexem.
+second_title: Aspose.Sildes pro .NET referenci API
+description: Získá popisek dat pro datový bod se zadaným indexem.
 type: docs
-weight: 70
+weight: 80
 url: /cs/aspose.slides.charts/idatalabelcollection/item/
 ---
-## IDataLabelCollection indexér
+## IDataLabelCollection indexer
 
-Vrací popisek dat pro datový bod se zadaným indexem.
+Získá popisek dat pro datový bod se zadaným indexem.
 
 ```csharp
 public IDataLabel this[int index] { get; }

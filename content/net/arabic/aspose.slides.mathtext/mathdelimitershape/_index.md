@@ -1,14 +1,14 @@
 ---
 title: MathDelimiterShape
-second_title: Aspose.Sildes لـ .NET مرجع API
-description: الموقع والحجم للفواصل بالنسبة إلى محتوى المتعاملات
+second_title: Aspose.Sildes لمرجع API .NET
+description: الموقع والحجم للحدود بالنسبة إلى محتوى المعاملات
 type: docs
-weight: 8670
+weight: 8690
 url: /ar/aspose.slides.mathtext/mathdelimitershape/
 ---
-## MathDelimiterShape تعداد
+## تعداد MathDelimiterShape
 
-الموقع والحجم للفواصل بالنسبة إلى محتوى المتعاملات
+الموقع والحجم للحدود بالنسبة إلى محتوى المعاملات
 
 ```csharp
 public enum MathDelimiterShape
@@ -18,10 +18,10 @@ public enum MathDelimiterShape
 
 | الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| Centered | `0` | متمركز على محور الرياضيات |
-| Match | `1` | متطابق مع المحتوى |
+| Centered | `0` | Centered إلى محور الرياضيات |
+| Match | `1` | Match إلى المحتوى |
 
-### انظر أيضًا
+### انظر أيضاً
 
 * مساحة الاسم [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * تجميع [Aspose.Slides](../../)

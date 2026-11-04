@@ -1,14 +1,14 @@
 ---
 title: ColorReplace
-second_title: Aspose.Sildes für .NET API Referenz
-description: Stellt einen Color Replacement-Effekt dar. Alle Effektfarben werden in eine feste Farbe geändert. Alphawerte bleiben unverändert.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt einen Color Replacement-Effekt dar. Alle Effektfarben werden in eine feste Farbe geändert. Alpha-Werte bleiben unverändert.
 type: docs
-weight: 2950
+weight: 2970
 url: /de/aspose.slides.effects/colorreplace/
 ---
 ## ColorReplace Klasse
 
-Stellt einen Color Replacement Effekt dar. Alle Effektfarben werden in eine feste Farbe geändert. Alphawerte bleiben unverändert.
+Stellt einen Color Replacement-Effekt dar. Alle Effektfarben werden in eine feste Farbe geändert. Alpha-Werte bleiben unverändert.
 
 ```csharp
 public sealed class ColorReplace : ImageTransformOperation, IColorReplace
@@ -18,16 +18,16 @@ public sealed class ColorReplace : ImageTransformOperation, IColorReplace
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Erlaubt den Zugriff auf die Basis-IPresentationComponent-Schnittstelle. Nur lesbar [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Color](../../aspose.slides.effects/colorreplace/color) { get; } | Gibt das Farbformat zurück, das die Farbe jedes Pixels ersetzt. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht das Abrufen der Basis-IPresentationComponent-Schnittstelle. Schreibgeschützt [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Color](../../aspose.slides.effects/colorreplace/color) { get; } | Gibt das Farbformat zurück, das die Farbe jedes Pixels ersetzt. Schreibgeschützt [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/colorreplace/equals)(object) | Bestimmt, ob das angegebene [`ColorReplace`](../colorreplace) gleich dem aktuellen [`ColorReplace`](../colorreplace) ist. |
-| [GetEffective](../../aspose.slides.effects/colorreplace/geteffective)() | Ruft die wirksamen Daten des Color Replacement Effekts mit angewendeter Vererbung ab. |
-| override [GetHashCode](../../aspose.slides.effects/colorreplace/gethashcode)() | Dient als Hashfunktion für einen bestimmten Typ. |
+| override [Equals](../../aspose.slides.effects/colorreplace/equals)(object) | Bestimmt, ob das angegebene [`ColorReplace`](../colorreplace) dem aktuellen [`ColorReplace`](../colorreplace) entspricht. |
+| [GetEffective](../../aspose.slides.effects/colorreplace/geteffective)() | Ruft die wirksamen Daten des Farbersetzungs-Effekts mit angewendeter Vererbung ab. |
+| override [GetHashCode](../../aspose.slides.effects/colorreplace/gethashcode)() | Dient als Hash-Funktion für einen bestimmten Typ. |
 
 ### Siehe auch
 

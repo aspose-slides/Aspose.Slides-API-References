@@ -1,9 +1,9 @@
 ---
 title: ShapeType
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET: справочник API
 description: Представляет предустановленную геометрию фигур.
 type: docs
-weight: 9930
+weight: 9950
 url: /ru/aspose.slides/shapetype/
 ---
 ## Перечисление ShapeType
@@ -19,194 +19,194 @@ public enum ShapeType
 | Имя | Значение | Описание |
 | --- | --- | --- |
 | NotDefined | `-1` | Не определено. |
-| Custom | `0` | Custom форма. Это значение только для чтения. |
-| Line | `1` | Line Форма. |
-| LineInverse | `2` | Line Inverse Форма. |
-| Triangle | `3` | Triangle Форма. |
-| RightTriangle | `4` | Right Triangle Форма. |
-| Rectangle | `5` | Rectangle Форма. |
-| Diamond | `6` | Diamond Форма. |
-| Parallelogram | `7` | Parallelogram Форма. |
-| Trapezoid | `8` | Trapezoid Форма. |
-| NonIsoscelesTrapezoid | `9` | Non-Isosceles Trapezoid Форма. |
-| Pentagon | `10` | Pentagon Форма. |
-| Hexagon | `11` | Hexagon Форма. |
-| Heptagon | `12` | Heptagon Форма. |
-| Octagon | `13` | Octagon Форма. |
-| Decagon | `14` | Decagon Форма. |
-| Dodecagon | `15` | Dodecagon Форма. |
-| FourPointedStar | `16` | Four Pointed Star Форма. |
-| FivePointedStar | `17` | Five Pointed Star Форма. |
-| SixPointedStar | `18` | Six Pointed Star Форма. |
-| SevenPointedStar | `19` | Seven Pointed Star Форма. |
-| EightPointedStar | `20` | Eight Pointed Star Форма. |
-| TenPointedStar | `21` | Ten Pointed Star Форма. |
-| TwelvePointedStar | `22` | Twelve Pointed Star Форма. |
-| SixteenPointedStar | `23` | Sixteen Pointed Star Форма. |
-| TwentyFourPointedStar | `24` | Twenty Four Pointed Star Форма. |
-| ThirtyTwoPointedStar | `25` | Thirty Two Pointed Star Форма. |
-| RoundCornerRectangle | `26` | Round Corner Rectangle Форма. |
-| OneRoundCornerRectangle | `27` | One Round Corner Rectangle Форма. |
-| TwoSamesideRoundCornerRectangle | `28` | Two Same-side Round Corner Rectangle Форма. |
-| TwoDiagonalRoundCornerRectangle | `29` | Two Diagonal Round Corner Rectangle Форма. |
-| OneSnipOneRoundCornerRectangle | `30` | One Snip One Round Corner Rectangle Форма. |
-| OneSnipCornerRectangle | `31` | One Snip Corner Rectangle Форма. |
-| TwoSamesideSnipCornerRectangle | `32` | Two Same-side Snip Corner Rectangle Форма. |
-| TwoDiagonalSnipCornerRectangle | `33` | Two Diagonal Snip Corner Rectangle Форма. |
-| Plaque | `34` | Plaque Форма. |
-| Ellipse | `35` | Ellipse Форма. |
-| Teardrop | `36` | Teardrop Форма. |
-| HomePlate | `37` | Home Plate Форма. |
-| Chevron | `38` | Chevron Форма. |
-| PieWedge | `39` | Pie Wedge Форма. |
-| Pie | `40` | Pie Форма. |
-| BlockArc | `41` | Block Arc Форма. |
-| Donut | `42` | Donut Форма. |
-| NoSmoking | `43` | No Smoking Форма. |
-| RightArrow | `44` | Right Arrow Форма. |
-| LeftArrow | `45` | Left Arrow Форма. |
-| UpArrow | `46` | Up Arrow Форма. |
-| DownArrow | `47` | Down Arrow Форма. |
-| StripedRightArrow | `48` | Striped Right Arrow Форма. |
-| NotchedRightArrow | `49` | Notched Right Arrow Форма. |
-| BentUpArrow | `50` | Bent Up Arrow Форма. |
-| LeftRightArrow | `51` | Left Right Arrow Форма. |
-| UpDownArrow | `52` | Up Down Arrow Форма. |
-| LeftUpArrow | `53` | Left Up Arrow Форма. |
-| LeftRightUpArrow | `54` | Left Right Up Arrow Форма. |
-| QuadArrow | `55` | Quad-Arrow Форма. |
-| CalloutLeftArrow | `56` | Callout Left Arrow Форма. |
-| CalloutRightArrow | `57` | Callout Right Arrow Форма. |
-| CalloutUpArrow | `58` | Callout Up Arrow Форма. |
-| CalloutDownArrow | `59` | Callout Down Arrow Форма. |
-| CalloutLeftRightArrow | `60` | Callout Left Right Arrow Форма. |
-| CalloutUpDownArrow | `61` | Callout Up Down Arrow Форма. |
-| CalloutQuadArrow | `62` | Callout Quad-Arrow Форма. |
-| BentArrow | `63` | Bent Arrow Форма. |
-| UTurnArrow | `64` | U-Turn Arrow Форма. |
-| CircularArrow | `65` | Circular Arrow Форма. |
-| LeftCircularArrow | `66` | Left Circular Arrow Форма. |
-| LeftRightCircularArrow | `67` | Left Right Circular Arrow Форма. |
-| CurvedRightArrow | `68` | Curved Right Arrow Форма. |
-| CurvedLeftArrow | `69` | Curved Left Arrow Форма. |
-| CurvedUpArrow | `70` | Curved Up Arrow Форма. |
-| CurvedDownArrow | `71` | Curved Down Arrow Форма. |
-| SwooshArrow | `72` | Swoosh Arrow Форма. |
-| Cube | `73` | Cube Форма. |
-| Can | `74` | Can Форма. |
-| LightningBolt | `75` | Lightning Bolt Форма. |
-| Heart | `76` | Heart Форма. |
-| Sun | `77` | Sun Форма. |
-| Moon | `78` | Moon Форма. |
-| SmileyFace | `79` | Smiley Face Форма. |
-| IrregularSeal1 | `80` | Irregular Seal 1 Форма. |
-| IrregularSeal2 | `81` | Irregular Seal 2 Форма. |
-| FoldedCorner | `82` | Folded Corner Форма. |
-| Bevel | `83` | Bevel Форма. |
-| Frame | `84` | Frame Форма. |
-| HalfFrame | `85` | Half Frame Форма. |
-| Corner | `86` | Corner Форма. |
-| DiagonalStripe | `87` | Diagonal Stripe Форма. |
-| Chord | `88` | Chord Форма. |
-| CurvedArc | `89` | Curved Arc Форма. |
-| LeftBracket | `90` | Left Bracket Форма. |
-| RightBracket | `91` | Right Bracket Форма. |
-| LeftBrace | `92` | Left Brace Форма. |
-| RightBrace | `93` | Right Brace Форма. |
-| BracketPair | `94` | Bracket Pair Форма. |
-| BracePair | `95` | Brace Pair Форма. |
-| StraightConnector1 | `96` | Straight Connector 1 Форма. |
-| BentConnector2 | `97` | Bent Connector 2 Форма. |
-| BentConnector3 | `98` | Bent Connector 3 Форма. |
-| BentConnector4 | `99` | Bent Connector 4 Форма. |
-| BentConnector5 | `100` | Bent Connector 5 Форма. |
-| CurvedConnector2 | `101` | Curved Connector 2 Форма. |
-| CurvedConnector3 | `102` | Curved Connector 3 Форма. |
-| CurvedConnector4 | `103` | Curved Connector 4 Форма. |
-| CurvedConnector5 | `104` | Curved Connector 5 Форма. |
-| Callout1 | `105` | Callout 1 Форма. |
-| Callout2 | `106` | Callout 2 Форма. |
-| Callout3 | `107` | Callout 3 Форма. |
-| Callout1WithAccent | `108` | Callout 1 with Accent Форма. |
-| Callout2WithAccent | `109` | Callout 2 with Accent Форма. |
-| Callout3WithAccent | `110` | Callout 3 with Accent Форма. |
-| Callout1WithBorder | `111` | Callout 1 with Border Форма. |
-| Callout2WithBorder | `112` | Callout 2 with Border Форма. |
-| Callout3WithBorder | `113` | Callout 3 with Border Форма. |
-| Callout1WithBorderAndAccent | `114` | Callout 1 with Border and Accent Форма. |
-| Callout2WithBorderAndAccent | `115` | Callout 2 with Border and Accent Форма. |
-| Callout3WithBorderAndAccent | `116` | Callout 3 with Border and Accent Форма. |
-| CalloutWedgeRectangle | `117` | Callout Wedge Rectangle Форма. |
-| CalloutWedgeRoundRectangle | `118` | Callout Wedge Round Rectangle Форма. |
-| CalloutWedgeEllipse | `119` | Callout Wedge Ellipse Форма. |
-| CalloutCloud | `120` | Callout Cloud Форма. |
-| Cloud | `121` | Cloud Форма. |
-| Ribbon | `122` | Ribbon Форма. |
-| Ribbon2 | `123` | Ribbon 2 Форма. |
-| EllipseRibbon | `124` | Ellipse Ribbon Форма. |
-| EllipseRibbon2 | `125` | Ellipse Ribbon 2 Форма. |
-| LeftRightRibbon | `126` | Left Right Ribbon Форма. |
-| VerticalScroll | `127` | Vertical Scroll Форма. |
-| HorizontalScroll | `128` | Horizontal Scroll Форма. |
-| Wave | `129` | Wave Форма. |
-| DoubleWave | `130` | Double Wave Форма. |
-| Plus | `131` | Plus Форма. |
-| ProcessFlow | `132` | Process Flow Форма. |
-| DecisionFlow | `133` | Decision Flow Форма. |
-| InputOutputFlow | `134` | Input Output Flow Форма. |
-| PredefinedProcessFlow | `135` | Predefined Process Flow Форма. |
-| InternalStorageFlow | `136` | Internal Storage Flow Форма. |
-| DocumentFlow | `137` | Document Flow Форма. |
-| MultiDocumentFlow | `138` | Multi-Document Flow Форма. |
-| TerminatorFlow | `139` | Terminator Flow Форма. |
-| PreparationFlow | `140` | Preparation Flow Форма. |
-| ManualInputFlow | `141` | Manual Input Flow Форма. |
-| ManualOperationFlow | `142` | Manual Operation Flow Форма. |
-| ConnectorFlow | `143` | Connector Flow Форма. |
-| PunchedCardFlow | `144` | Punched Card Flow Форма. |
-| PunchedTapeFlow | `145` | Punched Tape Flow Форма. |
-| SummingJunctionFlow | `146` | Summing Junction Flow Форма. |
-| OrFlow | `147` | Or Flow Форма. |
-| CollateFlow | `148` | Collate Flow Форма. |
-| SortFlow | `149` | Sort Flow Форма. |
-| ExtractFlow | `150` | Extract Flow Форма. |
-| MergeFlow | `151` | Merge Flow Форма. |
-| OfflineStorageFlow | `152` | Offline Storage Flow Форма. |
-| OnlineStorageFlow | `153` | Online Storage Flow Форма. |
-| MagneticTapeFlow | `154` | Magnetic Tape Flow Форма. |
-| MagneticDiskFlow | `155` | Magnetic Disk Flow Форма. |
-| MagneticDrumFlow | `156` | Magnetic Drum Flow Форма. |
-| DisplayFlow | `157` | Display Flow Форма. |
-| DelayFlow | `158` | Delay Flow Форма. |
-| AlternateProcessFlow | `159` | Alternate Process Flow Форма. |
-| OffPageConnectorFlow | `160` | Off-Page Connector Flow Форма. |
-| BlankButton | `161` | Blank Button Форма. |
-| HomeButton | `162` | Home Button Форма. |
-| HelpButton | `163` | Help Button Форма. |
-| InformationButton | `164` | Information Button Форма. |
-| ForwardOrNextButton | `165` | Forward or Next Button Форма. |
-| BackOrPreviousButton | `166` | Back or Previous Button Форма. |
-| EndButton | `167` | End Button Форма. |
-| BeginningButton | `168` | Beginning Button Форма. |
-| ReturnButton | `169` | Return Button Форма. |
-| DocumentButton | `170` | Document Button Форма. |
-| SoundButton | `171` | Sound Button Форма. |
-| MovieButton | `172` | Movie Button Форма. |
-| Gear6 | `173` | Gear 6 Форма. |
-| Gear9 | `174` | Gear 9 Форма. |
-| Funnel | `175` | Funnel Форма. |
-| PlusMath | `176` | Plus Math Форма. |
-| MinusMath | `177` | Minus Math Форма. |
-| MultiplyMath | `178` | Multiply Math Форма. |
-| DivideMath | `179` | Divide Math Форма. |
-| EqualMath | `180` | Equal Math Форма. |
-| NotEqualMath | `181` | Not Equal Math Форма. |
-| CornerTabs | `182` | Corner Tabs Форма. |
-| SquareTabs | `183` | Square Tabs Форма. |
-| PlaqueTabs | `184` | Plaque Tabs Форма. |
-| ChartX | `185` | Chart X Форма. |
-| ChartStar | `186` | Chart Star Форма. |
-| ChartPlus | `187` | Chart Plus Форма. |
+| Custom | `0` | Пользовательская форма. Это значение только для чтения. |
+| Line | `1` | Фигура линии. |
+| LineInverse | `2` | Фигура обратной линии. |
+| Triangle | `3` | Фигура треугольника. |
+| RightTriangle | `4` | Фигура прямоугольного треугольника. |
+| Rectangle | `5` | Фигура прямоугольника. |
+| Diamond | `6` | Фигура ромба. |
+| Parallelogram | `7` | Фигура параллелограмма. |
+| Trapezoid | `8` | Фигура трапеции. |
+| NonIsoscelesTrapezoid | `9` | Фигура неравнобедренной трапеции. |
+| Pentagon | `10` | Фигура пятиугольника. |
+| Hexagon | `11` | Фигура шестиугольника. |
+| Heptagon | `12` | Фигура семиугольника. |
+| Octagon | `13` | Фигура восьмиугольника. |
+| Decagon | `14` | Фигура десятиугольника. |
+| Dodecagon | `15` | Фигура двенадцатиугольника. |
+| FourPointedStar | `16` | Фигура звезды с четырьмя лучами. |
+| FivePointedStar | `17` | Фигура звезды с пятью лучами. |
+| SixPointedStar | `18` | Фигура звезды с шестью лучами. |
+| SevenPointedStar | `19` | Фигура звезды с семью лучами. |
+| EightPointedStar | `20` | Фигура звезды с восемью лучами. |
+| TenPointedStar | `21` | Фигура звезды с десятью лучами. |
+| TwelvePointedStar | `22` | Фигура звезды с двенадцатью лучами. |
+| SixteenPointedStar | `23` | Фигура звезды с шестнадцатью лучами. |
+| TwentyFourPointedStar | `24` | Фигура звезды с двадцатью четырьмя лучами. |
+| ThirtyTwoPointedStar | `25` | Фигура звезды с тридцатью двумя лучами. |
+| RoundCornerRectangle | `26` | Фигура прямоугольника со скруглёнными углами. |
+| OneRoundCornerRectangle | `27` | Фигура прямоугольника с одним скруглённым углом. |
+| TwoSamesideRoundCornerRectangle | `28` | Фигура прямоугольника с двумя скруглёнными углами одной стороны. |
+| TwoDiagonalRoundCornerRectangle | `29` | Фигура прямоугольника с двумя скруглёнными углами по диагонали. |
+| OneSnipOneRoundCornerRectangle | `30` | Фигура прямоугольника с одной отрезанной и одной скруглённой вершиной. |
+| OneSnipCornerRectangle | `31` | Фигура прямоугольника с одной отрезанной вершиной. |
+| TwoSamesideSnipCornerRectangle | `32` | Фигура прямоугольника с двумя отрезанными вершинами одной стороны. |
+| TwoDiagonalSnipCornerRectangle | `33` | Фигура прямоугольника с двумя отрезанными вершинами по диагонали. |
+| Plaque | `34` | Фигура таблички. |
+| Ellipse | `35` | Фигура эллипса. |
+| Teardrop | `36` | Фигура капли. |
+| HomePlate | `37` | Фигура домашней пластины. |
+| Chevron | `38` | Фигура шеврона. |
+| PieWedge | `39` | Фигура клина пирога. |
+| Pie | `40` | Фигура пирога. |
+| BlockArc | `41` | Фигура блочной дуги. |
+| Donut | `42` | Фигура пончика. |
+| NoSmoking | `43` | Фигура «Не курить». |
+| RightArrow | `44` | Фигура правой стрелки. |
+| LeftArrow | `45` | Фигура левой стрелки. |
+| UpArrow | `46` | Фигура стрелки вверх. |
+| DownArrow | `47` | Фигура стрелки вниз. |
+| StripedRightArrow | `48` | Фигура полосатой правой стрелки. |
+| NotchedRightArrow | `49` | Фигура зубчатой правой стрелки. |
+| BentUpArrow | `50` | Фигура изогнутой верхней стрелки. |
+| LeftRightArrow | `51` | Фигура стрелки влево-вправо. |
+| UpDownArrow | `52` | Фигура стрелки вверх-вниз. |
+| LeftUpArrow | `53` | Фигура стрелки влево-вверх. |
+| LeftRightUpArrow | `54` | Фигура стрелки влево-вправо-вверх. |
+| QuadArrow | `55` | Фигура четырёхстрелочной формы. |
+| CalloutLeftArrow | `56` | Фигура выноски с левой стрелкой. |
+| CalloutRightArrow | `57` | Фигура выноски с правой стрелкой. |
+| CalloutUpArrow | `58` | Фигура выноски с верхней стрелкой. |
+| CalloutDownArrow | `59` | Фигура выноски с нижней стрелкой. |
+| CalloutLeftRightArrow | `60` | Фигура выноски со стрелкой влево-вправо. |
+| CalloutUpDownArrow | `61` | Фигура выноски со стрелкой вверх-вниз. |
+| CalloutQuadArrow | `62` | Фигура выноски с четырёхстрелочной формой. |
+| BentArrow | `63` | Фигура изогнутой стрелки. |
+| UTurnArrow | `64` | Фигура стрелки-поворот. |
+| CircularArrow | `65` | Фигура круглой стрелки. |
+| LeftCircularArrow | `66` | Фигура левой круглой стрелки. |
+| LeftRightCircularArrow | `67` | Фигура левой-правой круглой стрелки. |
+| CurvedRightArrow | `68` | Фигура изогнутой правой стрелки. |
+| CurvedLeftArrow | `69` | Фигура изогнутой левой стрелки. |
+| CurvedUpArrow | `70` | Фигура изогнутой верхней стрелки. |
+| CurvedDownArrow | `71` | Фигура изогнутой нижней стрелки. |
+| SwooshArrow | `72` | Фигура быстролётной стрелки. |
+| Cube | `73` | Фигура куба. |
+| Can | `74` | Фигура банки. |
+| LightningBolt | `75` | Фигура молнии. |
+| Heart | `76` | Фигура сердца. |
+| Sun | `77` | Фигура солнца. |
+| Moon | `78` | Фигура луны. |
+| SmileyFace | `79` | Фигура улыбающегося лица. |
+| IrregularSeal1 | `80` | Фигура неправильной печати 1. |
+| IrregularSeal2 | `81` | Фигура неправильной печати 2. |
+| FoldedCorner | `82` | Фигура сложенного угла. |
+| Bevel | `83` | Фигура фаски. |
+| Frame | `84` | Фигура рамки. |
+| HalfFrame | `85` | Фигура половинной рамки. |
+| Corner | `86` | Фигура угла. |
+| DiagonalStripe | `87` | Фигура диагональной полосы. |
+| Chord | `88` | Фигура хорды. |
+| CurvedArc | `89` | Фигура изогнутой дуги. |
+| LeftBracket | `90` | Фигура левой скобки. |
+| RightBracket | `91` | Фигура правой скобки. |
+| LeftBrace | `92` | Фигура левой фигурной скобки. |
+| RightBrace | `93` | Фигура правой фигурной скобки. |
+| BracketPair | `94` | Фигура парных скобок. |
+| BracePair | `95` | Фигура парных фигурных скобок. |
+| StraightConnector1 | `96` | Фигура прямого соединителя 1. |
+| BentConnector2 | `97` | Фигура изогнутого соединителя 2. |
+| BentConnector3 | `98` | Фигура изогнутого соединителя 3. |
+| BentConnector4 | `99` | Фигура изогнутого соединителя 4. |
+| BentConnector5 | `100` | Фигура изогнутого соединителя 5. |
+| CurvedConnector2 | `101` | Фигура изогнутого соединителя 2. |
+| CurvedConnector3 | `102` | Фигура изогнутого соединителя 3. |
+| CurvedConnector4 | `103` | Фигура изогнутого соединителя 4. |
+| CurvedConnector5 | `104` | Фигура изогнутого соединителя 5. |
+| Callout1 | `105` | Фигура выноски 1. |
+| Callout2 | `106` | Фигура выноски 2. |
+| Callout3 | `107` | Фигура выноски 3. |
+| Callout1WithAccent | `108` | Фигура выноски 1 с акцентом. |
+| Callout2WithAccent | `109` | Фигура выноски 2 с акцентом. |
+| Callout3WithAccent | `110` | Фигура выноски 3 с акцентом. |
+| Callout1WithBorder | `111` | Фигура выноски 1 с рамкой. |
+| Callout2WithBorder | `112` | Фигура выноски 2 с рамкой. |
+| Callout3WithBorder | `113` | Фигура выноски 3 с рамкой. |
+| Callout1WithBorderAndAccent | `114` | Фигура выноски 1 с рамкой и акцентом. |
+| Callout2WithBorderAndAccent | `115` | Фигура выноски 2 с рамкой и акцентом. |
+| Callout3WithBorderAndAccent | `116` | Фигура выноски 3 с рамкой и акцентом. |
+| CalloutWedgeRectangle | `117` | Фигура выноски-клин прямоугольника. |
+| CalloutWedgeRoundRectangle | `118` | Фигура выноски-клин скруглённого прямоугольника. |
+| CalloutWedgeEllipse | `119` | Фигура выноски-клин эллипса. |
+| CalloutCloud | `120` | Фигура выноски-облака. |
+| Cloud | `121` | Фигура облака. |
+| Ribbon | `122` | Фигура ленты. |
+| Ribbon2 | `123` | Фигура ленты 2. |
+| EllipseRibbon | `124` | Фигура эллиптической ленты. |
+| EllipseRibbon2 | `125` | Фигура эллиптической ленты 2. |
+| LeftRightRibbon | `126` | Фигура левой-правой ленты. |
+| VerticalScroll | `127` | Фигура вертикального прокрутки. |
+| HorizontalScroll | `128` | Фигура горизонтального прокрутки. |
+| Wave | `129` | Фигура волны. |
+| DoubleWave | `130` | Фигура двойной волны. |
+| Plus | `131` | Фигура плюса. |
+| ProcessFlow | `132` | Фигура процесса потока. |
+| DecisionFlow | `133` | Фигура решения потока. |
+| InputOutputFlow | `134` | Фигура потока ввода-вывода. |
+| PredefinedProcessFlow | `135` | Фигура предварительно определённого процесса потока. |
+| InternalStorageFlow | `136` | Фигура внутреннего хранилища потока. |
+| DocumentFlow | `137` | Фигура потока документа. |
+| MultiDocumentFlow | `138` | Фигура многодокументного потока. |
+| TerminatorFlow | `139` | Фигура завершающего потока. |
+| PreparationFlow | `140` | Фигура подготовительного потока. |
+| ManualInputFlow | `141` | Фигура ручного ввода потока. |
+| ManualOperationFlow | `142` | Фигура ручной операции потока. |
+| ConnectorFlow | `143` | Фигура соединительного потока. |
+| PunchedCardFlow | `144` | Фигура потока перфокарты. |
+| PunchedTapeFlow | `145` | Фигура потока перфоленты. |
+| SummingJunctionFlow | `146` | Фигура суммирующего узла потока. |
+| OrFlow | `147` | Фигура Or-потока. |
+| CollateFlow | `148` | Фигура функции сопоставления потока. |
+| SortFlow | `149` | Фигура сортировки потока. |
+| ExtractFlow | `150` | Фигура извлечения потока. |
+| MergeFlow | `151` | Фигура слияния потока. |
+| OfflineStorageFlow | `152` | Фигура офлайн-хранилища потока. |
+| OnlineStorageFlow | `153` | Фигура онлайн-хранилища потока. |
+| MagneticTapeFlow | `154` | Фигура магнитной ленты потока. |
+| MagneticDiskFlow | `155` | Фигура магнитного диска потока. |
+| MagneticDrumFlow | `156` | Фигура магнитного барабана потока. |
+| DisplayFlow | `157` | Фигура отображения потока. |
+| DelayFlow | `158` | Фигура задержки потока. |
+| AlternateProcessFlow | `159` | Фигура альтернативного процесса потока. |
+| OffPageConnectorFlow | `160` | Фигура соединителя между страницами. |
+| BlankButton | `161` | Фигура пустой кнопки. |
+| HomeButton | `162` | Фигура кнопки «Домой». |
+| HelpButton | `163` | Фигура кнопки «Помощь». |
+| InformationButton | `164` | Фигура кнопки «Информация». |
+| ForwardOrNextButton | `165` | Фигура кнопки «Вперёд или Далее». |
+| BackOrPreviousButton | `166` | Фигура кнопки «Назад или Предыдущая». |
+| EndButton | `167` | Фигура кнопки «Конец». |
+| BeginningButton | `168` | Фигура кнопки «Начало». |
+| ReturnButton | `169` | Фигура кнопки «Возврат». |
+| DocumentButton | `170` | Фигура кнопки «Документ». |
+| SoundButton | `171` | Фигура кнопки «Звук». |
+| MovieButton | `172` | Фигура кнопки «Видео». |
+| Gear6 | `173` | Фигура шестерни 6. |
+| Gear9 | `174` | Фигура шестерни 9. |
+| Funnel | `175` | Фигура воронки. |
+| PlusMath | `176` | Фигура знака плюс (математика). |
+| MinusMath | `177` | Фигура знака минус (математика). |
+| MultiplyMath | `178` | Фигура знака умножения (математика). |
+| DivideMath | `179` | Фигура знака деления (математика). |
+| EqualMath | `180` | Фигура знака равенства (математика). |
+| NotEqualMath | `181` | Фигура знака неравенства (математика). |
+| CornerTabs | `182` | Фигура закладок-углов. |
+| SquareTabs | `183` | Фигура квадратных закладок. |
+| PlaqueTabs | `184` | Фигура табличных закладок. |
+| ChartX | `185` | Фигура диаграммы X. |
+| ChartStar | `186` | Фигура звёздчатой диаграммы. |
+| ChartPlus | `187` | Фигура диаграммы с плюсом. |
 
 ### См. также
 

@@ -1,14 +1,14 @@
 ---
 title: ShapeThumbnailBounds
 second_title: Aspose.Sildes pro .NET API Reference
-description: Výčet typů ohraničení náhledu tvaru.
+description: Výčet typů ohraničení náhledů tvaru.
 type: docs
-weight: 9920
+weight: 9940
 url: /cs/aspose.slides/shapethumbnailbounds/
 ---
 ## ShapeThumbnailBounds výčet
 
-Výčet typů ohraničení náhledu tvaru.
+Výčet typů ohraničení náhledů tvaru.
 
 ```csharp
 public enum ShapeThumbnailBounds
@@ -18,9 +18,9 @@ public enum ShapeThumbnailBounds
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| Slide | `0` | Náhled tvaru bude mít velikost rovnou velikosti snímku. Pozice tvaru bude uložena. |
-| Shape | `1` | Náhled tvaru bude mít velikost rovnou obdélníku ohraničujícímu tvar, přičemž se zohlední nastavení obrysu tvaru. |
-| Appearance | `2` | Náhled tvaru bude mít velikost rovnou vzhledu tvaru (v mezích snímku). Mohou nastat situace, kdy vzhled tvaru se nevejde do ohraničení tvaru. Např. otáčení, sekání řezem ostrého úhlu, 3D efekty atd. |
+| Slide | `0` | Náhled tvaru bude mít velikost rovnu velikosti snímku. Pozice tvaru bude uložena. |
+| Shape | `1` | Náhled tvaru bude mít velikost rovnu obdélníku ohraničení tvaru s ohledem na nastavení obrysu tvaru. |
+| Appearance | `2` | Náhled tvaru bude mít velikost rovnu vzhledu tvaru (v rámci ohraničení snímku). Může dojít k situacím, kdy vzhled tvaru neodpovídá ohraničení tvaru. Např. otočení, skloněný spoj ostrého úhlu, 3D efekty atd. |
 
 ### Viz také
 

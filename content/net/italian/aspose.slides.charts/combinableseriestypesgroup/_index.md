@@ -1,20 +1,20 @@
 ---
 title: CombinableSeriesTypesGroup
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Enumerazione dei gruppi di tipi di serie combinabili. Ogni elemento si riferisce a un gruppo di tipi di serie di grafico che possono coesistere simultaneamente in un ChartSeriesGroup. Ad esempio, le serie ChartType.PercentsStackedArea non possono essere simultaneamente con le serie ChartType.StackedArea in un ChartSeriesGroup. Tuttavia, due o più serie ChartType.PercentsStackedArea possono trovarsi simultaneamente in un ChartSeriesGroup (CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea). E le serie ChartType.Line possono trovarsi simultaneamente con le serie ChartType.LineWithMarkers in un ChartSeriesGroup (CombinableSeriesTypesGroup.LineChart_Line).
+description: Enumerazione dei gruppi di tipi di serie combinabili. Cada elemento si riferisce a un gruppo di tipi di serie di grafico che possono coesistere simultaneamente in un ChartSeriesGroup. Per esempio le serie ChartType.PercentsStackedArea non possono essere simultaneamente con le serie ChartType.StackedArea in un ChartSeriesGroup. Tuttavia due o più serie ChartType.PercentsStackedArea possono trovarsi simultaneamente in un ChartSeriesGroup (CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea). Inoltre le serie ChartType.Line possono essere con le serie ChartType.LineWithMarkers simultaneamente in un ChartSeriesGroup (CombinableSeriesTypesGroup.LineChart_Line).
 type: docs
-weight: 1530
+weight: 1540
 url: /it/aspose.slides.charts/combinableseriestypesgroup/
 ---
 ## CombinableSeriesTypesGroup enumerazione
 
-Enumerazione dei gruppi di tipi di serie combinabili. Ogni elemento si riferisce a un gruppo di tipi di serie di grafico che possono coesistere contemporaneamente in un ChartSeriesGroup. Ad esempio: ChartType.PercentsStackedArea series non possono essere contemporaneamente con ChartType.StackedArea series in un ChartSeriesGroup. Ma due o più ChartType.PercentsStackedArea possono trovarsi contemporaneamente in un ChartSeriesGroup (CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea). E le serie ChartType.Line possono essere con le serie ChartType.LineWithMarkers contemporaneamente in un ChartSeriesGroup CombinableSeriesTypesGroup.LineChart_Line.
+Enumerazione dei gruppi di tipi di serie combinabili. Ogni elemento si riferisce a un gruppo di tipi di serie di grafico che possono coesistere simultaneamente in un ChartSeriesGroup. Per esempio: le serie ChartType.PercentsStackedArea non possono essere simultaneamente con le serie ChartType.StackedArea in un unico ChartSeriesGroup. Tuttavia due o più serie ChartType.PercentsStackedArea possono trovarsi nello stesso ChartSeriesGroup simultaneamente (CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea). Inoltre le serie ChartType.Line possono essere con le serie ChartType.LineWithMarkers simultaneamente in un CombinableSeriesTypesGroup.LineChart_Line ChartSeriesGroup.
 
 ```csharp
 public enum CombinableSeriesTypesGroup
 ```
 
-### Values
+### Valori
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |

@@ -1,14 +1,14 @@
 ---
 title: PatternStyle
 second_title: Aspose.Sildes for .NET API リファレンス
-description: パターンスタイルを表します。
+description: パターン スタイルを表します。
 type: docs
-weight: 9360
+weight: 9380
 url: /ja/aspose.slides/patternstyle/
 ---
 ## PatternStyle 列挙体
 
-パターンスタイルを表します。
+パターン スタイルを表します。
 
 ```csharp
 public enum PatternStyle : sbyte

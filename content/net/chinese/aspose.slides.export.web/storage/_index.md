@@ -1,14 +1,14 @@
 ---
 title: Storage
 second_title: Aspose.Sildes .NET API 参考
-description: 表示用于 WebDocument./webdocument 的临时数据存储。
+description: 表示 WebDocument./webdocument 的临时数据存储。
 type: docs
-weight: 4660
+weight: 4680
 url: /zh/aspose.slides.export.web/storage/
 ---
 ## 存储类
 
-表示针对 [`WebDocument`](../webdocument) 的临时数据存储。
+表示 [`WebDocument`](../webdocument) 的临时数据存储。
 
 ```csharp
 public sealed class Storage
@@ -25,10 +25,10 @@ public sealed class Storage
 | 名称 | 描述 |
 | --- | --- |
 | [ContainsKey](../../aspose.slides.export.web/storage/containskey)(string) | 确定存储是否包含具有指定键的元素。 |
-| [Get&lt;TValue&gt;](../../aspose.slides.export.web/storage/get)(string) | 从存储获取数据。 |
-| [Put&lt;TValue&gt;](../../aspose.slides.export.web/storage/put)(string, TValue) | 将值放入存储。 |
+| [Get&lt;TValue&gt;](../../aspose.slides.export.web/storage/get)(string) | 从存储中获取数据。 |
+| [Put&lt;TValue&gt;](../../aspose.slides.export.web/storage/put)(string, TValue) | 将值放入存储中。 |
 
-### 另请参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * 程序集 [Aspose.Slides](../../)

@@ -3,7 +3,7 @@ title: ILineFormatCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 線スタイルのコレクションを表します。
 type: docs
-weight: 11290
+weight: 11310
 url: /ja/aspose.slides.theme/ilineformatcollection/
 ---
 ## ILineFormatCollection インターフェイス
@@ -16,9 +16,9 @@ public interface ILineFormatCollection : IGenericCollection<ILineFormat>
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ilineformatcollection/item) { get; } | 指定したインデックスの要素を取得します。 読み取り専用 [`ILineFormat`](../../aspose.slides/ilineformat)。 |
+| [Item](../../aspose.slides.theme/ilineformatcollection/item) { get; } | 指定されたインデックスの要素を取得します。読み取り専用 [`ILineFormat`](../../aspose.slides/ilineformat)。 |
 
 ### 参照
 

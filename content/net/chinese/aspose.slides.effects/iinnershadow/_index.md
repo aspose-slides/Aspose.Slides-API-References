@@ -1,9 +1,9 @@
 ---
 title: IInnerShadow
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示内部阴影效果。
 type: docs
-weight: 3420
+weight: 3440
 url: /zh/aspose.slides.effects/iinnershadow/
 ---
 ## IInnerShadow 接口
@@ -19,12 +19,12 @@ public interface IInnerShadow : IAccessiblePVIObject<IInnerShadowEffectiveData>,
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iinnershadow/asiaccessiblepviobject) { get; } | 允许获取基本 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iinnershadow/asiimagetransformoperation) { get; } | 允许获取基本 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation)。 |
-| [BlurRadius](../../aspose.slides.effects/iinnershadow/blurradius) { get; set; } | 模糊半径。可读写 Double。 |
-| [Direction](../../aspose.slides.effects/iinnershadow/direction) { get; set; } | 阴影方向。可读写 Single。 |
-| [Distance](../../aspose.slides.effects/iinnershadow/distance) { get; set; } | 阴影距离。可读写 Double。 |
-| [ShadowColor](../../aspose.slides.effects/iinnershadow/shadowcolor) { get; } | 阴影颜色。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iinnershadow/asiaccessiblepviobject) { get; } | 允许获取基 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iinnershadow/asiimagetransformoperation) { get; } | 允许获取基 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [BlurRadius](../../aspose.slides.effects/iinnershadow/blurradius) { get; set; } | 模糊半径。读写 Double。 |
+| [Direction](../../aspose.slides.effects/iinnershadow/direction) { get; set; } | 阴影方向。读写 Single。 |
+| [Distance](../../aspose.slides.effects/iinnershadow/distance) { get; set; } | 阴影距离。读写 Double。 |
+| [ShadowColor](../../aspose.slides.effects/iinnershadow/shadowcolor) { get; } | 阴影的 Color。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
 
 ### 另请参阅
 

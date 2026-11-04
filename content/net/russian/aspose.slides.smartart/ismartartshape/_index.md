@@ -1,12 +1,12 @@
 ---
 title: ISmartArtShape
-second_title: Aspose.Sildes для справочника API .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет форму внутри диаграммы SmartArt
 type: docs
-weight: 10570
+weight: 10590
 url: /ru/aspose.slides.smartart/ismartartshape/
 ---
-## ISmartArtShape интерфейс
+## ISmartArtShape interface
 
 Представляет форму внутри диаграммы SmartArt
 
@@ -21,7 +21,7 @@ public interface ISmartArtShape : IGeometryShape
 | [AsIGeometryShape](../../aspose.slides.smartart/ismartartshape/asigeometryshape) { get; } | Позволяет получить базовый интерфейс IGeometryShape. Только для чтения [`IGeometryShape`](../../aspose.slides/igeometryshape). |
 | [TextFrame](../../aspose.slides.smartart/ismartartshape/textframe) { get; } | Возвращает текст формы SmartArt. Только для чтения [`ITextFrame`](../../aspose.slides/itextframe). |
 
-### См. также
+### Смотрите также
 
 * интерфейс [IGeometryShape](../../aspose.slides/igeometryshape)
 * пространство имён [Aspose.Slides.SmartArt](../../aspose.slides.smartart)

@@ -1,14 +1,14 @@
 ---
 title: IChartParagraphFormat
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar formateringsegenskaper för ett stycke i ett diagram.
+description: Representerar egenskaper för styckeformatering i ett diagram.
 type: docs
-weight: 1900
+weight: 1920
 url: /sv/aspose.slides.charts/ichartparagraphformat/
 ---
 ## IChartParagraphFormat gränssnitt
 
-Representerar formateringsinställningar för ett stycke i ett diagram.
+Representerar egenskaper för styckeformatering i ett diagram.
 
 ```csharp
 public interface IChartParagraphFormat
@@ -19,23 +19,23 @@ public interface IChartParagraphFormat
 | Namn | Beskrivning |
 | --- | --- |
 | [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | Returnerar eller anger textjusteringen i ett stycke. Läs/skriv [`TextAlignment`](../../aspose.slides/textalignment). |
-| [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | Returnerar eller anger standardtabuleringsstorlek. Läs/skriv Single. |
-| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | Bestämmer om radbrytning för östasiatiska tecken används i ett stycke. Läs/skriv [`NullableBool`](../../aspose.slides/nullablebool). |
-| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | Returnerar eller anger en teckensnittjustering i ett stycke. Läs/skriv [`FontAlignment`](../../aspose.slides/fontalignment). |
-| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | Bestämmer om hängande skiljetecken används i ett stycke. Läs/skriv [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | Returnerar eller anger första radindrag/hängande indrag i ett stycke. Hängande indrag kan definieras med negativa värden. Läs/skriv Single. |
-| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | Bestämmer om latinsk radbrytning används i ett stycke. Läs/skriv [`NullableBool`](../../aspose.slides/nullablebool). |
-| [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | Returnerar eller anger vänster marginal i ett stycke. Läs/skriv Single. |
-| [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | Returnerar eller anger höger marginal i ett stycke. Läs/skriv Single. |
-| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | Bestämmer om skrivet från höger till vänster används i ett stycke. Läs/skriv [`NullableBool`](../../aspose.slides/nullablebool). |
+| [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | Returnerar eller anger standardtabulatorstorlek. Läs/skriv Single. |
+| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | Avgör om linjebrytning för östasiatiskt språk används i ett stycke. Läs/skriv [`NullableBool`](../../aspose.slides/nullablebool). |
+| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | Returnerar eller anger teckensnittsjustering i ett stycke. Läs/skriv [`FontAlignment`](../../aspose.slides/fontalignment). |
+| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | Avgör om hängande interpunktion används i ett stycke. Läs/skriv [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | Returnerar eller anger första rad-Indent/Hängande Indent i ett stycke. Hängande Indent kan definieras med negativa värden. Läs/skriv Single. |
+| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | Avgör om latinsk radbrytning används i ett stycke. Läs/skriv [`NullableBool`](../../aspose.slides/nullablebool). |
+| [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | Returnerar eller anger vänstermarginalen i ett stycke. Läs/skriv Single. |
+| [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | Returnerar eller anger högermarginalen i ett stycke. Läs/skriv Single. |
+| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | Avgör om höger-till-vänster-skrivning används i ett stycke. Läs/skriv [`NullableBool`](../../aspose.slides/nullablebool). |
 | [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | Returnerar eller anger mängden utrymme efter den sista raden i ett stycke. Läs/skriv Single. |
 | [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | Returnerar eller anger mängden utrymme före den första raden i ett stycke. Läs/skriv Single. |
-| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | Returnerar eller anger mängden utrymme mellan baslinjer i ett stycke. Läs/skriv Single. |
-| [Tabs](../../aspose.slides.charts/ichartparagraphformat/tabs) { get; } | Returnerar tabuleringar i ett stycke. Endast läsning [`ITabCollection`](../../aspose.slides/itabcollection). |
+| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | Returnerar eller anger mängden utrymme mellan basrader i ett stycke. Läs/skriv Single. |
+| [Tabs](../../aspose.slides.charts/ichartparagraphformat/tabs) { get; } | Returnerar tabulatorer för ett stycke. Endast läsning [`ITabCollection`](../../aspose.slides/itabcollection). |
 
-### Se även
+### Se också
 
-* namnutrymme [Aspose.Slides.Charts](../../aspose.slides.charts)
+* namnrymd [Aspose.Slides.Charts](../../aspose.slides.charts)
 * samling [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: IMathRightSubSuperscriptElement
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 기본과 아래 첨자 및 위 첨자가 기본의 오른쪽에 배치된 Sub-Superscript 객체를 지정합니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 베이스와 아래 첨자 및 위 첨자를 베이스 오른쪽에 배치한 Sub-Superscript 객체를 지정합니다.
 type: docs
-weight: 8450
+weight: 8470
 url: /ko/aspose.slides.mathtext/imathrightsubsuperscriptelement/
 ---
 ## IMathRightSubSuperscriptElement 인터페이스
 
-기본과 아래 첨자 및 위 첨자가 기본의 오른쪽에 배치된 Sub-Superscript 객체를 지정합니다.
+베이스와 아래 첨자 및 위 첨자를 베이스 오른쪽에 배치한 Sub-Superscript 개체를 지정합니다.
 
 ```csharp
 public interface IMathRightSubSuperscriptElement : IMathElement
@@ -18,11 +18,11 @@ public interface IMathRightSubSuperscriptElement : IMathElement
 
 | 이름 | 설명 |
 | --- | --- |
-| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | 위 첨자/아래 첨자의 정렬을 지정합니다. true인 경우 위 첨자와 아래 첨자가 서로 수평으로 정렬됩니다. false인 경우 기본의 모양에 맞게 커닝됩니다. 기본값은 false입니다. |
+| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | 아래 첨자/위 첨자의 정렬을 지정합니다. true인 경우 아래 첨자와 위 첨자가 서로 수평으로 정렬됩니다. false인 경우 베이스 모양에 맞게 커닝됩니다. 기본값은 false입니다. |
 | [AsIMathElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement) { get; } | 기본 IMathElement 인터페이스를 가져올 수 있습니다 [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/base) { get; } | 기본 인수 |
-| [Subscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript) { get; } | 아래첨자 인수 |
-| [Superscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/superscript) { get; } | 위첨자 인수 |
+| [Subscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript) { get; } | 아래 첨자 인수 |
+| [Superscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/superscript) { get; } | 위 첨자 인수 |
 
 ### 예제
 
@@ -33,7 +33,7 @@ public interface IMathRightSubSuperscriptElement : IMathElement
 IMathRightSubSuperscriptElement subsuperscript = new MathematicalText("N").SetSubSuperscriptOnTheRight("i", "j");
 ```
 
-### 참고
+### 참조
 
 * 인터페이스 [IMathElement](../imathelement)
 * 네임스페이스 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

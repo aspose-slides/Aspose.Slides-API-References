@@ -1,14 +1,14 @@
 ---
 title: IRippleTransition
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Efecto de transición de diapositiva de ondulación.
+description: Efecto de transición de diapositiva con ondulación.
 type: docs
-weight: 10170
+weight: 10190
 url: /es/aspose.slides.slideshow/irippletransition/
 ---
 ## IRippleTransition interfaz
 
-Efecto de transición de diapositiva de ondulación.
+Efecto de transición de diapositiva con ondulación.
 
 ```csharp
 public interface IRippleTransition : ITransitionValueBase
@@ -18,7 +18,7 @@ public interface IRippleTransition : ITransitionValueBase
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/irippletransition/asitransitionvaluebase) { get; } | Permite obtener la interfaz base ITransitionValueBase. Solo lectura [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/irippletransition/asitransitionvaluebase) { get; } | Permite obtener la interfaz base ITransitionValueBase. Sólo lectura [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/irippletransition/direction) { get; set; } | Dirección de la transición. Lectura/escritura [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
 
 ### Ver también

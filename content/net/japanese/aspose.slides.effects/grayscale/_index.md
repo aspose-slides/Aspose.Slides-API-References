@@ -1,14 +1,14 @@
 ---
 title: GrayScale
-second_title: Aspose.Sildes for .NET APIリファレンス
-description: Gray Scale エフェクトを表します。すべてのエフェクトの色の値を、その輝度に対応するグレーの濃さに変換します。エフェクトのアルファ（不透明度）値は影響を受けません。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: Gray Scale エフェクトを表します。すべてのエフェクトのカラー値を、輝度に対応する灰色の濃淡に変換します。エフェクトのアルファ不透明度の値は影響を受けません。
 type: docs
-weight: 3000
+weight: 3020
 url: /ja/aspose.slides.effects/grayscale/
 ---
 ## GrayScale クラス
 
-Gray Scale エフェクトを表します。すべてのエフェクトの色の値を、その輝度に対応するグレーの濃さに変換します。エフェクトのアルファ（不透明度）値は影響を受けません。
+Gray Scale エフェクトを表します。すべてのエフェクトの色値を、輝度に対応する灰色の濃淡に変換します。エフェクトのアルファ (不透明度) 値は影響を受けません。
 
 ```csharp
 public sealed class GrayScale : ImageTransformOperation, IGrayScale
@@ -18,17 +18,17 @@ public sealed class GrayScale : ImageTransformOperation, IGrayScale
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベース IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/grayscale/equals)(object) | 指定された [`GrayScale`](../grayscale) が現在の [`GrayScale`](../grayscale) と等しいかどうかを判断します。 |
-| [GetEffective](../../aspose.slides.effects/grayscale/geteffective)() | 継承が適用された有効な Gray Scale エフェクト データを取得します。 |
-| override [GetHashCode](../../aspose.slides.effects/grayscale/gethashcode)() | 特定の型に対するハッシュ関数として機能します。 |
+| [GetEffective](../../aspose.slides.effects/grayscale/geteffective)() | 継承が適用された有効な Gray Scale エフェクトデータを取得します。 |
+| override [GetHashCode](../../aspose.slides.effects/grayscale/gethashcode)() | 特定の型のハッシュ関数として機能します。 |
 
-### 関連項目
+### 参照
 
 * クラス [ImageTransformOperation](../imagetransformoperation)
 * インターフェイス [IGrayScale](../igrayscale)

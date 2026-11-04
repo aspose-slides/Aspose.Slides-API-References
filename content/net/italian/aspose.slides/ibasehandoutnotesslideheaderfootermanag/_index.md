@@ -1,14 +1,14 @@
 ---
 title: IBaseHandoutNotesSlideHeaderFooterManag
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta un gestore che mantiene il comportamento dei segnaposti, incluso il segnaposto dell'intestazione per tutti i tipi di diapositive di dispense e di note.
+second_title: Aspose.Sildes for .NET API Reference
+description: Rappresenta il gestore che conserva il comportamento dei segnaposti, incluso il segnaposto dell'intestazione per tutti i tipi di handout e diapositive di note.
 type: docs
-weight: 5290
+weight: 5310
 url: /it/aspose.slides/ibasehandoutnotesslideheaderfootermanag/
 ---
 ## IBaseHandoutNotesSlideHeaderFooterManag interfaccia
 
-Rappresenta un gestore che mantiene il comportamento dei segnaposti, incluso il segnaposto dell'intestazione per tutti i tipi di diapositive di dispense e di note.
+Rappresenta il gestore che conserva il comportamento dei segnaposti, incluso il segnaposto dell'intestazione per tutti i tipi di diapositive di handout e note.
 
 ```csharp
 public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFooterManager
@@ -16,16 +16,16 @@ public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFoote
 
 ## Proprietà
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
 | [AsIBaseSlideHeaderFooterManager](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/asibaseslideheaderfootermanager) { get; } | Restituisce l'interfaccia IBaseSlideHeaderFooterManager. |
-| [IsHeaderVisible](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible) { get; } | Ottiene il valore che indica se è presente un segnaposto dell'intestazione. Legge Boolean. |
+| [IsHeaderVisible](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible) { get; } | Ottiene il valore che indica la presenza di un segnaposto dell'intestazione. Legge Boolean. |
 
 ## Metodi
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
-| [SetHeaderText](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadertext)(string) | Imposta il testo nel segnaposto dell'intestazione della diapositiva. |
+| [SetHeaderText](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadertext)(string) | Imposta il testo del segnaposto dell'intestazione della diapositiva. |
 | [SetHeaderVisibility](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadervisibility)(bool) | Modifica la visibilità del segnaposto dell'intestazione della diapositiva. |
 
 ### Osservazioni

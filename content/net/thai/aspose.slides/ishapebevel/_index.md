@@ -1,14 +1,14 @@
 ---
 title: IShapeBevel
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อธิบายคุณสมบัติของ Relief ด้านหน้าหลักของรูปร่าง
+description: แสดงคุณสมบัติของการยกหน้าหลักของรูปร่าง.
 type: docs
-weight: 6960
+weight: 6980
 url: /th/aspose.slides/ishapebevel/
 ---
 ## IShapeBevel อินเทอร์เฟซ
 
-อธิบายคุณสมบัติของ Relief ด้านหน้าหลักของรูปร่าง
+แสดงคุณสมบัติของการยกหน้าหลักของรูปร่าง
 
 ```csharp
 public interface IShapeBevel
@@ -18,9 +18,9 @@ public interface IShapeBevel
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [BevelType](../../aspose.slides/ishapebevel/beveltype) { get; set; } | ประเภทของ Bevel. อ่าน/เขียน [`BevelPresetType`](../bevelpresettype). |
-| [Height](../../aspose.slides/ishapebevel/height) { get; set; } | ความสูงของ Bevel. อ่าน/เขียน Double. |
-| [Width](../../aspose.slides/ishapebevel/width) { get; set; } | ความกว้างของ Bevel. อ่าน/เขียน Double. |
+| [BevelType](../../aspose.slides/ishapebevel/beveltype) { get; set; } | ประเภทของ bevel. อ่าน/เขียน [`BevelPresetType`](../bevelpresettype). |
+| [Height](../../aspose.slides/ishapebevel/height) { get; set; } | ความสูงของ bevel. อ่าน/เขียน Double. |
+| [Width](../../aspose.slides/ishapebevel/width) { get; set; } | ความกว้างของ bevel. อ่าน/เขียน Double. |
 
 ### ดูเพิ่มเติม
 

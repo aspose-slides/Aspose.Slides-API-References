@@ -3,10 +3,10 @@ title: IThemeManager
 second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Biểu diễn các thuộc tính của chủ đề.
 type: docs
-weight: 11390
+weight: 11410
 url: /vi/aspose.slides.theme/ithememanager/
 ---
-## Giao diện IThemeManager
+## IThemeManager giao diện
 
 Biểu diễn các thuộc tính của chủ đề.
 
@@ -18,7 +18,7 @@ public interface IThemeManager
 
 | Tên | Mô tả |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/ithememanager/applycolorscheme)(IExtraColorScheme) | Áp dụng bảng màu phụ vào một slide. |
+| [ApplyColorScheme](../../aspose.slides.theme/ithememanager/applycolorscheme)(IExtraColorScheme) | Áp dụng bảng màu bổ sung cho một slide. |
 | [CreateThemeEffective](../../aspose.slides.theme/ithememanager/createthemeeffective)() | Trả về đối tượng chủ đề. |
 
 ### Xem thêm

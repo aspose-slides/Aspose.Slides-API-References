@@ -1,18 +1,22 @@
 ---
 title: GapDepth
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir 3D grafikte veri serileri arasındaki mesafeyi, işaretçi genişliğinin yüzde olarak döndürür veya ayarlar. Okunur/Yazılabilir UInt16.
+description: Veri serileri arasındaki mesafeyi, işaretçi genişliğinin yüzdesi olarak 3D grafikte alır veya ayarlar. Değer 0 ile 500 arasında olmalıdır. Okuma/yazma UInt16.
 type: docs
 weight: 60
 url: /tr/aspose.slides.charts/chartseriesgroup/gapdepth/
 ---
-## ChartSeriesGroup.GapDepth özelliği
+## ChartSeriesGroup.GapDepth özellik
 
-Bir 3D grafikte veri serileri arasındaki mesafeyi, işaretçi genişliğinin yüzdesi olarak döndürür veya ayarlar. Okunur/Yazılabilir UInt16.
+3D grafikte veri serileri arasındaki mesafeyi, işaretçi genişliğinin yüzdesi olarak alır veya ayarlar. Değer 0 ile 500 arasında olmalıdır. Okuma/yazma UInt16.
 
 ```csharp
 public ushort GapDepth { get; set; }
 ```
+
+### Açıklamalar
+
+Bu özellik, aşağıdaki türlerdeki serilere uygulanır: 3D çubuk ve sütun alt tipleri (ayrıca [`IsBar3DChart`](../../charttypecharacterizer/isbar3dchart) yöntemi), Line3D, Area3D, StackedArea3D, PercentsStackedArea3D.
 
 ### Ayrıca Bakınız
 

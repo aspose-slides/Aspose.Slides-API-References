@@ -1,14 +1,14 @@
 ---
 title: SlideImageFormat
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Determina il formato in cui l'immagine della diapositiva verrà salvata per l'esportazione della presentazione in HTML.
+second_title: Aspose.Sildes per il riferimento API .NET
+description: Determina il formato in cui l'immagine della diapositiva verrà salvata per la presentazione all'esportazione HTML.
 type: docs
-weight: 4470
+weight: 4490
 url: /it/aspose.slides.export/slideimageformat/
 ---
 ## SlideImageFormat classe
 
-Determina il formato in cui l'immagine della diapositiva verrà salvata per l'esportazione della presentazione in HTML.
+Determina il formato in cui l'immagine della diapositiva verrà salvata per la presentazione all'esportazione HTML.
 
 ```csharp
 public class SlideImageFormat : ISlideImageFormat

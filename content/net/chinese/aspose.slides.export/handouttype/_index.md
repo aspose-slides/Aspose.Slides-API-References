@@ -1,14 +1,14 @@
 ---
 title: HandoutType
 second_title: Aspose.Sildes .NET API 参考
-description: 指定每页将放置多少张幻灯片以及以何种顺序放置。
+description: 指定页面上将放置多少张幻灯片以及它们的顺序。
 type: docs
-weight: 3850
+weight: 3870
 url: /zh/aspose.slides.export/handouttype/
 ---
 ## HandoutType 枚举
 
-指定每页将放置多少张幻灯片以及以何种顺序放置。
+指定页面上放置多少张幻灯片以及它们的顺序。
 
 ```csharp
 public enum HandoutType
@@ -16,7 +16,7 @@ public enum HandoutType
 
 ### 取值
 
-| 名称 | 值 | 描述 |
+| Name | Value | Description |
 | --- | --- | --- |
 | Handouts1 | `0` | 每页一张幻灯片。 |
 | Handouts2 | `1` | 每页两张幻灯片。 |

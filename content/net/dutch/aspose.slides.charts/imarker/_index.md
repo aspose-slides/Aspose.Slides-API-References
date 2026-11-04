@@ -1,14 +1,14 @@
 ---
 title: IMarker
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt de marker van een grafiek voor.
+description: Geeft de marker van een chert weer.
 type: docs
-weight: 2160
+weight: 2180
 url: /nl/aspose.slides.charts/imarker/
 ---
 ## IMarker interface
 
-Stelt de marker van een grafiek voor.
+Geeft de marker van een chert weer.
 
 ```csharp
 public interface IMarker
@@ -16,11 +16,11 @@ public interface IMarker
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
 | [Format](../../aspose.slides.charts/imarker/format) { get; } | Haalt de markervulling op. Alleen-lezen [`IFormat`](../iformat). |
-| [Size](../../aspose.slides.charts/imarker/size) { get; set; } | Stelt de marker-grootte voor in een lijndiagram, spreidingsdiagram of radardiagram. Lezen/Schrijven Int32. |
-| [Symbol](../../aspose.slides.charts/imarker/symbol) { get; set; } | Stelt de marker-stijl voor in een lijndiagram, spreidingsdiagram of radardiagram. Lezen/Schrijven [`MarkerStyleType`](../markerstyletype). |
+| [Size](../../aspose.slides.charts/imarker/size) { get; set; } | Stelt de markergrootte in een lijndiagram, spreidingsdiagram of radardiagram voor. Lezen/schrijven Int32. |
+| [Symbol](../../aspose.slides.charts/imarker/symbol) { get; set; } | Stelt de markerstijl in een lijndiagram, spreidingsdiagram of radardiagram voor. Lezen/schrijven [`MarkerStyleType`](../markerstyletype). |
 
 ### Zie ook
 

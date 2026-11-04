@@ -1,9 +1,9 @@
 ---
 title: IMasterSlideCollection
-second_title: Tham khảo API Aspose.Sildes cho .NET
+second_title: Tài liệu tham chiếu API Aspose.Sildes cho .NET
 description: Đại diện cho một bộ sưu tập các slide chủ.
 type: docs
-weight: 6430
+weight: 6450
 url: /vi/aspose.slides/imasterslidecollection/
 ---
 ## IMasterSlideCollection giao diện
@@ -18,17 +18,17 @@ public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
 
 | Tên | Mô tả |
 | --- | --- |
-| [Item](../../aspose.slides/imasterslidecollection/item) { get; } | Lấy phần tử tại chỉ mục được chỉ định. Chỉ đọc [`IMasterSlide`](../imasterslide). |
+| [Item](../../aspose.slides/imasterslidecollection/item) { get; } | Lấy phần tử tại chỉ mục đã chỉ định. Chỉ đọc [`IMasterSlide`](../imasterslide). |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | Thêm một bản sao của slide chủ được chỉ định vào cuối bộ sưu tập. Các slide bố cục được liên kết cũng sẽ được sao chép. |
-| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Chèn một bản sao của slide chủ được chỉ định vào vị trí được chỉ định trong bộ sưu tập. Các slide bố cục được liên kết cũng sẽ được sao chép. |
+| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | Thêm một bản sao của slide chủ đã chỉ định vào cuối bộ sưu tập. Các slide bố cục được liên kết cũng sẽ được sao chép. |
+| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Chèn một bản sao của slide chủ đã chỉ định vào vị trí xác định trong bộ sưu tập. Các slide bố cục được liên kết cũng sẽ được sao chép. |
 | [Remove](../../aspose.slides/imasterslidecollection/remove)(IMasterSlide) | Xóa lần xuất hiện đầu tiên của một đối tượng cụ thể khỏi bộ sưu tập. |
-| [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | Xóa phần tử tại chỉ mục được chỉ định trong bộ sưu tập. |
-| [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | Xóa các slide chủ không sử dụng. |
+| [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | Xóa phần tử tại chỉ mục đã chỉ định trong bộ sưu tập. |
+| [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | Xóa các slide chủ không được sử dụng. |
 
 ### Xem thêm
 

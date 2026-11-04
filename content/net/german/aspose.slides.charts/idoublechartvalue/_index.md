@@ -1,14 +1,14 @@
 ---
 title: IDoubleChartValue
 second_title: Aspose.Sildes für .NET API-Referenz
-description: "Stellt einen double-Wert dar, der in einer pptx-Präsentationsdatei auf zwei Arten gespeichert werden kann: 1) in Zelle/Zellen einer zum Diagramm zugehörigen Arbeitsmappe; 2) als wörtlicher Wert."
+description: Stellt einen double-Wert dar, der in einer pptx-Präsentationsdatei auf zwei Arten gespeichert werden kann: 1) in Zelle/Zellen des Arbeitsbuchs, die dem Diagramm zugeordnet sind; 2) als literaler Wert.
 type: docs
-weight: 2070
+weight: 2090
 url: /de/aspose.slides.charts/idoublechartvalue/
 ---
 ## IDoubleChartValue Schnittstelle
 
-Represent double value which can be stored in pptx presentation document in two ways: 1) in cell/cells of workbook related to chart; 2) as literal value.
+Stellt einen double-Wert dar, der in einer pptx-Präsentationsdatei auf zwei Arten gespeichert werden kann: 1) in Zelle/Zellen des Arbeitsbuchs, die dem Diagramm zugeordnet sind; 2) als Literaler Wert.
 
 ```csharp
 public interface IDoubleChartValue : ISingleCellChartValue
@@ -16,14 +16,14 @@ public interface IDoubleChartValue : ISingleCellChartValue
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [AsISingleCellChartValue](../../aspose.slides.charts/idoublechartvalue/asisinglecellchartvalue) { get; } | Ermöglicht das Abrufen der Basis-ISingleCellChartValue Schnittstelle. Nur lesbar [`ISingleCellChartValue`](../isinglecellchartvalue). |
-| [AsLiteralDouble](../../aspose.slides.charts/idoublechartvalue/asliteraldouble) { get; set; } | Gibt den wörtlichen double-Wert zurück oder setzt ihn, wenn DataSourceType = Charts.DataSourceType.DoubleLiterals. Lese/Schreib Double. |
+| [AsISingleCellChartValue](../../aspose.slides.charts/idoublechartvalue/asisinglecellchartvalue) { get; } | Ermöglicht das Abrufen der Basis-ISingleCellChartValue-Schnittstelle. Nur lesbar [`ISingleCellChartValue`](../isinglecellchartvalue). |
+| [AsLiteralDouble](../../aspose.slides.charts/idoublechartvalue/asliteraldouble) { get; set; } | Gibt den literal double-Wert zurück oder setzt ihn, wenn DataSourceType = Charts.DataSourceType.DoubleLiterals. Lese-/Schreib Double. |
 
 ## Methoden
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
 | [ToDouble](../../aspose.slides.charts/idoublechartvalue/todouble)() | Konvertiert zu double. |
 

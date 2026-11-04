@@ -1,14 +1,14 @@
 ---
 title: FontsLoader
 second_title: Aspose.Sildes per .NET Riferimento API
-description: Classe per caricare i font personalizzati definiti dall'utente. Deve essere utilizzata prima di creare qualsiasi oggetto di presentazione.
+description: Classe per caricare i caratteri personalizzati definiti dall'utente. Deve essere utilizzata prima di creare qualsiasi oggetto di presentazione.
 type: docs
-weight: 4930
+weight: 4950
 url: /it/aspose.slides/fontsloader/
 ---
 ## FontsLoader classe
 
-Classe per caricare i font personalizzati definiti dall'utente. Deve essere utilizzata prima di creare qualsiasi oggetto di presentazione.
+Classe per caricare i caratteri personalizzati definiti dall'utente. Deve essere utilizzata prima di creare qualsiasi oggetto di presentazione.
 
 ```csharp
 public sealed class FontsLoader : IFontsLoader
@@ -18,10 +18,10 @@ public sealed class FontsLoader : IFontsLoader
 
 | Nome | Descrizione |
 | --- | --- |
-| static [ClearCache](../../aspose.slides/fontsloader/clearcache)() | Rilascia tutti i font personalizzati definiti dall'utente |
-| static [GetFontFolders](../../aspose.slides/fontsloader/getfontfolders)() | Ottiene le cartelle dei font. Restituisce le cartelle aggiunte con il metodo LoadExternalFonts così come le cartelle di sistema |
-| static [LoadExternalFont](../../aspose.slides/fontsloader/loadexternalfont)(byte[]) | Aggiunge un font dai dati binari |
-| static [LoadExternalFonts](../../aspose.slides/fontsloader/loadexternalfonts)(string[]) | Aggiunge cartelle aggiuntive per cercare i font. |
+| static [ClearCache](../../aspose.slides/fontsloader/clearcache)() | Rilascia tutti i caratteri personalizzati definiti dall'utente |
+| static [GetFontFolders](../../aspose.slides/fontsloader/getfontfolders)() | Ottiene le cartelle dei caratteri. Restituisce le cartelle aggiunte con il metodo LoadExternalFonts così come le cartelle dei caratteri di sistema |
+| static [LoadExternalFont](../../aspose.slides/fontsloader/loadexternalfont)(byte[]) | Aggiunge un carattere dai dati binari |
+| static [LoadExternalFonts](../../aspose.slides/fontsloader/loadexternalfonts)(string[]) | Aggiunge cartelle aggiuntive per cercare i caratteri. |
 
 ### Vedi anche
 

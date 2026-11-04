@@ -1,9 +1,9 @@
 ---
 title: PptxEditException
-second_title: Riferimento API .NET di Aspose.Sildes
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta un'eccezione generata quando viene rilevato un errore di modifica della presentazione.
 type: docs
-weight: 9550
+weight: 9570
 url: /it/aspose.slides/pptxeditexception/
 ---
 ## PptxEditException classe

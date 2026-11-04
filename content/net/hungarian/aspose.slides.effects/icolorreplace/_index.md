@@ -1,9 +1,9 @@
 ---
 title: IColorReplace
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes .NET API hivatkozás
 description: Színcsere hatást képvisel.
 type: docs
-weight: 3240
+weight: 3260
 url: /hu/aspose.slides.effects/icolorreplace/
 ---
 ## IColorReplace interfész

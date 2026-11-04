@@ -1,14 +1,14 @@
 ---
 title: SpreadsheetOptions
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje možnosti, které lze použít k určení dalšího chování tabulek.
+description: Představuje možnosti, které lze použít k určení dodatečného chování tabulek.
 type: docs
-weight: 10740
+weight: 10760
 url: /cs/aspose.slides/spreadsheetoptions/
 ---
 ## SpreadsheetOptions třída
 
-Reprezentuje možnosti, které lze použít k určení dalšího chování tabulek.
+Představuje možnosti, které lze použít k určení dodatečného chování tabulek.
 
 ```csharp
 public class SpreadsheetOptions : ISpreadsheetOptions
@@ -24,7 +24,7 @@ public class SpreadsheetOptions : ISpreadsheetOptions
 
 | Název | Popis |
 | --- | --- |
-| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | Získá nebo nastaví preferované informace o kultuře pro výpočet některých funkcí určených pro použití s jazyky, které používají dvojbytovou znakovou sadu (DBCS). |
+| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | Získává nebo nastavuje preferované informace o kultuře pro výpočet některých funkcí určených pro jazyky používající dvojbytovou znakovou sadu (DBCS). |
 | [RecoverWorkbookFromChartCache](../../aspose.slides/spreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Pokud je zdroj dat pro graf externí sešit a není k dispozici, bude obnoven z mezipaměti grafu. |
 
 ### Viz také

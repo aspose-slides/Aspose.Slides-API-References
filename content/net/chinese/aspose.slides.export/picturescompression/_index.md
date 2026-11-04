@@ -3,7 +3,7 @@ title: PicturesCompression
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示图片压缩级别
 type: docs
-weight: 4350
+weight: 4370
 url: /zh/aspose.slides.export/picturescompression/
 ---
 ## PicturesCompression 枚举
@@ -14,18 +14,18 @@ url: /zh/aspose.slides.export/picturescompression/
 public enum PicturesCompression
 ```
 
-### Values
+### 值
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Dpi330 | `0` | 适用于高分辨率 (HD) 显示器的良好质量 |
-| Dpi220 | `1` | 在大多数打印机和屏幕上提供卓越质量 |
+| Dpi330 | `0` | 高清（HD）显示器的良好质量 |
+| Dpi220 | `1` | 大多数打印机和屏幕上的卓越质量 |
 | Dpi150 | `2` | 适用于网页和投影仪的良好质量 |
 | Dpi96 | `3` | 最小化文档大小以便共享 |
 | Dpi72 | `4` | 默认压缩级别 |
-| DocumentResolution | `5` | 使用文档分辨率 - 图片将保持原样，不会被压缩并直接用于文档 |
+| DocumentResolution | `5` | 使用文档分辨率 - 图片不会被压缩，将按原样使用在文档中 |
 
-### 另见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)
 * 程序集 [Aspose.Slides](../../)

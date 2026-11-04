@@ -1,14 +1,14 @@
 ---
 title: IFontsLoader
 second_title: Aspose.Sildes för .NET API-referens
-description: Klass för att ladda anpassade typsnitt som definieras av användaren. Bör användas innan några presentationsobjekt skapas.
+description: Klass för att ladda anpassade teckensnitt som definieras av användaren. Ska användas innan några presentationsobjekt skapas.
 type: docs
-weight: 5920
+weight: 5940
 url: /sv/aspose.slides/ifontsloader/
 ---
 ## IFontsLoader gränssnitt
 
-Klass för att ladda anpassade fonter som definieras av användaren. Ska användas innan några presentationsobjekt skapas.
+Klass för att ladda anpassade teckensnitt som definieras av användaren. Ska användas innan några presentationsobjekt skapas.
 
 ```csharp
 public interface IFontsLoader

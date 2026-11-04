@@ -1,9 +1,9 @@
 ---
 title: IInkTrace
-second_title: Aspose.Sildes untuk .NET Referensi API
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili garis tulisan tangan dalam objek Ink.
 type: docs
-weight: 7540
+weight: 7560
 url: /id/aspose.slides.ink/iinktrace/
 ---
 ## IInkTrace antarmuka

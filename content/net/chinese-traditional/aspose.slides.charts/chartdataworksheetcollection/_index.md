@@ -1,9 +1,9 @@
 ---
 title: ChartDataWorksheetCollection
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes for .NET API 參考
 description: 表示圖表資料工作簿的工作表集合。
 type: docs
-weight: 1400
+weight: 1410
 url: /zh-hant/aspose.slides.charts/chartdataworksheetcollection/
 ---
 ## ChartDataWorksheetCollection 類別
@@ -16,23 +16,23 @@ public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
 
 ## 屬性
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartdataworksheetcollection/count) { get; } | 傳回計數。唯讀 Int32。 |
-| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | 傳回一個值，指示對集合的存取是否同步（執行緒安全）。唯讀 Boolean。 |
-| [Item](../../aspose.slides.charts/chartdataworksheetcollection/item) { get; } | 傳回依索引取得的工作表。 |
-| [SyncRoot](../../aspose.slides.charts/chartdataworksheetcollection/syncroot) { get; } | 傳回同步根。唯讀 Object。 |
+| [Count](../../aspose.slides.charts/chartdataworksheetcollection/count) { get; } | 返回計數。只讀 Int32。 |
+| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | 返回指示對集合的存取是否同步（執行緒安全）的值。只讀 Boolean。 |
+| [Item](../../aspose.slides.charts/chartdataworksheetcollection/item) { get; } | 根據索引返回工作表。 |
+| [SyncRoot](../../aspose.slides.charts/chartdataworksheetcollection/syncroot) { get; } | 返回同步根。只讀 Object。 |
 
 ## 方法
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
 | [CopyTo](../../aspose.slides.charts/chartdataworksheetcollection/copyto)(Array, int) | 複製到指定的陣列。 |
-| [GetEnumerator](../../aspose.slides.charts/chartdataworksheetcollection/getenumerator)() | 傳回可遍歷集合的列舉器。 |
+| [GetEnumerator](../../aspose.slides.charts/chartdataworksheetcollection/getenumerator)() | 返回遍歷集合的列舉器。 |
 
 ### 範例
 
-範例：
+Example:
 
 ```csharp
 [C#]

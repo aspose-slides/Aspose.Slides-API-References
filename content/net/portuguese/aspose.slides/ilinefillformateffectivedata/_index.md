@@ -1,14 +1,14 @@
 ---
 title: ILineFillFormatEffectiveData
-second_title: Aspose.Sildes para .NET Referência de API
-description: Objeto imutável que contém propriedades eficazes de preenchimento de linha.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Objeto imutável que contém propriedades efetivas de preenchimento de linha.
 type: docs
-weight: 6300
+weight: 6320
 url: /pt/aspose.slides/ilinefillformateffectivedata/
 ---
 ## ILineFillFormatEffectiveData interface
 
-Objeto imutável que contém propriedades eficazes de preenchimento de linha.
+Objeto imutável que contém propriedades efetivas de preenchimento de linha.
 
 ```csharp
 public interface ILineFillFormatEffectiveData : IFillParamSource
@@ -16,20 +16,20 @@ public interface ILineFillFormatEffectiveData : IFillParamSource
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ilinefillformateffectivedata/asifillparamsource) { get; } | Retorna a interface IFillParamSource. Somente leitura [`IFillParamSource`](../ifillparamsource). |
 | [FillType](../../aspose.slides/ilinefillformateffectivedata/filltype) { get; } | Retorna o tipo de preenchimento. Somente leitura [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/ilinefillformateffectivedata/gradientformat) { get; } | Retorna o formato de preenchimento em gradiente. Somente leitura [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
+| [GradientFormat](../../aspose.slides/ilinefillformateffectivedata/gradientformat) { get; } | Retorna o formato de preenchimento gradiente. Somente leitura [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
 | [PatternFormat](../../aspose.slides/ilinefillformateffectivedata/patternformat) { get; } | Retorna o formato de preenchimento de padrão. Somente leitura [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
-| [RotateWithShape](../../aspose.slides/ilinefillformateffectivedata/rotatewithshape) { get; } | Determina se o preenchimento deve ser girado com uma forma. Somente leitura Boolean. |
+| [RotateWithShape](../../aspose.slides/ilinefillformateffectivedata/rotatewithshape) { get; } | Determina se o preenchimento deve ser rotacionado com uma forma. Somente leitura Boolean. |
 | [SolidFillColor](../../aspose.slides/ilinefillformateffectivedata/solidfillcolor) { get; } | Retorna a cor de um preenchimento sólido. Somente leitura Color. |
 
 ### Observações
 
 Esta interface é usada como parte de [`ILineFormatEffectiveData`](../ilineformateffectivedata).
 
-### Veja também
+### Ver Também
 
 * interface [IFillParamSource](../ifillparamsource)
 * namespace [Aspose.Slides](../../aspose.slides)

@@ -1,14 +1,14 @@
 ---
 title: ISmartArtNodeCollection
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: SmartArt नोड्स का संग्रह दर्शाता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: SmartArt नोड्स का एक संग्रह दर्शाता है।
 type: docs
-weight: 10560
+weight: 10580
 url: /hi/aspose.slides.smartart/ismartartnodecollection/
 ---
 ## ISmartArtNodeCollection इंटरफ़ेस
 
-SmartArt नोड्स का संग्रह दर्शाता है।
+SmartArt नोड्स का एक संग्रह दर्शाता है।
 
 ```csharp
 public interface ISmartArtNodeCollection : IGenericCollection<ISmartArtNode>
@@ -18,18 +18,18 @@ public interface ISmartArtNodeCollection : IGenericCollection<ISmartArtNode>
 
 | नाम | विवरण |
 | --- | --- |
-| [Item](../../aspose.slides.smartart/ismartartnodecollection/item) { get; } | इंडेक्स द्वारा नोड लौटाता है। केवल-पढ़ने योग्य [`ISmartArtNode`](../ismartartnode) |
+| [Item](../../aspose.slides.smartart/ismartartnodecollection/item) { get; } | इंडेक्स द्वारा नोड लौटाता है। केवल-पठनीय [`ISmartArtNode`](../ismartartnode) |
 
 ## विधियां
 
 | नाम | विवरण |
 | --- | --- |
 | [AddNode](../../aspose.slides.smartart/ismartartnodecollection/addnode)() | नया नोड या उप-नोड जोड़ें। |
-| [AddNodeByPosition](../../aspose.slides.smartart/ismartartnodecollection/addnodebyposition)(int) | नोड्स संग्रह के चयनित स्थान में नया नोड जोड़ें। |
+| [AddNodeByPosition](../../aspose.slides.smartart/ismartartnodecollection/addnodebyposition)(int) | नोड्स संग्रह में चयनित स्थिति में नया नोड जोड़ें। |
 | [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode_1)(int) | इंडेक्स द्वारा नोड या उप-नोड हटाएँ। |
 | [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode)(ISmartArtNode) | नोड या उप-नोड हटाएँ। |
 
-### अन्य देखें
+### देखें
 
 * इंटरफ़ेस [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * इंटरफ़ेस [ISmartArtNode](../ismartartnode)

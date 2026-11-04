@@ -1,14 +1,14 @@
 ---
 title: ColorReplace
-second_title: Aspose.Sildes の .NET 用 API リファレンス
-description: Color Replacement エフェクトを表します。すべてのエフェクトの色は固定色に変更されます。アルファ値は影響を受けません。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: Color Replacement エフェクトを表します。すべてのエフェクト カラーは固定カラーに変更されます。アルファ値は変更されません。
 type: docs
-weight: 2950
+weight: 2970
 url: /ja/aspose.slides.effects/colorreplace/
 ---
 ## ColorReplace クラス
 
-Color Replacement エフェクトを表します。すべてのエフェクトの色は固定色に変更されます。アルファ値は影響を受けません。
+Color Replacement エフェクトを表します。すべてのエフェクト カラーは固定カラーに変更されます。アルファ値は変更されません。
 
 ```csharp
 public sealed class ColorReplace : ImageTransformOperation, IColorReplace

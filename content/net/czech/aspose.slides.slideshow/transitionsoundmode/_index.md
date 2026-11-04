@@ -1,12 +1,12 @@
 ---
 title: TransitionSoundMode
-second_title: Aspose.Sildes pro .NET referenční příručka API
+second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje režim zvuku přechodu.
 type: docs
-weight: 10430
+weight: 10450
 url: /cs/aspose.slides.slideshow/transitionsoundmode/
 ---
-## Výčtový typ TransitionSoundMode
+## TransitionSoundMode výčet
 
 Reprezentuje režim zvuku přechodu.
 

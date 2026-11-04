@@ -1,14 +1,14 @@
 ---
 title: IVbaReferenceOleTwiddledTypeLib
 second_title: Aspose.Sildes for .NET API リファレンス
-description: すべてのコントロールが拡張可能としてマークされている、変更された OLE Automation タイプライブラリ参照を表します。
+description: すべてのコントロールが拡張可能としてマークされている、修正された OLE Automation タイプライブラリ参照を表します。
 type: docs
-weight: 11600
+weight: 11620
 url: /ja/aspose.slides.vba/ivbareferenceoletwiddledtypelib/
 ---
-## IVbaReferenceOleTwiddledTypeLib interface
+## IVbaReferenceOleTwiddledTypeLib インターフェイス
 
-すべてのコントロールが拡張可能としてマークされている、変更された OLE Automation タイプライブラリ参照を表します。
+修正された OLE Automation タイプライブラリ参照を表します。すべてのコントロールが拡張可能としてマークされています。
 
 ```csharp
 public interface IVbaReferenceOleTwiddledTypeLib : IVbaReference

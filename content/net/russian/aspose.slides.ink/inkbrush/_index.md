@@ -1,14 +1,14 @@
 ---
 title: InkBrush
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET справка API
 description: Представляет объект inkBrush.
 type: docs
-weight: 7570
+weight: 7590
 url: /ru/aspose.slides.ink/inkbrush/
 ---
 ## InkBrush класс
 
-Представляет объект inkBrush.
+Represents an inkBrush object.
 
 ```csharp
 public class InkBrush : IInkBrush
@@ -16,13 +16,13 @@ public class InkBrush : IInkBrush
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [Color](../../aspose.slides.ink/inkbrush/color) { get; set; } | Получает или задает цвет кисти для линии. |
-| [InkEffect](../../aspose.slides.ink/inkbrush/inkeffect) { get; } | Получает тип эффекта чернил (например, Galaxy, Gold, Silver), определяющий визуальный стиль штриха. Значение извлекается из свойства кисти «inkEffects». Если указанный эффект не распознан, возвращается NotDefined. |
+| [InkEffect](../../aspose.slides.ink/inkbrush/inkeffect) { get; } | Получает тип эффекта чернил (например, Galaxy, Gold, Silver), определяющий визуальный стиль штриха чернила. Значение извлекается из свойства кисти "inkEffects". Если указанный эффект не распознан, возвращается NotDefined. |
 | [Size](../../aspose.slides.ink/inkbrush/size) { get; set; } | Получает или задает размер кисти для линии в пунктах. |
 
-### См. также
+### Смотрите также
 
 * интерфейс [IInkBrush](../iinkbrush)
 * пространство имён [Aspose.Slides.Ink](../../aspose.slides.ink)

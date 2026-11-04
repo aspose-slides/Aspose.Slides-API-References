@@ -1,14 +1,14 @@
 ---
 title: ISoftEdge
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt einen Soft Edge Effekt dar. Die Kanten der Form sind unscharf, während die Füllung nicht betroffen ist.
+description: Stellt einen Soft-Edge-Effekt dar. Die Kanten der Form werden unscharf, während die Füllung nicht betroffen ist.
 type: docs
-weight: 3520
+weight: 3540
 url: /de/aspose.slides.effects/isoftedge/
 ---
 ## ISoftEdge Schnittstelle
 
-Stellt einen Soft-Edge-Effekt dar. Die Kanten der Form sind unscharf, während die Füllung nicht beeinflusst wird.
+Stellt einen Soft-Edge-Effekt dar. Die Kanten der Form werden unscharf, während die Füllung nicht beeinflusst wird.
 
 ```csharp
 public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImageTransformOperation
@@ -18,9 +18,9 @@ public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImag
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | Ermöglicht das Abrufen der Basis IAccessiblePVIObject Schnittstelle. Nur lesbar [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | Ermöglicht das Abrufen der Basis IImageTransformOperation Schnittstelle. Nur lesbar [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | Gibt den Radius des Unschärfeeffekts an, der auf die Kanten angewendet wird. Lesen/Schreiben Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | Ermöglicht das Abrufen der Basis-IAccessiblePVIObject-Schnittstelle. Nur lesbar [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | Ermöglicht das Abrufen der Basis-IImageTransformOperation-Schnittstelle. Nur lesbar [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | Gibt den Radius der Unschärfe an, der auf die Kanten angewendet wird. Lesen/Schreiben Double. |
 
 ### Siehe auch
 

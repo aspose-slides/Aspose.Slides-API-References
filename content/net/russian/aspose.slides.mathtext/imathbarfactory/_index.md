@@ -1,14 +1,14 @@
 ---
 title: IMathBarFactory
-second_title: Aspose.Sildes для .NET справочник API
-description: Позволяет создавать математическую полосу
+second_title: Aspose.Sildes для .NET API справки
+description: Позволяет создать математическую черту
 type: docs
-weight: 8130
+weight: 8150
 url: /ru/aspose.slides.mathtext/imathbarfactory/
 ---
 ## IMathBarFactory интерфейс
 
-Позволяет создавать математическую полосу
+Позволяет создать математическую черту
 
 ```csharp
 public interface IMathBarFactory
@@ -18,10 +18,10 @@ public interface IMathBarFactory
 
 | Имя | Описание |
 | --- | --- |
-| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar)(IMathElement) | Создаёт математическую полосу, применяя к элементу |
-| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | Создаёт математическую полосу, применяя к элементу |
+| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar)(IMathElement) | Создать математическую черту, применяя к элементу |
+| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | Создать математическую черту, применяя к элементу |
 
-### Замечания
+### Примечания
 
 Для совместимости с COM
 

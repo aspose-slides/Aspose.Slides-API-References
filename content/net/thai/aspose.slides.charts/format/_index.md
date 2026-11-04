@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวแทนของคุณสมบัติรูปแบบแผนภูมิ
+description: แสดงคุณสมบัติรูปแบบแผนภูมิ.
 type: docs
-weight: 1680
+weight: 1690
 url: /th/aspose.slides.charts/format/
 ---
 ## Format คลาส
 
-Represents chart format properties.
+แสดงคุณสมบัติรูปแบบแผนภูมิ
 
 ```csharp
 public sealed class Format : PVIObject, IFormat
@@ -18,18 +18,18 @@ public sealed class Format : PVIObject, IFormat
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้เข้าถึงอินเทอร์เฟซ IPresentationComponent พื้นฐานได้ อย่างอ่านอย่างเดียว [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent) |
-| [Effect](../../aspose.slides.charts/format/effect) { get; } | ส่งกลับเอฟเฟกต์ที่ใช้ในแผนภูมิ อย่างอ่านอย่างเดียว [`IEffectFormat`](../../aspose.slides/ieffectformat) |
-| [Effect3D](../../aspose.slides.charts/format/effect3d) { get; } | ส่งกลับรูปแบบ 3D ของแผนภูมิ อย่างอ่านอย่างเดียว [`IThreeDFormat`](../../aspose.slides/ithreedformat) |
-| [Fill](../../aspose.slides.charts/format/fill) { get; } | ส่งกลับคุณสมบัติรูปแบบการเติมของแผนภูมิ อย่างอ่านอย่างเดียว [`IFillFormat`](../../aspose.slides/ifillformat) |
-| [Line](../../aspose.slides.charts/format/line) { get; } | ส่งกลับคุณสมบัติรูปแบบเส้นของแผนภูมิ อย่างอ่านอย่างเดียว [`ILineFormat`](../../aspose.slides/ilineformat) |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้เข้าถึงอินเทอร์เฟซ IPresentationComponent พื้นฐาน. อ่านอย่างเดียว [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Effect](../../aspose.slides.charts/format/effect) { get; } | คืนค่าเอฟเฟ็กต์ที่ใช้สำหรับแผนภูมิ. อ่านอย่างเดียว [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Effect3D](../../aspose.slides.charts/format/effect3d) { get; } | คืนค่าแบบฟอร์ม 3D ของแผนภูมิ. อ่านอย่างเดียว [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
+| [Fill](../../aspose.slides.charts/format/fill) { get; } | คืนค่าแอตทริบิวต์สไตล์การเติมของแผนภูมิ. อ่านอย่างเดียว [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Line](../../aspose.slides.charts/format/line) { get; } | คืนค่าแอตทริบิวต์สไตล์เส้นของแผนภูมิ. อ่านอย่างเดียว [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | เปรียบเทียบกับวัตถุที่ระบุ |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | ส่งกลับค่าแฮช |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | เปรียบเทียบกับอ็อบเจ็กต์ที่ระบุ. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | คืนค่าแฮชโค้ด. |
 
 ### ดูเพิ่มเติม
 

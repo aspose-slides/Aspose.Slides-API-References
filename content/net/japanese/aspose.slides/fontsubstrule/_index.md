@@ -3,18 +3,18 @@ title: FontSubstRule
 second_title: Aspose.Sildes for .NET API リファレンス
 description: フォント置換情報を表します
 type: docs
-weight: 4890
+weight: 4910
 url: /ja/aspose.slides/fontsubstrule/
 ---
 ## FontSubstRule クラス
 
-フォント置換情報を表します。
+フォント置換情報を表します
 
 ```csharp
 public class FontSubstRule : IFontSubstRule
 ```
 
-## コンストラクター
+## コンストラクタ
 
 | 名前 | 説明 |
 | --- | --- |
@@ -31,7 +31,7 @@ public class FontSubstRule : IFontSubstRule
 
 ### 参照
 
-* インターフェース [IFontSubstRule](../ifontsubstrule)
+* インターフェイス [IFontSubstRule](../ifontsubstrule)
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)
 

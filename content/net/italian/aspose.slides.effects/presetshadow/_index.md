@@ -1,9 +1,9 @@
 ---
 title: PresetShadow
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Riferimento API di Aspose.Sildes per .NET
 description: Rappresenta un effetto Preset Shadow.
 type: docs
-weight: 3630
+weight: 3650
 url: /it/aspose.slides.effects/presetshadow/
 ---
 ## PresetShadow classe
@@ -28,8 +28,8 @@ public sealed class PresetShadow : IPresetShadow
 | Nome | Descrizione |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/presetshadow/equals)(object) | Determina se il [`PresetShadow`](../presetshadow) specificato è uguale al [`PresetShadow`](../presetshadow) corrente. |
-| [GetEffective](../../aspose.slides.effects/presetshadow/geteffective)() | Ottiene i dati dell'effettivo effetto Preset Shadow con l'ereditarietà applicata. |
-| override [GetHashCode](../../aspose.slides.effects/presetshadow/gethashcode)() | Funge da funzione hash per un tipo specifico. |
+| [GetEffective](../../aspose.slides.effects/presetshadow/geteffective)() | Ottiene i dati dell'effetto Preset Shadow effettivo con l'ereditarietà applicata. |
+| override [GetHashCode](../../aspose.slides.effects/presetshadow/gethashcode)() | Funge da funzione hash per un tipo particolare. |
 
 ### Vedi anche
 

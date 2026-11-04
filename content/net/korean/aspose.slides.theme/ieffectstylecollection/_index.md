@@ -1,9 +1,9 @@
 ---
 title: IEffectStyleCollection
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 효과 스타일 컬렉션을 나타냅니다.
 type: docs
-weight: 11180
+weight: 11200
 url: /ko/aspose.slides.theme/ieffectstylecollection/
 ---
 ## IEffectStyleCollection 인터페이스
@@ -20,7 +20,7 @@ public interface IEffectStyleCollection : IGenericCollection<IEffectStyle>
 | --- | --- |
 | [Item](../../aspose.slides.theme/ieffectstylecollection/item) { get; } | 지정된 위치의 요소를 반환합니다. 읽기 전용 [`IEffectStyle`](../ieffectstyle). |
 
-### 관련 항목
+### 참고
 
 * 인터페이스 [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * 인터페이스 [IEffectStyle](../ieffectstyle)

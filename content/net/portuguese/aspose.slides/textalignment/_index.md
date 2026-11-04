@@ -1,12 +1,12 @@
 ---
 title: TextAlignment
-second_title: Aspose.Sildes para referência de API .NET
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa diferentes estilos de alinhamento de texto.
 type: docs
-weight: 10900
+weight: 10920
 url: /pt/aspose.slides/textalignment/
 ---
-## enumeração TextAlignment
+## TextAlignment enumeração
 
 Representa diferentes estilos de alinhamento de texto.
 
@@ -20,13 +20,13 @@ public enum TextAlignment
 | --- | --- | --- |
 | NotDefined | `-1` | Alinhamento padrão. |
 | Left | `0` | Alinhamento à esquerda. |
-| Center | `1` | Alinhamento centralizado. |
+| Center | `1` | Alinhamento central. |
 | Right | `2` | Alinhamento à direita. |
 | Justify | `3` | Alinhamento justificado. |
-| JustifyLow | `4` | Justificação Kashida baixa. |
+| JustifyLow | `4` | Justificação baixa Kashida. |
 | Distributed | `5` | Alinhamento distribuído. |
 
-### Veja Também
+### Ver também
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

@@ -1,9 +1,9 @@
 ---
 title: IMasterSlideCollection
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Stellt eine Sammlung von Masterfolien dar.
 type: docs
-weight: 6430
+weight: 6450
 url: /de/aspose.slides/imasterslidecollection/
 ---
 ## IMasterSlideCollection Schnittstelle
@@ -18,14 +18,14 @@ public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Item](../../aspose.slides/imasterslidecollection/item) { get; } | Liefert das Element am angegebenen Index. Nur lesbar [`IMasterSlide`](../imasterslide). |
+| [Item](../../aspose.slides/imasterslidecollection/item) { get; } | Ruft das Element am angegebenen Index ab. Nur-Lesen [`IMasterSlide`](../imasterslide). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | Fügt eine Kopie einer angegebenen Masterfolie am Ende der Sammlung hinzu. Verbundene Layoutfolien werden ebenfalls kopiert. |
-| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Fügt eine Kopie einer angegebenen Masterfolie an der angegebenen Position in die Sammlung ein. Verbundene Layoutfolien werden ebenfalls kopiert. |
+| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | Fügt eine Kopie einer angegebenen Masterfolie am Ende der Sammlung hinzu. Verknüpfte Layoutfolien werden ebenfalls kopiert. |
+| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Fügt eine Kopie einer angegebenen Masterfolie an der angegebenen Position der Sammlung ein. Verknüpfte Layoutfolien werden ebenfalls kopiert. |
 | [Remove](../../aspose.slides/imasterslidecollection/remove)(IMasterSlide) | Entfernt das erste Vorkommen eines bestimmten Objekts aus der Sammlung. |
 | [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | Entfernt das Element am angegebenen Index der Sammlung. |
 | [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | Entfernt nicht verwendete Masterfolien. |

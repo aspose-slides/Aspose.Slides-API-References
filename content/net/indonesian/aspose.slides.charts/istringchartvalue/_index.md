@@ -1,14 +1,14 @@
 ---
 title: IStringChartValue
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: "Mewakili nilai string yang dapat disimpan dalam dokumen presentasi pptx dengan dua cara: 1) dalam sel/sel-sel workbook yang terkait dengan diagram; 2) sebagai nilai literal."
+description: Mewakili nilai string yang dapat disimpan dalam dokumen presentasi pptx dengan dua cara: 1) di sel/sela workbook yang terkait dengan diagram; 2) sebagai nilai literal.
 type: docs
-weight: 2220
+weight: 2240
 url: /id/aspose.slides.charts/istringchartvalue/
 ---
 ## IStringChartValue antarmuka
 
-Mewakili nilai string yang dapat disimpan dalam dokumen presentasi pptx dengan dua cara: 1) dalam sel/sel-sel workbook yang terkait dengan diagram; 2) sebagai nilai literal.
+Mewakili nilai string yang dapat disimpan dalam dokumen presentasi pptx dengan dua cara: 1) di sel/sela workbook yang terkait dengan diagram; 2) sebagai nilai literal.
 
 ```csharp
 public interface IStringChartValue : IMultipleCellChartValue
@@ -18,14 +18,14 @@ public interface IStringChartValue : IMultipleCellChartValue
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIMultipleCellChartValue](../../aspose.slides.charts/istringchartvalue/asimultiplecellchartvalue) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IMultipleCellChartValue. Baca-saja [`IMultipleCellChartValue`](../imultiplecellchartvalue). |
+| [AsIMultipleCellChartValue](../../aspose.slides.charts/istringchartvalue/asimultiplecellchartvalue) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IMultipleCellChartValue. Hanya baca [`IMultipleCellChartValue`](../imultiplecellchartvalue). |
 | [AsLiteralString](../../aspose.slides.charts/istringchartvalue/asliteralstring) { get; set; } | Mengembalikan atau mengatur string literal jika properti DataSourceType adalah DataSourceType.StringLiterals. Baca/tulis String. |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
-| [GetCellsAddressInWorkbook](../../aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook)() | Jika properti DataSourceType adalah DataSourceType.Worksheet maka metode ini mengembalikan alamat sel di workbook yang mewakili data string. Jika tidak, mengembalikan string kosong. |
+| [GetCellsAddressInWorkbook](../../aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook)() | Jika properti DataSourceType adalah DataSourceType.Worksheet maka metode ini mengembalikan alamat sel dalam workbook yang mewakili data string. Jika tidak, mengembalikan string kosong. |
 | [SetFromOneCell](../../aspose.slides.charts/istringchartvalue/setfromonecell)(IChartDataCell) | Mengatur nilai dari sel yang ditentukan. |
 | [ToString](../../aspose.slides.charts/istringchartvalue/tostring)() | Mengembalikan representasi string. |
 

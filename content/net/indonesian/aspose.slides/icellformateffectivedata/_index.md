@@ -1,14 +1,14 @@
 ---
 title: ICellFormatEffectiveData
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Objek tidak dapat diubah yang berisi properti pemformatan sel tabel yang efektif.
+description: Objek tak dapat diubah yang berisi properti pemformatan sel tabel yang berlaku.
 type: docs
-weight: 5480
+weight: 5500
 url: /id/aspose.slides/icellformateffectivedata/
 ---
 ## ICellFormatEffectiveData antarmuka
 
-Objek tidak dapat diubah yang berisi properti pemformatan sel tabel yang efektif.
+Objek tak dapat diubah yang berisi properti pemformatan sel tabel yang berlaku.
 
 ```csharp
 public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -18,12 +18,12 @@ public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar IBaseTableFormatEffectiveData. Hanya-baca [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
-| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | Mendapatkan transparansi warna isian. Baca Single. |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | Mengizinkan mendapatkan basis IBaseTableFormatEffectiveData antarmuka. Hanya-baca [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | Mendapatkan transparansi warna isi. Baca Single. |
 
 ### Catatan
 
-Antarmuka ini digunakan bersama dengan antarmuka [`ICellFormat`](../icellformat) untuk mengembalikan nilai pemformatan efektif dengan pewarisan dan gaya tabel yang diterapkan.
+Antarmuka ini digunakan bersama dengan antarmuka [`ICellFormat`](../icellformat) untuk mengembalikan nilai pemformatan yang berlaku dengan pewarisan dan gaya tabel yang diterapkan.
 
 ### Lihat Juga
 

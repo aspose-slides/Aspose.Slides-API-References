@@ -1,14 +1,14 @@
 ---
 title: MathFunctionsOfTwoArguments
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Gemeinsame mathematische Funktionen mit zwei Argumenten
+description: Allgemeine mathematische Funktionen mit zwei Argumenten
 type: docs
-weight: 8750
+weight: 8770
 url: /de/aspose.slides.mathtext/mathfunctionsoftwoarguments/
 ---
 ## MathFunctionsOfTwoArguments Aufzählung
 
-Gemeinsame mathematische Funktionen mit zwei Argumenten
+Allgemeine mathematische Funktionen mit zwei Argumenten
 
 ```csharp
 public enum MathFunctionsOfTwoArguments
@@ -18,8 +18,8 @@ public enum MathFunctionsOfTwoArguments
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Log | `0` | Log |
-| Lim | `1` | Limit |
+| Log | `0` | Logarithmus |
+| Lim | `1` | Grenzwert |
 | Min | `2` | Minimum |
 | Max | `3` | Maximum |
 

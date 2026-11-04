@@ -1,14 +1,14 @@
 ---
 title: ExcelDataCell
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa una sola celda en un libro de trabajo de Excel.
+description: Representa una única celda en un libro de Excel.
 type: docs
-weight: 3680
+weight: 3700
 url: /es/aspose.slides.excel/exceldatacell/
 ---
 ## ExcelDataCell clase
 
-Representa una sola celda en un libro de trabajo de Excel.
+Representa una única celda en un libro de Excel.
 
 ```csharp
 public class ExcelDataCell : IExcelDataCell

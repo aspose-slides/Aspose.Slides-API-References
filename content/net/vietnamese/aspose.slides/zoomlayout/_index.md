@@ -1,14 +1,14 @@
 ---
 title: ZoomLayout
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Xác định bố cục thu phóng tổng quan.
+description: Xác định bố cục phóng to tổng hợp.
 type: docs
-weight: 11860
+weight: 11880
 url: /vi/aspose.slides/zoomlayout/
 ---
 ## ZoomLayout liệt kê
 
-Xác định bố cục thu phóng tổng quan.
+Xác định bố cục phóng to tổng hợp.
 
 ```csharp
 public enum ZoomLayout
@@ -18,8 +18,8 @@ public enum ZoomLayout
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| GridLayout | `0` | Xác định bố cục dạng lưới cho danh sách các đối tượng. |
-| FixedLayout | `1` | Xác định bố cục với vị trí Zoom do người dùng định nghĩa. |
+| GridLayout | `0` | Xác định bố cục dưới dạng lưới cho danh sách các đối tượng. |
+| FixedLayout | `1` | Xác định bố cục với vị trí Zoom được người dùng định nghĩa. |
 
 ### Xem thêm
 

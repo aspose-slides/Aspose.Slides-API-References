@@ -1,14 +1,14 @@
 ---
 title: IBlur
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt einen Blur-Effekt dar, der auf die gesamte Form einschließlich ihrer Füllung angewendet wird. Alle Farbkanäle, einschließlich Alpha, sind betroffen.
 type: docs
-weight: 3180
+weight: 3200
 url: /de/aspose.slides.effects/iblur/
 ---
 ## IBlur Schnittstelle
 
-Stellt einen Blur-Effekt dar, der auf die gesamte Form einschließlich ihrer Füllung angewendet wird. Alle Farbkanäle, einschließlich Alpha, sind betroffen.
+Stellt einen Blur-Effekt dar, der auf die gesamte Form, einschließlich ihrer Füllung, angewendet wird. Alle Farbkanäle, einschließlich Alpha, sind betroffen.
 
 ```csharp
 public interface IBlur : IAccessiblePVIObject<IBlurEffectiveData>, IImageTransformOperation
@@ -18,10 +18,10 @@ public interface IBlur : IAccessiblePVIObject<IBlurEffectiveData>, IImageTransfo
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iblur/asiaccessiblepviobject) { get; } | Ermöglicht den Zugriff auf die Basis-IAccessiblePVIObject Schnittstelle. Nur-Lesen [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iblur/asiimagetransformoperation) { get; } | Ermöglicht den Zugriff auf die Basis-IImageTransformOperation Schnittstelle. Nur-Lesen [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Grow](../../aspose.slides.effects/iblur/grow) { get; set; } | Bestimmt, ob die Begrenzungen des Objekts durch das Weichzeichnen vergrößert werden sollen. True bedeutet, dass die Begrenzungen vergrößert werden, während false bedeutet, dass sie nicht vergrößert werden. Lese-/Schreib Boolean. |
-| [Radius](../../aspose.slides.effects/iblur/radius) { get; set; } | Gibt den Blur-Radius zurück oder legt ihn fest. Lese-/Schreib Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iblur/asiaccessiblepviobject) { get; } | Ermöglicht das Abrufen der Basis-IAccessiblePVIObject-Schnittstelle. Nur lesbar [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iblur/asiimagetransformoperation) { get; } | Ermöglicht das Abrufen der Basis-IImageTransformOperation-Schnittstelle. Nur lesbar [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Grow](../../aspose.slides.effects/iblur/grow) { get; set; } | Legt fest, ob die Begrenzungen des Objekts durch das Weichzeichnen vergrößert werden sollen. True bedeutet, dass die Begrenzungen vergrößert werden, während false bedeutet, dass sie es nicht werden. Lese-/Schreib Boolean. |
+| [Radius](../../aspose.slides.effects/iblur/radius) { get; set; } | Gibt den Unschärferadius zurück oder setzt ihn. Lese-/Schreib Double. |
 
 ### Siehe auch
 

@@ -1,14 +1,14 @@
 ---
 title: IBaseSlideHeaderFooterManager
-second_title: Aspose.Slides för .NET API-referens
-description: Representerar en manager som håller beteendet för sidfot-, datum/tid- och sidnummer-platshållare för alla bildtyper.
+second_title: Aspose.Sildes för .NET API-referens
+description: Representerar en hanterare som styr beteendet för sidfot, datum-tid och sidnummer-platshållare för alla bildtyper.
 type: docs
-weight: 5350
+weight: 5370
 url: /sv/aspose.slides/ibaseslideheaderfootermanager/
 ---
 ## IBaseSlideHeaderFooterManager gränssnitt
 
-Representerar en hanterare som håller beteendet för sidfot-, datum/tid- och sidnummer-platshållare för alla bildtyper.
+Representerar en hanterare som hanterar beteendet för sidfot, datum-tid och sidnummer-platshållare för alla bildtyper.
 
 ```csharp
 public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
@@ -18,8 +18,8 @@ public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIBaseHeaderFooterManager](../../aspose.slides/ibaseslideheaderfootermanager/asibaseheaderfootermanager) { get; } | Returnerar IBaseHeaderFooterManager gränssnitt. |
-| [IsDateTimeVisible](../../aspose.slides/ibaseslideheaderfootermanager/isdatetimevisible) { get; } | Hämtar värde som indikerar att en datum/tid-platshållare finns. ReadBoolean. |
+| [AsIBaseHeaderFooterManager](../../aspose.slides/ibaseslideheaderfootermanager/asibaseheaderfootermanager) { get; } | Returnerar IBaseHeaderFooterManager-gränssnitt. |
+| [IsDateTimeVisible](../../aspose.slides/ibaseslideheaderfootermanager/isdatetimevisible) { get; } | Hämtar värde som indikerar att en datum-tid-platshållare finns. ReadBoolean. |
 | [IsFooterVisible](../../aspose.slides/ibaseslideheaderfootermanager/isfootervisible) { get; } | Hämtar värde som indikerar att en sidfot-platshållare finns. Read Boolean. |
 | [IsSlideNumberVisible](../../aspose.slides/ibaseslideheaderfootermanager/isslidenumbervisible) { get; } | Hämtar värde som indikerar att en sidnummer-platshållare finns. ReadBoolean. |
 
@@ -27,13 +27,13 @@ public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
 
 | Namn | Beskrivning |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimetext)(string) | Sätter text till bildens datum/tid-platshållare. |
-| [SetDateTimeVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimevisibility)(bool) | Ändrar bildens datum/tid-platshållares synlighet. |
+| [SetDateTimeText](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimetext)(string) | Sätter text till bildens datum-tid-platshållare. |
+| [SetDateTimeVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimevisibility)(bool) | Ändrar bildens datum-tid-platshållares synlighet. |
 | [SetFooterText](../../aspose.slides/ibaseslideheaderfootermanager/setfootertext)(string) | Sätter text till bildens sidfot-platshållare. |
 | [SetFooterVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setfootervisibility)(bool) | Ändrar bildens sidfot-platshållares synlighet. |
 | [SetSlideNumberVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setslidenumbervisibility)(bool) | Ändrar bildens sidnummer-platshållares synlighet. |
 
-### Se även
+### Se också
 
 * gränssnitt [IBaseHeaderFooterManager](../ibaseheaderfootermanager)
 * namnrymd [Aspose.Slides](../../aspose.slides)

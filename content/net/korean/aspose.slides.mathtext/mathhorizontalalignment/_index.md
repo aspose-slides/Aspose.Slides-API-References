@@ -1,12 +1,12 @@
 ---
 title: MathHorizontalAlignment
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes용 .NET API 레퍼런스
 description: 수평 정렬
 type: docs
-weight: 8780
+weight: 8800
 url: /ko/aspose.slides.mathtext/mathhorizontalalignment/
 ---
-## MathHorizontalAlignment enumeration
+## MathHorizontalAlignment 열거형
 
 수평 정렬
 

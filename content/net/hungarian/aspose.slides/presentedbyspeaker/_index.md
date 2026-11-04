@@ -1,14 +1,14 @@
 ---
 title: PresentedBySpeaker
-second_title: Aspose.Sildes .NET számára API referenciája
-description: Előadó által bemutatott teljes képernyő
+second_title: Aspose.Sildes a .NET API-referencia
+description: Előadva egy előadó által teljes képernyőn
 type: docs
-weight: 9650
+weight: 9670
 url: /hu/aspose.slides/presentedbyspeaker/
 ---
 ## PresentedBySpeaker osztály
 
-Előadó által bemutatott (teljes képernyő)
+Előadva egy előadó által (teljes képernyő)
 
 ```csharp
 public class PresentedBySpeaker : SlideShowType
@@ -18,7 +18,7 @@ public class PresentedBySpeaker : SlideShowType
 
 | Név | Leírás |
 | --- | --- |
-| [PresentedBySpeaker](presentedbyspeaker)() | Inicializál egy új példányt a PresentedBySpeaker osztályból. |
+| [PresentedBySpeaker](presentedbyspeaker)() | Inicializálja a PresentedBySpeaker osztály új példányát. |
 
 ### Példák
 

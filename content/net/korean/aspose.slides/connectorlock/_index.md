@@ -1,9 +1,9 @@
 ---
 title: ConnectorLock
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 부모 Connector에서 사용이 비활성화된 작업을 결정합니다.
 type: docs
-weight: 2680
+weight: 2700
 url: /ko/aspose.slides/connectorlock/
 ---
 ## ConnectorLock 클래스
@@ -18,17 +18,17 @@ public class ConnectorLock : BaseShapeLock, IConnectorLock
 
 | 이름 | 설명 |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/connectorlock/adjusthandleslocked) { get; set; } | 조정 값 변경이 금지되는지 결정합니다. 읽기/쓰기 Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/connectorlock/arrowheadslocked) { get; set; } | 화살표 머리 변경이 금지되는지 결정합니다. 읽기/쓰기 Boolean. |
-| [AspectRatioLocked](../../aspose.slides/connectorlock/aspectratiolocked) { get; set; } | 도형이 크기 조정 시 종횡비를 유지해야 하는지 결정합니다. 읽기/쓰기 Boolean. |
-| [EditPointsLocked](../../aspose.slides/connectorlock/editpointslocked) { get; set; } | 이 도형의 윤곽 직접 변경이 금지되는지 결정합니다. 읽기/쓰기 Boolean. |
-| [GroupingLocked](../../aspose.slides/connectorlock/groupinglocked) { get; set; } | 이 도형을 그룹에 추가하는 것이 금지되는지 결정합니다. 읽기/쓰기 Boolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | 모든 잠금 플래그가 비활성화된 경우 true를 반환합니다. 읽기 전용 Boolean. |
-| [PositionMove](../../aspose.slides/connectorlock/positionmove) { get; set; } | 이 도형을 이동하는 것이 금지되는지 결정합니다. 읽기/쓰기 Boolean. |
-| [RotateLocked](../../aspose.slides/connectorlock/rotatelocked) { get; set; } | 이 도형의 회전 각도 변경이 금지되는지 결정합니다. 읽기/쓰기 Boolean. |
-| [SelectLocked](../../aspose.slides/connectorlock/selectlocked) { get; set; } | 이 도형을 선택하는 것이 금지되는지 결정합니다. 읽기/쓰기 Boolean. |
-| [ShapeTypeLocked](../../aspose.slides/connectorlock/shapetypelocked) { get; set; } | 도형 유형 변경이 금지되는지 결정합니다. 읽기/쓰기 Boolean. |
-| [SizeLocked](../../aspose.slides/connectorlock/sizelocked) { get; set; } | 이 도형의 크기 조정이 금지되는지 결정합니다. 읽기/쓰기 Boolean. |
+| [AdjustHandlesLocked](../../aspose.slides/connectorlock/adjusthandleslocked) { get; set; } | 조정 값 변경이 금지되는지 여부를 결정합니다. 읽기/쓰기 부울. |
+| [ArrowheadsLocked](../../aspose.slides/connectorlock/arrowheadslocked) { get; set; } | 화살표 머리 변경이 금지되는지 여부를 결정합니다. 읽기/쓰기 부울. |
+| [AspectRatioLocked](../../aspose.slides/connectorlock/aspectratiolocked) { get; set; } | 크기 조정 시 도형이 종횡비를 유지해야 하는지 여부를 결정합니다. 읽기/쓰기 부울. |
+| [EditPointsLocked](../../aspose.slides/connectorlock/editpointslocked) { get; set; } | 이 도형의 윤곽을 직접 변경하는 것이 금지되는지 여부를 결정합니다. 읽기/쓰기 부울. |
+| [GroupingLocked](../../aspose.slides/connectorlock/groupinglocked) { get; set; } | 이 도형을 그룹에 추가하는 것이 금지되는지 여부를 결정합니다. 읽기/쓰기 부울. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | 모든 잠금 플래그가 비활성화된 경우 true를 반환합니다. 읽기 전용 부울. |
+| [PositionMove](../../aspose.slides/connectorlock/positionmove) { get; set; } | 이 도형을 이동하는 것이 금지되는지 여부를 결정합니다. 읽기/쓰기 부울. |
+| [RotateLocked](../../aspose.slides/connectorlock/rotatelocked) { get; set; } | 이 도형의 회전 각도 변경이 금지되는지 여부를 결정합니다. 읽기/쓰기 부울. |
+| [SelectLocked](../../aspose.slides/connectorlock/selectlocked) { get; set; } | 이 도형을 선택하는 것이 금지되는지 여부를 결정합니다. 읽기/쓰기 부울. |
+| [ShapeTypeLocked](../../aspose.slides/connectorlock/shapetypelocked) { get; set; } | 도형 유형을 변경하는 것이 금지되는지 여부를 결정합니다. 읽기/쓰기 부울. |
+| [SizeLocked](../../aspose.slides/connectorlock/sizelocked) { get; set; } | 이 도형의 크기 조정이 금지되는지 여부를 결정합니다. 읽기/쓰기 부울. |
 
 ### 참고
 

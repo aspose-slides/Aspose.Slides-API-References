@@ -1,14 +1,14 @@
 ---
 title: ISvgTSpan
-second_title: Справка API Aspose.Sildes для .NET
-description: Представляет параметры для части текста SVG tspan.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет параметры для части SVG-текста tspan.
 type: docs
-weight: 4140
+weight: 4160
 url: /ru/aspose.slides.export/isvgtspan/
 ---
 ## ISvgTSpan интерфейс
 
-Представляет параметры для части текста SVG ("tspan").
+Represents options for SVG text portion ("tspan").
 
 ```csharp
 public interface ISvgTSpan

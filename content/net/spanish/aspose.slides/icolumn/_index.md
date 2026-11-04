@@ -1,9 +1,9 @@
 ---
 title: IColumn
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una columna en una tabla.
 type: docs
-weight: 5520
+weight: 5540
 url: /es/aspose.slides/icolumn/
 ---
 ## IColumn interfaz

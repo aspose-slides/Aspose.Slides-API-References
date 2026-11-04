@@ -1,14 +1,14 @@
 ---
 title: IInkActions
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Biểu diễn một đối tượng mực trên một slide.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu diễn một đối tượng mực trên slide.
 type: docs
-weight: 7520
+weight: 7540
 url: /vi/aspose.slides.ink/iinkactions/
 ---
 ## IInkActions giao diện
 
-Biểu diễn một đối tượng mực trên một slide.
+Biểu diễn một đối tượng mực trên slide.
 
 ```csharp
 public interface IInkActions : IGraphicalObject

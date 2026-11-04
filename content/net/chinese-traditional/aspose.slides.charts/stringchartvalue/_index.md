@@ -1,14 +1,14 @@
 ---
 title: StringChartValue
-second_title: Aspose.Sildes for .NET API 參考
-description: 表示可以以兩種方式儲存在 pptx 簡報文件中的字串值：1) 位於與圖表相關的工作簿儲存格/儲存格；2) 作為文字值。
+second_title: Aspose.Sildes .NET API 參考
+description: 表示可以在 pptx 簡報文件中以兩種方式儲存的字串值：1）在與圖表相關的工作簿的儲存格/儲存格中；2）作為文字值。
 type: docs
-weight: 2410
+weight: 2430
 url: /zh-hant/aspose.slides.charts/stringchartvalue/
 ---
 ## StringChartValue 類別
 
-表示可以以兩種方式儲存在 pptx 簡報文件中的字串值：1) 位於與圖表相關的工作簿的儲存格/儲存格 中；2) 作為文字值。
+Represent string value which can be stored in pptx presentation document in two ways: 1) in cell/cells of workbook related to chart; 2) as literal value.
 
 ```csharp
 public class StringChartValue : BaseChartValue, IStringChartValue
@@ -16,20 +16,20 @@ public class StringChartValue : BaseChartValue, IStringChartValue
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | 不允許指派 Null 值。回傳的值永遠不為 null。可讀寫 [`IChartCellCollection`](../ichartcellcollection)。 |
-| [AsLiteralString](../../aspose.slides.charts/stringchartvalue/asliteralstring) { get; set; } | 回傳或設定值為文字字串。可讀寫 String。 |
-| override [Data](../../aspose.slides.charts/stringchartvalue/data) { get; set; } | 回傳或設定 Data 物件。可讀寫 Object。 |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | 指定在衍生類別中哪個 AsCell、AsCells、AsLiteralString 或 AsLiteralDouble 屬性實際存在。換句話說，它指定 Data 屬性的值類型。可讀寫 [`DataSourceType`](../datasourcetype)。 |
+| [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | 不允許指派空值。返回的值始終不為空。讀/寫 [`IChartCellCollection`](../ichartcellcollection)。 |
+| [AsLiteralString](../../aspose.slides.charts/stringchartvalue/asliteralstring) { get; set; } | 返回或設定值為文字字串。讀/寫 String。 |
+| override [Data](../../aspose.slides.charts/stringchartvalue/data) { get; set; } | 返回或設定 Data 物件。讀/寫 Object。 |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | 指定在衍生類別中哪個 AsCell、AsCells、AsLiteralString 或 AsLiteralDouble 屬性實際存在。換言之，它指定 Data 屬性的值類型。讀/寫 [`DataSourceType`](../datasourcetype)。 |
 
 ## 方法
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | 如果 DataSourceType 屬性為 DataSourceType.Worksheet，則此方法會回傳工作簿中代表字串資料之儲存格的地址。否則回傳空字串。 |
+| [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | 如果 DataSourceType 屬性為 DataSourceType.Worksheet，則此方法返回工作簿中代表字串資料的儲存格位址。否則返回空字串。 |
 | [SetFromOneCell](../../aspose.slides.charts/stringchartvalue/setfromonecell)(IChartDataCell) | 從指定的儲存格設定值。 |
-| override [ToString](../../aspose.slides.charts/stringchartvalue/tostring)() | 回傳字串值資料。如果 DataSourceType 為 false 且未指派字串值，則回傳 null。 |
+| override [ToString](../../aspose.slides.charts/stringchartvalue/tostring)() | 返回字串值資料。如果 DataSourceType 為 false 且未指派字串值，則返回 null。 |
 
 ### 參見
 

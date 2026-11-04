@@ -3,10 +3,10 @@ title: FontStyleType
 second_title: Aspose.Sildes for .NET API リファレンス
 description: テキストに適用できる書式スタイルを定義します。
 type: docs
-weight: 4870
+weight: 4890
 url: /ja/aspose.slides/fontstyletype/
 ---
-## FontStyleType 列挙型
+## FontStyleType 列挙体
 
 テキストに適用できる書式スタイルを定義します。
 
@@ -19,11 +19,11 @@ public enum FontStyleType
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| Regular | `0` | 標準テキスト。 |
+| Regular | `0` | 標準のテキスト。 |
 | Bold | `1` | 太字テキスト。 |
-| Italic | `2` | イタリック体テキスト。 |
+| Italic | `2` | 斜体テキスト。 |
 | Underline | `4` | 下線付きテキスト。 |
-| Strikeout | `8` | 横線で取り消し線が引かれたテキスト。 |
+| Strikeout | `8` | 水平線で取り消し線が付いたテキスト。 |
 
 ### 参照
 

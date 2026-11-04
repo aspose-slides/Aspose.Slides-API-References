@@ -1,9 +1,9 @@
 ---
 title: IBackgroundEffectiveData
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 不可变对象，包含有效的背景属性。
 type: docs
-weight: 5280
+weight: 5300
 url: /zh/aspose.slides/ibackgroundeffectivedata/
 ---
 ## IBackgroundEffectiveData 接口
@@ -16,7 +16,7 @@ public interface IBackgroundEffectiveData : IFillParamSource
 
 ## 属性
 
-| 名称 | 说明 |
+| 名称 | 描述 |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ibackgroundeffectivedata/asifillparamsource) { get; } | 返回 IFillParamSource 接口。 |
 | [EffectFormat](../../aspose.slides/ibackgroundeffectivedata/effectformat) { get; } | 返回有效的效果格式。只读 [`IEffectFormatEffectiveData`](../ieffectformateffectivedata)。 |
@@ -24,9 +24,9 @@ public interface IBackgroundEffectiveData : IFillParamSource
 
 ### 备注
 
-此接口与 [`IBackground`](../ibackground) 接口一起使用，以返回应用继承后的有效格式化值。
+此接口与 [`IBackground`](../ibackground) 接口一起使用，以返回已应用继承的有效格式化值。
 
-### 另请参见
+### 另见
 
 * 接口 [IFillParamSource](../ifillparamsource)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

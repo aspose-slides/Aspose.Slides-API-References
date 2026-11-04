@@ -1,9 +1,9 @@
 ---
 title: IGraphicalObject
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для .NET справка по API
 description: Представляет абстрактный графический объект.
 type: docs
-weight: 6060
+weight: 6080
 url: /ru/aspose.slides/igraphicalobject/
 ---
 ## IGraphicalObject интерфейс

@@ -3,7 +3,7 @@ title: ChartCategory
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt Diagrammkategorien dar.
 type: docs
-weight: 1270
+weight: 1280
 url: /de/aspose.slides.charts/chartcategory/
 ---
 ## ChartCategory Klasse
@@ -19,10 +19,11 @@ public class ChartCategory : IChartCategory
 | Name | Beschreibung |
 | --- | --- |
 | [AsCell](../../aspose.slides.charts/chartcategory/ascell) { get; set; } | Gibt ein IChartDataCell-Objekt zurück oder legt es fest. Wenn die Kategorie mehrstufig ist, wird das IChartDataCell-Objekt für Ebene "0" verwendet. Lesen/Schreiben [`IChartDataCell`](../ichartdatacell). |
-| [AsLiteral](../../aspose.slides.charts/chartcategory/asliteral) { get; set; } | Gibt ein AsLiteral-Objekt zurück oder legt es fest. Lesen/Schreiben Objekt. |
-| [GroupingLevels](../../aspose.slides.charts/chartcategory/groupinglevels) { get; } | Verwalteter Container für die Werte der Diagrammkategorie-Gruppierungsebenen. Mehrstufige Kategorien enthalten mehr als eine Gruppierungsebene. Die Indizierung der Gruppierungsebenen ist nullbasiert. Nur-Lesen [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
-| [UseCell](../../aspose.slides.charts/chartcategory/usecell) { get; } | Wenn true, dann ist die AsCell-Eigenschaft aktiv. Mit anderen Worten, das Arbeitsblatt wird zum Speichern der Kategorie verwendet (dieser Fall unterstützt eine mehrstufige Kategorie). Wenn false, dann ist die AsLiteral-Eigenschaft aktiv. Mit anderen Worten, das Arbeitsblatt wird NICHT zum Speichern der Kategorie verwendet (und dieser Fall unterstützt keine mehrstufigen Kategorien). Nur-Lesen Boolean. |
-| [Value](../../aspose.slides.charts/chartcategory/value) { get; set; } | Wenn UseCell true ist, dann stellt diese Eigenschaft die AsCell.Value-Eigenschaft dar. Wenn UseCell false ist, dann stellt diese Eigenschaft die AsLiteral-Eigenschaft dar. Lesen/Schreiben Objekt. |
+| [AsLiteral](../../aspose.slides.charts/chartcategory/asliteral) { get; set; } | Gibt ein AsLiteral-Objekt zurück oder legt es fest. Lesen/Schreiben Object. |
+| [CachedValue](../../aspose.slides.charts/chartcategory/cachedvalue) { get; } | Liefert den zwischengespeicherten Wert einer Diagrammkategorie. Nur Lesen [`ICachedChartValue`](../icachedchartvalue). |
+| [GroupingLevels](../../aspose.slides.charts/chartcategory/groupinglevels) { get; } | Verwalteter Container für die Werte der Gruppierungsebenen einer Diagrammkategorie. Mehrstufige Kategorien enthalten mehr als eine Gruppierungsebene. Die Indizierung der Gruppierungsebenen beginnt bei Null. Nur Lesen [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
+| [UseCell](../../aspose.slides.charts/chartcategory/usecell) { get; } | Wenn true, ist die AsCell-Eigenschaft gültig. Mit anderen Worten, das Arbeitsblatt wird zum Speichern der Kategorie verwendet (dieser Fall unterstützt eine mehrstufige Kategorie). Wenn false, ist die AsLiteral-Eigenschaft gültig. Mit anderen Worten, das Arbeitsblatt wird NICHT zum Speichern der Kategorie verwendet (und dieser Fall unterstützt keine mehrstufigen Kategorien). Nur Lesen Boolean. |
+| [Value](../../aspose.slides.charts/chartcategory/value) { get; set; } | Wenn UseCell true ist, stellt diese Eigenschaft die AsCell.Value-Eigenschaft dar. Wenn UseCell false ist, stellt diese Eigenschaft die AsLiteral-Eigenschaft dar. Lesen/Schreiben Object. |
 
 ## Methoden
 
@@ -30,7 +31,7 @@ public class ChartCategory : IChartCategory
 | --- | --- |
 | [Remove](../../aspose.slides.charts/chartcategory/remove)() | Entfernt die Kategorie aus dem Diagramm. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IChartCategory](../ichartcategory)
 * Namensraum [Aspose.Slides.Charts](../../aspose.slides.charts)

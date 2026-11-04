@@ -1,9 +1,9 @@
 ---
 title: ImageWrapper
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: COM 인터페이스용 System.Drawing.Image 래퍼.
 type: docs
-weight: 7440
+weight: 7460
 url: /ko/aspose.slides/imagewrapper/
 ---
 ## ImageWrapper 클래스
@@ -19,18 +19,18 @@ public class ImageWrapper : IImageWrapper
 | 이름 | 설명 |
 | --- | --- |
 | [ImageSource](../../aspose.slides/imagewrapper/imagesource) { get; } | 이미지를 가져옵니다. 읽기 전용 [`IImage`](../iimage). |
-| [Size](../../aspose.slides/imagewrapper/size) { get; } | Image의 너비와 높이를 픽셀 단위로 가져옵니다. 읽기 전용 [`Size`](./size). |
+| [Size](../../aspose.slides/imagewrapper/size) { get; } | Image의 너비와 높이(픽셀)를 가져옵니다. 읽기 전용 [`Size`](./size). |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [Dispose](../../aspose.slides/imagewrapper/dispose)() | ImageWrapper를 해제합니다. |
-| [Save](../../aspose.slides/imagewrapper/save#save_1)(string) | Image를 지정된 파일에 저장합니다. |
-| [Save](../../aspose.slides/imagewrapper/save#save)(Stream, PPImageFormat) | Image를 지정된 스트림에 지정된 형식으로 저장합니다. |
-| [Save](../../aspose.slides/imagewrapper/save#save_2)(string, PPImageFormat) | Image를 지정된 파일에 지정된 형식으로 저장합니다. |
+| [Dispose](../../aspose.slides/imagewrapper/dispose)() | ImageWrapper를 해제 |
+| [Save](../../aspose.slides/imagewrapper/save#save_1)(string) | 이미지를 지정된 파일에 저장 |
+| [Save](../../aspose.slides/imagewrapper/save#save)(Stream, PPImageFormat) | 이미지를 지정된 형식으로 지정된 스트림에 저장 |
+| [Save](../../aspose.slides/imagewrapper/save#save_2)(string, PPImageFormat) | 이미지를 지정된 형식으로 지정된 파일에 저장 |
 
-### 관련 항목
+### 참고
 
 * 인터페이스 [IImageWrapper](../iimagewrapper)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

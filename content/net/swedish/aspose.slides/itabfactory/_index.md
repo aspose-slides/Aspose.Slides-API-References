@@ -1,14 +1,14 @@
 ---
 title: ITabFactory
 second_title: Aspose.Sildes för .NET API-referens
-description: Tillåter att skapa ITab-instanser
+description: Tillåter att skapa ITab-instans
 type: docs
-weight: 7220
+weight: 7240
 url: /sv/aspose.slides/itabfactory/
 ---
 ## ITabFactory gränssnitt
 
-Tillåter att skapa ITab-instanser
+Tillåter att skapa ITab-instans
 
 ```csharp
 public interface ITabFactory

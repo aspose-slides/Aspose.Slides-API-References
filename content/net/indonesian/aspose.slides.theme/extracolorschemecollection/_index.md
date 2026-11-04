@@ -3,12 +3,12 @@ title: ExtraColorSchemeCollection
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili koleksi skema warna tambahan.
 type: docs
-weight: 11110
+weight: 11130
 url: /id/aspose.slides.theme/extracolorschemecollection/
 ---
 ## ExtraColorSchemeCollection kelas
 
-Represents a collection of additional color schemes.
+Mewakili koleksi skema warna tambahan.
 
 ```csharp
 public class ExtraColorSchemeCollection : IExtraColorSchemeCollection
@@ -18,10 +18,10 @@ public class ExtraColorSchemeCollection : IExtraColorSchemeCollection
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Count](../../aspose.slides.theme/extracolorschemecollection/count) { get; } | Mengembalikan jumlah elemen dalam koleksi. Hanya-baca Int32. |
-| [IsSynchronized](../../aspose.slides.theme/extracolorschemecollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke ArrayList disinkronkan (aman terhadap thread). Hanya-baca Boolean. |
-| [Item](../../aspose.slides.theme/extracolorschemecollection/item) { get; } | Mengembalikan skema warna berdasarkan indeks. Hanya-baca [`ExtraColorScheme`](../extracolorscheme). |
-| [SyncRoot](../../aspose.slides.theme/extracolorschemecollection/syncroot) { get; } | Mengembalikan objek yang dapat digunakan untuk menyinkronkan akses ke koleksi. Hanya-baca Object. |
+| [Count](../../aspose.slides.theme/extracolorschemecollection/count) { get; } | Mengembalikan jumlah elemen dalam koleksi. Baca-saja Int32. |
+| [IsSynchronized](../../aspose.slides.theme/extracolorschemecollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke ArrayList disinkronkan (aman terhadap thread). Baca-saja Boolean. |
+| [Item](../../aspose.slides.theme/extracolorschemecollection/item) { get; } | Mengembalikan skema warna berdasarkan indeks. Baca-saja [`ExtraColorScheme`](../extracolorscheme). |
+| [SyncRoot](../../aspose.slides.theme/extracolorschemecollection/syncroot) { get; } | Mengembalikan objek yang dapat digunakan untuk menyinkronkan akses ke koleksi. Baca-saja Object. |
 
 ## Metode
 

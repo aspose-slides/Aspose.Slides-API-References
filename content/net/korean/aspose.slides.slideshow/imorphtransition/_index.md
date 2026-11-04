@@ -1,14 +1,14 @@
 ---
 title: IMorphTransition
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 리플 슬라이드 전환 효과.
+second_title: Aspose.Sildes for .NET API 참조
+description: Ripple 슬라이드 전환 효과.
 type: docs
-weight: 10130
+weight: 10150
 url: /ko/aspose.slides.slideshow/imorphtransition/
 ---
 ## IMorphTransition 인터페이스
 
-Ripple 슬라이드 전환 효과.
+Ripple slide transition effect.
 
 ```csharp
 public interface IMorphTransition : ITransitionValueBase
@@ -19,9 +19,9 @@ public interface IMorphTransition : ITransitionValueBase
 | 이름 | 설명 |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/imorphtransition/asitransitionvaluebase) { get; } | 기본 ITransitionValueBase 인터페이스를 가져올 수 있습니다. 읽기 전용 [`ITransitionValueBase`](../itransitionvaluebase). |
-| [MorphType](../../aspose.slides.slideshow/imorphtransition/morphtype) { get; set; } | 모프 전환의 유형. 읽기/쓰기 [`TransitionMorphType`](../transitionmorphtype). |
+| [MorphType](../../aspose.slides.slideshow/imorphtransition/morphtype) { get; set; } | 모프 전환의 유형입니다. 읽기/쓰기 [`TransitionMorphType`](../transitionmorphtype). |
 
-### 참고
+### 참조
 
 * 인터페이스 [ITransitionValueBase](../itransitionvaluebase)
 * 네임스페이스 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

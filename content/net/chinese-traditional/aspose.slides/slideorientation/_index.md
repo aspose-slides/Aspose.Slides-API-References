@@ -3,7 +3,7 @@ title: SlideOrientation
 second_title: Aspose.Sildes .NET API 參考
 description: 表示投影片方向。
 type: docs
-weight: 10000
+weight: 10020
 url: /zh-hant/aspose.slides/slideorientation/
 ---
 ## SlideOrientation 列舉
@@ -16,12 +16,12 @@ public enum SlideOrientation
 
 ### 值
 
-| 名稱 | 值 | 描述 |
+| 名稱 | 值 | 說明 |
 | --- | --- | --- |
-| Landscape | `0` | 橫向方向。 |
-| Portrait | `1` | 直向方向。 |
+| Landscape | `0` | Landscape 方向。 |
+| Portrait | `1` | Portrait 方向。 |
 
-### 另見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

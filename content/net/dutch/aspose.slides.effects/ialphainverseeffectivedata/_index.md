@@ -1,14 +1,14 @@
 ---
 title: IAlphaInverseEffectiveData
-second_title: Aspose.Slides voor .NET API-referentie
-description: Onveranderlijk object dat een Alpha Inverse-effect voorstelt. Alpha-opaciteitswaarden worden omgekeerd door van 100 af te trekken.
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Onveranderlijk object dat een Alpha Inverse effect vertegenwoordigt. Alpha opaciteitswaarden worden omgekeerd door ze af te trekken van 100.
 type: docs
-weight: 3090
+weight: 3110
 url: /nl/aspose.slides.effects/ialphainverseeffectivedata/
 ---
 ## IAlphaInverseEffectiveData interface
 
-Onveranderlijk object dat een Alpha Inverse-effect voorstelt. Alpha (opaciteit) waarden worden omgekeerd door van 100% af te trekken.
+Onveranderlijk object dat een Alpha Inverse-effect vertegenwoordigt. Alpha (opaciteit)-waarden worden omgekeerd door ze af te trekken van 100%.
 
 ```csharp
 public interface IAlphaInverseEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IAlphaInverseEffectiveData : IEffectEffectiveData
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphainverseeffectivedata/asieffecteffectivedata) { get; } | Staat toe om de basis IEffectEffectiveData interface op te halen. Alleen-lezen [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphainverseeffectivedata/asieffecteffectivedata) { get; } | Staat toe om de basis-interface IEffectEffectiveData op te halen. Alleen-lezen [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Zie ook
 

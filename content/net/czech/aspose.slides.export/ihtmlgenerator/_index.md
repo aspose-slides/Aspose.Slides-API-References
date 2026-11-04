@@ -1,9 +1,9 @@
 ---
 title: IHtmlGenerator
-second_title: Aspose.Sildes pro .NET – API reference
-description: Html generátor.
+second_title: Aspose.Sildes pro .NET API Reference
+description: HTML generátor.
 type: docs
-weight: 3960
+weight: 3980
 url: /cs/aspose.slides.export/ihtmlgenerator/
 ---
 ## IHtmlGenerator rozhraní
@@ -20,24 +20,24 @@ public interface IHtmlGenerator
 | --- | --- |
 | [NextSlideIndex](../../aspose.slides.export/ihtmlgenerator/nextslideindex) { get; } | Vrací index snímku, který bude vykreslen po aktuálním snímku, nebo -1, pokud se právě vykresluje poslední snímek. Pouze pro čtení Int32. |
 | [PreviousSlideIndex](../../aspose.slides.export/ihtmlgenerator/previousslideindex) { get; } | Vrací index předchozího vykresleného snímku nebo -1, pokud se vykresluje první snímek. Pouze pro čtení Int32. |
-| [SlideImageSize](../../aspose.slides.export/ihtmlgenerator/slideimagesize) { get; } | Vrací velikost obrázku snímku. Pouze pro čtení SizeF. |
-| [SlideImageSizeUnit](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunit) { get; } | Vrací jednotku, ve které je velikost obrázku snímku uvedena. Pouze pro čtení [`SvgCoordinateUnit`](../svgcoordinateunit). |
-| [SlideImageSizeUnitCode](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunitcode) { get; } | Vrací CSS kód jednotky, ve které je velikost obrázku snímku uvedena. Pouze pro čtení String. |
+| [SlideImageSize](../../aspose.slides.export/ihtmlgenerator/slideimagesize) { get; } | Vrací velikost obrazu snímku. Pouze pro čtení SizeF. |
+| [SlideImageSizeUnit](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunit) { get; } | Vrací jednotku, ve které je velikost obrazu snímku specifikována. Pouze pro čtení [`SvgCoordinateUnit`](../svgcoordinateunit). |
+| [SlideImageSizeUnitCode](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunitcode) { get; } | Vrací css kód jednotky, ve které je velikost obrazu snímku specifikována. Pouze pro čtení String. |
 | [SlideIndex](../../aspose.slides.export/ihtmlgenerator/slideindex) { get; } | Vrací index aktuálně vykreslovaného snímku. Pouze pro čtení Int32. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue)(char[]) | O označí hodnotu atributu uvozovkami a přidá ji do html souboru. |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_2)(string) | O označí hodnotu atributu uvozovkami a přidá ji do html souboru. |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | O označí hodnotu atributu uvozovkami a přidá ji do html souboru. |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue)(char[]) | Označí hodnotu atributu uvozovkami a přidá ji do html souboru. |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_2)(string) | Označí hodnotu atributu uvozovkami a přidá ji do html souboru. |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | Označí hodnotu atributu uvozovkami a přidá ji do html souboru. |
 | [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml)(char[]) | Přidá formátovaný HTML text. |
 | [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_2)(string) | Přidá formátovaný HTML text. |
 | [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_1)(char[], int, int) | Přidá formátovaný HTML text. |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext)(char[]) | Přidá prostý text do html souborů, nahrazující speciální znaky HTML entitami. Zalamování řádků a mezery nejsou nahrazeny. |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_2)(string) | Přidá prostý text do html souborů, nahrazující speciální znaky HTML entitami. Zalamování řádků a mezery nejsou nahrazeny. |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_1)(char[], int, int) | Přidá prostý text do html souborů, nahrazující speciální znaky HTML entitami. Zalamování řádků a mezery nejsou nahrazeny. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext)(char[]) | Přidá prostý text do html souborů, nahrazuje speciální znaky HTML entity. Zalomení řádků a mezery nejsou nahrazeny. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_2)(string) | Přidá prostý text do html souborů, nahrazuje speciální znaky HTML entity. Zalomení řádků a mezery nejsou nahrazeny. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_1)(char[], int, int) | Přidá prostý text do html souborů, nahrazuje speciální znaky HTML entity. Zalomení řádků a mezery nejsou nahrazeny. |
 
 ### Viz také
 

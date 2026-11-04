@@ -1,14 +1,14 @@
 ---
 title: ITextFrameFormatEffectiveData
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
-description: อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติการจัดรูปแบบกรอบข้อความที่มีผล.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติการจัดรูปแบบ text frame ที่มีผล
 type: docs
-weight: 7290
+weight: 7310
 url: /th/aspose.slides/itextframeformateffectivedata/
 ---
 ## ITextFrameFormatEffectiveData อินเทอร์เฟซ
 
-อ็อบเจกต์ที่เปลี่ยนแปลงไม่ได้ซึ่งประกอบด้วยคุณสมบัติการจัดรูปแบบกรอบข้อความที่มีผล.
+อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติการจัดรูปแบบ text frame ที่มีผล.
 
 ```csharp
 public interface ITextFrameFormatEffectiveData
@@ -16,24 +16,24 @@ public interface ITextFrameFormatEffectiveData
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [AnchoringType](../../aspose.slides/itextframeformateffectivedata/anchoringtype) { get; } | ส่งคืนข้อความยึดตั้งแนวตั้งใน TextFrame. อ่านอย่างเดียว [`TextAnchorType`](../textanchortype). |
-| [AutofitType](../../aspose.slides/itextframeformateffectivedata/autofittype) { get; } | ส่งคืนโหมดการปรับขนาดข้อความอัตโนมัติ. อ่านอย่างเดียว [`TextAutofitType`](../textautofittype). |
-| [CenterText](../../aspose.slides/itextframeformateffectivedata/centertext) { get; } | ส่งคืนว่าข้อความควรถูกจัดกึ่งกลางในกล่องแนวนอนได้หรือไม่. อ่านอย่างเดียว Boolean. |
-| [ColumnCount](../../aspose.slides/itextframeformateffectivedata/columncount) { get; } | ระบุจำนวนคอลัมน์ของข้อความในสี่เหลี่ยมล้อม. อ่านอย่างเดียว Int32. |
-| [ColumnSpacing](../../aspose.slides/itextframeformateffectivedata/columnspacing) { get; } | ระบุช่องว่างระหว่างคอลัมน์ข้อความในพื้นที่ข้อความ (หน่วยเป็นพอยท์). อ่านอย่างเดียว Single. |
-| [MarginBottom](../../aspose.slides/itextframeformateffectivedata/marginbottom) { get; } | ส่งคืนขอบล่าง (พอยท์) ใน TextFrame. อ่านอย่างเดียว Double. |
-| [MarginLeft](../../aspose.slides/itextframeformateffectivedata/marginleft) { get; } | ส่งคืนขอบซ้าย (พอยท์) ใน TextFrame. อ่านอย่างเดียว Double. |
-| [MarginRight](../../aspose.slides/itextframeformateffectivedata/marginright) { get; } | ส่งคืนขอบขวา (พอยท์) ใน TextFrame. อ่านอย่างเดียว Double. |
-| [MarginTop](../../aspose.slides/itextframeformateffectivedata/margintop) { get; } | ส่งคืนขอบบน (พอยท์) ใน TextFrame. อ่านอย่างเดียว Double. |
+| [AnchoringType](../../aspose.slides/itextframeformateffectivedata/anchoringtype) { get; } | ส่งคืนข้อความที่ยึดแนวตั้งใน TextFrame. อ่านอย่างเดียว [`TextAnchorType`](../textanchortype). |
+| [AutofitType](../../aspose.slides/itextframeformateffectivedata/autofittype) { get; } | ส่งคืนโหมดการปรับขนาดอัตโนมัติของข้อความ. อ่านอย่างเดียว [`TextAutofitType`](../textautofittype). |
+| [CenterText](../../aspose.slides/itextframeformateffectivedata/centertext) { get; } | ส่งคืนว่าข้อความควรอยู่ตรงกลางในกล่องแนวนอนหรือไม่. อ่านอย่างเดียว Boolean. |
+| [ColumnCount](../../aspose.slides/itextframeformateffectivedata/columncount) { get; } | ระบุจำนวนคอลัมน์ของข้อความในสี่เหลี่ยมขอบ. อ่านอย่างเดียว Int32. |
+| [ColumnSpacing](../../aspose.slides/itextframeformateffectivedata/columnspacing) { get; } | ระบุช่องว่างระหว่างคอลัมน์ของข้อความในพื้นที่ข้อความ (หน่วยเป็นจุด). อ่านอย่างเดียว Single. |
+| [MarginBottom](../../aspose.slides/itextframeformateffectivedata/marginbottom) { get; } | ส่งคืนระยะขอบล่าง (จุด) ใน TextFrame. อ่านอย่างเดียว Double. |
+| [MarginLeft](../../aspose.slides/itextframeformateffectivedata/marginleft) { get; } | ส่งคืนระยะขอบซ้าย (จุด) ใน TextFrame. อ่านอย่างเดียว Double. |
+| [MarginRight](../../aspose.slides/itextframeformateffectivedata/marginright) { get; } | ส่งคืนระยะขอบขวา (จุด) ใน TextFrame. อ่านอย่างเดียว Double. |
+| [MarginTop](../../aspose.slides/itextframeformateffectivedata/margintop) { get; } | ส่งคืนระยะขอบบน (จุด) ใน TextFrame. อ่านอย่างเดียว Double. |
 | [TextStyle](../../aspose.slides/itextframeformateffectivedata/textstyle) { get; } | ส่งคืนสไตล์ของข้อความที่มีผล. อ่านอย่างเดียว [`ITextStyleEffectiveData`](../itextstyleeffectivedata). |
 | [TextVerticalType](../../aspose.slides/itextframeformateffectivedata/textverticaltype) { get; } | ส่งคืนการวางแนวข้อความ. อ่านอย่างเดียว [`TextVerticalType`](../textverticaltype). |
-| [WrapText](../../aspose.slides/itextframeformateffectivedata/wraptext) { get; } | ส่งคืนว่าข้อความจะถูกตัดบรรทัดที่ขอบของ TextFrame หรือไม่. อ่านอย่างเดียว Boolean. |
+| [WrapText](../../aspose.slides/itextframeformateffectivedata/wraptext) { get; } | ส่งคืนว่าข้อความถูกตัดบรรทัดที่ขอบของ TextFrame หรือไม่. อ่านอย่างเดียว Boolean. |
 
-### อธิบายเพิ่มเติม
+### หมายเหตุ
 
-อินเทอร์เฟซนี้ใช้ร่วมกับอินเทอร์เฟซ [`ITextFrameFormat`](../itextframeformat) เพื่อส่งค่าการจัดรูปแบบที่มีผลพร้อมกับการสืบทอดที่ใช้.
+อินเทอร์เฟซนี้ใช้ร่วมกับอินเทอร์เฟซ [`ITextFrameFormat`](../itextframeformat) เพื่อส่งคืนค่าการจัดรูปแบบที่มีผลโดยมีการสืบทอดที่นำมาใช้.
 
 ### ดูเพิ่มเติม
 

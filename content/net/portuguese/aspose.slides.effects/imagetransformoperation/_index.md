@@ -1,14 +1,14 @@
 ---
 title: ImageTransformOperation
-second_title: Aspose.Sildes para Referência da API .NET
-description: Representa efeito de transformação de imagem abstrato.
+second_title: Aspose.Sildes para referência da API .NET
+description: Representa efeito abstrato de transformação de imagem.
 type: docs
-weight: 3570
+weight: 3590
 url: /pt/aspose.slides.effects/imagetransformoperation/
 ---
-## ImageTransformOperation class
+## ImageTransformOperation classe
 
-Representa efeito de transformação de imagem abstrato.
+Represents abstract image transformation effect.
 
 ```csharp
 public abstract class ImageTransformOperation : PVIObject, IImageTransformOperation
@@ -27,7 +27,7 @@ public abstract class ImageTransformOperation : PVIObject, IImageTransformOperat
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compara com o objeto especificado. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Retorna o código hash. |
 
-### Ver também
+### Veja Também
 
 * classe [PVIObject](../../aspose.slides/pviobject)
 * interface [IImageTransformOperation](../iimagetransformoperation)

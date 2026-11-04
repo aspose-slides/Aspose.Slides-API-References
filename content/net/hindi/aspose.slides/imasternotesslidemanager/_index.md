@@ -3,7 +3,7 @@ title: IMasterNotesSlideManager
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: मास्टर नोट्स स्लाइड प्रबंधक।
 type: docs
-weight: 6410
+weight: 6430
 url: /hi/aspose.slides/imasternotesslidemanager/
 ---
 ## IMasterNotesSlideManager इंटरफ़ेस
@@ -18,7 +18,7 @@ public interface IMasterNotesSlideManager
 
 | नाम | विवरण |
 | --- | --- |
-| [MasterNotesSlide](../../aspose.slides/imasternotesslidemanager/masternotesslide) { get; } | यदि प्रस्तुतिकरण में एक मास्टर मौजूद है तो इस प्रस्तुति के सभी नोट्स स्लाइड्स के लिए एक मास्टर लौटाता है, अन्यथा null लौटाता है। केवल-पढ़ने योग्य [`IMasterNotesSlide`](../imasternotesslide)। |
+| [MasterNotesSlide](../../aspose.slides/imasternotesslidemanager/masternotesslide) { get; } | यदि मौजूद हो तो इस प्रस्तुति की सभी नोट्स स्लाइड्स के लिए एक मास्टर लौटाता है, अन्यथा null लौटाता है। केवल-पढ़ने योग्य [`IMasterNotesSlide`](../imasternotesslide)। |
 
 ## विधियाँ
 
@@ -27,7 +27,7 @@ public interface IMasterNotesSlideManager
 | [RemoveMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/removemasternotesslide)() | मास्टर नोट्स स्लाइड को हटाता है। |
 | [SetDefaultMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide)() | संबंधित नोट्स स्लाइड के लिए डिफ़ॉल्ट मास्टर नोट्स स्लाइड सेट करता है। |
 
-### देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

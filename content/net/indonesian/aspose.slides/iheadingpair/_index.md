@@ -1,14 +1,14 @@
 ---
 title: IHeadingPair
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili properti Heading pair dari dokumen. Ini menunjukkan nama grup bagian dokumen dan jumlah bagian dalam grup.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili properti Heading pair dari dokumen. Ini menunjukkan nama grup dari bagian dokumen dan jumlah bagian dalam grup.
 type: docs
-weight: 6100
+weight: 6120
 url: /id/aspose.slides/iheadingpair/
 ---
 ## IHeadingPair antarmuka
 
-Mewakili properti 'Heading pair' dari dokumen. Ini menunjukkan nama grup bagian dokumen dan jumlah bagian dalam grup.
+Mewakili properti 'Heading pair' dari dokumen. Ini menunjukkan nama grup dari bagian dokumen dan jumlah bagian dalam grup.
 
 ```csharp
 public interface IHeadingPair
@@ -18,8 +18,8 @@ public interface IHeadingPair
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Count](../../aspose.slides/iheadingpair/count) { get; } | Mengembalikan jumlah bagian dalam grup. Baca-saja Int32. |
-| [Name](../../aspose.slides/iheadingpair/name) { get; } | Mengembalikan nama grup bagian dokumen. Baca-saja String. |
+| [Count](../../aspose.slides/iheadingpair/count) { get; } | Mengembalikan jumlah bagian dalam grup. Hanya-baca Int32. |
+| [Name](../../aspose.slides/iheadingpair/name) { get; } | Mengembalikan nama grup dari bagian dokumen. Hanya-baca String. |
 
 ### Lihat Juga
 

@@ -1,20 +1,20 @@
 ---
 title: RemoveUnusedMasterSlides
-second_title: Aspose.Sildes for .NET API 참조
-description: 사용되지 않은 마스터 슬라이드를 제거하여 Presentationaspose.slides/presentation의 압축을 수행합니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 사용되지 않은 마스터 슬라이드를 제거하여 Presentationaspose.slides/presentation을 압축합니다.
 type: docs
-weight: 30
+weight: 50
 url: /ko/aspose.slides.lowcode/compress/removeunusedmasterslides/
 ---
 ## Compress.RemoveUnusedMasterSlides 메서드
 
-사용되지 않는 마스터 슬라이드를 제거하여 [`Presentation`](../../../aspose.slides/presentation)을(를) 압축합니다.
+사용되지 않은 마스터 슬라이드를 제거함으로써 [`Presentation`](../../../aspose.slides/presentation)를 압축합니다.
 
 ```csharp
 public static void RemoveUnusedMasterSlides(Presentation pres)
 ```
 
-| 매개변수 | 유형 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
 | pres | Presentation | 프레젠테이션 인스턴스 |
 

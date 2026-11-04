@@ -1,14 +1,14 @@
 ---
 title: X
-second_title: Aspose.Sildes for .NET API Referansı
-description: Bir başlığın x koordinatını, grafiğin genişliğinin bir kesri olarak döndürür veya ayarlar. Okunur/yazılır Single.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bir başlığın x koordinatını, grafiğin genişliğinin bir kesri olarak döndürür veya ayarlar. Okunur/Yazılır Single.
 type: docs
-weight: 160
+weight: 170
 url: /tr/aspose.slides.charts/datalabel/x/
 ---
 ## DataLabel.X özelliği
 
-Bir başlığın x koordinatını, grafiğin genişliğinin bir kesri olarak döndürür veya ayarlar. Okunur/yazılır Single.
+Bir başlığın x koordinatını, grafiğin genişliğinin bir kesri olarak döndürür veya ayarlar. Okunur/Yazılır Single.
 
 ```csharp
 public float X { get; set; }

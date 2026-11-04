@@ -1,14 +1,14 @@
 ---
 title: ControlPropertiesCollection
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET справочник API
 description: Коллекция свойств AcitveX.
 type: docs
-weight: 2710
+weight: 2730
 url: /ru/aspose.slides/controlpropertiescollection/
 ---
 ## ControlPropertiesCollection класс
 
-Коллекция свойств AcitveX.
+A collection of AcitveX properties.
 
 ```csharp
 public class ControlPropertiesCollection : IControlPropertiesCollection

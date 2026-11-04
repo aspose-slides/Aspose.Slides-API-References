@@ -1,27 +1,27 @@
 ---
 title: IMathRadical
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: आधार और वैकल्पिक डिग्री से बनी रैडिकल फ़ंक्शन को निर्दिष्ट करता है। रैडिकल ऑब्जेक्ट का उदाहरण है .
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: एक मूल फ़ंक्शन को निर्दिष्ट करता है जिसमें एक बेस और एक वैकल्पिक डिग्री होती है। मूल वस्तु का उदाहरण है।
 type: docs
-weight: 8430
+weight: 8450
 url: /hi/aspose.slides.mathtext/imathradical/
 ---
 ## IMathRadical इंटरफ़ेस
 
-रैडिकल फ़ंक्शन को निर्दिष्ट करता है, जिसमें आधार और वैकल्पिक डिग्री शामिल होते हैं। रैडिकल वस्तु का उदाहरण √𝑥 है।
+एक मूल फ़ंक्शन को निर्दिष्ट करता है, जिसमें एक बेस और एक वैकल्पिक डिग्री होती है। मूल वस्तु का उदाहरण √𝑥 है।
 
 ```csharp
 public interface IMathRadical : IMathElement
 ```
 
-## गुण
+## गुणधर्म
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathradical/asimathelement) { get; } | Allows to get base IMathElement इंटरफ़ेस [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathradical/base) { get; } | आधार तर्क |
+| [AsIMathElement](../../aspose.slides.mathtext/imathradical/asimathelement) { get; } | बेस IMathElement इंटरफ़ेस [`IMathElement`](../imathelement) को प्राप्त करने की अनुमति देता है |
+| [Base](../../aspose.slides.mathtext/imathradical/base) { get; } | बेस तर्क |
 | [Degree](../../aspose.slides.mathtext/imathradical/degree) { get; } | डिग्री तर्क |
-| [HideDegree](../../aspose.slides.mathtext/imathradical/hidedegree) { get; set; } | डिग्री को छुपाएँ जब सत्य हो, डिग्री नहीं दिखाई देती, जैसे √𝑥 |
+| [HideDegree](../../aspose.slides.mathtext/imathradical/hidedegree) { get; set; } | जब सत्य हो तो डिग्री छुपाएँ, डिग्री नहीं दिखती, जैसे √𝑥 |
 
 ### उदाहरण
 
@@ -29,10 +29,10 @@ public interface IMathRadical : IMathElement
 
 ```csharp
 [C#]
-IMathRadical radical = new MathematicalText("x").Radical("3"); // घन मूल
+IMathRadical radical = new MathematicalText("x").Radial("3"); // घन मूल
 ```
 
-### देखें भी
+### देखें
 
 * इंटरफ़ेस [IMathElement](../imathelement)
 * नामस्थान [Aspose.Slides.MathText](../../aspose.slides.mathtext)

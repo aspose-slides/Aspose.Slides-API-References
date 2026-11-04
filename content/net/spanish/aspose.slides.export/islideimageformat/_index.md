@@ -1,14 +1,14 @@
 ---
 title: ISlideImageFormat
-second_title: Referencia de la API de .NET de Aspose.Sildes
-description: Determina el formato en el que la imagen de la diapositiva se guardará para la presentación en la exportación a HTML.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Determina el formato en que la imagen de la diapositiva se guardará para la presentación en la exportación HTML.
 type: docs
-weight: 4090
+weight: 4110
 url: /es/aspose.slides.export/islideimageformat/
 ---
 ## ISlideImageFormat interfaz
 
-Determina el formato en el que la imagen de la diapositiva se guardará para la presentación en la exportación a HTML.
+Determina el formato en que la imagen de la diapositiva se guardará para la presentación en la exportación HTML.
 
 ```csharp
 public interface ISlideImageFormat

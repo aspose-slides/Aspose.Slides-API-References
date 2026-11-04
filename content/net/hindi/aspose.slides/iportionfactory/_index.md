@@ -1,9 +1,9 @@
 ---
 title: IPortionFactory
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
 description: टेस्ट पोर्शन बनाने की अनुमति देता है
 type: docs
-weight: 6720
+weight: 6740
 url: /hi/aspose.slides/iportionfactory/
 ---
 ## IPortionFactory इंटरफ़ेस
@@ -14,19 +14,19 @@ url: /hi/aspose.slides/iportionfactory/
 public interface IPortionFactory
 ```
 
-## मेथड्स
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
 | [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion)() | एक खाली टेक्स्ट पोर्शन बनाता है। |
-| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_1)(IPortion) | निर्दिष्ट पोर्शन डेटा के उपयोग से एक पोर्शन बनाता है। |
+| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_1)(IPortion) | निर्दिष्ट पोर्शन डेटा का उपयोग करके एक पोर्शन बनाता है। |
 | [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_2)(string) | निर्दिष्ट स्ट्रिंग से एक टेक्स्ट पोर्शन बनाता है। |
 
-### टिप्पणियाँ
+### टिप्पणी
 
 COM संगतता के लिए
 
-### संबंधित देखें
+### देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

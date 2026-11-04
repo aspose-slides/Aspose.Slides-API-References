@@ -1,14 +1,14 @@
 ---
 title: IAlphaReplace
 second_title: Aspose.Sildes .NET API hivatkozás
-description: Az alap IImageTransformOperation interfészt képviseli.
+description: Képviseli az alap IImageTransformOperation interfészt.
 type: docs
-weight: 3140
+weight: 3160
 url: /hu/aspose.slides.effects/ialphareplace/
 ---
 ## IAlphaReplace interfész
 
-Az alap IImageTransformOperation interfészt képviseli.
+Representálja az alap IImageTransformOperation interfészt.
 
 ```csharp
 public interface IAlphaReplace : IAccessiblePVIObject<IAlphaReplaceEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaReplace : IAccessiblePVIObject<IAlphaReplaceEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphareplace/asiaccessiblepviobject) { get; } | Lehetővé teszi az alap IAccessiblePVIObject interfész lekérését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphareplace/asiimagetransformoperation) { get; } | Lehetővé teszi az alap IImageTransformOperation interfész lekérését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphareplace/asiaccessiblepviobject) { get; } | Lehetővé teszi a base IAccessiblePVIObject interfész elérését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphareplace/asiimagetransformoperation) { get; } | Lehetővé teszi a base IImageTransformOperation interfész elérését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Lásd még
 

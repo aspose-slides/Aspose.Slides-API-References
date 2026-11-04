@@ -1,14 +1,14 @@
 ---
 title: WriteWorkbookStream
 second_title: Aspose.Sildes برای .NET مرجع API
-description: Workbook داخلی Excel را با مقدار مشخص‌شده توسط کاربر مقداردهی اولیه می‌کند.
+description: کاربرد داخلی کتاب‌کار Excel را با مقدار مشخص‌شده توسط کاربر مقداردهی می‌کند.
 type: docs
-weight: 150
+weight: 160
 url: /fa/aspose.slides.charts/ichartdata/writeworkbookstream/
 ---
-## متد IChartData.WriteWorkbookStream
+## IChartData.WriteWorkbookStream متد
 
-Workbook داخلی Excel را با مقدار مشخص‌شده توسط کاربر مقداردهی اولیه می‌کند.
+کاربرد داخلی کتاب‌کار Excel را با مقدار مشخص‌شده توسط کاربر مقداردهی می‌کند.
 
 ```csharp
 public void WriteWorkbookStream(MemoryStream ms)
@@ -16,7 +16,7 @@ public void WriteWorkbookStream(MemoryStream ms)
 
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
-| ms | MemoryStream | جریانی که توسط کاربر ارائه شده و شامل تمام کتاب‌کار Excel است. |
+| ms | MemoryStream | جریان ارائه‌شده توسط کاربر که شامل کل کتاب کار Excel است. |
 
 ### موارد مرتبط
 

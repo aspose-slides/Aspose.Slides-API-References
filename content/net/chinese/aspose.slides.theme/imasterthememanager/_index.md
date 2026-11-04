@@ -1,14 +1,14 @@
 ---
 title: IMasterThemeManager
 second_title: Aspose.Sildes for .NET API 参考
-description: 提供对演示文稿母版主题的访问。
+description: 提供对演示文稿主主题的访问。
 type: docs
-weight: 11320
+weight: 11340
 url: /zh/aspose.slides.theme/imasterthememanager/
 ---
 ## IMasterThemeManager 接口
 
-提供对演示文稿母版主题的访问。
+Provides access to presentation master theme.
 
 ```csharp
 public interface IMasterThemeManager : IThemeManager
@@ -16,13 +16,13 @@ public interface IMasterThemeManager : IThemeManager
 
 ## 属性
 
-| Name | Description |
+| 名称 | 描述 |
 | --- | --- |
 | [AsIThemeManager](../../aspose.slides.theme/imasterthememanager/asithememanager) { get; } | 允许获取基 IThemeManager 接口。只读 [`IThemeManager`](../ithememanager)。 |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/imasterthememanager/isoverridethemeenabled) { get; set; } | 确定 OverrideTheme 是否覆盖继承的有效主题 (Presentation.MasterTheme) 或不覆盖。读写 Boolean。 |
-| [OverrideTheme](../../aspose.slides.theme/imasterthememanager/overridetheme) { get; set; } | 返回覆盖的主题对象。读写 [`IMasterTheme`](../imastertheme)。 |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/imasterthememanager/isoverridethemeenabled) { get; set; } | 确定 OverrideTheme 是否覆盖继承的有效主题 (Presentation.MasterTheme)。读/写 Boolean。 |
+| [OverrideTheme](../../aspose.slides.theme/imasterthememanager/overridetheme) { get; set; } | 返回覆盖的主题对象。读/写 [`IMasterTheme`](../imastertheme)。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [IThemeManager](../ithememanager)
 * 命名空间 [Aspose.Slides.Theme](../../aspose.slides.theme)

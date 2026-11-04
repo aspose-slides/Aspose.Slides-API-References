@@ -1,14 +1,14 @@
 ---
 title: ISummaryZoomFrame
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็น Summary Zoom frame ในสไลด์
+description: เป็นตัวแทนของเฟรม Summary Zoom ในสไลด์.
 type: docs
-weight: 7150
+weight: 7170
 url: /th/aspose.slides/isummaryzoomframe/
 ---
 ## ISummaryZoomFrame อินเทอร์เฟซ
 
-แสดง Summary Zoom frame ในสไลด์
+เป็นตัวแทนของเฟรม Summary Zoom ในสไลด์
 
 ```csharp
 public interface ISummaryZoomFrame : IGraphicalObject
@@ -18,9 +18,9 @@ public interface ISummaryZoomFrame : IGraphicalObject
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/isummaryzoomframe/asigraphicalobject) { get; } | ส่งกลับอินเทอร์เฟซ IGraphicalObject |
-| [Layout](../../aspose.slides/isummaryzoomframe/layout) { get; } | รับค่า layout ของ Summary Zoom Sections ในเฟรม ค่าเริ่มต้นคือ GridLayout |
-| [SummaryZoomCollection](../../aspose.slides/isummaryzoomframe/summaryzoomcollection) { get; } | รับค่า [`ISummaryZoomSectionCollection`](../isummaryzoomsectioncollection) สำหรับอ็อบเจ็กต์ Summary Zoom Frame |
+| [AsIGraphicalObject](../../aspose.slides/isummaryzoomframe/asigraphicalobject) { get; } | คืนค่า IGraphicalObject อินเทอร์เฟซ. |
+| [Layout](../../aspose.slides/isummaryzoomframe/layout) { get; } | รับค่าเค้าโครงของ Summary Zoom Sections ในเฟรม ค่าเริ่มต้นคือ GridLayout. |
+| [SummaryZoomCollection](../../aspose.slides/isummaryzoomframe/summaryzoomcollection) { get; } | รับค่า [`ISummaryZoomSectionCollection`](../isummaryzoomsectioncollection) สำหรับวัตถุ Summary Zoom Frame. |
 
 ### ดูเพิ่มเติม
 

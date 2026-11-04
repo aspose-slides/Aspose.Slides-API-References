@@ -1,14 +1,14 @@
 ---
 title: InOutTransition
-second_title: Tham khảo API Aspose.Sildes cho .NET
+second_title: Aspose.Sildes cho Tham chiếu API .NET
 description: Hiệu ứng chuyển đổi slide In-Out.
 type: docs
-weight: 10230
+weight: 10250
 url: /vi/aspose.slides.slideshow/inouttransition/
 ---
 ## InOutTransition lớp
 
-Hiệu ứng chuyển tiếp slide In-Out.
+Hiệu ứng chuyển đổi slide In-Out.
 
 ```csharp
 public class InOutTransition : TransitionValueBase, IInOutTransition
@@ -18,14 +18,14 @@ public class InOutTransition : TransitionValueBase, IInOutTransition
 
 | Tên | Mô tả |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/inouttransition/direction) { get; set; } | Hướng của hiệu ứng chuyển đổi. Đọc/ghi [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/inouttransition/direction) { get; set; } | Hướng của một hiệu ứng chuyển đổi. Đọc/ghi [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Xác định liệu hai thể hiện TransitionValueBase có bằng nhau không. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Đóng vai trò là hàm băm cho một kiểu cụ thể, phù hợp để sử dụng trong các thuật toán băm và cấu trúc dữ liệu như bảng băm. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Xác định xem hai đối tượng TransitionValueBase có bằng nhau hay không. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Đóng vai trò như một hàm băm cho một kiểu cụ thể, phù hợp để sử dụng trong các thuật toán băm và cấu trúc dữ liệu như bảng băm. |
 
 ### Xem thêm
 

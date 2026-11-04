@@ -1,9 +1,9 @@
 ---
 title: Tint
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa un efecto Tint. Desplaza los valores de color del efecto hacia/alejándose del matiz en la cantidad especificada.
+description: Representa un efecto Tint. Desplaza los valores de color del efecto hacia/alejándose del tono en la cantidad especificada.
 type: docs
-weight: 3660
+weight: 3680
 url: /es/aspose.slides.effects/tint/
 ---
 ## Tint clase
@@ -25,7 +25,7 @@ public sealed class Tint : ImageTransformOperation, ITint
 | Nombre | Descripción |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/tint/equals)(object) | Determina si el [`Tint`](../tint) especificado es igual al [`Tint`](../tint) actual. |
-| [GetEffective](../../aspose.slides.effects/tint/geteffective)() | Obtiene los datos del efecto Tint efectivo con la herencia aplicada. |
+| [GetEffective](../../aspose.slides.effects/tint/geteffective)() | Obtiene los datos efectivos del efecto Tint con la herencia aplicada. |
 | override [GetHashCode](../../aspose.slides.effects/tint/gethashcode)() | Funciona como una función hash para un tipo particular. |
 
 ### Ver también

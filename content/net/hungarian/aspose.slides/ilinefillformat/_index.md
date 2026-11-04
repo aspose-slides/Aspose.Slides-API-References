@@ -1,9 +1,9 @@
 ---
 title: ILineFillFormat
-second_title: Aspose.Sildes .NET API-referencia
+second_title: Aspose.Sildes .NET API referenciája
 description: A vonalak kitöltésének tulajdonságait képviseli.
 type: docs
-weight: 6290
+weight: 6310
 url: /hu/aspose.slides/ilinefillformat/
 ---
 ## ILineFillFormat interfész
@@ -18,12 +18,12 @@ public interface ILineFillFormat : IFillParamSource
 
 | Név | Leírás |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ilinefillformat/asifillparamsource) { get; } | Lehetővé teszi a bázis IFillParamSource interfész lekérdezését. Csak olvasható [`IFillParamSource`](../ifillparamsource). |
-| [FillType](../../aspose.slides/ilinefillformat/filltype) { get; set; } | Visszaadja vagy beállítja a kitöltés típusát. Olvasás/írás [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/ilinefillformat/gradientformat) { get; } | Visszaadja a színátmenetes kitöltés formátumát. Csak olvasható [`IGradientFormat`](../igradientformat). |
-| [PatternFormat](../../aspose.slides/ilinefillformat/patternformat) { get; } | Visszaadja a minta kitöltés formátumát. Csak olvasható [`IPatternFormat`](../ipatternformat). |
-| [RotateWithShape](../../aspose.slides/ilinefillformat/rotatewithshape) { get; set; } | Meghatározza, hogy a kitöltést egy alakzattal együtt kell-e elforgatni. Olvasás/írás [`NullableBool`](../nullablebool). |
-| [SolidFillColor](../../aspose.slides/ilinefillformat/solidfillcolor) { get; } | Visszaadja a szilárd kitöltés színét. Csak olvasható [`IColorFormat`](../icolorformat). |
+| [AsIFillParamSource](../../aspose.slides/ilinefillformat/asifillparamsource) { get; } | Lehetővé teszi a bázis IFillParamSource interfész lekérését. Csak olvasható [`IFillParamSource`](../ifillparamsource). |
+| [FillType](../../aspose.slides/ilinefillformat/filltype) { get; set; } | Visszaadja vagy beállítja a kitöltés típusát. Olvasható/írható [`FillType`](../filltype). |
+| [GradientFormat](../../aspose.slides/ilinefillformat/gradientformat) { get; } | Visszaadja a színátmenet kitöltési formátumot. Csak olvasható [`IGradientFormat`](../igradientformat). |
+| [PatternFormat](../../aspose.slides/ilinefillformat/patternformat) { get; } | Visszaadja a minta kitöltési formátumot. Csak olvasható [`IPatternFormat`](../ipatternformat). |
+| [RotateWithShape](../../aspose.slides/ilinefillformat/rotatewithshape) { get; set; } | Meghatározza, hogy a kitöltés legyen-e elforgatva a formával. Olvasható/írható [`NullableBool`](../nullablebool). |
+| [SolidFillColor](../../aspose.slides/ilinefillformat/solidfillcolor) { get; } | Visszaadja egy szilárd kitöltés színét. Csak olvasható [`IColorFormat`](../icolorformat). |
 
 ### Lásd még
 

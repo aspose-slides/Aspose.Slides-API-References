@@ -1,14 +1,14 @@
 ---
 title: PresetColor
-second_title: Aspose.Sildes pro .NET referenci API
-description: Reprezentuje předdefinované předvolby barev.
+second_title: Aspose.Sildes pro .NET referenční příručka API
+description: Reprezentuje předdefinované barevné předvolby.
 type: docs
-weight: 9660
+weight: 9680
 url: /cs/aspose.slides/presetcolor/
 ---
 ## PresetColor výčet
 
-Reprezentuje předdefinované předvolby barev.
+Reprezentuje předdefinované barevné předvolby.
 
 ```csharp
 public enum PresetColor
@@ -18,7 +18,7 @@ public enum PresetColor
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| NotDefined | `-1` | Předvolba barvy není definována. |
+| NotDefined | `-1` | Barevná předvolba není definována. |
 | AliceBlue | `0` |  |
 | AntiqueWhite | `1` |  |
 | Aqua | `2` |  |

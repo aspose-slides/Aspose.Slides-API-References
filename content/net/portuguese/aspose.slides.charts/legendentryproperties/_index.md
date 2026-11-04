@@ -1,9 +1,9 @@
 ---
 title: LegendEntryProperties
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para referência da API .NET
 description: Representa as propriedades da legenda de um gráfico.
 type: docs
-weight: 2310
+weight: 2330
 url: /pt/aspose.slides.charts/legendentryproperties/
 ---
 ## LegendEntryProperties classe
@@ -19,7 +19,7 @@ public class LegendEntryProperties : ILegendEntryProperties
 | Nome | Descrição |
 | --- | --- |
 | [Chart](../../aspose.slides.charts/legendentryproperties/chart) { get; } | Retorna o gráfico pai. Somente leitura [`IChart`](../ichart). |
-| [Hide](../../aspose.slides.charts/legendentryproperties/hide) { get; set; } | Determina se a entrada da legenda está oculta. Leitura/Gravação Boolean. |
+| [Hide](../../aspose.slides.charts/legendentryproperties/hide) { get; set; } | Determina se a entrada da legenda está oculta. Leitura/gravação Boolean. |
 | [TextFormat](../../aspose.slides.charts/legendentryproperties/textformat) { get; } | Retorna o formato de texto. Somente leitura [`IChartTextFormat`](../icharttextformat). |
 
 ### Veja Também

@@ -1,14 +1,14 @@
 ---
 title: IVideo
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili video yang disematkan ke dalam presentasi.
+description: Mewakili video yang disisipkan ke dalam presentasi.
 type: docs
-weight: 7360
+weight: 7380
 url: /id/aspose.slides/ivideo/
 ---
-## Antarmuka IVideo
+## IVideo antarmuka
 
-Mewakili video yang disematkan ke dalam presentasi.
+Mewakili video yang disisipkan ke dalam presentasi.
 
 ```csharp
 public interface IVideo
@@ -18,14 +18,14 @@ public interface IVideo
 
 | Nama | Deskripsi |
 | --- | --- |
-| [BinaryData](../../aspose.slides/ivideo/binarydata) { get; } | Mengembalikan salinan data audio. Jika data berjumlah besar, pertimbangkan penggunaan metode [`GetStream`](./getstream) untuk mencegah pemuatan data video yang tidak perlu ke memori atau bahkan OutOfMemoryException. Baca-saja Byte[]. |
-| [ContentType](../../aspose.slides/ivideo/contenttype) { get; } | Mengembalikan tipe MIME dari video, dienkode dalam [`BinaryData`](./binarydata). Baca-saja String. |
+| [BinaryData](../../aspose.slides/ivideo/binarydata) { get; } | Mengembalikan salinan data audio. Jika data berukuran besar, pertimbangkan menggunakan metode [`GetStream`](./getstream) untuk mencegah pemuatan data video yang tidak diperlukan ke memori atau bahkan OutOfMemoryException. Byte[] Baca-saja. |
+| [ContentType](../../aspose.slides/ivideo/contenttype) { get; } | Mengembalikan tipe MIME dari video, dienkode dalam [`BinaryData`](./binarydata). String Baca-saja. |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
-| [GetStream](../../aspose.slides/ivideo/getstream)() | Mengembalikan aliran Stream untuk membaca. Gunakan 'using' atau tutup aliran setelah digunakan. |
+| [GetStream](../../aspose.slides/ivideo/getstream)() | Mengembalikan aliran Stream untuk membaca. Gunakan 'using' atau tutup aliran setelah penggunaan. |
 
 ### Lihat Juga
 

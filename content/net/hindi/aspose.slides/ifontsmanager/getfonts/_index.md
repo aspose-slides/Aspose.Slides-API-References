@@ -1,14 +1,14 @@
 ---
 title: GetFonts
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: प्रेजेंटेशन में उपयोग किए गए फ़ॉन्ट्स को लौटाता है
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: प्रस्तुति में उपयोग किए गए फ़ॉन्ट लौटाता है
 type: docs
-weight: 70
+weight: 80
 url: /hi/aspose.slides/ifontsmanager/getfonts/
 ---
-## IFontsManager.GetFonts विधि
+## IFontsManager.GetFonts मेथड
 
-प्रेजेंटेशन में उपयोग किए गए फ़ॉन्ट्स को लौटाता है
+प्रस्तुति में उपयोग किए गए फ़ॉन्ट लौटाता है
 
 ```csharp
 public IFontData[] GetFonts()
@@ -16,7 +16,7 @@ public IFontData[] GetFonts()
 
 ### रिटर्न वैल्यू
 
-फ़ॉन्ट्स की एक सरणी
+फ़ॉन्ट्स की एक एरे
 
 ### संबंधित देखें
 

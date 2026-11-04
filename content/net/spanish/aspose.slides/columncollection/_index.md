@@ -1,14 +1,14 @@
 ---
 title: ColumnCollection
-second_title: Referencia API de Aspose.Sildes para .NET
-description: Representa una colección de columnas en una tabla.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Representa la colección de columnas en una tabla.
 type: docs
-weight: 2600
+weight: 2620
 url: /es/aspose.slides/columncollection/
 ---
 ## ColumnCollection clase
 
-Representa una colección de columnas en una tabla.
+Representa la colección de columnas en una tabla.
 
 ```csharp
 public sealed class ColumnCollection : DomObject<RowCollection>, IColumnCollection
@@ -21,16 +21,16 @@ public sealed class ColumnCollection : DomObject<RowCollection>, IColumnCollecti
 | [Count](../../aspose.slides/columncollection/count) { get; } | Devuelve el número de columnas en una colección. Solo lectura Int32. |
 | [IsSynchronized](../../aspose.slides/columncollection/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (thread-safe). Solo lectura Boolean. |
 | [Item](../../aspose.slides/columncollection/item) { get; } | Devuelve la columna en el índice especificado. Solo lectura [`Column`](../column). |
-| [SyncRoot](../../aspose.slides/columncollection/syncroot) { get; } | Devuelve una raíz de sincronización. Solo lectura Object. |
+| [SyncRoot](../../aspose.slides/columncollection/syncroot) { get; } | Devuelve la raíz de sincronización. Solo lectura Object. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [AddClone](../../aspose.slides/columncollection/addclone)(IColumn, bool) | Crea una copia de la fila plantilla especificada y la inserta al final de una tabla. |
+| [AddClone](../../aspose.slides/columncollection/addclone)(IColumn, bool) | Crea una copia de la fila de plantilla especificada y la inserta en la parte inferior de una tabla. |
 | [CopyTo](../../aspose.slides/columncollection/copyto)(Array, int) | Copia todos los elementos de la colección al array especificado. |
-| [GetEnumerator](../../aspose.slides/columncollection/getenumerator)() | Devuelve un enumerador que itera a través de la colección. |
-| [InsertClone](../../aspose.slides/columncollection/insertclone)(int, IColumn, bool) | Crea una copia de la columna plantilla especificada y la inserta en la posición especificada de una tabla. |
+| [GetEnumerator](../../aspose.slides/columncollection/getenumerator)() | Devuelve un enumerador que recorre la colección. |
+| [InsertClone](../../aspose.slides/columncollection/insertclone)(int, IColumn, bool) | Crea una copia de la columna de plantilla especificada y la inserta en la posición especificada en una tabla. |
 | [RemoveAt](../../aspose.slides/columncollection/removeat)(int, bool) | Elimina una columna en la posición especificada de una tabla. |
 
 ### Ver también

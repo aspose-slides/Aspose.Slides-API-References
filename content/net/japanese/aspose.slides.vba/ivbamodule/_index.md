@@ -1,9 +1,9 @@
 ---
 title: IVbaModule
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: VBA プロジェクトに含まれるモジュールを表します。
 type: docs
-weight: 11530
+weight: 11550
 url: /ja/aspose.slides.vba/ivbamodule/
 ---
 ## IVbaModule インターフェイス
@@ -18,8 +18,8 @@ public interface IVbaModule
 
 | 名前 | 説明 |
 | --- | --- |
-| [Name](../../aspose.slides.vba/ivbamodule/name) { get; } | モジュールの名前。読み取り専用 String。 |
-| [SourceCode](../../aspose.slides.vba/ivbamodule/sourcecode) { get; set; } | モジュールのソースコード。読み書き可能 String。 |
+| [Name](../../aspose.slides.vba/ivbamodule/name) { get; } | モジュールの名前。読み取り専用の String。 |
+| [SourceCode](../../aspose.slides.vba/ivbamodule/sourcecode) { get; set; } | モジュールのソースコード。読み書き可能な String。 |
 
 ### 参照
 

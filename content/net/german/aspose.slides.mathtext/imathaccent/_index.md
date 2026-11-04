@@ -1,14 +1,14 @@
 ---
 title: IMathAccent
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Gibt die Akzentfunktion an, die aus einer Basis und einem kombinierenden diakritischen Zeichen besteht. Beispiel ́
 type: docs
-weight: 8080
+weight: 8100
 url: /de/aspose.slides.mathtext/imathaccent/
 ---
 ## IMathAccent Schnittstelle
 
-Gibt die Akzentfunktion an, bestehend aus einer Basis- und einem kombinierenden diakritischen Zeichen. Beispiel: 𝑎́
+Gibt die Akzentfunktion an, bestehend aus einer Basis und einem kombinierenden diakritischen Zeichen. Beispiel: 𝑎́
 
 ```csharp
 public interface IMathAccent : IMathElement
@@ -19,8 +19,8 @@ public interface IMathAccent : IMathElement
 | Name | Beschreibung |
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathaccent/asimathelement) { get; } | Ermöglicht das Abrufen der Basis-IMathElement-Schnittstelle [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathaccent/base) { get; } | Das Argument, auf das das Akzent angewendet wurde |
-| [Character](../../aspose.slides.mathtext/imathaccent/character) { get; set; } | Akzentzeichen Der Wert sollte im Bereich (U+0300–U+036F) oder (U+20D0–U+20EF) liegen. Standardwert: Kombinierender Zirkumflex-Akzent (U+0302) |
+| [Base](../../aspose.slides.mathtext/imathaccent/base) { get; } | Das Argument, auf das der Akzent angewendet wurde |
+| [Character](../../aspose.slides.mathtext/imathaccent/character) { get; set; } | Akzentzeichen Der Wert sollte im Bereich (U+0300–U+036F) oder (U+20D0–U+20EF) liegen. Standardwert: Combining Circumflex Accent (U+0302) |
 
 ### Beispiele
 

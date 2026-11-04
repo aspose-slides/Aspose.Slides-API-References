@@ -1,14 +1,14 @@
 ---
 title: ShapesAlignmentType
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mendefinisikan cara mengubah penempatan bentuk yang dipilih pada slide.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mendefinisikan cara untuk mengubah penempatan bentuk terpilih pada slide.
 type: docs
-weight: 9940
+weight: 9960
 url: /id/aspose.slides/shapesalignmenttype/
 ---
 ## ShapesAlignmentType enumerasi
 
-Mendefinisikan cara mengubah penempatan bentuk yang dipilih pada slide.
+Mendefinisikan cara untuk mengubah penempatan bentuk terpilih pada slide.
 
 ```csharp
 public enum ShapesAlignmentType

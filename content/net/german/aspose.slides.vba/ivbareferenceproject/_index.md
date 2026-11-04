@@ -3,7 +3,7 @@ title: IVbaReferenceProject
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Referenz auf ein externes VBA-Projekt dar.
 type: docs
-weight: 11620
+weight: 11640
 url: /de/aspose.slides.vba/ivbareferenceproject/
 ---
 ## IVbaReferenceProject Schnittstelle
@@ -18,7 +18,7 @@ public interface IVbaReferenceProject : IVbaReference
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceproject/asivbareference) { get; } | Gibt zurück IVbaReference Schnittstelle. Schreibgeschützt [`IVbaReference`](../ivbareference). |
+| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceproject/asivbareference) { get; } | Gibt die IVbaReference Schnittstelle zurück. Nur lesbar [`IVbaReference`](../ivbareference). |
 
 ### Siehe auch
 

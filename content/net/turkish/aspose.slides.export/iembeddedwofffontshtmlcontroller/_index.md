@@ -1,14 +1,14 @@
 ---
 title: IEmbeddedWoffFontsHtmlController
-second_title: Aspose.Sildes için .NET API Referansı
-description: Gömülü woff yazı tipleri HTML denetleyicisi.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Gömülü woff yazı tipleri html denetleyicisi.
 type: docs
-weight: 3910
+weight: 3930
 url: /tr/aspose.slides.export/iembeddedwofffontshtmlcontroller/
 ---
 ## IEmbeddedWoffFontsHtmlController arayüz
 
-Gömülü woff yazı tipleri HTML denetleyicisi.
+Gömülü woff yazı tipleri html denetleyicisi.
 
 ```csharp
 public interface IEmbeddedWoffFontsHtmlController : IHtmlFormattingController

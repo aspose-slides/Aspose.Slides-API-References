@@ -1,9 +1,9 @@
 ---
 title: MathDelimiterFactory
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes for .NET API संदर्भ
 description: गणित डिलिमिटर बनाने की अनुमति देता है
 type: docs
-weight: 8660
+weight: 8680
 url: /hi/aspose.slides.mathtext/mathdelimiterfactory/
 ---
 ## MathDelimiterFactory क्लास
@@ -14,24 +14,24 @@ url: /hi/aspose.slides.mathtext/mathdelimiterfactory/
 public class MathDelimiterFactory : IMathDelimiterFactory
 ```
 
-## निर्माता
+## निर्माताओं
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [MathDelimiterFactory](mathdelimiterfactory)() | डिफ़ॉल्ट कंस्ट्रक्टर। |
+| [MathDelimiterFactory](mathdelimiterfactory)() | डिफ़ॉल्ट कन्स्ट्रक्टर। |
 
 ## विधियाँ
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
 | [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | तत्व पर लागू करके एक गणित डिलिमिटर बनाता है |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | तत्व संग्रह पर लागू करके एक गणित डिलिमिटर बनाता है |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | तत्व पर लागू करके एक गणित डिलिमिटर बनाता है |
 
-### टिप्पणी
+### टिप्पणियाँ
 
-COM संगतता के लिये
+COM संगतता के लिए
 
-### देखें
+### और देखें
 
 * इंटरफ़ेस [IMathDelimiterFactory](../imathdelimiterfactory)
 * नामस्थान [Aspose.Slides.MathText](../../aspose.slides.mathtext)

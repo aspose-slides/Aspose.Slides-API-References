@@ -1,14 +1,14 @@
 ---
 title: ChartCategoryLevelsManager
-second_title: Aspose.Sildes for .NET API 参考
-description: 受管理的图表类别级别值的容器。
+second_title: Aspose.Sildes .NET API 参考
+description: 图表类别级别值的托管容器。
 type: docs
-weight: 1290
+weight: 1300
 url: /zh/aspose.slides.charts/chartcategorylevelsmanager/
 ---
 ## ChartCategoryLevelsManager 类
 
-受管理的图表类别级别值的容器。
+管理图表类别级别值的容器。
 
 ```csharp
 public class ChartCategoryLevelsManager : IChartCategoryLevelsManager
@@ -18,16 +18,16 @@ public class ChartCategoryLevelsManager : IChartCategoryLevelsManager
 
 | 名称 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides.charts/chartcategorylevelsmanager/item) { get; } | 返回为定义级别的 IChartDataCell 对象。 |
+| [Item](../../aspose.slides.charts/chartcategorylevelsmanager/item) { get; } | 返回已定义级别的 IChartDataCell object。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [DeleteGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/deletegroupingitem)(int) | 删除定义级别的分组项目。 |
-| [SetGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/setgroupingitem)(int, object) | 设置定义级别的分组项目。 |
+| [DeleteGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/deletegroupingitem)(int) | 删除已定义级别的分组项。 |
+| [SetGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/setgroupingitem)(int, object) | 设置已定义级别的分组项。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IChartCategoryLevelsManager](../ichartcategorylevelsmanager)
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)

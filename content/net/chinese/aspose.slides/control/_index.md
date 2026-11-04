@@ -1,9 +1,9 @@
 ---
 title: Control
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示一个 ActiveX 控件。
 type: docs
-weight: 2690
+weight: 2710
 url: /zh/aspose.slides/control/
 ---
 ## Control 类
@@ -18,8 +18,8 @@ public class Control : DomObject<ControlCollection>, IControl
 
 | 名称 | 描述 |
 | --- | --- |
-| [ActiveXControlBinary](../../aspose.slides/control/activexcontrolbinary) { get; } | 指定 ActiveX 控件的持久性，当用于持久化的方法为 PersistStream、PersistStreamInit 或 PersistStorage 时。 |
-| [ClassId](../../aspose.slides/control/classid) { get; set; } | 获取此控件的类标识。只读 Guid。 |
+| [ActiveXControlBinary](../../aspose.slides/control/activexcontrolbinary) { get; } | 指定 ActiveX 控件的持久性，当使用的持久化方法为 PersistStream、PersistStreamInit 或 PersistStorage 时。 |
+| [ClassId](../../aspose.slides/control/classid) { get; set; } | 获取此控件的类 ID。只读 Guid。 |
 | [Frame](../../aspose.slides/control/frame) { get; set; } | 返回或设置控件的框架。读/写 [`IShapeFrame`](../ishapeframe)。 |
 | [Name](../../aspose.slides/control/name) { get; set; } | 获取或设置此控件的名称。读/写 String。 |
 | [Persistence](../../aspose.slides/control/persistence) { get; } | 获取用于存储 ActiveX 控件属性的方法。只读 [`PersistenceType`](../persistencetype)。 |

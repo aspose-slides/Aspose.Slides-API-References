@@ -1,12 +1,12 @@
 ---
 title: TextExtractionArrangingMode
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili mode yang digunakan selama ekstraksi teks
 type: docs
-weight: 10940
+weight: 10960
 url: /id/aspose.slides/textextractionarrangingmode/
 ---
-## Enumerasi TextExtractionArrangingMode
+## TextExtractionArrangingMode enumerasi
 
 Mewakili mode yang digunakan selama ekstraksi teks
 

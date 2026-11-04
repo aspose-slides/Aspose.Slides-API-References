@@ -1,14 +1,14 @@
 ---
 title: StringChartValue
-second_title: "Aspose.Sildes pro .NET – reference API"
-description: "Reprezentuje řetězcovou hodnotu, která může být uložena v dokumentu prezentace pptx dvěma způsoby: 1) v buňce/buňkách sešitu souvisejících s grafem, 2) jako literální hodnota."
+second_title: Aspose.Sildes pro .NET API Reference
+description: Reprezentuje řetězcovou hodnotu, která může být uložena v dokumentu prezentace pptx dvěma způsoby: 1) v buňce/buňkách sešitu souvisejícího s diagramem, 2) jako doslovná hodnota.
 type: docs
-weight: 2410
+weight: 2430
 url: /cs/aspose.slides.charts/stringchartvalue/
 ---
 ## StringChartValue třída
 
-Reprezentuje řetězcovou hodnotu, která může být uložena v dokumentu prezentace pptx dvěma způsoby: 1) v buňce/buňkách sešitu souvisejících s grafem; 2) jako literální hodnota.
+Reprezentuje řetězcovou hodnotu, která může být uložena v dokumentu prezentace pptx dvěma způsoby: 1) v buňce/buňkách sešitu souvisejícího s diagramem; 2) jako doslovná hodnota.
 
 ```csharp
 public class StringChartValue : BaseChartValue, IStringChartValue
@@ -18,18 +18,18 @@ public class StringChartValue : BaseChartValue, IStringChartValue
 
 | Název | Popis |
 | --- | --- |
-| [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | Přiřazení nulové hodnoty není povoleno. Vrácená hodnota je vždy nenulová. Číst/Zapisovat [`IChartCellCollection`](../ichartcellcollection). |
-| [AsLiteralString](../../aspose.slides.charts/stringchartvalue/asliteralstring) { get; set; } | Vrací nebo nastavuje hodnotu jako literální řetězec. Číst/Zapisovat String. |
-| override [Data](../../aspose.slides.charts/stringchartvalue/data) { get; set; } | Vrací nebo nastavuje objekt Data. Číst/Zapisovat Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Určuje, zda je v potomcích aktuální vlastnost AsCell, AsCells, AsLiteralString nebo AsLiteralDouble. Jinými slovy určuje typ hodnoty vlastnosti Data. Číst/Zapisovat [`DataSourceType`](../datasourcetype). |
+| [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | Přiřazení nulové hodnoty není povoleno. Vrácená hodnota je vždy nenulová. Čtení/zápis [`IChartCellCollection`](../ichartcellcollection). |
+| [AsLiteralString](../../aspose.slides.charts/stringchartvalue/asliteralstring) { get; set; } | Vrací nebo nastavuje hodnotu jako doslovný řetězec. Čtení/zápis String. |
+| override [Data](../../aspose.slides.charts/stringchartvalue/data) { get; set; } | Vrací nebo nastavuje objekt Data. Čtení/zápis Object. |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Určuje, zda je vlastnost AsCell, AsCells, AsLiteralString nebo AsLiteralDouble aktuální v potomcích. Jinými slovy určuje typ hodnoty vlastnosti Data. Čtení/zápis [`DataSourceType`](../datasourcetype). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | Pokud je vlastnost DataSourceType nastavena na DataSourceType.Worksheet, pak tato metoda vrací adresu buněk v sešitu, které představují řetězcová data. Jinak vrací prázdný řetězec. |
-| [SetFromOneCell](../../aspose.slides.charts/stringchartvalue/setfromonecell)(IChartDataCell) | Nastaví hodnotu ze zadané buňky. |
-| override [ToString](../../aspose.slides.charts/stringchartvalue/tostring)() | Vrací data řetězcové hodnoty. Vrátí null, pokud je DataSourceType nepravdivý a nebyla přiřazena žádná řetězcová hodnota. |
+| [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | Pokud je vlastnost DataSourceType nastavena na DataSourceType.Worksheet, tato metoda vrátí adresu buněk v sešitu, které představují řetězcová data. V opačném případě vrátí prázdný řetězec. |
+| [SetFromOneCell](../../aspose.slides.charts/stringchartvalue/setfromonecell)(IChartDataCell) | Nastaví hodnotu ze specifikované buňky. |
+| override [ToString](../../aspose.slides.charts/stringchartvalue/tostring)() | Vrací řetězcová data hodnoty. Vrátí null, pokud je DataSourceType false a nebyla přiřazena žádná řetězcová hodnota. |
 
 ### Viz také
 

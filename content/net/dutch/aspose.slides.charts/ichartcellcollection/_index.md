@@ -3,7 +3,7 @@ title: IChartCellCollection
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt een collectie van cellen met gegevens voor.
 type: docs
-weight: 1780
+weight: 1800
 url: /nl/aspose.slides.charts/ichartcellcollection/
 ---
 ## IChartCellCollection interface
@@ -18,7 +18,7 @@ public interface IChartCellCollection : IEnumerable<IChartDataCell>
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.charts/ichartcellcollection/asienumerable) { get; } | Retourneert ICollection interface. Alleen-lezen IEnumerable. |
+| [AsIEnumerable](../../aspose.slides.charts/ichartcellcollection/asienumerable) { get; } | Retourneert de ICollection interface. Alleen-lezen IEnumerable. |
 | [Count](../../aspose.slides.charts/ichartcellcollection/count) { get; } | Haalt het aantal cellen in de collectie op. Alleen-lezen Int32. |
 | [Item](../../aspose.slides.charts/ichartcellcollection/item) { get; } | Retourneert een cel (IChartDataCell) op index. |
 
@@ -28,8 +28,8 @@ public interface IChartCellCollection : IEnumerable<IChartDataCell>
 | --- | --- |
 | [Add](../../aspose.slides.charts/ichartcellcollection/add#add)(IChartDataCell) | Voegt een nieuwe cel toe aan de collectie. |
 | [Add](../../aspose.slides.charts/ichartcellcollection/add#add_1)(object) | Maakt [`IChartDataCell`](../ichartdatacell) van de opgegeven waarde en voegt deze toe aan de collectie. |
-| [GetCellsAddress](../../aspose.slides.charts/ichartcellcollection/getcellsaddress)() | Retourneert adres van de set cellen in de werkmap. |
-| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | Concatenatie van tekenreeks van alle celwaarden. |
+| [GetCellsAddress](../../aspose.slides.charts/ichartcellcollection/getcellsaddress)() | Retourneert het adres van de set cellen in de werkmap. |
+| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | Samengevoegde tekenreeks van alle tekenreekswaarden van cellen. |
 | [RemoveAt](../../aspose.slides.charts/ichartcellcollection/removeat)(int) | Verwijdert een cel uit de collectie op index. |
 
 ### Zie ook

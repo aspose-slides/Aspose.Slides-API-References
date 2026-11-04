@@ -1,20 +1,20 @@
 ---
 title: InvertIfNegative
-second_title: Tham khảo API Aspose.Sildes cho .NET
+second_title: Aspose.Sildes cho Tham chiếu API .NET
 description: Xác định điểm dữ liệu sẽ đảo ngược màu nếu giá trị là âm. Đọc/ghi Boolean.
 type: docs
-weight: 120
+weight: 160
 url: /vi/aspose.slides.charts/chartdatapoint/invertifnegative/
 ---
 ## ChartDataPoint.InvertIfNegative thuộc tính
 
-Xác định điểm dữ liệu sẽ đảo ngược màu nếu giá trị là âm. Đọc/ghi Boolean.
+Xác định rằng điểm dữ liệu sẽ đảo ngược màu nếu giá trị là âm. Đọc/ghi Boolean.
 
 ```csharp
 public bool InvertIfNegative { get; set; }
 ```
 
-### Xem thêm
+### Xem Thêm
 
 * lớp [ChartDataPoint](../../chartdatapoint)
 * không gian tên [Aspose.Slides.Charts](../../chartdatapoint)

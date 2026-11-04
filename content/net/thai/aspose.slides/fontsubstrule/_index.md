@@ -1,33 +1,33 @@
 ---
 title: FontSubstRule
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงข้อมูลการแทนที่แบบอักษร
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: แสดงข้อมูลการทดแทนแบบอักษร
 type: docs
-weight: 4890
+weight: 4910
 url: /th/aspose.slides/fontsubstrule/
 ---
 ## FontSubstRule คลาส
 
-แสดงข้อมูลการแทนที่แบบอักษร
+แสดงข้อมูลการทดแทนแบบอักษร
 
 ```csharp
 public class FontSubstRule : IFontSubstRule
 ```
 
-## ตัวสร้าง
+## คอนสตรัคเตอร์
 
-| ชื่อ | คำอธิบาย |
+| ชื่อ | รายละเอียด |
 | --- | --- |
-| [FontSubstRule](fontsubstrule#constructor)(IFontData, IFontData) | สร้างอินสแตนซ์ใหม่ |
-| [FontSubstRule](fontsubstrule#constructor_1)(IFontData, IFontData, FontSubstCondition) | สร้างอินสแตนซ์ใหม่ |
+| [FontSubstRule](fontsubstrule#constructor)(IFontData, IFontData) | สร้างอินสแตนซ์ใหม่. |
+| [FontSubstRule](fontsubstrule#constructor_1)(IFontData, IFontData, FontSubstCondition) | สร้างอินสแตนซ์ใหม่. |
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| ชื่อ | รายละเอียด |
 | --- | --- |
-| [DestFont](../../aspose.slides/fontsubstrule/destfont) { get; } | แบบอักษรที่ใช้สำหรับการแทนที่. อ่านอย่างเดียว [`IFontData`](../ifontdata) |
-| [ReplaceFontCondition](../../aspose.slides/fontsubstrule/replacefontcondition) { get; } | กฎที่ใช้สำหรับการแทนที่. อ่านอย่างเดียว [`FontSubstCondition`](../fontsubstcondition) |
-| [SourceFont](../../aspose.slides/fontsubstrule/sourcefont) { get; } | แบบอักษรเพื่อแทนที่. อ่านอย่างเดียว [`IFontData`](../ifontdata) |
+| [DestFont](../../aspose.slides/fontsubstrule/destfont) { get; } | แบบอักษรที่ใช้สำหรับการแทนที่. อ่านอย่างเดียว [`IFontData`](../ifontdata). |
+| [ReplaceFontCondition](../../aspose.slides/fontsubstrule/replacefontcondition) { get; } | กฎที่ใช้สำหรับการแทนที่. อ่านอย่างเดียว [`FontSubstCondition`](../fontsubstcondition). |
+| [SourceFont](../../aspose.slides/fontsubstrule/sourcefont) { get; } | แบบอักษรที่จะแทนที่. อ่านอย่างเดียว [`IFontData`](../ifontdata). |
 
 ### ดูเพิ่มเติม
 

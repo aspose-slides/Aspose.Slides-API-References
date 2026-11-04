@@ -1,14 +1,14 @@
 ---
 title: ColorReplace
-second_title: Référence API Aspose.Sildes pour .NET
-description: Représente un effet de remplacement de couleur. Toutes les couleurs de l'effet sont remplacées par une couleur fixe. Les valeurs alpha ne sont pas affectées.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Représente un effet de remplacement de couleur. Toutes les couleurs d'effet sont remplacées par une couleur fixe. Les valeurs alpha ne sont pas affectées.
 type: docs
-weight: 2950
+weight: 2970
 url: /fr/aspose.slides.effects/colorreplace/
 ---
 ## ColorReplace classe
 
-Représente un effet de remplacement de couleur. Toutes les couleurs de l'effet sont remplacées par une couleur fixe. Les valeurs alpha ne sont pas affectées.
+Représente un effet de remplacement de couleur. Toutes les couleurs d'effet sont changées en une couleur fixe. Les valeurs alpha ne sont pas affectées.
 
 ```csharp
 public sealed class ColorReplace : ImageTransformOperation, IColorReplace
@@ -27,7 +27,7 @@ public sealed class ColorReplace : ImageTransformOperation, IColorReplace
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/colorreplace/equals)(object) | Détermine si le [`ColorReplace`](../colorreplace) spécifié est égal au [`ColorReplace`](../colorreplace) actuel. |
 | [GetEffective](../../aspose.slides.effects/colorreplace/geteffective)() | Obtient les données effectives de l'effet de remplacement de couleur avec l'héritage appliqué. |
-| override [GetHashCode](../../aspose.slides.effects/colorreplace/gethashcode)() | Servir de fonction de hachage pour un type particulier. |
+| override [GetHashCode](../../aspose.slides.effects/colorreplace/gethashcode)() | Fonctionne comme fonction de hachage pour un type particulier. |
 
 ### Voir aussi
 

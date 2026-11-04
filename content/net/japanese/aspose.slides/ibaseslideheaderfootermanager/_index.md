@@ -1,14 +1,14 @@
 ---
 title: IBaseSlideHeaderFooterManager
-second_title: Aspose.Sildes for .NET API リファレンス
-description: すべてのスライドタイプに対してフッター、日付時刻、ページ番号プレースホルダーの動作を保持するマネージャーを表します。
+second_title: Aspose.Sildes for .NET APIリファレンス
+description: すべてのスライドタイプに対して、フッター、日付時刻、ページ番号プレースホルダーの動作を保持するマネージャーを表します。
 type: docs
-weight: 5350
+weight: 5370
 url: /ja/aspose.slides/ibaseslideheaderfootermanager/
 ---
 ## IBaseSlideHeaderFooterManager インターフェイス
 
-すべてのスライドタイプに対してフッター、日付時刻、ページ番号のプレースホルダーの動作を保持するマネージャーを表します。
+すべてのスライドタイプに対して、フッター、日付時刻、ページ番号プレースホルダーの動作を保持するマネージャーを表します。
 
 ```csharp
 public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
@@ -19,9 +19,9 @@ public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
 | 名前 | 説明 |
 | --- | --- |
 | [AsIBaseHeaderFooterManager](../../aspose.slides/ibaseslideheaderfootermanager/asibaseheaderfootermanager) { get; } | IBaseHeaderFooterManager インターフェイスを返します。 |
-| [IsDateTimeVisible](../../aspose.slides/ibaseslideheaderfootermanager/isdatetimevisible) { get; } | 日付時刻プレースホルダーが存在することを示す値を取得します。ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/ibaseslideheaderfootermanager/isfootervisible) { get; } | フッタープレースホルダーが存在することを示す値を取得します。Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/ibaseslideheaderfootermanager/isslidenumbervisible) { get; } | ページ番号プレースホルダーが存在することを示す値を取得します。ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/ibaseslideheaderfootermanager/isdatetimevisible) { get; } | 日付時刻プレースホルダーが存在することを示す値を取得します。ReadBoolean。 |
+| [IsFooterVisible](../../aspose.slides/ibaseslideheaderfootermanager/isfootervisible) { get; } | フッタープレースホルダーが存在することを示す値を取得します。Read Boolean。 |
+| [IsSlideNumberVisible](../../aspose.slides/ibaseslideheaderfootermanager/isslidenumbervisible) { get; } | ページ番号プレースホルダーが存在することを示す値を取得します。ReadBoolean。 |
 
 ## メソッド
 

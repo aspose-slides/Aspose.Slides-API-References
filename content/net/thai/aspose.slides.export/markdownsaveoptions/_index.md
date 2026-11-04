@@ -1,45 +1,45 @@
 ---
 title: MarkdownSaveOptions
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงตัวเลือกที่ควบคุมวิธีการบันทึกงานนำเสนอเป็นรูปแบบ markdown.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงตัวเลือกที่ควบคุมวิธีการบันทึกงานนำเสนอเป็น markdown.
 type: docs
-weight: 4250
+weight: 4270
 url: /th/aspose.slides.export/markdownsaveoptions/
 ---
 ## MarkdownSaveOptions คลาส
 
-แสดงตัวเลือกที่ควบคุมวิธีการบันทึกงานนำเสนอเป็นรูปแบบ markdown.
+แสดงตัวเลือกที่ควบคุมวิธีการบันทึกงานนำเสนอเป็น markdown
 
 ```csharp
 public class MarkdownSaveOptions : SaveOptions
 ```
 
-## คอนสตรักเตอร์
+## ตัวสร้าง
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
 | [MarkdownSaveOptions](markdownsaveoptions)() | Ctor. |
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [BasePath](../../aspose.slides.export/markdownsaveoptions/basepath) { get; set; } | ระบุเส้นทางฐานที่เอกสารพร้อมทรัพยากรจะถูกบันทึกไว้ ค่าเริ่มต้นคือไดเรกทอรีปัจจุบันของแอปพลิเคชัน |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | คืนค่า หรือกำหนดแบบอักษรที่ใช้ในกรณีไม่พบแบบอักษรต้นฉบับ อ่าน-เขียน String. |
-| [ExportType](../../aspose.slides.export/markdownsaveoptions/exporttype) { get; set; } | ระบุสเปค markdown เพื่อแปลงงานนำเสนอ ค่าเริ่มต้นคือ `TextOnly`. |
-| [Flavor](../../aspose.slides.export/markdownsaveoptions/flavor) { get; set; } | ระบุสเปค markdown เพื่อแปลงงานนำเสนอ ค่าเริ่มต้นคือ `Multi-markdown`. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | คืนค่า หรือกำหนดสไตล์การแสดงผลของการไล่สี อ่าน-เขียน [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [BasePath](../../aspose.slides.export/markdownsaveoptions/basepath) { get; set; } | ระบุเส้นทางฐานที่ไฟล์เอกสารพร้อมทรัพยากรจะถูกบันทึก ค่าเริ่มต้นคือไดเรกทอรีปัจจุบันของแอปพลิเคชัน |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | คืนค่า หรือกำหนดแบบอักษรที่ใช้ในกรณีที่ไม่พบแบบอักษรต้นฉบับ เป็น String แบบอ่าน-เขียน |
+| [ExportType](../../aspose.slides.export/markdownsaveoptions/exporttype) { get; set; } | ระบุสเปค markdown ที่จะใช้แปลงงานนำเสนอ ค่าเริ่มต้นคือ `TextOnly`. |
+| [Flavor](../../aspose.slides.export/markdownsaveoptions/flavor) { get; set; } | ระบุสเปค markdown ที่จะใช้แปลงงานนำเสนอ ค่าเริ่มต้นคือ `Multi-markdown`. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | คืนค่า หรือกำหนดรูปแบบการแสดงผลของการไล่สี อ่าน/เขียน [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [HandleRepeatedSpaces](../../aspose.slides.export/markdownsaveoptions/handlerepeatedspaces) { get; set; } |  |
-| [ImagesSaveFolderName](../../aspose.slides.export/markdownsaveoptions/imagessavefoldername) { get; set; } | ระบุชื่อโฟลเดอร์สำหรับบันทึกภาพ ค่าเริ่มต้นคือ `Images`. |
-| [NewLineType](../../aspose.slides.export/markdownsaveoptions/newlinetype) { get; set; } | ระบุว่าหนังสือที่สร้างควรมีบรรทัดใหม่ \\r(Macintosh) หรือ \\n(Unix) หรือ \\r\\n(Windows) ค่าเริ่มต้นคือ `Unix`. |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | แสดงวัตถุ callback สำหรับบันทึกการอัปเดตความคืบหน้าเป็นเปอร์เซ็นต์ ดู [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [RemoveEmptyLines](../../aspose.slides.export/markdownsaveoptions/removeemptylines) { get; set; } | หากตั้งค่าเป็น `true` จะลบบรรทัดที่ว่างเปล่าหรือมีแต่ช่องว่างออกจากผลลัพธ์ Markdown สุดท้าย ค่าเริ่มต้นคือ `false`. |
-| [ShowComments](../../aspose.slides.export/markdownsaveoptions/showcomments) { get; set; } | ระบุว่าหนังสือที่สร้างควรแสดงคอมเมนต์หรือไม่ ค่าเริ่มต้นคือ `false`. |
-| [ShowHiddenSlides](../../aspose.slides.export/markdownsaveoptions/showhiddenslides) { get; set; } | ระบุว่าหนังสือที่สร้างควรรวมสไลด์ที่ซ่อนไว้หรือไม่ ค่าเริ่มต้นคือ `false`. |
-| [ShowSlideNumber](../../aspose.slides.export/markdownsaveoptions/showslidenumber) { get; set; } | ระบุว่าหนังสือที่สร้างควรแสดงหมายเลขของแต่ละสไลด์หรือไม่ ค่าเริ่มต้นคือ `false`. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | ระบุว่าจะข้ามไฮเปอร์ลิงก์ที่มีการเรียก JavaScript เมื่อบันทึกงานนำเสนอหรือไม่ อ่าน-เขียน Boolean ค่าเริ่มต้นคือ **false**. |
-| [SlideNumberFormat](../../aspose.slides.export/markdownsaveoptions/slidenumberformat) { get; set; } | รับหรือกำหนดสตริงรูปแบบที่ใช้สำหรับหัวข้อหมายเลขสไลด์ในผลลัพธ์ Markdown รูปแบบต้องมีตัวแทน \"{0}\" ซึ่งจะถูกแทนที่ด้วยดัชนีสไลด์ระหว่างการส่งออก ตัวอย่าง: \"# Slide {0}\" จะให้ผลลัพธ์เป็น \"# Slide 1\", \"# Slide 2\" เป็นต้น |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | คืนค่า หรือกำหนดวัตถุที่รับคำเตือนและตัดสินใจว่ากระบวนการโหลดจะดำเนินต่อหรือยกเลิก อ่าน-เขียน [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [ImagesSaveFolderName](../../aspose.slides.export/markdownsaveoptions/imagessavefoldername) { get; set; } | ระบุชื่อโฟลเดอร์สำหรับบันทึกรูปภาพ ค่าเริ่มต้นคือ `Images`. |
+| [NewLineType](../../aspose.slides.export/markdownsaveoptions/newlinetype) { get; set; } | ระบุว่าคำสั่งที่สร้างควรมีการขึ้นบรรทัดใหม่แบบ \\r (Macintosh) หรือ \\n (Unix) หรือ \\r\\n (Windows) ค่าเริ่มต้นคือ `Unix`. |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | แทนวัตถุ callback สำหรับการบันทึกอัปเดตความคืบหน้าเป็นเปอร์เซ็นต์ ดู [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [RemoveEmptyLines](../../aspose.slides.export/markdownsaveoptions/removeemptylines) { get; set; } | หากตั้งค่าเป็น `true` จะลบบรรทัดที่ว่างหรือมีแต่ช่องว่างออกจากผลลัพธ์ Markdown สุดท้าย ค่าเริ่มต้นคือ `false`. |
+| [ShowComments](../../aspose.slides.export/markdownsaveoptions/showcomments) { get; set; } | ระบุว่าคำสั่งที่สร้างควรแสดงความคิดเห็นหรือไม่ ค่าเริ่มต้นคือ `false`. |
+| [ShowHiddenSlides](../../aspose.slides.export/markdownsaveoptions/showhiddenslides) { get; set; } | ระบุว่าคำสั่งที่สร้างควรรวมสไลด์ที่ซ่อนอยู่หรือไม่ ค่าเริ่มต้นคือ `false`. |
+| [ShowSlideNumber](../../aspose.slides.export/markdownsaveoptions/showslidenumber) { get; set; } | ระบุว่าคำสั่งที่สร้างควรแสดงหมายเลขของแต่ละสไลด์หรือไม่ ค่าเริ่มต้นคือ `false`. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | ระบุว่าจะข้ามไฮเปอร์ลิงก์ที่เรียกใช้ JavaScript หรือไม่เมื่อบันทึกงานนำเสนอ อ่าน/เขียน แบบ Boolean ค่าเริ่มต้นคือ **false**. |
+| [SlideNumberFormat](../../aspose.slides.export/markdownsaveoptions/slidenumberformat) { get; set; } | รับหรือกำหนดสตริงรูปแบบที่ใช้สำหรับหัวข้อหมายเลขสไลด์ในผลลัพธ์ Markdown รูปแบบต้องรวมตัวแปรแทน "{0}" ซึ่งจะถูกแทนที่ด้วยดัชนีสไลด์เมื่อส่งออก ตัวอย่าง: "# Slide {0}" จะให้ผลลัพธ์เป็น "# Slide 1", "# Slide 2", เป็นต้น |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | คืนค่า หรือกำหนดวัตถุที่รับคำเตือนและตัดสินใจว่ากระบวนการโหลดจะดำเนินต่อหรือยกเลิก อ่าน/เขียน [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### ตัวอย่าง
 
@@ -62,10 +62,10 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### เพิ่มเติม
+### ดูเพิ่มเติม
 
 * คลาส [SaveOptions](../saveoptions)
 * เนมสเปซ [Aspose.Slides.Export](../../aspose.slides.export)
-* แอสเซมบลี [Aspose.Slides](../../)
+* แอสเซ็มบลี [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

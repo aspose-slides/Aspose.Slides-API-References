@@ -1,14 +1,14 @@
 ---
 title: IColorOperation
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: يمثل عمليات لون مختلفة تُستخدم في تحويلات اللون.
+description: يمثل عمليات ألوان مختلفة تُستخدم في تحويلات اللون.
 type: docs
-weight: 5500
+weight: 5520
 url: /ar/aspose.slides/icoloroperation/
 ---
-## IColorOperation واجهة
+## واجهة IColorOperation
 
-يمثل عمليات لون مختلفة تُستخدم في تحويلات اللون.
+يمثّل عمليات ألوان مختلفة تُستخدم في تحويلات الألوان.
 
 ```csharp
 public interface IColorOperation
@@ -18,8 +18,8 @@ public interface IColorOperation
 
 | الاسم | الوصف |
 | --- | --- |
-| [OperationType](../../aspose.slides/icoloroperation/operationtype) { get; } | يعيد أو يضبط نوع العملية. للقراءة فقط [`ColorTransformOperation`](../colortransformoperation). |
-| [Parameter](../../aspose.slides/icoloroperation/parameter) { get; } | يعيد معاملًا لعملية. للقراءة فقط Single. |
+| [OperationType](../../aspose.slides/icoloroperation/operationtype) { get; } | إرجاع أو تعيين نوع العملية. للقراءة فقط [`ColorTransformOperation`](../colortransformoperation). |
+| [Parameter](../../aspose.slides/icoloroperation/parameter) { get; } | إرجاع معامل العملية. للقراءة فقط Single. |
 
 ### انظر أيضًا
 

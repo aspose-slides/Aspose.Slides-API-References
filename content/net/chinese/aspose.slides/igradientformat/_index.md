@@ -3,7 +3,7 @@ title: IGradientFormat
 second_title: Aspose.Sildes .NET API 参考
 description: 表示渐变格式。
 type: docs
-weight: 6000
+weight: 6020
 url: /zh/aspose.slides/igradientformat/
 ---
 ## IGradientFormat 接口
@@ -16,17 +16,17 @@ public interface IGradientFormat : IFillParamSource
 
 ## 属性
 
-| 名称 | 描述 |
+| 名称 | 说明 |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/igradientformat/asifillparamsource) { get; } | 允许获取基础 IFillParamSource 接口。只读 [`IFillParamSource`](../ifillparamsource)。 |
-| [GradientDirection](../../aspose.slides/igradientformat/gradientdirection) { get; set; } | 返回或设置渐变的样式。可读写 [`GradientDirection`](../gradientdirection)。 |
-| [GradientShape](../../aspose.slides/igradientformat/gradientshape) { get; set; } | 返回或设置渐变的形状。可读写 [`GradientShape`](../gradientshape)。 |
-| [GradientStops](../../aspose.slides/igradientformat/gradientstops) { get; } | 返回渐变停靠点的集合。只读 [`IGradientStopCollection`](../igradientstopcollection)。 |
-| [LinearGradientAngle](../../aspose.slides/igradientformat/lineargradientangle) { get; set; } | 返回或设置渐变的角度。可读写 Single。 |
-| [LinearGradientScaled](../../aspose.slides/igradientformat/lineargradientscaled) { get; set; } | 确定渐变是否缩放。可读写 [`NullableBool`](../nullablebool)。 |
-| [TileFlip](../../aspose.slides/igradientformat/tileflip) { get; set; } | 返回或设置渐变的翻转模式。可读写 [`TileFlip`](../tileflip)。 |
+| [GradientDirection](../../aspose.slides/igradientformat/gradientdirection) { get; set; } | 返回或设置渐变的样式。读写 [`GradientDirection`](../gradientdirection)。 |
+| [GradientShape](../../aspose.slides/igradientformat/gradientshape) { get; set; } | 返回或设置渐变的形状。读写 [`GradientShape`](../gradientshape)。 |
+| [GradientStops](../../aspose.slides/igradientformat/gradientstops) { get; } | 返回渐变停止点的集合。只读 [`IGradientStopCollection`](../igradientstopcollection)。 |
+| [LinearGradientAngle](../../aspose.slides/igradientformat/lineargradientangle) { get; set; } | 返回或设置渐变的角度。读写 Single。 |
+| [LinearGradientScaled](../../aspose.slides/igradientformat/lineargradientscaled) { get; set; } | 确定渐变是否缩放。读写 [`NullableBool`](../nullablebool)。 |
+| [TileFlip](../../aspose.slides/igradientformat/tileflip) { get; set; } | 返回或设置渐变的翻转模式。读写 [`TileFlip`](../tileflip)。 |
 
-### 参见
+### 另请参见
 
 * 接口 [IFillParamSource](../ifillparamsource)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

@@ -1,9 +1,9 @@
 ---
 title: ISvgShapeFormattingController
-second_title: Aspose.Sildes .NET API Referencia
+second_title: Aspose.Sildes .NET API referenciához
 description: Az SVG alakzat generálását vezérli.
 type: docs
-weight: 4130
+weight: 4150
 url: /hu/aspose.slides.export/isvgshapeformattingcontroller/
 ---
 ## ISvgShapeFormattingController interfész
@@ -18,7 +18,7 @@ public interface ISvgShapeFormattingController
 
 | Név | Leírás |
 | --- | --- |
-| [FormatShape](../../aspose.slides.export/isvgshapeformattingcontroller/formatshape)(ISvgShape, IShape) | Ez a függvény a forma SVG-re történő renderelése előtt kerül meghívásra, hogy a felhasználó vezérelhesse a létrejött SVG-t. |
+| [FormatShape](../../aspose.slides.export/isvgshapeformattingcontroller/formatshape)(ISvgShape, IShape) | Ez a függvény az alakzat SVG-re történő renderelése előtt hívódik meg, hogy a felhasználó szabályozhassa a keletkező SVG-t. |
 
 ### Lásd még
 

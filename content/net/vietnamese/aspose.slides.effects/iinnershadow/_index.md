@@ -1,9 +1,9 @@
 ---
 title: IInnerShadow
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn hiệu ứng bóng bên trong.
+description: Biểu diễn một hiệu ứng bóng bên trong.
 type: docs
-weight: 3420
+weight: 3440
 url: /vi/aspose.slides.effects/iinnershadow/
 ---
 ## IInnerShadow giao diện
@@ -19,11 +19,11 @@ public interface IInnerShadow : IAccessiblePVIObject<IInnerShadowEffectiveData>,
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iinnershadow/asiaccessiblepviobject) { get; } | Cho phép lấy giao diện IAccessiblePVIObject cơ sở. Chỉ đọc [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iinnershadow/asiimagetransformoperation) { get; } | Cho phép lấy giao diện IImageTransformOperation cơ sở. Chỉ đọc [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/iinnershadow/blurradius) { get; set; } | Bán kính làm mờ. Đọc/ghi Double. |
-| [Direction](../../aspose.slides.effects/iinnershadow/direction) { get; set; } | Hướng của bóng. Đọc/ghi Single. |
-| [Distance](../../aspose.slides.effects/iinnershadow/distance) { get; set; } | Khoảng cách của bóng. Đọc/ghi Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iinnershadow/asiaccessiblepviobject) { get; } | Cho phép lấy giao diện IAccessiblePVIObject cơ bản. Chỉ đọc [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iinnershadow/asiimagetransformoperation) { get; } | Cho phép lấy giao diện IImageTransformOperation cơ bản. Chỉ đọc [`IImageTransformOperation`](../iimagetransformoperation). |
+| [BlurRadius](../../aspose.slides.effects/iinnershadow/blurradius) { get; set; } | Bán kính làm mờ. Đọc/Ghi Double. |
+| [Direction](../../aspose.slides.effects/iinnershadow/direction) { get; set; } | Hướng của bóng. Đọc/Ghi Single. |
+| [Distance](../../aspose.slides.effects/iinnershadow/distance) { get; set; } | Khoảng cách của bóng. Đọc/Ghi Double. |
 | [ShadowColor](../../aspose.slides.effects/iinnershadow/shadowcolor) { get; } | Màu của bóng. Chỉ đọc [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Xem thêm

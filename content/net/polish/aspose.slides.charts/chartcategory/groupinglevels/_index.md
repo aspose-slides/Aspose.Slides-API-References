@@ -1,12 +1,12 @@
 ---
 title: GroupingLevels
-second_title: Aspose.Sildes dla .NET API Reference
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Zarządzany kontener wartości poziomów grupowania kategorii wykresu. Kategoria wielopoziomowa zawiera więcej niż jeden poziom grupowania. Indeksowanie poziomów grupowania jest zerowe. Tylko do odczytu IChartCategoryLevelsManageraspose.slides.charts/ichartcategorylevelsmanager.
 type: docs
-weight: 30
+weight: 40
 url: /pl/aspose.slides.charts/chartcategory/groupinglevels/
 ---
-## Właściwość ChartCategory.GroupingLevels
+## ChartCategory.GroupingLevels właściwość
 
 Zarządzany kontener wartości poziomów grupowania kategorii wykresu. Kategoria wielopoziomowa zawiera więcej niż jeden poziom grupowania. Indeksowanie poziomów grupowania jest zerowe. Tylko do odczytu [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager).
 

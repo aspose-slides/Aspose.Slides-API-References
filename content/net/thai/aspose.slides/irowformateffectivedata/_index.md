@@ -1,14 +1,14 @@
 ---
 title: IRowFormatEffectiveData
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: วัตถุที่ไม่สามารถเปลี่ยนแปลงได้ซึ่งมีคุณสมบัติการจัดรูปแบบแถวตารางที่มีผล
+description: อ็อบเจ็กต์ที่ไม่สามารถเปลี่ยนแปลงได้ซึ่งประกอบด้วยคุณสมบัติกำหนดรูปแบบแถวตารางที่มีผล
 type: docs
-weight: 6880
+weight: 6900
 url: /th/aspose.slides/irowformateffectivedata/
 ---
 ## IRowFormatEffectiveData อินเทอร์เฟซ
 
-วัตถุที่ไม่สามารถเปลี่ยนแปลงได้ซ ซึ่งมีคุณสมบัติการจัดรูปแบบแถวตารางที่มีผล
+อ็อบเจ็กต์ที่ไม่สามารถเปลี่ยนแปลงได้ซึ่งประกอบด้วยคุณสมบัติกำหนดรูปแบบแถวตารางที่มีผล
 
 ```csharp
 public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -18,11 +18,11 @@ public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/irowformateffectivedata/asibasetableformateffectivedata) { get; } | อนุญาตให้รับค่า base ของ IBaseTableFormatEffectiveData อินเทอร์เฟซ. อ่านอย่างเดียว [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/irowformateffectivedata/asibasetableformateffectivedata) { get; } | Allows to get base IBaseTableFormatEffectiveData interface. อ่านอย่างเดียว [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
 
 ### หมายเหตุ
 
-อินเทอร์เฟซนี้ใช้ร่วมกับอินเทอร์เฟซ [`IRowFormat`](../irowformat) เพื่อคืนค่าการจัดรูปแบบที่มีผลโดยมีการสืบทอดและสไตล์ตารางที่นำมาใช้
+อินเทอร์เฟซนี้ใช้ร่วมกับอินเทอร์เฟซ [`IRowFormat`](../irowformat) เพื่อส่งคืนค่าการกำหนดรูปแบบที่มีผลพร้อมการสืบทอดและสไตล์ตารางที่ใช้
 
 ### ดูเพิ่มเติม
 

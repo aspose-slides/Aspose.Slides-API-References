@@ -1,14 +1,14 @@
 ---
 title: Index
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: กำหนดว่าจุดข้อมูลนี้ใช้กับคอลเลกชันลูกของพาเรนต์ชิ้นใด. อ่าน UInt32.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: กำหนดว่าจุดข้อมูลนี้ใช้กับคอลเลกชันบุตรของพาเรนต์รายการใด อ่าน UInt32.
 type: docs
-weight: 80
+weight: 120
 url: /th/aspose.slides.charts/ichartdatapoint/index/
 ---
 ## IChartDataPoint.Index คุณสมบัติ
 
-กำหนดว่าจุดข้อมูลนี้ใช้กับคอลเลกชันลูกของพาเรนต์ชิ้นใด. อ่าน UInt32.
+กำหนดว่าในคอลเลกชันบุตรของพาเรนต์จุดข้อมูลนี้ใช้กับรายการใด อ่าน UInt32.
 
 ```csharp
 public uint Index { get; }
@@ -16,7 +16,7 @@ public uint Index { get; }
 
 ### ดูเพิ่มเติม
 
-* ส่วนต่อประสาน [IChartDataPoint](../../ichartdatapoint)
+* อินเทอร์เฟซ [IChartDataPoint](../../ichartdatapoint)
 * เนมสเปซ [Aspose.Slides.Charts](../../ichartdatapoint)
 * แอสเซมบลี [Aspose.Slides](../../../)
 

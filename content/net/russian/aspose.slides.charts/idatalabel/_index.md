@@ -1,14 +1,14 @@
 ---
 title: IDataLabel
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Справочник API Aspose.Sildes для .NET
 description: Представляет подписи серии.
 type: docs
-weight: 2020
+weight: 2040
 url: /ru/aspose.slides.charts/idatalabel/
 ---
 ## IDataLabel интерфейс
 
-Represents a series labels.
+Представляет подписи серии.
 
 ```csharp
 public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
@@ -18,11 +18,12 @@ public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
 
 | Имя | Описание |
 | --- | --- |
-| [AsIActualLayout](../../aspose.slides.charts/idatalabel/asiactuallayout) { get; } | Возвращает IActualLayout интерфейс. |
-| [AsILayoutable](../../aspose.slides.charts/idatalabel/asilayoutable) { get; } | Возвращает ILayoutable интерфейс. Только для чтения [`ILayoutable`](../ilayoutable). |
-| [AsIOverridableText](../../aspose.slides.charts/idatalabel/asioverridabletext) { get; } | Возвращает IOverridableText интерфейс. Только для чтения [`IOverridableText`](../ioverridabletext). |
+| [AsIActualLayout](../../aspose.slides.charts/idatalabel/asiactuallayout) { get; } | Возвращает интерфейс IActualLayout. |
+| [AsILayoutable](../../aspose.slides.charts/idatalabel/asilayoutable) { get; } | Возвращает интерфейс ILayoutable. Только для чтения [`ILayoutable`](../ilayoutable). |
+| [AsIOverridableText](../../aspose.slides.charts/idatalabel/asioverridabletext) { get; } | Возвращает интерфейс IOverridableText. Только для чтения [`IOverridableText`](../ioverridabletext). |
 | [DataLabelFormat](../../aspose.slides.charts/idatalabel/datalabelformat) { get; } | Возвращает формат подписи данных. Только для чтения [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | False означает, что подпись данных не видима (и поэтому все Show*-флаги (ShowValue, ...) равны false). Только для чтения Boolean. |
+| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | False означает, что подпись данных не видна (и поэтому все флаги Show* (ShowValue, ...) имеют значение false). Только для чтения Boolean. |
+| [LabelShapeType](../../aspose.slides.charts/idatalabel/labelshapetype) { get; set; } | Получает или задает тип формы подписи данных. Возвращает NotDefined, если форма не определена. |
 | [ValueFromCell](../../aspose.slides.charts/idatalabel/valuefromcell) { get; set; } | Получает или задает ячейку данных рабочей книги. Применяется, если свойство IDataLabelFormat.ShowLabelValueFromCell равно true. |
 
 ## Методы
@@ -30,7 +31,7 @@ public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
 | Имя | Описание |
 | --- | --- |
 | [GetActualLabelText](../../aspose.slides.charts/idatalabel/getactuallabeltext)() | Возвращает фактический текст подписи на основе настроек DataLabelFormat или значения TextFrameForOverriding.Text. |
-| [Hide](../../aspose.slides.charts/idatalabel/hide)() | Скрывает подпись данных, установив все Show*-флаги (ShowValue, ...) в состояние false. После этого IsVisible будет false. |
+| [Hide](../../aspose.slides.charts/idatalabel/hide)() | Скрывает подпись данных, установив все флаги Show* (ShowValue, ...) в состояние false. После этого IsVisible будет false. |
 
 ### См. также
 

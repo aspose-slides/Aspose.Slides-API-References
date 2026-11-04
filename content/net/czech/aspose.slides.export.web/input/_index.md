@@ -1,12 +1,12 @@
 ---
 title: Input
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Referenční příručka API Aspose.Sildes pro .NET
 description: Představuje kolekci vstupních prvků (šablon).
 type: docs
-weight: 4630
+weight: 4650
 url: /cs/aspose.slides.export.web/input/
 ---
-## Vstupní třída
+## Input třída
 
 Představuje kolekci vstupních prvků (šablon).
 

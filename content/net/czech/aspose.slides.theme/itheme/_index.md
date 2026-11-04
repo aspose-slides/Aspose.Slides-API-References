@@ -1,14 +1,14 @@
 ---
 title: ITheme
-second_title: Aspose.Sildes pro .NET API referenci
-description: Představuje motiv.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Reprezentuje motiv.
 type: docs
-weight: 11370
+weight: 11390
 url: /cs/aspose.slides.theme/itheme/
 ---
-## ITheme rozhraní
+## Rozhraní ITheme
 
-Představuje motiv.
+Reprezentuje motiv.
 
 ```csharp
 public interface ITheme : IPresentationComponent
@@ -21,7 +21,7 @@ public interface ITheme : IPresentationComponent
 | [AsIPresentationComponent](../../aspose.slides.theme/itheme/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze ke čtení [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 | [ColorScheme](../../aspose.slides.theme/itheme/colorscheme) { get; } | Vrací schéma barev. Pouze ke čtení [`IColorScheme`](../icolorscheme). |
 | [FontScheme](../../aspose.slides.theme/itheme/fontscheme) { get; } | Vrací schéma písma. Pouze ke čtení [`IFontScheme`](../ifontscheme). |
-| [FormatScheme](../../aspose.slides.theme/itheme/formatscheme) { get; } | Vrací schéma formátu tvarů. Pouze ke čtení [`IFormatScheme`](../iformatscheme). |
+| [FormatScheme](../../aspose.slides.theme/itheme/formatscheme) { get; } | Vrací schéma formátu tvaru. Pouze ke čtení [`IFormatScheme`](../iformatscheme). |
 
 ## Metody
 

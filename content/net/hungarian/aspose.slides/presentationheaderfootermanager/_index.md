@@ -1,32 +1,32 @@
 ---
 title: PresentationHeaderFooterManager
-second_title: Aspose.Sildes .NET API referenciája
-description: Olyan menedzsert képvisel, amely a prezentáció összes lábléc, dátum-idő és oldalszám helyőrzőjének viselkedését tartalmazza.
+second_title: Aspose.Sildes a .NET-hez API referenciája
+description: A prezentáció összes lábléc-, dátum-idő- és oldalszám-helyőrzőjének viselkedését kezelő menedzser.
 type: docs
-weight: 9610
+weight: 9630
 url: /hu/aspose.slides/presentationheaderfootermanager/
 ---
 ## PresentationHeaderFooterManager osztály
 
-Olyan menedzsert képvisel, amely a prezentáció összes lábléc-, dátum-idő- és oldalszám-helyőrzőjének viselkedését tartalmazza.
+A prezentáció összes lábléc-, dátum-idő- és oldalszám-helyőrzőjének viselkedését kezelő menedzser.
 
 ```csharp
 public class PresentationHeaderFooterManager : BaseHeaderFooterManager, 
     IPresentationHeaderFooterManager
 ```
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [SetAllDateTimesText](../../aspose.slides/presentationheaderfootermanager/setalldatetimestext)(string) | Beállítja a szöveget az összes dátum-idő helyőrzőhöz, beleértve a mester diákat, elrendezési diákat, diákat, jegyzet mestert, jegyzet diákat és a handout mestert. |
-| [SetAllDateTimesVisibility](../../aspose.slides/presentationheaderfootermanager/setalldatetimesvisibility)(bool) | Módosítja az összes dátum-idő helyőrző láthatóságát, beleértve a mester diákat, elrendezési diákat, diákat, jegyzet mestert, jegyzet diákat és a handout mestert. |
-| [SetAllFootersText](../../aspose.slides/presentationheaderfootermanager/setallfooterstext)(string) | Beállítja a szöveget az összes lábléc helyőrzőhöz, beleértve a mester diákat, elrendezési diákat, diákat, jegyzet mestert, jegyzet diákat és a handout mestert. |
-| [SetAllFootersVisibility](../../aspose.slides/presentationheaderfootermanager/setallfootersvisibility)(bool) | Módosítja az összes lábléc helyőrző láthatóságát, beleértve a mester diákat, elrendezési diákat, diákat, jegyzet mestert, jegyzet diákat és a handout mestert. |
-| [SetAllHeadersText](../../aspose.slides/presentationheaderfootermanager/setallheaderstext)(string) | Beállítja a szöveget az összes fejléc helyőrzőhöz, beleértve a jegyzet mestert, jegyzet diákat és a handout mestert. |
-| [SetAllHeadersVisibility](../../aspose.slides/presentationheaderfootermanager/setallheadersvisibility)(bool) | Módosítja az összes fejléc helyőrző láthatóságát, beleértve a jegyzet mestert, jegyzet diákat és a handout mestert. |
-| [SetAllSlideNumbersVisibility](../../aspose.slides/presentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Módosítja az összes oldalszám helyőrző láthatóságát, beleértve a mester diákat, elrendezési diákat, diákat, jegyzet mestert, jegyzet diákat és a handout mestert. |
-| [SetVisibilityOnAllTitleSlides](../../aspose.slides/presentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Módosítja a lábléc, dátum-idő és oldalszám helyőrzők láthatóságát az összes címdiára és az első elrendezési diára. Címdiák – az első elrendezési diára épülő diák (függetlenül az első elrendezés típusától). |
+| [SetAllDateTimesText](../../aspose.slides/presentationheaderfootermanager/setalldatetimestext)(string) | Beállítja a szöveget az összes dátum-idő helyőrzőhöz, beleértve a mester diákokat, elrendezés diákokat, diákokat, a jegyzetek mestert, a jegyzet diákokat és a kéziszóró mestert. |
+| [SetAllDateTimesVisibility](../../aspose.slides/presentationheaderfootermanager/setalldatetimesvisibility)(bool) | Módosítja az összes dátum-idő helyőrző láthatóságát, beleértve a mester diákokat, elrendezés diákokat, diákokat, a jegyzetek mestert, a jegyzet diákokat és a kéziszóró mestert. |
+| [SetAllFootersText](../../aspose.slides/presentationheaderfootermanager/setallfooterstext)(string) | Beállítja a szöveget az összes lábléc helyőrzőhöz, beleértve a mester diákokat, elrendezés diákokat, diákokat, a jegyzetek mestert, a jegyzet diákokat és a kéziszóró mestert. |
+| [SetAllFootersVisibility](../../aspose.slides/presentationheaderfootermanager/setallfootersvisibility)(bool) | Módosítja az összes lábléc helyőrző láthatóságát, beleértve a mester diákokat, elrendezés diákokat, diákokat, a jegyzetek mestert, a jegyzet diákokat és a kéziszóró mestert. |
+| [SetAllHeadersText](../../aspose.slides/presentationheaderfootermanager/setallheaderstext)(string) | Beállítja a szöveget az összes fejléc helyőrzőhöz, beleértve a jegyzetek mestert, a jegyzet diákokat és a kéziszóró mestert. |
+| [SetAllHeadersVisibility](../../aspose.slides/presentationheaderfootermanager/setallheadersvisibility)(bool) | Módosítja az összes fejléc helyőrző láthatóságát, beleértve a jegyzetek mestert, a jegyzet diákokat és a kéziszóró mestert. |
+| [SetAllSlideNumbersVisibility](../../aspose.slides/presentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Módosítja az összes oldalszám helyőrző láthatóságát, beleértve a mester diákokat, elrendezés diákokat, diákokat, a jegyzetek mestert, a jegyzet diákokat és a kéziszóró mestert. |
+| [SetVisibilityOnAllTitleSlides](../../aspose.slides/presentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Módosítja a lábléc, dátum-idő és oldalszám helyőrzők láthatóságát az összes címdiában és az első elrendezés diában. Címdiák – az első elrendezés diára épülő diák (függetlenül az első elrendezés típusától). |
 
 ### Lásd még
 

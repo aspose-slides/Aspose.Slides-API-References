@@ -1,9 +1,9 @@
 ---
 title: IComment
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET API Reference
 description: Reprezentuje komentarz na slajdzie.
 type: docs
-weight: 5560
+weight: 5580
 url: /pl/aspose.slides/icomment/
 ---
 ## IComment interfejs
@@ -22,7 +22,7 @@ public interface IComment
 | [CreatedTime](../../aspose.slides/icomment/createdtime) { get; set; } | Zwraca lub ustawia czas utworzenia komentarza. Ustawienie tej właściwości na MinValue oznacza, że czas komentarza nie jest ustawiony. Odczyt/zapis DateTime. |
 | [ParentComment](../../aspose.slides/icomment/parentcomment) { get; set; } | Zwraca lub ustawia komentarz nadrzędny. Odczyt/zapis [`IComment`](../icomment). |
 | [Position](../../aspose.slides/icomment/position) { get; set; } | Zwraca lub ustawia pozycję komentarza na slajdzie. Odczyt/zapis PointF. |
-| [Slide](../../aspose.slides/icomment/slide) { get; } | Zwraca lub ustawia nadrzędny slajd komentarza. Tylko do odczytu [`ISlide`](../islide). |
+| [Slide](../../aspose.slides/icomment/slide) { get; } | Zwraca slajd nadrzędny komentarza. Tylko do odczytu [`ISlide`](../islide). |
 | [Text](../../aspose.slides/icomment/text) { get; set; } | Zwraca lub ustawia zwykły tekst komentarza slajdu. Odczyt/zapis String. |
 
 ## Metody

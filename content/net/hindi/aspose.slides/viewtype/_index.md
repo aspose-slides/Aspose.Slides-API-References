@@ -1,14 +1,14 @@
 ---
 title: ViewType
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: प्रस्तुति दृश्य प्रकार
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: प्रेजेंटेशन व्यू प्रकार
 type: docs
-weight: 11750
+weight: 11770
 url: /hi/aspose.slides/viewtype/
 ---
-## ViewType एनीमरेशन
+## ViewType एन्यूमरेशन
 
-प्रस्तुति दृश्य प्रकार
+प्रेजेंटेशन व्यू प्रकार
 
 ```csharp
 public enum ViewType
@@ -19,14 +19,14 @@ public enum ViewType
 | नाम | मान | विवरण |
 | --- | --- | --- |
 | NotDefined | `0` | मान परिभाषित नहीं है |
-| SlideView | `1` | सामान्य स्लाइड दृश्य |
-| SlideMasterView | `2` | स्लाइड मास्टर दृश्य |
-| NotesView | `3` | नोट्स दृश्य |
-| HandoutView | `4` | हैंडआउट दृश्य |
-| NotesMasterView | `5` | नोट्स मास्टर दृश्य |
-| OutlineView | `6` | रूपरेखा दृश्य |
-| SlideSorterView | `7` | स्लाइड सॉर्टर दृश्य |
-| SlideThumbnailView | `8` | स्लाइड थंबनेल दृश्य |
+| SlideView | `1` | सामान्य स्लाइड व्यू |
+| SlideMasterView | `2` | स्लाइड मास्टर व्यू |
+| NotesView | `3` | नोट्स व्यू |
+| HandoutView | `4` | हैंडआउट व्यू |
+| NotesMasterView | `5` | नोट्स मास्टर व्यू |
+| OutlineView | `6` | आउटलाइन व्यू |
+| SlideSorterView | `7` | स्लाइड सॉर्टर व्यू |
+| SlideThumbnailView | `8` | स्लाइड थंबनेल व्यू |
 
 ### संबंधित देखें
 

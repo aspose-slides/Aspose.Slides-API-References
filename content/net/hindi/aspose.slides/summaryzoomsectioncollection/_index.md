@@ -3,43 +3,44 @@ title: SummaryZoomSectionCollection
 second_title: Aspose.Sildes for .NET API संदर्भ
 description: Summary Zoom Section ऑब्जेक्ट्स का संग्रह दर्शाता है।
 type: docs
-weight: 10790
+weight: 10810
 url: /hi/aspose.slides/summaryzoomsectioncollection/
 ---
-## SummaryZoomSectionCollection वर्ग
+## SummaryZoomSectionCollection क्लास
 
-संग्रह में Summary Zoom Section ऑब्जेक्ट्स का एक समूह दर्शाता है।
+Summary Zoom Section objects का संग्रह दर्शाता है।
 
 ```csharp
 public sealed class SummaryZoomSectionCollection : DomObject<SummaryZoomFrame>, 
     ISummaryZoomSectionCollection
 ```
 
+
 ## गुण
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [Count](../../aspose.slides/summaryzoomsectioncollection/count) { get; } | संग्रह में वास्तविक रूप से सम्मिलित तत्वों की संख्या प्राप्त करता है। केवल-पढ़ने योग्य Int32. |
-| [IsSynchronized](../../aspose.slides/summaryzoomsectioncollection/issynchronized) { get; } | यह मान लौटाता है जो दर्शाता है कि क्या संग्रह तक पहुँच समन्वयित (थ्रेड-सेफ़) है। केवल-पढ़ने योग्य Boolean. |
+| [Count](../../aspose.slides/summaryzoomsectioncollection/count) { get; } | संग्रह में वास्तव में मौजूद तत्वों की संख्या प्राप्त करता है। केवल-पढ़ने योग्य Int32. |
+| [IsSynchronized](../../aspose.slides/summaryzoomsectioncollection/issynchronized) { get; } | एक मान लौटाता है जो संकेत देता है कि संग्रह तक पहुँच सिंक्रनाइज़्ड (थ्रेड-सुरक्षित) है या नहीं। केवल-पढ़ने योग्य Boolean. |
 | [Item](../../aspose.slides/summaryzoomsectioncollection/item) { get; } | निर्दिष्ट अनुक्रमणिका पर तत्व प्राप्त करता है। केवल-पढ़ने योग्य [`ISummaryZoomSection`](../isummaryzoomsection). |
-| [SyncRoot](../../aspose.slides/summaryzoomsectioncollection/syncroot) { get; } | समन्वयन रूट लौटाता है। केवल-पढ़ने योग्य Object. |
+| [SyncRoot](../../aspose.slides/summaryzoomsectioncollection/syncroot) { get; } | एक सिंक्रनाइज़ेशन रूट लौटाता है। केवल-पढ़ने योग्य Object. |
 
 ## विधियाँ
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
 | [AddSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/addsummaryzoomsection)(ISection) | नया Summary Zoom Section ऑब्जेक्ट बनाता है और उसे संग्रह में जोड़ता है |
-| [Clear](../../aspose.slides/summaryzoomsectioncollection/clear)() | संग्रह से सभी SummaryZoomSection ऑब्जेक्ट हटाता है। |
-| [CopyTo](../../aspose.slides/summaryzoomsectioncollection/copyto)(Array, int) | पूरे संग्रह को निर्दिष्ट एरे में कॉपी करता है। |
-| [GetEnumerator](../../aspose.slides/summaryzoomsectioncollection/getenumerator)() | एक enumerator लौटाता है जो संग्रह को पार करता है। |
+| [Clear](../../aspose.slides/summaryzoomsectioncollection/clear)() | सभी SummaryZoomSection ऑब्जेक्ट्स को संग्रह से हटाता है। |
+| [CopyTo](../../aspose.slides/summaryzoomsectioncollection/copyto)(Array, int) | पूरे संग्रह को निर्दिष्ट Array में कॉपी करता है। |
+| [GetEnumerator](../../aspose.slides/summaryzoomsectioncollection/getenumerator)() | एक एनीमरेटर लौटाता है जो संग्रह के माध्यम से इटरेट करता है। |
 | [GetSummarySection](../../aspose.slides/summaryzoomsectioncollection/getsummarysection)(ISection) | दिए गए सेक्शन के लिए Summary Zoom Section तत्व लौटाता है। |
-| [IndexOf](../../aspose.slides/summaryzoomsectioncollection/indexof)(ISummaryZoomSection) | निर्दिष्ट SummaryZoomSection ऑब्जेक्ट का अनुक्रमणिका लौटाता है। |
+| [IndexOf](../../aspose.slides/summaryzoomsectioncollection/indexof)(ISummaryZoomSection) | निर्दिष्ट SummaryZoomSection ऑब्जेक्ट का सूचकांक लौटाता है। |
 | [RemoveSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/removesummaryzoomsection)(ISection) | संग्रह से Summary Zoom Section ऑब्जेक्ट हटाता है। |
 
-### देखें
+### संबंधित देखें
 
-* वर्ग [DomObject&lt;TParent&gt;](../domobject-1)
-* वर्ग [SummaryZoomFrame](../summaryzoomframe)
+* क्लास [DomObject&lt;TParent&gt;](../domobject-1)
+* क्लास [SummaryZoomFrame](../summaryzoomframe)
 * इंटरफ़ेस [ISummaryZoomSectionCollection](../isummaryzoomsectioncollection)
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

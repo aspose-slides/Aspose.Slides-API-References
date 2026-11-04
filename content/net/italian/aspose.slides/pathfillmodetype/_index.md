@@ -1,9 +1,9 @@
 ---
 title: PathFillModeType
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Specifica il modo in cui un percorso deve essere riempito
 type: docs
-weight: 9330
+weight: 9350
 url: /it/aspose.slides/pathfillmodetype/
 ---
 ## Enumerazione PathFillModeType
@@ -16,14 +16,14 @@ public enum PathFillModeType : byte
 
 ### Valori
 
-| Name | Value | Description |
+| Nome | Valore | Descrizione |
 | --- | --- | --- |
-| None | `0` | Nessun riempimento del percorso. Specifica che il percorso corrispondente non dovrebbe avere alcun riempimento. |
-| Normal | `1` | Riempimento normale del percorso. Specifica che il percorso corrispondente dovrebbe avere un colore normalmente ombreggiato applicato al suo riempimento. |
-| Lighten | `2` | Riempimento del percorso schiarito. Specifica che il percorso corrispondente dovrebbe avere un colore leggermente ombreggiato applicato al suo riempimento. |
-| LightenLess | `3` | Riempimento del percorso leggermente schiarito. Specifica che il percorso corrispondente dovrebbe avere un colore un po' più chiaro applicato al suo riempimento. |
-| Darken | `4` | Riempimento del percorso scurito. Specifica che il percorso corrispondente dovrebbe avere un colore più scuro applicato al suo riempimento. |
-| DarkenLess | `5` | Riempimento del percorso leggermente scurito. Specifica che il percorso corrispondente dovrebbe avere un colore un po' più scuro applicato al suo riempimento. |
+| None | `0` | Nessun riempimento del percorso Questo specifica che il percorso corrispondente non dovrebbe avere alcun riempimento. |
+| Normal | `1` | Riempimento normale del percorso Questo specifica che il percorso corrispondente dovrebbe avere un colore ombreggiato normalmente applicato al suo riempimento. |
+| Lighten | `2` | Riempimento del percorso schiarito Questo specifica che il percorso corrispondente dovrebbe avere un colore leggermente ombreggiato applicato al suo riempimento. |
+| LightenLess | `3` | Riempimento del percorso leggermente meno schiarito Questo specifica che il percorso corrispondente dovrebbe avere un colore leggermente più chiaro applicato al suo riempimento. |
+| Darken | `4` | Riempimento del percorso scurito Questo specifica che il percorso corrispondente dovrebbe avere un colore più scuro applicato al suo riempimento. |
+| DarkenLess | `5` | Riempimento del percorso leggermente meno scurito Questo specifica che il percorso corrispondente dovrebbe avere un colore leggermente più scuro applicato al suo riempimento. |
 
 ### Vedi anche
 

@@ -1,14 +1,14 @@
 ---
 title: GradientStyle
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili gaya gradien yang tersedia.
+description: Mewakili gaya gradasi yang tersedia.
 type: docs
-weight: 5060
+weight: 5080
 url: /id/aspose.slides/gradientstyle/
 ---
-## enumerasi GradientStyle
+## GradientStyle enumeration
 
-Mewakili gaya gradien yang tersedia.
+Mewakili gaya gradasi yang tersedia.
 
 ```csharp
 public enum GradientStyle
@@ -18,8 +18,8 @@ public enum GradientStyle
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| Default | `0` | Gaya gradien default. |
-| PowerPointUI | `1` | Gaya gradien seperti yang muncul di antarmuka pengguna PowerPoint. |
+| Default | `0` | Gaya gradasi bawaan. |
+| PowerPointUI | `1` | Gaya gradasi seperti yang muncul di antarmuka pengguna PowerPoint. |
 
 ### Lihat Juga
 

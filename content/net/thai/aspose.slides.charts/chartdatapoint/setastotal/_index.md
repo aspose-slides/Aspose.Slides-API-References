@@ -1,14 +1,14 @@
 ---
 title: SetAsTotal
-second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
-description: กำหนดจุดข้อมูลเป็นผลรวม ใช้ได้เฉพาะประเภทซีรีส์ Waterfall เท่านั้น.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: กำหนดจุดข้อมูลให้เป็นผลรวม. ใช้กับประเภทซีรีส์ Waterfall เท่านั้น.
 type: docs
-weight: 170
+weight: 210
 url: /th/aspose.slides.charts/chartdatapoint/setastotal/
 ---
 ## ChartDataPoint.SetAsTotal คุณสมบัติ
 
-กำหนดจุดข้อมูลเป็นผลรวม ใช้ได้เฉพาะประเภทซีรีส์ Waterfall เท่านั้น.
+ตั้งค่าจุดข้อมูลเป็นผลรวม. ใช้กับประเภทซีรีส์ Waterfall เท่านั้น.
 
 ```csharp
 public bool SetAsTotal { get; set; }

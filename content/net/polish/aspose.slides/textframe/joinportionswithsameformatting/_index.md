@@ -1,9 +1,9 @@
 ---
 title: JoinPortionsWithSameFormatting
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET – referencja API
 description: Łączy fragmenty o tym samym formatowaniu we wszystkich akapitach.
 type: docs
-weight: 110
+weight: 120
 url: /pl/aspose.slides/textframe/joinportionswithsameformatting/
 ---
 ## TextFrame.JoinPortionsWithSameFormatting metoda

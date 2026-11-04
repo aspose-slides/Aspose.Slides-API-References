@@ -1,9 +1,9 @@
 ---
 title: Section
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示幻灯片的章节。
 type: docs
-weight: 9750
+weight: 9770
 url: /zh/aspose.slides/section/
 ---
 ## Section 类
@@ -19,16 +19,16 @@ public class Section : DomObject<SectionCollection>, ISection
 | 名称 | 描述 |
 | --- | --- |
 | [Name](../../aspose.slides/section/name) { get; set; } | 章节的名称。 |
-| [SectionId](../../aspose.slides/section/sectionid) { get; } | 章节 ID。 |
+| [SectionId](../../aspose.slides/section/sectionid) { get; } | 章节 Id。 |
 | [StartedFromSlide](../../aspose.slides/section/startedfromslide) { get; } | 返回该章节的第一张幻灯片。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [GetSlidesListOfSection](../../aspose.slides/section/getslideslistofsection)() | 返回章节中的幻灯片列表。 |
+| [GetSlidesListOfSection](../../aspose.slides/section/getslideslistofsection)() | 返回该章节中的幻灯片列表。 |
 
-### 另见
+### 另请参阅
 
 * 类 [DomObject&lt;TParent&gt;](../domobject-1)
 * 类 [SectionCollection](../sectioncollection)

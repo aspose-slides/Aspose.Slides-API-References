@@ -1,9 +1,9 @@
 ---
 title: IErrorBarsFormat
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для .NET справка API
 description: Представляет полосы ошибок серии диаграммы. Пользовательские значения ErrorBars находятся в IChartDataPointCollection в свойстве ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues.
 type: docs
-weight: 2090
+weight: 2110
 url: /ru/aspose.slides.charts/ierrorbarsformat/
 ---
 ## IErrorBarsFormat интерфейс
@@ -18,15 +18,15 @@ public interface IErrorBarsFormat : IChartComponent
 
 | Имя | Описание |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/ierrorbarsformat/asichartcomponent) { get; } | Возвращает интерфейс IChartComponent. Только для чтения [`IChartComponent`](../ichartcomponent). |
+| [AsIChartComponent](../../aspose.slides.charts/ierrorbarsformat/asichartcomponent) { get; } | Возвращает интерфейс IChartComponent. Только чтение [`IChartComponent`](../ichartcomponent). |
 | [Format](../../aspose.slides.charts/ierrorbarsformat/format) { get; set; } | Представляет формат полос ошибок. Чтение/запись [`IFormat`](../iformat). |
-| [HasEndCap](../../aspose.slides.charts/ierrorbarsformat/hasendcap) { get; set; } | Указывает, что окончательная крышка не рисуется на полосах ошибок. Чтение/запись Boolean. |
+| [HasEndCap](../../aspose.slides.charts/ierrorbarsformat/hasendcap) { get; set; } | Указывает, что конец не рисуется на полосах ошибок. Чтение/запись Boolean. |
 | [IsVisible](../../aspose.slides.charts/ierrorbarsformat/isvisible) { get; set; } | Получает или задает видимость Error Bars. Чтение/запись Boolean. |
 | [Type](../../aspose.slides.charts/ierrorbarsformat/type) { get; set; } | Получает или задает тип полос ошибок. Чтение/запись [`ErrorBarType`](../errorbartype). |
-| [Value](../../aspose.slides.charts/ierrorbarsformat/value) { get; set; } | Получает или задает значение, которое используется с типами значений Fixed, Percentage и StandardDeviation для определения длины полос ошибок. Чтение/запись Single. |
+| [Value](../../aspose.slides.charts/ierrorbarsformat/value) { get; set; } | Получает или задает значение, используемое с типами Fixed, Percentage и StandardDeviation для определения длины полос ошибок. Чтение/запись Single. |
 | [ValueType](../../aspose.slides.charts/ierrorbarsformat/valuetype) { get; set; } | Представляет возможные способы определения длины полос ошибок. В случае пользовательского типа значения для указания значения используйте свойство [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) конкретной точки данных в коллекции DataPoints серии. Чтение/запись [`ErrorBarValueType`](../errorbarvaluetype). |
 
-### См. также
+### Смотрите также
 
 * интерфейс [IChartComponent](../ichartcomponent)
 * пространство имён [Aspose.Slides.Charts](../../aspose.slides.charts)

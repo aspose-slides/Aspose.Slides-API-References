@@ -1,20 +1,20 @@
 ---
 title: FontSubstRuleCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een collectie van lettertypevervangingen voor.
+description: Stelt een collectie van lettertype-substituties voor.
 type: docs
-weight: 4900
+weight: 4920
 url: /nl/aspose.slides/fontsubstrulecollection/
 ---
 ## FontSubstRuleCollection klasse
 
-Represents collection of fonts substitution.
+Stelt een collectie van lettertype-substituties voor.
 
 ```csharp
 public class FontSubstRuleCollection : IFontSubstRuleCollection
 ```
 
-## Constructoren
+## Constructors
 
 | Naam | Beschrijving |
 | --- | --- |
@@ -25,18 +25,18 @@ public class FontSubstRuleCollection : IFontSubstRuleCollection
 | Naam | Beschrijving |
 | --- | --- |
 | [Count](../../aspose.slides/fontsubstrulecollection/count) { get; } | Haalt het aantal elementen op dat daadwerkelijk in de collectie zit. Alleen-lezen Int32. |
-| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | Retourneert een waarde die aangeeft of de toegang tot de collectie gesynchroniseerd is (thread-safe). Alleen-lezen Boolean. |
+| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | Geeft een waarde terug die aangeeft of de toegang tot de collectie gesynchroniseerd is (thread-safe). Alleen-lezen Boolean. |
 | [Item](../../aspose.slides/fontsubstrulecollection/item) { get; } | Haalt het element op op de opgegeven index. |
-| [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) { get; } | Retourneert een synchronisatiewortel. Alleen-lezen Object. |
+| [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) { get; } | Geeft een synchronisatiewortel terug. Alleen-lezen Object. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | Voegt de nieuwe lettertypevervangingsregel toe aan de collectie |
-| [CopyTo](../../aspose.slides/fontsubstrulecollection/copyto)(Array, int) | Kopieert alle elementen van de collectie naar de gespecificeerde array. |
-| [GetEnumerator](../../aspose.slides/fontsubstrulecollection/getenumerator)() | Retourneert een enumerator die door de collectie iterereert. |
-| [Remove](../../aspose.slides/fontsubstrulecollection/remove)(IFontSubstRule) | Verwijdert de eerste voorkoming van een specifiek object uit de collectie. |
+| [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | Voegt de nieuwe lettertype-substitutieregel toe aan de collectie |
+| [CopyTo](../../aspose.slides/fontsubstrulecollection/copyto)(Array, int) | Kopieert alle elementen van de collectie naar de opgegeven array. |
+| [GetEnumerator](../../aspose.slides/fontsubstrulecollection/getenumerator)() | Geeft een enumerator terug die door de collectie itereert. |
+| [Remove](../../aspose.slides/fontsubstrulecollection/remove)(IFontSubstRule) | Verwijdert de eerste voorkomen van een specifiek object uit de collectie. |
 
 ### Zie ook
 

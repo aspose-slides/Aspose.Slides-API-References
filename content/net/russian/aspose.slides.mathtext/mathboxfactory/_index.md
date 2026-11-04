@@ -1,14 +1,14 @@
 ---
 title: MathBoxFactory
-second_title: Aspose.Sildes для .NET справка API
-description: Позволяет создать математический блок
+second_title: Справочник API Aspose.Sildes для .NET
+description: Позволяет создавать математическую коробку
 type: docs
-weight: 8640
+weight: 8660
 url: /ru/aspose.slides.mathtext/mathboxfactory/
 ---
 ## MathBoxFactory класс
 
-Позволяет создавать математический блок
+Позволяет создавать математическую коробку
 
 ```csharp
 public class MathBoxFactory : IMathBoxFactory
@@ -24,9 +24,9 @@ public class MathBoxFactory : IMathBoxFactory
 
 | Имя | Описание |
 | --- | --- |
-| [CreateMathBox](../../aspose.slides.mathtext/mathboxfactory/createmathbox)(IMathElement) | Создать математический блок, применяя к элементу |
+| [CreateMathBox](../../aspose.slides.mathtext/mathboxfactory/createmathbox)(IMathElement) | Создает математическую коробку, применяя к элементу |
 
-### Примечание
+### Примечания
 
 Для совместимости с COM
 

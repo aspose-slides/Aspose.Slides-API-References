@@ -3,7 +3,7 @@ title: IAlphaBiLevel
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili efek Alpha Bi-Level. Nilai Alpha Opacity yang kurang dari ambang batas diubah menjadi 0 sepenuhnya transparan dan nilai alpha yang lebih besar atau sama dengan ambang batas diubah menjadi 100 sepenuhnya opak.
 type: docs
-weight: 3020
+weight: 3040
 url: /id/aspose.slides.effects/ialphabilevel/
 ---
 ## IAlphaBiLevel antarmuka
@@ -19,13 +19,13 @@ public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphabilevel/asiaccessiblepviobject) { get; } | Mengizinkan mengambil antarmuka IAccessiblePVIObject dasar. Hanya-baca [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphabilevel/asiimagetransformoperation) { get; } | Mengizinkan mengambil antarmuka IImageTransformOperation dasar. Hanya-baca [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Threshold](../../aspose.slides.effects/ialphabilevel/threshold) { get; set; } | Mengembalikan ambang batas efek. Baca/tulis Single. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphabilevel/asiaccessiblepviobject) { get; } | Mengizinkan pengambilan antarmuka IAccessiblePVIObject dasar. Baca-saja [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphabilevel/asiimagetransformoperation) { get; } | Mengizinkan pengambilan antarmuka IImageTransformOperation dasar. Baca-saja [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Threshold](../../aspose.slides.effects/ialphabilevel/threshold) { get; set; } | Mengembalikan ambang efek. Baca/tulis Single. |
 
 ### Catatan
 
-Gunakan ImageTransformOperationFactory untuk membuat instans dalam COM.
+Gunakan ImageTransformOperationFactory untuk membuat instance di COM.
 
 ### Lihat Juga
 

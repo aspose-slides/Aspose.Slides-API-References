@@ -1,9 +1,9 @@
 ---
 title: IOverrideThemeManager
-second_title: Aspose.Sildes para .NET Referência de API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Fornece acesso a diferentes tipos de temas sobrescritos.
 type: docs
-weight: 11350
+weight: 11370
 url: /pt/aspose.slides.theme/ioverridethememanager/
 ---
 ## IOverrideThemeManager interface
@@ -18,11 +18,11 @@ public interface IOverrideThemeManager : IThemeManager
 
 | Nome | Descrição |
 | --- | --- |
-| [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | Permite obter a interface base IThemeManager. Somente leitura [`IThemeManager`](../ithememanager). |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | Determina se OverrideTheme sobrescreve o tema efetivo herdado ou não. Para habilitar OverrideTheme para sobrescrita, use os métodos OverrideTheme.Init*(). Para desabilitar OverrideTheme de sobrescrever, use o método OverrideTheme.Clear(). Somente leitura Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | Retorna o objeto de tema sobrescrito. Leitura/escrita [`IOverrideTheme`](../ioverridetheme). |
+| [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | Permite obter a interface IThemeManager base. Somente leitura [`IThemeManager`](../ithememanager). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | Determina se OverrideTheme sobrescreve ou não o tema efetivo herdado. Para habilitar OverrideTheme para sobrescrita, use os métodos OverrideTheme.Init*(). Para desabilitar OverrideTheme de sobrescrever, use o método OverrideTheme.Clear(). Boolean somente leitura. |
+| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | Retorna o objeto de tema sobrescrito. Leitura/gravação [`IOverrideTheme`](../ioverridetheme). |
 
-### Veja Também
+### Veja também
 
 * interface [IThemeManager](../ithememanager)
 * namespace [Aspose.Slides.Theme](../../aspose.slides.theme)

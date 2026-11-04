@@ -1,14 +1,14 @@
 ---
 title: Tint
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje efekt Tint. Posouvá hodnoty barvy efektu směrem k/od odstínu o určenou hodnotu.
+description: Představuje efekt Tint. Posouvá hodnoty barev efektu směrem k odstínu nebo od něj o zadanou hodnotu.
 type: docs
-weight: 3660
+weight: 3680
 url: /cs/aspose.slides.effects/tint/
 ---
 ## Tint třída
 
-Představuje efekt Tint. Posouvá hodnoty barvy efektu směrem k / od odstínu o zadané množství.
+Představuje efekt Tint. Posouvá hodnoty barev efektu směrem k odstínu nebo od něj o zadanou hodnotu.
 
 ```csharp
 public sealed class Tint : ImageTransformOperation, ITint
@@ -18,13 +18,13 @@ public sealed class Tint : ImageTransformOperation, ITint
 
 | Název | Popis |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze ke čtení [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze pro čtení [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/tint/equals)(object) | Určuje, zda je zadaný [`Tint`](../tint) roven aktuálnímu [`Tint`](../tint). |
+| override [Equals](../../aspose.slides.effects/tint/equals)(object) | Určuje, zda je specifikovaný [`Tint`](../tint) roven aktuálnímu [`Tint`](../tint). |
 | [GetEffective](../../aspose.slides.effects/tint/geteffective)() | Získá účinná data efektu Tint s aplikovaným děděním. |
 | override [GetHashCode](../../aspose.slides.effects/tint/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ. |
 

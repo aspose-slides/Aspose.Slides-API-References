@@ -1,12 +1,12 @@
 ---
 title: IMultipleCellChartValue
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: チャートセルのコレクションを表します。
 type: docs
-weight: 2170
+weight: 2190
 url: /ja/aspose.slides.charts/imultiplecellchartvalue/
 ---
-## IMMultipleCellChartValue インターフェイス
+## IMultipleCellChartValue インターフェイス
 
 チャートセルのコレクションを表します。
 
@@ -14,15 +14,14 @@ url: /ja/aspose.slides.charts/imultiplecellchartvalue/
 public interface IMultipleCellChartValue : IBaseChartValue
 ```
 
-
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsCells](../../aspose.slides.charts/imultiplecellchartvalue/ascells) { get; set; } | チャートセルのコレクションを取得または設定します。読み取り/書き込み [`IChartCellCollection`](../ichartcellcollection)。 |
-| [AsIBaseChartValue](../../aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue) { get; } | 基本の IBaseChartValue インターフェイスを取得できます。読み取り専用 [`IBaseChartValue`](../ibasechartvalue)。 |
+| [AsCells](../../aspose.slides.charts/imultiplecellchartvalue/ascells) { get; set; } | チャートセルのコレクションを取得または設定します。 読み取り/書き込み [`IChartCellCollection`](../ichartcellcollection). |
+| [AsIBaseChartValue](../../aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue) { get; } | ベースのIBaseChartValueインターフェイスを取得できます。 読み取り専用 [`IBaseChartValue`](../ibasechartvalue). |
 
-### 参照
+### 関連項目
 
 * インターフェイス [IBaseChartValue](../ibasechartvalue)
 * 名前空間 [Aspose.Slides.Charts](../../aspose.slides.charts)

@@ -1,14 +1,14 @@
 ---
 title: Value
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Se UseCell è true allora questa proprietà rappresenta la proprietà AsCell.Value. Se UseCell è false allora questa proprietà rappresenta la proprietà AsLiteral. Lettura/Scrittura Object.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Se UseCell è true allora questa proprietà rappresenta la proprietà AsCell.Value. Se UseCell è false allora questa proprietà rappresenta la proprietà AsLiteral. Lettura/scrittura Object.
 type: docs
-weight: 50
+weight: 60
 url: /it/aspose.slides.charts/ichartcategory/value/
 ---
 ## IChartCategory.Value proprietà
 
-If UseCell is true then this property represents AsCell.Value proprietà. If UseCell is false then this property represents AsLiteral proprietà. Lettura/Scrittura Object.
+Se UseCell è true allora questa proprietà rappresenta la proprietà AsCell.Value. Se UseCell è false allora questa proprietà rappresenta la proprietà AsLiteral. Lettura/scrittura Object.
 
 ```csharp
 public object Value { get; set; }

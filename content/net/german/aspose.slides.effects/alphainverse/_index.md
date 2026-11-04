@@ -1,14 +1,14 @@
 ---
 title: AlphaInverse
-second_title: Aspose.Sildes für .NET API Referenz
-description: Stellt einen Alpha-Inverse-Effekt dar. Alpha-Deckkraftwerte werden umgekehrt, indem sie von 100 subtrahiert werden.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt einen Alpha-Inverse-Effekt dar. Alpha-Opazitätswerte werden invertiert, indem sie von 100 subtrahiert werden.
 type: docs
-weight: 2870
+weight: 2890
 url: /de/aspose.slides.effects/alphainverse/
 ---
 ## AlphaInverse Klasse
 
-Stellt einen Alpha-Inverse-Effekt dar. Alpha- (Deckkraft-) Werte werden umgekehrt, indem sie von 100 % subtrahiert werden.
+Represents an Alpha Inverse effect. Alpha (opacity) values are inverted by subtracting from 100%.
 
 ```csharp
 public sealed class AlphaInverse : ImageTransformOperation, IAlphaInverse
@@ -16,22 +16,22 @@ public sealed class AlphaInverse : ImageTransformOperation, IAlphaInverse
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht das Abrufen der Basis-IPresentationComponent-Schnittstelle. Nur lesbar [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht das Abrufen der Basis IPresentationComponent Schnittstelle. Nur lesbar [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Methoden
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphainverse/equals)(object) | Bestimmt, ob das angegebene [`AlphaInverse`](../alphainverse) dem aktuellen [`AlphaInverse`](../alphainverse) entspricht. |
-| [GetEffective](../../aspose.slides.effects/alphainverse/geteffective)() | Ruft die wirksamen Alpha-Inverse-Effektdaten mit angewandter Vererbung ab. |
+| [GetEffective](../../aspose.slides.effects/alphainverse/geteffective)() | Ruft die wirksamen Alpha Inverse Effektdaten mit angewandter Vererbung ab. |
 | override [GetHashCode](../../aspose.slides.effects/alphainverse/gethashcode)() | Dient als Hash-Funktion für einen bestimmten Typ. |
 
 ### Siehe auch
 
 * Klasse [ImageTransformOperation](../imagetransformoperation)
-* Interface [IAlphaInverse](../ialphainverse)
+* Schnittstelle [IAlphaInverse](../ialphainverse)
 * Namensraum [Aspose.Slides.Effects](../../aspose.slides.effects)
 * Assembly [Aspose.Slides](../../)
 

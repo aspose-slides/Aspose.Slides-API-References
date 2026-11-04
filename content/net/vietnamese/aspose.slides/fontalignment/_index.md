@@ -1,14 +1,14 @@
 ---
 title: FontAlignment
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Biểu thị việc căn chỉnh phông chữ theo chiều dọc.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu thị việc căn dọc cho phông chữ.
 type: docs
-weight: 4800
+weight: 4820
 url: /vi/aspose.slides/fontalignment/
 ---
-## Kiểu liệt kê FontAlignment
+## FontAlignment liệt kê
 
-Biểu thị việc căn chỉnh phông chữ theo chiều dọc.
+Biểu thị việc căn dọc cho phông chữ.
 
 ```csharp
 public enum FontAlignment

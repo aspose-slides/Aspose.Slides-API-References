@@ -1,14 +1,14 @@
 ---
 title: SlideShowSettings
-second_title: Aspose.Sildes .NET API referencia
-description: A prezentáció diavetítés beállításait képviseli.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: A bemutató diavetítésének beállításait képviseli.
 type: docs
-weight: 10480
+weight: 10500
 url: /hu/aspose.slides/slideshowsettings/
 ---
 ## SlideShowSettings osztály
 
-A prezentáció diavetítés beállításait képviseli.
+A bemutató diavetítésének beállításait képviseli.
 
 ```csharp
 public class SlideShowSettings
@@ -18,14 +18,14 @@ public class SlideShowSettings
 
 | Név | Leírás |
 | --- | --- |
-| [Loop](../../aspose.slides/slideshowsettings/loop) { get; set; } | Dia vetítés ismétlése |
-| [PenColor](../../aspose.slides/slideshowsettings/pencolor) { get; } | Toll szín a dia vetítéshez |
-| [ShowAnimation](../../aspose.slides/slideshowsettings/showanimation) { get; set; } | Animáció megjelenítése a dia vetítésben |
+| [Loop](../../aspose.slides/slideshowsettings/loop) { get; set; } | Diavetítés ismétlése |
+| [PenColor](../../aspose.slides/slideshowsettings/pencolor) { get; } | Diavetítéshez használt tollszín |
+| [ShowAnimation](../../aspose.slides/slideshowsettings/showanimation) { get; set; } | Animáció megjelenítése a diavetítésben |
 | [ShowMediaControls](../../aspose.slides/slideshowsettings/showmediacontrols) { get; set; } | Média vezérlők megjelenítése |
-| [ShowNarration](../../aspose.slides/slideshowsettings/shownarration) { get; set; } | Narráció megjelenítése a dia vetítésben |
-| [Slides](../../aspose.slides/slideshowsettings/slides) { get; set; } | Diasorozat tartomány |
-| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | A dia vetítés típusát adja meg vagy állítja be. A következő [`SlideShowType`](./slideshowtype) ősekkel reprezentálva: [`BrowsedAtKiosk`](../browsedatkiosk), [`PresentedBySpeaker`](../presentedbyspeaker) és [`BrowsedByIndividual`](../browsedbyindividual) |
-| [UseTimings](../../aspose.slides/slideshowsettings/usetimings) { get; set; } | Időzítések használata a dia vetítésben |
+| [ShowNarration](../../aspose.slides/slideshowsettings/shownarration) { get; set; } | Narráció megjelenítése a diavetítésben |
+| [Slides](../../aspose.slides/slideshowsettings/slides) { get; set; } | Diák tartománya |
+| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | A diavetítés típusának lekérése vagy beállítása. A következő [`SlideShowType`](./slideshowtype) ősök képviselik: [`BrowsedAtKiosk`](../browsedatkiosk), [`PresentedBySpeaker`](../presentedbyspeaker) és [`BrowsedByIndividual`](../browsedbyindividual) |
+| [UseTimings](../../aspose.slides/slideshowsettings/usetimings) { get; set; } | Időzítések használata a diavetítésben |
 
 ### Lásd még
 

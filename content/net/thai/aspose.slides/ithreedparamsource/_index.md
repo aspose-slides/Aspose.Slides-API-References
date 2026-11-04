@@ -3,7 +3,7 @@ title: IThreeDParamSource
 second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: อินเทอร์เฟซช่วยเหลือแหล่งที่มาของคุณสมบัติ 3D
 type: docs
-weight: 7350
+weight: 7370
 url: /th/aspose.slides/ithreedparamsource/
 ---
 ## IThreeDParamSource อินเทอร์เฟซ

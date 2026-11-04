@@ -1,9 +1,9 @@
 ---
 title: Index
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: 
 type: docs
-weight: 110
+weight: 150
 url: /tr/aspose.slides.charts/chartdatapoint/index/
 ---
 ## ChartDataPoint.Index özelliği

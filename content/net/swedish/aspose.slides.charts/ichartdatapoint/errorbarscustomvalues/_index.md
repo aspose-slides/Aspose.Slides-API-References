@@ -1,20 +1,20 @@
 ---
 title: ErrorBarsCustomValues
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar seriernas felstaplar värden i fallet med anpassad värdetyp. Skrivskyddad IErrorBarsCustomValuesaspose.slides.charts/ierrorbarscustomvalues.
+description: Representerar serie felstaplarvärden i fallet med anpassad värdetyp. Skrivskyddad IErrorBarsCustomValuesaspose.slides.charts/ierrorbarscustomvalues.
 type: docs
-weight: 50
+weight: 90
 url: /sv/aspose.slides.charts/ichartdatapoint/errorbarscustomvalues/
 ---
 ## IChartDataPoint.ErrorBarsCustomValues egenskap
 
-Representerar seriens felstaplar värden i fallet med anpassad värdetyp. Skrivskyddad [`IErrorBarsCustomValues`](../../ierrorbarscustomvalues).
+Representerar seriens felstaplarvärden i fallet med anpassad värdetyp. Skrivskyddad [`IErrorBarsCustomValues`](../../ierrorbarscustomvalues).
 
 ```csharp
 public IErrorBarsCustomValues ErrorBarsCustomValues { get; }
 ```
 
-### Se också
+### Se även
 
 * gränssnitt [IErrorBarsCustomValues](../../ierrorbarscustomvalues)
 * gränssnitt [IChartDataPoint](../../ichartdatapoint)

@@ -1,9 +1,9 @@
 ---
 title: IAlphaReplaceEffectiveData
-second_title: Aspose.Sildes per la documentazione dell'API .NET
+second_title: Aspose.Sildes per .NET - Riferimento API
 description: Oggetto immutabile che rappresenta un effetto Alpha Replace. I valori di opacità alpha dell'effetto vengono sostituiti da un alpha fisso.
 type: docs
-weight: 3150
+weight: 3170
 url: /it/aspose.slides.effects/ialphareplaceeffectivedata/
 ---
 ## IAlphaReplaceEffectiveData interfaccia

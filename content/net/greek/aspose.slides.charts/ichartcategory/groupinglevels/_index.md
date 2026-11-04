@@ -1,14 +1,14 @@
 ---
 title: GroupingLevels
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Διαχειριζόμενο κοντέινερ των τιμών των επιπέδων ομαδοποίησης κατηγορίας διαγράμματος. Η κατηγορία πολλαπλών επιπέδων περιέχει περισσότερα από ένα επίπεδο ομαδοποίησης. Η αρίθμηση των επιπέδων ομαδοποίησης είναι μηδενική. Μόνο για ανάγνωση IChartCategoryLevelsManageraspose.slides.charts/ichartcategorylevelsmanager.
+description: Διαχειριζόμενο container των τιμών των επιπέδων ομαδοποίησης της κατηγορίας διαγράμματος. Η κατηγορία πολλαπλών επιπέδων περιέχει περισσότερα από ένα επίπεδο ομαδοποίησης. Η αρίθμηση των επιπέδων ομαδοποίησης είναι μηδενική. Μόνο για ανάγνωση IChartCategoryLevelsManageraspose.slides.charts/ichartcategorylevelsmanager.
 type: docs
-weight: 30
+weight: 40
 url: /el/aspose.slides.charts/ichartcategory/groupinglevels/
 ---
 ## IChartCategory.GroupingLevels ιδιότητα
 
-Διαχειριζόμενο κοντέινερ των τιμών των επιπέδων ομαδοποίησης κατηγορίας διαγράμματος. Η κατηγορία πολλαπλών επιπέδων περιέχει περισσότερα από ένα επίπεδο ομαδοποίησης. Η αρίθμηση των επιπέδων ομαδοποίησης είναι μηδενική. Μόνο για ανάγνωση [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager).
+Διαχειριζόμενο container των τιμών των επιπέδων ομαδοποίησης της κατηγορίας διαγράμματος. Η κατηγορία πολλαπλών επιπέδων περιέχει περισσότερα από ένα επίπεδο ομαδοποίησης. Η αρίθμηση των επιπέδων ομαδοποίησης αρχίζει από το μηδέν. Μόνο για ανάγνωση [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager).
 
 ```csharp
 public IChartCategoryLevelsManager GroupingLevels { get; }
@@ -16,8 +16,8 @@ public IChartCategoryLevelsManager GroupingLevels { get; }
 
 ### Δείτε επίσης
 
-* διεπαφή [IChartCategoryLevelsManager](../../ichartcategorylevelsmanager)
-* διεπαφή [IChartCategory](../../ichartcategory)
+* διασύνδεση [IChartCategoryLevelsManager](../../ichartcategorylevelsmanager)
+* διασύνδεση [IChartCategory](../../ichartcategory)
 * χώρο ονομάτων [Aspose.Slides.Charts](../../ichartcategory)
 * συγκρότημα [Aspose.Slides](../../../)
 

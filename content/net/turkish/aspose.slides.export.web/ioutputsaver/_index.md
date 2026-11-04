@@ -3,12 +3,12 @@ title: IOutputSaver
 second_title: Aspose.Sildes için .NET API Referansı
 description: Çıktı kaydetme hizmetini temsil eder.
 type: docs
-weight: 4610
+weight: 4630
 url: /tr/aspose.slides.export.web/ioutputsaver/
 ---
-## IOutputSaver arayüz
+## IOutputSaver arayüzü
 
-Çıktı kaydetme hizmetini temsil eder.
+Bir çıktı kaydetme hizmetini temsil eder.
 
 ```csharp
 public interface IOutputSaver

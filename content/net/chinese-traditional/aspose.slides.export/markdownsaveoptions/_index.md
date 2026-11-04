@@ -1,49 +1,49 @@
 ---
 title: MarkdownSaveOptions
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示控制簡報如何儲存為 Markdown 的選項。
+description: 表示控制如何將簡報儲存為 Markdown 的選項。
 type: docs
-weight: 4250
+weight: 4270
 url: /zh-hant/aspose.slides.export/markdownsaveoptions/
 ---
 ## MarkdownSaveOptions 類別
 
-表示控制簡報如何保存為 Markdown 的選項。
+表示控制如何將簡報儲存為 Markdown 的選項。
 
 ```csharp
 public class MarkdownSaveOptions : SaveOptions
 ```
 
-## 建構函式
+## Constructors
 
 | 名稱 | 說明 |
 | --- | --- |
-| [MarkdownSaveOptions](markdownsaveoptions)() | 建構函式 |
+| [MarkdownSaveOptions](markdownsaveoptions)() | 建構函式。 |
 
-## 屬性
+## Properties
 
 | 名稱 | 說明 |
 | --- | --- |
-| [BasePath](../../aspose.slides.export/markdownsaveoptions/basepath) { get; set; } | 指定應保存包含資源的文件的基礎路徑。預設為應用程式的當前目錄。 |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 返回或設定在找不到來源字型時使用的字型。可讀寫 String。 |
+| [BasePath](../../aspose.slides.export/markdownsaveoptions/basepath) { get; set; } | 指定儲存含資源文件的基本路徑。預設為應用程式的目前目錄。 |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 在找不到來源字型時，取得或設定使用的字型。可讀寫 String。 |
 | [ExportType](../../aspose.slides.export/markdownsaveoptions/exporttype) { get; set; } | 指定用於轉換簡報的 Markdown 規格。預設為 `TextOnly`。 |
 | [Flavor](../../aspose.slides.export/markdownsaveoptions/flavor) { get; set; } | 指定用於轉換簡報的 Markdown 規格。預設為 `Multi-markdown`。 |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 返回或設定漸層的視覺樣式。可讀寫 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 取得或設定漸層的視覺樣式。可讀寫 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
 | [HandleRepeatedSpaces](../../aspose.slides.export/markdownsaveoptions/handlerepeatedspaces) { get; set; } |  |
-| [ImagesSaveFolderName](../../aspose.slides.export/markdownsaveoptions/imagessavefoldername) { get; set; } | 指定保存影像的資料夾名稱。預設為 `Images`。 |
-| [NewLineType](../../aspose.slides.export/markdownsaveoptions/newlinetype) { get; set; } | 指定產生的文件應使用的換行符號：\\r（Macintosh）或 \\n（Unix）或 \\r\\n（Windows）。預設為 `Unix`。 |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 表示用於以百分比形式提供儲存進度更新的回呼物件。請參閱 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
-| [RemoveEmptyLines](../../aspose.slides.export/markdownsaveoptions/removeemptylines) { get; set; } | 如果設定為 `true`，則會從最終的 Markdown 輸出中移除空白或僅含空格的行。預設為 `false`。 |
+| [ImagesSaveFolderName](../../aspose.slides.export/markdownsaveoptions/imagessavefoldername) { get; set; } | 指定儲存影像的資料夾名稱。預設為 `Images`。 |
+| [NewLineType](../../aspose.slides.export/markdownsaveoptions/newlinetype) { get; set; } | 指定產生的文件應使用哪種換行符號：\\r（Macintosh）、\\n（Unix）或 \\r\\n（Windows）。預設為 `Unix`。 |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 代表一個用於儲存進度更新（百分比）的回呼物件。請參閱 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
+| [RemoveEmptyLines](../../aspose.slides.export/markdownsaveoptions/removeemptylines) { get; set; } | 如果設為 `true`，則從最終的 Markdown 輸出中移除空白或僅包含空格的行。預設為 `false`。 |
 | [ShowComments](../../aspose.slides.export/markdownsaveoptions/showcomments) { get; set; } | 指定產生的文件是否顯示註解。預設為 `false`。 |
-| [ShowHiddenSlides](../../aspose.slides.export/markdownsaveoptions/showhiddenslides) { get; set; } | 指定產生的文件是否包含隱藏的投影片。預設為 `false`。 |
+| [ShowHiddenSlides](../../aspose.slides.export/markdownsaveoptions/showhiddenslides) { get; set; } | 指定產生的文件是否包含隱藏投影片。預設為 `false`。 |
 | [ShowSlideNumber](../../aspose.slides.export/markdownsaveoptions/showslidenumber) { get; set; } | 指定產生的文件是否顯示每張投影片的編號。預設為 `false`。 |
 | [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定在儲存簡報時是否跳過包含 JavaScript 呼叫的超連結。可讀寫 Boolean。預設值為 **false**。 |
-| [SlideNumberFormat](../../aspose.slides.export/markdownsaveoptions/slidenumberformat) { get; set; } | 取得或設定在 Markdown 輸出中用於投影片編號標題的格式字串。格式必須包含 "{0}" 佔位符，匯出時會以投影片索引取代。範例："# Slide {0}" 會產生 "# Slide 1"、"# Slide 2" 等。 |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 返回或設定一個接收警告並決定載入過程是否繼續或中止的物件。可讀寫 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
+| [SlideNumberFormat](../../aspose.slides.export/markdownsaveoptions/slidenumberformat) { get; set; } | 取得或設定用於 Markdown 輸出中投影片編號標題的格式字串。格式必須包含 "{0}" 佔位符，匯出時會被投影片索引取代。例如："# Slide {0}" 會產生 "# Slide 1", "# Slide 2", 等。 |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 取得或設定一個接收警告並決定載入程序是否繼續或中止的物件。可讀寫 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
 
-### 範例
+### Examples
 
-範例：
+Example:
 
 ```csharp
 [C#]
@@ -62,10 +62,10 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 另見
+### See Also
 
 * 類別 [SaveOptions](../saveoptions)
 * 命名空間 [Aspose.Slides.Export](../../aspose.slides.export)
-* 組件 [Aspose.Slides](../../)
+* 程式集 [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

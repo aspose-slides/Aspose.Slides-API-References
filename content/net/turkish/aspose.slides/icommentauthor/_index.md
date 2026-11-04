@@ -3,10 +3,10 @@ title: ICommentAuthor
 second_title: Aspose.Sildes için .NET API Referansı
 description: Yorumların bir yazarını temsil eder.
 type: docs
-weight: 5570
+weight: 5590
 url: /tr/aspose.slides/icommentauthor/
 ---
-## ICommentAuthor arayüz
+## ICommentAuthor arayüzü
 
 Yorumların bir yazarını temsil eder.
 
@@ -18,9 +18,9 @@ public interface ICommentAuthor
 
 | Ad | Açıklama |
 | --- | --- |
-| [Comments](../../aspose.slides/icommentauthor/comments) { get; } | Bu yazar tarafından yapılan yorumların koleksiyonunu döndürür. Yalnızca okuma [`ICommentCollection`](../icommentcollection). |
-| [Initials](../../aspose.slides/icommentauthor/initials) { get; set; } | Yazarın baş harflerini döndürür veya ayarlar. Okuma/Yazma String. |
-| [Name](../../aspose.slides/icommentauthor/name) { get; set; } | Yazarın adını döndürür veya ayarlar. Okuma/Yazma String. |
+| [Comments](../../aspose.slides/icommentauthor/comments) { get; } | Bu yazar tarafından yapılan yorumların koleksiyonunu döndürür. Salt okunur [`ICommentCollection`](../icommentcollection). |
+| [Initials](../../aspose.slides/icommentauthor/initials) { get; set; } | Yazarın baş harflerini döndürür veya ayarlar. Okunur/yazılabilir String. |
+| [Name](../../aspose.slides/icommentauthor/name) { get; set; } | Yazarın adını döndürür veya ayarlar. Okunur/yazılabilir String. |
 
 ## Yöntemler
 

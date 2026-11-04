@@ -1,14 +1,14 @@
 ---
 title: NullableBool
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: त्रि-स्तरीय बूलियन मानों का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: त्रि-स्थिति Boolean मानों का प्रतिनिधित्व करता है।
 type: docs
-weight: 9170
+weight: 9190
 url: /hi/aspose.slides/nullablebool/
 ---
-## NullableBool एन्‍युमरेशन
+## NullableBool एन्यूमरेशन
 
-तीन मान वाली बूलियन मानों को दर्शाता है।
+त्रि-स्थिति Boolean मानों का प्रतिनिधित्व करता है।
 
 ```csharp
 public enum NullableBool : sbyte
@@ -18,11 +18,11 @@ public enum NullableBool : sbyte
 
 | नाम | मान | विवरण |
 | --- | --- | --- |
-| NotDefined | `-1` | बूलियन मान अपरिभाषित है। |
-| False | `0` | फ़ॉल्स मान। |
-| True | `1` | ट्रू मान। |
+| NotDefined | `-1` | Boolean मान अपरिभाषित है। |
+| False | `0` | False मान। |
+| True | `1` | True मान। |
 
-### संबंधित देखें
+### देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

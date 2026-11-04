@@ -1,14 +1,14 @@
 ---
 title: IMorphTransition
-second_title: Aspose.Sildes .NET API Referenciája
-description: Ripple diaátmeneti hatás.
+second_title: Aspose.Sildes .NET API referencia
+description: Hullámzó diaátmenet hatás.
 type: docs
-weight: 10130
+weight: 10150
 url: /hu/aspose.slides.slideshow/imorphtransition/
 ---
 ## IMorphTransition interfész
 
-Ripple diaátmeneti hatás.
+Hullámzó diaátmenet hatás.
 
 ```csharp
 public interface IMorphTransition : ITransitionValueBase
@@ -18,8 +18,8 @@ public interface IMorphTransition : ITransitionValueBase
 
 | Név | Leírás |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/imorphtransition/asitransitionvaluebase) { get; } | Lehetővé teszi a base ITransitionValueBase interfész elérését. Csak olvasható [`ITransitionValueBase`](../itransitionvaluebase). |
-| [MorphType](../../aspose.slides.slideshow/imorphtransition/morphtype) { get; set; } | A morph átmenet típusa. Olvasható/írható [`TransitionMorphType`](../transitionmorphtype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/imorphtransition/asitransitionvaluebase) { get; } | Lehetővé teszi a bázis ITransitionValueBase interfész lekérését. Csak olvasható [`ITransitionValueBase`](../itransitionvaluebase). |
+| [MorphType](../../aspose.slides.slideshow/imorphtransition/morphtype) { get; set; } | A morph átmenet típusa. Olvasás/írás [`TransitionMorphType`](../transitionmorphtype). |
 
 ### Lásd még
 

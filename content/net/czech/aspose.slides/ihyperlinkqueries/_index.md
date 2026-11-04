@@ -1,14 +1,14 @@
 ---
 title: IHyperlinkQueries
-second_title: Aspose.Sildes pro .NET – referenční příručka API
-description: Poskytuje snadný přístup k obsaženým hypertextovým odkazům.
+second_title: Aspose.Sildes pro .NET referenci API
+description: Poskytuje snadný přístup k obsaženým hyperodkazům.
 type: docs
-weight: 6140
+weight: 6160
 url: /cs/aspose.slides/ihyperlinkqueries/
 ---
 ## IHyperlinkQueries rozhraní
 
-Poskytuje snadný přístup k obsaženým hypertextovým odkazům.
+Poskytuje snadný přístup k obsaženým hyperodkazům.
 
 ```csharp
 public interface IHyperlinkQueries
@@ -18,10 +18,10 @@ public interface IHyperlinkQueries
 
 | Název | Popis |
 | --- | --- |
-| [GetAnyHyperlinks](../../aspose.slides/ihyperlinkqueries/getanyhyperlinks)() | Získá všechny podobjekty IHyperlinkContainer, které obsahují nenulový HyperlinkMouseOver. Pomocí zadaného objektu IHyperlinkContainer můžete spravovat jeho hypertextový odkaz (číst, aktualizovat nebo odstranit). Viz rozhraní IHyperlinkContainer. |
-| [GetHyperlinkClicks](../../aspose.slides/ihyperlinkqueries/gethyperlinkclicks)() | Získá všechny podobjekty IHyperlinkContainer, které obsahují nenulový HyperlinkClick. Pomocí zadaného objektu IHyperlinkContainer můžete spravovat jeho hypertextový odkaz (číst, aktualizovat nebo odstranit). Viz rozhraní IHyperlinkContainer. |
-| [GetHyperlinkMouseOvers](../../aspose.slides/ihyperlinkqueries/gethyperlinkmouseovers)() | Získá všechny podobjekty IHyperlinkContainer, které obsahují nenulový HyperlinkMouseOver. Pomocí zadaného objektu IHyperlinkContainer můžete spravovat jeho hypertextový odkaz (číst, aktualizovat nebo odstranit). Viz rozhraní IHyperlinkContainer. |
-| [RemoveAllHyperlinks](../../aspose.slides/ihyperlinkqueries/removeallhyperlinks)() | Odebere všechny obsažené hypertextové odkazy HyperlinkClick a HyperlinkMouseOver (ve všech podobjektech IHyperlinkContainer). |
+| [GetAnyHyperlinks](../../aspose.slides/ihyperlinkqueries/getanyhyperlinks)() | Získá všechny podobjekty IHyperlinkContainer, které obsahují nenulový HyperlinkMouseOver. S daným objektem IHyperlinkContainer můžete spravovat jeho hyperodkaz (číst, aktualizovat nebo odstranit). Viz rozhraní IHyperlinkContainer. |
+| [GetHyperlinkClicks](../../aspose.slides/ihyperlinkqueries/gethyperlinkclicks)() | Získá všechny podobjekty IHyperlinkContainer, které obsahují nenulový HyperlinkClick. S daným objektem IHyperlinkContainer můžete spravovat jeho hyperodkaz (číst, aktualizovat nebo odstranit). Viz rozhraní IHyperlinkContainer. |
+| [GetHyperlinkMouseOvers](../../aspose.slides/ihyperlinkqueries/gethyperlinkmouseovers)() | Získá všechny podobjekty IHyperlinkContainer, které obsahují nenulový HyperlinkMouseOver. S daným objektem IHyperlinkContainer můžete spravovat jeho hyperodkaz (číst, aktualizovat nebo odstranit). Viz rozhraní IHyperlinkContainer. |
+| [RemoveAllHyperlinks](../../aspose.slides/ihyperlinkqueries/removeallhyperlinks)() | Odstraní všechny obsažené hyperodkazy HyperlinkClick a HyperlinkMouseOver (ve všech podobjektech IHyperlinkContainer). |
 
 ### Viz také
 

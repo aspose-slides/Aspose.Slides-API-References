@@ -1,14 +1,14 @@
 ---
 title: WebDocumentOptions
-second_title: Aspose.Sildes for .NET API 參考
-description: 表示用於 WebDocument./webdocument 儲存的選項集合。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 表示 WebDocument./webdocument 儲存的選項集。
 type: docs
-weight: 4690
+weight: 4710
 url: /zh-hant/aspose.slides.export.web/webdocumentoptions/
 ---
 ## WebDocumentOptions 類別
 
-表示用於 [`WebDocument`](../webdocument) 儲存的選項集合。
+表示 [`WebDocument`](../webdocument) 儲存的選項集。
 
 ```csharp
 public class WebDocumentOptions
@@ -16,19 +16,19 @@ public class WebDocumentOptions
 
 ## 建構函式
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
 | [WebDocumentOptions](webdocumentoptions)() | 預設建構函式。 |
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export.web/webdocumentoptions/animateshapes) { get; set; } | 返回或設定形狀動畫選項。可讀寫 Boolean。 |
-| [AnimateTransitions](../../aspose.slides.export.web/webdocumentoptions/animatetransitions) { get; set; } | 返回或設定過渡動畫選項。可讀寫 Boolean。 |
-| [EmbedImages](../../aspose.slides.export.web/webdocumentoptions/embedimages) { get; set; } | 返回或設定影像嵌入選項。可讀寫 Boolean。 |
-| [OutputSaver](../../aspose.slides.export.web/webdocumentoptions/outputsaver) { get; set; } | 返回或設定輸出儲存器。可讀寫 [`IOutputSaver`](../ioutputsaver)。 |
-| [TemplateEngine](../../aspose.slides.export.web/webdocumentoptions/templateengine) { get; set; } | 返回或設定樣板引擎。可讀寫 [`ITemplateEngine`](../itemplateengine)。 |
+| [AnimateShapes](../../aspose.slides.export.web/webdocumentoptions/animateshapes) { get; set; } | 返回或設定圖形動畫選項。讀寫 Boolean. |
+| [AnimateTransitions](../../aspose.slides.export.web/webdocumentoptions/animatetransitions) { get; set; } | 返回或設定過渡動畫選項。讀寫 Boolean. |
+| [EmbedImages](../../aspose.slides.export.web/webdocumentoptions/embedimages) { get; set; } | 返回或設定圖片嵌入選項。讀寫 Boolean. |
+| [OutputSaver](../../aspose.slides.export.web/webdocumentoptions/outputsaver) { get; set; } | 返回或設定輸出儲存器。讀寫 [`IOutputSaver`](../ioutputsaver). |
+| [TemplateEngine](../../aspose.slides.export.web/webdocumentoptions/templateengine) { get; set; } | 返回或設定範本引擎。讀寫 [`ITemplateEngine`](../itemplateengine). |
 
 ### 另請參閱
 

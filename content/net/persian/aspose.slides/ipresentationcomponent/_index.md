@@ -1,24 +1,24 @@
 ---
 title: IPresentationComponent
 second_title: Aspose.Sildes برای مرجع API .NET
-description: نمایانگر یک مؤلفه از ارائه است.
+description: یک مؤلفه از ارائه را نمایش می‌دهد.
 type: docs
-weight: 6760
+weight: 6780
 url: /fa/aspose.slides/ipresentationcomponent/
 ---
 ## IPresentationComponent رابط
 
-نمایانگر یک مؤلفه از ارائه است.
+نمایش یک مؤلفه از ارائه.
 
 ```csharp
 public interface IPresentationComponent
 ```
 
-## خصوصیات
+## ویژگی‌ها
 
 | نام | توضیح |
 | --- | --- |
-| [Presentation](../../aspose.slides/ipresentationcomponent/presentation) { get; } | ارائه را برمی‌گرداند. فقط‌خواندنی [`IPresentation`](../ipresentation). |
+| [Presentation](../../aspose.slides/ipresentationcomponent/presentation) { get; } | ارائه را برمی‌گرداند. فقط-خواندنی [`IPresentation`](../ipresentation). |
 
 ### موارد مرتبط
 

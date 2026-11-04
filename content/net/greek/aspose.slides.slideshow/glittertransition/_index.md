@@ -1,14 +1,14 @@
 ---
 title: GlitterTransition
-second_title: Αναφορά API Aspose.Sildes για .NET
-description: Εφέ μετάβασης διαφάνειας Glitter.
+second_title: Aspose.Sildes για .NET Αναφορά API
+description: Εφέ μετάβασης glitter slide.
 type: docs
-weight: 10050
+weight: 10070
 url: /el/aspose.slides.slideshow/glittertransition/
 ---
 ## GlitterTransition κλάση
 
-Εφέ μετάβασης διαφάνειας Glitter.
+Glitter slide transition effect.
 
 ```csharp
 public class GlitterTransition : TransitionValueBase, IGlitterTransition
@@ -16,22 +16,22 @@ public class GlitterTransition : TransitionValueBase, IGlitterTransition
 
 ## Ιδιότητες
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/glittertransition/direction) { get; set; } | Κατεύθυνση της μετάβασης. Ανάγνωση/εγγραφή [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/glittertransition/pattern) { get; set; } | Καθορίζει το σχήμα των οπτικών που χρησιμοποιούνται κατά τη μετάβαση. Ανάγνωση/εγγραφή [`TransitionPattern`](../transitionpattern). |
+| [Pattern](../../aspose.slides.slideshow/glittertransition/pattern) { get; set; } | Καθορίζει το σχήμα των οπτικών στοιχείων που χρησιμοποιούνται κατά τη διάρκεια της μετάβασης. Ανάγνωση/εγγραφή [`TransitionPattern`](../transitionpattern). |
 
 ## Μέθοδοι
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Καθορίζει εάν τα δύο στιγμιότυπα TransitionValueBase είναι ίσα. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Καθορίζει αν οι δύο TransitionValueBase instances είναι ίσα. |
 | override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Λειτουργεί ως συνάρτηση κατακερματισμού για έναν συγκεκριμένο τύπο, κατάλληλη για χρήση σε αλγόριθμους κατακερματισμού και δομές δεδομένων όπως ένας πίνακας κατακερματισμού. |
 
 ### Δείτε επίσης
 
 * κλάση [TransitionValueBase](../transitionvaluebase)
-* διασύνδεση [IGlitterTransition](../iglittertransition)
+* διεπαφή [IGlitterTransition](../iglittertransition)
 * χώρο ονομάτων [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * συγκρότηση [Aspose.Slides](../../)
 

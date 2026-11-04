@@ -1,14 +1,14 @@
 ---
 title: IBaseHandoutNotesSlideHeaderFooterManag
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili manajer yang menyimpan perilaku placeholder termasuk placeholder header untuk semua jenis slide handout dan notes.
+description: Mewakili manajer yang menyimpan perilaku placeholder termasuk placeholder header untuk semua jenis handout dan slide catatan.
 type: docs
-weight: 5290
+weight: 5310
 url: /id/aspose.slides/ibasehandoutnotesslideheaderfootermanag/
 ---
 ## IBaseHandoutNotesSlideHeaderFooterManag antarmuka
 
-Mewakili manajer yang menyimpan perilaku placeholder, termasuk placeholder header untuk semua jenis slide handout dan notes.
+Mewakili manajer yang menyimpan perilaku placeholder, termasuk placeholder header untuk semua tipe handout dan slide catatan.
 
 ```csharp
 public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFooterManager
@@ -16,16 +16,16 @@ public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFoote
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [AsIBaseSlideHeaderFooterManager](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/asibaseslideheaderfootermanager) { get; } | Mengembalikan antarmuka IBaseSlideHeaderFooterManager. |
-| [IsHeaderVisible](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible) { get; } | Mengambil nilai yang menunjukkan bahwa placeholder header ada. Baca Boolean. |
+| [IsHeaderVisible](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible) { get; } | Mendapatkan nilai yang menunjukkan bahwa placeholder header hadir. Baca Boolean. |
 
 ## Metode
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [SetHeaderText](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadertext)(string) | Mengatur teks ke placeholder header slide. |
+| [SetHeaderText](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadertext)(string) | Menetapkan teks ke placeholder header slide. |
 | [SetHeaderVisibility](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadervisibility)(bool) | Mengubah visibilitas placeholder header slide. |
 
 ### Catatan

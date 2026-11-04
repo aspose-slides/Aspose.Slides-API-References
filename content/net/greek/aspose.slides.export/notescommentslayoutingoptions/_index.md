@@ -1,14 +1,14 @@
 ---
 title: NotesCommentsLayoutingOptions
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Παρέχει επιλογές που ελέγχουν την εμφάνιση της διάταξης των σημειώσεων και των σχολίων στο εξαγόμενο έγγραφο.
+second_title: Aspose.Sildes για .NET Αναφορά API
+description: Παρέχει επιλογές που ελέγχουν την εμφάνιση της διάταξης των σημειώσεων και σχολίων σε εξαγόμενο έγγραφο.
 type: docs
-weight: 4290
+weight: 4310
 url: /el/aspose.slides.export/notescommentslayoutingoptions/
 ---
 ## NotesCommentsLayoutingOptions κλάση
 
-Παρέχει επιλογές που ελέγχουν την εμφάνιση της διάταξης των σημειώσεων και των σχολίων στο εξαγόμενο έγγραφο.
+Παρέχει επιλογές που ελέγχουν την εμφάνιση της διάταξης των σημειώσεων και σχολίων σε εξαγόμενο έγγραφο.
 
 ```csharp
 public class NotesCommentsLayoutingOptions : ISlidesLayoutOptions
@@ -16,19 +16,19 @@ public class NotesCommentsLayoutingOptions : ISlidesLayoutOptions
 
 ## Κατασκευαστές
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
 | [NotesCommentsLayoutingOptions](notescommentslayoutingoptions)() | Προεπιλεγμένος κατασκευαστής. |
 
 ## Ιδιότητες
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
-| [CommentsAreaColor](../../aspose.slides.export/notescommentslayoutingoptions/commentsareacolor) { get; set; } | Λαμβάνει ή ορίζει το χρώμα της περιοχής σχολίων (Ισχύει μόνο αν τα σχόλια εμφανίζονται στα δεξιά). |
-| [CommentsAreaWidth](../../aspose.slides.export/notescommentslayoutingoptions/commentsareawidth) { get; set; } | Λαμβάνει ή ορίζει το πλάτος της περιοχής εξόδου σχολίων σε pixel (Ισχύει μόνο αν τα σχόλια εμφανίζονται στα δεξιά). |
+| [CommentsAreaColor](../../aspose.slides.export/notescommentslayoutingoptions/commentsareacolor) { get; set; } | Λαμβάνει ή ορίζει το χρώμα της περιοχής σχολίων (Ισχύει μόνο εάν τα σχόλια εμφανίζονται στα δεξιά). |
+| [CommentsAreaWidth](../../aspose.slides.export/notescommentslayoutingoptions/commentsareawidth) { get; set; } | Λαμβάνει ή ορίζει το πλάτος της περιοχής εξόδου σχολίων σε εικονοστοιχεία (Ισχύει μόνο εάν τα σχόλια εμφανίζονται στα δεξιά). |
 | [CommentsPosition](../../aspose.slides.export/notescommentslayoutingoptions/commentsposition) { get; set; } | Λαμβάνει ή ορίζει τη θέση των σχολίων στη σελίδα. |
 | [NotesPosition](../../aspose.slides.export/notescommentslayoutingoptions/notesposition) { get; set; } | Λαμβάνει ή ορίζει τη θέση των σημειώσεων στη σελίδα. |
-| [ShowCommentsByNoAuthor](../../aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | Λαμβάνει ή ορίζει την ορατότητα των σχολίων που δεν έχουν συγγραφέα. Εάν είναι true, τότε τα σχόλια θα εμφανίζονται. (Ισχύει μόνο αν τα σχόλια εμφανίζονται). |
+| [ShowCommentsByNoAuthor](../../aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | Λαμβάνει ή ορίζει την ορατότητα των σχολίων που δεν έχουν συγγραφέα. Εάν είναι αληθές, τότε τα σχόλια θα εμφανίζονται. (Ισχύει μόνο εάν τα σχόλια εμφανίζονται). |
 
 ### Δείτε επίσης
 

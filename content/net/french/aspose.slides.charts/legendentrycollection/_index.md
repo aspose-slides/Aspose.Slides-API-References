@@ -3,7 +3,7 @@ title: LegendEntryCollection
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente la collection de légendes.
 type: docs
-weight: 2300
+weight: 2320
 url: /fr/aspose.slides.charts/legendentrycollection/
 ---
 ## LegendEntryCollection classe
@@ -21,7 +21,7 @@ public class LegendEntryCollection : ILegendEntryCollection
 | [Count](../../aspose.slides.charts/legendentrycollection/count) { get; } | Obtient le nombre d'entrées de légende. Lecture seule Int32. |
 | [Item](../../aspose.slides.charts/legendentrycollection/item) { get; } | Obtient les propriétés de l'entrée de légende correspondant à Chart.ChartData.Series[0].DataPoints[index] dans le cas d'un type de graphique provenant de cette liste : ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie ; ou correspondant à Chart.ChartData.Series[index] pour les autres types de graphiques. |
 
-### Voir également
+### Voir aussi
 
 * interface [ILegendEntryCollection](../ilegendentrycollection)
 * espace de noms [Aspose.Slides.Charts](../../aspose.slides.charts)

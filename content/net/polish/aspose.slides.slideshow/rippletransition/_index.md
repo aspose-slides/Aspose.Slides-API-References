@@ -1,14 +1,14 @@
 ---
 title: RippleTransition
-second_title: Aspose.Sildes dla .NET referencja API
-description: Efekt przejścia slajdu typu fali.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Efekt przejścia slajdu w formie fali.
 type: docs
-weight: 10290
+weight: 10310
 url: /pl/aspose.slides.slideshow/rippletransition/
 ---
 ## RippleTransition klasa
 
-Efekt przejścia slajdu typu fali.
+Efekt przejścia slajdu w formie fali.
 
 ```csharp
 public class RippleTransition : TransitionValueBase, IRippleTransition
@@ -24,8 +24,8 @@ public class RippleTransition : TransitionValueBase, IRippleTransition
 
 | Nazwa | Opis |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Określa, czy dwie instancje TransitionValueBase są równe. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Służy jako funkcja skrótu dla określonego typu, odpowiednia do użycia w algorytmach haszujących i strukturach danych, takich jak tablica haszująca. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determines whether the two TransitionValueBase instances are equal. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 
 ### Zobacz także
 

@@ -1,14 +1,14 @@
 ---
 title: FormatScheme
-second_title: Aspose.Sildes for .NET API リファレンス
-description: シェイプのテーマ定義されたフォーマットを格納します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: シェイプのテーマ定義書式を保存します。
 type: docs
-weight: 11140
+weight: 11160
 url: /ja/aspose.slides.theme/formatscheme/
 ---
 ## FormatScheme クラス
 
-シェイプのテーマで定義されたフォーマットを格納します。
+テーマで定義されたシェイプの書式を保存します。
 
 ```csharp
 public class FormatScheme : IFormatScheme

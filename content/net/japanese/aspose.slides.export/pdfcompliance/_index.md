@@ -1,14 +1,14 @@
 ---
 title: PdfCompliance
 second_title: Aspose.Sildes for .NET API リファレンス
-description: PDF 標準の準拠レベルを定義する定数です。
+description: PDF 標準のコンプライアンス レベルを定義する定数です。
 type: docs
-weight: 4320
+weight: 4340
 url: /ja/aspose.slides.export/pdfcompliance/
 ---
-## PdfCompliance 列挙体
+## PdfCompliance 列挙型
 
-PDF 標準の準拠レベルを定義する定数です。
+PDF 標準のコンプライアンス レベルを定義する定数です。
 
 ```csharp
 public enum PdfCompliance
@@ -30,7 +30,7 @@ public enum PdfCompliance
 | PdfUa | `9` | 出力ファイルは PDF/UA 標準に準拠します。 |
 | PdfA2u | `10` | 出力ファイルは PDF/A-2u 標準に準拠します。 |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides.Export](../../aspose.slides.export)
 * アセンブリ [Aspose.Slides](../../)

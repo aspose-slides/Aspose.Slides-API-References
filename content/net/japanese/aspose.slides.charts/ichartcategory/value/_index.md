@@ -1,14 +1,14 @@
 ---
 title: Value
-second_title: Aspose.Sildes for .NET API リファレンス
-description: UseCell が true の場合、このプロパティは AsCell.Value プロパティを表します。UseCell が false の場合、このプロパティは AsLiteral プロパティを表します。読み書き可能 Object.
+second_title: Aspose.Sildes の .NET API リファレンス
+description: UseCell が true の場合、このプロパティは AsCell.Value プロパティを表します。UseCell が false の場合、このプロパティは AsLiteral プロパティを表します。読み取り/書き込み Object.
 type: docs
-weight: 50
+weight: 60
 url: /ja/aspose.slides.charts/ichartcategory/value/
 ---
 ## IChartCategory.Value プロパティ
 
-UseCell が true の場合、このプロパティは AsCell.Value プロパティを表します。UseCell が false の場合、このプロパティは AsLiteral プロパティを表します。読み書き可能 Object.
+UseCell が true の場合、このプロパティは AsCell.Value プロパティを表します。UseCell が false の場合、このプロパティは AsLiteral プロパティを表します。読み取り/書き込み Object.
 
 ```csharp
 public object Value { get; set; }

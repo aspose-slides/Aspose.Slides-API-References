@@ -1,9 +1,9 @@
 ---
 title: ChartDataSourceType
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Справочник API Aspose.Sildes для .NET
 description: Представляет тип источника данных диаграммы
 type: docs
-weight: 1370
+weight: 1380
 url: /ru/aspose.slides.charts/chartdatasourcetype/
 ---
 ## ChartDataSourceType перечисление

@@ -1,9 +1,9 @@
 ---
 title: PptUnsupportedFormatException
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Exception yang dilempar ketika format file presentasi tidak didukung.
 type: docs
-weight: 9540
+weight: 9560
 url: /id/aspose.slides/pptunsupportedformatexception/
 ---
 ## PptUnsupportedFormatException kelas
@@ -14,13 +14,13 @@ Exception yang dilempar ketika format file presentasi tidak didukung.
 public class PptUnsupportedFormatException : PptReadException
 ```
 
-## Konstruktor
+## Constructors
 
 | Nama | Deskripsi |
 | --- | --- |
 | [PptUnsupportedFormatException](pptunsupportedformatexception#constructor)() | Konstruktor default. |
-| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_1)(string) | Konstruktor yang memungkinkan pesan ditambahkan ke exception ini. |
-| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_2)(string, Exception) | Konstruktor untuk exception yang berisi pesan dan exception yang tertanam. |
+| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_1)(string) | Konstruktor yang memungkinkan pesan ditambahkan ke pengecualian ini. |
+| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_2)(string, Exception) | Konstruktor untuk pengecualian yang berisi pesan dan pengecualian yang ditanamkan. |
 
 ### Lihat Juga
 

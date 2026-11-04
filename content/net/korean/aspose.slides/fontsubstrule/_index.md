@@ -1,14 +1,14 @@
 ---
 title: FontSubstRule
-second_title: Aspose.Sildes for .NET API 참조
-description: 글꼴 대체 정보를 나타냅니다
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 폰트 대체 정보를 나타냅니다
 type: docs
-weight: 4890
+weight: 4910
 url: /ko/aspose.slides/fontsubstrule/
 ---
 ## FontSubstRule 클래스
 
-글꼴 대체 정보를 나타냅니다.
+폰트 대체 정보를 나타냅니다
 
 ```csharp
 public class FontSubstRule : IFontSubstRule
@@ -25,9 +25,9 @@ public class FontSubstRule : IFontSubstRule
 
 | 이름 | 설명 |
 | --- | --- |
-| [DestFont](../../aspose.slides/fontsubstrule/destfont) { get; } | 대체에 사용할 글꼴. 읽기 전용 [`IFontData`](../ifontdata). |
+| [DestFont](../../aspose.slides/fontsubstrule/destfont) { get; } | 대체에 사용할 폰트. 읽기 전용 [`IFontData`](../ifontdata). |
 | [ReplaceFontCondition](../../aspose.slides/fontsubstrule/replacefontcondition) { get; } | 대체에 적용할 규칙. 읽기 전용 [`FontSubstCondition`](../fontsubstcondition). |
-| [SourceFont](../../aspose.slides/fontsubstrule/sourcefont) { get; } | 대체할 글꼴. 읽기 전용 [`IFontData`](../ifontdata). |
+| [SourceFont](../../aspose.slides/fontsubstrule/sourcefont) { get; } | 대체할 폰트. 읽기 전용 [`IFontData`](../ifontdata). |
 
 ### 참조
 

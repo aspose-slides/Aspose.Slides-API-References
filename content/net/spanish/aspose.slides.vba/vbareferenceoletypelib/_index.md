@@ -1,14 +1,14 @@
 ---
 title: VbaReferenceOleTypeLib
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa una referencia a la biblioteca de tipos OLE Automation.
+second_title: Referencia de la API de Aspose.Sildes para .NET
+description: Representa una referencia a una biblioteca de tipos OLE Automation.
 type: docs
-weight: 11690
+weight: 11710
 url: /es/aspose.slides.vba/vbareferenceoletypelib/
 ---
 ## VbaReferenceOleTypeLib clase
 
-Representa una referencia a la biblioteca de tipos OLE Automation.
+Representa una referencia a una biblioteca de tipos OLE Automation.
 
 ```csharp
 public class VbaReferenceOleTypeLib : IVbaReferenceOleTypeLib
@@ -18,16 +18,16 @@ public class VbaReferenceOleTypeLib : IVbaReferenceOleTypeLib
 
 | Nombre | Descripción |
 | --- | --- |
-| [VbaReferenceOleTypeLib](vbareferenceoletypelib)(string, string) | Este constructor crea una nueva referencia a la biblioteca de tipos OLE Automation. |
+| [VbaReferenceOleTypeLib](vbareferenceoletypelib)(string, string) | Este constructor crea una nueva referencia a una biblioteca de tipos OLE Automation. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
 | [Libid](../../aspose.slides.vba/vbareferenceoletypelib/libid) { get; set; } | Representa el identificador de una biblioteca de tipos Automation. Lectura/escritura String. |
-| [Name](../../aspose.slides.vba/vbareferenceoletypelib/name) { get; set; } | Representa el nombre de la referencia al proyecto VBA. Lectura/escritura String. |
+| [Name](../../aspose.slides.vba/vbareferenceoletypelib/name) { get; set; } | Representa el nombre de la referencia del proyecto VBA. Lectura/escritura String. |
 
-### Ver también
+### Véase también
 
 * interfaz [IVbaReferenceOleTypeLib](../ivbareferenceoletypelib)
 * espacio de nombres [Aspose.Slides.Vba](../../aspose.slides.vba)

@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions.MarkdownImageSavingHandler
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Invocado para cada imagen que no sea SVG (bitmap o metafile) durante la exportación a Markdown. Devuelve true para usar el enlace especificado o false para aplicar la lógica de guardado predeterminada.
+description: Se invoca para cada imagen que no sea SVG (bitmap o metafile) durante la exportación a Markdown. Devuelve true para usar el enlace especificado o false para aplicar la lógica de guardado predeterminada.
 type: docs
-weight: 4260
+weight: 4280
 url: /es/aspose.slides.export/markdownsaveoptions.markdownimagesavinghandler/
 ---
 ## MarkdownSaveOptions.MarkdownImageSavingHandler delegado
 
-Invocado para cada imagen que no sea SVG (bitmap o metafile) durante la exportación a Markdown. Devuelve `true` para usar el *link* especificado, o `false` para aplicar la lógica de guardado predeterminada.
+Se invoca para cada imagen que no sea SVG (bitmap o metafile) durante la exportación a Markdown. Devuelve `true` para usar el *enlace* especificado, o `false` para aplicar la lógica de guardado predeterminada.
 
 ```csharp
 public delegate bool MarkdownImageSavingHandler(IImage image, ImageFormat format, ref string link);
@@ -16,14 +16,14 @@ public delegate bool MarkdownImageSavingHandler(IImage image, ImageFormat format
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| image | IImage | La imagen que se está exportando (bitmap o metafile). |
+| image | IImage | La imagen que se exporta (bitmap o metafile). |
 | format | ImageFormat | El formato de la imagen. |
-| link | String& | El enlace Markdown que se usará al devolver `true`. |
+| link | String& | El enlace Markdown a usar cuando se devuelve `true`. |
 
 ### Ver también
 
 * interfaz [IImage](../../aspose.slides/iimage)
-* enum [ImageFormat](../../aspose.slides/imageformat)
+* enumeración [ImageFormat](../../aspose.slides/imageformat)
 * clase [MarkdownSaveOptions](../markdownsaveoptions)
 * espacio de nombres [Aspose.Slides.Export](../../aspose.slides.export)
 * ensamblado [Aspose.Slides](../../)

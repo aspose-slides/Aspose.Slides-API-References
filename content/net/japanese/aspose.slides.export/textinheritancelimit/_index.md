@@ -3,12 +3,12 @@ title: TextInheritanceLimit
 second_title: Aspose.Sildes for .NET API リファレンス
 description: テキストプロパティの継承の深さを制御します。
 type: docs
-weight: 4540
+weight: 4560
 url: /ja/aspose.slides.export/textinheritancelimit/
 ---
 ## TextInheritanceLimit 列挙体
 
-テキスト プロパティの継承の深さを制御します。
+テキストプロパティの継承の深さを制御します。
 
 ```csharp
 public enum TextInheritanceLimit

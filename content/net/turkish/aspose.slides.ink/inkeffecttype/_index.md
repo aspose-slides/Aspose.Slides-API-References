@@ -1,14 +1,14 @@
 ---
 title: InkEffectType
 second_title: Aspose.Sildes için .NET API Referansı
-description: Mürekkep işleme için önceden tanımlanmış bir dizi görsel efekti belirtir. Her bir efekt, stilize bir mürekkep görünümünü taklit eden bir doku veya görüntüye karşılık gelir. Bu değerler, renderleme sırasında dijital mürekkep vuruşlarının görsel stilini özelleştirmek için kullanılabilir.
+description: Mürekkep işleme için önceden tanımlanmış bir dizi görsel efekti belirtir. Her efekt, stilize bir mürekkep görünümünü taklit eden bir doku ya da görüntüye karşılık gelir. Bu değerler, işleme sırasında dijital mürekkep darbelerinin görsel stilini özelleştirmek için kullanılabilir.
 type: docs
-weight: 7580
+weight: 7600
 url: /tr/aspose.slides.ink/inkeffecttype/
 ---
-## InkEffectType enum
+## InkEffectType sayım türü
 
-Kalem işleme için önceden tanımlanmış görsel efektlerden oluşan bir küme belirtir. Her bir efekt, stilize bir mürekkep görünümünü taklit eden bir doku veya görüntüye karşılık gelir. Bu değerler, renderleme sırasında dijital mürekkep vuruşlarının görsel stilini özelleştirmek için kullanılabilir.
+Specifies a set of predefined visual effects for ink rendering. Each effect corresponds to a texture or image that simulates a stylized ink appearance. These values can be used to customize the visual style of digital ink strokes during rendering.
 
 ```csharp
 public enum InkEffectType
@@ -16,19 +16,19 @@ public enum InkEffectType
 
 ### Değerler
 
-| Ad | Değer | Açıklama |
+| Name | Value | Description |
 | --- | --- | --- |
-| NotDefined | `-1` | Efekt tanımlanmamış veya bilinmiyor. Bu değer varsayılan veya yedek olarak kullanılabilir. |
-| Bronze | `0` | Bronz mürekkebi andıran sıcak, kahverengimsi metalik bir doku. |
-| Galaxy | `1` | Kozmik tonlarla galaksiye benzeyen renkli, parıltılı bir doku. |
-| Gold | `2` | Mürekkep vuruşlarına lüks bir görünüm kazandıran parlak, metalik altın bir doku. |
-| Lava | `3` | Kırmızı ve turuncu tonlarla erimiş lavı andıran ateşli bir doku. |
-| Ocean | `4` | Okyanus dalgalarını veya su bazlı mürekkebi taklit eden derin mavi, akışkan bir doku. |
-| RainbowGlitter | `5` | Şenlikli veya canlı mürekkep vuruşları için kullanılan renkli, parıltılı gökkuşağı simi efekti. |
-| RoseGold | `6` | Şık mürekkep vuruşları için roz-altın benzeri, yumuşak pembe-altın karışımı. |
-| Silver | `7` | Klasik gümüş mürekkebi taklit eden soğuk, metalik bir gümüş doku. |
+| NotDefined | `-1` | Etki tanımlanmamış veya bilinmiyor. Bu değer varsayılan veya geri dönüş olarak kullanılabilir. |
+| Bronze | `0` | Sıcak, kahverengimsi metalik doku, bronz mürekkebe benzer. |
+| Galaxy | `1` | Renkli, ışıltılı doku, galaksiye benzer, kozmik tonlarla. |
+| Gold | `2` | Parlak, metalik altın doku, mürekkep darbelerine lüks bir görünüm verir. |
+| Lava | `3` | Ateşli doku, erimiş lavaya benzer, kırmızı ve turuncu tonlarla. |
+| Ocean | `4` | Derin mavi, sıvı gibi doku, okyanus dalgalarını veya su bazlı mürekkebi taklit eder. |
+| RainbowGlitter | `5` | Renkli, pırıltılı gökkuşağı simsi efekti, şenlikli veya canlı mürekkep darbeleri için kullanılır. |
+| RoseGold | `6` | Yumuşak pembe-altın karışımı, rose gold gibi, zarif mürekkep darbeleri için. |
+| Silver | `7` | Soğuk, metalik gümüş doku, klasik gümüş mürekkebi taklit eder. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.Ink](../../aspose.slides.ink)
 * derleme [Aspose.Slides](../../)

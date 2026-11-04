@@ -1,14 +1,14 @@
 ---
 title: DataPointLevels
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mengembalikan kontainer tingkat titik data. Diterapkan untuk seri Treeamp dan Sunburst. Indeks tingkat titik data dimulai dari nol.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mengembalikan kontainer tingkat titik data. Diterapkan untuk seri Treeamp dan Sunburst. Pengindeksan tingkat titik data menggunakan basis nol.
 type: docs
-weight: 70
+weight: 110
 url: /id/aspose.slides.charts/chartdatapoint/datapointlevels/
 ---
 ## ChartDataPoint.DataPointLevels properti
 
-Mengembalikan kontainer tingkat titik data. Diterapkan untuk seri Treeamp dan Sunburst. Indeks tingkat titik data dimulai dari nol.
+Mengembalikan kontainer tingkat titik data. Diterapkan untuk seri Treeamp dan Sunburst. Pengindeksan tingkat titik data menggunakan basis nol.
 
 ```csharp
 public IChartDataPointLevelsManager DataPointLevels { get; }

@@ -1,14 +1,14 @@
 ---
 title: IHSL
-second_title: Aspose.Sildes .NET API 参考
-description: 表示一种色相/饱和度/亮度效果。色相、饱和度和亮度可以相对于其当前值进行调整。
+second_title: Aspose.Sildes 的 .NET API 参考
+description: 表示一种色相/饱和度/亮度效果。色相、饱和度和亮度均可相对于其当前值进行调整。
 type: docs
-weight: 3360
+weight: 3380
 url: /zh/aspose.slides.effects/ihsl/
 ---
 ## IHSL 接口
 
-表示一种 Hue/Saturation/Luminance 效果。色相、饱和度和亮度可以相对于其当前值进行调整。
+表示一种色相/饱和度/亮度效果。色相、饱和度和亮度均可相对于其当前值进行调整。
 
 ```csharp
 public interface IHSL : IAccessiblePVIObject<IHSLEffectiveData>, IImageTransformOperation

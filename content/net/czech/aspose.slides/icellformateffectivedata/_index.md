@@ -1,14 +1,14 @@
 ---
 title: ICellFormatEffectiveData
-second_title: Aspose.Sildes pro .NET API Reference
-description: Neměnný objekt, který obsahuje efektivní vlastnosti formátování buňky tabulky.
+second_title: Aspose.Sildes pro .NET – referenční příručka API
+description: Neměnný objekt, který obsahuje efektivní vlastnosti formátování buněk tabulky.
 type: docs
-weight: 5480
+weight: 5500
 url: /cs/aspose.slides/icellformateffectivedata/
 ---
 ## ICellFormatEffectiveData rozhraní
 
-Neměnný objekt, který obsahuje efektivní vlastnosti formátování buňky tabulky.
+Neměnný objekt, který obsahuje efektivní vlastnosti formátování buněk tabulky.
 
 ```csharp
 public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -18,7 +18,7 @@ public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | Název | Popis |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | Umožňuje získat základní rozhraní IBaseTableFormatEffectiveData. Pouze ke čtení [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | Umožňuje získat základní rozhraní IBaseTableFormatEffectiveData. Pouze pro čtení [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
 | [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | Získá průhlednost výplňové barvy. Čte Single. |
 
 ### Poznámky

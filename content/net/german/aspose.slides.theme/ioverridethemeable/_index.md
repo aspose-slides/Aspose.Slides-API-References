@@ -1,14 +1,14 @@
 ---
 title: IOverrideThemeable
-second_title: Aspose.Sildes für .NET API Referenz
-description: Stellt den Override Theme Manager dar.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt den Override-Theme-Manager dar.
 type: docs
-weight: 11360
+weight: 11380
 url: /de/aspose.slides.theme/ioverridethemeable/
 ---
 ## IOverrideThemeable Schnittstelle
 
-Stellt den Override Theme Manager dar.
+Stellt den Override-Theme-Manager dar.
 
 ```csharp
 public interface IOverrideThemeable : IThemeable
@@ -19,7 +19,7 @@ public interface IOverrideThemeable : IThemeable
 | Name | Beschreibung |
 | --- | --- |
 | [AsIThemeable](../../aspose.slides.theme/ioverridethemeable/asithemeable) { get; } | Gibt die IThemeable Schnittstelle zurück. Nur lesbar [`IThemeable`](../ithemeable). |
-| [ThemeManager](../../aspose.slides.theme/ioverridethemeable/thememanager) { get; } | Gibt den Überschreibungs-Theme-Manager zurück. Nur lesbar [`IOverrideThemeManager`](../ioverridethememanager). |
+| [ThemeManager](../../aspose.slides.theme/ioverridethemeable/thememanager) { get; } | Gibt den Override-Theme-Manager zurück. Nur lesbar [`IOverrideThemeManager`](../ioverridethememanager). |
 
 ### Siehe auch
 

@@ -1,14 +1,14 @@
 ---
 title: TransitionType
-second_title: Aspose.Sildes .NET API-referencia
-description: A diavetítés átmeneti típusát képviseli.
+second_title: Aspose.Sildes for .NET API hivatkozás
+description: A diavetítés átmenet típusát reprezentálja.
 type: docs
-weight: 10450
+weight: 10470
 url: /hu/aspose.slides.slideshow/transitiontype/
 ---
 ## TransitionType enumeráció
 
-A diavetítés átmeneti típusát képviseli.
+A diavetítés átmenet típusát reprezentálja.
 
 ```csharp
 public enum TransitionType
@@ -34,12 +34,12 @@ public enum TransitionType
 | Push | `13` |  |
 | Random | `14` |  |
 | RandomBar | `15` |  |
-| Split | `16` | Ekvivalens a transition Wipe-vel a PowerPoint 2010-ban. |
+| Split | `16` | Egyenértékű a transition Wipe a PowerPoint 2010-ban. |
 | Strips | `17` |  |
 | Wedge | `18` | Kapcsolódik a transition Clock (with option Wedge) a PowerPoint 2010-ban. |
 | Wheel | `19` | Kapcsolódik a transition Clock (with option Clockwise) a PowerPoint 2010-ban. |
 | Wipe | `20` |  |
-| Zoom | `21` | Kapcsolódik a transition Shape (with options In/Out) a PowerPoint 2010-ban. Lásd még a Warp-ot, amely a transition Zoom-hez kapcsolódik a PowerPoint 2010-ban. |
+| Zoom | `21` | Kapcsolódik a transition Shape (with options In/Out) a PowerPoint 2010-ban. Lásd még a Warp-et, amely kapcsolódik a transition Zoom-hoz a PowerPoint 2010-ban. |
 | Vortex | `22` | Elérhető a PowerPoint 2010-ban. |
 | Switch | `23` | Elérhető a PowerPoint 2010-ban. |
 | Flip | `24` | Elérhető a PowerPoint 2010-ban. |
@@ -56,7 +56,7 @@ public enum TransitionType
 | Conveyor | `35` | Elérhető a PowerPoint 2010-ban. |
 | Pan | `36` | Elérhető a PowerPoint 2010-ban. |
 | Glitter | `37` | Elérhető a PowerPoint 2010-ban. |
-| Warp | `38` | Kapcsolódik a transition Zoom-hez a PowerPoint 2010-ban. Elérhető a PowerPoint 2010-ban. |
+| Warp | `38` | Kapcsolódik a transition Zoom a PowerPoint 2010-ban. Elérhető a PowerPoint 2010-ban. |
 | Flythrough | `39` | Elérhető a PowerPoint 2010-ban. |
 | Flash | `40` | Elérhető a PowerPoint 2010-ban. |
 | Shred | `41` | Elérhető a PowerPoint 2010-ban. |

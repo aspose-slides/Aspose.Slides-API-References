@@ -3,12 +3,12 @@ title: ISlideComponent
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Komponente einer Folie dar.
 type: docs
-weight: 7060
+weight: 7080
 url: /de/aspose.slides/islidecomponent/
 ---
 ## ISlideComponent Schnittstelle
 
-Stellt eine Komponente einer Folie dar.
+Repräsentiert eine Komponente einer Folie.
 
 ```csharp
 public interface ISlideComponent : IPresentationComponent
@@ -18,8 +18,8 @@ public interface ISlideComponent : IPresentationComponent
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/islidecomponent/asipresentationcomponent) { get; } | Ermöglicht das Abrufen der IPresentationComponent Schnittstelle. Nur lesbar [`IPresentationComponent`](../ipresentationcomponent). |
-| [Slide](../../aspose.slides/islidecomponent/slide) { get; } | Gibt die Basisfolie zurück. Nur lesbar [`IBaseSlide`](../ibaseslide). |
+| [AsIPresentationComponent](../../aspose.slides/islidecomponent/asipresentationcomponent) { get; } | Ermöglicht das Abrufen der Basis-IPresentationComponent-Schnittstelle. Nur-Lesen [`IPresentationComponent`](../ipresentationcomponent). |
+| [Slide](../../aspose.slides/islidecomponent/slide) { get; } | Gibt die Basis-Folie zurück. Nur-Lesen [`IBaseSlide`](../ibaseslide). |
 
 ### Siehe auch
 

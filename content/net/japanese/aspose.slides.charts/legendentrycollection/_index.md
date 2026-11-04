@@ -1,9 +1,9 @@
 ---
 title: LegendEntryCollection
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: 凡例コレクションを表します。
 type: docs
-weight: 2300
+weight: 2320
 url: /ja/aspose.slides.charts/legendentrycollection/
 ---
 ## LegendEntryCollection クラス
@@ -18,12 +18,12 @@ public class LegendEntryCollection : ILegendEntryCollection
 
 | 名前 | 説明 |
 | --- | --- |
-| [Count](../../aspose.slides.charts/legendentrycollection/count) { get; } | legend entries の数を取得します。読み取り専用 Int32。 |
-| [Item](../../aspose.slides.charts/legendentrycollection/item) { get; } | このリストのチャートタイプの場合、Chart.ChartData.Series[0].DataPoints[index] に対応する凡例エントリのプロパティを取得します: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; その他のチャートタイプの場合は Chart.ChartData.Series[index] に対応するものです。 |
+| [Count](../../aspose.slides.charts/legendentrycollection/count) { get; } | 凡例エントリの数を取得します。読み取り専用 Int32。 |
+| [Item](../../aspose.slides.charts/legendentrycollection/item) { get; } | このリストにあるチャートタイプの場合、Chart.ChartData.Series[0].DataPoints[index] に対応する凡例エントリのプロパティを取得します：ChartType.BarOfPie、ChartType.ExplodedPie、ChartType.ExplodedPie3D、ChartType.Pie、ChartType.Pie3D、ChartType.PieOfPie；その他のチャートタイプの場合は Chart.ChartData.Series[index] に対応するもののプロパティを取得します。 |
 
 ### 参照
 
-* インターフェイス [ILegendEntryCollection](../ilegendentrycollection)
+* インターフェース [ILegendEntryCollection](../ilegendentrycollection)
 * 名前空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * アセンブリ [Aspose.Slides](../../)
 

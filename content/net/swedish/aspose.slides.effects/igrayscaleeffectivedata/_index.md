@@ -1,14 +1,14 @@
 ---
 title: IGrayScaleEffectiveData
-second_title: Aspose.Slides för .NET API-referens
-description: Oföränderligt objekt som representerar en gråskaleeffekt. Konverterar alla effektfärgvärden till en nyans av grått som motsvarar deras luminans. Alfa-opacitetsvärden för effekten påverkas inte.
+second_title: Aspose.Sildes för .NET API-referens
+description: Oföränderligt objekt som representerar en gråskaleffekt. Konverterar alla effektfärgvärden till en nyans av grått som motsvarar deras luminans. Effektens alfa opacitet är opåverkad.
 type: docs
-weight: 3350
+weight: 3370
 url: /sv/aspose.slides.effects/igrayscaleeffectivedata/
 ---
 ## IGrayScaleEffectiveData gränssnitt
 
-Oföränderligt objekt som representerar en gråskaleeffekt. Konverterar alla effektfärgvärden till en nyans av grått, motsvarande deras luminans. Alfa-värden (opacitet) för effekten påverkas inte.
+Oföränderligt objekt som representerar en gråskaleffekt. Konverterar alla effektfärgvärden till en nyans av grått, motsvarande deras luminans. Effektens alfa (opacity) värden påverkas inte.
 
 ```csharp
 public interface IGrayScaleEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface IGrayScaleEffectiveData : IEffectEffectiveData
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/igrayscaleeffectivedata/asieffecteffectivedata) { get; } | Tillåter att hämta bas IEffectEffectiveData gränssnitt. Skrivskyddad [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/igrayscaleeffectivedata/asieffecteffectivedata) { get; } | Möjliggör att hämta bas IEffectEffectiveData gränssnitt. Skrivskyddad [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
-### Se också
+### Se även
 
 * gränssnitt [IEffectEffectiveData](../ieffecteffectivedata)
 * namnrymd [Aspose.Slides.Effects](../../aspose.slides.effects)

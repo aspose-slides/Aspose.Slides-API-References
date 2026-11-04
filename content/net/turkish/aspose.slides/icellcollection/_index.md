@@ -3,10 +3,10 @@ title: ICellCollection
 second_title: Aspose.Sildes için .NET API Referansı
 description: Hücrelerin bir koleksiyonunu temsil eder.
 type: docs
-weight: 5460
+weight: 5480
 url: /tr/aspose.slides/icellcollection/
 ---
-## ICellCollection arayüz
+## ICellCollection arayüzü
 
 Hücrelerin bir koleksiyonunu temsil eder.
 
@@ -18,8 +18,8 @@ public interface ICellCollection : IGenericCollection<ICell>, ISlideComponent
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/icellcollection/asislidecomponent) { get; } | Temel ISlideComponent arayüzüne erişim sağlar. Yalnızca okunabilir [`ISlideComponent`](../islidecomponent). |
-| [Item](../../aspose.slides/icellcollection/item) { get; } | Pozisyonuna göre bir hücre döndürür. Yalnızca okunabilir [`ICell`](../icell). |
+| [AsISlideComponent](../../aspose.slides/icellcollection/asislidecomponent) { get; } | Temel ISlideComponent arayüzünü almaya izin verir. Salt okunur [`ISlideComponent`](../islidecomponent). |
+| [Item](../../aspose.slides/icellcollection/item) { get; } | Pozisyonuna göre bir hücre döndürür. Salt okunur [`ICell`](../icell). |
 
 ### Ayrıca Bakınız
 

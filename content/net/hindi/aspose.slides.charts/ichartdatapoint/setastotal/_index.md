@@ -1,12 +1,12 @@
 ---
 title: SetAsTotal
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
 description: डेटा पॉइंट को कुल के रूप में सेट करता है। केवल Waterfall श्रृंखला प्रकार के लिए लागू होता है।
 type: docs
-weight: 140
+weight: 180
 url: /hi/aspose.slides.charts/ichartdatapoint/setastotal/
 ---
-## IChartDataPoint.SetAsTotal गुण
+## IChartDataPoint.SetAsTotal प्रॉपर्टी
 
 डेटा पॉइंट को कुल के रूप में सेट करता है। केवल Waterfall श्रृंखला प्रकार के लिए लागू होता है।
 
@@ -14,7 +14,7 @@ url: /hi/aspose.slides.charts/ichartdatapoint/setastotal/
 public bool SetAsTotal { get; set; }
 ```
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IChartDataPoint](../../ichartdatapoint)
 * नामस्थान [Aspose.Slides.Charts](../../ichartdatapoint)

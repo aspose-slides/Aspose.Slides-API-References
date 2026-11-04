@@ -1,9 +1,9 @@
 ---
 title: IPortionFactory
-second_title: Aspose.Sildes para .NET Referencia de API
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Permite crear porciones de prueba
 type: docs
-weight: 6720
+weight: 6740
 url: /es/aspose.slides/iportionfactory/
 ---
 ## IPortionFactory interfaz
@@ -20,11 +20,11 @@ public interface IPortionFactory
 | --- | --- |
 | [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion)() | Crea una porción de texto vacía. |
 | [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_1)(IPortion) | Crea una porción usando los datos de una porción especificada. |
-| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_2)(string) | Crea una porción de texto a partir de la cadena especificada. |
+| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_2)(string) | Crea una porción de texto a partir de una cadena especificada. |
 
 ### Observaciones
 
-Para compatibilidad COM
+Para compatibilidad con COM
 
 ### Ver también
 

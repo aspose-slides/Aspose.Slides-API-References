@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachPortionCallback
-second_title: Aspose.Sildes .NET API 参考
-description: 回调将在 BaseSlide../aspose.slides/baseslide 上的 Paragraph./foreach/paragraph 中的每个 Portion./foreach/portion 被调用。
+second_title: Aspose.Sildes for .NET API 参考
+description: 回调将在每个 Portion./foreach/portion 的 Paragraph./foreach/paragraph 上的 BaseSlide../aspose.slides/baseslide 中被调用。
 type: docs
-weight: 7940
+weight: 7960
 url: /zh/aspose.slides.lowcode/foreach.foreachportioncallback/
 ---
 ## ForEach.ForEachPortionCallback 委托
 
-将在 [`BaseSlide`](../../aspose.slides/baseslide) 上的 [`Paragraph`](../foreach/paragraph) 中的每个 [`Portion`](../foreach/portion) 调用此回调。
+回调将在每个 [`Portion`](../foreach/portion) 于 [`Paragraph`](../foreach/paragraph) 的 [`BaseSlide`](../../aspose.slides/baseslide) 上被调用。
 
 ```csharp
 public delegate void ForEachPortionCallback(Portion portion, Paragraph para, BaseSlide slide, 
@@ -17,12 +17,12 @@ public delegate void ForEachPortionCallback(Portion portion, Paragraph para, Bas
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| portion | Portion | 当前迭代的 portion |
-| para | Paragraph | 当前迭代的 paragraph |
-| slide | BaseSlide | 当前迭代的 slide |
-| index | Int32 | 当前 portion 在 paragraph 中的索引 |
+| portion | Portion | 当前迭代的部分 |
+| para | Paragraph | 当前迭代的段落 |
+| slide | BaseSlide | 当前迭代的幻灯片 |
+| index | Int32 | 段落中当前部分的索引 |
 
-### 另请参阅
+### 另见
 
 * 类 [Portion](../../aspose.slides/portion)
 * 类 [Paragraph](../../aspose.slides/paragraph)

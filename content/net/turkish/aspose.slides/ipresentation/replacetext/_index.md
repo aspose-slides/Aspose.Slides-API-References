@@ -1,14 +1,14 @@
 ---
 title: ReplaceText
-second_title: Aspose.Sildes .NET API Referansı
-description: Belirtilen metnin tüm görünümlerini başka bir belirtilen metinle değiştirir.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Belirtilen metnin tüm oluşumlarını başka bir belirtilen metinle değiştirir.
 type: docs
-weight: 370
+weight: 380
 url: /tr/aspose.slides/ipresentation/replacetext/
 ---
-## IPresentation.ReplaceText metodu
+## IPresentation.ReplaceText yöntemi
 
-Belirtilen metnin tüm görünümlerini başka bir belirtilen metinle değiştirir.
+Belirtilen metnin tüm oluşumlarını başka bir belirtilen metinle değiştirir.
 
 ```csharp
 public void ReplaceText(string oldText, string newText, ITextSearchOptions options, 
@@ -18,9 +18,9 @@ public void ReplaceText(string oldText, string newText, ITextSearchOptions optio
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | oldText | String | Değiştirilecek dize. |
-| newText | String | oldText'in tüm görünümlerini değiştirecek dize. |
+| newText | String | oldText'in tüm oluşumlarını değiştirecek dize. |
 | options | ITextSearchOptions | Metin arama seçenekleri [`ITextSearchOptions`](../../itextsearchoptions). |
-| callback | IFindResultCallback | Arama sonuçlarını almak için geri arama nesnesi [`IFindResultCallback`](../../ifindresultcallback). |
+| callback | IFindResultCallback | Arama sonuçlarını alacak geri dönüş nesnesi [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Örnekler
 
@@ -30,13 +30,13 @@ Aşağıdaki örnek kod, bir belirtilen dizeyi başka bir belirtilen dizeyle nas
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// Tüm ayrı 'the' örneklerini '***' ile değiştir
+	// Tüm ayrı 'the' oluşumlarını '***' ile değiştir
 	presentation.ReplaceText("the", "***", new TextSearchOptions() {WholeWordsOnly = true}, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 }
 ```
 
-### Diğer Bağlantılar
+### İlgili
 
 * arayüz [ITextSearchOptions](../../itextsearchoptions)
 * arayüz [IFindResultCallback](../../ifindresultcallback)

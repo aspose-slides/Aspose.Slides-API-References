@@ -1,12 +1,12 @@
 ---
 title: ControlCollection
-second_title: Aspose.Sildes per la Documentazione API di .NET
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Una raccolta di controlli ActiveX.
 type: docs
-weight: 2700
+weight: 2720
 url: /it/aspose.slides/controlcollection/
 ---
-## classe ControlCollection
+## ControlCollection classe
 
 Una raccolta di controlli ActiveX.
 
@@ -18,10 +18,10 @@ public class ControlCollection : IControlCollection
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides/controlcollection/count) { get; } | Restituisce il numero di oggetti nella raccolta. Solo lettura Int32. |
-| [IsSynchronized](../../aspose.slides/controlcollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla raccolta è sincronizzato (thread-safe). Solo lettura Boolean. |
+| [Count](../../aspose.slides/controlcollection/count) { get; } | Restituisce il numero di oggetti nella raccolta. Int32 a sola lettura. |
+| [IsSynchronized](../../aspose.slides/controlcollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla raccolta è sincronizzato (thread-safe). Boolean a sola lettura. |
 | [Item](../../aspose.slides/controlcollection/item) { get; } | Restituisce un controllo nella posizione specificata. |
-| [SyncRoot](../../aspose.slides/controlcollection/syncroot) { get; } | Restituisce la radice di sincronizzazione. Solo lettura Object. |
+| [SyncRoot](../../aspose.slides/controlcollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Object a sola lettura. |
 
 ## Metodi
 
@@ -30,7 +30,7 @@ public class ControlCollection : IControlCollection
 | [AddControl](../../aspose.slides/controlcollection/addcontrol)(ControlType, float, float, float, float) | Crea e aggiunge un nuovo controllo alla raccolta. |
 | [Clear](../../aspose.slides/controlcollection/clear)() | Rimuove tutti i controlli dalla raccolta. |
 | [CopyTo](../../aspose.slides/controlcollection/copyto)(Array, int) | Copia l'intera raccolta nell'array specificato. |
-| [GetEnumerator](../../aspose.slides/controlcollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la raccolta. |
+| [GetEnumerator](../../aspose.slides/controlcollection/getenumerator)() | Restituisce un enumeratore che scorre la raccolta. |
 | [Remove](../../aspose.slides/controlcollection/remove)(IControl) | Rimuove un controllo ActiveX dalla raccolta. |
 | [RemoveAt](../../aspose.slides/controlcollection/removeat)(int) | Rimuove un controllo ActiveX memorizzato nella posizione specificata dalla raccolta. |
 

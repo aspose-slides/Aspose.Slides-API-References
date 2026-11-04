@@ -1,14 +1,14 @@
 ---
 title: IMathBlock
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Xác định một thể hiện của văn bản toán học nằm trong MathParagraph và bắt đầu trên một dòng riêng. Tất cả các vùng toán học, bao gồm các phương trình, biểu thức, mảng các phương trình hoặc biểu thức và công thức, đều được biểu diễn bằng khối toán học.
+description: Chỉ định một thể hiện của văn bản toán học nằm trong một MathParagraph và bắt đầu trên một dòng riêng. Tất cả các vùng toán học, bao gồm các phương trình, biểu thức, mảng các phương trình hoặc biểu thức và công thức đều được biểu diễn bằng khối toán học.
 type: docs
-weight: 8140
+weight: 8160
 url: /vi/aspose.slides.mathtext/imathblock/
 ---
-## IMathBlock giao diện
+## Giao diện IMathBlock
 
-Xác định một thể hiện của văn bản toán học nằm trong MathParagraph và bắt đầu trên một dòng riêng. Tất cả các vùng toán học, bao gồm phương trình, biểu thức, mảng các phương trình hoặc biểu thức và công thức, đều được biểu diễn bằng khối toán học.
+Chỉ định một thể hiện của văn bản toán học nằm trong một MathParagraph và bắt đầu trên một dòng riêng. Tất cả các vùng toán học, bao gồm phương trình, biểu thức, mảng các phương trình hoặc biểu thức, và công thức đều được biểu diễn bằng khối toán học.
 
 ```csharp
 public interface IMathBlock : IMathElement, IMathElementCollection
@@ -18,16 +18,16 @@ public interface IMathBlock : IMathElement, IMathElementCollection
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathblock/asimathelement) { get; } | Cho phép lấy giao diện cơ sở IMathElement [`IMathElement`](../imathelement) |
-| [AsIMathElementCollection](../../aspose.slides.mathtext/imathblock/asimathelementcollection) { get; } | Cho phép lấy giao diện cơ sở IMathElementCollection [`IMathElementCollection`](../imathelementcollection) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathblock/asimathelement) { get; } | Cho phép lấy giao diện cơ bản IMathElement [`IMathElement`](../imathelement) |
+| [AsIMathElementCollection](../../aspose.slides.mathtext/imathblock/asimathelementcollection) { get; } | Cho phép lấy giao diện cơ bản IMathElementCollection [`IMathElementCollection`](../imathelementcollection) |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [Delimit](../../aspose.slides.mathtext/imathblock/delimit)(char) | Phân tách tất cả các phần tử con bằng ký tự phân cách (không có dấu ngoặc) |
-| [Enclose](../../aspose.slides.mathtext/imathblock/enclose)(char, char, char) | Bao quanh các phần tử con của khối này bằng các ký tự được chỉ định như dấu ngoặc hoặc ký tự khác và phân tách bằng ký tự phân cách |
-| [JoinBlock](../../aspose.slides.mathtext/imathblock/joinblock)(IMathBlock) | Kết hợp một khối toán học khác với khối này |
+| [Delimit](../../aspose.slides.mathtext/imathblock/delimit)(char) | Phân cách tất cả các phần tử con bằng ký tự phân tách (không có ngoặc) |
+| [Enclose](../../aspose.slides.mathtext/imathblock/enclose)(char, char, char) | Bao quanh các phần tử con của khối này bằng các ký tự được chỉ định như dấu ngoặc hoặc ký tự khác làm khung và phân cách bằng ký tự phân tách |
+| [JoinBlock](../../aspose.slides.mathtext/imathblock/joinblock)(IMathBlock) | Nối một khối toán học khác với khối này |
 | [WriteAsMathMl](../../aspose.slides.mathtext/imathblock/writeasmathml)(Stream) | Lưu nội dung của [`IMathBlock`](../imathblock) này dưới dạng MathML |
 
 ### Ví dụ
@@ -39,7 +39,7 @@ Ví dụ:
 IMathBlock mathBlock = new MathBlock();
 ```
 
-### Xem thêm
+### Xem Thêm
 
 * giao diện [IMathElement](../imathelement)
 * giao diện [IMathElementCollection](../imathelementcollection)

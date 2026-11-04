@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachMasterSlideCallback
 second_title: Aspose.Sildes の .NET API リファレンス
-description: Presentation の各 MasterSlide./foreach/masterslide に対して呼び出されるコールバックです。../aspose.slides/presentation.
+description: プレゼンテーション内の各 MasterSlide./foreach/masterslide に対して呼び出されるコールバックです../aspose.slides/presentation.
 type: docs
-weight: 7920
+weight: 7940
 url: /ja/aspose.slides.lowcode/foreach.foreachmasterslidecallback/
 ---
-## ForEach.ForEachMasterSlideCallback デリゲート
+## ForEach.ForEachMasterSlideCallback delegate
 
-[`Presentation`](../../aspose.slides/presentation) の各 [`MasterSlide`](../foreach/masterslide) に対して呼び出されるコールバックです。
+[`MasterSlide`](../foreach/masterslide) が [`Presentation`](../../aspose.slides/presentation) 内で繰り返し呼び出されるコールバック。
 
 ```csharp
 public delegate void ForEachMasterSlideCallback(MasterSlide masterSlide, int index);
@@ -16,7 +16,7 @@ public delegate void ForEachMasterSlideCallback(MasterSlide masterSlide, int ind
 
 | パラメータ | 型 | 説明 |
 | --- | --- | --- |
-| masterSlide | MasterSlide | 現在反復中のマスタースライド |
+| masterSlide | MasterSlide | 現在イテレートされているマスタースライド |
 | index | Int32 | 現在のマスタースライドのインデックス |
 
 ### 参照

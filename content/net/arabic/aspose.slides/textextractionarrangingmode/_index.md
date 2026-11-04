@@ -1,25 +1,25 @@
 ---
 title: TextExtractionArrangingMode
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: يمثل الوضع المستخدم أثناء استخراج النص
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: يمثل الوضع الذي يُستخدم أثناء استخراج النص
 type: docs
-weight: 10940
+weight: 10960
 url: /ar/aspose.slides/textextractionarrangingmode/
 ---
 ## TextExtractionArrangingMode تعداد
 
-يمثل الوضع المستخدم أثناء استخراج النص
+يمثل الوضع الذي يُستخدم أثناء استخراج النص
 
 ```csharp
 public enum TextExtractionArrangingMode
 ```
 
-### القيم
+### Values
 
 | الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| Unarranged | `0` | النص الخام دون مراعاة الموضع على الشريحة |
-| Arranged | `1` | النص موضع بنفس الترتيب كما على الشريحة |
+| Unarranged | `0` | النص الخام دون مراعاة موضعه على الشريحة |
+| Arranged | `1` | النص موضعه بنفس الترتيب على الشريحة |
 
 ### انظر أيضًا
 

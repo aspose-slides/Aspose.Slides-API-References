@@ -1,14 +1,14 @@
 ---
 title: EmbedFontCharacters
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta la regola da utilizzare per aggiungere un nuovo carattere di incorporamento in IPresentation../aspose.slides/ipresentation
+second_title: Riferimento API di Aspose.Sildes per .NET
+description: Rappresenta la regola da usare per aggiungere nuovi font di incorporamento in IPresentation../aspose.slides/ipresentation
 type: docs
-weight: 3770
+weight: 3790
 url: /it/aspose.slides.export/embedfontcharacters/
 ---
 ## Enumerazione EmbedFontCharacters
 
-Rappresenta la regola da utilizzare per aggiungere un nuovo carattere di incorporamento nel [`IPresentation`](../../aspose.slides/ipresentation)
+Rappresenta la regola da usare per aggiungere nuovi font di incorporamento in [`IPresentation`](../../aspose.slides/ipresentation)
 
 ```csharp
 public enum EmbedFontCharacters
@@ -18,7 +18,7 @@ public enum EmbedFontCharacters
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| OnlyUsed | `0` | Incorpora solo i caratteri utilizzati nella presentazione (ideale per ridurre le dimensioni del file). |
+| OnlyUsed | `0` | Incorpora solo i caratteri usati nella presentazione (ideale per ridurre le dimensioni del file). |
 | All | `1` | Incorpora tutti i caratteri (ideale per la modifica da parte di altre persone). |
 
 ### Vedi anche

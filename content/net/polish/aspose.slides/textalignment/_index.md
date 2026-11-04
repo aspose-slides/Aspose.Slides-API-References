@@ -3,7 +3,7 @@ title: TextAlignment
 second_title: Aspose.Sildes dla .NET – referencja API
 description: Reprezentuje różne style wyrównania tekstu.
 type: docs
-weight: 10900
+weight: 10920
 url: /pl/aspose.slides/textalignment/
 ---
 ## TextAlignment enumeracja
@@ -22,9 +22,9 @@ public enum TextAlignment
 | Left | `0` | Wyrównanie do lewej. |
 | Center | `1` | Wyrównanie do środka. |
 | Right | `2` | Wyrównanie do prawej. |
-| Justify | `3` | Wyrównanie wyjustowane. |
-| JustifyLow | `4` | Kashida justowanie niskie. |
-| Distributed | `5` | Wyrównanie rozproszone. |
+| Justify | `3` | Wyrównanie justowane. |
+| JustifyLow | `4` | Kashida – niskie justowanie. |
+| Distributed | `5` | Rozproszone wyrównanie. |
 
 ### Zobacz także
 

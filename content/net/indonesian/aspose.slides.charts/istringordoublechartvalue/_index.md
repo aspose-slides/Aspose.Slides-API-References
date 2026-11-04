@@ -1,14 +1,14 @@
 ---
 title: IStringOrDoubleChartValue
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: "Mewakili nilai string atau double yang dapat disimpan dalam dokumen presentasi pptx dengan dua cara: 1) di sel/sel-sel workbook yang terkait dengan chart; 2) sebagai nilai literal."
+description: Mewakili nilai string atau double yang dapat disimpan dalam dokumen presentasi pptx dengan dua cara: 1) di sel/sel workbook yang terkait dengan chart; 2) sebagai nilai literal.
 type: docs
-weight: 2230
+weight: 2250
 url: /id/aspose.slides.charts/istringordoublechartvalue/
 ---
 ## IStringOrDoubleChartValue antarmuka
 
-Mewakili nilai string atau double yang dapat disimpan dalam dokumen presentasi pptx dengan dua cara: 1) di sel/sel-sel workbook yang terkait dengan chart; 2) sebagai nilai literal.
+Mewakili nilai string atau double yang dapat disimpan dalam dokumen presentasi pptx dengan dua cara: 1) di sel/sel workbook yang terkait dengan chart; 2) sebagai nilai literal.
 
 ```csharp
 public interface IStringOrDoubleChartValue : ISingleCellChartValue
@@ -16,15 +16,15 @@ public interface IStringOrDoubleChartValue : ISingleCellChartValue
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [AsISingleCellChartValue](../../aspose.slides.charts/istringordoublechartvalue/asisinglecellchartvalue) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar ISingleCellChartValue. Hanya-baca [`ISingleCellChartValue`](../isinglecellchartvalue). |
+| [AsISingleCellChartValue](../../aspose.slides.charts/istringordoublechartvalue/asisinglecellchartvalue) { get; } | Memungkinkan untuk mendapatkan antarmuka ISingleCellChartValue dasar. Hanya baca [`ISingleCellChartValue`](../isinglecellchartvalue). |
 | [AsLiteralDouble](../../aspose.slides.charts/istringordoublechartvalue/asliteraldouble) { get; set; } | Mengembalikan atau mengatur double literal jika properti DataSourceType adalah DataSourceType.DoubleLiterals. Baca/tulis Double. |
 | [AsLiteralString](../../aspose.slides.charts/istringordoublechartvalue/asliteralstring) { get; set; } | Mengembalikan atau mengatur string literal jika properti DataSourceType adalah DataSourceType.StringLiterals. Baca/tulis String. |
 
 ## Metode
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [ToDouble](../../aspose.slides.charts/istringordoublechartvalue/todouble)() | Mengonversi nilai menjadi double. |
 

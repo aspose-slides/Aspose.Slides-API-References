@@ -3,18 +3,18 @@ title: ITrendlineCollection
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: TrendlineEx 컬렉션을 나타냅니다
 type: docs
-weight: 2250
+weight: 2270
 url: /ko/aspose.slides.charts/itrendlinecollection/
 ---
 ## ITrendlineCollection 인터페이스
 
-TrendlineEx 컬렉션을 나타냅니다
+TrendlineEx 컬렉션을 나타냅니다.
 
 ```csharp
 public interface ITrendlineCollection : IEnumerable<ITrendline>
 ```
 
-## Properties
+## 속성
 
 | 이름 | 설명 |
 | --- | --- |
@@ -22,14 +22,14 @@ public interface ITrendlineCollection : IEnumerable<ITrendline>
 | [Count](../../aspose.slides.charts/itrendlinecollection/count) { get; } | 컬렉션에 실제로 포함된 요소 수를 가져옵니다. 읽기 전용 Int32. |
 | [Item](../../aspose.slides.charts/itrendlinecollection/item) { get; } | 지정된 인덱스에 있는 요소를 가져옵니다. 읽기 전용 [`ITrendline`](../itrendline). |
 
-## Methods
+## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [Add](../../aspose.slides.charts/itrendlinecollection/add)(TrendlineType) | 컬렉션 끝에 새로운 Trendline을 추가하고 반환합니다. |
+| [Add](../../aspose.slides.charts/itrendlinecollection/add)(TrendlineType) | 컬렉션 끝에 새 Trendline을 추가하고 반환합니다. |
 | [Remove](../../aspose.slides.charts/itrendlinecollection/remove)(ITrendline) | 지정된 값을 제거합니다. |
 
-### 참고
+### 또 보기
 
 * 인터페이스 [ITrendline](../itrendline)
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)

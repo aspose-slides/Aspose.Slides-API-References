@@ -1,14 +1,14 @@
 ---
 title: ReplaceText
-second_title: Aspose.Sildes pro .NET – referenční příručka API
-description: Nahradí všechny výskyty zadaného textu jiným zadaným textem.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Nahrazuje všechny výskyty zadaného textu jiným zadaným textem.
 type: docs
-weight: 370
+weight: 380
 url: /cs/aspose.slides/ipresentation/replacetext/
 ---
-## IPresentation.ReplaceText metoda
+## IPresentation.ReplaceText method
 
-Nahradí všechny výskyty zadaného textu jiným zadaným textem.
+Nahrazuje všechny výskyty zadaného textu jiným zadaným textem.
 
 ```csharp
 public void ReplaceText(string oldText, string newText, ITextSearchOptions options, 
@@ -19,8 +19,8 @@ public void ReplaceText(string oldText, string newText, ITextSearchOptions optio
 | --- | --- | --- |
 | oldText | String | Řetězec, který má být nahrazen. |
 | newText | String | Řetězec, který nahradí všechny výskyty oldText. |
-| options | ITextSearchOptions | Možnosti vyhledávání textu [`ITextSearchOptions`](../../itextsearchoptions). |
-| callback | IFindResultCallback | Objekt zpětného volání pro získání výsledků vyhledávání [`IFindResultCallback`](../../ifindresultcallback). |
+| options | ITextSearchOptions | Možnosti hledání textu [`ITextSearchOptions`](../../itextsearchoptions). |
+| callback | IFindResultCallback | Objekt zpětného volání pro přijímání výsledků vyhledávání [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Příklady
 
@@ -30,7 +30,7 @@ Následující ukázkový kód ukazuje, jak nahradit jeden zadaný řetězec jin
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// Nahraď všechny samostatné výskyty 'the' řetězcem '***'
+	// Nahradí všechny samostatné výskyty 'the' řetězcem '***'
 	presentation.ReplaceText("the", "***", new TextSearchOptions() {WholeWordsOnly = true}, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 }

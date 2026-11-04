@@ -1,9 +1,9 @@
 ---
 title: IColumnCollection
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示表格中列的集合。
 type: docs
-weight: 5530
+weight: 5550
 url: /zh/aspose.slides/icolumncollection/
 ---
 ## IColumnCollection 接口
@@ -16,19 +16,19 @@ public interface IColumnCollection : IGenericCollection<IColumn>
 
 ## 属性
 
-| Name | Description |
+| 名称 | 描述 |
 | --- | --- |
 | [Item](../../aspose.slides/icolumncollection/item) { get; } | 返回指定索引处的列。只读 [`IColumn`](../icolumn)。 |
 
 ## 方法
 
-| Name | Description |
+| 名称 | 描述 |
 | --- | --- |
 | [AddClone](../../aspose.slides/icolumncollection/addclone)(IColumn, bool) | 创建指定模板行的副本并将其插入表格底部。 |
 | [InsertClone](../../aspose.slides/icolumncollection/insertclone)(int, IColumn, bool) | 创建指定模板列的副本并将其插入表格中指定的位置。 |
 | [RemoveAt](../../aspose.slides/icolumncollection/removeat)(int, bool) | 从表格中删除指定位置的列。 |
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 接口 [IColumn](../icolumn)

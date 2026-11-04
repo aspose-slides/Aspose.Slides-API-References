@@ -3,7 +3,7 @@ title: MathFractionFactory
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Ermöglicht das Erstellen eines mathematischen Bruchs
 type: docs
-weight: 8700
+weight: 8720
 url: /de/aspose.slides.mathtext/mathfractionfactory/
 ---
 ## MathFractionFactory Klasse
@@ -27,7 +27,7 @@ public class MathFractionFactory : IMathFractionFactory
 | [CreateMathFraction](../../aspose.slides.mathtext/mathfractionfactory/createmathfraction#createmathfraction)(IMathElement, IMathElement) | Erstellt einen mathematischen Bruch |
 | [CreateMathFraction](../../aspose.slides.mathtext/mathfractionfactory/createmathfraction#createmathfraction_1)(IMathElement, IMathElement, MathFractionTypes) | Erstellt einen mathematischen Bruch |
 
-### Hinweise
+### Bemerkungen
 
 Für COM-Kompatibilität
 

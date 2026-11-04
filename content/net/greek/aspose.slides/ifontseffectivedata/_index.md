@@ -1,14 +1,14 @@
 ---
 title: IFontsEffectiveData
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αμετάβλητο αντικείμενο που περιέχει το σύνολο των αποτελεσματικών γραμματοσειρών.
+second_title: Αναφορά API Aspose.Sildes για .NET
+description: Αμετάβλητο αντικείμενο που περιέχει το σύνολο των ενεργών γραμματοσειρών.
 type: docs
-weight: 5910
+weight: 5930
 url: /el/aspose.slides/ifontseffectivedata/
 ---
 ## IFontsEffectiveData διεπαφή
 
-Αμετάβλητο αντικείμενο που περιέχει το σύνολο των αποτελεσματικών γραμματοσειρών.
+Αμετάβλητο αντικείμενο που περιέχει το σύνολο των ενεργών γραμματοσειρών.
 
 ```csharp
 public interface IFontsEffectiveData
@@ -18,11 +18,11 @@ public interface IFontsEffectiveData
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/ifontseffectivedata/complexscriptfont) { get; } | Επιστρέφει τη γραμματοσειρά σύνθετου σεναρίου. Μόνο για ανάγνωση [`IFontData`](../ifontdata). |
-| [EastAsianFont](../../aspose.slides/ifontseffectivedata/eastasianfont) { get; } | Επιστρέφει τη γραμματοσειρά Ανατολικής Ασίας. Μόνο για ανάγνωση [`IFontData`](../ifontdata). |
-| [LatinFont](../../aspose.slides/ifontseffectivedata/latinfont) { get; } | Επιστρέφει τη γραμματοσειρά Λατινικών. Μόνο για ανάγνωση [`IFontData`](../ifontdata). |
+| [ComplexScriptFont](../../aspose.slides/ifontseffectivedata/complexscriptfont) { get; } | Επιστρέφει τη γραμματοσειρά σύνθετου script. Μόνο-για-ανάγνωση [`IFontData`](../ifontdata). |
+| [EastAsianFont](../../aspose.slides/ifontseffectivedata/eastasianfont) { get; } | Επιστρέφει τη γραμματοσειρά Ανατολικής Ασίας. Μόνο-για-ανάγνωση [`IFontData`](../ifontdata). |
+| [LatinFont](../../aspose.slides/ifontseffectivedata/latinfont) { get; } | Επιστρέφει τη γραμματοσειρά Λατινική. Μόνο-για-ανάγνωση [`IFontData`](../ifontdata). |
 
-### Παρατηρήσεις
+### Σημειώσεις
 
 Αυτή η διεπαφή χρησιμοποιείται ως μέρος των διεπαφών [`IBasePortionFormatEffectiveData`](../ibaseportionformateffectivedata) και [`IFontSchemeEffectiveData`](../../aspose.slides.theme/ifontschemeeffectivedata).
 

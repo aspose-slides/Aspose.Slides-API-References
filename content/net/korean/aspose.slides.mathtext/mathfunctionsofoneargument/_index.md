@@ -1,14 +1,14 @@
 ---
 title: MathFunctionsOfOneArgument
-second_title: Aspose.Sildes for .NET API 참조
-description: 하나의 인수를 갖는 일반적인 수학 함수
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 하나의 인자를 갖는 일반 수학 함수
 type: docs
-weight: 8740
+weight: 8760
 url: /ko/aspose.slides.mathtext/mathfunctionsofoneargument/
 ---
 ## MathFunctionsOfOneArgument 열거형
 
-하나의 인수를 갖는 일반적인 수학 함수
+하나의 인자를 갖는 일반 수학 함수
 
 ```csharp
 public enum MathFunctionsOfOneArgument
@@ -32,20 +32,20 @@ public enum MathFunctionsOfOneArgument
 | HyperbolicCot | `11` | 쌍곡 코탄젠트 |
 | Lg | `12` | 상용 로그 |
 | Ln | `13` | 자연 로그 |
-| ArcSin | `14` | 아크사인 |
-| ArcCos | `15` | 아크코사인 |
-| ArcTan | `16` | 아크탄젠트 |
-| ArcCsc | `17` | 아크코시컨트 |
-| ArcSec | `18` | 아크시컨트 |
-| ArcCot | `19` | 아크코탄젠트 |
-| HyperbolicArcSin | `20` | 쌍곡 아크사인 |
-| HyperbolicArcCos | `21` | 쌍곡 아크코사인 |
-| HyperbolicArcTan | `22` | 쌍곡 아크탄젠트 |
-| HyperbolicArcCsc | `23` | 쌍곡 아크코시컨트 |
-| HyperbolicArcSec | `24` | 쌍곡 아크시컨트 |
-| HyperbolicArcCot | `25` | 쌍곡 아크코탄젠트 |
+| ArcSin | `14` | 역사인 |
+| ArcCos | `15` | 역코사인 |
+| ArcTan | `16` | 역탄젠트 |
+| ArcCsc | `17` | 역코시컨트 |
+| ArcSec | `18` | 역시컨트 |
+| ArcCot | `19` | 역코탄젠트 |
+| HyperbolicArcSin | `20` | 쌍곡 역사인 |
+| HyperbolicArcCos | `21` | 쌍곡 역코사인 |
+| HyperbolicArcTan | `22` | 쌍곡 역탄젠트 |
+| HyperbolicArcCsc | `23` | 쌍곡 역코시컨트 |
+| HyperbolicArcSec | `24` | 쌍곡 역시컨트 |
+| HyperbolicArcCot | `25` | 쌍곡 역코탄젠트 |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 어셈블리 [Aspose.Slides](../../)

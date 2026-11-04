@@ -1,14 +1,14 @@
 ---
 title: ISmartArtShapeCollection
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: SmartArt 도형 컬렉션을 나타냅니다
+second_title: Aspose.Sildes for .NET API 참조
+description: SmartArt 모양의 컬렉션을 나타냅니다
 type: docs
-weight: 10580
+weight: 10600
 url: /ko/aspose.slides.smartart/ismartartshapecollection/
 ---
 ## ISmartArtShapeCollection 인터페이스
 
-SmartArt 도형 컬렉션을 나타냅니다
+SmartArt 모양의 컬렉션을 나타냅니다
 
 ```csharp
 public interface ISmartArtShapeCollection : IGenericCollection<ISmartArtShape>
@@ -18,9 +18,9 @@ public interface ISmartArtShapeCollection : IGenericCollection<ISmartArtShape>
 
 | 이름 | 설명 |
 | --- | --- |
-| [Item](../../aspose.slides.smartart/ismartartshapecollection/item) { get; } | 지정된 인덱스의 요소를 가져옵니다. 읽기 전용 [`ISmartArtShape`](../ismartartshape). 요소의 0부터 시작하는 인덱스 |
+| [Item](../../aspose.slides.smartart/ismartartshapecollection/item) { get; } | 지정된 인덱스에 있는 요소를 가져옵니다. 읽기 전용 [`ISmartArtShape`](../ismartartshape). 요소의 0부터 시작하는 인덱스 |
 
-### 참조
+### 참고
 
 * 인터페이스 [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * 인터페이스 [ISmartArtShape](../ismartartshape)

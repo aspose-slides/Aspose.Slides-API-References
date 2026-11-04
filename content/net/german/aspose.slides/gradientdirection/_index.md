@@ -1,14 +1,14 @@
 ---
 title: GradientDirection
-second_title: Aspose.Sildes für .NET API Referenz
-description: Stellt den Farbverlaufstil dar.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt den Verlaufstil dar.
 type: docs
-weight: 4990
+weight: 5010
 url: /de/aspose.slides/gradientdirection/
 ---
 ## GradientDirection Aufzählung
 
-Stellt den Farbverlaufstil dar.
+Stellt den Verlaufstil dar.
 
 ```csharp
 public enum GradientDirection
@@ -19,10 +19,10 @@ public enum GradientDirection
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | NotDefined | `-1` | Nicht definiert |
-| FromCorner1 | `0` | Von der linken oberen Ecke |
-| FromCorner2 | `1` | Von der rechten oberen Ecke |
-| FromCorner3 | `2` | Von der linken unteren Ecke |
-| FromCorner4 | `3` | Von der rechten unteren Ecke |
+| FromCorner1 | `0` | Von der oberen linken Ecke |
+| FromCorner2 | `1` | Von der oberen rechten Ecke |
+| FromCorner3 | `2` | Von der unteren linken Ecke |
+| FromCorner4 | `3` | Von der unteren rechten Ecke |
 | FromCenter | `4` | Von der Mitte |
 
 ### Siehe auch

@@ -1,12 +1,12 @@
 ---
 title: ColorStringFormat
-second_title: Aspose.Sildes para .NET Referencia de API
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa un tipo de acción de hipervínculo.
 type: docs
-weight: 2560
+weight: 2580
 url: /es/aspose.slides/colorstringformat/
 ---
-## ColorStringFormat enumeración
+## enumeración ColorStringFormat
 
 Representa un tipo de acción de hipervínculo.
 

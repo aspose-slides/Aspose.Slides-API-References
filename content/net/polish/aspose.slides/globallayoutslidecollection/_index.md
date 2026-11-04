@@ -1,9 +1,9 @@
 ---
 title: GlobalLayoutSlideCollection
 second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Reprezentuje kolekcję wszystkich slajdów układu w prezentacji. Rozszerza klasę LayoutSlideCollection metodami dodawania/kopiowania slajdów układu w kontekście łączenia poszczególnych kolekcji układów slajdów mistrzów.
+description: Reprezentuje kolekcję wszystkich slajdów układu w prezentacji. Rozszerza klasę LayoutSlideCollection metodami dodawania/klonowania slajdów układu w kontekście łączenia poszczególnych kolekcji slajdów układów masterów.
 type: docs
-weight: 4980
+weight: 5000
 url: /pl/aspose.slides/globallayoutslidecollection/
 ---
 ## GlobalLayoutSlideCollection klasa
@@ -17,31 +17,31 @@ public sealed class GlobalLayoutSlideCollection : LayoutSlideCollection,
 
 ## Właściwości
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
-| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Returns the number of layout slides in a collection. Tylko do odczytu Int32. |
-| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Tylko do odczytu Boolean. |
-| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Returns the layout slide by index. Tylko do odczytu [`LayoutSlide`](../layoutslide). |
-| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Returns a synchronization root. Tylko do odczytu Object. |
+| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Zwraca liczbę slajdów układu w kolekcji. Tylko do odczytu Int32. |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest zsynchronizowany (wątkowo-bezpieczny). Tylko do odczytu Boolean. |
+| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Zwraca slajd układu według indeksu. Tylko do odczytu [`LayoutSlide`](../layoutslide). |
+| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Zwraca obiekt synchronizacji. Tylko do odczytu Object. |
 
 ## Metody
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
-| [Add](../../aspose.slides/globallayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | Adds a new layout slide to the presentation. |
-| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone)(ILayoutSlide) | Adds a copy of a specified layout slide to the presentation. |
-| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | Adds a copy of a specified layout slide to the presentation. |
-| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Copies all elements from the collection to the specified array. |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Returns the first layout slide of specified type. A type of layout slide to find.[`LayoutSlide`](../layoutslide) with specified type or null if no layouts found. |
-| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Removes a layout from the collection. |
-| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Removes unused layout slides (layout slides whose HasDependingSlides is false). |
+| [Add](../../aspose.slides/globallayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | Dodaje nowy slajd układu do prezentacji. |
+| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone)(ILayoutSlide) | Dodaje kopię określonego slajdu układu do prezentacji. |
+| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | Dodaje kopię określonego slajdu układu do prezentacji. |
+| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Kopiuje wszystkie elementy z kolekcji do określonej tablicy. |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Zwraca pierwszy slajd układu określonego typu. Typ slajdu układu do znalezienia.[`LayoutSlide`](../layoutslide) z określonym typem lub null, jeśli nie znaleziono żadnych układów. |
+| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Zwraca enumerator, który iteruje po kolekcji. |
+| [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Usuwa układ z kolekcji. |
+| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Usuwa nieużywane slajdy układu (slajdy układu, których HasDependingSlides jest false). |
 
 ### Zobacz także
 
 * klasa [LayoutSlideCollection](../layoutslidecollection)
 * interfejs [IGlobalLayoutSlideCollection](../igloballayoutslidecollection)
 * przestrzeń nazw [Aspose.Slides](../../aspose.slides)
-* zbiór [Aspose.Slides](../../)
+* zestaw [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

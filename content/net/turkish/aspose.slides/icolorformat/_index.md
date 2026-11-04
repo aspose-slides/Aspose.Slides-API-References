@@ -1,12 +1,12 @@
 ---
 title: IColorFormat
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Bir sunumda kullanılan rengi temsil eder.
 type: docs
-weight: 5490
+weight: 5510
 url: /tr/aspose.slides/icolorformat/
 ---
-## IColorFormat arayüz
+## IColorFormat arayüzü
 
 Bir sunumda kullanılan rengi temsil eder.
 
@@ -18,29 +18,29 @@ public interface IColorFormat : IFillParamSource
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/icolorformat/asifillparamsource) { get; } | IFillParamSource arabirimini döndürür. Salt okunur [`IFillParamSource`](../ifillparamsource). |
-| [B](../../aspose.slides/icolorformat/b) { get; set; } | Bir rengin mavi bileşenini döndürür veya ayarlar. Tüm renk dönüşümleri yok sayılır. Okunur/Yazılabilir Byte. |
-| [Color](../../aspose.slides/icolorformat/color) { get; set; } | Sonuç renk döndürür (tüm renk dönüşümleri uygulanmış). RGB renklerini ayarlar ve tüm renk dönüşümlerini temizler. Okunur/Yazılabilir Color. |
-| [ColorTransform](../../aspose.slides/icolorformat/colortransform) { get; } | Bir renge uygulanan renk dönüşümleri koleksiyonunu döndürür. Salt okunur [`IColorOperationCollection`](../icoloroperationcollection). |
-| [ColorType](../../aspose.slides/icolorformat/colortype) { get; set; } | Renk tanım yöntemini döndürür veya ayarlar. Okunur/Yazılabilir [`ColorType`](../colortype). |
-| [FloatB](../../aspose.slides/icolorformat/floatb) { get; set; } | Bir rengin mavi bileşenini döndürür veya ayarlar. Tüm renk dönüşümleri yok sayılır. Okunur/Yazılabilir Single. |
-| [FloatG](../../aspose.slides/icolorformat/floatg) { get; set; } | Bir rengin yeşil bileşenini döndürür veya ayarlar. Tüm renk dönüşümleri yok sayılır. Okunur/Yazılabilir Single. |
-| [FloatR](../../aspose.slides/icolorformat/floatr) { get; set; } | Bir rengin kırmızı bileşenini döndürür veya ayarlar. Tüm renk dönüşümleri yok sayılır. Okunur/Yazılabilir Single. |
-| [G](../../aspose.slides/icolorformat/g) { get; set; } | Bir rengin yeşil bileşenini döndürür veya ayarlar. Tüm renk dönüşümleri yok sayılır. Okunur/Yazılabilir Byte. |
-| [Hue](../../aspose.slides/icolorformat/hue) { get; set; } | HSL temsili bir renkte ton bileşenini döndürür veya ayarlar. Tüm renk dönüşümleri yok sayılır. Okunur/Yazılabilir Single. |
-| [Luminance](../../aspose.slides/icolorformat/luminance) { get; set; } | HSL temsili bir renkte parlaklık bileşenini döndürür veya ayarlar. Tüm renk dönüşümleri yok sayılır. Okunur/Yazılabilir Single. |
-| [PresetColor](../../aspose.slides/icolorformat/presetcolor) { get; set; } | Renk ön ayarını döndürür veya ayarlar. Okunur/Yazılabilir [`PresetColor`](../presetcolor). |
-| [R](../../aspose.slides/icolorformat/r) { get; set; } | Bir rengin kırmızı bileşenini döndürür veya ayarlar. Tüm renk dönüşümleri yok sayılır. Okunur/Yazılabilir Byte. |
-| [Saturation](../../aspose.slides/icolorformat/saturation) { get; set; } | HSL temsili bir renkte doygunluk bileşenini döndürür veya ayarlar. Tüm renk dönüşümleri yok sayılır. Okunur/Yazılabilir Single. |
-| [SchemeColor](../../aspose.slides/icolorformat/schemecolor) { get; set; } | Renk şemasıyla tanımlanan rengi döndürür veya ayarlar. Okunur/Yazılabilir [`SchemeColor`](../schemecolor). |
-| [SystemColor](../../aspose.slides/icolorformat/systemcolor) { get; set; } | Sistem renk tablosu ile tanımlanan rengi döndürür veya ayarlar. Okunur/Yazılabilir [`SystemColor`](../systemcolor). |
+| [AsIFillParamSource](../../aspose.slides/icolorformat/asifillparamsource) { get; } | Döndürür IFillParamSource arayüzü. Yalnızca okuma [`IFillParamSource`](../ifillparamsource). |
+| [B](../../aspose.slides/icolorformat/b) { get; set; } | Döndürür veya ayarlar bir rengin mavi bileşenini. Tüm renk dönüşümleri yok sayılır. Okuma/yazma Byte. |
+| [Color](../../aspose.slides/icolorformat/color) { get; set; } | Döndürür sonuç renk (tüm renk dönüşümleri uygulanmış). RGB renklerini ayarlar ve tüm renk dönüşümlerini temizler. Okuma/yazma Color. |
+| [ColorTransform](../../aspose.slides/icolorformat/colortransform) { get; } | Döndürür bir renge uygulanan renk dönüşümlerinin koleksiyonunu. Yalnızca okuma [`IColorOperationCollection`](../icoloroperationcollection). |
+| [ColorType](../../aspose.slides/icolorformat/colortype) { get; set; } | Döndürür veya ayarlar renk tanımlama yöntemini. Okuma/yazma [`ColorType`](../colortype). |
+| [FloatB](../../aspose.slides/icolorformat/floatb) { get; set; } | Döndürür veya ayarlar bir rengin mavi bileşenini. Tüm renk dönüşümleri yok sayılır. Okuma/yazma Single. |
+| [FloatG](../../aspose.slides/icolorformat/floatg) { get; set; } | Döndürür veya ayarlar bir rengin yeşil bileşenini. Tüm renk dönüşümleri yok sayılır. Okuma/yazma Single. |
+| [FloatR](../../aspose.slides/icolorformat/floatr) { get; set; } | Döndürür veya ayarlar bir rengin kırmızı bileşenini. Tüm renk dönüşümleri yok sayılır. Okuma/yazma Single. |
+| [G](../../aspose.slides/icolorformat/g) { get; set; } | Döndürür veya ayarlar bir rengin yeşil bileşenini. Tüm renk dönüşümleri yok sayılır. Okuma/yazma Byte. |
+| [Hue](../../aspose.slides/icolorformat/hue) { get; set; } | Döndürür veya ayarlar bir rengin HSL temsilinde ton bileşenini. Tüm renk dönüşümleri yok sayılır. Okuma/yazma Single. |
+| [Luminance](../../aspose.slides/icolorformat/luminance) { get; set; } | Döndürür veya ayarlar bir rengin HSL temsilinde parlaklık bileşenini. Tüm renk dönüşümleri yok sayılır. Okuma/yazma Single. |
+| [PresetColor](../../aspose.slides/icolorformat/presetcolor) { get; set; } | Döndürür veya ayarlar renk ön ayarını. Okuma/yazma [`PresetColor`](../presetcolor). |
+| [R](../../aspose.slides/icolorformat/r) { get; set; } | Döndürür veya ayarlar bir rengin kırmızı bileşenini. Tüm renk dönüşümleri yok sayılır. Okuma/yazma Byte. |
+| [Saturation](../../aspose.slides/icolorformat/saturation) { get; set; } | Döndürür veya ayarlar bir rengin HSL temsilinde doygunluk bileşenini. Tüm renk dönüşümleri yok sayılır. Okuma/yazma Single. |
+| [SchemeColor](../../aspose.slides/icolorformat/schemecolor) { get; set; } | Döndürür veya ayarlar bir renk şemasıyla tanımlanan rengi. Okuma/yazma [`SchemeColor`](../schemecolor). |
+| [SystemColor](../../aspose.slides/icolorformat/systemcolor) { get; set; } | Döndürür veya ayarlar sistem renk tablosuyla tanımlanan rengi. Okuma/yazma [`SystemColor`](../systemcolor). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [CopyFrom](../../aspose.slides/icolorformat/copyfrom)(IColorFormat) | "color" nesnesinden renk biçimini kopyalar. |
-| [ToString](../../aspose.slides/icolorformat/tostring)(ColorStringFormat) | Mevcut renk biçimini temsil eden bir String döndürür. |
+| [CopyFrom](../../aspose.slides/icolorformat/copyfrom)(IColorFormat) | Renk formatını "color" öğesinden kopyalar. |
+| [ToString](../../aspose.slides/icolorformat/tostring)(ColorStringFormat) | Döndürür mevcut renk formatını temsil eden bir String. |
 
 ### Ayrıca Bakınız
 

@@ -1,9 +1,9 @@
 ---
 title: IColumnCollection
-second_title: Aspose.Sildes .NET API 레퍼런스
-description: 테이블의 열 컬렉션을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 테이블에서 열의 컬렉션을 나타냅니다.
 type: docs
-weight: 5530
+weight: 5550
 url: /ko/aspose.slides/icolumncollection/
 ---
 ## IColumnCollection 인터페이스
@@ -18,7 +18,7 @@ public interface IColumnCollection : IGenericCollection<IColumn>
 
 | 이름 | 설명 |
 | --- | --- |
-| [Item](../../aspose.slides/icolumncollection/item) { get; } | 지정된 인덱스에 있는 열을 반환합니다. 읽기 전용 [`IColumn`](../icolumn). |
+| [Item](../../aspose.slides/icolumncollection/item) { get; } | 지정된 인덱스의 열을 반환합니다. 읽기 전용 [`IColumn`](../icolumn). |
 
 ## 메서드
 
@@ -26,9 +26,9 @@ public interface IColumnCollection : IGenericCollection<IColumn>
 | --- | --- |
 | [AddClone](../../aspose.slides/icolumncollection/addclone)(IColumn, bool) | 지정된 템플릿 행의 복사본을 만들고 테이블 하단에 삽입합니다. |
 | [InsertClone](../../aspose.slides/icolumncollection/insertclone)(int, IColumn, bool) | 지정된 템플릿 열의 복사본을 만들고 테이블의 지정된 위치에 삽입합니다. |
-| [RemoveAt](../../aspose.slides/icolumncollection/removeat)(int, bool) | 테이블의 지정된 위치에 있는 열을 제거합니다. |
+| [RemoveAt](../../aspose.slides/icolumncollection/removeat)(int, bool) | 테이블에서 지정된 위치의 열을 제거합니다. |
 
-### 참조
+### 참고
 
 * 인터페이스 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 인터페이스 [IColumn](../icolumn)

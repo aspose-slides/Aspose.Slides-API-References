@@ -1,38 +1,39 @@
 ---
 title: IDataLabel
-second_title: Aspose.Sildes برای .NET مرجع API
-description: برچسب‌های یک سری را نمایش می‌دهد.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: نمایانگر برچسب‌های یک سری.
 type: docs
-weight: 2020
+weight: 2040
 url: /fa/aspose.slides.charts/idatalabel/
 ---
 ## IDataLabel رابط
 
-Represents a series labels.
+نماینده برچسب‌های یک سری.
 
 ```csharp
 public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
 ```
 
-## ویژگی‌ها
+## خواص
 
 | نام | توضیح |
 | --- | --- |
-| [AsIActualLayout](../../aspose.slides.charts/idatalabel/asiactuallayout) { get; } | رابط IActualLayout را برمی‌گرداند. |
-| [AsILayoutable](../../aspose.slides.charts/idatalabel/asilayoutable) { get; } | رابط ILayoutable را برمی‌گرداند. فقط خواندنی [`ILayoutable`](../ilayoutable). |
-| [AsIOverridableText](../../aspose.slides.charts/idatalabel/asioverridabletext) { get; } | رابط IOverridableText را برمی‌گرداند. فقط خواندنی [`IOverridableText`](../ioverridabletext). |
-| [DataLabelFormat](../../aspose.slides.charts/idatalabel/datalabelformat) { get; } | قالب برچسب داده را برمی‌گرداند. فقط خواندنی [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | مقدار False به این معناست که برچسب داده قابل مشاهده نیست (و بنابراین همه پرچم‌های Show* (ShowValue, ...) نیز False هستند). فقط خواندنی Boolean. |
-| [ValueFromCell](../../aspose.slides.charts/idatalabel/valuefromcell) { get; set; } | سلول داده کتاب کار را می‌گیرد یا تنظیم می‌کند. در صورتی اعمال می‌شود که ویژگی IDataLabelFormat.ShowLabelValueFromCell برابر True باشد. |
+| [AsIActualLayout](../../aspose.slides.charts/idatalabel/asiactuallayout) { get; } | باز می‌گرداند IActualLayout رابط. |
+| [AsILayoutable](../../aspose.slides.charts/idatalabel/asilayoutable) { get; } | باز می‌گرداند ILayoutable رابط. فقط خواندنی [`ILayoutable`](../ilayoutable). |
+| [AsIOverridableText](../../aspose.slides.charts/idatalabel/asioverridabletext) { get; } | باز می‌گرداند IOverridableText رابط. فقط خواندنی [`IOverridableText`](../ioverridabletext). |
+| [DataLabelFormat](../../aspose.slides.charts/idatalabel/datalabelformat) { get; } | باز می‌گرداند قالب برچسب داده. فقط خواندنی [`IDataLabelFormat`](../idatalabelformat). |
+| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | False به این معنی است که برچسب داده قابل مشاهده نیست (و تمام پرچم‌های Show*- (ShowValue, ...) برابر false هستند). فقط خواندنی Boolean. |
+| [LabelShapeType](../../aspose.slides.charts/idatalabel/labelshapetype) { get; set; } | دریافت یا تنظیم نوع شکل برچسب داده. اگر هیچ شکلی تعریف نشده باشد NotDefined باز می‌گرداند. |
+| [ValueFromCell](../../aspose.slides.charts/idatalabel/valuefromcell) { get; set; } | دریافت یا تنظیم سلول داده کتاب‌کار. اگر ویژگی IDataLabelFormat.ShowLabelValueFromCell برابر true باشد اعمال می‌شود. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [GetActualLabelText](../../aspose.slides.charts/idatalabel/getactuallabeltext)() | متن برچسب واقعی را بر اساس تنظیمات DataLabelFormat یا مقدار TextFrameForOverriding.Text برمی‌گرداند. |
-| [Hide](../../aspose.slides.charts/idatalabel/hide)() | با تنظیم تمام پرچم‌های Show* (ShowValue, ...) به حالت False، برچسب داده را مخفی می‌کند. پس از این IsVisible برابر False خواهد بود. |
+| [GetActualLabelText](../../aspose.slides.charts/idatalabel/getactuallabeltext)() | باز می‌گرداند متن واقعی برچسب بر اساس تنظیمات DataLabelFormat یا مقدار TextFrameForOverriding.Text. |
+| [Hide](../../aspose.slides.charts/idatalabel/hide)() | با تنظیم تمام پرچم‌های Show* (ShowValue, ...) به حالت false، برچسب داده مخفی می‌شود. پس از این IsVisible برابر false خواهد بود. |
 
-### همچنین ببینید
+### موارد مرتبط
 
 * رابط [IActualLayout](../iactuallayout)
 * رابط [ILayoutable](../ilayoutable)

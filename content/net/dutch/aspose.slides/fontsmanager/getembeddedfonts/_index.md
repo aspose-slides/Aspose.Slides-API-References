@@ -3,7 +3,7 @@ title: GetEmbeddedFonts
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Retourneert de ingesloten lettertypen in de presentatie
 type: docs
-weight: 40
+weight: 50
 url: /nl/aspose.slides/fontsmanager/getembeddedfonts/
 ---
 ## FontsManager.GetEmbeddedFonts methode
@@ -14,7 +14,7 @@ Retourneert de ingesloten lettertypen in de presentatie
 public IFontData[] GetEmbeddedFonts()
 ```
 
-### Zie ook
+### Zie Ook
 
 * interface [IFontData](../../ifontdata)
 * klasse [FontsManager](../../fontsmanager)

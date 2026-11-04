@@ -1,9 +1,9 @@
 ---
 title: MarkdownSaveOptions
-second_title: Aspose.Sildes voor .NET API Referentie
-description: Vertegenwoordigt opties die bepalen hoe een presentatie moet worden opgeslagen als markdown.
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Representeert opties die bepalen hoe een presentatie moet worden opgeslagen als markdown.
 type: docs
-weight: 4250
+weight: 4270
 url: /nl/aspose.slides.export/markdownsaveoptions/
 ---
 ## MarkdownSaveOptions klasse
@@ -14,32 +14,32 @@ Stelt opties voor die bepalen hoe een presentatie moet worden opgeslagen als mar
 public class MarkdownSaveOptions : SaveOptions
 ```
 
-## Constructoren
+## Constructors
 
 | Naam | Beschrijving |
 | --- | --- |
 | [MarkdownSaveOptions](markdownsaveoptions)() | Ctor. |
 
-## Eigenschappen
+## Properties
 
 | Naam | Beschrijving |
 | --- | --- |
-| [BasePath](../../aspose.slides.export/markdownsaveoptions/basepath) { get; set; } | Specificeert het basispad waar het document met bronnen wordt opgeslagen. Standaard is de huidige map van de applicatie. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Geeft het lettertype terug of stelt het in dat wordt gebruikt als het bronlettertype niet gevonden wordt. Lees-schrijf String. |
+| [BasePath](../../aspose.slides.export/markdownsaveoptions/basepath) { get; set; } | Specificeert het baspad waar het document met bronnen zal worden opgeslagen. Standaard is de huidige map van de applicatie. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Geeft de lettertype terug of stelt deze in die wordt gebruikt wanneer het bronlettertype niet wordt gevonden. Lees-schrijf String. |
 | [ExportType](../../aspose.slides.export/markdownsaveoptions/exporttype) { get; set; } | Specificeert de markdown-specificatie om de presentatie te converteren. Standaard is `TextOnly`. |
 | [Flavor](../../aspose.slides.export/markdownsaveoptions/flavor) { get; set; } | Specificeert de markdown-specificatie om de presentatie te converteren. Standaard is `Multi-markdown`. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Geeft de visuele stijl van de gradiënt terug of stelt deze in. Lees-schrijf [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Geeft de visuele stijl van de gradient terug of stelt deze in. Lees/schrijf [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [HandleRepeatedSpaces](../../aspose.slides.export/markdownsaveoptions/handlerepeatedspaces) { get; set; } |  |
 | [ImagesSaveFolderName](../../aspose.slides.export/markdownsaveoptions/imagessavefoldername) { get; set; } | Specificeert de mapnaam om afbeeldingen op te slaan. Standaard is `Images`. |
-| [NewLineType](../../aspose.slides.export/markdownsaveoptions/newlinetype) { get; set; } | Specificeert of het gegenereerde document nieuwe regels moet hebben \r(Macintosh) van \n(Unix) of \r\n(Windows). Standaard is `Unix`. |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Stelt een callback-object voor om voortgangsupdates bij het opslaan in percentage te ontvangen. Zie [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [RemoveEmptyLines](../../aspose.slides.export/markdownsaveoptions/removeemptylines) { get; set; } | Indien ingesteld op `true`, worden lege of alleen uit witruimte bestaande regels uit de uiteindelijke Markdown-uitvoer verwijderd. Standaard is `false`. |
-| [ShowComments](../../aspose.slides.export/markdownsaveoptions/showcomments) { get; set; } | Specificeert of het gegenereerde document opmerkingen moet tonen of niet. Standaard is `false`. |
+| [NewLineType](../../aspose.slides.export/markdownsaveoptions/newlinetype) { get; set; } | Specificeert of het gegenereerde document nieuwe regels moet hebben \\r(Macintosh) van \\n(Unix) of \\r\\n(Windows). Standaard is `Unix`. |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Stelt een callback-object voor die voortgangsupdates bij het opslaan in percentage weer. Zie [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [RemoveEmptyLines](../../aspose.slides.export/markdownsaveoptions/removeemptylines) { get; set; } | Indien ingesteld op `true`, worden lege of alleen witruimte-bevatende regels uit de uiteindelijke Markdown-output verwijderd. Standaard is `false`. |
+| [ShowComments](../../aspose.slides.export/markdownsaveoptions/showcomments) { get; set; } | Specificeert of het gegenereerde document opmerkingen moet weergeven of niet. Standaard is `false`. |
 | [ShowHiddenSlides](../../aspose.slides.export/markdownsaveoptions/showhiddenslides) { get; set; } | Specificeert of het gegenereerde document verborgen dia's moet opnemen of niet. Standaard is `false`. |
-| [ShowSlideNumber](../../aspose.slides.export/markdownsaveoptions/showslidenumber) { get; set; } | Specificeert of het gegenereerde document het nummer van elke dia moet tonen of niet. Standaard is `false`. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Specificeert of hyperlinks met JavaScript-aanroepen overgeslagen moeten worden bij het opslaan van de presentatie. Lees-schrijf Boolean. De standaardwaarde is **false**. |
-| [SlideNumberFormat](../../aspose.slides.export/markdownsaveoptions/slidenumberformat) { get; set; } | Haalt de opmaakstring op of stelt deze in die wordt gebruikt voor dia-nummerkoppen in de Markdown-uitvoer. De opmaak moet de \"{0}\"-placeholder bevatten, die tijdens het exporteren wordt vervangen door de dia-index. Voorbeeld: \"# Slide {0}\" resulteert in \"# Slide 1\", \"# Slide 2\", enz. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Geeft een object terug of stelt dit in dat waarschuwingen ontvangt en beslist of het laadproces wordt voortgezet of wordt afgebroken. Lees-schrijf [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [ShowSlideNumber](../../aspose.slides.export/markdownsaveoptions/showslidenumber) { get; set; } | Specificeert of het gegenereerde document het nummer van elke dia moet weergeven of niet. Standaard is `false`. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Specificeert of hyperlinks met JavaScript-oproepen moeten worden overgeslagen bij het opslaan van de presentatie. Lees/schrijf Boolean. De standaardwaarde is **false**. |
+| [SlideNumberFormat](../../aspose.slides.export/markdownsaveoptions/slidenumberformat) { get; set; } | Haalt de opmaakstring op of stelt deze in die wordt gebruikt voor dia-nummerkoppen in Markdown-output. Het formaat moet de \"{0}\"-placeholder bevatten, die tijdens export wordt vervangen door de dia-index. Voorbeeld: \"# Slide {0}\" levert \"# Slide 1\", \"# Slide 2\", enz. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Geeft een object terug of stelt dit in dat waarschuwingsberichten ontvangt en beslist of het laadproces wordt voortgezet of wordt afgebroken. Lees/schrijf [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Voorbeelden
 

@@ -3,12 +3,12 @@ title: ColorStringFormat
 second_title: Aspose.Sildes for .NET API 참조
 description: 하이퍼링크 동작 유형을 나타냅니다.
 type: docs
-weight: 2560
+weight: 2580
 url: /ko/aspose.slides/colorstringformat/
 ---
 ## ColorStringFormat 열거형
 
-하이퍼링크 동작의 유형을 나타냅니다.
+하이퍼링크 동작 유형을 나타냅니다.
 
 ```csharp
 public enum ColorStringFormat
@@ -20,7 +20,7 @@ public enum ColorStringFormat
 | --- | --- | --- |
 | Vml | `0` | VML 색 문자열 형식. |
 
-### 관련 항목
+### 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

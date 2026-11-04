@@ -1,14 +1,14 @@
 ---
 title: ForEach
-second_title: Aspose.Sildes for .NET API 參考
-description: 表示一組旨在遍歷不同 Presentation../aspose.slides/presentation 模型物件的方法。若您需要遍歷並變更某些 Presentation 元素的格式或內容，例如變更每個段落的格式，這些方法會很有用。
+second_title: Aspose.Sildes .NET API 參考
+description: 代表一組旨在遍歷不同 Presentation../aspose.slides/presentation 模型物件的方法。若需要遍歷並變更某些 Presentation 元素的格式或內容，例如變更每個段落的格式，這些方法會很有用。
 type: docs
-weight: 7900
+weight: 7920
 url: /zh-hant/aspose.slides.lowcode/foreach/
 ---
 ## ForEach 類別
 
-表示一組旨在遍歷不同 [`Presentation`](../../aspose.slides/presentation) 模型物件的方法。這些方法在需要遍歷並變更某些 Presentation 元素的格式或內容時會很有用，例如變更每個段落的格式。
+表示一組旨在遍歷不同 [`Presentation`](../../aspose.slides/presentation) 模型物件的方法。這些方法如果您需要遍歷並變更某些 Presentation' 元素的格式或內容，例如變更每個段落的格式，可能會很有用。
 
 ```csharp
 public static class ForEach
@@ -18,27 +18,27 @@ public static class ForEach
 
 | 名稱 | 說明 |
 | --- | --- |
-| static [LayoutSlide](../../aspose.slides.lowcode/foreach/layoutslide)(Presentation, ForEachLayoutSlideCallback) | 在 [`Presentation`](../../aspose.slides/presentation) 中遍歷每個 [`LayoutSlide`](./layoutslide)。 |
-| static [MasterSlide](../../aspose.slides.lowcode/foreach/masterslide)(Presentation, ForEachMasterSlideCallback) | 在 [`Presentation`](../../aspose.slides/presentation) 中遍歷每個 [`MasterSlide`](./masterslide)。 |
-| static [Paragraph](../../aspose.slides.lowcode/foreach/paragraph#paragraph_1)(Presentation, ForEachParagraphCallback) | 在 [`Presentation`](../../aspose.slides/presentation) 中遍歷每個 [`Paragraph`](./paragraph)。形狀將在所有類型的投影片中遍歷 - [`Slide`](./slide)、[`MasterSlide`](./masterslide) 和 [`LayoutSlide`](./layoutslide)。 |
-| static [Paragraph](../../aspose.slides.lowcode/foreach/paragraph#paragraph)(Presentation, bool, ForEachParagraphCallback) | 在 [`Presentation`](../../aspose.slides/presentation) 中遍歷每個 [`Paragraph`](./paragraph)。形狀將在所有類型的投影片中遍歷 - [`Slide`](./slide)、[`MasterSlide`](./masterslide)、[`LayoutSlide`](./layoutslide) 和 [`NotesSlide`](../../aspose.slides/notesslide)。 |
-| static [Portion](../../aspose.slides.lowcode/foreach/portion#portion_1)(Presentation, ForEachPortionCallback) | 在 [`Presentation`](../../aspose.slides/presentation) 中遍歷每個 [`Portion`](./portion)。各部分將在所有類型的投影片中遍歷 - [`Slide`](./slide)、[`MasterSlide`](./masterslide) 和 [`LayoutSlide`](./layoutslide)。 |
-| static [Portion](../../aspose.slides.lowcode/foreach/portion#portion)(Presentation, bool, ForEachPortionCallback) | 在 [`Presentation`](../../aspose.slides/presentation) 中遍歷每個 [`Portion`](./portion)。各部分將在所有類型的投影片中遍歷 - [`Slide`](./slide)、[`MasterSlide`](./masterslide)、[`LayoutSlide`](./layoutslide) 和 [`NotesSlide`](../../aspose.slides/notesslide)。 |
-| static [Shape](../../aspose.slides.lowcode/foreach/shape#shape)(BaseSlide, ForEachShapeCallback) | 在 [`BaseSlide`](../../aspose.slides/baseslide) 中遍歷每個 [`Shape`](./shape)。[`BaseSlide`](../../aspose.slides/baseslide) 是 [`Slide`](./slide)、[`MasterSlide`](./masterslide) 和 [`LayoutSlide`](./layoutslide) 的基礎類型。 |
-| static [Shape](../../aspose.slides.lowcode/foreach/shape#shape_2)(Presentation, ForEachShapeCallback) | 在 [`Presentation`](../../aspose.slides/presentation) 中遍歷每個 [`Shape`](./shape)。形狀將在所有類型的投影片中遍歷 - [`Slide`](./slide)、[`MasterSlide`](./masterslide) 和 [`LayoutSlide`](./layoutslide)。 |
-| static [Shape](../../aspose.slides.lowcode/foreach/shape#shape_1)(Presentation, bool, ForEachShapeCallback) | 在 [`Presentation`](../../aspose.slides/presentation) 中遍歷每個 [`Shape`](./shape)。如有需要，形狀將在所有類型的投影片中遍歷 - [`Slide`](./slide)、[`MasterSlide`](./masterslide)、[`LayoutSlide`](./layoutslide) 和 [`NotesSlide`](../../aspose.slides/notesslide)。 |
-| static [Slide](../../aspose.slides.lowcode/foreach/slide)(Presentation, ForEachSlideCallback) | 在 [`Presentation`](../../aspose.slides/presentation) 中遍歷每個 [`Slide`](./slide)。 |
+| static [LayoutSlide](../../aspose.slides.lowcode/foreach/layoutslide)(Presentation, ForEachLayoutSlideCallback) | 遍歷 [`Presentation`](../../aspose.slides/presentation) 中的每個 [`LayoutSlide`](./layoutslide)。 |
+| static [MasterSlide](../../aspose.slides.lowcode/foreach/masterslide)(Presentation, ForEachMasterSlideCallback) | 遍歷 [`Presentation`](../../aspose.slides/presentation) 中的每個 [`MasterSlide`](./masterslide)。 |
+| static [Paragraph](../../aspose.slides.lowcode/foreach/paragraph#paragraph_1)(Presentation, ForEachParagraphCallback) | 遍歷 [`Presentation`](../../aspose.slides/presentation) 中的每個 [`Paragraph`](./paragraph)。形狀會在所有類型的投影片中遍歷 - [`Slide`](./slide)、[`MasterSlide`](./masterslide) 與 [`LayoutSlide`](./layoutslide) |
+| static [Paragraph](../../aspose.slides.lowcode/foreach/paragraph#paragraph)(Presentation, bool, ForEachParagraphCallback) | 遍歷 [`Presentation`](../../aspose.slides/presentation) 中的每個 [`Paragraph`](./paragraph)。形狀會在所有類型的投影片中遍歷 - [`Slide`](./slide)、[`MasterSlide`](./masterslide)、[`LayoutSlide`](./layoutslide) 與 [`NotesSlide`](../../aspose.slides/notesslide) |
+| static [Portion](../../aspose.slides.lowcode/foreach/portion#portion_1)(Presentation, ForEachPortionCallback) | 遍歷 [`Presentation`](../../aspose.slides/presentation) 中的每個 [`Portion`](./portion)。段落會在所有類型的投影片中遍歷 - [`Slide`](./slide)、[`MasterSlide`](./masterslide) 與 [`LayoutSlide`](./layoutslide) |
+| static [Portion](../../aspose.slides.lowcode/foreach/portion#portion)(Presentation, bool, ForEachPortionCallback) | 遍歷 [`Presentation`](../../aspose.slides/presentation) 中的每個 [`Portion`](./portion)。段落會在所有類型的投影片中遍歷 - [`Slide`](./slide)、[`MasterSlide`](./masterslide)、[`LayoutSlide`](./layoutslide) 與 [`NotesSlide`](../../aspose.slides/notesslide) |
+| static [Shape](../../aspose.slides.lowcode/foreach/shape#shape)(BaseSlide, ForEachShapeCallback) | 遍歷 [`BaseSlide`](../../aspose.slides/baseslide) 中的每個 [`Shape`](./shape)。[`BaseSlide`](../../aspose.slides/baseslide) 是 [`Slide`](./slide)、[`MasterSlide`](./masterslide) 與 [`LayoutSlide`](./layoutslide) 的基礎類型 |
+| static [Shape](../../aspose.slides.lowcode/foreach/shape#shape_2)(Presentation, ForEachShapeCallback) | 遍歷 [`Presentation`](../../aspose.slides/presentation) 中的每個 [`Shape`](./shape)。形狀會在所有類型的投影片中遍歷 - [`Slide`](./slide)、[`MasterSlide`](./masterslide) 與 [`LayoutSlide`](./layoutslide) |
+| static [Shape](../../aspose.slides.lowcode/foreach/shape#shape_1)(Presentation, bool, ForEachShapeCallback) | 遍歷 [`Presentation`](../../aspose.slides/presentation) 中的每個 [`Shape`](./shape)。形狀會在所有類型的投影片中遍歷 - [`Slide`](./slide)、[`MasterSlide`](./masterslide)、[`LayoutSlide`](./layoutslide) 與 [`NotesSlide`](../../aspose.slides/notesslide)（如有需要）。 |
+| static [Slide](../../aspose.slides.lowcode/foreach/slide)(Presentation, ForEachSlideCallback) | 遍歷 [`Presentation`](../../aspose.slides/presentation) 中的每個 [`Slide`](./slide)。 |
 
-## 其他成員
+## 其他 成員
 
 | 名稱 | 說明 |
 | --- | --- |
-| delegate [ForEachLayoutSlideCallback](foreach.foreachlayoutslidecallback) | 在 [`Presentation`](../../aspose.slides/presentation) 中的每個 [`LayoutSlide`](./layoutslide) 會呼叫此回呼。 |
-| delegate [ForEachMasterSlideCallback](foreach.foreachmasterslidecallback) | 在 [`Presentation`](../../aspose.slides/presentation) 中的每個 [`MasterSlide`](./masterslide) 會呼叫此回呼。 |
-| delegate [ForEachParagraphCallback](foreach.foreachparagraphcallback) | 在 [`BaseSlide`](../../aspose.slides/baseslide) 上的每個 [`Paragraph`](./paragraph) 會呼叫此回呼。 |
-| delegate [ForEachPortionCallback](foreach.foreachportioncallback) | 在 [`BaseSlide`](../../aspose.slides/baseslide) 上的 [`Paragraph`](./paragraph) 中的每個 [`Portion`](./portion) 會呼叫此回呼。 |
-| delegate [ForEachShapeCallback](foreach.foreachshapecallback) | 在 [`Presentation`](../../aspose.slides/presentation) 中的每個 [`Shape`](./shape) 會呼叫此回呼。 |
-| delegate [ForEachSlideCallback](foreach.foreachslidecallback) | 在 [`Presentation`](../../aspose.slides/presentation) 中的每個 [`Slide`](./slide) 會呼叫此回呼。 |
+| delegate [ForEachLayoutSlideCallback](foreach.foreachlayoutslidecallback) | 會針對 [`Presentation`](../../aspose.slides/presentation) 中的每個 [`LayoutSlide`](./layoutslide) 呼叫的回呼函式。 |
+| delegate [ForEachMasterSlideCallback](foreach.foreachmasterslidecallback) | 會針對 [`Presentation`](../../aspose.slides/presentation) 中的每個 [`MasterSlide`](./masterslide) 呼叫的回呼函式。 |
+| delegate [ForEachParagraphCallback](foreach.foreachparagraphcallback) | 會針對 [`BaseSlide`](../../aspose.slides/baseslide) 上的每個 [`Paragraph`](./paragraph) 呼叫的回呼函式。 |
+| delegate [ForEachPortionCallback](foreach.foreachportioncallback) | 會針對 [`BaseSlide`](../../aspose.slides/baseslide) 上的 [`Paragraph`](./paragraph) 中的每個 [`Portion`](./portion) 呼叫的回呼函式。 |
+| delegate [ForEachShapeCallback](foreach.foreachshapecallback) | 會針對 [`Presentation`](../../aspose.slides/presentation) 中的每個 [`Shape`](./shape) 呼叫的回呼函式。 |
+| delegate [ForEachSlideCallback](foreach.foreachslidecallback) | 會針對 [`Presentation`](../../aspose.slides/presentation) 中的每個 [`Slide`](./slide) 呼叫的回呼函式。 |
 
 ### 範例
 
@@ -54,9 +54,9 @@ using (Presentation presentation = new Presentation("pres.pptx"))
 }
 ```
 
-### 另見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
-* 程式集 [Aspose.Slides](../../)
+* 組件 [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

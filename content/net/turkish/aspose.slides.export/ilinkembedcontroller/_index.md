@@ -1,14 +1,14 @@
 ---
 title: ILinkEmbedController
-second_title: Aspose.Sildes için .NET API Referansı
-description: Kaydetme sırasında nesnenin nasıl işleneceğini belirlemek için kullanılan geribildirim arayüzü.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Kaydetme sırasında nesnenin nasıl işleneceğini belirlemek için kullanılan geri çağırma arabirimi.
 type: docs
-weight: 3990
+weight: 4010
 url: /tr/aspose.slides.export/ilinkembedcontroller/
 ---
-## ILinkEmbedController arayüz
+## ILinkEmbedController arabirimi
 
-Kaydetme sırasında nesnenin nasıl işleneceğini belirlemek için kullanılan geribildirim arayüzü.
+Kaydetme sırasında nesnenin nasıl işleneceğini belirlemek için kullanılan geri çağırma arabirimi.
 
 ```csharp
 public interface ILinkEmbedController
@@ -18,8 +18,8 @@ public interface ILinkEmbedController
 
 | Ad | Açıklama |
 | --- | --- |
-| [GetObjectStoringLocation](../../aspose.slides.export/ilinkembedcontroller/getobjectstoringlocation)(int, byte[], string, string, string) | Nesnenin nerede depolanacağını belirler. Bu yöntem her nesne kimliği için bir kez çağrılır. Aynı veri, semanticName ve contentType’a sahip iki nesnenin farklı kimliğe sahip olabileceği garanti edilmez. |
-| [GetUrl](../../aspose.slides.export/ilinkembedcontroller/geturl)(int, int) | Harici bir nesne için bir URL döndürür. [`GetObjectStoringLocation`](./getobjectstoringlocation) bir Link döndürdüğünde bu yöntem her zaman çağrılır ve [`GetObjectStoringLocation`](./getobjectstoringlocation) bir Embed döndürdüğünde ancak gömmek mümkün olmadığında da çağrılabilir. Aynı nesne kimliği için birden fazla kez çağrılabilir. |
+| [GetObjectStoringLocation](../../aspose.slides.export/ilinkembedcontroller/getobjectstoringlocation)(int, byte[], string, string, string) | Nesnenin nerede depolanması gerektiğini belirler. Bu yöntem her nesne kimliği için bir kez çağrılır. Aynı veri, semanticName ve contentType fakat farklı kimliğe sahip iki nesnenin olmayacağı garanti edilmez. |
+| [GetUrl](../../aspose.slides.export/ilinkembedcontroller/geturl)(int, int) | Harici bir nesneye bir URL döndürür. Bu yöntem, [`GetObjectStoringLocation`](./getobjectstoringlocation) Link döndürdüğünde her zaman çağrılır ve [`GetObjectStoringLocation`](./getobjectstoringlocation) Embed döndürdüğünde ancak gömme mümkün olmadığında da çağrılabilir. Aynı nesne kimliği için birden fazla kez çağrılabilir. |
 | [SaveExternal](../../aspose.slides.export/ilinkembedcontroller/saveexternal)(int, byte[]) | Harici nesneyi kaydeder. |
 
 ### Ayrıca Bakınız

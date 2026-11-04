@@ -1,14 +1,14 @@
 ---
 title: TextFormat
-second_title: Aspose.Sildes pro .NET API referenci
-description: Vrací formát textu. Pouze pro čtení IChartTextFormataspose.slides.charts/icharttextformat.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Vrací formát textu. Pouze ke čtení IChartTextFormataspose.slides.charts/icharttextformat.
 type: docs
-weight: 120
+weight: 130
 url: /cs/aspose.slides.charts/datalabel/textformat/
 ---
 ## DataLabel.TextFormat vlastnost
 
-Vrací formát textu. Pouze pro čtení [`IChartTextFormat`](../../icharttextformat).
+Vrací formát textu. Pouze ke čtení [`IChartTextFormat`](../../icharttextformat).
 
 ```csharp
 public IChartTextFormat TextFormat { get; }

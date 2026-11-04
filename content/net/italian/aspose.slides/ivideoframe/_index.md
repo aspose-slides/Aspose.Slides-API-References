@@ -3,7 +3,7 @@ title: IVideoFrame
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta una clip video su una diapositiva.
 type: docs
-weight: 7380
+weight: 7400
 url: /it/aspose.slides/ivideoframe/
 ---
 ## IVideoFrame interfaccia
@@ -16,20 +16,21 @@ public interface IVideoFrame : IPictureFrame
 
 ## Proprietà
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
-| [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | Consente di ottenere l'interfaccia di base IPictureFrame. Solo lettura [`IPictureFrame`](../ipictureframe). |
-| [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | Ottiene la raccolta di sottotitoli chiusi associati al frame audio. Questa proprietà è solo lettura e restituisce un [`ICaptionsCollection`](../icaptionscollection) contenente tutte le tracce di sottotitoli. |
+| [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | Consente di ottenere l'interfaccia base IPictureFrame. Solo lettura [`IPictureFrame`](../ipictureframe). |
+| [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | Ottiene la raccolta di sottotitoli chiusi associati al fotogramma audio. Questa proprietà è solo lettura e restituisce un [`ICaptionsCollection`](../icaptionscollection) contenente tutte le tracce dei sottotitoli. |
 | [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | Restituisce o imposta l'oggetto video incorporato. Lettura/scrittura [`IVideo`](../ivideo). |
-| [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | Determina se un video è mostrato a schermo intero. Lettura/scrittura Boolean. |
+| [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | Determina se un video è mostrato in modalità a schermo intero. Lettura/scrittura Boolean. |
 | [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | Determina se un VideoFrame è nascosto. Lettura/scrittura Boolean. |
 | [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | Restituisce o imposta il nome di un file video collegato a un VideoFrame. Lettura/scrittura String. |
 | [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | Determina se un video è ripetuto. Lettura/scrittura Boolean. |
-| [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | Restituisce o imposta la modalità di riproduzione del video. Lettura/scrittura [`VideoPlayModePreset`](../videoplaymodepreset). |
-| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | Determina se un video è riavvolto automaticamente all'inizio non appena il video termina la riproduzione. Lettura/scrittura Boolean. |
-| [TrimFromEnd](../../aspose.slides/ivideoframe/trimfromend) { get; set; } | Fine taglio [ms] |
-| [TrimFromStart](../../aspose.slides/ivideoframe/trimfromstart) { get; set; } | Inizio taglio [ms] |
+| [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | Restituisce o imposta la modalità di riproduzione video. Lettura/scrittura [`VideoPlayModePreset`](../videoplaymodepreset). |
+| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | Determina se un video viene riavvolto automaticamente all'inizio non appena il film termina la riproduzione. Lettura/scrittura Boolean. |
+| [TrimFromEnd](../../aspose.slides/ivideoframe/trimfromend) { get; set; } | Ritaglia fine [ms] |
+| [TrimFromStart](../../aspose.slides/ivideoframe/trimfromstart) { get; set; } | Ritaglia inizio [ms] |
 | [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | Restituisce o imposta il volume audio. Lettura/scrittura [`AudioVolumeMode`](../audiovolumemode). |
+| [VolumeValue](../../aspose.slides/ivideoframe/volumevalue) { get; set; } | Restituisce o imposta il volume video esatto come percentuale. Il valore è espresso in percentuale da 0 a 100. Usa questa proprietà per leggere o impostare valori di volume più precisi rispetto ai livelli predefiniti disponibili attraverso la proprietà [`Volume`](./volume). Lettura/scrittura Single. |
 
 ### Vedi anche
 

@@ -3,7 +3,7 @@ title: IVideoPlayerHtmlControllerFactory
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: VideoPlayerHtmlController를 생성할 수 있습니다.
 type: docs
-weight: 4190
+weight: 4210
 url: /ko/aspose.slides.export/ivideoplayerhtmlcontrollerfactory/
 ---
 ## IVideoPlayerHtmlControllerFactory 인터페이스
@@ -24,7 +24,7 @@ public interface IVideoPlayerHtmlControllerFactory
 
 COM 호환성을 위해.
 
-### 참조
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)
 * 어셈블리 [Aspose.Slides](../../)

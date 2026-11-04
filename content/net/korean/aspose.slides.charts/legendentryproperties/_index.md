@@ -1,9 +1,9 @@
 ---
 title: LegendEntryProperties
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes용 .NET API 참조
 description: 차트의 범례 속성을 나타냅니다.
 type: docs
-weight: 2310
+weight: 2330
 url: /ko/aspose.slides.charts/legendentryproperties/
 ---
 ## LegendEntryProperties 클래스
@@ -16,13 +16,13 @@ public class LegendEntryProperties : ILegendEntryProperties
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/legendentryproperties/chart) { get; } | 상위 차트를 반환합니다. 읽기 전용 [`IChart`](../ichart). |
-| [Hide](../../aspose.slides.charts/legendentryproperties/hide) { get; set; } | 범례 항목이 숨겨져 있는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
+| [Chart](../../aspose.slides.charts/legendentryproperties/chart) { get; } | 부모 차트를 반환합니다. 읽기 전용 [`IChart`](../ichart). |
+| [Hide](../../aspose.slides.charts/legendentryproperties/hide) { get; set; } | 범례 항목이 숨겨졌는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
 | [TextFormat](../../aspose.slides.charts/legendentryproperties/textformat) { get; } | 텍스트 형식을 반환합니다. 읽기 전용 [`IChartTextFormat`](../icharttextformat). |
 
-### 참조
+### 관련 항목
 
 * 인터페이스 [ILegendEntryProperties](../ilegendentryproperties)
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)

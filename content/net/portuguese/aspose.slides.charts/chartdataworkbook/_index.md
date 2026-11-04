@@ -1,14 +1,14 @@
 ---
 title: ChartDataWorkbook
 second_title: Referência da API Aspose.Sildes para .NET
-description: Fornece acesso à pasta de trabalho do Excel incorporada
+description: Fornece acesso ao workbook do Excel incorporado
 type: docs
-weight: 1380
+weight: 1390
 url: /pt/aspose.slides.charts/chartdataworkbook/
 ---
-## ChartDataWorkbook classe
+## classe ChartDataWorkbook
 
-Fornece acesso à pasta de trabalho do Excel incorporada
+Fornece acesso ao workbook do Excel incorporado
 
 ```csharp
 public class ChartDataWorkbook : DomObject<ChartData>, IChartDataWorkbook
@@ -24,13 +24,13 @@ public class ChartDataWorkbook : DomObject<ChartData>, IChartDataWorkbook
 
 | Nome | Descrição |
 | --- | --- |
-| [CalculateFormulas](../../aspose.slides.charts/chartdataworkbook/calculateformulas)() | Calcula todas as fórmulas na pasta de trabalho e atualiza os valores correspondentes das células. |
-| [Clear](../../aspose.slides.charts/chartdataworkbook/clear)(int) | Limpa todos os valores das células na planilha. |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_2)(int, string) | Obtém a célula que pode ser usada para séries ou categorias de gráfico. |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell)(int, int, int) | Obtém a célula que pode ser usada para séries ou categorias de gráfico. |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_3)(int, string, object) | Obtém a célula que pode ser usada para séries ou categorias de gráfico. |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_4)(string, int, int) | Obtém a célula que pode ser usada para séries ou categorias de gráfico. |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_1)(int, int, int, object) | Obtém a célula que pode ser usada para séries ou categorias de gráfico. |
+| [CalculateFormulas](../../aspose.slides.charts/chartdataworkbook/calculateformulas)() | Calcula todas as fórmulas no workbook e atualiza os valores das células correspondentes. |
+| [Clear](../../aspose.slides.charts/chartdataworkbook/clear)(int) | Limpa todos os valores das células na planilha |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_2)(int, string) | Obtém a célula que pode ser usada para séries ou categorias de gráfico |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell)(int, int, int) | Obtém a célula que pode ser usada para séries ou categorias de gráfico |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_3)(int, string, object) | Obtém a célula que pode ser usada para séries ou categorias de gráfico |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_4)(string, int, int) | Obtém a célula que pode ser usada para séries ou categorias de gráfico |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_1)(int, int, int, object) | Obtém a célula que pode ser usada para séries ou categorias de gráfico |
 | [GetCellCollection](../../aspose.slides.charts/chartdataworkbook/getcellcollection)(string, bool) | Obtém o conjunto de células. |
 
 ### Veja Também

@@ -3,7 +3,7 @@ title: IInterruptionTokenSource
 second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: แสดงถึงแหล่งที่มาของ IInterruptionToken./iinterruptiontoken.
 type: docs
-weight: 6200
+weight: 6220
 url: /th/aspose.slides/iinterruptiontokensource/
 ---
 ## IInterruptionTokenSource อินเทอร์เฟซ
@@ -16,16 +16,16 @@ public interface IInterruptionTokenSource
 
 ## คุณสมบัติ
 
-| ชื่อ | รายละเอียด |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [IsInterruptionRequested](../../aspose.slides/iinterruptiontokensource/isinterruptionrequested) { get; } | คืนค่า true หากมีการร้องขอการขัดจังหวะ, มิฉะนั้นคืนค่า false. |
-| [Token](../../aspose.slides/iinterruptiontokensource/token) { get; } | คืนค่าโทเคนใหม่ที่ผูกกับ [`IInterruptionTokenSource`](../iinterruptiontokensource) นี้. |
+| [IsInterruptionRequested](../../aspose.slides/iinterruptiontokensource/isinterruptionrequested) { get; } | ส่งคืนค่า true หากมีการร้องขอการหยุด, มิฉะนั้นเป็น false. |
+| [Token](../../aspose.slides/iinterruptiontokensource/token) { get; } | ส่งคืนโทเคนใหม่ที่ผูกกับ [`IInterruptionTokenSource`](../iinterruptiontokensource) นี้. |
 
 ## เมธอด
 
-| ชื่อ | รายละเอียด |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Interrupt](../../aspose.slides/iinterruptiontokensource/interrupt)() | เริ่มต้นคำขอสำหรับการขัดจังหวะ. |
+| [Interrupt](../../aspose.slides/iinterruptiontokensource/interrupt)() | เริ่มต้นการร้องขอการหยุด. |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: IGradientStopCollectionEffectiveData
-second_title: Aspose.Sildes .NET API Referencia
-description: A GradientStopDataEx objektumok gyűjteményét reprezentálja.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Reprezentálja a GradientStopDataEx objektumok gyűjteményét.
 type: docs
-weight: 6040
+weight: 6060
 url: /hu/aspose.slides/igradientstopcollectioneffectivedata/
 ---
 ## IGradientStopCollectionEffectiveData interfész
 
-A GradientStopDataEx objektumok gyűjteményét reprezentálja.
+Represents a collection of GradientStopDataEx objects.
 
 ```csharp
 public interface IGradientStopCollectionEffectiveData : 

@@ -3,7 +3,7 @@ title: PdfCompliance
 second_title: Aspose.Sildes for .NET API 参考
 description: 定义 PDF 标准合规级别的常量。
 type: docs
-weight: 4320
+weight: 4340
 url: /zh/aspose.slides.export/pdfcompliance/
 ---
 ## PdfCompliance 枚举
@@ -14,7 +14,7 @@ url: /zh/aspose.slides.export/pdfcompliance/
 public enum PdfCompliance
 ```
 
-### 取值
+### 值
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
@@ -30,7 +30,7 @@ public enum PdfCompliance
 | PdfUa | `9` | 输出文件将符合 PDF/UA 标准。 |
 | PdfA2u | `10` | 输出文件将符合 PDF/A-2u 标准。 |
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)
 * 程序集 [Aspose.Slides](../../)

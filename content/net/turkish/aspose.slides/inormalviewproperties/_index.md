@@ -1,12 +1,12 @@
 ---
 title: INormalViewProperties
 second_title: Aspose.Sildes için .NET API Referansı
-description: Normal görünüm özelliklerini temsil eder. Normal görünüm, slaytın kendisi, bir yan içerik bölgesi ve bir alt içerik bölgesi olmak üzere üç içerik bölgesinden oluşur.
+description: Normal görünüm özelliklerini temsil eder. Normal görünüm üç içerik bölgesinden oluşur: slayt kendisi, bir yan içerik bölgesi ve bir alt içerik bölgesi.
 type: docs
-weight: 6470
+weight: 6490
 url: /tr/aspose.slides/inormalviewproperties/
 ---
-## INormalViewProperties arayüz
+## INormalViewProperties arayüzü
 
 Normal görünüm özelliklerini temsil eder. Normal görünüm üç içerik bölgesinden oluşur: slayt kendisi, bir yan içerik bölgesi ve bir alt içerik bölgesi.
 
@@ -18,13 +18,13 @@ public interface INormalViewProperties
 
 | Ad | Açıklama |
 | --- | --- |
-| [HorizontalBarState](../../aspose.slides/inormalviewproperties/horizontalbarstate) { get; set; } | Yatay bölücünün gösterilmesi gereken durumu belirtir. Yatay bölücü, slaytı slaydın altındaki içerik bölgesinden ayırır. |
-| [PreferSingleView](../../aspose.slides/inormalviewproperties/prefersingleview) { get; set; } | Kullanıcının, üç içerik bölgesi içeren standart normal görünüm yerine tam pencere tek içerik bölgesi görmeyi tercih edip etmediğini belirtir. Etkinleştirildiğinde, uygulama içerik bölgelerinden birini tüm pencerede gösterebilir. Okuma/Yazma Boolean. |
-| [RestoredLeft](../../aspose.slides/inormalviewproperties/restoredleft) { get; } | Bu öğe, bölgenin değişken bir geri yüklenmiş boyutta (ne küçültülmüş ne de büyütülmüş) olduğu durumda normal görünümdeki yan içerik bölgesinin boyutlandırılmasını belirtir. Yalnızca okuma [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [RestoredTop](../../aspose.slides/inormalviewproperties/restoredtop) { get; } | Bu öğe, bölgenin değişken bir geri yüklenmiş boyutta (ne küçültülmüş ne de büyütülmüş) olduğu durumda normal görünümdeki üst slayt bölgesinin boyutlandırılmasını belirtir. Yalnızca okuma [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [ShowOutlineIcons](../../aspose.slides/inormalviewproperties/showoutlineicons) { get; set; } | Uygulamanın, normal görünüm modundaki herhangi bir içerik bölgesinde anahat içeriği gösteriliyorsa simgeleri gösterip göstermeyeceğini belirtir. Okuma/Yazma Boolean. |
-| [SnapVerticalSplitter](../../aspose.slides/inormalviewproperties/snapverticalsplitter) { get; set; } | Yan bölge yeterince küçük olduğunda, dikey bölücünün küçültülmüş bir duruma takılmasını belirtir. Okuma/Yazma Boolean. |
-| [VerticalBarState](../../aspose.slides/inormalviewproperties/verticalbarstate) { get; set; } | Dikey bölücünün gösterilmesi gereken durumu belirtir. Dikey bölücü, slaytı yan içerik bölgesinden ayırır. |
+| [HorizontalBarState](../../aspose.slides/inormalviewproperties/horizontalbarstate) { get; set; } | Yatay ayırıcı çubuğunun gösterilmesi gereken durumu belirtir. Yatay ayırıcı çubuğu slaytı slaytın altındaki içerik bölgesinden ayırır. |
+| [PreferSingleView](../../aspose.slides/inormalviewproperties/prefersingleview) { get; set; } | Kullanıcının üç içerik bölgesiyle standart normal görünüm yerine tam pencere tek içerik bölgesi görmeyi tercih edip etmediğini belirtir. Etkinleştirildiğinde, uygulama içerik bölgelerinden birini tüm pencerede görüntülemeyi seçebilir. Okuma/yazma Boolean. |
+| [RestoredLeft](../../aspose.slides/inormalviewproperties/restoredleft) { get; } | Bu öğe, bölge değişken bir geri yüklenmiş boyutta (ne küçültülmüş ne de büyütülmüş) olduğunda normal görünümün yan içerik bölgesinin boyutlandırılmasını belirtir. Yalnızca okuma [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [RestoredTop](../../aspose.slides/inormalviewproperties/restoredtop) { get; } | Bu öğe, bölge değişken bir geri yüklenmiş boyutta (ne küçültülmüş ne de büyütülmüş) olduğunda normal görünümün üst slayt bölgesinin boyutlandırılmasını belirtir. Yalnızca okuma [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [ShowOutlineIcons](../../aspose.slides/inormalviewproperties/showoutlineicons) { get; set; } | Uygulamanın normal görünüm modunda herhangi bir içerik bölgesinde taslak içerik gösteriliyorsa simgeleri gösterip göstermeyeceğini belirtir. Okuma/yazma Boolean. |
+| [SnapVerticalSplitter](../../aspose.slides/inormalviewproperties/snapverticalsplitter) { get; set; } | Yan bölge yeterince küçük olduğunda dikey ayırıcı çubuğunun küçültülmüş duruma kilitlenip kilitlenmeyeceğini belirtir. Okuma/yazma Boolean. |
+| [VerticalBarState](../../aspose.slides/inormalviewproperties/verticalbarstate) { get; set; } | Dikey ayırıcı çubuğunun gösterilmesi gereken durumu belirtir. Dikey ayırıcı çubuğu slaytı yan içerik bölgesinden ayırır. |
 
 ### Ayrıca Bakınız
 

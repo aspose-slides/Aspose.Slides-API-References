@@ -1,14 +1,14 @@
 ---
 title: IInnerShadow
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje efekt vnitřního stínu.
+description: Reprezentuje efekt vnitřního stínu.
 type: docs
-weight: 3420
+weight: 3440
 url: /cs/aspose.slides.effects/iinnershadow/
 ---
 ## IInnerShadow rozhraní
 
-Představuje efekt vnitřního stínu.
+Reprezentuje efekt vnitřního stínu.
 
 ```csharp
 public interface IInnerShadow : IAccessiblePVIObject<IInnerShadowEffectiveData>, 
@@ -19,12 +19,12 @@ public interface IInnerShadow : IAccessiblePVIObject<IInnerShadowEffectiveData>,
 
 | Název | Popis |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iinnershadow/asiaccessiblepviobject) { get; } | Umožňuje získat základní rozhraní IAccessiblePVIObject. Pouze pro čtení [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iinnershadow/asiimagetransformoperation) { get; } | Umožňuje získat základní rozhraní IImageTransformOperation. Pouze pro čtení [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/iinnershadow/blurradius) { get; set; } | Poloměr rozostření. Čtení/Zápis Double. |
-| [Direction](../../aspose.slides.effects/iinnershadow/direction) { get; set; } | Směr stínu. Čtení/Zápis Single. |
-| [Distance](../../aspose.slides.effects/iinnershadow/distance) { get; set; } | Vzdálenost stínu. Čtení/Zápis Double. |
-| [ShadowColor](../../aspose.slides.effects/iinnershadow/shadowcolor) { get; } | Barva stínu. Pouze pro čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iinnershadow/asiaccessiblepviobject) { get; } | Umožňuje získat základní rozhraní IAccessiblePVIObject. Pouze ke čtení [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iinnershadow/asiimagetransformoperation) { get; } | Umožňuje získat základní rozhraní IImageTransformOperation. Pouze ke čtení [`IImageTransformOperation`](../iimagetransformoperation). |
+| [BlurRadius](../../aspose.slides.effects/iinnershadow/blurradius) { get; set; } | Poloměr rozostření. Čtení/zápis Double. |
+| [Direction](../../aspose.slides.effects/iinnershadow/direction) { get; set; } | Směr stínu. Čtení/zápis Single. |
+| [Distance](../../aspose.slides.effects/iinnershadow/distance) { get; set; } | Vzdálenost stínu. Čtení/zápis Double. |
+| [ShadowColor](../../aspose.slides.effects/iinnershadow/shadowcolor) { get; } | Barva stínu. Pouze ke čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Viz také
 

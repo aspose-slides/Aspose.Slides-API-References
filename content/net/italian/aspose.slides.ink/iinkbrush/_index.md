@@ -1,9 +1,9 @@
 ---
 title: IInkBrush
-second_title: Aspose.Sildes per .NET - Riferimento API
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta il pennello di traccia.
 type: docs
-weight: 7530
+weight: 7550
 url: /it/aspose.slides.ink/iinkbrush/
 ---
 ## IInkBrush interfaccia
@@ -19,7 +19,7 @@ public interface IInkBrush
 | Nome | Descrizione |
 | --- | --- |
 | [Color](../../aspose.slides.ink/iinkbrush/color) { get; set; } | Ottiene o imposta il colore del pennello per una linea. |
-| [InkEffect](../../aspose.slides.ink/iinkbrush/inkeffect) { get; } | Ottiene il tipo di effetto inchiostro (ad es., Galaxy, Gold, Silver) che definisce lo stile visivo del tratto di inchiostro. Il valore è analizzato dalla proprietà del pennello "inkEffects". Se non è specificato alcun effetto riconosciuto, NotDefined è restituito. |
+| [InkEffect](../../aspose.slides.ink/iinkbrush/inkeffect) { get; } | Ottiene il tipo di effetto inchiostro (ad esempio, Galaxy, Gold, Silver) che definisce lo stile visuale della traccia di inchiostro. Il valore è analizzato dalla proprietà brush "inkEffects". Se non viene specificato alcun effetto riconosciuto, viene restituito NotDefined. |
 | [Size](../../aspose.slides.ink/iinkbrush/size) { get; set; } | Ottiene o imposta la dimensione del pennello per una linea in punti. |
 
 ### Vedi anche

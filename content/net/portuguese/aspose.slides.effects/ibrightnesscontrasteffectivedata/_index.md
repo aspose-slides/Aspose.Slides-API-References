@@ -1,9 +1,9 @@
 ---
 title: IBrightnessContrastEffectiveData
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Objeto imutável que representa um efeito BrightnessContrast. Ajusta brilho e contraste
 type: docs
-weight: 3210
+weight: 3230
 url: /pt/aspose.slides.effects/ibrightnesscontrasteffectivedata/
 ---
 ## IBrightnessContrastEffectiveData interface

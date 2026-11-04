@@ -1,14 +1,14 @@
 ---
 title: INotesSlideHeaderFooterManager
-second_title: Aspose.Sildes für die .NET API-Referenz
-description: Stellt den Manager dar, der das Verhalten der Notizfolien-Platzhalter einschließlich des Kopfzeilen-Platzhalters enthält.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt den Manager dar, der das Verhalten der Notizfolien-Platzhalter einschließlich des Kopfzeilen-Platzhalters verwaltet.
 type: docs
-weight: 6510
+weight: 6530
 url: /de/aspose.slides/inotesslideheaderfootermanager/
 ---
 ## INotesSlideHeaderFooterManager Schnittstelle
 
-Stellt den Manager dar, der das Verhalten der Notizfolien-Platzhalter enthält, einschließlich des Kopfzeilen-Platzhalters.
+Stellt den Manager dar, der das Verhalten der Notizfolien-Platzhalter verwaltet, einschließlich des Kopfzeilen-Platzhalters.
 
 ```csharp
 public interface INotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag

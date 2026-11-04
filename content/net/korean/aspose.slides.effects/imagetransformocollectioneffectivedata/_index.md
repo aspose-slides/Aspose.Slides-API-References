@@ -1,14 +1,14 @@
 ---
 title: ImageTransformOCollectionEffectiveData
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 읽기 전용 효과 이미지 변환 효과 컬렉션을 나타내는 불변 객체입니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 읽기 전용 컬렉션의 효과적인 이미지 변환 효과를 나타내는 불변 객체입니다.
 type: docs
-weight: 3560
+weight: 3580
 url: /ko/aspose.slides.effects/imagetransformocollectioneffectivedata/
 ---
 ## ImageTransformOCollectionEffectiveData 클래스
 
-읽기 전용 효과 이미지 변환 효과의 컬렉션을 나타내는 불변 객체입니다.
+읽기 전용 컬렉션의 효과적인 이미지 변환 효과를 나타내는 불변 객체입니다.
 
 ```csharp
 public class ImageTransformOCollectionEffectiveData : IImageTransformOCollectionEffectiveData
@@ -16,31 +16,31 @@ public class ImageTransformOCollectionEffectiveData : IImageTransformOCollection
 
 ## 생성자
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [ImageTransformOCollectionEffectiveData](imagetransformocollectioneffectivedata)() | 기본 생성자입니다. |
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides.effects/imagetransformocollectioneffectivedata/count) { get; } | 컬렉션에 포함된 이미지 효과의 개수를 반환합니다. 읽기 전용 Int32. |
-| [IsSynchronized](../../aspose.slides.effects/imagetransformocollectioneffectivedata/issynchronized) { get; } | 컬렉션에 대한 접근이 동기화(스레드 안전)되는지를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
+| [Count](../../aspose.slides.effects/imagetransformocollectioneffectivedata/count) { get; } | 컬렉션에 포함된 이미지 효과의 수를 반환합니다. 읽기 전용 Int32. |
+| [IsSynchronized](../../aspose.slides.effects/imagetransformocollectioneffectivedata/issynchronized) { get; } | 컬렉션에 대한 접근이 동기화(스레드 안전)되는지 여부를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
 | [Item](../../aspose.slides.effects/imagetransformocollectioneffectivedata/item) { get; } | 인덱스로 요소를 반환합니다. |
 | [SyncRoot](../../aspose.slides.effects/imagetransformocollectioneffectivedata/syncroot) { get; } | 동기화 루트를 반환합니다. 읽기 전용 Object. |
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [CopyTo](../../aspose.slides.effects/imagetransformocollectioneffectivedata/copyto)(Array, int) | 컬렉션의 모든 요소를 지정된 배열에 복사합니다. |
-| override [Equals](../../aspose.slides.effects/imagetransformocollectioneffectivedata/equals)(object) | 지정된 객체가 현재 객체와 같은지 여부를 결정합니다. |
-| [GetEnumerator](../../aspose.slides.effects/imagetransformocollectioneffectivedata/getenumerator)() | 컬렉션을 순회하는 열거자를 반환합니다. |
-| override [GetHashCode](../../aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode)() | 특정 유형에 대한 해시 함수를 제공하며, 해시 알고리즘 및 해시 테이블과 같은 데이터 구조에 사용할 수 있습니다. |
+| override [Equals](../../aspose.slides.effects/imagetransformocollectioneffectivedata/equals)(object) | 지정된 객체가 현재 객체와 동일한지 여부를 결정합니다. |
+| [GetEnumerator](../../aspose.slides.effects/imagetransformocollectioneffectivedata/getenumerator)() | 컬렉션을 반복하는 열거자를 반환합니다. |
+| override [GetHashCode](../../aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode)() | 해시 테이블과 같은 해시 알고리즘 및 데이터 구조에서 사용할 수 있는 특정 유형에 대한 해시 함수 역할을 합니다. |
 
 ### 비고
 
-IImageTransformOperationCollectionEffectiveData 이름이 COM 이름 길이 제한으로 인해 39자를 초과할 수 없어 IImageTransformOCollectionEffectiveData 로 잘렸습니다.
+COM 이름 길이는 39자를 초과할 수 없으므로 IImageTransformOperationCollectionEffectiveData 이름이 IImageTransformOCollectionEffectiveData로 잘렸습니다.
 
 ### 참조
 

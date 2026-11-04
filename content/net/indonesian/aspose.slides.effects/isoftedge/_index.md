@@ -1,14 +1,14 @@
 ---
 title: ISoftEdge
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili efek Soft Edge. Pinggiran bentuk menjadi kabur sementara isian tidak terpengaruh.
+description: Mewakili efek Soft Edge. Tepi bentuk menjadi kabur sementara isian tidak terpengaruh.
 type: docs
-weight: 3520
+weight: 3540
 url: /id/aspose.slides.effects/isoftedge/
 ---
-## ISoftEdge antarmuka
+## antarmuka ISoftEdge
 
-Mewakili efek Soft Edge. Pinggiran bentuk menjadi kabur, sementara isian tidak terpengaruh.
+Mewakili efek Soft Edge. Tepi bentuk menjadi kabur, sementara isian tidak terpengaruh.
 
 ```csharp
 public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImageTransformOperation
@@ -18,9 +18,9 @@ public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImag
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | Mengizinkan mendapatkan antarmuka dasar IAccessiblePVIObject. Hanya-baca [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | Mengizinkan mendapatkan antarmuka dasar IImageTransformOperation. Hanya-baca [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | Menentukan radius blur yang diterapkan pada pinggiran. Baca/tulis Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IAccessiblePVIObject. Hanya-baca [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IImageTransformOperation. Hanya-baca [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | Menentukan radius kabur yang diterapkan pada tepi. Baca/tulis Double. |
 
 ### Lihat Juga
 

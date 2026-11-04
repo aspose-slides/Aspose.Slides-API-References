@@ -1,12 +1,12 @@
 ---
 title: MathIntegralTypes
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ประเภทอินทิกรัลคณิตศาสตร์
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: ประเภทอินทิกรัลทางคณิตศาสตร์
 type: docs
-weight: 8790
+weight: 8810
 url: /th/aspose.slides.mathtext/mathintegraltypes/
 ---
-## MathIntegralTypes การกำหนดค่า
+## MathIntegralTypes การนับ
 
 ประเภทอินทิกรัลคณิตศาสตร์
 
@@ -14,7 +14,7 @@ url: /th/aspose.slides.mathtext/mathintegraltypes/
 public enum MathIntegralTypes
 ```
 
-### ค่า
+### Values
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
@@ -23,7 +23,7 @@ public enum MathIntegralTypes
 | Triple | `2` | อินทิกรัลสาม: '∭' |
 | Contour | `3` | อินทิกรัลล้อม: '∮' |
 | Surface | `4` | อินทิกรัลพื้นผิว: '∯' |
-| Volume | `5` | อินทิกรัลปริมาณ: '∰' |
+| Volume | `5` | อินทิกรัลปริมาตร: '∰' |
 
 ### ดูเพิ่มเติม
 

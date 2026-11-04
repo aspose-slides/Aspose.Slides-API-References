@@ -3,7 +3,7 @@ title: PptException
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en standard intern undantagstyp.
 type: docs
-weight: 9520
+weight: 9540
 url: /sv/aspose.slides/pptexception/
 ---
 ## PptException klass
@@ -18,9 +18,9 @@ public class PptException : Exception
 
 | Namn | Beskrivning |
 | --- | --- |
-| [PptException](pptexception#constructor)() | Standardkonstruktor. |
-| [PptException](pptexception#constructor_1)(string) | Konstruktor som tillåter ett meddelande att läggas till i detta undantag. |
-| [PptException](pptexception#constructor_2)(string, Exception) | Konstruktor för ett undantag som innehåller ett meddelande och ett inbäddat undantag. |
+| [PptException](pptexception#constructor)() | Standardkonstruktör. |
+| [PptException](pptexception#constructor_1)(string) | Konstruktör som tillåter att ett meddelande läggs till i detta undantag. |
+| [PptException](pptexception#constructor_2)(string, Exception) | Konstruktör för ett undantag som innehåller ett meddelande och ett inbäddat undantag. |
 
 ### Se även
 

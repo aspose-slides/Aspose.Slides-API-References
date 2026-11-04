@@ -3,7 +3,7 @@ title: ICameraEffectiveData
 second_title: Aspose.Sildes for .NET API 参考
 description: 不可变对象，包含有效的相机属性。
 type: docs
-weight: 5420
+weight: 5440
 url: /zh/aspose.slides/icameraeffectivedata/
 ---
 ## ICameraEffectiveData 接口
@@ -19,18 +19,18 @@ public interface ICameraEffectiveData
 | 名称 | 描述 |
 | --- | --- |
 | [CameraType](../../aspose.slides/icameraeffectivedata/cameratype) { get; } | 相机类型。只读 [`CameraPresetType`](../camerapresettype)。 |
-| [FieldOfViewAngle](../../aspose.slides/icameraeffectivedata/fieldofviewangle) { get; } | 相机视野 (0-180 度，视场角)。只读 Single。 |
+| [FieldOfViewAngle](../../aspose.slides/icameraeffectivedata/fieldofviewangle) { get; } | 相机视场 (0-180 度，视野)。只读 Single。 |
 | [Zoom](../../aspose.slides/icameraeffectivedata/zoom) { get; } | 相机缩放 (以百分比表示的正值)。只读 Single。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | 通过使用纬度坐标、经度坐标以及围绕轴线的旋转来定义旋转。返回数组的第一个元素为纬度，第二个元素为经度，第三个元素为旋转。如果未定义旋转，则返回 null。 |
+| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | 旋转是通过使用纬度坐标、经度坐标以及围绕轴的旋转来定义的，纬度和经度坐标决定旋转。返回数组的第一个元素为纬度，第二个为经度，第三个为旋转。如果未定义旋转，则返回 null。 |
 
 ### 备注
 
-此接口用作 [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata) 的一部分。
+此接口作为 [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata) 的一部分使用。
 
 ### 另见
 

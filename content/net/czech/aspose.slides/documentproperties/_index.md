@@ -1,14 +1,14 @@
 ---
 title: DocumentProperties
-second_title: Aspose.Sildes pro .NET – referenční příručka API
+second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje vlastnosti prezentace.
 type: docs
-weight: 2790
+weight: 2810
 url: /cs/aspose.slides/documentproperties/
 ---
 ## DocumentProperties třída
 
-Represents properties of a presentation.
+Reprezentuje vlastnosti prezentace.
 
 ```csharp
 public class DocumentProperties : IDocumentProperties, IGenericCloneable<IDocumentProperties>
@@ -16,87 +16,87 @@ public class DocumentProperties : IDocumentProperties, IGenericCloneable<IDocume
 
 ## Konstruktory
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | [DocumentProperties](documentproperties)() | Inicializuje novou instanci třídy [`DocumentProperties`](../documentproperties). |
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [ApplicationTemplate](../../aspose.slides/documentproperties/applicationtemplate) { get; set; } | Vrací nebo nastavuje šablonu aplikace. Číst/Zapisovat String. |
-| [AppVersion](../../aspose.slides/documentproperties/appversion) { get; } | Vrací verzi aplikace. Pouze pro čtení String. |
-| [Author](../../aspose.slides/documentproperties/author) { get; set; } | Vrací nebo nastavuje autora prezentace. Číst/Zapisovat String. |
-| [Category](../../aspose.slides/documentproperties/category) { get; set; } | Vrací nebo nastavuje kategorii prezentace. Číst/Zapisovat String. |
-| [Comments](../../aspose.slides/documentproperties/comments) { get; set; } | Vrací nebo nastavuje komentáře prezentace. Číst/Zapisovat String. |
-| [Company](../../aspose.slides/documentproperties/company) { get; set; } | Vrací nebo nastavuje vlastnost společnosti. Číst/Zapisovat String. |
-| [ContentStatus](../../aspose.slides/documentproperties/contentstatus) { get; set; } | Vrací nebo nastavuje stav obsahu prezentace. Číst/Zapisovat String. |
-| [ContentType](../../aspose.slides/documentproperties/contenttype) { get; set; } | Vrací nebo nastavuje typ obsahu prezentace. Číst/Zapisovat String. |
-| [CountOfCustomProperties](../../aspose.slides/documentproperties/countofcustomproperties) { get; } | Vrací počet vlastních vlastností skutečně obsažených ve sbírce. Pouze pro čtení Int32. |
-| [CreatedTime](../../aspose.slides/documentproperties/createdtime) { get; set; } | Vrací datum vytvoření prezentace. Hodnoty jsou v UTC. Číst/Zapisovat DateTime. |
-| [HeadingPairs](../../aspose.slides/documentproperties/headingpairs) { get; } | Indikuje seskupení částí dokumentu a počet částí v každé skupině. Pouze pro čtení IHeadingPair[]. |
-| [HiddenSlides](../../aspose.slides/documentproperties/hiddenslides) { get; } | Vrací počet skrytých snímků v dokumentu prezentace. Pouze pro čtení Int32. |
-| [HyperlinkBase](../../aspose.slides/documentproperties/hyperlinkbase) { get; set; } | Vrací nebo nastavuje dokumentovou vlastnost HyperlinkBase. Číst/Zapisovat String. |
-| [HyperlinksChanged](../../aspose.slides/documentproperties/hyperlinkschanged) { get; set; } | Určuje, že jeden nebo více hypertextových odkazů v této části byly aktualizovány výhradně v této části výrobcem. Další výrobce, který otevře tento dokument, aktualizuje vztahy hypertextových odkazů novými odkazy uvedenými v této části. Číst/Zapisovat Boolean. |
-| [Item](../../aspose.slides/documentproperties/item) { get; set; } | Vrací nebo nastavuje vlastní vlastnost spojenou s určeným názvem. Číst/Zapisovat Object. |
-| [Keywords](../../aspose.slides/documentproperties/keywords) { get; set; } | Vrací nebo nastavuje klíčová slova prezentace. Číst/Zapisovat String. |
-| [LastPrinted](../../aspose.slides/documentproperties/lastprinted) { get; set; } | Vrací datum, kdy byla prezentace naposledy vytištěna. Číst/Zapisovat DateTime. |
-| [LastSavedBy](../../aspose.slides/documentproperties/lastsavedby) { get; set; } | Vrací nebo nastavuje jméno poslední osoby, která upravila prezentaci. Číst/Zapisovat String. |
-| [LastSavedTime](../../aspose.slides/documentproperties/lastsavedtime) { get; set; } | Vrací datum poslední úpravy prezentace. Hodnoty jsou v UTC. Pouze pro čtení v případě Presentation.DocumentProperties (protože bude aktualizováno interně během ukládání objektu IPresentation). Lze změnit pomocí instance DocumentProperties vrácené metodou [`ReadDocumentProperties`](../ipresentationinfo/readdocumentproperties). Podívejte se na příklad v souhrnu metody [`UpdateDocumentProperties`](../ipresentationinfo/updatedocumentproperties). |
-| [LinksUpToDate](../../aspose.slides/documentproperties/linksuptodate) { get; set; } | Indikuje, zda jsou hypertextové odkazy v dokumentu aktuální. Nastavte tento prvek na **true**, aby odkazoval, že odkazy jsou aktualizovány. Nastavte tento prvek na **false**, aby odkazoval, že odkazy jsou zastaralé. Číst/Zapisovat Boolean. |
-| [Manager](../../aspose.slides/documentproperties/manager) { get; set; } | Vrací nebo nastavuje vlastnost manažer. Číst/Zapisovat String. |
-| [MultimediaClips](../../aspose.slides/documentproperties/multimediaclips) { get; } | Vrací celkový počet zvukových nebo video klipů, které jsou v dokumentu. Pouze pro čtení Int32. |
-| [NameOfApplication](../../aspose.slides/documentproperties/nameofapplication) { get; set; } | Vrací nebo nastavuje název aplikace. Číst/Zapisovat String. |
-| [Notes](../../aspose.slides/documentproperties/notes) { get; } | Vrací počet snímků v prezentaci obsahujících poznámky. Pouze pro čtení Int32. |
-| [Paragraphs](../../aspose.slides/documentproperties/paragraphs) { get; } | Vrací celkový počet odstavců nalezených v dokumentu, pokud je to relevantní. Pouze pro čtení Int32. |
-| [PresentationFormat](../../aspose.slides/documentproperties/presentationformat) { get; set; } | Vrací nebo nastavuje zamýšlený formát prezentace. Číst/Zapisovat String. |
-| [RevisionNumber](../../aspose.slides/documentproperties/revisionnumber) { get; set; } | Vrací nebo nastavuje číslo revize prezentace. Číst/Zapisovat Int32. |
-| [ScaleCrop](../../aspose.slides/documentproperties/scalecrop) { get; set; } | Indikuje režim zobrazení miniatury dokumentu. Nastavte tento prvek na **true**, aby se umožnilo škálování miniatury dokumentu na displej. Nastavte tento prvek na **false**, aby se povolilo ořezání miniatury dokumentu tak, aby se zobrazily pouze části, které se vejdou na displej. Číst/Zapisovat Boolean. |
-| [SharedDoc](../../aspose.slides/documentproperties/shareddoc) { get; set; } | Určuje, zda je prezentace sdílena mezi více lidmi. Číst/Zapisovat Boolean. |
-| [Slides](../../aspose.slides/documentproperties/slides) { get; } | Vrací celkový počet snímků v dokumentu prezentace. Pouze pro čtení Int32. |
-| [Subject](../../aspose.slides/documentproperties/subject) { get; set; } | Vrací nebo nastavuje předmět prezentace. Číst/Zapisovat String. |
-| [Title](../../aspose.slides/documentproperties/title) { get; set; } | Vrací nebo nastavuje název prezentace. Číst/Zapisovat String. |
-| [TitlesOfParts](../../aspose.slides/documentproperties/titlesofparts) { get; } | Určuje název každé části dokumentu. Tyto části nejsou skutečnými částmi dokumentu, ale koncepčními reprezentacemi sekcí dokumentu. Pouze pro čtení string[]. |
-| [TotalEditingTime](../../aspose.slides/documentproperties/totaleditingtime) { get; set; } | Celkový čas úprav prezentace. Číst/Zapisovat TimeSpan. |
-| [Words](../../aspose.slides/documentproperties/words) { get; } | Vrací celkový počet slov obsažených v dokumentu. Pouze pro čtení Int32. |
+| [ApplicationTemplate](../../aspose.slides/documentproperties/applicationtemplate) { get; set; } | Returns or sets the template of a application. Read/write String. |
+| [AppVersion](../../aspose.slides/documentproperties/appversion) { get; } | Returns the app version. Read-only String. |
+| [Author](../../aspose.slides/documentproperties/author) { get; set; } | Returns or sets the author of a presentation. Read/write String. |
+| [Category](../../aspose.slides/documentproperties/category) { get; set; } | Returns or sets the category of a presentation. Read/write String. |
+| [Comments](../../aspose.slides/documentproperties/comments) { get; set; } | Returns or sets the comments of a presentation. Read/write String. |
+| [Company](../../aspose.slides/documentproperties/company) { get; set; } | Returns or sets the company property. Read/write String. |
+| [ContentStatus](../../aspose.slides/documentproperties/contentstatus) { get; set; } | Returns or sets the content status of a presentation. Read/write String. |
+| [ContentType](../../aspose.slides/documentproperties/contenttype) { get; set; } | Returns or sets the content type of a presentation. Read/write String. |
+| [CountOfCustomProperties](../../aspose.slides/documentproperties/countofcustomproperties) { get; } | Returns the number of custom properties actually contained in a collection. Read-only Int32. |
+| [CreatedTime](../../aspose.slides/documentproperties/createdtime) { get; set; } | Returns the date a presentation was created. Values are in UTC. Read/write DateTime. |
+| [HeadingPairs](../../aspose.slides/documentproperties/headingpairs) { get; } | Indicates the grouping of document parts and the number of parts in each group. Read-only IHeadingPair[]. |
+| [HiddenSlides](../../aspose.slides/documentproperties/hiddenslides) { get; } | Returns the number of hidden slides in a presentation document. Read-only Int32. |
+| [HyperlinkBase](../../aspose.slides/documentproperties/hyperlinkbase) { get; set; } | Returns or sets the HyperlinkBase document property. Read/write String. |
+| [HyperlinksChanged](../../aspose.slides/documentproperties/hyperlinkschanged) { get; set; } | Specifies that one or more hyperlinks in this part were updated exclusively in this part by a producer. The next producer to open this document shall update the hyperlink relationships with the new hyperlinks specified in this part. Read/write Boolean. |
+| [Item](../../aspose.slides/documentproperties/item) { get; set; } | Returns or sets the custom property associated with a specified name. Read/write Object. |
+| [Keywords](../../aspose.slides/documentproperties/keywords) { get; set; } | Returns or sets the keywords of a presentation. Read/write String. |
+| [LastPrinted](../../aspose.slides/documentproperties/lastprinted) { get; set; } | Returns the date when a presentation was printed last time. Read/write DateTime. |
+| [LastSavedBy](../../aspose.slides/documentproperties/lastsavedby) { get; set; } | Returns or sets the name of a last person who modified a presentation. Read/write String. |
+| [LastSavedTime](../../aspose.slides/documentproperties/lastsavedtime) { get; set; } | Returns the date a presentation was last modified. Values are in UTC. Read-only in case of Presentation.DocumentProperties (because it will be updated internally while IPresentation object saving process). Can be changed via DocumentProperties instance returning by method [`ReadDocumentProperties`](../ipresentationinfo/readdocumentproperties) Please see the example in [`UpdateDocumentProperties`](../ipresentationinfo/updatedocumentproperties) method summary. |
+| [LinksUpToDate](../../aspose.slides/documentproperties/linksuptodate) { get; set; } | Indicates whether hyperlinks in a document are up-to-date. Set this element to **true** to indicate that hyperlinks are updated. Set this element to **false** to indicate that hyperlinks are outdated. Read/write Boolean. |
+| [Manager](../../aspose.slides/documentproperties/manager) { get; set; } | Returns or sets the manager property. Read/write String. |
+| [MultimediaClips](../../aspose.slides/documentproperties/multimediaclips) { get; } | Returns the total number of sound or video clips that are present in the document. Read-only Int32. |
+| [NameOfApplication](../../aspose.slides/documentproperties/nameofapplication) { get; set; } | Returns or sets the name of the application. Read/write String. |
+| [Notes](../../aspose.slides/documentproperties/notes) { get; } | Returns the number of slides in a presentation containing notes. Read-only Int32. |
+| [Paragraphs](../../aspose.slides/documentproperties/paragraphs) { get; } | Returns the total number of paragraphs found in a document if applicable. Read-only Int32. |
+| [PresentationFormat](../../aspose.slides/documentproperties/presentationformat) { get; set; } | Returns or sets the intended format of a presentation. Read/write String. |
+| [RevisionNumber](../../aspose.slides/documentproperties/revisionnumber) { get; set; } | Returns or sets the presentation revision number. Read/write Int32. |
+| [ScaleCrop](../../aspose.slides/documentproperties/scalecrop) { get; set; } | Indicates the display mode of the document thumbnail. Set this element to **true** to enable scaling of the document thumbnail to the display. Set this element to **false** to enable cropping of the document thumbnail to show only sections that fits the display. Read/write Boolean. |
+| [SharedDoc](../../aspose.slides/documentproperties/shareddoc) { get; set; } | Determines whether the presentation is shared between multiple people. Read/write Boolean. |
+| [Slides](../../aspose.slides/documentproperties/slides) { get; } | Returns the total number of slides in a presentation document. Read-only Int32. |
+| [Subject](../../aspose.slides/documentproperties/subject) { get; set; } | Returns or sets the subject of a presentation. Read/write String. |
+| [Title](../../aspose.slides/documentproperties/title) { get; set; } | Returns or sets the title of a presentation. Read/write String. |
+| [TitlesOfParts](../../aspose.slides/documentproperties/titlesofparts) { get; } | Specifies the title of each document part. These parts are not document parts but conceptual representations of document sections. Read-only string[]. |
+| [TotalEditingTime](../../aspose.slides/documentproperties/totaleditingtime) { get; set; } | Total editing time of a presentation. Read/write TimeSpan. |
+| [Words](../../aspose.slides/documentproperties/words) { get; } | Returns the total number of words contained in a document. Read-only Int32. |
 
 ## Metody
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [ClearBuiltInProperties](../../aspose.slides/documentproperties/clearbuiltinproperties)() | Vyčistí a nastaví výchozí hodnoty pro všechny vestavěné vlastnosti. |
-| [ClearCustomProperties](../../aspose.slides/documentproperties/clearcustomproperties)() | Odstraní všechny vlastní vlastnosti. |
-| [Clone](../../aspose.slides/documentproperties/clone)() | Klonuje aktuální objekt. |
-| [CloneT](../../aspose.slides/documentproperties/clonet)() | Klonuje aktuální objekt. |
-| [ContainsCustomProperty](../../aspose.slides/documentproperties/containscustomproperty)(string) | Kontroluje přítomnost vlastní vlastnosti se zadaným názvem. |
-| [GetCustomPropertyName](../../aspose.slides/documentproperties/getcustompropertyname)(int) | Vrací název vlastní vlastnosti na zadaném indexu. |
-| [GetCustomPropertyValue](../../aspose.slides/documentproperties/getcustompropertyvalue#getcustompropertyvalue)(string, out bool) | Získá pojmenovanou boolean hodnotu z vlastních vlastností. |
-| [GetCustomPropertyValue](../../aspose.slides/documentproperties/getcustompropertyvalue#getcustompropertyvalue_4)(string, out DateTime) | Získá pojmenovanou DateTime hodnotu z vlastních vlastností. |
-| [GetCustomPropertyValue](../../aspose.slides/documentproperties/getcustompropertyvalue#getcustompropertyvalue_1)(string, out double) | Získá pojmenovanou double hodnotu z vlastních vlastností. |
-| [GetCustomPropertyValue](../../aspose.slides/documentproperties/getcustompropertyvalue#getcustompropertyvalue_3)(string, out float) | Získá pojmenovanou float hodnotu z vlastních vlastností. |
-| [GetCustomPropertyValue](../../aspose.slides/documentproperties/getcustompropertyvalue#getcustompropertyvalue_2)(string, out int) | Získá pojmenovanou integer hodnotu z vlastních vlastností. |
-| [GetCustomPropertyValue](../../aspose.slides/documentproperties/getcustompropertyvalue#getcustompropertyvalue_5)(string, out string) | Získá pojmenovanou string hodnotu z vlastních vlastností. |
-| [GetSensitivityLabels](../../aspose.slides/documentproperties/getsensitivitylabels)() | Získá pole štítků citlivosti z vlastních vlastností dokumentu (Metadata Microsoft Information Protection SDK). |
-| [RemoveCustomProperty](../../aspose.slides/documentproperties/removecustomproperty)(string) | Odebere vlastní vlastnost spojenou se zadaným názvem. |
-| [SetCustomPropertyValue](../../aspose.slides/documentproperties/setcustompropertyvalue#setcustompropertyvalue)(string, bool) | Nastaví pojmenovanou boolean vlastní vlastnost. |
-| [SetCustomPropertyValue](../../aspose.slides/documentproperties/setcustompropertyvalue#setcustompropertyvalue_4)(string, DateTime) | Nastaví pojmenovanou DateTime vlastní vlastnost. |
-| [SetCustomPropertyValue](../../aspose.slides/documentproperties/setcustompropertyvalue#setcustompropertyvalue_1)(string, double) | Nastaví pojmenovanou double vlastní vlastnost. |
-| [SetCustomPropertyValue](../../aspose.slides/documentproperties/setcustompropertyvalue#setcustompropertyvalue_3)(string, float) | Nastaví pojmenovanou float vlastní vlastnost. |
-| [SetCustomPropertyValue](../../aspose.slides/documentproperties/setcustompropertyvalue#setcustompropertyvalue_2)(string, int) | Nastaví pojmenovanou integer vlastní vlastnost. |
-| [SetCustomPropertyValue](../../aspose.slides/documentproperties/setcustompropertyvalue#setcustompropertyvalue_5)(string, string) | Nastaví pojmenovanou string vlastní vlastnost. |
+| [ClearBuiltInProperties](../../aspose.slides/documentproperties/clearbuiltinproperties)() | Clears and sets default values for all builtIn properties. |
+| [ClearCustomProperties](../../aspose.slides/documentproperties/clearcustomproperties)() | Removes all custom properties. |
+| [Clone](../../aspose.slides/documentproperties/clone)() | Clones current object |
+| [CloneT](../../aspose.slides/documentproperties/clonet)() | Clones current object |
+| [ContainsCustomProperty](../../aspose.slides/documentproperties/containscustomproperty)(string) | Check presents of a custom property with a specified name. |
+| [GetCustomPropertyName](../../aspose.slides/documentproperties/getcustompropertyname)(int) | Return a custom property name at the specified index. |
+| [GetCustomPropertyValue](../../aspose.slides/documentproperties/getcustompropertyvalue#getcustompropertyvalue)(string, out bool) | Gets a named boolean value from the custom properties. |
+| [GetCustomPropertyValue](../../aspose.slides/documentproperties/getcustompropertyvalue#getcustompropertyvalue_4)(string, out DateTime) | Gets a named DateTime value from the custom properties. |
+| [GetCustomPropertyValue](../../aspose.slides/documentproperties/getcustompropertyvalue#getcustompropertyvalue_1)(string, out double) | Gets a named double value from the custom properties. |
+| [GetCustomPropertyValue](../../aspose.slides/documentproperties/getcustompropertyvalue#getcustompropertyvalue_3)(string, out float) | Gets a named float value from the custom properties. |
+| [GetCustomPropertyValue](../../aspose.slides/documentproperties/getcustompropertyvalue#getcustompropertyvalue_2)(string, out int) | Gets a named integer value from the custom properties. |
+| [GetCustomPropertyValue](../../aspose.slides/documentproperties/getcustompropertyvalue#getcustompropertyvalue_5)(string, out string) | Gets a named string value from the custom properties. |
+| [GetSensitivityLabels](../../aspose.slides/documentproperties/getsensitivitylabels)() | Gets an array of sensitivity labels from the custom document properties (Microsoft Information Protection SDK Metadata). |
+| [RemoveCustomProperty](../../aspose.slides/documentproperties/removecustomproperty)(string) | Remove a custom property associated with a specified name. |
+| [SetCustomPropertyValue](../../aspose.slides/documentproperties/setcustompropertyvalue#setcustompropertyvalue)(string, bool) | Sets a named boolean custom property. |
+| [SetCustomPropertyValue](../../aspose.slides/documentproperties/setcustompropertyvalue#setcustompropertyvalue_4)(string, DateTime) | Sets a named DateTime custom property. |
+| [SetCustomPropertyValue](../../aspose.slides/documentproperties/setcustompropertyvalue#setcustompropertyvalue_1)(string, double) | Sets a named double custom property. |
+| [SetCustomPropertyValue](../../aspose.slides/documentproperties/setcustompropertyvalue#setcustompropertyvalue_3)(string, float) | Sets a named float custom property. |
+| [SetCustomPropertyValue](../../aspose.slides/documentproperties/setcustompropertyvalue#setcustompropertyvalue_2)(string, int) | Sets a named integer custom property. |
+| [SetCustomPropertyValue](../../aspose.slides/documentproperties/setcustompropertyvalue#setcustompropertyvalue_5)(string, string) | Sets a named string custom property. |
 
 ### Příklady
 
-Následující příklad ukazuje, jak přistupovat k vestavěným vlastnostem PowerPoint prezentace.
+Následující příklad ukazuje, jak získat přístup k vestavěným vlastnostem PowerPoint prezentace.
 
 ```csharp
 [C#]
-// Vytvořte instanci třídy Presentation, která představuje prezentaci
+// Vytvoří instanci třídy Presentation, která představuje prezentaci
 using (Presentation pres = new Presentation(dataDir + "AccessBuiltin Properties.pptx"))
 {
-	// Vytvořte odkaz na objekt IDocumentProperties spojený s prezentací
+	// Vytvoří odkaz na objekt IDocumentProperties spojený s Presentation
 	IDocumentProperties documentProperties = pres.DocumentProperties;
-	// Zobrazte vestavěné vlastnosti
+	// Zobrazí vestavěné vlastnosti
 	Console.WriteLine("Category : " + documentProperties.Category);
 	Console.WriteLine("Current Status : " + documentProperties.ContentStatus);
 	Console.WriteLine("Creation Date : " + documentProperties.CreatedTime);
@@ -109,16 +109,16 @@ Následující příklad ukazuje, jak upravit vestavěné vlastnosti PowerPoint 
 
 ```csharp
 [C#]
-// Vytvořte instanci třídy Presentation, která představuje prezentaci
+// Vytvoří instanci třídy Presentation, která představuje prezentaci
 using (Presentation presentation = new Presentation(dataDir + "ModifyBuiltinProperties.pptx"))
 {
-	// Vytvořte odkaz na objekt IDocumentProperties spojený s prezentací
+	// Vytvoří odkaz na objekt IDocumentProperties spojený s Presentation
 	IDocumentProperties documentProperties = presentation.DocumentProperties;
-	// Nastavte vestavěné vlastnosti
+	// Nastaví vestavěné vlastnosti
 	documentProperties.Author = "Aspose.Slides for .NET";
 	documentProperties.Title = "Modifying Presentation Properties";
 	documentProperties.Subject = "Aspose Subject";
-	// Uložte prezentaci do souboru
+	// Uloží prezentaci do souboru
 	presentation.Save(dataDir + "DocumentProperties_out.pptx", SaveFormat.Pptx);
 }
 ```
@@ -128,6 +128,6 @@ using (Presentation presentation = new Presentation(dataDir + "ModifyBuiltinProp
 * rozhraní [IDocumentProperties](../idocumentproperties)
 * rozhraní [IGenericCloneable&lt;T&gt;](../igenericcloneable-1)
 * jmenný prostor [Aspose.Slides](../../aspose.slides)
-* sestavení [Aspose.Slides](../../)
+* sestava [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

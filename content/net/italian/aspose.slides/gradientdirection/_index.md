@@ -1,9 +1,9 @@
 ---
 title: GradientDirection
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta lo stile del gradiente.
 type: docs
-weight: 4990
+weight: 5010
 url: /it/aspose.slides/gradientdirection/
 ---
 ## Enumerazione GradientDirection

@@ -1,14 +1,14 @@
 ---
 title: ITabCollection
-second_title: Riferimento API di Aspose.Sildes per .NET
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta una raccolta di tab.
 type: docs
-weight: 7200
+weight: 7220
 url: /it/aspose.slides/itabcollection/
 ---
 ## ITabCollection interfaccia
 
-Rappresenta una raccolta di Tab.
+Rappresenta una raccolta di tab.
 
 ```csharp
 public interface ITabCollection : IGenericCollection<ITab>
@@ -18,7 +18,7 @@ public interface ITabCollection : IGenericCollection<ITab>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Item](../../aspose.slides/itabcollection/item) { get; } | Ottiene l'elemento all'indice specificato. Solamente in lettura [`ITab`](../itab). |
+| [Item](../../aspose.slides/itabcollection/item) { get; } | Ottiene l'elemento all'indice specificato. Sola lettura [`ITab`](../itab). |
 
 ## Metodi
 

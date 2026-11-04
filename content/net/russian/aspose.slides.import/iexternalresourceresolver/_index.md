@@ -1,14 +1,14 @@
 ---
 title: IExternalResourceResolver
-second_title: Aspose.Sildes для .NET API Reference
-description: Интерфейс обратного вызова, используемый для разрешения внешних ресурсов при импорте документов Html и Svg.
+second_title: Aspose.Sildes для .NET: справка API
+description: Интерфейс обратного вызова, используемый для разрешения внешних ресурсов во время импорта документов Html и Svg.
 type: docs
-weight: 7490
+weight: 7510
 url: /ru/aspose.slides.import/iexternalresourceresolver/
 ---
 ## IExternalResourceResolver интерфейс
 
-Интерфейс обратного вызова, используемый для разрешения внешних ресурсов при импорте документов Html и Svg.
+Интерфейс обратного вызова, используемый для разрешения внешних ресурсов во время импорта документов Html, Svg.
 
 ```csharp
 public interface IExternalResourceResolver
@@ -18,8 +18,8 @@ public interface IExternalResourceResolver
 
 | Имя | Описание |
 | --- | --- |
-| [GetEntity](../../aspose.slides.import/iexternalresourceresolver/getentity)(string) | Отображает URI на объект, содержащий фактический ресурс. |
-| [ResolveUri](../../aspose.slides.import/iexternalresourceresolver/resolveuri)(string, string) | Разрешает абсолютный URI из базового и относительного URI. |
+| [GetEntity](../../aspose.slides.import/iexternalresourceresolver/getentity)(string) | Отображает URI в объект, содержащий фактический ресурс. |
+| [ResolveUri](../../aspose.slides.import/iexternalresourceresolver/resolveuri)(string, string) | Разрешает абсолютный URI из базового и относительных URI. |
 
 ### См. также
 

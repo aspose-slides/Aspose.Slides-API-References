@@ -3,7 +3,7 @@ title: ISectionZoomFrame
 second_title: Aspose.Sildes .NET API 參考
 description: 表示投影片中的 Section Zoom 物件。
 type: docs
-weight: 6920
+weight: 6940
 url: /zh-hant/aspose.slides/isectionzoomframe/
 ---
 ## ISectionZoomFrame 介面
@@ -19,7 +19,7 @@ public interface ISectionZoomFrame : IZoomObject
 | 名稱 | 說明 |
 | --- | --- |
 | [AsIZoomObject](../../aspose.slides/isectionzoomframe/asizoomobject) { get; } | 傳回 IZoomObject 介面。 |
-| [TargetSection](../../aspose.slides/isectionzoomframe/targetsection) { get; set; } | 取得或設定與 Section Zoom 物件連結的區段物件。讀寫 [`ISection`](../isection)。 |
+| [TargetSection](../../aspose.slides/isectionzoomframe/targetsection) { get; set; } | 取得或設定與 Section Zoom 物件連結的節區物件。讀/寫 [`ISection`](../isection)。 |
 
 ### 另請參閱
 

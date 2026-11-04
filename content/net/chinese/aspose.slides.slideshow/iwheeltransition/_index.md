@@ -1,14 +1,14 @@
 ---
 title: IWheelTransition
 second_title: Aspose.Sildes .NET API 参考
-description: 轮子幻灯片过渡效果。
+description: 轮子滑动过渡效果。
 type: docs
-weight: 10220
+weight: 10240
 url: /zh/aspose.slides.slideshow/iwheeltransition/
 ---
 ## IWheelTransition 接口
 
-轮子幻灯片过渡效果。
+轮子滑动过渡效果。
 
 ```csharp
 public interface IWheelTransition : ITransitionValueBase
@@ -21,7 +21,7 @@ public interface IWheelTransition : ITransitionValueBase
 | [AsITransitionValueBase](../../aspose.slides.slideshow/iwheeltransition/asitransitionvaluebase) { get; } | 允许获取基础 ITransitionValueBase 接口。只读 [`ITransitionValueBase`](../itransitionvaluebase)。 |
 | [Spokes](../../aspose.slides.slideshow/iwheeltransition/spokes) { get; set; } | 轮子过渡的辐条数量。读/写 UInt32。 |
 
-### 参见
+### 另见
 
 * 接口 [ITransitionValueBase](../itransitionvaluebase)
 * 命名空间 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

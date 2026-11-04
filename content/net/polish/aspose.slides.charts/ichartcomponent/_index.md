@@ -1,12 +1,12 @@
 ---
 title: IChartComponent
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Reprezentuje komponent wykresu.
 type: docs
-weight: 1790
+weight: 1810
 url: /pl/aspose.slides.charts/ichartcomponent/
 ---
-## IChartComponent interface
+## IChartComponent interfejs
 
 Reprezentuje komponent wykresu.
 
@@ -18,7 +18,7 @@ public interface IChartComponent : ISlideComponent
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides.charts/ichartcomponent/asislidecomponent) { get; } | Umożliwia pobranie podstawowego interfejsu ISlideComponent. Tylko do odczytu [`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [AsISlideComponent](../../aspose.slides.charts/ichartcomponent/asislidecomponent) { get; } | Umożliwia pobranie bazowego interfejsu ISlideComponent. Tylko do odczytu [`ISlideComponent`](../../aspose.slides/islidecomponent). |
 | [Chart](../../aspose.slides.charts/ichartcomponent/chart) { get; } | Zwraca wykres. Tylko do odczytu [`IChart`](../ichart). |
 
 ### Zobacz także

@@ -1,12 +1,12 @@
 ---
 title: ChartTitle
-second_title: مرجع API لـ Aspose.Sildes .NET
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
 description: يمثل خصائص عنوان المخطط.
 type: docs
-weight: 1490
+weight: 1500
 url: /ar/aspose.slides.charts/charttitle/
 ---
-## فئة ChartTitle
+## ChartTitle فئة
 
 يمثل خصائص عنوان المخطط.
 
@@ -18,32 +18,32 @@ public class ChartTitle : IChartTitle
 
 | الاسم | الوصف |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/charttitle/actualheight) { get; } | يحدد الارتفاع الفعلي لعنصر المخطط. استدعِ الطريقة IChart.ValidateChartLayout() قبل ذلك للحصول على القيم الفعلية. قراءة Single. |
-| [ActualWidth](../../aspose.slides.charts/charttitle/actualwidth) { get; } | يحدد العرض الفعلي لعنصر المخطط. استدعِ الطريقة IChart.ValidateChartLayout() قبل ذلك للحصول على القيم الفعلية. قراءة Single. |
-| [ActualX](../../aspose.slides.charts/charttitle/actualx) { get; } | يحدد الموقع الفعلي x (اليسار) لعنصر المخطط نسبة إلى الزاوية اليسرى العليا للمخطط. استدعِ الطريقة IChart.ValidateChartLayout() قبل ذلك للحصول على القيم الفعلية. قراءة Single. |
-| [ActualY](../../aspose.slides.charts/charttitle/actualy) { get; } | يحدد الجزء العلوي الفعلي لعنصر المخطط نسبة إلى الزاوية اليسرى العليا للمخطط. استدعِ الطريقة IChart.ValidateChartLayout() قبل ذلك للحصول على القيم الفعلية. قراءة Single. |
+| [ActualHeight](../../aspose.slides.charts/charttitle/actualheight) { get; } | يحدد الارتفاع الفعلي لعنصر المخطط. استدعِ الطريقة IChart.ValidateChartLayout() مسبقًا للحصول على القيم الفعلية. قراءة Single. |
+| [ActualWidth](../../aspose.slides.charts/charttitle/actualwidth) { get; } | يحدد العرض الفعلي لعنصر المخطط. استدعِ الطريقة IChart.ValidateChartLayout() مسبقًا للحصول على القيم الفعلية. قراءة Single. |
+| [ActualX](../../aspose.slides.charts/charttitle/actualx) { get; } | يحدد الموقع الفعلي x (اليسار) لعنصر المخطط بالنسبة إلى الزاوية اليسرى العليا للمخطط. استدعِ الطريقة IChart.ValidateChartLayout() مسبقًا للحصول على القيم الفعلية. قراءة Single. |
+| [ActualY](../../aspose.slides.charts/charttitle/actualy) { get; } | يحدد الموقع الفعلي العلوي لعنصر المخطط بالنسبة إلى الزاوية اليسرى العليا للمخطط. استدعِ الطريقة IChart.ValidateChartLayout() مسبقًا للحصول على القيم الفعلية. قراءة Single. |
 | [Bottom](../../aspose.slides.charts/charttitle/bottom) { get; } | الأسفل. قراءة فقط Single. |
 | [Chart](../../aspose.slides.charts/charttitle/chart) { get; } | يعيد المخطط الأب. قراءة فقط [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/charttitle/format) { get; } | يعيد أنماط التعبئة والخط والتأثير لعنوان. قراءة فقط [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/charttitle/height) { get; set; } | يعيد أو يحدد ارتفاع العنوان كنسبة من ارتفاع المخطط. قراءة/كتابة Single. |
-| [Overlay](../../aspose.slides.charts/charttitle/overlay) { get; set; } | يحدد ما إذا كان يُسمح لعناصر المخطط الأخرى بتداخل العنوان. قراءة/كتابة Boolean. |
-| [Right](../../aspose.slides.charts/charttitle/right) { get; } | اليمين. قراءة فقط Single. |
+| [Format](../../aspose.slides.charts/charttitle/format) { get; } | يعيد ملء وخط وأنماط التأثير للعنوان. قراءة فقط [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/charttitle/height) { get; set; } | يعيد أو يضبط ارتفاع العنوان كجزء من ارتفاع المخطط. قراءة/كتابة Single. |
+| [Overlay](../../aspose.slides.charts/charttitle/overlay) { get; set; } | يحدد ما إذا كان يُسمح لعناصر المخطط الأخرى بتغطية العنوان. قراءة/كتابة Boolean. |
+| [Right](../../aspose.slides.charts/charttitle/right) { get; } | اليمن. قراءة فقط Single. |
 | [TextFormat](../../aspose.slides.charts/charttitle/textformat) { get; } | يعيد تنسيق النص. قراءة فقط [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | يمكن أن يحتوي على نص غني التنسيق. إذا لم تكن هذه الخاصية null فإن قيمة النص المنسق هذه تتجاوز النص المُولد تلقائيًا. النص المُولد تلقائيًا هو خاصية ضمنية لعلامة البيانات، وعلامة وحدة العرض للمحور القيمي، وعنوان المحور، وعنوان المخطط، وعلامة خط الاتجاه. النص المُولد تلقائيًا يتم تنسيقه باستخدام الخاصية IFormattedTextContainer.TextFormat. قراءة فقط [`ITextFrame`](../../aspose.slides/itextframe). |
-| [Width](../../aspose.slides.charts/charttitle/width) { get; set; } | يعيد أو يحدد عرض العنوان كنسبة من عرض المخطط. قراءة/كتابة Single. |
-| [X](../../aspose.slides.charts/charttitle/x) { get; set; } | يعيد أو يحدد إحداثي x للعنوان كنسبة من عرض المخطط. قراءة/كتابة Single. |
-| [Y](../../aspose.slides.charts/charttitle/y) { get; set; } | يعيد أو يحدد إحداثي y للعنوان كنسبة من ارتفاع المخطط. قراءة/كتابة Single. |
+| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | يمكن أن يحتوي على نص منسق غني. إذا لم تكن هذه الخاصية null فإن قيمة النص المنسق هذه تتجاوز النص المُولد تلقائيًا. النص المُولد تلقائيًا هو خاصية ضمنية لتسمية البيانات، وتسمية وحدة العرض لمحور القيم، وعنوان المحور، وعنوان المخطط، وتسمية الخط الاتجاهي. يتم تنسيق النص المُولد تلقائيًا باستخدام الخاصية IFormattedTextContainer.TextFormat. قراءة فقط [`ITextFrame`](../../aspose.slides/itextframe). |
+| [Width](../../aspose.slides.charts/charttitle/width) { get; set; } | يعيد أو يضبط عرض العنوان كجزء من عرض المخطط. قراءة/كتابة Single. |
+| [X](../../aspose.slides.charts/charttitle/x) { get; set; } | يعيد أو يضبط إحداثي x للعنوان كجزء من عرض المخطط. قراءة/كتابة Single. |
+| [Y](../../aspose.slides.charts/charttitle/y) { get; set; } | يعيد أو يضبط إحداثي y للعنوان كجزء من ارتفاع المخطط. قراءة/كتابة Single. |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/charttitle/addtextframeforoverriding)(string) | تهيئة TextFrameForOverriding بالنص الموجود في المعامل "text". إذا كان TextFrameForOverriding مُهيأً بالفعل فسيتم ببساطة تغيير نصه. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/charttitle/addtextframeforoverriding)(string) | تهيئة TextFrameForOverriding بالنص في المعامل "text". إذا كان TextFrameForOverriding مُهيأً بالفعل فسيتم ببساطة تغيير نصه. |
 
-### انظر أيضا
+### انظر أيضًا
 
-* الواجهة [IChartTitle](../icharttitle)
-* مساحة الاسم [Aspose.Slides.Charts](../../aspose.slides.charts)
-* التجميع [Aspose.Slides](../../)
+* واجهة [IChartTitle](../icharttitle)
+* مساحة اسم [Aspose.Slides.Charts](../../aspose.slides.charts)
+* تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

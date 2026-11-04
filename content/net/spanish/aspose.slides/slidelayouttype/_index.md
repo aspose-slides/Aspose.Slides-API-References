@@ -3,10 +3,10 @@ title: SlideLayoutType
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa el tipo de diseño de diapositiva.
 type: docs
-weight: 9990
+weight: 10010
 url: /es/aspose.slides/slidelayouttype/
 ---
-## Enumeración SlideLayoutType
+## SlideLayoutType enumeración
 
 Representa el tipo de diseño de diapositiva.
 
@@ -16,7 +16,7 @@ public enum SlideLayoutType : sbyte
 
 ### Valores
 
-| Nombre | Valor | Descripción |
+| Name | Value | Description |
 | --- | --- | --- |
 | Custom | `-1` | Custom |
 | Title | `0` | Title |

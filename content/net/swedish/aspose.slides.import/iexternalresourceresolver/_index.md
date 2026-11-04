@@ -1,14 +1,14 @@
 ---
 title: IExternalResourceResolver
 second_title: Aspose.Sildes för .NET API-referens
-description: Callback-gränssnitt som används för att lösa upp externa resurser vid import av Html- och Svg-dokument.
+description: Callback-gränssnitt som används för att lösa upp externa resurser under import av Html- och Svg-dokument.
 type: docs
-weight: 7490
+weight: 7510
 url: /sv/aspose.slides.import/iexternalresourceresolver/
 ---
 ## IExternalResourceResolver gränssnitt
 
-Callback-gränssnitt som används för att lösa upp externa resurser vid import av Html- och Svg-dokument.
+Callback-gränssnitt som används för att lösa upp externa resurser under import av Html- och Svg-dokument.
 
 ```csharp
 public interface IExternalResourceResolver
@@ -21,7 +21,7 @@ public interface IExternalResourceResolver
 | [GetEntity](../../aspose.slides.import/iexternalresourceresolver/getentity)(string) | Mappar en URI till ett objekt som innehåller den faktiska resursen. |
 | [ResolveUri](../../aspose.slides.import/iexternalresourceresolver/resolveuri)(string, string) | Löser den absoluta URI:n från bas- och relativa URI:er. |
 
-### Se även
+### Se också
 
 * namnrymd [Aspose.Slides.Import](../../aspose.slides.import)
 * samling [Aspose.Slides](../../)

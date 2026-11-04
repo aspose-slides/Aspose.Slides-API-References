@@ -1,14 +1,14 @@
 ---
 title: IImageTransformOCollectionEffectiveData
 second_title: Aspose.Sildes .NET API referencia
-description: Változtathatatlan objektum, amely egy csak olvasható gyűjteményt képvisel a hatékony képtranszformációs hatásokhoz.
+description: Megváltoztathatatlan objektum, amely egy csak olvasható gyűjteményt képvisel a hatékony képtranszformációs hatásokból.
 type: docs
-weight: 3380
+weight: 3400
 url: /hu/aspose.slides.effects/iimagetransformocollectioneffectivedata/
 ---
 ## IImageTransformOCollectionEffectiveData interfész
 
-Változtathatatlan objektum, amely egy csak olvasható gyűjteményt képvisel a hatékony képtranszformációs hatásokhoz.
+Megváltoztathatatlan objektum, amely egy csak olvasható gyűjteményt képvisel a hatékony képtranszformációs hatásokból.
 
 ```csharp
 public interface IImageTransformOCollectionEffectiveData : IGenericCollection<IEffectEffectiveData>
@@ -22,7 +22,7 @@ public interface IImageTransformOCollectionEffectiveData : IGenericCollection<IE
 
 ### Megjegyzések
 
-Az IImageTransformOperationCollectionEffectiveData neve le lett rövidítve IImageTransformOCollectionEffectiveData névre, mivel a COM nevek hossza nem haladhatja meg a 39 karaktert.
+Az IImageTransformOperationCollectionEffectiveData nevet le lett rövidítve IImageTransformOCollectionEffectiveData-re, mert a COM nevek hossza nem haladhatja meg a 39 karaktert.
 
 ### Lásd még
 

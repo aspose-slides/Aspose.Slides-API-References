@@ -1,14 +1,14 @@
 ---
 title: ICommentAuthorCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een verzameling commentaurauteurs voor.
+description: Stelt een collectie commentaurauteurs voor.
 type: docs
-weight: 5580
+weight: 5600
 url: /nl/aspose.slides/icommentauthorcollection/
 ---
 ## ICommentAuthorCollection interface
 
-Stelt een verzameling commentaurauteurs voor.
+Stelt een collectie commentaurauteurs voor.
 
 ```csharp
 public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
@@ -24,12 +24,12 @@ public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AddAuthor](../../aspose.slides/icommentauthorcollection/addauthor)(string, string) | Voegt een nieuwe auteur toe aan het einde van een verzameling. |
-| [Clear](../../aspose.slides/icommentauthorcollection/clear)() | Verwijdert alle auteurs uit een verzameling. |
-| [FindByName](../../aspose.slides/icommentauthorcollection/findbyname)(string) | Zoekt een auteur in een verzameling op naam. |
-| [FindByNameAndInitials](../../aspose.slides/icommentauthorcollection/findbynameandinitials)(string, string) | Zoekt een auteur in een verzameling op naam en initialen. |
-| [Remove](../../aspose.slides/icommentauthorcollection/remove)(ICommentAuthor) | Verwijdert het eerste voorkomen van de opgegeven auteur in een verzameling. |
-| [RemoveAt](../../aspose.slides/icommentauthorcollection/removeat)(int) | Verwijdert de auteur op de opgegeven index van de verzameling. |
+| [AddAuthor](../../aspose.slides/icommentauthorcollection/addauthor)(string, string) | Voegt een nieuwe auteur toe aan het einde van een collectie. |
+| [Clear](../../aspose.slides/icommentauthorcollection/clear)() | Verwijdert alle auteurs uit een collectie. |
+| [FindByName](../../aspose.slides/icommentauthorcollection/findbyname)(string) | Zoekt een auteur in een collectie op naam. |
+| [FindByNameAndInitials](../../aspose.slides/icommentauthorcollection/findbynameandinitials)(string, string) | Zoekt een auteur in een collectie op naam en initialen. |
+| [Remove](../../aspose.slides/icommentauthorcollection/remove)(ICommentAuthor) | Verwijdert de eerste voorkoming van de opgegeven auteur uit een collectie. |
+| [RemoveAt](../../aspose.slides/icommentauthorcollection/removeat)(int) | Verwijdert de auteur op de opgegeven index van de collectie. |
 | [ToArray](../../aspose.slides/icommentauthorcollection/toarray)() | Maakt een array met alle auteurs aan en retourneert deze. |
 
 ### Zie ook

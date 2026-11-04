@@ -3,7 +3,7 @@ title: MathFunctionFactory
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Memungkinkan membuat fungsi matematika
 type: docs
-weight: 8730
+weight: 8750
 url: /id/aspose.slides.mathtext/mathfunctionfactory/
 ---
 ## MathFunctionFactory kelas
@@ -16,18 +16,18 @@ public class MathFunctionFactory : IMathFunctionFactory
 
 ## Konstruktor
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [MathFunctionFactory](mathfunctionfactory)() | Konstruktor default. |
 
 ## Metode
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [CreateMathFunction](../../aspose.slides.mathtext/mathfunctionfactory/createmathfunction#createmathfunction)(IMathElement, IMathElement) | Membuat fungsi matematika |
 | [CreateMathFunction](../../aspose.slides.mathtext/mathfunctionfactory/createmathfunction#createmathfunction_1)(string, IMathElement) | Membuat fungsi matematika |
 
-### Catatan
+### Keterangan
 
 Untuk kompatibilitas COM
 

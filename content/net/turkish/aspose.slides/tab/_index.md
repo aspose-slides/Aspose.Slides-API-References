@@ -1,14 +1,14 @@
 ---
 title: Tab
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir metin için sekme hizalamasını temsil eder.
+description: Bir metin için sekme düzenlemesini temsil eder.
 type: docs
-weight: 10820
+weight: 10840
 url: /tr/aspose.slides/tab/
 ---
 ## Tab sınıfı
 
-Bir metin için sekme hizalamasını temsil eder.
+Bir metin için sekme düzenlemesi temsil eder.
 
 ```csharp
 public sealed class Tab : PVIObject, ITab
@@ -24,19 +24,19 @@ public sealed class Tab : PVIObject, ITab
 
 | Ad | Açıklama |
 | --- | --- |
-| [Alignment](../../aspose.slides/tab/alignment) { get; set; } | Bir sekmenin hizalama stilini alır veya ayarlar. Okunur/yazılır [`TabAlignment`](../tabalignment). |
+| [Alignment](../../aspose.slides/tab/alignment) { get; set; } | Bir sekmenin hizalama stilini döndürür veya ayarlar. Okunur/yazılır [`TabAlignment`](../tabalignment). |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almayı sağlar. Salt-okunur [`IPresentationComponent`](../ipresentationcomponent). |
-| [Position](../../aspose.slides/tab/position) { get; set; } | Bir sekmenin konumunu alır veya ayarlar. Bu özelliğe değer atamak, sekmenin koleksiyondaki indeksini değiştirebilir ve Enumerator'ı geçersiz kılabilir. Okunur/yazılır Double. |
+| [Position](../../aspose.slides/tab/position) { get; set; } | Bir sekmenin konumunu döndürür veya ayarlar. Bu özelliğin atanması, koleksiyondaki sekmenin indeksini değiştirebilir ve Enumerator'ı geçersiz kılabilir. Okunur/yazılır Double. |
 
 ## Metotlar
 
 | Ad | Açıklama |
 | --- | --- |
-| [CompareTo](../../aspose.slides/tab/compareto)(object) | Geçerli örneği aynı türdeki başka bir nesneyle karşılaştırır. |
+| [CompareTo](../../aspose.slides/tab/compareto)(object) | Mevcut örneği aynı tipteki başka bir nesneyle karşılaştırır. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Belirtilen nesneyle karşılaştırır. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Karma kodu döndürür. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * sınıf [PVIObject](../pviobject)
 * arayüz [ITab](../itab)

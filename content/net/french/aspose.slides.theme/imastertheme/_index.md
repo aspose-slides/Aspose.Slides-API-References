@@ -1,14 +1,14 @@
 ---
 title: IMasterTheme
-second_title: Aspose.Sildes pour .NET Référence de l'API
-description: Représente un thème maître.
+second_title: Aspose.Sildes pour .NET Référence d'API
+description: Représente un thème principal.
 type: docs
-weight: 11310
+weight: 11330
 url: /fr/aspose.slides.theme/imastertheme/
 ---
-## interface IMasterTheme
+## IMasterTheme interface
 
-Représente un thème maître.
+Représente un thème principal.
 
 ```csharp
 public interface IMasterTheme : ITheme
@@ -19,8 +19,8 @@ public interface IMasterTheme : ITheme
 | Nom | Description |
 | --- | --- |
 | [AsITheme](../../aspose.slides.theme/imastertheme/asitheme) { get; } | Permet d'obtenir l'interface ITheme de base. Lecture seule [`ITheme`](../itheme). |
-| [ExtraColorSchemes](../../aspose.slides.theme/imastertheme/extracolorschemes) { get; } | Renvoie la collection de schémas de couleur supplémentaires. Ces schémas n'affectent pas l'apparence de la présentation, ils peuvent être sélectionnés comme schéma de couleur principal pour une diapositive. Lecture seule [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
-| [Name](../../aspose.slides.theme/imastertheme/name) { get; set; } | Renvoie le nom d'un thème. Lecture/écriture Chaîne. |
+| [ExtraColorSchemes](../../aspose.slides.theme/imastertheme/extracolorschemes) { get; } | Renvoie la collection de schémas de couleurs supplémentaires. Ces schémas n'influencent pas l'apparence de la présentation, ils peuvent être sélectionnés comme schéma de couleur principal pour une diapositive. Lecture seule [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
+| [Name](../../aspose.slides.theme/imastertheme/name) { get; set; } | Renvoie le nom d'un thème. Lecture/écriture String. |
 
 ### Voir aussi
 

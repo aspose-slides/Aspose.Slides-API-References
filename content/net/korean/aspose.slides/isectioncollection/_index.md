@@ -3,7 +3,7 @@ title: ISectionCollection
 second_title: Aspose.Sildes for .NET API 참조
 description: 섹션의 컬렉션을 나타냅니다.
 type: docs
-weight: 6900
+weight: 6920
 url: /ko/aspose.slides/isectioncollection/
 ---
 ## ISectionCollection 인터페이스
@@ -18,7 +18,7 @@ public interface ISectionCollection : IGenericCollection<ISection>
 
 | 이름 | 설명 |
 | --- | --- |
-| [Item](../../aspose.slides/isectioncollection/item) { get; } | 지정된 인덱스의 요소를 가져옵니다. 읽기 전용 [`ISection`](../isection). |
+| [Item](../../aspose.slides/isectioncollection/item) { get; } | 지정된 인덱스에 있는 요소를 가져옵니다. 읽기 전용 [`ISection`](../isection). |
 
 ## 메서드
 
@@ -27,13 +27,13 @@ public interface ISectionCollection : IGenericCollection<ISection>
 | [AddEmptySection](../../aspose.slides/isectioncollection/addemptysection)(string, int) | 컬렉션의 지정된 위치에 빈 섹션을 추가합니다. |
 | [AddSection](../../aspose.slides/isectioncollection/addsection)(string, ISlide) | 특정 슬라이드에서 시작하는 새 섹션을 추가합니다. |
 | [AppendEmptySection](../../aspose.slides/isectioncollection/appendemptysection)(string) | 컬렉션의 끝에 빈 섹션을 추가합니다. |
-| [Clear](../../aspose.slides/isectioncollection/clear)() | 컬렉션의 모든 섹션을 제거합니다. |
+| [Clear](../../aspose.slides/isectioncollection/clear)() | 컬렉션에서 모든 섹션을 제거합니다. |
 | [IndexOf](../../aspose.slides/isectioncollection/indexof)(ISection) | 컬렉션에서 지정된 섹션의 인덱스를 반환합니다. |
 | [RemoveSection](../../aspose.slides/isectioncollection/removesection)(ISection) | 섹션을 제거합니다. 섹션에 포함된 슬라이드는 이전 섹션으로 병합됩니다. |
 | [RemoveSectionWithSlides](../../aspose.slides/isectioncollection/removesectionwithslides)(ISection) | 섹션 및 섹션에 포함된 슬라이드를 제거합니다. |
-| [ReorderSectionWithSlides](../../aspose.slides/isectioncollection/reordersectionwithslides)(ISection, int) | 컬렉션에서 섹션 및 해당 슬라이드를 지정된 위치로 이동합니다. |
+| [ReorderSectionWithSlides](../../aspose.slides/isectioncollection/reordersectionwithslides)(ISection, int) | 섹션과 해당 슬라이드를 컬렉션에서 지정된 위치로 이동합니다. |
 
-### 또 보기
+### 참고
 
 * 인터페이스 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 인터페이스 [ISection](../isection)

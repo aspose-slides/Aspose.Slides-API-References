@@ -1,14 +1,14 @@
 ---
 title: SplitterBarStateType
-second_title: Aspose.Sildes .NET API-referencia
-description: Meghatározza azt az állapotot, amelyben a splitter bar megjelenik. A splitter bar elválaszt egy elsődleges és egy másodlagos területet a nézői területen.
+second_title: Aspose.Sildes .NET API referencia
+description: Megadja azt az állapotot, amelyben a splitter bar megjelenik. A splitter bar elválasztja az elsődleges és másodlagos területet egy megjelenítési területen.
 type: docs
-weight: 10690
+weight: 10710
 url: /hu/aspose.slides/splitterbarstatetype/
 ---
-## SplitterBarStateType felsorolás
+## SplitterBarStateType enumeráció
 
-Meghatározza azt az állapotot, amelyben a splitter bar megjelenik. A splitter bar elválaszt egy elsődleges és egy másodlagos területet a nézői területen.
+Meghatározza azt az állapotot, amelyben a splitter bar megjelenik. A splitter bar elválasztja az elsődleges és másodlagos területet egy megjelenítési területen.
 
 ```csharp
 public enum SplitterBarStateType
@@ -18,9 +18,9 @@ public enum SplitterBarStateType
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Minimized | `0` | Az elsődleges terület a legkevesebb nézői területet foglalja el, amit az alkalmazás megenged. |
-| Restored | `1` | Az elsődleges terület egy meghatározott köztes mérettel rendelkezik. |
-| Maximized | `2` | Az elsődleges terület a legnagyobb nézői területet foglalja el, amit az alkalmazás megenged. |
+| Minimized | `0` | Az elsődleges terület elfoglalja a legalacsonyabb mennyiségű megjelenítési területet, amelyet az alkalmazás megenged. |
+| Restored | `1` | Az elsődleges területnek egy meghatározott köztes mérete van. |
+| Maximized | `2` | Az elsődleges terület elfoglalja a legnagyobb mennyiségű megjelenítési területet, amelyet az alkalmazás megenged. |
 
 ### Lásd még
 

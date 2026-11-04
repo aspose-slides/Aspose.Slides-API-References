@@ -3,7 +3,7 @@ title: Comment
 second_title: Aspose.Sildes para .NET Referência da API
 description: Representa um comentário em um slide.
 type: docs
-weight: 2620
+weight: 2640
 url: /pt/aspose.slides/comment/
 ---
 ## Comment classe
@@ -16,24 +16,24 @@ public class Comment : IComment
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [Author](../../aspose.slides/comment/author) { get; } | Retorna o autor de um comentário. Somente leitura [`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Retorna ou define o horário de criação de um comentário. Definir esta propriedade como MinValue significa que nenhum horário de comentário está definido. Leitura/gravação DateTime. |
+| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Retorna ou define o horário de criação de um comentário. Definir esta propriedade como MinValue indica que nenhum horário de comentário foi definido. Leitura/gravação DateTime. |
 | [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Obtém ou define o comentário pai. Leitura/gravação [`IComment`](../icomment). |
 | [Position](../../aspose.slides/comment/position) { get; set; } | Retorna ou define a posição de um comentário em um slide. Leitura/gravação PointF. |
 | [Slide](../../aspose.slides/comment/slide) { get; } | Retorna ou define o slide pai de um comentário. Somente leitura [`ISlide`](../islide). |
-| [Text](../../aspose.slides/comment/text) { get; set; } | Retorna ou define o texto simples de um comentário em um slide. Leitura/gravação String. |
+| [Text](../../aspose.slides/comment/text) { get; set; } | Retorna ou define o texto simples de um comentário de slide. Leitura/gravação String. |
 
 ## Métodos
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [Remove](../../aspose.slides/comment/remove)() | Remove o comentário e todas as suas respostas da coleção pai. |
 
 ### Exemplos
 
-Este exemplo mostra como adicionar um comentário a um slide em uma apresentação do PowerPoint.
+Este exemplo mostra como adicionar um comentário a um slide em uma apresentação PowerPoint.
 
 ```csharp
 [C#]
@@ -44,7 +44,7 @@ using (Presentation presentation = new Presentation())
     presentation.Slides.AddEmptySlide(presentation.LayoutSlides[0]);
     // Adiciona um autor
     ICommentAuthor author = presentation.CommentAuthors.AddAuthor("Jawad", "MF");
-    // Define a posição para comentários
+    // Define a posição dos comentários
     PointF point = new PointF();
     point.X = 0.2f;
     point.Y = 0.2f;
@@ -57,18 +57,18 @@ using (Presentation presentation = new Presentation())
 }
 ```
 
-Este exemplo mostra como acessar um comentário existente em um slide em uma apresentação do PowerPoint.
+Este exemplo mostra como acessar um comentário existente em um slide em uma apresentação PowerPoint.
 
 ```csharp
 [C#]
 // Instancia a classe Presentation
 using (Presentation presentation = new Presentation("Comments1.pptx"))
 {
-	// Itera sobre CommentAuthors
+	// Itera CommentAuthors
     foreach (var commentAuthor in presentation.CommentAuthors)
     {
         var author = (CommentAuthor) commentAuthor;
-		// Itera sobre Comments
+		// Itera Comments
         foreach (var comment1 in author.Comments)
         {
             var comment = (Comment) comment1;
@@ -117,13 +117,13 @@ using (Presentation pres = new Presentation())
         Console.WriteLine();
     }
     pres.Save("parent_comment.pptx",SaveFormat.Pptx);
-    // Remove o comment1 e todas as respostas a ele
+	// Remove o comment1 e todas as respostas a ele
     comment1.Remove();
     pres.Save("remove_comment.pptx", SaveFormat.Pptx);
 }
 ```
 
-### Ver também
+### Veja Também
 
 * interface [IComment](../icomment)
 * namespace [Aspose.Slides](../../aspose.slides)

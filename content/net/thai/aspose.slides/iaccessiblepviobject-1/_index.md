@@ -1,14 +1,14 @@
 ---
 title: IAccessiblePVIObjectT
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงถึงชนิดที่สามารถคืนค่าข้อมูลที่มีผลที่สอดคล้องกับการใช้การสืบทอด
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงประเภทที่สามารถคืนค่าข้อมูลผลลัพธ์ที่สอดคล้องกันโดยมีการใช้การสืบทอดแล้ว
 type: docs
-weight: 5170
+weight: 5190
 url: /th/aspose.slides/iaccessiblepviobject-1/
 ---
 ## IAccessiblePVIObject<T> อินเทอร์เฟซ
 
-แสดงถึงชนิดที่สามารถคืนค่าข้อมูลที่มีผลที่สอดคล้องกับการใช้การสืบทอด.
+แสดงถึงประเภทที่สามารถคืนค่าข้อมูลผลลัพธ์ที่สอดคล้องกันโดยมีการใช้การสืบทอดแล้ว
 
 ```csharp
 public interface IAccessiblePVIObject<T>
@@ -17,13 +17,13 @@ public interface IAccessiblePVIObject<T>
 
 | พารามิเตอร์ | คำอธิบาย |
 | --- | --- |
-| T | ประเภทของข้อมูลที่มีผล. |
+| T | ประเภทของข้อมูลผลลัพธ์ |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GetEffective](../../aspose.slides/iaccessiblepviobject`1/geteffective)() | รับข้อมูลที่มีผลพร้อมกับการสืบทอดที่ใช้. |
+| [GetEffective](../../aspose.slides/iaccessiblepviobject`1/geteffective)() | รับข้อมูลผลลัพธ์โดยมีการสืบทอดแล้ว |
 
 ### ดูเพิ่มเติม
 

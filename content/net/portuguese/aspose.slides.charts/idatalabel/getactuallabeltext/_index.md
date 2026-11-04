@@ -3,10 +3,10 @@ title: GetActualLabelText
 second_title: Referência da API Aspose.Sildes para .NET
 description: Retorna o texto real do rótulo com base nas configurações de DataLabelFormat ou no valor de TextFrameForOverriding.Text.
 type: docs
-weight: 70
+weight: 80
 url: /pt/aspose.slides.charts/idatalabel/getactuallabeltext/
 ---
-## IDataLabel.GetActualLabelText method
+## IDataLabel.GetActualLabelText método
 
 Retorna o texto real do rótulo com base nas configurações de DataLabelFormat ou no valor de TextFrameForOverriding.Text.
 
@@ -14,11 +14,11 @@ Retorna o texto real do rótulo com base nas configurações de DataLabelFormat 
 public string GetActualLabelText()
 ```
 
-### Valor de Retorno
+### Valor de retorno
 
 Texto real do rótulo String
 
-### Veja Também
+### Veja também
 
 * interface [IDataLabel](../../idatalabel)
 * namespace [Aspose.Slides.Charts](../../idatalabel)

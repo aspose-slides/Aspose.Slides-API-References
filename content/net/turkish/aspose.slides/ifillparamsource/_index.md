@@ -1,9 +1,9 @@
 ---
 title: IFillParamSource
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Yardımcı doldurma parametreleri arayüzü.
 type: docs
-weight: 5810
+weight: 5830
 url: /tr/aspose.slides/ifillparamsource/
 ---
 ## IFillParamSource arayüz
@@ -14,7 +14,7 @@ Yardımcı doldurma parametreleri arayüzü.
 public interface IFillParamSource
 ```
 
-### Ayrıca Bakınız
+### Ayrıca bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: MathFunctionsOfOneArgument
-second_title: Aspose.Sildes .NET API-referencia
-description: Egy argumentumú általános matematikai függvények
+second_title: Aspose.Sildes .NET API referenciája
+description: Egy argumentumú gyakori matematikai függvények
 type: docs
-weight: 8740
+weight: 8760
 url: /hu/aspose.slides.mathtext/mathfunctionsofoneargument/
 ---
 ## MathFunctionsOfOneArgument enumeráció
 
-Common mathematical functions of one argument
+Egy argumentumú gyakori matematikai függvények
 
 ```csharp
 public enum MathFunctionsOfOneArgument
@@ -21,29 +21,29 @@ public enum MathFunctionsOfOneArgument
 | Sin | `0` | Szinusz |
 | Cos | `1` | Koszinusz |
 | Tan | `2` | Tangens |
-| Csc | `3` | Kósecans |
+| Csc | `3` | Kóciens |
 | Sec | `4` | Szekáns |
 | Cot | `5` | Kotangens |
 | HyperbolicSin | `6` | Hiperbolikus szinusz |
 | HyperbolicCos | `7` | Hiperbolikus koszinusz |
 | HyperbolicTan | `8` | Hiperbolikus tangens |
-| HyperbolicCsc | `9` | Hiperbolikus kósecans |
+| HyperbolicCsc | `9` | Hiperbolikus kóciens |
 | HyperbolicSec | `10` | Hiperbolikus szekáns |
 | HyperbolicCot | `11` | Hiperbolikus kotangens |
-| Lg | `12` | Tíz alapú logaritmus |
+| Lg | `12` | Tízes alapú logaritmus |
 | Ln | `13` | Természetes logaritmus |
-| ArcSin | `14` | Arkuszinusz |
-| ArcCos | `15` | Arkuszkoszinusz |
-| ArcTan | `16` | Arkustangens |
-| ArcCsc | `17` | Arkuskósecans |
-| ArcSec | `18` | Arkusszekáns |
-| ArcCot | `19` | Arkuskotangens |
-| HyperbolicArcSin | `20` | Hiperbolikus arkuszinusz |
-| HyperbolicArcCos | `21` | Hiperbolikus arkuszkoszinusz |
-| HyperbolicArcTan | `22` | Hiperbolikus arkustangens |
-| HyperbolicArcCsc | `23` | Hiperbolikus arkuskósecans |
-| HyperbolicArcSec | `24` | Hiperbolikus arkusszekáns |
-| HyperbolicArcCot | `25` | Hiperbolikus arkuskotangens |
+| ArcSin | `14` | Arcszinusz |
+| ArcCos | `15` | Arckoszinusz |
+| ArcTan | `16` | Arctangens |
+| ArcCsc | `17` | Arckóciens |
+| ArcSec | `18` | Arcszekáns |
+| ArcCot | `19` | Arckotangens |
+| HyperbolicArcSin | `20` | Hiperbolikus arcszinusz |
+| HyperbolicArcCos | `21` | Hiperbolikus arckoszinusz |
+| HyperbolicArcTan | `22` | Hiperbolikus arctangens |
+| HyperbolicArcCsc | `23` | Hiperbolikus arckóciens |
+| HyperbolicArcSec | `24` | Hiperbolikus arcszekáns |
+| HyperbolicArcCot | `25` | Hiperbolikus arckotangens |
 
 ### Lásd még
 

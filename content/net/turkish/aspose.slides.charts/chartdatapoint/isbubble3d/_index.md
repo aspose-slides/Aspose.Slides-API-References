@@ -1,20 +1,18 @@
 ---
 title: IsBubble3D
 second_title: Aspose.Sildes .NET API Referansı
-description: Balonların 3-D etkisinin uygulandığını belirtir. Okuma/yazma Boolean.
+description: Balonların 3-B boyutlu bir etki uygulandığını belirtir. Okunur/Yazılabilir Boolean.
 type: docs
-weight: 130
+weight: 170
 url: /tr/aspose.slides.charts/chartdatapoint/isbubble3d/
 ---
-## ChartDataPoint.IsBubble3D özelliği
-
-Balonların 3-D etkisinin uygulandığını belirtir. Okuma/yazma Boolean.
-
+## ChartDataPoint.IsBubble3D özellik
+Balonların 3-D etkisine sahip olduğunu belirtir. Okunur/Yazılabilir Boolean.
 ```csharp
 public bool IsBubble3D { get; set; }
 ```
 
-### Diğer Bağlantılar
+### Bakınız
 
 * sınıf [ChartDataPoint](../../chartdatapoint)
 * ad alanı [Aspose.Slides.Charts](../../chartdatapoint)

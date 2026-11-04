@@ -1,9 +1,9 @@
 ---
 title: IZoomObject
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Representa un objeto Zoom en una diapositiva.
 type: docs
-weight: 7410
+weight: 7430
 url: /es/aspose.slides/izoomobject/
 ---
 ## IZoomObject interfaz
@@ -21,9 +21,9 @@ public interface IZoomObject : IGraphicalObject
 | [AsIGraphicalObject](../../aspose.slides/izoomobject/asigraphicalobject) { get; } | Permite obtener la interfaz base IGraphicalObject. Solo lectura [`IGraphicalObject`](../igraphicalobject). |
 | [ImageType](../../aspose.slides/izoomobject/imagetype) { get; set; } | Obtiene o establece el tipo de imagen de un objeto zoom. Lectura/escritura [`ZoomImageType`](../zoomimagetype). Valor predeterminado: Preview |
 | [ReturnToParent](../../aspose.slides/izoomobject/returntoparent) { get; set; } | Obtiene o establece el comportamiento de navegación en la presentación. Lectura/escritura Boolean. Valor predeterminado: false |
-| [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | Obtiene o establece el valor que especifica si el Zoom usará el fondo de la diapositiva de destino. Lectura/escritura Boolean. Valor predeterminado: true |
+| [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | Obtiene o establece el valor que indica si el Zoom usará el fondo de la diapositiva de destino. Lectura/escritura Boolean. Valor predeterminado: true |
 | [TransitionDuration](../../aspose.slides/izoomobject/transitionduration) { get; set; } | Obtiene o establece la duración de la transición entre Zoom y la diapositiva. Lectura/escritura Single. Valor predeterminado: 1.0f |
-| [ZoomImage](../../aspose.slides/izoomobject/zoomimage) { get; set; } | Obtiene o establece la imagen para el objeto zoom. Lectura/escritura [`IPPImage`](../ippimage). |
+| [ZoomImage](../../aspose.slides/izoomobject/zoomimage) { get; set; } | Obtiene o establece la imagen del objeto zoom. Lectura/escritura [`IPPImage`](../ippimage). |
 
 ### Ver también
 

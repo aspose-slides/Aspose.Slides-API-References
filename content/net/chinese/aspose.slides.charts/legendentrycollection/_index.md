@@ -1,9 +1,9 @@
 ---
 title: LegendEntryCollection
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes 的 .NET API 参考
 description: 表示图例集合。
 type: docs
-weight: 2300
+weight: 2320
 url: /zh/aspose.slides.charts/legendentrycollection/
 ---
 ## LegendEntryCollection 类
@@ -18,8 +18,8 @@ public class LegendEntryCollection : ILegendEntryCollection
 
 | 名称 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides.charts/legendentrycollection/count) { get; } | 获取图例项的数量。只读 Int32。 |
-| [Item](../../aspose.slides.charts/legendentrycollection/item) { get; } | 获取图例项的属性；当图表类型属于以下列表时，对应于 Chart.ChartData.Series[0].DataPoints[index]：ChartType.BarOfPie、ChartType.ExplodedPie、ChartType.ExplodedPie3D、ChartType.Pie、ChartType.Pie3D、ChartType.PieOfPie；或者对于其他图表类型，对应于 Chart.ChartData.Series[index]。 |
+| [Count](../../aspose.slides.charts/legendentrycollection/count) { get; } | 获取图例条目的数量。只读 Int32。 |
+| [Item](../../aspose.slides.charts/legendentrycollection/item) { get; } | 获取对应于 Chart.ChartData.Series[0].DataPoints[index] 的图例条目属性（当图表类型为以下列表中的一种：ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie）; 或对其他图表类型对应于 Chart.ChartData.Series[index] 的图例条目属性。 |
 
 ### 另请参见
 

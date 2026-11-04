@@ -1,14 +1,14 @@
 ---
 title: NotesPositions
-second_title: Aspose.Sildes برای .NET مرجع API
-description: قوانینی را که برای رندر کردن یادداشت‌ها در سند خروجی استفاده می‌شود، توصیف می‌کند
+second_title: Aspose.Sildes برای مرجع API .NET
+description: قانون رندر یادداشت‌ها در سند صادر شده را نشان می‌دهد
 type: docs
-weight: 4300
+weight: 4320
 url: /fa/aspose.slides.export/notespositions/
 ---
-## شمارش NotesPositions
+## نوع شمارشی NotesPositions
 
-قوانین رندر کردن یادداشت‌ها در سند صادر شده را توصیف می‌کند
+قانون رندر یادداشت‌ها در سند صادر شده را نشان می‌دهد
 
 ```csharp
 public enum NotesPositions
@@ -18,11 +18,11 @@ public enum NotesPositions
 
 | نام | مقدار | توضیح |
 | --- | --- | --- |
-| None | `0` | مشخص می‌کند که یادداشت‌ها به هیچ وجه نمایش داده نشوند. |
-| BottomFull | `1` | مشخص می‌کند که یادداشت‌ها باید به‌صورت کامل و با استفاده از صفحات اضافه در صورت نیاز نمایش داده شوند. |
+| None | `0` | مشخص می‌کند که یادداشت‌ها به‌طور کامل نمایش داده نشوند. |
+| BottomFull | `1` | مشخص می‌کند که یادداشت‌ها به‌صورت کامل و در صورت نیاز در صفحات اضافی نمایش داده شوند. |
 | BottomTruncated | `2` | مشخص می‌کند که یادداشت‌ها فقط در یک صفحه نمایش داده شوند. |
 
-### همچنین ببینید
+### موارد مرتبط
 
 * فضای نام [Aspose.Slides.Export](../../aspose.slides.export)
 * مجمع [Aspose.Slides](../../)

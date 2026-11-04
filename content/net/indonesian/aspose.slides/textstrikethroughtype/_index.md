@@ -1,12 +1,12 @@
 ---
 title: TextStrikethroughType
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili jenis coretan teks.
 type: docs
-weight: 10990
+weight: 11010
 url: /id/aspose.slides/textstrikethroughtype/
 ---
-## TextStrikethroughType enumerasi
+## TextStrikethroughType enumeration
 
 Mewakili jenis coretan teks.
 
@@ -16,7 +16,7 @@ public enum TextStrikethroughType : sbyte
 
 ### Nilai
 
-| Nama | Nilai | Deskripsi |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | None | `0` |  |

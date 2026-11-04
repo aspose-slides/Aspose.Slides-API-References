@@ -1,14 +1,14 @@
 ---
 title: IMasterSlide
 second_title: Aspose.Sildes for .NET API リファレンス
-description: プレゼンテーションのマスタースライドを表します。
+description: プレゼンテーション内のマスタースライドを表します。
 type: docs
-weight: 6420
+weight: 6440
 url: /ja/aspose.slides/imasterslide/
 ---
 ## IMasterSlide インターフェイス
 
-プレゼンテーションのマスタースライドを表します。
+プレゼンテーション内のマスタースライドを表します。
 
 ```csharp
 public interface IMasterSlide : IBaseSlide, IMasterThemeable
@@ -18,25 +18,25 @@ public interface IMasterSlide : IBaseSlide, IMasterThemeable
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasterslide/asibaseslide) { get; } | ベースの IBaseSlide インターフェイスを取得できます。 読み取り専用 [`IBaseSlide`](../ibaseslide). |
-| [AsIMasterThemeable](../../aspose.slides/imasterslide/asimasterthemeable) { get; } | IMasterThemeable インターフェイスを返します。 読み取り専用 [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [BodyStyle](../../aspose.slides/imasterslide/bodystyle) { get; } | 本文テキストのスタイルを返します。 読み取り専用 [`ITextStyle`](../itextstyle). |
-| [DrawingGuides](../../aspose.slides/imasterslide/drawingguides) { get; } | マスタースライドの描画ガイドのコレクションを返します。 読み取り専用 [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HasDependingSlides](../../aspose.slides/imasterslide/hasdependingslides) { get; } | このマスタースライドに依存するスライドが少なくとも1つ存在する場合に true を返します。 読み取り専用 Boolean. |
-| [HeaderFooterManager](../../aspose.slides/imasterslide/headerfootermanager) { get; } | マスタースライドの HeaderFooter マネージャーを返します。 読み取り専用 [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager). |
-| [LayoutSlides](../../aspose.slides/imasterslide/layoutslides) { get; } | このマスタースライドの子レイアウトスライドのコレクションを返します。 読み取り専用 [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection). |
-| [OtherStyle](../../aspose.slides/imasterslide/otherstyle) { get; } | 他のテキストのスタイルを返します。 読み取り専用 [`ITextStyle`](../itextstyle). |
-| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | すべてのスライドが削除されたときに対応するマスターが削除されるかどうかを決定します。 注: Aspose.Slides は未使用のマスターを自動的に削除しません。未使用マスターを実際に削除するには [`RemoveUnused`](../imasterslidecollection/removeunused) を呼び出してください。 読み書き可能 Boolean. |
-| [TitleStyle](../../aspose.slides/imasterslide/titlestyle) { get; } | タイトルテキストのスタイルを返します。 読み取り専用 [`ITextStyle`](../itextstyle). |
+| [AsIBaseSlide](../../aspose.slides/imasterslide/asibaseslide) { get; } | 基本 IBaseSlide インターフェイスを取得できます。読み取り専用 [`IBaseSlide`](../ibaseslide)。 |
+| [AsIMasterThemeable](../../aspose.slides/imasterslide/asimasterthemeable) { get; } | IMasterThemeable インターフェイスを返します。読み取り専用 [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable)。 |
+| [BodyStyle](../../aspose.slides/imasterslide/bodystyle) { get; } | 本文テキストのスタイルを返します。読み取り専用 [`ITextStyle`](../itextstyle)。 |
+| [DrawingGuides](../../aspose.slides/imasterslide/drawingguides) { get; } | マスタースライド用の描画ガイドコレクションを返します。読み取り専用 [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HasDependingSlides](../../aspose.slides/imasterslide/hasdependingslides) { get; } | このマスタースライドに依存するスライドが少なくとも1枚存在する場合は true を返します。読み取り専用 Boolean。 |
+| [HeaderFooterManager](../../aspose.slides/imasterslide/headerfootermanager) { get; } | マスタースライドの HeaderFooter マネージャーを返します。読み取り専用 [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager)。 |
+| [LayoutSlides](../../aspose.slides/imasterslide/layoutslides) { get; } | このマスタースライドの子レイアウトスライドのコレクションを返します。読み取り専用 [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection)。 |
+| [OtherStyle](../../aspose.slides/imasterslide/otherstyle) { get; } | 他のテキストのスタイルを返します。読み取り専用 [`ITextStyle`](../itextstyle)。 |
+| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | すべてのスライドが削除されたときに対応するマスターが削除されるかを決定します。注: Aspose.Slides は未使用のマスターを自動的に削除しません。未使用のマスターを実際に削除するには [`RemoveUnused`](../imasterslidecollection/removeunused) を呼び出します。読み書き Boolean。 |
+| [TitleStyle](../../aspose.slides/imasterslide/titlestyle) { get; } | タイトルテキストのスタイルを返します。読み取り専用 [`ITextStyle`](../itextstyle)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [ApplyExternalThemeToDependingSlides](../../aspose.slides/imasterslide/applyexternalthemetodependingslides)(string) | 現在のマスタースライドを基に新しいマスタースライドを作成し、外部テーマを適用し、作成したマスタースライドをすべての依存スライドに適用します。 |
+| [ApplyExternalThemeToDependingSlides](../../aspose.slides/imasterslide/applyexternalthemetodependingslides)(string) | 現在のスライドを基に新しいマスタースライドを作成し、外部テーマを適用して、作成されたマスタースライドをすべての依存スライドに適用します。 |
 | [GetDependingSlides](../../aspose.slides/imasterslide/getdependingslides)() | このマスタースライドに依存するすべてのスライドの配列を返します。 |
 
-### 参照
+### 参考
 
 * interface [IBaseSlide](../ibaseslide)
 * interface [IMasterThemeable](../../aspose.slides.theme/imasterthemeable)

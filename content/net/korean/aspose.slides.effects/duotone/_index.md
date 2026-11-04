@@ -1,14 +1,14 @@
 ---
 title: Duotone
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: Duotone 효과를 나타냅니다. 각 픽셀마다 Color1과 Color2를 선형 보간을 통해 결합하여 해당 픽셀의 새로운 색상을 결정합니다.
+description: Duotone 효과를 나타냅니다. 각 픽셀에 대해 Color1과 Color2를 선형 보간을 통해 결합하여 해당 픽셀의 새 색상을 결정합니다.
 type: docs
-weight: 2960
+weight: 2980
 url: /ko/aspose.slides.effects/duotone/
 ---
 ## Duotone 클래스
 
-Duotone 효과를 나타냅니다. 각 픽셀마다 Color1과 Color2를 선형 보간을 통해 결합하여 해당 픽셀의 새로운 색상을 결정합니다.
+Duotone 효과를 나타냅니다. 각 픽셀에 대해 Color1과 Color2를 선형 보간을 통해 결합하여 해당 픽셀의 새 색상을 결정합니다.
 
 ```csharp
 public sealed class Duotone : ImageTransformOperation, IDuotone
@@ -16,21 +16,21 @@ public sealed class Duotone : ImageTransformOperation, IDuotone
 
 ## 속성
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 기본 IPresentationComponent 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Color1](../../aspose.slides.effects/duotone/color1) { get; } | 어두운 픽셀에 대한 대상 색상 형식을 반환합니다. 읽기 전용 [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Color2](../../aspose.slides.effects/duotone/color2) { get; } | 밝은 픽셀에 대한 대상 색상 형식을 반환합니다. 읽기 전용 [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Color1](../../aspose.slides.effects/duotone/color1) { get; } | 어두운 픽셀의 대상 색상 형식을 반환합니다. 읽기 전용 [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Color2](../../aspose.slides.effects/duotone/color2) { get; } | 밝은 픽셀의 대상 색상 형식을 반환합니다. 읽기 전용 [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## 메서드
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/duotone/equals)(object) | 지정된 [`Duotone`](../duotone)가 현재 [`Duotone`](../duotone)와 같은지 여부를 결정합니다. |
-| [GetEffective](../../aspose.slides.effects/duotone/geteffective)() | 상속이 적용된 효과적인 Duotone 효과 데이터를 가져옵니다. |
-| override [GetHashCode](../../aspose.slides.effects/duotone/gethashcode)() | 특정 형식에 대한 해시 함수로 사용됩니다. |
+| override [Equals](../../aspose.slides.effects/duotone/equals)(object) | 지정된 [`Duotone`](../duotone)가 현재 [`Duotone`](../duotone)와 동일한지 여부를 결정합니다. |
+| [GetEffective](../../aspose.slides.effects/duotone/geteffective)() | 상속이 적용된 실제 Duotone 효과 데이터를 가져옵니다. |
+| override [GetHashCode](../../aspose.slides.effects/duotone/gethashcode)() | 특정 유형에 대한 해시 함수 역할을 합니다. |
 
-### 참고
+### 참조
 
 * 클래스 [ImageTransformOperation](../imagetransformoperation)
 * 인터페이스 [IDuotone](../iduotone)

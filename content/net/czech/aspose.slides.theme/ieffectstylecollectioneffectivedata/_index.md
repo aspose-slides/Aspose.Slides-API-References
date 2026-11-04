@@ -1,14 +1,14 @@
 ---
 title: IEffectStyleCollectionEffectiveData
-second_title: Aspose.Sildes pro .NET – referenční dokumentace API
-description: Neměnný objekt, který představuje kolekci jen pro čtení efektivních stylů efektů.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Neměnný objekt, který představuje kolekci efektových stylů pouze pro čtení.
 type: docs
-weight: 11190
+weight: 11210
 url: /cs/aspose.slides.theme/ieffectstylecollectioneffectivedata/
 ---
 ## IEffectStyleCollectionEffectiveData rozhraní
 
-Neměnný objekt, který představuje kolekci jen pro čtení efektivních stylů efektů.
+Neměnný objekt, který představuje kolekci efektových stylů pouze pro čtení.
 
 ```csharp
 public interface IEffectStyleCollectionEffectiveData : IGenericCollection<IEffectStyleEffectiveData>
@@ -18,7 +18,7 @@ public interface IEffectStyleCollectionEffectiveData : IGenericCollection<IEffec
 
 | Název | Popis |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ieffectstylecollectioneffectivedata/item) { get; } | Vrací prvek na zadaném indexu. Pouze pro čtení [`IEffectStyleEffectiveData`](../ieffectstyleeffectivedata). |
+| [Item](../../aspose.slides.theme/ieffectstylecollectioneffectivedata/item) { get; } | Získá prvek na zadaném indexu. Pouze ke čtení [`IEffectStyleEffectiveData`](../ieffectstyleeffectivedata). |
 
 ### Poznámky
 

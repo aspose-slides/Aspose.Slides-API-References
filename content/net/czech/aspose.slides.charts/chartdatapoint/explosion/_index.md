@@ -1,14 +1,14 @@
 ---
 title: Explosion
 second_title: Aspose.Sildes pro .NET API Reference
-description: Určuje, o kolik má být datový bod posunut od středu koláče. Čtení/zápis Int32.
+description: Specifikuje množství, o které má být datový bod posunut od středu výseče. Číst/Zapisovat Int32.
 type: docs
-weight: 90
+weight: 130
 url: /cs/aspose.slides.charts/chartdatapoint/explosion/
 ---
 ## ChartDataPoint.Explosion vlastnost
 
-Určuje, o kolik má být datový bod posunut od středu koláče. Čtení/zápis Int32.
+Specifikuje množství, o které má být datový bod posunut od středu výseče. Číst/Zapisovat Int32.
 
 ```csharp
 public int Explosion { get; set; }

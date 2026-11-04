@@ -1,14 +1,14 @@
 ---
 title: GradientStopCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een collectie gradient stops voor.
+description: Stelt een collectie van gradient stops voor.
 type: docs
-weight: 5030
+weight: 5050
 url: /nl/aspose.slides/gradientstopcollection/
 ---
 ## GradientStopCollection klasse
 
-Stelt een verzameling gradient stops voor.
+Stelt een collectie van gradient stops voor.
 
 ```csharp
 public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
@@ -16,17 +16,17 @@ public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Staat toe de basis IPresentationComponent interface op te halen. Alleen-lezen [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Stelt toe om de basis IPresentationComponent interface op te halen. Alleen-lezen [`IPresentationComponent`](../ipresentationcomponent). |
 | [Count](../../aspose.slides/gradientstopcollection/count) { get; } | Retourneert het aantal gradient stops in een collectie. Alleen-lezen Int32. |
 | [IsSynchronized](../../aspose.slides/gradientstopcollection/issynchronized) { get; } | Retourneert een waarde die aangeeft of de toegang tot de collectie gesynchroniseerd is (thread-safe). Alleen-lezen Boolean. |
-| [Item](../../aspose.slides/gradientstopcollection/item) { get; } | Retourneert de gradient stop op een bepaalde index. |
+| [Item](../../aspose.slides/gradientstopcollection/item) { get; } | Retourneert de gradient stop op index. |
 | [SyncRoot](../../aspose.slides/gradientstopcollection/syncroot) { get; } | Retourneert een synchronisatiewortel. Alleen-lezen Object. |
 
 ## Methoden
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/gradientstopcollection/add#add_2)(float, Color) | Maakt de nieuwe gradient stop aan en voegt deze toe aan het einde van de collectie. |
 | [Add](../../aspose.slides/gradientstopcollection/add#add)(float, PresetColor) | Maakt de nieuwe gradient stop aan en voegt deze toe aan het einde van de collectie. |
@@ -35,7 +35,7 @@ public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
 | [CopyTo](../../aspose.slides/gradientstopcollection/copyto)(Array, int) | Kopieert alle elementen van de collectie naar de opgegeven array. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Vergelijkt met het opgegeven object. |
 | [GetEnumerator](../../aspose.slides/gradientstopcollection/getenumerator)() | Retourneert een enumerator die door de collectie iterereert. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Retourneert de hashcode. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Retourneert een hashcode. |
 | [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | Maakt de nieuwe gradient stop aan en voegt deze in op de opgegeven index in de collectie. |
 | [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | Maakt de nieuwe gradient stop aan en voegt deze in op de opgegeven index in de collectie. |
 | [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Maakt de nieuwe gradient stop aan en voegt deze in op de opgegeven index in de collectie. |

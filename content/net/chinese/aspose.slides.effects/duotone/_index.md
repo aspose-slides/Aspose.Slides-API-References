@@ -1,14 +1,14 @@
 ---
 title: Duotone
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示 Duotone 效果。对于每个像素，通过线性插值将 Color1 和 Color2 组合，以确定该像素的新颜色。
+description: 表示 Duotone 效果。对于每个像素，通过线性插值组合 Color1 和 Color2，以确定该像素的新颜色。
 type: docs
-weight: 2960
+weight: 2980
 url: /zh/aspose.slides.effects/duotone/
 ---
 ## Duotone 类
 
-表示 Duotone 效果。对于每个像素，通过线性插值将 Color1 和 Color2 组合，以确定该像素的新颜色。
+表示双音调效果。对于每个像素，通过线性插值组合 Color1 和 Color2，以确定该像素的新颜色。
 
 ```csharp
 public sealed class Duotone : ImageTransformOperation, IDuotone
@@ -16,21 +16,21 @@ public sealed class Duotone : ImageTransformOperation, IDuotone
 
 ## 属性
 
-| Name | Description |
+| 名称 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基 IPresentationComponent 接口。只读 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基础 IPresentationComponent 接口。只读 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
 | [Color1](../../aspose.slides.effects/duotone/color1) { get; } | 返回暗像素的目标颜色格式。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
 | [Color2](../../aspose.slides.effects/duotone/color2) { get; } | 返回亮像素的目标颜色格式。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
 
 ## 方法
 
-| Name | Description |
+| 名称 | 描述 |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/duotone/equals)(object) | 确定指定的 [`Duotone`](../duotone) 是否等于当前的 [`Duotone`](../duotone)。 |
-| [GetEffective](../../aspose.slides.effects/duotone/geteffective)() | 获取应用继承后的有效 Duetone 效果数据。 |
-| override [GetHashCode](../../aspose.slides.effects/duotone/gethashcode)() | 作为特定类型的哈希函数。 |
+| [GetEffective](../../aspose.slides.effects/duotone/geteffective)() | 获取应用继承后的有效 Duotone 效果数据。 |
+| override [GetHashCode](../../aspose.slides.effects/duotone/gethashcode)() | 充当特定类型的哈希函数。 |
 
-### 另见
+### 另请参见
 
 * 类 [ImageTransformOperation](../imagetransformoperation)
 * 接口 [IDuotone](../iduotone)

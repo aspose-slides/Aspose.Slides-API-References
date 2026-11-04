@@ -1,14 +1,14 @@
 ---
 title: PictureFillMode
-second_title: Aspose.Sildes for .NET API 参考
-description: 确定图像填充区域的方式。
+second_title: Aspose.Sildes .NET API 参考
+description: 确定图片如何填充区域。
 type: docs
-weight: 9400
+weight: 9420
 url: /zh/aspose.slides/picturefillmode/
 ---
 ## PictureFillMode 枚举
 
-确定图像填充区域的方式。
+确定图片如何填充区域。
 
 ```csharp
 public enum PictureFillMode
@@ -21,7 +21,7 @@ public enum PictureFillMode
 | Tile | `0` |  |
 | Stretch | `1` |  |
 
-### 另请参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

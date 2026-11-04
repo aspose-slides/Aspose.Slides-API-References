@@ -3,7 +3,7 @@ title: ReplaceText
 second_title: Aspose.Sildes för .NET API-referens
 description: Ersätter alla förekomster av den angivna texten med en annan angiven text.
 type: docs
-weight: 120
+weight: 130
 url: /sv/aspose.slides/itextframe/replacetext/
 ---
 ## ITextFrame.ReplaceText metod
@@ -19,12 +19,12 @@ public void ReplaceText(string oldText, string newText, ITextSearchOptions optio
 | --- | --- | --- |
 | oldText | String | Strängen som ska ersättas. |
 | newText | String | Strängen för att ersätta alla förekomster av oldText. |
-| options | ITextSearchOptions | Textsearchalternativ [`ITextSearchOptions`](../../itextsearchoptions). |
+| options | ITextSearchOptions | Text sökalternativ [`ITextSearchOptions`](../../itextsearchoptions). |
 | callback | IFindResultCallback | Callback-objektet för att ta emot sökresultat [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Exempel
 
-Följande exempelprogram visar hur man ersätter en angiven sträng med en annan angiven sträng.
+Följande exempelprogram visar hur man ersätter en specificerad sträng med en annan specificerad sträng.
 
 ```csharp
 [C#]

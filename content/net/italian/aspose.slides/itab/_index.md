@@ -1,12 +1,12 @@
 ---
 title: ITab
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per il riferimento API .NET
 description: Rappresenta una tabulazione per un testo.
 type: docs
-weight: 7190
+weight: 7210
 url: /it/aspose.slides/itab/
 ---
-## interfaccia ITab
+## Interfaccia ITab
 
 Rappresenta una tabulazione per un testo.
 
@@ -18,9 +18,9 @@ public interface ITab : IComparable
 
 | Nome | Descrizione |
 | --- | --- |
-| [Alignment](../../aspose.slides/itab/alignment) { get; set; } | Restituisce o imposta lo stile di allineamento di una tabulazione. Lettura/Scrittura [`TabAlignment`](../tabalignment). |
+| [Alignment](../../aspose.slides/itab/alignment) { get; set; } | Restituisce o imposta lo stile di allineamento di una tabulazione. Lettura/scrittura [`TabAlignment`](../tabalignment). |
 | [AsIComparable](../../aspose.slides/itab/asicomparable) { get; } | Restituisce l'interfaccia IComparable. Solo lettura IComparable. |
-| [Position](../../aspose.slides/itab/position) { get; set; } | Restituisce o imposta la posizione di una tabulazione. Assegnare questa proprietà può modificare l'indice della tabulazione nella collezione e invalidare l'Enumerator. Lettura/Scrittura Double. |
+| [Position](../../aspose.slides/itab/position) { get; set; } | Restituisce o imposta la posizione di una tabulazione. Assegnare questa proprietà può cambiare l'indice della tabulazione nella collezione e invalidare l'Enumerator. Lettura/scrittura Double. |
 
 ### Vedi anche
 

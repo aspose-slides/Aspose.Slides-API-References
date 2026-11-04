@@ -1,14 +1,14 @@
 ---
 title: ChartDataWorksheetCollection
-second_title: Referencia de la API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa la colección de hojas de cálculo del libro de datos del gráfico.
 type: docs
-weight: 1400
+weight: 1410
 url: /es/aspose.slides.charts/chartdataworksheetcollection/
 ---
 ## ChartDataWorksheetCollection clase
 
-Representa la colección de hojas de cálculo del libro de datos del gráfico.
+Representa la colección de hojas de cálculo del libro de datos de gráfico.
 
 ```csharp
 public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
@@ -19,7 +19,7 @@ public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
 | Nombre | Descripción |
 | --- | --- |
 | [Count](../../aspose.slides.charts/chartdataworksheetcollection/count) { get; } | Devuelve el recuento. Solo lectura Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (seguro para subprocesos). Solo lectura Boolean. |
+| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (thread-safe). Solo lectura Boolean. |
 | [Item](../../aspose.slides.charts/chartdataworksheetcollection/item) { get; } | Devuelve la hoja de cálculo por índice. |
 | [SyncRoot](../../aspose.slides.charts/chartdataworksheetcollection/syncroot) { get; } | Devuelve una raíz de sincronización. Solo lectura Object. |
 

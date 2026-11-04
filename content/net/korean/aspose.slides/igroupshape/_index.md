@@ -1,14 +1,14 @@
 ---
 title: IGroupShape
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 슬라이드에 있는 도형 그룹을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 슬라이드의 모양 그룹을 나타냅니다.
 type: docs
-weight: 6080
+weight: 6100
 url: /ko/aspose.slides/igroupshape/
 ---
 ## IGroupShape 인터페이스
 
-슬라이드의 도형 그룹을 나타냅니다.
+슬라이드의 모양 그룹을 나타냅니다.
 
 ```csharp
 public interface IGroupShape : IShape
@@ -19,11 +19,11 @@ public interface IGroupShape : IShape
 | 이름 | 설명 |
 | --- | --- |
 | [AsIShape](../../aspose.slides/igroupshape/asishape) { get; } | 기본 IShape 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IShape`](../ishape). |
-| [GroupShapeLock](../../aspose.slides/igroupshape/groupshapelock) { get; } | 도형의 잠금을 반환합니다. 읽기 전용 [`IGroupShapeLock`](../igroupshapelock). |
-| [ShapeLock](../../aspose.slides/igroupshape/shapelock) { get; } | 도형의 잠금을 반환합니다. 읽기 전용 [`IGroupShapeLock`](../igroupshapelock). |
-| [Shapes](../../aspose.slides/igroupshape/shapes) { get; } | 그룹 내부의 도형 컬렉션을 반환합니다. 읽기 전용 [`IShapeCollection`](../ishapecollection). |
+| [GroupShapeLock](../../aspose.slides/igroupshape/groupshapelock) { get; } | 모양의 잠금을 반환합니다. 읽기 전용 [`IGroupShapeLock`](../igroupshapelock). |
+| [ShapeLock](../../aspose.slides/igroupshape/shapelock) { get; } | 모양의 잠금을 반환합니다. 읽기 전용 [`IGroupShapeLock`](../igroupshapelock). |
+| [Shapes](../../aspose.slides/igroupshape/shapes) { get; } | 그룹 내부의 모양 컬렉션을 반환합니다. 읽기 전용 [`IShapeCollection`](../ishapecollection). |
 
-### 참고
+### 관련 항목
 
 * 인터페이스 [IShape](../ishape)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

@@ -1,14 +1,14 @@
 ---
 title: IMathFraction
 second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Spécifie l'objet fraction composé d'un numérateur et d'un dénominateur séparés par une barre de fraction. La barre de fraction peut être horizontale ou diagonale selon les propriétés de la fraction. L'objet fraction est également utilisé pour représenter la fonction pile qui place un élément au-dessus d'un autre sans barre de fraction.
+description: Spécifie l'objet fraction composé d'un numérateur et d'un dénominateur séparés par une barre de fraction. La barre de fraction peut être horizontale ou diagonale selon les propriétés de la fraction. L'objet fraction est également utilisé pour représenter la fonction de pile qui place un élément au-dessus d'un autre sans barre de fraction.
 type: docs
-weight: 8250
+weight: 8270
 url: /fr/aspose.slides.mathtext/imathfraction/
 ---
-## Interface IMathFraction
+## IMathFraction interface
 
-Spécifie l'objet fraction, composé d'un numérateur et d'un dénominateur séparés par une barre de fraction. La barre de fraction peut être horizontale ou diagonale, selon les propriétés de la fraction. L'objet fraction est également utilisé pour représenter la fonction pile, qui place un élément au-dessus d'un autre, sans barre de fraction.
+Spécifie l'objet fraction, composé d'un numérateur et d'un dénominateur séparés par une barre de fraction. La barre de fraction peut être horizontale ou diagonale, selon les propriétés de la fraction. L'objet fraction est également utilisé pour représenter la fonction de pile, qui place un élément au-dessus d'un autre, sans barre de fraction.
 
 ```csharp
 public interface IMathFraction : IMathElement

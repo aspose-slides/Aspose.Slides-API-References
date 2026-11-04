@@ -1,14 +1,14 @@
 ---
 title: IDigitalSignatureCollection
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงถึงคอลเลกชันของลายเซ็นดิจิทัลที่แนบกับเอกสาร
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: แสดงถึงคอลเลกชันของลายเซ็นดิจิทัลที่แนบมาพร้อมกับเอกสาร.
 type: docs
-weight: 5700
+weight: 5720
 url: /th/aspose.slides/idigitalsignaturecollection/
 ---
 ## IDigitalSignatureCollection อินเทอร์เฟซ
 
-แสดงถึงคอลเลกชันของลายเซ็นดิจิทัลที่แนบไปกับเอกสาร
+แสดงถึงคอลเลกชันของลายเซ็นดิจิทัลที่แนบมาพร้อมกับเอกสาร
 
 ```csharp
 public interface IDigitalSignatureCollection : IGenericCollection<IDigitalSignature>
@@ -16,17 +16,17 @@ public interface IDigitalSignatureCollection : IGenericCollection<IDigitalSignat
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [Item](../../aspose.slides/idigitalsignaturecollection/item) { get; } | คืนลายเซ็นตามดัชนี |
+| [Item](../../aspose.slides/idigitalsignaturecollection/item) { get; } | ส่งคืนลายเซ็นตามดัชนี. |
 
 ## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/idigitalsignaturecollection/add)(IDigitalSignature) | เพิ่มลายเซ็นที่ส่วนท้ายของคอลเลกชัน |
-| [Clear](../../aspose.slides/idigitalsignaturecollection/clear)() | ลบลายเซ็นทั้งหมดจากคอลเลกชัน |
-| [RemoveAt](../../aspose.slides/idigitalsignaturecollection/removeat)(int) | ลบลายเซ็นที่ตำแหน่งดัชนีที่ระบุ |
+| [Add](../../aspose.slides/idigitalsignaturecollection/add)(IDigitalSignature) | เพิ่มลายเซ็นที่ส่วนท้ายของคอลเลกชัน. |
+| [Clear](../../aspose.slides/idigitalsignaturecollection/clear)() | ลบลายเซ็นทั้งหมดจากคอลเลกชัน. |
+| [RemoveAt](../../aspose.slides/idigitalsignaturecollection/removeat)(int) | ลบลายเซ็นที่ตำแหน่งดัชนีที่ระบุ. |
 
 ### ดูเพิ่มเติม
 

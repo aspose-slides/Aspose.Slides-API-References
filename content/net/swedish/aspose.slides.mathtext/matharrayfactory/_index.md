@@ -3,7 +3,7 @@ title: MathArrayFactory
 second_title: Aspose.Sildes för .NET API-referens
 description: Tillåter att skapa en matematisk array
 type: docs
-weight: 8560
+weight: 8580
 url: /sv/aspose.slides.mathtext/matharrayfactory/
 ---
 ## MathArrayFactory klass

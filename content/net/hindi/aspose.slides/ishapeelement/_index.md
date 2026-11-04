@@ -1,14 +1,14 @@
 ---
 title: IShapeElement
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक ही रूपरेखा और भराव गुणों वाली आकृति के भाग का प्रतिनिधित्व करता है।
+description: एक ही रूपरेखा और भराव गुणों के साथ आकार का एक भाग दर्शाता है।
 type: docs
-weight: 6990
+weight: 7010
 url: /hi/aspose.slides/ishapeelement/
 ---
 ## IShapeElement इंटरफ़ेस
 
-एक ही रूपरेखा और भराव गुणों वाली आकृति के भाग का प्रतिनिधित्व करता है।
+एक ही रूपरेखा और भराव गुणों के साथ आकार का एक भाग दर्शाता है।
 
 ```csharp
 public interface IShapeElement

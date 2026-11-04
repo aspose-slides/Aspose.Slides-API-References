@@ -1,12 +1,12 @@
 ---
 title: IGrayScale
-second_title: Referencia de la API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa la interfaz IImageTransformOperation.
 type: docs
-weight: 3340
+weight: 3360
 url: /es/aspose.slides.effects/igrayscale/
 ---
-## IGrayScale interfaz
+## Interfaz IGrayScale
 
 Representa la interfaz IImageTransformOperation.
 

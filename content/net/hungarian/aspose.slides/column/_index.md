@@ -1,14 +1,14 @@
 ---
 title: Column
-second_title: Aspose.Sildes a .NET API Referenciához
-description: Egy táblázatban található oszlopot képvisel.
+second_title: Aspose.Sildes .NET API referencia
+description: Egy táblázat oszlopát reprezentál.
 type: docs
-weight: 2590
+weight: 2610
 url: /hu/aspose.slides/column/
 ---
-## Column osztály
+## Oszlop osztály
 
-Egy oszlopot képvisel egy táblázatban.
+Az oszlopot reprezentálja egy táblázatban.
 
 ```csharp
 public sealed class Column : CellCollection, IColumn
@@ -18,24 +18,24 @@ public sealed class Column : CellCollection, IColumn
 
 | Név | Leírás |
 | --- | --- |
-| [ColumnFormat](../../aspose.slides/column/columnformat) { get; } | Visszaadja a ColumnFormat objektumot, amely formázási tulajdonságokat tartalmaz ehhez az oszlophoz. Csak olvasható [`IColumnFormat`](../icolumnformat). |
-| [Count](../../aspose.slides/cellcollection/count) { get; } | Visszaadja a cellák számát egy gyűjteményben. Csak olvasható Int32. |
+| [ColumnFormat](../../aspose.slides/column/columnformat) { get; } | Visszaadja a ColumnFormat objektumot, amely a formázási tulajdonságokat tartalmazza ehhez az oszlophoz. Csak olvasható [`IColumnFormat`](../icolumnformat). |
+| [Count](../../aspose.slides/cellcollection/count) { get; } | Visszaadja a gyűjteményben lévő cellák számát. Csak olvasható Int32. |
 | [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált (szálbiztos). Csak olvasható Boolean. |
 | [Item](../../aspose.slides/cellcollection/item) { get; } | Visszaad egy cellát a pozíciója alapján. Csak olvasható [`Cell`](../cell). |
 | [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Visszaadja a CellCollection szülő prezentációját. Csak olvasható [`IPresentation`](../ipresentation). |
 | [Slide](../../aspose.slides/cellcollection/slide) { get; } | Visszaadja a CellCollection szülő diáját. Csak olvasható [`IBaseSlide`](../ibaseslide). |
-| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökeret. Csak olvasható Object. |
+| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökérobjektumot. Csak olvasható Object. |
 | [Width](../../aspose.slides/column/width) { get; set; } | Visszaadja vagy beállítja egy oszlop szélességét. Olvasás/írás Double. |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Másolja az összes elemet a gyűjteményből a megadott tömbbe. |
+| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Átmásolja a gyűjtemény összes elemét a megadott tömbbe. |
 | [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |
-| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat)(IParagraphFormat) | Beállítja a megadott bekezdésformátum tulajdonságokat az összes oszlopcella bekezdéseire. |
-| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_1)(IPortionFormat) | Beállítja a megadott részformátum tulajdonságokat az összes oszlopcella részeire. |
-| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_2)(ITextFrameFormat) | Beállítja a megadott szövegkeret-formátum tulajdonságokat az összes oszlopcella szövegkereteire. |
+| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat)(IParagraphFormat) | Beállítja a meghatározott bekezdésformátum tulajdonságait az összes oszlopcellában lévő bekezdésre. |
+| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_1)(IPortionFormat) | Beállítja a meghatározott részformátum tulajdonságait az összes oszlopcellában lévő részekre. |
+| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_2)(ITextFrameFormat) | Beállítja a meghatározott szövegkeret-formátum tulajdonságait az összes oszlopcellában lévő szövegkeretekre. |
 
 ### Lásd még
 

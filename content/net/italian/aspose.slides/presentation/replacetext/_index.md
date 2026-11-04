@@ -1,9 +1,9 @@
 ---
 title: ReplaceText
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Riferimento API di Aspose.Sildes per .NET
 description: Sostituisce tutte le occorrenze del testo specificato con un altro testo specificato.
 type: docs
-weight: 380
+weight: 390
 url: /it/aspose.slides/presentation/replacetext/
 ---
 ## Presentation.ReplaceText metodo

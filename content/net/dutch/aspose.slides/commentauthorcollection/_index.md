@@ -1,14 +1,14 @@
 ---
 title: CommentAuthorCollection
-second_title: Aspose.Sildes voor .NET API Referentie
-description: Vertegenwoordigt een verzameling commentaurauteurs.
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Stelt een verzameling commentauteurs voor.
 type: docs
-weight: 2640
+weight: 2660
 url: /nl/aspose.slides/commentauthorcollection/
 ---
 ## CommentAuthorCollection klasse
 
-Vertegenwoordigt een verzameling commentaurauteurs.
+Stelt een verzameling commentauteurs voor.
 
 ```csharp
 public sealed class CommentAuthorCollection : DomObject<Presentation>, ICommentAuthorCollection
@@ -18,23 +18,23 @@ public sealed class CommentAuthorCollection : DomObject<Presentation>, ICommentA
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Count](../../aspose.slides/commentauthorcollection/count) { get; } | Haalt het aantal elementen op dat daadwerkelijk in de collectie aanwezig is. Alleen-lezen Int32. |
-| [IsSynchronized](../../aspose.slides/commentauthorcollection/issynchronized) { get; } | Retourneert een waarde die aangeeft of de toegang tot de collectie gesynchroniseerd is (thread-safe). Alleen-lezen Boolean. |
-| [Item](../../aspose.slides/commentauthorcollection/item) { get; } | Haalt het element op op de gespecificeerde index. Alleen-lezen [`ICommentAuthor`](../icommentauthor). |
-| [SyncRoot](../../aspose.slides/commentauthorcollection/syncroot) { get; } | Retourneert een synchronisatiewortel. Alleen-lezen Object. |
+| [Count](../../aspose.slides/commentauthorcollection/count) { get; } | Haalt het aantal elementen op dat daadwerkelijk in de verzameling zit. Alleen-lezen Int32. |
+| [IsSynchronized](../../aspose.slides/commentauthorcollection/issynchronized) { get; } | Retourneert een waarde die aangeeft of de toegang tot de verzameling gesynchroniseerd is (thread-safe). Alleen-lezen Boolean. |
+| [Item](../../aspose.slides/commentauthorcollection/item) { get; } | Haalt het element op op de opgegeven index. Alleen-lezen [`ICommentAuthor`](../icommentauthor). |
+| [SyncRoot](../../aspose.slides/commentauthorcollection/syncroot) { get; } | Retourneert een synchronisatieroot. Alleen-lezen Object. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AddAuthor](../../aspose.slides/commentauthorcollection/addauthor)(string, string) | Voegt een nieuwe auteur toe aan het einde van een collectie. |
-| [Clear](../../aspose.slides/commentauthorcollection/clear)() | Verwijdert alle auteurs uit een collectie. |
-| [CopyTo](../../aspose.slides/commentauthorcollection/copyto)(Array, int) | Kopieert alle elementen van de collectie naar de gespecificeerde array. |
-| [FindByName](../../aspose.slides/commentauthorcollection/findbyname)(string) | Zoekt een auteur in een collectie op naam. |
-| [FindByNameAndInitials](../../aspose.slides/commentauthorcollection/findbynameandinitials)(string, string) | Zoekt een auteur in een collectie op naam en initialen. |
-| [GetEnumerator](../../aspose.slides/commentauthorcollection/getenumerator)() | Retourneert een enumerator die door de collectie itereren. |
-| [Remove](../../aspose.slides/commentauthorcollection/remove)(ICommentAuthor) | Verwijdert de eerste keer dat de gespecificeerde auteur voorkomt in een collectie. |
-| [RemoveAt](../../aspose.slides/commentauthorcollection/removeat)(int) | Verwijdert de auteur op de gespecificeerde index van de collectie. |
+| [AddAuthor](../../aspose.slides/commentauthorcollection/addauthor)(string, string) | Voegt een nieuwe auteur toe aan het einde van een verzameling. |
+| [Clear](../../aspose.slides/commentauthorcollection/clear)() | Verwijdert alle auteurs uit een verzameling. |
+| [CopyTo](../../aspose.slides/commentauthorcollection/copyto)(Array, int) | Kopieert alle elementen van de verzameling naar de opgegeven array. |
+| [FindByName](../../aspose.slides/commentauthorcollection/findbyname)(string) | Zoekt een auteur in een verzameling op naam. |
+| [FindByNameAndInitials](../../aspose.slides/commentauthorcollection/findbynameandinitials)(string, string) | Zoekt een auteur in een verzameling op naam en voorletters. |
+| [GetEnumerator](../../aspose.slides/commentauthorcollection/getenumerator)() | Retourneert een enumerator die door de verzameling itereert. |
+| [Remove](../../aspose.slides/commentauthorcollection/remove)(ICommentAuthor) | Verwijdert de eerste voorkomen van de opgegeven auteur in een verzameling. |
+| [RemoveAt](../../aspose.slides/commentauthorcollection/removeat)(int) | Verwijdert de auteur op de opgegeven index van de verzameling. |
 | [ToArray](../../aspose.slides/commentauthorcollection/toarray)() | Maakt een array met alle auteurs aan en retourneert deze. |
 
 ### Zie ook

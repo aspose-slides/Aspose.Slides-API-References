@@ -3,12 +3,12 @@ title: VbaModuleCollection
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en samling av VBA-projektmoduler.
 type: docs
-weight: 11640
+weight: 11660
 url: /sv/aspose.slides.vba/vbamodulecollection/
 ---
 ## VbaModuleCollection klass
 
-Representerar en samling av VBA-projektmoduler.
+Representerar en samling av moduler i ett VBA-projekt.
 
 ```csharp
 public sealed class VbaModuleCollection : IVbaModuleCollection
@@ -19,8 +19,8 @@ public sealed class VbaModuleCollection : IVbaModuleCollection
 | Namn | Beskrivning |
 | --- | --- |
 | [Count](../../aspose.slides.vba/vbamodulecollection/count) { get; } | Hämtar antalet element som faktiskt finns i samlingen. Skrivskyddad Int32. |
-| [IsSynchronized](../../aspose.slides.vba/vbamodulecollection/issynchronized) { get; } | Returnerar ett värde som indikerar om åtkomst till samlingen är synkroniserad (trådsäker). Skrivskyddad Boolean. |
-| [Item](../../aspose.slides.vba/vbamodulecollection/item) { get; } | Hämtar elementet på det angivna indexet. |
+| [IsSynchronized](../../aspose.slides.vba/vbamodulecollection/issynchronized) { get; } | Returnerar ett värde som indikerar om åtkomsten till samlingen är synkroniserad (trådsäker). Skrivskyddad Boolean. |
+| [Item](../../aspose.slides.vba/vbamodulecollection/item) { get; } | Hämtar elementet på angivet index. |
 | [SyncRoot](../../aspose.slides.vba/vbamodulecollection/syncroot) { get; } | Returnerar ett synkroniseringsrot. Skrivskyddad Object. |
 
 ## Metoder
@@ -32,7 +32,7 @@ public sealed class VbaModuleCollection : IVbaModuleCollection
 | [GetEnumerator](../../aspose.slides.vba/vbamodulecollection/getenumerator)() | Returnerar en enumerator som itererar genom samlingen. |
 | [Remove](../../aspose.slides.vba/vbamodulecollection/remove)(IVbaModule) | Tar bort den första förekomsten av ett specifikt objekt från samlingen. |
 
-### Se också
+### Se även
 
 * gränssnitt [IVbaModuleCollection](../ivbamodulecollection)
 * namnrymd [Aspose.Slides.Vba](../../aspose.slides.vba)

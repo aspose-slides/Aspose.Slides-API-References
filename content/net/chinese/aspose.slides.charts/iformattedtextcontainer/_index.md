@@ -1,9 +1,9 @@
 ---
 title: IFormattedTextContainer
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示图表文本格式。
 type: docs
-weight: 2110
+weight: 2130
 url: /zh/aspose.slides.charts/iformattedtextcontainer/
 ---
 ## IFormattedTextContainer 接口
@@ -21,7 +21,7 @@ public interface IFormattedTextContainer : IChartComponent
 | [AsIChartComponent](../../aspose.slides.charts/iformattedtextcontainer/asichartcomponent) { get; } | 返回 IChartComponent 接口。只读 [`IChartComponent`](../ichartcomponent)。 |
 | [TextFormat](../../aspose.slides.charts/iformattedtextcontainer/textformat) { get; } | 返回图表文本格式。只读 [`IChartTextFormat`](../icharttextformat)。 |
 
-### 另请参阅
+### 另见
 
 * 接口 [IChartComponent](../ichartcomponent)
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)

@@ -1,29 +1,29 @@
 ---
 title: IHtmlFormattingController
-second_title: Aspose.Sildes .NET API Referansı
-description: HTML dosyası oluşturmayı denetler.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bir html dosyası oluşturulmasını denetler.
 type: docs
-weight: 3950
+weight: 3970
 url: /tr/aspose.slides.export/ihtmlformattingcontroller/
 ---
 ## IHtmlFormattingController arayüz
 
-HTML dosyası oluşturmayı denetler.
+Bir html dosyası oluşturulmasını denetler.
 
 ```csharp
 public interface IHtmlFormattingController
 ```
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [WriteDocumentEnd](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | HTML belge altbilgisini yazmak için çağrılır. Sunum dönüşümü başına bir kez çağrılır. |
-| [WriteDocumentStart](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | HTML belge üstbilgisini yazmak için çağrılır. Sunum dönüşümü başına bir kez çağrılır. |
-| [WriteShapeEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeshapeend)(IHtmlGenerator, IShape) | Şeklin işlenmesinden önce çağrılır. Her şekil için bir kez çağrılır. Bu fonksiyon oluşturucuya bir şey yazar ise, geçerli slayt görüntüsü oluşturma tamamlanacak, eklenen HTML parçacığı eklenecek ve yeni görüntü öncekinin üzerine başlatılacaktır. |
-| [WriteShapeStart](../../aspose.slides.export/ihtmlformattingcontroller/writeshapestart)(IHtmlGenerator, IShape) | Şeklin işlenmesinden önce çağrılır. Her şekil için bir kez çağrılır. Bu fonksiyon oluşturucuya bir şey yazar ise, geçerli slayt görüntüsü oluşturma tamamlanacak, eklenen HTML parçacığı eklenecek ve yeni görüntü öncekinin üzerine başlatılacaktır. |
-| [WriteSlideEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeslideend)(IHtmlGenerator, ISlide) | HTML slayt altbilgisini yazmak için çağrılır. Her slayt için bir kez çağrılır. |
-| [WriteSlideStart](../../aspose.slides.export/ihtmlformattingcontroller/writeslidestart)(IHtmlGenerator, ISlide) | HTML slayt üstbilgisini yazmak için çağrılır. Her slayt için bir kez çağrılır. |
+| [WriteDocumentEnd](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | Html belge altbilgisini yazmak için çağrılır. Sunum dönüşümü başına bir kez çağrılır. |
+| [WriteDocumentStart](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | Html belge başlığını yazmak için çağrılır. Sunum dönüşümü başına bir kez çağrılır. |
+| [WriteShapeEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeshapeend)(IHtmlGenerator, IShape) | Şeklin render edilmesinden önce çağrılır. Her bir şekil için bir kez çağrılır. Bu işlev jeneratöre bir şey yazar ise, geçerli slayt görüntüsü oluşturulması tamamlanacak, eklenen html parçacığı eklenecek ve yeni görüntü öncekinin üzerine başlatılacaktır. |
+| [WriteShapeStart](../../aspose.slides.export/ihtmlformattingcontroller/writeshapestart)(IHtmlGenerator, IShape) | Şeklin render edilmesinden önce çağrılır. Her bir şekil için bir kez çağrılır. Bu işlev jeneratöre bir şey yazar ise, geçerli slayt görüntüsü oluşturulması tamamlanacak, eklenen html parçacığı eklenecek ve yeni görüntü öncekinin üzerine başlatılacaktır. |
+| [WriteSlideEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeslideend)(IHtmlGenerator, ISlide) | Html slayt altbilgisini yazmak için çağrılır. Her slayt için bir kez çağrılır. |
+| [WriteSlideStart](../../aspose.slides.export/ihtmlformattingcontroller/writeslidestart)(IHtmlGenerator, ISlide) | Html slayt başlığını yazmak için çağrılır. Her slayt için bir kez çağrılır. |
 
 ### Ayrıca Bakınız
 

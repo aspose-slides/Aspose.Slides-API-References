@@ -1,14 +1,14 @@
 ---
 title: TimeUnitType
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili satuan dasar untuk sumbu kategori
+second_title: Referensi API .NET Aspose.Sildes
+description: Mewakili unit dasar untuk sumbu kategori
 type: docs
-weight: 2460
+weight: 2480
 url: /id/aspose.slides.charts/timeunittype/
 ---
 ## TimeUnitType enumerasi
 
-Mewakili satuan dasar untuk sumbu kategori
+Mewakili unit dasar untuk sumbu kategori
 
 ```csharp
 public enum TimeUnitType

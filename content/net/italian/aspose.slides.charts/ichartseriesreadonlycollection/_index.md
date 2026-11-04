@@ -1,14 +1,14 @@
 ---
 title: IChartSeriesReadonlyCollection
-second_title: Riferimento API di Aspose.Sildes per .NET
-description: Rappresenta una raccolta di sola lettura di IChartSeries./ichartseries
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Rappresenta una collezione di sola lettura di IChartSeries./ichartseries
 type: docs
-weight: 1970
+weight: 1990
 url: /it/aspose.slides.charts/ichartseriesreadonlycollection/
 ---
 ## IChartSeriesReadonlyCollection interfaccia
 
-Rappresenta una raccolta di sola lettura di [`IChartSeries`](../ichartseries)
+Rappresenta una collezione di sola lettura di [`IChartSeries`](../ichartseries)
 
 ```csharp
 public interface IChartSeriesReadonlyCollection : IGenericCollection<IChartSeries>

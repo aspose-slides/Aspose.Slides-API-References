@@ -1,9 +1,9 @@
 ---
 title: MathMatrixFactory
-second_title: Aspose.Sildes pro .NET referenční příručka API
+second_title: Aspose.Sildes pro .NET API referenci
 description: Umožňuje vytvořit matematickou matici
 type: docs
-weight: 8860
+weight: 8880
 url: /cs/aspose.slides.mathtext/mathmatrixfactory/
 ---
 ## MathMatrixFactory třída

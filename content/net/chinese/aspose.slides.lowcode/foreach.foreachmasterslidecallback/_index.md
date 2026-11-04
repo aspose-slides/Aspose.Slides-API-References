@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachMasterSlideCallback
 second_title: Aspose.Sildes .NET API 参考
-description: 在 Presentation../aspose.slides/presentation 中对每个 MasterSlide./foreach/masterslide 调用的回调。
+description: 回调将在 Presentation 中为每个 MasterSlide./foreach/masterslide 调用 ../aspose.slides/presentation.
 type: docs
-weight: 7920
+weight: 7940
 url: /zh/aspose.slides.lowcode/foreach.foreachmasterslidecallback/
 ---
 ## ForEach.ForEachMasterSlideCallback 委托
 
-将在 [`Presentation`](../../aspose.slides/presentation) 中对每个 [`MasterSlide`](../foreach/masterslide) 调用的回调。
+将在 [`Presentation`](../../aspose.slides/presentation) 中为每个 [`MasterSlide`](../foreach/masterslide) 调用的回调。
 
 ```csharp
 public delegate void ForEachMasterSlideCallback(MasterSlide masterSlide, int index);
@@ -19,7 +19,7 @@ public delegate void ForEachMasterSlideCallback(MasterSlide masterSlide, int ind
 | masterSlide | MasterSlide | 当前迭代的母版幻灯片 |
 | index | Int32 | 当前母版幻灯片的索引 |
 
-### 另见
+### 参见
 
 * 类 [MasterSlide](../../aspose.slides/masterslide)
 * 类 [ForEach](../foreach)

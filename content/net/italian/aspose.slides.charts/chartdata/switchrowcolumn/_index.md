@@ -1,14 +1,14 @@
 ---
 title: SwitchRowColumn
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Scambia i dati sull'asse. I dati tracciati sull'asse X verranno spostati sull'asse Y e viceversa.
+description: Scambia i dati lungo l'asse. I dati visualizzati sull'asse X verranno spostati sull'asse Y e viceversa.
 type: docs
-weight: 140
+weight: 150
 url: /it/aspose.slides.charts/chartdata/switchrowcolumn/
 ---
 ## ChartData.SwitchRowColumn metodo
 
-Scambia i dati sull’asse. I dati tracciati sull’asse X verranno spostati sull’asse Y e viceversa.
+Scambia i dati lungo l'asse. I dati visualizzati sull'asse X verranno spostati sull'asse Y e viceversa.
 
 ```csharp
 public void SwitchRowColumn()

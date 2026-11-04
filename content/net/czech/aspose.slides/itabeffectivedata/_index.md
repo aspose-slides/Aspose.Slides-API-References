@@ -1,14 +1,14 @@
 ---
 title: ITabEffectiveData
 second_title: Aspose.Sildes pro .NET API Reference
-description: Neměnný objekt, který obsahuje vlastnosti tabulačních zarážek efektivního textu.
+description: Neměnný objekt, který obsahuje vlastnosti tabulátorů efektivních textů.
 type: docs
-weight: 7210
+weight: 7230
 url: /cs/aspose.slides/itabeffectivedata/
 ---
 ## ITabEffectiveData rozhraní
 
-Neměnný objekt, který obsahuje vlastnosti tabulačních zarážek efektivního textu.
+Neměnný objekt, který obsahuje vlastnosti tabulátorů efektivního textu.
 
 ```csharp
 public interface ITabEffectiveData : IComparable
@@ -20,11 +20,11 @@ public interface ITabEffectiveData : IComparable
 | --- | --- |
 | [Alignment](../../aspose.slides/itabeffectivedata/alignment) { get; } | Vrací styl zarovnání tabulátoru. Pouze pro čtení [`TabAlignment`](../tabalignment). |
 | [AsIComparable](../../aspose.slides/itabeffectivedata/asicomparable) { get; } | Vrací rozhraní IComparable. Pouze pro čtení IComparable. |
-| [Position](../../aspose.slides/itabeffectivedata/position) { get; } | Vrací pozici tabulátoru. Přiřazením této vlastnosti může dojít ke změně indexu tabulátoru ve sbírce a neplatnosti Enumerator. Pouze pro čtení Double. |
+| [Position](../../aspose.slides/itabeffectivedata/position) { get; } | Vrací pozici tabulátoru. Přiřazením této vlastnosti lze změnit index tabulátoru ve sbírce a neplatnost Enumeratoru. Pouze pro čtení Double. |
 
 ### Poznámky
 
-Toto rozhraní se používá jako součást [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata).
+Toto rozhraní je použito jako součást [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata).
 
 ### Viz také
 

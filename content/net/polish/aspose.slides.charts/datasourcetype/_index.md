@@ -1,14 +1,14 @@
 ---
 title: DataSourceType
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET API Reference
 description: Typy źródeł danych.
 type: docs
-weight: 1580
+weight: 1590
 url: /pl/aspose.slides.charts/datasourcetype/
 ---
-## DataSourceType wyliczenie
+## DataSourceType enumeracja
 
-Rodzaje źródeł danych.
+Typy źródeł danych.
 
 ```csharp
 public enum DataSourceType
@@ -18,7 +18,7 @@ public enum DataSourceType
 
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
-| Worksheet | `0` | Użyj obiektów CellXls do przechowywania XValue, YValue, Value lub BubbleSize punktu danych w Worksheet. |
+| Worksheet | `0` | Użyj obiektów CellXls do przechowywania XValue, YValue, Value lub BubbleSize punktu danych w arkuszu. |
 | StringLiterals | `1` | Użyj zmiennej typu string o szybkim dostępie do przechowywania XValue, YValue, Value lub BubbleSize punktu danych. Worksheet nie jest używany do przechowywania wartości. |
 | DoubleLiterals | `2` | Użyj zmiennej typu double o szybkim dostępie do przechowywania XValue, YValue, Value lub BubbleSize punktu danych. Worksheet nie jest używany do przechowywania wartości. |
 

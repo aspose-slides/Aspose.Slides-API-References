@@ -1,14 +1,14 @@
 ---
 title: IDataLabelCollection
-second_title: Aspose.Sildes for .NET API 參考
-description: 表示系列的標籤。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 表示系列標籤。
 type: docs
-weight: 2030
+weight: 2050
 url: /zh-hant/aspose.slides.charts/idatalabelcollection/
 ---
 ## IDataLabelCollection 介面
 
-表示系列的標籤。
+表示系列標籤。
 
 ```csharp
 public interface IDataLabelCollection : IChartComponent, IEnumerable<IDataLabel>
@@ -16,26 +16,27 @@ public interface IDataLabelCollection : IChartComponent, IEnumerable<IDataLabel>
 
 ## 屬性
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
 | [AsIChartComponent](../../aspose.slides.charts/idatalabelcollection/asichartcomponent) { get; } | 允許取得基礎 IChartComponent 介面。唯讀 [`IChartComponent`](../ichartcomponent)。 |
 | [AsIEnumerable](../../aspose.slides.charts/idatalabelcollection/asienumerable) { get; } | 允許取得基礎 IEnumerable 介面。唯讀 IEnumerable。 |
 | [Count](../../aspose.slides.charts/idatalabelcollection/count) { get; } | 取得集合中所有資料標籤的數量。唯讀 Int32。 |
 | [CountOfVisibleDataLabels](../../aspose.slides.charts/idatalabelcollection/countofvisibledatalabels) { get; } | 取得集合中可見資料標籤的數量。唯讀 Int32。 |
 | [DefaultDataLabelFormat](../../aspose.slides.charts/idatalabelcollection/defaultdatalabelformat) { get; } | 傳回集合中所有資料標籤的預設格式。唯讀 [`IDataLabelFormat`](../idatalabelformat)。 |
-| [IsVisible](../../aspose.slides.charts/idatalabelcollection/isvisible) { get; } | False 表示資料標籤預設為不可見（因此 DefaultDataLabelFormat 屬性的所有 Show* 標誌 (ShowValue, ...) 為 false）。唯讀 Boolean。 |
+| [DefaultLabelShapeType](../../aspose.slides.charts/idatalabelcollection/defaultlabelshapetype) { get; set; } | 取得或設定資料標籤的預設形狀類型。如果未定義形狀，傳回 NotDefined。 |
+| [IsVisible](../../aspose.slides.charts/idatalabelcollection/isvisible) { get; } | False 表示資料標籤預設不可見（因此 DefaultDataLabelFormat 屬性的所有 Show*-旗標 (ShowValue, ...) 均為 false）。唯讀 Boolean。 |
 | [Item](../../aspose.slides.charts/idatalabelcollection/item) { get; } | 取得具有指定索引之資料點的資料標籤。 |
-| [LeaderLinesFormat](../../aspose.slides.charts/idatalabelcollection/leaderlinesformat) { get; } | 表示資料標籤指示線格式。唯讀 [`IChartLinesFormat`](../ichartlinesformat)。 |
+| [LeaderLinesFormat](../../aspose.slides.charts/idatalabelcollection/leaderlinesformat) { get; } | 表示資料標籤領導線格式。唯讀 [`IChartLinesFormat`](../ichartlinesformat)。 |
 | [ParentSeries](../../aspose.slides.charts/idatalabelcollection/parentseries) { get; } | 傳回父圖表系列。唯讀 [`IChartSeries`](../ichartseries)。 |
 
 ## 方法
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
-| [Hide](../../aspose.slides.charts/idatalabelcollection/hide)() | 預設將資料標籤隱藏，方法是將 DefaultDataLabelFormat 屬性的所有 Show* 標誌 (ShowValue, ...) 設為 false。執行後 IsVisible 會是 false。 |
+| [Hide](../../aspose.slides.charts/idatalabelcollection/hide)() | 將資料標籤預設設為隱藏，方法是將 DefaultDataLabelFormat 屬性的所有 Show*-旗標 (ShowValue, ...) 設為 false。執行後 IsVisible 將為 false。 |
 | [IndexOf](../../aspose.slides.charts/idatalabelcollection/indexof)(IDataLabel) | 傳回集合中指定 DataLabel 的索引。 |
 
-### 另請參閱
+### 另見
 
 * 介面 [IChartComponent](../ichartcomponent)
 * 介面 [IDataLabel](../idatalabel)

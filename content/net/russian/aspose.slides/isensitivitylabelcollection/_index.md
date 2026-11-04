@@ -1,14 +1,14 @@
 ---
 title: ISensitivityLabelCollection
-second_title: Aspose.Sildes для .NET — справочник API
-description: Представляет собой коллекцию меток чувствительности, применённых к документу.
+second_title: Aspose.Sildes для .NET справки API
+description: Представляет коллекцию меток чувствительности, применяемых к документу.
 type: docs
-weight: 6940
+weight: 6960
 url: /ru/aspose.slides/isensitivitylabelcollection/
 ---
 ## ISensitivityLabelCollection интерфейс
 
-Представляет собой коллекцию меток чувствительности, применённых к документу.
+Представляет коллекцию меток чувствительности, применяемых к документу.
 
 ```csharp
 public interface ISensitivityLabelCollection : IEnumerable<ISensitivityLabel>
@@ -16,14 +16,14 @@ public interface ISensitivityLabelCollection : IEnumerable<ISensitivityLabel>
 
 ## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/isensitivitylabelcollection/count) { get; } | Получает количество всех элементов в коллекции. Только для чтения Int32. |
+| [Count](../../aspose.slides/isensitivitylabelcollection/count) { get; } | Возвращает количество всех элементов в коллекции. Только для чтения Int32. |
 | [Item](../../aspose.slides/isensitivitylabelcollection/item) { get; } | Возвращает метку чувствительности по индексу. Только для чтения [`ISensitivityLabel`](../isensitivitylabel). |
 
 ## Методы
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | [Add](../../aspose.slides/isensitivitylabelcollection/add#add_1)(ISensitivityLabel) | Добавляет SensitivityLabel в коллекцию. |
 | [Add](../../aspose.slides/isensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | Добавляет метку чувствительности в конец коллекции. |

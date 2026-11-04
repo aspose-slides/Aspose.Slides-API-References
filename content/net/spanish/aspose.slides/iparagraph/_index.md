@@ -1,14 +1,14 @@
 ---
 title: IParagraph
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa un párrafo de texto.
+description: Representa un párrafo de un texto.
 type: docs
-weight: 6560
+weight: 6580
 url: /es/aspose.slides/iparagraph/
 ---
-## IParagraph interfaz
+## IParagraph interface
 
-Representa un párrafo de texto.
+Representa un párrafo de un texto.
 
 ```csharp
 public interface IParagraph : ISlideComponent
@@ -16,21 +16,23 @@ public interface IParagraph : ISlideComponent
 
 ## Propiedades
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | [AsISlideComponent](../../aspose.slides/iparagraph/asislidecomponent) { get; } | Permite obtener la interfaz base ISlideComponent. Solo lectura [`ISlideComponent`](../islidecomponent). |
-| [EndParagraphPortionFormat](../../aspose.slides/iparagraph/endparagraphportionformat) { get; set; } | Especifica las propiedades de porción que se usarán si se inserta otra porción después de la última. |
+| [EndParagraphPortionFormat](../../aspose.slides/iparagraph/endparagraphportionformat) { get; set; } | Especifica las propiedades de la porción que se deben usar si se inserta otra porción después de la última. |
 | [ParagraphFormat](../../aspose.slides/iparagraph/paragraphformat) { get; } | Devuelve el objeto de formato para este párrafo. Solo lectura [`IParagraphFormat`](../iparagraphformat). |
 | [Portions](../../aspose.slides/iparagraph/portions) { get; } | Devuelve la colección de porciones de texto. Solo lectura [`IPortionCollection`](../iportioncollection). |
 | [Text](../../aspose.slides/iparagraph/text) { get; set; } | Obtiene o establece el texto sin formato de un párrafo. Lectura/escritura String. |
 
 ## Métodos
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
+| [GetImage](../../aspose.slides/iparagraph/getimage#getimage)() | Devuelve una imagen del párrafo. |
+| [GetImage](../../aspose.slides/iparagraph/getimage#getimage_1)(float, float) | Devuelve una imagen del párrafo con la escala especificada. |
 | [GetLinesCount](../../aspose.slides/iparagraph/getlinescount)() | Obtiene el número de líneas en un párrafo. |
 | [GetRect](../../aspose.slides/iparagraph/getrect)() | Obtiene las coordenadas del rectángulo que delimita el párrafo. El rectángulo incluye todas las líneas de texto del párrafo, incluidas las vacías. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/iparagraph/joinportionswithsameformatting)() | Une secuencias con el mismo formato. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/iparagraph/joinportionswithsameformatting)() | Une ejecuciones con el mismo formato. |
 
 ### Ver también
 

@@ -1,14 +1,14 @@
 ---
 title: IAlphaInverse
-second_title: Aspose.Sildes .NET API Referansı
-description: Alpha Ters etkisini temsil eder. Alpha opaklık değerleri %100'den çıkarılarak ters çevrilir.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Alfa Tersine çevirme etkisini temsil eder. Alfa opaklık değerleri %100'den çıkarılarak tersine çevrilir.
 type: docs
-weight: 3080
+weight: 3100
 url: /tr/aspose.slides.effects/ialphainverse/
 ---
 ## IAlphaInverse arayüz
 
-Alpha Ters etkisini temsil eder. Alpha (opaklık) değerleri %100'den çıkarılarak ters çevrilir.
+Alfa Tersine çevirme etkisini temsil eder. Alfa (opaklık) değerleri %100'den çıkarılarak tersine çevrilir.
 
 ```csharp
 public interface IAlphaInverse : IAccessiblePVIObject<IAlphaInverseEffectiveData>, 
@@ -19,10 +19,10 @@ public interface IAlphaInverse : IAccessiblePVIObject<IAlphaInverseEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphainverse/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arayüzünü almaya izin verir. Yalnızca okuma [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphainverse/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arayüzünü almaya izin verir. Yalnızca okuma [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphainverse/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arabirimine erişim sağlar. Salt okunur [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphainverse/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arabirimine erişim sağlar. Salt okunur [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### Ayrıca Bakınız
+### İlgili
 
 * arayüz [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * arayüz [IAlphaInverseEffectiveData](../ialphainverseeffectivedata)

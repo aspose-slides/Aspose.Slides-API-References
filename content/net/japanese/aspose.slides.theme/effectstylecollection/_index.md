@@ -1,14 +1,14 @@
 ---
 title: EffectStyleCollection
-second_title: Aspose.Sildes の .NET API リファレンス
-description: エフェクトスタイルのコレクションを表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: エフェクト スタイルのコレクションを表します。
 type: docs
-weight: 11090
+weight: 11110
 url: /ja/aspose.slides.theme/effectstylecollection/
 ---
 ## EffectStyleCollection クラス
 
-エフェクトスタイルのコレクションを表します。
+コレクションのエフェクト スタイルを表します。
 
 ```csharp
 public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyleCollection
@@ -18,17 +18,17 @@ public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyl
 
 | 名前 | 説明 |
 | --- | --- |
-| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | コレクション内の要素数を返します。読み取り専用 Int32, 読み取り専用 Int32. |
-| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | コレクションへのアクセスが同期されているか（スレッドセーフ）を示す値を返します。読み取り専用 Boolean. |
-| [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | 指定された位置の要素を返します。読み取り専用 [`EffectStyle`](../effectstyle). |
-| [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | 同期ルートを返します。読み取り専用 Object. |
+| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | コレクション内の要素数を返します。 読み取り専用 Int32, 読み取り専用 Int32。 |
+| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | コレクションへのアクセスが同期化されているかどうかを示す値を返します。 読み取り専用 Boolean。 |
+| [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | 指定された位置の要素を返します。 読み取り専用 [`EffectStyle`](../effectstyle)。 |
+| [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | 同期化ルートを返します。 読み取り専用 Object。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [CopyTo](../../aspose.slides.theme/effectstylecollection/copyto)(Array, int) | コレクション内のすべての要素を指定された配列にコピーします。 |
-| [GetEnumerator](../../aspose.slides.theme/effectstylecollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
+| [CopyTo](../../aspose.slides.theme/effectstylecollection/copyto)(Array, int) | コレクション内のすべての要素を指定された配列へコピーします。 |
+| [GetEnumerator](../../aspose.slides.theme/effectstylecollection/getenumerator)() | コレクションを列挙する列挙子を返します。 |
 
 ### 参照
 

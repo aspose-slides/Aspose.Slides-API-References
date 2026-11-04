@@ -1,12 +1,12 @@
 ---
 title: ITextSearchOptions
-second_title: Aspose.Sildes para .NET Referencia de API
-description: Representa opciones que pueden usarse para buscar texto en una Presentation, Slide o TextFrame.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Representa opciones que pueden usarse para buscar texto en una Presentation Slide o TextFrame.
 type: docs
-weight: 7300
+weight: 7320
 url: /es/aspose.slides/itextsearchoptions/
 ---
-## Interfaz ITextSearchOptions
+## ITextSearchOptions interfaz
 
 Representa opciones que pueden usarse para buscar texto en una Presentation, Slide o TextFrame.
 
@@ -18,8 +18,8 @@ public interface ITextSearchOptions
 
 | Nombre | Descripción |
 | --- | --- |
-| [CaseSensitive](../../aspose.slides/itextsearchoptions/casesensitive) { get; set; } | Establezca true para usar una búsqueda sensible a mayúsculas y minúsculas, false en caso contrario. Lectura/escritura Boolean. |
-| [IncludeNotes](../../aspose.slides/itextsearchoptions/includenotes) { get; set; } | Establezca `true` para incluir el texto contenido en las notas de la diapositiva al realizar búsquedas de texto, sustitución o resaltado. El valor predeterminado es `false`. |
+| [CaseSensitive](../../aspose.slides/itextsearchoptions/casesensitive) { get; set; } | Establezca true para usar búsqueda sensible a mayúsculas y minúsculas, false en caso contrario. Lectura/escritura Boolean. |
+| [IncludeNotes](../../aspose.slides/itextsearchoptions/includenotes) { get; set; } | Establezca `true` para incluir texto contenido en notas de diapositiva al realizar búsquedas de texto, reemplazos o operaciones de resaltado. El valor predeterminado es `false`. |
 | [WholeWordsOnly](../../aspose.slides/itextsearchoptions/wholewordsonly) { get; set; } | Establezca true para coincidir solo palabras completas, false en caso contrario. Lectura/escritura Boolean. |
 
 ### Ver también

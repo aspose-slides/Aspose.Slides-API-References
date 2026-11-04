@@ -1,14 +1,14 @@
 ---
 title: CornerDirectionTransition
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Hiệu ứng chuyển đổi slide theo hướng góc.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Hiệu ứng chuyển tiếp slide theo hướng góc.
 type: docs
-weight: 10010
+weight: 10030
 url: /vi/aspose.slides.slideshow/cornerdirectiontransition/
 ---
-## Lớp CornerDirectionTransition
+## CornerDirectionTransition lớp
 
-Hiệu ứng chuyển đổi slide theo hướng góc.
+Corner direction slide transition effect.
 
 ```csharp
 public class CornerDirectionTransition : TransitionValueBase, ICornerDirectionTransition
@@ -18,14 +18,14 @@ public class CornerDirectionTransition : TransitionValueBase, ICornerDirectionTr
 
 | Tên | Mô tả |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/cornerdirectiontransition/direction) { get; set; } | Hướng chuyển tiếp. Đọc/ghi [`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/cornerdirectiontransition/direction) { get; set; } | Hướng của chuyển tiếp. Đọc/ghi [`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Xác định liệu hai đối tượng TransitionValueBase có bằng nhau hay không. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Đóng vai trò là hàm băm cho một kiểu cụ thể, thích hợp để sử dụng trong các thuật toán băm và cấu trúc dữ liệu như bảng băm. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Xác định xem hai đối tượng TransitionValueBase có bằng nhau hay không. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Đóng vai trò như một hàm băm cho một kiểu cụ thể, phù hợp để sử dụng trong các thuật toán băm và cấu trúc dữ liệu như bảng băm. |
 
 ### Xem thêm
 

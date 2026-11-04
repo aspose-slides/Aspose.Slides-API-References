@@ -1,14 +1,14 @@
 ---
 title: ISketchFormatEffectiveData
-second_title: Aspose.Sildes pro .NET – reference API
-description: Neměnný objekt, který obsahuje efektivní vlastnosti náčrtu čáry.
+second_title: Aspose.Sildes pro .NET referenční příručka API
+description: Neměnný objekt, který obsahuje efektivní vlastnosti čárového skicu.
 type: docs
-weight: 7030
+weight: 7050
 url: /cs/aspose.slides/isketchformateffectivedata/
 ---
 ## ISketchFormatEffectiveData rozhraní
 
-Neměnný objekt, který obsahuje efektivní vlastnosti náčrtu čáry.
+Neměnný objekt, který obsahuje efektivní vlastnosti čárového skicu.
 
 ```csharp
 public interface ISketchFormatEffectiveData
@@ -18,11 +18,11 @@ public interface ISketchFormatEffectiveData
 
 | Název | Popis |
 | --- | --- |
-| [SketchType](../../aspose.slides/isketchformateffectivedata/sketchtype) { get; } | Vrací typ náčrtu. Pouze pro čtení [`LineSketchType`](../linesketchtype). |
+| [SketchType](../../aspose.slides/isketchformateffectivedata/sketchtype) { get; } | Vrací typ skicu. Pouze pro čtení [`LineSketchType`](../linesketchtype). |
 
 ### Poznámky
 
-Toto rozhraní se používá jako součást [`ILineFormatEffectiveData`](../ilineformateffectivedata).
+Toto rozhraní je používáno jako součást [`ILineFormatEffectiveData`](../ilineformateffectivedata).
 
 ### Viz také
 

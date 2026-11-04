@@ -1,20 +1,20 @@
 ---
 title: Format
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: फ़ॉर्मेटिंग गुणों का प्रतिनिधित्व करता है। पढ़ें/लिखें IFormataspose.slides.charts/iformat.
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: फ़ॉर्मेटिंग प्रॉपर्टी को दर्शाता है। पढ़ें/लिखें IFormataspose.slides.charts/iformat.
 type: docs
-weight: 100
+weight: 140
 url: /hi/aspose.slides.charts/chartdatapoint/format/
 ---
 ## ChartDataPoint.Format प्रॉपर्टी
 
-फ़ॉर्मेटिंग गुणों का प्रतिनिधित्व करता है। पढ़ें/लिखें [`IFormat`](../../iformat).
+फ़ॉर्मेटिंग प्रॉपर्टी को दर्शाता है। पढ़ें/लिखें [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; set; }
 ```
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IFormat](../../iformat)
 * क्लास [ChartDataPoint](../../chartdatapoint)

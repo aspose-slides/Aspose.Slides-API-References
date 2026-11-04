@@ -1,24 +1,24 @@
 ---
 title: FormatFactory
 second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Cho phép tạo định dạng thông qua giao diện COM.
+description: Cho phép tạo định dạng qua giao diện COM.
 type: docs
-weight: 4950
+weight: 4970
 url: /vi/aspose.slides/formatfactory/
 ---
-## FormatFactory lớp
+## FormatFactory class
 
-Cho phép tạo định dạng thông qua giao diện COM.
+Cho phép tạo định dạng qua giao diện COM.
 
 ```csharp
 public class FormatFactory : IFormatFactory
 ```
 
-## Hàm tạo
+## Các hàm khởi tạo
 
 | Tên | Mô tả |
 | --- | --- |
-| [FormatFactory](formatfactory)() | Hàm tạo mặc định. |
+| [FormatFactory](formatfactory)() | Hàm khởi tạo mặc định. |
 
 ## Thuộc tính
 

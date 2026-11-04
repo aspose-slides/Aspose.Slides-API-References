@@ -1,29 +1,29 @@
 ---
 title: WarningType
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
+second_title: Aspose.Sildes dla .NET API Reference
 description: Reprezentuje typ ostrzeżenia.
 type: docs
-weight: 11830
+weight: 11850
 url: /pl/aspose.slides.warnings/warningtype/
 ---
 ## WarningType enumeracja
 
-Reprezentuje typ ostrzeżenia.
+Represents a type of warning.
 
 ```csharp
 public enum WarningType
 ```
 
-### Wartości
+### Values
 
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
-| SourceFileCorruption | `0` | Wykryto problem w źródłowym dokumencie, co sprawia, że jest bardzo prawdopodobne, że dokument nie będzie można otworzyć, jeśli zostanie zapisany w jego oryginalnym formacie. |
-| DataLoss | `1` | Tekst, wykres, obraz lub inne dane będą całkowicie brakować zarówno w drzewie dokumentu po załadowaniu, jak i w utworzonym dokumencie po zapisaniu. |
+| SourceFileCorruption | `0` | Wykryto problem w dokumencie źródłowym, co sprawia, że bardzo prawdopodobne jest, że dokument nie będzie można otworzyć, jeśli zostanie zapisany w jego pierwotnym formacie. |
+| DataLoss | `1` | Tekst/wykres/obraz lub inne dane będą całkowicie brakować zarówno w drzewie dokumentu po załadowaniu, jak i w utworzonym dokumencie po zapisaniu. |
 | MajorFormattingLoss | `2` | Znaczna utrata formatowania. |
-| MinorFormattingLoss | `3` | Niewielka utrata formatowania. |
+| MinorFormattingLoss | `3` | Drobna utrata formatowania. |
 | CompatibilityIssue | `4` | Jest to znany problem, który uniemożliwi otwarcie dokumentu przez niektóre przeglądarki lub wcześniejsze wersje przeglądarek. |
-| UnexpectedContent | `99` | Niektóre treści w źródłowym dokumencie nie mogły zostać rozpoznane (tj. nie są obsługiwane); może to powodować problemy lub nie, oraz może skutkować utratą danych lub formatowania. |
+| UnexpectedContent | `99` | Niektóre treści w dokumencie źródłowym nie mogły zostać rozpoznane (tj. są nieobsługiwane), co może, ale nie musi, powodować problemy lub skutkować utratą danych/formatowania. |
 
 ### Zobacz także
 

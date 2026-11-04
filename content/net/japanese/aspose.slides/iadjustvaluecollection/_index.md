@@ -1,14 +1,14 @@
 ---
 title: IAdjustValueCollection
-second_title: Aspose.Sildes の .NET API リファレンス
-description: シェイプの調整コレクションを表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: シェイプの調整のコレクションを表します。
 type: docs
-weight: 5190
+weight: 5210
 url: /ja/aspose.slides/iadjustvaluecollection/
 ---
 ## IAdjustValueCollection インターフェイス
 
-Reprasents a collection of shape's adjustments.
+シェイプの調整のコレクションを表します。
 
 ```csharp
 public interface IAdjustValueCollection : ICollection
@@ -18,9 +18,9 @@ public interface IAdjustValueCollection : ICollection
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsICollection](../../aspose.slides/iadjustvaluecollection/asicollection) { get; } | 基本 ICollection インターフェイスを取得できます。 読み取り専用 ICollection。 |
-| [AsIEnumerable](../../aspose.slides/iadjustvaluecollection/asienumerable) { get; } | IEnumerable インターフェイスを返します。 読み取り専用 IEnumerable。 |
-| [Item](../../aspose.slides/iadjustvaluecollection/item) { get; } | インデックスで調整を返します。 |
+| [AsICollection](../../aspose.slides/iadjustvaluecollection/asicollection) { get; } | ベースのICollectionインターフェイスを取得できます。読み取り専用ICollection。 |
+| [AsIEnumerable](../../aspose.slides/iadjustvaluecollection/asienumerable) { get; } | IEnumerableインターフェイスを返します。読み取り専用IEnumerable。 |
+| [Item](../../aspose.slides/iadjustvaluecollection/item) { get; } | インデックスによる調整を返します。 |
 
 ### 参照
 

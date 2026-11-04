@@ -1,46 +1,46 @@
 ---
 title: OverrideTheme
-second_title: Aspose.Slides for .NET API 레퍼런스
-description: 오버라이드 테마를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 오버라이딩 테마를 나타냅니다.
 type: docs
-weight: 11460
+weight: 11480
 url: /ko/aspose.slides.theme/overridetheme/
 ---
-## OverrideTheme class
+## OverrideTheme 클래스
 
-오버라이드 테마를 나타냅니다.
+오버라이딩 테마를 나타냅니다.
 
 ```csharp
 public sealed class OverrideTheme : Theme, IOverrideTheme
 ```
 
-## Properties
+## 속성
 
 | 이름 | 설명 |
 | --- | --- |
-| override [ColorScheme](../../aspose.slides.theme/overridetheme/colorscheme) { get; } | 컬러 스킴을 반환합니다. 읽기 전용 [`IColorScheme`](../icolorscheme). |
-| override [FontScheme](../../aspose.slides.theme/overridetheme/fontscheme) { get; } | 폰트 스킴을 반환합니다. 읽기 전용 [`IFontScheme`](../ifontscheme). |
-| override [FormatScheme](../../aspose.slides.theme/overridetheme/formatscheme) { get; } | 쉐이프 포맷 스킴을 반환합니다. 읽기 전용 [`IFormatScheme`](../iformatscheme). |
-| [IsEmpty](../../aspose.slides.theme/overridetheme/isempty) { get; } | 값이 true이면 ColorScheme, FontScheme, FormatScheme이 null이며 이 테마 객체에 대한 모든 오버라이딩이 비활성화됨을 의미합니다. 읽기 전용 Boolean. |
-| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | 상위 프레젠테이션을 반환합니다. 읽기 전용 [`IPresentation`](../../aspose.slides/ipresentation). |
+| override [ColorScheme](../../aspose.slides.theme/overridetheme/colorscheme) { get; } | 색 구성표를 반환합니다. 읽기 전용 [`IColorScheme`](../icolorscheme). |
+| override [FontScheme](../../aspose.slides.theme/overridetheme/fontscheme) { get; } | 폰트 구성표를 반환합니다. 읽기 전용 [`IFontScheme`](../ifontscheme). |
+| override [FormatScheme](../../aspose.slides.theme/overridetheme/formatscheme) { get; } | 모양 형식 구성표를 반환합니다. 읽기 전용 [`IFormatScheme`](../iformatscheme). |
+| [IsEmpty](../../aspose.slides.theme/overridetheme/isempty) { get; } | True 값은 ColorScheme, FontScheme, FormatScheme이 null이고 이 테마 개체에 대한 모든 오버라이딩이 비활성화됨을 의미합니다. 읽기 전용 Boolean. |
+| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | 부모 프레젠테이션을 반환합니다. 읽기 전용 [`IPresentation`](../../aspose.slides/ipresentation). |
 
-## Methods
+## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [Clear](../../aspose.slides.theme/overridetheme/clear)() | ColorScheme, FontScheme, FormatScheme을 null로 설정하여 이 테마 객체에 대한 모든 오버라이딩을 비활성화합니다. |
+| [Clear](../../aspose.slides.theme/overridetheme/clear)() | ColorScheme, FontScheme, FormatScheme을 null로 설정하여 이 테마 개체에 대한 모든 오버라이딩을 비활성화합니다. |
 | [GetEffective](../../aspose.slides.theme/theme/geteffective)() | 상속이 적용된 실제 테마 데이터를 가져옵니다. |
-| [InitColorScheme](../../aspose.slides.theme/overridetheme/initcolorscheme)() | InheritedTheme의 ColorScheme을 오버라이드하기 위해 새 객체로 ColorScheme을 초기화합니다. |
-| [InitColorSchemeFrom](../../aspose.slides.theme/overridetheme/initcolorschemefrom)(IColorScheme) | InheritedTheme의 ColorScheme을 오버라이드하기 위해 새 객체로 ColorScheme을 초기화합니다. |
-| [InitColorSchemeFromInherited](../../aspose.slides.theme/overridetheme/initcolorschemefrominherited)() | InheritedTheme의 ColorScheme을 오버라이드하기 위해 새 객체로 ColorScheme을 초기화합니다. 그리고 이 새 객체의 데이터를 InheritedTheme의 ColorScheme 데이터로 초기화합니다. |
-| [InitFontScheme](../../aspose.slides.theme/overridetheme/initfontscheme)() | InheritedTheme의 FontScheme을 오버라이드하기 위해 새 객체로 FontScheme을 초기화합니다. |
-| [InitFontSchemeFrom](../../aspose.slides.theme/overridetheme/initfontschemefrom)(IFontScheme) | InheritedTheme의 FontScheme을 오버라이드하기 위해 새 객체로 FontScheme을 초기화합니다. |
-| [InitFontSchemeFromInherited](../../aspose.slides.theme/overridetheme/initfontschemefrominherited)() | InheritedTheme의 FontScheme을 오버라이드하기 위해 새 객체로 FontScheme을 초기화합니다. 그리고 이 새 객체의 데이터를 InheritedTheme의 FontScheme 데이터로 초기화합니다. |
-| [InitFormatScheme](../../aspose.slides.theme/overridetheme/initformatscheme)() | InheritedTheme의 FormatScheme을 오버라이드하기 위해 새 객체로 FormatScheme을 초기화합니다. |
-| [InitFormatSchemeFrom](../../aspose.slides.theme/overridetheme/initformatschemefrom)(IFormatScheme) | InheritedTheme의 FormatScheme을 오버라이드하기 위해 새 객체로 FormatScheme을 초기화합니다. |
-| [InitFormatSchemeFromInherited](../../aspose.slides.theme/overridetheme/initformatschemefrominherited)() | InheritedTheme의 FormatScheme을 오버라이드하기 위해 새 객체로 FormatScheme을 초기화합니다. 그리고 이 새 객체의 데이터를 InheritedTheme의 FormatScheme 데이터로 초기화합니다. |
+| [InitColorScheme](../../aspose.slides.theme/overridetheme/initcolorscheme)() | InheritedTheme의 ColorScheme을 재정의하기 위해 새 객체로 ColorScheme을 초기화합니다. |
+| [InitColorSchemeFrom](../../aspose.slides.theme/overridetheme/initcolorschemefrom)(IColorScheme) | InheritedTheme의 ColorScheme을 재정의하기 위해 새 객체로 ColorScheme을 초기화합니다. |
+| [InitColorSchemeFromInherited](../../aspose.slides.theme/overridetheme/initcolorschemefrominherited)() | InheritedTheme의 ColorScheme을 재정의하기 위해 새 객체로 ColorScheme을 초기화합니다. 그리고 이 새 객체의 데이터를 InheritedTheme의 ColorScheme 데이터로 초기화합니다. |
+| [InitFontScheme](../../aspose.slides.theme/overridetheme/initfontscheme)() | InheritedTheme의 FontScheme을 재정의하기 위해 새 객체로 FontScheme을 초기화합니다. |
+| [InitFontSchemeFrom](../../aspose.slides.theme/overridetheme/initfontschemefrom)(IFontScheme) | InheritedTheme의 FontScheme을 재정의하기 위해 새 객체로 FontScheme을 초기화합니다. |
+| [InitFontSchemeFromInherited](../../aspose.slides.theme/overridetheme/initfontschemefrominherited)() | InheritedTheme의 FontScheme을 재정의하기 위해 새 객체로 FontScheme을 초기화합니다. 그리고 이 새 객체의 데이터를 InheritedTheme의 FontScheme 데이터로 초기화합니다. |
+| [InitFormatScheme](../../aspose.slides.theme/overridetheme/initformatscheme)() | InheritedTheme의 FormatScheme을 재정의하기 위해 새 객체로 FormatScheme을 초기화합니다. |
+| [InitFormatSchemeFrom](../../aspose.slides.theme/overridetheme/initformatschemefrom)(IFormatScheme) | InheritedTheme의 FormatScheme을 재정의하기 위해 새 객체로 FormatScheme을 초기화합니다. |
+| [InitFormatSchemeFromInherited](../../aspose.slides.theme/overridetheme/initformatschemefrominherited)() | InheritedTheme의 FormatScheme을 재정의하기 위해 새 객체로 FormatScheme을 초기화합니다. 그리고 이 새 객체의 데이터를 InheritedTheme의 FormatScheme 데이터로 초기화합니다. |
 
-### See Also
+### 참고
 
 * 클래스 [Theme](../theme)
 * 인터페이스 [IOverrideTheme](../ioverridetheme)

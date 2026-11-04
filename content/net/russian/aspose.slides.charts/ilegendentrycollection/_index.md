@@ -1,9 +1,9 @@
 ---
 title: ILegendEntryCollection
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для .NET справочника API
 description: Представляет коллекцию легенд.
 type: docs
-weight: 2140
+weight: 2160
 url: /ru/aspose.slides.charts/ilegendentrycollection/
 ---
 ## ILegendEntryCollection интерфейс
@@ -19,7 +19,7 @@ public interface ILegendEntryCollection
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.slides.charts/ilegendentrycollection/count) { get; } | Возвращает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32. |
-| [Item](../../aspose.slides.charts/ilegendentrycollection/item) { get; } | Возвращает свойства записи легенды, соответствующей Chart.ChartData.Series[0].DataPoints[index] в случае типа диаграммы из следующего списка: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; или соответствующей Chart.ChartData.Series[index] для других типов диаграмм. |
+| [Item](../../aspose.slides.charts/ilegendentrycollection/item) { get; } | Получает свойства записи легенды, соответствующей Chart.ChartData.Series[0].DataPoints[index] в случае типа диаграммы из данного списка: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; или соответствующей Chart.ChartData.Series[index] для остальных типов диаграмм. |
 
 ### Смотрите также
 

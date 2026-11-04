@@ -3,7 +3,7 @@ title: PdfImportOptions
 second_title: Aspose.Sildes pro .NET API Reference
 description: Představuje možnosti importu PDF
 type: docs
-weight: 7500
+weight: 7520
 url: /cs/aspose.slides.import/pdfimportoptions/
 ---
 ## PdfImportOptions třída
@@ -24,7 +24,7 @@ public class PdfImportOptions
 
 | Název | Popis |
 | --- | --- |
-| [DetectTables](../../aspose.slides.import/pdfimportoptions/detecttables) { get; set; } | Určuje, zda detekovat tabulky při importu souboru PDF. |
+| [DetectTables](../../aspose.slides.import/pdfimportoptions/detecttables) { get; set; } | Určuje, zda při importu souboru pdf detekovat tabulky. |
 
 ### Viz také
 

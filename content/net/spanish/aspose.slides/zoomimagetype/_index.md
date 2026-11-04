@@ -1,14 +1,14 @@
 ---
 title: ZoomImageType
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Define si el objeto Zoom está usando la vista previa de la diapositiva o una imagen de portada.
+second_title: Referencia de la API de Aspose.Sildes para .NET
+description: Define si el objeto Zoom está utilizando la vista previa de la diapositiva o una imagen de portada.
 type: docs
-weight: 11850
+weight: 11870
 url: /es/aspose.slides/zoomimagetype/
 ---
-## ZoomImageType enumeración
+## Enumeración ZoomImageType
 
-Define si el objeto Zoom está usando la vista previa de la diapositiva o una imagen de portada.
+Define si el objeto Zoom está utilizando la vista previa de la diapositiva o una imagen de portada.
 
 ```csharp
 public enum ZoomImageType
@@ -18,8 +18,8 @@ public enum ZoomImageType
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Preview | `1` | Utiliza la imagen de la diapositiva o sección. |
-| Cover | `2` | Utiliza una imagen personalizada. |
+| Preview | `1` | Usa la imagen de la diapositiva o sección. |
+| Cover | `2` | Usa una imagen personalizada. |
 
 ### Ver también
 

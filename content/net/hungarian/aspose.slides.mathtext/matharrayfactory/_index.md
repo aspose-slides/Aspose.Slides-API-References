@@ -1,9 +1,9 @@
 ---
 title: MathArrayFactory
-second_title: Aspose.Sildes .NET API hivatkozás
+second_title: Aspose.Sildes .NET API-referencia
 description: Lehetővé teszi egy matematikai tömb létrehozását
 type: docs
-weight: 8560
+weight: 8580
 url: /hu/aspose.slides.mathtext/matharrayfactory/
 ---
 ## MathArrayFactory osztály
@@ -24,12 +24,12 @@ public class MathArrayFactory : IMathArrayFactory
 
 | Név | Leírás |
 | --- | --- |
-| [CreateMathArray](../../aspose.slides.mathtext/matharrayfactory/creatematharray#creatematharray)(IMathElement) | Létrehoz egy matematikai tömböt, és elhelyezi a megadott elemet benne |
-| [CreateMathArray](../../aspose.slides.mathtext/matharrayfactory/creatematharray#creatematharray_1)(IMathElementCollection) | Létrehoz egy matematikai tömböt, és elhelyezi a megadott elemeket benne |
+| [CreateMathArray](../../aspose.slides.mathtext/matharrayfactory/creatematharray#creatematharray)(IMathElement) | Létrehoz egy matematikai tömböt, és elhelyezi benne a megadott elemet |
+| [CreateMathArray](../../aspose.slides.mathtext/matharrayfactory/creatematharray#creatematharray_1)(IMathElementCollection) | Létrehoz egy matematikai tömböt, és elhelyezi benne a megadott elemeket |
 
-### Megjegyzés
+### Megjegyzések
 
-COM kompatibilitás miatt
+COM kompatibilitásért
 
 ### Lásd még
 

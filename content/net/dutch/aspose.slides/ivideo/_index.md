@@ -3,12 +3,12 @@ title: IVideo
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt een video voor die in een presentatie is ingesloten.
 type: docs
-weight: 7360
+weight: 7380
 url: /nl/aspose.slides/ivideo/
 ---
 ## IVideo interface
 
-Stelt een video voor die in een presentatie is ingebed.
+Stelt een video voor die in een presentatie is ingesloten.
 
 ```csharp
 public interface IVideo
@@ -18,14 +18,14 @@ public interface IVideo
 
 | Naam | Beschrijving |
 | --- | --- |
-| [BinaryData](../../aspose.slides/ivideo/binarydata) { get; } | Retourneert een kopie van de audio-gegevens. In het geval van een grote hoeveelheid data moet u overwegen [`GetStream`](./getstream) methode te gebruiken om het onnodig laden van video-gegevens in het geheugen of zelfs een OutOfMemoryException te voorkomen. Alleen-lezen Byte[]. |
+| [BinaryData](../../aspose.slides/ivideo/binarydata) { get; } | Retourneert een kopie van de gegevens van een audio. In geval van een grote hoeveelheid gegevens dient de [`GetStream`](./getstream)-methode te worden gebruikt om onnodig laden van videogegevens in het geheugen of zelfs een OutOfMemoryException te voorkomen. Alleen-lezen Byte[]. |
 | [ContentType](../../aspose.slides/ivideo/contenttype) { get; } | Retourneert een MIME-type van een video, gecodeerd in [`BinaryData`](./binarydata). Alleen-lezen String. |
 
-## Methodes
+## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [GetStream](../../aspose.slides/ivideo/getstream)() | Retourneert een Stream-stream voor lezen. Gebruik 'using' of sluit de stream na gebruik. |
+| [GetStream](../../aspose.slides/ivideo/getstream)() | Retourneert een Stream voor lezen. Gebruik 'using' of sluit de stream na gebruik. |
 
 ### Zie ook
 

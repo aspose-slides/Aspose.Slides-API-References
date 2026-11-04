@@ -1,27 +1,27 @@
 ---
 title: IInkTrace
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: Ink ऑब्जेक्ट में हस्तलेख रेखा का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes .NET API संदर्भ के लिए
+description: Ink ऑब्जेक्ट में हस्तलेखीय रेखा का प्रतिनिधित्व करता है।
 type: docs
-weight: 7540
+weight: 7560
 url: /hi/aspose.slides.ink/iinktrace/
 ---
 ## IInkTrace इंटरफ़ेस
 
-Ink ऑब्जेक्ट में हस्तलेख रेखा का प्रतिनिधित्व करता है।
+Ink ऑब्जेक्ट में हस्तलेखीय रेखा को दर्शाता है।
 
 ```csharp
 public interface IInkTrace
 ```
 
-## प्रॉपर्टीज
+## गुणधर्म
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [Brush](../../aspose.slides.ink/iinktrace/brush) { get; } | IInkLine [`IInkBrush`](../iinkbrush) के लिए Brush प्राप्त करता है केवल-पढ़ने योग्य। |
-| [Points](../../aspose.slides.ink/iinktrace/points) { get; } | IInkLine PointF के लिए बिंदु प्राप्त करता है केवल-पढ़ने योग्य। |
+| [Brush](../../aspose.slides.ink/iinktrace/brush) { get; } | IInkLine [`IInkBrush`](../iinkbrush) के लिए Brush प्राप्त करता है, केवल-पढ़ने योग्य। |
+| [Points](../../aspose.slides.ink/iinktrace/points) { get; } | IInkLine PointF के लिए बिंदु प्राप्त करता है, केवल-पढ़ने योग्य। |
 
-### देखें भी
+### संबंधित देखें
 
 * नेमस्पेस [Aspose.Slides.Ink](../../aspose.slides.ink)
 * असेंबली [Aspose.Slides](../../)

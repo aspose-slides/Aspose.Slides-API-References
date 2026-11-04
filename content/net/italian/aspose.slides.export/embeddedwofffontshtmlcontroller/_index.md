@@ -1,14 +1,14 @@
 ---
 title: EmbeddedWoffFontsHtmlController
-second_title: Riferimento API Aspose.Sildes per .NET
-description: La classe di controller di formattazione da utilizzare per l'incorporamento dei caratteri in formato WOFF
+second_title: Aspose.Sildes per .NET Riferimento API
+description: La classe del controller di formattazione da usare per l'inserimento dei font in formato WOFF
 type: docs
-weight: 3790
+weight: 3810
 url: /it/aspose.slides.export/embeddedwofffontshtmlcontroller/
 ---
 ## EmbeddedWoffFontsHtmlController classe
 
-La classe di controller di formattazione da utilizzare per l'incorporamento dei caratteri in formato WOFF
+The formatting controller class to use for fonts embedding in WOFF format
 
 ```csharp
 public class EmbeddedWoffFontsHtmlController : IEmbeddedWoffFontsHtmlController

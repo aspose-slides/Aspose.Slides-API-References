@@ -1,9 +1,9 @@
 ---
 title: IFormatSchemeEffectiveData
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Objek tak dapat diubah yang berisi properti skema format yang efektif.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Objek yang tidak dapat diubah yang berisi properti skema format yang efektif.
 type: docs
-weight: 11280
+weight: 11300
 url: /id/aspose.slides.theme/iformatschemeeffectivedata/
 ---
 ## IFormatSchemeEffectiveData antarmuka
@@ -18,10 +18,10 @@ public interface IFormatSchemeEffectiveData
 
 | Nama | Deskripsi |
 | --- | --- |
-| [GetBackgroundFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles)(Color) | Mengembalikan sekumpulan gaya pengisian latar belakang yang didefinisikan oleh tema. |
-| [GetEffectStyles](../../aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles)(Color) | Mengembalikan sekumpulan gaya efek yang didefinisikan oleh tema. |
-| [GetFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getfillstyles)(Color) | Mengembalikan sekumpulan gaya pengisian yang didefinisikan oleh tema. |
-| [GetLineStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getlinestyles)(Color) | Mengembalikan sekumpulan gaya garis yang didefinisikan oleh tema. |
+| [GetBackgroundFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles)(Color) | Mengembalikan koleksi gaya isian latar belakang yang didefinisikan oleh tema. |
+| [GetEffectStyles](../../aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles)(Color) | Mengembalikan koleksi gaya efek yang didefinisikan oleh tema. |
+| [GetFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getfillstyles)(Color) | Mengembalikan koleksi gaya isian yang didefinisikan oleh tema. |
+| [GetLineStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getlinestyles)(Color) | Mengembalikan koleksi gaya garis yang didefinisikan oleh tema. |
 
 ### Catatan
 

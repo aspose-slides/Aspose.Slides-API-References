@@ -1,9 +1,9 @@
 ---
 title: ICommentAuthor
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет автора комментариев.
 type: docs
-weight: 5570
+weight: 5590
 url: /ru/aspose.slides/icommentauthor/
 ---
 ## ICommentAuthor интерфейс

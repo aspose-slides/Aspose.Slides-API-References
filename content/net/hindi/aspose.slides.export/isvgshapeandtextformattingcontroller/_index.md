@@ -1,14 +1,14 @@
 ---
 title: ISvgShapeAndTextFormattingController
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: SVG आकार और पाठ जनरेशन को नियंत्रित करता है।
+description: SVG आकार और टेक्स्ट निर्माण को नियंत्रित करता है।
 type: docs
-weight: 4120
+weight: 4140
 url: /hi/aspose.slides.export/isvgshapeandtextformattingcontroller/
 ---
 ## ISvgShapeAndTextFormattingController इंटरफ़ेस
 
-SVG आकार और टेक्स्ट जनरेशन को नियंत्रित करता है।
+SVG आकार और टेक्स्ट निर्माण को नियंत्रित करता है।
 
 ```csharp
 public interface ISvgShapeAndTextFormattingController : ISvgShapeFormattingController
@@ -18,13 +18,13 @@ public interface ISvgShapeAndTextFormattingController : ISvgShapeFormattingContr
 
 | नाम | विवरण |
 | --- | --- |
-| [AsISvgShapeFormattingController](../../aspose.slides.export/isvgshapeandtextformattingcontroller/asisvgshapeformattingcontroller) { get; } | ISvgShapeFormattingController इंटरफ़ेस को लौटाता है। |
+| [AsISvgShapeFormattingController](../../aspose.slides.export/isvgshapeandtextformattingcontroller/asisvgshapeformattingcontroller) { get; } | वापसी करता है ISSvgShapeFormattingController इंटरफ़ेस। |
 
-## मेथड्स
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [FormatText](../../aspose.slides.export/isvgshapeandtextformattingcontroller/formattext)(ISvgTSpan, IPortion, ITextFrame) | यह फ़ंक्शन SVG में टेक्स्ट भाग को रेंडर करने से पहले कॉल किया जाता है ताकि उपयोगकर्ता परिणामी SVG को नियंत्रित कर सके। |
+| [FormatText](../../aspose.slides.export/isvgshapeandtextformattingcontroller/formattext)(ISvgTSpan, IPortion, ITextFrame) | यह फ़ंक्शन SVG में टेक्स्ट भाग के रेंडरिंग से पहले कॉल किया जाता है ताकि उपयोगकर्ता परिणामस्वरूप SVG को नियंत्रित कर सके। |
 
 ### उदाहरण
 

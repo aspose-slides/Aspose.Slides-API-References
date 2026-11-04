@@ -1,14 +1,14 @@
 ---
 title: ISingleCellChartValue
-second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een chart-datacel voor.
+second_title: Aspose.Sildes voor .NET API Referentie
+description: Stelt een grafiekdatacel voor.
 type: docs
-weight: 2210
+weight: 2230
 url: /nl/aspose.slides.charts/isinglecellchartvalue/
 ---
 ## ISingleCellChartValue interface
 
-Stelt een chart-datacel voor.
+Stelt een grafiekdatacel voor.
 
 ```csharp
 public interface ISingleCellChartValue : IBaseChartValue
@@ -18,8 +18,8 @@ public interface ISingleCellChartValue : IBaseChartValue
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/isinglecellchartvalue/ascell) { get; set; } | Geeft de chart-datacel terug of stelt deze in. Lezen/Schrijven [`IChartDataCell`](../ichartdatacell). |
-| [AsIBaseChartValue](../../aspose.slides.charts/isinglecellchartvalue/asibasechartvalue) { get; } | Stelt in staat de basis-IBaseChartValue-interface op te halen. Alleen-lezen [`IBaseChartValue`](../ibasechartvalue). |
+| [AsCell](../../aspose.slides.charts/isinglecellchartvalue/ascell) { get; set; } | Retourneert of stelt de grafiekdatacel in. Lezen/Schrijven [`IChartDataCell`](../ichartdatacell). |
+| [AsIBaseChartValue](../../aspose.slides.charts/isinglecellchartvalue/asibasechartvalue) { get; } | Staat toe de basis IBaseChartValue interface op te halen. Alleen-lezen [`IBaseChartValue`](../ibasechartvalue). |
 
 ### Zie ook
 

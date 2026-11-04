@@ -1,9 +1,9 @@
 ---
 title: IEffectStyleCollectionEffectiveData
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для .NET справка API
 description: Неизменяемый объект, представляющий коллекцию только для чтения эффективных стилей эффектов.
 type: docs
-weight: 11190
+weight: 11210
 url: /ru/aspose.slides.theme/ieffectstylecollectioneffectivedata/
 ---
 ## IEffectStyleCollectionEffectiveData интерфейс
@@ -20,7 +20,7 @@ public interface IEffectStyleCollectionEffectiveData : IGenericCollection<IEffec
 | --- | --- |
 | [Item](../../aspose.slides.theme/ieffectstylecollectioneffectivedata/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`IEffectStyleEffectiveData`](../ieffectstyleeffectivedata). |
 
-### Замечания
+### Примечания
 
 Этот интерфейс используется как часть [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata).
 

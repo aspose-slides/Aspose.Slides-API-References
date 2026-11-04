@@ -1,14 +1,14 @@
 ---
 title: ILineFillFormat
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn các thuộc tính cho việc tô màu đường.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Biểu diễn các thuộc tính cho việc tô đầy các đường.
 type: docs
-weight: 6290
+weight: 6310
 url: /vi/aspose.slides/ilinefillformat/
 ---
 ## ILineFillFormat giao diện
 
-Biểu diễn các thuộc tính cho việc tô màu đường.
+Represents properties for lines filling.
 
 ```csharp
 public interface ILineFillFormat : IFillParamSource
@@ -19,11 +19,11 @@ public interface ILineFillFormat : IFillParamSource
 | Tên | Mô tả |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ilinefillformat/asifillparamsource) { get; } | Cho phép lấy giao diện IFillParamSource cơ bản. Chỉ đọc [`IFillParamSource`](../ifillparamsource). |
-| [FillType](../../aspose.slides/ilinefillformat/filltype) { get; set; } | Trả về hoặc đặt loại tô màu. Đọc/ghi [`FillType`](../filltype). |
+| [FillType](../../aspose.slides/ilinefillformat/filltype) { get; set; } | Trả về hoặc đặt kiểu tô màu. Đọc/ghi [`FillType`](../filltype). |
 | [GradientFormat](../../aspose.slides/ilinefillformat/gradientformat) { get; } | Trả về định dạng tô màu gradient. Chỉ đọc [`IGradientFormat`](../igradientformat). |
 | [PatternFormat](../../aspose.slides/ilinefillformat/patternformat) { get; } | Trả về định dạng tô màu mẫu. Chỉ đọc [`IPatternFormat`](../ipatternformat). |
-| [RotateWithShape](../../aspose.slides/ilinefillformat/rotatewithshape) { get; set; } | Xác định xem phần tô màu có nên xoay cùng hình dạng hay không. Đọc/ghi [`NullableBool`](../nullablebool). |
-| [SolidFillColor](../../aspose.slides/ilinefillformat/solidfillcolor) { get; } | Trả về màu của phần tô màu đặc. Chỉ đọc [`IColorFormat`](../icolorformat). |
+| [RotateWithShape](../../aspose.slides/ilinefillformat/rotatewithshape) { get; set; } | Xác định liệu màu nền có nên xoay cùng hình dạng hay không. Đọc/ghi [`NullableBool`](../nullablebool). |
+| [SolidFillColor](../../aspose.slides/ilinefillformat/solidfillcolor) { get; } | Trả về màu của tô nền đặc. Chỉ đọc [`IColorFormat`](../icolorformat). |
 
 ### Xem thêm
 

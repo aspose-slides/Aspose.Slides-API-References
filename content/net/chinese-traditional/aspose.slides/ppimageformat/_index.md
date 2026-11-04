@@ -1,14 +1,14 @@
 ---
 title: PPImageFormat
 second_title: Aspose.Sildes for .NET API 參考
-description: 圖像格式。此列舉是 System.Drawing.Imaging.ImageFormat 類別的替代方案。它用於 COM 相容性。
+description: 影像格式。此列舉是 System.Drawing.Imaging.ImageFormat 類別的替代品。它是為了 COM 相容性所必需的。
 type: docs
-weight: 9260
+weight: 9280
 url: /zh-hant/aspose.slides/ppimageformat/
 ---
 ## PPImageFormat 列舉
 
-圖像格式。此列舉是 `System.Drawing.Imaging.ImageFormat` 類別的替代方案。它用於 COM 相容性。
+影像格式。此列舉是 `System.Drawing.Imaging.ImageFormat` 類別的替代品。它是為了 COM 相容性所必需的。
 
 ```csharp
 public enum PPImageFormat
@@ -18,16 +18,16 @@ public enum PPImageFormat
 
 | 名稱 | 值 | 描述 |
 | --- | --- | --- |
-| Bmp | `0` | 取得 bitmap (BMP) 圖像格式。 |
-| Emf | `1` | 取得增強型中繼檔 (EMF) 圖像格式。 |
-| Exif | `2` | 取得可交換圖像檔案 (Exif) 格式。 |
-| Gif | `3` | 取得圖形交換格式 (GIF) 圖像格式。 |
-| Icon | `4` | 取得 Windows 圖示圖像格式。 |
-| Jpeg | `5` | 取得聯合影像專家組 (JPEG) 圖像格式。 |
-| MemoryBmp | `6` | 取得記憶體中 bitmap 的格式。 |
-| Png | `7` | 取得 W3C 可攜式網路圖形 (PNG) 圖像格式。 |
-| Tiff | `8` | 取得標記圖像檔案格式 (TIFF) 圖像格式。 |
-| Wmf | `9` | 取得 Windows 中繼檔 (WMF) 圖像格式。 |
+| Bmp | `0` | 取得位圖 (BMP) 影像格式。 |
+| Emf | `1` | 取得增強型圖元檔 (EMF) 影像格式。 |
+| Exif | `2` | 取得 Exchangeable Image File (Exif) 格式。 |
+| Gif | `3` | 取得圖形交換格式 (GIF) 影像格式。 |
+| Icon | `4` | 取得 Windows 圖示影像格式。 |
+| Jpeg | `5` | 取得 Joint Photographic Experts Group (JPEG) 影像格式。 |
+| MemoryBmp | `6` | 取得記憶體中位圖的格式。 |
+| Png | `7` | 取得 W3C 可攜式網路圖形 (PNG) 影像格式。 |
+| Tiff | `8` | 取得 Tagged Image File Format (TIFF) 影像格式。 |
+| Wmf | `9` | 取得 Windows 圖元檔 (WMF) 影像格式。 |
 
 ### 另請參閱
 

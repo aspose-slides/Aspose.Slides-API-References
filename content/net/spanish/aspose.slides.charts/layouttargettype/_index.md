@@ -1,14 +1,14 @@
 ---
 title: LayoutTargetType
-second_title: Referencia de la API de Aspose.Sildes para .NET
-description: Si la disposición del área del gráfico se define manualmente, esta propiedad especifica si la disposición del área del gráfico se realiza por su interior sin incluir los ejes y las etiquetas de los ejes, o por su exterior incluyendo los ejes y las etiquetas de los ejes.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Si el diseño del área del gráfico se define manualmente, esta propiedad especifica si se debe diseñar el área del gráfico por su interior sin incluir los ejes y las etiquetas de los ejes, o por su exterior incluyendo los ejes y las etiquetas de los ejes.
 type: docs
-weight: 2270
+weight: 2290
 url: /es/aspose.slides.charts/layouttargettype/
 ---
 ## LayoutTargetType enumeración
 
-Si la disposición del área del gráfico se define manualmente, esta propiedad especifica si la disposición del área del gráfico se realiza por su interior (sin incluir los ejes y las etiquetas de los ejes) o por su exterior (incluyendo los ejes y las etiquetas de los ejes).
+Si el diseño del área del gráfico se define manualmente, esta propiedad especifica si se debe diseñar el área del gráfico por su interior (sin incluir los ejes y las etiquetas de los ejes) o por su exterior (incluyendo los ejes y las etiquetas de los ejes).
 
 ```csharp
 public enum LayoutTargetType
@@ -21,7 +21,7 @@ public enum LayoutTargetType
 | Inner | `0` | Especifica que el tamaño del área del gráfico determinará el tamaño del área del gráfico, sin incluir las marcas de graduación y las etiquetas de los ejes. |
 | Outer | `1` | Especifica que el tamaño del área del gráfico determinará el tamaño del área del gráfico, las marcas de graduación y las etiquetas de los ejes. |
 
-### Ver también
+### Véase también
 
 * espacio de nombres [Aspose.Slides.Charts](../../aspose.slides.charts)
 * ensamblado [Aspose.Slides](../../)

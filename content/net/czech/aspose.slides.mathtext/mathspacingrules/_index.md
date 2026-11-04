@@ -1,14 +1,14 @@
 ---
 title: MathSpacingRules
-second_title: Aspose.Sildes pro .NET API Reference
-description: Typy horizontální mezery mezi sloupci matice
+second_title: Aspose.Sildes pro .NET - referenční příručka API
+description: Typy vodorovných rozestupů mezi sloupci matice
 type: docs
-weight: 8990
+weight: 9010
 url: /cs/aspose.slides.mathtext/mathspacingrules/
 ---
-## MathSpacingRules výčtový typ
+## MathSpacingRules enumerace
 
-Typy mezery (horizontálního rozestupu) mezi sloupci matice
+Typy mezer (vodorovné rozestupy) mezi sloupci matice
 
 ```csharp
 public enum MathSpacingRules
@@ -19,10 +19,10 @@ public enum MathSpacingRules
 | Název | Hodnota | Popis |
 | --- | --- | --- |
 | SingleSpacingGap | `0` | Jednoduchý (1 em pro sloupce nebo 1 řádek pro řádky) |
-| OneAndHalfSpacingGap | `1` | Jedna a půl (1.5 ems pro sloupce nebo 1.5 řádky pro řádky) |
-| DoubleSpacingGap | `2` | Dvojnásobný rozestup (2 ems pro sloupce nebo 2 řádky pro řádky) |
-| Exactly | `3` | Přesná hodnota. Pro sloupce se spoléhejte na hodnotu ColumnGap, měřeno v twips. Pro řádky se spoléhejte na hodnotu RowGap, měřeno v twips. |
-| Multiple | `4` | Násobná. Pro sloupce se spoléhejte na hodnotu ColumnGap, měřeno v 0.5 em krocích. Pro řádky se spoléhejte na hodnotu RowGap, měřeno v řádcích. |
+| OneAndHalfSpacingGap | `1` | Jedna a půl (1.5 em pro sloupce nebo 1.5 řádky pro řádky) |
+| DoubleSpacingGap | `2` | Dvojitý rozestup (2 em pro sloupce nebo 2 řádky pro řádky) |
+| Exactly | `3` | Přesná hodnota Pro sloupce, spoléhat na hodnotu ColumnGap, měřenou v twips Pro řádky, spoléhat na hodnotu RowGap, měřenou v twips |
+| Multiple | `4` | Multiple Pro sloupce, spoléhat na hodnotu ColumnGap, měřenou v krocích 0.5 em Pro řádky, spoléhat na hodnotu RowGap, měřenou v řádcích |
 
 ### Viz také
 

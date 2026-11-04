@@ -1,9 +1,9 @@
 ---
 title: DisplayUnitType
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 표시된 데이터의 배수를 결정합니다.
 type: docs
-weight: 1620
+weight: 1630
 url: /ko/aspose.slides.charts/displayunittype/
 ---
 ## DisplayUnitType 열거형
@@ -30,7 +30,7 @@ public enum DisplayUnitType
 | Trillions | `9` | 차트의 값이 1,000,000,000,000으로 나누어짐을 지정합니다. |
 | CustomValue | `10` | 차트의 값이 사용자 지정 값으로 나누어짐을 지정합니다. |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 어셈블리 [Aspose.Slides](../../)

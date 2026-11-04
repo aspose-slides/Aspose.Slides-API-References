@@ -1,9 +1,9 @@
 ---
 title: ColorFormat
-second_title: Aspose.Sildes .NET API Referenciája
-description: Egy prezentációban használt színt képvisel.
+second_title: Aspose.Sildes .NET API referencia
+description: A prezentációban használt színt képviseli.
 type: docs
-weight: 2520
+weight: 2540
 url: /hu/aspose.slides/colorformat/
 ---
 ## ColorFormat osztály
@@ -19,30 +19,30 @@ public sealed class ColorFormat : PVIObject, IColorFormat
 | Név | Leírás |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
-| [B](../../aspose.slides/colorformat/b) { get; set; } | Visszaadja vagy beállítja a szín kék komponensét. Minden színtranszformáció figyelmen kívül van hagyva. Olvasás/írás Byte. |
-| [Color](../../aspose.slides/colorformat/color) { get; set; } | Visszaadja a kapott színt (az összes színtranszformáció alkalmazásával). Beállítja az RGB színeket és törli az összes színtranszformációt. Olvasás/írás Color. |
-| [ColorTransform](../../aspose.slides/colorformat/colortransform) { get; } | Visszaadja a színre alkalmazott színtranszformációk gyűjteményét. Csak olvasható [`IColorOperationCollection`](../icoloroperationcollection). |
-| [ColorType](../../aspose.slides/colorformat/colortype) { get; set; } | Visszaadja vagy állítja be a színdefiníció módszerét. Olvasás/írás [`ColorType`](../colortype). |
-| [FloatB](../../aspose.slides/colorformat/floatb) { get; set; } | Visszaadja vagy állítja be a szín kék komponensét. Minden színtranszformáció figyelmen kívül van hagyva. Olvasás/írás Single. |
-| [FloatG](../../aspose.slides/colorformat/floatg) { get; set; } | Visszaadja vagy állítja be a szín zöld komponensét. Minden színtranszformáció figyelmen kívül van hagyva. Olvasás/írás Single. |
-| [FloatR](../../aspose.slides/colorformat/floatr) { get; set; } | Visszaadja vagy állítja be a szín piros komponensét. Minden színtranszformáció figyelmen kívül van hagyva. Olvasás/írás Single. |
-| [G](../../aspose.slides/colorformat/g) { get; set; } | Visszaadja vagy állítja be a szín zöld komponensét. Minden színtranszformáció figyelmen kívül van hagyva. |
-| [Hue](../../aspose.slides/colorformat/hue) { get; set; } | Visszaadja vagy állítja be a szín árnyalat komponensét HSL ábrázolásban. Minden színtranszformáció figyelmen kívül van hagyva. Olvasás/írás Single. |
-| [Luminance](../../aspose.slides/colorformat/luminance) { get; set; } | Visszaadja vagy állítja be a szín fényesség komponensét HSL ábrázolásban. Minden színtranszformáció figyelmen kívül van hagyva. Olvasás/írás Single. |
-| [PresetColor](../../aspose.slides/colorformat/presetcolor) { get; set; } | Visszaadja vagy állítja be a szín előre definiált értékét. Olvasás/írás [`PresetColor`](../presetcolor). |
-| [R](../../aspose.slides/colorformat/r) { get; set; } | Visszaadja vagy állítja be a szín piros komponensét. Minden színtranszformáció figyelmen kívül van hagyva. Olvasás/írás Byte. |
-| [Saturation](../../aspose.slides/colorformat/saturation) { get; set; } | Visszaadja vagy állítja be a szín telítettség komponensét HSL ábrázolásban. Minden színtranszformáció figyelmen kívül van hagyva. Olvasás/írás Single. |
-| [SchemeColor](../../aspose.slides/colorformat/schemecolor) { get; set; } | Visszaadja vagy állítja be a színt, amely egy színsémához van rendelve. Olvasás/írás [`SchemeColor`](../schemecolor). |
-| [SystemColor](../../aspose.slides/colorformat/systemcolor) { get; set; } | Visszaadja vagy állítja be a színt, amely a rendszer szín táblához van rendelve. Olvasás/írás [`SystemColor`](../systemcolor). |
+| [B](../../aspose.slides/colorformat/b) { get; set; } | Visszaadja vagy beállítja a szín kék komponensét. Minden színátalakítás figyelmen kívül marad. Olvasás/írás Byte. |
+| [Color](../../aspose.slides/colorformat/color) { get; set; } | Visszaadja a keletkezett színt (az összes színátalakítás alkalmazásával). Beállítja az RGB színeket, és törli az összes színátalakítást. Olvasás/írás Color. |
+| [ColorTransform](../../aspose.slides/colorformat/colortransform) { get; } | Visszaadja a színre alkalmazott színátalakítások gyűjteményét. Csak olvasható [`IColorOperationCollection`](../icoloroperationcollection). |
+| [ColorType](../../aspose.slides/colorformat/colortype) { get; set; } | Visszaadja vagy beállítja a színdefiníciós módszert. Olvasás/írás [`ColorType`](../colortype). |
+| [FloatB](../../aspose.slides/colorformat/floatb) { get; set; } | Visszaadja vagy beállítja a szín kék komponensét. Minden színátalakítás figyelmen kívül marad. Olvasás/írás Single. |
+| [FloatG](../../aspose.slides/colorformat/floatg) { get; set; } | Visszaadja vagy beállítja a szín zöld komponensét. Minden színátalakítás figyelmen kívül marad. Olvasás/írás Single. |
+| [FloatR](../../aspose.slides/colorformat/floatr) { get; set; } | Visszaadja vagy beállítja a szín piros komponensét. Minden színátalakítás figyelmen kívül marad. Olvasás/írás Single. |
+| [G](../../aspose.slides/colorformat/g) { get; set; } | Visszaadja vagy beállítja a szín zöld komponensét. Minden színátalakítás figyelmen kívül marad. |
+| [Hue](../../aspose.slides/colorformat/hue) { get; set; } | Visszaadja vagy beállítja a szín árnyalat komponensét HSL ábrázolásban. Minden színátalakítás figyelmen kívül marad. Olvasás/írás Single. |
+| [Luminance](../../aspose.slides/colorformat/luminance) { get; set; } | Visszaadja vagy beállítja a szín fényesség komponensét HSL ábrázolásban. Minden színátalakítás figyelmen kívül marad. Olvasás/írás Single. |
+| [PresetColor](../../aspose.slides/colorformat/presetcolor) { get; set; } | Visszaadja vagy beállítja a szín előre beállított értékét. Olvasás/írás [`PresetColor`](../presetcolor). |
+| [R](../../aspose.slides/colorformat/r) { get; set; } | Visszaadja vagy beállítja a szín piros komponensét. Minden színátalakítás figyelmen kívül marad. Olvasás/írás Byte. |
+| [Saturation](../../aspose.slides/colorformat/saturation) { get; set; } | Visszaadja vagy beállítja a szín telítettség komponensét HSL ábrázolásban. Minden színátalakítás figyelmen kívül marad. Olvasás/írás Single. |
+| [SchemeColor](../../aspose.slides/colorformat/schemecolor) { get; set; } | Visszaadja vagy beállítja a színt, amely egy színsémához van rendelve. Olvasás/írás [`SchemeColor`](../schemecolor). |
+| [SystemColor](../../aspose.slides/colorformat/systemcolor) { get; set; } | Visszaadja vagy beállítja a színt, amely a rendszer szín táblához van rendelve. Olvasás/írás [`SystemColor`](../systemcolor). |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [CopyFrom](../../aspose.slides/colorformat/copyfrom)(IColorFormat) | Másolja a színformátumot a "color"-ból. |
+| [CopyFrom](../../aspose.slides/colorformat/copyfrom)(IColorFormat) | Színformátum másolása a "color"-ból. |
 | override [Equals](../../aspose.slides/colorformat/equals)(object) | Ellenőrzi az egyenlőséget a megadott objektummal. |
 | override [GetHashCode](../../aspose.slides/colorformat/gethashcode)() | Visszaadja a hash kódot. |
-| [ToString](../../aspose.slides/colorformat/tostring#tostring_1)(ColorStringFormat) | Visszaad egy String-et, amely a jelenlegi színformátumot ábrázolja. |
+| [ToString](../../aspose.slides/colorformat/tostring#tostring_1)(ColorStringFormat) | Visszaad egy String-et, amely a jelenlegi színformátumot képviseli. |
 
 ### Lásd még
 

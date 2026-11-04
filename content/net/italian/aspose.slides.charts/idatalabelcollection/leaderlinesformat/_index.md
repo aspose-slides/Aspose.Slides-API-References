@@ -1,14 +1,14 @@
 ---
 title: LeaderLinesFormat
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta il formato delle linee guida delle etichette dei dati. Sola lettura IChartLinesFormataspose.slides.charts/ichartlinesformat.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Rappresenta il formato delle linee guida delle etichette dati. Solo lettura IChartLinesFormataspose.slides.charts/ichartlinesformat.
 type: docs
-weight: 80
+weight: 90
 url: /it/aspose.slides.charts/idatalabelcollection/leaderlinesformat/
 ---
 ## IDataLabelCollection.LeaderLinesFormat proprietà
 
-Rappresenta il formato delle linee guida delle etichette dei dati. Sola lettura [`IChartLinesFormat`](../../ichartlinesformat).
+Rappresenta il formato delle linee guida delle etichette dati. Solo lettura [`IChartLinesFormat`](../../ichartlinesformat).
 
 ```csharp
 public IChartLinesFormat LeaderLinesFormat { get; }

@@ -1,14 +1,14 @@
 ---
 title: BaseOverrideThemeManager
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Lớp cơ sở cho các lớp cung cấp quyền truy cập vào các loại chủ đề đã bị ghi đè khác nhau.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Lớp cơ sở cho các lớp cung cấp quyền truy cập vào các loại giao diện bị ghi đè khác nhau.
 type: docs
-weight: 11040
+weight: 11060
 url: /vi/aspose.slides.theme/baseoverridethememanager/
 ---
 ## BaseOverrideThemeManager lớp
 
-Lớp cơ sở cho các lớp cung cấp quyền truy cập vào các loại chủ đề đã bị ghi đè khác nhau.
+Lớp cơ sở cho các lớp cung cấp quyền truy cập vào các loại giao diện bị ghi đè khác nhau.
 
 ```csharp
 public abstract class BaseOverrideThemeManager : BaseThemeManager, IOverrideThemeManager
@@ -18,15 +18,15 @@ public abstract class BaseOverrideThemeManager : BaseThemeManager, IOverrideThem
 
 | Tên | Mô tả |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Xác định xem OverrideTheme có ghi đè lên chủ đề hiệu quả được kế thừa hay không. Để bật OverrideTheme để ghi đè, sử dụng các phương thức OverrideTheme.Init*(). Để tắt OverrideTheme khỏi việc ghi đè, sử dụng phương thức OverrideTheme.Clear(). Boolean chỉ đọc. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Trả về đối tượng chủ đề ghi đè. Đọc/ghi [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Xác định liệu OverrideTheme có ghi đè giao diện hiệu quả kế thừa hay không. Để bật OverrideTheme cho việc ghi đè, sử dụng các phương thức OverrideTheme.Init*(). Để tắt OverrideTheme khỏi việc ghi đè, sử dụng phương thức OverrideTheme.Clear(). Boolean chỉ đọc. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Trả về đối tượng giao diện đang ghi đè. Đọc/ghi [`IOverrideTheme`](../ioverridetheme). |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Áp dụng bảng màu bổ sung cho một slide. |
-| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Trả về đối tượng chủ đề. |
+| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Áp dụng bảng màu phụ thêm cho một slide. |
+| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Trả về đối tượng giao diện. |
 
 ### Xem thêm
 

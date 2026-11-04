@@ -1,14 +1,14 @@
 ---
 title: SlideSizeScaleType
-second_title: Aspose.Sildes .NET API hivatkozás
-description: A dia tartalmának méretezési típusát reprezentálja.
+second_title: Aspose.Sildes a .NET API referencia
+description: A diatartalom méretezési típusát reprezentálja.
 type: docs
-weight: 10510
+weight: 10530
 url: /hu/aspose.slides/slidesizescaletype/
 ---
-## SlideSizeScaleType felsorolás
+## SlideSizeScaleType enumeráció
 
-A dia tartalmának méretezési típusát reprezentálja.
+A diáktartalom méretezési típusát reprezentálja.
 
 ```csharp
 public enum SlideSizeScaleType
@@ -18,7 +18,7 @@ public enum SlideSizeScaleType
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| DoNotScale | `0` | Nem méretez. |
+| DoNotScale | `0` | Ne méretezze. |
 | EnsureFit | `1` | Méretezés a megfelelő illeszkedés biztosításához. |
 | Maximize | `2` | A tartalom méretének maximalizálása. |
 

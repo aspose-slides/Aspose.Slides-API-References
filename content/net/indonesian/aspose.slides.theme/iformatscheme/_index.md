@@ -1,9 +1,9 @@
 ---
 title: IFormatScheme
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Menyimpan format yang ditentukan tema untuk bentuk.
 type: docs
-weight: 11270
+weight: 11290
 url: /id/aspose.slides.theme/iformatscheme/
 ---
 ## IFormatScheme antarmuka
@@ -18,11 +18,11 @@ public interface IFormatScheme : ISlideComponent
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides.theme/iformatscheme/asislidecomponent) { get; } | Mengizinkan untuk mendapatkan antarmuka ISlideComponent dasar. Hanya baca [`ISlideComponent`](../../aspose.slides/islidecomponent). |
-| [BackgroundFillStyles](../../aspose.slides.theme/iformatscheme/backgroundfillstyles) { get; } | Mengembalikan kumpulan gaya pengisian latar belakang yang ditentukan tema. Hanya baca [`IFillFormatCollection`](../ifillformatcollection). |
-| [EffectStyles](../../aspose.slides.theme/iformatscheme/effectstyles) { get; } | Mengembalikan kumpulan gaya efek yang ditentukan tema. Hanya baca [`IEffectStyleCollection`](../ieffectstylecollection). |
-| [FillStyles](../../aspose.slides.theme/iformatscheme/fillstyles) { get; } | Mengembalikan kumpulan gaya pengisian yang ditentukan tema. Hanya baca [`IFillFormatCollection`](../ifillformatcollection). |
-| [LineStyles](../../aspose.slides.theme/iformatscheme/linestyles) { get; } | Mengembalikan kumpulan gaya garis yang ditentukan tema. Hanya baca [`ILineFormatCollection`](../ilineformatcollection). |
+| [AsISlideComponent](../../aspose.slides.theme/iformatscheme/asislidecomponent) { get; } | Mengizinkan mendapatkan antarmuka ISlideComponent dasar. Hanya-baca [`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [BackgroundFillStyles](../../aspose.slides.theme/iformatscheme/backgroundfillstyles) { get; } | Mengembalikan koleksi gaya isi latar belakang yang ditentukan tema. Hanya-baca [`IFillFormatCollection`](../ifillformatcollection). |
+| [EffectStyles](../../aspose.slides.theme/iformatscheme/effectstyles) { get; } | Mengembalikan koleksi gaya efek yang ditentukan tema. Hanya-baca [`IEffectStyleCollection`](../ieffectstylecollection). |
+| [FillStyles](../../aspose.slides.theme/iformatscheme/fillstyles) { get; } | Mengembalikan koleksi gaya isi yang ditentukan tema. Hanya-baca [`IFillFormatCollection`](../ifillformatcollection). |
+| [LineStyles](../../aspose.slides.theme/iformatscheme/linestyles) { get; } | Mengembalikan koleksi gaya garis yang ditentukan tema. Hanya-baca [`ILineFormatCollection`](../ilineformatcollection). |
 
 ### Lihat Juga
 

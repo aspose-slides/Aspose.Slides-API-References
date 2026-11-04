@@ -1,14 +1,14 @@
 ---
 title: SvgShape
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt Optionen für die SVG-Shape bereit.
+description: Stellt Optionen für SVG-Form dar.
 type: docs
-weight: 4510
+weight: 4530
 url: /de/aspose.slides.export/svgshape/
 ---
 ## SvgShape Klasse
 
-Stellt Optionen für die SVG-Shape bereit.
+Stellt Optionen für SVG-Form dar.
 
 ```csharp
 public sealed class SvgShape : ISvgShape
@@ -18,13 +18,13 @@ public sealed class SvgShape : ISvgShape
 
 | Name | Beschreibung |
 | --- | --- |
-| [Id](../../aspose.slides.export/svgshape/id) { get; set; } | Ruft die Shape-ID ab |
+| [Id](../../aspose.slides.export/svgshape/id) { get; set; } | Liefert die Shape-ID |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [SetEventHandler](../../aspose.slides.export/svgshape/seteventhandler)(SvgEvent, string) | Legt den Ereignishandler für die Shape fest |
+| [SetEventHandler](../../aspose.slides.export/svgshape/seteventhandler)(SvgEvent, string) | Legt den Ereignishandler für die Form fest |
 
 ### Siehe auch
 

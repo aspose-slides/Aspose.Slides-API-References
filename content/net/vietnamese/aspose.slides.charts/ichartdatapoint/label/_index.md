@@ -1,14 +1,14 @@
 ---
 title: Label
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu thị nhãn của điểm dữ liệu biểu đồ. Chỉ đọc IDataLabelaspose.slides.charts/idatalabel.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Biểu diễn nhãn của điểm dữ liệu biểu đồ. Chỉ đọc IDataLabelaspose.slides.charts/idatalabel.
 type: docs
-weight: 110
+weight: 150
 url: /vi/aspose.slides.charts/ichartdatapoint/label/
 ---
 ## IChartDataPoint.Label thuộc tính
 
-Biểu thị nhãn của điểm dữ liệu biểu đồ. Chỉ đọc [`IDataLabel`](../../idatalabel).
+Biểu diễn nhãn của điểm dữ liệu biểu đồ. Chỉ đọc [`IDataLabel`](../../idatalabel).
 
 ```csharp
 public IDataLabel Label { get; }

@@ -1,14 +1,14 @@
 ---
 title: Collect
-second_title: Aspose.Sildes の .NET API リファレンス
-description: さまざまなタイプのモデルオブジェクトを Presentation../aspose.slides/presentation から収集することを目的としたメソッドのグループを表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: Presentation../aspose.slides/presentation から、さまざまなタイプのモデルオブジェクトを収集することを目的としたメソッドのグループを表します。
 type: docs
-weight: 7860
+weight: 7880
 url: /ja/aspose.slides.lowcode/collect/
 ---
 ## Collect クラス
 
-様々なタイプのモデルオブジェクトを [`Presentation`](../../aspose.slides/presentation) から収集することを目的としたメソッドのグループを表します。
+[`Presentation`](../../aspose.slides/presentation)から異なるタイプのモデルオブジェクトを収集することを目的としたメソッドのグループを表します。
 
 ```csharp
 public static class Collect

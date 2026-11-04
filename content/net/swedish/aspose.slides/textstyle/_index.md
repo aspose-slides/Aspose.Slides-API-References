@@ -1,14 +1,14 @@
 ---
 title: TextStyle
 second_title: Aspose.Sildes för .NET API-referens
-description: Denna klass innehåller formateringsegenskaper för textstil.
+description: Denna klass innehåller formateringsegenskaperna för textstilen.
 type: docs
-weight: 11000
+weight: 11020
 url: /sv/aspose.slides/textstyle/
 ---
 ## TextStyle klass
 
-Denna klass innehåller formateringsegenskaper för textstil.
+Denna klass innehåller textstilens formateringsegenskaper.
 
 ```csharp
 public sealed class TextStyle : PVIObject, ITextStyle
@@ -18,17 +18,17 @@ public sealed class TextStyle : PVIObject, ITextStyle
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas-IPresentationComponent-gränssnittet. Skrivskyddad [`IPresentationComponent`](../ipresentationcomponent). |
-| [DefaultParagraphFormat](../../aspose.slides/textstyle/defaultparagraphformat) { get; } | Standardparagrafens egenskaper. Skrivskyddad [`IParagraphFormat`](../iparagraphformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas-IPresentationComponent interface. Skrivskyddad [`IPresentationComponent`](../ipresentationcomponent). |
+| [DefaultParagraphFormat](../../aspose.slides/textstyle/defaultparagraphformat) { get; } | Standardparagrafsegenskaper. Skrivskyddad [`IParagraphFormat`](../iparagraphformat). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Jämför med specificerat objekt. |
-| [GetEffective](../../aspose.slides/textstyle/geteffective)() | Hämtar effektiv textstilsformateringsdata med ärvda inställningar tillämpade. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returnerar hashkod. |
-| [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | Om stilnivån finns returneras den, annars returneras null. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Jämför med angivet objekt. |
+| [GetEffective](../../aspose.slides/textstyle/geteffective)() | Hämtar effektiv textstilformateringsdata med tillämpat arv. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returnerar hash-kod. |
+| [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | Om stilnivå finns returneras den, annars returneras null. |
 
 ### Se även
 

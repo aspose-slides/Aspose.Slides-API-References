@@ -1,9 +1,9 @@
 ---
 title: GradientStyle
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Slides for .NET API リファレンス
 description: 利用可能なグラデーションスタイルを表します。
 type: docs
-weight: 5060
+weight: 5080
 url: /ja/aspose.slides/gradientstyle/
 ---
 ## GradientStyle 列挙体
@@ -19,7 +19,7 @@ public enum GradientStyle
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
 | Default | `0` | デフォルトのグラデーションスタイルです。 |
-| PowerPointUI | `1` | PowerPoint ユーザー インターフェイスに表示されるグラデーションスタイルです。 |
+| PowerPointUI | `1` | PowerPoint ユーザーインターフェイスに表示されるグラデーションスタイルです。 |
 
 ### 参照
 

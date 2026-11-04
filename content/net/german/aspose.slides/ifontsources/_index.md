@@ -3,7 +3,7 @@ title: IFontSources
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt Datei- und Speicherquellen für externe Schriftarten bereit.
 type: docs
-weight: 5870
+weight: 5890
 url: /de/aspose.slides/ifontsources/
 ---
 ## IFontSources Schnittstelle
@@ -16,10 +16,10 @@ public interface IFontSources
 
 ## Eigenschaften
 
-| Name | Description |
+| Name | Beschreibung |
 | --- | --- |
-| [FontFolders](../../aspose.slides/ifontsources/fontfolders) { get; set; } | Ordner, die Schriftartdateien enthalten. Alle Schriftartdateien, die sich in diesen Ordnern befinden, werden in die Sammlung aufgenommen. Ordner, die rekursiv durchsucht werden. |
-| [MemoryFonts](../../aspose.slides/ifontsources/memoryfonts) { get; set; } | Eine Sammlung von Schriftarten, die als Byte-Arrays dargestellt werden. |
+| [FontFolders](../../aspose.slides/ifontsources/fontfolders) { get; set; } | Ordner, die Schriftdateien enthalten. Alle Schriftdateien in diesen Ordnern werden in die Sammlung aufgenommen. Ordner, die rekursiv durchsucht werden. |
+| [MemoryFonts](../../aspose.slides/ifontsources/memoryfonts) { get; set; } | Eine Sammlung von Schriftarten, dargestellt als Byte-Arrays. |
 
 ### Siehe auch
 

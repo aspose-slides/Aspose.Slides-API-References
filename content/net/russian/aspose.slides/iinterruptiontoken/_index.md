@@ -1,14 +1,14 @@
 ---
 title: IInterruptionToken
-second_title: Aspose.Sildes для справки API .NET
-description: Этот класс представляет токен, используемый для сигнализации длительным задачам о том, был ли запрошен прерывание.
+second_title: Aspose.Sildes для .NET справка API
+description: Этот класс представляет токен, используемый для сигнализации длительным задачам о том, запрошено ли прерывание.
 type: docs
-weight: 6190
+weight: 6210
 url: /ru/aspose.slides/iinterruptiontoken/
 ---
 ## IInterruptionToken интерфейс
 
-Этот класс представляет токен, используемый для сигнализации длительным задачам о том, был ли запрошен прерывание.
+Этот класс представляет токен, используемый для сигнализации длительным задачам о том, запрошено ли прерывание.
 
 ```csharp
 public interface IInterruptionToken

@@ -1,9 +1,9 @@
 ---
 title: IPresentationFactory
 second_title: Aspose.Sildes for .NET API 참조
-description: COM 인터페이스를 통해 프레젠테이션을 생성할 수 있습니다.
+description: COM 인터페이스를 통해 프레젠테이션을 생성할 수 있습니다
 type: docs
-weight: 6770
+weight: 6790
 url: /ko/aspose.slides/ipresentationfactory/
 ---
 ## IPresentationFactory 인터페이스
@@ -28,11 +28,11 @@ public interface IPresentationFactory
 | [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation)(byte[]) | 배열에서 기존 프레젠테이션을 읽습니다. |
 | [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_2)(Stream) | 스트림에서 기존 프레젠테이션을 읽습니다. |
 | [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_4)(string) | 파일에서 기존 프레젠테이션을 읽습니다. |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | 추가 로드 옵션으로 배열에서 기존 프레젠테이션을 읽습니다. |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | 추가 로드 옵션으로 스트림에서 기존 프레젠테이션을 읽습니다. |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | 추가 로드 옵션으로 스트림에서 기존 프레젠테이션을 읽습니다. |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | 추가 로드 옵션과 함께 배열에서 기존 프레젠테이션을 읽습니다. |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | 추가 로드 옵션과 함께 스트림에서 기존 프레젠테이션을 읽습니다. |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | 추가 로드 옵션과 함께 스트림에서 기존 프레젠테이션을 읽습니다. |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

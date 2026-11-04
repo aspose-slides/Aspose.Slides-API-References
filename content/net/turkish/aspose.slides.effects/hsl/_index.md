@@ -1,14 +1,14 @@
 ---
 title: HSL
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir Hue/Saturation/Luminance etkisini temsil eder. Hue, saturation ve luminance her biri geçerli değerine göre ayarlanabilir.
+description: Hue/Saturation/Luminance etkisini temsil eder. Hue, saturation ve luminance her biri mevcut değerine göre ayarlanabilir.
 type: docs
-weight: 3010
+weight: 3030
 url: /tr/aspose.slides.effects/hsl/
 ---
-## HSL sınıfı
+## HSL sınıf
 
-Hue/Saturation/Luminance etkisini temsil eder. Hue, saturation ve luminance her biri geçerli değerine göre ayarlanabilir.
+Hue/Saturation/Luminance etkisini temsil eder. Hue, Saturation ve Luminance, mevcut değerlerine göre ayrı ayrı ayarlanabilir.
 
 ```csharp
 public sealed class HSL : ImageTransformOperation, IHSL
@@ -16,22 +16,22 @@ public sealed class HSL : ImageTransformOperation, IHSL
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almayı sağlar. Yalnızca okunur [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almaya izin verir. Yalnızca okunabilir [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
-## Metotlar
+## Yöntemler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/hsl/equals)(object) | Belirtilen [`HSL`](../hsl) öğesinin mevcut [`HSL`](../hsl) öğesine eşit olup olmadığını belirler. |
-| [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | Kalıtım uygulanmış etkili Hue/Saturation/Luminance etkisi verilerini alır. |
-| override [GetHashCode](../../aspose.slides.effects/hsl/gethashcode)() | Belirli bir tip için hash işlevi olarak hizmet eder. |
+| override [Equals](../../aspose.slides.effects/hsl/equals)(object) | Belirtilen [`HSL`](../hsl)'nin mevcut [`HSL`](../hsl) ile eşit olup olmadığını belirler. |
+| [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | Kalıtım uygulanmış etkili Hue/Saturation/Luminance efekt verilerini alır. |
+| override [GetHashCode](../../aspose.slides.effects/hsl/gethashcode)() | Belirli bir tür için bir hash işlevi olarak hizmet eder. |
 
 ### Ayrıca Bakınız
 
 * sınıf [ImageTransformOperation](../imagetransformoperation)
-* arabirim [IHSL](../ihsl)
+* arayüz [IHSL](../ihsl)
 * ad alanı [Aspose.Slides.Effects](../../aspose.slides.effects)
 * derleme [Aspose.Slides](../../)
 

@@ -1,9 +1,9 @@
 ---
 title: FillFormat
-second_title: Aspose.Sildes para la referencia de API de .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa opciones de formato de relleno.
 type: docs
-weight: 4780
+weight: 4800
 url: /es/aspose.slides/fillformat/
 ---
 ## FillFormat clase
@@ -20,7 +20,7 @@ public sealed class FillFormat : PVIObject, IFillFormat
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obtener la interfaz base IPresentationComponent. Solo lectura [`IPresentationComponent`](../ipresentationcomponent). |
 | [FillType](../../aspose.slides/fillformat/filltype) { get; set; } | Devuelve o establece el tipo de relleno. Lectura/escritura [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/fillformat/gradientformat) { get; } | Devuelve el formato de relleno degradado. Solo lectura [`IGradientFormat`](../igradientformat). |
+| [GradientFormat](../../aspose.slides/fillformat/gradientformat) { get; } | Devuelve el formato de relleno de degradado. Solo lectura [`IGradientFormat`](../igradientformat). |
 | [PatternFormat](../../aspose.slides/fillformat/patternformat) { get; } | Devuelve el formato de relleno de patrón. Solo lectura [`IPatternFormat`](../ipatternformat). |
 | [PictureFillFormat](../../aspose.slides/fillformat/picturefillformat) { get; } | Devuelve el formato de relleno de imagen. Solo lectura [`IPictureFillFormat`](../ipicturefillformat). |
 | [RotateWithShape](../../aspose.slides/fillformat/rotatewithshape) { get; set; } | Determina si el relleno debe rotarse con la forma. Lectura/escritura [`NullableBool`](../nullablebool). |

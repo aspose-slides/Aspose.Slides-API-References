@@ -1,14 +1,14 @@
 ---
 title: StyleType
 second_title: Aspose.Sildes for .NET API リファレンス
-description: チャートのスタイルを表します。
+description: チャート スタイルを表します。
 type: docs
-weight: 2430
+weight: 2450
 url: /ja/aspose.slides.charts/styletype/
 ---
 ## StyleType 列挙型
 
-チャートのスタイルを表します。
+チャート スタイルを表します。
 
 ```csharp
 public enum StyleType

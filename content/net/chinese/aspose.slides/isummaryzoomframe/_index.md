@@ -1,9 +1,9 @@
 ---
 title: ISummaryZoomFrame
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示幻灯片中的 Summary Zoom 帧。
 type: docs
-weight: 7150
+weight: 7170
 url: /zh/aspose.slides/isummaryzoomframe/
 ---
 ## ISummaryZoomFrame 接口
@@ -19,7 +19,7 @@ public interface ISummaryZoomFrame : IGraphicalObject
 | 名称 | 描述 |
 | --- | --- |
 | [AsIGraphicalObject](../../aspose.slides/isummaryzoomframe/asigraphicalobject) { get; } | 返回 IGraphicalObject 接口。 |
-| [Layout](../../aspose.slides/isummaryzoomframe/layout) { get; } | 获取框架中 Summary Zoom Sections 的布局。默认值为 GridLayout。 |
+| [Layout](../../aspose.slides/isummaryzoomframe/layout) { get; } | 获取帧中 Summary Zoom Sections 的布局。默认值为 GridLayout。 |
 | [SummaryZoomCollection](../../aspose.slides/isummaryzoomframe/summaryzoomcollection) { get; } | 获取 Summary Zoom Frame 对象的 [`ISummaryZoomSectionCollection`](../isummaryzoomsectioncollection)。 |
 
 ### 另请参见

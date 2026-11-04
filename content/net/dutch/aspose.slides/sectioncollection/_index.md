@@ -1,14 +1,14 @@
 ---
 title: SectionCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een collectie van secties voor.
+description: Stelt een verzameling secties voor.
 type: docs
-weight: 9760
+weight: 9780
 url: /nl/aspose.slides/sectioncollection/
 ---
 ## SectionCollection klasse
 
-Stelt een collectie van secties voor.
+Stelt een verzameling secties voor.
 
 ```csharp
 public sealed class SectionCollection : DomObject<Presentation>, ISectionCollection
@@ -18,8 +18,8 @@ public sealed class SectionCollection : DomObject<Presentation>, ISectionCollect
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Count](../../aspose.slides/sectioncollection/count) { get; } | Haalt het aantal elementen op dat daadwerkelijk in de collectie zit. Alleen-lezen Int32. |
-| [IsSynchronized](../../aspose.slides/sectioncollection/issynchronized) { get; } | Retourneert een waarde die aangeeft of de toegang tot de collectie gesynchroniseerd is (thread-safe). Alleen-lezen Boolean. |
+| [Count](../../aspose.slides/sectioncollection/count) { get; } | Haalt het aantal elementen op dat daadwerkelijk in de verzameling zit. Alleen-lezen Int32. |
+| [IsSynchronized](../../aspose.slides/sectioncollection/issynchronized) { get; } | Retourneert een waarde die aangeeft of de toegang tot de verzameling gesynchroniseerd is (thread-safe). Alleen-lezen Boolean. |
 | [Item](../../aspose.slides/sectioncollection/item) { get; } | Haalt het element op op de opgegeven index. Alleen-lezen [`ISection`](../isection). |
 | [SyncRoot](../../aspose.slides/sectioncollection/syncroot) { get; } | Retourneert een synchronisatiewortel. Alleen-lezen Object. |
 
@@ -27,16 +27,16 @@ public sealed class SectionCollection : DomObject<Presentation>, ISectionCollect
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AddEmptySection](../../aspose.slides/sectioncollection/addemptysection)(string, int) | Voeg een lege sectie toe op de opgegeven positie van de collectie. |
-| [AddSection](../../aspose.slides/sectioncollection/addsection)(string, ISlide) | Voeg een dia-sectie toe die begint bij een specifieke dia. |
-| [AppendEmptySection](../../aspose.slides/sectioncollection/appendemptysection)(string) | Voeg een lege sectie toe aan het einde van de collectie. |
-| [Clear](../../aspose.slides/sectioncollection/clear)() | Verwijdert alle secties uit de collectie. |
-| [CopyTo](../../aspose.slides/sectioncollection/copyto)(Array, int) | Kopieert de volledige collectie naar de opgegeven array. |
-| [GetEnumerator](../../aspose.slides/sectioncollection/getenumerator)() | Retourneert een enumerator die door de collectie iterereert. |
-| [IndexOf](../../aspose.slides/sectioncollection/indexof)(ISection) | Retourneert de index van de opgegeven sectie in de collectie. |
-| [RemoveSection](../../aspose.slides/sectioncollection/removesection)(ISection) | Verwijder sectie. Dia's die zich in de sectie bevinden, worden samengevoegd met de vorige sectie. |
-| [RemoveSectionWithSlides](../../aspose.slides/sectioncollection/removesectionwithslides)(ISection) | Verwijder sectie en de daarin aanwezige dia's. |
-| [ReorderSectionWithSlides](../../aspose.slides/sectioncollection/reordersectionwithslides)(ISection, int) | Verplaatst de sectie en de bijbehorende dia's van de collectie naar de opgegeven positie. |
+| [AddEmptySection](../../aspose.slides/sectioncollection/addemptysection)(string, int) | Voegt een lege sectie toe op de opgegeven positie in de verzameling. |
+| [AddSection](../../aspose.slides/sectioncollection/addsection)(string, ISlide) | Voegt een sectie met dia's toe die begint bij een specifieke dia. |
+| [AppendEmptySection](../../aspose.slides/sectioncollection/appendemptysection)(string) | Voegt een lege sectie toe aan het einde van de verzameling. |
+| [Clear](../../aspose.slides/sectioncollection/clear)() | Verwijdert alle secties uit de verzameling. |
+| [CopyTo](../../aspose.slides/sectioncollection/copyto)(Array, int) | Kopieert de volledige verzameling naar de opgegeven array. |
+| [GetEnumerator](../../aspose.slides/sectioncollection/getenumerator)() | Retourneert een enumerator die door de verzameling itereren. |
+| [IndexOf](../../aspose.slides/sectioncollection/indexof)(ISection) | Retourneert een index van de opgegeven sectie in de verzameling. |
+| [RemoveSection](../../aspose.slides/sectioncollection/removesection)(ISection) | Verwijdert een sectie. Dia's die zich in de sectie bevinden worden samengevoegd met de vorige sectie. |
+| [RemoveSectionWithSlides](../../aspose.slides/sectioncollection/removesectionwithslides)(ISection) | Verwijdert een sectie en de dia's die zich in de sectie bevinden. |
+| [ReorderSectionWithSlides](../../aspose.slides/sectioncollection/reordersectionwithslides)(ISection, int) | Verplaatst een sectie en de bijbehorende dia's van de verzameling naar de opgegeven positie. |
 
 ### Zie ook
 
@@ -44,6 +44,6 @@ public sealed class SectionCollection : DomObject<Presentation>, ISectionCollect
 * klasse [Presentation](../presentation)
 * interface [ISectionCollection](../isectioncollection)
 * naamruimte [Aspose.Slides](../../aspose.slides)
-* assemblage [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

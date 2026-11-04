@@ -3,7 +3,7 @@ title: IErrorBarsFormat
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示图表系列的误差线。ErrorBars 自定义值位于 IChartDataPointCollection 中的 ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues 属性。
 type: docs
-weight: 2090
+weight: 2110
 url: /zh/aspose.slides.charts/ierrorbarsformat/
 ---
 ## IErrorBarsFormat 接口
@@ -16,17 +16,17 @@ public interface IErrorBarsFormat : IChartComponent
 
 ## 属性
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [AsIChartComponent](../../aspose.slides.charts/ierrorbarsformat/asichartcomponent) { get; } | 返回 IChartComponent 接口。只读 [`IChartComponent`](../ichartcomponent)。 |
-| [Format](../../aspose.slides.charts/ierrorbarsformat/format) { get; set; } | 表示误差线的格式。读写 [`IFormat`](../iformat)。 |
-| [HasEndCap](../../aspose.slides.charts/ierrorbarsformat/hasendcap) { get; set; } | 指定在误差线不绘制端帽。读写 Boolean。 |
-| [IsVisible](../../aspose.slides.charts/ierrorbarsformat/isvisible) { get; set; } | 获取或设置 Error Bars 可见性。读写 Boolean。 |
-| [Type](../../aspose.slides.charts/ierrorbarsformat/type) { get; set; } | 获取或设置误差线的类型。读写 [`ErrorBarType`](../errorbartype)。 |
-| [Value](../../aspose.slides.charts/ierrorbarsformat/value) { get; set; } | 获取或设置用于 Fixed、Percentage 和 StandardDeviation 值类型以确定误差线长度的值。读写 Single。 |
-| [ValueType](../../aspose.slides.charts/ierrorbarsformat/valuetype) { get; set; } | 表示确定误差线长度的可能方式。若为自定义值类型，要指定值请使用系列 DataPoints 集合中特定数据点的 [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) 属性。读写 [`ErrorBarValueType`](../errorbarvaluetype)。 |
+| [Format](../../aspose.slides.charts/ierrorbarsformat/format) { get; set; } | 表示误差线的格式。读/写 [`IFormat`](../iformat)。 |
+| [HasEndCap](../../aspose.slides.charts/ierrorbarsformat/hasendcap) { get; set; } | 指定不在误差线上绘制端帽。读/写 Boolean。 |
+| [IsVisible](../../aspose.slides.charts/ierrorbarsformat/isvisible) { get; set; } | 获取或设置误差线的可见性。读/写 Boolean。 |
+| [Type](../../aspose.slides.charts/ierrorbarsformat/type) { get; set; } | 获取或设置误差线的类型。读/写 [`ErrorBarType`](../errorbartype)。 |
+| [Value](../../aspose.slides.charts/ierrorbarsformat/value) { get; set; } | 获取或设置用于 Fixed、Percentage 和 StandardDeviation 类型的值，以确定误差线的长度。读/写 Single。 |
+| [ValueType](../../aspose.slides.charts/ierrorbarsformat/valuetype) { get; set; } | 表示确定误差线长度的可能方式。对于自定义值类型，要指定值，请使用系列 DataPoints 集合中特定数据点的 [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) 属性。读/写 [`ErrorBarValueType`](../errorbarvaluetype)。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [IChartComponent](../ichartcomponent)
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)

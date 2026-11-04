@@ -1,9 +1,9 @@
 ---
 title: HyperlinkActionType
-second_title: Referência da API Aspose.Sildes para .NET
-description: Representa um tipo de ação de hyperlink.
+second_title: Referência de API do Aspose.Sildes para .NET
+description: Representa um tipo de ação de hiperlink.
 type: docs
-weight: 5130
+weight: 5150
 url: /pt/aspose.slides/hyperlinkactiontype/
 ---
 ## HyperlinkActionType enumeração
@@ -35,7 +35,7 @@ public enum HyperlinkActionType
 | StartMacro | `13` | Iniciar execução de script de macro. |
 | StartProgram | `14` | Iniciar programa. |
 
-### Veja também
+### Veja Também
 
 * espaço de nomes [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

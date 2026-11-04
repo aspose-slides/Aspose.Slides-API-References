@@ -1,12 +1,12 @@
 ---
 title: IColorFormat
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili warna yang digunakan dalam presentasi.
 type: docs
-weight: 5490
+weight: 5510
 url: /id/aspose.slides/icolorformat/
 ---
-## antarmuka IColorFormat
+## IColorFormat antarmuka
 
 Mewakili warna yang digunakan dalam presentasi.
 
@@ -39,8 +39,8 @@ public interface IColorFormat : IFillParamSource
 
 | Nama | Deskripsi |
 | --- | --- |
-| [CopyFrom](../../aspose.slides/icolorformat/copyfrom)(IColorFormat) | Salin format warna dari "color". |
-| [ToString](../../aspose.slides/icolorformat/tostring)(ColorStringFormat) | Mengembalikan String yang mewakili format warna saat ini. |
+| [CopyFrom](../../aspose.slides/icolorformat/copyfrom)(IColorFormat) | Menyalin format warna dari "color". |
+| [ToString](../../aspose.slides/icolorformat/tostring)(ColorStringFormat) | Mengembalikan sebuah String yang mewakili format warna saat ini. |
 
 ### Lihat Juga
 

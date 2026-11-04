@@ -1,14 +1,14 @@
 ---
 title: IEffectFormatEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 有効なエフェクト書式プロパティを含む不変オブジェクト。
+description: 有効なエフェクト書式設定プロパティを含む不変オブジェクト。
 type: docs
-weight: 5750
+weight: 5770
 url: /ja/aspose.slides/ieffectformateffectivedata/
 ---
 ## IEffectFormatEffectiveData インターフェイス
 
-有効なエフェクト書式プロパティを含む不変オブジェクト。
+Imutable object which contains effective effect formatting properties.
 
 ```csharp
 public interface IEffectFormatEffectiveData : IEffectParamSource
@@ -16,22 +16,22 @@ public interface IEffectFormatEffectiveData : IEffectParamSource
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [AsIEffectParamSource](../../aspose.slides/ieffectformateffectivedata/asieffectparamsource) { get; } | ベース IEffectParamSource インターフェイスを取得できます。読み取り専用 [`IEffectParamSource`](../ieffectparamsource)。 |
-| [BlurEffect](../../aspose.slides/ieffectformateffectivedata/blureffect) { get; } | ぼかしエフェクト。読み取り専用 [`IBlurEffectiveData`](../../aspose.slides.effects/iblureffectivedata)。 |
-| [FillOverlayEffect](../../aspose.slides/ieffectformateffectivedata/filloverlayeffect) { get; } | 塗りつぶしオーバーレイエフェクト。読み取り専用 [`IFillOverlayEffectiveData`](../../aspose.slides.effects/ifilloverlayeffectivedata)。 |
-| [GlowEffect](../../aspose.slides/ieffectformateffectivedata/gloweffect) { get; } | 輝きエフェクト。読み取り専用 [`IGlowEffectiveData`](../../aspose.slides.effects/igloweffectivedata)。 |
-| [InnerShadowEffect](../../aspose.slides/ieffectformateffectivedata/innershadoweffect) { get; } | 内側の影。読み取り専用 [`IInnerShadowEffectiveData`](../../aspose.slides.effects/iinnershadoweffectivedata)。 |
-| [IsNoEffects](../../aspose.slides/ieffectformateffectivedata/isnoeffects) { get; } | すべてのエフェクトが無効な場合に true を返します（作成直後のデフォルト EffectFormat オブジェクト）。読み取り専用 Boolean。 |
-| [OuterShadowEffect](../../aspose.slides/ieffectformateffectivedata/outershadoweffect) { get; } | 外側の影。読み取り専用 [`IOuterShadowEffectiveData`](../../aspose.slides.effects/ioutershadoweffectivedata)。 |
-| [PresetShadowEffect](../../aspose.slides/ieffectformateffectivedata/presetshadoweffect) { get; } | プリセット影。読み取り専用 [`IPresetShadowEffectiveData`](../../aspose.slides.effects/ipresetshadoweffectivedata)。 |
-| [ReflectionEffect](../../aspose.slides/ieffectformateffectivedata/reflectioneffect) { get; } | 反射。読み取り専用 [`IReflectionEffectiveData`](../../aspose.slides.effects/ireflectioneffectivedata)。 |
-| [SoftEdgeEffect](../../aspose.slides/ieffectformateffectivedata/softedgeeffect) { get; } | ソフトエッジ。読み取り専用 [`ISoftEdgeEffectiveData`](../../aspose.slides.effects/isoftedgeeffectivedata)。 |
+| [AsIEffectParamSource](../../aspose.slides/ieffectformateffectivedata/asieffectparamsource) { get; } | ベース IEffectParamSource インターフェイスを取得できます。 読み取り専用 [`IEffectParamSource`](../ieffectparamsource)。 |
+| [BlurEffect](../../aspose.slides/ieffectformateffectivedata/blureffect) { get; } | ぼかし効果。 読み取り専用 [`IBlurEffectiveData`](../../aspose.slides.effects/iblureffectivedata)。 |
+| [FillOverlayEffect](../../aspose.slides/ieffectformateffectivedata/filloverlayeffect) { get; } | 塗りつぶしオーバーレイ効果。 読み取り専用 [`IFillOverlayEffectiveData`](../../aspose.slides.effects/ifilloverlayeffectivedata)。 |
+| [GlowEffect](../../aspose.slides/ieffectformateffectivedata/gloweffect) { get; } | グロー効果。 読み取り専用 [`IGlowEffectiveData`](../../aspose.slides.effects/igloweffectivedata)。 |
+| [InnerShadowEffect](../../aspose.slides/ieffectformateffectivedata/innershadoweffect) { get; } | 内部シャドウ。 読み取り専用 [`IInnerShadowEffectiveData`](../../aspose.slides.effects/iinnershadoweffectivedata)。 |
+| [IsNoEffects](../../aspose.slides/ieffectformateffectivedata/isnoeffects) { get; } | すべての効果が無効になっている場合 (作成直後のデフォルト EffectFormat オブジェクト) に true を返します。 読み取り専用 Boolean。 |
+| [OuterShadowEffect](../../aspose.slides/ieffectformateffectivedata/outershadoweffect) { get; } | 外部シャドウ。 読み取り専用 [`IOuterShadowEffectiveData`](../../aspose.slides.effects/ioutershadoweffectivedata)。 |
+| [PresetShadowEffect](../../aspose.slides/ieffectformateffectivedata/presetshadoweffect) { get; } | プリセット シャドウ。 読み取り専用 [`IPresetShadowEffectiveData`](../../aspose.slides.effects/ipresetshadoweffectivedata)。 |
+| [ReflectionEffect](../../aspose.slides/ieffectformateffectivedata/reflectioneffect) { get; } | 反射。 読み取り専用 [`IReflectionEffectiveData`](../../aspose.slides.effects/ireflectioneffectivedata)。 |
+| [SoftEdgeEffect](../../aspose.slides/ieffectformateffectivedata/softedgeeffect) { get; } | ソフト エッジ。 読み取り専用 [`ISoftEdgeEffectiveData`](../../aspose.slides.effects/isoftedgeeffectivedata)。 |
 
 ### 備考
 
-このインターフェイスは [`IEffectFormat`](../ieffectformat) インターフェイスと共に使用され、継承が適用された有効な書式値を返します。
+このインターフェイスは [`IEffectFormat`](../ieffectformat) インターフェイスと組み合わせて、継承が適用された実際の書式設定値を返すために使用されます。
 
 ### 参照
 

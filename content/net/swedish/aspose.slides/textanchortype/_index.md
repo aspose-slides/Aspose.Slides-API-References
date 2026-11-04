@@ -1,14 +1,14 @@
 ---
 title: TextAnchorType
 second_title: Aspose.Sildes för .NET API-referens
-description: justering av textruta inom ett textområde.
+description: justering av textrutan inom ett textområde.
 type: docs
-weight: 10910
+weight: 10930
 url: /sv/aspose.slides/textanchortype/
 ---
-## TextAnchorType uppräkning
+## TextAnchorType enum
 
-justering av textlåda inom ett textområde.
+justering av textrutan inom ett textområde.
 
 ```csharp
 public enum TextAnchorType : sbyte
@@ -25,7 +25,7 @@ public enum TextAnchorType : sbyte
 | Justified | `3` |  |
 | Distributed | `4` |  |
 
-### Se också
+### Se även
 
 * namnrymd [Aspose.Slides](../../aspose.slides)
 * samling [Aspose.Slides](../../)

@@ -3,12 +3,12 @@ title: IInnerShadowEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
 description: Oföränderligt objekt som representerar en inre skuggeffekt.
 type: docs
-weight: 3430
+weight: 3450
 url: /sv/aspose.slides.effects/iinnershadoweffectivedata/
 ---
 ## IInnerShadowEffectiveData gränssnitt
 
-Oföränderligt objekt som representerar en inre skuggeffekt.
+Omuterbart objekt som representerar en inre skuggeffekt.
 
 ```csharp
 public interface IInnerShadowEffectiveData : IEffectEffectiveData
@@ -18,11 +18,11 @@ public interface IInnerShadowEffectiveData : IEffectEffectiveData
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iinnershadoweffectivedata/asieffecteffectivedata) { get; } | Tillåter att hämta bas-IEffectEffectiveData-gränssnittet. Skrivskyddad [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iinnershadoweffectivedata/asieffecteffectivedata) { get; } | Tillåter att hämta bas IEffectEffectiveData gränssnitt. Skrivskyddad [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [BlurRadius](../../aspose.slides.effects/iinnershadoweffectivedata/blurradius) { get; } | Suddighetsradie. Skrivskyddad Double. |
-| [Direction](../../aspose.slides.effects/iinnershadoweffectivedata/direction) { get; } | Riktning för skugga. Skrivskyddad Single. |
-| [Distance](../../aspose.slides.effects/iinnershadoweffectivedata/distance) { get; } | Avstånd för skugga. Skrivskyddad Double. |
-| [ShadowColor](../../aspose.slides.effects/iinnershadoweffectivedata/shadowcolor) { get; } | Färg för skugga. Skrivskyddad Color. |
+| [Direction](../../aspose.slides.effects/iinnershadoweffectivedata/direction) { get; } | Skuggans riktning. Skrivskyddad Single. |
+| [Distance](../../aspose.slides.effects/iinnershadoweffectivedata/distance) { get; } | Skuggans avstånd. Skrivskyddad Double. |
+| [ShadowColor](../../aspose.slides.effects/iinnershadoweffectivedata/shadowcolor) { get; } | Skuggans färg. Skrivskyddad Color. |
 
 ### Se även
 

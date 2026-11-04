@@ -1,9 +1,9 @@
 ---
 title: IMasterNotesSlideManager
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET referenční příručku API
 description: Správce snímků hlavních poznámek.
 type: docs
-weight: 6410
+weight: 6430
 url: /cs/aspose.slides/imasternotesslidemanager/
 ---
 ## IMasterNotesSlideManager rozhraní
@@ -18,14 +18,14 @@ public interface IMasterNotesSlideManager
 
 | Název | Popis |
 | --- | --- |
-| [MasterNotesSlide](../../aspose.slides/imasternotesslidemanager/masternotesslide) { get; } | Vrací hlavní snímek pro všechny snímky poznámek v této prezentaci, pokud existuje, jinak vrací null. Pouze pro čtení [`IMasterNotesSlide`](../imasternotesslide). |
+| [MasterNotesSlide](../../aspose.slides/imasternotesslidemanager/masternotesslide) { get; } | Vrací nadřazený objekt pro všechny snímky poznámek této prezentace, pokud existuje, jinak vrací null. Pouze pro čtení [`IMasterNotesSlide`](../imasternotesslide). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [RemoveMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/removemasternotesslide)() | Odstraní hlavní snímek poznámek. |
-| [SetDefaultMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide)() | Nastaví výchozí hlavní snímek poznámek pro související snímek poznámek. |
+| [RemoveMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/removemasternotesslide)() | Odstraňuje hlavní snímek poznámek. |
+| [SetDefaultMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide)() | Nastavuje výchozí hlavní snímek poznámek pro související snímek poznámek. |
 
 ### Viz také
 

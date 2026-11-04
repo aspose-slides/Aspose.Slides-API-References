@@ -3,7 +3,7 @@ title: HtmlFormatter
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar HTML-filmall.
 type: docs
-weight: 3870
+weight: 3890
 url: /sv/aspose.slides.export/htmlformatter/
 ---
 ## HtmlFormatter klass
@@ -18,11 +18,11 @@ public sealed class HtmlFormatter : IHtmlFormatter
 
 | Namn | Beskrivning |
 | --- | --- |
-| static [CreateCustomFormatter](../../aspose.slides.export/htmlformatter/createcustomformatter)(IHtmlFormattingController) | Skapar och returnerar en HTML-formaterare för anpassad callback-styrd HTML-generering. |
-| static [CreateDocumentFormatter](../../aspose.slides.export/htmlformatter/createdocumentformatter)(string, bool) | Skapar och returnerar en HTML-formaterare för en enkel dokumentvy som består av sekvenser av bilder en under en. |
-| static [CreateSlideShowFormatter](../../aspose.slides.export/htmlformatter/createslideshowformatter)(string, bool) | Skapar och returnerar en HTML-formaterare för en enkel bildspels-HTML som visar bilder en efter en. |
+| static [CreateCustomFormatter](../../aspose.slides.export/htmlformatter/createcustomformatter)(IHtmlFormattingController) | Skapar och returnerar HTML-formatterare för anpassad callback-driven html-generering. |
+| static [CreateDocumentFormatter](../../aspose.slides.export/htmlformatter/createdocumentformatter)(string, bool) | Skapar och returnerar HTML-formatterare för en enkel dokumentvy som består av sekvenser av bilder en under annan. |
+| static [CreateSlideShowFormatter](../../aspose.slides.export/htmlformatter/createslideshowformatter)(string, bool) | Skapar och returnerar HTML-formatterare för ett enkelt bildspels-html som visar bilder en efter en. |
 
-### Se även
+### Se också
 
 * gränssnitt [IHtmlFormatter](../ihtmlformatter)
 * namnrymd [Aspose.Slides.Export](../../aspose.slides.export)

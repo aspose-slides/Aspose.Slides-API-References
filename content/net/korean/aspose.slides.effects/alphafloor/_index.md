@@ -1,14 +1,14 @@
 ---
 title: AlphaFloor
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: Alpha Floor 효과를 나타냅니다. 알파 불투명도 값이 100보다 작으면 0으로 변경됩니다. 즉, 부분적으로 투명한 모든 것이 완전히 투명해집니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: Alpha Floor 효과를 나타냅니다. 알파 불투명도 값이 100 미만인 경우 0으로 변경됩니다. 즉, 부분적으로 투명한 모든 것이 완전히 투명해집니다.
 type: docs
-weight: 2860
+weight: 2880
 url: /ko/aspose.slides.effects/alphafloor/
 ---
 ## AlphaFloor 클래스
 
-Alpha Floor 효과를 나타냅니다. Alpha(불투명도) 값이 100% 미만인 경우 0으로 변경됩니다. 즉, 부분적으로 투명한 모든 것이 완전히 투명해집니다.
+Alpha Floor 효과를 나타냅니다. 알파(불투명도) 값이 100% 미만인 경우 0으로 변경됩니다. 즉, 부분적으로 투명한 모든 것이 완전히 투명해집니다.
 
 ```csharp
 public sealed class AlphaFloor : ImageTransformOperation, IAlphaFloor
@@ -26,7 +26,7 @@ public sealed class AlphaFloor : ImageTransformOperation, IAlphaFloor
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphafloor/equals)(object) | 지정된 [`AlphaFloor`](../alphafloor)가 현재 [`AlphaFloor`](../alphafloor)와 같은지 여부를 결정합니다. |
 | [GetEffective](../../aspose.slides.effects/alphafloor/geteffective)() | 상속이 적용된 효과적인 Alpha Floor 효과 데이터를 가져옵니다. |
-| override [GetHashCode](../../aspose.slides.effects/alphafloor/gethashcode)() | 특정 유형에 대한 해시 함수로 사용됩니다. |
+| override [GetHashCode](../../aspose.slides.effects/alphafloor/gethashcode)() | 특정 유형에 대한 해시 함수를 제공합니다. |
 
 ### 참조
 

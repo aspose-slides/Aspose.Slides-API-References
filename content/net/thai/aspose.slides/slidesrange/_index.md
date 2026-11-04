@@ -3,7 +3,7 @@ title: SlidesRange
 second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: ช่วงสไลด์
 type: docs
-weight: 10530
+weight: 10550
 url: /th/aspose.slides/slidesrange/
 ---
 ## SlidesRange คลาส
@@ -18,7 +18,7 @@ public class SlidesRange
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [SlidesRange](slidesrange)() | คอนสตรัคเตอร์เริ่มต้น. |
+| [SlidesRange](slidesrange)() | คอนสตรัคเตอร์เริ่มต้น |
 
 ## คุณสมบัติ
 

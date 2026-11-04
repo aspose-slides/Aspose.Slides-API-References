@@ -1,9 +1,9 @@
 ---
 title: HighlightRegex
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Realça todas as correspondências da expressão regular com a cor especificada.
 type: docs
-weight: 80
+weight: 90
 url: /pt/aspose.slides/itextframe/highlightregex/
 ---
 ## ITextFrame.HighlightRegex método
@@ -35,7 +35,7 @@ using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 }
 ```
 
-### Ver também
+### Veja também
 
 * interface [IFindResultCallback](../../ifindresultcallback)
 * interface [ITextFrame](../../itextframe)

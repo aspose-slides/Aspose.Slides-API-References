@@ -1,9 +1,9 @@
 ---
 title: IInkTrace
-second_title: Aspose.Sildes .NET API hivatkozás
+second_title: Aspose.Sildes .NET API Referenciája
 description: Kézzel írt vonalat képvisel egy Ink objektumban.
 type: docs
-weight: 7540
+weight: 7560
 url: /hu/aspose.slides.ink/iinktrace/
 ---
 ## IInkTrace interfész
@@ -18,8 +18,8 @@ public interface IInkTrace
 
 | Név | Leírás |
 | --- | --- |
-| [Brush](../../aspose.slides.ink/iinktrace/brush) { get; } | Visszaadja a Brush-et az IInkLine [`IInkBrush`](../iinkbrush) számára. Csak olvasható. |
-| [Points](../../aspose.slides.ink/iinktrace/points) { get; } | Visszaadja a pontokat az IInkLine PointF számára. Csak olvasható. |
+| [Brush](../../aspose.slides.ink/iinktrace/brush) { get; } | Lekérdezi a Brush-ot az IInkLine [`IInkBrush`](../iinkbrush) csak olvasható. |
+| [Points](../../aspose.slides.ink/iinktrace/points) { get; } | Lekérdezi a pontokat az IInkLine PointF csak olvasható. |
 
 ### Lásd még
 

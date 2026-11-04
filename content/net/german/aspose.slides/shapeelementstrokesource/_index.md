@@ -1,14 +1,14 @@
 ---
 title: ShapeElementStrokeSource
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt an, wie das Formelement gezeichnet werden soll.
+description: Beschreibt, wie das Formelement gezeichnet werden soll.
 type: docs
-weight: 9890
+weight: 9910
 url: /de/aspose.slides/shapeelementstrokesource/
 ---
 ## ShapeElementStrokeSource Aufzählung
 
-Gibt an, wie das Formelement gezeichnet werden soll.
+Beschreibt, wie das Formelement gezeichnet werden soll.
 
 ```csharp
 public enum ShapeElementStrokeSource : byte
@@ -18,9 +18,9 @@ public enum ShapeElementStrokeSource : byte
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| NoStroke | `0` | Kein Strich für Primitive. |
+| NoStroke | `0` | Keine Kontur für Primitive. |
 | Shape | `1` | Verwende das LineFormat der Form. |
-| OwnStroke | `2` | Verwende eigenen Strich. |
+| OwnStroke | `2` | Verwende eigene Kontur. |
 
 ### Siehe auch
 

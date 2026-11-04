@@ -1,9 +1,9 @@
 ---
 title: ForEach.ForEachShapeCallback
 second_title: Aspose.Sildes pro .NET API Reference
-description: Zpětné volání, které bude vyvoláno pro každou Shape./foreach/shape v Presentation../aspose.slides/presentation.
+description: Zpětné volání, které bude vyvoláno pro každý Shape./foreach/shape v Presentation../aspose.slides/presentation.
 type: docs
-weight: 7950
+weight: 7970
 url: /cs/aspose.slides.lowcode/foreach.foreachshapecallback/
 ---
 ## ForEach.ForEachShapeCallback delegát

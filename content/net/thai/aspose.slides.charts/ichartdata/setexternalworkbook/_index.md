@@ -1,14 +1,14 @@
 ---
 title: SetExternalWorkbook
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: ตั้งค่า workbook ภายนอกเป็นแหล่งข้อมูลสำหรับแผนภูมิ ข้อมูลแผนภูมิจะอัปเดตจาก workbook ที่เป็นเป้าหมาย
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: กำหนดเวิร์กบุ๊กภายนอกเป็นแหล่งข้อมูลสำหรับแผนภูมิ ข้อมูลแผนภูมิจะถูกอัปเดตจากเวิร์กบุ๊กเป้าหมาย.
 type: docs
-weight: 120
+weight: 130
 url: /th/aspose.slides.charts/ichartdata/setexternalworkbook/
 ---
 ## SetExternalWorkbook(string) {#setexternalworkbook}
 
-ตั้งค่า workbook ภายนอกเป็นแหล่งข้อมูลสำหรับแผนภูมิ ข้อมูลแผนภูมิจะอัปเดตจาก workbook ที่เป็นเป้าหมาย
+กำหนดเวิร์กบุ๊กภายนอกเป็นแหล่งข้อมูลสำหรับแผนภูมิ ข้อมูลแผนภูมิจะถูกอัปเดตจากเวิร์กบุ๊กเป้าหมาย.
 
 ```csharp
 public void SetExternalWorkbook(string workbookPath)
@@ -16,13 +16,13 @@ public void SetExternalWorkbook(string workbookPath)
 
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
 | --- | --- | --- |
-| workbookPath | String | เส้นทางไปยัง workbook ที่เป็นเป้าหมาย |
+| workbookPath | String | เส้นทางไปยังเวิร์กบุ๊กเป้าหมาย |
 
 ### ข้อยกเว้น
 
 | ข้อยกเว้น | เงื่อนไข |
 | --- | --- |
-| InvalidOperationException | Workbook ภายนอกไม่พร้อมใช้งานหรือโหลดไม่ได้ |
+| InvalidOperationException | External workbook is not available or can't be loaded. |
 
 ### ตัวอย่าง
 
@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation())
 
 ## SetExternalWorkbook(string, bool) {#setexternalworkbook_1}
 
-ตั้งค่า workbook ภายนอกเป็นแหล่งข้อมูลสำหรับแผนภูมิ
+กำหนดเวิร์กบุ๊กภายนอกเป็นแหล่งข้อมูลสำหรับแผนภูมิ.
 
 ```csharp
 public void SetExternalWorkbook(string workbookPath, bool updateChartData)
@@ -54,14 +54,14 @@ public void SetExternalWorkbook(string workbookPath, bool updateChartData)
 
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
 | --- | --- | --- |
-| workbookPath | String | เส้นทางไปยัง workbook ที่เป็นเป้าหมาย |
-| updateChartData | Boolean | ถ้าค่เป็น false จะอัปเดตเฉพาะเส้นทาง workbook เท่านั้น ข้อมูลแผนภูมิจะไม่ถูกโหลดและอัปเดตจาก workbook ที่เป็นเป้าหมาย สามารถใช้ได้เมื่อ workbook ที่เป็นเป้าหมายไม่มีอยู่หรือไม่พร้อมใช้งาน ถ้าค่เป็น true ข้อมูลแผนภูมิจะถูกอัปเดตจาก workbook ที่เป็นเป้าหมาย |
+| workbookPath | String | เส้นทางไปยังเวิร์กบุ๊กเป้าหมาย |
+| updateChartData | Boolean | หากค่าเป็น false เส้นทางเวิร์กบุ๊กจะถูกอัปเดตเท่านั้น ข้อมูลแผนภูมิจะไม่ถูกโหลดและอัปเดตจากเวิร์กบุ๊กเป้าหมาย สามารถใช้ได้เมื่อเวิร์กบุ๊กเป้าหมายไม่มีอยู่หรือไม่สามารถเข้าถึงได้ หากค่าเป็น true ข้อมูลแผนภูมิจะถูกอัปเดตจากเวิร์กบุ๊กเป้าหมาย. |
 
 ### ข้อยกเว้น
 
 | ข้อยกเว้น | เงื่อนไข |
 | --- | --- |
-| InvalidOperationException | Workbook ภายนอกไม่พร้อมใช้งานหรือโหลดไม่ได้ |
+| InvalidOperationException | External workbook is not available or can't be loaded. |
 
 ### ตัวอย่าง
 

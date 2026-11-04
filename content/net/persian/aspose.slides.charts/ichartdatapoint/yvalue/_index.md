@@ -1,14 +1,14 @@
 ---
 title: YValue
-second_title: Aspose.Sildes برای .NET API مرجع
-description: مقدار y نقطه داده نمودار را برمی‌گرداند. فقط‌قابل‌خواندن IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+second_title: Aspose.Sildes برای .NET مرجع API
+description: مقدار y یک نقطه دادهٔ نمودار را دریافت می‌کند. فقط-خواندنی IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 180
+weight: 220
 url: /fa/aspose.slides.charts/ichartdatapoint/yvalue/
 ---
-## IChartDataPoint.YValue ویژگی
+## IChartDataPoint.YValue خاصیت
 
-مقدار y نقطه داده نمودار را برمی‌گرداند. فقط‌قابل‌خواندن [`IDoubleChartValue`](../../idoublechartvalue).
+مقدار y یک نقطه دادهٔ نمودار را دریافت می‌کند. فقط-خواندنی [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue YValue { get; }

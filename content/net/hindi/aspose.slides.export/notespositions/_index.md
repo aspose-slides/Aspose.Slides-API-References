@@ -1,14 +1,14 @@
 ---
 title: NotesPositions
-second_title: Aspose.Sildes .NET API संदर्भ
-description: नोट्स को निर्यातित दस्तावेज़ में रेंडर करने के नियम का प्रतिनिधित्व करता है
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: निर्यातित दस्तावेज़ में नोट्स को रेंडर करने के नियम को दर्शाता है
 type: docs
-weight: 4300
+weight: 4320
 url: /hi/aspose.slides.export/notespositions/
 ---
-## NotesPositions एन्यूमरेशन
+## NotesPositions एन्युमरेशन
 
-नोट्स को निर्यातित दस्तावेज़ में रेंडर करने के नियम का प्रतिनिधित्व करता है
+Represents the rule to render notes into exported document
 
 ```csharp
 public enum NotesPositions
@@ -16,13 +16,13 @@ public enum NotesPositions
 
 ### मान
 
-| नाम | मान | विवरण |
+| Name | Value | Description |
 | --- | --- | --- |
-| None | `0` | निर्देश देता है कि नोट्स बिल्कुल भी प्रदर्शित नहीं होने चाहिए। |
-| BottomFull | `1` | निर्देश देता है कि नोट्स को आवश्यकतानुसार अतिरिक्त पृष्ठों का उपयोग करके पूर्ण रूप से प्रदर्शित किया जाना चाहिए। |
-| BottomTruncated | `2` | निर्देश देता है कि नोट्स केवल एक पृष्ठ में प्रदर्शित होना चाहिए। |
+| None | `0` | निर्दिष्ट करता है कि नोट्स बिल्कुल भी प्रदर्शित नहीं होने चाहिए। |
+| BottomFull | `1` | निर्दिष्ट करता है कि नोट्स को पूर्ण रूप से प्रदर्शित किया जाना चाहिए, आवश्यकतानुसार अतिरिक्त पृष्ठों का उपयोग करके। |
+| BottomTruncated | `2` | निर्दिष्ट करता है कि नोट्स केवल एक पृष्ठ में प्रदर्शित होने चाहिए। |
 
-### संबंधित देखें
+### देखें
 
 * नामस्थान [Aspose.Slides.Export](../../aspose.slides.export)
 * असेंबली [Aspose.Slides](../../)

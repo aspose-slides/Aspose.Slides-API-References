@@ -1,12 +1,12 @@
 ---
 title: LinkEmbedDecision
-second_title: Referência da API Aspose.Sildes for .NET
-description: Determina como o objeto será processado durante o salvamento.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Determina como o objeto será processado durante a gravação.
 type: docs
-weight: 4230
+weight: 4250
 url: /pt/aspose.slides.export/linkembeddecision/
 ---
-## enumeração LinkEmbedDecision
+## Enumeração LinkEmbedDecision
 
 Determina como o objeto será processado durante a gravação.
 

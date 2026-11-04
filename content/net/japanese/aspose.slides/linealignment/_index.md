@@ -3,7 +3,7 @@ title: LineAlignment
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 行の配置タイプを表します。
 type: docs
-weight: 7720
+weight: 7740
 url: /ja/aspose.slides/linealignment/
 ---
 ## LineAlignment 列挙型

@@ -1,14 +1,14 @@
 ---
 title: ILuminanceEffectiveData
 second_title: Aspose.Sildes a .NET API hivatkozáshoz
-description: Luminancia effektust reprezentál. A fényerő lineárisan közelíti a színeket a fehérhez vagy feketéhoz. A kontraszt úgy méri a színeket, hogy azok közelebb vagy távolabb legyenek egymástól.
+description: Luminance effektust reprezentál. A fényerő lineárisan eltolja az összes színt a fehér vagy feketéhez közelebb. A kontraszt skálázza az összes színt, hogy közelebb vagy távolabb legyenek egymástól.
 type: docs
-weight: 3450
+weight: 3470
 url: /hu/aspose.slides.effects/iluminanceeffectivedata/
 ---
 ## ILuminanceEffectiveData interfész
 
-Luminancia effektust reprezentál. A fényerő lineárisan közelíti a színeket a fehérhez vagy a feketéhez. A kontraszt úgy méri a színeket, hogy azok közelebb vagy távolabb legyenek egymástól.
+Egy Luminance effektust reprezentál. A Fényerő lineárisan eltolja az összes színt a fehér vagy fekete felé. A Kontraszt skálázza az összes színt, hogy közelebb vagy távolabb legyenek egymástól.
 
 ```csharp
 public interface ILuminanceEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface ILuminanceEffectiveData : IEffectEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iluminanceeffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi a bázis IEffectEffectiveData interfész lekérését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iluminanceeffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi az alap IEffectEffectiveData interfész lekérdezését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Brightness](../../aspose.slides.effects/iluminanceeffectivedata/brightness) { get; } | Fényerő. Csak olvasható Single. |
 | [Contrast](../../aspose.slides.effects/iluminanceeffectivedata/contrast) { get; } | Kontraszt. Csak olvasható Single. |
 

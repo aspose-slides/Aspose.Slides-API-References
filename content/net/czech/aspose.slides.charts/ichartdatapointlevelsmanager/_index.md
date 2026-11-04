@@ -1,14 +1,14 @@
 ---
 title: IChartDataPointLevelsManager
 second_title: Aspose.Sildes pro .NET API Reference
-description: Kontejner úrovní datových bodů. Používá se pro řady Treeamp a Sunburst. Indexování úrovní datových bodů je nulové.
+description: Kontejner úrovní datových bodů. Používá se pro řady Treeamp a Sunburst. Indexování úrovní datových bodů je založeno na nule.
 type: docs
-weight: 1850
+weight: 1870
 url: /cs/aspose.slides.charts/ichartdatapointlevelsmanager/
 ---
 ## IChartDataPointLevelsManager rozhraní
 
-Kontejner úrovní datových bodů. Používá se pro řady Treeamp a Sunburst. Indexování úrovní datových bodů je nulové.
+Kontejner úrovní datových bodů. Používá se pro řady Treeamp a Sunburst. Indexování úrovní datových bodů je založeno na nule.
 
 ```csharp
 public interface IChartDataPointLevelsManager

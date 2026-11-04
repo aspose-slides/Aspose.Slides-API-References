@@ -1,14 +1,14 @@
 ---
 title: IMathRadical
-second_title: Aspose.Sildes для .NET справочник API
-description: "Определяет радикальную функцию, состоящую из основания и необязательной степени. Пример радикального объекта: ."
+second_title: Aspose.Sildes для .NET справки API
+description: Определяет радикальную функцию, состоящую из основания и необязательной степени. Пример радикального объекта — .
 type: docs
-weight: 8430
+weight: 8450
 url: /ru/aspose.slides.mathtext/imathradical/
 ---
 ## IMathRadical интерфейс
 
-Определяет радикальную функцию, состоящую из основания и необязательной степени. Пример радикального объекта: √𝑥.
+Определяет радикальную функцию, состоящую из основания и необязательной степени. Пример радикального объекта — √𝑥.
 
 ```csharp
 public interface IMathRadical : IMathElement
@@ -19,9 +19,9 @@ public interface IMathRadical : IMathElement
 | Имя | Описание |
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathradical/asimathelement) { get; } | Позволяет получить базовый интерфейс IMathElement [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathradical/base) { get; } | Аргумент основания |
+| [Base](../../aspose.slides.mathtext/imathradical/base) { get; } | Базовый аргумент |
 | [Degree](../../aspose.slides.mathtext/imathradical/degree) { get; } | Аргумент степени |
-| [HideDegree](../../aspose.slides.mathtext/imathradical/hidedegree) { get; set; } | Скрыть степень. Если значение истинно, степень не отображается, как в √𝑥 |
+| [HideDegree](../../aspose.slides.mathtext/imathradical/hidedegree) { get; set; } | Скрыть степень. Когда true, степень не отображается, как в √𝑥 |
 
 ### Примеры
 

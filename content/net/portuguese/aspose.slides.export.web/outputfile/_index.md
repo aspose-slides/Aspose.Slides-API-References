@@ -1,9 +1,9 @@
 ---
 title: OutputFile
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa um arquivo de saída.
 type: docs
-weight: 4650
+weight: 4670
 url: /pt/aspose.slides.export.web/outputfile/
 ---
 ## OutputFile classe
@@ -18,7 +18,7 @@ public abstract class OutputFile : IOutputFile
 
 | Nome | Descrição |
 | --- | --- |
-| abstract [Write](../../aspose.slides.export.web/outputfile/write)(Stream) | Grava o conteúdo do arquivo no stream. |
+| abstract [Write](../../aspose.slides.export.web/outputfile/write)(Stream) | Grava o conteúdo do arquivo no fluxo. |
 
 ### Veja Também
 

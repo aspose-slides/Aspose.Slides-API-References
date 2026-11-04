@@ -3,12 +3,12 @@ title: HyperlinkColorSource
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Geeft de bron van hyperlinkkleur weer.
 type: docs
-weight: 5140
+weight: 5160
 url: /nl/aspose.slides/hyperlinkcolorsource/
 ---
 ## HyperlinkColorSource enumeratie
 
-Geeft de bron van hyperlinkkleur weer.
+Vertegenwoordigt de bron van hyperlinkkleur.
 
 ```csharp
 public enum HyperlinkColorSource
@@ -18,8 +18,8 @@ public enum HyperlinkColorSource
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| Styles | `0` | Styles. |
-| PortionFormat | `1` | Portion-indeling. |
+| Styles | `0` | Stijlen. |
+| PortionFormat | `1` | Portie-indeling. |
 
 ### Zie ook
 

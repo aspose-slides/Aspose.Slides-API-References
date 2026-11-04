@@ -1,15 +1,14 @@
 ---
 title: Blur
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แทนเอฟเฟกต์ Blur ที่ถูกนำไปใช้กับรูปทรงทั้งหมดรวมถึงการเติมสีของมัน ทุกช่องสีรวมถึงแอลฟ่าได้รับผลกระทบ
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: แสดงถึงเอฟเฟ็กต์ Blur ที่ถูกนำไปใช้กับรูปร่างทั้งหมดรวมถึงการเติมสีของมัน ช่องสีทั้งหมดรวมถึง alpha จะได้รับผลกระทบ.
 type: docs
-weight: 2920
+weight: 2940
 url: /th/aspose.slides.effects/blur/
 ---
+## คลาส Blur
 
-## Blur คลาส
-
-แทนเอฟเฟกต์ Blur ที่ถูกนำไปใช้กับรูปทรงทั้งหมดรวมถึงการเติมสีของมัน ด้วยทุกช่องสีรวมถึงแอลฟ่า
+แสดงถึงเอฟเฟกต์ Blur ที่ถูกนำไปใช้กับรูปร่างทั้งหมด รวมถึงการเติมสีของมัน ช่องสีทั้งหมด รวมถึงช่อง alpha จะได้รับผลกระทบ
 
 ```csharp
 public sealed class Blur : ImageTransformOperation, IBlur
@@ -19,17 +18,17 @@ public sealed class Blur : ImageTransformOperation, IBlur
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้รับอินเทอร์เฟซ IPresentationComponent พื้นฐาน. อ่านอย่างเดียว [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | กำหนดว่าเดิมของวัตถุควรขยายเป็นผลจากการเบลอหรือไม่. True แสดงว่าขอบเขตถูกขยายในขณะที่ false แสดงว่าไม่ขยาย. อ่าน/เขียน Boolean. |
-| [Radius](../../aspose.slides.effects/blur/radius) { get; set; } | คืนค่าหรือกำหนดรัศมีของการเบลอ. อ่าน/เขียน Double. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IPresentationComponent พื้นฐานได้ อ่านอย่างเดียว [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | กำหนดว่าขอบเขตของอ็อบเจกต์ควรขยายตามผลของการเบลอหรือไม่ true หมายถึงขอบเขตจะขยายและ false หมายถึงไม่ขยาย อ่าน/เขียน Boolean. |
+| [Radius](../../aspose.slides.effects/blur/radius) { get; set; } | คืนค่า หรือ ตั้งค่ารัศมีการเบลอ อ่าน/เขียน Double. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/blur/equals)(object) | กำหนดว่า [`Blur`](../blur) ที่ระบุเท่ากับ [`Blur`](../blur) ปัจจุบันหรือไม่. |
-| [GetEffective](../../aspose.slides.effects/blur/geteffective)() | รับข้อมูลเอฟเฟกต์ Blur ที่มีประสิทธิภาพพร้อมการสืบทอดที่ใช้. |
-| override [GetHashCode](../../aspose.slides.effects/blur/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทเฉพาะ. |
+| override [Equals](../../aspose.slides.effects/blur/equals)(object) | กำหนดว่าที่ระบุ [`Blur`](../blur) เท่ากับ [`Blur`](../blur) ปัจจุบันหรือไม่ |
+| [GetEffective](../../aspose.slides.effects/blur/geteffective)() | ดึงข้อมูลเอฟเฟกต์ Blur ที่มีผลรวมของการสืบทอด |
+| override [GetHashCode](../../aspose.slides.effects/blur/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทที่ระบุ |
 
 ### ดูเพิ่มเติม
 

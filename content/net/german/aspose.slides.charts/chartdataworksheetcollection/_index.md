@@ -1,14 +1,14 @@
 ---
 title: ChartDataWorksheetCollection
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Stellt die Sammlung von Arbeitsblättern des Diagrammdaten-Arbeitsbuchs dar.
 type: docs
-weight: 1400
+weight: 1410
 url: /de/aspose.slides.charts/chartdataworksheetcollection/
 ---
 ## ChartDataWorksheetCollection Klasse
 
-Stellt die Sammlung von Arbeitsblättern des Diagrammdaten-Arbeitsbuchs dar.
+Represents the collection of worksheets of chart data workbook.
 
 ```csharp
 public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
@@ -16,23 +16,23 @@ public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartdataworksheetcollection/count) { get; } | Gibt die Anzahl zurück. Nur lesbar Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert ist (Thread-sicher). Nur lesbar Boolean. |
+| [Count](../../aspose.slides.charts/chartdataworksheetcollection/count) { get; } | Gibt die Anzahl zurück. Schreibgeschützt Int32. |
+| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert ist (thread-sicher). Schreibgeschützt Boolean. |
 | [Item](../../aspose.slides.charts/chartdataworksheetcollection/item) { get; } | Gibt das Arbeitsblatt nach Index zurück. |
-| [SyncRoot](../../aspose.slides.charts/chartdataworksheetcollection/syncroot) { get; } | Gibt ein Synchronisations-Root zurück. Nur lesbar Object. |
+| [SyncRoot](../../aspose.slides.charts/chartdataworksheetcollection/syncroot) { get; } | Gibt ein Synchronisations-Root zurück. Schreibgeschützt Object. |
 
 ## Methoden
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [CopyTo](../../aspose.slides.charts/chartdataworksheetcollection/copyto)(Array, int) | Kopiert in das angegebene Array. |
+| [CopyTo](../../aspose.slides.charts/chartdataworksheetcollection/copyto)(Array, int) | In angegebenes Array kopieren. |
 | [GetEnumerator](../../aspose.slides.charts/chartdataworksheetcollection/getenumerator)() | Gibt einen Enumerator zurück, der die Sammlung durchläuft. |
 
 ### Beispiele
 
-Beispiel:
+Example:
 
 ```csharp
 [C#]

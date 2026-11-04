@@ -3,10 +3,10 @@ title: TextStyle
 second_title: Referência da API Aspose.Sildes para .NET
 description: Esta classe contém as propriedades de formatação de estilo de texto.
 type: docs
-weight: 11000
+weight: 11020
 url: /pt/aspose.slides/textstyle/
 ---
-## classe TextStyle
+## TextStyle classe
 
 Esta classe contém as propriedades de formatação de estilo de texto.
 
@@ -26,11 +26,11 @@ public sealed class TextStyle : PVIObject, ITextStyle
 | Nome | Descrição |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compara com o objeto especificado. |
-| [GetEffective](../../aspose.slides/textstyle/geteffective)() | Obtém os dados de formatação de estilo de texto efetivo com a herança aplicada. |
+| [GetEffective](../../aspose.slides/textstyle/geteffective)() | Obtém os dados efetivos de formatação de estilo de texto com a herança aplicada. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Retorna o código hash. |
-| [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | Se o nível de estilo existir, retorna-o; caso contrário, retorna null. |
+| [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | Se o nível de estilo existir, retorna-o; caso contrário, retorna nulo. |
 
-### Ver também
+### Veja Também
 
 * classe [PVIObject](../pviobject)
 * interface [ITextStyle](../itextstyle)

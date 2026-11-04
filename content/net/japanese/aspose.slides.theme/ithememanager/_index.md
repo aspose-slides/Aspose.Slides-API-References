@@ -1,14 +1,14 @@
 ---
 title: IThemeManager
-second_title: Aspose.Sildes の .NET API リファレンス
-description: テーマ プロパティを表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: テーマのプロパティを表します。
 type: docs
-weight: 11390
+weight: 11410
 url: /ja/aspose.slides.theme/ithememanager/
 ---
 ## IThemeManager インターフェイス
 
-テーマ プロパティを表します。
+テーマのプロパティを表します。
 
 ```csharp
 public interface IThemeManager
@@ -18,8 +18,8 @@ public interface IThemeManager
 
 | 名前 | 説明 |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/ithememanager/applycolorscheme)(IExtraColorScheme) | スライドに余分なカラースキームを適用します。 |
-| [CreateThemeEffective](../../aspose.slides.theme/ithememanager/createthemeeffective)() | テーマ オブジェクトを返します。 |
+| [ApplyColorScheme](../../aspose.slides.theme/ithememanager/applycolorscheme)(IExtraColorScheme) | スライドに追加のカラースキームを適用します。 |
+| [CreateThemeEffective](../../aspose.slides.theme/ithememanager/createthemeeffective)() | テーマオブジェクトを返します。 |
 
 ### 参照
 

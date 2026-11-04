@@ -1,14 +1,14 @@
 ---
 title: CustomXmlPartCollection
-second_title: Aspose.Sildes dla .NET - dokumentacja API
-description: Reprezentuje kolekcję niestandardowych części xml.
+second_title: Aspose.Sildes dla .NET Dokumentacja API
+description: Reprezentuje kolekcję niestandardowych części XML.
 type: docs
-weight: 2750
+weight: 2770
 url: /pl/aspose.slides/customxmlpartcollection/
 ---
 ## CustomXmlPartCollection klasa
 
-Reprezentuje kolekcję niestandardowych części xml.
+Represents collection of custom xml parts.
 
 ```csharp
 public class CustomXmlPartCollection : ICustomXmlPartCollection
@@ -18,23 +18,23 @@ public class CustomXmlPartCollection : ICustomXmlPartCollection
 
 | Nazwa | Opis |
 | --- | --- |
-| [Count](../../aspose.slides/customxmlpartcollection/count) { get; } | Zwraca liczbę niestandardowych części xml w kolekcji. Tylko do odczytu Int32. |
-| [IsSynchronized](../../aspose.slides/customxmlpartcollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest synchronizowany (watkowo-bezpieczny). Tylko do odczytu Boolean. |
-| [Item](../../aspose.slides/customxmlpartcollection/item) { get; } | Zwraca element pod określonym indeksem. |
+| [Count](../../aspose.slides/customxmlpartcollection/count) { get; } | Zwraca liczbę niestandardowych części XML w kolekcji. Tylko do odczytu Int32. |
+| [IsSynchronized](../../aspose.slides/customxmlpartcollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest zsynchronizowany (bezpieczny dla wątków). Tylko do odczytu Boolean. |
+| [Item](../../aspose.slides/customxmlpartcollection/item) { get; } | Zwraca element o określonym indeksie. |
 | [SyncRoot](../../aspose.slides/customxmlpartcollection/syncroot) { get; } | Zwraca korzeń synchronizacji. Tylko do odczytu Object. |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [Add](../../aspose.slides/customxmlpartcollection/add#add)(byte[]) | Dodaje nową niestandardową część xml. |
-| [Add](../../aspose.slides/customxmlpartcollection/add#add_1)(Stream) | Dodaje nową niestandardową część xml. |
-| [Add](../../aspose.slides/customxmlpartcollection/add#add_2)(string) | Dodaje nową niestandardową część xml. |
+| [Add](../../aspose.slides/customxmlpartcollection/add#add)(byte[]) | Dodaje nową niestandardową część XML. |
+| [Add](../../aspose.slides/customxmlpartcollection/add#add_1)(Stream) | Dodaje nową niestandardową część XML. |
+| [Add](../../aspose.slides/customxmlpartcollection/add#add_2)(string) | Dodaje nową niestandardową część XML. |
 | [Clear](../../aspose.slides/customxmlpartcollection/clear)() | Usuwa wszystkie elementy z kolekcji. |
 | [CopyTo](../../aspose.slides/customxmlpartcollection/copyto)(Array, int) | Kopiuje do określonej tablicy. |
 | [GetEnumerator](../../aspose.slides/customxmlpartcollection/getenumerator)() | Zwraca enumerator, który iteruje po kolekcji. |
 | [Remove](../../aspose.slides/customxmlpartcollection/remove)(ICustomXmlPart) | Usuwa pierwsze wystąpienie określonego obiektu z kolekcji. |
-| [RemoveAt](../../aspose.slides/customxmlpartcollection/removeat)(int) | Usuwa niestandardową część xml pod określonym indeksem. |
+| [RemoveAt](../../aspose.slides/customxmlpartcollection/removeat)(int) | Usuwa niestandardową część XML o podanym indeksie. |
 
 ### Zobacz także
 

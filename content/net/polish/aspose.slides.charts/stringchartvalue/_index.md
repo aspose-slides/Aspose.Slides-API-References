@@ -1,14 +1,14 @@
 ---
 title: StringChartValue
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: "Reprezentuje wartość tekstową, która może być przechowywana w dokumencie prezentacji pptx na dwa sposoby: 1) w komórce/komórkach skoroszytu powiązanego z wykresem, 2) jako wartość dosłowna."
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Reprezentuje wartość łańcucha znaków, którą można przechowywać w dokumencie prezentacji pptx na dwa sposoby: 1) w komórce/komórkach skoroszytu powiązanego z wykresem, 2) jako wartość literalną.
 type: docs
-weight: 2410
+weight: 2430
 url: /pl/aspose.slides.charts/stringchartvalue/
 ---
 ## StringChartValue klasa
 
-Reprezentuje wartość tekstową, którą można przechowywać w dokumencie prezentacji pptx na dwa sposoby: 1) w komórce/komórkach skoroszytu powiązanego z wykresem; 2) jako wartość dosłowną.
+Reprezentuje wartość łańcucha znaków, którą można przechowywać w dokumencie prezentacji pptx na dwa sposoby: 1) w komórce/komórkach skoroszytu powiązanego z wykresem; 2) jako wartość literalną.
 
 ```csharp
 public class StringChartValue : BaseChartValue, IStringChartValue
@@ -16,20 +16,20 @@ public class StringChartValue : BaseChartValue, IStringChartValue
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
-| [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | Przypisanie wartości null nie jest dozwolone. Zwracana wartość zawsze nie jest null. Odczyt/zapis [`IChartCellCollection`](../ichartcellcollection). |
-| [AsLiteralString](../../aspose.slides.charts/stringchartvalue/asliteralstring) { get; set; } | Zwraca lub ustawia wartość jako łańcuch dosłowny. Odczyt/zapis String. |
+| [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | Przypisywanie wartości null nie jest dozwolone. Zwracana wartość zawsze nie jest null. Odczyt/zapis [`IChartCellCollection`](../ichartcellcollection). |
+| [AsLiteralString](../../aspose.slides.charts/stringchartvalue/asliteralstring) { get; set; } | Zwraca lub ustawia wartość jako łańcuch znaków literalny. Odczyt/zapis String. |
 | override [Data](../../aspose.slides.charts/stringchartvalue/data) { get; set; } | Zwraca lub ustawia obiekt Data. Odczyt/zapis Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Określa, czy właściwość AsCell, AsCells, AsLiteralString lub AsLiteralDouble jest aktualna w klasach pochodnych. Innymi słowy określa typ wartości właściwości Data. Odczyt/zapis [`DataSourceType`](../datasourcetype). |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Określa, czy właściwość AsCell, AsCells, AsLiteralString lub AsLiteralDouble jest aktualna w klasach pochodnych. Inaczej mówiąc określa typ wartości właściwości Data. Odczyt/zapis [`DataSourceType`](../datasourcetype). |
 
 ## Metody
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
-| [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | Jeśli właściwość DataSourceType ma wartość DataSourceType.Worksheet, metoda zwraca adres komórek w skoroszycie, które reprezentują dane tekstowe. W przeciwnym razie zwraca pusty łańcuch. |
+| [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | Jeśli właściwość DataSourceType ma wartość DataSourceType.Worksheet, to ta metoda zwraca adres komórek w skoroszycie, które reprezentują dane łańcucha znaków. W przeciwnym razie zwraca pusty łańcuch. |
 | [SetFromOneCell](../../aspose.slides.charts/stringchartvalue/setfromonecell)(IChartDataCell) | Ustawia wartość z określonej komórki. |
-| override [ToString](../../aspose.slides.charts/stringchartvalue/tostring)() | Zwraca dane wartości tekstowej. Zwraca null, jeśli DataSourceType jest false i nie przypisano wartości tekstowej. |
+| override [ToString](../../aspose.slides.charts/stringchartvalue/tostring)() | Zwraca dane wartości łańcucha znaków. Zwraca null, jeśli DataSourceType jest false i nie przypisano wartości łańcucha znaków. |
 
 ### Zobacz także
 

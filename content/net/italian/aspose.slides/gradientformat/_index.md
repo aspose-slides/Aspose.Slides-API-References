@@ -1,14 +1,14 @@
 ---
 title: GradientFormat
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta un formato gradiente.
+description: Rappresenta un formato di gradiente.
 type: docs
-weight: 5000
+weight: 5020
 url: /it/aspose.slides/gradientformat/
 ---
 ## GradientFormat classe
 
-Rappresenta un formato gradiente.
+Represent a gradient format.
 
 ```csharp
 public sealed class GradientFormat : PVIObject, IGradientFormat
@@ -16,19 +16,19 @@ public sealed class GradientFormat : PVIObject, IGradientFormat
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia IPresentationComponent di base. Solo lettura [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia base IPresentationComponent. Solo lettura [`IPresentationComponent`](../ipresentationcomponent). |
 | [GradientDirection](../../aspose.slides/gradientformat/gradientdirection) { get; set; } | Restituisce o imposta lo stile di un gradiente. Lettura/scrittura [`GradientDirection`](../gradientdirection). |
 | [GradientShape](../../aspose.slides/gradientformat/gradientshape) { get; set; } | Restituisce o imposta la forma di un gradiente. Lettura/scrittura [`GradientShape`](../gradientshape). |
-| [GradientStops](../../aspose.slides/gradientformat/gradientstops) { get; } | Restituisce la collezione di fermate del gradiente. Solo lettura [`IGradientStopCollection`](../igradientstopcollection). |
+| [GradientStops](../../aspose.slides/gradientformat/gradientstops) { get; } | Restituisce la raccolta di interruzioni di gradiente. Solo lettura [`IGradientStopCollection`](../igradientstopcollection). |
 | [LinearGradientAngle](../../aspose.slides/gradientformat/lineargradientangle) { get; set; } | Restituisce o imposta l'angolo di un gradiente. Lettura/scrittura Single. |
 | [LinearGradientScaled](../../aspose.slides/gradientformat/lineargradientscaled) { get; set; } | Determina se un gradiente è scalato. Lettura/scrittura [`NullableBool`](../nullablebool). |
 | [TileFlip](../../aspose.slides/gradientformat/tileflip) { get; set; } | Restituisce o imposta la modalità di ribaltamento per un gradiente. Lettura/scrittura [`TileFlip`](../tileflip). |
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Confronta con l'oggetto specificato. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Restituisce il codice hash. |

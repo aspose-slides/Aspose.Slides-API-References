@@ -1,9 +1,9 @@
 ---
 title: MathGroupingCharacterFactory
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Slides for .NET API リファレンス
 description: 数式のグループ化文字を作成できます
 type: docs
-weight: 8770
+weight: 8790
 url: /ja/aspose.slides.mathtext/mathgroupingcharacterfactory/
 ---
 ## MathGroupingCharacterFactory クラス
@@ -18,7 +18,7 @@ public class MathGroupingCharacterFactory : IMathGroupingCharacterFactory
 
 | 名前 | 説明 |
 | --- | --- |
-| [MathGroupingCharacterFactory](mathgroupingcharacterfactory)() | 既定のコンストラクタです。 |
+| [MathGroupingCharacterFactory](mathgroupingcharacterfactory)() | デフォルト コンストラクタ。 |
 
 ## メソッド
 

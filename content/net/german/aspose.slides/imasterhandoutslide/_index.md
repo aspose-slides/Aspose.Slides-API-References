@@ -3,7 +3,7 @@ title: IMasterHandoutSlide
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt die Master-Folie für Handzettel dar.
 type: docs
-weight: 6350
+weight: 6370
 url: /de/aspose.slides/imasterhandoutslide/
 ---
 ## IMasterHandoutSlide Schnittstelle
@@ -18,10 +18,10 @@ public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IBaseSlide. Nur lesbar [`IBaseSlide`](../ibaseslide). |
-| [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | Gibt die Schnittstelle IMagerThemeable zurück. Nur lesbar [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [DrawingGuides](../../aspose.slides/imasterhandoutslide/drawingguides) { get; } | Gibt eine Sammlung von Zeichenhilfen für die Master-Handout-Folie zurück. Nur lesbar [`IDrawingGuidesCollection`](../idrawingguidescollection). |
-| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | Gibt den HeaderFooter-Manager der Master-Handout-Folie zurück. Nur lesbar [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
+| [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | Ermöglicht das Abrufen der Basis-IBaseSlide-Schnittstelle. Nur-Lesen [`IBaseSlide`](../ibaseslide). |
+| [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | Gibt die IMasterThemeable-Schnittstelle zurück. Nur-Lesen [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
+| [DrawingGuides](../../aspose.slides/imasterhandoutslide/drawingguides) { get; } | Gibt eine Sammlung von Zeichenhilfen für die Master-Handout-Folie zurück. Nur-Lesen [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | Gibt den HeaderFooter-Manager der Master-Handout-Folie zurück. Nur-Lesen [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
 
 ### Siehe auch
 

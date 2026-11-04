@@ -1,14 +1,14 @@
 ---
 title: ISoftEdge
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence API Aspose.Sildes for .NET
 description: Représente un effet de bord doux. Les bords de la forme sont flous tandis que le remplissage n'est pas affecté.
 type: docs
-weight: 3520
+weight: 3540
 url: /fr/aspose.slides.effects/isoftedge/
 ---
 ## ISoftEdge interface
 
-Représente un effet de bord souple. Les bords de la forme sont flous, tandis que le remplissage n’est pas affecté.
+Représente un effet de bord doux. Les bords de la forme sont flous, tandis que le remplissage n'est pas affecté.
 
 ```csharp
 public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImageTransformOperation
@@ -18,8 +18,8 @@ public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImag
 
 | Nom | Description |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | Permet d’obtenir l’interface de base IAccessiblePVIObject. Lecture seule [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | Permet d’obtenir l’interface de base IImageTransformOperation. Lecture seule [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | Permet d'obtenir l'interface de base IAccessiblePVIObject. Lecture seule [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | Permet d'obtenir l'interface de base IImageTransformOperation. Lecture seule [`IImageTransformOperation`](../iimagetransformoperation). |
 | [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | Spécifie le rayon du flou à appliquer aux bords. Lecture/écriture Double. |
 
 ### Voir aussi

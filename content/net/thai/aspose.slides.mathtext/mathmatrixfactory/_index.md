@@ -1,9 +1,9 @@
 ---
 title: MathMatrixFactory
-second_title: การอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
 description: อนุญาตให้สร้างเมทริกซ์คณิตศาสตร์
 type: docs
-weight: 8860
+weight: 8880
 url: /th/aspose.slides.mathtext/mathmatrixfactory/
 ---
 ## MathMatrixFactory คลาส
@@ -14,11 +14,11 @@ url: /th/aspose.slides.mathtext/mathmatrixfactory/
 public class MathMatrixFactory : IMathMatrixFactory
 ```
 
-## คอนสตรัคเตอร์
+## คอนสตรักเตอร์
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [MathMatrixFactory](mathmatrixfactory)() | คอนสตรัคเตอร์เริ่มต้น |
+| [MathMatrixFactory](mathmatrixfactory)() | คอนสตรักเตอร์เริ่มต้น |
 
 ## เมธอด
 
@@ -28,7 +28,7 @@ public class MathMatrixFactory : IMathMatrixFactory
 
 ### หมายเหตุ
 
-สำหรับความเข้ากันได้กับ COM
+สำหรับการเข้ากันได้กับ COM
 
 ### ดูเพิ่มเติม
 

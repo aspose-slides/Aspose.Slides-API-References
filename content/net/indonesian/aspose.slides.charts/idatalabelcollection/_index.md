@@ -1,14 +1,14 @@
 ---
 title: IDataLabelCollection
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili label seri.
 type: docs
-weight: 2030
+weight: 2050
 url: /id/aspose.slides.charts/idatalabelcollection/
 ---
 ## IDataLabelCollection antarmuka
 
-Mewakili label seri.
+Represents a series labels.
 
 ```csharp
 public interface IDataLabelCollection : IChartComponent, IEnumerable<IDataLabel>
@@ -18,21 +18,22 @@ public interface IDataLabelCollection : IChartComponent, IEnumerable<IDataLabel>
 
 | Name | Description |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/idatalabelcollection/asichartcomponent) { get; } | Mengizinkan mendapatkan antarmuka dasar IChartComponent. Hanya baca [`IChartComponent`](../ichartcomponent). |
-| [AsIEnumerable](../../aspose.slides.charts/idatalabelcollection/asienumerable) { get; } | Mengizinkan mendapatkan antarmuka dasar IEnumerable. Hanya baca IEnumerable. |
-| [Count](../../aspose.slides.charts/idatalabelcollection/count) { get; } | Mendapatkan jumlah semua label data dalam koleksi. Hanya baca Int32. |
-| [CountOfVisibleDataLabels](../../aspose.slides.charts/idatalabelcollection/countofvisibledatalabels) { get; } | Mendapatkan jumlah label data yang terlihat dalam koleksi. Hanya baca Int32. |
-| [DefaultDataLabelFormat](../../aspose.slides.charts/idatalabelcollection/defaultdatalabelformat) { get; } | Mengembalikan format default semua label data dalam koleksi. Hanya baca [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/idatalabelcollection/isvisible) { get; } | False berarti label data tidak terlihat secara default (dan sehingga semua flag Show* (ShowValue, ...) dari properti DefaultDataLabelFormat adalah false). Hanya baca Boolean. |
+| [AsIChartComponent](../../aspose.slides.charts/idatalabelcollection/asichartcomponent) { get; } | Memungkinkan untuk mendapatkan antarmuka IChartComponent dasar. Baca-saja [`IChartComponent`](../ichartcomponent). |
+| [AsIEnumerable](../../aspose.slides.charts/idatalabelcollection/asienumerable) { get; } | Memungkinkan untuk mendapatkan antarmuka IEnumerable dasar. Baca-saja IEnumerable. |
+| [Count](../../aspose.slides.charts/idatalabelcollection/count) { get; } | Mendapatkan jumlah semua label data dalam koleksi. Baca-saja Int32. |
+| [CountOfVisibleDataLabels](../../aspose.slides.charts/idatalabelcollection/countofvisibledatalabels) { get; } | Mendapatkan jumlah label data yang terlihat dalam koleksi. Baca-saja Int32. |
+| [DefaultDataLabelFormat](../../aspose.slides.charts/idatalabelcollection/defaultdatalabelformat) { get; } | Mengembalikan format default semua label data dalam koleksi. Baca-saja [`IDataLabelFormat`](../idatalabelformat). |
+| [DefaultLabelShapeType](../../aspose.slides.charts/idatalabelcollection/defaultlabelshapetype) { get; set; } | Mendapatkan atau mengatur tipe bentuk default untuk label data. Mengembalikan NotDefined jika tidak ada bentuk yang ditetapkan. |
+| [IsVisible](../../aspose.slides.charts/idatalabelcollection/isvisible) { get; } | False berarti label data tidak terlihat secara default (dan sehingga semua flag Show*- (ShowValue, ...) dari properti DefaultDataLabelFormat bernilai false). Baca-saja Boolean. |
 | [Item](../../aspose.slides.charts/idatalabelcollection/item) { get; } | Mendapatkan label data untuk titik data dengan indeks yang ditentukan. |
-| [LeaderLinesFormat](../../aspose.slides.charts/idatalabelcollection/leaderlinesformat) { get; } | Mewakili format garis pemimpin label data. Hanya baca [`IChartLinesFormat`](../ichartlinesformat). |
-| [ParentSeries](../../aspose.slides.charts/idatalabelcollection/parentseries) { get; } | Mengembalikan seri diagram induk. Hanya baca [`IChartSeries`](../ichartseries). |
+| [LeaderLinesFormat](../../aspose.slides.charts/idatalabelcollection/leaderlinesformat) { get; } | Mewakili format garis pemimpin label data. Baca-saja [`IChartLinesFormat`](../ichartlinesformat). |
+| [ParentSeries](../../aspose.slides.charts/idatalabelcollection/parentseries) { get; } | Mengembalikan seri diagram induk. Baca-saja [`IChartSeries`](../ichartseries). |
 
 ## Metode
 
 | Name | Description |
 | --- | --- |
-| [Hide](../../aspose.slides.charts/idatalabelcollection/hide)() | Membuat label data tersembunyi secara default dengan mengatur semua flag Show* (ShowValue, ...) dari properti DefaultDataLabelFormat ke keadaan false. IsVisible akan menjadi false setelah ini. |
+| [Hide](../../aspose.slides.charts/idatalabelcollection/hide)() | Membuat label data tersembunyi secara default dengan mengatur semua flag Show*- (ShowValue, ...) dari properti DefaultDataLabelFormat ke keadaan false. IsVisible akan menjadi false setelah ini. |
 | [IndexOf](../../aspose.slides.charts/idatalabelcollection/indexof)(IDataLabel) | Mengembalikan indeks DataLabel yang ditentukan dalam koleksi. |
 
 ### Lihat Juga

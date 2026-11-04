@@ -1,9 +1,9 @@
 ---
 title: MathVerticalAlignment
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 수직 정렬
 type: docs
-weight: 9050
+weight: 9070
 url: /ko/aspose.slides.mathtext/mathverticalalignment/
 ---
 ## MathVerticalAlignment 열거형
@@ -19,11 +19,11 @@ public enum MathVerticalAlignment
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
 | NotDefined | `0` | 값이 정의되지 않음 |
-| Top | `1` | 위쪽 |
-| Center | `2` | 가운데 |
-| Bottom | `3` | 아래쪽 |
+| Top | `1` | Top |
+| Center | `2` | Center |
+| Bottom | `3` | Bottom |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 어셈블리 [Aspose.Slides](../../)

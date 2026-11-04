@@ -1,14 +1,14 @@
 ---
 title: ILightRigEffectiveData
-second_title: Aspose.Sildes for .NET API Referansı
-description: Etkili ışık donanımı özelliklerini içeren değiştirilemez nesne.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Etkili ışık düzeni özelliklerini içeren değiştirilemez nesne.
 type: docs
-weight: 6280
+weight: 6300
 url: /tr/aspose.slides/ilightrigeffectivedata/
 ---
-## ILightRigEffectiveData arayüz
+## ILightRigEffectiveData arabirimi
 
-Etkili ışık donanımı özelliklerini içeren değiştirilemez nesne.
+Etkili ışık düzeni özelliklerini içeren değiştirilemez nesne.
 
 ```csharp
 public interface ILightRigEffectiveData
@@ -18,18 +18,18 @@ public interface ILightRigEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [Direction](../../aspose.slides/ilightrigeffectivedata/direction) { get; } | Işık yönü. Yalnızca okuma [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | Bir şekle uygulanabilen önceden ayarlanmış bir ışık hakkını temsil eder. Işık donanımı, 3D sahneye göre belirli bir şekilde konumlandırılmış ışık grubunu temsil eder. Yalnızca okuma [`LightRigPresetType`](../lightrigpresettype). |
+| [Direction](../../aspose.slides/ilightrigeffectivedata/direction) { get; } | Işık yönü. Yalnızca okunur [`LightingDirection`](../lightingdirection). |
+| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | Bir şekle uygulanabilen önceden ayarlanmış bir ışık yönünü temsil eder. Işık düzeni, 3B sahneye göre belirli bir şekilde yönlendirilmiş bir ışık grubunu temsil eder. Yalnızca okunur [`LightRigPresetType`](../lightrigpresettype). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | Bir dönüş, enlem koordinatı, boylam koordinatı ve enlem ile boylam koordinatları olarak eksen etrafında bir devir kullanılarak tanımlanır. Dönüş dizisinin ilk öğesi - enlem, ikinci - boylam, üçüncü - devir. |
+| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | Bir dönüş, enlem koordinatı, boylam koordinatı ve enlem ve boylam koordinatlarına göre eksen etrafında bir devrim kullanılarak tanımlanır. Döndürülen dizideki ilk öğe - enlem, ikincisi - boylam, üçüncüsü - devrim. |
 
 ### Açıklamalar
 
-Bu arayüz [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata) parçası olarak kullanılır.
+Bu arabirim, [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata) parçası olarak kullanılır.
 
 ### Ayrıca Bakınız
 

@@ -3,12 +3,12 @@ title: ColorStringFormat
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje typ akce hypertextového odkazu.
 type: docs
-weight: 2560
+weight: 2580
 url: /cs/aspose.slides/colorstringformat/
 ---
-## ColorStringFormat enumerace
+## ColorStringFormat výčet
 
-Representuje typ akce hypertextového odkazu.
+Reprezentuje typ akce hypertextového odkazu.
 
 ```csharp
 public enum ColorStringFormat

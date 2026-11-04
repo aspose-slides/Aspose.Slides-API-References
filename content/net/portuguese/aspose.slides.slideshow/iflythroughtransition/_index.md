@@ -1,14 +1,14 @@
 ---
 title: IFlyThroughTransition
-second_title: Aspose.Sildes para .NET - Referência da API
-description: Efeito de transição de slide fly-through.
+second_title: Aspose.Sildes para Referência da API .NET
+description: Efeito de transição de slide em voo.
 type: docs
-weight: 10090
+weight: 10110
 url: /pt/aspose.slides.slideshow/iflythroughtransition/
 ---
 ## IFlyThroughTransition interface
 
-Efeito de transição de slide fly-through.
+Efeito de transição de slide em voo.
 
 ```csharp
 public interface IFlyThroughTransition : ITransitionValueBase
@@ -20,9 +20,9 @@ public interface IFlyThroughTransition : ITransitionValueBase
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/iflythroughtransition/asitransitionvaluebase) { get; } | Permite obter a interface base ITransitionValueBase. Somente leitura [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/iflythroughtransition/direction) { get; set; } | Direção da transição. Leitura/gravação [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [HasBounce](../../aspose.slides.slideshow/iflythroughtransition/hasbounce) { get; set; } | Especifica que o movimento dos slides da apresentação durante a transição inclui um salto. Leitura/gravação Boolean. |
+| [HasBounce](../../aspose.slides.slideshow/iflythroughtransition/hasbounce) { get; set; } | Especifica que o movimento dos slides da apresentação durante a transição inclui um rebote. Leitura/gravação Boolean. |
 
-### Veja Também
+### Ver também
 
 * interface [ITransitionValueBase](../itransitionvaluebase)
 * namespace [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

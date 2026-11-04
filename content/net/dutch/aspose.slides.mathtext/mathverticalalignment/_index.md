@@ -1,9 +1,9 @@
 ---
 title: MathVerticalAlignment
-second_title: Aspose.Sildes voor .NET API-referentie
+second_title: Aspose.Sildes voor .NET API Referentie
 description: Verticale uitlijning
 type: docs
-weight: 9050
+weight: 9070
 url: /nl/aspose.slides.mathtext/mathverticalalignment/
 ---
 ## MathVerticalAlignment enumeratie
@@ -16,7 +16,7 @@ public enum MathVerticalAlignment
 
 ### Waarden
 
-| Naam | Waarde | Beschrijving |
+| Name | Value | Beschrijving |
 | --- | --- | --- |
 | NotDefined | `0` | Waarde is niet gedefinieerd |
 | Top | `1` | Boven |

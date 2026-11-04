@@ -3,10 +3,12 @@ title: IMathElementCollection
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Sammlung mathematischer Elemente MathElement dar.
 type: docs
-weight: 8240
+weight: 8260
 url: /de/aspose.slides.mathtext/imathelementcollection/
 ---
 ## IMathElementCollection Schnittstelle
+
+Stellt eine Sammlung von mathematischen Elementen (MathElement) dar.
 
 ```csharp
 public interface IMathElementCollection : IEnumerable<IMathElement>
@@ -16,9 +18,9 @@ public interface IMathElementCollection : IEnumerable<IMathElement>
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.mathtext/imathelementcollection/asienumerable) { get; } | Gibt IEnumerable-Schnittstelle zurück. Nur lesbar IEnumerable. |
-| [Count](../../aspose.slides.mathtext/imathelementcollection/count) { get; } | Ermittelt die tatsächlich in der Sammlung enthaltene Anzahl von Elementen. Nur lesbar Int32. |
-| [Item](../../aspose.slides.mathtext/imathelementcollection/item) { get; } | Ermittelt das Element am angegebenen Index. Nur lesbar [`IMathElement`](../imathelement). |
+| [AsIEnumerable](../../aspose.slides.mathtext/imathelementcollection/asienumerable) { get; } | Gibt IEnumerable-Schnittstelle zurück. Nur-Lese IEnumerable. |
+| [Count](../../aspose.slides.mathtext/imathelementcollection/count) { get; } | Liefert die tatsächlich in der Sammlung enthaltene Elementanzahl. Nur-Lese Int32. |
+| [Item](../../aspose.slides.mathtext/imathelementcollection/item) { get; } | Liefert das Element am angegebenen Index. Nur-Lese [`IMathElement`](../imathelement). |
 
 ## Methoden
 
@@ -27,7 +29,7 @@ public interface IMathElementCollection : IEnumerable<IMathElement>
 | [Add](../../aspose.slides.mathtext/imathelementcollection/add)(IMathElement) | Fügt ein mathematisches Element am Ende der Sammlung hinzu. |
 | [Clear](../../aspose.slides.mathtext/imathelementcollection/clear)() | Entfernt alle Elemente aus der Sammlung. |
 | [Contains](../../aspose.slides.mathtext/imathelementcollection/contains)(IMathElement) | Bestimmt, ob die Sammlung einen bestimmten Wert enthält. |
-| [CopyTo](../../aspose.slides.mathtext/imathelementcollection/copyto)(IMathElement[], int) | Kopiert in ein angegebenes Array. |
+| [CopyTo](../../aspose.slides.mathtext/imathelementcollection/copyto)(IMathElement[], int) | Kopiert in das angegebene Array. |
 | [IndexOf](../../aspose.slides.mathtext/imathelementcollection/indexof)(IMathElement) | Bestimmt den Index eines bestimmten mathematischen Elements in der Sammlung. |
 | [Insert](../../aspose.slides.mathtext/imathelementcollection/insert)(int, IMathElement) | Fügt ein mathematisches Element an dem angegebenen Index in die Sammlung ein. |
 | [Remove](../../aspose.slides.mathtext/imathelementcollection/remove)(IMathElement) | Entfernt das erste Vorkommen eines bestimmten Objekts aus der Sammlung. |
@@ -35,7 +37,7 @@ public interface IMathElementCollection : IEnumerable<IMathElement>
 
 ### Beispiele
 
-Example:
+Beispiel:
 
 ```csharp
 [C#]

@@ -1,14 +1,14 @@
 ---
 title: IMorphTransition
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Hiệu ứng chuyển đổi slide dạng Ripple.
+second_title: Tham chiếu API .NET cho Aspose.Sildes
+description: Hiệu ứng chuyển đổi slide dạng ripple.
 type: docs
-weight: 10130
+weight: 10150
 url: /vi/aspose.slides.slideshow/imorphtransition/
 ---
 ## Giao diện IMorphTransition
 
-Hiệu ứng chuyển đổi slide dạng Ripple.
+Hiệu ứng chuyển slide dạng ripple.
 
 ```csharp
 public interface IMorphTransition : ITransitionValueBase
@@ -16,10 +16,10 @@ public interface IMorphTransition : ITransitionValueBase
 
 ## Thuộc tính
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/imorphtransition/asitransitionvaluebase) { get; } | Cho phép lấy giao diện ITransitionValueBase cơ bản. Chỉ đọc [`ITransitionValueBase`](../itransitionvaluebase). |
-| [MorphType](../../aspose.slides.slideshow/imorphtransition/morphtype) { get; set; } | Kiểu của chuyển đổi morph. Đọc/ghi [`TransitionMorphType`](../transitionmorphtype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/imorphtransition/asitransitionvaluebase) { get; } | Cho phép lấy giao diện cơ sở ITransitionValueBase. Chỉ đọc [`ITransitionValueBase`](../itransitionvaluebase). |
+| [MorphType](../../aspose.slides.slideshow/imorphtransition/morphtype) { get; set; } | Kiểu chuyển đổi morph. Đọc/ghi [`TransitionMorphType`](../transitionmorphtype). |
 
 ### Xem thêm
 

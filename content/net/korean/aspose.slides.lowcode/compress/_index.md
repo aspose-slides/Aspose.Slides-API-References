@@ -1,14 +1,14 @@
 ---
 title: Compress
-second_title: Aspose.Sildes .NET API 참조
-description: Presentation../aspose.slides/presentation을 압축하도록 설계된 메서드 그룹을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: Presentation을 압축하기 위한 메서드 그룹을 나타냅니다 Presentation../aspose.slides/presentation.
 type: docs
-weight: 7870
+weight: 7890
 url: /ko/aspose.slides.lowcode/compress/
 ---
 ## Compress 클래스
 
-[`Presentation`](../../aspose.slides/presentation)를 압축하도록 설계된 메서드 그룹을 나타냅니다.
+[`Presentation`](../../aspose.slides/presentation)을 압축하기 위한 메서드 그룹을 나타냅니다.
 
 ```csharp
 public static class Compress
@@ -16,11 +16,13 @@ public static class Compress
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | 내장된 글꼴에서 사용되지 않는 문자를 제거하여 [`Presentation`](../../aspose.slides/presentation)를 압축합니다. |
-| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | 사용되지 않는 레이아웃 슬라이드를 제거하여 [`Presentation`](../../aspose.slides/presentation)를 압축합니다. |
-| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | 사용되지 않는 마스터 슬라이드를 제거하여 [`Presentation`](../../aspose.slides/presentation)를 압축합니다. |
+| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | 임베디드 글꼴에서 사용되지 않는 문자를 제거하여 [`Presentation`](../../aspose.slides/presentation)를 압축합니다. |
+| static [CompressImages](../../aspose.slides.lowcode/compress/compressimages)(IPresentation, PicturesCompression) | 프레젠테이션의 그림 해상도를 낮추고 잘린 영역을 삭제합니다. 이는 PowerPoint의 "Compress Pictures"와 유사하게 모든 그림에 적용됩니다. 슬라이드, 레이아웃 슬라이드 및 마스터 슬라이드의 그림이 처리되며, 그룹 도형 내부의 그림 및 도형의 그림 채우기도 포함됩니다. |
+| static [CompressPresentation](../../aspose.slides.lowcode/compress/compresspresentation)(Presentation) | 사용 가능한 모든 압축 단계를 적용하여 프레젠테이션 크기를 줄입니다: |
+| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | [`Presentation`](../../aspose.slides/presentation)에서 사용되지 않은 레이아웃 슬라이드를 제거하여 압축합니다. |
+| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | [`Presentation`](../../aspose.slides/presentation)에서 사용되지 않은 마스터 슬라이드를 제거하여 압축합니다. |
 
 ### 예제
 
@@ -33,7 +35,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
 * 어셈블리 [Aspose.Slides](../../)

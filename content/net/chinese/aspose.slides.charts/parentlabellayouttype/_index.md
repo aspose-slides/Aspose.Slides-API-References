@@ -1,14 +1,14 @@
 ---
 title: ParentLabelLayoutType
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示类别数据标签的布局。仅在 Treemap 系列中使用。
+description: 表示类别数据标签的布局。仅适用于 Treemap 系列。
 type: docs
-weight: 2350
+weight: 2370
 url: /zh/aspose.slides.charts/parentlabellayouttype/
 ---
 ## ParentLabelLayoutType 枚举
 
-表示类别数据标签的布局。仅在 Treemap 系列中使用。
+表示类别数据标签的布局。仅适用于 Treemap 系列。
 
 ```csharp
 public enum ParentLabelLayoutType

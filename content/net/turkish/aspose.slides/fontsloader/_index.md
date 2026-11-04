@@ -1,12 +1,12 @@
 ---
 title: FontsLoader
 second_title: Aspose.Sildes for .NET API Referansı
-description: Kullanıcı tarafından tanımlanan özel yazı tiplerini yüklemek için sınıf. Herhangi bir sunum nesnesi oluşturmadan önce kullanılmalıdır.
+description: Kullanıcı tarafından tanımlanan özel yazı tiplerini yüklemek için sınıf. Sunum nesneleri oluşturmadan önce kullanılmalıdır.
 type: docs
-weight: 4930
+weight: 4950
 url: /tr/aspose.slides/fontsloader/
 ---
-## FontsLoader sınıf
+## FontsLoader sınıfı
 
 Kullanıcı tarafından tanımlanan özel yazı tiplerini yüklemek için sınıf. Herhangi bir sunum nesnesi oluşturmadan önce kullanılmalıdır.
 
@@ -16,14 +16,14 @@ public sealed class FontsLoader : IFontsLoader
 
 ## Yöntemler
 
-| Ad | Açıklama |
+| İsim | Açıklama |
 | --- | --- |
 | static [ClearCache](../../aspose.slides/fontsloader/clearcache)() | Kullanıcı tarafından tanımlanan tüm özel yazı tiplerini serbest bırakır |
 | static [GetFontFolders](../../aspose.slides/fontsloader/getfontfolders)() | Yazı tipi klasörlerini alır. LoadExternalFonts yöntemiyle eklenen klasörlerin yanı sıra sistem yazı tipi klasörlerini de döndürür |
-| static [LoadExternalFont](../../aspose.slides/fontsloader/loadexternalfont)(byte[]) | İkili veriden yazı tipi ekler |
+| static [LoadExternalFont](../../aspose.slides/fontsloader/loadexternalfont)(byte[]) | İkili veriden bir yazı tipi ekler |
 | static [LoadExternalFonts](../../aspose.slides/fontsloader/loadexternalfonts)(string[]) | Yazı tiplerini aramak için ek klasörler ekler. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * arayüz [IFontsLoader](../ifontsloader)
 * ad alanı [Aspose.Slides](../../aspose.slides)

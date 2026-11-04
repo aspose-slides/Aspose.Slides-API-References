@@ -1,9 +1,9 @@
 ---
 title: ISpreadsheetOptions
-second_title: Aspose.Sildes dla referencji API .NET
-description: Reprezentuje opcje, które mogą być użyte do określenia dodatkowego zachowania arkuszy kalkulacyjnych.
+second_title: Aspose.Sildes dla .NET API Reference
+description: Reprezentuje opcje, które można użyć do określenia dodatkowego zachowania arkuszy kalkulacyjnych.
 type: docs
-weight: 7120
+weight: 7140
 url: /pl/aspose.slides/ispreadsheetoptions/
 ---
 ## ISpreadsheetOptions interfejs
@@ -18,8 +18,8 @@ public interface ISpreadsheetOptions
 
 | Nazwa | Opis |
 | --- | --- |
-| [PreferredCulture](../../aspose.slides/ispreadsheetoptions/preferredculture) { get; set; } | Pobiera lub ustawia preferowaną informację o kulturze używaną do obliczania niektórych funkcji przeznaczonych do użycia w językach korzystających z podwójnego zestawu znaków (DBCS). |
-| [RecoverWorkbookFromChartCache](../../aspose.slides/ispreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Jeśli źródło danych wykresu jest zewnętrznym skoroszytem i nie jest dostępne, zostanie odzyskane z pamięci podręcznej wykresu. |
+| [PreferredCulture](../../aspose.slides/ispreadsheetoptions/preferredculture) { get; set; } | Pobiera lub ustawia preferowaną informację o kulturze do obliczania niektórych funkcji przeznaczonych do użycia w językach wykorzystujących zestaw znaków podwójnego bajtu (DBCS). |
+| [RecoverWorkbookFromChartCache](../../aspose.slides/ispreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Jeśli źródło danych dla wykresu jest zewnętrznym skoroszytem i nie jest dostępne, zostanie ono odzyskane z pamięci podręcznej wykresu. |
 
 ### Zobacz także
 

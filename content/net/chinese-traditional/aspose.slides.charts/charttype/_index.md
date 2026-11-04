@@ -1,9 +1,9 @@
 ---
 title: ChartType
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes .NET API 參考
 description: 表示圖表的類型。
 type: docs
-weight: 1500
+weight: 1510
 url: /zh-hant/aspose.slides.charts/charttype/
 ---
 ## ChartType 列舉
@@ -18,92 +18,92 @@ public enum ChartType
 
 | 名稱 | 值 | 說明 |
 | --- | --- | --- |
-| ClusteredColumn | `0` | 表示叢集柱狀圖。 |
-| StackedColumn | `1` | 表示堆疊柱狀圖。 |
-| PercentsStackedColumn | `2` | 表示 100% 堆疊柱狀圖。 |
-| ClusteredColumn3D | `3` | 表示 3D 叢集柱狀圖。 |
-| StackedColumn3D | `4` | 表示 3D 堆疊柱狀圖。 |
-| PercentsStackedColumn3D | `5` | 表示 3D 100% 堆疊柱狀圖。 |
-| Column3D | `6` | 表示 3D 柱狀圖。 |
+| ClusteredColumn | `0` | 表示叢集直條圖。 |
+| StackedColumn | `1` | 表示堆疊直條圖。 |
+| PercentsStackedColumn | `2` | 表示 100% 堆疊直條圖。 |
+| ClusteredColumn3D | `3` | 表示 3D 叢集直條圖。 |
+| StackedColumn3D | `4` | 表示 3D 堆疊直條圖。 |
+| PercentsStackedColumn3D | `5` | 表示 3D 100% 堆疊直條圖。 |
+| Column3D | `6` | 表示 3D 直條圖。 |
 | ClusteredCylinder | `7` | 表示圓柱圖。 |
 | StackedCylinder | `8` | 表示堆疊圓柱圖。 |
 | PercentsStackedCylinder | `9` | 表示 100% 堆疊圓柱圖。 |
-| Cylinder3D | `10` | 表示 3D 圓柱柱狀圖。 |
+| Cylinder3D | `10` | 表示 3D 圓柱直條圖。 |
 | ClusteredCone | `11` | 表示圓錐圖。 |
 | StackedCone | `12` | 表示堆疊圓錐圖。 |
 | PercentsStackedCone | `13` | 表示 100% 堆疊圓錐圖。 |
-| Cone3D | `14` | 表示 3D 圓錐柱狀圖。 |
+| Cone3D | `14` | 表示 3D 圓錐直條圖。 |
 | ClusteredPyramid | `15` | 表示金字塔圖。 |
 | StackedPyramid | `16` | 表示堆疊金字塔圖。 |
 | PercentsStackedPyramid | `17` | 表示 100% 堆疊金字塔圖。 |
-| Pyramid3D | `18` | 表示 3D 金字塔柱狀圖。 |
+| Pyramid3D | `18` | 表示 3D 金字塔直條圖。 |
 | Line | `19` | 表示折線圖。 |
 | StackedLine | `20` | 表示堆疊折線圖。 |
 | PercentsStackedLine | `21` | 表示 100% 堆疊折線圖。 |
-| LineWithMarkers | `22` | 表示帶資料标記的折線圖。 |
-| StackedLineWithMarkers | `23` | 表示帶資料标記的堆疊折線圖。 |
-| PercentsStackedLineWithMarkers | `24` | 表示帶資料标記的 100% 堆疊折線圖。 |
+| LineWithMarkers | `22` | 表示帶有資料標記的折線圖。 |
+| StackedLineWithMarkers | `23` | 表示帶有資料標記的堆疊折線圖。 |
+| PercentsStackedLineWithMarkers | `24` | 表示帶有資料標記的 100% 堆疊折線圖。 |
 | Line3D | `25` | 表示 3D 折線圖。 |
 | Pie | `26` | 表示圓餅圖。 |
 | Pie3D | `27` | 表示 3D 圓餅圖。 |
-| PieOfPie | `28` | 表示二層圓餅圖。 |
-| ExplodedPie | `29` | 表示分離式圓餅圖。 |
-| ExplodedPie3D | `30` | 表示 3D 分離式圓餅圖。 |
-| BarOfPie | `31` | 表示條形+圓餅圖。 |
-| PercentsStackedBar | `32` | 表示 100% 堆疊長條圖。 |
-| ClusteredBar3D | `33` | 表示 3D 叢集長條圖。 |
-| ClusteredBar | `34` | 表示叢集長條圖。 |
-| StackedBar | `35` | 表示堆疊長條圖。 |
-| StackedBar3D | `36` | 表示 3D 堆疊長條圖。 |
-| PercentsStackedBar3D | `37` | 表示 3D 100% 堆疊長條圖。 |
-| ClusteredHorizontalCylinder | `38` | 表示圓柱形長條圖。 |
-| StackedHorizontalCylinder | `39` | 表示堆疊圓柱形長條圖。 |
-| PercentsStackedHorizontalCylinder | `40` | 表示 100% 堆疊圓柱形長條圖。 |
-| ClusteredHorizontalCone | `41` | 表示圓錐形長條圖。 |
-| StackedHorizontalCone | `42` | 表示堆疊圓錐形長條圖。 |
-| PercentsStackedHorizontalCone | `43` | 表示 100% 堆疊圓錐形長條圖。 |
-| ClusteredHorizontalPyramid | `44` | 表示金字塔形長條圖。 |
-| StackedHorizontalPyramid | `45` | 表示堆疊金字塔形長條圖。 |
-| PercentsStackedHorizontalPyramid | `46` | 表示 100% 堆疊金字塔形長條圖。 |
-| Area | `47` | 表示面積圖。 |
-| StackedArea | `48` | 表示堆疊面積圖。 |
-| PercentsStackedArea | `49` | 表示 100% 堆疊面積圖。 |
-| Area3D | `50` | 表示 3D 面積圖。 |
-| StackedArea3D | `51` | 表示 3D 堆疊面積圖。 |
-| PercentsStackedArea3D | `52` | 表示 3D 100% 堆疊面積圖。 |
+| PieOfPie | `28` | 表示子圓餅圖。 |
+| ExplodedPie | `29` | 表示分離圓餅圖。 |
+| ExplodedPie3D | `30` | 表示 3D 分離圓餅圖。 |
+| BarOfPie | `31` | 表示條形圓餅圖。 |
+| PercentsStackedBar | `32` | 表示 100% 堆疊條形圖。 |
+| ClusteredBar3D | `33` | 表示 3D 叢集條形圖。 |
+| ClusteredBar | `34` | 表示叢集條形圖。 |
+| StackedBar | `35` | 表示堆疊條形圖。 |
+| StackedBar3D | `36` | 表示 3D 堆疊條形圖。 |
+| PercentsStackedBar3D | `37` | 表示 3D 100% 堆疊條形圖。 |
+| ClusteredHorizontalCylinder | `38` | 表示圓柱條形圖。 |
+| StackedHorizontalCylinder | `39` | 表示堆疊圓柱條形圖。 |
+| PercentsStackedHorizontalCylinder | `40` | 表示 100% 堆疊圓柱條形圖。 |
+| ClusteredHorizontalCone | `41` | 表示圓錐條形圖。 |
+| StackedHorizontalCone | `42` | 表示堆疊圓錐條形圖。 |
+| PercentsStackedHorizontalCone | `43` | 表示 100% 堆疊圓錐條形圖。 |
+| ClusteredHorizontalPyramid | `44` | 表示金字塔條形圖。 |
+| StackedHorizontalPyramid | `45` | 表示堆疊金字塔條形圖。 |
+| PercentsStackedHorizontalPyramid | `46` | 表示 100% 堆疊金字塔條形圖。 |
+| Area | `47` | 表示區域圖。 |
+| StackedArea | `48` | 表示堆疊區域圖。 |
+| PercentsStackedArea | `49` | 表示 100% 堆疊區域圖。 |
+| Area3D | `50` | 表示 3D 區域圖。 |
+| StackedArea3D | `51` | 表示 3D 堆疊區域圖。 |
+| PercentsStackedArea3D | `52` | 表示 3D 100% 堆疊區域圖。 |
 | ScatterWithMarkers | `53` | 表示散佈圖。 |
-| ScatterWithSmoothLinesAndMarkers | `54` | 表示以曲線連接且帶資料标記的散佈圖。 |
-| ScatterWithSmoothLines | `55` | 表示以曲線連接且不帶資料标記的散佈圖。 |
-| ScatterWithStraightLinesAndMarkers | `56` | 表示以直線連接且帶資料标記的散佈圖。 |
-| ScatterWithStraightLines | `57` | 表示以直線連接且不帶資料标記的散佈圖。 |
+| ScatterWithSmoothLinesAndMarkers | `54` | 表示以曲線連接且帶有資料標記的散佈圖。 |
+| ScatterWithSmoothLines | `55` | 表示以曲線連接且不帶資料標記的散佈圖。 |
+| ScatterWithStraightLinesAndMarkers | `56` | 表示以直線連接且帶有資料標記的散佈圖。 |
+| ScatterWithStraightLines | `57` | 表示以直線連接且不帶資料標記的散佈圖。 |
 | HighLowClose | `58` | 表示高低收盤股票圖。 |
 | OpenHighLowClose | `59` | 表示開盤-高-低-收盤股票圖。 |
 | VolumeHighLowClose | `60` | 表示成交量-高-低-收盤股票圖。 |
 | VolumeOpenHighLowClose | `61` | 表示成交量-開盤-高-低-收盤股票圖。 |
 | Surface3D | `62` | 表示 3D 曲面圖。 |
-| WireframeSurface3D | `63` | 表示 3D 線框曲面圖。 |
+| WireframeSurface3D | `63` | 表示線框 3D 曲面圖。 |
 | Contour | `64` | 表示等高線圖。 |
 | WireframeContour | `65` | 表示線框等高線圖。 |
-| Doughnut | `66` | 表示甜甜圈圖。 |
-| ExplodedDoughnut | `67` | 表示分離式甜甜圈圖。 |
+| Doughnut | `66` | 表示環形圖。 |
+| ExplodedDoughnut | `67` | 表示分離環形圖。 |
 | Bubble | `68` | 表示氣泡圖。 |
 | BubbleWith3D | `69` | 表示 3D 氣泡圖。 |
 | Radar | `70` | 表示雷達圖。 |
-| RadarWithMarkers | `71` | 表示帶資料标記的雷達圖。 |
-| FilledRadar | `72` | 表示實心雷達圖。 |
-| SeriesOfMixedTypes | `73` | 此值只能由 ChartEx.Type 屬性返回。這表示圖表具有混合類型的系列。 |
+| RadarWithMarkers | `71` | 表示帶有資料標記的雷達圖。 |
+| FilledRadar | `72` | 表示填充雷達圖。 |
+| SeriesOfMixedTypes | `73` | 此值僅能由 ChartEx.Type 屬性返回。它表示圖表具有混合類型的系列。 |
 | Treemap | `74` | 表示樹狀圖。 |
-| Sunburst | `75` | 表示日曆圖。 |
+| Sunburst | `75` | 表示旭日圖。 |
 | Histogram | `76` | 表示直方圖。 |
-| ParetoLine | `77` | 表示帕累托線系列類型（直方圖帕累托圖）。 |
-| BoxAndWhisker | `78` | 表示箱形圖。 |
+| ParetoLine | `77` | 表示 Pareto 線系列類型（Histogram Pareto 圖）。 |
+| BoxAndWhisker | `78` | 表示 BoxAndWhisker 圖表。 |
 | Waterfall | `79` | 表示瀑布圖。 |
 | Funnel | `80` | 表示漏斗圖。 |
-| Map | `81` | 表示地圖圖。 |
+| Map | `81` | 表示地圖圖表。 |
 
-### 另請參閱
+### 另見
 
 * 命名空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
-* 程式集 [Aspose.Slides](../../)
+* 組件 [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

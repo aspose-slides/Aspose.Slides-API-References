@@ -1,14 +1,14 @@
 ---
 title: ImageWrapper
-second_title: Aspose.Sildes .NET API referencia
-description: System.Drawing.Image wrapper a COM interfészhez.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: System.Drawing.Image burkoló a COM felülethez.
 type: docs
-weight: 7440
+weight: 7460
 url: /hu/aspose.slides/imagewrapper/
 ---
 ## ImageWrapper osztály
 
-System.Drawing.Image wrapper for COM interface.
+System.Drawing.Image burkoló a COM felülethez.
 
 ```csharp
 public class ImageWrapper : IImageWrapper
@@ -18,17 +18,17 @@ public class ImageWrapper : IImageWrapper
 
 | Név | Leírás |
 | --- | --- |
-| [ImageSource](../../aspose.slides/imagewrapper/imagesource) { get; } | Lekéri az Image-et. Csak olvasható [`IImage`](../iimage). |
-| [Size](../../aspose.slides/imagewrapper/size) { get; } | Lekéri az Image szélességét és magasságát pixelben. Csak olvasható [`Size`](./size). |
+| [ImageSource](../../aspose.slides/imagewrapper/imagesource) { get; } | Visszaadja a képet. Csak olvasható [`IImage`](../iimage). |
+| [Size](../../aspose.slides/imagewrapper/size) { get; } | Visszaadja a kép szélességét és magasságát pixelben. Csak olvasható [`Size`](./size). |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [Dispose](../../aspose.slides/imagewrapper/dispose)() | Elpusztítja az ImageWrapper-t |
-| [Save](../../aspose.slides/imagewrapper/save#save_1)(string) | Mentse az Image-et a megadott fájlba |
-| [Save](../../aspose.slides/imagewrapper/save#save)(Stream, PPImageFormat) | Mentse az Image-et a megadott folyamra a megadott formátumban. |
-| [Save](../../aspose.slides/imagewrapper/save#save_2)(string, PPImageFormat) | Mentse az Image-et a megadott fájlba a megadott formátumban. |
+| [Dispose](../../aspose.slides/imagewrapper/dispose)() | Az ImageWrapper felszabadítása |
+| [Save](../../aspose.slides/imagewrapper/save#save_1)(string) | A képet a megadott fájlba menti |
+| [Save](../../aspose.slides/imagewrapper/save#save)(Stream, PPImageFormat) | A képet a megadott adatfolyamra a megadott formátumban menti |
+| [Save](../../aspose.slides/imagewrapper/save#save_2)(string, PPImageFormat) | A képet a megadott fájlba a megadott formátumban menti |
 
 ### Lásd még
 

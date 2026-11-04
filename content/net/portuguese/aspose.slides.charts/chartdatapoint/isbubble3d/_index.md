@@ -1,22 +1,22 @@
 ---
 title: IsBubble3D
-second_title: Aspose.Sildes para .NET Referência da API
-description: Especifica que as bolhas têm um efeito 3-D aplicado a elas. Leitura/escrita Boolean.
+second_title: Aspose.Sildes para Referência da API .NET
+description: Especifica que as bolhas têm um efeito 3-D aplicado a elas. Leitura/Gravação Boolean.
 type: docs
-weight: 130
+weight: 170
 url: /pt/aspose.slides.charts/chartdatapoint/isbubble3d/
 ---
-## ChartDataPoint.IsBubble3D property
+## ChartDataPoint.IsBubble3D propriedade
 
-Especifica que as bolhas têm um efeito 3-D aplicado a elas. Leitura/escrita Boolean.
+Especifica que as bolhas têm um efeito 3-D aplicado a elas. Leitura/Gravação Boolean.
 
 ```csharp
 public bool IsBubble3D { get; set; }
 ```
 
-### See Also
+### Veja Também
 
-* class [ChartDataPoint](../../chartdatapoint)
+* classe [ChartDataPoint](../../chartdatapoint)
 * namespace [Aspose.Slides.Charts](../../chartdatapoint)
 * assembly [Aspose.Slides](../../../)
 

@@ -1,14 +1,14 @@
 ---
 title: LightRigPresetType
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: लाइट प्रीसेट प्रकारों को परिभाषित करने वाले कॉन्स्टेंट्स।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: लाइट प्रीसेट प्रकारों को परिभाषित करने वाले स्थिरांक।
 type: docs
-weight: 7700
+weight: 7720
 url: /hi/aspose.slides/lightrigpresettype/
 ---
-## LightRigPresetType एनीमरेशन
+## LightRigPresetType एनेमरेशन
 
-लाइट प्रीसेट प्रकारों को परिभाषित करने वाले कॉन्स्टेंट्स।
+लाइट प्रीसेट प्रकारों को परिभाषित करने वाले स्थिरांक।
 
 ```csharp
 public enum LightRigPresetType
@@ -16,7 +16,7 @@ public enum LightRigPresetType
 
 ### मान
 
-| नाम | मूल्य | विवरण |
+| नाम | मान | विवरण |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Balanced | `0` |  |
@@ -47,7 +47,7 @@ public enum LightRigPresetType
 | ThreePt | `25` |  |
 | TwoPt | `26` |  |
 
-### संबंधित देखें
+### देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

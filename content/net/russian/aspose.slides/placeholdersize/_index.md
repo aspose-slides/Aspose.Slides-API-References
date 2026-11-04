@@ -1,14 +1,14 @@
 ---
 title: PlaceholderSize
-second_title: Aspose.Sildes для .NET API Reference
-description: Представляет размер заполняющего элемента.
+second_title: Aspose.Sildes для .NET справочник API
+description: Представляет размер заполнителя.
 type: docs
-weight: 9440
+weight: 9460
 url: /ru/aspose.slides/placeholdersize/
 ---
 ## Перечисление PlaceholderSize
 
-Представляет размер заполняющего элемента.
+Представляет размер заполнителя.
 
 ```csharp
 public enum PlaceholderSize : sbyte

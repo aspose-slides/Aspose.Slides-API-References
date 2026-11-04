@@ -1,9 +1,9 @@
 ---
 title: OrientationTransition
-second_title: Aspose.Sildes dla .NET Referencja API
+second_title: Aspose.Sildes dla .NET – referencja API
 description: Efekt przejścia slajdu orientacji.
 type: docs
-weight: 10270
+weight: 10290
 url: /pl/aspose.slides.slideshow/orientationtransition/
 ---
 ## OrientationTransition klasa
@@ -18,14 +18,14 @@ public class OrientationTransition : TransitionValueBase, IOrientationTransition
 
 | Nazwa | Opis |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/orientationtransition/direction) { get; set; } | Kierunek przejścia. odczyt/zapis [`Orientation`](../../aspose.slides/orientation). |
+| [Direction](../../aspose.slides.slideshow/orientationtransition/direction) { get; set; } | Kierunek przejścia. Odczyt/zapis [`Orientation`](../../aspose.slides/orientation). |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Określa, czy dwie instancje TransitionValueBase są równe. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Służy jako funkcja skrótu dla określonego typu, odpowiednia do użycia w algorytmach haszujących i strukturach danych, takich jak tablica haszująca. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Określa, czy dwa wystąpienia TransitionValueBase są równe. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Służy jako funkcja skrótu dla określonego typu, odpowiednia do użycia w algorytmach skrótu i strukturach danych, takich jak tabela hash. |
 
 ### Zobacz także
 

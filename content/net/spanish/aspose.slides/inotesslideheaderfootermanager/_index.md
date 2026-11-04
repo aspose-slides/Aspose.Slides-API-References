@@ -3,7 +3,7 @@ title: INotesSlideHeaderFooterManager
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa el administrador que mantiene el comportamiento de los marcadores de posición de la diapositiva de notas, incluido el marcador de posición del encabezado.
 type: docs
-weight: 6510
+weight: 6530
 url: /es/aspose.slides/inotesslideheaderfootermanager/
 ---
 ## INotesSlideHeaderFooterManager interfaz
@@ -18,7 +18,7 @@ public interface INotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFo
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/inotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Devuelve IBaseHandoutNotesSlideHeaderFooterManag interfaz. |
+| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/inotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Returns IBaseHandoutNotesSlideHeaderFooterManag interface. |
 
 ### Ver también
 

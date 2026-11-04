@@ -1,14 +1,14 @@
 ---
 title: FontSubstCondition
-second_title: Aspose.Sildes pro .NET referenci API
-description: Representuje pravidlo pro nahrazení písma
+second_title: Aspose.Sildes pro .NET API Reference
+description: Představuje pravidlo pro nahrazení písma
 type: docs
-weight: 4880
+weight: 4900
 url: /cs/aspose.slides/fontsubstcondition/
 ---
 ## FontSubstCondition výčet
 
-Zastupuje pravidlo pro nahrazení písma
+Představuje pravidlo pro nahrazení písma
 
 ```csharp
 public enum FontSubstCondition
@@ -16,10 +16,10 @@ public enum FontSubstCondition
 
 ### Hodnoty
 
-| Name | Value | Description |
+| Název | Hodnota | Popis |
 | --- | --- | --- |
-| WhenInaccessible | `0` | Nahradí, když písmo není nalezeno |
-| Always | `1` | Vždy nahradí |
+| WhenInaccessible | `0` | Nahradit, když písmo není nalezeno |
+| Always | `1` | Nahradit vždy |
 
 ### Viz také
 

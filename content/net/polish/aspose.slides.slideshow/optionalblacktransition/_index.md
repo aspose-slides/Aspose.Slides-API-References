@@ -1,14 +1,14 @@
 ---
 title: OptionalBlackTransition
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Opcjonalny efekt przejścia slajdu z czarnym ekranem.
+second_title: Aspose.Sildes dla .NET referencja API
+description: Opcjonalny czarny efekt przejścia slajdu.
 type: docs
-weight: 10260
+weight: 10280
 url: /pl/aspose.slides.slideshow/optionalblacktransition/
 ---
-## Klasa OptionalBlackTransition
+## OptionalBlackTransition klasa
 
-Opcjonalny efekt przejścia slajdu z czarnym ekranem.
+Opcjonalny czarny efekt przejścia slajdu.
 
 ```csharp
 public class OptionalBlackTransition : TransitionValueBase, IOptionalBlackTransition
@@ -18,16 +18,16 @@ public class OptionalBlackTransition : TransitionValueBase, IOptionalBlackTransi
 
 | Nazwa | Opis |
 | --- | --- |
-| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | Ten atrybut określa, czy przejście rozpocznie się od czarnego ekranu (a następnie przejdzie nowy slajd na czarnym). Odczyt/zapis Boolean. |
+| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | Ten atrybut określa, czy przejście rozpocznie się od czarnego ekranu (a następnie przejdzie nowy slajd na czarno). Odczyt/zapis Boolean. |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Określa, czy dwie instancje TransitionValueBase są równe. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Służy jako funkcja skrótu dla określonego typu, odpowiednia do użycia w algorytmach haszujących i strukturach danych, takich jak tabela hash. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Określa, czy dwa wystąpienia TransitionValueBase są równe. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Służy jako funkcja skrótu dla określonego typu, odpowiednia do użycia w algorytmach haszujących i strukturach danych, takich jak tablica skrótów. |
 
-### Zobacz także
+### Zobacz również
 
 * klasa [TransitionValueBase](../transitionvaluebase)
 * interfejs [IOptionalBlackTransition](../ioptionalblacktransition)

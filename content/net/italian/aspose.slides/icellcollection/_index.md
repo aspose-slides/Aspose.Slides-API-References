@@ -1,14 +1,14 @@
 ---
 title: ICellCollection
-second_title: Aspose.Sildes per .NET API Reference
+second_title: Aspose.Sildes per il riferimento API .NET
 description: Rappresenta una raccolta di celle.
 type: docs
-weight: 5460
+weight: 5480
 url: /it/aspose.slides/icellcollection/
 ---
 ## ICellCollection interfaccia
 
-Rappresenta una raccolta di celle.
+Represents a collection of cells.
 
 ```csharp
 public interface ICellCollection : IGenericCollection<ICell>, ISlideComponent
@@ -18,8 +18,8 @@ public interface ICellCollection : IGenericCollection<ICell>, ISlideComponent
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/icellcollection/asislidecomponent) { get; } | Consente di ottenere l'interfaccia base ISlideComponent. Sola lettura [`ISlideComponent`](../islidecomponent). |
-| [Item](../../aspose.slides/icellcollection/item) { get; } | Restituisce una cella in base alla sua posizione. Sola lettura [`ICell`](../icell). |
+| [AsISlideComponent](../../aspose.slides/icellcollection/asislidecomponent) { get; } | Consente di ottenere l'interfaccia base ISlideComponent. Solo lettura [`ISlideComponent`](../islidecomponent). |
+| [Item](../../aspose.slides/icellcollection/item) { get; } | Restituisce una cella per la sua posizione. Solo lettura [`ICell`](../icell). |
 
 ### Vedi anche
 

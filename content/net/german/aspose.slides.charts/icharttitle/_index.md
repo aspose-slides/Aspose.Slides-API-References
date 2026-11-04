@@ -3,12 +3,12 @@ title: IChartTitle
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt die Eigenschaften des Diagrammtitels dar.
 type: docs
-weight: 2000
+weight: 2020
 url: /de/aspose.slides.charts/icharttitle/
 ---
 ## IChartTitle Schnittstelle
 
-Stellt Eigenschaften des Diagrammtitels dar.
+Stellt die Eigenschaften des Diagrammtitels dar.
 
 ```csharp
 public interface IChartTitle : IActualLayout, ILayoutable, IOverridableText
@@ -16,12 +16,12 @@ public interface IChartTitle : IActualLayout, ILayoutable, IOverridableText
 
 ## Eigenschaften
 
-| Name | Description |
+| Name | Beschreibung |
 | --- | --- |
-| [AsILayoutable](../../aspose.slides.charts/icharttitle/asilayoutable) { get; } | Ermöglicht das Abrufen der Basis-ILayoutable-Schnittstelle. Nur lesbar [`ILayoutable`](../ilayoutable). |
-| [AsIOverridableText](../../aspose.slides.charts/icharttitle/asioverridabletext) { get; } | Ermöglicht das Abrufen der Basis-IOverridableText-Schnittstelle. Nur lesbar [`IOverridableText`](../ioverridabletext). |
+| [AsILayoutable](../../aspose.slides.charts/icharttitle/asilayoutable) { get; } | Ermöglicht das Abrufen der Basis-Schnittstelle ILayoutable. Nur lesbar [`ILayoutable`](../ilayoutable). |
+| [AsIOverridableText](../../aspose.slides.charts/icharttitle/asioverridabletext) { get; } | Ermöglicht das Abrufen der Basis-Schnittstelle IOverridableText. Nur lesbar [`IOverridableText`](../ioverridabletext). |
 | [Format](../../aspose.slides.charts/icharttitle/format) { get; } | Gibt die Füll-, Linien- und Effektstile eines Titels zurück. Nur lesbar [`IFormat`](../iformat). |
-| [Overlay](../../aspose.slides.charts/icharttitle/overlay) { get; set; } | Bestimmt, ob andere Diagrammelemente den Titel überlappen dürfen. Lesen/Schreiben Boolean. |
+| [Overlay](../../aspose.slides.charts/icharttitle/overlay) { get; set; } | Bestimmt, ob andere Diagrammelemente den Titel überlappen dürfen. Lese-/Schreib-Boolean. |
 
 ### Siehe auch
 

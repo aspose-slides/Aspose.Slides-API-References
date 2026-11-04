@@ -1,9 +1,9 @@
 ---
 title: IChartTextFormat
-second_title: Aspose.Sildes для .NET справочник API
-description: Диаграмма работает с ограниченным набором свойств формата текста. Интерфейсы IChartTextFormat IChartTextBlockFormat IChartParagraphFormat IChartPortionFormat описывают этот набор.
+second_title: Aspose.Sildes для .NET API справочник
+description: Диаграмма работает с ограниченным набором свойств формата текста. IChartTextFormat IChartTextBlockFormat IChartParagraphFormat IChartPortionFormat интерфейсы описывают этот ограниченный набор.
 type: docs
-weight: 1990
+weight: 2010
 url: /ru/aspose.slides.charts/icharttextformat/
 ---
 ## IChartTextFormat интерфейс
@@ -29,7 +29,7 @@ public interface IChartTextFormat
 | [CopyFrom](../../aspose.slides.charts/icharttextformat/copyfrom)(ITextFrame) | Копирует формат текста из указанного текстового кадра. |
 | [CopyTo](../../aspose.slides.charts/icharttextformat/copyto)(ITextFrame) | Копирует формат текста в указанный текстовый кадр. |
 
-### См. также
+### Смотрите также
 
 * пространство имён [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)

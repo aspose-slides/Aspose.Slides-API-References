@@ -3,7 +3,7 @@ title: DigitalSignatureCollection
 second_title: Aspose.Sildes для .NET справочник API
 description: Представляет коллекцию цифровых подписей, прикреплённых к документу.
 type: docs
-weight: 2780
+weight: 2800
 url: /ru/aspose.slides/digitalsignaturecollection/
 ---
 ## DigitalSignatureCollection класс
@@ -19,9 +19,9 @@ public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSigna
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.slides/digitalsignaturecollection/count) { get; } | Возвращает количество элементов в коллекции. Только для чтения Int32. |
-| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потокобезопасно). Только для чтения Boolean. |
+| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потокобезопасный). Только для чтения Boolean. |
 | [Item](../../aspose.slides/digitalsignaturecollection/item) { get; } | Возвращает подпись по индексу. |
-| [SyncRoot](../../aspose.slides/digitalsignaturecollection/syncroot) { get; } | Возвращает объект синхронизации. Только для чтения Object. |
+| [SyncRoot](../../aspose.slides/digitalsignaturecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
 
 ## Методы
 
@@ -30,7 +30,7 @@ public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSigna
 | [Add](../../aspose.slides/digitalsignaturecollection/add)(IDigitalSignature) | Добавляет подпись в конец коллекции. |
 | [Clear](../../aspose.slides/digitalsignaturecollection/clear)() | Удаляет все подписи из коллекции. |
 | [CopyTo](../../aspose.slides/digitalsignaturecollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
-| [GetEnumerator](../../aspose.slides/digitalsignaturecollection/getenumerator)() | Возвращает перечислитель, который перебирает элементы коллекции. |
+| [GetEnumerator](../../aspose.slides/digitalsignaturecollection/getenumerator)() | Возвращает перечислитель, проходящий по коллекции. |
 | [RemoveAt](../../aspose.slides/digitalsignaturecollection/removeat)(int) | Удаляет подпись по указанному индексу. |
 
 ### См. также

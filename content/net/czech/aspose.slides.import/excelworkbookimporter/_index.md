@@ -1,14 +1,14 @@
 ---
 title: ExcelWorkbookImporter
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET – referenční příručka API
 description: Poskytuje funkci pro importování obsahu z Excel sešitu do prezentace.
 type: docs
-weight: 7470
+weight: 7490
 url: /cs/aspose.slides.import/excelworkbookimporter/
 ---
 ## ExcelWorkbookImporter třída
 
-Poskytuje funkčnost pro importování obsahu z Excel sešitu do prezentace.
+Poskytuje funkci pro import obsahu z Excel sešitu do prezentace.
 
 ```csharp
 public static class ExcelWorkbookImporter
@@ -18,17 +18,17 @@ public static class ExcelWorkbookImporter
 
 | Název | Popis |
 | --- | --- |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, int, bool) | Načte graf ze zadaného sešitu Excel a přidá jej na konec dané kolekce tvarů na určených souřadnicích. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_1)(IShapeCollection, float, float, IExcelDataWorkbook, string, string, bool) | Načte graf ze zadaného sešitu Excel a přidá jej na konec dané kolekce tvarů na určených souřadnicích. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_2)(IShapeCollection, float, float, Stream, string, string, bool) | Načte graf ze zadaného sešitu Excel a přidá jej na konec dané kolekce tvarů na určených souřadnicích. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_3)(IShapeCollection, float, float, string, string, string, bool) | Načte graf ze zadaného sešitu Excel a přidá jej na konec dané kolekce tvarů na určených souřadnicích. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, string) | Načte tabulku ze zadaného sešitu Excel a přidá ji na konec dané kolekce tvarů na určených souřadnicích. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_1)(IShapeCollection, float, float, Stream, string, string) | Načte tabulku ze zadaného souboru sešitu Excel a přidá ji na konec dané kolekce tvarů na určených souřadnicích. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_2)(IShapeCollection, float, float, string, string, string) | Načte tabulku ze zadaného souboru sešitu Excel a přidá ji na konec dané kolekce tvarů na určených souřadnicích. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, int, bool) | Načte graf ze zadaného Excel sešitu a přidá jej na konec dané kolekce tvarů na zadaných souřadnicích. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_1)(IShapeCollection, float, float, IExcelDataWorkbook, string, string, bool) | Načte graf ze zadaného Excel sešitu a přidá jej na konec dané kolekce tvarů na zadaných souřadnicích. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_2)(IShapeCollection, float, float, Stream, string, string, bool) | Načte graf ze zadaného Excel sešitu a přidá jej na konec dané kolekce tvarů na zadaných souřadnicích. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_3)(IShapeCollection, float, float, string, string, string, bool) | Načte graf ze zadaného Excel sešitu a přidá jej na konec dané kolekce tvarů na zadaných souřadnicích. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, string) | Načte tabulku ze zadaného Excel sešitu a přidá ji na konec dané kolekce tvarů na zadaných souřadnicích. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_1)(IShapeCollection, float, float, Stream, string, string) | Načte tabulku ze souboru Excel sešitu a přidá ji na konec dané kolekce tvarů na zadaných souřadnicích. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_2)(IShapeCollection, float, float, string, string, string) | Načte tabulku ze souboru Excel sešitu a přidá ji na konec dané kolekce tvarů na zadaných souřadnicích. |
 
 ### Viz také
 
 * jmenný prostor [Aspose.Slides.Import](../../aspose.slides.import)
-* sestava [Aspose.Slides](../../)
+* sestavení [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

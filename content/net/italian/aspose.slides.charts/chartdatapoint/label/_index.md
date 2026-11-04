@@ -1,14 +1,14 @@
 ---
 title: Label
 second_title: Aspose.Sildes per .NET Riferimento API
-description: Etichetta. Sola lettura IDataLabelaspose.slides.charts/idatalabel.
+description: Label. Sola lettura IDataLabelaspose.slides.charts/idatalabel.
 type: docs
-weight: 140
+weight: 180
 url: /it/aspose.slides.charts/chartdatapoint/label/
 ---
 ## ChartDataPoint.Label proprietà
 
-Etichetta. Sola lettura [`IDataLabel`](../../idatalabel).
+Label. Sola lettura [`IDataLabel`](../../idatalabel).
 
 ```csharp
 public IDataLabel Label { get; }

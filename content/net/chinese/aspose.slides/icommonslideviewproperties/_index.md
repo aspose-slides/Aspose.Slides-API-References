@@ -3,7 +3,7 @@ title: ICommonSlideViewProperties
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示通用幻灯片视图属性。
 type: docs
-weight: 5600
+weight: 5620
 url: /zh/aspose.slides/icommonslideviewproperties/
 ---
 ## ICommonSlideViewProperties 接口
@@ -19,8 +19,8 @@ public interface ICommonSlideViewProperties
 | 名称 | 描述 |
 | --- | --- |
 | [DrawingGuides](../../aspose.slides/icommonslideviewproperties/drawingguides) { get; } | 返回绘图指南的集合。只读 [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | 指定视图缩放比例（百分比）。读/写 Int32。 |
-| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | 指定视图内容应自动缩放以最佳适应当前窗口大小。读/写 Boolean。 |
+| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | 指定以百分比表示的视图缩放比例。读/写 Int32. |
+| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | 指定视图内容应自动缩放以最佳适应当前窗口大小。读/写 Boolean. |
 
 ### 另请参见
 

@@ -3,7 +3,7 @@ title: EmptyTransition
 second_title: Aspose.Sildes för .NET API-referens
 description: Tom bildövergångseffekt.
 type: docs
-weight: 10030
+weight: 10050
 url: /sv/aspose.slides.slideshow/emptytransition/
 ---
 ## EmptyTransition klass
@@ -18,10 +18,10 @@ public class EmptyTransition : TransitionValueBase, IEmptyTransition
 
 | Namn | Beskrivning |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bestämmer huruvida de två TransitionValueBase-instanserna är lika. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bestämmer om de två TransitionValueBase-instansen är lika. |
 | override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Fungerar som en hashfunktion för en viss typ, lämplig för användning i hash-algoritmer och datastrukturer som en hash-tabell. |
 
-### Se också
+### Se även
 
 * klass [TransitionValueBase](../transitionvaluebase)
 * gränssnitt [IEmptyTransition](../iemptytransition)

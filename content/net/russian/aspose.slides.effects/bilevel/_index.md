@@ -1,14 +1,14 @@
 ---
 title: BiLevel
 second_title: Aspose.Sildes для .NET API Reference
-description: Представляет чёрно-белый эффект Bi-Level. Цвета ввода, у которых яркость меньше заданного порогового значения, преобразуются в чёрный. Цвета ввода, у которых яркость больше или равна заданному значению, устанавливаются в белый. Значения альфа-эффекта не изменяются этим эффектом.
+description: Представляет эффект Bi-Level черно-белый. Цвета входного изображения, чья яркость меньше указанного порогового значения, преобразуются в чёрный. Цвета, чья яркость больше либо равна указанному значению, устанавливаются в белый. Значения альфа-эффекта не меняются.
 type: docs
-weight: 2910
+weight: 2930
 url: /ru/aspose.slides.effects/bilevel/
 ---
 ## BiLevel класс
 
-Представляет эффект Bi-Level (чёрно-белый). Цвета ввода, у которых яркость меньше указанного порогового значения, преобразуются в чёрный. Цвета ввода, у которых яркость больше или равна указанному значению, устанавливаются в белый. Значения альфа-эффекта не изменяются этим эффектом.
+Represents a Bi-Level (black/white) effect. Input colors whose luminance is less than the specified threshold value are changed to black. Input colors whose luminance are greater than or equal the specified value are set to white. The alpha effect values are unaffected by this effect.
 
 ```csharp
 public sealed class BiLevel : ImageTransformOperation, IBiLevel
@@ -24,11 +24,11 @@ public sealed class BiLevel : ImageTransformOperation, IBiLevel
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/bilevel/equals)(object) | Определяет, равен ли заданный [`BiLevel`](../bilevel) текущему [`BiLevel`](../bilevel). |
-| [GetEffective](../../aspose.slides.effects/bilevel/geteffective)() | Получает фактические данные эффекта Bi-Level с учётом наследования. |
-| override [GetHashCode](../../aspose.slides.effects/bilevel/gethashcode)() | Служит в качестве хеш-функции для конкретного типа. |
+| override [Equals](../../aspose.slides.effects/bilevel/equals)(object) | Определяет, равно ли указанное [`BiLevel`](../bilevel) текущему [`BiLevel`](../bilevel). |
+| [GetEffective](../../aspose.slides.effects/bilevel/geteffective)() | Получает эффективные данные эффекта Bi-Level с учётом наследования. |
+| override [GetHashCode](../../aspose.slides.effects/bilevel/gethashcode)() | Служит хэш-функцией для конкретного типа. |
 
-### См. также
+### Смотрите также
 
 * класс [ImageTransformOperation](../imagetransformoperation)
 * интерфейс [IBiLevel](../ibilevel)

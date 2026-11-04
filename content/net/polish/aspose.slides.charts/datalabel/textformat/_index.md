@@ -1,9 +1,9 @@
 ---
 title: TextFormat
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET API Reference
 description: Zwraca format tekstu. Tylko do odczytu IChartTextFormataspose.slides.charts/icharttextformat.
 type: docs
-weight: 120
+weight: 130
 url: /pl/aspose.slides.charts/datalabel/textformat/
 ---
 ## DataLabel.TextFormat właściwość

@@ -3,7 +3,7 @@ title: FontAlignment
 second_title: Aspose.Sildes .NET API 参考
 description: 表示垂直字体对齐方式。
 type: docs
-weight: 4800
+weight: 4820
 url: /zh/aspose.slides/fontalignment/
 ---
 ## FontAlignment 枚举
@@ -25,7 +25,7 @@ public enum FontAlignment
 | Bottom | `3` |  |
 | Baseline | `4` |  |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: Marker
 second_title: Aspose.Sildes для .NET API Reference
-description: Представляет маркер черты.
+description: Представляет маркер чёрта.
 type: docs
-weight: 2330
+weight: 2350
 url: /ru/aspose.slides.charts/marker/
 ---
 ## Marker класс
 
-Представляет маркер черта.
+Представляет маркер чёрта.
 
 ```csharp
 public class Marker : IMarker
@@ -16,9 +16,9 @@ public class Marker : IMarker
 
 ## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [Format](../../aspose.slides.charts/marker/format) { get; } | Получает или задает заливку маркера. Только чтение [`IFormat`](../iformat). |
+| [Format](../../aspose.slides.charts/marker/format) { get; } | Получает или задает заливку маркера. Только для чтения [`IFormat`](../iformat). |
 | [Size](../../aspose.slides.charts/marker/size) { get; set; } | Представляет размер маркера в линейной диаграмме, точечной диаграмме или радиальной диаграмме. Чтение/запись Int32. |
 | [Symbol](../../aspose.slides.charts/marker/symbol) { get; set; } | Представляет стиль маркера в линейной диаграмме, точечной диаграмме или радиальной диаграмме. Чтение/запись [`MarkerStyleType`](../markerstyletype). |
 

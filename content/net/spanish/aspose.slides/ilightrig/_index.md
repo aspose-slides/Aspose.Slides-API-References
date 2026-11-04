@@ -1,9 +1,9 @@
 ---
 title: ILightRig
-second_title: Referencia API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Representa LightRig.
 type: docs
-weight: 6270
+weight: 6290
 url: /es/aspose.slides/ilightrig/
 ---
 ## ILightRig interfaz
@@ -19,14 +19,14 @@ public interface ILightRig
 | Nombre | Descripción |
 | --- | --- |
 | [Direction](../../aspose.slides/ilightrig/direction) { get; set; } | Dirección de luz. Lectura/escritura [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | Representa una luz preestablecida que puede aplicarse a una forma. El light rig representa un grupo de luces orientadas de una manera específica respecto a una escena 3D. Lectura/escritura [`LightRigPresetType`](../lightrigpresettype). |
+| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | Representa una luz preestablecida que se puede aplicar a una forma. El rig de luz representa un grupo de luces orientadas de una manera específica en relación con una escena 3D. Lectura/escritura [`LightRigPresetType`](../lightrigpresettype). |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | Una rotación se define mediante el uso de una coordenada de latitud, una coordenada de longitud y una revolución alrededor del eje según las coordenadas de latitud y longitud. primer elemento en el array devuelto - latitud, segundo - longitud, tercero - revolución. |
-| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | Una rotación se define mediante el uso de una coordenada de latitud, una coordenada de longitud y una revolución alrededor del eje según las coordenadas de latitud y longitud. |
+| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | Una rotación se define mediante el uso de una coordenada de latitud, una coordenada de longitud y una revolución alrededor del eje como las coordenadas de latitud y longitud. primer elemento en el arreglo devuelto - latitud, segundo - longitud, tercero - revolución. |
+| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | Una rotación se define mediante el uso de una coordenada de latitud, una coordenada de longitud y una revolución alrededor del eje como las coordenadas de latitud y longitud. |
 
 ### Ver también
 

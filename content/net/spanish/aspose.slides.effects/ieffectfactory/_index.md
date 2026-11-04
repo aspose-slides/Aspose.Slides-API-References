@@ -1,12 +1,12 @@
 ---
 title: IEffectFactory
-second_title: Aspose.Sildes para la referencia de API de .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Permite crear instancias de efectos
 type: docs
-weight: 3290
+weight: 3310
 url: /es/aspose.slides.effects/ieffectfactory/
 ---
-## Interfaz IEffectFactory
+## IEffectFactory interfaz
 
 Permite crear instancias de efectos
 
@@ -25,17 +25,17 @@ public interface IEffectFactory
 | Nombre | Descripción |
 | --- | --- |
 | [CreateGlow](../../aspose.slides.effects/ieffectfactory/createglow)() | Crea el efecto Glow. |
-| [CreateInnerShadow](../../aspose.slides.effects/ieffectfactory/createinnershadow)() | Crea el efecto de sombra interna. |
-| [CreateOuterShadow](../../aspose.slides.effects/ieffectfactory/createoutershadow)() | Crea el efecto de sombra externa. |
-| [CreatePresetShadow](../../aspose.slides.effects/ieffectfactory/createpresetshadow)() | Crea el efecto de sombra preestablecida. |
-| [CreateReflection](../../aspose.slides.effects/ieffectfactory/createreflection)() | Crea el efecto de reflexión. |
-| [CreateSoftEdge](../../aspose.slides.effects/ieffectfactory/createsoftedge)() | Crea el efecto de borde suave. |
+| [CreateInnerShadow](../../aspose.slides.effects/ieffectfactory/createinnershadow)() | Crea el efecto Inner shafow. |
+| [CreateOuterShadow](../../aspose.slides.effects/ieffectfactory/createoutershadow)() | Crea el efecto Outer shadow. |
+| [CreatePresetShadow](../../aspose.slides.effects/ieffectfactory/createpresetshadow)() | Crea el efecto Preset shadow. |
+| [CreateReflection](../../aspose.slides.effects/ieffectfactory/createreflection)() | Crea el efecto Reflection. |
+| [CreateSoftEdge](../../aspose.slides.effects/ieffectfactory/createsoftedge)() | Crea el efecto Soft Edge. |
 
 ### Observaciones
 
 Para compatibilidad COM.
 
-### Ver también
+### Véase también
 
 * espacio de nombres [Aspose.Slides.Effects](../../aspose.slides.effects)
 * ensamblado [Aspose.Slides](../../)

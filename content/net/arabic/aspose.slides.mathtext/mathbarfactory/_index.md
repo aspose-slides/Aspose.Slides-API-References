@@ -1,9 +1,9 @@
 ---
 title: MathBarFactory
-second_title: Aspose.Sildes لـ .NET مرجع API
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
 description: يسمح بإنشاء شريط رياضي
 type: docs
-weight: 8580
+weight: 8600
 url: /ar/aspose.slides.mathtext/mathbarfactory/
 ---
 ## MathBarFactory فئة
@@ -18,7 +18,7 @@ public class MathBarFactory : IMathBarFactory
 
 | الاسم | الوصف |
 | --- | --- |
-| [MathBarFactory](mathbarfactory)() | المنشئ الافتراضي. |
+| [MathBarFactory](mathbarfactory)() | الباني الافتراضي. |
 
 ## الطرق
 

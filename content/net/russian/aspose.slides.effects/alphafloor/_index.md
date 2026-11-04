@@ -1,14 +1,14 @@
 ---
 title: AlphaFloor
-second_title: Aspose.Sildes для .NET API справка
-description: Представляет эффект Alpha Floor. Значения непрозрачности Alpha менее 100 преобразуются в ноль. Другими словами, всё частично прозрачное становится полностью прозрачным.
+second_title: Aspose.Sildes для .NET справочник API
+description: Представляет эффект Alpha Floor. Значения непрозрачности Alpha меньше 100 изменяются на ноль. Другими словами, любые частично прозрачные объекты становятся полностью прозрачными.
 type: docs
-weight: 2860
+weight: 2880
 url: /ru/aspose.slides.effects/alphafloor/
 ---
 ## AlphaFloor класс
 
-Представляет эффект Alpha Floor. Значения Alpha (непрозрачности) менее 100% изменяются на ноль. Другими словами, всё частично прозрачное становится полностью прозрачным.
+Представляет эффект Alpha Floor. Значения Alpha (непрозрачности) меньше 100 % изменяются на ноль. Другими словами, любые частично прозрачные объекты становятся полностью прозрачными.
 
 ```csharp
 public sealed class AlphaFloor : ImageTransformOperation, IAlphaFloor
@@ -26,9 +26,9 @@ public sealed class AlphaFloor : ImageTransformOperation, IAlphaFloor
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphafloor/equals)(object) | Определяет, равен ли указанный [`AlphaFloor`](../alphafloor) текущему [`AlphaFloor`](../alphafloor). |
 | [GetEffective](../../aspose.slides.effects/alphafloor/geteffective)() | Получает эффективные данные эффекта Alpha Floor с учётом наследования. |
-| override [GetHashCode](../../aspose.slides.effects/alphafloor/gethashcode)() | Служит хеш-функцией для определённого типа. |
+| override [GetHashCode](../../aspose.slides.effects/alphafloor/gethashcode)() | Служит в качестве хеш-функции для конкретного типа. |
 
-### См. также
+### Смотрите также
 
 * класс [ImageTransformOperation](../imagetransformoperation)
 * интерфейс [IAlphaFloor](../ialphafloor)

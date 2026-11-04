@@ -1,9 +1,9 @@
 ---
 title: GroupShapeLock
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Określa, które operacje są wyłączone w nadrzędnym GroupShape.
 type: docs
-weight: 5100
+weight: 5120
 url: /pl/aspose.slides/groupshapelock/
 ---
 ## GroupShapeLock klasa
@@ -18,14 +18,14 @@ public class GroupShapeLock : BaseShapeLock, IGroupShapeLock
 
 | Nazwa | Opis |
 | --- | --- |
-| [AspectRatioLocked](../../aspose.slides/groupshapelock/aspectratiolocked) { get; set; } | Określa, czy kształt ma zachować proporcje przy zmianie rozmiaru. Odczyt/zapis Boolean. |
-| [GroupingLocked](../../aspose.slides/groupshapelock/groupinglocked) { get; set; } | Określa, czy dołączenie tego kształtu do grupy jest zabronione. Odczyt/zapis Boolean. |
+| [AspectRatioLocked](../../aspose.slides/groupshapelock/aspectratiolocked) { get; set; } | Określa, czy kształt musi zachować proporcje przy zmianie rozmiaru. Odczyt/zapis Boolean. |
+| [GroupingLocked](../../aspose.slides/groupshapelock/groupinglocked) { get; set; } | Określa, czy dodanie tego kształtu do grupy jest zabronione. Odczyt/zapis Boolean. |
 | [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Zwraca true, jeśli wszystkie flagi blokady są wyłączone. Tylko do odczytu Boolean. |
-| [PositionLocked](../../aspose.slides/groupshapelock/positionlocked) { get; set; } | Określa, czy przenoszenie tego kształtu jest zabronione. Odczyt/zapis Boolean. |
-| [RotationLocked](../../aspose.slides/groupshapelock/rotationlocked) { get; set; } | Określa, czy zmiana kąta obrotu tego kształtu jest zabroniona. Odczyt/zapis Boolean. |
-| [SelectLocked](../../aspose.slides/groupshapelock/selectlocked) { get; set; } | Określa, czy wybieranie tego kształtu jest zabronione. Odczyt/zapis Boolean. |
+| [PositionLocked](../../aspose.slides/groupshapelock/positionlocked) { get; set; } | Określa, czy przemieszczanie tego kształtu jest zabronione. Odczyt/zapis Boolean. |
+| [RotationLocked](../../aspose.slides/groupshapelock/rotationlocked) { get; set; } | Określa, czy zmianę kąta obrotu tego kształtu jest zabroniona. Odczyt/zapis Boolean. |
+| [SelectLocked](../../aspose.slides/groupshapelock/selectlocked) { get; set; } | Określa, czy zaznaczanie tego kształtu jest zabronione. Odczyt/zapis Boolean. |
 | [SizeLocked](../../aspose.slides/groupshapelock/sizelocked) { get; set; } | Określa, czy zmiana rozmiaru tego kształtu jest zabroniona. Odczyt/zapis Boolean. |
-| [UngroupingLocked](../../aspose.slides/groupshapelock/ungroupinglocked) { get; set; } | Określa, czy podział tej grupy kształtów jest zabroniony. Odczyt/zapis Boolean. |
+| [UngroupingLocked](../../aspose.slides/groupshapelock/ungroupinglocked) { get; set; } | Określa, czy rozdzielenie tego grupowego kształtu jest zabronione. Odczyt/zapis Boolean. |
 
 ### Zobacz także
 

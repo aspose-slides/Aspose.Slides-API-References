@@ -1,14 +1,14 @@
 ---
 title: TiffCompressionTypes
-second_title: Aspose.Sildes için .NET API Referansı
-description: Bir sunumun TIFF formatında nasıl sıkıştırılacağını kontrol eden seçenekler sağlar.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Bir sunumun TIFF formatında nasıl sıkıştırıldığını kontrol eden seçenekler sağlar.
 type: docs
-weight: 4560
+weight: 4580
 url: /tr/aspose.slides.export/tiffcompressiontypes/
 ---
-## TiffCompressionTypes enum
+## TiffCompressionTypes enumerasyonu
 
-Sunumun TIFF formatında nasıl sıkıştırılacağını kontrol eden seçenekler sağlar.
+Bir sunumun TIFF formatında nasıl sıkıştırıldığını kontrol eden seçenekler sağlar.
 
 ```csharp
 public enum TiffCompressionTypes
@@ -25,7 +25,7 @@ public enum TiffCompressionTypes
 | LZW | `4` | LZW sıkıştırma şemasını (Varsayılan) belirtir. |
 | RLE | `5` | RLE sıkıştırma şemasını belirtir. |
 
-### İlgili
+### Diğer Bağlantılar
 
 * ad alanı [Aspose.Slides.Export](../../aspose.slides.export)
 * derleme [Aspose.Slides](../../)

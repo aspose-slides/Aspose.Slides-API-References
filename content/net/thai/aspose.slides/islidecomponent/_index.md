@@ -3,12 +3,12 @@ title: ISlideComponent
 second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: แสดงถึงส่วนประกอบของสไลด์หนึ่ง.
 type: docs
-weight: 7060
+weight: 7080
 url: /th/aspose.slides/islidecomponent/
 ---
 ## ISlideComponent อินเทอร์เฟซ
 
-แสดงถึงส่วนประกอบของสไลด์หนึ่ง.
+แสดงถึงส่วนประกอบของสไลด์
 
 ```csharp
 public interface ISlideComponent : IPresentationComponent
@@ -16,10 +16,10 @@ public interface ISlideComponent : IPresentationComponent
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/islidecomponent/asipresentationcomponent) { get; } | อนุญาตให้เข้าถึงอินเทอร์เฟซ IPresentationComponent พื้นฐาน. อ่านอย่างเดียว [`IPresentationComponent`](../ipresentationcomponent). |
-| [Slide](../../aspose.slides/islidecomponent/slide) { get; } | ส่งคืนสไลด์พื้นฐาน. อ่านอย่างเดียว [`IBaseSlide`](../ibaseslide). |
+| [AsIPresentationComponent](../../aspose.slides/islidecomponent/asipresentationcomponent) { get; } | อนุญาตให้รับอินเทอร์เฟซ IPresentationComponent พื้นฐาน อ่านอย่างเดียว [`IPresentationComponent`](../ipresentationcomponent). |
+| [Slide](../../aspose.slides/islidecomponent/slide) { get; } | ส่งกลับสไลด์พื้นฐาน อ่านอย่างเดียว [`IBaseSlide`](../ibaseslide). |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: IMathAccentFactory
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 수학 악센트를 생성할 수 있습니다
+second_title: Aspose.Sildes for .NET API 참조
+description: 수학 악센트를 만들 수 있습니다
 type: docs
-weight: 8090
+weight: 8110
 url: /ko/aspose.slides.mathtext/imathaccentfactory/
 ---
 ## IMathAccentFactory 인터페이스
 
-Allows to create a math accent
+수학 악센트를 만들 수 있습니다
 
 ```csharp
 public interface IMathAccentFactory
@@ -18,7 +18,7 @@ public interface IMathAccentFactory
 
 | 이름 | 설명 |
 | --- | --- |
-| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | 지정된 수학 요소에 기본 악센트 문자 값을 적용하여 수학 악센트를 생성합니다 |
+| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | 기본 악센트 문자 값을 사용하여 지정된 수학 요소에 적용되는 수학 악센트를 생성합니다 |
 | [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | 지정된 수학 요소에 적용되는 수학 악센트를 생성합니다 |
 
 ### 비고

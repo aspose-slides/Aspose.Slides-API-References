@@ -3,7 +3,7 @@ title: ReplaceText
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Sostituisce tutte le occorrenze del testo specificato con un altro testo specificato.
 type: docs
-weight: 120
+weight: 130
 url: /it/aspose.slides/itextframe/replacetext/
 ---
 ## ITextFrame.ReplaceText metodo
@@ -19,12 +19,12 @@ public void ReplaceText(string oldText, string newText, ITextSearchOptions optio
 | --- | --- | --- |
 | oldText | String | La stringa da sostituire. |
 | newText | String | La stringa per sostituire tutte le occorrenze di oldText. |
-| options | ITextSearchOptions | Opzioni di ricerca del testo [`ITextSearchOptions`](../../itextsearchoptions). |
-| callback | IFindResultCallback | L'oggetto di callback per ricevere i risultati della ricerca [`IFindResultCallback`](../../ifindresultcallback). |
+| options | ITextSearchOptions | Opzioni di ricerca testo [`ITextSearchOptions`](../../itextsearchoptions). |
+| callback | IFindResultCallback | L'oggetto callback per ricevere i risultati della ricerca [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Esempi
 
-Il codice di esempio seguente mostra come sostituire una stringa specificata con un'altra stringa specificata.
+Il seguente codice di esempio mostra come sostituire una stringa specificata con un'altra stringa specificata.
 
 ```csharp
 [C#]

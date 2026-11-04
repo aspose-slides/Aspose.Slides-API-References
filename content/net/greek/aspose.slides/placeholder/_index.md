@@ -3,7 +3,7 @@ title: Placeholder
 second_title: Aspose.Sildes για .NET API Αναφορά
 description: Αναπαριστά ένα placeholder σε μια διαφάνεια.
 type: docs
-weight: 9430
+weight: 9450
 url: /el/aspose.slides/placeholder/
 ---
 ## Placeholder κλάση
@@ -14,18 +14,18 @@ url: /el/aspose.slides/placeholder/
 public class Placeholder : IPlaceholder
 ```
 
-## Ιδιότητες
+## Properties
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
-| [Index](../../aspose.slides/placeholder/index) { get; } | Λαμβάνει ή ορίζει το ευρετήριο ενός placeholder. Μόνο για ανάγνωση UInt32. |
-| [Orientation](../../aspose.slides/placeholder/orientation) { get; } | Λαμβάνει ή ορίζει τον προσανατολισμό ενός placeholder. Μόνο για ανάγνωση [`Orientation`](../orientation). |
-| [Size](../../aspose.slides/placeholder/size) { get; } | Λαμβάνει ή ορίζει το μέγεθος ενός placeholder. Μόνο για ανάγνωση [`PlaceholderSize`](../placeholdersize). |
-| [Type](../../aspose.slides/placeholder/type) { get; } | Λαμβάνει ή ορίζει τον τύπο ενός placeholder. Μόνο για ανάγνωση [`PlaceholderType`](../placeholdertype). |
+| [Index](../../aspose.slides/placeholder/index) { get; } | Αποκτά ή ορίζει το δείκτη ενός placeholder. Μόνο-ανάγνωση UInt32. |
+| [Orientation](../../aspose.slides/placeholder/orientation) { get; } | Αποκτά ή ορίζει τον προσανατολισμό ενός placeholder. Μόνο-ανάγνωση [`Orientation`](../orientation). |
+| [Size](../../aspose.slides/placeholder/size) { get; } | Αποκτά ή ορίζει το μέγεθος ενός placeholder. Μόνο-ανάγνωση [`PlaceholderSize`](../placeholdersize). |
+| [Type](../../aspose.slides/placeholder/type) { get; } | Αποκτά ή ορίζει τον τύπο ενός placeholder. Μόνο-ανάγνωση [`PlaceholderType`](../placeholdertype). |
 
 ### Δείτε επίσης
 
-* διεπαφή [IPlaceholder](../iplaceholder)
+* διασύνδεση [IPlaceholder](../iplaceholder)
 * χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
 * συναρμολόγηση [Aspose.Slides](../../)
 

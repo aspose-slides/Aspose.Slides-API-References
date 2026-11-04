@@ -1,14 +1,14 @@
 ---
 title: TextVerticalOverflowType
-second_title: Aspose.Sildes for .NET API Referansı
-description: Metnin dikey taşma tipini temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Metin dikey taşma tipini temsil eder.
 type: docs
-weight: 11020
+weight: 11040
 url: /tr/aspose.slides/textverticaloverflowtype/
 ---
 ## TextVerticalOverflowType enum
 
-Metnin dikey taşma tipini temsil eder.
+Metin dikey taşma tipini temsil eder.
 
 ```csharp
 public enum TextVerticalOverflowType : sbyte
@@ -23,7 +23,7 @@ public enum TextVerticalOverflowType : sbyte
 | Ellipsis | `1` |  |
 | Clip | `2` |  |
 
-### Ayrıca
+### Diğer Bağlantılar
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

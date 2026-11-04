@@ -3,7 +3,7 @@ title: IPPImage
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en bild i en presentation.
 type: docs
-weight: 6550
+weight: 6570
 url: /sv/aspose.slides/ippimage/
 ---
 ## IPPImage gränssnitt
@@ -16,7 +16,7 @@ public interface IPPImage
 
 ## Egenskaper
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
 | [BinaryData](../../aspose.slides/ippimage/binarydata) { get; } | Returnerar en kopia av bildens data. Skrivskyddad Byte[]. |
 | [ContentType](../../aspose.slides/ippimage/contenttype) { get; } | Returnerar en MIME-typ för en bild, kodad i [`BinaryData`](./binarydata). Skrivskyddad String. |
@@ -24,12 +24,12 @@ public interface IPPImage
 | [Image](../../aspose.slides/ippimage/image) { get; } | Returnerar en kopia av en bild. Skrivskyddad [`Image`](./image). |
 | [SvgImage](../../aspose.slides/ippimage/svgimage) { get; set; } | Returnerar eller anger ISvgImage-objekt [`ISvgImage`](../isvgimage) |
 | [Width](../../aspose.slides/ippimage/width) { get; } | Returnerar en bredd för en bild. Skrivskyddad Int32. |
-| [X](../../aspose.slides/ippimage/x) { get; } | Returnerar en X-förskjutning för en bild. Skrivskyddad Int32. |
-| [Y](../../aspose.slides/ippimage/y) { get; } | Returnerar en Y-förskjutning för en bild. Skrivskyddad Int32. |
+| [X](../../aspose.slides/ippimage/x) { get; } | Returnerar en X-offset för en bild. Skrivskyddad Int32. |
+| [Y](../../aspose.slides/ippimage/y) { get; } | Returnerar en Y-offset för en bild. Skrivskyddad Int32. |
 
 ## Metoder
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
 | [ReplaceImage](../../aspose.slides/ippimage/replaceimage#replaceimage_2)(byte[]) | Ersätter bilddata. |
 | [ReplaceImage](../../aspose.slides/ippimage/replaceimage#replaceimage)(IImage) | Ersätter bild. |

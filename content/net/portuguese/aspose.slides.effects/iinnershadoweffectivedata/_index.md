@@ -3,7 +3,7 @@ title: IInnerShadowEffectiveData
 second_title: Aspose.Sildes para .NET Referência da API
 description: Objeto imutável que representa um efeito de sombra interna.
 type: docs
-weight: 3430
+weight: 3450
 url: /pt/aspose.slides.effects/iinnershadoweffectivedata/
 ---
 ## IInnerShadowEffectiveData interface
@@ -24,7 +24,7 @@ public interface IInnerShadowEffectiveData : IEffectEffectiveData
 | [Distance](../../aspose.slides.effects/iinnershadoweffectivedata/distance) { get; } | Distância da sombra. Somente leitura Double. |
 | [ShadowColor](../../aspose.slides.effects/iinnershadoweffectivedata/shadowcolor) { get; } | Cor da sombra. Somente leitura Color. |
 
-### Veja Também
+### Ver também
 
 * interface [IEffectEffectiveData](../ieffecteffectivedata)
 * namespace [Aspose.Slides.Effects](../../aspose.slides.effects)

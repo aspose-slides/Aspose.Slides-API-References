@@ -3,7 +3,7 @@ title: TabAlignment
 second_title: Aspose.Sildes für .NET API Referenz
 description: Stellt die Tab-Ausrichtung dar.
 type: docs
-weight: 10830
+weight: 10850
 url: /de/aspose.slides/tabalignment/
 ---
 ## TabAlignment Aufzählung
@@ -21,7 +21,7 @@ public enum TabAlignment
 | Left | `0` | Linke Ausrichtung |
 | Center | `1` | Zentrierte Ausrichtung |
 | Right | `2` | Rechte Ausrichtung |
-| Decimal | `3` | Dezimale Ausrichtung |
+| Decimal | `3` | Dezimal-Ausrichtung |
 
 ### Siehe auch
 

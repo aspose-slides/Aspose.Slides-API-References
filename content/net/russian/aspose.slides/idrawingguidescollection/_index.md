@@ -1,14 +1,14 @@
 ---
 title: IDrawingGuidesCollection
 second_title: Aspose.Sildes для .NET справочник API
-description: Представляет коллекцию регулируемых направляющих рисунка.
+description: Представляет собой коллекцию регулируемых направляющих рисования.
 type: docs
-weight: 5730
+weight: 5750
 url: /ru/aspose.slides/idrawingguidescollection/
 ---
 ## IDrawingGuidesCollection интерфейс
 
-Представляет коллекцию регулируемых направляющих рисунка.
+Represents a collection of the adjustable drawing guides.
 
 ```csharp
 public interface IDrawingGuidesCollection : IEnumerable<IDrawingGuide>
@@ -18,16 +18,16 @@ public interface IDrawingGuidesCollection : IEnumerable<IDrawingGuide>
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/idrawingguidescollection/count) { get; } | Возвращает количество всех элементов в коллекции. Только для чтения Int32. |
-| [Item](../../aspose.slides/idrawingguidescollection/item) { get; } | Возвращает направляющую рисунка по индексу. Только для чтения [`IDrawingGuide`](../idrawingguide). |
+| [Count](../../aspose.slides/idrawingguidescollection/count) { get; } | Получает количество всех элементов в коллекции. Только для чтения Int32. |
+| [Item](../../aspose.slides/idrawingguidescollection/item) { get; } | Возвращает руководство рисования по индексу. Только для чтения [`IDrawingGuide`](../idrawingguide). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.slides/idrawingguidescollection/add)(Orientation, float) | Добавляет направляющую рисунка в конец коллекции. |
+| [Add](../../aspose.slides/idrawingguidescollection/add)(Orientation, float) | Добавляет руководство рисования в конец коллекции. |
 | [Clear](../../aspose.slides/idrawingguidescollection/clear)() | Удаляет все элементы из коллекции. |
-| [RemoveAt](../../aspose.slides/idrawingguidescollection/removeat)(int) | Удаляет направляющую рисунка по указанному индексу. |
+| [RemoveAt](../../aspose.slides/idrawingguidescollection/removeat)(int) | Удаляет руководство рисования по указанному индексу. |
 
 ### Смотрите также
 

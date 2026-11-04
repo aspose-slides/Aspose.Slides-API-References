@@ -1,14 +1,14 @@
 ---
 title: IFontSubstRuleCollection
-second_title: Aspose.Sildes için .NET API Referansı
-description: Yazı tipi yerine koyma koleksiyonunu temsil eder.
+second_title: Aspose.Sildes .NET API Referansı
+description: Font ikamesi koleksiyonunu temsil eder.
 type: docs
-weight: 5890
+weight: 5910
 url: /tr/aspose.slides/ifontsubstrulecollection/
 ---
 ## IFontSubstRuleCollection arayüz
 
-Yazı tipi yerine koyma koleksiyonunu temsil eder.
+Font ikamesi koleksiyonunu temsil eder.
 
 ```csharp
 public interface IFontSubstRuleCollection : IGenericCollection<IFontSubstRule>
@@ -18,16 +18,16 @@ public interface IFontSubstRuleCollection : IGenericCollection<IFontSubstRule>
 
 | Ad | Açıklama |
 | --- | --- |
-| [Item](../../aspose.slides/ifontsubstrulecollection/item) { get; } | Belirtilen indeksteki öğeyi alır. |
+| [Item](../../aspose.slides/ifontsubstrulecollection/item) { get; } | Belirtilen dizindeki öğeyi alır. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [Add](../../aspose.slides/ifontsubstrulecollection/add)(IFontSubstRule) | Yeni yazı tipi yerine koyma kuralını koleksiyona ekler. |
-| [Remove](../../aspose.slides/ifontsubstrulecollection/remove)(IFontSubstRule) | Belirli bir nesnenin koleksiyondaki ilk oluşumunu kaldırır. |
+| [Add](../../aspose.slides/ifontsubstrulecollection/add)(IFontSubstRule) | Yeni font ikame kuralını koleksiyona ekler |
+| [Remove](../../aspose.slides/ifontsubstrulecollection/remove)(IFontSubstRule) | Koleksiyondan belirli bir nesnenin ilk oluşumunu kaldırır. |
 
-### Ayrıca
+### Ayrıca Bakınız
 
 * arayüz [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * arayüz [IFontSubstRule](../ifontsubstrule)

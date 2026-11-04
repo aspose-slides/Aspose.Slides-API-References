@@ -1,14 +1,14 @@
 ---
 title: IBaseSlideHeaderFooterManager
-second_title: Aspose.Sildes für .NET API Referenz
-description: Stellt einen Manager dar, der das Verhalten der Fußzeilen-Datums-Zeit- und Seitenzahl-Platzhalter für alle Folientypen verwaltet.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt einen Manager dar, der das Verhalten der Fußzeilen-, Datums-Zeit- und Seitenzahl-Platzhalter für alle Folientypen enthält.
 type: docs
-weight: 5350
+weight: 5370
 url: /de/aspose.slides/ibaseslideheaderfootermanager/
 ---
 ## IBaseSlideHeaderFooterManager Schnittstelle
 
-Stellt einen Manager dar, der das Verhalten der Fußzeilen-, Datums-Zeit- und Seitenzahl-Platzhalter für alle Folientypen verwaltet.
+Stellt einen Manager dar, der das Verhalten der Fußzeilen-, Datums-Zeit- und Seitenzahl-Platzhalter für alle Folientypen enthält.
 
 ```csharp
 public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
@@ -19,9 +19,9 @@ public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
 | Name | Beschreibung |
 | --- | --- |
 | [AsIBaseHeaderFooterManager](../../aspose.slides/ibaseslideheaderfootermanager/asibaseheaderfootermanager) { get; } | Gibt die Schnittstelle IBaseHeaderFooterManager zurück. |
-| [IsDateTimeVisible](../../aspose.slides/ibaseslideheaderfootermanager/isdatetimevisible) { get; } | Liest den Wert, der anzeigt, dass ein Datums-Zeit-Platzhalter vorhanden ist. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/ibaseslideheaderfootermanager/isfootervisible) { get; } | Liest den Wert, der anzeigt, dass ein Fußzeilen-Platzhalter vorhanden ist. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/ibaseslideheaderfootermanager/isslidenumbervisible) { get; } | Liest den Wert, der anzeigt, dass ein Seitenzahl-Platzhalter vorhanden ist. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/ibaseslideheaderfootermanager/isdatetimevisible) { get; } | Ruft den Wert ab, der anzeigt, dass ein Datums-Zeit-Platzhalter vorhanden ist. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/ibaseslideheaderfootermanager/isfootervisible) { get; } | Ruft den Wert ab, der anzeigt, dass ein Fußzeilen-Platzhalter vorhanden ist. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/ibaseslideheaderfootermanager/isslidenumbervisible) { get; } | Ruft den Wert ab, der anzeigt, dass ein Seitenzahl-Platzhalter vorhanden ist. ReadBoolean. |
 
 ## Methoden
 

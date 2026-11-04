@@ -1,12 +1,12 @@
 ---
 title: MathFunctionFactory
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
 description: อนุญาตให้สร้างฟังก์ชันคณิตศาสตร์
 type: docs
-weight: 8730
+weight: 8750
 url: /th/aspose.slides.mathtext/mathfunctionfactory/
 ---
-## MathFunctionFactory คลาส
+## คลาส MathFunctionFactory
 
 อนุญาตให้สร้างฟังก์ชันคณิตศาสตร์
 
@@ -14,11 +14,11 @@ url: /th/aspose.slides.mathtext/mathfunctionfactory/
 public class MathFunctionFactory : IMathFunctionFactory
 ```
 
-## คอนสตรัคเตอร์
+## ตัวสร้าง
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [MathFunctionFactory](mathfunctionfactory)() | ตัวสร้างเริ่มต้น |
+| [MathFunctionFactory](mathfunctionfactory)() | คอนสตรัคเตอร์เริ่มต้น |
 
 ## เมธอด
 

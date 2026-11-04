@@ -1,14 +1,14 @@
 ---
 title: SpreadsheetOptions
-second_title: Aspose.Sildes dla .NET – referencja API
-description: Reprezentuje opcje, które można wykorzystać do określenia dodatkowego zachowania arkuszy kalkulacyjnych.
+second_title: Aspose.Sildes dla .NET API Reference
+description: Reprezentuje opcje, które mogą być użyte do określenia dodatkowego zachowania arkuszy kalkulacyjnych.
 type: docs
-weight: 10740
+weight: 10760
 url: /pl/aspose.slides/spreadsheetoptions/
 ---
 ## SpreadsheetOptions klasa
 
-Reprezentuje opcje, które można wykorzystać do określenia dodatkowego zachowania arkuszy kalkulacyjnych.
+Represents options which can be used to specify additional spreadsheets behavior.
 
 ```csharp
 public class SpreadsheetOptions : ISpreadsheetOptions
@@ -24,10 +24,10 @@ public class SpreadsheetOptions : ISpreadsheetOptions
 
 | Nazwa | Opis |
 | --- | --- |
-| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | Pobiera lub ustawia preferowaną informację o kulturze używaną przy obliczaniu niektórych funkcji przeznaczonych do użycia z językami, które używają dwubajtowego zestawu znaków (DBCS). |
+| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | Pobiera lub ustawia preferowaną informację o kulturze do obliczania niektórych funkcji przeznaczonych do użycia w językach korzystających z dwubajtowego zestawu znaków (DBCS). |
 | [RecoverWorkbookFromChartCache](../../aspose.slides/spreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Jeśli źródło danych dla wykresu jest zewnętrznym skoroszytem i nie jest dostępne, zostanie przywrócone z pamięci podręcznej wykresu. |
 
-### Zobacz także
+### Zobacz również
 
 * interfejs [ISpreadsheetOptions](../ispreadsheetoptions)
 * przestrzeń nazw [Aspose.Slides](../../aspose.slides)

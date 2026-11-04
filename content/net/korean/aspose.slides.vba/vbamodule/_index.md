@@ -1,14 +1,14 @@
 ---
 title: VbaModule
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: VBA 프로젝트에 포함된 모듈을 나타냅니다.
 type: docs
-weight: 11630
+weight: 11650
 url: /ko/aspose.slides.vba/vbamodule/
 ---
 ## VbaModule 클래스
 
-VBA 프로젝트에 포함된 모듈을 나타냅니다.
+모듈이 VBA 프로젝트에 포함되어 있음을 나타냅니다.
 
 ```csharp
 public sealed class VbaModule : IVbaModule
@@ -19,9 +19,9 @@ public sealed class VbaModule : IVbaModule
 | 이름 | 설명 |
 | --- | --- |
 | [Name](../../aspose.slides.vba/vbamodule/name) { get; } | 모듈의 이름을 가져옵니다. 읽기 전용 String. |
-| [SourceCode](../../aspose.slides.vba/vbamodule/sourcecode) { get; set; } | 모듈의 소스 코드를 가져오거나 설정합니다. 읽기/쓰기 String. |
+| [SourceCode](../../aspose.slides.vba/vbamodule/sourcecode) { get; set; } | 모듈의 소스 코드를 반환하거나 설정합니다. 읽기/쓰기 String. |
 
-### 참고
+### 더 보기
 
 * 인터페이스 [IVbaModule](../ivbamodule)
 * 네임스페이스 [Aspose.Slides.Vba](../../aspose.slides.vba)

@@ -1,14 +1,14 @@
 ---
 title: IVbaReferenceOleTypeLib
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili referensi perpustakaan tipe OLE Automation.
+description: Mewakili referensi pustaka tipe OLE Automation.
 type: docs
-weight: 11610
+weight: 11630
 url: /id/aspose.slides.vba/ivbareferenceoletypelib/
 ---
-## antarmuka IVbaReferenceOleTypeLib
+## IVbaReferenceOleTypeLib antarmuka
 
-Mewakili referensi perpustakaan tipe OLE Automation.
+Mewakili referensi pustaka tipe OLE Automation.
 
 ```csharp
 public interface IVbaReferenceOleTypeLib : IVbaReference
@@ -16,10 +16,10 @@ public interface IVbaReferenceOleTypeLib : IVbaReference
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletypelib/asivbareference) { get; } | Mengembalikan antarmuka IVbaReference. Baca-saja [`IVbaReference`](../ivbareference). |
-| [Libid](../../aspose.slides.vba/ivbareferenceoletypelib/libid) { get; set; } | Mewakili pengenal perpustakaan tipe Automation. Baca/tulis String. |
+| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletypelib/asivbareference) { get; } | Mengembalikan IVbaReference antarmuka. Hanya-baca [`IVbaReference`](../ivbareference). |
+| [Libid](../../aspose.slides.vba/ivbareferenceoletypelib/libid) { get; set; } | Mewakili pengenal sebuah pustaka tipe Automation. Baca/tulis String. |
 
 ### Lihat Juga
 

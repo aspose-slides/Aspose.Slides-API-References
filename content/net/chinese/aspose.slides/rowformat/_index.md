@@ -1,9 +1,9 @@
 ---
 title: RowFormat
-second_title: 适用于 .NET 的 Aspose.Sildes API 参考
+second_title: Aspose.Sildes 的 .NET API 参考
 description: 表示表格行的格式。
 type: docs
-weight: 9730
+weight: 9750
 url: /zh/aspose.slides/rowformat/
 ---
 ## RowFormat 类
@@ -18,9 +18,9 @@ public sealed class RowFormat : DomObject<Row>, IRowFormat
 
 | 名称 | 描述 |
 | --- | --- |
-| [GetEffective](../../aspose.slides/rowformat/geteffective)() | 获取有效的表格行格式属性，包括继承和表格样式的应用。 |
+| [GetEffective](../../aspose.slides/rowformat/geteffective)() | 获取在继承和表格样式应用后的有效表格行格式属性。 |
 
-### 另请参见
+### 另请参阅
 
 * 类 [DomObject&lt;TParent&gt;](../domobject-1)
 * 类 [Row](../row)

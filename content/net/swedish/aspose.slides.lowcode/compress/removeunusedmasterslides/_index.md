@@ -1,9 +1,9 @@
 ---
 title: RemoveUnusedMasterSlides
-second_title: Aspose.Slides för .NET API-referens
-description: Komprimerar Presentation aspose.slides/presentation genom att ta bort oanvända masterbilder.
+second_title: Aspose.Sildes för .NET API-referens
+description: Komprimerar Presentationaspose.slides/presentation genom att ta bort oanvända masterbilder.
 type: docs
-weight: 30
+weight: 50
 url: /sv/aspose.slides.lowcode/compress/removeunusedmasterslides/
 ---
 ## Compress.RemoveUnusedMasterSlides metod
@@ -16,7 +16,7 @@ public static void RemoveUnusedMasterSlides(Presentation pres)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| pres | Presentation | Presentationens instans |
+| pres | Presentation | Presentation-instansen |
 
 ### Exempel
 

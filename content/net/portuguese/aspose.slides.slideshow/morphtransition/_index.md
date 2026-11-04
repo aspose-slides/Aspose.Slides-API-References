@@ -1,14 +1,14 @@
 ---
 title: MorphTransition
 second_title: Referência da API Aspose.Sildes para .NET
-description: Efeito de transição de slide em ondulação.
+description: Efeito de transição de slide Ripple.
 type: docs
-weight: 10250
+weight: 10270
 url: /pt/aspose.slides.slideshow/morphtransition/
 ---
-## MorphTransition class
+## MorphTransition classe
 
-Efeito de transição de slide em ondulação.
+Efeito de transição de slide Ripple.
 
 ```csharp
 public class MorphTransition : TransitionValueBase, IMorphTransition
@@ -25,9 +25,9 @@ public class MorphTransition : TransitionValueBase, IMorphTransition
 | Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina se as duas instâncias de TransitionValueBase são iguais. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Serve como uma função hash para um tipo específico, adequada para uso em algoritmos de hash e estruturas de dados como uma tabela hash. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Atua como uma função hash para um tipo específico, adequada para uso em algoritmos de hashing e estruturas de dados como uma tabela hash. |
 
-### Veja também
+### Veja Também
 
 * classe [TransitionValueBase](../transitionvaluebase)
 * interface [IMorphTransition](../imorphtransition)

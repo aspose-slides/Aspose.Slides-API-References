@@ -1,14 +1,14 @@
 ---
 title: ChartDataPointCollection
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje kolekci datových bodů řady.
+description: Representuje kolekci datových bodů řady.
 type: docs
-weight: 1340
+weight: 1350
 url: /cs/aspose.slides.charts/chartdatapointcollection/
 ---
 ## ChartDataPointCollection třída
 
-Představuje kolekci datových bodů řady.
+Represents collection of a series data point.
 
 ```csharp
 public class ChartDataPointCollection : DomObject<ChartSeries>, IChartDataPointCollection
@@ -16,21 +16,21 @@ public class ChartDataPointCollection : DomObject<ChartSeries>, IChartDataPointC
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartdatapointcollection/count) { get; } | Získá počet prvků skutečně obsažených v kolekci. Pouze pro čtení Int32. |
+| [Count](../../aspose.slides.charts/chartdatapointcollection/count) { get; } | Vrací počet prvků skutečně obsažených v kolekci. Pouze ke čtení Int32. |
 | [DataSourceTypeForBubbleSizes](../../aspose.slides.charts/chartdatapointcollection/datasourcetypeforbubblesizes) { get; set; } | Určuje, zda je v objektu vlastnosti BubbleSize datových bodů aktuální vlastnost AsCell nebo AsLiteralString nebo AsLiteralDouble. Jinými slovy určuje typ hodnoty vlastnosti ChartDataPoint.BubbleSize.Data. Čtení/zápis [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForErrorBarsCustomValues](../../aspose.slides.charts/chartdatapointcollection/datasourcetypeforerrorbarscustomvalues) { get; } | Určuje typy hodnot v seznamu vlastností ChartDataPoint.ErrorBarsCustomValues. Pouze pro čtení [`IDataSourceTypeForErrorBarsCustomValues`](../idatasourcetypeforerrorbarscustomvalues). |
+| [DataSourceTypeForErrorBarsCustomValues](../../aspose.slides.charts/chartdatapointcollection/datasourcetypeforerrorbarscustomvalues) { get; } | Určuje typy hodnot v seznamu vlastností ChartDataPoint.ErrorBarsCustomValues. Pouze ke čtení [`IDataSourceTypeForErrorBarsCustomValues`](../idatasourcetypeforerrorbarscustomvalues). |
 | [DataSourceTypeForValues](../../aspose.slides.charts/chartdatapointcollection/datasourcetypeforvalues) { get; set; } | Určuje, zda je v objektu vlastnosti Value datových bodů aktuální vlastnost AsCell nebo AsLiteralString nebo AsLiteralDouble. Jinými slovy určuje typ hodnoty vlastnosti ChartDataPoint.Value.Data. Čtení/zápis [`DataSourceType`](../datasourcetype). |
 | [DataSourceTypeForXValues](../../aspose.slides.charts/chartdatapointcollection/datasourcetypeforxvalues) { get; set; } | Určuje, zda je v objektu vlastnosti XValue datových bodů aktuální vlastnost AsCell nebo AsLiteralString nebo AsLiteralDouble. Jinými slovy určuje typ hodnoty vlastnosti ChartDataPoint.XValue.Data. Čtení/zápis [`DataSourceType`](../datasourcetype). |
 | [DataSourceTypeForYValues](../../aspose.slides.charts/chartdatapointcollection/datasourcetypeforyvalues) { get; set; } | Určuje, zda je v objektu vlastnosti YValue datových bodů aktuální vlastnost AsCell nebo AsLiteralString nebo AsLiteralDouble. Jinými slovy určuje typ hodnoty vlastnosti ChartDataPoint.YValue.Data. Čtení/zápis [`DataSourceType`](../datasourcetype). |
-| [IsSynchronized](../../aspose.slides.charts/chartdatapointcollection/issynchronized) { get; } | Vrací hodnotu označující, zda je přístup ke kolekci synchronizován (thread-safe). Pouze pro čtení Boolean. |
-| [Item](../../aspose.slides.charts/chartdatapointcollection/item) { get; } | Vrací datový bod řady podle indexu (jeho pořadové číslo v této kolekci). (2 indexátory) |
-| [SyncRoot](../../aspose.slides.charts/chartdatapointcollection/syncroot) { get; } | Vrací kořen synchronizace. Pouze pro čtení Object. |
+| [IsSynchronized](../../aspose.slides.charts/chartdatapointcollection/issynchronized) { get; } | Vrací hodnotu indikující, zda je přístup ke kolekci synchronizovaný (vláknově bezpečný). Pouze ke čtení Boolean. |
+| [Item](../../aspose.slides.charts/chartdatapointcollection/item) { get; } | Vrací datový bod řady podle indexu (její sériové číslo v této kolekci). (2 indexátory) |
+| [SyncRoot](../../aspose.slides.charts/chartdatapointcollection/syncroot) { get; } | Vrací kořen synchronizace. Pouze ke čtení Object. |
 
 ## Metody
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | [AddDataPointForAreaSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforareaseries#adddatapointforareaseries_1)(double) | Vytvoří nový datový bod a přidá jej na konec kolekce. Použitelné pro řady, jejichž chartType je jedním z podtypů Area (viz také metoda [`IsChartTypeArea`](../charttypecharacterizer/ischarttypearea)). |
 | [AddDataPointForAreaSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforareaseries#adddatapointforareaseries)(IChartDataCell) | Vytvoří nový datový bod a přidá jej na konec kolekce. Použitelné pro řady, jejichž chartType je jedním z podtypů Area (viz také metoda [`IsChartTypeArea`](../charttypecharacterizer/ischarttypearea)). |
@@ -73,10 +73,10 @@ public class ChartDataPointCollection : DomObject<ChartSeries>, IChartDataPointC
 | [AddDataPointForSurfaceSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforsurfaceseries#adddatapointforsurfaceseries)(IChartDataCell) | Vytvoří nový datový bod a přidá jej na konec kolekce. Použitelné pro řady, jejichž chartType je jedním z podtypů Surface (viz také metoda [`IsChartTypeSurface`](../charttypecharacterizer/ischarttypesurface)). |
 | [AddDataPointForTreemapSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointfortreemapseries)(IChartDataCell) | Vytvoří nový datový bod a přidá jej na konec kolekce. Použitelné pro řady, jejichž chart type je Treemap. |
 | [AddDataPointForWaterfallSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforwaterfallseries)(IChartDataCell) | Vytvoří nový datový bod a přidá jej na konec kolekce. Použitelné pro řady, jejichž chart type je Waterfall. |
-| [Clear](../../aspose.slides.charts/chartdatapointcollection/clear)() | Odstraní všechny elementy z kolekce. |
+| [Clear](../../aspose.slides.charts/chartdatapointcollection/clear)() | Odstraní všechny prvky z kolekce. |
 | [CopyTo](../../aspose.slides.charts/chartdatapointcollection/copyto)(Array, int) | Zkopíruje do zadaného pole. |
-| [GetEnumerator](../../aspose.slides.charts/chartdatapointcollection/getenumerator)() | Vrací enumerátor, který iteruje přes kolekci. |
-| [GetOrCreateDataPointByIdx](../../aspose.slides.charts/chartdatapointcollection/getorcreatedatapointbyidx)(uint) | Pokud kolekce již obsahuje datový bod s indexem *index*, vrátí tento datový bod. Pokud kolekce neobsahuje datový bod s indexem *index*==N (když je počet datových bodů v kolekci menší nebo roven N), přidá chybějící datové body a vrátí poslední (který má požadovaný index). Například indexy kolekce jsou {0, 1, 2} a požadovaný index je 5. Pak metoda přidá chybějící body: {0, 1, 2, 3, 4, 5} a vrátí datový bod s indexem 5. |
+| [GetEnumerator](../../aspose.slides.charts/chartdatapointcollection/getenumerator)() | Vrací enumerátor, který prochází kolekci. |
+| [GetOrCreateDataPointByIdx](../../aspose.slides.charts/chartdatapointcollection/getorcreatedatapointbyidx)(uint) | Pokud kolekce již obsahuje datový bod s indexem *index*, vrátí tento datový bod. Pokud kolekce neobsahuje datový bod s indexem *index*==N (když je počet datových bodů v této kolekci menší nebo roven N), přidá chybějící datové body a vrátí poslední (který má požadovaný index). Například indexy kolekce jsou {0, 1, 2} a požadovaný index je 5. Pak metoda přidá chybějící datové body: {0, 1, 2, 3, 4, 5} a vrátí datový bod s indexem 5. |
 | [Remove](../../aspose.slides.charts/chartdatapointcollection/remove)(IChartDataPoint) | Odstraní zadanou hodnotu. |
 | [RemoveAt](../../aspose.slides.charts/chartdatapointcollection/removeat)(int) | Odstraní prvek na zadaném indexu. |
 

@@ -1,14 +1,14 @@
 ---
 title: LightRig
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt LightRig voor.
+description: Vertegenwoordigt LightRig.
 type: docs
-weight: 7690
+weight: 7710
 url: /nl/aspose.slides/lightrig/
 ---
 ## LightRig klasse
 
-Stelt LightRig voor.
+Represents LightRig.
 
 ```csharp
 public sealed class LightRig : PVIObject, ILightRig
@@ -18,18 +18,18 @@ public sealed class LightRig : PVIObject, ILightRig
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Staat toe om de basis IPresentationComponent interface op te halen. Alleen-lezen [`IPresentationComponent`](../ipresentationcomponent). |
-| [Direction](../../aspose.slides/lightrig/direction) { get; set; } | Lichtrichting. Lezen/Schrijven [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/lightrig/lighttype) { get; set; } | Stelt een voorinstelling van licht rechts voor die op een vorm kan worden toegepast. De light rig stelt een groep lichten voor die op een specifieke manier ten opzichte van een 3D-scène zijn georiënteerd. Lezen/Schrijven [`LightRigPresetType`](../lightrigpresettype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Geeft toegang tot de basis IPresentationComponent interface. Alleen-lezen [`IPresentationComponent`](../ipresentationcomponent). |
+| [Direction](../../aspose.slides/lightrig/direction) { get; set; } | Lichtrichting. Lezen/schrijven [`LightingDirection`](../lightingdirection). |
+| [LightType](../../aspose.slides/lightrig/lighttype) { get; set; } | Stelt een vooraf ingestelde lichtinstelling voor die op een vorm kan worden toegepast. De light rig vertegenwoordigt een groep lichten die op een specifieke manier ten opzichte van een 3D-scene zijn georiënteerd. Lezen/schrijven [`LightRigPresetType`](../lightrigpresettype). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Vergelijkt met opgegeven object. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Retourneert hashcode. |
-| [GetRotation](../../aspose.slides/lightrig/getrotation)() | Een rotatie wordt gedefinieerd door het gebruik van een breedtegraadcoördinaat, een lengtegraadcoördinaat en een omwenteling rond de as als de breedtegraad- en lengtegraadcoördinaten. eerste element in geretourneerde array – breedtegraad, tweede – lengtegraad, derde – omwenteling. Retourneert null als er geen rotatie gedefinieerd is. |
-| [SetRotation](../../aspose.slides/lightrig/setrotation)(float, float, float) | Een rotatie wordt gedefinieerd door het gebruik van een breedtegraadcoördinaat, een lengtegraadcoördinaat en een omwenteling rond de as als de breedtegraad- en lengtegraadcoördinaten. Als een van de coördinatenwaarde float.NaN is, is de volledige rotatie ongedefinieerd. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Geeft hashcode terug. |
+| [GetRotation](../../aspose.slides/lightrig/getrotation)() | Een rotatie wordt gedefinieerd door gebruik van een breedtegraadcoördinaat, een lengtegraadcoördinaat en een revolutie rond de as op basis van de breedtegraad- en lengtegraadcoördinaten. eerste element in het retourarray - breedtegraad, tweede - lengtegraad, derde - revolutie. Retourneert null als geen rotatie gedefinieerd is. |
+| [SetRotation](../../aspose.slides/lightrig/setrotation)(float, float, float) | Een rotatie wordt gedefinieerd door gebruik van een breedtegraadcoördinaat, een lengtegraadcoördinaat en een revolutie rond de as op basis van de breedtegraad- en lengtegraadcoördinaten. Als een van de coördinaatwaarden float.NaN is, is de gehele rotatie ongedefinieerd. |
 
 ### Zie ook
 

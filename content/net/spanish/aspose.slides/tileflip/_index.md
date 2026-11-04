@@ -3,10 +3,10 @@ title: TileFlip
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Define el modo de volteo de mosaicos.
 type: docs
-weight: 11500
+weight: 11520
 url: /es/aspose.slides/tileflip/
 ---
-## TileFlip enumeración
+## enumeración TileFlip
 
 Define el modo de volteo de mosaicos.
 

@@ -1,9 +1,9 @@
 ---
 title: LegendDataLabelPosition
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Détermine la position des étiquettes de données.
 type: docs
-weight: 2290
+weight: 2310
 url: /fr/aspose.slides.charts/legenddatalabelposition/
 ---
 ## LegendDataLabelPosition énumération
@@ -20,7 +20,7 @@ public enum LegendDataLabelPosition
 | --- | --- | --- |
 | NotDefined | `-1` | La position n'est pas définie. |
 | Bottom | `0` | Spécifie que les étiquettes de données doivent être affichées sous le repère de données. |
-| BestFit | `1` | Spécifie que les étiquettes de données doivent être affichées à la meilleure position. |
+| BestFit | `1` | Spécifie que les étiquettes de données doivent être affichées dans la meilleure position. |
 | Center | `2` | Spécifie que les étiquettes de données doivent être affichées centrées sur le repère de données. |
 | InsideBase | `3` | Spécifie que les étiquettes de données doivent être affichées à l'intérieur de la base du repère de données. |
 | InsideEnd | `4` | Spécifie que les étiquettes de données doivent être affichées à l'intérieur de l'extrémité du repère de données. |

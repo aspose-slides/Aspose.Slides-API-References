@@ -3,10 +3,10 @@ title: WorkbookType
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Gibt den Typ einer Open XML-Arbeitsmappendatei an.
 type: docs
-weight: 2510
+weight: 2530
 url: /de/aspose.slides.charts/workbooktype/
 ---
-## WorkbookType-Enumeration
+## WorkbookType Aufzählung
 
 Gibt den Typ einer Open XML-Arbeitsmappendatei an.
 
@@ -18,12 +18,12 @@ public enum WorkbookType
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| NotDefined | `-1` | Der Arbeitsmappentyp ist nicht definiert. |
+| NotDefined | `-1` | Der Arbeitsmappe Typ ist nicht definiert. |
 | Workbook | `0` | Excel-Arbeitsmappe (*.xlsx). |
-| WorkbookMacro | `1` | Excel-Arbeitsmappe mit Makros (*.xlsm). |
+| WorkbookMacro | `1` | Excel-Makro-aktivierte Arbeitsmappe (*.xlsm). |
 | Template | `2` | Excel-Vorlage (*.xltx). |
-| TemplateMacro | `3` | Excel-Vorlage mit Makros (*.xltm). |
-| WorkbookBinaryMacro | `4` | Excel-Binärarbeitsmappe mit Makros (*.xlsb). |
+| TemplateMacro | `3` | Excel-Makro-aktivierte Vorlage (*.xltm). |
+| WorkbookBinaryMacro | `4` | Excel-binäre, makro-aktivierte Arbeitsmappe (*.xlsb). |
 
 ### Siehe auch
 

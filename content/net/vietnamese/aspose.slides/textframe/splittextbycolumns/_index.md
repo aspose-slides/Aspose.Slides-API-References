@@ -1,9 +1,9 @@
 ---
 title: SplitTextByColumns
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Aspose.Sildes cho .NET Tham chiếu API
 description: Tách nội dung văn bản của ITextFrameaspose.slides/itextframe thành một mảng các chuỗi, trong đó mỗi phần tử tương ứng với một cột văn bản riêng biệt trong khung.
 type: docs
-weight: 140
+weight: 150
 url: /vi/aspose.slides/textframe/splittextbycolumns/
 ---
 ## TextFrame.SplitTextByColumns phương thức
@@ -24,16 +24,16 @@ Nếu khung văn bản không chứa nhiều cột, mảng trả về sẽ có m
 
 ### Ví dụ
 
-Ví dụ sau đây minh họa cách sử dụng `SplitTextByColumns`:
+Ví dụ sau minh họa cách sử dụng `SplitTextByColumns`:
 
 ```csharp
 using (Presentation pres = new Presentation("example.pptx"))
 {
-    // Lấy hình dạng đầu tiên trên slide và ép kiểu thành ITextFrame
+    // Lấy shape đầu tiên trên slide và ép kiểu sang ITextFrame
     ITextFrame textFrame = pres.Slides[0].Shapes[0] as ITextFrame;
     // Tách nội dung khung văn bản thành các cột
     string[] columnsText = textFrame.SplitTextByColumns();
-    // In văn bản của mỗi cột ra console
+    // In nội dung của mỗi cột ra console
     foreach (string column in columnsText)
         Console.WriteLine(column);
 }

@@ -1,14 +1,14 @@
 ---
 title: TabAlignment
-second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje zarovnání tabulátoru.
+second_title: Aspose.Sildes pro .NET – referenční dokumentace API
+description: Popisuje zarovnání tabulátoru.
 type: docs
-weight: 10830
+weight: 10850
 url: /cs/aspose.slides/tabalignment/
 ---
-## Výčet TabAlignment
+## TabAlignment výčtový typ
 
-Představuje zarovnání tabulátoru.
+Popisuje zarovnání tabulátoru.
 
 ```csharp
 public enum TabAlignment

@@ -1,14 +1,14 @@
 ---
 title: LayoutSlideThemeManager
-second_title: Aspose.Sildes a .NET API referencia
-description: Hozzáférést biztosít a layout slide téma felülírásához.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Hozzáférést biztosít a layout diatéma felülírásához.
 type: docs
-weight: 11410
+weight: 11430
 url: /hu/aspose.slides.theme/layoutslidethememanager/
 ---
 ## LayoutSlideThemeManager osztály
 
-Hozzáférést biztosít a layout slide téma felülírásához.
+Hozzáférést biztosít a layout diatéma felülírásához.
 
 ```csharp
 public class LayoutSlideThemeManager : BaseOverrideThemeManager
@@ -19,14 +19,14 @@ public class LayoutSlideThemeManager : BaseOverrideThemeManager
 | Név | Leírás |
 | --- | --- |
 | [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Meghatározza, hogy az OverrideTheme felülírja-e az örökölt hatékony témát vagy sem. Az OverrideTheme felülírásának engedélyezéséhez használja az OverrideTheme.Init*() metódusokat. Az OverrideTheme felülírásának letiltásához használja az OverrideTheme.Clear() metódust. Csak olvasható Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Visszaadja a felülíró téma objektumot. Olvasás/írás [`IOverrideTheme`](../ioverridetheme). |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Visszaadja a felülíró téma objektumát. Olvasás/írás [`IOverrideTheme`](../ioverridetheme). |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Alkalmaz egy extra színsémát a diára. |
-| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Visszaadja a téma objektumot. |
+| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Alkalmaz egy extra színsémát egy diára. |
+| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Visszaadja a téma objektumát. |
 
 ### Lásd még
 

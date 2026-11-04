@@ -1,14 +1,14 @@
 ---
 title: Blur
-second_title: Aspose.Sildes .NET API Referansı
-description: Dolgu dahil tüm şekle uygulanan bir Blur etkisini temsil eder. Alfa dahil tüm renk kanalları etkilenir.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Tam şekle, doldurması dahil olmak üzere uygulanan bir Blur etkisini temsil eder. Alfa da dahil olmak üzere tüm renk kanalları etkilenir.
 type: docs
-weight: 2920
+weight: 2940
 url: /tr/aspose.slides.effects/blur/
 ---
 ## Blur sınıfı
 
-Tam şekle, dolgu dahil, uygulanan bir Blur etkisini temsil eder. Alfa dahil tüm renk kanalları etkilenir.
+Tam şekle, doldurması dahil olmak üzere uygulanan bir Blur etkisini temsil eder. Alfa da dahil olmak üzere tüm renk kanalları etkilenir.
 
 ```csharp
 public sealed class Blur : ImageTransformOperation, IBlur
@@ -16,21 +16,21 @@ public sealed class Blur : ImageTransformOperation, IBlur
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almaya izin verir. Yalnızca-okunur [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | Objenin sınırlarının bulanıklaştırma sonucunda genişletilip genişletilmeyeceğini belirler. True sınırların genişletildiğini, false ise genişletilmediğini gösterir. Okunabilir/yazılabilir Boolean. |
-| [Radius](../../aspose.slides.effects/blur/radius) { get; set; } | Bulanıklaştırma yarıçapını döndürür veya ayarlar. Okunabilir/yazılabilir Double. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almayı sağlar. Salt okunur [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | Nesnenin sınırlarının bulanıklaştırma sonucu genişletilip genişletilmeyeceğini belirler. True, sınırların genişletildiğini; false, genişletilmediğini gösterir. Okunabilir/yazılabilir Boolean. |
+| [Radius](../../aspose.slides.effects/blur/radius) { get; set; } | Blur yarıçapını döndürür veya ayarlar. Okunabilir/yazılabilir Double. |
 
 ## Yöntemler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/blur/equals)(object) | Belirtilen [`Blur`](../blur) öğesinin mevcut [`Blur`](../blur) ile eşit olup olmadığını belirler. |
-| [GetEffective](../../aspose.slides.effects/blur/geteffective)() | Kalıtım uygulanmış etkili Blur efekti verisini alır. |
-| override [GetHashCode](../../aspose.slides.effects/blur/gethashcode)() | Belirli bir tip için hash işlevi olarak hizmet eder. |
+| override [Equals](../../aspose.slides.effects/blur/equals)(object) | Belirtilen [`Blur`](../blur)'nin mevcut [`Blur`](../blur) ile eşit olup olmadığını belirler. |
+| [GetEffective](../../aspose.slides.effects/blur/geteffective)() | Uygulanan kalıtımla etkili Blur efekt verilerini alır. |
+| override [GetHashCode](../../aspose.slides.effects/blur/gethashcode)() | Belirli bir tür için bir hash işlevi olarak hizmet verir. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * sınıf [ImageTransformOperation](../imagetransformoperation)
 * arayüz [IBlur](../iblur)

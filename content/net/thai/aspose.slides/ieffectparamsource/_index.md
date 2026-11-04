@@ -1,14 +1,14 @@
 ---
 title: IEffectParamSource
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อินเทอร์เฟซพารามิเตอร์เอฟเฟกต์เสริม.
+description: อินเทอร์เฟซพารามิเตอร์เอฟเฟกต์เพิ่มเติม.
 type: docs
-weight: 5760
+weight: 5780
 url: /th/aspose.slides/ieffectparamsource/
 ---
 ## IEffectParamSource อินเทอร์เฟซ
 
-อินเทอร์เฟซพารามิเตอร์เอฟเฟกต์เสริม.
+อินเทอร์เฟซพารามิเตอร์เอฟเฟกต์เพิ่มเติม.
 
 ```csharp
 public interface IEffectParamSource

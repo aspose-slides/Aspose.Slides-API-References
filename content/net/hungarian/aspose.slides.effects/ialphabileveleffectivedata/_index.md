@@ -1,14 +1,14 @@
 ---
 title: IAlphaBiLevelEffectiveData
-second_title: Aspose.Sildes .NET API referenciája
-description: Változtathatatlan objektum, amely egy Alpha Bi-Level hatást képvisel. Az Alpha átlátszósági értékek, amelyek kisebbek a küszöbnél, 0-ra állnak (teljesen átlátszó), a küszöbnél nagyobb vagy egyenlő értékek pedig 100-ra (teljesen átlátszatlan).
+second_title: Aspose.Sildes .NET API Referenciája
+description: Módosíthatatlan objektum, amely egy Alpha Bi-Level hatást képvisel. Az Alpha Opacity értékek, amelyek kisebbek a küszöbnél, 0-ra (teljesen átlátszó) változnak, míg a nagyobb vagy egyenlő értékek 100%-ra (teljesen átlátszatlan) változnak.
 type: docs
-weight: 3030
+weight: 3050
 url: /hu/aspose.slides.effects/ialphabileveleffectivedata/
 ---
 ## IAlphaBiLevelEffectiveData interfész
 
-Változtathatatlan objektum, amely egy Alpha Bi-Level hatást képvisel. Az Alpha (Átlátszóság) értékek, amelyek kisebbek a küszöbnél, 0-ra (teljesen átlátszó) módosulnak, a küszöbnél nagyobb vagy egyenlő alpha értékek pedig 100%-ra (teljesen átlátszatlan) módosulnak.
+Immutable object which represents an Alpha Bi-Level effect. Alpha (Opacity) values less than the threshold are changed to 0 (fully transparent) and alpha values greater than or equal to the threshold are changed to 100% (fully opaque).
 
 ```csharp
 public interface IAlphaBiLevelEffectiveData : IEffectEffectiveData

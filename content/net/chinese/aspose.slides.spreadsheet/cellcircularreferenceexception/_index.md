@@ -1,14 +1,14 @@
 ---
 title: CellCircularReferenceException
-second_title: Aspose.Sildes 的 .NET API 参考
-description: 当检测到一个或多个循环引用时抛出的异常，其中公式直接或间接引用了其自身的单元格。
+second_title: Aspose.Sildes .NET API 参考
+description: 当检测到一个或多个循环引用时抛出的异常，此时公式直接或间接引用了其自身的单元格。
 type: docs
-weight: 10700
+weight: 10720
 url: /zh/aspose.slides.spreadsheet/cellcircularreferenceexception/
 ---
 ## CellCircularReferenceException 类
 
-当检测到一个或多个循环引用时抛出的异常，其中公式直接或间接引用了其自身的单元格。
+当检测到一个或多个循环引用时抛出的异常，此时公式直接或间接引用了其自身的单元格。
 
 ```csharp
 public class CellCircularReferenceException : PptxEditException
@@ -20,8 +20,8 @@ public class CellCircularReferenceException : PptxEditException
 | --- | --- |
 | [CellCircularReferenceException](cellcircularreferenceexception#constructor)() | 初始化 [`CellCircularReferenceException`](../cellcircularreferenceexception) 类的新实例。 |
 | [CellCircularReferenceException](cellcircularreferenceexception#constructor_1)(string) | 使用指定的错误消息初始化 [`CellCircularReferenceException`](../cellcircularreferenceexception) 类的新实例。 |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor_2)(string, Exception) | 使用指定的错误消息和指向导致此异常的内部异常的引用，初始化 [`CellCircularReferenceException`](../cellcircularreferenceexception) 类的新实例。 |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor_3)(string, string) | 使用指定的错误消息和循环单元格引用，初始化 [`CellCircularReferenceException`](../cellcircularreferenceexception) 类的新实例。 |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor_2)(string, Exception) | 使用指定的错误消息和指向内部异常的引用（该内部异常是此异常的原因）初始化 [`CellCircularReferenceException`](../cellcircularreferenceexception) 类的新实例。 |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor_3)(string, string) | 使用指定的错误消息和循环单元格引用初始化 [`CellCircularReferenceException`](../cellcircularreferenceexception) 类的新实例。 |
 
 ## 属性
 

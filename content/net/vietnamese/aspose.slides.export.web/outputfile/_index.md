@@ -3,7 +3,7 @@ title: OutputFile
 second_title: Aspose.Sildes cho Tham chiếu API .NET
 description: Biểu diễn một tệp đầu ra.
 type: docs
-weight: 4650
+weight: 4670
 url: /vi/aspose.slides.export.web/outputfile/
 ---
 ## OutputFile lớp

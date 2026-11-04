@@ -1,14 +1,14 @@
 ---
 title: LeftRightDirectionTransition
-second_title: Aspose.Sildes .NET API Referencia
-description: Bal-jobb irányú diaátmeneti effektus.
+second_title: Aspose.Sildes .NET API referencia
+description: Bal-jobb irányú diaátmenet hatás.
 type: docs
-weight: 10240
+weight: 10260
 url: /hu/aspose.slides.slideshow/leftrightdirectiontransition/
 ---
 ## LeftRightDirectionTransition osztály
 
-Bal-jobb irányú diaátmeneti effektus.
+Bal-jobb irányú diaátmenet hatás.
 
 ```csharp
 public class LeftRightDirectionTransition : TransitionValueBase, ILeftRightDirectionTransition
@@ -16,16 +16,16 @@ public class LeftRightDirectionTransition : TransitionValueBase, ILeftRightDirec
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/leftrightdirectiontransition/direction) { get; set; } | Az átmenet iránya. Olvasás/írás [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
 
-## Metódusok
+## Módszerek
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Megállapítja, hogy a két TransitionValueBase példány egyenlő-e. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Hash-függvényként szolgál egy adott típushoz, amely alkalmas hash-algoritmusokban és olyan adatstruktúrákban, mint a hash-tábla. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Hashfüggvényként szolgál egy adott típus számára, amely alkalmas hash algoritmusokban és adatstruktúrákban, például hash táblában. |
 
 ### Lásd még
 

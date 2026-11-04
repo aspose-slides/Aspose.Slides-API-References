@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulateEffectiveData
-second_title: Aspose.Sildes の .NET API リファレンス
-description: Alpha Modulate エフェクトを表す不変オブジェクトです。エフェクトのアルファ(不透明度)値は固定パーセンテージで乗算されます。エフェクト コンテナは、変調するアルファ値を含むエフェクトを指定します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: アルファモジュレート効果を表す不変オブジェクトです。効果のアルファ不透明度の値は固定パーセンテージで乗算されます。効果コンテナは、モジュレートするアルファ値を含む効果を指定します。
 type: docs
-weight: 3110
+weight: 3130
 url: /ja/aspose.slides.effects/ialphamodulateeffectivedata/
 ---
 ## IAlphaModulateEffectiveData インターフェイス
 
-不変オブジェクトで、Alpha Modulate エフェクトを表します。エフェクトのアルファ (不透明度) 値は固定のパーセンテージで乗算されます。エフェクト コンテナは、アルファ値を変調するエフェクトを指定します。
+アルファモジュレート効果を表す不変オブジェクトです。効果のアルファ（不透明度）値は一定のパーセンテージで乗算されます。効果コンテナは、モジュレートするアルファ値を含む効果を指定します。
 
 ```csharp
 public interface IAlphaModulateEffectiveData : IEffectEffectiveData
@@ -20,7 +20,7 @@ public interface IAlphaModulateEffectiveData : IEffectEffectiveData
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulateeffectivedata/asieffecteffectivedata) { get; } | ベースの IEffectEffectiveData インターフェイスを取得できます。読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [IEffectEffectiveData](../ieffecteffectivedata)
 * 名前空間 [Aspose.Slides.Effects](../../aspose.slides.effects)

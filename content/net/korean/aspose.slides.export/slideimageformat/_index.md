@@ -1,9 +1,9 @@
 ---
 title: SlideImageFormat
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 프레젠테이션을 HTML로 내보낼 때 슬라이드 이미지가 저장되는 형식을 결정합니다.
 type: docs
-weight: 4470
+weight: 4490
 url: /ko/aspose.slides.export/slideimageformat/
 ---
 ## SlideImageFormat 클래스

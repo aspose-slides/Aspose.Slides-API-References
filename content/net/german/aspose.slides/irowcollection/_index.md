@@ -1,14 +1,14 @@
 ---
 title: IRowCollection
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt eine Sammlung von Tabellenzeilen dar.
+description: Stellt die Sammlung von Tabellenzeilen dar.
 type: docs
-weight: 6860
+weight: 6880
 url: /de/aspose.slides/irowcollection/
 ---
-## IRowCollection Schnittstelle
+## IRowCollection interface
 
-Stellt eine Sammlung von Tabellenzeilen dar.
+Stellt die Sammlung von Tabellenzeilen dar.
 
 ```csharp
 public interface IRowCollection : IGenericCollection<IRow>
@@ -18,7 +18,7 @@ public interface IRowCollection : IGenericCollection<IRow>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Item](../../aspose.slides/irowcollection/item) { get; } | Gibt das Element am angegebenen Index zurück. |
+| [Item](../../aspose.slides/irowcollection/item) { get; } | Ruft das Element am angegebenen Index ab. |
 
 ## Methoden
 

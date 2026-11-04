@@ -1,14 +1,14 @@
 ---
 title: NormalViewRestoredProperties
-second_title: Aspose.Sildes の .NET API リファレンス
-description: 通常ビューにおいて、領域が可変サイズの復元状態（最小化でも最大化でもない）である場合に、子が restoredTop のときは幅、子が restoredLeft のときは高さを指定します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: 通常ビューにおいて、領域が可変復元サイズ（最小化でも最大化でもない）である場合に、スライド領域のサイズ（restoredTop の子であるときは幅、restoredLeft の子であるときは高さ）を指定します。
 type: docs
-weight: 9120
+weight: 9140
 url: /ja/aspose.slides/normalviewrestoredproperties/
 ---
 ## NormalViewRestoredProperties クラス
 
-通常ビューの、サイズが可変で復元された領域（最小化でも最大化でもない）におけるスライド領域のサイズを指定します（child が restoredTop の場合は幅、restoredLeft の場合は高さ）。
+スライド領域のサイズ指定（幅は restoredTop の子、 高さは restoredLeft の子）を、通常ビューにおいて、領域が可変復元サイズ（最小化でも最大化でもない）である場合に使用します。
 
 ```csharp
 public class NormalViewRestoredProperties : INormalViewRestoredProperties
@@ -18,8 +18,8 @@ public class NormalViewRestoredProperties : INormalViewRestoredProperties
 
 | 名前 | 説明 |
 | --- | --- |
-| [AutoAdjust](../../aspose.slides/normalviewrestoredproperties/autoadjust) { get; set; } | アプリケーション内でビューを含むウィンドウのサイズ変更時に、サイドコンテンツ領域のサイズが新しいサイズに合わせて補正されるかどうかを指定します。読み書き可能 Boolean. |
-| [DimensionSize](../../aspose.slides/normalviewrestoredproperties/dimensionsize) { get; set; } | スライド領域のサイズを指定します（child が RestoredTop の場合は幅、RestoredLeft の場合は高さ）。読み書き可能 Single. |
+| [AutoAdjust](../../aspose.slides/normalviewrestoredproperties/autoadjust) { get; set; } | ウィンドウ内のビューを含むアプリケーションでサイズ変更する際に、サイド コンテンツ領域のサイズが新しいサイズを補償すべきかどうかを指定します。読み取り/書き込み Boolean. |
+| [DimensionSize](../../aspose.slides/normalviewrestoredproperties/dimensionsize) { get; set; } | スライド領域のサイズを指定します（幅は RestoredTop の子、 高さは RestoredLeft の子）。読み取り/書き込み Single. |
 
 ### 参照
 

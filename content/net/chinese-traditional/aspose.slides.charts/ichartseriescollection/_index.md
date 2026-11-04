@@ -1,14 +1,14 @@
 ---
 title: IChartSeriesCollection
-second_title: Aspose.Sildes for .NET API 參考
-description: 表示 IChartSeries 的集合。/ichartseries
+second_title: Aspose.Sildes .NET API 參考
+description: 表示 IChartSeries的集合。/ichartseries
 type: docs
-weight: 1940
+weight: 1960
 url: /zh-hant/aspose.slides.charts/ichartseriescollection/
 ---
 ## IChartSeriesCollection 介面
 
-表示 [`IChartSeries`](../ichartseries) 的集合。
+表示 [`IChartSeries`](../ichartseries) 的集合
 
 ```csharp
 public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
@@ -16,20 +16,20 @@ public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
 
 ## 屬性
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
 | [Item](../../aspose.slides.charts/ichartseriescollection/item) { get; } | 取得指定索引處的元素。 |
 
 ## 方法
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
 | [Add](../../aspose.slides.charts/ichartseriescollection/add#add)(ChartType) | 建立新的圖表系列並將其加入集合。 |
 | [Add](../../aspose.slides.charts/ichartseriescollection/add#add_1)(IChartCellCollection, ChartType) | 從 [`IChartCellCollection`](../ichartcellcollection) 建立新的圖表系列並將其加入集合。 |
 | [Add](../../aspose.slides.charts/ichartseriescollection/add#add_2)(IChartDataCell, ChartType) | 從 [`IChartDataCell`](../ichartdatacell) 建立新的圖表系列並將其加入集合。 |
 | [Add](../../aspose.slides.charts/ichartseriescollection/add#add_3)(string, ChartType) | 從值建立新的圖表系列並將其加入集合。 |
 | [Clear](../../aspose.slides.charts/ichartseriescollection/clear)() | 從集合中移除所有元素（包括圖表樣式）。 |
-| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | 搜尋指定的 [`IChartSeries`](../ichartseries)，並回傳整個集合中首次出現的零基索引。 |
+| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | 搜尋指定的 [`IChartSeries`](../ichartseries)，並返回整個集合中首次出現的零基索引。 |
 | [Insert](../../aspose.slides.charts/ichartseriescollection/insert)(int, ChartType) | 建立新的圖表系列並將其插入集合。 |
 | [Remove](../../aspose.slides.charts/ichartseriescollection/remove)(IChartSeries) | 移除指定的值。 |
 | [RemoveAt](../../aspose.slides.charts/ichartseriescollection/removeat)(int) | 移除指定索引處的元素。 |

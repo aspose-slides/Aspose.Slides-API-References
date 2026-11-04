@@ -1,14 +1,14 @@
 ---
 title: ParentLabelLayoutType
-second_title: Aspose.Sildes .NET API 레퍼런스
-description: 카테고리 데이터 레이블의 레이아웃을 나타냅니다. Treemap 시리즈에만 사용됩니다.
+second_title: Aspose.Sildes .NET API 참조
+description: 카테고리 데이터 레이블의 레이아웃을 나타냅니다. Treemap 시리즈에서만 사용됩니다.
 type: docs
-weight: 2350
+weight: 2370
 url: /ko/aspose.slides.charts/parentlabellayouttype/
 ---
 ## ParentLabelLayoutType 열거형
 
-카테고리 데이터 레이블의 레이아웃을 나타냅니다. Treemap 시리즈에만 사용됩니다.
+카테고리 데이터 레이블의 레이아웃을 나타냅니다. Treemap 시리즈에서만 사용됩니다.
 
 ```csharp
 public enum ParentLabelLayoutType
@@ -18,9 +18,9 @@ public enum ParentLabelLayoutType
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| Banner | `0` | 상위 카테고리 레이블을 배너로 표시함을 지정합니다 |
-| None | `1` | 상위 카테고리 레이블을 그리지 않음을 지정합니다 |
-| Overlapping | `2` | 상위 카테고리 레이블을 겹치게 표시함을 지정합니다 |
+| Banner | `0` | 부모 카테고리 레이블이 배너로 표시된다고 지정합니다 |
+| None | `1` | 부모 카테고리 레이블이 그려지지 않도록 지정합니다 |
+| Overlapping | `2` | 부모 카테고리 레이블이 겹쳐서 표시된다고 지정합니다 |
 
 ### 참조
 

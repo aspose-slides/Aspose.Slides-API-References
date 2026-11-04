@@ -1,12 +1,12 @@
 ---
 title: LineFormat
-second_title: Aspose.Sildes para la referencia de API de .NET
+second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Representa el formato de una línea.
 type: docs
-weight: 7790
+weight: 7810
 url: /es/aspose.slides/lineformat/
 ---
-## LineFormat clase
+## Clase LineFormat
 
 Representa el formato de una línea.
 
@@ -25,14 +25,14 @@ public sealed class LineFormat : PVIObject, ILineFormat
 | [BeginArrowheadWidth](../../aspose.slides/lineformat/beginarrowheadwidth) { get; set; } | Devuelve o establece el ancho de la punta de flecha al inicio de una línea. Lectura/escritura [`LineArrowheadWidth`](../linearrowheadwidth). |
 | [CapStyle](../../aspose.slides/lineformat/capstyle) { get; set; } | Devuelve o establece el estilo de terminación de línea. Lectura/escritura [`LineCapStyle`](../linecapstyle). |
 | [CustomDashPattern](../../aspose.slides/lineformat/customdashpattern) { get; set; } | Devuelve o establece el patrón de guiones personalizado. Lectura/escritura Single[]. |
-| [DashStyle](../../aspose.slides/lineformat/dashstyle) { get; set; } | Devuelve o establece el estilo de guiones de línea. Lectura/escritura [`LineDashStyle`](../linedashstyle). |
+| [DashStyle](../../aspose.slides/lineformat/dashstyle) { get; set; } | Devuelve o establece el estilo de guión de línea. Lectura/escritura [`LineDashStyle`](../linedashstyle). |
 | [EndArrowheadLength](../../aspose.slides/lineformat/endarrowheadlength) { get; set; } | Devuelve o establece la longitud de la punta de flecha al final de una línea. Lectura/escritura [`LineArrowheadLength`](../linearrowheadlength). |
 | [EndArrowheadStyle](../../aspose.slides/lineformat/endarrowheadstyle) { get; set; } | Devuelve o establece el estilo de la punta de flecha al final de una línea. Lectura/escritura [`LineArrowheadStyle`](../linearrowheadstyle). |
 | [EndArrowheadWidth](../../aspose.slides/lineformat/endarrowheadwidth) { get; set; } | Devuelve o establece el ancho de la punta de flecha al final de una línea. Lectura/escritura [`LineArrowheadWidth`](../linearrowheadwidth). |
 | [FillFormat](../../aspose.slides/lineformat/fillformat) { get; } | Devuelve el formato de relleno de una línea. Solo lectura [`ILineFillFormat`](../ilinefillformat). |
 | [IsFormatNotDefined](../../aspose.slides/lineformat/isformatnotdefined) { get; } | Devuelve true si el formato de línea no está definido (como recién creado, predeterminado). Solo lectura Boolean. |
 | [JoinStyle](../../aspose.slides/lineformat/joinstyle) { get; set; } | Devuelve o establece el estilo de unión de líneas. Lectura/escritura [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/lineformat/miterlimit) { get; set; } | Devuelve o establece el límite de inglete de una línea. Lectura/escritura Single. |
+| [MiterLimit](../../aspose.slides/lineformat/miterlimit) { get; set; } | Devuelve o establece el límite de bisel de una línea. Lectura/escritura Single. |
 | [SketchFormat](../../aspose.slides/lineformat/sketchformat) { get; } | Devuelve el formato de boceto de una línea. Solo lectura [`ILineFillFormat`](../ilinefillformat). |
 | [Style](../../aspose.slides/lineformat/style) { get; set; } | Devuelve o establece el estilo de línea. Lectura/escritura [`LineStyle`](../linestyle). |
 | [Width](../../aspose.slides/lineformat/width) { get; set; } | Devuelve o establece el ancho de una línea. Lectura/escritura Double. |

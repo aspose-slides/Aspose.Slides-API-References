@@ -3,7 +3,7 @@ title: ControlCollection
 second_title: Aspose.Sildes for .NET API 参考
 description: ActiveX 控件的集合。
 type: docs
-weight: 2700
+weight: 2720
 url: /zh/aspose.slides/controlcollection/
 ---
 ## ControlCollection 类
@@ -16,7 +16,7 @@ public class ControlCollection : IControlCollection
 
 ## 属性
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides/controlcollection/count) { get; } | 返回集合中对象的数量。只读 Int32。 |
 | [IsSynchronized](../../aspose.slides/controlcollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否已同步（线程安全）。只读 Boolean。 |
@@ -25,16 +25,16 @@ public class ControlCollection : IControlCollection
 
 ## 方法
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [AddControl](../../aspose.slides/controlcollection/addcontrol)(ControlType, float, float, float, float) | 创建并将新控件添加到集合中。 |
+| [AddControl](../../aspose.slides/controlcollection/addcontrol)(ControlType, float, float, float, float) | 创建并向集合添加新控件。 |
 | [Clear](../../aspose.slides/controlcollection/clear)() | 从集合中移除所有控件。 |
 | [CopyTo](../../aspose.slides/controlcollection/copyto)(Array, int) | 将整个集合复制到指定的数组。 |
-| [GetEnumerator](../../aspose.slides/controlcollection/getenumerator)() | 返回一个遍历集合的枚举器。 |
+| [GetEnumerator](../../aspose.slides/controlcollection/getenumerator)() | 返回一个用于遍历集合的枚举器。 |
 | [Remove](../../aspose.slides/controlcollection/remove)(IControl) | 从集合中移除一个 ActiveX 控件。 |
 | [RemoveAt](../../aspose.slides/controlcollection/removeat)(int) | 从集合中移除存储在指定位置的 ActiveX 控件。 |
 
-### 另请参阅
+### 另见
 
 * 接口 [IControlCollection](../icontrolcollection)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

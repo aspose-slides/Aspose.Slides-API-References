@@ -3,7 +3,7 @@ title: ShapeAdjustmentType
 second_title: Aspose.Sildes för .NET API-referens
 description: Anger olika typer av justeringsvärden för former.
 type: docs
-weight: 9840
+weight: 9860
 url: /sv/aspose.slides/shapeadjustmenttype/
 ---
 ## ShapeAdjustmentType enumeration
@@ -18,43 +18,43 @@ public enum ShapeAdjustmentType
 
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Custom | `0` | Custom typ (okänd justering) |
+| Custom | `0` | Anpassad typ (okänd justering) |
 | CornerSize | `1` | Styr storleken på hörnen. |
 | LeftUpCorner | `2` | Styr det övre vänstra hörnet. |
 | RightUpCorner | `3` | Styr det övre högra hörnet. |
 | UpCorners | `4` | Styr de övre hörnen. |
 | DownCorners | `5` | Styr de nedre hörnen. |
-| Thickness | `6` | Styr tjockleken på figuren. |
+| Thickness | `6` | Styr figurens tjocklek. |
 | ArrowTailThickness | `7` | Styr tjockleken på pilens svans. |
 | ArrowheadLength | `8` | Styr längden på pilspetsen. |
 | ArrowheadWidth | `9` | Styr bredden på pilspetsen. |
 | Radius | `10` | Styr storleken på radien för formen eller dess del. |
-| Depth | `11` | Styr djupet på kuggtändernas profil eller avsmalningseffekten. |
+| Depth | `11` | Styr djupet på kuggtänderna eller avfasningseffekten. |
 | ShapePartOffset | `12` | Styr förskjutningen av en del av figuren i förhållande till en annan. |
 | Angle | `13` | Styr vinkeln för figuren eller dess del. |
 | StartAngle | `14` | Startvinkel för paj- och bågformer. |
 | EndAngle | `15` | Slutvinkel för paj- och bågformer. |
-| StartPointX | `16` | Styr X-positionen för anropsstartpunkten. |
-| StartPointY | `17` | Styr Y-positionen för anropsstartpunkten. |
-| ConnectorPoint1X | `18` | Styr den horisontella positionen för anropsvinkeljusteringspunkten. |
-| ConnectorPoint1Y | `19` | Styr den vertikala positionen för anropsvinkeljusteringspunkten. |
-| ConnectorPoint2X | `20` | Styr den horisontella positionen för anropsvinkeljusteringspunkten. |
-| ConnectorPoint2Y | `21` | Styr den vertikala positionen för anropsvinkeljusteringspunkten. |
-| ConnectorBendPositionX | `22` | Styr den horisontella positionen för böjningen i anslutningen. |
-| ConnectorBendPositionY | `23` | Styr den vertikala positionen för böjningen i anslutningen. |
+| StartPointX | `16` | Styr X-positionen för calloutens startpunkt. |
+| StartPointY | `17` | Styr Y-positionen för calloutens startpunkt. |
+| ConnectorPoint1X | `18` | Styr den horisontella positionen för justeringspunkten för calloutens vinkel. |
+| ConnectorPoint1Y | `19` | Styr den vertikala positionen för justeringspunkten för calloutens vinkel. |
+| ConnectorPoint2X | `20` | Styr den horisontella positionen för justeringspunkten för calloutens vinkel. |
+| ConnectorPoint2Y | `21` | Styr den vertikala positionen för justeringspunkten för calloutens vinkel. |
+| ConnectorBendPositionX | `22` | Styr den horisontella positionen för böjen i anslutningen. |
+| ConnectorBendPositionY | `23` | Styr den vertikala positionen för böjen i anslutningen. |
 | AttachY | `24` | Styr den vertikala fästpunkten för figuren. |
 | AttachX | `25` | Styr den horisontella fästpunkten för figuren. |
-| CalloutHeight | `26` | Styr den vertikala storleken på anropet. |
-| CalloutWidth | `27` | Styr den horisontella storleken på anropet. |
-| CalloutSize | `28` | Styr storleken på anropet. |
-| Curvature | `29` | Kurvatur för en böjd, klammer, kurvad pil eller form. |
+| CalloutHeight | `26` | Styr den vertikala storleken på callouten. |
+| CalloutWidth | `27` | Styr den horisontella storleken på callouten. |
+| CalloutSize | `28` | Styr storleken på callouten. |
+| Curvature | `29` | Kurvatur för en böjd, klammer, kurvformad pil eller form. |
 | HorizontalThickness | `30` | Styr den horisontella tjockleken på hörnformen. |
 | VerticalThickness | `31` | Styr den vertikala tjockleken på hörnformen. |
 | VerticalSize | `32` | Styr den vertikala storleken på formen. |
 | HorizontalSize | `33` | Styr den horisontella storleken på formen. |
-| Top | `34` | Styr den övre sidan av en form. |
+| Top | `34` | Styr överdelen av en form. |
 
-### Se även
+### Se också
 
 * namnrymd [Aspose.Slides](../../aspose.slides)
 * samling [Aspose.Slides](../../)

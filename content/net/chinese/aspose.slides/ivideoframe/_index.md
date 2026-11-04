@@ -1,12 +1,12 @@
 ---
 title: IVideoFrame
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示幻灯片上的视频剪辑。
 type: docs
-weight: 7380
+weight: 7400
 url: /zh/aspose.slides/ivideoframe/
 ---
-## IVideoFrame 接口
+## IVideoFrame interface
 
 表示幻灯片上的视频剪辑。
 
@@ -14,22 +14,23 @@ url: /zh/aspose.slides/ivideoframe/
 public interface IVideoFrame : IPictureFrame
 ```
 
-## 属性
+## Properties
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | 允许获取基 IPictureFrame 接口。只读 [`IPictureFrame`](../ipictureframe)。 |
-| [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | 获取与音频帧关联的闭合字幕集合。此属性只读，返回一个包含所有字幕轨道的 [`ICaptionsCollection`](../icaptionscollection)。 |
-| [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | 返回或设置嵌入的视频对象。读写 [`IVideo`](../ivideo)。 |
-| [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | 确定视频是否以全屏模式显示。读写 Boolean。 |
-| [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | 确定 VideoFrame 是否隐藏。读写 Boolean。 |
-| [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | 返回或设置链接到 VideoFrame 的视频文件名。读写 String。 |
-| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | 确定视频是否循环播放。读写 Boolean。 |
-| [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | 返回或设置视频播放模式。读写 [`VideoPlayModePreset`](../videoplaymodepreset)。 |
-| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | 确定视频在播放结束后是否自动倒回到起始位置。读写 Boolean。 |
+| [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | 允许获取基类 IPictureFrame 接口。只读 [`IPictureFrame`](../ipictureframe)。 |
+| [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | 获取与音频帧关联的闭合字幕集合。此属性只读，并返回一个包含所有字幕轨道的 [`ICaptionsCollection`](../icaptionscollection)。 |
+| [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | 返回或设置嵌入的视频对象。可读写 [`IVideo`](../ivideo)。 |
+| [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | 确定视频是否以全屏模式显示。可读写 Boolean。 |
+| [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | 确定 VideoFrame 是否被隐藏。可读写 Boolean。 |
+| [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | 返回或设置链接到 VideoFrame 的视频文件的名称。读/写 String。 |
+| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | 确定视频是否循环播放。读/写 Boolean。 |
+| [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | 返回或设置视频播放模式。读/写 [`VideoPlayModePreset`](../videoplaymodepreset)。 |
+| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | 确定视频在播放完毕后是否自动倒回到开始。读/写 Boolean。 |
 | [TrimFromEnd](../../aspose.slides/ivideoframe/trimfromend) { get; set; } | 修剪结束 [ms] |
 | [TrimFromStart](../../aspose.slides/ivideoframe/trimfromstart) { get; set; } | 修剪开始 [ms] |
-| [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | 返回或设置音频音量。读写 [`AudioVolumeMode`](../audiovolumemode)。 |
+| [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | 返回或设置音频音量。读/写 [`AudioVolumeMode`](../audiovolumemode)。 |
+| [VolumeValue](../../aspose.slides/ivideoframe/volumevalue) { get; set; } | 返回或设置精确的视频音量（百分比）。该值以 0 到 100 的百分比表示。使用此属性读取或设置比 [`Volume`](./volume) 属性提供的预定义水平更精确的音量值。读/写 Single。 |
 
 ### 另见
 

@@ -1,14 +1,14 @@
 ---
 title: IPieSplitCustomPointCollection
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt eine Sammlung von Punkten dar, die im zweiten Kuchen- oder Balkendiagramm eines Balken-aus-Kuchen- oder Kuchen-aus-Balken-Diagramms mit einer benutzerdefinierten Aufteilung gezeichnet werden sollen.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Repräsentiert eine Sammlung von Punkten, die im zweiten Kuchen- oder Balkendiagramm einer Bar-of-Pie- oder Pie-of-Pie-Diagramm mit einer benutzerdefinierten Aufteilung gezeichnet werden sollen.
 type: docs
-weight: 2190
+weight: 2210
 url: /de/aspose.slides.charts/ipiesplitcustompointcollection/
 ---
 ## IPieSplitCustomPointCollection Schnittstelle
 
-Stellt eine Sammlung von Punkten dar, die im zweiten Kuchen- oder Balkendiagramm eines Balken-aus-Kuchen- oder Kuchen-aus-Balken-Diagramms mit einer benutzerdefinierten Aufteilung gezeichnet werden sollen.
+Represents a collection of points that shall be drawn in the second pie or bar on a bar-of-pie or pie-of-pie chart with a custom split.
 
 ```csharp
 public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
@@ -18,15 +18,15 @@ public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.charts/ipiesplitcustompointcollection/asienumerable) { get; } | Gibt das IEnumerable-Interface zurück. |
+| [AsIEnumerable](../../aspose.slides.charts/ipiesplitcustompointcollection/asienumerable) { get; } | Gibt die IEnumerable-Schnittstelle zurück. |
 | [Item](../../aspose.slides.charts/ipiesplitcustompointcollection/item) { get; } | Gibt den Diagrammdatenpunkt nach Index zurück. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ipiesplitcustompointcollection/add)(int) | Fügt einen Datenpunkt anhand seines Index in der übergeordneten Serien-Punkt-Sammlung hinzu. |
-| [Remove](../../aspose.slides.charts/ipiesplitcustompointcollection/remove)(int) | Entfernt ein Element aus der Sammlung anhand seines Index in der übergeordneten Serien-Punkt-Sammlung. |
+| [Add](../../aspose.slides.charts/ipiesplitcustompointcollection/add)(int) | Fügt einen Datenpunkt anhand seines Index in der übergeordneten Serienpunkte-Sammlung hinzu. |
+| [Remove](../../aspose.slides.charts/ipiesplitcustompointcollection/remove)(int) | Entfernt ein Element aus der Sammlung anhand seines Index in der übergeordneten Serienpunkte-Sammlung. |
 
 ### Siehe auch
 

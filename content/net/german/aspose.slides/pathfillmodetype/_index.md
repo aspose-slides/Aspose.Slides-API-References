@@ -1,14 +1,14 @@
 ---
 title: PathFillModeType
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt an, wie ein Pfad gefüllt werden soll
+description: Gibt an, in welcher Weise ein Pfad gefüllt werden soll
 type: docs
-weight: 9330
+weight: 9350
 url: /de/aspose.slides/pathfillmodetype/
 ---
 ## PathFillModeType Aufzählung
 
-Gibt an, wie ein Pfad gefüllt werden soll
+Gibt an, auf welche Weise ein Pfad gefüllt werden soll
 
 ```csharp
 public enum PathFillModeType : byte
@@ -18,12 +18,12 @@ public enum PathFillModeType : byte
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| None | `0` | Keine Pfadfüllung. Dies gibt an, dass der entsprechende Pfad keine Füllung haben soll. |
-| Normal | `1` | Normale Pfadfüllung. Dies gibt an, dass der entsprechende Pfad eine normal schattierte Farbe auf seine Füllung angewendet bekommt. |
-| Lighten | `2` | Aufhellende Pfadfüllung. Dies gibt an, dass der entsprechende Pfad eine leicht schattierte Farbe auf seine Füllung angewendet bekommt. |
-| LightenLess | `3` | Weniger aufhellende Pfadfüllung. Dies gibt an, dass der entsprechende Pfad eine etwas hellere schattierte Farbe auf seine Füllung angewendet bekommt. |
-| Darken | `4` | Abgedunkelte Pfadfüllung. Dies gibt an, dass der entsprechende Pfad eine dunklere schattierte Farbe auf seine Füllung angewendet bekommt. |
-| DarkenLess | `5` | Weniger abgedunkelte Pfadfüllung. Dies gibt an, dass der entsprechende Pfad eine etwas dunklere schattierte Farbe auf seine Füllung angewendet bekommt. |
+| None | `0` | Keine Pfadfüllung. Gibt an, dass der entsprechende Pfad keine Füllung hat. |
+| Normal | `1` | Normale Pfadfüllung. Gibt an, dass der entsprechende Pfad mit einer normal schattierten Farbe gefüllt wird. |
+| Lighten | `2` | Aufhellen Pfadfüllung. Gibt an, dass der entsprechende Pfad mit einer leicht schattierten Farbe gefüllt wird. |
+| LightenLess | `3` | Weniger Aufhellen Pfadfüllung. Gibt an, dass der entsprechende Pfad mit einer etwas helleren schattierten Farbe gefüllt wird. |
+| Darken | `4` | Abdunkeln Pfadfüllung. Gibt an, dass der entsprechende Pfad mit einer dunkler schattierten Farbe gefüllt wird. |
+| DarkenLess | `5` | Weniger Abdunkeln Pfadfüllung. Gibt an, dass der entsprechende Pfad mit einer etwas dunkleren schattierten Farbe gefüllt wird. |
 
 ### Siehe auch
 

@@ -1,14 +1,14 @@
 ---
 title: IChartCategoryLevelsManager
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Kontainer yang dikelola untuk nilai-nilai level kategori diagram.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Kontainer yang dikelola untuk nilai-nilai level kategori bagan.
 type: docs
-weight: 1770
+weight: 1790
 url: /id/aspose.slides.charts/ichartcategorylevelsmanager/
 ---
 ## IChartCategoryLevelsManager antarmuka
 
-Kontainer yang dikelola untuk nilai-nilai level kategori diagram.
+Kontainer yang dikelola untuk nilai-nilai level kategori bagan.
 
 ```csharp
 public interface IChartCategoryLevelsManager
@@ -24,8 +24,8 @@ public interface IChartCategoryLevelsManager
 
 | Nama | Deskripsi |
 | --- | --- |
-| [DeleteGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/deletegroupingitem)(int) | Hapus item pengelompokan untuk level yang ditentukan. |
-| [SetGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/setgroupingitem)(int, object) | Mengatur item pengelompokan untuk level yang ditentukan. |
+| [DeleteGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/deletegroupingitem)(int) | Menghapus item pengelompokan untuk level yang ditentukan. |
+| [SetGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/setgroupingitem)(int, object) | Menetapkan item pengelompokan untuk level yang ditentukan. |
 
 ### Lihat Juga
 

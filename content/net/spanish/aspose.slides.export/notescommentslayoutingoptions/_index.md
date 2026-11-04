@@ -1,9 +1,9 @@
 ---
 title: NotesCommentsLayoutingOptions
-second_title: Aspose.Sildes para .NET - Referencia de API
+second_title: Aspose.Sildes para la referencia de API .NET
 description: Proporciona opciones que controlan la apariencia del diseño de notas y comentarios en el documento exportado.
 type: docs
-weight: 4290
+weight: 4310
 url: /es/aspose.slides.export/notescommentslayoutingoptions/
 ---
 ## NotesCommentsLayoutingOptions clase
@@ -28,7 +28,7 @@ public class NotesCommentsLayoutingOptions : ISlidesLayoutOptions
 | [CommentsAreaWidth](../../aspose.slides.export/notescommentslayoutingoptions/commentsareawidth) { get; set; } | Obtiene o establece el ancho del área de salida de comentarios en píxeles (Se aplica solo si los comentarios se muestran a la derecha). |
 | [CommentsPosition](../../aspose.slides.export/notescommentslayoutingoptions/commentsposition) { get; set; } | Obtiene o establece la posición de los comentarios en la página. |
 | [NotesPosition](../../aspose.slides.export/notescommentslayoutingoptions/notesposition) { get; set; } | Obtiene o establece la posición de las notas en la página. |
-| [ShowCommentsByNoAuthor](../../aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | Obtiene o establece la visibilidad de los comentarios que no tienen autor. Si es true, los comentarios se mostrarán. (Se aplica solo si los comentarios se muestran). |
+| [ShowCommentsByNoAuthor](../../aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | Obtiene o establece la visibilidad de los comentarios que no tienen autor. Si es verdadero, los comentarios se mostrarán. (Se aplica solo si los comentarios se muestran). |
 
 ### Ver también
 

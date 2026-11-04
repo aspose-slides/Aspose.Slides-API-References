@@ -1,14 +1,14 @@
 ---
 title: IPresentationAnimationPlayer
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een speler van de animatie voor. Animaties gegenereerd door PresentationAnimationsGenerator./presentationanimationsgenerator via zijn NewAnimation./presentationanimationsgenerator/newanimation event.
+description: Representeert een speler van de animatie. Animaties gegenereerd door PresentationAnimationsGenerator./presentationanimationsgenerator via zijn NewAnimation./presentationanimationsgenerator/newanimation gebeurtenis.
 type: docs
-weight: 4030
+weight: 4050
 url: /nl/aspose.slides.export/ipresentationanimationplayer/
 ---
 ## IPresentationAnimationPlayer interface
 
-Stelt een speler van de animatie voor. Animaties gegenereerd door [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) via zijn [`NewAnimation`](../presentationanimationsgenerator/newanimation) event.
+Representeert een speler van de animatie. Animaties gegenereerd door [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) via zijn [`NewAnimation`](../presentationanimationsgenerator/newanimation)-evenement.
 
 ```csharp
 public interface IPresentationAnimationPlayer

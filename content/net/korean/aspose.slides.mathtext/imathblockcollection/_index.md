@@ -1,12 +1,14 @@
 ---
 title: IMathBlockCollection
 second_title: Aspose.Sildes for .NET API 참조
-description: 수학 블록 IMMathBlock 컬렉션
+description: IMathBlock 수학 블록의 컬렉션
 type: docs
-weight: 8150
+weight: 8170
 url: /ko/aspose.slides.mathtext/imathblockcollection/
 ---
 ## IMathBlockCollection 인터페이스
+
+수학 블록(IMathBlock)의 컬렉션
 
 ```csharp
 public interface IMathBlockCollection : IEnumerable<IMathBlock>
@@ -14,27 +16,27 @@ public interface IMathBlockCollection : IEnumerable<IMathBlock>
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.mathtext/imathblockcollection/asienumerable) { get; } | 기본 IEnumerable 인터페이스 IEnumerable를 가져올 수 있습니다 |
 | [Count](../../aspose.slides.mathtext/imathblockcollection/count) { get; } | 컬렉션에 실제로 포함된 요소 수를 가져옵니다. 읽기 전용 Int32. |
-| [Item](../../aspose.slides.mathtext/imathblockcollection/item) { get; set; } | 지정된 인덱스에 있는 항목을 가져옵니다. 읽기 전용 [`IMathBlock`](../imathblock). |
+| [Item](../../aspose.slides.mathtext/imathblockcollection/item) { get; set; } | 지정된 인덱스의 항목을 가져옵니다. 읽기 전용 [`IMathBlock`](../imathblock). |
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides.mathtext/imathblockcollection/add)(IMathBlock) | IMathBlock을 컬렉션의 끝에 추가합니다. |
+| [Add](../../aspose.slides.mathtext/imathblockcollection/add)(IMathBlock) | IMathBlock을 컬렉션 끝에 추가합니다. |
 | [Clear](../../aspose.slides.mathtext/imathblockcollection/clear)() | 컬렉션의 모든 요소를 제거합니다. |
-| [Contains](../../aspose.slides.mathtext/imathblockcollection/contains)(IMathBlock) | 컬렉션에 특정 값이 포함되어 있는지 확인합니다. |
-| [IndexOf](../../aspose.slides.mathtext/imathblockcollection/indexof)(IMathBlock) | 컬렉션에서 특정 IMathBlock의 인덱스를 확인합니다. |
-| [Insert](../../aspose.slides.mathtext/imathblockcollection/insert)(int, IMathBlock) | 지정된 인덱스에 IMathBlock을 컬렉션에 삽입합니다. |
-| [Remove](../../aspose.slides.mathtext/imathblockcollection/remove)(IMathBlock) | 컬렉션에서 특정 객체의 첫 번째 발생을 제거합니다/&gt;. |
+| [Contains](../../aspose.slides.mathtext/imathblockcollection/contains)(IMMathBlock) | 컬렉션에 지정된 값이 포함되어 있는지 확인합니다. |
+| [IndexOf](../../aspose.slides.mathtext/imathblockcollection/indexof)(IMMathBlock) | 컬렉션에서 특정 IMathBlock의 인덱스를 확인합니다. |
+| [Insert](../../aspose.slides.mathtext/imathblockcollection/insert)(int, IMMathBlock) | 지정된 인덱스에 IMathBlock을 컬렉션에 삽입합니다. |
+| [Remove](../../aspose.slides.mathtext/imathblockcollection/remove)(IMMathBlock) | 컬렉션에서 특정 객체의 첫 번째 발생을 제거합니다/>. |
 | [RemoveAt](../../aspose.slides.mathtext/imathblockcollection/removeat)(int) | 컬렉션의 지정된 인덱스에 있는 항목을 제거합니다. |
 
 ### 예제
 
-예시:
+예제:
 
 ```csharp
 [C#]

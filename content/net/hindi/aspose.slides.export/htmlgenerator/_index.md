@@ -3,10 +3,10 @@ title: HtmlGenerator
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: HTML जनरेटर।
 type: docs
-weight: 3880
+weight: 3900
 url: /hi/aspose.slides.export/htmlgenerator/
 ---
-## HtmlGenerator वर्ग
+## HtmlGenerator क्लास
 
 HTML जनरेटर।
 
@@ -18,31 +18,31 @@ public sealed class HtmlGenerator : IHtmlGenerator
 
 | नाम | विवरण |
 | --- | --- |
-| [NextSlideIndex](../../aspose.slides.export/htmlgenerator/nextslideindex) { get; } | वर्तमान स्लाइड के बाद रेंडर किए जाने वाले स्लाइड का अनुक्रमांक लौटाता है, या यदि वर्तमान में अंतिम स्लाइड रेंडर हो रही है तो -1 लौटाता है। केवल पढ़ने योग्य Int32। |
-| [PreviousSlideIndex](../../aspose.slides.export/htmlgenerator/previousslideindex) { get; } | पहले रेंडर किए गए स्लाइड का अनुक्रमांक लौटाता है या यदि पहली स्लाइड रेंडर हो रही है तो -1 लौटाता है। केवल पढ़ने योग्य Int32। |
-| [SlideImageSize](../../aspose.slides.export/htmlgenerator/slideimagesize) { get; } | स्लाइड छवि का आकार लौटाता है। केवल पढ़ने योग्य SizeF। |
-| [SlideImageSizeUnit](../../aspose.slides.export/htmlgenerator/slideimagesizeunit) { get; } | स्लाइड छवि के आकार को निर्दिष्ट करने वाली इकाई लौटाता है। केवल पढ़ने योग्य [`SvgCoordinateUnit`](../svgcoordinateunit)। |
-| [SlideImageSizeUnitCode](../../aspose.slides.export/htmlgenerator/slideimagesizeunitcode) { get; } | स्लाइड छवि के आकार को निर्दिष्ट करने वाली इकाई का CSS कोड लौटाता है। केवल पढ़ने योग्य String। |
-| [SlideIndex](../../aspose.slides.export/htmlgenerator/slideindex) { get; } | वर्तमान में रेंडर हो रही स्लाइड का अनुक्रमांक लौटाता है। केवल पढ़ने योग्य Int32। |
+| [NextSlideIndex](../../aspose.slides.export/htmlgenerator/nextslideindex) { get; } | एक स्लाइड का इंडेक्स लौटाता है, जो वर्तमान स्लाइड के बाद रेंडर किया जाएगा, या यदि वर्तमान में अंतिम स्लाइड रेंडर हो रही है तो -1। केवल-पढ़ने योग्य Int32. |
+| [PreviousSlideIndex](../../aspose.slides.export/htmlgenerator/previousslideindex) { get; } | पहले रेंडर की गई स्लाइड का इंडेक्स लौटाता है या यदि पहली स्लाइड रेंडर हो रही है तो -1। केवल-पढ़ने योग्य Int32. |
+| [SlideImageSize](../../aspose.slides.export/htmlgenerator/slideimagesize) { get; } | स्लाइड इमेज का आकार लौटाता है। केवल-पढ़ने योग्य SizeF. |
+| [SlideImageSizeUnit](../../aspose.slides.export/htmlgenerator/slideimagesizeunit) { get; } | स्लाइड इमेज आकार निर्दिष्ट करने वाली इकाई लौटाता है। केवल-पढ़ने योग्य [`SvgCoordinateUnit`](../svgcoordinateunit). |
+| [SlideImageSizeUnitCode](../../aspose.slides.export/htmlgenerator/slideimagesizeunitcode) { get; } | स्लाइड इमेज आकार निर्दिष्ट करने वाली इकाई का css कोड लौटाता है। केवल-पढ़ने योग्य String. |
+| [SlideIndex](../../aspose.slides.export/htmlgenerator/slideindex) { get; } | वर्तमान में रेंडर हो रही स्लाइड का इंडेक्स लौटाता है। केवल-पढ़ने योग्य Int32. |
 
-## विधियां
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue)(char[]) | एट्रिब्यूट मान को कोट करता है और इसे html फ़ाइल में जोड़ता है। |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_2)(string) | एट्रिब्यूट मान को कोट करता है और इसे html फ़ाइल में जोड़ता है। |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | एट्रिब्यूट मान को कोट करता है और इसे html फ़ाइल में जोड़ता है। |
-| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml)(char[]) | फ़ॉर्मेटेड HTML पाठ जोड़ता है। |
-| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_2)(string) | फ़ॉर्मेटेड HTML पाठ जोड़ता है। |
-| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_1)(char[], int, int) | फ़ॉर्मेटेड HTML पाठ जोड़ता है। |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext)(char[]) | HTML फ़ाइलों में साधारण पाठ जोड़ता है, विशेष अक्षरों को HTML एंटिटी में बदलता है। लाइनब्रेक और सफ़ेद स्थान नहीं बदलते। |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_2)(string) | HTML फ़ाइलों में साधारण पाठ जोड़ता है, विशेष अक्षरों को HTML एंटिटी में बदलता है। लाइनब्रेक और सफ़ेद स्थान नहीं बदलते। |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_1)(char[], int, int) | HTML फ़ाइलों में साधारण पाठ जोड़ता है, विशेष अक्षरों को HTML एंटिटी में बदलता है। लाइनब्रेक और सफ़ेद स्थान नहीं बदलते। |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue)(char[]) | एट्रिब्यूट मान को क्वोट करता है और इसे HTML फ़ाइल में जोड़ता है। |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_2)(string) | एट्रिब्यूट मान को क्वोट करता है और इसे HTML फ़ाइल में जोड़ता है। |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | एट्रिब्यूट मान को क्वोट करता है और इसे HTML फ़ाइल में जोड़ता है। |
+| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml)(char[]) | फ़ॉर्मेटेड HTML टेक्स्ट जोड़ता है। |
+| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_2)(string) | फ़ॉर्मेटेड HTML टेक्स्ट जोड़ता है। |
+| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_1)(char[], int, int) | फ़ॉर्मेटेड HTML टेक्स्ट जोड़ता है। |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext)(char[]) | HTML फ़ाइलों में साधारण टेक्स्ट जोड़ता है, विशेष अक्षरों को HTML एंटिटीज़ से बदलता है। लाइनब्रेक और व्हाइटस्पेस को नहीं बदला जाता है। |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_2)(string) | HTML फ़ाइलों में साधारण टेक्स्ट जोड़ता है, विशेष अक्षरों को HTML एंटिटीज़ से बदलता है। लाइनब्रेक और व्हाइटस्पेस को नहीं बदला जाता है। |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_1)(char[], int, int) | HTML फ़ाइलों में साधारण टेक्स्ट जोड़ता है, विशेष अक्षरों को HTML एंटिटीज़ से बदलता है। लाइनब्रेक और व्हाइटस्पेस को नहीं बदला जाता है। |
 
-### अन्य देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IHtmlGenerator](../ihtmlgenerator)
-* नेमस्पेस [Aspose.Slides.Export](../../aspose.slides.export)
+* नामस्थान [Aspose.Slides.Export](../../aspose.slides.export)
 * असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

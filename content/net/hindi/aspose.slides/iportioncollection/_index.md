@@ -1,14 +1,14 @@
 ---
 title: IPortionCollection
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: हिस्सों के संग्रह का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: एक भागों के संग्रह का प्रतिनिधित्व करता है।
 type: docs
-weight: 6710
+weight: 6730
 url: /hi/aspose.slides/iportioncollection/
 ---
 ## IPortionCollection इंटरफ़ेस
 
-एक संग्रह का प्रतिनिधित्व करता है जिसमें हिस्से होते हैं।
+एक भागों के संग्रह का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IPortionCollection : IEnumerable<IPortion>
@@ -19,20 +19,20 @@ public interface IPortionCollection : IEnumerable<IPortion>
 | नाम | विवरण |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides/iportioncollection/asienumerable) { get; } | IEnumerable इंटरफ़ेस लौटाता है। केवल पढ़ने योग्य IEnumerable। |
-| [Count](../../aspose.slides/iportioncollection/count) { get; } | संग्रह में वास्तविक रूप से शामिल तत्वों की संख्या प्राप्त करता है। केवल पढ़ने योग्य Int32। |
-| [Item](../../aspose.slides/iportioncollection/item) { get; } | निर्दिष्ट अनुक्रमांक पर तत्व प्राप्त करता है। |
+| [Count](../../aspose.slides/iportioncollection/count) { get; } | संग्रह में वास्तव में मौजूद तत्वों की संख्या प्राप्त करता है। केवल पढ़ने योग्य Int32। |
+| [Item](../../aspose.slides/iportioncollection/item) { get; } | निर्दिष्ट इंडेक्स पर तत्व प्राप्त करता है। |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
 | [Add](../../aspose.slides/iportioncollection/add)(IPortion) | संग्रह के अंत में एक Portion जोड़ता है। |
-| [Clear](../../aspose.slides/iportioncollection/clear)() | संग्रह से सभी तत्वों को हटा देता है। |
+| [Clear](../../aspose.slides/iportioncollection/clear)() | संग्रह से सभी तत्वों को हटाता है। |
 | [Contains](../../aspose.slides/iportioncollection/contains)(IPortion) | निर्धारित करता है कि ICollection में कोई विशिष्ट मान है या नहीं। |
-| [IndexOf](../../aspose.slides/iportioncollection/indexof)(IPortion) | संग्रह में किसी विशिष्ट portion का अनुक्रमांक निर्धारित करता है। |
-| [Insert](../../aspose.slides/iportioncollection/insert)(int, IPortion) | निर्दिष्ट अनुक्रमांक पर संग्रह में एक Portion सम्मिलित करता है। |
-| [Remove](../../aspose.slides/iportioncollection/remove)(IPortion) | ICollection से विशिष्ट वस्तु का पहला प्रकट होना हटा देता है। |
-| [RemoveAt](../../aspose.slides/iportioncollection/removeat)(int) | संग्रह के निर्दिष्ट अनुक्रमांक पर तत्व को हटा देता है। |
+| [IndexOf](../../aspose.slides/iportioncollection/indexof)(IPortion) | संग्रह में किसी विशिष्ट Portion का इंडेक्स निर्धारित करता है। |
+| [Insert](../../aspose.slides/iportioncollection/insert)(int, IPortion) | निर्दिष्ट इंडेक्स पर संग्रह में एक Portion डालता है। |
+| [Remove](../../aspose.slides/iportioncollection/remove)(IPortion) | ICollection से किसी विशिष्ट वस्तु का पहला प्रकट होना हटाता है। |
+| [RemoveAt](../../aspose.slides/iportioncollection/removeat)(int) | संग्रह के निर्दिष्ट इंडेक्स पर तत्व को हटाता है। |
 
 ### संबंधित देखें
 

@@ -3,7 +3,7 @@ title: Y
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Restituisce o imposta la coordinata y di un titolo come frazione dell'altezza del grafico. Lettura/scrittura Single.
 type: docs
-weight: 170
+weight: 180
 url: /it/aspose.slides.charts/datalabel/y/
 ---
 ## DataLabel.Y proprietà

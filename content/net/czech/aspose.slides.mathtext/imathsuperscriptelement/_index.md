@@ -1,14 +1,14 @@
 ---
 title: IMathSuperscriptElement
-second_title: Aspose.Sildes pro .NET API referenci
-description: Specifikuje objekt horního indexu, který se skládá ze základu a zmenšeného horního indexu umístěného nad a napravo
+second_title: Aspose.Sildes pro .NET API Reference
+description: Určuje objekt horní index, který se skládá ze základny a zmenšeného horního indexu umístěného nad a vpravo
 type: docs
-weight: 8490
+weight: 8510
 url: /cs/aspose.slides.mathtext/imathsuperscriptelement/
 ---
 ## IMathSuperscriptElement rozhraní
 
-Specifikuje objekt horního indexu, který se skládá ze základu a zmenšeného horního indexu umístěného nad a napravo
+Určuje objekt horní index, který se skládá ze základny a zmenšeného horního indexu umístěného nad a vpravo
 
 ```csharp
 public interface IMathSuperscriptElement : IMathElement

@@ -1,14 +1,14 @@
 ---
 title: ResponsiveHtmlController
-second_title: Aspose.Sildes .NET API Referencia
-description: Reszponzív HTML vezérlő
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Responsív HTML vezérlő
 type: docs
-weight: 4420
+weight: 4440
 url: /hu/aspose.slides.export/responsivehtmlcontroller/
 ---
 ## ResponsiveHtmlController osztály
 
-Reszponzív HTML vezérlő
+Responsív HTML vezérlő
 
 ```csharp
 public class ResponsiveHtmlController : IResponsiveHtmlController

@@ -1,14 +1,14 @@
 ---
 title: IInkActions
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een inktobject op een dia voor.
+description: Representeert een inktobject op een dia.
 type: docs
-weight: 7520
+weight: 7540
 url: /nl/aspose.slides.ink/iinkactions/
 ---
 ## IInkActions interface
 
-Stelt een inktobject op een dia voor.
+Representeert een inktobject op een dia.
 
 ```csharp
 public interface IInkActions : IGraphicalObject
@@ -18,7 +18,7 @@ public interface IInkActions : IGraphicalObject
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides.ink/iinkactions/asigraphicalobject) { get; } | Staat toe om de basise IGraphicalObject interface op te halen. Alleen-lezen [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [AsIGraphicalObject](../../aspose.slides.ink/iinkactions/asigraphicalobject) { get; } | Stelt toe de basis IGraphicalObject interface op te halen. Alleen-lezen [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
 
 ### Zie ook
 

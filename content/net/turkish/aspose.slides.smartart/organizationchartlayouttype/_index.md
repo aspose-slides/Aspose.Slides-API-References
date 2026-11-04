@@ -3,7 +3,7 @@ title: OrganizationChartLayoutType
 second_title: Aspose.Sildes için .NET API Referansı
 description: Bir organizasyon şemasındaki alt düğümlerin biçimlendirme türünü temsil eder
 type: docs
-weight: 10590
+weight: 10610
 url: /tr/aspose.slides.smartart/organizationchartlayouttype/
 ---
 ## OrganizationChartLayoutType enum
@@ -18,13 +18,13 @@ public enum OrganizationChartLayoutType
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Initial | `0` | İlk düzen türü |
-| Standart | `1` | Çocuk düğümleri ebeveyn düğümünün altında yatay olarak konumlandırır. |
-| BothHanging | `2` | Çocuk düğümleri ebeveyn düğümünün altında hem sol hem sağ tarafta dikey olarak konumlandırır. |
-| LeftHanging | `3` | Çocuk düğümleri ebeveyn düğümünün altında sol tarafta dikey olarak konumlandırır. |
-| RightHanging | `4` | Çocuk düğümleri ebeveyn düğümünün altında sağ tarafta dikey olarak konumlandırır. |
+| Initial | `0` | Başlangıç düzen tipi |
+| Standart | `1` | Alt düğümleri ebeveyn düğümün altında yatay olarak konumlandırır. |
+| BothHanging | `2` | Alt düğümleri ebeveyn düğümün altında hem sol hem sağ tarafta dikey olarak konumlandırır. |
+| LeftHanging | `3` | Alt düğümleri ebeveyn düğümün altında sol tarafta dikey olarak konumlandırır. |
+| RightHanging | `4` | Alt düğümleri ebeveyn düğümün altında sağ tarafta dikey olarak konumlandırır. |
 
-### Ayrıca Bakınız
+### Bkz
 
 * ad alanı [Aspose.Slides.SmartArt](../../aspose.slides.smartart)
 * derleme [Aspose.Slides](../../)

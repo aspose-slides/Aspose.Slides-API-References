@@ -3,10 +3,10 @@ title: IControlPropertiesCollection
 second_title: Aspose.Sildes cho .NET Tham chiếu API
 description: Một bộ sưu tập các điều khiển ActiveX.
 type: docs
-weight: 5650
+weight: 5670
 url: /vi/aspose.slides/icontrolpropertiescollection/
 ---
-## IControlPropertiesCollection giao diện
+## IControlPropertiesCollection interface
 
 Một bộ sưu tập các điều khiển ActiveX.
 
@@ -20,7 +20,7 @@ public interface IControlPropertiesCollection : IEnumerable<KeyValuePair<string,
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides/icontrolpropertiescollection/asienumerable) { get; } | Trả về giao diện IEnumerable. Chỉ đọc IEnumerable. |
 | [Count](../../aspose.slides/icontrolpropertiescollection/count) { get; } | Trả về số lượng thuộc tính trong bộ sưu tập. Chỉ đọc Int32. |
-| [Item](../../aspose.slides/icontrolpropertiescollection/item) { get; set; } | Trả về hoặc thiết lập thuộc tính. |
+| [Item](../../aspose.slides/icontrolpropertiescollection/item) { get; set; } | Trả về hoặc đặt thuộc tính. |
 | [NamesOfProperties](../../aspose.slides/icontrolpropertiescollection/namesofproperties) { get; } | Trả về số lượng thuộc tính trong bộ sưu tập. Chỉ đọc ICollection. |
 
 ## Phương thức

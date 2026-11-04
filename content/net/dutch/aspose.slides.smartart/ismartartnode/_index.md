@@ -1,14 +1,14 @@
 ---
 title: ISmartArtNode
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een knooppunt van een SmartArt-diagram voor.
+description: Stelt een knoop van een SmartArt-diagram voor.
 type: docs
-weight: 10550
+weight: 10570
 url: /nl/aspose.slides.smartart/ismartartnode/
 ---
 ## ISmartArtNode interface
 
-Stelt een knooppunt van een SmartArt-diagram voor.
+Representeert een knoop van een SmartArt-diagram.
 
 ```csharp
 public interface ISmartArtNode
@@ -18,25 +18,25 @@ public interface ISmartArtNode
 
 | Naam | Beschrijving |
 | --- | --- |
-| [BulletFillFormat](../../aspose.slides.smartart/ismartartnode/bulletfillformat) { get; } | Retourneert het FillFormat-object dat vulopmaak-eigenschappen voor een knooppunt-opsommingsteken bevat. Opmerking: kan null retourneren voor bepaalde typen SmartArt-indeling die geen opsommingstekens voor knooppunten bieden. Alleen-lezen [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [ChildNodes](../../aspose.slides.smartart/ismartartnode/childnodes) { get; } | Retourneert collecties van alle onderliggende knooppunten van het huidige knooppunt. Alleen-lezen [`ISmartArtNodeCollection`](../ismartartnodecollection). |
-| [IsAssistant](../../aspose.slides.smartart/ismartartnode/isassistant) { get; set; } | Retourneert of stelt het knooppunt in als assistent. Lezen/Schrijven Boolean. |
-| [IsHidden](../../aspose.slides.smartart/ismartartnode/ishidden) { get; } | Retourneert true als dit knooppunt een verborgen knooppunt in het gegevensmodel is. Alleen-lezen Boolean. |
-| [Level](../../aspose.slides.smartart/ismartartnode/level) { get; } | Retourneert het nesting-niveau van het knooppunt. Alleen-lezen Int32. |
-| [OrganizationChartLayout](../../aspose.slides.smartart/ismartartnode/organizationchartlayout) { get; set; } | Retourneert of stelt het organisatiediagram-indelingstype in dat aan het huidige knooppunt is gekoppeld. Lezen/Schrijven [`OrganizationChartLayoutType`](../organizationchartlayouttype). |
-| [Position](../../aspose.slides.smartart/ismartartnode/position) { get; set; } | Retourneert of stelt de nul-gebaseerde positie van het knooppunt onder broeder-knooppunten in. Lezen/Schrijven Int32. |
-| [Shapes](../../aspose.slides.smartart/ismartartnode/shapes) { get; } | Retourneert collecties van alle shapes die aan het knooppunt zijn gekoppeld. Alleen-lezen [`ISmartArtShapeCollection`](../ismartartshapecollection). |
-| [TextFrame](../../aspose.slides.smartart/ismartartnode/textframe) { get; } | Retourneert of stelt de tekst van het knooppunt in. Alleen-lezen [`ITextFrame`](../../aspose.slides/itextframe). |
+| [BulletFillFormat](../../aspose.slides.smartart/ismartartnode/bulletfillformat) { get; } | Retourneert het FillFormat-object dat opvul-opmaakeigenschappen voor een knoop-bullet bevat. Opmerking: kan null retourneren voor bepaalde typen SmartArt-lay-out die geen bullets voor knopen bieden. Alleen-lezen [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [ChildNodes](../../aspose.slides.smartart/ismartartnode/childnodes) { get; } | Retourneert collecties van alle onderliggende knopen van de huidige knoop. Alleen-lezen [`ISmartArtNodeCollection`](../ismartartnodecollection). |
+| [IsAssistant](../../aspose.slides.smartart/ismartartnode/isassistant) { get; set; } | Retourneert of stelt de knoop in als assistent. Lezen/Schrijven Boolean. |
+| [IsHidden](../../aspose.slides.smartart/ismartartnode/ishidden) { get; } | Retourneert true als deze knoop een verborgen knoop is in het datamodel. Alleen-lezen Boolean. |
+| [Level](../../aspose.slides.smartart/ismartartnode/level) { get; } | Retourneert het nesting-niveau van de knoop. Alleen-lezen Int32. |
+| [OrganizationChartLayout](../../aspose.slides.smartart/ismartartnode/organizationchartlayout) { get; set; } | Retourneert of stelt het organisatiediagram-layouttype in dat aan de huidige knoop is gekoppeld. Lezen/Schrijven [`OrganizationChartLayoutType`](../organizationchartlayouttype). |
+| [Position](../../aspose.slides.smartart/ismartartnode/position) { get; set; } | Retourneert of stelt de nul-gebaseerde positie van de knoop onder broeder-knopen in. Lezen/Schrijven Int32. |
+| [Shapes](../../aspose.slides.smartart/ismartartnode/shapes) { get; } | Retourneert collecties van alle shapes die aan de knoop zijn gekoppeld. Alleen-lezen [`ISmartArtShapeCollection`](../ismartartshapecollection). |
+| [TextFrame](../../aspose.slides.smartart/ismartartnode/textframe) { get; } | Retourneert of stelt de tekst van de knoop in. Alleen-lezen [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Remove](../../aspose.slides.smartart/ismartartnode/remove)() | Verwijdert het huidige knooppunt. |
+| [Remove](../../aspose.slides.smartart/ismartartnode/remove)() | Verwijder het huidige knooppunt. |
 
 ### Zie ook
 
-* namespace [Aspose.Slides.SmartArt](../../aspose.slides.smartart)
+* naamruimte [Aspose.Slides.SmartArt](../../aspose.slides.smartart)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

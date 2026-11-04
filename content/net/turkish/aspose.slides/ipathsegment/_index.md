@@ -1,14 +1,14 @@
 ---
 title: IPathSegment
 second_title: Aspose.Sildes .NET API Referansı
-description: GeometryShape nesnesinin grafik yolu segmentini temsil eder
+description: GeometryShape nesnesinin grafik yolunun bir bölümünü temsil eder
 type: docs
-weight: 6610
+weight: 6630
 url: /tr/aspose.slides/ipathsegment/
 ---
 ## IPathSegment arayüz
 
-GeometryShape nesnesinin grafik yolu segmentini temsil eder
+GeometryShape nesnesinin grafik yolunun bir bölümünü temsil eder
 
 ```csharp
 public interface IPathSegment
@@ -18,8 +18,8 @@ public interface IPathSegment
 
 | Ad | Açıklama |
 | --- | --- |
-| [PathCommand](../../aspose.slides/ipathsegment/pathcommand) { get; } | Segmentin yol türü |
-| [SegmentData](../../aspose.slides/ipathsegment/segmentdata) { get; } | Segmentin yol verisi |
+| [PathCommand](../../aspose.slides/ipathsegment/pathcommand) { get; } | Bölümün yol türü |
+| [SegmentData](../../aspose.slides/ipathsegment/segmentdata) { get; } | Bölümün yol verisi |
 
 ### Ayrıca Bakınız
 

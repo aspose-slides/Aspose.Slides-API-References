@@ -1,35 +1,35 @@
 ---
 title: Legend
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
+second_title: مرجع API ل Aspose.Sildes لـ .NET
 description: يمثل خصائص وسيلة إيضاح المخططات.
 type: docs
-weight: 2280
+weight: 2300
 url: /ar/aspose.slides.charts/legend/
 ---
 ## فئة Legend
 
-يمثل خصائص وسيلة إيضاح المخطط.
+يمثل خصائص وسيلة الإيضاح للمخطط.
 
 ```csharp
 public class Legend : DomObject<Chart>, ILegend
 ```
 
-## الخصائص
+## Properties
 
-| الاسم | الوصف |
+| Name | Description |
 | --- | --- |
 | [ActualHeight](../../aspose.slides.charts/legend/actualheight) { get; } | يحدد الارتفاع الفعلي لعنصر المخطط. استدعِ الطريقة IChart.ValidateChartLayout() مسبقًا للحصول على القيم الفعلية. قراءة Single. |
 | [ActualWidth](../../aspose.slides.charts/legend/actualwidth) { get; } | يحدد العرض الفعلي لعنصر المخطط. استدعِ الطريقة IChart.ValidateChartLayout() مسبقًا للحصول على القيم الفعلية. قراءة Single. |
-| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | يحدد الموقع الفعلي x (اليسار) لعنصر المخطط نسبة إلى الزاوية اليسرى العليا للمخطط. استدعِ الطريقة IChart.ValidateChartLayout() مسبقًا للحصول على القيم الفعلية. قراءة Single. |
-| [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | يحدد أعلى عنصر المخطط نسبة إلى الزاوية اليسرى العليا للمخطط. استدعِ الطريقة IChart.ValidateChartLayout() مسبقًا للحصول على القيم الفعلية. قراءة Single. |
-| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | الأسفل. قراءة فقط Single. |
+| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | يحدد الموضع الفعلي x (يسار) لعنصر المخطط نسبة إلى الزاوية اليسرى العليا للمخطط. استدعِ الطريقة IChart.ValidateChartLayout() مسبقًا للحصول على القيم الفعلية. قراءة Single. |
+| [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | يحدد الموضع الفعلي العلوي لعنصر المخطط نسبة إلى الزاوية اليسرى العليا للمخطط. استدعِ الطريقة IChart.ValidateChartLayout() مسبقًا للحصول على القيم الفعلية. قراءة Single. |
+| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | السفلية. قراءة فقط Single. |
 | [Chart](../../aspose.slides.charts/legend/chart) { get; } | يعيد المخطط. قراءة فقط [`IChart`](../ichart). |
 | [Entries](../../aspose.slides.charts/legend/entries) { get; } | يحصل على مدخلات وسيلة الإيضاح. قراءة فقط [`ILegendEntryCollection`](../ilegendentrycollection). |
 | [Format](../../aspose.slides.charts/legend/format) { get; } | يعيد تنسيق وسيلة الإيضاح. قراءة فقط [`IFormat`](../iformat). |
 | [Height](../../aspose.slides.charts/legend/height) { get; set; } | يعيد أو يضبط ارتفاع وسيلة الإيضاح كنسبة من ارتفاع المخطط. قراءة/كتابة Single. |
-| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | يحدد ما إذا كان يُسمح لعناصر المخطط الأخرى بالتغطية على وسيلة الإيضاح. قراءة/كتابة Boolean. |
-| [Position](../../aspose.slides.charts/legend/position) { get; set; } | يحدد موقع وسيلة الإيضاح على المخطط. القيم غير NaN للخصائص X و Y و Width و Heigt تتجاوز تأثير هذه الخاصية. قراءة/كتابة [`LegendPositionType`](../legendpositiontype). |
-| [Right](../../aspose.slides.charts/legend/right) { get; } | اليمين. قراءة فقط Single. |
+| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | يحدد ما إذا كان يُسمح لعناصر المخطط الأخرى بالتداخل مع وسيلة الإيضاح. قراءة/كتابة Boolean. |
+| [Position](../../aspose.slides.charts/legend/position) { get; set; } | يحدد موضع وسيلة الإيضاح على المخطط. القيم غير NaN للخصائص X, Y, Width, Heigt تتجاوز تأثير هذه الخاصية. قراءة/كتابة [`LegendPositionType`](../legendpositiontype). |
+| [Right](../../aspose.slides.charts/legend/right) { get; } | يمين. قراءة فقط Single. |
 | [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | تنسيق النص. قراءة فقط [`IChartTextFormat`](../icharttextformat). |
 | [Width](../../aspose.slides.charts/legend/width) { get; set; } | يعيد أو يضبط عرض وسيلة الإيضاح كنسبة من عرض المخطط. قراءة/كتابة Single. |
 | [X](../../aspose.slides.charts/legend/x) { get; set; } | يعيد أو يضبط إحداثي x لوسيلة الإيضاح كنسبة من عرض المخطط. قراءة/كتابة Single. |

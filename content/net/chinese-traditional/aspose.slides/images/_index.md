@@ -1,9 +1,9 @@
 ---
 title: Images
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes .NET API 參考
 description: 用於實例化和操作 IImage./iimage 的方法。
 type: docs
-weight: 7460
+weight: 7480
 url: /zh-hant/aspose.slides/images/
 ---
 ## Images 類別
@@ -16,7 +16,7 @@ public static class Images
 
 ## 方法
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
 | static [FromFile](../../aspose.slides/images/fromfile#fromfile)(string) | 從檔案建立影像。 |
 | static [FromFile](../../aspose.slides/images/fromfile#fromfile_1)(string, bool) | 從檔案建立影像 |

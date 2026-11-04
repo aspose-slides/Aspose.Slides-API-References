@@ -1,14 +1,14 @@
 ---
 title: FillOverlay
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt einen Fill Overlay-Effekt dar. Ein Fill Overlay kann verwendet werden, um eine zusätzliche Füllung für ein Objekt anzugeben und die beiden Füllungen zusammenzuführen.
+description: Stellt einen Fill Overlay-Effekt dar. Ein Fill Overlay kann verwendet werden, um einem Objekt ein zusätzliches Fill anzugeben und die beiden Fills zu vermischen.
 type: docs
-weight: 2980
+weight: 3000
 url: /de/aspose.slides.effects/filloverlay/
 ---
 ## FillOverlay Klasse
 
-Stellt einen Fill Overlay-Effekt dar. Ein Fill Overlay kann verwendet werden, um eine zusätzliche Füllung für ein Objekt anzugeben und die beiden Füllungen zusammenzuführen.
+Stellt einen Fill Overlay-Effekt dar. Ein Fill Overlay kann verwendet werden, um einer Objekt ein zusätzliches Fill anzugeben und die beiden Fills zu vermischen.
 
 ```csharp
 public sealed class FillOverlay : ImageTransformOperation, IFillOverlay
@@ -18,8 +18,8 @@ public sealed class FillOverlay : ImageTransformOperation, IFillOverlay
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IPresentationComponent. Nur lesbar [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Blend](../../aspose.slides.effects/filloverlay/blend) { get; set; } | FillBlendMode. Lese/Schreib [`FillBlendMode`](../../aspose.slides/fillblendmode). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht das Abrufen der Basis IPresentationComponent-Schnittstelle. Nur lesbar [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Blend](../../aspose.slides.effects/filloverlay/blend) { get; set; } | FillBlendMode. Lese-/Schreib [`FillBlendMode`](../../aspose.slides/fillblendmode). |
 | [FillFormat](../../aspose.slides.effects/filloverlay/fillformat) { get; } | Fill-Format. Nur lesbar [`IFillFormat`](../../aspose.slides/ifillformat). |
 
 ## Methoden
@@ -27,7 +27,7 @@ public sealed class FillOverlay : ImageTransformOperation, IFillOverlay
 | Name | Beschreibung |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/filloverlay/equals)(object) | Bestimmt, ob das angegebene [`FillOverlay`](../filloverlay) gleich dem aktuellen [`FillOverlay`](../filloverlay) ist. |
-| [GetEffective](../../aspose.slides.effects/filloverlay/geteffective)() | Ruft die effektiven Fill Overlay-Effektdaten ab, wobei die Vererbung angewendet wird. |
+| [GetEffective](../../aspose.slides.effects/filloverlay/geteffective)() | Ruft die wirksamen Fill Overlay-Effektdaten mit angewandter Vererbung ab. |
 | override [GetHashCode](../../aspose.slides.effects/filloverlay/gethashcode)() | Dient als Hash-Funktion für einen bestimmten Typ. |
 
 ### Siehe auch

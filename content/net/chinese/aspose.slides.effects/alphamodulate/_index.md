@@ -3,12 +3,12 @@ title: AlphaModulate
 second_title: Aspose.Sildes .NET API 参考
 description: 表示 Alpha Modulate 效果。效果的 alpha 不透明度值会乘以固定的百分比。效果容器指定包含要调制的 alpha 值的效果。
 type: docs
-weight: 2880
+weight: 2900
 url: /zh/aspose.slides.effects/alphamodulate/
 ---
 ## AlphaModulate 类
 
-表示 Alpha Modulate 效果。效果的 alpha（不透明度）值乘以固定百分比。效果容器指定包含要调制的 alpha 值的效果。
+Represents an Alpha Modulate effect. Effect alpha (opacity) values are multiplied by a fixed percentage. The effect container specifies an effect containing alpha values to modulate.
 
 ```csharp
 public sealed class AlphaModulate : ImageTransformOperation, IAlphaModulate
@@ -18,17 +18,17 @@ public sealed class AlphaModulate : ImageTransformOperation, IAlphaModulate
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基类 IPresentationComponent 接口。只读 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基础 IPresentationComponent 接口。只读 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphamodulate/equals)(object) | 确定指定的 [`AlphaModulate`](../alphamodulate) 是否等于当前的 [`AlphaModulate`](../alphamodulate)。 |
-| [GetEffective](../../aspose.slides.effects/alphamodulate/geteffective)() | 获取在应用继承后有效的 Alpha Modulate 效果数据。 |
-| override [GetHashCode](../../aspose.slides.effects/alphamodulate/gethashcode)() | 作为特定类型的散列函数。 |
+| [GetEffective](../../aspose.slides.effects/alphamodulate/geteffective)() | 获取在应用继承后的有效 Alpha Modulate 效果数据。 |
+| override [GetHashCode](../../aspose.slides.effects/alphamodulate/gethashcode)() | 充当特定类型的哈希函数。 |
 
-### 另见
+### 另请参见
 
 * 类 [ImageTransformOperation](../imagetransformoperation)
 * 接口 [IAlphaModulate](../ialphamodulate)

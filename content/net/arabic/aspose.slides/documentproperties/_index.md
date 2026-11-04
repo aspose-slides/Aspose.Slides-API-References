@@ -1,12 +1,12 @@
 ---
 title: DocumentProperties
-second_title: Aspose.Sildes لـ .NET مرجع API
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
 description: يمثل خصائص عرض تقديمي.
 type: docs
-weight: 2790
+weight: 2810
 url: /ar/aspose.slides/documentproperties/
 ---
-## DocumentProperties فئة
+## فئة DocumentProperties
 
 يمثل خصائص عرض تقديمي.
 
@@ -14,53 +14,53 @@ url: /ar/aspose.slides/documentproperties/
 public class DocumentProperties : IDocumentProperties, IGenericCloneable<IDocumentProperties>
 ```
 
-## المُنشئات
+## المنشئات
 
 | الاسم | الوصف |
 | --- | --- |
-| [DocumentProperties](documentproperties)() | يهيء مثلاً جديداً للفئة [`DocumentProperties`](../documentproperties). |
+| [DocumentProperties](documentproperties)() | يهيئ مثالًا جديدًا من الفئة [`DocumentProperties`](../documentproperties). |
 
 ## الخصائص
 
 | الاسم | الوصف |
 | --- | --- |
-| [ApplicationTemplate](../../aspose.slides/documentproperties/applicationtemplate) { get; set; } | يقوم بإرجاع أو تعيين قالب تطبيق. قراءة/كتابة String. |
-| [AppVersion](../../aspose.slides/documentproperties/appversion) { get; } | يعيد إصدار التطبيق. قراءة فقط String. |
-| [Author](../../aspose.slides/documentproperties/author) { get; set; } | يقوم بإرجاع أو تعيين مؤلف العرض التقديمي. قراءة/كتابة String. |
-| [Category](../../aspose.slides/documentproperties/category) { get; set; } | يقوم بإرجاع أو تعيين فئة العرض التقديمي. قراءة/كتابة String. |
-| [Comments](../../aspose.slides/documentproperties/comments) { get; set; } | يقوم بإرجاع أو تعيين تعليقات العرض التقديمي. قراءة/كتابة String. |
-| [Company](../../aspose.slides/documentproperties/company) { get; set; } | يقوم بإرجاع أو تعيين خاصية الشركة. قراءة/كتابة String. |
-| [ContentStatus](../../aspose.slides/documentproperties/contentstatus) { get; set; } | يقوم بإرجاع أو تعيين حالة محتوى العرض التقديمي. قراءة/كتابة String. |
-| [ContentType](../../aspose.slides/documentproperties/contenttype) { get; set; } | يقوم بإرجاع أو تعيين نوع محتوى العرض التقديمي. قراءة/كتابة String. |
-| [CountOfCustomProperties](../../aspose.slides/documentproperties/countofcustomproperties) { get; } | يعيد عدد الخصائص المخصصة الموجودة فعلياً في مجموعة. قراءة فقط Int32. |
-| [CreatedTime](../../aspose.slides/documentproperties/createdtime) { get; set; } | يعيد تاريخ إنشاء العرض التقديمي. القيم بتوقيت UTC. قراءة/كتابة DateTime. |
-| [HeadingPairs](../../aspose.slides/documentproperties/headingpairs) { get; } | يشير إلى تجميع أجزاء المستند وعدد الأجزاء في كل مجموعة. قراءة فقط IHeadingPair[]. |
+| [ApplicationTemplate](../../aspose.slides/documentproperties/applicationtemplate) { get; set; } | يعيد أو يعيّن القالب الخاص بالتطبيق. قابل للقراءة والكتابة String. |
+| [AppVersion](../../aspose.slides/documentproperties/appversion) { get; } | يعيد نسخة التطبيق. قراءة فقط String. |
+| [Author](../../aspose.slides/documentproperties/author) { get; set; } | يعيد أو يعيّن مؤلف العرض التقديمي. قابل للقراءة والكتابة String. |
+| [Category](../../aspose.slides/documentproperties/category) { get; set; } | يعيد أو يعيّن فئة العرض التقديمي. قابل للقراءة والكتابة String. |
+| [Comments](../../aspose.slides/documentproperties/comments) { get; set; } | يعيد أو يعيّن تعليقات العرض التقديمي. قابل للقراءة والكتابة String. |
+| [Company](../../aspose.slides/documentproperties/company) { get; set; } | يعيد أو يعيّن خاصية الشركة. قابل للقراءة والكتابة String. |
+| [ContentStatus](../../aspose.slides/documentproperties/contentstatus) { get; set; } | يعيد أو يعيّن حالة محتوى العرض التقديمي. قابل للقراءة والكتابة String. |
+| [ContentType](../../aspose.slides/documentproperties/contenttype) { get; set; } | يعيد أو يعيّن نوع محتوى العرض التقديمي. قابل للقراءة والكتابة String. |
+| [CountOfCustomProperties](../../aspose.slides/documentproperties/countofcustomproperties) { get; } | يعيد عدد الخصائص المخصصة الفعلية الموجودة في المجموعة. قراءة فقط Int32. |
+| [CreatedTime](../../aspose.slides/documentproperties/createdtime) { get; set; } | يعيد تاريخ إنشاء العرض التقديمي. القيم بالتوقيت العالمي UTC. قابل للقراءة والكتابة DateTime. |
+| [HeadingPairs](../../aspose.slides/documentproperties/headingpairs) { get; } | يوضح تجميع أجزاء المستند وعدد الأجزاء في كل مجموعة. قراءة فقط IHeadingPair[]. |
 | [HiddenSlides](../../aspose.slides/documentproperties/hiddenslides) { get; } | يعيد عدد الشرائح المخفية في مستند العرض التقديمي. قراءة فقط Int32. |
-| [HyperlinkBase](../../aspose.slides/documentproperties/hyperlinkbase) { get; set; } | يقوم بإرجاع أو تعيين خاصية المستند HyperlinkBase. قراءة/كتابة String. |
-| [HyperlinksChanged](../../aspose.slides/documentproperties/hyperlinkschanged) { get; set; } | يحدد أن رابطًا أو أكثر في هذا الجزء تم تحديثه حصريًا في هذا الجزء من قبل منتج. المنتج التالي الذي يفتح هذا المستند سيقوم بتحديث علاقات الروابط باستخدام الروابط الجديدة المحددة في هذا الجزء. قراءة/كتابة Boolean. |
-| [Item](../../aspose.slides/documentproperties/item) { get; set; } | يقوم بإرجاع أو تعيين الخاصية المخصصة المرتبطة باسم محدد. قراءة/كتابة Object. |
-| [Keywords](../../aspose.slides/documentproperties/keywords) { get; set; } | يقوم بإرجاع أو تعيين كلمات مفتاحية للعرض التقديمي. قراءة/كتابة String. |
-| [LastPrinted](../../aspose.slides/documentproperties/lastprinted) { get; set; } | يعيد تاريخ آخر طباعة للعرض التقديمي. قراءة/كتابة DateTime. |
-| [LastSavedBy](../../aspose.slides/documentproperties/lastsavedby) { get; set; } | يقوم بإرجاع أو تعيين اسم آخر شخص عدل العرض التقديمي. قراءة/كتابة String. |
-| [LastSavedTime](../../aspose.slides/documentproperties/lastsavedtime) { get; set; } | يعيد تاريخ آخر تعديل للعرض التقديمي. القيم بتوقيت UTC. قراءة فقط في حالة Presentation.DocumentProperties (لأنه سيتم تحديثه داخليًا أثناء عملية حفظ كائن IPresentation). يمكن تغييره عبر مثيل DocumentProperties الذي تُرجعه الطريقة [`ReadDocumentProperties`](../ipresentationinfo/readdocumentproperties). يرجى الاطلاع على المثال في ملخص الطريقة [`UpdateDocumentProperties`](../ipresentationinfo/updatedocumentproperties). |
-| [LinksUpToDate](../../aspose.slides/documentproperties/linksuptodate) { get; set; } | يشير إلى ما إذا كانت الروابط في المستند محدثة. ضع هذا العنصر **true** للدلالة على أن الروابط محدثة. ضع هذا العنصر **false** للدلالة على أن الروابط قديمة. قراءة/كتابة Boolean. |
-| [Manager](../../aspose.slides/documentproperties/manager) { get; set; } | يقوم بإرجاع أو تعيين خاصية المدير. قراءة/كتابة String. |
-| [MultimediaClips](../../aspose.slides/documentproperties/multimediaclips) { get; } | يعيد العدد الإجمالي لمقاطع الصوت أو الفيديو الموجودة في المستند. قراءة فقط Int32. |
-| [NameOfApplication](../../aspose.slides/documentproperties/nameofapplication) { get; set; } | يقوم بإرجاع أو تعيين اسم التطبيق. قراءة/كتابة String. |
-| [Notes](../../aspose.slides/documentproperties/notes) { get; } | يعيد عدد الشرائح في عرض تقديمي يحتوي على ملاحظات. قراءة فقط Int32. |
-| [Paragraphs](../../aspose.slides/documentproperties/paragraphs) { get; } | يعيد العدد الإجمالي للفقرات الموجودة في المستند إذا كان ذلك مناسبًا. قراءة فقط Int32. |
-| [PresentationFormat](../../aspose.slides/documentproperties/presentationformat) { get; set; } | يقوم بإرجاع أو تعيين الصيغة المقصودة للعرض التقديمي. قراءة/كتابة String. |
-| [RevisionNumber](../../aspose.slides/documentproperties/revisionnumber) { get; set; } | يقوم بإرجاع أو تعيين رقم مراجعة العرض التقديمي. قراءة/كتابة Int32. |
-| [ScaleCrop](../../aspose.slides/documentproperties/scalecrop) { get; set; } | يشير إلى وضع عرض مصغرة المستند. ضع هذا العنصر **true** لتمكين تحجيم مصغرة المستند إلى العرض. ضع هذا العنصر **false** لتمكين قص مصغرة المستند لإظهار الأقسام التي تناسب العرض فقط. قراءة/كتابة Boolean. |
-| [SharedDoc](../../aspose.slides/documentproperties/shareddoc) { get; set; } | يحدد ما إذا كان العرض التقديمي مشتركًا بين عدة أشخاص. قراءة/كتابة Boolean. |
-| [Slides](../../aspose.slides/documentproperties/slides) { get; } | يعيد العدد الإجمالي للشرائح في مستند عرض تقديمي. قراءة فقط Int32. |
-| [Subject](../../aspose.slides/documentproperties/subject) { get; set; } | يقوم بإرجاع أو تعيين موضوع العرض التقديمي. قراءة/كتابة String. |
-| [Title](../../aspose.slides/documentproperties/title) { get; set; } | يقوم بإرجاع أو تعيين عنوان العرض التقديمي. قراءة/كتابة String. |
-| [TitlesOfParts](../../aspose.slides/documentproperties/titlesofparts) { get; } | يحدد عنوان كل جزء من المستند. هذه الأجزاء ليست أجزاء مستند فعلية بل تمثيلات مفهومية لأقسام المستند. قراءة فقط string[]. |
-| [TotalEditingTime](../../aspose.slides/documentproperties/totaleditingtime) { get; set; } | الوقت الإجمالي للتحرير للعرض التقديمي. قراءة/كتابة TimeSpan. |
-| [Words](../../aspose.slides/documentproperties/words) { get; } | يعيد العدد الإجمالي للكلمات الموجودة في مستند. قراءة فقط Int32. |
+| [HyperlinkBase](../../aspose.slides/documentproperties/hyperlinkbase) { get; set; } | يعيد أو يعيّن خاصية HyperlinkBase للمستند. قابل للقراءة والكتابة String. |
+| [HyperlinksChanged](../../aspose.slides/documentproperties/hyperlinkschanged) { get; set; } | يحدد أن أحد الروابط أو أكثر في هذا الجزء تم تحديثه حصيًا في هذا الجزء بواسطة منتج. سيقوم المنتج التالي بفتح هذا المستند بتحديث علاقات الروابط بالروابط الجديدة المحددة في هذا الجزء. قابل للقراءة والكتابة Boolean. |
+| [Item](../../aspose.slides/documentproperties/item) { get; set; } | يعيد أو يعيّن الخاصية المخصصة المرتبطة باسم محدد. قابل للقراءة والكتابة Object. |
+| [Keywords](../../aspose.slides/documentproperties/keywords) { get; set; } | يعيد أو يعيّن كلمات مفتاح العرض التقديمي. قابل للقراءة والكتابة String. |
+| [LastPrinted](../../aspose.slides/documentproperties/lastprinted) { get; set; } | يعيد تاريخ آخر طباعة للعرض التقديمي. قابل للقراءة والكتابة DateTime. |
+| [LastSavedBy](../../aspose.slides/documentproperties/lastsavedby) { get; set; } | يعيد أو يعيّن اسم آخر شخص عدّل العرض التقديمي. قابل للقراءة والكتابة String. |
+| [LastSavedTime](../../aspose.slides/documentproperties/lastsavedtime) { get; set; } | يعيد تاريخ آخر تعديل للعرض التقديمي. القيم بالتوقيت العالمي UTC. قراءة فقط في حالة Presentation.DocumentProperties (لأنها تُحدَّث داخليًا أثناء عملية حفظ كائن IPresentation). يمكن تغييره عبر مثيل DocumentProperties يعود به الأسلوب [`ReadDocumentProperties`](../ipresentationinfo/readdocumentproperties). يرجى الاطلاع على المثال في ملخص الأسلوب [`UpdateDocumentProperties`](../ipresentationinfo/updatedocumentproperties). |
+| [LinksUpToDate](../../aspose.slides/documentproperties/linksuptodate) { get; set; } | يوضح ما إذا كانت الروابط في المستند حديثة. ضع هذا العنصر على **true** للدلالة على أن الروابط محدثة. ضع هذا العنصر على **false** للدلالة على أن الروابط قديمة. قابل للقراءة والكتابة Boolean. |
+| [Manager](../../aspose.slides/documentproperties/manager) { get; set; } | يعيد أو يعيّن خاصية المدير. قابل للقراءة والكتابة String. |
+| [MultimediaClips](../../aspose.slides/documentproperties/multimediaclips) { get; } | يعيد إجمالي عدد مقاطع الصوت أو الفيديو الموجودة في المستند. قراءة فقط Int32. |
+| [NameOfApplication](../../aspose.slides/documentproperties/nameofapplication) { get; set; } | يعيد أو يعيّن اسم التطبيق. قابل للقراءة والكتابة String. |
+| [Notes](../../aspose.slides/documentproperties/notes) { get; } | يعيد عدد الشرائح التي تحتوي على ملاحظات في العرض التقديمي. قراءة فقط Int32. |
+| [Paragraphs](../../aspose.slides/documentproperties/paragraphs) { get; } | يعيد إجمالي عدد الفقرات الموجودة في المستند إذا كان ذلك مناسبًا. قراءة فقط Int32. |
+| [PresentationFormat](../../aspose.slides/documentproperties/presentationformat) { get; set; } | يعيد أو يعيّن الصيغة المستهدفة للعرض التقديمي. قابل للقراءة والكتابة String. |
+| [RevisionNumber](../../aspose.slides/documentproperties/revisionnumber) { get; set; } | يعيد أو يعيّن رقم مراجعة العرض التقديمي. قابل للقراءة والكتابة Int32. |
+| [ScaleCrop](../../aspose.slides/documentproperties/scalecrop) { get; set; } | يوضح وضع عرض مصغرة المستند. ضع هذا العنصر على **true** لتمكين تحجيم مصغرة المستند لتلائم العرض. ضع هذا العنصر على **false** لتمكين قص مصغرة المستند لإظهار الأقسام التي تناسب العرض فقط. قابل للقراءة والكتابة Boolean. |
+| [SharedDoc](../../aspose.slides/documentproperties/shareddoc) { get; set; } | يحدد ما إذا كان العرض التقديمي مشتركًا بين عدة أشخاص. قابل للقراءة والكتابة Boolean. |
+| [Slides](../../aspose.slides/documentproperties/slides) { get; } | يعيد إجمالي عدد الشرائح في مستند العرض التقديمي. قراءة فقط Int32. |
+| [Subject](../../aspose.slides/documentproperties/subject) { get; set; } | يعيد أو يعيّن موضوع العرض التقديمي. قابل للقراءة والكتابة String. |
+| [Title](../../aspose.slides/documentproperties/title) { get; set; } | يعيد أو يعيّن عنوان العرض التقديمي. قابل للقراءة والكتابة String. |
+| [TitlesOfParts](../../aspose.slides/documentproperties/titlesofparts) { get; } | يحدد عنوان كل جزء من المستند. هذه الأجزاء ليست أجزاء مستند فعلية وإنما تمثيلات مفاهيمية لأقسام المستند. قراءة فقط string[]. |
+| [TotalEditingTime](../../aspose.slides/documentproperties/totaleditingtime) { get; set; } | إجمالي وقت تحرير العرض التقديمي. قابل للقراءة والكتابة TimeSpan. |
+| [Words](../../aspose.slides/documentproperties/words) { get; } | يعيد إجمالي عدد الكلمات الموجودة في المستند. قراءة فقط Int32. |
 
-## الأساليب
+## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
@@ -69,29 +69,29 @@ public class DocumentProperties : IDocumentProperties, IGenericCloneable<IDocume
 | [Clone](../../aspose.slides/documentproperties/clone)() | ينسخ الكائن الحالي |
 | [CloneT](../../aspose.slides/documentproperties/clonet)() | ينسخ الكائن الحالي |
 | [ContainsCustomProperty](../../aspose.slides/documentproperties/containscustomproperty)(string) | يتحقق من وجود خاصية مخصصة بالاسم المحدد. |
-| [GetCustomPropertyName](../../aspose.slides/documentproperties/getcustompropertyname)(int) | يعيد اسم الخاصية المخصصة عند الفهرس المحدد. |
+| [GetCustomPropertyName](../../aspose.slides/documentproperties/getcustompropertyname)(int) | يرجع اسم خاصية مخصصة عند الفهرس المحدد. |
 | [GetCustomPropertyValue](../../aspose.slides/documentproperties/getcustompropertyvalue#getcustompropertyvalue)(string, out bool) | يحصل على قيمة منطقية مسماة من الخصائص المخصصة. |
 | [GetCustomPropertyValue](../../aspose.slides/documentproperties/getcustompropertyvalue#getcustompropertyvalue_4)(string, out DateTime) | يحصل على قيمة DateTime مسماة من الخصائص المخصصة. |
-| [GetCustomPropertyValue](../../aspose.slides/documentproperties/getcustompropertyvalue#getcustompropertyvalue_1)(string, out double) | يحصل على قيمة double مسماة من الخصائص المخصصة. |
-| [GetCustomPropertyValue](../../aspose.slides/documentproperties/getcustompropertyvalue#getcustompropertyvalue_3)(string, out float) | يحصل على قيمة float مسماة من الخصائص المخصصة. |
-| [GetCustomPropertyValue](../../aspose.slides/documentproperties/getcustompropertyvalue#getcustompropertyvalue_2)(string, out int) | يحصل على قيمة عددية مسماة من الخصائص المخصصة. |
+| [GetCustomPropertyValue](../../aspose.slides/documentproperties/getcustompropertyvalue#getcustompropertyvalue_1)(string, out double) | يحصل على قيمة مزدوجة مسماة من الخصائص المخصصة. |
+| [GetCustomPropertyValue](../../aspose.slides/documentproperties/getcustompropertyvalue#getcustompropertyvalue_3)(string, out float) | يحصل على قيمة عائمة مسماة من الخصائص المخصصة. |
+| [GetCustomPropertyValue](../../aspose.slides/documentproperties/getcustompropertyvalue#getcustompropertyvalue_2)(string, out int) | يحصل على قيمة عدد صحيح مسماة من الخصائص المخصصة. |
 | [GetCustomPropertyValue](../../aspose.slides/documentproperties/getcustompropertyvalue#getcustompropertyvalue_5)(string, out string) | يحصل على قيمة سلسلة مسماة من الخصائص المخصصة. |
-| [GetSensitivityLabels](../../aspose.slides/documentproperties/getsensitivitylabels)() | يحصل على مصفوفة من تسميات الحساسية من الخصائص المخصصة للمستند (بيانات تعريف SDK لحماية المعلومات من مايكروسوفت). |
+| [GetSensitivityLabels](../../aspose.slides/documentproperties/getsensitivitylabels)() | يحصل على مصفوفة من تسميات الحساسية من خصائص المستند المخصصة (Microsoft Information Protection SDK Metadata). |
 | [RemoveCustomProperty](../../aspose.slides/documentproperties/removecustomproperty)(string) | يزيل خاصية مخصصة مرتبطة باسم محدد. |
-| [SetCustomPropertyValue](../../aspose.slides/documentproperties/setcustompropertyvalue#setcustompropertyvalue)(string, bool) | يضبط خاصية مخصصة منطقية مسماة. |
-| [SetCustomPropertyValue](../../aspose.slides/documentproperties/setcustompropertyvalue#setcustompropertyvalue_4)(string, DateTime) | يضبط خاصية مخصصة من نوع DateTime مسماة. |
-| [SetCustomPropertyValue](../../aspose.slides/documentproperties/setcustompropertyvalue#setcustompropertyvalue_1)(string, double) | يضبط خاصية مخصصة من نوع double مسماة. |
-| [SetCustomPropertyValue](../../aspose.slides/documentproperties/setcustompropertyvalue#setcustompropertyvalue_3)(string, float) | يضبط خاصية مخصصة من نوع float مسماة. |
-| [SetCustomPropertyValue](../../aspose.slides/documentproperties/setcustompropertyvalue#setcustompropertyvalue_2)(string, int) | يضبط خاصية مخصصة من نوع integer مسماة. |
-| [SetCustomPropertyValue](../../aspose.slides/documentproperties/setcustompropertyvalue#setcustompropertyvalue_5)(string, string) | يضبط خاصية مخصصة من نوع string مسماة. |
+| [SetCustomPropertyValue](../../aspose.slides/documentproperties/setcustompropertyvalue#setcustompropertyvalue)(string, bool) | يعيّن خاصية منطقية مخصصة مسماة. |
+| [SetCustomPropertyValue](../../aspose.slides/documentproperties/setcustompropertyvalue#setcustompropertyvalue_4)(string, DateTime) | يعيّن خاصية DateTime مخصصة مسماة. |
+| [SetCustomPropertyValue](../../aspose.slides/documentproperties/setcustompropertyvalue#setcustompropertyvalue_1)(string, double) | يعيّن خاصية مزدوجة مخصصة مسماة. |
+| [SetCustomPropertyValue](../../aspose.slides/documentproperties/setcustompropertyvalue#setcustompropertyvalue_3)(string, float) | يعيّن خاصية عائمة مخصصة مسماة. |
+| [SetCustomPropertyValue](../../aspose.slides/documentproperties/setcustompropertyvalue#setcustompropertyvalue_2)(string, int) | يعيّن خاصية عدد صحيح مخصصة مسماة. |
+| [SetCustomPropertyValue](../../aspose.slides/documentproperties/setcustompropertyvalue#setcustompropertyvalue_5)(string, string) | يعيّن خاصية سلسلة مخصصة مسماة. |
 
-### أمثلة
+### الأمثلة
 
-يوضح المثال التالي كيفية الوصول إلى الخصائص المدمجة لعرض PowerPoint.
+يوضح المثال التالي كيف يمكن الوصول إلى الخصائص المدمجة لعرض PowerPoint.
 
 ```csharp
 [C#]
-// إنشاء كائن من الفئة Presentation التي تمثل العرض التقديمي
+// إنشاء كائن من فئة Presentation الذي يمثل العرض التقديمي
 using (Presentation pres = new Presentation(dataDir + "AccessBuiltin Properties.pptx"))
 {
 	// إنشاء مرجع إلى كائن IDocumentProperties المرتبط بالعرض التقديمي
@@ -105,16 +105,16 @@ using (Presentation pres = new Presentation(dataDir + "AccessBuiltin Properties.
 }
 ```
 
-يوضح المثال التالي كيفية تعديل الخصائص المدمجة لعرض PowerPoint.
+يوضح المثال التالي كيف يمكن تعديل الخصائص المدمجة لعرض PowerPoint.
 
 ```csharp
 [C#]
-// إنشاء كائن من الفئة Presentation التي تمثل العرض التقديمي
+// إنشاء كائن من فئة Presentation الذي يمثل العرض التقديمي
 using (Presentation presentation = new Presentation(dataDir + "ModifyBuiltinProperties.pptx"))
 {
 	// إنشاء مرجع إلى كائن IDocumentProperties المرتبط بالعرض التقديمي
 	IDocumentProperties documentProperties = presentation.DocumentProperties;
-	// تعيين الخصائص المدمجة
+	// ضبط الخصائص المدمجة
 	documentProperties.Author = "Aspose.Slides for .NET";
 	documentProperties.Title = "Modifying Presentation Properties";
 	documentProperties.Subject = "Aspose Subject";
@@ -123,11 +123,11 @@ using (Presentation presentation = new Presentation(dataDir + "ModifyBuiltinProp
 }
 ```
 
-### انظر أيضًا
+### المزيد
 
 * واجهة [IDocumentProperties](../idocumentproperties)
 * واجهة [IGenericCloneable&lt;T&gt;](../igenericcloneable-1)
-* مساحة اسم [Aspose.Slides](../../aspose.slides)
+* نطاق [Aspose.Slides](../../aspose.slides)
 * تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

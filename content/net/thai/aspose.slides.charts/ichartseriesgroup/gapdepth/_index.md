@@ -1,18 +1,22 @@
 ---
 title: GapDepth
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: คืนค่า หรือ ตั้งค่าระยะห่างเป็นเปอร์เซ็นต์ของความกว้างของเครื่องหมายระหว่างชุดข้อมูลในแผนภูมิ 3 มิติ. อ่าน/เขียน UInt16.
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: รับหรือกำหนดระยะห่างระหว่างชุดข้อมูลในแผนภูมิ 3 มิติ ในรูปของเปอร์เซ็นต์ของความกว้างของเครื่องหมาย ความค่าต้องอยู่ระหว่าง 0 ถึง 500 อ่าน/เขียน UInt16.
 type: docs
 weight: 60
 url: /th/aspose.slides.charts/ichartseriesgroup/gapdepth/
 ---
 ## IChartSeriesGroup.GapDepth คุณสมบัติ
 
-คืนค่า หรือ ตั้งค่าระยะห่างเป็นเปอร์เซ็นต์ของความกว้างของเครื่องหมายระหว่างชุดข้อมูลในแผนภูมิ 3 มิติ อ่าน/เขียน UInt16.
+รับหรือกำหนดระยะห่างระหว่างชุดข้อมูลในแผนภูมิ 3 มิติ ในรูปของเปอร์เซ็นต์ของความกว้างของเครื่องหมาย ความค่าต้องอยู่ระหว่าง 0 ถึง 500 อ่าน/เขียน UInt16.
 
 ```csharp
 public ushort GapDepth { get; set; }
 ```
+
+### หมายเหตุ
+
+คุณสมบัตินี้ใช้กับชุดข้อมูลของประเภทต่อไปนี้: 3D bar and column subtypes, Line3D, Area3D, StackedArea3D, PercentsStackedArea3D.
 
 ### ดูเพิ่มเติม
 

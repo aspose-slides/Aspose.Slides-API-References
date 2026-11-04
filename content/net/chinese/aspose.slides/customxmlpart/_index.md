@@ -3,7 +3,7 @@ title: CustomXmlPart
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示自定义 xml 部分。
 type: docs
-weight: 2740
+weight: 2760
 url: /zh/aspose.slides/customxmlpart/
 ---
 ## CustomXmlPart 类
@@ -18,10 +18,10 @@ public class CustomXmlPart : ICustomXmlPart
 
 | 名称 | 描述 |
 | --- | --- |
-| [ItemId](../../aspose.slides/customxmlpart/itemid) { get; set; } | 指定在 Office Open XML 文档中唯一标识单个自定义 XML 部分的全局唯一标识符 (GUID)。只读 Guid。 |
-| [NamespaceSchemas](../../aspose.slides/customxmlpart/namespaceschemas) { get; } | 返回与自定义 XML 部分关联的 XML 架构集合。只读 String[]. |
-| [XmlAsString](../../aspose.slides/customxmlpart/xmlasstring) { get; set; } | 返回或设置 xml 数据为 UTF-8 字符串。读写 String。值为 `null`。值为空或 xml-data 无效。 |
-| [XmlData](../../aspose.slides/customxmlpart/xmldata) { get; set; } | 返回或设置 xml 数据。读写 Byte[]。值为 `null`。值为空或 xml-data 无效。 |
+| [ItemId](../../aspose.slides/customxmlpart/itemid) { get; set; } | 指定全局唯一标识符 (GUID)，该标识符唯一标识 Office Open XML 文档中的单个自定义 XML 部分。只读 Guid。 |
+| [NamespaceSchemas](../../aspose.slides/customxmlpart/namespaceschemas) { get; } | 返回与自定义 XML 部分关联的 XML 架构集合。只读 String[]。 |
+| [XmlAsString](../../aspose.slides/customxmlpart/xmlasstring) { get; set; } | 返回或设置 xml 数据，作为 UTF-8 字符串。读/写 String。value 为 `null`。value 为空或 xml-data 无效。 |
+| [XmlData](../../aspose.slides/customxmlpart/xmldata) { get; set; } | 返回或设置 xml 数据。读/写 Byte[]。value 为 `null`。value 为空或 xml-data 无效。 |
 
 ## 方法
 
@@ -29,7 +29,7 @@ public class CustomXmlPart : ICustomXmlPart
 | --- | --- |
 | [Remove](../../aspose.slides/customxmlpart/remove)() | 从演示文稿中移除自定义 xml 部分。 |
 
-### 另见
+### 另请参见
 
 * 接口 [ICustomXmlPart](../icustomxmlpart)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

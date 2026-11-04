@@ -3,10 +3,10 @@ title: SlideOrientation
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar bildens orientering.
 type: docs
-weight: 10000
+weight: 10020
 url: /sv/aspose.slides/slideorientation/
 ---
-## SlideOrientation enumeration
+## SlideOrientation uppräkning
 
 Representerar bildens orientering.
 
@@ -19,9 +19,9 @@ public enum SlideOrientation
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |
 | Landscape | `0` | Landskapsorientering. |
-| Portrait | `1` | Stående orientering. |
+| Portrait | `1` | Porträttorientering. |
 
-### Se också
+### Se även
 
 * namnrymd [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

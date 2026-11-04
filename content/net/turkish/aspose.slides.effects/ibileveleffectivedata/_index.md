@@ -1,14 +1,14 @@
 ---
 title: IBiLevelEffectiveData
 second_title: Aspose.Sildes için .NET API Referansı
-description: Değişmez nesne, bir Bi-Level siyah/beyaz etkisini temsil eder. Parlaklığı belirtilen eşik değerinden düşük olan giriş renkleri siyaha dönüştürülür. Parlaklığı belirtilen değere eşit ya da daha yüksek olan giriş renkleri beyaza ayarlanır. Alfa efekt değerleri bu etkiden etkilenmez.
+description: Değiştirilemez nesne, bir İki-Seviye siyah/beyaz efekti temsil eder. Belirtilen eşik değerinden daha düşük parlaklığa sahip giriş renkleri siyaha dönüştürülür. Parlaklığı belirtilen değere eşit veya daha yüksek olan giriş renkleri beyaza ayarlanır. Alfa etki değerleri bu etkiden etkilenmez.
 type: docs
-weight: 3170
+weight: 3190
 url: /tr/aspose.slides.effects/ibileveleffectivedata/
 ---
-## IBiLevelEffectiveData arayüz
+## IBiLevelEffectiveData arabirimi
 
-Değişmez bir nesnedir ve Bi-Level (black/white) efektini temsil eder. Parlaklığı belirtilen eşik değerinden düşük olan giriş renkleri siyaha dönüştürülür. Parlaklığı belirtilen değere eşit ya da daha yüksek olan giriş renkleri beyaza ayarlanır. Alfa efekt değerleri bu etkiden etkilenmez.
+Değiştirilemez nesne, bir İki Seviyeli (siyah/beyaz) etkiyi temsil eder. Belirtilen eşik değerinden daha düşük parlaklığa sahip giriş renkleri siyaha dönüştürülür. Parlaklığı belirtilen değere eşit veya daha yüksek olan giriş renkleri beyaza ayarlanır. Alfa etki değerleri bu etki tarafından etkilenmez.
 
 ```csharp
 public interface IBiLevelEffectiveData : IEffectEffectiveData
@@ -18,8 +18,8 @@ public interface IBiLevelEffectiveData : IEffectEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ibileveleffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzünü almaya izin verir. Yalnızca okunabilir [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Threshold](../../aspose.slides.effects/ibileveleffectivedata/threshold) { get; } | Eşik değerini döndürür. Yalnızca okunabilir Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ibileveleffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arabirimine erişim sağlar. Salt-okunur [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Threshold](../../aspose.slides.effects/ibileveleffectivedata/threshold) { get; } | Eşik değerini döndürür. Salt-okunur Single. |
 
 ### Ayrıca Bakınız
 

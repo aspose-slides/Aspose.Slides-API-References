@@ -1,14 +1,14 @@
 ---
 title: ShapeFrame
-second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایانگر خصوصیات چارچوب‌های شکل است.
+second_title: مرجع API Aspose.Sildes برای .NET
+description: خواص فریم‌های شکل را نمایندگی می‌کند.
 type: docs
-weight: 9900
+weight: 9920
 url: /fa/aspose.slides/shapeframe/
 ---
 ## ShapeFrame کلاس
 
-نمایانگر خصوصیات چارچوب شکل است.
+خواص فریم شکل را نمایند.
 
 ```csharp
 public class ShapeFrame : IShapeFrame
@@ -16,39 +16,39 @@ public class ShapeFrame : IShapeFrame
 
 ## سازنده‌ها
 
-| Name | Description |
+| نام | توضیح |
 | --- | --- |
-| [ShapeFrame](shapeframe)(float, float, float, float, NullableBool, NullableBool, float) | ویژگی‌های جدیدی برای چارچوب شکل ایجاد می‌کند. |
+| [ShapeFrame](shapeframe)(float, float, float, float, NullableBool, NullableBool, float) | خصوصیات جدیدی برای فریم شکل ایجاد می‌کند. |
 
 ## خصوصیات
 
-| Name | Description |
+| نام | توضیح |
 | --- | --- |
-| [CenterX](../../aspose.slides/shapeframe/centerx) { get; } | مختصات X مرکز یک فریم را بر می‌گرداند. فقط-خواندنی Single. |
-| [CenterY](../../aspose.slides/shapeframe/centery) { get; } | مختصات Y مرکز یک فریم را بر می‌گرداند. فقط-خواندنی Single. |
-| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | تعیین می‌کند آیا فریم به صورت افقی وارون شده است یا خیر. فقط-خواندنی [`NullableBool`](../nullablebool). |
-| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | تعیین می‌کند آیا فریم به صورت عمودی وارون شده است یا خیر. فقط-خواندنی [`NullableBool`](../nullablebool). |
-| [Height](../../aspose.slides/shapeframe/height) { get; } | ارتفاع یک فریم را بر می‌گرداند. فقط-خواندنی Single. |
-| [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | مختصات یک فریم را بر می‌گرداند. فقط-خواندنی RectangleF. |
-| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | تعداد درجه‌هایی که فریم حول محور z چرخیده است را بر می‌گرداند. مقدار مثبت نشان‌دهنده چرخش ساعت‌گرد؛ مقدار منفی نشان‌دهنده چرخش پادساعت‌گرد است. فقط-خواندنی Single. |
-| [Width](../../aspose.slides/shapeframe/width) { get; } | عرض یک فریم را بر می‌گرداند. فقط-خواندنی Single. |
-| [X](../../aspose.slides/shapeframe/x) { get; } | مختصات X گوشه بالا-چپ یک فریم را بر می‌گرداند. فقط-خواندنی Single. |
-| [Y](../../aspose.slides/shapeframe/y) { get; } | مختصات Y گوشه بالا-چپ یک فریم را بر می‌گرداند. فقط-خواندنی Single. |
+| [CenterX](../../aspose.slides/shapeframe/centerx) { get; } | مختصات X مرکز یک فریم را برمی‌گرداند. فقط‌خواندنی Single. |
+| [CenterY](../../aspose.slides/shapeframe/centery) { get; } | مختصات Y مرکز یک فریم را برمی‌گرداند. فقط‌خواندنی Single. |
+| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | مشخص می‌کند آیا فریم به صورت افقی وارونه است. فقط‌خواندنی [`NullableBool`](../nullablebool). |
+| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | مشخص می‌کند آیا فریم به صورت عمودی وارونه است. فقط‌خواندنی [`NullableBool`](../nullablebool). |
+| [Height](../../aspose.slides/shapeframe/height) { get; } | ارتفاع فریم را باز می‌گرداند. فقط‌خواندنی Single. |
+| [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | مختصات فریم را باز می‌گرداند. فقط‌خواندنی RectangleF. |
+| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | تعداد درجه‌های چرخش فریم حول محور z را باز می‌گرداند. مقدار مثبت نشان‌دهنده چرخش ساعت‌گرد؛ مقدار منفی نشان‌دهنده چرخش پادساعت‌گرد است. فقط‌خواندنی Single. |
+| [Width](../../aspose.slides/shapeframe/width) { get; } | عرض فریم را باز می‌گرداند. فقط‌خواندنی Single. |
+| [X](../../aspose.slides/shapeframe/x) { get; } | مختصات X گوشهٔ بالا-چپ فریم را باز می‌گرداند. فقط‌خواندنی Single. |
+| [Y](../../aspose.slides/shapeframe/y) { get; } | مختصات Y گوشهٔ بالا-چپ فریم را باز می‌گرداند. فقط‌خواندنی Single. |
 
 ## متدها
 
-| Name | Description |
+| نام | توضیح |
 | --- | --- |
-| [Clone](../../aspose.slides/shapeframe/clone)() | یک کپی ایجاد می‌کند |
-| [CloneT](../../aspose.slides/shapeframe/clonet)() | یک کپی ایجاد می‌کند. |
-| override [Equals](../../aspose.slides/shapeframe/equals#equals_1)(object) | یک مقدار برمی‌گرداند که نشان می‌دهد این نمونه برابر با شیء مشخص شده است یا نه. |
-| [Equals](../../aspose.slides/shapeframe/equals#equals)(ShapeFrame) | یک مقدار برمی‌گرداند که نشان می‌دهد این نمونه برابر با شیء مشخص شده است یا نه. |
-| override [GetHashCode](../../aspose.slides/shapeframe/gethashcode)() | یک کد هش برای این شیء بر می‌گرداند. |
+| [Clone](../../aspose.slides/shapeframe/clone)() | کپی می‌سازد |
+| [CloneT](../../aspose.slides/shapeframe/clonet)() | کپی می‌سازد. |
+| override [Equals](../../aspose.slides/shapeframe/equals#equals_1)(object) | مقداری را برمی‌گرداند که نشان می‌دهد آیا این نمونه برابر با شیء مشخص‌شده است. |
+| [Equals](../../aspose.slides/shapeframe/equals#equals)(ShapeFrame) | مقداری را برمی‌گرداند که نشان می‌دهد آیا این نمونه برابر با شیء مشخص‌شده است. |
+| override [GetHashCode](../../aspose.slides/shapeframe/gethashcode)() | کد هش برای این شیء را باز می‌گرداند. |
 
 ### موارد مرتبط
 
-* interface [IShapeFrame](../ishapeframe)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* رابط [IShapeFrame](../ishapeframe)
+* فضای‌نام [Aspose.Slides](../../aspose.slides)
+* مجوعه [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

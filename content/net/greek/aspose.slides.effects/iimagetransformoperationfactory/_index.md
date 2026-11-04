@@ -1,12 +1,12 @@
 ---
 title: IImageTransformOperationFactory
-second_title: Aspose.Sildes για .NET API Αναφορά
+second_title: Aspose.Sildes για .NET Αναφορά API
 description: Επιτρέπει τη δημιουργία στιγμιοτύπων εφέ εικόνας
 type: docs
-weight: 3410
+weight: 3430
 url: /el/aspose.slides.effects/iimagetransformoperationfactory/
 ---
-## IImageTransformOperationFactory διασύνδεση
+## IImageTransformOperationFactory διεπαφή
 
 Επιτρέπει τη δημιουργία στιγμιοτύπων εφέ εικόνας
 
@@ -14,35 +14,35 @@ url: /el/aspose.slides.effects/iimagetransformoperationfactory/
 public interface IImageTransformOperationFactory
 ```
 
-## Μεθόδοι
+## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [CreateAlphaBiLevel](../../aspose.slides.effects/iimagetransformoperationfactory/createalphabilevel)(float) | Δημιουργεί το εφέ Alpha BiLevel. |
-| [CreateAlphaFloor](../../aspose.slides.effects/iimagetransformoperationfactory/createalphafloor)() | Δημιουργεί το εφέ Alpha floor. |
-| [CreateAlphaInverse](../../aspose.slides.effects/iimagetransformoperationfactory/createalphainverse)() | Δημιουργεί το εφέ Alpha inverse. |
-| [CreateAlphaModulate](../../aspose.slides.effects/iimagetransformoperationfactory/createalphamodulate)() | Δημιουργεί το εφέ Alpha modulate. |
-| [CreateAlphaModulateFixed](../../aspose.slides.effects/iimagetransformoperationfactory/createalphamodulatefixed)(float) | Δημιουργεί το εφέ Alpha modulate fixed. |
-| [CreateAlphaReplace](../../aspose.slides.effects/iimagetransformoperationfactory/createalphareplace)(float) | Δημιουργεί το εφέ Alpha replace. |
-| [CreateAlphCeiling](../../aspose.slides.effects/iimagetransformoperationfactory/createalphceiling)() | Δημιουργεί το εφέ Alpha Ceiling. |
-| [CreateBiLevel](../../aspose.slides.effects/iimagetransformoperationfactory/createbilevel)(float) | Δημιουργεί το εφέ BiLevel. |
-| [CreateBlur](../../aspose.slides.effects/iimagetransformoperationfactory/createblur)(double, bool) | Δημιουργεί το εφέ Blur. |
-| [CreateColorChange](../../aspose.slides.effects/iimagetransformoperationfactory/createcolorchange)() | Δημιουργεί το εφέ Color change. |
-| [CreateColorReplace](../../aspose.slides.effects/iimagetransformoperationfactory/createcolorreplace)() | Δημιουργεί το εφέ Color replace. |
-| [CreateDuotone](../../aspose.slides.effects/iimagetransformoperationfactory/createduotone)() | Δημιουργεί το εφέ Duotone. |
-| [CreateFillOverlay](../../aspose.slides.effects/iimagetransformoperationfactory/createfilloverlay)() | Δημιουργεί το εφέ Fill overlay. |
-| [CreateGrayScale](../../aspose.slides.effects/iimagetransformoperationfactory/creategrayscale)() | Δημιουργεί το εφέ Gray scale. |
-| [CreateHSL](../../aspose.slides.effects/iimagetransformoperationfactory/createhsl)(float, float, float) | Δημιουργεί το εφέ Hue Saturation Luminance. |
-| [CreateLuminance](../../aspose.slides.effects/iimagetransformoperationfactory/createluminance)(float, float) | Δημιουργεί το εφέ Luminance. |
-| [CreateTint](../../aspose.slides.effects/iimagetransformoperationfactory/createtint)(float, float) | Δημιουργεί το εφέ Tint. |
+| [CreateAlphaBiLevel](../../aspose.slides.effects/iimagetransformoperationfactory/createalphabilevel)(float) | Δημιουργεί Alpha BiLevel εφέ. |
+| [CreateAlphaFloor](../../aspose.slides.effects/iimagetransformoperationfactory/createalphafloor)() | Δημιουργεί Alpha floor εφέ. |
+| [CreateAlphaInverse](../../aspose.slides.effects/iimagetransformoperationfactory/createalphainverse)() | Δημιουργεί Alpha inverse εφέ. |
+| [CreateAlphaModulate](../../aspose.slides.effects/iimagetransformoperationfactory/createalphamodulate)() | Δημιουργεί Alpha modulate εφέ. |
+| [CreateAlphaModulateFixed](../../aspose.slides.effects/iimagetransformoperationfactory/createalphamodulatefixed)(float) | Δημιουργεί Alpha modulate fixed εφέ. |
+| [CreateAlphaReplace](../../aspose.slides.effects/iimagetransformoperationfactory/createalphareplace)(float) | Δημιουργεί Alpha replace εφέ. |
+| [CreateAlphCeiling](../../aspose.slides.effects/iimagetransformoperationfactory/createalphceiling)() | Δημιουργεί Alpha Ceiling εφέ. |
+| [CreateBiLevel](../../aspose.slides.effects/iimagetransformoperationfactory/createbilevel)(float) | Δημιουργεί BiLevel εφέ. |
+| [CreateBlur](../../aspose.slides.effects/iimagetransformoperationfactory/createblur)(double, bool) | Δημιουργεί Blur εφέ. |
+| [CreateColorChange](../../aspose.slides.effects/iimagetransformoperationfactory/createcolorchange)() | Δημιουργεί Color change εφέ. |
+| [CreateColorReplace](../../aspose.slides.effects/iimagetransformoperationfactory/createcolorreplace)() | Δημιουργεί Color replace εφέ. |
+| [CreateDuotone](../../aspose.slides.effects/iimagetransformoperationfactory/createduotone)() | Δημιουργεί Duotone εφέ. |
+| [CreateFillOverlay](../../aspose.slides.effects/iimagetransformoperationfactory/createfilloverlay)() | Δημιουργεί Fill overlay εφέ. |
+| [CreateGrayScale](../../aspose.slides.effects/iimagetransformoperationfactory/creategrayscale)() | Δημιουργεί Gray scale εφέ. |
+| [CreateHSL](../../aspose.slides.effects/iimagetransformoperationfactory/createhsl)(float, float, float) | Δημιουργεί Hue Saturation Luminance εφέ. |
+| [CreateLuminance](../../aspose.slides.effects/iimagetransformoperationfactory/createluminance)(float, float) | Δημιουργεί Luminance εφέ. |
+| [CreateTint](../../aspose.slides.effects/iimagetransformoperationfactory/createtint)(float, float) | Δημιουργεί Tint εφέ. |
 
 ### Σχόλια
 
-Για διασύνδεση COM.
+Για διεπαφή COM.
 
 ### Δείτε επίσης
 
-* χώρος ονομάτων [Aspose.Slides.Effects](../../aspose.slides.effects)
-* συγκρότημα [Aspose.Slides](../../)
+* χώρο ονομάτων [Aspose.Slides.Effects](../../aspose.slides.effects)
+* σύνολο [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

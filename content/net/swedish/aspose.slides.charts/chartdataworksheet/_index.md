@@ -1,14 +1,14 @@
 ---
 title: ChartDataWorksheet
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar arbetsblad som är associerat med IChartDataCell./ichartdatacell
+description: Representerar kalkylblad som är associerat med IChartDataCell./ichartdatacell
 type: docs
-weight: 1390
+weight: 1400
 url: /sv/aspose.slides.charts/chartdataworksheet/
 ---
 ## ChartDataWorksheet klass
 
-Representerar arbetsblad som är associerat med [`IChartDataCell`](../ichartdatacell)
+Representerar kalkylblad som är associerat med [`IChartDataCell`](../ichartdatacell)
 
 ```csharp
 public class ChartDataWorksheet : DomObject<ChartDataWorksheetCollection>, IChartDataWorksheet
@@ -16,10 +16,10 @@ public class ChartDataWorksheet : DomObject<ChartDataWorksheetCollection>, IChar
 
 ## Egenskaper
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
-| [Index](../../aspose.slides.charts/chartdataworksheet/index) { get; } | Hämtar indexet för arbetsbladet. Endast läsning Int32. |
-| [Name](../../aspose.slides.charts/chartdataworksheet/name) { get; } | Returnerar namnet på arbetsbladet. Endast läsning String. |
+| [Index](../../aspose.slides.charts/chartdataworksheet/index) { get; } | Hämtar indexet för kalkylbladet. Skrivskyddad Int32. |
+| [Name](../../aspose.slides.charts/chartdataworksheet/name) { get; } | Returnerar namnet på kalkylbladet. Skrivskyddad String. |
 
 ### Se även
 

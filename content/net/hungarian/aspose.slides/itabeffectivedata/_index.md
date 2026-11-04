@@ -1,14 +1,14 @@
 ---
 title: ITabEffectiveData
-second_title: Aspose.Sildes .NET API referenciája
-description: Megváltoztathatatlan objektum, amely a hatékony szövegek tabulációs stop tulajdonságait tartalmazza.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Megváltoztathatatlan objektum, amely a hatékony szövegek tabulációs megállási tulajdonságait tartalmazza.
 type: docs
-weight: 7210
+weight: 7230
 url: /hu/aspose.slides/itabeffectivedata/
 ---
 ## ITabEffectiveData interfész
 
-Megváltoztathatatlan objektum, amely a hatékony szöveg tabulációs stop tulajdonságait tartalmazza.
+Megváltoztathatatlan objektum, amely a hatékony szöveg tabulációs megállási tulajdonságait tartalmazza.
 
 ```csharp
 public interface ITabEffectiveData : IComparable
@@ -16,15 +16,15 @@ public interface ITabEffectiveData : IComparable
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
 | [Alignment](../../aspose.slides/itabeffectivedata/alignment) { get; } | Visszaadja a tabulátor igazítási stílusát. Csak olvasható [`TabAlignment`](../tabalignment). |
 | [AsIComparable](../../aspose.slides/itabeffectivedata/asicomparable) { get; } | Visszaadja az IComparable interfészt. Csak olvasható IComparable. |
-| [Position](../../aspose.slides/itabeffectivedata/position) { get; } | Visszaadja a tabulátor pozícióját. Ennek a tulajdonságnak a beállítása megváltoztathatja a tabulátor indexét a gyűjteményben, és érvénytelenítheti az Enumerator-t. Csak olvasható Double. |
+| [Position](../../aspose.slides/itabeffectivedata/position) { get; } | Visszaadja egy tabulátor pozícióját. Ennek a tulajdonságnak az értékadásával megváltoztatható a tabulátor indexe a gyűjteményben, és érvényteleníthető az Enumerator. Csak olvasható Double. |
 
-### Megjegyzések
+### Megjegyzés
 
-Ez az interfész a(z) [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) részeként használatos.
+Ez az interfész a [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) része.
 
 ### Lásd még
 

@@ -1,9 +1,9 @@
 ---
 title: IRotation3D
-second_title: Aspose.Sildes для .NET справки API
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет 3D-поворот диаграммы.
 type: docs
-weight: 2200
+weight: 2220
 url: /ru/aspose.slides.charts/irotation3d/
 ---
 ## IRotation3D интерфейс
@@ -16,14 +16,14 @@ public interface IRotation3D
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
-| [DepthPercents](../../aspose.slides.charts/irotation3d/depthpercents) { get; set; } | Возвращает или задает глубину 3D-диаграммы в процентах от ширины диаграммы (от 20 до 2000 %). Чтение/запись UInt16. |
-| [HeightPercents](../../aspose.slides.charts/irotation3d/heightpercents) { get; set; } | Задает высоту 3-D-диаграммы в процентах от ширины диаграммы (от 5 до 500 %). Чтение/запись UInt16. |
+| [DepthPercents](../../aspose.slides.charts/irotation3d/depthpercents) { get; set; } | Возвращает или задает глубину 3D-диаграммы в процентах от ширины диаграммы (от 20 до 2000 процентов). Чтение/запись UInt16. |
+| [HeightPercents](../../aspose.slides.charts/irotation3d/heightpercents) { get; set; } | Задает высоту 3D-диаграммы в процентах от её ширины (от 5 до 500 процентов). Чтение/запись UInt16. |
 | [Perspective](../../aspose.slides.charts/irotation3d/perspective) { get; set; } | Возвращает или задает значение перспективы (угол поля зрения) для 3D-диаграмм (от 0 до 100). Игнорируется, если значение свойства RightAngleAxes равно true. Чтение/запись Byte. |
-| [RightAngleAxes](../../aspose.slides.charts/irotation3d/rightangleaxes) { get; set; } | Определяет, находятся ли оси диаграммы под прямыми углами, а не в перспективе. Другими словами, определяет, независимы ли углы осей диаграммы от её вращения или наклона. Чтение/запись Boolean. |
-| [RotationX](../../aspose.slides.charts/irotation3d/rotationx) { get; set; } | Возвращает или задает угол вращения вокруг оси X, т.е. в направлении Y для 3D-диаграмм (от –90 до 90 градусов). Свойство соответствует элементу 21.2.2.157 rotX (X Rotation) в ECMA-376 и опции «Y Rotation» в PowerPoint 2007+. Чтение/запись SByte. |
-| [RotationY](../../aspose.slides.charts/irotation3d/rotationy) { get; set; } | Возвращает или задает угол вращения вокруг оси Y, т.е. в направлении X для 3D-диаграмм (от 0 до 360 градусов). Свойство соответствует элементу 21.2.2.158 rotY (Y Rotation) в ECMA-376 и опции «X Rotation» в PowerPoint 2007+. Чтение/запись UInt16. |
+| [RightAngleAxes](../../aspose.slides.charts/irotation3d/rightangleaxes) { get; set; } | Определяет, находятся ли оси диаграммы под прямыми углами, а не нарисованы в перспективе. Другими словами, определяет, независимы ли углы осей диаграммы от её вращения или наклона. Чтение/запись Boolean. |
+| [RotationX](../../aspose.slides.charts/irotation3d/rotationx) { get; set; } | Возвращает или задает степень вращения вокруг оси X, т.е. в направлении Y для 3D-диаграмм (от -90 до 90 градусов). Свойство соответствует пункту 21.2.2.157 rotX (X Rotation) в ECMA-376 и параметру "Y Rotation" в PowerPoint 2007+. Чтение/запись SByte. |
+| [RotationY](../../aspose.slides.charts/irotation3d/rotationy) { get; set; } | Возвращает или задает степень вращения вокруг оси Y, т.е. в направлении X для 3D-диаграмм (от 0 до 360 градусов). Свойство соответствует пункту 21.2.158 rotY (Y Rotation) в ECMA-376 и параметру "X Rotation" в PowerPoint 2007+. Чтение/запись UInt16. |
 
 ### См. также
 

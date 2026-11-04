@@ -1,14 +1,14 @@
 ---
 title: IStringChartValue
 second_title: Aspose.Sildes for .NET API リファレンス
-description: pptx プレゼンテーションドキュメントに文字列値を格納できる方法は2つあります：1) チャートに関連付けられたワークブックのセル/セル群に、2) リテラル値として。
+description: pptx プレゼンテーション ドキュメントに格納できる文字列値を、チャートに関連するワークブックのセル/セル群に格納する方法とリテラル値として格納する方法の 2 通りで表します。
 type: docs
-weight: 2220
+weight: 2240
 url: /ja/aspose.slides.charts/istringchartvalue/
 ---
 ## IStringChartValue インターフェイス
 
-文字列値を表し、pptx プレゼンテーションドキュメントに2つの方法で格納できます：1) チャートに関連付けられたワークブックのセル/セル群に；2) リテラル値として。
+pptx プレゼンテーション ドキュメントに格納できる文字列値を 2 つの方法で表します：1) チャートに関連付けられたワークブックのセル/セル群に格納する方法；2) リテラル値として格納する方法。
 
 ```csharp
 public interface IStringChartValue : IMultipleCellChartValue
@@ -18,18 +18,18 @@ public interface IStringChartValue : IMultipleCellChartValue
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIMultipleCellChartValue](../../aspose.slides.charts/istringchartvalue/asimultiplecellchartvalue) { get; } | ベースの IMultipleCellChartValue インターフェイスを取得できます。読み取り専用 [`IMultipleCellChartValue`](../imultiplecellchartvalue)。 |
-| [AsLiteralString](../../aspose.slides.charts/istringchartvalue/asliteralstring) { get; set; } | DataSourceType プロパティが DataSourceType.StringLiterals の場合、リテラル文字列を取得または設定します。読み書き可能 String。 |
+| [AsIMultipleCellChartValue](../../aspose.slides.charts/istringchartvalue/asimultiplecellchartvalue) { get; } | ベース IMultipleCellChartValue インターフェイスを取得できます。読み取り専用 [`IMultipleCellChartValue`](../imultiplecellchartvalue)。 |
+| [AsLiteralString](../../aspose.slides.charts/istringchartvalue/asliteralstring) { get; set; } | DataSourceType プロパティが DataSourceType.StringLiterals の場合、リテラル文字列を取得または設定します。読み書き String。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [GetCellsAddressInWorkbook](../../aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook)() | DataSourceType プロパティが DataSourceType.Worksheet の場合、このメソッドは文字列データを表すワークブック内のセルのアドレスを返します。そうでない場合は空文字列を返します。 |
+| [GetCellsAddressInWorkbook](../../aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook)() | DataSourceType プロパティが DataSourceType.Worksheet の場合、このメソッドは文字列データを表すワークブック内のセルのアドレスを返します。それ以外の場合は空文字列を返します。 |
 | [SetFromOneCell](../../aspose.slides.charts/istringchartvalue/setfromonecell)(IChartDataCell) | 指定されたセルから値を設定します。 |
 | [ToString](../../aspose.slides.charts/istringchartvalue/tostring)() | 文字列表現を返します。 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [IMultipleCellChartValue](../imultiplecellchartvalue)
 * 名前空間 [Aspose.Slides.Charts](../../aspose.slides.charts)

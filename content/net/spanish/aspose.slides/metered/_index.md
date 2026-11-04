@@ -1,12 +1,12 @@
 ---
 title: Metered
-second_title: Aspose.Sildes para la referencia de API de .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Proporciona métodos para establecer la clave medida.
 type: docs
-weight: 9080
+weight: 9100
 url: /es/aspose.slides/metered/
 ---
-## Clase Metered
+## Metered clase
 
 Proporciona métodos para establecer la clave medida.
 
@@ -25,10 +25,10 @@ public class Metered
 | Nombre | Descripción |
 | --- | --- |
 | [GetProductName](../../aspose.slides/metered/getproductname)() |  |
-| [SetMeteredKey](../../aspose.slides/metered/setmeteredkey)(string, string) | Establece la clave pública y privada medida. Si compra una licencia medida, al iniciar la aplicación, debe llamarse a esta API; normalmente, esto es suficiente. Sin embargo, si siempre falla la carga de datos de consumo y supera las 24 horas, la licencia pasará a estado de evaluación; para evitar este caso, debe comprobar regularmente el estado de la licencia y, si está en estado de evaluación, volver a llamar a esta API. |
+| [SetMeteredKey](../../aspose.slides/metered/setmeteredkey)(string, string) | Establece la clave pública y privada medida. Si compra una licencia medida, al iniciar la aplicación, debe llamarse a esta API; normalmente, esto es suficiente. Sin embargo, si siempre falla la carga de datos de consumo y supera las 24 horas, la licencia se establecerá en estado de evaluación; para evitar este caso, debe comprobar regularmente el estado de la licencia; si está en estado de evaluación, llame a esta API nuevamente. |
 | static [GetConsumptionCredit](../../aspose.slides/metered/getconsumptioncredit)() | Obtiene el crédito de consumo |
 | static [GetConsumptionQuantity](../../aspose.slides/metered/getconsumptionquantity)() | Obtiene el tamaño del archivo de consumo |
-| static [IsMeteredLicensed](../../aspose.slides/metered/ismeteredlicensed)() | Comprueba si metered está licenciado |
+| static [IsMeteredLicensed](../../aspose.slides/metered/ismeteredlicensed)() | Comprueba si medida está licenciada |
 
 ### Ejemplos
 

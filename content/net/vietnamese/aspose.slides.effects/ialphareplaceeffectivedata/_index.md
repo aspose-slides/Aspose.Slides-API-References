@@ -1,14 +1,14 @@
 ---
 title: IAlphaReplaceEffectiveData
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Đối tượng bất biến đại diện cho hiệu ứng Thay thế Alpha. Các giá trị độ trong suốt alpha của hiệu ứng được thay thế bằng một giá trị alpha cố định.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Đối tượng bất biến đại diện cho hiệu ứng Alpha Replace. Các giá trị độ trong suốt alpha của hiệu ứng được thay thế bằng một giá trị alpha cố định.
 type: docs
-weight: 3150
+weight: 3170
 url: /vi/aspose.slides.effects/ialphareplaceeffectivedata/
 ---
 ## IAlphaReplaceEffectiveData giao diện
 
-Đối tượng bất biến đại diện cho hiệu ứng Thay thế Alpha. Các giá trị alpha (độ trong suốt) của hiệu ứng được thay thế bằng một giá trị alpha cố định.
+Đối tượng bất biến đại diện cho hiệu ứng Alpha Replace. Các giá trị alpha (độ mờ) của hiệu ứng được thay thế bằng một giá trị alpha cố định.
 
 ```csharp
 public interface IAlphaReplaceEffectiveData : IEffectEffectiveData
@@ -18,8 +18,8 @@ public interface IAlphaReplaceEffectiveData : IEffectEffectiveData
 
 | Tên | Mô tả |
 | --- | --- |
-| [Alpha](../../aspose.slides.effects/ialphareplaceeffectivedata/alpha) { get; } | Trả về giá trị alpha mới trong khoảng [0..1] chỉ đọc Single. |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphareplaceeffectivedata/asieffecteffectivedata) { get; } | Cho phép lấy giao diện IEffectEffectiveData cơ sở. Chỉ đọc [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Alpha](../../aspose.slides.effects/ialphareplaceeffectivedata/alpha) { get; } | Trả về giá trị alpha mới trong khoảng [0..1] Chỉ đọc Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphareplaceeffectivedata/asieffecteffectivedata) { get; } | Cho phép lấy giao diện IEffectEffectiveData cơ bản. Chỉ đọc [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Xem thêm
 

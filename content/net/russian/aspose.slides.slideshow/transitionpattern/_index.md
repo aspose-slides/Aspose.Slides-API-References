@@ -1,14 +1,14 @@
 ---
 title: TransitionPattern
 second_title: Aspose.Sildes для .NET справочник API
-description: Указывает геометрический шаблон, который совмещается, чтобы заполнить большую площадь.
+description: Указывает геометрический шаблон, который соединяется, чтобы заполнить большую область.
 type: docs
-weight: 10400
+weight: 10420
 url: /ru/aspose.slides.slideshow/transitionpattern/
 ---
-## Перечисление TransitionPattern
+## TransitionPattern перечисление
 
-Указывает геометрический шаблон, который совмещается, чтобы заполнить большую площадь.
+Указывает геометрический шаблон, который объединяется, чтобы заполнить более большую область.
 
 ```csharp
 public enum TransitionPattern
@@ -18,8 +18,8 @@ public enum TransitionPattern
 
 | Имя | Значение | Описание |
 | --- | --- | --- |
-| Diamond | `0` | Шаблон плитки в виде ромба |
-| Hexagon | `1` | Шаблон плитки в виде шестиугольника |
+| Diamond | `0` | Diamond шаблон плитки |
+| Hexagon | `1` | Hexagon шаблон плитки |
 
 ### См. также
 

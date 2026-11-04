@@ -3,12 +3,12 @@ title: IPresetShadow
 second_title: Aspose.Sildes .NET API 参考
 description: 表示预设阴影效果。
 type: docs
-weight: 3480
-url: /zh/aspose.slides.effects/ipresetshadow/
+weight: 3500
+url: /zh/aspose.slides.effects/ippresetshadow/
 ---
 ## IPresetShadow 接口
 
-表示预设阴影效果。
+表示一个预设阴影效果。
 
 ```csharp
 public interface IPresetShadow : IAccessiblePVIObject<IPresetShadowEffectiveData>, 
@@ -19,14 +19,14 @@ public interface IPresetShadow : IAccessiblePVIObject<IPresetShadowEffectiveData
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ipresetshadow/asiaccessiblepviobject) { get; } | 允许获取基础 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ipresetshadow/asiimagetransformoperation) { get; } | 允许获取基础 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Direction](../../aspose.slides.effects/ipresetshadow/direction) { get; set; } | 阴影的方向。读写 Single. |
-| [Distance](../../aspose.slides.effects/ipresetshadow/distance) { get; set; } | 阴影的距离。读写 Double. |
-| [Preset](../../aspose.slides.effects/ipresetshadow/preset) { get; set; } | 预设。读写 [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
-| [ShadowColor](../../aspose.slides.effects/ipresetshadow/shadowcolor) { get; } | 阴影的颜色。只读 [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ipresetshadow/asiaccessiblepviobject) { get; } | 允许获取基础 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ipresetshadow/asiimagetransformoperation) { get; } | 允许获取基础 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [Direction](../../aspose.slides.effects/ipresetshadow/direction) { get; set; } | 阴影的方向。读/写 Single。 |
+| [Distance](../../aspose.slides.effects/ipresetshadow/distance) { get; set; } | 阴影的距离。读/写 Double。 |
+| [Preset](../../aspose.slides.effects/ipresetshadow/preset) { get; set; } | Preset。读/写 [`PresetShadowType`](../../aspose.slides/presetshadowtype)。 |
+| [ShadowColor](../../aspose.slides.effects/ipresetshadow/shadowcolor) { get; } | 阴影的颜色。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
 
-### 另请参阅
+### 另见
 
 * 接口 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 接口 [IPresetShadowEffectiveData](../ipresetshadoweffectivedata)

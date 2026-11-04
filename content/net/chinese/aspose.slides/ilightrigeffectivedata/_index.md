@@ -3,7 +3,7 @@ title: ILightRigEffectiveData
 second_title: Aspose.Sildes .NET API 参考
 description: 包含有效灯光装置属性的不可变对象。
 type: docs
-weight: 6280
+weight: 6300
 url: /zh/aspose.slides/ilightrigeffectivedata/
 ---
 ## ILightRigEffectiveData 接口
@@ -19,13 +19,13 @@ public interface ILightRigEffectiveData
 | 名称 | 描述 |
 | --- | --- |
 | [Direction](../../aspose.slides/ilightrigeffectivedata/direction) { get; } | 光方向。只读 [`LightingDirection`](../lightingdirection)。 |
-| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | 表示可以应用于形状的预设光右侧。光灯组表示相对于 3D 场景以特定方式定向的一组灯光。只读 [`LightRigPresetType`](../lightrigpresettype)。 |
+| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | 表示可应用于形状的预设灯光方向。灯光装置表示相对于3D场景以特定方式定向的一组灯光。只读 [`LightRigPresetType`](../lightrigpresettype)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | 旋转是通过使用纬度坐标、经度坐标以及围绕轴的旋转来定义的。返回数组的第一个元素 - 纬度，第二个 - 经度，第三个 - 旋转。 |
+| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | 通过使用纬度坐标、经度坐标以及围绕轴的旋转来定义旋转，纬度和经度坐标即为该旋转。返回数组的第一个元素为纬度，第二个为经度，第三个为旋转。 |
 
 ### 备注
 

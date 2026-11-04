@@ -3,29 +3,28 @@ title: MathBoxFactory
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Memungkinkan membuat kotak matematika
 type: docs
-weight: 8640
+weight: 8660
 url: /id/aspose.slides.mathtext/mathboxfactory/
 ---
 ## MathBoxFactory kelas
 
-Memungkinkan pembuatan kotak matematika
+Memungkinkan membuat kotak matematika
 
 ```csharp
 public class MathBoxFactory : IMathBoxFactory
 ```
 
-
 ## Konstruktor
 
 | Nama | Deskripsi |
 | --- | --- |
-| [MathBoxFactory](mathboxfactory)() | Konstruktor default. |
+| [MathBoxFactory](mathboxfactory)() | The default constructor. |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
-| [CreateMathBox](../../aspose.slides.mathtext/mathboxfactory/createmathbox)(IMathElement) | Membuat kotak matematika dengan menerapkannya pada elemen |
+| [CreateMathBox](../../aspose.slides.mathtext/mathboxfactory/createmathbox)(IMathElement) | Create a math box by applying to the element |
 
 ### Catatan
 

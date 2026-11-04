@@ -3,7 +3,7 @@ title: InOutTransition
 second_title: Aspose.Sildes för .NET API-referens
 description: In-Out-bildövergångseffekt.
 type: docs
-weight: 10230
+weight: 10250
 url: /sv/aspose.slides.slideshow/inouttransition/
 ---
 ## InOutTransition klass
@@ -24,8 +24,8 @@ public class InOutTransition : TransitionValueBase, IInOutTransition
 
 | Namn | Beskrivning |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Avgör om de två TransitionValueBase-instansierna är lika. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Fungerar som en hashfunktion för en specifik typ, lämplig för användning i hashningsalgoritmer och datastrukturer som en hashtabell. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bestämmer om de två TransitionValueBase-instanserna är lika. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Fungerar som en hash-funktion för en viss typ, lämplig för användning i hash-algoritmer och datastrukturer som en hashtabell. |
 
 ### Se även
 

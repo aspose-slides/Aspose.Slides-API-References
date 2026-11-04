@@ -1,9 +1,9 @@
 ---
 title: IExtraColorScheme
-second_title: "Aspose.Sildes для .NET: справочник API"
+second_title: Aspose.Sildes для .NET справка API
 description: Представляет дополнительную схему цветов, которую можно назначить слайду.
 type: docs
-weight: 11210
+weight: 11230
 url: /ru/aspose.slides.theme/iextracolorscheme/
 ---
 ## IExtraColorScheme интерфейс

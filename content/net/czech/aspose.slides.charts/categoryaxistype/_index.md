@@ -1,14 +1,14 @@
 ---
 title: CategoryAxisType
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje typ kategoriové osy.
+description: Reprezentuje typ kategoriové osy.
 type: docs
-weight: 1250
+weight: 1260
 url: /cs/aspose.slides.charts/categoryaxistype/
 ---
 ## CategoryAxisType výčet
 
-Představuje typ kategoriové osy.
+Reprezentuje typ kategoriové osy.
 
 ```csharp
 public enum CategoryAxisType

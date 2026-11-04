@@ -1,14 +1,14 @@
 ---
 title: ITabEffectiveData
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Objek tak dapat diubah yang berisi properti pemberhentian tabulasi teks efektif.
+second_title: Referensi API .NET Aspose.Sildes
+description: Objek tak dapat diubah yang berisi properti henti tabulasi teks yang efektif.
 type: docs
-weight: 7210
+weight: 7230
 url: /id/aspose.slides/itabeffectivedata/
 ---
 ## ITabEffectiveData antarmuka
 
-Objek tak dapat diubah yang berisi properti pemberhentian tabulasi teks efektif.
+Objek tak dapat diubah yang berisi properti henti tabulasi teks yang efektif.
 
 ```csharp
 public interface ITabEffectiveData : IComparable
@@ -20,7 +20,7 @@ public interface ITabEffectiveData : IComparable
 | --- | --- |
 | [Alignment](../../aspose.slides/itabeffectivedata/alignment) { get; } | Mengembalikan gaya perataan tab. Hanya-baca [`TabAlignment`](../tabalignment). |
 | [AsIComparable](../../aspose.slides/itabeffectivedata/asicomparable) { get; } | Mengembalikan antarmuka IComparable. Hanya-baca IComparable. |
-| [Position](../../aspose.slides/itabeffectivedata/position) { get; } | Mengembalikan posisi tab. Menetapkan properti ini dapat mengubah indeks tab dalam koleksi dan membatalkan Enumerator. Hanya-baca Double. |
+| [Position](../../aspose.slides/itabeffectivedata/position) { get; } | Mengembalikan posisi tab. Menetapkan properti ini dapat mengubah indeks tab dalam koleksi dan membuat Enumerator tidak valid. Hanya-baca Double. |
 
 ### Catatan
 

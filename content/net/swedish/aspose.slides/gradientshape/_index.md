@@ -1,14 +1,14 @@
 ---
 title: GradientShape
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar formen på gradientfyllning.
+description: Representerar formen för gradientfyllning.
 type: docs
-weight: 5010
+weight: 5030
 url: /sv/aspose.slides/gradientshape/
 ---
-## GradientShape-enumeration
+## GradientShape-uppräkning
 
-Representerar formen på gradientfyllning.
+Representerar formen för gradientfyllning.
 
 ```csharp
 public enum GradientShape : sbyte
@@ -16,7 +16,7 @@ public enum GradientShape : sbyte
 
 ### Värden
 
-| Namn | Värde | Beskrivning |
+| Name | Value | Beskrivning |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Linear | `0` |  |

@@ -1,14 +1,14 @@
 ---
 title: LayoutSlideHeaderFooterManager
-second_title: Aspose.Sildes برای .NET API Reference
-description: نماینده‌ای است که رفتار فوتر اسلاید طرح، نگهدارنده تاریخ-زمان، شماره صفحه و تمام نگهدارنده‌های فرزند را در خود نگه می‌دارد. نگهدارنده‌های فرزند به این معنی‌اند که این نگهدارنده‌ها در اسلایدهای وابسته قرار دارند. اسلایدهای وابسته از اسلاید طرح استفاده می‌کنند و به آن وابسته هستند.
+second_title: مرجع API Aspose.Sildes برای .NET
+description: نمایش‌دهنده مدیری است که رفتار جای‌دارهای پاورقی اسلاید چیدمان، تاریخ-زمان، شماره صفحه و تمام جای‌دارهای فرزند را نگه می‌دارد. جای‌دارهای فرزند به این معناست که جای‌دارها در اسلایدهای وابسته قرار دارند. اسلایدهای وابسته از اسلاید چیدمان استفاده می‌کنند و به آن وابسته هستند.
 type: docs
-weight: 7660
+weight: 7680
 url: /fa/aspose.slides/layoutslideheaderfootermanager/
 ---
 ## LayoutSlideHeaderFooterManager کلاس
 
-نمایندهٔ مدیری است که رفتار فوتر اسلاید طرح، نگهدارنده تاریخ-زمان، شماره صفحه و تمام نگهدارنده‌های فرزند را در بر می‌گیرد. نگهدارنده‌های فرزند به این معنی‌اند که این نگهدارنده‌ها در اسلایدهای وابسته قرار دارند. اسلایدهای وابسته از اسلاید طرح استفاده می‌کنند و به آن وابسته هستند.
+نمایش‌دهنده‌ی مدیر که رفتار جای‌دارهای پاورقی اسلاید چیدمان، تاریخ-زمان، شماره صفحه و تمام جای‌دارهای فرزند را نگه می‌دارد. جای‌دارهای فرزند به این معناست که جای‌دارها در اسلایدهای وابسته قرار دارند. اسلایدهای وابسته از اسلاید چیدمان استفاده می‌کنند و به آن وابسته هستند.
 
 ```csharp
 public sealed class LayoutSlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
@@ -19,30 +19,30 @@ public sealed class LayoutSlideHeaderFooterManager : BaseSlideHeaderFooterManage
 
 | نام | توضیح |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | مقداری را برمی‌گرداند که نشان می‌دهد یک نگهدارنده تاریخ-زمان موجود است. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | مقداری را برمی‌گرداند که نشان می‌دهد یک نگهدارنده فوتر موجود است. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | مقداری را برمی‌گرداند که نشان می‌دهد یک نگهدارنده شماره صفحه موجود است. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | مقداری را دریافت می‌کند که نشان می‌دهد یک جای‌دار تاریخ-زمان موجود است. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | مقداری را دریافت می‌کند که نشان می‌دهد یک جای‌دار پاورقی موجود است. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | مقداری را دریافت می‌کند که نشان می‌دهد یک جای‌دار شماره صفحه موجود است. ReadBoolean. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | متن را برای نگهدارنده تاریخ-زمان اسلاید طرح و تمام نگهدارنده‌های تاریخ-زمان فرزند تنظیم می‌کند. نگهدارنده‌های فرزند به این معنی‌اند که این نگهدارنده‌ها در اسلایدهای وابسته قرار دارند. اسلایدهای وابسته از اسلاید طرح استفاده می‌کنند و به آن وابسته هستند. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | نمایش‌پذیری نگهدارنده تاریخ-زمان اسلاید طرح و تمام نگهدارنده‌های تاریخ-زمان فرزند را تغییر می‌دهد. نگهدارنده‌های فرزند به این معنی‌اند که این نگهدارنده‌ها در اسلایدهای وابسته قرار دارند. اسلایدهای وابسته از اسلاید طرح استفاده می‌کنند و به آن وابسته هستند. |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | متن را برای نگهدارنده تاریخ-زمان اسلاید تنظیم می‌کند. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | نمایش‌پذیری نگهدارنده تاریخ-زمان اسلاید را تغییر می‌دهد. |
-| [SetFooterAndChildFootersText](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | متن را برای نگهدارنده فوتر اسلاید طرح و تمام نگهدارنده‌های فوتر فرزند تنظیم می‌کند. نگهدارنده‌های فرزند به این معنی‌اند که این نگهدارنده‌ها در اسلایدهای وابسته قرار دارند. اسلایدهای وابسته از اسلاید طرح استفاده می‌کنند و به آن وابسته هستند. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | نمایش‌پذیری نگهدارنده فوتر اسلاید طرح و تمام نگهدارنده‌های فوتر فرزند را تغییر می‌دهد. نگهدارنده‌های فرزند به این معنی‌اند که این نگهدارنده‌ها در اسلایدهای وابسته قرار دارند. اسلایدهای وابسته از اسلاید master استفاده می‌کنند و به آن وابسته هستند. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | متن را برای نگهدارنده فوتر اسلاید تنظیم می‌کند. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | نمایش‌پذیری نگهدارنده فوتر اسلاید را تغییر می‌دهد. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | نمایش‌پذیری نگهدارنده شماره صفحه اسلاید طرح و تمام نگهدارنده‌های شماره صفحه فرزند را تغییر می‌دهد. نگهدارنده‌های فرزند به این معنی‌اند که این نگهدارنده‌ها در اسلایدهای وابسته قرار دارند. اسلایدهای وابسته از اسلاید طرح استفاده می‌کنند و به آن وابسته هستند. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | نمایش‌پذیری نگهدارنده شماره صفحه اسلاید را تغییر می‌دهد. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | متن را به جای‌دار تاریخ-زمان اسلاید چیدمان و تمام جای‌دارهای تاریخ-زمان فرزند تنظیم می‌کند. جای‌دارهای فرزند به این معناست که جای‌دارها در اسلایدهای وابسته قرار دارند. اسلایدهای وابسته از اسلاید چیدمان استفاده می‌کنند و به آن وابسته هستند. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | قابلیت مشاهده جای‌دار تاریخ-زمان اسلاید چیدمان و تمام جای‌دارهای تاریخ-زمان فرزند را تغییر می‌دهد. جای‌دارهای فرزند به این معناست که جای‌دارها در اسلایدهای وابسته قرار دارند. اسلایدهای وابسته از اسلاید چیدمان استفاده می‌کنند و به آن وابسته هستند. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | متن را به جای‌دار تاریخ-زمان اسلاید تنظیم می‌کند. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | قابلیت مشاهده جای‌دار تاریخ-زمان اسلاید را تغییر می‌دهد. |
+| [SetFooterAndChildFootersText](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | متن را به جای‌دار پاورقی اسلاید چیدمان و تمام جای‌دارهای پاورقی فرزند تنظیم می‌کند. جای‌دارهای فرزند به این معناست که جای‌دارها در اسلایدهای وابسته قرار دارند. اسلایدهای وابسته از اسلاید چیدمان استفاده می‌کنند و به آن وابسته هستند. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | قابلیت مشاهده جای‌دار پاورقی اسلاید چیدمان و تمام جای‌دارهای پاورقی فرزند را تغییر می‌دهد. جای‌دارهای فرزند به این معناست که جای‌دارها در اسلایدهای وابسته قرار دارند. اسلایدهای وابسته از اسلاید اصلی استفاده می‌کنند و به آن وابسته هستند. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | متن را به جای‌دار پاورقی اسلاید تنظیم می‌کند. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | قابلیت مشاهده جای‌دار پاورقی اسلاید را تغییر می‌دهد. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | قابلیت مشاهده جای‌دار شماره صفحه اسلاید چیدمان و تمام جای‌دارهای شماره صفحه فرزند را تغییر می‌دهد. جای‌دارهای فرزند به این معناست که جای‌دارها در اسلایدهای وابسته قرار دارند. اسلایدهای وابسته از اسلاید چیدمان استفاده می‌کنند و به آن وابسته هستند. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | قابلیت مشاهده جای‌دار شماره صفحه اسلاید را تغییر می‌دهد. |
 
 ### موارد مرتبط
 
 * کلاس [BaseSlideHeaderFooterManager](../baseslideheaderfootermanager)
 * رابط [ILayoutSlideHeaderFooterManager](../ilayoutslideheaderfootermanager)
-* فضای‌نامی [Aspose.Slides](../../aspose.slides)
-* اسمبلی [Aspose.Slides](../../)
+* فضای نام [Aspose.Slides](../../aspose.slides)
+* مجتمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

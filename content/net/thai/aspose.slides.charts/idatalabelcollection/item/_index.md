@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: รับป้ายข้อมูลสำหรับจุดข้อมูลที่มีดัชนีที่ระบุ
+description: ดึงป้ายกำกับข้อมูลสำหรับจุดข้อมูลที่มีดัชนีที่ระบุ
 type: docs
-weight: 70
+weight: 80
 url: /th/aspose.slides.charts/idatalabelcollection/item/
 ---
-## IDataLabelCollection ตัวชี้ดัชนี
+## IDataLabelCollection indexer
 
-รับป้ายข้อมูลสำหรับจุดข้อมูลที่มีดัชนีที่ระบุ
+ดึงป้ายกำกับข้อมูลสำหรับจุดข้อมูลที่มีดัชนีที่ระบุ
 
 ```csharp
 public IDataLabel this[int index] { get; }
@@ -16,7 +16,9 @@ public IDataLabel this[int index] { get; }
 
 ### หมายเหตุ
 
-วิธีอื่นในการเข้าถึงป้ายข้อมูลคือ: - SeriesEx.DataPoints[i].Label - จัดการคุณสมบัติของป้าย
+วิธีอื่นในการเข้าถึงป้ายกำกับข้อมูลคือ:
+- SeriesEx.DataPoints[i].Label
+- จัดการคุณสมบัติป้ายกำกับ
 
 ### ดูเพิ่มเติม
 

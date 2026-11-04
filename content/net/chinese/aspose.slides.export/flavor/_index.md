@@ -1,14 +1,14 @@
 ---
 title: Flavor
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 程序中使用的所有 markdown 规范。
 type: docs
-weight: 3800
+weight: 3820
 url: /zh/aspose.slides.export/flavor/
 ---
-## Flavor 枚举
+## 风味枚举
 
-程序中使用的所有 markdown 规范。
+程序中使用的所有markdown规范。
 
 ```csharp
 public enum Flavor
@@ -66,7 +66,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)
 * 程序集 [Aspose.Slides](../../)

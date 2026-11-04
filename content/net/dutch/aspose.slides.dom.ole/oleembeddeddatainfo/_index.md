@@ -1,14 +1,14 @@
 ---
 title: OleEmbeddedDataInfo
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft ingebedde gegevensinfo weer voor een OLE-object.
+description: Stelt ingesloten gegevensinformatie voor OLE-object voor.
 type: docs
-weight: 2760
+weight: 2780
 url: /nl/aspose.slides.dom.ole/oleembeddeddatainfo/
 ---
 ## OleEmbeddedDataInfo klasse
 
-Geeft de ingebedde gegevensinfo weer voor een OLE-object.
+Stelt ingesloten gegevensinformatie voor een OLE-object voor.
 
 ```csharp
 public class OleEmbeddedDataInfo : IOleEmbeddedDataInfo
@@ -18,15 +18,15 @@ public class OleEmbeddedDataInfo : IOleEmbeddedDataInfo
 
 | Name | Description |
 | --- | --- |
-| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor)() | Maakt een nieuwe ingebedde gegevensinfo voor een OLE-object. |
-| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor_1)(byte[], string) | Maakt een nieuw exemplaar van een ingebedde gegevensinfo voor een OLE-object. Bestandsdata van een ingebedde OLE-object Byte[]. Bestandsextensie voor het huidige ingebedde OLE-object String. |
+| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor)() | Maakt nieuwe ingesloten gegevensinformatie voor een OLE-object. |
+| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor_1)(byte[], string) | Maakt een nieuw exemplaar van een ingesloten gegevensinformatie voor een OLE-object. Bestandgegevens van een ingesloten OLE-object Byte[]. Bestandsextensie voor het huidige ingesloten OLE-object String. |
 
 ## Eigenschappen
 
 | Name | Description |
 | --- | --- |
-| [EmbeddedFileData](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata) { get; } | Retourneert de bestandsdata van een ingebedde OLE-object Alleen lezen Byte[]. |
-| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | Retourneert de bestandsextensie voor het huidige ingebedde OLE-object Alleen lezen String. |
+| [EmbeddedFileData](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata) { get; } | Geeft de bestandgegevens van een ingesloten OLE-object terug Alleen-lezen Byte[]. |
+| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | Geeft de bestandsextensie voor het huidige ingesloten OLE-object terug Alleen-lezen String. |
 
 ### Zie ook
 

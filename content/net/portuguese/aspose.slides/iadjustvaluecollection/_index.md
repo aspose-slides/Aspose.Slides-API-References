@@ -3,12 +3,12 @@ title: IAdjustValueCollection
 second_title: Aspose.Sildes para .NET Referência da API
 description: Representa uma coleção de ajustes de formas.
 type: docs
-weight: 5190
+weight: 5210
 url: /pt/aspose.slides/iadjustvaluecollection/
 ---
 ## IAdjustValueCollection interface
 
-Representa uma coleção de ajustes da forma.
+Representa uma coleção de ajustes de forma.
 
 ```csharp
 public interface IAdjustValueCollection : ICollection
@@ -18,11 +18,11 @@ public interface IAdjustValueCollection : ICollection
 
 | Nome | Descrição |
 | --- | --- |
-| [AsICollection](../../aspose.slides/iadjustvaluecollection/asicollection) { get; } | Permite obter a interface base ICollection. ICollection somente leitura. |
+| [AsICollection](../../aspose.slides/iadjustvaluecollection/asicollection) { get; } | Permite obter a interface ICollection base. ICollection somente leitura. |
 | [AsIEnumerable](../../aspose.slides/iadjustvaluecollection/asienumerable) { get; } | Retorna a interface IEnumerable. IEnumerable somente leitura. |
 | [Item](../../aspose.slides/iadjustvaluecollection/item) { get; } | Retorna o ajuste por índice. |
 
-### Veja Também
+### Ver também
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

@@ -3,7 +3,7 @@ title: IAxesManager
 second_title: Aspose.Sildes för .NET API-referens
 description: Tillhandahåller åtkomst till diagramaxlar.
 type: docs
-weight: 1700
+weight: 1710
 url: /sv/aspose.slides.charts/iaxesmanager/
 ---
 ## IAxesManager gränssnitt
@@ -18,13 +18,13 @@ public interface IAxesManager
 
 | Namn | Beskrivning |
 | --- | --- |
-| [HorizontalAxis](../../aspose.slides.charts/iaxesmanager/horizontalaxis) { get; } | Hämtar diagrammets horisontella axel. Skrivskyddad [`IAxis`](../iaxis). |
-| [SecondaryHorizontalAxis](../../aspose.slides.charts/iaxesmanager/secondaryhorizontalaxis) { get; } | Hämtar diagrammets sekundära horisontella axel. Skrivskyddad [`IAxis`](../iaxis). |
-| [SecondaryVerticalAxis](../../aspose.slides.charts/iaxesmanager/secondaryverticalaxis) { get; } | Hämtar diagrammets sekundära vertikala axel. Skrivskyddad [`IAxis`](../iaxis). |
-| [SeriesAxis](../../aspose.slides.charts/iaxesmanager/seriesaxis) { get; } | Hämtar diagrammets serieaxel. Skrivskyddad [`IAxis`](../iaxis). |
-| [VerticalAxis](../../aspose.slides.charts/iaxesmanager/verticalaxis) { get; } | Hämtar diagrammets vertikala axel. Skrivskyddad [`IAxis`](../iaxis). |
+| [HorizontalAxis](../../aspose.slides.charts/iaxesmanager/horizontalaxis) { get; } | Hämtar diagrammets horisontella axel. Endast läsning [`IAxis`](../iaxis). |
+| [SecondaryHorizontalAxis](../../aspose.slides.charts/iaxesmanager/secondaryhorizontalaxis) { get; } | Hämtar diagrammets sekundära horisontella axel. Endast läsning [`IAxis`](../iaxis). |
+| [SecondaryVerticalAxis](../../aspose.slides.charts/iaxesmanager/secondaryverticalaxis) { get; } | Hämtar diagrammets sekundära vertikala axel. Endast läsning [`IAxis`](../iaxis). |
+| [SeriesAxis](../../aspose.slides.charts/iaxesmanager/seriesaxis) { get; } | Hämtar diagrammets serieaxel. Endast läsning [`IAxis`](../iaxis). |
+| [VerticalAxis](../../aspose.slides.charts/iaxesmanager/verticalaxis) { get; } | Hämtar diagrammets vertikala axel. Endast läsning [`IAxis`](../iaxis). |
 
-### Se också
+### Se även
 
 * namnrymd [Aspose.Slides.Charts](../../aspose.slides.charts)
 * samling [Aspose.Slides](../../)

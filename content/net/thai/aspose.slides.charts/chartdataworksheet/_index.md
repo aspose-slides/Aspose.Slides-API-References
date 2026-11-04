@@ -1,14 +1,14 @@
 ---
 title: ChartDataWorksheet
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงตารางงานที่เชื่อมโยงกับ IChartDataCell./ichartdatacell
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: แสดงเวิร์กชีตที่เชื่อมโยงกับ IChartDataCell./ichartdatacell
 type: docs
-weight: 1390
+weight: 1400
 url: /th/aspose.slides.charts/chartdataworksheet/
 ---
 ## ChartDataWorksheet คลาส
 
-แสดงถึงตารางงานที่เชื่อมโยงกับ [`IChartDataCell`](../ichartdatacell)
+แสดงเวิร์กชีตที่เชื่อมโยงกับ [`IChartDataCell`](../ichartdatacell)
 
 ```csharp
 public class ChartDataWorksheet : DomObject<ChartDataWorksheetCollection>, IChartDataWorksheet
@@ -18,8 +18,8 @@ public class ChartDataWorksheet : DomObject<ChartDataWorksheetCollection>, IChar
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Index](../../aspose.slides.charts/chartdataworksheet/index) { get; } | รับค่าดัชนีของตารางงาน อ่านอย่างเดียว Int32. |
-| [Name](../../aspose.slides.charts/chartdataworksheet/name) { get; } | ส่งกลับชื่อของตารางงาน อ่านอย่างเดียว String. |
+| [Index](../../aspose.slides.charts/chartdataworksheet/index) { get; } | รับค่า index ของเวิร์กชีต. อ่านอย่างเดียว Int32. |
+| [Name](../../aspose.slides.charts/chartdataworksheet/name) { get; } | คืนค่าชื่อของเวิร์กชีต. อ่านอย่างเดียว String. |
 
 ### ดูเพิ่มเติม
 

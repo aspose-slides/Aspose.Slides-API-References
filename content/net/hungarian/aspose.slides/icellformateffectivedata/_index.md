@@ -1,14 +1,14 @@
 ---
 title: ICellFormatEffectiveData
 second_title: Aspose.Sildes .NET API referencia
-description: Módosíthatatlan objektum, amely a hatékony táblacellák formázási tulajdonságait tartalmazza.
+description: Megváltoztathatatlan objektum, amely a hatékony táblacella formázási tulajdonságait tartalmazza.
 type: docs
-weight: 5480
+weight: 5500
 url: /hu/aspose.slides/icellformateffectivedata/
 ---
 ## ICellFormatEffectiveData interfész
 
-Módosíthatatlan objektum, amely a hatékony táblacellák formázási tulajdonságait tartalmazza.
+Megváltoztathatatlan objektum, amely a táblázatcella hatékony formázási tulajdonságait tartalmazza.
 
 ```csharp
 public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -18,12 +18,12 @@ public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | Lehetővé teszi az IBaseTableFormatEffectiveData alapinterfész lekérését. Csak olvasható [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
-| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | A kitöltő szín átlátszóságát adja vissza. Olvasható Single. |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | Lehetővé teszi a base IBaseTableFormatEffectiveData interfész elérését. Csak olvasható [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | A kitöltő szín átlátszóságát adja vissza. Olvas Single. |
 
 ### Megjegyzések
 
-Ez az interfész a [`ICellFormat`](../icellformat) interfésszel együtt használható, hogy visszaadja az örökléssel és a táblázatstílusok alkalmazásával kapott hatékony formázási értékeket.
+Ez az interfész a [`ICellFormat`](../icellformat) interfészzel együtt használható, hogy az öröklődés és a táblázatstílusok alkalmazásával hatékony formázási értékeket adjon vissza.
 
 ### Lásd még
 

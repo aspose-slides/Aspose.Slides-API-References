@@ -3,7 +3,7 @@ title: ISlideSize
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt de grootte en oriëntatie van een dia voor.
 type: docs
-weight: 7090
+weight: 7110
 url: /nl/aspose.slides/islidesize/
 ---
 ## ISlideSize interface
@@ -18,16 +18,16 @@ public interface ISlideSize
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Orientation](../../aspose.slides/islidesize/orientation) { get; set; } | Haalt de dia-oriëntatie op of stelt deze in. |
+| [Orientation](../../aspose.slides/islidesize/orientation) { get; set; } | Haalt de oriëntatie van de dia op of stelt deze in. |
 | [Size](../../aspose.slides/islidesize/size) { get; } | Haalt de afmetingen van de dia op in punten. |
-| [Type](../../aspose.slides/islidesize/type) { get; } | Haalt het dia-grootte type op. |
+| [Type](../../aspose.slides/islidesize/type) { get; } | Haalt het type van de dia-grootte op. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [SetSize](../../aspose.slides/islidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | Stelt de dia-grootte in op basis van type en schaalt bestaande inhoud. |
-| [SetSize](../../aspose.slides/islidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | Stelt de afmetingen van de dia expliciet in en schaalt bestaande inhoud. |
+| [SetSize](../../aspose.slides/islidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | Stelt de dia-grootte in op basis van type en schaalt de bestaande inhoud. |
+| [SetSize](../../aspose.slides/islidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | Stelt de afmetingen van de dia expliciet in en schaalt de bestaande inhoud. |
 
 ### Zie ook
 

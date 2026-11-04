@@ -1,14 +1,14 @@
 ---
 title: IMarker
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir grafik işaretçisini temsil eder.
+description: Bir chert'in işaretçisini temsil eder.
 type: docs
-weight: 2160
+weight: 2180
 url: /tr/aspose.slides.charts/imarker/
 ---
-## IMarker arayüzü
+## IMarker arayüz
 
-Represents marker of a chert.
+Bir chert'in işaretçisini temsil eder.
 
 ```csharp
 public interface IMarker
@@ -16,13 +16,13 @@ public interface IMarker
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
 | [Format](../../aspose.slides.charts/imarker/format) { get; } | İşaretçi dolgusunu alır. Salt okunur [`IFormat`](../iformat). |
-| [Size](../../aspose.slides.charts/imarker/size) { get; set; } | Bir çizgi grafiği, dağılım grafiği veya radar grafiğinde işaretçi boyutunu temsil eder. Okunur/yazılır Int32. |
-| [Symbol](../../aspose.slides.charts/imarker/symbol) { get; set; } | Bir çizgi grafiği, dağılım grafiği veya radar grafiğinde işaretçi stilini temsil eder. Okunur/yazılır [`MarkerStyleType`](../markerstyletype). |
+| [Size](../../aspose.slides.charts/imarker/size) { get; set; } | Bir çizgi grafiğinde, dağılım grafiğinde veya radar grafiğinde işaretçi boyutunu temsil eder. Okunabilir/Yazılabilir Int32. |
+| [Symbol](../../aspose.slides.charts/imarker/symbol) { get; set; } | Bir çizgi grafiğinde, dağılım grafiğinde veya radar grafiğinde işaretçi stilini temsil eder. Okunabilir/Yazılabilir [`MarkerStyleType`](../markerstyletype). |
 
-### Ayrıca Bakınız
+### Ayrıca
 
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)
 * derleme [Aspose.Slides](../../)

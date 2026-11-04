@@ -1,14 +1,14 @@
 ---
 title: ILayoutable
 second_title: Aspose.Sildes .NET API referencia
-description: Meghatározza a diagram elem pontos pozícióját.
+description: Meghatározza a diagramelem pontos pozícióját.
 type: docs
-weight: 2120
+weight: 2140
 url: /hu/aspose.slides.charts/ilayoutable/
 ---
 ## ILayoutable interfész
 
-Specifies the exact position of a chart element.
+Meghatározza egy diagram elem pontos pozícióját.
 
 ```csharp
 public interface ILayoutable : IChartComponent
@@ -18,13 +18,13 @@ public interface ILayoutable : IChartComponent
 
 | Név | Leírás |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/ilayoutable/asichartcomponent) { get; } | Lehetővé teszi az alap IChartComponent interfész lekérését. Csak olvasható [`IChartComponent`](../ichartcomponent). |
-| [Bottom](../../aspose.slides.charts/ilayoutable/bottom) { get; } | A diagram elem tetejét adja vissza a diagram magasságának tört részében. Csak olvasható Single. |
-| [Height](../../aspose.slides.charts/ilayoutable/height) { get; set; } | Megadja a diagram elem magasságát a diagram magasságának tört részében. Olvasás/írás Single. |
-| [Right](../../aspose.slides.charts/ilayoutable/right) { get; } | A diagram elem jobb oldalát adja vissza a diagram szélességének tört részében. Csak olvasható Single. |
-| [Width](../../aspose.slides.charts/ilayoutable/width) { get; set; } | Megadja a diagram elem szélességét a diagram szélességének tört részében. Olvasás/írás Single. |
-| [X](../../aspose.slides.charts/ilayoutable/x) { get; set; } | Megadja a diagram elem x helyzetét (bal) a diagram szélességének tört részében. Olvasás/írás Single. |
-| [Y](../../aspose.slides.charts/ilayoutable/y) { get; set; } | Megadja a diagram elem tetejét a diagram magasságának tört részében. Olvasás/írás Single. |
+| [AsIChartComponent](../../aspose.slides.charts/ilayoutable/asichartcomponent) { get; } | Lehetővé teszi a bázis IChartComponent interfész lekérdezését. Csak olvasható [`IChartComponent`](../ichartcomponent). |
+| [Bottom](../../aspose.slides.charts/ilayoutable/bottom) { get; } | Lekéri a diagram elem tetejét a diagram magasságához viszonyított arányban. Csak olvasható Single. |
+| [Height](../../aspose.slides.charts/ilayoutable/height) { get; set; } | Megadja a diagram elem magasságát a diagram magasságához viszonyított arányban. Olvasás/írás Single. |
+| [Right](../../aspose.slides.charts/ilayoutable/right) { get; } | Lekéri a diagram elem jobb oldalát a diagram szélességéhez viszonyított arányban. Csak olvasható Single. |
+| [Width](../../aspose.slides.charts/ilayoutable/width) { get; set; } | Megadja a diagram elem szélességét a diagram szélességéhez viszonyított arányban. Olvasás/írás Single. |
+| [X](../../aspose.slides.charts/ilayoutable/x) { get; set; } | Megadja a diagram elem x helyzetét (bal) a diagram szélességéhez viszonyított arányban. Olvasás/írás Single. |
+| [Y](../../aspose.slides.charts/ilayoutable/y) { get; set; } | Megadja a diagram elem tetejét a diagram magasságához viszonyított arányban. Olvasás/írás Single. |
 
 ### Lásd még
 

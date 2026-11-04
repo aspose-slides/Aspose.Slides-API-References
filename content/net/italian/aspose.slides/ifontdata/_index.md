@@ -3,7 +3,7 @@ title: IFontData
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta una definizione di font.
 type: docs
-weight: 5830
+weight: 5850
 url: /it/aspose.slides/ifontdata/
 ---
 ## IFontData interfaccia
@@ -18,13 +18,13 @@ public interface IFontData
 
 | Nome | Descrizione |
 | --- | --- |
-| [FontName](../../aspose.slides/ifontdata/fontname) { get; } | Restituisce il nome del font. Stringa di sola lettura. |
+| [FontName](../../aspose.slides/ifontdata/fontname) { get; } | Restituisce il nome del font. sola lettura String. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetFontName](../../aspose.slides/ifontdata/getfontname)(IThemeEffectiveData) | Restituisce il nome del font, sostituendo il riferimento al tema con il vero font usato. |
+| [GetFontName](../../aspose.slides/ifontdata/getfontname)(IThemeEffectiveData) | Restituisce il nome del font, sostituendo il riferimento del tema con il font effettivamente utilizzato. |
 
 ### Vedi anche
 

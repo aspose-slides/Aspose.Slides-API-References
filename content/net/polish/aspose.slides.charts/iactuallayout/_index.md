@@ -1,12 +1,12 @@
 ---
 title: IActualLayout
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Określa rzeczywistą pozycję elementu wykresu.
 type: docs
-weight: 1690
+weight: 1700
 url: /pl/aspose.slides.charts/iactuallayout/
 ---
-## Interfejs IActualLayout
+## IActualLayout interfejs
 
 Określa rzeczywistą pozycję elementu wykresu.
 
@@ -18,10 +18,10 @@ public interface IActualLayout
 
 | Nazwa | Opis |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/iactuallayout/actualheight) { get; } | Określa rzeczywistą wysokość elementu wykresu. Wywołaj metodę IChart.ValidateChartLayout() przed uzyskaniem rzeczywistych wartości. Odczyt Single. |
-| [ActualWidth](../../aspose.slides.charts/iactuallayout/actualwidth) { get; } | Określa rzeczywistą szerokość elementu wykresu. Wywołaj metodę IChart.ValidateChartLayout() przed uzyskaniem rzeczywistych wartości. Odczyt Single. |
-| [ActualX](../../aspose.slides.charts/iactuallayout/actualx) { get; } | Określa rzeczywiste położenie x (lewe) elementu wykresu względem lewego górnego rogu wykresu. Wywołaj metodę IChart.ValidateChartLayout() przed uzyskaniem rzeczywistych wartości. Odczyt Single. |
-| [ActualY](../../aspose.slides.charts/iactuallayout/actualy) { get; } | Określa rzeczywistą górną pozycję elementu wykresu względem lewego górnego rogu wykresu. Wywołaj metodę IChart.ValidateChartLayout() przed uzyskaniem rzeczywistych wartości. Odczyt Single. |
+| [ActualHeight](../../aspose.slides.charts/iactuallayout/actualheight) { get; } | Określa rzeczywistą wysokość elementu wykresu. Wywołaj metodę IChart.ValidateChartLayout() przed tym, aby uzyskać rzeczywiste wartości. Odczyt Single. |
+| [ActualWidth](../../aspose.slides.charts/iactuallayout/actualwidth) { get; } | Określa rzeczywistą szerokość elementu wykresu. Wywołaj metodę IChart.ValidateChartLayout() przed tym, aby uzyskać rzeczywiste wartości. Odczyt Single. |
+| [ActualX](../../aspose.slides.charts/iactuallayout/actualx) { get; } | Określa rzeczywiste położenie x (lewy) elementu wykresu względem lewego górnego rogu wykresu. Wywołaj metodę IChart.ValidateChartLayout() przed tym, aby uzyskać rzeczywiste wartości. Odczyt Single. |
+| [ActualY](../../aspose.slides.charts/iactuallayout/actualy) { get; } | Określa rzeczywistą górną krawędź elementu wykresu względem lewego górnego rogu wykresu. Wywołaj metodę IChart.ValidateChartLayout() przed tym, aby uzyskać rzeczywiste wartości. Odczyt Single. |
 
 ### Zobacz także
 

@@ -1,12 +1,12 @@
 ---
 title: IChartParagraphFormat
-second_title: مرجع API لـ Aspose.Sildes .NET
+second_title: مرجع API Aspose.Sildes لـ .NET
 description: يمثل خصائص تنسيق الفقرة لمخطط.
 type: docs
-weight: 1900
+weight: 1920
 url: /ar/aspose.slides.charts/ichartparagraphformat/
 ---
-## IChartParagraphFormat واجهة
+## واجهة IChartParagraphFormat
 
 يمثل خصائص تنسيق الفقرة لمخطط.
 
@@ -18,24 +18,24 @@ public interface IChartParagraphFormat
 
 | الاسم | الوصف |
 | --- | --- |
-| [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | يعيد أو يضبط محاذاة النص في الفقرة. قراءة/كتابة [`TextAlignment`](../../aspose.slides/textalignment). |
-| [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | يعيد أو يضبط حجم التبويب الافتراضي. قراءة/كتابة Single. |
-| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | يحدد ما إذا تم استخدام فاصل السطر الآسيوي الشرقي في الفقرة. قراءة/كتابة [`NullableBool`](../../aspose.slides/nullablebool). |
-| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | يعيد أو يضبط محاذاة الخط في الفقرة. قراءة/كتابة [`FontAlignment`](../../aspose.slides/fontalignment). |
-| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | يحدد ما إذا تم استخدام علامات الترقيم المتدلية في الفقرة. قراءة/كتابة [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | يعيد أو يضبط إزاحة السطر الأول/الإزاحة المتدلية للفقرة. يمكن تعريف الإزاحة المتدلية بقيم سالبة. قراءة/كتابة Single. |
-| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | يحدد ما إذا تم استخدام فاصل السطر اللاتيني في الفقرة. قراءة/كتابة [`NullableBool`](../../aspose.slides/nullablebool). |
-| [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | يعيد أو يضبط الهامش الأيسر في الفقرة. قراءة/كتابة Single. |
-| [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | يعيد أو يضبط الهامش الأيمن في الفقرة. قراءة/كتابة Single. |
-| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | يحدد ما إذا تم استخدام الكتابة من اليمين إلى اليسار في الفقرة. قراءة/كتابة [`NullableBool`](../../aspose.slides/nullablebool). |
-| [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | يعيد أو يضبط مقدار المسافة بعد السطر الأخير في الفقرة. قراءة/كتابة Single. |
-| [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | يعيد أو يضبط مقدار المسافة قبل السطر الأول في الفقرة. قراءة/كتابة Single. |
-| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | يعيد أو يضبط مقدار المسافة بين الخطوط الأساسية في الفقرة. قراءة/كتابة Single. |
+| [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | يعيد أو يعيّن محاذاة النص في فقرة. قراءة/كتابة [`TextAlignment`](../../aspose.slides/textalignment). |
+| [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | يعيد أو يعيّن حجم التبويب الافتراضي. قراءة/كتابة Single. |
+| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | يحدد ما إذا كان يتم استخدام كسر السطر شرق آسيوي في فقرة. قراءة/كتابة [`NullableBool`](../../aspose.slides/nullablebool). |
+| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | يعيد أو يعيّن محاذاة الخط في فقرة. قراءة/كتابة [`FontAlignment`](../../aspose.slides/fontalignment). |
+| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | يحدد ما إذا كان يتم استخدام الترميز المعلق في فقرة. قراءة/كتابة [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | يعيد أو يعيّن مسافة الخط الأول/المعلقة للفقرة. يمكن تعريف المسافة المعلقة بقيم سلبية. قراءة/كتابة Single. |
+| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | يحدد ما إذا كان يتم استخدام كسر السطر اللاتيني في فقرة. قراءة/كتابة [`NullableBool`](../../aspose.slides/nullablebool). |
+| [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | يعيد أو يعيّن الهامش الأيسر في فقرة. قراءة/كتابة Single. |
+| [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | يعيد أو يعيّن الهامش الأيمن في فقرة. قراءة/كتابة Single. |
+| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | يحدد ما إذا كان يتم استخدام الكتابة من اليمين إلى اليسار في فقرة. قراءة/كتابة [`NullableBool`](../../aspose.slides/nullablebool). |
+| [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | يعيد أو يعيّن مقدار المسافة بعد السطر الأخير في فقرة. قراءة/كتابة Single. |
+| [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | يعيد أو يعيّن مقدار المسافة قبل السطر الأول في فقرة. قراءة/كتابة Single. |
+| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | يعيد أو يعيّن مقدار المسافة بين الخطوط الأساسية في فقرة. قراءة/كتابة Single. |
 | [Tabs](../../aspose.slides.charts/ichartparagraphformat/tabs) { get; } | يعيد تبويبات الفقرة. قراءة فقط [`ITabCollection`](../../aspose.slides/itabcollection). |
 
-### انظر أيضًا
+### أنظر أيضًا
 
-* النطاق [Aspose.Slides.Charts](../../aspose.slides.charts)
+* مساحة الاسم [Aspose.Slides.Charts](../../aspose.slides.charts)
 * التجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

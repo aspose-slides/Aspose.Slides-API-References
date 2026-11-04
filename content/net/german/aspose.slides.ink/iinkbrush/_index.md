@@ -1,14 +1,14 @@
 ---
 title: IInkBrush
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt einen Zeichenpinsel dar.
+second_title: Aspose.Sildes for .NET API Referenz
+description: Stellt den Spur-Pinsel dar.
 type: docs
-weight: 7530
+weight: 7550
 url: /de/aspose.slides.ink/iinkbrush/
 ---
 ## IInkBrush Schnittstelle
 
-Stellt den Zeichenpinsel dar.
+Stellt den Spur-Pinsel dar.
 
 ```csharp
 public interface IInkBrush
@@ -19,7 +19,7 @@ public interface IInkBrush
 | Name | Beschreibung |
 | --- | --- |
 | [Color](../../aspose.slides.ink/iinkbrush/color) { get; set; } | Liest oder setzt die Pinselfarbe für eine Linie. |
-| [InkEffect](../../aspose.slides.ink/iinkbrush/inkeffect) { get; } | Liest den Tinteneffekt-Typ (z. B., Galaxy, Gold, Silver), der den visuellen Stil des Tintenzugs definiert. Wenn kein erkannter Effekt angegeben ist, wird NotDefined zurückgegeben. |
+| [InkEffect](../../aspose.slides.ink/iinkbrush/inkeffect) { get; } | Liest den Tinteneffekttyp (z. B. Galaxy, Gold, Silver), der den visuellen Stil des Tintenzugs definiert. Der Wert wird aus der Pinsel-Eigenschaft "inkEffects" geparst. Wenn kein erkannter Effekt angegeben ist, wird NotDefined zurückgegeben. |
 | [Size](../../aspose.slides.ink/iinkbrush/size) { get; set; } | Liest oder setzt die Pinselgröße für eine Linie in Punkten. |
 
 ### Siehe auch

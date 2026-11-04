@@ -1,20 +1,20 @@
 ---
 title: MathMatrixFactory
-second_title: Aspose.Sildes の .NET API リファレンス
-description: 数式行列を作成できます
+second_title: Aspose.Sildes for .NET API リファレンス
+description: 数学行列の作成を可能にします
 type: docs
-weight: 8860
+weight: 8880
 url: /ja/aspose.slides.mathtext/mathmatrixfactory/
 ---
 ## MathMatrixFactory クラス
 
-数式行列を作成できます
+数学行列を作成できます
 
 ```csharp
 public class MathMatrixFactory : IMathMatrixFactory
 ```
 
-## コンストラクタ
+## コンストラクター
 
 | 名前 | 説明 |
 | --- | --- |
@@ -24,7 +24,7 @@ public class MathMatrixFactory : IMathMatrixFactory
 
 | 名前 | 説明 |
 | --- | --- |
-| [CreateMathMatrix](../../aspose.slides.mathtext/mathmatrixfactory/createmathmatrix)(int, int) | 数式行列を作成します |
+| [CreateMathMatrix](../../aspose.slides.mathtext/mathmatrixfactory/createmathmatrix)(int, int) | 数学行列を作成します |
 
 ### 備考
 

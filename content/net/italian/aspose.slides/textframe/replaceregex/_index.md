@@ -1,9 +1,9 @@
 ---
 title: ReplaceRegex
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Sostituisce tutte le corrispondenze dell'espressione regolare con la stringa specificata.
 type: docs
-weight: 120
+weight: 130
 url: /it/aspose.slides/textframe/replaceregex/
 ---
 ## TextFrame.ReplaceRegex metodo
@@ -28,7 +28,7 @@ Il seguente codice di esempio mostra come sostituire il testo usando un'espressi
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx")){
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// Sostituisci tutte le parole con 10 o più caratteri con '***'
+	// Sostituisce tutte le parole di 10 o più caratteri con '***'
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.ReplaceRegex(regex, "***", null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }

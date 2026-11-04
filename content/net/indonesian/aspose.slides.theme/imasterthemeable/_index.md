@@ -3,10 +3,9 @@ title: IMasterThemeable
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili manajer tema master.
 type: docs
-weight: 11330
+weight: 11350
 url: /id/aspose.slides.theme/imasterthemeable/
 ---
-
 ## IMasterThemeable antarmuka
 
 Mewakili manajer tema master.
@@ -19,8 +18,8 @@ public interface IMasterThemeable : IThemeable
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIThemeable](../../aspose.slides.theme/imasterthemeable/asithemeable) { get; } | Mengembalikan antarmuka IThemeable. Hanya-baca [`IThemeable`](../ithemeable). |
-| [ThemeManager](../../aspose.slides.theme/imasterthemeable/thememanager) { get; } | Mengembalikan manajer tema master. Hanya-baca [`IMasterThemeManager`](../imasterthememanager). |
+| [AsIThemeable](../../aspose.slides.theme/imasterthemeable/asithemeable) { get; } | Mengembalikan antarmuka IThemeable. Baca-saja [`IThemeable`](../ithemeable). |
+| [ThemeManager](../../aspose.slides.theme/imasterthemeable/thememanager) { get; } | Mengembalikan manajer tema master. Baca-saja [`IMasterThemeManager`](../imasterthememanager). |
 
 ### Lihat Juga
 

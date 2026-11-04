@@ -1,14 +1,14 @@
 ---
 title: ISensitivityLabel
 second_title: Aspose.Sildes for .NET API 參考
-description: 代表 Microsoft Purview Information Protection 的敏感性標籤。
+description: 表示來自 Microsoft Purview Information Protection 的敏感度標籤。
 type: docs
-weight: 6930
+weight: 6950
 url: /zh-hant/aspose.slides/isensitivitylabel/
 ---
 ## ISensitivityLabel 介面
 
-代表 Microsoft Purview Information Protection 的敏感性標籤。
+代表 Microsoft Purview Information Protection 中的敏感度標籤。
 
 ```csharp
 public interface ISensitivityLabel
@@ -16,16 +16,16 @@ public interface ISensitivityLabel
 
 ## 屬性
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
-| [AssignmentMethodType](../../aspose.slides/isensitivitylabel/assignmentmethodtype) { get; set; } | 取得或設定敏感性標籤的指派方法。讀寫 [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype)。 |
-| [ContentMarkTypes](../../aspose.slides/isensitivitylabel/contentmarktypes) { get; } | 取得應套用於檔案的內容標記類型清單。 |
-| [Id](../../aspose.slides/isensitivitylabel/id) { get; set; } | 取得或設定敏感性標籤的 ID。讀寫 String。 |
-| [IsEnabled](../../aspose.slides/isensitivitylabel/isenabled) { get; set; } | 指示是否已啟用敏感性標籤。 |
-| [IsRemoved](../../aspose.slides/isensitivitylabel/isremoved) { get; set; } | 指示是否已移除敏感性標籤。 |
-| [SiteId](../../aspose.slides/isensitivitylabel/siteid) { get; set; } | 取得或設定與描述此敏感性標籤的敏感性標籤原則相對應的 Azure Active Directory (Azure AD) 站點識別碼。讀寫 Guid。 |
+| [AssignmentMethodType](../../aspose.slides/isensitivitylabel/assignmentmethodtype) { get; set; } | 返回或設定敏感度標籤的指派方法。讀/寫 [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype)。 |
+| [ContentMarkTypes](../../aspose.slides/isensitivitylabel/contentmarktypes) { get; } | 返回應套用於檔案的內容標記類型清單。 |
+| [Id](../../aspose.slides/isensitivitylabel/id) { get; set; } | 返回或設定敏感度標籤的 ID。讀/寫 String。 |
+| [IsEnabled](../../aspose.slides/isensitivitylabel/isenabled) { get; set; } | 指示敏感度標籤是否已啟用。 |
+| [IsRemoved](../../aspose.slides/isensitivitylabel/isremoved) { get; set; } | 指示敏感度標籤是否已被移除。 |
+| [SiteId](../../aspose.slides/isensitivitylabel/siteid) { get; set; } | 返回或設定描述此敏感度標籤的敏感度標籤原則所對應的 Azure Active Directory (Azure AD) 站點識別碼。讀/寫 Guid。 |
 
-### 參閱
+### 另請參閱
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

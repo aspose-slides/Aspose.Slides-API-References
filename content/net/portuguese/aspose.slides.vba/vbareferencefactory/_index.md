@@ -1,9 +1,9 @@
 ---
 title: VbaReferenceFactory
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Permite criar referências de projetos VBA via interface COM
 type: docs
-weight: 11680
+weight: 11700
 url: /pt/aspose.slides.vba/vbareferencefactory/
 ---
 ## VbaReferenceFactory classe
@@ -24,15 +24,15 @@ public class VbaReferenceFactory : IVbaReferenceFactory
 
 | Nome | Descrição |
 | --- | --- |
-| static [Instance](../../aspose.slides.vba/vbareferencefactory/instance) { get; } | Instância estática da fábrica de referências de projeto VBA. Somente leitura [`VbaReferenceFactory`](../vbareferencefactory). |
+| static [Instance](../../aspose.slides.vba/vbareferencefactory/instance) { get; } | Instância estática da fábrica de referências de projetos VBA. Somente leitura [`VbaReferenceFactory`](../vbareferencefactory). |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
-| [CreateOleTypeLibReference](../../aspose.slides.vba/vbareferencefactory/createoletypelibreference)(string, string) | Cria uma nova referência de biblioteca de tipos OLE Automation. |
+| [CreateOleTypeLibReference](../../aspose.slides.vba/vbareferencefactory/createoletypelibreference)(string, string) | Cria nova referência à biblioteca de tipos OLE Automation. |
 
-### Veja também
+### Ver também
 
 * interface [IVbaReferenceFactory](../ivbareferencefactory)
 * namespace [Aspose.Slides.Vba](../../aspose.slides.vba)

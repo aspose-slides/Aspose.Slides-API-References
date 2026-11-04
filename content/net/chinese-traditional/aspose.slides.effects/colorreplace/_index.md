@@ -1,14 +1,14 @@
 ---
 title: ColorReplace
-second_title: Aspose.Sildes for .NET API 參考
-description: 表示顏色取代效果。所有效果顏色皆會更改為固定顏色。Alpha 值不受影響。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 表示一個顏色取代效果。所有效果顏色皆會更改為固定顏色。Alpha 值不受影響。
 type: docs
-weight: 2950
+weight: 2970
 url: /zh-hant/aspose.slides.effects/colorreplace/
 ---
 ## ColorReplace 類別
 
-表示顏色取代效果。所有效果顏色都會更改為固定顏色。Alpha 值不受影響。
+代表一個 Color Replacement 效果。所有效果顏色皆會變更為固定顏色。Alpha 值不受影響。
 
 ```csharp
 public sealed class ColorReplace : ImageTransformOperation, IColorReplace
@@ -26,10 +26,10 @@ public sealed class ColorReplace : ImageTransformOperation, IColorReplace
 | Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/colorreplace/equals)(object) | 判斷指定的 [`ColorReplace`](../colorreplace) 是否等於目前的 [`ColorReplace`](../colorreplace)。 |
-| [GetEffective](../../aspose.slides.effects/colorreplace/geteffective)() | 取得套用繼承後的有效顏色取代效果資料。 |
-| override [GetHashCode](../../aspose.slides.effects/colorreplace/gethashcode)() | 作為特定型別的雜湊函式。 |
+| [GetEffective](../../aspose.slides.effects/colorreplace/geteffective)() | 取得套用繼承後的有效 Color Replacement 效果資料。 |
+| override [GetHashCode](../../aspose.slides.effects/colorreplace/gethashcode)() | 作為特定類型的雜湊函式。 |
 
-### 參見
+### 另請參閱
 
 * 類別 [ImageTransformOperation](../imagetransformoperation)
 * 介面 [IColorReplace](../icolorreplace)

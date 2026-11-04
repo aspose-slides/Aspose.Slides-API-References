@@ -3,10 +3,10 @@ title: TableFormat
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa el formato de una tabla.
 type: docs
-weight: 10870
+weight: 10890
 url: /es/aspose.slides/tableformat/
 ---
-## Clase TableFormat
+## TableFormat clase
 
 Representa el formato de una tabla.
 
@@ -27,7 +27,7 @@ public sealed class TableFormat : DomObject<Table>, ITableFormat
 | --- | --- |
 | [GetEffective](../../aspose.slides/tableformat/geteffective)() | Obtiene las propiedades de formato de tabla efectivas con herencia y estilos de tabla aplicados. |
 
-### Ver también
+### Véase también
 
 * clase [DomObject&lt;TParent&gt;](../domobject-1)
 * clase [Table](../table)

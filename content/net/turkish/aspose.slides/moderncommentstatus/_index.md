@@ -3,10 +3,10 @@ title: ModernCommentStatus
 second_title: Aspose.Sildes için .NET API Referansı
 description: Modern bir yorumun durumunu temsil eder.
 type: docs
-weight: 9100
+weight: 9120
 url: /tr/aspose.slides/moderncommentstatus/
 ---
-## ModernCommentStatus enum
+## ModernCommentStatus enumerasyonu
 
 Modern bir yorumun durumunu temsil eder.
 
@@ -16,14 +16,14 @@ public enum ModernCommentStatus : sbyte
 
 ### Değerler
 
-| Ad | Değer | Açıklama |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `0` | Tanımlanmamış. |
-| Active | `1` | Etkin. |
+| Active | `1` | Aktif. |
 | Resolved | `2` | Çözülmüş. |
 | Closed | `3` | Kapalı. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

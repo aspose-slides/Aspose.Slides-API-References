@@ -1,14 +1,14 @@
 ---
 title: Convert.GetOutPathCallback
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Η μέθοδος callback που θα κληθεί για κάθε Slide../aspose.slides/slide η διαδρομή εξόδου αναμένεται να επιστραφεί.
+description: Callback που θα κληθεί για κάθε Slide../aspose.slides/slide η διαδρομή εξόδου που αναμένεται να επιστραφεί.
 type: docs
-weight: 7890
+weight: 7910
 url: /el/aspose.slides.lowcode/convert.getoutpathcallback/
 ---
-## Convert.GetOutPathCallback αντιπρόσωπος
+## Convert.GetOutPathCallback delegate
 
-Η μέθοδος callback που θα κληθεί για κάθε [`Slide`](../../aspose.slides/slide), η διαδρομή εξόδου πρέπει να επιστραφεί.
+Callback that will be invoked for each [`Slide`](../../aspose.slides/slide), the output path expected to be returned.
 
 ```csharp
 public delegate string GetOutPathCallback(Slide slide, int index);
@@ -16,7 +16,7 @@ public delegate string GetOutPathCallback(Slide slide, int index);
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| slide | Slide | Τρέχουσα επαναλαμβανόμενη διαφάνεια |
+| slide | Slide | Τρέχουσα διαγώμενη διαφάνεια |
 | index | Int32 | Δείκτης της τρέχουσας διαφάνειας |
 
 ### Δείτε επίσης

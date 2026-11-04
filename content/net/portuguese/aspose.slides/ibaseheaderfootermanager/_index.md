@@ -1,14 +1,14 @@
 ---
 title: IBaseHeaderFooterManager
-second_title: Aspose.Sildes para .NET Referência de API
-description: Representa o gerenciador que contém o comportamento dos marcadores de rodapé, data/hora e número de página para todos os tipos de slide.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Representa o gerenciador que contém o comportamento dos marcadores de rodapé, data e hora, número de página para todos os tipos de slides.
 type: docs
-weight: 5300
+weight: 5320
 url: /pt/aspose.slides/ibaseheaderfootermanager/
 ---
 ## IBaseHeaderFooterManager interface
 
-Representa o gerenciador que contém o comportamento dos marcadores de rodapé, data/hora e número de página para todos os tipos de slide.
+Representa o gerenciador que contém o comportamento dos marcadores de rodapé, data e hora, número de página para todos os tipos de slides.
 
 ```csharp
 public interface IBaseHeaderFooterManager

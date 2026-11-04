@@ -1,12 +1,12 @@
 ---
 title: SchemeColor
-second_title: Aspose.Sildes per .NET API Reference
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta i colori in uno schema di colori.
 type: docs
-weight: 9740
+weight: 9760
 url: /it/aspose.slides/schemecolor/
 ---
-## enumerazione SchemeColor
+## Enumerazione SchemeColor
 
 Rappresenta i colori in uno schema di colori.
 

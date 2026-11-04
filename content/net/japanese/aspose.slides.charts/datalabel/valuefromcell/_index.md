@@ -1,14 +1,14 @@
 ---
 title: ValueFromCell
 second_title: Aspose.Sildes for .NET API リファレンス
-description: ワークブックのデータセルを取得または設定します。IDataLabelFormat.ShowLabelValueFromCell プロパティが true の場合に適用されます。
+description: ワークブック データ セルを取得または設定します。IDataLabelFormat.ShowLabelValueFromCell プロパティが true の場合に適用されます。
 type: docs
-weight: 140
+weight: 150
 url: /ja/aspose.slides.charts/datalabel/valuefromcell/
 ---
 ## DataLabel.ValueFromCell プロパティ
 
-ワークブックのデータセルを取得または設定します。IDataLabelFormat.ShowLabelValueFromCell プロパティが true の場合に適用されます。
+ワークブック データ セルを取得または設定します。IDataLabelFormat.ShowLabelValueFromCell プロパティが true の場合に適用されます。
 
 ```csharp
 public IChartDataCell ValueFromCell { get; set; }

@@ -1,12 +1,12 @@
 ---
 title: IAnimationTimeLine
-second_title: Aspose.Sildes для .NET API справочник
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет временную шкалу анимации.
 type: docs
-weight: 5200
+weight: 5220
 url: /ru/aspose.slides/ianimationtimeline/
 ---
-## IAnimationTimeLine interface
+## Интерфейс IAnimationTimeLine
 
 Представляет временную шкалу анимации.
 
@@ -18,11 +18,11 @@ public interface IAnimationTimeLine
 
 | Имя | Описание |
 | --- | --- |
-| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | Возвращает коллекцию интерактивных последовательностей. Эти последовательности могут содержать только эффекты по "click on shape" с указанной целевой фигурой. Только для чтения [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection). |
+| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | Возвращает коллекцию интерактивных последовательностей. Эти последовательности могут содержать только эффекты «щелчок по фигуре» с указанной целевой фигурой. Только для чтения [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection). |
 | [MainSequence](../../aspose.slides/ianimationtimeline/mainsequence) { get; } | Возвращает основную последовательность, которая может содержать только основную коллекцию эффектов. Только для чтения [`ISequence`](../../aspose.slides.animation/isequence). |
 | [TextAnimationCollection](../../aspose.slides/ianimationtimeline/textanimationcollection) { get; } | Возвращает коллекцию текстовых анимаций. Только для чтения [`ITextAnimationCollection`](../../aspose.slides.animation/itextanimationcollection). |
 
-### См. также
+### Смотрите также
 
 * пространство имён [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

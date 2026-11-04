@@ -1,12 +1,12 @@
 ---
 title: PdfTextCompression
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Các hằng số xác định loại nén được áp dụng cho toàn bộ nội dung trong tệp PDF ngoại trừ hình ảnh.
+description: Các hằng số xác định loại nén được áp dụng cho tất cả nội dung trong tệp PDF ngoại trừ hình ảnh.
 type: docs
-weight: 4340
+weight: 4360
 url: /vi/aspose.slides.export/pdftextcompression/
 ---
-## PdfTextCompression enum
+## PdfTextCompression enumeration
 
 Các hằng số xác định loại nén được áp dụng cho tất cả nội dung trong tệp PDF ngoại trừ hình ảnh.
 

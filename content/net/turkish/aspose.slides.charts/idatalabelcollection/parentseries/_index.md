@@ -1,14 +1,14 @@
 ---
 title: ParentSeries
 second_title: Aspose.Sildes için .NET API Referansı
-description: Üst grafik serisini döndürür. Salt okunur IChartSeriesaspose.slides.charts/ichartseries.
+description: Üst grafik serisini döndürür. Yalnızca okuma IChartSeriesaspose.slides.charts/ichartseries.
 type: docs
-weight: 90
+weight: 100
 url: /tr/aspose.slides.charts/idatalabelcollection/parentseries/
 ---
-## IDataLabelCollection.ParentSeries özelliği
+## IDataLabelCollection.ParentSeries özellik
 
-Üst grafik serisini döndürür. Salt okunur [`IChartSeries`](../../ichartseries).
+Üst grafik serisini döndürür. Yalnızca okuma [`IChartSeries`](../../ichartseries).
 
 ```csharp
 public IChartSeries ParentSeries { get; }

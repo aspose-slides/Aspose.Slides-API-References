@@ -1,14 +1,14 @@
 ---
 title: IEffectFactory
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Memungkinkan pembuatan instance efek
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Memungkinkan membuat instance efek
 type: docs
-weight: 3290
+weight: 3310
 url: /id/aspose.slides.effects/ieffectfactory/
 ---
 ## IEffectFactory antarmuka
 
-Memungkinkan pembuatan instance efek
+Memungkinkan membuat instance efek
 
 ```csharp
 public interface IEffectFactory
@@ -18,17 +18,17 @@ public interface IEffectFactory
 
 | Nama | Deskripsi |
 | --- | --- |
-| [ImageTransformOperationFactory](../../aspose.slides.effects/ieffectfactory/imagetransformoperationfactory) { get; } | Mengembalikan ImageTransformOperationFactory. Baca-saja [`IImageTransformOperationFactory`](../iimagetransformoperationfactory). |
+| [ImageTransformOperationFactory](../../aspose.slides.effects/ieffectfactory/imagetransformoperationfactory) { get; } | Mengembalikan ImageTransformOperationFactory. Hanya-baca [`IImageTransformOperationFactory`](../iimagetransformoperationfactory). |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
 | [CreateGlow](../../aspose.slides.effects/ieffectfactory/createglow)() | Membuat efek Glow. |
-| [CreateInnerShadow](../../aspose.slides.effects/ieffectfactory/createinnershadow)() | Membuat efek Inner shafow. |
-| [CreateOuterShadow](../../aspose.slides.effects/ieffectfactory/createoutershadow)() | Membuat efek Outer shadow. |
-| [CreatePresetShadow](../../aspose.slides.effects/ieffectfactory/createpresetshadow)() | Membuat efek Preset shadow. |
-| [CreateReflection](../../aspose.slides.effects/ieffectfactory/createreflection)() | Membuat efek Reflection. |
+| [CreateInnerShadow](../../aspose.slides.effects/ieffectfactory/createinnershadow)() | Membuat efek bayangan dalam. |
+| [CreateOuterShadow](../../aspose.slides.effects/ieffectfactory/createoutershadow)() | Membuat efek bayangan luar. |
+| [CreatePresetShadow](../../aspose.slides.effects/ieffectfactory/createpresetshadow)() | Membuat efek bayangan preset. |
+| [CreateReflection](../../aspose.slides.effects/ieffectfactory/createreflection)() | Membuat efek refleksi. |
 | [CreateSoftEdge](../../aspose.slides.effects/ieffectfactory/createsoftedge)() | Membuat efek Soft Edge. |
 
 ### Catatan

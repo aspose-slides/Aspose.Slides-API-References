@@ -1,14 +1,14 @@
 ---
 title: IMasterLayoutSlideCollection
-second_title: Aspose.Sildes for .NET API Reference
-description: Vertegenwoordigt een collectie van alle layout slides van een gedefinieerde master slide. Breidt de ILayoutSlideCollection interface uit met methoden voor het toevoegen, invoegen, verwijderen en klonen van layout slides in de context van de individuele collecties van master layout slides.
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Stelt een collectie voor van alle layoutdia's van een gedefinieerde masterdia. Breidt de ILayoutSlideCollection interface uit met methoden voor het toevoegen/invoegen/verwijderen/kopiëren van layoutdia's in de context van de individuele collecties van de layoutdia's van masters.
 type: docs
-weight: 6380
+weight: 6400
 url: /nl/aspose.slides/imasterlayoutslidecollection/
 ---
 ## IMasterLayoutSlideCollection interface
 
-Vertegenwoordigt een collectie van alle layout slides van een gedefinieerde master slide. Breidt de ILayoutSlideCollection interface uit met methoden voor toevoegen/invoegen/verwijderen/klonen van layout slides in de context van de individuele collecties van de master-layout slides.
+Representeert een collectie van alle layoutdia's van de gedefinieerde masterdia. Breidt de ILayoutSlideCollection interface uit met methoden voor het toevoegen/invoegen/verwijderen/kopiëren van layoutdia's in de context van de individuele collecties van de layoutdia's van de master.
 
 ```csharp
 public interface IMasterLayoutSlideCollection : ILayoutSlideCollection
@@ -18,18 +18,18 @@ public interface IMasterLayoutSlideCollection : ILayoutSlideCollection
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsILayoutSlideCollection](../../aspose.slides/imasterlayoutslidecollection/asilayoutslidecollection) { get; } | Retourneert de ILayoutSlideCollection interface. Alleen-lezen [`ILayoutSlideCollection`](../ilayoutslidecollection). |
+| [AsILayoutSlideCollection](../../aspose.slides/imasterlayoutslidecollection/asilayoutslidecollection) { get; } | Geeft de ILayoutSlideCollection interface terug. Alleen-lezen [`ILayoutSlideCollection`](../ilayoutslidecollection). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Add](../../aspose.slides/imasterlayoutslidecollection/add)(SlideLayoutType, string) | Voegt een nieuwe layout slide toe aan het einde van de collectie. |
-| [AddClone](../../aspose.slides/imasterlayoutslidecollection/addclone)(ILayoutSlide) | Voegt een kopie van een opgegeven layout slide toe aan het einde van de collectie. |
-| [Insert](../../aspose.slides/imasterlayoutslidecollection/insert)(int, SlideLayoutType, string) | Voegt een nieuwe layout slide in op de opgegeven positie van de collectie. |
-| [InsertClone](../../aspose.slides/imasterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Voegt een kopie van een opgegeven layout slide in op de opgegeven positie van de collectie. |
+| [Add](../../aspose.slides/imasterlayoutslidecollection/add)(SlideLayoutType, string) | Voegt een nieuwe layoutdia toe aan het einde van de collectie. |
+| [AddClone](../../aspose.slides/imasterlayoutslidecollection/addclone)(ILayoutSlide) | Voegt een kopie van een opgegeven layoutdia toe aan het einde van de collectie. |
+| [Insert](../../aspose.slides/imasterlayoutslidecollection/insert)(int, SlideLayoutType, string) | Voegt een nieuwe layoutdia in op de opgegeven positie van de collectie. |
+| [InsertClone](../../aspose.slides/imasterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Voegt een kopie van een opgegeven layoutdia in op de opgegeven positie van de collectie. |
 | [RemoveAt](../../aspose.slides/imasterlayoutslidecollection/removeat)(int) | Verwijdert het element op de opgegeven index van de collectie. |
-| [Reorder](../../aspose.slides/imasterlayoutslidecollection/reorder)(int, ILayoutSlide) | Verplaatst layout slide vanuit de collectie naar de opgegeven positie. |
+| [Reorder](../../aspose.slides/imasterlayoutslidecollection/reorder)(int, ILayoutSlide) | Verplaatst de layoutdia van de collectie naar de opgegeven positie. |
 
 ### Zie ook
 

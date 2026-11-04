@@ -1,14 +1,14 @@
 ---
 title: PresentationInfo
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Informatie over presentiebestand
+description: Informatie over presentatiebestand
 type: docs
-weight: 9620
+weight: 9640
 url: /nl/aspose.slides/presentationinfo/
 ---
 ## PresentationInfo klasse
 
-Informatie over presentatiebestand
+Informatie over presentatie-bestand
 
 ```csharp
 public sealed class PresentationInfo : IPresentationInfo
@@ -18,10 +18,10 @@ public sealed class PresentationInfo : IPresentationInfo
 
 | Naam | Beschrijving |
 | --- | --- |
-| [IsEncrypted](../../aspose.slides/presentationinfo/isencrypted) { get; } | Geeft True terug als de gekoppelde presentatie versleuteld is, anders False. Alleen-lezen Boolean. |
-| [IsPasswordProtected](../../aspose.slides/presentationinfo/ispasswordprotected) { get; } | Geeft een waarde die aangeeft of de gekoppelde presentatie beschermd is met een wachtwoord om te openen. |
-| [IsWriteProtected](../../aspose.slides/presentationinfo/iswriteprotected) { get; } | Geeft een waarde die aangeeft of de gekoppelde presentatie schrijfbeschermd is. |
-| [LoadFormat](../../aspose.slides/presentationinfo/loadformat) { get; } | Geeft het formaat van de gekoppelde presentatie. Alleen-lezen [`LoadFormat`](../loadformat). |
+| [IsEncrypted](../../aspose.slides/presentationinfo/isencrypted) { get; } | Geeft True terug als de gebonden presentatie versleuteld is, anders False. Alleen-lezen Boolean. |
+| [IsPasswordProtected](../../aspose.slides/presentationinfo/ispasswordprotected) { get; } | Geeft een waarde die aangeeft of de gebonden presentatie beschermd is met een wachtwoord om te openen. |
+| [IsWriteProtected](../../aspose.slides/presentationinfo/iswriteprotected) { get; } | Geeft een waarde die aangeeft of de gebonden presentatie schrijfbeschermd is. |
+| [LoadFormat](../../aspose.slides/presentationinfo/loadformat) { get; } | Geeft het formaat van de gebonden presentatie. Alleen-lezen [`LoadFormat`](../loadformat). |
 
 ## Methoden
 
@@ -29,10 +29,10 @@ public sealed class PresentationInfo : IPresentationInfo
 | --- | --- |
 | [CheckPassword](../../aspose.slides/presentationinfo/checkpassword)(string) | Controleert of een wachtwoord correct is voor een presentatie die beschermd is met een open wachtwoord. |
 | [CheckWriteProtection](../../aspose.slides/presentationinfo/checkwriteprotection)(string) | Controleert of een wijzigingswachtwoord correct is voor een schrijfbeschermde presentatie. |
-| [ReadDocumentProperties](../../aspose.slides/presentationinfo/readdocumentproperties)() | Geeft documenteigenschappen van de gekoppelde presentatie. |
-| [UpdateDocumentProperties](../../aspose.slides/presentationinfo/updatedocumentproperties)(IDocumentProperties) | Werkt eigenschappen van de gekoppelde presentatie bij. |
-| [WriteBindedPresentation](../../aspose.slides/presentationinfo/writebindedpresentation#writebindedpresentation)(Stream) | Schrijft gekoppelde presentatie naar stream. |
-| [WriteBindedPresentation](../../aspose.slides/presentationinfo/writebindedpresentation#writebindedpresentation_1)(string) | Schrijft gekoppelde presentatie naar bestand. |
+| [ReadDocumentProperties](../../aspose.slides/presentationinfo/readdocumentproperties)() | Geeft documenteigenschappen van de gebonden presentatie terug. |
+| [UpdateDocumentProperties](../../aspose.slides/presentationinfo/updatedocumentproperties)(IDocumentProperties) | Werk de eigenschappen van de gebonden presentatie bij. |
+| [WriteBindedPresentation](../../aspose.slides/presentationinfo/writebindedpresentation#writebindedpresentation)(Stream) | Schrijft de gebonden presentatie naar een stream. |
+| [WriteBindedPresentation](../../aspose.slides/presentationinfo/writebindedpresentation#writebindedpresentation_1)(string) | Schrijft de gebonden presentatie naar een bestand. |
 
 ### Zie ook
 

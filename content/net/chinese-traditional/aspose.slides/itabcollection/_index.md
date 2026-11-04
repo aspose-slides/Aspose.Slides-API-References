@@ -1,14 +1,14 @@
 ---
 title: ITabCollection
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示分頁的集合。
+description: 表示索引標籤的集合。
 type: docs
-weight: 7200
+weight: 7220
 url: /zh-hant/aspose.slides/itabcollection/
 ---
 ## ITabCollection 介面
 
-表示一個分頁集合。
+表示索引標籤的集合。
 
 ```csharp
 public interface ITabCollection : IGenericCollection<ITab>
@@ -16,20 +16,20 @@ public interface ITabCollection : IGenericCollection<ITab>
 
 ## 屬性
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
 | [Item](../../aspose.slides/itabcollection/item) { get; } | 取得指定索引處的元素。唯讀 [`ITab`](../itab)。 |
 
 ## 方法
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
 | [Add](../../aspose.slides/itabcollection/add#add_1)(ITab) | 將 Tab 新增至集合。 |
 | [Add](../../aspose.slides/itabcollection/add#add)(double, TabAlignment) | 將 Tab 新增至集合。 |
 | [Clear](../../aspose.slides/itabcollection/clear)() | 從集合中移除所有元素。 |
 | [RemoveAt](../../aspose.slides/itabcollection/removeat)(int) | 移除集合中指定索引處的元素。 |
 
-### 另請參閱
+### 另見
 
 * 介面 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 介面 [ITab](../itab)

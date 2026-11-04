@@ -3,12 +3,12 @@ title: ILineFormat
 second_title: Aspose.Sildes برای .NET مرجع API
 description: قالب یک خط را نمایش می‌دهد.
 type: docs
-weight: 6310
+weight: 6330
 url: /fa/aspose.slides/ilineformat/
 ---
-## رابط ILineFormat
+## ILineFormat رابط
 
-نمایانگر قالب یک خط.
+قالب خط را نشان می‌دهد.
 
 ```csharp
 public interface ILineFormat : ILineParamSource
@@ -16,38 +16,38 @@ public interface ILineFormat : ILineParamSource
 
 ## ویژگی‌ها
 
-| نام | توضیح |
+| Name | Description |
 | --- | --- |
-| [Alignment](../../aspose.slides/ilineformat/alignment) { get; set; } | دریافت یا تنظیم تراز خط. خواندنی/نوشتنی [`LineAlignment`](../linealignment). |
-| [AsILineParamSource](../../aspose.slides/ilineformat/asilineparamsource) { get; } | دسترسی برای دریافت رابط پایه ILineParamSource. فقط-خواندنی [`ILineParamSource`](../ilineparamsource). |
-| [BeginArrowheadLength](../../aspose.slides/ilineformat/beginarrowheadlength) { get; set; } | دریافت یا تنظیم طول سر پیکان در ابتدای خط. خواندنی/نوشتنی [`LineArrowheadLength`](../linearrowheadlength). |
-| [BeginArrowheadStyle](../../aspose.slides/ilineformat/beginarrowheadstyle) { get; set; } | دریافت یا تنظیم سبک سر پیکان در ابتدای خط. خواندنی/نوشتنی [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [BeginArrowheadWidth](../../aspose.slides/ilineformat/beginarrowheadwidth) { get; set; } | دریافت یا تنظیم عرض سر پیکان در ابتدای خط. خواندنی/نوشتنی [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](../../aspose.slides/ilineformat/capstyle) { get; set; } | دریافت یا تنظیم سبک انتهای خط. خواندنی/نوشتنی [`LineCapStyle`](../linecapstyle). |
-| [CustomDashPattern](../../aspose.slides/ilineformat/customdashpattern) { get; set; } | دریافت یا تنظیم الگوی نقطه‌چین سفارشی. خواندنی/نوشتنی Single[]. |
-| [DashStyle](../../aspose.slides/ilineformat/dashstyle) { get; set; } | دریافت یا تنظیم سبک خط نقطه‌چین. خواندنی/نوشتنی [`LineDashStyle`](../linedashstyle). |
-| [EndArrowheadLength](../../aspose.slides/ilineformat/endarrowheadlength) { get; set; } | دریافت یا تنظیم طول سر پیکان در انتهای خط. خواندنی/نوشتنی [`LineArrowheadLength`](../linearrowheadlength). |
-| [EndArrowheadStyle](../../aspose.slides/ilineformat/endarrowheadstyle) { get; set; } | دریافت یا تنظیم سبک سر پیکان در انتهای خط. خواندنی/نوشتنی [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [EndArrowheadWidth](../../aspose.slides/ilineformat/endarrowheadwidth) { get; set; } | دریافت یا تنظیم عرض سر پیکان در انتهای خط. خواندنی/نوشتنی [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [FillFormat](../../aspose.slides/ilineformat/fillformat) { get; } | دریافت قالب پر کردن خط. فقط-خواندنی [`ILineFillFormat`](../ilinefillformat). |
-| [IsFormatNotDefined](../../aspose.slides/ilineformat/isformatnotdefined) { get; } | در صورتی که قالب خط تعریف نشده باشد (همان‌طور که تازه ساخته شده، پیش‌فرض) مقدار true برگردانده می‌شود. فقط-خواندنی Boolean. |
-| [JoinStyle](../../aspose.slides/ilineformat/joinstyle) { get; set; } | دریافت یا تنظیم سبک اتصال خطوط. خواندنی/نوشتنی [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/ilineformat/miterlimit) { get; set; } | دریافت یا تنظیم حد مِیتر یک خط. خواندنی/نوشتنی Single. |
-| [SketchFormat](../../aspose.slides/ilineformat/sketchformat) { get; } | دریافت قالب طرح‌دستی خط. فقط-خواندنی [`ISketchFormat`](../isketchformat). |
-| [Style](../../aspose.slides/ilineformat/style) { get; set; } | دریافت یا تنظیم سبک خط. خواندنی/نوشتنی [`LineStyle`](../linestyle). |
-| [Width](../../aspose.slides/ilineformat/width) { get; set; } | دریافت یا تنظیم عرض یک خط. خواندنی/نوشتنی Double. |
+| [Alignment](../../aspose.slides/ilineformat/alignment) { get; set; } | مقداردهی یا دریافت تنظیم ترازبندی خط. خواندن/نوشتن [`LineAlignment`](../linealignment). |
+| [AsILineParamSource](../../aspose.slides/ilineformat/asilineparamsource) { get; } | امکان دریافت رابط پایه ILineParamSource را فراهم می‌کند. فقط خواندنی [`ILineParamSource`](../ilineparamsource). |
+| [BeginArrowheadLength](../../aspose.slides/ilineformat/beginarrowheadlength) { get; set; } | مقداردهی یا دریافت طول سرپیکان در ابتدای خط. خواندن/نوشتن [`LineArrowheadLength`](../linearrowheadlength). |
+| [BeginArrowheadStyle](../../aspose.slides/ilineformat/beginarrowheadstyle) { get; set; } | مقداردهی یا دریافت سبک سرپیکان در ابتدای خط. خواندن/نوشتن [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [BeginArrowheadWidth](../../aspose.slides/ilineformat/beginarrowheadwidth) { get; set; } | مقداردهی یا دریافت عرض سرپیکان در ابتدای خط. خواندن/نوشتن [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [CapStyle](../../aspose.slides/ilineformat/capstyle) { get; set; } | مقداردهی یا دریافت سبک سر انتهای خط. خواندن/نوشتن [`LineCapStyle`](../linecapstyle). |
+| [CustomDashPattern](../../aspose.slides/ilineformat/customdashpattern) { get; set; } | مقداردهی یا دریافت الگوی خط تیره سفارشی. خواندن/نوشتن Single[]. |
+| [DashStyle](../../aspose.slides/ilineformat/dashstyle) { get; set; } | مقداردهی یا دریافت سبک خط تیره. خواندن/نوشتن [`LineDashStyle`](../linedashstyle). |
+| [EndArrowheadLength](../../aspose.slides/ilineformat/endarrowheadlength) { get; set; } | مقداردهی یا دریافت طول سرپیکان در انتهای خط. خواندن/نوشتن [`LineArrowheadLength`](../linearrowheadlength). |
+| [EndArrowheadStyle](../../aspose.slides/ilineformat/endarrowheadstyle) { get; set; } | مقداردهی یا دریافت سبک سرپیکان در انتهای خط. خواندن/نوشتن [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [EndArrowheadWidth](../../aspose.slides/ilineformat/endarrowheadwidth) { get; set; } | مقداردهی یا دریافت عرض سرپیکان در انتهای خط. خواندن/نوشتن [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [FillFormat](../../aspose.slides/ilineformat/fillformat) { get; } | فرمت پرکردن خط را برمی‌گرداند. فقط خواندنی [`ILineFillFormat`](../ilinefillformat). |
+| [IsFormatNotDefined](../../aspose.slides/ilineformat/isformatnotdefined) { get; } | در صورت عدم تعریف فرمت خط (به‌عنوان تازه ساخته شده، پیش‌فرض) مقدار true برگردانده می‌شود. فقط خواندنی Boolean. |
+| [JoinStyle](../../aspose.slides/ilineformat/joinstyle) { get; set; } | مقداردهی یا دریافت سبک اتصال خطوط. خواندن/نوشتن [`LineJoinStyle`](../linejoinstyle). |
+| [MiterLimit](../../aspose.slides/ilineformat/miterlimit) { get; set; } | مقداردهی یا دریافت حد مایتر خط. خواندن/نوشتن Single. |
+| [SketchFormat](../../aspose.slides/ilineformat/sketchformat) { get; } | فرمت طرح‌کش خط را برمی‌گرداند. فقط خواندنی [`ISketchFormat`](../isketchformat). |
+| [Style](../../aspose.slides/ilineformat/style) { get; set; } | مقداردهی یا دریافت سبک خط. خواندن/نوشتن [`LineStyle`](../linestyle). |
+| [Width](../../aspose.slides/ilineformat/width) { get; set; } | مقداردهی یا دریافت عرض خط. خواندن/نوشتن Double. |
 
 ## متدها
 
-| نام | توضیح |
+| Name | Description |
 | --- | --- |
-| [Equals](../../aspose.slides/ilineformat/equals)(ILineFormat) | تعیین می‌کند که آیا دو نمونه LineFormat برابر هستند یا خیر. |
-| [GetEffective](../../aspose.slides/ilineformat/geteffective)() | دریافت داده‌های قالب‌بندی مؤثر خط با اعمال ارث‌بری. |
+| [Equals](../../aspose.slides/ilineformat/equals)(ILineFormat) | تعیین می‌کند آیا دو نمونهٔ LineFormat برابر هستند یا نه. |
+| [GetEffective](../../aspose.slides/ilineformat/geteffective)() | داده‌های مؤثر قالب‌بندی خط را با اعمال ارث‌بری دریافت می‌کند. |
 
-### مراجع
+### موارد مرتبط
 
 * رابط [ILineParamSource](../ilineparamsource)
 * فضای‌نام [Aspose.Slides](../../aspose.slides)
-* اسمبل [Aspose.Slides](../../)
+* مجمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

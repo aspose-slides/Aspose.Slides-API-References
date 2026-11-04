@@ -1,9 +1,9 @@
 ---
 title: IDataLabel
 second_title: Referência da API Aspose.Sildes para .NET
-description: Representa rótulos de série.
+description: Representa os rótulos de série.
 type: docs
-weight: 2020
+weight: 2040
 url: /pt/aspose.slides.charts/idatalabel/
 ---
 ## IDataLabel interface
@@ -22,17 +22,18 @@ public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
 | [AsILayoutable](../../aspose.slides.charts/idatalabel/asilayoutable) { get; } | Retorna a interface ILayoutable. Somente leitura [`ILayoutable`](../ilayoutable). |
 | [AsIOverridableText](../../aspose.slides.charts/idatalabel/asioverridabletext) { get; } | Retorna a interface IOverridableText. Somente leitura [`IOverridableText`](../ioverridabletext). |
 | [DataLabelFormat](../../aspose.slides.charts/idatalabel/datalabelformat) { get; } | Retorna o formato do rótulo de dados. Somente leitura [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | Falso significa que o rótulo de dados não está visível (e assim todas as flags Show* (ShowValue, ...) são falsas). Somente leitura Boolean. |
+| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | False significa que o rótulo de dados não está visível (e, portanto, todas as flags Show*- (ShowValue, ...) são falsas). Somente leitura Boolean. |
+| [LabelShapeType](../../aspose.slides.charts/idatalabel/labelshapetype) { get; set; } | Obtém ou define o tipo de forma do rótulo de dados. Retorna NotDefined se nenhuma forma for definida. |
 | [ValueFromCell](../../aspose.slides.charts/idatalabel/valuefromcell) { get; set; } | Obtém ou define a célula de dados da pasta de trabalho. Aplicado se a propriedade IDataLabelFormat.ShowLabelValueFromCell for verdadeira. |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
-| [GetActualLabelText](../../aspose.slides.charts/idatalabel/getactuallabeltext)() | Retorna o texto real do rótulo com base nas configurações de DataLabelFormat ou no valor TextFrameForOverriding.Text. |
-| [Hide](../../aspose.slides.charts/idatalabel/hide)() | Torna o rótulo de dados oculto definindo todas as flags Show* (ShowValue, ...) para o estado falso. IsVisible será false após isso. |
+| [GetActualLabelText](../../aspose.slides.charts/idatalabel/getactuallabeltext)() | Retorna o texto real do rótulo com base nas configurações DataLabelFormat ou no valor TextFrameForOverriding.Text. |
+| [Hide](../../aspose.slides.charts/idatalabel/hide)() | Torna o rótulo de dados oculto definindo todas as flags Show*- (ShowValue, ...) para o estado falso. IsVisible será false após isso. |
 
-### Veja Também
+### Ver Também
 
 * interface [IActualLayout](../iactuallayout)
 * interface [ILayoutable](../ilayoutable)

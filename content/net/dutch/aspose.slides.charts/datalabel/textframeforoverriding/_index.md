@@ -1,14 +1,14 @@
 ---
 title: TextFrameForOverriding
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Kan een rijk opgemaakte tekst bevatten. Als deze eigenschap niet null is, dan vervangt deze opgemaakte tekstwaarde de automatisch gegenereerde tekst van het gegevenslabel. Automatisch gegenereerde tekst van het gegevenslabel betekent tekst die wordt beheerd door de eigenschappen ShowSeriesName ShowValue ... en die wordt opgemaakt met de eigenschap TextFormatManager.TextFormat. Alleen-lezen ITextFrameaspose.slides/itextframe.
+description: Kan een rijk opgemaakte tekst bevatten. Als deze eigenschap niet null is, dan overschrijft deze opgemaakte tekstwaarde de automatisch gegenereerde tekst van het gegevenslabel. Automatisch gegenereerde tekst van het gegevenslabel betekent tekst die wordt beheerd door ShowSeriesName ShowValue ... eigenschappen en die wordt opgemaakt met de TextFormatManager.TextFormat eigenschap. Alleen-lezen ITextFrameaspose.slides/itextframe.
 type: docs
-weight: 130
+weight: 140
 url: /nl/aspose.slides.charts/datalabel/textframeforoverriding/
 ---
 ## DataLabel.TextFrameForOverriding eigenschap
 
-Kan een rijk opgemaakte tekst bevatten. Als deze eigenschap niet null is, dan vervangt deze opgemaakte tekstwaarde de automatisch gegenereerde tekst van het gegevenslabel. Automatisch gegenereerde tekst van het gegevenslabel betekent tekst die wordt beheerd door de eigenschappen ShowSeriesName, ShowValue, ... en die wordt opgemaakt met de eigenschap TextFormatManager.TextFormat. Alleen-lezen [`ITextFrame`](../../../aspose.slides/itextframe).
+Kan een rijk opgemaakte tekst bevatten. Als deze eigenschap niet null is, dan overschrijft deze opgemaakte tekstwaarde de automatisch gegenereerde tekst van het gegevenslabel. Automatisch gegenereerde tekst van het gegevenslabel betekent tekst die wordt beheerd door ShowSeriesName, ShowValue, ... eigenschappen en die wordt opgemaakt met de TextFormatManager.TextFormat eigenschap. Alleen-lezen [`ITextFrame`](../../../aspose.slides/itextframe).
 
 ```csharp
 public ITextFrame TextFrameForOverriding { get; }

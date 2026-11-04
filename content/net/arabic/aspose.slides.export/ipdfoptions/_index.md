@@ -1,14 +1,14 @@
 ---
 title: IPdfOptions
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: يوفر خيارات تتحكم في كيفية حفظ العرض التقديمي بصيغة PDF.
+second_title: Aspose.Sildes لـ .NET مرجع واجهة برمجة التطبيقات
+description: يوفر خيارات تتحكم في كيفية حفظ عرض تقديمي بتنسيق PDF.
 type: docs
-weight: 4000
+weight: 4020
 url: /ar/aspose.slides.export/ipdfoptions/
 ---
 ## واجهة IPdfOptions
 
-يوفر خيارات تتحكم في كيفية حفظ العرض التقديمي بصيغة PDF.
+يوفر خيارات تتحكم في كيفية حفظ العرض التقديمي بتنسيق PDF.
 
 ```csharp
 public interface IPdfOptions : ISaveOptions
@@ -18,31 +18,31 @@ public interface IPdfOptions : ISaveOptions
 
 | الاسم | الوصف |
 | --- | --- |
-| [AccessPermissions](../../aspose.slides.export/ipdfoptions/accesspermissions) { get; set; } | يحتوي على مجموعة من العلامات التي تحدد أي أذونات وصول يجب منحها عندما يتم فتح المستند بصلاحيات المستخدم. انظر [`PdfAccessPermissions`](../pdfaccesspermissions). |
-| [AdditionalCommonFontFamilies](../../aspose.slides.export/ipdfoptions/additionalcommonfontfamilies) { get; set; } | يعيد أو يعيّن مصفوفة من أسماء عائلات الخطوط المعرفة من قبل المستخدم والتي يجب على Aspose.Slides اعتبارها شائعة. قراءة/كتابة String[]. |
-| [ApplyImageTransparent](../../aspose.slides.export/ipdfoptions/applyimagetransparent) { get; set; } | تطبق اللون الشفاف المحدد على الصورة إذا كان `true`. |
-| [AsISaveOptions](../../aspose.slides.export/ipdfoptions/asisaveoptions) { get; } | يعود واجهة ISaveOptions. للقراءة فقط [`ISaveOptions`](../isaveoptions). |
-| [BestImagesCompressionRatio](../../aspose.slides.export/ipdfoptions/bestimagescompressionratio) { get; set; } | يشير إلى ما إذا كان يجب اختيار أفضل ضغط لكل صورة تلقائيًا (بدلاً من الضبط الافتراضي). إذا تم تعيينه إلى Boolean.true، سيُختار الخوارزمية الأكثر ملاءمة لكل صورة في العرض التقديمي، مما يؤدي إلى حجم أصغر لمستند PDF الناتج. اختيار أفضل نسبة ضغط للصور يتطلب حسابيًا تكلفة عالية ويستهلك كمية إضافية من الذاكرة RAM، وهذا الخيار يكون Boolean.false افتراضيًا. |
-| [Compliance](../../aspose.slides.export/ipdfoptions/compliance) { get; set; } | المستوى المطلوب للامتثال للوثيقة PDF المولدة. قراءة/كتابة [`PdfCompliance`](../pdfcompliance). |
-| [DrawSlidesFrame](../../aspose.slides.export/ipdfoptions/drawslidesframe) { get; set; } | True لتحديد رسم إطار أسود حول كل شريحة. قراءة/كتابة Boolean. |
-| [EmbedFullFonts](../../aspose.slides.export/ipdfoptions/embedfullfonts) { get; set; } | يحدد ما إذا كان يجب تضمين جميع حروف الخط أو فقط مجموعة فرعية مستخدمة. قراءة/كتابة Boolean. |
-| [EmbedTrueTypeFontsForASCII](../../aspose.slides.export/ipdfoptions/embedtruetypefontsforascii) { get; set; } | True لتضمين خطوط TrueType لأحرف ASCII من 32 إلى 127. الخطوط لأكواد الأحرف التي تزيد عن 127 تُضمّن دائمًا. قراءة/كتابة Boolean. |
-| [ImageTransparentColor](../../aspose.slides.export/ipdfoptions/imagetransparentcolor) { get; set; } | يُعيد أو يعيّن اللون الشفاف للصورة. |
-| [IncludeOleData](../../aspose.slides.export/ipdfoptions/includeoledata) { get; set; } | True لتحويل جميع بيانات OLE من العرض إلى ملفات مضمّنة في مستند PDF الناتج. قراءة/كتابة Boolean. |
-| [InkOptions](../../aspose.slides.export/ipdfoptions/inkoptions) { get; } | يوفر خيارات تتحكم في مظهر كائنات الحبر في المستند المُصدَّر. للقراءة فقط [`IInkOptions`](../iinkoptions) |
-| [JpegQuality](../../aspose.slides.export/ipdfoptions/jpegquality) { get; set; } | يعيد أو يعيّن قيمة تحدد جودة صور JPEG داخل مستند PDF. قراءة/كتابة Byte. |
+| [AccessPermissions](../../aspose.slides.export/ipdfoptions/accesspermissions) { get; set; } | يحتوي على مجموعة من العلامات التي تحدد أي أذونات وصول يجب منحها عندما يتم فتح المستند باستخدام وصول المستخدم. انظر [`PdfAccessPermissions`](../pdfaccesspermissions). |
+| [AdditionalCommonFontFamilies](../../aspose.slides.export/ipdfoptions/additionalcommonfontfamilies) { get; set; } | يرجع أو يعيّن مصفوفة من أسماء عائلات الخطوط التي يحددها المستخدم والتي يجب أن تعتبرها Aspose.Slides عامة. قراءة/كتابة String[]. |
+| [ApplyImageTransparent](../../aspose.slides.export/ipdfoptions/applyimagetransparent) { get; set; } | يطبق اللون الشفاف المحدد على الصورة إذا كان `true`. |
+| [AsISaveOptions](../../aspose.slides.export/ipdfoptions/asisaveoptions) { get; } | يرجع واجهة ISaveOptions. قراءة فقط [`ISaveOptions`](../isaveoptions). |
+| [BestImagesCompressionRatio](../../aspose.slides.export/ipdfoptions/bestimagescompressionratio) { get; set; } | يشير إلى ما إذا كان يجب اختيار أفضل ضغط (بدلاً من الافتراضي) لكل صورة تلقائيًا. إذا تم تعيينه إلى Boolean.true، سيتم اختيار أفضل خوارزمية ضغط لكل صورة في العرض التقديمي، مما يؤدي إلى تقليل حجم مستند PDF الناتج. اختيار أفضل نسبة ضغط للصور يتطلب حسابًا مكثفًا ويستهلك مقدارًا إضافيًا من الذاكرة RAM، وهذا الخيار هو Boolean.false بشكل افتراضي. |
+| [Compliance](../../aspose.slides.export/ipdfoptions/compliance) { get; set; } | مستوى الامتثال المطلوب لمستند PDF المتولد. قراءة/كتابة [`PdfCompliance`](../pdfcompliance). |
+| [DrawSlidesFrame](../../aspose.slides.export/ipdfoptions/drawslidesframe) { get; set; } | True لرسم إطار أسود حول كل شريحة. قراءة/كتابة Boolean. |
+| [EmbedFullFonts](../../aspose.slides.export/ipdfoptions/embedfullfonts) { get; set; } | يحدد ما إذا كان يجب تضمين جميع أحرف الخط أو فقط الجزء المستخدم. قراءة/كتابة Boolean. |
+| [EmbedTrueTypeFontsForASCII](../../aspose.slides.export/ipdfoptions/embedtruetypefontsforascii) { get; set; } | True لتضمين خطوط TrueType لأحرف ASCII من 32 إلى 127. الخطوط للأكواد التي تزيد عن 127 دائمًا ما تكون مضمَّنة. قراءة/كتابة Boolean. |
+| [ImageTransparentColor](../../aspose.slides.export/ipdfoptions/imagetransparentcolor) { get; set; } | يعيّن أو يقرأ لون الشفافية للصورة. |
+| [IncludeOleData](../../aspose.slides.export/ipdfoptions/includeoledata) { get; set; } | True لتحويل جميع بيانات OLE من العرض التقديمي إلى ملفات مضمَّنة في ملف PDF الناتج. قراءة/كتابة Boolean. |
+| [InkOptions](../../aspose.slides.export/ipdfoptions/inkoptions) { get; } | يوفر خيارات تتحكم في مظهر كائنات الحبر في المستند المُصدَّر. قراءة فقط [`IInkOptions`](../iinkoptions) |
+| [JpegQuality](../../aspose.slides.export/ipdfoptions/jpegquality) { get; set; } | يرجع أو يعيّن قيمة تحدد جودة صور JPEG داخل مستند PDF. قراءة/كتابة Byte. |
 | [Password](../../aspose.slides.export/ipdfoptions/password) { get; set; } | تعيين كلمة مرور المستخدم لحماية مستند PDF. قراءة/كتابة String. |
-| [RasterizeUnsupportedFontStyles](../../aspose.slides.export/ipdfoptions/rasterizeunsupportedfontstyles) { get; set; } | يشير إلى ما إذا كان يجب تحويل النص إلى نقطية (bitmap) وحفظه في PDF عندما لا يدعم الخط تنسيق غامق. يمكن لهذا النهج تحسين جودة النص في PDF الناتج لبعض الخطوط. قراءة/كتابة Boolean. |
-| [SaveMetafilesAsPng](../../aspose.slides.export/ipdfoptions/savemetafilesaspng) { get; set; } | True لتحويل جميع ملفات الميتا المستخدمة في العرض إلى صور PNG. قراءة/كتابة Boolean. |
-| [ShowHiddenSlides](../../aspose.slides.export/ipdfoptions/showhiddenslides) { get; set; } | حدد ما إذا كان المستند المولّد يجب أن يتضمن الشرائح المخفية أم لا. القيمة الافتراضية هي `false`. |
-| [SlidesLayoutOptions](../../aspose.slides.export/ipdfoptions/slideslayoutoptions) { get; set; } | يُعيد أو يعيّن الوضع الذي توضع فيه الشرائح على الصفحة عند تصدير العرض [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [SufficientResolution](../../aspose.slides.export/ipdfoptions/sufficientresolution) { get; set; } | يعيد أو يعيّن قيمة تحدد دقة الصور داخل مستند PDF. |
-| [TextCompression](../../aspose.slides.export/ipdfoptions/textcompression) { get; set; } | يحدد نوع الضغط الذي سيُستخدم لجميع المحتويات النصية في المستند. قراءة/كتابة [`PdfTextCompression`](../pdftextcompression). |
+| [RasterizeUnsupportedFontStyles](../../aspose.slides.export/ipdfoptions/rasterizeunsupportedfontstyles) { get; set; } | يشير إلى ما إذا كان يجب تحويل النص إلى صورة نقطية (bitmap) وحفظه في PDF عندما لا يدعم الخط تنسيق الغامق. يمكن لهذا النهج تحسين جودة النص في PDF الناتج لبعض الخطوط. قراءة/كتابة Boolean. |
+| [SaveMetafilesAsPng](../../aspose.slides.export/ipdfoptions/savemetafilesaspng) { get; set; } | True لتحويل جميع ملفات الميتا المستخدمة في العرض التقديمي إلى صور PNG. قراءة/كتابة Boolean. |
+| [ShowHiddenSlides](../../aspose.slides.export/ipdfoptions/showhiddenslides) { get; set; } | يحدد ما إذا كان المستند المتولد يجب أن يتضمن الشرائح المخفية أم لا. القيمة الافتراضية هي `false`. |
+| [SlidesLayoutOptions](../../aspose.slides.export/ipdfoptions/slideslayoutoptions) { get; set; } | يعيّن أو يقرأ الوضع الذي تُوضع فيه الشرائح على الصفحة عند تصدير العرض التقديمي [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [SufficientResolution](../../aspose.slides.export/ipdfoptions/sufficientresolution) { get; set; } | يرجع أو يعيّن قيمة تحدد دقة الصور داخل مستند PDF. |
+| [TextCompression](../../aspose.slides.export/ipdfoptions/textcompression) { get; set; } | يحدد نوع الضغط الذي سيُستخدم لكافة المحتوى النصي في المستند. قراءة/كتابة [`PdfTextCompression`](../pdftextcompression). |
 
-### انظر أيضًا
+### أنظر أيضًا
 
 * واجهة [ISaveOptions](../isaveoptions)
-* نطاق [Aspose.Slides.Export](../../aspose.slides.export)
+* نطاق الاسم [Aspose.Slides.Export](../../aspose.slides.export)
 * تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

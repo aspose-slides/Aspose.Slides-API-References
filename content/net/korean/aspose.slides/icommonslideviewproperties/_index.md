@@ -1,14 +1,14 @@
 ---
 title: ICommonSlideViewProperties
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 공통 슬라이드 뷰 속성을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참고 문서
+description: 공통 슬라이드 보기 속성을 나타냅니다.
 type: docs
-weight: 5600
+weight: 5620
 url: /ko/aspose.slides/icommonslideviewproperties/
 ---
 ## ICommonSlideViewProperties 인터페이스
 
-공통 슬라이드 뷰 속성을 나타냅니다.
+Represents common slide view properties.
 
 ```csharp
 public interface ICommonSlideViewProperties
@@ -19,10 +19,10 @@ public interface ICommonSlideViewProperties
 | 이름 | 설명 |
 | --- | --- |
 | [DrawingGuides](../../aspose.slides/icommonslideviewproperties/drawingguides) { get; } | 그리기 가이드의 컬렉션을 반환합니다. 읽기 전용 [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | 퍼센트 단위로 뷰 스케일링 비율을 지정합니다. 읽기/쓰기 Int32. |
-| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | 뷰 콘텐츠가 현재 창 크기에 최적화되도록 자동으로 스케일링되도록 지정합니다. 읽기/쓰기 Boolean. |
+| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | 뷰 스케일 비율을 백분율로 지정합니다. 읽기/쓰기 Int32. |
+| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | 뷰 콘텐츠가 현재 창 크기에 맞게 자동으로 스케일되도록 지정합니다. 읽기/쓰기 Boolean. |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

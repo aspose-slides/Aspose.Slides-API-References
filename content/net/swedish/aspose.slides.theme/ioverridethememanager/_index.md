@@ -1,9 +1,9 @@
 ---
 title: IOverrideThemeManager
 second_title: Aspose.Sildes för .NET API-referens
-description: Ger åtkomst till olika typer av överskrivna teman.
+description: Tillhandahåller åtkomst till olika typer av överskrivna teman.
 type: docs
-weight: 11350
+weight: 11370
 url: /sv/aspose.slides.theme/ioverridethememanager/
 ---
 ## IOverrideThemeManager gränssnitt
@@ -19,8 +19,8 @@ public interface IOverrideThemeManager : IThemeManager
 | Namn | Beskrivning |
 | --- | --- |
 | [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | Tillåter att hämta bas IThemeManager gränssnitt. Skrivskyddad [`IThemeManager`](../ithememanager). |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | Bestämmer om OverrideTheme överskriver ärvt effektivt tema eller inte. För att aktivera OverrideTheme för överskrivning, använd OverrideTheme.Init*()-metoderna. För att inaktivera OverrideTheme från överskrivning, använd OverrideTheme.Clear()-metoden. Skrivskyddad Boolesk. |
-| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | Returnerar det överskrivande temats objekt. Läs/skriv [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | Bestämmer om OverrideTheme överskrider ärvt effektivt tema eller inte. För att aktivera OverrideTheme för överskrivning använd OverrideTheme.Init*() metoder. För att inaktivera OverrideTheme från överskrivning använd OverrideTheme.Clear() metod. Skrivskyddad Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | Returnerar det överskrivande tematobjektet. Läs/skriv [`IOverrideTheme`](../ioverridetheme). |
 
 ### Se även
 

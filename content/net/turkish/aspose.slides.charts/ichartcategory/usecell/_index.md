@@ -1,14 +1,14 @@
 ---
 title: UseCell
-second_title: Aspose.Sildes .NET API Referansı
-description: Eğer true ise AsCell özelliği geçerlidir. Başka bir deyişle worksheet kategori depolamak için kullanılır; bu durumda çok seviyeli kategori desteklenir. Eğer false ise AsLiteral özelliği geçerlidir. Başka bir deyişle worksheet kategori depolamak için KULLANILMAZ ve bu durumda çok seviyeli kategoriler desteklenmez. Yalnızca okunabilir Boolean.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Doğruysa AsCell özelliği geçerlidir. Başka bir deyişle, çalışma sayfası kategori depolamak için kullanılır; bu durumda çok seviyeli kategori desteklenir. Yanlışsa AsLiteral özelliği geçerlidir. Başka bir deyişle, çalışma sayfası kategori depolamak için KULLANILMAZ ve bu durumda çok seviyeli kategoriler desteklenmez. Salt okunur Boolean.
 type: docs
-weight: 40
+weight: 50
 url: /tr/aspose.slides.charts/ichartcategory/usecell/
 ---
 ## IChartCategory.UseCell özelliği
 
-Eğer true ise AsCell özelliği geçerlidir. Başka bir deyişle, worksheet kategori depolamak için kullanılır (bu durumda çok seviyeli kategori desteklenir). Eğer false ise AsLiteral özelliği geçerlidir. Başka bir deyişle, worksheet kategori depolamak için KULLANILMAZ (ve bu durumda çok seviyeli kategoriler desteklenmez). Yalnızca okunabilir Boolean.
+Eğer doğruysa AsCell özelliği geçerlidir. Başka bir deyişle, çalışma sayfası kategori depolamak için kullanılır (bu durumda çok seviyeli kategori desteklenir). Eğer yanlışsa AsLiteral özelliği geçerlidir. Başka bir deyişle, çalışma sayfası kategori depolamak için kullanılmaz (ve bu durumda çok seviyeli kategoriler desteklenmez). Salt okunur Boolean.
 
 ```csharp
 public bool UseCell { get; }
@@ -16,7 +16,7 @@ public bool UseCell { get; }
 
 ### Açıklamalar
 
-Bu özelliğin değerini değiştirmek için (koleksiyondaki tüm kategoriler için) ChartCategoryCollection.UseCells özelliğine yeni değeri atayın.
+Bu özelliğin değerini değiştirmek için (koleksiyondaki tüm kategoriler için) ChartCategoryCollection.UseCells özelliğine yeni değer atayın.
 
 ### Ayrıca Bakınız
 

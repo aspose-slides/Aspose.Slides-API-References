@@ -1,9 +1,9 @@
 ---
 title: SummaryZoomSectionCollection
-second_title: "Aspose.Sildes для .NET: справочник API"
+second_title: Aspose.Sildes для .NET справка API
 description: Представляет коллекцию объектов Summary Zoom Section.
 type: docs
-weight: 10790
+weight: 10810
 url: /ru/aspose.slides/summaryzoomsectioncollection/
 ---
 ## SummaryZoomSectionCollection класс
@@ -20,7 +20,7 @@ public sealed class SummaryZoomSectionCollection : DomObject<SummaryZoomFrame>,
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.slides/summaryzoomsectioncollection/count) { get; } | Получает фактическое количество элементов, содержащихся в коллекции. Только для чтения Int32. |
-| [IsSynchronized](../../aspose.slides/summaryzoomsectioncollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потокобезопасный). Только для чтения Boolean. |
+| [IsSynchronized](../../aspose.slides/summaryzoomsectioncollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (thread-safe). Только для чтения Boolean. |
 | [Item](../../aspose.slides/summaryzoomsectioncollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`ISummaryZoomSection`](../isummaryzoomsection). |
 | [SyncRoot](../../aspose.slides/summaryzoomsectioncollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
 
@@ -28,7 +28,7 @@ public sealed class SummaryZoomSectionCollection : DomObject<SummaryZoomFrame>,
 
 | Имя | Описание |
 | --- | --- |
-| [AddSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/addsummaryzoomsection)(ISection) | Создает новый объект Summary Zoom Section и добавляет его в коллекцию |
+| [AddSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/addsummaryzoomsection)(ISection) | Создаёт новый объект Summary Zoom Section и добавляет его в коллекцию |
 | [Clear](../../aspose.slides/summaryzoomsectioncollection/clear)() | Удаляет все объекты SummaryZoomSection из коллекции. |
 | [CopyTo](../../aspose.slides/summaryzoomsectioncollection/copyto)(Array, int) | Копирует всю коллекцию в указанный массив. |
 | [GetEnumerator](../../aspose.slides/summaryzoomsectioncollection/getenumerator)() | Возвращает перечислитель, который перебирает элементы коллекции. |

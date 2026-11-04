@@ -1,12 +1,12 @@
 ---
 title: GradientShape
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili bentuk isian gradien.
 type: docs
-weight: 5010
+weight: 5030
 url: /id/aspose.slides/gradientshape/
 ---
-## enumerasi GradientShape
+## GradientShape enumerasi
 
 Mewakili bentuk isian gradien.
 

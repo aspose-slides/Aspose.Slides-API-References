@@ -3,10 +3,10 @@ title: IParagraph
 second_title: Aspose.Sildes için .NET API Referansı
 description: Bir metnin paragrafını temsil eder.
 type: docs
-weight: 6560
+weight: 6580
 url: /tr/aspose.slides/iparagraph/
 ---
-## IParagraph arayüzü
+## IParagraph arayüz
 
 Bir metnin paragrafını temsil eder.
 
@@ -16,21 +16,23 @@ public interface IParagraph : ISlideComponent
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/iparagraph/asislidecomponent) { get; } | Base ISlideComponent arayüzünü almayı sağlar. Salt Okunur [`ISlideComponent`](../islidecomponent). |
-| [EndParagraphPortionFormat](../../aspose.slides/iparagraph/endparagraphportionformat) { get; set; } | Son bölümden sonra başka bir bölüm eklendiğinde kullanılacak kısım özelliklerini belirtir. |
-| [ParagraphFormat](../../aspose.slides/iparagraph/paragraphformat) { get; } | Bu paragraf için biçimlendirme nesnesini döndürür. Salt Okunur [`IParagraphFormat`](../iparagraphformat). |
-| [Portions](../../aspose.slides/iparagraph/portions) { get; } | Metin bölümlerinin koleksiyonunu döndürür. Salt Okunur [`IPortionCollection`](../iportioncollection). |
-| [Text](../../aspose.slides/iparagraph/text) { get; set; } | Paragrafın düz metnini alır veya ayarlar. Okunur/Yazılabilir String. |
+| [AsISlideComponent](../../aspose.slides/iparagraph/asislidecomponent) { get; } | Temel ISlideComponent arayüzünü almayı sağlar. Yalnızca okuma [`ISlideComponent`](../islidecomponent). |
+| [EndParagraphPortionFormat](../../aspose.slides/iparagraph/endparagraphportionformat) { get; set; } | Sonuncusundan sonra başka bir bölüm eklendiğinde kullanılacak bölüm özelliklerini belirtir. |
+| [ParagraphFormat](../../aspose.slides/iparagraph/paragraphformat) { get; } | Bu paragraf için biçimlendirme nesnesini döndürür. Yalnızca okuma [`IParagraphFormat`](../iparagraphformat). |
+| [Portions](../../aspose.slides/iparagraph/portions) { get; } | Metin bölümlerinin koleksiyonunu döndürür. Yalnızca okuma [`IPortionCollection`](../iportioncollection). |
+| [Text](../../aspose.slides/iparagraph/text) { get; set; } | Bir paragrafın düz metnini alır veya ayarlar. Okuma/yazma String. |
 
 ## Yöntemler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [GetLinesCount](../../aspose.slides/iparagraph/getlinescount)() | Paragraftaki satır sayısını al. |
-| [GetRect](../../aspose.slides/iparagraph/getrect)() | Paragrafı sınırlayan dikdörtgenin koordinatlarını al. Dikdörtgen, paragraftaki tüm metin satırlarını, boş olanlar da dahil, içerir. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/iparagraph/joinportionswithsameformatting)() | Aynı biçimlendirmeye sahip koşuları birleştirir. |
+| [GetImage](../../aspose.slides/iparagraph/getimage#getimage)() | Paragrafın bir görüntüsünü döndürür. |
+| [GetImage](../../aspose.slides/iparagraph/getimage#getimage_1)(float, float) | Belirtilen ölçekle paragrafın bir görüntüsünü döndürür. |
+| [GetLinesCount](../../aspose.slides/iparagraph/getlinescount)() | Bir paragraftaki satır sayısını alır. |
+| [GetRect](../../aspose.slides/iparagraph/getrect)() | Paragrafı sınırlayan dikdörtgenin koordinatlarını alır. Dikdörtgen, paragraftaki tüm metin satırlarını, boş olanlar dahil, içerir. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/iparagraph/joinportionswithsameformatting)() | Aynı biçimlendirmeye sahip koşulları birleştirir. |
 
 ### Ayrıca Bakınız
 

@@ -1,9 +1,9 @@
 ---
 title: SchemeColor
-second_title: "Aspose.Sildes для .NET: справочник API"
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет цвета в цветовой схеме.
 type: docs
-weight: 9740
+weight: 9760
 url: /ru/aspose.slides/schemecolor/
 ---
 ## SchemeColor перечисление

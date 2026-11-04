@@ -1,61 +1,61 @@
 ---
 title: FieldType
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: फ़ील्ड के एक प्रकार का प्रतिनिधित्व करता है। यह मान निर्धारित करता है कि अपडेट होने पर फ़ील्ड भाग में कौन सा टेक्स्ट सेट किया जाएगा।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: फ़ील्ड का प्रकार दर्शाता है। यह मान निर्धारित करता है कि फ़ील्ड भाग को अपडेट किए जाने पर कौनसा पाठ सेट किया जाएगा।
 type: docs
-weight: 4760
+weight: 4780
 url: /hi/aspose.slides/fieldtype/
 ---
 ## FieldType क्लास
 
-फ़ील्ड के एक प्रकार का प्रतिनिधित्व करता है। यह मान निर्धारित करता है कि फ़ील्ड भाग में कौन सा टेक्स्ट अपडेट होने पर सेट किया जाएगा।
+फ़ील्ड का प्रकार दर्शाता है। यह मान निर्धारित करता है कि फ़ील्ड भाग के अद्यतन होने पर कौनसा पाठ सेट किया जाएगा।
 
 ```csharp
 public sealed class FieldType : IFieldType
 ```
 
-## निर्माता
+## कन्स्ट्रक्टर्स
 
 | नाम | विवरण |
 | --- | --- |
-| [FieldType](fieldtype)(string) | FieldType क्लास का नया उदाहरण आरंभ करता है। |
+| [FieldType](fieldtype)(string) | FieldType क्लास का नया उदाहरण प्रारम्भ करता है। |
 
 ## गुण
 
 | नाम | विवरण |
 | --- | --- |
-| static [DateTime](../../aspose.slides/fieldtype/datetime) { get; } | रेंडरिंग एप्लिकेशन के लिए डिफ़ॉल्ट दिनांक समय स्वरूप में वर्तमान तिथि और समय। Read-only [`FieldType`](../fieldtype). |
-| static [DateTime1](../../aspose.slides/fieldtype/datetime1) { get; } | अंग्रेज़ी के लिए (MM/DD/YYYY) पहला पूर्वनिर्धारित स्वरूप में वर्तमान तिथि और समय। Read-only [`FieldType`](../fieldtype). |
-| static [DateTime10](../../aspose.slides/fieldtype/datetime10) { get; } | अंग्रेज़ी के लिए (hh:mm) दसवां पूर्वनिर्धारित स्वरूप में वर्तमान तिथि और समय। Read-only [`FieldType`](../fieldtype). |
-| static [DateTime11](../../aspose.slides/fieldtype/datetime11) { get; } | अंग्रेज़ी के लिए (hh:mm:ss) ग्यारहवां पूर्वनिर्धारित स्वरूप में वर्तमान तिथि और समय। Read-only [`FieldType`](../fieldtype). |
-| static [DateTime12](../../aspose.slides/fieldtype/datetime12) { get; } | अंग्रेज़ी के लिए (hh:mm AM/PM) बारहवां पूर्वनिर्धारित स्वरूप में वर्तमान तिथि और समय। Read-only [`FieldType`](../fieldtype). |
-| static [DateTime13](../../aspose.slides/fieldtype/datetime13) { get; } | अंग्रेज़ी के लिए (hh:mm:ss AM/PM) तेरहवां पूर्वनिर्धारित स्वरूप में वर्तमान तिथि और समय। Read-only [`FieldType`](../fieldtype). |
-| static [DateTime2](../../aspose.slides/fieldtype/datetime2) { get; } | अंग्रेज़ी के लिए (Day, Month DD, YYYY) दूसरा पूर्वनिर्धारित स्वरूप में वर्तमान तिथि और समय। Read-only [`FieldType`](../fieldtype). |
-| static [DateTime3](../../aspose.slides/fieldtype/datetime3) { get; } | अंग्रेज़ी के लिए (DD Month YYYY) तीसरा पूर्वनिर्धारित स्वरूप में वर्तमान तिथि और समय। Read-only [`FieldType`](../fieldtype). |
-| static [DateTime4](../../aspose.slides/fieldtype/datetime4) { get; } | अंग्रेज़ी के लिए (Month DD, YYYY) चौथा पूर्वनिर्धारित स्वरूप में वर्तमान तिथि और समय। Read-only [`FieldType`](../fieldtype). |
-| static [DateTime5](../../aspose.slides/fieldtype/datetime5) { get; } | अंग्रेज़ी के लिए (DD-Mon-YY) पाँचवां पूर्वनिर्धारित स्वरूप में वर्तमान तिथि और समय। Read-only [`FieldType`](../fieldtype). |
-| static [DateTime6](../../aspose.slides/fieldtype/datetime6) { get; } | अंग्रेज़ी के लिए (Month YY) छठा पूर्वनिर्धारित स्वरूप में वर्तमान तिथि और समय। Read-only [`FieldType`](../fieldtype). |
-| static [DateTime7](../../aspose.slides/fieldtype/datetime7) { get; } | अंग्रेज़ी के लिए (Mon-YY) सातवां पूर्वनिर्धारित स्वरूप में वर्तमान तिथि और समय। Read-only [`FieldType`](../fieldtype). |
-| static [DateTime8](../../aspose.slides/fieldtype/datetime8) { get; } | अंग्रेज़ी के लिए (MM/DD/YYYY hh:mm AM/PM) आठवां पूर्वनिर्धारित स्वरूप में वर्तमान तिथि और समय। Read-only [`FieldType`](../fieldtype). |
-| static [DateTime9](../../aspose.slides/fieldtype/datetime9) { get; } | अंग्रेज़ी के लिए (MM/DD/YYYY hh:mm:ss AM/PM) नौवां पूर्वनिर्धारित स्वरूप में वर्तमान तिथि और समय। Read-only [`FieldType`](../fieldtype). |
-| static [Footer](../../aspose.slides/fieldtype/footer) { get; } | स्लाइड का फ़ूटर। Read-only [`FieldType`](../fieldtype). |
-| static [Header](../../aspose.slides/fieldtype/header) { get; } | स्लाइड का हेडर। Read-only [`FieldType`](../fieldtype). |
-| static [SlideNumber](../../aspose.slides/fieldtype/slidenumber) { get; } | वर्तमान स्लाइड का नंबर। Read-only [`FieldType`](../fieldtype). |
-| [InternalString](../../aspose.slides/fieldtype/internalstring) { get; set; } | इस FieldType ऑब्जेक्ट का आंतरिक नाम लौटाता है। Read/write String. |
+| static [DateTime](../../aspose.slides/fieldtype/datetime) { get; } | रेंडरिंग अनुप्रयोग के लिए डिफ़ॉल्ट तिथि-समय प्रारूप में वर्तमान तिथि और समय। केवल-पढ़ने योग्य [`FieldType`](../fieldtype)। |
+| static [DateTime1](../../aspose.slides/fieldtype/datetime1) { get; } | पहली पूर्वनिर्धारित प्रारूप (MM/DD/YYYY अंग्रेज़ी के लिये) में वर्तमान तिथि और समय। केवल-पढ़ने योग्य [`FieldType`](../fieldtype)। |
+| static [DateTime10](../../aspose.slides/fieldtype/datetime10) { get; } | दसवीं पूर्वनिर्धारित प्रारूप (hh:mm अंग्रेज़ी के लिये) में वर्तमान तिथि और समय। केवल-पढ़ने योग्य [`FieldType`](../fieldtype)। |
+| static [DateTime11](../../aspose.slides/fieldtype/datetime11) { get; } | ग्यारहवीं पूर्वनिर्धारित प्रारूप (hh:mm:ss अंग्रेज़ी के लिये) में वर्तमान तिथि और समय। केवल-पढ़ने योग्य [`FieldType`](../fieldtype)। |
+| static [DateTime12](../../aspose.slides/fieldtype/datetime12) { get; } | बारहवीं पूर्वनिर्धारित प्रारूप (hh:mm AM/PM अंग्रेज़ी के लिये) में वर्तमान तिथि और समय। केवल-पढ़ने योग्य [`FieldType`](../fieldtype)। |
+| static [DateTime13](../../aspose.slides/fieldtype/datetime13) { get; } | तेरहवीं पूर्वनिर्धारित प्रारूप (hh:mm:ss AM/PM अंग्रेज़ी के लिये) में वर्तमान तिथि और समय। केवल-पढ़ने योग्य [`FieldType`](../fieldtype)। |
+| static [DateTime2](../../aspose.slides/fieldtype/datetime2) { get; } | दूसरी पूर्वनिर्धारित प्रारूप (Day, Month DD, YYYY अंग्रेज़ी के लिये) में वर्तमान तिथि और समय। केवल-पढ़ने योग्य [`FieldType`](../fieldtype)। |
+| static [DateTime3](../../aspose.slides/fieldtype/datetime3) { get; } | तीसरी पूर्वनिर्धारित प्रारूप (DD Month YYYY अंग्रेज़ी के लिये) में वर्तमान तिथि और समय। केवल-पढ़ने योग्य [`FieldType`](../fieldtype)। |
+| static [DateTime4](../../aspose.slides/fieldtype/datetime4) { get; } | चौथी पूर्वनिर्धारित प्रारूप (Month DD, YYYY अंग्रेज़ी के लिये) में वर्तमान तिथि और समय। केवल-पढ़ने योग्य [`FieldType`](../fieldtype)। |
+| static [DateTime5](../../aspose.slides/fieldtype/datetime5) { get; } | पाँचवीं पूर्वनिर्धारित प्रारूप (DD-Mon-YY अंग्रेज़ी के लिये) में वर्तमान तिथि और समय। केवल-पढ़ने योग्य [`FieldType`](../fieldtype)। |
+| static [DateTime6](../../aspose.slides/fieldtype/datetime6) { get; } | छठी पूर्वनिर्धारित प्रारूप (Month YY अंग्रेज़ी के लिये) में वर्तमान तिथि और समय। केवल-पढ़ने योग्य [`FieldType`](../fieldtype)। |
+| static [DateTime7](../../aspose.slides/fieldtype/datetime7) { get; } | सातवीं पूर्वनिर्धारित प्रारूप (Mon-YY अंग्रेज़ी के लिये) में वर्तमान तिथि और समय। केवल-पढ़ने योग्य [`FieldType`](../fieldtype)। |
+| static [DateTime8](../../aspose.slides/fieldtype/datetime8) { get; } | आठवीं पूर्वनिर्धारित प्रारूप (MM/DD/YYYY hh:mm AM/PM अंग्रेज़ी के लिये) में वर्तमान तिथि और समय। केवल-पढ़ने योग्य [`FieldType`](../fieldtype)। |
+| static [DateTime9](../../aspose.slides/fieldtype/datetime9) { get; } | नौवीं पूर्वनिर्धारित प्रारूप (MM/DD/YYYY hh:mm:ss AM/PM अंग्रेज़ी के लिये) में वर्तमान तिथि और समय। केवल-पढ़ने योग्य [`FieldType`](../fieldtype)। |
+| static [Footer](../../aspose.slides/fieldtype/footer) { get; } | स्लाइड का फुटर। केवल-पढ़ने योग्य [`FieldType`](../fieldtype)। |
+| static [Header](../../aspose.slides/fieldtype/header) { get; } | स्लाइड का हेडर। केवल-पढ़ने योग्य [`FieldType`](../fieldtype)। |
+| static [SlideNumber](../../aspose.slides/fieldtype/slidenumber) { get; } | वर्तमान स्लाइड का क्रमांक। केवल-पढ़ने योग्य [`FieldType`](../fieldtype)। |
+| [InternalString](../../aspose.slides/fieldtype/internalstring) { get; set; } | इस FieldType ऑब्जेक्ट का आंतरिक नाम लौटाता है। पढ़ने/लिखने योग्य स्ट्रिंग। |
 
-## मेथड
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| override [Equals](../../aspose.slides/fieldtype/equals)(object) | जांच करता है कि यह फ़ील्ड दूसरे से समान है या नहीं। |
-| override [GetHashCode](../../aspose.slides/fieldtype/gethashcode)() | इस ऑब्जेक्ट के लिए हैशकोड लौटाता है। |
-| [operator ==](../../aspose.slides/fieldtype/op_equality) | जांच करता है कि दो FieldType ऑब्जेक्ट समान हैं या नहीं। |
-| [operator !=](../../aspose.slides/fieldtype/op_inequality) | जांच करता है कि दो FieldType ऑब्जेक्ट असमान हैं या नहीं। |
+| override [Equals](../../aspose.slides/fieldtype/equals)(object) | जाँचता है कि यह फ़ील्ड किसी अन्य के बराबर है या नहीं। |
+| override [GetHashCode](../../aspose.slides/fieldtype/gethashcode)() | इस ऑब्जेक्ट के हैशकोड को लौटाता है। |
+| [operator ==](../../aspose.slides/fieldtype/op_equality) | जाँचता है कि दो FieldType ऑब्जेक्ट बराबर हैं या नहीं। |
+| [operator !=](../../aspose.slides/fieldtype/op_inequality) | जाँचता है कि दो FieldType ऑब्जेक्ट असमान हैं या नहीं। |
 
 ### संबंधित देखें
 
-* इंटरफ़ेस [IFieldType](../ifieldtype)
-* नेमस्पेस [Aspose.Slides](../../aspose.slides)
-* असेंबली [Aspose.Slides](../../)
+* interface [IFieldType](../ifieldtype)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

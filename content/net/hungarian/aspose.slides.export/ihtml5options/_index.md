@@ -3,29 +3,29 @@ title: IHtml5Options
 second_title: Aspose.Sildes .NET API referencia
 description: HTML5 exportálási beállításokat képvisel.
 type: docs
-weight: 3930
+weight: 3950
 url: /hu/aspose.slides.export/ihtml5options/
 ---
-## IHtml5Options interface
+## IHtml5Options interfész
 
-HTML5 exportálási beállításokat képvisel.
+HTML5 exportálási beállításokat képviseli.
 
 ```csharp
 public interface IHtml5Options : ISaveOptions
 ```
 
-## Properties
+## Tulajdonságok
 
 | Név | Leírás |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | Visszaadja vagy beállítja a formák animációs beállítását. Olvasás/írás Boolean. |
-| [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | Visszaadja vagy beállítja az átmenetek animációs beállítását. Olvasás/írás Boolean. |
-| [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | Visszaadja az ISaveOptions interfész. Csak olvasható [`ISaveOptions`](../isaveoptions). |
-| [DisableFontLigatures](../../aspose.slides.export/ihtml5options/disablefontligatures) { get; set; } | Lekérdezi vagy beállítja azt az értéket, amely meghatározza, hogy a szöveg ligatúrák használata nélkül legyen renderelve. Ha `true`-ra van állítva, a ligatúrák le lesznek tiltva a kimeneti megjelenítésben. Alapértelmezés szerint ez a tulajdonság `false`-ra van állítva. |
+| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | Visszaadja vagy beállítja a shapes animációs beállítást. Olvasás/írás Boolean. |
+| [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | Visszaadja vagy beállítja a transitions animációs beállítást. Olvasás/írás Boolean. |
+| [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | Visszaadja az ISaveOptions interfészt. Csak olvasható [`ISaveOptions`](../isaveoptions). |
+| [DisableFontLigatures](../../aspose.slides.export/ihtml5options/disablefontligatures) { get; set; } | Lekéri vagy beállítja azt az értéket, amely megadja, hogy a szöveg ligatúrák használata nélkül legyen-e renderelve. Ha `true` értékre van állítva, a ligatúrák le lesznek tiltva a renderelt kimenetben. Alapértelmezés szerint ez a tulajdonság `false` értékre van állítva. |
 | [EmbedImages](../../aspose.slides.export/ihtml5options/embedimages) { get; set; } | Visszaadja vagy beállítja a képek beágyazási beállítását. Olvasás/írás Boolean. |
-| [OutputPath](../../aspose.slides.export/ihtml5options/outputpath) { get; set; } | Meghatározza, hogy a külső erőforrások hol legyenek tárolva. Olvasás/írás String. |
+| [OutputPath](../../aspose.slides.export/ihtml5options/outputpath) { get; set; } | Meghatározza, hogy hol legyenek tárolva a külső erőforrások. Olvasás/írás String. |
 | [PicturesCompression](../../aspose.slides.export/ihtml5options/picturescompression) { get; set; } | A képek tömörítési szintjét képviseli. Olvasás/írás [`PicturesCompression`](./picturescompression). |
-| [SlidesLayoutOptions](../../aspose.slides.export/ihtml5options/slideslayoutoptions) { get; set; } | Lekérdezi vagy beállítja a módot, amelyben a diák a lapra kerülnek egy prezentáció exportálásakor [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [SlidesLayoutOptions](../../aspose.slides.export/ihtml5options/slideslayoutoptions) { get; set; } | Lekéri vagy beállítja azt a módot, ahogyan a diák a lapra kerülnek egy prezentáció exportálásakor [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### Példák
 

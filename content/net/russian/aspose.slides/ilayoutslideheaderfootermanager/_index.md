@@ -1,14 +1,14 @@
 ---
 title: ILayoutSlideHeaderFooterManager
-second_title: Справочник API Aspose.Sildes для .NET
-description: Представляет менеджер, который управляет поведением заполнителей нижнего колонтитула, даты и времени, номера страницы макетного слайда и всех дочерних заполнителей. Дочерние заполнители означают, что заполнители находятся на зависимых слайдах. Зависимые слайды используют и зависят от макетного слайда.
+second_title: Aspose.Sildes для .NET справки по API
+description: Представляет менеджер, который содержит поведение нижнего колонтитула слайда макета, заполнителей даты и времени, номера страницы и всех дочерних заполнителей. Дочерние заполнители означают, что заполнители находятся на зависимых слайдах. Зависимые слайды используют и зависят от слайда макета.
 type: docs
-weight: 6240
+weight: 6260
 url: /ru/aspose.slides/ilayoutslideheaderfootermanager/
 ---
 ## ILayoutSlideHeaderFooterManager интерфейс
 
-Представляет менеджер, который управляет поведением заполнителей нижнего колонтитула, даты и времени, номера страницы макетного слайда и всех дочерних заполнителей. Дочерние заполнители означают, что заполнители находятся на зависимых слайдах. Зависимые слайды используют и зависят от макетного слайда.
+Представляет менеджер, который содержит поведение нижнего колонтитула слайда макета, заполнителя даты и времени, номера страницы и всех дочерних заполнителей. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах. Зависимые слайды используют и зависят от слайда макета.
 
 ```csharp
 public interface ILayoutSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -24,16 +24,16 @@ public interface ILayoutSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 | Имя | Описание |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Устанавливает текст в заполнитель даты-времени макетного слайда и во все дочерние заполнители даты-времени. Дочерние заполнители означают, что заполнители находятся на зависимых слайдах. Зависимые слайды используют и зависят от макетного слайда. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Изменяет видимость заполнителя даты-времени макетного слайда и всех дочерних заполнителей даты-времени. Дочерние заполнители означают, что заполнители находятся на зависимых слайдах. Зависимые слайды используют и зависят от макетного слайда. |
-| [SetFooterAndChildFootersText](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | Устанавливает текст в заполнитель нижнего колонтитула макетного слайда и во все дочерние заполнители нижнего колонтитула. Дочерние заполнители означают, что заполнители находятся на зависимых слайдах. Зависимые слайды используют и зависят от макетного слайда. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Изменяет видимость заполнителя нижнего колонтитула макетного слайда и всех дочерних заполнителей нижнего колонтитула. Дочерние заполнители означают, что заполнители находятся на зависимых слайдах. Зависимые слайды используют и зависят от главного слайда. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Изменяет видимость заполнителя номера страницы макетного слайда и всех дочерних заполнителей номера страницы. Дочерние заполнители означают, что заполнители находятся на зависимых слайдах. Зависимые слайды используют и зависят от макетного слайда. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Устанавливает текст в заполнитель даты и времени слайда макета и во все дочерние заполнители даты и времени. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах. Зависимые слайды используют и зависят от слайда макета. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Изменяет видимость заполнителя даты и времени слайда макета и всех дочерних заполнителей даты и времени. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах. Зависимые слайды используют и зависят от слайда макета. |
+| [SetFooterAndChildFootersText](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | Устанавливает текст в заполнитель нижнего колонтитула слайда макета и во все дочерние заполнители нижнего колонтитула. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах. Зависимые слайды используют и зависят от слайда макета. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Изменяет видимость заполнителя нижнего колонтитула слайда макета и всех дочерних заполнителей нижнего колонтитула. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах. Зависимые слайды используют и зависят от мастер-слайда. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Изменяет видимость заполнителя номера страницы слайда макета и всех дочерних заполнителей номера страницы. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах. Зависимые слайды используют и зависят от слайда макета. |
 
 ### См. также
 
 * интерфейс [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
-* пространство имён [Aspose.Slides](../../aspose.slides)
+* пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

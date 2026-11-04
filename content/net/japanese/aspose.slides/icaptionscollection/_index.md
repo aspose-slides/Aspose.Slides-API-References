@@ -1,14 +1,14 @@
 ---
 title: ICaptionsCollection
 second_title: Aspose.Sildes for .NET API リファレンス
-description: クローズドキャプションのコレクションを表します。
+description: 閉じたキャプションのコレクションを表します。
 type: docs
-weight: 5440
+weight: 5460
 url: /ja/aspose.slides/icaptionscollection/
 ---
 ## ICaptionsCollection インターフェイス
 
-クローズドキャプションのコレクションを表します。
+閉じたキャプションのコレクションを表します。
 
 ```csharp
 public interface ICaptionsCollection : IEnumerable<ICaptions>
@@ -16,20 +16,20 @@ public interface ICaptionsCollection : IEnumerable<ICaptions>
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [Count](../../aspose.slides/icaptionscollection/count) { get; } | コレクション内の要素数を返します。読み取り専用 Int32. |
-| [Item](../../aspose.slides/icaptionscollection/item) { get; } | 指定されたインデックスのクローズドキャプションを返します。読み取り専用 [`ICaptions`](../icaptions). |
+| [Count](../../aspose.slides/icaptionscollection/count) { get; } | コレクション内の要素数を返します。読み取り専用 Int32。 |
+| [Item](../../aspose.slides/icaptionscollection/item) { get; } | 指定されたインデックスの閉じたキャプションを返します。読み取り専用 [`ICaptions`](../icaptions)。 |
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [Add](../../aspose.slides/icaptionscollection/add#add)(string, Stream) | ストリームからコレクションの末尾に WebVTT クローズドキャプションを追加します。 |
-| [Add](../../aspose.slides/icaptionscollection/add#add_1)(string, string) | コレクションの末尾に WebVTT クローズドキャプションを追加します。 |
-| [Clear](../../aspose.slides/icaptionscollection/clear)() | コレクションからすべてのクローズドキャプションを削除します。 |
-| [Remove](../../aspose.slides/icaptionscollection/remove)(ICaptions) | コレクションから指定されたクローズドキャプションを削除します。 |
-| [RemoveAt](../../aspose.slides/icaptionscollection/removeat)(int) | 指定されたインデックスのクローズドキャプションを削除します。 |
+| [Add](../../aspose.slides/icaptionscollection/add#add)(string, Stream) | ストリームからコレクションの末尾に WebVTT 閉じたキャプションを追加します。 |
+| [Add](../../aspose.slides/icaptionscollection/add#add_1)(string, string) | コレクションの末尾に WebVTT 閉じたキャプションを追加します。 |
+| [Clear](../../aspose.slides/icaptionscollection/clear)() | コレクションからすべての閉じたキャプションを削除します。 |
+| [Remove](../../aspose.slides/icaptionscollection/remove)(ICaptions) | コレクションから指定された閉じたキャプションを削除します。 |
+| [RemoveAt](../../aspose.slides/icaptionscollection/removeat)(int) | 指定されたインデックスの閉じたキャプションを削除します。 |
 
 ### 参照
 

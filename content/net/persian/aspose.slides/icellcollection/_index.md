@@ -1,25 +1,25 @@
 ---
 title: ICellCollection
 second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایانگر یک مجموعه از سلول‌ها.
+description: نمایانگر یک مجموعه از سلول‌ها است.
 type: docs
-weight: 5460
+weight: 5480
 url: /fa/aspose.slides/icellcollection/
 ---
 ## ICellCollection رابط
 
-نمایانگر یک مجموعه از سلول‌ها.
+نمایانگر یک مجموعه از سلول‌ها است.
 
 ```csharp
 public interface ICellCollection : IGenericCollection<ICell>, ISlideComponent
 ```
 
-## ویژگی‌ها
+## خصوصیات
 
 | نام | توضیح |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/icellcollection/asislidecomponent) { get; } | اجازه می‌دهد رابط پایه ISlideComponent را دریافت کند. فقط-خواندنی [`ISlideComponent`](../islidecomponent). |
-| [Item](../../aspose.slides/icellcollection/item) { get; } | یک سلول را بر اساس موقعیت آن برمی‌گرداند. فقط-خواندنی [`ICell`](../icell). |
+| [AsISlideComponent](../../aspose.slides/icellcollection/asislidecomponent) { get; } | اجازه می‌دهد رابط ISlideComponent پایه را دریافت کند. فقط‌خواندنی [`ISlideComponent`](../islidecomponent). |
+| [Item](../../aspose.slides/icellcollection/item) { get; } | یک سلول را بر اساس موقعیت آن برمی‌گرداند. فقط‌خواندنی [`ICell`](../icell). |
 
 ### موارد مرتبط
 

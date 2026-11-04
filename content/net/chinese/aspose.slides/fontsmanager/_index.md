@@ -1,14 +1,14 @@
 ---
 title: FontsManager
-second_title: Aspose.Sildes for .NET API 参考
-description: 在整个演示文稿中管理字体。
+second_title: Aspose.Sildes .NET API 参考
+description: 管理整个演示文稿中的字体。
 type: docs
-weight: 4940
+weight: 4960
 url: /zh/aspose.slides/fontsmanager/
 ---
 ## FontsManager 类
 
-在整个演示文稿中管理字体。
+管理整个演示文稿中的字体。
 
 ```csharp
 public class FontsManager : IFontsManager
@@ -18,29 +18,30 @@ public class FontsManager : IFontsManager
 
 | 名称 | 描述 |
 | --- | --- |
-| [FontFallBackRulesCollection](../../aspose.slides/fontsmanager/fontfallbackrulescollection) { get; set; } | 表示用户的 FontFallBack 规则集合，用于通过回退功能管理字体集合以实现适当的替换。读/写 [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection)。 |
+| [FontFallBackRulesCollection](../../aspose.slides/fontsmanager/fontfallbackrulescollection) { get; set; } | 表示用户的 FontFallBack 规则集合，用于管理字体集合，以通过回退功能进行适当的替换。读/写 [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection)。 |
 | [FontSubstRuleList](../../aspose.slides/fontsmanager/fontsubstrulelist) { get; set; } | 在渲染时使用的字体替换。读/写 [`IFontSubstRuleCollection`](../ifontsubstrulecollection)。 |
+| [PreferRegisteredFontsOverEmbedded](../../aspose.slides/fontsmanager/preferregisteredfontsoverembedded) { get; set; } | 指定是否应优先使用已注册的字体而不是具有相同字体名称和样式的嵌入式字体。启用后，匹配的嵌入式字体将在导出期间临时替换为相应的已注册字体。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | 添加嵌入字体。请注意，在复制任何字体时，大多数字体受版权保护。请先查找字体的许可证并确认可以自由转移到其他机器。如果 font data 为 null 或该字体已嵌入，将抛出 ArgumentException。 |
-| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | 添加嵌入字体。请注意，在复制任何字体时，大多数字体受版权保护。请先查找字体的许可证并确认可以自由转移到其他机器。如果 font data 为 null 或该字体已嵌入，将抛出 ArgumentException。 |
+| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | 添加嵌入式字体。请注意，复制任何字体时，大多数字体受版权保护。请先查找字体的许可并确认可以自由转移到其他机器。如果字体数据为 null 或该字体已嵌入，则会抛出 ArgumentException。 |
+| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | 添加嵌入式字体。请注意，复制任何字体时，大多数字体受版权保护。请先查找字体的许可并确认可以自由转移到其他机器。如果字体数据为 null 或该字体已嵌入，则会抛出 ArgumentException。 |
 | [GetEmbeddedFonts](../../aspose.slides/fontsmanager/getembeddedfonts)() | 返回嵌入在演示文稿中的字体 |
-| [GetFontBytes](../../aspose.slides/fontsmanager/getfontbytes)(IFontData, FontStyleType) | 检索表示指定字体样式和字体数据的字节数组。 |
-| [GetFontEmbeddingLevel](../../aspose.slides/fontsmanager/getfontembeddinglevel)(byte[], string) | 根据给定的字节数组和字体名称确定字体的嵌入级别。 |
+| [GetFontBytes](../../aspose.slides/fontsmanager/getfontbytes)(IFontData, FontStyleType) | 检索表示指定字体样式和字体数据的字节数组 |
+| [GetFontEmbeddingLevel](../../aspose.slides/fontsmanager/getfontembeddinglevel)(byte[], string) | 确定给定字节数组和字体名称对应的字体嵌入级别 |
 | [GetFonts](../../aspose.slides/fontsmanager/getfonts)() | 返回演示文稿中使用的字体 |
-| [GetSubstitutions](../../aspose.slides/fontsmanager/getsubstitutions#getsubstitutions)() | 获取将在演示文稿渲染时被替换的字体信息。 |
-| [GetSubstitutions](../../aspose.slides/fontsmanager/getsubstitutions#getsubstitutions_1)(int[]) | 获取在指定幻灯片渲染期间将被替换的字体信息。 |
+| [GetSubstitutions](../../aspose.slides/fontsmanager/getsubstitutions#getsubstitutions)() | 获取在演示文稿渲染时将被替换的字体信息 |
+| [GetSubstitutions](../../aspose.slides/fontsmanager/getsubstitutions#getsubstitutions_1)(int[]) | 获取在指定幻灯片渲染期间将被替换的字体信息 |
 | [RemoveEmbeddedFont](../../aspose.slides/fontsmanager/removeembeddedfont)(IFontData) | 移除嵌入的字体 |
-| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_1)(IFontSubstRule) | 使用 [`FontSubstRule`](../fontsubstrule) 中提供的信息替换演示文稿中的字体 |
-| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | 使用 [`FontSubstRule`](../fontsubstrule) 集合中提供的信息替换演示文稿中的字体 |
-| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont)(IFontData, IFontData) | 替换演示文稿中的字体 |
+| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_1)(IFontSubstRule) | 使用 [`FontSubstRule`](../fontsubstrule) 提供的信息在演示文稿中替换字体 |
+| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | 使用 [`FontSubstRule`](../fontsubstrule) 集合提供的信息在演示文稿中替换字体 |
+| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont)(IFontData, IFontData) | 在演示文稿中替换字体 |
 
 ### 示例
 
-以下示例展示了如何将嵌入字体添加到 PowerPoint 演示文稿。
+以下示例展示了如何向 PowerPoint 演示文稿添加嵌入式字体。
 
 ```csharp
 [C#]
@@ -63,7 +64,7 @@ using (Presentation presentation = new Presentation("Fonts.pptx"))
 }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IFontsManager](../ifontsmanager)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

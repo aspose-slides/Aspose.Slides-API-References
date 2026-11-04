@@ -1,9 +1,9 @@
 ---
 title: IBulletFormatEffectiveData
-second_title: Aspose.Sildes 的 .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 不可变对象，包含有效段落项目符号格式属性。
 type: docs
-weight: 5400
+weight: 5420
 url: /zh/aspose.slides/ibulletformateffectivedata/
 ---
 ## IBulletFormatEffectiveData 接口
@@ -23,8 +23,8 @@ public interface IBulletFormatEffectiveData
 | [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | 返回段落的项目符号填充格式。只读 [`IFillFormatEffectiveData`](../ifillformateffectivedata)。 |
 | [Font](../../aspose.slides/ibulletformateffectivedata/font) { get; } | 返回段落的项目符号字体。只读 [`IFontData`](../ifontdata)。 |
 | [Height](../../aspose.slides/ibulletformateffectivedata/height) { get; } | 返回段落的项目符号高度。只读 Single。 |
-| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | 确定项目符号是否具有独立颜色，或从段落的第一部分继承颜色。若项目符号具有独立颜色则返回 **true**，若项目符号从段落的第一部分继承颜色则返回 **false**。只读 Boolean。 |
-| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | 确定项目符号是否具有独立字体，或从段落的第一部分继承字体。若项目符号具有独立字体则返回 **true**，若项目符号从段落的第一部分继承字体则返回 **true**。只读 Boolean。 |
+| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | 确定项目符号是否具有自己的颜色，或从段落的第一部分继承颜色。若项目符号具有自己的颜色则返回 **true**，若项目符号从段落的第一部分继承颜色则返回 **false**。只读 Boolean。 |
+| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | 确定项目符号是否具有自己的字体，或从段落的第一部分继承字体。若项目符号具有自己的字体则返回 **true**，若项目符号从段落的第一部分继承字体则返回 **true**。只读 Boolean。 |
 | [NumberedBulletStartWith](../../aspose.slides/ibulletformateffectivedata/numberedbulletstartwith) { get; } | 返回用于编号项目符号组的第一个数字。只读 Int16。 |
 | [NumberedBulletStyle](../../aspose.slides/ibulletformateffectivedata/numberedbulletstyle) { get; } | 返回编号项目符号的样式。只读 [`NumberedBulletStyle`](../numberedbulletstyle)。 |
 | [Type](../../aspose.slides/ibulletformateffectivedata/type) { get; } | 返回段落的项目符号类型。只读 [`BulletType`](../bullettype)。 |

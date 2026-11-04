@@ -3,12 +3,12 @@ title: IGraphicalObjectLock
 second_title: Aspose.Sildes .NET API 参考
 description: 确定在父 GraphicalObjectEx 上禁用哪些操作。
 type: docs
-weight: 6070
+weight: 6090
 url: /zh/aspose.slides/igraphicalobjectlock/
 ---
 ## IGraphicalObjectLock 接口
 
-确定在父 GraphicalObjectEx 上禁用哪些操作。
+确定在父 GraphicalObjectEx 上哪些操作被禁用。
 
 ```csharp
 public interface IGraphicalObjectLock : IBaseShapeLock
@@ -18,15 +18,15 @@ public interface IGraphicalObjectLock : IBaseShapeLock
 
 | Name | Description |
 | --- | --- |
-| [AsIBaseShapeLock](../../aspose.slides/igraphicalobjectlock/asibaseshapelock) { get; } | 允许获取基 IBaseShapeLock 接口。只读 [`IBaseShapeLock`](../ibaseshapelock)。 |
-| [AspectRatioLocked](../../aspose.slides/igraphicalobjectlock/aspectratiolocked) { get; set; } | 确定在调整大小时形状是否必须保持宽高比。读/写 Boolean。 |
+| [AsIBaseShapeLock](../../aspose.slides/igraphicalobjectlock/asibaseshapelock) { get; } | 允许获取基础 IBaseShapeLock 接口。只读 [`IBaseShapeLock`](../ibaseshapelock)。 |
+| [AspectRatioLocked](../../aspose.slides/igraphicalobjectlock/aspectratiolocked) { get; set; } | 确定在调整大小时是否必须保持形状的宽高比。读/写 Boolean。 |
 | [DrilldownLocked](../../aspose.slides/igraphicalobjectlock/drilldownlocked) { get; set; } | 确定是否禁止选择此对象的子形状。读/写 Boolean。 |
 | [GroupingLocked](../../aspose.slides/igraphicalobjectlock/groupinglocked) { get; set; } | 确定是否禁止将此形状添加到组中。读/写 Boolean。 |
 | [PositionLocked](../../aspose.slides/igraphicalobjectlock/positionlocked) { get; set; } | 确定是否禁止移动此形状。读/写 Boolean。 |
 | [SelectLocked](../../aspose.slides/igraphicalobjectlock/selectlocked) { get; set; } | 确定是否禁止选择此形状。读/写 Boolean。 |
 | [SizeLocked](../../aspose.slides/igraphicalobjectlock/sizelocked) { get; set; } | 确定是否禁止调整此形状的大小。读/写 Boolean。 |
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IBaseShapeLock](../ibaseshapelock)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

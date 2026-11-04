@@ -1,14 +1,14 @@
 ---
 title: IOleObjectFrame
-second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
-description: แทนอ็อบเจกต์ OLE บนสไลด์
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+description: แสดงอ็อบเจกต์ OLE บนสไลด์.
 type: docs
-weight: 6540
+weight: 6560
 url: /th/aspose.slides/ioleobjectframe/
 ---
 ## IOleObjectFrame อินเทอร์เฟซ
 
-แทนอ็อบเจกต์ OLE บนสไลด์
+แสดงอ็อบเจกต์ OLE บนสไลด์.
 
 ```csharp
 public interface IOleObjectFrame : IGraphicalObject
@@ -16,26 +16,26 @@ public interface IOleObjectFrame : IGraphicalObject
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/ioleobjectframe/asigraphicalobject) { get; } | อนุญาตให้รับอินเทอร์เฟซ IGraphicalObject พื้นฐาน. อ่านอย่างเดียว [`IGraphicalObject`](../igraphicalobject). |
-| [EmbeddedData](../../aspose.slides/ioleobjectframe/embeddeddata) { get; } | รับข้อมูลเกี่ยวกับข้อมูลที่ฝังอยู่ของ OLE. อ่านอย่างเดียว [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo). |
-| [EmbeddedFileLabel](../../aspose.slides/ioleobjectframe/embeddedfilelabel) { get; } | คืนค่าชื่อไฟล์ของอ็อบเจกต์ OLE ที่ฝังไว้ |
-| [EmbeddedFileName](../../aspose.slides/ioleobjectframe/embeddedfilename) { get; } | คืนค่าพาธของอ็อบเจกต์ OLE ที่ฝังไว้ |
-| [IsObjectIcon](../../aspose.slides/ioleobjectframe/isobjecticon) { get; set; } | กำหนดว่าควรแสดงอ็อบเจกต์เป็นไอคอนหรือไม่. อ่าน/เขียน Boolean. |
-| [IsObjectLink](../../aspose.slides/ioleobjectframe/isobjectlink) { get; } | กำหนดว่าควรเชื่อมต่ออ็อบเจกต์กับไฟล์ภายนอกหรือไม่. อ่านอย่างเดียว Boolean. |
-| [LinkFileName](../../aspose.slides/ioleobjectframe/linkfilename) { get; } | คืนค่าพาธเต็มของไฟล์ที่เชื่อมโยง. จะใช้ชื่อไฟล์สั้น. อ่านอย่างเดียว String. |
-| [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | คืนค่าพาธเต็มของไฟล์ที่เชื่อมโยง. จะใช้ชื่อไฟล์ยาว. อ่าน/เขียน String. |
-| [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | คืนค่าพาธสัมพัทธ์ของไฟล์ที่เชื่อมโยง หากมี, มิฉะนั้นจะคืนสตริงว่าง. อ่านอย่างเดียว String. |
-| [ObjectName](../../aspose.slides/ioleobjectframe/objectname) { get; set; } | คืนค่าหรือกำหนดชื่อของอ็อบเจกต์. อ่าน/เขียน String. |
-| [ObjectProgId](../../aspose.slides/ioleobjectframe/objectprogid) { get; set; } | คืนค่า ProgID ของอ็อบเจกต์. อ่านอย่างเดียว String. |
-| [SubstitutePictureFormat](../../aspose.slides/ioleobjectframe/substitutepictureformat) { get; } | คืนค่าอ็อบเจกต์คุณสมบัติการเติมภาพของ OleObject. อ่านอย่างเดียว [`IPictureFillFormat`](../ipicturefillformat). |
-| [SubstitutePictureTitle](../../aspose.slides/ioleobjectframe/substitutepicturetitle) { get; set; } | คืนค่าหรือกำหนดชื่อเรื่องสำหรับไอคอน OleObject. อ่าน/เขียน String. |
-| [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | กำหนดว่าควรอัพเดตอ็อบเจกต์ที่ฝังและเชื่อมโยงโดยอัตโนมัติเมื่อเปิดหรือพิมพ์งานนำเสนอหรือไม่. อ่าน/เขียน Boolean. |
+| [AsIGraphicalObject](../../aspose.slides/ioleobjectframe/asigraphicalobject) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IGraphicalObject เบื้องต้นได้ อ่านอย่างเดียว [`IGraphicalObject`](../igraphicalobject). |
+| [EmbeddedData](../../aspose.slides/ioleobjectframe/embeddeddata) { get; } | ดึงข้อมูลเกี่ยวกับข้อมูลที่ฝังอยู่ของ OLE. อ่านอย่างเดียว [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo). |
+| [EmbeddedFileLabel](../../aspose.slides/ioleobjectframe/embeddedfilelabel) { get; } | คืนชื่อไฟล์ของอ็อบเจกต์ OLE ที่ฝังอยู่ |
+| [EmbeddedFileName](../../aspose.slides/ioleobjectframe/embeddedfilename) { get; } | คืนเส้นทางของอ็อบเจกต์ OLE ที่ฝังอยู่ |
+| [IsObjectIcon](../../aspose.slides/ioleobjectframe/isobjecticon) { get; set; } | กำหนดว่าอ็อบเจกต์จะแสดงเป็นไอคอนหรือไม่. อ่าน/เขียน Boolean. |
+| [IsObjectLink](../../aspose.slides/ioleobjectframe/isobjectlink) { get; } | กำหนดว่าอ็อบเจกต์ถูกลิงก์ไปยังไฟล์ภายนอกหรือไม่. อ่านอย่างเดียว Boolean. |
+| [LinkFileName](../../aspose.slides/ioleobjectframe/linkfilename) { get; } | คืนเส้นทางเต็มไปยังไฟล์ที่ลิงก์. จะใช้ชื่อไฟล์สั้น. อ่านอย่างเดียว String. |
+| [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | คืนเส้นทางเต็มไปยังไฟล์ที่ลิงก์. จะใช้ชื่อไฟล์ยาว. อ่าน/เขียน String. |
+| [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | คืนเส้นทางสัมพัทธ์ไปยังไฟล์ที่ลิงก์หากมี, หากไม่มีจะคืนสตริงว่าง. อ่านอย่างเดียว String. |
+| [ObjectName](../../aspose.slides/ioleobjectframe/objectname) { get; set; } | คืนหรือกำหนดชื่อของอ็อบเจกต์. อ่าน/เขียน String. |
+| [ObjectProgId](../../aspose.slides/ioleobjectframe/objectprogid) { get; set; } | คืน ProgID ของอ็อบเจกต์. อ่านอย่างเดียว String. |
+| [SubstitutePictureFormat](../../aspose.slides/ioleobjectframe/substitutepictureformat) { get; } | คืนอ็อบเจกต์คุณสมบัติการเติมภาพของ OleObject. อ่านอย่างเดียว [`IPictureFillFormat`](../ipicturefillformat). |
+| [SubstitutePictureTitle](../../aspose.slides/ioleobjectframe/substitutepicturetitle) { get; set; } | คืนหรือกำหนดชื่อเรื่องสำหรับไอคอน OleObject. อ่าน/เขียน String. |
+| [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | กำหนดว่าอ็อบเจกต์ที่ฝังและลิงก์จะอัปเดตอัตโนมัติเมื่อเปิดหรือพิมพ์งานนำเสนอหรือไม่. อ่าน/เขียน Boolean. |
 
-## เมธอด
+## วิธีการ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
 | [SetEmbeddedData](../../aspose.slides/ioleobjectframe/setembeddeddata)(IOleEmbeddedDataInfo) | ตั้งค่าข้อมูลเกี่ยวกับข้อมูลที่ฝังอยู่ของ OLE. |
 

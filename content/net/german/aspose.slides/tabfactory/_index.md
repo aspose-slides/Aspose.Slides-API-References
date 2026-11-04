@@ -3,7 +3,7 @@ title: TabFactory
 second_title: Aspose.Sildes for .NET API-Referenz
 description: Ermöglicht das Erstellen von ITab-Instanzen
 type: docs
-weight: 10850
+weight: 10870
 url: /de/aspose.slides/tabfactory/
 ---
 ## TabFactory Klasse
@@ -26,7 +26,7 @@ public class TabFactory : ITabFactory
 | --- | --- |
 | [CreateTab](../../aspose.slides/tabfactory/createtab)(double, TabAlignment) | Erstellt eine neue ITab-Instanz. |
 
-### Bemerkungen
+### Anmerkungen
 
 Für COM-Kompatibilität.
 

@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlide
-second_title: Aspose.Slides dla .NET API Reference
-description: Reprezentuje główny slajd dla notatek.
+second_title: Aspose.Sildes dla .NET – referencja API
+description: Reprezentuje główny slajd notatek.
 type: docs
-weight: 6350
+weight: 6370
 url: /pl/aspose.slides/imasterhandoutslide/
 ---
 ## IMasterHandoutSlide interfejs
 
-Reprezentuje główny slajd dla notatek.
+Reprezentuje główny slajd notatek.
 
 ```csharp
 public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
@@ -18,10 +18,10 @@ public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | Umożliwia pobranie bazowego interfejsu IBaseSlide. Tylko do odczytu [`IBaseSlide`](../ibaseslide). |
+| [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | Umożliwia pobranie podstawowego interfejsu IBaseSlide. Tylko do odczytu [`IBaseSlide`](../ibaseslide). |
 | [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | Zwraca interfejs IMasterThemeable. Tylko do odczytu [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [DrawingGuides](../../aspose.slides/imasterhandoutslide/drawingguides) { get; } | Zwraca kolekcję przewodników rysunkowych dla głównego slajdu notatek. Tylko do odczytu [`IDrawingGuidesCollection`](../idrawingguidescollection). |
-| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | Zwraca menedżera HeaderFooter głównego slajdu notatek. Tylko do odczytu [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
+| [DrawingGuides](../../aspose.slides/imasterhandoutslide/drawingguides) { get; } | Zwraca kolekcję przewodników rysunkowych dla slajdu głównego notatek. Tylko do odczytu [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | Zwraca menedżera HeaderFooter slajdu głównego notatek. Tylko do odczytu [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
 
 ### Zobacz także
 

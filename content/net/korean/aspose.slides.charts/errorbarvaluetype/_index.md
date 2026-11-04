@@ -1,14 +1,14 @@
 ---
 title: ErrorBarValueType
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 오류 막대 값의 유형을 나타냅니다
+second_title: Aspose.Sildes for .NET API 참조
+description: 오류 막대 값 유형을 나타냅니다
 type: docs
-weight: 1650
+weight: 1660
 url: /ko/aspose.slides.charts/errorbarvaluetype/
 ---
 ## ErrorBarValueType 열거형
 
-오류 막대 값의 유형을 나타냅니다.
+오류 막대 값 유형을 나타냅니다
 
 ```csharp
 public enum ErrorBarValueType
@@ -18,13 +18,13 @@ public enum ErrorBarValueType
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| Custom | `0` | 오류 막대의 길이가 Plus 및 Minus 요소에 의해 결정됨을 지정합니다. |
-| Fixed | `1` | 오류 막대의 길이가 Error Bar Value에 의해 결정된 고정값임을 지정합니다. |
-| Percentage | `2` | 오류 막대의 길이가 데이터의 Error Bar Value 퍼센트임을 지정합니다. |
-| StandardDeviation | `3` | 오류 막대의 길이가 데이터의 Error Bar Value 표준편차임을 지정합니다. |
-| StandardError | `4` | 오류 막대의 길이가 데이터의 Error Bar Value 표준오차임을 지정합니다. |
+| Custom | `0` | 오류 막대의 길이는 Plus와 Minus 요소에 의해 결정됩니다. |
+| Fixed | `1` | 오류 막대의 길이는 Error Bar Value에 의해 결정된 고정 값입니다. |
+| Percentage | `2` | 오류 막대의 길이는 데이터의 Error Bar Value 퍼센트입니다. |
+| StandardDeviation | `3` | 오류 막대의 길이는 데이터의 Error Bar Value 표준편차입니다. |
+| StandardError | `4` | 오류 막대의 길이는 데이터의 Error Bar Value 표준오차입니다. |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 어셈블리 [Aspose.Slides](../../)

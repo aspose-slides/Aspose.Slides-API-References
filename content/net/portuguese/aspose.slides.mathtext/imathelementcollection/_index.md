@@ -1,9 +1,9 @@
 ---
 title: IMathElementCollection
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa uma coleção de elementos matemáticos MathElement.
 type: docs
-weight: 8240
+weight: 8260
 url: /pt/aspose.slides.mathtext/imathelementcollection/
 ---
 ## IMathElementCollection interface
@@ -16,7 +16,7 @@ public interface IMathElementCollection : IEnumerable<IMathElement>
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.mathtext/imathelementcollection/asienumerable) { get; } | Retorna a interface IEnumerable. Somente leitura IEnumerable. |
 | [Count](../../aspose.slides.mathtext/imathelementcollection/count) { get; } | Obtém o número de elementos realmente contidos na coleção. Somente leitura Int32. |
@@ -24,7 +24,7 @@ public interface IMathElementCollection : IEnumerable<IMathElement>
 
 ## Métodos
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides.mathtext/imathelementcollection/add)(IMathElement) | Adiciona um elemento matemático ao final da coleção. |
 | [Clear](../../aspose.slides.mathtext/imathelementcollection/clear)() | Remove todos os elementos da coleção. |
@@ -44,7 +44,7 @@ Exemplo:
 IMathElementCollection collection = new MathBlock();
 ```
 
-### Veja Também
+### Ver também
 
 * interface [IMathElement](../imathelement)
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

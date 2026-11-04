@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Valore. Di sola lettura IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+description: Valore. Sola lettura IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 190
+weight: 230
 url: /it/aspose.slides.charts/chartdatapoint/value/
 ---
 ## ChartDataPoint.Value proprietà
 
-Valore. Di sola lettura [`IDoubleChartValue`](../../idoublechartvalue).
+Valore. Sola lettura [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue Value { get; }

@@ -1,9 +1,9 @@
 ---
 title: ColorStringFormat
-second_title: Aspose.Sildes a .NET API referencia
+second_title: Aspose.Sildes a .NET API Referenciához
 description: Egy hiperhivatkozás művelet típusát reprezentálja.
 type: docs
-weight: 2560
+weight: 2580
 url: /hu/aspose.slides/colorstringformat/
 ---
 ## ColorStringFormat enumeráció

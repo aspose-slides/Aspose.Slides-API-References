@@ -1,14 +1,14 @@
 ---
 title: SmartArtShapeCollection
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta una raccolta di forme SmartArt
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Rappresenta una collezione di forme SmartArt
 type: docs
-weight: 10670
+weight: 10690
 url: /it/aspose.slides.smartart/smartartshapecollection/
 ---
 ## SmartArtShapeCollection classe
 
-Rappresenta una raccolta di forme SmartArt
+Rappresenta una collezione di forme SmartArt
 
 ```csharp
 public class SmartArtShapeCollection : ISmartArtShapeCollection
@@ -16,19 +16,19 @@ public class SmartArtShapeCollection : ISmartArtShapeCollection
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides.smartart/smartartshapecollection/count) { get; } | Restituisce il numero di elementi effettivamente contenuti nella raccolta. Sola lettura Int32. |
-| [IsSynchronized](../../aspose.slides.smartart/smartartshapecollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla raccolta è sincronizzato (thread-safe). Sola lettura Boolean. |
-| [Item](../../aspose.slides.smartart/smartartshapecollection/item) { get; } | Restituisce l'elemento all'indice specificato. Sola lettura [`SmartArtShape`](../smartartshape).&gt;. |
-| [SyncRoot](../../aspose.slides.smartart/smartartshapecollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Sola lettura Object. |
+| [Count](../../aspose.slides.smartart/smartartshapecollection/count) { get; } | Ottiene il numero di elementi effettivamente contenuti nella collezione. Solo lettura Int32. |
+| [IsSynchronized](../../aspose.slides.smartart/smartartshapecollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla collezione è sincronizzato (thread-safe). Solo lettura Boolean. |
+| [Item](../../aspose.slides.smartart/smartartshapecollection/item) { get; } | Ottiene l'elemento all'indice specificato. Solo lettura [`SmartArtShape`](../smartartshape).&gt;. |
+| [SyncRoot](../../aspose.slides.smartart/smartartshapecollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Solo lettura Object. |
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [CopyTo](../../aspose.slides.smartart/smartartshapecollection/copyto)(Array, int) | Copia tutti gli elementi dalla raccolta nell'array specificato. |
-| [GetEnumerator](../../aspose.slides.smartart/smartartshapecollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la raccolta. |
+| [CopyTo](../../aspose.slides.smartart/smartartshapecollection/copyto)(Array, int) | Copia tutti gli elementi dalla collezione nell'array specificato. |
+| [GetEnumerator](../../aspose.slides.smartart/smartartshapecollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la collezione. |
 
 ### Vedi anche
 

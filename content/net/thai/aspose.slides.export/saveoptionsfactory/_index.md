@@ -1,9 +1,9 @@
 ---
 title: SaveOptionsFactory
-second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: อนุญาตให้สร้างอินสแตนซ์ของตัวเลือกการบันทึก
 type: docs
-weight: 4460
+weight: 4480
 url: /th/aspose.slides.export/saveoptionsfactory/
 ---
 ## SaveOptionsFactory คลาส
@@ -18,17 +18,17 @@ public class SaveOptionsFactory : ISaveOptionsFactory
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [SaveOptionsFactory](saveoptionsfactory)() | คอนสตรัคเตอร์เริ่มต้น |
+| [SaveOptionsFactory](saveoptionsfactory)() | คอนสตรัคเตอร์เริ่มต้น. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CreatePptxOptions](../../aspose.slides.export/saveoptionsfactory/createpptxoptions)() | สร้างตัวเลือกการบันทึก PPTX |
+| [CreatePptxOptions](../../aspose.slides.export/saveoptionsfactory/createpptxoptions)() | สร้างตัวเลือกการบันทึก PPTX. |
 
 ### หมายเหตุ
 
-เพื่อความเข้ากันได้กับ COM.
+สำหรับความเข้ากันได้กับ COM.
 
 ### ดูเพิ่มเติม
 

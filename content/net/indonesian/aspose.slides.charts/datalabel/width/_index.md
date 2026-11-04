@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mengembalikan atau mengatur lebar judul sebagai fraksi dari lebar grafik. Baca/tulis Single.
+description: Mengembalikan atau mengatur lebar judul sebagai fraksi lebar bagan. Baca/tulis Single.
 type: docs
-weight: 150
+weight: 160
 url: /id/aspose.slides.charts/datalabel/width/
 ---
 ## DataLabel.Width properti
 
-Mengembalikan atau mengatur lebar judul sebagai fraksi dari lebar grafik. Baca/tulis Single.
+Mengembalikan atau mengatur lebar judul sebagai fraksi lebar bagan. Baca/tulis Single.
 
 ```csharp
 public float Width { get; set; }

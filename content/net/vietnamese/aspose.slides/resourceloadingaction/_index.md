@@ -1,9 +1,9 @@
 ---
 title: ResourceLoadingAction
-second_title: Aspose.Sildes cho Tham chiếu API .NET
+second_title: Tham khảo API Aspose.Sildes cho .NET
 description: Xác định chế độ tải tài nguyên bên ngoài.
 type: docs
-weight: 9700
+weight: 9720
 url: /vi/aspose.slides/resourceloadingaction/
 ---
 ## ResourceLoadingAction liệt kê
@@ -18,7 +18,7 @@ public enum ResourceLoadingAction
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| Default | `0` | Aspose.Slides sẽ tải tài nguyên bên ngoài như bình thường. |
+| Default | `0` | Aspose.Slides sẽ tải tài nguyên bên ngoài như thường lệ. |
 | Skip | `1` | Aspose.Slides sẽ bỏ qua việc tải tài nguyên bên ngoài. Chỉ liên kết không có dữ liệu sẽ được lưu cho hình ảnh. |
 | UserProvided | `2` | Aspose.Slides sẽ sử dụng mảng byte do người dùng cung cấp trong [`SetData`](../iresourceloadingargs/setdata) làm dữ liệu hình ảnh. |
 

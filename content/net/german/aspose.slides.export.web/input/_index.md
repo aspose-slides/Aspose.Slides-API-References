@@ -1,12 +1,12 @@
 ---
 title: Input
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt eine Sammlung von Eingabeelementen (Vorlagen) dar.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt eine Sammlung von Eingabeelementvorlagen dar.
 type: docs
-weight: 4630
+weight: 4650
 url: /de/aspose.slides.export.web/input/
 ---
-## Eingabe-Klasse
+## Eingabeklasse
 
 Stellt eine Sammlung von Eingabeelementen (Vorlagen) dar.
 
@@ -18,7 +18,7 @@ public sealed class Input
 
 | Name | Beschreibung |
 | --- | --- |
-| [AddTemplate&lt;TContextObject&gt;](../../aspose.slides.export.web/input/addtemplate)(string, string) | Fügt der Sammlung eine Vorlage hinzu. |
+| [AddTemplate&lt;TContextObject&gt;](../../aspose.slides.export.web/input/addtemplate)(string, string) | Fügt eine Vorlage zur Sammlung hinzu. |
 
 ### Siehe auch
 

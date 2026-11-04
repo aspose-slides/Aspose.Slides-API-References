@@ -1,14 +1,14 @@
 ---
 title: IMathRadical
-second_title: Aspose.Slides için .NET API Referansı
-description: Bir temel ve isteğe bağlı bir derece içeren kök işlevini belirtir. Kök nesnesine bir örnek .
+second_title: Aspose.Sildes için .NET API Referansı
+description: Base ve isteğe bağlı bir derece içeren radikal fonksiyonu belirtir. Radikal nesnesine örnek .
 type: docs
-weight: 8430
+weight: 8450
 url: /tr/aspose.slides.mathtext/imathradical/
 ---
-## IMathRadical arayüz
+## IMathRadical interface
 
-Kök fonksiyonunu belirtir; bir taban ve isteğe bağlı bir derece içerir. Kök nesnesine bir örnek √𝑥.
+Taban ve isteğe bağlı bir derece içeren radikal fonksiyonu tanımlar. Radikal nesnesine örnek: √𝑥.
 
 ```csharp
 public interface IMathRadical : IMathElement
@@ -16,12 +16,12 @@ public interface IMathRadical : IMathElement
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathradical/asimathelement) { get; } | Temel IMathElement arabirimini almayı sağlar [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathradical/base) { get; } | Temel argüman |
+| [AsIMathElement](../../aspose.slides.mathtext/imathradical/asimathelement) { get; } | IMathElement arabiriminin tabanını almaya izin verir [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathradical/base) { get; } | Taban argümanı |
 | [Degree](../../aspose.slides.mathtext/imathradical/degree) { get; } | Derece argümanı |
-| [HideDegree](../../aspose.slides.mathtext/imathradical/hidedegree) { get; set; } | Dereceyi gizle. true olduğunda derece gösterilmez, √𝑥 gibi |
+| [HideDegree](../../aspose.slides.mathtext/imathradical/hidedegree) { get; set; } | Dereceyi gizle. True olduğunda, derece √𝑥 gibi gösterilmez |
 
 ### Örnekler
 
@@ -32,7 +32,7 @@ public interface IMathRadical : IMathElement
 IMathRadical radical = new MathematicalText("x").Radical("3"); // küp kök
 ```
 
-### Ayrıca Bakınız
+### İlgili
 
 * arayüz [IMathElement](../imathelement)
 * ad alanı [Aspose.Slides.MathText](../../aspose.slides.mathtext)

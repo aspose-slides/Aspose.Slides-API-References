@@ -1,14 +1,14 @@
 ---
 title: IShredTransition
 second_title: Aspose.Sildes .NET API 参考
-description: 碎片化幻灯片切换效果。
+description: 碎片幻灯片过渡效果。
 type: docs
-weight: 10180
+weight: 10200
 url: /zh/aspose.slides.slideshow/ishredtransition/
 ---
 ## IShredTransition 接口
 
-碎片化幻灯片切换效果。
+碎片幻灯片过渡效果。
 
 ```csharp
 public interface IShredTransition : ITransitionValueBase
@@ -19,8 +19,8 @@ public interface IShredTransition : ITransitionValueBase
 | 名称 | 描述 |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/ishredtransition/asitransitionvaluebase) { get; } | 允许获取基础 ITransitionValueBase 接口。只读 [`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [Direction](../../aspose.slides.slideshow/ishredtransition/direction) { get; set; } | 转换的方向。读/写 [`TransitionInOutDirectionType`](../transitioninoutdirectiontype)。 |
-| [Pattern](../../aspose.slides.slideshow/ishredtransition/pattern) { get; set; } | 指定在转换期间使用的可视化形状。读/写 [`TransitionShredPattern`](../transitionshredpattern)。 |
+| [Direction](../../aspose.slides.slideshow/ishredtransition/direction) { get; set; } | 过渡的方向。读/写 [`TransitionInOutDirectionType`](../transitioninoutdirectiontype)。 |
+| [Pattern](../../aspose.slides.slideshow/ishredtransition/pattern) { get; set; } | 指定在过渡期间使用的视觉形状。读/写 [`TransitionShredPattern`](../transitionshredpattern)。 |
 
 ### 另请参见
 

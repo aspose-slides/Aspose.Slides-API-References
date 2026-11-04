@@ -3,7 +3,7 @@ title: EffectFactory
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Staat toe om effecten te maken
 type: docs
-weight: 2970
+weight: 2990
 url: /nl/aspose.slides.effects/effectfactory/
 ---
 ## EffectFactory klasse
@@ -14,28 +14,28 @@ Staat toe om effecten te maken
 public class EffectFactory : IEffectFactory
 ```
 
-## Constructoren
+## Constructors
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
 | [EffectFactory](effectfactory)() | De standaardconstructor. |
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
 | [ImageTransformOperationFactory](../../aspose.slides.effects/effectfactory/imagetransformoperationfactory) { get; } | Retourneert ImageTransformOperationFactory. Alleen-lezen [`IImageTransformOperationFactory`](../iimagetransformoperationfactory). |
 
 ## Methoden
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [CreateGlow](../../aspose.slides.effects/effectfactory/createglow)() | Creëert een gloed-effect. |
-| [CreateInnerShadow](../../aspose.slides.effects/effectfactory/createinnershadow)() | Creëert een innerlijk schaduw-effect. |
-| [CreateOuterShadow](../../aspose.slides.effects/effectfactory/createoutershadow)() | Creëert een buitenste schaduw-effect. |
-| [CreatePresetShadow](../../aspose.slides.effects/effectfactory/createpresetshadow)() | Creëert een vooraf ingesteld schaduw-effect. |
-| [CreateReflection](../../aspose.slides.effects/effectfactory/createreflection)() | Creëert een reflectie-effect. |
-| [CreateSoftEdge](../../aspose.slides.effects/effectfactory/createsoftedge)() | Creëert een zacht rand-effect. |
+| [CreateGlow](../../aspose.slides.effects/effectfactory/createglow)() | Maakt Glow-effect. |
+| [CreateInnerShadow](../../aspose.slides.effects/effectfactory/createinnershadow)() | Maakt Inner shafow-effect. |
+| [CreateOuterShadow](../../aspose.slides.effects/effectfactory/createoutershadow)() | Maakt Outer shadow-effect. |
+| [CreatePresetShadow](../../aspose.slides.effects/effectfactory/createpresetshadow)() | Maakt Preset shadow-effect. |
+| [CreateReflection](../../aspose.slides.effects/effectfactory/createreflection)() | Maakt Reflection-effect. |
+| [CreateSoftEdge](../../aspose.slides.effects/effectfactory/createsoftedge)() | Maakt Soft Edge-effect. |
 
 ### Opmerkingen
 

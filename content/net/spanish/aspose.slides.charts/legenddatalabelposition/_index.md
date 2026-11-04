@@ -1,12 +1,12 @@
 ---
 title: LegendDataLabelPosition
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para la referencia de API de .NET
 description: Determina la posición de las etiquetas de datos.
 type: docs
-weight: 2290
+weight: 2310
 url: /es/aspose.slides.charts/legenddatalabelposition/
 ---
-## Enumeración LegendDataLabelPosition
+## LegendDataLabelPosition enumeración
 
 Determina la posición de las etiquetas de datos.
 

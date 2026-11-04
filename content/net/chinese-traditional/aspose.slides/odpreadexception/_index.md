@@ -1,9 +1,9 @@
 ---
 title: OdpReadException
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 表示在簡報讀取錯誤時拋出的例外。
 type: docs
-weight: 9220
+weight: 9240
 url: /zh-hant/aspose.slides/odpreadexception/
 ---
 ## OdpReadException 類別
@@ -16,11 +16,11 @@ public class OdpReadException : OdpException
 
 ## 建構函式
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
 | [OdpReadException](odpreadexception#constructor)() | 預設建構函式 |
 | [OdpReadException](odpreadexception#constructor_1)(string) | 允許將訊息新增至此例外的建構函式。 |
-| [OdpReadException](odpreadexception#constructor_2)(string, Exception) | 包含訊息與內嵌例外的例外建構函式。 |
+| [OdpReadException](odpreadexception#constructor_2)(string, Exception) | 用於包含訊息與內嵌例外的例外之建構函式。 |
 
 ### 另請參閱
 

@@ -1,14 +1,14 @@
 ---
 title: ISketchFormat
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
 description: แสดงคุณสมบัติสำหรับรูปแบบสเก็ตช์ของเส้น.
 type: docs
-weight: 7020
+weight: 7040
 url: /th/aspose.slides/isketchformat/
 ---
 ## ISketchFormat อินเทอร์เฟซ
 
-แสดงคุณสมบัติสำหรับฟอร์แมตสเก็ตช์ของเส้น.
+แสดงคุณสมบัติสำหรับรูปแบบสเก็ตช์ของเส้น.
 
 ```csharp
 public interface ISketchFormat
@@ -18,7 +18,7 @@ public interface ISketchFormat
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [SketchType](../../aspose.slides/isketchformat/sketchtype) { get; set; } | คืนค่า หรือ กำหนดประเภทสเก็ตช์. อ่าน/เขียน [`LineSketchType`](../linesketchtype). |
+| [SketchType](../../aspose.slides/isketchformat/sketchtype) { get; set; } | คืนค่า หรือกำหนดประเภทสเก็ตช์. อ่าน/เขียน [`LineSketchType`](../linesketchtype). |
 
 ### ดูเพิ่มเติม
 

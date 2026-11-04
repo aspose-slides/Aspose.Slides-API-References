@@ -1,14 +1,14 @@
 ---
 title: EmbeddedEotFontsHtmlController
-second_title: Aspose.Sildes for .NET API リファレンス
-description: EOT 形式でフォントを埋め込む際に使用する書式設定コントローラークラス
+second_title: Aspose.Sildes の .NET API リファレンス
+description: EOT 形式でフォントを埋め込む際に使用するフォーマット コントローラ クラス
 type: docs
-weight: 3780
+weight: 3800
 url: /ja/aspose.slides.export/embeddedeotfontshtmlcontroller/
 ---
 ## EmbeddedEotFontsHtmlController クラス
 
-EOT形式でフォントを埋め込むために使用する書式設定コントローラークラス
+EOT 形式でフォントを埋め込む際に使用するフォーマット コントローラ クラス
 
 ```csharp
 public class EmbeddedEotFontsHtmlController : IEmbeddedEotFontsHtmlController

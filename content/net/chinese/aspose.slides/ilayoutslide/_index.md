@@ -1,14 +1,14 @@
 ---
 title: ILayoutSlide
-second_title: Aspose.Sildes .NET API 参考
-description: 表示布局幻灯片。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示一个布局幻灯片。
 type: docs
-weight: 6220
+weight: 6240
 url: /zh/aspose.slides/ilayoutslide/
 ---
 ## ILayoutSlide 接口
 
-表示布局幻灯片。
+表示一个布局幻灯片。
 
 ```csharp
 public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
@@ -20,11 +20,11 @@ public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
 | --- | --- |
 | [AsIBaseSlide](../../aspose.slides/ilayoutslide/asibaseslide) { get; } | 允许获取基础 IBaseSlide 接口。只读 [`IBaseSlide`](../ibaseslide)。 |
 | [AsIOverrideThemeable](../../aspose.slides/ilayoutslide/asioverridethemeable) { get; } | 返回 IOverrideThemeable 接口。只读 [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable)。 |
-| [DrawingGuides](../../aspose.slides/ilayoutslide/drawingguides) { get; } | 返回布局幻灯片的绘图指南集合。只读 [`IDrawingGuidesCollection`](../idrawingguidescollection)。 |
+| [DrawingGuides](../../aspose.slides/ilayoutslide/drawingguides) { get; } | 返回布局幻灯片的绘图指南集合。只读 [`IDrawingGuidesCollection`](../idrawingguidescollection) |
 | [HasDependingSlides](../../aspose.slides/ilayoutslide/hasdependingslides) { get; } | 如果存在至少一个依赖此布局幻灯片的幻灯片，则返回 true。只读 Boolean。 |
 | [HeaderFooterManager](../../aspose.slides/ilayoutslide/headerfootermanager) { get; } | 返回布局幻灯片的 HeaderFooter 管理器。只读 [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager)。 |
 | [LayoutType](../../aspose.slides/ilayoutslide/layouttype) { get; } | 返回此布局幻灯片的布局类型。只读 [`SlideLayoutType`](../slidelayouttype)。 |
-| [MasterSlide](../../aspose.slides/ilayoutslide/masterslide) { get; set; } | 返回或设置布局的母版幻灯片。读/写 [`IMasterSlide`](../imasterslide)。 |
+| [MasterSlide](../../aspose.slides/ilayoutslide/masterslide) { get; set; } | 返回或设置布局的主幻灯片。读/写 [`IMasterSlide`](../imasterslide)。 |
 | [PlaceholderManager](../../aspose.slides/ilayoutslide/placeholdermanager) { get; } | 返回布局幻灯片的占位符管理器。只读 [`ILayoutPlaceholderManager`](../ilayoutplaceholdermanager)。 |
 
 ## 方法
@@ -32,7 +32,7 @@ public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
 | 名称 | 描述 |
 | --- | --- |
 | [GetDependingSlides](../../aspose.slides/ilayoutslide/getdependingslides)() | 返回一个数组，包含所有依赖此布局幻灯片的幻灯片。 |
-| [Remove](../../aspose.slides/ilayoutslide/remove)() | 从演示文稿中移除布局。 |
+| [Remove](../../aspose.slides/ilayoutslide/remove)() | 从演示文稿中删除布局。 |
 
 ### 另请参见
 

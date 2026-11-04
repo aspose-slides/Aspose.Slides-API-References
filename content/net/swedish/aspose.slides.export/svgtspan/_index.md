@@ -1,9 +1,9 @@
 ---
 title: SvgTSpan
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar alternativ för SVG-textdelen tspan.
+description: Representerar alternativ för SVG-textdel tspan.
 type: docs
-weight: 4520
+weight: 4540
 url: /sv/aspose.slides.export/svgtspan/
 ---
 ## SvgTSpan klass

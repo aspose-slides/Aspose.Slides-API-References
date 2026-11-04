@@ -1,14 +1,14 @@
 ---
 title: IConnector
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Biểu diễn một đầu nối.
+second_title: Aspose.Sildes cho Tham khảo API .NET
+description: Biểu diễn một kết nối.
 type: docs
-weight: 5610
+weight: 5630
 url: /vi/aspose.slides/iconnector/
 ---
 ## IConnector giao diện
 
-Đại diện cho một đầu nối.
+Biểu diễn một kết nối.
 
 ```csharp
 public interface IConnector : IGeometryShape
@@ -20,19 +20,19 @@ public interface IConnector : IGeometryShape
 | --- | --- |
 | [AsIGeometryShape](../../aspose.slides/iconnector/asigeometryshape) { get; } | Cho phép lấy giao diện IGeometryShape cơ bản. Chỉ đọc [`IGeometryShape`](../igeometryshape). |
 | [ConnectorLock](../../aspose.slides/iconnector/connectorlock) { get; } | Trả về khóa của Connector. Chỉ đọc [`IConnectorLock`](../iconnectorlock). |
-| [EndShapeConnectedTo](../../aspose.slides/iconnector/endshapeconnectedto) { get; set; } | Trả về hoặc đặt hình để gắn đầu cuối của kết nối. Đọc/ghi [`IShape`](../ishape). |
+| [EndShapeConnectedTo](../../aspose.slides/iconnector/endshapeconnectedto) { get; set; } | Trả về hoặc đặt hình để gắn phần cuối của kết nối vào. Đọc/ghi [`IShape`](../ishape). |
 | [EndShapeConnectionSiteIndex](../../aspose.slides/iconnector/endshapeconnectionsiteindex) { get; set; } | Trả về hoặc đặt chỉ số của vị trí kết nối cho hình cuối. Đọc/ghi UInt32. |
 | [ShapeLock](../../aspose.slides/iconnector/shapelock) { get; } | Trả về khóa của hình. Chỉ đọc [`IConnectorLock`](../iconnectorlock). |
-| [StartShapeConnectedTo](../../aspose.slides/iconnector/startshapeconnectedto) { get; set; } | Trả về hoặc đặt hình để gắn đầu đầu của kết nối. Đọc/ghi [`IShape`](../ishape). |
-| [StartShapeConnectionSiteIndex](../../aspose.slides/iconnector/startshapeconnectionsiteindex) { get; set; } | Trả về hoặc đặt chỉ số của vị trí kết nối cho hình đầu. Đọc/ghi UInt32. |
+| [StartShapeConnectedTo](../../aspose.slides/iconnector/startshapeconnectedto) { get; set; } | Trả về hoặc đặt hình để gắn phần đầu của kết nối vào. Đọc/ghi [`IShape`](../ishape). |
+| [StartShapeConnectionSiteIndex](../../aspose.slides/iconnector/startshapeconnectionsiteindex) { get; set; } | Trả về hoặc đặt chỉ số của vị trí kết nối cho hình bắt đầu. Đọc/ghi UInt32. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [Reroute](../../aspose.slides/iconnector/reroute)() | Định tuyến lại kết nối sao cho nó đi theo đường ngắn nhất có thể giữa các hình mà nó kết nối. |
+| [Reroute](../../aspose.slides/iconnector/reroute)() | Định tuyến lại kết nối sao cho nó lấy đường ngắn nhất có thể giữa các hình mà nó kết nối. |
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [IGeometryShape](../igeometryshape)
 * không gian tên [Aspose.Slides](../../aspose.slides)

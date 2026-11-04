@@ -1,14 +1,14 @@
 ---
 title: IsBubble3D
-second_title: Aspose.Sildes .NET için API Referansı
-description: Baloncukların üzerine uygulanan 3D etkisini belirtir. Okunur/Yazılır Boolean.
+second_title: Aspose.Sildes .NET API Referansı
+description: Baloncukların üzerine 3-B etkisi uygulandığını belirtir. Okunur/yazılır Boolean.
 type: docs
-weight: 100
+weight: 140
 url: /tr/aspose.slides.charts/ichartdatapoint/isbubble3d/
 ---
-## IChartDataPoint.IsBubble3D özelliği
+## IChartDataPoint.IsBubble3D özellik
 
-Baloncukların 3-D etkisi uygulandığını belirtir. Okunur/Yazılır Boolean.
+Baloncukların üzerine 3-B etkisi uygulandığını belirtir. Okunur/yazılır Boolean.
 
 ```csharp
 public bool IsBubble3D { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: TextUnderlineType
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: टेक्स्ट अंडरलाइन के प्रकार का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
+description: पाठ रेखांकित का प्रकार दर्शाता है।
 type: docs
-weight: 11010
+weight: 11030
 url: /hi/aspose.slides/textunderlinetype/
 ---
-## TextUnderlineType एनेमरेशन
+## TextUnderlineType एन्यूमरेशन
 
-टेक्स्ट अंडरलाइन के प्रकार का प्रतिनिधित्व करता है।
+पाठ रेखांकित का प्रकार दर्शाता है।
 
 ```csharp
 public enum TextUnderlineType : sbyte
@@ -38,7 +38,7 @@ public enum TextUnderlineType : sbyte
 | HeavyWavy | `16` |  |
 | DoubleWavy | `17` |  |
 
-### संबंधित देखें
+### देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

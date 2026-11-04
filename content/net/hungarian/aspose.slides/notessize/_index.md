@@ -3,12 +3,12 @@ title: NotesSize
 second_title: Aspose.Sildes .NET API referencia
 description: A jegyzetdia méretét reprezentálja.
 type: docs
-weight: 9130
+weight: 9150
 url: /hu/aspose.slides/notessize/
 ---
 ## NotesSize osztály
 
-A jegyzetdia méretét képviseli.
+A jegyzetdia méretét reprezentálja.
 
 ```csharp
 public class NotesSize : INotesSize
@@ -24,7 +24,7 @@ public class NotesSize : INotesSize
 
 | Név | Leírás |
 | --- | --- |
-| [Size](../../aspose.slides/notessize/size) { get; set; } | Visszaadja vagy beállítja a méretet pontokban. Olvasás/írás SizeF. |
+| [Size](../../aspose.slides/notessize/size) { get; set; } | A méret visszaadása vagy beállítása pontokban. Olvasás/írás SizeF. |
 
 ### Lásd még
 

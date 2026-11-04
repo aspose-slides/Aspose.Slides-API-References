@@ -1,9 +1,9 @@
 ---
 title: PlaceholderType
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente le type d'un espace réservé.
 type: docs
-weight: 9450
+weight: 9470
 url: /fr/aspose.slides/placeholdertype/
 ---
 ## PlaceholderType énumération

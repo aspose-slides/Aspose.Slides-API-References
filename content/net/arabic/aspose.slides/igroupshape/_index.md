@@ -1,14 +1,14 @@
 ---
 title: IGroupShape
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: يمثل مجموعة من الأشكال على الشريحة.
+second_title: مرجع API ل Aspose.Sildes لـ .NET
+description: يمثل مجموعة من الأشكال على شريحة.
 type: docs
-weight: 6080
+weight: 6100
 url: /ar/aspose.slides/igroupshape/
 ---
 ## IGroupShape واجهة
 
-يمثل مجموعة من الأشكال على الشريحة.
+يمثل مجموعة من الأشكال على شريحة.
 
 ```csharp
 public interface IGroupShape : IShape
@@ -18,12 +18,12 @@ public interface IGroupShape : IShape
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIShape](../../aspose.slides/igroupshape/asishape) { get; } | يسمح بالحصول على واجهة IShape الأساسية. للقراءة فقط [`IShape`](../ishape). |
+| [AsIShape](../../aspose.slides/igroupshape/asishape) { get; } | يتيح الحصول على واجهة IShape الأساسية. للقراءة فقط [`IShape`](../ishape). |
 | [GroupShapeLock](../../aspose.slides/igroupshape/groupshapelock) { get; } | يعيد أقفال الشكل. للقراءة فقط [`IGroupShapeLock`](../igroupshapelock). |
 | [ShapeLock](../../aspose.slides/igroupshape/shapelock) { get; } | يعيد أقفال الشكل. للقراءة فقط [`IGroupShapeLock`](../igroupshapelock). |
 | [Shapes](../../aspose.slides/igroupshape/shapes) { get; } | يعيد مجموعة الأشكال داخل المجموعة. للقراءة فقط [`IShapeCollection`](../ishapecollection). |
 
-### راجع أيضًا
+### انظر أيضًا
 
 * واجهة [IShape](../ishape)
 * مساحة الاسم [Aspose.Slides](../../aspose.slides)

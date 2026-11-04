@@ -1,14 +1,14 @@
 ---
 title: IGrayScale
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει τη διεπαφή IImageTransformOperation.
+second_title: Aspose.Sildes για .NET Αναφορά API
+description: Αντιπροσωπεί τη διασύνδεση IImageTransformOperation.
 type: docs
-weight: 3340
+weight: 3360
 url: /el/aspose.slides.effects/igrayscale/
 ---
-## IGrayScale διεπαφή
+## IGrayScale διασύνδεση
 
-Represents IImageTransformOperation interface.
+Αντιπροσωπεί τη διασύνδεση IImageTransformOperation.
 
 ```csharp
 public interface IGrayScale : IAccessiblePVIObject<IGrayScaleEffectiveData>, 
@@ -19,14 +19,14 @@ public interface IGrayScale : IAccessiblePVIObject<IGrayScaleEffectiveData>,
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/igrayscale/asiaccessiblepviobject) { get; } | Επιτρέπει την λήψη της βασικής διεπαφής IAccessiblePVIObject. Μόνο για ανάγνωση [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/igrayscale/asiimagetransformoperation) { get; } | Επιστρέφει τη διεπαφή IImageTransformOperation. Μόνο για ανάγνωση [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/igrayscale/asiaccessiblepviobject) { get; } | Επιτρέπει την πρόσβαση στη βασική διασύνδεση IAccessiblePVIObject. Μόνο για ανάγνωση [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/igrayscale/asiimagetransformoperation) { get; } | Επιστρέφει τη διασύνδεση IImageTransformOperation. Μόνο για ανάγνωση [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Δείτε επίσης
 
-* διεπαφή [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
-* διεπαφή [IGrayScaleEffectiveData](../igrayscaleeffectivedata)
-* διεπαφή [IImageTransformOperation](../iimagetransformoperation)
+* διασύνδεση [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
+* διασύνδεση [IGrayScaleEffectiveData](../igrayscaleeffectivedata)
+* διασύνδεση [IImageTransformOperation](../iimagetransformoperation)
 * χώρος ονομάτων [Aspose.Slides.Effects](../../aspose.slides.effects)
 * συγκρότημα [Aspose.Slides](../../)
 

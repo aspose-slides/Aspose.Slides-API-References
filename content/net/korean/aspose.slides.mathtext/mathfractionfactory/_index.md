@@ -3,7 +3,7 @@ title: MathFractionFactory
 second_title: Aspose.Sildes for .NET API 참조
 description: 수학 분수를 생성할 수 있습니다
 type: docs
-weight: 8700
+weight: 8720
 url: /ko/aspose.slides.mathtext/mathfractionfactory/
 ---
 ## MathFractionFactory 클래스

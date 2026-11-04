@@ -1,12 +1,12 @@
 ---
 title: TransitionSideDirectionType
-second_title: Aspose.Sildes para .NET Referencia de API
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa los tipos de transición de dirección lateral.
 type: docs
-weight: 10420
+weight: 10440
 url: /es/aspose.slides.slideshow/transitionsidedirectiontype/
 ---
-## TransitionSideDirectionType enumeración
+## enumeración TransitionSideDirectionType
 
 Representa los tipos de transición de dirección lateral.
 

@@ -1,14 +1,14 @@
 ---
 title: ISoftEdgeEffectiveData
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: วัตถุที่ไม่สามารถเปลี่ยนแปลงได้ซึ่งแสดงถึงเอฟเฟกต์ขอบอ่อน ขอบของรูปร่างจะเบลอในขณะที่การเติมสีไม่ได้รับผลกระทบ
+description: วัตถุที่ไม่เปลี่ยนแปลงซึ่งแสดงถึงเอฟเฟกต์ขอบนุ่ม ขอบของรูปร่างจะเบลอขณะส่วนเติมสีไม่ได้รับผลกระทบ.
 type: docs
-weight: 3530
+weight: 3550
 url: /th/aspose.slides.effects/isoftedgeeffectivedata/
 ---
 ## ISoftEdgeEffectiveData อินเทอร์เฟซ
 
-วัตถุที่ไม่สามารถเปลี่ยนแปลงได้ซึ่งแสดงถึงเอฟเฟกต์ขอบอ่อน ขอบของรูปร่างจะถูกเบลอ ขณะเดียวกันการเติมสีจะไม่ได้รับผลกระทบ
+วัตถุที่ไม่เปลี่ยนแปลงซึ่งแสดงถึงเอฟเฟกต์ขอบนุ่ม ขอบของรูปร่างจะเบลอขณะส่วนเติมสีไม่ได้รับผลกระทบ.
 
 ```csharp
 public interface ISoftEdgeEffectiveData : IEffectEffectiveData
@@ -18,10 +18,10 @@ public interface ISoftEdgeEffectiveData : IEffectEffectiveData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/isoftedgeeffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้ดึงอินเทอร์เฟซพื้นฐาน IEffectEffectiveData. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | ระบุรัศมีของการเบลอที่จะนำไปใช้กับขอบ. อ่านอย่างเดียว Double. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/isoftedgeeffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IEffectEffectiveData พื้นฐาน. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | ระบุรัศมีของการเบลอที่จะใช้กับขอบ. อ่านอย่างเดียว Double. |
 
-### ดูเพิ่มเติม
+### ดูเพิ่ม
 
 * อินเทอร์เฟซ [IEffectEffectiveData](../ieffecteffectivedata)
 * เนมสเปซ [Aspose.Slides.Effects](../../aspose.slides.effects)

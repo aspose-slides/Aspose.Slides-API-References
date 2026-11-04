@@ -1,14 +1,14 @@
 ---
 title: IMasterNotesSlideHeaderFooterManager
 second_title: Aspose.Sildes for .NET API リファレンス
-description: マスターノートスライドのフッター、日付時刻、ページ番号プレースホルダーとすべての子プレースホルダーの動作を保持するマネージャーを表します。子プレースホルダーは、依存するノートスライドに含まれるプレースホルダーを意味します。依存するノートスライドはマスターノートスライドを使用し、依存します。
+description: マスターノートスライドのフッター、日時、ページ番号プレースホルダーとすべての子プレースホルダーの動作を保持するマネージャーを表します。子プレースホルダーは、依存ノートスライドに含まれるプレースホルダーを意味します。依存ノートスライドはマスターノートスライドを使用し、依存しています。
 type: docs
-weight: 6400
+weight: 6420
 url: /ja/aspose.slides/imasternotesslideheaderfootermanager/
 ---
 ## IMasterNotesSlideHeaderFooterManager インターフェイス
 
-マスターノートスライドのフッター、日付時刻、ページ番号プレースホルダー、およびすべての子プレースホルダーの動作を保持するマネージャーを表します。子プレースホルダーは、依存するノートスライドに含まれるプレースホルダーを意味します。依存するノートスライドはマスターノートスライドを使用し、依存します。
+マスターノートスライドのフッター、日時、ページ番号プレースホルダーとすべての子プレースホルダーの動作を保持するマネージャーを表します。子プレースホルダーは、依存ノートスライドに含まれるプレースホルダーを意味します。依存ノートスライドはマスターノートスライドを使用し、依存しています。
 
 ```csharp
 public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -24,18 +24,18 @@ public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHe
 
 | 名前 | 説明 |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | マスターノートスライドの日付時刻プレースホルダーとすべての子日付時刻プレースホルダーにテキストを設定します。子プレースホルダーは、依存するノートスライドに含まれるプレースホルダーを意味します。依存するノートスライドはマスターノートスライドを使用し、依存します。 |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | マスターノートスライドの日付時刻プレースホルダーとすべての子日付時刻プレースホルダーの可視性を変更します。子プレースホルダーは、依存するノートスライドに含まれるプレースホルダーを意味します。依存するノートスライドはマスターノートスライドを使用し、依存します。 |
-| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | マスターノートスライドのフッタープレースホルダーとすべての子フッタープレースホルダーにテキストを設定します。子プレースホルダーは、依存するノートスライドに含まれるプレースホルダーを意味します。依存するノートスライドはマスターノートスライドを使用し、依存します。 |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | マスターノートスライドのフッタープレースホルダーとすべての子フッタープレースホルダーの可視性を変更します。子プレースホルダーは、依存するノートスライドに含まれるプレースホルダーを意味します。依存するノートスライドはマスターノートスライドを使用し、依存します。 |
-| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | マスターノートスライドのヘッダープレースホルダーとすべての子ヘッダープレースホルダーにテキストを設定します。子プレースホルダーは、依存するノートスライドに含まれるプレースホルダーを意味します。依存するノートスライドはマスターノートスライドを使用し、依存します。 |
-| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | マスターノートスライドのヘッダープレースホルダーとすべての子ヘッダープレースホルダーの可視性を変更します。子プレースホルダーは、依存するノートスライドに含まれるプレースホルダーを意味します。依存するノートスライドはマスターノートスライドを使用し、依存します。 |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | マスターノートスライドのページ番号プレースホルダーとすべての子ページ番号プレースホルダーの可視性を変更します。子プレースホルダーは、依存するノートスライドに含まれるプレースホルダーを意味します。依存するノートスライドはマスターノートスライドを使用し、依存します。 |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | マスターノートスライドの日時プレースホルダーとすべての子日時プレースホルダーにテキストを設定します。子プレースホルダーは、依存ノートスライドに含まれるプレースホルダーを意味します。依存ノートスライドはマスターノートスライドを使用し、依存しています。 |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | マスターノートスライドの日時プレースホルダーとすべての子日時プレースホルダーの表示状態を変更します。子プレースホルダーは、依存ノートスライドに含まれるプレースホルダーを意味します。依存ノートスライドはマスターノートスライドを使用し、依存しています。 |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | マスターノートスライドのフッタープレースホルダーとすべての子フッタープレースホルダーにテキストを設定します。子プレースホルダーは、依存ノートスライドに含まれるプレースホルダーを意味します。依存ノートスライドはマスターノートスライドを使用し、依存しています。 |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | マスターノートスライドのフッタープレースホルダーとすべての子フッタープレースホルダーの表示状態を変更します。子プレースホルダーは、依存ノートスライドに含まれるプレースホルダーを意味します。依存ノートスライドはマスターノートスライドを使用し、依存しています。 |
+| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | マスターノートスライドのヘッダープレースホルダーとすべての子ヘッダープレースホルダーにテキストを設定します。子プレースホルダーは、依存ノートスライドに含まれるプレースホルダーを意味します。依存ノートスライドはマスターノートスライドを使用し、依存しています。 |
+| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | マスターノートスライドのヘッダープレースホルダーとすべての子ヘッダープレースホルダーの表示状態を変更します。子プレースホルダーは、依存ノートスライドに含まれるプレースホルダーを意味します。依存ノートスライドはマスターノートスライドを使用し、依存しています。 |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | マスターノートスライドのページ番号プレースホルダーとすべての子ページ番号プレースホルダーの表示状態を変更します。子プレースホルダーは、依存ノートスライドに含まれるプレースホルダーを意味します。依存ノートスライドはマスターノートスライドを使用し、依存しています。 |
 
 ### 参照
 
-* interface [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* インターフェイス [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
+* 名前空間 [Aspose.Slides](../../aspose.slides)
+* アセンブリ [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -3,26 +3,26 @@ title: FontScheme
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: थीम-परिभाषित फ़ॉन्ट्स को संग्रहीत करता है।
 type: docs
-weight: 11130
+weight: 11150
 url: /hi/aspose.slides.theme/fontscheme/
 ---
 ## FontScheme क्लास
 
-थीम-परिभाषित फ़ॉन्ट्स को संग्रहीत करता है।
+स्लाइड के थीम-परिभाषित फ़ॉन्ट्स को संग्रहीत करता है।
 
 ```csharp
 public class FontScheme : IFontScheme
 ```
 
-## प्रॉपर्टीज़
+## गुण
 
 | नाम | विवरण |
 | --- | --- |
-| [Major](../../aspose.slides.theme/fontscheme/major) { get; } | स्लाइड के "शीर्षक" भाग के लिए फ़ॉन्ट संग्रह लौटाता है। केवल-पढ़ने योग्य [`IFonts`](../../aspose.slides/ifonts). |
-| [Minor](../../aspose.slides.theme/fontscheme/minor) { get; } | स्लाइड के "बॉडी" भाग के लिए फ़ॉन्ट संग्रह लौटाता है। केवल-पढ़ने योग्य [`IFonts`](../../aspose.slides/ifonts). |
-| [Name](../../aspose.slides.theme/fontscheme/name) { get; set; } | फ़ॉन्ट योजना का नाम लौटाता है। पढ़ने/लिखने योग्य String. |
+| [Major](../../aspose.slides.theme/fontscheme/major) { get; } | स्लाइड के "heading" भाग के लिए फ़ॉन्ट्स संग्रह लौटाता है। केवल-पढ़ने योग्य [`IFonts`](../../aspose.slides/ifonts). |
+| [Minor](../../aspose.slides.theme/fontscheme/minor) { get; } | स्लाइड के "body" भाग के लिए फ़ॉन्ट्स संग्रह लौटाता है। केवल-पढ़ने योग्य [`IFonts`](../../aspose.slides/ifonts). |
+| [Name](../../aspose.slides.theme/fontscheme/name) { get; set; } | फ़ॉन्ट स्कीम का नाम लौटाता है। पढ़ने/लिखने योग्य String. |
 
-### देखें Also
+### देखें
 
 * इंटरफ़ेस [IFontScheme](../ifontscheme)
 * नेमस्पेस [Aspose.Slides.Theme](../../aspose.slides.theme)

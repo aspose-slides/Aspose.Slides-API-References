@@ -1,14 +1,14 @@
 ---
 title: IReflectionEffectiveData
-second_title: Aspose.Sildes pro .NET API referenci
-description: Neměnný objekt, který představuje efekt odrazu.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Neměnný objekt, který představuje efekt Reflection.
 type: docs
-weight: 3510
+weight: 3530
 url: /cs/aspose.slides.effects/ireflectioneffectivedata/
 ---
 ## IReflectionEffectiveData rozhraní
 
-Neměnný objekt, který představuje efekt odrazu.
+Neměnný objekt, který představuje efekt Reflection.
 
 ```csharp
 public interface IReflectionEffectiveData : IEffectEffectiveData
@@ -16,28 +16,28 @@ public interface IReflectionEffectiveData : IEffectEffectiveData
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/ireflectioneffectivedata/asieffecteffectivedata) { get; } | Umožňuje získat základní rozhraní IEffectEffectiveData. Pouze pro čtení [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [BlurRadius](../../aspose.slides.effects/ireflectioneffectivedata/blurradius) { get; } | Poloměr rozostření. Pouze pro čtení Double. |
 | [Direction](../../aspose.slides.effects/ireflectioneffectivedata/direction) { get; } | Směr odrazu. Pouze pro čtení Single. |
 | [Distance](../../aspose.slides.effects/ireflectioneffectivedata/distance) { get; } | Vzdálenost odrazu. Pouze pro čtení Double. |
-| [EndPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/endposalpha) { get; } | Určuje koncovou pozici (along the alpha gradient ramp) koncové hodnoty alfa (percents). Pouze pro čtení Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity) { get; } | Koncová neprůhlednost odrazu. (percents). Pouze pro čtení Single. |
-| [FadeDirection](../../aspose.slides.effects/ireflectioneffectivedata/fadedirection) { get; } | Určuje směr posunu odrazu. (angle) Pouze pro čtení Single. |
+| [EndPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/endposalpha) { get; } | Určuje koncovou pozici (podél alfa gradientu) koncové alfa hodnoty (procent). Pouze pro čtení Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity) { get; } | Koncová neprůhlednost odrazu. (procent). Pouze pro čtení Single. |
+| [FadeDirection](../../aspose.slides.effects/ireflectioneffectivedata/fadedirection) { get; } | Určuje směr posunu odrazu. (úhel). Pouze pro čtení Single. |
 | [RectangleAlign](../../aspose.slides.effects/ireflectioneffectivedata/rectanglealign) { get; } | Zarovnání obdélníku. Pouze pro čtení [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape) { get; } | Určuje, zda by se odraz měl otáčet se tvarem, pokud je tvar otočen. Pouze pro čtení Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/scalehorizontal) { get; } | Určuje horizontální faktor měřítka, záporné měřítko způsobí převrácení. (percents) Pouze pro čtení Double. |
-| [ScaleVertical](../../aspose.slides.effects/ireflectioneffectivedata/scalevertical) { get; } | Určuje vertikální faktor měřítka, záporné měřítko způsobí převrácení. (percents) Pouze pro čtení Double. |
-| [SkewHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/skewhorizontal) { get; } | Určuje horizontální úhel zkosení. Pouze pro čtení Double. |
-| [SkewVertical](../../aspose.slides.effects/ireflectioneffectivedata/skewvertical) { get; } | Určuje vertikální úhel zkosení. Pouze pro čtení Double. |
-| [StartPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/startposalpha) { get; } | Určuje počáteční pozici (along the alpha gradient ramp) počáteční hodnoty alfa (percents). Pouze pro čtení Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity) { get; } | Počáteční neprůhlednost odrazu. (percents). Pouze pro čtení Single. |
+| [RotateShadowWithShape](../../aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape) { get; } | Určuje, zda se odraz má otáčet spolu s tvarem, pokud je tvar otočen. Pouze pro čtení Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/scalehorizontal) { get; } | Určuje horizontální faktor měřítka, záporné měřítko způsobí převrácení. (procent) Pouze pro čtení Double. |
+| [ScaleVertical](../../aspose.slides.effects/ireflectioneffectivedata/scalevertical) { get; } | Určuje vertikální faktor měřítka, záporné měřítko způsobí převrácení. (procent) Pouze pro čtení Double. |
+| [SkewHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/skewhorizontal) { get; } | Určuje horizontální úhel sklonu. Pouze pro čtení Double. |
+| [SkewVertical](../../aspose.slides.effects/ireflectioneffectivedata/skewvertical) { get; } | Určuje vertikální úhel sklonu. Pouze pro čtení Double. |
+| [StartPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/startposalpha) { get; } | Určuje počáteční pozici (podél alfa gradientu) počáteční alfa hodnoty (procent). Pouze pro čtení Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity) { get; } | Počáteční neprůhlednost odrazu. (procent). Pouze pro čtení Single. |
 
 ### Viz také
 
 * rozhraní [IEffectEffectiveData](../ieffecteffectivedata)
 * jmenný prostor [Aspose.Slides.Effects](../../aspose.slides.effects)
-* sestava [Aspose.Slides](../../)
+* sestavení [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

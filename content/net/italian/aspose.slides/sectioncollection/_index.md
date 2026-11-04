@@ -1,12 +1,12 @@
 ---
 title: SectionCollection
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta una raccolta di sezioni.
 type: docs
-weight: 9760
+weight: 9780
 url: /it/aspose.slides/sectioncollection/
 ---
-## classe SectionCollection
+## SectionCollection classe
 
 Rappresenta una raccolta di sezioni.
 
@@ -18,10 +18,10 @@ public sealed class SectionCollection : DomObject<Presentation>, ISectionCollect
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides/sectioncollection/count) { get; } | Restituisce il numero di elementi effettivamente contenuti nella raccolta. Solo lettura Int32. |
-| [IsSynchronized](../../aspose.slides/sectioncollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla raccolta è sincronizzato (thread-safe). Solo lettura Boolean. |
-| [Item](../../aspose.slides/sectioncollection/item) { get; } | Restituisce l'elemento all'indice specificato. Solo lettura [`ISection`](../isection). |
-| [SyncRoot](../../aspose.slides/sectioncollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Solo lettura Object. |
+| [Count](../../aspose.slides/sectioncollection/count) { get; } | Restituisce il numero di elementi effettivamente contenuti nella raccolta. Sola lettura Int32. |
+| [IsSynchronized](../../aspose.slides/sectioncollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla raccolta è sincronizzato (thread-safe). Sola lettura Boolean. |
+| [Item](../../aspose.slides/sectioncollection/item) { get; } | Restituisce l'elemento all'indice specificato. Sola lettura [`ISection`](../isection). |
+| [SyncRoot](../../aspose.slides/sectioncollection/syncroot) { get; } | Restituisce la radice di sincronizzazione. Sola lettura Object. |
 
 ## Metodi
 
@@ -34,7 +34,7 @@ public sealed class SectionCollection : DomObject<Presentation>, ISectionCollect
 | [CopyTo](../../aspose.slides/sectioncollection/copyto)(Array, int) | Copia l'intera raccolta nell'array specificato. |
 | [GetEnumerator](../../aspose.slides/sectioncollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la raccolta. |
 | [IndexOf](../../aspose.slides/sectioncollection/indexof)(ISection) | Restituisce l'indice della sezione specificata nella raccolta. |
-| [RemoveSection](../../aspose.slides/sectioncollection/removesection)(ISection) | Rimuove la sezione. Le diapositive contenute nella sezione saranno unite nella sezione precedente. |
+| [RemoveSection](../../aspose.slides/sectioncollection/removesection)(ISection) | Rimuove la sezione. Le diapositive contenute nella sezione saranno unite alla sezione precedente. |
 | [RemoveSectionWithSlides](../../aspose.slides/sectioncollection/removesectionwithslides)(ISection) | Rimuove la sezione e le diapositive contenute nella sezione. |
 | [ReorderSectionWithSlides](../../aspose.slides/sectioncollection/reordersectionwithslides)(ISection, int) | Sposta la sezione e le sue diapositive dalla raccolta alla posizione specificata. |
 

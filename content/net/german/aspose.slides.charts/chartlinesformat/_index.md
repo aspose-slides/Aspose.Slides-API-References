@@ -3,7 +3,7 @@ title: ChartLinesFormat
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt Eigenschaften des Gitternetzlinienformats dar.
 type: docs
-weight: 1410
+weight: 1420
 url: /de/aspose.slides.charts/chartlinesformat/
 ---
 ## ChartLinesFormat Klasse
@@ -18,8 +18,8 @@ public class ChartLinesFormat : IChartLinesFormat
 
 | Name | Beschreibung |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/chartlinesformat/effect) { get; } | Gibt Effekte zurück, die für eine Diagrammlinie verwendet werden. Nur lesbar [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Line](../../aspose.slides.charts/chartlinesformat/line) { get; } | Gibt Eigenschaften des Linienstils einer Diagrammlinie zurück. Nur lesbar [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect](../../aspose.slides.charts/chartlinesformat/effect) { get; } | Gibt die für eine Diagrammlinie verwendeten Effekte zurück. Nur lesbar [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Line](../../aspose.slides.charts/chartlinesformat/line) { get; } | Gibt die Linienstil-Eigenschaften einer Diagrammlinie zurück. Nur lesbar [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### Siehe auch
 

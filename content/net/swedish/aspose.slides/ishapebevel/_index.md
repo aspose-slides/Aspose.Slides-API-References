@@ -1,14 +1,14 @@
 ---
 title: IShapeBevel
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar egenskaper för figurens huvudytas relief.
+description: Representerar egenskaper för formens huvudytas relief.
 type: docs
-weight: 6960
+weight: 6980
 url: /sv/aspose.slides/ishapebevel/
 ---
 ## IShapeBevel gränssnitt
 
-Representerar egenskaper för figurens huvudytas relief.
+Representerar egenskaper för formens huvudytas relief.
 
 ```csharp
 public interface IShapeBevel
@@ -18,9 +18,9 @@ public interface IShapeBevel
 
 | Namn | Beskrivning |
 | --- | --- |
-| [BevelType](../../aspose.slides/ishapebevel/beveltype) { get; set; } | Bevel-typ. Läs/skriv [`BevelPresetType`](../bevelpresettype). |
-| [Height](../../aspose.slides/ishapebevel/height) { get; set; } | Bevel-höjd. Läs/skriv Double. |
-| [Width](../../aspose.slides/ishapebevel/width) { get; set; } | Bevel-bredd. Läs/skriv Double. |
+| [BevelType](../../aspose.slides/ishapebevel/beveltype) { get; set; } | Fasetttyp. Läs/skriv [`BevelPresetType`](../bevelpresettype). |
+| [Height](../../aspose.slides/ishapebevel/height) { get; set; } | Fasettshöjd. Läs/skriv Double. |
+| [Width](../../aspose.slides/ishapebevel/width) { get; set; } | Fasettbredd. Läs/skriv Double. |
 
 ### Se även
 

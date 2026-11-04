@@ -1,14 +1,14 @@
 ---
 title: PptCorruptFileException
 second_title: Aspose.Sildes için .NET API Referansı
-description: Sunum dosyası muhtemelen bozulduğunda fırlatılan bir istisna.
+description: Sunum dosyası muhtemelen bozuk olduğunda atılan istisna.
 type: docs
-weight: 9500
+weight: 9520
 url: /tr/aspose.slides/pptcorruptfileexception/
 ---
-## PptCorruptFileException sınıfı
+## PptCorruptFileException sınıf
 
-Sunum dosyası muhtemelen bozulduğunda fırlatılan istisna.
+Sunum dosyası muhtemelen bozuk olduğunda atılan istisna.
 
 ```csharp
 public class PptCorruptFileException : PptReadException
@@ -16,13 +16,13 @@ public class PptCorruptFileException : PptReadException
 
 ## Yapıcılar
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
 | [PptCorruptFileException](pptcorruptfileexception#constructor)() | Varsayılan yapıcı. |
-| [PptCorruptFileException](pptcorruptfileexception#constructor_1)(string) | Bu istisna için bir ileti eklenmesini sağlayan yapıcı. |
-| [PptCorruptFileException](pptcorruptfileexception#constructor_2)(string, Exception) | Bir ileti ve gömülü bir istisna içeren istisna için yapıcı. |
+| [PptCorruptFileException](pptcorruptfileexception#constructor_1)(string) | Bu istisnaya bir mesaj eklenmesini sağlayan yapıcı. |
+| [PptCorruptFileException](pptcorruptfileexception#constructor_2)(string, Exception) | Mesaj ve gömülü bir istisna içeren bir istisna için yapıcı. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * sınıf [PptReadException](../pptreadexception)
 * ad alanı [Aspose.Slides](../../aspose.slides)

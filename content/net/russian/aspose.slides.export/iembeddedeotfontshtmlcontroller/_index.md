@@ -1,9 +1,9 @@
 ---
 title: IEmbeddedEotFontsHtmlController
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для .NET: справочник API
 description: Контроллер HTML для встроенных шрифтов Eot.
 type: docs
-weight: 3900
+weight: 3920
 url: /ru/aspose.slides.export/iembeddedeotfontshtmlcontroller/
 ---
 ## IEmbeddedEotFontsHtmlController интерфейс

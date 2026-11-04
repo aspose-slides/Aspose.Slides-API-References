@@ -1,14 +1,14 @@
 ---
 title: OutputFile
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili file output.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili sebuah file output.
 type: docs
-weight: 4650
+weight: 4670
 url: /id/aspose.slides.export.web/outputfile/
 ---
 ## OutputFile kelas
 
-Mewakili file output.
+Mewakili sebuah file output.
 
 ```csharp
 public abstract class OutputFile : IOutputFile

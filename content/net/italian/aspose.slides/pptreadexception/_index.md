@@ -1,14 +1,14 @@
 ---
 title: PptReadException
 second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta un'eccezione generata durante gli errori di lettura della presentazione.
+description: Rappresenta un'eccezione che viene generata in caso di errori di lettura della presentazione.
 type: docs
-weight: 9530
+weight: 9550
 url: /it/aspose.slides/pptreadexception/
 ---
 ## PptReadException classe
 
-Rappresenta un'eccezione generata durante gli errori di lettura della presentazione.
+Rappresenta un'eccezione che viene generata in caso di errori di lettura della presentazione.
 
 ```csharp
 public class PptReadException : PptException

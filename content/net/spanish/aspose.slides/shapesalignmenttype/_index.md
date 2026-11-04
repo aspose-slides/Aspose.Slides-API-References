@@ -1,14 +1,14 @@
 ---
 title: ShapesAlignmentType
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Define una forma de cambiar la posición de las formas seleccionadas en la diapositiva.
+description: Define una forma de cambiar la ubicación de las formas seleccionadas en la diapositiva.
 type: docs
-weight: 9940
+weight: 9960
 url: /es/aspose.slides/shapesalignmenttype/
 ---
-## ShapesAlignmentType enumeración
+## Enumeración ShapesAlignmentType
 
-Define una forma de cambiar la posición de las formas seleccionadas en la diapositiva.
+Define una forma de cambiar la ubicación de las formas seleccionadas en la diapositiva.
 
 ```csharp
 public enum ShapesAlignmentType
@@ -21,9 +21,9 @@ public enum ShapesAlignmentType
 | AlignLeft | `0` | Alinear a la izquierda |
 | AlignRight | `1` | Alinear a la derecha |
 | AlignCenter | `2` | Alinear al centro |
-| AlignTop | `3` | Alinear arriba |
+| AlignTop | `3` | Alinear en la parte superior |
 | AlignMiddle | `4` | Alinear al medio |
-| AlignBottom | `5` | Alinear abajo |
+| AlignBottom | `5` | Alinear en la parte inferior |
 | DistributeHorizontally | `6` | Distribuir horizontalmente |
 | DistributeVertically | `7` | Distribuir verticalmente |
 

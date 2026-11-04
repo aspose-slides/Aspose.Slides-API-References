@@ -1,14 +1,14 @@
 ---
 title: Row
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक टेबल में पंक्ति को दर्शाता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: एक तालिका में पंक्ति का प्रतिनिधित्व करता है।
 type: docs
-weight: 9710
+weight: 9730
 url: /hi/aspose.slides/row/
 ---
 ## Row क्लास
 
-एक टेबल में पंक्ति को दर्शाता है।
+टेबल में एक पंक्ति का प्रतिनिधित्व करता है।
 
 ```csharp
 public sealed class Row : CellCollection, IRow
@@ -16,33 +16,33 @@ public sealed class Row : CellCollection, IRow
 
 ## गुण
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/cellcollection/count) { get; } | संग्रह में कोशिकाओं की संख्या लौटाता है। केवल पढ़ने योग्य Int32. |
+| [Count](../../aspose.slides/cellcollection/count) { get; } | कलेक्शन में सेल की संख्या लौटाता है। केवल पढ़ने योग्य Int32. |
 | [Height](../../aspose.slides/row/height) { get; } | पंक्ति की ऊँचाई लौटाता है। केवल पढ़ने योग्य Double. |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | एक मान लौटाता है जो दर्शाता है कि संग्रह तक पहुंच समक्रमित (थ्रेड-सेफ़) है या नहीं। केवल पढ़ने योग्य Boolean. |
-| [Item](../../aspose.slides/cellcollection/item) { get; } | स्थिति के आधार पर एक कोशिका लौटाता है। केवल पढ़ने योग्य [`Cell`](../cell). |
-| [MinimalHeight](../../aspose.slides/row/minimalheight) { get; set; } | पंक्ति की न्यूनतम सम्भव ऊँचाई को लौटाता या सेट करता है। पढ़ने/लिखने योग्य Double. |
-| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | CellCollection का मूल प्रस्तुतीकरण लौटाता है। केवल पढ़ने योग्य [`IPresentation`](../ipresentation). |
-| [RowFormat](../../aspose.slides/row/rowformat) { get; } | इस पंक्ति के फ़ॉर्मेटिंग गुणों को समाहित करने वाले RowFormat ऑब्जेक्ट को लौटाता है। केवल पढ़ने योग्य [`IRowFormat`](../irowformat). |
-| [Slide](../../aspose.slides/cellcollection/slide) { get; } | CellCollection का मूल स्लाइड लौटाता है। केवल पढ़ने योग्य [`IBaseSlide`](../ibaseslide). |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | एक मान लौटाता है जो दर्शाता है कि कलेक्शन तक पहुंच समक्रमित (थ्रेड-सुरक्षित) है या नहीं। केवल पढ़ने योग्य Boolean. |
+| [Item](../../aspose.slides/cellcollection/item) { get; } | स्थिति द्वारा एक सेल लौटाता है। केवल पढ़ने योग्य [`Cell`](../cell). |
+| [MinimalHeight](../../aspose.slides/row/minimalheight) { get; set; } | पंक्ति की न्यूनतम संभव ऊँचाई लौटाता है या सेट करता है। पढ़ने/लिखने योग्य Double. |
+| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | CellCollection की माता प्रस्तुति लौटाता है। केवल पढ़ने योग्य [`IPresentation`](../ipresentation). |
+| [RowFormat](../../aspose.slides/row/rowformat) { get; } | इस पंक्ति के लिए फ़ॉर्मेटिंग गुणों को शामिल करने वाला RowFormat ऑब्जेक्ट लौटाता है। केवल पढ़ने योग्य [`IRowFormat`](../irowformat). |
+| [Slide](../../aspose.slides/cellcollection/slide) { get; } | CellCollection की माता स्लाइड लौटाता है। केवल पढ़ने योग्य [`IBaseSlide`](../ibaseslide). |
 | [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | एक समक्रमण मूल लौटाता है। केवल पढ़ने योग्य Object. |
 
 ## विधियाँ
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | संग्रह के सभी तत्वों को निर्दिष्ट array में कॉपी करता है। |
-| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | एक enumerator लौटाता है जो संग्रह के माध्यम से इटररेट करता है। |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat)(IParagraphFormat) | परिभाषित पैराग्राफ फ़ॉर्मेट गुणों को सभी पंक्ति कोशिकाओं के पैराग्राफ में सेट करता है। |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_1)(IPortionFormat) | परिभाषित portion फ़ॉर्मेट गुणों को सभी पंक्ति कोशिकाओं के portion में सेट करता है। |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_2)(ITextFrameFormat) | परिभाषित टेक्स्ट फ्रेम फ़ॉर्मेट गुणों को सभी पंक्ति कोशिकाओं के टेक्स्ट फ्रेम में सेट करता है। |
+| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | कलेक्शन से सभी तत्व निर्दिष्ट एरे में कॉपी करता है। |
+| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | कलेक्शन के माध्यम से इटररेट करने वाला एन्यूमरेटर लौटाता है। |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat)(IParagraphFormat) | सभी पंक्ति सेल के पैराग्राफ़ में परिभाषित पैराग्राफ़ फ़ॉर्मेट गुण सेट करता है। |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_1)(IPortionFormat) | सभी पंक्ति सेल के भागों में परिभाषित पोर्शन फ़ॉर्मेट गुण सेट करता है। |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_2)(ITextFrameFormat) | सभी पंक्ति सेल के टेक्स्ट फ्रेम में परिभाषित टेक्स्ट फ्रेम फ़ॉर्मेट गुण सेट करता है। |
 
-### देखें भी
+### संबंधित देखें
 
-* class [CellCollection](../cellcollection)
-* interface [IRow](../irow)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* क्लास [CellCollection](../cellcollection)
+* इंटरफ़ेस [IRow](../irow)
+* नामस्थान [Aspose.Slides](../../aspose.slides)
+* एसेम्बली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

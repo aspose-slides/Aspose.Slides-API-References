@@ -1,14 +1,14 @@
 ---
 title: IOverrideThemeManager
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Fornisce l'accesso a diversi tipi di temi sovrascritti.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Consente l'accesso a diversi tipi di temi sovrascritti.
 type: docs
-weight: 11350
+weight: 11370
 url: /it/aspose.slides.theme/ioverridethememanager/
 ---
 ## IOverrideThemeManager interfaccia
 
-Fornisce l'accesso a diversi tipi di temi sovrascritti.
+Consente di accedere a diversi tipi di temi sovrascritti.
 
 ```csharp
 public interface IOverrideThemeManager : IThemeManager
@@ -19,8 +19,8 @@ public interface IOverrideThemeManager : IThemeManager
 | Nome | Descrizione |
 | --- | --- |
 | [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | Consente di ottenere l'interfaccia base IThemeManager. Solo lettura [`IThemeManager`](../ithememanager). |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | Determina se OverrideTheme sovrascrive o meno il tema effettivo ereditato. Per abilitare OverrideTheme alla sovrascrittura utilizzare i metodi OverrideTheme.Init*(). Per disabilitare OverrideTheme dalla sovrascrittura utilizzare il metodo OverrideTheme.Clear(). Solo lettura Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | Restituisce l'oggetto tema sovrascritto. Lettura/scrittura [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | Determina se OverrideTheme sovrascrive o meno il tema effettivo ereditato. Per abilitare OverrideTheme alla sovrascrittura, utilizzare i metodi OverrideTheme.Init*() . Per disabilitare OverrideTheme dalla sovrascrittura, utilizzare il metodo OverrideTheme.Clear() . Solo lettura Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | Restituisce l'oggetto tema di sovrascrittura. Lettura/scrittura [`IOverrideTheme`](../ioverridetheme). |
 
 ### Vedi anche
 

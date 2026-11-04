@@ -1,9 +1,9 @@
 ---
 title: ChartPlotArea
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Aspose.Sildes para a Referência da API .NET
 description: Representa o retângulo onde o gráfico deve ser plotado.
 type: docs
-weight: 1420
+weight: 1430
 url: /pt/aspose.slides.charts/chartplotarea/
 ---
 ## ChartPlotArea classe
@@ -16,7 +16,7 @@ public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
 
 ## Propriedades
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | Especifica a altura real do elemento do gráfico. Chame o método IChart.ValidateChartLayout() antes para obter os valores reais. Somente leitura Single. |
 | [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | Especifica a largura real do elemento do gráfico. Chame o método IChart.ValidateChartLayout() antes para obter os valores reais. Somente leitura Single. |
@@ -25,11 +25,11 @@ public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
 | [Bottom](../../aspose.slides.charts/chartplotarea/bottom) { get; } | Inferior. Somente leitura Single. |
 | [Chart](../../aspose.slides.charts/chartplotarea/chart) { get; } | Gráfico. Somente leitura [`IChart`](../ichart). |
 | [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | Retorna o formato de uma área de plotagem. Somente leitura [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | Retorna ou define a altura de uma caixa delimitadora da área de plotagem como uma fração da altura do gráfico (de 0 a 1). Leitura/gravação Single. |
-| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | Define como a localização deve ser calculada: true – calculado automaticamente; definido pelas propriedades X, Y, Width, Height. Somente leitura Boolean. |
-| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | Se o layout da área de plotagem for definido manualmente, esta propriedade especifica se deve posicionar a área de plotagem por dentro (excluindo eixo e rótulos de eixo) ou por fora (incluindo eixo e rótulos de eixo). Leitura/gravação [`LayoutTargetType`](./layouttargettype). |
+| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | Retorna ou define a altura da caixa delimitadora da área de plotagem como uma fração da altura do gráfico (de 0 a 1). Leitura/gravação Single. |
+| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | Define como a localização deve ser calculada: true – calculada automaticamente; definida pelas propriedades X, Y, Width, Height. Somente leitura Boolean. |
+| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | Se o layout da área de plotagem for definido manualmente, esta propriedade especifica se o layout da área de plotagem deve ser pelo interior (excluindo eixo e rótulos de eixo) ou exterior (incluindo eixo e rótulos de eixo). Leitura/gravação [`LayoutTargetType`](./layouttargettype). |
 | [Right](../../aspose.slides.charts/chartplotarea/right) { get; } | Direita. Somente leitura Single. |
-| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | Retorna ou define a largura de uma caixa delimitadora da área de plotagem como uma fração da largura do gráfico (de 0 a 1). Leitura/gravação Single. |
+| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | Retorna ou define a largura da caixa delimitadora da área de plotagem como uma fração da largura do gráfico (de 0 a 1). Leitura/gravação Single. |
 | [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | Retorna ou define a coordenada x do canto superior esquerdo da caixa delimitadora da área de plotagem como uma fração da largura do gráfico (de 0 a 1). Leitura/gravação Single. |
 | [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | Retorna ou define a coordenada y do canto superior esquerdo da caixa delimitadora da área de plotagem como uma fração da altura do gráfico (de 0 a 1). Leitura/gravação Single. |
 

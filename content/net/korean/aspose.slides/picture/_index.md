@@ -1,9 +1,9 @@
 ---
 title: Picture
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 프레젠테이션에서 그림을 나타냅니다.
 type: docs
-weight: 9380
+weight: 9400
 url: /ko/aspose.slides/picture/
 ---
 ## Picture 클래스
@@ -30,7 +30,7 @@ public sealed class Picture : ISlidesPicture
 | 이름 | 설명 |
 | --- | --- |
 | override [Equals](../../aspose.slides/picture/equals)(object) | 지정된 객체와 비교합니다. |
-| override [GetHashCode](../../aspose.slides/picture/gethashcode)() | 해시 값을 반환합니다. |
+| override [GetHashCode](../../aspose.slides/picture/gethashcode)() | 해시를 반환합니다. |
 
 ### 참조
 

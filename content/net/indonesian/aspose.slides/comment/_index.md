@@ -1,9 +1,9 @@
 ---
 title: Comment
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili komentar pada slide.
 type: docs
-weight: 2620
+weight: 2640
 url: /id/aspose.slides/comment/
 ---
 ## Kelas Comment
@@ -23,7 +23,7 @@ public class Comment : IComment
 | [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Mengambil atau mengatur komentar induk. Baca/tulis [`IComment`](../icomment). |
 | [Position](../../aspose.slides/comment/position) { get; set; } | Mengembalikan atau mengatur posisi komentar pada slide. Baca/tulis PointF. |
 | [Slide](../../aspose.slides/comment/slide) { get; } | Mengembalikan atau mengatur slide induk dari komentar. Hanya-baca [`ISlide`](../islide). |
-| [Text](../../aspose.slides/comment/text) { get; set; } | Mengembalikan atau mengatur teks polos komentar slide. Baca/tulis String. |
+| [Text](../../aspose.slides/comment/text) { get; set; } | Mengembalikan atau mengatur teks biasa komentar slide. Baca/tulis String. |
 
 ## Metode
 
@@ -44,7 +44,7 @@ using (Presentation presentation = new Presentation())
     presentation.Slides.AddEmptySlide(presentation.LayoutSlides[0]);
     // Menambahkan penulis
     ICommentAuthor author = presentation.CommentAuthors.AddAuthor("Jawad", "MF");
-    // Mengatur posisi komentar
+    // Mengatur posisi untuk komentar
     PointF point = new PointF();
     point.X = 0.2f;
     point.Y = 0.2f;

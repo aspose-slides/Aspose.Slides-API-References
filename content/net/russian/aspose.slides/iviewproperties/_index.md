@@ -1,14 +1,14 @@
 ---
 title: IViewProperties
-second_title: Aspose.Sildes для .NET справочник API
-description: Свойства представления на уровне всей презентации.
+second_title: Aspose.Sildes для .NET API Reference
+description: Глобальные свойства представления презентации.
 type: docs
-weight: 7390
+weight: 7410
 url: /ru/aspose.slides/iviewproperties/
 ---
 ## IViewProperties интерфейс
 
-Свойства представления на уровне всей презентации.
+Глобальные свойства представления презентации.
 
 ```csharp
 public interface IViewProperties
@@ -18,12 +18,12 @@ public interface IViewProperties
 
 | Имя | Описание |
 | --- | --- |
-| [GridSpacing](../../aspose.slides/iviewproperties/gridspacing) { get; set; } | Возвращает или задает интервал сетки, который следует использовать для сетки, лежащей в основе документа презентации, в пунктах. Чтение/запись Single. |
-| [LastView](../../aspose.slides/iviewproperties/lastview) { get; set; } | Указывает режим представления, используемый при последнем сохранении документа презентации. Чтение/запись [`ViewType`](../viewtype). |
-| [NormalViewProperties](../../aspose.slides/iviewproperties/normalviewproperties) { get; } | Представляет свойства обычного представления. Обычное представление состоит из трех областей содержимого: самого слайда, боковой области содержимого и нижней области содержимого. Только для чтения [`INormalViewProperties`](../inormalviewproperties). |
-| [NotesViewProperties](../../aspose.slides/iviewproperties/notesviewproperties) { get; } | Указывает общие свойства представления, связанные с режимом примечаний. Только для чтения [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
-| [ShowComments](../../aspose.slides/iviewproperties/showcomments) { get; set; } | Указывает, следует ли отображать комментарии к слайдам. Чтение/запись [`NullableBool`](../nullablebool). |
-| [SlideViewProperties](../../aspose.slides/iviewproperties/slideviewproperties) { get; } | Указывает общие свойства представления, связанные с режимом слайд-просмотра. Только для чтения [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
+| [GridSpacing](../../aspose.slides/iviewproperties/gridspacing) { get; set; } | Возвращает или задает интервал сетки, который должен использоваться для сетки, лежащей в основе документа презентации, в пунктах. Read/write Single. |
+| [LastView](../../aspose.slides/iviewproperties/lastview) { get; set; } | Указывает режим представления, который использовался при последнем сохранении документа презентации. Read/write [`ViewType`](../viewtype). |
+| [NormalViewProperties](../../aspose.slides/iviewproperties/normalviewproperties) { get; } | Представляет свойства обычного представления. Обычное представление состоит из трех областей содержимого: самого слайда, боковой области содержимого и нижней области содержимого. Read-only [`INormalViewProperties`](../inormalviewproperties). |
+| [NotesViewProperties](../../aspose.slides/iviewproperties/notesviewproperties) { get; } | Указывает общие свойства представления, связанные с режимом просмотра заметок. Read-only [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
+| [ShowComments](../../aspose.slides/iviewproperties/showcomments) { get; set; } | Указывает, следует ли показывать комментарии к слайдам. Read/write [`NullableBool`](../nullablebool). |
+| [SlideViewProperties](../../aspose.slides/iviewproperties/slideviewproperties) { get; } | Указывает общие свойства представления, связанные с режимом просмотра слайда. Read-only [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
 
 ### См. также
 

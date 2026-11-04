@@ -3,7 +3,7 @@ title: EffectStyleCollection
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en samling av effektstilar.
 type: docs
-weight: 11090
+weight: 11110
 url: /sv/aspose.slides.theme/effectstylecollection/
 ---
 ## EffectStyleCollection klass
@@ -18,10 +18,10 @@ public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyl
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | Returnerar ett antal element i samlingen. Skrivskyddad Int32, skrivskyddad Int32. |
-| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | Returnerar ett värde som indikerar om åtkomst till samlingen är synkroniserad (trådsäker). Skrivskyddad Boolean. |
-| [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | Returnerar ett element på angiven position. Skrivskyddad [`EffectStyle`](../effectstyle). |
-| [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | Returnerar en synkroniseringsrot. Skrivskyddad Object. |
+| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | Returnerar ett antal element i samlingen. Read-only Int32, Read-only Int32. |
+| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | Returnerar ett värde som indikerar om åtkomst till samlingen är synkroniserad (thread-safe). Read-only Boolean. |
+| [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | Returnerar ett element på angiven position. Read-only [`EffectStyle`](../effectstyle). |
+| [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | Returnerar ett synkroniseringsrot. Read-only Object. |
 
 ## Metoder
 
@@ -30,7 +30,7 @@ public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyl
 | [CopyTo](../../aspose.slides.theme/effectstylecollection/copyto)(Array, int) | Kopierar alla element från samlingen till den angivna arrayen. |
 | [GetEnumerator](../../aspose.slides.theme/effectstylecollection/getenumerator)() | Returnerar en enumerator som itererar genom samlingen. |
 
-### Se även
+### Se också
 
 * klass [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * klass [FormatScheme](../formatscheme)

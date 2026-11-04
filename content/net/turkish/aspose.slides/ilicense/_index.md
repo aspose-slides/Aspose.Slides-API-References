@@ -1,9 +1,9 @@
 ---
 title: ILicense
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Bileşeni lisanslamak için yöntemler sağlar.
 type: docs
-weight: 6260
+weight: 6280
 url: /tr/aspose.slides/ilicense/
 ---
 ## ILicense arayüzü
@@ -19,13 +19,13 @@ public interface ILicense
 | Ad | Açıklama |
 | --- | --- |
 | [IsLicensed](../../aspose.slides/ilicense/islicensed)() | Bileşene lisans uygulanıp uygulanmadığını kontrol eder |
-| [ResetLicense](../../aspose.slides/ilicense/resetlicense)() | Lisansı sıfırlar |
+| [ResetLicense](../../aspose.slides/ilicense/resetlicense)() | Lisansı sıfırla |
 | [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense)(Stream) | Bileşeni lisanslar. |
 | [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense_1)(string) | Bileşeni lisanslar. |
 
 ### Örnekler
 
-Bu örnekte, bileşenin bulunduğu klasörde, çağıran derlemenin bulunduğu klasörde, giriş derlemesinin bulunduğu klasörde ve ardından çağıran derlemenin gömülü kaynaklarında MyLicense.lic adında bir lisans dosyası bulunmaya çalışılacaktır.
+Bu örnekte, bileşeni içeren klasörde, çağıran derlemenin bulunduğu klasörde, giriş derlemesinin bulunduğu klasörde ve ardından çağıran derlemenin gömülü kaynaklarında MyLicense.lic adlı bir lisans dosyası bulunmaya çalışılacaktır.
 
 ```csharp
 [C#]
@@ -40,7 +40,7 @@ Dim license As license = New license
 License.SetLicense("MyLicense.lic")
 ```
 
-### Ayrıca
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

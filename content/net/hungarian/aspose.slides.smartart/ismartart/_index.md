@@ -1,14 +1,14 @@
 ---
 title: ISmartArt
-second_title: Aspose.Sildes .NET API referencia
-description: SmartArt diagramot képvisel.
+second_title: Aspose.Sildes a .NET API referenciához
+description: SmartArt diagramot reprezentál.
 type: docs
-weight: 10540
+weight: 10560
 url: /hu/aspose.slides.smartart/ismartart/
 ---
 ## ISmartArt interfész
 
-SmartArt diagramot képvisel.
+SmartArt diagramot reprezentál.
 
 ```csharp
 public interface ISmartArt : IGraphicalObject
@@ -19,12 +19,12 @@ public interface ISmartArt : IGraphicalObject
 | Név | Leírás |
 | --- | --- |
 | [AllNodes](../../aspose.slides.smartart/ismartart/allnodes) { get; } | Visszaadja a SmartArt objektum összes csomópontjának gyűjteményét. Csak olvasható [`ISmartArtNodeCollection`](../ismartartnodecollection). |
-| [AsIGraphicalObject](../../aspose.slides.smartart/ismartart/asigraphicalobject) { get; } | Lehetővé teszi az alap IGraphicalObject interfész lekérését. Csak olvasható [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
-| [ColorStyle](../../aspose.slides.smartart/ismartart/colorstyle) { get; set; } | Visszaadja vagy beállítja a SmartArt objektum színstílusát. Olvasás/írás [`SmartArtColorType`](../smartartcolortype). |
-| [IsReversed](../../aspose.slides.smartart/ismartart/isreversed) { get; set; } | Visszaadja vagy beállítja a SmartArt diagram állapotát a (balról jobbra) LTR vagy a (jobbról balra) RTL tekintetében, ha a diagram támogatja a fordítást. Olvasás/írás Boolean. |
-| [Layout](../../aspose.slides.smartart/ismartart/layout) { get; set; } | Visszaadja vagy beállítja a SmartArt objektum elrendezését. Olvasás/írás [`SmartArtLayoutType`](../smartartlayouttype). |
+| [AsIGraphicalObject](../../aspose.slides.smartart/ismartart/asigraphicalobject) { get; } | Lehetővé teszi a base IGraphicalObject interfész lekérését. Csak olvasható [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [ColorStyle](../../aspose.slides.smartart/ismartart/colorstyle) { get; set; } | A SmartArt objektum színstílusának visszaadása vagy beállítása. Olvasás/írás [`SmartArtColorType`](../smartartcolortype). |
+| [IsReversed](../../aspose.slides.smartart/ismartart/isreversed) { get; set; } | A SmartArt diagram állapotának visszaadása vagy beállítása a (balról jobbra) LTR vagy (jobbról balra) RTL tekintetében, ha a diagram támogatja a fordítást. Olvasás/írás Boolean. |
+| [Layout](../../aspose.slides.smartart/ismartart/layout) { get; set; } | A SmartArt objektum elrendezésének visszaadása vagy beállítása. Olvasás/írás [`SmartArtLayoutType`](../smartartlayouttype). |
 | [Nodes](../../aspose.slides.smartart/ismartart/nodes) { get; } | Visszaadja a SmartArt objektum gyökércsomópontjainak gyűjteményét. Csak olvasható [`ISmartArtNodeCollection`](../ismartartnodecollection). |
-| [QuickStyle](../../aspose.slides.smartart/ismartart/quickstyle) { get; set; } | Visszaadja vagy beállítja a SmartArt objektum gyorsstílusát. Olvasás/írás [`SmartArtQuickStyleType`](../smartartquickstyletype). |
+| [QuickStyle](../../aspose.slides.smartart/ismartart/quickstyle) { get; set; } | A SmartArt objektum gyorsstílusának visszaadása vagy beállítása. Olvasás/írás [`SmartArtQuickStyleType`](../smartartquickstyletype). |
 
 ### Lásd még
 

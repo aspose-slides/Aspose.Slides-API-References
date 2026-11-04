@@ -1,14 +1,14 @@
 ---
 title: IVbaModuleCollection
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho một tập hợp các mô-đun VBA Project.
+description: Đại diện cho một bộ sưu tập các module của VBA Project.
 type: docs
-weight: 11540
+weight: 11560
 url: /vi/aspose.slides.vba/ivbamodulecollection/
 ---
 ## IVbaModuleCollection giao diện
 
-Đại diện cho một tập hợp các mô-đun VBA Project.
+Đại diện cho một bộ sưu tập các mô-đun của VBA Project.
 
 ```csharp
 public interface IVbaModuleCollection : IGenericCollection<IVbaModule>
@@ -18,14 +18,14 @@ public interface IVbaModuleCollection : IGenericCollection<IVbaModule>
 
 | Tên | Mô tả |
 | --- | --- |
-| [Item](../../aspose.slides.vba/ivbamodulecollection/item) { get; } | Lấy phần tử tại chỉ mục được chỉ định. |
+| [Item](../../aspose.slides.vba/ivbamodulecollection/item) { get; } | Lấy phần tử tại chỉ số đã chỉ định. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [AddEmptyModule](../../aspose.slides.vba/ivbamodulecollection/addemptymodule)(string) | Thêm một mô-đun trống mới vào VBA Project. |
-| [Remove](../../aspose.slides.vba/ivbamodulecollection/remove)(IVbaModule) | Xóa lần xuất hiện đầu tiên của một đối tượng cụ thể khỏi tập hợp. |
+| [AddEmptyModule](../../aspose.slides.vba/ivbamodulecollection/addemptymodule)(string) | Thêm một mô-đun rỗng mới vào VBA Project. |
+| [Remove](../../aspose.slides.vba/ivbamodulecollection/remove)(IVbaModule) | Xóa lần xuất hiện đầu tiên của một đối tượng cụ thể khỏi bộ sưu tập. |
 
 ### Xem thêm
 

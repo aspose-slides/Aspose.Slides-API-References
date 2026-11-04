@@ -1,14 +1,14 @@
 ---
 title: IWarningInfo
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: सभी चेतावनियों के लिए एक मूल इंटरफ़ेस का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: सभी चेतावनियों के लिए एक बेस इंटरफ़ेस दर्शाता है।
 type: docs
-weight: 11810
+weight: 11830
 url: /hi/aspose.slides.warnings/iwarninginfo/
 ---
 ## IWarningInfo इंटरफ़ेस
 
-इस चेतावनी के लिए एक आधार इंटरफ़ेस का प्रतिनिधित्व करता है।
+सभी चेतावनियों के लिए एक बेस इंटरफ़ेस दर्शाता है।
 
 ```csharp
 public interface IWarningInfo
@@ -16,18 +16,18 @@ public interface IWarningInfo
 
 ## गुण
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [Description](../../aspose.slides.warnings/iwarninginfo/description) { get; } | इस चेतावनी का मानव पठनीय विवरण वापस करता है। केवल-पढ़ने योग्य String. |
-| [WarningType](../../aspose.slides.warnings/iwarninginfo/warningtype) { get; } | चेतावनी का प्रकार वापस करता है। केवल-पढ़ने योग्य [`WarningType`](./warningtype). |
+| [Description](../../aspose.slides.warnings/iwarninginfo/description) { get; } | इस चेतावनी का मानव-पठनीय विवरण लौटाता है। केवल पढ़ने योग्य String। |
+| [WarningType](../../aspose.slides.warnings/iwarninginfo/warningtype) { get; } | एक चेतावनी प्रकार लौटाता है। केवल पढ़ने योग्य [`WarningType`](./warningtype)। |
 
-## मेथड्स
+## विधियाँ
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [SendWarning](../../aspose.slides.warnings/iwarninginfo/sendwarning)(IWarningCallback) | यदि receiver null नहीं है तो निर्दिष्ट receiver को चेतावनी समाप्त करता है और यदि receiver ने ऑपरेशन को abort करने का निर्णय लिया तो AbortRequestedException फेंकता है। |
+| [SendWarning](../../aspose.slides.warnings/iwarninginfo/sendwarning)(IWarningCallback) | यदि receiver null नहीं है तो निर्दिष्ट receiver को चेतावनी समाप्त करता है और यदि receiver ने ऑपरेशन को रोकने का निर्णय लिया तो AbortRequestedException को थ्रो करता है। |
 
-### संबंधित देखें
+### अन्य देखें
 
 * नामस्थान [Aspose.Slides.Warnings](../../aspose.slides.warnings)
 * असेंबली [Aspose.Slides](../../)

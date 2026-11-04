@@ -1,14 +1,14 @@
 ---
 title: GroupingLevels
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: चार्ट श्रेणी समूह स्तरों के मानों का प्रबंधित कंटेनर। मल्टी-लेवल श्रेणी में एक से अधिक समूह स्तर होते हैं। समूह स्तरों की अनुक्रमणिका शून्य-आधारित है। केवल पढ़ने योग्य IChartCategoryLevelsManageraspose.slides.charts/ichartcategorylevelsmanager.
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: चार्ट श्रेणी समूह स्तरों के मानों का प्रबंधित कंटेनर। बहु-स्तरीय श्रेणी में एक से अधिक समूह स्तर होते हैं। समूह स्तरों का अनुक्रमण शून्य-आधारित है। केवल पढ़ने योग्य IChartCategoryLevelsManageraspose.slides.charts/ichartcategorylevelsmanager।
 type: docs
-weight: 30
+weight: 40
 url: /hi/aspose.slides.charts/chartcategory/groupinglevels/
 ---
 ## ChartCategory.GroupingLevels प्रॉपर्टी
 
-मैनेज्ड कंटेनर जिसका उपयोग चार्ट श्रेणी समूह स्तरों के मानों को संग्रहीत करने के लिए किया जाता है। मल्टी-लेवल श्रेणी में एक से अधिक समूह स्तर होते हैं। समूह स्तरों का इंडेक्स शून्य-आधारित है। केवल पढ़ने योग्य [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager).
+चार्ट श्रेणी समूह स्तरों के मानों का प्रबंधित कंटेनर। मल्टी-लेवल श्रेणी में एक से अधिक समूह स्तर होते हैं। समूह स्तरों की अनुक्रमण शून्य-आधारित है। केवल पढ़ने योग्य [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager)।
 
 ```csharp
 public IChartCategoryLevelsManager GroupingLevels { get; }

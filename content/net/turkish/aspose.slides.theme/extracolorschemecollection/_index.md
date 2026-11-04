@@ -1,14 +1,14 @@
 ---
 title: ExtraColorSchemeCollection
-second_title: Aspose.Slides için .NET API Referansı
-description: Ek renk şemalarından oluşan bir koleksiyonu temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Ek renk şemalarının bir koleksiyonunu temsil eder.
 type: docs
-weight: 11110
+weight: 11130
 url: /tr/aspose.slides.theme/extracolorschemecollection/
 ---
-## ExtraColorSchemeCollection sınıfı
+## ExtraColorSchemeCollection sınıf
 
-Ek renk şemalarından oluşan bir koleksiyonu temsil eder.
+Ek renk şemalarının bir koleksiyonunu temsil eder.
 
 ```csharp
 public class ExtraColorSchemeCollection : IExtraColorSchemeCollection
@@ -18,19 +18,19 @@ public class ExtraColorSchemeCollection : IExtraColorSchemeCollection
 
 | Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides.theme/extracolorschemecollection/count) { get; } | Koleksiyondaki öğelerin sayısını döndürür. Salt-okunur Int32. |
-| [IsSynchronized](../../aspose.slides.theme/extracolorschemecollection/issynchronized) { get; } | ArrayList'e erişimin senkronize (iş parçacığı güvenli) olup olmadığını gösteren bir değer döndürür. Salt-okunur Boolean. |
-| [Item](../../aspose.slides.theme/extracolorschemecollection/item) { get; } | İndeksle bir renk şeması döndürür. Salt-okunur [`ExtraColorScheme`](../extracolorscheme). |
-| [SyncRoot](../../aspose.slides.theme/extracolorschemecollection/syncroot) { get; } | Koleksiyona erişimi senkronize etmek için kullanılabilecek bir nesne döndürür. Salt-okunur Object. |
+| [Count](../../aspose.slides.theme/extracolorschemecollection/count) { get; } | Koleksiyondaki öğe sayısını döndürür. Yalnızca okuma Int32. |
+| [IsSynchronized](../../aspose.slides.theme/extracolorschemecollection/issynchronized) { get; } | ArrayList erişiminin eşzamanlı (thread safe) olup olmadığını gösteren bir değeri döndürür. Yalnızca okuma Boolean. |
+| [Item](../../aspose.slides.theme/extracolorschemecollection/item) { get; } | İndeks ile bir renk şeması döndürür. Yalnızca okuma [`ExtraColorScheme`](../extracolorscheme). |
+| [SyncRoot](../../aspose.slides.theme/extracolorschemecollection/syncroot) { get; } | Koleksiyona erişimi eşzamanlamak için kullanılabilecek bir nesneyi döndürür. Yalnızca okuma Object. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [CopyTo](../../aspose.slides.theme/extracolorschemecollection/copyto)(Array, int) | Koleksiyondaki tüm öğeleri belirlenen diziye kopyalar. |
-| [GetEnumerator](../../aspose.slides.theme/extracolorschemecollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |
+| [CopyTo](../../aspose.slides.theme/extracolorschemecollection/copyto)(Array, int) | Koleksiyonun tüm öğelerini belirtilen diziye kopyalar. |
+| [GetEnumerator](../../aspose.slides.theme/extracolorschemecollection/getenumerator)() | Koleksiyon üzerinde yineleme yapan bir enumerator döndürür. |
 
-### Ayrıca
+### Ayrıca bakınız
 
 * arayüz [IExtraColorSchemeCollection](../iextracolorschemecollection)
 * ad alanı [Aspose.Slides.Theme](../../aspose.slides.theme)

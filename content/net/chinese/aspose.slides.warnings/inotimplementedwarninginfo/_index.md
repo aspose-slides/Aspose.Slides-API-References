@@ -1,14 +1,14 @@
 ---
 title: INotImplementedWarningInfo
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示已知未实现功能的警告，该功能在近期不会实现。
+description: 表示已知未实现特性的警告，该特性在近期内不会实现。
 type: docs
-weight: 11770
+weight: 11790
 url: /zh/aspose.slides.warnings/inotimplementedwarninginfo/
 ---
 ## INotImplementedWarningInfo 接口
 
-表示已知未实现的功能的警告，此功能在近期不会实现。
+表示已知未实现功能的警告，该功能在近期内不会实现。
 
 ```csharp
 public interface INotImplementedWarningInfo : IWarningInfo

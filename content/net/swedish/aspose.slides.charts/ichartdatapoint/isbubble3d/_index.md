@@ -3,7 +3,7 @@ title: IsBubble3D
 second_title: Aspose.Sildes för .NET API-referens
 description: Anger att bubblorna har en 3-D-effekt tillämpad på dem. Läs/skriv Boolean.
 type: docs
-weight: 100
+weight: 140
 url: /sv/aspose.slides.charts/ichartdatapoint/isbubble3d/
 ---
 ## IChartDataPoint.IsBubble3D egenskap

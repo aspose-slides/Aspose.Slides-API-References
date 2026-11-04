@@ -1,14 +1,14 @@
 ---
 title: IMathBorderBox
 second_title: Aspose.Sildes برای .NET مرجع API
-description: یک حاشیهٔ مستطیلی یا دیگر اطراف IMathElement رسم می‌کند.
+description: یک حاشیه مستطیلی یا سایر حاشیه‌ها را دور IMathElement می‌کشد.
 type: docs
-weight: 8170
+weight: 8190
 url: /fa/aspose.slides.mathtext/imathborderbox/
 ---
 ## IMathBorderBox رابط
 
-یک حاشیه مستطیلی یا سایر حاشیه‌ها را دور IMathElement رسم می‌کند.
+Draws a rectangular or some other border around the IMathElement.
 
 ```csharp
 public interface IMathBorderBox : IMathElement
@@ -18,16 +18,16 @@ public interface IMathBorderBox : IMathElement
 
 | نام | توضیح |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathborderbox/asimathelement) { get; } | به‌دست آوردن رابط پایه IMathElement را امکان‌پذیر می‌سازد [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathborderbox/asimathelement) { get; } | به شما امکان می‌دهد رابط پایه IMathElement را دریافت کنید [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathborderbox/base) { get; } | آرگومان پایه |
-| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | پنهان کردن لبهٔ پایین (مقدار پیش‌فرض false) - وضعیت مخفی یا نمایش داده شدهٔ لبهٔ پایین جعبهٔ حاشیه را مشخص می‌کند. |
-| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | پنهان کردن لبهٔ چپ (مقدار پیش‌فرض false) - وضعیت مخفی یا نمایش داده شدهٔ لبهٔ چپ جعبهٔ حاشیه را مشخص می‌کند. |
-| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | پنهان کردن لبهٔ راست (مقدار پیش‌فرض false) - وضعیت مخفی یا نمایش داده شدهٔ لبهٔ راست جعبهٔ حاشیه را مشخص می‌کند. |
-| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | پنهان کردن لبهٔ بالا (مقدار پیش‌فرض false) - وضعیت مخفی یا نمایش داده شدهٔ لبهٔ بالا جعبهٔ حاشیه را مشخص می‌کند. |
-| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | خط ضربه‌دار از پایین-چپ به بالا-راست (مقدار پیش‌فرض false). وضعیت مخفی یا نمایش داده شدهٔ خط ضربه‌دار قطری از گوشهٔ پایین-چپ به گوشهٔ بالا-راست جعبهٔ حاشیه را مشخص می‌کند. |
-| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | خط ضربه‌دار افقی (مقدار پیش‌فرض false) - وضعیت مخفی یا نمایش داده شدهٔ خط ضربه‌دار افقی را مشخص می‌کند. |
-| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | خط ضربه‌دار از بالا-چپ به پایین-راست (مقدار پیش‌فرض false). وضعیت مخفی یا نمایش داده شدهٔ خط ضربه‌دار قطری از گوشهٔ بالا-چپ به گوشهٔ پایین-راست جعبهٔ حاشیه را مشخص می‌کند. |
-| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | خط ضربه‌دار عمودی (مقدار پیش‌فرض false) - وضعیت مخفی یا نمایش داده شدهٔ خط ضربه‌دار عمودی را مشخص می‌کند. |
+| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | پنهان کردن لبه پایین (پیش‌فرض false) - وضعیت مخفی یا نمایش داده‌شده لبه پایین جعبه مرزی را مشخص می‌کند. |
+| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | پنهان کردن لبه چپ (پیش‌فرض false) - وضعیت مخفی یا نمایش داده‌شده لبه چپ جعبه مرزی را مشخص می‌کند. |
+| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | پنهان کردن لبه راست (پیش‌فرض false) - وضعیت مخفی یا نمایش داده‌شده لبه راست جعبه مرزی را مشخص می‌کند. |
+| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | پنهان کردن لبه بالا (پیش‌فرض false) - وضعیت مخفی یا نمایش داده‌شده لبه بالای جعبه مرزی را مشخص می‌کند. |
+| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | خطّ خورده از گوشه پایین-چپ به گوشه بالا-راست (پیش‌فرض false). وضعیت مخفی یا نمایش داده‌شده یک خط خوردهٔ قطری از گوشه پایین-چپ به گوشه بالا-راست جعبه مرزی را مشخص می‌کند. |
+| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | خطّ خورده افقی (پیش‌فرض false) - وضعیت مخفی یا نمایش داده‌شده یک خط خوردهٔ افقی را مشخص می‌کند. |
+| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | خطّ خورده از گوشه بالا-چپ به گوشه پایین-راست (پیش‌فرض false). وضعیت مخفی یا نمایش داده‌شده یک خط خوردهٔ قطری از گوشه بالا-چپ به گوشه پایین-راست جعبه مرزی را مشخص می‌کند. |
+| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | خطّ خورده عمودی (پیش‌فرض false) - وضعیت مخفی یا نمایش داده‌شده یک خط خوردهٔ عمودی را مشخص می‌کند. |
 
 ### مثال‌ها
 
@@ -38,10 +38,10 @@ public interface IMathBorderBox : IMathElement
 IMathBorderBox borderBox = new MathematicalText("x+y+z").ToBorderBox();
 ```
 
-### موارد مرتبط
+### همچنین ببینید
 
 * رابط [IMathElement](../imathelement)
-* فضای نام [Aspose.Slides.MathText](../../aspose.slides.mathtext)
-* مجموعه [Aspose.Slides](../../)
+* فضای‌نام [Aspose.Slides.MathText](../../aspose.slides.mathtext)
+* مجمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

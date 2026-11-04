@@ -1,9 +1,9 @@
 ---
 title: IMathDelimiterFactory
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET API Reference
 description: Umożliwia tworzenie delimitera matematycznego
 type: docs
-weight: 8220
+weight: 8240
 url: /pl/aspose.slides.mathtext/imathdelimiterfactory/
 ---
 ## IMathDelimiterFactory interfejs
@@ -18,14 +18,14 @@ public interface IMathDelimiterFactory
 
 | Nazwa | Opis |
 | --- | --- |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/imathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | Utwórz separator matematyczny, stosując go do elementu |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/imathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | Utwórz separator matematyczny, stosując go do kolekcji elementów |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/imathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | Tworzy delimiter matematyczny poprzez zastosowanie do elementu |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/imathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | Tworzy delimiter matematyczny poprzez zastosowanie do elementu |
 
 ### Uwagi
 
-Dla zgodności z COM
+Do kompatybilności z COM
 
-### Zobacz także
+### Zobacz też
 
 * przestrzeń nazw [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * zestaw [Aspose.Slides](../../)

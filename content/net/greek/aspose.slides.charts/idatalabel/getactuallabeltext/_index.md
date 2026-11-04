@@ -1,14 +1,14 @@
 ---
 title: GetActualLabelText
-second_title: Αναφορά API Aspose.Sildes για .NET
+second_title: Aspose.Sildes για .NET Αναφορά API
 description: Επιστρέφει το πραγματικό κείμενο ετικέτας βάσει των ρυθμίσεων DataLabelFormat ή της τιμής TextFrameForOverriding.Text.
 type: docs
-weight: 70
+weight: 80
 url: /el/aspose.slides.charts/idatalabel/getactuallabeltext/
 ---
 ## IDataLabel.GetActualLabelText μέθοδος
 
-Επιστρέφει πραγματικό κείμενο ετικέτας βάσει ρυθμίσεων DataLabelFormat ή τιμής TextFrameForOverriding.Text.
+Επιστρέφει το πραγματικό κείμενο ετικέτας βάσει των ρυθμίσεων DataLabelFormat ή της τιμής TextFrameForOverriding.Text.
 
 ```csharp
 public string GetActualLabelText()

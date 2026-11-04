@@ -1,9 +1,9 @@
 ---
 title: IFieldType
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для .NET: справочник API
 description: Представляет тип поля. Это значение определяет, какой текст будет установлен в часть поля при её обновлении.
 type: docs
-weight: 5780
+weight: 5800
 url: /ru/aspose.slides/ifieldtype/
 ---
 ## IFieldType интерфейс

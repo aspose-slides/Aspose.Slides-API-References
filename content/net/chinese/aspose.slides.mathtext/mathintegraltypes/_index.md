@@ -1,9 +1,9 @@
 ---
 title: MathIntegralTypes
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 数学积分类型
 type: docs
-weight: 8790
+weight: 8810
 url: /zh/aspose.slides.mathtext/mathintegraltypes/
 ---
 ## MathIntegralTypes 枚举
@@ -16,16 +16,16 @@ public enum MathIntegralTypes
 
 ### 值
 
-| 名称 | 值 | 描述 |
+| 名称 | 数值 | 描述 |
 | --- | --- | --- |
-| Simple | `0` | 积分: '∫' |
-| Double | `1` | 二重积分: '∬' |
-| Triple | `2` | 三重积分: '∭' |
-| Contour | `3` | 轮廓积分: '∮' |
-| Surface | `4` | 曲面积分: '∯' |
-| Volume | `5` | 体积分: '∰' |
+| Simple | `0` | 积分：'∫' |
+| Double | `1` | 双重积分：'∬' |
+| Triple | `2` | 三重积分：'∭' |
+| Contour | `3` | 轮廓积分：'∮' |
+| Surface | `4` | 表面积分：'∯' |
+| Volume | `5` | 体积分：'∰' |
 
-### 另请参阅
+### 参见
 
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 程序集 [Aspose.Slides](../../)

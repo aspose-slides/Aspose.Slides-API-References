@@ -1,9 +1,9 @@
 ---
 title: IFontSources
-second_title: Aspose.Sildes dla .NET API Reference
+second_title: Aspose.Sildes dla .NET Referencji API
 description: Udostępnia pliki i źródła pamięci dla zewnętrznych czcionek.
 type: docs
-weight: 5870
+weight: 5890
 url: /pl/aspose.slides/ifontsources/
 ---
 ## IFontSources interfejs
@@ -18,10 +18,10 @@ public interface IFontSources
 
 | Nazwa | Opis |
 | --- | --- |
-| [FontFolders](../../aspose.slides/ifontsources/fontfolders) { get; set; } | Foldery zawierające pliki czcionek. Wszystkie pliki czcionek znajdujące się w tych folderach są uwzględniane w kolekcji. Foldery przeszukiwane rekurencyjnie. |
-| [MemoryFonts](../../aspose.slides/ifontsources/memoryfonts) { get; set; } | Kolekcja czcionek reprezentowanych jako tablice bajtów. |
+| [FontFolders](../../aspose.slides/ifontsources/fontfolders) { get; set; } | Foldery zawierające pliki czcionek. Wszystkie pliki czcionek znajdujące się w tych folderach są włączane do kolekcji. Foldery przeszukiwane rekurencyjnie. |
+| [MemoryFonts](../../aspose.slides/ifontsources/memoryfonts) { get; set; } | Zbiór czcionek reprezentowanych jako tablice bajtów. |
 
-### Zobacz także
+### Patrz także
 
 * przestrzeń nazw [Aspose.Slides](../../aspose.slides)
 * zestaw [Aspose.Slides](../../)

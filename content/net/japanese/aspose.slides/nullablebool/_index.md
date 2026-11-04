@@ -1,14 +1,14 @@
 ---
 title: NullableBool
-second_title: Aspose.Sildes の .NET API リファレンス
-description: 三値ブール値を表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: トリプルブール値を表します。
 type: docs
-weight: 9170
+weight: 9190
 url: /ja/aspose.slides/nullablebool/
 ---
-## NullableBool 列挙型
+## NullableBool 列挙体
 
-三値ブール値を表します。
+3 つのブール値を表します。
 
 ```csharp
 public enum NullableBool : sbyte
@@ -18,9 +18,9 @@ public enum NullableBool : sbyte
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| NotDefined | `-1` | ブール値が未定義です。 |
-| False | `0` | False 値です。 |
-| True | `1` | True 値です。 |
+| NotDefined | `-1` | ブール値は未定義です。 |
+| False | `0` | False 値。 |
+| True | `1` | True 値。 |
 
 ### 参照
 

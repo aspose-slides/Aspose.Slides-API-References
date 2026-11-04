@@ -1,9 +1,9 @@
 ---
 title: ISummaryZoomSectionCollection
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes .NET API Referencia
 description: A Summary Zoom Section objektumok gyűjteményét képviseli.
 type: docs
-weight: 7170
+weight: 7190
 url: /hu/aspose.slides/isummaryzoomsectioncollection/
 ---
 ## ISummaryZoomSectionCollection interfész
@@ -18,15 +18,15 @@ public interface ISummaryZoomSectionCollection : IGenericCollection<ISummaryZoom
 
 | Név | Leírás |
 | --- | --- |
-| [Item](../../aspose.slides/isummaryzoomsectioncollection/item) { get; } | Az adott indexű elemet adja vissza. Csak olvasható [`ISummaryZoomSection`](../isummaryzoomsection). |
+| [Item](../../aspose.slides/isummaryzoomsectioncollection/item) { get; } | Megkapja a megadott indexű elemet. Csak olvasható [`ISummaryZoomSection`](../isummaryzoomsection). |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [AddSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection)(ISection) | Új Summary Zoom Section objektumot hoz létre, és hozzáadja a gyűjteményhez. |
+| [AddSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection)(ISection) | Új Summary Zoom Section objektumot hoz létre és hozzáadja a gyűjteményhez |
 | [Clear](../../aspose.slides/isummaryzoomsectioncollection/clear)() | Eltávolítja az összes SummaryZoomSection objektumot a gyűjteményből. |
-| [GetSummarySection](../../aspose.slides/isummaryzoomsectioncollection/getsummarysection)(ISection) | Visszaadja a megadott szakaszhoz tartozó Summary Zoom Section elemet. |
+| [GetSummarySection](../../aspose.slides/isummaryzoomsectioncollection/getsummarysection)(ISection) | Visszaadja a Summary Zoom Section elemet a megadott szakaszhoz. |
 | [IndexOf](../../aspose.slides/isummaryzoomsectioncollection/indexof)(ISummaryZoomSection) | Visszaadja a megadott SummaryZoomSection objektum indexét. |
 | [RemoveSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/removesummaryzoomsection)(ISection) | Eltávolítja a Summary Zoom Section objektumot a gyűjteményből. |
 

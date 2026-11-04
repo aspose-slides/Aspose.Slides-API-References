@@ -1,14 +1,14 @@
 ---
 title: ReplaceRegex
-second_title: Aspose.Sildes için .NET API Referansı
-description: Düzenli ifadenin tüm eşleşmelerini belirtilen dizeyle değiştirir.
+second_title: Aspose.Sildes .NET API Referansı için
+description: Belirtilen dizeyle düzenli ifadenin tüm eşleşmelerini değiştirir.
 type: docs
-weight: 360
+weight: 370
 url: /tr/aspose.slides/ipresentation/replaceregex/
 ---
-## IPresentation.ReplaceRegex metot
+## IPresentation.ReplaceRegex metodu
 
-Düzenli ifadenin tüm eşleşmelerini belirtilen dizeyle değiştirir.
+Belirtilen dizeyle düzenli ifadenin tüm eşleşmelerini değiştirir.
 
 ```csharp
 public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callback)
@@ -16,26 +16,26 @@ public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callba
 
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| regex | Regex | Değiştirilecek dizeleri elde etmek için kullanılan Regex düzenli ifadesi. |
+| regex | Regex | Değiştirilecek dizeleri elde etmek için kullanılan düzenli ifade Regex. |
 | newText | String | Değiştirilecek dizelerin tüm görünümlerini değiştirecek dize. |
-| callback | IFindResultCallback | Arama sonuçlarını almak için kullanılan geri çağırma nesnesi [`IFindResultCallback`](../../ifindresultcallback). |
+| callback | IFindResultCallback | Arama sonuçlarını almak için geri çağırma nesnesi [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Örnekler
 
-Aşağıdaki kod örneği, düzenli ifade kullanarak metni belirtilen dize ile nasıl değiştireceğinizi gösterir.
+Aşağıdaki kod örneği, düzenli ifade kullanarak metni belirtilen dizeyle nasıl değiştireceğinizi gösterir.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// 10 ya da daha fazla karaktere sahip tüm kelimeleri '***' ile değiştir
+	// 10 veya daha fazla karaktere sahip tüm kelimeleri '***' ile değiştir
 	presentation.ReplaceRegex(regex, "***", null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }
 ```
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
 * arayüz [IFindResultCallback](../../ifindresultcallback)
 * arayüz [IPresentation](../../ipresentation)

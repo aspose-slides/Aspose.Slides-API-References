@@ -1,26 +1,26 @@
 ---
 title: SplitTextByColumns
-second_title: Aspose.Sildes per .NET - Riferimento API
-description: Divide il contenuto di testo del ITextFrameaspose.slides/itextframe in un array di stringhe in cui ogni elemento corrisponde a una colonna di testo separata all'interno del frame.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Divide il contenuto di testo dell'ITextFrameaspose.slides/itextframe in un array di stringhe dove ogni elemento corrisponde a una colonna di testo separata all'interno del riquadro.
 type: docs
-weight: 130
+weight: 140
 url: /it/aspose.slides/itextframe/splittextbycolumns/
 ---
 ## ITextFrame.SplitTextByColumns metodo
 
-Divide il contenuto di testo del [`ITextFrame`](../../itextframe) in un array di stringhe, dove ogni elemento corrisponde a una colonna di testo separata all'interno del frame.
+Divide il contenuto di testo del [`ITextFrame`](../../itextframe) in un array di stringhe, dove ogni elemento corrisponde a una colonna di testo separata all'interno del riquadro.
 
 ```csharp
 public string[] SplitTextByColumns()
 ```
 
-### Valore di ritorno
+### Valore restituito
 
 Un array di stringhe, dove ogni stringa rappresenta il contenuto di testo di una colonna specifica nel [`ITextFrame`](../../itextframe).
 
 ### Osservazioni
 
-Se il frame di testo non contiene più colonne, l'array restituito avrà un solo elemento contenente l'intero testo. Le colonne vuote saranno rappresentate come stringhe vuote nell'array.
+Se il riquadro di testo non contiene più colonne, l'array restituito avrà un solo elemento contenente il testo completo. Le colonne vuote saranno rappresentate come stringhe vuote nell'array.
 
 ### Esempi
 
@@ -29,7 +29,7 @@ Il seguente esempio dimostra come utilizzare `SplitTextByColumns`:
 ```csharp
 using (Presentation pres = new Presentation("example.pptx"))
 {
-    // Ottieni la prima forma sulla diapositiva e convertila in ITextFrame
+    // Ottieni la prima forma nella diapositiva e convertila in ITextFrame
     ITextFrame textFrame = pres.Slides[0].Shapes[0] as ITextFrame;
     // Dividi il contenuto del frame di testo in colonne
     string[] columnsText = textFrame.SplitTextByColumns();

@@ -3,12 +3,12 @@ title: IParagraph
 second_title: Aspose.Sildes .NET API 参考
 description: 表示文本的段落。
 type: docs
-weight: 6560
+weight: 6580
 url: /zh/aspose.slides/iparagraph/
 ---
 ## IParagraph 接口
 
-表示文本的段落。
+Represents a paragraph of a text.
 
 ```csharp
 public interface IParagraph : ISlideComponent
@@ -18,21 +18,23 @@ public interface IParagraph : ISlideComponent
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/iparagraph/asislidecomponent) { get; } | 允许获取基 ISlideComponent 接口。只读 [`ISlideComponent`](../islidecomponent)。 |
-| [EndParagraphPortionFormat](../../aspose.slides/iparagraph/endparagraphportionformat) { get; set; } | 指定在最后一个部分之后插入另一部分时要使用的部分属性。 |
-| [ParagraphFormat](../../aspose.slides/iparagraph/paragraphformat) { get; } | 返回此段落的格式化对象。只读 [`IParagraphFormat`](../iparagraphformat)。 |
+| [AsISlideComponent](../../aspose.slides/iparagraph/asislidecomponent) { get; } | 允许获取基础 ISlideComponent 接口。只读 [`ISlideComponent`](../islidecomponent)。 |
+| [EndParagraphPortionFormat](../../aspose.slides/iparagraph/endparagraphportionformat) { get; set; } | 指定如果在最后一个之后插入另一个部分时要使用的部分属性。 |
+| [ParagraphFormat](../../aspose.slides/iparagraph/paragraphformat) { get; } | 返回此段落的格式对象。只读 [`IParagraphFormat`](../iparagraphformat)。 |
 | [Portions](../../aspose.slides/iparagraph/portions) { get; } | 返回文本部分的集合。只读 [`IPortionCollection`](../iportioncollection)。 |
-| [Text](../../aspose.slides/iparagraph/text) { get; set; } | 获取或设置段落的纯文本。可读写 String。 |
+| [Text](../../aspose.slides/iparagraph/text) { get; set; } | 获取或设置段落的纯文本。读写 String。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
+| [GetImage](../../aspose.slides/iparagraph/getimage#getimage)() | 返回段落的图像。 |
+| [GetImage](../../aspose.slides/iparagraph/getimage#getimage_1)(float, float) | 返回具有指定比例的段落图像。 |
 | [GetLinesCount](../../aspose.slides/iparagraph/getlinescount)() | 获取段落中的行数。 |
-| [GetRect](../../aspose.slides/iparagraph/getrect)() | 获取限定段落的矩形坐标。该矩形包含段落中所有文本行，包括空行。 |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/iparagraph/joinportionswithsameformatting)() | 合并具有相同格式的文本运行。 |
+| [GetRect](../../aspose.slides/iparagraph/getrect)() | 获取围绕段落的矩形坐标。该矩形包括段落中所有文本行，包括空行。 |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/iparagraph/joinportionswithsameformatting)() | 合并具有相同格式的运行。 |
 
-### 另见
+### 另请参见
 
 * 接口 [ISlideComponent](../islidecomponent)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

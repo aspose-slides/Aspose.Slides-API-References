@@ -1,14 +1,14 @@
 ---
 title: IAlphaReplace
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar bas IImageTransformOperation-gränssnittet.
+description: Representerar bas IImageTransformOperation-gränssnitt.
 type: docs
-weight: 3140
+weight: 3160
 url: /sv/aspose.slides.effects/ialphareplace/
 ---
 ## IAlphaReplace gränssnitt
 
-Representerar bas IImageTransformOperation gränssnittet.
+Representerar bas IImageTransformOperation-gränssnitt.
 
 ```csharp
 public interface IAlphaReplace : IAccessiblePVIObject<IAlphaReplaceEffectiveData>, 
@@ -19,10 +19,10 @@ public interface IAlphaReplace : IAccessiblePVIObject<IAlphaReplaceEffectiveData
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphareplace/asiaccessiblepviobject) { get; } | Tillåter att hämta bas IAccessiblePVIObject gränssnittet. Skrivskyddad [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphareplace/asiimagetransformoperation) { get; } | Tillåter att hämta bas IImageTransformOperation gränssnittet. Skrivskyddad [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphareplace/asiaccessiblepviobject) { get; } | Tillåter att hämta bas IAccessiblePVIObject-gränssnitt. Skrivskyddad [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphareplace/asiimagetransformoperation) { get; } | Tillåter att hämta bas IImageTransformOperation-gränssnitt. Skrivskyddad [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### Se även
+### Se också
 
 * gränssnitt [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * gränssnitt [IAlphaReplaceEffectiveData](../ialphareplaceeffectivedata)

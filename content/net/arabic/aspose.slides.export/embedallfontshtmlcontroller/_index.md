@@ -1,14 +1,14 @@
 ---
 title: EmbedAllFontsHtmlController
 second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: فئة المتحكم في التنسيق لاستخدامها في تضمين جميع خطوط العرض بتنسيق WOFF.
+description: فئة وحدة تحكم التنسيق المستخدمة لتضمين جميع خطوط العرض التقديمي بتنسيق WOFF.
 type: docs
-weight: 3760
+weight: 3780
 url: /ar/aspose.slides.export/embedallfontshtmlcontroller/
 ---
-## فئة EmbedAllFontsHtmlController
+## EmbedAllFontsHtmlController فئة
 
-فئة المتحكم في التنسيق لاستخدامها في تضمين جميع خطوط العرض بتنسيق WOFF.
+فئة وحدة تحكم التنسيق المستخدمة لتضمين جميع خطوط العرض التقديمي بتنسيق WOFF.
 
 ```csharp
 public class EmbedAllFontsHtmlController : IHtmlFormattingController
@@ -18,21 +18,21 @@ public class EmbedAllFontsHtmlController : IHtmlFormattingController
 
 | الاسم | الوصف |
 | --- | --- |
-| [EmbedAllFontsHtmlController](embedallfontshtmlcontroller#constructor)() | ينشئ نسخة جديدة |
-| [EmbedAllFontsHtmlController](embedallfontshtmlcontroller#constructor_1)(string[]) | ينشئ نسخة جديدة |
+| [EmbedAllFontsHtmlController](embedallfontshtmlcontroller#constructor)() | ينشئ مثيلًا جديدًا |
+| [EmbedAllFontsHtmlController](embedallfontshtmlcontroller#constructor_1)(string[]) | ينشئ مثيلًا جديدًا |
 
-## الأساليب
+## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
 | virtual [WriteAllFonts](../../aspose.slides.export/embedallfontshtmlcontroller/writeallfonts)(IHtmlGenerator, IPresentation) | اكتب جميع الخطوط الموجودة في [`Presentation`](../../aspose.slides/presentation). |
-| virtual [WriteDocumentEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | يُستدعى لكتابة تذييل مستند HTML. يُستدعى مرة واحدة لكل تحويل عرض تقديمي. |
-| virtual [WriteDocumentStart](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | يُستدعى لكتابة رأس مستند HTML. يُستدعى مرة واحدة لكل تحويل عرض تقديمي. |
+| virtual [WriteDocumentEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | يتم استدعاؤه لكتابة تذييل مستند html. يتم استدعاؤه مرة واحدة لكل تحويل للعرض التقديمي. |
+| virtual [WriteDocumentStart](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | يتم استدعاؤه لكتابة رأس مستند html. يتم استدعاؤه مرة واحدة لكل تحويل للعرض التقديمي. |
 | virtual [WriteFont](../../aspose.slides.export/embedallfontshtmlcontroller/writefont)(IHtmlGenerator, IFontData, IFontData, string, string, byte[]) | يكتب البيانات كـ base64 داخل مستند HTML نفسه |
-| virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | يُستدعى قبل تصيير الشكل. يُستدعى مرة واحدة لكل شكل. إذا كتبت هذه الدالة أي شيء إلى المُولد، سيتم إنهاء توليد صورة الشريحة الحالية، وإدراج جزء HTML المضاف، وسيبدأ صورة جديدة فوق السابقة. |
-| virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | يُستدعى قبل تصيير الشكل. يُستدعى مرة واحدة لكل شكل. إذا كتبت هذه الدالة أي شيء إلى المُولد، سيتم إنهاء توليد صورة الشريحة الحالية، وإدراج جزء HTML المضاف، وسيبدأ صورة جديدة فوق السابقة. |
-| virtual [WriteSlideEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeslideend)(IHtmlGenerator, ISlide) | يُستدعى لكتابة تذييل شريحة HTML. يُستدعى مرة واحدة لكل شريحة. |
-| virtual [WriteSlideStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeslidestart)(IHtmlGenerator, ISlide) | يُستدعى لكتابة رأس شريحة HTML. يُستدعى مرة واحدة لكل شريحة. |
+| virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | يتم استدعاؤه قبل عرض الشكل. يتم استدعاؤه مرة واحدة لكل شكل. إذا كتبت هذه الدالة أي شيء إلى generator، سيتم الانتهاء من توليد صورة الشريحة الحالية، وإدراج قطعة html المضافة، وسيتم بدء صورة جديدة فوق السابقة. |
+| virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | يتم استدعاؤه قبل عرض الشكل. يتم استدعاؤه مرة واحدة لكل شكل. إذا كتبت هذه الدالة أي شيء إلى generator، سيتم الانتهاء من توليد صورة الشريحة الحالية، وإدراج قطعة html المضافة، وسيتم بدء صورة جديدة فوق السابقة. |
+| virtual [WriteSlideEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeslideend)(IHtmlGenerator, ISlide) | يتم استدعاؤه لكتابة تذييل شريحة html. يتم استدعاؤه مرة واحدة لكل شريحة. |
+| virtual [WriteSlideStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeslidestart)(IHtmlGenerator, ISlide) | يتم استدعاؤه لكتابة رأس شريحة html. يتم استدعاؤه مرة واحدة لكل شريحة. |
 
 ### انظر أيضًا
 

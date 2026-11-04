@@ -3,10 +3,10 @@ title: LineStyle
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Geeft de stijl van een lijn weer.
 type: docs
-weight: 7820
+weight: 7840
 url: /nl/aspose.slides/linestyle/
 ---
-## LineStyle-enumeratie
+## LineStyle enumeratie
 
 Geeft de stijl van een lijn weer.
 

@@ -1,9 +1,9 @@
 ---
 title: PlaceholderType
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет тип заполнителя.
 type: docs
-weight: 9450
+weight: 9470
 url: /ru/aspose.slides/placeholdertype/
 ---
 ## PlaceholderType перечисление
@@ -18,22 +18,22 @@ public enum PlaceholderType : sbyte
 
 | Имя | Значение | Описание |
 | --- | --- | --- |
-| Title | `0` | Заголовок. |
-| Body | `1` | Текст. |
-| CenteredTitle | `2` | Центрированный заголовок. |
-| Subtitle | `3` | Подзаголовок. |
-| DateAndTime | `4` | Дата и время. |
-| SlideNumber | `5` | Номер слайда. |
-| Footer | `6` | Нижний колонтитул. |
-| Header | `7` | Верхний колонтитул. |
-| Object | `8` | Объект. |
-| Chart | `9` | Диаграмма. |
-| Table | `10` | Таблица. |
-| ClipArt | `11` | Клипарт. |
-| Diagram | `12` | Диаграмма. |
-| Media | `13` | Медиа. |
-| SlideImage | `14` | Изображение слайда. |
-| Picture | `15` | Изображение. |
+| Title | `0` | Title. |
+| Body | `1` | Body. |
+| CenteredTitle | `2` | Centered Title. |
+| Subtitle | `3` | Subtitle. |
+| DateAndTime | `4` | Date and Time. |
+| SlideNumber | `5` | Slide Number. |
+| Footer | `6` | Footer. |
+| Header | `7` | Header. |
+| Object | `8` | Object. |
+| Chart | `9` | Chart. |
+| Table | `10` | Table. |
+| ClipArt | `11` | Clip Art. |
+| Diagram | `12` | Diagram. |
+| Media | `13` | Media. |
+| SlideImage | `14` | Slide Image. |
+| Picture | `15` | Picture. |
 
 ### См. также
 

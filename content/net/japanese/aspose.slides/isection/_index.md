@@ -3,7 +3,7 @@ title: ISection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: スライドのセクションを表します。
 type: docs
-weight: 6890
+weight: 6910
 url: /ja/aspose.slides/isection/
 ---
 ## ISection インターフェイス
@@ -28,7 +28,7 @@ public interface ISection
 | --- | --- |
 | [GetSlidesListOfSection](../../aspose.slides/isection/getslideslistofsection)() | セクション内のスライドの一覧を返します。 |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

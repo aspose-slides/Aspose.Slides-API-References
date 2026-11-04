@@ -1,9 +1,9 @@
 ---
 title: GradientStyle
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Mevcut gradient stillerini temsil eder.
 type: docs
-weight: 5060
+weight: 5080
 url: /tr/aspose.slides/gradientstyle/
 ---
 ## GradientStyle enum
@@ -21,7 +21,7 @@ public enum GradientStyle
 | Default | `0` | Varsayılan gradient stili. |
 | PowerPointUI | `1` | PowerPoint kullanıcı arabiriminde göründüğü gibi gradient stili. |
 
-### Diğer Bağlantılar
+### Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

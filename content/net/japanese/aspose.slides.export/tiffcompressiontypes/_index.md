@@ -1,9 +1,9 @@
 ---
 title: TiffCompressionTypes
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: プレゼンテーションが TIFF 形式で圧縮される方法を制御するオプションを提供します。
 type: docs
-weight: 4560
+weight: 4580
 url: /ja/aspose.slides.export/tiffcompressiontypes/
 ---
 ## TiffCompressionTypes 列挙型
@@ -19,7 +19,7 @@ public enum TiffCompressionTypes
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
 | Default | `0` | デフォルトの圧縮方式 (LZW) を指定します。 |
-| None | `1` | 圧縮を行わないことを指定します。 |
+| None | `1` | 圧縮しないことを指定します。 |
 | CCITT3 | `2` | CCITT3 圧縮方式を指定します。 |
 | CCITT4 | `3` | CCITT4 圧縮方式を指定します。 |
 | LZW | `4` | LZW 圧縮方式 (デフォルト) を指定します。 |

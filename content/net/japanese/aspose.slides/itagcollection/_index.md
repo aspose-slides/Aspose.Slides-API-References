@@ -1,14 +1,14 @@
 ---
 title: ITagCollection
 second_title: Aspose.Sildes for .NET API リファレンス
-description: タグのコレクション（ユーザー定義の文字列ペア）を表します
+description: タグ（ユーザー定義の文字列ペア）のコレクションを表します
 type: docs
-weight: 7260
+weight: 7280
 url: /ja/aspose.slides/itagcollection/
 ---
 ## ITagCollection インターフェイス
 
-タグのコレクション（ユーザー定義の文字列ペア）を表します。
+タグ（ユーザーが定義した文字列のペア）のコレクションを表します。
 
 ```csharp
 public interface ITagCollection : IGenericCollection<KeyValuePair<string, string>>
@@ -16,13 +16,13 @@ public interface ITagCollection : IGenericCollection<KeyValuePair<string, string
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [Item](../../aspose.slides/itagcollection/item) { get; set; } | タグのキーと値のペアを取得または設定します。 |
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [Add](../../aspose.slides/itagcollection/add)(string, string) | コレクションに新しいタグを追加します。 |
 | [Clear](../../aspose.slides/itagcollection/clear)() | コレクションからすべてのタグを削除します。 |
@@ -31,7 +31,7 @@ public interface ITagCollection : IGenericCollection<KeyValuePair<string, string
 | [GetNamesOfTags](../../aspose.slides/itagcollection/getnamesoftags)() | タグの名前を返します。 |
 | [GetValueByIndex](../../aspose.slides/itagcollection/getvaluebyindex)(int) | 指定されたインデックスのタグの値を返します。 |
 | [IndexOfName](../../aspose.slides/itagcollection/indexofname)(string) | コレクション内の指定されたキーのゼロベースインデックスを返します。 |
-| [Remove](../../aspose.slides/itagcollection/remove)(string) | コレクションから指定された名前のタグを削除します。 |
+| [Remove](../../aspose.slides/itagcollection/remove)(string) | 指定された名前のタグをコレクションから削除します。 |
 | [RemoveAt](../../aspose.slides/itagcollection/removeat)(int) | 指定されたインデックスのタグを削除します。 |
 
 ### 参照

@@ -3,7 +3,7 @@ title: SplitTransition
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Effetto di transizione della diapositiva divisa.
 type: docs
-weight: 10330
+weight: 10350
 url: /it/aspose.slides.slideshow/splittransition/
 ---
 ## SplitTransition classe
@@ -26,7 +26,7 @@ public class SplitTransition : TransitionValueBase, ISplitTransition
 | Nome | Descrizione |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina se le due istanze di TransitionValueBase sono uguali. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funge da funzione hash per un tipo specifico, adatta all'uso in algoritmi di hashing e strutture dati come una tabella hash. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funge da funzione hash per un tipo particolare, adatta all'uso in algoritmi di hashing e strutture dati come una tabella hash. |
 
 ### Vedi anche
 

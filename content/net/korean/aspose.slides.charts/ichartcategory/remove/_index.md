@@ -3,10 +3,10 @@ title: Remove
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 차트에서 카테고리를 제거합니다.
 type: docs
-weight: 60
+weight: 70
 url: /ko/aspose.slides.charts/ichartcategory/remove/
 ---
-## IChartCategory.Remove method
+## IChartCategory.Remove 메서드
 
 차트에서 카테고리를 제거합니다.
 
@@ -20,7 +20,7 @@ public void Remove()
 | --- | --- |
 | [PptxEditException](../../../aspose.slides/pptxeditexception) | 카테고리가 이미 차트에서 제거된 경우 예외가 발생합니다. |
 
-### 참조
+### 참고
 
 * 인터페이스 [IChartCategory](../../ichartcategory)
 * 네임스페이스 [Aspose.Slides.Charts](../../ichartcategory)

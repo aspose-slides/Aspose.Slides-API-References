@@ -3,7 +3,7 @@ title: ParagraphCollection
 second_title: Aspose.Sildes の .NET API リファレンス
 description: 段落のコレクションを表します。
 type: docs
-weight: 9290
+weight: 9310
 url: /ja/aspose.slides/paragraphcollection/
 ---
 ## ParagraphCollection クラス
@@ -26,18 +26,18 @@ public sealed class ParagraphCollection : DomObject<TextFrame>, IParagraphCollec
 
 | 名前 | 説明 |
 | --- | --- |
-| [Add](../../aspose.slides/paragraphcollection/add#add_1)(IParagraph) | Paragraph をコレクションの末尾に追加します。 |
-| [Add](../../aspose.slides/paragraphcollection/add#add)(IParagraphCollection) | ParagraphCollection の内容をコレクションの末尾に追加します。 |
+| [Add](../../aspose.slides/paragraphcollection/add#add_1)(IParagraph) | コレクションの末尾に Paragraph を追加します。 |
+| [Add](../../aspose.slides/paragraphcollection/add#add)(IParagraphCollection) | コレクションの末尾に ParagraphCollection の内容を追加します。 |
 | [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml)(string) | 指定された HTML 文字列からテキストをコレクションに追加します。 |
 | [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | 指定された HTML 文字列からテキストをコレクションに追加します。 |
 | [Clear](../../aspose.slides/paragraphcollection/clear)() | コレクションからすべての要素を削除します。 |
 | [Contains](../../aspose.slides/paragraphcollection/contains)(IParagraph) | ICollection が特定の値を含むかどうかを判断します。 |
-| [CopyTo](../../aspose.slides/paragraphcollection/copyto)(IParagraph[], int) | ICollection の要素を特定の Array インデックスから Array にコピーします。 |
+| [CopyTo](../../aspose.slides/paragraphcollection/copyto)(IParagraph[], int) | ICollection の要素を特定の配列インデックスから開始して Array にコピーします。 |
 | [ExportToHtml](../../aspose.slides/paragraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | 指定された段落を HTML に変換し、String オブジェクトとして返します。 |
 | [GetEnumerator](../../aspose.slides/paragraphcollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
 | [IndexOf](../../aspose.slides/paragraphcollection/indexof)(IParagraph) | IList 内の特定の項目のインデックスを決定します。 |
-| [Insert](../../aspose.slides/paragraphcollection/insert#insert)(int, IParagraph) | 指定されたインデックスで Paragraph をコレクションに挿入します。 |
-| [Insert](../../aspose.slides/paragraphcollection/insert#insert_1)(int, IParagraphCollection) | 指定されたインデックスで ParagraphCollection の内容をコレクションに挿入します。 |
+| [Insert](../../aspose.slides/paragraphcollection/insert#insert)(int, IParagraph) | 指定されたインデックスに Paragraph をコレクションに挿入します。 |
+| [Insert](../../aspose.slides/paragraphcollection/insert#insert_1)(int, IParagraphCollection) | 指定されたインデックスに ParagraphCollection の内容をコレクションに挿入します。 |
 | [Remove](../../aspose.slides/paragraphcollection/remove)(IParagraph) | ICollection から特定のオブジェクトの最初の出現を削除します。 |
 | [RemoveAt](../../aspose.slides/paragraphcollection/removeat)(int) | コレクションの指定されたインデックスの要素を削除します。 |
 

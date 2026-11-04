@@ -1,14 +1,14 @@
 ---
 title: MathParagraph
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Párrafo matemático que es un contenedor de bloques matemáticos IMathBlock
 type: docs
-weight: 8900
+weight: 8920
 url: /es/aspose.slides.mathtext/mathparagraph/
 ---
-## MathParagraph clase
+## Clase MathParagraph
 
-Párrafo matemático que es un contenedor de bloques matemáticos (IMathBlock)
+Mathematical paragraph that is a container for mathematical blocks (IMathBlock)
 
 ```csharp
 public class MathParagraph : IMathParagraph
@@ -33,15 +33,15 @@ public class MathParagraph : IMathParagraph
 
 | Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.slides.mathtext/mathparagraph/add)(IMathBlock) | Agrega IMathBlock al final de la colección. |
+| [Add](../../aspose.slides.mathtext/mathparagraph/add)(IMathBlock) | Añade IMathBlock al final de la colección. |
 | [Clear](../../aspose.slides.mathtext/mathparagraph/clear)() | Elimina todos los elementos de la colección. |
 | [Contains](../../aspose.slides.mathtext/mathparagraph/contains)(IMathBlock) | Determina si la colección contiene un valor específico. |
 | [IndexOf](../../aspose.slides.mathtext/mathparagraph/indexof)(IMathBlock) | Determina el índice de un IMathBlock específico en la colección. |
 | [Insert](../../aspose.slides.mathtext/mathparagraph/insert)(int, IMathBlock) | Inserta IMathBlock en la colección en el índice especificado. |
-| [Remove](../../aspose.slides.mathtext/mathparagraph/remove)(IMathBlock) | Elimina la primera ocurrencia de un objeto específico de la colección/>. |
+| [Remove](../../aspose.slides.mathtext/mathparagraph/remove)(IMathBlock) | Elimina la primera aparición de un objeto específico de la colección/&gt;. |
 | [RemoveAt](../../aspose.slides.mathtext/mathparagraph/removeat)(int) | Elimina un elemento en el índice especificado de la colección. |
-| [ToLatex](../../aspose.slides.mathtext/mathparagraph/tolatex)() | Obtiene la ecuación matemática en formato LaTeX |
-| [WriteAsMathMl](../../aspose.slides.mathtext/mathparagraph/writeasmathml)(Stream) | Guarda el contenido de este [`MathParagraph`](../mathparagraph) como MathML |
+| [ToLatex](../../aspose.slides.mathtext/mathparagraph/tolatex)() | Obtiene la ecuación matemática en formato LaTeX. |
+| [WriteAsMathMl](../../aspose.slides.mathtext/mathparagraph/writeasmathml)(Stream) | Guarda el contenido de este [`MathParagraph`](../mathparagraph) como MathML. |
 
 ### Ejemplos
 

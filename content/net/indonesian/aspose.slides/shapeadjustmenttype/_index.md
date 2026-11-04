@@ -1,12 +1,12 @@
 ---
 title: ShapeAdjustmentType
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Menentukan berbagai jenis nilai penyesuaian bentuk.
 type: docs
-weight: 9840
+weight: 9860
 url: /id/aspose.slides/shapeadjustmenttype/
 ---
-## Enumerasi ShapeAdjustmentType
+## ShapeAdjustmentType enumerasi
 
 Menentukan berbagai jenis nilai penyesuaian bentuk.
 
@@ -18,7 +18,7 @@ public enum ShapeAdjustmentType
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| Custom | `0` | Tipe khusus (penyesuaian tidak dikenal) |
+| Custom | `0` | Tipe khusus (penyesuaian tidak diketahui) |
 | CornerSize | `1` | Mengontrol ukuran sudut. |
 | LeftUpCorner | `2` | Mengontrol sudut kiri atas. |
 | RightUpCorner | `3` | Mengontrol sudut kanan atas. |
@@ -32,10 +32,10 @@ public enum ShapeAdjustmentType
 | Depth | `11` | Mengontrol kedalaman gigi roda gigi atau efek bevel. |
 | ShapePartOffset | `12` | Mengontrol offset satu bagian gambar relatif terhadap bagian lain. |
 | Angle | `13` | Mengontrol sudut untuk gambar atau bagiannya. |
-| StartAngle | `14` | Sudut awal untuk bentuk pai dan busur. |
+| StartAngle | `14` | Sudut mulai untuk bentuk pai dan busur. |
 | EndAngle | `15` | Sudut akhir untuk bentuk pai dan busur. |
-| StartPointX | `16` | Mengontrol posisi X titik awal callout. |
-| StartPointY | `17` | Mengontrol posisi Y titik awal callout. |
+| StartPointX | `16` | Mengontrol posisi X titik mulai callout. |
+| StartPointY | `17` | Mengontrol posisi Y titik mulai callout. |
 | ConnectorPoint1X | `18` | Mengontrol posisi horizontal titik penyesuaian sudut callout. |
 | ConnectorPoint1Y | `19` | Mengontrol posisi vertikal titik penyesuaian sudut callout. |
 | ConnectorPoint2X | `20` | Mengontrol posisi horizontal titik penyesuaian sudut callout. |
@@ -47,12 +47,12 @@ public enum ShapeAdjustmentType
 | CalloutHeight | `26` | Mengontrol ukuran vertikal callout. |
 | CalloutWidth | `27` | Mengontrol ukuran horizontal callout. |
 | CalloutSize | `28` | Mengontrol ukuran callout. |
-| Curvature | `29` | Kelengkungan lekukan, kurung, panah melengkung, atau bentuk. |
+| Curvature | `29` | Kelengkungan lengkungan, kurung, panah melengkung, atau bentuk. |
 | HorizontalThickness | `30` | Mengontrol ketebalan horizontal bentuk sudut. |
 | VerticalThickness | `31` | Mengontrol ketebalan vertikal bentuk sudut. |
 | VerticalSize | `32` | Mengontrol ukuran vertikal bentuk. |
 | HorizontalSize | `33` | Mengontrol ukuran horizontal bentuk. |
-| Top | `34` | Mengontrol sisi atas sebuah bentuk. |
+| Top | `34` | Mengontrol sisi atas bentuk. |
 
 ### Lihat Juga
 

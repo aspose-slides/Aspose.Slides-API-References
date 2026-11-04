@@ -1,9 +1,9 @@
 ---
 title: GetFontBytes
-second_title: Aspose.Sildes dla .NET referencja API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Pobiera tablicę bajtów reprezentującą dane czcionki dla określonego stylu czcionki i danych czcionki.
 type: docs
-weight: 50
+weight: 60
 url: /pl/aspose.slides/ifontsmanager/getfontbytes/
 ---
 ## IFontsManager.GetFontBytes metoda
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation ("Presentation.pptx"))
     // Pobierz wszystkie czcionki użyte w prezentacji
     IFontData[] fonts = pres.FontsManager.GetFonts();
 
-    // Pobierz tablicę bajtów reprezentującą zwykły styl pierwszej czcionki w prezentacji
+    // Pobierz tablicę bajtów reprezentującą styl regularny pierwszej czcionki w prezentacji
     byte[] bytes = pres.FontsManager.GetFontBytes(fonts[0], FontStyleType.Regular);
 }
 ```

@@ -1,14 +1,14 @@
 ---
 title: ShapeThumbnailBounds
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Aufzählung der Typen von ShapeThumbnailBounds.
+description: Aufzählung der Arten von Shape-Vorschaubild-Grenzen.
 type: docs
-weight: 9920
+weight: 9940
 url: /de/aspose.slides/shapethumbnailbounds/
 ---
 ## ShapeThumbnailBounds Aufzählung
 
-Aufzählung der Typen von ShapeThumbnailBounds.
+Aufzählung der Arten von Shape-Vorschaubild-Grenzen.
 
 ```csharp
 public enum ShapeThumbnailBounds
@@ -18,9 +18,9 @@ public enum ShapeThumbnailBounds
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Slide | `0` | Shape-Thumbnail hat die Größe der Foliengröße. Die Shape-Position wird gespeichert. |
-| Shape | `1` | Shape-Thumbnail hat die Größe des Rechtecks der Shape-Grenzen, wobei die Einstellungen der Shape-Umrandung berücksichtigt werden. |
-| Appearance | `2` | Shape-Thumbnail hat die Größe des Shape-Auftritts (innerhalb der Foliengrenzen). Es kann Fälle geben, in denen der Shape-Auftritt nicht in die Shape-Grenzen passt, z. B. Drehung, Gehrungsschnitt eines spitzen Winkels, 3D-Effekte usw. |
+| Slide | `0` | Shape thumbnail hat die Größe, die der Foliengröße entspricht. Die Shape-Position wird gespeichert. |
+| Shape | `1` | Shape thumbnail hat die Größe, die dem Shape-Begrenzungsrechteck entspricht, wobei die Shape-Kontur-Einstellungen berücksichtigt werden. |
+| Appearance | `2` | Shape thumbnail hat die Größe, die dem Aussehen der Shape entspricht (innerhalb der Folienbegrenzung). Es kann Fälle geben, in denen das Aussehen der Shape nicht in die Shape-Grenzen passt. Z. B. Drehungen, Gehrungsschnitt eines spitzen Winkels, 3D-Effekte usw. |
 
 ### Siehe auch
 

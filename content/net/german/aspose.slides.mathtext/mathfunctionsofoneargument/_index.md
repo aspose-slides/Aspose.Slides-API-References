@@ -3,12 +3,12 @@ title: MathFunctionsOfOneArgument
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Gemeinsame mathematische Funktionen mit einem Argument
 type: docs
-weight: 8740
+weight: 8760
 url: /de/aspose.slides.mathtext/mathfunctionsofoneargument/
 ---
 ## MathFunctionsOfOneArgument Aufzählung
 
-Gemeinsame mathematische Funktionen mit einem Argument
+Common mathematical functions of one argument
 
 ```csharp
 public enum MathFunctionsOfOneArgument
@@ -35,15 +35,15 @@ public enum MathFunctionsOfOneArgument
 | ArcSin | `14` | Arkussinus |
 | ArcCos | `15` | Arkuskosinus |
 | ArcTan | `16` | Arkustangens |
-| ArcCsc | `17` | Arkus Kosekans |
-| ArcSec | `18` | Arkus Sekans |
-| ArcCot | `19` | Arkus Kotangens |
+| ArcCsc | `17` | Arkkosekans |
+| ArcSec | `18` | Arcsekans |
+| ArcCot | `19` | Arkkotangens |
 | HyperbolicArcSin | `20` | Hyperbolischer Arkussinus |
 | HyperbolicArcCos | `21` | Hyperbolischer Arkuskosinus |
 | HyperbolicArcTan | `22` | Hyperbolischer Arkustangens |
-| HyperbolicArcCsc | `23` | Hyperbolischer Arkus Kosekans |
-| HyperbolicArcSec | `24` | Hyperbolischer Arkus Sekans |
-| HyperbolicArcCot | `25` | Hyperbolischer Arkus Kotangens |
+| HyperbolicArcCsc | `23` | Hyperbolischer Arkkosekans |
+| HyperbolicArcSec | `24` | Hyperbolischer Arcsekans |
+| HyperbolicArcCot | `25` | Hyperbolischer Arkkotangens |
 
 ### Siehe auch
 

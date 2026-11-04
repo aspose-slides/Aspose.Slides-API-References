@@ -1,82 +1,82 @@
 ---
 title: MathRightSubSuperscriptElement
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Chỉ định đối tượng Sub-Superscript, bao gồm một cơ sở và một chỉ số dưới và chỉ số trên được đặt bên phải cơ sở.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Xác định đối tượng Sub-Superscript, bao gồm một cơ sở và chỉ số dưới và chỉ số trên được đặt ở phía bên phải của cơ sở.
 type: docs
-weight: 8960
+weight: 8980
 url: /vi/aspose.slides.mathtext/mathrightsubsuperscriptelement/
 ---
 ## MathRightSubSuperscriptElement lớp
 
-Chỉ định đối tượng Sub-Superscript, bao gồm một cơ sở và một chỉ số dưới và chỉ số trên được đặt bên phải cơ sở.
+Specifies the Sub-Superscript object, which consists of a base and a subscript and superscript placed to the right of the base.
 
 ```csharp
 public sealed class MathRightSubSuperscriptElement : BaseScript, IMathRightSubSuperscriptElement
 ```
 
-## Hàm tạo
+## Các hàm khởi tạo
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
 | [MathRightSubSuperscriptElement](mathrightsubsuperscriptelement)(IMathElement, IMathElement, IMathElement) | Khởi tạo một thể hiện mới của lớp MathRightSubSuperscriptElement. |
 
 ## Thuộc tính
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
-| [AlignScripts](../../aspose.slides.mathtext/mathrightsubsuperscriptelement/alignscripts) { get; set; } | Xác định việc căn chỉnh của subscript/superscript. Khi true, subscript và superscript được căn ngang với nhau. Khi false, chúng được căn chỉnh theo hình dạng của base. Giá trị mặc định là false. |
-| [Base](../../aspose.slides.mathtext/basescript/base) { get; } | Đối số base |
-| [Subscript](../../aspose.slides.mathtext/mathrightsubsuperscriptelement/subscript) { get; } | Đối số subscript |
-| [Superscript](../../aspose.slides.mathtext/mathrightsubsuperscriptelement/superscript) { get; } | Đối số superscript |
+| [AlignScripts](../../aspose.slides.mathtext/mathrightsubsuperscriptelement/alignscripts) { get; set; } | Xác định việc căn chỉnh của chỉ số dưới/chỉ số trên. Khi true, chỉ số dưới và chỉ số trên được căn chỉnh ngang với nhau. Khi false, chúng được căn chỉnh theo hình dạng của cơ sở. Giá trị mặc định là false. |
+| [Base](../../aspose.slides.mathtext/basescript/base) { get; } | Đối số cơ sở |
+| [Subscript](../../aspose.slides.mathtext/mathrightsubsuperscriptelement/subscript) { get; } | Đối số chỉ số dưới |
+| [Superscript](../../aspose.slides.mathtext/mathrightsubsuperscriptelement/superscript) { get; } | Đối số chỉ số trên |
 
 ## Phương thức
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
-| [Accent](../../aspose.slides.mathtext/mathelementbase/accent)(char) | Đặt dấu phụ (một ký tự ở trên cùng của phần tử này) |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(IMathElement) | Thực hiện hàm được chỉ định bằng cách sử dụng thể hiện này làm đối số |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfOneArgument) | Thực hiện hàm được chỉ định bằng cách sử dụng thể hiện này làm đối số |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(string) | Thực hiện hàm được chỉ định bằng cách sử dụng thể hiện này làm đối số |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfTwoArguments, IMathElement) | Thực hiện hàm được chỉ định bằng cách sử dụng thể hiện này làm đối số và đối số bổ sung được chỉ định |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfTwoArguments, string) | Thực hiện hàm được chỉ định bằng cách sử dụng thể hiện này làm đối số và đối số bổ sung được chỉ định |
+| [Accent](../../aspose.slides.mathtext/mathelementbase/accent)(char) | Đặt dấu phụ (một ký tự ở phần trên của phần tử này) |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(IMathElement) | Tiếp nhận hàm đã chỉ định, sử dụng thể hiện này làm đối số |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfOneArgument) | Tiếp nhận hàm đã chỉ định, sử dụng thể hiện này làm đối số |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(string) | Tiếp nhận hàm đã chỉ định, sử dụng thể hiện này làm đối số |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfTwoArguments, IMathElement) | Tiếp nhận hàm đã chỉ định, sử dụng thể hiện này làm đối số và đối số bổ sung đã chỉ định |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfTwoArguments, string) | Tiếp nhận hàm đã chỉ định, sử dụng thể hiện này làm đối số và đối số bổ sung đã chỉ định |
 | [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(IMathElement) | Tạo một phân số với tử số này và mẫu số được chỉ định |
 | [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(string) | Tạo một phân số với tử số này và mẫu số được chỉ định |
-| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(IMathElement, MathFractionTypes) | Tạo một phân số kiểu được chỉ định với tử số này và mẫu số được chỉ định |
-| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(string, MathFractionTypes) | Tạo một phân số kiểu được chỉ định với tử số này và mẫu số được chỉ định |
-| [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)() | Bao quanh một phần tử toán học trong dấu ngoặc đơn |
-| virtual [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)(char, char) | Bao quanh một phần tử toán học bằng các ký tự được chỉ định như ngoặc đơn hoặc các ký tự khác làm khung |
-| [Function](../../aspose.slides.mathtext/mathelementbase/function)(IMathElement) | Thực hiện hàm của một đối số bằng cách sử dụng thể hiện này làm tên hàm |
-| [Function](../../aspose.slides.mathtext/mathelementbase/function)(string) | Thực hiện hàm của một đối số bằng cách sử dụng thể hiện này làm tên hàm |
+| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(IMathElement, MathFractionTypes) | Tạo một phân số thuộc kiểu đã chỉ định với tử số này và mẫu số được chỉ định |
+| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(string, MathFractionTypes) | Tạo một phân số thuộc kiểu đã chỉ định với tử số này và mẫu số được chỉ định |
+| [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)() | Bao một phần tử toán học trong dấu ngoặc đơn |
+| virtual [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)(char, char) | Bao một phần tử toán học trong các ký tự được chỉ định như dấu ngoặc hoặc các ký tự khác làm khung |
+| [Function](../../aspose.slides.mathtext/mathelementbase/function)(IMathElement) | Tiếp nhận một hàm của một đối số, sử dụng thể hiện này làm tên hàm |
+| [Function](../../aspose.slides.mathtext/mathelementbase/function)(string) | Tiếp nhận một hàm của một đối số, sử dụng thể hiện này làm tên hàm |
 | [GetChildren](../../aspose.slides.mathtext/mathrightsubsuperscriptelement/getchildren)() | Lấy các phần tử con |
 | [Group](../../aspose.slides.mathtext/mathelementbase/group)() | Đặt phần tử này vào một nhóm bằng dấu ngoặc nhọn dưới |
 | [Group](../../aspose.slides.mathtext/mathelementbase/group)(char, MathTopBotPositions, MathTopBotPositions) | Đặt phần tử này vào một nhóm bằng ký tự nhóm như dấu ngoặc nhọn dưới hoặc ký tự khác |
-| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes) | Tính tích phân không có giới hạn |
-| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, IMathElement, IMathElement) | Tính tích phân |
-| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, string, string) | Tính tích phân |
-| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, IMathElement, IMathElement, MathLimitLocations) | Tính tích phân |
-| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, string, string, MathLimitLocations) | Tính tích phân |
-| virtual [Join](../../aspose.slides.mathtext/mathelementbase/join)(IMathElement) | Kết hợp một phần tử toán học và tạo thành một khối toán học |
-| virtual [Join](../../aspose.slides.mathtext/mathelementbase/join)(string) | Kết hợp một văn bản toán học và tạo thành một khối toán học |
+| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes) | Tiếp nhận tích phân không có giới hạn |
+| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, IMathElement, IMathElement) | Tiếp nhận tích phân |
+| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, string, string) | Tiếp nhận tích phân |
+| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, IMathElement, IMathElement, MathLimitLocations) | Tiếp nhận tích phân |
+| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, string, string, MathLimitLocations) | Tiếp nhận tích phân |
+| virtual [Join](../../aspose.slides.mathtext/mathelementbase/join)(IMathElement) | Ghép một phần tử toán học và tạo một khối toán học |
+| virtual [Join](../../aspose.slides.mathtext/mathelementbase/join)(string) | Ghép một văn bản toán học và tạo một khối toán học |
 | [Nary](../../aspose.slides.mathtext/mathelementbase/nary)(MathNaryOperatorTypes, IMathElement, IMathElement) | Tạo một toán tử N-ary |
 | [Nary](../../aspose.slides.mathtext/mathelementbase/nary)(MathNaryOperatorTypes, string, string) | Tạo một toán tử N-ary |
 | [Overbar](../../aspose.slides.mathtext/mathelementbase/overbar)() | Đặt một thanh ở phía trên của phần tử này |
-| [Radical](../../aspose.slides.mathtext/mathelementbase/radical)(IMathElement) | Xác định căn bậc của số đã cho từ đối số được chỉ định. |
-| [Radical](../../aspose.slides.mathtext/mathelementbase/radical)(string) | Xác định căn bậc của số đã cho từ đối số được chỉ định. |
-| [SetLowerLimit](../../aspose.slides.mathtext/mathelementbase/setlowerlimit)(IMathElement) | Lấy giới hạn dưới |
-| [SetLowerLimit](../../aspose.slides.mathtext/mathelementbase/setlowerlimit)(string) | Lấy giới hạn dưới |
+| [Radical](../../aspose.slides.mathtext/mathelementbase/radical)(IMathElement) | Xác định căn bậc của phép toán với bậc đã cho từ đối số đã chỉ định. |
+| [Radical](../../aspose.slides.mathtext/mathelementbase/radical)(string) | Xác định căn bậc của phép toán với bậc đã cho từ đối số đã chỉ định. |
+| [SetLowerLimit](../../aspose.slides.mathtext/mathelementbase/setlowerlimit)(IMathElement) | Tiếp nhận giới hạn dưới |
+| [SetLowerLimit](../../aspose.slides.mathtext/mathelementbase/setlowerlimit)(string) | Tiếp nhận giới hạn dưới |
 | [SetSubscript](../../aspose.slides.mathtext/mathelementbase/setsubscript)(IMathElement) | Tạo chỉ số dưới |
 | [SetSubscript](../../aspose.slides.mathtext/mathelementbase/setsubscript)(string) | Tạo chỉ số dưới |
-| [SetSubSuperscriptOnTheLeft](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheleft)(IMathElement, IMathElement) | Tạo subscript và superscript ở bên trái |
-| [SetSubSuperscriptOnTheLeft](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheleft)(string, string) | Tạo subscript và superscript ở bên trái |
-| [SetSubSuperscriptOnTheRight](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheright)(IMathElement, IMathElement) | Tạo subscript và superscript ở bên phải |
-| [SetSubSuperscriptOnTheRight](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheright)(string, string) | Tạo subscript và superscript ở bên phải |
+| [SetSubSuperscriptOnTheLeft](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheleft)(IMathElement, IMathElement) | Tạo chỉ số dưới và chỉ số trên ở phía trái |
+| [SetSubSuperscriptOnTheLeft](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheleft)(string, string) | Tạo chỉ số dưới và chỉ số trên ở phía trái |
+| [SetSubSuperscriptOnTheRight](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheright)(IMathElement, IMathElement) | Tạo chỉ số dưới và chỉ số trên ở phía phải |
+| [SetSubSuperscriptOnTheRight](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheright)(string, string) | Tạo chỉ số dưới và chỉ số trên ở phía phải |
 | [SetSuperscript](../../aspose.slides.mathtext/mathelementbase/setsuperscript)(IMathElement) | Tạo chỉ số trên |
 | [SetSuperscript](../../aspose.slides.mathtext/mathelementbase/setsuperscript)(string) | Tạo chỉ số trên |
-| [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit)(IMathElement) | Lấy giới hạn trên |
-| [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit)(string) | Lấy giới hạn trên |
+| [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit)(IMathElement) | Tiếp nhận giới hạn trên |
+| [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit)(string) | Tiếp nhận giới hạn trên |
 | [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)() | Đặt phần tử này vào một hộp viền |
 | [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)(bool, bool, bool, bool, bool, bool, bool, bool) | Đặt phần tử này vào một hộp viền |
-| [ToBox](../../aspose.slides.mathtext/mathelementbase/tobox)() | Đặt phần tử này vào một hộp phi trực quan (nhóm logic) được sử dụng để nhóm các thành phần của một phương trình hoặc các đoạn văn bản toán học khác. Một đối tượng được đóng khung có thể (ví dụ) đóng vai trò như một mô phỏng toán tử có hoặc không có điểm căn chỉnh, đóng vai trò như một điểm ngắt dòng, hoặc được nhóm lại sao cho không cho phép ngắt dòng bên trong. |
+| [ToBox](../../aspose.slides.mathtext/mathelementbase/tobox)() | Đặt phần tử này vào một hộp không hiển thị (nhóm logic) được dùng để nhóm các thành phần của một phương trình hoặc các đoạn văn toán học khác. Một đối tượng được đóng khung có thể (ví dụ) đóng vai trò như một bộ giả lập toán tử có hoặc không có điểm căn chỉnh, đóng vai trò như điểm ngắt dòng, hoặc được nhóm sao cho không cho phép ngắt dòng bên trong. |
 | virtual [ToMathArray](../../aspose.slides.mathtext/mathelementbase/tomatharray)() | Đặt vào một mảng dọc |
 | [Underbar](../../aspose.slides.mathtext/mathelementbase/underbar)() | Đặt một thanh ở phía dưới của phần tử này |
 

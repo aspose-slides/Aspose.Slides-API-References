@@ -1,14 +1,14 @@
 ---
 title: ParentSeries
-second_title: Aspose.Sildes dla .NET API Reference
-description: Zwraca nadrzędną serię wykresu. Tylko do odczytu IChartSeriesaspose.slides.charts/ichartseries.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Zwraca nadrzędną serię wykresu. tylko do odczytu IChartSeriesaspose.slides.charts/ichartseries.
 type: docs
-weight: 90
+weight: 100
 url: /pl/aspose.slides.charts/idatalabelcollection/parentseries/
 ---
-## IDataLabelCollection.ParentSeries własność
+## IDataLabelCollection.ParentSeries właściwość
 
-Zwraca nadrzędną serię wykresu. Tylko do odczytu [`IChartSeries`](../../ichartseries).
+Zwraca nadrzędną serię wykresu. tylko do odczytu [`IChartSeries`](../../ichartseries).
 
 ```csharp
 public IChartSeries ParentSeries { get; }

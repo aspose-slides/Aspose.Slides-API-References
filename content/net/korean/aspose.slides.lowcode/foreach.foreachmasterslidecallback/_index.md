@@ -1,9 +1,9 @@
 ---
 title: ForEach.ForEachMasterSlideCallback
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 프레젠테이션 내에서 각 MasterSlide./foreach/masterslide에 대해 호출되는 콜백../aspose.slides/presentation.
+description: 각 MasterSlide./foreach/masterslide에 대해 Presentation../aspose.slides/presentation에서 호출되는 콜백입니다.
 type: docs
-weight: 7920
+weight: 7940
 url: /ko/aspose.slides.lowcode/foreach.foreachmasterslidecallback/
 ---
 ## ForEach.ForEachMasterSlideCallback delegate
@@ -16,10 +16,10 @@ public delegate void ForEachMasterSlideCallback(MasterSlide masterSlide, int ind
 
 | 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| masterSlide | MasterSlide | 현재 반복 중인 마스터 슬라이드 |
+| masterSlide | MasterSlide | 현재 반복된 마스터 슬라이드 |
 | index | Int32 | 현재 마스터 슬라이드의 인덱스 |
 
-### 참조
+### 관련 항목
 
 * 클래스 [MasterSlide](../../aspose.slides/masterslide)
 * 클래스 [ForEach](../foreach)

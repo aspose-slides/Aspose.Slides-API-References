@@ -1,9 +1,9 @@
 ---
 title: InkBrush
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta un oggetto inkBrush.
 type: docs
-weight: 7570
+weight: 7590
 url: /it/aspose.slides.ink/inkbrush/
 ---
 ## InkBrush classe

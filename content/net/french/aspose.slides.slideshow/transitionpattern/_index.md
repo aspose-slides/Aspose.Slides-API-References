@@ -1,14 +1,14 @@
 ---
 title: TransitionPattern
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Spécifie un motif géométrique qui s'emboîte pour couvrir une zone plus grande.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Spécifie un motif géométrique qui s'assemble pour remplir une zone plus grande.
 type: docs
-weight: 10400
+weight: 10420
 url: /fr/aspose.slides.slideshow/transitionpattern/
 ---
-## Énumération TransitionPattern
+## TransitionPattern énumération
 
-Spécifie un motif géométrique qui s'emboîte pour couvrir une zone plus grande.
+Spécifie un motif géométrique qui se combine pour remplir une zone plus grande.
 
 ```csharp
 public enum TransitionPattern
@@ -18,8 +18,8 @@ public enum TransitionPattern
 
 | Nom | Valeur | Description |
 | --- | --- | --- |
-| Diamond | `0` | Motif de tuile Diamond |
-| Hexagon | `1` | Motif de tuile Hexagon |
+| Diamond | `0` | Diamond motif de carreau |
+| Hexagon | `1` | Hexagon motif de carreau |
 
 ### Voir aussi
 

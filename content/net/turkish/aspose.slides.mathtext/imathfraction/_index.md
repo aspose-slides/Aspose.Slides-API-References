@@ -1,14 +1,14 @@
 ---
 title: IMathFraction
-second_title: Aspose.Slides for .NET API Referansı
-description: Kesir çubuğu ile ayrılmış bir pay ve bir paydadan oluşan kesir nesnesini belirtir. Kesir çubuğu, kesir özelliklerine bağlı olarak yatay veya diyagonal olabilir. Kesir nesnesi ayrıca, bir öğeyi diğerinin üzerine yerleştiren ve kesir çubuğu bulunmayan yığın işlevini temsil etmek için de kullanılır.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Kesir çubuğu ile ayrı olan bir pay ve paydadan oluşan kesir nesnesini belirtir. Kesir çubuğu, kesir özelliklerine bağlı olarak yatay veya çapraz olabilir. Kesir nesnesi ayrıca, bir öğeyi diğerinin üzerine yerleştiren ve kesir çubuğu bulunmayan yığın işlevini temsil etmek için de kullanılır.
 type: docs
-weight: 8250
+weight: 8270
 url: /tr/aspose.slides.mathtext/imathfraction/
 ---
 ## IMathFraction arayüzü
 
-Kesir nesnesini belirtir; bu nesne bir pay ve bir payda içerir ve bir kesir çubuğu ile ayrılır. Kesir çubuğu, kesir özelliklerine bağlı olarak yatay veya diyagonal olabilir. Kesir nesnesi ayrıca, bir öğeyi diğerinin üzerine yerleştiren, kesir çubuğu olmayan yığın işlevini temsil etmek için de kullanılır.
+Kesir nesnesini belirtir; bir pay ve payda bir kesir çubuğuyla ayrılır. Kesir çubuğu, kesir özelliklerine bağlı olarak yatay ya da diyagonal olabilir. Kesir nesnesi ayrıca bir öğeyi diğerinin üzerine koyan yığın işlevini temsil etmek için de kullanılır; bu durumda kesir çubuğu yoktur.
 
 ```csharp
 public interface IMathFraction : IMathElement
@@ -18,9 +18,9 @@ public interface IMathFraction : IMathElement
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathfraction/asimathelement) { get; } | Temel IMathElement arayüzünü almayı sağlar [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathfraction/asimathelement) { get; } | Temel IMathElement arayüzünü [`IMathElement`](../imathelement) almayı sağlar |
 | [Denominator](../../aspose.slides.mathtext/imathfraction/denominator) { get; } | Payda |
-| [FractionType](../../aspose.slides.mathtext/imathfraction/fractiontype) { get; set; } | Kesir türü Varsayılan: Bar |
+| [FractionType](../../aspose.slides.mathtext/imathfraction/fractiontype) { get; set; } | Kesir tipi Varsayılan: Bar |
 | [Numerator](../../aspose.slides.mathtext/imathfraction/numerator) { get; } | Pay |
 
 ### Örnekler
@@ -33,7 +33,7 @@ IMathFraction mathFraction = new MathematicalText("x").Divide("y");
 IMathFraction mathFraction2 = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes.Linear);
 ```
 
-### İlgili
+### Ayrıca Bakınız
 
 * arayüz [IMathElement](../imathelement)
 * ad alanı [Aspose.Slides.MathText](../../aspose.slides.mathtext)

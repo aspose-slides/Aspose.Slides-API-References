@@ -1,14 +1,14 @@
 ---
 title: ChartTitle
-second_title: Aspose.Sildes .NET API Referenciája
-description: A diagramcím tulajdonságait képviseli.
+second_title: Aspose.Sildes .NET API referencia
+description: A diagramcím tulajdonságait reprezentálja.
 type: docs
-weight: 1490
+weight: 1500
 url: /hu/aspose.slides.charts/charttitle/
 ---
 ## ChartTitle osztály
 
-A diagramcím tulajdonságait képviseli.
+A diagramcím tulajdonságait reprezentálja.
 
 ```csharp
 public class ChartTitle : IChartTitle
@@ -16,29 +16,29 @@ public class ChartTitle : IChartTitle
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/charttitle/actualheight) { get; } | Megadja a diagram elem tényleges magasságát. Hívja meg az IChart.ValidateChartLayout() metódust előtte a tényleges értékek megszerzéséhez. Csak olvasható Single. |
-| [ActualWidth](../../aspose.slides.charts/charttitle/actualwidth) { get; } | Megadja a diagram elem tényleges szélességét. Hívja meg az IChart.ValidateChartLayout() metódust előtte a tényleges értékek megszerzéséhez. Csak olvasható Single. |
-| [ActualX](../../aspose.slides.charts/charttitle/actualx) { get; } | Megadja a diagram elem tényleges x helyzetét (bal), a diagram bal felső sarkához képest. Hívja meg az IChart.ValidateChartLayout() metódust előtte a tényleges értékek megszerzéséhez. Csak olvasható Single. |
-| [ActualY](../../aspose.slides.charts/charttitle/actualy) { get; } | Megadja a diagram elem tényleges felső pozícióját a diagram bal felső sarkához képest. Hívja meg az IChart.ValidateChartLayout() metódust előtte a tényleges értékek megszerzéséhez. Csak olvasható Single. |
+| [ActualHeight](../../aspose.slides.charts/charttitle/actualheight) { get; } | Megadja a diagram elem tényleges magasságát. Hívja meg az IChart.ValidateChartLayout() metódust előtte a tényleges értékek lekéréséhez. Olvasható Single. |
+| [ActualWidth](../../aspose.slides.charts/charttitle/actualwidth) { get; } | Megadja a diagram elem tényleges szélességét. Hívja meg az IChart.ValidateChartLayout() metódust előtte a tényleges értékek lekéréséhez. Olvasható Single. |
+| [ActualX](../../aspose.slides.charts/charttitle/actualx) { get; } | Megadja a diagram elem tényleges x-pozícióját (bal), a diagram bal felső sarkához viszonyítva. Hívja meg az IChart.ValidateChartLayout() metódust előtte a tényleges értékek lekéréséhez. Olvasható Single. |
+| [ActualY](../../aspose.slides.charts/charttitle/actualy) { get; } | Megadja a diagram elem tényleges felső pozícióját a diagram bal felső sarkához képest. Hívja meg az IChart.ValidateChartLayout() metódust előtte a tényleges értékek lekéréséhez. Olvasható Single. |
 | [Bottom](../../aspose.slides.charts/charttitle/bottom) { get; } | Alsó. Csak olvasható Single. |
 | [Chart](../../aspose.slides.charts/charttitle/chart) { get; } | Visszaadja a szülő diagramot. Csak olvasható [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/charttitle/format) { get; } | Visszaadja a címsor kitöltés, vonal és hatás stílusait. Csak olvasható [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/charttitle/height) { get; set; } | Visszaadja vagy beállítja a cím magasságát a diagram magasságának hányadosaként. Olvasás/írás Single. |
-| [Overlay](../../aspose.slides.charts/charttitle/overlay) { get; set; } | Meghatározza, hogy más diagram elemek átfedhetik-e a címet. Olvasás/írás Boolean. |
+| [Format](../../aspose.slides.charts/charttitle/format) { get; } | Visszaadja egy cím kitöltés, vonal, effekt stílusait. Csak olvasható [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/charttitle/height) { get; set; } | Visszaadja vagy beállítja egy cím magasságát a diagram magasságának arányában. Olvasás/írás Single. |
+| [Overlay](../../aspose.slides.charts/charttitle/overlay) { get; set; } | Meghatározza, hogy a diagram többi eleme átfedheti-e a címet. Olvasás/írás Boolean. |
 | [Right](../../aspose.slides.charts/charttitle/right) { get; } | Jobb. Csak olvasható Single. |
 | [TextFormat](../../aspose.slides.charts/charttitle/textformat) { get; } | Visszaadja a szövegformátumot. Csak olvasható [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | Gazdag formázott szöveget tartalmazhat. Ha ez a tulajdonság nem null, akkor a formázott szövegérték felülírja az automatikusan generált szöveget. Az automatikusan generált szöveg a adatcímke, az értéktengely megjelenítési egységcímkéje, a tengely címe, a diagram címe, a trendvonal címkéje implicit tulajdonsága. Az automatikusan generált szöveget az IFormattedTextContainer.TextFormat tulajdonság formázza. Csak olvasható [`ITextFrame`](../../aspose.slides/itextframe). |
-| [Width](../../aspose.slides.charts/charttitle/width) { get; set; } | Visszaadja vagy beállítja a cím szélességét a diagram szélességének hányadosaként. Olvasás/írás Single. |
-| [X](../../aspose.slides.charts/charttitle/x) { get; set; } | Visszaadja vagy beállítja a cím x koordinátáját a diagram szélességének hányadosaként. Olvasás/írás Single. |
-| [Y](../../aspose.slides.charts/charttitle/y) { get; set; } | Visszaadja vagy beállítja a cím y koordinátáját a diagram magasságának hányadosaként. Olvasás/írás Single. |
+| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | Tartalmazhat gazdag formázott szöveget. Ha ez a tulajdonság nem null, akkor ez a formázott szöveg felülírja az automatikusan generált szöveget. Az automatikusan generált szöveg implicit tulajdonsága a adatcímkének, az értéktengely megjelenítési egység címkének, a tengelycímnek, a diagramcímnek, a trendvonal címkének. Az automatikusan generált szöveget az IFormattedTextContainer.TextFormat tulajdonsággal formázzák. Csak olvasható [`ITextFrame`](../../aspose.slides/itextframe). |
+| [Width](../../aspose.slides.charts/charttitle/width) { get; set; } | Visszaadja vagy beállítja egy cím szélességét a diagram szélességének arányában. Olvasás/írás Single. |
+| [X](../../aspose.slides.charts/charttitle/x) { get; set; } | Visszaadja vagy beállítja egy cím x koordinátáját a diagram szélességének arányában. Olvasás/írás Single. |
+| [Y](../../aspose.slides.charts/charttitle/y) { get; set; } | Visszaadja vagy beállítja egy cím y koordinátáját a diagram magasságának arányában. Olvasás/írás Single. |
 
-## Metódusok
+## Módszerek
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/charttitle/addtextframeforoverriding)(string) | Inicializálja a TextFrameForOverriding objektumot a paraméterben megadott "text" szöveggel. Ha a TextFrameForOverriding már inicializálva van, akkor egyszerűen módosítja a szövegét. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/charttitle/addtextframeforoverriding)(string) | Inicializálja a TextFrameForOverriding objektumot a "text" paraméterben megadott szöveggel. Ha a TextFrameForOverriding már inicializálva van, akkor egyszerűen megváltoztatja a szövegét. |
 
 ### Lásd még
 

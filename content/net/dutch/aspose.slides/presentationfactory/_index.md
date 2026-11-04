@@ -1,14 +1,14 @@
 ---
 title: PresentationFactory
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Staat toe om een presentatie te maken via COM-interface
+description: Staat toe een presentatie te maken via COM-interface
 type: docs
-weight: 9600
+weight: 9620
 url: /nl/aspose.slides/presentationfactory/
 ---
 ## PresentationFactory klasse
 
-Staat toe om een presentatie te maken via COM-interface
+Staat toe een presentatie te maken via COM-interface
 
 ```csharp
 public class PresentationFactory : IPresentationFactory
@@ -24,7 +24,7 @@ public class PresentationFactory : IPresentationFactory
 
 | Naam | Beschrijving |
 | --- | --- |
-| static [Instance](../../aspose.slides/presentationfactory/instance) { get; } | Presentation factory static instance. Alleen-lezen [`PresentationFactory`](../presentationfactory). |
+| static [Instance](../../aspose.slides/presentationfactory/instance) { get; } | Statische instantie van de presentatiefabriek. Alleen-lezen [`PresentationFactory`](../presentationfactory). |
 
 ## Methoden
 
@@ -32,21 +32,21 @@ public class PresentationFactory : IPresentationFactory
 | --- | --- |
 | [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation)() | Maakt een nieuwe presentatie. |
 | [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Maakt een nieuwe presentatie met extra laadopties |
-| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Maakt een nieuw PresentationInfo-object van een stream en bindt de presentatie eraan. Haalt informatie over de presentatie op in de opgegeven stream. |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Maakt een nieuw PresentationInfo-object van een stream en bindt de presentatie eraan. Haalt informatie op over de presentatie in de opgegeven stream. |
 | [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Maakt een nieuw PresentationInfo-object van een bestand en bindt de presentatie eraan. |
-| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Haalt de ruwe tekst op van de dia’s |
-| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Haalt de ruwe tekst op van de dia’s |
-| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Haalt de ruwe tekst op van de dia’s |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Haalt de ruwe tekst op van de dia's |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Haalt de ruwe tekst op van de dia's |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Haalt de ruwe tekst op van de dia's |
 | [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation)(byte[]) | Leest een bestaande presentatie van een array |
 | [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_2)(Stream) | Leest een bestaande presentatie van een stream |
 | [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_4)(string) | Leest een bestaande presentatie van een bestand |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | Leest een bestaande presentatie van een array met extra laadopties |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | Leest een bestaande presentatie vanuit een array met extra laadopties |
 | [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | Leest een bestaande presentatie van een stream met extra laadopties |
 | [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | Leest een bestaande presentatie van een stream met extra laadopties |
 
 ### Voorbeelden
 
-Het volgende voorbeeld laat zien hoe een Presentation Format te controleren.
+Het volgende voorbeeld toont hoe een presentatieformaat te controleren.
 
 ```csharp
 [C#]
@@ -58,7 +58,7 @@ IPresentationInfo info3 = PresentationFactory.Instance.GetPresentationInfo("pres
 Console.WriteLine(info3.LoadFormat); // ODP
 ```
 
-Het volgende voorbeeld laat zien hoe de eigenschappen van een Presentation op te halen.
+Het volgende voorbeeld toont hoe de eigenschappen van een presentatie te verkrijgen.
 
 ```csharp
 [C#]
@@ -70,7 +70,7 @@ Console.WriteLine(props.Title);
 // ..
 ```
 
-Het volgende voorbeeld laat zien hoe de eigenschappen van een Presentation bij te werken.
+Het volgende voorbeeld toont hoe de eigenschappen van een presentatie bij te werken.
 
 ```csharp
 [C#]
@@ -83,7 +83,7 @@ info.UpdateDocumentProperties(props);
 ### Zie ook
 
 * interface [IPresentationFactory](../ipresentationfactory)
-* naamruimte [Aspose.Slides](../../aspose.slides)
+* namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

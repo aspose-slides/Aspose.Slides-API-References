@@ -3,7 +3,7 @@ title: IEffectFactory
 second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Cho phép tạo các thể hiện của hiệu ứng
 type: docs
-weight: 3290
+weight: 3310
 url: /vi/aspose.slides.effects/ieffectfactory/
 ---
 ## IEffectFactory giao diện
@@ -33,7 +33,7 @@ public interface IEffectFactory
 
 ### Ghi chú
 
-Để tương thích COM.
+Để tương thích với COM.
 
 ### Xem thêm
 

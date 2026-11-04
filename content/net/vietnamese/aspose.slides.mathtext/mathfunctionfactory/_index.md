@@ -1,9 +1,9 @@
 ---
 title: MathFunctionFactory
-second_title: Aspose.Sildes cho Tham chiếu API .NET
+second_title: Tham khảo API Aspose.Sildes cho .NET
 description: Cho phép tạo một hàm toán học
 type: docs
-weight: 8730
+weight: 8750
 url: /vi/aspose.slides.mathtext/mathfunctionfactory/
 ---
 ## MathFunctionFactory lớp
@@ -14,11 +14,11 @@ Cho phép tạo một hàm toán học
 public class MathFunctionFactory : IMathFunctionFactory
 ```
 
-## Constructor
+## Các hàm khởi tạo
 
 | Tên | Mô tả |
 | --- | --- |
-| [MathFunctionFactory](mathfunctionfactory)() | Bộ khởi tạo mặc định. |
+| [MathFunctionFactory](mathfunctionfactory)() | Constructor mặc định. |
 
 ## Phương thức
 
@@ -29,7 +29,7 @@ public class MathFunctionFactory : IMathFunctionFactory
 
 ### Ghi chú
 
-Đối với khả năng tương thích COM
+Để tương thích COM
 
 ### Xem thêm
 

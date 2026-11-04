@@ -1,41 +1,41 @@
 ---
 title: FontFallBackRule
-second_title: Aspose.Slides för .NET API-referens
-description: Representerar fontfallback-regeln
+second_title: Aspose.Sildes för .NET API-referens
+description: Representerar fontfallback-regel
 type: docs
-weight: 4840
+weight: 4860
 url: /sv/aspose.slides/fontfallbackrule/
 ---
 ## FontFallBackRule klass
 
-Representerar font fallback rule
+Representerar fontfallback-regel
 
 ```csharp
 public class FontFallBackRule : IFontFallBackRule
 ```
 
-## Konstruktorer
+## Konstruktörer
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
 | [FontFallBackRule](fontfallbackrule#constructor)(uint, uint, string) | Skapar en ny instans. |
 | [FontFallBackRule](fontfallbackrule#constructor_1)(uint, uint, string[]) | Skapar en ny instans. |
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/fontfallbackrule/count) { get; } | Hämtar antalet teckensnitt som faktiskt definierats för intervallet. Skrivskyddad Int32. |
-| [Item](../../aspose.slides/fontfallbackrule/item) { get; } | Hämtar teckensnittets namn på det angivna indexet. Skrivskyddad [`IFontFallBackRule`](../ifontfallbackrule). |
-| [RangeEndIndex](../../aspose.slides/fontfallbackrule/rangeendindex) { get; set; } | Hämtar sista indexet för ett kontinuerligt Unicode-intervall. |
-| [RangeStartIndex](../../aspose.slides/fontfallbackrule/rangestartindex) { get; set; } | Hämtar första indexet för ett kontinuerligt Unicode-intervall. |
+| [Count](../../aspose.slides/fontfallbackrule/count) { get; } | Hämtar antalet teckensnitt som faktiskt är definierade för intervallet. Endast läsbar Int32. |
+| [Item](../../aspose.slides/fontfallbackrule/item) { get; } | Hämtar typsnittsnamnet på det angivna indexet. Endast läsbar [`IFontFallBackRule`](../ifontfallbackrule). |
+| [RangeEndIndex](../../aspose.slides/fontfallbackrule/rangeendindex) { get; set; } | Hämtar sista indexet för ett kontinuerligt unicode-intervall. |
+| [RangeStartIndex](../../aspose.slides/fontfallbackrule/rangestartindex) { get; set; } | Hämtar första indexet för ett kontinuerligt unicode-intervall. |
 
 ## Metoder
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Lägger till ett nytt teckensnitt i listan över FallBack-teckensnitt. |
-| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Lägger till nya teckensnitt i listan över FallBack-teckensnitt. |
+| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Lägger till ett nytt teckensnitt till listan med FallBack-teckensnitt. |
+| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Lägger till nya teckensnitt till listan med FallBack-teckensnitt. |
 | [Clear](../../aspose.slides/fontfallbackrule/clear)() | Tar bort alla teckensnitt från listan. |
 | [IndexOf](../../aspose.slides/fontfallbackrule/indexof)(string) | Returnerar ett index för den angivna regeln i samlingen. |
 | [Remove](../../aspose.slides/fontfallbackrule/remove)(string) | Tar bort den första förekomsten av ett specifikt FallBack-teckensnitt från listan. |
@@ -43,7 +43,7 @@ public class FontFallBackRule : IFontFallBackRule
 | [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray)() | Skapar och returnerar en array med alla FallBack-teckensnitt för denna regel. |
 | [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray_1)(int, int) | Skapar och returnerar en array med alla FallBack-teckensnitt från det angivna intervallet i listan. |
 
-### Se också
+### Se även
 
 * gränssnitt [IFontFallBackRule](../ifontfallbackrule)
 * namnrymd [Aspose.Slides](../../aspose.slides)

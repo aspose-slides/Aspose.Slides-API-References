@@ -3,7 +3,7 @@ title: DigitalSignature
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Digitale handtekening in ondertekend bestand.
 type: docs
-weight: 2770
+weight: 2790
 url: /nl/aspose.slides/digitalsignature/
 ---
 ## DigitalSignature klasse
@@ -14,47 +14,47 @@ Digitale handtekening in ondertekend bestand.
 public class DigitalSignature : IDigitalSignature
 ```
 
-## Constructors
+## Constructoren
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
 | [DigitalSignature](digitalsignature#constructor)(X509Certificate2) | Maakt een nieuw DigitalSignature-object met het opgegeven certificaat. |
-| [DigitalSignature](digitalsignature#constructor_1)(string,string) | Maakt een nieuw DigitalSignature-object met het opgegeven pad naar het certificaatbestand en wachtwoord. |
+| [DigitalSignature](digitalsignature#constructor_1)(string, string) | Maakt een nieuw DigitalSignature-object met het opgegeven pad naar het certificaatbestand en wachtwoord. |
 
-## Properties
+## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | Certificate-object dat werd gebruikt om het document te ondertekenen. Alleen-lezen X509Certificate2. |
-| [Comments](../../aspose.slides/digitalsignature/comments) { get; set; } | Het doel van de handtekening. Lezen/schrijven String. |
-| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | Als deze digitale handtekening geldig is en het document niet is gemanipuleerd, zal deze waarde true zijn. Alleen-lezen Boolean. |
-| [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | De tijd waarop het document is ondertekend. Alleen-lezen DateTime. |
+| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | Certificaatobject dat werd gebruikt om het document te ondertekenen. Alleen-lezen X509Certificate2. |
+| [Comments](../../aspose.slides/digitalsignature/comments) { get; set; } | Het doel van de handtekening. Lezen/Schrijven String. |
+| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | Als deze digitale handtekening geldig is en het document niet is gemanipuleerd, zal deze waarde waar zijn. Alleen-lezen Boolean. |
+| [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | Het tijdstip waarop het document werd ondertekend. Alleen-lezen DateTime. |
 
 ### Voorbeelden
 
-Het volgende voorbeeld toont hoe een digitale handtekening toe te voegen vanuit een PFX-certificaat in een PowerPoint-presentatie.
+Het volgende voorbeeld toont hoe een digitale handtekening van een PFX-certificaat kan worden toegevoegd in een PowerPoint-presentatie.
 
 ```csharp
 [C#]
-// Initialiseer Presentatie-instantie
+// Initialiseer Presentation-instantie
 using (Presentation pres = new Presentation())
 {
-    // Maak DigitalSignature-object met PFX-bestand en PFX-wachtwoord
+    // Maak DigitalSignature-object aan met PFX-bestand en PFX-wachtwoord
     DigitalSignature signature = new DigitalSignature("testsignature1.pfx", @"testpass1");
-    // Commentaar op nieuwe digitale handtekening
+    // Commentaar voor nieuwe digitale handtekening
     signature.Comments = "Aspose.Slides digital signing test.";
-    // Voeg digitale handtekening toe aan presentatie
+    // Voeg digitale handtekening toe aan de presentatie
     pres.DigitalSignatures.Add(signature);
     // Sla presentatie op
     pres.Save("SomePresentationSigned.pptx", SaveFormat.Pptx);
 }
 ```
 
-De volgende voorbeeldcode toont hoe de digitale handtekening van een PowerPoint-presentatie te valideren.
+De volgende voorbeeldcode toont hoe de digitale handtekening van een PowerPoint-presentatie kan worden gevalideerd.
 
 ```csharp
 [C#]
-// Initialiseer Presentatie-instantie
+// Initialiseer Presentation-instantie
 using (Presentation pres = new Presentation("SomePresentationSigned.pptx"))
 {
     if (pres.DigitalSignatures.Count < 0)
@@ -76,7 +76,7 @@ using (Presentation pres = new Presentation("SomePresentationSigned.pptx"))
 }
 ```
 
-### See Also
+### Zie ook
 
 * interface [IDigitalSignature](../idigitalsignature)
 * namespace [Aspose.Slides](../../aspose.slides)

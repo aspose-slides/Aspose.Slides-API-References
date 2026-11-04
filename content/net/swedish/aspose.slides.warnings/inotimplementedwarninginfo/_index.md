@@ -1,14 +1,14 @@
 ---
 title: INotImplementedWarningInfo
-second_title: Aspose.Slides för .NET API-referens
-description: Representerar en varning om en känd ej implementerad funktion som inte kommer att implementeras inom den närmaste framtiden.
+second_title: Aspose.Sildes för .NET API-referens
+description: Representerar en varning om en känd icke-implementerad funktion som inte kommer att implementeras inom en snar framtid.
 type: docs
-weight: 11770
+weight: 11790
 url: /sv/aspose.slides.warnings/inotimplementedwarninginfo/
 ---
 ## INotImplementedWarningInfo gränssnitt
 
-Representerar en varning om en känd ej implementerad funktion som inte kommer att implementeras inom den närmaste framtiden.
+Representerar en varning om en känd icke-implementerad funktion som inte kommer att implementeras inom en snar framtid.
 
 ```csharp
 public interface INotImplementedWarningInfo : IWarningInfo

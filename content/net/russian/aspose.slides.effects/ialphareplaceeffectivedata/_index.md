@@ -1,14 +1,14 @@
 ---
 title: IAlphaReplaceEffectiveData
-second_title: Aspose.Sildes для .NET — справочник API
-description: Неизменяемый объект, представляющий эффект Alpha Replace. Значения альфа-прозрачности эффекта заменяются фиксированным альфа-значением.
+second_title: Aspose.Sildes для .NET справочник API
+description: Неизменяемый объект, представляющий эффект Alpha Replace. Значения альфа-непрозрачности эффекта заменяются фиксированным альфа.
 type: docs
-weight: 3150
+weight: 3170
 url: /ru/aspose.slides.effects/ialphareplaceeffectivedata/
 ---
-## IAlphaReplaceEffectiveData интерфейс
+## IAlphaReplaceEffectiveData interface
 
-Неизменяемый объект, представляющий эффект Alpha Replace. Значения альфа (opacity) эффекта заменяются фиксированным альфа-значением.
+Неизменяемый объект, представляющий эффект Alpha Replace. Значения альфа (непрозрачность) эффекта заменяются фиксированным альфа.
 
 ```csharp
 public interface IAlphaReplaceEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IAlphaReplaceEffectiveData : IEffectEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [Alpha](../../aspose.slides.effects/ialphareplaceeffectivedata/alpha) { get; } | Возвращает новое значение альфа в интервале [0..1] только для чтения Single. |
+| [Alpha](../../aspose.slides.effects/ialphareplaceeffectivedata/alpha) { get; } | Возвращает новое значение альфа в интервале [0..1] Только для чтения Single. |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/ialphareplaceeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### См. также

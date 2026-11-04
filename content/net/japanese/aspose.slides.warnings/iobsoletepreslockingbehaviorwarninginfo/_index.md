@@ -1,14 +1,14 @@
 ---
 title: IObsoletePresLockingBehaviorWarningInfo
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: この警告は、廃止されたプレゼンテーション ロック 動作が使用されていることを示します。
 type: docs
-weight: 11780
+weight: 11800
 url: /ja/aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/
 ---
 ## IObsoletePresLockingBehaviorWarningInfo インターフェイス
 
-この警告は、廃止されたプレゼンテーション ロック 動作が使用されていることを示します。
+この警告は、廃止されたプレゼンテーションのロック動作が使用されていることを示します。
 
 ```csharp
 public interface IObsoletePresLockingBehaviorWarningInfo : IWarningInfo
@@ -18,9 +18,9 @@ public interface IObsoletePresLockingBehaviorWarningInfo : IWarningInfo
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIWarningInfo](../../aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/asiwarninginfo) { get; } | IWarningInfo インターフェイスを返します。 読み取り専用 [`IWarningInfo`](../iwarninginfo)。 |
+| [AsIWarningInfo](../../aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/asiwarninginfo) { get; } | IWarningInfo インターフェイスを返します。読み取り専用 [`IWarningInfo`](../iwarninginfo). |
 
-### 参照
+### 関連項目
 
 * インターフェイス [IWarningInfo](../iwarninginfo)
 * 名前空間 [Aspose.Slides.Warnings](../../aspose.slides.warnings)

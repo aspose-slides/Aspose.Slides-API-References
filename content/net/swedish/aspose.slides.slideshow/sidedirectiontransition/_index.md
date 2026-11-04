@@ -1,14 +1,14 @@
 ---
 title: SideDirectionTransition
 second_title: Aspose.Sildes för .NET API-referens
-description: Slide-övergångseffekt åt sidan.
+description: Slide-övergångseffekt i sidriktning.
 type: docs
-weight: 10310
+weight: 10330
 url: /sv/aspose.slides.slideshow/sidedirectiontransition/
 ---
 ## SideDirectionTransition klass
 
-Slide-övergångseffekt åt sidan.
+Slide-övergångseffekt i sidriktning.
 
 ```csharp
 public class SideDirectionTransition : TransitionValueBase, ISideDirectionTransition
@@ -25,7 +25,7 @@ public class SideDirectionTransition : TransitionValueBase, ISideDirectionTransi
 | Namn | Beskrivning |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bestämmer om de två TransitionValueBase-instanserna är lika. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Fungerar som en hashfunktion för en viss typ, lämplig för användning i hash-algoritmer och datastrukturer som en hashtabell. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Fungerar som en hash-funktion för en specifik typ, lämplig för användning i hash-algoritmer och datastrukturer som en hashtabell. |
 
 ### Se även
 

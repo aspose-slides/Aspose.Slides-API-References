@@ -1,14 +1,14 @@
 ---
 title: GroupShapeLock
 second_title: Aspose.Sildes för .NET API-referens
-description: Avgör vilka operationer som är inaktiverade på den överordnade GroupShape.
+description: Bestämmer vilka operationer som är inaktiverade på den överordnade GroupShape.
 type: docs
-weight: 5100
+weight: 5120
 url: /sv/aspose.slides/groupshapelock/
 ---
 ## GroupShapeLock klass
 
-Avgör vilka operationer som är inaktiverade på den överordnade GroupShape.
+Bestämmer vilka operationer som är inaktiverade på den överordnade GroupShape.
 
 ```csharp
 public class GroupShapeLock : BaseShapeLock, IGroupShapeLock
@@ -18,14 +18,14 @@ public class GroupShapeLock : BaseShapeLock, IGroupShapeLock
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AspectRatioLocked](../../aspose.slides/groupshapelock/aspectratiolocked) { get; set; } | Avgör om formen måste bevara bildförhållandet vid storleksändring. Läs/skriv Boolean. |
-| [GroupingLocked](../../aspose.slides/groupshapelock/groupinglocked) { get; set; } | Avgör om det är förbjudet att lägga till denna form i en grupp. Läs/skriv Boolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Returnerar true om alla låsflaggor är inaktiverade. Endast läsning Boolean. |
-| [PositionLocked](../../aspose.slides/groupshapelock/positionlocked) { get; set; } | Avgör om förflyttning av denna form är förbjuden. Läs/skriv Boolean. |
-| [RotationLocked](../../aspose.slides/groupshapelock/rotationlocked) { get; set; } | Avgör om ändring av rotationsvinkel för denna form är förbjuden. Läs/skriv Boolean. |
-| [SelectLocked](../../aspose.slides/groupshapelock/selectlocked) { get; set; } | Avgör om markering av denna form är förbjuden. Läs/skriv Boolean. |
-| [SizeLocked](../../aspose.slides/groupshapelock/sizelocked) { get; set; } | Avgör om storleksändring av denna form är förbjuden. Läs/skriv Boolean. |
-| [UngroupingLocked](../../aspose.slides/groupshapelock/ungroupinglocked) { get; set; } | Avgör om delning av denna gruppform är förbjuden. Läs/skriv Boolean. |
+| [AspectRatioLocked](../../aspose.slides/groupshapelock/aspectratiolocked) { get; set; } | Bestämmer om formen måste bevara bildförhållandet vid storleksändring. Läs/skriv Boolean. |
+| [GroupingLocked](../../aspose.slides/groupshapelock/groupinglocked) { get; set; } | Bestämmer om det är förbjudet att lägga till denna form i en grupp. Läs/skriv Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Returnerar true om alla lock-flags är inaktiverade. Endast läsning Boolean. |
+| [PositionLocked](../../aspose.slides/groupshapelock/positionlocked) { get; set; } | Bestämmer om det är förbjudet att flytta denna form. Läs/skriv Boolean. |
+| [RotationLocked](../../aspose.slides/groupshapelock/rotationlocked) { get; set; } | Bestämmer om det är förbjudet att ändra rotationsvinkeln på denna form. Läs/skriv Boolean. |
+| [SelectLocked](../../aspose.slides/groupshapelock/selectlocked) { get; set; } | Bestämmer om det är förbjudet att markera denna form. Läs/skriv Boolean. |
+| [SizeLocked](../../aspose.slides/groupshapelock/sizelocked) { get; set; } | Bestämmer om det är förbjudet att ändra storlek på denna form. Läs/skriv Boolean. |
+| [UngroupingLocked](../../aspose.slides/groupshapelock/ungroupinglocked) { get; set; } | Bestämmer om det är förbjudet att dela upp denna groupshape. Läs/skriv Boolean. |
 
 ### Se även
 

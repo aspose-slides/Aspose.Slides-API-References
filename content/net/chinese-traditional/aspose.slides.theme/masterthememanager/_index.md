@@ -1,27 +1,27 @@
 ---
 title: MasterThemeManager
-second_title: Aspose.Sildes for .NET API 參考
-description: 提供存取簡報主題母版的功能。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 提供對簡報母版主題的存取。
 type: docs
-weight: 11440
+weight: 11460
 url: /zh-hant/aspose.slides.theme/masterthememanager/
 ---
 ## MasterThemeManager 類別
 
-提供存取簡報主題母版的功能。
+提供對簡報母版主題的存取。
 
 ```csharp
 public class MasterThemeManager : BaseThemeManager, IMasterThemeManager
 ```
 
-## Properties
+## 屬性
 
 | 名稱 | 說明 |
 | --- | --- |
 | [IsOverrideThemeEnabled](../../aspose.slides.theme/masterthememanager/isoverridethemeenabled) { get; set; } | 判斷 OverrideTheme 是否覆寫繼承的有效主題 (Presentation.MasterTheme)。讀/寫 Boolean。 |
 | [OverrideTheme](../../aspose.slides.theme/masterthememanager/overridetheme) { get; set; } | 傳回覆寫的主題物件。讀/寫 [`IMasterTheme`](../imastertheme)。 |
 
-## Methods
+## 方法
 
 | 名稱 | 說明 |
 | --- | --- |

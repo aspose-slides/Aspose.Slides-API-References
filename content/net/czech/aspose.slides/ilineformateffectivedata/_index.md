@@ -1,14 +1,14 @@
 ---
 title: ILineFormatEffectiveData
 second_title: Aspose.Sildes pro .NET API Reference
-description: Neměnný objekt, který obsahuje účinné vlastnosti formátování čáry.
+description: Neměnný objekt, který obsahuje efektivní vlastnosti formátování čáry.
 type: docs
-weight: 6320
+weight: 6340
 url: /cs/aspose.slides/ilineformateffectivedata/
 ---
 ## ILineFormatEffectiveData rozhraní
 
-Neměnný objekt, který obsahuje účinné vlastnosti formátování čáry.
+Neměnný objekt, který obsahuje efektivní vlastnosti formátování čáry.
 
 ```csharp
 public interface ILineFormatEffectiveData : ILineParamSource
@@ -20,19 +20,19 @@ public interface ILineFormatEffectiveData : ILineParamSource
 | --- | --- |
 | [Alignment](../../aspose.slides/ilineformateffectivedata/alignment) { get; } | Vrací zarovnání čáry. Pouze pro čtení [`LineAlignment`](../linealignment). |
 | [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | Umožňuje získat základní rozhraní ILineParamSource. Pouze pro čtení [`ILineParamSource`](../ilineparamsource). |
-| [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | Vrací délku špičky šipky na začátku čáry. Pouze pro čtení [`LineArrowheadLength`](../linearrowheadlength). |
-| [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | Vrací styl špičky šipky na začátku čáry. Pouze pro čtení [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | Vrací šířku špičky šipky na začátku čáry. Pouze pro čtení [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | Vrací styl zakončení čáry. Pouze pro čtení [`LineCapStyle`](../linecapstyle). |
+| [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | Vrací délku šipky na začátku čáry. Pouze pro čtení [`LineArrowheadLength`](../linearrowheadlength). |
+| [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | Vrací styl šipky na začátku čáry. Pouze pro čtení [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | Vrací šířku šipky na začátku čáry. Pouze pro čtení [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | Vrací styl koncového zakončení čáry. Pouze pro čtení [`LineCapStyle`](../linecapstyle). |
 | [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | Vrací vlastní vzor čáry. Pouze pro čtení Single[]. |
-| [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | Vrací styl čárového pomlýkování. Pouze pro čtení [`LineDashStyle`](../linedashstyle). |
-| [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | Vrací délku špičky šipky na konci čáry. Pouze pro čtení [`LineArrowheadLength`](../linearrowheadlength). |
-| [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | Vrací styl špičky šipky na konci čáry. Pouze pro čtení [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | Vrací šířku špičky šipky na konci čáry. Pouze pro čtení [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | Vrací styl čáry. Pouze pro čtení [`LineDashStyle`](../linedashstyle). |
+| [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | Vrací délku šipky na konci čáry. Pouze pro čtení [`LineArrowheadLength`](../linearrowheadlength). |
+| [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | Vrací styl šipky na konci čáry. Pouze pro čtení [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | Vrací šířku šipky na konci čáry. Pouze pro čtení [`LineArrowheadWidth`](../linearrowheadwidth). |
 | [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | Vrací formát výplně čáry. Pouze pro čtení [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata). |
 | [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | Vrací styl spojení čar. Pouze pro čtení [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | Vrací limit sklonu čáry. Pouze pro čtení Single. |
-| [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | Vrací formát skicu čáry. Pouze pro čtení [`ISketchFormatEffectiveData`](../isketchformateffectivedata). |
+| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | Vrací limit míterního úhlu čáry. Pouze pro čtení Single. |
+| [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | Vrací formát skici čáry. Pouze pro čtení [`ISketchFormatEffectiveData`](../isketchformateffectivedata). |
 | [Style](../../aspose.slides/ilineformateffectivedata/style) { get; } | Vrací styl čáry. Pouze pro čtení [`LineStyle`](../linestyle). |
 | [Width](../../aspose.slides/ilineformateffectivedata/width) { get; } | Vrací šířku čáry. Pouze pro čtení Double. |
 
@@ -40,11 +40,11 @@ public interface ILineFormatEffectiveData : ILineParamSource
 
 | Název | Popis |
 | --- | --- |
-| [Equals](../../aspose.slides/ilineformateffectivedata/equals)(ILineFormatEffectiveData) | Určuje, zda jsou dvě instance ILineFormatEffectiveData stejné. |
+| [Equals](../../aspose.slides/ilineformateffectivedata/equals)(ILineFormatEffectiveData) | Určuje, zda jsou dvě instance ILineFormatEffectiveData rovny. |
 
 ### Poznámky
 
-Toto rozhraní se používá spolu s rozhraním [`ILineFormat`](../ilineformat) k vrácení účinných hodnot formátování s aplikovaným děděním.
+Toto rozhraní je používáno spolu s rozhraním [`ILineFormat`](../ilineformat) k vrácení efektivních hodnot formátování s aplikovaným děděním.
 
 ### Viz také
 

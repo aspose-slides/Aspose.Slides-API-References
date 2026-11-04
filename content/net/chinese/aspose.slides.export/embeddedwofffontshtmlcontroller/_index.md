@@ -1,9 +1,9 @@
 ---
 title: EmbeddedWoffFontsHtmlController
-second_title: Aspose.Sildes 的 .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 用于在 WOFF 格式中嵌入字体的格式化控制器类
 type: docs
-weight: 3790
+weight: 3810
 url: /zh/aspose.slides.export/embeddedwofffontshtmlcontroller/
 ---
 ## EmbeddedWoffFontsHtmlController 类
@@ -16,10 +16,10 @@ public class EmbeddedWoffFontsHtmlController : IEmbeddedWoffFontsHtmlController
 
 ## 构造函数
 
-| 名称 | 说明 |
+| 名称 | 描述 |
 | --- | --- |
-| [EmbeddedWoffFontsHtmlController](embeddedwofffontshtmlcontroller#constructor)() | 创建新实例。 |
-| [EmbeddedWoffFontsHtmlController](embeddedwofffontshtmlcontroller#constructor_1)(IHtmlFormattingController) | 创建新实例。 |
+| [EmbeddedWoffFontsHtmlController](embeddedwofffontshtmlcontroller#constructor)() | 创建新的实例。 |
+| [EmbeddedWoffFontsHtmlController](embeddedwofffontshtmlcontroller#constructor_1)(IHtmlFormattingController) | 创建新的实例。 |
 
 ### 另请参见
 

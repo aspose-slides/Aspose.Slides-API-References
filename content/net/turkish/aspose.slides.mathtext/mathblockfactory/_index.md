@@ -1,14 +1,14 @@
 ---
 title: MathBlockFactory
-second_title: Aspose.Sildes for .NET API Referansı
-description: Bir matematik bloğu oluşturmayı sağlar
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bir matematik bloğu oluşturmanıza izin verir
 type: docs
-weight: 8600
+weight: 8620
 url: /tr/aspose.slides.mathtext/mathblockfactory/
 ---
 ## MathBlockFactory sınıfı
 
-Matematik bloğu oluşturmayı sağlar
+Bir matematik bloğu oluşturmanıza izin verir
 
 ```csharp
 public class MathBlockFactory : IMathBlockFactory
@@ -20,7 +20,7 @@ public class MathBlockFactory : IMathBlockFactory
 | --- | --- |
 | [MathBlockFactory](mathblockfactory)() | Varsayılan yapıcı. |
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |

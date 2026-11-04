@@ -1,14 +1,14 @@
 ---
 title: FillBlendMode
-second_title: Aspose.Sildes для .NET API Reference
-description: Определяет режим наложения.
+second_title: Справочник API Aspose.Sildes для .NET
+description: Определяет режим смешивания.
 type: docs
-weight: 4770
+weight: 4790
 url: /ru/aspose.slides/fillblendmode/
 ---
 ## FillBlendMode перечисление
 
-Определяет режим наложения.
+Определяет режим смешивания.
 
 ```csharp
 public enum FillBlendMode
@@ -18,11 +18,11 @@ public enum FillBlendMode
 
 | Имя | Значение | Описание |
 | --- | --- | --- |
-| Darken | `0` | Darken режим наложения. |
-| Lighten | `1` | Lighten режим наложения. |
-| Multiply | `2` | Multiply режим наложения. |
-| Overlay | `3` | Overlay режим наложения. |
-| Screen | `4` | Screen режим наложения. |
+| Darken | `0` | Darken режим смешивания. |
+| Lighten | `1` | Lighten режим смешивания. |
+| Multiply | `2` | Multiply режим смешивания. |
+| Overlay | `3` | Overlay режим смешивания. |
+| Screen | `4` | Screen режим смешивания. |
 
 ### См. также
 

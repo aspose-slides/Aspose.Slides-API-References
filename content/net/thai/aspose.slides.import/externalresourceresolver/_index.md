@@ -1,31 +1,31 @@
 ---
 title: ExternalResourceResolver
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: คลาส Callback ที่ใช้เพื่อแก้ไขทรัพยากรภายนอกระหว่างการนำเข้าเอกสาร Html Svg. การใช้ resolver นี้อาจทำให้เกิดช่องโหว่เมื่อไฟล์ HTML หรือ SVG ที่มาจากไคลเอนต์ทำให้ซอฟต์แวร์เซิร์ฟเวอร์เข้าถึงไฟล์ในเครื่องหรือเครือข่ายได้. ใช้อย่างระมัดระวัง. แนะนำให้ไม่ระบุ ExternalResourceResolver เลย จะอ่านเฉพาะออบเจ็กต์ที่ฝังไว้ หรือสร้างซับคลาสที่ตรวจสอบว่า uri ที่ระบุเป็นค่าที่ถูกต้องหรือไม่.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: คลาส Callback ที่ใช้ในการแกะไขแหล่งข้อมูลภายนอกระหว่างการนำเข้าเอกสาร Html และ Svg. การใช้ตัวแกะไขนี้อาจทำให้เกิดช่องโหว่าเมื่อไฟล์ HTML หรือ SVG ที่ผู้ใช้ให้มาทำให้ซอฟต์แวร์เซิร์ฟเวอร์เข้าถึงไฟล์ในเครื่องหรือในเครือข่ายได้. ใช้อย่างระมัดระวัง. แนะนำไม่ให้ระบุ ExternalResourceResolver เลย เนื่องจากจะอ่านเฉพาะวัตถุที่ฝังไว้เท่านั้นหรือสร้างซับคลาสที่ตรวจสอบว่า uri ที่ระบุเป็นค่าที่ถูกต้องหรือไม่.
 type: docs
-weight: 7480
+weight: 7500
 url: /th/aspose.slides.import/externalresourceresolver/
 ---
 ## ExternalResourceResolver คลาส
 
-คลาส Callback ที่ใช้เพื่อแก้ไขทรัพยากรภายนอกระหว่างการนำเข้าเอกสาร Html, Svg. การใช้ resolver นี้อาจทำให้เกิดช่องโหว่เมื่อไฟล์ HTML หรือ SVG ที่มาจากไคลเอนต์ทำให้ซอฟต์แวร์เซิร์ฟเวอร์เข้าถึงไฟล์ในเครื่องหรือเครือข่ายได้. ใช้อย่างระมัดระวัง. แนะนำให้ไม่ระบุ ExternalResourceResolver เลย (จะอ่านเฉพาะออบเจ็กต์ที่ฝังไว้) หรือสร้างซับคลาสที่ตรวจสอบว่า uri ที่ระบุเป็นค่าที่ถูกต้องหรือไม่.
+คลาส Callback ที่ใช้ในการแกะไขแหล่งข้อมูลภายนอกระหว่างการนำเข้าเอกสาร Html, Svg. การใช้ตัวแกะไขนี้อาจทำให้เกิดช่องโหว่าเมื่อไฟล์ HTML หรือ SVG ที่ผู้ใช้ให้มา ทำให้ซอฟต์แวร์เซิร์ฟเวอร์เข้าถึงไฟล์ในเครื่องหรือในเครือข่ายได้. ใช้อย่างระมัดระวัง. แนะนำไม่ให้ระบุ ExternalResourceResolver เลย (จะอ่านเฉพาะวัตถุที่ฝังไว้) หรือสร้างซับคลาสที่ตรวจสอบว่า uri ที่ระบุเป็นค่าที่ถูกต้องหรือไม่.
 
 ```csharp
 public class ExternalResourceResolver : IExternalResourceResolver
 ```
 
-## ผู้สร้าง
+## คอนสตรัคเตอร์
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [ExternalResourceResolver](externalresourceresolver)() | ตัวสร้างเริ่มต้น. |
+| [ExternalResourceResolver](externalresourceresolver)() | คอนสตรัคเตอร์เริ่มต้น. |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| virtual [GetEntity](../../aspose.slides.import/externalresourceresolver/getentity)(string) | แมป URI ไปยังออบเจ็กต์ที่บรรจุทรัพยากรจริง. |
-| virtual [ResolveUri](../../aspose.slides.import/externalresourceresolver/resolveuri)(string, string) | แก้ไข URI เต็มรูปแบบจาก URI ฐานและ URI สัมพัทธ์. |
+| virtual [GetEntity](../../aspose.slides.import/externalresourceresolver/getentity)(string) | แมพ URI ไปยังอ็อบเจกต์ที่บรรจุทรัพยากรจริง. |
+| virtual [ResolveUri](../../aspose.slides.import/externalresourceresolver/resolveuri)(string, string) | แก้ไข URI แบบสมบูรณ์จาก URI ฐานและ URI สับสัมพันธ์. |
 
 ### ดูเพิ่มเติม
 

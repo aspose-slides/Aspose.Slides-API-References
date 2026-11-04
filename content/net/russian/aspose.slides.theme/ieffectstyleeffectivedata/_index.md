@@ -1,9 +1,9 @@
 ---
 title: IEffectStyleEffectiveData
-second_title: Aspose.Sildes для .NET - справочник API
+second_title: Aspose.Sildes для .NET справки API
 description: Неизменяемый объект, содержащий эффективные свойства стиля эффекта.
 type: docs
-weight: 11200
+weight: 11220
 url: /ru/aspose.slides.theme/ieffectstyleeffectivedata/
 ---
 ## IEffectStyleEffectiveData интерфейс

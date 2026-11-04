@@ -3,7 +3,7 @@ title: IHtmlFormatter
 second_title: Aspose.Sildes için .NET API Referansı
 description: HTML dosya şablonunu temsil eder.
 type: docs
-weight: 3940
+weight: 3960
 url: /tr/aspose.slides.export/ihtmlformatter/
 ---
 ## IHtmlFormatter arayüz
@@ -14,7 +14,7 @@ HTML dosya şablonunu temsil eder.
 public interface IHtmlFormatter
 ```
 
-### Diğer
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.Export](../../aspose.slides.export)
 * derleme [Aspose.Slides](../../)

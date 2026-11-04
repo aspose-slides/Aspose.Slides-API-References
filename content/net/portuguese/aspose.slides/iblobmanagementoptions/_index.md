@@ -1,29 +1,29 @@
 ---
 title: IBlobManagementOptions
-second_title: Aspose.Sildes para .NET – Referência da API
-description: Um Binary Large Object (BLOB) é um dado binário armazenado como uma única entidade – ou seja, o BLOB pode ser um áudio, vídeo ou a própria apresentação. Diversas técnicas são usadas para otimizar o consumo de memória ao trabalhar com BLOBs – que já foram armazenados na apresentação ou podem ser adicionados posteriormente de forma programática. Usando IBlobManagementOptions./iblobmanagementoptions você pode alterar diferentes aspectos de comportamento relacionados ao tratamento de BLOBs para a vida útil da instância IPresentation./ipresentation.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Um Binary Large Object BLOB é um dado binário armazenado como uma única entidade - ou seja, o BLOB pode ser um áudio, vídeo ou a própria apresentação. Várias técnicas são usadas para otimizar o consumo de memória ao trabalhar com BLOBs - que já estavam armazenados na apresentação ou podem ser adicionados posteriormente por programação. Usando IBlobManagementOptions./iblobmanagementoptions você pode alterar diferentes aspectos de comportamento relacionados ao manuseio de BLOBs durante o tempo de vida da instância IPresentation./ipresentation.
 type: docs
-weight: 5370
+weight: 5390
 url: /pt/aspose.slides/iblobmanagementoptions/
 ---
 ## IBlobManagementOptions interface
 
-Um Binary Large Object (BLOB) é um dado binário armazenado como uma única entidade – ou seja, o BLOB pode ser um áudio, vídeo ou a própria apresentação. Diversas técnicas são usadas para otimizar o consumo de memória ao trabalhar com BLOBs – que já foram armazenados na apresentação ou podem ser adicionados posteriormente de forma programática. Usando [`IBlobManagementOptions`](../iblobmanagementoptions) você pode alterar diferentes aspectos de comportamento relacionados ao tratamento de BLOBs para a vida útil da instância [`IPresentation`](../ipresentation).
+Um Binary Large Object (BLOB) é um dado binário armazenado como uma única entidade - ou seja, o BLOB pode ser um áudio, vídeo ou a própria apresentação. Várias técnicas são usadas para otimizar o consumo de memória ao trabalhar com BLOBs - que já estavam armazenados na apresentação ou podem ser adicionados posteriormente por programação. Usando [`IBlobManagementOptions`](../iblobmanagementoptions) você pode alterar diferentes aspectos de comportamento relacionados ao manuseio de BLOBs durante o tempo de vida da instância [`IPresentation`](../ipresentation).
 
 ```csharp
 public interface IBlobManagementOptions
 ```
 
-## Properties
+## Propriedades
 
 | Nome | Descrição |
 | --- | --- |
-| [IsTemporaryFilesAllowed](../../aspose.slides/iblobmanagementoptions/istemporaryfilesallowed) { get; set; } | Esta propriedade define se arquivos temporários podem ser criados ao trabalhar com BLOBs, o que reduz consideravelmente o consumo de memória, mas requer permissões para criar arquivos. Todos os arquivos serão excluídos ao término do trabalho com a apresentação. |
-| [MaxBlobsBytesInMemory](../../aspose.slides/iblobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Define o tamanho total máximo (em bytes) que todos os BLOBs podem ocupar na memória. Por padrão, todos os BLOBs são carregados na memória; apenas quando esse limite é atingido são empregados mecanismos alternativos (como arquivos temporários). Manter os BLOBs na memória maximiza o desempenho, mas pode levar a alto uso de memória. Use esta propriedade para ajustar o comportamento ao seu ambiente ou requisitos. |
-| [PresentationLockingBehavior](../../aspose.slides/iblobmanagementoptions/presentationlockingbehavior) { get; set; } | Esta propriedade define se uma instância da classe Presentation pode ser proprietária da fonte – arquivo ou fluxo – durante a vida útil da instância. Se a instância for proprietária, ela bloqueia a fonte. Isso ajuda a melhorar o consumo de memória e o desempenho ao trabalhar com BLOBs, mas a fonte (fluxo ou arquivo) não pode ser alterada durante a vida útil da instância Presentation. Este é um exemplo: |
-| [TempFilesRootPath](../../aspose.slides/iblobmanagementoptions/tempfilesrootpath) { get; set; } | O caminho raiz onde os arquivos temporários serão criados. O diretório temporário do sistema será usado por padrão. O processo de hospedagem deve ter permissões para criar arquivos e pastas lá. |
+| [IsTemporaryFilesAllowed](../../aspose.slides/iblobmanagementoptions/istemporaryfilesallowed) { get; set; } | Esta propriedade define se arquivos temporários podem ser criados ao trabalhar com BLOBs, o que diminui consideravelmente o consumo de memória, mas requer permissões para criar arquivos. Todos os arquivos serão excluídos após a conclusão do trabalho com a apresentação. |
+| [MaxBlobsBytesInMemory](../../aspose.slides/iblobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Define o tamanho total máximo (em bytes) que todos os BLOBs podem ocupar na memória. Por padrão, todos os BLOBs são carregados na memória; somente quando esse limite é atingido mecanismos alternativos (como arquivos temporários) são empregados. Manter os BLOBs na memória maximiza o desempenho, mas pode levar a alto uso de memória. Use esta propriedade para adaptar o comportamento ao seu ambiente ou requisitos. |
+| [PresentationLockingBehavior](../../aspose.slides/iblobmanagementoptions/presentationlockingbehavior) { get; set; } | Esta propriedade define se uma instância da classe Presentation pode ser proprietária da fonte – arquivo ou stream – durante o tempo de vida da instância. Se a instância for proprietária, ela bloqueia a fonte. Isso ajuda a melhorar o consumo de memória e o desempenho ao trabalhar com BLOBs, mas a fonte (stream ou arquivo) não pode ser alterada durante o tempo de vida da instância Presentation. Este é um exemplo: |
+| [TempFilesRootPath](../../aspose.slides/iblobmanagementoptions/tempfilesrootpath) { get; set; } | O caminho raiz onde arquivos temporários serão criados. O diretório temporário do sistema será usado por padrão. O processo de hospedagem deve ter permissões para criar arquivos e pastas lá. |
 
-### Veja Também
+### Ver também
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

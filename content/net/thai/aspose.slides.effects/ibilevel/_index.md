@@ -1,14 +1,14 @@
 ---
 title: IBiLevel
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวแทนของอินเทอร์เฟซ IImageTransformOperation พื้นฐาน.
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: แสดงถึงอินเทอร์เฟซ IImageTransformOperation พื้นฐาน.
 type: docs
-weight: 3160
+weight: 3180
 url: /th/aspose.slides.effects/ibilevel/
 ---
 ## IBiLevel อินเทอร์เฟซ
 
-เป็นตัวแทนของ IImageTransformOperation อินเทอร์เฟซฐาน.
+แสดงถึงอินเทอร์เฟซ IImageTransformOperation พื้นฐาน
 
 ```csharp
 public interface IBiLevel : IAccessiblePVIObject<IBiLevelEffectiveData>, IImageTransformOperation
@@ -18,8 +18,8 @@ public interface IBiLevel : IAccessiblePVIObject<IBiLevelEffectiveData>, IImageT
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ibilevel/asiaccessiblepviobject) { get; } | อนุญาตให้ดึง IAccessiblePVIObject อินเทอร์เฟซฐาน. อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ibilevel/asiimagetransformoperation) { get; } | อนุญาตให้ดึง IImageTransformOperation อินเทอร์เฟซฐาน. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ibilevel/asiaccessiblepviobject) { get; } | อนุญาตให้เรียกใช้อินเทอร์เฟซ IAccessiblePVIObject พื้นฐานได้ อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ibilevel/asiimagetransformoperation) { get; } | อนุญาตให้เรียกใช้อินเทอร์เฟซ IImageTransformOperation พื้นฐานได้ อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### ดูเพิ่มเติม
 

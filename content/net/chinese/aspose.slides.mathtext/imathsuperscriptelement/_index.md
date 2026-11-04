@@ -1,14 +1,14 @@
 ---
 title: IMathSuperscriptElement
 second_title: Aspose.Sildes for .NET API 参考
-description: 指定上标对象，该对象由基准和一个缩小尺寸的上标组成，位于右上方
+description: 指定上标对象，该对象由基准和放置在右上方的缩小尺寸上标组成
 type: docs
-weight: 8490
+weight: 8510
 url: /zh/aspose.slides.mathtext/imathsuperscriptelement/
 ---
 ## IMathSuperscriptElement 接口
 
-指定上标对象，该对象由一个基准和一个缩小尺寸的上标组成，位于右上方
+指定上标对象，该对象由一个基准和一个放置在右上方的缩小尺寸上标组成
 
 ```csharp
 public interface IMathSuperscriptElement : IMathElement
@@ -18,8 +18,8 @@ public interface IMathSuperscriptElement : IMathElement
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathsuperscriptelement/asimathelement) { get; } | 允许获取基 IMathElement 接口 [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathsuperscriptelement/base) { get; } | 基参数 |
+| [AsIMathElement](../../aspose.slides.mathtext/imathsuperscriptelement/asimathelement) { get; } | 允许获取基础 IMathElement 接口 [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathsuperscriptelement/base) { get; } | 基础参数 |
 | [Superscript](../../aspose.slides.mathtext/imathsuperscriptelement/superscript) { get; } | 上标 |
 
 ### 示例
@@ -31,7 +31,7 @@ public interface IMathSuperscriptElement : IMathElement
 IMathSuperscriptElement superscriptElement = new MathematicalText("N").SetSuperscript("i");
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IMathElement](../imathelement)
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

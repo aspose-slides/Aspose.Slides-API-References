@@ -1,9 +1,9 @@
 ---
 title: ImageTransformOperationCollection
-second_title: Aspose.Sildes για .NET API Αναφορά
+second_title: Αναφορά API Aspose.Sildes για .NET
 description: Αντιπροσωπεύει μια συλλογή εφέ που εφαρμόζονται σε μια εικόνα.
 type: docs
-weight: 3580
+weight: 3600
 url: /el/aspose.slides.effects/imagetransformoperationcollection/
 ---
 ## ImageTransformOperationCollection κλάση
@@ -19,10 +19,10 @@ public sealed class ImageTransformOperationCollection : PVIObject,
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Επ�ιτρέπει την ανάκτηση της βασικής διεπαφής IPresentationComponent. Μόνο-ανάγνωση [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Count](../../aspose.slides.effects/imagetransformoperationcollection/count) { get; } | Επιστρέφει τον αριθμό των εφέ εικόνας σε μια συλλογή. Μόνο-ανάγνωση Int32. |
-| [IsReadOnly](../../aspose.slides.effects/imagetransformoperationcollection/isreadonly) { get; } | Λαμβάνει τιμή που υποδεικνύει εάν το ICollection είναι μόνο-ανάγνωση. Μόνο-ανάγνωση Boolean. |
-| [Item](../../aspose.slides.effects/imagetransformoperationcollection/item) { get; } | Επιστρέφει ένα [`ImageTransformOperation`](../imagetransformoperation) από τη συλλογή με το ευρετήριο του. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Επιτρέπει τη λήψη της βασικής διεπαφής IPresentationComponent. Μόνο για ανάγνωση [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Count](../../aspose.slides.effects/imagetransformoperationcollection/count) { get; } | Επιστρέφει τον αριθμό των εφέ εικόνας σε μια συλλογή. Μόνο για ανάγνωση Int32. |
+| [IsReadOnly](../../aspose.slides.effects/imagetransformoperationcollection/isreadonly) { get; } | Λαμβάνει τιμή που υποδεικνύει αν η ICollection είναι μόνο για ανάγνωση. Μόνο για ανάγνωση Boolean. |
+| [Item](../../aspose.slides.effects/imagetransformoperationcollection/item) { get; } | Επιστρέφει ένα [`ImageTransformOperation`](../imagetransformoperation) από τη συλλογή με το δείκτη του. |
 
 ## Μέθοδοι
 
@@ -36,7 +36,7 @@ public sealed class ImageTransformOperationCollection : PVIObject,
 | [AddAlphaModulateEffect](../../aspose.slides.effects/imagetransformoperationcollection/addalphamodulateeffect)() | Προσθέτει το νέο εφέ Alpha Modulate στο τέλος μιας συλλογής. |
 | [AddAlphaModulateFixedEffect](../../aspose.slides.effects/imagetransformoperationcollection/addalphamodulatefixedeffect)(float) | Προσθέτει το νέο εφέ Alpha Modulate Fixed στο τέλος μιας συλλογής. |
 | [AddAlphaReplaceEffect](../../aspose.slides.effects/imagetransformoperationcollection/addalphareplaceeffect)(float) | Προσθέτει το νέο εφέ Alpha Replace στο τέλος μιας συλλογής. |
-| [AddBiLevelEffect](../../aspose.slides.effects/imagetransformoperationcollection/addbileveleffect)(float) | Προσθέτει το νέο εφέ Bi-Level (μαύρο/λευκό) στο τέλος μιας συλλογής. |
+| [AddBiLevelEffect](../../aspose.slides.effects/imagetransformoperationcollection/addbileveleffect)(float) | Προσθέτει το νέο εφέ Bi-Level (μαύρο/άσπρο) στο τέλος μιας συλλογής. |
 | [AddBlurEffect](../../aspose.slides.effects/imagetransformoperationcollection/addblureffect)(double, bool) | Προσθέτει το νέο εφέ Blur στο τέλος μιας συλλογής. |
 | [AddBrightnessContrastEffect](../../aspose.slides.effects/imagetransformoperationcollection/addbrightnesscontrasteffect)(float, float) | Προσθέτει το νέο εφέ BrightnessContrast στο τέλος μιας συλλογής. |
 | [AddColorChangeEffect](../../aspose.slides.effects/imagetransformoperationcollection/addcolorchangeeffect)() | Προσθέτει το νέο εφέ Color Change στο τέλος μιας συλλογής. |
@@ -48,18 +48,18 @@ public sealed class ImageTransformOperationCollection : PVIObject,
 | [AddLuminanceEffect](../../aspose.slides.effects/imagetransformoperationcollection/addluminanceeffect)(float, float) | Προσθέτει το νέο εφέ Luminance στο τέλος μιας συλλογής. |
 | [AddTintEffect](../../aspose.slides.effects/imagetransformoperationcollection/addtinteffect)(float, float) | Προσθέτει το νέο εφέ Tint στο τέλος μιας συλλογής. |
 | [Clear](../../aspose.slides.effects/imagetransformoperationcollection/clear)() | Αφαιρεί όλα τα εφέ εικόνας από μια συλλογή. |
-| [Contains](../../aspose.slides.effects/imagetransformoperationcollection/contains)(IImageTransformOperation) | Καθορίζει εάν το ICollection περιέχει μια συγκεκριμένη τιμή. |
-| [CopyTo](../../aspose.slides.effects/imagetransformoperationcollection/copyto)(IImageTransformOperation[], int) | Αντιγράφει τα στοιχεία του ICollection σε έναν Array, ξεκινώντας από ένα συγκεκριμένο ευρετήριο Array. |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Συγκρίνει με το καθορισμένο αντικείμενο. |
+| [Contains](../../aspose.slides.effects/imagetransformoperationcollection/contains)(IImageTransformOperation) | Καθορίζει αν η ICollection περιέχει μια συγκεκριμένη τιμή. |
+| [CopyTo](../../aspose.slides.effects/imagetransformoperationcollection/copyto)(IImageTransformOperation[], int) | Αντιγράφει τα στοιχεία της ICollection σε έναν Array, ξεκινώντας από συγκεκριμένο δείκτη του Array. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Συγκρίνει με το συγκεκριμένο αντικείμενο. |
 | [GetEnumerator](../../aspose.slides.effects/imagetransformoperationcollection/getenumerator)() | Επιστρέφει έναν enumerator που διατρέχει τη συλλογή. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Επιστρέφει κώδικα κατακερματισμού. |
-| [Remove](../../aspose.slides.effects/imagetransformoperationcollection/remove)(IImageTransformOperation) | Αφαιρεί την πρώτη εμφάνιση ενός συγκεκριμένου αντικειμένου από το ICollection. |
-| [RemoveAt](../../aspose.slides.effects/imagetransformoperationcollection/removeat)(int) | Αφαιρεί ένα εφέ εικόνας από τη συλλογή στο καθορισμένο ευρετήριο. |
+| [Remove](../../aspose.slides.effects/imagetransformoperationcollection/remove)(IImageTransformOperation) | Αφαιρεί την πρώτη εμφάνιση ενός συγκεκριμένου αντικειμένου από την ICollection. |
+| [RemoveAt](../../aspose.slides.effects/imagetransformoperationcollection/removeat)(int) | Αφαιρεί ένα εφέ εικόνας από τη συλλογή στον καθορισμένο δείκτη. |
 
 ### Δείτε επίσης
 
 * κλάση [PVIObject](../../aspose.slides/pviobject)
-* διασύνδεση [IImageTransformOperationCollection](../iimagetransformoperationcollection)
+* διεπαφή [IImageTransformOperationCollection](../iimagetransformoperationcollection)
 * χώρο ονομάτων [Aspose.Slides.Effects](../../aspose.slides.effects)
 * συναρμολόγηση [Aspose.Slides](../../)
 

@@ -3,7 +3,7 @@ title: MarkdownExportType
 second_title: Aspose.Sildes for .NET API 참조
 description: 문서를 렌더링하는 유형.
 type: docs
-weight: 4240
+weight: 4260
 url: /ko/aspose.slides.export/markdownexporttype/
 ---
 ## MarkdownExportType 열거형
@@ -20,7 +20,7 @@ public enum MarkdownExportType
 | --- | --- | --- |
 | Sequential | `0` | 모든 항목을 개별적으로 렌더링합니다. 하나씩. |
 | TextOnly | `1` | 텍스트만 렌더링합니다. |
-| Visual | `2` | 모든 항목을 렌더링합니다. 그룹화된 항목은 함께 렌더링됩니다. |
+| Visual | `2` | 모든 항목을 렌더링합니다. 그룹화된 항목은 함께 렌더링합니다. |
 
 ### 예시
 
@@ -43,7 +43,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 참조
+### 기타 참고
 
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)
 * 어셈블리 [Aspose.Slides](../../)

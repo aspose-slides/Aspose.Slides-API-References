@@ -1,14 +1,14 @@
 ---
 title: GetActualLabelText
-second_title: Aspose.Sildes for .NET API 參考
-description: 根據 DataLabelFormat 設定或 TextFrameForOverriding.Text 值，返回實際標籤文字。
+second_title: Aspose.Sildes 的 .NET API 參考
+description: 根據 DataLabelFormat 設定或 TextFrameForOverriding.Text 值返回實際標籤文字。
 type: docs
-weight: 70
+weight: 80
 url: /zh-hant/aspose.slides.charts/idatalabel/getactuallabeltext/
 ---
 ## IDataLabel.GetActualLabelText 方法
 
-根據 DataLabelFormat 設定或 TextFrameForOverriding.Text 值，返回實際標籤文字。
+根據 DataLabelFormat 設定或 TextFrameForOverriding.Text 值返回實際標籤文字。
 
 ```csharp
 public string GetActualLabelText()
@@ -18,7 +18,7 @@ public string GetActualLabelText()
 
 實際標籤文字 String
 
-### 另見
+### 另請參閱
 
 * 介面 [IDataLabel](../../idatalabel)
 * 命名空間 [Aspose.Slides.Charts](../../idatalabel)

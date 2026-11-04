@@ -1,9 +1,9 @@
 ---
 title: IDrawingGuidesCollection
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET 用 API リファレンス
 description: 調整可能な描画ガイドのコレクションを表します。
 type: docs
-weight: 5730
+weight: 5750
 url: /ja/aspose.slides/idrawingguidescollection/
 ---
 ## IDrawingGuidesCollection インターフェイス
@@ -16,18 +16,18 @@ public interface IDrawingGuidesCollection : IEnumerable<IDrawingGuide>
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [Count](../../aspose.slides/idrawingguidescollection/count) { get; } | コレクション内のすべての要素の数を取得します。読み取り専用 Int32。 |
-| [Item](../../aspose.slides/idrawingguidescollection/item) { get; } | インデックスで描画ガイドを返します。読み取り専用 [`IDrawingGuide`](../idrawingguide)。 |
+| [Count](../../aspose.slides/idrawingguidescollection/count) { get; } | コレクション内のすべての要素数を取得します。読み取り専用 Int32。 |
+| [Item](../../aspose.slides/idrawingguidescollection/item) { get; } | インデックスで描画ガイドを取得します。読み取り専用 [`IDrawingGuide`](../idrawingguide)。 |
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [Add](../../aspose.slides/idrawingguidescollection/add)(Orientation, float) | コレクションの末尾に描画ガイドを追加します。 |
 | [Clear](../../aspose.slides/idrawingguidescollection/clear)() | コレクションからすべての要素を削除します。 |
-| [RemoveAt](../../aspose.slides/idrawingguidescollection/removeat)(int) | 指定されたインデックスの描画ガイドを削除します。 |
+| [RemoveAt](../../aspose.slides/idrawingguidescollection/removeat)(int) | 指定したインデックスの描画ガイドを削除します。 |
 
 ### 参照
 

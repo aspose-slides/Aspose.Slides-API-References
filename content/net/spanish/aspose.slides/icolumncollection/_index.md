@@ -1,12 +1,12 @@
 ---
 title: IColumnCollection
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Representa una colección de columnas en una tabla.
 type: docs
-weight: 5530
+weight: 5550
 url: /es/aspose.slides/icolumncollection/
 ---
-## Interfaz IColumnCollection
+## IColumnCollection interfaz
 
 Representa una colección de columnas en una tabla.
 
@@ -24,7 +24,7 @@ public interface IColumnCollection : IGenericCollection<IColumn>
 
 | Nombre | Descripción |
 | --- | --- |
-| [AddClone](../../aspose.slides/icolumncollection/addclone)(IColumn, bool) | Crea una copia de la fila de plantilla especificada y la inserta en la parte inferior de una tabla. |
+| [AddClone](../../aspose.slides/icolumncollection/addclone)(IColumn, bool) | Crea una copia de la fila de plantilla especificada y la inserta al final de una tabla. |
 | [InsertClone](../../aspose.slides/icolumncollection/insertclone)(int, IColumn, bool) | Crea una copia de la columna de plantilla especificada y la inserta en la posición especificada en una tabla. |
 | [RemoveAt](../../aspose.slides/icolumncollection/removeat)(int, bool) | Elimina una columna en la posición especificada de una tabla. |
 

@@ -1,14 +1,14 @@
 ---
 title: IMathGroupingCharacter
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ระบุสัญลักษณ์การจัดกลุ่มเหนือหรือใต้สมการโดยทั่วไปเพื่อเน้นความสัมพันธ์ระหว่างองค์ประกอบ
+description: ระบุสัญลักษณ์การจัดกลุ่มที่อยู่เหนือหรือใต้สมการ เพื่อเน้นความสัมพันธ์ระหว่างองค์ประกอบ
 type: docs
-weight: 8290
+weight: 8310
 url: /th/aspose.slides.mathtext/imathgroupingcharacter/
 ---
 ## IMathGroupingCharacter อินเทอร์เฟซ
 
-ระบุสัญลักษณ์การจัดกลุ่มเหนือหรือใต้สมการ โดยทั่วไปเพื่อเน้นความสัมพันธ์ระหว่างองค์ประกอบ
+ระบุสัญลักษณ์การจัดกลุ่มที่อยู่เหนือหรือใต้สมการ เพื่อเน้นความสัมพันธ์ระหว่างองค์ประกอบ
 
 ```csharp
 public interface IMathGroupingCharacter : IMathElement
@@ -18,15 +18,15 @@ public interface IMathGroupingCharacter : IMathElement
 
 | Name | Description |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathgroupingcharacter/asimathelement) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IMathElement พื้นฐาน [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathgroupingcharacter/base) { get; } | อาร์กิวเมนต์พื้นฐาน |
-| [Character](../../aspose.slides.mathtext/imathgroupingcharacter/character) { get; set; } | ตัวอักษรการจัดกลุ่ม ค่าเริ่มต้น: U+23DF (BOTTOM CURLY BRACKET) |
-| [Position](../../aspose.slides.mathtext/imathgroupingcharacter/position) { get; set; } | ตำแหน่งของตัวอักษรการจัดกลุ่ม ค่าเริ่มต้น: Bottom |
-| [VerticalJustification](../../aspose.slides.mathtext/imathgroupingcharacter/verticaljustification) { get; set; } | การจัดแนวเชิงแนวตั้งของตัวอักษรการจัดกลุ่ม. ระบุการจัดตำแหน่งของวัตถุสัมพันธ์กับเส้นฐาน. ตัวอย่างเช่น เมื่อกลุ่มตัวอักษรอยู่เหนือวัตถุ, VerticalJustification ของ Top หมายถึงด้านบนของวัตถุตกบนเส้นฐาน; เมื่อ VerticalJustification ถูกตั้งค่าเป็น Bottom, ด้านล่างของวัตถุตั้งอยู่บนเส้นฐาน ค่าเริ่มต้น: Bottom สำหรับ Position=Top, และ Top สำหรับ Position=Bottom |
+| [AsIMathElement](../../aspose.slides.mathtext/imathgroupingcharacter/asimathelement) { get; } | อนุญาตให้รับอินเทอร์เฟซฐาน IMMathElement [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathgroupingcharacter/base) { get; } | อาร์กิวเมนต์ฐาน |
+| [Character](../../aspose.slides.mathtext/imathgroupingcharacter/character) { get; set; } | ตัวอักษรจัดกลุ่ม ค่าเริ่มต้น: U+23DF (BOTTOM CURLY BRACKET) |
+| [Position](../../aspose.slides.mathtext/imathgroupingcharacter/position) { get; set; } | ตำแหน่งของตัวอักษรจัดกลุ่ม. ค่าเริ่มต้น: Bottom |
+| [VerticalJustification](../../aspose.slides.mathtext/imathgroupingcharacter/verticaljustification) { get; set; } | การจัดแนวแนวตั้งของตัวอักษรจัดกลุ่ม ระบุการจัดตำแหน่งของวัตถุตามเส้นฐาน ตัวอย่างเช่น เมื่ออักษรจัดกลุ่มอยู่เหนือวัตถุ VerticalJustification ของ Top หมายความว่าด้านบนของวัตถุอยู่บนเส้นฐาน; เมื่อ VerticalJustification ถูกตั้งค่าเป็น Bottom ด้านล่างของวัตถุอยู่บนเส้นฐาน ค่าเริ่มต้น: Bottom สำหรับ Position=Top และ Top สำหรับ Position=Bottom |
 
 ### ตัวอย่าง
 
-Example:
+ตัวอย่าง:
 
 ```csharp
 [C#]

@@ -1,14 +1,14 @@
 ---
 title: ILuminanceEffectiveData
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta un effetto Luminanza. La luminosità sposta linearmente tutti i colori più vicino a bianco o nero. Il contrasto scala tutti i colori per renderli più vicini o più distanti tra loro.
+second_title: Aspose.Sildes per .NET API Reference
+description: Rappresenta un effetto Luminance. La luminosità sposta linearmente tutti i colori più vicino al bianco o al nero. Il contrasto scala tutti i colori per avvicinarli o allontanarli tra loro.
 type: docs
-weight: 3450
+weight: 3470
 url: /it/aspose.slides.effects/iluminanceeffectivedata/
 ---
 ## ILuminanceEffectiveData interfaccia
 
-Rappresenta un effetto Luminanza. La luminosità sposta linearmente tutti i colori più vicino a bianco o nero. Il contrasto scala tutti i colori per farli più vicini o più distanti tra loro.
+Rappresenta un effetto Luminance. La luminosità sposta linearmente tutti i colori più vicino al bianco o al nero. Il contrasto scala tutti i colori per avvicinarli o allontanarli tra loro.
 
 ```csharp
 public interface ILuminanceEffectiveData : IEffectEffectiveData

@@ -3,7 +3,7 @@ title: ChartCategoryCollection
 second_title: Aspose.Sildes для .NET справочник API
 description: Представляет коллекцию ChartCategory./chartcategory
 type: docs
-weight: 1280
+weight: 1290
 url: /ru/aspose.slides.charts/chartcategorycollection/
 ---
 ## ChartCategoryCollection класс
@@ -21,19 +21,19 @@ public class ChartCategoryCollection : DomObject<ChartData>, IChartCategoryColle
 | [Count](../../aspose.slides.charts/chartcategorycollection/count) { get; } | Возвращает количество элементов в коллекции. Только для чтения Int32. |
 | [GroupingLevelCount](../../aspose.slides.charts/chartcategorycollection/groupinglevelcount) { get; } | Возвращает количество уровней группировки категорий, используемых. Больше одного для многоуровневых категорий. Только для чтения Int32. |
 | [IsSynchronized](../../aspose.slides.charts/chartcategorycollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к списку (потокобезопасный). Только для чтения Boolean. |
-| [Item](../../aspose.slides.charts/chartcategorycollection/item) { get; } | Получает элемент по указанному индексу. |
-| [SyncRoot](../../aspose.slides.charts/chartcategorycollection/syncroot) { get; } | Возвращает объект, который может использоваться для синхронизации доступа к коллекции. Только для чтения Object. |
-| [UseCells](../../aspose.slides.charts/chartcategorycollection/usecells) { get; set; } | Если true, то лист используется для хранения категорий (этот случай поддерживает многоуровневые категории). Если false, то лист НЕ используется для хранения значений (и этот случай не поддерживает многоуровневые категории). Чтение/запись Boolean. |
+| [Item](../../aspose.slides.charts/chartcategorycollection/item) { get; } | Возвращает элемент по указанному индексу. |
+| [SyncRoot](../../aspose.slides.charts/chartcategorycollection/syncroot) { get; } | Возвращает объект, который можно использовать для синхронизации доступа к коллекции. Только для чтения Object. |
+| [UseCells](../../aspose.slides.charts/chartcategorycollection/usecells) { get; set; } | Если true, то лист используется для хранения категорий (в этом случае поддерживаются многоуровневые категории). Если false, то лист НЕ используется для хранения значений (и в этом случае не поддерживаются многоуровневые категории). Чтение/запись Boolean. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.slides.charts/chartcategorycollection/add#add)(IChartDataCell) | Если категория существует в коллекции, возвращает её. В противном случае создаёт новую категорию диаграммы из [`IChartDataCell`](../ichartdatacell) и добавляет её в коллекцию. |
-| [Add](../../aspose.slides.charts/chartcategorycollection/add#add_1)(object) | Создаёт новый [`ChartCategory`](../chartcategory) из значения и добавляет его в коллекцию. |
+| [Add](../../aspose.slides.charts/chartcategorycollection/add#add)(IChartDataCell) | Если категория существует в коллекции, возвращает её. Иначе создает новую категорию диаграммы из [`IChartDataCell`](../ichartdatacell) и добавляет её в коллекцию. |
+| [Add](../../aspose.slides.charts/chartcategorycollection/add#add_1)(object) | Создает новый [`ChartCategory`](../chartcategory) из значения и добавляет его в коллекцию. |
 | [Clear](../../aspose.slides.charts/chartcategorycollection/clear)() | Удаляет все элементы из коллекции. |
 | [CopyTo](../../aspose.slides.charts/chartcategorycollection/copyto)(Array, int) | Копирует все элементы коллекции в указанный массив. |
-| [GetEnumerator](../../aspose.slides.charts/chartcategorycollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [GetEnumerator](../../aspose.slides.charts/chartcategorycollection/getenumerator)() | Возвращает перечислитель, который перебирает элементы коллекции. |
 | [IndexOf](../../aspose.slides.charts/chartcategorycollection/indexof)(IChartCategory) | Ищет указанный [`ChartCategory`](../chartcategory) и возвращает нулевой индекс первого вхождения во всей коллекции. |
 | [Remove](../../aspose.slides.charts/chartcategorycollection/remove)(IChartCategory) | Удаляет указанное значение. |
 | [RemoveAt](../../aspose.slides.charts/chartcategorycollection/removeat)(int) | Удаляет элемент по заданному индексу. |

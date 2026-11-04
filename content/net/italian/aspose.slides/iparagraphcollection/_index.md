@@ -1,9 +1,9 @@
 ---
 title: IParagraphCollection
-second_title: Aspose.Sildes per .NET API Reference
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta una raccolta di paragrafi.
 type: docs
-weight: 6570
+weight: 6590
 url: /it/aspose.slides/iparagraphcollection/
 ---
 ## IParagraphCollection interfaccia
@@ -29,8 +29,8 @@ public interface IParagraphCollection : IEnumerable<IParagraph>, ISlideComponent
 | --- | --- |
 | [Add](../../aspose.slides/iparagraphcollection/add#add_1)(IParagraph) | Aggiunge un Paragraph alla fine della raccolta. |
 | [Add](../../aspose.slides/iparagraphcollection/add#add)(IParagraphCollection) | Aggiunge il contenuto di ParagraphCollection alla fine della raccolta. |
-| [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml#addfromhtml)(string) | Aggiunge testo dalla stringa html specificata alla raccolta. |
-| [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | Aggiunge testo dalla stringa html specificata alla raccolta. |
+| [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml#addfromhtml)(string) | Aggiunge testo da una stringa HTML specificata alla raccolta. |
+| [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | Aggiunge testo da una stringa HTML specificata alla raccolta. |
 | [Clear](../../aspose.slides/iparagraphcollection/clear)() | Rimuove tutti gli elementi dalla raccolta. |
 | [ExportToHtml](../../aspose.slides/iparagraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | Converte i paragrafi specificati in HTML e lo restituisce come oggetto String. |
 | [Insert](../../aspose.slides/iparagraphcollection/insert#insert)(int, IParagraph) | Inserisce un Paragraph nella raccolta all'indice specificato. |

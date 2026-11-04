@@ -3,7 +3,7 @@ title: IShapeFrame
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示形状框架的属性。
 type: docs
-weight: 7000
+weight: 7020
 url: /zh/aspose.slides/ishapeframe/
 ---
 ## IShapeFrame 接口
@@ -18,18 +18,18 @@ public interface IShapeFrame : IGenericCloneable<IShapeFrame>
 
 | 名称 | 描述 |
 | --- | --- |
-| [CenterX](../../aspose.slides/ishapeframe/centerx) { get; } | 返回框架中心的 X 坐标。只读 Single。 |
-| [CenterY](../../aspose.slides/ishapeframe/centery) { get; } | 返回框架中心的 Y 坐标。只读 Single。 |
-| [FlipH](../../aspose.slides/ishapeframe/fliph) { get; } | 确定框架是否水平翻转。只读 [`NullableBool`](../nullablebool)。 |
-| [FlipV](../../aspose.slides/ishapeframe/flipv) { get; } | 确定框架是否垂直翻转。只读 [`NullableBool`](../nullablebool)。 |
-| [Height](../../aspose.slides/ishapeframe/height) { get; } | 返回框架的高度。只读 Single。 |
-| [Rectangle](../../aspose.slides/ishapeframe/rectangle) { get; } | 返回框架的坐标。只读 RectangleF。 |
-| [Rotation](../../aspose.slides/ishapeframe/rotation) { get; } | 返回框架绕 z 轴旋转的度数。正值表示顺时针旋转；负值表示逆时针旋转。只读 Single。 |
-| [Width](../../aspose.slides/ishapeframe/width) { get; } | 返回框架的宽度。只读 Single。 |
-| [X](../../aspose.slides/ishapeframe/x) { get; } | 返回框架左上角的 X 坐标。只读 Single。 |
-| [Y](../../aspose.slides/ishapeframe/y) { get; } | 返回框架左上角的 Y 坐标。只读 Single。 |
+| [CenterX](../../aspose.slides/ishapeframe/centerx) { get; } | 返回帧中心的 X 坐标。只读 Single。 |
+| [CenterY](../../aspose.slides/ishapeframe/centery) { get; } | 返回帧中心的 Y 坐标。只读 Single。 |
+| [FlipH](../../aspose.slides/ishapeframe/fliph) { get; } | 确定帧是否水平翻转。只读 [`NullableBool`](../nullablebool)。 |
+| [FlipV](../../aspose.slides/ishapeframe/flipv) { get; } | 确定帧是否垂直翻转。只读 [`NullableBool`](../nullablebool)。 |
+| [Height](../../aspose.slides/ishapeframe/height) { get; } | 返回帧的高度。只读 Single。 |
+| [Rectangle](../../aspose.slides/ishapeframe/rectangle) { get; } | 返回帧的坐标。只读 RectangleF。 |
+| [Rotation](../../aspose.slides/ishapeframe/rotation) { get; } | 返回帧围绕 z 轴旋转的角度（度）。正值表示顺时针旋转；负值表示逆时针旋转。只读 Single。 |
+| [Width](../../aspose.slides/ishapeframe/width) { get; } | 返回帧的宽度。只读 Single。 |
+| [X](../../aspose.slides/ishapeframe/x) { get; } | 返回帧左上角的 X 坐标。只读 Single。 |
+| [Y](../../aspose.slides/ishapeframe/y) { get; } | 返回帧左上角的 Y 坐标。只读 Single。 |
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IGenericCloneable&lt;T&gt;](../igenericcloneable-1)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

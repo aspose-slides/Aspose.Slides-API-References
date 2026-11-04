@@ -1,14 +1,14 @@
 ---
 title: EmbedFontCharacters
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt die Regel dar, die zum Hinzufügen einer neuen eingebetteten Schriftart in IPresentation../aspose.slides/ipresentation verwendet wird
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt die Regel dar, die zum Hinzufügen neuer eingebetteter Schriftarten in IPresentation../aspose.slides/ipresentation verwendet wird.
 type: docs
-weight: 3770
+weight: 3790
 url: /de/aspose.slides.export/embedfontcharacters/
 ---
-## EmbedFontCharacters-Aufzählung
+## EmbedFontCharacters Aufzählung
 
-Stellt die Regel dar, die zum Hinzufügen einer neuen eingebetteten Schriftart in [`IPresentation`](../../aspose.slides/ipresentation) verwendet wird.
+Stellt die Regel dar, die zum Hinzufügen neuer eingebetteter Schriftarten in [`IPresentation`](../../aspose.slides/ipresentation) verwendet wird.
 
 ```csharp
 public enum EmbedFontCharacters
@@ -18,8 +18,8 @@ public enum EmbedFontCharacters
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| OnlyUsed | `0` | Nur die in der Präsentation verwendeten Zeichen einbetten (am besten zur Reduzierung der Dateigröße). |
-| All | `1` | Alle Zeichen einbetten (am besten zum Bearbeiten durch andere Personen). |
+| OnlyUsed | `0` | Betten Sie nur die in der Präsentation verwendeten Zeichen ein (optimal zur Reduzierung der Dateigröße). |
+| All | `1` | Betten Sie alle Zeichen ein (optimal für die Bearbeitung durch andere Personen). |
 
 ### Siehe auch
 

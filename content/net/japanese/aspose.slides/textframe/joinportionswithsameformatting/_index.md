@@ -3,12 +3,12 @@ title: JoinPortionsWithSameFormatting
 second_title: Aspose.Sildes の .NET API リファレンス
 description: すべての段落で同じ書式のランを結合します。
 type: docs
-weight: 110
+weight: 120
 url: /ja/aspose.slides/textframe/joinportionswithsameformatting/
 ---
 ## TextFrame.JoinPortionsWithSameFormatting メソッド
 
-同じ書式のランをすべての段落で結合します。
+すべての段落で同じ書式のランを結合します。
 
 ```csharp
 public void JoinPortionsWithSameFormatting()

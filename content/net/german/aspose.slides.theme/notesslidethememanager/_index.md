@@ -1,14 +1,14 @@
 ---
 title: NotesSlideThemeManager
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt den Zugriff auf das überschreibbare Notizfolien-Theme bereit.
+description: Stellt Zugriff auf das überschriebene Notizfolien-Theme bereit.
 type: docs
-weight: 11450
+weight: 11470
 url: /de/aspose.slides.theme/notesslidethememanager/
 ---
 ## NotesSlideThemeManager Klasse
 
-Stellt den Zugriff auf das überschreibbare Notizfolien-Theme bereit.
+Stellt Zugriff auf das überschriebenen Notizfolien-Theme bereit.
 
 ```csharp
 public class NotesSlideThemeManager : BaseOverrideThemeManager
@@ -18,8 +18,8 @@ public class NotesSlideThemeManager : BaseOverrideThemeManager
 
 | Name | Beschreibung |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Bestimmt, ob OverrideTheme das geerbte effektive Theme überschreibt oder nicht. Um OverrideTheme zum Überschreiben zu aktivieren, verwenden Sie die OverrideTheme.Init*()-Methoden. Um OverrideTheme vom Überschreiben zu deaktivieren, verwenden Sie die OverrideTheme.Clear()-Methode. Nur lesend Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Gibt das überschreibende Theme-Objekt zurück. Lese/Schreib [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Bestimmt, ob OverrideTheme das geerbte wirksame Theme überschreibt oder nicht. Zum Aktivieren von OverrideTheme für das Überschreiben verwenden Sie die Methoden OverrideTheme.Init*(). Zum Deaktivieren von OverrideTheme für das Überschreiben verwenden Sie die Methode OverrideTheme.Clear(). Nur-Lese Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Gibt das überschreibende Theme-Objekt zurück. Lesen/Schreiben [`IOverrideTheme`](../ioverridetheme). |
 
 ## Methoden
 

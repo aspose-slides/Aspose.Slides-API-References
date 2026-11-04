@@ -1,14 +1,14 @@
 ---
 title: PlaceholderType
-second_title: Aspose.Sildes para a referência da API .NET
-description: Representa o tipo de um espaço reservado.
+second_title: Aspose.Sildes para referência da API .NET
+description: Representa o tipo de um placeholder.
 type: docs
-weight: 9450
+weight: 9470
 url: /pt/aspose.slides/placeholdertype/
 ---
 ## Enumeração PlaceholderType
 
-Representa o tipo de um espaço reservado.
+Representa o tipo de um placeholder.
 
 ```csharp
 public enum PlaceholderType : sbyte
@@ -16,14 +16,14 @@ public enum PlaceholderType : sbyte
 
 ### Valores
 
-| Name | Value | Description |
+| Nome | Valor | Descrição |
 | --- | --- | --- |
-| Title | `0` | Title. |
-| Body | `1` | Body. |
-| CenteredTitle | `2` | Centered Title. |
-| Subtitle | `3` | Subtitle. |
-| DateAndTime | `4` | Data e Hora. |
-| SlideNumber | `5` | Número do Slide. |
+| Title | `0` | Título. |
+| Body | `1` | Corpo. |
+| CenteredTitle | `2` | Título centralizado. |
+| Subtitle | `3` | Legenda. |
+| DateAndTime | `4` | Data e hora. |
+| SlideNumber | `5` | Número do slide. |
 | Footer | `6` | Rodapé. |
 | Header | `7` | Cabeçalho. |
 | Object | `8` | Objeto. |
@@ -32,7 +32,7 @@ public enum PlaceholderType : sbyte
 | ClipArt | `11` | Clip Art. |
 | Diagram | `12` | Diagrama. |
 | Media | `13` | Mídia. |
-| SlideImage | `14` | Imagem do Slide. |
+| SlideImage | `14` | Imagem do slide. |
 | Picture | `15` | Imagem. |
 
 ### Veja Também

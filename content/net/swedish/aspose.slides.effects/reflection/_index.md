@@ -3,10 +3,10 @@ title: Reflection
 second_title: Aspose.Slides för .NET API-referens
 description: Representerar en Reflection-effekt.
 type: docs
-weight: 3640
+weight: 3660
 url: /sv/aspose.slides.effects/reflection/
 ---
-## Reflection-klass
+## Reflection klass
 
 Representerar en Reflection-effekt.
 
@@ -18,27 +18,27 @@ public sealed class Reflection : IReflection
 
 | Namn | Beskrivning |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | Suddighetsradie. Läs/skriv Double. |
-| [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | Riktning för reflektion. Läs/skriv Single. |
+| [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | Oskärpegrad. Läs/skriv Double. |
+| [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | Reflektionens riktning. Läs/skriv Single. |
 | [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | Avstånd för reflektion. Läs/skriv Double. |
-| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | Anger slutpositionen (längs alpha-gradientrampen) för slut-alpha-värdet (procent). Läs/skriv Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | Slutlig reflektion-opacitet. (procent). Läs/skriv Single. |
-| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | Anger riktningen för att förskjuta reflektionen. (vinkel). Läs/skriv Single. |
+| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | Anger slutpositionen (längs alfa-gradientens rampe) för slut-alfa-värdet (procent). Läs/skriv Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | Slutreflektionens opacitet. (procent). Läs/skriv Single. |
+| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | Anger riktning för att förskjuta reflektionen. (vinkel). Läs/skriv Single. |
 | [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | Rektangeljustering. Läs/skriv [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | Anger om reflektionen ska roteras med formen när formen roteras. Läs/skriv Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | Anger den horisontella skalningsfaktorn, negativ skalning orsakar en spegelvändning. (procent) Läs/skriv Double. |
-| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | Anger den vertikala skalningsfaktorn, negativ skalning orsakar en spegelvändning. (procent) Läs/skriv Double. |
-| [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | Anger den horisontella skevvinkeln. Läs/skriv Double. |
-| [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | Anger den vertikala skevvinkeln. Läs/skriv Double. |
-| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | Anger startpositionen (längs alpha-gradientrampen) för start-alpha-värdet (procent). Läs/skriv Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | Startande reflektion-opacitet. (procent). Läs/skriv Single. |
+| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | Anger om reflektionen ska rotera med formen om formen roteras. Läs/skriv Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | Anger den horisontella skalfaktorn, negativ skalning orsakar en vändning. (procent) Läs/skriv Double. |
+| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | Anger den vertikala skalfaktorn, negativ skalning orsakar en vändning. (procent) Läs/skriv Double. |
+| [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | Anger horisontell skev vinkel. Läs/skriv Double. |
+| [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | Anger vertikal skev vinkel. Läs/skriv Double. |
+| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | Anger startpositionen (längs alfa-gradientens rampe) för start-alfa-värdet (procent). Läs/skriv Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | Startreflektionens opacitet. (procent). Läs/skriv Single. |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/reflection/equals)(object) | Avgör om den angivna [`Reflection`](../reflection) är lika med den aktuella [`Reflection`](../reflection). |
-| [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | Hämtar effektiv Reflection-effektdat med ärvning tillämpad. |
+| [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | Hämtar effektiv Reflection-effektsdata med arv tillämpat. |
 | override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | Fungerar som en hashfunktion för en viss typ. |
 
 ### Se även

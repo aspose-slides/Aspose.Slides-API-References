@@ -3,10 +3,10 @@ title: TabAlignment
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar tabbjusteringen.
 type: docs
-weight: 10830
+weight: 10850
 url: /sv/aspose.slides/tabalignment/
 ---
-## TabAlignment-enumeration
+## TabAlignment uppräkning
 
 Representerar tabbjusteringen.
 
@@ -19,7 +19,7 @@ public enum TabAlignment
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |
 | Left | `0` | Vänsterjustering |
-| Center | `1` | Centrerad justering |
+| Center | `1` | Centrering |
 | Right | `2` | Högerjustering |
 | Decimal | `3` | Decimaljustering |
 

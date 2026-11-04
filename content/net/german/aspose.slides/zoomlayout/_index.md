@@ -1,14 +1,14 @@
 ---
 title: ZoomLayout
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt das Zusammenfassungs-Zoom-Layout an.
+description: Gibt das zusammenfassende Zoom-Layout an.
 type: docs
-weight: 11860
+weight: 11880
 url: /de/aspose.slides/zoomlayout/
 ---
 ## ZoomLayout Aufzählung
 
-Gibt das Zusammenfassungs-Zoom-Layout an.
+Gibt das zusammenfassende Zoom-Layout an.
 
 ```csharp
 public enum ZoomLayout
@@ -18,7 +18,7 @@ public enum ZoomLayout
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| GridLayout | `0` | Gibt das Layout als Gitterlayout für eine Liste von Objekten an. |
+| GridLayout | `0` | Gibt das Layout als Rasterlayout für eine Objektliste an. |
 | FixedLayout | `1` | Gibt das Layout mit benutzerdefinierter Zoom-Positionierung an. |
 
 ### Siehe auch

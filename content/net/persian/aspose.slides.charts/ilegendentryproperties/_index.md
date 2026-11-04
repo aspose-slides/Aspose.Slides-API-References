@@ -1,14 +1,14 @@
 ---
 title: ILegendEntryProperties
 second_title: Aspose.Sildes برای .NET مرجع API
-description: خواص legend یک نمودار را نمایش می‌دهد.
+description: خواص افسانه یک نمودار را نشان می‌دهد.
 type: docs
-weight: 2150
+weight: 2170
 url: /fa/aspose.slides.charts/ilegendentryproperties/
 ---
 ## ILegendEntryProperties رابط
 
-نمایش خواص legend یک chart.
+خواص افسانه یک نمودار را نشان می‌دهد.
 
 ```csharp
 public interface ILegendEntryProperties : IFormattedTextContainer
@@ -18,10 +18,10 @@ public interface ILegendEntryProperties : IFormattedTextContainer
 
 | نام | توضیح |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegendentryproperties/asiformattedtextcontainer) { get; } | اجازه می‌دهد تا اینترفیس پایه IFormattedTextContainer را دریافت کند. فقط خواندنی [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [Hide](../../aspose.slides.charts/ilegendentryproperties/hide) { get; set; } | مقدار یا تنظیم پرچم مخفی ورودی legend را برمی‌گرداند. خواندن/نوشتن Boolean. |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegendentryproperties/asiformattedtextcontainer) { get; } | اجازه می‌دهد تا رابط IFormattedTextContainer پایه را دریافت کند. فقط‌خواندنی [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [Hide](../../aspose.slides.charts/ilegendentryproperties/hide) { get; set; } | مقدار یا تنظیم پرچم مخفی ورودی افسانه. قابل‌خواندن/قابل‌نوشتن Boolean. |
 
-### موارد مرتبط
+### مشاهده کنید
 
 * رابط [IFormattedTextContainer](../iformattedtextcontainer)
 * فضای‌نام [Aspose.Slides.Charts](../../aspose.slides.charts)

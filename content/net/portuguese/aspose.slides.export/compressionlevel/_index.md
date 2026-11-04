@@ -1,14 +1,14 @@
 ---
 title: CompressionLevel
-second_title: Aspose.Sildes para referência de API .NET
-description: Especifica os níveis de compressão ZIP para arquivos OpenXML. Níveis mais altos proporcionam melhor compressão ao custo de processamento mais lento.
+second_title: Aspose.Sildes para Referência de API .NET
+description: Especifica os níveis de compressão ZIP para arquivos OpenXML. Níveis mais altos proporcionam melhor compressão ao custo de um processamento mais lento.
 type: docs
-weight: 3740
+weight: 3760
 url: /pt/aspose.slides.export/compressionlevel/
 ---
-## enumeração CompressionLevel
+## CompressionLevel enumeração
 
-Especifica os níveis de compressão ZIP para arquivos OpenXML. Níveis mais altos proporcionam melhor compressão ao custo de processamento mais lento.
+Especifica os níveis de compressão ZIP para arquivos OpenXML. Níveis mais altos fornecem melhor compressão ao custo de um processamento mais lento.
 
 ```csharp
 public enum CompressionLevel
@@ -21,7 +21,7 @@ public enum CompressionLevel
 | None | `0` | Nenhuma compressão é aplicada. Os arquivos são armazenados como estão. |
 | Level1 | `1` | Compressão mais rápida com a menor taxa de compressão. |
 | Level2 | `2` | Compressão mais rápida com taxa de compressão ligeiramente melhor que Level1. |
-| Level3 | `3` | Fornece melhor compressão que Level2 com impacto moderado no desempenho. |
+| Level3 | `3` | Fornece melhor compressão que Level2 com impacto de desempenho moderado. |
 | Level4 | `4` | Fornece melhor compressão que Level3. |
 | Level5 | `5` | Fornece compressão aprimorada em relação a Level4 com tempo de processamento adicional. |
 | Level6 | `6` | Compressão padrão, oferecendo um bom equilíbrio entre velocidade de compressão e tamanho do arquivo. O nível de compressão padrão. |
@@ -29,7 +29,7 @@ public enum CompressionLevel
 | Level8 | `8` | Fornece compressão maior que Level7. |
 | Level9 | `9` | Compressão máxima. Produz o menor tamanho de arquivo com a velocidade de processamento mais lenta. |
 
-### Veja Também
+### Ver Também
 
 * espaço de nomes [Aspose.Slides.Export](../../aspose.slides.export)
 * assembly [Aspose.Slides](../../)

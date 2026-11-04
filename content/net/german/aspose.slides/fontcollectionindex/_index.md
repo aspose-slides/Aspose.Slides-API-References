@@ -1,9 +1,9 @@
 ---
 title: FontCollectionIndex
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt den Index von Schriftarten in einer Sammlung dar.
 type: docs
-weight: 4810
+weight: 4830
 url: /de/aspose.slides/fontcollectionindex/
 ---
 ## FontCollectionIndex Aufzählung

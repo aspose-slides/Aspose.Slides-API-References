@@ -3,7 +3,7 @@ title: Section
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt einen Abschnitt von Folien dar.
 type: docs
-weight: 9750
+weight: 9770
 url: /de/aspose.slides/section/
 ---
 ## Section Klasse

@@ -1,12 +1,12 @@
 ---
 title: Fonts
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: फ़ॉन्ट संग्रह।
 type: docs
-weight: 4920
+weight: 4940
 url: /hi/aspose.slides/fonts/
 ---
-## Fonts क्लास
+## Fonts वर्ग
 
 Fonts संग्रह।
 
@@ -18,20 +18,20 @@ public class Fonts : IFonts
 
 | नाम | विवरण |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/fonts/complexscriptfont) { get; set; } | जटिल स्क्रिप्ट फ़ॉन्ट को प्राप्त करता है या सेट करता है। पढ़ने/लिखने योग्य [`IFontData`](../ifontdata). |
-| [EastAsianFont](../../aspose.slides/fonts/eastasianfont) { get; set; } | पूर्वी एशियाई फ़ॉन्ट को प्राप्त करता है या सेट करता है। पढ़ने/लिखने योग्य [`IFontData`](../ifontdata). |
-| [LatinFont](../../aspose.slides/fonts/latinfont) { get; set; } | लैटिन फ़ॉन्ट को प्राप्त करता है या सेट करता है। पढ़ने/लिखने योग्य [`IFontData`](../ifontdata). |
+| [ComplexScriptFont](../../aspose.slides/fonts/complexscriptfont) { get; set; } | जटिल स्क्रिप्ट फ़ॉन्ट को लौटाता है या सेट करता है। पढ़ें/लिखें [`IFontData`](../ifontdata). |
+| [EastAsianFont](../../aspose.slides/fonts/eastasianfont) { get; set; } | पूर्वी एशियाई फ़ॉन्ट को लौटाता है या सेट करता है। पढ़ें/लिखें [`IFontData`](../ifontdata). |
+| [LatinFont](../../aspose.slides/fonts/latinfont) { get; set; } | लैटिन फ़ॉन्ट को लौटाता है या सेट करता है। पढ़ें/लिखें [`IFontData`](../ifontdata). |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [GetScriptFont](../../aspose.slides/fonts/getscriptfont)(string) | प्रेज़ेंटेशन थीम से एक विशिष्ट स्क्रिप्ट टैग से जुड़ा फ़ॉन्ट नाम प्राप्त करता है। |
-| [GetScriptFontMap](../../aspose.slides/fonts/getscriptfontmap)() | प्रेज़ेंटेशन में सभी स्क्रिप्ट फ़ॉन्ट परिभाषाओं की शब्दकोश लौटाता है। |
-| [RemoveScriptFont](../../aspose.slides/fonts/removescriptfont)(string) | थीम की फ़ॉन्ट संग्रह से एक विशिष्ट स्क्रिप्ट टैग से जुड़ी फ़ॉन्ट सेटिंग हटाता है। |
-| [SetScriptFont](../../aspose.slides/fonts/setscriptfont)(string, string) | एक विशिष्ट स्क्रिप्ट टैग को फ़ॉन्ट नाम असाइन करता है, जो निर्धारित करता है कि प्रेज़ेंटेशन में उस स्क्रिप्ट के टेक्स्ट को कैसे रेंडर किया जाएगा। |
+| [GetScriptFont](../../aspose.slides/fonts/getscriptfont)(string) | प्रेजेंटेशन थीम से विशिष्ट स्क्रिप्ट टैग से जुड़ा फ़ॉन्ट नाम प्राप्त करता है। |
+| [GetScriptFontMap](../../aspose.slides/fonts/getscriptfontmap)() | प्रेजेंटेशन में सभी स्क्रिप्ट फ़ॉन्ट परिभाषाओं की शब्दकोश लौटाता है। |
+| [RemoveScriptFont](../../aspose.slides/fonts/removescriptfont)(string) | थीम के फ़ॉन्ट संग्रह से विशिष्ट स्क्रिप्ट टैग से जुड़ी फ़ॉन्ट सेटिंग हटाता है। |
+| [SetScriptFont](../../aspose.slides/fonts/setscriptfont)(string, string) | विशिष्ट स्क्रिप्ट टैग को फ़ॉन्ट नाम नियोजित करता है, जो निर्धारित करता है कि प्रस्तुति में उस स्क्रिप्ट के पाठ को कैसे रेंडर किया जाएगा। |
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IFonts](../ifonts)
 * नामस्थान [Aspose.Slides](../../aspose.slides)

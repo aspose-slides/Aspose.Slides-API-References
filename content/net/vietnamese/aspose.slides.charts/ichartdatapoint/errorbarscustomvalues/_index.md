@@ -1,20 +1,20 @@
 ---
 title: ErrorBarsCustomValues
-second_title: Aspose.Sildes cho .NET Tham khảo API
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Biểu diễn các giá trị thanh lỗi của chuỗi trong trường hợp kiểu giá trị Tùy chỉnh. Chỉ đọc IErrorBarsCustomValuesaspose.slides.charts/ierrorbarscustomvalues.
 type: docs
-weight: 50
+weight: 90
 url: /vi/aspose.slides.charts/ichartdatapoint/errorbarscustomvalues/
 ---
-## IChartDataPoint.ErrorBarsCustomValues thuộc tính
+## Thuộc tính IChartDataPoint.ErrorBarsCustomValues
 
-Biểu diễn các giá trị thanh lỗi của chuỗi trong trường hợp kiểu giá trị tùy chỉnh. Chỉ đọc [`IErrorBarsCustomValues`](../../ierrorbarscustomvalues).
+Biểu diễn các giá trị thanh lỗi của chuỗi trong trường hợp kiểu giá trị Tùy chỉnh. Chỉ đọc [`IErrorBarsCustomValues`](../../ierrorbarscustomvalues).
 
 ```csharp
 public IErrorBarsCustomValues ErrorBarsCustomValues { get; }
 ```
 
-### Xem thêm
+### Xem Thêm
 
 * giao diện [IErrorBarsCustomValues](../../ierrorbarscustomvalues)
 * giao diện [IChartDataPoint](../../ichartdatapoint)

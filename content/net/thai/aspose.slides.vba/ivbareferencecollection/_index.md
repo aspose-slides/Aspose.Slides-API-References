@@ -1,14 +1,14 @@
 ---
 title: IVbaReferenceCollection
 second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: เป็นตัวแทนของคอลเลกชันของการอ้างอิงโครงการ VBA
+description: เป็นคอลเลกชันของการอ้างอิง VBA Project
 type: docs
-weight: 11580
+weight: 11600
 url: /th/aspose.slides.vba/ivbareferencecollection/
 ---
-## อินเทอร์เฟซ IVbaReferenceCollection
+## IVbaReferenceCollection อินเทอร์เฟซ
 
-เป็นตัวแทนของคอลเลกชันของการอ้างอิงโครงการ VBA
+เป็นคอลเลกชันของการอ้างอิง VBA Project
 
 ```csharp
 public interface IVbaReferenceCollection : IGenericCollection<IVbaReference>
@@ -18,9 +18,9 @@ public interface IVbaReferenceCollection : IGenericCollection<IVbaReference>
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Item](../../aspose.slides.vba/ivbareferencecollection/item) { get; } | ดึงองค์ประกอบที่ตำแหน่งที่ระบุ |
+| [Item](../../aspose.slides.vba/ivbareferencecollection/item) { get; } | รับองค์ประกอบที่ตำแหน่งที่ระบุ |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |

@@ -3,12 +3,12 @@ title: ILineFillFormat
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt Eigenschaften für das Füllen von Linien dar.
 type: docs
-weight: 6290
+weight: 6310
 url: /de/aspose.slides/ilinefillformat/
 ---
 ## ILineFillFormat Schnittstelle
 
-Stellt Eigenschaften für die Füllung von Linien dar.
+Stellt Eigenschaften für das Füllen von Linien dar.
 
 ```csharp
 public interface ILineFillFormat : IFillParamSource
@@ -18,11 +18,11 @@ public interface ILineFillFormat : IFillParamSource
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ilinefillformat/asifillparamsource) { get; } | Ermöglicht das Abrufen der Basis-IFillParamSource-Schnittstelle. Nur lesbar [`IFillParamSource`](../ifillparamsource). |
-| [FillType](../../aspose.slides/ilinefillformat/filltype) { get; set; } | Gibt den Fill-Type zurück oder setzt ihn. Lese/Schreib [`FillType`](../filltype). |
+| [AsIFillParamSource](../../aspose.slides/ilinefillformat/asifillparamsource) { get; } | Ermöglicht das Abrufen der Basisschnittstelle IFillParamSource. Nur lesbar [`IFillParamSource`](../ifillparamsource). |
+| [FillType](../../aspose.slides/ilinefillformat/filltype) { get; set; } | Gibt den Fill-Typ zurück oder setzt ihn. Lese/Schreib [`FillType`](../filltype). |
 | [GradientFormat](../../aspose.slides/ilinefillformat/gradientformat) { get; } | Gibt das Gradient-Fill-Format zurück. Nur lesbar [`IGradientFormat`](../igradientformat). |
 | [PatternFormat](../../aspose.slides/ilinefillformat/patternformat) { get; } | Gibt das Pattern-Fill-Format zurück. Nur lesbar [`IPatternFormat`](../ipatternformat). |
-| [RotateWithShape](../../aspose.slides/ilinefillformat/rotatewithshape) { get; set; } | Bestimmt, ob die Füllung mit einer Shape rotiert werden soll. Lese/Schreib [`NullableBool`](../nullablebool). |
+| [RotateWithShape](../../aspose.slides/ilinefillformat/rotatewithshape) { get; set; } | Bestimmt, ob die Fill-Farbe mit einer Shape rotiert werden soll. Lese/Schreib [`NullableBool`](../nullablebool). |
 | [SolidFillColor](../../aspose.slides/ilinefillformat/solidfillcolor) { get; } | Gibt die Farbe einer Solid-Fill zurück. Nur lesbar [`IColorFormat`](../icolorformat). |
 
 ### Siehe auch

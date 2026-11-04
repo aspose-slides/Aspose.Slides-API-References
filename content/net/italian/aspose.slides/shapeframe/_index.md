@@ -1,9 +1,9 @@
 ---
 title: ShapeFrame
-second_title: Aspose.Sildes per la documentazione API .NET
-description: Rappresenta le proprietà dei frame di forma.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta le proprietà dei frame delle forme.
 type: docs
-weight: 9900
+weight: 9920
 url: /it/aspose.slides/shapeframe/
 ---
 ## ShapeFrame classe

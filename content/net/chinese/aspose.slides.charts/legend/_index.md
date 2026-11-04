@@ -3,12 +3,12 @@ title: Legend
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示图表图例属性。
 type: docs
-weight: 2280
+weight: 2300
 url: /zh/aspose.slides.charts/legend/
 ---
 ## Legend 类
 
-表示图表的图例属性。
+表示图表图例属性。
 
 ```csharp
 public class Legend : DomObject<Chart>, ILegend
@@ -20,22 +20,22 @@ public class Legend : DomObject<Chart>, ILegend
 | --- | --- |
 | [ActualHeight](../../aspose.slides.charts/legend/actualheight) { get; } | 指定图表元素的实际高度。调用 IChart.ValidateChartLayout() 方法后获取实际值。只读 Single。 |
 | [ActualWidth](../../aspose.slides.charts/legend/actualwidth) { get; } | 指定图表元素的实际宽度。调用 IChart.ValidateChartLayout() 方法后获取实际值。只读 Single。 |
-| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | 指定图表元素相对于图表左上角的实际 X 位置（左）。调用 IChart.ValidateChartLayout() 方法后获取实际值。只读 Single。 |
+| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | 指定图表元素相对于图表左上角的实际 x 位置（左）。调用 IChart.ValidateChartLayout() 方法后获取实际值。只读 Single。 |
 | [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | 指定图表元素相对于图表左上角的实际顶部位置。调用 IChart.ValidateChartLayout() 方法后获取实际值。只读 Single。 |
 | [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | 底部。只读 Single。 |
 | [Chart](../../aspose.slides.charts/legend/chart) { get; } | 返回图表。只读 [`IChart`](../ichart)。 |
 | [Entries](../../aspose.slides.charts/legend/entries) { get; } | 获取图例条目。只读 [`ILegendEntryCollection`](../ilegendentrycollection)。 |
 | [Format](../../aspose.slides.charts/legend/format) { get; } | 返回图例的格式。只读 [`IFormat`](../iformat)。 |
-| [Height](../../aspose.slides.charts/legend/height) { get; set; } | 返回或设置图例的高度，作为图表高度的比例。读/写 Single。 |
-| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | 确定是否允许其他图表元素覆盖图例。读/写 Boolean。 |
-| [Position](../../aspose.slides.charts/legend/position) { get; set; } | 指定图例在图表上的位置。非 NaN 的 X、Y、Width、Heigt 属性值会覆盖此属性的作用。读/写 [`LegendPositionType`](../legendpositiontype)。 |
+| [Height](../../aspose.slides.charts/legend/height) { get; set; } | 返回或设置图例高度占图表高度的比例。可读写 Single。 |
+| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | 确定是否允许其他图表元素覆盖图例。可读写 Boolean。 |
+| [Position](../../aspose.slides.charts/legend/position) { get; set; } | 指定图例在图表上的位置。X、Y、Width、Height 属性的非 NaN 值会覆盖此属性的效果。可读写 [`LegendPositionType`](../legendpositiontype)。 |
 | [Right](../../aspose.slides.charts/legend/right) { get; } | 右侧。只读 Single。 |
 | [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | 文本格式。只读 [`IChartTextFormat`](../icharttextformat)。 |
-| [Width](../../aspose.slides.charts/legend/width) { get; set; } | 返回或设置图例的宽度，作为图表宽度的比例。读/写 Single。 |
-| [X](../../aspose.slides.charts/legend/x) { get; set; } | 返回或设置图例的 X 坐标，作为图表宽度的比例。读/写 Single。 |
-| [Y](../../aspose.slides.charts/legend/y) { get; set; } | 返回或设置图例的 Y 坐标，作为图表高度的比例。读/写 Single。 |
+| [Width](../../aspose.slides.charts/legend/width) { get; set; } | 返回或设置图例宽度占图表宽度的比例。可读写 Single。 |
+| [X](../../aspose.slides.charts/legend/x) { get; set; } | 返回或设置图例的 x 坐标，占图表宽度的比例。可读写 Single。 |
+| [Y](../../aspose.slides.charts/legend/y) { get; set; } | 返回或设置图例的 y 坐标，占图表高度的比例。可读写 Single。 |
 
-### 另请参阅
+### 另见
 
 * 类 [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * 类 [Chart](../chart)

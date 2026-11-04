@@ -1,14 +1,14 @@
 ---
 title: IUpDownBarsManager
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt Zugriff auf Auf/Ab-Balken von Linien- oder Kursdiagrammen bereit.
+description: Stellt Zugriff auf Auf-/Ab-Balken von Linien- oder Kurs-Diagrammen bereit.
 type: docs
-weight: 2260
+weight: 2280
 url: /de/aspose.slides.charts/iupdownbarsmanager/
 ---
 ## IUpDownBarsManager Schnittstelle
 
-Stellt Zugriff auf Auf/Ab-Balken von Linien- oder Kursdiagrammen bereit.
+Stellt Zugriff auf Auf-/Ab-Balken von Linien- oder Kurs-Diagrammen bereit.
 
 ```csharp
 public interface IUpDownBarsManager
@@ -18,10 +18,10 @@ public interface IUpDownBarsManager
 
 | Name | Beschreibung |
 | --- | --- |
-| [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | Gibt das Format der Abwärtsbalken zurück. Nur lesend [`IFormat`](../iformat). |
-| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | Gibt die Lückenbreite zurück oder legt sie fest. Lese/Schreib Int32. |
-| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | Bestimmt, ob das Diagramm Auf/Ab-Balken hat. Lese/Schreib Boolean. |
-| [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | Gibt das Format der Aufbalken zurück. Nur lesend [`IFormat`](../iformat). |
+| [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | Gibt das Format der Ab-Balken zurück. Nur lesbar [`IFormat`](../iformat). |
+| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | Gibt die Lücke zwischen Balken zurück oder setzt sie. Lesen/Schreiben Int32. |
+| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | Bestimmt, ob das Diagramm Auf-/Ab-Balken hat. Lesen/Schreiben Boolean. |
+| [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | Gibt das Format der Auf-Balken zurück. Nur lesbar [`IFormat`](../iformat). |
 
 ### Siehe auch
 

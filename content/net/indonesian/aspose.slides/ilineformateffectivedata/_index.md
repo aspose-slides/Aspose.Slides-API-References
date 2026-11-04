@@ -1,14 +1,14 @@
 ---
 title: ILineFormatEffectiveData
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Objek tidak dapat diubah yang berisi properti format garis yang efektif.
+description: Objek tak dapat diubah yang berisi properti format garis yang efektif.
 type: docs
-weight: 6320
+weight: 6340
 url: /id/aspose.slides/ilineformateffectivedata/
 ---
-## ILineFormatEffectiveData interface
+## ILineFormatEffectiveData antarmuka
 
-Objek tidak dapat diubah yang berisi properti format garis yang efektif.
+Objek tak dapat diubah yang berisi properti format garis yang efektif.
 
 ```csharp
 public interface ILineFormatEffectiveData : ILineParamSource
@@ -19,22 +19,22 @@ public interface ILineFormatEffectiveData : ILineParamSource
 | Nama | Deskripsi |
 | --- | --- |
 | [Alignment](../../aspose.slides/ilineformateffectivedata/alignment) { get; } | Mengembalikan perataan garis. Hanya-baca [`LineAlignment`](../linealignment). |
-| [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | Memungkinkan mendapatkan antarmuka dasar ILineParamSource. Hanya-baca [`ILineParamSource`](../ilineparamsource). |
+| [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | Mengizinkan untuk mendapatkan antarmuka ILineParamSource dasar. Hanya-baca [`ILineParamSource`](../ilineparamsource). |
 | [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | Mengembalikan panjang kepala panah di awal garis. Hanya-baca [`LineArrowheadLength`](../linearrowheadlength). |
 | [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | Mengembalikan gaya kepala panah di awal garis. Hanya-baca [`LineArrowheadStyle`](../linearrowheadstyle). |
 | [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | Mengembalikan lebar kepala panah di awal garis. Hanya-baca [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | Mengembalikan gaya ujung garis. Hanya-baca [`LineCapStyle`](../linecapstyle). |
+| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | Mengembalikan gaya tutup garis. Hanya-baca [`LineCapStyle`](../linecapstyle). |
 | [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | Mengembalikan pola dash khusus. Hanya-baca Single[]. |
 | [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | Mengembalikan gaya dash garis. Hanya-baca [`LineDashStyle`](../linedashstyle). |
 | [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | Mengembalikan panjang kepala panah di akhir garis. Hanya-baca [`LineArrowheadLength`](../linearrowheadlength). |
 | [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | Mengembalikan gaya kepala panah di akhir garis. Hanya-baca [`LineArrowheadStyle`](../linearrowheadstyle). |
 | [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | Mengembalikan lebar kepala panah di akhir garis. Hanya-baca [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | Mengembalikan format isi garis. Hanya-baca [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata). |
+| [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | Mengembalikan format isian sebuah garis. Hanya-baca [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata). |
 | [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | Mengembalikan gaya sambungan garis. Hanya-baca [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | Mengembalikan batas miter garis. Hanya-baca Single. |
-| [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | Mengembalikan format sketsa garis. Hanya-baca [`ISketchFormatEffectiveData`](../isketchformateffectivedata). |
+| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | Mengembalikan batas miter sebuah garis. Hanya-baca Single. |
+| [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | Mengembalikan format sketsa sebuah garis. Hanya-baca [`ISketchFormatEffectiveData`](../isketchformateffectivedata). |
 | [Style](../../aspose.slides/ilineformateffectivedata/style) { get; } | Mengembalikan gaya garis. Hanya-baca [`LineStyle`](../linestyle). |
-| [Width](../../aspose.slides/ilineformateffectivedata/width) { get; } | Mengembalikan lebar garis. Hanya-baca Double. |
+| [Width](../../aspose.slides/ilineformateffectivedata/width) { get; } | Mengembalikan lebar sebuah garis. Hanya-baca Double. |
 
 ## Metode
 
@@ -44,12 +44,12 @@ public interface ILineFormatEffectiveData : ILineParamSource
 
 ### Catatan
 
-Antarmuka ini digunakan bersama dengan antarmuka [`ILineFormat`](../ilineformat) untuk mengembalikan nilai format efektif dengan pewarisan yang diterapkan.
+Antarmuka ini digunakan bersama dengan antarmuka [`ILineFormat`](../ilineformat) untuk mengembalikan nilai format efektif dengan pewarisan diterapkan.
 
 ### Lihat Juga
 
-* interface [ILineParamSource](../ilineparamsource)
-* namespace [Aspose.Slides](../../aspose.slides)
+* antarmuka [ILineParamSource](../ilineparamsource)
+* ruang nama [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

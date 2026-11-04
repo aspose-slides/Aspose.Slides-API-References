@@ -1,14 +1,14 @@
 ---
 title: SetExternalWorkbook
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Menetapkan workbook eksternal sebagai sumber data untuk diagram. Data diagram akan diperbarui dari workbook target.
+description: Mengatur workbook eksternal sebagai sumber data untuk diagram. Data diagram akan diperbarui dari workbook target.
 type: docs
-weight: 120
+weight: 130
 url: /id/aspose.slides.charts/chartdata/setexternalworkbook/
 ---
 ## SetExternalWorkbook(string) {#setexternalworkbook}
 
-Menetapkan workbook eksternal sebagai sumber data untuk diagram. Data diagram akan diperbarui dari workbook target.
+Mengatur workbook eksternal sebagai sumber data untuk diagram. Data diagram akan diperbarui dari workbook target.
 
 ```csharp
 public void SetExternalWorkbook(string workbookPath)
@@ -20,7 +20,7 @@ public void SetExternalWorkbook(string workbookPath)
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| eksepsi | kondisi |
 | --- | --- |
 | InvalidOperationException | Workbook eksternal tidak tersedia atau tidak dapat dimuat. |
 
@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation())
 
 ## SetExternalWorkbook(string, bool) {#setexternalworkbook_1}
 
-Menetapkan workbook eksternal sebagai sumber data untuk diagram.
+Mengatur workbook eksternal sebagai sumber data untuk diagram.
 
 ```csharp
 public void SetExternalWorkbook(string workbookPath, bool updateChartData)
@@ -59,7 +59,7 @@ public void SetExternalWorkbook(string workbookPath, bool updateChartData)
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| eksepsi | kondisi |
 | --- | --- |
 | InvalidOperationException | Workbook eksternal tidak tersedia atau tidak dapat dimuat. |
 

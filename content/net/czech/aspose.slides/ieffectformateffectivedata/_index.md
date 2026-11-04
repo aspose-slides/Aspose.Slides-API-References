@@ -1,14 +1,14 @@
 ---
 title: IEffectFormatEffectiveData
-second_title: Aspose.Sildes pro .NET – referenční příručka API
-description: Neměnný objekt, který obsahuje efektivní vlastnosti formátování efektů.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Neměnný objekt, který obsahuje účinné vlastnosti formátování efektu.
 type: docs
-weight: 5750
+weight: 5770
 url: /cs/aspose.slides/ieffectformateffectivedata/
 ---
 ## IEffectFormatEffectiveData rozhraní
 
-Neměnný objekt, který obsahuje efektivní vlastnosti formátování efektů.
+Neměnný objekt, který obsahuje účinné vlastnosti formátování efektu.
 
 ```csharp
 public interface IEffectFormatEffectiveData : IEffectParamSource
@@ -19,11 +19,11 @@ public interface IEffectFormatEffectiveData : IEffectParamSource
 | Název | Popis |
 | --- | --- |
 | [AsIEffectParamSource](../../aspose.slides/ieffectformateffectivedata/asieffectparamsource) { get; } | Umožňuje získat základní rozhraní IEffectParamSource. Pouze pro čtení [`IEffectParamSource`](../ieffectparamsource). |
-| [BlurEffect](../../aspose.slides/ieffectformateffectivedata/blureffect) { get; } | Efekt rozostření. Pouze pro čtení [`IBlurEffectiveData`](../../aspose.slides.effects/iblureffectivedata). |
+| [BlurEffect](../../aspose.slides/ieffectformateffectivedata/blureffect) { get; } | Rozostřovací efekt. Pouze pro čtení [`IBlurEffectiveData`](../../aspose.slides.effects/iblureffectivedata). |
 | [FillOverlayEffect](../../aspose.slides/ieffectformateffectivedata/filloverlayeffect) { get; } | Efekt překrytí výplní. Pouze pro čtení [`IFillOverlayEffectiveData`](../../aspose.slides.effects/ifilloverlayeffectivedata). |
 | [GlowEffect](../../aspose.slides/ieffectformateffectivedata/gloweffect) { get; } | Efekt záře. Pouze pro čtení [`IGlowEffectiveData`](../../aspose.slides.effects/igloweffectivedata). |
 | [InnerShadowEffect](../../aspose.slides/ieffectformateffectivedata/innershadoweffect) { get; } | Vnitřní stín. Pouze pro čtení [`IInnerShadowEffectiveData`](../../aspose.slides.effects/iinnershadoweffectivedata). |
-| [IsNoEffects](../../aspose.slides/ieffectformateffectivedata/isnoeffects) { get; } | Vrací true, pokud jsou všechny efekty zakázány (při novém vytvoření, výchozí objekt EffectFormat). Pouze pro čtení Boolean. |
+| [IsNoEffects](../../aspose.slides/ieffectformateffectivedata/isnoeffects) { get; } | Vrací true, pokud jsou všechny efekty vypnuty (jako právě vytvořený, výchozí objekt EffectFormat). Pouze pro čtení Boolean. |
 | [OuterShadowEffect](../../aspose.slides/ieffectformateffectivedata/outershadoweffect) { get; } | Vnější stín. Pouze pro čtení [`IOuterShadowEffectiveData`](../../aspose.slides.effects/ioutershadoweffectivedata). |
 | [PresetShadowEffect](../../aspose.slides/ieffectformateffectivedata/presetshadoweffect) { get; } | Přednastavený stín. Pouze pro čtení [`IPresetShadowEffectiveData`](../../aspose.slides.effects/ipresetshadoweffectivedata). |
 | [ReflectionEffect](../../aspose.slides/ieffectformateffectivedata/reflectioneffect) { get; } | Odraz. Pouze pro čtení [`IReflectionEffectiveData`](../../aspose.slides.effects/ireflectioneffectivedata). |
@@ -31,7 +31,7 @@ public interface IEffectFormatEffectiveData : IEffectParamSource
 
 ### Poznámky
 
-Toto rozhraní se používá spolu s rozhraním [`IEffectFormat`](../ieffectformat) k vrácení efektivních hodnot formátování s aplikovaným děděním.
+Toto rozhraní se používá spolu s rozhraním [`IEffectFormat`](../ieffectformat) k vrácení účinných hodnot formátování s aplikovaným děděním.
 
 ### Viz také
 

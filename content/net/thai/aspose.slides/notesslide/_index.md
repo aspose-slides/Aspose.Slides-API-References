@@ -1,14 +1,14 @@
 ---
 title: NotesSlide
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงสไลด์บันทึกย่อในงานนำเสนอ
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แทนสไลด์บันทึกในงานนำเสนอ
 type: docs
-weight: 9140
+weight: 9160
 url: /th/aspose.slides/notesslide/
 ---
 ## NotesSlide คลาส
 
-แสดงสไลด์บันทึกย่อในงานนำเสนอ
+แทนสไลด์บันทึกในงานนำเสนอ
 
 ```csharp
 public class NotesSlide : BaseSlide, INotesSlide
@@ -18,31 +18,31 @@ public class NotesSlide : BaseSlide, INotesSlide
 
 | Name | Description |
 | --- | --- |
-| [Background](../../aspose.slides/baseslide/background) { get; } | ส่งคืนพื้นหลังของสไลด์. อ่านอย่างเดียว [`IBackground`](../ibackground). |
-| [Controls](../../aspose.slides/baseslide/controls) { get; } | ส่งคืนคอลเลกชันของควบคุม ActiveX บนสไลด์. อ่านอย่างเดียว [`IControlCollection`](../icontrolcollection). |
-| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | ส่งคืนข้อมูลกำหนดเองของสไลด์. อ่านอย่างเดียว [`ICustomData`](../icustomdata). |
-| [HeaderFooterManager](../../aspose.slides/notesslide/headerfootermanager) { get; } | ส่งคืนผู้จัดการ HeaderFooter ของสไลด์บันทึกย่อ. อ่านอย่างเดียว [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
-| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | ให้การเข้าถึงลิงก์ที่ฝังอยู่ได้อย่างง่ายดาย. อ่านอย่างเดียว [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | ส่งคืนหรือกำหนดชื่อของสไลด์. อ่าน/เขียน String. |
-| [NotesTextFrame](../../aspose.slides/notesslide/notestextframe) { get; } | ส่งคืน TextFrame ที่มีข้อความบันทึกย่อหากมี. อ่านอย่างเดียว [`ITextFrame`](../itextframe). |
-| [ParentSlide](../../aspose.slides/notesslide/parentslide) { get; } | ส่งคืนสไลด์แม่. อ่านอย่างเดียว [`ISlide`](../islide). |
-| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | ส่งคืนอินเทอร์เฟซ IPresentation. อ่านอย่างเดียว [`IPresentation`](../ipresentation). |
-| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | ส่งคืนรูปร่างของสไลด์. อ่านอย่างเดียว [`IShapeCollection`](../ishapecollection). |
-| override [ShowMasterShapes](../../aspose.slides/notesslide/showmastershapes) { get; set; } | ระบุว่ารูปร่างบนสไลด์หลักควรแสดงบนสไลด์หรือไม่. อ่าน/เขียน Boolean. |
-| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | ส่งคืน ID ของสไลด์. อ่านอย่างเดียว UInt32. |
-| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | ส่งคืนอ็อบเจ็กต์ Transition ซึ่งมีข้อมูลเกี่ยวกับวิธีการเลื่อนสไลด์ที่ระบุในระหว่างการนำเสนอ. อ่านอย่างเดียว [`ISlideShowTransition`](../islideshowtransition). |
-| [ThemeManager](../../aspose.slides/notesslide/thememanager) { get; } | ส่งคืนผู้จัดการธีมที่แทนที่. อ่านอย่างเดียว [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager). |
-| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | ส่งคืนอ็อบเจ็กต์ไทม์ไลน์ของแอนิเมชัน. อ่านอย่างเดียว [`IAnimationTimeLine`](../ianimationtimeline). |
+| [Background](../../aspose.slides/baseslide/background) { get; } | ส่งคืนพื้นหลังของสไลด์ อ่านอย่างเดียว [`IBackground`](../ibackground). |
+| [Controls](../../aspose.slides/baseslide/controls) { get; } | ส่งคืนคอลเลกชันของคอนโทรล ActiveX บนสไลด์ อ่านอย่างเดียว [`IControlCollection`](../icontrolcollection). |
+| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | ส่งคืนข้อมูลกำหนดเองของสไลด์ อ่านอย่างเดียว [`ICustomData`](../icustomdata). |
+| [HeaderFooterManager](../../aspose.slides/notesslide/headerfootermanager) { get; } | ส่งคืนผู้จัดการ HeaderFooter ของสไลด์บันทึก อ่านอย่างเดียว [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
+| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | ให้การเข้าถึงไฮเปอร์ลิงก์ที่มีอยู่ได้อย่างง่าย อ่านอย่างเดียว [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | ส่งคืนหรือกำหนดชื่อของสไลด์ อ่าน-เขียน String. |
+| [NotesTextFrame](../../aspose.slides/notesslide/notestextframe) { get; } | ส่งคืน TextFrame ที่มีข้อความบันทึกหากมีอยู่ อ่านอย่างเดียว [`ITextFrame`](../itextframe). |
+| [ParentSlide](../../aspose.slides/notesslide/parentslide) { get; } | ส่งคืนสไลด์แม่ อ่านอย่างเดียว [`ISlide`](../islide). |
+| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | ส่งคืนอินเตอร์เฟซ IPresentation อ่านอย่างเดียว [`IPresentation`](../ipresentation). |
+| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | ส่งคืนรูปร่างของสไลด์ อ่านอย่างเดียว [`IShapeCollection`](../ishapecollection). |
+| override [ShowMasterShapes](../../aspose.slides/notesslide/showmastershapes) { get; set; } | ระบุว่ารูปร่างบนมาสเตอร์สไลด์ควรแสดงบนสไลด์หรือไม่ อ่าน-เขียน Boolean. |
+| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | ส่งคืน ID ของสไลด์ อ่านอย่างเดียว UInt32. |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | ส่งคืนออบเจกต์ Transition ที่มีข้อมูลเกี่ยวกับวิธีที่สไลด์ที่ระบุดำเนินการต่อในระหว่างการแสดงสไลด์ อ่านอย่างเดียว [`ISlideShowTransition`](../islideshowtransition). |
+| [ThemeManager](../../aspose.slides/notesslide/thememanager) { get; } | ส่งคืนผู้จัดการธีมที่แทนที่ อ่านอย่างเดียว [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager). |
+| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | ส่งคืนออบเจกต์ไทม์ไลน์การเคลื่อนไหว อ่านอย่างเดียว [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## เมธอด
 
 | Name | Description |
 | --- | --- |
-| [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | ส่งคืนธีมที่มีผลสำหรับสไลด์นี้. |
-| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | ตรวจสอบว่าตัวอย่าง IBaseSlide สองตัวเท่ากันหรือไม่. ค่าที่ส่งกลับคำนวณตามโครงสร้างและเนื้อหาคงที่ของสไลด์. สไลด์สองสไลด์เท่ากันหากรูปร่าง, สไตล์, ข้อความ, แอนิเมชันและการตั้งค่าอื่น ๆ ฯลฯ เท่ากัน. การเปรียบเทียบไม่คำนึงถึงค่า ID ที่ไม่ซ้ำกัน เช่น SlideId และเนื้อหาไดนามิก เช่น ค่าที่เป็นวันที่ปัจจุบันในส่วน Placeholder ของวันที่. |
-| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | ค้นหาการปรากฏแรกของรูปร่างที่มีข้อความแทนที่ระบุ. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | รวมรันที่มีการจัดรูปแบบเดียวกันในทุกย่อหน้าของรูปร่างที่ยอมรับทั้งหมด. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | รวมรันที่มีการจัดรูปแบบเดียวกันในทุกย่อหน้าของรูปร่างที่ยอมรับทั้งหมด. |
+| [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | ส่งคืนธีมที่มีประสิทธิภาพสำหรับสไลด์นี้. |
+| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | กำหนดว่าตัวอย่าง IBaseSlide สองตัวเท่ากันหรือไม่ ค่าที่ส่งคืนจะคำนวณตามโครงสร้างของสไลด์และเนื้อหาคงที่ สไลด์สองสไลด์เท่ากันหากรูปร่าง, สไตล์, ข้อความ, การเคลื่อนไหวนั้น และการตั้งค่าอื่นๆ ฯลฯ เท่ากัน การเปรียบเทียบไม่พิจารณาค่าตัวระบุที่ไม่ซ้ำกัน เช่น SlideId และเนื้อหาแบบไดนามิก เช่น ค่าวันที่ปัจจุบันใน Date Placeholder. |
+| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | ค้นหาการปรากฏครั้งแรกของรูปร่างที่มีข้อความทางเลือกที่ระบุ. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | รวม runs ที่มีรูปแบบเดียวกันในย่อหน้าทั้งหมดของรูปร่างที่ยอมรับได้ทั้งหมด. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | รวม runs ที่มีรูปแบบเดียวกันในย่อหน้าทั้งหมดของรูปร่างที่ยอมรับได้ทั้งหมด. |
 
 ### ดูเพิ่มเติม
 

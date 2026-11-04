@@ -1,14 +1,14 @@
 ---
 title: TimeUnitType
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje základní jednotku pro osu kategorie
+description: Reprezentuje základní jednotku pro kategorickou osu
 type: docs
-weight: 2460
+weight: 2480
 url: /cs/aspose.slides.charts/timeunittype/
 ---
-## TimeUnitType výčet
+## Výčet TimeUnitType
 
-Reprezentuje základní jednotku pro osu kategorie
+Reprezentuje základní jednotku pro kategorickou osu
 
 ```csharp
 public enum TimeUnitType

@@ -1,9 +1,9 @@
 ---
 title: SaveFormat
-second_title: Aspose.Sildes para .NET Referencia de API
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Constantes que definen el formato de una presentación guardada.
 type: docs
-weight: 4440
+weight: 4460
 url: /es/aspose.slides.export/saveformat/
 ---
 ## Enumeración SaveFormat
@@ -18,27 +18,27 @@ public enum SaveFormat
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Ppt | `0` | Guardar la presentación en formato PPT. |
-| Pdf | `1` | Guardar la presentación en formato PDF. |
-| Xps | `2` | Guardar la presentación en formato XPS. |
-| Pptx | `3` | Guardar la presentación en formato PPTX. |
-| Ppsx | `4` | Guardar la presentación en formato PPSX (presentación de diapositivas). |
-| Tiff | `5` | Guardar la presentación como imagen TIFF de varias páginas. |
-| Odp | `6` | Guardar la presentación en formato ODP. |
-| Pptm | `7` | Guardar la presentación en formato PPTM (presentación con macros). |
-| Ppsm | `9` | Guardar la presentación en formato PPSM (presentación de diapositivas con macros). |
-| Potx | `10` | Guardar la presentación en formato POTX (plantilla). |
-| Potm | `11` | Guardar la presentación en formato POTM (plantilla con macros). |
-| Html | `13` | Guardar la presentación en formato HTML. |
-| Swf | `15` | Guardar la presentación en formato SWF. |
-| Otp | `17` | Guardar la presentación en formato OTP (plantilla de presentación). |
-| Pps | `19` | Guardar la presentación en formato PPS. |
-| Pot | `20` | Guardar la presentación en formato POT. |
-| Fodp | `21` | Guardar la presentación en formato FODP. |
-| Gif | `22` | Guardar la presentación en formato GIF. |
-| Html5 | `23` | Guardar la presentación en formato HTML usando el nuevo sistema de plantillas HTML5. |
-| Md | `24` | Guardar la presentación en formato Markdown |
-| Xml | `25` | Guardar la presentación en formato PowerPoint XML Presentation. |
+| Ppt | `0` | Guardar presentación en formato PPT. |
+| Pdf | `1` | Guardar presentación en formato PDF. |
+| Xps | `2` | Guardar presentación en formato XPS. |
+| Pptx | `3` | Guardar presentación en formato PPTX. |
+| Ppsx | `4` | Guardar presentación en formato PPSX (presentación de diapositivas). |
+| Tiff | `5` | Guardar presentación como imagen TIFF multipágina. |
+| Odp | `6` | Guardar presentación en formato ODP. |
+| Pptm | `7` | Guardar presentación en formato PPTM (presentación con macros). |
+| Ppsm | `9` | Guardar presentación en formato PPSM (presentación de diapositivas con macros). |
+| Potx | `10` | Guardar presentación en formato POTX (plantilla). |
+| Potm | `11` | Guardar presentación en formato POTM (plantilla con macros). |
+| Html | `13` | Guardar presentación en formato HTML. |
+| Swf | `15` | Guardar presentación en formato SWF. |
+| Otp | `17` | Guardar presentación en formato OTP (plantilla de presentación). |
+| Pps | `19` | Guardar presentación en formato PPS. |
+| Pot | `20` | Guardar presentación en formato POT. |
+| Fodp | `21` | Guardar presentación en formato FODP. |
+| Gif | `22` | Guardar presentación en formato GIF. |
+| Html5 | `23` | Guardar presentación en formato HTML usando el nuevo sistema de plantillas HTML5. |
+| Md | `24` | Guardar presentación en formato Markdown |
+| Xml | `25` | Guardar presentación en formato PowerPoint XML Presentation. |
 
 ### Ver también
 

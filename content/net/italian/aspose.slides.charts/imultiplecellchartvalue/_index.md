@@ -1,9 +1,9 @@
 ---
 title: IMultipleCellChartValue
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Riferimento API di Aspose.Sildes per .NET
 description: Rappresenta una raccolta di celle del grafico.
 type: docs
-weight: 2170
+weight: 2190
 url: /it/aspose.slides.charts/imultiplecellchartvalue/
 ---
 ## IMultipleCellChartValue interfaccia

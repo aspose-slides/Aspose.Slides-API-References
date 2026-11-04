@@ -1,14 +1,14 @@
 ---
 title: IMathNaryOperatorProperties
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: IMathNaryOperator के गुण निर्दिष्ट करता है
 type: docs
-weight: 8380
+weight: 8400
 url: /hi/aspose.slides.mathtext/imathnaryoperatorproperties/
 ---
 ## IMathNaryOperatorProperties इंटरफ़ेस
 
-IMathNaryOperator के गुण निर्दिष्ट करता है
+Specifies properties of IMathNaryOperator
 
 ```csharp
 public interface IMathNaryOperatorProperties
@@ -18,11 +18,11 @@ public interface IMathNaryOperatorProperties
 
 | नाम | विवरण |
 | --- | --- |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | ऑपरेटर वर्ण लंबवत रूप से बढ़ता है ताकि उसके ऑपरेड की ऊँचाई के समान हो |
-| [HideSubscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript) { get; set; } | सबस्क्रिप्ट छुपाएँ |
-| [HideSuperscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesuperscript) { get; set; } | सुपरस्क्रिप्ट छुपाएँ |
-| [LimitLocation](../../aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation) { get; set; } | सीमाओं (सबस्क्रिप्ट और सुपरस्क्रिप्ट) का स्थान |
-| [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | Nary ऑपरेटर वर्ण उदाहरण के लिए: '∑', '∫' |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | ऑपरेटर कैरेक्टर अपने ऑपेंड की ऊँचाई से मेल खाने के लिए लंबवत बढ़ता है |
+| [HideSubscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript) { get; set; } | सबस्क्रिप्ट छिपाएँ |
+| [HideSuperscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesuperscript) { get; set; } | सुपरस्क्रिप्ट छिपाएँ |
+| [LimitLocation](../../aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation) { get; set; } | लिमिट्स (सबस्क्रिप्ट और सुपरस्क्रिप्ट) का स्थान |
+| [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | नैरी ऑपरेटर कैरेक्टर। उदाहरण के लिए: '∑', '∫' |
 
 ### संबंधित देखें
 

@@ -1,9 +1,9 @@
 ---
 title: EffectStyle
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: エフェクト スタイルを表します。
 type: docs
-weight: 11080
+weight: 11100
 url: /ja/aspose.slides.theme/effectstyle/
 ---
 ## EffectStyle クラス

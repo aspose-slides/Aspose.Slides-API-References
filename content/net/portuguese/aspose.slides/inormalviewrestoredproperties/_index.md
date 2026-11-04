@@ -1,27 +1,27 @@
 ---
 title: INormalViewRestoredProperties
-second_title: Aspose.Slides para .NET Referência da API
-description: Especifica o dimensionamento da região do slide (largura quando filho de restoredTop, altura quando filho de restoredLeft) da visualização normal, quando a região tem um tamanho restaurado variável (nem minimizada nem maximizada).
+second_title: Aspose.Sildes para .NET Referência de API
+description: Especifica o dimensionamento da região do slide, largura quando filho de restoredTop, altura quando filho de restoredLeft, da visualização normal, quando a região tem um tamanho restaurado variável, não minimizado nem maximizado.
 type: docs
-weight: 6480
+weight: 6500
 url: /pt/aspose.slides/inormalviewrestoredproperties/
 ---
 ## INormalViewRestoredProperties interface
 
-Especifica o dimensionamento da região do slide (largura quando filho de restoredTop, altura quando filho de restoredLeft) da visualização normal, quando a região tem um tamanho restaurado variável (nem minimizada nem maximizada).
+Especifica o dimensionamento da região do slide ((largura quando filho de restoredTop, altura quando filho de restoredLeft) da visualização normal, quando a região tem um tamanho restaurado variável (nem minimizado nem maximizado).
 
 ```csharp
 public interface INormalViewRestoredProperties
 ```
 
-## Propriedades
+## Properties
 
 | Name | Description |
 | --- | --- |
-| [AutoAdjust](../../aspose.slides/inormalviewrestoredproperties/autoadjust) { get; set; } | Especifica se o tamanho da região de conteúdo lateral deve compensar o novo tamanho ao redimensionar a janela que contém a visualização dentro do aplicativo. Leitura/gravação Booleano. |
-| [DimensionSize](../../aspose.slides/inormalviewrestoredproperties/dimensionsize) { get; set; } | Especifica o tamanho da região do slide (largura quando filho de RestoredTop, altura quando filho de RestoredLeft). Leitura/gravação Single. Lança quando o valor é menor que 0 ou maior que 100. |
+| [AutoAdjust](../../aspose.slides/inormalviewrestoredproperties/autoadjust) { get; set; } | Especifica se o tamanho da região de conteúdo lateral deve compensar o novo tamanho ao redimensionar a janela que contém a visualização dentro do aplicativo. Read/write Boolean. |
+| [DimensionSize](../../aspose.slides/inormalviewrestoredproperties/dimensionsize) { get; set; } | Especifica o tamanho da região do slide (largura quando filho de RestoredTop, altura quando filho de RestoredLeft). Read/write Single. Lança quando o valor for menor que 0 ou maior que 100. |
 
-### Veja Também
+### See Also
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

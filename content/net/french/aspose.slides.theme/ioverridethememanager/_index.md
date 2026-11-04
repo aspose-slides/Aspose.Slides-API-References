@@ -1,14 +1,14 @@
 ---
 title: IOverrideThemeManager
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Fournit l'accès à différents types de thèmes remplacés.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Fournit un accès à différents types de thèmes remplacés.
 type: docs
-weight: 11350
+weight: 11370
 url: /fr/aspose.slides.theme/ioverridethememanager/
 ---
 ## IOverrideThemeManager interface
 
-Fournit l'accès à différents types de thèmes remplacés.
+Fournit un accès à différents types de thèmes remplacés.
 
 ```csharp
 public interface IOverrideThemeManager : IThemeManager
@@ -19,8 +19,8 @@ public interface IOverrideThemeManager : IThemeManager
 | Nom | Description |
 | --- | --- |
 | [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | Permet d'obtenir l'interface IThemeManager de base. Lecture seule [`IThemeManager`](../ithememanager). |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | Détermine si OverrideTheme remplace le thème effectif hérité ou non. Pour activer OverrideTheme pour le remplacement, utilisez les méthodes OverrideTheme.Init*(). Pour désactiver le remplacement par OverrideTheme, utilisez la méthode OverrideTheme.Clear(). Lecture seule Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | Renvoie l'objet de thème de substitution. Lecture/écriture [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | Détermine si OverrideTheme remplace le thème effectif hérité ou non. Pour activer OverrideTheme pour le remplacement, utilisez les méthodes OverrideTheme.Init*(). Pour désactiver le remplacement par OverrideTheme, utilisez la méthode OverrideTheme.Clear(). Lecture seule Booléen. |
+| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | Renvoie l'objet de thème de remplacement. Lecture/écriture [`IOverrideTheme`](../ioverridetheme). |
 
 ### Voir aussi
 

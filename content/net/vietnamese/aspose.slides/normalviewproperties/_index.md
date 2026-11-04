@@ -1,14 +1,14 @@
 ---
 title: NormalViewProperties
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: "Đại diện cho các thuộc tính của chế độ xem bình thường. Chế độ xem bình thường bao gồm ba vùng nội dung: slide bản thân, một vùng nội dung bên và một vùng nội dung phía dưới."
+second_title: Aspose.Sildes cho .NET Tham khảo API
+description: Biểu diễn các thuộc tính của chế độ xem bình thường. Chế độ xem bình thường bao gồm ba khu vực nội dung: bản trình chiếu, một khu vực nội dung bên và một khu vực nội dung phía dưới.
 type: docs
-weight: 9110
+weight: 9130
 url: /vi/aspose.slides/normalviewproperties/
 ---
 ## NormalViewProperties lớp
 
-Đại diện cho các thuộc tính của chế độ xem bình thường. Chế độ xem bình thường bao gồm ba vùng nội dung: slide bản thân, một vùng nội dung bên và một vùng nội dung phía dưới.
+Biểu thị các thuộc tính của chế độ xem bình thường. Chế độ xem bình thường bao gồm ba khu vực nội dung: bản trình chiếu itself, một khu vực nội dung bên, và một khu vực nội dung phía dưới.
 
 ```csharp
 public class NormalViewProperties : INormalViewProperties
@@ -18,21 +18,21 @@ public class NormalViewProperties : INormalViewProperties
 
 | Tên | Mô tả |
 | --- | --- |
-| [HorizontalBarState](../../aspose.slides/normalviewproperties/horizontalbarstate) { get; set; } | Xác định trạng thái mà thanh chia ngang sẽ được hiển thị. Thanh chia ngang tách slide khỏi vùng nội dung phía dưới slide. |
-| [PreferSingleView](../../aspose.slides/normalviewproperties/prefersingleview) { get; set; } | Xác định liệu người dùng có muốn xem một vùng nội dung đơn, chiếm toàn bộ cửa sổ, thay vì chế độ xem bình thường tiêu chuẩn với ba vùng nội dung hay không. Nếu bật, ứng dụng có thể chọn hiển thị một trong các vùng nội dung trên toàn bộ cửa sổ. Đọc/ghi Boolean. |
-| [RestoredLeft](../../aspose.slides/normalviewproperties/restoredleft) { get; } | Phần tử này xác định kích thước của vùng nội dung bên của chế độ xem bình thường, khi vùng có kích thước khôi phục biến đổi (không thu nhỏ cũng không phóng to). Chỉ đọc [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [RestoredTop](../../aspose.slides/normalviewproperties/restoredtop) { get; } | Phần tử này xác định kích thước của vùng slide trên của chế độ xem bình thường, khi vùng có kích thước khôi phục biến đổi (không thu nhỏ cũng không phóng to). Chỉ đọc [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [ShowOutlineIcons](../../aspose.slides/normalviewproperties/showoutlineicons) { get; set; } | Xác định liệu ứng dụng có nên hiển thị biểu tượng khi hiển thị nội dung dàn ý trong bất kỳ vùng nội dung nào của chế độ xem bình thường hay không. Đọc/ghi Boolean. |
-| [SnapVerticalSplitter](../../aspose.slides/normalviewproperties/snapverticalsplitter) { get; set; } | Xác định liệu thanh chia dọc có nên tự động chuyển sang trạng thái thu nhỏ khi vùng bên đủ nhỏ hay không. Đọc/ghi Boolean. |
-| [VerticalBarState](../../aspose.slides/normalviewproperties/verticalbarstate) { get; set; } | Xác định trạng thái mà thanh chia dọc sẽ được hiển thị. Thanh chia dọc tách slide khỏi vùng nội dung bên. |
+| [HorizontalBarState](../../aspose.slides/normalviewproperties/horizontalbarstate) { get; set; } | Xác định trạng thái mà thanh chia ngang nên được hiển thị. Thanh chia ngang tách bản trình chiếu khỏi khu vực nội dung phía dưới bản trình chiếu. |
+| [PreferSingleView](../../aspose.slides/normalviewproperties/prefersingleview) { get; set; } | Xác định liệu người dùng có muốn thấy một khu vực nội dung duy nhất toàn màn hình thay vì chế độ xem bình thường tiêu chuẩn với ba khu vực nội dung. Nếu bật, ứng dụng có thể chọn hiển thị một trong các khu vực nội dung trên toàn cửa sổ. Đọc/ghi Boolean. |
+| [RestoredLeft](../../aspose.slides/normalviewproperties/restoredleft) { get; } | Thành phần này xác định kích thước của khu vực nội dung bên của chế độ xem bình thường, khi khu vực có kích thước khôi phục biến đổi (không phải thu nhỏ hay phóng to). Chỉ đọc [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [RestoredTop](../../aspose.slides/normalviewproperties/restoredtop) { get; } | Thành phần này xác định kích thước của khu vực bản trình chiếu trên của chế độ xem bình thường, khi khu vực có kích thước khôi phục biến đổi (không phải thu nhỏ hay phóng to). Chỉ đọc [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [ShowOutlineIcons](../../aspose.slides/normalviewproperties/showoutlineicons) { get; set; } | Xác định liệu ứng dụng có nên hiển thị biểu tượng khi hiển thị nội dung dàn trang trong bất kỳ khu vực nội dung nào của chế độ xem bình thường. Đọc/ghi Boolean. |
+| [SnapVerticalSplitter](../../aspose.slides/normalviewproperties/snapverticalsplitter) { get; set; } | Xác định liệu thanh chia dọc có tự động thu nhỏ khi khu vực bên đủ nhỏ. Đọc/ghi Boolean. |
+| [VerticalBarState](../../aspose.slides/normalviewproperties/verticalbarstate) { get; set; } | Xác định trạng thái mà thanh chia dọc nên được hiển thị. Thanh chia dọc tách bản trình chiếu khỏi khu vực nội dung bên. |
 
 ### Ví dụ
 
-Ví dụ sau đây minh họa cách cấu hình các thuộc tính ViewProperties.NormalViewProperties của một bản trình chiếu PowerPoint.
+Ví dụ sau cho thấy cách cấu hình các thuộc tính ViewProperties.NormalViewProperties của một bản PowerPoint.
 
 ```csharp
 [C#]
-//Khởi tạo một đối tượng Presentation đại diện cho tệp trình chiếu
+//Khởi tạo một đối tượng presentation đại diện cho tệp trình chiếu
 using (Presentation pres = new Presentation("demo.pptx"))
 {
     pres.ViewProperties.NormalViewProperties.HorizontalBarState = SplitterBarStateType.Restored;
@@ -44,10 +44,10 @@ using (Presentation pres = new Presentation("demo.pptx"))
 }
 ```
 
-### Xem thêm
+### Xem Thêm
 
 * giao diện [INormalViewProperties](../inormalviewproperties)
 * không gian tên [Aspose.Slides](../../aspose.slides)
-* tập hợp [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

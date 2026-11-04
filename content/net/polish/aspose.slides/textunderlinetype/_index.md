@@ -1,12 +1,12 @@
 ---
 title: TextUnderlineType
-second_title: Aspose.Sildes dla .NET API Reference
+second_title: Aspose.Sildes dla .NET - Referencja API
 description: Reprezentuje typ podkreślenia tekstu.
 type: docs
-weight: 11010
+weight: 11030
 url: /pl/aspose.slides/textunderlinetype/
 ---
-## TextUnderlineType enumeration
+## TextUnderlineType enumeracja
 
 Reprezentuje typ podkreślenia tekstu.
 

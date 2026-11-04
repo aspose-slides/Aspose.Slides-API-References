@@ -1,12 +1,12 @@
 ---
 title: IExcelDataCell
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Aspose.Sildes cho Tham chiếu API .NET
 description: Biểu diễn một ô duy nhất trong một sổ làm việc Excel.
 type: docs
-weight: 3700
+weight: 3720
 url: /vi/aspose.slides.excel/iexceldatacell/
 ---
-## IExcelDataCell giao diện
+## Giao diện IExcelDataCell
 
 Biểu diễn một ô duy nhất trong một sổ làm việc Excel.
 
@@ -18,12 +18,12 @@ public interface IExcelDataCell
 
 | Tên | Mô tả |
 | --- | --- |
-| [Column](../../aspose.slides.excel/iexceldatacell/column) { get; } | Lấy chỉ mục bắt đầu từ 0 của cột trong bảng tính nơi ô được đặt. Int32 chỉ đọc. |
-| [Name](../../aspose.slides.excel/iexceldatacell/name) { get; } | Lấy tên của ô dữ liệu biểu đồ. String chỉ đọc. |
-| [Row](../../aspose.slides.excel/iexceldatacell/row) { get; } | Lấy chỉ mục bắt đầu từ 0 của hàng trong bảng tính nơi ô được đặt. Int32 chỉ đọc. |
-| [Value](../../aspose.slides.excel/iexceldatacell/value) { get; } | Lấy giá trị chứa trong ô Excel. Object chỉ đọc. |
+| [Column](../../aspose.slides.excel/iexceldatacell/column) { get; } | Lấy chỉ mục bắt đầu từ 0 của cột trong trang tính nơi ô được đặt. Chỉ đọc Int32. |
+| [Name](../../aspose.slides.excel/iexceldatacell/name) { get; } | Lấy tên của ô dữ liệu biểu đồ. Chỉ đọc String. |
+| [Row](../../aspose.slides.excel/iexceldatacell/row) { get; } | Lấy chỉ mục bắt đầu từ 0 của hàng trong trang tính nơi ô được đặt. Chỉ đọc Int32. |
+| [Value](../../aspose.slides.excel/iexceldatacell/value) { get; } | Lấy giá trị chứa trong ô Excel. Chỉ đọc Object. |
 
-### Xem thêm
+### Xem Thêm
 
 * không gian tên [Aspose.Slides.Excel](../../aspose.slides.excel)
 * tập hợp [Aspose.Slides](../../)

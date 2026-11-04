@@ -1,14 +1,14 @@
 ---
 title: IFontDataFactory
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: antarmuka pabrik FontData
+description: Antarmuka pabrik FontData
 type: docs
-weight: 5840
+weight: 5860
 url: /id/aspose.slides/ifontdatafactory/
 ---
 ## IFontDataFactory antarmuka
 
-antarmuka pabrik FontData
+FontData pabrik antarmuka
 
 ```csharp
 public interface IFontDataFactory

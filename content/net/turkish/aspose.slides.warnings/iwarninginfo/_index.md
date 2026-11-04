@@ -1,14 +1,14 @@
 ---
 title: IWarningInfo
-second_title: Aspose.Sildes .NET API Referansı
-description: Tüm uyarılar için temel bir arayüz temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Tüm uyarılar için temel bir arabirimi temsil eder.
 type: docs
-weight: 11810
+weight: 11830
 url: /tr/aspose.slides.warnings/iwarninginfo/
 ---
-## IWarningInfo arayüzü
+## IWarningInfo arabirimi
 
-Tüm uyarılar için temel bir arayüzü temsil eder.
+Tüm uyarılar için temel bir arabirimi temsil eder.
 
 ```csharp
 public interface IWarningInfo
@@ -18,14 +18,14 @@ public interface IWarningInfo
 
 | Ad | Açıklama |
 | --- | --- |
-| [Description](../../aspose.slides.warnings/iwarninginfo/description) { get; } | Bu uyarının okunabilir bir açıklamasını döndürür. Salt okunur String. |
-| [WarningType](../../aspose.slides.warnings/iwarninginfo/warningtype) { get; } | Uyarı türünü döndürür. Salt okunur [`WarningType`](./warningtype). |
+| [Description](../../aspose.slides.warnings/iwarninginfo/description) { get; } | Bu uyarının insanlar tarafından okunabilir bir açıklamasını döndürür. Yalnızca okuma String. |
+| [WarningType](../../aspose.slides.warnings/iwarninginfo/warningtype) { get; } | Uyarının türünü döndürür. Yalnızca okuma [`WarningType`](./warningtype). |
 
-## Yöntemler
+## Metotlar
 
 | Ad | Açıklama |
 | --- | --- |
-| [SendWarning](../../aspose.slides.warnings/iwarninginfo/sendwarning)(IWarningCallback) | Alıcı null değilse, bildirimi belirtilen alıcıya gönderir ve alıcı işlemi iptal etmeye karar verirse AbortRequestedException istisnasını fırlatır. |
+| [SendWarning](../../aspose.slides.warnings/iwarninginfo/sendwarning)(IWarningCallback) | Alıcı null değilse, uyarıyı belirtilen alıcıya gönderir ve alıcı işlemi iptal etmeye karar verirse AbortRequestedException istisnasını fırlatır. |
 
 ### Ayrıca Bakınız
 

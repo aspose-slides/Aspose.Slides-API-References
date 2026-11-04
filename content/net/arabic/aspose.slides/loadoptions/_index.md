@@ -1,9 +1,9 @@
 ---
 title: LoadOptions
-second_title: مرجع API Aspose.Sildes لـ .NET
+second_title: Aspose.Sildes لـ .NET مرجع API
 description: يسمح بتحديد خيارات إضافية مثل الصيغة أو الخط الافتراضي عند تحميل عرض تقديمي.
 type: docs
-weight: 7840
+weight: 7860
 url: /ar/aspose.slides/loadoptions/
 ---
 ## فئة LoadOptions
@@ -14,7 +14,7 @@ url: /ar/aspose.slides/loadoptions/
 public class LoadOptions : ILoadOptions
 ```
 
-## المُنشئات
+## المنشئات
 
 | الاسم | الوصف |
 | --- | --- |
@@ -25,25 +25,25 @@ public class LoadOptions : ILoadOptions
 
 | الاسم | الوصف |
 | --- | --- |
-| [BlobManagementOptions](../../aspose.slides/loadoptions/blobmanagementoptions) { get; set; } | يمثل الخيارات التي يمكن استخدامها لإدارة سلوك معالجة Binary Large Objects (BLOBs)، مثل استخدام الملفات المؤقتة أو الحد الأقصى لبايتات BLOBs في الذاكرة. تهدف هذه الخيارات إلى ضبط أفضل نسبة أداء/استهلاك ذاكرة لبيئة أو متطلبات معينة. Binary Large Object (BLOB) هو بيانات ثنائية مخزنة ككيان واحد - أي أن BLOB يمكن أن يكون صوتًا أو فيديو أو العرض التقديمي نفسه. |
-| [DefaultAsianFont](../../aspose.slides/loadoptions/defaultasianfont) { get; set; } | يعيد أو يضبط الخط الآسيوي المستخدم في حال عدم العثور على الخط المصدر. قابل للقراءة/الكتابة String. |
-| [DefaultRegularFont](../../aspose.slides/loadoptions/defaultregularfont) { get; set; } | يعيد أو يضبط الخط العادي المستخدم في حال عدم العثور على الخط المصدر. قابل للقراءة/الكتابة String. |
-| [DefaultSymbolFont](../../aspose.slides/loadoptions/defaultsymbolfont) { get; set; } | يعيد أو يضبط خط الرموز المستخدم في حال عدم العثور على الخط المصدر. قابل للقراءة/الكتابة String. |
-| [DefaultTextLanguage](../../aspose.slides/loadoptions/defaulttextlanguage) { get; set; } | يعيد أو يضبط اللغة الافتراضية لنص العرض التقديمي. قابل للقراءة/الكتابة String. |
-| [DeleteEmbeddedBinaryObjects](../../aspose.slides/loadoptions/deleteembeddedbinaryobjects) { get; set; } | يحدد إذا كان Aspose.Slides سيحذف جميع الكائنات الثنائية المضمنة أثناء تحميل العرض التقديمي. |
-| [DocumentLevelFontSources](../../aspose.slides/loadoptions/documentlevelfontsources) { get; set; } | يحدد مصادر الخطوط الخارجية التي يستخدمها العرض التقديمي. هذه الخطوط متاحة للعرض طوال مدة حياته ولا يتم مشاركتها مع عروض تقديمية أخرى. |
-| [InterruptionToken](../../aspose.slides/loadoptions/interruptiontoken) { get; set; } | الرمز المتبع لمراقبة طلبات الانقطاع. يدير هذا الرمز كامل عمر مثيل [`IPresentation`](../ipresentation). سيتم مقاطعة أي عملية طويلة الأمد، مثل تحميل أو حفظ العرض التقديمي، عبر استدعاء طريقة [`Interrupt`](../interruptiontokensource/interrupt) للـ [`InterruptionTokenSource`](../interruptiontokensource). |
-| [LoadFormat](../../aspose.slides/loadoptions/loadformat) { get; set; } | يعيد أو يضبط صيغة العرض التقديمي للتحميل. قابل للقراءة/الكتابة [`LoadFormat`](../loadformat). |
-| [OnlyLoadDocumentProperties](../../aspose.slides/loadoptions/onlyloaddocumentproperties) { get; set; } | هذه الخاصية ذات صلة إذا كان ملف العرض التقديمي محميًا بكلمة مرور. قيمة true تعني أنه يجب تحميل خصائص المستند فقط من ملف عرض تقديمي مشفر وتجاهل كلمة المرور. قيمة false تعني أنه يجب تحميل العرض التقديمي المشفر بالكامل باستخدام كلمة المرور الصحيحة. إذا لم يكن العرض التقديمي مشفرًا فستُهمل قيمة الخاصية دائمًا. إذا لم تكن خصائص المستند لملف مشفر عامة وكانت قيمة الخاصية true، فلن يمكن تحميل خصائص المستند وسيتم إلقاء استثناء. قابل للقراءة/الكتابة Boolean. |
-| [Password](../../aspose.slides/loadoptions/password) { get; set; } | يحصل أو يضبط كلمة المرور. قابل للقراءة/الكتابة String. |
-| [ResourceLoadingCallback](../../aspose.slides/loadoptions/resourceloadingcallback) { get; set; } | يعيد أو يضبط واجهة رد الاتصال التي تدير تحميل الموارد الخارجية. قابل للقراءة/الكتابة [`IResourceLoadingCallback`](../iresourceloadingcallback). |
-| [SpreadsheetOptions](../../aspose.slides/loadoptions/spreadsheetoptions) { get; set; } | يحصل على خيارات جداول البيانات. على سبيل المثال، تؤثر هذه الخيارات على حساب صيغ المخططات. |
-| [WarningCallback](../../aspose.slides/loadoptions/warningcallback) { get; set; } | يعيد أو يضبط كائنًا يستقبل التحذيرات ويقرر ما إذا كانت عملية التحميل ستستمر أم ستُلغى. قابل للقراءة/الكتابة [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [BlobManagementOptions](../../aspose.slides/loadoptions/blobmanagementoptions) { get; set; } | يمثل الخيارات التي يمكن استخدامها لإدارة سلوك معالجة الكائنات الثنائية الضخمة (BLOBs)، مثل استخدام الملفات المؤقتة أو الحد الأقصى للبايتات الخاصة بـ BLOBs في الذاكرة. تهدف هذه الخيارات إلى تحقيق أفضل نسبة بين الأداء واستهلاك الذاكرة لبيئة أو متطلبات معينة. الكائن الثنائي الضخم (BLOB) هو بيانات ثنائية مخزنة ككيان واحد - أي يمكن أن يكون BLOB صوتًا أو فيديو أو العرض التقديمي نفسه. |
+| [DefaultAsianFont](../../aspose.slides/loadoptions/defaultasianfont) { get; set; } | يعيد أو يضبط الخط الآسيوي المستخدم في حالة عدم العثور على الخط الأصلي. قراءة/كتابة سلسلة. |
+| [DefaultRegularFont](../../aspose.slides/loadoptions/defaultregularfont) { get; set; } | يعيد أو يضبط الخط العادي المستخدم في حالة عدم العثور على الخط الأصلي. قراءة/كتابة سلسلة. |
+| [DefaultSymbolFont](../../aspose.slides/loadoptions/defaultsymbolfont) { get; set; } | يعيد أو يضبط خط الرموز المستخدم في حالة عدم العثور على الخط الأصلي. قراءة/كتابة سلسلة. |
+| [DefaultTextLanguage](../../aspose.slides/loadoptions/defaulttextlanguage) { get; set; } | يعيد أو يضبط اللغة الافتراضية لنص العرض التقديمي. قراءة/كتابة سلسلة. |
+| [DeleteEmbeddedBinaryObjects](../../aspose.slides/loadoptions/deleteembeddedbinaryobjects) { get; set; } | يحدد ما إذا كان Aspose.Slides سيحذف جميع الكائنات الثنائية المضمنة أثناء تحميل العرض التقديمي. |
+| [DocumentLevelFontSources](../../aspose.slides/loadoptions/documentlevelfontsources) { get; set; } | يحدد مصادر الخطوط الخارجية التي سيستخدمها العرض التقديمي. هذه الخطوط متاحة للعرض طوال عمره ولا يتم مشاركتها مع عروض تقديمية أخرى |
+| [InterruptionToken](../../aspose.slides/loadoptions/interruptiontoken) { get; set; } | الرمز المميز لمراقبة طلبات الإيقاف. يدير هذا الرمز كامل عمر كائن [`IPresentation`](../ipresentation). أي عملية طويلة الأمد، مثل تحميل أو حفظ العرض التقديمي، ستُقاطع عبر استدعاء طريقة [`Interrupt`](../interruptiontokensource/interrupt) الخاصة بـ [`InterruptionTokenSource`](../interruptiontokensource). |
+| [LoadFormat](../../aspose.slides/loadoptions/loadformat) { get; set; } | يعيد أو يضبط صيغة العرض التقديمي الذي سيتم تحميله. قراءة/كتابة [`LoadFormat`](../loadformat). |
+| [OnlyLoadDocumentProperties](../../aspose.slides/loadoptions/onlyloaddocumentproperties) { get; set; } | هذه الخاصية لها معنى إذا كان ملف العرض التقديمي محميًا بكلمة مرور. القيمة true تعني أنه يجب تحميل خصائص المستند فقط من ملف عرض تقديمي مشفر ويجب تجاهل كلمة المرور. القيمة false تعني أنه يجب تحميل العرض التقديمي المشفر بالكامل باستخدام كلمة المرور الصحيحة. إذا لم يكن العرض مشفرًا فستُهمل قيمة الخاصية دائمًا. إذا لم تكن خصائص المستند لملف مشفر عامة وكانت قيمة الخاصية true، فإن خصائص المستند لا يمكن تحميلها وسيتم إلقاء استثناء. قراءة/كتابة منطقية. |
+| [Password](../../aspose.slides/loadoptions/password) { get; set; } | يحصل أو يضبط كلمة المرور. قراءة/كتابة سلسلة. |
+| [ResourceLoadingCallback](../../aspose.slides/loadoptions/resourceloadingcallback) { get; set; } | يعيد أو يضبط واجهة الاستدعاء التي تدير تحميل الموارد الخارجية. قراءة/كتابة [`IResourceLoadingCallback`](../iresourceloadingcallback). |
+| [SpreadsheetOptions](../../aspose.slides/loadoptions/spreadsheetoptions) { get; set; } | يحصل على الخيارات الخاصة بجداول البيانات. على سبيل المثال، تؤثر هذه الخيارات على حساب الصيغ للرسوم البيانية. |
+| [WarningCallback](../../aspose.slides/loadoptions/warningcallback) { get; set; } | يعيد أو يضبط كائنًا يتلقى التحذيرات ويقرر ما إذا كانت عملية التحميل ستستمر أو ستُلغى. قراءة/كتابة [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
-### انظر أيضًا
+### أنظر أيضًا
 
-* الواجهة [ILoadOptions](../iloadoptions)
-* النطاق [Aspose.Slides](../../aspose.slides)
-* التجميع [Aspose.Slides](../../)
+* واجهة [ILoadOptions](../iloadoptions)
+* مساحة أسماء [Aspose.Slides](../../aspose.slides)
+* تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

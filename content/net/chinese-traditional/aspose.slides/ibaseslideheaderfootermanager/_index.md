@@ -1,14 +1,14 @@
 ---
 title: IBaseSlideHeaderFooterManager
-second_title: Aspose.Sildes .NET API 參考
-description: 表示管理器，負責保持所有投影片類型之頁腳、日期時間、頁碼佔位符的行為。
+second_title: Aspose.Sildes for .NET API 參考
+description: 代表管理器，負責所有投影片類型的頁腳、日期時間、頁碼佔位符的行為。
 type: docs
-weight: 5350
+weight: 5370
 url: /zh-hant/aspose.slides/ibaseslideheaderfootermanager/
 ---
 ## IBaseSlideHeaderFooterManager 介面
 
-表示管理器，負責保存所有投影片類型之頁腳、日期時間、頁碼佔位符的行為。
+代表管理器，負責所有投影片類型的頁腳、日期時間、頁碼佔位符的行為。
 
 ```csharp
 public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
@@ -18,7 +18,7 @@ public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AsIBaseHeaderFooterManager](../../aspose.slides/ibaseslideheaderfootermanager/asibaseheaderfootermanager) { get; } | 傳回 IBaseHeaderFooterManager 介面。 |
+| [AsIBaseHeaderFooterManager](../../aspose.slides/ibaseslideheaderfootermanager/asibaseheaderfootermanager) { get; } | 返回 IBaseHeaderFooterManager 介面。 |
 | [IsDateTimeVisible](../../aspose.slides/ibaseslideheaderfootermanager/isdatetimevisible) { get; } | 取得指示日期時間佔位符是否存在的值。ReadBoolean。 |
 | [IsFooterVisible](../../aspose.slides/ibaseslideheaderfootermanager/isfootervisible) { get; } | 取得指示頁腳佔位符是否存在的值。Read Boolean。 |
 | [IsSlideNumberVisible](../../aspose.slides/ibaseslideheaderfootermanager/isslidenumbervisible) { get; } | 取得指示頁碼佔位符是否存在的值。ReadBoolean。 |
@@ -27,9 +27,9 @@ public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
 
 | 名稱 | 說明 |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimetext)(string) | 設定投影片日期時間佔位符的文字。 |
+| [SetDateTimeText](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimetext)(string) | 設定文字至投影片日期時間佔位符。 |
 | [SetDateTimeVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimevisibility)(bool) | 變更投影片日期時間佔位符的可見性。 |
-| [SetFooterText](../../aspose.slides/ibaseslideheaderfootermanager/setfootertext)(string) | 設定投影片頁腳佔位符的文字。 |
+| [SetFooterText](../../aspose.slides/ibaseslideheaderfootermanager/setfootertext)(string) | 設定文字至投影片頁腳佔位符。 |
 | [SetFooterVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setfootervisibility)(bool) | 變更投影片頁腳佔位符的可見性。 |
 | [SetSlideNumberVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setslidenumbervisibility)(bool) | 變更投影片頁碼佔位符的可見性。 |
 

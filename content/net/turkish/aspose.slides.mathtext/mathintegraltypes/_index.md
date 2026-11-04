@@ -1,14 +1,14 @@
 ---
 title: MathIntegralTypes
 second_title: Aspose.Sildes için .NET API Referansı
-description: Matematiksel integral türleri
+description: Matematiksel integral tipleri
 type: docs
-weight: 8790
+weight: 8810
 url: /tr/aspose.slides.mathtext/mathintegraltypes/
 ---
 ## MathIntegralTypes enum
 
-Matematiksel integral türleri
+Matematiksel integral tipleri
 
 ```csharp
 public enum MathIntegralTypes
@@ -25,7 +25,7 @@ public enum MathIntegralTypes
 | Surface | `4` | Yüzey İntegrali: '∯' |
 | Volume | `5` | Hacim İntegrali: '∰' |
 
-### Diğerlerine Bakınız
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * derleme [Aspose.Slides](../../)

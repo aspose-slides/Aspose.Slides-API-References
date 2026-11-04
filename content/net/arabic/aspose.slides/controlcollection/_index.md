@@ -1,14 +1,14 @@
 ---
 title: ControlCollection
 second_title: Aspose.Sildes لمرجع API .NET
-description: مجموعة من عناصر التحكم ActiveX.
+description: مجموعة من عناصر تحكم ActiveX.
 type: docs
-weight: 2700
+weight: 2720
 url: /ar/aspose.slides/controlcollection/
 ---
 ## فئة ControlCollection
 
-مجموعة من عناصر التحكم ActiveX.
+مجموعة من عناصر تحكم ActiveX.
 
 ```csharp
 public class ControlCollection : IControlCollection
@@ -18,23 +18,23 @@ public class ControlCollection : IControlCollection
 
 | الاسم | الوصف |
 | --- | --- |
-| [Count](../../aspose.slides/controlcollection/count) { get; } | إرجاع عدد من الكائنات في المجموعة. قراءة فقط Int32. |
-| [IsSynchronized](../../aspose.slides/controlcollection/issynchronized) { get; } | إرجاع قيمة تشير إلى ما إذا كان الوصول إلى المجموعة متزامنًا (آمن للخيوط). قراءة فقط Boolean. |
-| [Item](../../aspose.slides/controlcollection/item) { get; } | إرجاع عنصر تحكم في الموضع المحدد. |
-| [SyncRoot](../../aspose.slides/controlcollection/syncroot) { get; } | إرجاع جذر التزامن. قراءة فقط Object. |
+| [Count](../../aspose.slides/controlcollection/count) { get; } | يعيد عددًا من الكائنات في المجموعة. للقراءة فقط Int32. |
+| [IsSynchronized](../../aspose.slides/controlcollection/issynchronized) { get; } | يعيد قيمة تشير إلى ما إذا كان الوصول إلى المجموعة متزامنًا (آمن للخيوط). للقراءة فقط Boolean. |
+| [Item](../../aspose.slides/controlcollection/item) { get; } | يعيد عنصر تحكم في الموضع المحدد. |
+| [SyncRoot](../../aspose.slides/controlcollection/syncroot) { get; } | يعيد جذر التزامن. للقراءة فقط Object. |
 
-## الأساليب
+## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [AddControl](../../aspose.slides/controlcollection/addcontrol)(ControlType, float, float, float, float) | إنشاء وإضافة عنصر تحكم جديد إلى المجموعة. |
-| [Clear](../../aspose.slides/controlcollection/clear)() | إزالة جميع عناصر التحكم من المجموعة. |
-| [CopyTo](../../aspose.slides/controlcollection/copyto)(Array, int) | نسخ المجموعة بأكملها إلى المصفوفة المحددة. |
-| [GetEnumerator](../../aspose.slides/controlcollection/getenumerator)() | إرجاع مُعدد يتنقل عبر المجموعة. |
-| [Remove](../../aspose.slides/controlcollection/remove)(IControl) | إزالة عنصر تحكم ActiveX من المجموعة. |
-| [RemoveAt](../../aspose.slides/controlcollection/removeat)(int) | إزالة عنصر تحكم ActiveX المخزن في الموضع المحدد من المجموعة. |
+| [AddControl](../../aspose.slides/controlcollection/addcontrol)(ControlType, float, float, float, float) | ينشئ ويضيف عنصر تحكم جديد إلى المجموعة. |
+| [Clear](../../aspose.slides/controlcollection/clear)() | يزيل جميع عناصر التحكم من المجموعة. |
+| [CopyTo](../../aspose.slides/controlcollection/copyto)(Array, int) | ينسخ المجموعة بالكامل إلى المصفوفة المحددة. |
+| [GetEnumerator](../../aspose.slides/controlcollection/getenumerator)() | يعيد عدادًا يتجول عبر المجموعة. |
+| [Remove](../../aspose.slides/controlcollection/remove)(IControl) | يزيل عنصر تحكم ActiveX من المجموعة. |
+| [RemoveAt](../../aspose.slides/controlcollection/removeat)(int) | يزيل عنصر تحكم ActiveX المخزن في الموضع المحدد من المجموعة. |
 
-### انظر أيضًا
+### انظر أيضاً
 
 * واجهة [IControlCollection](../icontrolcollection)
 * مساحة الاسم [Aspose.Slides](../../aspose.slides)

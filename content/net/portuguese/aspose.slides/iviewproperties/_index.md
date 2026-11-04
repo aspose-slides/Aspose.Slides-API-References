@@ -1,14 +1,14 @@
 ---
 title: IViewProperties
-second_title: Aspose.Sildes para .NET Referência de API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Propriedades de visualização de toda a apresentação.
 type: docs
-weight: 7390
+weight: 7410
 url: /pt/aspose.slides/iviewproperties/
 ---
 ## IViewProperties interface
 
-Propriedades de visualização de toda a apresentação.
+Propriedades de visualização da apresentação.
 
 ```csharp
 public interface IViewProperties
@@ -18,14 +18,14 @@ public interface IViewProperties
 
 | Nome | Descrição |
 | --- | --- |
-| [GridSpacing](../../aspose.slides/iviewproperties/gridspacing) { get; set; } | Retorna ou define o espaçamento da grade que deve ser usado para a grade subjacente ao documento de apresentação, em pontos. Leitura/gravação Single. |
-| [LastView](../../aspose.slides/iviewproperties/lastview) { get; set; } | Especifica o modo de visualização que foi usado quando o documento de apresentação foi salvo pela última vez. Leitura/gravação [`ViewType`](../viewtype). |
-| [NormalViewProperties](../../aspose.slides/iviewproperties/normalviewproperties) { get; } | Representa as propriedades de visualização normal. A visualização normal consiste em três regiões de conteúdo: o próprio slide, uma região de conteúdo lateral e uma região de conteúdo inferior. Somente leitura [`INormalViewProperties`](../inormalviewproperties). |
-| [NotesViewProperties](../../aspose.slides/iviewproperties/notesviewproperties) { get; } | Especifica propriedades de visualização comuns associadas ao modo de visualização das notas. Somente leitura [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
-| [ShowComments](../../aspose.slides/iviewproperties/showcomments) { get; set; } | Especifica se os comentários do slide devem ser mostrados. Leitura/gravação [`NullableBool`](../nullablebool). |
-| [SlideViewProperties](../../aspose.slides/iviewproperties/slideviewproperties) { get; } | Especifica propriedades de visualização comuns associadas ao modo de visualização do slide. Somente leitura [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
+| [GridSpacing](../../aspose.slides/iviewproperties/gridspacing) { get; set; } | Retorna ou define o espaçamento da grade que deve ser usado para a grade subjacente ao documento da apresentação, em pontos. Leitura/Gravação Single. |
+| [LastView](../../aspose.slides/iviewproperties/lastview) { get; set; } | Especifica o modo de visualização que foi usado quando o documento da apresentação foi salvo pela última vez. Leitura/Gravação [`ViewType`](../viewtype). |
+| [NormalViewProperties](../../aspose.slides/iviewproperties/normalviewproperties) { get; } | Representa as propriedades da visualização normal. A visualização normal consiste em três regiões de conteúdo: o próprio slide, uma região de conteúdo lateral e uma região de conteúdo inferior. Somente leitura [`INormalViewProperties`](../inormalviewproperties). |
+| [NotesViewProperties](../../aspose.slides/iviewproperties/notesviewproperties) { get; } | Especifica as propriedades de visualização comuns associadas ao modo de visualização de notas. Somente leitura [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
+| [ShowComments](../../aspose.slides/iviewproperties/showcomments) { get; set; } | Especifica se os comentários do slide devem ser mostrados. Leitura/Gravação [`NullableBool`](../nullablebool). |
+| [SlideViewProperties](../../aspose.slides/iviewproperties/slideviewproperties) { get; } | Especifica as propriedades de visualização comuns associadas ao modo de visualização de slide. Somente leitura [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
 
-### Veja Também
+### Veja também
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

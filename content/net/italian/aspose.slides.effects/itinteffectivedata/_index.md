@@ -1,9 +1,9 @@
 ---
 title: ITintEffectiveData
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Oggetto immutabile che rappresenta un effetto Tint. Sposta i valori di colore dell'effetto verso/lontano dalla tonalità di un ammontare specificato.
+description: Oggetto immutabile che rappresenta un effetto Tint. Sposta i valori di colore dell'effetto verso/lontano dalla tonalità di una quantità specificata.
 type: docs
-weight: 3550
+weight: 3570
 url: /it/aspose.slides.effects/itinteffectivedata/
 ---
 ## ITintEffectiveData interfaccia
@@ -18,9 +18,9 @@ public interface ITintEffectiveData : IEffectEffectiveData
 
 | Nome | Descrizione |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/itinteffectivedata/amount) { get; } | Restituisce la quantità dell'effetto. Solo lettura Single. |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/itinteffectivedata/asieffecteffectivedata) { get; } | Consente di ottenere l'interfaccia base IEffectEffectiveData. Solo lettura [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Hue](../../aspose.slides.effects/itinteffectivedata/hue) { get; } | Restituisce la tonalità. Solo lettura Single. |
+| [Amount](../../aspose.slides.effects/itinteffectivedata/amount) { get; } | Restituisce la quantità dell'effetto. Sola lettura Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/itinteffectivedata/asieffecteffectivedata) { get; } | Consente di ottenere l'interfaccia IEffectEffectiveData di base. Sola lettura [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Hue](../../aspose.slides.effects/itinteffectivedata/hue) { get; } | Restituisce la tonalità. Sola lettura Single. |
 
 ### Vedi anche
 

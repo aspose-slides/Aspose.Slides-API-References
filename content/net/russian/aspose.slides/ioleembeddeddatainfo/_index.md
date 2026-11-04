@@ -1,14 +1,14 @@
 ---
 title: IOleEmbeddedDataInfo
-second_title: Aspose.Sildes для .NET справочника API
-description: Представляет информацию о встроенных данных OLE-объекта.
+second_title: Aspose.Sildes для .NET API справочника
+description: Представляет информацию о встроенных данных для OLE-объекта.
 type: docs
-weight: 6530
+weight: 6550
 url: /ru/aspose.slides/ioleembeddeddatainfo/
 ---
 ## IOleEmbeddedDataInfo интерфейс
 
-Представляет информацию о встроенных данных OLE-объекта.
+Представляет информацию о встроенных данных для OLE-объекта.
 
 ```csharp
 public interface IOleEmbeddedDataInfo
@@ -16,10 +16,10 @@ public interface IOleEmbeddedDataInfo
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
-| [EmbeddedFileData](../../aspose.slides/ioleembeddeddatainfo/embeddedfiledata) { get; } | Возвращает данные файла вложенного OLE-объекта Только для чтения Byte[]. |
-| [EmbeddedFileExtension](../../aspose.slides/ioleembeddeddatainfo/embeddedfileextension) { get; } | Возвращает расширение файла текущего вложенного OLE-объекта Только для чтения String. |
+| [EmbeddedFileData](../../aspose.slides/ioleembeddeddatainfo/embeddedfiledata) { get; } | Возвращает данные файла встроенного OLE-объекта. Только для чтения Byte[]. |
+| [EmbeddedFileExtension](../../aspose.slides/ioleembeddeddatainfo/embeddedfileextension) { get; } | Возвращает расширение файла для текущего встроенного OLE-объекта. Только для чтения String. |
 
 ### См. также
 

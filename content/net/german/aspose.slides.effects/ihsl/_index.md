@@ -1,14 +1,14 @@
 ---
 title: IHSL
-second_title: Aspose.Sildes für .NET API Referenz
-description: Stellt einen Hue/Saturation/Luminance-Effekt dar. Der Farbton, die Sättigung und die Luminanz können jeweils relativ zu ihrem aktuellen Wert angepasst werden.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt einen Farbton/Sättigung/Luminanz-Effekt dar. Der Farbton, die Sättigung und die Luminanz können jeweils relativ zu ihrem aktuellen Wert angepasst werden.
 type: docs
-weight: 3360
+weight: 3380
 url: /de/aspose.slides.effects/ihsl/
 ---
 ## IHSL Schnittstelle
 
-Stellt einen Hue/Saturation/Luminance-Effekt dar. Der Farbton, die Sättigung und die Luminanz können jeweils relativ zu ihrem aktuellen Wert angepasst werden.
+Stellt einen Farbton/Sättigung/Luminanz-Effekt dar. Der Farbton, die Sättigung und die Luminanz können jeweils relativ zu ihrem aktuellen Wert angepasst werden.
 
 ```csharp
 public interface IHSL : IAccessiblePVIObject<IHSLEffectiveData>, IImageTransformOperation
@@ -18,8 +18,8 @@ public interface IHSL : IAccessiblePVIObject<IHSLEffectiveData>, IImageTransform
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ihsl/asiaccessiblepviobject) { get; } | Ermöglicht das Abrufen der Basis-IAccessiblePVIObject-Schnittstelle. Nur lesbar [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ihsl/asiimagetransformoperation) { get; } | Gibt die IImageTransformOperation-Schnittstelle zurück. Nur lesbar [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ihsl/asiaccessiblepviobject) { get; } | Ermöglicht das Abrufen der Basis IAccessiblePVIObject Schnittstelle. Nur lesbar [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ihsl/asiimagetransformoperation) { get; } | Gibt die IImageTransformOperation Schnittstelle zurück. Nur lesbar [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Siehe auch
 

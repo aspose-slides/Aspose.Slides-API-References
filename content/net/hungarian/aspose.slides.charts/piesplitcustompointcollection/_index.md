@@ -1,14 +1,12 @@
 ---
 title: PieSplitCustomPointCollection
-second_title: Aspose.Sildes .NET API Referenciája
-description: Egy gyűjteményt képvisel, amely pontokat tartalmaz egy egyéni felosztással ellátott bar-of-pie vagy pie-of-pie diagram pontjainak felosztásához.
+second_title: Aspose.Sildes .NET API referencia
+description: Egy gyűjteményt képvisel a diagram pont-töréshez sáv-pite vagy pite-pite diagramon egy egyedi osztás segítségével.
 type: docs
-weight: 2370
+weight: 2390
 url: /hu/aspose.slides.charts/piesplitcustompointcollection/
 ---
 ## PieSplitCustomPointCollection osztály
-
-A gyűjteményt olyan pontok tárolására használják, amelyek egy bar-of-pie vagy pie-of-pie diagram pontjának egyéni felosztását biztosítják.
 
 ```csharp
 public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
@@ -18,11 +16,11 @@ public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
 
 | Név | Leírás |
 | --- | --- |
-| [Count](../../aspose.slides.charts/piesplitcustompointcollection/count) { get; } | Visszaadja vagy beállítja a diagram adatpontjainak számát. Csak olvasható Int32. |
+| [Count](../../aspose.slides.charts/piesplitcustompointcollection/count) { get; } | Visszaadja vagy beállítja a diagram adatpontok számát. Csak olvasható Int32. |
 | [IsReadOnly](../../aspose.slides.charts/piesplitcustompointcollection/isreadonly) { get; } | Visszaad egy értéket, amely azt jelzi, hogy a ICollection csak olvasható-e. Csak olvasható Boolean. |
-| [IsSynchronized](../../aspose.slides.charts/piesplitcustompointcollection/issynchronized) { get; } | Visszaad egy értéket, amely azt jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált (szálbiztos). Csak olvasható Boolean. |
+| [IsSynchronized](../../aspose.slides.charts/piesplitcustompointcollection/issynchronized) { get; } | Visszaad egy értéket, amely azt jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált (szálbiztos)-e. Csak olvasható Boolean. |
 | [Item](../../aspose.slides.charts/piesplitcustompointcollection/item) { get; } | Visszaadja a diagram adatpontot a megadott indexhez. |
-| [SyncRoot](../../aspose.slides.charts/piesplitcustompointcollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökérobjektumot. Csak olvasható Object. |
+| [SyncRoot](../../aspose.slides.charts/piesplitcustompointcollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökér objektumot. Csak olvasható Object. |
 
 ## Metódusok
 
@@ -30,12 +28,12 @@ public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
 | --- | --- |
 | [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add)(IChartDataPoint) | Hozzáad egy adatpontot a gyűjteményhez. |
 | [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add_1)(int) | Hozzáad egy adatpontot a szülő sorozat pontgyűjteményének indexe alapján. |
-| [Clear](../../aspose.slides.charts/piesplitcustompointcollection/clear)() | Eltávolítja a gyűjtemény összes elemét. |
-| [Contains](../../aspose.slides.charts/piesplitcustompointcollection/contains)(IChartDataPoint) | Meghatározza, hogy a ICollection tartalmaz-e egy adott értéket. |
-| [CopyTo](../../aspose.slides.charts/piesplitcustompointcollection/copyto)(IChartDataPoint[], int) | Átmásolja a ICollection elemeit egy tömbbe, egy adott tömbindexnél kezdve. |
-| [GetEnumerator](../../aspose.slides.charts/piesplitcustompointcollection/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |
+| [Clear](../../aspose.slides.charts/piesplitcustompointcollection/clear)() | Eltávolítja az összes elemet az ICollection-ből. |
+| [Contains](../../aspose.slides.charts/piesplitcustompointcollection/contains)(IChartDataPoint) | Megállapítja, hogy az ICollection tartalmaz-e egy adott értéket. |
+| [CopyTo](../../aspose.slides.charts/piesplitcustompointcollection/copyto)(IChartDataPoint[], int) | Átmásolja az ICollection elemeit egy Array-ba, egy adott Array indextől kezdve. |
+| [GetEnumerator](../../aspose.slides.charts/piesplitcustompointcollection/getenumerator)() | Visszaad egy enumerátort, amely a gyűjteményen iterál. |
 | [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove)(IChartDataPoint) | Eltávolít egy elemet a gyűjteményből. |
-| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove_1)(int) | Eltávolít egy elemet a gyűjteményből az indexe alapján a szülő sorozat pontgyűjteményében. |
+| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove_1)(int) | Eltávolít egy elemet a gyűjteményből a szülő sorozat pontgyűjteményében lévő indexe alapján. |
 
 ### Lásd még
 

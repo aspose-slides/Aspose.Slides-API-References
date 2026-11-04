@@ -3,7 +3,7 @@ title: LegendEntryProperties
 second_title: Aspose.Sildes für .NET API Referenz
 description: Stellt die Legenden-Eigenschaften eines Diagramms dar.
 type: docs
-weight: 2310
+weight: 2330
 url: /de/aspose.slides.charts/legendentryproperties/
 ---
 ## LegendEntryProperties Klasse
@@ -16,11 +16,11 @@ public class LegendEntryProperties : ILegendEntryProperties
 
 ## Eigenschaften
 
-| Name | Description |
+| Name | Beschreibung |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/legendentryproperties/chart) { get; } | Gibt das übergeordnete Diagramm zurück. Nur-Lesen [`IChart`](../ichart). |
-| [Hide](../../aspose.slides.charts/legendentryproperties/hide) { get; set; } | Bestimmt, ob der Legendeeintrag ausgeblendet ist. Lesen/Schreiben Boolean. |
-| [TextFormat](../../aspose.slides.charts/legendentryproperties/textformat) { get; } | Gibt das Textformat zurück. Nur-Lesen [`IChartTextFormat`](../icharttextformat). |
+| [Chart](../../aspose.slides.charts/legendentryproperties/chart) { get; } | Gibt das übergeordnete Diagramm zurück. Nur lesbar [`IChart`](../ichart). |
+| [Hide](../../aspose.slides.charts/legendentryproperties/hide) { get; set; } | Bestimmt, ob der Legendeintrag ausgeblendet ist. Lese/Schreib Boolean. |
+| [TextFormat](../../aspose.slides.charts/legendentryproperties/textformat) { get; } | Gibt das Textformat zurück. Nur lesbar [`IChartTextFormat`](../icharttextformat). |
 
 ### Siehe auch
 

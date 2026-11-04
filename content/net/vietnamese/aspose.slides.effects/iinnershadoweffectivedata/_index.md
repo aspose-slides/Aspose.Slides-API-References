@@ -1,14 +1,14 @@
 ---
 title: IInnerShadowEffectiveData
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đối tượng bất biến đại diện cho hiệu ứng bóng đổ bên trong.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Đối tượng bất biến đại diện cho hiệu ứng bóng bên trong.
 type: docs
-weight: 3430
+weight: 3450
 url: /vi/aspose.slides.effects/iinnershadoweffectivedata/
 ---
-## IInnerShadowEffectiveData giao diện
+## IInnerShadowEffectiveData interface
 
-Đối tượng bất biến đại diện cho hiệu ứng bóng đổ bên trong.
+Đối tượng bất biến đại diện cho hiệu ứng bóng bên trong.
 
 ```csharp
 public interface IInnerShadowEffectiveData : IEffectEffectiveData
@@ -18,13 +18,13 @@ public interface IInnerShadowEffectiveData : IEffectEffectiveData
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iinnershadoweffectivedata/asieffecteffectivedata) { get; } | Cho phép lấy giao diện IEffectEffectiveData cơ sở. Chỉ đọc [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iinnershadoweffectivedata/asieffecteffectivedata) { get; } | Cho phép lấy giao diện IEffectEffectiveData cơ bản. Chỉ đọc [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [BlurRadius](../../aspose.slides.effects/iinnershadoweffectivedata/blurradius) { get; } | Bán kính làm mờ. Chỉ đọc Double. |
-| [Direction](../../aspose.slides.effects/iinnershadoweffectivedata/direction) { get; } | Hướng của bóng đổ. Chỉ đọc Single. |
-| [Distance](../../aspose.slides.effects/iinnershadoweffectivedata/distance) { get; } | Khoảng cách của bóng đổ. Chỉ đọc Double. |
-| [ShadowColor](../../aspose.slides.effects/iinnershadoweffectivedata/shadowcolor) { get; } | Màu của bóng đổ. Chỉ đọc Color. |
+| [Direction](../../aspose.slides.effects/iinnershadoweffectivedata/direction) { get; } | Hướng của bóng. Chỉ đọc Single. |
+| [Distance](../../aspose.slides.effects/iinnershadoweffectivedata/distance) { get; } | Khoảng cách của bóng. Chỉ đọc Double. |
+| [ShadowColor](../../aspose.slides.effects/iinnershadoweffectivedata/shadowcolor) { get; } | Màu của bóng. Chỉ đọc Color. |
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [IEffectEffectiveData](../ieffecteffectivedata)
 * không gian tên [Aspose.Slides.Effects](../../aspose.slides.effects)

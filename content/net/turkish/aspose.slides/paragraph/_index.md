@@ -3,12 +3,12 @@ title: Paragraph
 second_title: Aspose.Sildes için .NET API Referansı
 description: Metin paragrafını temsil eder.
 type: docs
-weight: 9280
+weight: 9300
 url: /tr/aspose.slides/paragraph/
 ---
-## Paragraph sınıf
+## Paragraph sınıfı
 
-Metin paragrafını temsil eder.
+Bir metin paragrafını temsil eder.
 
 ```csharp
 public sealed class Paragraph : IParagraph
@@ -25,18 +25,20 @@ public sealed class Paragraph : IParagraph
 
 | Name | Description |
 | --- | --- |
-| [EndParagraphPortionFormat](../../aspose.slides/paragraph/endparagraphportionformat) { get; set; } | Son parçanın ardından başka bir parça eklenirse kullanılacak parça özelliklerini belirtir. |
-| [ParagraphFormat](../../aspose.slides/paragraph/paragraphformat) { get; } | Bu paragraf için biçimlendirme nesnesini döndürür. Salt okunur [`IParagraphFormat`](../iparagraphformat). |
-| [Portions](../../aspose.slides/paragraph/portions) { get; } | Metin parçalarının koleksiyonunu döndürür. Salt okunur [`IPortionCollection`](../iportioncollection). |
-| [Text](../../aspose.slides/paragraph/text) { get; set; } | Bir paragrafın düz metnini alır veya ayarlar. Okunabilir/Yazılabilir String. |
+| [EndParagraphPortionFormat](../../aspose.slides/paragraph/endparagraphportionformat) { get; set; } | Son bölümden sonra başka bir bölüm eklenirse kullanılacak bölüm özelliklerini belirtir. |
+| [ParagraphFormat](../../aspose.slides/paragraph/paragraphformat) { get; } | Bu paragrafın biçimlendirme nesnesini döndürür. Salt okunur [`IParagraphFormat`](../iparagraphformat). |
+| [Portions](../../aspose.slides/paragraph/portions) { get; } | Metin bölümlerinin koleksiyonunu döndürür. Salt okunur [`IPortionCollection`](../iportioncollection). |
+| [Text](../../aspose.slides/paragraph/text) { get; set; } | Bir paragrafın düz metnini alır veya ayarlar. Okunur/yazılabilir String. |
 
 ## Yöntemler
 
 | Name | Description |
 | --- | --- |
-| [GetLinesCount](../../aspose.slides/paragraph/getlinescount)() | Bir paragraftaki satır sayısını alır. |
-| [GetRect](../../aspose.slides/paragraph/getrect)() | Paragrafı çevreleyen dikdörtgenin koordinatlarını alır. Dikdörtgen, paragraftaki tüm metin satırlarını, boş olanları da dahil, içerir. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/paragraph/joinportionswithsameformatting)() | Aynı biçimlendirmeye sahip çalışmaları birleştirir. |
+| [GetImage](../../aspose.slides/paragraph/getimage#getimage)() | Paragrafın bir görüntüsünü döndürür. |
+| [GetImage](../../aspose.slides/paragraph/getimage#getimage_1)(float, float) | Belirtilen ölçekle paragrafın bir görüntüsünü döndürür. |
+| [GetLinesCount](../../aspose.slides/paragraph/getlinescount)() | Bir paragraftaki satır sayısını al. |
+| [GetRect](../../aspose.slides/paragraph/getrect)() | Paragrafı çevreleyen dikdörtgenin koordinatlarını al. Dikdörtgen, paragraftaki tüm metin satırlarını, boş olanları da içerecek şekilde kapsar. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/paragraph/joinportionswithsameformatting)() | Aynı biçimlendirmeye sahip run'ları birleştirir. |
 
 ### Ayrıca Bakınız
 

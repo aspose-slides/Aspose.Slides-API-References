@@ -1,14 +1,14 @@
 ---
 title: Label
-second_title: Aspose.Sildes voor .NET API Referentie
-description: Stelt het label van een chart-datapunt voor. Alleen-lezen IDataLabelaspose.slides.charts/idatalabel.
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Geeft het label van een grafiekgegevenspunt weer. Alleen-lezen IDataLabelaspose.slides.charts/idatalabel.
 type: docs
-weight: 110
+weight: 150
 url: /nl/aspose.slides.charts/ichartdatapoint/label/
 ---
 ## IChartDataPoint.Label eigenschap
 
-Stelt het label van een chart-datapunt voor. Alleen-lezen [`IDataLabel`](../../idatalabel).
+Vertegenwoordigt het label van een grafiekgegevenspunt. Alleen-lezen [`IDataLabel`](../../idatalabel).
 
 ```csharp
 public IDataLabel Label { get; }

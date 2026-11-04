@@ -1,20 +1,19 @@
 ---
 title: IFillOverlay
-second_title: Referencia de la API de Aspose.Sildes para .NET
-description: Representa un efecto Fill Overlay. Un Fill Overlay puede usarse para especificar un relleno adicional para un objeto y combinar los dos rellenos.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Representa un efecto de superposición de relleno. Una superposición de relleno puede usarse para especificar un relleno adicional para un objeto y mezclar los dos rellenos juntos.
 type: docs
-weight: 3300
+weight: 3320
 url: /es/aspose.slides.effects/ifilloverlay/
 ---
 ## IFillOverlay interfaz
 
-Representa un efecto de superposición de relleno. Una superposición de relleno puede usarse para especificar un relleno adicional para un objeto y combinar los dos rellenos.
+Representa un efecto de superposición de relleno. Una superposición de relleno puede usarse para especificar un relleno adicional para un objeto y mezclar los dos rellenos juntos.
 
 ```csharp
 public interface IFillOverlay : IAccessiblePVIObject<IFillOverlayEffectiveData>, 
     IImageTransformOperation
 ```
-
 
 ## Propiedades
 

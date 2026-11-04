@@ -1,14 +1,14 @@
 ---
 title: IsVisible
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: False يعني أن تسمية البيانات غير مرئية بشكل افتراضي وبالتالي جميع Show-flags ShowValue ... للخاصية DefaultDataLabelFormat هي false. للقراءة فقط Boolean.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: False يعني أن تسمية البيانات غير مرئية بشكل افتراضي وبالتالي جميع Show-flags مثل ShowValue ... لخاصية DefaultDataLabelFormat هي false. قراءة فقط Boolean.
 type: docs
-weight: 50
+weight: 60
 url: /ar/aspose.slides.charts/datalabelcollection/isvisible/
 ---
-## DataLabelCollection.IsVisible الخاصية
+## DataLabelCollection.IsVisible خاصية
 
-False يعني أن تسمية البيانات غير مرئية بشكل افتراضي (وبالتالي جميع Show*-flags (ShowValue, ...) للخاصية DefaultDataLabelFormat هي false). للقراءة فقط Boolean.
+False يعني أن تسمية البيانات غير مرئية بشكل افتراضي (وبالتالي جميع Show*-flags (ShowValue, ...) لخاصية DefaultDataLabelFormat هي false). قراءة فقط Boolean.
 
 ```csharp
 public bool IsVisible { get; }
@@ -16,9 +16,9 @@ public bool IsVisible { get; }
 
 ### ملاحظات
 
-إذا كانت تسمية البيانات مرئية بشكل افتراضي يمكنك إخفاؤها بشكل افتراضي باستخدام طريقة Hide(). ولكن إذا لم تكن تسمية البيانات مرئية بشكل افتراضي (IsVisible هو false) يمكنك جعل تسمية البيانات "مرئية بشكل افتراضي" عن طريق تعيين Show*-flags (ShowValue, ...) للخاصية DefaultDataLabelFormat إلى حالة true.
+إذا كان تسمية البيانات مرئية بشكل افتراضي يمكنك إخفاؤها بشكل افتراضي باستخدام طريقة Hide(). ولكن إذا كان تسمية البيانات غير مرئية بشكل افتراضي (IsVisible هو false) يمكنك جعل تسمية البيانات "مرئية بشكل افتراضي" عن طريق ضبط Show*-flags (ShowValue, ...) لخاصية DefaultDataLabelFormat إلى الحالة true.
 
-### انظر أيضًا
+### انظر أيضاً
 
 * فئة [DataLabelCollection](../../datalabelcollection)
 * نطاق [Aspose.Slides.Charts](../../datalabelcollection)

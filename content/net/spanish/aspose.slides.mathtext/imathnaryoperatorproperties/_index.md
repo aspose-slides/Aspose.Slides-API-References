@@ -3,7 +3,7 @@ title: IMathNaryOperatorProperties
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Especifica las propiedades de IMathNaryOperator
 type: docs
-weight: 8380
+weight: 8400
 url: /es/aspose.slides.mathtext/imathnaryoperatorproperties/
 ---
 ## IMathNaryOperatorProperties interfaz
@@ -18,11 +18,11 @@ public interface IMathNaryOperatorProperties
 
 | Nombre | Descripción |
 | --- | --- |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | El carácter del operador crece verticalmente para coincidir con la altura de su operando |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | El carácter del operador se expande verticalmente para coincidir con la altura de su operando |
 | [HideSubscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript) { get; set; } | Ocultar subíndice |
 | [HideSuperscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesuperscript) { get; set; } | Ocultar superíndice |
 | [LimitLocation](../../aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation) { get; set; } | La ubicación de los límites (subíndice y superíndice) |
-| [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | Carácter del operador n-ario. Por ejemplo: '∑', '∫' |
+| [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | Carácter del operador n-ario Por ejemplo: '∑', '∫' |
 
 ### Ver también
 

@@ -1,9 +1,9 @@
 ---
 title: IOverrideTheme
-second_title: Aspose.Sildes para .NET Referência da API
-description: Representa um tema de substituição.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Representa um tema de sobrescrita.
 type: docs
-weight: 11340
+weight: 11360
 url: /pt/aspose.slides.theme/ioverridetheme/
 ---
 ## IOverrideTheme interface
@@ -18,28 +18,28 @@ public interface IOverrideTheme : ITheme
 
 | Nome | Descrição |
 | --- | --- |
-| [AsITheme](../../aspose.slides.theme/ioverridetheme/asitheme) { get; } | Permite obter a interface base ITheme. Somente leitura [`ITheme`](../itheme). |
-| [IsEmpty](../../aspose.slides.theme/ioverridetheme/isempty) { get; } | Um valor verdadeiro indica que ColorScheme, FontScheme, FormatScheme são nulos e qualquer substituição com este objeto de tema está desativada. Somente leitura Boolean. |
+| [AsITheme](../../aspose.slides.theme/ioverridetheme/asitheme) { get; } | Permite obter a interface ITheme base. Somente leitura [`ITheme`](../itheme). |
+| [IsEmpty](../../aspose.slides.theme/ioverridetheme/isempty) { get; } | Valor verdadeiro indica que ColorScheme, FontScheme, FormatScheme são nulos e qualquer sobrescrita com este objeto de tema está desativada. Somente leitura Boolean. |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
-| [Clear](../../aspose.slides.theme/ioverridetheme/clear)() | Define ColorScheme, FontScheme, FormatScheme como nulo para desativar qualquer substituição com este objeto de tema. |
-| [InitColorScheme](../../aspose.slides.theme/ioverridetheme/initcolorscheme)() | Inicializa ColorScheme com novo objeto para substituir o ColorScheme de InheritedTheme. |
-| [InitColorSchemeFrom](../../aspose.slides.theme/ioverridetheme/initcolorschemefrom)(IColorScheme) | Inicializa ColorScheme com novo objeto para substituir o ColorScheme de InheritedTheme. |
-| [InitColorSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initcolorschemefrominherited)() | Inicializa ColorScheme com novo objeto para substituir o ColorScheme de InheritedTheme. E inicializa os dados deste novo objeto com os dados do ColorScheme de InheritedTheme. |
-| [InitFontScheme](../../aspose.slides.theme/ioverridetheme/initfontscheme)() | Inicializa FontScheme com novo objeto para substituir o FontScheme de InheritedTheme. |
-| [InitFontSchemeFrom](../../aspose.slides.theme/ioverridetheme/initfontschemefrom)(IFontScheme) | Inicializa FontScheme com novo objeto para substituir o FontScheme de InheritedTheme. |
-| [InitFontSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initfontschemefrominherited)() | Inicializa FontScheme com novo objeto para substituir o FontScheme de InheritedTheme. E inicializa os dados deste novo objeto com os dados do FontScheme de InheritedTheme. |
-| [InitFormatScheme](../../aspose.slides.theme/ioverridetheme/initformatscheme)() | Inicializa FormatScheme com novo objeto para substituir o FormatScheme de InheritedTheme. |
-| [InitFormatSchemeFrom](../../aspose.slides.theme/ioverridetheme/initformatschemefrom)(IFormatScheme) | Inicializa FormatScheme com novo objeto para substituir o FormatScheme de InheritedTheme. |
-| [InitFormatSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initformatschemefrominherited)() | Inicializa FormatScheme com novo objeto para substituir o FormatScheme de InheritedTheme. E inicializa os dados deste novo objeto com os dados do FormatScheme de InheritedTheme. |
+| [Clear](../../aspose.slides.theme/ioverridetheme/clear)() | Define ColorScheme, FontScheme, FormatScheme como nulo para desativar qualquer sobrescrita com este objeto de tema. |
+| [InitColorScheme](../../aspose.slides.theme/ioverridetheme/initcolorscheme)() | Inicializa ColorScheme com um novo objeto para sobrescrever o ColorScheme de InheritedTheme. |
+| [InitColorSchemeFrom](../../aspose.slides.theme/ioverridetheme/initcolorschemefrom)(IColorScheme) | Inicializa ColorScheme com um novo objeto para sobrescrever o ColorScheme de InheritedTheme. |
+| [InitColorSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initcolorschemefrominherited)() | Inicializa ColorScheme com um novo objeto para sobrescrever o ColorScheme de InheritedTheme. E inicializa os dados deste novo objeto com os dados do ColorScheme de InheritedTheme. |
+| [InitFontScheme](../../aspose.slides.theme/ioverridetheme/initfontscheme)() | Inicializa FontScheme com um novo objeto para sobrescrever o FontScheme de InheritedTheme. |
+| [InitFontSchemeFrom](../../aspose.slides.theme/ioverridetheme/initfontschemefrom)(IFontScheme) | Inicializa FontScheme com um novo objeto para sobrescrever o FontScheme de InheritedTheme. |
+| [InitFontSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initfontschemefrominherited)() | Inicializa FontScheme com um novo objeto para sobrescrever o FontScheme de InheritedTheme. E inicializa os dados deste novo objeto com os dados do FontScheme de InheritedTheme. |
+| [InitFormatScheme](../../aspose.slides.theme/ioverridetheme/initformatscheme)() | Inicializa FormatScheme com um novo objeto para sobrescrever o FormatScheme de InheritedTheme. |
+| [InitFormatSchemeFrom](../../aspose.slides.theme/ioverridetheme/initformatschemefrom)(IFormatScheme) | Inicializa FormatScheme com um novo objeto para sobrescrever o FormatScheme de InheritedTheme. |
+| [InitFormatSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initformatschemefrominherited)() | Inicializa FormatScheme com um novo objeto para sobrescrever o FormatScheme de InheritedTheme. E inicializa os dados deste novo objeto com os dados do FormatScheme de InheritedTheme. |
 
 ### Veja Também
 
 * interface [ITheme](../itheme)
-* namespace [Aspose.Slides.Theme](../../aspose.slides.theme)
+* espaço de nomes [Aspose.Slides.Theme](../../aspose.slides.theme)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

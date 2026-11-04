@@ -1,27 +1,28 @@
 ---
 title: IColorReplace
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa un efecto de sustitución de color.
+description: Representa un efecto de reemplazo de color.
 type: docs
-weight: 3240
+weight: 3260
 url: /es/aspose.slides.effects/icolorreplace/
 ---
 ## IColorReplace interfaz
 
-Representa un efecto de sustitución de color.
+Representa un efecto de reemplazo de color.
 
 ```csharp
 public interface IColorReplace : IAccessiblePVIObject<IColorReplaceEffectiveData>, 
     IImageTransformOperation
 ```
 
+
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorreplace/asiaccessiblepviobject) { get; } | Permite obtener la interfaz base IAccessiblePVIObject. Solo lectura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/icolorreplace/asiimagetransformoperation) { get; } | Permite obtener la interfaz base IImageTransformOperation. Solo lectura [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Color](../../aspose.slides.effects/icolorreplace/color) { get; } | Devuelve el formato de color que reemplazará el color de cada píxel. Solo lectura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorreplace/asiaccessiblepviobject) { get; } | Permite obtener la interfaz base IAccessiblePVIObject. Sólo lectura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/icolorreplace/asiimagetransformoperation) { get; } | Permite obtener la interfaz base IImageTransformOperation. Sólo lectura [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Color](../../aspose.slides.effects/icolorreplace/color) { get; } | Devuelve el formato de color que reemplazará el color de cada píxel. Sólo lectura [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Ver también
 

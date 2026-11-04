@@ -3,7 +3,7 @@ title: IImage
 second_title: Aspose.Sildes .NET API 参考
 description: 表示光栅图像或矢量图像。
 type: docs
-weight: 6150
+weight: 6170
 url: /zh/aspose.slides/iimage/
 ---
 ## IImage 接口
@@ -18,9 +18,9 @@ public interface IImage : IDisposable
 
 | 名称 | 描述 |
 | --- | --- |
-| [Height](../../aspose.slides/iimage/height) { get; } | 获取图像的高度（单位为像素）。 |
-| [Size](../../aspose.slides/iimage/size) { get; } | 获取图像的尺寸。 |
-| [Width](../../aspose.slides/iimage/width) { get; } | 获取图像的宽度（单位为像素）。 |
+| [Height](../../aspose.slides/iimage/height) { get; } | 获取图像的高度（以像素为单位）。 |
+| [Size](../../aspose.slides/iimage/size) { get; } | 获取图像的大小。 |
+| [Width](../../aspose.slides/iimage/width) { get; } | 获取图像的宽度（以像素为单位）。 |
 
 ## 方法
 
@@ -34,9 +34,9 @@ public interface IImage : IDisposable
 
 ### 备注
 
-此接口提供了处理光栅图像和矢量图像的通用抽象。实现可能会根据底层图像类型而有所不同。
+此接口提供了处理光栅图像和矢量图像的通用抽象。实现可能因底层图像类型而异。
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

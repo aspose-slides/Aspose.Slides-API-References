@@ -1,14 +1,14 @@
 ---
 title: IGlobalLayoutSlideCollection
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แทนที่ชุดของสไลด์เลย์เอาต์ทั้งหมดในงานนำเสนอ ขยายอินเทอร์เฟซ ILayoutSlideCollection ด้วยเมธอดสำหรับการเพิ่มหรือคัดลอกสไลด์เลย์เอาต์ในบริบทของการรวมคอลเลกชันแยกของสไลด์เลย์เอาต์มาสเตอร์
+description: แสดงถึงคอลเลกชันของสไลด์เลเอาท์ทั้งหมดในงานนำเสนอ. ขยายอินเทอร์เฟซ ILayoutSlideCollection ด้วยเมธอดสำหรับการเพิ่ม/ทำสำเนาสไลด์เลเอาท์ในบริบทของการรวมคอลเลกชันย่อยของสไลด์เลเอาท์ของมาสเตอร์.
 type: docs
-weight: 5990
+weight: 6010
 url: /th/aspose.slides/igloballayoutslidecollection/
 ---
-## อินเทอร์เฟซ IGlobalLayoutSlideCollection
+## IGlobalLayoutSlideCollection อินเทอร์เฟซ
 
-เป็นคอลเลกชันของสไลด์เลย์เอาต์ทั้งหมดในงานนำเสนอ ขยายอินเทอร์เฟซ ILayoutSlideCollection พร้อมเมธอดสำหรับการเพิ่ม/คัดลอกสไลด์เลย์เอาต์ในบริบทของการรวมคอลเลกชันแยกของสไลด์เลย์เอาต์ของมาสเตอร์
+แสดงถึงคอลเลกชันของสไลด์เลเอาท์ทั้งหมดในงานนำเสนอ. ขยายอินเทอร์เฟซ ILayoutSlideCollection ด้วยเมธอดสำหรับการเพิ่ม/ทำสำเนาสไลด์เลเอาท์ในบริบทของการรวมคอลเลกชันย่อยของสไลด์เลเอาท์ของมาสเตอร์.
 
 ```csharp
 public interface IGlobalLayoutSlideCollection : ILayoutSlideCollection
@@ -16,17 +16,17 @@ public interface IGlobalLayoutSlideCollection : ILayoutSlideCollection
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [AsILayoutSlideCollection](../../aspose.slides/igloballayoutslidecollection/asilayoutslidecollection) { get; } | คืนค่าอินเทอร์เฟซ ILayoutSlideCollection. อ่านอย่างเดียว [`ILayoutSlideCollection`](../ilayoutslidecollection). |
+| [AsILayoutSlideCollection](../../aspose.slides/igloballayoutslidecollection/asilayoutslidecollection) { get; } | คืนค่า ILayoutSlideCollection อินเทอร์เฟซ. อ่านอย่างเดียว [`ILayoutSlideCollection`](../ilayoutslidecollection). |
 
 ## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/igloballayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | เพิ่มสไลด์เลย์เอาต์ใหม่ไปยังงานนำเสนอ |
-| [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone)(ILayoutSlide) | เพิ่มสำเนาของสไลด์เลย์เอาต์ที่ระบุไปยังงานนำเสนอ |
-| [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | เพิ่มสำเนาของสไลด์เลย์เอาต์ที่ระบุไปยังงานนำเสนอ |
+| [Add](../../aspose.slides/igloballayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | เพิ่มสไลด์เลเอาท์ใหม่ไปยังงานนำเสนอ. |
+| [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone)(ILayoutSlide) | เพิ่มสำเนาของสไลด์เลเอาท์ที่ระบุไปยังงานนำเสนอ. |
+| [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | เพิ่มสำเนาของสไลด์เลเอาท์ที่ระบุไปยังงานนำเสนอ. |
 
 ### ดูเพิ่มเติม
 

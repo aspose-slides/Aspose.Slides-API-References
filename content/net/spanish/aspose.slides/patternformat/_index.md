@@ -1,9 +1,9 @@
 ---
 title: PatternFormat
-second_title: Referencia de la API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa un patrón para rellenar una forma.
 type: docs
-weight: 9350
+weight: 9370
 url: /es/aspose.slides/patternformat/
 ---
 ## PatternFormat clase
@@ -19,8 +19,8 @@ public sealed class PatternFormat : PVIObject, IPatternFormat
 | Name | Description |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obtener la interfaz base IPresentationComponent. Solo lectura [`IPresentationComponent`](../ipresentationcomponent). |
-| [BackColor](../../aspose.slides/patternformat/backcolor) { get; } | Devuelve el color del patrón de fondo. Solo lectura [`IColorFormat`](../icolorformat). |
-| [ForeColor](../../aspose.slides/patternformat/forecolor) { get; } | Devuelve el color del patrón de primer plano. Solo lectura [`IColorFormat`](../icolorformat). |
+| [BackColor](../../aspose.slides/patternformat/backcolor) { get; } | Devuelve el color de patrón de fondo. Solo lectura [`IColorFormat`](../icolorformat). |
+| [ForeColor](../../aspose.slides/patternformat/forecolor) { get; } | Devuelve el color de patrón de primer plano. Solo lectura [`IColorFormat`](../icolorformat). |
 | [PatternStyle](../../aspose.slides/patternformat/patternstyle) { get; set; } | Devuelve o establece el estilo del patrón. Lectura/escritura [`PatternStyle`](../patternstyle). |
 
 ## Métodos
@@ -29,10 +29,10 @@ public sealed class PatternFormat : PVIObject, IPatternFormat
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compara con el objeto especificado. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Devuelve el código hash. |
-| [GetTile](../../aspose.slides/patternformat/gettile#gettile)(Color) | Crea una imagen de mosaico para el relleno del patrón. |
-| [GetTile](../../aspose.slides/patternformat/gettile#gettile_1)(Color, Color) | Crea una imagen de mosaico para el relleno del patrón con colores especificados. |
+| [GetTile](../../aspose.slides/patternformat/gettile#gettile)(Color) | Crea una imagen de mosaico para el relleno de patrón. |
+| [GetTile](../../aspose.slides/patternformat/gettile#gettile_1)(Color, Color) | Crea una imagen de mosaico para el relleno de patrón con colores especificados. |
 
-### Ver también
+### Véase también
 
 * clase [PVIObject](../pviobject)
 * interfaz [IPatternFormat](../ipatternformat)

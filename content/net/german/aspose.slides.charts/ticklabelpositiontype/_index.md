@@ -1,14 +1,14 @@
 ---
 title: TickLabelPositionType
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt den Positionstyp der Markierungsbeschriftungen auf der angegebenen Achse dar.
+description: Stellt den Positionstyp der Tick-Mark-Beschriftungen auf der angegebenen Achse dar.
 type: docs
-weight: 2440
+weight: 2460
 url: /de/aspose.slides.charts/ticklabelpositiontype/
 ---
-## TickLabelPositionType Aufzählung
+## TickLabelPositionType Enumeration
 
-Stellt den Positionstyp der Beschriftungen von Achsenmarkierungen auf der angegebenen Achse dar.
+Stellt den Positionstyp der Tick-Mark-Beschriftungen auf der angegebenen Achse dar.
 
 ```csharp
 public enum TickLabelPositionType
@@ -18,8 +18,8 @@ public enum TickLabelPositionType
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| High | `0` | Gibt an, dass die Achsenbeschriftungen am oberen Ende der senkrechten Achse liegen sollen. |
-| Low | `1` | Gibt an, dass die Achsenbeschriftungen am unteren Ende der senkrechten Achse liegen sollen. |
+| High | `0` | Gibt an, dass die Achsenbeschriftungen am hohen Ende der senkrechten Achse liegen sollen. |
+| Low | `1` | Gibt an, dass die Achsenbeschriftungen am niedrigen Ende der senkrechten Achse liegen sollen. |
 | NextTo | `2` | Gibt an, dass die Achsenbeschriftungen neben der Achse liegen sollen. |
 | None | `3` | Gibt an, dass die Achsenbeschriftungen nicht gezeichnet werden. |
 

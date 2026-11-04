@@ -3,12 +3,12 @@ title: IGlitterTransition
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Effet de transition de diapositive scintillante.
 type: docs
-weight: 10100
+weight: 10120
 url: /fr/aspose.slides.slideshow/iglittertransition/
 ---
 ## IGlitterTransition interface
 
-Effet de transition de diapositive scintillante.
+Effet de transition scintillante.
 
 ```csharp
 public interface IGlitterTransition : ITransitionValueBase
@@ -16,13 +16,13 @@ public interface IGlitterTransition : ITransitionValueBase
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/iglittertransition/asitransitionvaluebase) { get; } | Permet d'obtenir l'interface ITransitionValueBase de base. Lecture seule [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/iglittertransition/direction) { get; set; } | Direction de la transition. Lecture/écriture [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/iglittertransition/pattern) { get; set; } | Spécifie la forme des éléments visuels utilisés pendant la transition. Lecture/écriture [`TransitionPattern`](../transitionpattern). |
+| [Pattern](../../aspose.slides.slideshow/iglittertransition/pattern) { get; set; } | Spécifie la forme des visuels utilisés pendant la transition. Lecture/écriture [`TransitionPattern`](../transitionpattern). |
 
-### Voir également
+### Voir aussi
 
 * interface [ITransitionValueBase](../itransitionvaluebase)
 * espace de noms [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

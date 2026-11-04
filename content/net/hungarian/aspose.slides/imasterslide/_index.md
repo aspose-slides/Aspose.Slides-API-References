@@ -1,14 +1,14 @@
 ---
 title: IMasterSlide
-second_title: Aspose.Sildes .NET API referencia
-description: Egy mesterdiát reprezentál egy prezentációban.
+second_title: Aspose.Sildes .NET API Referencia
+description: Egy prezentációban egy mesterdiát ábrázol.
 type: docs
-weight: 6420
+weight: 6440
 url: /hu/aspose.slides/imasterslide/
 ---
 ## IMasterSlide interfész
 
-Egy mesterdiát képvisel egy prezentációban.
+Represents a master slide in a presentation.
 
 ```csharp
 public interface IMasterSlide : IBaseSlide, IMasterThemeable
@@ -18,23 +18,23 @@ public interface IMasterSlide : IBaseSlide, IMasterThemeable
 
 | Név | Leírás |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasterslide/asibaseslide) { get; } | Lehetővé teszi az alap IBaseSlide interfész elérését. Csak olvasható [`IBaseSlide`](../ibaseslide). |
+| [AsIBaseSlide](../../aspose.slides/imasterslide/asibaseslide) { get; } | Lehetővé teszi az IBaseSlide alap interfészének lekérését. Csak olvasható [`IBaseSlide`](../ibaseslide). |
 | [AsIMasterThemeable](../../aspose.slides/imasterslide/asimasterthemeable) { get; } | Visszaadja az IMasterThemeable interfészt. Csak olvasható [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [BodyStyle](../../aspose.slides/imasterslide/bodystyle) { get; } | Visszaadja egy törzsszöveg stílusát. Csak olvasható [`ITextStyle`](../itextstyle). |
-| [DrawingGuides](../../aspose.slides/imasterslide/drawingguides) { get; } | Visszaadja a mesterdia rajzolósegédek gyűjteményét. Csak olvasható [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HasDependingSlides](../../aspose.slides/imasterslide/hasdependingslides) { get; } | Igaz értéket ad vissza, ha legalább egy dia függ ettől a mesterdiától. Csak olvasható Boolean. |
-| [HeaderFooterManager](../../aspose.slides/imasterslide/headerfootermanager) { get; } | Visszaadja a mesterdia HeaderFooter kezelőjét. Csak olvasható [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager). |
-| [LayoutSlides](../../aspose.slides/imasterslide/layoutslides) { get; } | Visszaadja ennek a mesterdianak a gyermekelrendezés diasorozatát. Csak olvasható [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection). |
+| [BodyStyle](../../aspose.slides/imasterslide/bodystyle) { get; } | Visszaadja a törzsszöveg stílusát. Csak olvasható [`ITextStyle`](../itextstyle). |
+| [DrawingGuides](../../aspose.slides/imasterslide/drawingguides) { get; } | Visszaadja a mesterdia rajzolási segédvonalak gyűjteményét. Csak olvasható [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HasDependingSlides](../../aspose.slides/imasterslide/hasdependingslides) { get; } | True-t ad vissza, ha létezik legalább egy dia, amely ettől a mesterdiától függ. Csak olvasható Boolean. |
+| [HeaderFooterManager](../../aspose.slides/imasterslide/headerfootermanager) { get; } | Visszaadja a mesterdia HeaderFooter kezelését. Csak olvasható [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager). |
+| [LayoutSlides](../../aspose.slides/imasterslide/layoutslides) { get; } | Visszaadja az ebben a mesterdiában lévő gyermekelrendezés-diák gyűjteményét. Csak olvasható [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection). |
 | [OtherStyle](../../aspose.slides/imasterslide/otherstyle) { get; } | Visszaadja egy másik szöveg stílusát. Csak olvasható [`ITextStyle`](../itextstyle). |
-| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | Meghatározza, hogy a megfelelő mester törlésre kerül-e, amikor az azt követő összes dia törlésre kerül. Megjegyzés: Az Aspose.Slides soha nem távolítja el önmagától a használaton kívüli mestert; a használaton kívüli mesterek tényleges eltávolításához hívd meg a [`RemoveUnused`](../imasterslidecollection/removeunused) függvényt. Olvasás/írás Boolean. |
-| [TitleStyle](../../aspose.slides/imasterslide/titlestyle) { get; } | Visszaadja egy cím szöveg stílusát. Csak olvasható [`ITextStyle`](../itextstyle). |
+| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | Meghatározza, hogy a megfelelő mester törlésre kerül-e, amikor az összes azt követő dia is törlésre kerül. Megjegyzés: Az Aspose.Slides soha nem távolít el egyetlen használaton kívüli mestert sem magától; a használaton kívüli mesterek tényleges eltávolításához hívja meg a [`RemoveUnused`](../imasterslidecollection/removeunused). Olvasás/írás Boolean. |
+| [TitleStyle](../../aspose.slides/imasterslide/titlestyle) { get; } | Visszaadja a cím szöveg stílusát. Csak olvasható [`ITextStyle`](../itextstyle). |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [ApplyExternalThemeToDependingSlides](../../aspose.slides/imasterslide/applyexternalthemetodependingslides)(string) | Új mesterdiát hoz létre az aktuális alapján, külső témát alkalmaz rá, és az így létrehozott mesterdiát minden függő diára alkalmazza. |
-| [GetDependingSlides](../../aspose.slides/imasterslide/getdependingslides)() | Visszaad egy tömböt az összes diával, amelyik függ ettől a mesterdiától. |
+| [ApplyExternalThemeToDependingSlides](../../aspose.slides/imasterslide/applyexternalthemetodependingslides)(string) | Létrehoz egy új mesterdiát a jelenlegi alapján, egy külső témát alkalmaz rá, és az így létrehozott mesterdiat az összes függő diára alkalmazza. |
+| [GetDependingSlides](../../aspose.slides/imasterslide/getdependingslides)() | Visszaad egy tömböt minden olyan diával, amely ettől a mesterdiától függ. |
 
 ### Lásd még
 

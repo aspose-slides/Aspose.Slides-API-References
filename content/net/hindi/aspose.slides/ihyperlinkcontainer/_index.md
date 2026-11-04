@@ -1,9 +1,9 @@
 ---
 title: IHyperlinkContainer
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
+second_title: Aspose.Sildes for .NET API संदर्भ
 description: हाइपरलिंक ऑब्जेक्ट का प्रतिनिधित्व करता है।
 type: docs
-weight: 6120
+weight: 6140
 url: /hi/aspose.slides/ihyperlinkcontainer/
 ---
 ## IHyperlinkContainer इंटरफ़ेस
@@ -16,13 +16,13 @@ public interface IHyperlinkContainer
 
 ## गुण
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [HyperlinkClick](../../aspose.slides/ihyperlinkcontainer/hyperlinkclick) { get; set; } | माउस क्लिक के लिए परिभाषित हाइपरलिंक को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य [`IHyperlink`](../ihyperlink). |
-| [HyperlinkManager](../../aspose.slides/ihyperlinkcontainer/hyperlinkmanager) { get; } | हाइपरलिंक्स प्रबंधक केवल पढ़ने योग्य [`IHyperlinkManager`](../ihyperlinkmanager). |
-| [HyperlinkMouseOver](../../aspose.slides/ihyperlinkcontainer/hyperlinkmouseover) { get; set; } | माउस ओवर के लिए परिभाषित हाइपरलिंक को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य [`IHyperlink`](../ihyperlink). |
+| [HyperlinkClick](../../aspose.slides/ihyperlinkcontainer/hyperlinkclick) { get; set; } | माउस क्लिक के लिए परिभाषित हाइपरलिंक को वापस देता है या सेट करता है। पढ़ने/लिखने [`IHyperlink`](../ihyperlink)। |
+| [HyperlinkManager](../../aspose.slides/ihyperlinkcontainer/hyperlinkmanager) { get; } | हाइपरलिंक प्रबंधक केवल पढ़ने [`IHyperlinkManager`](../ihyperlinkmanager)। |
+| [HyperlinkMouseOver](../../aspose.slides/ihyperlinkcontainer/hyperlinkmouseover) { get; set; } | माउस ओवर के लिए परिभाषित हाइपरलिंक को वापस देता है या सेट करता है। पढ़ने/लिखने [`IHyperlink`](../ihyperlink)। |
 
-### और देखें
+### संबंधित देखें
 
 * नेमस्पेस [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

@@ -1,9 +1,9 @@
 ---
 title: ImageTransformOCollectionEffectiveData
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Objet immuable qui représente une collection en lecture seule d'effets de transformation d'image effectifs.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Objet immuable représentant une collection en lecture seule d'effets de transformation d'image effectifs.
 type: docs
-weight: 3560
+weight: 3580
 url: /fr/aspose.slides.effects/imagetransformocollectioneffectivedata/
 ---
 ## ImageTransformOCollectionEffectiveData classe
@@ -35,8 +35,8 @@ public class ImageTransformOCollectionEffectiveData : IImageTransformOCollection
 | --- | --- |
 | [CopyTo](../../aspose.slides.effects/imagetransformocollectioneffectivedata/copyto)(Array, int) | Copie tous les éléments de la collection dans le tableau spécifié. |
 | override [Equals](../../aspose.slides.effects/imagetransformocollectioneffectivedata/equals)(object) | Détermine si l'objet spécifié est égal à l'objet actuel. |
-| [GetEnumerator](../../aspose.slides.effects/imagetransformocollectioneffectivedata/getenumerator)() | Renvoie un énumérateur qui parcourt la collection. |
-| override [GetHashCode](../../aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode)() | Servir de fonction de hachage pour un type particulier, adaptée à une utilisation dans les algorithmes de hachage et les structures de données telles qu'une table de hachage. |
+| [GetEnumerator](../../aspose.slides.effects/imagetransformocollectioneffectivedata/getenumerator)() | Renvoie un énumérateur qui itère à travers la collection. |
+| override [GetHashCode](../../aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode)() | Fonctionne comme une fonction de hachage pour un type particulier, adaptée à une utilisation dans les algorithmes de hachage et les structures de données comme une table de hachage. |
 
 ### Remarques
 

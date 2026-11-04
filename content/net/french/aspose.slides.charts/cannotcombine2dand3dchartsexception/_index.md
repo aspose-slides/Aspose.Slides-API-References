@@ -1,14 +1,14 @@
 ---
 title: CannotCombine2DAnd3DChartsException
-second_title: Référence API Aspose.Sildes pour .NET
-description: Exception qui est levée lorsqu'on essaie de combiner des types de graphiques 2D et 3D.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Exception qui est levée lorsqu'on tente de combiner des types de graphiques 2D et 3D.
 type: docs
-weight: 1240
+weight: 1250
 url: /fr/aspose.slides.charts/cannotcombine2dand3dchartsexception/
 ---
 ## CannotCombine2DAnd3DChartsException classe
 
-Exception qui est levée lorsqu’on tente de combiner des types de graphiques 2D et 3D.
+Exception qui est levée lorsqu'on tente de combiner des types de graphiques 2D et 3D.
 
 ```csharp
 public class CannotCombine2DAnd3DChartsException : InvalidOperationException
@@ -19,8 +19,8 @@ public class CannotCombine2DAnd3DChartsException : InvalidOperationException
 | Nom | Description |
 | --- | --- |
 | [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor)() | Constructeur par défaut. |
-| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_1)(string) | Constructeur permettant d’ajouter un message à cette exception. |
-| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_2)(string, Exception) | Constructeur pour une exception contenant un message et une exception incorporée. |
+| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_1)(string) | Constructeur permettant d'ajouter un message à cette exception. |
+| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_2)(string, Exception) | Constructeur pour une exception contenant un message et une exception imbriquée. |
 
 ### Voir aussi
 

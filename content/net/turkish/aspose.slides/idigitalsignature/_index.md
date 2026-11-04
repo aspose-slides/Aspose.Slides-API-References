@@ -3,7 +3,7 @@ title: IDigitalSignature
 second_title: Aspose.Sildes için .NET API Referansı
 description: İmzalı dosyada dijital imza.
 type: docs
-weight: 5690
+weight: 5710
 url: /tr/aspose.slides/idigitalsignature/
 ---
 ## IDigitalSignature arayüz
@@ -19,8 +19,8 @@ public interface IDigitalSignature
 | Ad | Açıklama |
 | --- | --- |
 | [Certificate](../../aspose.slides/idigitalsignature/certificate) { get; } | Belgeyi imzalamak için kullanılan sertifika nesnesi. Salt okunur X509Certificate2. |
-| [Comments](../../aspose.slides/idigitalsignature/comments) { get; set; } | İmzanın amacı. Okunur/Yazılabilir String. |
-| [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | Bu dijital imza geçerli ve belgeye müdahale edilmemişse, bu değer true olacaktır. Salt okunur Boolean. |
+| [Comments](../../aspose.slides/idigitalsignature/comments) { get; set; } | İmzanın amacı. Okunabilir/Yazılabilir String. |
+| [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | Bu dijital imza geçerli ve belge değiştirilmemişse, bu değer doğru olacaktır. Salt okunur Boolean. |
 | [SignTime](../../aspose.slides/idigitalsignature/signtime) { get; } | Belgenin imzalandığı zaman. Salt okunur DateTime. |
 
 ### Ayrıca Bakınız

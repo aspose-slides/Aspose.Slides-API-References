@@ -1,14 +1,14 @@
 ---
 title: IModernComment
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET referenční dokumentaci API
 description: Představuje komentář na snímku.
 type: docs
-weight: 6460
+weight: 6480
 url: /cs/aspose.slides/imoderncomment/
 ---
-## Rozhraní IModernComment
+## IModernComment rozhraní
 
-Představuje komentář na snímku.
+Presents a comment on a slide.
 
 ```csharp
 public interface IModernComment : IComment
@@ -18,8 +18,8 @@ public interface IModernComment : IComment
 
 | Název | Popis |
 | --- | --- |
-| [AsIComment](../../aspose.slides/imoderncomment/asicomment) { get; } | Umožňuje získat základní rozhraní IComment. Pouze pro čtení [`IComment`](../icomment). |
-| [Shape](../../aspose.slides/imoderncomment/shape) { get; } | Vrací tvar spojený s komentářem. Pouze pro čtení [`IShape`](../ishape). |
+| [AsIComment](../../aspose.slides/imoderncomment/asicomment) { get; } | Umožňuje získat základní rozhraní IComment. Pouze ke čtení [`IComment`](../icomment). |
+| [Shape](../../aspose.slides/imoderncomment/shape) { get; } | Vrací tvar spojený s komentářem. Pouze ke čtení [`IShape`](../ishape). |
 | [Status](../../aspose.slides/imoderncomment/status) { get; set; } | Vrací nebo nastavuje stav komentáře. Čtení/zápis [`ModernCommentStatus`](../moderncommentstatus). |
 | [TextSelectionLength](../../aspose.slides/imoderncomment/textselectionlength) { get; set; } | Vrací nebo nastavuje délku výběru textu v textovém rámci, pokud je komentář spojen s AutoShape. Čtení/zápis Int32. |
 | [TextSelectionStart](../../aspose.slides/imoderncomment/textselectionstart) { get; set; } | Vrací nebo nastavuje počáteční pozici výběru textu v textovém rámci, pokud je komentář spojen s AutoShape. Čtení/zápis Int32. |

@@ -1,9 +1,9 @@
 ---
 title: IOuterShadow
-second_title: Aspose.Sildes для .NET – справочник API
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет эффект внешней тени.
 type: docs
-weight: 3460
+weight: 3480
 url: /ru/aspose.slides.effects/ioutershadow/
 ---
 ## IOuterShadow интерфейс
@@ -21,18 +21,18 @@ public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>,
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | Радиус размытия, в пунктах. Значение по умолчанию – 0 pt. Чтение/запись Double. |
-| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | Направление тени, в градусах. Значение по умолчанию – 0 ° (слева направо). Чтение/запись Single. |
-| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | Расстояние тени от объекта, в пунктах. Значение по умолчанию – 0 pt. Чтение/запись Double. |
+| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | Радиус размытия в пунктах. Значение по умолчанию – 0 пт. Чтение/запись Double. |
+| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | Направление тени в градусах. Значение по умолчанию – 0 ° (слева направо). Чтение/запись Single. |
+| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | Расстояние тени от объекта в пунктах. Значение по умолчанию – 0 пт. Чтение/запись Double. |
 | [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | Выравнивание прямоугольника. Значение по умолчанию – Bottom. Чтение/запись [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
 | [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | Указывает, вращается ли тень вместе с фигурой. Значение по умолчанию – true. Чтение/запись Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Коэффициент горизонтального масштабирования, в процентах от исходного размера. Отрицательное масштабирование приводит к отражению. Значение по умолчанию – 100 %. Чтение/запись Double. |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Коэффициент вертикального масштабирования, в процентах от исходного размера. Отрицательное масштабирование приводит к отражению. Значение по умолчанию – 100 %. Чтение/запись Double. |
-| [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | Цвет тени. Значение по умолчанию – автоматический черный (зависит от темы). Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | Угол горизонтального наклона, в градусах. Значение по умолчанию – 0 °. Чтение/запись Double. |
-| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | Угол вертикального наклона, в градусах. Значение по умолчанию – 0 °. Чтение/запись Double. |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Коэффициент горизонтального масштабирования в процентах от оригинального размера. Отрицательное масштабирование приводит к отражению. Значение по умолчанию – 100 %. Чтение/запись Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Коэффициент вертикального масштабирования в процентах от оригинального размера. Отрицательное масштабирование приводит к отражению. Значение по умолчанию – 100 %. Чтение/запись Double. |
+| [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | Цвет тени. Значение по умолчанию – автоматический чёрный (зависит от темы). Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | Горизонтальный угол наклона в градусах. Значение по умолчанию – 0 °. Чтение/запись Double. |
+| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | Вертикальный угол наклона в градусах. Значение по умолчанию – 0 °. Чтение/запись Double. |
 
-### См. также
+### Смотрите также
 
 * интерфейс [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * интерфейс [IOuterShadowEffectiveData](../ioutershadoweffectivedata)

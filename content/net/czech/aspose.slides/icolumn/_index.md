@@ -1,14 +1,14 @@
 ---
 title: IColumn
-second_title: Aspose.Sildes pro .NET API referenci
+second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje sloupec v tabulce.
 type: docs
-weight: 5520
+weight: 5540
 url: /cs/aspose.slides/icolumn/
 ---
 ## IColumn rozhraní
 
-Představuje sloupec v tabulce.
+Reprezentuje sloupec v tabulce.
 
 ```csharp
 public interface IColumn : IBulkTextFormattable, ICellCollection
@@ -23,7 +23,7 @@ public interface IColumn : IBulkTextFormattable, ICellCollection
 | [ColumnFormat](../../aspose.slides/icolumn/columnformat) { get; } | Vrací objekt ColumnFormat, který obsahuje vlastnosti formátování pro tento sloupec. Pouze pro čtení [`IColumnFormat`](../icolumnformat). |
 | [Width](../../aspose.slides/icolumn/width) { get; set; } | Vrací nebo nastavuje šířku sloupce. Čtení/zápis Double. |
 
-### Viz také
+### Další informace
 
 * rozhraní [IBulkTextFormattable](../ibulktextformattable)
 * rozhraní [ICellCollection](../icellcollection)

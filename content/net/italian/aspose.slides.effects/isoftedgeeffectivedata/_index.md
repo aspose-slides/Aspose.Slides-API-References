@@ -1,14 +1,14 @@
 ---
 title: ISoftEdgeEffectiveData
-second_title: Aspose.Sildes per .NET API Reference
-description: Oggetto immutabile che rappresenta un effetto bordo morbido. I bordi della forma sono sfocati mentre il riempimento non è influenzato.
+second_title: Riferimento API di Aspose.Sildes per .NET
+description: Oggetto immutabile che rappresenta un effetto di bordo morbido. I bordi della forma sono sfocati mentre il riempimento non è influenzato.
 type: docs
-weight: 3530
+weight: 3550
 url: /it/aspose.slides.effects/isoftedgeeffectivedata/
 ---
-## ISoftEdgeEffectiveData interface
+## ISoftEdgeEffectiveData interfaccia
 
-Oggetto immutabile che rappresenta un effetto bordo morbido. I bordi della forma sono sfocati, mentre il riempimento non è influenzato.
+Oggetto immutabile che rappresenta un effetto di bordo morbido. I bordi della forma sono sfocati, mentre il riempimento non è influenzato.
 
 ```csharp
 public interface ISoftEdgeEffectiveData : IEffectEffectiveData
@@ -18,10 +18,10 @@ public interface ISoftEdgeEffectiveData : IEffectEffectiveData
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/isoftedgeeffectivedata/asieffecteffectivedata) { get; } | Consente di ottenere l'interfaccia base IEffectEffectiveData. Sola lettura [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | Specifica il raggio della sfocatura da applicare ai bordi. Sola lettura Double. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/isoftedgeeffectivedata/asieffecteffectivedata) { get; } | Consente di ottenere l'interfaccia base IEffectEffectiveData. Solo lettura [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | Specifica il raggio di sfocatura da applicare ai bordi. Solo lettura Double. |
 
-### Vedi anche
+### Vedere anche
 
 * interfaccia [IEffectEffectiveData](../ieffecteffectivedata)
 * spazio dei nomi [Aspose.Slides.Effects](../../aspose.slides.effects)

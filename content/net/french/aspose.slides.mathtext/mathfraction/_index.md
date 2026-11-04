@@ -1,14 +1,14 @@
 ---
 title: MathFraction
-second_title: Référence API Aspose.Sildes pour .NET
-description: "Spécifie l'objet fraction composé d'un numérateur et d'un dénominateur séparés par une barre de fraction. La barre de fraction peut être horizontale ou diagonale selon les propriétés de la fraction. L'objet fraction est également utilisé pour représenter la fonction de pile qui place un élément au-dessus d'un autre sans barre de fraction."
+second_title: Aspose.Sildes pour l'API .NET
+description: Spécifie l'objet fraction composé d'un numérateur et d'un dénominateur séparés par une barre de fraction. La barre de fraction peut être horizontale ou diagonale selon les propriétés de la fraction. L'objet fraction est également utilisé pour représenter la fonction empilement qui place un élément au-dessus d'un autre sans barre de fraction.
 type: docs
-weight: 8690
+weight: 8710
 url: /fr/aspose.slides.mathtext/mathfraction/
 ---
-## MathFraction classe
+## Classe MathFraction
 
-Spécifie l'objet fraction, composé d'un numérateur et d'un dénominateur séparés par une barre de fraction. La barre de fraction peut être horizontale ou diagonale, selon les propriétés de la fraction. L'objet fraction est également utilisé pour représenter la fonction empilée, qui place un élément au-dessus d'un autre, sans barre de fraction.
+Spécifie l'objet fraction, composé d'un numérateur et d'un dénominateur séparés par une barre de fraction. La barre de fraction peut être horizontale ou diagonale, selon les propriétés de la fraction. L'objet fraction est également utilisé pour représenter la fonction empilement, qui place un élément au-dessus d'un autre, sans barre de fraction.
 
 ```csharp
 public sealed class MathFraction : MathElementBase, IMathFraction
@@ -26,14 +26,14 @@ public sealed class MathFraction : MathElementBase, IMathFraction
 | Nom | Description |
 | --- | --- |
 | [Denominator](../../aspose.slides.mathtext/mathfraction/denominator) { get; } | Dénominateur |
-| [FractionType](../../aspose.slides.mathtext/mathfraction/fractiontype) { get; set; } | Type de fraction Default: Bar |
+| [FractionType](../../aspose.slides.mathtext/mathfraction/fractiontype) { get; set; } | Type de fraction Par défaut : Bar |
 | [Numerator](../../aspose.slides.mathtext/mathfraction/numerator) { get; } | Numérateur |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [Accent](../../aspose.slides.mathtext/mathelementbase/accent)(char) | Définit une marque d'accent (un caractère au sommet de cet élément) |
+| [Accent](../../aspose.slides.mathtext/mathelementbase/accent)(char) | Définit un accent (un caractère au sommet de cet élément) |
 | [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(IMathElement) | Applique la fonction spécifiée en utilisant cette instance comme argument |
 | [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfOneArgument) | Applique la fonction spécifiée en utilisant cette instance comme argument |
 | [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(string) | Applique la fonction spécifiée en utilisant cette instance comme argument |
@@ -43,13 +43,13 @@ public sealed class MathFraction : MathElementBase, IMathFraction
 | [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(string) | Crée une fraction avec ce numérateur et le dénominateur spécifié |
 | [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(IMathElement, MathFractionTypes) | Crée une fraction du type spécifié avec ce numérateur et le dénominateur spécifié |
 | [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(string, MathFractionTypes) | Crée une fraction du type spécifié avec ce numérateur et le dénominateur spécifié |
-| [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)() | Enveloppe un élément mathématique entre parenthèses |
-| virtual [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)(char, char) | Enveloppe un élément mathématique entre des caractères spécifiés tels que des parenthèses ou d'autres caractères comme encadrement |
+| [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)() | Encadre un élément mathématique entre parenthèses |
+| virtual [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)(char, char) | Encadre un élément mathématique avec les caractères spécifiés, comme des parenthèses ou d'autres caractères de cadrage |
 | [Function](../../aspose.slides.mathtext/mathelementbase/function)(IMathElement) | Utilise une fonction d'argument en utilisant cette instance comme nom de fonction |
 | [Function](../../aspose.slides.mathtext/mathelementbase/function)(string) | Utilise une fonction d'argument en utilisant cette instance comme nom de fonction |
 | [GetChildren](../../aspose.slides.mathtext/mathfraction/getchildren)() | Obtient les éléments enfants |
 | [Group](../../aspose.slides.mathtext/mathelementbase/group)() | Place cet élément dans un groupe en utilisant une accolade inférieure |
-| [Group](../../aspose.slides.mathtext/mathelementbase/group)(char, MathTopBotPositions, MathTopBotPositions) | Place cet élément dans un groupe en utilisant un caractère de groupement tel qu'une accolade inférieure ou un autre |
+| [Group](../../aspose.slides.mathtext/mathelementbase/group)(char, MathTopBotPositions, MathTopBotPositions) | Place cet élément dans un groupe en utilisant un caractère de groupement tel qu'une accolade inférieure ou autre |
 | [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes) | Prend l'intégrale sans limites |
 | [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, IMathElement, IMathElement) | Prend l'intégrale |
 | [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, string, string) | Prend l'intégrale |
@@ -76,13 +76,13 @@ public sealed class MathFraction : MathElementBase, IMathFraction
 | [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit)(string) | Prend la limite supérieure |
 | [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)() | Place cet élément dans une boîte à bordure |
 | [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)(bool, bool, bool, bool, bool, bool, bool, bool) | Place cet élément dans une boîte à bordure |
-| [ToBox](../../aspose.slides.mathtext/mathelementbase/tobox)() | Place cet élément dans une boîte non visuelle (groupement logique) utilisée pour regrouper les composants d'une équation ou d'une autre instance de texte mathématique. Un objet encadré peut (par exemple) servir d'émulateur d'opérateur avec ou sans point d'alignement, servir de point de rupture de ligne, ou être groupé de façon à ne pas autoriser de ruptures de ligne à l'intérieur. |
+| [ToBox](../../aspose.slides.mathtext/mathelementbase/tobox)() | Place cet élément dans une boîte non visuelle (groupement logique) utilisée pour regrouper les composants d'une équation ou d'un autre texte mathématique. Un objet encadré peut (par exemple) servir d'émulateur d'opérateur avec ou sans point d'alignement, servir de point de saut de ligne, ou être groupé afin d'empêcher les sauts de ligne à l'intérieur. |
 | virtual [ToMathArray](../../aspose.slides.mathtext/mathelementbase/tomatharray)() | Place dans un tableau vertical |
 | [Underbar](../../aspose.slides.mathtext/mathelementbase/underbar)() | Place une barre au bas de cet élément |
 
 ### Exemples
 
-Example:
+Exemple :
 
 ```csharp
 [C#]

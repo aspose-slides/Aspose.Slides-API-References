@@ -1,14 +1,14 @@
 ---
 title: ChartCategory
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Representa categorías de gráficos.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Representa categorías de gráfico.
 type: docs
-weight: 1270
+weight: 1280
 url: /es/aspose.slides.charts/chartcategory/
 ---
 ## Clase ChartCategory
 
-Representa categorías de gráficos.
+Representa categorías de gráfico.
 
 ```csharp
 public class ChartCategory : IChartCategory
@@ -18,11 +18,12 @@ public class ChartCategory : IChartCategory
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/chartcategory/ascell) { get; set; } | Devuelve o establece el objeto IChartDataCell. Si la categoría es multinivel, entonces se usa el objeto IChartDataCell para el nivel "0". Lectura/escritura [`IChartDataCell`](../ichartdatacell). |
+| [AsCell](../../aspose.slides.charts/chartcategory/ascell) { get; set; } | Devuelve o establece el objeto IChartDataCell. Si la categoría es de varios niveles entonces se usa el objeto IChartDataCell para el nivel "0". Lectura/escritura [`IChartDataCell`](../ichartdatacell). |
 | [AsLiteral](../../aspose.slides.charts/chartcategory/asliteral) { get; set; } | Devuelve o establece el objeto AsLiteral. Lectura/escritura Object. |
-| [GroupingLevels](../../aspose.slides.charts/chartcategory/groupinglevels) { get; } | Contenedor gestionado de los valores de los niveles de agrupación de la categoría del gráfico. Una categoría multinivel contiene más de un nivel de agrupación. La indexación de los niveles de agrupación es basada en cero. Solo lectura [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
-| [UseCell](../../aspose.slides.charts/chartcategory/usecell) { get; } | Si es true, entonces la propiedad AsCell es la actual. En otras palabras, la hoja de cálculo se usa para almacenar la categoría (este caso admite una categoría multinivel). Si es false, entonces la propiedad AsLiteral es la actual. En otras palabras, la hoja de cálculo NO se usa para almacenar la categoría (y este caso no admite categorías multinivel). Solo lectura Boolean. |
-| [Value](../../aspose.slides.charts/chartcategory/value) { get; set; } | Si UseCell es true, entonces esta propiedad representa la propiedad AsCell.Value. Si UseCell es false, entonces esta propiedad representa la propiedad AsLiteral. Lectura/escritura Object. |
+| [CachedValue](../../aspose.slides.charts/chartcategory/cachedvalue) { get; } | Obtiene el valor almacenado en caché de una categoría de gráfico. Solo lectura [`ICachedChartValue`](../icachedchartvalue). |
+| [GroupingLevels](../../aspose.slides.charts/chartcategory/groupinglevels) { get; } | Contenedor gestionado de los valores de los niveles de agrupación de la categoría de gráfico. Una categoría de varios niveles contiene más de un nivel de agrupación. La indexación de los niveles de agrupación comienza en cero. Solo lectura [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
+| [UseCell](../../aspose.slides.charts/chartcategory/usecell) { get; } | Si es true entonces la propiedad AsCell es actual. En otras palabras, la hoja de cálculo se usa para almacenar la categoría (este caso admite una categoría de varios niveles). Si es false entonces la propiedad AsLiteral es actual. En otras palabras, la hoja de cálculo NO se usa para almacenar la categoría (y este caso no admite categorías de varios niveles). Solo lectura Boolean. |
+| [Value](../../aspose.slides.charts/chartcategory/value) { get; set; } | Si UseCell es true entonces esta propiedad representa la propiedad AsCell.Value. Si UseCell es false entonces esta propiedad representa la propiedad AsLiteral. Lectura/escritura Object. |
 
 ## Métodos
 

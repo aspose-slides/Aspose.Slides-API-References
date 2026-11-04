@@ -1,9 +1,9 @@
 ---
 title: ISummaryZoomSectionCollection
-second_title: Aspose.Slides för .NET API-referens
+second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en samling av Summary Zoom Section-objekt.
 type: docs
-weight: 7170
+weight: 7190
 url: /sv/aspose.slides/isummaryzoomsectioncollection/
 ---
 ## ISummaryZoomSectionCollection gränssnitt
@@ -27,7 +27,7 @@ public interface ISummaryZoomSectionCollection : IGenericCollection<ISummaryZoom
 | [AddSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection)(ISection) | Skapar ett nytt Summary Zoom Section-objekt och lägger till det i samlingen |
 | [Clear](../../aspose.slides/isummaryzoomsectioncollection/clear)() | Tar bort alla SummaryZoomSection-objekt från samlingen. |
 | [GetSummarySection](../../aspose.slides/isummaryzoomsectioncollection/getsummarysection)(ISection) | Returnerar Summary Zoom Section-element för den angivna sektionen. |
-| [IndexOf](../../aspose.slides/isummaryzoomsectioncollection/indexof)(ISummaryZoomSection) | Returnerar ett index för det angivna SummaryZoomSection-objektet. |
+| [IndexOf](../../aspose.slides/isummaryzoomsectioncollection/indexof)(ISummaryZoomSection) | Returnerar ett index för det specificerade SummaryZoomSection-objektet. |
 | [RemoveSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/removesummaryzoomsection)(ISection) | Tar bort Summary Zoom Section-objektet från samlingen. |
 
 ### Se även

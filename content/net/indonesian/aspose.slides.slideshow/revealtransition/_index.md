@@ -3,7 +3,7 @@ title: RevealTransition
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Efek transisi slide Reveal.
 type: docs
-weight: 10280
+weight: 10300
 url: /id/aspose.slides.slideshow/revealtransition/
 ---
 ## RevealTransition kelas
@@ -16,14 +16,14 @@ public class RevealTransition : TransitionValueBase, IRevealTransition
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/revealtransition/direction) { get; set; } | Arah transisi. Baca/tulis [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
-| [ThroughBlack](../../aspose.slides.slideshow/revealtransition/throughblack) { get; set; } | Menentukan apakah transisi memudar melalui hitam. Baca/tulis Boolean. |
+| [ThroughBlack](../../aspose.slides.slideshow/revealtransition/throughblack) { get; set; } | Menentukan apakah transisi memudar melalui warna hitam. Baca/tulis Boolean. |
 
 ## Metode
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Menentukan apakah dua instance TransitionValueBase sama. |
 | override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Berfungsi sebagai fungsi hash untuk tipe tertentu, cocok untuk digunakan dalam algoritma hashing dan struktur data seperti tabel hash. |

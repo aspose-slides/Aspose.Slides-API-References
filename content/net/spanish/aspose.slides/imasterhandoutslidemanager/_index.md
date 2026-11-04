@@ -1,9 +1,9 @@
 ---
 title: IMasterHandoutSlideManager
-second_title: Referencia de la API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Administrador de diapositivas de folleto maestro.
 type: docs
-weight: 6370
+weight: 6390
 url: /es/aspose.slides/imasterhandoutslidemanager/
 ---
 ## IMasterHandoutSlideManager interfaz

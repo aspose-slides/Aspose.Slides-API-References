@@ -1,14 +1,14 @@
 ---
 title: ILineFormatCollectionEffectiveData
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Đối tượng bất biến đại diện cho một bộ sưu tập chỉ đọc của các định dạng đường hiệu lực.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đối tượng bất biến đại diện cho một bộ sưu tập chỉ đọc của các định dạng đường hiệu quả.
 type: docs
-weight: 11300
+weight: 11320
 url: /vi/aspose.slides.theme/ilineformatcollectioneffectivedata/
 ---
-## ILineFormatCollectionEffectiveData giao diện
+## ILineFormatCollectionEffectiveData interface
 
-Đối tượng bất biến đại diện cho một bộ sưu tập chỉ đọc của các định dạng đường hiệu lực.
+Đối tượng bất biến đại diện cho một bộ sưu tập chỉ đọc của các định dạng đường hiệu quả.
 
 ```csharp
 public interface ILineFormatCollectionEffectiveData : IGenericCollection<ILineFormatEffectiveData>
@@ -18,7 +18,7 @@ public interface ILineFormatCollectionEffectiveData : IGenericCollection<ILineFo
 
 | Tên | Mô tả |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ilineformatcollectioneffectivedata/item) { get; } | Lấy phần tử tại chỉ mục được chỉ định. Chỉ đọc [`ILineFormatEffectiveData`](../../aspose.slides/ilineformateffectivedata). |
+| [Item](../../aspose.slides.theme/ilineformatcollectioneffectivedata/item) { get; } | Lấy phần tử tại chỉ số được chỉ định. Chỉ đọc [`ILineFormatEffectiveData`](../../aspose.slides/ilineformateffectivedata). |
 
 ### Ghi chú
 

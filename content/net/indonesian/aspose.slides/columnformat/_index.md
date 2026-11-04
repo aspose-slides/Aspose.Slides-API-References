@@ -1,14 +1,14 @@
 ---
 title: ColumnFormat
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili format kolom tabel.
 type: docs
-weight: 2610
+weight: 2630
 url: /id/aspose.slides/columnformat/
 ---
-## ColumnFormat class
+## ColumnFormat kelas
 
-Mewakili format kolom tabel.
+Represents format of a table column.
 
 ```csharp
 public sealed class ColumnFormat : DomObject<Column>, IColumnFormat
@@ -16,9 +16,9 @@ public sealed class ColumnFormat : DomObject<Column>, IColumnFormat
 
 ## Metode
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [GetEffective](../../aspose.slides/columnformat/geteffective)() | Mendapatkan properti pemformatan kolom tabel yang efektif dengan pewarisan dan gaya tabel yang diterapkan. |
+| [GetEffective](../../aspose.slides/columnformat/geteffective)() | Mendapatkan properti format kolom tabel yang efektif dengan pewarisan dan gaya tabel yang diterapkan. |
 
 ### Lihat Juga
 

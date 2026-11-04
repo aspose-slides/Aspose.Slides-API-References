@@ -3,7 +3,7 @@ title: IChartParagraphFormat
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje vlastnosti formátování odstavce grafu.
 type: docs
-weight: 1900
+weight: 1920
 url: /cs/aspose.slides.charts/ichartparagraphformat/
 ---
 ## IChartParagraphFormat rozhraní
@@ -18,20 +18,20 @@ public interface IChartParagraphFormat
 
 | Název | Popis |
 | --- | --- |
-| [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | Vrací nebo nastavuje zarovnání textu v odstavci. Čtení/zápis [`TextAlignment`](../../aspose.slides/textalignment). |
-| [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | Vrací nebo nastavuje výchozí velikost tabulátoru. Čtení/zápis Single. |
-| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | Určuje, zda se v odstavci používá východoasijské zalomení řádku. Čtení/zápis [`NullableBool`](../../aspose.slides/nullablebool). |
-| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | Vrací nebo nastavuje zarovnání písma v odstavci. Čtení/zápis [`FontAlignment`](../../aspose.slides/fontalignment). |
-| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | Určuje, zda se v odstavci používá visící interpunkce. Čtení/zápis [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | Vrací nebo nastavuje odsazení první řádky/visící odsazení odstavce. Visící odsazení může být definováno zápornými hodnotami. Čtení/zápis Single. |
-| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | Určuje, zda se v odstavci používá latinské zalomení řádku. Čtení/zápis [`NullableBool`](../../aspose.slides/nullablebool). |
-| [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | Vrací nebo nastavuje levý okraj v odstavci. Čtení/zápis Single. |
-| [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | Vrací nebo nastavuje pravý okraj v odstavci. Čtení/zápis Single. |
-| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | Určuje, zda se v odstavci používá psaní zprava doleva. Čtení/zápis [`NullableBool`](../../aspose.slides/nullablebool). |
-| [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | Vrací nebo nastavuje množství prostoru po posledním řádku v odstavci. Čtení/zápis Single. |
-| [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | Vrací nebo nastavuje množství prostoru před prvním řádkem v odstavci. Čtení/zápis Single. |
-| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | Vrací nebo nastavuje množství prostoru mezi základními řádky v odstavci. Čtení/zápis Single. |
-| [Tabs](../../aspose.slides.charts/ichartparagraphformat/tabs) { get; } | Vrací tabulátory odstavce. Pouze pro čtení [`ITabCollection`](../../aspose.slides/itabcollection). |
+| [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | Vrací nebo nastavuje zarovnání textu v odstavci. Číst/Zapisovat [`TextAlignment`](../../aspose.slides/textalignment). |
+| [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | Vrací nebo nastavuje výchozí velikost tabulátoru. Číst/Zapisovat Single. |
+| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | Určuje, zda se v odstavci používá východoasijské zalomení řádku. Číst/Zapisovat [`NullableBool`](../../aspose.slides/nullablebool). |
+| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | Vrací nebo nastavuje zarovnání písma v odstavci. Číst/Zapisovat [`FontAlignment`](../../aspose.slides/fontalignment). |
+| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | Určuje, zda se v odstavci používá závěsná interpunkce. Číst/Zapisovat [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | Vrací nebo nastavuje První řádek odstavce/Závěsné odsazení. Závěsné odsazení může být definováno zápornými hodnotami. Číst/Zapisovat Single. |
+| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | Určuje, zda se v odstavci používá latinské zalomení řádku. Číst/Zapisovat [`NullableBool`](../../aspose.slides/nullablebool). |
+| [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | Vrací nebo nastavuje levý okraj v odstavci. Číst/Zapisovat Single. |
+| [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | Vrací nebo nastavuje pravý okraj v odstavci. Číst/Zapisovat Single. |
+| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | Určuje, zda se v odstavci používá zápis zprava doleva. Číst/Zapisovat [`NullableBool`](../../aspose.slides/nullablebool). |
+| [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | Vrací nebo nastavuje množství prostoru po poslední řádce v odstavci. Číst/Zapisovat Single. |
+| [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | Vrací nebo nastavuje množství prostoru před první řádkou v odstavci. Číst/Zapisovat Single. |
+| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | Vrací nebo nastavuje množství prostoru mezi základními řádky v odstavci. Číst/Zapisovat Single. |
+| [Tabs](../../aspose.slides.charts/ichartparagraphformat/tabs) { get; } | Vrací tabulátory odstavce. Pouze ke čtení [`ITabCollection`](../../aspose.slides/itabcollection). |
 
 ### Viz také
 

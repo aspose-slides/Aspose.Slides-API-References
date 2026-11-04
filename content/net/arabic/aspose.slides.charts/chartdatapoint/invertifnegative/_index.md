@@ -1,14 +1,14 @@
 ---
 title: InvertIfNegative
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: يحدد أن نقطة البيانات يجب أن تعكس ألوانها إذا كانت القيمة سلبية. قراءة/كتابة Boolean.
+description: يحدد أن نقطة البيانات يجب أن تعكس ألوانها إذا كانت القيمة سالبة. قراءة/كتابة Boolean.
 type: docs
-weight: 120
+weight: 160
 url: /ar/aspose.slides.charts/chartdatapoint/invertifnegative/
 ---
-## ChartDataPoint.InvertIfNegative الخاصية
+## ChartDataPoint.InvertIfNegative خاصية
 
-يحدد أن نقطة البيانات يجب أن تعكس ألوانها إذا كانت القيمة سلبية. قراءة/كتابة Boolean.
+يحدد أن نقطة البيانات يجب أن تعكس ألوانها إذا كانت القيمة سالبة. قراءة/كتابة Boolean.
 
 ```csharp
 public bool InvertIfNegative { get; set; }

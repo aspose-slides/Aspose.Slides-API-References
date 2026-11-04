@@ -1,14 +1,14 @@
 ---
 title: ICellFormatEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
-description: Oföränderligt objekt som innehåller effektiva formateringsattribut för tabellceller.
+description: Oföränderligt objekt som innehåller effektiva formateringsegenskaper för tabellceller.
 type: docs
-weight: 5480
+weight: 5500
 url: /sv/aspose.slides/icellformateffectivedata/
 ---
 ## ICellFormatEffectiveData gränssnitt
 
-Oföränderligt objekt som innehåller effektiva formaterings-egenskaper för tabellceller.
+Oföränderligt objekt som innehåller effektiva formateringsegenskaper för tabellceller.
 
 ```csharp
 public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -19,7 +19,7 @@ public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
 | Namn | Beskrivning |
 | --- | --- |
 | [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | Tillåter att hämta bas-IBaseTableFormatEffectiveData-gränssnittet. Skrivskyddad [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
-| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | Hämtar genomskinligheten för fyllningsfärgen. Läser Single. |
+| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | Hämtar fyllningsfärgens genomskinlighet. Läs Single. |
 
 ### Anmärkningar
 

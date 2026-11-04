@@ -1,14 +1,14 @@
 ---
 title: TextVerticalOverflowType
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: टेक्स्ट वर्टिकल ओवरफ़्लो प्रकार का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: पाठ के लंबवत ओवरफ़्लो प्रकार का प्रतिनिधित्व करता है।
 type: docs
-weight: 11020
+weight: 11040
 url: /hi/aspose.slides/textverticaloverflowtype/
 ---
-## TextVerticalOverflowType एन्युमरेशन
+## TextVerticalOverflowType एन्यूमरेशन
 
-टेक्स्ट वर्टिकल ओवरफ़्लो प्रकार का प्रतिनिधित्व करता है।
+पाठ के लंबवत ओवरफ़्लो प्रकार का प्रतिनिधित्व करता है।
 
 ```csharp
 public enum TextVerticalOverflowType : sbyte
@@ -23,7 +23,7 @@ public enum TextVerticalOverflowType : sbyte
 | Ellipsis | `1` |  |
 | Clip | `2` |  |
 
-### और देखें
+### देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

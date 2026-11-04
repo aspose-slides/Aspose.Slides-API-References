@@ -1,14 +1,14 @@
 ---
 title: IPortionFormatEffectiveData
 second_title: Aspose.Sildes .NET API referencia
-description: Módosíthatatlan objektum, amely a szövegrész hatékony formázási tulajdonságait tartalmazza.
+description: Módosíthatatlan objektum, amely a hatékony szövegrész formázási tulajdonságokat tartalmaz.
 type: docs
-weight: 6740
+weight: 6760
 url: /hu/aspose.slides/iportionformateffectivedata/
 ---
 ## IPortionFormatEffectiveData interfész
 
-Módosíthatatlan objektum, amely a szövegdarab hatékony formázási tulajdonságait tartalmazza.
+Módosíthatatlan objektum, amely a hatékony szövegrész formázási tulajdonságokat tartalmaz.
 
 ```csharp
 public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
@@ -21,11 +21,11 @@ public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
 | [AsIBasePortionFormatEffectiveData](../../aspose.slides/iportionformateffectivedata/asibaseportionformateffectivedata) { get; } | Visszaadja az IBasePortionFormatEffectiveData interfészt. |
 | [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | Visszaadja a könyvjelző azonosítót. Csak olvasható String. |
 | [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | Visszaadja az egérkattintásra definiált hiperhivatkozást. Csak olvasható [`IHyperlink`](../ihyperlink). |
-| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | Visszaadja az egér fölé vitt eseményhez definiált hiperhivatkozást. Csak olvasható [`IHyperlink`](../ihyperlink). |
+| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | Visszaadja az egér fölé mozgatásra definiált hiperhivatkozást. Csak olvasható [`IHyperlink`](../ihyperlink). |
 
-### Megjegyzés
+### Megjegyzések
 
-Ez az interfész a [`IPortionFormat`](../iportionformat) interfésszel együtt használható a hatékony formázási értékek visszaadásához, öröklődéssel alkalmazva.
+Ez az interfész a [`IPortionFormat`](../iportionformat) interfésszel együtt használható a hatékony formázási értékek visszaadására, öröklődés alkalmazásával.
 
 ### Lásd még
 

@@ -1,14 +1,14 @@
 ---
 title: RemoveUnusedLayoutSlides
-second_title: Aspose.Sildes .NET API referencia
-description: A Presentationaspose.slides/presentation tömörítését végzi a nem használt elrendezési diák eltávolításával.
+second_title: Aspose.Sildes .NET API Referencia
+description: Tömöríti a Presentation aspose.slides/presentation elemet a nem használt elrendezési diák eltávolításával.
 type: docs
-weight: 20
+weight: 40
 url: /hu/aspose.slides.lowcode/compress/removeunusedlayoutslides/
 ---
 ## Compress.RemoveUnusedLayoutSlides metódus
 
-A(z) [`Presentation`](../../../aspose.slides/presentation) tömörítése a nem használt elrendezési diák eltávolításával.
+A(z) [`Presentation`](../../../aspose.slides/presentation) tömörítését végzi a nem használt elrendezési diák eltávolításával.
 
 ```csharp
 public static void RemoveUnusedLayoutSlides(Presentation pres)

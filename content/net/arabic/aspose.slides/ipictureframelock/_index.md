@@ -1,14 +1,14 @@
 ---
 title: IPictureFrameLock
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: يحدد العمليات التي تم تعطيلها على العنصر الأب PictureFrameEx.
+description: يحدد العمليات التي تم تعطيلها على الكائن الأب PictureFrameEx.
 type: docs
-weight: 6680
+weight: 6700
 url: /ar/aspose.slides/ipictureframelock/
 ---
-## IPictureFrameLock واجهة
+## IPictureFrameLock الواجهة
 
-يحدد العمليات التي تم تعطيلها على العنصر الأب PictureFrameEx.
+Determines which operations are disabled on the parent PictureFrameEx.
 
 ```csharp
 public interface IPictureFrameLock : IBaseShapeLock
@@ -18,23 +18,23 @@ public interface IPictureFrameLock : IBaseShapeLock
 
 | الاسم | الوصف |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/ipictureframelock/adjusthandleslocked) { get; set; } | يحدد ما إذا كان تعديل قيم الضبط ممنوعًا. قابل للقراءة/الكتابة Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/ipictureframelock/arrowheadslocked) { get; set; } | يحدد ما إذا كان تعديل رؤوس السهام ممنوعًا. قابل للقراءة/الكتابة Boolean. |
-| [AsIBaseShapeLock](../../aspose.slides/ipictureframelock/asibaseshapelock) { get; } | يسمح بالحصول على واجهة IBaseShapeLock الأساسية. للقراءة فقط [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/ipictureframelock/aspectratiolocked) { get; set; } | يحدد ما إذا كان يجب على الشكل الحفاظ على نسبة الأبعاد عند تغيير الحجم. قابل للقراءة/الكتابة Boolean. |
-| [CropLocked](../../aspose.slides/ipictureframelock/croplocked) { get; set; } | يحدد ما إذا كان اقتصاص الصورة ممنوعًا. قابل للقراءة/الكتابة Boolean. |
-| [EditPointsLocked](../../aspose.slides/ipictureframelock/editpointslocked) { get; set; } | يحدد ما إذا كان تعديل مباشر لمحيط هذا الشكل ممنوعًا. قابل للقراءة/الكتابة Boolean. |
-| [GroupingLocked](../../aspose.slides/ipictureframelock/groupinglocked) { get; set; } | يحدد ما إذا كان إضافة هذا الشكل إلى مجموعة ممنوحًا. قابل للقراءة/الكتابة Boolean. |
-| [PositionLocked](../../aspose.slides/ipictureframelock/positionlocked) { get; set; } | يحدد ما إذا كان تحريك هذا الشكل ممنوعًا. قابل للقراءة/الكتابة Boolean. |
-| [RotationLocked](../../aspose.slides/ipictureframelock/rotationlocked) { get; set; } | يحدد ما إذا كان تعديل زاوية الدوران لهذا الشكل ممنوحًا. قابل للقراءة/الكتابة Boolean. |
-| [SelectLocked](../../aspose.slides/ipictureframelock/selectlocked) { get; set; } | يحدد ما إذا كان اختيار هذا الشكل ممنوحًا. قابل للقراءة/الكتابة Boolean. |
-| [ShapeTypeLocked](../../aspose.slides/ipictureframelock/shapetypelocked) { get; set; } | يحدد ما إذا كان تعديل نوع الشكل ممنوحًا. قابل للقراءة/الكتابة Boolean. |
-| [SizeLocked](../../aspose.slides/ipictureframelock/sizelocked) { get; set; } | يحدد ما إذا كان تغيير حجم هذا الشكل ممنوحًا. قابل للقراءة/الكتابة Boolean. |
+| [AdjustHandlesLocked](../../aspose.slides/ipictureframelock/adjusthandleslocked) { get; set; } | يحدد ما إذا كان تغيير قيم الضبط ممنوعًا. قراءة/كتابة Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/ipictureframelock/arrowheadslocked) { get; set; } | يحدد ما إذا كان تغيير رؤوس الأسهم ممنوعًا. قراءة/كتابة Boolean. |
+| [AsIBaseShapeLock](../../aspose.slides/ipictureframelock/asibaseshapelock) { get; } | يسمح بالحصول على الواجهة الأساسية IBaseShapeLock. قراءة فقط [`IBaseShapeLock`](../ibaseshapelock). |
+| [AspectRatioLocked](../../aspose.slides/ipictureframelock/aspectratiolocked) { get; set; } | يحدد ما إذا كان يجب على الشكل الحفاظ على نسبة الأبعاد عند تغيير الحجم. قراءة/كتابة Boolean. |
+| [CropLocked](../../aspose.slides/ipictureframelock/croplocked) { get; set; } | يحدد ما إذا كان قص الصورة ممنوعًا. قراءة/كتابة Boolean. |
+| [EditPointsLocked](../../aspose.slides/ipictureframelock/editpointslocked) { get; set; } | يحدد ما إذا كان تعديل الحدود المباشر لهذا الشكل ممنوعًا. قراءة/كتابة Boolean. |
+| [GroupingLocked](../../aspose.slides/ipictureframelock/groupinglocked) { get; set; } | يحدد ما إذا كان إضافة هذا الشكل إلى مجموعة ممنوعًا. قراءة/كتابة Boolean. |
+| [PositionLocked](../../aspose.slides/ipictureframelock/positionlocked) { get; set; } | يحدد ما إذا كان تحريك هذا الشكل ممنوعًا. قراءة/كتابة Boolean. |
+| [RotationLocked](../../aspose.slides/ipictureframelock/rotationlocked) { get; set; } | يحدد ما إذا كان تغيير زاوية الدوران لهذا الشكل ممنوعًا. قراءة/كتابة Boolean. |
+| [SelectLocked](../../aspose.slides/ipictureframelock/selectlocked) { get; set; } | يحدد ما إذا كان تحديد هذا الشكل ممنوعًا. قراءة/كتابة Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/ipictureframelock/shapetypelocked) { get; set; } | يحدد ما إذا كان تغيير نوع الشكل ممنوعًا. قراءة/كتابة Boolean. |
+| [SizeLocked](../../aspose.slides/ipictureframelock/sizelocked) { get; set; } | يحدد ما إذا كان تغيير حجم هذا الشكل ممنوعًا. قراءة/كتابة Boolean. |
 
 ### انظر أيضًا
 
-* واجهة [IBaseShapeLock](../ibaseshapelock)
-* مساحة الاسم [Aspose.Slides](../../aspose.slides)
-* تجميع [Aspose.Slides](../../)
+* الواجهة [IBaseShapeLock](../ibaseshapelock)
+* النطاق [Aspose.Slides](../../aspose.slides)
+* التجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

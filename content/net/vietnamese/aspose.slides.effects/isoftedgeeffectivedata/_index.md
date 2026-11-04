@@ -1,14 +1,14 @@
 ---
 title: ISoftEdgeEffectiveData
 second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Đối tượng bất biến đại diện cho hiệu ứng viền mềm. Các cạnh của hình được làm mờ trong khi phần tô nền không bị ảnh hưởng.
+description: Đối tượng bất biến đại diện cho hiệu ứng cạnh mềm. Các cạnh của hình dạng bị làm mờ trong khi phần nền không bị ảnh hưởng.
 type: docs
-weight: 3530
+weight: 3550
 url: /vi/aspose.slides.effects/isoftedgeeffectivedata/
 ---
-## ISoftEdgeEffectiveData interface
+## ISoftEdgeEffectiveData giao diện
 
-Đối tượng bất biến đại diện cho hiệu ứng viền mềm. Các cạnh của hình được làm mờ, trong khi phần tô nền không bị ảnh hưởng.
+Đối tượng bất biến đại diện cho hiệu ứng cạnh mềm. Các cạnh của hình dạng bị làm mờ, trong khi phần nền không bị ảnh hưởng.
 
 ```csharp
 public interface ISoftEdgeEffectiveData : IEffectEffectiveData

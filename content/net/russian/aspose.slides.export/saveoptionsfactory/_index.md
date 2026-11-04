@@ -1,9 +1,9 @@
 ---
 title: SaveOptionsFactory
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для .NET API Reference
 description: Позволяет создавать экземпляры параметров сохранения
 type: docs
-weight: 4460
+weight: 4480
 url: /ru/aspose.slides.export/saveoptionsfactory/
 ---
 ## SaveOptionsFactory класс

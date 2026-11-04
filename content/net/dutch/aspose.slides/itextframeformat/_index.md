@@ -1,14 +1,14 @@
 ---
 title: ITextFrameFormat
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Bevat de opmaak-eigenschappen van de TextFrames.
+description: Bevat de opmaak-eigenschappen van TextFrames.
 type: docs
-weight: 7280
+weight: 7300
 url: /nl/aspose.slides/itextframeformat/
 ---
 ## ITextFrameFormat interface
 
-Bevat de opmaak-eigenschappen van de TextFrame.
+Bevat de opmaak-eigenschappen van het TextFrame.
 
 ```csharp
 public interface ITextFrameFormat
@@ -18,32 +18,32 @@ public interface ITextFrameFormat
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AnchoringType](../../aspose.slides/itextframeformat/anchoringtype) { get; set; } | Retourneert of stelt verticale ankertekst in een TextFrame in. Lezen/schrijven [`TextAnchorType`](../textanchortype). |
-| [AutofitType](../../aspose.slides/itextframeformat/autofittype) { get; set; } | Retourneert of stelt de autofit-modus van de tekst in. Lezen/schrijven [`TextAutofitType`](../textautofittype). |
+| [AnchoringType](../../aspose.slides/itextframeformat/anchoringtype) { get; set; } | Geeft de verticale ankertekst in een TextFrame terug of stelt deze in. Lezen/schrijven [`TextAnchorType`](../textanchortype). |
+| [AutofitType](../../aspose.slides/itextframeformat/autofittype) { get; set; } | Geeft de autofit-modus van de tekst terug of stelt deze in. Lezen/schrijven [`TextAutofitType`](../textautofittype). |
 | [CenterText](../../aspose.slides/itextframeformat/centertext) { get; set; } | Als NullableBool.True dan moet de tekst horizontaal gecentreerd worden in het vak. Lezen/schrijven [`NullableBool`](../nullablebool). |
-| [ColumnCount](../../aspose.slides/itextframeformat/columncount) { get; set; } | Retourneert of stelt het aantal kolommen in het tekstgebied in. Deze waarde moet een positief getal zijn. Anders wordt de waarde op nul gezet. Waarde 0 betekent ongedefinieerde waarde. Lezen/schrijven Int32. |
-| [ColumnSpacing](../../aspose.slides/itextframeformat/columnspacing) { get; set; } | Retourneert of stelt de ruimte tussen tekstkolommen in het tekstgebied in (in points). Dit geldt alleen als er meer dan 1 kolom aanwezig is. Deze waarde moet een positief getal zijn. Anders wordt de waarde op nul gezet. Lezen/schrijven Double. |
-| [KeepTextFlat](../../aspose.slides/itextframeformat/keeptextflat) { get; set; } | Retourneert of stelt in om de tekst volledig buiten de 3D-scène te houden. Lezen/schrijven Boolean. |
-| [MarginBottom](../../aspose.slides/itextframeformat/marginbottom) { get; set; } | Retourneert of stelt de onderste marge (points) in een TextFrame in. Lezen/schrijven Double. |
-| [MarginLeft](../../aspose.slides/itextframeformat/marginleft) { get; set; } | Retourneert of stelt de linkermarge (points) in een TextFrame in. Lezen/schrijven Double. |
-| [MarginRight](../../aspose.slides/itextframeformat/marginright) { get; set; } | Retourneert of stelt de rechtermarge (points) in een TextFrame in. Lezen/schrijven Double. |
-| [MarginTop](../../aspose.slides/itextframeformat/margintop) { get; set; } | Retourneert of stelt de bovenmarge (points) in een TextFrame in. Lezen/schrijven Double. |
-| [RotationAngle](../../aspose.slides/itextframeformat/rotationangle) { get; set; } | Bepaalt de aangepaste rotatie die op de tekst binnen de omgrenzende doos wordt toegepast. Als deze niet is gespecificeerd, wordt de rotatie van de bijbehorende vorm gebruikt. Als deze wel is gespecificeerd, wordt deze onafhankelijk van de vorm toegepast. De vorm kan dus een rotatie hebben, naast de rotatie die op de tekst zelf wordt toegepast. De resulterende waarde van de visuele tekstrotatie, samengevat uit deze eigenschap en het vooraf gedefinieerde verticale type in de eigenschap TextVerticalType. Lezen/schrijven Single. |
-| [TextStyle](../../aspose.slides/itextframeformat/textstyle) { get; } | Retourneert de stijl van de tekst. Alleen-lezen [`ITextStyle`](../itextstyle). |
-| [TextVerticalType](../../aspose.slides/itextframeformat/textverticaltype) { get; set; } | Bepaalt de oriëntatie van de tekst. De resulterende waarde van de visuele tekstrotatie, samengevat uit deze eigenschap en de aangepaste hoek in de eigenschap RotationAngle. Lezen/schrijven [`TextVerticalType`](../textverticaltype). |
-| [ThreeDFormat](../../aspose.slides/itextframeformat/threedformat) { get; } | Retourneert het ThreeDFormat-object dat de 3D-effecteigenschappen voor een tekst vertegenwoordigt. Alleen-lezen [`IThreeDFormat`](../ithreedformat). |
-| [Transform](../../aspose.slides/itextframeformat/transform) { get; set; } | Retourneert of stelt de tekstomwikkelingsvorm in. Lezen/schrijven [`TextShapeType`](../textshapetype). |
-| [WrapText](../../aspose.slides/itextframeformat/wraptext) { get; set; } | **True** als tekst wordt afgebroken bij de marges van de TextFrame. Lezen/schrijven [`NullableBool`](../nullablebool). |
+| [ColumnCount](../../aspose.slides/itextframeformat/columncount) { get; set; } | Geeft het aantal kolommen in het tekstgebied terug of stelt dit in. Deze waarde moet een positief getal zijn. Anders wordt de waarde op nul gezet. Waarde 0 betekent een ongedefinieerde waarde. Lezen/schrijven Int32. |
+| [ColumnSpacing](../../aspose.slides/itextframeformat/columnspacing) { get; set; } | Geeft de ruimte tussen tekstkolommen in het tekstgebied terug of stelt deze in (in punten). Dit geldt alleen wanneer er meer dan 1 kolom aanwezig is. Deze waarde moet een positief getal zijn. Anders wordt de waarde op nul gezet. Lezen/schrijven Double. |
+| [KeepTextFlat](../../aspose.slides/itextframeformat/keeptextflat) { get; set; } | Geeft terug of stelt in dat de tekst volledig uit de 3D-scène wordt gehouden. Lezen/schrijven Boolean. |
+| [MarginBottom](../../aspose.slides/itextframeformat/marginbottom) { get; set; } | Geeft de onderste marge (punten) in een TextFrame terug of stelt deze in. Lezen/schrijven Double. |
+| [MarginLeft](../../aspose.slides/itextframeformat/marginleft) { get; set; } | Geeft de linker marge (punten) in een TextFrame terug of stelt deze in. Lezen/schrijven Double. |
+| [MarginRight](../../aspose.slides/itextframeformat/marginright) { get; set; } | Geeft de rechter marge (punten) in een TextFrame terug of stelt deze in. Lezen/schrijven Double. |
+| [MarginTop](../../aspose.slides/itextframeformat/margintop) { get; set; } | Geeft de bovenste marge (punten) in een TextFrame terug of stelt deze in. Lezen/schrijven Double. |
+| [RotationAngle](../../aspose.slides/itextframeformat/rotationangle) { get; set; } | Specificeert de aangepaste rotatie die op de tekst binnen het begrenzende vak wordt toegepast. Als deze niet is opgegeven, wordt de rotatie van de bijbehorende vorm gebruikt. Als deze wel is opgegeven, wordt deze onafhankelijk van de vorm toegepast. Dat betekent dat de vorm een rotatie kan hebben naast de rotatie die op de tekst zelf wordt toegepast. De resulterende waarde van de visuele tekstrotatie wordt samengevat uit deze eigenschap en het vooraf gedefinieerde verticale type in de eigenschap TextVerticalType. Lezen/schrijven Single. |
+| [TextStyle](../../aspose.slides/itextframeformat/textstyle) { get; } | Geeft de stijl van de tekst terug. Alleen-lezen [`ITextStyle`](../itextstyle). |
+| [TextVerticalType](../../aspose.slides/itextframeformat/textverticaltype) { get; set; } | Bepaalt de tekstrichting. De resulterende waarde van de visuele tekstrotatie wordt samengevat uit deze eigenschap en de aangepaste hoek in de eigenschap RotationAngle. Lezen/schrijven [`TextVerticalType`](../textverticaltype). |
+| [ThreeDFormat](../../aspose.slides/itextframeformat/threedformat) { get; } | Geeft het ThreeDFormat-object terug dat de 3D-effecteigenschappen voor een tekst vertegenwoordigt. Alleen-lezen [`IThreeDFormat`](../ithreedformat). |
+| [Transform](../../aspose.slides/itextframeformat/transform) { get; set; } | Geeft de tekstomslagvorm terug of stelt deze in. Lezen/schrijven [`TextShapeType`](../textshapetype). |
+| [WrapText](../../aspose.slides/itextframeformat/wraptext) { get; set; } | **True** als tekst wordt gewikkeld langs de marges van het TextFrame. Lezen/schrijven [`NullableBool`](../nullablebool). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [GetEffective](../../aspose.slides/itextframeformat/geteffective)() | Haalt effectieve tekstframe-formatteergegevens op met de toegepaste overerving. |
+| [GetEffective](../../aspose.slides/itextframeformat/geteffective)() | Verkrijgt effectieve tekstframe-opmaakgegevens met de toegepaste overerving. |
 
 ### Zie ook
 
-* naamruimte [Aspose.Slides](../../aspose.slides)
+* namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

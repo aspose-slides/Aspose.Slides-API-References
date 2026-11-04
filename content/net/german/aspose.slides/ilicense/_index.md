@@ -1,14 +1,14 @@
 ---
 title: ILicense
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt Methoden bereit, um die Komponente zu lizenzieren.
+description: Stellt Methoden zum Lizenzieren der Komponente bereit.
 type: docs
-weight: 6260
+weight: 6280
 url: /de/aspose.slides/ilicense/
 ---
 ## ILicense Schnittstelle
 
-Stellt Methoden bereit, um die Komponente zu lizenzieren.
+Stellt Methoden zum Lizenzieren der Komponente bereit.
 
 ```csharp
 public interface ILicense
@@ -18,7 +18,7 @@ public interface ILicense
 
 | Name | Beschreibung |
 | --- | --- |
-| [IsLicensed](../../aspose.slides/ilicense/islicensed)() | Überprüft, ob die Lizenz auf die Komponente angewendet wurde |
+| [IsLicensed](../../aspose.slides/ilicense/islicensed)() | Prüft, ob die Lizenz auf die Komponente angewendet wurde |
 | [ResetLicense](../../aspose.slides/ilicense/resetlicense)() | Setzt die Lizenz zurück |
 | [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense)(Stream) | Lizenziert die Komponente. |
 | [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense_1)(string) | Lizenziert die Komponente. |

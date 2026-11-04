@@ -3,12 +3,12 @@ title: ITableFormatEffectiveData
 second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Niezmienny obiekt zawierający efektywne właściwości formatowania tabeli.
 type: docs
-weight: 7250
+weight: 7270
 url: /pl/aspose.slides/itableformateffectivedata/
 ---
 ## ITableFormatEffectiveData interfejs
 
-Obiekt niezmienny, który zawiera efektywne właściwości formatowania tabeli.
+Niezmienny obiekt zawierający efektywne właściwości formatowania tabeli.
 
 ```csharp
 public interface ITableFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -19,11 +19,11 @@ public interface ITableFormatEffectiveData : IBaseTableFormatEffectiveData
 | Nazwa | Opis |
 | --- | --- |
 | [AsIBaseTableFormatEffectiveData](../../aspose.slides/itableformateffectivedata/asibasetableformateffectivedata) { get; } | Umożliwia pobranie bazowego interfejsu IBaseTableFormatEffectiveData. Tylko do odczytu [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
-| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | Pobiera przejrzystość koloru wypełnienia. Odczyt Single. |
+| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | Pobiera przezroczystość koloru wypełnienia. Odczyt Single. |
 
 ### Uwagi
 
-Ten interfejs jest używany razem z interfejsem [`ITableFormat`](../itableformat) w celu zwrócenia efektywnych wartości formatowania z uwzględnieniem dziedziczenia i stylów tabel.
+Ten interfejs jest używany wraz z interfejsem [`ITableFormat`](../itableformat) do zwracania efektywnych wartości formatowania z zastosowanym dziedziczeniem i stylami tabel.
 
 ### Zobacz także
 

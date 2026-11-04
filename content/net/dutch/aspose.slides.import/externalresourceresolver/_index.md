@@ -1,20 +1,20 @@
 ---
 title: ExternalResourceResolver
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Callback-klasse die wordt gebruikt om externe bronnen op te lossen tijdens het importeren van HTML- en SVG-documenten. Het gebruik van deze resolver kan een kwetsbaarheid veroorzaken wanneer een door de client geleverd HTML- of SVG-bestand de serversoftware laat een lokaal of netwerkbestand ophalen. Gebruik met zorg. Het wordt aanbevolen om ExternalResourceResolver helemaal niet op te geven; alleen ingesloten objecten worden gelezen, of maak een subclass die controleert of de opgegeven URI geldig is.
+description: Callback klasse die wordt gebruikt om externe bronnen op te lossen tijdens het importeren van Html en Svg documenten. Het gebruik van deze resolver kan een kwetsbaarheid veroorzaken wanneer een door de client geleverd HTML of SVG bestand de server software toegang geeft tot lokale of netwerkbestanden. Gebruik met mate. Het wordt aanbevolen om ExternalResourceResolver helemaal niet op te geven; alleen ingesloten objecten worden gelezen, of maak een subclass die controleert of de opgegeven uri geldig is.
 type: docs
-weight: 7480
+weight: 7500
 url: /nl/aspose.slides.import/externalresourceresolver/
 ---
 ## ExternalResourceResolver klasse
 
-Callback-klasse die wordt gebruikt om externe bronnen op te lossen tijdens het importeren van Html- en Svg-documenten. Het gebruik van deze resolver kan een kwetsbaarheid veroorzaken wanneer een door de client geleverd HTML- of SVG-bestand de serversoftware laat een lokaal of netwerkbestand ophalen. Gebruik met zorg. Het wordt aanbevolen om ExternalResourceResolver helemaal niet op te geven (alleen ingesloten objecten worden gelezen) of om een subclass te maken die controleert of de opgegeven uri geldig is.
+Callback klasse gebruikt om externe bronnen op te lossen tijdens het importeren van Html- en Svg-documenten. Het gebruik van deze resolver kan een kwetsbaarheid creëren wanneer een door de client aangeleverd HTML- of SVG-bestand de server-software toegang geeft tot lokale of netwerkbestanden. Gebruik met mate. Het wordt aanbevolen om ExternalResourceResolver helemaal niet op te geven (alleen ingesloten objecten worden gelezen) of om een subclass te maken die controleert of de opgegeven uri geldig is.
 
 ```csharp
 public class ExternalResourceResolver : IExternalResourceResolver
 ```
 
-## Constructoren
+## Constructors
 
 | Naam | Beschrijving |
 | --- | --- |
@@ -25,7 +25,7 @@ public class ExternalResourceResolver : IExternalResourceResolver
 | Naam | Beschrijving |
 | --- | --- |
 | virtual [GetEntity](../../aspose.slides.import/externalresourceresolver/getentity)(string) | Koppelt een URI aan een object dat de daadwerkelijke bron bevat. |
-| virtual [ResolveUri](../../aspose.slides.import/externalresourceresolver/resolveuri)(string, string) | Bepaalt de absolute URI op basis van de basis- en relatieve URI's. |
+| virtual [ResolveUri](../../aspose.slides.import/externalresourceresolver/resolveuri)(string, string) | Lost de absolute URI op uit de basis- en relatieve URI's. |
 
 ### Zie ook
 

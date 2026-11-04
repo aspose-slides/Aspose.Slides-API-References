@@ -1,14 +1,14 @@
 ---
 title: SetAsTotal
-second_title: Aspose.Sildes for .NET API リファレンス
-description: データポイントを合計として設定します。ウォーターフォールシリーズ タイプにのみ適用されます。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: データ ポイントを合計として設定します。Waterfall シリーズ タイプ にのみ適用されます。
 type: docs
-weight: 140
+weight: 180
 url: /ja/aspose.slides.charts/ichartdatapoint/setastotal/
 ---
 ## IChartDataPoint.SetAsTotal プロパティ
 
-データ ポイントを合計として設定します。ウォーターフォール シリーズ タイプにのみ適用されます。
+データ ポイントを合計として設定します。Waterfall シリーズ タイプ にのみ適用されます。
 
 ```csharp
 public bool SetAsTotal { get; set; }

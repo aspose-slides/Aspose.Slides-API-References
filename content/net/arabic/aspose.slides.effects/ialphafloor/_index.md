@@ -1,14 +1,14 @@
 ---
 title: IAlphaFloor
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: يمثل تأثير Alpha Floor. قيم شفافية Alpha الأقل من 100 يتم تحويلها إلى صفر. بمعنى آخر، أي شيء شفاف جزئياً يصبح شفافاً بالكامل.
+description: يمثل تأثير Alpha Floor. قيم شفافية Alpha التي تقل عن 100 تتحول إلى صفر. بمعنى آخر ، أي شيء شفاف جزئيًا يصبح شفافًا بالكامل.
 type: docs
-weight: 3060
+weight: 3080
 url: /ar/aspose.slides.effects/ialphafloor/
 ---
 ## IAlphaFloor واجهة
 
-يمثل تأثير Alpha Floor. يتم تحويل قيم Alpha (الشفافية) الأقل من 100٪ إلى صفر. بمعنى آخر، أي شيء شفاف جزئياً يصبح شفافاً تماماً.
+يمثل تأثير Alpha Floor. قيم Alpha (الشفافية) الأقل من 100٪ تتحول إلى صفر. بمعنى آخر، أي شيء شفاف جزئيًا يصبح شفافًا تمامًا.
 
 ```csharp
 public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>, 
@@ -19,10 +19,10 @@ public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>,
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphafloor/asiaccessiblepviobject) { get; } | يسمح بالحصول على واجهة IAccessiblePVIObject الأساسية. للقراءة فقط [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphafloor/asiimagetransformoperation) { get; } | يسمح بالحصول على واجهة IImageTransformOperation الأساسية. للقراءة فقط [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphafloor/asiaccessiblepviobject) { get; } | يسمح بالحصول على واجهة IAccessiblePVIObject الأساسية. قراءة فقط [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphafloor/asiimagetransformoperation) { get; } | يسمح بالحصول على واجهة IImageTransformOperation الأساسية. قراءة فقط [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### انظر أيضًا
+### انظر أيضاً
 
 * واجهة [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * واجهة [IAlphaFloorEffectiveData](../ialphaflooreffectivedata)

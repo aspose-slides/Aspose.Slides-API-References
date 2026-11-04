@@ -1,20 +1,20 @@
 ---
 title: GetActualLabelText
 second_title: Aspose.Sildes för .NET API-referens
-description: Returnerar den faktiska etiketttexten baserat på inställningarna för DataLabelFormat eller värdet i TextFrameForOverriding.Text.
+description: Returnerar den faktiska etiketttexten baserat på DataLabelFormat-inställningarna eller TextFrameForOverriding.Text-värdet.
 type: docs
-weight: 190
+weight: 200
 url: /sv/aspose.slides.charts/datalabel/getactuallabeltext/
 ---
 ## DataLabel.GetActualLabelText metod
 
-Returnerar den faktiska etiketttexten baserat på inställningarna för DataLabelFormat eller TextFrameForOverriding.Text-värdet.
+Returnerar den faktiska etiketttexten baserat på DataLabelFormat inställningarna eller TextFrameForOverriding.Text värde.
 
 ```csharp
 public string GetActualLabelText()
 ```
 
-### Se också
+### Se även
 
 * klass [DataLabel](../../datalabel)
 * namnrymd [Aspose.Slides.Charts](../../datalabel)

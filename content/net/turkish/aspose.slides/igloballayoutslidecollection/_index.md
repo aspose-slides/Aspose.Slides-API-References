@@ -1,14 +1,14 @@
 ---
 title: IGlobalLayoutSlideCollection
 second_title: Aspose.Sildes için .NET API Referansı
-description: Sunumda bulunan tüm yerleşim slaytlarının bir koleksiyonunu temsil eder. ILayoutSlideCollection arayüzünü, ana yerleşim slaytlarının bireysel koleksiyonlarını birleştirme bağlamında yerleşim slaytlarını ekleme/kopyalama yöntemleriyle genişletir.
+description: Sunumda bulunan tüm yerleşim slaytlarından oluşan bir koleksiyonu temsil eder. ILayoutSlideCollection arayüzünü, ana slaytların yerleşim slaytlarının bireysel koleksiyonlarını birleştirme bağlamında yerleşim slaytlarını ekleme/kopyalama yöntemleriyle genişletir.
 type: docs
-weight: 5990
+weight: 6010
 url: /tr/aspose.slides/igloballayoutslidecollection/
 ---
-## IGlobalLayoutSlideCollection arayüzü
+## IGlobalLayoutSlideCollection arayüz
 
-Sunum içindeki tüm yerleşim slaytlarını içeren bir koleksiyon temsil eder. ILayoutSlideCollection arayüzünü genişleterek, ana yerleşim slaytlarının bireysel koleksiyonlarını birleştirme bağlamında yerleşim slaytlarını ekleme/kopyalama yöntemleri sağlar.
+Sunumda bulunan tüm yerleşim slaytlarından oluşan bir koleksiyonu temsil eder. ILayoutSlideCollection arayüzünü, ana slaytların yerleşim slaytlarının bireysel koleksiyonlarını birleştirme bağlamında yerleşim slaytlarını ekleme/kopyalama yöntemleri ile genişletir.
 
 ```csharp
 public interface IGlobalLayoutSlideCollection : ILayoutSlideCollection
@@ -18,7 +18,7 @@ public interface IGlobalLayoutSlideCollection : ILayoutSlideCollection
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsILayoutSlideCollection](../../aspose.slides/igloballayoutslidecollection/asilayoutslidecollection) { get; } | ILayoutSlideCollection arayüzünü döndürür. Yalnızca okunabilir [`ILayoutSlideCollection`](../ilayoutslidecollection). |
+| [AsILayoutSlideCollection](../../aspose.slides/igloballayoutslidecollection/asilayoutslidecollection) { get; } | ILayoutSlideCollection arayüzünü döndürür. Salt okunur [`ILayoutSlideCollection`](../ilayoutslidecollection). |
 
 ## Yöntemler
 
@@ -28,7 +28,7 @@ public interface IGlobalLayoutSlideCollection : ILayoutSlideCollection
 | [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone)(ILayoutSlide) | Belirtilen bir yerleşim slaytının bir kopyasını sunuma ekler. |
 | [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | Belirtilen bir yerleşim slaytının bir kopyasını sunuma ekler. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * arayüz [ILayoutSlideCollection](../ilayoutslidecollection)
 * ad alanı [Aspose.Slides](../../aspose.slides)

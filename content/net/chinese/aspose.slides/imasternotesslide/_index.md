@@ -1,14 +1,14 @@
 ---
 title: IMasterNotesSlide
-second_title: Aspose.Sildes .NET API 参考
-description: 表示用于注释的母版幻灯片。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示备注的母版幻灯片。
 type: docs
-weight: 6390
+weight: 6410
 url: /zh/aspose.slides/imasternotesslide/
 ---
 ## IMasterNotesSlide 接口
 
-表示用于注释的母版幻灯片。
+表示备注的母版幻灯片。
 
 ```csharp
 public interface IMasterNotesSlide : IBaseSlide, IMasterThemeable
@@ -20,11 +20,11 @@ public interface IMasterNotesSlide : IBaseSlide, IMasterThemeable
 | --- | --- |
 | [AsIBaseSlide](../../aspose.slides/imasternotesslide/asibaseslide) { get; } | 允许获取基础 IBaseSlide 接口。只读 [`IBaseSlide`](../ibaseslide)。 |
 | [AsIMasterThemeable](../../aspose.slides/imasternotesslide/asimasterthemeable) { get; } | 返回 IMasterThemeable 接口。只读 [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable)。 |
-| [DrawingGuides](../../aspose.slides/imasternotesslide/drawingguides) { get; } | 返回主注释幻灯片的绘图指南集合。只读 [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HeaderFooterManager](../../aspose.slides/imasternotesslide/headerfootermanager) { get; } | 返回主注释幻灯片的 HeaderFooter 管理器。只读 [`IMasterNotesSlideHeaderFooterManager`](../imasternotesslideheaderfootermanager)。 |
-| [NotesStyle](../../aspose.slides/imasternotesslide/notesstyle) { get; } | 返回注释文本的样式。只读 [`ITextStyle`](../itextstyle)。 |
+| [DrawingGuides](../../aspose.slides/imasternotesslide/drawingguides) { get; } | 返回主备注幻灯片的绘图参考线集合。只读 [`IDrawingGuidesCollection`](../idrawingguidescollection)。 |
+| [HeaderFooterManager](../../aspose.slides/imasternotesslide/headerfootermanager) { get; } | 返回主备注幻灯片的 HeaderFooter 管理器。只读 [`IMasterNotesSlideHeaderFooterManager`](../imasternotesslideheaderfootermanager)。 |
+| [NotesStyle](../../aspose.slides/imasternotesslide/notesstyle) { get; } | 返回备注文本的样式。只读 [`ITextStyle`](../itextstyle)。 |
 
-### 参见
+### 另请参阅
 
 * 接口 [IBaseSlide](../ibaseslide)
 * 接口 [IMasterThemeable](../../aspose.slides.theme/imasterthemeable)

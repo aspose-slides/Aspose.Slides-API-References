@@ -3,12 +3,12 @@ title: MathSpacingRules
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 行列の列間の水平間隔の種類
 type: docs
-weight: 8990
+weight: 9010
 url: /ja/aspose.slides.mathtext/mathspacingrules/
 ---
 ## MathSpacingRules 列挙体
 
-行列の列間の隙間（水平間隔）の種類
+行列の列間の間隔（水平スペース）の種類
 
 ```csharp
 public enum MathSpacingRules
@@ -18,11 +18,11 @@ public enum MathSpacingRules
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| SingleSpacingGap | `0` | 単一 (列は 1 em、行は 1 行) |
-| OneAndHalfSpacingGap | `1` | 1.5 倍 (列は 1.5 em、行は 1.5 行) |
-| DoubleSpacingGap | `2` | 二重間隔 (列は 2 em、行は 2 行) |
-| Exactly | `3` | 正確な値 列の場合は ColumnGap の値（単位は twips）に依存し、行の場合は RowGap の値（単位は twips）に依存します |
-| Multiple | `4` | 複数 列の場合は ColumnGap の値に依存し、0.5 em 刻みで測定されます。 行の場合は RowGap の値に依存し、行単位で測定されます |
+| SingleSpacingGap | `0` | 単一 (列の場合は 1 em、行の場合は 1 行) |
+| OneAndHalfSpacingGap | `1` | 1 と 1/2 倍 (列の場合は 1.5 em、行の場合は 1.5 行) |
+| DoubleSpacingGap | `2` | 二重間隔 (列の場合は 2 em、行の場合は 2 行) |
+| Exactly | `3` | 正確な値 列の場合は ColumnGap の値に依存し、ツイップで測定 行の場合は RowGap の値に依存し、ツイップで測定 |
+| Multiple | `4` | 複数 列の場合は ColumnGap の値に依存し、0.5 em の増分で測定 行の場合は RowGap の値に依存し、行で測定 |
 
 ### 参照
 

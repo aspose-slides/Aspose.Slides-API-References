@@ -1,14 +1,14 @@
 ---
 title: IFillFormatCollectionEffectiveData
-second_title: Aspose.Sildes dla .NET - odniesienie API
-description: Niezmienny obiekt reprezentujący kolekcję tylko do odczytu efektywnych formatów wypełnienia.
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Niezmienny obiekt, który reprezentuje tylko do odczytu kolekcję efektywnych formatów wypełnienia.
 type: docs
-weight: 11240
+weight: 11260
 url: /pl/aspose.slides.theme/ifillformatcollectioneffectivedata/
 ---
 ## IFillFormatCollectionEffectiveData interfejs
 
-Niezmienny obiekt reprezentujący kolekcję tylko do odczytu efektywnych formatów wypełnienia.
+Niezmienny obiekt reprezentujący tylko do odczytu kolekcję efektywnych formatów wypełnienia.
 
 ```csharp
 public interface IFillFormatCollectionEffectiveData : IGenericCollection<IFillFormatEffectiveData>
@@ -18,7 +18,7 @@ public interface IFillFormatCollectionEffectiveData : IGenericCollection<IFillFo
 
 | Nazwa | Opis |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ifillformatcollectioneffectivedata/item) { get; } | Pobiera element o podanym indeksie. Tylko do odczytu [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
+| [Item](../../aspose.slides.theme/ifillformatcollectioneffectivedata/item) { get; } | Pobiera element pod wskazanym indeksem. Tylko do odczytu [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
 
 ### Uwagi
 

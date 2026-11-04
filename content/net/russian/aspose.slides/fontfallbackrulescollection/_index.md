@@ -1,9 +1,9 @@
 ---
 title: FontFallBackRulesCollection
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет коллекцию правил FontFallBack, определённых пользователем
 type: docs
-weight: 4850
+weight: 4870
 url: /ru/aspose.slides/fontfallbackrulescollection/
 ---
 ## FontFallBackRulesCollection класс
@@ -24,9 +24,9 @@ public class FontFallBackRulesCollection : IFontFallBackRulesCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/fontfallbackrulescollection/count) { get; } | Получает количество правил, фактически содержащихся в коллекции. Только для чтения Int32. |
+| [Count](../../aspose.slides/fontfallbackrulescollection/count) { get; } | Возвращает количество правил, фактически содержащихся в коллекции. Только для чтения Int32. |
 | [IsSynchronized](../../aspose.slides/fontfallbackrulescollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потокобезопасный). Только для чтения Boolean. |
-| [Item](../../aspose.slides/fontfallbackrulescollection/item) { get; } | Получает правило по указанному индексу. Только для чтения [`IFontFallBackRule`](../ifontfallbackrule). |
+| [Item](../../aspose.slides/fontfallbackrulescollection/item) { get; } | Возвращает правило по указанному индексу. Только для чтения [`IFontFallBackRule`](../ifontfallbackrule). |
 | [SyncRoot](../../aspose.slides/fontfallbackrulescollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
 
 ## Методы
@@ -35,7 +35,7 @@ public class FontFallBackRulesCollection : IFontFallBackRulesCollection
 | --- | --- |
 | [Add](../../aspose.slides/fontfallbackrulescollection/add)(IFontFallBackRule) | Добавляет указанное правило FallBack в конец коллекции. |
 | [CopyTo](../../aspose.slides/fontfallbackrulescollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
-| [GetEnumerator](../../aspose.slides/fontfallbackrulescollection/getenumerator)() | Возвращает перечислитель, который перебирает элементы коллекции. |
+| [GetEnumerator](../../aspose.slides/fontfallbackrulescollection/getenumerator)() | Возвращает перечислитель, который проходит по коллекции. |
 | [Remove](../../aspose.slides/fontfallbackrulescollection/remove)(IFontFallBackRule) | Удаляет первое вхождение конкретного правила FallBack из коллекции. |
 
 ### См. также

@@ -1,9 +1,9 @@
 ---
 title: PersistenceType
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes 的 .NET API 参考
 description: 指定用于存储 ActiveX 控件属性的方法。
 type: docs
-weight: 9370
+weight: 9390
 url: /zh/aspose.slides/persistencetype/
 ---
 ## PersistenceType 枚举
@@ -18,13 +18,13 @@ public enum PersistenceType
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| NotDefined | `-1` | 未指定持久性标识。 |
-| PersistPropertyBag | `0` | 指定使用基于属性包的持久性来持久化 ActiveX 控件。基于属性包的持久性通过一组名称和值对来存储 ActiveX 控件，这些名称和值对指定了由 ActiveX 控件持久化的数据。 |
-| PersistStream | `1` | 指定使用基于流的持久性来持久化 ActiveX 控件，该持久性不支持将 ActiveX 控件初始化为默认状态。 |
-| PersistStreamInit | `2` | 指定使用基于流的持久性来持久化 ActiveX 控件，该持久性支持将 ActiveX 控件初始化为默认状态。 |
-| PersistStorage | `3` | 指定使用基于存储的持久性来持久化 ActiveX 控件。 |
+| NotDefined | `-1` | 未指定持久性 ID。 |
+| PersistPropertyBag | `0` | 指定 ActiveX 控件使用基于属性包的持久化进行持久化。基于属性包的持久化通过一组名称和值对来存储 ActiveX 控件，这些名称和值对指定了 ActiveX 控件持久化的数据。 |
+| PersistStream | `1` | 指定 ActiveX 控件使用基于流的持久化进行持久化，该持久化不支持将 ActiveX 控件初始化为默认状态。 |
+| PersistStreamInit | `2` | 指定 ActiveX 控件使用基于流的持久化进行持久化，该持久化支持将 ActiveX 控件初始化为默认状态。 |
+| PersistStorage | `3` | 指定 ActiveX 控件使用基于存储的持久化进行持久化。 |
 
-### 另请参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

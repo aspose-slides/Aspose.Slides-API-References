@@ -1,12 +1,12 @@
 ---
 title: Field
-second_title: Referencia de la API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa un campo.
 type: docs
-weight: 4750
+weight: 4770
 url: /es/aspose.slides/field/
 ---
-## Field clase
+## Clase Field
 
 Representa un campo.
 
@@ -20,7 +20,7 @@ public sealed class Field : DomObject<Portion>, IField
 | --- | --- |
 | [Type](../../aspose.slides/field/type) { get; set; } | Devuelve o establece el tipo del campo. Lectura/escritura [`IFieldType`](../ifieldtype). |
 
-### Ver también
+### Véase también
 
 * clase [DomObject&lt;TParent&gt;](../domobject-1)
 * clase [Portion](../portion)

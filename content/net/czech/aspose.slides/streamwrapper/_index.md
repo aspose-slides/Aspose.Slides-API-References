@@ -1,9 +1,9 @@
 ---
 title: StreamWrapper
-second_title: Aspose.Sildes pro .NET API Reference
-description: Obal Aspose.IO.Stream pro COM rozhraní.
+second_title: Aspose.Sildes pro .NET – API reference
+description: Obal Aspose.IO.Stream pro rozhraní COM.
 type: docs
-weight: 10750
+weight: 10770
 url: /cs/aspose.slides/streamwrapper/
 ---
 ## StreamWrapper třída
@@ -16,28 +16,28 @@ public class StreamWrapper : IStreamWrapper
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [AsIDisposable](../../aspose.slides/streamwrapper/asidisposable) { get; } | Umožňuje získat základní rozhraní IDisposable. Pouze pro čtení IDisposable. |
-| [CanRead](../../aspose.slides/streamwrapper/canread) { get; } | Získá hodnotu udávající, zda aktuální proud podporuje čtení. Pouze pro čtení Boolean. |
-| [CanSeek](../../aspose.slides/streamwrapper/canseek) { get; } | Získá hodnotu udávající, zda aktuální proud podporuje posun. Pouze pro čtení Boolean. |
-| [CanWrite](../../aspose.slides/streamwrapper/canwrite) { get; } | Získá hodnotu udávající, zda aktuální proud podporuje zápis. Pouze pro čtení Boolean. |
-| [Length](../../aspose.slides/streamwrapper/length) { get; } | Získá délku v bajtech proudu. Pouze pro čtení Int64. |
-| [Position](../../aspose.slides/streamwrapper/position) { get; } | Získá nebo nastaví pozici v aktuálním proudu. Pouze pro čtení Int64. |
-| [Stream](../../aspose.slides/streamwrapper/stream) { get; } | Získá proud. Pouze pro čtení Stream. |
+| [AsIDisposable](../../aspose.slides/streamwrapper/asidisposable) { get; } | Umožňuje získat základní rozhraní IDisposable. Pouze ke čtení IDisposable. |
+| [CanRead](../../aspose.slides/streamwrapper/canread) { get; } | Získá hodnotu indikující, zda aktuální stream podporuje čtení. Pouze ke čtení Boolean. |
+| [CanSeek](../../aspose.slides/streamwrapper/canseek) { get; } | Získá hodnotu indikující, zda aktuální stream podporuje posouvání. Pouze ke čtení Boolean. |
+| [CanWrite](../../aspose.slides/streamwrapper/canwrite) { get; } | Získá hodnotu indikující, zda aktuální stream podporuje zápis. Pouze ke čtení Boolean. |
+| [Length](../../aspose.slides/streamwrapper/length) { get; } | Získá délku streamu v bajtech. Pouze ke čtení Int64. |
+| [Position](../../aspose.slides/streamwrapper/position) { get; } | Získá nebo nastaví pozici v aktuálním streamu. Pouze ke čtení Int64. |
+| [Stream](../../aspose.slides/streamwrapper/stream) { get; } | Získá stream. Pouze ke čtení Stream. |
 
 ## Metody
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [Close](../../aspose.slides/streamwrapper/close)() | Uzavře aktuální proud a uvolní všechny prostředky. |
+| [Close](../../aspose.slides/streamwrapper/close)() | Uzavře aktuální stream a uvolní všechny prostředky. |
 | [Dispose](../../aspose.slides/streamwrapper/dispose)() | Uvolní objekt. |
-| [Flush](../../aspose.slides/streamwrapper/flush)() | Vyprázdní všechny vyrovnávací paměti tohoto proudu a způsobí, že veškerá vyrovnaná data budou zapsána do podkladového zařízení. |
-| [Read](../../aspose.slides/streamwrapper/read)(byte[], int, int) | Načte sekvenci bajtů z aktuálního proudu a posune pozici v proudu o počet načtených bajtů. |
-| [ReadByte](../../aspose.slides/streamwrapper/readbyte)() | Načte bajt z proudu a posune pozici v proudu o jeden bajt, nebo vrátí -1, pokud je na konci proudu. |
-| [Seek](../../aspose.slides/streamwrapper/seek)(long, SeekOrigin) | Nastaví pozici v aktuálním proudu |
-| [Write](../../aspose.slides/streamwrapper/write)(byte[], int, int) | Zapíše sekvenci bajtů do aktuálního proudu a posune aktuální pozici v tomto proudu o počet zapsaných bajtů. |
-| [WriteByte](../../aspose.slides/streamwrapper/writebyte)(byte) | Zapíše bajt na aktuální pozici v proudu a posune pozici v proudu o jeden bajt. |
+| [Flush](../../aspose.slides/streamwrapper/flush)() | Vyprázdní všechny buffery tohoto streamu a způsobí, že buffered data budou zapsána do podkladového zařízení. |
+| [Read](../../aspose.slides/streamwrapper/read)(byte[], int, int) | Přečte sekvenci bajtů z aktuálního streamu a posune pozici v streamu o počet přečtených bajtů. |
+| [ReadByte](../../aspose.slides/streamwrapper/readbyte)() | Přečte bajt ze streamu a posune pozici v streamu o jeden bajt, nebo vrátí -1 pokud je na konci streamu. |
+| [Seek](../../aspose.slides/streamwrapper/seek)(long, SeekOrigin) | Nastaví pozici v aktuálním streamu |
+| [Write](../../aspose.slides/streamwrapper/write)(byte[], int, int) | Zapíše sekvenci bajtů do aktuálního streamu a posune aktuální pozici v tomto streamu o počet zapsaných bajtů. |
+| [WriteByte](../../aspose.slides/streamwrapper/writebyte)(byte) | Zapíše bajt na aktuální pozici ve streamu a posune pozici v streamu o jeden bajt. |
 
 ### Viz také
 

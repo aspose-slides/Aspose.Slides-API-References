@@ -1,14 +1,14 @@
 ---
 title: IMathFraction
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Specifica l'oggetto frazione costituito da un numeratore e un denominatore separati da una barra di frazione. La barra di frazione può essere orizzontale o diagonale a seconda delle proprietà della frazione. L'oggetto frazione è anche usato per rappresentare la funzione stack che posiziona un elemento sopra un altro senza barra di frazione.
+description: Specifica l'oggetto frazione composto da un numeratore e un denominatore separati da una barra di frazione. La barra di frazione può essere orizzontale o diagonale a seconda delle proprietà della frazione. L'oggetto frazione è anche usato per rappresentare la funzione stack che posiziona un elemento sopra un altro senza barra di frazione.
 type: docs
-weight: 8250
+weight: 8270
 url: /it/aspose.slides.mathtext/imathfraction/
 ---
-## IMathFraction interfaccia
+## interfaccia IMathFraction
 
-Specifica l'oggetto frazione, costituito da un numeratore e un denominatore separati da una barra di frazione. La barra di frazione può essere orizzontale o diagonale, a seconda delle proprietà della frazione. L'oggetto frazione è inoltre usato per rappresentare la funzione stack, che posiziona un elemento sopra un altro, senza barra di frazione.
+Specifica l'oggetto frazione, composto da un numeratore e un denominatore separati da una barra di frazione. La barra di frazione può essere orizzontale o diagonale, a seconda delle proprietà della frazione. L'oggetto frazione è anche usato per rappresentare la funzione stack, che posiziona un elemento sopra un altro, senza barra di frazione.
 
 ```csharp
 public interface IMathFraction : IMathElement

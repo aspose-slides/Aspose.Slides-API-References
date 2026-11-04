@@ -1,14 +1,14 @@
 ---
 title: Marker
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Xác định một dấu dữ liệu. Read-only IMarkeraspose.slides.charts/imarker.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Chỉ định một dấu dữ liệu. Chỉ đọc IMarkeraspose.slides.charts/imarker.
 type: docs
-weight: 120
+weight: 160
 url: /vi/aspose.slides.charts/ichartdatapoint/marker/
 ---
 ## IChartDataPoint.Marker thuộc tính
 
-Xác định một dấu dữ liệu. Chỉ đọc [`IMarker`](../../imarker).
+Chỉ định một dấu dữ liệu. Chỉ đọc [`IMarker`](../../imarker).
 
 ```csharp
 public IMarker Marker { get; }

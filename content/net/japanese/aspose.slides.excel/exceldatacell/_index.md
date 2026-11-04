@@ -1,14 +1,14 @@
 ---
 title: ExcelDataCell
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes の .NET 用 API リファレンス
 description: Excel ワークブック内の単一セルを表します。
 type: docs
-weight: 3680
+weight: 3700
 url: /ja/aspose.slides.excel/exceldatacell/
 ---
 ## ExcelDataCell クラス
 
-Excel ワークブックの単一のセルを表します。
+Excel ワークブック内の単一セルを表します。
 
 ```csharp
 public class ExcelDataCell : IExcelDataCell

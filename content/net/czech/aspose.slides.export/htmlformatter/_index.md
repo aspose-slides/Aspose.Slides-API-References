@@ -1,14 +1,14 @@
 ---
 title: HtmlFormatter
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET API referenci
 description: Reprezentuje šablonu HTML souboru.
 type: docs
-weight: 3870
+weight: 3890
 url: /cs/aspose.slides.export/htmlformatter/
 ---
 ## HtmlFormatter třída
 
-Reprezentuje šablonu HTML souboru.
+Represents HTML file template.
 
 ```csharp
 public sealed class HtmlFormatter : IHtmlFormatter
@@ -18,9 +18,9 @@ public sealed class HtmlFormatter : IHtmlFormatter
 
 | Název | Popis |
 | --- | --- |
-| static [CreateCustomFormatter](../../aspose.slides.export/htmlformatter/createcustomformatter)(IHtmlFormattingController) | Vytvoří a vrátí HTML formatter pro vlastní generování HTML pomocí zpětných volání. |
-| static [CreateDocumentFormatter](../../aspose.slides.export/htmlformatter/createdocumentformatter)(string, bool) | Vytvoří a vrátí HTML formatter pro jednoduchý dokumentový pohled, který se skládá ze sekvencí snímků jeden pod druhým. |
-| static [CreateSlideShowFormatter](../../aspose.slides.export/htmlformatter/createslideshowformatter)(string, bool) | Vytvoří a vrátí HTML formatter pro jednoduché HTML prezentace, které zobrazují snímky jeden po druhém. |
+| static [CreateCustomFormatter](../../aspose.slides.export/htmlformatter/createcustomformatter)(IHtmlFormattingController) | Vytvoří a vrátí HTML formátovač pro vlastní generování html řízené zpětnými voláními. |
+| static [CreateDocumentFormatter](../../aspose.slides.export/htmlformatter/createdocumentformatter)(string, bool) | Vytvoří a vrátí HTML formátovač pro jednoduchý náhled dokumentu, který se skládá ze sekvencí snímků jeden pod druhým. |
+| static [CreateSlideShowFormatter](../../aspose.slides.export/htmlformatter/createslideshowformatter)(string, bool) | Vytvoří a vrátí HTML formátovač pro jednoduché slide show html, které zobrazují snímky jeden po druhém. |
 
 ### Viz také
 

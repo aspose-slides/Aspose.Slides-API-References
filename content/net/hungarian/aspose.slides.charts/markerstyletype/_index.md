@@ -1,9 +1,9 @@
 ---
 title: MarkerStyleType
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Meghatározza a jelölő alakját a diagram adatpontján.
+second_title: Aspose.Sildes .NET API referencia
+description: Meghatározza a jelölő formáját a diagram adatpontján.
 type: docs
-weight: 2340
+weight: 2360
 url: /hu/aspose.slides.charts/markerstyletype/
 ---
 ## MarkerStyleType enumeráció
@@ -19,17 +19,17 @@ public enum MarkerStyleType
 | Név | Érték | Leírás |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
-| Circle | `0` | Megadja, hogy egy kör legyen rajzolva minden adatpontnál. |
-| Dash | `1` | Megadja, hogy egy vonal legyen rajzolva minden adatpontnál. |
-| Diamond | `2` | Megadja, hogy egy rombusz legyen rajzolva minden adatpontnál. |
-| Dot | `3` | Megadja, hogy egy pont legyen rajzolva minden adatpontnál. |
-| None | `4` | Megadja, hogy semmi ne legyen rajzolva minden adatpontnál. |
-| Picture | `5` | Megadja, hogy egy kép legyen rajzolva minden adatpontnál. |
-| Plus | `6` | Megadja, hogy egy plusz jel legyen rajzolva minden adatpontnál. |
-| Square | `7` | Megadja, hogy egy négyzet legyen rajzolva minden adatpontnál. |
-| Star | `8` | Megadja, hogy egy csillag legyen rajzolva minden adatpontnál. |
-| Triangle | `9` | Megadja, hogy egy háromszög legyen rajzolva minden adatpontnál. |
-| X | `10` | Megadja, hogy egy X jel legyen rajzolva minden adatpontnál. |
+| Circle | `0` | Megadja, hogy kör legyen kirajzolva minden adatpontra. |
+| Dash | `1` | Megadja, hogy vonal legyen kirajzolva minden adatpontra. |
+| Diamond | `2` | Megadja, hogy rombusz legyen kirajzolva minden adatpontra. |
+| Dot | `3` | Megadja, hogy pont legyen kirajzolva minden adatpontra. |
+| None | `4` | Megadja, hogy semmi ne legyen kirajzolva minden adatpontra. |
+| Picture | `5` | Megadja, hogy képet kell kirajzolni minden adatpontra. |
+| Plus | `6` | Megadja, hogy plusz jel legyen kirajzolva minden adatpontra. |
+| Square | `7` | Megadja, hogy négyzet legyen kirajzolva minden adatpontra. |
+| Star | `8` | Megadja, hogy csillag legyen kirajzolva minden adatpontra. |
+| Triangle | `9` | Megadja, hogy háromszög legyen kirajzolva minden adatpontra. |
+| X | `10` | Megadja, hogy X jel legyen kirajzolva minden adatpontra. |
 
 ### Lásd még
 

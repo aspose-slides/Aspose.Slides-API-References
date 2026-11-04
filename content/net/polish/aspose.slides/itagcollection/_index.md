@@ -1,14 +1,14 @@
 ---
 title: ITagCollection
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Reprezentuje kolekcję tagów będących parami ciągów znaków definiowanych przez użytkownika
+second_title: Aspose.Sildes dla .NET – referencja API
+description: Reprezentuje kolekcję znaczników, będących parami ciągów znaków definiowanych przez użytkownika
 type: docs
-weight: 7260
+weight: 7280
 url: /pl/aspose.slides/itagcollection/
 ---
 ## ITagCollection interfejs
 
-Reprezentuje kolekcję tagów (pary ciągów znaków definiowane przez użytkownika)
+Represents the collection of tags (user defined pairs of strings)
 
 ```csharp
 public interface ITagCollection : IGenericCollection<KeyValuePair<string, string>>
@@ -18,21 +18,21 @@ public interface ITagCollection : IGenericCollection<KeyValuePair<string, string
 
 | Nazwa | Opis |
 | --- | --- |
-| [Item](../../aspose.slides/itagcollection/item) { get; set; } | Zwraca lub ustawia parę klucza i wartości tagu. |
+| [Item](../../aspose.slides/itagcollection/item) { get; set; } | Zwraca lub ustawia parę klucz-wartość znacznika. |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [Add](../../aspose.slides/itagcollection/add)(string, string) | Dodaje nowy tag do kolekcji. |
-| [Clear](../../aspose.slides/itagcollection/clear)() | Usuwa wszystkie tagi z kolekcji. |
+| [Add](../../aspose.slides/itagcollection/add)(string, string) | Dodaje nowy znacznik do kolekcji. |
+| [Clear](../../aspose.slides/itagcollection/clear)() | Usuwa wszystkie znaczniki z kolekcji. |
 | [Contains](../../aspose.slides/itagcollection/contains)(string) | Określa, czy kolekcja zawiera określoną nazwę. |
-| [GetNameByIndex](../../aspose.slides/itagcollection/getnamebyindex)(int) | Zwraca klucz tagu pod określonym indeksem. |
-| [GetNamesOfTags](../../aspose.slides/itagcollection/getnamesoftags)() | Zwraca nazwy tagów. |
-| [GetValueByIndex](../../aspose.slides/itagcollection/getvaluebyindex)(int) | Zwraca wartość tagu pod określonym indeksem. |
-| [IndexOfName](../../aspose.slides/itagcollection/indexofname)(string) | Zwraca indeks zerowy określonego klucza w kolekcji. |
-| [Remove](../../aspose.slides/itagcollection/remove)(string) | Usuwa tag o określonej nazwie z kolekcji. |
-| [RemoveAt](../../aspose.slides/itagcollection/removeat)(int) | Usuwa tag pod określonym indeksem. |
+| [GetNameByIndex](../../aspose.slides/itagcollection/getnamebyindex)(int) | Zwraca klucz znacznika pod podanym indeksem. |
+| [GetNamesOfTags](../../aspose.slides/itagcollection/getnamesoftags)() | Zwraca nazwy znaczników. |
+| [GetValueByIndex](../../aspose.slides/itagcollection/getvaluebyindex)(int) | Zwraca wartość znacznika pod podanym indeksem. |
+| [IndexOfName](../../aspose.slides/itagcollection/indexofname)(string) | Zwraca indeks zerowy wskazanego klucza w kolekcji. |
+| [Remove](../../aspose.slides/itagcollection/remove)(string) | Usuwa znacznik o określonej nazwie z kolekcji. |
+| [RemoveAt](../../aspose.slides/itagcollection/removeat)(int) | Usuwa znacznik pod podanym indeksem. |
 
 ### Zobacz także
 

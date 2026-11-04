@@ -1,14 +1,14 @@
 ---
 title: ISvgShapeFormattingController
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Beheert de generatie van SVG-vormen.
+description: Regelt de generatie van SVG-vormen.
 type: docs
-weight: 4130
+weight: 4150
 url: /nl/aspose.slides.export/isvgshapeformattingcontroller/
 ---
 ## ISvgShapeFormattingController interface
 
-Beheert de generatie van SVG-vormen.
+Regelt de generatie van SVG-vormen.
 
 ```csharp
 public interface ISvgShapeFormattingController
@@ -18,7 +18,7 @@ public interface ISvgShapeFormattingController
 
 | Naam | Beschrijving |
 | --- | --- |
-| [FormatShape](../../aspose.slides.export/isvgshapeformattingcontroller/formatshape)(ISvgShape, IShape) | Deze functie wordt aangeroepen vóór het renderen van de vorm naar SVG om de gebruiker het resulterende SVG te laten beheren. |
+| [FormatShape](../../aspose.slides.export/isvgshapeformattingcontroller/formatshape)(ISvgShape, IShape) | Deze functie wordt aangeroepen vóór het renderen van de vorm naar SVG om de gebruiker toe te staan het resulterende SVG te controleren. |
 
 ### Zie ook
 

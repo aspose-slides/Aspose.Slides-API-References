@@ -1,14 +1,14 @@
 ---
 title: IThemeable
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt objecten voor die kunnen worden gethematiseerd met ITheme./itheme.
+description: Stelt objecten voor die met ITheme./itheme kunnen worden gethematiseerd.
 type: docs
-weight: 11400
+weight: 11420
 url: /nl/aspose.slides.theme/ithemeable/
 ---
 ## IThemeable interface
 
-Stelt objecten voor die kunnen worden gethematiseerd met [`ITheme`](../itheme).
+Stelt objecten voor die met [`ITheme`](../itheme) kunnen worden gethematiseerd.
 
 ```csharp
 public interface IThemeable : ISlideComponent
@@ -24,7 +24,7 @@ public interface IThemeable : ISlideComponent
 
 | Naam | Beschrijving |
 | --- | --- |
-| [CreateThemeEffective](../../aspose.slides.theme/ithemeable/createthemeeffective)() | Retourneert een effectief thema voor dit themavoorwerp. |
+| [CreateThemeEffective](../../aspose.slides.theme/ithemeable/createthemeeffective)() | Retourneert een effectief thema voor dit thematiserbare object. |
 
 ### Zie ook
 

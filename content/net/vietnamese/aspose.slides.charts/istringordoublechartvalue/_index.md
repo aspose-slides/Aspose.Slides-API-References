@@ -1,14 +1,14 @@
 ---
 title: IStringOrDoubleChartValue
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Biểu diễn giá trị chuỗi hoặc số thực có thể được lưu trữ trong tài liệu trình chiếu pptx theo hai cách 1) trong ô/ô của bảng tính liên quan đến biểu đồ 2) dưới dạng giá trị literal.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu diễn giá trị chuỗi hoặc double có thể được lưu trong tài liệu trình chiếu pptx theo hai cách: 1) trong ô/các ô của bảng tính liên quan đến biểu đồ; 2) dưới dạng giá trị nguyên thủy.
 type: docs
-weight: 2230
+weight: 2250
 url: /vi/aspose.slides.charts/istringordoublechartvalue/
 ---
 ## IStringOrDoubleChartValue giao diện
 
-Biểu diễn giá trị chuỗi hoặc số thực có thể được lưu trữ trong tài liệu trình chiếu pptx theo hai cách: 1) trong ô/ô của bảng tính liên quan đến biểu đồ; 2) dưới dạng giá trị literal.
+Biểu diễn giá trị chuỗi hoặc double có thể được lưu trong tài liệu trình chiếu pptx theo hai cách: 1) trong ô/các ô của bảng tính liên quan đến biểu đồ; 2) dưới dạng giá trị nguyên thủy.
 
 ```csharp
 public interface IStringOrDoubleChartValue : ISingleCellChartValue
@@ -18,9 +18,9 @@ public interface IStringOrDoubleChartValue : ISingleCellChartValue
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsISingleCellChartValue](../../aspose.slides.charts/istringordoublechartvalue/asisinglecellchartvalue) { get; } | Cho phép lấy giao diện ISingleCellChartValue cơ bản. Chỉ đọc [`ISingleCellChartValue`](../isinglecellchartvalue). |
-| [AsLiteralDouble](../../aspose.slides.charts/istringordoublechartvalue/asliteraldouble) { get; set; } | Trả về hoặc đặt giá trị double literal nếu thuộc tính DataSourceType là DataSourceType.DoubleLiterals. Đọc/ghi Double. |
-| [AsLiteralString](../../aspose.slides.charts/istringordoublechartvalue/asliteralstring) { get; set; } | Trả về hoặc đặt chuỗi literal nếu thuộc tính DataSourceType là DataSourceType.StringLiterals. Đọc/ghi String. |
+| [AsISingleCellChartValue](../../aspose.slides.charts/istringordoublechartvalue/asisinglecellchartvalue) { get; } | Cho phép lấy giao diện cơ sở ISingleCellChartValue. Chỉ đọc [`ISingleCellChartValue`](../isinglecellchartvalue). |
+| [AsLiteralDouble](../../aspose.slides.charts/istringordoublechartvalue/asliteraldouble) { get; set; } | Trả về hoặc đặt giá trị double nguyên thủy nếu thuộc tính DataSourceType là DataSourceType.DoubleLiterals. Đọc/ghi Double. |
+| [AsLiteralString](../../aspose.slides.charts/istringordoublechartvalue/asliteralstring) { get; set; } | Trả về hoặc đặt giá trị string nguyên thủy nếu thuộc tính DataSourceType là DataSourceType.StringLiterals. Đọc/ghi String. |
 
 ## Phương thức
 
@@ -28,7 +28,7 @@ public interface IStringOrDoubleChartValue : ISingleCellChartValue
 | --- | --- |
 | [ToDouble](../../aspose.slides.charts/istringordoublechartvalue/todouble)() | Chuyển đổi giá trị sang double. |
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [ISingleCellChartValue](../isinglecellchartvalue)
 * không gian tên [Aspose.Slides.Charts](../../aspose.slides.charts)

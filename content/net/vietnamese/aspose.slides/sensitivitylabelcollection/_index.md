@@ -1,14 +1,14 @@
 ---
 title: SensitivityLabelCollection
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Đại diện cho một bộ sưu tập các nhãn nhạy cảm được áp dụng cho tài liệu.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đại diện cho một bộ sưu tập các nhãn độ nhạy được áp dụng cho tài liệu.
 type: docs
-weight: 9810
+weight: 9830
 url: /vi/aspose.slides/sensitivitylabelcollection/
 ---
 ## SensitivityLabelCollection lớp
 
-Đại diện cho một bộ sưu tập các nhãn nhạy cảm được áp dụng cho tài liệu.
+Đại diện cho một bộ sưu tập các nhãn độ nhạy được áp dụng cho tài liệu.
 
 ```csharp
 public sealed class SensitivityLabelCollection : DomObject<Presentation>, 
@@ -19,19 +19,19 @@ public sealed class SensitivityLabelCollection : DomObject<Presentation>,
 
 | Tên | Mô tả |
 | --- | --- |
-| [Count](../../aspose.slides/sensitivitylabelcollection/count) { get; } | Trả về số lượng phần tử trong bộ sưu tập. Chỉ đọc Int32. |
-| [Item](../../aspose.slides/sensitivitylabelcollection/item) { get; } | Trả về nhãn nhạy cảm theo chỉ số. |
+| [Count](../../aspose.slides/sensitivitylabelcollection/count) { get; } | Trả về số phần tử trong bộ sưu tập. Chỉ đọc Int32. |
+| [Item](../../aspose.slides/sensitivitylabelcollection/item) { get; } | Trả về nhãn độ nhạy theo chỉ mục. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
 | [Add](../../aspose.slides/sensitivitylabelcollection/add#add_1)(ISensitivityLabel) | Thêm một SensitivityLabel vào bộ sưu tập. |
-| [Add](../../aspose.slides/sensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | Thêm nhãn nhạy cảm vào cuối bộ sưu tập. |
+| [Add](../../aspose.slides/sensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | Thêm nhãn độ nhạy vào cuối bộ sưu tập. |
 | [Clear](../../aspose.slides/sensitivitylabelcollection/clear)() | Xóa tất cả các phần tử khỏi bộ sưu tập. |
 | [CopyTo](../../aspose.slides/sensitivitylabelcollection/copyto)(ISensitivityLabel[], int) | Sao chép tất cả các phần tử từ bộ sưu tập vào mảng được chỉ định. |
 | [GetEnumerator](../../aspose.slides/sensitivitylabelcollection/getenumerator)() | Trả về một enumerator cho phép duyệt qua bộ sưu tập. |
-| [RemoveAt](../../aspose.slides/sensitivitylabelcollection/removeat)(int) | Xóa nhãn nhạy cảm theo chỉ số được chỉ định. |
+| [RemoveAt](../../aspose.slides/sensitivitylabelcollection/removeat)(int) | Xóa nhãn độ nhạy tại chỉ mục được chỉ định. |
 
 ### Xem thêm
 

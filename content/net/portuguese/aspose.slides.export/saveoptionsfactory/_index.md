@@ -1,12 +1,12 @@
 ---
 title: SaveOptionsFactory
-second_title: Aspose.Sildes para .NET – Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Permite criar instâncias de opções de salvamento
 type: docs
-weight: 4460
+weight: 4480
 url: /pt/aspose.slides.export/saveoptionsfactory/
 ---
-## classe SaveOptionsFactory
+## SaveOptionsFactory classe
 
 Permite criar instâncias de opções de salvamento
 
@@ -28,9 +28,9 @@ public class SaveOptionsFactory : ISaveOptionsFactory
 
 ### Observações
 
-Para compatibilidade com COM.
+Para compatibilidade COM.
 
-### Ver Também
+### Veja Também
 
 * interface [ISaveOptionsFactory](../isaveoptionsfactory)
 * namespace [Aspose.Slides.Export](../../aspose.slides.export)

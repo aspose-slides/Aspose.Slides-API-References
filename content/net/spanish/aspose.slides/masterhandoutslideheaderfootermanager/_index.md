@@ -1,14 +1,14 @@
 ---
 title: MasterHandoutSlideHeaderFooterManager
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa al gestor que contiene el comportamiento de los marcadores de posición de la diapositiva maestra de notas, incluido el marcador de posición del encabezado.
+description: Representa al administrador que contiene el comportamiento de los marcadores de posición de diapositiva de folleto maestro, incluido el marcador de posición del encabezado.
 type: docs
-weight: 7990
+weight: 8010
 url: /es/aspose.slides/masterhandoutslideheaderfootermanager/
 ---
-## MasterHandoutSlideHeaderFooterManager clase
+## MasterHandoutSlideHeaderFooterManager class
 
-Representa al gestor que contiene el comportamiento de los marcadores de posición de la diapositiva maestra de notas, incluido el marcador de posición del encabezado.
+Representa el administrador que contiene el comportamiento de los marcadores de posición de diapositiva de folleto maestro, incluido el marcador de posición del encabezado.
 
 ```csharp
 public class MasterHandoutSlideHeaderFooterManager : BaseHandoutNotesSlideHeaderFooterManager, 
@@ -17,7 +17,7 @@ public class MasterHandoutSlideHeaderFooterManager : BaseHandoutNotesSlideHeader
 
 ## Propiedades
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Obtiene el valor que indica que está presente un marcador de posición de fecha y hora. ReadBoolean. |
 | [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Obtiene el valor que indica que está presente un marcador de posición de pie de página. Read Boolean. |
@@ -26,13 +26,13 @@ public class MasterHandoutSlideHeaderFooterManager : BaseHandoutNotesSlideHeader
 
 ## Métodos
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Establece el texto del marcador de posición de fecha y hora de la diapositiva. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Establece el texto en el marcador de posición de fecha y hora de la diapositiva. |
 | [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Cambia la visibilidad del marcador de posición de fecha y hora de la diapositiva. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Establece el texto del marcador de posición de pie de página de la diapositiva. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Establece el texto en el marcador de posición de pie de página de la diapositiva. |
 | [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Cambia la visibilidad del marcador de posición de pie de página de la diapositiva. |
-| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Establece el texto del marcador de posición de encabezado de la diapositiva. |
+| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Establece el texto en el marcador de posición de encabezado de la diapositiva. |
 | [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Cambia la visibilidad del marcador de posición de encabezado de la diapositiva. |
 | [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Cambia la visibilidad del marcador de posición de número de página de la diapositiva. |
 

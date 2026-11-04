@@ -1,14 +1,14 @@
 ---
 title: IGlitterTransition
-second_title: Aspose.Sildes para .NET Referência de API
-description: Efeito de transição de slide cintilante.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Efeito de transição de slide glitter.
 type: docs
-weight: 10100
+weight: 10120
 url: /pt/aspose.slides.slideshow/iglittertransition/
 ---
 ## IGlitterTransition interface
 
-Efeito de transição de slide cintilante.
+Glitter slide transition effect.
 
 ```csharp
 public interface IGlitterTransition : ITransitionValueBase
@@ -19,10 +19,10 @@ public interface IGlitterTransition : ITransitionValueBase
 | Nome | Descrição |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/iglittertransition/asitransitionvaluebase) { get; } | Permite obter a interface base ITransitionValueBase. Somente leitura [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/iglittertransition/direction) { get; set; } | Direção da transição. Leitura/gravação [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/iglittertransition/pattern) { get; set; } | Especifica a forma dos elementos visuais usados durante a transição. Leitura/gravação [`TransitionPattern`](../transitionpattern). |
+| [Direction](../../aspose.slides.slideshow/iglittertransition/direction) { get; set; } | Direção da transição. Leitura/Gravação [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
+| [Pattern](../../aspose.slides.slideshow/iglittertransition/pattern) { get; set; } | Especifica a forma dos visuais usados durante a transição. Leitura/Gravação [`TransitionPattern`](../transitionpattern). |
 
-### Ver também
+### Veja Também
 
 * interface [ITransitionValueBase](../itransitionvaluebase)
 * espaço de nomes [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

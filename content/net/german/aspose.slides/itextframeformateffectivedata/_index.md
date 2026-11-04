@@ -1,14 +1,14 @@
 ---
 title: ITextFrameFormatEffectiveData
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Unveränderliches Objekt, das wirksame Formatierungseigenschaften des TextFrames enthält.
+description: Unveränderliches Objekt, das effektive Textframe-Formatierungseigenschaften enthält.
 type: docs
-weight: 7290
+weight: 7310
 url: /de/aspose.slides/itextframeformateffectivedata/
 ---
 ## ITextFrameFormatEffectiveData Schnittstelle
 
-Unveränderliches Objekt, das wirksame Formatierungseigenschaften des TextFrames enthält.
+Unveränderliches Objekt, das effektive Textframe-Formatierungseigenschaften enthält.
 
 ```csharp
 public interface ITextFrameFormatEffectiveData
@@ -20,20 +20,20 @@ public interface ITextFrameFormatEffectiveData
 | --- | --- |
 | [AnchoringType](../../aspose.slides/itextframeformateffectivedata/anchoringtype) { get; } | Gibt den vertikalen Ankertext in einem TextFrame zurück. Nur lesbar [`TextAnchorType`](../textanchortype). |
 | [AutofitType](../../aspose.slides/itextframeformateffectivedata/autofittype) { get; } | Gibt den Text-Autofit-Modus zurück. Nur lesbar [`TextAutofitType`](../textautofittype). |
-| [CenterText](../../aspose.slides/itextframeformateffectivedata/centertext) { get; } | Gibt zurück, ob der Text horizontal im Feld zentriert werden soll. Nur lesbar Boolean. |
+| [CenterText](../../aspose.slides/itextframeformateffectivedata/centertext) { get; } | Gibt zurück, ob der Text horizontal in der Box zentriert sein soll. Nur lesbar Boolean. |
 | [ColumnCount](../../aspose.slides/itextframeformateffectivedata/columncount) { get; } | Gibt die Anzahl der Textspalten im Begrenzungsrechteck an. Nur lesbar Int32. |
-| [ColumnSpacing](../../aspose.slides/itextframeformateffectivedata/columnspacing) { get; } | Gibt den Abstand zwischen Textspalten im Textbereich (in Punkten) an. Nur lesbar Single. |
+| [ColumnSpacing](../../aspose.slides/itextframeformateffectivedata/columnspacing) { get; } | Gibt den Abstand zwischen den Textspalten im Textbereich (in Punkten) an. Nur lesbar Single. |
 | [MarginBottom](../../aspose.slides/itextframeformateffectivedata/marginbottom) { get; } | Gibt den unteren Rand (Punkte) in einem TextFrame zurück. Nur lesbar Double. |
 | [MarginLeft](../../aspose.slides/itextframeformateffectivedata/marginleft) { get; } | Gibt den linken Rand (Punkte) in einem TextFrame zurück. Nur lesbar Double. |
 | [MarginRight](../../aspose.slides/itextframeformateffectivedata/marginright) { get; } | Gibt den rechten Rand (Punkte) in einem TextFrame zurück. Nur lesbar Double. |
 | [MarginTop](../../aspose.slides/itextframeformateffectivedata/margintop) { get; } | Gibt den oberen Rand (Punkte) in einem TextFrame zurück. Nur lesbar Double. |
-| [TextStyle](../../aspose.slides/itextframeformateffectivedata/textstyle) { get; } | Gibt den wirksamen Textstil zurück. Nur lesbar [`ITextStyleEffectiveData`](../itextstyleeffectivedata). |
+| [TextStyle](../../aspose.slides/itextframeformateffectivedata/textstyle) { get; } | Gibt den effektiven Textstil zurück. Nur lesbar [`ITextStyleEffectiveData`](../itextstyleeffectivedata). |
 | [TextVerticalType](../../aspose.slides/itextframeformateffectivedata/textverticaltype) { get; } | Gibt die Textorientierung zurück. Nur lesbar [`TextVerticalType`](../textverticaltype). |
 | [WrapText](../../aspose.slides/itextframeformateffectivedata/wraptext) { get; } | Gibt zurück, ob der Text an den Rändern des TextFrames umbrochen wird. Nur lesbar Boolean. |
 
 ### Bemerkungen
 
-Dieses Interface wird zusammen mit dem [`ITextFrameFormat`](../itextframeformat) Interface verwendet, um wirksame Formatierungswerte mit angewandter Vererbung zurückzugeben.
+Dieses Interface wird zusammen mit dem [`ITextFrameFormat`](../itextframeformat) Interface verwendet, um effektive Formatierungswerte mit angewandter Vererbung zurückzugeben.
 
 ### Siehe auch
 

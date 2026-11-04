@@ -1,14 +1,14 @@
 ---
 title: FontCollectionIndex
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แสดงถึงดัชนีของฟอนต์ในคอลเลกชัน.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงดัชนีของฟอนต์ในคอลเลกชัน.
 type: docs
-weight: 4810
+weight: 4830
 url: /th/aspose.slides/fontcollectionindex/
 ---
-## FontCollectionIndex enumeration
+## FontCollectionIndex การนับ
 
-แสดงถึงดัชนีของฟอนต์ในคอลเลกชัน.
+แสดงดัชนีของฟอนต์ในคอลเลกชัน.
 
 ```csharp
 public enum FontCollectionIndex : byte

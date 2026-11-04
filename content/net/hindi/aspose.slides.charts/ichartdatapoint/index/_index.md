@@ -1,20 +1,20 @@
 ---
 title: Index
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: निर्धारित करता है कि माता-पिता के बच्चों के संग्रह में से कौन-सा डेटा पॉइंट इस पर लागू होता है। पढ़ें UInt32.
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: निर्धारित करता है कि इस डेटा पॉइंट को पैरेंट के बच्चों के संग्रह में किस पर लागू किया जाता है। पढ़ें UInt32.
 type: docs
-weight: 80
+weight: 120
 url: /hi/aspose.slides.charts/ichartdatapoint/index/
 ---
 ## IChartDataPoint.Index प्रॉपर्टी
 
-निर्धारित करता है कि पैरेंट के बच्चों के संग्रह में से कौन-सा डेटा पॉइंट इस पर लागू होता है। पढ़ें UInt32.
+निर्धारित करता है कि डेटा पॉइंट पैरेंट के चाइल्ड्स कलेक्शन में किस पर लागू होता है। पढ़ें UInt32.
 
 ```csharp
 public uint Index { get; }
 ```
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IChartDataPoint](../../ichartdatapoint)
 * नेमस्पेस [Aspose.Slides.Charts](../../ichartdatapoint)

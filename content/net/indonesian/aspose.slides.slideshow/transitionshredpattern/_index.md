@@ -1,20 +1,20 @@
 ---
 title: TransitionShredPattern
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Menentukan bentuk geometris yang berulang untuk mengisi area yang lebih besar.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Menentukan bentuk geometris yang menyusun bersama untuk mengisi area yang lebih besar.
 type: docs
-weight: 10410
+weight: 10430
 url: /id/aspose.slides.slideshow/transitionshredpattern/
 ---
 ## TransitionShredPattern enumerasi
 
-Menentukan bentuk geometris yang berulang untuk mengisi area yang lebih besar.
+Menentukan bentuk geometris yang menyusun bersama untuk mengisi area yang lebih besar.
 
 ```csharp
 public enum TransitionShredPattern
 ```
 
-### Nilai
+### Values
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |

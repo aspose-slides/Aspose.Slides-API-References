@@ -1,9 +1,9 @@
 ---
 title: IVbaReferenceOleTwiddledTypeLib
-second_title: Aspose.Sildes dla .NET - referencja API
+second_title: Aspose.Sildes dla .NET - Referencja API
 description: Reprezentuje zmodyfikowaną referencję biblioteki typów OLE Automation, w której wszystkie kontrolki są oznaczone jako rozszerzalne.
 type: docs
-weight: 11600
+weight: 11620
 url: /pl/aspose.slides.vba/ivbareferenceoletwiddledtypelib/
 ---
 ## IVbaReferenceOleTwiddledTypeLib interfejs

@@ -3,7 +3,7 @@ title: ISketchFormat
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa propiedades para el formato de boceto de líneas.
 type: docs
-weight: 7020
+weight: 7040
 url: /es/aspose.slides/isketchformat/
 ---
 ## ISketchFormat interfaz

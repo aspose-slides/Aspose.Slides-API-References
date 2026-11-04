@@ -3,7 +3,7 @@ title: ISmartArtShapeCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: SmartArt シェイプのコレクションを表します
 type: docs
-weight: 10580
+weight: 10600
 url: /ja/aspose.slides.smartart/ismartartshapecollection/
 ---
 ## ISmartArtShapeCollection インターフェイス
@@ -18,9 +18,9 @@ public interface ISmartArtShapeCollection : IGenericCollection<ISmartArtShape>
 
 | 名前 | 説明 |
 | --- | --- |
-| [Item](../../aspose.slides.smartart/ismartartshapecollection/item) { get; } | 指定されたインデックスの要素を取得します。読み取り専用 [`ISmartArtShape`](../ismartartshape)。要素のゼロベースインデックス |
+| [Item](../../aspose.slides.smartart/ismartartshapecollection/item) { get; } | 指定されたインデックスの要素を取得します。 読み取り専用 [`ISmartArtShape`](../ismartartshape)。 要素の0から始まるインデックス |
 
-### 関連項目
+### 参照
 
 * インターフェイス [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * インターフェイス [ISmartArtShape](../ismartartshape)

@@ -1,14 +1,14 @@
 ---
 title: ITrendline
-second_title: Aspose.Sildes .NET API referencia
-description: Az osztály a diagram sorozat trendvonalát ábrázolja
+second_title: Aspose.Sildes a .NET API referencia
+description: Osztály, amely a diagram sorozat trendvonalát képviseli
 type: docs
-weight: 2240
+weight: 2260
 url: /hu/aspose.slides.charts/itrendline/
 ---
 ## ITrendline interfész
 
-Az osztály a diagram sorozat trendvonalát ábrázolja
+Az osztály a diagram sorozat trendvonalát képviseli.
 
 ```csharp
 public interface ITrendline : IOverridableText
@@ -19,12 +19,12 @@ public interface ITrendline : IOverridableText
 | Név | Leírás |
 | --- | --- |
 | [AsIOverridableText](../../aspose.slides.charts/itrendline/asioverridabletext) { get; } | Visszaadja az IOverridableText interfészt. Csak olvasható [`IOverridableText`](../ioverridabletext). |
-| [Backward](../../aspose.slides.charts/itrendline/backward) { get; set; } | Megadja a kategóriák (vagy pontdiagramon a szórási egységek) számát, amelyet a trendvonal a sorozat adatainak előtt kiterjeszt. Szórási és nem szórási diagramok esetén az értéknek nem negatívnak kell lennie. Olvasás/írás Double. |
-| [DisplayEquation](../../aspose.slides.charts/itrendline/displayequation) { get; set; } | Megadja, hogy a trendvonal egyenlete megjelenjen a diagramon (ugyanabban a feliratban, mint az Rsquaredvalue). Olvasás/írás Boolean. |
-| [DisplayRSquaredValue](../../aspose.slides.charts/itrendline/displayrsquaredvalue) { get; set; } | Megadja, hogy a trendvonal R-négyzet értéke megjelenjen a diagramon (ugyanabban a feliratban, mint az egyenlet). Olvasás/írás Boolean. |
+| [Backward](../../aspose.slides.charts/itrendline/backward) { get; set; } | Megadja a kategóriák (vagy a szórásdiagramon lévő egységek) számát, amelyre a trendvonal a trendelt sorozat adatai előtt kiterjed. Szórás és nem szórás diagramok esetén az értéknek bármely nem negatív értéknek kell lennie. Olvasás/írás Double. |
+| [DisplayEquation](../../aspose.slides.charts/itrendline/displayequation) { get; set; } | Megadja, hogy a trendvonal egyenlete megjelenik a diagramon (ugyanabban a címkében, mint az Rsquaredvalue). Olvasás/írás Boolean. |
+| [DisplayRSquaredValue](../../aspose.slides.charts/itrendline/displayrsquaredvalue) { get; set; } | Megadja, hogy a trendvonal R-négyzet értéke megjelenik a diagramon (ugyanabban a címkében, mint az egyenlet). Olvasás/írás Boolean. |
 | [Format](../../aspose.slides.charts/itrendline/format) { get; set; } | A trendvonal formátumát képviseli. Olvasás/írás [`IFormat`](../iformat). |
-| [Forward](../../aspose.slides.charts/itrendline/forward) { get; set; } | Megadja a kategóriák (vagy pontdiagramon a szórási egységek) számát, amelyet a trendvonal a sorozat adatainak után kiterjeszt. Szórási és nem szórási diagramok esetén az értéknek nem negatívnak kell lennie. Olvasás/írás Double. |
-| [Intercept](../../aspose.slides.charts/itrendline/intercept) { get; set; } | Megadja azt az értéket, ahol a trendvonal metszi az y tengelyt. Ez a tulajdonság csak akkor támogatott, ha a trendvonal típusa exp, linear vagy poly. Olvasás/írás Double. |
+| [Forward](../../aspose.slides.charts/itrendline/forward) { get; set; } | Megadja a kategóriák (vagy a szórásdiagramon lévő egységek) számát, amelyre a trendvonal a trendelt sorozat adatai után kiterjed. Szórás és nem szórás diagramok esetén az értéknek bármely nem negatív értéknek kell lennie. Olvasás/írás Double. |
+| [Intercept](../../aspose.slides.charts/itrendline/intercept) { get; set; } | Megadja az értéket, ahol a trendvonal metszi az y tengelyt. Ez a tulajdonság csak akkor támogatott, ha a trendvonal típusa exp, linear vagy poly. Olvasás/írás Double. |
 | [Order](../../aspose.slides.charts/itrendline/order) { get; set; } | Megadja a polinomiális trendvonal rendjét. Más trendvonal típusok esetén figyelmen kívül marad. Az értéknek 2 és 6 között kell lennie. Olvasás/írás Byte. |
 | [Period](../../aspose.slides.charts/itrendline/period) { get; set; } | Megadja a mozgó átlag trendvonal periódusát. Más trendvonal változatok esetén figyelmen kívül marad. Az értéknek 2 és 255 között kell lennie. Olvasás/írás Byte. |
 | [RelatedLegendEntry](../../aspose.slides.charts/itrendline/relatedlegendentry) { get; } | A trendvonalhoz kapcsolódó jelmagyarázat bejegyzést képviseli. Csak olvasható [`ILegendEntryProperties`](../ilegendentryproperties). |

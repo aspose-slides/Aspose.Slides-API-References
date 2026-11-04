@@ -1,14 +1,14 @@
 ---
 title: ISummaryZoomFrame
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir slayttaki Summary Zoom çerçevesini temsil eder.
+description: Bir slaytta Summary Zoom çerçevesini temsil eder.
 type: docs
-weight: 7150
+weight: 7170
 url: /tr/aspose.slides/isummaryzoomframe/
 ---
 ## ISummaryZoomFrame arayüz
 
-Bir slayttaki Summary Zoom çerçevesini temsil eder.
+Bir slaytta Summary Zoom çerçevesini temsil eder.
 
 ```csharp
 public interface ISummaryZoomFrame : IGraphicalObject
@@ -16,11 +16,11 @@ public interface ISummaryZoomFrame : IGraphicalObject
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/isummaryzoomframe/asigraphicalobject) { get; } | Döndürür IGraphicalObject arayüz. |
-| [Layout](../../aspose.slides/isummaryzoomframe/layout) { get; } | Çerçevedeki Summary Zoom Sections düzenini alır. Varsayılan değer GridLayout'tir. |
-| [SummaryZoomCollection](../../aspose.slides/isummaryzoomframe/summaryzoomcollection) { get; } | [`ISummaryZoomSectionCollection`](../isummaryzoomsectioncollection) öğesini Summary Zoom Frame nesnesi için alır. |
+| [AsIGraphicalObject](../../aspose.slides/isummaryzoomframe/asigraphicalobject) { get; } | IGraphicalObject arabirimini döndürür. |
+| [Layout](../../aspose.slides/isummaryzoomframe/layout) { get; } | Çerçevedeki Summary Zoom Sections düzenini alır. Varsayılan değer GridLayout'tır. |
+| [SummaryZoomCollection](../../aspose.slides/isummaryzoomframe/summaryzoomcollection) { get; } | Summary Zoom Frame nesnesi için [`ISummaryZoomSectionCollection`](../isummaryzoomsectioncollection) alır. |
 
 ### Ayrıca Bakınız
 

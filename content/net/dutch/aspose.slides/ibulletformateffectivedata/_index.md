@@ -1,33 +1,33 @@
 ---
 title: IBulletFormatEffectiveData
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Onveranderlijk object dat effectieve alinea-opsommingopmaak-eigenschappen bevat.
+description: Onveranderlijk object dat de effectieve alinea bullet-opmaak eigenschappen bevat.
 type: docs
-weight: 5400
+weight: 5420
 url: /nl/aspose.slides/ibulletformateffectivedata/
 ---
 ## IBulletFormatEffectiveData interface
 
-Onveranderlijk object dat de effectieve alinea opsomming opmaak eigenschappen bevat.
+Onveranderlijk object dat de effectieve alinea bullet-opmaak eigenschappen bevat.
 
 ```csharp
 public interface IBulletFormatEffectiveData
 ```
 
-## Eigenschappen
+## Properties
 
 | Naam | Beschrijving |
 | --- | --- |
-| [ActualBulletValue](../../aspose.slides/ibulletformateffectivedata/actualbulletvalue) { get; } | Retourneert de werkelijke opsommingwaarde voor de bovenliggende alinea. Alleen-lezen String. |
-| [Char](../../aspose.slides/ibulletformateffectivedata/char) { get; } | Retourneert het opsommingsteken van een alinea. Alleen-lezen Char. |
-| [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | Retourneert het opsomming opvulformaat van een alinea. Alleen-lezen [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
-| [Font](../../aspose.slides/ibulletformateffectivedata/font) { get; } | Retourneert het opsomminglettertype van een alinea. Alleen-lezen [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/ibulletformateffectivedata/height) { get; } | Retourneert de opsomminghoogte van een alinea. Alleen-lezen Single. |
-| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | Bepaalt of de opsomming een eigen kleur heeft of deze erft van het eerste gedeelte in de alinea. Retourneert **true** als de opsomming een eigen kleur heeft en **false** als de opsomming de kleur erft van het eerste gedeelte in de alinea. Alleen-lezen Boolean. |
-| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | Bepaalt of de opsomming een eigen lettertype heeft of deze erft van het eerste gedeelte in de alinea. Retourneert **true** als de opsomming een eigen lettertype heeft en **true** als de opsomming het lettertype erft van het eerste gedeelte in de alinea. Alleen-lezen Boolean. |
-| [NumberedBulletStartWith](../../aspose.slides/ibulletformateffectivedata/numberedbulletstartwith) { get; } | Retourneert het eerste getal dat wordt gebruikt voor een groep genummerde opsommingen. Alleen-lezen Int16. |
-| [NumberedBulletStyle](../../aspose.slides/ibulletformateffectivedata/numberedbulletstyle) { get; } | Retourneert de stijl van een genummerde opsomming. Alleen-lezen [`NumberedBulletStyle`](../numberedbulletstyle). |
-| [Type](../../aspose.slides/ibulletformateffectivedata/type) { get; } | Retourneert het opsommingtype van een alinea. Alleen-lezen [`BulletType`](../bullettype). |
+| [ActualBulletValue](../../aspose.slides/ibulletformateffectivedata/actualbulletvalue) { get; } | Retourneert de werkelijke bulletwaarde voor de bovenliggende alinea. Alleen-lezen String. |
+| [Char](../../aspose.slides/ibulletformateffectivedata/char) { get; } | Retourneert het bulletteken van een alinea. Alleen-lezen Char. |
+| [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | Retourneert het bulletvulformaat van een alinea. Alleen-lezen [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [Font](../../aspose.slides/ibulletformateffectivedata/font) { get; } | Retourneert het bulletlettertype van een alinea. Alleen-lezen [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/ibulletformateffectivedata/height) { get; } | Retourneert de bullethoogte van een alinea. Alleen-lezen Single. |
+| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | Bepaalt of de bullet een eigen kleur heeft of deze erft van het eerste deel in de alinea. Retourneert **true** als de bullet een eigen kleur heeft en **false** als de bullet de kleur erft van het eerste deel in de alinea. Alleen-lezen Boolean. |
+| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | Bepaalt of de bullet een eigen lettertype heeft of dit erft van het eerste deel in de alinea. Retourneert **true** als de bullet een eigen lettertype heeft en **true** als de bullet het lettertype erft van het eerste deel in de alinea. Alleen-lezen Boolean. |
+| [NumberedBulletStartWith](../../aspose.slides/ibulletformateffectivedata/numberedbulletstartwith) { get; } | Retourneert het eerste nummer dat wordt gebruikt voor de groep genummerde bullets. Alleen-lezen Int16. |
+| [NumberedBulletStyle](../../aspose.slides/ibulletformateffectivedata/numberedbulletstyle) { get; } | Retourneert de stijl van een genummerde bullet. Alleen-lezen [`NumberedBulletStyle`](../numberedbulletstyle). |
+| [Type](../../aspose.slides/ibulletformateffectivedata/type) { get; } | Retourneert het bullettype van een alinea. Alleen-lezen [`BulletType`](../bullettype). |
 
 ### Opmerkingen
 

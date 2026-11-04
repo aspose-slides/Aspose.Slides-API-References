@@ -3,7 +3,7 @@ title: FormatScheme
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Stocke les formats définis par le thème pour les formes.
 type: docs
-weight: 11140
+weight: 11160
 url: /fr/aspose.slides.theme/formatscheme/
 ---
 ## FormatScheme classe
@@ -22,8 +22,8 @@ public class FormatScheme : IFormatScheme
 | [EffectStyles](../../aspose.slides.theme/formatscheme/effectstyles) { get; } | Renvoie une collection de styles d'effet définis par le thème. Lecture seule [`IEffectStyleCollection`](../ieffectstylecollection). |
 | [FillStyles](../../aspose.slides.theme/formatscheme/fillstyles) { get; } | Renvoie une collection de styles de remplissage définis par le thème. Lecture seule [`IFillFormatCollection`](../ifillformatcollection). |
 | [LineStyles](../../aspose.slides.theme/formatscheme/linestyles) { get; } | Renvoie une collection de styles de ligne définis par le thème. Lecture seule [`ILineFormatCollection`](../ilineformatcollection). |
-| [Presentation](../../aspose.slides.theme/formatscheme/presentation) { get; } | Renvoie la présentation parent. Lecture seule [`IPresentation`](../../aspose.slides/ipresentation). |
-| [Slide](../../aspose.slides.theme/formatscheme/slide) { get; } | Renvoie la diapositive parent. Lecture seule [`IBaseSlide`](../../aspose.slides/ibaseslide). |
+| [Presentation](../../aspose.slides.theme/formatscheme/presentation) { get; } | Renvoie la présentation parente. Lecture seule [`IPresentation`](../../aspose.slides/ipresentation). |
+| [Slide](../../aspose.slides.theme/formatscheme/slide) { get; } | Renvoie la diapositive parente. Lecture seule [`IBaseSlide`](../../aspose.slides/ibaseslide). |
 
 ### Voir aussi
 

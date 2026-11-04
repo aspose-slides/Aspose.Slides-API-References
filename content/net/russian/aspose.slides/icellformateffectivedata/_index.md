@@ -3,7 +3,7 @@ title: ICellFormatEffectiveData
 second_title: Aspose.Sildes для .NET справочник API
 description: Неизменяемый объект, содержащий эффективные свойства форматирования ячейки таблицы.
 type: docs
-weight: 5480
+weight: 5500
 url: /ru/aspose.slides/icellformateffectivedata/
 ---
 ## ICellFormatEffectiveData интерфейс
@@ -19,11 +19,11 @@ public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
 | Имя | Описание |
 | --- | --- |
 | [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | Позволяет получить базовый интерфейс IBaseTableFormatEffectiveData. Только для чтения [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
-| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | Получает прозрачность цвета заливки. Чтение Single. |
+| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | Получает прозрачность заливочного цвета. Только чтение Single. |
 
 ### Примечания
 
-Этот интерфейс используется вместе с интерфейсом [`ICellFormat`](../icellformat) для возврата эффективных значений форматирования с учётом наследования и применённых стилей таблиц.
+Этот интерфейс используется вместе с интерфейсом [`ICellFormat`](../icellformat) для возвращения эффективных значений форматирования с примененными наследованием и стилями таблиц.
 
 ### См. также
 

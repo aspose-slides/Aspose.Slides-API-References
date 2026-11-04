@@ -1,9 +1,9 @@
 ---
 title: RowFormat
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Stellt das Format einer Tabellenzeile dar.
 type: docs
-weight: 9730
+weight: 9750
 url: /de/aspose.slides/rowformat/
 ---
 ## RowFormat Klasse
@@ -18,7 +18,7 @@ public sealed class RowFormat : DomObject<Row>, IRowFormat
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetEffective](../../aspose.slides/rowformat/geteffective)() | Ermittelt die wirksamen Formatierungseigenschaften einer Tabellenzeile mit Vererbung und angewendeten Tabellenstilen. |
+| [GetEffective](../../aspose.slides/rowformat/geteffective)() | Ruft die wirksamen Tabellenzeilen-Formatierungseigenschaften ab, wobei Vererbung und Tabellenvorlagen angewendet werden. |
 
 ### Siehe auch
 

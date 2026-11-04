@@ -1,14 +1,14 @@
 ---
 title: IPatternFormatEffectiveData
-second_title: Aspose.Sildes для .NET справочника API
-description: Неизменяемый объект, содержащий эффективные свойства заполнения узором.
+second_title: Aspose.Sildes для .NET API справки
+description: Неизменяемый объект, содержащий эффективные свойства заполнения шаблоном.
 type: docs
-weight: 6630
+weight: 6650
 url: /ru/aspose.slides/ipatternformateffectivedata/
 ---
 ## IPatternFormatEffectiveData интерфейс
 
-Неизменяемый объект, содержащий эффективные свойства заполнения узором.
+Immutable object which contains effective pattern filling properties.
 
 ```csharp
 public interface IPatternFormatEffectiveData
@@ -18,17 +18,17 @@ public interface IPatternFormatEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [BackColor](../../aspose.slides/ipatternformateffectivedata/backcolor) { get; } | Возвращает цвет фона узора. Только для чтения Color. |
-| [ForeColor](../../aspose.slides/ipatternformateffectivedata/forecolor) { get; } | Возвращает цвет переднего плана узора. Только для чтения Color. |
-| [PatternStyle](../../aspose.slides/ipatternformateffectivedata/patternstyle) { get; } | Возвращает стиль узора. Только для чтения [`PatternStyle`](../patternstyle). |
+| [BackColor](../../aspose.slides/ipatternformateffectivedata/backcolor) { get; } | Возвращает цвет фона шаблона. Только для чтения Color. |
+| [ForeColor](../../aspose.slides/ipatternformateffectivedata/forecolor) { get; } | Возвращает цвет переднего плана шаблона. Только для чтения Color. |
+| [PatternStyle](../../aspose.slides/ipatternformateffectivedata/patternstyle) { get; } | Возвращает стиль шаблона. Только для чтения [`PatternStyle`](../patternstyle). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetTileIImage](../../aspose.slides/ipatternformateffectivedata/gettileiimage)(Color, Color) | Создаёт изображение плитки для заполнения узором с указанными цветами. |
+| [GetTileIImage](../../aspose.slides/ipatternformateffectivedata/gettileiimage)(Color, Color) | Создает изображение плитки для заполнения шаблоном с указанными цветами. |
 
-### Примечание
+### Примечания
 
 Этот интерфейс используется как часть [`IFillFormatEffectiveData`](../ifillformateffectivedata) и [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata).
 

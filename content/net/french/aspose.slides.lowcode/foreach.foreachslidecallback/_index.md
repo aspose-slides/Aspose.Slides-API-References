@@ -1,9 +1,9 @@
 ---
 title: ForEach.ForEachSlideCallback
-second_title: Référence de l'API .NET Aspose.Sildes
-description: Rappel qui sera invoqué pour chaque Slide./foreach/slide dans le Presentation../aspose.slides/presentation.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Rappel qui sera invoqué pour chaque Slide./foreach/slide dans la Presentation../aspose.slides/presentation.
 type: docs
-weight: 7960
+weight: 7980
 url: /fr/aspose.slides.lowcode/foreach.foreachslidecallback/
 ---
 ## ForEach.ForEachSlideCallback délégué
@@ -16,8 +16,8 @@ public delegate void ForEachSlideCallback(Slide slide, int index);
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| slide | Slide | Diapositive actuellement parcourue |
-| index | Int32 | Index de la diapositive actuelle |
+| slide | Slide | Diapositive actuelle itérée |
+| index | Int32 | Indice de la diapositive actuelle |
 
 ### Voir aussi
 

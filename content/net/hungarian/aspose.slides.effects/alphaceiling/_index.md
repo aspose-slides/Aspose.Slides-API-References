@@ -1,14 +1,14 @@
 ---
 title: AlphaCeiling
-second_title: Aspose.Sildes a .NET API referencia
-description: Egy Alpha Ceiling hatást reprezentál. A nulla feletti Alpha átlátszatlansági értékek 100-ra módosulnak. Más szóval, minden részben átlátszatlan elem teljesen átlátszatlanná válik.
+second_title: Aspose.Sildes .NET API Referenciához
+description: Az Alpha Ceiling effektust képviseli. A nulla feletti Alpha átlátszósági értékek 100-ra változnak. Más szóval, minden részben átlátszó teljesen átlátszóvá válik.
 type: docs
-weight: 2850
+weight: 2870
 url: /hu/aspose.slides.effects/alphaceiling/
 ---
 ## AlphaCeiling osztály
 
-Az Alpha Ceiling hatást reprezentálja. A nulla feletti Alpha (átlátszatlanság) értékek 100%-ra módosulnak. Más szóval, minden részben átlátszatlan objektum teljesen átlátszatlanná válik.
+Az Alpha Ceiling hatást képviseli. A nulla feletti Alpha (átlátszóság) értékek 100%-ra módosulnak. Más szóval, minden részlegesen átlátszó teljesen átlátszóvá válik.
 
 ```csharp
 public sealed class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
@@ -18,15 +18,15 @@ public sealed class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
 
 | Név | Leírás |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi az alap IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi az IPresentationComponent alap interfész lekérését. Csak olvasható [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphaceiling/equals)(object) | Meghatározza, hogy a megadott [`AlphaCeiling`](../alphaceiling) egyenlő-e a jelenlegi [`AlphaCeiling`](../alphaceiling). |
-| [GetEffective](../../aspose.slides.effects/alphaceiling/geteffective)() | Lekéri a hatékony Alpha Ceiling effektus adatait az öröklődés alkalmazásával. |
-| override [GetHashCode](../../aspose.slides.effects/alphaceiling/gethashcode)() | Egy hash függvényként szolgál egy adott típushoz. |
+| override [Equals](../../aspose.slides.effects/alphaceiling/equals)(object) | Meghatározza, hogy a megadott [`AlphaCeiling`](../alphaceiling) egyenlő-e az aktuális [`AlphaCeiling`](../alphaceiling). |
+| [GetEffective](../../aspose.slides.effects/alphaceiling/geteffective)() | Lekéri a hatékony Alpha Ceiling hatás adatait az öröklődés alkalmazásával. |
+| override [GetHashCode](../../aspose.slides.effects/alphaceiling/gethashcode)() | Hash függvényként szolgál egy adott típushoz. |
 
 ### Lásd még
 

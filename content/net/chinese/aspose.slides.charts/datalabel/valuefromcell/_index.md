@@ -1,21 +1,20 @@
 ---
 title: ValueFromCell
-second_title: Aspose.Sildes for .NET API Reference
-description: 获取或设置工作簿数据单元格。仅在 IDataLabelFormat.ShowLabelValueFromCell 属性等于 true 时应用。
+second_title: Aspose.Sildes .NET API 参考
+description: 获取或设置工作簿数据单元格。如果 IDataLabelFormat.ShowLabelValueFromCell 属性为 true，则适用。
 type: docs
-weight: 140
+weight: 150
 url: /zh/aspose.slides.charts/datalabel/valuefromcell/
 ---
-
 ## DataLabel.ValueFromCell 属性
 
-获取或设置工作簿数据单元格。仅在 IDataLabelFormat.ShowLabelValueFromCell 属性等于 true 时应用。
+获取或设置工作簿数据单元格。如果 IDataLabelFormat.ShowLabelValueFromCell 属性为 true，则适用。
 
 ```csharp
 public IChartDataCell ValueFromCell { get; set; }
 ```
 
-### 参见
+### 另见
 
 * 接口 [IChartDataCell](../../ichartdatacell)
 * 类 [DataLabel](../../datalabel)

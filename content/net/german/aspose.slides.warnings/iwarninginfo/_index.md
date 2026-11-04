@@ -3,7 +3,7 @@ title: IWarningInfo
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Basisschnittstelle für alle Warnungen dar.
 type: docs
-weight: 11810
+weight: 11830
 url: /de/aspose.slides.warnings/iwarninginfo/
 ---
 ## IWarningInfo Schnittstelle
@@ -18,8 +18,8 @@ public interface IWarningInfo
 
 | Name | Beschreibung |
 | --- | --- |
-| [Description](../../aspose.slides.warnings/iwarninginfo/description) { get; } | Gibt eine menschenlesbare Beschreibung dieser Warnung zurück. Nur-Lese String. |
-| [WarningType](../../aspose.slides.warnings/iwarninginfo/warningtype) { get; } | Gibt einen Typ von Warnung zurück. Nur-Lese [`WarningType`](./warningtype). |
+| [Description](../../aspose.slides.warnings/iwarninginfo/description) { get; } | Gibt eine menschenlesbare Beschreibung dieser Warnung zurück. Nur-Lesen String. |
+| [WarningType](../../aspose.slides.warnings/iwarninginfo/warningtype) { get; } | Gibt einen Typ der Warnung zurück. Nur-Lesen [`WarningType`](./warningtype). |
 
 ## Methoden
 

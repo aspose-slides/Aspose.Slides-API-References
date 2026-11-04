@@ -1,14 +1,14 @@
 ---
 title: IBlurEffectiveData
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Objeto inmutable que representa un efecto de desenfoque que se aplica a toda la forma, incluido su relleno. Todos los canales de color, incluido el alfa, se ven afectados.
+description: Objeto inmutable que representa un efecto Blur que se aplica a toda la forma, incluido su relleno. Todos los canales de color, incluido el alfa, se ven afectados.
 type: docs
-weight: 3190
+weight: 3210
 url: /es/aspose.slides.effects/iblureffectivedata/
 ---
 ## IBlurEffectiveData interfaz
 
-Objeto inmutable que representa un efecto de desenfoque que se aplica a toda la forma, incluido su relleno. Todos los canales de color, incluido el alfa, se ven afectados.
+Objeto inmutable que representa un efecto Blur que se aplica a toda la forma, incluido su relleno. Todos los canales de color, incluido el alfa, se ven afectados.
 
 ```csharp
 public interface IBlurEffectiveData : IEffectEffectiveData
@@ -16,11 +16,11 @@ public interface IBlurEffectiveData : IEffectEffectiveData
 
 ## Propiedades
 
-| Name | Description |
+| Nombre | Descripción |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/iblureffectivedata/asieffecteffectivedata) { get; } | Permite obtener la interfaz base IEffectEffectiveData. Solo lectura [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | Determina si los límites del objeto deben ampliarse como resultado del desenfoque. Verdadero indica que los límites se amplían mientras que falso indica que no lo hacen. Solo lectura Boolean. |
-| [Radius](../../aspose.slides.effects/iblureffectivedata/radius) { get; } | Devuelve o establece el radio del desenfoque. Solo lectura Double. |
+| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | Determina si los límites del objeto deben ampliarse como resultado del desenfoque. True indica que los límites se amplían mientras que false indica que no lo hacen. Solo lectura Boolean. |
+| [Radius](../../aspose.slides.effects/iblureffectivedata/radius) { get; } | Devuelve o establece el radio del blur. Solo lectura Double. |
 
 ### Ver también
 

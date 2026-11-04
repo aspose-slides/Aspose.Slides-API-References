@@ -1,14 +1,14 @@
 ---
 title: ReplaceRegex
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แทนที่การจับคู่ทั้งหมดของนิพจน์ทั่วไปด้วยสตริงที่ระบุ.
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: แทนที่การจับคู่ทั้งหมดของ regular expression ด้วยสตริงที่ระบุ
 type: docs
-weight: 110
+weight: 120
 url: /th/aspose.slides/itextframe/replaceregex/
 ---
 ## ITextFrame.ReplaceRegex เมธอด
 
-แทนที่การจับคู่ทั้งหมดของนิพจน์ทั่วไปด้วยสตริงที่ระบุ.
+แทนที่การจับคู่ทั้งหมดของ regular expression ด้วยสตริงที่ระบุ
 
 ```csharp
 public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callback)
@@ -16,20 +16,20 @@ public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callba
 
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
 | --- | --- | --- |
-| regex | Regex | Regular expression Regex เพื่อรับสตริงที่จะทำการแทนที่. |
-| newText | String | สตริงที่ใช้แทนที่ทุก occurrence ของสตริงที่ต้องการแทนที่. |
-| callback | IFindResultCallback | อ็อบเจ็กต์ callback สำหรับรับผลการค้นหา [`IFindResultCallback`](../../ifindresultcallback). |
+| regex | Regex | Regular expression Regex เพื่อรับสตริงที่ต้องการแทนที่ |
+| newText | String | สตริงที่ใช้แทนที่การปรากฏทั้งหมดของสตริงที่ต้องการแทนที่ |
+| callback | IFindResultCallback | อ็อบเจ็กต์ callback สำหรับรับผลการค้นหา [`IFindResultCallback`](../../ifindresultcallback) |
 
 ### ตัวอย่าง
 
-ตัวอย่างโค้ดต่อไปนี้แสดงวิธีการแทนที่ข้อความโดยใช้ regular expression กับสตริงที่ระบุ.
+ตัวอย่างโค้ดต่อไปนี้แสดงวิธีการแทนที่ข้อความโดยใช้ regular expression พร้อมสตริงที่ระบุ
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// แทนที่คำทั้งหมดที่มี 10 ตัวอักษรขึ้นไปด้วย '***'
+	// แทนที่คำทั้งหมดที่มีความยาว 10 ตัวอักษรหรือมากกว่า ด้วย '***'
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.ReplaceRegex(regex, "***", null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }

@@ -1,14 +1,14 @@
 ---
 title: MathNaryOperatorTypes
-second_title: Aspose.Sildes для .NET справочник API
-description: Типы n-арных операторов IMathNaryOperator, исключая интегралы. Для интегралов MathIntegralTypes./mathintegraltypes
+second_title: Aspose.Sildes для .NET справка API
+description: N-арные операторы IMathNaryOperator типов, исключая интегралы. Для интегралов MathIntegralTypes./mathintegraltypes
 type: docs
-weight: 8890
+weight: 8910
 url: /ru/aspose.slides.mathtext/mathnaryoperatortypes/
 ---
 ## MathNaryOperatorTypes перечисление
 
-Типы n-арных операторов IMathNaryOperator (за исключением интегралов) Для интегралов [`MathIntegralTypes`](../mathintegraltypes)
+мультиоператор IMathNaryOperator типы (за исключением интегралов) Для интегралов [`MathIntegralTypes`](../mathintegraltypes)
 
 ```csharp
 public enum MathNaryOperatorTypes
@@ -18,15 +18,15 @@ public enum MathNaryOperatorTypes
 
 | Имя | Значение | Описание |
 | --- | --- | --- |
-| Summation | `0` | Суммирование: '∑' |
-| Product | `1` | Произведение: '∏' |
-| CoProduct | `2` | Копродукт: '∐' |
-| Intersection | `3` | Пересечение: '∩' |
-| Union | `4` | Объединение: '∪' |
-| LogicalAnd | `5` | Логическое И: '∧' |
-| LogicalOr | `6` | Логическое ИЛИ: '∨' |
+| Summation | `0` | Summation: '∑' |
+| Product | `1` | Product: '∏' |
+| CoProduct | `2` | Coproduct: '∐' |
+| Intersection | `3` | Intersection: '∩' |
+| Union | `4` | Union: '∪' |
+| LogicalAnd | `5` | Logical And: '∧' |
+| LogicalOr | `6` | Logical Or: '∨' |
 
-### Смотрите также
+### См. также
 
 * пространство имён [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)

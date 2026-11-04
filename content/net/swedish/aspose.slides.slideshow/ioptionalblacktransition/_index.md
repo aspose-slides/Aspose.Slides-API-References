@@ -3,7 +3,7 @@ title: IOptionalBlackTransition
 second_title: Aspose.Sildes för .NET API-referens
 description: Valfri svart bildövergångseffekt.
 type: docs
-weight: 10140
+weight: 10160
 url: /sv/aspose.slides.slideshow/ioptionalblacktransition/
 ---
 ## IOptionalBlackTransition gränssnitt
@@ -19,7 +19,7 @@ public interface IOptionalBlackTransition : ITransitionValueBase
 | Namn | Beskrivning |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/ioptionalblacktransition/asitransitionvaluebase) { get; } | Tillåter att hämta bas ITransitionValueBase gränssnitt. Skrivskyddad [`ITransitionValueBase`](../itransitionvaluebase). |
-| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | Detta attribut anger om övergången ska börja från en svart skärm (och sedan övergå den nya bilden över svart). Läs/skriv Boolean. |
+| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | Detta attribut anger om övergången ska starta från en svart skärm (och sedan övergå den nya bilden över svart). Läs/skriv Boolean. |
 
 ### Se även
 

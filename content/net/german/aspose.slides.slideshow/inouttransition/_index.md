@@ -3,7 +3,7 @@ title: InOutTransition
 second_title: Aspose.Sildes für .NET API-Referenz
 description: In-Out Folienübergangseffekt.
 type: docs
-weight: 10230
+weight: 10250
 url: /de/aspose.slides.slideshow/inouttransition/
 ---
 ## InOutTransition Klasse
@@ -25,7 +25,7 @@ public class InOutTransition : TransitionValueBase, IInOutTransition
 | Name | Beschreibung |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bestimmt, ob die beiden TransitionValueBase-Instanzen gleich sind. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als Hashfunktion für einen bestimmten Typ, geeignet für die Verwendung in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als Hash-Funktion für einen bestimmten Typ, geeignet für die Verwendung in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle. |
 
 ### Siehe auch
 

@@ -1,14 +1,14 @@
 ---
 title: IAnimationTimeLine
-second_title: Aspose.Sildes .NET API 参考
-description: 表示动画的时间轴。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示动画时间线。
 type: docs
-weight: 5200
+weight: 5220
 url: /zh/aspose.slides/ianimationtimeline/
 ---
 ## IAnimationTimeLine 接口
 
-表示动画的时间轴。
+表示动画时间线。
 
 ```csharp
 public interface IAnimationTimeLine
@@ -18,11 +18,11 @@ public interface IAnimationTimeLine
 
 | 名称 | 描述 |
 | --- | --- |
-| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | 返回交互序列的集合。这些序列可能仅包含通过“单击形状”触发的效果，并指定目标形状。只读 [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection)。 |
+| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | 返回交互序列的集合。此序列可能仅包含通过 "click on shape" 指定目标形状的效果。只读 [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection)。 |
 | [MainSequence](../../aspose.slides/ianimationtimeline/mainsequence) { get; } | 返回主序列，该序列可能仅包含主效果集合。只读 [`ISequence`](../../aspose.slides.animation/isequence)。 |
 | [TextAnimationCollection](../../aspose.slides/ianimationtimeline/textanimationcollection) { get; } | 返回文本动画的集合。只读 [`ITextAnimationCollection`](../../aspose.slides.animation/itextanimationcollection)。 |
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: TextFrameForOverriding
 second_title: Aspose.Sildes för .NET API-referens
-description: Kan innehålla en rik formatterad text. Om den här egenskapen inte är null ersätter detta formatterade textvärde den automatiskt genererade texten för datalabeln. Automatiskt genererad text för datalabeln betyder text som hanteras av ShowSeriesName ShowValue ... egenskaper och som formateras med TextFormatManager.TextFormat egenskapen. Endast läsning ITextFrameaspose.slides/itextframe.
+description: Kan innehålla en rik formaterad text. Om denna egenskap inte är null så åsidosätter detta formaterade textvärde den automatiskt genererade texten för datamärket. Automatiskt genererad text för datamärket betyder text som hanteras av ShowSeriesName ShowValue ... egenskaper och som formateras med TextFormatManager.TextFormat egenskap. Skrivskyddad ITextFrameaspose.slides/itextframe.
 type: docs
-weight: 130
+weight: 140
 url: /sv/aspose.slides.charts/datalabel/textframeforoverriding/
 ---
 ## DataLabel.TextFrameForOverriding egenskap
 
-Kan innehålla en rik formatterad text. Om den här egenskapen inte är null ersätter detta formatterade textvärde den automatiskt genererade texten för datalabeln. Automatiskt genererad text för datalabeln betyder text som hanteras av ShowSeriesName, ShowValue, … egenskaper och som formateras med TextFormatManager.TextFormat egenskapen. Endast läsning [`ITextFrame`](../../../aspose.slides/itextframe).
+Kan innehålla en rik formaterad text. Om denna egenskap inte är null så åsidosätter detta formaterade textvärde den automatiskt genererade texten för datamärket. Automatiskt genererad text för datamärket betyder text som hanteras av ShowSeriesName, ShowValue, ... egenskaper och som formateras med TextFormatManager.TextFormat egenskap. Skrivskyddad [`ITextFrame`](../../../aspose.slides/itextframe).
 
 ```csharp
 public ITextFrame TextFrameForOverriding { get; }

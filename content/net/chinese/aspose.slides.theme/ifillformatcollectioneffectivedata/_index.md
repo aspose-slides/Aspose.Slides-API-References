@@ -1,14 +1,14 @@
 ---
 title: IFillFormatCollectionEffectiveData
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示有效填充格式的只读集合的不可变对象。
+description: 表示有效填充格式只读集合的不可变对象。
 type: docs
-weight: 11240
+weight: 11260
 url: /zh/aspose.slides.theme/ifillformatcollectioneffectivedata/
 ---
-## IFillFormatCollectionEffectiveData interface
+## IFillFormatCollectionEffectiveData 接口
 
-不可变对象，表示有效填充格式的只读集合。
+表示有效填充格式只读集合的不可变对象。
 
 ```csharp
 public interface IFillFormatCollectionEffectiveData : IGenericCollection<IFillFormatEffectiveData>
@@ -16,7 +16,7 @@ public interface IFillFormatCollectionEffectiveData : IGenericCollection<IFillFo
 
 ## 属性
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [Item](../../aspose.slides.theme/ifillformatcollectioneffectivedata/item) { get; } | 获取指定索引处的元素。只读 [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata)。 |
 
@@ -24,7 +24,7 @@ public interface IFillFormatCollectionEffectiveData : IGenericCollection<IFillFo
 
 此接口用作 [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata) 的一部分。
 
-### 另见
+### 另请参见
 
 * 接口 [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * 接口 [IFillFormatEffectiveData](../../aspose.slides/ifillformateffectivedata)

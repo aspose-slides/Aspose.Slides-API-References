@@ -1,9 +1,9 @@
 ---
 title: FontStyleType
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per le API .NET
 description: Definisce gli stili di formattazione che possono essere applicati al testo.
 type: docs
-weight: 4870
+weight: 4890
 url: /it/aspose.slides/fontstyletype/
 ---
 ## enumerazione FontStyleType
@@ -17,7 +17,7 @@ public enum FontStyleType
 
 ### Valori
 
-| Nome | Valore | Descrizione |
+| Name | Value | Description |
 | --- | --- | --- |
 | Regular | `0` | Testo standard. |
 | Bold | `1` | Testo in grassetto. |

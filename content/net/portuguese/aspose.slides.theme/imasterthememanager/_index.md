@@ -3,10 +3,10 @@ title: IMasterThemeManager
 second_title: Aspose.Sildes para .NET Referência da API
 description: Fornece acesso ao tema mestre da apresentação.
 type: docs
-weight: 11320
-url: /pt/aspose.slides/theme/imasterthememanager/
+weight: 11340
+url: /pt/aspose.slides.theme/imasterthememanager/
 ---
-## interface IMasterThemeManager
+## IMasterThemeManager interface
 
 Fornece acesso ao tema mestre da apresentação.
 
@@ -18,11 +18,11 @@ public interface IMasterThemeManager : IThemeManager
 
 | Nome | Descrição |
 | --- | --- |
-| [AsIThemeManager](../../aspose.slides.theme/imasterthememanager/asithememanager) { get; } | Permite obter a interface base IThemeManager. Somente leitura [`IThemeManager`](../ithememanager). |
+| [AsIThemeManager](../../aspose.slides.theme/imasterthememanager/asithememanager) { get; } | Permite obter a interface IThemeManager base. Somente leitura [`IThemeManager`](../ithememanager). |
 | [IsOverrideThemeEnabled](../../aspose.slides.theme/imasterthememanager/isoverridethemeenabled) { get; set; } | Determina se OverrideTheme substitui o tema efetivo herdado (Presentation.MasterTheme) ou não. Leitura/gravação Boolean. |
 | [OverrideTheme](../../aspose.slides.theme/imasterthememanager/overridetheme) { get; set; } | Retorna o objeto de tema de substituição. Leitura/gravação [`IMasterTheme`](../imastertheme). |
 
-### Ver Também
+### Veja Também
 
 * interface [IThemeManager](../ithememanager)
 * namespace [Aspose.Slides.Theme](../../aspose.slides.theme)

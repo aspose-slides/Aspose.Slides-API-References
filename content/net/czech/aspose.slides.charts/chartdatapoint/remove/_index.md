@@ -1,9 +1,9 @@
 ---
 title: Remove
-second_title: Aspose.Sildes pro .NET - reference API
+second_title: Aspose.Sildes pro .NET API Reference
 description: Odstraňuje DataPoint ze série grafu.
 type: docs
-weight: 230
+weight: 270
 url: /cs/aspose.slides.charts/chartdatapoint/remove/
 ---
 ## ChartDataPoint.Remove metoda

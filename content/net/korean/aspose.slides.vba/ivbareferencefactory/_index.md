@@ -3,7 +3,7 @@ title: IVbaReferenceFactory
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: COM 인터페이스를 통해 VBA 프로젝트 참조를 생성할 수 있습니다.
 type: docs
-weight: 11590
+weight: 11610
 url: /ko/aspose.slides.vba/ivbareferencefactory/
 ---
 ## IVbaReferenceFactory 인터페이스
@@ -16,11 +16,11 @@ public interface IVbaReferenceFactory
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [CreateOleTypeLibReference](../../aspose.slides.vba/ivbareferencefactory/createoletypelibreference)(string, string) | 새 OLE Automation 타입 라이브러리 참조를 생성합니다. |
+| [CreateOleTypeLibReference](../../aspose.slides.vba/ivbareferencefactory/createoletypelibreference)(string, string) | 새 OLE Automation 형식 라이브러리 참조를 생성합니다. |
 
-### 관련 항목
+### 참고
 
 * 네임스페이스 [Aspose.Slides.Vba](../../aspose.slides.vba)
 * 어셈블리 [Aspose.Slides](../../)

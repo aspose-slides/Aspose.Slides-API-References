@@ -1,14 +1,14 @@
 ---
 title: MasterLayoutSlideCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt een verzameling van alle layout-slides van een gedefinieerde masterslide. Breidt de LayoutSlideCollection-klasse uit met methoden voor het toevoegen/invoegen/verwijderen/klonen/herordenen van layout-slides in de context van de afzonderlijke verzamelingen van de layout-slides van de master.
+description: Stelt een collectie voor van alle layout-slides van een gedefinieerde master-slide. Breidt de LayoutSlideCollection-klasse uit met methoden voor het toevoegen/invoegen/verwijderen/klonen/herordenen van layout-slides in de context van de individuele collecties van master-layout-slides.
 type: docs
-weight: 8000
+weight: 8020
 url: /nl/aspose.slides/masterlayoutslidecollection/
 ---
 ## MasterLayoutSlideCollection klasse
 
-Vertegenwoordigt een verzameling van alle layout-slides van een gedefinieerde masterslide. Breidt de LayoutSlideCollection klasse uit met methoden voor het toevoegen/invoegen/verwijderen/klonen/herordenen van layout-slides in de context van de afzonderlijke verzamelingen van de layout-slides van de master.
+Stelt een collectie voor van alle layout-slides van een gedefinieerde master-slide. Breidt de LayoutSlideCollection klasse uit met methoden voor het toevoegen/invoegen/verwijderen/klonen/herordenen van layout-slides in de context van de individuele collecties van de master-layout-slides.
 
 ```csharp
 public sealed class MasterLayoutSlideCollection : LayoutSlideCollection, 
@@ -19,26 +19,26 @@ public sealed class MasterLayoutSlideCollection : LayoutSlideCollection,
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Retourneert het aantal layout-slides in een verzameling. Alleen-lezen Int32. |
-| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Retourneert een waarde die aangeeft of de toegang tot de verzameling gesynchroniseerd is (thread-veilig). Alleen-lezen Boolean. |
-| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Retourneert de layout-slide op basis van index. Alleen-lezen [`LayoutSlide`](../layoutslide). |
-| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Retourneert een synchronisatieroot. Alleen-lezen Object. |
+| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Retourneert het aantal layout-slides in een collectie. Alleen-lezen Int32. |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Retourneert een waarde die aangeeft of de toegang tot de collectie gesynchroniseerd is (thread-safe). Alleen-lezen Boolean. |
+| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Retourneert de layout-slide op index. Alleen-lezen [`LayoutSlide`](../layoutslide). |
+| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Retourneert een synchronisatiewortel. Alleen-lezen Object. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Add](../../aspose.slides/masterlayoutslidecollection/add)(SlideLayoutType, string) | Voegt een nieuwe layout-slide toe aan het einde van de verzameling. |
-| [AddClone](../../aspose.slides/masterlayoutslidecollection/addclone)(ILayoutSlide) | Voegt een kopie van een opgegeven layout-slide toe aan het einde van de verzameling. |
-| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Kopieert alle elementen van de verzameling naar de opgegeven array. |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Retourneert de eerste layout-slide van het opgegeven type. Een type layout-slide om te vinden.[`LayoutSlide`](../layoutslide) met opgegeven type of null als er geen layouts zijn gevonden. |
-| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Retourneert een enumerator die door de verzameling itereert. |
-| [Insert](../../aspose.slides/masterlayoutslidecollection/insert)(int, SlideLayoutType, string) | Voegt een nieuwe layout-slide in op de opgegeven positie van de verzameling. |
-| [InsertClone](../../aspose.slides/masterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Voegt een kopie van een opgegeven layout-slide in op de opgegeven positie van de verzameling. |
-| [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Verwijdert een layout uit de verzameling. |
-| [RemoveAt](../../aspose.slides/masterlayoutslidecollection/removeat)(int) | Verwijdert het element op de opgegeven index van de verzameling. |
+| [Add](../../aspose.slides/masterlayoutslidecollection/add)(SlideLayoutType, string) | Voegt een nieuwe layout-slide toe aan het einde van de collectie. |
+| [AddClone](../../aspose.slides/masterlayoutslidecollection/addclone)(ILayoutSlide) | Voegt een kopie van een opgegeven layout-slide toe aan het einde van de collectie. |
+| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Kopieert alle elementen van de collectie naar de opgegeven array. |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Retourneert de eerste layout-slide van het opgegeven type. Een type van layout-slide om te vinden.[`LayoutSlide`](../layoutslide) met het opgegeven type of null als er geen layouts gevonden zijn. |
+| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Retourneert een enumerator die door de collectie itereert. |
+| [Insert](../../aspose.slides/masterlayoutslidecollection/insert)(int, SlideLayoutType, string) | Voegt een nieuwe layout-slide in op de opgegeven positie in de collectie. |
+| [InsertClone](../../aspose.slides/masterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Voegt een kopie van een opgegeven layout-slide in op de opgegeven positie in de collectie. |
+| [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Verwijdert een layout uit de collectie. |
+| [RemoveAt](../../aspose.slides/masterlayoutslidecollection/removeat)(int) | Verwijdert het element op de opgegeven index uit de collectie. |
 | [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Verwijdert ongebruikte layout-slides (layout-slides waarvan HasDependingSlides onwaar is). |
-| [Reorder](../../aspose.slides/masterlayoutslidecollection/reorder)(int, ILayoutSlide) | Verplaatst een layout-slide van de verzameling naar de opgegeven positie. |
+| [Reorder](../../aspose.slides/masterlayoutslidecollection/reorder)(int, ILayoutSlide) | Verplaatst een layout-slide van de collectie naar de opgegeven positie. |
 
 ### Zie ook
 

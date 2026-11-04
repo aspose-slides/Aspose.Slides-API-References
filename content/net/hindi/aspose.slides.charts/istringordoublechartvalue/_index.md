@@ -1,32 +1,32 @@
 ---
 title: IStringOrDoubleChartValue
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: "pptx प्रस्तुति दस्तावेज़ में दो तरीकों से संग्रहीत किए जा सकने वाले स्ट्रिंग या डबल मान का प्रतिनिधित्व करता है: 1) चार्ट से संबंधित वर्कबुक की सेल/सेलों में; 2) लिटरल मान के रूप में।"
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
+description: pptx प्रस्तुति दस्तावेज़ में दो तरीकों से संग्रहीत की जा सकने वाली स्ट्रिंग या डबल मान का प्रतिनिधित्व करता है: 1) चार्ट से संबंधित वर्कबुक की सेल/सेलों में, 2) लिटरल मान के रूप में.
 type: docs
-weight: 2230
+weight: 2250
 url: /hi/aspose.slides.charts/istringordoublechartvalue/
 ---
 ## IStringOrDoubleChartValue इंटरफ़ेस
 
-पावरपॉइंट प्रस्तुति दस्तावेज़ में दो तरीकों से संग्रहीत की जा सकने वाली स्ट्रिंग या डबल मान का प्रतिनिधित्व करता है: 1) चार्ट से संबंधित वर्कबुक की सेल/सेलों में; 2) लिटरल मान के रूप में।
+Represent string or double value which can be stored in pptx presentation document in two ways: 1) in cell/cells of workbook related to chart; 2) as literal value.
 
 ```csharp
 public interface IStringOrDoubleChartValue : ISingleCellChartValue
 ```
 
-## गुण
+## Properties
 
 | नाम | विवरण |
 | --- | --- |
-| [AsISingleCellChartValue](../../aspose.slides.charts/istringordoublechartvalue/asisinglecellchartvalue) { get; } | बेस ISingleCellChartValue इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`ISingleCellChartValue`](../isinglecellchartvalue)। |
-| [AsLiteralDouble](../../aspose.slides.charts/istringordoublechartvalue/asliteraldouble) { get; set; } | यदि DataSourceType प्रॉपर्टी DataSourceType.DoubleLiterals है तो लिटरल डबल को रिटर्न या सेट करता है। पढ़ने/लिखने योग्य Double। |
-| [AsLiteralString](../../aspose.slides.charts/istringordoublechartvalue/asliteralstring) { get; set; } | यदि DataSourceType प्रॉपर्टी DataSourceType.StringLiterals है तो लिटरल स्ट्रिंग को रिटर्न या सेट करता है। पढ़ने/लिखने योग्य String। |
+| [AsISingleCellChartValue](../../aspose.slides.charts/istringordoublechartvalue/asisinglecellchartvalue) { get; } | ISingleCellChartValue इंटरफ़ेस को बेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`ISingleCellChartValue`](../isinglecellchartvalue). |
+| [AsLiteralDouble](../../aspose.slides.charts/istringordoublechartvalue/asliteraldouble) { get; set; } | लिटरल double को लौटाता है या सेट करता है यदि DataSourceType प्रॉपर्टी DataSourceType.DoubleLiterals है। पढ़ने/लिखने योग्य Double. |
+| [AsLiteralString](../../aspose.slides.charts/istringordoublechartvalue/asliteralstring) { get; set; } | लिटरल string को लौटाता है या सेट करता है यदि DataSourceType प्रॉपर्टी DataSourceType.StringLiterals है। पढ़ने/लिखने योग्य String. |
 
-## विधियाँ
+## Methods
 
 | नाम | विवरण |
 | --- | --- |
-| [ToDouble](../../aspose.slides.charts/istringordoublechartvalue/todouble)() | मान को डबल में परिवर्तित करता है। |
+| [ToDouble](../../aspose.slides.charts/istringordoublechartvalue/todouble)() | मान को double में बदलता है। |
 
 ### देखें
 

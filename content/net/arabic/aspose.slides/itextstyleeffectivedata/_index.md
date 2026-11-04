@@ -1,14 +1,14 @@
 ---
 title: ITextStyleEffectiveData
-second_title: Aspose.Sildes لـ .NET مرجع API
+second_title: مرجع API ل Aspose.Sildes لـ .NET
 description: كائن غير قابل للتغيير يحتوي على خصائص نمط النص الفعّال.
 type: docs
-weight: 7320
+weight: 7340
 url: /ar/aspose.slides/itextstyleeffectivedata/
 ---
-## ITextStyleEffectiveData واجهة
+## ITextStyleEffectiveData الواجهة
 
-كائن غير قابل للتغيير يحتوي على خصائص نمط النص الفعّال.
+كائن غير قابل للتغيير يحتوي على خصائص نمط النص الفعَّال.
 
 ```csharp
 public interface ITextStyleEffectiveData
@@ -18,13 +18,13 @@ public interface ITextStyleEffectiveData
 
 | الاسم | الوصف |
 | --- | --- |
-| [DefaultParagraphFormat](../../aspose.slides/itextstyleeffectivedata/defaultparagraphformat) { get; } | إرجاع خصائص الفقرة الافتراضية الفعّالة. قراءة فقط [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata). |
+| [DefaultParagraphFormat](../../aspose.slides/itextstyleeffectivedata/defaultparagraphformat) { get; } | يعيد خصائص الفقرة الافتراضية الفعالة. للقراءة فقط [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata). |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [GetLevel](../../aspose.slides/itextstyleeffectivedata/getlevel)(int) | إرجاع مستوى النمط الفعّال. |
+| [GetLevel](../../aspose.slides/itextstyleeffectivedata/getlevel)(int) | يعيد مستوى النمط الفعّال. |
 
 ### ملاحظات
 

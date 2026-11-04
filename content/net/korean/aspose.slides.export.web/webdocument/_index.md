@@ -1,14 +1,14 @@
 ---
 title: WebDocument
 second_title: Aspose.Sildes for .NET API 참조
-description: 프레젠테이션을 웹 형식으로 저장하기 위한 전환 형태를 나타냅니다.
+description: 프레젠테이션을 웹 형식으로 저장하기 위한 전환 양식을 나타냅니다.
 type: docs
-weight: 4680
+weight: 4700
 url: /ko/aspose.slides.export.web/webdocument/
 ---
 ## WebDocument 클래스
 
-프레젠테이션을 웹 형식으로 저장하기 위한 전환 형태를 나타냅니다.
+프레젠테이션을 웹 형식으로 저장하기 위한 전환 양식을 나타냅니다.
 
 ```csharp
 public class WebDocument
@@ -34,7 +34,7 @@ public class WebDocument
 | --- | --- |
 | [Save](../../aspose.slides.export.web/webdocument/save)() | 문서 출력을 저장합니다. |
 
-### 참조
+### 또한 보기
 
 * 네임스페이스 [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * 어셈블리 [Aspose.Slides](../../)

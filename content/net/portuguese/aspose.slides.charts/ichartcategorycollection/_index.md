@@ -1,14 +1,14 @@
 ---
 title: IChartCategoryCollection
-second_title: Aspose.Sildes para .NET Referência de API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa a coleção de IChartCategory./ichartcategory
 type: docs
-weight: 1760
+weight: 1780
 url: /pt/aspose.slides.charts/ichartcategorycollection/
 ---
-## interface IChartCategoryCollection
+## IChartCategoryCollection interface
 
-Representa uma coleção de [`IChartCategory`](../ichartcategory)
+Representa a coleção de [`IChartCategory`](../ichartcategory)
 
 ```csharp
 public interface IChartCategoryCollection : IGenericCollection<IChartCategory>
@@ -16,20 +16,20 @@ public interface IChartCategoryCollection : IGenericCollection<IChartCategory>
 
 ## Propriedades
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [GroupingLevelCount](../../aspose.slides.charts/ichartcategorycollection/groupinglevelcount) { get; } | Retorna a contagem de níveis de agrupamento de categorias usados. É maior que um para categorias de vários níveis. Somente leitura Int32. |
 | [Item](../../aspose.slides.charts/ichartcategorycollection/item) { get; } | Obtém o elemento no índice especificado. |
-| [UseCells](../../aspose.slides.charts/ichartcategorycollection/usecells) { get; set; } | Se true, a planilha é usada para armazenar categorias (este caso suporta categorias de múltiplos níveis). Se false, a planilha NÃO é usada para armazenar valores (e este caso não suporta categorias de múltiplos níveis). Leitura/gravação Boolean. |
+| [UseCells](../../aspose.slides.charts/ichartcategorycollection/usecells) { get; set; } | Se true, a planilha é usada para armazenar categorias (este caso suporta categorias de vários níveis). Se false, a planilha NÃO é usada para armazenar valores (e este caso não suporta categorias de vários níveis). Leitura/escrita Boolean. |
 
 ## Métodos
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ichartcategorycollection/add#add)(IChartDataCell) | Se a categoria existir na coleção, retorna-a. Caso contrário, cria uma nova categoria de gráfico a partir de [`IChartDataCell`](../ichartdatacell) e a adiciona à coleção. |
+| [Add](../../aspose.slides.charts/ichartcategorycollection/add#add)(IChartDataCell) | Se a categoria existir na coleção, retorná-la. Caso contrário, cria uma nova categoria de gráfico a partir de [`IChartDataCell`](../ichartdatacell) e a adiciona à coleção. |
 | [Add](../../aspose.slides.charts/ichartcategorycollection/add#add_1)(object) | Cria um novo [`IChartCategory`](../ichartcategory) a partir do valor e o adiciona à coleção. |
 | [Clear](../../aspose.slides.charts/ichartcategorycollection/clear)() | Remove todos os elementos da coleção. |
-| [IndexOf](../../aspose.slides.charts/ichartcategorycollection/indexof)(IChartCategory) | Procura o [`IChartCategory`](../ichartcategory) especificado e retorna o índice baseado em zero da primeira ocorrência dentro de toda a Coleção |
+| [IndexOf](../../aspose.slides.charts/ichartcategorycollection/indexof)(IChartCategory) | Busca o [`IChartCategory`](../ichartcategory) especificado e retorna o índice baseado em zero da primeira ocorrência em toda a coleção. |
 | [Remove](../../aspose.slides.charts/ichartcategorycollection/remove)(IChartCategory) | Remove o valor especificado. |
 | [RemoveAt](../../aspose.slides.charts/ichartcategorycollection/removeat)(int) | Remove o elemento no índice fornecido. |
 

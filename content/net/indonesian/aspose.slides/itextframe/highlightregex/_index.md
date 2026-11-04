@@ -1,14 +1,14 @@
 ---
 title: HighlightRegex
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Menyoroti semua kecocokan ekspresi reguler dengan warna yang ditentukan.
+description: Menyorot semua kecocokan dari ekspresi reguler dengan warna yang ditentukan.
 type: docs
-weight: 80
+weight: 90
 url: /id/aspose.slides/itextframe/highlightregex/
 ---
-## Metode ITextFrame.HighlightRegex
+## ITextFrame.HighlightRegex metode
 
-Menyoroti semua kecocokan ekspresi reguler dengan warna yang ditentukan.
+Menyorot semua kecocokan dari ekspresi reguler dengan warna yang ditentukan.
 
 ```csharp
 public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallback callback)
@@ -17,19 +17,19 @@ public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallbac
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | regex | Regex | Ekspresi reguler Regex untuk mendapatkan string yang akan disorot. |
-| highlightColor | Color | Warna untuk menyoroti teks. |
+| highlightColor | Color | Warna untuk menyorot teks. |
 | callback | IFindResultCallback | Objek callback untuk menerima hasil pencarian [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Contoh
 
-Contoh kode berikut menunjukkan cara menyoroti teks dalam TextFrame menggunakan ekspresi reguler.
+Contoh kode berikut menunjukkan cara menyorot teks dalam TextFrame menggunakan ekspresi reguler.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// menyoroti semua kata dengan 10 atau lebih karakter
+	// menyorot semua kata dengan 10 atau lebih karakter
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightRegex(regex, Color.Blue, null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }

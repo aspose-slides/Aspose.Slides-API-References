@@ -3,7 +3,7 @@ title: ISectionZoomFrame
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili objek Section Zoom dalam sebuah slide.
 type: docs
-weight: 6920
+weight: 6940
 url: /id/aspose.slides/isectionzoomframe/
 ---
 ## ISectionZoomFrame antarmuka
@@ -18,8 +18,8 @@ public interface ISectionZoomFrame : IZoomObject
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIZoomObject](../../aspose.slides/isectionzoomframe/asizoomobject) { get; } | Mengembalikan IZoomObject interface. |
-| [TargetSection](../../aspose.slides/isectionzoomframe/targetsection) { get; set; } | Mendapatkan atau mengatur objek bagian yang terkait dengan objek Section Zoom. Baca/tulis [`ISection`](../isection). |
+| [AsIZoomObject](../../aspose.slides/isectionzoomframe/asizoomobject) { get; } | Mengembalikan antarmuka IZoomObject. |
+| [TargetSection](../../aspose.slides/isectionzoomframe/targetsection) { get; set; } | Mendapatkan atau mengatur objek bagian yang terhubung ke objek Section Zoom. Baca/tulis [`ISection`](../isection). |
 
 ### Lihat Juga
 

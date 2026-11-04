@@ -3,7 +3,7 @@ title: LayoutSlideCollection
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una clase base para la colección de diapositivas de diseño.
 type: docs
-weight: 7650
+weight: 7670
 url: /es/aspose.slides/layoutslidecollection/
 ---
 ## LayoutSlideCollection clase
@@ -19,7 +19,7 @@ public class LayoutSlideCollection : ILayoutSlideCollection
 | Nombre | Descripción |
 | --- | --- |
 | [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Devuelve el número de diapositivas de diseño en una colección. Solo lectura Int32. |
-| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (seguro para subprocesos). Solo lectura Boolean. |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (thread-safe). Solo lectura Boolean. |
 | [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Devuelve la diapositiva de diseño por índice. Solo lectura [`LayoutSlide`](../layoutslide). |
 | [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Devuelve una raíz de sincronización. Solo lectura Object. |
 
@@ -27,11 +27,11 @@ public class LayoutSlideCollection : ILayoutSlideCollection
 
 | Nombre | Descripción |
 | --- | --- |
-| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Copia todos los elementos de la colección al arreglo especificado. |
+| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Copia todos los elementos de la colección al array especificado. |
 | [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Devuelve la primera diapositiva de diseño del tipo especificado. Un tipo de diapositiva de diseño a buscar.[`LayoutSlide`](../layoutslide) con el tipo especificado o null si no se encuentran diseños. |
-| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Devuelve un enumerador que itera a través de la colección. |
+| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Devuelve un enumerador que recorre la colección. |
 | [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Elimina un diseño de la colección. |
-| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Elimina las diapositivas de diseño no usadas (diapositivas de diseño cuya HasDependingSlides es false). |
+| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Elimina las diapositivas de diseño no usadas (diapositivas de diseño cuya HasHavingSlides es false). |
 
 ### Ver también
 

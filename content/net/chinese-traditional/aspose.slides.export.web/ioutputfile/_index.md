@@ -1,14 +1,14 @@
 ---
 title: IOutputFile
-second_title: Aspose.Sildes for .NET API 參考
-description: 表示一個輸出檔案。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 表示輸出檔案。
 type: docs
-weight: 4600
+weight: 4620
 url: /zh-hant/aspose.slides.export.web/ioutputfile/
 ---
 ## IOutputFile 介面
 
-表示一個輸出檔案。
+表示輸出檔案。
 
 ```csharp
 public interface IOutputFile
@@ -16,9 +16,9 @@ public interface IOutputFile
 
 ## 方法
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [Write](../../aspose.slides.export.web/ioutputfile/write)(Stream) | 將檔案內容寫入至資料流。 |
+| [Write](../../aspose.slides.export.web/ioutputfile/write)(Stream) | 將檔案內容寫入Stream。 |
 
 ### 另請參閱
 

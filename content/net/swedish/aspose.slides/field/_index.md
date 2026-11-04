@@ -3,10 +3,10 @@ title: Field
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar ett fält.
 type: docs
-weight: 4750
+weight: 4770
 url: /sv/aspose.slides/field/
 ---
-## Field klass
+## Fältklass
 
 Representerar ett fält.
 

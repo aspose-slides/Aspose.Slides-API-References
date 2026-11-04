@@ -1,14 +1,14 @@
 ---
 title: IMathRightSubSuperscriptElement
 second_title: Aspose.Sildes för .NET API-referens
-description: Anger Sub-Superscript-objektet som består av en bas samt en subscript och superscript placerade till höger om basen.
+description: Anger Sub-Superscript-objektet som består av en bas samt ett nedsänkt och upphöjt tecken placerade till höger om basen.
 type: docs
-weight: 8450
+weight: 8470
 url: /sv/aspose.slides.mathtext/imathrightsubsuperscriptelement/
 ---
 ## IMathRightSubSuperscriptElement gränssnitt
 
-Specificerar Sub-Superscript-objektet, som består av en bas samt en subscript och superscript placerade till höger om basen.
+Anger Sub-Superscript-objektet, som består av en bas och ett nedsänkt och upphöjt tecken placerade till höger om basen.
 
 ```csharp
 public interface IMathRightSubSuperscriptElement : IMathElement
@@ -18,11 +18,11 @@ public interface IMathRightSubSuperscriptElement : IMathElement
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | Anger justeringen av subscript/superscript. När true är subscript och superscript horisontellt justerade mot varandra. När false är de kernade till basens form. Standardvärdet är false. |
-| [AsIMathElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement) { get; } | Gör det möjligt att hämta bas-IMathElement-gränssnitt [`IMathElement`](../imathelement) |
+| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | Anger justeringen av nedsänkt/upphöjt tecken. När true är nedsänkt och upphöjt horisontellt justerade mot varandra. När false är de anpassade till basens form. Standardvärdet är false. |
+| [AsIMathElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement) { get; } | Tillåter att hämta bas IMathElement-gränssnitt [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/base) { get; } | Basargument |
-| [Subscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript) { get; } | Subscript-argument |
-| [Superscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/superscript) { get; } | Superscript-argument |
+| [Subscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript) { get; } | Nedsänkt argument |
+| [Superscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/superscript) { get; } | Upphöjt argument |
 
 ### Exempel
 
@@ -33,7 +33,7 @@ Exempel:
 IMathRightSubSuperscriptElement subsuperscript = new MathematicalText("N").SetSubSuperscriptOnTheRight("i", "j");
 ```
 
-### Se också
+### Se även
 
 * gränssnitt [IMathElement](../imathelement)
 * namnrymd [Aspose.Slides.MathText](../../aspose.slides.mathtext)

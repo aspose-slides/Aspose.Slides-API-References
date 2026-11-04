@@ -1,14 +1,14 @@
 ---
 title: ILuminanceEffectiveData
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa un efecto de Luminancia. El brillo desplaza linealmente todos los colores más cerca del blanco o del negro. El contraste escala todos los colores para que estén más cercanos o más alejados entre sí.
+description: Representa un efecto de luminancia. Brillo desplaza linealmente todos los colores más cerca del blanco o del negro. Contraste escala todos los colores para que estén más cercanos o más separados.
 type: docs
-weight: 3450
+weight: 3470
 url: /es/aspose.slides.effects/iluminanceeffectivedata/
 ---
 ## ILuminanceEffectiveData interfaz
 
-Representa un efecto de Luminancia. El brillo desplaza linealmente todos los colores más cerca del blanco o del negro. El contraste escala todos los colores para que estén más cercanos o más alejados entre sí.
+Representa un efecto de luminancia. Brillo desplaza linealmente todos los colores más cerca del blanco o del negro. Contraste escala todos los colores para que estén más cercanos o más separados.
 
 ```csharp
 public interface ILuminanceEffectiveData : IEffectEffectiveData

@@ -1,14 +1,14 @@
 ---
 title: PresentationFactory
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes a .NET API referenciához
 description: Lehetővé teszi a prezentáció létrehozását COM interfészen keresztül
 type: docs
-weight: 9600
+weight: 9620
 url: /hu/aspose.slides/presentationfactory/
 ---
 ## PresentationFactory osztály
 
-Lehetővé teszi a prezentáció létrehozását a COM interfészen keresztül
+Lehetővé teszi prezentáció létrehozását COM interfészen keresztül
 
 ```csharp
 public class PresentationFactory : IPresentationFactory
@@ -16,37 +16,37 @@ public class PresentationFactory : IPresentationFactory
 
 ## Konstruktorok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
 | [PresentationFactory](presentationfactory)() | Az alapértelmezett konstruktor. |
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| static [Instance](../../aspose.slides/presentationfactory/instance) { get; } | A prezentáció gyár statikus példánya. Csak olvasható [`PresentationFactory`](../presentationfactory). |
+| static [Instance](../../aspose.slides/presentationfactory/instance) { get; } | PresentationFactory statikus példány. Csak olvasható [`PresentationFactory`](../presentationfactory). |
 
-## Módszerek
+## Metódusok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
 | [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation)() | Új prezentációt hoz létre. |
-| [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Új prezentációt hoz létre további betöltési beállításokkal |
-| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Új PresentationInfo objektumot hoz létre a stream-ből, és a prezentációt ahhoz kapcsolja. Információt kap a megadott stream-ben lévő prezentációról. |
-| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Új PresentationInfo objektumot hoz létre a fájlból, és a prezentációt ahhoz kapcsolja. |
-| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Lekéri a nyers szöveget a diákból |
-| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Lekéri a nyers szöveget a diákból |
-| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Lekéri a nyers szöveget a diákból |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation)(byte[]) | Beolvas egy meglévő prezentációt egy tömbből |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_2)(Stream) | Beolvas egy meglévő prezentációt egy stream-ből |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_4)(string) | Beolvas egy meglévő prezentációt egy fájlból |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | Beolvas egy meglévő prezentációt egy tömbből további betöltési beállításokkal |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | Beolvas egy meglévő prezentációt egy stream-ből további betöltési beállításokkal |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | Beolvas egy meglévő prezentációt egy stream-ből további betöltési beállításokkal |
+| [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Új prezentációt hoz létre további betöltési opciókkal |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | PresentationInfo objektumot hoz létre streame-ből és a prezentációt hozzá köti. Információt kap a megadott streamben lévő prezentációról. |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | PresentationInfo objektumot hoz létre fájlból és a prezentációt hozzá köti. |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | A diákról nyers szöveget szerez be |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | A diákról nyers szöveget szerez be |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | A diákról nyers szöveget szerez be |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation)(byte[]) | Meglévő prezentációt olvas be tömbből |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_2)(Stream) | Meglévő prezentációt olvas be streamből |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_4)(string) | Meglévő prezentációt olvas be fájlból |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | Meglévő prezentációt olvas be tömbből további betöltési opciókkal |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | Meglévő prezentációt olvas be streamből további betöltési opciókkal |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | Meglévő prezentációt olvas be fájlból további betöltési opciókkal |
 
 ### Példák
 
-A következő példa megmutatja, hogyan ellenőrizhető egy prezentáció formátuma.
+A következő példa bemutatja, hogyan ellenőrizhető egy prezentáció formátuma.
 
 ```csharp
 [C#]
@@ -58,7 +58,7 @@ IPresentationInfo info3 = PresentationFactory.Instance.GetPresentationInfo("pres
 Console.WriteLine(info3.LoadFormat); // ODP
 ```
 
-A következő példa megmutatja, hogyan lehet lekérni egy prezentáció tulajdonságait.
+A következő példa bemutatja, hogyan lehet lekérni egy prezentáció tulajdonságait.
 
 ```csharp
 [C#]
@@ -70,7 +70,7 @@ Console.WriteLine(props.Title);
 // ..
 ```
 
-A következő példa megmutatja, hogyan lehet frissíteni egy prezentáció tulajdonságait.
+A következő példa bemutatja, hogyan lehet frissíteni egy prezentáció tulajdonságait.
 
 ```csharp
 [C#]
@@ -84,6 +84,6 @@ info.UpdateDocumentProperties(props);
 
 * interfész [IPresentationFactory](../ipresentationfactory)
 * névtér [Aspose.Slides](../../aspose.slides)
-* összeállítás [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

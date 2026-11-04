@@ -1,14 +1,14 @@
 ---
 title: IObsoletePresLockingBehaviorWarningInfo
-second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
-description: คำเตือนนี้บ่งชี้ว่าได้ใช้พฤติกรรมการล็อกการนำเสนอที่ล้าสมัย
+second_title: การอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: คำเตือนนี้ระบุว่ามีการใช้พฤติกรรมการล็อกการนำเสนอที่ล้าสมัย
 type: docs
-weight: 11780
+weight: 11800
 url: /th/aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/
 ---
 ## IObsoletePresLockingBehaviorWarningInfo อินเทอร์เฟซ
 
-คำเตือนนี้บ่งชี้ว่าได้ใช้พฤติกรรมการล็อกการนำเสนอที่ล้าสมัย
+คำเตือนนี้ระบุว่ามีการใช้พฤติกรรมการล็อกการนำเสนอที่ล้าสมัย
 
 ```csharp
 public interface IObsoletePresLockingBehaviorWarningInfo : IWarningInfo
@@ -18,7 +18,7 @@ public interface IObsoletePresLockingBehaviorWarningInfo : IWarningInfo
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIWarningInfo](../../aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/asiwarninginfo) { get; } | คืนค่า IWarningInfo interface. อ่านอย่างเดียว [`IWarningInfo`](../iwarninginfo). |
+| [AsIWarningInfo](../../aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/asiwarninginfo) { get; } | คืนค่า IWarningInfo อินเทอร์เฟซ. อ่านอย่างเดียว [`IWarningInfo`](../iwarninginfo). |
 
 ### ดูเพิ่มเติม
 

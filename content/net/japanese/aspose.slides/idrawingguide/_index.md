@@ -3,7 +3,7 @@ title: IDrawingGuide
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 調整可能な描画ガイドを表します。
 type: docs
-weight: 5720
+weight: 5740
 url: /ja/aspose.slides/idrawingguide/
 ---
 ## IDrawingGuide インターフェイス
@@ -16,7 +16,7 @@ public interface IDrawingGuide
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [Color](../../aspose.slides/idrawingguide/color) { get; set; } | 描画ガイドの色を取得または設定します。読み取り/書き込み Color. |
 | [Orientation](../../aspose.slides/idrawingguide/orientation) { get; set; } | 描画ガイドの向きを取得または設定します。読み取り/書き込み [`Orientation`](../orientation). |

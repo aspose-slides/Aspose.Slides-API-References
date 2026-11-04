@@ -1,14 +1,14 @@
 ---
 title: IRowCollection
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa a coleção de linhas de tabela.
 type: docs
-weight: 6860
+weight: 6880
 url: /pt/aspose.slides/irowcollection/
 ---
 ## IRowCollection interface
 
-Representa a coleção de linhas de tabela.
+Representa a coleção de linhas da tabela.
 
 ```csharp
 public interface IRowCollection : IGenericCollection<IRow>
@@ -16,19 +16,19 @@ public interface IRowCollection : IGenericCollection<IRow>
 
 ## Propriedades
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [Item](../../aspose.slides/irowcollection/item) { get; } | Obtém o elemento no índice especificado. |
 
 ## Métodos
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | Cria uma cópia da linha modelo especificada e a insere na parte inferior de uma tabela. |
 | [InsertClone](../../aspose.slides/irowcollection/insertclone)(int, IRow, bool) | Cria uma cópia da linha modelo especificada e a insere na posição especificada em uma tabela. |
 | [RemoveAt](../../aspose.slides/irowcollection/removeat)(int, bool) | Remove uma linha na posição especificada de uma tabela. |
 
-### Ver também
+### Veja Também
 
 * interface [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * interface [IRow](../irow)

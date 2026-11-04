@@ -1,14 +1,14 @@
 ---
 title: DigitalSignatureCollection
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta una raccolta di firme digitali allegate a un documento.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Rappresenta una collezione di firme digitali allegate a un documento.
 type: docs
-weight: 2780
+weight: 2800
 url: /it/aspose.slides/digitalsignaturecollection/
 ---
 ## DigitalSignatureCollection classe
 
-Rappresenta una raccolta di firme digitali collegate a un documento.
+Rappresenta una collezione di firme digitali allegate a un documento.
 
 ```csharp
 public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSignatureCollection
@@ -18,8 +18,8 @@ public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSigna
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides/digitalsignaturecollection/count) { get; } | Restituisce il numero di elementi nella raccolta. Solo lettura Int32. |
-| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla raccolta è sincronizzato (thread-safe). Solo lettura Boolean. |
+| [Count](../../aspose.slides/digitalsignaturecollection/count) { get; } | Restituisce il numero di elementi nella collezione. Solo lettura Int32. |
+| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla collezione è sincronizzato (thread-safe). Solo lettura Boolean. |
 | [Item](../../aspose.slides/digitalsignaturecollection/item) { get; } | Restituisce la firma per indice. |
 | [SyncRoot](../../aspose.slides/digitalsignaturecollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Solo lettura Object. |
 
@@ -27,10 +27,10 @@ public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSigna
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.slides/digitalsignaturecollection/add)(IDigitalSignature) | Aggiunge la firma alla fine della raccolta. |
-| [Clear](../../aspose.slides/digitalsignaturecollection/clear)() | Rimuove tutte le firme dalla raccolta. |
-| [CopyTo](../../aspose.slides/digitalsignaturecollection/copyto)(Array, int) | Copia tutti gli elementi dalla raccolta nell'array specificato. |
-| [GetEnumerator](../../aspose.slides/digitalsignaturecollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la raccolta. |
+| [Add](../../aspose.slides/digitalsignaturecollection/add)(IDigitalSignature) | Aggiunge la firma alla fine della collezione. |
+| [Clear](../../aspose.slides/digitalsignaturecollection/clear)() | Rimuove tutte le firme dalla collezione. |
+| [CopyTo](../../aspose.slides/digitalsignaturecollection/copyto)(Array, int) | Copia tutti gli elementi dalla collezione nell'array specificato. |
+| [GetEnumerator](../../aspose.slides/digitalsignaturecollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la collezione. |
 | [RemoveAt](../../aspose.slides/digitalsignaturecollection/removeat)(int) | Rimuove la firma all'indice specificato. |
 
 ### Vedi anche

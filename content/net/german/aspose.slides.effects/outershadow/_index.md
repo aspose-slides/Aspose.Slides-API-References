@@ -3,7 +3,7 @@ title: OuterShadow
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt einen Outer Shadow-Effekt dar.
 type: docs
-weight: 3620
+weight: 3640
 url: /de/aspose.slides.effects/outershadow/
 ---
 ## OuterShadow Klasse
@@ -18,29 +18,29 @@ public sealed class OuterShadow : IOuterShadow
 
 | Name | Beschreibung |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | Blur radius, in points. Standardwert – 0 pt. Lese-/Schreib Double. |
-| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | Direction of the shadow, in degrees. Standardwert – 0 ° (von links nach rechts). Lese-/Schreib Single. |
-| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | Distance of the shadow from the object, in points. Standardwert – 0 pt. Lese-/Schreib Double. |
-| [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | Rectangle alignment. Standardwert – Bottom. Lese-/Schreib [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | Indicates whether the shadow rotates together with the shape. Standardwert – true. Lese-/Schreib Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | Horizontal scaling factor, in percent of the original size. Negative scaling causes a flip. Standardwert – 100 %. Lese-/Schreib Double. |
-| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | Vertical scaling factor, in percent of the original size. Negative scaling causes a flip. Standardwert – 100 %. Lese-/Schreib Double. |
-| [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | Color of the shadow. Standardwert – automatic black (theme-dependent). Nur lesen [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | Horizontal skew angle, in degrees. Standardwert – 0 °. Lese-/Schreib Double. |
-| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | Vertical skew angle, in degrees. Standardwert – 0 °. Lese-/Schreib Double. |
+| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | Unschärferadius in Punkten. Standardwert – 0 pt. Lese/Schreib Double. |
+| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | Richtung des Schattens in Grad. Standardwert – 0 ° (von links nach rechts). Lese/Schreib Single. |
+| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | Abstand des Schattens vom Objekt in Punkten. Standardwert – 0 pt. Lese/Schreib Double. |
+| [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | Rechteckausrichtung. Standardwert – Bottom. Lese/Schreib [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | Gibt an, ob der Schatten zusammen mit der Form rotiert. Standardwert – true. Lese/Schreib Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | Horizontale Skalierungsfaktor in Prozent der Originalgröße. Negative Skalierung führt zu einer Spiegelung. Standardwert – 100 %. Lese/Schreib Double. |
+| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | Vertikaler Skalierungsfaktor in Prozent der Originalgröße. Negative Skalierung führt zu einer Spiegelung. Standardwert – 100 %. Lese/Schreib Double. |
+| [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | Farbe des Schattens. Standardwert – automatisches Schwarz (themabhängig). Nur-Lesen [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | Horizontaler Schrägwinkel in Grad. Standardwert – 0 °. Lese/Schreib Double. |
+| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | Vertikaler Schrägwinkel in Grad. Standardwert – 0 °. Lese/Schreib Double. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | Bestimmt, ob das angegebene [`OuterShadow`](../outershadow) gleich dem aktuellen [`OuterShadow`](../outershadow) ist. |
-| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | Erhält die wirksamen Outer Shadow-Effektdaten mit angewandter Vererbung. |
-| override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | Dient als Hash-Funktion für einen bestimmten Typ. |
+| override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | Bestimmt, ob das angegebene [`OuterShadow`](../outershadow) dem aktuellen [`OuterShadow`](../outershadow) entspricht. |
+| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | Ruft die wirksamen Outer Shadow-Effekt-Daten mit angewandter Vererbung ab. |
+| override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | Dient als Hashfunktion für einen bestimmten Typ. |
 
 ### Siehe auch
 
-* schnittstelle [IOuterShadow](../ioutershadow)
-* namensraum [Aspose.Slides.Effects](../../aspose.slides.effects)
-* assembly [Aspose.Slides](../../)
+* Schnittstelle [IOuterShadow](../ioutershadow)
+* Namensraum [Aspose.Slides.Effects](../../aspose.slides.effects)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

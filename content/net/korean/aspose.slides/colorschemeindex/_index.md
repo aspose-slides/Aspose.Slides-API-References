@@ -1,14 +1,14 @@
 ---
 title: ColorSchemeIndex
 second_title: Aspose.Sildes for .NET API 참조
-description: 색 구성표에서 인덱스를 나타냅니다.
+description: 색 구성표의 색인을 나타냅니다.
 type: docs
-weight: 2550
+weight: 2570
 url: /ko/aspose.slides/colorschemeindex/
 ---
 ## ColorSchemeIndex 열거형
 
-색 구성표에서 인덱스를 나타냅니다.
+색 구성표의 색인을 나타냅니다.
 
 ```csharp
 public enum ColorSchemeIndex : byte
@@ -29,7 +29,7 @@ public enum ColorSchemeIndex : byte
 | Accent5 | `8` | 강조 5. |
 | Accent6 | `9` | 강조 6. |
 | Hyperlink | `10` | 하이퍼링크. |
-| FollowedHyperlink | `11` | 방문한 하이퍼링크. |
+| FollowedHyperlink | `11` | 따라온 하이퍼링크. |
 
 ### 참조
 

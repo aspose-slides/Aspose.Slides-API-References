@@ -1,14 +1,14 @@
 ---
 title: ICaptions
 second_title: Aspose.Sildes .NET API-referencia
-description: A WebVTT zárt feliratokat képviseli.
+description: Képviseli a WebVTT zárt feliratokat.
 type: docs
-weight: 5430
+weight: 5450
 url: /hu/aspose.slides/icaptions/
 ---
 ## ICaptions interfész
 
-Represents the WebVTT closed captions.
+Képviseli a WebVTT zárt feliratokat.
 
 ```csharp
 public interface ICaptions
@@ -18,9 +18,9 @@ public interface ICaptions
 
 | Név | Leírás |
 | --- | --- |
-| [BinaryData](../../aspose.slides/icaptions/binarydata) { get; } | Visszaadja a zárt feliratok bináris adatait. Csak olvasható Byte[]. |
+| [BinaryData](../../aspose.slides/icaptions/binarydata) { get; } | Visszaadja a zárt feliratok bináris adatát. Csak olvasható Byte[]. |
 | [CaptionId](../../aspose.slides/icaptions/captionid) { get; } | Visszaadja a zárt feliratok globálisan egyedi azonosítóját (GUID). Csak olvasható Guid. |
-| [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | Visszaadja a zárt feliratok adatait UTF-8 kódolású karakterláncként. Csak olvasható String. |
+| [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | Visszaadja a zárt feliratok adatát UTF-8 kódolású karakterláncként. Csak olvasható String. |
 | [Label](../../aspose.slides/icaptions/label) { get; set; } | Visszaadja vagy beállítja a zárt feliratok címkéjét. Olvasás/írás String. |
 
 ### Lásd még

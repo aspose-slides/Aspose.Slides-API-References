@@ -1,14 +1,14 @@
 ---
 title: IMasterThemeManager
 second_title: Aspose.Sildes için .NET API Referansı
-description: Sunum ana temasına erişim sağlar.
+description: Sunumun ana temasına erişim sağlar.
 type: docs
-weight: 11320
+weight: 11340
 url: /tr/aspose.slides.theme/imasterthememanager/
 ---
-## IMasterThemeManager arayüzü
+## IMasterThemeManager interface
 
-Sunum ana temasına erişim sağlar.
+Sunumun ana temasına erişim sağlar.
 
 ```csharp
 public interface IMasterThemeManager : IThemeManager
@@ -18,9 +18,9 @@ public interface IMasterThemeManager : IThemeManager
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIThemeManager](../../aspose.slides.theme/imasterthememanager/asithememanager) { get; } | Temel IThemeManager arayüzünü almaya izin verir. Yalnızca okuma [`IThemeManager`](../ithememanager). |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/imasterthememanager/isoverridethemeenabled) { get; set; } | OverrideTheme, devreden etkili temayı (Presentation.MasterTheme) geçersiz kılıp kılmayacağını belirler. Okuma/yazma Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/imasterthememanager/overridetheme) { get; set; } | Geçersiz kılan tema nesnesini döndürür. Okuma/yazma [`IMasterTheme`](../imastertheme). |
+| [AsIThemeManager](../../aspose.slides.theme/imasterthememanager/asithememanager) { get; } | Base IThemeManager arayüzünü almayı sağlar. Sadece okuma [`IThemeManager`](../ithememanager). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/imasterthememanager/isoverridethemeenabled) { get; set; } | OverrideTheme'in kalıtılmış etkili temayı (Presentation.MasterTheme) geçersiz kılıp kılmayacağını belirler. Okunabilir/yazılabilir Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/imasterthememanager/overridetheme) { get; set; } | Geçersiz kılan tema nesnesini döndürür. Okunabilir/yazılabilir [`IMasterTheme`](../imastertheme). |
 
 ### Ayrıca Bakınız
 

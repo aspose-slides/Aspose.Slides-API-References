@@ -3,12 +3,12 @@ title: IGradientStopCollection
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una colección de paradas de degradado.
 type: docs
-weight: 6030
+weight: 6050
 url: /es/aspose.slides/igradientstopcollection/
 ---
 ## IGradientStopCollection interfaz
 
-Representa una colección de puntos de degradado.
+Representa una colección de paradas de degradado.
 
 ```csharp
 public interface IGradientStopCollection : IGenericCollection<IGradientStop>
@@ -18,20 +18,20 @@ public interface IGradientStopCollection : IGenericCollection<IGradientStop>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Item](../../aspose.slides/igradientstopcollection/item) { get; } | Devuelve el punto de degradado por índice. |
+| [Item](../../aspose.slides/igradientstopcollection/item) { get; } | Devuelve la parada de degradado por índice. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.slides/igradientstopcollection/add#add_2)(float, Color) | Crea un nuevo punto de degradado y lo agrega al final de la colección. |
-| [Add](../../aspose.slides/igradientstopcollection/add#add)(float, PresetColor) | Crea un nuevo punto de degradado y lo agrega al final de la colección. |
-| [Add](../../aspose.slides/igradientstopcollection/add#add_1)(float, SchemeColor) | Crea un nuevo punto de degradado y lo agrega al final de la colección. |
-| [Clear](../../aspose.slides/igradientstopcollection/clear)() | Elimina todos los puntos de degradado de una colección. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_2)(int, float, Color) | Crea un nuevo punto de degradado y lo inserta en el índice especificado de la colección. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert)(int, float, PresetColor) | Crea un nuevo punto de degradado y lo inserta en el índice especificado de la colección. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Crea un nuevo punto de degradado y lo inserta en el índice especificado de la colección. |
-| [RemoveAt](../../aspose.slides/igradientstopcollection/removeat)(int) | Elimina un punto de degradado en el índice especificado. |
+| [Add](../../aspose.slides/igradientstopcollection/add#add_2)(float, Color) | Crea la nueva parada de degradado y la agrega al final de la colección. |
+| [Add](../../aspose.slides/igradientstopcollection/add#add)(float, PresetColor) | Crea la nueva parada de degradado y la agrega al final de la colección. |
+| [Add](../../aspose.slides/igradientstopcollection/add#add_1)(float, SchemeColor) | Crea la nueva parada de degradado y la agrega al final de la colección. |
+| [Clear](../../aspose.slides/igradientstopcollection/clear)() | Elimina todas las paradas de degradado de una colección. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_2)(int, float, Color) | Crea la nueva parada de degradado y la inserta en el índice especificado de la colección. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert)(int, float, PresetColor) | Crea la nueva parada de degradado y la inserta en el índice especificado de la colección. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Crea la nueva parada de degradado y la inserta en el índice especificado de la colección. |
+| [RemoveAt](../../aspose.slides/igradientstopcollection/removeat)(int) | Elimina una parada de degradado en el índice especificado. |
 
 ### Ver también
 

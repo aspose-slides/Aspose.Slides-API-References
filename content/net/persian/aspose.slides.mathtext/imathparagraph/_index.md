@@ -1,24 +1,24 @@
 ---
 title: IMathParagraph
-second_title: Aspose.Sildes برای .NET مرجع API
-description: پاراگراف ریاضی که حاوی بلوک‌های ریاضی IMathBlock است
+second_title: Aspose.Sildes برای مرجع API .NET
+description: پاراگراف ریاضی که یک محفظه برای بلوک‌های ریاضی IMathBlock است
 type: docs
-weight: 8390
+weight: 8410
 url: /fa/aspose.slides.mathtext/imathparagraph/
 ---
-## IMMathParagraph رابط
+## رابط IMathParagraph
 
-پاراگراف ریاضی که حاوی بلوک‌های ریاضی (IMathBlock) است
+پاراگراف ریاضی که یک محفظه برای بلوک‌های ریاضی است (IMathBlock)
 
 ```csharp
 public interface IMathParagraph : IMathBlockCollection
 ```
 
-## ویژگی‌ها
+## خصوصیات
 
 | نام | توضیح |
 | --- | --- |
-| [AsIMathBlockCollection](../../aspose.slides.mathtext/imathparagraph/asimathblockcollection) { get; } | اجازه دریافت رابط پایه IMathBlockCollection [`IMathBlockCollection`](../imathblockcollection) |
+| [AsIMathBlockCollection](../../aspose.slides.mathtext/imathparagraph/asimathblockcollection) { get; } | اجازه می‌دهد تا رابط پایه IMathBlockCollection را دریافت کند [`IMathBlockCollection`](../imathblockcollection) |
 | [Justification](../../aspose.slides.mathtext/imathparagraph/justification) { get; set; } | تراز پاراگراف مقدار پیش‌فرض: CenteredAsGroup |
 
 ## متدها
@@ -30,6 +30,8 @@ public interface IMathParagraph : IMathBlockCollection
 
 ### مثال‌ها
 
+مثال:
+
 ```csharp
 [C#]
 IAutoShape shape = slide.Shapes.AddMathShape(x, y, width, height);
@@ -37,7 +39,7 @@ IMathParagraph mathParagraph = (shape.TextFrame.Paragraphs[0].Portions[0] as Mat
 mathParagraph.Justification = MathJustification.LeftJustified;
 ```
 
-### همچنین ببینید
+### موارد مرتبط
 
 * رابط [IMathBlockCollection](../imathblockcollection)
 * فضای‌نام [Aspose.Slides.MathText](../../aspose.slides.mathtext)

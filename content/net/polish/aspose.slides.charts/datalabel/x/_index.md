@@ -1,9 +1,9 @@
 ---
 title: X
-second_title: Aspose.Sildes dla .NET - Dokumentacja API
-description: Zwraca lub ustawia współrzędną x tytułu jako ułamek szerokości wykykresu. Odczyt/zapis Single.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Zwraca lub ustawia współrzędną x tytułu jako ułamek szerokości wykchartu. Odczyt/zapis Single.
 type: docs
-weight: 160
+weight: 170
 url: /pl/aspose.slides.charts/datalabel/x/
 ---
 ## DataLabel.X właściwość

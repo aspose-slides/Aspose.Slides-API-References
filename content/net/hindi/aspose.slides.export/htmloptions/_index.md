@@ -1,12 +1,12 @@
 ---
 title: HtmlOptions
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
 description: HTML निर्यात विकल्पों का प्रतिनिधित्व करता है।
 type: docs
-weight: 3890
+weight: 3910
 url: /hi/aspose.slides.export/htmloptions/
 ---
-## HtmlOptions वर्ग
+## HtmlOptions क्लास
 
 HTML निर्यात विकल्पों का प्रतिनिधित्व करता है।
 
@@ -18,34 +18,34 @@ public class HtmlOptions : SaveOptions, IHtmlOptions
 
 | नाम | विवरण |
 | --- | --- |
-| [HtmlOptions](htmloptions#constructor)() | एक नया HtmlOptions ऑब्जेक्ट बनाता है जो एकल HTML फ़ाइल में सहेजने के लिए उपयोग होता है। |
+| [HtmlOptions](htmloptions#constructor)() | एक नया HtmlOptions ऑब्जेक्ट बनाता है जो एकल HTML फ़ाइल में सहेजा जाता है। |
 | [HtmlOptions](htmloptions#constructor_1)(ILinkEmbedController) | एक नया HtmlOptions ऑब्जेक्ट बनाता है जो कॉलबैक निर्दिष्ट करता है। |
 
 ## गुण
 
 | नाम | विवरण |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | सोर्स फ़ॉन्ट नहीं मिलने पर उपयोग होने वाले फ़ॉन्ट को लौटाता या सेट करता है। पढ़ने-लिखने योग्य String. |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/htmloptions/deletepicturescroppedareas) { get; set; } | एक बूलियन फ़्लैग दर्शाता है कि क्रॉप किए गए भाग दस्तावेज़ का हिस्सा बने रहेंगे। यदि true हो तो क्रॉप किए गए भाग हटा दिए जाएंगे, यदि false हो तो वे दस्तावेज़ में क्रमबद्ध हो जाएंगे (जो संभवतः बड़ी फ़ाइल का कारण बन सकता है)। |
-| [DisableFontLigatures](../../aspose.slides.export/htmloptions/disablefontligatures) { get; set; } | टेक्स्ट को लिगेचर के बिना रेंडर किया जाए या नहीं यह दर्शाने वाला मान प्राप्त या सेट करता है। जब `true` पर सेट किया जाता है, तो रेंडर किए गए आउटपुट में लिगेचर निष्क्रिय हो जाएंगे। डिफॉल्ट रूप से, यह प्रॉपर्टी `false` पर सेट है। |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | ग्रेडिएंट की दृश्य शैली को लौटाता या सेट करता है। पढ़ने/लिखने योग्य [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [HtmlFormatter](../../aspose.slides.export/htmloptions/htmlformatter) { get; set; } | HTML टेम्प्लेट को लौटाता या सेट करता है। पढ़ने/लिखने योग्य [`IHtmlFormatter`](../ihtmlformatter). |
-| [InkOptions](../../aspose.slides.export/htmloptions/inkoptions) { get; } | एक्सपोर्टेड दस्तावेज़ में Ink ऑब्जेक्ट्स के स्वरूप को नियंत्रित करने वाले विकल्प प्रदान करता है। केवल-पढ़ने योग्य [`IInkOptions`](../iinkoptions) |
-| [JpegQuality](../../aspose.slides.export/htmloptions/jpegquality) { get; set; } | PDF दस्तावेज़ के भीतर JPEG छवियों की गुणवत्ता निर्धारित करने वाले मान को लौटाता या सेट करता है। पढ़ने/लिखने योग्य Byte. |
-| [PicturesCompression](../../aspose.slides.export/htmloptions/picturescompression) { get; set; } | चित्रों के संपीड़न स्तर को दर्शाता है। |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | प्रतिशत में सहेजने की प्रगति अपडेट के लिए एक कॉलबैक ऑब्जेक्ट को दर्शाता है। देखें [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [ShowHiddenSlides](../../aspose.slides.export/htmloptions/showhiddenslides) { get; set; } | निर्धारित करता है कि उत्पन्न दस्तावेज़ में छिपी स्लाइड्स सम्मिलित हों या नहीं। डिफॉल्ट `false` है। |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | प्रेजेंटेशन सहेजते समय JavaScript कॉल वाले हाइपरलिंक को छोड़ें या नहीं, यह निर्धारित करता है। पढ़ने/लिखने योग्य Boolean। डिफॉल्ट मान **false** है। |
-| [SlideImageFormat](../../aspose.slides.export/htmloptions/slideimageformat) { get; set; } | स्लाइड इमेज फॉर्मेट विकल्पों को लौटाता या सेट करता है। पढ़ने/लिखने योग्य [`ISlideImageFormat`](../islideimageformat). |
-| [SlidesLayoutOptions](../../aspose.slides.export/htmloptions/slideslayoutoptions) { get; set; } | प्रेजेंटेशन निर्यात करते समय स्लाइड्स को पृष्ठ पर रखने के मोड को प्राप्त या सेट करता है [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [SvgResponsiveLayout](../../aspose.slides.export/htmloptions/svgresponsivelayout) { get; set; } | यदि true हो तो SVG कंटेनर से चौड़ाई और ऊँचाई गुणों को बाहर रखा जाता है - इससे लेआउट उत्तरदायी बन जाएगा। यदि false हो तो नहीं। पढ़ने/लिखने योग्य Boolean. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | एक ऑब्जेक्ट को लौटाता या सेट करता है जो चेतावनियाँ प्राप्त करता है और तय करता है कि लोडिंग प्रक्रिया जारी रहेगी या रद्द की जाएगी। पढ़ने/लिखने योग्य [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | यदि स्रोत फ़ॉन्ट नहीं मिला तो उपयोग किया जाने वाला फ़ॉन्ट लौटाता है या सेट करता है। पढ़ने-लिखने योग्य String. |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/htmloptions/deletepicturescroppedareas) { get; set; } | एक बूलियन फ़्लैग दर्शाता है कि क्रॉप किए गए भाग दस्तावेज़ का हिस्सा बने रहेंगे या नहीं। यदि true हो तो क्रॉप किए गए भाग हटा दिए जाएंगे, यदि false हो तो वे दस्तावेज़ में क्रमबद्ध किए जाएंगे (जिससे फ़ाइल का आकार बड़ा हो सकता है)। |
+| [DisableFontLigatures](../../aspose.slides.export/htmloptions/disablefontligatures) { get; set; } | एक मान प्राप्त करता है या सेट करता है जो यह दर्शाता है कि टेक्स्ट लिगेचर का उपयोग किए बिना रेंडर किया जाए। जब `true` पर सेट किया जाता है, तो रेंडर किए गए आउटपुट में लिगेचर निष्क्रिय हो जाएंगे। डिफ़ॉल्ट रूप से, यह गुण `false` पर सेट होता है। |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | ग्रेडिएंट की दृश्य शैली को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [HtmlFormatter](../../aspose.slides.export/htmloptions/htmlformatter) { get; set; } | HTML टेम्प्लेट को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य [`IHtmlFormatter`](../ihtmlformatter). |
+| [InkOptions](../../aspose.slides.export/htmloptions/inkoptions) { get; } | ऐसे विकल्प प्रदान करता है जो निर्यात किए गए दस्तावेज़ में इंक ऑब्जेक्ट्स की दिखावट को नियंत्रित करते हैं। केवल-पढ़ने योग्य [`IInkOptions`](../iinkoptions) |
+| [JpegQuality](../../aspose.slides.export/htmloptions/jpegquality) { get; set; } | JPEG छवियों की गुणवत्ता निर्धारित करने वाला मान लौटाता है या सेट करता है। पढ़ने/लिखने योग्य Byte. |
+| [PicturesCompression](../../aspose.slides.export/htmloptions/picturescompression) { get; set; } | चित्र संपीड़न स्तर का प्रतिनिधित्व करता है |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | प्रगति अपडेट को प्रतिशत में सहेजने के लिए एक कॉलबैक ऑब्जेक्ट का प्रतिनिधित्व करता है। देखें [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [ShowHiddenSlides](../../aspose.slides.export/htmloptions/showhiddenslides) { get; set; } | निर्दिष्ट करता है कि निर्मित दस्तावेज़ में छिपी स्लाइड्स शामिल होंगी या नहीं। डिफ़ॉल्ट `false` है। |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | निर्देश देता है कि प्रस्तुति सहेजते समय JavaScript कॉल वाले हाइपरलिंक को छोड़ दिया जाए या नहीं। पढ़ने/लिखने योग्य Boolean। डिफ़ॉल्ट मान **false** है। |
+| [SlideImageFormat](../../aspose.slides.export/htmloptions/slideimageformat) { get; set; } | स्लाइड इमेज फ़ॉर्मेट विकल्पों को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य [`ISlideImageFormat`](../islideimageformat). |
+| [SlidesLayoutOptions](../../aspose.slides.export/htmloptions/slideslayoutoptions) { get; set; } | प्रस्तुति निर्यात करते समय स्लाइड्स पेज पर रखने के मोड को प्राप्त करता है या सेट करता है [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [SvgResponsiveLayout](../../aspose.slides.export/htmloptions/svgresponsivelayout) { get; set; } | यदि true है तो SVG कंटेनर से width और height गुणों को हटाया जाएगा - इससे लेआउट रिस्पॉन्सिव हो जाएगा। यदि false है तो नहीं। पढ़ने/लिखने योग्य Boolean. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | एक ऐसा ऑब्जेक्ट लौटाता है या सेट करता है जो चेतावनियों को प्राप्त करता है और तय करता है कि लोडिंग प्रक्रिया जारी रहेगी या रद्द हो जाएगी। पढ़ने/लिखने योग्य [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
-### देखें
+### देखें भी
 
-* वर्ग [SaveOptions](../saveoptions)
+* क्लास [SaveOptions](../saveoptions)
 * इंटरफ़ेस [IHtmlOptions](../ihtmloptions)
-* नामस्थान [Aspose.Slides.Export](../../aspose.slides.export)
+* नेमस्पेस [Aspose.Slides.Export](../../aspose.slides.export)
 * असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

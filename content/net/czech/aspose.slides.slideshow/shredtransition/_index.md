@@ -1,9 +1,9 @@
 ---
 title: ShredTransition
-second_title: Aspose.Sildes pro .NET API referenci
+second_title: Aspose.Sildes pro .NET API Reference
 description: Efekt přechodu snímku Shred.
 type: docs
-weight: 10300
+weight: 10320
 url: /cs/aspose.slides.slideshow/shredtransition/
 ---
 ## ShredTransition třída
@@ -16,17 +16,17 @@ public class ShredTransition : TransitionValueBase, IShredTransition
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/shredtransition/direction) { get; set; } | Směr přechodu. Čtení/zápis [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/shredtransition/pattern) { get; set; } | Určuje tvar vizuálů používaných během přechodu. Čtení/zápis [`TransitionShredPattern`](../transitionshredpattern). |
+| [Direction](../../aspose.slides.slideshow/shredtransition/direction) { get; set; } | Směr přechodu. Čtení/Zápis [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Pattern](../../aspose.slides.slideshow/shredtransition/pattern) { get; set; } | Určuje tvar vizuálů používaných během přechodu. Čtení/Zápis [`TransitionShredPattern`](../transitionshredpattern). |
 
 ## Metody
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Určuje, zda jsou dvě instance TransitionValueBase rovny. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ, vhodná pro použití v hashovacích algoritmech a datových strukturách, jako je hash tabulka. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Určuje, zda jsou dvě instance TransitionValueBase stejné. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ, vhodná pro použití v hashovacích algoritmech a datových strukturách, jako je hashovací tabulka. |
 
 ### Viz také
 

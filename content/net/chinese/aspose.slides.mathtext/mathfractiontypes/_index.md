@@ -1,9 +1,9 @@
 ---
 title: MathFractionTypes
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 分数类型
 type: docs
-weight: 8710
+weight: 8730
 url: /zh/aspose.slides.mathtext/mathfractiontypes/
 ---
 ## MathFractionTypes 枚举
@@ -19,11 +19,11 @@ public enum MathFractionTypes
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
 | Bar | `1` | Bar 分数 |
-| Skewed | `2` | Skewed |
-| Linear | `3` | Linear 分数 |
-| NoBar | `4` | No-Bar 分数 (Stack) |
+| Skewed | `2` | 倾斜 |
+| Linear | `3` | 线性分数 |
+| NoBar | `4` | No-Bar 分数 (堆栈) |
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 程序集 [Aspose.Slides](../../)

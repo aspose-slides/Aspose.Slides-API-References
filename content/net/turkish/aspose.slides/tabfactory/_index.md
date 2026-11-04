@@ -1,14 +1,14 @@
 ---
 title: TabFactory
-second_title: Aspose.Sildes için .NET API Referansı
-description: ITab örnekleri oluşturmasına izin verir
+second_title: Aspose.Sildes for .NET API Referansı
+description: ITab örneklerini oluşturmayı sağlar
 type: docs
-weight: 10850
+weight: 10870
 url: /tr/aspose.slides/tabfactory/
 ---
 ## TabFactory sınıfı
 
-ITab örnekleri oluşturmasına izin verir
+ITab örneklerini oluşturmayı sağlar
 
 ```csharp
 public class TabFactory : ITabFactory
@@ -16,21 +16,21 @@ public class TabFactory : ITabFactory
 
 ## Yapıcılar
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
 | [TabFactory](tabfactory)() | Varsayılan yapıcı. |
 
-## Metotlar
+## Yöntemler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
 | [CreateTab](../../aspose.slides/tabfactory/createtab)(double, TabAlignment) | Yeni bir ITab örneği oluşturur. |
 
 ### Açıklamalar
 
-COM uyumluluğu için.
+For COM compatibility.
 
-### İlgili
+### Bakınız
 
 * arayüz [ITabFactory](../itabfactory)
 * ad alanı [Aspose.Slides](../../aspose.slides)

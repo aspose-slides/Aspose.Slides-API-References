@@ -1,14 +1,14 @@
 ---
 title: IPresetShadow
-second_title: Aspose.Sildes für .NET API Referenz
-description: Stellt einen Preset-Shadow-Effekt dar.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt einen voreingestellten Schatteneffekt dar.
 type: docs
-weight: 3480
+weight: 3500
 url: /de/aspose.slides.effects/ippresetshadow/
 ---
 ## IPresetShadow Schnittstelle
 
-Stellt einen Preset-Shadow-Effekt dar.
+Stellt einen voreingestellten Schatteneffekt dar.
 
 ```csharp
 public interface IPresetShadow : IAccessiblePVIObject<IPresetShadowEffectiveData>, 
@@ -23,7 +23,7 @@ public interface IPresetShadow : IAccessiblePVIObject<IPresetShadowEffectiveData
 | [AsIImageTransformOperation](../../aspose.slides.effects/ipresetshadow/asiimagetransformoperation) { get; } | Ermöglicht das Abrufen der Basis-IImageTransformOperation-Schnittstelle. Nur lesbar [`IImageTransformOperation`](../iimagetransformoperation). |
 | [Direction](../../aspose.slides.effects/ipresetshadow/direction) { get; set; } | Richtung des Schattens. Lesen/Schreiben Single. |
 | [Distance](../../aspose.slides.effects/ipresetshadow/distance) { get; set; } | Abstand des Schattens. Lesen/Schreiben Double. |
-| [Preset](../../aspose.slides.effects/ipresetshadow/preset) { get; set; } | Preset. Lesen/Schreiben [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
+| [Preset](../../aspose.slides.effects/ipresetshadow/preset) { get; set; } | Voreinstellung. Lesen/Schreiben [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
 | [ShadowColor](../../aspose.slides.effects/ipresetshadow/shadowcolor) { get; } | Farbe des Schattens. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Siehe auch

@@ -1,9 +1,9 @@
 ---
 title: ISlideImageFormat
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: HTML エクスポート用のプレゼンテーションでスライド画像が保存される形式を決定します。
 type: docs
-weight: 4090
+weight: 4110
 url: /ja/aspose.slides.export/islideimageformat/
 ---
 ## ISlideImageFormat インターフェイス

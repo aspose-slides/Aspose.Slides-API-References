@@ -1,14 +1,14 @@
 ---
 title: InnerShadow
 second_title: Referência da API Aspose.Sildes para .NET
-description: Representa um efeito Inner Shadow.
+description: Representa um efeito de Inner Shadow.
 type: docs
-weight: 3600
+weight: 3620
 url: /pt/aspose.slides.effects/innershadow/
 ---
 ## InnerShadow classe
 
-Representa um efeito Inner Shadow.
+Representa um efeito de Inner Shadow.
 
 ```csharp
 public sealed class InnerShadow : IInnerShadow
@@ -16,22 +16,22 @@ public sealed class InnerShadow : IInnerShadow
 
 ## Propriedades
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/innershadow/blurradius) { get; set; } | Raio de desfoque. Leitura/gravação Double. |
-| [Direction](../../aspose.slides.effects/innershadow/direction) { get; set; } | Direção da sombra. Leitura/gravação Single. |
-| [Distance](../../aspose.slides.effects/innershadow/distance) { get; set; } | Distância da sombra. Leitura/gravação Double. |
+| [BlurRadius](../../aspose.slides.effects/innershadow/blurradius) { get; set; } | Raio de desfoque. Leitura/Escrita Double. |
+| [Direction](../../aspose.slides.effects/innershadow/direction) { get; set; } | Direção da sombra. Leitura/Escrita Single. |
+| [Distance](../../aspose.slides.effects/innershadow/distance) { get; set; } | Distância da sombra. Leitura/Escrita Double. |
 | [ShadowColor](../../aspose.slides.effects/innershadow/shadowcolor) { get; } | Cor da sombra. Somente leitura [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## Métodos
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/innershadow/equals)(object) | Determina se o [`InnerShadow`](../innershadow) especificado é igual ao atual [`InnerShadow`](../innershadow). |
+| override [Equals](../../aspose.slides.effects/innershadow/equals)(object) | Determina se o [`InnerShadow`](../innershadow) especificado é igual ao [`InnerShadow`](../innershadow) atual. |
 | [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | Obtém os dados efetivos do efeito Inner Shadow com a herança aplicada. |
-| override [GetHashCode](../../aspose.slides.effects/innershadow/gethashcode)() | Funciona como uma função hash para um tipo específico. |
+| override [GetHashCode](../../aspose.slides.effects/innershadow/gethashcode)() | Atua como função hash para um tipo específico. |
 
-### Ver também
+### Veja Também
 
 * interface [IInnerShadow](../iinnershadow)
 * namespace [Aspose.Slides.Effects](../../aspose.slides.effects)

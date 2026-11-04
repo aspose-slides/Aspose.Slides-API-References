@@ -1,12 +1,12 @@
 ---
 title: Output
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta una raccolta di elementi di output per IWebDocument.
 type: docs
-weight: 4640
+weight: 4660
 url: /it/aspose.slides.export.web/output/
 ---
-## classe Output
+## Output classe
 
 Rappresenta una raccolta di elementi di output per !:IWebDocument.
 
@@ -18,12 +18,13 @@ public sealed class Output
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.slides.export.web/output/add#add_1)(string, IImage) | Aggiunge un elemento di output per l'immagine. |
-| [Add](../../aspose.slides.export.web/output/add#add_2)(string, IPPImage) | Aggiunge un elemento di output per l'immagine. |
-| [Add](../../aspose.slides.export.web/output/add#add_3)(string, IVideo) | Aggiunge un elemento di output per il video. |
-| [Add](../../aspose.slides.export.web/output/add#add_4)(string, string) | Aggiunge un elemento di output per il contenuto di testo. |
-| [Add](../../aspose.slides.export.web/output/add#add)(string, IFontData, FontStyleType) | Crea e aggiunge un elemento di file di output per il font specificato. |
-| [Add&lt;TContextObject&gt;](../../aspose.slides.export.web/output/add#add_5)(string, string, TContextObject) | Aggiunge un elemento di output per l'oggetto di contesto. |
+| [Add](../../aspose.slides.export.web/output/add#add)(string, IAudio) | Aggiunge un elemento di output per l'audio. |
+| [Add](../../aspose.slides.export.web/output/add#add_2)(string, IImage) | Aggiunge un elemento di output per l'immagine. |
+| [Add](../../aspose.slides.export.web/output/add#add_3)(string, IPPImage) | Aggiunge un elemento di output per l'immagine. |
+| [Add](../../aspose.slides.export.web/output/add#add_4)(string, IVideo) | Aggiunge un elemento di output per il video. |
+| [Add](../../aspose.slides.export.web/output/add#add_5)(string, string) | Aggiunge un elemento di output per il contenuto di testo. |
+| [Add](../../aspose.slides.export.web/output/add#add_1)(string, IFontData, FontStyleType) | Crea e aggiunge un elemento di file di output per il font specificato. |
+| [Add&lt;TContextObject&gt;](../../aspose.slides.export.web/output/add#add_6)(string, string, TContextObject) | Aggiunge un elemento di output per l'oggetto di contesto. |
 | [BindResource](../../aspose.slides.export.web/output/bindresource)(IOutputFile, object) | Associa la risorsa al file di output. |
 | [GetResourcePath](../../aspose.slides.export.web/output/getresourcepath)(object) | Restituisce il percorso per una risorsa data. |
 

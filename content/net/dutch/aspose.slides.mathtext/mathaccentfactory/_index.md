@@ -1,37 +1,37 @@
 ---
 title: MathAccentFactory
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Staat toe om een wiskundig accent te maken
+description: Staat toe een wiskundig accent te maken
 type: docs
-weight: 8540
+weight: 8560
 url: /nl/aspose.slides.mathtext/mathaccentfactory/
 ---
 ## MathAccentFactory klasse
 
-Staat toe om een wiskundig accent te maken
+Staat toe een wiskundig accent te maken
 
 ```csharp
 public class MathAccentFactory : IMathAccentFactory
 ```
 
-## Constructors
+## Constructoren
 
 | Naam | Beschrijving |
 | --- | --- |
 | [MathAccentFactory](mathaccentfactory)() | De standaardconstructor. |
 
-## Methods
+## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | Maakt een wiskundig accent dat wordt toegepast op een opgegeven IMathElement met de standaard accenttekenwaarde |
-| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | Maakt een wiskundig accent dat wordt toegepast op een opgegeven IMathElement |
+| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | Creëert een wiskundig accent dat wordt toegepast op een opgegeven wiskundig element met de standaardaccentkarakterwaarde |
+| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | Creëert een wiskundig accent dat wordt toegepast op een opgegeven wiskundig element |
 
-### Remarks
+### Opmerkingen
 
 Voor COM-compatibiliteit
 
-### See Also
+### Zie ook
 
 * interface [IMathAccentFactory](../imathaccentfactory)
 * naamruimte [Aspose.Slides.MathText](../../aspose.slides.mathtext)

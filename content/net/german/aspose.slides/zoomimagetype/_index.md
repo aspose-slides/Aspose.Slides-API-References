@@ -3,7 +3,7 @@ title: ZoomImageType
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Definiert, ob das Zoom-Objekt die Folienvorschau oder ein Cover-Bild verwendet.
 type: docs
-weight: 11850
+weight: 11870
 url: /de/aspose.slides/zoomimagetype/
 ---
 ## ZoomImageType Aufzählung
@@ -16,7 +16,7 @@ public enum ZoomImageType
 
 ### Werte
 
-| Name | Value | Description |
+| Name | Wert | Beschreibung |
 | --- | --- | --- |
 | Preview | `1` | Verwendet das Bild der Folie oder des Abschnitts. |
 | Cover | `2` | Verwendet ein benutzerdefiniertes Bild. |

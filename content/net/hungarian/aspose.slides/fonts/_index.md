@@ -1,9 +1,9 @@
 ---
 title: Fonts
-second_title: Aspose.Sildes .NET API Referencia
+second_title: Aspose.Sildes .NET API referencia
 description: Betűtípusok gyűjteménye.
 type: docs
-weight: 4920
+weight: 4940
 url: /hu/aspose.slides/fonts/
 ---
 ## Fonts osztály
@@ -18,18 +18,18 @@ public class Fonts : IFonts
 
 | Név | Leírás |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/fonts/complexscriptfont) { get; set; } | Visszaadja vagy beállítja a komplex szkript betűtípust. Olvasás/írás [`IFontData`](../ifontdata). |
+| [ComplexScriptFont](../../aspose.slides/fonts/complexscriptfont) { get; set; } | Visszaadja vagy beállítja a komplex írásrendszer betűtípusát. Olvasás/írás [`IFontData`](../ifontdata). |
 | [EastAsianFont](../../aspose.slides/fonts/eastasianfont) { get; set; } | Visszaadja vagy beállítja a kelet-ázsiai betűtípust. Olvasás/írás [`IFontData`](../ifontdata). |
 | [LatinFont](../../aspose.slides/fonts/latinfont) { get; set; } | Visszaadja vagy beállítja a latin betűtípust. Olvasás/írás [`IFontData`](../ifontdata). |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [GetScriptFont](../../aspose.slides/fonts/getscriptfont)(string) | Megkapja a prezentáció témájában egy adott szkript címkéhez kapcsolódó betűtípus nevét. |
-| [GetScriptFontMap](../../aspose.slides/fonts/getscriptfontmap)() | Visszaad egy szótárat a prezentációban lévő összes szkript betűtípus definícióról. |
-| [RemoveScriptFont](../../aspose.slides/fonts/removescriptfont)(string) | Eltávolítja a témában egy adott szkript címkéhez kapcsolódó betűtípus beállítást a betűtípusgyűjteményből. |
-| [SetScriptFont](../../aspose.slides/fonts/setscriptfont)(string, string) | Egy betűtípus nevet rendel egy adott szkript címkéhez, amely meghatározza, hogyan lesz a szkript szövege renderelve a prezentációban. |
+| [GetScriptFont](../../aspose.slides/fonts/getscriptfont)(string) | Lekéri a betűtípus nevét, amely egy adott írásjelcímkéhez van rendelve a prezentáció sablonjából. |
+| [GetScriptFontMap](../../aspose.slides/fonts/getscriptfontmap)() | Visszaad egy szótárat az összes írásjel betűtípusdefinícióról a prezentációban. |
+| [RemoveScriptFont](../../aspose.slides/fonts/removescriptfont)(string) | Eltávolítja az adott írásjelcímkéhez tartozó betűtípus-beállítást a sablon betűtárából. |
+| [SetScriptFont](../../aspose.slides/fonts/setscriptfont)(string, string) | Egy betűtípusnevet rendel egy adott írásjelcímkéhez, amely meghatározza, hogyan jelenjen meg a szöveg a prezentációban. |
 
 ### Lásd még
 

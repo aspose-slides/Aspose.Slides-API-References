@@ -1,14 +1,14 @@
 ---
 title: IVideoCollection
-second_title: Aspose.Sildes dla .NET – referencja API
+second_title: Aspose.Sildes dla .NET API Reference
 description: Reprezentuje kolekcję obiektów Video.
 type: docs
-weight: 7370
+weight: 7390
 url: /pl/aspose.slides/ivideocollection/
 ---
 ## IVideoCollection interfejs
 
-Reprezentuje kolekcję obiektów Video.
+Represents a collection of Video objects.
 
 ```csharp
 public interface IVideoCollection : IGenericCollection<IVideo>
@@ -18,7 +18,7 @@ public interface IVideoCollection : IGenericCollection<IVideo>
 
 | Nazwa | Opis |
 | --- | --- |
-| [Item](../../aspose.slides/ivideocollection/item) { get; } | Pobiera element o podanym indeksie. Tylko do odczytu [`IVideo`](../ivideo). |
+| [Item](../../aspose.slides/ivideocollection/item) { get; } | Pobiera element o określonym indeksie. Tylko do odczytu [`IVideo`](../ivideo). |
 
 ## Metody
 
@@ -28,7 +28,7 @@ public interface IVideoCollection : IGenericCollection<IVideo>
 | [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo)(IVideo) | Dodaje kopię pliku wideo z innej prezentacji. |
 | [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | Tworzy i dodaje wideo do prezentacji ze strumienia. |
 
-### Zobacz także
+### Zobacz też
 
 * interfejs [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * interfejs [IVideo](../ivideo)

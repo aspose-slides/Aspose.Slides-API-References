@@ -1,14 +1,14 @@
 ---
 title: ExcelDataWorkbook
-second_title: Aspose.Sildes pro .NET – reference API
-description: Představuje sešit, který poskytuje přístup k datům Excel pro obecné použití.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Reprezentuje sešit, který poskytuje přístup k datům Excel pro obecné použití.
 type: docs
-weight: 3690
+weight: 3710
 url: /cs/aspose.slides.excel/exceldataworkbook/
 ---
 ## ExcelDataWorkbook třída
 
-Představuje sešit, který poskytuje přístup k datům Excel pro obecné použití.
+Reprezentuje sešit, který poskytuje přístup k datům Excel pro obecné použití.
 
 ```csharp
 public class ExcelDataWorkbook : IExcelDataWorkbook
@@ -18,18 +18,18 @@ public class ExcelDataWorkbook : IExcelDataWorkbook
 
 | Název | Popis |
 | --- | --- |
-| [ExcelDataWorkbook](exceldataworkbook#constructor)(Stream) | Inicializuje novou instanci třídy pomocí poskytnutého proudu. |
+| [ExcelDataWorkbook](exceldataworkbook#constructor)(Stream) | Inicializuje novou instanci třídy pomocí poskytnutého streamu. |
 | [ExcelDataWorkbook](exceldataworkbook#constructor_1)(string) | Inicializuje novou instanci pomocí zadané cesty k souboru. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_1)(int, string) | Načte buňku ze zadaného listu pomocí jejího indexu a názvu buňky ve stylu Excel (např. „B2“). |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_3)(string, string) | Načte buňku ze zadaného listu pomocí názvu buňky ve stylu Excel (např. „B2“). |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell)(int, int, int) | Načte buňku ze zadaného listu pomocí jejího indexu a souřadnic buňky. |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_1)(int, string) | Načte buňku ze zadaného listu pomocí jeho indexu a názvu buňky ve stylu Excel (např. "B2"). |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_3)(string, string) | Načte buňku ze zadaného listu pomocí názvu buňky ve stylu Excel (např. "B2"). |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell)(int, int, int) | Načte buňku ze zadaného listu pomocí jeho indexu a souřadnic buňky. |
 | [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_2)(string, int, int) | Načte buňku ze zadaného listu pomocí jejího názvu a souřadnic buňky. |
-| [GetCells](../../aspose.slides.excel/exceldataworkbook/getcells)(string, bool) | Načte kolekci buněk ze sešitu, které odpovídají zadanému vzorci. |
+| [GetCells](../../aspose.slides.excel/exceldataworkbook/getcells)(string, bool) | Načte kolekci buněk z sešitu, které odpovídají zadanému vzorci. |
 | [GetChartsFromWorksheet](../../aspose.slides.excel/exceldataworkbook/getchartsfromworksheet)(string) | Načte slovník obsahující indexy a názvy všech grafů v zadaném listu Excel sešitu. |
 | [GetWorksheetNames](../../aspose.slides.excel/exceldataworkbook/getworksheetnames)() | Načte názvy všech listů obsažených v Excel sešitu. |
 

@@ -1,14 +1,14 @@
 ---
 title: SlideShowSettings
 second_title: Aspose.Sildes для .NET справочник API
-description: Представляет настройки показа слайдов для презентации.
+description: Представляет настройки слайд-шоу для презентации.
 type: docs
-weight: 10480
+weight: 10500
 url: /ru/aspose.slides/slideshowsettings/
 ---
 ## SlideShowSettings класс
 
-Представляет настройки показа слайдов для презентации.
+Представляет параметры слайд-шоу для презентации.
 
 ```csharp
 public class SlideShowSettings
@@ -18,13 +18,13 @@ public class SlideShowSettings
 
 | Имя | Описание |
 | --- | --- |
-| [Loop](../../aspose.slides/slideshowsettings/loop) { get; set; } | Циклическое воспроизведение слайд-шоу |
-| [PenColor](../../aspose.slides/slideshowsettings/pencolor) { get; } | Цвет пера для показа слайдов |
+| [Loop](../../aspose.slides/slideshowsettings/loop) { get; set; } | Повторять слайд-шоу |
+| [PenColor](../../aspose.slides/slideshowsettings/pencolor) { get; } | Цвет пера для слайд-шоу |
 | [ShowAnimation](../../aspose.slides/slideshowsettings/showanimation) { get; set; } | Показывать анимацию в слайд-шоу |
 | [ShowMediaControls](../../aspose.slides/slideshowsettings/showmediacontrols) { get; set; } | Показывать элементы управления медиа |
 | [ShowNarration](../../aspose.slides/slideshowsettings/shownarration) { get; set; } | Показывать озвучивание в слайд-шоу |
 | [Slides](../../aspose.slides/slideshowsettings/slides) { get; set; } | Диапазон слайдов |
-| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | Получает или задает тип слайд-шоу. Представляется следующими предками [`SlideShowType`](./slideshowtype): [`BrowsedAtKiosk`](../browsedatkiosk), [`PresentedBySpeaker`](../presentedbyspeaker) и [`BrowsedByIndividual`](../browsedbyindividual) |
+| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | Получает или задает тип слайд-шоу. Представлен следующими предками [`SlideShowType`](./slideshowtype): [`BrowsedAtKiosk`](../browsedatkiosk), [`PresentedBySpeaker`](../presentedbyspeaker) и [`BrowsedByIndividual`](../browsedbyindividual) |
 | [UseTimings](../../aspose.slides/slideshowsettings/usetimings) { get; set; } | Использовать тайминги в слайд-шоу |
 
 ### См. также

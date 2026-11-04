@@ -3,30 +3,30 @@ title: IMathBlockFactory
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: गणित ब्लॉक बनाने की अनुमति देता है
 type: docs
-weight: 8160
+weight: 8180
 url: /hi/aspose.slides.mathtext/imathblockfactory/
 ---
 ## IMathBlockFactory इंटरफ़ेस
 
-गणित ब्लॉक बनाने की अनुमति देता है
+एक गणित ब्लॉक बनाने की अनुमति देता है
 
 ```csharp
 public interface IMathBlockFactory
 ```
 
-## मेथड्स
+## विधियाँ
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
 | [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock)() | एक गणित ब्लॉक बनाएं |
-| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_1)(IMathElement) | एक गणित ब्लॉक बनाएं और तत्व को उसके भीतर रखें |
-| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_2)(IMathElementCollection) | एक गणित ब्लॉक बनाएं और तत्वों को उसके भीतर रखें |
+| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_1)(IMathElement) | एक गणित ब्लॉक बनाएं और तत्व को उसमें रखें |
+| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_2)(IMathElementCollection) | एक गणित ब्लॉक बनाएं और तत्वों को उसमें रखें |
 
 ### टिप्पणी
 
 COM संगतता के लिए
 
-### देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * असेंबली [Aspose.Slides](../../)

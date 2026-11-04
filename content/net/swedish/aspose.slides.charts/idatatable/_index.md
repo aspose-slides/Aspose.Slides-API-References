@@ -1,14 +1,14 @@
 ---
 title: IDataTable
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar egenskaper för datatabell.
+description: Representerar egenskaper för en datatabell.
 type: docs
-weight: 2060
+weight: 2080
 url: /sv/aspose.slides.charts/idatatable/
 ---
 ## IDataTable gränssnitt
 
-Representerar egenskaper för datatabell.
+Representerar egenskaper för en datatabell.
 
 ```csharp
 public interface IDataTable : IFormattedTextContainer
@@ -18,12 +18,12 @@ public interface IDataTable : IFormattedTextContainer
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/idatatable/asiformattedtextcontainer) { get; } | Tillåter att hämta bas-IFormattedTextContainer-gränssnittet. Skrivskyddad [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [Format](../../aspose.slides.charts/idatatable/format) { get; } | Returnerar rad-, fyll- och effektstilar för ett objekt. Skrivskyddad [`IFormat`](../iformat). |
-| [HasBorderHorizontal](../../aspose.slides.charts/idatatable/hasborderhorizontal) { get; set; } | Sant om diagrammets datatabell har horisontella cellgränser. Läs/skriv Boolean. |
-| [HasBorderOutline](../../aspose.slides.charts/idatatable/hasborderoutline) { get; set; } | Sant om diagrammets datatabell har omkretsgränser. Läs/skriv Boolean. |
-| [HasBorderVertical](../../aspose.slides.charts/idatatable/hasbordervertical) { get; set; } | Sant om diagrammets datatabell har vertikala cellgränser. Läs/skriv Boolean. |
-| [ShowLegendKey](../../aspose.slides.charts/idatatable/showlegendkey) { get; set; } | Sant om nyckeln för datamärkeslegenden är synlig. Läs/skriv Boolean. |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/idatatable/asiformattedtextcontainer) { get; } | Tillåter att hämta bas- IFormattedTextContainer gränssnitt. Skrivskyddad [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [Format](../../aspose.slides.charts/idatatable/format) { get; } | Returnerar rad-, fyllnings- och effektstilar för ett objekt. Skrivskyddad [`IFormat`](../iformat). |
+| [HasBorderHorizontal](../../aspose.slides.charts/idatatable/hasborderhorizontal) { get; set; } | Sant om diagrammets datatabell har horisontella cellkantlinjer. Läs/skriv Boolean. |
+| [HasBorderOutline](../../aspose.slides.charts/idatatable/hasborderoutline) { get; set; } | Sant om diagrammets datatabell har konturkantlinjer. Läs/skriv Boolean. |
+| [HasBorderVertical](../../aspose.slides.charts/idatatable/hasbordervertical) { get; set; } | Sant om diagrammets datatabell har vertikala cellkantlinjer. Läs/skriv Boolean. |
+| [ShowLegendKey](../../aspose.slides.charts/idatatable/showlegendkey) { get; set; } | Sant om dataetikettens legendnyckel är synlig. Läs/skriv Boolean. |
 
 ### Se även
 

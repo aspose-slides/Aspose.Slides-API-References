@@ -1,9 +1,9 @@
 ---
 title: IRippleTransition
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Ripple-Folienübergangseffekt.
 type: docs
-weight: 10170
+weight: 10190
 url: /de/aspose.slides.slideshow/irippletransition/
 ---
 ## IRippleTransition Schnittstelle
@@ -18,8 +18,8 @@ public interface IRippleTransition : ITransitionValueBase
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/irippletransition/asitransitionvaluebase) { get; } | Erlaubt das Abrufen der Basisschnittstelle ITransitionValueBase. Nur lesbar [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/irippletransition/direction) { get; set; } | Richtung des Übergangs. Lesen/Schreiben [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/irippletransition/asitransitionvaluebase) { get; } | Ermöglicht das Abrufen der Basis ITransitionValueBase Schnittstelle. Nur lesbar [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/irippletransition/direction) { get; set; } | Richtung des Übergangs. Lese-/Schreibzugriff [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
 
 ### Siehe auch
 

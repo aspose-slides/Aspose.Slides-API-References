@@ -1,20 +1,20 @@
 ---
 title: ValueFromCell
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 取得或設定工作簿資料儲存格。當 IDataLabelFormat.ShowLabelValueFromCell 屬性為 true 時套用此設定。
+second_title: Aspose.Sildes 用於 .NET 的 API 參考
+description: 取得或設定工作表資料儲存格。若 IDataLabelFormat.ShowLabelValueFromCell 屬性 等於 true，則套用。
 type: docs
-weight: 60
+weight: 70
 url: /zh-hant/aspose.slides.charts/idatalabel/valuefromcell/
 ---
 ## IDataLabel.ValueFromCell 屬性
 
-取得或設定工作簿資料儲存格。若 IDataLabelFormat.ShowLabelValueFromCell 屬性 為 true，則套用此設定。
+取得或設定工作表資料儲存格。若 IDataLabelFormat.ShowLabelValueFromCell 屬性 等於 true，則套用。
 
 ```csharp
 public IChartDataCell ValueFromCell { get; set; }
 ```
 
-### 另見
+### 另請參閱
 
 * 介面 [IChartDataCell](../../ichartdatacell)
 * 介面 [IDataLabel](../../idatalabel)

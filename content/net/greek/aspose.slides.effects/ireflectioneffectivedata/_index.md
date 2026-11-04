@@ -1,14 +1,14 @@
 ---
 title: IReflectionEffectiveData
 second_title: Aspose.Sildes για .NET Αναφορά API
-description: Αμετάβλητο αντικείμενο που αντιπροσωπεύει ένα εφέ αντανάκλασης.
+description: Αμετάβλητο αντικείμενο που αντιπροσωπεύει ένα εφέ Αντανάκλασης.
 type: docs
-weight: 3510
+weight: 3530
 url: /el/aspose.slides.effects/ireflectioneffectivedata/
 ---
-## Διεπαφή IReflectionEffectiveData
+## IReflectionEffectiveData διεπαφή
 
-Αμετάβλητο αντικείμενο που αντιπροσωπεύει ένα εφέ αντανάκλασης.
+Αμετάβλητο αντικείμενο που αντιπροσωπεύει το εφέ Αντανάκλαση.
 
 ```csharp
 public interface IReflectionEffectiveData : IEffectEffectiveData
@@ -18,26 +18,26 @@ public interface IReflectionEffectiveData : IEffectEffectiveData
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ireflectioneffectivedata/asieffecteffectivedata) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής IEffectEffectiveData. Μόνο για ανάγνωση [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ireflectioneffectivedata/asieffecteffectivedata) { get; } | Επιτρέπει την λήψη της βασικής διεπαφής IEffectEffectiveData. Μόνο για ανάγνωση [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [BlurRadius](../../aspose.slides.effects/ireflectioneffectivedata/blurradius) { get; } | Ακτίνα θολώματος. Μόνο για ανάγνωση Double. |
-| [Direction](../../aspose.slides.effects/ireflectioneffectivedata/direction) { get; } | Κατεύθυνση αντανάκλασης. Μόνο για ανάγνωση Single. |
+| [Direction](../../aspose.slides.effects/ireflectioneffectivedata/direction) { get; } | Κατεύθυνση της αντανάκλασης. Μόνο για ανάγνωση Single. |
 | [Distance](../../aspose.slides.effects/ireflectioneffectivedata/distance) { get; } | Απόσταση αντανάκλασης. Μόνο για ανάγνωση Double. |
-| [EndPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/endposalpha) { get; } | Καθορίζει τη θέση λήξης (κατά μήκος της κλίμακας διαβάθμισης άλφα) της τιμής άλφα λήξης (ποσοστά). Μόνο για ανάγνωση Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity) { get; } | Διαύγεια λήξης αντανάκλασης. (ποσοστά). Μόνο για ανάγνωση Single. |
+| [EndPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/endposalpha) { get; } | Καθορίζει τη θέση λήξης (κατά μήκος της κλίσης διαβάθμισης άλφα) της τιμής άλφα λήξης (ποσοστά). Μόνο για ανάγνωση Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity) { get; } | Διαφάνεια λήξης αντανάκλασης. (ποσοστά). Μόνο για ανάγνωση Single. |
 | [FadeDirection](../../aspose.slides.effects/ireflectioneffectivedata/fadedirection) { get; } | Καθορίζει την κατεύθυνση μετατόπισης της αντανάκλασης. (γωνία). Μόνο για ανάγνωση Single. |
-| [RectangleAlign](../../aspose.slides.effects/ireflectioneffectivedata/rectanglealign) { get; } | Στοίχιση παραλληλογράμμου. Μόνο για ανάγνωση [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape) { get; } | Καθορίζει αν η αντανάκλαση πρέπει να περιστρέφεται μαζί με το σχήμα εάν το σχήμα περιστραφεί. Μόνο για ανάγνωση Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/scalehorizontal) { get; } | Καθορίζει τον οριζόντιο συντελεστή κλίμακας, η αρνητική κλιμάκωση προκαλεί αναστροφή. (ποσοστά) Μόνο για ανάγνωση Double. |
-| [ScaleVertical](../../aspose.slides.effects/ireflectioneffectivedata/scalevertical) { get; } | Καθορίζει τον κάθετο συντελεστή κλίμακας, η αρνητική κλιμάκωση προκαλεί αναστροφή. (ποσοστά) Μόνο για ανάγνωση Double. |
-| [SkewHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/skewhorizontal) { get; } | Καθορίζει την οριζόντια γωνία διαμόρφωσης. Μόνο για ανάγνωση Double. |
-| [SkewVertical](../../aspose.slides.effects/ireflectioneffectivedata/skewvertical) { get; } | Καθορίζει την κάθετη γωνία διαμόρφωσης. Μόνο για ανάγνωση Double. |
-| [StartPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/startposalpha) { get; } | Καθορίζει τη θέση έναρξης (κατά μήκος της κλίμακας διαβάθμισης άλφα) της τιμής άλφα έναρξης (ποσοστά). Μόνο για ανάγνωση Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity) { get; } | Αρχική διαύγεια αντανάκλασης. (ποσοστά). Μόνο για ανάγνωση Single. |
+| [RectangleAlign](../../aspose.slides.effects/ireflectioneffectivedata/rectanglealign) { get; } | Στοίχιση ορθογωνίου. Μόνο για ανάγνωση [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape) { get; } | Καθορίζει εάν η αντανάκλαση πρέπει να περιστρέφεται μαζί με το σχήμα όταν το σχήμα είναι περιστραμμένο. Μόνο για ανάγνωση Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/scalehorizontal) { get; } | Καθορίζει τον οριζόντιο συντελεστή κλιμάκωσης, η αρνητική κλιμάκωση προκαλεί ανάποδη προβολή. (ποσοστά) Μόνο για ανάγνωση Double. |
+| [ScaleVertical](../../aspose.slides.effects/ireflectioneffectivedata/scalevertical) { get; } | Καθορίζει τον κάθετο συντελεστή κλιμάκωσης, η αρνητική κλιμάκωση προκαλεί ανάποδη προβολή. (ποσοστά) Μόνο για ανάγνωση Double. |
+| [SkewHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/skewhorizontal) { get; } | Καθορίζει την οριζόντια γωνία παραμόρφωσης. Μόνο για ανάγνωση Double. |
+| [SkewVertical](../../aspose.slides.effects/ireflectioneffectivedata/skewvertical) { get; } | Καθορίζει την κάθετη γωνία παραμόρφωσης. Μόνο για ανάγνωση Double. |
+| [StartPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/startposalpha) { get; } | Καθορίζει τη θέση εκκίνησης (κατά μήκος της κλίσης διαβάθμισης άλφα) της τιμής άλφα εκκίνησης (ποσοστά). Μόνο για ανάγνωση Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity) { get; } | Διαφάνεια εκκίνησης αντανάκλασης. (ποσοστά). Μόνο για ανάγνωση Single. |
 
 ### Δείτε επίσης
 
 * διεπαφή [IEffectEffectiveData](../ieffecteffectivedata)
-* χώρο ονομάτων [Aspose.Slides.Effects](../../aspose.slides.effects)
+* χωροόνομα [Aspose.Slides.Effects](../../aspose.slides.effects)
 * συναρμολόγηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

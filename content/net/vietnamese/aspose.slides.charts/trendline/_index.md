@@ -3,12 +3,12 @@ title: Trendline
 second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Lớp đại diện cho đường xu hướng của chuỗi biểu đồ
 type: docs
-weight: 2470
+weight: 2490
 url: /vi/aspose.slides.charts/trendline/
 ---
 ## Lớp Trendline
 
-Class represents trend line of chart series
+Lớp đại diện cho đường xu hướng của chuỗi biểu đồ
 
 ```csharp
 public class Trendline : DomObject<TrendlineCollection>, ITrendline
@@ -18,31 +18,31 @@ public class Trendline : DomObject<TrendlineCollection>, ITrendline
 
 | Tên | Mô tả |
 | --- | --- |
-| [Backward](../../aspose.slides.charts/trendline/backward) { get; set; } | Xác định số danh mục (hoặc đơn vị trên biểu đồ phân tán) mà đường xu hướng mở rộng trước dữ liệu của chuỗi đang được xu hướng hoá. Trên biểu đồ phân tán và không phân tán, giá trị phải là bất kỳ giá trị không âm nào. Đọc/ghi Double. |
-| [Chart](../../aspose.slides.charts/trendline/chart) { get; } | Trả về biểu đồ cha. Chỉ đọc [`IChart`](../ichart). |
-| [DisplayEquation](../../aspose.slides.charts/trendline/displayequation) { get; set; } | Xác định rằng phương trình cho đường xu hướng được hiển thị trên biểu đồ (trong cùng nhãn với Rsquaredvalue). Đọc/ghi Boolean. |
-| [DisplayRSquaredValue](../../aspose.slides.charts/trendline/displayrsquaredvalue) { get; set; } | Xác định rằng giá trị R-squared của đường xu hướng được hiển thị trên biểu đồ (trong cùng nhãn với phương trình). Đọc/ghi Boolean. |
-| [Format](../../aspose.slides.charts/trendline/format) { get; set; } | Đại diện cho định dạng của đường xu hướng. Đọc/ghi [`IFormat`](../iformat). |
-| [Forward](../../aspose.slides.charts/trendline/forward) { get; set; } | Xác định số danh mục (hoặc đơn vị trên biểu đồ phân tán) mà đường xu hướng mở rộng sau dữ liệu của chuỗi đang được xu hướng hoá. Trên biểu đồ phân tán và không phân tán, giá trị phải là bất kỳ giá trị không âm nào. Đọc/ghi Double. |
-| [Intercept](../../aspose.slides.charts/trendline/intercept) { get; set; } | Xác định giá trị mà đường xu hướng sẽ cắt trục y. Thuộc tính này chỉ được hỗ trợ khi loại đường xu hướng là exp, linear hoặc poly. Đọc/ghi Double. |
-| [Order](../../aspose.slides.charts/trendline/order) { get; set; } | Xác định bậc của đường xu hướng đa thức. Giá trị này bị bỏ qua đối với các loại đường xu hướng khác. Giá trị phải nằm trong khoảng từ 2 đến 6. Đọc/ghi Byte. |
-| [Period](../../aspose.slides.charts/trendline/period) { get; set; } | Xác định chu kỳ của đường xu hướng cho đường xu hướng trung bình động. Giá trị này bị bỏ qua đối với các biến thể đường xu hướng khác. Giá trị phải nằm trong khoảng từ 2 đến 255. Đọc/ghi Byte. |
-| [RelatedLegendEntry](../../aspose.slides.charts/trendline/relatedlegendentry) { get; } | Đại diện cho mục legend liên quan tới đường xu hướng này. Chỉ đọc [`ILegendEntryProperties`](../ilegendentryproperties). |
-| [TextFormat](../../aspose.slides.charts/trendline/textformat) { get; } | Trả về định dạng văn bản. Chỉ đọc [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/trendline/textframeforoverriding) { get; } | Có thể chứa văn bản định dạng phong phú. Nếu thuộc tính này không null thì giá trị văn bản đã định dạng này sẽ ghi đè lên văn bản tự động tạo của nhãn dữ liệu. Văn bản tự động tạo của nhãn dữ liệu có nghĩa là văn bản được quản lý bởi các thuộc tính ShowSeriesName, ShowValue, ... và được định dạng bằng thuộc tính TextFormatManager.TextFormat. Chỉ đọc [`ITextFrame`](../../aspose.slides/itextframe). |
-| [TrendlineName](../../aspose.slides.charts/trendline/trendlinename) { get; set; } | Lấy hoặc đặt tên của đường xu hướng. Đọc/ghi String. |
-| [TrendlineType](../../aspose.slides.charts/trendline/trendlinetype) { get; set; } | Lấy hoặc đặt loại của đường xu hướng. Đọc/ghi [`TrendlineType`](../trendlinetype). |
+| [Backward](../../aspose.slides.charts/trendline/backward) { get; set; } | Xác định số danh mục (hoặc đơn vị trên biểu đồ phân tán) mà đường xu hướng mở rộng trước dữ liệu cho chuỗi đang được xu hướng hoá. Trên biểu đồ phân tán và không phân tán, giá trị phải là bất kỳ giá trị không âm nào. Read/write Double. |
+| [Chart](../../aspose.slides.charts/trendline/chart) { get; } | Trả về biểu đồ cha. Read-only [`IChart`](../ichart). |
+| [DisplayEquation](../../aspose.slides.charts/trendline/displayequation) { get; set; } | Xác định rằng phương trình cho đường xu hướng được hiển thị trên biểu đồ (trong cùng nhãn với Rsquaredvalue). Read/write Boolean. |
+| [DisplayRSquaredValue](../../aspose.slides.charts/trendline/displayrsquaredvalue) { get; set; } | Xác định rằng giá trị R-squared của đường xu hướng được hiển thị trên biểu đồ (trong cùng nhãn với phương trình). Read/write Boolean. |
+| [Format](../../aspose.slides.charts/trendline/format) { get; set; } | Biểu thị định dạng của đường xu hướng. Read/write [`IFormat`](../iformat). |
+| [Forward](../../aspose.slides.charts/trendline/forward) { get; set; } | Xác định số danh mục (hoặc đơn vị trên biểu đồ phân tán) mà đường xu hướng mở rộng sau dữ liệu cho chuỗi đang được xu hướng hoá. Trên biểu đồ phân tán và không phân tán, giá trị phải là bất kỳ giá trị không âm nào. Read/write Double. |
+| [Intercept](../../aspose.slides.charts/trendline/intercept) { get; set; } | Xác định giá trị mà đường xu hướng sẽ cắt trục y. Thuộc tính này chỉ được hỗ trợ khi loại đường xu hướng là exp, linear, hoặc poly. Read/write Double. |
+| [Order](../../aspose.slides.charts/trendline/order) { get; set; } | Xác định bậc của đường xu hướng đa thức. Nó bị bỏ qua đối với các loại đường xu hướng khác. Giá trị phải nằm giữa 2 và 6. Read/write Byte. |
+| [Period](../../aspose.slides.charts/trendline/period) { get; set; } | Xác định chu kỳ của đường xu hướng cho đường xu hướng trung bình động. Nó bị bỏ qua đối với các biến thể đường xu hướng khác. Giá trị phải nằm giữa 2 và 255. Read/write Byte. |
+| [RelatedLegendEntry](../../aspose.slides.charts/trendline/relatedlegendentry) { get; } | Biểu thị mục chú giải liên quan đến đường xu hướng này Read-only [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [TextFormat](../../aspose.slides.charts/trendline/textformat) { get; } | Trả về định dạng văn bản. Read-only [`IChartTextFormat`](../icharttextformat). |
+| [TextFrameForOverriding](../../aspose.slides.charts/trendline/textframeforoverriding) { get; } | Có thể chứa văn bản định dạng phong phú. Nếu thuộc tính này không null thì giá trị văn bản định dạng này sẽ ghi đè lên văn bản tự động tạo của nhãn dữ liệu. Văn bản tự động tạo của nhãn dữ liệu có nghĩa là văn bản được quản lý bởi các thuộc tính ShowSeriesName, ShowValue, ... và được định dạng bằng thuộc tính TextFormatManager.TextFormat. Read-only [`ITextFrame`](../../aspose.slides/itextframe). |
+| [TrendlineName](../../aspose.slides.charts/trendline/trendlinename) { get; set; } | Lấy hoặc đặt tên của đường xu hướng. Read/write String. |
+| [TrendlineType](../../aspose.slides.charts/trendline/trendlinetype) { get; set; } | Lấy hoặc đặt loại của đường xu hướng. Read/write [`TrendlineType`](../trendlinetype). |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/trendline/addtextframeforoverriding)(string) | Khởi tạo TextFrameForOverriding với văn bản trong tham số "text". Nếu TextFrameForOverriding đã được khởi tạo rồi thì chỉ đơn giản thay đổi văn bản của nó. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/trendline/addtextframeforoverriding)(string) | Khởi tạo TextFrameForOverriding với văn bản trong tham số "text". Nếu TextFrameForOverriding đã được khởi tạo thì chỉ thay đổi văn bản của nó. |
 
 ### Xem thêm
 
-* lớp [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
-* lớp [TrendlineCollection](../trendlinecollection)
+* Lớp [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* Lớp [TrendlineCollection](../trendlinecollection)
 * giao diện [ITrendline](../itrendline)
 * không gian tên [Aspose.Slides.Charts](../../aspose.slides.charts)
 * tập hợp [Aspose.Slides](../../)

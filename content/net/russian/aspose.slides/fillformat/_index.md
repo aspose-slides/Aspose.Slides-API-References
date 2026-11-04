@@ -1,9 +1,9 @@
 ---
 title: FillFormat
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET: справочник API
 description: Представляет параметры форматирования заливки.
 type: docs
-weight: 4780
+weight: 4800
 url: /ru/aspose.slides/fillformat/
 ---
 ## FillFormat класс
@@ -16,23 +16,23 @@ public sealed class FillFormat : PVIObject, IFillFormat
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../ipresentationcomponent). |
-| [FillType](../../aspose.slides/fillformat/filltype) { get; set; } | Возвращает или задает тип заполнения. Чтение/запись [`FillType`](../filltype). |
+| [FillType](../../aspose.slides/fillformat/filltype) { get; set; } | Возвращает или задает тип заливки. Чтение/запись [`FillType`](../filltype). |
 | [GradientFormat](../../aspose.slides/fillformat/gradientformat) { get; } | Возвращает формат градиентной заливки. Только для чтения [`IGradientFormat`](../igradientformat). |
-| [PatternFormat](../../aspose.slides/fillformat/patternformat) { get; } | Возвращает формат шаблонной заливки. Только для чтения [`IPatternFormat`](../ipatternformat). |
+| [PatternFormat](../../aspose.slides/fillformat/patternformat) { get; } | Возвращает формат заливки узором. Только для чтения [`IPatternFormat`](../ipatternformat). |
 | [PictureFillFormat](../../aspose.slides/fillformat/picturefillformat) { get; } | Возвращает формат заливки изображением. Только для чтения [`IPictureFillFormat`](../ipicturefillformat). |
 | [RotateWithShape](../../aspose.slides/fillformat/rotatewithshape) { get; set; } | Определяет, должна ли заливка вращаться вместе с фигурой. Чтение/запись [`NullableBool`](../nullablebool). |
 | [SolidFillColor](../../aspose.slides/fillformat/solidfillcolor) { get; } | Возвращает цвет заливки. Только для чтения [`IColorFormat`](../icolorformat). |
 
 ## Методы
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Сравнивает с указанным объектом. |
-| [GetEffective](../../aspose.slides/fillformat/geteffective)() | Получает эффективные данные форматирования заливки с учётом наследования. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает код хэша. |
+| [GetEffective](../../aspose.slides/fillformat/geteffective)() | Получает эффективные данные форматирования заливки с применённым наследованием. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает хэш-код. |
 
 ### См. также
 

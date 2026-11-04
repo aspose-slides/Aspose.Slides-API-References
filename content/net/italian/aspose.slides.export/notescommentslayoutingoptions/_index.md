@@ -1,14 +1,14 @@
 ---
 title: NotesCommentsLayoutingOptions
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Fornisce opzioni che controllano l'aspetto del layout di note e commenti nel documento esportato.
+second_title: Aspose.Sildes per .NET - Riferimento API
+description: Fornisce le opzioni che controllano l'aspetto del layout di note e commenti nel documento esportato.
 type: docs
-weight: 4290
+weight: 4310
 url: /it/aspose.slides.export/notescommentslayoutingoptions/
 ---
 ## NotesCommentsLayoutingOptions classe
 
-Fornisce opzioni che controllano l'aspetto del layout di note e commenti nel documento esportato.
+Fornisce le opzioni che controllano l'aspetto del layout di note e commenti nel documento esportato.
 
 ```csharp
 public class NotesCommentsLayoutingOptions : ISlidesLayoutOptions
@@ -28,7 +28,7 @@ public class NotesCommentsLayoutingOptions : ISlidesLayoutOptions
 | [CommentsAreaWidth](../../aspose.slides.export/notescommentslayoutingoptions/commentsareawidth) { get; set; } | Ottiene o imposta la larghezza dell'area di output dei commenti in pixel (vale solo se i commenti sono visualizzati a destra). |
 | [CommentsPosition](../../aspose.slides.export/notescommentslayoutingoptions/commentsposition) { get; set; } | Ottiene o imposta la posizione dei commenti nella pagina. |
 | [NotesPosition](../../aspose.slides.export/notescommentslayoutingoptions/notesposition) { get; set; } | Ottiene o imposta la posizione delle note nella pagina. |
-| [ShowCommentsByNoAuthor](../../aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | Ottiene o imposta la visibilità dei commenti che non hanno un autore. Se vero, i commenti saranno visualizzati. (Vale solo se i commenti sono visualizzati). |
+| [ShowCommentsByNoAuthor](../../aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | Ottiene o imposta la visibilità dei commenti che non hanno un autore. Se true, i commenti verranno visualizzati. (vale solo se i commenti sono visualizzati). |
 
 ### Vedi anche
 

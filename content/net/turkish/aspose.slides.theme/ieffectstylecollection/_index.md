@@ -1,14 +1,14 @@
 ---
 title: IEffectStyleCollection
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Efekt stillerinin bir koleksiyonunu temsil eder.
 type: docs
-weight: 11180
+weight: 11200
 url: /tr/aspose.slides.theme/ieffectstylecollection/
 ---
 ## IEffectStyleCollection arayüz
 
-Efekt stillerinin bir koleksiyonunu temsil eder.
+Represents a collection of effect styles.
 
 ```csharp
 public interface IEffectStyleCollection : IGenericCollection<IEffectStyle>
@@ -18,9 +18,9 @@ public interface IEffectStyleCollection : IGenericCollection<IEffectStyle>
 
 | Ad | Açıklama |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ieffectstylecollection/item) { get; } | Belirtilen konumdaki bir öğeyi döndürür. Yalnızca okunabilir [`IEffectStyle`](../ieffectstyle). |
+| [Item](../../aspose.slides.theme/ieffectstylecollection/item) { get; } | Belirtilen konumdaki bir öğeyi döndürür. Yalnızca okuma [`IEffectStyle`](../ieffectstyle). |
 
-### İlgili
+### Ayrıca Bakınız
 
 * arayüz [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * arayüz [IEffectStyle](../ieffectstyle)

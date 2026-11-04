@@ -1,25 +1,25 @@
 ---
 title: CrossesType
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Xác định nơi trục sẽ giao nhau.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Xác định nơi trục sẽ cắt.
 type: docs
-weight: 1540
+weight: 1550
 url: /vi/aspose.slides.charts/crossestype/
 ---
-## Liệt kê CrossesType
+## CrossesType liệt kê
 
-Xác định nơi trục sẽ giao nhau.
+Xác định nơi trục sẽ cắt.
 
 ```csharp
 public enum CrossesType
 ```
 
-### Các giá trị
+### Giá trị
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| AxisCrossesAtZero | `0` | Trục danh mục giao tại điểm không của trục giá trị (nếu có thể), hoặc giá trị tối thiểu (nếu giá trị tối thiểu lớn hơn không) hoặc giá trị tối đa (nếu giá trị tối đa nhỏ hơn không). |
-| Maximum | `1` | Trục giao tại giá trị tối đa. |
+| AxisCrossesAtZero | `0` | Trục danh mục cắt tại điểm zero của trục giá trị (nếu có thể), hoặc giá trị tối thiểu (nếu giá trị tối thiểu lớn hơn zero) hoặc giá trị tối đa (nếu giá trị tối đa nhỏ hơn zero). |
+| Maximum | `1` | Trục cắt tại giá trị tối đa. |
 | Custom | `2` | Giá trị tùy chỉnh từ thuộc tính CrossAt |
 
 ### Xem thêm

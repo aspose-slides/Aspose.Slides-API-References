@@ -1,14 +1,14 @@
 ---
 title: SetRange
-second_title: Referência da API Aspose.Sildes para .NET
-description: Define o intervalo de dados do gráfico. Series e categorias serão atualizadas com base no novo intervalo de dados. Se a quantidade de Series no intervalo de dados for maior que a contagem de Series nos dados do gráfico, então Series adicionais com o mesmo tipo da última Series na coleção atual serão adicionadas ao final da coleção.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Definir intervalo de dados do gráfico. Séries e categorias serão atualizadas com base no novo intervalo de dados. Se a quantidade de séries no intervalo de dados for maior que a contagem de séries nos dados do gráfico, então séries adicionais com o mesmo tipo da última série na coleção atual serão adicionadas ao final da coleção.
 type: docs
-weight: 130
+weight: 140
 url: /pt/aspose.slides.charts/chartdata/setrange/
 ---
 ## ChartData.SetRange método
 
-Definir o intervalo de dados do gráfico. Series e categorias serão atualizadas com base no novo intervalo de dados. Se a quantidade de Series no intervalo de dados for maior que a contagem de Series nos dados do gráfico, então Series adicionais com o mesmo tipo da última Series na coleção atual serão adicionadas ao final da coleção.
+Define o intervalo de dados do gráfico. Series e categorias serão atualizadas com base no novo intervalo de dados. Se a quantidade de series no intervalo de dados for maior que a contagem de series nos dados do gráfico, então series adicionais com o mesmo tipo da última series na coleção atual serão adicionadas ao final da coleção.
 
 ```csharp
 public void SetRange(string formula)
@@ -16,17 +16,17 @@ public void SetRange(string formula)
 
 | Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
-| formula | String | A fórmula do intervalo de dados das células. Ex.: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
+| formula | String | A fórmula de intervalo de dados das células. Ex.: "Sheet1!$A$1:$C$4", "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
 
 ### Exceções
 
 | exceção | condição |
 | --- | --- |
-| ArgumentNullException | a fórmula é nula. |
+| ArgumentNullException | formula é nula. |
 | InvalidOperationException | Tipo de gráfico não suportado |
-| ArgumentException | a fórmula tem formato incorreto. |
+| ArgumentException | formula tem formato incorreto. |
 
-### Ver Também
+### Veja Também
 
 * classe [ChartData](../../chartdata)
 * namespace [Aspose.Slides.Charts](../../chartdata)

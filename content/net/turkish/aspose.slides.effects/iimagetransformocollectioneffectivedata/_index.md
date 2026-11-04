@@ -1,14 +1,14 @@
 ---
 title: IImageTransformOCollectionEffectiveData
-second_title: Aspose.Sildes for .NET API Referansı
-description: Değiştirilemez nesne, etkili resim dönüşüm etkilerinin salt okunur bir koleksiyonunu temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Etkili görüntü dönüşüm efektlerinin salt okunur bir koleksiyonunu temsil eden değişmez nesne.
 type: docs
-weight: 3380
+weight: 3400
 url: /tr/aspose.slides.effects/iimagetransformocollectioneffectivedata/
 ---
 ## IImageTransformOCollectionEffectiveData arayüz
 
-Değiştirilemez nesne, yalnızca okunabilir etkilenen resim dönüşüm etkilerinin koleksiyonunu temsil eder.
+Etkili görüntü dönüşüm efektlerinin salt okunur bir koleksiyonunu temsil eden değişmez nesne.
 
 ```csharp
 public interface IImageTransformOCollectionEffectiveData : IGenericCollection<IEffectEffectiveData>
@@ -18,11 +18,11 @@ public interface IImageTransformOCollectionEffectiveData : IGenericCollection<IE
 
 | Ad | Açıklama |
 | --- | --- |
-| [Item](../../aspose.slides.effects/iimagetransformocollectioneffectivedata/item) { get; } | İndekse göre öğeyi döndürür. |
+| [Item](../../aspose.slides.effects/iimagetransformocollectioneffectivedata/item) { get; } | İndeks ile öğeyi döndürür. |
 
 ### Açıklamalar
 
-IImageTransformOperationCollectionEffectiveData adı, COM ad uzunluğu 39 karakteri aşamayacağından dolayı IImageTransformOCollectionEffectiveData olarak kısaltıldı.
+İsim IImageTransformOperationCollectionEffectiveData, COM isim uzunluğu 39'dan fazla olamayacağı için IImageTransformOCollectionEffectiveData olarak kesildi.
 
 ### Diğer Bağlantılar
 

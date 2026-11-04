@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlide
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示講義的母投影片。
+description: 表示列印講義的主投影片。
 type: docs
-weight: 6350
+weight: 6370
 url: /zh-hant/aspose.slides/imasterhandoutslide/
 ---
 ## IMasterHandoutSlide 介面
 
-表示講義的母投影片。
+表示列印講義的主投影片。
 
 ```csharp
 public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
@@ -16,14 +16,14 @@ public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
 
 ## 屬性
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | 允許取得基礎 IBaseSlide 介面。唯讀 [`IBaseSlide`](../ibaseslide). |
-| [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | 傳回 IMasterThemeable 介面。唯讀 [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [DrawingGuides](../../aspose.slides/imasterhandoutslide/drawingguides) { get; } | 傳回 master handout slide 的繪圖導引集合。唯讀 [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | 傳回 master handout slide 的 HeaderFooter 管理員。唯讀 [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
+| [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | 允許取得基礎 IBaseSlide 介面。唯讀 [`IBaseSlide`](../ibaseslide)。 |
+| [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | 返回 IMasterThemeable 介面。唯讀 [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable)。 |
+| [DrawingGuides](../../aspose.slides/imasterhandoutslide/drawingguides) { get; } | 返回主列印講義投影片的繪製參考線集合。唯讀 [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | 返回主列印講義投影片的 HeaderFooter 管理器。唯讀 [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager)。 |
 
-### 另請參閱
+### 參見
 
 * 介面 [IBaseSlide](../ibaseslide)
 * 介面 [IMasterThemeable](../../aspose.slides.theme/imasterthemeable)

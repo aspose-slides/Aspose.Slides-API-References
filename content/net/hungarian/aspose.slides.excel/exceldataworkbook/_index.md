@@ -1,9 +1,9 @@
 ---
 title: ExcelDataWorkbook
-second_title: Aspose.Sildes .NET API referenciája
-description: Egy munkafüzetet jelöl, amely általános felhasználásra hozzáférést biztosít az Excel adatokhoz.
+second_title: Aspose.Sildes .NET API referencia
+description: Egy munkafüzetet képvisel, amely általános felhasználásra hozzáférést biztosít az Excel adatokhoz.
 type: docs
-weight: 3690
+weight: 3710
 url: /hu/aspose.slides.excel/exceldataworkbook/
 ---
 ## ExcelDataWorkbook osztály
@@ -18,20 +18,20 @@ public class ExcelDataWorkbook : IExcelDataWorkbook
 
 | Név | Leírás |
 | --- | --- |
-| [ExcelDataWorkbook](exceldataworkbook#constructor)(Stream) | Inicializál egy új példányt az osztályból a megadott adatfolyam használatával. |
-| [ExcelDataWorkbook](exceldataworkbook#constructor_1)(string) | Inicializál egy új példányt a megadott fájlútvonal használatával. |
+| [ExcelDataWorkbook](exceldataworkbook#constructor)(Stream) | Új példányt hoz létre az osztályból a megadott adatfolyam használatával. |
+| [ExcelDataWorkbook](exceldataworkbook#constructor_1)(string) | Új példányt hoz létre a megadott fájlútvonal használatával. |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_1)(int, string) | Lekéri a megadott munkalap celláját az indexe és az Excel-stílusú cellanév (például "B2") alapján. |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_3)(string, string) | Lekéri a megadott munkalap celláját az Excel-stílusú cellanév (például "B2") alapján. |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell)(int, int, int) | Lekéri a megadott munkalap celláját az indexe és a cellakoordináták alapján. |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_2)(string, int, int) | Lekéri a megadott munkalap celláját a neve és a cellakoordináták alapján. |
-| [GetCells](../../aspose.slides.excel/exceldataworkbook/getcells)(string, bool) | Lekéri a munkafüzetből a megadott képletnek megfelelő cellák gyűjteményét. |
-| [GetChartsFromWorksheet](../../aspose.slides.excel/exceldataworkbook/getchartsfromworksheet)(string) | Lekéri egy szótárat, amely tartalmazza az adott Excel munkafüzet megadott munkalapjában lévő összes diagram indexeit és neveit. |
-| [GetWorksheetNames](../../aspose.slides.excel/exceldataworkbook/getworksheetnames)() | Lekéri az Excel munkafüzetben található összes munkalap nevét. |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_1)(int, string) | Lekéri egy cellát a megadott munkalapból a index és az Excel-stílusú cellanév (például "B2") használatával. |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_3)(string, string) | Lekéri egy cellát a megadott munkalapból Excel-stílusú cellanév (például "B2") használatával. |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell)(int, int, int) | Lekéri egy cellát a megadott munkalapból a index és a cella koordináták használatával. |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_2)(string, int, int) | Lekéri egy cellát a megadott munkalapból a név és a cella koordináták használatával. |
+| [GetCells](../../aspose.slides.excel/exceldataworkbook/getcells)(string, bool) | Lekér egy cellagyűjteményt a munkafüzetből, amely megfelel a megadott képletnek. |
+| [GetChartsFromWorksheet](../../aspose.slides.excel/exceldataworkbook/getchartsfromworksheet)(string) | Lekér egy szótárt, amely tartalmazza az adott Excel munkalap minden diagramjának indexeit és nevét. |
+| [GetWorksheetNames](../../aspose.slides.excel/exceldataworkbook/getworksheetnames)() | Lekér az Excel munkafüzetben található összes munkalap nevét. |
 
 ### Lásd még
 

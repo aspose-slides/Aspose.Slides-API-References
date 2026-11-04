@@ -1,9 +1,9 @@
 ---
 title: TextCapType
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 텍스트 대문자화 유형을 나타냅니다.
 type: docs
-weight: 10930
+weight: 10950
 url: /ko/aspose.slides/textcaptype/
 ---
 ## TextCapType 열거형
@@ -23,7 +23,7 @@ public enum TextCapType : sbyte
 | Small | `1` |  |
 | All | `2` |  |
 
-### 또 보기
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

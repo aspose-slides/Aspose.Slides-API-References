@@ -1,20 +1,20 @@
 ---
 title: Width
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir başlığın genişliğini, grafiğin genişliğinin bir kesri olarak döndürür veya ayarlar. Okunur/Yazılabilir Single.
+description: Başlığın genişliğini, grafiğin genişliğinin bir kesri olarak döndürür veya ayarlar. Okunur/Yazılabilir Single.
 type: docs
-weight: 150
+weight: 160
 url: /tr/aspose.slides.charts/datalabel/width/
 ---
 ## DataLabel.Width özelliği
 
-Bir başlığın genişliğini, grafiğin genişliğinin bir kesri olarak döndürür veya ayarlar. Okunur/Yazılabilir Single.
+Başlığın genişliğini, grafiğin genişliğinin bir kesri olarak döndürür veya ayarlar. Okunur/Yazılabilir Single.
 
 ```csharp
 public float Width { get; set; }
 ```
 
-### Ayrıca
+### Ayrıca Bakınız
 
 * sınıf [DataLabel](../../datalabel)
 * ad alanı [Aspose.Slides.Charts](../../datalabel)

@@ -1,12 +1,12 @@
 ---
 title: IInkBrush
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: İz fırçasını temsil eder.
 type: docs
-weight: 7530
+weight: 7550
 url: /tr/aspose.slides.ink/iinkbrush/
 ---
-## IInkBrush arayüzü
+## IInkBrush arayüz
 
 İz fırçasını temsil eder.
 
@@ -18,8 +18,8 @@ public interface IInkBrush
 
 | Ad | Açıklama |
 | --- | --- |
-| [Color](../../aspose.slides.ink/iinkbrush/color) { get; set; } | Bir satırın fırça rengini alır veya ayarlar. |
-| [InkEffect](../../aspose.slides.ink/iinkbrush/inkeffect) { get; } | Mürekkep darbesinin görsel stilini tanımlayan mürekkep efekti türünü (ör. Galaxy, Gold, Silver) alır. Değer, fırça özelliği “inkEffects” üzerinden ayrıştırılır. Tanınan bir efekt belirtilmemişse NotDefined döndürülür. |
+| [Color](../../aspose.slides.ink/iinkbrush/color) { get; set; } | Bir satır için fırça rengini alır veya ayarlar. |
+| [InkEffect](../../aspose.slides.ink/iinkbrush/inkeffect) { get; } | Mürekkep darbelerinin görsel stilini tanımlayan mürekkep efekt tipini alır (ör. Galaxy, Gold, Silver). Değer, fırça özelliği "inkEffects"den ayrıştırılır. Tanınan bir efekt belirtilmemişse, NotDefined döndürülür. |
 | [Size](../../aspose.slides.ink/iinkbrush/size) { get; set; } | Bir satır için fırça boyutunu puan cinsinden alır veya ayarlar. |
 
 ### Ayrıca Bakınız

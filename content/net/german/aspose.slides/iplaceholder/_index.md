@@ -3,10 +3,10 @@ title: IPlaceholder
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt einen Platzhalter auf einer Folie dar.
 type: docs
-weight: 6690
+weight: 6710
 url: /de/aspose.slides/iplaceholder/
 ---
-## IPlaceholder Schnittstelle
+## Schnittstelle IPlaceholder
 
 Stellt einen Platzhalter auf einer Folie dar.
 
@@ -19,7 +19,7 @@ public interface IPlaceholder
 | Name | Beschreibung |
 | --- | --- |
 | [Index](../../aspose.slides/iplaceholder/index) { get; } | Ruft den Index eines Platzhalters ab. Nur lesbar UInt32. |
-| [Orientation](../../aspose.slides/iplaceholder/orientation) { get; } | Ruft die Ausrichtung eines Platzhalters ab. Nur lesbar [`Orientation`](../orientation). |
+| [Orientation](../../aspose.slides/iplaceholder/orientation) { get; } | Ruft die Orientierung eines Platzhalters ab. Nur lesbar [`Orientation`](../orientation). |
 | [Size](../../aspose.slides/iplaceholder/size) { get; } | Ruft die Größe eines Platzhalters ab. Nur lesbar [`PlaceholderSize`](../placeholdersize). |
 | [Type](../../aspose.slides/iplaceholder/type) { get; } | Ruft den Typ eines Platzhalters ab. Nur lesbar [`PlaceholderType`](../placeholdertype). |
 

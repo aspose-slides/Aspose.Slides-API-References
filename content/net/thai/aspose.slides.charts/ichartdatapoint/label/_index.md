@@ -1,14 +1,14 @@
 ---
 title: Label
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: แสดงถึงป้ายของจุดข้อมูลแผนภูมิ. Read-only IDataLabelaspose.slides.charts/idatalabel.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงถึงป้ายกำกับของจุดข้อมูลแผนภูมิ. อ่านอย่างเดียว IDataLabelaspose.slides.charts/idatalabel.
 type: docs
-weight: 110
+weight: 150
 url: /th/aspose.slides.charts/ichartdatapoint/label/
 ---
 ## IChartDataPoint.Label คุณสมบัติ
 
-แสดงถึงป้ายของจุดข้อมูลแผนภูมิ. Read-only [`IDataLabel`](../../idatalabel).
+แสดงถึงป้ายกำกับของจุดข้อมูลแผนภูมิ. อ่านอย่างเดียว [`IDataLabel`](../../idatalabel).
 
 ```csharp
 public IDataLabel Label { get; }

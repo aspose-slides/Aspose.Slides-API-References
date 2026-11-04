@@ -1,14 +1,14 @@
 ---
 title: NormalViewRestoredProperties
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Especifica el dimensionado de la región de la diapositiva ancho cuando es hijo de RestoredTop altura cuando es hijo de RestoredLeft de la vista normal cuando la región tiene un tamaño restaurado variable (ni minimizado ni maximizado).
+second_title: Aspose.Sildes para la referencia de API de .NET
+description: Especifica el dimensionamiento de la región de la diapositiva ancho cuando es hijo de restoredTop alto cuando es hijo de restoredLeft de la vista normal cuando la región tiene un tamaño restaurado variable, ni minimizado ni maximizado.
 type: docs
-weight: 9120
+weight: 9140
 url: /es/aspose.slides/normalviewrestoredproperties/
 ---
 ## NormalViewRestoredProperties clase
 
-Especifica el dimensionado de la región de la diapositiva (ancho cuando es hijo de RestoredTop, alto cuando es hijo de RestoredLeft) de la vista normal, cuando la región tiene un tamaño restaurado variable (ni minimizado ni maximizado).
+Especifica el dimensionamiento de la región de la diapositiva ((ancho cuando es hijo de restoredTop, alto cuando es hijo de restoredLeft) de la vista normal, cuando la región tiene un tamaño restaurado variable (ni minimizado ni maximizado).
 
 ```csharp
 public class NormalViewRestoredProperties : INormalViewRestoredProperties

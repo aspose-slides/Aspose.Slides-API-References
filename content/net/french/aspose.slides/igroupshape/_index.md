@@ -3,7 +3,7 @@ title: IGroupShape
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente un groupe de formes sur une diapositive.
 type: docs
-weight: 6080
+weight: 6100
 url: /fr/aspose.slides/igroupshape/
 ---
 ## IGroupShape interface
@@ -18,7 +18,7 @@ public interface IGroupShape : IShape
 
 | Nom | Description |
 | --- | --- |
-| [AsIShape](../../aspose.slides/igroupshape/asishape) { get; } | Permet d'obtenir l'interface IShape de base. Lecture seule [`IShape`](../ishape). |
+| [AsIShape](../../aspose.slides/igroupshape/asishape) { get; } | Permet d'obtenir l'interface de base IShape. Lecture seule [`IShape`](../ishape). |
 | [GroupShapeLock](../../aspose.slides/igroupshape/groupshapelock) { get; } | Renvoie les verrous de la forme. Lecture seule [`IGroupShapeLock`](../igroupshapelock). |
 | [ShapeLock](../../aspose.slides/igroupshape/shapelock) { get; } | Renvoie les verrous de la forme. Lecture seule [`IGroupShapeLock`](../igroupshapelock). |
 | [Shapes](../../aspose.slides/igroupshape/shapes) { get; } | Renvoie la collection de formes à l'intérieur du groupe. Lecture seule [`IShapeCollection`](../ishapecollection). |

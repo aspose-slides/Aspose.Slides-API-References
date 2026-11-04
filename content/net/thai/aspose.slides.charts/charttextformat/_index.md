@@ -1,9 +1,9 @@
 ---
 title: ChartTextFormat
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
 description: ระบุการจัดรูปแบบข้อความเริ่มต้นสำหรับองค์ประกอบข้อความของแผนภูมิ
 type: docs
-weight: 1480
+weight: 1490
 url: /th/aspose.slides.charts/charttextformat/
 ---
 ## ChartTextFormat คลาส
@@ -16,18 +16,18 @@ public class ChartTextFormat : IChartTextFormat
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| ชื่อ | รายละเอียด |
 | --- | --- |
 | [ParagraphFormat](../../aspose.slides.charts/charttextformat/paragraphformat) { get; } | ParagraphFormat. อ่านอย่างเดียว [`IChartParagraphFormat`](../ichartparagraphformat). |
 | [PortionFormat](../../aspose.slides.charts/charttextformat/portionformat) { get; } | PortionFormat. อ่านอย่างเดียว [`IChartPortionFormat`](../ichartportionformat). |
 | [TextBlockFormat](../../aspose.slides.charts/charttextformat/textblockformat) { get; } | TextBlockFormat. อ่านอย่างเดียว [`IChartTextBlockFormat`](../icharttextblockformat). |
 
-## เมธอด
+## วิธีการ
 
-| ชื่อ | คำอธิบาย |
+| ชื่อ | รายละเอียด |
 | --- | --- |
-| [CopyFrom](../../aspose.slides.charts/charttextformat/copyfrom)(ITextFrame) | คัดลอกการจัดรูปแบบข้อความจากเฟรมข้อความที่กำหนด |
-| [CopyTo](../../aspose.slides.charts/charttextformat/copyto)(ITextFrame) | คัดลอกการจัดรูปแบบข้อความไปยังเฟรมข้อความที่กำหนด |
+| [CopyFrom](../../aspose.slides.charts/charttextformat/copyfrom)(ITextFrame) | คัดลอกการจัดรูปแบบข้อความจากกรอบข้อความที่ระบุ. |
+| [CopyTo](../../aspose.slides.charts/charttextformat/copyto)(ITextFrame) | คัดลอกการจัดรูปแบบข้อความไปยังกรอบข้อความที่ระบุ. |
 
 ### ดูเพิ่มเติม
 

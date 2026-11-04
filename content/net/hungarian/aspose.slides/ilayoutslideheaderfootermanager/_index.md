@@ -1,14 +1,14 @@
 ---
 title: ILayoutSlideHeaderFooterManager
-second_title: Aspose.Sildes .NET API referenciakönyv
-description: Az a kezelő, amely a layout dia lábléc, dátum-idő és oldalszám helyőrzőinek, valamint az összes gyermek helyőrző viselkedését tartalmazza. A gyermek helyőrzők azt jelentik, hogy a helyőrzők a függő diákon találhatók. A függő diák a layout diát használják és tőle függenek.
+second_title: Aspose.Sildes for .NET API referencia
+description: Képviseli azt a menedzsert, amely a layout dia lábléc, dátum-idő és oldalszám helyőrzőinek, valamint az összes gyermek helyőrzőnek a viselkedését tartja. A gyermek helyőrzők olyan helyőrzőket jelentenek, amelyek a függő diákon vannak elhelyezve. A függő diák a layout diát használják és tőle függenek.
 type: docs
-weight: 6240
+weight: 6260
 url: /hu/aspose.slides/ilayoutslideheaderfootermanager/
 ---
 ## ILayoutSlideHeaderFooterManager interfész
 
-Az elrendezési dia lábléc-, dátum-idő- és oldalszám-helyőrzőinek, valamint az összes gyermek helyőrzőnek a viselkedését tartalmazó kezelőt képviseli. A gyermek helyőrzők azt jelentik, hogy a helyőrzők a függő diákon találhatók. A függő diák az elrendezési diát használják és tőle függenek.
+Represents manager which holds behavior of the layout slide footer, date-time, page number placeholders and all child placeholders. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide.
 
 ```csharp
 public interface ILayoutSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -24,16 +24,16 @@ public interface ILayoutSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 | Név | Leírás |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Beállítja a szöveget az elrendezési dia dátum-idő helyőrzőjében és az összes gyermek dátum-idő helyőrzőben. A gyermek helyőrzők azt jelentik, hogy a helyőrzők a függő diákon találhatók. A függő diák az elrendezési diát használják és tőle függenek. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Megváltoztatja az elrendezési dia dátum-idő helyőrzőjének és az összes gyermek dátum-idő helyőrző láthatóságát. A gyermek helyőrzők azt jelentik, hogy a helyőrzők a függő diákon találhatók. A függő diák az elrendezési diát használják és tőle függenek. |
-| [SetFooterAndChildFootersText](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | Beállítja a szöveget az elrendezési dia lábléc helyőrzőjében és az összes gyermek lábléc helyőrzőben. A gyermek helyőrzők azt jelentik, hogy a helyőrzők a függő diákon találhatók. A függő diák az elrendezési diát használják és tőle függenek. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Megváltoztatja az elrendezési dia lábléc helyőrzőjének és az összes gyermek lábléc helyőrző láthatóságát. A gyermek helyőrzők azt jelentik, hogy a helyőrzők a függő diákon találhatók. A függő diák a master slide-t használják és tőle függenek. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Megváltoztatja az elrendezési dia oldalszám helyőrzőjének és az összes gyermek oldalszám helyőrző láthatóságát. A gyermek helyőrzők azt jelentik, hogy a helyőrzők a függő diákon találhatók. A függő diák az elrendezési diát használják és tőle függenek. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Beállítja a szöveget a layout dia dátum-idő helyőrzőjébe, valamint az összes gyermek dátum-idő helyőrzőbe. A gyermek helyőrzők olyan helyőrzőket jelentenek, amelyek a függő diákon vannak elhelyezve. A függő diák a layout diát használják és tőle függenek. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Módosítja a layout dia dátum-idő helyőrző és az összes gyermek dátum-idő helyőrző láthatóságát. A gyermek helyőrzők olyan helyőrzőket jelentenek, amelyek a függő diákon vannak elhelyezve. A függő diák a layout diát használják és tőle függenek. |
+| [SetFooterAndChildFootersText](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | Beállítja a szöveget a layout dia lábléc helyőrzőjébe, valamint az összes gyermek lábléc helyőrzőbe. A gyermek helyőrzők olyan helyőrzőket jelentenek, amelyek a függő diákon vannak elhelyezve. A függő diák a layout diát használják és tőle függenek. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Módosítja a layout dia lábléc helyőrző és az összes gyermek lábléc helyőrző láthatóságát. A gyermek helyőrzők olyan helyőrzőket jelentenek, amelyek a függő diákon vannak elhelyezve. A függő diák a mester diát használják és tőle függenek. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Módosítja a layout dia oldalszám helyőrző és az összes gyermek oldalszám helyőrző láthatóságát. A gyermek helyőrzők olyan helyőrzőket jelentenek, amelyek a függő diákon vannak elhelyezve. A függő diák a layout diát használják és tőle függenek. |
 
 ### Lásd még
 
 * interfész [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
 * névtér [Aspose.Slides](../../aspose.slides)
-* összeállítás [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

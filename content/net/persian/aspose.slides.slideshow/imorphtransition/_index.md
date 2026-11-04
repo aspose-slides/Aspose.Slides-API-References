@@ -1,9 +1,9 @@
 ---
 title: IMorphTransition
-second_title: Aspose.Sildes برای .NET مرجع API
+second_title: Aspose.Sildes برای مرجع API .NET
 description: اثر انتقال اسلاید موجی.
 type: docs
-weight: 10130
+weight: 10150
 url: /fa/aspose.slides.slideshow/imorphtransition/
 ---
 ## IMorphTransition رابط
@@ -14,14 +14,14 @@ url: /fa/aspose.slides.slideshow/imorphtransition/
 public interface IMorphTransition : ITransitionValueBase
 ```
 
-## ویژگی‌ها
+## خواص
 
 | نام | توضیح |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/imorphtransition/asitransitionvaluebase) { get; } | اجازه می‌دهد رابط پایه ITransitionValueBase را دریافت کند. فقط خواندنی [`ITransitionValueBase`](../itransitionvaluebase). |
-| [MorphType](../../aspose.slides.slideshow/imorphtransition/morphtype) { get; set; } | نوع انتقال مورف. قابل خواندن/نوشتن [`TransitionMorphType`](../transitionmorphtype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/imorphtransition/asitransitionvaluebase) { get; } | اجازه می‌دهد رابط پایه ITransitionValueBase را به‌دست آورد. فقط‌خواندنی [`ITransitionValueBase`](../itransitionvaluebase). |
+| [MorphType](../../aspose.slides.slideshow/imorphtransition/morphtype) { get; set; } | نوع انتقال مورف. خواندنی/نوشتنی [`TransitionMorphType`](../transitionmorphtype). |
 
-### همچنین ببینید
+### موارد مرتبط
 
 * رابط [ITransitionValueBase](../itransitionvaluebase)
 * فضای نام [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

@@ -1,14 +1,14 @@
 ---
 title: TransitionSpeed
-second_title: Aspose.Sildes .NET API referencia
-description: Ábrázolja a tranzíció sebesség típusait.
+second_title: Aspose.Sildes a .NET API referencia
+description: Az átmenet sebességének típusait ábrázolja.
 type: docs
-weight: 10440
+weight: 10460
 url: /hu/aspose.slides.slideshow/transitionspeed/
 ---
-## TransitionSpeed enumeráció
+## TransitionSpeed felsorolás
 
-Ábrázolja a tranzíció sebesség típusait.
+Az átmenet sebességének típusait ábrázolja.
 
 ```csharp
 public enum TransitionSpeed
@@ -22,7 +22,7 @@ public enum TransitionSpeed
 | Medium | `1` |  |
 | Slow | `2` |  |
 
-### Lásd még
+### További hivatkozások
 
 * névtér [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * összeállítás [Aspose.Slides](../../)

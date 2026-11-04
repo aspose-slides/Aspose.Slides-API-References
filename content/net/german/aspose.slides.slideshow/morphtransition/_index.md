@@ -3,7 +3,7 @@ title: MorphTransition
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Ripple-Folienübergangseffekt.
 type: docs
-weight: 10250
+weight: 10270
 url: /de/aspose.slides.slideshow/morphtransition/
 ---
 ## MorphTransition Klasse
@@ -18,14 +18,14 @@ public class MorphTransition : TransitionValueBase, IMorphTransition
 
 | Name | Beschreibung |
 | --- | --- |
-| [MorphType](../../aspose.slides.slideshow/morphtransition/morphtype) { get; set; } | Typ der Morph-Übergangs. Lesen/Schreiben [`TransitionMorphType`](../transitionmorphtype). |
+| [MorphType](../../aspose.slides.slideshow/morphtransition/morphtype) { get; set; } | Typ des Morph-Übergangs. Lesen/Schreiben [`TransitionMorphType`](../transitionmorphtype). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bestimmt, ob die beiden TransitionValueBase-Instanzen gleich sind. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als Hash-Funktion für einen bestimmten Typ, geeignet für die Verwendung in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als Hashfunktion für einen bestimmten Typ, geeignet für den Einsatz in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle. |
 
 ### Siehe auch
 

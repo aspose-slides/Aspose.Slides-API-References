@@ -1,14 +1,14 @@
 ---
 title: SlideLayoutType
-second_title: Aspose.Sildes .NET API referencia
-description: A diaelrendezés típusát reprezentálja.
+second_title: Aspose.Sildes .NET API referenciája
+description: A diakialak típusát reprezentálja.
 type: docs
-weight: 9990
+weight: 10010
 url: /hu/aspose.slides/slidelayouttype/
 ---
-## SlideLayoutType enumeráció
+## SlideLayoutType felsorolás
 
-A diaelrendezés típusát reprezentálja.
+A diakialak típusát reprezentálja.
 
 ```csharp
 public enum SlideLayoutType : sbyte
@@ -18,7 +18,7 @@ public enum SlideLayoutType : sbyte
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Custom | `-1` | Egyedi |
+| Custom | `-1` | Egyéni |
 | Title | `0` | Cím |
 | Text | `1` | Szöveg |
 | TwoColumnText | `2` | Kétoszlopos szöveg |
@@ -27,8 +27,8 @@ public enum SlideLayoutType : sbyte
 | ChartAndText | `5` | Diagram és szöveg |
 | Diagram | `6` | Diagram |
 | Chart | `7` | Diagram |
-| TextAndClipArt | `8` | Szöveg és Clip Art |
-| ClipArtAndText | `9` | Clip Art és Szöveg |
+| TextAndClipArt | `8` | Szöveg és clip art |
+| ClipArtAndText | `9` | Clip art és szöveg |
 | TitleOnly | `10` | Csak cím |
 | Blank | `11` | Üres |
 | TextAndObject | `12` | Szöveg és objektum |
@@ -37,16 +37,16 @@ public enum SlideLayoutType : sbyte
 | TitleAndObject | `15` | Cím és objektum |
 | TextAndMedia | `16` | Szöveg és média |
 | MediaAndText | `17` | Média és szöveg |
-| ObjectOverText | `18` | Objektum a szöveg felett |
-| TextOverObject | `19` | Szöveg az objektum felett |
+| ObjectOverText | `18` | Objektum szöveg felett |
+| TextOverObject | `19` | Szöveg objektum felett |
 | TextAndTwoObjects | `20` | Szöveg és két objektum |
 | TwoObjectsAndText | `21` | Két objektum és szöveg |
-| TwoObjectsOverText | `22` | Két objektum a szöveg felett |
+| TwoObjectsOverText | `22` | Két objektum szöveg felett |
 | FourObjects | `23` | Négy objektum |
 | VerticalText | `24` | Függőleges szöveg |
-| ClipArtAndVerticalText | `25` | Clip Art és függőleges szöveg |
+| ClipArtAndVerticalText | `25` | Clip art és függőleges szöveg |
 | VerticalTitleAndText | `26` | Függőleges cím és szöveg |
-| VerticalTitleAndTextOverChart | `27` | Függőleges cím és szöveg a diagram felett |
+| VerticalTitleAndTextOverChart | `27` | Függőleges cím és szöveg diagram felett |
 | TwoObjects | `28` | Két objektum |
 | ObjectAndTwoObject | `29` | Objektum és két objektum |
 | TwoObjectsAndObject | `30` | Két objektum és objektum |

@@ -3,7 +3,7 @@ title: MathRadicalFactory
 second_title: Aspose.Sildes for .NET API 参考
 description: 允许创建数学根式
 type: docs
-weight: 8950
+weight: 8970
 url: /zh/aspose.slides.mathtext/mathradicalfactory/
 ---
 ## MathRadicalFactory 类
@@ -30,7 +30,7 @@ public class MathRadicalFactory : IMathRadicalFactory
 
 用于 COM 兼容性
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IMathRadicalFactory](../imathradicalfactory)
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

@@ -1,24 +1,24 @@
 ---
 title: Collect
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวแทนของกลุ่มเมธอดที่ออกแบบมาเพื่อรวบรวมวัตถุโมเดลประเภทต่าง ๆ จาก Presentation../aspose.slides/presentation.
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: แสดงถึงกลุ่มของเมธอดที่มีจุดประสงค์เพื่อเก็บวัตถุโมเดลหลายประเภทจาก Presentation../aspose.slides/presentation.
 type: docs
-weight: 7860
+weight: 7880
 url: /th/aspose.slides.lowcode/collect/
 ---
 ## Collect คลาส
 
-เป็นตัวแทนของกลุ่มเมธอดที่ออกแบบมาเพื่อรวบรวมวัตถุโมเดลประเภทต่างๆ จาก [`Presentation`](../../aspose.slides/presentation).
+แสดงถึงกลุ่มของเมธอดที่มีจุดประสงค์เพื่อเก็บวัตถุโมเดลหลายประเภทจาก [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public static class Collect
 ```
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| static [Shapes](../../aspose.slides.lowcode/collect/shapes)(Presentation) | รวบรวมทุกอินสแตนซ์ของ [`Shape`](../../aspose.slides/shape) ใน [`Presentation`](../../aspose.slides/presentation). |
+| static [Shapes](../../aspose.slides.lowcode/collect/shapes)(Presentation) | เก็บรวบรวมทุกอินสแตนซ์ของ [`Shape`](../../aspose.slides/shape) ใน [`Presentation`](../../aspose.slides/presentation). |
 
 ### ตัวอย่าง
 
@@ -27,7 +27,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     foreach (Shape shape in Collect.Shapes(pres))
     {
-        // ... เปลี่ยนการจัดรูปแบบรูปร่างหรือคุณสมบัติอื่นๆ
+        // ... เปลี่ยนการจัดรูปแบบของ shape หรือคุณสมบัติอื่น ๆ
     }
 }    
 ```

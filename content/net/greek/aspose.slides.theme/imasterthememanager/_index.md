@@ -1,14 +1,14 @@
 ---
 title: IMasterThemeManager
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Παρέχει πρόσβαση στο κύριο θέμα παρουσίασης.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Παρέχει πρόσβαση στο κύριο θέμα της παρουσίασης.
 type: docs
-weight: 11320
+weight: 11340
 url: /el/aspose.slides.theme/imasterthememanager/
 ---
 ## IMasterThemeManager διεπαφή
 
-Παρέχει πρόσβαση στο κύριο θέμα παρουσίασης.
+Παρέχει πρόσβαση στο κύριο θέμα της παρουσίασης.
 
 ```csharp
 public interface IMasterThemeManager : IThemeManager
@@ -18,9 +18,9 @@ public interface IMasterThemeManager : IThemeManager
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIThemeManager](../../aspose.slides.theme/imasterthememanager/asithememanager) { get; } | Επιτρέπει την απόκτηση της βασικής IThemeManager διεπαφής. Μόνο για ανάγνωση [`IThemeManager`](../ithememanager). |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/imasterthememanager/isoverridethemeenabled) { get; set; } | Καθορίζει εάν το OverrideTheme αντικαθιστά το κληρονομημένο αποτελεσματικό θέμα (Presentation.MasterTheme) ή όχι. Ανάγνωση/εγγραφή Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/imasterthememanager/overridetheme) { get; set; } | Επιστρέφει το αντικείμενο αντικαταστάτου θέματος. Ανάγνωση/εγγραφή [`IMasterTheme`](../imastertheme). |
+| [AsIThemeManager](../../aspose.slides.theme/imasterthememanager/asithememanager) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής IThemeManager. Μόνο για ανάγνωση [`IThemeManager`](../ithememanager). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/imasterthememanager/isoverridethemeenabled) { get; set; } | Καθορίζει εάν το OverrideTheme αντικαθιστά το κληρονομημένο ενεργό θέμα (Presentation.MasterTheme) ή όχι. Ανάγνωση/εγγραφή Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/imasterthememanager/overridetheme) { get; set; } | Επιστρέφει το αντικείμενο αντικατάστασης θέματος. Ανάγνωση/εγγραφή [`IMasterTheme`](../imastertheme). |
 
 ### Δείτε επίσης
 

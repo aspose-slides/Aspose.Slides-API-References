@@ -1,9 +1,9 @@
 ---
 title: Format
-second_title: Aspose.Slides için .NET API Referansı
-description: Biçimlendirme özelliklerini temsil eder. Okunur/Yazılabilir IFormataspose.slides.charts/iformat.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Biçimlendirme özelliklerini temsil eder. Okunur/yazılabilir IFormataspose.slides.charts/iformat.
 type: docs
-weight: 100
+weight: 140
 url: /tr/aspose.slides.charts/chartdatapoint/format/
 ---
 ## ChartDataPoint.Format özelliği

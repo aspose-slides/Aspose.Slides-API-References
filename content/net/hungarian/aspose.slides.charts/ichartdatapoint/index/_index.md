@@ -1,14 +1,14 @@
 ---
 title: Index
-second_title: Aspose.Sildes a .NET API referencia
-description: Meghatározza, hogy a szülő gyermekgyűjteményének melyik eleme vonatkozik erre az adatpontra. Olvasható UInt32.
+second_title: Aspose.Sildes .NET API-referencia
+description: Meghatározza, hogy a szülő gyermekgyűjteményének mely eleme vonatkozik erre az adatpontra. Olvasható UInt32.
 type: docs
-weight: 80
+weight: 120
 url: /hu/aspose.slides.charts/ichartdatapoint/index/
 ---
 ## IChartDataPoint.Index tulajdonság
 
-Meghatározza, hogy a szülő gyerekgyűjteményének melyik elemére vonatkozik ez az adatpont. Olvasható UInt32.
+Meghatározza, hogy a szülő gyermekgyűjteményének mely elemére vonatkozik ez az adatpont. Olvasható UInt32.
 
 ```csharp
 public uint Index { get; }

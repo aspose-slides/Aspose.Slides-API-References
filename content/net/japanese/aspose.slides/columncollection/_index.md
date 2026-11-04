@@ -1,9 +1,9 @@
 ---
 title: ColumnCollection
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: テーブル内の列のコレクションを表します。
 type: docs
-weight: 2600
+weight: 2620
 url: /ja/aspose.slides/columncollection/
 ---
 ## ColumnCollection クラス
@@ -18,22 +18,22 @@ public sealed class ColumnCollection : DomObject<RowCollection>, IColumnCollecti
 
 | 名前 | 説明 |
 | --- | --- |
-| [Count](../../aspose.slides/columncollection/count) { get; } | コレクション内の列数を返します。読み取り専用の Int32。 |
-| [IsSynchronized](../../aspose.slides/columncollection/issynchronized) { get; } | コレクションへのアクセスが同期化されているか（スレッドセーフ）を示す値を返します。読み取り専用の Boolean。 |
-| [Item](../../aspose.slides/columncollection/item) { get; } | 指定されたインデックスの列を返します。読み取り専用の [`Column`](../column)。 |
-| [SyncRoot](../../aspose.slides/columncollection/syncroot) { get; } | 同期ルートを返します。読み取り専用の Object。 |
+| [Count](../../aspose.slides/columncollection/count) { get; } | コレクション内の列の数を返します。読み取り専用 Int32。 |
+| [IsSynchronized](../../aspose.slides/columncollection/issynchronized) { get; } | コレクションへのアクセスが同期 (スレッド セーフ) されているかどうかを示す値を返します。読み取り専用 Boolean。 |
+| [Item](../../aspose.slides/columncollection/item) { get; } | 指定されたインデックスの列を返します。読み取り専用 [`Column`](../column)。 |
+| [SyncRoot](../../aspose.slides/columncollection/syncroot) { get; } | 同期ルートを返します。読み取り専用 Object。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [AddClone](../../aspose.slides/columncollection/addclone)(IColumn, bool) | 指定されたテンプレート行のコピーを作成し、テーブルの末尾に挿入します。 |
-| [CopyTo](../../aspose.slides/columncollection/copyto)(Array, int) | コレクションのすべての要素を指定された配列にコピーします。 |
-| [GetEnumerator](../../aspose.slides/columncollection/getenumerator)() | コレクションを反復する列挙子を返します。 |
+| [AddClone](../../aspose.slides/columncollection/addclone)(IColumn, bool) | 指定されたテンプレート行のコピーを作成し、テーブルの下部に挿入します。 |
+| [CopyTo](../../aspose.slides/columncollection/copyto)(Array, int) | コレクション内のすべての要素を指定された配列にコピーします。 |
+| [GetEnumerator](../../aspose.slides/columncollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
 | [InsertClone](../../aspose.slides/columncollection/insertclone)(int, IColumn, bool) | 指定されたテンプレート列のコピーを作成し、テーブルの指定位置に挿入します。 |
-| [RemoveAt](../../aspose.slides/columncollection/removeat)(int, bool) | テーブルの指定位置から列を削除します。 |
+| [RemoveAt](../../aspose.slides/columncollection/removeat)(int, bool) | テーブルの指定された位置から列を削除します。 |
 
-### 関連項目
+### 参照
 
 * クラス [DomObject&lt;TParent&gt;](../domobject-1)
 * クラス [RowCollection](../rowcollection)

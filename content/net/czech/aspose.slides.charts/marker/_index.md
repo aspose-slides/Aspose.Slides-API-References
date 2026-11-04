@@ -1,14 +1,14 @@
 ---
 title: Marker
-second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje značku grafu.
+second_title: Aspose.Sildes pro .NET referenční příručka API
+description: Representuje značku chertu.
 type: docs
-weight: 2330
+weight: 2350
 url: /cs/aspose.slides.charts/marker/
 ---
 ## Třída Marker
 
-Představuje značku grafu.
+Představuje značku chertu.
 
 ```csharp
 public class Marker : IMarker
@@ -18,9 +18,9 @@ public class Marker : IMarker
 
 | Název | Popis |
 | --- | --- |
-| [Format](../../aspose.slides.charts/marker/format) { get; } | Získává nebo nastavuje výplň značky. Pouze pro čtení [`IFormat`](../iformat). |
-| [Size](../../aspose.slides.charts/marker/size) { get; set; } | Představuje velikost značky v čárovém grafu, rozptylovém grafu nebo radarovém grafu. Čtení/Zápis Int32. |
-| [Symbol](../../aspose.slides.charts/marker/symbol) { get; set; } | Představuje styl značky v čárovém grafu, rozptylovém grafu nebo radarovém grafu. Čtení/Zápis [`MarkerStyleType`](../markerstyletype). |
+| [Format](../../aspose.slides.charts/marker/format) { get; } | Získá nebo nastaví výplň značky. Pouze ke čtení [`IFormat`](../iformat). |
+| [Size](../../aspose.slides.charts/marker/size) { get; set; } | Představuje velikost značky v čárovém grafu, scatter grafu nebo radarovém grafu. Čtení/zápis Int32. |
+| [Symbol](../../aspose.slides.charts/marker/symbol) { get; set; } | Představuje styl značky v čárovém grafu, scatter grafu nebo radarovém grafu. Čtení/zápis [`MarkerStyleType`](../markerstyletype). |
 
 ### Viz také
 

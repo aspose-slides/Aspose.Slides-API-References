@@ -1,14 +1,14 @@
 ---
 title: ZoomImageType
 second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Xác định xem đối tượng Zoom có đang sử dụng ảnh xem trước slide hay ảnh bìa hay không.
+description: Xác định xem đối tượng Zoom có đang sử dụng bản xem trước của slide hay hình ảnh bìa hay không.
 type: docs
-weight: 11850
+weight: 11870
 url: /vi/aspose.slides/zoomimagetype/
 ---
-## ZoomImageType enum
+## Kiểu liệt kê ZoomImageType
 
-Xác định xem đối tượng Zoom có đang sử dụng ảnh xem trước slide hay ảnh bìa hay không.
+Xác định xem đối tượng Zoom có đang sử dụng bản xem trước của slide hay hình ảnh bìa hay không.
 
 ```csharp
 public enum ZoomImageType
@@ -19,7 +19,7 @@ public enum ZoomImageType
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
 | Preview | `1` | Sử dụng hình ảnh của slide hoặc phần. |
-| Cover | `2` | Sử dụng ảnh tùy chỉnh. |
+| Cover | `2` | Sử dụng hình ảnh tùy chỉnh. |
 
 ### Xem thêm
 

@@ -3,12 +3,12 @@ title: X
 second_title: Aspose.Sildes for .NET API 참조
 description: 제목의 x 좌표를 차트 너비의 비율로 반환하거나 설정합니다. 읽기/쓰기 Single.
 type: docs
-weight: 160
+weight: 170
 url: /ko/aspose.slides.charts/datalabel/x/
 ---
 ## DataLabel.X 속성
 
-차트 너비의 비율로 제목의 x 좌표를 반환하거나 설정합니다. 읽기/쓰기 Single.
+제목의 x 좌표를 차트 너비의 비율로 반환하거나 설정합니다. 읽기/쓰기 Single.
 
 ```csharp
 public float X { get; set; }

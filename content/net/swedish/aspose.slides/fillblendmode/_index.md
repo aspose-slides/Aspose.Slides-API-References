@@ -3,10 +3,10 @@ title: FillBlendMode
 second_title: Aspose.Sildes för .NET API-referens
 description: Bestämmer blandningsläge.
 type: docs
-weight: 4770
+weight: 4790
 url: /sv/aspose.slides/fillblendmode/
 ---
-## FillBlendMode uppräkning
+## FillBlendMode enumeration
 
 Bestämmer blandningsläget.
 
@@ -24,7 +24,7 @@ public enum FillBlendMode
 | Overlay | `3` | Overlay blandningsläge. |
 | Screen | `4` | Screen blandningsläge. |
 
-### Se även
+### Se också
 
 * namnrymd [Aspose.Slides](../../aspose.slides)
 * samling [Aspose.Slides](../../)

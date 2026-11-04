@@ -1,9 +1,9 @@
 ---
 title: ReplaceRegex
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Sostituisce tutte le corrispondenze dell'espressione regolare con la stringa specificata.
 type: docs
-weight: 110
+weight: 120
 url: /it/aspose.slides/itextframe/replaceregex/
 ---
 ## ITextFrame.ReplaceRegex metodo
@@ -22,14 +22,14 @@ public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callba
 
 ### Esempi
 
-Il seguente esempio di codice mostra come sostituire il testo usando un'espressione regolare con la stringa specificata.
+Il seguente esempio di codice mostra come sostituire il testo usando l'espressione regolare con la stringa specificata.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// Sostituisci tutte le parole con 10 o più caratteri con '***'
+	// Sostituisce tutte le parole con 10 o più caratteri con '***'
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.ReplaceRegex(regex, "***", null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }

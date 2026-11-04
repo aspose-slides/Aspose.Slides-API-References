@@ -1,14 +1,14 @@
 ---
 title: PresentationText
-second_title: Aspose.Sildes a .NET API referenciája
-description: A prezentációból kinyert szöveget képviseli
+second_title: Aspose.Sildes .NET API referenciához
+description: A bemutatóból kinyert szöveget képviseli
 type: docs
-weight: 9640
+weight: 9660
 url: /hu/aspose.slides/presentationtext/
 ---
 ## PresentationText osztály
 
-A prezentációból kinyert szöveget képviseli
+A bemutatóból kinyert szöveget képviseli
 
 ```csharp
 public class PresentationText : IPresentationText
@@ -18,7 +18,7 @@ public class PresentationText : IPresentationText
 
 | Név | Leírás |
 | --- | --- |
-| [SlidesText](../../aspose.slides/presentationtext/slidestext) { get; } | A [`SlideText`](../islidetext) tömb tartalmazza a bemutató szövegét. |
+| [SlidesText](../../aspose.slides/presentationtext/slidestext) { get; } | [`SlideText`](../islidetext) tömbje tartalmazza a bemutató szövegét. |
 
 ### Lásd még
 
