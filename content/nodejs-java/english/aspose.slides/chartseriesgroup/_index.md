@@ -86,7 +86,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getGapDepth () | Returns or sets the distance, as a percentage of the marker width, between the data series in a 3D chart. Read/write int. |
+| getGapDepth () | Gets or sets the distance between data series in a 3D chart, as a percentage of the marker width. The value must be between 0 and 500. Read/write int. This property applies to series of the following types: 3D bar and column subtypes (see also ChartTypeCharacterizer#isBar3DChart(int) function), ChartType#Line3D, ChartType#Area3D, ChartType#StackedArea3D, ChartType#PercentsStackedArea3D. |
 
  **Returns:**
 int
@@ -99,7 +99,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getGapWidth () | Specifies the space between bar or column clusters, as a percentage of the bar or column width. Read/write int. |
+| getGapWidth () | Gets or sets the space between bar or column clusters, as a percentage of the bar or column width. The value must be between 0 and 500. Read/write int. This property applies to series of the following types: Bar subtypes (see also ChartTypeCharacterizer#isChartTypeBar(int) function), Column subtypes (see also ChartTypeCharacterizer#isChartTypeColumn(int) function), ChartType#BarOfPie, ChartType#PieOfPie, ChartType#BoxAndWhisker, ChartType#Funnel, ChartType#Histogram, ChartType#Waterfall. |
 
  **Returns:**
 int
@@ -238,7 +238,7 @@ ChartSeriesReadonlyCollection
 | getSlide () | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
 
  **Returns:**
-[LayoutSlide](../layoutslide), [MasterSlide](../masterslide), [MasterNotesSlide](../masternotesslide), [MasterHandoutSlide](../masterhandoutslide), [BaseSlide](../baseslide), [NotesSlide](../notesslide), [Slide](../slide)
+[MasterNotesSlide](../masternotesslide), [MasterHandoutSlide](../masterhandoutslide), [Slide](../slide), [NotesSlide](../notesslide), [MasterSlide](../masterslide), [BaseSlide](../baseslide), [LayoutSlide](../layoutslide)
 
 
 ---
@@ -363,7 +363,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setGapDepth (int) | Returns or sets the distance, as a percentage of the marker width, between the data series in a 3D chart. Read/write int. |
+| setGapDepth (int) | Gets or sets the distance between data series in a 3D chart, as a percentage of the marker width. The value must be between 0 and 500. Read/write int. This property applies to series of the following types: 3D bar and column subtypes (see also ChartTypeCharacterizer#isBar3DChart(int) function), ChartType#Line3D, ChartType#Area3D, ChartType#StackedArea3D, ChartType#PercentsStackedArea3D. |
 
 
 ---
@@ -373,7 +373,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setGapWidth (int) | Specifies the space between bar or column clusters, as a percentage of the bar or column width. Read/write int. |
+| setGapWidth (int) | Gets or sets the space between bar or column clusters, as a percentage of the bar or column width. The value must be between 0 and 500. Read/write int. This property applies to series of the following types: Bar subtypes (see also ChartTypeCharacterizer#isChartTypeBar(int) function), Column subtypes (see also ChartTypeCharacterizer#isChartTypeColumn(int) function), ChartType#BarOfPie, ChartType#PieOfPie, ChartType#BoxAndWhisker, ChartType#Funnel, ChartType#Histogram, ChartType#Waterfall. |
 
 
 ---

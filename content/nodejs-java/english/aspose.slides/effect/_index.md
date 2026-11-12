@@ -148,7 +148,7 @@ int
 | getTargetShape () | Returns target shape for effect. Read-only IShape. |
 
  **Returns:**
-[AutoShape](../autoshape), [GeometryShape](../geometryshape), [OleObjectFrame](../oleobjectframe), [GroupShape](../groupshape), [Connector](../connector), [GraphicalObject](../graphicalobject), [Ink](../ink), [InkActions](../inkactions), [PictureFrame](../pictureframe), [ZoomFrame](../zoomframe), [Table](../table), [LegacyDiagram](../legacydiagram), [ZoomObject](../zoomobject), [AudioFrame](../audioframe), [SummaryZoomSection](../summaryzoomsection), [VideoFrame](../videoframe), [SummaryZoomFrame](../summaryzoomframe), [Chart](../chart), [SmartArtShape](../smartartshape), [SmartArt](../smartart), [Shape](../shape), [SectionZoomFrame](../sectionzoomframe)
+[SectionZoomFrame](../sectionzoomframe), [SummaryZoomSection](../summaryzoomsection), [ZoomFrame](../zoomframe), [VideoFrame](../videoframe), [Chart](../chart), [ZoomObject](../zoomobject), [OleObjectFrame](../oleobjectframe), [LegacyDiagram](../legacydiagram), [GeometryShape](../geometryshape), [AutoShape](../autoshape), [SummaryZoomFrame](../summaryzoomframe), [GroupShape](../groupshape), [SmartArtShape](../smartartshape), [Connector](../connector), [Ink](../ink), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [AudioFrame](../audioframe), [Shape](../shape), [Table](../table), [InkActions](../inkactions), [SmartArt](../smartart)
 
 
 ---

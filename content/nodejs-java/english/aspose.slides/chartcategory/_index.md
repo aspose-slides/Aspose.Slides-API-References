@@ -37,6 +37,19 @@ Object
 ---
 
 
+### getCachedValue {#getCachedValue}
+
+| Name | Description |
+| --- | --- |
+| getCachedValue () | Gets the cached value of a chart category. Read-only ICachedChartValue. |
+
+ **Returns:**
+[CachedChartValue](../cachedchartvalue)
+
+
+---
+
+
 ### getGroupingLevels {#getGroupingLevels}
 
 | Name | Description |

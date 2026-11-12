@@ -70,6 +70,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [BuildVersionInfo](buildversioninfo) | Contains information about version of Aspose.Slides. |
 | [BulletFormat](bulletformat) | Represents paragraph bullet formatting properties. |
 | [BulletType](bullettype) | Represents the type of the extended bullets. |
+| [CachedChartValue](cachedchartvalue) | Represents a cached chart value (e.g., X, Y, bubble size, or the main value). |
 | [Camera](camera) | Represents Camera. |
 | [CameraPresetType](camerapresettype) | Constants which define camera preset type. |
 | [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception) | Exception which thrown when trying to combine 2D and 3D chart types. |

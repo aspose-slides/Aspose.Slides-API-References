@@ -166,6 +166,19 @@ float
 ---
 
 
+### getLabelShapeType {#getLabelShapeType}
+
+| Name | Description |
+| --- | --- |
+| getLabelShapeType () | Gets or sets the shape type of the data label. Returns ShapeType#NotDefined if no shape is defined. |
+
+ **Returns:**
+int
+
+
+---
+
+
 ### getPresentation {#getPresentation}
 
 | Name | Description |
@@ -199,7 +212,7 @@ float
 | getSlide () | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
 
  **Returns:**
-[LayoutSlide](../layoutslide), [MasterSlide](../masterslide), [MasterNotesSlide](../masternotesslide), [MasterHandoutSlide](../masterhandoutslide), [BaseSlide](../baseslide), [NotesSlide](../notesslide), [Slide](../slide)
+[MasterNotesSlide](../masternotesslide), [MasterHandoutSlide](../masterhandoutslide), [Slide](../slide), [NotesSlide](../notesslide), [MasterSlide](../masterslide), [BaseSlide](../baseslide), [LayoutSlide](../layoutslide)
 
 
 ---
@@ -311,6 +324,16 @@ boolean
 | Name | Description |
 | --- | --- |
 | setHeight (float) | Returns or sets the height of a title as a fraction of the height of the chart. Read/write float. |
+
+
+---
+
+
+### setLabelShapeType {#setLabelShapeType}
+
+| Name | Description |
+| --- | --- |
+| setLabelShapeType (int) | Gets or sets the shape type of the data label. Returns ShapeType#NotDefined if no shape is defined. |
 
 
 ---

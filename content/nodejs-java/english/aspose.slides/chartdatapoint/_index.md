@@ -89,6 +89,58 @@ Color
 ---
 
 
+### getCachedBubbleSize {#getCachedBubbleSize}
+
+| Name | Description |
+| --- | --- |
+| getCachedBubbleSize () | Gets the cached bubble size of a chart data point. Read-only ICachedChartValue. |
+
+ **Returns:**
+[CachedChartValue](../cachedchartvalue)
+
+
+---
+
+
+### getCachedValue {#getCachedValue}
+
+| Name | Description |
+| --- | --- |
+| getCachedValue () | Gets the cached value of a chart data point. Read-only ICachedChartValue. |
+
+ **Returns:**
+[CachedChartValue](../cachedchartvalue)
+
+
+---
+
+
+### getCachedXValue {#getCachedXValue}
+
+| Name | Description |
+| --- | --- |
+| getCachedXValue () | Gets the cached X value of a chart data point. Read-only ICachedChartValue. |
+
+ **Returns:**
+[CachedChartValue](../cachedchartvalue)
+
+
+---
+
+
+### getCachedYValue {#getCachedYValue}
+
+| Name | Description |
+| --- | --- |
+| getCachedYValue () | Gets the cached Y value of a chart data point. Read-only ICachedChartValue. |
+
+ **Returns:**
+[CachedChartValue](../cachedchartvalue)
+
+
+---
+
+
 ### getColorValue {#getColorValue}
 
 | Name | Description |

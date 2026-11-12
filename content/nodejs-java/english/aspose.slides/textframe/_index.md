@@ -57,7 +57,7 @@ url: /aspose.slides/textframe/
 | getParentShape () | Returns the parent shape or null if the parent object does not implement the IShape interface Read-only IShape. |
 
  **Returns:**
-[AutoShape](../autoshape), [GeometryShape](../geometryshape), [OleObjectFrame](../oleobjectframe), [GroupShape](../groupshape), [Connector](../connector), [GraphicalObject](../graphicalobject), [Ink](../ink), [InkActions](../inkactions), [PictureFrame](../pictureframe), [ZoomFrame](../zoomframe), [Table](../table), [LegacyDiagram](../legacydiagram), [ZoomObject](../zoomobject), [AudioFrame](../audioframe), [SummaryZoomSection](../summaryzoomsection), [VideoFrame](../videoframe), [SummaryZoomFrame](../summaryzoomframe), [Chart](../chart), [SmartArtShape](../smartartshape), [SmartArt](../smartart), [Shape](../shape), [SectionZoomFrame](../sectionzoomframe)
+[SectionZoomFrame](../sectionzoomframe), [SummaryZoomSection](../summaryzoomsection), [ZoomFrame](../zoomframe), [VideoFrame](../videoframe), [Chart](../chart), [ZoomObject](../zoomobject), [OleObjectFrame](../oleobjectframe), [LegacyDiagram](../legacydiagram), [GeometryShape](../geometryshape), [AutoShape](../autoshape), [SummaryZoomFrame](../summaryzoomframe), [GroupShape](../groupshape), [SmartArtShape](../smartartshape), [Connector](../connector), [Ink](../ink), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [AudioFrame](../audioframe), [Shape](../shape), [Table](../table), [InkActions](../inkactions), [SmartArt](../smartart)
 
 
 ---
@@ -83,7 +83,7 @@ url: /aspose.slides/textframe/
 | getSlide () | Returns the parent slide of a TextFrame. Read-only IBaseSlide. |
 
  **Returns:**
-[LayoutSlide](../layoutslide), [MasterSlide](../masterslide), [MasterNotesSlide](../masternotesslide), [MasterHandoutSlide](../masterhandoutslide), [BaseSlide](../baseslide), [NotesSlide](../notesslide), [Slide](../slide)
+[MasterNotesSlide](../masternotesslide), [MasterHandoutSlide](../masterhandoutslide), [Slide](../slide), [NotesSlide](../notesslide), [MasterSlide](../masterslide), [BaseSlide](../baseslide), [LayoutSlide](../layoutslide)
 
 
 ---
@@ -110,6 +110,25 @@ String
 
  **Returns:**
 [TextFrameFormat](../textframeformat)
+
+
+---
+
+
+### getTextRect {#getTextRect}
+
+| Name | Description |
+| --- | --- |
+| getTextRect () | Gets the text rectangle defined by the geometry of the parent shape. |
+
+ **Returns:**
+Rectangle2D.Float
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | The text frame is not associated with a geometry shape. The rectangle coordinates are relative to the top-left corner of the parent shape. |
 
 
 ---

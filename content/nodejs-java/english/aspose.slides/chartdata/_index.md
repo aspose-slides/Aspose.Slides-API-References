@@ -166,6 +166,22 @@ byte
 ---
 
 
+### refreshData {#refreshData}
+
+| Name | Description |
+| --- | --- |
+| refreshData () | Refreshes the chart data by reloading it from the source workbook. |
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Thrown when the workbook format is not supported, or when {@code DataSourceType}( #getDataSourceType) is ChartDataSourceType#ExternalWorkbook and the external workbook cannot be accessed or loaded. If the chart uses an external workbook, the workbook must be accessible at the time of the call. |
+
+
+---
+
+
 ### setExternalWorkbook {#setExternalWorkbook}
 
 | Name | Description |

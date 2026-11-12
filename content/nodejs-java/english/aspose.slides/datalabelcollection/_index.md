@@ -63,6 +63,19 @@ int
 ---
 
 
+### getDefaultLabelShapeType {#getDefaultLabelShapeType}
+
+| Name | Description |
+| --- | --- |
+| getDefaultLabelShapeType () | Gets or sets the default shape type for data labels. Returns ShapeType#NotDefined if no shape is defined. Setting this property also sets the IDataLabel.LabelShapeType( IDataLabel#getLabelShapeType/ IDataLabel#setLabelShapeType(int)) property for all data labels in the collection to the same value. |
+
+ **Returns:**
+int
+
+
+---
+
+
 ### getLeaderLinesFormat {#getLeaderLinesFormat}
 
 | Name | Description |
@@ -109,7 +122,7 @@ int
 | getSlide () | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
 
  **Returns:**
-[LayoutSlide](../layoutslide), [MasterSlide](../masterslide), [MasterNotesSlide](../masternotesslide), [MasterHandoutSlide](../masterhandoutslide), [BaseSlide](../baseslide), [NotesSlide](../notesslide), [Slide](../slide)
+[MasterNotesSlide](../masternotesslide), [MasterHandoutSlide](../masterhandoutslide), [Slide](../slide), [NotesSlide](../notesslide), [MasterSlide](../masterslide), [BaseSlide](../baseslide), [LayoutSlide](../layoutslide)
 
 
 ---
@@ -191,6 +204,16 @@ boolean
 
  **Returns:**
 
+
+
+---
+
+
+### setDefaultLabelShapeType {#setDefaultLabelShapeType}
+
+| Name | Description |
+| --- | --- |
+| setDefaultLabelShapeType (int) | Gets or sets the default shape type for data labels. Returns ShapeType#NotDefined if no shape is defined. Setting this property also sets the IDataLabel.LabelShapeType( IDataLabel#getLabelShapeType/ IDataLabel#setLabelShapeType(int)) property for all data labels in the collection to the same value. |
 
 
 ---

@@ -154,6 +154,19 @@ int
 ---
 
 
+### getVolumeValue {#getVolumeValue}
+
+| Name | Description |
+| --- | --- |
+| getVolumeValue () | Returns or sets the exact video volume as a percentage. The value is expressed as a percentage from 0 to 100. Use this property to read or set volume values that are more precise than the predefined levels available through the #getVolume/ #setVolume(int) property. Read/write float. |
+
+ **Returns:**
+float
+
+
+---
+
+
 ### setEmbeddedVideo {#setEmbeddedVideo}
 
 | Name | Description |
@@ -249,6 +262,16 @@ int
 | Name | Description |
 | --- | --- |
 | setVolume (int) | Returns or sets the audio volume. Read/write AudioVolumeMode. |
+
+
+---
+
+
+### setVolumeValue {#setVolumeValue}
+
+| Name | Description |
+| --- | --- |
+| setVolumeValue (float) | Returns or sets the exact video volume as a percentage. The value is expressed as a percentage from 0 to 100. Use this property to read or set volume values that are more precise than the predefined levels available through the #getVolume/ #setVolume(int) property. Read/write float. |
 
 
 ---
