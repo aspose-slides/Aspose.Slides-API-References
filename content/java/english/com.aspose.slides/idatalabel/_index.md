@@ -22,6 +22,8 @@ Represents a series labels.
 | [getValueFromCell()](#getValueFromCell--) | Gets or sets workbook data cell. |
 | [setValueFromCell(IChartDataCell value)](#setValueFromCell-com.aspose.slides.IChartDataCell-) | Gets or sets workbook data cell. |
 | [getActualLabelText()](#getActualLabelText--) | Returns actual label text based on DataLabelFormat settings or TextFrameForOverriding.Text value. |
+| [getLabelShapeType()](#getLabelShapeType--) | Gets or sets the shape type of the data label. |
+| [setLabelShapeType(int value)](#setLabelShapeType-int-) | Gets or sets the shape type of the data label. |
 ### isVisible() {#isVisible--}
 ```
 public abstract boolean isVisible()
@@ -91,3 +93,56 @@ Returns actual label text based on DataLabelFormat settings or TextFrameForOverr
 
 **Returns:**
 java.lang.String - Actual label text String
+### getLabelShapeType() {#getLabelShapeType--}
+```
+public abstract int getLabelShapeType()
+```
+
+
+Gets or sets the shape type of the data label. Returns [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) if no shape is defined.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Set the shape type of the first data label to Ellipse.
+>      firstSeries.getLabels().get_Item(0).setLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabel.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+int
+### setLabelShapeType(int value) {#setLabelShapeType-int-}
+```
+public abstract void setLabelShapeType(int value)
+```
+
+
+Gets or sets the shape type of the data label. Returns [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) if no shape is defined.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Set the shape type of the first data label to Ellipse.
+>      firstSeries.getLabels().get_Item(0).setLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabel.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+

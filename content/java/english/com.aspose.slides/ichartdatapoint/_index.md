@@ -16,12 +16,16 @@ Represents series data point.
 
 | Method | Description |
 | --- | --- |
-| [getXValue()](#getXValue--) | Returns the x value of chart data point. |
-| [getYValue()](#getYValue--) | Returns the y value of chart data point. |
-| [getBubbleSize()](#getBubbleSize--) | Returns the bubble size of chart data point. |
-| [getValue()](#getValue--) | Returns the value of chart data point. |
-| [getSizeValue()](#getSizeValue--) | Returns the size value of chart data point. |
-| [getColorValue()](#getColorValue--) | Returns the color value of chart data point. |
+| [getXValue()](#getXValue--) | Gets the x value of a chart data point. |
+| [getYValue()](#getYValue--) | Gets the y value of a chart data point. |
+| [getBubbleSize()](#getBubbleSize--) | Gets the bubble size of a chart data point. |
+| [getValue()](#getValue--) | Gets the value of a chart data point. |
+| [getCachedXValue()](#getCachedXValue--) | Gets the cached X value of a chart data point. |
+| [getCachedYValue()](#getCachedYValue--) | Gets the cached Y value of a chart data point. |
+| [getCachedValue()](#getCachedValue--) | Gets the cached value of a chart data point. |
+| [getCachedBubbleSize()](#getCachedBubbleSize--) | Gets the cached bubble size of a chart data point. |
+| [getSizeValue()](#getSizeValue--) | Gets the size value of a chart data point. |
+| [getColorValue()](#getColorValue--) | Gets the color value of a chart data point. |
 | [getErrorBarsCustomValues()](#getErrorBarsCustomValues--) | Represents series error bars values in case of Custom value type. |
 | [getLabel()](#getLabel--) | Represents the lable of chart data point. |
 | [isBubble3D()](#isBubble3D--) | Specifies that the bubbles have a 3-D effect applied to them. |
@@ -46,7 +50,7 @@ public abstract IStringOrDoubleChartValue getXValue()
 ```
 
 
-Returns the x value of chart data point. Read-only [IStringOrDoubleChartValue](../../com.aspose.slides/istringordoublechartvalue).
+Gets the x value of a chart data point. Read-only [IStringOrDoubleChartValue](../../com.aspose.slides/istringordoublechartvalue).
 
 **Returns:**
 [IStringOrDoubleChartValue](../../com.aspose.slides/istringordoublechartvalue)
@@ -56,7 +60,7 @@ public abstract IDoubleChartValue getYValue()
 ```
 
 
-Returns the y value of chart data point. Read-only [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
+Gets the y value of a chart data point. Read-only [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
 **Returns:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
@@ -66,7 +70,7 @@ public abstract IDoubleChartValue getBubbleSize()
 ```
 
 
-Returns the bubble size of chart data point. Read-only [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
+Gets the bubble size of a chart data point. Read-only [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
 **Returns:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
@@ -76,17 +80,125 @@ public abstract IDoubleChartValue getValue()
 ```
 
 
-Returns the value of chart data point. Read-only [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
+Gets the value of a chart data point. Read-only [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
 **Returns:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
+### getCachedXValue() {#getCachedXValue--}
+```
+public abstract ICachedChartValue getCachedXValue()
+```
+
+
+Gets the cached X value of a chart data point. Read-only [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // Print all cached X values of the chart series.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedXValue().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
+### getCachedYValue() {#getCachedYValue--}
+```
+public abstract ICachedChartValue getCachedYValue()
+```
+
+
+Gets the cached Y value of a chart data point. Read-only [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // Print all cached Y values of the chart series.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedYValue().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
+### getCachedValue() {#getCachedValue--}
+```
+public abstract ICachedChartValue getCachedValue()
+```
+
+
+Gets the cached value of a chart data point. Read-only [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // Print all cached values of the chart series.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedValue().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
+### getCachedBubbleSize() {#getCachedBubbleSize--}
+```
+public abstract ICachedChartValue getCachedBubbleSize()
+```
+
+
+Gets the cached bubble size of a chart data point. Read-only [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // Print all cached bubble size values of the chart series.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedBubbleSize().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
 ### getSizeValue() {#getSizeValue--}
 ```
 public abstract IDoubleChartValue getSizeValue()
 ```
 
 
-Returns the size value of chart data point. Used with Treemap and Sunburst charts. Read-only [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
+Gets the size value of a chart data point. Used with Treemap and Sunburst charts. Read-only [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
 **Returns:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
@@ -96,7 +208,7 @@ public abstract IDoubleChartValue getColorValue()
 ```
 
 
-Returns the color value of chart data point. Used with Map charts. Read-only [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
+Gets the color value of a chart data point. Used with Map charts. Read-only [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
 **Returns:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)

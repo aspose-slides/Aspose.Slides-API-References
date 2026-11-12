@@ -20,6 +20,7 @@ Represents chart categories.
 | [setAsLiteral(Object value)](#setAsLiteral-java.lang.Object-) | Returns or sets AsLiteral if UseCell is false. |
 | [getValue()](#getValue--) | If UseCell is true then this property represents AsCell.Value property. |
 | [setValue(Object value)](#setValue-java.lang.Object-) | If UseCell is true then this property represents AsCell.Value property. |
+| [getCachedValue()](#getCachedValue--) | Gets the cached value of a chart category. |
 | [getGroupingLevels()](#getGroupingLevels--) | Managed container of the values of the chart category grouping levels. |
 | [remove()](#remove--) | Removes category from chart. |
 ### getUseCell() {#getUseCell--}
@@ -105,6 +106,31 @@ If UseCell is true then this property represents AsCell.Value property. If UseCe
 | --- | --- | --- |
 | value | java.lang.Object |  |
 
+### getCachedValue() {#getCachedValue--}
+```
+public abstract ICachedChartValue getCachedValue()
+```
+
+
+Gets the cached value of a chart category. Read-only [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+> 
+>      // Print all cached chart category values.
+>      for (IChartCategory category : chart.getChartData().getCategories())
+>          System.out.println(category.getCachedValue().toString());
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
 ### getGroupingLevels() {#getGroupingLevels--}
 ```
 public abstract IChartCategoryLevelsManager getGroupingLevels()

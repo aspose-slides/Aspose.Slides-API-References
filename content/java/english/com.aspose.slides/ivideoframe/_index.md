@@ -24,6 +24,8 @@ Represents a video clip on a slide.
 | [setHideAtShowing(boolean value)](#setHideAtShowing-boolean-) | Determines whether a VideoFrame is hidden. |
 | [getVolume()](#getVolume--) | Returns or sets the audio volume. |
 | [setVolume(int value)](#setVolume-int-) | Returns or sets the audio volume. |
+| [getVolumeValue()](#getVolumeValue--) | Returns or sets the exact video volume as a percentage. |
+| [setVolumeValue(float value)](#setVolumeValue-float-) | Returns or sets the exact video volume as a percentage. |
 | [getPlayMode()](#getPlayMode--) | Returns or sets the video play mode. |
 | [setPlayMode(int value)](#setPlayMode-int-) | Returns or sets the video play mode. |
 | [getFullScreenMode()](#getFullScreenMode--) | Determines whether a video is shown in full screen mode. |
@@ -128,6 +130,65 @@ Returns or sets the audio volume. Read/write [AudioVolumeMode](../../com.aspose.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### getVolumeValue() {#getVolumeValue--}
+```
+public abstract float getVolumeValue()
+```
+
+
+Returns or sets the exact video volume as a percentage. The value is expressed as a percentage from 0 to 100. Use this property to read or set volume values that are more precise than the predefined levels available through the  Volume (\#getVolume.getVolume/\#setVolume(int).setVolume(int)) property. Read/write  float .
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video.pptx");
+>  try {
+>      IVideoFrame videoFrame = (IVideoFrame)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // Read the current exact volume and set it to 75.5 percent.
+>      float currentVolume = videoFrame.getVolumeValue();
+>      System.out.println(currentVolume);
+>      videoFrame.setVolumeValue(75.5f);
+>      pres.save("video_with_volume.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+float
+### setVolumeValue(float value) {#setVolumeValue-float-}
+```
+public abstract void setVolumeValue(float value)
+```
+
+
+Returns or sets the exact video volume as a percentage. The value is expressed as a percentage from 0 to 100. Use this property to read or set volume values that are more precise than the predefined levels available through the  Volume (\#getVolume.getVolume/\#setVolume(int).setVolume(int)) property. Read/write  float .
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video.pptx");
+>  try {
+>      IVideoFrame videoFrame = (IVideoFrame)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // Read the current exact volume and set it to 75.5 percent.
+>      float currentVolume = videoFrame.getVolumeValue();
+>      System.out.println(currentVolume);
+>      videoFrame.setVolumeValue(75.5f);
+>      pres.save("video_with_volume.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | float |  |
 
 ### getPlayMode() {#getPlayMode--}
 ```

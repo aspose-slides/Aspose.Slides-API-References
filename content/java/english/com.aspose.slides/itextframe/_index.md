@@ -22,6 +22,7 @@ Represents a TextFrame.
 | [getTextFrameFormat()](#getTextFrameFormat--) | Returns the formatting object for this TextFrame object. |
 | [getHyperlinkQueries()](#getHyperlinkQueries--) | Provides easy access to contained hyperlinks. |
 | [getParentShape()](#getParentShape--) | Returns the parent shape or null if the parent object does not implement the IShape interface Read-only [IShape](../../com.aspose.slides/ishape). |
+| [getTextRect()](#getTextRect--) | Gets the text rectangle defined by the geometry of the parent shape. |
 | [getParentCell()](#getParentCell--) | Returns the parent cell or null if the parent object does not implement the ICell interface. |
 | [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Joins runs with same formatting in all paragraphs. |
 | [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | Highlights all matches of the sample text with the specified color. |
@@ -117,6 +118,20 @@ Returns the parent shape or null if the parent object does not implement the ISh
 
 **Returns:**
 [IShape](../../com.aspose.slides/ishape)
+### getTextRect() {#getTextRect--}
+```
+public abstract Rectangle2D.Float getTextRect()
+```
+
+
+Gets the text rectangle defined by the geometry of the parent shape.
+
+**Returns:**
+java.awt.geom.Rectangle2D.Float - A java.awt.geom.Rectangle2D.Float that defines the text area.
+
+--------------------
+
+The rectangle coordinates are relative to the top-left corner of the parent shape.
 ### getParentCell() {#getParentCell--}
 ```
 public abstract ICell getParentCell()

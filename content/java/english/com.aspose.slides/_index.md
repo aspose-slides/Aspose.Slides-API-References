@@ -71,6 +71,7 @@ url: /com.aspose.slides/
 | [BuildVersionInfo](../com.aspose.slides/buildversioninfo) | Contains information about version of Aspose.Slides. |
 | [BulletFormat](../com.aspose.slides/bulletformat) | Represents paragraph bullet formatting properties. |
 | [BulletType](../com.aspose.slides/bullettype) | Represents the type of the extended bullets. |
+| [CachedChartValue](../com.aspose.slides/cachedchartvalue) | Represents a cached chart value (e.g., X, Y, bubble size, or the main value). |
 | [Camera](../com.aspose.slides/camera) | Represents Camera. |
 | [CameraPresetType](../com.aspose.slides/camerapresettype) | Constants which define camera preset type. |
 | [CannotCombine2DAnd3DChartsException](../com.aspose.slides/cannotcombine2dand3dchartsexception) | Exception which thrown when trying to combine 2D and 3D chart types. |
@@ -733,6 +734,7 @@ url: /com.aspose.slides/
 | [IBulkTextFormattable](../com.aspose.slides/ibulktextformattable) | Represents an object with possibility of bulk setting child text elements' formats. |
 | [IBulletFormat](../com.aspose.slides/ibulletformat) | Represents paragraph bullet formatting properties. |
 | [IBulletFormatEffectiveData](../com.aspose.slides/ibulletformateffectivedata) | Immutable object which contains effective paragraph bullet formatting properties. |
+| [ICachedChartValue](../com.aspose.slides/icachedchartvalue) | Represents a cached chart value (e.g., X, Y, bubble size, or the main value). |
 | [ICamera](../com.aspose.slides/icamera) | Represents Camera. |
 | [ICameraEffectiveData](../com.aspose.slides/icameraeffectivedata) | Immutable object which contains effective camera properties. |
 | [ICaptions](../com.aspose.slides/icaptions) | Represents the WebVTT closed captions. |

@@ -37,6 +37,7 @@ Represents a TextFrame.
 | [getSlide()](#getSlide--) | Returns the parent slide of a TextFrame. |
 | [getPresentation()](#getPresentation--) | Returns the parent presentation of a TextFrame. |
 | [getParentShape()](#getParentShape--) | Returns the parent shape or null if the parent object does not implement the IShape interface Read-only [IShape](../../com.aspose.slides/ishape). |
+| [getTextRect()](#getTextRect--) | Gets the text rectangle defined by the geometry of the parent shape. |
 | [getParentCell()](#getParentCell--) | Returns the parent cell or null if the parent object does not implement the ICell interface. |
 ### getParent_Immediate() {#getParent-Immediate--}
 ```
@@ -402,6 +403,16 @@ Returns the parent shape or null if the parent object does not implement the ISh
 
 **Returns:**
 [IShape](../../com.aspose.slides/ishape)
+### getTextRect() {#getTextRect--}
+```
+public final Rectangle2D.Float getTextRect()
+```
+
+
+Gets the text rectangle defined by the geometry of the parent shape.
+
+**Returns:**
+java.awt.geom.Rectangle2D.Float - A java.awt.geom.Rectangle2D.Float that defines the text area.
 ### getParentCell() {#getParentCell--}
 ```
 public final ICell getParentCell()

@@ -116,6 +116,8 @@ Represents a Microsoft PowerPoint presentation.
 | [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | Highlights all matches of the regular expression with the specified color. |
 | [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Replaces all occurrences of the specified text with another specified text. |
 | [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Replaces all matches of the regular expression with the specified string. |
+| [refreshChartsData()](#refreshChartsData--) | Reloads the data for all charts in the presentation from their source workbooks. |
+| [refreshChartsData(boolean skipFailedCharts)](#refreshChartsData-boolean-) | Reloads the data for all charts in the presentation from their source workbooks. |
 ### Presentation() {#Presentation--}
 ```
 public Presentation()
@@ -1734,4 +1736,49 @@ Replaces all matches of the regular expression with the specified string.
 | regex | java.util.regex.Pattern | The regular expression java.util.regex.Pattern to get strings to replace. |
 | newText | java.lang.String | The string to replace all occurrences of the strings to be replaced. |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | The callback object for receiving search results [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+
+### refreshChartsData() {#refreshChartsData--}
+```
+public final void refreshChartsData()
+```
+
+
+Reloads the data for all charts in the presentation from their source workbooks.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("PresentationWithCharts.pptx");
+>  try {
+>      presentation.refreshChartsData();
+>      presentation.save("PresentationWithCharts-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+### refreshChartsData(boolean skipFailedCharts) {#refreshChartsData-boolean-}
+```
+public final void refreshChartsData(boolean skipFailedCharts)
+```
+
+
+Reloads the data for all charts in the presentation from their source workbooks.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("PresentationWithCharts.pptx");
+>  try {
+>      presentation.refreshChartsData();
+>      presentation.save("PresentationWithCharts-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| skipFailedCharts | boolean | Determines whether the refresh process continues if a chart fails to update. If true, charts that cause an exception are skipped; otherwise the exception is propagated. |
 

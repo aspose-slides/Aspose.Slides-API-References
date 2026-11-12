@@ -35,6 +35,7 @@ Represents data used for a chart plotting.
 | [setRange(String formula)](#setRange-java.lang.String-) | Set chart data range. |
 | [setExternalWorkbook(String workbookPath)](#setExternalWorkbook-java.lang.String-) | Sets external workbook as a data source for the chart. |
 | [setExternalWorkbook(String workbookPath, boolean updateChartData)](#setExternalWorkbook-java.lang.String-boolean-) | Sets external workbook as a data source for the chart. |
+| [refreshData()](#refreshData--) | Refreshes the chart data by reloading it from the source workbook. |
 | [switchRowColumn()](#switchRowColumn--) | Swap the data over the axis. |
 ### getChartDataWorkbook() {#getChartDataWorkbook--}
 ```
@@ -323,6 +324,26 @@ Sets external workbook as a data source for the chart.
 | --- | --- | --- |
 | workbookPath | java.lang.String | Path to the target workbook |
 | updateChartData | boolean | If value is false only workbook path will be updated. Chart data won't be loaded and updated from the target workbook. Can be used when target workbook doesn't exist or it's not available. If value is true chart data will be updated from the target workbook. |
+
+### refreshData() {#refreshData--}
+```
+public final void refreshData()
+```
+
+
+Refreshes the chart data by reloading it from the source workbook.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("presentationWithChart.pptx");
+>  try {
+>      IChart chart = (IChart)presentation.getSlides().get_Item(0).getShapes().get_Item(0);
+>      chart.getChartData().refreshData();
+>  } finally {
+>      presentation.dispose();
+>  }
+> ```
 
 ### switchRowColumn() {#switchRowColumn--}
 ```

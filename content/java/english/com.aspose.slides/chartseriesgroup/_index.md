@@ -28,10 +28,10 @@ Represents group of series.
 | [getSeries()](#getSeries--) | Returns a collection of series. |
 | [get_Item(int index)](#get-Item-int-) | Gets the element at the specified index. |
 | [getUpDownBars()](#getUpDownBars--) | Provede access to up/down bars of Line- or Stock-chart. |
-| [getGapWidth()](#getGapWidth--) | Specifies the space between bar or column clusters, as a percentage of the bar or column width. |
-| [setGapWidth(int value)](#setGapWidth-int-) | Specifies the space between bar or column clusters, as a percentage of the bar or column width. |
-| [getGapDepth()](#getGapDepth--) | Returns or sets the distance, as a percentage of the marker width, between the data series in a 3D chart. |
-| [setGapDepth(int value)](#setGapDepth-int-) | Returns or sets the distance, as a percentage of the marker width, between the data series in a 3D chart. |
+| [getGapWidth()](#getGapWidth--) | Gets or sets the space between bar or column clusters, as a percentage of the bar or column width. |
+| [setGapWidth(int value)](#setGapWidth-int-) | Gets or sets the space between bar or column clusters, as a percentage of the bar or column width. |
+| [getGapDepth()](#getGapDepth--) | Gets or sets the distance between data series in a 3D chart, as a percentage of the marker width. |
+| [setGapDepth(int value)](#setGapDepth-int-) | Gets or sets the distance between data series in a 3D chart, as a percentage of the marker width. |
 | [getFirstSliceAngle()](#getFirstSliceAngle--) | Gets or sets the angle of the first pie or doughnut chart slice, in degrees (clockwise from up, from 0 to 360 degrees). |
 | [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | Gets or sets the angle of the first pie or doughnut chart slice, in degrees (clockwise from up, from 0 to 360 degrees). |
 | [getDoughnutHoleSize()](#getDoughnutHoleSize--) | Specifies the size of the hole in a doughnut chart (can be between 0 and 90 percents of the size of the plot area.). |
@@ -119,7 +119,11 @@ public final int getGapWidth()
 ```
 
 
-Specifies the space between bar or column clusters, as a percentage of the bar or column width. Read/write int.
+Gets or sets the space between bar or column clusters, as a percentage of the bar or column width. The value must be between 0 and 500. Read/write int.
+
+--------------------
+
+This property applies to series of the following types: Bar subtypes (see also [ChartTypeCharacterizer.isChartTypeBar(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBar-int-) method), Column subtypes (see also [ChartTypeCharacterizer.isChartTypeColumn(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeColumn-int-) method), [ChartType.BarOfPie](../../com.aspose.slides/charttype\#BarOfPie), [ChartType.PieOfPie](../../com.aspose.slides/charttype\#PieOfPie), [ChartType.BoxAndWhisker](../../com.aspose.slides/charttype\#BoxAndWhisker), [ChartType.Funnel](../../com.aspose.slides/charttype\#Funnel), [ChartType.Histogram](../../com.aspose.slides/charttype\#Histogram), [ChartType.Waterfall](../../com.aspose.slides/charttype\#Waterfall).
 
 **Returns:**
 int
@@ -129,7 +133,11 @@ public final void setGapWidth(int value)
 ```
 
 
-Specifies the space between bar or column clusters, as a percentage of the bar or column width. Read/write int.
+Gets or sets the space between bar or column clusters, as a percentage of the bar or column width. The value must be between 0 and 500. Read/write int.
+
+--------------------
+
+This property applies to series of the following types: Bar subtypes (see also [ChartTypeCharacterizer.isChartTypeBar(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBar-int-) method), Column subtypes (see also [ChartTypeCharacterizer.isChartTypeColumn(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeColumn-int-) method), [ChartType.BarOfPie](../../com.aspose.slides/charttype\#BarOfPie), [ChartType.PieOfPie](../../com.aspose.slides/charttype\#PieOfPie), [ChartType.BoxAndWhisker](../../com.aspose.slides/charttype\#BoxAndWhisker), [ChartType.Funnel](../../com.aspose.slides/charttype\#Funnel), [ChartType.Histogram](../../com.aspose.slides/charttype\#Histogram), [ChartType.Waterfall](../../com.aspose.slides/charttype\#Waterfall).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -142,7 +150,11 @@ public final int getGapDepth()
 ```
 
 
-Returns or sets the distance, as a percentage of the marker width, between the data series in a 3D chart. Read/write int.
+Gets or sets the distance between data series in a 3D chart, as a percentage of the marker width. The value must be between 0 and 500. Read/write int.
+
+--------------------
+
+This property applies to series of the following types: 3D bar and column subtypes (see also [ChartTypeCharacterizer.isBar3DChart(int)](../../com.aspose.slides/charttypecharacterizer\#isBar3DChart-int-) method), [ChartType.Line3D](../../com.aspose.slides/charttype\#Line3D), [ChartType.Area3D](../../com.aspose.slides/charttype\#Area3D), [ChartType.StackedArea3D](../../com.aspose.slides/charttype\#StackedArea3D), [ChartType.PercentsStackedArea3D](../../com.aspose.slides/charttype\#PercentsStackedArea3D).
 
 **Returns:**
 int
@@ -152,7 +164,11 @@ public final void setGapDepth(int value)
 ```
 
 
-Returns or sets the distance, as a percentage of the marker width, between the data series in a 3D chart. Read/write int.
+Gets or sets the distance between data series in a 3D chart, as a percentage of the marker width. The value must be between 0 and 500. Read/write int.
+
+--------------------
+
+This property applies to series of the following types: 3D bar and column subtypes (see also [ChartTypeCharacterizer.isBar3DChart(int)](../../com.aspose.slides/charttypecharacterizer\#isBar3DChart-int-) method), [ChartType.Line3D](../../com.aspose.slides/charttype\#Line3D), [ChartType.Area3D](../../com.aspose.slides/charttype\#Area3D), [ChartType.StackedArea3D](../../com.aspose.slides/charttype\#StackedArea3D), [ChartType.PercentsStackedArea3D](../../com.aspose.slides/charttype\#PercentsStackedArea3D).
 
 **Parameters:**
 | Parameter | Type | Description |

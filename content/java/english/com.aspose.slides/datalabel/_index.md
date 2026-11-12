@@ -45,6 +45,8 @@ Represents a series labels.
 | [getDataLabelFormat()](#getDataLabelFormat--) | Returns data label format. |
 | [getValueFromCell()](#getValueFromCell--) | Gets or sets workbook data cell. |
 | [setValueFromCell(IChartDataCell value)](#setValueFromCell-com.aspose.slides.IChartDataCell-) | Gets or sets workbook data cell. |
+| [getLabelShapeType()](#getLabelShapeType--) | Gets or sets the shape type of the data label. |
+| [setLabelShapeType(int value)](#setLabelShapeType-int-) | Gets or sets the shape type of the data label. |
 | [getActualX()](#getActualX--) | Specifies actual x location (left) of the chart element relative to the left top corner of the chart. |
 | [getActualY()](#getActualY--) | Specifies actual top of the chart element relative to the left top corner of the chart. |
 | [getActualWidth()](#getActualWidth--) | Specifies actual width of the chart element. |
@@ -300,13 +302,66 @@ Gets or sets workbook data cell. Applied if IDataLabelFormat.ShowLabelValueFromC
 | --- | --- | --- |
 | value | [IChartDataCell](../../com.aspose.slides/ichartdatacell) |  |
 
+### getLabelShapeType() {#getLabelShapeType--}
+```
+public final int getLabelShapeType()
+```
+
+
+Gets or sets the shape type of the data label. Returns [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) if no shape is defined.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Set the shape type of the first data label to Ellipse.
+>      firstSeries.getLabels().get_Item(0).setLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabel.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+int
+### setLabelShapeType(int value) {#setLabelShapeType-int-}
+```
+public final void setLabelShapeType(int value)
+```
+
+
+Gets or sets the shape type of the data label. Returns [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) if no shape is defined.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Set the shape type of the first data label to Ellipse.
+>      firstSeries.getLabels().get_Item(0).setLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabel.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
 ### getActualX() {#getActualX--}
 ```
 public final float getActualX()
 ```
 
 
-Specifies actual x location (left) of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read  float .
+Specifies actual x location (left) of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read float.
 
 **Returns:**
 float
@@ -316,7 +371,7 @@ public final float getActualY()
 ```
 
 
-Specifies actual top of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read  float .
+Specifies actual top of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read float.
 
 **Returns:**
 float
@@ -326,7 +381,7 @@ public final float getActualWidth()
 ```
 
 
-Specifies actual width of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read  float .
+Specifies actual width of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read float.
 
 **Returns:**
 float
@@ -336,7 +391,7 @@ public final float getActualHeight()
 ```
 
 
-Specifies actual height of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read  float .
+Specifies actual height of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read float.
 
 **Returns:**
 float

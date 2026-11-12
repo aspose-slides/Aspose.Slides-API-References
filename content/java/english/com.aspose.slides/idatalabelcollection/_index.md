@@ -25,6 +25,8 @@ Represents a series labels.
 | [getCount()](#getCount--) | Gets the number of all data labels in the collection. |
 | [getParentSeries()](#getParentSeries--) | Returns parent chart series. |
 | [indexOf(IDataLabel value)](#indexOf-com.aspose.slides.IDataLabel-) | Returns an index of the specified DataLabel in the collection. |
+| [getDefaultLabelShapeType()](#getDefaultLabelShapeType--) | Gets or sets the default shape type for data labels. |
+| [setDefaultLabelShapeType(int value)](#setDefaultLabelShapeType-int-) | Gets or sets the default shape type for data labels. |
 ### get_Item(int index) {#get-Item-int-}
 ```
 public abstract IDataLabel get_Item(int index)
@@ -152,3 +154,64 @@ Returns an index of the specified DataLabel in the collection.
 
 **Returns:**
 int - Index of a DataLabel or -1 if DataLabel not from this collection.
+### getDefaultLabelShapeType() {#getDefaultLabelShapeType--}
+```
+public abstract int getDefaultLabelShapeType()
+```
+
+
+Gets or sets the default shape type for data labels. Returns [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) if no shape is defined.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Set the shape type of all data labels in the first series to Ellipse.
+>      firstSeries.getLabels().setDefaultLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabels.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+Setting this property also sets the  IDataLabel.LabelShapeType ([IDataLabel.getLabelShapeType](../../com.aspose.slides/idatalabel\#getLabelShapeType)/[IDataLabel.setLabelShapeType(int)](../../com.aspose.slides/idatalabel\#setLabelShapeType-int-)) property for all data labels in the collection to the same value.
+
+**Returns:**
+int
+### setDefaultLabelShapeType(int value) {#setDefaultLabelShapeType-int-}
+```
+public abstract void setDefaultLabelShapeType(int value)
+```
+
+
+Gets or sets the default shape type for data labels. Returns [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) if no shape is defined.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Set the shape type of all data labels in the first series to Ellipse.
+>      firstSeries.getLabels().setDefaultLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabels.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+Setting this property also sets the  IDataLabel.LabelShapeType ([IDataLabel.getLabelShapeType](../../com.aspose.slides/idatalabel\#getLabelShapeType)/[IDataLabel.setLabelShapeType(int)](../../com.aspose.slides/idatalabel\#setLabelShapeType-int-)) property for all data labels in the collection to the same value.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
