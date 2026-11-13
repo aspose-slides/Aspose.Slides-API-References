@@ -5,11 +5,11 @@ description: Stelt een Microsoft PowerPoint-presentatie voor.
 type: docs
 url: /nl/com.aspose.slides/presentation/
 ---
-**Erfenis:**  
+**Erfenis:**
 java.lang.Object
 
-**Alle geïmplementeerde interfaces:**  
-[com.aspose.slides.IPresentation](../../com.aspose.slides/ipresentation), com.aspose.slides.IDOMObject  
+**Alle geïmplementeerde interfaces:**
+[com.aspose.slides.IPresentation](../../com.aspose.slides/ipresentation), com.aspose.slides.IDOMObject
 ```
 public final class Presentation implements IPresentation, IDOMObject
 ```
@@ -26,7 +26,7 @@ Stelt een Microsoft PowerPoint-presentatie voor.
 >  try {
 >      // Haal de eerste dia op
 >      ISlide slide = pres.getSlides().get_Item(0);
->      // Voeg een autoshape van het type lijn toe
+>      // Voeg een autoshape van type lijn toe
 >      slide.getShapes().addAutoShape(ShapeType.Line, 50, 150, 300, 0);
 >      // Sla het presentatiebestand op.
 >      pres.save("NewPresentation_out.pptx", SaveFormat.Pptx);
@@ -36,7 +36,7 @@ Stelt een Microsoft PowerPoint-presentatie voor.
 >   
 >   The following example shows how to open and save Presentation.
 >   
->  // Laad een ondersteund bestand in Presentation, bijv. ppt, pptx, odp enz.
+>  // Laad elk ondersteund bestand in Presentation, bijv. ppt, pptx, odp etc.
 >  Presentation pres = new Presentation("Sample.odp");
 >  try {
 >      // Sla het presentatiebestand op.
@@ -46,103 +46,104 @@ Stelt een Microsoft PowerPoint-presentatie voor.
 >  }
 > ```
 
-## Constructeurs
+## Constructors
 
 | Constructor | Beschrijving |
 | --- | --- |
 | [Presentation()](#Presentation--) | Deze constructor maakt een nieuwe presentatie vanaf nul. |
 | [Presentation(LoadOptions loadOptions)](#Presentation-com.aspose.slides.LoadOptions-) | Deze constructor maakt een nieuwe presentatie vanaf nul. |
-| [Presentation(InputStream stream)](#Presentation-java.io.InputStream-) | Deze constructor is de primaire methode om een bestaande presentatie te lezen. |
-| [Presentation(InputStream stream, LoadOptions loadOptions)](#Presentation-java.io.InputStream-com.aspose.slides.LoadOptions-) | Deze constructor is de primaire methode om een bestaande presentatie te lezen. |
+| [Presentation(InputStream stream)](#Presentation-java.io.InputStream-) | Deze constructor is het primaire mechanisme om een bestaande presentatie te lezen. |
+| [Presentation(InputStream stream, LoadOptions loadOptions)](#Presentation-java.io.InputStream-com.aspose.slides.LoadOptions-) | Deze constructor is het primaire mechanisme om een bestaande presentatie te lezen. |
 | [Presentation(String file)](#Presentation-java.lang.String-) | Deze constructor krijgt een bronbestandspad waarvan de inhoud van de presentatie wordt gelezen. |
 | [Presentation(String file, LoadOptions loadOptions)](#Presentation-java.lang.String-com.aspose.slides.LoadOptions-) | Deze constructor krijgt een bronbestandspad waarvan de inhoud van de presentatie wordt gelezen. |
-## Methoden
+## Methods
 
 | Methode | Beschrijving |
 | --- | --- |
-| [getCurrentDateTime()](#getCurrentDateTime--) | Retourneert of stelt de datum en tijd in die de inhoud van datum-tijdvelden zal vervangen. |
-| [setCurrentDateTime(Date value)](#setCurrentDateTime-java.util.Date-) | Retourneert of stelt de datum en tijd in die de inhoud van datum-tijdvelden zal vervangen. |
+| [getCurrentDateTime()](#getCurrentDateTime--) | Geeft datum en tijd terug of stelt ze in, die de inhoud van datum/tijd-velden zal vervangen. |
+| [setCurrentDateTime(Date value)](#setCurrentDateTime-java.util.Date-) | Geeft datum en tijd terug of stelt ze in, die de inhoud van datum/tijd-velden zal vervangen. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-| [getHeaderFooterManager()](#getHeaderFooterManager--) | Retourneert de actuele HeaderFooter-manager. |
-| [getProtectionManager()](#getProtectionManager--) | Haalt de manager van de machtigingen voor deze presentatie. |
-| [getSlides()](#getSlides--) | Retourneert een lijst van alle dia's die in de presentatie zijn gedefinieerd. |
-| [getSections()](#getSections--) | Retourneert een lijst van alle dia-secties die in de presentatie zijn gedefinieerd. |
-| [getSlideSize()](#getSlideSize--) | Retourneert een dia-groottobject. |
-| [getNotesSize()](#getNotesSize--) | Retourneert een notities-dia-groottobject. |
-| [getLayoutSlides()](#getLayoutSlides--) | Retourneert een lijst van alle lay-outdia's die in de presentatie zijn gedefinieerd. |
-| [getMasters()](#getMasters--) | Retourneert een lijst van alle masterdia's die in de presentatie zijn gedefinieerd. |
-| [getMasterNotesSlideManager()](#getMasterNotesSlideManager--) | Retourneert notities-master-manager. |
-| [getMasterHandoutSlideManager()](#getMasterHandoutSlideManager--) | Retourneert handout-master-manager. |
-| [getFontsManager()](#getFontsManager--) | Retourneert lettertype-manager. |
-| [getDefaultTextStyle()](#getDefaultTextStyle--) | Retourneert standaardtekstopmaak voor vormen. |
-| [getCommentAuthors()](#getCommentAuthors--) | Retourneert de collectie van commentaarauteurs. |
-| [getDocumentProperties()](#getDocumentProperties--) | Retourneert een DocumentProperties-object dat standaard- en aangepaste documenteigenschappen bevat. |
-| [getImages()](#getImages--) | Retourneert de collectie van alle afbeeldingen in de presentatie. |
-| [getAudios()](#getAudios--) | Retourneert de collectie van alle ingebedde audiobestanden in de presentatie. |
-| [getVideos()](#getVideos--) | Retourneert de collectie van alle ingebedde videobestanden in de presentatie. |
-| [getSlideShowSettings()](#getSlideShowSettings--) | Retourneert de diavoorstelling-instellingen voor de presentatie. |
-| [getDigitalSignatures()](#getDigitalSignatures--) | Retourneert de collectie van handtekeningen die worden gebruikt om de presentatie te ondertekenen. |
-| [getCustomData()](#getCustomData--) | Retourneert de aangepaste gegevens van de presentatie. |
-| [getAllCustomXmlParts()](#getAllCustomXmlParts--) | Retourneert alle aangepaste gegevensonderdelen in de presentatie. |
-| [getVbaProject()](#getVbaProject--) | Haalt of stelt het VBA-project met presentatiemacro's in. |
-| [setVbaProject(IVbaProject value)](#setVbaProject-com.aspose.slides.IVbaProject-) | Haalt of stelt het VBA-project met presentatiemacro's in. |
-| [getHyperlinkQueries()](#getHyperlinkQueries--) | Biedt gemakkelijke toegang tot alle koppelingen die in alle presentatiedia's staan (niet in master-, lay-out- of notitiesdia's). |
-| [getViewProperties()](#getViewProperties--) | Haalt weergave-eigenschappen voor de hele presentatie. |
-| [getFirstSlideNumber()](#getFirstSlideNumber--) | Stelt het eerste dia-nummer in de presentatie voor. |
-| [setFirstSlideNumber(int value)](#setFirstSlideNumber-int-) | Stelt het eerste dia-nummer in de presentatie voor. |
-| [getSensitivityLabels()](#getSensitivityLabels--) | Retourneert de collectie van gevoeligheidslabels die op het presentatiedocument zijn toegepast. |
-| [getSlideById(long id)](#getSlideById-long-) | Retourneert een Slide, MasterSlide of LayoutSlide op basis van Id. |
-| [getSourceFormat()](#getSourceFormat--) | Retourneert informatie over het formaat waarvan de presentatie is geladen. |
-| [getMasterTheme()](#getMasterTheme--) | Retourneert het master-thema. |
+| [getHeaderFooterManager()](#getHeaderFooterManager--) | Geeft de werkelijke HeaderFooter-beheerder terug. |
+| [getProtectionManager()](#getProtectionManager--) | Haalt de beheerder van de permissies voor deze presentatie op. |
+| [getSlides()](#getSlides--) | Geeft een lijst van alle dia's die zijn gedefinieerd in de presentatie. |
+| [getSections()](#getSections--) | Geeft een lijst van alle secties van dia's die zijn gedefinieerd in de presentatie. |
+| [getSlideSize()](#getSlideSize--) | Geeft een slide-grootte-object terug. |
+| [getNotesSize()](#getNotesSize--) | Geeft een notitie-slide-grootte-object terug. |
+| [getLayoutSlides()](#getLayoutSlides--) | Geeft een lijst van alle lay-out-dia's die zijn gedefinieerd in de presentatie. |
+| [getMasters()](#getMasters--) | Geeft een lijst van alle master-dia's die zijn gedefinieerd in de presentatie. |
+| [getMasterNotesSlideManager()](#getMasterNotesSlideManager--) | Geeft de notitie-master-beheerder terug. |
+| [getMasterHandoutSlideManager()](#getMasterHandoutSlideManager--) | Geeft de handout-master-beheerder terug. |
+| [getFontsManager()](#getFontsManager--) | Geeft de lettertype-beheerder terug. |
+| [getDefaultTextStyle()](#getDefaultTextStyle--) | Geeft de standaard tekststijl voor vormen terug. |
+| [getCommentAuthors()](#getCommentAuthors--) | Geeft de verzameling van commentaarauteurs terug. |
+| [getDocumentProperties()](#getDocumentProperties--) | Geeft een DocumentProperties-object terug dat standaard- en aangepaste documenteigenschappen bevat. |
+| [getImages()](#getImages--) | Geeft de verzameling van alle afbeeldingen in de presentatie terug. |
+| [getAudios()](#getAudios--) | Geeft de verzameling van alle ingesloten audiobestanden in de presentatie terug. |
+| [getVideos()](#getVideos--) | Geeft de verzameling van alle ingesloten videobestanden in de presentatie terug. |
+| [getSlideShowSettings()](#getSlideShowSettings--) | Geeft de diavoorstelling-instellingen voor de presentatie terug. |
+| [getDigitalSignatures()](#getDigitalSignatures--) | Geeft de verzameling van handtekeningen terug die gebruikt worden om de presentatie te ondertekenen. |
+| [getCustomData()](#getCustomData--) | Geeft de aangepaste gegevens van de presentatie terug. |
+| [getAllCustomXmlParts()](#getAllCustomXmlParts--) | Geeft alle aangepaste datagedeelten in de presentatie terug. |
+| [getVbaProject()](#getVbaProject--) | Haalt op of stelt het VBA-project met presentatie-macro's in. |
+| [setVbaProject(IVbaProject value)](#setVbaProject-com.aspose.slides.IVbaProject-) | Haalt op of stelt het VBA-project met presentatie-macro's in. |
+| [getHyperlinkQueries()](#getHyperlinkQueries--) | Biedt gemakkelijke toegang tot alle hyperlinks die in alle presentatiedia's staan (niet in master-, lay-out- of notitiedia's). |
+| [getViewProperties()](#getViewProperties--) | Haalt de weergave-eigenschappen voor de hele presentatie op. |
+| [getFirstSlideNumber()](#getFirstSlideNumber--) | Stelt het eerste dia-nummer in de presentatie voor |
+| [setFirstSlideNumber(int value)](#setFirstSlideNumber-int-) | Stelt het eerste dia-nummer in de presentatie voor |
+| [getSensitivityLabels()](#getSensitivityLabels--) | Geeft de verzameling van gevoeligheidslabels terug die op het presentatiedocument zijn toegepast. |
+| [getSlideById(long id)](#getSlideById-long-) | Geeft een Slide, MasterSlide of LayoutSlide terug op basis van Id. |
+| [getSourceFormat()](#getSourceFormat--) | Geeft informatie terug over uit welk formaat de presentatie is geladen. |
+| [getMasterTheme()](#getMasterTheme--) | Geeft het master-thema terug. |
 | [save(String fname, int format)](#save-java.lang.String-int-) | Slaat alle dia's van een presentatie op in een bestand met het opgegeven formaat. |
 | [save(OutputStream stream, int format)](#save-java.io.OutputStream-int-) | Slaat alle dia's van een presentatie op in een stream in het opgegeven formaat. |
 | [save(String fname, int format, ISaveOptions options)](#save-java.lang.String-int-com.aspose.slides.ISaveOptions-) | Slaat alle dia's van een presentatie op in een bestand met het opgegeven formaat en met extra opties. |
 | [save(OutputStream stream, int format, ISaveOptions options)](#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-) | Slaat alle dia's van een presentatie op in een stream in het opgegeven formaat en met extra opties. |
-| [save(IXamlOptions options)](#save-com.aspose.slides.IXamlOptions-) | Slaat alle dia's van een presentatie op in een reeks bestanden die XAML-markup vertegenwoordigen. |
-| [getImages(IRenderingOptions options)](#getImages-com.aspose.slides.IRenderingOptions-) | Retourneert Image-objecten voor alle dia's van een presentatie. |
-| [getImages(IRenderingOptions options, int[] slides)](#getImages-com.aspose.slides.IRenderingOptions-int---) | Retourneert thumbnail-Image-objecten voor opgegeven dia's van een presentatie. |
-| [getImages(IRenderingOptions options, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-float-float-) | Retourneert thumbnail-Image-objecten voor alle dia's van een presentatie met aangepaste schaal. |
-| [getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-int---float-float-) | Retourneert thumbnail-Image-objecten voor opgegeven dia's van een presentatie met aangepaste schaal. |
-| [getImages(IRenderingOptions options, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-) | Retourneert thumbnail-Image-objecten voor alle dia's van een presentatie met opgegeven grootte. |
-| [getImages(IRenderingOptions options, int[] slides, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-) | Retourneert thumbnail-Image-objecten voor opgegeven dia's van een presentatie met opgegeven grootte. |
-| [save(String fname, int[] slides, int format)](#save-java.lang.String-int---int-) | Slaat opgegeven dia's van een presentatie op in een bestand met het opgegeven formaat met paginanummerbehoud. |
-| [save(String fname, int[] slides, int format, ISaveOptions options)](#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-) | Slaat opgegeven dia's van een presentatie op in een bestand met het opgegeven formaat met paginanummerbehoud. |
-| [save(OutputStream stream, int[] slides, int format)](#save-java.io.OutputStream-int---int-) | Slaat opgegeven dia's van een presentatie op in een stream in het opgegeven formaat met paginanummerbehoud. |
-| [save(OutputStream stream, int[] slides, int format, ISaveOptions options)](#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-) | Slaat opgegeven dia's van een presentatie op in een stream in het opgegeven formaat met paginanummerbehoud. |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Voegt runs met dezelfde opmaak samen in alle alinea's in alle toegestane vormen in alle dia's. |
-| [dispose()](#dispose--) | Geeft alle bronnen vrij die door dit Presentation-object worden gebruikt. |
-| [getPresentation()](#getPresentation--) | Retourneert de bovenliggende presentatie van een tekst. |
+| [save(IXamlOptions options)](#save-com.aspose.slides.IXamlOptions-) | Slaat alle dia's van een presentatie op in een set bestanden die XAML-markup representeren. |
+| [getImages(IRenderingOptions options)](#getImages-com.aspose.slides.IRenderingOptions-) | Geeft Image-objecten terug voor alle dia's van een presentatie. |
+| [getImages(IRenderingOptions options, int[] slides)](#getImages-com.aspose.slides.IRenderingOptions-int---) | Geeft Thumbnail Image-objecten terug voor opgegeven dia's van een presentatie. |
+| [getImages(IRenderingOptions options, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-float-float-) | Geeft Thumbnail Image-objecten terug voor alle dia's van een presentatie met aangepaste schaal. |
+| [getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-int---float-float-) | Geeft Thumbnail Image-objecten terug voor opgegeven dia's van een presentatie met aangepaste schaal. |
+| [getImages(IRenderingOptions options, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-) | Geeft Thumbnail Image-objecten terug voor alle dia's van een presentatie met opgegeven grootte. |
+| [getImages(IRenderingOptions options, int[] slides, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-) | Geeft Thumbnail Image-objecten terug voor opgegeven dia's van een presentatie met opgegeven grootte. |
+| [save(String fname, int[] slides, int format)](#save-java.lang.String-int---int-) | Slaat opgegeven dia's van een presentatie op in een bestand met het opgegeven formaat met behoud van paginanummering. |
+| [save(String fname, int[] slides, int format, ISaveOptions options)](#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-) | Slaat opgegeven dia's van een presentatie op in een bestand met het opgegeven formaat met behoud van paginanummering. |
+| [save(OutputStream stream, int[] slides, int format)](#save-java.io.OutputStream-int---int-) | Slaat opgegeven dia's van een presentatie op in een stream in het opgegeven formaat met behoud van paginanummering. |
+| [save(OutputStream stream, int[] slides, int format, ISaveOptions options)](#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-) | Slaat opgegeven dia's van een presentatie op in een stream in het opgegeven formaat met behoud van paginanummering. |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Voegt runs met dezelfde opmaak samen in alle alinea’s in alle acceptabele vormen in alle dia's. |
+| [dispose()](#dispose--) | Vrijgeeft alle bronnen die door dit Presentation-object worden gebruikt. |
+| [getPresentation()](#getPresentation--) | Geeft de bovenliggende presentatie van een tekst terug. |
 | [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | Markeert alle overeenkomsten van de voorbeeldtekst met de opgegeven kleur. |
 | [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Markeert alle overeenkomsten van de voorbeeldtekst met de opgegeven kleur. |
 | [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | Markeert alle overeenkomsten van de reguliere expressie met de opgegeven kleur. |
 | [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Vervangt alle voorkomens van de opgegeven tekst door een andere opgegeven tekst. |
-| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Vervangt alle overeenkomsten van de reguliere expressie door de opgegeven tekenreeks. |
-
+| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Vervangt alle overeenkomsten van de reguliere expressie door de opgegeven string. |
+| [refreshChartsData()](#refreshChartsData--) | Laadt de gegevens voor alle grafieken in de presentatie opnieuw vanuit hun bronwerkboeken. |
+| [refreshChartsData(boolean skipFailedCharts)](#refreshChartsData-boolean-) | Laadt de gegevens voor alle grafieken in de presentatie opnieuw vanuit hun bronwerkboeken. |
 ### Presentation() {#Presentation--}
 ```
 public Presentation()
 ```
 
-Deze constructor maakt een nieuwe presentatie vanaf nul. De gemaakte presentatie heeft één lege dia.
+Deze constructor maakt een nieuwe presentatie vanaf nul. De gemaakte presentatie bevat één lege dia.
 
 ### Presentation(LoadOptions loadOptions) {#Presentation-com.aspose.slides.LoadOptions-}
 ```
 public Presentation(LoadOptions loadOptions)
 ```
 
-Deze constructor maakt een nieuwe presentatie vanaf nul. De gemaakte presentatie heeft één lege dia.
+Deze constructor maakt een nieuwe presentatie vanaf nul. De gemaakte presentatie bevat één lege dia.
 
-**Parameters:**  
-| Parameter | Type | Beschrijving |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) | Extra laadopties. |
+| loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) | Aanvullende laadinopties. |
 
 ### Presentation(InputStream stream) {#Presentation-java.io.InputStream-}
 ```
 public Presentation(InputStream stream)
 ```
 
-Deze constructor is de primaire methode om een bestaande presentatie te lezen.
+Deze constructor is het primaire mechanisme om een bestaande presentatie te lezen.
 
 --------------------
 
@@ -153,8 +154,8 @@ Deze constructor is de primaire methode om een bestaande presentatie te lezen.
 > ```
 
 
-**Parameters:**  
-| Parameter | Type | Beschrijving |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.InputStream | Invoerstroom. |
 
@@ -163,13 +164,13 @@ Deze constructor is de primaire methode om een bestaande presentatie te lezen.
 public Presentation(InputStream stream, LoadOptions loadOptions)
 ```
 
-Deze constructor is de primaire methode om een bestaande presentatie te lezen.
+Deze constructor is het primaire mechanisme om een bestaande presentatie te lezen.
 
-**Parameters:**  
-| Parameter | Type | Beschrijving |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.InputStream | Invoerstroom. |
-| loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) | Extra laadopties. |
+| loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) | Aanvullende laadinopties. |
 
 ### Presentation(String file) {#Presentation-java.lang.String-}
 ```
@@ -182,12 +183,12 @@ Deze constructor krijgt een bronbestandspad waarvan de inhoud van de presentatie
 
 > ```
 > Presentation pres = new Presentation("demo.pptx");
-```
+> ```
 
-**Parameters:**  
-| Parameter | Type | Beschrijving |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| file | java.lang.String | Invoebestand. |
+| file | java.lang.String | Invoerbestand. |
 
 ### Presentation(String file, LoadOptions loadOptions) {#Presentation-java.lang.String-com.aspose.slides.LoadOptions-}
 ```
@@ -196,31 +197,30 @@ public Presentation(String file, LoadOptions loadOptions)
 
 Deze constructor krijgt een bronbestandspad waarvan de inhoud van de presentatie wordt gelezen.
 
-**Parameters:**  
-| Parameter | Type | Beschrijving |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| file | java.lang.String | Invoebestand. |
-| loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) | Extra laadopties. |
+| file | java.lang.String | Invoerbestand. |
+| loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) | Aanvullende laadinopties. |
 
 ### getCurrentDateTime() {#getCurrentDateTime--}
 ```
 public final Date getCurrentDateTime()
 ```
 
-Retourneert of stelt de datum en tijd in die de inhoud van datum-tijdvelden zal vervangen. Tijd van creatie van dit Presentation-object als standaard. Lezen/Schrijven java.util.Date.
+Geeft datum en tijd terug of stelt ze in, die de inhoud van datum/tijd-velden zal vervangen. Standaard de tijd van de creatie van dit Presentation-object. Lezen/Schrijven java.util.Date.
 
-**Retourneert:**  
+**Returns:**
 java.util.Date
-
 ### setCurrentDateTime(Date value) {#setCurrentDateTime-java.util.Date-}
 ```
 public final void setCurrentDateTime(Date value)
 ```
 
-Retourneert of stelt de datum en tijd in die de inhoud van datum-tijdvelden zal vervangen. Tijd van creatie van dit Presentation-object als standaard. Lezen/Schrijven java.util.Date.
+Geeft datum en tijd terug of stelt ze in, die de inhoud van datum/tijd-velden zal vervangen. Standaard de tijd van de creatie van dit Presentation-object. Lezen/Schrijven java.util.Date.
 
-**Parameters:**  
-| Parameter | Type | Beschrijving |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.util.Date |  |
 
@@ -229,17 +229,16 @@ Retourneert of stelt de datum en tijd in die de inhoud van datum-tijdvelden zal 
 public final IDOMObject getParent_Immediate()
 ```
 
-Retourneert Parent_Immediate-object. Alleen-lezen IDOMObject.
+Geeft Parent_Immediate-object terug. Alleen-lezen IDOMObject.
 
-**Retourneert:**  
+**Returns:**
 com.aspose.slides.IDOMObject
-
 ### getHeaderFooterManager() {#getHeaderFooterManager--}
 ```
 public final IPresentationHeaderFooterManager getHeaderFooterManager()
 ```
 
-Retourneert de actuele HeaderFooter-manager. Alleen-lezen [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager).
+Geeft de werkelijke HeaderFooter-beheerder terug. Alleen-lezen [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager).
 
 --------------------
 
@@ -250,20 +249,20 @@ Retourneert de actuele HeaderFooter-manager. Alleen-lezen [IPresentationHeaderFo
 >  try
 >  {
 >      IBaseSlideHeaderFooterManager headerFooterManager = pres.getSlides().get_Item(0).getHeaderFooterManager();
->      if (!headerFooterManager.isFooterVisible()) // Property IsFooterVisible wordt gebruikt om aan te geven dat een slide-voetnoot-placeholder niet aanwezig is.
+>      if (!headerFooterManager.isFooterVisible()) // Eigenschap IsFooterVisible wordt gebruikt om aan te geven dat er geen slide-voettekstplaceholder aanwezig is.
 >      {
->          headerFooterManager.setFooterVisibility(true); // Methode SetFooterVisibility wordt gebruikt om een slide-voetnoot-placeholder zichtbaar te maken.
+>          headerFooterManager.setFooterVisibility(true); // Methode SetFooterVisibility wordt gebruikt om een slide-voettekstplaceholder zichtbaar te maken.
 >      }
->      if (!headerFooterManager.isSlideNumberVisible()) // Property IsSlideNumberVisible wordt gebruikt om aan te geven dat een slide-paginanummer-placeholder niet aanwezig is.
+>      if (!headerFooterManager.isSlideNumberVisible()) // Eigenschap IsSlideNumberVisible wordt gebruikt om aan te geven dat er geen slide-paginanummerplaceholder aanwezig is.
 >      {
->          headerFooterManager.setSlideNumberVisibility(true); // Methode SetSlideNumberVisibility wordt gebruikt om een slide-paginanummer-placeholder zichtbaar te maken.
+>          headerFooterManager.setSlideNumberVisibility(true); // Methode SetSlideNumberVisibility wordt gebruikt om een slide-paginanummerplaceholder zichtbaar te maken.
 >      }
->      if (!headerFooterManager.isDateTimeVisible()) // Property IsDateTimeVisible wordt gebruikt om aan te geven dat een slide-datum-tijd-placeholder niet aanwezig is.
+>      if (!headerFooterManager.isDateTimeVisible()) // Eigenschap IsDateTimeVisible wordt gebruikt om aan te geven dat er geen slide-datum-tijdplaceholder aanwezig is.
 >      {
->          headerFooterManager.setDateTimeVisibility(true); // Methode SetFooterVisibility wordt gebruikt om een slide-datum-tijd-placeholder zichtbaar te maken.
+>          headerFooterManager.setDateTimeVisibility(true); // Methode SetFooterVisibility wordt gebruikt om een slide-datum-tijdplaceholder zichtbaar te maken.
 >      }
->      headerFooterManager.setFooterText("Footer text"); // Methode SetFooterText wordt gebruikt om tekst in te stellen voor de slide-voetnoot-placeholder.
->      headerFooterManager.setDateTimeText("Date and time text"); // Methode SetDateTimeText wordt gebruikt om tekst in te stellen voor de slide-datum-tijd-placeholder.
+>      headerFooterManager.setFooterText("Footer text"); // Methode SetFooterText wordt gebruikt om tekst in de slide-voettekstplaceholder te zetten.
+>      headerFooterManager.setDateTimeText("Date and time text"); // Methode SetDateTimeText wordt gebruikt om tekst in de slide-datum-tijdplaceholder te zetten.
 >      pres.save("Presentation.ppt", SaveFormat.Ppt);
 >  }
 >  finally
@@ -277,12 +276,12 @@ Retourneert de actuele HeaderFooter-manager. Alleen-lezen [IPresentationHeaderFo
 >  try
 >  {
 >      IMasterSlideHeaderFooterManager headerFooterManager = pres.getMasters().get_Item(0).getHeaderFooterManager();
->      headerFooterManager.setFooterAndChildFootersVisibility(true); // Methode SetFooterAndChildFootersVisibility wordt gebruikt om een master-slide en alle onderliggende voetnoot-placeholders zichtbaar te maken.
->      headerFooterManager.setSlideNumberAndChildSlideNumbersVisibility(true); // Methode SetSlideNumberAndChildSlideNumbersVisibility wordt gebruikt om een master-slide en alle onderliggende paginanummer-placeholders zichtbaar te maken.
->      headerFooterManager.setDateTimeAndChildDateTimesVisibility(true); // Methode SetDateTimeAndChildDateTimesVisibility wordt gebruikt om een master-slide en alle onderliggende datum-tijd-placeholders zichtbaar te maken.
+>      headerFooterManager.setFooterAndChildFootersVisibility(true); // Methode SetFooterAndChildFootersVisibility wordt gebruikt om een master-slide en alle onderliggende voettekstplaceholders zichtbaar te maken.
+>      headerFooterManager.setSlideNumberAndChildSlideNumbersVisibility(true); // Methode SetSlideNumberAndChildSlideNumbersVisibility wordt gebruikt om een master-slide en alle onderliggende paginanummerplaceholders zichtbaar te maken.
+>      headerFooterManager.setDateTimeAndChildDateTimesVisibility(true); // Methode SetDateTimeAndChildDateTimesVisibility wordt gebruikt om een master-slide en alle onderliggende datum-tijdplaceholders zichtbaar te maken.
 > 
->      headerFooterManager.setFooterAndChildFootersText("Footer text"); // Methode SetFooterAndChildFootersText wordt gebruikt om tekst in te stellen voor de master-slide en alle onderliggende voetnoot-placeholders.
->      headerFooterManager.setDateTimeAndChildDateTimesText("Date and time text"); // Methode SetDateTimeAndChildDateTimesText wordt gebruikt om tekst in te stellen voor de master-slide en alle onderliggende datum-tijd-placeholders.
+>      headerFooterManager.setFooterAndChildFootersText("Footer text"); // Methode SetFooterAndChildFootersText wordt gebruikt om tekst in de master-slide en alle onderliggende voettekstplaceholders te zetten.
+>      headerFooterManager.setDateTimeAndChildDateTimesText("Date and time text"); // Methode SetDateTimeAndChildDateTimesText wordt gebruikt om tekst in de master-slide en alle onderliggende datum-tijdplaceholders te zetten.
 >  }
 >  finally
 >  {
@@ -291,25 +290,23 @@ Retourneert de actuele HeaderFooter-manager. Alleen-lezen [IPresentationHeaderFo
 > ```
 
 
-**Retourneert:**  
+**Returns:**
 [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager)
-
 ### getProtectionManager() {#getProtectionManager--}
 ```
 public final IProtectionManager getProtectionManager()
 ```
 
-Haalt manager van de machtigingen voor deze presentatie. Alleen-lezen [IProtectionManager](../../com.aspose.slides/iprotectionmanager).
+Haalt de beheerder van de permissies voor deze presentatie op. Alleen-lezen [IProtectionManager](../../com.aspose.slides/iprotectionmanager).
 
-**Retourneert:**  
+**Returns:**
 [IProtectionManager](../../com.aspose.slides/iprotectionmanager)
-
 ### getSlides() {#getSlides--}
 ```
 public final ISlideCollection getSlides()
 ```
 
-Retourneert een lijst van alle dia's die in de presentatie zijn gedefinieerd. Alleen-lezen [ISlideCollection](../../com.aspose.slides/islidecollection).
+Geeft een lijst van alle dia's die zijn gedefinieerd in de presentatie. Alleen-lezen [ISlideCollection](../../com.aspose.slides/islidecollection).
 
 --------------------
 
@@ -336,13 +333,13 @@ Retourneert een lijst van alle dia's die in de presentatie zijn gedefinieerd. Al
 >  // Instantieer de Presentation-klasse die het presentiebestand vertegenwoordigt
 >  Presentation pres = new Presentation("SetImageAsBackground.pptx");
 >  try {
->      // Stel de achtergrond in met een afbeelding
+>      // Stel de achtergrond in met Afbeelding
 >      pres.getSlides().get_Item(0).getBackground().setType(BackgroundType.OwnBackground);
 >      pres.getSlides().get_Item(0).getBackground().getFillFormat().setFillType(FillType.Picture);
 >      pres.getSlides().get_Item(0).getBackground().getFillFormat().getPictureFillFormat().setPictureFillMode(PictureFillMode.Stretch);
 >      // Stel de afbeelding in
 >      BufferedImage img = ImageIO.read(new File("Tulips.jpg"));
->      // Voeg afbeelding toe aan de afbeeldingencollectie van de presentatie
+>      // Voeg de afbeelding toe aan de afbeeldingencollectie van de presentatie
 >      IPPImage imgx = pres.getImages().addImage(img);
 >      pres.getSlides().get_Item(0).getBackground().getFillFormat().getPictureFillFormat().getPicture().setImage(imgx);
 >      // Schrijf de presentatie naar schijf
@@ -355,13 +352,13 @@ Retourneert een lijst van alle dia's die in de presentatie zijn gedefinieerd. Al
 >  
 >  The following example shows how to add slide transition Presentation.
 >  
->  // Instantieer Presentation-klasse om het bronpresentatiebestand te laden
+>  // Instantieer de Presentation-klasse om het bronpresentiebestand te laden
 >  Presentation pres = new Presentation("AccessSlides.pptx");
 >  try
 >  {
->      // Pas een cirkeltype overgang toe op dia 1
+>      // Pas cirkeltypeovergang toe op dia 1
 >      pres.getSlides().get_Item(0).getSlideShowTransition().setType(TransitionType.Circle);
->      // Pas een kamtype overgang toe op dia 2
+>      // Pas kamtypeovergang toe op dia 2
 >      pres.getSlides().get_Item(1).getSlideShowTransition().setType(TransitionType.Comb);
 >      // Schrijf de presentatie naar schijf
 >      pres.save("SampleTransition_out.pptx", SaveFormat.Pptx);
@@ -373,21 +370,21 @@ Retourneert een lijst van alle dia's die in de presentatie zijn gedefinieerd. Al
 >  
 >  The following example shows how to add advanced slide Transition.
 >  
->  // Instantieer Presentation-klasse die een presentatiebestand vertegenwoordigt
+>  // Instantieer de Presentation-klasse die een presentiebestand vertegenwoordigt
 >  Presentation pres = new Presentation("BetterSlideTransitions.pptx");
 >  try
 >  {
->      // Pas een cirkeltype overgang toe op dia 1
+>      // Pas cirkeltypeovergang toe op dia 1
 >      pres.getSlides().get_Item(0).getSlideShowTransition().setType(TransitionType.Circle);
 >      // Stel de overgangstijd in op 3 seconden
 >      pres.getSlides().get_Item(0).getSlideShowTransition().setAdvanceOnClick(true);
 >      pres.getSlides().get_Item(0).getSlideShowTransition().setAdvanceAfterTime(3000);
->      // Pas een kamtype overgang toe op dia 2
+>      // Pas kamtypeovergang toe op dia 2
 >      pres.getSlides().get_Item(1).getSlideShowTransition().setType(TransitionType.Comb);
 >      // Stel de overgangstijd in op 5 seconden
 >      pres.getSlides().get_Item(1).getSlideShowTransition().setAdvanceOnClick(true);
 >      pres.getSlides().get_Item(1).getSlideShowTransition().setAdvanceAfterTime(5000);
->      // Pas een zoomtype overgang toe op dia 3
+>      // Pas zoomtypeovergang toe op dia 3
 >      pres.getSlides().get_Item(2).getSlideShowTransition().setType(TransitionType.Zoom);
 >      // Stel de overgangstijd in op 7 seconden
 >      pres.getSlides().get_Item(2).getSlideShowTransition().setAdvanceOnClick(true);
@@ -402,15 +399,14 @@ Retourneert een lijst van alle dia's die in de presentatie zijn gedefinieerd. Al
 > ```
 
 
-**Retourneert:**  
+**Returns:**
 [ISlideCollection](../../com.aspose.slides/islidecollection)
-
 ### getSections() {#getSections--}
 ```
 public final ISectionCollection getSections()
 ```
 
-Retourneert een lijst van alle dia-secties die in de presentatie zijn gedefinieerd. Alleen-lezen [ISectionCollection](../../com.aspose.slides/isectioncollection).
+Geeft een lijst van alle secties van dia's die zijn gedefinieerd in de presentatie. Alleen-lezen [ISectionCollection](../../com.aspose.slides/isectioncollection).
 
 --------------------
 
@@ -425,7 +421,7 @@ Retourneert een lijst van alle dia-secties die in de presentatie zijn gedefiniee
 >      ISlide newSlide3 = pres.getSlides().addEmptySlide(pres.getLayoutSlides().get_Item(0));
 >      ISlide newSlide4 = pres.getSlides().addEmptySlide(pres.getLayoutSlides().get_Item(0));
 >      ISection section1 = pres.getSections().addSection("Section 1", newSlide1);
->      // section1 zal eindigen bij newSlide2 en daarna start section2
+>      // section1 wordt beëindigd bij newSlide2 en daarna start section2
 >      ISection section2 = pres.getSections().addSection("Section 2", newSlide3);
 >      pres.save("pres-sections.pptx", SaveFormat.Pptx);
 >      pres.getSections().reorderSectionWithSlides(section2, 0);
@@ -449,15 +445,14 @@ Retourneert een lijst van alle dia-secties die in de presentatie zijn gedefiniee
 > ```
 
 
-**Retourneert:**  
+**Returns:**
 [ISectionCollection](../../com.aspose.slides/isectioncollection)
-
 ### getSlideSize() {#getSlideSize--}
 ```
 public final ISlideSize getSlideSize()
 ```
 
-Retourneert dia-groottobject. Alleen-lezen [ISlideSize](../../com.aspose.slides/islidesize).
+Geeft een slide-grootte-object terug. Alleen-lezen [ISlideSize](../../com.aspose.slides/islidesize).
 
 --------------------
 
@@ -474,16 +469,16 @@ Retourneert dia-groottobject. Alleen-lezen [ISlideSize](../../com.aspose.slides/
 >  
 >  The following example shows how to set slide size with respect to content scaling for a PowerPoint Presentation.
 >  
->  // Instantiate a Presentation object that represents a presentation file
+>  // Instantieer een Presentation-object dat een presentiebestand vertegenwoordigt
 >  Presentation presentation = new Presentation("AccessSlides.pptx");
 >  try {
 >      Presentation auxPresentation = new Presentation();
 >      try {
 >          ISlide slide = presentation.getSlides().get_Item(0);
->          // Set the slide size of generated presentations to that of source
->          presentation.getSlideSize().setSize(540, 720, SlideSizeScaleType.EnsureFit); // Method SetSize is used for set slide size with scale content to ensure fit
->          presentation.getSlideSize().setSize(SlideSizeType.A4Paper, SlideSizeScaleType.Maximize); // Method SetSize is used for set slide size with maximize size of content
->          // Save Presentation to disk
+>          // Stel de dia-afmeting van gegenereerde presentaties in op die van de bron
+>          presentation.getSlideSize().setSize(540, 720, SlideSizeScaleType.EnsureFit); // Methode SetSize wordt gebruikt om de dia-afmeting in te stellen met geschaalde inhoud zodat deze past
+>          presentation.getSlideSize().setSize(SlideSizeType.A4Paper, SlideSizeScaleType.Maximize); // Methode SetSize wordt gebruikt om de dia-afmeting in te stellen met maximale grootte van de inhoud
+>          // Sla de presentatie op naar schijf
 >          auxPresentation.save("Set_Size&Type_out.pptx", SaveFormat.Pptx);
 >      } finally {
 >          if (auxPresentation != null) auxPresentation.dispose();
@@ -496,46 +491,44 @@ Retourneert dia-groottobject. Alleen-lezen [ISlideSize](../../com.aspose.slides/
 >  
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
->      pres.getSlideSize().setSize(780, 540, SlideSizeScaleType.DoNotScale); // A4 paper size
+>      pres.getSlideSize().setSize(780, 540, SlideSizeScaleType.DoNotScale); // A4-papierformaat
 >      pres.save("pres-a4-slide-size.pptx", SaveFormat.Pptx);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
 > ```
 
-**Retourneert:**  
-[ISlideSize](../../com.aspose.slides/islidesize)
 
+**Returns:**
+[ISlideSize](../../com.aspose.slides/islidesize)
 ### getNotesSize() {#getNotesSize--}
 ```
 public final INotesSize getNotesSize()
 ```
 
-Retourneert notities-dia-groottobject. Alleen-lezen [INotesSize](../../com.aspose.slides/inotessize).
+Geeft een notitie-slide-grootte-object terug. Alleen-lezen [INotesSize](../../com.aspose.slides/inotessize).
 
-**Retourneert:**  
+**Returns:**
 [INotesSize](../../com.aspose.slides/inotessize)
-
 ### getLayoutSlides() {#getLayoutSlides--}
 ```
 public final IGlobalLayoutSlideCollection getLayoutSlides()
 ```
 
-Retourneert een lijst van alle lay-outdia's die in de presentatie zijn gedefinieerd. Alleen-lezen [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection).
+Geeft een lijst van alle lay-out-dia's die zijn gedefinieerd in de presentatie. Alleen-lezen [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection).
 
 --------------------
 
-U kunt alternatieve API’s gebruiken om lay-outdia's toe te voegen/in te voegen/verwijderen/kopiëren via de eigenschap IMasterSlide.LayoutSlides.
+U kunt toegang krijgen tot een alternatieve API voor het toevoegen/invoegen/verwijderen/kopiëren van lay-out-dia's via de eigenschap IMasterSlide.LayoutSlides.
 
-**Retourneert:**  
+**Returns:**
 [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection)
-
 ### getMasters() {#getMasters--}
 ```
 public final IMasterSlideCollection getMasters()
 ```
 
-Retourneert een lijst van alle masterdia's die in de presentatie zijn gedefinieerd. Alleen-lezen [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection).
+Geeft een lijst van alle master-dia's die zijn gedefinieerd in de presentatie. Alleen-lezen [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection).
 
 --------------------
 
@@ -556,15 +549,15 @@ Retourneert een lijst van alle masterdia's die in de presentatie zijn gedefiniee
 >  
 >  The following examples shows how to change the background color of the master slide of PowerPoint Presentation.
 >  
->  // Instantieer de Presentation-klasse die het presentiebestand vertegenwoordigt
+>  // Instantiate the Presentation class that represents the presentation file
 >  Presentation pres = new Presentation();
 >  try
 >  {
->      // Stel de achtergrondkleur van de Master ISlide in op Bosgroen
+>      // Set the background color of the Master ISlide to Forest Green
 >      pres.getMasters().get_Item(0).getBackground().setType(BackgroundType.OwnBackground);
 >      pres.getMasters().get_Item(0).getBackground().getFillFormat().setFillType(FillType.Solid);
 >      pres.getMasters().get_Item(0).getBackground().getFillFormat().getSolidFillColor().setColor(Color.GREEN);
->      // Schrijf de presentatie naar schijf
+>      // Write the presentation to disk
 >      pres.save("SetSlideBackgroundMaster_out.pptx", SaveFormat.Pptx);
 >  }
 >  finally
@@ -574,11 +567,11 @@ Retourneert een lijst van alle masterdia's die in de presentatie zijn gedefiniee
 >  
 >  The following examples shows how to add slide layout to PowerPoint Presentation.
 >  
->  // Instantieer de Presentation-klasse die een presentiebestand vertegenwoordigt
+>  // Instantiate Presentation class that represents the presentation file
 >  Presentation presentation = new Presentation("AccessSlides.pptx");
 >  try
 >  {
->      // Probeer te zoeken op lay-out-dia type
+>      // Try to search by layout slide type
 >      IMasterLayoutSlideCollection layoutSlides = presentation.getMasters().get_Item(0).getLayoutSlides();
 >      ILayoutSlide layoutSlide = null;
 >      if (layoutSlides.getByType(SlideLayoutType.TitleAndObject) != null)
@@ -588,13 +581,13 @@ Retourneert een lijst van alle masterdia's die in de presentatie zijn gedefiniee
 > 
 >      if (layoutSlide == null)
 >      {
->          // De situatie wanneer een presentatie niet enkele type lay-outs bevat.
->          // Presentatiebestand bevat alleen lege en aangepaste lay-outtypen.
->          // Maar lay-outdia's met aangepaste typen hebben verschillende dia-namen,
->          // zoals "Title", "Title and Content", etc. En het is mogelijk deze te gebruiken
->          // voor lay-out-diaselectie.
->          // Ook is het mogelijk om de set van placeholder-vormtypen te gebruiken. Bijvoorbeeld,
->          // Titel-dia moet alleen het Title-placeholder type hebben, etc.
+>          // The situation when a presentation doesn't contain some type of layouts.
+>          // presentation File only contains Blank and Custom layout types.
+>          // But layout slides with Custom types has different slide names,
+>          // like "Title", "Title and Content", etc. And it is possible to use these
+>          // names for layout slide selection.
+>          // Also it is possible to use the set of placeholder shape types. For example,
+>          // Title slide should have only Title pleceholder type, etc.
 >          for (ILayoutSlide titleAndObjectLayoutSlide : (Iterable) layoutSlides)
 >          {
 >              if ("Title and Object".equals(titleAndObjectLayoutSlide.getName()))
@@ -623,9 +616,9 @@ Retourneert een lijst van alle masterdia's die in de presentatie zijn gedefiniee
 >              }
 >          }
 >      }
->      // Voeg lege dia toe met toegevoegde lay-outdia
+>      // Adding empty slide with added layout slide
 >      presentation.getSlides().insertEmptySlide(0, layoutSlide);
->      // Sla presentatie op
+>      // Save presentation
 >      presentation.save("AddLayoutSlides_out.pptx", SaveFormat.Pptx);
 >  }
 >  finally
@@ -634,36 +627,32 @@ Retourneert een lijst van alle masterdia's die in de presentatie zijn gedefiniee
 >  }
 > ```
 
-
-**Retourneert:**  
+**Returns:**
 [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection)
-
 ### getMasterNotesSlideManager() {#getMasterNotesSlideManager--}
 ```
 public final IMasterNotesSlideManager getMasterNotesSlideManager()
 ```
 
-Retourneert notities-master-manager. Alleen-lezen [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager).
+Geeft notitie-master-beheerder terug. Alleen-lezen [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager).
 
-**Retourneert:**  
+**Returns:**
 [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager)
-
 ### getMasterHandoutSlideManager() {#getMasterHandoutSlideManager--}
 ```
 public final IMasterHandoutSlideManager getMasterHandoutSlideManager()
 ```
 
-Retourneert handout-master-manager. Alleen-lezen [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager).
+Geeft handout-master-beheerder terug. Alleen-lezen [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager).
 
-**Retourneert:**  
+**Returns:**
 [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager)
-
 ### getFontsManager() {#getFontsManager--}
 ```
 public final IFontsManager getFontsManager()
 ```
 
-Retourneert lettertype-manager. Alleen-lezen [IFontsManager](../../com.aspose.slides/ifontsmanager).
+Geeft de lettertype-beheerder terug. Alleen-lezen [IFontsManager](../../com.aspose.slides/ifontsmanager).
 
 --------------------
 
@@ -700,45 +689,41 @@ Retourneert lettertype-manager. Alleen-lezen [IFontsManager](../../com.aspose.sl
 > ```
 
 
-**Retourneert:**  
+**Returns:**
 [IFontsManager](../../com.aspose.slides/ifontsmanager)
-
 ### getDefaultTextStyle() {#getDefaultTextStyle--}
 ```
 public final ITextStyle getDefaultTextStyle()
 ```
 
-Retourneert standaardtekstopmaak voor vormen. Alleen-lezen [ITextStyle](../../com.aspose.slides/itextstyle).
+Geeft de standaard tekststijl voor vormen terug. Alleen-lezen [ITextStyle](../../com.aspose.slides/itextstyle).
 
-**Retourneert:**  
+**Returns:**
 [ITextStyle](../../com.aspose.slides/itextstyle)
-
 ### getCommentAuthors() {#getCommentAuthors--}
 ```
 public final ICommentAuthorCollection getCommentAuthors()
 ```
 
-Retourneert de collectie van commentaarauteurs. Alleen-lezen [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection).
+Geeft de verzameling van commentaarauteurs terug. Alleen-lezen [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection).
 
-**Retourneert:**  
+**Returns:**
 [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection)
-
 ### getDocumentProperties() {#getDocumentProperties--}
 ```
 public final IDocumentProperties getDocumentProperties()
 ```
 
-Retourneert een DocumentProperties-object dat standaard- en aangepaste documenteigenschappen bevat. Alleen-lezen [IDocumentProperties](../../com.aspose.slides/idocumentproperties).
+Geeft een DocumentProperties-object terug dat standaard- en aangepaste documenteigenschappen bevat. Alleen-lezen [IDocumentProperties](../../com.aspose.slides/idocumentproperties).
 
-**Retourneert:**  
+**Returns:**
 [IDocumentProperties](../../com.aspose.slides/idocumentproperties)
-
 ### getImages() {#getImages--}
 ```
 public final IImageCollection getImages()
 ```
 
-Retourneert de collectie van alle afbeeldingen in de presentatie. Alleen-lezen [IImageCollection](../../com.aspose.slides/iimagecollection).
+Geeft de verzameling van alle afbeeldingen in de presentatie terug. Alleen-lezen [IImageCollection](../../com.aspose.slides/iimagecollection).
 
 --------------------
 
@@ -753,12 +738,12 @@ Retourneert de collectie van alle afbeeldingen in de presentatie. Alleen-lezen [
 >      FileInputStream fip = new FileInputStream("large_image.jpg");
 >      try
 >      {
->          // Laten we de afbeelding aan de presentatie toevoegen - we kiezen KeepLocked-gedrag omdat we
->          // NIET van plan zijn het "largeImage.png" bestand te benaderen.
+>          // Laten we de afbeelding aan de presentatie toevoegen - we kiezen KeepLocked gedrag omdat we
+>          // NIET van plan zijn om het "largeImage.png" bestand te benaderen.
 >          IPPImage img = pres.getImages().addImage(fip, LoadingStreamBehavior.KeepLocked);
 >          pres.getSlides().get_Item(0).getShapes().addPictureFrame(ShapeType.Rectangle, 0, 0, 300, 200, img);
->          // Slaat de presentatie op. Terwijl een grote presentatie wordt geëxporteerd, blijft het geheugenverbruik
->          // laag gedurende de levensduur van het pres-object
+>          // Slaat de presentatie op. Terwijl een grote presentatie wordt gegenereerd, blijft het geheugenverbruik
+>          // laag gedurende de levenscyclus van het pres-object
 >          pres.save("presentationWithLargeImage.pptx", SaveFormat.Pptx);
 >      }
 >      finally
@@ -776,7 +761,7 @@ Retourneert de collectie van alle afbeeldingen in de presentatie. Alleen-lezen [
 >  
 >  Presentation pres = new Presentation();
 >  try {
->      // Voegt afbeelding toe aan de presentatie
+>      // Voegt afbeelding toe aan presentatie
 >      IPPImage image = pres.getImages().addImage(Files.readAllBytes(Paths.get("image.png")));
 >      // Maakt een afbeeldingframe op dia 1 op basis van de eerder toegevoegde afbeelding
 >      IPictureFrame pictureFrame = pres.getSlides().get_Item(0).getShapes().addPictureFrame(ShapeType.Rectangle, 10, 10, 100, 100, image);
@@ -791,15 +776,13 @@ Retourneert de collectie van alle afbeeldingen in de presentatie. Alleen-lezen [
 > ```
 
 
-**Retourneert:**  
+**Returns:**
 [IImageCollection](../../com.aspose.slides/iimagecollection)
-
 ### getAudios() {#getAudios--}
 ```
 public final IAudioCollection getAudios()
 ```
-
-Retourneert de collectie van alle ingebedde audiobestanden in de presentatie. Alleen-lezen [IAudioCollection](../../com.aspose.slides/iaudiocollection).
+Retourneert de collectie van alle ingesloten audiobestanden in de presentatie. Alleen-lezen [IAudioCollection](../../com.aspose.slides/iaudiocollection).
 
 --------------------
 
@@ -822,203 +805,66 @@ Retourneert de collectie van alle ingebedde audiobestanden in de presentatie. Al
 > ```
 
 
-**Retourneert:**  
+**Retourneert:**
 [IAudioCollection](../../com.aspose.slides/iaudiocollection)
-
 ### getVideos() {#getVideos--}
 ```
 public final IVideoCollection getVideos()
 ```
-Returns de collectie van alle ingesloten videobestanden in de presentatie. Alleen-lezen [IVideoCollection](../../com.aspose.slides/ivideocollection).
+
+
+Retourneert de collectie van alle ingesloten videobestanden in de presentatie. Alleen-lezen [IVideoCollection](../../com.aspose.slides/ivideocollection).
 
 --------------------
 
 > ```
-> The following examples shows how to create embedded Video Frame in a PowerPoint Presentation.
+> The following examples shows how to add image as BLOB in PowerPoint Presentation.
 >  
->  // Instantiate Presentation class that represents the PPTX
+>  // maakt een nieuwe presentatie waaraan de afbeelding wordt toegevoegd.
 >  Presentation pres = new Presentation();
->  try {
->      // Get the first slide
->      ISlide sld = pres.getSlides().get_Item(0);
->      // Embedd vide inside presentation
->      IVideo vid = pres.getVideos().addVideo(new FileInputStream("Wildlife.mp4"));
->      // Add Video Frame
->      IVideoFrame vf = sld.getShapes().addVideoFrame(50, 150, 300, 350, vid);
->      // Set video to Video Frame
->      vf.setEmbeddedVideo(vid);
->      // Set Play Mode and Volume of the Video
->      vf.setPlayMode(VideoPlayModePreset.Auto);
->      vf.setVolume(AudioVolumeMode.Loud);
->      // Write the PPTX file to disk
->      pres.save("VideoFrame_out.pptx", SaveFormat.Pptx);
->  } catch(IOException e) {
->  } finally {
->      if (pres != null) pres.dispose();
->  }
->  
->  The following examples shows how to add a video passing path to the video file directly into AddVideoFrame method for PowerPoint Presentation.
->  
->  Presentation pres = new Presentation();
->  try {
->      ISlide sld = pres.getSlides().get_Item(0);
->      IVideoFrame vf = sld.getShapes().addVideoFrame(50, 150, 300, 150, "video1.avi");
->  } finally {
->      if (pres != null) pres.dispose();
->  }
->  
->  The following examples shows how to add large file through BLOB to a Presentation.
->  
->  // Creates a new presentation to which the video will be added
->  Presentation pres = new Presentation();
->  try {
->      FileInputStream fileStream = new FileInputStream("veryLargeVideo.avi");
->      try {
->          // Let's add the video to the presentation - we chose the KeepLocked behavior because we do
->          //not intend to access the "veryLargeVideo.avi" file.
->          IVideo video = pres.getVideos().addVideo(fileStream, LoadingStreamBehavior.KeepLocked);
->          pres.getSlides().get_Item(0).getShapes().addVideoFrame(0, 0, 480, 270, video);
->          // Saves the presentation. While a large presentation gets outputted, the memory consumption
->          // stays low through the pres object's lifecycle
->          pres.save("presentationWithLargeVideo.pptx", SaveFormat.Pptx);
->      } finally {
->          if (fileStream != null) fileStream.close();
->      }
->  } catch(IOException e) {
->  } finally {
->      if (pres != null) pres.dispose();
->  }
->  
->  The following examples shows how to export large file through BLOB from PowerPoint Presentation.
->  
->  LoadOptions loadOptions = new LoadOptions();
->  // Locks the source file and does NOT load it into memory
->  loadOptions.getBlobManagementOptions().setPresentationLockingBehavior(PresentationLockingBehavior.KeepLocked);
->  // Creates a Presentation's instance, locks the "hugePresentationWithAudiosAndVideos.pptx" file.
->  Presentation pres = new Presentation("Large  Video File Test1.pptx", loadOptions);
->  try {
->      // Let's save each video to a file. To prevent high memory usage, we need a buffer that will be used
->      // to transfer the data from the presentation's video stream to a stream for a newly created video file.
->      byte[] buffer = new byte[81024];
->      // Iterates through the videos
->      for (int index = 0; index < pres.getVideos().size(); index++) {
->          IVideo video = pres.getVideos().get_Item(index);
->          // Opens the presentation video stream. Please, note that we intentionally avoided accessing properties
->          // like video.BinaryData - because this property returns a byte array containing a full video, which then
->          // causes bytes to be loaded into memory. We use video.GetStream, which will return Stream - and does NOT
->          //  require us to load the whole video into the memory.
->          InputStream presVideoStream = video.getStream();
->          try {
->              FileOutputStream outputFileStream = new FileOutputStream("video{index}.avi");
->              try {
->                  int bytesRead;
->                  while ((bytesRead = presVideoStream.read(buffer, 0, buffer.length)) > 0) {
->                      outputFileStream.write(buffer, 0, bytesRead);
->                  }
->              } finally {
->                  if (outputFileStream != null) outputFileStream.close();
->              }
->          } finally {
->              if (presVideoStream != null) presVideoStream.close();
->          }
->          // Memory consumption will remain low regardless of the size of the video or presentation,
->      }
->      // If necessary, you can apply the same steps for audio files.
->  } catch(IOException e) {
->  } finally {
->      if (pres != null) pres.dispose();
->  }
->  
->  The following examples shows how to add a hyperlink to a video in a PowerPoint Presentation.
->  
->  Presentation pres = new Presentation();
->  try {
->      IVideo video = pres.getVideos().addVideo(Files.readAllBytes(Paths.get("video.avi")));
->      IVideoFrame videoFrame = pres.getSlides().get_Item(0).getShapes().addVideoFrame(10, 10, 100, 100, video);
->      videoFrame.setHyperlinkClick(new Hyperlink("https://www.aspose.com/"));
->      videoFrame.getHyperlinkClick().setTooltip("More than 70% Fortune 100 companies trust Aspose APIs");
->      pres.save("pres-out.pptx", SaveFormat.Pptx);
->  } catch(IOException e) {
->  } finally {
->      if (pres != null) pres.dispose();
->  }
->  
->  The following examples shows how to create Video Frame with Video from Web Source in a PowerPoint Presentation.
->  
->  public static void run()
+>  try
 >  {
->      Presentation pres = new Presentation();
->      try {
->          addVideoFromYouTube(pres, "Tj75Arhq5ho");
->          pres.save("AddVideoFrameFromWebSource_out.pptx", SaveFormat.Pptx);
->      } catch(IOException e) {
->      } finally {
->          if (pres != null) pres.dispose();
->      }
->  }
->  private static void addVideoFromYouTube(Presentation pres, String videoId) throws IOException
->  {
->      //add videoFrame
->      IVideoFrame videoFrame = pres.getSlides().get_Item(0).getShapes().addVideoFrame(10, 10, 427, 240, "https://www.youtube.com/embed/" + videoId);
->      videoFrame.setPlayMode(VideoPlayModePreset.Auto);
-> 
->      //load thumbnail
->      String thumbnailUri = "http://img.youtube.com/vi/" + videoId + "/hqdefault.jpg";
->      URL url = new URL(thumbnailUri);
->      URLConnection connection = url.openConnection();
->      connection.setConnectTimeout(5000);
->      connection.setReadTimeout(10000);
->      InputStream input = connection.getInputStream();
->      ByteArrayOutputStream output = new ByteArrayOutputStream();
+>      // ervan uitgaande dat we het grote afbeeldingsbestand hebben dat we in de presentatie willen opnemen
+>      FileInputStream fip = new FileInputStream("large_image.jpg");
 >      try
 >      {
->          byte[] buffer = new byte[8192];
->          for (int count; (count = input.read(buffer)) > 0; )
->          {
->              output.write(buffer, 0, count);
->          }
->          videoFrame.getPictureFormat().getPicture().setImage(pres.getImages().addImage(output.toByteArray()));
->      } finally {
->          if (input != null) input.close();
->          if (output != null) output.close();
+>          // Laten we de afbeelding aan de presentatie toevoegen - we kiezen KeepLocked gedrag omdat we
+>          // NIET van plan zijn om het "largeImage.png" bestand te benaderen.
+>          IPPImage img = pres.getImages().addImage(fip, LoadingStreamBehavior.KeepLocked);
+>          pres.getSlides().get_Item(0).getShapes().addPictureFrame(ShapeType.Rectangle, 0, 0, 300, 200, img);
+>          // Slaat de presentatie op. Terwijl een grote presentatie wordt gegenereerd, blijft het geheugenverbruik
+>          // laag gedurende de levenscyclus van het pres-object
+>          pres.save("presentationWithLargeImage.pptx", SaveFormat.Pptx);
+>      }
+>      finally
+>      {
+>          fip.close();
 >      }
 >  }
+>  catch (java.io.IOException e) { }
+>  finally
+>  {
+>      pres.dispose();
+>  }
 >  
->  The following examples shows how to extract Video from slide of PowerPoint Presentation.
+>  The following examples add a hyperlink to an image in a PowerPoint Presentation.
 >  
->  // Instantiate a Presentation object that represents a presentation file
->  Presentation presentation = new Presentation("Video.pptx");
+>  Presentation pres = new Presentation();
 >  try {
->      for (ISlide slide : presentation.getSlides())
->      {
->          for (IShape shape : presentation.getSlides().get_Item(0).getShapes())
->          {
->              if (shape instanceof VideoFrame)
->              {
->                  IVideoFrame vf = (IVideoFrame) shape;
->                  String type = vf.getEmbeddedVideo().getContentType();
->                  int ss = type.lastIndexOf('/');
->                  type = type.substring(ss + 1);
->                  byte[] buffer = vf.getEmbeddedVideo().getBinaryData();
->                  FileOutputStream fop = new FileOutputStream("NewVideo_out." + type);
->                  try
->                  {
->                      fop.write(buffer);
->                      fop.flush();
->                      fop.close();
->                  }
->                  finally
->                  {
->                      if (presentation != null) presentation.dispose();
->                  }
->              }
->          }
->      }
->  } catch(IOException e) {
->  } finally {
->      if (presentation != null) presentation.dispose();
+>      // Voegt afbeelding toe aan presentatie
+>      IPPImage image = pres.getImages().addImage(Files.readAllBytes(Paths.get("image.png")));
+>      // Maakt een afbeeldingframe op dia 1 op basis van de eerder toegevoegde afbeelding
+>      IPictureFrame pictureFrame = pres.getSlides().get_Item(0).getShapes().addPictureFrame(ShapeType.Rectangle, 10, 10, 100, 100, image);
+>      pictureFrame.setHyperlinkClick(new Hyperlink("https://www.aspose.com/"));
+>      pictureFrame.getHyperlinkClick().setTooltip("More than 70% Fortune 100 companies trust Aspose APIs");
+>      pres.save("pres-out.pptx", SaveFormat.Pptx);
+>  } catch (IOException e){ }
+>  finally
+>  {
+>      if (pres != null) pres.dispose();
 >  }
 > ```
+
 
 **Retourneert:**
 [IVideoCollection](../../com.aspose.slides/ivideocollection)
@@ -1028,7 +874,7 @@ public final SlideShowSettings getSlideShowSettings()
 ```
 
 
-Retourneert de diavoorstelling-instellingen voor de presentatie.
+Retourneert de instellingen voor de diavoorstelling van de presentatie.
 
 **Retourneert:**
 [SlideShowSettings](../../com.aspose.slides/slideshowsettings)
@@ -1038,7 +884,7 @@ public final IDigitalSignatureCollection getDigitalSignatures()
 ```
 
 
-Retourneert de collectie handtekeningen die worden gebruikt om de presentatie te ondertekenen. Alleen-lezen [IDigitalSignatureCollection](../../com.aspose.slides/idigitalsignaturecollection).
+Retourneert de collectie van handtekeningen die zijn gebruikt om de presentatie te ondertekenen. Alleen-lezen [IDigitalSignatureCollection](../../com.aspose.slides/idigitalsignaturecollection).
 
 --------------------
 
@@ -1094,7 +940,7 @@ Retourneert alle aangepaste gegevensonderdelen in de presentatie. Alleen-lezen I
 >  
 >  Presentation pres = new Presentation("PresentationWithCustomXml.pptx");
 >  try {
->      // Itereer over alle aangepaste XML-onderdelen
+>      // Itereren over alle aangepaste XML-onderdelen
 >      for (ICustomXmlPart item : pres.getAllCustomXmlParts())
 >      {
 >          item.remove();
@@ -1116,7 +962,7 @@ public final IVbaProject getVbaProject()
 ```
 
 
-Haalt of stelt VBA-project met presentatiemacro's in. Lezen/Schrijven [IVbaProject](../../com.aspose.slides/ivbaproject).
+Haalt het VBA-project op of stelt het in met presentatiemacro’s. Lezen/Schrijven [IVbaProject](../../com.aspose.slides/ivbaproject).
 
 **Retourneert:**
 [IVbaProject](../../com.aspose.slides/ivbaproject)
@@ -1126,20 +972,20 @@ public final void setVbaProject(IVbaProject value)
 ```
 
 
-Haalt of stelt VBA-project met presentatiemacro's in. Lezen/Schrijven [IVbaProject](../../com.aspose.slides/ivbaproject).
+Stelt het VBA-project met presentatiemacro’s in. Lezen/Schrijven [IVbaProject](../../com.aspose.slides/ivbaproject).
 
 **Parameters:**
-| Parameter | Type | Description |
+| Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | value | [IVbaProject](../../com.aspose.slides/ivbaproject) |  |
 
 ### getHyperlinkQueries() {#getHyperlinkQueries--}
 ```
-public final IHyperlinkQueries getHyperlinkQueries()
+public              
 ```
 
 
-Biedt gemakkelijke toegang tot alle hyperlinks die in alle presentatieslides staan (niet in master-, lay-out- of notitieslides). Alleen-lezen [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
+Biedt eenvoudige toegang tot alle hyperlinks die voorkomen in alle presentatieslides (niet in master-, lay- of notitieslides). Alleen-lezen [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
 
 **Retourneert:**
 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)
@@ -1149,7 +995,7 @@ public final IViewProperties getViewProperties()
 ```
 
 
-Haalt presentatiewijde weergave-eigenschappen op. Alleen-lezen [IViewProperties](../../com.aspose.slides/iviewproperties).
+Haalt de weergave-eigenschappen voor de gehele presentatie op. Alleen-lezen [IViewProperties](../../com.aspose.slides/iviewproperties).
 
 **Retourneert:**
 [IViewProperties](../../com.aspose.slides/iviewproperties)
@@ -1159,7 +1005,7 @@ public final int getFirstSlideNumber()
 ```
 
 
-Geeft het eerste slide-nummer in de presentatie weer
+Geeft het eerste slidennummer in de presentatie weer
 
 **Retourneert:**
 int
@@ -1169,10 +1015,10 @@ public final void setFirstSlideNumber(int value)
 ```
 
 
-Geeft het eerste slide-nummer in de presentatie weer
+Stelt het eerste slidennummer in de presentatie in
 
 **Parameters:**
-| Parameter | Type | Description |
+| Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | value | int |  |
 
@@ -1182,7 +1028,7 @@ public final ISensitivityLabelCollection getSensitivityLabels()
 ```
 
 
-Retourneert de collectie gevoeligheidslabels die op het presentatiedocument zijn toegepast. Alleen-lezen [ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection).
+Retourneert de collectie van gevoeligheids-labels die op het presentatiedocument zijn toegepast. Alleen-lezen [ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection).
 
 --------------------
 
@@ -1197,7 +1043,7 @@ Retourneert de collectie gevoeligheidslabels die op het presentatiedocument zijn
 > 
 >      // Voeg het nieuwe label toe
 >      String labelIdString = "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"; // Haal de gevoeligheidslabel-ID op uit het beleid
->      UUID siteIdGuid = UUID.fromString("{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"); // Haal de Azure AD-site-id op uit het beleid
+>      UUID siteIdGuid = UUID.fromString("{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"); // Haal de Azure AD-site-identificator op uit het beleid
 >      ISensitivityLabel label = sensitivityLabels.add(labelIdString, siteIdGuid, true, SensitivityLabelAssignmentType.Privileged);
 >      label.getContentMarkTypes().addItem(SensitivityLabelContentType.Footer);
 > 
@@ -1219,7 +1065,7 @@ public final IBaseSlide getSlideById(long id)
 Retourneert een Slide, MasterSlide of LayoutSlide op basis van Id.
 
 **Parameters:**
-| Parameter | Type | Description |
+| Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | id | long | Id van een slide. |
 
@@ -1231,7 +1077,7 @@ public final int getSourceFormat()
 ```
 
 
-Retourneert informatie over vanuit welk formaat de presentatie is geladen. Alleen-lezen [SourceFormat](../../com.aspose.slides/sourceformat).
+Retourneert informatie over uit welk formaat de presentatie is geladen. Alleen-lezen [SourceFormat](../../com.aspose.slides/sourceformat).
 
 **Retourneert:**
 int
@@ -1248,7 +1094,7 @@ Retourneert het master-thema. Alleen-lezen [IMasterTheme](../../com.aspose.slide
 > ```
 > The following examples shows how to change a theme effect by altering parts of elements of PowerPoint Presentation.
 >  
->  //Instantieer een presentatie-object dat een presentiebestand vertegenwoordigt
+>  // Instantieer een Presentation-object dat een presentiebestand vertegenwoordigt
 >  Presentation pres = new Presentation("Subtle_Moderate_Intense.pptx");
 >  try {
 >      pres.getMasterTheme().getFormatScheme().getLineStyles().get_Item(0).getFillFormat().getSolidFillColor().setColor(Color.RED);
@@ -1275,9 +1121,9 @@ public final void save(String fname, int format)
 Slaat alle slides van een presentatie op in een bestand met het opgegeven formaat.
 
 **Parameters:**
-| Parameter | Type | Description |
+| Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| fname | java.lang.String | Pad naar het aangemaakte bestand. |
+| fname | java.lang.String | Pad naar het te maken bestand. |
 | format | int | Formaat van de geëxporteerde gegevens. |
 
 ### save(OutputStream stream, int format) {#save-java.io.OutputStream-int-}
@@ -1286,12 +1132,12 @@ public final void save(OutputStream stream, int format)
 ```
 
 
-Slaat alle slides van een presentatie op in een stream in het opgegeven formaat.
+Slaat alle slides van een presentatie op in een stream met het opgegeven formaat.
 
 **Parameters:**
-| Parameter | Type | Description |
+| Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| stream | java.io.OutputStream | Output-stream. |
+| stream | java.io.OutputStream | Uitvoerstroom. |
 | format | int | Formaat van de geëxporteerde gegevens. |
 
 ### save(String fname, int format, ISaveOptions options) {#save-java.lang.String-int-com.aspose.slides.ISaveOptions-}
@@ -1300,14 +1146,14 @@ public final void save(String fname, int format, ISaveOptions options)
 ```
 
 
-Slaat alle slides van een presentatie op in een bestand met het opgegeven formaat en met aanvullende opties.
+Slaat alle slides van een presentatie op in een bestand met het opgegeven formaat en met extra opties.
 
 **Parameters:**
-| Parameter | Type | Description |
+| Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| fname | java.lang.String | Pad naar het aangemaakte bestand. |
+| fname | java.lang.String | Pad naar het te maken bestand. |
 | format | int | Formaat van de geëxporteerde gegevens. |
-| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Aanvullende formaat-opties. |
+| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Extra opmaakopties. |
 
 ### save(OutputStream stream, int format, ISaveOptions options) {#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-}
 ```
@@ -1315,14 +1161,14 @@ public final void save(OutputStream stream, int format, ISaveOptions options)
 ```
 
 
-Slaat alle slides van een presentatie op in een stream in het opgegeven formaat en met aanvullende opties.
+Slaat alle slides van een presentatie op in een stream met het opgegeven formaat en met extra opties.
 
 **Parameters:**
-| Parameter | Type | Description |
+| Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| stream | java.io.OutputStream | Output-stream. |
+| stream | java.io.OutputStream | Uitvoerstroom. |
 | format | int | Formaat van de geëxporteerde gegevens. |
-| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Aanvullende formaat-opties. |
+| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Extra opmaakopties. |
 
 ### save(IXamlOptions options) {#save-com.aspose.slides.IXamlOptions-}
 ```
@@ -1330,7 +1176,7 @@ public final void save(IXamlOptions options)
 ```
 
 
-Slaat alle slides van een presentatie op in een reeks bestanden die XAML-markup vertegenwoordigen.
+Slaat alle slides van een presentatie op in een set bestanden die XAML-markering vertegenwoordigen.
 
 --------------------
 
@@ -1348,7 +1194,7 @@ Slaat alle slides van een presentatie op in een reeks bestanden die XAML-markup 
 
 
 **Parameters:**
-| Parameter | Type | Description |
+| Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | options | [IXamlOptions](../../com.aspose.slides/ixamloptions) | De XAML-formaatopties. |
 
@@ -1361,7 +1207,7 @@ public final IImage[] getImages(IRenderingOptions options)
 Retourneert Image-objecten voor alle slides van een presentatie.
 
 **Parameters:**
-| Parameter | Type | Description |
+| Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff-opties. |
 
@@ -1373,13 +1219,13 @@ public final IImage[] getImages(IRenderingOptions options, int[] slides)
 ```
 
 
-Retourneert miniatuur-Image-objecten voor opgegeven slides van een presentatie.
+Retourneert Thumbnail-Image-objecten voor de opgegeven slides van een presentatie.
 
 **Parameters:**
-| Parameter | Type | Description |
+| Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff-opties. |
-| slides | int[] | Array met slide-posities, beginnend vanaf 1. |
+| slides | int[] | Array met slide-posities, beginnend bij 1. |
 
 **Retourneert:**
 com.aspose.slides.IImage[] - Image-objecten.
@@ -1389,14 +1235,14 @@ public final IImage[] getImages(IRenderingOptions options, float scaleX, float s
 ```
 
 
-Retourneert miniatuur-Image-objecten voor alle slides van een presentatie met aangepaste schaal.
+Retourneert Thumbnail-Image-objecten voor alle slides van een presentatie met aangepaste schaal.
 
 **Parameters:**
-| Parameter | Type | Description |
+| Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff-opties. |
-| scaleX | float | De waarde waarmee deze miniatuur in de x-as wordt geschaald. |
-| scaleY | float | De waarde waarmee deze miniatuur in de y-as wordt geschaald. |
+| scaleX | float | De waarde waarmee deze Thumbnail in x-richting wordt geschaald. |
+| scaleY | float | De waarde waarmee deze Thumbnail in y-richting wordt geschaald. |
 
 **Retourneert:**
 com.aspose.slides.IImage[] - Image-objecten.
@@ -1406,15 +1252,15 @@ public final IImage[] getImages(IRenderingOptions options, int[] slides, float s
 ```
 
 
-Retourneert miniatuur-Image-objecten voor opgegeven slides van een presentatie met aangepaste schaal.
+Retourneert Thumbnail-Image-objecten voor de opgegeven slides van een presentatie met aangepaste schaal.
 
 **Parameters:**
-| Parameter | Type | Description |
+| Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff-opties. |
-| slides | int[] | Array met slide-posities, beginnend vanaf 1. |
-| scaleX | float | De waarde waarmee deze miniatuur in de x-as wordt geschaald. |
-| scaleY | float | De waarde waarmee deze miniatuur in de y-as wordt geschaald. |
+| slides | int[] | Array met slide-posities, beginnend bij 1. |
+| scaleX | float | De waarde waarmee deze Thumbnail in x-richting wordt geschaald. |
+| scaleY | float | De waarde waarmee deze Thumbnail in y-richting wordt geschaald. |
 
 **Retourneert:**
 com.aspose.slides.IImage[] - Image-objecten.
@@ -1424,13 +1270,13 @@ public final IImage[] getImages(IRenderingOptions options, Dimension imageSize)
 ```
 
 
-Retourneert miniatuur-Image-objecten voor alle slides van een presentatie met opgegeven grootte.
+Retourneert Thumbnail-Image-objecten voor alle slides van een presentatie met opgegeven grootte.
 
 **Parameters:**
-| Parameter | Type | Description |
+| Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff-opties. |
-| imageSize | java.awt.Dimension | Grootte van de te maken afbeelding. |
+| imageSize | java.awt.Dimension | Grootte van de te creëren afbeelding. |
 
 **Retourneert:**
 com.aspose.slides.IImage[] - Image-objecten.
@@ -1440,14 +1286,14 @@ public final IImage[] getImages(IRenderingOptions options, int[] slides, Dimensi
 ```
 
 
-Retourneert miniatuur-Image-objecten voor opgegeven slides van een presentatie met opgegeven grootte.
+Retourneert Thumbnail-Image-objecten voor de opgegeven slides van een presentatie met opgegeven grootte.
 
 **Parameters:**
-| Parameter | Type | Description |
+| Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff-opties. |
-| slides | int[] | Array met slide-posities, beginnend vanaf 1. |
-| imageSize | java.awt.Dimension | Grootte van de te maken afbeelding. |
+| slides | int[] | Array met slide-posities, beginnend bij 1. |
+| imageSize | java.awt.Dimension | Grootte van de te creëren afbeelding. |
 
 **Retourneert:**
 com.aspose.slides.IImage[] - Image-objecten.
@@ -1457,13 +1303,13 @@ public final void save(String fname, int[] slides, int format)
 ```
 
 
-Slaat opgegeven slides van een presentatie op in een bestand met het opgegeven formaat met behoud van paginanummer.
+Slaat de opgegeven slides van een presentatie op in een bestand met het opgegeven formaat met behoud van paginanummering.
 
 **Parameters:**
-| Parameter | Type | Description |
+| Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| fname | java.lang.String | Pad naar het aangemaakte bestand. |
-| slides | int[] | Array met slide-posities, beginnend vanaf 1. |
+| fname | java.lang.String | Pad naar het te maken bestand. |
+| slides | int[] | Array met slide-posities, beginnend bij 1. |
 | format | int | Formaat van de geëxporteerde gegevens. |
 
 ### save(String fname, int[] slides, int format, ISaveOptions options) {#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-}
@@ -1472,15 +1318,15 @@ public final void save(String fname, int[] slides, int format, ISaveOptions opti
 ```
 
 
-Slaat opgegeven slides van een presentatie op in een bestand met het opgegeven formaat met behoud van paginanummer.
+Slaat de opgegeven slides van een presentatie op in een bestand met het opgegeven formaat met behoud van paginanummering.
 
 **Parameters:**
-| Parameter | Type | Description |
+| Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| fname | java.lang.String | Pad naar het aangemaakte bestand. |
-| slides | int[] | Array met slide-posities, beginnend vanaf 1. |
+| fname | java.lang.String | Pad naar het te maken bestand. |
+| slides | int[] | Array met slide-posities, beginnend bij 1. |
 | format | int | Formaat van de geëxporteerde gegevens. |
-| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Aanvullende formaat-opties. |
+| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Extra opmaakopties. |
 
 ### save(OutputStream stream, int[] slides, int format) {#save-java.io.OutputStream-int---int-}
 ```
@@ -1488,13 +1334,13 @@ public final void save(OutputStream stream, int[] slides, int format)
 ```
 
 
-Slaat opgegeven slides van een presentatie op in een stream in het opgegeven formaat met behoud van paginanummer.
+Slaat de opgegeven slides van een presentatie op in een stream met het opgegeven formaat met behoud van paginanummering.
 
 **Parameters:**
-| Parameter | Type | Description |
+| Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| stream | java.io.OutputStream | Output-stream. |
-| slides | int[] | Array met slide-posities, beginnend vanaf 1. |
+| stream | java.io.OutputStream | Uitvoerstroom. |
+| slides | int[] | Array met slide-posities, beginnend bij 1. |
 | format | int | Formaat van de geëxporteerde gegevens. |
 
 ### save(OutputStream stream, int[] slides, int format, ISaveOptions options) {#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-}
@@ -1503,12 +1349,12 @@ public final void save(OutputStream stream, int[] slides, int format, ISaveOptio
 ```
 
 
-Slaat opgegeven slides van een presentatie op in een stream in het opgegeven formaat met behoud van paginanummer.
+Slaat de opgegeven slides van een presentatie op in een stream met het opgegeven formaat met behoud van paginanummering.
 
 --------------------
 
 > ```
-> The following example shows how to convert PowerPoint to PNG.
+> Het volgende voorbeeld laat zien hoe je PowerPoint naar PNG converteert.
 >  
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
@@ -1521,7 +1367,7 @@ Slaat opgegeven slides van een presentatie op in een stream in het opgegeven for
 >      if (pres != null) pres.dispose();
 >  }
 >  
->  The following example shows how to convert PowerPoint to PNG with custom dimensions.
+>  Het volgende voorbeeld laat zien hoe je PowerPoint naar PNG converteert met aangepaste dimensies.
 >  
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
@@ -1536,7 +1382,7 @@ Slaat opgegeven slides van een presentatie op in een stream in het opgegeven for
 >      if (pres != null) pres.dispose();
 >  }
 >  
->  The following example shows how to convert PowerPoint to PNG with custom size.
+>  Het volgende voorbeeld laat zien hoe je PowerPoint naar PNG converteert met aangepaste grootte.
 >  
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
@@ -1553,12 +1399,12 @@ Slaat opgegeven slides van een presentatie op in een stream in het opgegeven for
 
 
 **Parameters:**
-| Parameter | Type | Description |
+| Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| stream | java.io.OutputStream | Output-stream. |
-| slides | int[] | Array met slide-posities, beginnend vanaf 1. |
+| stream | java.io.OutputStream | Uitvoerstroom. |
+| slides | int[] | Array met slide-posities, beginnend bij 1. |
 | format | int | Formaat van de geëxporteerde gegevens. |
-| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Aanvullende formaat-opties. |
+| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Extra opmaakopties. |
 
 ### joinPortionsWithSameFormatting() {#joinPortionsWithSameFormatting--}
 ```
@@ -1566,7 +1412,7 @@ public final void joinPortionsWithSameFormatting()
 ```
 
 
-Voegt runs samen met dezelfde opmaak in alle alinea's in alle aanvaardbare shapes in alle slides.
+Voegt runs met dezelfde opmaak samen in alle alinea’s in alle aanvaardbare shapes in alle slides.
 
 ### dispose() {#dispose--}
 ```
@@ -1601,7 +1447,7 @@ Markeert alle overeenkomsten van de voorbeeldtekst met de opgegeven kleur.
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
->      // markeren van alle afzonderlijke 'the' voorkomens
+>      // markeert alle afzonderlijke 'the' vermeldingen
 >      presentation.highlightText("the", Color.MAGENTA);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -1611,9 +1457,9 @@ Markeert alle overeenkomsten van de voorbeeldtekst met de opgegeven kleur.
 
 
 **Parameters:**
-| Parameter | Type | Description |
+| Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| text | java.lang.String | De tekst om te markeren. |
+| text | java.lang.String | De te markeren tekst. |
 | highlightColor | java.awt.Color | De kleur om de tekst te markeren. |
 
 ### highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
@@ -1627,13 +1473,13 @@ Markeert alle overeenkomsten van de voorbeeldtekst met de opgegeven kleur.
 --------------------
 
 > ```
-> Het volgende codevoorbeeld toont hoe tekst kan worden gemarkeerd in een PowerPoint-presentatie.
+> The following code sample shows how to highlight text in a PowerPoint presentation.
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      TextSearchOptions textSearchOptions = new TextSearchOptions();
 >      textSearchOptions.setWholeWordsOnly(true);
->      // markeren van alle afzonderlijke 'the' voorkomens
+>      // markeert alle afzonderlijke 'the' vermeldingen
 >      presentation.highlightText("the", Color.MAGENTA, textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -1641,11 +1487,10 @@ Markeert alle overeenkomsten van de voorbeeldtekst met de opgegeven kleur.
 >  }
 > ```
 
-
 **Parameters:**
-| Parameter | Type | Description |
+| Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| text | java.lang.String | De tekst om te markeren. |
+| text | java.lang.String | De te markeren tekst. |
 | highlightColor | java.awt.Color | De kleur om de tekst te markeren. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Tekst-zoekopties [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Het callback-object voor het ontvangen van zoekresultaten [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
@@ -1666,7 +1511,7 @@ Markeert alle overeenkomsten van de reguliere expressie met de opgegeven kleur.
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      Pattern regex = Pattern.compile("\\b[^\\s]{10,}\\b");
->      // highlighting all words with 10 symbols or longer
+>      // markeren van alle woorden met 10 tekens of langer
 >      presentation.highlightRegex(regex, Color.BLUE, null);
 >      presentation.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -1674,16 +1519,20 @@ Markeert alle overeenkomsten van de reguliere expressie met de opgegeven kleur.
 >  }
 > ```
 
+
 **Parameters:**
-| Parameter | Type | Description |
+| Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | De reguliere expressie java.util.regex.Pattern om strings te krijgen die gemarkeerd moeten worden. |
+
+| regex | java.util.regex.Pattern | De reguliere expressie java.util.regex.Pattern om tekenreeksen te markeren. |
 | highlightColor | java.awt.Color | De kleur om de tekst te markeren. |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Het callback-object voor het ontvangen van zoekresultaten [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+
 ### replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback) {#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
 public final void replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)
 ```
+
 
 Vervangt alle voorkomens van de opgegeven tekst door een andere opgegeven tekst.
 
@@ -1696,7 +1545,7 @@ Vervangt alle voorkomens van de opgegeven tekst door een andere opgegeven tekst.
 >  try {
 >      TextSearchOptions textSearchOptions = new TextSearchOptions();
 >      textSearchOptions.setWholeWordsOnly(true);
->      // Replace all separate 'the' occurrences with '***'
+>      // Vervang alle afzonderlijke 'the' vermeldingen door '***'
 >      presentation.replaceText("the", "***", textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -1704,11 +1553,12 @@ Vervangt alle voorkomens van de opgegeven tekst door een andere opgegeven tekst.
 >  }
 > ```
 
+
 **Parameters:**
-| Parameter | Type | Beschrijving |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| oldText | java.lang.String | De string die moet worden vervangen. |
-| newText | java.lang.String | De string om alle voorkomens van oldText te vervangen. |
+| oldText | java.lang.String | De tekenreeks die vervangen moet worden. |
+| newText | java.lang.String | De tekenreeks om alle voorkomens van oldText te vervangen. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Tekstzoekopties [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Het callback-object voor het ontvangen van zoekresultaten [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
@@ -1717,7 +1567,8 @@ Vervangt alle voorkomens van de opgegeven tekst door een andere opgegeven tekst.
 public final void replaceRegex(Pattern regex, String newText, IFindResultCallback callback)
 ```
 
-Vervangt alle overeenkomsten van de reguliere expressie door de opgegeven string.
+
+Vervangt alle overeenkomsten van de reguliere expressie door de opgegeven tekenreeks.
 
 --------------------
 
@@ -1726,7 +1577,7 @@ Vervangt alle overeenkomsten van de reguliere expressie door de opgegeven string
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      Pattern regex = Pattern.compile("\\b[^\\s]{10,}\\b");
->      // Vervang alle woorden met 10 tekens of langer door '***'
+>      // Replace all words with 10 symbols or longer with '***'
 >      presentation.replaceRegex(regex, "***", null);
 >      presentation.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -1736,8 +1587,55 @@ Vervangt alle overeenkomsten van de reguliere expressie door de opgegeven string
 
 
 **Parameters:**
-| Parameter | Type | Beschrijving |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | De reguliere expressie java.util.regex.Pattern om strings te verkrijgen die moeten worden vervangen. |
-| newText | java.lang.String | De string om alle voorkomens van de te vervangen strings te vervangen. |
+| regex | java.util.regex.Pattern | De reguliere expressie java.util.regex.Pattern om tekenreeksen te vervangen. |
+| newText | java.lang.String | De tekenreeks om alle voorkomens van de te vervangen tekenreeksen te vervangen. |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Het callback-object voor het ontvangen van zoekresultaten [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+
+### refreshChartsData() {#refreshChartsData--}
+```
+public final void refreshChartsData()
+```
+
+
+Laadt de gegevens voor alle grafieken in de presentatie opnieuw vanuit hun bronwerkboeken.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("PresentationWithCharts.pptx");
+>  try {
+>      presentation.refreshChartsData();
+>      presentation.save("PresentationWithCharts-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+
+### refreshChartsData(boolean skipFailedCharts) {#refreshChartsData-boolean-}
+```
+public final void refreshChartsData(boolean skipFailedCharts)
+```
+
+
+Laadt de gegevens voor alle grafieken in de presentatie opnieuw vanuit hun bronwerkboeken.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("PresentationWithCharts.pptx");
+>  try {
+>      presentation.refreshChartsData();
+>      presentation.save("PresentationWithCharts-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| skipFailedCharts | boolean | Bepaalt of het vernieuwingsproces doorgaat als een grafiek niet kan worden bijgewerkt. Indien true worden grafieken die een uitzondering veroorzaken overgeslagen; anders wordt de uitzondering doorgegeven. |

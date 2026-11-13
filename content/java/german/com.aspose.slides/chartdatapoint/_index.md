@@ -1,31 +1,31 @@
 ---
 title: ChartDataPoint
 second_title: Aspose.Slides für Java API-Referenz
-description: Stellt einen Seriendatenpunkt dar.
+description: Stellt einen Datenpunkt einer Serie dar.
 type: docs
 url: /de/com.aspose.slides/chartdatapoint/
 ---
-**Vererbung:**
+**Inheritance:**
 java.lang.Object
 
-**Alle implementierten Schnittstellen:**
+**All Implemented Interfaces:**
 [com.aspose.slides.IChartDataPoint](../../com.aspose.slides/ichartdatapoint), com.aspose.slides.IDOMObject
 ```
 public class ChartDataPoint implements IChartDataPoint, IDOMObject
 ```
 
-Stellt ein Seriendatenpunkt dar.
+Stellt einen Serien-Datenpunkt dar.
 ## Methoden
 
-| Methode | Beschreibung |
+| Method | Description |
 | --- | --- |
 | [getXValue()](#getXValue--) | XValue. |
 | [getYValue()](#getYValue--) | YValue. |
 | [getBubbleSize()](#getBubbleSize--) | BubbleSize. |
 | [getValue()](#getValue--) | Value. |
-| [getSizeValue()](#getSizeValue--) | Gibt den Größenwert des Diagrammdatenpunkts zurück. |
+| [getSizeValue()](#getSizeValue--) | Gibt den Größewert des Diagrammdatenpunkts zurück. |
 | [getColorValue()](#getColorValue--) | Gibt den Farbwert des Diagrammdatenpunkts zurück. |
-| [getErrorBarsCustomValues()](#getErrorBarsCustomValues--) | Stellt Serien-Fehlerbalkenwerte im Fall des benutzerdefinierten Werttyps dar. |
+| [getErrorBarsCustomValues()](#getErrorBarsCustomValues--) | Stellt die Fehlerbalkenwerte der Serie im Fall des benutzerdefinierten Werttyps dar. |
 | [getLabel()](#getLabel--) | Label. |
 | [isBubble3D()](#isBubble3D--) | Gibt an, dass die Blasen einen 3-D-Effekt erhalten. |
 | [setBubble3D(boolean value)](#setBubble3D-boolean-) | Gibt an, dass die Blasen einen 3-D-Effekt erhalten. |
@@ -34,16 +34,20 @@ Stellt ein Seriendatenpunkt dar.
 | [getFormat()](#getFormat--) | Stellt die Formatierungseigenschaften dar. |
 | [setFormat(IFormat value)](#setFormat-com.aspose.slides.IFormat-) | Stellt die Formatierungseigenschaften dar. |
 | [getMarker()](#getMarker--) | Gibt einen Datenmarker an. |
-| [getSetAsTotal()](#getSetAsTotal--) | Setzt Datenpunkt als Gesamtwert. |
-| [setSetAsTotal(boolean value)](#setSetAsTotal-boolean-) | Setzt Datenpunkt als Gesamtwert. |
+| [getSetAsTotal()](#getSetAsTotal--) | Setzt den Datenpunkt als Gesamtsumme. |
+| [setSetAsTotal(boolean value)](#setSetAsTotal-boolean-) | Setzt den Datenpunkt als Gesamtsumme. |
 | [getRelatedLegendEntry()](#getRelatedLegendEntry--) | Eigenschaften des entsprechenden Legendeneintrags im Fall von Diagrammtypen aus dieser Liste: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. |
 | [remove()](#remove--) | Entfernt DataPoint aus der Diagrammserie. |
-| [getDataPointLevels()](#getDataPointLevels--) | Gibt den Container der Datenpunktenebenen zurück. |
+| [getDataPointLevels()](#getDataPointLevels--) | Gibt den Container der Datenpunkteniveaus zurück. |
 | [getIndex()](#getIndex--) |    |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-| [getAutomaticDataPointColor()](#getAutomaticDataPointColor--) | Gibt eine automatische Farbe des Datenpunkts basierend auf Serienindex, Datenpunktindex, ParentSeriesGroup.IsColorVaried-Eigenschaft und Diagrammstil zurück. |
+| [getAutomaticDataPointColor()](#getAutomaticDataPointColor--) | Gibt eine automatische Farbe des Datenpunkts zurück, basierend auf Serien-Index, Datenpunkt-Index, ParentSeriesGroup.IsColorVaried-Eigenschaft und Diagrammstil. |
 | [getInvertIfNegative()](#getInvertIfNegative--) | Gibt an, dass der Datenpunkt seine Farben invertiert, wenn der Wert negativ ist. |
 | [setInvertIfNegative(boolean value)](#setInvertIfNegative-boolean-) | Gibt an, dass der Datenpunkt seine Farben invertiert, wenn der Wert negativ ist. |
+| [getCachedValue()](#getCachedValue--) | Gibt den zwischengespeicherten Wert eines Diagrammdatenpunkts zurück. |
+| [getCachedXValue()](#getCachedXValue--) | Gibt den zwischengespeicherten X-Wert eines Diagrammdatenpunkts zurück. |
+| [getCachedYValue()](#getCachedYValue--) | Gibt den zwischengespeicherten Y-Wert eines Diagrammdatenpunkts zurück. |
+| [getCachedBubbleSize()](#getCachedBubbleSize--) | Gibt die zwischengespeicherte Blasengröße eines Diagrammdatenpunkts zurück. |
 | [getActualX()](#getActualX--) | Gibt die tatsächliche x-Position (links) des Diagrammelements relativ zur linken oberen Ecke des Diagramms an. |
 | [getActualY()](#getActualY--) | Gibt die tatsächliche obere Position des Diagrammelements relativ zur linken oberen Ecke des Diagramms an. |
 | [getActualWidth()](#getActualWidth--) | Gibt die tatsächliche Breite des Diagrammelements an. |
@@ -54,9 +58,9 @@ public final IStringOrDoubleChartValue getXValue()
 ```
 
 
-XValue. Schreibgeschützt [IStringOrDoubleChartValue](../../com.aspose.slides/istringordoublechartvalue).
+XValue. Nur lesbar [IStringOrDoubleChartValue](../../com.aspose.slides/istringordoublechartvalue).
 
-**Rückgabe:**
+**Rückgabewert:**
 [IStringOrDoubleChartValue](../../com.aspose.slides/istringordoublechartvalue)
 ### getYValue() {#getYValue--}
 ```
@@ -64,9 +68,9 @@ public final IDoubleChartValue getYValue()
 ```
 
 
-YValue. Schreibgeschützt [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
+YValue. Nur lesbar [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
-**Rückgabe:**
+**Rückgabewert:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
 ### getBubbleSize() {#getBubbleSize--}
 ```
@@ -74,9 +78,9 @@ public final IDoubleChartValue getBubbleSize()
 ```
 
 
-BubbleSize. Schreibgeschützt [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
+BubbleSize. Nur lesbar [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
-**Rückgabe:**
+**Rückgabewert:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
 ### getValue() {#getValue--}
 ```
@@ -84,9 +88,9 @@ public final IDoubleChartValue getValue()
 ```
 
 
-Value. Schreibgeschützt [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
+Value. Nur lesbar [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
-**Rückgabe:**
+**Rückgabewert:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
 ### getSizeValue() {#getSizeValue--}
 ```
@@ -94,9 +98,9 @@ public final IDoubleChartValue getSizeValue()
 ```
 
 
-Gibt den Größenwert des Diagrammdatenpunkts zurück. Wird mit Treemap- und Sunburst-Diagrammen verwendet. Schreibgeschützt [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
+Gibt den Größewert des Diagrammdatenpunkts zurück. Wird mit Treemap- und Sunburst-Diagrammen verwendet. Nur lesbar [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
-**Rückgabe:**
+**Rückgabewert:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
 ### getColorValue() {#getColorValue--}
 ```
@@ -104,9 +108,9 @@ public final IDoubleChartValue getColorValue()
 ```
 
 
-Gibt den Farbwert des Diagrammdatenpunkts zurück. Wird mit Karten-Diagrammen verwendet. Schreibgeschützt [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
+Gibt den Farbwert des Diagrammdatenpunkts zurück. Wird mit Karten-Diagrammen verwendet. Nur lesbar [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
-**Rückgabe:**
+**Rückgabewert:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
 ### getErrorBarsCustomValues() {#getErrorBarsCustomValues--}
 ```
@@ -114,9 +118,9 @@ public final IErrorBarsCustomValues getErrorBarsCustomValues()
 ```
 
 
-Stellt Serien-Fehlerbalkenwerte im Fall des benutzerdefinierten Werttyps dar. Schreibgeschützt [IErrorBarsCustomValues](../../com.aspose.slides/ierrorbarscustomvalues).
+Stellt die Fehlerbalkenwerte der Serie im Fall des benutzerdefinierten Werttyps dar. Nur lesbar [IErrorBarsCustomValues](../../com.aspose.slides/ierrorbarscustomvalues).
 
-**Rückgabe:**
+**Rückgabewert:**
 [IErrorBarsCustomValues](../../com.aspose.slides/ierrorbarscustomvalues)
 ### getLabel() {#getLabel--}
 ```
@@ -124,9 +128,9 @@ public final IDataLabel getLabel()
 ```
 
 
-Label. Schreibgeschützt [IDataLabel](../../com.aspose.slides/idatalabel).
+Label. Nur lesbar [IDataLabel](../../com.aspose.slides/idatalabel).
 
-**Rückgabe:**
+**Rückgabewert:**
 [IDataLabel](../../com.aspose.slides/idatalabel)
 ### isBubble3D() {#isBubble3D--}
 ```
@@ -134,9 +138,9 @@ public final boolean isBubble3D()
 ```
 
 
-Gibt an, dass die Blasen einen 3-D-Effekt erhalten. Lese-/Schreib-Zugriff boolean.
+Gibt an, dass die Blasen einen 3-D-Effekt erhalten. Lese/Schreib boolesch.
 
-**Rückgabe:**
+**Rückgabewert:**
 boolean
 ### setBubble3D(boolean value) {#setBubble3D-boolean-}
 ```
@@ -144,10 +148,10 @@ public final void setBubble3D(boolean value)
 ```
 
 
-Gibt an, dass die Blasen einen 3-D-Effekt erhalten. Lese-/Schreib-Zugriff boolean.
+Gibt an, dass die Blasen einen 3-D-Effekt erhalten. Lese/Schreib boolesch.
 
 **Parameter:**
-| Parameter | Typ | Beschreibung |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -157,9 +161,9 @@ public final int getExplosion()
 ```
 
 
-Gibt an, um welchen Betrag der Datenpunkt vom Mittelpunkt des Kuchens verschoben werden soll. Lese-/Schreib-Zugriff int.
+Gibt an, um welchen Betrag der Datenpunkt vom Mittelpunkt des Kuchens verschoben werden soll. Lese/Schreib int.
 
-**Rückgabe:**
+**Rückgabewert:**
 int
 ### setExplosion(int value) {#setExplosion-int-}
 ```
@@ -167,10 +171,10 @@ public final void setExplosion(int value)
 ```
 
 
-Gibt an, um welchen Betrag der Datenpunkt vom Mittelpunkt des Kuchens verschoben werden soll. Lese-/Schreib-Zugriff int.
+Gibt an, um welchen Betrag der Datenpunkt vom Mittelpunkt des Kuchens verschoben werden soll. Lese/Schreib int.
 
 **Parameter:**
-| Parameter | Typ | Beschreibung |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
@@ -180,9 +184,9 @@ public final IFormat getFormat()
 ```
 
 
-Stellt die Formatierungseigenschaften dar. Lese-/Schreib-Zugriff [IFormat](../../com.aspose.slides/iformat).
+Stellt die Formatierungseigenschaften dar. Lese/Schreib [IFormat](../../com.aspose.slides/iformat).
 
-**Rückgabe:**
+**Rückgabewert:**
 [IFormat](../../com.aspose.slides/iformat)
 ### setFormat(IFormat value) {#setFormat-com.aspose.slides.IFormat-}
 ```
@@ -190,10 +194,10 @@ public final void setFormat(IFormat value)
 ```
 
 
-Stellt die Formatierungseigenschaften dar. Lese-/Schreib-Zugriff [IFormat](../../com.aspose.slides/iformat).
+Stellt die Formatierungseigenschaften dar. Lese/Schreib [IFormat](../../com.aspose.slides/iformat).
 
 **Parameter:**
-| Parameter | Typ | Beschreibung |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | [IFormat](../../com.aspose.slides/iformat) |  |
 
@@ -201,9 +205,7 @@ Stellt die Formatierungseigenschaften dar. Lese-/Schreib-Zugriff [IFormat](../..
 ```
 public final IMarker getMarker()
 ```
-
-
-Gibt einen Datenmarker an. Schreibgeschützt [IMarker](../../com.aspose.slides/imarker).
+Legt einen Datenmarker fest. Nur lesbar [IMarker](../../com.aspose.slides/imarker).
 
 **Rückgabe:**
 [IMarker](../../com.aspose.slides/imarker)
@@ -212,8 +214,7 @@ Gibt einen Datenmarker an. Schreibgeschützt [IMarker](../../com.aspose.slides/i
 public final boolean getSetAsTotal()
 ```
 
-
-Setzt Datenpunkt als Gesamtwert. Wird nur für Waterfall-Serientyp verwendet.
+Setzt den Datenpunkt als Gesamtsumme. Nur für den Serien-Typ Waterfall anwendbar.
 
 **Rückgabe:**
 boolean
@@ -222,8 +223,7 @@ boolean
 public final void setSetAsTotal(boolean value)
 ```
 
-
-Setzt Datenpunkt als Gesamtwert. Wird nur für Waterfall-Serientyp verwendet.
+Setzt den Datenpunkt als Gesamtsumme. Nur für den Serien-Typ Waterfall anwendbar.
 
 **Parameter:**
 | Parameter | Typ | Beschreibung |
@@ -235,8 +235,7 @@ Setzt Datenpunkt als Gesamtwert. Wird nur für Waterfall-Serientyp verwendet.
 public final ILegendEntryProperties getRelatedLegendEntry()
 ```
 
-
-Eigenschaften des entsprechenden Legendeneintrags im Fall von Diagrammtypen aus dieser Liste: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Schreibgeschützt [ILegendEntryProperties](../../com.aspose.slides/ilegendentryproperties).
+Eigenschaften des entsprechenden Legendeneintrags für Diagrammtypen aus dieser Liste: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Nur lesbar [ILegendEntryProperties](../../com.aspose.slides/ilegendentryproperties).
 
 **Rückgabe:**
 [ILegendEntryProperties](../../com.aspose.slides/ilegendentryproperties)
@@ -245,7 +244,6 @@ Eigenschaften des entsprechenden Legendeneintrags im Fall von Diagrammtypen aus 
 public final void remove()
 ```
 
-
 Entfernt DataPoint aus der Diagrammserie.
 
 ### getDataPointLevels() {#getDataPointLevels--}
@@ -253,8 +251,7 @@ Entfernt DataPoint aus der Diagrammserie.
 public final IChartDataPointLevelsManager getDataPointLevels()
 ```
 
-
-Gibt den Container der Datenpunktenebenen zurück. Wird für Treeamp- und Sunburst-Serien verwendet. Die Indizierung der Datenpunktenebenen beginnt bei Null.
+Gibt den Container der Datenpunkt-Ebenen zurück. Gilt für die Serien Treeamp und Sunburst. Die Indizierung der Datenpunkt-Ebenen ist nullbasiert.
 
 **Rückgabe:**
 [IChartDataPointLevelsManager](../../com.aspose.slides/ichartdatapointlevelsmanager)
@@ -263,9 +260,6 @@ Gibt den Container der Datenpunktenebenen zurück. Wird für Treeamp- und Sunbur
 public final long getIndex()
 ```
 
-
-  
-
 **Rückgabe:**
 long
 ### getParent_Immediate() {#getParent-Immediate--}
@@ -273,8 +267,7 @@ long
 public final IDOMObject getParent_Immediate()
 ```
 
-
-Gibt das Parent_Immediate-Objekt zurück. Schreibgeschützt IDOMObject.
+Gibt das Parent_Immediate-Objekt zurück. Nur lesbar IDOMObject.
 
 **Rückgabe:**
 com.aspose.slides.IDOMObject
@@ -283,8 +276,7 @@ com.aspose.slides.IDOMObject
 public final Color getAutomaticDataPointColor()
 ```
 
-
-Gibt eine automatische Farbe des Datenpunkts basierend auf Serienindex, Datenpunktindex, ParentSeriesGroup.IsColorVaried-Eigenschaft und Diagrammstil zurück. Diese Farbe wird standardmäßig verwendet, wenn FillType gleich NotDefined ist.
+Gibt eine automatische Farbe des Datenpunkts zurück, basierend auf dem Serien-Index, dem Datenpunkt-Index, der Eigenschaft ParentSeriesGroup.IsColorVaried und dem Diagrammstil. Diese Farbe wird standardmäßig verwendet, wenn FillType gleich NotDefined ist.
 
 **Rückgabe:**
 java.awt.Color
@@ -293,8 +285,7 @@ java.awt.Color
 public final boolean getInvertIfNegative()
 ```
 
-
-Gibt an, dass der Datenpunkt seine Farben invertiert, wenn der Wert negativ ist. Lese-/Schreib-Zugriff boolean.
+Legt fest, dass der Datenpunkt seine Farben invertiert, wenn der Wert negativ ist. Lese/Schreib boolean.
 
 **Rückgabe:**
 boolean
@@ -303,21 +294,124 @@ boolean
 public final void setInvertIfNegative(boolean value)
 ```
 
-
-Gibt an, dass der Datenpunkt seine Farben invertiert, wenn der Wert negativ ist. Lese-/Schreib-Zugriff boolean.
+Legt fest, dass der Datenpunkt seine Farben invertiert, wenn der Wert negativ ist. Lese/Schreib boolean.
 
 **Parameter:**
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | value | boolean |  |
 
+### getCachedValue() {#getCachedValue--}
+```
+public final ICachedChartValue getCachedValue()
+```
+
+Liest den zwischengespeicherten Wert eines Diagrammdatenpunkts. Nur lesbar [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // Gibt alle zwischengespeicherten Werte der Diagrammserie aus.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedValue().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Rückgabe:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
+### getCachedXValue() {#getCachedXValue--}
+```
+public final ICachedChartValue getCachedXValue()
+```
+
+Liest den zwischengespeicherten X-Wert eines Diagrammdatenpunkts. Nur lesbar [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // Gibt alle zwischengespeicherten X-Werte der Diagrammserie aus.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedXValue().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Rückgabe:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
+### getCachedYValue() {#getCachedYValue--}
+```
+public final ICachedChartValue getCachedYValue()
+```
+
+Liest den zwischengespeicherten Y-Wert eines Diagrammdatenpunkts. Nur lesbar [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // Gibt alle zwischengespeicherten Y-Werte der Diagrammserie aus.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedYValue().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Rückgabe:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
+### getCachedBubbleSize() {#getCachedBubbleSize--}
+```
+public final ICachedChartValue getCachedBubbleSize()
+```
+
+Liest die zwischengespeicherte Bubble-Größe eines Diagrammdatenpunkts. Nur lesbar [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // Gibt alle zwischengespeicherten Blasengrößenwerte der Diagrammserie aus.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedBubbleSize().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Rückgabe:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
 ### getActualX() {#getActualX--}
 ```
 public final float getActualX()
 ```
 
-
-Gibt die tatsächliche x-Position (links) des Diagrammelements relativ zur linken oberen Ecke des Diagramms an. Rufen Sie vorher IChart.ValidateChartLayout() auf, um tatsächliche Werte zu erhalten. Lese-float.
+Gibt die tatsächliche x-Position (links) des Diagrammelements relativ zur linken oberen Ecke des Diagramms an. Rufen Sie vorab die Methode IChart.ValidateChartLayout() auf, um die tatsächlichen Werte zu erhalten. Nur lesbar float.
 
 **Rückgabe:**
 float
@@ -326,8 +420,7 @@ float
 public final float getActualY()
 ```
 
-
-Gibt die tatsächliche obere Position des Diagrammelements relativ zur linken oberen Ecke des Diagramms an. Rufen Sie vorher IChart.ValidateChartLayout() auf, um tatsächliche Werte zu erhalten. Lese-float.
+Gibt die tatsächliche obere Position des Diagrammelements relativ zur linken oberen Ecke des Diagramms an. Rufen Sie vorab die Methode IChart.ValidateChartLayout() auf, um die tatsächlichen Werte zu erhalten. Nur lesbar float.
 
 **Rückgabe:**
 float
@@ -336,8 +429,7 @@ float
 public final float getActualWidth()
 ```
 
-
-Gibt die tatsächliche Breite des Diagrammelements an. Rufen Sie vorher IChart.ValidateChartLayout() auf, um tatsächliche Werte zu erhalten. Lese-float.
+Gibt die tatsächliche Breite des Diagrammelements an. Rufen Sie vorab die Methode IChart.ValidateChartLayout() auf, um die tatsächlichen Werte zu erhalten. Nur lesbar float.
 
 **Rückgabe:**
 float
@@ -346,8 +438,7 @@ float
 public final float getActualHeight()
 ```
 
-
-Gibt die tatsächliche Höhe des Diagrammelements an. Rufen Sie vorher IChart.ValidateChartLayout() auf, um tatsächliche Werte zu erhalten. Lese-float.
+Gibt die tatsächliche Höhe des Diagrammelements an. Rufen Sie vorab die Methode IChart.ValidateChartLayout() auf, um die tatsächlichen Werte zu erhalten. Nur lesbar float.
 
 **Rückgabe:**
 float

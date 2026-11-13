@@ -19,14 +19,15 @@ Représente les catégories de graphique.
 
 | Méthode | Description |
 | --- | --- |
-| [getUseCell()](#getUseCell--) | Si true alors la propriété AsCell est effective. |
-| [getAsCell()](#getAsCell--) | Retourne ou définit l'objet IChartDataCell. |
-| [setAsCell(IChartDataCell value)](#setAsCell-com.aspose.slides.IChartDataCell-) | Retourne ou définit l'objet IChartDataCell. |
-| [getAsLiteral()](#getAsLiteral--) | Retourne ou définit l'objet AsLiteral. |
-| [setAsLiteral(Object value)](#setAsLiteral-java.lang.Object-) | Retourne ou définit l'objet AsLiteral. |
+| [getUseCell()](#getUseCell--) | Si true alors la propriété AsCell est actuelle. |
+| [getAsCell()](#getAsCell--) | Retourne ou définit l’objet IChartDataCell. |
+| [setAsCell(IChartDataCell value)](#setAsCell-com.aspose.slides.IChartDataCell-) | Retourne ou définit l’objet IChartDataCell. |
+| [getAsLiteral()](#getAsLiteral--) | Retourne ou définit l’objet AsLiteral. |
+| [setAsLiteral(Object value)](#setAsLiteral-java.lang.Object-) | Retourne ou définit l’objet AsLiteral. |
 | [getValue()](#getValue--) | Si UseCell est true alors cette propriété représente la propriété AsCell.Value. |
 | [setValue(Object value)](#setValue-java.lang.Object-) | Si UseCell est true alors cette propriété représente la propriété AsCell.Value. |
 | [getGroupingLevels()](#getGroupingLevels--) | Conteneur géré des valeurs des niveaux de regroupement des catégories de graphique. |
+| [getCachedValue()](#getCachedValue--) | Obtient la valeur mise en cache d’une catégorie de graphique. |
 | [remove()](#remove--) | Supprime la catégorie du graphique. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
 ### getUseCell() {#getUseCell--}
@@ -34,29 +35,32 @@ Représente les catégories de graphique.
 public final boolean getUseCell()
 ```
 
-Si true alors la propriété AsCell est effective. En d’autres termes, la feuille de calcul est utilisée pour stocker la catégorie (ce cas prend en charge une catégorie à plusieurs niveaux). Si false alors la propriété AsLiteral est effective. En d’autres termes, la feuille de calcul N’EST PAS utilisée pour stocker la catégorie (et ce cas ne prend pas en charge les catégories à plusieurs niveaux). Booléen en lecture seule.
+
+Si true alors la propriété AsCell est actuelle. En d’autres termes, la feuille de calcul est utilisée pour stocker la catégorie (ce cas prend en charge une catégorie à plusieurs niveaux). Si false alors la propriété AsLiteral est actuelle. En d’autres termes, la feuille de calcul n’est PAS utilisée pour stocker la catégorie (et ce cas ne prend pas en charge les catégories à plusieurs niveaux). Booléen en lecture seule.
 
 --------------------
 
 Pour modifier la valeur de cette propriété (pour toutes les catégories de la collection) définissez la nouvelle valeur sur la propriété ChartCategoryCollection.UseCells.
 
-**Renvoie :**
+**Retour :**
 boolean
 ### getAsCell() {#getAsCell--}
 ```
 public final IChartDataCell getAsCell()
 ```
 
-Retourne ou définit l'objet IChartDataCell. Si la catégorie est à plusieurs niveaux, l’objet IChartDataCell utilisé correspond au niveau « 0 ». Lecture/écriture [IChartDataCell](../../com.aspose.slides/ichartdatacell).
 
-**Renvoie :**
+Retourne ou définit l’objet IChartDataCell. Si la catégorie est à plusieurs niveaux, l’objet IChartDataCell utilisé correspond au niveau « 0 ». Lecture/écriture [IChartDataCell](../../com.aspose.slides/ichartdatacell).
+
+**Retour :**
 [IChartDataCell](../../com.aspose.slides/ichartdatacell)
 ### setAsCell(IChartDataCell value) {#setAsCell-com.aspose.slides.IChartDataCell-}
 ```
 public final void setAsCell(IChartDataCell value)
 ```
 
-Retourne ou définit l'objet IChartDataCell. Si la catégorie est à plusieurs niveaux, l’objet IChartDataCell utilisé correspond au niveau « 0 ». Lecture/écriture [IChartDataCell](../../com.aspose.slides/ichartdatacell).
+
+Retourne ou définit l’objet IChartDataCell. Si la catégorie est à plusieurs niveaux, l’objet IChartDataCell utilisé correspond au niveau « 0 ». Lecture/écriture [IChartDataCell](../../com.aspose.slides/ichartdatacell).
 
 **Paramètres :**
 | Paramètre | Type | Description |
@@ -68,16 +72,18 @@ Retourne ou définit l'objet IChartDataCell. Si la catégorie est à plusieurs n
 public final Object getAsLiteral()
 ```
 
-Retourne ou définit l'objet AsLiteral. Lecture/écriture Object.
 
-**Renvoie :**
+Retourne ou définit l’objet AsLiteral. Lecture/écriture Object.
+
+**Retour :**
 java.lang.Object
 ### setAsLiteral(Object value) {#setAsLiteral-java.lang.Object-}
 ```
 public final void setAsLiteral(Object value)
 ```
 
-Retourne ou définit l'objet AsLiteral. Lecture/écriture Object.
+
+Retourne ou définit l’objet AsLiteral. Lecture/écriture Object.
 
 **Paramètres :**
 | Paramètre | Type | Description |
@@ -89,14 +95,16 @@ Retourne ou définit l'objet AsLiteral. Lecture/écriture Object.
 public final Object getValue()
 ```
 
+
 Si UseCell est true alors cette propriété représente la propriété AsCell.Value. Si UseCell est false alors cette propriété représente la propriété AsLiteral. Lecture/écriture Object.
 
-**Renvoie :**
+**Retour :**
 java.lang.Object
 ### setValue(Object value) {#setValue-java.lang.Object-}
 ```
 public final void setValue(Object value)
 ```
+
 
 Si UseCell est true alors cette propriété représente la propriété AsCell.Value. Si UseCell est false alors cette propriété représente la propriété AsLiteral. Lecture/écriture Object.
 
@@ -110,14 +118,42 @@ Si UseCell est true alors cette propriété représente la propriété AsCell.Va
 public final IChartCategoryLevelsManager getGroupingLevels()
 ```
 
+
 Conteneur géré des valeurs des niveaux de regroupement des catégories de graphique. Une catégorie à plusieurs niveaux contient plus d’un niveau de regroupement. L’indexation des niveaux de regroupement commence à zéro. Lecture seule [IChartCategoryLevelsManager](../../com.aspose.slides/ichartcategorylevelsmanager).
 
-**Renvoie :**
+**Retour :**
 [IChartCategoryLevelsManager](../../com.aspose.slides/ichartcategorylevelsmanager)
+### getCachedValue() {#getCachedValue--}
+```
+public final ICachedChartValue getCachedValue()
+```
+
+
+Obtient la valeur mise en cache d’une catégorie de graphique. Lecture seule [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx")
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+> 
+>      // Affiche toutes les valeurs de catégorie de graphique mises en cache.
+>      for (IChartCategory category : chart.getChartData().getCategories())
+>          System.out.println(category.getCachedValue().toString());
+>  } finally {
+>      pres.dispose();
+>  }
+> ```
+
+
+**Retour :**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
 ### remove() {#remove--}
 ```
 public final void remove()
 ```
+
 
 Supprime la catégorie du graphique.
 
@@ -126,7 +162,8 @@ Supprime la catégorie du graphique.
 public final IDOMObject getParent_Immediate()
 ```
 
+
 Retourne l’objet Parent_Immediate. Lecture seule IDOMObject.
 
-**Renvoie :**
+**Retour :**
 com.aspose.slides.IDOMObject

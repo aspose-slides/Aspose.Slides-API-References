@@ -8,45 +8,49 @@ url: /fa/com.aspose.slides/ifontsmanager/
 public interface IFontsManager
 ```
 
-مدیریت فونت‌ها در سراسر ارائه.
+فونت‌ها را در سراسر ارائه مدیریت می‌کند.
 ## متدها
 
 | متد | توضیح |
 | --- | --- |
-| [getFontSubstRuleList()](#getFontSubstRuleList--) | جایگزینی فونت‌ها برای استفاده هنگام رندر کردن خواندن/نوشتن [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection). |
-| [setFontSubstRuleList(IFontSubstRuleCollection value)](#setFontSubstRuleList-com.aspose.slides.IFontSubstRuleCollection-) | جایگزینی فونت‌ها برای استفاده هنگام رندر کردن خواندن/نوشتن [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection). |
-| [getFontFallBackRulesCollection()](#getFontFallBackRulesCollection--) | مجموعه‌ای از قوانین FontFallBack کاربر برای مدیریت مجموعه‌های فونت برای جایگزینی صحیح توسط عملکرد fallback خواندن/نوشتن [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
-| [setFontFallBackRulesCollection(IFontFallBackRulesCollection value)](#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-) | مجموعه‌ای از قوانین FontFallBack کاربر برای مدیریت مجموعه‌های فونت برای جایگزینی صحیح توسط عملکرد fallback خواندن/نوشتن [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
-| [getFonts()](#getFonts--) | فونت‌های استفاده شده در ارائه را برمی‌گرداند |
-| [getSubstitutions()](#getSubstitutions--) | اطلاعات درباره فونت‌هایی که در رندر ارائه جایگزین می‌شوند را دریافت می‌کند. |
-| [getSubstitutions(int[] slides)](#getSubstitutions-int---) | اطلاعات درباره فونت‌هایی که در رندر اسلایدهای مشخص شده جایگزین می‌شوند را دریافت می‌کند. |
-| [getEmbeddedFonts()](#getEmbeddedFonts--) | فونت‌های تعبیه‌شده در ارائه را برمی‌گرداند |
-| [removeEmbeddedFont(IFontData fontData)](#removeEmbeddedFont-com.aspose.slides.IFontData-) | فونت تعبیه‌شده را حذف می‌کند |
-| [addEmbeddedFont(IFontData fontData, int embedFontRule)](#addEmbeddedFont-com.aspose.slides.IFontData-int-) | فونت تعبیه‌شده را اضافه می‌کند. |
-| [addEmbeddedFont(byte[] fontData, int embedFontRule)](#addEmbeddedFont-byte---int-) | فونت تعبیه‌شده را اضافه می‌کند |
-| [replaceFont(IFontData sourceFont, IFontData destFont)](#replaceFont-com.aspose.slides.IFontData-com.aspose.slides.IFontData-) | فونت را در ارائه جایگزین می‌کند |
-| [replaceFont(IFontSubstRule substRule)](#replaceFont-com.aspose.slides.IFontSubstRule-) | فونت را در ارائه با استفاده از اطلاعات موجود در [IFontSubstRule](../../com.aspose.slides/ifontsubstrule) جایگزین می‌کند |
-| [replaceFont(IFontSubstRuleCollection substRules)](#replaceFont-com.aspose.slides.IFontSubstRuleCollection-) | فونت را در ارائه با استفاده از اطلاعات موجود در مجموعهٔ [IFontSubstRule](../../com.aspose.slides/ifontsubstrule) جایگزین می‌کند |
-| [getFontBytes(IFontData fontData, int fontStyle)](#getFontBytes-com.aspose.slides.IFontData-int-) | آرایهٔ بایت نمایانگر دادهٔ فونت برای سبک و دادهٔ فونت مشخص شده را بازیابی می‌کند. |
-| [getFontEmbeddingLevel(byte[] fontBytes, String fontName)](#getFontEmbeddingLevel-byte---java.lang.String-) | سطح تعبیهٔ یک فونت را از آرایهٔ بایت و نام فونت داده‌شده تعیین می‌کند. |
+| [getFontSubstRuleList()](#getFontSubstRuleList--) | جایگزینی فونت‌ها برای استفاده هنگام رندرینگ خواندن/نوشتن [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection). |
+| [setFontSubstRuleList(IFontSubstRuleCollection value)](#setFontSubstRuleList-com.aspose.slides.IFontSubstRuleCollection-) | جایگزینی فونت‌ها برای استفاده هنگام رندرینگ خواندن/نوشتن [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection). |
+| [getFontFallBackRulesCollection()](#getFontFallBackRulesCollection--) | نمایانگر مجموعه‌ای از قواعد FontFallBack کاربر برای مدیریت مجموعه‌های فونت به منظور جایگزینی صحیح توسط عملکرد fallback خواندن/نوشتن [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
+| [setFontFallBackRulesCollection(IFontFallBackRulesCollection value)](#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-) | نمایانگر مجموعه‌ای از قواعد FontFallBack کاربر برای مدیریت مجموعه‌های فونت به منظور جایگزینی صحیح توسط عملکرد fallback خواندن/نوشتن [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
+| [getFonts()](#getFonts--) | فونت‌های مورد استفاده در ارائه را برمی‌گرداند |
+| [getSubstitutions()](#getSubstitutions--) | اطلاعات درباره فونت‌هایی که در رندرینگ ارائه جایگزین خواهند شد را دریافت می‌کند. |
+| [getSubstitutions(int[] slides)](#getSubstitutions-int---) | دریافت اطلاعات درباره فونت‌هایی که در هنگام رندرینگ اسلایدهای مشخص‌شده جایگزین خواهند شد. |
+| [getEmbeddedFonts()](#getEmbeddedFonts--) | فونت‌های توکار در ارائه را برمی‌گرداند |
+| [removeEmbeddedFont(IFontData fontData)](#removeEmbeddedFont-com.aspose.slides.IFontData-) | فونت توکار را حذف می‌کند |
+| [addEmbeddedFont(IFontData fontData, int embedFontRule)](#addEmbeddedFont-com.aspose.slides.IFontData-int-) | فونت توکار را اضافه می‌کند. |
+| [addEmbeddedFont(byte[] fontData, int embedFontRule)](#addEmbeddedFont-byte---int-) | اضافه کردن فونت توکار |
+| [replaceFont(IFontData sourceFont, IFontData destFont)](#replaceFont-com.aspose.slides.IFontData-com.aspose.slides.IFontData-) | تعویض فونت در ارائه |
+| [replaceFont(IFontSubstRule substRule)](#replaceFont-com.aspose.slides.IFontSubstRule-) | تعویض فونت در ارائه با استفاده از اطلاعات ارائه شده در [IFontSubstRule](../../com.aspose.slides/ifontsubstrule) |
+| [replaceFont(IFontSubstRuleCollection substRules)](#replaceFont-com.aspose.slides.IFontSubstRuleCollection-) | تعویض فونت در ارائه با استفاده از اطلاعات ارائه شده در مجموعهٔ [IFontSubstRule](../../com.aspose.slides/ifontsubstrule) |
+| [getFontBytes(IFontData fontData, int fontStyle)](#getFontBytes-com.aspose.slides.IFontData-int-) | آرایه بایتی که داده‌های فونت برای یک سبک فونت مشخص و داده‌های فونت را نشان می‌دهد، بازیابی می‌کند. |
+| [getFontEmbeddingLevel(byte[] fontBytes, String fontName)](#getFontEmbeddingLevel-byte---java.lang.String-) | تعیین سطح امبدینگ یک فونت از آرایه بایت داده‌شده و نام فونت |
+| [getPreferRegisteredFontsOverEmbedded()](#getPreferRegisteredFontsOverEmbedded--) | مشخص می‌کند که آیا فونت‌های ثبت‌شده باید بر فونت‌های توکار با همان نام و سبک فونت ترجیح داده شوند یا خیر. |
+| [setPreferRegisteredFontsOverEmbedded(boolean value)](#setPreferRegisteredFontsOverEmbedded-boolean-) | مشخص می‌کند که آیا فونت‌های ثبت‌شده باید بر فونت‌های توکار با همان نام و سبک فونت ترجیح داده شوند یا خیر. |
+
 ### getFontSubstRuleList() {#getFontSubstRuleList--}
 ```
 public abstract IFontSubstRuleCollection getFontSubstRuleList()
 ```
 
-جایگزینی فونت‌ها برای استفاده هنگام رندر کردن خواندن/نوشتن [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
+جایگزینی فونت‌ها برای استفاده هنگام رندرینگ خواندن/نوشتن [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
 
-**بازگشت:**
+**بازگرداندن:**
 [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection)
+
 ### setFontSubstRuleList(IFontSubstRuleCollection value) {#setFontSubstRuleList-com.aspose.slides.IFontSubstRuleCollection-}
 ```
 public abstract void setFontSubstRuleList(IFontSubstRuleCollection value)
 ```
 
-جایگزینی فونت‌ها برای استفاده هنگام رندر کردن خواندن/نوشتن [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
+جایگزینی فونت‌ها برای استفاده هنگام رندرینگ خواندن/نوشتن [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
 
 **پارامترها:**
-| Parameter | Type | Description |
+| پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | value | [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection) |  |
 
@@ -55,21 +59,22 @@ public abstract void setFontSubstRuleList(IFontSubstRuleCollection value)
 public abstract IFontFallBackRulesCollection getFontFallBackRulesCollection()
 ```
 
-مجموعه‌ای از قوانین FontFallBack کاربر برای مدیریت مجموعه‌های فونت برای جایگزینی صحیح توسط عملکرد fallback خواندن/نوشتن [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
+نمایانگر مجموعه‌ای از قواعد FontFallBack کاربر برای مدیریت مجموعه‌های فونت به منظور جایگزینی صحیح توسط عملکرد fallback خواندن/نوشتن [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
 
 --------------------
 
-> ```
+> ``` 
 > Presentation pres = new Presentation();
 >  try
 >  {
->      // دریافت مجموعه قوانین خالی یا پیش‌مقداردهی شده از FontsManager
+>      // دریافت مجموعه قوانین خالی یا پیش‌تنظیم‌شده از FontsManager
 >      IFontFallBackRulesCollection rulesList = pres.getFontsManager().getFontFallBackRulesCollection();
->      // افزودن قوانین به مجموعه
+>      // اضافه‌کردن قوانین به مجموعه
+>      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
 >      // یا 
->      // راه‌اندازی نمونه جدید از مجموعه قوانین
+>      // ایجاد یک نمونه جدید از مجموعه قوانین
 >      IFontFallBackRulesCollection rulesList = new FontFallBackRulesCollection();
->      // افزودن قوانین به مجموعه
+>      // اضافه‌کردن قوانین به مجموعه
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
 >      // و جایگزینی مجموعه موجود با مجموعه جدید در FontsManager 
 >      pres.getFontsManager().setFontFallBackRulesCollection(rulesList);
@@ -80,27 +85,28 @@ public abstract IFontFallBackRulesCollection getFontFallBackRulesCollection()
 > ```
 
 
-**بازگشت:**
+**بازگرداندن:**
 [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection)
+
 ### setFontFallBackRulesCollection(IFontFallBackRulesCollection value) {#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-}
 ```
 public abstract void setFontFallBackRulesCollection(IFontFallBackRulesCollection value)
 ```
 
-مجموعه‌ای از قوانین FontFallBack کاربر برای مدیریت مجموعه‌های فونت برای جایگزینی صحیح توسط عملکرد fallback خواندن/نوشتن [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
+نمایانگر مجموعه‌ای از قواعد FontFallBack کاربر برای مدیریت مجموعه‌های فونت به منظور جایگزینی صحیح توسط عملکرد fallback خواندن/نوشتن [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
 
 --------------------
 
-> ```
+> ``` 
 > Presentation pres = new Presentation();
 >  try
 >  {
->      // دریافت مجموعه قوانین خالی یا پیش‌مقداردهی شده از FontsManager
+>      // دریافت مجموعه قوانین خالی یا پیش‌تنظیم‌شده از FontsManager
 >      IFontFallBackRulesCollection rulesList = pres.getFontsManager().getFontFallBackRulesCollection();
 >      // افزودن قوانین به مجموعه
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
 >      // یا 
->      // راه‌اندازی یک نمونه جدید از مجموعه قوانین
+>      // ایجاد یک نمونه جدید از مجموعه قوانین
 >      IFontFallBackRulesCollection rulesList = new FontFallBackRulesCollection();
 >      // افزودن قوانین به مجموعه
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
@@ -114,7 +120,7 @@ public abstract void setFontFallBackRulesCollection(IFontFallBackRulesCollection
 
 
 **پارامترها:**
-| Parameter | Type | Description |
+| پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | value | [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection) |  |
 
@@ -123,16 +129,17 @@ public abstract void setFontFallBackRulesCollection(IFontFallBackRulesCollection
 public abstract IFontData[] getFonts()
 ```
 
-فونت‌های استفاده شده در ارائه را برمی‌گرداند
+فونت‌های مورد استفاده در ارائه را برمی‌گرداند
 
-**بازگشت:**
+**بازگرداندن:**
 com.aspose.slides.IFontData[] - آرایه‌ای از فونت‌ها
+
 ### getSubstitutions() {#getSubstitutions--}
 ```
 public abstract System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo> getSubstitutions()
 ```
 
-اطلاعات درباره فونت‌هایی که در رندر ارائه جایگزین می‌شوند را دریافت می‌کند.
+دریافت اطلاعات درباره فونت‌هایی که در رندرینگ ارائه جایگزین خواهند شد.
 
 --------------------
 
@@ -148,14 +155,16 @@ public abstract System.Collections.Generic.IGenericEnumerable<FontSubstitutionIn
 >  }
 > ```
 
-**بازگشت:**
+
+**بازگرداندن:**
 com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - مجموعه‌ای از تمام جایگزینی‌های فونت [FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo).
+
 ### getSubstitutions(int[] slides) {#getSubstitutions-int---}
 ```
 public abstract System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo> getSubstitutions(int[] slides)
 ```
 
-اطلاعات درباره فونت‌هایی که در رندر اسلایدهای مشخص شده جایگزین می‌شوند را دریافت می‌کند.
+دریافت اطلاعات درباره فونت‌هایی که در هنگام رندرینگ اسلایدهای مشخص‌شده جایگزین خواهند شد.
 
 --------------------
 
@@ -173,76 +182,78 @@ public abstract System.Collections.Generic.IGenericEnumerable<FontSubstitutionIn
 > ```
 
 **پارامترها:**
-| Parameter | Type | Description |
+| پارامتر | نوع | توضیح |
 | --- | --- | --- |
-| slides | int[] | آرایه‌ای از ایندکس‌های اسلایدها که اطلاعات جایگزینی فونت برای آنها دریافت می‌شود، از 1 شروع می‌شود. |
+| slides | int[] | آرایه‌ای از ایندکس‌های اسلاید برای دریافت اطلاعات جایگزینی فونت، آغاز از 1. |
 
-**بازگشت:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - مجموعه‌ای از تمام جایگزینی‌های فونت ([FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo)) برای اسلایدهای مشخص شده.
+**بازگرداندن:**
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - مجموعه‌ای از تمام جایگزینی‌های فونت ([FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo)) برای اسلایدهای مشخص‌شده.
+
 ### getEmbeddedFonts() {#getEmbeddedFonts--}
 ```
 public abstract IFontData[] getEmbeddedFonts()
 ```
 
-فونت‌های تعبیه‌شده در ارائه را برمی‌گرداند
+فونت‌های توکار در ارائه را برمی‌گرداند
 
-**بازگشت:**
-com.aspose.slides.IFontData[] - فونت‌های تعبیه‌شده IFontData[]
+**بازگرداندن:**
+com.aspose.slides.IFontData[] - فونت‌های توکار IFontData[]
+
 ### removeEmbeddedFont(IFontData fontData) {#removeEmbeddedFont-com.aspose.slides.IFontData-}
 ```
 public abstract void removeEmbeddedFont(IFontData fontData)
 ```
 
-فونت تعبیه‌شده را حذف می‌کند
+حذف فونت توکار
 
 **پارامترها:**
-| Parameter | Type | Description |
+| پارامتر | نوع | توضیح |
 | --- | --- | --- |
-| fontData | [IFontData](../../com.aspose.slides/ifontdata) | شیء دادهٔ فونت [IFontData](../../com.aspose.slides/ifontdata) |
+| fontData | [IFontData](../../com.aspose.slides/ifontdata) | شی دادهٔ فونت [IFontData](../../com.aspose.slides/ifontdata) |
 
 ### addEmbeddedFont(IFontData fontData, int embedFontRule) {#addEmbeddedFont-com.aspose.slides.IFontData-int-}
 ```
 public abstract void addEmbeddedFont(IFontData fontData, int embedFontRule)
 ```
 
-فونت تعبیه‌شده را اضافه می‌کند.
+افزودن فونت توکار.
 
 **پارامترها:**
-| Parameter | Type | Description |
+| پارامتر | نوع | توضیح |
 | --- | --- | --- |
-| fontData | [IFontData](../../com.aspose.slides/ifontdata) | شیء دادهٔ فونت [IFontData](../../com.aspose.slides/ifontdata) |
-| embedFontRule | int | قانون فونت تعبیه‌شده [EmbedFontCharacters](../../com.aspose.slides/embedfontcharacters)
+| fontData | [IFontData](../../com.aspose.slides/ifontdata) | شی دادهٔ فونت [IFontData](../../com.aspose.slides/ifontdata) |
+| embedFontRule | int | قانون فونت توکار [EmbedFontCharacters](../../com.aspose.slides/embedfontcharacters)
 
 --------------------
 
-به‌خاطر داشته باشید هنگام کپی کردن هر فونت، بیشتر فونت‌ها حق تکثیر دارند. پیش از آن مجوز فونت را بررسی کنید و اطمینان حاصل کنید که می‌توانند به‌صورت آزاد به ماشین دیگری منتقل شوند. |
+در هنگام کپی کردن هر فونتی به‌خاطر داشته باشید که اکثر فونت‌ها دارای حق کپی‌رایت هستند. پیش از هر کار، مجوز فونت را پیدا کنید و اطمینان حاصل کنید که می‌توانند به‌صورت آزاد به ماشین دیگری منتقل شوند. |
 
 ### addEmbeddedFont(byte[] fontData, int embedFontRule) {#addEmbeddedFont-byte---int-}
 ```
 public abstract void addEmbeddedFont(byte[] fontData, int embedFontRule)
 ```
 
-فونت تعبیه‌شده را اضافه می‌کند
+اضافه کردن فونت توکار
 
 **پارامترها:**
-| Parameter | Type | Description |
+| پارامتر | نوع | توضیح |
 | --- | --- | --- |
-| fontData | byte[] | دادهٔ فونت byte[] |
-| embedFontRule | int | قانون فونت تعبیه‌شده [EmbedFontCharacters](../../com.aspose.slides/embedfontcharacters)
+| fontData | byte[] | دادهٔ فونت  byte[]  |
+| embedFontRule | int | قانون فونت توکار [EmbedFontCharacters](../../com.aspose.slides/embedfontcharacters)
 
 --------------------
 
-به‌خاطر داشته باشید هنگام افزودن هر فونت، بیشتر فونت‌ها حق تکثیر دارند. پیش از آن مجوز فونت را بررسی کنید و اطمینان حاصل کنید که می‌توانند به‌صورت آزاد به ماشین دیگری منتقل شوند. |
+در هنگام افزودن هر فونتی به‌خاطر داشته باشید که اکثر فونت‌ها دارای حق کپی‌رایت هستند. پیش از هر کار، مجوز فونت را پیدا کنید و اطمینان حاصل کنید که می‌توانند به‌صورت آزاد به ماشین دیگری منتقل شوند. |
 
 ### replaceFont(IFontData sourceFont, IFontData destFont) {#replaceFont-com.aspose.slides.IFontData-com.aspose.slides.IFontData-}
 ```
 public abstract void replaceFont(IFontData sourceFont, IFontData destFont)
 ```
 
-جایگزینی فونت در ارائه
+تعویض فونت در ارائه
 
 **پارامترها:**
-| Parameter | Type | Description |
+| پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | sourceFont | [IFontData](../../com.aspose.slides/ifontdata) | فونت منبع |
 | destFont | [IFontData](../../com.aspose.slides/ifontdata) | فونت مقصد |
@@ -252,10 +263,10 @@ public abstract void replaceFont(IFontData sourceFont, IFontData destFont)
 public abstract void replaceFont(IFontSubstRule substRule)
 ```
 
-جایگزینی فونت در ارائه با استفاده از اطلاعات موجود در [IFontSubstRule](../../com.aspose.slides/ifontsubstrule)
+تعویض فونت در ارائه با استفاده از اطلاعات ارائه شده در [IFontSubstRule](../../com.aspose.slides/ifontsubstrule)
 
 **پارامترها:**
-| Parameter | Type | Description |
+| پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | substRule | [IFontSubstRule](../../com.aspose.slides/ifontsubstrule) | اطلاعات جایگزینی فونت |
 
@@ -264,10 +275,10 @@ public abstract void replaceFont(IFontSubstRule substRule)
 public abstract void replaceFont(IFontSubstRuleCollection substRules)
 ```
 
-جایگزینی فونت در ارائه با استفاده از اطلاعات موجود در مجموعهٔ [IFontSubstRule](../../com.aspose.slides/ifontsubstrule)
+تعویض فونت در ارائه با استفاده از اطلاعات ارائه شده در مجموعهٔ [IFontSubstRule](../../com.aspose.slides/ifontsubstrule)
 
 **پارامترها:**
-| Parameter | Type | Description |
+| پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | substRules | [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection) | مجموعهٔ اطلاعات جایگزینی فونت |
 
@@ -276,16 +287,16 @@ public abstract void replaceFont(IFontSubstRuleCollection substRules)
 public abstract byte[] getFontBytes(IFontData fontData, int fontStyle)
 ```
 
-آرایهٔ بایت نمایانگر دادهٔ فونت برای سبک و دادهٔ فونت مشخص شده را بازیابی می‌کند.
+آرایه بایتی که داده‌های فونت برای یک سبک فونت مشخص و داده‌های فونت را نشان می‌دهد، بازیابی می‌کند.
 
 --------------------
 
-> ```
+> ``` 
 > Presentation pres = new Presentation ("Presentation.pptx");
 >  try {
->      // دریافت تمام فونت‌های استفاده شده در ارائه
+>      // تمام فونت‌های مورد استفاده در ارائه را بازیابی کنید
 >      IFontData[] fonts = pres.getFontsManager().getFonts();
->      // دریافت آرایهٔ بایت که سبک معمولی اولین فونت در ارائه را نشان می‌دهد
+>      // آرایه بایتی که نمایانگر سبک عادی اولین فونت در ارائه است را دریافت کنید
 >      byte[] fontBytes = pres.getFontsManager().getFontBytes(fonts[0], FontStyleType.Regular);
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -293,30 +304,31 @@ public abstract byte[] getFontBytes(IFontData fontData, int fontStyle)
 > ```
 
 **پارامترها:**
-| Parameter | Type | Description |
+| پارامتر | نوع | توضیح |
 | --- | --- | --- |
-| fontData | [IFontData](../../com.aspose.slides/ifontdata) | شیء دادهٔ فونت حاوی اطلاعات دربارهٔ فونت [IFontData](../../com.aspose.slides/ifontdata). |
-| fontStyle | int | سبک فونت که دادهٔ آن باید بازیابی شود [FontStyleType](../../com.aspose.slides/fontstyletype). |
+| fontData | [IFontData](../../com.aspose.slides/ifontdata) | شی دادهٔ فونت حاوی اطلاعات دربارهٔ فونت [IFontData](../../com.aspose.slides/ifontdata). |
+| fontStyle | int | سبک فونت که داده‌های آن باید بازیابی شود [FontStyleType](../../com.aspose.slides/fontstyletype). |
 
-**بازگشت:**
-byte[] - آرایهٔ بایت حاوی دادهٔ فونت برای سبک مشخص شده. در صورت عدم یافتن دادهٔ فونت یا سبک، مقدار null برگردانده می‌شود.
+**بازگرداندن:**
+byte[] - آرایه بایت شامل دادهٔ فونت برای سبک فونت مشخص‌شده. اگر دادهٔ فونت یا سبک یافت نشود، مقدار null برگردانده می‌شود.
+
 ### getFontEmbeddingLevel(byte[] fontBytes, String fontName) {#getFontEmbeddingLevel-byte---java.lang.String-}
 ```
 public abstract int getFontEmbeddingLevel(byte[] fontBytes, String fontName)
 ```
 
-سطح تعبیهٔ یک فونت را از آرایهٔ بایت و نام فونت داده‌شده تعیین می‌کند.
+تعیین سطح امبدینگ یک فونت از آرایه بایت داده‌شده و نام فونت.
 
 --------------------
 
-> ```
+> ``` 
 > Presentation pres = new Presentation(pptxFileName);
 >  try {
->      // دریافت تمام فونت‌های استفاده شده در ارائه
+>      // تمام فونت‌های مورد استفاده در ارائه را بازیابی کنید
 >      IFontData[] fontDatas = pres.getFontsManager().getFonts();
->      // دریافت آرایهٔ بایت که سبک معمولی اولین فونت در ارائه را نشان می‌دهد
+>      // آرایه بایتی که نمایانگر سبک عادی اولین فونت در ارائه است را دریافت کنید
 >      byte[] bytes = pres.getFontsManager().getFontBytes(fontDatas[0], FontStyleType.Regular);
->      // تعیین سطح تعبیهٔ فونت
+>      // سطح امبدینگ فونت را تعیین کنید
 >      int embeddingLevel = pres.getFontsManager().getFontEmbeddingLevel(bytes, fontDatas[0].getFontName());
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -324,10 +336,64 @@ public abstract int getFontEmbeddingLevel(byte[] fontBytes, String fontName)
 > ```
 
 **پارامترها:**
-| Parameter | Type | Description |
+| پارامتر | نوع | توضیح |
 | --- | --- | --- |
-| fontBytes | byte[] | آرایهٔ بایت حاوی دادهٔ فونت. |
+| fontBytes | byte[] | آرایه بایت حاوی دادهٔ فونت. |
 | fontName | java.lang.String | نام فونت. |
 
-**بازگشت:**
-int - سطح تعبیهٔ فونت مشخص شده.
+**بازگرداندن:**
+int - سطح امبدینگ فونت مشخص‌شده.
+
+### getPreferRegisteredFontsOverEmbedded() {#getPreferRegisteredFontsOverEmbedded--}
+```
+public abstract boolean getPreferRegisteredFontsOverEmbedded()
+```
+
+مشخص می‌کند که آیا فونت‌های ثبت‌شده باید بر فونت‌های توکار با همان نام و سبک فونت ترجیح داده شوند. هنگام فعال بودن، فونت‌های توکار مطابقت‌دار به‌طور موقت با فونت‌های ثبت‌شدهٔ متناظر جایگزین می‌شوند.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("SomePresentation.pptx");
+>  try {
+>      pres.getFontsManager().setPreferRegisteredFontsOverEmbedded(true);
+>      pres.save("Presentation-out.pdf", SaveFormat.Pdf);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+به‌طور پیش‌فرض **false** است.
+
+**بازگرداندن:**
+boolean
+
+### setPreferRegisteredFontsOverEmbedded(boolean value) {#setPreferRegisteredFontsOverEmbedded-boolean-}
+```
+public abstract void setPreferRegisteredFontsOverEmbedded(boolean value)
+```
+
+مشخص می‌کند که آیا فونت‌های ثبت‌شده باید بر فونت‌های توکار با همان نام و سبک فونت ترجیح داده شوند. هنگام فعال بودن، فونت‌های توکار مطابقت‌دار به‌طور موقت با فونت‌های ثبت‌شدهٔ متناظر جایگزین می‌شوند.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("SomePresentation.pptx");
+>  try {
+>      pres.getFontsManager().setPreferRegisteredFontsOverEmbedded(true);
+>      pres.save("Presentation-out.pdf", SaveFormat.Pdf);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+به‌طور پیش‌فرض **false** است.
+
+**پارامترها:**
+| پارامتر | نوع | توضیح |
+| --- | --- | --- |
+| value | boolean |  |

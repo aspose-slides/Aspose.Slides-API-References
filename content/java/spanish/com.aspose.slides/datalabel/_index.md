@@ -1,7 +1,7 @@
 ---
 title: DataLabel
-second_title: Aspose.Slides para Java Referencia de API
-description: Representa etiquetas de series.
+second_title: Referencia de API de Aspose.Slides para Java
+description: Representa etiquetas de serie.
 type: docs
 url: /es/com.aspose.slides/datalabel/
 ---
@@ -14,7 +14,7 @@ java.lang.Object
 public class DataLabel implements IDataLabel, IDOMObject
 ```
 
-Representa etiquetas de series.
+Representa etiquetas de serie.
 ## Constructores
 
 | Constructor | Descripción |
@@ -25,32 +25,34 @@ Representa etiquetas de series.
 | Método | Descripción |
 | --- | --- |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-| [getChart()](#getChart--) | Devuelve el chart principal. |
-| [isVisible()](#isVisible--) | False indica que la etiqueta de datos no es visible (y por lo tanto todas las banderas Show*- (ShowValue, ...) son falsas). |
-| [hide()](#hide--) | Oculta la etiqueta de datos estableciendo todas las banderas Show*- (ShowValue, ...) en estado falso. |
-| [getActualLabelText()](#getActualLabelText--) | Devuelve el texto real de la etiqueta basado en la configuración DataLabelFormat o el valor TextFrameForOverriding.Text. |
+| [getChart()](#getChart--) | Devuelve la gráfica principal. |
+| [isVisible()](#isVisible--) | Falso significa que la etiqueta de datos no es visible (y por lo tanto todas las banderas Show*- (ShowValue, ...) son falsas). |
+| [hide()](#hide--) | Oculta la etiqueta de datos estableciendo todas las banderas Show*- (ShowValue, ...) en estado false. |
+| [getActualLabelText()](#getActualLabelText--) | Devuelve el texto real de la etiqueta basado en la configuración de DataLabelFormat o en el valor TextFrameForOverriding.Text. |
 | [addTextFrameForOverriding(String text)](#addTextFrameForOverriding-java.lang.String-) | Inicializa TextFrameForOverriding con el texto del parámetro "text". |
 | [getTextFrameForOverriding()](#getTextFrameForOverriding--) | Puede contener un texto con formato enriquecido. |
 | [getTextFormat()](#getTextFormat--) | Devuelve el formato de texto. |
-| [getX()](#getX--) | Devuelve o establece la coordenada x de un título como una fracción del ancho del chart. |
-| [setX(float value)](#setX-float-) | Devuelve o establece la coordenada x de un título como una fracción del ancho del chart. |
-| [getY()](#getY--) | Devuelve o establece la coordenada y de un título como una fracción de la altura del chart. |
-| [setY(float value)](#setY-float-) | Devuelve o establece la coordenada y de un título como una fracción de la altura del chart. |
-| [getWidth()](#getWidth--) | Devuelve o establece el ancho de un título como una fracción del ancho del chart. |
-| [setWidth(float value)](#setWidth-float-) | Devuelve o establece el ancho de un título como una fracción del ancho del chart. |
-| [getHeight()](#getHeight--) | Devuelve o establece la altura de un título como una fracción de la altura del chart. |
-| [setHeight(float value)](#setHeight-float-) | Devuelve o establece la altura de un título como una fracción de la altura del chart. |
+| [getX()](#getX--) | Devuelve o establece la coordenada x de un título como una fracción del ancho de la gráfica. |
+| [setX(float value)](#setX-float-) | Devuelve o establece la coordenada x de un título como una fracción del ancho de la gráfica. |
+| [getY()](#getY--) | Devuelve o establece la coordenada y de un título como una fracción de la altura de la gráfica. |
+| [setY(float value)](#setY-float-) | Devuelve o establece la coordenada y de un título como una fracción de la altura de la gráfica. |
+| [getWidth()](#getWidth--) | Devuelve o establece el ancho de un título como una fracción del ancho de la gráfica. |
+| [setWidth(float value)](#setWidth-float-) | Devuelve o establece el ancho de un título como una fracción del ancho de la gráfica. |
+| [getHeight()](#getHeight--) | Devuelve o establece la altura de un título como una fracción de la altura de la gráfica. |
+| [setHeight(float value)](#setHeight-float-) | Devuelve o establece la altura de un título como una fracción de la altura de la gráfica. |
 | [getRight()](#getRight--) | Derecha. |
 | [getBottom()](#getBottom--) | Inferior. |
 | [getDataLabelFormat()](#getDataLabelFormat--) | Devuelve el formato de la etiqueta de datos. |
 | [getValueFromCell()](#getValueFromCell--) | Obtiene o establece la celda de datos del libro de trabajo. |
 | [setValueFromCell(IChartDataCell value)](#setValueFromCell-com.aspose.slides.IChartDataCell-) | Obtiene o establece la celda de datos del libro de trabajo. |
-| [getActualX()](#getActualX--) | Especifica la ubicación x real (izquierda) del elemento del chart relativo a la esquina superior izquierda del chart. |
-| [getActualY()](#getActualY--) | Especifica la parte superior real del elemento del chart relativo a la esquina superior izquierda del chart. |
-| [getActualWidth()](#getActualWidth--) | Especifica el ancho real del elemento del chart. |
-| [getActualHeight()](#getActualHeight--) | Especifica la altura real del elemento del chart. |
-| [getSlide()](#getSlide--) | Devuelve la diapositiva padre de un FillFormat. |
-| [getPresentation()](#getPresentation--) | Devuelve la presentación padre de un FillFormat. |
+| [getLabelShapeType()](#getLabelShapeType--) | Obtiene o establece el tipo de forma de la etiqueta de datos. |
+| [setLabelShapeType(int value)](#setLabelShapeType-int-) | Obtiene o establece el tipo de forma de la etiqueta de datos. |
+| [getActualX()](#getActualX--) | Especifica la ubicación real x (izquierda) del elemento de la gráfica respecto a la esquina superior izquierda de la gráfica. |
+| [getActualY()](#getActualY--) | Especifica la parte superior real del elemento de la gráfica respecto a la esquina superior izquierda de la gráfica. |
+| [getActualWidth()](#getActualWidth--) | Especifica el ancho real del elemento de la gráfica. |
+| [getActualHeight()](#getActualHeight--) | Especifica la altura real del elemento de la gráfica. |
+| [getSlide()](#getSlide--) | Devuelve la diapositiva principal de un FillFormat. |
+| [getPresentation()](#getPresentation--) | Devuelve la presentación principal de un FillFormat. |
 ### DataLabel(IChartDataPoint parentImmediate) {#DataLabel-com.aspose.slides.IChartDataPoint-}
 ```
 public DataLabel(IChartDataPoint parentImmediate)
@@ -77,7 +79,7 @@ com.aspose.slides.IDOMObject
 public final IChart getChart()
 ```
 
-Devuelve el chart padre. Solo lectura [IChart](../../com.aspose.slides/ichart).
+Devuelve la gráfica principal. Solo lectura [IChart](../../com.aspose.slides/ichart).
 
 **Devuelve:**
 [IChart](../../com.aspose.slides/ichart)
@@ -86,11 +88,11 @@ Devuelve el chart padre. Solo lectura [IChart](../../com.aspose.slides/ichart).
 public final boolean isVisible()
 ```
 
-False indica que la etiqueta de datos no es visible (y por lo tanto todas las banderas Show*- (ShowValue, ...) son falsas). Solo lectura boolean.
+Falso significa que la etiqueta de datos no es visible (y por lo tanto todas las banderas Show*- (ShowValue, ...) son falsas). Solo lectura  boolean .
 
 --------------------
 
-Si la etiqueta de datos es visible puedes ocultarla con el método Hide(). Pero si la etiqueta de datos no es visible (IsVisible es false) puedes hacerla visible configurando las banderas Show*- (ShowValue, ...) en estado verdadero.
+Si la etiqueta de datos es visible puede ocultarla con el método Hide(). Pero si la etiqueta de datos no es visible (IsVisible es false) puede hacerla visible estableciendo las banderas Show*- (ShowValue, ...) en estado true.
 
 **Devuelve:**
 boolean
@@ -99,18 +101,18 @@ boolean
 public final void hide()
 ```
 
-Oculta la etiqueta de datos estableciendo todas las banderas Show*- (ShowValue, ...) en estado falso. IsVisible será false después de esto.
+Oculta la etiqueta de datos estableciendo todas las banderas Show*- (ShowValue, ...) en estado false. IsVisible será false después de esto.
 
 --------------------
 
-Si la etiqueta de datos no es visible (IsVisible es false) puedes hacerla visible configurando las banderas Show*- (ShowValue, ...) en estado verdadero.
+Si la etiqueta de datos no es visible (IsVisible es false) puede hacerla visible estableciendo las banderas Show*- (ShowValue, ...) en estado true.
 
 ### getActualLabelText() {#getActualLabelText--}
 ```
 public final String getActualLabelText()
 ```
 
-Devuelve el texto real de la etiqueta basado en la configuración DataLabelFormat o el valor TextFrameForOverriding.Text.
+Devuelve el texto real de la etiqueta basado en la configuración de DataLabelFormat o en el valor TextFrameForOverriding.Text.
 
 **Devuelve:**
 java.lang.String - El objeto java.lang.String.
@@ -119,7 +121,7 @@ java.lang.String - El objeto java.lang.String.
 public final ITextFrame addTextFrameForOverriding(String text)
 ```
 
-Inicializa TextFrameForOverriding con el texto del parámetro "text". Si TextFrameForOverriding ya está inicializado entonces simplemente cambia su texto.
+Inicializa TextFrameForOverriding con el texto del parámetro "text". Si TextFrameForOverriding ya está inicializado, simplemente cambia su texto.
 
 **Parámetros:**
 | Parámetro | Tipo | Descripción |
@@ -133,7 +135,7 @@ Inicializa TextFrameForOverriding con el texto del parámetro "text". Si TextFra
 public final ITextFrame getTextFrameForOverriding()
 ```
 
-Puede contener un texto con formato enriquecido. Si esta propiedad no es null, entonces este valor de texto formateado sobrescribe el texto autogenerado de la etiqueta de datos. El texto autogenerado de la etiqueta de datos significa texto gestionado por las propiedades ShowSeriesName, ShowValue, ... y formateado con la propiedad TextFormatManager.TextFormat. Solo lectura [ITextFrame](../../com.aspose.slides/itextframe).
+Puede contener un texto con formato enriquecido. Si esta propiedad no es nula, entonces este valor de texto con formato sobrescribe el texto autogenerado de la etiqueta de datos. El texto autogenerado de la etiqueta de datos significa el texto gestionado por las propiedades ShowSeriesName, ShowValue, ... y formateado con la propiedad TextFormatManager.TextFormat. Solo lectura [ITextFrame](../../com.aspose.slides/itextframe).
 
 **Devuelve:**
 [ITextFrame](../../com.aspose.slides/itextframe)
@@ -151,7 +153,7 @@ Devuelve el formato de texto. Solo lectura [IChartTextFormat](../../com.aspose.s
 public final float getX()
 ```
 
-Devuelve o establece la coordenada x de un título como una fracción del ancho del chart. Lectura/escritura float .
+Devuelve o establece la coordenada x de un título como una fracción del ancho de la gráfica. Lectura/escritura  float .
 
 **Devuelve:**
 float
@@ -160,7 +162,7 @@ float
 public final void setX(float value)
 ```
 
-Devuelve o establece la coordenada x de un título como una fracción del ancho del chart. Lectura/escritura float .
+Devuelve o establece la coordenada x de un título como una fracción del ancho de la gráfica. Lectura/escritura  float .
 
 **Parámetros:**
 | Parámetro | Tipo | Descripción |
@@ -171,7 +173,7 @@ Devuelve o establece la coordenada x de un título como una fracción del ancho 
 public final float getY()
 ```
 
-Devuelve o establece la coordenada y de un título como una fracción de la altura del chart. Lectura/escritura float .
+Devuelve o establece la coordenada y de un título como una fracción de la altura de la gráfica. Lectura/escritura  float .
 
 **Devuelve:**
 float
@@ -180,7 +182,7 @@ float
 public final void setY(float value)
 ```
 
-Devuelve o establece la coordenada y de un título como una fracción de la altura del chart. Lectura/escritura float .
+Devuelve o establece la coordenada y de un título como una fracción de la altura de la gráfica. Lectura/escritura  float .
 
 **Parámetros:**
 | Parámetro | Tipo | Descripción |
@@ -191,7 +193,7 @@ Devuelve o establece la coordenada y de un título como una fracción de la altu
 public final float getWidth()
 ```
 
-Devuelve o establece el ancho de un título como una fracción del ancho del chart. Lectura/escritura float .
+Devuelve o establece el ancho de un título como una fracción del ancho de la gráfica. Lectura/escritura  float .
 
 **Devuelve:**
 float
@@ -200,7 +202,7 @@ float
 public final void setWidth(float value)
 ```
 
-Devuelve o establece el ancho de un título como una fracción del ancho del chart. Lectura/escritura float .
+Devuelve o establece el ancho de un título como una fracción del ancho de la gráfica. Lectura/escritura  float .
 
 **Parámetros:**
 | Parámetro | Tipo | Descripción |
@@ -211,7 +213,7 @@ Devuelve o establece el ancho de un título como una fracción del ancho del cha
 public final float getHeight()
 ```
 
-Devuelve o establece la altura de un título como una fracción de la altura del chart. Lectura/escritura float .
+Devuelve o establece la altura de un título como una fracción de la altura de la gráfica. Lectura/escritura  float .
 
 **Devuelve:**
 float
@@ -220,7 +222,7 @@ float
 public final void setHeight(float value)
 ```
 
-Devuelve o establece la altura de un título como una fracción de la altura del chart. Lectura/escritura float .
+Devuelve o establece la altura de un título como una fracción de la altura de la gráfica. Lectura/escritura  float .
 
 **Parámetros:**
 | Parámetro | Tipo | Descripción |
@@ -231,7 +233,7 @@ Devuelve o establece la altura de un título como una fracción de la altura del
 public final float getRight()
 ```
 
-Derecha. Solo lectura float .
+Derecha. Solo lectura  float .
 
 **Devuelve:**
 float
@@ -240,7 +242,7 @@ float
 public final float getBottom()
 ```
 
-Inferior. Solo lectura float .
+Inferior. Solo lectura  float .
 
 **Devuelve:**
 float
@@ -258,7 +260,7 @@ Devuelve el formato de la etiqueta de datos. Solo lectura [IDataLabelFormat](../
 public final IChartDataCell getValueFromCell()
 ```
 
-Obtiene o establece la celda de datos del libro de trabajo. Se aplica si la propiedad IDataLabelFormat.ShowLabelValueFromCell es true.
+Obtiene o establece la celda de datos del libro de trabajo. Aplicado si la propiedad IDataLabelFormat.ShowLabelValueFromCell es true.
 
 **Devuelve:**
 [IChartDataCell](../../com.aspose.slides/ichartdatacell)
@@ -267,18 +269,69 @@ Obtiene o establece la celda de datos del libro de trabajo. Se aplica si la prop
 public final void setValueFromCell(IChartDataCell value)
 ```
 
-Obtiene o establece la celda de datos del libro de trabajo. Se aplica si la propiedad IDataLabelFormat.ShowLabelValueFromCell es true.
+Obtiene o establece la celda de datos del libro de trabajo. Aplicado si la propiedad IDataLabelFormat.ShowLabelValueFromCell es true.
 
 **Parámetros:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | value | [IChartDataCell](../../com.aspose.slides/ichartdatacell) |  |
+### getLabelShapeType() {#getLabelShapeType--}
+```
+public final int getLabelShapeType()
+```
+
+Obtiene o establece el tipo de forma de la etiqueta de datos. Devuelve [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) si no se define una forma.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Establece el tipo de forma de la primera etiqueta de datos a Elipse.
+>      firstSeries.getLabels().get_Item(0).setLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabel.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Devuelve:**
+int
+### setLabelShapeType(int value) {#setLabelShapeType-int-}
+```
+public final void setLabelShapeType(int value)
+```
+
+Obtiene o establece el tipo de forma de la etiqueta de datos. Devuelve [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) si no se define una forma.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Establece el tipo de forma de la primera etiqueta de datos a Elipse.
+>      firstSeries.getLabels().get_Item(0).setLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabel.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Parámetros:**
+| Parámetro | Tipo | Descripción |
+| --- | --- | --- |
+| value | int |  |
 ### getActualX() {#getActualX--}
 ```
 public final float getActualX()
 ```
 
-Especifica la ubicación x real (izquierda) del elemento del chart relativo a la esquina superior izquierda del chart. Llame al método IChart.ValidateChartLayout() antes para obtener valores reales. Lectura float .
+Especifica la ubicación real x (izquierda) del elemento de la gráfica respecto a la esquina superior izquierda de la gráfica. Llame al método IChart.ValidateChartLayout() antes para obtener los valores reales. Lectura float.
 
 **Devuelve:**
 float
@@ -287,7 +340,7 @@ float
 public final float getActualY()
 ```
 
-Especifica la parte superior real del elemento del chart relativa a la esquina superior izquierda del chart. Llame al método IChart.ValidateChartLayout() antes para obtener valores reales. Lectura float .
+Especifica la parte superior real del elemento de la gráfica respecto a la esquina superior izquierda de la gráfica. Llame al método IChart.ValidateChartLayout() antes para obtener los valores reales. Lectura float.
 
 **Devuelve:**
 float
@@ -296,7 +349,7 @@ float
 public final float getActualWidth()
 ```
 
-Especifica el ancho real del elemento del chart. Llame al método IChart.ValidateChartLayout() antes para obtener valores reales. Lectura float .
+Especifica el ancho real del elemento de la gráfica. Llame al método IChart.ValidateChartLayout() antes para obtener los valores reales. Lectura float.
 
 **Devuelve:**
 float
@@ -305,7 +358,7 @@ float
 public final float getActualHeight()
 ```
 
-Especifica la altura real del elemento del chart. Llame al método IChart.ValidateChartLayout() antes para obtener valores reales. Lectura float .
+Especifica la altura real del elemento de la gráfica. Llame al método IChart.ValidateChartLayout() antes para obtener los valores reales. Lectura float.
 
 **Devuelve:**
 float
@@ -314,7 +367,7 @@ float
 public final IBaseSlide getSlide()
 ```
 
-Devuelve la diapositiva padre de un FillFormat. Solo lectura [BaseSlide](../../com.aspose.slides/baseslide).
+Devuelve la diapositiva principal de un FillFormat. Solo lectura [BaseSlide](../../com.aspose.slides/baseslide).
 
 **Devuelve:**
 [IBaseSlide](../../com.aspose.slides/ibaseslide)
@@ -323,7 +376,7 @@ Devuelve la diapositiva padre de un FillFormat. Solo lectura [BaseSlide](../../c
 public final IPresentation getPresentation()
 ```
 
-Devuelve la presentación padre de un FillFormat. Solo lectura [IPresentation](../../com.aspose.slides/ipresentation).
+Devuelve la presentación principal de un FillFormat. Solo lectura [IPresentation](../../com.aspose.slides/ipresentation).
 
 **Devuelve:**
 [IPresentation](../../com.aspose.slides/ipresentation)

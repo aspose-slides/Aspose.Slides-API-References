@@ -1,180 +1,173 @@
 ---
 title: DataLabel
 second_title: Tham chiếu API Aspose.Slides cho Java
-description: Biểu diễn các nhãn của chuỗi.
+description: Đại diện cho các nhãn chuỗi.
 type: docs
 url: /vi/com.aspose.slides/datalabel/
 ---
-**Kế thừa:**
+**Kế thừa:**  
 java.lang.Object
 
-**Tất cả các giao diện được triển khai:**
-[com.aspose.slides.IDataLabel](../../com.aspose.slides/idatalabel), com.aspose.slides.IDOMObject
+**Tất cả các giao diện triển khai:**  
+[com.aspose.slides.IDataLabel](../../com.aspose.slides/idatalabel), com.aspose.slides.IDOMObject  
 ```
 public class DataLabel implements IDataLabel, IDOMObject
 ```
 
-Biểu diễn các nhãn của chuỗi.
-## Khởi tạo
+Đại diện cho các nhãn chuỗi.
 
-| Phương thức khởi tạo | Mô tả |
+## Các hàm khởi tạo
+
+| Constructor | Description |
 | --- | --- |
 | [DataLabel(IChartDataPoint parentImmediate)](#DataLabel-com.aspose.slides.IChartDataPoint-) | Tạo một thể hiện mới của lớp DataLabel. |
+
 ## Phương thức
 
-| Phương thức | Mô tả |
+| Method | Description |
 | --- | --- |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
 | [getChart()](#getChart--) | Trả về biểu đồ cha. |
-| [isVisible()](#isVisible--) | False có nghĩa là nhãn dữ liệu không hiển thị (và do đó tất cả các cờ Show*-flags (ShowValue, ...) đều là false). |
+| [isVisible()](#isVisible--) | False có nghĩa là nhãn dữ liệu không hiển thị (và vì vậy tất cả các cờ Show*-flags (ShowValue, ...) đều là false). |
 | [hide()](#hide--) | Ẩn nhãn dữ liệu bằng cách đặt tất cả các cờ Show*-flags (ShowValue, ...) về trạng thái false. |
 | [getActualLabelText()](#getActualLabelText--) | Trả về văn bản nhãn thực tế dựa trên cài đặt DataLabelFormat hoặc giá trị TextFrameForOverriding.Text. |
 | [addTextFrameForOverriding(String text)](#addTextFrameForOverriding-java.lang.String-) | Khởi tạo TextFrameForOverriding với văn bản trong tham số "text". |
 | [getTextFrameForOverriding()](#getTextFrameForOverriding--) | Có thể chứa văn bản định dạng phong phú. |
 | [getTextFormat()](#getTextFormat--) | Trả về định dạng văn bản. |
-| [getX()](#getX--) | Trả về hoặc đặt tọa độ x của tiêu đề dưới dạng tỷ lệ so với chiều rộng của biểu đồ. |
-| [setX(float value)](#setX-float-) | Trả về hoặc đặt tọa độ x của tiêu đề dưới dạng tỷ lệ so với chiều rộng của biểu đồ. |
-| [getY()](#getY--) | Trả về hoặc đặt tọa độ y của tiêu đề dưới dạng tỷ lệ so với chiều cao của biểu đồ. |
-| [setY(float value)](#setY-float-) | Trả về hoặc đặt tọa độ y của tiêu đề dưới dạng tỷ lệ so với chiều cao của biểu đồ. |
-| [getWidth()](#getWidth--) | Trả về hoặc đặt chiều rộng của tiêu đề dưới dạng tỷ lệ so với chiều rộng của biểu đồ. |
-| [setWidth(float value)](#setWidth-float-) | Trả về hoặc đặt chiều rộng của tiêu đề dưới dạng tỷ lệ so với chiều rộng của biểu đồ. |
-| [getHeight()](#getHeight--) | Trả về hoặc đặt chiều cao của tiêu đề dưới dạng tỷ lệ so với chiều cao của biểu đồ. |
-| [setHeight(float value)](#setHeight-float-) | Trả về hoặc đặt chiều cao của tiêu đề dưới dạng tỷ lệ so với chiều cao của biểu đồ. |
+| [getX()](#getX--) | Trả về hoặc đặt tọa độ x của tiêu đề dưới dạng tỷ lệ của chiều rộng biểu đồ. |
+| [setX(float value)](#setX-float-) | Trả về hoặc đặt tọa độ x của tiêu đề dưới dạng tỷ lệ của chiều rộng biểu đồ. |
+| [getY()](#getY--) | Trả về hoặc đặt tọa độ y của tiêu đề dưới dạng tỷ lệ của chiều cao biểu đồ. |
+| [setY(float value)](#setY-float-) | Trả về hoặc đặt tọa độ y của tiêu đề dưới dạng tỷ lệ của chiều cao biểu đồ. |
+| [getWidth()](#getWidth--) | Trả về hoặc đặt chiều rộng của tiêu đề dưới dạng tỷ lệ của chiều rộng biểu đồ. |
+| [setWidth(float value)](#setWidth-float-) | Trả về hoặc đặt chiều rộng của tiêu đề dưới dạng tỷ lệ của chiều rộng biểu đồ. |
+| [getHeight()](#getHeight--) | Trả về hoặc đặt chiều cao của tiêu đề dưới dạng tỷ lệ của chiều cao biểu đồ. |
+| [setHeight(float value)](#setHeight-float-) | Trả về hoặc đặt chiều cao của tiêu đề dưới dạng tỷ lệ của chiều cao biểu đồ. |
 | [getRight()](#getRight--) | Phải. |
-| [getBottom()](#getBottom--) | Dưới. |
+| [getBottom()](#getBottom--) | Duoi. |
 | [getDataLabelFormat()](#getDataLabelFormat--) | Trả về định dạng nhãn dữ liệu. |
-| [getValueFromCell()](#getValueFromCell--) | Lấy hoặc đặt ô dữ liệu workbook. |
-| [setValueFromCell(IChartDataCell value)](#setValueFromCell-com.aspose.slides.IChartDataCell-) | Lấy hoặc đặt ô dữ liệu workbook. |
-| [getActualX()](#getActualX--) | Xác định vị trí x thực tế (bên trái) của phần tử biểu đồ so với góc trái trên của biểu đồ. |
-| [getActualY()](#getActualY--) | Xác định vị trí trên thực tế của phần tử biểu đồ so với góc trái trên của biểu đồ. |
+| [getValueFromCell()](#getValueFromCell--) | Lấy hoặc đặt ô dữ liệu trong workbook. |
+| [setValueFromCell(IChartDataCell value)](#setValueFromCell-com.aspose.slides.IChartDataCell-) | Lấy hoặc đặt ô dữ liệu trong workbook. |
+| [getLabelShapeType()](#getLabelShapeType--) | Lấy hoặc đặt kiểu hình dạng của nhãn dữ liệu. |
+| [setLabelShapeType(int value)](#setLabelShapeType-int-) | Lấy hoặc đặt kiểu hình dạng của nhãn dữ liệu. |
+| [getActualX()](#getActualX--) | Xác định vị trí x thực tế (trai) của phần tử biểu đồ so với goc tren-trai của biểu đồ. |
+| [getActualY()](#getActualY--) | Xác định vị trí y thực tế của phần tử biểu đồ so với goc tren-trai của biểu đồ. |
 | [getActualWidth()](#getActualWidth--) | Xác định chiều rộng thực tế của phần tử biểu đồ. |
 | [getActualHeight()](#getActualHeight--) | Xác định chiều cao thực tế của phần tử biểu đồ. |
 | [getSlide()](#getSlide--) | Trả về slide cha của một FillFormat. |
-| [getPresentation()](#getPresentation--) | Trả về bản trình chiếu cha của một FillFormat. |
+| [getPresentation()](#getPresentation--) | Trả về presentation cha của một FillFormat. |
 ### DataLabel(IChartDataPoint parentImmediate) {#DataLabel-com.aspose.slides.IChartDataPoint-}
 ```
 public DataLabel(IChartDataPoint parentImmediate)
 ```
 
-
 Tạo một thể hiện mới của lớp DataLabel.
 
-**Tham số:**
-| Tham số | Kiểu | Mô tả |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| parentImmediate | [IChartDataPoint](../../com.aspose.slides/ichartdatapoint) | ChartDataPoint cha. |
+| parentImmediate | [IChartDataPoint](../../com.aspose.slides/ichartdatapoint) | Điểm dữ liệu chart cha. |
 
 ### getParent_Immediate() {#getParent-Immediate--}
 ```
 public final IDOMObject getParent_Immediate()
 ```
 
-
 Trả về đối tượng Parent_Immediate. Chỉ đọc IDOMObject.
 
-**Trả về:**
+**Returns:**
 com.aspose.slides.IDOMObject
 ### getChart() {#getChart--}
 ```
 public final IChart getChart()
 ```
 
-
 Trả về biểu đồ cha. Chỉ đọc [IChart](../../com.aspose.slides/ichart).
 
-**Trả về:**
+**Returns:**
 [IChart](../../com.aspose.slides/ichart)
 ### isVisible() {#isVisible--}
 ```
 public final boolean isVisible()
 ```
 
-
-False có nghĩa là nhãn dữ liệu không hiển thị (và do đó tất cả các cờ Show*-flags (ShowValue, ...) đều là false). Chỉ đọc boolean.
+False có nghĩa là nhãn dữ liệu không hiển thị (và vì vậy tất cả các cờ Show*-flags (ShowValue, ...) đều là false). Chỉ đọc boolean.
 
 --------------------
 
-Nếu nhãn dữ liệu hiển thị, bạn có thể ẩn nó bằng phương thức Hide(). Nhưng nếu nhãn dữ liệu không hiển thị (IsVisible là false) bạn có thể làm cho nó hiển thị bằng cách đặt các cờ Show*-flags (ShowValue, ...) về trạng thái true.
+Nếu nhãn dữ liệu hiển thị, bạn có thể ẩn nó bằng phương thức Hide(). Nhưng nếu nhãn dữ liệu không hiển thị (IsVisible là false) bạn có thể làm cho nhãn dữ liệu hiển thị bằng cách đặt các cờ Show*-flags (ShowValue, ...) về trạng thái true.
 
-**Trả về:**
+**Returns:**
 boolean
 ### hide() {#hide--}
 ```
 public final void hide()
 ```
 
-
-Ẩn nhãn dữ liệu bằng cách đặt tất cả các cờ Show*-flags (ShowValue, ...) về trạng thái false. IsVisible sẽ là false sau thao tác này.
+Ẩn nhãn dữ liệu bằng cách đặt tất cả các cờ Show*-flags (ShowValue, ...) về trạng thái false. IsVisible sẽ là false sau khi thực hiện.
 
 --------------------
 
-Nếu nhãn dữ liệu không hiển thị (IsVisible là false) bạn có thể làm cho nó hiển thị bằng cách đặt các cờ Show*-flags (ShowValue, ...) về trạng thái true.
+Nếu nhãn dữ liệu không hiển thị (IsVisible là false) bạn có thể làm cho nhãn dữ liệu hiển thị bằng cách đặt các cờ Show*-flags (ShowValue, ...) về trạng thái true.
 
 ### getActualLabelText() {#getActualLabelText--}
 ```
 public final String getActualLabelText()
 ```
 
-
 Trả về văn bản nhãn thực tế dựa trên cài đặt DataLabelFormat hoặc giá trị TextFrameForOverriding.Text.
 
-**Trả về:**
+**Returns:**
 java.lang.String - Đối tượng java.lang.String.
 ### addTextFrameForOverriding(String text) {#addTextFrameForOverriding-java.lang.String-}
 ```
 public final ITextFrame addTextFrameForOverriding(String text)
 ```
 
-
 Khởi tạo TextFrameForOverriding với văn bản trong tham số "text". Nếu TextFrameForOverriding đã được khởi tạo thì chỉ thay đổi văn bản của nó.
 
-**Tham số:**
-| Tham số | Kiểu | Mô tả |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | text | java.lang.String | Văn bản cho TextFrameForOverriding mới. |
 
-**Trả về:**
+**Returns:**
 [ITextFrame](../../com.aspose.slides/itextframe)
 ### getTextFrameForOverriding() {#getTextFrameForOverriding--}
 ```
 public final ITextFrame getTextFrameForOverriding()
 ```
 
+Có thể chứa văn bản định dạng phong phú. Nếu thuộc tính này không null thì giá trị văn bản định dạng này sẽ ghi đè lên văn bản tự động tạo của nhãn dữ liệu. Văn bản tự động tạo của nhãn dữ liệu là văn bản được quản lý bởi các thuộc tính ShowSeriesName, ShowValue, ... và được định dạng bằng thuộc tính TextFormatManager.TextFormat. Chỉ đọc [ITextFrame](../../com.aspose.slides/itextframe).
 
-Có thể chứa văn bản định dạng phong phú. Nếu thuộc tính này không null thì giá trị văn bản đã định dạng sẽ ghi đè lên văn bản tự động tạo của nhãn dữ liệu. Văn bản tự động tạo của nhãn dữ liệu là văn bản do các thuộc tính ShowSeriesName, ShowValue, ... quản lý và được định dạng bằng thuộc tính TextFormatManager.TextFormat. Chỉ đọc [ITextFrame](../../com.aspose.slides/itextframe).
-
-**Trả về:**
+**Returns:**
 [ITextFrame](../../com.aspose.slides/itextframe)
 ### getTextFormat() {#getTextFormat--}
 ```
 public final IChartTextFormat getTextFormat()
 ```
 
-
 Trả về định dạng văn bản. Chỉ đọc [IChartTextFormat](../../com.aspose.slides/icharttextformat).
 
-**Trả về:**
+**Returns:**
 [IChartTextFormat](../../com.aspose.slides/icharttextformat)
 ### getX() {#getX--}
 ```
 public final float getX()
 ```
 
+Trả về hoặc đặt tọa độ x của tiêu đề dưới dạng tỷ lệ của chiều rộng biểu đồ. Đọc/ghi float.
 
-Trả về hoặc đặt tọa độ x của tiêu đề dưới dạng tỷ lệ so với chiều rộng của biểu đồ. Đọc/ghi float .
-
-**Trả về:**
+**Returns:**
 float
 ### setX(float value) {#setX-float-}
 ```
 public final void setX(float value)
 ```
 
+Trả về hoặc đặt tọa độ x của tiêu đề dưới dạng tỷ lệ của chiều rộng biểu đồ. Đọc/ghi float.
 
-Trả về hoặc đặt tọa độ x của tiêu đề dưới dạng tỷ lệ so với chiều rộng của biểu đồ. Đọc/ghi float .
-
-**Tham số:**
-| Tham số | Kiểu | Mô tả |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | float |  |
 
@@ -183,21 +176,19 @@ Trả về hoặc đặt tọa độ x của tiêu đề dưới dạng tỷ l�
 public final float getY()
 ```
 
+Trả về hoặc đặt tọa độ y của tiêu đề dưới dạng tỷ lệ của chiều cao biểu đồ. Đọc/ghi float.
 
-Trả về hoặc đặt tọa độ y của tiêu đề dưới dạng tỷ lệ so với chiều cao của biểu đồ. Đọc/ghi float .
-
-**Trả về:**
+**Returns:**
 float
 ### setY(float value) {#setY-float-}
 ```
 public final void setY(float value)
 ```
 
+Trả về hoặc đặt tọa độ y của tiêu đề dưới dạng tỷ lệ của chiều cao biểu đồ. Đọc/ghi float.
 
-Trả về hoặc đặt tọa độ y của tiêu đề dưới dạng tỷ lệ so với chiều cao của biểu đồ. Đọc/ghi float .
-
-**Tham số:**
-| Tham số | Kiểu | Mô tả |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | float |  |
 
@@ -206,21 +197,19 @@ Trả về hoặc đặt tọa độ y của tiêu đề dưới dạng tỷ l�
 public final float getWidth()
 ```
 
+Trả về hoặc đặt chiều rộng của tiêu đề dưới dạng tỷ lệ của chiều rộng biểu đồ. Đọc/ghi float.
 
-Trả về hoặc đặt chiều rộng của tiêu đề dưới dạng tỷ lệ so với chiều rộng của biểu đồ. Đọc/ghi float .
-
-**Trả về:**
+**Returns:**
 float
 ### setWidth(float value) {#setWidth-float-}
 ```
 public final void setWidth(float value)
 ```
 
+Trả về hoặc đặt chiều rộng của tiêu đề dưới dạng tỷ lệ của chiều rộng biểu đồ. Đọc/ghi float.
 
-Trả về hoặc đặt chiều rộng của tiêu đề dưới dạng tỷ lệ so với chiều rộng của biểu đồ. Đọc/ghi float .
-
-**Tham số:**
-| Tham số | Kiểu | Mô tả |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | float |  |
 
@@ -229,21 +218,19 @@ Trả về hoặc đặt chiều rộng của tiêu đề dưới dạng tỷ l�
 public final float getHeight()
 ```
 
+Trả về hoặc đặt chiều cao của tiêu đề dưới dạng tỷ lệ của chiều cao biểu đồ. Đọc/ghi float.
 
-Trả về hoặc đặt chiều cao của tiêu đề dưới dạng tỷ lệ so với chiều cao của biểu đồ. Đọc/ghi float .
-
-**Trả về:**
+**Returns:**
 float
 ### setHeight(float value) {#setHeight-float-}
 ```
 public final void setHeight(float value)
 ```
 
+Trả về hoặc đặt chiều cao của tiêu đề dưới dạng tỷ lệ của chiều cao biểu đồ. Đọc/ghi float.
 
-Trả về hoặc đặt chiều cao của tiêu đề dưới dạng tỷ lệ so với chiều cao của biểu đồ. Đọc/ghi float .
-
-**Tham số:**
-| Tham số | Kiểu | Mô tả |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | float |  |
 
@@ -252,111 +239,151 @@ Trả về hoặc đặt chiều cao của tiêu đề dưới dạng tỷ lệ 
 public final float getRight()
 ```
 
+Phải. Chỉ đọc float.
 
-Phải. Chỉ đọc float .
-
-**Trả về:**
+**Returns:**
 float
 ### getBottom() {#getBottom--}
 ```
 public final float getBottom()
 ```
 
+Duoi. Chỉ đọc float.
 
-Dưới. Chỉ đọc float .
-
-**Trả về:**
+**Returns:**
 float
 ### getDataLabelFormat() {#getDataLabelFormat--}
 ```
 public final IDataLabelFormat getDataLabelFormat()
 ```
 
-
 Trả về định dạng nhãn dữ liệu. Chỉ đọc [IDataLabelFormat](../../com.aspose.slides/idatalabelformat).
 
-**Trả về:**
+**Returns:**
 [IDataLabelFormat](../../com.aspose.slides/idatalabelformat)
 ### getValueFromCell() {#getValueFromCell--}
 ```
 public final IChartDataCell getValueFromCell()
 ```
 
-
 Lấy hoặc đặt ô dữ liệu workbook. Áp dụng nếu thuộc tính IDataLabelFormat.ShowLabelValueFromCell bằng true.
 
-**Trả về:**
+**Returns:**
 [IChartDataCell](../../com.aspose.slides/ichartdatacell)
 ### setValueFromCell(IChartDataCell value) {#setValueFromCell-com.aspose.slides.IChartDataCell-}
 ```
 public final void setValueFromCell(IChartDataCell value)
 ```
 
-
 Lấy hoặc đặt ô dữ liệu workbook. Áp dụng nếu thuộc tính IDataLabelFormat.ShowLabelValueFromCell bằng true.
 
-**Tham số:**
-| Tham số | Kiểu | Mô tả |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | [IChartDataCell](../../com.aspose.slides/ichartdatacell) |  |
+
+### getLabelShapeType() {#getLabelShapeType--}
+```
+public final int getLabelShapeType()
+```
+
+Lấy hoặc đặt kiểu hình dạng của nhãn dữ liệu. Trả về [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) nếu không có hình dạng nào được định nghĩa.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Đặt kiểu hình dạng của nhãn dữ liệu đầu tiên thành Ellipse.
+>      firstSeries.getLabels().get_Item(0).setLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabel.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+int
+### setLabelShapeType(int value) {#setLabelShapeType-int-}
+```
+public final void setLabelShapeType(int value)
+```
+
+Lấy hoặc đặt kiểu hình dạng của nhãn dữ liệu. Trả về [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) nếu không có hình dạng nào được định nghĩa.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Đặt kiểu hình dạng của nhãn dữ liệu đầu tiên thành Ellipse.
+>      firstSeries.getLabels().get_Item(0).setLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabel.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### getActualX() {#getActualX--}
 ```
 public final float getActualX()
 ```
 
+Xác định vị trí x thực tế (trai) của phần tử biểu đồ so với goc tren-trai của biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy giá trị thực. Đọc float.
 
-Xác định vị trí x thực tế (bên trái) của phần tử biểu đồ so với góc trái trên của biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy giá trị thực tế. Đọc float .
-
-**Trả về:**
+**Returns:**
 float
 ### getActualY() {#getActualY--}
 ```
 public final float getActualY()
 ```
 
+Xác định vị trí y thực tế (tren) của phần tử biểu đồ so với goc tren-trai của biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy giá trị thực. Đọc float.
 
-Xác định vị trí trên thực tế của phần tử biểu đồ so với góc trái trên của biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy giá trị thực tế. Đọc float .
-
-**Trả về:**
+**Returns:**
 float
 ### getActualWidth() {#getActualWidth--}
 ```
 public final float getActualWidth()
 ```
 
+Xác định chiều rộng thực tế của phần tử biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy giá trị thực. Đọc float.
 
-Xác định chiều rộng thực tế của phần tử biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy giá trị thực tế. Đọc float .
-
-**Trả về:**
+**Returns:**
 float
 ### getActualHeight() {#getActualHeight--}
 ```
 public final float getActualHeight()
 ```
 
+Xác định chiều cao thực tế của phần tử biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy giá trị thực. Đọc float.
 
-Xác định chiều cao thực tế của phần tử biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy giá trị thực tế. Đọc float .
-
-**Trả về:**
+**Returns:**
 float
 ### getSlide() {#getSlide--}
 ```
 public final IBaseSlide getSlide()
 ```
 
-
 Trả về slide cha của một FillFormat. Chỉ đọc [BaseSlide](../../com.aspose.slides/baseslide).
 
-**Trả về:**
+**Returns:**
 [IBaseSlide](../../com.aspose.slides/ibaseslide)
 ### getPresentation() {#getPresentation--}
 ```
 public final IPresentation getPresentation()
 ```
 
+Trả về presentation cha của một FillFormat. Chỉ đọc [IPresentation](../../com.aspose.slides/ipresentation).
 
-Trả về bản trình chiếu cha của một FillFormat. Chỉ đọc [IPresentation](../../com.aspose.slides/ipresentation).
-
-**Trả về:**
+**Returns:**
 [IPresentation](../../com.aspose.slides/ipresentation)

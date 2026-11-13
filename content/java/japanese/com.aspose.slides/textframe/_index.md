@@ -1,6 +1,6 @@
 ---
 title: TextFrame
-second_title: Aspose.Slides for Java API リファレンス
+second_title: Aspose.Slides の Java API リファレンス
 description: TextFrame を表します。
 type: docs
 url: /ja/com.aspose.slides/textframe/
@@ -8,7 +8,7 @@ url: /ja/com.aspose.slides/textframe/
 **継承:**  
 java.lang.Object
 
-**実装されているすべてのインターフェース:**  
+**実装されているすべてのインターフェイス:**  
 [com.aspose.slides.ITextFrame](../../com.aspose.slides/itextframe), com.aspose.slides.IDOMObject  
 ```
 public final class TextFrame implements ITextFrame, IDOMObject
@@ -17,7 +17,7 @@ public final class TextFrame implements ITextFrame, IDOMObject
 TextFrame を表します。
 ## メソッド
 
-| メソッド | 説明 |
+| Method | Description |
 | --- | --- |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
 | [getParagraphs()](#getParagraphs--) | フレーム内のすべての段落のリストを返します。 |
@@ -25,19 +25,20 @@ TextFrame を表します。
 | [setText(String value)](#setText-java.lang.String-) | TextFrame のプレーンテキストを取得または設定します。 |
 | [getTextFrameFormat()](#getTextFrameFormat--) | この TextFrame オブジェクトの書式設定オブジェクトを返します。 |
 | [getHyperlinkQueries()](#getHyperlinkQueries--) | 含まれるハイパーリンクへの簡単なアクセスを提供します。 |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | すべての段落で同じ書式のランを結合します。 |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | すべての段落で同じ書式設定のランを結合します。 |
 | [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | 指定された色でサンプルテキストのすべての一致箇所をハイライトします。 |
 | [highlightText(String text, Color highlightColor, ITextHighlightingOptions options)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | 指定された色でサンプルテキストのすべての一致箇所をハイライトします。 |
-| [splitTextByColumns()](#splitTextByColumns--) | [ITextFrame](../../com.aspose.slides/itextframe) のテキストコンテンツを文字列配列に分割します。各要素はフレーム内の別々のテキスト列に対応します。 |
+| [splitTextByColumns()](#splitTextByColumns--) | [ITextFrame](../../com.aspose.slides/itextframe) のテキストコンテンツを文字列の配列に分割します。各要素はフレーム内の個別のテキスト列に対応します。 |
 | [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | 指定された色でサンプルテキストのすべての一致箇所をハイライトします。 |
 | [highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)](#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | 指定された色で正規表現のすべての一致箇所をハイライトします。 |
 | [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | 指定された色で正規表現のすべての一致箇所をハイライトします。 |
-| [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | 指定されたテキストのすべての出現箇所を別の指定テキストに置換します。 |
-| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | 正規表現のすべての一致箇所を指定された文字列に置換します。 |
+| [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | 指定されたテキストのすべての出現箇所を別の指定テキストに置き換えます。 |
+| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | 正規表現のすべての一致箇所を指定された文字列に置き換えます。 |
 | [getSlide()](#getSlide--) | TextFrame の親スライドを返します。 |
 | [getPresentation()](#getPresentation--) | TextFrame の親プレゼンテーションを返します。 |
-| [getParentShape()](#getParentShape--) | 親オブジェクトが IShape インターフェースを実装していない場合は、親シェイプまたは null を返します。読み取り専用 [IShape](../../com.aspose.slides/ishape)。 |
-| [getParentCell()](#getParentCell--) | 親オブジェクトが ICell インターフェースを実装していない場合は、親セルまたは null を返します。 |
+| [getParentShape()](#getParentShape--) | 親オブジェクトが IShape インターフェイスを実装していない場合は null を返します。読み取り専用 [IShape](../../com.aspose.slides/ishape)。 |
+| [getTextRect()](#getTextRect--) | 親シェイプのジオメトリで定義されたテキスト矩形を取得します。 |
+| [getParentCell()](#getParentCell--) | 親オブジェクトが ICell インターフェイスを実装していない場合は null を返します。 |
 
 ### getParent_Immediate() {#getParent-Immediate--}
 ```
@@ -46,7 +47,7 @@ public final IDOMObject getParent_Immediate()
 
 Parent_Immediate オブジェクトを返します。読み取り専用 IDOMObject.
 
-**戻り値:**  
+**戻り値:**
 com.aspose.slides.IDOMObject
 
 ### getParagraphs() {#getParagraphs--}
@@ -56,7 +57,7 @@ public final IParagraphCollection getParagraphs()
 
 フレーム内のすべての段落のリストを返します。読み取り専用 [IParagraphCollection](../../com.aspose.slides/iparagraphcollection)。
 
-**戻り値:**  
+**戻り値:**
 [IParagraphCollection](../../com.aspose.slides/iparagraphcollection)
 
 ### getText() {#getText--}
@@ -64,11 +65,11 @@ public final IParagraphCollection getParagraphs()
 public final String getText()
 ```
 
-TextFrame のプレーンテキストを取得または設定します。読み書き String。
+TextFrame のプレーンテキストを取得または設定します。読み書き可能 String.
 
 値: テキスト。
 
-**戻り値:**  
+**戻り値:**
 java.lang.String
 
 ### setText(String value) {#setText-java.lang.String-}
@@ -76,11 +77,11 @@ java.lang.String
 public final void setText(String value)
 ```
 
-TextFrame のプレーンテキストを取得または設定します。読み書き String。
+TextFrame のプレーンテキストを取得または設定します。読み書き可能 String.
 
 値: テキスト。
 
-**パラメータ:**  
+**パラメータ:**
 | パラメータ | 型 | 説明 |
 | --- | --- | --- |
 | value | java.lang.String |  |
@@ -92,7 +93,7 @@ public final ITextFrameFormat getTextFrameFormat()
 
 この TextFrame オブジェクトの書式設定オブジェクトを返します。読み取り専用 [ITextFrameFormat](../../com.aspose.slides/itextframeformat)。
 
-**戻り値:**  
+**戻り値:**
 [ITextFrameFormat](../../com.aspose.slides/itextframeformat)
 
 ### getHyperlinkQueries() {#getHyperlinkQueries--}
@@ -102,7 +103,7 @@ public final IHyperlinkQueries getHyperlinkQueries()
 
 含まれるハイパーリンクへの簡単なアクセスを提供します。読み取り専用 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)。
 
-**戻り値:**  
+**戻り値:**
 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)
 
 ### joinPortionsWithSameFormatting() {#joinPortionsWithSameFormatting--}
@@ -110,7 +111,7 @@ public final IHyperlinkQueries getHyperlinkQueries()
 public final void joinPortionsWithSameFormatting()
 ```
 
-すべての段落で同じ書式のランを結合します。
+すべての段落で同じ書式設定のランを結合します。
 
 ### highlightText(String text, Color highlightColor) {#highlightText-java.lang.String-java.awt.Color-}
 ```
@@ -119,10 +120,10 @@ public final void highlightText(String text, Color highlightColor)
 
 指定された色でサンプルテキストのすべての一致箇所をハイライトします。
 
-**パラメータ:**  
+**パラメータ:**
 | パラメータ | 型 | 説明 |
 | --- | --- | --- |
-| text | java.lang.String | ハイライトするテキストのサンプル。 |
+| text | java.lang.String | ハイライトするテキストサンプル。 |
 | highlightColor | java.awt.Color | テキストをハイライトする色。 |
 
 ### highlightText(String text, Color highlightColor, ITextHighlightingOptions options) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-}
@@ -150,11 +151,12 @@ public final void highlightText(String text, Color highlightColor, ITextHighligh
 >  }
 > ```
 
-**パラメータ:**  
+
+**パラメータ:**
 | パラメータ | 型 | 説明 |
 | --- | --- | --- |
 | text | java.lang.String | ハイライトするテキスト。 |
-| highlightColor | java.awt.Color | ハイライトする色。 |
+| highlightColor | java.awt.Color | テキストをハイライトする色。 |
 | options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | ハイライトオプション。 |
 
 ### splitTextByColumns() {#splitTextByColumns--}
@@ -162,20 +164,20 @@ public final void highlightText(String text, Color highlightColor, ITextHighligh
 public final String[] splitTextByColumns()
 ```
 
-[ITextFrame](../../com.aspose.slides/itextframe) のテキストコンテンツを文字列配列に分割します。各要素はフレーム内の別々のテキスト列に対応します。
+[ITextFrame](../../com.aspose.slides/itextframe) のテキストコンテンツを文字列の配列に分割します。各要素はフレーム内の個別のテキスト列に対応します。
 
 --------------------
 
 > ```
-> The following example demonstrates how to use #splitTextByColumns.splitTextByColumns:
+> 以下の例は #splitTextByColumns.splitTextByColumns の使用方法を示しています:
 >  
 >  Presentation pres = new Presentation("example.pptx");
 >  try {
->      // スライド上の最初のシェイプを取得し、ITextFrame にキャストします
+>      // スライド上の最初のシェイプを取得し、ITextFrame にキャスト
 >      ITextFrame textFrame = (ITextFrame) pres.getSlides().get_Item(0).getShapes().get_Item(0);
->      // テキストフレームのコンテンツを列に分割します
+>      // テキストフレームの内容を列に分割
 >      String[] columnsText = textFrame.splitTextByColumns();
->      // 各列のテキストをコンソールに出力します
+>      // 各列のテキストをコンソールに出力
 >      for (String column : columnsText)
 >          System.out.println(column);
 >  } finally {
@@ -183,12 +185,13 @@ public final String[] splitTextByColumns()
 >  }
 > ```
 
-**戻り値:**  
-java.lang.String[] - 文字列配列 - 各文字列は [ITextFrame](../../com.aspose.slides/itextframe) 内の特定の列のテキストコンテンツを表します。
+
+**戻り値:**
+java.lang.String[] - 各文字列が [ITextFrame](../../com.aspose.slides/itextframe) の特定の列のテキストコンテンツを表す文字列の配列。
 
 --------------------
 
-テキストフレームに複数列が含まれていない場合、返される配列は全文テキストを含む単一要素となります。空の列は配列内で空文字列として表されます。
+テキストフレームに複数列が含まれていない場合、返される配列は全文テキストを含む単一の要素となります。空の列は配列内で空文字列として表されます。
 
 ### highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
@@ -217,11 +220,11 @@ public final void highlightText(String text, Color highlightColor, ITextSearchOp
 > ```
 
 
-**パラメータ:**  
+**パラメータ:**
 | パラメータ | 型 | 説明 |
 | --- | --- | --- |
 | text | java.lang.String | ハイライトするテキスト。 |
-| highlightColor | java.awt.Color | ハイライトする色。 |
+| highlightColor | java.awt.Color | テキストをハイライトする色。 |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | テキスト検索オプション [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions)。 |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | 検索結果を受け取るコールバックオブジェクト [IFindResultCallback](../../com.aspose.slides/ifindresultcallback)。 |
 
@@ -248,11 +251,12 @@ public final void highlightRegex(String regex, Color highlightColor, ITextHighli
 >  }
 > ```
 
-**パラメータ:**  
+
+**パラメータ:**
 | パラメータ | 型 | 説明 |
 | --- | --- | --- |
 | regex | java.lang.String | ハイライトする正規表現のテキスト。 |
-| highlightColor | java.awt.Color | ハイライトする色。 |
+| highlightColor | java.awt.Color | テキストをハイライトする色。 |
 | options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | ハイライトオプション。 |
 
 ### highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback) {#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-}
@@ -265,7 +269,7 @@ public final void highlightRegex(Pattern regex, Color highlightColor, IFindResul
 --------------------
 
 > ```
-> The following code sample shows how to highlight text in a TextFrame using a regular expression.
+> 以下のコードサンプルは、正規表現を使用して TextFrame のテキストをハイライトする方法を示しています。
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
@@ -278,11 +282,12 @@ public final void highlightRegex(Pattern regex, Color highlightColor, IFindResul
 >  }
 > ```
 
-**パラメータ:**  
+
+**パラメータ:**
 | パラメータ | 型 | 説明 |
 | --- | --- | --- |
 | regex | java.util.regex.Pattern | ハイライトする文字列を取得する正規表現 java.util.regex.Pattern。 |
-| highlightColor | java.awt.Color | ハイライトする色。 |
+| highlightColor | java.awt.Color | テキストをハイライトする色。 |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | 検索結果を受け取るコールバックオブジェクト [IFindResultCallback](../../com.aspose.slides/ifindresultcallback)。 |
 
 ### replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback) {#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
@@ -290,7 +295,7 @@ public final void highlightRegex(Pattern regex, Color highlightColor, IFindResul
 public final void replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
-指定されたテキストのすべての出現箇所を別の指定テキストに置換します。
+指定されたテキストのすべての出現箇所を別の指定テキストに置き換えます。
 
 --------------------
 
@@ -301,7 +306,7 @@ public final void replaceText(String oldText, String newText, ITextSearchOptions
 >  try {
 >      TextSearchOptions textSearchOptions = new TextSearchOptions();
 >      textSearchOptions.setWholeWordsOnly(true);
->      // 'the' のすべての個別の出現箇所を '***' に置換
+>      // すべての個別の 'the' の出現箇所を '***' に置き換え
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().replaceText("the", "***", textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -310,7 +315,7 @@ public final void replaceText(String oldText, String newText, ITextSearchOptions
 > ```
 
 
-**パラメータ:**  
+**パラメータ:**
 | パラメータ | 型 | 説明 |
 | --- | --- | --- |
 | oldText | java.lang.String | 置換される文字列。 |
@@ -323,7 +328,7 @@ public final void replaceText(String oldText, String newText, ITextSearchOptions
 public final void replaceRegex(Pattern regex, String newText, IFindResultCallback callback)
 ```
 
-正規表現のすべての一致箇所を指定された文字列に置換します。
+正規表現のすべての一致箇所を指定された文字列に置き換えます。
 
 --------------------
 
@@ -333,7 +338,7 @@ public final void replaceRegex(Pattern regex, String newText, IFindResultCallbac
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      Pattern regex = Pattern.compile("\\b[^\\s]{5,}\\b");
->      // 5文字以上のすべての単語を '***' に置換
+>      // すべての5文字以上の単語を '***' に置き換え
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().replaceRegex(regex, "***", null);
 >      presentation.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -341,11 +346,12 @@ public final void replaceRegex(Pattern regex, String newText, IFindResultCallbac
 >  }
 > ```
 
-**パラメータ:**  
+
+**パラメータ:**
 | パラメータ | 型 | 説明 |
 | --- | --- | --- |
 | regex | java.util.regex.Pattern | 置換される文字列を取得する正規表現 java.util.regex.Pattern。 |
-| newText | java.lang.String | 置換される文字列を置換する文字列。 |
+| newText | java.lang.String | 置換される文字列のすべての出現箇所を置換する文字列。 |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | 置換操作結果を保存するコールバックオブジェクト [IFindResultCallback](../../com.aspose.slides/ifindresultcallback)。 |
 
 ### getSlide() {#getSlide--}
@@ -355,7 +361,7 @@ public final IBaseSlide getSlide()
 
 TextFrame の親スライドを返します。読み取り専用 [IBaseSlide](../../com.aspose.slides/ibaseslide)。
 
-**戻り値:**  
+**戻り値:**
 [IBaseSlide](../../com.aspose.slides/ibaseslide)
 
 ### getPresentation() {#getPresentation--}
@@ -365,7 +371,7 @@ public final IPresentation getPresentation()
 
 TextFrame の親プレゼンテーションを返します。読み取り専用 [IPresentation](../../com.aspose.slides/ipresentation)。
 
-**戻り値:**  
+**戻り値:**
 [IPresentation](../../com.aspose.slides/ipresentation)
 
 ### getParentShape() {#getParentShape--}
@@ -373,7 +379,7 @@ TextFrame の親プレゼンテーションを返します。読み取り専用 
 public final IShape getParentShape()
 ```
 
-親オブジェクトが IShape インターフェースを実装していない場合は、親シェイプまたは null を返します。読み取り専用 [IShape](../../com.aspose.slides/ishape)。
+親オブジェクトが IShape インターフェイスを実装していない場合は null を返します。読み取り専用 [IShape](../../com.aspose.slides/ishape)。
 
 --------------------
 
@@ -394,15 +400,25 @@ public final IShape getParentShape()
 > ```
 
 
-**戻り値:**  
+**戻り値:**
 [IShape](../../com.aspose.slides/ishape)
+
+### getTextRect() {#getTextRect--}
+```
+public final Rectangle2D.Float getTextRect()
+```
+
+親シェイプのジオメトリで定義されたテキスト矩形を取得します。
+
+**戻り値:**
+java.awt.geom.Rectangle2D.Float - テキスト領域を定義する java.awt.geom.Rectangle2D.Float。
 
 ### getParentCell() {#getParentCell--}
 ```
 public final ICell getParentCell()
 ```
 
-親オブジェクトが ICell インターフェースを実装していない場合は、親セルまたは null を返します。読み取り専用 [ICell](../../com.aspose.slides/icell)。
+親オブジェクトが ICell インターフェイスを実装していない場合は null を返します。読み取り専用 [ICell](../../com.aspose.slides/icell)。
 
 --------------------
 
@@ -422,5 +438,6 @@ public final ICell getParentCell()
 >  }
 > ```
 
-**戻り値:**  
+
+**戻り値:**
 [ICell](../../com.aspose.slides/icell)

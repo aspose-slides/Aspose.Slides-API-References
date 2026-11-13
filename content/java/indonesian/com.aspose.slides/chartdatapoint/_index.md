@@ -5,7 +5,7 @@ description: Mewakili titik data seri.
 type: docs
 url: /id/com.aspose.slides/chartdatapoint/
 ---
-**Pewarisan:**
+**Warisan:**
 java.lang.Object
 
 **Semua Antarmuka yang Diimplementasikan:**
@@ -17,7 +17,7 @@ public class ChartDataPoint implements IChartDataPoint, IDOMObject
 Mewakili titik data seri.
 ## Metode
 
-| Method | Description |
+| Method | Deskripsi |
 | --- | --- |
 | [getXValue()](#getXValue--) | XValue. |
 | [getYValue()](#getYValue--) | YValue. |
@@ -25,30 +25,33 @@ Mewakili titik data seri.
 | [getValue()](#getValue--) | Value. |
 | [getSizeValue()](#getSizeValue--) | Mengembalikan nilai ukuran dari titik data diagram. |
 | [getColorValue()](#getColorValue--) | Mengembalikan nilai warna dari titik data diagram. |
-| [getErrorBarsCustomValues()](#getErrorBarsCustomValues--) | Mewakili nilai batang kesalahan seri dalam kasus tipe nilai Custom. |
+| [getErrorBarsCustomValues()](#getErrorBarsCustomValues--) | Mewakili nilai baris kesalahan seri dalam kasus tipe nilai Custom. |
 | [getLabel()](#getLabel--) | Label. |
-| [isBubble3D()](#isBubble3D--) | Menentukan bahwa gelembung memiliki efek 3-D yang diterapkan padanya. |
-| [setBubble3D(boolean value)](#setBubble3D-boolean-) | Menentukan bahwa gelembung memiliki efek 3-D yang diterapkan padanya. |
-| [getExplosion()](#getExplosion--) | Menentukan jumlah pergeseran titik data dari pusat pai. |
-| [setExplosion(int value)](#setExplosion-int-) | Menentukan jumlah pergeseran titik data dari pusat pai. |
+| [isBubble3D()](#isBubble3D--) | Menentukan bahwa gelembung memiliki efek 3-D yang diterapkan. |
+| [setBubble3D(boolean value)](#setBubble3D-boolean-) | Menentukan bahwa gelembung memiliki efek 3-D yang diterapkan. |
+| [getExplosion()](#getExplosion--) | Menentukan jumlah pergeseran titik data dari pusat diagram pai. |
+| [setExplosion(int value)](#setExplosion-int-) | Menentukan jumlah pergeseran titik data dari pusat diagram pai. |
 | [getFormat()](#getFormat--) | Mewakili properti pemformatan. |
 | [setFormat(IFormat value)](#setFormat-com.aspose.slides.IFormat-) | Mewakili properti pemformatan. |
 | [getMarker()](#getMarker--) | Menentukan penanda data. |
-| [getSetAsTotal()](#getSetAsTotal--) | Menetapkan titik data sebagai total. |
-| [setSetAsTotal(boolean value)](#setSetAsTotal-boolean-) | Menetapkan titik data sebagai total. |
-| [getRelatedLegendEntry()](#getRelatedLegendEntry--) | Properti entri legenda yang sesuai dalam kasus jenis diagram dari daftar berikut: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. |
+| [getSetAsTotal()](#getSetAsTotal--) | Mengatur titik data sebagai total. |
+| [setSetAsTotal(boolean value)](#setSetAsTotal-boolean-) | Mengatur titik data sebagai total. |
+| [getRelatedLegendEntry()](#getRelatedLegendEntry--) | Properti entri legenda yang sesuai dalam kasus tipe diagram dari daftar ini: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. |
 | [remove()](#remove--) | Menghapus DataPoint dari seri diagram. |
 | [getDataPointLevels()](#getDataPointLevels--) | Mengembalikan kontainer level titik data. |
-| [getIndex()](#getIndex--) |    |
+| [getIndex()](#getIndex--) |  |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
 | [getAutomaticDataPointColor()](#getAutomaticDataPointColor--) | Mengembalikan warna otomatis titik data berdasarkan indeks seri, indeks titik data, properti ParentSeriesGroup.IsColorVaried, dan gaya diagram. |
 | [getInvertIfNegative()](#getInvertIfNegative--) | Menentukan titik data harus membalikkan warnanya jika nilai negatif. |
 | [setInvertIfNegative(boolean value)](#setInvertIfNegative-boolean-) | Menentukan titik data harus membalikkan warnanya jika nilai negatif. |
+| [getCachedValue()](#getCachedValue--) | Mendapatkan nilai cache dari titik data diagram. |
+| [getCachedXValue()](#getCachedXValue--) | Mendapatkan nilai X cache dari titik data diagram. |
+| [getCachedYValue()](#getCachedYValue--) | Mendapatkan nilai Y cache dari titik data diagram. |
+| [getCachedBubbleSize()](#getCachedBubbleSize--) | Mendapatkan ukuran gelembung cache dari titik data diagram. |
 | [getActualX()](#getActualX--) | Menentukan lokasi x aktual (kiri) elemen diagram relatif terhadap sudut kiri atas diagram. |
-| [getActualY()](#getActualY--) | Menentukan bagian atas aktual elemen diagram relatif terhadap sudut kiri atas diagram. |
+| [getActualY()](#getActualY--) | Menentukan atas aktual elemen diagram relatif terhadap sudut kiri atas diagram. |
 | [getActualWidth()](#getActualWidth--) | Menentukan lebar aktual elemen diagram. |
 | [getActualHeight()](#getActualHeight--) | Menentukan tinggi aktual elemen diagram. |
-
 ### getXValue() {#getXValue--}
 ```
 public final IStringOrDoubleChartValue getXValue()
@@ -58,7 +61,6 @@ XValue. Hanya-baca [IStringOrDoubleChartValue](../../com.aspose.slides/istringor
 
 **Mengembalikan:**
 [IStringOrDoubleChartValue](../../com.aspose.slides/istringordoublechartvalue)
-
 ### getYValue() {#getYValue--}
 ```
 public final IDoubleChartValue getYValue()
@@ -68,7 +70,6 @@ YValue. Hanya-baca [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue
 
 **Mengembalikan:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
-
 ### getBubbleSize() {#getBubbleSize--}
 ```
 public final IDoubleChartValue getBubbleSize()
@@ -78,7 +79,6 @@ BubbleSize. Hanya-baca [IDoubleChartValue](../../com.aspose.slides/idoublechartv
 
 **Mengembalikan:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
-
 ### getValue() {#getValue--}
 ```
 public final IDoubleChartValue getValue()
@@ -88,37 +88,33 @@ Value. Hanya-baca [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
 
 **Mengembalikan:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
-
 ### getSizeValue() {#getSizeValue--}
 ```
 public final IDoubleChartValue getSizeValue()
 ```
 
-Mengembalikan nilai ukuran titik data diagram. Digunakan dengan diagram Treemap dan Sunburst. Hanya-baca [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
+Mengembalikan nilai ukuran dari titik data diagram. Digunakan dengan diagram Treemap dan Sunburst. Hanya-baca [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
 **Mengembalikan:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
-
 ### getColorValue() {#getColorValue--}
 ```
 public final IDoubleChartValue getColorValue()
 ```
 
-Mengembalikan nilai warna titik data diagram. Digunakan dengan diagram Peta. Hanya-baca [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
+Mengembalikan nilai warna dari titik data diagram. Digunakan dengan diagram Map. Hanya-baca [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
 **Mengembalikan:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
-
 ### getErrorBarsCustomValues() {#getErrorBarsCustomValues--}
 ```
 public final IErrorBarsCustomValues getErrorBarsCustomValues()
 ```
 
-Mewakili nilai batang kesalahan seri dalam kasus tipe nilai Custom. Hanya-baca [IErrorBarsCustomValues](../../com.aspose.slides/ierrorbarscustomvalues).
+Mewakili nilai baris kesalahan seri dalam kasus tipe nilai Custom. Hanya-baca [IErrorBarsCustomValues](../../com.aspose.slides/ierrorbarscustomvalues).
 
 **Mengembalikan:**
 [IErrorBarsCustomValues](../../com.aspose.slides/ierrorbarscustomvalues)
-
 ### getLabel() {#getLabel--}
 ```
 public final IDataLabel getLabel()
@@ -128,51 +124,46 @@ Label. Hanya-baca [IDataLabel](../../com.aspose.slides/idatalabel).
 
 **Mengembalikan:**
 [IDataLabel](../../com.aspose.slides/idatalabel)
-
 ### isBubble3D() {#isBubble3D--}
 ```
 public final boolean isBubble3D()
 ```
 
-Menentukan bahwa gelembung memiliki efek 3-D yang diterapkan padanya. Baca/tulis boolean.
+Menentukan bahwa gelembung memiliki efek 3-D yang diterapkan. Baca/tulis boolean.
 
 **Mengembalikan:**
 boolean
-
 ### setBubble3D(boolean value) {#setBubble3D-boolean-}
 ```
 public final void setBubble3D(boolean value)
 ```
 
-Menentukan bahwa gelembung memiliki efek 3-D yang diterapkan padanya. Baca/tulis boolean.
+Menentukan bahwa gelembung memiliki efek 3-D yang diterapkan. Baca/tulis boolean.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | value | boolean |  |
-
 ### getExplosion() {#getExplosion--}
 ```
 public final int getExplosion()
 ```
 
-Menentukan jumlah pergeseran titik data dari pusat pai. Baca/tulis int.
+Menentukan jumlah pergeseran titik data dari pusat diagram pai. Baca/tulis int.
 
 **Mengembalikan:**
 int
-
 ### setExplosion(int value) {#setExplosion-int-}
 ```
 public final void setExplosion(int value)
 ```
 
-Menentukan jumlah pergeseran titik data dari pusat pai. Baca/tulis int.
+Menentukan jumlah pergeseran titik data dari pusat diagram pai. Baca/tulis int.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | value | int |  |
-
 ### getFormat() {#getFormat--}
 ```
 public final IFormat getFormat()
@@ -182,7 +173,6 @@ Mewakili properti pemformatan. Baca/tulis [IFormat](../../com.aspose.slides/ifor
 
 **Mengembalikan:**
 [IFormat](../../com.aspose.slides/iformat)
-
 ### setFormat(IFormat value) {#setFormat-com.aspose.slides.IFormat-}
 ```
 public final void setFormat(IFormat value)
@@ -194,7 +184,6 @@ Mewakili properti pemformatan. Baca/tulis [IFormat](../../com.aspose.slides/ifor
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | value | [IFormat](../../com.aspose.slides/iformat) |  |
-
 ### getMarker() {#getMarker--}
 ```
 public final IMarker getMarker()
@@ -204,64 +193,58 @@ Menentukan penanda data. Hanya-baca [IMarker](../../com.aspose.slides/imarker).
 
 **Mengembalikan:**
 [IMarker](../../com.aspose.slides/imarker)
-
 ### getSetAsTotal() {#getSetAsTotal--}
 ```
 public final boolean getSetAsTotal()
 ```
 
-Menetapkan titik data sebagai total. Diterapkan hanya untuk jenis seri Waterfall.
+Mengatur titik data sebagai total. Diterapkan hanya untuk tipe seri Waterfall.
 
 **Mengembalikan:**
 boolean
-
 ### setSetAsTotal(boolean value) {#setSetAsTotal-boolean-}
 ```
 public final void setSetAsTotal(boolean value)
 ```
 
-Menetapkan titik data sebagai total. Diterapkan hanya untuk jenis seri Waterfall.
+Mengatur titik data sebagai total. Diterapkan hanya untuk tipe seri Waterfall.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | value | boolean |  |
-
 ### getRelatedLegendEntry() {#getRelatedLegendEntry--}
 ```
 public final ILegendEntryProperties getRelatedLegendEntry()
 ```
 
-Properti entri legenda yang sesuai dalam kasus jenis diagram dari daftar berikut: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Hanya-baca [ILegendEntryProperties](../../com.aspose.slides/ilegendentryproperties).
+Properti entri legenda yang sesuai dalam kasus tipe diagram dari daftar ini: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Hanya-baca [ILegendEntryProperties](../../com.aspose.slides/ilegendentryproperties).
 
 **Mengembalikan:**
 [ILegendEntryProperties](../../com.aspose.slides/ilegendentryproperties)
-
 ### remove() {#remove--}
 ```
 public final void remove()
 ```
 
 Menghapus DataPoint dari seri diagram.
-
 ### getDataPointLevels() {#getDataPointLevels--}
 ```
 public final IChartDataPointLevelsManager getDataPointLevels()
 ```
 
-Mengembalikan kontainer level titik data. Diterapkan untuk seri Treeamp dan Sunburst. Pengindeksan level titik data dimulai dari nol.
+Mengembalikan kontainer level titik data. Diterapkan untuk seri Treeamp dan Sunburst. Pengindeksan level titik data berbasis nol.
 
 **Mengembalikan:**
 [IChartDataPointLevelsManager](../../com.aspose.slides/ichartdatapointlevelsmanager)
-
 ### getIndex() {#getIndex--}
 ```
 public final long getIndex()
 ```
 
+
 **Mengembalikan:**
 long
-
 ### getParent_Immediate() {#getParent-Immediate--}
 ```
 public final IDOMObject getParent_Immediate()
@@ -271,7 +254,6 @@ Mengembalikan objek Parent_Immediate. Hanya-baca IDOMObject.
 
 **Mengembalikan:**
 com.aspose.slides.IDOMObject
-
 ### getAutomaticDataPointColor() {#getAutomaticDataPointColor--}
 ```
 public final Color getAutomaticDataPointColor()
@@ -281,7 +263,6 @@ Mengembalikan warna otomatis titik data berdasarkan indeks seri, indeks titik da
 
 **Mengembalikan:**
 java.awt.Color
-
 ### getInvertIfNegative() {#getInvertIfNegative--}
 ```
 public final boolean getInvertIfNegative()
@@ -291,7 +272,6 @@ Menentukan titik data harus membalikkan warnanya jika nilai negatif. Baca/tulis 
 
 **Mengembalikan:**
 boolean
-
 ### setInvertIfNegative(boolean value) {#setInvertIfNegative-boolean-}
 ```
 public final void setInvertIfNegative(boolean value)
@@ -303,43 +283,146 @@ Menentukan titik data harus membalikkan warnanya jika nilai negatif. Baca/tulis 
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | value | boolean |  |
+### getCachedValue() {#getCachedValue--}
+```
+public final ICachedChartValue getCachedValue()
+```
 
+Mendapatkan nilai cache dari titik data diagram. Hanya-baca [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // Cetak semua nilai cache dari seri diagram.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedValue().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Mengembalikan:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
+### getCachedXValue() {#getCachedXValue--}
+```
+public final ICachedChartValue getCachedXValue()
+```
+
+Mendapatkan nilai X cache dari titik data diagram. Hanya-baca [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // Cetak semua nilai X cache dari seri diagram.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedXValue().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Mengembalikan:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
+### getCachedYValue() {#getCachedYValue--}
+```
+public final ICachedChartValue getCachedYValue()
+```
+
+Mendapatkan nilai Y cache dari titik data diagram. Hanya-baca [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // Cetak semua nilai Y cache dari seri diagram.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedYValue().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Mengembalikan:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
+### getCachedBubbleSize() {#getCachedBubbleSize--}
+```
+public final ICachedChartValue getCachedBubbleSize()
+```
+
+Mendapatkan ukuran gelembung cache dari titik data diagram. Hanya-baca [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // Cetak semua nilai ukuran gelembung cache dari seri diagram.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedBubbleSize().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Mengembalikan:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
 ### getActualX() {#getActualX--}
 ```
 public final float getActualX()
 ```
 
-Menentukan lokasi x aktual (kiri) elemen diagram relatif terhadap sudut kiri atas diagram. Panggil metode IChart.ValidateChartLayout() terlebih dahulu untuk mendapatkan nilai aktual. Baca float.
+Menentukan lokasi x aktual (kiri) elemen diagram relatif terhadap sudut kiri atas diagram. Panggil metode IChart.ValidateChartLayout() terlebih dulu untuk mendapatkan nilai aktual. Baca float.
 
 **Mengembalikan:**
 float
-
 ### getActualY() {#getActualY--}
 ```
 public final float getActualY()
 ```
 
-Menentukan bagian atas aktual elemen diagram relatif terhadap sudut kiri atas diagram. Panggil metode IChart.ValidateChartLayout() terlebih dahulu untuk mendapatkan nilai aktual. Baca float.
+Menentukan atas aktual elemen diagram relatif terhadap sudut kiri atas diagram. Panggil metode IChart.ValidateChartLayout() terlebih dulu untuk mendapatkan nilai aktual. Baca float.
 
 **Mengembalikan:**
 float
-
 ### getActualWidth() {#getActualWidth--}
 ```
 public final float getActualWidth()
 ```
 
-Menentukan lebar aktual elemen diagram. Panggil metode IChart.ValidateChartLayout() terlebih dahulu untuk mendapatkan nilai aktual. Baca float.
+Menentukan lebar aktual elemen diagram. Panggil metode IChart.ValidateChartLayout() terlebih dulu untuk mendapatkan nilai aktual. Baca float.
 
 **Mengembalikan:**
 float
-
 ### getActualHeight() {#getActualHeight--}
 ```
 public final float getActualHeight()
 ```
 
-Menentukan tinggi aktual elemen diagram. Panggil metode IChart.ValidateChartLayout() terlebih dahulu untuk mendapatkan nilai aktual. Baca float.
+Menentukan tinggi aktual elemen diagram. Panggil metode IChart.ValidateChartLayout() terlebih dulu untuk mendapatkan nilai aktual. Baca float.
 
 **Mengembalikan:**
 float

@@ -8,35 +8,35 @@ url: /ja/com.aspose.slides/ichartdata/
 public interface IChartData
 ```
 
-チャートのプロットに使用されるデータを表します。
+チャート描画に使用されるデータを表します。
 ## メソッド
 
 | メソッド | 説明 |
 | --- | --- |
-| [getChartDataWorkbook()](#getChartDataWorkbook--) | チャートシリーズまたはカテゴリに使用されるセルを作成するためのセルファクトリを取得します。 |
+| [getChartDataWorkbook()](#getChartDataWorkbook--) | チャートシリーズまたはカテゴリで使用されるセルを作成するためのセルファクトリを取得します。 |
 | [getSeries()](#getSeries--) | シリーズを取得します。 |
 | [getSeriesGroups()](#getSeriesGroups--) | シリーズのグループを取得します。 |
-| [getCategories()](#getCategories--) | プライマリカテゴリ（または、(\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) プロパティが false の場合はプライマリおよびセカンダリカテゴリの両方）を取得します。 |
-| [getUseSecondaryCategories()](#getUseSecondaryCategories--) | false の場合、(\#getSecondaryCategories.getSecondaryCategories) プロパティは null を返し、(\#getCategories.getCategories) プロパティのデータはプライマリとセカンダリの両方のシリーズに使用されます。 |
-| [setUseSecondaryCategories(boolean value)](#setUseSecondaryCategories-boolean-) | false の場合、(\#getSecondaryCategories.getSecondaryCategories) プロパティは null を返し、(\#getCategories.getCategories) プロパティのデータはプライマリとセカンダリの両方のシリーズに使用されます。 |
-| [getSecondaryCategories()](#getSecondaryCategories--) | (\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) プロパティが true の場合、セカンダリカテゴリを取得します。 |
-| [readWorkbookStream()](#readWorkbookStream--) | 内部に含まれる Excel ブックをメモリ内ストリームに書き込みます。 |
-| [writeWorkbookStream(byte[] ms)](#writeWorkbookStream-byte---) | 内部に含まれる Excel ブックをユーザー指定の値で初期化します。 |
-| [setRange(String formula)](#setRange-java.lang.String-) | チャートのデータ範囲を設定します。 |
-| [getRange()](#getRange--) | チャートのデータ範囲を取得します。 |
-| [getDataSourceType()](#getDataSourceType--) | チャートのデータソースを表します。 |
-| [getExternalWorkbookPath()](#getExternalWorkbookPath--) | データソースが外部の場合は外部ブックパスを表し、そうでない場合は null を返します。 |
-| [getEmbeddedWorkbookType()](#getEmbeddedWorkbookType--) | 埋め込みブックのタイプを取得します。 |
+| [getCategories()](#getCategories--) | 主カテゴリを取得します（プロパティ (\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) が false の場合は、主カテゴリと副カテゴリの両方を取得します）。 |
+| [getUseSecondaryCategories()](#getUseSecondaryCategories--) | false の場合、(\#getSecondaryCategories.getSecondaryCategories) プロパティは null を返し、(\#getCategories.getCategories) プロパティのデータが主シリーズと副シリーズの両方に使用されます。 |
+| [setUseSecondaryCategories(boolean value)](#setUseSecondaryCategories-boolean-) | false の場合、(\#getSecondaryCategories.getSecondaryCategories) プロパティは null を返し、(\#getCategories.getCategories) プロパティのデータが主シリーズと副シリーズの両方に使用されます。 |
+| [getSecondaryCategories()](#getSecondaryCategories--) | プロパティ (\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) が true の場合、二次カテゴリを取得します。 |
+| [readWorkbookStream()](#readWorkbookStream--) | 内部に含まれる Excel ワークブックをメモリ内ストリームに書き込みます。 |
+| [writeWorkbookStream(byte[] ms)](#writeWorkbookStream-byte---) | Initializes the internally contained Excel workbook with user-specified value. |
+| [setRange(String formula)](#setRange-java.lang.String-) | チャートデータ範囲を設定します。 |
+| [getRange()](#getRange--) | チャートデータ範囲を取得します。 |
+| [getDataSourceType()](#getDataSourceType--) | チャートのデータソースを表します |
+| [getExternalWorkbookPath()](#getExternalWorkbookPath--) | データソースが外部の場合は外部ワークブックのパスを表します。そうでない場合は null です |
+| [getEmbeddedWorkbookType()](#getEmbeddedWorkbookType--) | 埋め込みワークブックのタイプを取得します。 |
 | [switchRowColumn()](#switchRowColumn--) | 軸上のデータを入れ替えます。 |
-| [setExternalWorkbook(String workbookPath)](#setExternalWorkbook-java.lang.String-) | 外部ブックをチャートのデータソースとして設定します。 |
-| [setExternalWorkbook(String workbookPath, boolean updateChartData)](#setExternalWorkbook-java.lang.String-boolean-) | 外部ブックをチャートのデータソースとして設定します。 |
+| [setExternalWorkbook(String workbookPath)](#setExternalWorkbook-java.lang.String-) | 外部ワークブックをチャートのデータソースとして設定します。 |
+| [setExternalWorkbook(String workbookPath, boolean updateChartData)](#setExternalWorkbook-java.lang.String-boolean-) | 外部ワークブックをチャートのデータソースとして設定します。 |
+| [refreshData()](#refreshData--) | ソースワークブックから再読み込みしてチャートデータを更新します。 |
 ### getChartDataWorkbook() {#getChartDataWorkbook--}
 ```
 public abstract IChartDataWorkbook getChartDataWorkbook()
 ```
 
-
-チャートシリーズまたはカテゴリに使用されるセルを作成するためのセルファクトリを取得します。読み取り専用 [IChartDataWorkbook](../../com.aspose.slides/ichartdataworkbook)。
+内部に含まれるセルを作成するためのセルファクトリを取得します。読み取り専用 [IChartDataWorkbook](../../com.aspose.slides/ichartdataworkbook)。
 
 **戻り値:**
 [IChartDataWorkbook](../../com.aspose.slides/ichartdataworkbook)
@@ -44,7 +44,6 @@ public abstract IChartDataWorkbook getChartDataWorkbook()
 ```
 public abstract IChartSeriesCollection getSeries()
 ```
-
 
 シリーズを取得します。読み取り専用 [IChartSeriesCollection](../../com.aspose.slides/ichartseriescollection)。
 
@@ -55,12 +54,11 @@ public abstract IChartSeriesCollection getSeries()
 public abstract IChartSeriesGroupCollection getSeriesGroups()
 ```
 
-
 シリーズのグループを取得します。読み取り専用 [IChartSeriesGroupCollection](../../com.aspose.slides/ichartseriesgroupcollection)。
 
 --------------------
 
-1) 各シリーズグループは、組み合わせ可能なタイプのシリーズを含みます。組み合わせ可能なシリーズタイプのグループは CombinableSeriesTypesGroup 列挙体で定義および記述されています。また、各シリーズグループは、プライマリ軸またはセカンダリ軸のいずれかにプロットされるシリーズを含みます（同一グループ内で両方にプロットされることはありません）。したがって、シリーズのグルーピングの原則は、上記のタイプグループとプライマリ/セカンダリのプロットタイプによるグルーピングです。2) シリーズグループは、グループ内の各シリーズに共通するいくつかのシリーズプロパティ（「シリーズグループプロパティ」）を含みます。ChartSeriesGroup クラスの「シリーズグループプロパティ」は読み書き可能です。各「シリーズグループプロパティ」には、ChartSeries クラスで読み取り専用の投影が存在する場合があります。
+1) 各シリーズグループは、組み合わせ可能なタイプのシリーズを含みます。組み合わせ可能なシリーズタイプのグループは CombinableSeriesTypesGroup enum で定義および記述されています。また、各シリーズグループは、主軸上にプロットされるシリーズまたは副軸上にプロットされるシリーズを含みます（同一グループ内で両方のケースはありません）。したがって、シリーズのグルーピングの原則は、前述のタイプグループと主/副プロットタイプによるグルーピングです。2) シリーズグループは、グループ内の各シリーズに共通するいくつかのシリーズプロパティ（「シリーズグループプロパティ」）を含みます。ChartSeriesGroup クラスの「Series group properties」は読み書き可能です。「シリーズグループプロパティ」の各項目は、ChartSeries クラスで読み取り専用として投影される可能性があります。
 
 **戻り値:**
 [IChartSeriesGroupCollection](../../com.aspose.slides/ichartseriesgroupcollection)
@@ -69,8 +67,7 @@ public abstract IChartSeriesGroupCollection getSeriesGroups()
 public abstract IChartCategoryCollection getCategories()
 ```
 
-
-プライマリカテゴリ（または、(\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) プロパティが false の場合はプライマリおよびセカンダリカテゴリの両方）を取得します。読み取り専用 [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection)。
+主カテゴリを取得します（プロパティ (\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) が false の場合は、主カテゴリと副カテゴリの両方を取得します）。読み取り専用 [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection)。
 
 --------------------
 
@@ -79,17 +76,17 @@ public abstract IChartCategoryCollection getCategories()
 >  
 >  if (series.getPlotOnSecondAxis() && series.getChart().getChartData().getUseSecondaryCategories())
 >  {
->      // 関連するカテゴリは series.getChart().getChartData().getSecondaryCategories() です
+>      // 対応するカテゴリは series.getChart().getChartData().getSecondaryCategories()
 >  }
 >  else
 >  {
->      // 関連するカテゴリは series.getChart().getChartData().getCategories() です
+>      // 対応するカテゴリは series.getChart().getChartData().getCategories()
 >  }
-```
+> ```
 
 --------------------
 
-(\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) プロパティが false の場合、(\#getSecondaryCategories.getSecondaryCategories) プロパティは null を返し、この (\#getCategories.getCategories) プロパティのデータはプライマリおよびセカンダリシリーズの両方に使用されます。(\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) プロパティが true の場合、(\#getSecondaryCategories.getSecondaryCategories) プロパティのデータはセカンダリシリーズに、そしてこの (\#getCategories.getCategories) プロパティのデータはプライマリシリーズに使用されます。
+false の場合、(\#getSecondaryCategories.getSecondaryCategories) プロパティは null を返し、(\#getCategories.getCategories) プロパティのデータが主シリーズと副シリーズの両方に使用されます。true の場合、(\#getSecondaryCategories.getSecondaryCategories) プロパティのデータが副シリーズに使用され、(\#getCategories.getCategories) プロパティのデータが主シリーズに使用されます。
 
 **戻り値:**
 [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection)
@@ -98,8 +95,7 @@ public abstract IChartCategoryCollection getCategories()
 public abstract boolean getUseSecondaryCategories()
 ```
 
-
-false の場合、(\#getSecondaryCategories.getSecondaryCategories) プロパティは null を返し、(\#getCategories.getCategories) プロパティのデータはプライマリおよびセカンダリシリーズの両方に使用されます。true の場合、(\#getSecondaryCategories.getSecondaryCategories) プロパティのデータはセカンダリシリーズに、(\#getCategories.getCategories) プロパティのデータはプライマリシリーズに使用されます。読み書き可能な boolean。
+false の場合、(\#getSecondaryCategories.getSecondaryCategories) プロパティは null を返し、(\#getCategories.getCategories) プロパティのデータが主シリーズと副シリーズの両方に使用されます。true の場合、(\#getSecondaryCategories.getSecondaryCategories) プロパティのデータが副シリーズに使用され、(\#getCategories.getCategories) プロパティのデータが主シリーズに使用されます。読み書き boolean。
 
 --------------------
 
@@ -108,11 +104,11 @@ false の場合、(\#getSecondaryCategories.getSecondaryCategories) プロパテ
 >  
 >  if (series.getPlotOnSecondAxis() && series.getChart().getChartData().getUseSecondaryCategories())
 >  {
->      // 関連するカテゴリは series.getChart().getChartData().getSecondaryCategories() です
+>      // 関連するカテゴリは series.getChart().getChartData().getSecondaryCategories()
 >  }
 >  else
 >  {
->      // 関連するカテゴリは series.getChart().getChartData().getCategories() です
+>      // 関連するカテゴリは series.getChart().getChartData().getCategories()
 >  }
 > ```
 
@@ -123,8 +119,7 @@ boolean
 public abstract void setUseSecondaryCategories(boolean value)
 ```
 
-
-false の場合、(\#getSecondaryCategories.getSecondaryCategories) プロパティは null を返し、(\#getCategories.getCategories) プロパティのデータはプライマリおよびセカンダリシリーズの両方に使用されます。true の場合、(\#getSecondaryCategories.getSecondaryCategories) プロパティのデータはセカンダリシリーズに、(\#getCategories.getCategories) プロパティのデータはプライマリシリーズに使用されます。読み書き可能な boolean。
+false の場合、(\#getSecondaryCategories.getSecondaryCategories) プロパティは null を返し、(\#getCategories.getCategories) プロパティのデータが主シリーズと副シリーズの両方に使用されます。true の場合、(\#getSecondaryCategories.getSecondaryCategories) プロパティのデータが副シリーズに使用され、(\#getCategories.getCategories) プロパティのデータが主シリーズに使用されます。読み書き boolean。
 
 --------------------
 
@@ -133,25 +128,26 @@ false の場合、(\#getSecondaryCategories.getSecondaryCategories) プロパテ
 >  
 >  if (series.getPlotOnSecondAxis() && series.getChart().getChartData().getUseSecondaryCategories())
 >  {
->      // 関連するカテゴリは series.getChart().getChartData().getSecondaryCategories() です
+>      // 関連するカテゴリは series.getChart().getChartData().getSecondaryCategories()
 >  }
 >  else
 >  {
->      // 関連するカテゴリは series.getChart().getChartData().getCategories() です
+>      // 関連するカテゴリは series.getChart().getChartData().getCategories()
 >  }
 > ```
 
-**パラメーター:**
-| パラメーター | 型 | 説明 |
+
+**パラメータ:**
+| パラメータ | 型 | 説明 |
 | --- | --- | --- |
 | value | boolean |  |
+
 ### getSecondaryCategories() {#getSecondaryCategories--}
 ```
 public abstract IChartCategoryCollection getSecondaryCategories()
 ```
 
-
-(\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) プロパティが true の場合、セカンダリカテゴリを取得します。読み取り専用 [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection)。
+プロパティ (\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) が true の場合、二次カテゴリを取得します。読み取り専用 [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection)。
 
 --------------------
 
@@ -160,18 +156,18 @@ public abstract IChartCategoryCollection getSecondaryCategories()
 >  
 >  if (series.getPlotOnSecondAxis() && series.getChart().getChartData().getUseSecondaryCategories())
 >  {
->      // 関連するカテゴリは series.getChart().getChartData().getSecondaryCategories() です
+>      // 関連するカテゴリは series.getChart().getChartData().getSecondaryCategories()
 >  }
 >  else
 >  {
->      // 関連するカテゴリは series.getChart().getChartData().getCategories() です
+>      // 関連するカテゴリは series.getChart().getChartData().getCategories()
 >  }
 > ```
 
 
 --------------------
 
-(\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) プロパティが false の場合、この (\#getSecondaryCategories.getSecondaryCategories) プロパティは null を返し、(\#getCategories.getCategories) プロパティのデータはプライマリおよびセカンダリシリーズの両方に使用されます。(\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) プロパティが true の場合、この (\#getSecondaryCategories.getSecondaryCategories) プロパティのデータはセカンダリシリーズに、(\#getCategories.getCategories) プロパティのデータはプライマリシリーズに使用されます。
+false の場合、(\#getSecondaryCategories.getSecondaryCategories) プロパティは null を返し、(\#getCategories.getCategories) プロパティのデータが主シリーズと副シリーズの両方に使用されます。true の場合、(\#getSecondaryCategories.getSecondaryCategories) プロパティのデータが副シリーズに使用され、(\#getCategories.getCategories) プロパティのデータが主シリーズに使用されます。
 
 **戻り値:**
 [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection)
@@ -180,42 +176,40 @@ public abstract IChartCategoryCollection getSecondaryCategories()
 public abstract byte[] readWorkbookStream()
 ```
 
-
-内部に含まれる Excel ブックをメモリ内ストリームに書き込みます。
+内部に含まれる Excel ワークブックをメモリ内ストリームに書き込みます。
 
 **戻り値:**
-byte[] - 内部に含まれる Excel ブックのコピーを含むバイト配列を返します。
+byte[] - 内部に含まれる Excel ワークブックのコピーを含むバイト配列を返します。
 ### writeWorkbookStream(byte[] ms) {#writeWorkbookStream-byte---}
 ```
 public abstract void writeWorkbookStream(byte[] ms)
 ```
 
+内部に含まれる Excel ワークブックをユーザー指定の値で初期化します。
 
-内部に含まれる Excel ブックをユーザー指定の値で初期化します。
-
-**パラメーター:**
-| パラメーター | 型 | 説明 |
+**パラメータ:**
+| パラメータ | 型 | 説明 |
 | --- | --- | --- |
-| ms | byte[] | ユーザーが提供した、Excel ブック全体を含むストリーム。 |
+| ms | byte[] | ユーザーが提供した、Excel ワークブック全体を含むストリーム。 |
+
 ### setRange(String formula) {#setRange-java.lang.String-}
 ```
 public abstract void setRange(String formula)
 ```
 
+チャートデータ範囲を設定します。シリーズとカテゴリは新しいデータ範囲に基づいて更新されます。データ範囲内のシリーズ数がチャートデータのシリーズ数を超える場合、現在のコレクションの最後のシリーズと同じタイプの追加シリーズがコレクションの末尾に追加されます。
 
-チャートのデータ範囲を設定します。シリーズとカテゴリは新しいデータ範囲に基づいて更新されます。データ範囲内のシリーズ数がチャートデータ内のシリーズ数より多い場合、現在のコレクションの最後のシリーズと同じタイプの追加シリーズがコレクションの末尾に追加されます。
-
-**パラメーター:**
-| パラメーター | 型 | 説明 |
+**パラメータ:**
+| パラメータ | 型 | 説明 |
 | --- | --- | --- |
-| formula | java.lang.String | セルのデータ範囲の式。例: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5"。 |
+| formula | java.lang.String | セルデータ範囲の式。例: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
+
 ### getRange() {#getRange--}
 ```
 public abstract String getRange()
 ```
 
-
-チャートのデータ範囲を取得します。
+チャートデータ範囲を取得します。
 
 --------------------
 
@@ -227,15 +221,15 @@ public abstract String getRange()
 >  }
 > ```
 
+
 **戻り値:**
-java.lang.String - セルのデータ範囲式。例: "Sheet1!$A$1:$C$4"
+java.lang.String - セルデータ範囲の式。例: "Sheet1!$A$1:$C$4"
 ### getDataSourceType() {#getDataSourceType--}
 ```
 public abstract int getDataSourceType()
 ```
 
-
-チャートのデータソースを表します。
+チャートのデータソースを表します
 
 **戻り値:**
 int
@@ -244,8 +238,7 @@ int
 public abstract String getExternalWorkbookPath()
 ```
 
-
-データソースが外部の場合は外部ブックパスを表し、そうでない場合は null を返します。
+データソースが外部の場合は外部ワークブックのパスを表します。そうでない場合は null です
 
 **戻り値:**
 java.lang.String
@@ -254,8 +247,7 @@ java.lang.String
 public abstract int getEmbeddedWorkbookType()
 ```
 
-
-埋め込みブックのタイプを取得します。DataSourceType (\#getDataSourceType.getDataSourceType) が [ChartDataSourceType.ExternalWorkbook](../../com.aspose.slides/chartdatasourcetype\#ExternalWorkbook) の場合は [WorkbookType.NotDefined](../../com.aspose.slides/workbooktype\#NotDefined) を返します。読み取り専用 [WorkbookType](../../com.aspose.slides/workbooktype)。
+埋め込みワークブックのタイプを取得します。DataSourceType (\#getDataSourceType.getDataSourceType) が [ChartDataSourceType.ExternalWorkbook](../../com.aspose.slides/chartdatasourcetype\#ExternalWorkbook) の場合は [WorkbookType.NotDefined](../../com.aspose.slides/workbooktype\#NotDefined) を返します。読み取り専用 [WorkbookType](../../com.aspose.slides/workbooktype)。
 
 **戻り値:**
 int
@@ -264,15 +256,14 @@ int
 public abstract void switchRowColumn()
 ```
 
+軸上のデータを入れ替えます。X 軸上でチャート化されているデータは Y 軸に移動し、その逆も同様です。
 
-軸上のデータを入れ替えます。X 軸でチャート化されたデータは Y 軸へ、逆も同様に移動します。
 ### setExternalWorkbook(String workbookPath) {#setExternalWorkbook-java.lang.String-}
 ```
 public abstract void setExternalWorkbook(String workbookPath)
 ```
 
-
-外部ブックをチャートのデータソースとして設定します。チャートデータは対象ブックから更新されます。
+外部ワークブックをチャートのデータソースとして設定します。チャートデータは対象ワークブックから更新されます。
 
 --------------------
 
@@ -288,17 +279,18 @@ public abstract void setExternalWorkbook(String workbookPath)
 >  }
 > ```
 
-**パラメーター:**
-| パラメーター | 型 | 説明 |
+
+**パラメータ:**
+| パラメータ | 型 | 説明 |
 | --- | --- | --- |
-| workbookPath | java.lang.String | 対象ブックへのパス |
+| workbookPath | java.lang.String | 対象ワークブックへのパス |
+
 ### setExternalWorkbook(String workbookPath, boolean updateChartData) {#setExternalWorkbook-java.lang.String-boolean-}
 ```
 public abstract void setExternalWorkbook(String workbookPath, boolean updateChartData)
 ```
 
-
-外部ブックをチャートのデータソースとして設定します。
+外部ワークブックをチャートのデータソースとして設定します。
 
 --------------------
 
@@ -315,8 +307,27 @@ public abstract void setExternalWorkbook(String workbookPath, boolean updateChar
 > ```
 
 
-**パラメーター:**
-| パラメーター | 型 | 説明 |
+**パラメータ:**
+| パラメータ | 型 | 説明 |
 | --- | --- | --- |
-| workbookPath | java.lang.String | 対象ブックへのパス |
-| updateChartData | boolean | false の場合、ブックパスのみが更新され、チャートデータは対象ブックからロードおよび更新されません。対象ブックが存在しない場合や利用できない場合に使用できます。true の場合、チャートデータは対象ブックから更新されます。 |
+| workbookPath | java.lang.String | 対象ワークブックへのパス |
+| updateChartData | boolean | false の場合はワークブックパスのみが更新され、チャートデータはロードおよび更新されません。対象ワークブックが存在しない、または利用できない場合に使用できます。true の場合はチャートデータが対象ワークブックから更新されます。 |
+
+### refreshData() {#refreshData--}
+```
+public abstract void refreshData()
+```
+
+ソースワークブックから再読み込みしてチャートデータを更新します。
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("presentationWithChart.pptx");
+>  try {
+>      IChart chart = (IChart)presentation.getSlides().get_Item(0).getShapes().get_Item(0);
+>      chart.getChartData().refreshData();
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```

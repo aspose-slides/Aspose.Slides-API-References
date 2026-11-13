@@ -24,102 +24,119 @@ Representerar diagramkategorier.
 | [setAsCell(IChartDataCell value)](#setAsCell-com.aspose.slides.IChartDataCell-) | Returnerar eller sätter IChartDataCell-objekt. |
 | [getAsLiteral()](#getAsLiteral--) | Returnerar eller sätter AsLiteral-objekt. |
 | [setAsLiteral(Object value)](#setAsLiteral-java.lang.Object-) | Returnerar eller sätter AsLiteral-objekt. |
-| [getValue()](#getValue--) | Om UseCell är true representerar denna egenskap AsCell.Value-egenskapen. |
-| [setValue(Object value)](#setValue-java.lang.Object-) | Om UseCell är true representerar denna egenskap AsCell.Value-egenskapen. |
-| [getGroupingLevels()](#getGroupingLevels--) | Hanterad behållare för värdena i diagramkategoriens grupperingnivåer. |
+| [getValue()](#getValue--) | Om UseCell är true så representerar denna egenskap AsCell.Value-egenskapen. |
+| [setValue(Object value)](#setValue-java.lang.Object-) | Om UseCell är true så representerar denna egenskap AsCell.Value-egenskapen. |
+| [getGroupingLevels()](#getGroupingLevels--) | Hanterad behållare för värdena i diagramkategori-grupperingsnivåerna. |
+| [getCachedValue()](#getCachedValue--) | Hämtar det cachelagrade värdet för en diagramkategori. |
 | [remove()](#remove--) | Tar bort kategori från diagrammet. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-
 ### getUseCell() {#getUseCell--}
 ```
 public final boolean getUseCell()
 ```
 
-Om true är AsCell-egenskapen aktuell. Med andra ord används arbetsbladet för att lagra kategori (detta fall stöder en flernivåkategori). Om false är AsLiteral-egenskapen aktuell. Med andra ord används arbetsbladet INTE för att lagra kategori (och detta fall stöder inte flernivåkategorier). Skrivskyddad boolean.
+Om true är AsCell-egenskapen aktuell. Med andra ord används arbetsbladet för att lagra kategori (detta fall stödjer en flernivåkategori). Om false är AsLiteral-egenskapen aktuell. Med andra ord används arbetsbladet INTE för att lagra kategori (och detta fall stödjer inte flernivåkategorier). Skrivskyddad boolesk.
 
 --------------------
 
-För att ändra värdet på den här egenskapen (för alla kategorier i samlingen) sätt det nya värdet på egenskapen ChartCategoryCollection.UseCells.
+För att ändra värdet på denna egenskap (för alla kategorier i samlingen) ange ett nytt värde till egenskapen ChartCategoryCollection.UseCells.
 
 **Returnerar:**
 boolean
-
 ### getAsCell() {#getAsCell--}
 ```
 public final IChartDataCell getAsCell()
 ```
 
-Returnerar eller sätter IChartDataCell-objekt. Om kategorin är flernivå används IChartDataCell-objekt för nivå "0". Läs/skriv [IChartDataCell](../../com.aspose.slides/ichartdatacell).
+Returnerar eller sätter IChartDataCell-objekt. Om kategori är flernivå används IChartDataCell-objekt för nivå "0". Läsa/skriva [IChartDataCell](../../com.aspose.slides/ichartdatacell).
 
 **Returnerar:**
 [IChartDataCell](../../com.aspose.slides/ichartdatacell)
-
 ### setAsCell(IChartDataCell value) {#setAsCell-com.aspose.slides.IChartDataCell-}
 ```
 public final void setAsCell(IChartDataCell value)
 ```
 
-Returnerar eller sätter IChartDataCell-objekt. Om kategorin är flernivå används IChartDataCell-objekt för nivå "0". Läs/skriv [IChartDataCell](../../com.aspose.slides/ichartdatacell).
+Returnerar eller sätter IChartDataCell-objekt. Om kategori är flernivå används IChartDataCell-objekt för nivå "0". Läsa/skriva [IChartDataCell](../../com.aspose.slides/ichartdatacell).
 
 **Parametrar:**
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | value | [IChartDataCell](../../com.aspose.slides/ichartdatacell) |  |
-
 ### getAsLiteral() {#getAsLiteral--}
 ```
 public final Object getAsLiteral()
 ```
 
-Returnerar eller sätter AsLiteral-objekt. Läs/skriv Object.
+Returnerar eller sätter AsLiteral-objekt. Läsa/skriva Objekt.
 
 **Returnerar:**
 java.lang.Object
-
 ### setAsLiteral(Object value) {#setAsLiteral-java.lang.Object-}
 ```
 public final void setAsLiteral(Object value)
 ```
 
-Returnerar eller sätter AsLiteral-objekt. Läs/skriv Object.
+Returnerar eller sätter AsLiteral-objekt. Läsa/skriva Objekt.
 
 **Parametrar:**
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | value | java.lang.Object |  |
-
 ### getValue() {#getValue--}
 ```
 public final Object getValue()
 ```
 
-Om UseCell är true representerar denna egenskap AsCell.Value-egenskapen. Om UseCell är false representerar denna egenskap AsLiteral-egenskapen. Läs/skriv Object.
+Om UseCell är true så representerar denna egenskap AsCell.Value-egenskapen. Om UseCell är false så representerar denna egenskap AsLiteral-egenskapen. Läsa/skriva Objekt.
 
 **Returnerar:**
 java.lang.Object
-
 ### setValue(Object value) {#setValue-java.lang.Object-}
 ```
 public final void setValue(Object value)
 ```
 
-Om UseCell är true representerar denna egenskap AsCell.Value-egenskapen. Om UseCell är false representerar denna egenskap AsLiteral-egenskapen. Läs/skriv Object.
+Om UseCell är true så representerar denna egenskap AsCell.Value-egenskapen. Om UseCell är false så representerar denna egenskap AsLiteral-egenskapen. Läsa/skriva Objekt.
 
 **Parametrar:**
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | value | java.lang.Object |  |
-
 ### getGroupingLevels() {#getGroupingLevels--}
 ```
 public final IChartCategoryLevelsManager getGroupingLevels()
 ```
 
-Hanterad behållare för värdena i diagramkategoriens grupperingnivåer. Flernivåkategori innehåller mer än en grupperingnivå. Indexering av grupperingnivåer är nollbaserad. Skrivskyddad [IChartCategoryLevelsManager](../../com.aspose.slides/ichartcategorylevelsmanager).
+Hanterad behållare för värdena i diagramkategori-grupperingsnivåerna. Flernivåkategori innehåller mer än en grupperingsnivå. Indexering av grupperingsnivåer är nollbaserad. Skrivskyddad [IChartCategoryLevelsManager](../../com.aspose.slides/ichartcategorylevelsmanager).
 
 **Returnerar:**
 [IChartCategoryLevelsManager](../../com.aspose.slides/ichartcategorylevelsmanager)
+### getCachedValue() {#getCachedValue--}
+```
+public final ICachedChartValue getCachedValue()
+```
 
+Hämtar det cachelagrade värdet för en diagramkategori. Skrivskyddad [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx")
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+> 
+>      // Skriv ut alla cachade diagramkategorivärden.
+>      for (IChartCategory category : chart.getChartData().getCategories())
+>          System.out.println(category.getCachedValue().toString());
+>  } finally {
+>      pres.dispose();
+>  }
+> ```
+
+
+**Returnerar:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
 ### remove() {#remove--}
 ```
 public final void remove()

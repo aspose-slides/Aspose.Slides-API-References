@@ -1,30 +1,30 @@
 ---
 title: FontsManager
 second_title: Tham chiếu API Aspose.Slides cho Java
-description: Quản lý phông chữ trong toàn bộ bản trình bày.
+description: Quản lý phông chữ trên toàn bộ bản trình chiếu.
 type: docs
 url: /vi/com.aspose.slides/fontsmanager/
 ---
 **Kế thừa:**
 java.lang.Object
 
-**Tất cả các giao diện được triển khai:**
+**Tất cả các giao diện được thực hiện:**
 [com.aspose.slides.IFontsManager](../../com.aspose.slides/ifontsmanager)
 ```
 public class FontsManager implements IFontsManager
 ```
 
-Quản lý phông chữ trên toàn bộ bản trình bày.
+Quản lý phông chữ trên toàn bộ bản trình chiếu.
 
 --------------------
 
 > ```
 > The following example shows how to add embedded fonts to PowerPoint Presentation.
 >  
->  // Tải bản trình bày
+>  // Tải bản trình chiếu
 >  Presentation pres = new Presentation("Fonts.pptx");
 >  try {
->      // Tải phông chữ nguồn để thay thế
+>      // Tải phông chữ nguồn sẽ được thay thế
 >      IFontData sourceFont = new FontData("Arial");
 >      IFontData[] allFonts = pres.getFontsManager().getFonts();
 >      for (IFontData font : allFonts)
@@ -43,7 +43,7 @@ Quản lý phông chữ trên toàn bộ bản trình bày.
 >              pres.getFontsManager().addEmbeddedFont(font, EmbedFontCharacters.All);
 >          }
 >      }
->      // Lưu bản trình bày
+>      // Lưu bản trình chiếu
 >      pres.save("AddEmbeddedFont_out.pptx", SaveFormat.Pptx);
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -54,29 +54,31 @@ Quản lý phông chữ trên toàn bộ bản trình bày.
 
 | Phương thức | Mô tả |
 | --- | --- |
-| [getFontSubstRuleList()](#getFontSubstRuleList--) | Các thay thế phông chữ để sử dụng khi render. |
-| [setFontSubstRuleList(IFontSubstRuleCollection value)](#setFontSubstRuleList-com.aspose.slides.IFontSubstRuleCollection-) | Các thay thế phông chữ để sử dụng khi render. |
-| [getFontFallBackRulesCollection()](#getFontFallBackRulesCollection--) | Biểu diễn bộ sưu tập các quy tắc FontFallBack của người dùng để quản lý các bộ sưu tập phông chữ nhằm thực hiện việc thay thế đúng đắn bằng chức năng fallback. Đọc/ghi [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
-| [setFontFallBackRulesCollection(IFontFallBackRulesCollection value)](#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-) | Biểu diễn bộ sưu tập các quy tắc FontFallBack của người dùng để quản lý các bộ sưu tập phông chữ nhằm thực hiện việc thay thế đúng đắn bằng chức năng fallback. Đọc/ghi [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
-| [getFonts()](#getFonts--) | Trả về các phông chữ được sử dụng trong bản trình bày. |
-| [getSubstitutions()](#getSubstitutions--) | Lấy thông tin về các phông chữ sẽ được thay thế trong quá trình render của bản trình bày. |
-| [getSubstitutions(int[] slides)](#getSubstitutions-int---) | Lấy thông tin về các phông chữ sẽ được thay thế trong quá trình render của các slide được chỉ định. |
-| [getEmbeddedFonts()](#getEmbeddedFonts--) | Trả về các phông chữ được nhúng trong bản trình bày. |
-| [removeEmbeddedFont(IFontData fontData)](#removeEmbeddedFont-com.aspose.slides.IFontData-) | Xóa phông chữ đã nhúng. |
-| [addEmbeddedFont(IFontData fontData, int embedFontRule)](#addEmbeddedFont-com.aspose.slides.IFontData-int-) | Thêm phông chữ đã nhúng. |
-| [addEmbeddedFont(byte[] fontData, int embedFontRule)](#addEmbeddedFont-byte---int-) | Thêm phông chữ đã nhúng. |
-| [replaceFont(IFontData sourceFont, IFontData destFont)](#replaceFont-com.aspose.slides.IFontData-com.aspose.slides.IFontData-) | Thay thế phông chữ trong bản trình bày. |
-| [replaceFont(IFontSubstRule substRule)](#replaceFont-com.aspose.slides.IFontSubstRule-) | Thay thế phông chữ trong bản trình bày bằng thông tin được cung cấp trong [FontSubstRule](../../com.aspose.slides/fontsubstrule). |
-| [replaceFont(IFontSubstRuleCollection substRules)](#replaceFont-com.aspose.slides.IFontSubstRuleCollection-) | Thay thế phông chữ trong bản trình bày bằng thông tin được cung cấp trong bộ sưu tập của [FontSubstRule](../../com.aspose.slides/fontsubstrule). |
-| [getFontBytes(IFontData fontData, int fontStyle)](#getFontBytes-com.aspose.slides.IFontData-int-) | Truy xuất mảng byte đại diện cho dữ liệu phông chữ cho một kiểu phông chữ và dữ liệu phông chữ xác định. |
-| [getFontEmbeddingLevel(byte[] fontBytes, String fontName)](#getFontEmbeddingLevel-byte---java.lang.String-) | Xác định mức độ nhúng của một phông chữ từ mảng byte và tên phông chữ đã cho. |
+| [getFontSubstRuleList()](#getFontSubstRuleList--) | Các thay thế phông chữ để sử dụng khi hiển thị. |
+| [setFontSubstRuleList(IFontSubstRuleCollection value)](#setFontSubstRuleList-com.aspose.slides.IFontSubstRuleCollection-) | Các thay thế phông chữ để sử dụng khi hiển thị. |
+| [getFontFallBackRulesCollection()](#getFontFallBackRulesCollection--) | Biểu diễn bộ sưu tập các quy tắc FontFallBack của người dùng để quản lý các bộ phông chữ cho việc thay thế thích hợp bằng chức năng fallback. Đọc/ghi [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
+| [setFontFallBackRulesCollection(IFontFallBackRulesCollection value)](#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-) | Biểu diễn bộ sưu tập các quy tắc FontFallBack của người dùng để quản lý các bộ phông chữ cho việc thay thế thích hợp bằng chức năng fallback. Đọc/ghi [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
+| [getFonts()](#getFonts--) | Trả về các phông chữ được sử dụng trong bản trình chiếu |
+| [getSubstitutions()](#getSubstitutions--) | Lấy thông tin về các phông chữ sẽ được thay thế khi hiển thị bản trình chiếu. |
+| [getSubstitutions(int[] slides)](#getSubstitutions-int---) | Lấy thông tin về các phông chữ sẽ được thay thế trong quá trình hiển thị các slide được chỉ định. |
+| [getPreferRegisteredFontsOverEmbedded()](#getPreferRegisteredFontsOverEmbedded--) | Xác định xem các phông chữ đã đăng ký có nên được ưu tiên hơn các phông chữ nhúng có cùng tên và kiểu hay không. |
+| [setPreferRegisteredFontsOverEmbedded(boolean value)](#setPreferRegisteredFontsOverEmbedded-boolean-) | Xác định xem các phông chữ đã đăng ký có nên được ưu tiên hơn các phông chữ nhúng có cùng tên và kiểu hay không. |
+| [getEmbeddedFonts()](#getEmbeddedFonts--) | Trả về các phông chữ đã được nhúng trong bản trình chiếu |
+| [removeEmbeddedFont(IFontData fontData)](#removeEmbeddedFont-com.aspose.slides.IFontData-) | Xóa phông chữ đã nhúng |
+| [addEmbeddedFont(IFontData fontData, int embedFontRule)](#addEmbeddedFont-com.aspose.slides.IFontData-int-) | Thêm phông chữ đã nhúng |
+| [addEmbeddedFont(byte[] fontData, int embedFontRule)](#addEmbeddedFont-byte---int-) | Thêm phông chữ đã nhúng |
+| [replaceFont(IFontData sourceFont, IFontData destFont)](#replaceFont-com.aspose.slides.IFontData-com.aspose.slides.IFontData-) | Thay thế phông chữ trong bản trình chiếu |
+| [replaceFont(IFontSubstRule substRule)](#replaceFont-com.aspose.slides.IFontSubstRule-) | Thay thế phông chữ trong bản trình chiếu bằng thông tin được cung cấp trong [FontSubstRule](../../com.aspose.slides/fontsubstrule) |
+| [replaceFont(IFontSubstRuleCollection substRules)](#replaceFont-com.aspose.slides.IFontSubstRuleCollection-) | Thay thế phông chữ trong bản trình chiếu bằng thông tin được cung cấp trong bộ sưu tập của [FontSubstRule](../../com.aspose.slides/fontsubstrule) |
+| [getFontBytes(IFontData fontData, int fontStyle)](#getFontBytes-com.aspose.slides.IFontData-int-) | Lấy mảng byte đại diện cho dữ liệu phông chữ cho kiểu phông chữ và dữ liệu phông chữ đã chỉ định. |
+| [getFontEmbeddingLevel(byte[] fontBytes, String fontName)](#getFontEmbeddingLevel-byte---java.lang.String-) | Xác định mức độ nhúng của phông chữ từ mảng byte và tên phông chữ được cung cấp. |
 
 ### getFontSubstRuleList() {#getFontSubstRuleList--}
 ```
 public final IFontSubstRuleCollection getFontSubstRuleList()
 ```
 
-Các thay thế phông chữ để sử dụng khi render. Đọc/ghi [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
+Các thay thế phông chữ để sử dụng khi hiển thị. Đọc/ghi [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
 
 **Trả về:**
 [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection)
@@ -85,7 +87,7 @@ Các thay thế phông chữ để sử dụng khi render. Đọc/ghi [IFontSubs
 public final void setFontSubstRuleList(IFontSubstRuleCollection value)
 ```
 
-Các thay thế phông chữ để sử dụng khi render. Đọc/ghi [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
+Các thay thế phông chữ để sử dụng khi hiển thị. Đọc/ghi [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
 
 **Tham số:**
 | Tham số | Kiểu | Mô tả |
@@ -97,7 +99,7 @@ Các thay thế phông chữ để sử dụng khi render. Đọc/ghi [IFontSubs
 public final IFontFallBackRulesCollection getFontFallBackRulesCollection()
 ```
 
-Biểu diễn bộ sưu tập các quy tắc FontFallBack của người dùng để quản lý các bộ sưu tập phông chữ nhằm thực hiện việc thay thế đúng đắn bằng chức năng fallback. Đọc/ghi [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
+Biểu diễn bộ sưu tập các quy tắc FontFallBack của người dùng để quản lý các bộ phông chữ cho việc thay thế thích hợp bằng chức năng fallback. Đọc/ghi [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
 
 --------------------
 
@@ -105,16 +107,16 @@ Biểu diễn bộ sưu tập các quy tắc FontFallBack của người dùng �
 > Presentation pres = new Presentation();
 >  try
 >  {
->      // Lấy bộ sưu tập quy tắc rỗng hoặc đã khởi tạo sẵn từ FontsManager
+>      // Lấy bộ sưu tập quy tắc rỗng hoặc đã được khởi tạo trước từ FontsManager
 >      IFontFallBackRulesCollection rulesList = pres.getFontsManager().getFontFallBackRulesCollection();
->      // thêm quy tắc vào bộ sưu tập
+>      // Thêm quy tắc vào bộ sưu tập
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
 >      // hoặc 
 >      // khởi tạo một thể hiện mới của bộ sưu tập quy tắc
 >      IFontFallBackRulesCollection rulesList = new FontFallBackRulesCollection();
->      // thêm quy tắc vào bộ sưu tập
+>      // Thêm quy tắc vào bộ sưu tập
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
->      // và thay thế bộ sưu tập hiện có bằng bộ mới trong FontsManager 
+>      // và thay thế bộ sưu tập hiện có bằng bộ sưu tập mới trong FontsManager 
 >      pres.getFontsManager().setFontFallBackRulesCollection(rulesList);
 >  }
 >  finally {
@@ -130,7 +132,7 @@ Biểu diễn bộ sưu tập các quy tắc FontFallBack của người dùng �
 public final void setFontFallBackRulesCollection(IFontFallBackRulesCollection value)
 ```
 
-Biểu diễn bộ sưu tập các quy tắc FontFallBack của người dùng để quản lý các bộ sưu tập phông chữ nhằm thực hiện việc thay thế đúng đắn bằng chức năng fallback. Đọc/ghi [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
+Biểu diễn bộ sưu tập các quy tắc FontFallBack của người dùng để quản lý các bộ phông chữ cho việc thay thế thích hợp bằng chức năng fallback. Đọc/ghi [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
 
 --------------------
 
@@ -138,16 +140,16 @@ Biểu diễn bộ sưu tập các quy tắc FontFallBack của người dùng �
 > Presentation pres = new Presentation();
 >  try
 >  {
->      // Lấy bộ sưu tập quy tắc rỗng hoặc đã khởi tạo sẵn từ FontsManager
+>      // Lấy bộ sưu tập quy tắc rỗng hoặc đã khởi tạo trước từ FontsManager
 >      IFontFallBackRulesCollection rulesList = pres.getFontsManager().getFontFallBackRulesCollection();
->      // thêm quy tắc vào bộ sưu tập
+>      // Thêm quy tắc vào bộ sưu tập
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
->      // hoặc 
->      // khởi tạo một thể hiện mới của bộ sưu tập quy tắc
+>      // hoặc
+>      // Khởi tạo một thể hiện mới của bộ sưu tập quy tắc
 >      IFontFallBackRulesCollection rulesList = new FontFallBackRulesCollection();
->      // thêm quy tắc vào bộ sưu tập
+>      // Thêm quy tắc vào bộ sưu tập
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
->      // và thay thế bộ sưu tập hiện có bằng bộ mới trong FontsManager 
+>      // và thay thế bộ sưu tập hiện có bằng bộ sưu tập mới trong FontsManager 
 >      pres.getFontsManager().setFontFallBackRulesCollection(rulesList);
 >  }
 >  finally {
@@ -166,7 +168,7 @@ Biểu diễn bộ sưu tập các quy tắc FontFallBack của người dùng �
 public final IFontData[] getFonts()
 ```
 
-Trả về các phông chữ được sử dụng trong bản trình bày
+Trả về các phông chữ được sử dụng trong bản trình chiếu
 
 **Trả về:**
 com.aspose.slides.IFontData[] - Một mảng các phông chữ
@@ -175,7 +177,7 @@ com.aspose.slides.IFontData[] - Một mảng các phông chữ
 public final System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo> getSubstitutions()
 ```
 
-Lấy thông tin về các phông chữ sẽ được thay thế trong quá trình render của bản trình bày.
+Lấy thông tin về các phông chữ sẽ được thay thế khi hiển thị bản trình chiếu.
 
 --------------------
 
@@ -193,13 +195,13 @@ Lấy thông tin về các phông chữ sẽ được thay thế trong quá trì
 
 
 **Trả về:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - Bộ sưu tập của tất cả các thay thế phông chữ [FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo).
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - Bộ sưu tập tất cả các thay thế phông chữ [FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo).
 ### getSubstitutions(int[] slides) {#getSubstitutions-int---}
 ```
 public final System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo> getSubstitutions(int[] slides)
 ```
 
-Lấy thông tin về các phông chữ sẽ được thay thế trong quá trình render của các slide được chỉ định.
+Lấy thông tin về các phông chữ sẽ được thay thế trong quá trình hiển thị các slide được chỉ định.
 
 --------------------
 
@@ -220,16 +222,70 @@ Lấy thông tin về các phông chữ sẽ được thay thế trong quá trì
 **Tham số:**
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
-| slides | int[] | Mảng các chỉ mục slide để truy xuất thông tin thay thế phông chữ, bắt đầu từ 1. |
+| slides | int[] | Mảng các chỉ số slide để lấy thông tin thay thế phông chữ, bắt đầu từ 1. |
 
 **Trả về:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - Một bộ sưu tập của tất cả các thay thế phông chữ ([FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo)) cho các slide đã chỉ định.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - Bộ sưu tập tất cả các thay thế phông chữ ([FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo)) cho các slide đã chỉ định.
+### getPreferRegisteredFontsOverEmbedded() {#getPreferRegisteredFontsOverEmbedded--}
+```
+public final boolean getPreferRegisteredFontsOverEmbedded()
+```
+
+Xác định xem các phông chữ đã đăng ký có nên được ưu tiên hơn các phông chữ nhúng có cùng tên và kiểu hay không. Khi bật, các phông chữ nhúng khớp sẽ tạm thời được thay thế bằng các phông chữ đã đăng ký tương ứng trong quá trình xuất.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("SomePresentation.pptx");
+>  try {
+>      pres.getFontsManager().setPreferRegisteredFontsOverEmbedded(true);
+>      pres.save("Presentation-out.pdf", SaveFormat.Pdf);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+Mặc định là **false**.
+
+**Trả về:**
+boolean
+### setPreferRegisteredFontsOverEmbedded(boolean value) {#setPreferRegisteredFontsOverEmbedded-boolean-}
+```
+public final void setPreferRegisteredFontsOverEmbedded(boolean value)
+```
+
+Xác định xem các phông chữ đã đăng ký có nên được ưu tiên hơn các phông chữ nhúng có cùng tên và kiểu hay không. Khi bật, các phông chữ nhúng khớp sẽ tạm thời được thay thế bằng các phông chữ đã đăng ký tương ứng trong quá trình xuất.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("SomePresentation.pptx");
+>  try {
+>      pres.getFontsManager().setPreferRegisteredFontsOverEmbedded(true);
+>      pres.save("Presentation-out.pdf", SaveFormat.Pdf);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+--------------------
+
+Mặc định là **false**.
+
+**Tham số:**
+| Tham số | Kiểu | Mô tả |
+| --- | --- | --- |
+| value | boolean |  |
+
 ### getEmbeddedFonts() {#getEmbeddedFonts--}
 ```
 public final IFontData[] getEmbeddedFonts()
 ```
 
-Trả về các phông chữ được nhúng trong bản trình bày
+Trả về các phông chữ đã được nhúng trong bản trình chiếu
 
 **Trả về:**
 com.aspose.slides.IFontData[]
@@ -276,7 +332,7 @@ Thêm phông chữ đã nhúng
 public final void replaceFont(IFontData sourceFont, IFontData destFont)
 ```
 
-Thay thế phông chữ trong bản trình bày
+Thay thế phông chữ trong bản trình chiếu
 
 **Tham số:**
 | Tham số | Kiểu | Mô tả |
@@ -289,7 +345,7 @@ Thay thế phông chữ trong bản trình bày
 public final void replaceFont(IFontSubstRule substRule)
 ```
 
-Thay thế phông chữ trong bản trình bày bằng thông tin được cung cấp trong [FontSubstRule](../../com.aspose.slides/fontsubstrule)
+Thay thế phông chữ trong bản trình chiếu bằng thông tin được cung cấp trong [FontSubstRule](../../com.aspose.slides/fontsubstrule)
 
 **Tham số:**
 | Tham số | Kiểu | Mô tả |
@@ -301,7 +357,7 @@ Thay thế phông chữ trong bản trình bày bằng thông tin được cung 
 public final void replaceFont(IFontSubstRuleCollection substRules)
 ```
 
-Thay thế phông chữ trong bản trình bày bằng thông tin được cung cấp trong bộ sưu tập của [FontSubstRule](../../com.aspose.slides/fontsubstrule)
+Thay thế phông chữ trong bản trình chiếu bằng thông tin được cung cấp trong bộ sưu tập của [FontSubstRule](../../com.aspose.slides/fontsubstrule)
 
 **Tham số:**
 | Tham số | Kiểu | Mô tả |
@@ -313,46 +369,45 @@ Thay thế phông chữ trong bản trình bày bằng thông tin được cung 
 public final byte[] getFontBytes(IFontData fontData, int fontStyle)
 ```
 
-Truy xuất mảng byte đại diện cho dữ liệu phông chữ cho một kiểu phông chữ và dữ liệu phông chữ xác định.
+Lấy mảng byte đại diện cho dữ liệu phông chữ cho kiểu phông chữ và dữ liệu phông chữ đã chỉ định.
 
 --------------------
 
 > ```
 > Presentation pres = new Presentation ("Presentation.pptx");
 >  try {
->      // Lấy tất cả các phông chữ được sử dụng trong bản trình bày
+>      // Lấy tất cả các phông chữ được sử dụng trong bản trình chiếu
 >      IFontData[] fonts = pres.getFontsManager().getFonts();
->      // Lấy mảng byte đại diện cho kiểu thường của phông chữ đầu tiên trong bản trình bày
+>      // Lấy mảng byte đại diện cho kiểu bình thường của phông chữ đầu tiên trong bản trình chiếu
 >      byte[] fontBytes = pres.getFontsManager().getFontBytes(fonts[0], FontStyleType.Regular);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
 > ```
 
-
 **Tham số:**
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | fontData | [IFontData](../../com.aspose.slides/ifontdata) | Đối tượng dữ liệu phông chữ chứa thông tin về phông chữ [IFontData](../../com.aspose.slides/ifontdata). |
-| fontStyle | int | Kiểu của phông chữ mà dữ liệu cần được truy xuất [FontStyleType](../../com.aspose.slides/fontstyletype). |
+| fontStyle | int | Kiểu của phông chữ mà dữ liệu cần được lấy [FontStyleType](../../com.aspose.slides/fontstyletype). |
 
 **Trả về:**
-byte[] - Một mảng byte chứa dữ liệu phông chữ cho kiểu phông chữ đã chỉ định. Nếu dữ liệu phông chữ hoặc kiểu không tồn tại, trả về null.
+byte[] - Mảng byte chứa dữ liệu phông chữ cho kiểu phông chữ đã chỉ định. Nếu không tìm thấy dữ liệu hoặc kiểu, trả về null.
 ### getFontEmbeddingLevel(byte[] fontBytes, String fontName) {#getFontEmbeddingLevel-byte---java.lang.String-}
 ```
 public final int getFontEmbeddingLevel(byte[] fontBytes, String fontName)
 ```
 
-Xác định mức độ nhúng của một phông chữ từ mảng byte và tên phông chữ đã cho.
+Xác định mức độ nhúng của phông chữ từ mảng byte và tên phông chữ đã cho.
 
 --------------------
 
 > ```
 > Presentation pres = new Presentation(pptxFileName);
 >  try {
->      // Lấy tất cả các phông chữ được sử dụng trong bản trình bày
+>      // Lấy tất cả các phông chữ được sử dụng trong bản trình chiếu
 >      IFontData[] fontDatas = pres.getFontsManager().getFonts();
->      // Lấy mảng byte đại diện cho kiểu thường của phông chữ đầu tiên trong bản trình bày
+>      // Lấy mảng byte đại diện cho kiểu bình thường của phông chữ đầu tiên trong bản trình chiếu
 >      byte[] bytes = pres.getFontsManager().getFontBytes(fontDatas[0], FontStyle.Regular);
 >      // Xác định mức độ nhúng của phông chữ
 >      int embeddingLevel = pres.getFontsManager().getFontEmbeddingLevel(bytes, fontDatas[0].getFontName());
@@ -360,7 +415,6 @@ Xác định mức độ nhúng của một phông chữ từ mảng byte và t�
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-
 
 **Tham số:**
 | Tham số | Kiểu | Mô tả |

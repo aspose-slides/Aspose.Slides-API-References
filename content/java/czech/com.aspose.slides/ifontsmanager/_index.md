@@ -1,6 +1,6 @@
 ---
 title: IFontsManager
-second_title: Aspose.Slides pro Java API Reference
+second_title: Aspose.Slides for Java API Reference
 description: Spravuje písma v celé prezentaci.
 type: docs
 url: /cs/com.aspose.slides/ifontsmanager/
@@ -13,29 +13,30 @@ Spravuje písma v celé prezentaci.
 
 | Metoda | Popis |
 | --- | --- |
-| [getFontSubstRuleList()](#getFontSubstRuleList--) | Náhrady písem k použití při vykreslování Čtení/Zápis [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection). |
-| [setFontSubstRuleList(IFontSubstRuleCollection value)](#setFontSubstRuleList-com.aspose.slides.IFontSubstRuleCollection-) | Náhrady písem k použití při vykreslování Čtení/Zápis [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection). |
-| [getFontFallBackRulesCollection()](#getFontFallBackRulesCollection--) | Reprezentuje uživatelskou sbírku pravidel FontFallBack pro správu kolekcí písem pro správné náhrady pomocí fallback funkčnosti Čtení/Zápis [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
-| [setFontFallBackRulesCollection(IFontFallBackRulesCollection value)](#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-) | Reprezentuje uživatelskou sbírku pravidel FontFallBack pro správu kolekcí písem pro správné náhrady pomocí fallback funkčnosti Čtení/Zápis [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
-| [getFonts()](#getFonts--) | Vrací písma použité v prezentaci |
-| [getSubstitutions()](#getSubstitutions--) | Získává informace o písmenech, která budou nahrazena při vykreslování prezentace. |
-| [getSubstitutions(int[] slides)](#getSubstitutions-int---) | Získává informace o písmenech, která budou nahrazena během vykreslování uvedených snímků. |
-| [getEmbeddedFonts()](#getEmbeddedFonts--) | Vrací písma vložená do prezentace |
-| [removeEmbeddedFont(IFontData fontData)](#removeEmbeddedFont-com.aspose.slides.IFontData-) | Odstraňuje vložené písmo |
-| [addEmbeddedFont(IFontData fontData, int embedFontRule)](#addEmbeddedFont-com.aspose.slides.IFontData-int-) | Přidává vložené písmo. |
-| [addEmbeddedFont(byte[] fontData, int embedFontRule)](#addEmbeddedFont-byte---int-) | Přidává vložené písmo |
-| [replaceFont(IFontData sourceFont, IFontData destFont)](#replaceFont-com.aspose.slides.IFontData-com.aspose.slides.IFontData-) | Nahrazuje písmo v prezentaci |
-| [replaceFont(IFontSubstRule substRule)](#replaceFont-com.aspose.slides.IFontSubstRule-) | Nahrazuje písmo v prezentaci pomocí informací poskytnutých v [IFontSubstRule](../../com.aspose.slides/ifontsubstrule) |
-| [replaceFont(IFontSubstRuleCollection substRules)](#replaceFont-com.aspose.slides.IFontSubstRuleCollection-) | Nahrazuje písmo v prezentaci pomocí informací poskytnutých v kolekci [IFontSubstRule](../../com.aspose.slides/ifontsubstrule) |
-| [getFontBytes(IFontData fontData, int fontStyle)](#getFontBytes-com.aspose.slides.IFontData-int-) | Načte pole bajtů představující data písma pro zadaný styl písma a data písma. |
-| [getFontEmbeddingLevel(byte[] fontBytes, String fontName)](#getFontEmbeddingLevel-byte---java.lang.String-) | Určuje úroveň vkládání písma z daného pole bajtů a názvu písma. |
+| [getFontSubstRuleList()](#getFontSubstRuleList--) | Font substitutions to use when rendering Čtení/Zápis [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection). |
+| [setFontSubstRuleList(IFontSubstRuleCollection value)](#setFontSubstRuleList-com.aspose.slides.IFontSubstRuleCollection-) | Font substitutions to use when rendering Čtení/Zápis [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection). |
+| [getFontFallBackRulesCollection()](#getFontFallBackRulesCollection--) | Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality Čtení/Zápis [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
+| [setFontFallBackRulesCollection(IFontFallBackRulesCollection value)](#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-) | Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality Čtení/Zápis [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
+| [getFonts()](#getFonts--) | Returns the fonts used in the presentation |
+| [getSubstitutions()](#getSubstitutions--) | Gets the information about fonts that will be replaced on the presentation's rendering. |
+| [getSubstitutions(int[] slides)](#getSubstitutions-int---) | Gets the information about fonts that will be replaced during rendering of the specified slides. |
+| [getEmbeddedFonts()](#getEmbeddedFonts--) | Returns the fonts embedded in the presentation |
+| [removeEmbeddedFont(IFontData fontData)](#removeEmbeddedFont-com.aspose.slides.IFontData-) | Removes the embedded font |
+| [addEmbeddedFont(IFontData fontData, int embedFontRule)](#addEmbeddedFont-com.aspose.slides.IFontData-int-) | Adds the embedded font. |
+| [addEmbeddedFont(byte[] fontData, int embedFontRule)](#addEmbeddedFont-byte---int-) | Adds the embedded font |
+| [replaceFont(IFontData sourceFont, IFontData destFont)](#replaceFont-com.aspose.slides.IFontData-com.aspose.slides.IFontData-) | Replace font in presentation |
+| [replaceFont(IFontSubstRule substRule)](#replaceFont-com.aspose.slides.IFontSubstRule-) | Replace font in presentation using information provided in [IFontSubstRule](../../com.aspose.slides/ifontsubstrule) |
+| [replaceFont(IFontSubstRuleCollection substRules)](#replaceFont-com.aspose.slides.IFontSubstRuleCollection-) | Replace font in presentation using information provided in collection of [IFontSubstRule](../../com.aspose.slides/ifontsubstrule) |
+| [getFontBytes(IFontData fontData, int fontStyle)](#getFontBytes-com.aspose.slides.IFontData-int-) | Retrieves the byte array representing the font data for a specified font style and font data. |
+| [getFontEmbeddingLevel(byte[] fontBytes, String fontName)](#getFontEmbeddingLevel-byte---java.lang.String-) | Determines the embedding level of a font from the given byte array and font name. |
+| [getPreferRegisteredFontsOverEmbedded()](#getPreferRegisteredFontsOverEmbedded--) | Specifies whether registered fonts should be preferred over embedded fonts with the same font name and style. |
+| [setPreferRegisteredFontsOverEmbedded(boolean value)](#setPreferRegisteredFontsOverEmbedded-boolean-) | Specifies whether registered fonts should be preferred over embedded fonts with the same font name and style. |
 ### getFontSubstRuleList() {#getFontSubstRuleList--}
 ```
 public abstract IFontSubstRuleCollection getFontSubstRuleList()
 ```
 
-
-Náhrady písem k použití při vykreslování Čtení/Zápis [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
+Substituce písem k použití při vykreslování Čtení/Zápis [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
 
 **Vrací:**
 [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection)
@@ -44,8 +45,7 @@ Náhrady písem k použití při vykreslování Čtení/Zápis [IFontSubstRuleCo
 public abstract void setFontSubstRuleList(IFontSubstRuleCollection value)
 ```
 
-
-Náhrady písem k použití při vykreslování Čtení/Zápis [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
+Substituce písem k použití při vykreslování Čtení/Zápis [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
 
 **Parametry:**
 | Parametr | Typ | Popis |
@@ -57,8 +57,7 @@ Náhrady písem k použití při vykreslování Čtení/Zápis [IFontSubstRuleCo
 public abstract IFontFallBackRulesCollection getFontFallBackRulesCollection()
 ```
 
-
-Reprezentuje uživatelskou sbírku pravidel FontFallBack pro správu kolekcí písem pro správné náhrady pomocí fallback funkčnosti Čtení/Zápis [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
+Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality Čtení/Zápis [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
 
 --------------------
 
@@ -70,7 +69,7 @@ Reprezentuje uživatelskou sbírku pravidel FontFallBack pro správu kolekcí p�
 >      IFontFallBackRulesCollection rulesList = pres.getFontsManager().getFontFallBackRulesCollection();
 >      // přidání pravidel do kolekce
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
->      // nebo 
+>      // nebo
 >      // inicializace nové instance kolekce pravidel
 >      IFontFallBackRulesCollection rulesList = new FontFallBackRulesCollection();
 >      // přidání pravidel do kolekce
@@ -91,8 +90,7 @@ Reprezentuje uživatelskou sbírku pravidel FontFallBack pro správu kolekcí p�
 public abstract void setFontFallBackRulesCollection(IFontFallBackRulesCollection value)
 ```
 
-
-Reprezentuje uživatelskou sbírku pravidel FontFallBack pro správu kolekcí písem pro správné náhrady pomocí fallback funkčnosti Čtení/Zápis [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
+Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality Čtení/Zápis [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
 
 --------------------
 
@@ -128,8 +126,7 @@ Reprezentuje uživatelskou sbírku pravidel FontFallBack pro správu kolekcí p�
 public abstract IFontData[] getFonts()
 ```
 
-
-Vrací písma použité v prezentaci
+Vrací písma použitá v prezentaci
 
 **Vrací:**
 com.aspose.slides.IFontData[] - Pole písem
@@ -137,7 +134,6 @@ com.aspose.slides.IFontData[] - Pole písem
 ```
 public abstract System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo> getSubstitutions()
 ```
-
 
 Získává informace o písmenech, která budou nahrazena při vykreslování prezentace.
 
@@ -157,14 +153,13 @@ Získává informace o písmenech, která budou nahrazena při vykreslování pr
 
 
 **Vrací:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - Kolekce všech náhrad písem [FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo).
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - Kolekce všech substitucí písem [FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo).
 ### getSubstitutions(int[] slides) {#getSubstitutions-int---}
 ```
 public abstract System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo> getSubstitutions(int[] slides)
 ```
 
-
-Získává informace o písmenech, která budou nahrazena během vykreslování uvedených snímků.
+Získává informace o písmenech, která budou nahrazena při vykreslování uvedených snímků.
 
 --------------------
 
@@ -185,17 +180,16 @@ Získává informace o písmenech, která budou nahrazena během vykreslování 
 **Parametry:**
 | Parametr | Typ | Popis |
 | --- | --- | --- |
-| slides | int[] | Pole indexů snímků, pro které se mají získat informace o náhradách písem, počínaje 1. |
+| slides | int[] | Pole indexů snímků, pro které se mají získat informace o substitucích písem, počínaje 1. |
 
 **Vrací:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - Kolekce všech náhrad písem ([FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo)) pro uvedené snímky.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - Kolekce všech substitucí písem ([FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo)) pro zadané snímky.
 ### getEmbeddedFonts() {#getEmbeddedFonts--}
 ```
 public abstract IFontData[] getEmbeddedFonts()
 ```
 
-
-Vrací písma vložená do prezentace
+Vrací písma vložená v prezentaci
 
 **Vrací:**
 com.aspose.slides.IFontData[] - Vložená písma IFontData[]
@@ -203,7 +197,6 @@ com.aspose.slides.IFontData[] - Vložená písma IFontData[]
 ```
 public abstract void removeEmbeddedFont(IFontData fontData)
 ```
-
 
 Odstraňuje vložené písmo
 
@@ -217,23 +210,21 @@ Odstraňuje vložené písmo
 public abstract void addEmbeddedFont(IFontData fontData, int embedFontRule)
 ```
 
-
 Přidává vložené písmo.
 
 **Parametry:**
 | Parametr | Typ | Popis |
 | --- | --- | --- |
 | fontData | [IFontData](../../com.aspose.slides/ifontdata) | Objekt dat písma [IFontData](../../com.aspose.slides/ifontdata) |
-| embedFontRule | int | Pravidlo vloženého písma [EmbedFontCharacters](../../com.aspose.slides/embedfontcharacters)
+| embedFontRule | int | Pravidlo vložení písma [EmbedFontCharacters](../../com.aspose.slides/embedfontcharacters)
 
 --------------------
 
-Mějte na paměti, že při kopírování písem jsou většina písem chráněna autorským právem. Nejprve zjistěte licenci písma a ověřte, že jej lze volně přenést na jiný počítač. |
+Mějte na paměti, že většina písem je chráněna autorským právem. Předem zjistěte licenci písma a ověřte, že je možné jej volně přenést na jiný počítač. |
 ### addEmbeddedFont(byte[] fontData, int embedFontRule) {#addEmbeddedFont-byte---int-}
 ```
 public abstract void addEmbeddedFont(byte[] fontData, int embedFontRule)
 ```
-
 
 Přidává vložené písmo
 
@@ -241,18 +232,17 @@ Přidává vložené písmo
 | Parametr | Typ | Popis |
 | --- | --- | --- |
 | fontData | byte[] | Data písma  byte[]  |
-| embedFontRule | int | Pravidlo vloženého písma [EmbedFontCharacters](../../com.aspose.slides/embedfontcharacters)
+| embedFontRule | int | Pravidlo vložení písma [EmbedFontCharacters](../../com.aspose.slides/embedfontcharacters)
 
 --------------------
 
-Mějte na paměti, že při přidávání písem jsou většina písem chráněna autorským právem. Nejprve zjistěte licenci písma a ověřte, že jej lze volně přenést na jiný počítač. |
+Mějte na paměti, že většina písem je chráněna autorským právem. Předem zjistěte licenci písma a ověřte, že je možné jej volně přenést na jiný počítač. |
 ### replaceFont(IFontData sourceFont, IFontData destFont) {#replaceFont-com.aspose.slides.IFontData-com.aspose.slides.IFontData-}
 ```
 public abstract void replaceFont(IFontData sourceFont, IFontData destFont)
 ```
 
-
-Nahrazuje písmo v prezentaci
+Nahradí písmo v prezentaci
 
 **Parametry:**
 | Parametr | Typ | Popis |
@@ -265,75 +255,72 @@ Nahrazuje písmo v prezentaci
 public abstract void replaceFont(IFontSubstRule substRule)
 ```
 
-
-Nahrazuje písmo v prezentaci pomocí informací poskytnutých v [IFontSubstRule](../../com.aspose.slides/ifontsubstrule)
+Nahradí písmo v prezentaci pomocí informací uvedených v [IFontSubstRule](../../com.aspose.slides/ifontsubstrule)
 
 **Parametry:**
 | Parametr | Typ | Popis |
 | --- | --- | --- |
-| substRule | [IFontSubstRule](../../com.aspose.slides/ifontsubstrule) | Informace o náhradě písma |
+| substRule | [IFontSubstRule](../../com.aspose.slides/ifontsubstrule) | Informace o substituci písma |
 
 ### replaceFont(IFontSubstRuleCollection substRules) {#replaceFont-com.aspose.slides.IFontSubstRuleCollection-}
 ```
 public abstract void replaceFont(IFontSubstRuleCollection substRules)
 ```
 
-
-Nahrazuje písmo v prezentaci pomocí informací poskytnutých v kolekci [IFontSubstRule](../../com.aspose.slides/ifontsubstrule)
+Nahradí písmo v prezentaci pomocí informací uvedených ve sbírce [IFontSubstRule](../../com.aspose.slides/ifontsubstrule)
 
 **Parametry:**
 | Parametr | Typ | Popis |
 | --- | --- | --- |
-| substRules | [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection) | Kolekce informací o náhradách písma |
+| substRules | [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection) | Sbírka informací o substituci písma |
 
 ### getFontBytes(IFontData fontData, int fontStyle) {#getFontBytes-com.aspose.slides.IFontData-int-}
 ```
 public abstract byte[] getFontBytes(IFontData fontData, int fontStyle)
 ```
 
-
-Načte pole bajtů představující data písma pro zadaný styl písma a data písma.
+Získá pole bajtů představující data písma pro zadaný styl písma a data písma.
 
 --------------------
 
 > ```
 > Presentation pres = new Presentation ("Presentation.pptx");
 >  try {
->      // Získat všechna písma používaná v prezentaci
+>      // Získá všechna písma použitá v prezentaci
 >      IFontData[] fonts = pres.getFontsManager().getFonts();
->      // Získat pole bajtů představující běžný styl prvního písma v prezentaci
+>      // Získá pole bajtů představující normální styl prvního písma v prezentaci
 >      byte[] fontBytes = pres.getFontsManager().getFontBytes(fonts[0], FontStyleType.Regular);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
 > ```
 
+
 **Parametry:**
 | Parametr | Typ | Popis |
 | --- | --- | --- |
 | fontData | [IFontData](../../com.aspose.slides/ifontdata) | Objekt dat písma obsahující informace o písmu [IFontData](../../com.aspose.slides/ifontdata). |
-| fontStyle | int | Styl písma, pro který se mají data načíst [FontStyleType](../../com.aspose.slides/fontstyletype). |
+| fontStyle | int | Styl písma, pro který se mají získat data [FontStyleType](../../com.aspose.slides/fontstyletype). |
 
 **Vrací:**
-byte[] - Pole bajtů obsahující data písma pro zadaný styl. Pokud data písma nebo styl nejsou nalezeny, vrací null.
+byte[] - Pole bajtů obsahující data písma pro zadaný styl. Pokud data písma nebo styl nejsou nalezeny, vrací se null.
 ### getFontEmbeddingLevel(byte[] fontBytes, String fontName) {#getFontEmbeddingLevel-byte---java.lang.String-}
 ```
 public abstract int getFontEmbeddingLevel(byte[] fontBytes, String fontName)
 ```
 
-
-Určuje úroveň vkládání písma z daného pole bajtů a názvu písma.
+Určuje úroveň vložení písma ze zadaného pole bajtů a názvu písma.
 
 --------------------
 
 > ```
 > Presentation pres = new Presentation(pptxFileName);
 >  try {
->      // Získat všechna písma používaná v prezentaci
+>      // Získá všechna písma použitá v prezentaci
 >      IFontData[] fontDatas = pres.getFontsManager().getFonts();
->      // Získat pole bajtů představující běžný styl prvního písma v prezentaci
+>      // Získá pole bajtů představující normální styl prvního písma v prezentaci
 >      byte[] bytes = pres.getFontsManager().getFontBytes(fontDatas[0], FontStyleType.Regular);
->      // Určit úroveň vkládání písma
+>      // Určí úroveň vložení písma
 >      int embeddingLevel = pres.getFontsManager().getFontEmbeddingLevel(bytes, fontDatas[0].getFontName());
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -348,4 +335,56 @@ Určuje úroveň vkládání písma z daného pole bajtů a názvu písma.
 | fontName | java.lang.String | Název písma. |
 
 **Vrací:**
-int - Úroveň vkládání zadaného písma.
+int - Úroveň vložení zadaného písma.
+### getPreferRegisteredFontsOverEmbedded() {#getPreferRegisteredFontsOverEmbedded--}
+```
+public abstract boolean getPreferRegisteredFontsOverEmbedded()
+```
+
+Určuje, zda mají být registrovaná písma upřednostňována před vloženými písmy se stejným názvem a stylem. Při povolení jsou odpovídající vložená písma dočasně nahrazena registrovanými písmy během exportu.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("SomePresentation.pptx");
+>  try {
+>      pres.getFontsManager().setPreferRegisteredFontsOverEmbedded(true);
+>      pres.save("Presentation-out.pdf", SaveFormat.Pdf);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+Výchozí hodnota je **false**.
+
+**Vrací:**
+boolean
+### setPreferRegisteredFontsOverEmbedded(boolean value) {#setPreferRegisteredFontsOverEmbedded-boolean-}
+```
+public abstract void setPreferRegisteredFontsOverEmbedded(boolean value)
+```
+
+Určuje, zda mají být registrovaná písma upřednostňována před vloženými písmy se stejným názvem a stylem. Při povolení jsou odpovídající vložená písma dočasně nahrazena registrovanými písmy během exportu.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("SomePresentation.pptx");
+>  try {
+>      pres.getFontsManager().setPreferRegisteredFontsOverEmbedded(true);
+>      pres.save("Presentation-out.pdf", SaveFormat.Pdf);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+Výchozí hodnota je **false**.
+
+**Parametry:**
+| Parametr | Typ | Popis |
+| --- | --- | --- |
+| value | boolean |  |

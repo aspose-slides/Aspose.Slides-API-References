@@ -17,18 +17,17 @@ public final class Presentation implements IPresentation, IDOMObject
 Mewakili presentasi Microsoft PowerPoint.
 
 --------------------
-
 > ```
 > The following example shows how to create PowerPoint Presentation.
 >   
->  // Membuat objek Presentation yang mewakili file presentasi
+>  // Instansiasi objek Presentation yang mewakili file presentasi
 >  Presentation pres = new Presentation();
 >  try {
->      // Mengambil slide pertama
+>      // Dapatkan slide pertama
 >      ISlide slide = pres.getSlides().get_Item(0);
->      // Menambahkan autoshape tipe garis
+>      // Tambahkan autoshape tipe garis
 >      slide.getShapes().addAutoShape(ShapeType.Line, 50, 150, 300, 0);
->      // Menyimpan file presentasi.
+>      // Simpan file presentasi.
 >      pres.save("NewPresentation_out.pptx", SaveFormat.Pptx);
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -39,7 +38,7 @@ Mewakili presentasi Microsoft PowerPoint.
 >  // Muat file yang didukung dalam Presentation, misalnya ppt, pptx, odp, dll.
 >  Presentation pres = new Presentation("Sample.odp");
 >  try {
->      // Menyimpan file presentasi.
+>      // Simpan file presentasi.
 >      pres.save("OutputPresenation.pptx", SaveFormat.Pptx);
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -52,16 +51,16 @@ Mewakili presentasi Microsoft PowerPoint.
 | --- | --- |
 | [Presentation()](#Presentation--) | Konstruktor ini membuat presentasi baru dari awal. |
 | [Presentation(LoadOptions loadOptions)](#Presentation-com.aspose.slides.LoadOptions-) | Konstruktor ini membuat presentasi baru dari awal. |
-| [Presentation(InputStream stream)](#Presentation-java.io.InputStream-) | Konstruktor ini merupakan mekanisme utama untuk membaca Presentation yang ada. |
-| [Presentation(InputStream stream, LoadOptions loadOptions)](#Presentation-java.io.InputStream-com.aspose.slides.LoadOptions-) | Konstruktor ini merupakan mekanisme utama untuk membaca Presentation yang ada. |
-| [Presentation(String file)](#Presentation-java.lang.String-) | Konstruktor ini mengambil path file sumber dari mana konten Presentation dibaca. |
-| [Presentation(String file, LoadOptions loadOptions)](#Presentation-java.lang.String-com.aspose.slides.LoadOptions-) | Konstruktor ini mengambil path file sumber dari mana konten Presentation dibaca. |
+| [Presentation(InputStream stream)](#Presentation-java.io.InputStream-) | Konstruktor ini merupakan mekanisme utama untuk membaca Presentation yang sudah ada. |
+| [Presentation(InputStream stream, LoadOptions loadOptions)](#Presentation-java.io.InputStream-com.aspose.slides.LoadOptions-) | Konstruktor ini merupakan mekanisme utama untuk membaca Presentation yang sudah ada. |
+| [Presentation(String file)](#Presentation-java.lang.String-) | Konstruktor ini mendapatkan jalur file sumber dari mana isi Presentation dibaca. |
+| [Presentation(String file, LoadOptions loadOptions)](#Presentation-java.lang.String-com.aspose.slides.LoadOptions-) | Konstruktor ini mendapatkan jalur file sumber dari mana isi Presentation dibaca. |
 ## Metode
 
 | Metode | Deskripsi |
 | --- | --- |
-| [getCurrentDateTime()](#getCurrentDateTime--) | Mengembalikan atau mengatur tanggal dan waktu yang akan menggantikan konten field datetime. |
-| [setCurrentDateTime(Date value)](#setCurrentDateTime-java.util.Date-) | Mengembalikan atau mengatur tanggal dan waktu yang akan menggantikan konten field datetime. |
+| [getCurrentDateTime()](#getCurrentDateTime--) | Mengembalikan atau mengatur tanggal dan waktu yang akan menggantikan konten bidang datetime. |
+| [setCurrentDateTime(Date value)](#setCurrentDateTime-java.util.Date-) | Mengembalikan atau mengatur tanggal dan waktu yang akan menggantikan konten bidang datetime. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
 | [getHeaderFooterManager()](#getHeaderFooterManager--) | Mengembalikan manajer HeaderFooter yang sebenarnya. |
 | [getProtectionManager()](#getProtectionManager--) | Mendapatkan manajer izin untuk presentasi ini. |
@@ -77,20 +76,20 @@ Mewakili presentasi Microsoft PowerPoint.
 | [getDefaultTextStyle()](#getDefaultTextStyle--) | Mengembalikan gaya teks default untuk shape. |
 | [getCommentAuthors()](#getCommentAuthors--) | Mengembalikan koleksi penulis komentar. |
 | [getDocumentProperties()](#getDocumentProperties--) | Mengembalikan objek DocumentProperties yang berisi properti dokumen standar dan khusus. |
-| [getImages()](#getImages--) | Mengembalikan koleksi semua gambar dalam presentasi. |
-| [getAudios()](#getAudios--) | Mengembalikan koleksi semua file audio tersemat dalam presentasi. |
-| [getVideos()](#getVideos--) | Mengembalikan koleksi semua file video tersemat dalam presentasi. |
+| [getImages()](#getImages--) | Mengembalikan kumpulan semua gambar dalam presentasi. |
+| [getAudios()](#getAudios--) | Mengembalikan kumpulan semua file audio tersemat dalam presentasi. |
+| [getVideos()](#getVideos--) | Mengembalikan kumpulan semua file video tersemat dalam presentasi. |
 | [getSlideShowSettings()](#getSlideShowSettings--) | Mengembalikan pengaturan slide show untuk presentasi. |
-| [getDigitalSignatures()](#getDigitalSignatures--) | Mengembalikan koleksi tanda tangan yang digunakan untuk menandatangani presentasi. |
+| [getDigitalSignatures()](#getDigitalSignatures--) | Mengembalikan kumpulan tanda tangan yang digunakan untuk menandatangani presentasi. |
 | [getCustomData()](#getCustomData--) | Mengembalikan data khusus presentasi. |
 | [getAllCustomXmlParts()](#getAllCustomXmlParts--) | Mengembalikan semua bagian data khusus dalam presentasi. |
 | [getVbaProject()](#getVbaProject--) | Mendapatkan atau mengatur proyek VBA dengan makro presentasi. |
 | [setVbaProject(IVbaProject value)](#setVbaProject-com.aspose.slides.IVbaProject-) | Mendapatkan atau mengatur proyek VBA dengan makro presentasi. |
-| [getHyperlinkQueries()](#getHyperlinkQueries--) | Memberikan akses mudah ke semua hyperlink yang terdapat dalam semua slide presentasi (tidak termasuk master, layout, slide catatan). |
-| [getViewProperties()](#getViewProperties--) | Mendapatkan properti tampilan seluruh presentasi. |
+| [getHyperlinkQueries()](#getHyperlinkQueries--) | Menyediakan akses mudah ke semua hyperlink yang terdapat dalam semua slide presentasi (tidak termasuk slide master, tata letak, catatan). |
+| [getViewProperties()](#getViewProperties--) | Mendapatkan properti tampilan untuk seluruh presentasi. |
 | [getFirstSlideNumber()](#getFirstSlideNumber--) | Mewakili nomor slide pertama dalam presentasi. |
 | [setFirstSlideNumber(int value)](#setFirstSlideNumber-int-) | Mewakili nomor slide pertama dalam presentasi. |
-| [getSensitivityLabels()](#getSensitivityLabels--) | Mengembalikan koleksi label sensitivitas yang diterapkan pada dokumen presentasi. |
+| [getSensitivityLabels()](#getSensitivityLabels--) | Mengembalikan kumpulan label sensitivitas yang diterapkan pada dokumen presentasi. |
 | [getSlideById(long id)](#getSlideById-long-) | Mengembalikan Slide, MasterSlide, atau LayoutSlide berdasarkan Id. |
 | [getSourceFormat()](#getSourceFormat--) | Mengembalikan informasi tentang format mana presentasi dimuat. |
 | [getMasterTheme()](#getMasterTheme--) | Mengembalikan tema master. |
@@ -98,25 +97,28 @@ Mewakili presentasi Microsoft PowerPoint.
 | [save(OutputStream stream, int format)](#save-java.io.OutputStream-int-) | Menyimpan semua slide presentasi ke stream dalam format yang ditentukan. |
 | [save(String fname, int format, ISaveOptions options)](#save-java.lang.String-int-com.aspose.slides.ISaveOptions-) | Menyimpan semua slide presentasi ke file dengan format yang ditentukan dan opsi tambahan. |
 | [save(OutputStream stream, int format, ISaveOptions options)](#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-) | Menyimpan semua slide presentasi ke stream dalam format yang ditentukan dan opsi tambahan. |
-| [save(IXamlOptions options)](#save-com.aspose.slides.IXamlOptions-) | Menyimpan semua slide presentasi ke sekumpulan file yang merepresentasikan markup XAML. |
+| [save(IXamlOptions options)](#save-com.aspose.slides.IXamlOptions-) | Menyimpan semua slide presentasi ke sekumpulan file yang mewakili markup XAML. |
 | [getImages(IRenderingOptions options)](#getImages-com.aspose.slides.IRenderingOptions-) | Mengembalikan objek Image untuk semua slide presentasi. |
-| [getImages(IRenderingOptions options, int[] slides)](#getImages-com.aspose.slides.IRenderingOptions-int---) | Mengembalikan objek Thumbnail Image untuk slide tertentu dalam presentasi. |
+| [getImages(IRenderingOptions options, int[] slides)](#getImages-com.aspose.slides.IRenderingOptions-int---) | Mengembalikan objek Thumbnail Image untuk slide tertentu dari presentasi. |
 | [getImages(IRenderingOptions options, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-float-float-) | Mengembalikan objek Thumbnail Image untuk semua slide presentasi dengan skala khusus. |
-| [getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-int---float-float-) | Mengembalikan objek Thumbnail Image untuk slide tertentu dalam presentasi dengan skala khusus. |
+| [getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-int---float-float-) | Mengembalikan objek Thumbnail Image untuk slide tertentu dari presentasi dengan skala khusus. |
 | [getImages(IRenderingOptions options, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-) | Mengembalikan objek Thumbnail Image untuk semua slide presentasi dengan ukuran tertentu. |
-| [getImages(IRenderingOptions options, int[] slides, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-) | Mengembalikan objek Thumbnail Image untuk slide tertentu dalam presentasi dengan ukuran tertentu. |
+| [getImages(IRenderingOptions options, int[] slides, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-) | Mengembalikan objek Thumbnail Image untuk slide tertentu dari presentasi dengan ukuran tertentu. |
 | [save(String fname, int[] slides, int format)](#save-java.lang.String-int---int-) | Menyimpan slide tertentu dari presentasi ke file dengan format yang ditentukan sambil mempertahankan nomor halaman. |
 | [save(String fname, int[] slides, int format, ISaveOptions options)](#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-) | Menyimpan slide tertentu dari presentasi ke file dengan format yang ditentukan sambil mempertahankan nomor halaman. |
 | [save(OutputStream stream, int[] slides, int format)](#save-java.io.OutputStream-int---int-) | Menyimpan slide tertentu dari presentasi ke stream dalam format yang ditentukan sambil mempertahankan nomor halaman. |
 | [save(OutputStream stream, int[] slides, int format, ISaveOptions options)](#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-) | Menyimpan slide tertentu dari presentasi ke stream dalam format yang ditentukan sambil mempertahankan nomor halaman. |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Menggabungkan run dengan format yang sama dalam semua paragraf di semua shape yang dapat diterima dalam semua slide. |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Menggabungkan run dengan pemformatan yang sama dalam semua paragraf pada semua shape yang dapat diterima di semua slide. |
 | [dispose()](#dispose--) | Melepaskan semua sumber daya yang digunakan oleh objek Presentation ini. |
-| [getPresentation()](#getPresentation--) | Mengembalikan presentasi induk dari sebuah teks. |
-| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | Menyorot semua kecocokan teks contoh dengan warna yang ditentukan. |
-| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Menyorot semua kecocokan teks contoh dengan warna yang ditentukan. |
-| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | Menyorot semua kecocokan regex dengan warna yang ditentukan. |
+| [getPresentation()](#getPresentation--) | Mengembalikan presentasi induk dari teks. |
+| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | Menyoroti semua kecocokan teks contoh dengan warna yang ditentukan. |
+| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Menyoroti semua kecocokan teks contoh dengan warna yang ditentukan. |
+| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | Menyoroti semua kecocokan ekspresi reguler dengan warna yang ditentukan. |
 | [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Mengganti semua kemunculan teks yang ditentukan dengan teks lain yang ditentukan. |
-| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Mengganti semua kecocokan regex dengan string yang ditentukan. |
+| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Mengganti semua kecocokan ekspresi reguler dengan string yang ditentukan. |
+| [refreshChartsData()](#refreshChartsData--) | Memuat ulang data untuk semua chart dalam presentasi dari workbook sumbernya. |
+| [refreshChartsData(boolean skipFailedCharts)](#refreshChartsData-boolean-) | Memuat ulang data untuk semua chart dalam presentasi dari workbook sumbernya. |
+
 ### Presentation() {#Presentation--}
 ```
 public Presentation()
@@ -134,55 +136,51 @@ Konstruktor ini membuat presentasi baru dari awal. Presentasi yang dibuat memili
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) | Opsi pemuatan tambahan. |
+| loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) | Opsi muat tambahan. |
 
 ### Presentation(InputStream stream) {#Presentation-java.io.InputStream-}
 ```
 public Presentation(InputStream stream)
 ```
 
-Konstruktor ini merupakan mekanisme utama untuk membaca Presentation yang ada.
+Konstruktor ini merupakan mekanisme utama untuk membaca Presentation yang sudah ada.
 
 --------------------
-
 > ```
 > FileInputStream fis = new FileInputStream("demo.pptx");
 >  Presentation pres = new Presentation(fis);
 >  fis.close();
 > ```
 
-
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| stream | java.io.InputStream | Stream masukan. |
+| stream | java.io.InputStream | Aliran masukan. |
 
 ### Presentation(InputStream stream, LoadOptions loadOptions) {#Presentation-java.io.InputStream-com.aspose.slides.LoadOptions-}
 ```
 public Presentation(InputStream stream, LoadOptions loadOptions)
 ```
 
-Konstruktor ini merupakan mekanisme utama untuk membaca Presentation yang ada.
+Konstruktor ini merupakan mekanisme utama untuk membaca Presentation yang sudah ada.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| stream | java.io.InputStream | Stream masukan. |
-| loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) | Opsi pemuatan tambahan. |
+| stream | java.io.InputStream | Aliran masukan. |
+| loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) | Opsi muat tambahan. |
 
 ### Presentation(String file) {#Presentation-java.lang.String-}
 ```
 public Presentation(String file)
 ```
 
-Konstruktor ini mengambil path file sumber dari mana konten Presentation dibaca.
+Konstruktor ini mendapatkan jalur file sumber dari mana isi Presentation dibaca.
 
 --------------------
-
 > ```
 > Presentation pres = new Presentation("demo.pptx");
 > ```
-
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
@@ -194,29 +192,30 @@ Konstruktor ini mengambil path file sumber dari mana konten Presentation dibaca.
 public Presentation(String file, LoadOptions loadOptions)
 ```
 
-Konstruktor ini mengambil path file sumber dari mana konten Presentation dibaca.
+Konstruktor ini mendapatkan jalur file sumber dari mana isi Presentation dibaca.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | file | java.lang.String | File masukan. |
-| loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) | Opsi pemuatan tambahan. |
+| loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) | Opsi muat tambahan. |
 
 ### getCurrentDateTime() {#getCurrentDateTime--}
 ```
 public final Date getCurrentDateTime()
 ```
 
-Mengembalikan atau mengatur tanggal dan waktu yang akan menggantikan konten field datetime. Waktu pembuatan objek Presentation ini secara default. Baca/tulis java.util.Date.
+Mengembalikan atau mengatur tanggal dan waktu yang akan menggantikan konten bidang datetime. Waktu pembuatan objek Presentation ini secara default. **Baca/tulis** java.util.Date.
 
 **Mengembalikan:**
 java.util.Date
+
 ### setCurrentDateTime(Date value) {#setCurrentDateTime-java.util.Date-}
 ```
 public final void setCurrentDateTime(Date value)
 ```
 
-Mengembalikan atau mengatur tanggal dan waktu yang akan menggantikan konten field datetime. Waktu pembuatan objek Presentation ini secara default. Baca/tulis java.util.Date.
+Mengembalikan atau mengatur tanggal dan waktu yang akan menggantikan konten bidang datetime. Waktu pembuatan objek Presentation ini secara default. **Baca/tulis** java.util.Date.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
@@ -228,19 +227,19 @@ Mengembalikan atau mengatur tanggal dan waktu yang akan menggantikan konten fiel
 public final IDOMObject getParent_Immediate()
 ```
 
-Mengembalikan objek Parent_Immediate. Hanya-baca IDOMObject.
+Mengembalikan objek Parent_Immediate. **Baca-saja** IDOMObject.
 
 **Mengembalikan:**
 com.aspose.slides.IDOMObject
+
 ### getHeaderFooterManager() {#getHeaderFooterManager--}
 ```
 public final IPresentationHeaderFooterManager getHeaderFooterManager()
 ```
 
-Mengembalikan manajer HeaderFooter yang sebenarnya. Hanya-baca [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager).
+Mengembalikan manajer HeaderFooter yang sebenarnya. **Baca-saja** [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager).
 
 --------------------
-
 > ```
 > The following example shows how to set footer visibility inside Slide of PowerPoint Presentation.
 >  
@@ -291,28 +290,29 @@ Mengembalikan manajer HeaderFooter yang sebenarnya. Hanya-baca [IPresentationHea
 
 **Mengembalikan:**
 [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager)
+
 ### getProtectionManager() {#getProtectionManager--}
 ```
 public final IProtectionManager getProtectionManager()
 ```
 
-Mendapatkan manajer izin untuk presentasi ini. Hanya-baca [IProtectionManager](../../com.aspose.slides/iprotectionmanager).
+Mendapatkan manajer izin untuk presentasi ini. **Baca-saja** [IProtectionManager](../../com.aspose.slides/iprotectionmanager).
 
 **Mengembalikan:**
 [IProtectionManager](../../com.aspose.slides/iprotectionmanager)
+
 ### getSlides() {#getSlides--}
 ```
 public final ISlideCollection getSlides()
 ```
 
-Mengembalikan daftar semua slide yang didefinisikan dalam presentasi. Hanya-baca [ISlideCollection](../../com.aspose.slides/islidecollection).
+Mengembalikan daftar semua slide yang didefinisikan dalam presentasi. **Baca-saja** [ISlideCollection](../../com.aspose.slides/islidecollection).
 
 --------------------
-
 > ```
 > The following example shows how to set slides' background color of PowerPoint Presentation.
 >  
->  // Membuat instance kelas Presentation yang mewakili file presentasi
+>  // Instansiasi kelas Presentation yang mewakili file presentasi
 >  Presentation pres = new Presentation();
 >  try
 >  {
@@ -329,7 +329,7 @@ Mengembalikan daftar semua slide yang didefinisikan dalam presentasi. Hanya-baca
 >  
 >  The following example shows how to set slides' background image of PowerPoint Presentation.
 >  
->  // Membuat instance kelas Presentation yang mewakili file presentasi
+>  // Instansiasi kelas Presentation yang mewakili file presentasi
 >  Presentation pres = new Presentation("SetImageAsBackground.pptx");
 >  try {
 >      // Atur latar belakang dengan Gambar
@@ -338,10 +338,10 @@ Mengembalikan daftar semua slide yang didefinisikan dalam presentasi. Hanya-baca
 >      pres.getSlides().get_Item(0).getBackground().getFillFormat().getPictureFillFormat().setPictureFillMode(PictureFillMode.Stretch);
 >      // Atur gambar
 >      BufferedImage img = ImageIO.read(new File("Tulips.jpg"));
->      // Add image to presentation's images collection
+>      // Tambahkan gambar ke koleksi gambar presentasi
 >      IPPImage imgx = pres.getImages().addImage(img);
 >      pres.getSlides().get_Item(0).getBackground().getFillFormat().getPictureFillFormat().getPicture().setImage(imgx);
->      // Write the presentation to disk
+>      // Tulis presentasi ke disk
 >      pres.save("ContentBG_Img_out.pptx", SaveFormat.Pptx);
 >  } catch (IOException e) { }
 >  finally
@@ -351,7 +351,7 @@ Mengembalikan daftar semua slide yang didefinisikan dalam presentasi. Hanya-baca
 >  
 >  The following example shows how to add slide transition Presentation.
 >  
->  // Membuat instance kelas Presentation untuk memuat file presentasi sumber
+>  // Instansiasi kelas Presentation untuk memuat file presentasi sumber
 >  Presentation pres = new Presentation("AccessSlides.pptx");
 >  try
 >  {
@@ -359,7 +359,7 @@ Mengembalikan daftar semua slide yang didefinisikan dalam presentasi. Hanya-baca
 >      pres.getSlides().get_Item(0).getSlideShowTransition().setType(TransitionType.Circle);
 >      // Terapkan transisi tipe sisir pada slide 2
 >      pres.getSlides().get_Item(1).getSlideShowTransition().setType(TransitionType.Comb);
->      // Write the presentation to disk
+>      // Tulis presentasi ke disk
 >      pres.save("SampleTransition_out.pptx", SaveFormat.Pptx);
 >  }
 >  finally
@@ -369,26 +369,26 @@ Mengembalikan daftar semua slide yang didefinisikan dalam presentasi. Hanya-baca
 >  
 >  The following example shows how to add advanced slide Transition.
 >  
->  // Membuat instance kelas Presentation yang mewakili file presentasi
+>  // Instansiasi kelas Presentation yang mewakili file presentasi
 >  Presentation pres = new Presentation("BetterSlideTransitions.pptx");
 >  try
 >  {
 >      // Terapkan transisi tipe lingkaran pada slide 1
 >      pres.getSlides().get_Item(0).getSlideShowTransition().setType(TransitionType.Circle);
->      // Atur waktu transisi menjadi 3 detik
+>      // Atur waktu transisi selama 3 detik
 >      pres.getSlides().get_Item(0).getSlideShowTransition().setAdvanceOnClick(true);
 >      pres.getSlides().get_Item(0).getSlideShowTransition().setAdvanceAfterTime(3000);
 >      // Terapkan transisi tipe sisir pada slide 2
 >      pres.getSlides().get_Item(1).getSlideShowTransition().setType(TransitionType.Comb);
->      // Atur waktu transisi menjadi 5 detik
+>      // Atur waktu transisi selama 5 detik
 >      pres.getSlides().get_Item(1).getSlideShowTransition().setAdvanceOnClick(true);
 >      pres.getSlides().get_Item(1).getSlideShowTransition().setAdvanceAfterTime(5000);
 >      // Terapkan transisi tipe zoom pada slide 3
 >      pres.getSlides().get_Item(2).getSlideShowTransition().setType(TransitionType.Zoom);
->      // Atur waktu transisi menjadi 7 detik
+>      // Atur waktu transisi selama 7 detik
 >      pres.getSlides().get_Item(2).getSlideShowTransition().setAdvanceOnClick(true);
 >      pres.getSlides().get_Item(2).getSlideShowTransition().setAdvanceAfterTime(7000);
->      // Write the presentation to disk
+>      // Tulis presentasi ke disk
 >      pres.save("SampleTransition_out.pptx", SaveFormat.Pptx);
 >  }
 >  finally
@@ -400,15 +400,15 @@ Mengembalikan daftar semua slide yang didefinisikan dalam presentasi. Hanya-baca
 
 **Mengembalikan:**
 [ISlideCollection](../../com.aspose.slides/islidecollection)
+
 ### getSections() {#getSections--}
 ```
 public final ISectionCollection getSections()
 ```
 
-Mengembalikan daftar semua bagian slide yang didefinisikan dalam presentasi. Hanya-baca [ISectionCollection](../../com.aspose.slides/isectioncollection).
+Mengembalikan daftar semua bagian slide yang didefinisikan dalam presentasi. **Baca-saja** [ISectionCollection](../../com.aspose.slides/isectioncollection).
 
 --------------------
-
 > ```
 > The following examples shows how to create Sections in a PowerPoint Presentation.
 >  
@@ -443,17 +443,18 @@ Mengembalikan daftar semua bagian slide yang didefinisikan dalam presentasi. Han
 >  }
 > ```
 
+
 **Mengembalikan:**
 [ISectionCollection](../../com.aspose.slides/isectioncollection)
+
 ### getSlideSize() {#getSlideSize--}
 ```
 public final ISlideSize getSlideSize()
 ```
 
-Mengembalikan objek ukuran slide. Hanya-baca [ISlideSize](../../com.aspose.slides/islidesize).
+Mengembalikan objek ukuran slide. **Baca-saja** [ISlideSize](../../com.aspose.slides/islidesize).
 
 --------------------
-
 > ```
 > The following example shows how to change the slide size in a PowerPoint Presentation.
 >  
@@ -467,14 +468,14 @@ Mengembalikan objek ukuran slide. Hanya-baca [ISlideSize](../../com.aspose.slide
 >  
 >  The following example shows how to set slide size with respect to content scaling for a PowerPoint Presentation.
 >  
->  // Membuat instance objek Presentation yang mewakili file presentasi
+>  // Instansiasi objek Presentation yang mewakili file presentasi
 >  Presentation presentation = new Presentation("AccessSlides.pptx");
 >  try {
 >      Presentation auxPresentation = new Presentation();
 >      try {
 >          ISlide slide = presentation.getSlides().get_Item(0);
->          // Atur ukuran slide presentasi yang dihasilkan agar sama dengan sumber
->          presentation.getSlideSize().setSize(540, 720, SlideSizeScaleType.EnsureFit); // Metode SetSize digunakan untuk mengatur ukuran slide dengan skala konten agar pas
+>          // Atur ukuran slide presentasi yang dihasilkan menjadi sama dengan sumber
+>          presentation.getSlideSize().setSize(540, 720, SlideSizeScaleType.EnsureFit); // Metode SetSize digunakan untuk mengatur ukuran slide dengan menskalakan konten agar sesuai
 >          presentation.getSlideSize().setSize(SlideSizeType.A4Paper, SlideSizeScaleType.Maximize); // Metode SetSize digunakan untuk mengatur ukuran slide dengan memaksimalkan ukuran konten
 >          // Simpan Presentation ke disk
 >          auxPresentation.save("Set_Size&Type_out.pptx", SaveFormat.Pptx);
@@ -499,37 +500,38 @@ Mengembalikan objek ukuran slide. Hanya-baca [ISlideSize](../../com.aspose.slide
 
 **Mengembalikan:**
 [ISlideSize](../../com.aspose.slides/islidesize)
+
 ### getNotesSize() {#getNotesSize--}
 ```
 public final INotesSize getNotesSize()
 ```
 
-Mengembalikan objek ukuran slide catatan. Hanya-baca [INotesSize](../../com.aspose.slides/inotessize).
+Mengembalikan objek ukuran slide catatan. **Baca-saja** [INotesSize](../../com.aspose.slides/inotessize).
 
 **Mengembalikan:**
 [INotesSize](../../com.aspose.slides/inotessize)
+
 ### getLayoutSlides() {#getLayoutSlides--}
 ```
 public final IGlobalLayoutSlideCollection getLayoutSlides()
 ```
 
-Mengembalikan daftar semua slide tata letak yang didefinisikan dalam presentasi. Hanya-baca [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection).
+Mengembalikan daftar semua slide tata letak yang didefinisikan dalam presentasi. **Baca-saja** [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection).
 
 --------------------
-
-Anda dapat mengakses API alternatif untuk menambah/menyisipkan/menghapus/menyalin slide tata letak dengan menggunakan properti IMasterSlide.LayoutSlides.
+Anda dapat mengakses API alternatif untuk menambahkan/menyisipkan/menghapus/men-clone slide tata letak dengan menggunakan properti IMasterSlide.LayoutSlides.
 
 **Mengembalikan:**
 [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection)
+
 ### getMasters() {#getMasters--}
 ```
 public final IMasterSlideCollection getMasters()
 ```
 
-Mengembalikan daftar semua slide master yang didefinisikan dalam presentasi. Hanya-baca [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection).
+Mengembalikan daftar semua slide master yang didefinisikan dalam presentasi. **Baca-saja** [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection).
 
 --------------------
-
 > ```
 > The following examples shows how to adding Images to Master Slides of PowerPoint Presentation.
 >  
@@ -547,15 +549,15 @@ Mengembalikan daftar semua slide master yang didefinisikan dalam presentasi. Han
 >  
 >  The following examples shows how to change the background color of the master slide of PowerPoint Presentation.
 >  
->  // Membuat instance kelas Presentation yang mewakili file presentasi
+>  // Instansiasi kelas Presentation yang mewakili file presentasi
 >  Presentation pres = new Presentation();
 >  try
 >  {
->      // Atur warna latar belakang Master ISlide menjadi Hijau Hutan
+>      // Atur warna latar belakang Master ISlide menjadi Forest Green
 >      pres.getMasters().get_Item(0).getBackground().setType(BackgroundType.OwnBackground);
 >      pres.getMasters().get_Item(0).getBackground().getFillFormat().setFillType(FillType.Solid);
 >      pres.getMasters().get_Item(0).getBackground().getFillFormat().getSolidFillColor().setColor(Color.GREEN);
->      // Menulis presentasi ke disk
+>      // Tulis presentasi ke disk
 >      pres.save("SetSlideBackgroundMaster_out.pptx", SaveFormat.Pptx);
 >  }
 >  finally
@@ -565,11 +567,11 @@ Mengembalikan daftar semua slide master yang didefinisikan dalam presentasi. Han
 >  
 >  The following examples shows how to add slide layout to PowerPoint Presentation.
 >  
->  // Membuat instance kelas Presentation yang mewakili file presentasi
+>  // Instansiasi kelas Presentation yang mewakili file presentasi
 >  Presentation presentation = new Presentation("AccessSlides.pptx");
 >  try
 >  {
->      // Mencoba mencari berdasarkan tipe layout slide
+>      // Coba cari berdasarkan tipe slide layout
 >      IMasterLayoutSlideCollection layoutSlides = presentation.getMasters().get_Item(0).getLayoutSlides();
 >      ILayoutSlide layoutSlide = null;
 >      if (layoutSlides.getByType(SlideLayoutType.TitleAndObject) != null)
@@ -579,12 +581,12 @@ Mengembalikan daftar semua slide master yang didefinisikan dalam presentasi. Han
 > 
 >      if (layoutSlide == null)
 >      {
->          // Situasi ketika sebuah presentasi tidak mengandung beberapa jenis layout.
+>          // Situasi ketika presentasi tidak berisi beberapa tipe layout.
 >          // File presentasi hanya berisi tipe layout Blank dan Custom.
->          // Namun layout slide dengan tipe Custom memiliki nama slide yang berbeda,
->          // seperti "Title", "Title and Content", dll. Dan memungkinkan menggunakan ini
->          // nama untuk pemilihan layout slide.
->          // Juga memungkinkan menggunakan kumpulan tipe shape placeholder. Misalnya,
+>          // Namun slide layout dengan tipe Custom memiliki nama slide yang berbeda,
+>          // seperti "Title", "Title and Content", dll. Dan memungkinkan untuk menggunakan ini
+>          // nama untuk pemilihan slide layout.
+>          // Juga memungkinkan untuk menggunakan kumpulan tipe shape placeholder. Misalnya,
 >          // Slide Title seharusnya hanya memiliki tipe placeholder Title, dll.
 >          for (ILayoutSlide titleAndObjectLayoutSlide : (Iterable) layoutSlides)
 >          {
@@ -616,7 +618,7 @@ Mengembalikan daftar semua slide master yang didefinisikan dalam presentasi. Han
 >      }
 >      // Menambahkan slide kosong dengan layout slide yang ditambahkan
 >      presentation.getSlides().insertEmptySlide(0, layoutSlide);
->      // Menyimpan presentasi
+>      // Simpan presentasi
 >      presentation.save("AddLayoutSlides_out.pptx", SaveFormat.Pptx);
 >  }
 >  finally
@@ -625,35 +627,38 @@ Mengembalikan daftar semua slide master yang didefinisikan dalam presentasi. Han
 >  }
 > ```
 
+
 **Mengembalikan:**
 [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection)
+
 ### getMasterNotesSlideManager() {#getMasterNotesSlideManager--}
 ```
 public final IMasterNotesSlideManager getMasterNotesSlideManager()
 ```
 
-Mengembalikan manajer master catatan. Hanya-baca [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager).
+Mengembalikan manajer master catatan. **Baca-saja** [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager).
 
 **Mengembalikan:**
 [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager)
+
 ### getMasterHandoutSlideManager() {#getMasterHandoutSlideManager--}
 ```
 public final IMasterHandoutSlideManager getMasterHandoutSlideManager()
 ```
 
-Mengembalikan manajer master handout. Hanya-baca [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager).
+Mengembalikan manajer master handout. **Baca-saja** [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager).
 
 **Mengembalikan:**
 [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager)
+
 ### getFontsManager() {#getFontsManager--}
 ```
 public final IFontsManager getFontsManager()
 ```
 
-Mengembalikan manajer font. Hanya-baca [IFontsManager](../../com.aspose.slides/ifontsmanager).
+Mengembalikan manajer font. **Baca-saja** [IFontsManager](../../com.aspose.slides/ifontsmanager).
 
 --------------------
-
 > ```
 > The following example shows how to add embedded fonts to PowerPoint Presentation.
 >  
@@ -689,46 +694,49 @@ Mengembalikan manajer font. Hanya-baca [IFontsManager](../../com.aspose.slides/i
 
 **Mengembalikan:**
 [IFontsManager](../../com.aspose.slides/ifontsmanager)
+
 ### getDefaultTextStyle() {#getDefaultTextStyle--}
 ```
 public final ITextStyle getDefaultTextStyle()
 ```
 
-Mengembalikan gaya teks default untuk shape. Hanya-baca [ITextStyle](../../com.aspose.slides/itextstyle).
+Mengembalikan gaya teks default untuk shape. **Baca-saja** [ITextStyle](../../com.aspose.slides/itextstyle).
 
 **Mengembalikan:**
 [ITextStyle](../../com.aspose.slides/itextstyle)
+
 ### getCommentAuthors() {#getCommentAuthors--}
 ```
 public final ICommentAuthorCollection getCommentAuthors()
 ```
 
-Mengembalikan koleksi penulis komentar. Hanya-baca [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection).
+Mengembalikan koleksi penulis komentar. **Baca-saja** [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection).
 
 **Mengembalikan:**
 [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection)
+
 ### getDocumentProperties() {#getDocumentProperties--}
 ```
 public final IDocumentProperties getDocumentProperties()
 ```
 
-Mengembalikan objek DocumentProperties yang berisi properti dokumen standar dan khusus. Hanya-baca [IDocumentProperties](../../com.aspose.slides/idocumentproperties).
+Mengembalikan objek DocumentProperties yang berisi properti dokumen standar dan khusus. **Baca-saja** [IDocumentProperties](../../com.aspose.slides/idocumentproperties).
 
 **Mengembalikan:**
 [IDocumentProperties](../../com.aspose.slides/idocumentproperties)
+
 ### getImages() {#getImages--}
 ```
 public final IImageCollection getImages()
 ```
 
-Mengembalikan koleksi semua gambar dalam presentasi. Hanya-baca [IImageCollection](../../com.aspose.slides/iimagecollection).
+Mengembalikan kumpulan semua gambar dalam presentasi. **Baca-saja** [IImageCollection](../../com.aspose.slides/iimagecollection).
 
 --------------------
-
 > ```
 > The following examples shows how to add image as BLOB in PowerPoint Presentation.
 >  
->  // membuat presentasi baru yang akan ditambahkan gambar.
+>  // Membuat presentasi baru yang akan ditambahkan gambar.
 >  Presentation pres = new Presentation();
 >  try
 >  {
@@ -736,12 +744,11 @@ Mengembalikan koleksi semua gambar dalam presentasi. Hanya-baca [IImageCollectio
 >      FileInputStream fip = new FileInputStream("large_image.jpg");
 >      try
 >      {
->          // Tambahkan gambar ke presentasi - kami memilih perilaku KeepLocked karena kami
->          // TIDAK berniat mengakses file "largeImage.png".
+>          // Mari tambahkan gambar ke dalam presentasi - kami memilih perilaku KeepLocked karena kami
+>          // TIDAK bermaksud mengakses file "largeImage.png".
 >          IPPImage img = pres.getImages().addImage(fip, LoadingStreamBehavior.KeepLocked);
 >          pres.getSlides().get_Item(0).getShapes().addPictureFrame(ShapeType.Rectangle, 0, 0, 300, 200, img);
->          // Menyimpan presentasi. Saat presentasi besar dihasilkan, penggunaan memori
->          // tetap rendah selama siklus hidup objek pres
+>          // Menyimpan presentasi. Saat presentasi besar dihasilkan, konsumsi memori tetap rendah selama siklus hidup objek pres
 >          pres.save("presentationWithLargeImage.pptx", SaveFormat.Pptx);
 >      }
 >      finally
@@ -761,7 +768,7 @@ Mengembalikan koleksi semua gambar dalam presentasi. Hanya-baca [IImageCollectio
 >  try {
 >      // Menambahkan gambar ke presentasi
 >      IPPImage image = pres.getImages().addImage(Files.readAllBytes(Paths.get("image.png")));
->      // Membuat picture frame pada slide 1 berdasarkan gambar yang sebelumnya ditambahkan
+>      // Membuat frame gambar pada slide 1 berdasarkan gambar yang telah ditambahkan sebelumnya
 >      IPictureFrame pictureFrame = pres.getSlides().get_Item(0).getShapes().addPictureFrame(ShapeType.Rectangle, 10, 10, 100, 100, image);
 >      pictureFrame.setHyperlinkClick(new Hyperlink("https://www.aspose.com/"));
 >      pictureFrame.getHyperlinkClick().setTooltip("More than 70% Fortune 100 companies trust Aspose APIs");
@@ -776,12 +783,12 @@ Mengembalikan koleksi semua gambar dalam presentasi. Hanya-baca [IImageCollectio
 
 **Mengembalikan:**
 [IImageCollection](../../com.aspose.slides/iimagecollection)
+
 ### getAudios() {#getAudios--}
 ```
 public final IAudioCollection getAudios()
 ```
-
-Mengembalikan koleksi semua file audio tersemat dalam presentasi. Hanya-baca [IAudioCollection](../../com.aspose.slides/iaudiocollection).
+Mengembalikan koleksi semua file audio yang disematkan dalam presentasi. Hanya-baca [IAudioCollection](../../com.aspose.slides/iaudiocollection).
 
 --------------------
 
@@ -804,12 +811,13 @@ Mengembalikan koleksi semua file audio tersemat dalam presentasi. Hanya-baca [IA
 > ```
 
 
-**Mengembalikan:**
+**Mengembalikan:**  
 [IAudioCollection](../../com.aspose.slides/iaudiocollection)
 ### getVideos() {#getVideos--}
 ```
 public final IVideoCollection getVideos()
 ```
+
 Mengembalikan koleksi semua file video yang disematkan dalam presentasi. Hanya-baca [IVideoCollection](../../com.aspose.slides/ivideocollection).
 
 --------------------
@@ -817,21 +825,21 @@ Mengembalikan koleksi semua file video yang disematkan dalam presentasi. Hanya-b
 > ```
 > The following examples shows how to create embedded Video Frame in a PowerPoint Presentation.
 >  
->  // Instantiate Presentation class that represents the PPTX
+>  // Instansiasi kelas Presentation yang mewakili PPTX
 >  Presentation pres = new Presentation();
 >  try {
->      // Get the first slide
+>      // Dapatkan slide pertama
 >      ISlide sld = pres.getSlides().get_Item(0);
->      // Embedd vide inside presentation
+>      // Sematkan video di dalam presentasi
 >      IVideo vid = pres.getVideos().addVideo(new FileInputStream("Wildlife.mp4"));
->      // Add Video Frame
+>      // Tambahkan Video Frame
 >      IVideoFrame vf = sld.getShapes().addVideoFrame(50, 150, 300, 350, vid);
->      // Set video to Video Frame
+>      // Atur video ke Video Frame
 >      vf.setEmbeddedVideo(vid);
->      // Set Play Mode and Volume of the Video
+>      // Atur Mode Putar dan Volume Video
 >      vf.setPlayMode(VideoPlayModePreset.Auto);
 >      vf.setVolume(AudioVolumeMode.Loud);
->      // Write the PPTX file to disk
+>      // Tulis file PPTX ke disk
 >      pres.save("VideoFrame_out.pptx", SaveFormat.Pptx);
 >  } catch(IOException e) {
 >  } finally {
@@ -850,17 +858,17 @@ Mengembalikan koleksi semua file video yang disematkan dalam presentasi. Hanya-b
 >  
 >  The following examples shows how to add large file through BLOB to a Presentation.
 >  
->  // Creates a new presentation to which the video will be added
+>  // Membuat presentasi baru yang akan ditambahkan video
 >  Presentation pres = new Presentation();
 >  try {
 >      FileInputStream fileStream = new FileInputStream("veryLargeVideo.avi");
 >      try {
->          // Let's add the video to the presentation - we chose the KeepLocked behavior because we do
->          //not intend to access the "veryLargeVideo.avi" file.
+>          // Mari tambahkan video ke presentasi - kami memilih perilaku KeepLocked karena kami
+>          // tidak bermaksud mengakses file "veryLargeVideo.avi".
 >          IVideo video = pres.getVideos().addVideo(fileStream, LoadingStreamBehavior.KeepLocked);
 >          pres.getSlides().get_Item(0).getShapes().addVideoFrame(0, 0, 480, 270, video);
->          // Saves the presentation. While a large presentation gets outputted, the memory consumption
->          // stays low through the pres object's lifecycle
+>          // Menyimpan presentasi. Saat presentasi besar dihasilkan, konsumsi memori
+>          // tetap rendah selama siklus hidup objek pres
 >          pres.save("presentationWithLargeVideo.pptx", SaveFormat.Pptx);
 >      } finally {
 >          if (fileStream != null) fileStream.close();
@@ -873,21 +881,19 @@ Mengembalikan koleksi semua file video yang disematkan dalam presentasi. Hanya-b
 >  The following examples shows how to export large file through BLOB from PowerPoint Presentation.
 >  
 >  LoadOptions loadOptions = new LoadOptions();
->  // Locks the source file and does NOT load it into memory
+>  // Mengunci file sumber dan TIDAK memuatnya ke memori
 >  loadOptions.getBlobManagementOptions().setPresentationLockingBehavior(PresentationLockingBehavior.KeepLocked);
->  // Creates a Presentation's instance, locks the "hugePresentationWithAudiosAndVideos.pptx" file.
+>  // Membuat instance Presentation, mengunci file "hugePresentationWithAudiosAndVideos.pptx".
 >  Presentation pres = new Presentation("Large  Video File Test1.pptx", loadOptions);
 >  try {
->      // Let's save each video to a file. To prevent high memory usage, we need a buffer that will be used
->      // to transfer the data from the presentation's video stream to a stream for a newly created video file.
+>      // Mari simpan setiap video ke file. Untuk mencegah penggunaan memori tinggi, kami membutuhkan buffer...
 >      byte[] buffer = new byte[81024];
->      // Iterates through the videos
+>      // Iterasi melalui video-video
 >      for (int index = 0; index < pres.getVideos().size(); index++) {
 >          IVideo video = pres.getVideos().get_Item(index);
->          // Opens the presentation video stream. Please, note that we intentionally avoided accessing properties
->          // like video.BinaryData - because this property returns a byte array containing a full video, which then
->          // causes bytes to be loaded into memory. We use video.GetStream, which will return Stream - and does NOT
->          //  require us to load the whole video into the memory.
+>          // Membuka aliran video presentasi. Harap perhatikan bahwa kami sengaja...
+>          // seperti video.BinaryData - karena properti ini mengembalikan...
+>          // ... kami menggunakan video.GetStream, yang akan mengembalikan Stream - dan TIDAK...
 >          InputStream presVideoStream = video.getStream();
 >          try {
 >              FileOutputStream outputFileStream = new FileOutputStream("video{index}.avi");
@@ -902,9 +908,9 @@ Mengembalikan koleksi semua file video yang disematkan dalam presentasi. Hanya-b
 >          } finally {
 >              if (presVideoStream != null) presVideoStream.close();
 >          }
->          // Memory consumption will remain low regardless of the size of the video or presentation,
+>          // Konsumsi memori akan tetap rendah terlepas...
 >      }
->      // If necessary, you can apply the same steps for audio files.
+>      // Jika perlu, Anda dapat menerapkan langkah yang sama...
 >  } catch(IOException e) {
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -939,11 +945,11 @@ Mengembalikan koleksi semua file video yang disematkan dalam presentasi. Hanya-b
 >  }
 >  private static void addVideoFromYouTube(Presentation pres, String videoId) throws IOException
 >  {
->      //add videoFrame
+>      // tambahkan videoFrame
 >      IVideoFrame videoFrame = pres.getSlides().get_Item(0).getShapes().addVideoFrame(10, 10, 427, 240, "https://www.youtube.com/embed/" + videoId);
 >      videoFrame.setPlayMode(VideoPlayModePreset.Auto);
 > 
->      //load thumbnail
+>      // muat thumbnail
 >      String thumbnailUri = "http://img.youtube.com/vi/" + videoId + "/hqdefault.jpg";
 >      URL url = new URL(thumbnailUri);
 >      URLConnection connection = url.openConnection();
@@ -957,7 +963,7 @@ Mengembalikan koleksi semua file video yang disematkan dalam presentasi. Hanya-b
 >          for (int count; (count = input.read(buffer)) > 0; )
 >          {
 >              output.write(buffer, 0, count);
->          }
++          }
 >          videoFrame.getPictureFormat().getPicture().setImage(pres.getImages().addImage(output.toByteArray()));
 >      } finally {
 >          if (input != null) input.close();
@@ -967,7 +973,7 @@ Mengembalikan koleksi semua file video yang disematkan dalam presentasi. Hanya-b
 >  
 >  The following examples shows how to extract Video from slide of PowerPoint Presentation.
 >  
->  // Instantiate a Presentation object that represents a presentation file
+>  // Instansiasi objek Presentation yang mewakili file presentasi
 >  Presentation presentation = new Presentation("Video.pptx");
 >  try {
 >      for (ISlide slide : presentation.getSlides())
@@ -1001,9 +1007,9 @@ Mengembalikan koleksi semua file video yang disematkan dalam presentasi. Hanya-b
 >  }
 > ```
 
+
 **Mengembalikan:**  
 [IVideoCollection](../../com.aspose.slides/ivideocollection)
-
 ### getSlideShowSettings() {#getSlideShowSettings--}
 ```
 public final SlideShowSettings getSlideShowSettings()
@@ -1013,7 +1019,6 @@ Mengembalikan pengaturan tayangan slide untuk presentasi.
 
 **Mengembalikan:**  
 [SlideShowSettings](../../com.aspose.slides/slideshowsettings)
-
 ### getDigitalSignatures() {#getDigitalSignatures--}
 ```
 public final IDigitalSignatureCollection getDigitalSignatures()
@@ -1050,7 +1055,6 @@ Mengembalikan koleksi tanda tangan yang digunakan untuk menandatangani presentas
 
 **Mengembalikan:**  
 [IDigitalSignatureCollection](../../com.aspose.slides/idigitalsignaturecollection)
-
 ### getCustomData() {#getCustomData--}
 ```
 public final ICustomData getCustomData()
@@ -1060,7 +1064,6 @@ Mengembalikan data khusus presentasi. Hanya-baca [ICustomData](../../com.aspose.
 
 **Mengembalikan:**  
 [ICustomData](../../com.aspose.slides/icustomdata)
-
 ### getAllCustomXmlParts() {#getAllCustomXmlParts--}
 ```
 public final ICustomXmlPart[] getAllCustomXmlParts()
@@ -1075,7 +1078,7 @@ Mengembalikan semua bagian data khusus dalam presentasi. Hanya-baca ICustomXmlPa
 >  
 >  Presentation pres = new Presentation("PresentationWithCustomXml.pptx");
 >  try {
->      // Iterasi semua bagian XML kustom
+>      // Iterasi semua Custom XML Parts
 >      for (ICustomXmlPart item : pres.getAllCustomXmlParts())
 >      {
 >          item.remove();
@@ -1088,9 +1091,9 @@ Mengembalikan semua bagian data khusus dalam presentasi. Hanya-baca ICustomXmlPa
 >  }
 > ```
 
+
 **Mengembalikan:**  
 com.aspose.slides.ICustomXmlPart[]
-
 ### getVbaProject() {#getVbaProject--}
 ```
 public final IVbaProject getVbaProject()
@@ -1100,7 +1103,6 @@ Mendapatkan atau mengatur proyek VBA dengan makro presentasi. Baca/tulis [IVbaPr
 
 **Mengembalikan:**  
 [IVbaProject](../../com.aspose.slides/ivbaproject)
-
 ### setVbaProject(IVbaProject value) {#setVbaProject-com.aspose.slides.IVbaProject-}
 ```
 public final void setVbaProject(IVbaProject value)
@@ -1108,8 +1110,8 @@ public final void setVbaProject(IVbaProject value)
 
 Mendapatkan atau mengatur proyek VBA dengan makro presentasi. Baca/tulis [IVbaProject](../../com.aspose.slides/ivbaproject).
 
-**Parameter:**
-| Parameter | Type | Description |
+**Parameter:**  
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | value | [IVbaProject](../../com.aspose.slides/ivbaproject) |  |
 
@@ -1122,17 +1124,15 @@ Menyediakan akses mudah ke semua hyperlink yang terdapat dalam semua slide prese
 
 **Mengembalikan:**  
 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)
-
 ### getViewProperties() {#getViewProperties--}
 ```
-public final IViewProperties getViewProperties()
+public
 ```
 
 Mendapatkan properti tampilan seluruh presentasi. Hanya-baca [IViewProperties](../../com.aspose.slides/iviewproperties).
 
 **Mengembalikan:**  
 [IViewProperties](../../com.aspose.slides/iviewproperties)
-
 ### getFirstSlideNumber() {#getFirstSlideNumber--}
 ```
 public final int getFirstSlideNumber()
@@ -1142,7 +1142,6 @@ Mewakili nomor slide pertama dalam presentasi
 
 **Mengembalikan:**  
 int
-
 ### setFirstSlideNumber(int value) {#setFirstSlideNumber-int-}
 ```
 public final void setFirstSlideNumber(int value)
@@ -1150,8 +1149,8 @@ public final void setFirstSlideNumber(int value)
 
 Mewakili nomor slide pertama dalam presentasi
 
-**Parameter:**
-| Parameter | Type | Description |
+**Parameter:**  
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | value | int |  |
 
@@ -1175,7 +1174,7 @@ Mengembalikan koleksi label sensitivitas yang diterapkan pada dokumen presentasi
 > 
 >      // Tambahkan label baru
 >      String labelIdString = "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"; // Dapatkan Id label sensitivitas dari kebijakan
->      UUID siteIdGuid = UUID.fromString("{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"); // Dapatkan identifier situs Azure AD dari kebijakan
+>      UUID siteIdGuid = UUID.fromString("{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"); // Dapatkan pengidentifikasi situs Azure AD dari kebijakan
 >      ISensitivityLabel label = sensitivityLabels.add(labelIdString, siteIdGuid, true, SensitivityLabelAssignmentType.Privileged);
 >      label.getContentMarkTypes().addItem(SensitivityLabelContentType.Footer);
 > 
@@ -1188,32 +1187,29 @@ Mengembalikan koleksi label sensitivitas yang diterapkan pada dokumen presentasi
 
 **Mengembalikan:**  
 [ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection)
-
 ### getSlideById(long id) {#getSlideById-long-}
 ```
 public final IBaseSlide getSlideById(long id)
 ```
 
-Mengembalikan Slide, MasterSlide, atau LayoutSlide berdasarkan Id.
+Mengembalikan sebuah Slide, MasterSlide, atau LayoutSlide berdasarkan Id.
 
-**Parameter:**
-| Parameter | Type | Description |
+**Parameter:**  
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| id | long | Id dari slide. |
+| id | long | Id slide. |
 
 **Mengembalikan:**  
-[IBaseSlide](../../com.aspose.slides/ibaseslide) - IBaseSlide object.
-
+[IBaseSlide](../../com.aspose.slides/ibaseslide) - objek IBaseSlide.
 ### getSourceFormat() {#getSourceFormat--}
 ```
 public final int getSourceFormat()
 ```
 
-Mengembalikan informasi tentang format mana presentasi dimuat. Hanya-baca [SourceFormat](../../com.aspose.slides/sourceformat).
+Mengembalikan informasi tentang format asal dari mana presentasi dimuat. Hanya-baca [SourceFormat](../../com.aspose.slides/sourceformat).
 
 **Mengembalikan:**  
 int
-
 ### getMasterTheme() {#getMasterTheme--}
 ```
 public final IMasterTheme getMasterTheme()
@@ -1226,7 +1222,7 @@ Mengembalikan tema master. Hanya-baca [IMasterTheme](../../com.aspose.slides/ima
 > ```
 > The following examples shows how to change a theme effect by altering parts of elements of PowerPoint Presentation.
 >  
->  //Membuat instance objek Presentation yang mewakili file presentasi
+>  //Instansiasi objek presentasi yang mewakili file presentasi
 >  Presentation pres = new Presentation("Subtle_Moderate_Intense.pptx");
 >  try {
 >      pres.getMasterTheme().getFormatScheme().getLineStyles().get_Item(0).getFillFormat().getSolidFillColor().setColor(Color.RED);
@@ -1244,7 +1240,6 @@ Mengembalikan tema master. Hanya-baca [IMasterTheme](../../com.aspose.slides/ima
 
 **Mengembalikan:**  
 [IMasterTheme](../../com.aspose.slides/imastertheme)
-
 ### save(String fname, int format) {#save-java.lang.String-int-}
 ```
 public final void save(String fname, int format)
@@ -1252,10 +1247,10 @@ public final void save(String fname, int format)
 
 Menyimpan semua slide presentasi ke file dengan format yang ditentukan.
 
-**Parameter:**
-| Parameter | Type | Description |
+**Parameter:**  
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| fname | java.lang.String | Jalur ke file yang dibuat. |
+| fname | java.lang.String | Jalur ke file yang akan dibuat. |
 | format | int | Format data yang diekspor. |
 
 ### save(OutputStream stream, int format) {#save-java.io.OutputStream-int-}
@@ -1263,10 +1258,10 @@ Menyimpan semua slide presentasi ke file dengan format yang ditentukan.
 public final void save(OutputStream stream, int format)
 ```
 
-Menyimpan semua slide presentasi ke aliran dalam format yang ditentukan.
+Menyimpan semua slide presentasi ke aliran dengan format yang ditentukan.
 
-**Parameter:**
-| Parameter | Type | Description |
+**Parameter:**  
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | stream | java.io.OutputStream | Aliran keluaran. |
 | format | int | Format data yang diekspor. |
@@ -1276,12 +1271,12 @@ Menyimpan semua slide presentasi ke aliran dalam format yang ditentukan.
 public final void save(String fname, int format, ISaveOptions options)
 ```
 
-Menyimpan semua slide presentasi ke file dengan format yang ditentukan dan dengan opsi tambahan.
+Menyimpan semua slide presentasi ke file dengan format yang ditentukan dan opsi tambahan.
 
-**Parameter:**
-| Parameter | Type | Description |
+**Parameter:**  
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| fname | java.lang.String | Jalur ke file yang dibuat. |
+| fname | java.lang.String | Jalur ke file yang akan dibuat. |
 | format | int | Format data yang diekspor. |
 | options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Opsi format tambahan. |
 
@@ -1290,10 +1285,10 @@ Menyimpan semua slide presentasi ke file dengan format yang ditentukan dan denga
 public final void save(OutputStream stream, int format, ISaveOptions options)
 ```
 
-Menyimpan semua slide presentasi ke aliran dalam format yang ditentukan dan dengan opsi tambahan.
+Menyimpan semua slide presentasi ke aliran dengan format yang ditentukan dan opsi tambahan.
 
-**Parameter:**
-| Parameter | Type | Description |
+**Parameter:**  
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | stream | java.io.OutputStream | Aliran keluaran. |
 | format | int | Format data yang diekspor. |
@@ -1321,8 +1316,8 @@ Menyimpan semua slide presentasi ke sekumpulan file yang mewakili markup XAML.
 > ```
 
 
-**Parameter:**
-| Parameter | Type | Description |
+**Parameter:**  
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | options | [IXamlOptions](../../com.aspose.slides/ixamloptions) | Opsi format XAML. |
 
@@ -1333,30 +1328,28 @@ public final IImage[] getImages(IRenderingOptions options)
 
 Mengembalikan objek Image untuk semua slide presentasi.
 
-**Parameter:**
-| Parameter | Type | Description |
+**Parameter:**  
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Opsi Tiff. |
 
 **Mengembalikan:**  
 com.aspose.slides.IImage[] - objek Image.
-
 ### getImages(IRenderingOptions options, int[] slides) {#getImages-com.aspose.slides.IRenderingOptions-int---}
 ```
 public final IImage[] getImages(IRenderingOptions options, int[] slides)
 ```
 
-Mengembalikan objek Image Thumbnail untuk slide tertentu dari presentasi.
+Mengembalikan objek Image Thumbnail untuk slide tertentu dalam presentasi.
 
-**Parameter:**
-| Parameter | Type | Description |
+**Parameter:**  
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Opsi Tiff. |
-| slides | int[] | Array dengan posisi slide, dimulai dari 1. |
+| slides | int[] | Array posisi slide, dimulai dari 1. |
 
 **Mengembalikan:**  
 com.aspose.slides.IImage[] - objek Image.
-
 ### getImages(IRenderingOptions options, float scaleX, float scaleY) {#getImages-com.aspose.slides.IRenderingOptions-float-float-}
 ```
 public final IImage[] getImages(IRenderingOptions options, float scaleX, float scaleY)
@@ -1364,67 +1357,63 @@ public final IImage[] getImages(IRenderingOptions options, float scaleX, float s
 
 Mengembalikan objek Image Thumbnail untuk semua slide presentasi dengan skala khusus.
 
-**Parameter:**
-| Parameter | Type | Description |
+**Parameter:**  
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Opsi Tiff. |
-| scaleX | float | Nilai yang digunakan untuk menskalakan Thumbnail ini pada arah sumbu x. |
-| scaleY | float | Nilai yang digunakan untuk menskalakan Thumbnail ini pada arah sumbu y. |
+| scaleX | float | Nilai skala pada sumbu x untuk Thumbnail ini. |
+| scaleY | float | Nilai skala pada sumbu y untuk Thumbnail ini. |
 
 **Mengembalikan:**  
 com.aspose.slides.IImage[] - objek Image.
-
 ### getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY) {#getImages-com.aspose.slides.IRenderingOptions-int---float-float-}
 ```
 public final IImage[] getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)
 ```
 
-Mengembalikan objek Image Thumbnail untuk slide tertentu dari presentasi dengan skala khusus.
+Mengembalikan objek Image Thumbnail untuk slide tertentu dalam presentasi dengan skala khusus.
 
-**Parameter:**
-| Parameter | Type | Description |
+**Parameter:**  
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Opsi Tiff. |
-| slides | int[] | Array dengan posisi slide, dimulai dari 1. |
-| scaleX | float | Nilai yang digunakan untuk menskalakan Thumbnail ini pada arah sumbu x. |
-| scaleY | float | Nilai yang digunakan untuk menskalakan Thumbnail ini pada arah sumbu y. |
+| slides | int[] | Array posisi slide, dimulai dari 1. |
+| scaleX | float | Nilai skala pada sumbu x untuk Thumbnail ini. |
+| scaleY | float | Nilai skala pada sumbu y untuk Thumbnail ini. |
 
 **Mengembalikan:**  
 com.aspose.slides.IImage[] - objek Image.
-
 ### getImages(IRenderingOptions options, Dimension imageSize) {#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-}
 ```
 public final IImage[] getImages(IRenderingOptions options, Dimension imageSize)
 ```
 
-Mengembalikan objek Image Thumbnail untuk semua slide presentasi dengan ukuran tertentu.
+Mengembalikan objek Image Thumbnail untuk semua slide presentasi dengan ukuran yang ditentukan.
 
-**Parameter:**
-| Parameter | Type | Description |
+**Parameter:**  
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Opsi Tiff. |
 | imageSize | java.awt.Dimension | Ukuran gambar yang akan dibuat. |
 
 **Mengembalikan:**  
 com.aspose.slides.IImage[] - objek Image.
-
 ### getImages(IRenderingOptions options, int[] slides, Dimension imageSize) {#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-}
 ```
 public final IImage[] getImages(IRenderingOptions options, int[] slides, Dimension imageSize)
 ```
 
-Mengembalikan objek Image Thumbnail untuk slide tertentu dari presentasi dengan ukuran tertentu.
+Mengembalikan objek Image Thumbnail untuk slide tertentu dalam presentasi dengan ukuran yang ditentukan.
 
-**Parameter:**
-| Parameter | Type | Description |
+**Parameter:**  
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Opsi Tiff. |
-| slides | int[] | Array dengan posisi slide, dimulai dari 1. |
+| slides | int[] | Array posisi slide, dimulai dari 1. |
 | imageSize | java.awt.Dimension | Ukuran gambar yang akan dibuat. |
 
 **Mengembalikan:**  
 com.aspose.slides.IImage[] - objek Image.
-
 ### save(String fname, int[] slides, int format) {#save-java.lang.String-int---int-}
 ```
 public final void save(String fname, int[] slides, int format)
@@ -1432,11 +1421,11 @@ public final void save(String fname, int[] slides, int format)
 
 Menyimpan slide tertentu dari presentasi ke file dengan format yang ditentukan sambil mempertahankan nomor halaman.
 
-**Parameter:**
-| Parameter | Type | Description |
+**Parameter:**  
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| fname | java.lang.String | Jalur ke file yang dibuat. |
-| slides | int[] | Array dengan posisi slide, dimulai dari 1. |
+| fname | java.lang.String | Jalur ke file yang akan dibuat. |
+| slides | int[] | Array posisi slide, dimulai dari 1. |
 | format | int | Format data yang diekspor. |
 
 ### save(String fname, int[] slides, int format, ISaveOptions options) {#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-}
@@ -1446,11 +1435,11 @@ public final void save(String fname, int[] slides, int format, ISaveOptions opti
 
 Menyimpan slide tertentu dari presentasi ke file dengan format yang ditentukan sambil mempertahankan nomor halaman.
 
-**Parameter:**
-| Parameter | Type | Description |
+**Parameter:**  
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| fname | java.lang.String | Jalur ke file yang dibuat. |
-| slides | int[] | Array dengan posisi slide, dimulai dari 1. |
+| fname | java.lang.String | Jalur ke file yang akan dibuat. |
+| slides | int[] | Array posisi slide, dimulai dari 1. |
 | format | int | Format data yang diekspor. |
 | options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Opsi format tambahan. |
 
@@ -1459,13 +1448,13 @@ Menyimpan slide tertentu dari presentasi ke file dengan format yang ditentukan s
 public final void save(OutputStream stream, int[] slides, int format)
 ```
 
-Menyimpan slide tertentu dari presentasi ke aliran dalam format yang ditentukan sambil mempertahankan nomor halaman.
+Menyimpan slide tertentu dari presentasi ke aliran dengan format yang ditentukan sambil mempertahankan nomor halaman.
 
-**Parameter:**
-| Parameter | Type | Description |
+**Parameter:**  
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | stream | java.io.OutputStream | Aliran keluaran. |
-| slides | int[] | Array dengan posisi slide, dimulai dari 1. |
+| slides | int[] | Array posisi slide, dimulai dari 1. |
 | format | int | Format data yang diekspor. |
 
 ### save(OutputStream stream, int[] slides, int format, ISaveOptions options) {#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-}
@@ -1473,7 +1462,7 @@ Menyimpan slide tertentu dari presentasi ke aliran dalam format yang ditentukan 
 public final void save(OutputStream stream, int[] slides, int format, ISaveOptions options)
 ```
 
-Menyimpan slide tertentu dari presentasi ke aliran dalam format yang ditentukan sambil mempertahankan nomor halaman.
+Menyimpan slide tertentu dari presentasi ke aliran dengan format yang ditentukan sambil mempertahankan nomor halaman.
 
 --------------------
 
@@ -1522,11 +1511,11 @@ Menyimpan slide tertentu dari presentasi ke aliran dalam format yang ditentukan 
 > ```
 
 
-**Parameter:**
-| Parameter | Type | Description |
+**Parameter:**  
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | stream | java.io.OutputStream | Aliran keluaran. |
-| slides | int[] | Array dengan posisi slide, dimulai dari 1. |
+| slides | int[] | Array posisi slide, dimulai dari 1. |
 | format | int | Format data yang diekspor. |
 | options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Opsi format tambahan. |
 
@@ -1535,7 +1524,7 @@ Menyimpan slide tertentu dari presentasi ke aliran dalam format yang ditentukan 
 public final void joinPortionsWithSameFormatting()
 ```
 
-Menggabungkan run dengan pemformatan yang sama di semua paragraf dalam semua shape yang dapat diterima di semua slide.
+Menggabungkan run dengan pemformatan yang sama di semua paragraf dalam semua bentuk yang dapat diterima di semua slide.
 
 ### dispose() {#dispose--}
 ```
@@ -1553,13 +1542,12 @@ Mengembalikan presentasi induk dari teks. Hanya-baca [IPresentation](../../com.a
 
 **Mengembalikan:**  
 [IPresentation](../../com.aspose.slides/ipresentation)
-
 ### highlightText(String text, Color highlightColor) {#highlightText-java.lang.String-java.awt.Color-}
 ```
 public final void highlightText(String text, Color highlightColor)
 ```
 
-Menyoroti semua kecocokan teks contoh dengan warna yang ditentukan.
+Menyorot semua kecocokan teks contoh dengan warna yang ditentukan.
 
 --------------------
 
@@ -1568,7 +1556,7 @@ Menyoroti semua kecocokan teks contoh dengan warna yang ditentukan.
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
->      // menyorot semua kemunculan 'the' yang terpisah
+>      // menyoroti semua kemunculan 'the' terpisah
 >      presentation.highlightText("the", Color.MAGENTA);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -1577,8 +1565,8 @@ Menyoroti semua kecocokan teks contoh dengan warna yang ditentukan.
 > ```
 
 
-**Parameter:**
-| Parameter | Type | Description |
+**Parameter:**  
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | text | java.lang.String | Teks yang akan disorot. |
 | highlightColor | java.awt.Color | Warna untuk menyorot teks. |
@@ -1588,7 +1576,7 @@ Menyoroti semua kecocokan teks contoh dengan warna yang ditentukan.
 public final void highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
-Menyoroti semua kecocokan teks contoh dengan warna yang ditentukan.
+Menyorot semua kecocokan teks contoh dengan warna yang ditentukan.
 
 --------------------
 
@@ -1599,7 +1587,7 @@ Menyoroti semua kecocokan teks contoh dengan warna yang ditentukan.
 >  try {
 >      TextSearchOptions textSearchOptions = new TextSearchOptions();
 >      textSearchOptions.setWholeWordsOnly(true);
->      // menyorot semua kemunculan 'the' yang terpisah
+>      // menyoroti semua kemunculan 'the' terpisah
 >      presentation.highlightText("the", Color.MAGENTA, textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -1608,20 +1596,20 @@ Menyoroti semua kecocokan teks contoh dengan warna yang ditentukan.
 > ```
 
 
-**Parameter:**
-| Parameter | Type | Description |
+**Parameter:**  
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | text | java.lang.String | Teks yang akan disorot. |
 | highlightColor | java.awt.Color | Warna untuk menyorot teks. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Opsi pencarian teks [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Objek callback untuk menerima hasil pencarian [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Objek panggilan balik untuk menerima hasil pencarian [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback) {#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-}
 ```
 public final void highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)
 ```
 
-Menyoroti semua kecocokan ekspresi reguler dengan warna yang ditentukan.
+Menyorot semua kecocokan ekspresi reguler dengan warna yang ditentukan.
 
 --------------------
 
@@ -1631,7 +1619,7 @@ Menyoroti semua kecocokan ekspresi reguler dengan warna yang ditentukan.
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      Pattern regex = Pattern.compile("\\b[^\\s]{10,}\\b");
->      // menyorot semua kata dengan 10 simbol atau lebih
+>      // menyoroti semua kata dengan 10 simbol atau lebih
 >      presentation.highlightRegex(regex, Color.BLUE, null);
 >      presentation.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -1640,17 +1628,18 @@ Menyoroti semua kecocokan ekspresi reguler dengan warna yang ditentukan.
 > ```
 
 
-**Parameter:**
-| Parameter | Type | Description |
+**Parameter:**  
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
+|
 | regex | java.util.regex.Pattern | Ekspresi reguler java.util.regex.Pattern untuk mendapatkan string yang akan disorot. |
 | highlightColor | java.awt.Color | Warna untuk menyorot teks. |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Objek callback untuk menerima hasil pencarian [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+
 ### replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback) {#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
 public final void replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)
 ```
-
 
 Mengganti semua kemunculan teks yang ditentukan dengan teks lain yang ditentukan.
 
@@ -1663,7 +1652,7 @@ Mengganti semua kemunculan teks yang ditentukan dengan teks lain yang ditentukan
 >  try {
 >      TextSearchOptions textSearchOptions = new TextSearchOptions();
 >      textSearchOptions.setWholeWordsOnly(true);
->      // Ganti semua kemunculan 'the' yang terpisah dengan '***'
+>      // Ganti semua kemunculan 'the' terpisah dengan '***'
 >      presentation.replaceText("the", "***", textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -1673,10 +1662,10 @@ Mengganti semua kemunculan teks yang ditentukan dengan teks lain yang ditentukan
 
 
 **Parameter:**
-| Parameter | Tipe | Deskripsi |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | oldText | java.lang.String | String yang akan diganti. |
-| newText | java.lang.String | String yang menggantikan semua kemunculan oldText. |
+| newText | java.lang.String | String untuk mengganti semua kemunculan oldText. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Opsi pencarian teks [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Objek callback untuk menerima hasil pencarian [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
@@ -1684,7 +1673,6 @@ Mengganti semua kemunculan teks yang ditentukan dengan teks lain yang ditentukan
 ```
 public final void replaceRegex(Pattern regex, String newText, IFindResultCallback callback)
 ```
-
 
 Mengganti semua kecocokan ekspresi reguler dengan string yang ditentukan.
 
@@ -1705,8 +1693,51 @@ Mengganti semua kecocokan ekspresi reguler dengan string yang ditentukan.
 
 
 **Parameter:**
-| Parameter | Tipe | Deskripsi |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | regex | java.util.regex.Pattern | Ekspresi reguler java.util.regex.Pattern untuk mendapatkan string yang akan diganti. |
-| newText | java.lang.String | String yang menggantikan semua kemunculan string yang akan diganti. |
+| newText | java.lang.String | String untuk mengganti semua kemunculan string yang akan diganti. |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Objek callback untuk menerima hasil pencarian [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+
+### refreshChartsData() {#refreshChartsData--}
+```
+public final void refreshChartsData()
+```
+
+Memuat ulang data untuk semua grafik dalam presentasi dari workbook sumber mereka.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("PresentationWithCharts.pptx");
+>  try {
+>      presentation.refreshChartsData();
+>      presentation.save("PresentationWithCharts-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+### refreshChartsData(boolean skipFailedCharts) {#refreshChartsData-boolean-}
+```
+public final void refreshChartsData(boolean skipFailedCharts)
+```
+
+Memuat ulang data untuk semua grafik dalam presentasi dari workbook sumber mereka.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("PresentationWithCharts.pptx");
+>  try {
+>      presentation.refreshChartsData();
+>      presentation.save("PresentationWithCharts-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Parameter:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| skipFailedCharts | boolean | Menentukan apakah proses penyegaran terus berlanjut jika sebuah grafik gagal diperbarui. Jika true, grafik yang menyebabkan pengecualian akan dilewati; jika tidak, pengecualian akan diteruskan. |

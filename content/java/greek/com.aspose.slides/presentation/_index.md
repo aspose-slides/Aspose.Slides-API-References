@@ -1,15 +1,15 @@
 ---
 title: Presentation
-second_title: Αναφορά API του Aspose.Slides για Java
+second_title: Αναφορά API Aspose.Slides για Java
 description: Αντιπροσωπεύει μια παρουσίαση Microsoft PowerPoint.
 type: docs
 url: /el/com.aspose.slides/presentation/
 ---
-**Κληρονομεί:**  
+**Κληρονομία:**
 java.lang.Object
 
-**Όλες οι Υλοποιημένες Διεπαφές:**  
-[com.aspose.slides.IPresentation](../../com.aspose.slides/ipresentation), com.aspose.slides.IDOMObject  
+**Όλες οι Υλοποιημένες Διεπαφές:**
+[com.aspose.slides.IPresentation](../../com.aspose.slides/ipresentation), com.aspose.slides.IDOMObject
 ```
 public final class Presentation implements IPresentation, IDOMObject
 ```
@@ -21,14 +21,14 @@ public final class Presentation implements IPresentation, IDOMObject
 > ```
 > The following example shows how to create PowerPoint Presentation.
 >   
->  // Δημιουργεί ένα αντικείμενο Presentation που αντιπροσωπεύει ένα αρχείο παρουσίασης
+>  // Δημιουργία αντικειμένου Presentation που αντιπροσωπεύει ένα αρχείο παρουσίασης
 >  Presentation pres = new Presentation();
 >  try {
->      // Λαμβάνει την πρώτη διαφάνεια
+>      // Λήψη της πρώτης διαφάνειας
 >      ISlide slide = pres.getSlides().get_Item(0);
->      // Προσθέτει ένα αυτόματο σχήμα τύπου γραμμής
+>      // Προσθήκη αυτόματου σχήματος τύπου γραμμή
 >      slide.getShapes().addAutoShape(ShapeType.Line, 50, 150, 300, 0);
->      // Αποθηκεύει το αρχείο παρουσίασης.
+>      // Αποθήκευση του αρχείου παρουσίασης.
 >      pres.save("NewPresentation_out.pptx", SaveFormat.Pptx);
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -36,10 +36,10 @@ public final class Presentation implements IPresentation, IDOMObject
 >   
 >   The following example shows how to open and save Presentation.
 >   
->  // Φορτώνει οποιοδήποτε υποστηριζόμενο αρχείο στο Presentation π.χ. ppt, pptx, odp κλπ.
+>  // Φόρτωση οποιουδήποτε υποστηριζόμενου αρχείου στην Presentation π.χ. ppt, pptx, odp κ.λπ.
 >  Presentation pres = new Presentation("Sample.odp");
 >  try {
->      // Αποθηκεύει το αρχείο παρουσίασης.
+>      // Αποθήκευση του αρχείου παρουσίασης.
 >      pres.save("OutputPresenation.pptx", SaveFormat.Pptx);
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -52,86 +52,87 @@ public final class Presentation implements IPresentation, IDOMObject
 | --- | --- |
 | [Presentation()](#Presentation--) | Αυτός ο κατασκευαστής δημιουργεί νέα παρουσίαση από την αρχή. |
 | [Presentation(LoadOptions loadOptions)](#Presentation-com.aspose.slides.LoadOptions-) | Αυτός ο κατασκευαστής δημιουργεί νέα παρουσίαση από την αρχή. |
-| [Presentation(InputStream stream)](#Presentation-java.io.InputStream-) | Αυτός ο κατασκευαστής είναι ο κύριος μηχανισμός για την ανάγνωση μιας υπάρχουσας Παρουσίασης. |
-| [Presentation(InputStream stream, LoadOptions loadOptions)](#Presentation-java.io.InputStream-com.aspose.slides.LoadOptions-) | Αυτός ο κατασκευαστής είναι ο κύριος μηχανισμός για την ανάγνωση μιας υπάρχουσας Παρουσίασης. |
-| [Presentation(String file)](#Presentation-java.lang.String-) | Αυτός ο κατασκευαστής λαμβάνει τη διαδρομή του αρχείου προέλευσης από την οποία διαβάζονται τα περιεχόμενα της Παρουσίασης. |
-| [Presentation(String file, LoadOptions loadOptions)](#Presentation-java.lang.String-com.aspose.slides.LoadOptions-) | Αυτός ο κατασκευαστής λαμβάνει τη διαδρομή του αρχείου προέλευσης από την οποία διαβάζονται τα περιεχόμενα της Παρουσίασης. |
-
+| [Presentation(InputStream stream)](#Presentation-java.io.InputStream-) | Αυτός ο κατασκευαστής είναι ο κύριος μηχανισμός για την ανάγνωση υπάρχουσας Παρουσίασης. |
+| [Presentation(InputStream stream, LoadOptions loadOptions)](#Presentation-java.io.InputStream-com.aspose.slides.LoadOptions-) | Αυτός ο κατασκευαστής είναι ο κύριος μηχανισμός για την ανάγνωση υπάρχουσας Παρουσίασης. |
+| [Presentation(String file)](#Presentation-java.lang.String-) | Αυτός ο κατασκευαστής λαμβάνει ένα μονοπάτι αρχείου προέλευσης από το οποίο διαβάζονται τα περιεχόμενα της Παρουσίασης. |
+| [Presentation(String file, LoadOptions loadOptions)](#Presentation-java.lang.String-com.aspose.slides.LoadOptions-) | Αυτός ο κατασκευαστής λαμβάνει ένα μονοπάτι αρχείου προέλευσης από το οποίο διαβάζονται τα περιεχόμενα της Παρουσίασης. |
 ## Μέθοδοι
 
 | Μέθοδος | Περιγραφή |
 | --- | --- |
-| [getCurrentDateTime()](#getCurrentDateTime--) | Επιστρέφει ή ορίζει ημερομηνία και ώρα που θα αντικαταστήσουν το περιεχόμενο των πεδίων datetime. |
-| [setCurrentDateTime(Date value)](#setCurrentDateTime-java.util.Date-) | Επιστρέφει ή ορίζει ημερομηνία και ώρα που θα αντικαταστήσουν το περιεχόμενο των πεδίων datetime. |
+| [getCurrentDateTime()](#getCurrentDateTime--) | Επιστρέφει ή ορίζει ημερομηνία και ώρα που θα αντικαταστήσει το περιεχόμενο των πεδίων datetime. |
+| [setCurrentDateTime(Date value)](#setCurrentDateTime-java.util.Date-) | Επιστρέφει ή ορίζει ημερομηνία και ώρα που θα αντικαταστήσει το περιεχόμενο των πεδίων datetime. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
 | [getHeaderFooterManager()](#getHeaderFooterManager--) | Επιστρέφει τον τρέχοντα διαχειριστή HeaderFooter. |
 | [getProtectionManager()](#getProtectionManager--) | Λαμβάνει τον διαχειριστή των δικαιωμάτων για αυτήν την παρουσίαση. |
-| [getSlides()](#getSlides--) | Επιστρέφει λίστα με όλες τις διαφάνειες που ορίζονται στην παρουσίαση. |
-| [getSections()](#getSections--) | Επιστρέφει λίστα με όλες τις ενότητες διαφανειών που ορίζονται στην παρουσίαση. |
-| [getSlideSize()](#getSlideSize--) | Επιστρέφει αντικείμενο μεγέθους διαφάνειας. |
-| [getNotesSize()](#getNotesSize--) | Επιστρέφει αντικείμενο μεγέθους διαφάνειας σημειώσεων. |
-| [getLayoutSlides()](#getLayoutSlides--) | Επιστρέφει λίστα με όλες τις διαφάνειες διάταξης που ορίζονται στην παρουσίαση. |
-| [getMasters()](#getMasters--) | Επιστρέφει λίστα με όλες τις κύριες διαφάνειες που ορίζονται στην παρουσίαση. |
-| [getMasterNotesSlideManager()](#getMasterNotesSlideManager--) | Επιστρέφει διαχειριστή κύριων σημειώσεων. |
-| [getMasterHandoutSlideManager()](#getMasterHandoutSlideManager--) | Επιστρέφει διαχειριστή κύριου φυλλαδίου. |
-| [getFontsManager()](#getFontsManager--) | Επιστρέφει διαχειριστή γραμματοσειρών. |
+| [getSlides()](#getSlides--) | Επιστρέφει μια λίστα με όλες τις διαφάνειες που ορίζονται στην παρουσίαση. |
+| [getSections()](#getSections--) | Επιστρέφει μια λίστα με όλα τα τμήματα διαφανειών που ορίζονται στην παρουσίαση. |
+| [getSlideSize()](#getSlideSize--) | Επιστρέφει το αντικείμενο μεγέθους διαφάνειας. |
+| [getNotesSize()](#getNotesSize--) | Επιστρέφει το αντικείμενο μεγέθους διαφάνειας σημειώσεων. |
+| [getLayoutSlides()](#getLayoutSlides--) | Επιστρέφει μια λίστα με όλες τις διαφάνειες διάταξης που ορίζονται στην παρουσίαση. |
+| [getMasters()](#getMasters--) | Επιστρέφει μια λίστα με όλες τις κύριες διαφάνειες που ορίζονται στην παρουσίαση. |
+| [getMasterNotesSlideManager()](#getMasterNotesSlideManager--) | Επιστρέφει τον διαχειριστή κύριων σημειώσεων. |
+| [getMasterHandoutSlideManager()](#getMasterHandoutSlideManager--) | Επιστρέφει τον διαχειριστή κύριου φυλλαδίου. |
+| [getFontsManager()](#getFontsManager--) | Επιστρέφει τον διαχειριστή γραμματοσειρών. |
 | [getDefaultTextStyle()](#getDefaultTextStyle--) | Επιστρέφει το προεπιλεγμένο στυλ κειμένου για σχήματα. |
-| [getCommentAuthors()](#getCommentAuthors--) | Επιστρέφει τη συλλογή των συγγραφέων των σχολίων. |
+| [getCommentAuthors()](#getCommentAuthors--) | Επιστρέφει τη συλλογή των συντακτών σχολίων. |
 | [getDocumentProperties()](#getDocumentProperties--) | Επιστρέφει το αντικείμενο DocumentProperties που περιέχει τυπικές και προσαρμοσμένες ιδιότητες εγγράφου. |
 | [getImages()](#getImages--) | Επιστρέφει τη συλλογή όλων των εικόνων στην παρουσίαση. |
 | [getAudios()](#getAudios--) | Επιστρέφει τη συλλογή όλων των ενσωματωμένων αρχείων ήχου στην παρουσίαση. |
 | [getVideos()](#getVideos--) | Επιστρέφει τη συλλογή όλων των ενσωματωμένων αρχείων βίντεο στην παρουσίαση. |
-| [getSlideShowSettings()](#getSlideShowSettings--) | Επιστρέφει τις ρυθμίσεις παρουσίασης διαφανειών για την παρουσίαση. |
-| [getDigitalSignatures()](#getDigitalSignatures--) | Επιστρέφει τη συλλογή των υπογραφών που χρησιμοποιούνται για υπογραφή της παρουσίασης. |
+| [getSlideShowSettings()](#getSlideShowSettings--) | Επιστρέφει τις ρυθμίσεις προβολής διαφανειών για την παρουσίαση. |
+| [getDigitalSignatures()](#getDigitalSignatures--) | Επιστρέφει τη συλλογή των υπογραφών που χρησιμοποιήθηκαν για την υπογραφή της παρουσίασης. |
 | [getCustomData()](#getCustomData--) | Επιστρέφει τα προσαρμοσμένα δεδομένα της παρουσίασης. |
 | [getAllCustomXmlParts()](#getAllCustomXmlParts--) | Επιστρέφει όλα τα προσαρμοσμένα τμήματα δεδομένων στην παρουσίαση. |
 | [getVbaProject()](#getVbaProject--) | Λαμβάνει ή ορίζει το έργο VBA με μακροεντολές παρουσίασης. |
 | [setVbaProject(IVbaProject value)](#setVbaProject-com.aspose.slides.IVbaProject-) | Λαμβάνει ή ορίζει το έργο VBA με μακροεντολές παρουσίασης. |
-| [getHyperlinkQueries()](#getHyperlinkQueries--) | Παρέχει εύκολη πρόσβαση σε όλους τους υπερσυνδέσμους που περιέχονται σε όλες τις διαφάνειες της παρουσίασης (εκτός από τις κύριες, τις διατάξεις, και τις διαφάνειες σημειώσεων). |
-| [getViewProperties()](#getViewProperties--) | Λαμβάνει τις ιδιότητες προβολής της παρουσίασης. |
+| [getHyperlinkQueries()](#getHyperlinkQueries--) | Παρέχει εύκολη πρόσβαση σε όλες τις υπερσυνδέσεις που περιέχονται σε όλες τις διαφάνειες της παρουσίασης (εκτός από τις κύριες, τις διαφάνειες διάταξης, τις διαφάνειες σημειώσεων). |
+| [getViewProperties()](#getViewProperties--) | Λαμβάνει τις ιδιότητες προβολής για όλη την παρουσίαση. |
 | [getFirstSlideNumber()](#getFirstSlideNumber--) | Αντιπροσωπεύει τον αριθμό της πρώτης διαφάνειας στην παρουσίαση |
 | [setFirstSlideNumber(int value)](#setFirstSlideNumber-int-) | Αντιπροσωπεύει τον αριθμό της πρώτης διαφάνειας στην παρουσίαση |
-| [getSensitivityLabels()](#getSensitivityLabels--) | Επιστρέφει τη συλλογή των ετικετών ευαισθησίας που έχουν εφαρμοστεί στο έγγραφο παρουσίασης. |
-| [getSlideById(long id)](#getSlideById-long-) | Επιστρέφει μια Slide, MasterSlide ή LayoutSlide βάσει Id. |
-| [getSourceFormat()](#getSourceFormat--) | Επιστρέφει πληροφορίες για τη μορφή από την οποία φορτώθηκε η παρουσίαση. |
+| [getSensitivityLabels()](#getSensitivityLabels--) | Επιστρέφει τη συλλογή των ευαίσθητων ετικετών που εφαρμόζονται στο έγγραφο της παρουσίασης. |
+| [getSlideById(long id)](#getSlideById-long-) | Επιστρέφει ένα Slide, MasterSlide ή LayoutSlide με βάση το Id. |
+| [getSourceFormat()](#getSourceFormat--) | Επιστρέφει πληροφορίες σχετικά με τη μορφή από την οποία φορτώθηκε η παρουσίαση. |
 | [getMasterTheme()](#getMasterTheme--) | Επιστρέφει το κύριο θέμα. |
 | [save(String fname, int format)](#save-java.lang.String-int-) | Αποθηκεύει όλες τις διαφάνειες μιας παρουσίασης σε αρχείο με το καθορισμένο μορφότυπο. |
 | [save(OutputStream stream, int format)](#save-java.io.OutputStream-int-) | Αποθηκεύει όλες τις διαφάνειες μιας παρουσίασης σε ροή με το καθορισμένο μορφότυπο. |
 | [save(String fname, int format, ISaveOptions options)](#save-java.lang.String-int-com.aspose.slides.ISaveOptions-) | Αποθηκεύει όλες τις διαφάνειες μιας παρουσίασης σε αρχείο με το καθορισμένο μορφότυπο και με πρόσθετες επιλογές. |
 | [save(OutputStream stream, int format, ISaveOptions options)](#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-) | Αποθηκεύει όλες τις διαφάνειες μιας παρουσίασης σε ροή με το καθορισμένο μορφότυπο και με πρόσθετες επιλογές. |
-| [save(IXamlOptions options)](#save-com.aspose.slides.IXamlOptions-) | Αποθηκεύει όλες τις διαφάνειες μιας παρουσίασης σε σύνολο αρχείων που αντιπροσωπεύουν σήμανση XAML. |
+| [save(IXamlOptions options)](#save-com.aspose.slides.IXamlOptions-) | Αποθηκεύει όλες τις διαφάνειες μιας παρουσίασης σε ένα σύνολο αρχείων που αντιπροσωπεύουν σήμανση XAML. |
 | [getImages(IRenderingOptions options)](#getImages-com.aspose.slides.IRenderingOptions-) | Επιστρέφει αντικείμενα Image για όλες τις διαφάνειες μιας παρουσίασης. |
-| [getImages(IRenderingOptions options, int[] slides)](#getImages-com.aspose.slides.IRenderingOptions-int---) | Επιστρέφει μικρογραφίες Image για τις καθορισμένες διαφάνειες μιας παρουσίασης. |
-| [getImages(IRenderingOptions options, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-float-float-) | Επιστρέφει μικρογραφίες Image για όλες τις διαφάνειες μιας παρουσίασης με προσαρμοσμένη κλίμακα. |
-| [getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-int---float-float-) | Επιστρέφει μικρογραφίες Image για τις καθορισμένες διαφάνειες μιας παρουσίασης με προσαρμοσμένη κλίμακα. |
-| [getImages(IRenderingOptions options, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-) | Επιστρέφει μικρογραφίες Image για όλες τις διαφάνειες μιας παρουσίασης με καθορισμένο μέγεθος. |
-| [getImages(IRenderingOptions options, int[] slides, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-) | Επιστρέφει μικρογραφίες Image για τις καθορισμένες διαφάνειες μιας παρουσίασης με καθορισμένο μέγεθος. |
+| [getImages(IRenderingOptions options, int[] slides)](#getImages-com.aspose.slides.IRenderingOptions-int---) | Επιστρέφει αντικείμενα Thumbnail Image για τις καθορισμένες διαφάνειες μιας παρουσίασης. |
+| [getImages(IRenderingOptions options, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-float-float-) | Επιστρέφει αντικείμενα Thumbnail Image για όλες τις διαφάνειες μιας παρουσίασης με προσαρμοσμένη κλίμακα. |
+| [getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-int---float-float-) | Επιστρέφει αντικείμενα Thumbnail Image για τις καθορισμένες διαφάνειες μιας παρουσίασης με προσαρμοσμένη κλίμακα. |
+| [getImages(IRenderingOptions options, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-) | Επιστρέφει αντικείμενα Thumbnail Image για όλες τις διαφάνειες μιας παρουσίασης με καθορισμένο μέγεθος. |
+| [getImages(IRenderingOptions options, int[] slides, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-) | Επιστέφει αντικείμενα Thumbnail Image για τις καθορισμένες διαφάνειες μιας παρουσίασης με καθορισμένο μέγεθος. |
 | [save(String fname, int[] slides, int format)](#save-java.lang.String-int---int-) | Αποθηκεύει τις καθορισμένες διαφάνειες μιας παρουσίασης σε αρχείο με το καθορισμένο μορφότυπο διατηρώντας τον αριθμό σελίδας. |
 | [save(String fname, int[] slides, int format, ISaveOptions options)](#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-) | Αποθηκεύει τις καθορισμένες διαφάνειες μιας παρουσίασης σε αρχείο με το καθορισμένο μορφότυπο διατηρώντας τον αριθμό σελίδας. |
 | [save(OutputStream stream, int[] slides, int format)](#save-java.io.OutputStream-int---int-) | Αποθηκεύει τις καθορισμένες διαφάνειες μιας παρουσίασης σε ροή με το καθορισμένο μορφότυπο διατηρώντας τον αριθμό σελίδας. |
 | [save(OutputStream stream, int[] slides, int format, ISaveOptions options)](#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-) | Αποθηκεύει τις καθορισμένες διαφάνειες μιας παρουσίασης σε ροή με το καθορισμένο μορφότυπο διατηρώντας τον αριθμό σελίδας. |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Συγχωνεύει τμήματα κειμένου με την ίδια μορφοποίηση σε όλες τις παραγράφους σε όλα τα αποδεκτά σχήματα σε όλες τις διαφάνειες. |
-| [dispose()](#dispose--) | Απελευθερώνει όλους τους πόρους που χρησιμοποιεί αυτό το αντικείμενο Presentation. |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Συνδέει τμήματα κειμένου με την ίδια μορφοποίηση σε όλες τις παραγράφους σε όλα τα αποδεκτά σχήματα σε όλες τις διαφάνειες. |
+| [dispose()](#dispose--) | Αποδεσμεύει όλους τους πόρους που χρησιμοποιούνται από αυτό το αντικείμενο Presentation. |
 | [getPresentation()](#getPresentation--) | Επιστρέφει την γονική παρουσίαση ενός κειμένου. |
-| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | Επισημαίνει όλες τις εμφανίσεις του δείγματος κειμένου με το καθορισμένο χρώμα. |
-| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Επισημαίνει όλες τις εμφανίσεις του δείγματος κειμένου με το καθορισμένο χρώμα. |
-| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | Επισημαίνει όλες τις εμφανίσεις της κανονικής έκφρασης με το καθορισμένο χρώμα. |
+| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | Τονίζει όλα τα αντίστοιχα δείγματα κειμένου με το καθορισμένο χρώμα. |
+| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Τονίζει όλα τα αντίστοιχα δείγματα κειμένου με το καθορισμένο χρώμα. |
+| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | Τονίζει όλα τα ταιριάσματα της κανονικής έκφρασης με το καθορισμένο χρώμα. |
 | [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Αντικαθιστά όλες τις εμφανίσεις του καθορισμένου κειμένου με άλλο καθορισμένο κείμενο. |
-| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Αντικαθιστά όλες τις εμφανίσεις της κανονικής έκφρασης με το καθορισμένο συμβολοσειρά. |
+| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Αντικαθιστά όλα τα ταιριάσματα της κανονικής έκφρασης με το καθορισμένο συμβολοσειρά. |
+| [refreshChartsData()](#refreshChartsData--) | Επαναφορτώνει τα δεδομένα για όλα τα διαγράμματα στην παρουσίαση από τα πηγαία βιβλία εργασίας τους. |
+| [refreshChartsData(boolean skipFailedCharts)](#refreshChartsData-boolean-) | Επαναφορτώνει τα δεδομένα για όλα τα διαγράμματα στην παρουσίαση από τα πηγαία βιβλία εργασίας τους. |
 
 ### Presentation() {#Presentation--}
 ```
 public Presentation()
 ```
 
-Αυτός ο κατασκευαστής δημιουργεί νέα παρουσίαση από την αρχή. Η δημιουργημένη παρουσίαση έχει μία κενή διαφάνεια.
+Αυτός ο κατασκευαστής δημιουργεί νέα παρουσίαση από την αρχή. Η δημιουργηθείσα παρουσίαση έχει μία κενή διαφάνεια.
 
 ### Presentation(LoadOptions loadOptions) {#Presentation-com.aspose.slides.LoadOptions-}
 ```
 public Presentation(LoadOptions loadOptions)
 ```
 
-Αυτός ο κατασκευαστής δημιουργεί νέα παρουσίαση από την αρχή. Η δημιουργημένη παρουσίαση έχει μία κενή διαφάνεια.
+Αυτός ο κατασκευαστής δημιουργεί νέα παρουσίαση από την αρχή. Η δημιουργηθείσα παρουσίαση έχει μία κενή διαφάνεια.
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
@@ -143,7 +144,7 @@ public Presentation(LoadOptions loadOptions)
 public Presentation(InputStream stream)
 ```
 
-Αυτός ο κατασκευαστής είναι ο κύριος μηχανισμός για την ανάγνωση μιας υπάρχουσας Παρουσίασης.
+Αυτός ο κατασκευαστής είναι ο κύριος μηχανισμός για την ανάγνωση υπάρχουσας Παρουσίασης.
 
 --------------------
 
@@ -164,7 +165,7 @@ public Presentation(InputStream stream)
 public Presentation(InputStream stream, LoadOptions loadOptions)
 ```
 
-Αυτός ο κατασκευαστής είναι ο κύριος μηχανισμός για την ανάγνωση μιας υπάρχουσας Παρουσίασης.
+Αυτός ο κατασκευαστής είναι ο κύριος μηχανισμός για την ανάγνωση υπάρχουσας Παρουσίασης.
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
@@ -177,7 +178,7 @@ public Presentation(InputStream stream, LoadOptions loadOptions)
 public Presentation(String file)
 ```
 
-Αυτός ο κατασκευαστής λαμβάνει τη διαδρομή του αρχείου προέλευσης από την οποία διαβάζονται τα περιεχόμενα της Παρουσίασης.
+Αυτός ο κατασκευαστής λαμβάνει ένα μονοπάτι αρχείου προέλευσης από το οποίο διαβάζονται τα περιεχόμενα της Παρουσίασης.
 
 --------------------
 
@@ -196,7 +197,7 @@ public Presentation(String file)
 public Presentation(String file, LoadOptions loadOptions)
 ```
 
-Αυτός ο κατασκευαστής λαμβάνει τη διαδρομή του αρχείου προέλευσης από την οποία διαβάζονται τα περιεχόμενα της Παρουσίασης.
+Αυτός ο κατασκευαστής λαμβάνει ένα μονοπάτι αρχείου προέλευσης από το οποίο διαβάζονται τα περιεχόμενα της Παρουσίασης.
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
@@ -209,9 +210,9 @@ public Presentation(String file, LoadOptions loadOptions)
 public final Date getCurrentDateTime()
 ```
 
-Επιστρέφει ή ορίζει ημερομηνία και ώρα που θα αντικαταστήσουν το περιεχόμενο των πεδίων datetime. Ο χρόνος δημιουργίας αυτού του αντικειμένου Presentation από προεπιλογή. Ανάγνωση/εγγραφή java.util.Date.
+Επιστρέφει ή ορίζει ημερομηνία και ώρα που θα αντικαταστήσει το περιεχόμενο των πεδίων datetime. Η ώρα δημιουργίας αυτού του αντικειμένου Presentation από προεπιλογή. Ανάγνωση/εγγραφή java.util.Date.
 
-**Επιστρέφει:**  
+**Επιστροφή:**
 java.util.Date
 
 ### setCurrentDateTime(Date value) {#setCurrentDateTime-java.util.Date-}
@@ -219,7 +220,7 @@ java.util.Date
 public final void setCurrentDateTime(Date value)
 ```
 
-Επιστρέφει ή ορίζει ημερομηνία και ώρα που θα αντικαταστήσουν το περιεχόμενο των πεδίων datetime. Ο χρόνος δημιουργίας αυτού του αντικειμένου Presentation από προεπιλογή. Ανάγνωση/εγγραφή java.util.Date.
+Επιστρέφει ή ορίζει ημερομηνία και ώρα που θα αντικαταστήσει το περιεχόμενο των πεδίων datetime. Η ώρα δημιουργίας αυτού του αντικειμένου Presentation από προεπιλογή. Ανάγνωση/εγγραφή java.util.Date.
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
@@ -233,7 +234,7 @@ public final IDOMObject getParent_Immediate()
 
 Επιστρέφει το αντικείμενο Parent_Immediate. Μόνο-ανάγνωση IDOMObject.
 
-**Επιστρέφει:**  
+**Επιστροφή:**
 com.aspose.slides.IDOMObject
 
 ### getHeaderFooterManager() {#getHeaderFooterManager--}
@@ -292,7 +293,7 @@ public final IPresentationHeaderFooterManager getHeaderFooterManager()
 >  }
 > ```
 
-**Επιστρέφει:**  
+**Επιστροφή:**
 [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager)
 
 ### getProtectionManager() {#getProtectionManager--}
@@ -302,7 +303,7 @@ public final IProtectionManager getProtectionManager()
 
 Λαμβάνει τον διαχειριστή των δικαιωμάτων για αυτήν την παρουσίαση. Μόνο-ανάγνωση [IProtectionManager](../../com.aspose.slides/iprotectionmanager).
 
-**Επιστρέφει:**  
+**Επιστροφή:**
 [IProtectionManager](../../com.aspose.slides/iprotectionmanager)
 
 ### getSlides() {#getSlides--}
@@ -310,7 +311,7 @@ public final IProtectionManager getProtectionManager()
 public final ISlideCollection getSlides()
 ```
 
-Επιστρέφει λίστα με όλες τις διαφάνειες που ορίζονται στην παρουσίαση. Μόνο-ανάγνωση [ISlideCollection](../../com.aspose.slides/islidecollection).
+Επιστρέφει μια λίστα με όλες τις διαφάνειες που ορίζονται στην παρουσίαση. Μόνο-ανάγνωση [ISlideCollection](../../com.aspose.slides/islidecollection).
 
 --------------------
 
@@ -402,7 +403,7 @@ public final ISlideCollection getSlides()
 >  }
 > ```
 
-**Επιστρέφει:**  
+**Επιστροφή:**
 [ISlideCollection](../../com.aspose.slides/islidecollection)
 
 ### getSections() {#getSections--}
@@ -410,7 +411,7 @@ public final ISlideCollection getSlides()
 public final ISectionCollection getSections()
 ```
 
-Επιστρέφει λίστα με όλες τις ενότητες διαφανειών που ορίζονται στην παρουσίαση. Μόνο-ανάγνωση [ISectionCollection](../../com.aspose.slides/isectioncollection).
+Επιστρέφει μια λίστα με όλα τα τμήματα διαφανειών που ορίζονται στην παρουσίαση. Μόνο-ανάγνωση [ISectionCollection](../../com.aspose.slides/isectioncollection).
 
 --------------------
 
@@ -425,7 +426,7 @@ public final ISectionCollection getSections()
 >      ISlide newSlide3 = pres.getSlides().addEmptySlide(pres.getLayoutSlides().get_Item(0));
 >      ISlide newSlide4 = pres.getSlides().addEmptySlide(pres.getLayoutSlides().get_Item(0));
 >      ISection section1 = pres.getSections().addSection("Section 1", newSlide1);
->      // η ενότητα1 θα λήξει στο newSlide2 και μετά από αυτή θα ξεκινήσει η ενότητα2
+>      // section1 will be ended at newSlide2 and after it section2 will start
 >      ISection section2 = pres.getSections().addSection("Section 2", newSlide3);
 >      pres.save("pres-sections.pptx", SaveFormat.Pptx);
 >      pres.getSections().reorderSectionWithSlides(section2, 0);
@@ -448,8 +449,7 @@ public final ISectionCollection getSections()
 >  }
 > ```
 
-
-**Επιστρέφει:**  
+**Επιστροφή:**
 [ISectionCollection](../../com.aspose.slides/isectioncollection)
 
 ### getSlideSize() {#getSlideSize--}
@@ -457,7 +457,7 @@ public final ISectionCollection getSections()
 public final ISlideSize getSlideSize()
 ```
 
-Επιστρέφει αντικείμενο μεγέθους διαφάνειας. Μόνο-ανάγνωση [ISlideSize](../../com.aspose.slides/islidesize).
+Επιστρέφει το αντικείμενο μεγέθους διαφάνειας. Μόνο-ανάγνωση [ISlideSize](../../com.aspose.slides/islidesize).
 
 --------------------
 
@@ -503,7 +503,7 @@ public final ISlideSize getSlideSize()
 >  }
 > ```
 
-**Επιστρέφει:**  
+**Επιστροφή:**
 [ISlideSize](../../com.aspose.slides/islidesize)
 
 ### getNotesSize() {#getNotesSize--}
@@ -511,9 +511,9 @@ public final ISlideSize getSlideSize()
 public final INotesSize getNotesSize()
 ```
 
-Επιστρέφει αντικείμενο μεγέθους διαφάνειας σημειώσεων. Μόνο-ανάγνωση [INotesSize](../../com.aspose.slides/inotessize).
+Επιστρέφει το αντικείμενο μεγέθους διαφάνειας σημειώσεων. Μόνο-ανάγνωση [INotesSize](../../com.aspose.slides/inotessize).
 
-**Επιστρέφει:**  
+**Επιστροφή:**
 [INotesSize](../../com.aspose.slides/inotessize)
 
 ### getLayoutSlides() {#getLayoutSlides--}
@@ -521,13 +521,13 @@ public final INotesSize getNotesSize()
 public final IGlobalLayoutSlideCollection getLayoutSlides()
 ```
 
-Επιστρέφει λίστα με όλες τις διαφάνειες διάταξης που ορίζονται στην παρουσίαση. Μόνο-ανάγνωση [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection).
+Επιστρέφει μια λίστα με όλες τις διαφάνειες διάταξης που ορίζονται στην παρουσίαση. Μόνο-ανάγνωση [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection).
 
 --------------------
 
-Μπορείτε να έχετε πρόσβαση σε εναλλακτικό API για προσθήκη/ενσωμάτωση/αφαίρεση/κλωνοποίηση διαφανειών διάταξης χρησιμοποιώντας την ιδιότητα IMasterSlide.LayoutSlides.
+Μπορείτε να έχετε πρόσβαση σε εναλλακτικό API για προσθήκη/εισαγωγή/αφαίρεση/κλωνοποίηση διαφανειών διάταξης χρησιμοποιώντας την ιδιότητα IMasterSlide.LayoutSlides.
 
-**Επιστρέφει:**  
+**Επιστροφή:**
 [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection)
 
 ### getMasters() {#getMasters--}
@@ -535,7 +535,7 @@ public final IGlobalLayoutSlideCollection getLayoutSlides()
 public final IMasterSlideCollection getMasters()
 ```
 
-Επιστρέφει λίστα με όλες τις κύριες διαφάνειες που ορίζονται στην παρουσίαση. Μόνο-ανάγνωση [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection).
+Επιστρέφει μια λίστα με όλες τις κύριες διαφάνειες που ορίζονται στην παρουσίαση. Μόνο-ανάγνωση [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection).
 
 --------------------
 
@@ -556,15 +556,15 @@ public final IMasterSlideCollection getMasters()
 >  
 >  The following examples shows how to change the background color of the master slide of PowerPoint Presentation.
 >  
->  // Δημιουργήστε ένα αντικείμενο Presentation που αντιπροσωπεύει το αρχείο παρουσίασης
+>  // Instantiate the Presentation class that represents the presentation file
 >  Presentation pres = new Presentation();
 >  try
 >  {
->      // Ορίστε το χρώμα φόντου του Master ISlide σε Πράσινο δάσους
+>      // Set the background color of the Master ISlide to Forest Green
 >      pres.getMasters().get_Item(0).getBackground().setType(BackgroundType.OwnBackground);
 >      pres.getMasters().get_Item(0).getBackground().getFillFormat().setFillType(FillType.Solid);
 >      pres.getMasters().get_Item(0).getBackground().getFillFormat().getSolidFillColor().setColor(Color.GREEN);
->      // Γράψτε την παρουσίαση στον δίσκο
+>      // Write the presentation to disk
 >      pres.save("SetSlideBackgroundMaster_out.pptx", SaveFormat.Pptx);
 >  }
 >  finally
@@ -574,11 +574,11 @@ public final IMasterSlideCollection getMasters()
 >  
 >  The following examples shows how to add slide layout to PowerPoint Presentation.
 >  
->  // Δημιουργήστε αντικείμενο Presentation που αντιπροσωπεύει το αρχείο παρουσίασης
+>  // Instantiate Presentation class that represents the presentation file
 >  Presentation presentation = new Presentation("AccessSlides.pptx");
 >  try
 >  {
->      // Προσπαθήστε να αναζητήσετε κατά τύπο διάταξης διαφάνειας
+>      // Try to search by layout slide type
 >      IMasterLayoutSlideCollection layoutSlides = presentation.getMasters().get_Item(0).getLayoutSlides();
 >      ILayoutSlide layoutSlide = null;
 >      if (layoutSlides.getByType(SlideLayoutType.TitleAndObject) != null)
@@ -588,13 +588,13 @@ public final IMasterSlideCollection getMasters()
 > 
 >      if (layoutSlide == null)
 >      {
->          // Η κατάσταση όταν μια παρουσίαση δεν περιέχει κάποιον τύπο διατάξεων.
->          // Το αρχείο παρουσίασης περιέχει μόνο τύπους διατάξεων Κενό και Προσαρμοσμένο.
->          // Αλλά οι διαφάνειες διάταξης με προσαρμοσμένους τύπους έχουν διαφορετικά ονόματα διαφάνειας,
->          // όπως "Title", "Title and Content" κλπ. Και είναι δυνατό να χρησιμοποιηθούν αυτά
->          // ονόματα για την επιλογή διάταξης διαφάνειας.
->          // Επίσης είναι δυνατό να χρησιμοποιηθεί το σύνολο των τύπων σχήματος κράτησης θέσης. Για παράδειγμα,
->          // Η διαφάνεια τίτλου πρέπει να έχει μόνο τύπο κράτησης θέσης Title κλπ.
+>          // The situation when a presentation doesn't contain some type of layouts.
+>          // presentation File only contains Blank and Custom layout types.
+>          // But layout slides with Custom types has different slide names,
+>          // like "Title", "Title and Content", etc. And it is possible to use these
+>          // names for layout slide selection.
+>          // Also it is possible to use the set of placeholder shape types. For example,
+>          // Title slide should have only Title pleceholder type, etc.
 >          for (ILayoutSlide titleAndObjectLayoutSlide : (Iterable) layoutSlides)
 >          {
 >              if ("Title and Object".equals(titleAndObjectLayoutSlide.getName()))
@@ -623,9 +623,9 @@ public final IMasterSlideCollection getMasters()
 >              }
 >          }
 >      }
->      // Προσθήκη κενής διαφάνειας με την προστιθέμενη διάταξη διαφάνειας
+>      // Adding empty slide with added layout slide
 >      presentation.getSlides().insertEmptySlide(0, layoutSlide);
->      // Αποθηκεύστε την παρουσίαση
+>      // Save presentation
 >      presentation.save("AddLayoutSlides_out.pptx", SaveFormat.Pptx);
 >  }
 >  finally
@@ -634,8 +634,7 @@ public final IMasterSlideCollection getMasters()
 >  }
 > ```
 
-
-**Επιστρέφει:**  
+**Επιστροφή:**
 [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection)
 
 ### getMasterNotesSlideManager() {#getMasterNotesSlideManager--}
@@ -643,9 +642,9 @@ public final IMasterSlideCollection getMasters()
 public final IMasterNotesSlideManager getMasterNotesSlideManager()
 ```
 
-Επιστρέφει διαχειριστή κύριων σημειώσεων. Μόνο-ανάγνωση [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager).
+Επιστρέφει τον διαχειριστή κύριων σημειώσεων. Μόνο-ανάγνωση [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager).
 
-**Επιστρέφει:**  
+**Επιστροφή:**
 [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager)
 
 ### getMasterHandoutSlideManager() {#getMasterHandoutSlideManager--}
@@ -653,9 +652,9 @@ public final IMasterNotesSlideManager getMasterNotesSlideManager()
 public final IMasterHandoutSlideManager getMasterHandoutSlideManager()
 ```
 
-Επιστρέφει διαχειριστή κύριου φυλλαδίου. Μόνο-ανάγνωση [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager).
+Επιστρέφει τον διαχειριστή κύριου φυλλαδίου. Μόνο-ανάγνωση [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager).
 
-**Επιστρέφει:**  
+**Επιστροφή:**
 [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager)
 
 ### getFontsManager() {#getFontsManager--}
@@ -663,7 +662,7 @@ public final IMasterHandoutSlideManager getMasterHandoutSlideManager()
 public final IFontsManager getFontsManager()
 ```
 
-Επιστρέφει διαχειριστή γραμματοσειρών. Μόνο-ανάγνωση [IFontsManager](../../com.aspose.slides/ifontsmanager).
+Επιστρέφει τον διαχειριστή γραμματοσειρών. Μόνο-ανάγνωση [IFontsManager](../../com.aspose.slides/ifontsmanager).
 
 --------------------
 
@@ -699,7 +698,7 @@ public final IFontsManager getFontsManager()
 >  }
 > ```
 
-**Επιστρέφει:**  
+**Επιστροφή:**
 [IFontsManager](../../com.aspose.slides/ifontsmanager)
 
 ### getDefaultTextStyle() {#getDefaultTextStyle--}
@@ -709,7 +708,7 @@ public final ITextStyle getDefaultTextStyle()
 
 Επιστρέφει το προεπιλεγμένο στυλ κειμένου για σχήματα. Μόνο-ανάγνωση [ITextStyle](../../com.aspose.slides/itextstyle).
 
-**Επιστρέφει:**  
+**Επιστροφή:**
 [ITextStyle](../../com.aspose.slides/itextstyle)
 
 ### getCommentAuthors() {#getCommentAuthors--}
@@ -717,9 +716,9 @@ public final ITextStyle getDefaultTextStyle()
 public final ICommentAuthorCollection getCommentAuthors()
 ```
 
-Επιστρέφει τη συλλογή των συγγραφέων των σχολίων. Μόνο-ανάγνωση [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection).
+Επιστρέφει τη συλλογή των συντακτών σχολίων. Μόνο-ανάγνωση [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection).
 
-**Επιστρέφει:**  
+**Επιστροφή:**
 [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection)
 
 ### getDocumentProperties() {#getDocumentProperties--}
@@ -729,7 +728,7 @@ public final IDocumentProperties getDocumentProperties()
 
 Επιστρέφει το αντικείμενο DocumentProperties που περιέχει τυπικές και προσαρμοσμένες ιδιότητες εγγράφου. Μόνο-ανάγνωση [IDocumentProperties](../../com.aspose.slides/idocumentproperties).
 
-**Επιστρέφει:**  
+**Επιστροφή:**
 [IDocumentProperties](../../com.aspose.slides/idocumentproperties)
 
 ### getImages() {#getImages--}
@@ -789,15 +788,14 @@ public final IImageCollection getImages()
 >  }
 > ```
 
-**Επιστρέφει:**  
+**Επιστροφή:**
 [IImageCollection](../../com.aspose.slides/iimagecollection)
 
 ### getAudios() {#getAudios--}
 ```
 public final IAudioCollection getAudios()
 ```
-
-Επιστρέφει τη συλλογή όλων των ενσωματωμένων αρχείων ήχου στην παρουσίαση. Μόνο-ανάγνωση [IAudioCollection](../../com.aspose.slides/iaudiocollection).
+Επιστρέφει τη συλλογή όλων των ενσωματωμένων αρχείων ήχου στην παρουσίαση. Μόνο για ανάγνωση [IAudioCollection](../../com.aspose.slides/iaudiocollection).
 
 --------------------
 
@@ -819,14 +817,14 @@ public final IAudioCollection getAudios()
 >  }
 > ```
 
-**Επιστρέφει:**  
+**Επιστρέφει:**
 [IAudioCollection](../../com.aspose.slides/iaudiocollection)
-
 ### getVideos() {#getVideos--}
 ```
 public final IVideoCollection getVideos()
 ```
-Returns the collection of all embedded video files in the presentation. Μόνο για ανάγνωση [IVideoCollection](../../com.aspose.slides/ivideocollection).
+
+Επιστρέφει τη συλλογή όλων των ενσωματωμένων αρχείων βίντεο στην παρουσίαση. Μόνο για ανάγνωση [IVideoCollection](../../com.aspose.slides/ivideocollection).
 
 --------------------
 
@@ -1024,7 +1022,7 @@ Returns the collection of all embedded video files in the presentation. Μόνο
 public final SlideShowSettings getSlideShowSettings()
 ```
 
-Επιστρέφει τις ρυθμίσεις παρουσίασης διαφάνειας για την παρουσίαση.
+Επιστρέφει τις ρυθμίσεις παρουσίασης διαφανειών για την παρουσίαση.
 
 **Επιστρέφει:**
 [SlideShowSettings](../../com.aspose.slides/slideshowsettings)
@@ -1061,7 +1059,6 @@ public final IDigitalSignatureCollection getDigitalSignatures()
 >  }
 > ```
 
-
 **Επιστρέφει:**
 [IDigitalSignatureCollection](../../com.aspose.slides/idigitalsignaturecollection)
 ### getCustomData() {#getCustomData--}
@@ -1078,16 +1075,14 @@ public final ICustomData getCustomData()
 public final ICustomXmlPart[] getAllCustomXmlParts()
 ```
 
-Επιστρέφει όλες τις προσαρμοσμένες ενότητες δεδομένων στην παρουσίαση. Μόνο για ανάγνωση ICustomXmlPart[].
+Επιστρέφει όλα τα προσαρμοσμένα τμήματα δεδομένων στην παρουσίαση. Μόνο για ανάγνωση ICustomXmlPart[].
 
 --------------------
 
 > ```
-> The following examples show how to clear all custom xml parts from PowerPoint Presentation.
->  
->  Presentation pres = new Presentation("PresentationWithCustomXml.pptx");
+> Presentation pres = new Presentation("PresentationWithCustomXml.pptx");
 >  try {
->      // Iterate all custom XML Parts
+>      // Επανάληψη σε όλα τα προσαρμοσμένα XML τμήματα
 >      for (ICustomXmlPart item : pres.getAllCustomXmlParts())
 >      {
 >          item.remove();
@@ -1100,15 +1095,15 @@ public final ICustomXmlPart[] getAllCustomXmlParts()
 >  }
 > ```
 
+
 **Επιστρέφει:**
 com.aspose.slides.ICustomXmlPart[]
-
 ### getVbaProject() {#getVbaProject--}
 ```
 public final IVbaProject getVbaProject()
 ```
 
-Ανακτά ή ορίζει το έργο VBA με μακροεντολές παρουσίασης. Ανάγνωση/εγγραφή [IVbaProject](../../com.aspose.slides/ivbaproject).
+Λαμβάνει ή ορίζει το έργο VBA με μακροεντολές παρουσίασης. Ανάγνωση/Εγγραφή [IVbaProject](../../com.aspose.slides/ivbaproject).
 
 **Επιστρέφει:**
 [IVbaProject](../../com.aspose.slides/ivbaproject)
@@ -1117,7 +1112,7 @@ public final IVbaProject getVbaProject()
 public final void setVbaProject(IVbaProject value)
 ```
 
-Ανακτά ή ορίζει το έργο VBA με μακροεντολές παρουσίασης. Ανάγνωση/εγγραφή [IVbaProject](../../com.aspose.slides/ivbaproject).
+Λαμβάνει ή ορίζει το έργο VBA με μακροεντολές παρουσίασης. Ανάγνωση/Εγγραφή [IVbaProject](../../com.aspose.slides/ivbaproject).
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
@@ -1129,7 +1124,7 @@ public final void setVbaProject(IVbaProject value)
 public final IHyperlinkQueries getHyperlinkQueries()
 ```
 
-Παρέχει εύκολη πρόσβαση σε όλα τα υπερσυνδέσμους που περιέχονται σε όλες τις διαφάνειες της παρουσίασης (όχι στις κύριες, διατάξεις, σημειώσεις). Μόνο για ανάγνωση [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
+Παρέχει εύκολη πρόσβαση σε όλες τις υπερσυνδέσεις που περιέχονται σε όλες τις διαφάνειες της παρουσίασης (όχι σε master, layout, notes slides). Μόνο για ανάγνωση [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
 
 **Επιστρέφει:**
 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)
@@ -1138,7 +1133,7 @@ public final IHyperlinkQueries getHyperlinkQueries()
 public final IViewProperties getViewProperties()
 ```
 
-Ανακτά τις καθολικές ιδιότητες προβολής της παρουσίασης. Μόνο για ανάγνωση [IViewProperties](../../com.aspose.slides/iviewproperties).
+Λαμβάνει τις ιδιότητες προβολής για ολόκληρη την παρουσίαση. Μόνο για ανάγνωση [IViewProperties](../../com.aspose.slides/iviewproperties).
 
 **Επιστρέφει:**
 [IViewProperties](../../com.aspose.slides/iviewproperties)
@@ -1147,7 +1142,7 @@ public final IViewProperties getViewProperties()
 public final int getFirstSlideNumber()
 ```
 
-Αντιπροσωπεύει τον αριθμό της πρώτης διαφάνειας στην παρουσίαση
+Αναπαριστά τον αριθμό της πρώτης διαφάνειας στην παρουσίαση
 
 **Επιστρέφει:**
 int
@@ -1156,7 +1151,7 @@ int
 public final void setFirstSlideNumber(int value)
 ```
 
-Αντιπροσωπεύει τον αριθμό της πρώτης διαφάνειας στην παρουσίαση
+Αναπαριστά τον αριθμό της πρώτης διαφάνειας στην παρουσίαση
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
@@ -1168,7 +1163,7 @@ public final void setFirstSlideNumber(int value)
 public final ISensitivityLabelCollection getSensitivityLabels()
 ```
 
-Επιστρέφει τη συλλογή των ετικετών ευαισθησίας που εφαρμόζονται στο έγγραφο της παρουσίασης. Μόνο για ανάγνωση [ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection).
+Επιστρέφει τη συλλογή των ετικετών ευαισθησίας που εφαρμόζονται στο έγγραφο παρουσίασης. Μόνο για ανάγνωση [ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection).
 
 --------------------
 
@@ -1177,13 +1172,13 @@ public final ISensitivityLabelCollection getSensitivityLabels()
 >  try {
 >      ISensitivityLabelCollection sensitivityLabels = pres.getSensitivityLabels();
 > 
->      // Εκτυπώστε τις εφαρμοσμένες ετικέτες
+>      // Print the applied labels
 >      for (ISensitivityLabel sensitivityLabel : sensitivityLabels)
 >          System.out.println("Label Id " + sensitivityLabel.getId() + " from Azure AD site " + sensitivityLabel.getSiteId());
 > 
->      // Προσθέστε τη νέα ετικέτα
->      String labelIdString = "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"; // Λάβετε το Id της ετικέτας ευαισθησίας από την πολιτική
->      UUID siteIdGuid = UUID.fromString("{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"); // Λάβετε το αναγνωριστικό της τοποθεσίας Azure AD από την πολιτική
+>      // Add the new label
+>      String labelIdString = "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"; // Get the sensitivity label Id from the policy
+>      UUID siteIdGuid = UUID.fromString("{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"); // Get the Azure AD site identifier from the policy
 >      ISensitivityLabel label = sensitivityLabels.add(labelIdString, siteIdGuid, true, SensitivityLabelAssignmentType.Privileged);
 >      label.getContentMarkTypes().addItem(SensitivityLabelContentType.Footer);
 > 
@@ -1193,7 +1188,6 @@ public final ISensitivityLabelCollection getSensitivityLabels()
 >  }
 > ```
 
-
 **Επιστρέφει:**
 [ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection)
 ### getSlideById(long id) {#getSlideById-long-}
@@ -1201,7 +1195,7 @@ public final ISensitivityLabelCollection getSensitivityLabels()
 public final IBaseSlide getSlideById(long id)
 ```
 
-Επιστρέφει ένα Slide, MasterSlide ή LayoutSlide με το Id.
+Επιστρέφει ένα Slide, MasterSlide ή LayoutSlide βάσει Id.
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
@@ -1209,7 +1203,7 @@ public final IBaseSlide getSlideById(long id)
 | id | long | Id μιας διαφάνειας. |
 
 **Επιστρέφει:**
-[IBaseSlide](../../com.aspose.slides/ibaseslide) - IBaseSlide αντικείμενο.
+[IBaseSlide](../../com.aspose.slides/ibaseslide) - IBaseSlide object.
 ### getSourceFormat() {#getSourceFormat--}
 ```
 public final int getSourceFormat()
@@ -1231,7 +1225,7 @@ public final IMasterTheme getMasterTheme()
 > ```
 > The following examples shows how to change a theme effect by altering parts of elements of PowerPoint Presentation.
 >  
->  //Δημιουργεί αντικείμενο παρουσίασης που αντιπροσωπεύει ένα αρχείο παρουσίασης
+>  //Δημιουργία αντικειμένου παρουσίασης που αντιπροσωπεύει ένα αρχείο παρουσίασης
 >  Presentation pres = new Presentation("Subtle_Moderate_Intense.pptx");
 >  try {
 >      pres.getMasterTheme().getFormatScheme().getLineStyles().get_Item(0).getFillFormat().getSolidFillColor().setColor(Color.RED);
@@ -1254,7 +1248,7 @@ public final IMasterTheme getMasterTheme()
 public final void save(String fname, int format)
 ```
 
-Αποθηκεύει όλες τις διαφάνειες μιας παρουσίασης σε αρχείο με το καθορισμένο μορφότυπο.
+Αποθηκεύει όλες τις διαφάνειες της παρουσίασης σε αρχείο με την καθορισμένη μορφή.
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
@@ -1267,7 +1261,7 @@ public final void save(String fname, int format)
 public final void save(OutputStream stream, int format)
 ```
 
-Αποθηκεύει όλες τις διαφάνειες μιας παρουσίασης σε ροή με το καθορισμένο μορφότυπο.
+Αποθηκεύει όλες τις διαφάνειες της παρουσίασης σε ροή με την καθορισμένη μορφή.
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
@@ -1280,35 +1274,35 @@ public final void save(OutputStream stream, int format)
 public final void save(String fname, int format, ISaveOptions options)
 ```
 
-Αποθηκεύει όλες τις διαφάνειες μιας παρουσίασης σε αρχείο με το καθορισμένο μορφότυπο και με πρόσθετες επιλογές.
+Αποθηκεύει όλες τις διαφάνειες της παρουσίασης σε αρχείο με την καθορισμένη μορφή και με επιπλέον επιλογές.
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | fname | java.lang.String | Διαδρομή προς το δημιουργημένο αρχείο. |
 | format | int | Μορφή των εξαγόμενων δεδομένων. |
-| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Πρόσθετες επιλογές μορφοτύπου. |
+| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Πρόσθετες επιλογές μορφοποίησης. |
 
 ### save(OutputStream stream, int format, ISaveOptions options) {#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-}
 ```
 public final void save(OutputStream stream, int format, ISaveOptions options)
 ```
 
-Αποθηκεύει όλες τις διαφάνειες μιας παρουσίασης σε ροή με το καθορισμένο μορφότυπο και με πρόσθετες επιλογές.
+Αποθηκεύει όλες τις διαφάνειες της παρουσίασης σε ροή με την καθορισμένη μορφή και με επιπλέον επιλογές.
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | stream | java.io.OutputStream | Ροή εξόδου. |
 | format | int | Μορφή των εξαγόμενων δεδομένων. |
-| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Πρόσθετες επιλογές μορφοτύπου. |
+| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Πρόσθετες επιλογές μορφοποίησης. |
 
 ### save(IXamlOptions options) {#save-com.aspose.slides.IXamlOptions-}
 ```
 public final void save(IXamlOptions options)
 ```
 
-Αποθηκεύει όλες τις διαφάνειες μιας παρουσίασης σε σύνολο αρχείων που αντιπροσωπεύουν την επισήμανση XAML.
+Αποθηκεύει όλες τις διαφάνειες της παρουσίασης σε σύνολο αρχείων που αντιπροσωπεύουν σήμανση XAML.
 
 --------------------
 
@@ -1327,14 +1321,14 @@ public final void save(IXamlOptions options)
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| options | [IXamlOptions](../../com.aspose.slides/ixamloptions) | Οι επιλογές μορφότυπου XAML. |
+| options | [IXamlOptions](../../com.aspose.slides/ixamloptions) | Οι επιλογές μορφής XAML. |
 
 ### getImages(IRenderingOptions options) {#getImages-com.aspose.slides.IRenderingOptions-}
 ```
 public final IImage[] getImages(IRenderingOptions options)
 ```
 
-Επιστρέφει αντικείμενα Image για όλες τις διαφάνειες μιας παρουσίασης.
+Επιστρέφει αντικείμενα Image για όλες τις διαφάνειες της παρουσίασης.
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
@@ -1342,61 +1336,61 @@ public final IImage[] getImages(IRenderingOptions options)
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Επιλογές Tiff. |
 
 **Επιστρέφει:**
-com.aspose.slides.IImage[] - Αντικείμενα Image.
+com.aspose.slides.IImage[] - Αντικείμενα εικόνας.
 ### getImages(IRenderingOptions options, int[] slides) {#getImages-com.aspose.slides.IRenderingOptions-int---}
 ```
 public final IImage[] getImages(IRenderingOptions options, int[] slides)
 ```
 
-Επιστρέφει αντικείμενα Thumbnail Image για τις καθορισμένες διαφάνειες μιας παρουσίασης.
+Επιστρέφει αντικείμενα TinyImage για τις καθορισμένες διαφάνειες της παρουσίασης.
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Επιλογές Tiff. |
-| slides | int[] | Πίνακας με θέσεις διαφανειών, ξεκινώντας από 1. |
+| slides | int[] | Πίνακας με θέσεις διαφάνειας, ξεκινώντας από το 1. |
 
 **Επιστρέφει:**
-com.aspose.slides.IImage[] - Αντικείμενα Image.
+com.aspose.slides.IImage[] - Αντικείμενα εικόνας.
 ### getImages(IRenderingOptions options, float scaleX, float scaleY) {#getImages-com.aspose.slides.IRenderingOptions-float-float-}
 ```
 public final IImage[] getImages(IRenderingOptions options, float scaleX, float scaleY)
 ```
 
-Επιστρέφει αντικείμενα Thumbnail Image για όλες τις διαφάνειες μιας παρουσίασης με προσαρμοσμένη κλίμακα.
+Επιστρέφει αντικείμενα TinyImage για όλες τις διαφάνειες της παρουσίασης με προσαρμοσμένο κλιμάκωμα.
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Επιλογές Tiff. |
-| scaleX | float | Η τιμή με την οποία κλιμακώνεται το Thumbnail κατά τον άξονα x. |
-| scaleY | float | Η τιμή με την οποία κλιμακώνεται το Thumbnail κατά τον άξονα y. |
+| scaleX | float | Η τιμή με την οποία κλιμακώνεται αυτό το TinyImage στον άξονα x. |
+| scaleY | float | Η τιμή με την οποία κλιμακώνεται αυτό το TinyImage στον άξονα y. |
 
 **Επιστρέφει:**
-com.aspose.slides.IImage[] - Αντικείμενα Image.
+com.aspose.slides.IImage[] - Αντικείμενα εικόνας.
 ### getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY) {#getImages-com.aspose.slides.IRenderingOptions-int---float-float-}
 ```
 public final IImage[] getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)
 ```
 
-Επιστρέφει αντικείμενα Thumbnail Image για τις καθορισμένες διαφάνειες μιας παρουσίασης με προσαρμοσμένη κλίμακα.
+Επιστρέφει αντικείμενα TinyImage για τις καθορισμένες διαφάνειες της παρουσίασης με προσαρμοσμένο κλιμάκωμα.
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Επιλογές Tiff. |
-| slides | int[] | Πίνακας με θέσεις διαφανειών, ξεκινώντας από 1. |
-| scaleX | float | Η τιμή με την οποία κλιμακώνεται το Thumbnail κατά τον άξονα x. |
-| scaleY | float | Η τιμή με την οποία κλιμακώνεται το Thumbnail κατά τον άξονα y. |
+| slides | int[] | Πίνακας με θέσεις διαφάνειας, ξεκινώντας από το 1. |
+| scaleX | float | Η τιμή με την οποία κλιμακώνεται αυτό το TinyImage στον άξονα x. |
+| scaleY | float | Η τιμή με την οποία κλιμακώνεται αυτό το TinyImage στον άξονα y. |
 
 **Επιστρέφει:**
-com.aspose.slides.IImage[] - Αντικείμενα Image.
+com.aspose.slides.IImage[] - Αντικείμενα εικόνας.
 ### getImages(IRenderingOptions options, Dimension imageSize) {#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-}
 ```
 public final IImage[] getImages(IRenderingOptions options, Dimension imageSize)
 ```
 
-Επιστρέφει αντικείμενα Thumbnail Image για όλες τις διαφάνειες μιας παρουσίασης με καθορισμένο μέγεθος.
+Επιστρέφει αντικείμενα TinyImage για όλες τις διαφάνειες της παρουσίασης με καθορισμένο μέγεθος.
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
@@ -1405,35 +1399,35 @@ public final IImage[] getImages(IRenderingOptions options, Dimension imageSize)
 | imageSize | java.awt.Dimension | Μέγεθος της εικόνας που θα δημιουργηθεί. |
 
 **Επιστρέφει:**
-com.aspose.slides.IImage[] - Αντικείμενα Image.
+com.aspose.slides.IImage[] - Αντικείμενα εικόνας.
 ### getImages(IRenderingOptions options, int[] slides, Dimension imageSize) {#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-}
 ```
 public final IImage[] getImages(IRenderingOptions options, int[] slides, Dimension imageSize)
 ```
 
-Επιστρέφει αντικείμενα Thumbnail Image για τις καθορισμένες διαφάνειες μιας παρουσίασης με καθορισμένο μέγεθος.
+Επιστρέφει αντικείμενα TinyImage για τις καθορισμένες διαφάνειες της παρουσίασης με καθορισμένο μέγεθος.
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Επιλογές Tiff. |
-| slides | int[] | Πίνακας με θέσεις διαφανειών, ξεκινώντας από 1. |
+| slides | int[] | Πίνακας με θέσεις διαφάνειας, ξεκινώντας από το 1. |
 | imageSize | java.awt.Dimension | Μέγεθος της εικόνας που θα δημιουργηθεί. |
 
 **Επιστρέφει:**
-com.aspose.slides.IImage[] - Αντικείμενα Image.
+com.aspose.slides.IImage[] - Αντικείμενα εικόνας.
 ### save(String fname, int[] slides, int format) {#save-java.lang.String-int---int-}
 ```
 public final void save(String fname, int[] slides, int format)
 ```
 
-Αποθηκεύει τις καθορισμένες διαφάνειες μιας παρουσίασης σε αρχείο με το καθορισμένο μορφότυπο, διατηρώντας τον αριθμό σελίδας.
+Αποθηκεύει τις καθορισμένες διαφάνειες της παρουσίασης σε αρχείο με την καθορισμένη μορφή, διατηρώντας τον αριθμό σελίδας.
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | fname | java.lang.String | Διαδρομή προς το δημιουργημένο αρχείο. |
-| slides | int[] | Πίνακας με θέσεις διαφανειών, ξεκινώντας από 1. |
+| slides | int[] | Πίνακας με θέσεις διαφάνειας, ξεκινώντας από το 1. |
 | format | int | Μορφή των εξαγόμενων δεδομένων. |
 
 ### save(String fname, int[] slides, int format, ISaveOptions options) {#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-}
@@ -1441,28 +1435,28 @@ public final void save(String fname, int[] slides, int format)
 public final void save(String fname, int[] slides, int format, ISaveOptions options)
 ```
 
-Αποθηκεύει τις καθορισμένες διαφάνειες μιας παρουσίασης σε αρχείο με το καθορισμένο μορφότυπο, διατηρώντας τον αριθμό σελίδας.
+Αποθηκεύει τις καθορισμένες διαφάνειες της παρουσίασης σε αρχείο με την καθορισμένη μορφή, διατηρώντας τον αριθμό σελίδας.
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | fname | java.lang.String | Διαδρομή προς το δημιουργημένο αρχείο. |
-| slides | int[] | Πίνακας με θέσεις διαφανειών, ξεκινώντας από 1. |
+| slides | int[] | Πίνακας με θέσεις διαφάνειας, ξεκινώντας από το 1. |
 | format | int | Μορφή των εξαγόμενων δεδομένων. |
-| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Πρόσθετες επιλογές μορφοτύπου. |
+| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Πρόσθετες επιλογές μορφοποίησης. |
 
 ### save(OutputStream stream, int[] slides, int format) {#save-java.io.OutputStream-int---int-}
 ```
 public final void save(OutputStream stream, int[] slides, int format)
 ```
 
-Αποθηκεύει τις καθορισμένες διαφάνειες μιας παρουσίασης σε ροή με το καθορισμένο μορφότυπο, διατηρώντας τον αριθμό σελίδας.
+Αποθηκεύει τις καθορισμένες διαφάνειες της παρουσίασης σε ροή με την καθορισμένη μορφή, διατηρώντας τον αριθμό σελίδας.
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | stream | java.io.OutputStream | Ροή εξόδου. |
-| slides | int[] | Πίνακας με θέσεις διαφανειών, ξεκινώντας από 1. |
+| slides | int[] | Πίνακας με θέσεις διαφάνειας, ξεκινώντας από το 1. |
 | format | int | Μορφή των εξαγόμενων δεδομένων. |
 
 ### save(OutputStream stream, int[] slides, int format, ISaveOptions options) {#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-}
@@ -1470,7 +1464,7 @@ public final void save(OutputStream stream, int[] slides, int format)
 public final void save(OutputStream stream, int[] slides, int format, ISaveOptions options)
 ```
 
-Αποθηκεύει τις καθορισμένες διαφάνειες μιας παρουσίασης σε ροή με το καθορισμένο μορφότυπο, διατηρώντας τον αριθμό σελίδας.
+Αποθηκεύει τις καθορισμένες διαφάνειες της παρουσίασης σε ροή με την καθορισμένη μορφή, διατηρώντας τον αριθμό σελίδας.
 
 --------------------
 
@@ -1523,16 +1517,16 @@ public final void save(OutputStream stream, int[] slides, int format, ISaveOptio
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | stream | java.io.OutputStream | Ροή εξόδου. |
-| slides | int[] | Πίνακας με θέσεις διαφανειών, ξεκινώντας από 1. |
+| slides | int[] | Πίνακας με θέσεις διαφάνειας, ξεκινώντας από το 1. |
 | format | int | Μορφή των εξαγόμενων δεδομένων. |
-| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Πρόσθετες επιλογές μορφοτύπου. |
+| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Πρόσθετες επιλογές μορφοποίησης. |
 
 ### joinPortionsWithSameFormatting() {#joinPortionsWithSameFormatting--}
 ```
 public final void joinPortionsWithSameFormatting()
 ```
 
-Συνδυάζει τα runs με την ίδια μορφοποίηση σε όλα τα παραγράφους σε όλα τα αποδεκτά σχήματα σε όλες τις διαφάνειες.
+Συνενώνει τμήματα με την ίδια μορφοποίηση σε όλες τις παραγράφους σε όλα τα αποδεκτά σχήματα σε όλες τις διαφάνειες.
 
 ### dispose() {#dispose--}
 ```
@@ -1555,7 +1549,7 @@ public final IPresentation getPresentation()
 public final void highlightText(String text, Color highlightColor)
 ```
 
-Επισημαίνει όλες τις αντιστοιχίες του δείγματος κειμένου με το καθορισμένο χρώμα.
+Τονίζει όλα τα αντίστοιχα δείγματα κειμένου με το καθορισμένο χρώμα.
 
 --------------------
 
@@ -1564,7 +1558,7 @@ public final void highlightText(String text, Color highlightColor)
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
->      // Επισημαίνοντας όλες τις ξεχωριστές εμφανίσεις του 'the'
+>      // επισήμανση όλων των ξεχωριστών εμφανίσεων του 'the'
 >      presentation.highlightText("the", Color.MAGENTA);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -1577,14 +1571,14 @@ public final void highlightText(String text, Color highlightColor)
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | text | java.lang.String | Το κείμενο προς επισήμανση. |
-| highlightColor | java.awt.Color | Το χρώμα για επισήμανση του κειμένου. |
+| highlightColor | java.awt.Color | Το χρώμα για την επισήμανση του κειμένου. |
 
 ### highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
 public final void highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
-Επισημαίνει όλες τις αντιστοιχίες του δείγματος κειμένου με το καθορισμένο χρώμα.
+Τονίζει όλα τα αντίστοιχα δείγματα κειμένου με το καθορισμένο χρώμα.
 
 --------------------
 
@@ -1595,7 +1589,7 @@ public final void highlightText(String text, Color highlightColor, ITextSearchOp
 >  try {
 >      TextSearchOptions textSearchOptions = new TextSearchOptions();
 >      textSearchOptions.setWholeWordsOnly(true);
->      // επισημαίνοντας όλες τις ξεχωριστές εμφανίσεις του 'the'
+>      // επισήμανση όλων των ξεχωριστών εμφανίσεων του 'the'
 >      presentation.highlightText("the", Color.MAGENTA, textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -1608,26 +1602,26 @@ public final void highlightText(String text, Color highlightColor, ITextSearchOp
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | text | java.lang.String | Το κείμενο προς επισήμανση. |
-| highlightColor | java.awt.Color | Το χρώμα για επισήμανση του κειμένου. |
+| highlightColor | java.awt.Color | Το χρώμα για την επισήμανση του κειμένου. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Επιλογές αναζήτησης κειμένου [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Το αντικείμενο επανάκλησης για λήψη αποτελεσμάτων αναζήτησης [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Το αντικείμενο callback για τη λήψη αποτελεσμάτων αναζήτησης [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback) {#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-}
 ```
 public final void highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)
 ```
 
-Επισημαίνει όλες τις αντιστοιχίες της κανονικής έκφρασης με το καθορισμένο χρώμα.
+Τονίζει όλα τα αντίστοιχα ταιριάσματα της κανονικής έκφρασης με το καθορισμένο χρώμα.
 
 --------------------
 
 > ```
-> The following code sample shows how to highlight text in a PowerPoint Presentation using a regular expression.
+> Ο παρακάτω κώδικας δείχνει πώς να επισημάνετε κείμενο σε μια παρουσίαση PowerPoint χρησιμοποιώντας κανονική έκφραση.
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      Pattern regex = Pattern.compile("\\b[^\\s]{10,}\\b");
->      // επισημαίνοντας όλες τις λέξεις με 10 ή περισσότερους χαρακτήρες
+>      // επισήμανση όλων των λέξεων με 10 ή περισσότερα σύμβολα
 >      presentation.highlightRegex(regex, Color.BLUE, null);
 >      presentation.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -1639,15 +1633,15 @@ public final void highlightRegex(Pattern regex, Color highlightColor, IFindResul
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | Η κανονική έκφραση java.util.regex.Pattern για λήψη συμβολοσειρών προς επισήμανση. |
-| highlightColor | java.awt.Color | Το χρώμα για επισήμανση του κειμένου. |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Το αντικείμενο επανάκλησης για λήψη αποτελεσμάτων αναζήτησης [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+
+| regex | java.util.regex.Pattern | Η κανονική έκφραση java.util.regex.Pattern για την απόσπαση των συμβολοσειρών προς επισήμανση. |
+| highlightColor | java.awt.Color | Το χρώμα για την επισήμανση του κειμένου. |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Το αντικείμενο callback για τη λήψη αποτελεσμάτων αναζήτησης [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback) {#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
 public final void replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)
 ```
-
 
 Αντικαθιστά όλες τις εμφανίσεις του καθορισμένου κειμένου με άλλο καθορισμένο κείμενο.
 
@@ -1660,7 +1654,7 @@ public final void replaceText(String oldText, String newText, ITextSearchOptions
 >  try {
 >      TextSearchOptions textSearchOptions = new TextSearchOptions();
 >      textSearchOptions.setWholeWordsOnly(true);
->      // Replace all separate 'the' occurrences with '***'
+>      // Αντικατάσταση όλων των ξεχωριστών εμφανίσεων του 'the' με '***'
 >      presentation.replaceText("the", "***", textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -1668,11 +1662,12 @@ public final void replaceText(String oldText, String newText, ITextSearchOptions
 >  }
 > ```
 
+
 **Παράμετροι:**
-| Παράμετρος | Τύπος | Περιγραφή |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| oldText | java.lang.String | Το κείμενο που θα αντικατασταθεί. |
-| newText | java.lang.String | Το κείμενο που αντικαθιστά όλες τις εμφανίσεις του oldText. |
+| oldText | java.lang.String | Η συμβολοσειρά που θα αντικατασταθεί. |
+| newText | java.lang.String | Η συμβολοσειρά που αντικαθιστά όλες τις εμφανίσεις του oldText. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Επιλογές αναζήτησης κειμένου [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Το αντικείμενο callback για τη λήψη αποτελεσμάτων αναζήτησης [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
@@ -1681,8 +1676,7 @@ public final void replaceText(String oldText, String newText, ITextSearchOptions
 public final void replaceRegex(Pattern regex, String newText, IFindResultCallback callback)
 ```
 
-
-Αντικαθιστά όλες τις αντιστοιχίες της κανονικής έκφρασης με το καθορισμένο κείμενο.
+Αντικαθιστά όλες τις αντιστοιχίες της κανονικής έκφρασης με την καθορισμένη συμβολοσειρά.
 
 --------------------
 
@@ -1691,7 +1685,7 @@ public final void replaceRegex(Pattern regex, String newText, IFindResultCallbac
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      Pattern regex = Pattern.compile("\\b[^\\s]{10,}\\b");
->      // Αντικαταστήστε όλες τις λέξεις με 10 ή περισσότερους χαρακτήρες με '***'
+>      // Αντικατάσταση όλων των λέξεων με 10 ή περισσότερα σύμβολα με '***'
 >      presentation.replaceRegex(regex, "***", null);
 >      presentation.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -1701,8 +1695,53 @@ public final void replaceRegex(Pattern regex, String newText, IFindResultCallbac
 
 
 **Παράμετροι:**
-| Παράμετρος | Τύπος | Περιγραφή |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | Η κανονική έκφραση java.util.regex.Pattern για λήψη συμβολοσειρών προς αντικατάσταση. |
-| newText | java.lang.String | Το κείμενο που αντικαθιστά όλες τις εμφανίσεις των συμβολοσειρών που θα αντικατασταθούν. |
+| regex | java.util.regex.Pattern | Η κανονική έκφραση java.util.regex.Pattern για την απόσπαση των συμβολοσειρών προς αντικατάσταση. |
+| newText | java.lang.String | Η συμβολοσειρά που αντικαθιστά όλες τις εμφανίσεις των συμβολοσειρών που θα αντικατασταθούν. |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Το αντικείμενο callback για τη λήψη αποτελεσμάτων αναζήτησης [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+
+### refreshChartsData() {#refreshChartsData--}
+```
+public final void refreshChartsData()
+```
+
+Επαναφορτώνει τα δεδομένα για όλα τα διαγράμματα στην παρουσίαση από τα πηγαία βιβλία εργασίας τους.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("PresentationWithCharts.pptx");
+>  try {
+>      presentation.refreshChartsData();
+>      presentation.save("PresentationWithCharts-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+
+### refreshChartsData(boolean skipFailedCharts) {#refreshChartsData-boolean-}
+```
+public final void refreshChartsData(boolean skipFailedCharts)
+```
+
+Επαναφορτώνει τα δεδομένα για όλα τα διαγράμματα στην παρουσίαση από τα πηγαία βιβλία εργασίας τους.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("PresentationWithCharts.pptx");
+>  try {
+>      presentation.refreshChartsData();
+>      presentation.save("PresentationWithCharts-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+
+**Παράμετροι:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| skipFailedCharts | boolean | Καθορίζει αν η διαδικασία ανανέωσης συνεχίζεται εάν ένα διάγραμμα αποτύχει να ενημερωθεί. Εάν είναι true, τα διαγράμματα που προκαλούν εξαίρεση παραλείπονται· διαφορετικά η εξαίρεση προωθείται. |

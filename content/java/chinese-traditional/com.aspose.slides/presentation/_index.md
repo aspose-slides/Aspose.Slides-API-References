@@ -1,20 +1,20 @@
 ---
 title: Presentation
 second_title: Aspose.Slides for Java API 參考
-description: 表示 Microsoft PowerPoint 簡報。
+description: 代表 Microsoft PowerPoint 簡報。
 type: docs
 url: /zh-hant/com.aspose.slides/presentation/
 ---
 **繼承：**
 java.lang.Object
 
-**所有已實作的介面：**
+**全部已實作的介面：**
 [com.aspose.slides.IPresentation](../../com.aspose.slides/ipresentation), com.aspose.slides.IDOMObject
 ```
 public final class Presentation implements IPresentation, IDOMObject
 ```
 
-表示 Microsoft PowerPoint 簡報。
+代表 Microsoft PowerPoint 簡報。
 
 --------------------
 
@@ -26,7 +26,7 @@ public final class Presentation implements IPresentation, IDOMObject
 >  try {
 >      // 取得第一張投影片
 >      ISlide slide = pres.getSlides().get_Item(0);
->      // 新增一個線條類型的自動形狀
+>      // 新增一個類型為線條的自動形狀
 >      slide.getShapes().addAutoShape(ShapeType.Line, 50, 150, 300, 0);
 >      // 儲存簡報檔案。
 >      pres.save("NewPresentation_out.pptx", SaveFormat.Pptx);
@@ -36,7 +36,7 @@ public final class Presentation implements IPresentation, IDOMObject
 >   
 >   The following example shows how to open and save Presentation.
 >   
->  // 載入 Presentation 中的任何支援檔案，例如 ppt、pptx、odp 等。
+>  // 載入任何支援的檔案到 Presentation，例如 ppt、pptx、odp 等。
 >  Presentation pres = new Presentation("Sample.odp");
 >  try {
 >      // 儲存簡報檔案。
@@ -46,102 +46,106 @@ public final class Presentation implements IPresentation, IDOMObject
 >  }
 > ```
 
-## 建構函式
+## 建構子
 
-| 建構函式 | 說明 |
+| 建構子 | 說明 |
 | --- | --- |
-| [Presentation()](#Presentation--) | 此建構函式從頭開始建立新簡報。 |
-| [Presentation(LoadOptions loadOptions)](#Presentation-com.aspose.slides.LoadOptions-) | 此建構函式從頭開始建立新簡報。 |
-| [Presentation(InputStream stream)](#Presentation-java.io.InputStream-) | 此建構函式是讀取現有 Presentation 的主要機制。 |
-| [Presentation(InputStream stream, LoadOptions loadOptions)](#Presentation-java.io.InputStream-com.aspose.slides.LoadOptions-) | 此建構函式是讀取現有 Presentation 的主要機制。 |
-| [Presentation(String file)](#Presentation-java.lang.String-) | 此建構函式取得簡報內容的來源檔案路徑。 |
-| [Presentation(String file, LoadOptions loadOptions)](#Presentation-java.lang.String-com.aspose.slides.LoadOptions-) | 此建構函式取得簡報內容的來源檔案路徑。 |
+| [Presentation()](#Presentation--) | 此建構子從頭建立新的簡報。 |
+| [Presentation(LoadOptions loadOptions)](#Presentation-com.aspose.slides.LoadOptions-) | 此建構子從頭建立新的簡報。 |
+| [Presentation(InputStream stream)](#Presentation-java.io.InputStream-) | 此建構子是讀取現有 Presentation 的主要機制。 |
+| [Presentation(InputStream stream, LoadOptions loadOptions)](#Presentation-java.io.InputStream-com.aspose.slides.LoadOptions-) | 此建構子是讀取現有 Presentation 的主要機制。 |
+| [Presentation(String file)](#Presentation-java.lang.String-) | 此建構子取得來源檔案路徑，從中讀取 Presentation 的內容。 |
+| [Presentation(String file, LoadOptions loadOptions)](#Presentation-java.lang.String-com.aspose.slides.LoadOptions-) | 此建構子取得來源檔案路徑，從中讀取 Presentation 的內容。 |
+
 ## 方法
 
 | 方法 | 說明 |
 | --- | --- |
-| [getCurrentDateTime()](#getCurrentDateTime--) | 返回或設定將取代日期時間欄位內容的日期和時間。 |
-| [setCurrentDateTime(Date value)](#setCurrentDateTime-java.util.Date-) | 返回或設定將取代日期時間欄位內容的日期和時間。 |
+| [getCurrentDateTime()](#getCurrentDateTime--) | 傳回或設定日期時間，以取代 datetime 欄位的內容。 |
+| [setCurrentDateTime(Date value)](#setCurrentDateTime-java.util.Date-) | 傳回或設定日期時間，以取代 datetime 欄位的內容。 |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-| [getHeaderFooterManager()](#getHeaderFooterManager--) | 返回實際的 HeaderFooter 管理器。 |
-| [getProtectionManager()](#getProtectionManager--) | 取得此簡報的權限管理員。 |
-| [getSlides()](#getSlides--) | 返回簡報中定義的所有投影片清單。 |
-| [getSections()](#getSections--) | 返回簡報中定義的所有投影片分段清單。 |
-| [getSlideSize()](#getSlideSize--) | 返回投影片尺寸物件。 |
-| [getNotesSize()](#getNotesSize--) | 返回備註投影片尺寸物件。 |
-| [getLayoutSlides()](#getLayoutSlides--) | 返回簡報中定義的所有版面配置投影片清單。 |
-| [getMasters()](#getMasters--) | 返回簡報中定義的所有母片清單。 |
-| [getMasterNotesSlideManager()](#getMasterNotesSlideManager--) | 返回備註母片管理員。 |
-| [getMasterHandoutSlideManager()](#getMasterHandoutSlideManager--) | 返回講義母片管理員。 |
-| [getFontsManager()](#getFontsManager--) | 返回字型管理員。 |
-| [getDefaultTextStyle()](#getDefaultTextStyle--) | 返回形狀的預設文字樣式。 |
-| [getCommentAuthors()](#getCommentAuthors--) | 返回評論作者的集合。 |
-| [getDocumentProperties()](#getDocumentProperties--) | 返回 DocumentProperties 物件，其中包含標準與自訂文件屬性。 |
-| [getImages()](#getImages--) | 返回簡報中所有影像的集合。 |
-| [getAudios()](#getAudios--) | 返回簡報中所有嵌入式音訊檔案的集合。 |
-| [getVideos()](#getVideos--) | 返回簡報中所有嵌入式影片檔案的集合。 |
-| [getSlideShowSettings()](#getSlideShowSettings--) | 返回簡報的投影片放映設定。 |
-| [getDigitalSignatures()](#getDigitalSignatures--) | 返回用於簽署簡報的簽名集合。 |
-| [getCustomData()](#getCustomData--) | 返回簡報的自訂資料。 |
-| [getAllCustomXmlParts()](#getAllCustomXmlParts--) | 返回簡報中所有自訂資料部件。 |
+| [getHeaderFooterManager()](#getHeaderFooterManager--) | 傳回實際的 HeaderFooter 管理器。 |
+| [getProtectionManager()](#getProtectionManager--) | 取得此簡報的權限管理器。 |
+| [getSlides()](#getSlides--) | 傳回此簡報中定義的所有投影片的清單。 |
+| [getSections()](#getSections--) | 傳回此簡報中定義的所有投影片區段的清單。 |
+| [getSlideSize()](#getSlideSize--) | 傳回投影片大小物件。 |
+| [getNotesSize()](#getNotesSize--) | 傳回註解投影片大小物件。 |
+| [getLayoutSlides()](#getLayoutSlides--) | 傳回此簡報中定義的所有佈局投影片的清單。 |
+| [getMasters()](#getMasters--) | 傳回此簡報中定義的所有母片投影片的清單。 |
+| [getMasterNotesSlideManager()](#getMasterNotesSlideManager--) | 傳回註解母片管理器。 |
+| [getMasterHandoutSlideManager()](#getMasterHandoutSlideManager--) | 傳回講義母片管理器。 |
+| [getFontsManager()](#getFontsManager--) | 傳回字型管理器。 |
+| [getDefaultTextStyle()](#getDefaultTextStyle--) | 傳回圖形的預設文字樣式。 |
+| [getCommentAuthors()](#getCommentAuthors--) | 傳回評論作者的集合。 |
+| [getDocumentProperties()](#getDocumentProperties--) | 傳回 DocumentProperties 物件，其中包含標準與自訂的文件屬性。 |
+| [getImages()](#getImages--) | 傳回簡報中所有影像的集合。 |
+| [getAudios()](#getAudios--) | 傳回簡報中所有內嵌音訊檔案的集合。 |
+| [getVideos()](#getVideos--) | 傳回簡報中所有內嵌影片檔案的集合。 |
+| [getSlideShowSettings()](#getSlideShowSettings--) | 傳回簡報的投影片播放設定。 |
+| [getDigitalSignatures()](#getDigitalSignatures--) | 傳回用於簽署簡報的簽名集合。 |
+| [getCustomData()](#getCustomData--) | 傳回簡報的自訂資料。 |
+| [getAllCustomXmlParts()](#getAllCustomXmlParts--) | 傳回簡報中所有自訂資料部分。 |
 | [getVbaProject()](#getVbaProject--) | 取得或設定包含簡報巨集的 VBA 專案。 |
 | [setVbaProject(IVbaProject value)](#setVbaProject-com.aspose.slides.IVbaProject-) | 取得或設定包含簡報巨集的 VBA 專案。 |
-| [getHyperlinkQueries()](#getHyperlinkQueries--) | 提供對所有簡報投影片（不含母片、版面配置、備註投影片）中超連結的便捷存取。 |
-| [getViewProperties()](#getViewProperties--) | 取得簡報範圍的檢視屬性。 |
+| [getHyperlinkQueries()](#getHyperlinkQueries--) | 提供對所有簡報投影片（不含母片、佈局與註解投影片）中超連結的便利存取。 |
+| [getViewProperties()](#getViewProperties--) | 取得簡報整體的視圖屬性。 |
 | [getFirstSlideNumber()](#getFirstSlideNumber--) | 代表簡報中的第一張投影片編號 |
 | [setFirstSlideNumber(int value)](#setFirstSlideNumber-int-) | 代表簡報中的第一張投影片編號 |
-| [getSensitivityLabels()](#getSensitivityLabels--) | 返回套用於簡報文件的敏感度標籤集合。 |
-| [getSlideById(long id)](#getSlideById-long-) | 依 Id 返回投影片、母片或版面配置投影片。 |
-| [getSourceFormat()](#getSourceFormat--) | 返回簡報載入之檔案格式的資訊。 |
-| [getMasterTheme()](#getMasterTheme--) | 返回母版佈景主題。 |
-| [save(String fname, int format)](#save-java.lang.String-int-) | 將簡報的所有投影片儲存至指定格式的檔案。 |
-| [save(OutputStream stream, int format)](#save-java.io.OutputStream-int-) | 將簡報的所有投影片以指定格式儲存至資料流。 |
-| [save(String fname, int format, ISaveOptions options)](#save-java.lang.String-int-com.aspose.slides.ISaveOptions-) | 將簡報的所有投影片儲存至指定格式的檔案，並使用其他選項。 |
-| [save(OutputStream stream, int format, ISaveOptions options)](#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-) | 將簡報的所有投影片以指定格式儲存至資料流，並使用其他選項。 |
-| [save(IXamlOptions options)](#save-com.aspose.slides.IXamlOptions-) | 將簡報的所有投影片儲存為一組表示 XAML 標記的檔案。 |
-| [getImages(IRenderingOptions options)](#getImages-com.aspose.slides.IRenderingOptions-) | 返回簡報所有投影片的 Image 物件。 |
-| [getImages(IRenderingOptions options, int[] slides)](#getImages-com.aspose.slides.IRenderingOptions-int---) | 返回簡報中指定投影片的縮圖 Image 物件。 |
-| [getImages(IRenderingOptions options, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-float-float-) | 返回簡報中所有投影片的縮圖 Image 物件，使用自訂縮放。 |
-| [getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-int---float-float-) | 返回指定投影片的縮圖 Image 物件，使用自訂縮放。 |
-| [getImages(IRenderingOptions options, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-) | 返回簡報中所有投影片的縮圖 Image 物件，使用指定大小。 |
-| [getImages(IRenderingOptions options, int[] slides, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-) | 返回指定投影片的縮圖 Image 物件，使用指定大小。 |
-| [save(String fname, int[] slides, int format)](#save-java.lang.String-int---int-) | 將簡報中指定的投影片以保留頁碼的方式儲存至指定格式的檔案。 |
-| [save(String fname, int[] slides, int format, ISaveOptions options)](#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-) | 將簡報中指定的投影片以保留頁碼的方式儲存至指定格式的檔案。 |
-| [save(OutputStream stream, int[] slides, int format)](#save-java.io.OutputStream-int---int-) | 將簡報中指定的投影片以保留頁碼的方式儲存至指定格式的資料流。 |
-| [save(OutputStream stream, int[] slides, int format, ISaveOptions options)](#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-) | 將簡報中指定的投影片以保留頁碼的方式儲存至指定格式的資料流。 |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | 合併所有投影片中所有可接受形狀的段落裡具有相同格式的 runs。 |
+| [getSensitivityLabels()](#getSensitivityLabels--) | 傳回套用於簡報文件的敏感度標籤集合。 |
+| [getSlideById(long id)](#getSlideById-long-) | 依 Id 傳回 Slide、MasterSlide 或 LayoutSlide。 |
+| [getSourceFormat()](#getSourceFormat--) | 傳回簡報載入的來源格式資訊。 |
+| [getMasterTheme()](#getMasterTheme--) | 傳回母片主題。 |
+| [save(String fname, int format)](#save-java.lang.String-int-) | 將簡報的所有投影片儲存為指定格式的檔案。 |
+| [save(OutputStream stream, int format)](#save-java.io.OutputStream-int-) | 將簡報的所有投影片以指定格式儲存至串流。 |
+| [save(String fname, int format, ISaveOptions options)](#save-java.lang.String-int-com.aspose.slides.ISaveOptions-) | 將簡報的所有投影片以指定格式與額外選項儲存為檔案。 |
+| [save(OutputStream stream, int format, ISaveOptions options)](#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-) | 將簡報的所有投影片以指定格式與額外選項儲存至串流。 |
+| [save(IXamlOptions options)](#save-com.aspose.slides.IXamlOptions-) | 將簡報的所有投影片儲存為代表 XAML 標記的一組檔案。 |
+| [getImages(IRenderingOptions options)](#getImages-com.aspose.slides.IRenderingOptions-) | 傳回簡報中所有投影片的 Image 物件。 |
+| [getImages(IRenderingOptions options, int[] slides)](#getImages-com.aspose.slides.IRenderingOptions-int---) | 傳回指定投影片的縮圖 Image 物件。 |
+| [getImages(IRenderingOptions options, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-float-float-) | 傳回所有投影片的縮圖 Image 物件，使用自訂縮放。 |
+| [getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-int---float-float-) | 傳回指定投影片的縮圖 Image 物件，使用自訂縮放。 |
+| [getImages(IRenderingOptions options, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-) | 傳回所有投影片的縮圖 Image 物件，使用指定大小。 |
+| [getImages(IRenderingOptions options, int[] slides, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-) | 傳回指定投影片的縮圖 Image 物件，使用指定大小。 |
+| [save(String fname, int[] slides, int format)](#save-java.lang.String-int---int-) | 將指定的投影片以指定格式儲存為檔案，保留頁碼。 |
+| [save(String fname, int[] slides, int format, ISaveOptions options)](#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-) | 將指定的投影片以指定格式與儲存選項儲存為檔案，保留頁碼。 |
+| [save(OutputStream stream, int[] slides, int format)](#save-java.io.OutputStream-int---int-) | 將指定的投影片以指定格式儲存至串流，保留頁碼。 |
+| [save(OutputStream stream, int[] slides, int format, ISaveOptions options)](#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-) | 將指定的投影片以指定格式與儲存選項儲存至串流，保留頁碼。 |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | 在所有投影片的所有可接受圖形內的所有段落中合併具有相同格式的文字跑。 |
 | [dispose()](#dispose--) | 釋放此 Presentation 物件使用的所有資源。 |
-| [getPresentation()](#getPresentation--) | 返回文字的父簡報。 |
-| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | 以指定顏色突出顯示所有樣本文本的匹配項目。 |
-| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | 以指定顏色突出顯示所有樣本文本的匹配項目。 |
-| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | 以指定顏色突出顯示正規表示式的所有匹配項目。 |
-| [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | 將所有指定文字的出現處替換為另一個指定文字。 |
-| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | 將正規表示式的所有匹配項目替換為指定字串。 |
+| [getPresentation()](#getPresentation--) | 傳回文字的父簡報。 |
+| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | 以指定顏色突顯所有符合樣本文本的匹配項。 |
+| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | 以指定顏色突顯所有符合樣本文本的匹配項。 |
+| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | 以指定顏色突顯正規表達式的所有匹配項。 |
+| [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | 將指定文字的所有出現替換為另一指定文字。 |
+| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | 將正規表達式的所有匹配項替換為指定字串。 |
+| [refreshChartsData()](#refreshChartsData--) | 從來源活頁簿重新載入簡報中所有圖表的資料。 |
+| [refreshChartsData(boolean skipFailedCharts)](#refreshChartsData-boolean-) | 從來源活頁簿重新載入簡報中所有圖表的資料。 |
+
 ### Presentation() {#Presentation--}
 ```
 public Presentation()
 ```
 
-此建構函式從頭開始建立新簡報。建立的簡報包含一張空白投影片。
+此建構子從頭建立新的簡報。建立的簡報具有一個空白投影片。
 
 ### Presentation(LoadOptions loadOptions) {#Presentation-com.aspose.slides.LoadOptions-}
 ```
 public Presentation(LoadOptions loadOptions)
 ```
 
-此建構函式從頭開始建立新簡報。建立的簡報包含一張空白投影片。
+此建構子從頭建立新的簡報。建立的簡報具有一個空白投影片。
 
 **參數：**
-| 參數 | 類型 | 說明 |
+| 參數 | 型別 | 說明 |
 | --- | --- | --- |
-| loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) | 額外的載入選項。 |
+| loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) | 其他載入選項。 |
 
 ### Presentation(InputStream stream) {#Presentation-java.io.InputStream-}
 ```
 public Presentation(InputStream stream)
 ```
 
-此建構函式是讀取現有 Presentation 的主要機制。
+此建構子是讀取現有 Presentation 的主要機制。
 
 --------------------
 
@@ -153,29 +157,29 @@ public Presentation(InputStream stream)
 
 
 **參數：**
-| 參數 | 類型 | 說明 |
+| 參數 | 型別 | 說明 |
 | --- | --- | --- |
-| stream | java.io.InputStream | 輸入資料流。 |
+| stream | java.io.InputStream | 輸入串流。 |
 
 ### Presentation(InputStream stream, LoadOptions loadOptions) {#Presentation-java.io.InputStream-com.aspose.slides.LoadOptions-}
 ```
 public Presentation(InputStream stream, LoadOptions loadOptions)
 ```
 
-此建構函式是讀取現有 Presentation 的主要機制。
+此建構子是讀取現有 Presentation 的主要機制。
 
 **參數：**
-| 參數 | 類型 | 說明 |
+| 參數 | 型別 | 說明 |
 | --- | --- | --- |
-| stream | java.io.InputStream | 輸入資料流。 |
-| loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) | 額外的載入選項。 |
+| stream | java.io.InputStream | 輸入串流。 |
+| loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) | 其他載入選項。 |
 
 ### Presentation(String file) {#Presentation-java.lang.String-}
 ```
 public Presentation(String file)
 ```
 
-此建構函式取得簡報內容的來源檔案路徑。
+此建構子取得來源檔案路徑，從中讀取 Presentation 的內容。
 
 --------------------
 
@@ -185,7 +189,7 @@ public Presentation(String file)
 
 
 **參數：**
-| 參數 | 類型 | 說明 |
+| 參數 | 型別 | 說明 |
 | --- | --- | --- |
 | file | java.lang.String | 輸入檔案。 |
 
@@ -194,22 +198,22 @@ public Presentation(String file)
 public Presentation(String file, LoadOptions loadOptions)
 ```
 
-此建構函式取得簡報內容的來源檔案路徑。
+此建構子取得來源檔案路徑，從中讀取 Presentation 的內容。
 
 **參數：**
-| 參數 | 類型 | 說明 |
+| 參數 | 型別 | 說明 |
 | --- | --- | --- |
 | file | java.lang.String | 輸入檔案。 |
-| loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) | 額外的載入選項。 |
+| loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) | 其他載入選項。 |
 
 ### getCurrentDateTime() {#getCurrentDateTime--}
 ```
 public final Date getCurrentDateTime()
 ```
 
-返回或設定將取代日期時間欄位內容的日期和時間。預設為此 Presentation 物件建立的時間。讀/寫 java.util.Date。
+傳回或設定日期時間，以取代 datetime 欄位的內容。預設為此 Presentation 物件建立的時間。可讀寫 java.util.Date。
 
-**返回：**
+**傳回值：**
 java.util.Date
 
 ### setCurrentDateTime(Date value) {#setCurrentDateTime-java.util.Date-}
@@ -217,10 +221,10 @@ java.util.Date
 public final void setCurrentDateTime(Date value)
 ```
 
-返回或設定將取代日期時間欄位內容的日期和時間。預設為此 Presentation 物件建立的時間。讀/寫 java.util.Date。
+傳回或設定日期時間，以取代 datetime 欄位的內容。預設為此 Presentation 物件建立的時間。可讀寫 java.util.Date。
 
 **參數：**
-| 參數 | 類型 | 說明 |
+| 參數 | 型別 | 說明 |
 | --- | --- | --- |
 | value | java.util.Date |  |
 
@@ -229,9 +233,9 @@ public final void setCurrentDateTime(Date value)
 public final IDOMObject getParent_Immediate()
 ```
 
-返回 Parent_Immediate 物件。唯讀 IDOMObject。
+傳回 Parent_Immediate 物件。唯讀 IDOMObject。
 
-**返回：**
+**傳回值：**
 com.aspose.slides.IDOMObject
 
 ### getHeaderFooterManager() {#getHeaderFooterManager--}
@@ -239,7 +243,7 @@ com.aspose.slides.IDOMObject
 public final IPresentationHeaderFooterManager getHeaderFooterManager()
 ```
 
-返回實際的 HeaderFooter 管理器。唯讀 [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager)。
+傳回實際的 HeaderFooter 管理器。唯讀 [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager)。
 
 --------------------
 
@@ -250,20 +254,20 @@ public final IPresentationHeaderFooterManager getHeaderFooterManager()
 >  try
 >  {
 >      IBaseSlideHeaderFooterManager headerFooterManager = pres.getSlides().get_Item(0).getHeaderFooterManager();
->      if (!headerFooterManager.isFooterVisible()) // Property IsFooterVisible is used for indicating that a slide footer placeholder is not present.
+>      if (!headerFooterManager.isFooterVisible()) // Property IsFooterVisible 用於指示投影片頁腳佔位符不存在。
 >      {
->          headerFooterManager.setFooterVisibility(true); // Method SetFooterVisibility is used for making a slide footer placeholder visible.
+>          headerFooterManager.setFooterVisibility(true); // Method SetFooterVisibility 用於使投影片頁腳佔位符可見。
 >      }
->      if (!headerFooterManager.isSlideNumberVisible()) // Property IsSlideNumberVisible is used for indicating that a slide page number placeholder is not present.
+>      if (!headerFooterManager.isSlideNumberVisible()) // Property IsSlideNumberVisible 用於指示投影片頁碼佔位符不存在。
 >      {
->          headerFooterManager.setSlideNumberVisibility(true); // Method SetSlideNumberVisibility is used for making a slide page number placeholder visible.
+>          headerFooterManager.setSlideNumberVisibility(true); // Method SetSlideNumberVisibility 用於使投影片頁碼佔位符可見。
 >      }
->      if (!headerFooterManager.isDateTimeVisible()) // Property IsDateTimeVisible is used for indicating that a slide date-time placeholder is not present.
+>      if (!headerFooterManager.isDateTimeVisible()) // Property IsDateTimeVisible 用於指示投影片日期時間佔位符不存在。
 >      {
->          headerFooterManager.setDateTimeVisibility(true); // Method SetFooterVisibility is used for making a slide date-time placeholder visible.
+>          headerFooterManager.setDateTimeVisibility(true); // Method SetFooterVisibility 用於使投影片日期時間佔位符可見。
 >      }
->      headerFooterManager.setFooterText("Footer text"); // Method SetFooterText is used for setting text to slide footer placeholder.
->      headerFooterManager.setDateTimeText("Date and time text"); // Method SetDateTimeText is used for setting text to slide date-time placeholder.
+>      headerFooterManager.setFooterText("Footer text"); // Method SetFooterText 用於設定投影片頁腳佔位符的文字。
+>      headerFooterManager.setDateTimeText("Date and time text"); // Method SetDateTimeText 用於設定投影片日期時間佔位符的文字。
 >      pres.save("Presentation.ppt", SaveFormat.Ppt);
 >  }
 >  finally
@@ -277,12 +281,12 @@ public final IPresentationHeaderFooterManager getHeaderFooterManager()
 >  try
 >  {
 >      IMasterSlideHeaderFooterManager headerFooterManager = pres.getMasters().get_Item(0).getHeaderFooterManager();
->      headerFooterManager.setFooterAndChildFootersVisibility(true); // Method SetFooterAndChildFootersVisibility is used for making a master slide and all child footer placeholders visible.
->      headerFooterManager.setSlideNumberAndChildSlideNumbersVisibility(true); // Method SetSlideNumberAndChildSlideNumbersVisibility is used for making a master slide and all child page number placeholders visible.
->      headerFooterManager.setDateTimeAndChildDateTimesVisibility(true); // Method SetDateTimeAndChildDateTimesVisibility is used for making a master slide and all child date-time placeholders visible.
+>      headerFooterManager.setFooterAndChildFootersVisibility(true); // Method SetFooterAndChildFootersVisibility 用於使母片及所有子頁腳佔位符可見。
+>      headerFooterManager.setSlideNumberAndChildSlideNumbersVisibility(true); // Method SetSlideNumberAndChildSlideNumbersVisibility 用於使母片及所有子頁碼佔位符可見。
+>      headerFooterManager.setDateTimeAndChildDateTimesVisibility(true); // Method SetDateTimeAndChildDateTimesVisibility 用於使母片及所有子日期時間佔位符可見。
 > 
->      headerFooterManager.setFooterAndChildFootersText("Footer text"); // Method SetFooterAndChildFootersText is used for setting text to master slide and all child footer placeholders.
->      headerFooterManager.setDateTimeAndChildDateTimesText("Date and time text"); // Method SetDateTimeAndChildDateTimesText is used for setting text to master slide and all child date-time placeholders.
+>      headerFooterManager.setFooterAndChildFootersText("Footer text"); // Method SetFooterAndChildFootersText 用於設定母片及所有子頁腳佔位符的文字。
+>      headerFooterManager.setDateTimeAndChildDateTimesText("Date and time text"); // Method SetDateTimeAndChildDateTimesText 用於設定母片及所有子日期時間佔位符的文字。
 >  }
 >  finally
 >  {
@@ -290,7 +294,8 @@ public final IPresentationHeaderFooterManager getHeaderFooterManager()
 >  }
 > ```
 
-**返回：**
+
+**傳回值：**
 [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager)
 
 ### getProtectionManager() {#getProtectionManager--}
@@ -298,9 +303,9 @@ public final IPresentationHeaderFooterManager getHeaderFooterManager()
 public final IProtectionManager getProtectionManager()
 ```
 
-取得此簡報的權限管理員。唯讀 [IProtectionManager](../../com.aspose.slides/iprotectionmanager)。
+取得此簡報的權限管理器。唯讀 [IProtectionManager](../../com.aspose.slides/iprotectionmanager)。
 
-**返回：**
+**傳回值：**
 [IProtectionManager](../../com.aspose.slides/iprotectionmanager)
 
 ### getSlides() {#getSlides--}
@@ -308,18 +313,18 @@ public final IProtectionManager getProtectionManager()
 public final ISlideCollection getSlides()
 ```
 
-返回簡報中定義的所有投影片清單。唯讀 [ISlideCollection](../../com.aspose.slides/islidecollection)。
+傳回此簡報中定義的所有投影片的清單。唯讀 [ISlideCollection](../../com.aspose.slides/islidecollection)。
 
 --------------------
 
 > ```
 > The following example shows how to set slides' background color of PowerPoint Presentation.
 >  
->  // Instantiate the Presentation class that represents the presentation file
+>  // 實例化代表簡報檔案的 Presentation 類別
 >  Presentation pres = new Presentation();
 >  try
 >  {
->      // Set the background color of the first ISlide to Blue
+>      // 將第一張 ISlide 的背景顏色設為藍色
 >      pres.getSlides().get_Item(0).getBackground().setType(BackgroundType.OwnBackground);
 >      pres.getSlides().get_Item(0).getBackground().getFillFormat().setFillType(FillType.Solid);
 >      pres.getSlides().get_Item(0).getBackground().getFillFormat().getSolidFillColor().setColor(Color.BLUE);
@@ -332,19 +337,19 @@ public final ISlideCollection getSlides()
 >  
 >  The following example shows how to set slides' background image of PowerPoint Presentation.
 >  
->  // Instantiate the Presentation class that represents the presentation file
+>  // 實例化代表簡報檔案的 Presentation 類別
 >  Presentation pres = new Presentation("SetImageAsBackground.pptx");
 >  try {
->      // Set the background with Image
+>      // 使用影像設定背景
 >      pres.getSlides().get_Item(0).getBackground().setType(BackgroundType.OwnBackground);
 >      pres.getSlides().get_Item(0).getBackground().getFillFormat().setFillType(FillType.Picture);
 >      pres.getSlides().get_Item(0).getBackground().getFillFormat().getPictureFillFormat().setPictureFillMode(PictureFillMode.Stretch);
->      // Set the picture
+>      // 設定圖片
 >      BufferedImage img = ImageIO.read(new File("Tulips.jpg"));
->      // Add image to presentation's images collection
+>      // 將影像加入簡報的影像集合
 >      IPPImage imgx = pres.getImages().addImage(img);
 >      pres.getSlides().get_Item(0).getBackground().getFillFormat().getPictureFillFormat().getPicture().setImage(imgx);
->      // Write the presentation to disk
+>      // 將簡報寫入磁碟
 >      pres.save("ContentBG_Img_out.pptx", SaveFormat.Pptx);
 >  } catch (IOException e) { }
 >  finally
@@ -354,15 +359,15 @@ public final ISlideCollection getSlides()
 >  
 >  The following example shows how to add slide transition Presentation.
 >  
->  // Instantiate Presentation class to load the source presentation file
+>  // 實例化 Presentation 類別以載入來源簡報檔案
 >  Presentation pres = new Presentation("AccessSlides.pptx");
 >  try
 >  {
->      // Apply circle type transition on slide 1
+>      // 在第 1 張投影片套用 circle 類型的轉場效果
 >      pres.getSlides().get_Item(0).getSlideShowTransition().setType(TransitionType.Circle);
->      // Apply comb type transition on slide 2
+>      // 在第 2 張投影片套用 comb 類型的轉場效果
 >      pres.getSlides().get_Item(1).getSlideShowTransition().setType(TransitionType.Comb);
->      // Write the presentation to disk
+>      // 將簡報寫入磁碟
 >      pres.save("SampleTransition_out.pptx", SaveFormat.Pptx);
 >  }
 >  finally
@@ -372,26 +377,26 @@ public final ISlideCollection getSlides()
 >  
 >  The following example shows how to add advanced slide Transition.
 >  
->  // Instantiate Presentation class that represents a presentation file
+>  // 實例化代表簡報檔案的 Presentation 類別
 >  Presentation pres = new Presentation("BetterSlideTransitions.pptx");
 >  try
 >  {
->      // Apply circle type transition on slide 1
+>      // 在第 1 張投影片套用 circle 類型的轉場效果
 >      pres.getSlides().get_Item(0).getSlideShowTransition().setType(TransitionType.Circle);
->      // Set the transition time of 3 seconds
+>      // 設定 3 秒的轉場時間
 >      pres.getSlides().get_Item(0).getSlideShowTransition().setAdvanceOnClick(true);
 >      pres.getSlides().get_Item(0).getSlideShowTransition().setAdvanceAfterTime(3000);
->      // Apply comb type transition on slide 2
+>      // 在第 2 張投影片套用 comb 類型的轉場效果
 >      pres.getSlides().get_Item(1).getSlideShowTransition().setType(TransitionType.Comb);
->      // Set the transition time of 5 seconds
+>      // 設定 5 秒的轉場時間
 >      pres.getSlides().get_Item(1).getSlideShowTransition().setAdvanceOnClick(true);
 >      pres.getSlides().get_Item(1).getSlideShowTransition().setAdvanceAfterTime(5000);
->      // Apply zoom type transition on slide 3
+>      // 在第 3 張投影片套用 zoom 類型的轉場效果
 >      pres.getSlides().get_Item(2).getSlideShowTransition().setType(TransitionType.Zoom);
->      // Set the transition time of 7 seconds
+>      // 設定 7 秒的轉場時間
 >      pres.getSlides().get_Item(2).getSlideShowTransition().setAdvanceOnClick(true);
 >      pres.getSlides().get_Item(2).getSlideShowTransition().setAdvanceAfterTime(7000);
->      // Write the presentation to disk
+>      // 將簡報寫入磁碟
 >      pres.save("SampleTransition_out.pptx", SaveFormat.Pptx);
 >  }
 >  finally
@@ -400,7 +405,8 @@ public final ISlideCollection getSlides()
 >  }
 > ```
 
-**返回：**
+
+**傳回值：**
 [ISlideCollection](../../com.aspose.slides/islidecollection)
 
 ### getSections() {#getSections--}
@@ -408,7 +414,7 @@ public final ISlideCollection getSlides()
 public final ISectionCollection getSections()
 ```
 
-返回簡報中定義的所有投影片分段清單。唯讀 [ISectionCollection](../../com.aspose.slides/isectioncollection)。
+傳回此簡報中定義的所有投影片區段的清單。唯讀 [ISectionCollection](../../com.aspose.slides/isectioncollection)。
 
 --------------------
 
@@ -423,7 +429,7 @@ public final ISectionCollection getSections()
 >      ISlide newSlide3 = pres.getSlides().addEmptySlide(pres.getLayoutSlides().get_Item(0));
 >      ISlide newSlide4 = pres.getSlides().addEmptySlide(pres.getLayoutSlides().get_Item(0));
 >      ISection section1 = pres.getSections().addSection("Section 1", newSlide1);
->      // section1 will be ended at newSlide2 and after it section2 will start
+>      // section1 會在 newSlide2 結束，之後會開始 section2
 >      ISection section2 = pres.getSections().addSection("Section 2", newSlide3);
 >      pres.save("pres-sections.pptx", SaveFormat.Pptx);
 >      pres.getSections().reorderSectionWithSlides(section2, 0);
@@ -446,7 +452,8 @@ public final ISectionCollection getSections()
 >  }
 > ```
 
-**返回：**
+
+**傳回值：**
 [ISectionCollection](../../com.aspose.slides/isectioncollection)
 
 ### getSlideSize() {#getSlideSize--}
@@ -454,7 +461,7 @@ public final ISectionCollection getSections()
 public final ISlideSize getSlideSize()
 ```
 
-返回投影片尺寸物件。唯讀 [ISlideSize](../../com.aspose.slides/islidesize)。
+傳回投影片大小物件。唯讀 [ISlideSize](../../com.aspose.slides/islidesize)。
 
 --------------------
 
@@ -477,9 +484,9 @@ public final ISlideSize getSlideSize()
 >      Presentation auxPresentation = new Presentation();
 >      try {
 >          ISlide slide = presentation.getSlides().get_Item(0);
->          // 設定生成簡報的投影片尺寸與來源相同
->          presentation.getSlideSize().setSize(540, 720, SlideSizeScaleType.EnsureFit); // 方法 SetSize 用於在縮放內容以確保適合時設定投影片尺寸
->          presentation.getSlideSize().setSize(SlideSizeType.A4Paper, SlideSizeScaleType.Maximize); // 方法 SetSize 用於在最大化內容大小時設定投影片尺寸
+>          // 設定產生的簡報之投影片大小與來源相同
+>          presentation.getSlideSize().setSize(540, 720, SlideSizeScaleType.EnsureFit); // Method SetSize 用於設定投影片大小，並以縮放內容確保適合
+>          presentation.getSlideSize().setSize(SlideSizeType.A4Paper, SlideSizeScaleType.Maximize); // Method SetSize 用於設定投影片大小，並以最大化內容大小
 >          // 將簡報儲存至磁碟
 >          auxPresentation.save("Set_Size&Type_out.pptx", SaveFormat.Pptx);
 >      } finally {
@@ -493,7 +500,7 @@ public final ISlideSize getSlideSize()
 >  
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
->      pres.getSlideSize().setSize(780, 540, SlideSizeScaleType.DoNotScale); // A4 紙張大小
+>      pres.getSlideSize().setSize(780, 540, SlideSizeScaleType.DoNotScale); // A4 紙張尺寸
 >      pres.save("pres-a4-slide-size.pptx", SaveFormat.Pptx);
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -501,7 +508,7 @@ public final ISlideSize getSlideSize()
 > ```
 
 
-**返回：**
+**傳回值：**
 [ISlideSize](../../com.aspose.slides/islidesize)
 
 ### getNotesSize() {#getNotesSize--}
@@ -509,9 +516,9 @@ public final ISlideSize getSlideSize()
 public final INotesSize getNotesSize()
 ```
 
-返回備註投影片尺寸物件。唯讀 [INotesSize](../../com.aspose.slides/inotessize)。
+傳回註解投影片大小物件。唯讀 [INotesSize](../../com.aspose.slides/inotessize)。
 
-**返回：**
+**傳回值：**
 [INotesSize](../../com.aspose.slides/inotessize)
 
 ### getLayoutSlides() {#getLayoutSlides--}
@@ -519,13 +526,13 @@ public final INotesSize getNotesSize()
 public final IGlobalLayoutSlideCollection getLayoutSlides()
 ```
 
-返回簡報中定義的所有版面配置投影片清單。唯讀 [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection)。
+傳回此簡報中定義的所有佈局投影片的清單。唯讀 [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection)。
 
 --------------------
 
-您可以透過使用 IMasterSlide.LayoutSlides 屬性存取替代 API，以新增/插入/移除/複製 版面配置投影片。
+您可以透過 IMasterSlide.LayoutSlides 屬性存取用於新增/插入/移除/複製佈局投影片的替代 API。
 
-**返回：**
+**傳回值：**
 [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection)
 
 ### getMasters() {#getMasters--}
@@ -533,7 +540,7 @@ public final IGlobalLayoutSlideCollection getLayoutSlides()
 public final IMasterSlideCollection getMasters()
 ```
 
-返回簡報中定義的所有母片清單。唯讀 [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection)。
+傳回此簡報中定義的所有母片投影片的清單。唯讀 [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection)。
 
 --------------------
 
@@ -554,15 +561,15 @@ public final IMasterSlideCollection getMasters()
 >  
 >  The following examples shows how to change the background color of the master slide of PowerPoint Presentation.
 >  
->  // Instantiate the Presentation class that represents the presentation file
+>  // 實例化代表簡報檔案的 Presentation 類別
 >  Presentation pres = new Presentation();
 >  try
 >  {
->      // Set the background color of the Master ISlide to Forest Green
+>      // 將母片 ISlide 的背景顏色設定為森林綠
 >      pres.getMasters().get_Item(0).getBackground().setType(BackgroundType.OwnBackground);
 >      pres.getMasters().get_Item(0).getBackground().getFillFormat().setFillType(FillType.Solid);
 >      pres.getMasters().get_Item(0).getBackground().getFillFormat().getSolidFillColor().setColor(Color.GREEN);
->      // Write the presentation to disk
+>      // 將簡報寫入磁碟
 >      pres.save("SetSlideBackgroundMaster_out.pptx", SaveFormat.Pptx);
 >  }
 >  finally
@@ -572,11 +579,11 @@ public final IMasterSlideCollection getMasters()
 >  
 >  The following examples shows how to add slide layout to PowerPoint Presentation.
 >  
->  // Instantiate Presentation class that represents the presentation file
+>  // 實例化代表簡報檔案的 Presentation 類別
 >  Presentation presentation = new Presentation("AccessSlides.pptx");
 >  try
 >  {
->      // Try to search by layout slide type
+>      // 嘗試依版面投影片類型搜尋
 >      IMasterLayoutSlideCollection layoutSlides = presentation.getMasters().get_Item(0).getLayoutSlides();
 >      ILayoutSlide layoutSlide = null;
 >      if (layoutSlides.getByType(SlideLayoutType.TitleAndObject) != null)
@@ -586,13 +593,13 @@ public final IMasterSlideCollection getMasters()
 > 
 >      if (layoutSlide == null)
 >      {
->          // The situation when a presentation doesn't contain some type of layouts.
->          // presentation File only contains Blank and Custom layout types.
->          // But layout slides with Custom types has different slide names,
->          // like "Title", "Title and Content", etc. And it is possible to use these
->          // names for layout slide selection.
->          // Also it is possible to use the set of placeholder shape types. For example,
->          // Title slide should have only Title pleceholder type, etc.
+>          // 當簡報不包含某些類型的版面時的情況。
+>          // 簡報檔案僅包含 Blank 和 Custom 版面類型。
+>          // 但是具有 Custom 類型的版面投影片有不同的投影片名稱，
+>          // 例如 "Title", "Title and Content", 等等，且可以使用這些
+>          // 名稱來選取版面投影片。
+>          // 也可以使用佔位形狀類型的集合。例如，
+>          // Title 投影片應僅有 Title 佔位類型，等等。
 >          for (ILayoutSlide titleAndObjectLayoutSlide : (Iterable) layoutSlides)
 >          {
 >              if ("Title and Object".equals(titleAndObjectLayoutSlide.getName()))
@@ -621,9 +628,9 @@ public final IMasterSlideCollection getMasters()
 >              }
 >          }
 >      }
->      // Adding empty slide with added layout slide
+>      // 使用新增的版面投影片插入空白投影片
 >      presentation.getSlides().insertEmptySlide(0, layoutSlide);
->      // Save presentation
+>      // 儲存簡報
 >      presentation.save("AddLayoutSlides_out.pptx", SaveFormat.Pptx);
 >  }
 >  finally
@@ -632,7 +639,8 @@ public final IMasterSlideCollection getMasters()
 >  }
 > ```
 
-**返回：**
+
+**傳回值：**
 [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection)
 
 ### getMasterNotesSlideManager() {#getMasterNotesSlideManager--}
@@ -640,9 +648,9 @@ public final IMasterSlideCollection getMasters()
 public final IMasterNotesSlideManager getMasterNotesSlideManager()
 ```
 
-返回備註母片管理員。唯讀 [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager)。
+傳回註解母片管理器。唯讀 [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager)。
 
-**返回：**
+**傳回值：**
 [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager)
 
 ### getMasterHandoutSlideManager() {#getMasterHandoutSlideManager--}
@@ -650,9 +658,9 @@ public final IMasterNotesSlideManager getMasterNotesSlideManager()
 public final IMasterHandoutSlideManager getMasterHandoutSlideManager()
 ```
 
-返回講義母片管理員。唯讀 [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager)。
+傳回講義母片管理器。唯讀 [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager)。
 
-**返回：**
+**傳回值：**
 [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager)
 
 ### getFontsManager() {#getFontsManager--}
@@ -660,17 +668,17 @@ public final IMasterHandoutSlideManager getMasterHandoutSlideManager()
 public final IFontsManager getFontsManager()
 ```
 
-返回字型管理員。唯讀 [IFontsManager](../../com.aspose.slides/ifontsmanager)。
+傳回字型管理器。唯讀 [IFontsManager](../../com.aspose.slides/ifontsmanager)。
 
 --------------------
 
 > ```
 > The following example shows how to add embedded fonts to PowerPoint Presentation.
 >  
->  // Load presentation
+>  // 載入簡報
 >  Presentation pres = new Presentation("Fonts.pptx");
 >  try {
->      // Load source font to be replaced
+>      // 載入要取代的來源字體
 >      IFontData sourceFont = new FontData("Arial");
 >      IFontData[] allFonts = pres.getFontsManager().getFonts();
 >      for (IFontData font : allFonts)
@@ -689,14 +697,15 @@ public final IFontsManager getFontsManager()
 >              pres.getFontsManager().addEmbeddedFont(font, EmbedFontCharacters.All);
 >          }
 >      }
->      // Save the presentation
+>      // 儲存簡報
 >      pres.save("AddEmbeddedFont_out.pptx", SaveFormat.Pptx);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
 > ```
 
-**返回：**
+
+**傳回值：**
 [IFontsManager](../../com.aspose.slides/ifontsmanager)
 
 ### getDefaultTextStyle() {#getDefaultTextStyle--}
@@ -704,9 +713,9 @@ public final IFontsManager getFontsManager()
 public final ITextStyle getDefaultTextStyle()
 ```
 
-返回形狀的預設文字樣式。唯讀 [ITextStyle](../../com.aspose.slides/itextstyle)。
+傳回圖形的預設文字樣式。唯讀 [ITextStyle](../../com.aspose.slides/itextstyle)。
 
-**返回：**
+**傳回值：**
 [ITextStyle](../../com.aspose.slides/itextstyle)
 
 ### getCommentAuthors() {#getCommentAuthors--}
@@ -714,9 +723,9 @@ public final ITextStyle getDefaultTextStyle()
 public final ICommentAuthorCollection getCommentAuthors()
 ```
 
-返回評論作者的集合。唯讀 [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection)。
+傳回評論作者的集合。唯讀 [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection)。
 
-**返回：**
+**傳回值：**
 [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection)
 
 ### getDocumentProperties() {#getDocumentProperties--}
@@ -724,9 +733,9 @@ public final ICommentAuthorCollection getCommentAuthors()
 public final IDocumentProperties getDocumentProperties()
 ```
 
-返回 DocumentProperties 物件，其中包含標準與自訂文件屬性。唯讀 [IDocumentProperties](../../com.aspose.slides/idocumentproperties)。
+傳回 DocumentProperties 物件，其中包含標準與自訂的文件屬性。唯讀 [IDocumentProperties](../../com.aspose.slides/idocumentproperties)。
 
-**返回：**
+**傳回值：**
 [IDocumentProperties](../../com.aspose.slides/idocumentproperties)
 
 ### getImages() {#getImages--}
@@ -734,27 +743,27 @@ public final IDocumentProperties getDocumentProperties()
 public final IImageCollection getImages()
 ```
 
-返回簡報中所有影像的集合。唯讀 [IImageCollection](../../com.aspose.slides/iimagecollection)。
+傳回簡報中所有影像的集合。唯讀 [IImageCollection](../../com.aspose.slides/iimagecollection)。
 
 --------------------
 
 > ```
 > The following examples shows how to add image as BLOB in PowerPoint Presentation.
 >  
->  // creates a new presentation to which the image will be added.
+>  // 建立一個新的簡報，將加入影像。
 >  Presentation pres = new Presentation();
 >  try
 >  {
->      // supposed we have the large image file we want to include into the presentation
+>      // 假設我們有想要包含在簡報中的大型影像檔案
 >      FileInputStream fip = new FileInputStream("large_image.jpg");
 >      try
 >      {
->          // Let's add the image to the presentation - we choose KeepLocked behavior because we do
->          // NOT intend to access the "largeImage.png" file.
+>          // 讓我們將影像加入簡報 - 我們選擇 KeepLocked 行為，因為我們
+>          // 不打算存取 "largeImage.png" 檔案。
 >          IPPImage img = pres.getImages().addImage(fip, LoadingStreamBehavior.KeepLocked);
 >          pres.getSlides().get_Item(0).getShapes().addPictureFrame(ShapeType.Rectangle, 0, 0, 300, 200, img);
->          // Saves the presentation. While a large presentation gets outputted, the memory consumption
->          // stays low through the pres object's lifecycle
+>          // 儲存簡報。即使輸出大型簡報，記憶體消耗
+>          // 在 pres 物件的生命週期中保持低水平。
 >          pres.save("presentationWithLargeImage.pptx", SaveFormat.Pptx);
 >      }
 >      finally
@@ -772,9 +781,9 @@ public final IImageCollection getImages()
 >  
 >  Presentation pres = new Presentation();
 >  try {
->      // Adds image to presentation
+>      // 將影像加入簡報
 >      IPPImage image = pres.getImages().addImage(Files.readAllBytes(Paths.get("image.png")));
->      // Creates picture frame on slide 1 based on previously added image
+>      // 在投影片 1 上根據先前加入的影像建立圖片框架
 >      IPictureFrame pictureFrame = pres.getSlides().get_Item(0).getShapes().addPictureFrame(ShapeType.Rectangle, 10, 10, 100, 100, image);
 >      pictureFrame.setHyperlinkClick(new Hyperlink("https://www.aspose.com/"));
 >      pictureFrame.getHyperlinkClick().setTooltip("More than 70% Fortune 100 companies trust Aspose APIs");
@@ -786,15 +795,15 @@ public final IImageCollection getImages()
 >  }
 > ```
 
-**返回：**
+
+**傳回值：**
 [IImageCollection](../../com.aspose.slides/iimagecollection)
 
 ### getAudios() {#getAudios--}
 ```
 public final IAudioCollection getAudios()
 ```
-
-返回簡報中所有嵌入式音訊檔案的集合。唯讀 [IAudioCollection](../../com.aspose.slides/iaudiocollection)。
+傳回簡報中所有內嵌音訊檔案的集合。唯讀 [IAudioCollection](../../com.aspose.slides/iaudiocollection)。
 
 --------------------
 
@@ -817,35 +826,36 @@ public final IAudioCollection getAudios()
 > ```
 
 
-**返回：**
+**傳回：**
 [IAudioCollection](../../com.aspose.slides/iaudiocollection)
-
 ### getVideos() {#getVideos--}
 ```
 public final IVideoCollection getVideos()
 ```
-傳回簡報中所有嵌入式影片檔案的集合。唯讀 [IVideoCollection](../../com.aspose.slides/ivideocollection)。
+
+
+傳回簡報中所有內嵌視訊檔案的集合。唯讀 [IVideoCollection](../../com.aspose.slides/ivideocollection)。
 
 --------------------
 
 > ```
 > The following examples shows how to create embedded Video Frame in a PowerPoint Presentation.
 >  
->  // Instantiate Presentation class that represents the PPTX
+>  // 實例化代表 PPTX 的 Presentation 類別
 >  Presentation pres = new Presentation();
 >  try {
->      // Get the first slide
+>      // 取得第一張投影片
 >      ISlide sld = pres.getSlides().get_Item(0);
->      // Embedd vide inside presentation
+>      // 在簡報內嵌入影片
 >      IVideo vid = pres.getVideos().addVideo(new FileInputStream("Wildlife.mp4"));
->      // Add Video Frame
+>      // 新增影片框架
 >      IVideoFrame vf = sld.getShapes().addVideoFrame(50, 150, 300, 350, vid);
->      // Set video to Video Frame
+>      // 設定影片至影片框架
 >      vf.setEmbeddedVideo(vid);
->      // Set Play Mode and Volume of the Video
+>      // 設定影片的播放模式與音量
 >      vf.setPlayMode(VideoPlayModePreset.Auto);
 >      vf.setVolume(AudioVolumeMode.Loud);
->      // Write the PPTX file to disk
+>      // 將 PPTX 檔寫入磁碟
 >      pres.save("VideoFrame_out.pptx", SaveFormat.Pptx);
 >  } catch(IOException e) {
 >  } finally {
@@ -864,17 +874,17 @@ public final IVideoCollection getVideos()
 >  
 >  The following examples shows how to add large file through BLOB to a Presentation.
 >  
->  // Creates a new presentation to which the video will be added
+>  // 建立一個新的簡報，將加入影片
 >  Presentation pres = new Presentation();
 >  try {
 >      FileInputStream fileStream = new FileInputStream("veryLargeVideo.avi");
 >      try {
->          // Let's add the video to the presentation - we chose the KeepLocked behavior because we do
->          //not intend to access the "veryLargeVideo.avi" file.
+>          // 讓我們將影片加入簡報 - 我們選擇 KeepLocked 行為，因為我們
+>          // 不打算存取 "veryLargeVideo.avi" 檔案。
 >          IVideo video = pres.getVideos().addVideo(fileStream, LoadingStreamBehavior.KeepLocked);
 >          pres.getSlides().get_Item(0).getShapes().addVideoFrame(0, 0, 480, 270, video);
->          // Saves the presentation. While a large presentation gets outputted, the memory consumption
->          // stays low through the pres object's lifecycle
+>          // 儲存簡報。即使輸出大型簡報，記憶體消耗
+>          // 在 pres 物件的生命週期中保持低水平。
 >          pres.save("presentationWithLargeVideo.pptx", SaveFormat.Pptx);
 >      } finally {
 >          if (fileStream != null) fileStream.close();
@@ -887,21 +897,21 @@ public final IVideoCollection getVideos()
 >  The following examples shows how to export large file through BLOB from PowerPoint Presentation.
 >  
 >  LoadOptions loadOptions = new LoadOptions();
->  // Locks the source file and does NOT load it into memory
+>  // 鎖定來源檔案且不將其載入記憶體
 >  loadOptions.getBlobManagementOptions().setPresentationLockingBehavior(PresentationLockingBehavior.KeepLocked);
->  // Creates a Presentation's instance, locks the "hugePresentationWithAudiosAndVideos.pptx" file.
+>  // 建立 Presentation 實例，並鎖定 "hugePresentationWithAudiosAndVideos.pptx" 檔案。
 >  Presentation pres = new Presentation("Large  Video File Test1.pptx", loadOptions);
 >  try {
->      // Let's save each video to a file. To prevent high memory usage, we need a buffer that will be used
->      // to transfer the data from the presentation's video stream to a stream for a newly created video file.
+>      // 讓我們將每個影片保存為檔案。為避免高記憶體使用，我們需要一個緩衝區，用於
+>      // 將簡報的影片串流資料傳輸至新建立的影片檔案的串流。
 >      byte[] buffer = new byte[81024];
 >      // Iterates through the videos
 >      for (int index = 0; index < pres.getVideos().size(); index++) {
 >          IVideo video = pres.getVideos().get_Item(index);
->          // Opens the presentation video stream. Please, note that we intentionally avoided accessing properties
->          // like video.BinaryData - because this property returns a byte array containing a full video, which then
->          // causes bytes to be loaded into memory. We use video.GetStream, which will return Stream - and does NOT
->          //  require us to load the whole video into the memory.
+>          // 開啟簡報的影片串流。請注意，我們刻意避免存取屬性
+>          // 如 video.BinaryData——因為此屬性會返回包含整個影片的位元組陣列，進而
+>          // 導致位元組被載入記憶體。我們使用 video.GetStream，它會返回 Stream，且不會
+>          // 需要我們將整個影片載入記憶體。
 >          InputStream presVideoStream = video.getStream();
 >          try {
 >              FileOutputStream outputFileStream = new FileOutputStream("video{index}.avi");
@@ -916,9 +926,9 @@ public final IVideoCollection getVideos()
 >          } finally {
 >              if (presVideoStream != null) presVideoStream.close();
 >          }
->          // Memory consumption will remain low regardless of the size of the video or presentation,
+>          // 記憶體消耗將保持低水平，無論影片或簡報的大小如何，
 >      }
->      // If necessary, you can apply the same steps for audio files.
+>      // 如有需要，您也可以對音訊檔案套用相同步驟。
 >  } catch(IOException e) {
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -981,7 +991,7 @@ public final IVideoCollection getVideos()
 >  
 >  The following examples shows how to extract Video from slide of PowerPoint Presentation.
 >  
->  // Instantiate a Presentation object that represents a presentation file
+>  // 實例化代表簡報檔案的 Presentation 物件
 >  Presentation presentation = new Presentation("Video.pptx");
 >  try {
 >      for (ISlide slide : presentation.getSlides())
@@ -1014,6 +1024,7 @@ public final IVideoCollection getVideos()
 >      if (presentation != null) presentation.dispose();
 >  }
 > ```
+
 
 **傳回：**
 [IVideoCollection](../../com.aspose.slides/ivideocollection)
@@ -1080,7 +1091,7 @@ public final ICustomXmlPart[] getAllCustomXmlParts()
 ```
 
 
-傳回簡報中所有自訂 XML 部分。唯讀 ICustomXmlPart[]。
+傳回簡報中所有自訂資料部件。唯讀 ICustomXmlPart[]。
 
 --------------------
 
@@ -1089,7 +1100,7 @@ public final ICustomXmlPart[] getAllCustomXmlParts()
 >  
 >  Presentation pres = new Presentation("PresentationWithCustomXml.pptx");
 >  try {
->      // Iterate all custom XML Parts
+>      // 迭代所有自訂 XML 部分
 >      for (ICustomXmlPart item : pres.getAllCustomXmlParts())
 >      {
 >          item.remove();
@@ -1102,6 +1113,7 @@ public final ICustomXmlPart[] getAllCustomXmlParts()
 >  }
 > ```
 
+
 **傳回：**
 com.aspose.slides.ICustomXmlPart[]
 ### getVbaProject() {#getVbaProject--}
@@ -1110,7 +1122,7 @@ public final IVbaProject getVbaProject()
 ```
 
 
-取得或設定含有簡報巨集的 VBA 專案。可讀寫 [IVbaProject](../../com.aspose.slides/ivbaproject)。
+取得或設定包含簡報巨集的 VBA 專案。讀寫 [IVbaProject](../../com.aspose.slides/ivbaproject)。
 
 **傳回：**
 [IVbaProject](../../com.aspose.slides/ivbaproject)
@@ -1120,7 +1132,7 @@ public final void setVbaProject(IVbaProject value)
 ```
 
 
-取得或設定含有簡報巨集的 VBA 專案。可讀寫 [IVbaProject](../../com.aspose.slides/ivbaproject)。
+取得或設定包含簡報巨集的 VBA 專案。讀寫 [IVbaProject](../../com.aspose.slides/ivbaproject)。
 
 **參數：**
 | 參數 | 類型 | 說明 |
@@ -1133,7 +1145,7 @@ public final IHyperlinkQueries getHyperlinkQueries()
 ```
 
 
-提供簡報所有投影片（不含母片、版面配置、備註投影片）內超連結的便捷存取。唯讀 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)。
+提供簡單的方式存取所有簡報投影片中包含的超連結（不包括母片、版面配置、備註投影片）。唯讀 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)。
 
 **傳回：**
 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)
@@ -1143,7 +1155,7 @@ public final IViewProperties getViewProperties()
 ```
 
 
-取得簡報範圍內的檢視屬性。唯讀 [IViewProperties](../../com.aspose.slides/iviewproperties)。
+取得簡報的全域檢視屬性。唯讀 [IViewProperties](../../com.aspose.slides/iviewproperties)。
 
 **傳回：**
 [IViewProperties](../../com.aspose.slides/iviewproperties)
@@ -1153,7 +1165,7 @@ public final int getFirstSlideNumber()
 ```
 
 
-表示簡報的第一張投影片編號
+表示簡報中的第一張投影片編號
 
 **傳回：**
 int
@@ -1163,7 +1175,7 @@ public final void setFirstSlideNumber(int value)
 ```
 
 
-表示簡報的第一張投影片編號
+表示簡報中的第一張投影片編號
 
 **參數：**
 | 參數 | 類型 | 說明 |
@@ -1189,9 +1201,9 @@ public final ISensitivityLabelCollection getSensitivityLabels()
 >      for (ISensitivityLabel sensitivityLabel : sensitivityLabels)
 >          System.out.println("Label Id " + sensitivityLabel.getId() + " from Azure AD site " + sensitivityLabel.getSiteId());
 > 
->      // 新增標籤
->      String labelIdString = "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"; // 從原則取得敏感度標籤 ID
->      UUID siteIdGuid = UUID.fromString("{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"); // 從原則取得 Azure AD 站台識別碼
+>      // 新增新標籤
+>      String labelIdString = "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"; // 從原則取得敏感度標籤 Id
+>      UUID siteIdGuid = UUID.fromString("{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"); // 從原則取得 Azure AD 站點識別碼
 >      ISensitivityLabel label = sensitivityLabels.add(labelIdString, siteIdGuid, true, SensitivityLabelAssignmentType.Privileged);
 >      label.getContentMarkTypes().addItem(SensitivityLabelContentType.Footer);
 > 
@@ -1210,7 +1222,7 @@ public final IBaseSlide getSlideById(long id)
 ```
 
 
-依 Id 傳回 Slide、MasterSlide 或 LayoutSlide。
+傳回依 Id 取得 Slide、MasterSlide 或 LayoutSlide。
 
 **參數：**
 | 參數 | 類型 | 說明 |
@@ -1225,7 +1237,7 @@ public final int getSourceFormat()
 ```
 
 
-傳回簡報載入時的來源格式資訊。唯讀 [SourceFormat](../../com.aspose.slides/sourceformat)。
+傳回簡報載入之來源格式資訊。唯讀 [SourceFormat](../../com.aspose.slides/sourceformat)。
 
 **傳回：**
 int
@@ -1235,7 +1247,7 @@ public final IMasterTheme getMasterTheme()
 ```
 
 
-傳回母版佈景主題。唯讀 [IMasterTheme](../../com.aspose.slides/imastertheme)。
+傳回母片主題。唯讀 [IMasterTheme](../../com.aspose.slides/imastertheme)。
 
 --------------------
 
@@ -1266,12 +1278,12 @@ public final void save(String fname, int format)
 ```
 
 
-將簡報的所有投影片保存為指定格式的檔案。
+將簡報的所有投影片以指定格式儲存至檔案。
 
 **參數：**
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
-| fname | java.lang.String | 要建立的檔案路徑。 |
+| fname | java.lang.String | 要建立之檔案的路徑。 |
 | format | int | 匯出資料的格式。 |
 
 ### save(OutputStream stream, int format) {#save-java.io.OutputStream-int-}
@@ -1280,7 +1292,7 @@ public final void save(OutputStream stream, int format)
 ```
 
 
-將簡報的所有投影片以指定格式保存至串流。
+將簡報的所有投影片以指定格式儲存至串流。
 
 **參數：**
 | 參數 | 類型 | 說明 |
@@ -1294,14 +1306,14 @@ public final void save(String fname, int format, ISaveOptions options)
 ```
 
 
-將簡報的所有投影片以指定格式與額外選項保存為檔案。
+將簡報的所有投影片以指定格式儲存至檔案，並使用其他選項。
 
 **參數：**
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
-| fname | java.lang.String | 要建立的檔案路徑。 |
+| fname | java.lang.String | 要建立之檔案的路徑。 |
 | format | int | 匯出資料的格式。 |
-| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | 額外的格式選項。 |
+| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | 其他格式選項。 |
 
 ### save(OutputStream stream, int format, ISaveOptions options) {#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-}
 ```
@@ -1309,14 +1321,14 @@ public final void save(OutputStream stream, int format, ISaveOptions options)
 ```
 
 
-將簡報的所有投影片以指定格式與額外選項保存至串流。
+將簡報的所有投影片以指定格式儲存至串流，並使用其他選項。
 
 **參數：**
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
 | stream | java.io.OutputStream | 輸出串流。 |
 | format | int | 匯出資料的格式。 |
-| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | 額外的格式選項。 |
+| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | 其他格式選項。 |
 
 ### save(IXamlOptions options) {#save-com.aspose.slides.IXamlOptions-}
 ```
@@ -1324,7 +1336,7 @@ public final void save(IXamlOptions options)
 ```
 
 
-將簡報的所有投影片保存為一組代表 XAML 標記的檔案。
+將簡報的所有投影片儲存為一組代表 XAML 標記的檔案。
 
 --------------------
 
@@ -1363,7 +1375,7 @@ public final IImage[] getImages(IRenderingOptions options)
 com.aspose.slides.IImage[] - Image 物件。
 ### getImages(IRenderingOptions options, int[] slides) {#getImages-com.aspose.slides.IRenderingOptions-int---}
 ```
-public final IImage[] getImages(IRenderingOptions options, int[] slides)
+public final IImage[] getImages(IRenderingOptions options)
 ```
 
 
@@ -1373,7 +1385,7 @@ public final IImage[] getImages(IRenderingOptions options, int[] slides)
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff 選項。 |
-| slides | int[] | 投影片位置陣列，從 1 開始。 |
+| slides | int[] | 投影片位置陣列，起始值為 1。 |
 
 **傳回：**
 com.aspose.slides.IImage[] - Image 物件。
@@ -1389,8 +1401,8 @@ public final IImage[] getImages(IRenderingOptions options, float scaleX, float s
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff 選項。 |
-| scaleX | float | 在 X 軸方向縮放此縮圖的數值。 |
-| scaleY | float | 在 Y 軸方向縮放此縮圖的數值。 |
+| scaleX | float | 縮圖在 X 軸方向的縮放值。 |
+| scaleY | float | 縮圖在 Y 軸方向的縮放值。 |
 
 **傳回：**
 com.aspose.slides.IImage[] - Image 物件。
@@ -1406,9 +1418,9 @@ public final IImage[] getImages(IRenderingOptions options, int[] slides, float s
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff 選項。 |
-| slides | int[] | 投影片位置陣列，從 1 開始。 |
-| scaleX | float | 在 X 軸方向縮放此縮圖的數值。 |
-| scaleY | float | 在 Y 軸方向縮放此縮圖的數值。 |
+| slides | int[] | 投影片位置陣列，起始值為 1。 |
+| scaleX | float | 縮圖在 X 軸方向的縮放值。 |
+| scaleY | float | 縮圖在 Y 軸方向的縮放值。 |
 
 **傳回：**
 com.aspose.slides.IImage[] - Image 物件。
@@ -1418,13 +1430,13 @@ public final IImage[] getImages(IRenderingOptions options, Dimension imageSize)
 ```
 
 
-傳回所有投影片的縮圖 Image 物件，指定圖像大小。
+傳回所有投影片的縮圖 Image 物件，使用指定大小。
 
 **參數：**
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff 選項。 |
-| imageSize | java.awt.Dimension | 要建立的圖像大小。 |
+| imageSize | java.awt.Dimension | 要建立之影像的大小。 |
 
 **傳回：**
 com.aspose.slides.IImage[] - Image 物件。
@@ -1434,14 +1446,14 @@ public final IImage[] getImages(IRenderingOptions options, int[] slides, Dimensi
 ```
 
 
-傳回指定投影片的縮圖 Image 物件，指定圖像大小。
+傳回指定投影片的縮圖 Image 物件，使用指定大小。
 
 **參數：**
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff 選項。 |
-| slides | int[] | 投影片位置陣列，從 1 開始。 |
-| imageSize | java.awt.Dimension | 要建立的圖像大小。 |
+| slides | int[] | 投影片位置陣列，起始值為 1。 |
+| imageSize | java.awt.Dimension | 要建立之影像的大小。 |
 
 **傳回：**
 com.aspose.slides.IImage[] - Image 物件。
@@ -1451,13 +1463,13 @@ public final void save(String fname, int[] slides, int format)
 ```
 
 
-將指定投影片保存為檔案，使用指定格式並保留頁碼。
+將指定投影片以指定格式儲存至檔案，並保留頁碼。
 
 **參數：**
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
-| fname | java.lang.String | 要建立的檔案路徑。 |
-| slides | int[] | 投影片位置陣列，從 1 開始。 |
+| fname | java.lang.String | 要建立之檔案的路徑。 |
+| slides | int[] | 投影片位置陣列，起始值為 1。 |
 | format | int | 匯出資料的格式。 |
 
 ### save(String fname, int[] slides, int format, ISaveOptions options) {#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-}
@@ -1466,15 +1478,15 @@ public final void save(String fname, int[] slides, int format, ISaveOptions opti
 ```
 
 
-將指定投影片保存為檔案，使用指定格式並保留頁碼。
+將指定投影片以指定格式儲存至檔案，並保留頁碼。
 
 **參數：**
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
-| fname | java.lang.String | 要建立的檔案路徑。 |
-| slides | int[] | 投影片位置陣列，從 1 開始。 |
+| fname | java.lang.String | 要建立之檔案的路徑。 |
+| slides | int[] | 投影片位置陣列，起始值為 1。 |
 | format | int | 匯出資料的格式。 |
-| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | 額外的格式選項。 |
+| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | 其他格式選項。 |
 
 ### save(OutputStream stream, int[] slides, int format) {#save-java.io.OutputStream-int---int-}
 ```
@@ -1482,13 +1494,13 @@ public final void save(OutputStream stream, int[] slides, int format)
 ```
 
 
-將指定投影片以指定格式保存至串流，並保留頁碼。
+將指定投影片以指定格式儲存至串流，並保留頁碼。
 
 **參數：**
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
 | stream | java.io.OutputStream | 輸出串流。 |
-| slides | int[] | 投影片位置陣列，從 1 開始。 |
+| slides | int[] | 投影片位置陣列，起始值為 1。 |
 | format | int | 匯出資料的格式。 |
 
 ### save(OutputStream stream, int[] slides, int format, ISaveOptions options) {#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-}
@@ -1497,7 +1509,7 @@ public final void save(OutputStream stream, int[] slides, int format, ISaveOptio
 ```
 
 
-將指定投影片以指定格式與額外選項保存至串流，並保留頁碼。
+將指定投影片以指定格式儲存至串流，並保留頁碼。
 
 --------------------
 
@@ -1550,9 +1562,9 @@ public final void save(OutputStream stream, int[] slides, int format, ISaveOptio
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
 | stream | java.io.OutputStream | 輸出串流。 |
-| slides | int[] | 投影片位置陣列，從 1 開始。 |
+| slides | int[] | 投影片位置陣列，起始值為 1。 |
 | format | int | 匯出資料的格式。 |
-| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | 額外的格式選項。 |
+| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | 其他格式選項。 |
 
 ### joinPortionsWithSameFormatting() {#joinPortionsWithSameFormatting--}
 ```
@@ -1560,7 +1572,7 @@ public final void joinPortionsWithSameFormatting()
 ```
 
 
-在所有可接受的形狀之所有段落中，合併具有相同格式的文字片段。
+將所有投影片中所有可接受形狀的段落合併相同格式的文字片段。
 
 ### dispose() {#dispose--}
 ```
@@ -1576,7 +1588,7 @@ public final IPresentation getPresentation()
 ```
 
 
-傳回文字所屬的父簡報。唯讀 [IPresentation](../../com.aspose.slides/ipresentation)。
+傳回文字的父簡報。唯讀 [IPresentation](../../com.aspose.slides/ipresentation)。
 
 **傳回：**
 [IPresentation](../../com.aspose.slides/ipresentation)
@@ -1586,7 +1598,7 @@ public final void highlightText(String text, Color highlightColor)
 ```
 
 
-以指定顏色突顯所有符合樣本文字的項目。
+將樣本文字的所有匹配項以指定顏色標示。
 
 --------------------
 
@@ -1595,7 +1607,7 @@ public final void highlightText(String text, Color highlightColor)
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
->      // 突顯所有單獨出現的 'the'
+>      // 突顯所有獨立出現的 'the'
 >      presentation.highlightText("the", Color.MAGENTA);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -1607,8 +1619,8 @@ public final void highlightText(String text, Color highlightColor)
 **參數：**
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
-| text | java.lang.String | 要突顯的文字。 |
-| highlightColor | java.awt.Color | 用於突顯文字的顏色。 |
+| text | java.lang.String | 要標示的文字。 |
+| highlightColor | java.awt.Color | 要標示文字的顏色。 |
 
 ### highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
@@ -1616,7 +1628,7 @@ public final void highlightText(String text, Color highlightColor, ITextSearchOp
 ```
 
 
-以指定顏色突顯所有符合樣本文字的項目。
+將樣本文字的所有匹配項以指定顏色標示。
 
 --------------------
 
@@ -1627,7 +1639,7 @@ public final void highlightText(String text, Color highlightColor, ITextSearchOp
 >  try {
 >      TextSearchOptions textSearchOptions = new TextSearchOptions();
 >      textSearchOptions.setWholeWordsOnly(true);
->      // 突顯所有單獨出現的 'the'
+>      // 突顯所有獨立出現的 'the'
 >      presentation.highlightText("the", Color.MAGENTA, textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -1639,18 +1651,18 @@ public final void highlightText(String text, Color highlightColor, ITextSearchOp
 **參數：**
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
-| text | java.lang.String | 要突顯的文字。 |
-| highlightColor | java.awt.Color | 用於突顯文字的顏色。 |
+| text | java.lang.String | 要標示的文字。 |
+| highlightColor | java.awt.Color | 要標示文字的顏色。 |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | 文字搜尋選項 [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions)。 |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | 接收搜尋結果的回呼物件 [IFindResultCallback](../../com.aspose.slides/ifindresultcallback)。 |
 
 ### highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback) {#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-}
 ```
-public  int get ()
+public final void highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)
 ```
 
 
-以指定顏色突顯所有符合正規表示式的項目。
+將正規表示式的所有匹配項以指定顏色標示。
 
 --------------------
 
@@ -1660,7 +1672,7 @@ public  int get ()
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      Pattern regex = Pattern.compile("\\b[^\\s]{10,}\\b");
->      // 突顯所有長度為 10 個字元以上的單詞
+>      // 突顯所有長度為 10 個字元或以上的單詞
 >      presentation.highlightRegex(regex, Color.BLUE, null);
 >      presentation.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -1672,15 +1684,18 @@ public  int get ()
 **參數：**
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | 用於取得要突顯字串的正規表示式。 |
+
+| regex | java.util.regex.Pattern | 正則表達式 java.util.regex.Pattern，用於取得要突顯的字串。 |
 | highlightColor | java.awt.Color | 用於突顯文字的顏色。 |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | 接收搜尋結果的回呼物件 [IFindResultCallback](../../com.aspose.slides/ifindresultcallback)。
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | 接收搜尋結果的回呼物件 [IFindResultCallback](../../com.aspose.slides/ifindresultcallback)。 |
+
 ### replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback) {#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
 public final void replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
-將指定文字的所有出現替換為另一個指定的文字。
+
+將指定文字的所有出現位置取代為另一個指定文字。
 
 --------------------
 
@@ -1691,7 +1706,7 @@ public final void replaceText(String oldText, String newText, ITextSearchOptions
 >  try {
 >      TextSearchOptions textSearchOptions = new TextSearchOptions();
 >      textSearchOptions.setWholeWordsOnly(true);
->      // 將所有單獨出現的 'the' 替換為 '***'
+>      // 將所有獨立出現的 'the' 替換成 '***'
 >      presentation.replaceText("the", "***", textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -1700,11 +1715,11 @@ public final void replaceText(String oldText, String newText, ITextSearchOptions
 > ```
 
 
-**參數:**
+**參數：**
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
 | oldText | java.lang.String | 要被取代的字串。 |
-| newText | java.lang.String | 取代 oldText 所有出現的字串。 |
+| newText | java.lang.String | 用於取代 oldText 所有出現的字串。 |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | 文字搜尋選項 [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions)。 |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | 接收搜尋結果的回呼物件 [IFindResultCallback](../../com.aspose.slides/ifindresultcallback)。 |
 
@@ -1713,7 +1728,8 @@ public final void replaceText(String oldText, String newText, ITextSearchOptions
 public final void replaceRegex(Pattern regex, String newText, IFindResultCallback callback)
 ```
 
-將正規表達式的所有符合項目替換為指定的字串。
+
+將正則表達式的所有符合項取代為指定字串。
 
 --------------------
 
@@ -1722,7 +1738,7 @@ public final void replaceRegex(Pattern regex, String newText, IFindResultCallbac
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      Pattern regex = Pattern.compile("\\b[^\\s]{10,}\\b");
->      // Replace all words with 10 symbols or longer with '***'
+>      // 將所有長度為 10 個字元或以上的單詞替換為 '***'
 >      presentation.replaceRegex(regex, "***", null);
 >      presentation.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -1730,9 +1746,56 @@ public final void replaceRegex(Pattern regex, String newText, IFindResultCallbac
 >  }
 > ```
 
-**參數:**
+
+**參數：**
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | 用於取得要替換字串的正規表達式 java.util.regex.Pattern。 |
-| newText | java.lang.String | 用於取代所有待替換字串的字串。 |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | 接收搜尋結果的回呼物件 [IFindResultCallback](../../com.aspose.slides/ifindresultcallback)。
+| regex | java.util.regex.Pattern | 正則表達式 java.util.regex.Pattern，用於取得要取代的字串。 |
+| newText | java.lang.String | 用於取代所有待取代字串的字串。 |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | 接收搜尋結果的回呼物件 [IFindResultCallback](../../com.aspose.slides/ifindresultcallback)。 |
+
+### refreshChartsData() {#refreshChartsData--}
+```
+public final void refreshChartsData()
+```
+
+
+從來源工作簿重新載入簡報中所有圖表的資料。
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("PresentationWithCharts.pptx");
+>  try {
+>      presentation.refreshChartsData();
+>      presentation.save("PresentationWithCharts-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+### refreshChartsData(boolean skipFailedCharts) {#refreshChartsData-boolean-}
+```
+public final void refreshChartsData(boolean skipFailedCharts)
+```
+
+
+從來源工作簿重新載入簡報中所有圖表的資料。
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("PresentationWithCharts.pptx");
+>  try {
+>      presentation.refreshChartsData();
+>      presentation.save("PresentationWithCharts-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+
+**參數：**
+| 參數 | 類型 | 說明 |
+| --- | --- | --- |
+| skipFailedCharts | boolean | 決定在圖表更新失敗時是否繼續刷新流程。若為 true，則會跳過導致例外的圖表；否則會傳遞例外。 |

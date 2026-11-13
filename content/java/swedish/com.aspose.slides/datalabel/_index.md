@@ -1,7 +1,7 @@
 ---
 title: DataLabel
 second_title: Aspose.Slides för Java API-referens
-description: Representerar serieetiketter.
+description: Representerar en serieetiketter.
 type: docs
 url: /sv/com.aspose.slides/datalabel/
 ---
@@ -14,7 +14,7 @@ java.lang.Object
 public class DataLabel implements IDataLabel, IDOMObject
 ```
 
-Representerar serieetiketter.
+Representerar en serieetiketter.
 ## Konstruktorer
 
 | Konstruktor | Beskrivning |
@@ -25,32 +25,34 @@ Representerar serieetiketter.
 | Metod | Beskrivning |
 | --- | --- |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-| [getChart()](#getChart--) | Returnerar det överordnade diagrammet. |
-| [isVisible()](#isVisible--) | Falskt betyder att dataetiketten inte är synlig (och så är alla Show*-flaggor (ShowValue, ...) falska). |
+| [getChart()](#getChart--) | Returnerar föräldrakartan. |
+| [isVisible()](#isVisible--) | False betyder att dataetiketten inte är synlig (och därför är alla Show*-flaggor (ShowValue, ...) falska). |
 | [hide()](#hide--) | Gör dataetiketten dold genom att sätta alla Show*-flaggor (ShowValue, ...) till falskt läge. |
-| [getActualLabelText()](#getActualLabelText--) | Returnerar den faktiska etiketttexten baserat på DataLabelFormat-inställningarna eller TextFrameForOverriding.Text-värdet. |
+| [getActualLabelText()](#getActualLabelText--) | Returnerar den faktiska etiketttexten baserat på DataLabelFormat-inställningar eller TextFrameForOverriding.Text-värde. |
 | [addTextFrameForOverriding(String text)](#addTextFrameForOverriding-java.lang.String-) | Initierar TextFrameForOverriding med texten i parametern "text". |
-| [getTextFrameForOverriding()](#getTextFrameForOverriding--) | Kan innehålla en rik formaterad text. |
+| [getTextFrameForOverriding()](#getTextFrameForOverriding--) | Kan innehålla rik formaterad text. |
 | [getTextFormat()](#getTextFormat--) | Returnerar textformat. |
-| [getX()](#getX--) | Returnerar eller anger x-koordinaten för en titel som en bråkdel av diagrammets bredd. |
-| [setX(float value)](#setX-float-) | Returnerar eller anger x-koordinaten för en titel som en bråkdel av diagrammets bredd. |
-| [getY()](#getY--) | Returnerar eller anger y-koordinaten för en titel som en bråkdel av diagrammets höjd. |
-| [setY(float value)](#setY-float-) | Returnerar eller anger y-koordinaten för en titel som en bråkdel av diagrammets höjd. |
-| [getWidth()](#getWidth--) | Returnerar eller anger bredden på en titel som en bråkdel av diagrammets bredd. |
-| [setWidth(float value)](#setWidth-float-) | Returnerar eller anger bredden på en titel som en bråkdel av diagrammets bredd. |
-| [getHeight()](#getHeight--) | Returnerar eller anger höjden på en titel som en bråkdel av diagrammets höjd. |
-| [setHeight(float value)](#setHeight-float-) | Returnerar eller anger höjden på en titel som en bråkdel av diagrammets höjd. |
+| [getX()](#getX--) | Returnerar eller sätter x-koordinaten för en titel som en fraktion av diagrammets bredd. |
+| [setX(float value)](#setX-float-) | Returnerar eller sätter x-koordinaten för en titel som en fraktion av diagrammets bredd. |
+| [getY()](#getY--) | Returnerar eller sätter y-koordinaten för en titel som en fraktion av diagrammets höjd. |
+| [setY(float value)](#setY-float-) | Returnerar eller sätter y-koordinaten för en titel som en fraktion av diagrammets höjd. |
+| [getWidth()](#getWidth--) | Returnerar eller sätter bredden på en titel som en fraktion av diagrammets bredd. |
+| [setWidth(float value)](#setWidth-float-) | Returnerar eller sätter bredden på en titel som en fraktion av diagrammets bredd. |
+| [getHeight()](#getHeight--) | Returnerar eller sätter höjden på en titel som en fraktion av diagrammets höjd. |
+| [setHeight(float value)](#setHeight-float-) | Returnerar eller sätter höjden på en titel som en fraktion av diagrammets höjd. |
 | [getRight()](#getRight--) | Höger. |
-| [getBottom()](#getBottom--) | Nederkant. |
+| [getBottom()](#getBottom--) | Botten. |
 | [getDataLabelFormat()](#getDataLabelFormat--) | Returnerar dataetikettformat. |
-| [getValueFromCell()](#getValueFromCell--) | Hämtar eller anger arbetsboksdatacell. |
-| [setValueFromCell(IChartDataCell value)](#setValueFromCell-com.aspose.slides.IChartDataCell-) | Hämtar eller anger arbetsboksdatacell. |
+| [getValueFromCell()](#getValueFromCell--) | Hämtar eller sätter arbetsboksdatacell. |
+| [setValueFromCell(IChartDataCell value)](#setValueFromCell-com.aspose.slides.IChartDataCell-) | Hämtar eller sätter arbetsboksdatacell. |
+| [getLabelShapeType()](#getLabelShapeType--) | Hämtar eller sätter formtypen för dataetiketten. |
+| [setLabelShapeType(int value)](#setLabelShapeType-int-) | Hämtar eller sätter formtypen för dataetiketten. |
 | [getActualX()](#getActualX--) | Anger den faktiska x-positionen (vänster) för diagrammets element relativt diagrammets övre vänstra hörn. |
-| [getActualY()](#getActualY--) | Anger den faktiska toppen av diagrammets element relativt diagrammets övre vänstra hörn. |
-| [getActualWidth()](#getActualWidth--) | Anger den faktiska bredden på diagrammets element. |
-| [getActualHeight()](#getActualHeight--) | Anger den faktiska höjden på diagrammets element. |
-| [getSlide()](#getSlide--) | Returnerar den överordnade bilden för ett FillFormat. |
-| [getPresentation()](#getPresentation--) | Returnerar den överordnade presentationen för ett FillFormat. |
+| [getActualY()](#getActualY--) | Anger den faktiska överkanten för diagrammets element relativt diagrammets övre vänstra hörn. |
+| [getActualWidth()](#getActualWidth--) | Anger den faktiska bredden för diagrammets element. |
+| [getActualHeight()](#getActualHeight--) | Anger den faktiska höjden för diagrammets element. |
+| [getSlide()](#getSlide--) | Returnerar den överordnade bilden för en FillFormat. |
+| [getPresentation()](#getPresentation--) | Returnerar den överordnade presentationen för en FillFormat. |
 ### DataLabel(IChartDataPoint parentImmediate) {#DataLabel-com.aspose.slides.IChartDataPoint-}
 ```
 public DataLabel(IChartDataPoint parentImmediate)
@@ -61,14 +63,14 @@ Skapar en ny instans av DataLabel-klassen.
 **Parametrar:**
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| parentImmediate | [IChartDataPoint](../../com.aspose.slides/ichartdatapoint) | Överordnad ChartDataPoint. |
+| parentImmediate | [IChartDataPoint](../../com.aspose.slides/ichartdatapoint) | Föräldra-ChartDataPoint. |
 
 ### getParent_Immediate() {#getParent-Immediate--}
 ```
 public final IDOMObject getParent_Immediate()
 ```
 
-Returnerar Parent_Immediate-objektet. Skrivskyddad IDOMObject.
+Returnerar Parent_Immediate-objekt. Skrivskyddad IDOMObject.
 
 **Returnerar:**
 com.aspose.slides.IDOMObject
@@ -77,7 +79,7 @@ com.aspose.slides.IDOMObject
 public final IChart getChart()
 ```
 
-Returnerar det överordnade diagrammet. Skrivskyddad [IChart](../../com.aspose.slides/ichart).
+Returnerar föräldrakartan. Skrivskyddad [IChart](../../com.aspose.slides/ichart).
 
 **Returnerar:**
 [IChart](../../com.aspose.slides/ichart)
@@ -86,11 +88,11 @@ Returnerar det överordnade diagrammet. Skrivskyddad [IChart](../../com.aspose.s
 public final boolean isVisible()
 ```
 
-Falskt betyder att dataetiketten inte är synlig (och så är alla Show*-flaggor (ShowValue, ...) falska). Skrivskyddad  boolean .
+False betyder att dataetiketten inte är synlig (och därför är alla Show*-flaggor (ShowValue, ...) falska). Skrivskyddad boolean.
 
 --------------------
 
-Om dataetiketten är synlig kan du göra den dold med Hide()-metoden. Men om dataetiketten inte är synlig (IsVisible är falskt) kan du göra dataetiketten synlig genom att sätta Show*-flaggor (ShowValue, ...) till sant läge.
+Om dataetiketten är synlig kan du dölja den med Hide()-metoden. Men om dataetiketten inte är synlig (IsVisible är false) kan du göra den synlig genom att sätta Show*-flaggor (ShowValue, ...) till sant läge.
 
 **Returnerar:**
 boolean
@@ -99,21 +101,21 @@ boolean
 public final void hide()
 ```
 
-Gör dataetiketten dold genom att sätta alla Show*-flaggor (ShowValue, ...) till falskt läge. IsVisible kommer att vara falskt efter detta.
+Gör dataetiketten dold genom att sätta alla Show*-flaggor (ShowValue, ...) till falskt läge. IsVisible blir false efter detta.
 
 --------------------
 
-Om dataetiketten inte är synlig (IsVisible är falskt) kan du göra den synlig genom att sätta Show*-flaggor (ShowValue, ...) till sant läge.
+Om dataetiketten inte är synlig (IsVisible är false) kan du göra den synlig genom att sätta Show*-flaggor (ShowValue, ...) till sant läge.
 
 ### getActualLabelText() {#getActualLabelText--}
 ```
 public final String getActualLabelText()
 ```
 
-Returnerar den faktiska etiketttexten baserat på DataLabelFormat-inställningarna eller TextFrameForOverriding.Text-värdet.
+Returnerar den faktiska etiketttexten baserat på DataLabelFormat-inställningar eller TextFrameForOverriding.Text-värde.
 
 **Returnerar:**
-java.lang.String - java.lang.String-objektet.
+java.lang.String - The java.lang.String object.
 ### addTextFrameForOverriding(String text) {#addTextFrameForOverriding-java.lang.String-}
 ```
 public final ITextFrame addTextFrameForOverriding(String text)
@@ -133,7 +135,7 @@ Initierar TextFrameForOverriding med texten i parametern "text". Om TextFrameFor
 public final ITextFrame getTextFrameForOverriding()
 ```
 
-Kan innehålla en rik formaterad text. Om denna egenskap inte är null så åsidosätter detta formaterade textvärde den automatiskt genererade texten för dataetiketten. Automatiskt genererad text för dataetiketten betyder text som hanteras av ShowSeriesName, ShowValue, ... egenskaperna och som är formaterad med TextFormatManager.TextFormat-egenskapen. Skrivskyddad [ITextFrame](../../com.aspose.slides/itextframe).
+Kan innehålla rik formaterad text. Om denna egenskap inte är null så åsidosätter detta formaterade textvärde den automatiskt genererade texten för dataetiketten. Automatgenererad text för dataetiketten betyder text som hanteras av ShowSeriesName, ShowValue, ...-egenskaperna och som formateras med TextFormatManager.TextFormat-egenskapen. Skrivskyddad [ITextFrame](../../com.aspose.slides/itextframe).
 
 **Returnerar:**
 [ITextFrame](../../com.aspose.slides/itextframe)
@@ -151,7 +153,7 @@ Returnerar textformat. Skrivskyddad [IChartTextFormat](../../com.aspose.slides/i
 public final float getX()
 ```
 
-Returnerar eller anger x-koordinaten för en titel som en bråkdel av diagrammets bredd. Läs/skriv  float .
+Returnerar eller sätter x-koordinaten för en titel som en fraktion av diagrammets bredd. Läs/skriv float.
 
 **Returnerar:**
 float
@@ -160,7 +162,7 @@ float
 public final void setX(float value)
 ```
 
-Returnerar eller anger x-koordinaten för en titel som en bråkdel av diagrammets bredd. Läs/skriv  float .
+Returnerar eller sätter x-koordinaten för en titel som en fraktion av diagrammets bredd. Läs/skriv float.
 
 **Parametrar:**
 | Parameter | Typ | Beskrivning |
@@ -171,7 +173,7 @@ Returnerar eller anger x-koordinaten för en titel som en bråkdel av diagrammet
 public final float getY()
 ```
 
-Returnerar eller anger y-koordinaten för en titel som en bråkdel av diagrammets höjd. Läs/skriv  float .
+Returnerar eller sätter y-koordinaten för en titel som en fraktion av diagrammets höjd. Läs/skriv float.
 
 **Returnerar:**
 float
@@ -180,7 +182,7 @@ float
 public final void setY(float value)
 ```
 
-Returnerar eller anger y-koordinaten för en titel som en bråkdel av diagrammets höjd. Läs/skriv  float .
+Returnerar eller sätter y-koordinaten för en titel som en fraktion av diagrammets höjd. Läs/skriv float.
 
 **Parametrar:**
 | Parameter | Typ | Beskrivning |
@@ -191,7 +193,7 @@ Returnerar eller anger y-koordinaten för en titel som en bråkdel av diagrammet
 public final float getWidth()
 ```
 
-Returnerar eller anger bredden på en titel som en bråkdel av diagrammets bredd. Läs/skriv  float .
+Returnerar eller sätter bredden på en titel som en fraktion av diagrammets bredd. Läs/skriv float.
 
 **Returnerar:**
 float
@@ -200,7 +202,7 @@ float
 public final void setWidth(float value)
 ```
 
-Returnerar eller anger bredden på en titel som en bråkdel av diagrammets bredd. Läs/skriv  float .
+Returnerar eller sätter bredden på en titel som en fraktion av diagrammets bredd. Läs/skriv float.
 
 **Parametrar:**
 | Parameter | Typ | Beskrivning |
@@ -211,7 +213,7 @@ Returnerar eller anger bredden på en titel som en bråkdel av diagrammets bredd
 public final float getHeight()
 ```
 
-Returnerar eller anger höjden på en titel som en bråkdel av diagrammets höjd. Läs/skriv  float .
+Returnerar eller sätter höjden på en titel som en fraktion av diagrammets höjd. Läs/skriv float.
 
 **Returnerar:**
 float
@@ -220,7 +222,7 @@ float
 public final void setHeight(float value)
 ```
 
-Returnerar eller anger höjden på en titel som en bråkdel av diagrammets höjd. Läs/skriv  float .
+Returnerar eller sätter höjden på en titel som en fraktion av diagrammets höjd. Läs/skriv float.
 
 **Parametrar:**
 | Parameter | Typ | Beskrivning |
@@ -231,7 +233,7 @@ Returnerar eller anger höjden på en titel som en bråkdel av diagrammets höjd
 public final float getRight()
 ```
 
-Höger. Skrivskyddad  float .
+Höger. Läs/skriv float.
 
 **Returnerar:**
 float
@@ -240,7 +242,7 @@ float
 public final float getBottom()
 ```
 
-Nederkant. Skrivskyddad  float .
+Botten. Läs/skriv float.
 
 **Returnerar:**
 float
@@ -258,7 +260,7 @@ Returnerar dataetikettformat. Skrivskyddad [IDataLabelFormat](../../com.aspose.s
 public final IChartDataCell getValueFromCell()
 ```
 
-Hämtar eller anger arbetsboksdatacell. Tillämpas om IDataLabelFormat.ShowLabelValueFromCell-egenskapen är true.
+Hämtar eller sätter arbetsboksdatacell. Tillämpas om IDataLabelFormat.ShowLabelValueFromCell-egenskapen är sann.
 
 **Returnerar:**
 [IChartDataCell](../../com.aspose.slides/ichartdatacell)
@@ -267,18 +269,70 @@ Hämtar eller anger arbetsboksdatacell. Tillämpas om IDataLabelFormat.ShowLabel
 public final void setValueFromCell(IChartDataCell value)
 ```
 
-Hämtar eller anger arbetsboksdatacell. Tillämpas om IDataLabelFormat.ShowLabelValueFromCell-egenskapen är true.
+Hämtar eller sätter arbetsboksdatacell. Tillämpas om IDataLabelFormat.ShowLabelValueFromCell-egenskapen är sann.
 
 **Parametrar:**
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | value | [IChartDataCell](../../com.aspose.slides/ichartdatacell) |  |
+### getLabelShapeType() {#getLabelShapeType--}
+```
+public final int getLabelShapeType()
+```
+
+Hämtar eller sätter formtypen för dataetiketten. Returnerar [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) om ingen form är definierad.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Ställ in formtypen för den första dataetiketten till Ellipse.
+>      firstSeries.getLabels().get_Item(0).setLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabel.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Returnerar:**
+int
+### setLabelShapeType(int value) {#setLabelShapeType-int-}
+```
+public final void setLabelShapeType(int value)
+```
+
+Hämtar eller sätter formtypen för dataetiketten. Returnerar [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) om ingen form är definierad.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Ställ in formtypen för den första dataetiketten till Ellipse.
+>      firstSeries.getLabels().get_Item(0).setLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabel.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Parametrar:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| value | int |  |
 ### getActualX() {#getActualX--}
 ```
 public final float getActualX()
 ```
 
-Anger den faktiska x-positionen (vänster) för diagrammets element relativt diagrammets övre vänstra hörn. Anropa metoden IChart.ValidateChartLayout() innan för att få faktiska värden. Läs  float .
+Anger den faktiska x-positionen (vänster) för diagrammets element relativt diagrammets övre vänstra hörn. Anropa metoden IChart.ValidateChartLayout() innan för att få faktiska värden. Läs float.
 
 **Returnerar:**
 float
@@ -287,7 +341,7 @@ float
 public final float getActualY()
 ```
 
-Anger den faktiska toppen av diagrammets element relativt diagrammets övre vänstra hörn. Anropa metoden IChart.ValidateChartLayout() innan för att få faktiska värden. Läs  float .
+Anger den faktiska överkanten för diagrammets element relativt diagrammets övre vänstra hörn. Anropa metoden IChart.ValidateChartLayout() innan för att få faktiska värden. Läs float.
 
 **Returnerar:**
 float
@@ -296,7 +350,7 @@ float
 public final float getActualWidth()
 ```
 
-Anger den faktiska bredden på diagrammets element. Anropa metoden IChart.ValidateChartLayout() innan för att få faktiska värden. Läs  float .
+Anger den faktiska bredden för diagrammets element. Anropa metoden IChart.ValidateChartLayout() innan för att få faktiska värden. Läs float.
 
 **Returnerar:**
 float
@@ -305,7 +359,7 @@ float
 public final float getActualHeight()
 ```
 
-Anger den faktiska höjden på diagrammets element. Anropa metoden IChart.ValidateChartLayout() innan för att få faktiska värden. Läs  float .
+Anger den faktiska höjden för diagrammets element. Anropa metoden IChart.ValidateChartLayout() innan för att få faktiska värden. Läs float.
 
 **Returnerar:**
 float
@@ -314,7 +368,7 @@ float
 public final IBaseSlide getSlide()
 ```
 
-Returnerar den överordnade bilden för ett FillFormat. Skrivskyddad [BaseSlide](../../com.aspose.slides/baseslide).
+Returnerar den överordnade bilden för en FillFormat. Skrivskyddad [BaseSlide](../../com.aspose.slides/baseslide).
 
 **Returnerar:**
 [IBaseSlide](../../com.aspose.slides/ibaseslide)
@@ -323,7 +377,7 @@ Returnerar den överordnade bilden för ett FillFormat. Skrivskyddad [BaseSlide]
 public final IPresentation getPresentation()
 ```
 
-Returnerar den överordnade presentationen för ett FillFormat. Skrivskyddad [IPresentation](../../com.aspose.slides/ipresentation).
+Returnerar den överordnade presentationen för en FillFormat. Skrivskyddad [IPresentation](../../com.aspose.slides/ipresentation).
 
 **Returnerar:**
 [IPresentation](../../com.aspose.slides/ipresentation)

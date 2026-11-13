@@ -1,7 +1,7 @@
 ---
 title: ChartDataPoint
 second_title: Aspose.Slides för Java API-referens
-description: Representerar serie-datapunkt.
+description: Representerar en seriedatapunkt.
 type: docs
 url: /sv/com.aspose.slides/chartdatapoint/
 ---
@@ -14,7 +14,7 @@ java.lang.Object
 public class ChartDataPoint implements IChartDataPoint, IDOMObject
 ```
 
-Representerar serie-datapunkt.
+Representerar en seriedatapunkt.
 ## Metoder
 
 | Metod | Beskrivning |
@@ -23,9 +23,9 @@ Representerar serie-datapunkt.
 | [getYValue()](#getYValue--) | YValue. |
 | [getBubbleSize()](#getBubbleSize--) | BubbleSize. |
 | [getValue()](#getValue--) | Value. |
-| [getSizeValue()](#getSizeValue--) | Returnerar storleksvärdet för diagramdatapunkt. |
-| [getColorValue()](#getColorValue--) | Returnerar färgvärdet för diagramdatapunkt. |
-| [getErrorBarsCustomValues()](#getErrorBarsCustomValues--) | Representerar serie felstaplar värden i fall av Custom värdetyp. |
+| [getSizeValue()](#getSizeValue--) | Returnerar storleksvärdet för diagramdatapunkten. |
+| [getColorValue()](#getColorValue--) | Returnerar färgvärdet för diagramdatapunkten. |
+| [getErrorBarsCustomValues()](#getErrorBarsCustomValues--) | Representerar seriernas felstaplarvärden i fall av anpassad värdetyp. |
 | [getLabel()](#getLabel--) | Label. |
 | [isBubble3D()](#isBubble3D--) | Anger att bubblorna har en 3D-effekt tillämpad på dem. |
 | [setBubble3D(boolean value)](#setBubble3D-boolean-) | Anger att bubblorna har en 3D-effekt tillämpad på dem. |
@@ -34,20 +34,24 @@ Representerar serie-datapunkt.
 | [getFormat()](#getFormat--) | Representerar formateringsegenskaperna. |
 | [setFormat(IFormat value)](#setFormat-com.aspose.slides.IFormat-) | Representerar formateringsegenskaperna. |
 | [getMarker()](#getMarker--) | Anger en datamarkör. |
-| [getSetAsTotal()](#getSetAsTotal--) | Ställer in datapunkt som total. |
-| [setSetAsTotal(boolean value)](#setSetAsTotal-boolean-) | Ställer in datapunkt som total. |
-| [getRelatedLegendEntry()](#getRelatedLegendEntry--) | Egenskaper för motsvarande förklaringspost i fall av diagramtyp från denna lista: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. |
-| [remove()](#remove--) | Tar bort DataPoint från diagramserier. |
+| [getSetAsTotal()](#getSetAsTotal--) | Sätter datapunkt som total. |
+| [setSetAsTotal(boolean value)](#setSetAsTotal-boolean-) | Sätter datapunkt som total. |
+| [getRelatedLegendEntry()](#getRelatedLegendEntry--) | Egenskaper för motsvarande legendpost för diagramtyper från följande lista: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. |
+| [remove()](#remove--) | Tar bort DataPoint från diagramserie. |
 | [getDataPointLevels()](#getDataPointLevels--) | Returnerar behållare för datapunktsnivåer. |
-| [getIndex()](#getIndex--) |    |
+| [getIndex()](#getIndex--) |  |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-| [getAutomaticDataPointColor()](#getAutomaticDataPointColor--) | Returnerar en automatisk färg för datapunkt baserat på serieindex, datapunktindex, ParentSeriesGroup.IsColorVaried-egenskapen och diagramstil. |
+| [getAutomaticDataPointColor()](#getAutomaticDataPointColor--) | Returnerar en automatisk färg för datapunkt baserat på seriens index, datapunktsindex, egenskapen ParentSeriesGroup.IsColorVaried och diagramstil. |
 | [getInvertIfNegative()](#getInvertIfNegative--) | Anger att datapunkten ska invertera sina färger om värdet är negativt. |
 | [setInvertIfNegative(boolean value)](#setInvertIfNegative-boolean-) | Anger att datapunkten ska invertera sina färger om värdet är negativt. |
-| [getActualX()](#getActualX--) | Anger faktisk x-position (vänster) för diagramelementet relativt vänstra övre hörnet av diagrammet. |
-| [getActualY()](#getActualY--) | Anger faktisk topp för diagramelementet relativt vänstra övre hörnet av diagrammet. |
-| [getActualWidth()](#getActualWidth--) | Anger faktisk bredd för diagramelementet. |
-| [getActualHeight()](#getActualHeight--) | Anger faktisk höjd för diagramelementet. |
+| [getCachedValue()](#getCachedValue--) | Hämtar det cachade värdet för en diagramdatapunkt. |
+| [getCachedXValue()](#getCachedXValue--) | Hämtar det cachade X-värdet för en diagramdatapunkt. |
+| [getCachedYValue()](#getCachedYValue--) | Hämtar det cachade Y-värdet för en diagramdatapunkt. |
+| [getCachedBubbleSize()](#getCachedBubbleSize--) | Hämtar den cachade bubbeltstorleken för en diagramdatapunkt. |
+| [getActualX()](#getActualX--) | Anger den faktiska x-positionen (vänster) för diagramelementet relativt diagrammets övre vänstra hörn. |
+| [getActualY()](#getActualY--) | Anger det faktiska övre läget för diagramelementet relativt diagrammets övre vänstra hörn. |
+| [getActualWidth()](#getActualWidth--) | Anger den faktiska bredden på diagramelementet. |
+| [getActualHeight()](#getActualHeight--) | Anger den faktiska höjden på diagramelementet. |
 
 ### getXValue() {#getXValue--}
 ```
@@ -90,7 +94,7 @@ Value. Skrivskyddad [IDoubleChartValue](../../com.aspose.slides/idoublechartvalu
 public final IDoubleChartValue getSizeValue()
 ```
 
-Returnerar storleksvärdet för diagramdatapunkt. Används med Treemap- och Sunburst-diagram. Skrivskyddad [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
+Returnerar storleksvärdet för diagramdatapunkten. Används med Treemap- och Sunburst-diagram. Skrivskyddad [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
 **Returnerar:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
@@ -99,7 +103,7 @@ Returnerar storleksvärdet för diagramdatapunkt. Används med Treemap- och Sunb
 public final IDoubleChartValue getColorValue()
 ```
 
-Returnerar färgvärdet för diagramdatapunkt. Används med karta-diagram. Skrivskyddad [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
+Returnerar färgvärdet för diagramdatapunkten. Används med kartdiagram. Skrivskyddad [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
 **Returnerar:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
@@ -108,7 +112,7 @@ Returnerar färgvärdet för diagramdatapunkt. Används med karta-diagram. Skriv
 public final IErrorBarsCustomValues getErrorBarsCustomValues()
 ```
 
-Representerar serie felstaplar värden i fall av Custom värdetyp. Skrivskyddad [IErrorBarsCustomValues](../../com.aspose.slides/ierrorbarscustomvalues).
+Representerar seriernas felstaplarvärden i fall av anpassad värdetyp. Skrivskyddad [IErrorBarsCustomValues](../../com.aspose.slides/ierrorbarscustomvalues).
 
 **Returnerar:**
 [IErrorBarsCustomValues](../../com.aspose.slides/ierrorbarscustomvalues)
@@ -141,6 +145,7 @@ Anger att bubblorna har en 3D-effekt tillämpad på dem. Läs/skriv boolean.
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | value | boolean |  |
+
 ### getExplosion() {#getExplosion--}
 ```
 public final int getExplosion()
@@ -161,6 +166,7 @@ Anger hur mycket datapunkten ska flyttas från mitten av pajen. Läs/skriv int.
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | value | int |  |
+
 ### getFormat() {#getFormat--}
 ```
 public final IFormat getFormat()
@@ -181,6 +187,7 @@ Representerar formateringsegenskaperna. Läs/skriv [IFormat](../../com.aspose.sl
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | value | [IFormat](../../com.aspose.slides/iformat) |  |
+
 ### getMarker() {#getMarker--}
 ```
 public final IMarker getMarker()
@@ -195,7 +202,7 @@ Anger en datamarkör. Skrivskyddad [IMarker](../../com.aspose.slides/imarker).
 public final boolean getSetAsTotal()
 ```
 
-Ställer in datapunkt som total. Tillämpar endast för Waterfall-serietyp.
+Sätter datapunkt som total. Tillämpas endast för Waterfall-serietyp.
 
 **Returnerar:**
 boolean
@@ -204,18 +211,19 @@ boolean
 public final void setSetAsTotal(boolean value)
 ```
 
-Ställer in datapunkt som total. Tillämpar endast för Waterfall-serietyp.
+Sätter datapunkt som total. Tillämpas endast för Waterfall-serietyp.
 
 **Parametrar:**
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | value | boolean |  |
+
 ### getRelatedLegendEntry() {#getRelatedLegendEntry--}
 ```
 public final ILegendEntryProperties getRelatedLegendEntry()
 ```
 
-Egenskaper för motsvarande förklaringspost i fall av diagramtyp från denna lista: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Skrivskyddad [ILegendEntryProperties](../../com.aspose.slides/ilegendentryproperties).
+Egenskaper för motsvarande legendpost för diagramtyper från följande lista: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Skrivskyddad [ILegendEntryProperties](../../com.aspose.slides/ilegendentryproperties).
 
 **Returnerar:**
 [ILegendEntryProperties](../../com.aspose.slides/ilegendentryproperties)
@@ -224,14 +232,14 @@ Egenskaper för motsvarande förklaringspost i fall av diagramtyp från denna li
 public final void remove()
 ```
 
-Tar bort DataPoint från diagramserier.
+Tar bort DataPoint från diagramserie.
 
 ### getDataPointLevels() {#getDataPointLevels--}
 ```
 public final IChartDataPointLevelsManager getDataPointLevels()
 ```
 
-Returnerar behållare för datapunktsnivåer. Tillämpar för Treeamp- och Sunburst-serier. Indexering av datapunktsnivåer är nollbaserad.
+Returnerar behållare för datapunktsnivåer. Tillämpas för Treeamp- och Sunburst-serier. Indexering av datapunktsnivåer är nollbaserad.
 
 **Returnerar:**
 [IChartDataPointLevelsManager](../../com.aspose.slides/ichartdatapointlevelsmanager)
@@ -240,6 +248,8 @@ Returnerar behållare för datapunktsnivåer. Tillämpar för Treeamp- och Sunbu
 public final long getIndex()
 ```
 
+
+  
 
 **Returnerar:**
 long
@@ -257,7 +267,7 @@ com.aspose.slides.IDOMObject
 public final Color getAutomaticDataPointColor()
 ```
 
-Returnerar en automatisk färg för datapunkt baserat på serieindex, datapunktindex, ParentSeriesGroup.IsColorVaried-egenskapen och diagramstil. Denna färg används som standard om FillType är lika med NotDefined.
+Returnerar en automatisk färg för datapunkt baserat på seriens index, datapunktsindex, egenskapen ParentSeriesGroup.IsColorVaried och diagramstil. Denna färg används som standard om FillType är lika med NotDefined.
 
 **Returnerar:**
 java.awt.Color
@@ -281,12 +291,117 @@ Anger att datapunkten ska invertera sina färger om värdet är negativt. Läs/s
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | value | boolean |  |
-### getActualX() {#getActualX--}
+
+### getCachedValue() {#getCachedValue--}
 ```
-public final float getActualY()
+public final ICachedChartValue getCachedValue()
 ```
 
-Anger faktisk x-position (vänster) för diagramelementet relativt vänstra övre hörnet av diagrammet. Anropa metoden IChart.ValidateChartLayout() innan för att få faktiska värden. Läs float.
+Hämtar det cachade värdet för en diagramdatapunkt. Skrivskyddad [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // Skriv ut alla cachade värden för diagramserien.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedValue().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returnerar:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
+### getCachedXValue() {#getCachedXValue--}
+```
+public final ICachedChartValue getCachedXValue()
+```
+
+Hämtar det cachade X-värdet för en diagramdatapunkt. Skrivskyddad [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // Skriv ut alla cachade X värden för diagramserien.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedXValue().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returnerar:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
+### getCachedYValue() {#getCachedYValue--}
+```
+public final ICachedChartValue getCachedYValue()
+```
+
+Hämtar det cachade Y-värdet för en diagramdatapunkt. Skrivskyddad [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // Skriv ut alla cachade Y-värden för diagramserien.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedYValue().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returnerar:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
+### getCachedBubbleSize() {#getCachedBubbleSize--}
+```
+public final ICachedChartValue getCachedBubbleSize()
+```
+
+Hämtar den cachade bubbeltstorleken för en diagramdatapunkt. Skrivskyddad [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // Skriv ut alla cachade bubbeltstorleksvärden för diagramserien.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedBubbleSize().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returnerar:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
+### getActualX() {#getActualX--}
+```
+public final float getActualX()
+```
+
+Anger den faktiska x-positionen (vänster) för diagramelementet relativt diagrammets övre vänstra hörn. Anropa metoden IChart.ValidateChartLayout() innan för att få faktiska värden. Läs float.
 
 **Returnerar:**
 float
@@ -295,7 +410,7 @@ float
 public final float getActualY()
 ```
 
-Anger faktisk topp för diagramelementet relativt vänstra övre hörnet av diagrammet. Anropa metoden IChart.ValidateChartLayout() innan för att få faktiska värden. Läs float.
+Anger det faktiska övre läget för diagramelementet relativt diagrammets övre vänstra hörn. Anropa metoden IChart.ValidateChartLayout() innan för att få faktiska värden. Läs float.
 
 **Returnerar:**
 float
@@ -304,7 +419,7 @@ float
 public final float getActualWidth()
 ```
 
-Anger faktisk bredd för diagramelementet. Anropa metoden IChart.ValidateChartLayout() innan för att få faktiska värden. Läs float.
+Anger den faktiska bredden på diagramelementet. Anropa metoden IChart.ValidateChartLayout() innan för att få faktiska värden. Läs float.
 
 **Returnerar:**
 float
@@ -313,7 +428,7 @@ float
 public final float getActualHeight()
 ```
 
-Anger faktisk höjd för diagramelementet. Anropa metoden IChart.ValidateChartLayout() innan för att få faktiska värden. Läs float.
+Anger den faktiska höjden på diagramelementet. Anropa metoden IChart.ValidateChartLayout() innan för att få faktiska värden. Läs float.
 
 **Returnerar:**
 float

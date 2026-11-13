@@ -1,48 +1,49 @@
 ---
 title: ChartData
-second_title: Aspose.Slides για την Αναφορά API Java
-description: Αναπαριστά τα δεδομένα που χρησιμοποιούνται για τη δημιουργία γραφήματος.
+second_title: Αναφορά API του Aspose.Slides για Java
+description: Αντιπροσωπεύει τα δεδομένα που χρησιμοποιούνται για τη σχεδίαση ενός διαγράμματος.
 type: docs
 url: /el/com.aspose.slides/chartdata/
 ---
-**Inheritance:**
+**Κληρονομικότητα:**
 java.lang.Object, com.aspose.slides.DomObject
 
-**All Implemented Interfaces:**
+**Όλες οι Υλοποιημένες Διεπαφές:**
 [com.aspose.slides.IChartData](../../com.aspose.slides/ichartdata)
 ```
 public class ChartData extends DomObject<Chart> implements IChartData
 ```
 
-Αναπαριστά δεδομένα που χρησιμοποιούνται για τη σχεδίαση ενός γραφήματος.
+Αντιπροσωπεύει τα δεδομένα που χρησιμοποιούνται για τη σχεδίαση ενός διαγράμματος.
 ## Μέθοδοι
 
-| Method | Description |
+| Μέθοδος | Περιγραφή |
 | --- | --- |
-| [getChartDataWorkbook()](#getChartDataWorkbook--) | Αποκτά το εργοστάσιο κελιών για τη δημιουργία κελιών που χρησιμοποιούνται για σειρές ή κατηγορίες γραφήματος. |
-| [getSeries()](#getSeries--) | Αποκτά τις σειρές. |
-| [getSeriesGroups()](#getSeriesGroups--) | Αποκτά τις ομάδες σειρών. |
-| [getCategories()](#getCategories--) | Αποκτά τις πρωτεύουσες κατηγορίες (ή και τις δύο, πρωτεύουσες και δευτερεύουσες, εάν η ιδιότητα \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) είναι ψευδής). |
-| [getUseSecondaryCategories()](#getUseSecondaryCategories--) | Εάν είναι ψευδές, τότε η ιδιότητα \#getSecondaryCategories.getSecondaryCategories επιστρέφει null και τα δεδομένα στην ιδιότητα \#getCategories.getCategories χρησιμοποιούνται και για τις πρωτεύουσες και για τις δευτερεύουσες σειρές. |
-| [setUseSecondaryCategories(boolean value)](#setUseSecondaryCategories-boolean-) | Εάν είναι ψευδές, τότε η ιδιότητα \#getSecondaryCategories.getSecondaryCategories επιστρέφει null και τα δεδομένα στην ιδιότητα \#getCategories.getCategories χρησιμοποιούνται και για τις πρωτεύουσες και για τις δευτερεύουσες σειρές. |
-| [getSecondaryCategories()](#getSecondaryCategories--) | Αποκτά τις δευτερεύουσες κατηγορίες εάν η ιδιότητα \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) είναι αληθής. |
-| [readWorkbookStream()](#readWorkbookStream--) | Γράφει το εσωτερικά περιέχομενο βιβλίο εργασίας Excel σε ροή μνήμης. |
-| [writeWorkbookStream(byte[] ms)](#writeWorkbookStream-byte---) | Αρχικοποιεί το εσωτερικά περιέχομενο βιβλίο εργασίας Excel με τιμή που καθορίζεται από τον χρήστη. |
-| [getDataSourceType()](#getDataSourceType--) | Αναπαριστά τη διαδρομή εξωτερικού βιβλίου εργασίας εάν η πηγή δεδομένων είναι εξωτερική, διαφορετικά null |
-| [getExternalWorkbookPath()](#getExternalWorkbookPath--) | Αναπαριστά την πηγή δεδομένων του γραφήματος |
-| [getEmbeddedWorkbookType()](#getEmbeddedWorkbookType--) | Αποκτά τον τύπο του ενσωματωμένου βιβλίου εργασίας. |
-| [getRange()](#getRange--) | Αποκτά το εύρος δεδομένων του γραφήματος. |
-| [setRange(String formula)](#setRange-java.lang.String-) | Ορίζει το εύρος δεδομένων του γραφήματος. |
-| [setExternalWorkbook(String workbookPath)](#setExternalWorkbook-java.lang.String-) | Ορίζει εξωτερικό βιβλίο εργασίας ως πηγή δεδομένων για το γράφημα. |
-| [setExternalWorkbook(String workbookPath, boolean updateChartData)](#setExternalWorkbook-java.lang.String-boolean-) | Ορίζει εξωτερικό βιβλίο εργασίας ως πηγή δεδομένων για το γράφημα. |
-| [switchRowColumn()](#switchRowColumn--) | Αλλάζει την διάταξη των δεδομένων κατά τον άξονα. |
+| [getChartDataWorkbook()](#getChartDataWorkbook--) | Λαμβάνει το εργοστάσιο κελιών για τη δημιουργία κελιών που χρησιμοποιούνται για σειρές ή κατηγορίες διαγράμματος. |
+| [getSeries()](#getSeries--) | Λαμβάνει τις σειρές. |
+| [getSeriesGroups()](#getSeriesGroups--) | Λαμβάνει τις ομάδες σειρών. |
+| [getCategories()](#getCategories--) | Λαμβάνει τις κύριες κατηγορίες (ή τόσο τις κύριες όσο και τις δευτερεύουσες κατηγορίες εάν η ιδιότητα #getUseSecondaryCategories.getUseSecondaryCategories/#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) είναι ψευδής). |
+| [getUseSecondaryCategories()](#getUseSecondaryCategories--) | Αν είναι ψευδής, τότε η ιδιότητα #getSecondaryCategories.getSecondaryCategories επιστρέφει null και τα δεδομένα στην ιδιότητα #getCategories.getCategories χρησιμοποιούνται τόσο για κύριες όσο και για δευτερεύουσες σειρές. |
+| [setUseSecondaryCategories(boolean value)](#setUseSecondaryCategories-boolean-) | Αν είναι ψευδής, τότε η ιδιότητα #getSecondaryCategories.getSecondaryCategories επιστρέφει null και τα δεδομένα στην ιδιότητα #getCategories.getCategories χρησιμοποιούνται τόσο για κύριες όσο και για δευτερεύουσες σειρές. |
+| [getSecondaryCategories()](#getSecondaryCategories--) | Λαμβάνει τις δευτερεύουσες κατηγορίες εάν η ιδιότητα #getUseSecondaryCategories.getUseSecondaryCategories/#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) είναι αληθής. |
+| [readWorkbookStream()](#readWorkbookStream--) | Γράφει το εσωτερικά περιεχόμενο φύλλο εργασίας Excel σε μια ροή μνήμης. |
+| [writeWorkbookStream(byte[] ms)](#writeWorkbookStream-byte---) | Αρχικοποιεί το εσωτερικά περιεχόμενο φύλλο εργασίας Excel με τιμή που καθορίζεται από τον χρήστη. |
+| [getDataSourceType()](#getDataSourceType--) | Αντιπροσωπεύει τη διαδρομή εξωτερικού βιβλίου εργασίας εάν η πηγή δεδομένων είναι εξωτερική, αλλιώς null. |
+| [getExternalWorkbookPath()](#getExternalWorkbookPath--) | Αντιπροσωπεύει την πηγή δεδομένων του διαγράμματος. |
+| [getEmbeddedWorkbookType()](#getEmbeddedWorkbookType--) | Λαμβάνει τον τύπο του ενσωματωμένου βιβλίου εργασίας. |
+| [getRange()](#getRange--) | Λαμβάνει την περιοχή δεδομένων του διαγράμματος. |
+| [setRange(String formula)](#setRange-java.lang.String-) | Ορίζει την περιοχή δεδομένων του διαγράμματος. |
+| [setExternalWorkbook(String workbookPath)](#setExternalWorkbook-java.lang.String-) | Ορίζει το εξωτερικό βιβλίο εργασίας ως πηγή δεδομένων για το διάγραμμα. |
+| [setExternalWorkbook(String workbookPath, boolean updateChartData)](#setExternalWorkbook-java.lang.String-boolean-) | Ορίζει το εξωτερικό βιβλίο εργασίας ως πηγή δεδομένων για το διάγραμμα. |
+| [refreshData()](#refreshData--) | Ανανεώνει τα δεδομένα του διαγράμματος επαναφορτώνοντάς τα από το βιβλίο εργασίας προέλευσης. |
+| [switchRowColumn()](#switchRowColumn--) | Ανταλλάσσει τα δεδομένα κατά τον άξονα. |
 
 ### getChartDataWorkbook() {#getChartDataWorkbook--}
 ```
 public final IChartDataWorkbook getChartDataWorkbook()
 ```
 
-Αποκτά το εργοστάσιο κελιών για τη δημιουργία κελιών που χρησιμοποιούνται για σειρές ή κατηγορίες γραφήματος. Μόνο για ανάγνωση [IChartDataWorkbook](../../com.aspose.slides/ichartdataworkbook).
+Λαμβάνει το εργοστάσιο κελιών για τη δημιουργία κελιών που χρησιμοποιούνται για σειρές ή κατηγορίες διαγράμματος. Μόνο-ανάγνωση [IChartDataWorkbook](../../com.aspose.slides/ichartdataworkbook).
 
 **Επιστρέφει:**
 [IChartDataWorkbook](../../com.aspose.slides/ichartdataworkbook)
@@ -52,7 +53,7 @@ public final IChartDataWorkbook getChartDataWorkbook()
 public final IChartSeriesCollection getSeries()
 ```
 
-Αποκτά τις σειρές. Μόνο για ανάγνωση [IChartSeriesCollection](../../com.aspose.slides/ichartseriescollection).
+Λαμβάνει τις σειρές. Μόνο-ανάγνωση [IChartSeriesCollection](../../com.aspose.slides/ichartseriescollection).
 
 **Επιστρέφει:**
 [IChartSeriesCollection](../../com.aspose.slides/ichartseriescollection)
@@ -62,11 +63,11 @@ public final IChartSeriesCollection getSeries()
 public final IChartSeriesGroupCollection getSeriesGroups()
 ```
 
-Αποκτά τις ομάδες σειρών. Μόνο για ανάγνωση [IChartSeriesGroupCollection](../../com.aspose.slides/ichartseriesgroupcollection).
+Λαμβάνει τις ομάδες σειρών. Μόνο-ανάγνωση [IChartSeriesGroupCollection](../../com.aspose.slides/ichartseriesgroupcollection).
 
 --------------------
 
-1) Κάθε ομάδα σειρών περιέχει σειρές με συνδυάσιμους τύπους. Οι ομάδες συνδυάσιμων τύπων σειρών ορίζονται και περιγράφονται με την enum CombinableSeriesTypesGroup. Επίσης κάθε ομάδα σειρών περιέχει σειρές που σχεδιάζονται είτε στον πρωτεύοντα άξονα είτε στον δευτερεύοντα άξονα (όχι και στις δύο περιπτώσεις στην ίδια ομάδα). Έτσι, η αρχή ομαδοποίησης σειρών είναι μια ομαδοποίηση κατά τις παραπάνω ομάδες τύπων και κατά τον τύπο σχεδίασης πρωτεύοντος/δευτερεύοντος.
+Κάθε ομάδα σειρών περιέχει σειρές με συνδυάσιμους τύπους. Οι ομάδες συνδυάσιμων τύπων σειρών ορίζονται και περιγράφονται με το enum CombinableSeriesTypesGroup. Επίσης, κάθε ομάδα σειρών περιέχει σειρές που σχεδιάζονται είτε στον κύριο άξονα είτε στον δευτερεύοντα άξονα (όχι και στις δύο περιπτώσεις μέσα στην ίδια ομάδα). Έτσι, η αρχή ομαδοποίησης των σειρών είναι η ομαδοποίηση κατά τύπους ομάδων όπως αναφέρθηκαν παραπάνω και κατά τύπο σχεδίασης κύριος/δευτερεύων.
 
 **Επιστρέφει:**
 [IChartSeriesGroupCollection](../../com.aspose.slides/ichartseriesgroupcollection)
@@ -76,7 +77,7 @@ public final IChartSeriesGroupCollection getSeriesGroups()
 public final IChartCategoryCollection getCategories()
 ```
 
-Αποκτά τις πρωτεύουσες κατηγορίες (ή και τις δύο, πρωτεύουσες και δευτερεύουσες, εάν η ιδιότητα \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) είναι ψευδής). Μόνο για ανάγνωση [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection).
+Λαμβάνει τις κύριες κατηγορίες (ή τόσο τις κύριες όσο και τις δευτερεύουσες κατηγορίες εάν η ιδιότητα #getUseSecondaryCategories.getUseSecondaryCategories/#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) είναι ψευδής). Μόνο-ανάγνωση [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection).
 
 --------------------
 
@@ -93,10 +94,9 @@ public final IChartCategoryCollection getCategories()
 >  }
 > ```
 
-
 --------------------
 
-Αν η ιδιότητα \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) είναι ψευδής, τότε η ιδιότητα (\#getSecondaryCategories.getSecondaryCategories) επιστρέφει null και τα δεδομένα στην ιδιότητα \#getCategories.getCategories χρησιμοποιούνται και για τις πρωτεύουσες και για τις δευτερεύουσες σειρές. Αν η ιδιότητα είναι αληθής, τότε τα δεδομένα στην ιδιότητα (\#getSecondaryCategories.getSecondaryCategories) χρησιμοποιούνται για τις δευτερεύουσες σειρές και τα δεδομένα στην ιδιότητα \#getCategories.getCategories χρησιμοποιούνται για τις πρωτεύουσες σειρές.
+Αν η ιδιότητα #getUseSecondaryCategories.getUseSecondaryCategories/#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) είναι ψευδής, τότε η ιδιότητα #getSecondaryCategories.getSecondaryCategories επιστρέφει null και τα δεδομένα στην ιδιότητα #getCategories.getCategories χρησιμοποιούνται τόσο για κύριες όσο και για δευτερεύουσες σειρές. Εάν η ιδιότητα είναι αληθής, τότε τα δεδομένα στην ιδιότητα #getSecondaryCategories.getSecondaryCategories χρησιμοποιούνται για δευτερεύουσες σειρές και τα δεδομένα στην ιδιότητα #getCategories.getCategories χρησιμοποιούνται για κύριες σειρές.
 
 **Επιστρέφει:**
 [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection)
@@ -106,7 +106,7 @@ public final IChartCategoryCollection getCategories()
 public final boolean getUseSecondaryCategories()
 ```
 
-Αν είναι ψευδής, τότε η ιδιότητα \#getSecondaryCategories.getSecondaryCategories επιστρέφει null και τα δεδομένα στην ιδιότητα \#getCategories.getCategories χρησιμοποιούνται και για τις πρωτεύουσες και για τις δευτερεύουσες σειρές. Αν είναι αληθής, τότε τα δεδομένα στην ιδιότητα \#getSecondaryCategories.getSecondaryCategories χρησιμοποιούνται για τις δευτερεύουσες σειρές και τα δεδομένα στην ιδιότητα \#getCategories.getCategories χρησιμοποιούνται για τις πρωτεύουσες σειρές. Αναγνώγηση/εγγραφή boolean.
+Αν είναι ψευδής, τότε η ιδιότητα #getSecondaryCategories.getSecondaryCategories επιστρέφει null και τα δεδομένα στην ιδιότητα #getCategories.getCategories χρησιμοποιούνται τόσο για κύριες όσο και για δευτερεύουσες σειρές. Αν είναι αληθής, τότε τα δεδομένα στην ιδιότητα #getSecondaryCategories.getSecondaryCategories χρησιμοποιούνται για δευτερεύουσες σειρές και τα δεδομένα στην ιδιότητα #getCategories.getCategories χρησιμοποιούνται για κύριες σειρές. Ανάγνωση/Εγγραφή boolean.
 
 --------------------
 
@@ -131,7 +131,7 @@ boolean
 public final void setUseSecondaryCategories(boolean value)
 ```
 
-Αν είναι ψευδής, τότε η ιδιότητα \#getSecondaryCategories.getSecondaryCategories επιστρέφει null και τα δεδομένα στην ιδιότητα \#getCategories.getCategories χρησιμοποιούνται και για τις πρωτεύουσες και για τις δευτερεύουσες σειρές. Αν είναι αληθής, τότε τα δεδομένα στην ιδιότητα \#getSecondaryCategories.getSecondaryCategories χρησιμοποιούνται για τις δευτερεύουσες σειρές και τα δεδομένα στην ιδιότητα \#getCategories.getCategories χρησιμοποιούνται για τις πρωτεύουσες σειρές. Αναγνώγηση/εγγραφή boolean.
+Αν είναι ψευδής, τότε η ιδιότητα #getSecondaryCategories.getSecondaryCategories επιστρέφει null και τα δεδομένα στην ιδιότητα #getCategories.getCategories χρησιμοποιούνται τόσο για κύριες όσο και για δευτερεύουσες σειρές. Αν είναι αληθής, τότε τα δεδομένα στην ιδιότητα #getSecondaryCategories.getSecondaryCategories χρησιμοποιούνται για δευτερεύουσες σειρές και τα δεδομένα στην ιδιότητα #getCategories.getCategories χρησιμοποιούνται για κύριες σειρές. Ανάγνωση/Εγγραφή boolean.
 
 --------------------
 
@@ -149,7 +149,7 @@ public final void setUseSecondaryCategories(boolean value)
 > ```
 
 **Παράμετροι:**
-| Parameter | Type | Description |
+| Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -158,7 +158,7 @@ public final void setUseSecondaryCategories(boolean value)
 public final IChartCategoryCollection getSecondaryCategories()
 ```
 
-Αποκτά τις δευτερεύουσες κατηγορίες εάν η ιδιότητα \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) είναι αληθής. Μόνο για ανάγνωση [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection).
+Λαμβάνει τις δευτερεύουσες κατηγορίες εάν η ιδιότητα #getUseSecondaryCategories.getUseSecondaryCategories/#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) είναι αληθής. Μόνο-ανάγνωση [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection).
 
 --------------------
 
@@ -175,9 +175,7 @@ public final IChartCategoryCollection getSecondaryCategories()
 >  }
 > ```
 
---------------------
-
-Αν η ιδιότητα \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) είναι ψευδής, τότε αυτή η ιδιότητα (\#getSecondaryCategories.getSecondaryCategories) επιστρέφει null και τα δεδομένα στην ιδιότητα \#getCategories.getCategories χρησιμοποιούνται και για τις πρωτεύουσες και για τις δευτερεύουσες σειρές. Αν η ιδιότητα είναι αληθής, τότε τα δεδομένα στην ιδιότητα \#getSecondaryCategories.getSecondaryCategories χρησιμοποιούνται για τις δευτερεύουσες σειρές και τα δεδομένα στην ιδιότητα \#getCategories.getCategories χρησιμοποιούνται για τις πρωτεύουσες σειρές.
+Αν η ιδιότητα #getUseSecondaryCategories.getUseSecondaryCategories/#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) είναι ψευδής, τότε αυτή η ιδιότητα #getSecondaryCategories.getSecondaryCategories επιστρέφει null και τα δεδομένα στην ιδιότητα #getCategories.getCategories χρησιμοποιούνται τόσο για κύριες όσο και για δευτερεύουσες σειρές. Εάν η ιδιότητα είναι αληθής, τότε τα δεδομένα στην ιδιότητα #getSecondaryCategories.getSecondaryCategories χρησιμοποιούνται για δευτερεύουσες σειρές και τα δεδομένα στην ιδιότητα #getCategories.getCategories χρησιμοποιούνται για κύριες σειρές.
 
 **Επιστρέφει:**
 [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection)
@@ -187,29 +185,29 @@ public final IChartCategoryCollection getSecondaryCategories()
 public final byte[] readWorkbookStream()
 ```
 
-Γράφει το εσωτερικά περιέχομενο βιβλίο εργασίας Excel σε ροή μνήμης.
+Γράφει το εσωτερικά περιεχόμενο φύλλο εργασίας Excel σε μια ροή μνήμης.
 
 **Επιστρέφει:**
-byte[] - Επιστρέφει ένα στιγμιότυπο πίνακα byte που περιέχει αντίγραφο του εσωτερικά περιεχόμενου βιβλίου εργασίας Excel.
+byte[] - Επιστρέφει ένα στιγμιότυπο πίνακα byte που περιέχει αντίγραφο του εσωτερικά περιεχομένου φύλλου εργασίας Excel.
 
 ### writeWorkbookStream(byte[] ms) {#writeWorkbookStream-byte---}
 ```
 public final void writeWorkbookStream(byte[] ms)
 ```
 
-Αρχικοποιεί το εσωτερικά περιέχομενο βιβλίο εργασίας Excel με τιμή που καθορίζεται από τον χρήστη.
+Αρχικοποιεί το εσωτερικά περιεχόμενο φύλλο εργασίας Excel με τιμή που καθορίζεται από τον χρήστη.
 
 **Παράμετροι:**
-| Parameter | Type | Description |
+| Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| ms | byte[] | Η ροή που παρέχεται από το χρήστη και περιέχει ολόκληρο το βιβλίο εργασίας Excel. |
+| ms | byte[] | Η ροή που παρέχεται από τον χρήστη και περιλαμβάνει ολόκληρο το φύλλο εργασίας Excel. |
 
 ### getDataSourceType() {#getDataSourceType--}
 ```
 public final int getDataSourceType()
 ```
 
-Αναπαριστά τη διαδρομή εξωτερικού βιβλίου εργασίας εάν η πηγή δεδομένων είναι εξωτερική, διαφορετικά null
+Αντιπροσωπεύει τη διαδρομή εξωτερικού βιβλίου εργασίας εάν η πηγή δεδομένων είναι εξωτερική, αλλιώς null.
 
 **Επιστρέφει:**
 int
@@ -219,7 +217,7 @@ int
 public final String getExternalWorkbookPath()
 ```
 
-Αναπαριστά την πηγή δεδομένων του γραφήματος
+Αντιπροσωπεύει την πηγή δεδομένων του διαγράμματος.
 
 **Επιστρέφει:**
 java.lang.String
@@ -229,7 +227,7 @@ java.lang.String
 public final int getEmbeddedWorkbookType()
 ```
 
-Αποκτά τον τύπο του ενσωματωμένου βιβλίου εργασίας. Επιστρέφει [WorkbookType.NotDefined](../../com.aspose.slides/workbooktype\#NotDefined) εάν DataSourceType (\#getDataSourceType.getDataSourceType) είναι [ChartDataSourceType.ExternalWorkbook](../../com.aspose.slides/chartdatasourcetype\#ExternalWorkbook). Μόνο για ανάγνωση [WorkbookType](../../com.aspose.slides/workbooktype).
+Λαμβάνει τον τύπο του ενσωματωμένου βιβλίου εργασίας. Επιστρέφει [WorkbookType.NotDefined](../../com.aspose.slides/workbooktype\#NotDefined) εάν το DataSourceType (#getDataSourceType.getDataSourceType) είναι [ChartDataSourceType.ExternalWorkbook](../../com.aspose.slides/chartdatasourcetype\#ExternalWorkbook). Μόνο-ανάγνωση [WorkbookType](../../com.aspose.slides/workbooktype).
 
 **Επιστρέφει:**
 int
@@ -239,7 +237,7 @@ int
 public final String getRange()
 ```
 
-Αποκτά το εύρος δεδομένων του γραφήματος.
+Λαμβάνει την περιοχή δεδομένων του διαγράμματος.
 
 --------------------
 
@@ -254,26 +252,26 @@ public final String getRange()
 > ```
 
 **Επιστρέφει:**
-java.lang.String - Τύπος φόρμουλας εύρους δεδομένων κελιών. Π.χ.: "Sheet1!$A$1:$C$4"
+java.lang.String - Τύπος περιοχής δεδομένων κελιών. Π.χ: "Sheet1!$A$1:$C$4"
 
 ### setRange(String formula) {#setRange-java.lang.String-}
 ```
 public final void setRange(String formula)
 ```
 
-Ορίζει το εύρος δεδομένων του γραφήματος. Οι σειρές και οι κατηγορίες θα ενημερωθούν βάσει του νέου εύρους δεδομένων. Εάν ο αριθμός των σειρών στο εύρος δεδομένων είναι μεγαλύτερος από τον αριθμό σειρών στο γράφημα, θα προστεθούν επιπλέον σειρές με τον ίδιο τύπο ως η τελευταία σειρά στην τρέχουσα συλλογή, στο τέλος της συλλογής.
+Ορίζει την περιοχή δεδομένων του διαγράμματος. Οι σειρές και οι κατηγορίες θα ενημερωθούν βάσει της νέας περιοχής δεδομένων. Εάν ο αριθμός των σειρών στην περιοχή δεδομένων είναι μεγαλύτερος από τον αριθμό σειρών στα δεδομένα του διαγράμματος, τότε επιπλέον σειρές με τον ίδιο τύπο με την τελευταία σειρά στην τρέχουσα συλλογή θα προσαρτηθούν στο τέλος της συλλογής.
 
 **Παράμετροι:**
-| Parameter | Type | Description |
+| Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| formula | java.lang.String | Η φόρμουλα εύρους δεδομένων κελιών. Π.χ.: "Sheet1!$A$1:$C$4", "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
+| formula | java.lang.String | Ο τύπος περιοχής δεδομένων κελιών. Π.χ: "Sheet1!$A$1:$C$4", "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
 
 ### setExternalWorkbook(String workbookPath) {#setExternalWorkbook-java.lang.String-}
 ```
 public final void setExternalWorkbook(String workbookPath)
 ```
 
-Ορίζει εξωτερικό βιβλίο εργασίας ως πηγή δεδομένων για το γράφημα. Τα δεδομένα του γραφήματος θα ενημερωθούν από το επιλεγμένο βιβλίο εργασίας.
+Ορίζει το εξωτερικό βιβλίο εργασίας ως πηγή δεδομένων για το διάγραμμα. Τα δεδομένα του διαγράμματος θα ενημερωθούν από το σχετικό βιβλίο εργασίας.
 
 --------------------
 
@@ -289,18 +287,17 @@ public final void setExternalWorkbook(String workbookPath)
 >  }
 > ```
 
-
 **Παράμετροι:**
-| Parameter | Type | Description |
+| Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| workbookPath | java.lang.String | Διαδρομή προς το επιλεγμένο βιβλίο εργασίας |
+| workbookPath | java.lang.String | Διαδρομή προς το βιβλίο εργασίας προορισμού |
 
 ### setExternalWorkbook(String workbookPath, boolean updateChartData) {#setExternalWorkbook-java.lang.String-boolean-}
 ```
 public final void setExternalWorkbook(String workbookPath, boolean updateChartData)
 ```
 
-Ορίζει εξωτερικό βιβλίο εργασίας ως πηγή δεδομένων για το γράφημα.
+Ορίζει το εξωτερικό βιβλίο εργασίας ως πηγή δεδομένων για το διάγραμμα.
 
 --------------------
 
@@ -317,14 +314,33 @@ public final void setExternalWorkbook(String workbookPath, boolean updateChartDa
 > ```
 
 **Παράμετροι:**
-| Parameter | Type | Description |
+| Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| workbookPath | java.lang.String | Διαδρομή προς το επιλεγμένο βιβλίο εργασίας |
-| updateChartData | boolean | Εάν η τιμή είναι ψευδής, θα ενημερωθεί μόνο η διαδρομή του βιβλίου εργασίας. Τα δεδομένα του γραφήματος δεν θα φορτωθούν και δεν θα ενημερωθούν από το επιλεγμένο βιβλίο εργασίας. Μπορεί να χρησιμοποιηθεί όταν το βιβλίο εργασίας δεν υπάρχει ή δεν είναι διαθέσιμο. Εάν η τιμή είναι αληθής, τα δεδομένα του γραφήματος θα ενημερωθούν από το επιλεγμένο βιβλίο εργασίας. |
+| workbookPath | java.lang.String | Διαδρομή προς το βιβλίο εργασίας προορισμού |
+| updateChartData | boolean | Εάν η τιμή είναι ψευδής, θα ενημερωθεί μόνο η διαδρομή του βιβλίου εργασίας. Τα δεδομένα του διαγράμματος δεν θα φορτωθούν και δεν θα ενημερωθούν από το βιβλίο εργασίας προορισμού. Μπορεί να χρησιμοποιηθεί όταν το βιβλίο εργασίας προορισμού δεν υπάρχει ή δεν είναι διαθέσιμο. Εάν η τιμή είναι αληθής, τα δεδομένα του διαγράμματος θα ενημερωθούν από το βιβλίο εργασίας προορισμού. |
+
+### refreshData() {#refreshData--}
+```
+public final void refreshData()
+```
+
+Ανανεώνει τα δεδομένα του διαγράμματος επαναφορτώνοντάς τα από το βιβλίο εργασίας προέλευσης.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("presentationWithChart.pptx");
+>  try {
+>      IChart chart = (IChart)presentation.getSlides().get_Item(0).getShapes().get_Item(0);
+>      chart.getChartData().refreshData();
+>  } finally {
+>      presentation.dispose();
+>  }
+> ```
 
 ### switchRowColumn() {#switchRowColumn--}
 ```
 public final void switchRowColumn()
 ```
 
-Αλλάζει την διάταξη των δεδομένων κατά τον άξονα. Τα δεδομένα που εμφανίζονται στον άξονα X θα μετακινηθούν στον άξονα Y και αντίστροφα.
+Ανταλλάσσει τα δεδομένα κατά τον άξονα. Τα δεδομένα που απεικονίζονται στον άξονα X θα μετακινηθούν στον άξονα Y και αντίστροφα.

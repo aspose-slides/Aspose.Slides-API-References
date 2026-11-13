@@ -1,20 +1,20 @@
 ---
 title: FontsManager
-second_title: Aspose.Slides για Java API Αναφορά
-description: Διαχειρίζεται γραμματοσειρές σε όλη την παρουσίαση.
+second_title: Aspose.Slides για την αναφορά API της Java
+description: Διαχειρίζεται τις γραμματοσειρές σε όλη την παρουσίαση.
 type: docs
 url: /el/com.aspose.slides/fontsmanager/
 ---
-**Κληρονομικότητα:**  
+**Κληρονομία:**
 java.lang.Object
 
-**Όλες οι υλοποιημένες διεπαφές:**  
-[com.aspose.slides.IFontsManager](../../com.aspose.slides/ifontsmanager)  
+**Όλες οι Υλοποιημένες Διεπαφές:**
+[com.aspose.slides.IFontsManager](../../com.aspose.slides/ifontsmanager)
 ```
 public class FontsManager implements IFontsManager
 ```
 
-Διαχειρίζεται γραμματοσειρές σε όλη την παρουσίαση.
+Διαχειρίζεται τις γραμματοσειρές σε όλη την παρουσίαση.
 
 --------------------
 
@@ -24,7 +24,7 @@ public class FontsManager implements IFontsManager
 >  // Φόρτωση παρουσίασης
 >  Presentation pres = new Presentation("Fonts.pptx");
 >  try {
->      // Φόρτωση γραμματοσειράς προέλευσης προς αντικατάσταση
+>      // Φόρτωση πηγής γραμματοσειράς προς αντικατάσταση
 >      IFontData sourceFont = new FontData("Arial");
 >      IFontData[] allFonts = pres.getFontsManager().getFonts();
 >      for (IFontData font : allFonts)
@@ -43,7 +43,7 @@ public class FontsManager implements IFontsManager
 >              pres.getFontsManager().addEmbeddedFont(font, EmbedFontCharacters.All);
 >          }
 >      }
->      // Αποθήκευση παρουσίασης
+>      // Αποθήκευση της παρουσίασης
 >      pres.save("AddEmbeddedFont_out.pptx", SaveFormat.Pptx);
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -54,31 +54,33 @@ public class FontsManager implements IFontsManager
 
 | Μέθοδος | Περιγραφή |
 | --- | --- |
-| [getFontSubstRuleList()](#getFontSubstRuleList--) | Υποκατάστατες γραμματοσειρών για χρήση κατά τη απόδοση. |
-| [setFontSubstRuleList(IFontSubstRuleCollection value)](#setFontSubstRuleList-com.aspose.slides.IFontSubstRuleCollection-) | Υποκατάστατες γραμματοσειρών για χρήση κατά τη απόδοση. |
-| [getFontFallBackRulesCollection()](#getFontFallBackRulesCollection--) | Αναπαριστά τη συλλογή ενός χρήστη από κανόνες FontFallBack για τη διαχείριση συλλογών γραμματοσειρών για σωστές υποκαταστάσεις μέσω λειτουργίας fallback. Ανάγνωση/εγγραφή [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
-| [setFontFallBackRulesCollection(IFontFallBackRulesCollection value)](#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-) | Αναπαριστά τη συλλογή ενός χρήστη από κανόνες FontFallBack για τη διαχείριση συλλογών γραμματοσειρών για σωστές υποκαταστάσεις μέσω λειτουργίας fallback. Ανάγνωση/εγγραφή [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
+| [getFontSubstRuleList()](#getFontSubstRuleList--) | Αντικαταστάσεις γραμματοσειρών για χρήση κατά την απόδοση. |
+| [setFontSubstRuleList(IFontSubstRuleCollection value)](#setFontSubstRuleList-com.aspose.slides.IFontSubstRuleCollection-) | Αντικαταστάσεις γραμματοσειρών για χρήση κατά την απόδοση. |
+| [getFontFallBackRulesCollection()](#getFontFallBackRulesCollection--) | Αναπαριστά τη συλλογή κανόνων FontFallBack ενός χρήστη για τη διαχείριση συλλογών γραμματοσειρών για σωστές αντικαταστάσεις μέσω της λειτουργίας fallback. Ανάγνωση/εγγραφή [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
+| [setFontFallBackRulesCollection(IFontFallBackRulesCollection value)](#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-) | Αναπαριστά τη συλλογή κανόνων FontFallBack ενός χρήστη για τη διαχείριση συλλογών γραμματοσειρών για σωστές αντικαταστάσεις μέσω της λειτουργίας fallback. Ανάγνωση/εγγραφή [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
 | [getFonts()](#getFonts--) | Επιστρέφει τις γραμματοσειρές που χρησιμοποιούνται στην παρουσίαση |
-| [getSubstitutions()](#getSubstitutions--) | Λαμβάνει τις πληροφορίες για τις γραμματοσειρές που θα αντικατασταθούν κατά την απόδοση της παρουσίασης. |
-| [getSubstitutions(int[] slides)](#getSubstitutions-int---) | Λαμβάνει τις πληροφορίες για τις γραμματοσειρές που θα αντικατασταθούν κατά τη διάρκεια της απόδοσης των καθορισμένων διαφανειών. |
-| [getEmbeddedFonts()](#getEmbeddedFonts--) | Επιστρέφει τις ενσωματωμένες γραμματοσειρές στην παρουσίαση |
-| [removeEmbeddedFont(IFontData fontData)](#removeEmbeddedFont-com.aspose.slides.IFontData-) | Καταργεί την ενσωματωμένη γραμματοσειρά |
+| [getSubstitutions()](#getSubstitutions--) | Αποκτά τις πληροφορίες σχετικά με τις γραμματοσειρές που θα αντικατασταθούν κατά την απόδοση της παρουσίασης. |
+| [getSubstitutions(int[] slides)](#getSubstitutions-int---) | Αποκτά τις πληροφορίες σχετικά με τις γραμματοσειρές που θα αντικατασταθούν κατά την απόδοση των καθορισμένων διαφανειών. |
+| [getPreferRegisteredFontsOverEmbedded()](#getPreferRegisteredFontsOverEmbedded--) | Καθορίζει εάν οι καταχωρημένες γραμματοσειρές πρέπει να προτιμώνται έναντι ενσωματωμένων γραμματοσειρών με το ίδιο όνομα και στυλ. |
+| [setPreferRegisteredFontsOverEmbedded(boolean value)](#setPreferRegisteredFontsOverEmbedded-boolean-) | Καθορίζει εάν οι καταχωρημένες γραμματοσειρές πρέπει να προτιμώνται έναντι ενσωματωμένων γραμματοσειρών με το ίδιο όνομα και στυλ. |
+| [getEmbeddedFonts()](#getEmbeddedFonts--) | Επιστρέφει τις γραμματοσειρές που έχουν ενσωματωθεί στην παρουσίαση |
+| [removeEmbeddedFont(IFontData fontData)](#removeEmbeddedFont-com.aspose.slides.IFontData-) | Αφαιρεί την ενσωματωμένη γραμματοσειρά |
 | [addEmbeddedFont(IFontData fontData, int embedFontRule)](#addEmbeddedFont-com.aspose.slides.IFontData-int-) | Προσθέτει την ενσωματωμένη γραμματοσειρά |
 | [addEmbeddedFont(byte[] fontData, int embedFontRule)](#addEmbeddedFont-byte---int-) | Προσθέτει την ενσωματωμένη γραμματοσειρά |
 | [replaceFont(IFontData sourceFont, IFontData destFont)](#replaceFont-com.aspose.slides.IFontData-com.aspose.slides.IFontData-) | Αντικαθιστά τη γραμματοσειρά στην παρουσίαση |
 | [replaceFont(IFontSubstRule substRule)](#replaceFont-com.aspose.slides.IFontSubstRule-) | Αντικαθιστά τη γραμματοσειρά στην παρουσίαση χρησιμοποιώντας τις πληροφορίες που παρέχονται στο [FontSubstRule](../../com.aspose.slides/fontsubstrule) |
-| [replaceFont(IFontSubstRuleCollection substRules)](#replaceFont-com.aspose.slides.IFontSubstRuleCollection-) | Αντικαθιστά τη γραμματοσειρά στην παρουσίαση χρησιμοποιώντας τις πληροφορίες που παρέχονται στη συλλογή του [FontSubstRule](../../com.aspose.slides/fontsubstrule) |
-| [getFontBytes(IFontData fontData, int fontStyle)](#getFontBytes-com.aspose.slides.IFontData-int-) | Ανακτά το πίνακα byte που αντιπροσωπεύει τα δεδομένα γραμματοσειράς για ένα καθορισμένο στυλ γραμματοσειράς και δεδομένα γραμματοσειράς. |
-| [getFontEmbeddingLevel(byte[] fontBytes, String fontName)](#getFontEmbeddingLevel-byte---java.lang.String-) | Καθορίζει το επίπεδο ενσωμάτωσης μιας γραμματοσειράς από τον δεδομένο πίνακα byte και το όνομα γραμματοσειράς. |
+| [replaceFont(IFontSubstRuleCollection substRules)](#replaceFont-com.aspose.slides.IFontSubstRuleCollection-) | Αντικαθιστά τη γραμματοσειρά στην παρουσίαση χρησιμοποιώντας τις πληροφορίες που παρέχονται στη συλλογή των [FontSubstRule](../../com.aspose.slides/fontsubstrule) |
+| [getFontBytes(IFontData fontData, int fontStyle)](#getFontBytes-com.aspose.slides.IFontData-int-) | Ανακτά τον πίνακα byte που αντιπροσωπεύει τα δεδομένα γραμματοσειράς για ένα καθορισμένο στυλ γραμματοσειράς και δεδομένα γραμματοσειράς. |
+| [getFontEmbeddingLevel(byte[] fontBytes, String fontName)](#getFontEmbeddingLevel-byte---java.lang.String-) | Καθορίζει το επίπεδο ενσωμάτωσης μιας γραμματοσειράς από τον δοσμένο πίνακα byte και το όνομα γραμματοσειράς. |
 
 ### getFontSubstRuleList() {#getFontSubstRuleList--}
 ```
 public final IFontSubstRuleCollection getFontSubstRuleList()
 ```
 
-Υποκατάστατες γραμματοσειρών για χρήση κατά τη απόδοση. Ανάγνωση/εγγραφή [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
+Αντικαταστάσεις γραμματοσειρών για χρήση κατά την απόδοση. Ανάγνωση/εγγραφή [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
 
-**Επιστρέφει:**  
+**Επιστρέφει:**
 [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection)
 
 ### setFontSubstRuleList(IFontSubstRuleCollection value) {#setFontSubstRuleList-com.aspose.slides.IFontSubstRuleCollection-}
@@ -86,7 +88,7 @@ public final IFontSubstRuleCollection getFontSubstRuleList()
 public final void setFontSubstRuleList(IFontSubstRuleCollection value)
 ```
 
-Υποκατάστατες γραμματοσειρών για χρήση κατά τη απόδοση. Ανάγνωση/εγγραφή [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
+Αντικαταστάσεις γραμματοσειρών για χρήση κατά την απόδοση. Ανάγνωση/εγγραφή [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
@@ -98,7 +100,7 @@ public final void setFontSubstRuleList(IFontSubstRuleCollection value)
 public final IFontFallBackRulesCollection getFontFallBackRulesCollection()
 ```
 
-Αναπαριστά τη συλλογή ενός χρήστη από κανόνες FontFallBack για τη διαχείριση συλλογών γραμματοσειρών για σωστές υποκαταστάσεις μέσω λειτουργίας fallback. Ανάγνωση/εγγραφή [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
+Αναπαριστά τη συλλογή κανόνων FontFallBack ενός χρήστη για τη διαχείριση συλλογών γραμματοσειρών για σωστές αντικαταστάσεις μέσω της λειτουργίας fallback. Ανάγνωση/εγγραφή [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
 
 --------------------
 
@@ -108,12 +110,12 @@ public final IFontFallBackRulesCollection getFontFallBackRulesCollection()
 >  {
 >      // Λήψη κενής ή προαρχικοποιημένης συλλογής κανόνων από το FontsManager
 >      IFontFallBackRulesCollection rulesList = pres.getFontsManager().getFontFallBackRulesCollection();
->      // προσθήκη κανόνων στη συλλογή
+>      // Προσθήκη κανόνων στη συλλογή
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
 >      // ή 
->      // αρχικοποίηση νέας παρουσίασης της συλλογής κανόνων
+>      // Αρχικοποίηση νέας εμφάνισης της συλλογής κανόνων
 >      IFontFallBackRulesCollection rulesList = new FontFallBackRulesCollection();
->      // προσθήκη κανόνων στη συλλογή
+>      // Προσθήκη κανόνων στη συλλογή
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
 >      // και αντικατάσταση της υπάρχουσας συλλογής με τη νέα στο FontsManager 
 >      pres.getFontsManager().setFontFallBackRulesCollection(rulesList);
@@ -124,7 +126,7 @@ public final IFontFallBackRulesCollection getFontFallBackRulesCollection()
 > ```
 
 
-**Επιστρέφει:**  
+**Επιστρέφει:**
 [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection)
 
 ### setFontFallBackRulesCollection(IFontFallBackRulesCollection value) {#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-}
@@ -132,7 +134,7 @@ public final IFontFallBackRulesCollection getFontFallBackRulesCollection()
 public final void setFontFallBackRulesCollection(IFontFallBackRulesCollection value)
 ```
 
-Αναπαριστά τη συλλογή ενός χρήστη από κανόνες FontFallBack για τη διαχείριση συλλογών γραμματοσειρών για σωστές υποκαταστάσεις μέσω λειτουργίας fallback. Ανάγνωση/εγγραφή [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
+Αναπαριστά τη συλλογή κανόνων FontFallBack ενός χρήστη για τη διαχείριση συλλογών γραμματοσειρών για σωστές αντικαταστάσεις μέσω της λειτουργίας fallback. Ανάγνωση/εγγραφή [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
 
 --------------------
 
@@ -142,12 +144,12 @@ public final void setFontFallBackRulesCollection(IFontFallBackRulesCollection va
 >  {
 >      // Λήψη κενής ή προαρχικοποιημένης συλλογής κανόνων από το FontsManager
 >      IFontFallBackRulesCollection rulesList = pres.getFontsManager().getFontFallBackRulesCollection();
->      // προσθήκη κανόνων στη συλλογή
+>      // Προσθήκη κανόνων στη συλλογή
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
 >      // ή 
->      // αρχικοποίηση νέας παρουσίασης της συλλογής κανόνων
+>      // Αρχικοποίηση νέας εμφάνισης της συλλογής κανόνων
 >      IFontFallBackRulesCollection rulesList = new FontFallBackRulesCollection();
->      // προσθήκη κανόνων στη συλλογή
+>      // Προσθήκη κανόνων στη συλλογή
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
 >      // και αντικατάσταση της υπάρχουσας συλλογής με τη νέα στο FontsManager 
 >      pres.getFontsManager().setFontFallBackRulesCollection(rulesList);
@@ -170,15 +172,15 @@ public final IFontData[] getFonts()
 
 Επιστρέφει τις γραμματοσειρές που χρησιμοποιούνται στην παρουσίαση
 
-**Επιστρέφει:**  
-com.aspose.slides.IFontData[] - Πίνακας γραμματοσειρών
+**Επιστρέφει:**
+com.aspose.slides.IFontData[] - Ένας πίνακας γραμματοσειρών
 
 ### getSubstitutions() {#getSubstitutions--}
 ```
 public final System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo> getSubstitutions()
 ```
 
-Λαμβάνει τις πληροφορίες για τις γραμματοσειρές που θα αντικατασταθούν κατά την απόδοση της παρουσίασης.
+Αποκτά τις πληροφορίες σχετικά με τις γραμματοσειρές που θα αντικατασταθούν κατά την απόδοση της παρουσίασης.
 
 --------------------
 
@@ -195,15 +197,15 @@ public final System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo>
 > ```
 
 
-**Επιστρέφει:**  
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - Συλλογή όλων των υποκαταστάσεων γραμματοσειρών [FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo).
+**Επιστρέφει:**
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - Συλλογή όλων των αντικαταστάσεων γραμματοσειρών [FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo).
 
 ### getSubstitutions(int[] slides) {#getSubstitutions-int---}
 ```
 public final System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo> getSubstitutions(int[] slides)
 ```
 
-Λαμβάνει τις πληροφορίες για τις γραμματοσειρές που θα αντικατασταθούν κατά τη διάρκεια της απόδοσης των καθορισμένων διαφανειών.
+Αποκτά τις πληροφορίες σχετικά με τις γραμματοσειρές που θα αντικατασταθούν κατά την απόδοση των καθορισμένων διαφανειών.
 
 --------------------
 
@@ -220,23 +222,76 @@ public final System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo>
 >  }
 > ```
 
+**Παράμετροι:**
+| Παράμετρος | Τύπος | Περιγραφή |
+| --- | --- | --- |
+| slides | int[] | Ένας πίνακας δεικτών διαφανειών για τους οποίους θα ληφθούν οι πληροφορίες αντικατάστασης γραμματοσειρών, ξεκινώντας από 1. |
+
+**Επιστρέφει:**
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - Μια συλλογή όλων των αντικαταστάσεων γραμματοσειρών ([FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo)) για τις καθορισμένες διαφάνειες.
+
+### getPreferRegisteredFontsOverEmbedded() {#getPreferRegisteredFontsOverEmbedded--}
+```
+public final boolean getPreferRegisteredFontsOverEmbedded()
+```
+
+Καθορίζει εάν οι καταχωρημένες γραμματοσειρές πρέπει να προτιμώνται έναντι ενσωματωμένων γραμματοσειρών με το ίδιο όνομα και στυλ. Όταν ενεργοποιηθεί, οι αντίστοιχες ενσωματωμένες γραμματοσειρές αντικαθίστανται προσωρινά με τις αντίστοιχες καταχωρημένες γραμματοσειρές κατά την εξαγωγή.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("SomePresentation.pptx");
+>  try {
+>      pres.getFontsManager().setPreferRegisteredFontsOverEmbedded(true);
+>      pres.save("Presentation-out.pdf", SaveFormat.Pdf);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+Η προεπιλογή είναι **false**.
+
+**Επιστρέφει:**
+boolean
+
+### setPreferRegisteredFontsOverEmbedded(boolean value) {#setPreferRegisteredFontsOverEmbedded-boolean-}
+```
+public final void setPreferRegisteredFontsOverEmbedded(boolean value)
+```
+
+Καθορίζει εάν οι καταχωρημένες γραμματοσειρές πρέπει να προτιμώνται έναντι ενσωματωμένων γραμματοσειρών με το ίδιο όνομα και στυλ. Όταν ενεργοποιηθεί, οι αντίστοιχες ενσωματωμένες γραμματοσειρές αντικαθίστανται προσωρινά με τις αντίστοιχες καταχωρημένες γραμματοσειρές κατά την εξαγωγή.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("SomePresentation.pptx");
+>  try {
+>      pres.getFontsManager().setPreferRegisteredFontsOverEmbedded(true);
+>      pres.save("Presentation-out.pdf", SaveFormat.Pdf);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+Η προεπιλογή είναι **false**.
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| slides | int[] | Πίνακας δεικτών διαφανειών για τους οποίους θα ανακτηθεί η πληροφορία υποκατάστασης γραμματοσειράς, ξεκινώντας από το 1. |
-
-**Επιστρέφει:**  
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - Συλλογή όλων των υποκαταστάσεων γραμματοσειρών ([FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo)) για τις καθορισμένες διαφάνειες.
+| value | boolean |  |
 
 ### getEmbeddedFonts() {#getEmbeddedFonts--}
 ```
 public final IFontData[] getEmbeddedFonts()
 ```
 
-Επιστρέφει τις ενσωματωμένες γραμματοσειρές στην παρουσίαση
+Επιστρέφει τις γραμματοσειρές που έχουν ενσωματωθεί στην παρουσίαση
 
-**Επιστρέφει:**  
+**Επιστρέφει:**
 com.aspose.slides.IFontData[]
 
 ### removeEmbeddedFont(IFontData fontData) {#removeEmbeddedFont-com.aspose.slides.IFontData-}
@@ -244,7 +299,7 @@ com.aspose.slides.IFontData[]
 public final void removeEmbeddedFont(IFontData fontData)
 ```
 
-Καταργεί την ενσωματωμένη γραμματοσειρά
+Αφαιρεί την ενσωματωμένη γραμματοσειρά
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
@@ -288,7 +343,7 @@ public final void replaceFont(IFontData sourceFont, IFontData destFont)
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | sourceFont | [IFontData](../../com.aspose.slides/ifontdata) | Πηγή γραμματοσειράς |
-| destFont | [IFontData](../../com.aspose.slides/ifontdata) | Προορισμός γραμματοσειράς |
+| destFont | [IFontData](../../com.aspose.slides/ifontdata) | Γραμματοσειρά προορισμού |
 
 ### replaceFont(IFontSubstRule substRule) {#replaceFont-com.aspose.slides.IFontSubstRule-}
 ```
@@ -300,26 +355,26 @@ public final void replaceFont(IFontSubstRule substRule)
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| substRule | [IFontSubstRule](../../com.aspose.slides/ifontsubstrule) | Πληροφορίες υποκατάστασης γραμματοσειράς |
+| substRule | [IFontSubstRule](../../com.aspose.slides/ifontsubstrule) | Πληροφορίες αντικατάστασης γραμματοσειράς |
 
 ### replaceFont(IFontSubstRuleCollection substRules) {#replaceFont-com.aspose.slides.IFontSubstRuleCollection-}
 ```
 public final void replaceFont(IFontSubstRuleCollection substRules)
 ```
 
-Αντικαθιστά τη γραμματοσειρά στην παρουσίαση χρησιμοποιώντας τις πληροφορίες που παρέχονται στη συλλογή του [FontSubstRule](../../com.aspose.slides/fontsubstrule)
+Αντικαθιστά τη γραμματοσειρά στην παρουσίαση χρησιμοποιώντας τις πληροφορίες που παρέχονται στη συλλογή των [FontSubstRule](../../com.aspose.slides/fontsubstrule)
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| substRules | [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection) | Συλλογή κανόνων υποκατάστασης γραμματοσειράς |
+| substRules | [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection) | Συλλογή κανόνων αντικατάστασης γραμματοσειράς |
 
 ### getFontBytes(IFontData fontData, int fontStyle) {#getFontBytes-com.aspose.slides.IFontData-int-}
 ```
 public final byte[] getFontBytes(IFontData fontData, int fontStyle)
 ```
 
-Ανακτά το πίνακα byte που αντιπροσωπεύει τα δεδομένα γραμματοσειράς για ένα καθορισμένο στυλ γραμματοσειράς και δεδομένα γραμματοσειράς.
+Ανακτά τον πίνακα byte που αντιπροσωπεύει τα δεδομένα γραμματοσειράς για ένα καθορισμένο στυλ γραμματοσειράς και δεδομένα γραμματοσειράς.
 
 --------------------
 
@@ -335,22 +390,21 @@ public final byte[] getFontBytes(IFontData fontData, int fontStyle)
 >  }
 > ```
 
-
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | fontData | [IFontData](../../com.aspose.slides/ifontdata) | Το αντικείμενο δεδομένων γραμματοσειράς που περιέχει τις πληροφορίες για τη γραμματοσειρά [IFontData](../../com.aspose.slides/ifontdata). |
-| fontStyle | int | Το στυλ της γραμματοσειράς για το οποίο θα ανακτηθούν τα δεδομένα [FontStyleType](../../com.aspose.slides/fontstyletype). |
+| fontStyle | int | Το στυλ της γραμματοσειράς για το οποίο πρέπει να ανακτηθούν τα δεδομένα [FontStyleType](../../com.aspose.slides/fontstyletype). |
 
-**Επιστρέφει:**  
-byte[] - Πίνακας byte που περιέχει τα δεδομένα γραμματοσειράς για το καθορισμένο στυλ. Αν τα δεδομένα ή το στυλ δεν βρεθούν, επιστρέφει null.
+**Επιστρέφει:**
+byte[] - Ένας πίνακας byte που περιέχει τα δεδομένα γραμματοσειράς για το καθορισμένο στυλ γραμματοσειράς. Εάν τα δεδομένα ή το στυλ της γραμματοσειράς δεν βρεθούν, επιστρέφει null.
 
 ### getFontEmbeddingLevel(byte[] fontBytes, String fontName) {#getFontEmbeddingLevel-byte---java.lang.String-}
 ```
 public final int getFontEmbeddingLevel(byte[] fontBytes, String fontName)
 ```
 
-Καθορίζει το επίπεδο ενσωμάτωσης μιας γραμματοσειράς από τον δεδομένο πίνακα byte και το όνομα γραμματοσειράς.
+Καθορίζει το επίπεδο ενσωμάτωσης μιας γραμματοσειράς από τον δοσμένο πίνακα byte και το όνομα γραμματοσειράς.
 
 --------------------
 
@@ -368,12 +422,11 @@ public final int getFontEmbeddingLevel(byte[] fontBytes, String fontName)
 >  }
 > ```
 
-
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | fontBytes | byte[] | Ο πίνακας byte που περιέχει τα δεδομένα της γραμματοσειράς. |
 | fontName | java.lang.String | Το όνομα της γραμματοσειράς. |
 
-**Επιστρέφει:**  
+**Επιστρέφει:**
 int - Το επίπεδο ενσωμάτωσης της καθορισμένης γραμματοσειράς.

@@ -1,6 +1,6 @@
 ---
 title: IDataLabel
-second_title: Aspose.Slides dla Java – odniesienie API
+second_title: Aspose.Slides dla Java – Dokumentacja API
 description: Reprezentuje etykiety serii.
 type: docs
 url: /pl/com.aspose.slides/idatalabel/
@@ -16,22 +16,24 @@ Reprezentuje etykiety serii.
 
 | Metoda | Opis |
 | --- | --- |
-| [isVisible()](#isVisible--) | False means that data label is not visible (and so all Show\*-flags (ShowValue, ...) are false). |
-| [hide()](#hide--) | Make data label hidden by setting all Show\*-flags (ShowValue, ...) to false state. |
-| [getDataLabelFormat()](#getDataLabelFormat--) | Returns format of the data label. |
-| [getValueFromCell()](#getValueFromCell--) | Gets or sets workbook data cell. |
-| [setValueFromCell(IChartDataCell value)](#setValueFromCell-com.aspose.slides.IChartDataCell-) | Gets or sets workbook data cell. |
-| [getActualLabelText()](#getActualLabelText--) | Returns actual label text based on DataLabelFormat settings or TextFrameForOverriding.Text value. |
+| [isVisible()](#isVisible--) | False oznacza, że etykieta danych nie jest widoczna (a więc wszystkie flagi Show*- (ShowValue, ...) mają wartość false). |
+| [hide()](#hide--) | Ukryj etykietę danych, ustawiając wszystkie flagi Show*- (ShowValue, ...) w stan false. |
+| [getDataLabelFormat()](#getDataLabelFormat--) | Zwraca format etykiety danych. |
+| [getValueFromCell()](#getValueFromCell--) | Pobiera lub ustawia komórkę danych skoroszytu. |
+| [setValueFromCell(IChartDataCell value)](#setValueFromCell-com.aspose.slides.IChartDataCell-) | Pobiera lub ustawia komórkę danych skoroszytu. |
+| [getActualLabelText()](#getActualLabelText--) | Zwraca rzeczywisty tekst etykiety na podstawie ustawień DataLabelFormat lub wartości TextFrameForOverriding.Text. |
+| [getLabelShapeType()](#getLabelShapeType--) | Pobiera lub ustawia typ kształtu etykiety danych. |
+| [setLabelShapeType(int value)](#setLabelShapeType-int-) | Pobiera lub ustawia typ kształtu etykiety danych. |
 ### isVisible() {#isVisible--}
 ```
 public abstract boolean isVisible()
 ```
 
-False means that data label is not visible (and so all Show\*-flags (ShowValue, ...) are false). Typ logiczny tylko do odczytu.
+False oznacza, że etykieta danych nie jest widoczna (a więc wszystkie flagi Show*- (ShowValue, ...) są false). Tylko do odczytu boolean.
 
 --------------------
 
-Jeśli etykieta danych jest widoczna, możesz ją ukryć metodą Hide(). Natomiast jeśli etykieta danych nie jest widoczna (IsVisible jest false), możesz ją uczynić widoczną, ustawiając flagi Show\*-flags (ShowValue, ...) w stan true.
+Jeśli etykieta danych jest widoczna, możesz ją ukryć metodą Hide(). Jednak jeśli etykieta danych nie jest widoczna (IsVisible jest false), możesz ją uczynić widoczną, ustawiając flagi Show*- (ShowValue, ...) w stan true.
 
 **Zwraca:**
 boolean
@@ -40,18 +42,18 @@ boolean
 public abstract void hide()
 ```
 
-Make data label hidden by setting all Show\*-flags (ShowValue, ...) to false state. IsVisible will be false after this.
+Ukryj etykietę danych, ustawiając wszystkie flagi Show*- (ShowValue, ...) w stan false. IsVisible będzie false po wykonaniu tej operacji.
 
 --------------------
 
-Jeśli etykieta danych nie jest widoczna (IsVisible jest false), możesz ją uczynić widoczną, ustawiając flagi Show\*-flags (ShowValue, ...) w stan true.
+Jeśli etykieta danych nie jest widoczna (IsVisible jest false), możesz uczynić ją widoczną, ustawiając flagi Show*- (ShowValue, ...) w stan true.
 
 ### getDataLabelFormat() {#getDataLabelFormat--}
 ```
 public abstract IDataLabelFormat getDataLabelFormat()
 ```
 
-Returns format of the data label. Read-only [IDataLabelFormat](../../com.aspose.slides/idatalabelformat).
+Zwraca format etykiety danych. Tylko do odczytu [IDataLabelFormat](../../com.aspose.slides/idatalabelformat).
 
 **Zwraca:**
 [IDataLabelFormat](../../com.aspose.slides/idatalabelformat)
@@ -60,7 +62,7 @@ Returns format of the data label. Read-only [IDataLabelFormat](../../com.aspose.
 public abstract IChartDataCell getValueFromCell()
 ```
 
-Gets or sets workbook data cell. Applied if IDataLabelFormat.ShowLabelValueFromCell property equals true.
+Pobiera lub ustawia komórkę danych skoroszytu. Stosowane, jeśli właściwość IDataLabelFormat.ShowLabelValueFromCell ma wartość true.
 
 **Zwraca:**
 [IChartDataCell](../../com.aspose.slides/ichartdatacell)
@@ -69,7 +71,7 @@ Gets or sets workbook data cell. Applied if IDataLabelFormat.ShowLabelValueFromC
 public abstract void setValueFromCell(IChartDataCell value)
 ```
 
-Gets or sets workbook data cell. Applied if IDataLabelFormat.ShowLabelValueFromCell property equals true.
+Pobiera lub ustawia komórkę danych skoroszytu. Stosowane, jeśli właściwość IDataLabelFormat.ShowLabelValueFromCell ma wartość true.
 
 **Parametry:**
 | Parameter | Type | Description |
@@ -80,7 +82,59 @@ Gets or sets workbook data cell. Applied if IDataLabelFormat.ShowLabelValueFromC
 public abstract String getActualLabelText()
 ```
 
-Returns actual label text based on DataLabelFormat settings or TextFrameForOverriding.Text value.
+Zwraca rzeczywisty tekst etykiety na podstawie ustawień DataLabelFormat lub wartości TextFrameForOverriding.Text.
 
 **Zwraca:**
-java.lang.String - Actual label text String
+java.lang.String - Rzeczywisty tekst etykiety String
+### getLabelShapeType() {#getLabelShapeType--}
+```
+public abstract int getLabelShapeType()
+```
+
+Pobiera lub ustawia typ kształtu etykiety danych. Zwraca [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) jeśli nie zdefiniowano kształtu.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Ustaw typ kształtu pierwszej etykiety danych na Ellipse.
+>      firstSeries.getLabels().get_Item(0).setLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabel.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Zwraca:**
+int
+### setLabelShapeType(int value) {#setLabelShapeType-int-}
+```
+public abstract void setLabelShapeType(int value)
+```
+
+Pobiera lub ustawia typ kształtu etykiety danych. Zwraca [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) jeśli nie zdefiniowano kształtu.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Ustaw typ kształtu pierwszej etykiety danych na Ellipse.
+>      firstSeries.getLabels().get_Item(0).setLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabel.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Parametry:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |   |

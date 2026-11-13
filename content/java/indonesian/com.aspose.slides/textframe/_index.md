@@ -1,42 +1,43 @@
 ---
 title: TextFrame
-second_title: Referensi API Aspose.Slides untuk Java
-description: Mewakili TextFrame.
+second_title: Aspose.Slides untuk Referensi API Java
+description: Mewakili sebuah TextFrame.
 type: docs
 url: /id/com.aspose.slides/textframe/
 ---
-**Warisan:**
+**Inheritance:**
 java.lang.Object
 
-**Semua Antarmuka yang Diimplementasikan:**
+**All Implemented Interfaces:**
 [com.aspose.slides.ITextFrame](../../com.aspose.slides/itextframe), com.aspose.slides.IDOMObject
 ```
 public final class TextFrame implements ITextFrame, IDOMObject
 ```
 
-Mewakili TextFrame.
+Mewakili sebuah TextFrame.
 ## Metode
 
 | Metode | Deskripsi |
 | --- | --- |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
 | [getParagraphs()](#getParagraphs--) | Mengembalikan daftar semua paragraf dalam sebuah frame. |
-| [getText()](#getText--) | Mendapatkan atau mengatur teks biasa untuk TextFrame. |
-| [setText(String value)](#setText-java.lang.String-) | Mendapatkan atau mengatur teks biasa untuk TextFrame. |
-| [getTextFrameFormat()](#getTextFrameFormat--) | Mengembalikan objek format untuk objek TextFrame ini. |
-| [getHyperlinkQueries()](#getHyperlinkQueries--) | Menyediakan akses mudah ke hyperlink yang terkandung. |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Menggabungkan run dengan format yang sama di semua paragraf. |
-| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | Menyorot semua kecocokan teks contoh dengan warna yang ditentukan. |
-| [highlightText(String text, Color highlightColor, ITextHighlightingOptions options)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Menyorot semua kecocokan teks contoh dengan warna yang ditentukan. |
-| [splitTextByColumns()](#splitTextByColumns--) | Membagi konten teks dari [ITextFrame](../../com.aspose.slides/itextframe) menjadi array string, di mana setiap elemen sesuai dengan kolom teks terpisah dalam frame. |
-| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Menyorot semua kecocokan teks contoh dengan warna yang ditentukan. |
-| [highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)](#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Menyorot semua kecocokan ekspresi reguler dengan warna yang ditentukan. |
-| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | Menyorot semua kecocokan ekspresi reguler dengan warna yang ditentukan. |
+| [getText()](#getText--) | Mendapatkan atau mengatur teks biasa untuk sebuah TextFrame. |
+| [setText(String value)](#setText-java.lang.String-) | Mendapatkan atau mengatur teks biasa untuk sebuah TextFrame. |
+| [getTextFrameFormat()](#getTextFrameFormat--) | Mengembalikan objek pemformatan untuk objek TextFrame ini. |
+| [getHyperlinkQueries()](#getHyperlinkQueries--) | Menyediakan akses mudah ke hyperlink yang terdapat di dalamnya. |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Menggabungkan run dengan pemformatan yang sama di semua paragraf. |
+| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | Menyoroti semua kecocokan teks contoh dengan warna yang ditentukan. |
+| [highlightText(String text, Color highlightColor, ITextHighlightingOptions options)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Menyoroti semua kecocokan teks contoh dengan warna yang ditentukan. |
+| [splitTextByColumns()](#splitTextByColumns--) | Memisahkan isi teks [ITextFrame](../../com.aspose.slides/itextframe) menjadi array string, di mana setiap elemen sesuai dengan kolom teks terpisah dalam frame. |
+| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Menyoroti semua kecocokan teks contoh dengan warna yang ditentukan. |
+| [highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)](#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Menyoroti semua kecocokan ekspresi reguler dengan warna yang ditentukan. |
+| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | Menyoroti semua kecocokan ekspresi reguler dengan warna yang ditentukan. |
 | [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Mengganti semua kemunculan teks yang ditentukan dengan teks lain yang ditentukan. |
 | [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Mengganti semua kecocokan ekspresi reguler dengan string yang ditentukan. |
 | [getSlide()](#getSlide--) | Mengembalikan slide induk dari sebuah TextFrame. |
 | [getPresentation()](#getPresentation--) | Mengembalikan presentasi induk dari sebuah TextFrame. |
 | [getParentShape()](#getParentShape--) | Mengembalikan shape induk atau null jika objek induk tidak mengimplementasikan antarmuka IShape. Hanya-baca [IShape](../../com.aspose.slides/ishape). |
+| [getTextRect()](#getTextRect--) | Mendapatkan persegi panjang teks yang didefinisikan oleh geometri shape induk. |
 | [getParentCell()](#getParentCell--) | Mengembalikan sel induk atau null jika objek induk tidak mengimplementasikan antarmuka ICell. |
 
 ### getParent_Immediate() {#getParent-Immediate--}
@@ -64,7 +65,7 @@ Mengembalikan daftar semua paragraf dalam sebuah frame. Hanya-baca [IParagraphCo
 public final String getText()
 ```
 
-Mendapatkan atau mengatur teks biasa untuk TextFrame. Baca/tulis String.
+Mendapatkan atau mengatur teks biasa untuk sebuah TextFrame. Baca/tulis String.
 
 Nilai: Teks.
 
@@ -76,7 +77,7 @@ java.lang.String
 public final void setText(String value)
 ```
 
-Mendapatkan atau mengatur teks biasa untuk TextFrame. Baca/tulis String.
+Mendapatkan atau mengatur teks biasa untuk sebuah TextFrame. Baca/tulis String.
 
 Nilai: Teks.
 
@@ -90,7 +91,7 @@ Nilai: Teks.
 public final ITextFrameFormat getTextFrameFormat()
 ```
 
-Mengembalikan objek format untuk objek TextFrame ini. Hanya-baca [ITextFrameFormat](../../com.aspose.slides/itextframeformat).
+Mengembalikan objek pemformatan untuk objek TextFrame ini. Hanya-baca [ITextFrameFormat](../../com.aspose.slides/itextframeformat).
 
 **Mengembalikan:**
 [ITextFrameFormat](../../com.aspose.slides/itextframeformat)
@@ -100,7 +101,7 @@ Mengembalikan objek format untuk objek TextFrame ini. Hanya-baca [ITextFrameForm
 public final IHyperlinkQueries getHyperlinkQueries()
 ```
 
-Menyediakan akses mudah ke hyperlink yang terkandung. Hanya-baca [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
+Menediakan akses mudah ke hyperlink yang terdapat di dalamnya. Hanya-baca [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
 
 **Mengembalikan:**
 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)
@@ -110,14 +111,14 @@ Menyediakan akses mudah ke hyperlink yang terkandung. Hanya-baca [IHyperlinkQuer
 public final void joinPortionsWithSameFormatting()
 ```
 
-Menggabungkan run dengan format yang sama di semua paragraf.
+Menggabungkan run dengan pemformatan yang sama di semua paragraf.
 
 ### highlightText(String text, Color highlightColor) {#highlightText-java.lang.String-java.awt.Color-}
 ```
 public final void highlightText(String text, Color highlightColor)
 ```
 
-Menyorot semua kecocokan teks contoh dengan warna yang ditentukan.
+Menyoroti semua kecocokan teks contoh dengan warna yang ditentukan.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
@@ -130,7 +131,7 @@ Menyorot semua kecocokan teks contoh dengan warna yang ditentukan.
 public final void highlightText(String text, Color highlightColor, ITextHighlightingOptions options)
 ```
 
-Menyorot semua kecocokan teks contoh dengan warna yang ditentukan.
+Menyoroti semua kecocokan teks contoh dengan warna yang ditentukan.
 
 --------------------
 
@@ -162,7 +163,7 @@ Menyorot semua kecocokan teks contoh dengan warna yang ditentukan.
 public final String[] splitTextByColumns()
 ```
 
-Membagi konten teks dari [ITextFrame](../../com.aspose.slides/itextframe) menjadi array string, di mana setiap elemen sesuai dengan kolom teks terpisah dalam frame.
+Memisahkan isi teks [ITextFrame](../../com.aspose.slides/itextframe) menjadi array string, di mana setiap elemen sesuai dengan kolom teks terpisah dalam frame.
 
 --------------------
 
@@ -173,9 +174,9 @@ Membagi konten teks dari [ITextFrame](../../com.aspose.slides/itextframe) menjad
 >  try {
 >      // Dapatkan shape pertama pada slide dan cast menjadi ITextFrame
 >      ITextFrame textFrame = (ITextFrame) pres.getSlides().get_Item(0).getShapes().get_Item(0);
->      // Membagi konten text frame menjadi kolom
+>      // Pisahkan konten text frame menjadi kolom
 >      String[] columnsText = textFrame.splitTextByColumns();
->      // Cetak teks setiap kolom ke konsol
+>      // Cetak teks tiap kolom ke console
 >      for (String column : columnsText)
 >          System.out.println(column);
 >  } finally {
@@ -183,20 +184,19 @@ Membagi konten teks dari [ITextFrame](../../com.aspose.slides/itextframe) menjad
 >  }
 > ```
 
-
 **Mengembalikan:**
-java.lang.String[] - Array string, di mana setiap string mewakili konten teks dari kolom tertentu dalam [ITextFrame](../../com.aspose.slides/itextframe).
+java.lang.String[] - Array string, di mana setiap string merepresentasikan isi teks dari kolom tertentu dalam [ITextFrame](../../com.aspose.slides/itextframe).
 
 --------------------
 
-Jika frame teks tidak berisi beberapa kolom, array yang dikembalikan akan memiliki satu elemen yang berisi teks lengkap. Kolom kosong akan direpresentasikan sebagai string kosong dalam array.
+Jika TextFrame tidak berisi banyak kolom, array yang dikembalikan akan memiliki satu elemen yang berisi seluruh teks. Kolom kosong akan direpresentasikan sebagai string kosong dalam array.
 
 ### highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
 public final void highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
-Menyorot semua kecocokan teks contoh dengan warna yang ditentukan.
+Menyoroti semua kecocokan teks contoh dengan warna yang ditentukan.
 
 --------------------
 
@@ -207,9 +207,9 @@ Menyorot semua kecocokan teks contoh dengan warna yang ditentukan.
 >  try {
 >      TextSearchOptions textSearchOptions = new TextSearchOptions();
 >      textSearchOptions.setWholeWordsOnly(true);
->      // menyorot semua kata 'important'
+>      // menyoroti semua kata 'important'
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightText("important", Color.BLUE);
->      // menyorot semua kemunculan terpisah 'the'
+>      // menyoroti semua kejadian terpisah 'the' occurrences
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightText("the", Color.MAGENTA, textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -231,7 +231,7 @@ Menyorot semua kecocokan teks contoh dengan warna yang ditentukan.
 public final void highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)
 ```
 
-Menyorot semua kecocokan ekspresi reguler dengan warna yang ditentukan.
+Menyoroti semua kecocokan ekspresi reguler dengan warna yang ditentukan.
 
 --------------------
 
@@ -241,7 +241,7 @@ Menyorot semua kecocokan ekspresi reguler dengan warna yang ditentukan.
 >  Presentation pres = new Presentation("SomePresentation.pptx");
 >  try {
 >      TextHighlightingOptions options = new TextHighlightingOptions();
->      // menyorot semua kata dengan 10 simbol atau lebih
+>      // menyoroti semua kata dengan 10 simbol atau lebih
 >      ((AutoShape) pres.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightRegex("\\b[^\\s){5,}\\b", Color.BLUE, options);
 >      pres.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -249,11 +249,10 @@ Menyorot semua kecocokan ekspresi reguler dengan warna yang ditentukan.
 >  }
 > ```
 
-
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| regex | java.lang.String | Teks ekspresi reguler untuk mendapatkan teks yang akan disorot. |
+| regex | java.lang.String | Teks ekspresi reguler untuk mendapatkan teks yang disorot. |
 | highlightColor | java.awt.Color | Warna untuk menyorot teks. |
 | options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | Opsi penyorotan. |
 
@@ -262,7 +261,7 @@ Menyorot semua kecocokan ekspresi reguler dengan warna yang ditentukan.
 public final void highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)
 ```
 
-Menyorot semua kecocokan ekspresi reguler dengan warna yang ditentukan.
+Menyoroti semua kecocokan ekspresi reguler dengan warna yang ditentukan.
 
 --------------------
 
@@ -272,14 +271,13 @@ Menyorot semua kecocokan ekspresi reguler dengan warna yang ditentukan.
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      Pattern regex = Pattern.compile("\\b[^\\s]{5,}\\b");
->      // menyorot semua kata dengan 5 simbol atau lebih
+>      // menyoroti semua kata dengan 5 simbol atau lebih
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightRegex(regex, Color.BLUE, null);
 >      presentation.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
 >      if (presentation != null) presentation.dispose();
 >  }
 > ```
-
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
@@ -312,7 +310,6 @@ Mengganti semua kemunculan teks yang ditentukan dengan teks lain yang ditentukan
 >  }
 > ```
 
-
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
@@ -343,7 +340,6 @@ Mengganti semua kecocokan ekspresi reguler dengan string yang ditentukan.
 >      if (presentation != null) presentation.dispose();
 >  }
 > ```
-
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
@@ -389,7 +385,7 @@ Mengembalikan shape induk atau null jika objek induk tidak mengimplementasikan a
 >      AutoShape autoShape = (AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0);
 >      Table table = (Table)presentation.getSlides().get_Item(0).getShapes().get_Item(1);
 > 
->      // Asersi ini selalu benar
+>      // Pernyataan ini selalu benar
 >      Assert.assertTrue(autoShape.getTextFrame().getParentShape() == autoShape);
 >      Assert.assertTrue((table.get_Item(0,0).getTextFrame()).getParentShape() == null);
 >  } finally {
@@ -397,9 +393,18 @@ Mengembalikan shape induk atau null jika objek induk tidak mengimplementasikan a
 >  }
 > ```
 
-
 **Mengembalikan:**
 [IShape](../../com.aspose.slides/ishape)
+
+### getTextRect() {#getTextRect--}
+```
+public final Rectangle2D.Float getTextRect()
+```
+
+Mendapatkan persegi panjang teks yang didefinisikan oleh geometri shape induk.
+
+**Mengembalikan:**
+java.awt.geom.Rectangle2D.Float - Sebuah java.awt.geom.Rectangle2D.Float yang mendefinisikan area teks.
 
 ### getParentCell() {#getParentCell--}
 ```
@@ -418,14 +423,13 @@ Mengembalikan sel induk atau null jika objek induk tidak mengimplementasikan ant
 >      AutoShape autoShape = (AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0);
 >      Table table = (Table)presentation.getSlides().get_Item(0).getShapes().get_Item(1);
 > 
->      // Asersi ini selalu benar
+>      // Pernyataan ini selalu benar
 >      Assert.assertTrue(table.get_Item(0,0).getTextFrame().getParentCell() == table.get_Item(0,0));
 >      Assert.assertTrue(autoShape.getTextFrame().getParentCell() == null);
 >  } finally {
 >      if (presentation != null) presentation.dispose();
 >  }
 > ```
-
 
 **Mengembalikan:**
 [ICell](../../com.aspose.slides/icell)

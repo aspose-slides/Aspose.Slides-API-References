@@ -1,6 +1,6 @@
 ---
 title: IVideoFrame
-second_title: Aspose.Slides dla Java – Dokumentacja API
+second_title: Aspose.Slides dla Java – referencja API
 description: Reprezentuje klip wideo na slajdzie.
 type: docs
 url: /pl/com.aspose.slides/ivideoframe/
@@ -14,16 +14,18 @@ public interface IVideoFrame extends IPictureFrame
 Reprezentuje klip wideo na slajdzie.
 ## Metody
 
-| Method | Description |
+| Metoda | Opis |
 | --- | --- |
-| [getRewindVideo()](#getRewindVideo--) | Określa, czy wideo jest automatycznie przewijane do początku po zakończeniu odtwarzania filmu. |
-| [setRewindVideo(boolean value)](#setRewindVideo-boolean-) | Określa, czy wideo jest automatycznie przewijane do początku po zakończeniu odtwarzania filmu. |
+| [getRewindVideo()](#getRewindVideo--) | Określa, czy wideo jest automatycznie przewijane do początku, gdy film zakończy odtwarzanie. |
+| [setRewindVideo(boolean value)](#setRewindVideo-boolean-) | Określa, czy wideo jest automatycznie przewijane do początku, gdy film zakończy odtwarzanie. |
 | [getPlayLoopMode()](#getPlayLoopMode--) | Określa, czy wideo jest odtwarzane w pętli. |
 | [setPlayLoopMode(boolean value)](#setPlayLoopMode-boolean-) | Określa, czy wideo jest odtwarzane w pętli. |
 | [getHideAtShowing()](#getHideAtShowing--) | Określa, czy VideoFrame jest ukryty. |
 | [setHideAtShowing(boolean value)](#setHideAtShowing-boolean-) | Określa, czy VideoFrame jest ukryty. |
 | [getVolume()](#getVolume--) | Zwraca lub ustawia głośność dźwięku. |
 | [setVolume(int value)](#setVolume-int-) | Zwraca lub ustawia głośność dźwięku. |
+| [getVolumeValue()](#getVolumeValue--) | Zwraca lub ustawia dokładną głośność wideo jako procent. |
+| [setVolumeValue(float value)](#setVolumeValue-float-) | Zwraca lub ustawia dokładną głośność wideo jako procent. |
 | [getPlayMode()](#getPlayMode--) | Zwraca lub ustawia tryb odtwarzania wideo. |
 | [setPlayMode(int value)](#setPlayMode-int-) | Zwraca lub ustawia tryb odtwarzania wideo. |
 | [getFullScreenMode()](#getFullScreenMode--) | Określa, czy wideo jest wyświetlane w trybie pełnoekranowym. |
@@ -32,18 +34,17 @@ Reprezentuje klip wideo na slajdzie.
 | [setLinkPathLong(String value)](#setLinkPathLong-java.lang.String-) | Zwraca lub ustawia nazwę pliku wideo powiązanego z VideoFrame. |
 | [getEmbeddedVideo()](#getEmbeddedVideo--) | Zwraca lub ustawia osadzony obiekt wideo. |
 | [setEmbeddedVideo(IVideo value)](#setEmbeddedVideo-com.aspose.slides.IVideo-) | Zwraca lub ustawia osadzony obiekt wideo. |
-| [getTrimFromStart()](#getTrimFromStart--) | Przycinanie od początku [ms] |
-| [setTrimFromStart(float value)](#setTrimFromStart-float-) | Przycinanie od początku [ms] |
-| [getTrimFromEnd()](#getTrimFromEnd--) | Przycinanie od końca [ms] |
-| [setTrimFromEnd(float value)](#setTrimFromEnd-float-) | Przycinanie od końca [ms] |
-| [getCaptionTracks()](#getCaptionTracks--) | Pobiera kolekcję napisów zamkniętych powiązanych z ramką audio. |
-
+| [getTrimFromStart()](#getTrimFromStart--) | Początek przycięcia [ms] |
+| [setTrimFromStart(float value)](#setTrimFromStart-float-) | Początek przycięcia [ms] |
+| [getTrimFromEnd()](#getTrimFromEnd--) | Koniec przycięcia [ms] |
+| [setTrimFromEnd(float value)](#setTrimFromEnd-float-) | Koniec przycięcia [ms] |
+| [getCaptionTracks()](#getCaptionTracks--) | Pobiera kolekcję zamkniętych napisów powiązanych z ramką audio. |
 ### getRewindVideo() {#getRewindVideo--}
 ```
 public abstract boolean getRewindVideo()
 ```
 
-Określa, czy wideo jest automatycznie przewijane do początku po zakończeniu odtwarzania filmu. Odczyt/zapis boolean.
+Określa, czy wideo jest automatycznie przewijane do początku, gdy film zakończy odtwarzanie. Odczyt/zapis boolean.
 
 **Zwraca:**
 boolean
@@ -52,7 +53,7 @@ boolean
 public abstract void setRewindVideo(boolean value)
 ```
 
-Określa, czy wideo jest automatycznie przewijane do początku po zakończeniu odtwarzania filmu. Odczyt/zapis boolean.
+Określa, czy wideo jest automatycznie przewijane do początku, gdy film zakończy odtwarzanie. Odczyt/zapis boolean.
 
 **Parametry:**
 | Parametr | Typ | Opis |
@@ -121,6 +122,64 @@ Zwraca lub ustawia głośność dźwięku. Odczyt/zapis [AudioVolumeMode](../../
 | Parametr | Typ | Opis |
 | --- | --- | --- |
 | value | int |  |
+
+### getVolumeValue() {#getVolumeValue--}
+```
+public abstract float getVolumeValue()
+```
+
+Zwraca lub ustawia dokładną głośność wideo jako procent. Wartość jest wyrażona jako procent od 0 do 100. Użyj tej właściwości, aby odczytać lub ustawić bardziej precyzyjne wartości niż dostępne w predefiniowanych poziomach w właściwości Volume (\#getVolume.getVolume/\#setVolume(int).setVolume(int)). Odczyt/zapis float.
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video.pptx");
+>  try {
+>      IVideoFrame videoFrame = (IVideoFrame)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // Odczytaj bieżącą dokładną głośność i ustaw ją na 75.5 procent.
+>      float currentVolume = videoFrame.getVolumeValue();
+>      System.out.println(currentVolume);
+>      videoFrame.setVolumeValue(75.5f);
+>      pres.save("video_with_volume.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Zwraca:**
+float
+### setVolumeValue(float value) {#setVolumeValue-float-}
+```
+public abstract void setVolumeValue(float value)
+```
+
+Zwraca lub ustawia dokładną głośność wideo jako procent. Wartość jest wyrażona jako procent od 0 do 100. Użyj tej właściwości, aby odczytać lub ustawić bardziej precyzyjne wartości niż dostępne w predefiniowanych poziomach w właściwości Volume (\#getVolume.getVolume/\#setVolume(int).setVolume(int)). Odczyt/zapis float.
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video.pptx");
+>  try {
+>      IVideoFrame videoFrame = (IVideoFrame)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // Odczytaj bieżącą dokładną głośność i ustaw ją na 75.5 procent.
+>      float currentVolume = videoFrame.getVolumeValue();
+>      System.out.println(currentVolume);
+>      videoFrame.setVolumeValue(75.5f);
+>      pres.save("video_with_volume.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Parametry:**
+| Parametr | Typ | Opis |
+| --- | --- | --- |
+| value | float |  |
 
 ### getPlayMode() {#getPlayMode--}
 ```
@@ -211,7 +270,7 @@ Zwraca lub ustawia osadzony obiekt wideo. Odczyt/zapis [IVideo](../../com.aspose
 public abstract float getTrimFromStart()
 ```
 
-Przycinanie od początku [ms]
+Początek przycięcia [ms]
 
 --------------------
 
@@ -223,15 +282,14 @@ Przycinanie od początku [ms]
 >      ISlide slide = pres.getSlides().get_Item(0);
 >      IVideo video = pres.getVideos().addVideo(Files.readAllBytes(Paths.get("video.mp4")));
 >      IVideoFrame videoFrame = slide.getShapes().addVideoFrame(0, 0, 100, 100, video);
->      //ustaw czas przycięcia początkowego 1 sek
+>      //ustaw początkowy czas przycinania 1 sek.
 >      videoFrame.setTrimFromStart(1000f);
->      //ustaw czas przycięcia końcowego 2 sek
+>      //ustaw końcowy czas przycinania 2 sek.
 >      videoFrame.setTrimFromEnd(2000f);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-
 
 **Zwraca:**
 float
@@ -240,7 +298,7 @@ float
 public abstract void setTrimFromStart(float value)
 ```
 
-Przycinanie od początku [ms]
+Początek przycięcia [ms]
 
 --------------------
 
@@ -252,15 +310,14 @@ Przycinanie od początku [ms]
 >      ISlide slide = pres.getSlides().get_Item(0);
 >      IVideo video = pres.getVideos().addVideo(Files.readAllBytes(Paths.get("video.mp4")));
 >      IVideoFrame videoFrame = slide.getShapes().addVideoFrame(0, 0, 100, 100, video);
->      //ustaw czas przycięcia początkowego 1 sek
+>      //ustaw początkowy czas przycinania 1 sek.
 >      videoFrame.setTrimFromStart(1000f);
->      //ustaw czas przycięcia końcowego 2 sek
+>      //ustaw końcowy czas przycinania 2 sek.
 >      videoFrame.setTrimFromEnd(2000f);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-
 
 **Parametry:**
 | Parametr | Typ | Opis |
@@ -272,7 +329,7 @@ Przycinanie od początku [ms]
 public abstract float getTrimFromEnd()
 ```
 
-Przycinanie od końca [ms]
+Koniec przycięcia [ms]
 
 **Zwraca:**
 float
@@ -281,7 +338,7 @@ float
 public abstract void setTrimFromEnd(float value)
 ```
 
-Przycinanie od końca [ms]
+Koniec przycięcia [ms]
 
 **Parametry:**
 | Parametr | Typ | Opis |
@@ -293,7 +350,7 @@ Przycinanie od końca [ms]
 public abstract ICaptionsCollection getCaptionTracks()
 ```
 
-Pobiera kolekcję napisów zamkniętych powiązanych z ramką audio. Ta właściwość jest tylko do odczytu i zwraca [ICaptionsCollection](../../com.aspose.slides/icaptionscollection) zawierający wszystkie ścieżki napisów.
+Pobiera kolekcję zamkniętych napisów powiązanych z ramką audio. Ta właściwość jest tylko do odczytu i zwraca [ICaptionsCollection](../../com.aspose.slides/icaptionscollection) zawierający wszystkie ścieżki napisów.
 
 --------------------
 
@@ -309,7 +366,7 @@ Pobiera kolekcję napisów zamkniętych powiązanych z ramką audio. Ta właści
 >          IVideoFrame videoFrame = (IVideoFrame) shape;
 >          for (ICaptions captionTrack : videoFrame.getCaptionTracks())
 >          {
->              // Pobiera dane binarne napisów i zapisuje je do pliku
+>              // Pobiera binarne dane napisów i zapisuje je do pliku
 >              FileOutputStream fos = new FileOutputStream(captionTrack.getCaptionId() + ".vtt");
 >              fos.write(captionTrack.getBinaryData());
 >              fos.close();
@@ -319,7 +376,6 @@ Pobiera kolekcję napisów zamkniętych powiązanych z ramką audio. Ta właści
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-
 
 **Zwraca:**
 [ICaptionsCollection](../../com.aspose.slides/icaptionscollection)

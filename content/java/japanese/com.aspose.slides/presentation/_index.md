@@ -5,10 +5,10 @@ description: Microsoft PowerPoint プレゼンテーションを表します。
 type: docs
 url: /ja/com.aspose.slides/presentation/
 ---
-**継承:**
+**Inheritance:**
 java.lang.Object
 
-**実装されているインターフェイス:**
+**All Implemented Interfaces:**
 [com.aspose.slides.IPresentation](../../com.aspose.slides/ipresentation), com.aspose.slides.IDOMObject
 ```
 public final class Presentation implements IPresentation, IDOMObject
@@ -21,12 +21,12 @@ Microsoft PowerPoint プレゼンテーションを表します。
 > ```
 > The following example shows how to create PowerPoint Presentation.
 >   
->  // プレゼンテーション ファイルを表す Presentation オブジェクトをインスタンス化します
+>  // プレゼンテーション ファイルを表す Presentation オブジェクトを生成します
 >  Presentation pres = new Presentation();
 >  try {
 >      // 最初のスライドを取得します
 >      ISlide slide = pres.getSlides().get_Item(0);
->      // ラインタイプのオートシェイプを追加します
+>      // タイプ line のオートシェイプを追加します
 >      slide.getShapes().addAutoShape(ShapeType.Line, 50, 150, 300, 0);
 >      // プレゼンテーション ファイルを保存します。
 >      pres.save("NewPresentation_out.pptx", SaveFormat.Pptx);
@@ -36,7 +36,7 @@ Microsoft PowerPoint プレゼンテーションを表します。
 >   
 >   The following example shows how to open and save Presentation.
 >   
->  // ppt、pptx、odp など、Presentation がサポートする任意のファイルを読み込みます
+>  // プレゼンテーションでサポートされている任意のファイルをロードします（例: ppt、pptx、odp など）
 >  Presentation pres = new Presentation("Sample.odp");
 >  try {
 >      // プレゼンテーション ファイルを保存します。
@@ -50,12 +50,12 @@ Microsoft PowerPoint プレゼンテーションを表します。
 
 | コンストラクタ | 説明 |
 | --- | --- |
-| [Presentation()](#Presentation--) | このコンストラクタは、最初から新しいプレゼンテーションを作成します。 |
-| [Presentation(LoadOptions loadOptions)](#Presentation-com.aspose.slides.LoadOptions-) | このコンストラクタは、最初から新しいプレゼンテーションを作成します。 |
-| [Presentation(InputStream stream)](#Presentation-java.io.InputStream-) | このコンストラクタは、既存のプレゼンテーションを読み込むための主要な手段です。 |
-| [Presentation(InputStream stream, LoadOptions loadOptions)](#Presentation-java.io.InputStream-com.aspose.slides.LoadOptions-) | このコンストラクタは、既存のプレゼンテーションを読み込むための主要な手段です。 |
-| [Presentation(String file)](#Presentation-java.lang.String-) | このコンストラクタは、プレゼンテーションの内容を読み取るソースファイルパスを取得します。 |
-| [Presentation(String file, LoadOptions loadOptions)](#Presentation-java.lang.String-com.aspose.slides.LoadOptions-) | このコンストラクタは、プレゼンテーションの内容を読み取るソースファイルパスを取得します。 |
+| [Presentation()](#Presentation--) | このコンストラクタは新しいプレゼンテーションを最初から作成します。 |
+| [Presentation(LoadOptions loadOptions)](#Presentation-com.aspose.slides.LoadOptions-) | このコンストラクタは新しいプレゼンテーションを最初から作成します。 |
+| [Presentation(InputStream stream)](#Presentation-java.io.InputStream-) | このコンストラクタは既存の Presentation を読み取る主要な手段です。 |
+| [Presentation(InputStream stream, LoadOptions loadOptions)](#Presentation-java.io.InputStream-com.aspose.slides.LoadOptions-) | このコンストラクタは既存の Presentation を読み取る主要な手段です。 |
+| [Presentation(String file)](#Presentation-java.lang.String-) | このコンストラクタは、Presentation の内容が読み込まれるソースファイルパスを取得します。 |
+| [Presentation(String file, LoadOptions loadOptions)](#Presentation-java.lang.String-com.aspose.slides.LoadOptions-) | このコンストラクタは、Presentation の内容が読み込まれるソースファイルパスを取得します。 |
 ## メソッド
 
 | メソッド | 説明 |
@@ -67,81 +67,84 @@ Microsoft PowerPoint プレゼンテーションを表します。
 | [getProtectionManager()](#getProtectionManager--) | このプレゼンテーションの権限マネージャーを取得します。 |
 | [getSlides()](#getSlides--) | プレゼンテーションで定義されているすべてのスライドのリストを返します。 |
 | [getSections()](#getSections--) | プレゼンテーションで定義されているすべてのスライド セクションのリストを返します。 |
-| [getSlideSize()](#getSlideSize--) | スライドサイズオブジェクトを返します。 |
-| [getNotesSize()](#getNotesSize--) | ノートスライドサイズオブジェクトを返します。 |
-| [getLayoutSlides()](#getLayoutSlides--) | プレゼンテーションで定義されているすべてのレイアウトスライドのリストを返します。 |
-| [getMasters()](#getMasters--) | プレゼンテーションで定義されているすべてのマスタースライドのリストを返します。 |
-| [getMasterNotesSlideManager()](#getMasterNotesSlideManager--) | ノートマスターマネージャーを返します。 |
-| [getMasterHandoutSlideManager()](#getMasterHandoutSlideManager--) | 配布資料マスターマネージャーを返します。 |
-| [getFontsManager()](#getFontsManager--) | フォントマネージャーを返します。 |
-| [getDefaultTextStyle()](#getDefaultTextStyle--) | シェイプのデフォルトテキストスタイルを返します。 |
-| [getCommentAuthors()](#getCommentAuthors--) | コメント作者のコレクションを返します。 |
-| [getDocumentProperties()](#getDocumentProperties--) | 標準およびカスタムのドキュメント プロパティを含む DocumentProperties オブジェクトを返します。 |
+| [getSlideSize()](#getSlideSize--) | スライドサイズ オブジェクトを返します。 |
+| [getNotesSize()](#getNotesSize--) | ノート スライドサイズ オブジェクトを返します。 |
+| [getLayoutSlides()](#getLayoutSlides--) | プレゼンテーションで定義されているすべてのレイアウト スライドのリストを返します。 |
+| [getMasters()](#getMasters--) | プレゼンテーションで定義されているすべてのマスター スライドのリストを返します。 |
+| [getMasterNotesSlideManager()](#getMasterNotesSlideManager--) | ノート マスター マネージャーを返します。 |
+| [getMasterHandoutSlideManager()](#getMasterHandoutSlideManager--) | 配布資料 マスター マネージャーを返します。 |
+| [getFontsManager()](#getFontsManager--) | フォント マネージャーを返します。 |
+| [getDefaultTextStyle()](#getDefaultTextStyle--) | シェイプのデフォルト テキスト スタイルを返します。 |
+| [getCommentAuthors()](#getCommentAuthors--) | コメント作成者のコレクションを返します。 |
+| [getDocumentProperties()](#getDocumentProperties--) | 標準およびカスタム ドキュメント プロパティを含む DocumentProperties オブジェクトを返します。 |
 | [getImages()](#getImages--) | プレゼンテーション内のすべての画像のコレクションを返します。 |
-| [getAudios()](#getAudios--) | プレゼンテーションに埋め込まれたすべてのオーディオファイルのコレクションを返します。 |
-| [getVideos()](#getVideos--) | プレゼンテーションに埋め込まれたすべてのビデオファイルのコレクションを返します。 |
+| [getAudios()](#getAudios--) | プレゼンテーション内に埋め込まれたすべてのオーディオ ファイルのコレクションを返します。 |
+| [getVideos()](#getVideos--) | プレゼンテーション内に埋め込まれたすべてのビデオ ファイルのコレクションを返します。 |
 | [getSlideShowSettings()](#getSlideShowSettings--) | プレゼンテーションのスライドショー設定を返します。 |
 | [getDigitalSignatures()](#getDigitalSignatures--) | プレゼンテーションに署名するために使用される署名のコレクションを返します。 |
-| [getCustomData()](#getCustomData--) | プレゼンテーションのカスタムデータを返します。 |
-| [getAllCustomXmlParts()](#getAllCustomXmlParts--) | プレゼンテーション内のすべてのカスタム データ パーツを返します。 |
-| [getVbaProject()](#getVbaProject--) | プレゼンテーションマクロを含む VBA プロジェクトを取得または設定します。 |
-| [setVbaProject(IVbaProject value)](#setVbaProject-com.aspose.slides.IVbaProject-) | プレゼンテーションマクロを含む VBA プロジェクトを取得または設定します。 |
-| [getHyperlinkQueries()](#getHyperlinkQueries--) | すべてのプレゼンテーション スライド（マスター、レイアウト、ノートスライドを除く）に含まれるすべてのハイパーリンクへの簡単なアクセスを提供します。 |
-| [getViewProperties()](#getViewProperties--) | プレゼンテーション全体の表示プロパティを取得します。 |
+| [getCustomData()](#getCustomData--) | プレゼンテーションのカスタム データを返します。 |
+| [getAllCustomXmlParts()](#getAllCustomXmlParts--) | プレゼンテーション内のすべてのカスタム データパーツを返します。 |
+| [getVbaProject()](#getVbaProject--) | プレゼンテーションのマクロを含む VBA プロジェクトを取得または設定します。 |
+| [setVbaProject(IVbaProject value)](#setVbaProject-com.aspose.slides.IVbaProject-) | プレゼンテーションのマクロを含む VBA プロジェクトを取得または設定します。 |
+| [getHyperlinkQueries()](#getHyperlinkQueries--) | マスター、レイアウト、ノート スライドを除く、すべてのプレゼンテーション スライドに含まれるすべてのハイパーリンクへの簡単なアクセスを提供します。 |
+| [getViewProperties()](#getViewProperties--) | プレゼンテーション全体のビュー プロパティを取得します。 |
 | [getFirstSlideNumber()](#getFirstSlideNumber--) | プレゼンテーション内の最初のスライド番号を表します。 |
 | [setFirstSlideNumber(int value)](#setFirstSlideNumber-int-) | プレゼンテーション内の最初のスライド番号を表します。 |
-| [getSensitivityLabels()](#getSensitivityLabels--) | プレゼンテーション ドキュメントに適用された機密ラベルのコレクションを返します。 |
-| [getSlideById(long id)](#getSlideById-long-) | ID に基づいて Slide、MasterSlide、または LayoutSlide を返します。 |
+| [getSensitivityLabels()](#getSensitivityLabels--) | プレゼンテーション ドキュメントに適用された感度ラベルのコレクションを返します。 |
+| [getSlideById(long id)](#getSlideById-long-) | ID によって Slide、MasterSlide、または LayoutSlide を返します。 |
 | [getSourceFormat()](#getSourceFormat--) | プレゼンテーションが読み込まれた形式に関する情報を返します。 |
-| [getMasterTheme()](#getMasterTheme--) | マスターテーマを返します。 |
-| [save(String fname, int format)](#save-java.lang.String-int-) | プレゼンテーションのすべてのスライドを指定された形式のファイルに保存します。 |
-| [save(OutputStream stream, int format)](#save-java.io.OutputStream-int-) | プレゼンテーションのすべてのスライドを指定された形式のストリームに保存します。 |
-| [save(String fname, int format, ISaveOptions options)](#save-java.lang.String-int-com.aspose.slides.ISaveOptions-) | プレゼンテーションのすべてのスライドを、指定された形式および追加オプションでファイルに保存します。 |
-| [save(OutputStream stream, int format, ISaveOptions options)](#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-) | プレゼンテーションのすべてのスライドを、指定された形式および追加オプションでストリームに保存します。 |
-| [save(IXamlOptions options)](#save-com.aspose.slides.IXamlOptions-) | プレゼンテーションのすべてのスライドを XAML マークアップを表す一連のファイルに保存します。 |
+| [getMasterTheme()](#getMasterTheme--) | マスター テーマを返します。 |
+| [save(String fname, int format)](#save-java.lang.String-int-) | 指定された形式でプレゼンテーションのすべてのスライドをファイルに保存します。 |
+| [save(OutputStream stream, int format)](#save-java.io.OutputStream-int-) | 指定された形式でプレゼンテーションのすべてのスライドをストリームに保存します。 |
+| [save(String fname, int format, ISaveOptions options)](#save-java.lang.String-int-com.aspose.slides.ISaveOptions-) | 指定された形式と追加オプションでプレゼンテーションのすべてのスライドをファイルに保存します。 |
+| [save(OutputStream stream, int format, ISaveOptions options)](#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-) | 指定された形式と追加オプションでプレゼンテーションのすべてのスライドをストリームに保存します。 |
+| [save(IXamlOptions options)](#save-com.aspose.slides.IXamlOptions-) | XAML マークアップを表すファイル群にプレゼンテーションのすべてのスライドを保存します。 |
 | [getImages(IRenderingOptions options)](#getImages-com.aspose.slides.IRenderingOptions-) | プレゼンテーションのすべてのスライドの Image オブジェクトを返します。 |
 | [getImages(IRenderingOptions options, int[] slides)](#getImages-com.aspose.slides.IRenderingOptions-int---) | 指定されたスライドのサムネイル Image オブジェクトを返します。 |
-| [getImages(IRenderingOptions options, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-float-float-) | カスタムスケーリングでプレゼンテーションのすべてのスライドのサムネイル Image オブジェクトを返します。 |
-| [getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-int---float-float-) | カスタムスケーリングで指定されたスライドのサムネイル Image オブジェクトを返します。 |
-| [getImages(IRenderingOptions options, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-) | 指定サイズでプレゼンテーションのすべてのスライドのサムネイル Image オブジェクトを返します。 |
-| [getImages(IRenderingOptions options, int[] slides, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-) | 指定サイズで指定されたスライドのサムネイル Image オブジェクトを返します。 |
-| [save(String fname, int[] slides, int format)](#save-java.lang.String-int---int-) | 指定されたスライドを、ページ番号を保持したまま、指定された形式のファイルに保存します。 |
-| [save(String fname, int[] slides, int format, ISaveOptions options)](#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-) | 指定されたスライドを、ページ番号を保持したまま、指定された形式のファイルに保存します。 |
-| [save(OutputStream stream, int[] slides, int format)](#save-java.io.OutputStream-int---int-) | 指定されたスライドを、ページ番号を保持したまま、指定された形式のストリームに保存します。 |
-| [save(OutputStream stream, int[] slides, int format, ISaveOptions options)](#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-) | 指定されたスライドを、ページ番号を保持したまま、指定された形式のストリームに保存します。 |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | すべてのスライドのすべての許容可能なシェイプ内のすべての段落で、同じ書式設定のランを結合します。 |
-| [dispose()](#dispose--) | この Presentation オブジェクトが使用するすべてのリソースを解放します。 |
+| [getImages(IRenderingOptions options, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-float-float-) | カスタム スケーリングでプレゼンテーションのすべてのスライドのサムネイル Image オブジェクトを返します。 |
+| [getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-int---float-float-) | カスタム スケーリングで指定されたスライドのサムネイル Image オブジェクトを返します。 |
+| [getImages(IRenderingOptions options, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-) | 指定されたサイズでプレゼンテーションのすべてのスライドのサムネイル Image オブジェクトを返します。 |
+| [getImages(IRenderingOptions options, int[] slides, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-) | 指定されたサイズで指定されたスライドのサムネイル Image オブジェクトを返します。 |
+| [save(String fname, int[] slides, int format)](#save-java.lang.String-int---int-) | ページ番号を保持したまま、指定された形式でプレゼンテーションの指定スライドをファイルに保存します。 |
+| [save(String fname, int[] slides, int format, ISaveOptions options)](#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-) | ページ番号を保持したまま、指定された形式とオプションでプレゼンテーションの指定スライドをファイルに保存します。 |
+| [save(OutputStream stream, int[] slides, int format)](#save-java.io.OutputStream-int---int-) | ページ番号を保持したまま、指定された形式でプレゼンテーションの指定スライドをストリームに保存します。 |
+| [save(OutputStream stream, int[] slides, int format, ISaveOptions options)](#save-java.io.OutputStream-int---int-com.aspose.slides.ISSaveOptions-) | ページ番号を保持したまま、指定された形式とオプションでプレゼンテーションの指定スライドをストリームに保存します。 |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | すべてのスライドのすべての対象シェイプ内のすべての段落で、同じ書式設定のランを結合します。 |
+| [dispose()](#dispose--) | この Presentation オブジェクトが使用しているすべてのリソースを解放します。 |
 | [getPresentation()](#getPresentation--) | テキストの親プレゼンテーションを返します。 |
-| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | 指定された色でサンプルテキストのすべての一致をハイライトします。 |
-| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | 指定された色でサンプルテキストのすべての一致をハイライトします。 |
-| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | 指定された色で正規表現のすべての一致をハイライトします。 |
-| [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | 指定されたテキストのすべての出現を、別の指定テキストに置換します。 |
-| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | 指定された文字列で正規表現のすべての一致を置換します。 |
+| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | 指定された色でサンプル テキストのすべての一致箇所をハイライトします。 |
+| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | 指定された色でサンプル テキストのすべての一致箇所をハイライトします。 |
+| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | 指定された色で正規表現のすべての一致箇所をハイライトします。 |
+| [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | 指定されたテキストのすべての出現箇所を別の指定テキストに置換します。 |
+| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | 正規表現のすべての一致箇所を指定文字列に置換します。 |
+| [refreshChartsData()](#refreshChartsData--) | プレゼンテーション内のすべてのチャートのデータを、ソース ワークブックから再読み込みします。 |
+| [refreshChartsData(boolean skipFailedCharts)](#refreshChartsData-boolean-) | プレゼンテーション内のすべてのチャートのデータを、ソース ワークブックから再読み込みします。 |
+
 ### Presentation() {#Presentation--}
 ```
 public Presentation()
 ```
 
-このコンストラクタは、最初から新しいプレゼンテーションを作成します。作成されたプレゼンテーションには1枚の空のスライドが含まれます。
+このコンストラクタは新しいプレゼンテーションを最初から作成します。作成されたプレゼンテーションには空のスライドが 1 枚含まれます。
 
 ### Presentation(LoadOptions loadOptions) {#Presentation-com.aspose.slides.LoadOptions-}
 ```
 public Presentation(LoadOptions loadOptions)
 ```
 
-このコンストラクタは、最初から新しいプレゼンテーションを作成します。作成されたプレゼンテーションには1枚の空のスライドが含まれます。
+このコンストラクタは新しいプレゼンテーションを最初から作成します。作成されたプレゼンテーションには空のスライドが 1 枚含まれます。
 
 **パラメータ:**
 | パラメータ | 型 | 説明 |
 | --- | --- | --- |
-| loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) | 追加のロードオプション。 |
+| loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) | 追加のロード オプション。 |
 
 ### Presentation(InputStream stream) {#Presentation-java.io.InputStream-}
 ```
 public Presentation(InputStream stream)
 ```
 
-このコンストラクタは、既存のプレゼンテーションを読み込むための主要な手段です。
+このコンストラクタは既存の Presentation を読み取る主要な手段です。
 
 --------------------
 
@@ -162,27 +165,26 @@ public Presentation(InputStream stream)
 public Presentation(InputStream stream, LoadOptions loadOptions)
 ```
 
-このコンストラクタは、既存のプレゼンテーションを読み込むための主要な手段です。
+このコンストラクタは既存の Presentation を読み取る主要な手段です。
 
 **パラメータ:**
 | パラメータ | 型 | 説明 |
 | --- | --- | --- |
 | stream | java.io.InputStream | 入力ストリーム。 |
-| loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) | 追加のロードオプション。 |
+| loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) | 追加のロード オプション。 |
 
 ### Presentation(String file) {#Presentation-java.lang.String-}
 ```
 public Presentation(String file)
 ```
 
-このコンストラクタは、プレゼンテーションの内容を読み取るソースファイルパスを取得します。
+このコンストラクタは、Presentation の内容が読み込まれるソースファイルパスを取得します。
 
 --------------------
 
 > ```
 > Presentation pres = new Presentation("demo.pptx");
 > ```
-
 
 **パラメータ:**
 | パラメータ | 型 | 説明 |
@@ -194,29 +196,30 @@ public Presentation(String file)
 public Presentation(String file, LoadOptions loadOptions)
 ```
 
-このコンストラクタは、プレゼンテーションの内容を読み取るソースファイルパスを取得します。
+このコンストラクタは、Presentation の内容が読み込まれるソースファイルパスを取得します。
 
 **パラメータ:**
 | パラメータ | 型 | 説明 |
 | --- | --- | --- |
 | file | java.lang.String | 入力ファイル。 |
-| loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) | 追加のロードオプション。 |
+| loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) | 追加のロード オプション。 |
 
 ### getCurrentDateTime() {#getCurrentDateTime--}
 ```
 public final Date getCurrentDateTime()
 ```
 
-datetime フィールドの内容を置き換える日時を取得または設定します。デフォルトではこの Presentation オブジェクトの作成時刻です。読み取り/書き込み java.util.Date。
+datetime フィールドの内容を置き換える日時を取得または設定します。デフォルトではこの Presentation オブジェクトの作成時刻です。読み書き可能な java.util.Date。
 
 **戻り値:**
 java.util.Date
+
 ### setCurrentDateTime(Date value) {#setCurrentDateTime-java.util.Date-}
 ```
 public final void setCurrentDateTime(Date value)
 ```
 
-datetime フィールドの内容を置き換える日時を取得または設定します。デフォルトではこの Presentation オブジェクトの作成時刻です。読み取り/書き込み java.util.Date。
+datetime フィールドの内容を置き換える日時を取得または設定します。デフォルトではこの Presentation オブジェクトの作成時刻です。読み書き可能な java.util.Date。
 
 **パラメータ:**
 | パラメータ | 型 | 説明 |
@@ -232,14 +235,13 @@ Parent_Immediate オブジェクトを返します。読み取り専用 IDOMObje
 
 **戻り値:**
 com.aspose.slides.IDOMObject
+
 ### getHeaderFooterManager() {#getHeaderFooterManager--}
 ```
 public final IPresentationHeaderFooterManager getHeaderFooterManager()
 ```
 
 実際の HeaderFooter マネージャーを返します。読み取り専用 [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager)。
-
---------------------
 
 > ```
 > The following example shows how to set footer visibility inside Slide of PowerPoint Presentation.
@@ -248,20 +250,20 @@ public final IPresentationHeaderFooterManager getHeaderFooterManager()
 >  try
 >  {
 >      IBaseSlideHeaderFooterManager headerFooterManager = pres.getSlides().get_Item(0).getHeaderFooterManager();
->      if (!headerFooterManager.isFooterVisible()) // Property IsFooterVisible is used for indicating that a slide footer placeholder is not present.
+>      if (!headerFooterManager.isFooterVisible()) // プロパティ IsFooterVisible は、スライドのフッタープレースホルダーが存在しないことを示すために使用されます。
 >      {
->          headerFooterManager.setFooterVisibility(true); // Method SetFooterVisibility is used for making a slide footer placeholder visible.
+>          headerFooterManager.setFooterVisibility(true); // メソッド SetFooterVisibility は、スライドのフッタープレースホルダーを表示可能にするために使用されます。
 >      }
->      if (!headerFooterManager.isSlideNumberVisible()) // Property IsSlideNumberVisible is used for indicating that a slide page number placeholder is not present.
+>      if (!headerFooterManager.isSlideNumberVisible()) // プロパティ IsSlideNumberVisible は、スライドのページ番号プレースホルダーが存在しないことを示すために使用されます。
 >      {
->          headerFooterManager.setSlideNumberVisibility(true); // Method SetSlideNumberVisibility is used for making a slide page number placeholder visible.
+>          headerFooterManager.setSlideNumberVisibility(true); // メソッド SetSlideNumberVisibility は、スライドのページ番号プレースホルダーを表示可能にするために使用されます。
 >      }
->      if (!headerFooterManager.isDateTimeVisible()) // Property IsDateTimeVisible is used for indicating that a slide date-time placeholder is not present.
+>      if (!headerFooterManager.isDateTimeVisible()) // プロパティ IsDateTimeVisible は、スライドの日時プレースホルダーが存在しないことを示すために使用されます。
 >      {
->          headerFooterManager.setDateTimeVisibility(true); // Method SetFooterVisibility is used for making a slide date-time placeholder visible.
+>          headerFooterManager.setDateTimeVisibility(true); // メソッド SetFooterVisibility は、スライドの日時プレースホルダーを表示可能にするために使用されます。
 >      }
->      headerFooterManager.setFooterText("Footer text"); // Method SetFooterText is used for setting text to slide footer placeholder.
->      headerFooterManager.setDateTimeText("Date and time text"); // Method SetDateTimeText is used for setting text to slide date-time placeholder.
+>      headerFooterManager.setFooterText("Footer text"); // メソッド SetFooterText は、スライドのフッタープレースホルダーにテキストを設定するために使用されます。
+>      headerFooterManager.setDateTimeText("Date and time text"); // メソッド SetDateTimeText は、スライドの日時プレースホルダーにテキストを設定するために使用されます。
 >      pres.save("Presentation.ppt", SaveFormat.Ppt);
 >  }
 >  finally
@@ -275,12 +277,12 @@ public final IPresentationHeaderFooterManager getHeaderFooterManager()
 >  try
 >  {
 >      IMasterSlideHeaderFooterManager headerFooterManager = pres.getMasters().get_Item(0).getHeaderFooterManager();
->      headerFooterManager.setFooterAndChildFootersVisibility(true); // Method SetFooterAndChildFootersVisibility is used for making a master slide and all child footer placeholders visible.
->      headerFooterManager.setSlideNumberAndChildSlideNumbersVisibility(true); // Method SetSlideNumberAndChildSlideNumbersVisibility is used for making a master slide and all child page number placeholders visible.
->      headerFooterManager.setDateTimeAndChildDateTimesVisibility(true); // Method SetDateTimeAndChildDateTimesVisibility is used for making a master slide and all child date-time placeholders visible.
+>      headerFooterManager.setFooterAndChildFootersVisibility(true); // メソッド SetFooterAndChildFootersVisibility は、マスタースライドとすべての子フッタープレースホルダーを表示可能にするために使用されます。
+>      headerFooterManager.setSlideNumberAndChildSlideNumbersVisibility(true); // メソッド SetSlideNumberAndChildSlideNumbersVisibility は、マスタースライドとすべての子ページ番号プレースホルダーを表示可能にするために使用されます。
+>      headerFooterManager.setDateTimeAndChildDateTimesVisibility(true); // メソッド SetDateTimeAndChildDateTimesVisibility は、マスタースライドとすべての子日時プレースホルダーを表示可能にするために使用されます。
 > 
->      headerFooterManager.setFooterAndChildFootersText("Footer text"); // Method SetFooterAndChildFootersText is used for setting text to master slide and all child footer placeholders.
->      headerFooterManager.setDateTimeAndChildDateTimesText("Date and time text"); // Method SetDateTimeAndChildDateTimesText is used for setting text to master slide and all child date-time placeholders.
+>      headerFooterManager.setFooterAndChildFootersText("Footer text"); // メソッド SetFooterAndChildFootersText は、マスタースライドとすべての子フッタープレースホルダーにテキストを設定するために使用されます。
+>      headerFooterManager.setDateTimeAndChildDateTimesText("Date and time text"); // メソッド SetDateTimeAndChildDateTimesText は、マスタースライドとすべての子日時プレースホルダーにテキストを設定するために使用されます。
 >  }
 >  finally
 >  {
@@ -288,8 +290,10 @@ public final IPresentationHeaderFooterManager getHeaderFooterManager()
 >  }
 > ```
 
+
 **戻り値:**
 [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager)
+
 ### getProtectionManager() {#getProtectionManager--}
 ```
 public final IProtectionManager getProtectionManager()
@@ -299,14 +303,13 @@ public final IProtectionManager getProtectionManager()
 
 **戻り値:**
 [IProtectionManager](../../com.aspose.slides/iprotectionmanager)
+
 ### getSlides() {#getSlides--}
 ```
 public final ISlideCollection getSlides()
 ```
 
 プレゼンテーションで定義されているすべてのスライドのリストを返します。読み取り専用 [ISlideCollection](../../com.aspose.slides/islidecollection)。
-
---------------------
 
 > ```
 > The following example shows how to set slides' background color of PowerPoint Presentation.
@@ -398,6 +401,7 @@ public final ISlideCollection getSlides()
 
 **戻り値:**
 [ISlideCollection](../../com.aspose.slides/islidecollection)
+
 ### getSections() {#getSections--}
 ```
 public final ISectionCollection getSections()
@@ -405,9 +409,9 @@ public final ISectionCollection getSections()
 
 プレゼンテーションで定義されているすべてのスライド セクションのリストを返します。読み取り専用 [ISectionCollection](../../com.aspose.slides/isectioncollection)。
 
---------------------
-
 > ```
+> The following examples shows how to create Sections in a PowerPoint Presentation.
+>  
 >  Presentation pres = new Presentation();
 >  try {
 >      ISlide defaultSlide = pres.getSlides().get_Item(0);
@@ -416,7 +420,7 @@ public final ISectionCollection getSections()
 >      ISlide newSlide3 = pres.getSlides().addEmptySlide(pres.getLayoutSlides().get_Item(0));
 >      ISlide newSlide4 = pres.getSlides().addEmptySlide(pres.getLayoutSlides().get_Item(0));
 >      ISection section1 = pres.getSections().addSection("Section 1", newSlide1);
->      // section1 は newSlide2 で終了し、その後に section2 が開始されます
+>      // section1 は newSlide2 で終了し、その後 section2 が開始されます。
 >      ISection section2 = pres.getSections().addSection("Section 2", newSlide3);
 >      pres.save("pres-sections.pptx", SaveFormat.Pptx);
 >      pres.getSections().reorderSectionWithSlides(section2, 0);
@@ -442,14 +446,13 @@ public final ISectionCollection getSections()
 
 **戻り値:**
 [ISectionCollection](../../com.aspose.slides/isectioncollection)
+
 ### getSlideSize() {#getSlideSize--}
 ```
 public final ISlideSize getSlideSize()
 ```
 
-スライドサイズオブジェクトを返します。読み取り専用 [ISlideSize](../../com.aspose.slides/islidesize)。
-
---------------------
+スライドサイズ オブジェクトを返します。読み取り専用 [ISlideSize](../../com.aspose.slides/islidesize)。
 
 > ```
 > The following example shows how to change the slide size in a PowerPoint Presentation.
@@ -495,36 +498,35 @@ public final ISlideSize getSlideSize()
 
 **戻り値:**
 [ISlideSize](../../com.aspose.slides/islidesize)
+
 ### getNotesSize() {#getNotesSize--}
 ```
 public final INotesSize getNotesSize()
 ```
 
-ノートスライドサイズオブジェクトを返します。読み取り専用 [INotesSize](../../com.aspose.slides/inotessize)。
+ノート スライドサイズ オブジェクトを返します。読み取り専用 [INotesSize](../../com.aspose.slides/inotessize)。
 
 **戻り値:**
 [INotesSize](../../com.aspose.slides/inotessize)
+
 ### getLayoutSlides() {#getLayoutSlides--}
 ```
 public final IGlobalLayoutSlideCollection getLayoutSlides()
 ```
 
-プレゼンテーションで定義されているすべてのレイアウトスライドのリストを返します。読み取り専用 [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection)。
+プレゼンテーションで定義されているすべてのレイアウト スライドのリストを返します。読み取り専用 [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection)。
 
---------------------
-
-レイアウトスライドを追加/挿入/削除/クローンする代替 API には、IMasterSlide.LayoutSlides プロパティを使用できます。
+IMasterSlide.LayoutSlides プロパティを使用して、レイアウト スライドの追加/挿入/削除/クローン作成の代替 API にアクセスできます。
 
 **戻り値:**
 [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection)
+
 ### getMasters() {#getMasters--}
 ```
 public final IMasterSlideCollection getMasters()
 ```
 
-プレゼンテーションで定義されているすべてのマスタースライドのリストを返します。読み取り専用 [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection)。
-
---------------------
+プレゼンテーションで定義されているすべてのマスター スライドのリストを返します。読み取り専用 [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection)。
 
 > ```
 > The following examples shows how to adding Images to Master Slides of PowerPoint Presentation.
@@ -623,40 +625,41 @@ public final IMasterSlideCollection getMasters()
 
 **戻り値:**
 [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection)
+
 ### getMasterNotesSlideManager() {#getMasterNotesSlideManager--}
 ```
 public final IMasterNotesSlideManager getMasterNotesSlideManager()
 ```
 
-ノートマスターマネージャーを返します。読み取り専用 [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager)。
+ノート マスター マネージャーを返します。読み取り専用 [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager)。
 
 **戻り値:**
 [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager)
+
 ### getMasterHandoutSlideManager() {#getMasterHandoutSlideManager--}
 ```
 public final IMasterHandoutSlideManager getMasterHandoutSlideManager()
 ```
 
-配布資料マスターマネージャーを返します。読み取り専用 [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager)。
+配布資料 マスター マネージャーを返します。読み取り専用 [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager)。
 
 **戻り値:**
 [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager)
+
 ### getFontsManager() {#getFontsManager--}
 ```
 public final IFontsManager getFontsManager()
 ```
 
-フォントマネージャーを返します。読み取り専用 [IFontsManager](../../com.aspose.slides/ifontsmanager)。
-
---------------------
+フォント マネージャーを返します。読み取り専用 [IFontsManager](../../com.aspose.slides/ifontsmanager)。
 
 > ```
 > The following example shows how to add embedded fonts to PowerPoint Presentation.
 >  
->  // プレゼンテーションをロードします
+>  // Load presentation
 >  Presentation pres = new Presentation("Fonts.pptx");
 >  try {
->      // 置き換える元フォントをロードします
+>      // Load source font to be replaced
 >      IFontData sourceFont = new FontData("Arial");
 >      IFontData[] allFonts = pres.getFontsManager().getFonts();
 >      for (IFontData font : allFonts)
@@ -675,51 +678,52 @@ public final IFontsManager getFontsManager()
 >              pres.getFontsManager().addEmbeddedFont(font, EmbedFontCharacters.All);
 >          }
 >      }
->      // プレゼンテーションを保存します
+>      // Save the presentation
 >      pres.save("AddEmbeddedFont_out.pptx", SaveFormat.Pptx);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
 > ```
 
-
 **戻り値:**
 [IFontsManager](../../com.aspose.slides/ifontsmanager)
+
 ### getDefaultTextStyle() {#getDefaultTextStyle--}
 ```
 public final ITextStyle getDefaultTextStyle()
 ```
 
-シェイプのデフォルトテキストスタイルを返します。読み取り専用 [ITextStyle](../../com.aspose.slides/itextstyle)。
+シェイプのデフォルト テキスト スタイルを返します。読み取り専用 [ITextStyle](../../com.aspose.slides/itextstyle)。
 
 **戻り値:**
 [ITextStyle](../../com.aspose.slides/itextstyle)
+
 ### getCommentAuthors() {#getCommentAuthors--}
 ```
 public final ICommentAuthorCollection getCommentAuthors()
 ```
 
-コメント作者のコレクションを返します。読み取り専用 [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection)。
+コメント作成者のコレクションを返します。読み取り専用 [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection)。
 
 **戻り値:**
 [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection)
+
 ### getDocumentProperties() {#getDocumentProperties--}
 ```
 public final IDocumentProperties getDocumentProperties()
 ```
 
-標準およびカスタムのドキュメント プロパティを含む DocumentProperties オブジェクトを返します。読み取り専用 [IDocumentProperties](../../com.aspose.slides/idocumentproperties)。
+標準およびカスタム ドキュメント プロパティを含む DocumentProperties オブジェクトを返します。読み取り専用 [IDocumentProperties](../../com.aspose.slides/idocumentproperties)。
 
 **戻り値:**
 [IDocumentProperties](../../com.aspose.slides/idocumentproperties)
+
 ### getImages() {#getImages--}
 ```
 public final IImageCollection getImages()
 ```
 
 プレゼンテーション内のすべての画像のコレクションを返します。読み取り専用 [IImageCollection](../../com.aspose.slides/iimagecollection)。
-
---------------------
 
 > ```
 > The following examples shows how to add image as BLOB in PowerPoint Presentation.
@@ -771,12 +775,12 @@ public final IImageCollection getImages()
 
 **戻り値:**
 [IImageCollection](../../com.aspose.slides/iimagecollection)
+
 ### getAudios() {#getAudios--}
 ```
 public final IAudioCollection getAudios()
 ```
-
-プレゼンテーションに埋め込まれたすべてのオーディオファイルのコレクションを返します。読み取り専用 [IAudioCollection](../../com.aspose.slides/iaudiocollection)。
+プレゼンテーションに埋め込まれたすべてのオーディオ ファイルのコレクションを返します。読み取り専用 [IAudioCollection](../../com.aspose.slides/iaudiocollection)。
 
 --------------------
 
@@ -798,13 +802,15 @@ public final IAudioCollection getAudios()
 >  }
 > ```
 
+
 **戻り値:**
 [IAudioCollection](../../com.aspose.slides/iaudiocollection)
 ### getVideos() {#getVideos--}
 ```
 public final IVideoCollection getVideos()
 ```
-プレゼンテーションに埋め込まれたすべてのビデオファイルのコレクションを返します。読み取り専用 [IVideoCollection](../../com.aspose.slides/ivideocollection).
+
+プレゼンテーションに埋め込まれたすべてのビデオ ファイルのコレクションを返します。読み取り専用 [IVideoCollection](../../com.aspose.slides/ivideocollection)。
 
 --------------------
 
@@ -995,7 +1001,7 @@ public final IVideoCollection getVideos()
 >  }
 > ```
 
-**戻り値:**  
+**戻り値:**
 [IVideoCollection](../../com.aspose.slides/ivideocollection)
 ### getSlideShowSettings() {#getSlideShowSettings--}
 ```
@@ -1004,14 +1010,14 @@ public final SlideShowSettings getSlideShowSettings()
 
 プレゼンテーションのスライドショー設定を返します。
 
-**戻り値:**  
+**戻り値:**
 [SlideShowSettings](../../com.aspose.slides/slideshowsettings)
 ### getDigitalSignatures() {#getDigitalSignatures--}
 ```
 public final IDigitalSignatureCollection getDigitalSignatures()
 ```
 
-プレゼンテーションに署名するために使用される署名のコレクションを返します。読み取り専用 [IDigitalSignatureCollection](../../com.aspose.slides/idigitalsignaturecollection).
+プレゼンテーションに署名された署名のコレクションを返します。読み取り専用 [IDigitalSignatureCollection](../../com.aspose.slides/idigitalsignaturecollection)。
 
 --------------------
 
@@ -1040,23 +1046,23 @@ public final IDigitalSignatureCollection getDigitalSignatures()
 > ```
 
 
-**戻り値:**  
+**戻り値:**
 [IDigitalSignatureCollection](../../com.aspose.slides/idigitalsignaturecollection)
 ### getCustomData() {#getCustomData--}
 ```
 public final ICustomData getCustomData()
 ```
 
-プレゼンテーションのカスタムデータを返します。読み取り専用 [ICustomData](../../com.aspose.slides/icustomdata)。
+プレゼンテーションのカスタム データを返します。読み取り専用 [ICustomData](../../com.aspose.slides/icustomdata)。
 
-**戻り値:**  
+**戻り値:**
 [ICustomData](../../com.aspose.slides/icustomdata)
 ### getAllCustomXmlParts() {#getAllCustomXmlParts--}
 ```
 public final ICustomXmlPart[] getAllCustomXmlParts()
 ```
 
-プレゼンテーションのすべてのカスタムデータパーツを返します。読み取り専用 ICustomXmlPart[].
+プレゼンテーション内のすべてのカスタム データ パーツを返します。読み取り専用 ICustomXmlPart[]。
 
 --------------------
 
@@ -1079,26 +1085,26 @@ public final ICustomXmlPart[] getAllCustomXmlParts()
 > ```
 
 
-**戻り値:**  
+**戻り値:**
 com.aspose.slides.ICustomXmlPart[]
 ### getVbaProject() {#getVbaProject--}
 ```
 public final IVbaProject getVbaProject()
 ```
 
-プレゼンテーションのマクロを含むVBAプロジェクトを取得または設定します。読み取り/書き込み [IVbaProject](../../com.aspose.slides/ivbaproject)。
+プレゼンテーションのマクロを含む VBA プロジェクトを取得または設定します。読み書き可能 [IVbaProject](../../com.aspose.slides/ivbaproject)。
 
-**戻り値:**  
+**戻り値:**
 [IVbaProject](../../com.aspose.slides/ivbaproject)
 ### setVbaProject(IVbaProject value) {#setVbaProject-com.aspose.slides.IVbaProject-}
 ```
 public final void setVbaProject(IVbaProject value)
 ```
 
-プレゼンテーションのマクロを含むVBAプロジェクトを取得または設定します。読み取り/書き込み [IVbaProject](../../com.aspose.slides/ivbaproject)。
+プレゼンテーションのマクロを含む VBA プロジェクトを取得または設定します。読み書き可能 [IVbaProject](../../com.aspose.slides/ivbaproject)。
 
-**パラメータ:**
-| パラメータ | 型 | 説明 |
+**パラメーター:**
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | value | [IVbaProject](../../com.aspose.slides/ivbaproject) |  |
 
@@ -1107,37 +1113,37 @@ public final void setVbaProject(IVbaProject value)
 public final IHyperlinkQueries getHyperlinkQueries()
 ```
 
-すべてのプレゼンテーションスライドに含まれるすべてのハイパーリンクへ簡単にアクセスできます（マスター、レイアウト、ノートスライドは除く）。読み取り専用 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)。
+すべてのプレゼンテーション スライド（マスタースライド、レイアウトスライド、ノートスライドを除く）に含まれるすべてのハイパーリンクに簡単にアクセスできるようにします。読み取り専用 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)。
 
-**戻り値:**  
+**戻り値:**
 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)
 ### getViewProperties() {#getViewProperties--}
 ```
-public final IViewProperties getViewProperties()
+public
 ```
 
 プレゼンテーション全体の表示プロパティを取得します。読み取り専用 [IViewProperties](../../com.aspose.slides/iviewproperties)。
 
-**戻り値:**  
+**戻り値:**
 [IViewProperties](../../com.aspose.slides/iviewproperties)
 ### getFirstSlideNumber() {#getFirstSlideNumber--}
 ```
 public final int getFirstSlideNumber()
 ```
 
-プレゼンテーションの最初のスライド番号を表します。
+プレゼンテーション内の最初のスライド番号を表します。
 
-**戻り値:**  
+**戻り値:**
 int
 ### setFirstSlideNumber(int value) {#setFirstSlideNumber-int-}
 ```
 public final void setFirstSlideNumber(int value)
 ```
 
-プレゼンテーションの最初のスライド番号を表します。
+プレゼンテーション内の最初のスライド番号を表します。
 
-**パラメータ:**
-| パラメータ | 型 | 説明 |
+**パラメーター:**
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | value | int |  |
 
@@ -1146,7 +1152,7 @@ public final void setFirstSlideNumber(int value)
 public final ISensitivityLabelCollection getSensitivityLabels()
 ```
 
-プレゼンテーション文書に適用された機密ラベルのコレクションを返します。読み取り専用 [ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection).
+プレゼンテーション ドキュメントに適用された感度ラベルのコレクションを返します。読み取り専用 [ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection)。
 
 --------------------
 
@@ -1155,13 +1161,13 @@ public final ISensitivityLabelCollection getSensitivityLabels()
 >  try {
 >      ISensitivityLabelCollection sensitivityLabels = pres.getSensitivityLabels();
 > 
->      // Print the applied labels
+>      //      適用されたラベルを出力します
 >      for (ISensitivityLabel sensitivityLabel : sensitivityLabels)
 >          System.out.println("Label Id " + sensitivityLabel.getId() + " from Azure AD site " + sensitivityLabel.getSiteId());
 > 
->      // Add the new label
->      String labelIdString = "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"; // Get the sensitivity label Id from the policy
->      UUID siteIdGuid = UUID.fromString("{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"); // Get the Azure AD site identifier from the policy
+>      //      新しいラベルを追加します
+>      String labelIdString = "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"; // ポリシーから感度ラベル ID を取得します
+>      UUID siteIdGuid = UUID.fromString("{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"); // ポリシーから Azure AD サイト識別子を取得します
 >      ISensitivityLabel label = sensitivityLabels.add(labelIdString, siteIdGuid, true, SensitivityLabelAssignmentType.Privileged);
 >      label.getContentMarkTypes().addItem(SensitivityLabelContentType.Footer);
 > 
@@ -1171,21 +1177,23 @@ public final ISensitivityLabelCollection getSensitivityLabels()
 >  }
 > ```
 
-**戻り値:**  
+
+**戻り値:**
 [ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection)
 ### getSlideById(long id) {#getSlideById-long-}
 ```
 public final IBaseSlide getSlideById(long id)
 ```
 
-IDでスライド、マスタースライド、またはレイアウトスライドを返します。
+Id によって Slide、MasterSlide、または LayoutSlide を返します。
 
-**パラメータ:**
-| パラメータ | 型 | 説明 |
+**パラメーター:**
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| id | long | スライドのID |
-**戻り値:**  
-[IBaseSlide](../../com.aspose.slides/ibaseslide) - IBaseSlide object.
+| id | long | スライドの Id。 |
+
+**戻り値:**
+[IBaseSlide](../../com.aspose.slides/ibaseslide) - IBaseSlide オブジェクト。
 ### getSourceFormat() {#getSourceFormat--}
 ```
 public final int getSourceFormat()
@@ -1193,21 +1201,21 @@ public final int getSourceFormat()
 
 プレゼンテーションが読み込まれた形式に関する情報を返します。読み取り専用 [SourceFormat](../../com.aspose.slides/sourceformat)。
 
-**戻り値:**  
+**戻り値:**
 int
 ### getMasterTheme() {#getMasterTheme--}
 ```
 public final IMasterTheme getMasterTheme()
 ```
 
-マスターテーマを返します。読み取り専用 [IMasterTheme](../../com.aspose.slides/imastertheme).
+マスターテーマを返します。読み取り専用 [IMasterTheme](../../com.aspose.slides/imastertheme)。
 
 --------------------
 
 > ```
 > The following examples shows how to change a theme effect by altering parts of elements of PowerPoint Presentation.
 >  
->  // プレゼンテーション ファイルを表す Presentation オブジェクトをインスタンス化します
+>  // プレゼンテーション ファイルを表す Presentation オブジェクトを生成します
 >  Presentation pres = new Presentation("Subtle_Moderate_Intense.pptx");
 >  try {
 >      pres.getMasterTheme().getFormatScheme().getLineStyles().get_Item(0).getFillFormat().getSolidFillColor().setColor(Color.RED);
@@ -1223,7 +1231,7 @@ public final IMasterTheme getMasterTheme()
 > ```
 
 
-**戻り値:**  
+**戻り値:**
 [IMasterTheme](../../com.aspose.slides/imastertheme)
 ### save(String fname, int format) {#save-java.lang.String-int-}
 ```
@@ -1232,11 +1240,11 @@ public final void save(String fname, int format)
 
 指定された形式でプレゼンテーションのすべてのスライドをファイルに保存します。
 
-**パラメータ:**
-| パラメータ | 型 | 説明 |
+**パラメーター:**
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| fname | java.lang.String | 作成されたファイルへのパス |
-| format | int | エクスポートデータの形式 |
+| fname | java.lang.String | 作成されるファイルへのパス。 |
+| format | int | エクスポート データの形式。 |
 
 ### save(OutputStream stream, int format) {#save-java.io.OutputStream-int-}
 ```
@@ -1245,46 +1253,46 @@ public final void save(OutputStream stream, int format)
 
 指定された形式でプレゼンテーションのすべてのスライドをストリームに保存します。
 
-**パラメータ:**
-| パラメータ | 型 | 説明 |
+**パラメーター:**
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| stream | java.io.OutputStream | 出力ストリーム |
-| format | int | エクスポートデータの形式 |
+| stream | java.io.OutputStream | 出力ストリーム。 |
+| format | int | エクスポート データの形式。 |
 
 ### save(String fname, int format, ISaveOptions options) {#save-java.lang.String-int-com.aspose.slides.ISaveOptions-}
 ```
 public final void save(String fname, int format, ISaveOptions options)
 ```
 
-指定された形式と追加オプションでプレゼンテーションのすべてのスライドをファイルに保存します。
+指定された形式でプレゼンテーションのすべてのスライドをファイルに保存し、追加オプションを適用します。
 
-**パラメータ:**
-| パラメータ | 型 | 説明 |
+**パラメーター:**
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| fname | java.lang.String | 作成されたファイルへのパス |
-| format | int | エクスポートデータの形式 |
-| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | 追加の形式オプション |
+| fname | java.lang.String | 作成されるファイルへのパス。 |
+| format | int | エクスポート データの形式。 |
+| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | 追加の形式オプション。 |
 
 ### save(OutputStream stream, int format, ISaveOptions options) {#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-}
 ```
 public final void save(OutputStream stream, int format, ISaveOptions options)
 ```
 
-指定された形式と追加オプションでプレゼンテーションのすべてのスライドをストリームに保存します。
+指定された形式でプレゼンテーションのすべてのスライドをストリームに保存し、追加オプションを適用します。
 
-**パラメータ:**
-| パラメータ | 型 | 説明 |
+**パラメーター:**
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| stream | java.io.OutputStream | 出力ストリーム |
-| format | int | エクスポートデータの形式 |
-| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | 追加の形式オプション |
+| stream | java.io.OutputStream | 出力ストリーム。 |
+| format | int | エクスポート データの形式。 |
+| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | 追加の形式オプション。 |
 
 ### save(IXamlOptions options) {#save-com.aspose.slides.IXamlOptions-}
 ```
 public final void save(IXamlOptions options)
 ```
 
-プレゼンテーションのすべてのスライドを XAML マークアップを表すファイル群に保存します。
+プレゼンテーションのすべてのスライドを XAML マークアップを表す一連のファイルに保存します。
 
 --------------------
 
@@ -1301,10 +1309,10 @@ public final void save(IXamlOptions options)
 > ```
 
 
-**パラメータ:**
-| パラメータ | 型 | 説明 |
+**パラメーター:**
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| options | [IXamlOptions](../../com.aspose.slides/ixamloptions) | XAML 形式オプション |
+| options | [IXamlOptions](../../com.aspose.slides/ixamloptions) | XAML 形式オプション。 |
 
 ### getImages(IRenderingOptions options) {#getImages-com.aspose.slides.IRenderingOptions-}
 ```
@@ -1313,13 +1321,13 @@ public final IImage[] getImages(IRenderingOptions options)
 
 プレゼンテーションのすべてのスライドの Image オブジェクトを返します。
 
-**パラメータ:**
-| パラメータ | 型 | 説明 |
+**パラメーター:**
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff オプション |
-**戻り値:**  
-com.aspose.slides.IImage[] - Image objects.
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff オプション。 |
 
+**戻り値:**
+com.aspose.slides.IImage[] - Image オブジェクト。
 ### getImages(IRenderingOptions options, int[] slides) {#getImages-com.aspose.slides.IRenderingOptions-int---}
 ```
 public final IImage[] getImages(IRenderingOptions options, int[] slides)
@@ -1327,127 +1335,127 @@ public final IImage[] getImages(IRenderingOptions options, int[] slides)
 
 指定されたスライドのサムネイル Image オブジェクトを返します。
 
-**パラメータ:**
-| パラメータ | 型 | 説明 |
+**パラメーター:**
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff オプション |
-| slides | int[] | 1 から始まるスライド位置の配列 |
-**戻り値:**  
-com.aspose.slides.IImage[] - Image objects.
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff オプション。 |
+| slides | int[] | 1 から始まるスライド位置の配列。 |
 
+**戻り値:**
+com.aspose.slides.IImage[] - Image オブジェクト。
 ### getImages(IRenderingOptions options, float scaleX, float scaleY) {#getImages-com.aspose.slides.IRenderingOptions-float-float-}
 ```
 public final IImage[] getImages(IRenderingOptions options, float scaleX, float scaleY)
 ```
 
-カスタムスケーリングでプレゼンテーション全体のサムネイル Image オブジェクトを返します。
+すべてのスライドのサムネイル Image オブジェクトをカスタムスケーリングで返します。
 
-**パラメータ:**
-| パラメータ | 型 | 説明 |
+**パラメーター:**
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff オプション |
-| scaleX | float | X 軸方向に拡大縮小する値 |
-| scaleY | float | Y 軸方向に拡大縮小する値 |
-**戻り値:**  
-com.aspose.slides.IImage[] - Image objects.
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff オプション。 |
+| scaleX | float | X 軸方向にこのサムネイルを拡大縮小する値。 |
+| scaleY | float | Y 軸方向にこのサムネイルを拡大縮小する値。 |
 
+**戻り値:**
+com.aspose.slides.IImage[] - Image オブジェクト。
 ### getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY) {#getImages-com.aspose.slides.IRenderingOptions-int---float-float-}
 ```
 public final IImage[] getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)
 ```
 
-カスタムスケーリングで指定されたスライドのサムネイル Image オブジェクトを返します。
+指定されたスライドのサムネイル Image オブジェクトをカスタムスケーリングで返します。
 
-**パラメータ:**
-| パラメータ | 型 | 説明 |
+**パラメーター:**
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff オプション |
-| slides | int[] | 1 から始まるスライド位置の配列 |
-| scaleX | float | X 軸方向に拡大縮小する値 |
-| scaleY | float | Y 軸方向に拡大縮小する値 |
-**戻り値:**  
-com.aspose.slides.IImage[] - Image objects.
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff オプション。 |
+| slides | int[] | 1 から始まるスライド位置の配列。 |
+| scaleX | float | X 軸方向にこのサムネイルを拡大縮小する値。 |
+| scaleY | float | Y 軸方向にこのサムネイルを拡大縮小する値。 |
 
+**戻り値:**
+com.aspose.slides.IImage[] - Image オブジェクト。
 ### getImages(IRenderingOptions options, Dimension imageSize) {#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-}
 ```
 public final IImage[] getImages(IRenderingOptions options, Dimension imageSize)
 ```
 
-指定されたサイズでプレゼンテーション全体のサムネイル Image オブジェクトを返します。
+指定されたサイズでプレゼンテーションのすべてのスライドのサムネイル Image オブジェクトを返します。
 
-**パラメータ:**
-| パラメータ | 型 | 説明 |
+**パラメーター:**
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff オプション |
-| imageSize | java.awt.Dimension | 作成する画像のサイズ |
-**戻り値:**  
-com.aspose.slides.IImage[] - Image objects.
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff オプション。 |
+| imageSize | java.awt.Dimension | 作成する画像のサイズ。 |
 
+**戻り値:**
+com.aspose.slides.IImage[] - Image オブジェクト。
 ### getImages(IRenderingOptions options, int[] slides, Dimension imageSize) {#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-}
 ```
 public final IImage[] getImages(IRenderingOptions options, int[] slides, Dimension imageSize)
 ```
 
-指定されたサイズで指定されたスライドのサムネイル Image オブジェクトを返します。
+指定されたサイズで、指定されたスライドのサムネイル Image オブジェクトを返します。
 
-**パラメータ:**
-| パラメータ | 型 | 説明 |
+**パラメーター:**
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff オプション |
-| slides | int[] | 1 から始まるスライド位置の配列 |
-| imageSize | java.awt.Dimension | 作成する画像のサイズ |
-**戻り値:**  
-com.aspose.slides.IImage[] - Image objects.
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff オプション。 |
+| slides | int[] | 1 から始まるスライド位置の配列。 |
+| imageSize | java.awt.Dimension | 作成する画像のサイズ。 |
 
+**戻り値:**
+com.aspose.slides.IImage[] - Image オブジェクト。
 ### save(String fname, int[] slides, int format) {#save-java.lang.String-int---int-}
 ```
 public final void save(String fname, int[] slides, int format)
 ```
 
-ページ番号を保持したまま、指定された形式でプレゼンテーションの指定スライドをファイルに保存します。
+指定された形式でページ番号を保持しながら、指定されたスライドをファイルに保存します。
 
-**パラメータ:**
-| パラメータ | 型 | 説明 |
+**パラメーター:**
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| fname | java.lang.String | 作成されたファイルへのパス |
-| slides | int[] | 1 から始まるスライド位置の配列 |
-| format | int | エクスポートデータの形式 |
+| fname | java.lang.String | 作成されるファイルへのパス。 |
+| slides | int[] | 1 から始まるスライド位置の配列。 |
+| format | int | エクスポート データの形式。 |
 
 ### save(String fname, int[] slides, int format, ISaveOptions options) {#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-}
 ```
 public final void save(String fname, int[] slides, int format, ISaveOptions options)
 ```
 
-ページ番号を保持したまま、指定された形式と追加オプションでプレゼンテーションの指定スライドをファイルに保存します。
+指定された形式でページ番号を保持しながら、指定されたスライドをファイルに保存し、追加オプションを適用します。
 
-**パラメータ:**
-| パラメータ | 型 | 説明 |
+**パラメーター:**
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| fname | java.lang.String | 作成されたファイルへのパス |
-| slides | int[] | 1 から始まるスライド位置の配列 |
-| format | int | エクスポートデータの形式 |
-| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | 追加の形式オプション |
+| fname | java.lang.String | 作成されるファイルへのパス。 |
+| slides | int[] | 1 から始まるスライド位置の配列。 |
+| format | int | エクスポート データの形式。 |
+| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | 追加の形式オプション。 |
 
 ### save(OutputStream stream, int[] slides, int format) {#save-java.io.OutputStream-int---int-}
 ```
 public final void save(OutputStream stream, int[] slides, int format)
 ```
 
-ページ番号を保持したまま、指定された形式でプレゼンテーションの指定スライドをストリームに保存します。
+指定された形式でページ番号を保持しながら、指定されたスライドをストリームに保存します。
 
-**パラメータ:**
-| パラメータ | 型 | 説明 |
+**パラメーター:**
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| stream | java.io.OutputStream | 出力ストリーム |
-| slides | int[] | 1 から始まるスライド位置の配列 |
-| format | int | エクスポートデータの形式 |
+| stream | java.io.OutputStream | 出力ストリーム。 |
+| slides | int[] | 1 から始まるスライド位置の配列。 |
+| format | int | エクスポート データの形式。 |
 
 ### save(OutputStream stream, int[] slides, int format, ISaveOptions options) {#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-}
 ```
 public final void save(OutputStream stream, int[] slides, int format, ISaveOptions options)
 ```
 
-ページ番号を保持したまま、指定された形式と追加オプションでプレゼンテーションの指定スライドをストリームに保存します。
+指定された形式でページ番号を保持しながら、指定されたスライドをストリームに保存し、追加オプションを適用します。
 
 --------------------
 
@@ -1495,20 +1503,20 @@ public final void save(OutputStream stream, int[] slides, int format, ISaveOptio
 >  }
 > ```
 
-**パラメータ:**
-| パラメータ | 型 | 説明 |
+**パラメーター:**
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| stream | java.io.OutputStream | 出力ストリーム |
-| slides | int[] | 1 から始まるスライド位置の配列 |
-| format | int | エクスポートデータの形式 |
-| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | 追加の形式オプション |
+| stream | java.io.OutputStream | 出力ストリーム。 |
+| slides | int[] | 1 から始まるスライド位置の配列。 |
+| format | int | エクスポート データの形式。 |
+| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | 追加の形式オプション。 |
 
 ### joinPortionsWithSameFormatting() {#joinPortionsWithSameFormatting--}
 ```
 public final void joinPortionsWithSameFormatting()
 ```
 
-すべてのスライドにあるすべての受け入れ可能なシェイプの段落内で、同一の書式設定を持つランを結合します。
+すべてのスライドのすべての許容可能なシェイプ内の段落において、同一の書式設定を持つランを結合します。
 
 ### dispose() {#dispose--}
 ```
@@ -1524,7 +1532,7 @@ public final IPresentation getPresentation()
 
 テキストの親プレゼンテーションを返します。読み取り専用 [IPresentation](../../com.aspose.slides/ipresentation)。
 
-**戻り値:**  
+**戻り値:**
 [IPresentation](../../com.aspose.slides/ipresentation)
 ### highlightText(String text, Color highlightColor) {#highlightText-java.lang.String-java.awt.Color-}
 ```
@@ -1540,7 +1548,7 @@ public final void highlightText(String text, Color highlightColor)
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
->      // すべての個別の 'the' の出現箇所にハイライトします
+>      // 'the' のすべての個別出現箇所をハイライトします
 >      presentation.highlightText("the", Color.MAGENTA);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -1549,11 +1557,11 @@ public final void highlightText(String text, Color highlightColor)
 > ```
 
 
-**パラメータ:**
-| パラメータ | 型 | 説明 |
+**パラメーター:**
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| text | java.lang.String | ハイライトするテキスト |
-| highlightColor | java.awt.Color | テキストをハイライトする色 |
+| text | java.lang.String | ハイライトするテキスト。 |
+| highlightColor | java.awt.Color | テキストをハイライトする色。 |
 
 ### highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
@@ -1571,7 +1579,7 @@ public final void highlightText(String text, Color highlightColor, ITextSearchOp
 >  try {
 >      TextSearchOptions textSearchOptions = new TextSearchOptions();
 >      textSearchOptions.setWholeWordsOnly(true);
->      // すべての個別の「the」出現箇所にハイライトします
+>      // すべての個別の 'the' 出現箇所をハイライトします
 >      presentation.highlightText("the", Color.MAGENTA, textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -1580,13 +1588,13 @@ public final void highlightText(String text, Color highlightColor, ITextSearchOp
 > ```
 
 
-**パラメータ:**
-| パラメータ | 型 | 説明 |
+**パラメーター:**
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| text | java.lang.String | ハイライトするテキスト |
-| highlightColor | java.awt.Color | テキストをハイライトする色 |
-| options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | テキスト検索オプション [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | 検索結果を受け取るコールバックオブジェクト [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) |
+| text | java.lang.String | ハイライトするテキスト。 |
+| highlightColor | java.awt.Color | テキストをハイライトする色。 |
+| options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | テキスト検索オプション [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions)。 |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | 検索結果を受け取るコールバックオブジェクト [IFindResultCallback](../../com.aspose.slides/ifindresultcallback)。 |
 
 ### highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback) {#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-}
 ```
@@ -1603,7 +1611,7 @@ public final void highlightRegex(Pattern regex, Color highlightColor, IFindResul
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      Pattern regex = Pattern.compile("\\b[^\\s]{10,}\\b");
->      // 10文字以上のすべての単語にハイライトします
+>      // 10 文字以上のすべての単語をハイライトします
 >      presentation.highlightRegex(regex, Color.BLUE, null);
 >      presentation.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -1611,19 +1619,17 @@ public final void highlightRegex(Pattern regex, Color highlightColor, IFindResul
 >  }
 > ```
 
+| regex | java.util.regex.Pattern | ハイライトする文字列を取得するための正規表現 java.util.regex.Pattern。 |
+| highlightColor | java.awt.Color | テキストをハイライトする色。 |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | 検索結果を受け取るコールバックオブジェクト [IFindResultCallback](../../com.aspose.slides/ifindresultcallback)。 |
 
-**パラメータ:**
-| パラメータ | 型 | 説明 |
-| --- | --- | --- |
-| regex | java.util.regex.Pattern | ハイライトする文字列を取得する正規表現 |
-| highlightColor | java.awt.Color | テキストをハイライトする色 |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | 検索結果を受け取るコールバックオブジェクト [IFindResultCallback](../../com.aspose.slides/ifindresultcallback).
 ### replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback) {#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
 public final void replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
-指定されたテキストのすべての出現箇所を別の指定されたテキストに置き換えます。
+
+指定されたテキストのすべての出現箇所を別の指定されたテキストに置換します。
 
 --------------------
 
@@ -1634,7 +1640,7 @@ public final void replaceText(String oldText, String newText, ITextSearchOptions
 >  try {
 >      TextSearchOptions textSearchOptions = new TextSearchOptions();
 >      textSearchOptions.setWholeWordsOnly(true);
->      // すべての個別の 'the' の出現箇所を '***' に置き換えます
+>      // すべての個別の 'the' 出現箇所を '***' に置換します
 >      presentation.replaceText("the", "***", textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -1643,29 +1649,30 @@ public final void replaceText(String oldText, String newText, ITextSearchOptions
 > ```
 
 
-**パラメータ:**
-| パラメータ | 型 | 説明 |
+**パラメーター:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| oldText | java.lang.String | 置き換えられる文字列です。 |
-| newText | java.lang.String | oldText のすべての出現箇所を置き換える文字列です。 |
+| oldText | java.lang.String | 置換される文字列。 |
+| newText | java.lang.String | oldText のすべての出現箇所を置換する文字列。 |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | テキスト検索オプション [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions)。 |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | 検索結果 [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) を受け取るためのコールバックオブジェクトです。 |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | 検索結果を受け取るコールバックオブジェクト [IFindResultCallback](../../com.aspose.slides/ifindresultcallback)。 |
 
 ### replaceRegex(Pattern regex, String newText, IFindResultCallback callback) {#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-}
 ```
 public final void replaceRegex(Pattern regex, String newText, IFindResultCallback callback)
 ```
 
-正規表現のすべての一致箇所を指定された文字列に置き換えます。
+
+正規表現のすべての一致を指定された文字列に置換します。
 
 --------------------
 
 > ```
-> 以下のコードサンプルは、正規表現を使用して指定した文字列でテキストを置換する方法を示しています。
+> The following code sample shows how to replace text using regular expression with the specified string.
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      Pattern regex = Pattern.compile("\\b[^\\s]{10,}\\b");
->      // 10文字以上のすべての単語を '***' に置き換えます
+>      // Replace all words with 10 symbols or longer with '***'
 >      presentation.replaceRegex(regex, "***", null);
 >      presentation.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -1673,10 +1680,56 @@ public final void replaceRegex(Pattern regex, String newText, IFindResultCallbac
 >  }
 > ```
 
-
-**パラメータ:**
-| パラメータ | 型 | 説明 |
+**パラメーター:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | 置き換える文字列を取得するための正規表現 java.util.regex.Pattern です。 |
-| newText | java.lang.String | 置き換えられる文字列のすべての出現箇所を置き換える文字列です。 |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | 検索結果 [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) を受け取るためのコールバックオブジェクトです。 |
+| regex | java.util.regex.Pattern | 置換する文字列を取得するための正規表現 java.util.regex.Pattern。 |
+| newText | java.lang.String | 置換される文字列のすべての出現箇所を置換する文字列。 |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | 検索結果を受け取るコールバックオブジェクト [IFindResultCallback](../../com.aspose.slides/ifindresultcallback)。 |
+
+### refreshChartsData() {#refreshChartsData--}
+```
+public final void refreshChartsData()
+```
+
+
+プレゼンテーション内のすべてのチャートのデータを、元のワークブックから再読み込みします。
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("PresentationWithCharts.pptx");
+>  try {
+>      presentation.refreshChartsData();
+>      presentation.save("PresentationWithCharts-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+
+### refreshChartsData(boolean skipFailedCharts) {#refreshChartsData-boolean-}
+```
+public final void refreshChartsData(boolean skipFailedCharts)
+```
+
+
+プレゼンテーション内のすべてのチャートのデータを、元のワークブックから再読み込みします。
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("PresentationWithCharts.pptx");
+>  try {
+>      presentation.refreshChartsData();
+>      presentation.save("PresentationWithCharts-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+
+**パラメーター:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| skipFailedCharts | boolean | チャートの更新に失敗した場合にリフレッシュ処理を続行するかどうかを決定します。true の場合、例外を引き起こすチャートはスキップされます。false の場合、例外が伝播します。 |

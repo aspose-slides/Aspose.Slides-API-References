@@ -1,20 +1,17 @@
 ---
 title: TextFrame
-second_title: อ้างอิง API ของ Aspose.Slides สำหรับ Java
-description: แสดงถึง TextFrame.
+second_title: Aspose.Slides สำหรับ Java API Reference
+description: เป็นตัวแทนของ TextFrame.
 type: docs
 url: /th/com.aspose.slides/textframe/
 ---
-**สืบทอด:**  
-java.lang.Object
+**การสืบทอด:** java.lang.Object
 
-**ทุกอินเทอร์เฟซที่ทำการ Implement:**  
-[com.aspose.slides.ITextFrame](../../com.aspose.slides/itextframe), com.aspose.slides.IDOMObject  
-```
+**อินเทอร์เฟซที่ทำการ Implement ทั้งหมด:** [com.aspose.slides.ITextFrame](../../com.aspose.slides/itextframe), com.aspose.slides.IDOMObject ```
 public final class TextFrame implements ITextFrame, IDOMObject
 ```
 
-แสดงถึง TextFrame.
+เป็นตัวแทนของ TextFrame.
 
 ## เมธอด
 
@@ -25,29 +22,30 @@ public final class TextFrame implements ITextFrame, IDOMObject
 | [getText()](#getText--) | รับหรือกำหนดข้อความธรรมดาสำหรับ TextFrame |
 | [setText(String value)](#setText-java.lang.String-) | รับหรือกำหนดข้อความธรรมดาสำหรับ TextFrame |
 | [getTextFrameFormat()](#getTextFrameFormat--) | ส่งคืนวัตถุการจัดรูปแบบสำหรับวัตถุ TextFrame นี้ |
-| [getHyperlinkQueries()](#getHyperlinkQueries--) | ให้การเข้าถึง hyperlinks ที่รวมอยู่ได้อย่างง่าย |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | รวม runs ที่มีการจัดรูปแบบเดียวกันในย่อหน้าทั้งหมด |
-| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | เน้นสีทั้งหมดที่ตรงกับข้อความตัวอย่างด้วยสีที่ระบุ |
-| [highlightText(String text, Color highlightColor, ITextHighlightingOptions options)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | เน้นสีทั้งหมดที่ตรงกับข้อความตัวอย่างด้วยสีที่ระบุ |
-| [splitTextByColumns()](#splitTextByColumns--) | แยกเนื้อหาข้อความของ [ITextFrame](../../com.aspose.slides/itextframe) เป็นอาร์เรย์ของสตริง, โดยแต่ละองค์ประกอบสอดคล้องกับคอลัมน์ข้อความแยกภายในเฟรม |
-| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | เน้นสีทั้งหมดที่ตรงกับข้อความตัวอย่างด้วยสีที่ระบุ |
-| [highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)](#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | เน้นสีทั้งหมดที่ตรงกับ regular expression ด้วยสีที่ระบุ |
-| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | เน้นสีทั้งหมดที่ตรงกับ regular expression ด้วยสีที่ระบุ |
-| [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | แทนที่การเกิดทั้งหมดของข้อความที่ระบุด้วยข้อความอื่นที่ระบุ |
-| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | แทนที่การตรงทั้งหมดของ regular expression ด้วยสตริงที่ระบุ |
+| [getHyperlinkQueries()](#getHyperlinkQueries--) | ให้การเข้าถึงลิงก์ที่รวมไว้ได้อย่างง่ายดาย |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | รวมรันที่มีการจัดรูปแบบเดียวกันในย่อหน้าทั้งหมด |
+| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | ไฮไลท์การจับคู่ทั้งหมดของข้อความตัวอย่างด้วยสีที่ระบุ |
+| [highlightText(String text, Color highlightColor, ITextHighlightingOptions options)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | ไฮไลท์การจับคู่ทั้งหมดของข้อความตัวอย่างด้วยสีที่ระบุ |
+| [splitTextByColumns()](#splitTextByColumns--) | แยกส่วนเนื้อหาข้อความของ [ITextFrame](../../com.aspose.slides/itextframe) ไปเป็นอาร์เรย์ของสตริง โดยที่แต่ละองค์ประกอบสอดคล้องกับคอลัมน์ข้อความแยกภายในเฟรม |
+| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | ไฮไลท์การจับคู่ทั้งหมดของข้อความตัวอย่างด้วยสีที่ระบุ |
+| [highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)](#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | ไฮไลท์การจับคู่ทั้งหมดของนิพจน์ปกติกับสีที่ระบุ |
+| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | ไฮไลท์การจับคู่ทั้งหมดของนิพจน์ปกติกับสีที่ระบุ |
+| [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | แทนที่ทุกการเกิดของข้อความที่ระบุด้วยข้อความอื่นที่ระบุ |
+| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | แทนที่การจับคู่ทั้งหมดของนิพจน์ปกติกับสตริงที่ระบุ |
 | [getSlide()](#getSlide--) | ส่งคืนสไลด์แม่ของ TextFrame |
 | [getPresentation()](#getPresentation--) | ส่งคืนการนำเสนอแม่ของ TextFrame |
-| [getParentShape()](#getParentShape--) | ส่งคืนรูปร่างแม่หรือ null หากวัตถุแม่ไม่ได้ implement อินเทอร์เฟซ IShape อ่านอย่างเดียว [IShape](../../com.aspose.slides/ishape) |
-| [getParentCell()](#getParentCell--) | ส่งคืนเซลล์แม่หรือ null หากวัตถุแม่ไม่ได้ implement อินเทอร์เฟซ ICell อ่านอย่างเดียว |
+| [getParentShape()](#getParentShape--) | ส่งคืนรูปร่างแม่หรือ null หากวัตถุแม่ไม่ทำการ Implement อินเทอร์เฟซ IShape แบบอ่านอย่างเดียว [IShape](../../com.aspose.slides/ishape) |
+| [getTextRect()](#getTextRect--) | รับสี่เหลี่ยมข้อความที่กำหนดโดยรูปทรงของรูปร่างแม่ |
+| [getParentCell()](#getParentCell--) | ส่งคืนเซลล์แม่หรือ null หากวัตถุแม่ไม่ทำการ Implement อินเทอร์เฟซ ICell |
 
 ### getParent_Immediate() {#getParent-Immediate--}
 ```
 public final IDOMObject getParent_Immediate()
 ```
 
-ส่งคืนวัตถุ Parent_Immediate. อ่านอย่างเดียว IDOMObject.
+ส่งคืนวัตถุ Parent_Immediate แบบอ่านอย่างเดียว IDOMObject.
 
-**ส่งคืน:**  
+**คืนค่า:**
 com.aspose.slides.IDOMObject
 
 ### getParagraphs() {#getParagraphs--}
@@ -55,9 +53,9 @@ com.aspose.slides.IDOMObject
 public final IParagraphCollection getParagraphs()
 ```
 
-ส่งคืนรายการของย่อหน้าทั้งหมดในเฟรมหนึ่ง. อ่านอย่างเดียว [IParagraphCollection](../../com.aspose.slides/iparagraphcollection).
+ส่งคืนรายการของย่อหน้าทั้งหมดในเฟรมหนึ่ง แบบอ่านอย่างเดียว [IParagraphCollection](../../com.aspose.slides/iparagraphcollection).
 
-**ส่งคืน:**  
+**คืนค่า:**
 [IParagraphCollection](../../com.aspose.slides/iparagraphcollection)
 
 ### getText() {#getText--}
@@ -65,11 +63,11 @@ public final IParagraphCollection getParagraphs()
 public final String getText()
 ```
 
-รับหรือกำหนดข้อความธรรมดาสำหรับ TextFrame. อ่าน/เขียน String.
+รับหรือกำหนดข้อความธรรมดาสำหรับ TextFrame แบบอ่าน/เขียน String.
 
 ค่า: ข้อความ.
 
-**ส่งคืน:**  
+**คืนค่า:**
 java.lang.String
 
 ### setText(String value) {#setText-java.lang.String-}
@@ -77,12 +75,12 @@ java.lang.String
 public final void setText(String value)
 ```
 
-รับหรือกำหนดข้อความธรรมดาสำหรับ TextFrame. อ่าน/เขียน String.
+รับหรือกำหนดข้อความธรรมดาสำหรับ TextFrame แบบอ่าน/เขียน String.
 
 ค่า: ข้อความ.
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
@@ -91,9 +89,9 @@ public final void setText(String value)
 public final ITextFrameFormat getTextFrameFormat()
 ```
 
-ส่งคืนวัตถุการจัดรูปแบบสำหรับวัตถุ TextFrame นี้. อ่านอย่างเดียว [ITextFrameFormat](../../com.aspose.slides/itextframeformat).
+ส่งคืนวัตถุการจัดรูปแบบสำหรับวัตถุ TextFrame นี้ แบบอ่านอย่างเดียว [ITextFrameFormat](../../com.aspose.slides/itextframeformat).
 
-**ส่งคืน:**  
+**คืนค่า:**
 [ITextFrameFormat](../../com.aspose.slides/itextframeformat)
 
 ### getHyperlinkQueries() {#getHyperlinkQueries--}
@@ -101,9 +99,9 @@ public final ITextFrameFormat getTextFrameFormat()
 public final IHyperlinkQueries getHyperlinkQueries()
 ```
 
-ให้การเข้าถึง hyperlinks ที่รวมอยู่ได้อย่างง่าย. อ่านอย่างเดียว [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
+ให้การเข้าถึงลิงก์ที่รวมไว้ได้อย่างง่ายดาย แบบอ่านอย่างเดียว [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
 
-**ส่งคืน:**  
+**คืนค่า:**
 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)
 
 ### joinPortionsWithSameFormatting() {#joinPortionsWithSameFormatting--}
@@ -111,27 +109,27 @@ public final IHyperlinkQueries getHyperlinkQueries()
 public final void joinPortionsWithSameFormatting()
 ```
 
-รวม runs ที่มีการจัดรูปแบบเดียวกันในย่อหน้าทั้งหมด.
+รวมรันที่มีการจัดรูปแบบเดียวกันในย่อหน้าทั้งหมด
 
 ### highlightText(String text, Color highlightColor) {#highlightText-java.lang.String-java.awt.Color-}
 ```
 public final void highlightText(String text, Color highlightColor)
 ```
 
-เน้นสีทั้งหมดที่ตรงกับข้อความตัวอย่างด้วยสีที่ระบุ.
+ไฮไลท์การจับคู่ทั้งหมดของข้อความตัวอย่างด้วยสีที่ระบุ
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| text | java.lang.String | ข้อความตัวอย่างที่ต้องการเน้น |
-| highlightColor | java.awt.Color | สีที่ใช้เน้นข้อความ |
+| text | java.lang.String | ตัวอย่างข้อความที่จะไฮไลท์ |
+| highlightColor | java.awt.Color | สีที่จะไฮไลท์ข้อความ |
 
 ### highlightText(String text, Color highlightColor, ITextHighlightingOptions options) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-}
 ```
 public final void highlightText(String text, Color highlightColor, ITextHighlightingOptions options)
 ```
 
-เน้นสีทั้งหมดที่ตรงกับข้อความตัวอย่างด้วยสีที่ระบุ.
+ไฮไลท์การจับคู่ทั้งหมดของข้อความตัวอย่างด้วยสีที่ระบุ
 
 --------------------
 
@@ -141,9 +139,9 @@ public final void highlightText(String text, Color highlightColor, ITextHighligh
 >  try {
 >      TextHighlightingOptions textHighlightingOptions = new TextHighlightingOptions();
 >      textHighlightingOptions.setWholeWordsOnly(true);
->      // ไฮไลท์ทุกคำ 'important'
+>      // เน้นคำทั้งหมด 'important'
 >      ((AutoShape)pres.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightText("title", Color.BLUE);
->      // ไฮไลท์ทุกการปรากฏของ 'the' แยกกัน
+>      // เน้นการปรากฏของ 'the' แยกทั้งหมด
 >      ((AutoShape)pres.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightText("to", Color.MAGENTA, textHighlightingOptions);
 >      pres.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -153,18 +151,18 @@ public final void highlightText(String text, Color highlightColor, ITextHighligh
 
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| text | java.lang.String | ข้อความที่ต้องการเน้น |
-| highlightColor | java.awt.Color | สีที่ใช้เน้นข้อความ |
-| options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | ตัวเลือกการเน้นสี |
+| text | java.lang.String | ข้อความที่จะไฮไลท์ |
+| highlightColor | java.awt.Color | สีที่จะไฮไลท์ข้อความ |
+| options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | ตัวเลือกการไฮไลท์ |
 
 ### splitTextByColumns() {#splitTextByColumns--}
 ```
 public final String[] splitTextByColumns()
 ```
 
-แยกเนื้อหาข้อความของ [ITextFrame](../../com.aspose.slides/itextframe) เป็นอาร์เรย์ของสตริง, โดยแต่ละองค์ประกอบสอดคล้องกับคอลัมน์ข้อความแยกภายในเฟรม.
+แยกส่วนเนื้อหาข้อความของ [ITextFrame](../../com.aspose.slides/itextframe) ไปเป็นอาร์เรย์ของสตริง โดยที่แต่ละองค์ประกอบสอดคล้องกับคอลัมน์ข้อความแยกภายในเฟรม
 
 --------------------
 
@@ -173,11 +171,11 @@ public final String[] splitTextByColumns()
 >  
 >  Presentation pres = new Presentation("example.pptx");
 >  try {
->      // รับรูปร่างแรกบนสไลด์และแคสต์เป็น ITextFrame
+>      // รับรูปแบบแรกบนสไลด์และแคสต์เป็น ITextFrame
 >      ITextFrame textFrame = (ITextFrame) pres.getSlides().get_Item(0).getShapes().get_Item(0);
->      // แยกเนื้อหา TextFrame ออกเป็นคอลัมน์
+>      // แบ่งเนื้อหา TextFrame เป็นคอลัมน์
 >      String[] columnsText = textFrame.splitTextByColumns();
->      // พิมพ์ข้อความของแต่ละคอลัมน์ไปที่คอนโซล
+>      // พิมพ์ข้อความของแต่ละคอลัมน์ไปยังคอนโซล
 >      for (String column : columnsText)
 >          System.out.println(column);
 >  } finally {
@@ -186,19 +184,19 @@ public final String[] splitTextByColumns()
 > ```
 
 
-**ส่งคืน:**  
-java.lang.String[] - อาเรย์ของสตริง, โดยแต่ละสตริงแทนเนื้อหาข้อความของคอลัมน์เฉพาะใน [ITextFrame](../../com.aspose.slides/itextframe).
+**คืนค่า:**
+java.lang.String[] - อาร์เรย์ของสตริงที่แต่ละอันแทนข้อความของคอลัมน์เฉพาะใน [ITextFrame](../../com.aspose.slides/itextframe)
 
 --------------------
 
-หาก TextFrame ไม่มีหลายคอลัมน์, อาเรย์ที่ส่งกลับจะมีเพียงองค์ประกอบเดียวที่มีข้อความเต็ม. คอลัมน์ว่างจะถูกแทนด้วยสตริงว่างในอาเรย์.
+หาก TextFrame ไม่ได้มีหลายคอลัมน์ อาร์เรย์ที่ส่งคืนจะมีเพียงองค์ประกอบเดียวที่บรรจุข้อความทั้งหมด คอลัมน์ที่ว่างเปล่าจะแสดงเป็นสตริงว่างในอาร์เรย์
 
 ### highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
 public final void highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
-เน้นสีทั้งหมดที่ตรงกับข้อความตัวอย่างด้วยสีที่ระบุ.
+ไฮไลท์การจับคู่ทั้งหมดของข้อความตัวอย่างด้วยสีที่ระบุ
 
 --------------------
 
@@ -209,9 +207,9 @@ public final void highlightText(String text, Color highlightColor, ITextSearchOp
 >  try {
 >      TextSearchOptions textSearchOptions = new TextSearchOptions();
 >      textSearchOptions.setWholeWordsOnly(true);
->      // ไฮไลท์ทุกคำ 'important'
+>      // เน้นคำทั้งหมด 'important'
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightText("important", Color.BLUE);
->      // ไฮไลท์ทุกการปรากฏของ 'the' แยกกัน
+>      // เน้นการปรากฏของ 'the' แยกทั้งหมด
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightText("the", Color.MAGENTA, textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -221,19 +219,19 @@ public final void highlightText(String text, Color highlightColor, ITextSearchOp
 
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| text | java.lang.String | ข้อความที่ต้องการเน้น |
-| highlightColor | java.awt.Color | สีที่ใช้เน้นข้อความ |
+| text | java.lang.String | ข้อความที่จะไฮไลท์ |
+| highlightColor | java.awt.Color | สีที่จะไฮไลท์ข้อความ |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | ตัวเลือกการค้นหาข้อความ [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | อ็อบเจ็กต์ callback สำหรับรับผลการค้นหา [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | วัตถุ callback เพื่อรับผลการค้นหา [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) |
 
 ### highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options) {#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-}
 ```
 public final void highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)
 ```
 
-เน้นสีทั้งหมดที่ตรงกับ regular expression ด้วยสีที่ระบุ.
+ไฮไลท์การจับคู่ทั้งหมดของนิพจน์ปกติกับสีที่ระบุ
 
 --------------------
 
@@ -243,7 +241,7 @@ public final void highlightRegex(String regex, Color highlightColor, ITextHighli
 >  Presentation pres = new Presentation("SomePresentation.pptx");
 >  try {
 >      TextHighlightingOptions options = new TextHighlightingOptions();
->      // ไฮไลท์ทุกคำที่มีความยาว 10 สัญลักษณ์หรือมากกว่า
+>      // เน้นคำทั้งหมดที่ยาว 10 สัญลักษณ์หรือมากกว่า
 >      ((AutoShape) pres.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightRegex("\\b[^\\s){5,}\\b", Color.BLUE, options);
 >      pres.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -251,19 +249,20 @@ public final void highlightRegex(String regex, Color highlightColor, ITextHighli
 >  }
 > ```
 
+
 **พารามิเตอร์:**
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| regex | java.lang.String | ข้อความ regular expression เพื่อรับข้อความที่ต้องการเน้น |
-| highlightColor | java.awt.Color | สีที่ใช้เน้นข้อความ |
-| options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | ตัวเลือกการเน้นสี |
+| regex | java.lang.String | ข้อความของนิพจน์ปกติที่จะไฮไลท์ |
+| highlightColor | java.awt.Color | สีที่จะไฮไลท์ข้อความ |
+| options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | ตัวเลือกการไฮไลท์ |
 
 ### highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback) {#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-}
 ```
 public final void highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)
 ```
 
-เน้นสีทั้งหมดที่ตรงกับ regular expression ด้วยสีที่ระบุ.
+ไฮไลท์การจับคู่ทั้งหมดของนิพจน์ปกติกับสีที่ระบุ
 
 --------------------
 
@@ -273,7 +272,7 @@ public final void highlightRegex(Pattern regex, Color highlightColor, IFindResul
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      Pattern regex = Pattern.compile("\\b[^\\s]{5,}\\b");
->      // ไฮไลท์ทุกคำที่มีความยาว 5 สัญลักษณ์หรือมากกว่า
+>      // เน้นคำทั้งหมดที่มีความยาว 5 สัญลักษณ์หรือมากกว่า
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightRegex(regex, Color.BLUE, null);
 >      presentation.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -281,30 +280,31 @@ public final void highlightRegex(Pattern regex, Color highlightColor, IFindResul
 >  }
 > ```
 
+
 **พารามิเตอร์:**
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | Regular expression java.util.regex.Pattern เพื่อรับสตริงที่ต้องการเน้น |
-| highlightColor | java.awt.Color | สีที่ใช้เน้นข้อความ |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | อ็อบเจ็กต์ callback สำหรับรับผลการค้นหา [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) |
+| regex | java.util.regex.Pattern | นิพจน์ปกติ java.util.regex.Pattern เพื่อรับสตริงที่จะแฮไลท์ |
+| highlightColor | java.awt.Color | สีที่จะไฮไลท์ข้อความ |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | วัตถุ callback เพื่อรับผลการค้นหา [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) |
 
 ### replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback) {#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
 public final void replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
-แทนที่การเกิดทั้งหมดของข้อความที่ระบุด้วยข้อความอื่นที่ระบุ.
+แทนที่ทุกการเกิดของข้อความที่ระบุด้วยข้อความอื่นที่ระบุ
 
 --------------------
 
 > ```
-> The following sample code shows how to replace one speified string with another speified string.
+> The following sample code shows how to replace one speified string with another spepecified string.
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      TextSearchOptions textSearchOptions = new TextSearchOptions();
 >      textSearchOptions.setWholeWordsOnly(true);
->      // แทนที่การปรากฏทั้งหมดของ 'the' แยกกันด้วย '***'
+>      // แทนที่การปรากฏของ 'the' ทั้งหมดด้วย '***'
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().replaceText("the", "***", textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -312,20 +312,21 @@ public final void replaceText(String oldText, String newText, ITextSearchOptions
 >  }
 > ```
 
+
 **พารามิเตอร์:**
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| oldText | java.lang.String | สตริงที่ต้องการแทนที่ |
-| newText | java.lang.String | สตริงที่จะใช้แทนที่การเกิดทั้งหมดของ oldText |
+| oldText | java.lang.String | สตริงที่จะถูกแทนที่ |
+| newText | java.lang.String | สตริงที่จะแทนที่ทุกการเกิดของ oldText |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | ตัวเลือกการค้นหาข้อความ [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | อ็อบเจ็กต์ callback สำหรับบันทึกผลการดำเนินการแทนที่ [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | วัตถุ callback เพื่อบันทึกผลการดำเนินการแทนที่ [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) |
 
 ### replaceRegex(Pattern regex, String newText, IFindResultCallback callback) {#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-}
 ```
 public final void replaceRegex(Pattern regex, String newText, IFindResultCallback callback)
 ```
 
-แทนที่การตรงทั้งหมดของ regular expression ด้วยสตริงที่ระบุ.
+แทนที่การจับคู่ทั้งหมดของนิพจน์ปกติกับสตริงที่ระบุ
 
 --------------------
 
@@ -335,7 +336,7 @@ public final void replaceRegex(Pattern regex, String newText, IFindResultCallbac
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      Pattern regex = Pattern.compile("\\b[^\\s]{5,}\\b");
->      // แทนที่ทุกคำที่มีความยาว 5 สัญลักษณ์หรือมากกว่า ด้วย '***'
+>      // แทนที่คำทั้งหมดที่มีความยาว 5 สัญลักษณ์หรือมากกว่าเป็น '***'
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().replaceRegex(regex, "***", null);
 >      presentation.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -345,20 +346,20 @@ public final void replaceRegex(Pattern regex, String newText, IFindResultCallbac
 
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | Regular expression java.util.regex.Pattern เพื่อรับสตริงที่ต้องการแทนที่ |
-| newText | java.lang.String | สตริงที่จะใช้แทนที่การเกิดทั้งหมดของสตริงที่ต้องการแทนที่ |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | อ็อบเจ็กต์ callback สำหรับบันทึกผลการดำเนินการแทนที่ [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) |
+| regex | java.util.regex.Pattern | นิพจน์ปกติ java.util.regex.Pattern เพื่อรับสตริงที่ต้องการแทนที่ |
+| newText | java.lang.String | สตริงที่จะแทนที่ทุกการเกิดของสตริงที่ต้องการแทนที่ |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | วัตถุ callback เพื่อบันทึกผลการดำเนินการแทนที่ [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) |
 
 ### getSlide() {#getSlide--}
 ```
 public final IBaseSlide getSlide()
 ```
 
-ส่งคืนสไลด์แม่ของ TextFrame. อ่านอย่างเดียว [IBaseSlide](../../com.aspose.slides/ibaseslide).
+ส่งคืนสไลด์แม่ของ TextFrame แบบอ่านอย่างเดียว [IBaseSlide](../../com.aspose.slides/ibaseslide).
 
-**ส่งคืน:**  
+**คืนค่า:**
 [IBaseSlide](../../com.aspose.slides/ibaseslide)
 
 ### getPresentation() {#getPresentation--}
@@ -366,9 +367,9 @@ public final IBaseSlide getSlide()
 public final IPresentation getPresentation()
 ```
 
-ส่งคืนการนำเสนอแม่ของ TextFrame. อ่านอย่างเดียว [IPresentation](../../com.aspose.slides/ipresentation).
+ส่งคืนการนำเสนอแม่ของ TextFrame แบบอ่านอย่างเดียว [IPresentation](../../com.aspose.slides/ipresentation).
 
-**ส่งคืน:**  
+**คืนค่า:**
 [IPresentation](../../com.aspose.slides/ipresentation)
 
 ### getParentShape() {#getParentShape--}
@@ -376,7 +377,7 @@ public final IPresentation getPresentation()
 public final IShape getParentShape()
 ```
 
-ส่งคืนรูปร่างแม่หรือ null หากวัตถุแม่ไม่ได้ implement อินเทอร์เฟซ IShape อ่านอย่างเดียว [IShape](../../com.aspose.slides/ishape).
+ส่งคืนรูปร่างแม่หรือ null หากวัตถุแม่ไม่ทำการ Implement อินเทอร์เฟซ IShape แบบอ่านอย่างเดียว [IShape](../../com.aspose.slides/ishape).
 
 --------------------
 
@@ -388,7 +389,7 @@ public final IShape getParentShape()
 >      AutoShape autoShape = (AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0);
 >      Table table = (Table)presentation.getSlides().get_Item(0).getShapes().get_Item(1);
 > 
->      // การอ้างอิงเหล่านี้เป็นจริงเสมอ
+>      // การตรวจสอบเหล่านี้เป็นจริงเสมอ
 >      Assert.assertTrue(autoShape.getTextFrame().getParentShape() == autoShape);
 >      Assert.assertTrue((table.get_Item(0,0).getTextFrame()).getParentShape() == null);
 >  } finally {
@@ -396,15 +397,26 @@ public final IShape getParentShape()
 >  }
 > ```
 
-**ส่งคืน:**  
+
+**คืนค่า:**
 [IShape](../../com.aspose.slides/ishape)
+
+### getTextRect() {#getTextRect--}
+```
+public final Rectangle2D.Float getTextRect()
+```
+
+รับสี่เหลี่ยมข้อความที่กำหนดโดยรูปทรงของรูปร่างแม่
+
+**คืนค่า:**
+java.awt.geom.Rectangle2D.Float - java.awt.geom.Rectangle2D.Float ที่กำหนดพื้นที่ข้อความ
 
 ### getParentCell() {#getParentCell--}
 ```
 public final ICell getParentCell()
 ```
 
-ส่งคืนเซลล์แม่หรือ null หากวัตถุแม่ไม่ได้ implement อินเทอร์เฟซ ICell อ่านอย่างเดียว [ICell](../../com.aspose.slides/icell).
+ส่งคืนเซลล์แม่หรือ null หากวัตถุแม่ไม่ทำการ Implement อินเทอร์เฟซ ICell แบบอ่านอย่างเดียว [ICell](../../com.aspose.slides/icell).
 
 --------------------
 
@@ -416,7 +428,7 @@ public final ICell getParentCell()
 >      AutoShape autoShape = (AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0);
 >      Table table = (Table)presentation.getSlides().get_Item(0).getShapes().get_Item(1);
 > 
->      // การอ้างอิงเหล่านี้เป็นจริงเสมอ
+>      // การตรวจสอบเหล่านี้เป็นจริงเสมอ
 >      Assert.assertTrue(table.get_Item(0,0).getTextFrame().getParentCell() == table.get_Item(0,0));
 >      Assert.assertTrue(autoShape.getTextFrame().getParentCell() == null);
 >  } finally {
@@ -424,5 +436,6 @@ public final ICell getParentCell()
 >  }
 > ```
 
-**ส่งคืน:**  
+
+**คืนค่า:**
 [ICell](../../com.aspose.slides/icell)

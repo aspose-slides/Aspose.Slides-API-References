@@ -54,37 +54,39 @@ Beheert lettertypen in de presentatie.
 
 | Methode | Beschrijving |
 | --- | --- |
-| [getFontSubstRuleList()](#getFontSubstRuleList--) | Lettertypevervangingen die gebruikt worden bij het renderen. |
-| [setFontSubstRuleList(IFontSubstRuleCollection value)](#setFontSubstRuleList-com.aspose.slides.IFontSubstRuleCollection-) | Lettertypevervangingen die gebruikt worden bij het renderen. |
-| [getFontFallBackRulesCollection()](#getFontFallBackRulesCollection--) | Stelt een verzameling van FontFallBack-regels van de gebruiker voor voor het beheren van collecties van lettertypen voor juiste vervangingen via fallback-functionaliteit Lezen/Schrijven [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
-| [setFontFallBackRulesCollection(IFontFallBackRulesCollection value)](#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-) | Stelt een verzameling van FontFallBack-regels van de gebruiker voor voor het beheren van collecties van lettertypen voor juiste vervangingen via fallback-functionaliteit Lezen/Schrijven [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
-| [getFonts()](#getFonts--) | Retourneert de lettertypen die in de presentatie gebruikt worden |
-| [getSubstitutions()](#getSubstitutions--) | Haalt de informatie op over lettertypen die bij het renderen van de presentatie zullen worden vervangen. |
-| [getSubstitutions(int[] slides)](#getSubstitutions-int---) | Haalt de informatie op over lettertypen die tijdens het renderen van de opgegeven dia’s zullen worden vervangen. |
+| [getFontSubstRuleList()](#getFontSubstRuleList--) | Lettertypevervangingen te gebruiken bij het renderen. |
+| [setFontSubstRuleList(IFontSubstRuleCollection value)](#setFontSubstRuleList-com.aspose.slides.IFontSubstRuleCollection-) | Lettertypevervangingen te gebruiken bij het renderen. |
+| [getFontFallBackRulesCollection()](#getFontFallBackRulesCollection--) | Vertegenwoordigt een verzameling van FontFallBack regels van een gebruiker voor het beheren van verzamelingen lettertypen voor juiste vervangingen via fallback-functionaliteit Lezen/Schrijven [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
+| [setFontFallBackRulesCollection(IFontFallBackRulesCollection value)](#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-) | Vertegenwoordigt een verzameling van FontFallBack regels van een gebruiker voor het beheren van verzamelingen lettertypen voor juiste vervangingen via fallback-functionaliteit Lezen/Schrijven [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
+| [getFonts()](#getFonts--) | Retourneert de lettertypen die in de presentatie worden gebruikt |
+| [getSubstitutions()](#getSubstitutions--) | Haalt de informatie op over lettertypen die tijdens het renderen van de presentatie zullen worden vervangen. |
+| [getSubstitutions(int[] slides)](#getSubstitutions-int---) | Haalt de informatie op over lettertypen die tijdens het renderen van de opgegeven dia's zullen worden vervangen. |
+| [getPreferRegisteredFontsOverEmbedded()](#getPreferRegisteredFontsOverEmbedded--) | Geeft aan of geregistreerde lettertypen de voorkeur moeten krijgen boven ingesloten lettertypen met dezelfde lettertype-naam en stijl. |
+| [setPreferRegisteredFontsOverEmbedded(boolean value)](#setPreferRegisteredFontsOverEmbedded-boolean-) | Geeft aan of geregistreerde lettertypen de voorkeur moeten krijgen boven ingesloten lettertypen met dezelfde lettertype-naam en stijl. |
 | [getEmbeddedFonts()](#getEmbeddedFonts--) | Retourneert de ingesloten lettertypen in de presentatie |
 | [removeEmbeddedFont(IFontData fontData)](#removeEmbeddedFont-com.aspose.slides.IFontData-) | Verwijdert het ingesloten lettertype |
 | [addEmbeddedFont(IFontData fontData, int embedFontRule)](#addEmbeddedFont-com.aspose.slides.IFontData-int-) | Voegt het ingesloten lettertype toe |
 | [addEmbeddedFont(byte[] fontData, int embedFontRule)](#addEmbeddedFont-byte---int-) | Voegt het ingesloten lettertype toe |
 | [replaceFont(IFontData sourceFont, IFontData destFont)](#replaceFont-com.aspose.slides.IFontData-com.aspose.slides.IFontData-) | Vervang lettertype in de presentatie |
-| [replaceFont(IFontSubstRule substRule)](#replaceFont-com.aspose.slides.IFontSubstRule-) | Vervang lettertype in de presentatie met informatie verstrekt in [FontSubstRule](../../com.aspose.slides/fontsubstrule) |
-| [replaceFont(IFontSubstRuleCollection substRules)](#replaceFont-com.aspose.slides.IFontSubstRuleCollection-) | Vervang lettertype in de presentatie met informatie verstrekt in collectie van [FontSubstRule](../../com.aspose.slides/fontsubstrule) |
-| [getFontBytes(IFontData fontData, int fontStyle)](#getFontBytes-com.aspose.slides.IFontData-int-) | Haalt de byte-array op die de lettertypegegevens vertegenwoordigt voor een opgegeven lettertype-stijl en lettertypegegevens. |
-| [getFontEmbeddingLevel(byte[] fontBytes, String fontName)](#getFontEmbeddingLevel-byte---java.lang.String-) | Bepaalt het insluitingsniveau van een lettertype op basis van de gegeven byte-array en lettertype-naam. |
+| [replaceFont(IFontSubstRule substRule)](#replaceFont-com.aspose.slides.IFontSubstRule-) | Vervang lettertype in de presentatie met behulp van de informatie verstrekt in [FontSubstRule](../../com.aspose.slides/fontsubstrule) |
+| [replaceFont(IFontSubstRuleCollection substRules)](#replaceFont-com.aspose.slides.IFontSubstRuleCollection-) | Vervang lettertype in de presentatie met behulp van de informatie verstrekt in collectie van [FontSubstRule](../../com.aspose.slides/fontsubstrule) |
+| [getFontBytes(IFontData fontData, int fontStyle)](#getFontBytes-com.aspose.slides.IFontData-int-) | Haal de byte-array op die de lettertype-gegevens vertegenwoordigt voor een opgegeven lettertype-stijl en lettertype-gegevens. |
+| [getFontEmbeddingLevel(byte[] fontBytes, String fontName)](#getFontEmbeddingLevel-byte---java.lang.String-) | Bepaalt het ingebedde niveau van een lettertype aan de hand van de gegeven byte-array en lettertype-naam. |
 ### getFontSubstRuleList() {#getFontSubstRuleList--}
 ```
 public final IFontSubstRuleCollection getFontSubstRuleList()
 ```
 
-Lettertypevervangingen die gebruikt worden bij het renderen. Lezen/Schrijven [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
+Lettertypevervangingen te gebruiken bij het renderen. Lezen/Schrijven [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
 
-**Retourneert:**
+**Retour:**
 [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection)
 ### setFontSubstRuleList(IFontSubstRuleCollection value) {#setFontSubstRuleList-com.aspose.slides.IFontSubstRuleCollection-}
 ```
 public final void setFontSubstRuleList(IFontSubstRuleCollection value)
 ```
 
-Lettertypevervangingen die gebruikt worden bij het renderen. Lezen/Schrijven [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
+Lettertypevervangingen te gebruiken bij het renderen. Lezen/Schrijven [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -95,7 +97,7 @@ Lettertypevervangingen die gebruikt worden bij het renderen. Lezen/Schrijven [IF
 public final IFontFallBackRulesCollection getFontFallBackRulesCollection()
 ```
 
-Stelt een verzameling van FontFallBack-regels van de gebruiker voor voor het beheren van collecties van lettertypen voor juiste vervangingen via fallback-functionaliteit Lezen/Schrijven [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
+Vertegenwoordigt een verzameling van FontFallBack regels van een gebruiker voor het beheren van verzamelingen lettertypen voor juiste vervangingen via fallback-functionaliteit Lezen/Schrijven [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
 
 --------------------
 
@@ -103,16 +105,16 @@ Stelt een verzameling van FontFallBack-regels van de gebruiker voor voor het beh
 > Presentation pres = new Presentation();
 >  try
 >  {
->      // Ophalen van lege of vooraf geïnitialiseerde regelsverzameling van FontsManager
+>      // Leeg of vooraf geïnitialiseerde regelsverzameling ophalen van FontsManager
 >      IFontFallBackRulesCollection rulesList = pres.getFontsManager().getFontFallBackRulesCollection();
->      // toevoegen van regels aan verzameling
+>      // regels toevoegen aan verzameling
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
->      // of
->      // initialisatie van een nieuwe instantie van de regelsverzameling
+>      // of 
+>      // nieuwe instantie van regelsverzameling initialiseren
 >      IFontFallBackRulesCollection rulesList = new FontFallBackRulesCollection();
->      // toevoegen van regels aan verzameling
+>      // regels toevoegen aan verzameling
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
->      // en vervangen van de bestaande verzameling door de nieuwe in FontsManager 
+>      // en bestaande verzameling vervangen door de nieuwe in FontsManager 
 >      pres.getFontsManager().setFontFallBackRulesCollection(rulesList);
 >  }
 >  finally {
@@ -120,15 +122,14 @@ Stelt een verzameling van FontFallBack-regels van de gebruiker voor voor het beh
 >  }
 > ```
 
-
-**Retourneert:**
+**Retour:**
 [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection)
 ### setFontFallBackRulesCollection(IFontFallBackRulesCollection value) {#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-}
 ```
 public final void setFontFallBackRulesCollection(IFontFallBackRulesCollection value)
 ```
 
-Stelt een verzameling van FontFallBack-regels van de gebruiker voor voor het beheren van collecties van lettertypen voor juiste vervangingen via fallback-functionaliteit Lezen/Schrijven [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
+Vertegenwoordigt een verzameling van FontFallBack regels van een gebruiker voor het beheren van verzamelingen lettertypen voor juiste vervangingen via fallback-functionaliteit Lezen/Schrijven [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
 
 --------------------
 
@@ -136,16 +137,16 @@ Stelt een verzameling van FontFallBack-regels van de gebruiker voor voor het beh
 > Presentation pres = new Presentation();
 >  try
 >  {
->      // Ophalen van lege of vooraf geïnitialiseerde regelsverzameling van FontsManager
+>      // Lege of vooraf geïnitialiseerde regelsverzameling ophalen van FontsManager
 >      IFontFallBackRulesCollection rulesList = pres.getFontsManager().getFontFallBackRulesCollection();
->      // toevoegen van regels aan verzameling
+>      // regels toevoegen aan verzameling
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
->      // of
->      // initialisatie van een nieuwe instantie van de regelsverzameling
+>      // of 
+>      // nieuwe instantie van regelsverzameling initialiseren
 >      IFontFallBackRulesCollection rulesList = new FontFallBackRulesCollection();
->      // toevoegen van regels aan verzameling
+>      // regels toevoegen aan verzameling
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
->      // en vervangen van de bestaande verzameling door de nieuwe in FontsManager 
+>      // en bestaande verzameling vervangen door de nieuwe in FontsManager 
 >      pres.getFontsManager().setFontFallBackRulesCollection(rulesList);
 >  }
 >  finally {
@@ -163,16 +164,16 @@ Stelt een verzameling van FontFallBack-regels van de gebruiker voor voor het beh
 public final IFontData[] getFonts()
 ```
 
-Retourneert de lettertypen die in de presentatie gebruikt worden
+Retourneert de lettertypen die in de presentatie worden gebruikt
 
-**Retourneert:**
+**Retour:**
 com.aspose.slides.IFontData[] - Een array van lettertypen
 ### getSubstitutions() {#getSubstitutions--}
 ```
 public final System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo> getSubstitutions()
 ```
 
-Haalt de informatie op over lettertypen die bij het renderen van de presentatie zullen worden vervangen.
+Haalt de informatie op over lettertypen die tijdens het renderen van de presentatie zullen worden vervangen.
 
 --------------------
 
@@ -188,14 +189,15 @@ Haalt de informatie op over lettertypen die bij het renderen van de presentatie 
 >  }
 > ```
 
-**Retourneert:**
+
+**Retour:**
 com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - Collectie van alle lettertypevervangingen [FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo).
 ### getSubstitutions(int[] slides) {#getSubstitutions-int---}
 ```
 public final System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo> getSubstitutions(int[] slides)
 ```
 
-Haalt de informatie op over lettertypen die tijdens het renderen van de opgegeven dia’s zullen worden vervangen.
+Haalt de informatie op over lettertypen die tijdens het renderen van de opgegeven dia's zullen worden vervangen.
 
 --------------------
 
@@ -217,8 +219,56 @@ Haalt de informatie op over lettertypen die tijdens het renderen van de opgegeve
 | --- | --- | --- |
 | slides | int[] | Een array van dia-indexen waarvoor de informatie over lettertypevervanging moet worden opgehaald, beginnend bij 1. |
 
-**Retourneert:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - Een collectie van alle lettertypevervangingen ([FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo)) voor de opgegeven dia’s.
+**Retour:**
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - Een collectie van alle lettertypevervangingen ([FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo)) voor de opgegeven dia's.
+### getPreferRegisteredFontsOverEmbedded() {#getPreferRegisteredFontsOverEmbedded--}
+```
+public final boolean getPreferRegisteredFontsOverEmbedded()
+```
+
+Geeft aan of geregistreerde lettertypen de voorkeur moeten krijgen boven ingesloten lettertypen met dezelfde lettertype-naam en stijl. Indien ingeschakeld, worden overeenkomstige ingesloten lettertypen tijdelijk vervangen door de corresponderende geregistreerde lettertypen tijdens export.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("SomePresentation.pptx");
+>  try {
+>      pres.getFontsManager().setPreferRegisteredFontsOverEmbedded(true);
+>      pres.save("Presentation-out.pdf", SaveFormat.Pdf);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+Default is **false**.
+
+**Retour:**
+boolean
+### setPreferRegisteredFontsOverEmbedded(boolean value) {#setPreferRegisteredFontsOverEmbedded-boolean-}
+```
+public final void setPreferRegisteredFontsOverEmbedded(boolean value)
+```
+
+Geeft aan of geregistreerde lettertypen de voorkeur moeten krijgen boven ingesloten lettertypen met dezelfde lettertype-naam en stijl. Indien ingeschakeld, worden overeenkomstige ingesloten lettertypen tijdelijk vervangen door de corresponderende geregistreerde lettertypen tijdens export.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("SomePresentation.pptx");
+>  try {
+>      pres.getFontsManager().setPreferRegisteredFontsOverEmbedded(true);
+>      pres.save("Presentation-out.pdf", SaveFormat.Pdf);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+Default is **false**.
+
+**Parameters:**
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| value | boolean |  |
 ### getEmbeddedFonts() {#getEmbeddedFonts--}
 ```
 public final IFontData[] getEmbeddedFonts()
@@ -226,7 +276,7 @@ public final IFontData[] getEmbeddedFonts()
 
 Retourneert de ingesloten lettertypen in de presentatie
 
-**Retourneert:**
+**Retour:**
 com.aspose.slides.IFontData[]
 ### removeEmbeddedFont(IFontData fontData) {#removeEmbeddedFont-com.aspose.slides.IFontData-}
 ```
@@ -280,29 +330,29 @@ Vervang lettertype in de presentatie
 public final void replaceFont(IFontSubstRule substRule)
 ```
 
-Vervang lettertype in de presentatie met informatie verstrekt in [FontSubstRule](../../com.aspose.slides/fontsubstrule)
+Vervang lettertype in de presentatie met behulp van de informatie verstrekt in [FontSubstRule](../../com.aspose.slides/fontsubstrule)
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| substRule | [IFontSubstRule](../../com.aspose.slides/ifontsubstrule) | Informatie over lettertypevervanging |
+| substRule | [IFontSubstRule](../../com.aspose.slides/ifontsubstrule) | Lettertypevervangingsinformatie |
 ### replaceFont(IFontSubstRuleCollection substRules) {#replaceFont-com.aspose.slides.IFontSubstRuleCollection-}
 ```
 public final void replaceFont(IFontSubstRuleCollection substRules)
 ```
 
-Vervang lettertype in de presentatie met informatie verstrekt in collectie van [FontSubstRule](../../com.aspose.slides/fontsubstrule)
+Vervang lettertype in de presentatie met behulp van de informatie verstrekt in collectie van [FontSubstRule](../../com.aspose.slides/fontsubstrule)
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| substRules | [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection) | Collectie van regels voor lettertypevervanging |
+| substRules | [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection) | Collectie van lettertypevervangingsregels |
 ### getFontBytes(IFontData fontData, int fontStyle) {#getFontBytes-com.aspose.slides.IFontData-int-}
 ```
 public final byte[] getFontBytes(IFontData fontData, int fontStyle)
 ```
 
-Haalt de byte-array op die de lettertypegegevens vertegenwoordigt voor een opgegeven lettertype-stijl en lettertypegegevens.
+Haal de byte-array op die de lettertype-gegevens vertegenwoordigt voor een opgegeven lettertype-stijl en lettertype-gegevens.
 
 --------------------
 
@@ -311,27 +361,28 @@ Haalt de byte-array op die de lettertypegegevens vertegenwoordigt voor een opgeg
 >  try {
 >      // Haal alle lettertypen op die in de presentatie worden gebruikt
 >      IFontData[] fonts = pres.getFontsManager().getFonts();
->      // Verkrijg de byte-array die de reguliere stijl van het eerste lettertype in de presentatie vertegenwoordigt
+>      // Haal de byte array op die de reguliere stijl van het eerste lettertype in de presentatie weergeeft
 >      byte[] fontBytes = pres.getFontsManager().getFontBytes(fonts[0], FontStyleType.Regular);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
 > ```
 
+
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| fontData | [IFontData](../../com.aspose.slides/ifontdata) | Het lettertypegegevensobject dat de informatie over het lettertype [IFontData](../../com.aspose.slides/ifontdata) bevat. |
+| fontData | [IFontData](../../com.aspose.slides/ifontdata) | Het lettertype-gegevensobject dat de informatie over het lettertype [IFontData](../../com.aspose.slides/ifontdata) bevat. |
 | fontStyle | int | De stijl van het lettertype waarvoor de gegevens moeten worden opgehaald [FontStyleType](../../com.aspose.slides/fontstyletype). |
 
-**Retourneert:**
-byte[] - Een byte-array die de lettertypegegevens bevat voor de opgegeven lettertype-stijl. Als de lettertypegegevens of stijl niet worden gevonden, wordt null geretourneerd.
+**Retour:**
+byte[] - Een byte-array die de lettertype-gegevens bevat voor de opgegeven lettertype-stijl. Indien de lettertype-gegevens of stijl niet wordt gevonden, retourneert null.
 ### getFontEmbeddingLevel(byte[] fontBytes, String fontName) {#getFontEmbeddingLevel-byte---java.lang.String-}
 ```
 public final int getFontEmbeddingLevel(byte[] fontBytes, String fontName)
 ```
 
-Bepaalt het insluitingsniveau van een lettertype op basis van de gegeven byte-array en lettertype-naam.
+Bepaalt het embed-niveau van een lettertype aan de hand van de gegeven byte-array en lettertype-naam.
 
 --------------------
 
@@ -340,20 +391,21 @@ Bepaalt het insluitingsniveau van een lettertype op basis van de gegeven byte-ar
 >  try {
 >      // Haal alle lettertypen op die in de presentatie worden gebruikt
 >      IFontData[] fontDatas = pres.getFontsManager().getFonts();
->      // Verkrijg de byte-array die de reguliere stijl van het eerste lettertype in de presentatie vertegenwoordigt
+>      // Haal de byte array op die de reguliere stijl van het eerste lettertype in de presentatie weergeeft
 >      byte[] bytes = pres.getFontsManager().getFontBytes(fontDatas[0], FontStyle.Regular);
->      // Bepaal het insluitingsniveau van het lettertype
+>      // Bepaal het embed niveau van het lettertype
 >      int embeddingLevel = pres.getFontsManager().getFontEmbeddingLevel(bytes, fontDatas[0].getFontName());
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
 > ```
 
+
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| fontBytes | byte[] | De byte-array die de lettertypegegevens bevat. |
+| fontBytes | byte[] | De byte-array met de lettertype-gegevens. |
 | fontName | java.lang.String | De naam van het lettertype. |
 
-**Retourneert:**
-int - Het insluitingsniveau van het opgegeven lettertype.
+**Retour:**
+int - Het embed-niveau van het opgegeven lettertype.

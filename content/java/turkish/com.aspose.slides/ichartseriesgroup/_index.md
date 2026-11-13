@@ -1,11 +1,11 @@
 ---
 title: IChartSeriesGroup
-second_title: Aspose.Slides için Java API Referansı
+second_title: Aspose.Slides for Java API Referansı
 description: Seri grubunu temsil eder.
 type: docs
 url: /tr/com.aspose.slides/ichartseriesgroup/
 ---
-**Tüm Uygulanmış Arayüzler:**
+**Tüm Uygulanan Arayüzler:**
 [com.aspose.slides.IChartComponent](../../com.aspose.slides/ichartcomponent)
 ```
 public interface IChartSeriesGroup extends IChartComponent
@@ -15,50 +15,50 @@ Seri grubunu temsil eder.
 
 --------------------
 
-1) ChartSeriesGroupCollection sınıfı ve CombinableSeriesTypesGroup enum için özet ve açıklamalara bakın. 2) Seri grubu, gruptaki her seri için ortak olan bazı seri özellikleri içerir ("seri grup özellikleri"). ChartSeriesGroup sınıfındaki "seri grup özellikleri" okunur/yazılırdır. Her "seri grup özelliği" ChartSeries sınıfında salt okunur bir projeksiyona sahip olabilir.
+1) ChartSeriesGroupCollection sınıfı ve CombinableSeriesTypesGroup enum'ı için özet ve açıklamalara bakın. 2) Seri grubu, grup içindeki her seri için ortak olan bazı seri özelliklerini ("seri grup özellikleri") içerir. ChartSeriesGroup sınıfındaki "seri grup özellikleri" okunabilir/yazılabilir. "Seri grup özellikleri"nin her biri ChartSeries sınıfında yalnızca okuma amaçlı bir projeksiyona sahip olabilir.
 
-## Metotlar
+## Yöntemler
 
-| Metot | Açıklama |
+| Yöntem | Açıklama |
 | --- | --- |
-| [getType()](#getType--) | Bu seri grubunun bir tipini döndürür. |
+| [getType()](#getType--) | Bu seri grubunun türünü döndürür. |
 | [getPlotOnSecondAxis()](#getPlotOnSecondAxis--) | Bu grubun serilerinin ikincil eksende çizilip çizilmediğini gösterir. |
-| [getSeries()](#getSeries--) | Grafik serilerinin salt okunur bir koleksiyonunu döndürür. |
-| [get_Item(int index)](#get-Item-int-) | Belirtilen indeksteki öğeyi alır. |
-| [getUpDownBars()](#getUpDownBars--) | Line veya Stock grafiğinin yukarı/aşağı çubuklarına erişim sağlar. |
-| [getGapWidth()](#getGapWidth--) | Çubuk veya sütun kümeleri arasındaki boşluğu, çubuk veya sütun genişliğinin yüzde olarak belirtir. |
-| [setGapWidth(int value)](#setGapWidth-int-) | Çubuk veya sütun kümeleri arasındaki boşluğu, çubuk veya sütun genişliğinin yüzde olarak belirtir. |
-| [getGapDepth()](#getGapDepth--) | 3D grafikte veri serileri arasındaki mesafeyi, gösterge genişliğinin yüzde olarak döndürür veya ayarlar. |
-| [setGapDepth(int value)](#setGapDepth-int-) | 3D grafikte veri serileri arasındaki mesafeyi, gösterge genişliğinin yüzde olarak döndürür veya ayarlar. |
-| [getFirstSliceAngle()](#getFirstSliceAngle--) | İlk pasta veya halka grafiği diliminin açısını dereceler cinsinden alır veya ayarlar (yukarıdan saat yönünde, 0’dan 360 dereceye). |
-| [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | İlk pasta veya halka grafiği diliminin açısını dereceler cinsinden alır veya ayarlar (yukarıdan saat yönünde, 0’dan 360 dereceye). |
-| [isColorVaried()](#isColorVaried--) | Serideki her veri işaretçisinin farklı bir renge sahip olacağını belirtir. |
-| [setColorVaried(boolean value)](#setColorVaried-boolean-) | Serideki her veri işaretçisinin farklı bir renge sahip olacağını belirtir. |
-| [hasSeriesLines()](#hasSeriesLines--) | Grafik serileri çizgileri varsa doğru. |
-| [setSeriesLines(boolean value)](#setSeriesLines-boolean-) | Grafik serileri çizgileri varsa doğru. |
-| [getOverlap()](#getOverlap--) | 2D grafiklerde çubuk ve sütunların ne kadar üst üste geleceğini yüzde olarak belirtir (-100% ile 100% arasında). |
-| [setOverlap(byte value)](#setOverlap-byte-) | 2D grafiklerde çubuk ve sütunların ne kadar üst üste geleceğini yüzde olarak belirtir (-100% ile 100% arasında). |
-| [getSecondPieSize()](#getSecondPieSize--) | İlk pastanın boyutunun yüzde olarak ikinci pasta veya çubuk boyutunu belirtir (5 ile 200 yüzde arasında olabilir). |
-| [setSecondPieSize(int value)](#setSecondPieSize-int-) | İlk pastanın boyutunun yüzde olarak ikinci pasta veya çubuk boyutunu belirtir (5 ile 200 yüzde arasında olabilir). |
-| [getPieSplitPosition()](#getPieSplitPosition--) | Pie-of-pie veya bar-of-pie grafiğinde hangi veri noktalarının ikinci pasta veya çubukta olacağını belirlemek için kullanılacak bir değeri belirtir. |
-| [setPieSplitPosition(double value)](#setPieSplitPosition-double-) | Pie-of-pie veya bar-of-pie grafiğinde hangi veri noktalarının ikinci pasta veya çubukta olacağını belirlemek için kullanılacak bir değeri belirtir. |
-| [getPieSplitBy()](#getPieSplitBy--) | Pie-of-pie veya bar-of-pie grafiğinde hangi veri noktalarının ikinci pasta veya çubukta olacağını belirleme şeklini tanımlar. |
-| [setPieSplitBy(int value)](#setPieSplitBy-int-) | Pie-of-pie veya bar-of-pie grafiğinde hangi veri noktalarının ikinci pasta veya çubukta olacağını belirleme şeklini tanımlar. |
-| [getPieSplitCustomPoints()](#getPieSplitCustomPoints--) | Özel bölünmeye sahip bir pie-of-pie veya bar-of-pie grafiği için özelleştirilmiş bölünme bilgisini içerir. |
-| [getDoughnutHoleSize()](#getDoughnutHoleSize--) | Halka grafiğindeki deliğin boyutunu belirtir (çizim alanının boyutunun %10 ile %90 arasında). |
-| [setDoughnutHoleSize(byte value)](#setDoughnutHoleSize-byte-) | Halka grafiğindeki deliğin boyutunu belirtir (çizim alanının boyutunun %10 ile %90 arasında). |
-| [getBubbleSizeScale()](#getBubbleSizeScale--) | Balon grafiği için ölçek faktörünü belirtir (varsayılan boyutun %0 ile %300 arasında). |
-| [setBubbleSizeScale(int value)](#setBubbleSizeScale-int-) | Balon grafiği için ölçek faktörünü belirtir (varsayılan boyutun %0 ile %300 arasında). |
-| [getHiLowLinesFormat()](#getHiLowLinesFormat--) | HiLowLines biçimini belirtir. |
-| [getBubbleSizeRepresentation()](#getBubbleSizeRepresentation--) | Balon grafiğinde balon boyutu değerlerinin nasıl temsil edildiğini belirtir. |
-| [setBubbleSizeRepresentation(int value)](#setBubbleSizeRepresentation-int-) | Balon grafiğinde balon boyutu değerlerinin nasıl temsil edildiğini belirtir. |
+| [getSeries()](#getSeries--) | Yalnızca okunabilir bir grafik serileri koleksiyonunu döndürür. |
+| [get_Item(int index)](#get-Item-int-) | Belirtilen dizindeki öğeyi alır. |
+| [getUpDownBars()](#getUpDownBars--) | Çizgi veya Hisse grafiğinin yukarı/aşağı çubuklarına erişim sağlar. |
+| [getGapWidth()](#getGapWidth--) | Çubuk veya sütun kümeleri arasındaki boşluğu, çubuk veya sütun genişliğinin yüzde olarak ayarlar veya alır. |
+| [setGapWidth(int value)](#setGapWidth-int-) | Çubuk veya sütun kümeleri arasındaki boşluğu, çubuk veya sütun genişliğinin yüzde olarak ayarlar veya alır. |
+| [getGapDepth()](#getGapDepth--) | 3B grafikte veri serileri arasındaki mesafeyi, işaretçi genişliğinin yüzde olarak ayarlar veya alır. |
+| [setGapDepth(int value)](#setGapDepth-int-) | 3B grafikte veri serileri arasındaki mesafeyi, işaretçi genişliğinin yüzde olarak ayarlar veya alır. |
+| [getFirstSliceAngle()](#getFirstSliceAngle--) | İlk pasta veya halka grafik diliminin açısını derece cinsinden ayarlar veya alır (yukarıdan saat yönünde, 0'dan 360 dereceye). |
+| [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | İlk pasta veya halka grafik diliminin açısını derece cinsinden ayarlar veya alır (yukarıdan saat yönünde, 0'dan 360 dereceye). |
+| [isColorVaried()](#isColorVaried--) | Serideki her veri işaretçisinin farklı bir renge sahip olmasını belirtir. |
+| [setColorVaried(boolean value)](#setColorVaried-boolean-) | Serideki her veri işaretçisinin farklı bir renge sahip olmasını belirtir. |
+| [hasSeriesLines()](#hasSeriesLines--) | Grafik serileri çizgilerine sahipse doğru değer döner. |
+| [setSeriesLines(boolean value)](#setSeriesLines-boolean-) | Grafik serileri çizgilerine sahipse doğru değer döner. |
+| [getOverlap()](#getOverlap--) | 2D grafiklerde çubuk ve sütunların ne kadar üst üste geleceğini yüzde olarak ayarlar veya alır (-100% ile 100% arası). |
+| [setOverlap(byte value)](#setOverlap-byte-) | 2D grafiklerde çubuk ve sütunların ne kadar üst üste geleceğini yüzde olarak ayarlar veya alır (-100% ile 100% arası). |
+| [getSecondPieSize()](#getSecondPieSize--) | Pie-of-pie veya bar-of-pie grafiklerinde ikinci pasta veya çubuğun boyutunu, ilk pastanın boyutunun yüzde olarak ayarlar veya alır (5 ile 200 yüzde arasında olabilir). |
+| [setSecondPieSize(int value)](#setSecondPieSize-int-) | Pie-of-pie veya bar-of-pie grafiklerinde ikinci pasta veya çubuğun boyutunu, ilk pastanın boyutunun yüzde olarak ayarlar veya alır (5 ile 200 yüzde arasında olabilir). |
+| [getPieSplitPosition()](#getPieSplitPosition--) | Pie-of-pie veya bar-of-pie grafiklerinde ikinci pasta veya çubuğa hangi veri noktalarının düşeceğini belirlemek için kullanılacak değeri ayarlar veya alır. |
+| [setPieSplitPosition(double value)](#setPieSplitPosition-double-) | Pie-of-pie veya bar-of-pie grafiklerinde ikinci pasta veya çubuğa hangi veri noktalarının düşeceğini belirlemek için kullanılacak değeri ayarlar veya alır. |
+| [getPieSplitBy()](#getPieSplitBy--) | Pie-of-pie veya bar-of-pie grafiklerinde ikinci pasta veya çubuğa hangi veri noktalarının düşeceğini belirleme şeklinin ayarlanmasını sağlar. |
+| [setPieSplitBy(int value)](#setPieSplitBy-int-) | Pie-of-pie veya bar-of-pie grafiklerinde ikinci pasta veya çubuğa hangi veri noktalarının düşeceğini belirleme şeklinin ayarlanmasını sağlar. |
+| [getPieSplitCustomPoints()](#getPieSplitCustomPoints--) | Özel bölme bilgisi, özel bölmesi olan pie-of-pie veya bar-of-pie grafikleri için. |
+| [getDoughnutHoleSize()](#getDoughnutHoleSize--) | Donut grafikteki deliğin boyutunu ayarlar (grafik alanının boyutunun %10 ile %90 arasında olabilir). |
+| [setDoughnutHoleSize(byte value)](#setDoughnutHoleSize-byte-) | Donut grafikteki deliğin boyutunu ayarlar (grafik alanının boyutunun %10 ile %90 arasında olabilir). |
+| [getBubbleSizeScale()](#getBubbleSizeScale--) | Baloncuk grafik için ölçek faktörünü ayarlar (varsayılan boyutun %0 ile %300 arasında olabilir). |
+| [setBubbleSizeScale(int value)](#setBubbleSizeScale-int-) | Baloncuk grafik için ölçek faktörünü ayarlar (varsayılan boyutun %0 ile %300 arasında olabilir). |
+| [getHiLowLinesFormat()](#getHiLowLinesFormat--) | HiLowLines biçimini ayarlar. |
+| [getBubbleSizeRepresentation()](#getBubbleSizeRepresentation--) | Baloncuk grafik üzerindeki baloncuk boyutu değerlerinin nasıl temsil edildiğini ayarlar. |
+| [setBubbleSizeRepresentation(int value)](#setBubbleSizeRepresentation-int-) | Baloncuk grafik üzerindeki baloncuk boyutu değerlerinin nasıl temsil edildiğini ayarlar. |
 
 ### getType() {#getType--}
 ```
 public abstract int getType()
 ```
 
-Bu seri grubunun bir tipini döndürür. Salt okunur [CombinableSeriesTypesGroup](../../com.aspose.slides/combinableseriestypesgroup).
+Bu seri grubunun türünü döndürür. Yalnızca okuma [CombinableSeriesTypesGroup](../../com.aspose.slides/combinableseriestypesgroup).
 
 **Döndürür:**
 int
@@ -68,7 +68,7 @@ int
 public abstract boolean getPlotOnSecondAxis()
 ```
 
-Bu grubun serilerinin ikincil eksende çizilip çizilmediğini gösterir. Salt okunur boolean.
+Bu grubun serilerinin ikincil eksende çizilip çizilmediğini gösterir. Yalnızca okuma boolean.
 
 **Döndürür:**
 boolean
@@ -78,7 +78,7 @@ boolean
 public abstract IChartSeriesReadonlyCollection getSeries()
 ```
 
-Grafik serilerinin salt okunur bir koleksiyonunu döndürür. Salt okunur [IChartSeriesReadonlyCollection](../../com.aspose.slides/ichartseriesreadonlycollection).
+Yalnızca okunabilir bir grafik serileri koleksiyonunu döndürür. Yalnızca okuma [IChartSeriesReadonlyCollection](../../com.aspose.slides/ichartseriesreadonlycollection).
 
 **Döndürür:**
 [IChartSeriesReadonlyCollection](../../com.aspose.slides/ichartseriesreadonlycollection)
@@ -88,10 +88,10 @@ Grafik serilerinin salt okunur bir koleksiyonunu döndürür. Salt okunur [IChar
 public abstract IChartSeries get_Item(int index)
 ```
 
-Belirtilen indeksteki öğeyi alır.
+Belirtilen dizindeki öğeyi alır.
 
 **Parametreler:**
-| Parametre | Tür | Açıklama |
+| Parametre | Tip | Açıklama |
 | --- | --- | --- |
 | index | int |  |
 
@@ -103,7 +103,7 @@ Belirtilen indeksteki öğeyi alır.
 public abstract IUpDownBarsManager getUpDownBars()
 ```
 
-Line veya Stock grafiğinin yukarı/aşağı çubuklarına erişim sağlar. Salt okunur [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager).
+Çizgi veya Hisse grafiğinin yukarı/aşağı çubuklarına erişim sağlar. Yalnızca okuma [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager).
 
 **Döndürür:**
 [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager)
@@ -113,7 +113,11 @@ Line veya Stock grafiğinin yukarı/aşağı çubuklarına erişim sağlar. Salt
 public abstract int getGapWidth()
 ```
 
-Çubuk veya sütun kümeleri arasındaki boşluğu, çubuk veya sütun genişliğinin yüzde olarak belirtir. Okunur/yazılır int.
+Çubuk veya sütun kümeleri arasındaki boşluğu, çubuk veya sütun genişliğinin yüzde olarak ayarlar veya alır. Değer 0 ile 500 arasında olmalıdır. Okunur/yazılır int.
+
+--------------------
+
+Bu özellik aşağıdaki tiplerin serilerine uygulanır: Tüm çubuk ve sütun alt tipleri, [ChartType.BarOfPie](../../com.aspose.slides/charttype\#BarOfPie), [ChartType.PieOfPie](../../com.aspose.slides/charttype\#PieOfPie), [ChartType.BoxAndWhisker](../../com.aspose.slides/charttype\#BoxAndWhisker), [ChartType.Funnel](../../com.aspose.slides/charttype\#Funnel), [ChartType.Histogram](../../com.aspose.slides/charttype\#Histogram), [ChartType.Waterfall](../../com.aspose.slides/charttype\#Waterfall).
 
 **Döndürür:**
 int
@@ -123,10 +127,19 @@ int
 public abstract void setGapWidth(int value)
 ```
 
-Çubuk veya sütun kümeleri arasındaki boşluğu, çubuk veya sütun genişliğinin yüzde olarak belirtir. Okunur/yazılır int.
+Çubuk veya sütun kümeleri arasındaki boşluğu, çubuk veya sütun genişliğinin yüzde olarak ayarlar veya alır. Değer 0 ile 500 arasında olmalıdır. Okunur/yazılır int.
 
 **Parametreler:**
-| Parametre | Tür | Açıklama |
+| Parametre | Tip | Açıklama |
+| --- | --- | --- |
+| value | int |  |
+
+--------------------
+
+Bu özellik aşağıdaki tiplerin serilerine uygulanır: Tüm çubuk ve sütun alt tipleri, [ChartType.BarOfPie](../../com.aspose.slides/charttype\#BarOfPie), [ChartType.PieOfPie](../../com.aspose.slides/charttype\#PieOfPie), [ChartType.BoxAndWhisker](../../com.aspose.slides/charttype\#BoxAndWhisker), [ChartType.Funnel](../../com.aspose.slides/charttype\#Funnel), [ChartType.Histogram](../../com.aspose.slides/charttype\#Histogram), [ChartType.Waterfall](../../com.aspose.slides/charttype\#Waterfall).
+
+**Parametreler:**
+| Parametre | Tip | Açıklama |
 | --- | --- | --- |
 | value | int |  |
 
@@ -135,7 +148,11 @@ public abstract void setGapWidth(int value)
 public abstract int getGapDepth()
 ```
 
-3D grafikte veri serileri arasındaki mesafeyi, gösterge genişliğinin yüzde olarak döndürür veya ayarlar. Okunur/yazılır int.
+3B grafikte veri serileri arasındaki mesafeyi, işaretçi genişliğinin yüzde olarak ayarlar veya alır. Değer 0 ile 500 arasında olmalıdır. Okunur/yazılır int.
+
+--------------------
+
+Bu özellik aşağıdaki tiplerin serilerine uygulanır: 3B çubuk ve sütun alt tipleri, [ChartType.Line3D](../../com.aspose.slides/charttype\#Line3D), [ChartType.Area3D](../../com.aspose.slides/charttype\#Area3D), [ChartType.StackedArea3D](../../com.aspose.slides/charttype\#StackedArea3D), [ChartType.PercentsStackedArea3D](../../com.aspose.slides/charttype\#PercentsStackedArea3D).
 
 **Döndürür:**
 int
@@ -145,10 +162,19 @@ int
 public abstract void setGapDepth(int value)
 ```
 
-3D grafikte veri serileri arasındaki mesafeyi, gösterge genişliğinin yüzde olarak döndürür veya ayarlar. Okunur/yazılır int.
+3B grafikte veri serileri arasındaki mesafeyi, işaretçi genişliğinin yüzde olarak ayarlar veya alır. Değer 0 ile 500 arasında olmalıdır. Okunur/yazılır int.
 
 **Parametreler:**
-| Parametre | Tür | Açıklama |
+| Parametre | Tip | Açıklama |
+| --- | --- | --- |
+| value | int |  |
+
+--------------------
+
+Bu özellik aşağıdaki tiplerin serilerine uygulanır: 3B çubuk ve sütun alt tipleri, [ChartType.Line3D](../../com.aspose.slides/charttype\#Line3D), [ChartType.Area3D](../../com.aspose.slides/charttype\#Area3D), [ChartType.StackedArea3D](../../com.aspose.slides/charttype\#StackedArea3D), [ChartType.PercentsStackedArea3D](../../com.aspose.slides/charttype\#PercentsStackedArea3D).
+
+**Parametreler:**
+| Parametre | Tip | Açıklama |
 | --- | --- | --- |
 | value | int |  |
 
@@ -157,7 +183,7 @@ public abstract void setGapDepth(int value)
 public abstract int getFirstSliceAngle()
 ```
 
-İlk pasta veya halka grafiği diliminin açısını dereceler cinsinden alır veya ayarlar (yukarıdan saat yönünde, 0’dan 360 dereceye). Okunur/yazılır int.
+İlk pasta veya halka grafik diliminin açısını derece cinsinden ayarlar veya alır (yukarıdan saat yönünde, 0'dan 360 dereceye). Okunur/yazılır int.
 
 **Döndürür:**
 int
@@ -167,10 +193,10 @@ int
 public abstract void setFirstSliceAngle(int value)
 ```
 
-İlk pasta veya halka grafiği diliminin açısını dereceler cinsinden alır veya ayarlar (yukarıdan saat yönünde, 0’dan 360 dereceye). Okunur/yazılır int.
+İlk pasta veya halka grafik diliminin açısını derece cinsinden ayarlar veya alır (yukarıdan saat yönünde, 0'dan 360 dereceye). Okunur/yazılır int.
 
 **Parametreler:**
-| Parametre | Tür | Açıklama |
+| Parametre | Tip | Açıklama |
 | --- | --- | --- |
 | value | int |  |
 
@@ -179,7 +205,7 @@ public abstract void setFirstSliceAngle(int value)
 public abstract boolean isColorVaried()
 ```
 
-Serideki her veri işaretçisinin farklı bir renge sahip olacağını belirtir. Okunur/yazılır boolean.
+Serideki her veri işaretçisinin farklı bir renge sahip olmasını belirtir. Okunur/yazılır boolean.
 
 **Döndürür:**
 boolean
@@ -189,10 +215,10 @@ boolean
 public abstract void setColorVaried(boolean value)
 ```
 
-Serideki her veri işaretçisinin farklı bir renge sahip olacağını belirtir. Okunur/yazılır boolean.
+Serideki her veri işaretçisinin farklı bir renge sahip olmasını belirtir. Okunur/yazılır boolean.
 
 **Parametreler:**
-| Parametre | Tür | Açıklama |
+| Parametre | Tip | Açıklama |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -201,7 +227,7 @@ Serideki her veri işaretçisinin farklı bir renge sahip olacağını belirtir.
 public abstract boolean hasSeriesLines()
 ```
 
-Grafikte seri çizgileri varsa doğru. Yığılmış çubuk ve OfPie grafiklerine uygulanır. Okunur/yazılır boolean.
+Grafikte seri çizgileri varsa doğru döner. Yığılmış çubuk ve OfPie grafiklerine uygulanır. Okunur/yazılır boolean.
 
 **Döndürür:**
 boolean
@@ -211,10 +237,10 @@ boolean
 public abstract void setSeriesLines(boolean value)
 ```
 
-Grafikte seri çizgileri varsa doğru. Yığılmış çubuk ve OfPie grafiklerine uygulanır. Okunur/yazılır boolean.
+Grafikte seri çizgileri varsa doğru döner. Yığılmış çubuk ve OfPie grafiklerine uygulanır. Okunur/yazılır boolean.
 
 **Parametreler:**
-| Parametre | Tür | Açıklama |
+| Parametre | Tip | Açıklama |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -223,7 +249,9 @@ Grafikte seri çizgileri varsa doğru. Yığılmış çubuk ve OfPie grafiklerin
 public abstract byte getOverlap()
 ```
 
-2D grafiklerde çubuk ve sütunların ne kadar üst üste geleceğini yüzde olarak belirtir (-100% ile 100% arasında). - -100%: Azami boşluk (çubuklar tamamen ayrılmış). - 0%: Çubuklar yan yana, üst üste gelmeden veya boşluk olmadan yer alır. - 100%: Azami üst üste binme (çubuklar tamamen birbiri üzerine gelir). Bu özellik okunur/yazılır byte.
+2D grafiklerde çubuk ve sütunların ne kadar üst üste geleceğini yüzde olarak ayarlar veya alır (-100% ile 100% arasında). --100%: En fazla boşluk (çubuklar tamamen ayrılmıştır). -0%: Çubuklar yan yana, üst üste gelmeden ya da boşluk olmadan yerleştirilir. -100%: En fazla üst üste gelme (çubuklar tamamen üst üste gelir). Bu özellik okunur/yazılır byte.
+
+--------------------
 
 > ```
 > The following example demonstrates how to set the overlap for a chart series group 
@@ -233,7 +261,7 @@ public abstract byte getOverlap()
 >  try {
 >      IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);
 >      IChartSeriesCollection series = chart.getChartData().getSeries();
->      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // Üst üste binmeyi %55 olarak ayarla
+>      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // Üst üste bindirmeyi %55 olarak ayarla
 >      pres.getSlides().get_Item(0).getImage(1, 1).save("chart.png");
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -249,7 +277,9 @@ byte
 public abstract void setOverlap(byte value)
 ```
 
-2D grafiklerde çubuk ve sütunların ne kadar üst üste geleceğini yüzde olarak belirtir (-100% ile 100% arasında). - -100%: Azami boşluk (çubuklar tamamen ayrılmış). - 0%: Çubuklar yan yana, üst üste gelmeden veya boşluk olmadan yer alır. - 100%: Azami üst üste binme (çubuklar tamamen birbiri üzerine gelir). Bu özellik okunur/yazılır byte.
+2D grafiklerde çubuk ve sütunların ne kadar üst üste geleceğini yüzde olarak ayarlar veya alır (-100% ile 100% arasında). --100%: En fazla boşluk (çubuklar tamamen ayrılmıştır). -0%: Çubuklar yan yana, üst üste gelmeden ya da boşluk olmadan yerleştirilir. -100%: En fazla üst üste gelme (çubuklar tamamen üst üste gelir). Bu özellik okunur/yazılır byte.
+
+--------------------
 
 > ```
 > The following example demonstrates how to set the overlap for a chart series group 
@@ -259,7 +289,7 @@ public abstract void setOverlap(byte value)
 >  try {
 >      IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);
 >      IChartSeriesCollection series = chart.getChartData().getSeries();
->      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // Üst üste binmeyi %55 olarak ayarla
+>      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // Üst üste bindirmeyi %55 olarak ayarla
 >      pres.getSlides().get_Item(0).getImage(1, 1).save("chart.png", ImageFormat.Png);
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -268,7 +298,7 @@ public abstract void setOverlap(byte value)
 
 
 **Parametreler:**
-| Parametre | Tür | Açıklama |
+| Parametre | Tip | Açıklama |
 | --- | --- | --- |
 | value | byte |  |
 
@@ -277,7 +307,7 @@ public abstract void setOverlap(byte value)
 public abstract int getSecondPieSize()
 ```
 
-İlk pastanın boyutunun yüzde olarak ikinci pasta veya çubuğun boyutunu belirtir (5 ile 200 yüzde arasında olabilir). Okunur/yazılır int.
+Pie-of-pie veya bar-of-pie grafiklerinde ikinci pasta veya çubuğun boyutunu, ilk pastanın boyutunun yüzde olarak ayarlar veya alır (5 ile 200 yüzde arasında). Okunur/yazılır int.
 
 **Döndürür:**
 int
@@ -287,10 +317,10 @@ int
 public abstract void setSecondPieSize(int value)
 ```
 
-İlk pastanın boyutunun yüzde olarak ikinci pasta veya çubuğun boyutunu belirtir (5 ile 200 yüzde arasında olabilir). Okunur/yazılır int.
+Pie-of-pie veya bar-of-pie grafiklerinde ikinci pasta veya çubuğun boyutunu, ilk pastanın boyutunun yüzde olarak ayarlar veya alır (5 ile 200 yüzde arasında). Okunur/yazılır int.
 
 **Parametreler:**
-| Parametre | Tür | Açıklama |
+| Parametre | Tip | Açıklama |
 | --- | --- | --- |
 | value | int |  |
 
@@ -299,7 +329,7 @@ public abstract void setSecondPieSize(int value)
 public abstract double getPieSplitPosition()
 ```
 
-Pie-of-pie veya bar-of-pie grafiğinde hangi veri noktalarının ikinci pasta veya çubukta olacağını belirlemek için kullanılacak bir değeri belirtir. PieSplitBy özelliği ile birlikte kullanılır. Okunur/yazılır double.
+Pie-of-pie veya bar-of-pie grafiklerinde ikinci pasta veya çubuğa hangi veri noktalarının düşeceğini belirlemek için kullanılacak değeri ayarlar veya alır. PieSplitBy özelliğiyle birlikte kullanılır. Okunur/yazılır double.
 
 **Döndürür:**
 double
@@ -309,10 +339,10 @@ double
 public abstract void setPieSplitPosition(double value)
 ```
 
-Pie-of-pie veya bar-of-pie grafiğinde hangi veri noktalarının ikinci pasta veya çubukta olacağını belirlemek için kullanılacak bir değeri belirtir. PieSplitBy özelliği ile birlikte kullanılır. Okunur/yazılır double.
+Pie-of-pie veya bar-of-pie grafiklerinde ikinci pasta veya çubuğa hangi veri noktalarının düşeceğini belirlemek için kullanılacak değeri ayarlar veya alır. PieSplitBy özelliğiyle birlikte kullanılır. Okunur/yazılır double.
 
 **Parametreler:**
-| Parametre | Tür | Açıklama |
+| Parametre | Tip | Açıklama |
 | --- | --- | --- |
 | value | double |  |
 
@@ -321,7 +351,7 @@ Pie-of-pie veya bar-of-pie grafiğinde hangi veri noktalarının ikinci pasta ve
 public abstract int getPieSplitBy()
 ```
 
-Pie-of-pie veya bar-of-pie grafiğinde hangi veri noktalarının ikinci pasta veya çubukta olacağını belirleme şeklini belirtir. Okunur/yazılır [PieSplitType](../../com.aspose.slides/piesplittype).
+Pie-of-pie veya bar-of-pie grafiklerinde ikinci pasta veya çubuğa hangi veri noktalarının düşeceğini belirleme şeklinin ayarlanmasını sağlar. Okunur/yazılır [PieSplitType](../../com.aspose.slides/piesplittype).
 
 **Döndürür:**
 int
@@ -331,10 +361,10 @@ int
 public abstract void setPieSplitBy(int value)
 ```
 
-Pie-of-pie veya bar-of-pie grafiğinde hangi veri noktalarının ikinci pasta veya çubukta olacağını belirleme şeklini belirtir. Okunur/yazılır [PieSplitType](../../com.aspose.slides/piesplittype).
+Pie-of-pie veya bar-of-pie grafiklerinde ikinci pasta veya çubuğa hangi veri noktalarının düşeceğini belirleme şeklinin ayarlanmasını sağlar. Okunur/yazılır [PieSplitType](../../com.aspose.slides/piesplittype).
 
 **Parametreler:**
-| Parametre | Tür | Açıklama |
+| Parametre | Tip | Açıklama |
 | --- | --- | --- |
 | value | int |  |
 
@@ -343,7 +373,7 @@ Pie-of-pie veya bar-of-pie grafiğinde hangi veri noktalarının ikinci pasta ve
 public abstract IPieSplitCustomPointCollection getPieSplitCustomPoints()
 ```
 
-Özel bölünmeye sahip bir pie-of-pie veya bar-of-pie grafiği için özelleştirilmiş bölünme bilgisini içerir. Pie-of-pie veya bar-of-pie grafiğinde ikinci pasta veya çubukta çizilecek veri noktalarını içerir. Salt okunur [IPieSplitCustomPointCollection](../../com.aspose.slides/ipiesplitcustompointcollection).
+Özel bölme bilgisi, özel bölmesi olan pie-of-pie veya bar-of-pie grafikleri için. İkinci pasta veya çubukta çizilecek veri noktalarını içerir. Yalnızca okuma [IPieSplitCustomPointCollection](../../com.aspose.slides/ipiesplitcustompointcollection).
 
 **Döndürür:**
 [IPieSplitCustomPointCollection](../../com.aspose.slides/ipiesplitcustompointcollection)
@@ -353,7 +383,7 @@ public abstract IPieSplitCustomPointCollection getPieSplitCustomPoints()
 public abstract byte getDoughnutHoleSize()
 ```
 
-Doughnut grafiğindeki deliğin boyutunu belirtir (çizim alanının boyutunun %10 ile %90 arasında olabilir). Okunur/yazılır byte.
+Donut grafikteki deliğin boyutunu ayarlar (grafik alanının %10 ile %90 arasında olabilir). Okunur/yazılır byte.
 
 **Döndürür:**
 byte
@@ -363,10 +393,10 @@ byte
 public abstract void setDoughnutHoleSize(byte value)
 ```
 
-Doughnut grafiğindeki deliğin boyutunu belirtir (çizim alanının boyutunun %10 ile %90 arasında olabilir). Okunur/yazılır byte.
+Donut grafikteki deliğin boyutunu ayarlar (grafik alanının %10 ile %90 arasında olabilir). Okunur/yazılır byte.
 
 **Parametreler:**
-| Parametre | Tür | Açıklama |
+| Parametre | Tip | Açıklama |
 | --- | --- | --- |
 | value | byte |  |
 
@@ -375,7 +405,7 @@ Doughnut grafiğindeki deliğin boyutunu belirtir (çizim alanının boyutunun %
 public abstract int getBubbleSizeScale()
 ```
 
-Balon grafiği için ölçek faktörünü belirtir (varsayılan boyutun %0 ile %300 arasında). Okunur/yazılır int.
+Baloncuk grafik için ölçek faktörünü ayarlar (varsayılan boyutun %0 ile %300 arasında olabilir). Okunur/yazılır int.
 
 **Döndürür:**
 int
@@ -385,10 +415,10 @@ int
 public abstract void setBubbleSizeScale(int value)
 ```
 
-Balon grafiği için ölçek faktörünü belirtir (varsayılan boyutun %0 ile %300 arasında). Okunur/yazılır int.
+Baloncuk grafik için ölçek faktörünü ayarlar (varsayılan boyutun %0 ile %300 arasında olabilir). Okunur/yazılır int.
 
 **Parametreler:**
-| Parametre | Tür | Açıklama |
+| Parametre | Tip | Açıklama |
 | --- | --- | --- |
 | value | int |  |
 
@@ -397,7 +427,7 @@ Balon grafiği için ölçek faktörünü belirtir (varsayılan boyutun %0 ile %
 public abstract IChartLinesFormat getHiLowLinesFormat()
 ```
 
-HiLowLines biçimini belirtir. HiLowLines, HiLowClose, OpenHiLowClose, VolumeHiLowClose ve VolumeOpenHiLowClose grafik tipleriyle uygulanır.
+HiLowLines biçimini ayarlar. HiLowLines, HiLowClose, OpenHiLowClose, VolumeHiLowClose ve VolumeOpenHiLowClose grafik tipleriyle uygulanır.
 
 **Döndürür:**
 [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat)
@@ -407,7 +437,7 @@ HiLowLines biçimini belirtir. HiLowLines, HiLowClose, OpenHiLowClose, VolumeHiL
 public abstract int getBubbleSizeRepresentation()
 ```
 
-Balon grafiğinde balon boyutu değerlerinin nasıl temsil edildiğini belirtir. Okunur/yazılır [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
+Baloncuk grafik üzerindeki baloncuk boyutu değerlerinin nasıl temsil edildiğini ayarlar. Okunur/yazılır [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
 
 **Döndürür:**
 int
@@ -417,9 +447,9 @@ int
 public abstract void setBubbleSizeRepresentation(int value)
 ```
 
-Balon grafiğinde balon boyutu değerlerinin nasıl temsil edildiğini belirtir. Okunur/yazılır [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
+Baloncuk grafik üzerindeki baloncuk boyutu değerlerinin nasıl temsil edildiğini ayarlar. Okunur/yazılır [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
 
 **Parametreler:**
-| Parametre | Tür | Açıklama |
+| Parametre | Tip | Açıklama |
 | --- | --- | --- |
 | value | int |  |

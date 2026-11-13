@@ -1,50 +1,52 @@
 ---
 title: ChartData
 second_title: Aspose.Slides Java API referencia
-description: A diagram ábrázolásához használt adatokat reprezentálja.
+description: A diagram ábrázolásához használt adatokat képviseli.
 type: docs
 url: /hu/com.aspose.slides/chartdata/
 ---
 **Öröklés:**
 java.lang.Object, com.aspose.slides.DomObject
 
-**Minden megvalósított interfész:**
+**Az összes megvalósított interfész:**
 [com.aspose.slides.IChartData](../../com.aspose.slides/ichartdata)
 ```
 public class ChartData extends DomObject<Chart> implements IChartData
 ```
 
-A diagram ábrázolásához használt adatokat képviseli.
+Az ábra ábrázolásához használt adatokat képviseli.
+
 ## Módszerek
 
-| Metódus | Leírás |
+| Módszer | Leírás |
 | --- | --- |
-| [getChartDataWorkbook()](#getChartDataWorkbook--) | A cellagyárat adja vissza, amely a diagram sorozataihoz vagy kategóriáihoz használt cellákat hozza létre. |
+| [getChartDataWorkbook()](#getChartDataWorkbook--) | A cellagyárat adja vissza, amely a diagram sorozatokhoz vagy kategóriákhoz használt cellákat hozza létre. |
 | [getSeries()](#getSeries--) | A sorozatokat adja vissza. |
 | [getSeriesGroups()](#getSeriesGroups--) | A sorozatcsoportokat adja vissza. |
-| [getCategories()](#getCategories--) | Az elsődleges kategóriákat adja vissza (vagy mind az elsődleges, mind a másodlagos kategóriákat, ha a \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) tulajdonság false). |
-| [getUseSecondaryCategories()](#getUseSecondaryCategories--) | Ha hamis, akkor a \#getSecondaryCategories.getSecondaryCategories tulajdonság null értéket ad vissza, és a \#getCategories.getCategories tulajdonság adatait használják mind az elsődleges, mind a másodlagos sorozatokhoz. |
-| [setUseSecondaryCategories(boolean value)](#setUseSecondaryCategories-boolean-) | Ha hamis, akkor a \#getSecondaryCategories.getSecondaryCategories tulajdonság null értéket ad vissza, és a \#getCategories.getCategories tulajdonság adatait használják mind az elsődleges, mind a másodlagos sorozatokhoz. |
-| [getSecondaryCategories()](#getSecondaryCategories--) | A másodlagos kategóriákat adja vissza, ha a \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) tulajdonság true. |
-| [readWorkbookStream()](#readWorkbookStream--) | Az internálisan tárolt Excel munkafüzetet egy memóriában lévő adatfolyamba írja. |
-| [writeWorkbookStream(byte[] ms)](#writeWorkbookStream-byte---) | Az internálisan tartalmazott Excel munkafüzetet felhasználó által megadott értékkel inicializálja. |
-| [getDataSourceType()](#getDataSourceType--) | Külső munkafüzet útvonalát jelöli, ha külső adatforrás, egyébként null. |
-| [getExternalWorkbookPath()](#getExternalWorkbookPath--) | A diagram adatforrását jelöli. |
+| [getCategories()](#getCategories--) | Az elsődleges kategóriákat adja vissza (vagy az elsődleges és másodlagos kategóriákat is, ha a \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) tulajdonság hamis). |
+| [getUseSecondaryCategories()](#getUseSecondaryCategories--) | Ha hamis, akkor a \#getSecondaryCategories.getSecondaryCategories tulajdonság null értéket ad vissza, és a \#getCategories.getCategories tulajdonság adatai mind az elsődleges, mind a másodlagos sorozatokhoz használatosak. |
+| [setUseSecondaryCategories(boolean value)](#setUseSecondaryCategories-boolean-) | Ha hamis, akkor a \#getSecondaryCategories.getSecondaryCategories tulajdonság null értéket ad vissza, és a \#getCategories.getCategories tulajdonság adatai mind az elsődleges, mind a másodlagos sorozatokhoz használatosak. |
+| [getSecondaryCategories()](#getSecondaryCategories--) | A másodlagos kategóriákat adja vissza, ha a \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) tulajdonság igaz. |
+| [readWorkbookStream()](#readWorkbookStream--) | Az belső Excel munkafüzetet egy memóriában lévő adatfolyamba írja. |
+| [writeWorkbookStream(byte[] ms)](#writeWorkbookStream-byte---) | A belső Excel munkafüzetet a felhasználó által megadott értékkel inicializálja. |
+| [getDataSourceType()](#getDataSourceType--) | Külső munkafüzet útvonalat képviseli, ha külső adatforrás, egyébként null. |
+| [getExternalWorkbookPath()](#getExternalWorkbookPath--) | A diagram adatforrását képviseli. |
 | [getEmbeddedWorkbookType()](#getEmbeddedWorkbookType--) | A beágyazott munkafüzet típusát adja vissza. |
-| [getRange()](#getRange--) | A diagram adatválasztékát adja vissza. |
-| [setRange(String formula)](#setRange-java.lang.String-) | A diagram adatválasztékát állítja be. |
-| [setExternalWorkbook(String workbookPath)](#setExternalWorkbook-java.lang.String-) | Külső munkafüzetet állít be a diagram adatforrásaként. |
-| [setExternalWorkbook(String workbookPath, boolean updateChartData)](#setExternalWorkbook-java.lang.String-boolean-) | Külső munkafüzetet állít be a diagram adatforrásaként. |
-| [switchRowColumn()](#switchRowColumn--) | Az adatokat az tengelyek között cseréli. |
+| [getRange()](#getRange--) | A diagram adat tartományát adja vissza. |
+| [setRange(String formula)](#setRange-java.lang.String-) | Beállítja a diagram adat tartományát. |
+| [setExternalWorkbook(String workbookPath)](#setExternalWorkbook-java.lang.String-) | Külső munkafüzetet állít be adatforrásként a diagramhoz. |
+| [setExternalWorkbook(String workbookPath, boolean updateChartData)](#setExternalWorkbook-java.lang.String-boolean-) | Külső munkafüzetet állít be adatforrásként a diagramhoz. |
+| [refreshData()](#refreshData--) | A diagram adatokat frissíti a forrás munkafüzetből újratöltve. |
+| [switchRowColumn()](#switchRowColumn--) | Az adatokat áthelyezi az tengelyek között. |
 
 ### getChartDataWorkbook() {#getChartDataWorkbook--}
 ```
 public final IChartDataWorkbook getChartDataWorkbook()
 ```
 
-A cellagyárat adja vissza, amely a diagram sorozataihoz vagy kategóriáihoz használt cellákat hozza létre. Csak olvasható [IChartDataWorkbook](../../com.aspose.slides/ichartdataworkbook).
+A cellagyárat adja vissza, amely a diagram sorozatokhoz vagy kategóriákhoz használt cellákat hozza létre. Csak olvasható [IChartDataWorkbook](../../com.aspose.slides/ichartdataworkbook).
 
-**Visszatérési érték:**
+**Visszatér:**
 [IChartDataWorkbook](../../com.aspose.slides/ichartdataworkbook)
 
 ### getSeries() {#getSeries--}
@@ -54,7 +56,7 @@ public final IChartSeriesCollection getSeries()
 
 A sorozatokat adja vissza. Csak olvasható [IChartSeriesCollection](../../com.aspose.slides/ichartseriescollection).
 
-**Visszatérési érték:**
+**Visszatér:**
 [IChartSeriesCollection](../../com.aspose.slides/ichartseriescollection)
 
 ### getSeriesGroups() {#getSeriesGroups--}
@@ -66,9 +68,9 @@ A sorozatcsoportokat adja vissza. Csak olvasható [IChartSeriesGroupCollection](
 
 --------------------
 
-1) Minden sorozatcsoport olyan sorozatokat tartalmaz, amelyek kombinálható típusúak. A kombinálható sorozattípusok csoportjait a CombinableSeriesTypesGroup felsoroló típus definiálja és írja le. Emellett minden sorozatcsoport olyan sorozatokat tartalmaz, amelyeket vagy az elsődleges, vagy a másodlagos tengelyen ábrázolnak (nem mindkét eset egyszerre egy csoportban). Így a sorozatcsoportosítás elve a fenti típuscsoportok és az elsődleges/másodlagos ábrázolási típus szerinti csoportosítás. 2) A sorozatcsoport néhány sorozattulajdonságot tartalmaz, amely közös minden csoportbeli sorozatra („sorozatcsoport tulajdonságok”). A „Series group properties” a ChartSeriesGroup osztályban olvasható/írható. Minden „series group property” rendelkezhet csak olvasható projekcióval a ChartSeries osztályban.
+1) Minden sorozatcsoport olyan sorozatokat tartalmaz, amelyek kombinálható típusúak. A kombinálható sorozattípus csoportokat a CombinableSeriesTypesGroup enum határozza meg és írja le. Emellett minden sorozatcsoport olyan sorozatokat tartalmaz, amelyek vagy az elsődleges tengelyeken, vagy a másodlagos tengelyeken ábrázolhatók (nem mindkét eset egy csoportban). Így a sorozatcsoportosítás elve a fent említett típuscsoportok szerinti csoportosítás és az elsődleges/másodlagos ábrázolási típus szerint történik. 2) A sorozatcsoport néhány sorozati tulajdonságot tartalmaz, amelyek minden sorozatra jellemzőek a csoportban („sorozatcsoport tulajdonságok”). A ChartSeriesGroup osztályban a „sorozatcsoport tulajdonságok” olvasás/írás módúak. Minden „sorozatcsoport tulajdonságnak” lehet csak olvasható vetülete a ChartSeries osztályban.
 
-**Visszatérési érték:**
+**Visszatér:**
 [IChartSeriesGroupCollection](../../com.aspose.slides/ichartseriesgroupcollection)
 
 ### getCategories() {#getCategories--}
@@ -76,7 +78,7 @@ A sorozatcsoportokat adja vissza. Csak olvasható [IChartSeriesGroupCollection](
 public final IChartCategoryCollection getCategories()
 ```
 
-Az elsődleges kategóriákat adja vissza (vagy mind az elsődleges, mind a másodlagos kategóriákat, ha a \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) tulajdonság false). Csak olvasható [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection).
+Az elsődleges kategóriákat adja vissza (vagy az elsődleges és másodlagos kategóriákat is, ha a \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) tulajdonság hamis). Csak olvasható [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection).
 
 --------------------
 
@@ -85,20 +87,19 @@ Az elsődleges kategóriákat adja vissza (vagy mind az elsődleges, mind a más
 >  
 >  if (series.getPlotOnSecondAxis() && series.getChart().getChartData().getUseSecondaryCategories())
 >  {
->      // a kapcsolódó kategóriák a series.getChart().getChartData().getSecondaryCategories()
+>      // kapcsolódó kategóriák: series.getChart().getChartData().getSecondaryCategories()
 >  }
 >  else
 >  {
->      // a kapcsolódó kategóriák a series.getChart().getChartData().getCategories()
+>      // kapcsolódó kategóriák: series.getChart().getChartData().getCategories()
 >  }
 > ```
 
-
 --------------------
 
-Ha a \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) tulajdonság false, akkor a (\#getSecondaryCategories.getSecondaryCategories) tulajdonság null értéket ad vissza, és a \#getCategories.getCategories tulajdonság adatait használják mind az elsődleges, mind a másodlagos sorozatokhoz. Ha a \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) tulajdonság true, akkor a (\#getSecondaryCategories.getSecondaryCategories) tulajdonság adatait a másodlagos sorozatokhoz, a \#getCategories.getCategories tulajdonság adatait pedig az elsődleges sorozatokhoz használják.
+Ha \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) tulajdonság hamis, akkor ez a (\#getSecondaryCategories.getSecondaryCategories) tulajdonság null értéket ad vissza, és a \#getCategories.getCategories tulajdonság adatai mind az elsődleges, mind a másodlagos sorozatokhoz használatosak. Ha a \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) tulajdonság igaz, akkor a (\#getSecondaryCategories.getSecondaryCategories) tulajdonság adatait a másodlagos sorozatokhoz, a \#getCategories.getCategories tulajdonság adatait pedig az elsődleges sorozatokhoz használják.
 
-**Visszatérési érték:**
+**Visszatér:**
 [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection)
 
 ### getUseSecondaryCategories() {#getUseSecondaryCategories--}
@@ -106,7 +107,7 @@ Ha a \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCate
 public final boolean getUseSecondaryCategories()
 ```
 
-Ha hamis, akkor a \#getSecondaryCategories.getSecondaryCategories tulajdonság null értéket ad vissza, és a \#getCategories.getCategories tulajdonság adatait használják mind az elsődleges, mind a másodlagos sorozatokhoz. Ha igaz, akkor a \#getSecondaryCategories.getSecondaryCategories tulajdonság adatait a másodlagos sorozatokhoz, a \#getCategories.getCategories tulajdonság adatait pedig az elsődleges sorozatokhoz használják. Olvasható/írható boolean.
+Ha hamis, akkor a \#getSecondaryCategories.getSecondaryCategories tulajdonság null értéket ad vissza, és a \#getCategories.getCategories tulajdonság adatai mind az elsődleges, mind a másodlagos sorozatokhoz használatosak. Ha igaz, akkor a \#getSecondaryCategories.getSecondaryCategories tulajdonság adatait a másodlagos sorozatokhoz, a \#getCategories.getCategories tulajdonság adatait pedig az elsődleges sorozatokhoz használják. Olvasás/írás boolean.
 
 --------------------
 
@@ -115,16 +116,15 @@ Ha hamis, akkor a \#getSecondaryCategories.getSecondaryCategories tulajdonság n
 >  
 >  if (series.getPlotOnSecondAxis() && series.getChart().getChartData().getUseSecondaryCategories())
 >  {
->      // a kapcsolódó kategóriák a series.getChart().getChartData().getSecondaryCategories()
+>      // kapcsolódó kategóriák: series.getChart().getChartData().getSecondaryCategories()
 >  }
 >  else
 >  {
->      // a kapcsolódó kategóriák a series.getChart().getChartData().getCategories()
+>      // kapcsolódó kategóriák: series.getChart().getChartData().getCategories()
 >  }
 > ```
 
-
-**Visszatérési érték:**
+**Visszatér:**
 boolean
 
 ### setUseSecondaryCategories(boolean value) {#setUseSecondaryCategories-boolean-}
@@ -132,7 +132,7 @@ boolean
 public final void setUseSecondaryCategories(boolean value)
 ```
 
-Ha hamis, akkor a \#getSecondaryCategories.getSecondaryCategories tulajdonság null értéket ad vissza, és a \#getCategories.getCategories tulajdonság adatait használják mind az elsődleges, mind a másodlagos sorozatokhoz. Ha igaz, akkor a \#getSecondaryCategories.getSecondaryCategories tulajdonság adatait a másodlagos sorozatokhoz, a \#getCategories.getCategories tulajdonság adatait pedig az elsődleges sorozatokhoz használják. Olvasható/írható boolean.
+Ha hamis, akkor a \#getSecondaryCategories.getSecondaryCategories tulajdonság null értéket ad vissza, és a \#getCategories.getCategories tulajdonság adatai mind az elsődleges, mind a másodlagos sorozatokhoz használatosak. Ha igaz, akkor a \#getSecondaryCategories.getSecondaryCategories tulajdonság adatait a másodlagos sorozatokhoz, a \#getCategories.getCategories tulajdonság adatait pedig az elsődleges sorozatokhoz használják. Olvasás/írás boolean.
 
 --------------------
 
@@ -141,11 +141,11 @@ Ha hamis, akkor a \#getSecondaryCategories.getSecondaryCategories tulajdonság n
 >  
 >  if (series.getPlotOnSecondAxis() && series.getChart().getChartData().getUseSecondaryCategories())
 >  {
->      // a kapcsolódó kategóriák a series.getChart().getChartData().getSecondaryCategories()
+>      // kapcsolódó kategóriák: series.getChart().getChartData().getSecondaryCategories()
 >  }
 >  else
 >  {
->      // a kapcsolódó kategóriák a series.getChart().getChartData().getCategories()
+>      // kapcsolódó kategóriák: series.getChart().getChartData().getCategories()
 >  }
 > ```
 
@@ -159,7 +159,7 @@ Ha hamis, akkor a \#getSecondaryCategories.getSecondaryCategories tulajdonság n
 public final IChartCategoryCollection getSecondaryCategories()
 ```
 
-A másodlagos kategóriákat adja vissza, ha a \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) tulajdonság true. Csak olvasható [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection).
+A másodlagos kategóriákat adja vissza, ha a \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) tulajdonság igaz. Csak olvasható [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection).
 
 --------------------
 
@@ -168,20 +168,19 @@ A másodlagos kategóriákat adja vissza, ha a \#getUseSecondaryCategories.getUs
 >  
 >  if (series.getPlotOnSecondAxis() && series.getChart().getChartData().getUseSecondaryCategories())
 >  {
->      // a kapcsolódó kategóriák a series.getChart().getChartData().getSecondaryCategories()
+>      // kapcsolódó kategóriák: series.getChart().getChartData().getSecondaryCategories()
 >  }
 >  else
 >  {
->      // a kapcsolódó kategóriák a series.getChart().getChartData().getCategories()
+>      // kapcsolódó kategóriák: series.getChart().getChartData().getCategories()
 >  }
 > ```
 
-
 --------------------
 
-Ha a \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) tulajdonság false, akkor ez a (\#getSecondaryCategories.getSecondaryCategories) tulajdonság null értéket ad vissza, és a \#getCategories.getCategories tulajdonság adatait használják mind az elsődleges, mind a másodlagos sorozatokhoz. Ha a \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) tulajdonság true, akkor ennek a \#getSecondaryCategories.getSecondaryCategories tulajdonságnak az adatait a másodlagos sorozatokhoz, a \#getCategories.getCategories tulajdonság adatait pedig az elsődleges sorozatokhoz használják.
+Ha \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) tulajdonság hamis, akkor ez a (\#getSecondaryCategories.getSecondaryCategories) tulajdonság null értéket ad vissza, és a \#getCategories.getCategories tulajdonság adatai mind az elsődleges, mind a másodlagos sorozatokhoz használatosak. Ha \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) tulajdonság igaz, akkor a (\#getSecondaryCategories.getSecondaryCategories) tulajdonság adatait a másodlagos sorozatokhoz, a \#getCategories.getCategories tulajdonság adatait pedig az elsődleges sorozatokhoz használják.
 
-**Visszatérési érték:**
+**Visszatér:**
 [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection)
 
 ### readWorkbookStream() {#readWorkbookStream--}
@@ -189,31 +188,31 @@ Ha a \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCate
 public final byte[] readWorkbookStream()
 ```
 
-Az internálisan tartalmazott Excel munkafüzetet egy memóriában lévő adatfolyamba írja.
+Az belső Excel munkafüzetet egy memóriában lévő adatfolyamba írja.
 
-**Visszatérési érték:**
-byte[] - Visszaad egy byte tömb példányt, amely az internálisan tartalmazott Excel munkafüzet másolatát tartalmazza.
+**Visszatér:**
+byte[] - Egy byte tömb példányt ad vissza, amely a belsőleg tartalmazott Excel munkafüzet másolatát tartalmazza.
 
 ### writeWorkbookStream(byte[] ms) {#writeWorkbookStream-byte---}
 ```
 public final void writeWorkbookStream(byte[] ms)
 ```
 
-Az internálisan tartalmazott Excel munkafüzetet felhasználó által megadott értékkel inicializálja.
+A belső Excel munkafüzetet a felhasználó által megadott értékkel inicializálja.
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| ms | byte[] | A felhasználó által megadott adatfolyam, amely az egész Excel munkafüzetet tartalmazza. |
+| ms | byte[] | A felhasználó által megadott adatfolyam, amely a teljes Excel munkafüzetet tartalmazza. |
 
 ### getDataSourceType() {#getDataSourceType--}
 ```
 public final int getDataSourceType()
 ```
 
-Külső munkafüzet útvonalát jelöli, ha külső adatforrás, egyébként null.
+Külső munkafüzet útvonalat képviseli, ha külső adatforrás, egyébként null.
 
-**Visszatérési érték:**
+**Visszatér:**
 int
 
 ### getExternalWorkbookPath() {#getExternalWorkbookPath--}
@@ -221,9 +220,9 @@ int
 public final String getExternalWorkbookPath()
 ```
 
-A diagram adatforrását jelöli.
+A diagram adatforrását képviseli.
 
-**Visszatérési érték:**
+**Visszatér:**
 java.lang.String
 
 ### getEmbeddedWorkbookType() {#getEmbeddedWorkbookType--}
@@ -231,9 +230,9 @@ java.lang.String
 public final int getEmbeddedWorkbookType()
 ```
 
-A beágyazott munkafüzet típusát adja vissza. [WorkbookType.NotDefined](../../com.aspose.slides/workbooktype\#NotDefined) értéket ad, ha a DataSourceType (\#getDataSourceType.getDataSourceType) [ChartDataSourceType.ExternalWorkbook](../../com.aspose.slides/chartdatasourcetype\#ExternalWorkbook). Csak olvasható [WorkbookType](../../com.aspose.slides/workbooktype).
+A beágyazott munkafüzet típusát adja vissza. [WorkbookType.NotDefined](../../com.aspose.slides/workbooktype\#NotDefined) értéket ad vissza, ha a DataSourceType (\#getDataSourceType.getDataSourceType) [ChartDataSourceType.ExternalWorkbook](../../com.aspose.slides/chartdatasourcetype\#ExternalWorkbook). Csak olvasható [WorkbookType](../../com.aspose.slides/workbooktype).
 
-**Visszatérési érték:**
+**Visszatér:**
 int
 
 ### getRange() {#getRange--}
@@ -241,7 +240,7 @@ int
 public final String getRange()
 ```
 
-A diagram adatválasztékát adja vissza.
+A diagram adat tartományát adja vissza.
 
 --------------------
 
@@ -255,27 +254,27 @@ A diagram adatválasztékát adja vissza.
 >   }
 > ```
 
-**Visszatérési érték:**
-java.lang.String - A cellák adatválaszték formula. Például: "Sheet1!$A$1:$C$4"
+**Visszatér:**
+java.lang.String - A cellák adat tartományának képlete. Például: "Sheet1!$A$1:$C$4"
 
 ### setRange(String formula) {#setRange-java.lang.String-}
 ```
 public final void setRange(String formula)
 ```
 
-A diagram adatválasztékát állítja be. A sorozatok és kategóriák az új adatválaszték alapján frissülnek. Ha az adatválasztékban lévő sorozatok száma nagyobb, mint a diagram adatainak sorozatszáma, akkor további sorozatok kerülnek hozzáadásra a gyűjtemény végéhez, ugyanazzal a típussal, mint az aktuális gyűjtemény utolsó sorozata.
+Beállítja a diagram adat tartományát. A sorozatok és kategóriák az új adat tartomány alapján frissülnek. Ha a adat tartományban lévő sorozatok száma nagyobb, mint a diagram adatban lévő sorozatok száma, akkor további sorozatok a jelenlegi gyűjtemény utolsó sorozatának típusával megegyezően kerülnek a gyűjtemény végére.
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| formula | java.lang.String | A cellák adatválaszték formula. Például: "Sheet1!$A$1:$C$4", "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
+| formula | java.lang.String | A cellák adat tartományának képlete. Például: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
 
 ### setExternalWorkbook(String workbookPath) {#setExternalWorkbook-java.lang.String-}
 ```
 public final void setExternalWorkbook(String workbookPath)
 ```
 
-Külső munkafüzetet állít be a diagram adatforrásaként. A diagram adatai a célmunkafüzettől frissülnek.
+Külső munkafüzetet állít be adatforrásként a diagramhoz. A diagram adatai a cél munkafüzetről frissülnek.
 
 --------------------
 
@@ -294,14 +293,14 @@ Külső munkafüzetet állít be a diagram adatforrásaként. A diagram adatai a
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| workbookPath | java.lang.String | A célmunkafüzet elérési útja |
+| workbookPath | java.lang.String | A cél munkafüzet elérési útja |
 
 ### setExternalWorkbook(String workbookPath, boolean updateChartData) {#setExternalWorkbook-java.lang.String-boolean-}
 ```
 public final void setExternalWorkbook(String workbookPath, boolean updateChartData)
 ```
 
-Külső munkafüzetet állít be a diagram adatforrásaként.
+Külső munkafüzetet állít be adatforrásként a diagramhoz.
 
 --------------------
 
@@ -317,16 +316,34 @@ Külső munkafüzetet állít be a diagram adatforrásaként.
 >  }
 > ```
 
-
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| workbookPath | java.lang.String | A célmunkafüzet elérési útja |
-| updateChartData | boolean | Ha az érték false, csak a munkafüzet útvonala frissül. A diagram adatai nem töltődnek be, és nem frissülnek a célmunkafüzettől. Akkor használható, ha a célmunkafüzet nem létezik vagy nem érhető el. Ha az érték true, a diagram adatai a célmunkafüzettől frissülnek. |
+| workbookPath | java.lang.String | A cél munkafüzet elérési útja |
+| updateChartData | boolean | Ha az érték hamis, csak a munkafüzet útvonal frissül. A diagram adatai nem töltődnek be és nem frissülnek a cél munkafüzetről. Akkor használható, ha a cél munkafüzet nem létezik vagy nem érhető el. Ha az érték igaz, a diagram adatai a cél munkafüzetről frissülnek. |
+
+### refreshData() {#refreshData--}
+```
+public final void refreshData()
+```
+
+A diagram adatokat frissíti a forrás munkafüzetből újratöltve.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("presentationWithChart.pptx");
+>  try {
+>      IChart chart = (IChart)presentation.getSlides().get_Item(0).getShapes().get_Item(0);
+>      chart.getChartData().refreshData();
+>  } finally {
+>      presentation.dispose();
+>  }
+> ```
 
 ### switchRowColumn() {#switchRowColumn--}
 ```
 public final void switchRowColumn()
 ```
 
-Az adatokat az tengelyek között cseréli. A X tengelyen ábrázolt adatok a Y tengelyre, és fordítva kerülnek.
+Az adatokat áthelyezi az tengelyek között. Az X tengelyen ábrázolt adatok az Y tengelyre kerülnek, és fordítva.

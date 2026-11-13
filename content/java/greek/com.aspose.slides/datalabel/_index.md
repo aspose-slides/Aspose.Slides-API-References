@@ -1,7 +1,7 @@
 ---
 title: DataLabel
-second_title: Aspose.Slides για Java - Αναφορά API
-description: Αντιπροσωπεύει ετικέτες σειράς.
+second_title: Αναφορά API του Java για Aspose.Slides
+description: Αναπαριστά ετικέτες σειράς.
 type: docs
 url: /el/com.aspose.slides/datalabel/
 ---
@@ -14,7 +14,7 @@ java.lang.Object
 public class DataLabel implements IDataLabel, IDOMObject
 ```
 
-Αντιπροσωπεύει ετικέτες σειράς.
+Αναπαριστά ετικέτες σειράς.
 ## Κατασκευαστές
 
 | Κατασκευαστής | Περιγραφή |
@@ -25,30 +25,32 @@ public class DataLabel implements IDataLabel, IDOMObject
 | Μέθοδος | Περιγραφή |
 | --- | --- |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-| [getChart()](#getChart--) | Επιστρέφει το γονικό διάγραμμα. |
-| [isVisible()](#isVisible--) | False σημαίνει ότι η ετικέτα δεδομένων δεν είναι ορατή (και έτσι όλες οι σημαίες Show* (ShowValue, ...) είναι false). |
-| [hide()](#hide--) | Κάνει την ετικέτα δεδομένων κρυφή ορίζοντας όλες τις σημαίες Show* (ShowValue, ...) σε κατάσταση false. |
+| [getChart()](#getChart--) | Επιστρέφει το γονικό chart. |
+| [isVisible()](#isVisible--) | False σημαίνει ότι η ετικέτα δεδομένων δεν είναι ορατή (και έτσι όλες οι σημαίες Show*-flags (ShowValue, ...) είναι ψευδείς). |
+| [hide()](#hide--) | Κάνει την ετικέτα δεδομένων κρυφή ορίζοντας όλες τις σημαίες Show*-flags (ShowValue, ...) σε κατάσταση ψευδής. |
 | [getActualLabelText()](#getActualLabelText--) | Επιστρέφει το πραγματικό κείμενο ετικέτας βάσει των ρυθμίσεων DataLabelFormat ή της τιμής TextFrameForOverriding.Text. |
 | [addTextFrameForOverriding(String text)](#addTextFrameForOverriding-java.lang.String-) | Αρχικοποιεί το TextFrameForOverriding με το κείμενο στην παράμετρο "text". |
-| [getTextFrameForOverriding()](#getTextFrameForOverriding--) | Μπορεί να περιέχει πλούσιο μορφοποιημένο κείμενο. |
-| [getTextFormat()](#getTextFormat--) | Επιστρέφει τη μορφή κειμένου. |
-| [getX()](#getX--) | Επιστρέφει ή ορίζει την συντεταγμένη x ενός τίτλου ως κλάσμα του πλάτους του διαγράμματος. |
-| [setX(float value)](#setX-float-) | Επιστρέφει ή ορίζει την συντεταγμένη x ενός τίτλου ως κλάσμα του πλάτους του διαγράμματος. |
-| [getY()](#getY--) | Επιστρέφει ή ορίζει τη συντεταγμένη y ενός τίτλου ως κλάσμα του ύψους του διαγράμματος. |
-| [setY(float value)](#setY-float-) | Επιστρέφει ή ορίζει τη συντεταγμένη y ενός τίτλου ως κλάσμα του ύψους του διαγράμματος. |
-| [getWidth()](#getWidth--) | Επιστρέφει ή ορίζει το πλάτος ενός τίτλου ως κλάσμα του πλάτους του διαγράμματος. |
-| [setWidth(float value)](#setWidth-float-) | Επιστρέφει ή ορίζει το πλάτος ενός τίτλου ως κλάσμα του πλάτους του διαγράμματος. |
-| [getHeight()](#getHeight--) | Επιστρέφει ή ορίζει το ύψος ενός τίτλου ως κλάσμα του ύψους του διαγράμματος. |
-| [setHeight(float value)](#setHeight-float-) | Επιστρέφει ή ορίζει το ύψος ενός τίτλου ως κλάσμα του ύψους του διαγράμματος. |
+| [getTextFrameForOverriding()](#getTextFrameForOverriding--) | Μπορεί να περιέχει μορφοποιημένο πλούσιο κείμενο. |
+| [getTextFormat()](#getTextFormat--) | Επιστρέφει τη διαμόρφωση κειμένου. |
+| [getX()](#getX--) | Επιστρέφει ή ορίζει το x συντεταγμένο ενός τίτλου ως κλάσμα του πλάτους του chart. |
+| [setX(float value)](#setX-float-) | Επιστρέφει ή ορίζει το x συντεταγμένο ενός τίτλου ως κλάσμα του πλάτους του chart. |
+| [getY()](#getY--) | Επιστρέφει ή ορίζει το y συντεταγμένο ενός τίτλου ως κλάσμα του ύψους του chart. |
+| [setY(float value)](#setY-float-) | Επιστρέφει ή ορίζει το y συντεταγμένο ενός τίτλου ως κλάσμα του ύψους του chart. |
+| [getWidth()](#getWidth--) | Επιστρέφει ή ορίζει το πλάτος ενός τίτλου ως κλάσμα του πλάτους του chart. |
+| [setWidth(float value)](#setWidth-float-) | Επιστρέφει ή ορίζει το πλάτος ενός τίτλου ως κλάσμα του πλάτους του chart. |
+| [getHeight()](#getHeight--) | Επιστρέφει ή ορίζει το ύψος ενός τίτλου ως κλάσμα του ύψους του chart. |
+| [setHeight(float value)](#setHeight-float-) | Επιστρέφει ή ορίζει το ύψος ενός τίτλου ως κλάσμα του ύψους του chart. |
 | [getRight()](#getRight--) | Δεξιά. |
 | [getBottom()](#getBottom--) | Κάτω. |
-| [getDataLabelFormat()](#getDataLabelFormat--) | Επιστρέφει τη μορφή ετικέτας δεδομένων. |
-| [getValueFromCell()](#getValueFromCell--) | Ανακτά ή ορίζει το κελί δεδομένων του βιβλίου εργασίας. |
-| [setValueFromCell(IChartDataCell value)](#setValueFromCell-com.aspose.slides.IChartDataCell-) | Ανακτά ή ορίζει το κελί δεδομένων του βιβλίου εργασίας. |
-| [getActualX()](#getActualX--) | Καθορίζει την πραγματική θέση x (αριστερά) του στοιχείου διαγράμματος σε σχέση με την αριστερή άνω γωνία του διαγράμματος. |
-| [getActualY()](#getActualY--) | Καθορίζει το πραγματικό άνω μέρος του στοιχείου διαγράμματος σε σχέση με την αριστερή άνω γωνία του διαγράμματος. |
-| [getActualWidth()](#getActualWidth--) | Καθορίζει το πραγματικό πλάτος του στοιχείου διαγράμματος. |
-| [getActualHeight()](#getActualHeight--) | Καθορίζει το πραγματικό ύψος του στοιχείου διαγράμματος. |
+| [getDataLabelFormat()](#getDataLabelFormat--) | Επιστρέφει τη διαμόρφωση ετικέτας δεδομένων. |
+| [getValueFromCell()](#getValueFromCell--) | Λαμβάνει ή ορίζει το κελί δεδομένων του βιβλίου εργασίας. |
+| [setValueFromCell(IChartDataCell value)](#setValueFromCell-com.aspose.slides.IChartDataCell-) | Λαμβάνει ή ορίζει το κελί δεδομένων του βιβλίου εργασίας. |
+| [getLabelShapeType()](#getLabelShapeType--) | Λαμβάνει ή ορίζει τον τύπο σχήματος της ετικέτας δεδομένων. |
+| [setLabelShapeType(int value)](#setLabelShapeType-int-) | Λαμβάνει ή ορίζει τον τύπο σχήματος της ετικέτας δεδομένων. |
+| [getActualX()](#getActualX--) | Καθορίζει την πραγματική θέση x (αριστερά) του στοιχείου του chart σε σχέση με την αριστερή πάνω γωνία του chart. |
+| [getActualY()](#getActualY--) | Καθορίζει το πραγματικό ανώτερο σημείο του στοιχείου του chart σε σχέση με την αριστερή πάνω γωνία του chart. |
+| [getActualWidth()](#getActualWidth--) | Καθορίζει το πραγματικό πλάτος του στοιχείου του chart. |
+| [getActualHeight()](#getActualHeight--) | Καθορίζει το πραγματικό ύψος του στοιχείου του chart. |
 | [getSlide()](#getSlide--) | Επιστρέφει τη γονική διαφάνεια ενός FillFormat. |
 | [getPresentation()](#getPresentation--) | Επιστρέφει την γονική παρουσίαση ενός FillFormat. |
 ### DataLabel(IChartDataPoint parentImmediate) {#DataLabel-com.aspose.slides.IChartDataPoint-}
@@ -68,7 +70,7 @@ public DataLabel(IChartDataPoint parentImmediate)
 public final IDOMObject getParent_Immediate()
 ```
 
-Επιστρέφει αντικείμενο Parent_Immediate. Μόνο για ανάγνωση IDOMObject.
+Επιστρέφει το αντικείμενο Parent_Immediate. Μόνο για ανάγνωση IDOMObject.
 
 **Επιστρέφει:**
 com.aspose.slides.IDOMObject
@@ -77,7 +79,7 @@ com.aspose.slides.IDOMObject
 public final IChart getChart()
 ```
 
-Επιστρέφει το γονικό διάγραμμα. Μόνο για ανάγνωση [IChart](../../com.aspose.slides/ichart).
+Επιστρέφει το γονικό chart. Μόνο για ανάγνωση [IChart](../../com.aspose.slides/ichart).
 
 **Επιστρέφει:**
 [IChart](../../com.aspose.slides/ichart)
@@ -86,12 +88,11 @@ public final IChart getChart()
 public final boolean isVisible()
 ```
 
-False σημαίνει ότι η ετικέτα δεδομένων δεν είναι ορατή (και έτσι όλες οι σημαίες Show* (ShowValue, ...) είναι false). Μόνο για ανάγνωση boolean.
+False σημαίνει ότι η ετικέτα δεδομένων δεν είναι ορατή (και έτσι όλες οι σημαίες Show*-flags (ShowValue, ...) είναι ψευδείς). Μόνο για ανάγνωση  boolean .
 
-**Επιστρέφει:**
-boolean
+--------------------
 
-Αν η ετικέτα δεδομένων είναι ορατή, μπορείτε να την κάνετε κρυφή με τη μέθοδο Hide(). Ωστόσο, αν η ετικέτα δεδομένων δεν είναι ορατή (IsVisible είναι false), μπορείτε να την κάνετε ορατή ορίζοντας τις σημαίες Show* (ShowValue, ...) σε κατάσταση true.
+Αν η ετικέτα δεδομένων είναι ορατή μπορείτε να την κρύψετε με τη μέθοδο Hide(). Αλλά αν η ετικέτα δεδομένων δεν είναι ορατή (IsVisible είναι false) μπορείτε να την κάνετε ορατή ορίζοντας τις σημαίες Show*-flags (ShowValue, ...) σε κατάσταση true.
 
 **Επιστρέφει:**
 boolean
@@ -100,9 +101,11 @@ boolean
 public final void hide()
 ```
 
-Κάνει την ετικέτα δεδομένων κρυφή ορίζοντας όλες τις σημαίες Show* (ShowValue, ...) σε κατάσταση false. Το IsVisible θα είναι false μετά από αυτό.
+Κάνει την ετικέτα δεδομένων κρυφή ορίζοντας όλες τις σημαίες Show*-flags (ShowValue, ...) σε κατάσταση ψευδής. Το IsVisible θα είναι false μετά από αυτό.
 
-Αν η ετικέτα δεδομένων δεν είναι ορατή (IsVisible είναι false) μπορείτε να την κάνετε ορατή ορίζοντας τις σημαίες Show* (ShowValue, ...) σε κατάσταση true.
+--------------------
+
+Αν η ετικέτα δεδομένων δεν είναι ορατή (IsVisible είναι false) μπορείτε να την κάνετε ορατή ορίζοντας τις σημαίες Show*-flags (ShowValue, ...) σε κατάσταση true.
 
 ### getActualLabelText() {#getActualLabelText--}
 ```
@@ -118,7 +121,7 @@ java.lang.String - Το αντικείμενο java.lang.String.
 public final ITextFrame addTextFrameForOverriding(String text)
 ```
 
-Αρχικοποιεί το TextFrameForOverriding με το κείμενο στην παράμετρο "text". Αν το TextFrameForOverriding είναι ήδη αρχικοποιημένο, τότε απλώς αλλάζει το κείμενό του.
+Αρχικοποιεί το TextFrameForOverriding με το κείμενο στην παράμετρο "text". Εάν το TextFrameForOverriding είναι ήδη αρχικοποιημένο, τότε απλώς αλλάζει το κείμενό του.
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
@@ -132,7 +135,7 @@ public final ITextFrame addTextFrameForOverriding(String text)
 public final ITextFrame getTextFrameForOverriding()
 ```
 
-Μπορεί να περιέχει πλούσιο μορφοποιημένο κείμενο. Εάν αυτή η ιδιότητα δεν είναι null, τότε αυτή η μορφοποιημένη τιμή κειμένου παρακάμπτει το αυτόματα παραγόμενο κείμενο της ετικέτας δεδομένων. Το αυτόματα παραγόμενο κείμενο της ετικέτας δεδομένων σημαίνει το κείμενο που διαχειρίζεται από τις ιδιότητες ShowSeriesName, ShowValue, ... και μορφοποιείται με την ιδιότητα TextFormatManager.TextFormat. Μόνο για ανάγνωση [ITextFrame](../../com.aspose.slides/itextframe).
+Μπορεί να περιέχει πλούσιο μορφοποιημένο κείμενο. Εάν αυτή η ιδιότητα δεν είναι null, τότε αυτή η μορφοποιημένη τιμή κειμένου αντικαθιστά το αυτόματα δημιουργημένο κείμενο της ετικέτας δεδομένων. Το αυτόματα δημιουργημένο κείμενο της ετικέτας δεδομένων σημαίνει κείμενο που διαχειρίζεται από τις ιδιότητες ShowSeriesName, ShowValue, ... και μορφοποιείται με την ιδιότητα TextFormatManager.TextFormat. Μόνο για ανάγνωση [ITextFrame](../../com.aspose.slides/itextframe).
 
 **Επιστρέφει:**
 [ITextFrame](../../com.aspose.slides/itextframe)
@@ -141,7 +144,7 @@ public final ITextFrame getTextFrameForOverriding()
 public final IChartTextFormat getTextFormat()
 ```
 
-Επιστρέφει τη μορφή κειμένου. Μόνο για ανάγνωση [IChartTextFormat](../../com.aspose.slides/icharttextformat).
+Επιστρέφει τη διαμόρφωση κειμένου. Μόνο για ανάγνωση [IChartTextFormat](../../com.aspose.slides/icharttextformat).
 
 **Επιστρέφει:**
 [IChartTextFormat](../../com.aspose.slides/icharttextformat)
@@ -150,7 +153,7 @@ public final IChartTextFormat getTextFormat()
 public final float getX()
 ```
 
-Επιστρέφει ή ορίζει τη συντεταγμένη x ενός τίτλου ως κλάσμα του πλάτους του διαγράμματος. Ανάγνωση/εγγραφή float.
+Επιστρέφει ή ορίζει το x συντεταγμένο ενός τίτλου ως κλάσμα του πλάτους του chart. Ανάγνωση/εγγραφή  float .
 
 **Επιστρέφει:**
 float
@@ -159,7 +162,7 @@ float
 public final void setX(float value)
 ```
 
-Επιστρέφει ή ορίζει τη συντεταγμένη x ενός τίτλου ως κλάσμα του πλάτους του διαγράμματος. Ανάγνωση/εγγραφή float.
+Επιστρέφει ή ορίζει το x συντεταγμένο ενός τίτλου ως κλάσμα του πλάτους του chart. Ανάγνωση/εγγραφή  float .
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
@@ -170,7 +173,7 @@ public final void setX(float value)
 public final float getY()
 ```
 
-Επιστρέφει ή ορίζει τη συντεταγμένη y ενός τίτλου ως κλάσμα του ύψους του διαγράμματος. Ανάγνωση/εγγραφή float.
+Επιστρέφει ή ορίζει το y συντεταγμένο ενός τίτλου ως κλάσμα του ύψους του chart. Ανάγνωση/εγγραφή  float .
 
 **Επιστρέφει:**
 float
@@ -179,7 +182,7 @@ float
 public final void setY(float value)
 ```
 
-Επιστρέφει ή ορίζει τη συντεταγμένη y ενός τίτλου ως κλάσμα του ύψους του διαγράμματος. Ανάγνωση/εγγραφή float.
+Επιστρέφει ή ορίζει το y συντεταγμένο ενός τίτλου ως κλάσμα του ύψους του chart. Ανάγνωση/εγγραφή  float .
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
@@ -190,7 +193,7 @@ public final void setY(float value)
 public final float getWidth()
 ```
 
-Επιστρέφει ή ορίζει το πλάτος ενός τίτλου ως κλάσμα του πλάτους του διαγράμματος. Ανάγνωση/εγγραφή float.
+Επιστρέφει ή ορίζει το πλάτος ενός τίτλου ως κλάσμα του πλάτους του chart. Ανάγνωση/εγγραφή  float .
 
 **Επιστρέφει:**
 float
@@ -199,7 +202,7 @@ float
 public final void setWidth(float value)
 ```
 
-Επιστρέφει ή ορίζει το πλάτος ενός τίτλου ως κλάσμα του πλάτους του διαγράμματος. Ανάγνωση/εγγραφή float.
+Επιστρέφει ή ορίζει το πλάτος ενός τίτλου ως κλάσμα του πλάτους του chart. Ανάγνωση/εγγραφή  float .
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
@@ -210,7 +213,7 @@ public final void setWidth(float value)
 public final float getHeight()
 ```
 
-Επιστρέφει ή ορίζει το ύψος ενός τίτλου ως κλάσμα του ύψους του διαγράμματος. Ανάγνωση/εγγραφή float.
+Επιστρέφει ή ορίζει το ύψος ενός τίτλου ως κλάσμα του ύψους του chart. Ανάγνωση/εγγραφή  float .
 
 **Επιστρέφει:**
 float
@@ -219,7 +222,7 @@ float
 public final void setHeight(float value)
 ```
 
-Επιστρέφει ή ορίζει το ύψος ενός τίτλου ως κλάσμα του ύψους του διαγράμματος. Ανάγνωση/εγγραφή float.
+Επιστρέφει ή ορίζει το ύψος ενός τίτλου ως κλάσμα του ύψους του chart. Ανάγνωση/εγγραφή  float .
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
@@ -230,7 +233,7 @@ public final void setHeight(float value)
 public final float getRight()
 ```
 
-Δεξιά. Μόνο για ανάγνωση float.
+Δεξιά. Μόνο για ανάγνωση  float .
 
 **Επιστρέφει:**
 float
@@ -239,7 +242,7 @@ float
 public final float getBottom()
 ```
 
-Κάτω. Μόνο για ανάγνωση float.
+Κάτω. Μόνο για ανάγνωση  float .
 
 **Επιστρέφει:**
 float
@@ -248,7 +251,7 @@ float
 public final IDataLabelFormat getDataLabelFormat()
 ```
 
-Επιστρέφει τη μορφή ετικέτας δεδομένων. Μόνο για ανάγνωση [IDataLabelFormat](../../com.aspose.slides/idatalabelformat).
+Επιστρέφει τη διαμόρφωση ετικέτας δεδομένων. Μόνο για ανάγνωση [IDataLabelFormat](../../com.aspose.slides/idatalabelformat).
 
 **Επιστρέφει:**
 [IDataLabelFormat](../../com.aspose.slides/idatalabelformat)
@@ -257,7 +260,7 @@ public final IDataLabelFormat getDataLabelFormat()
 public final IChartDataCell getValueFromCell()
 ```
 
-Ανακτά ή ορίζει το κελί δεδομένων του βιβλίου εργασίας. Εφαρμόζεται εάν η ιδιότητα IDataLabelFormat.ShowLabelValueFromCell είναι true.
+Λαμβάνει ή ορίζει το κελί δεδομένων του βιβλίου εργασίας. Εφαρμόζεται εάν η ιδιότητα IDataLabelFormat.ShowLabelValueFromCell είναι true.
 
 **Επιστρέφει:**
 [IChartDataCell](../../com.aspose.slides/ichartdatacell)
@@ -266,18 +269,70 @@ public final IChartDataCell getValueFromCell()
 public final void setValueFromCell(IChartDataCell value)
 ```
 
-Ανακτά ή ορίζει το κελί δεδομένων του βιβλίου εργασίας. Εφαρμόζεται εάν η ιδιότητα IDataLabelFormat.ShowLabelValueFromCell είναι true.
+Λαμβάνει ή ορίζει το κελί δεδομένων του βιβλίου εργασίας. Εφαρμόζεται εάν η ιδιότητα IDataLabelFormat.ShowLabelValueFromCell είναι true.
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | value | [IChartDataCell](../../com.aspose.slides/ichartdatacell) |  |
+### getLabelShapeType() {#getLabelShapeType--}
+```
+public final int getLabelShapeType()
+```
+
+Λαμβάνει ή ορίζει τον τύπο σχήματος της ετικέτας δεδομένων. Επιστρέφει [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) εάν δεν έχει οριστεί σχήμα.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Ορίστε τον τύπο σχήματος της πρώτης ετικέτας δεδομένων σε Ellipse.
+>      firstSeries.getLabels().get_Item(0).setLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabel.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Επιστρέφει:**
+int
+### setLabelShapeType(int value) {#setLabelShapeType-int-}
+```
+public final void setLabelShapeType(int value)
+```
+
+Λαμβάνει ή ορίζει τον τύπο σχήματος της ετικέτας δεδομένων. Επιστρέφει [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) εάν δεν έχει οριστεί σχήμα.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Ορίστε τον τύπο σχήματος της πρώτης ετικέτας δεδομένων σε Ellipse.
+>      firstSeries.getLabels().get_Item(0).setLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabel.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Παράμετροι:**
+| Παράμετρος | Τύπος | Περιγραφή |
+| --- | --- | --- |
+| value | int |  |
 ### getActualX() {#getActualX--}
 ```
 public final float getActualX()
 ```
 
-Καθορίζει την πραγματική θέση x (αριστερά) του στοιχείου διαγράμματος σε σχέση με την αριστερή άνω γωνία του διαγράμματος. Καλέστε τη μέθοδο IChart.ValidateChartLayout() πριν για να λάβετε πραγματικές τιμές. Ανάγνωση float.
+Καθορίζει την πραγματική θέση x (αριστερά) του στοιχείου του chart σε σχέση με την αριστερή πάνω γωνία του chart. Κάλεσε τη μέθοδο IChart.ValidateChartLayout() πριν για να λάβεις τις πραγματικές τιμές. Μόνο ανάγνωση float.
 
 **Επιστρέφει:**
 float
@@ -286,7 +341,7 @@ float
 public final float getActualY()
 ```
 
-Καθορίζει το πραγματικό άνω μέρος του στοιχείου διαγράμματος σε σχέση με την αριστερή άνω γωνία του διαγράμματος. Καλέστε τη μέθοδο IChart.ValidateChartLayout() πριν για να λάβετε πραγματικές τιμές. Ανάγνωση float.
+Καθορίζει το πραγματικό ανώτερο σημείο του στοιχείου του chart σε σχέση με την αριστερή πάνω γωνία του chart. Κάλεσε τη μέθοδο IChart.ValidateChartLayout() πριν για να λάβεις τις πραγματικές τιμές. Μόνο ανάγνωση float.
 
 **Επιστρέφει:**
 float
@@ -295,7 +350,7 @@ float
 public final float getActualWidth()
 ```
 
-Καθορίζει το πραγματικό πλάτος του στοιχείου διαγράμματος. Καλέστε τη μέθοδο IChart.ValidateChartLayout() πριν για να λάβετε πραγματικές τιμές. Ανάγνωση float.
+Καθορίζει το πραγματικό πλάτος του στοιχείου του chart. Κάλεσε τη μέθοδο IChart.ValidateChartLayout() πριν για να λάβεις τις πραγματικές τιμές. Μόνο ανάγνωση float.
 
 **Επιστρέφει:**
 float
@@ -304,7 +359,7 @@ float
 public final float getActualHeight()
 ```
 
-Καθορίζει το πραγματικό ύψος του στοιχείου διαγράμματος. Καλέστε τη μέθοδο IChart.ValidateChartLayout() πριν για να λάβετε πραγματικές τιμές. Ανάγνωση float.
+Καθορίζει το πραγματικό ύψος του στοιχείου του chart. Κάλεσε τη μέθοδο IChart.ValidateChartLayout() πριν για να λάβεις τις πραγματικές τιμές. Μόνο ανάγνωση float.
 
 **Επιστρέφει:**
 float

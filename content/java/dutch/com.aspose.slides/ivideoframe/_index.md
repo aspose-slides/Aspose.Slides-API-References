@@ -1,7 +1,7 @@
 ---
 title: IVideoFrame
 second_title: Aspose.Slides voor Java API-referentie
-description: Stelt een video-clip op een dia voor.
+description: Stelt een video-fragment voor op een dia.
 type: docs
 url: /nl/com.aspose.slides/ivideoframe/
 ---
@@ -11,32 +11,34 @@ url: /nl/com.aspose.slides/ivideoframe/
 public interface IVideoFrame extends IPictureFrame
 ```
 
-Stelt een video-clip op een dia voor.
+Stelt een videofragment voor op een dia.
 ## Methoden
 
 | Methode | Beschrijving |
 | --- | --- |
 | [getRewindVideo()](#getRewindVideo--) | Bepaalt of een video automatisch wordt teruggespoeld naar het begin zodra de film is afgelopen. |
 | [setRewindVideo(boolean value)](#setRewindVideo-boolean-) | Bepaalt of een video automatisch wordt teruggespoeld naar het begin zodra de film is afgelopen. |
-| [getPlayLoopMode()](#getPlayLoopMode--) | Bepaalt of een video wordt herhaald. |
-| [setPlayLoopMode(boolean value)](#setPlayLoopMode-boolean-) | Bepaalt of een video wordt herhaald. |
+| [getPlayLoopMode()](#getPlayLoopMode--) | Bepaalt of een video in een lus wordt afgespeeld. |
+| [setPlayLoopMode(boolean value)](#setPlayLoopMode-boolean-) | Bepaalt of een video in een lus wordt afgespeeld. |
 | [getHideAtShowing()](#getHideAtShowing--) | Bepaalt of een VideoFrame verborgen is. |
 | [setHideAtShowing(boolean value)](#setHideAtShowing-boolean-) | Bepaalt of een VideoFrame verborgen is. |
-| [getVolume()](#getVolume--) | Geeft of stelt het audio-volume in. |
-| [setVolume(int value)](#setVolume-int-) | Geeft of stelt het audio-volume in. |
-| [getPlayMode()](#getPlayMode--) | Geeft of stelt de video-afspeelmodus in. |
-| [setPlayMode(int value)](#setPlayMode-int-) | Geeft of stelt de video-afspeelmodus in. |
-| [getFullScreenMode()](#getFullScreenMode--) | Bepaalt of een video wordt weergegeven in volledigschermmodus. |
-| [setFullScreenMode(boolean value)](#setFullScreenMode-boolean-) | Bepaalt of een video wordt weergegeven in volledigschermmodus. |
-| [getLinkPathLong()](#getLinkPathLong--) | Geeft of stelt de naam van een videobestand in dat gekoppeld is aan een VideoFrame. |
-| [setLinkPathLong(String value)](#setLinkPathLong-java.lang.String-) | Geeft of stelt de naam van een videobestand in dat gekoppeld is aan een VideoFrame. |
-| [getEmbeddedVideo()](#getEmbeddedVideo--) | Geeft of stelt het ingebedde video-object in. |
-| [setEmbeddedVideo(IVideo value)](#setEmbeddedVideo-com.aspose.slides.IVideo-) | Geeft of stelt het ingebedde video-object in. |
-| [getTrimFromStart()](#getTrimFromStart--) | Trim start [ms] |
-| [setTrimFromStart(float value)](#setTrimFromStart-float-) | Trim start [ms] |
-| [getTrimFromEnd()](#getTrimFromEnd--) | Trim end [ms] |
-| [setTrimFromEnd(float value)](#setTrimFromEnd-float-) | Trim end [ms] |
-| [getCaptionTracks()](#getCaptionTracks--) | Haalt de verzameling gesloten bijschriften op die bij het audiokader horen. |
+| [getVolume()](#getVolume--) | Geeft de audiovolume terug of stelt deze in. |
+| [setVolume(int value)](#setVolume-int-) | Geeft de audiovolume terug of stelt deze in. |
+| [getVolumeValue()](#getVolumeValue--) | Geeft het exacte video-volume als een percentage terug of stelt dit in. |
+| [setVolumeValue(float value)](#setVolumeValue-float-) | Geeft het exacte video-volume als een percentage terug of stelt dit in. |
+| [getPlayMode()](#getPlayMode--) | Geeft de afspeelmodus van de video terug of stelt deze in. |
+| [setPlayMode(int value)](#setPlayMode-int-) | Geeft de afspeelmodus van de video terug of stelt deze in. |
+| [getFullScreenMode()](#getFullScreenMode--) | Bepaalt of een video wordt weergegeven in volledig scherm. |
+| [setFullScreenMode(boolean value)](#setFullScreenMode-boolean-) | Bepaalt of een video wordt weergegeven in volledig scherm. |
+| [getLinkPathLong()](#getLinkPathLong--) | Geeft de naam van een videobestand dat aan een VideoFrame is gekoppeld terug of stelt deze in. |
+| [setLinkPathLong(String value)](#setLinkPathLong-java.lang.String-) | Geeft de naam van een videobestand dat aan een VideoFrame is gekoppeld terug of stelt deze in. |
+| [getEmbeddedVideo()](#getEmbeddedVideo--) | Geeft een ingebed video-object terug of stelt dit in. |
+| [setEmbeddedVideo(IVideo value)](#setEmbeddedVideo-com.aspose.slides.IVideo-) | Geeft een ingebed video-object terug of stelt dit in. |
+| [getTrimFromStart()](#getTrimFromStart--) | Begintrim [ms] |
+| [setTrimFromStart(float value)](#setTrimFromStart-float-) | Begintrim [ms] |
+| [getTrimFromEnd()](#getTrimFromEnd--) | Eindtrim [ms] |
+| [setTrimFromEnd(float value)](#setTrimFromEnd-float-) | Eindtrim [ms] |
+| [getCaptionTracks()](#getCaptionTracks--) | Haalt de collectie van gesloten ondertitels op die bij het audio-frame horen. |
 
 ### getRewindVideo() {#getRewindVideo--}
 ```
@@ -45,7 +47,7 @@ public abstract boolean getRewindVideo()
 
 Bepaalt of een video automatisch wordt teruggespoeld naar het begin zodra de film is afgelopen. Lezen/schrijven boolean.
 
-**Retourneert:**
+**Retour:**  
 boolean
 ### setRewindVideo(boolean value) {#setRewindVideo-boolean-}
 ```
@@ -54,7 +56,7 @@ public abstract void setRewindVideo(boolean value)
 
 Bepaalt of een video automatisch wordt teruggespoeld naar het begin zodra de film is afgelopen. Lezen/schrijven boolean.
 
-**Parameters:**
+**Parameters:**  
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | value | boolean |  |
@@ -64,18 +66,18 @@ Bepaalt of een video automatisch wordt teruggespoeld naar het begin zodra de fil
 public abstract boolean getPlayLoopMode()
 ```
 
-Bepaalt of een video wordt herhaald. Lezen/schrijven boolean.
+Bepaalt of een video in een lus wordt afgespeeld. Lezen/schrijven boolean.
 
-**Retourneert:**
+**Retour:**  
 boolean
 ### setPlayLoopMode(boolean value) {#setPlayLoopMode-boolean-}
 ```
 public abstract void setPlayLoopMode(boolean value)
 ```
 
-Bepaalt of een video wordt herhaald. Lezen/schrijven boolean.
+Bepaalt of een video in een lus wordt afgespeeld. Lezen/schrijven boolean.
 
-**Parameters:**
+**Parameters:**  
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | value | boolean |  |
@@ -87,7 +89,7 @@ public abstract boolean getHideAtShowing()
 
 Bepaalt of een VideoFrame verborgen is. Lezen/schrijven boolean.
 
-**Retourneert:**
+**Retour:**  
 boolean
 ### setHideAtShowing(boolean value) {#setHideAtShowing-boolean-}
 ```
@@ -96,7 +98,7 @@ public abstract void setHideAtShowing(boolean value)
 
 Bepaalt of een VideoFrame verborgen is. Lezen/schrijven boolean.
 
-**Parameters:**
+**Parameters:**  
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | value | boolean |  |
@@ -106,39 +108,96 @@ Bepaalt of een VideoFrame verborgen is. Lezen/schrijven boolean.
 public abstract int getVolume()
 ```
 
-Geeft of stelt het audio-volume in. Lezen/schrijven [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
+Geeft de audiovolume terug of stelt deze in. Lezen/schrijven [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
 
-**Retourneert:**
+**Retour:**  
 int
 ### setVolume(int value) {#setVolume-int-}
 ```
 public abstract void setVolume(int value)
 ```
 
-Geeft of stelt het audio-volume in. Lezen/schrijven [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
+Geeft de audiovolume terug of stelt deze in. Lezen/schrijven [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
 
-**Parameters:**
+**Parameters:**  
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | value | int |  |
+
+### getVolumeValue() {#getVolumeValue--}
+```
+public abstract float getVolumeValue()
+```
+
+Geeft het exacte video-volume als een percentage terug of stelt dit in. De waarde wordt uitgedrukt als een percentage van 0 tot 100. Gebruik deze eigenschap om volume-waarden te lezen of in te stellen die nauwkeuriger zijn dan de vooraf gedefinieerde niveaus die beschikbaar zijn via de Volume-eigenschap. Lezen/schrijven float.
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video.pptx");
+>  try {
+>      IVideoFrame videoFrame = (IVideoFrame)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // Lees het huidige exacte volume en stel het in op 75,5 procent.
+>      float currentVolume = videoFrame.getVolumeValue();
+>      System.out.println(currentVolume);
+>      videoFrame.setVolumeValue(75.5f);
+>      pres.save("video_with_volume.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Retour:**  
+float
+### setVolumeValue(float value) {#setVolumeValue-float-}
+```
+public abstract void setVolumeValue(float value)
+```
+
+Geeft het exacte video-volume als een percentage terug of stelt dit in. De waarde wordt uitgedrukt als een percentage van 0 tot 100. Gebruik deze eigenschap om volume-waarden te lezen of in te stellen die nauwkeuriger zijn dan de vooraf gedefinieerde niveaus die beschikbaar zijn via de Volume-eigenschap. Lezen/schrijven float.
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video.pptx");
+>  try {
+>      IVideoFrame videoFrame = (IVideoFrame)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // Lees het huidige exacte volume en stel het in op 75,5 procent.
+>      float currentVolume = videoFrame.getVolumeValue();
+>      System.out.println(currentVolume);
+>      videoFrame.setVolumeValue(75.5f);
+>      pres.save("video_with_volume.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**  
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| value | float |  |
 
 ### getPlayMode() {#getPlayMode--}
 ```
 public abstract int getPlayMode()
 ```
 
-Geeft of stelt de video-afspeelmodus in. Lezen/schrijven [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
+Geeft de afspeelmodus van de video terug of stelt deze in. Lezen/schrijven [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
 
-**Retourneert:**
+**Retour:**  
 int
 ### setPlayMode(int value) {#setPlayMode-int-}
 ```
 public abstract void setPlayMode(int value)
 ```
 
-Geeft of stelt de video-afspeelmodus in. Lezen/schrijven [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
+Geeft de afspeelmodus van de video terug of stelt deze in. Lezen/schrijven [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
 
-**Parameters:**
+**Parameters:**  
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | value | int |  |
@@ -148,18 +207,18 @@ Geeft of stelt de video-afspeelmodus in. Lezen/schrijven [VideoPlayModePreset](.
 public abstract boolean getFullScreenMode()
 ```
 
-Bepaalt of een video wordt weergegeven in volledigschermmodus. Lezen/schrijven boolean.
+Bepaalt of een video wordt weergegeven in volledig scherm. Lezen/schrijven boolean.
 
-**Retourneert:**
+**Retour:**  
 boolean
 ### setFullScreenMode(boolean value) {#setFullScreenMode-boolean-}
 ```
 public abstract void setFullScreenMode(boolean value)
 ```
 
-Bepaalt of een video wordt weergegeven in volledigschermmodus. Lezen/schrijven boolean.
+Bepaalt of een video wordt weergegeven in volledig scherm. Lezen/schrijven boolean.
 
-**Parameters:**
+**Parameters:**  
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | value | boolean |  |
@@ -169,18 +228,18 @@ Bepaalt of een video wordt weergegeven in volledigschermmodus. Lezen/schrijven b
 public abstract String getLinkPathLong()
 ```
 
-Geeft of stelt de naam van een videobestand in dat gekoppeld is aan een VideoFrame. Lezen/schrijven String.
+Geeft de naam van een videobestand dat aan een VideoFrame is gekoppeld terug of stelt deze in. Lezen/schrijven String.
 
-**Retourneert:**
+**Retour:**  
 java.lang.String
 ### setLinkPathLong(String value) {#setLinkPathLong-java.lang.String-}
 ```
 public abstract void setLinkPathLong(String value)
 ```
 
-Geeft of stelt de naam van een videobestand in dat gekoppeld is aan een VideoFrame. Lezen/schrijven String.
+Geeft de naam van een videobestand dat aan een VideoFrame is gekoppeld terug of stelt deze in. Lezen/schrijven String.
 
-**Parameters:**
+**Parameters:**  
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | value | java.lang.String |  |
@@ -190,18 +249,18 @@ Geeft of stelt de naam van een videobestand in dat gekoppeld is aan een VideoFra
 public abstract IVideo getEmbeddedVideo()
 ```
 
-Geeft of stelt het ingebedde video-object in. Lezen/schrijven [IVideo](../../com.aspose.slides/ivideo).
+Geeft een ingebed video-object terug of stelt dit in. Lezen/schrijven [IVideo](../../com.aspose.slides/ivideo).
 
-**Retourneert:**
+**Retour:**  
 [IVideo](../../com.aspose.slides/ivideo)
 ### setEmbeddedVideo(IVideo value) {#setEmbeddedVideo-com.aspose.slides.IVideo-}
 ```
 public abstract void setEmbeddedVideo(IVideo value)
 ```
 
-Geeft of stelt het ingebedde video-object in. Lezen/schrijven [IVideo](../../com.aspose.slides/ivideo).
+Geeft een ingebed video-object terug of stelt dit in. Lezen/schrijven [IVideo](../../com.aspose.slides/ivideo).
 
-**Parameters:**
+**Parameters:**  
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | value | [IVideo](../../com.aspose.slides/ivideo) |  |
@@ -211,7 +270,7 @@ Geeft of stelt het ingebedde video-object in. Lezen/schrijven [IVideo](../../com
 public abstract float getTrimFromStart()
 ```
 
-Trim start [ms]
+Begintrim [ms]
 
 --------------------
 
@@ -232,14 +291,14 @@ Trim start [ms]
 >  }
 > ```
 
-**Retourneert:**
+**Retour:**  
 float
 ### setTrimFromStart(float value) {#setTrimFromStart-float-}
 ```
 public abstract void setTrimFromStart(float value)
 ```
 
-Trim start [ms]
+Begintrim [ms]
 
 --------------------
 
@@ -260,7 +319,7 @@ Trim start [ms]
 >  }
 > ```
 
-**Parameters:**
+**Parameters:**  
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | value | float |  |
@@ -270,18 +329,18 @@ Trim start [ms]
 public abstract float getTrimFromEnd()
 ```
 
-Trim end [ms]
+Eindtrim [ms]
 
-**Retourneert:**
+**Retour:**  
 float
 ### setTrimFromEnd(float value) {#setTrimFromEnd-float-}
 ```
 public abstract void setTrimFromEnd(float value)
 ```
 
-Trim end [ms]
+Eindtrim [ms]
 
-**Parameters:**
+**Parameters:**  
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | value | float |  |
@@ -291,7 +350,7 @@ Trim end [ms]
 public abstract ICaptionsCollection getCaptionTracks()
 ```
 
-Haalt de verzameling gesloten bijschriften op die bij het audiokader horen. Deze eigenschap is alleen-lezen en retourneert een [ICaptionsCollection](../../com.aspose.slides/icaptionscollection) met alle ondertitelsporen.
+Haalt de collectie van gesloten ondertitels op die bij het audio-frame horen. Deze eigenschap is alleen-lezen en retourneert een [ICaptionsCollection](../../com.aspose.slides/icaptionscollection) met alle ondertitel-tracks.
 
 --------------------
 
@@ -307,7 +366,7 @@ Haalt de verzameling gesloten bijschriften op die bij het audiokader horen. Deze
 >          IVideoFrame videoFrame = (IVideoFrame) shape;
 >          for (ICaptions captionTrack : videoFrame.getCaptionTracks())
 >          {
->              // Haalt de binaire ondertitelgegevens op en slaat ze op in het bestand
+>              // Haalt de binaire gegevens van de ondertitels op en slaat ze op in het bestand
 >              FileOutputStream fos = new FileOutputStream(captionTrack.getCaptionId() + ".vtt");
 >              fos.write(captionTrack.getBinaryData());
 >              fos.close();
@@ -318,5 +377,5 @@ Haalt de verzameling gesloten bijschriften op die bij het audiokader horen. Deze
 >  }
 > ```
 
-**Retourneert:**
+**Retour:**  
 [ICaptionsCollection](../../com.aspose.slides/icaptionscollection)

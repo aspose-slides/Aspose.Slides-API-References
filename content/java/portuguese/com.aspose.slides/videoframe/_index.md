@@ -8,7 +8,7 @@ url: /pt/com.aspose.slides/videoframe/
 **Herança:**
 java.lang.Object, [com.aspose.slides.Shape](../../com.aspose.slides/shape), [com.aspose.slides.GeometryShape](../../com.aspose.slides/geometryshape), [com.aspose.slides.PictureFrame](../../com.aspose.slides/pictureframe)
 
-**Todas as interfaces implementadas:**
+**Todas as Interfaces Implementadas:**
 [com.aspose.slides.IVideoFrame](../../com.aspose.slides/ivideoframe)
 ```
 public class VideoFrame extends PictureFrame implements IVideoFrame
@@ -19,47 +19,47 @@ Representa um clipe de vídeo em um slide.
 
 | Método | Descrição |
 | --- | --- |
-| [getRewindVideo()](#getRewindVideo--) | Determina se um vídeo é reiniciado automaticamente para o início assim que o filme termina de ser reproduzido. |
-| [setRewindVideo(boolean value)](#setRewindVideo-boolean-) | Determina se um vídeo é reiniciado automaticamente para o início assim que o filme termina de ser reproduzido. |
-| [getPlayLoopMode()](#getPlayLoopMode--) | Determina se um vídeo é reproduzido em loop. |
-| [setPlayLoopMode(boolean value)](#setPlayLoopMode-boolean-) | Determina se um vídeo é reproduzido em loop. |
+| [getRewindVideo()](#getRewindVideo--) | Determina se um vídeo é rebobinado automaticamente para o início assim que o filme termina de ser reproduzido. |
+| [setRewindVideo(boolean value)](#setRewindVideo-boolean-) | Determina se um vídeo é rebobinado automaticamente para o início assim que o filme termina de ser reproduzido. |
+| [getPlayLoopMode()](#getPlayLoopMode--) | Determina se um vídeo está em loop. |
+| [setPlayLoopMode(boolean value)](#setPlayLoopMode-boolean-) | Determina se um vídeo está em loop. |
 | [getHideAtShowing()](#getHideAtShowing--) | Determina se um VideoFrame está oculto. |
 | [setHideAtShowing(boolean value)](#setHideAtShowing-boolean-) | Determina se um VideoFrame está oculto. |
 | [getVolume()](#getVolume--) | Retorna ou define o volume de áudio. |
 | [setVolume(int value)](#setVolume-int-) | Retorna ou define o volume de áudio. |
-| [getPlayMode()](#getPlayMode--) | Retorna ou define o modo de reprodução de vídeo. |
-| [setPlayMode(int value)](#setPlayMode-int-) | Retorna ou define o modo de reprodução de vídeo. |
-| [getFullScreenMode()](#getFullScreenMode--) | Determina se um vídeo é exibido em modo de tela cheia. |
-| [setFullScreenMode(boolean value)](#setFullScreenMode-boolean-) | Determina se um vídeo é exibido em modo de tela cheia. |
+| [getVolumeValue()](#getVolumeValue--) | Retorna ou define o volume exato do vídeo como porcentagem. |
+| [setVolumeValue(float value)](#setVolumeValue-float-) | Retorna ou define o volume exato do vídeo como porcentagem. |
+| [getPlayMode()](#getPlayMode--) | Retorna ou define o modo de reprodução do vídeo. |
+| [setPlayMode(int value)](#setPlayMode-int-) | Retorna ou define o modo de reprodução do vídeo. |
+| [getFullScreenMode()](#getFullScreenMode--) | Determina se um vídeo é exibido em modo tela cheia. |
+| [setFullScreenMode(boolean value)](#setFullScreenMode-boolean-) | Determina se um vídeo é exibido em modo tela cheia. |
 | [getLinkPathLong()](#getLinkPathLong--) | Retorna ou define o nome de um arquivo de vídeo que está vinculado a um VideoFrame. |
 | [setLinkPathLong(String value)](#setLinkPathLong-java.lang.String-) | Retorna ou define o nome de um arquivo de vídeo que está vinculado a um VideoFrame. |
-| [getEmbeddedVideo()](#getEmbeddedVideo--) | Retorna ou define o objeto de vídeo incorporado. |
-| [setEmbeddedVideo(IVideo value)](#setEmbeddedVideo-com.aspose.slides.IVideo-) | Retorna ou define o objeto de vídeo incorporado. |
-| [getTrimFromStart()](#getTrimFromStart--) | Corte inicial [ms] |
-| [setTrimFromStart(float value)](#setTrimFromStart-float-) | Corte inicial [ms] |
-| [getTrimFromEnd()](#getTrimFromEnd--) | Corte final [ms] |
-| [setTrimFromEnd(float value)](#setTrimFromEnd-float-) | Corte final [ms] |
-| [getCaptionTracks()](#getCaptionTracks--) | Obtém a coleção de legendas fechadas associadas ao quadro de vídeo. |
+| [getEmbeddedVideo()](#getEmbeddedVideo--) | Retorna ou define objeto de vídeo incorporado. |
+| [setEmbeddedVideo(IVideo value)](#setEmbeddedVideo-com.aspose.slides.IVideo-) | Retorna ou define objeto de vídeo incorporado. |
+| [getTrimFromStart()](#getTrimFromStart--) | Cortar início [ms] |
+| [setTrimFromStart(float value)](#setTrimFromStart-float-) | Cortar início [ms] |
+| [getTrimFromEnd()](#getTrimFromEnd--) | Cortar fim [ms] |
+| [setTrimFromEnd(float value)](#setTrimFromEnd-float-) | Cortar fim [ms] |
+| [getCaptionTracks()](#getCaptionTracks--) | Obtém a coleção de legendas fechadas associadas ao video frame. |
 ### getRewindVideo() {#getRewindVideo--}
 ```
 public final boolean getRewindVideo()
 ```
 
+Determina se um vídeo é rebobinado automaticamente para o início assim que o filme termina de ser reproduzido. Leitura/gravação boolean.
 
-Determina se um vídeo é reiniciado automaticamente para o início assim que o filme termina de ser reproduzido. Leitura/gravação boolean.
-
-**Returns:**
+**Retorna:**
 boolean
 ### setRewindVideo(boolean value) {#setRewindVideo-boolean-}
 ```
 public final void setRewindVideo(boolean value)
 ```
 
+Determina se um vídeo é rebobinado automaticamente para o início assim que o filme termina de ser reproduzido. Leitura/gravação boolean.
 
-Determina se um vídeo é reiniciado automaticamente para o início assim que o filme termina de ser reproduzido. Leitura/gravação boolean.
-
-**Parameters:**
-| Parameter | Type | Description |
+**Parâmetros:**
+| Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -68,21 +68,19 @@ Determina se um vídeo é reiniciado automaticamente para o início assim que o 
 public final boolean getPlayLoopMode()
 ```
 
+Determina se um vídeo está em loop. Leitura/gravação boolean.
 
-Determina se um vídeo é reproduzido em loop. Leitura/gravação boolean.
-
-**Returns:**
+**Retorna:**
 boolean
 ### setPlayLoopMode(boolean value) {#setPlayLoopMode-boolean-}
 ```
 public final void setPlayLoopMode(boolean value)
 ```
 
+Determina se um vídeo está em loop. Leitura/gravação boolean.
 
-Determina se um vídeo é reproduzido em loop. Leitura/gravação boolean.
-
-**Parameters:**
-| Parameter | Type | Description |
+**Parâmetros:**
+| Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -91,21 +89,19 @@ Determina se um vídeo é reproduzido em loop. Leitura/gravação boolean.
 public final boolean getHideAtShowing()
 ```
 
-
 Determina se um VideoFrame está oculto. Leitura/gravação boolean.
 
-**Returns:**
+**Retorna:**
 boolean
 ### setHideAtShowing(boolean value) {#setHideAtShowing-boolean-}
 ```
 public final void setHideAtShowing(boolean value)
 ```
 
-
 Determina se um VideoFrame está oculto. Leitura/gravação boolean.
 
-**Parameters:**
-| Parameter | Type | Description |
+**Parâmetros:**
+| Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -114,44 +110,97 @@ Determina se um VideoFrame está oculto. Leitura/gravação boolean.
 public final int getVolume()
 ```
 
-
 Retorna ou define o volume de áudio. Leitura/gravação [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
 
-**Returns:**
+**Retorna:**
 int
 ### setVolume(int value) {#setVolume-int-}
 ```
 public final void setVolume(int value)
 ```
 
-
 Retorna ou define o volume de áudio. Leitura/gravação [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
 
-**Parameters:**
-| Parameter | Type | Description |
+**Parâmetros:**
+| Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
 | value | int |  |
+
+### getVolumeValue() {#getVolumeValue--}
+```
+public final float getVolumeValue()
+```
+
+Retorna ou define o volume exato do vídeo como porcentagem. O valor é expresso como uma porcentagem de 0 a 100. Use esta propriedade para ler ou definir valores de volume mais precisos do que os níveis predefinidos disponíveis através da propriedade \#getVolume.getVolume/\#setVolume(int).setVolume(int). Leitura/gravação float.
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video.pptx");
+>  try {
+>      IVideoFrame videoFrame = (IVideoFrame)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // Leia o volume exato atual e defina-o para 75,5 por cento.
+>      float currentVolume = videoFrame.getVolumeValue();
+>      System.out.println(currentVolume);
+>      videoFrame.setVolumeValue(75.5f);
+>      pres.save("video_with_volume.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Retorna:**
+float
+### setVolumeValue(float value) {#setVolumeValue-float-}
+```
+public final void setVolumeValue(float value)
+```
+
+Retorna ou define o volume exato do vídeo como porcentagem. O valor é expresso como uma porcentagem de 0 a 100. Use esta propriedade para ler ou definir valores de volume mais precisos do que os níveis predefinidos disponíveis através da propriedade \#getVolume.getVolume/\#setVolume(int).setVolume(int). Leitura/gravação float.
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video.pptx");
+>  try {
+>      IVideoFrame videoFrame = (IVideoFrame)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // Leia o volume exato atual e defina-o para 75,5 por cento.
+>      float currentVolume = videoFrame.getVolumeValue();
+>      System.out.println(currentVolume);
+>      videoFrame.setVolumeValue(75.5f);
+>      pres.save("video_with_volume.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parâmetros:**
+| Parâmetro | Tipo | Descrição |
+| --- | --- | --- |
+| value | float |  |
 
 ### getPlayMode() {#getPlayMode--}
 ```
 public final int getPlayMode()
 ```
 
+Retorna ou define o modo de reprodução do vídeo. Leitura/gravação [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
 
-Retorna ou define o modo de reprodução de vídeo. Leitura/gravação [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
-
-**Returns:**
+**Retorna:**
 int
 ### setPlayMode(int value) {#setPlayMode-int-}
 ```
 public final void setPlayMode(int value)
 ```
 
+Retorna ou define o modo de reprodução do vídeo. Leitura/gravação [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
 
-Retorna ou define o modo de reprodução de vídeo. Leitura/gravação [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
-
-**Parameters:**
-| Parameter | Type | Description |
+**Parâmetros:**
+| Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
 | value | int |  |
 
@@ -160,21 +209,19 @@ Retorna ou define o modo de reprodução de vídeo. Leitura/gravação [VideoPla
 public final boolean getFullScreenMode()
 ```
 
+Determina se um vídeo é exibido em modo tela cheia. Leitura/gravação boolean.
 
-Determina se um vídeo é exibido em modo de tela cheia. Leitura/gravação boolean.
-
-**Returns:**
+**Retorna:**
 boolean
 ### setFullScreenMode(boolean value) {#setFullScreenMode-boolean-}
 ```
 public final void setFullScreenMode(boolean value)
 ```
 
+Determina se um vídeo é exibido em modo tela cheia. Leitura/gravação boolean.
 
-Determina se um vídeo é exibido em modo de tela cheia. Leitura/gravação boolean.
-
-**Parameters:**
-| Parameter | Type | Description |
+**Parâmetros:**
+| Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -183,21 +230,19 @@ Determina se um vídeo é exibido em modo de tela cheia. Leitura/gravação bool
 public final String getLinkPathLong()
 ```
 
-
 Retorna ou define o nome de um arquivo de vídeo que está vinculado a um VideoFrame. Leitura/gravação String.
 
-**Returns:**
+**Retorna:**
 java.lang.String
 ### setLinkPathLong(String value) {#setLinkPathLong-java.lang.String-}
 ```
 public final void setLinkPathLong(String value)
 ```
 
-
 Retorna ou define o nome de um arquivo de vídeo que está vinculado a um VideoFrame. Leitura/gravação String.
 
-**Parameters:**
-| Parameter | Type | Description |
+**Parâmetros:**
+| Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
@@ -206,21 +251,19 @@ Retorna ou define o nome de um arquivo de vídeo que está vinculado a um VideoF
 public final IVideo getEmbeddedVideo()
 ```
 
+Retorna ou define objeto de vídeo incorporado. Leitura/gravação [IVideo](../../com.aspose.slides/ivideo).
 
-Retorna ou define o objeto de vídeo incorporado. Leitura/gravação [IVideo](../../com.aspose.slides/ivideo).
-
-**Returns:**
+**Retorna:**
 [IVideo](../../com.aspose.slides/ivideo)
 ### setEmbeddedVideo(IVideo value) {#setEmbeddedVideo-com.aspose.slides.IVideo-}
 ```
 public final void setEmbeddedVideo(IVideo value)
 ```
 
+Retorna ou define objeto de vídeo incorporado. Leitura/gravação [IVideo](../../com.aspose.slides/ivideo).
 
-Retorna ou define o objeto de vídeo incorporado. Leitura/gravação [IVideo](../../com.aspose.slides/ivideo).
-
-**Parameters:**
-| Parameter | Type | Description |
+**Parâmetros:**
+| Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
 | value | [IVideo](../../com.aspose.slides/ivideo) |  |
 
@@ -229,8 +272,7 @@ Retorna ou define o objeto de vídeo incorporado. Leitura/gravação [IVideo](..
 public final float getTrimFromStart()
 ```
 
-
-Corte inicial [ms]
+Cortar início [ms]
 
 --------------------
 
@@ -242,24 +284,24 @@ Corte inicial [ms]
 >      ISlide slide = pres.getSlides().get_Item(0);
 >      IVideo video = pres.getVideos().addVideo(Files.readAllBytes(Paths.get("video.mp4")));
 >      IVideoFrame videoFrame = slide.getShapes().addVideoFrame(0, 0, 100, 100, video);
->      //definir tempo de início do corte 1sec
+>      //defina o início do recorte 1s
 >      videoFrame.setTrimFromStart(1000f);
->      //definir tempo de fim do corte 2sec
+>      //defina o fim do recorte 2s
 >      videoFrame.setTrimFromEnd(2000f);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
 > ```
 
-**Returns:**
+
+**Retorna:**
 float
 ### setTrimFromStart(float value) {#setTrimFromStart-float-}
 ```
 public final void setTrimFromStart(float value)
 ```
 
-
-Corte inicial [ms]
+Cortar início [ms]
 
 --------------------
 
@@ -271,17 +313,17 @@ Corte inicial [ms]
 >      ISlide slide = pres.getSlides().get_Item(0);
 >      IVideo video = pres.getVideos().addVideo(Files.readAllBytes(Paths.get("video.mp4")));
 >      IVideoFrame videoFrame = slide.getShapes().addVideoFrame(0, 0, 100, 100, video);
->      //definir tempo de início do corte 1sec
+>      //defina o início do recorte 1s
 >      videoFrame.setTrimFromStart(1000f);
->      //definir tempo de fim do corte 2sec
+>      //defina o fim do recorte 2s
 >      videoFrame.setTrimFromEnd(2000f);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**Parâmetros:**
+| Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
 | value | float |  |
 
@@ -290,21 +332,19 @@ Corte inicial [ms]
 public final float getTrimFromEnd()
 ```
 
+Cortar fim [ms]
 
-Corte final [ms]
-
-**Returns:**
+**Retorna:**
 float
 ### setTrimFromEnd(float value) {#setTrimFromEnd-float-}
 ```
 public final void setTrimFromEnd(float value)
 ```
 
+Cortar fim [ms]
 
-Corte final [ms]
-
-**Parameters:**
-| Parameter | Type | Description |
+**Parâmetros:**
+| Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
 | value | float |  |
 
@@ -313,8 +353,7 @@ Corte final [ms]
 public final ICaptionsCollection getCaptionTracks()
 ```
 
-
-Obtém a coleção de legendas fechadas associadas ao quadro de vídeo. Esta propriedade é somente leitura e retorna um [ICaptionsCollection](../../com.aspose.slides/icaptionscollection) contendo todas as faixas de legenda.
+Obtém a coleção de legendas fechadas associadas ao video frame. Esta propriedade é somente leitura e retorna um [ICaptionsCollection](../../com.aspose.slides/icaptionscollection) contendo todas as faixas de legendas.
 
 --------------------
 
@@ -341,5 +380,5 @@ Obtém a coleção de legendas fechadas associadas ao quadro de vídeo. Esta pro
 >  }
 > ```
 
-**Returns:**
+**Retorna:**
 [ICaptionsCollection](../../com.aspose.slides/icaptionscollection)

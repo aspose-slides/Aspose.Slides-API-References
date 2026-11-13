@@ -13,22 +13,22 @@ Reprezentuje kategorie wykresu.
 
 | Metoda | Opis |
 | --- | --- |
-| [getUseCell()](#getUseCell--) | If true then AsCell property is actual. |
-| [getAsCell()](#getAsCell--) | Returns or sets IChartDataCell object. |
-| [setAsCell(IChartDataCell value)](#setAsCell-com.aspose.slides.IChartDataCell-) | Returns or sets IChartDataCell object. |
-| [getAsLiteral()](#getAsLiteral--) | Returns or sets AsLiteral if UseCell is false. |
-| [setAsLiteral(Object value)](#setAsLiteral-java.lang.Object-) | Returns or sets AsLiteral if UseCell is false. |
-| [getValue()](#getValue--) | If UseCell is true then this property represents AsCell.Value property. |
-| [setValue(Object value)](#setValue-java.lang.Object-) | If UseCell is true then this property represents AsCell.Value property. |
-| [getGroupingLevels()](#getGroupingLevels--) | Managed container of the values of the chart category grouping levels. |
-| [remove()](#remove--) | Removes category from chart. |
+| [getUseCell()](#getUseCell--) | Jeśli true, właściwość AsCell jest aktualna. |
+| [getAsCell()](#getAsCell--) | Zwraca lub ustawia obiekt IChartDataCell. |
+| [setAsCell(IChartDataCell value)](#setAsCell-com.aspose.slides.IChartDataCell-) | Zwraca lub ustawia obiekt IChartDataCell. |
+| [getAsLiteral()](#getAsLiteral--) | Zwraca lub ustawia AsLiteral, jeśli UseCell jest false. |
+| [setAsLiteral(Object value)](#setAsLiteral-java.lang.Object-) | Zwraca lub ustawia AsLiteral, jeśli UseCell jest false. |
+| [getValue()](#getValue--) | Jeśli UseCell jest true, ta właściwość reprezentuje właściwość AsCell.Value. |
+| [setValue(Object value)](#setValue-java.lang.Object-) | Jeśli UseCell jest true, ta właściwość reprezentuje właściwość AsCell.Value. |
+| [getCachedValue()](#getCachedValue--) | Pobiera buforowaną wartość kategorii wykresu. |
+| [getGroupingLevels()](#getGroupingLevels--) | Zarządzany kontener wartości poziomów grupowania kategorii wykresu. |
+| [remove()](#remove--) | Usuwa kategorię z wykresu. |
 ### getUseCell() {#getUseCell--}
 ```
 public abstract boolean getUseCell()
 ```
 
-
-Jeśli true, to właściwość AsCell jest aktualna. Innymi słowy, arkusz jest używany do przechowywania kategorii (ten przypadek obsługuje kategorię wielopoziomową). Jeśli false, to właściwość AsLiteral jest aktualna. Innymi słowy, arkusz NIE jest używany do przechowywania kategorii (i ten przypadek nie obsługuje kategorii wielopoziomowych). Boolean tylko do odczytu.
+Jeśli true, właściwość AsCell jest aktualna. Inaczej mówiąc, arkusz jest używany do przechowywania kategorii (ten przypadek obsługuje kategorię wielopoziomową). Jeśli false, właściwość AsLiteral jest aktualna. Inaczej mówiąc, arkusz NIE jest używany do przechowywania kategorii (i ten przypadek nie obsługuje wielopoziomowych kategorii). Tylko do odczytu boolean.
 
 --------------------
 
@@ -41,8 +41,7 @@ boolean
 public abstract IChartDataCell getAsCell()
 ```
 
-
-Zwraca lub ustawia obiekt IChartDataCell. Jeśli kategoria jest wielopoziomowa, używany jest obiekt IChartDataCell dla poziomu “0”. Odczyt/zapis [IChartDataCell](../../com.aspose.slides/ichartdatacell).
+Zwraca lub ustawia obiekt IChartDataCell. Jeśli kategoria jest wielopoziomowa, używany jest obiekt IChartDataCell dla poziomu "0". Odczyt/zapis [IChartDataCell](../../com.aspose.slides/ichartdatacell).
 
 **Zwraca:**
 [IChartDataCell](../../com.aspose.slides/ichartdatacell)
@@ -51,8 +50,7 @@ Zwraca lub ustawia obiekt IChartDataCell. Jeśli kategoria jest wielopoziomowa, 
 public abstract void setAsCell(IChartDataCell value)
 ```
 
-
-Zwraca lub ustawia obiekt IChartDataCell. Jeśli kategoria jest wielopoziomowa, używany jest obiekt IChartDataCell dla poziomu “0”. Odczyt/zapis [IChartDataCell](../../com.aspose.slides/ichartdatacell).
+Zwraca lub ustawia obiekt IChartDataCell. Jeśli kategoria jest wielopoziomowa, używany jest obiekt IChartDataCell dla poziomu "0". Odczyt/zapis [IChartDataCell](../../com.aspose.slides/ichartdatacell).
 
 **Parametry:**
 | Parametr | Typ | Opis |
@@ -64,7 +62,6 @@ Zwraca lub ustawia obiekt IChartDataCell. Jeśli kategoria jest wielopoziomowa, 
 public abstract Object getAsLiteral()
 ```
 
-
 Zwraca lub ustawia AsLiteral, jeśli UseCell jest false. Odczyt/zapis Object.
 
 **Zwraca:**
@@ -73,7 +70,6 @@ java.lang.Object
 ```
 public abstract void setAsLiteral(Object value)
 ```
-
 
 Zwraca lub ustawia AsLiteral, jeśli UseCell jest false. Odczyt/zapis Object.
 
@@ -87,8 +83,7 @@ Zwraca lub ustawia AsLiteral, jeśli UseCell jest false. Odczyt/zapis Object.
 public abstract Object getValue()
 ```
 
-
-Jeśli UseCell jest true, to ta właściwość reprezentuje właściwość AsCell.Value. Jeśli UseCell jest false, to ta właściwość reprezentuje właściwość AsLiteral. Odczyt/zapis Object.
+Jeśli UseCell jest true, ta właściwość reprezentuje właściwość AsCell.Value. Jeśli UseCell jest false, ta właściwość reprezentuje właściwość AsLiteral. Odczyt/zapis Object.
 
 **Zwraca:**
 java.lang.Object
@@ -97,19 +92,41 @@ java.lang.Object
 public abstract void setValue(Object value)
 ```
 
-
-Jeśli UseCell jest true, to ta właściwość reprezentuje właściwość AsCell.Value. Jeśli UseCell jest false, to ta właściwość reprezentuje właściwość AsLiteral. Odczyt/zapis Object.
+Jeśli UseCell jest true, ta właściwość reprezentuje właściwość AsCell.Value. Jeśli UseCell jest false, ta właściwość reprezentuje właściwość AsLiteral. Odczyt/zapis Object.
 
 **Parametry:**
 | Parametr | Typ | Opis |
 | --- | --- | --- |
 | value | java.lang.Object |  |
 
+### getCachedValue() {#getCachedValue--}
+```
+public abstract ICachedChartValue getCachedValue()
+```
+
+Pobiera buforowaną wartość kategorii wykresu. Tylko do odczytu [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+> 
+>      // Wypisz wszystkie buforowane wartości kategorii wykresu.
+>      for (IChartCategory category : chart.getChartData().getCategories())
+>          System.out.println(category.getCachedValue().toString());
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Zwraca:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
 ### getGroupingLevels() {#getGroupingLevels--}
 ```
 public abstract IChartCategoryLevelsManager getGroupingLevels()
 ```
-
 
 Zarządzany kontener wartości poziomów grupowania kategorii wykresu. Kategoria wielopoziomowa zawiera więcej niż jeden poziom grupowania. Indeksowanie poziomów grupowania zaczyna się od zera. Tylko do odczytu [IChartCategoryLevelsManager](../../com.aspose.slides/ichartcategorylevelsmanager).
 
@@ -119,6 +136,5 @@ Zarządzany kontener wartości poziomów grupowania kategorii wykresu. Kategoria
 ```
 public abstract void remove()
 ```
-
 
 Usuwa kategorię z wykresu.

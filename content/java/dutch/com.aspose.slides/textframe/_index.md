@@ -14,29 +14,30 @@ java.lang.Object
 public final class TextFrame implements ITextFrame, IDOMObject
 ```
 
-Vertegenwoordigt een TextFrame.
+Stelt een TextFrame voor.
 ## Methoden
 
 | Methode | Beschrijving |
 | --- | --- |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-| [getParagraphs()](#getParagraphs--) | Retourneert de lijst van alle paragrafen in een frame. |
+| [getParagraphs()](#getParagraphs--) | Retourneert de lijst met alle alinea's in een frame. |
 | [getText()](#getText--) | Haalt de platte tekst op of stelt deze in voor een TextFrame. |
 | [setText(String value)](#setText-java.lang.String-) | Haalt de platte tekst op of stelt deze in voor een TextFrame. |
 | [getTextFrameFormat()](#getTextFrameFormat--) | Retourneert het opmaakobject voor dit TextFrame-object. |
 | [getHyperlinkQueries()](#getHyperlinkQueries--) | Biedt gemakkelijke toegang tot ingesloten hyperlinks. |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Voegt runs met dezelfde opmaak samen in alle paragrafen. |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Voegt runs met dezelfde opmaak samen in alle alinea's. |
 | [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | Markeert alle overeenkomsten van de voorbeeldtekst met de opgegeven kleur. |
 | [highlightText(String text, Color highlightColor, ITextHighlightingOptions options)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Markeert alle overeenkomsten van de voorbeeldtekst met de opgegeven kleur. |
-| [splitTextByColumns()](#splitTextByColumns--) | Splitst de tekstinhoud van de [ITextFrame](../../com.aspose.slides/itextframe) in een array van strings, waarbij elk element overeenkomt met een aparte tekstreeks binnen het frame. |
+| [splitTextByColumns()](#splitTextByColumns--) | Splitst de tekstinhoud van de [ITextFrame](../../com.aspose.slides/itextframe) in een array van strings, waarbij elk element overeenkomt met een afzonderlijke tekstkolom binnen het frame. |
 | [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Markeert alle overeenkomsten van de voorbeeldtekst met de opgegeven kleur. |
 | [highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)](#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Markeert alle overeenkomsten van de reguliere expressie met de opgegeven kleur. |
 | [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | Markeert alle overeenkomsten van de reguliere expressie met de opgegeven kleur. |
-| [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Vervangt alle voorkomen van de opgegeven tekst door een andere opgegeven tekst. |
+| [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Vervangt alle voorkomens van de opgegeven tekst door een andere opgegeven tekst. |
 | [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Vervangt alle overeenkomsten van de reguliere expressie door de opgegeven string. |
-| [getSlide()](#getSlide--) | Retourneert de bovenliggende slide van een TextFrame. |
+| [getSlide()](#getSlide--) | Retourneert de bovenliggende dia van een TextFrame. |
 | [getPresentation()](#getPresentation--) | Retourneert de bovenliggende presentatie van een TextFrame. |
 | [getParentShape()](#getParentShape--) | Retourneert de bovenliggende vorm of null als het bovenliggende object de IShape-interface niet implementeert Alleen-lezen [IShape](../../com.aspose.slides/ishape). |
+| [getTextRect()](#getTextRect--) | Haalt de tekstrechthoek op die gedefinieerd wordt door de geometrie van de bovenliggende vorm. |
 | [getParentCell()](#getParentCell--) | Retourneert de bovenliggende cel of null als het bovenliggende object de ICell-interface niet implementeert. |
 
 ### getParent_Immediate() {#getParent-Immediate--}
@@ -44,7 +45,7 @@ Vertegenwoordigt een TextFrame.
 public final IDOMObject getParent_Immediate()
 ```
 
-Retourneert Parent_Immediate object. Alleen-lezen IDOMObject.
+Retourneert Parent_Immediate-object. Alleen-lezen IDOMObject.
 
 **Retourneert:**
 com.aspose.slides.IDOMObject
@@ -54,7 +55,7 @@ com.aspose.slides.IDOMObject
 public final IParagraphCollection getParagraphs()
 ```
 
-Retourneert de lijst van alle paragrafen in een frame. Alleen-lezen [IParagraphCollection](../../com.aspose.slides/iparagraphcollection).
+Retourneert de lijst met alle alinea's in een frame. Alleen-lezen [IParagraphCollection](../../com.aspose.slides/iparagraphcollection).
 
 **Retourneert:**
 [IParagraphCollection](../../com.aspose.slides/iparagraphcollection)
@@ -110,7 +111,7 @@ Biedt gemakkelijke toegang tot ingesloten hyperlinks. Alleen-lezen [IHyperlinkQu
 public final void joinPortionsWithSameFormatting()
 ```
 
-Voegt runs met dezelfde opmaak samen in alle paragrafen.
+Voegt runs met dezelfde opmaak samen in alle alinea's.
 
 ### highlightText(String text, Color highlightColor) {#highlightText-java.lang.String-java.awt.Color-}
 ```
@@ -122,7 +123,7 @@ Markeert alle overeenkomsten van de voorbeeldtekst met de opgegeven kleur.
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| text | java.lang.String | Tekstvoorbeeld om te markeren. |
+| text | java.lang.String | Voorbeeldtekst om te markeren. |
 | highlightColor | java.awt.Color | De kleur om de tekst te markeren. |
 
 ### highlightText(String text, Color highlightColor, ITextHighlightingOptions options) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-}
@@ -140,9 +141,9 @@ Markeert alle overeenkomsten van de voorbeeldtekst met de opgegeven kleur.
 >  try {
 >      TextHighlightingOptions textHighlightingOptions = new TextHighlightingOptions();
 >      textHighlightingOptions.setWholeWordsOnly(true);
->      // markeren van alle woorden 'important'
+>      // markeert alle woorden 'important'
 >      ((AutoShape)pres.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightText("title", Color.BLUE);
->      // markeren van alle afzonderlijke 'the' voorkomens
+>      // markeert alle afzonderlijke 'the' voorkomens
 >      ((AutoShape)pres.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightText("to", Color.MAGENTA, textHighlightingOptions);
 >      pres.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -154,7 +155,7 @@ Markeert alle overeenkomsten van de voorbeeldtekst met de opgegeven kleur.
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| text | java.lang.String | De tekst om te markeren. |
+| text | java.lang.String | De te markeren tekst. |
 | highlightColor | java.awt.Color | De kleur om de tekst te markeren. |
 | options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | Markeeropties. |
 
@@ -163,7 +164,7 @@ Markeert alle overeenkomsten van de voorbeeldtekst met de opgegeven kleur.
 public final String[] splitTextByColumns()
 ```
 
-Splitst de tekstinhoud van de [ITextFrame](../../com.aspose.slides/itextframe) in een array van strings, waarbij elk element overeenkomt met een aparte tekstreeks binnen het frame.
+Splitst de tekstinhoud van de [ITextFrame](../../com.aspose.slides/itextframe) in een array van strings, waarbij elk element overeenkomt met een afzonderlijke tekstkolom binnen het frame.
 
 --------------------
 
@@ -188,9 +189,7 @@ Splitst de tekstinhoud van de [ITextFrame](../../com.aspose.slides/itextframe) i
 **Retourneert:**
 java.lang.String[] - Een array van strings, waarbij elke string de tekstinhoud van een specifieke kolom in de [ITextFrame](../../com.aspose.slides/itextframe) vertegenwoordigt.
 
---------------------
-
-Als het tekstframe niet meerdere kolommen bevat, zal de geretourneerde array één element hebben dat de volledige tekst bevat. Lege kolommen worden weergegeven als lege strings in de array.
+Als het tekstframe geen meerdere kolommen bevat, zal de geretourneerde array één element bevatten met de volledige tekst. Lege kolommen worden weergegeven als lege strings in de array.
 
 ### highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
@@ -208,9 +207,9 @@ Markeert alle overeenkomsten van de voorbeeldtekst met de opgegeven kleur.
 >  try {
 >      TextSearchOptions textSearchOptions = new TextSearchOptions();
 >      textSearchOptions.setWholeWordsOnly(true);
->      // markeren van alle woorden 'important'
+>      // markeert alle woorden 'important'
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightText("important", Color.BLUE);
->      // markeren van alle afzonderlijke 'the' voorkomens
+>      // markeert alle afzonderlijke 'the' voorkomens
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightText("the", Color.MAGENTA, textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -222,7 +221,7 @@ Markeert alle overeenkomsten van de voorbeeldtekst met de opgegeven kleur.
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| text | java.lang.String | De tekst om te markeren. |
+| text | java.lang.String | De te markeren tekst. |
 | highlightColor | java.awt.Color | De kleur om de tekst te markeren. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Tekstzoekopties [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Het callback-object voor het ontvangen van zoekresultaten [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
@@ -242,7 +241,7 @@ Markeert alle overeenkomsten van de reguliere expressie met de opgegeven kleur.
 >  Presentation pres = new Presentation("SomePresentation.pptx");
 >  try {
 >      TextHighlightingOptions options = new TextHighlightingOptions();
->      // markeren van alle woorden met 10 tekens of langer
+>      // markeert alle woorden met 10 tekens of langer
 >      ((AutoShape) pres.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightRegex("\\b[^\\s){5,}\\b", Color.BLUE, options);
 >      pres.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -254,7 +253,7 @@ Markeert alle overeenkomsten van de reguliere expressie met de opgegeven kleur.
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| regex | java.lang.String | Tekst van reguliere expressie om tekst te markeren. |
+| regex | java.lang.String | Tekst van de reguliere expressie om te markeren. |
 | highlightColor | java.awt.Color | De kleur om de tekst te markeren. |
 | options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | Markeeropties. |
 
@@ -273,7 +272,7 @@ Markeert alle overeenkomsten van de reguliere expressie met de opgegeven kleur.
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      Pattern regex = Pattern.compile("\\b[^\\s]{5,}\\b");
->      // markeren van alle woorden met 5 tekens of langer
+>      // markeert alle woorden met 5 tekens of langer
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightRegex(regex, Color.BLUE, null);
 >      presentation.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -285,7 +284,7 @@ Markeert alle overeenkomsten van de reguliere expressie met de opgegeven kleur.
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | De reguliere expressie java.util.regex.Pattern om strings te markeren. |
+| regex | java.util.regex.Pattern | De reguliere expressie java.util.regex.Pattern om te markeren. |
 | highlightColor | java.awt.Color | De kleur om de tekst te markeren. |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Het callback-object voor het ontvangen van zoekresultaten [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
@@ -294,7 +293,7 @@ Markeert alle overeenkomsten van de reguliere expressie met de opgegeven kleur.
 public final void replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
-Vervangt alle voorkomen van de opgegeven tekst door een andere opgegeven tekst.
+Vervangt alle voorkomens van de opgegeven tekst door een andere opgegeven tekst.
 
 --------------------
 
@@ -318,9 +317,9 @@ Vervangt alle voorkomen van de opgegeven tekst door een andere opgegeven tekst.
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | oldText | java.lang.String | De te vervangen string. |
-| newText | java.lang.String | De string om alle voorkomen van oldText te vervangen. |
+| newText | java.lang.String | De string waarmee alle voorkomens van oldText worden vervangen. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Tekstzoekopties [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Callback-object voor het opslaan van het resultaat van de vervangingsbewerking [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Callback-object voor het opslaan van het resultaat van de vervangingsoperatie [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### replaceRegex(Pattern regex, String newText, IFindResultCallback callback) {#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-}
 ```
@@ -350,15 +349,15 @@ Vervangt alle overeenkomsten van de reguliere expressie door de opgegeven string
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | regex | java.util.regex.Pattern | De reguliere expressie java.util.regex.Pattern om te vervangen strings te verkrijgen. |
-| newText | java.lang.String | De string om alle voorkomen van te vervangen strings te vervangen. |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Callback-object voor het opslaan van het resultaat van de vervangingsbewerking [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| newText | java.lang.String | De string om alle voorkomens van te vervangen strings te vervangen. |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Callback-object voor het opslaan van het resultaat van de vervangingsoperatie [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### getSlide() {#getSlide--}
 ```
 public final IBaseSlide getSlide()
 ```
 
-Retourneert de bovenliggende slide van een TextFrame. Alleen-lezen [IBaseSlide](../../com.aspose.slides/ibaseslide).
+Retourneert de bovenliggende dia van een TextFrame. Alleen-lezen [IBaseSlide](../../com.aspose.slides/ibaseslide).
 
 **Retourneert:**
 [IBaseSlide](../../com.aspose.slides/ibaseslide)
@@ -402,12 +401,22 @@ Retourneert de bovenliggende vorm of null als het bovenliggende object de IShape
 **Retourneert:**
 [IShape](../../com.aspose.slides/ishape)
 
+### getTextRect() {#getTextRect--}
+```
+public final Rectangle2D.Float getTextRect()
+```
+
+Haalt de tekstrechthoek op die gedefinieerd wordt door de geometrie van de bovenliggende vorm.
+
+**Retourneert:**
+java.awt.geom.Rectangle2D.Float - Een java.awt.geom.Rectangle2D.Float die het tekstgebied definieert.
+
 ### getParentCell() {#getParentCell--}
 ```
 public final ICell getParentCell()
 ```
 
-Retourneert de bovenliggende cel of null als het bovenliggende object de ICell-interface niet implementeert Alleen-lezen [ICell](../../com.aspose.slides/icell).
+Retourneert de bovenliggende cel of null als het bovenliggende object de ICell-interface niet implementeert. Alleen-lezen [ICell](../../com.aspose.slides/icell).
 
 --------------------
 
@@ -426,7 +435,6 @@ Retourneert de bovenliggende cel of null als het bovenliggende object de ICell-i
 >      if (presentation != null) presentation.dispose();
 >  }
 > ```
-
 
 **Retourneert:**
 [ICell](../../com.aspose.slides/icell)

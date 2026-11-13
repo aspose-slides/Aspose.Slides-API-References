@@ -19,44 +19,46 @@ public class VideoFrame extends PictureFrame implements IVideoFrame
 
 | Метод | Описание |
 | --- | --- |
-| [getRewindVideo()](#getRewindVideo--) | Determines whether a video is automatically rewinded to start as soon as the movie has finished playing. |
-| [setRewindVideo(boolean value)](#setRewindVideo-boolean-) | Determines whether a video is automatically rewinded to start as soon as the movie has finished playing. |
-| [getPlayLoopMode()](#getPlayLoopMode--) | Determines whether a video is looped. |
-| [setPlayLoopMode(boolean value)](#setPlayLoopMode-boolean-) | Determines whether a video is looped. |
-| [getHideAtShowing()](#getHideAtShowing--) | Determines whether a VideoFrame is hidden. |
-| [setHideAtShowing(boolean value)](#setHideAtShowing-boolean-) | Determines whether a VideoFrame is hidden. |
-| [getVolume()](#getVolume--) | Returns or sets the audio volume. |
-| [setVolume(int value)](#setVolume-int-) | Returns or sets the audio volume. |
-| [getPlayMode()](#getPlayMode--) | Returns or sets the video play mode. |
-| [setPlayMode(int value)](#setPlayMode-int-) | Returns or sets the video play mode. |
-| [getFullScreenMode()](#getFullScreenMode--) | Determines whether a video is shown in full screen mode. |
-| [setFullScreenMode(boolean value)](#setFullScreenMode-boolean-) | Determines whether a video is shown in full screen mode. |
-| [getLinkPathLong()](#getLinkPathLong--) | Returns or sets the name of an video file which is linked to a VideoFrame. |
-| [setLinkPathLong(String value)](#setLinkPathLong-java.lang.String-) | Returns or sets the name of an video file which is linked to a VideoFrame. |
-| [getEmbeddedVideo()](#getEmbeddedVideo--) | Returns or sets embedded video object. |
-| [setEmbeddedVideo(IVideo value)](#setEmbeddedVideo-com.aspose.slides.IVideo-) | Returns or sets embedded video object. |
-| [getTrimFromStart()](#getTrimFromStart--) | Trim start [ms] |
-| [setTrimFromStart(float value)](#setTrimFromStart-float-) | Trim start [ms] |
-| [getTrimFromEnd()](#getTrimFromEnd--) | Trim end [ms] |
-| [setTrimFromEnd(float value)](#setTrimFromEnd-float-) | Trim end [ms] |
-| [getCaptionTracks()](#getCaptionTracks--) | Gets the collection of closed captions associated with the video frame. |
+| [getRewindVideo()](#getRewindVideo--) | Определяет, автоматически ли видео перематывается к началу сразу после завершения воспроизведения. |
+| [setRewindVideo(boolean value)](#setRewindVideo-boolean-) | Определяет, автоматически ли видео перематывается к началу сразу после завершения воспроизведения. |
+| [getPlayLoopMode()](#getPlayLoopMode--) | Определяет, зациклен ли видео. |
+| [setPlayLoopMode(boolean value)](#setPlayLoopMode-boolean-) | Определяет, зациклен ли видео. |
+| [getHideAtShowing()](#getHideAtShowing--) | Определяет, скрыт ли VideoFrame. |
+| [setHideAtShowing(boolean value)](#setHideAtShowing-boolean-) | Определяет, скрыт ли VideoFrame. |
+| [getVolume()](#getVolume--) | Возвращает или задает громкость аудио. |
+| [setVolume(int value)](#setVolume-int-) | Возвращает или задает громкость аудио. |
+| [getVolumeValue()](#getVolumeValue--) | Возвращает или задает точный уровень громкости видео в процентах. |
+| [setVolumeValue(float value)](#setVolumeValue-float-) | Возвращает или задает точный уровень громкости видео в процентах. |
+| [getPlayMode()](#getPlayMode--) | Возвращает или задает режим воспроизведения видео. |
+| [setPlayMode(int value)](#setPlayMode-int-) | Возвращает или задает режим воспроизведения видео. |
+| [getFullScreenMode()](#getFullScreenMode--) | Определяет, отображается ли видео в полноэкранном режиме. |
+| [setFullScreenMode(boolean value)](#setFullScreenMode-boolean-) | Определяет, отображается ли видео в полноэкранном режиме. |
+| [getLinkPathLong()](#getLinkPathLong--) | Возвращает или задает имя видеофайла, связанного с VideoFrame. |
+| [setLinkPathLong(String value)](#setLinkPathLong-java.lang.String-) | Возвращает или задает имя видеофайла, связанного с VideoFrame. |
+| [getEmbeddedVideo()](#getEmbeddedVideo--) | Возвращает или задает встроенный видеообъект. |
+| [setEmbeddedVideo(IVideo value)](#setEmbeddedVideo-com.aspose.slides.IVideo-) | Возвращает или задает встроенный видеообъект. |
+| [getTrimFromStart()](#getTrimFromStart--) | Обрезка начала [ms] |
+| [setTrimFromStart(float value)](#setTrimFromStart-float-) | Обрезка начала [ms] |
+| [getTrimFromEnd()](#getTrimFromEnd--) | Обрезка конца [ms] |
+| [setTrimFromEnd(float value)](#setTrimFromEnd-float-) | Обрезка конца [ms] |
+| [getCaptionTracks()](#getCaptionTracks--) | Получает коллекцию закрытых подписей, связанных с видеокадром. |
+
 ### getRewindVideo() {#getRewindVideo--}
 ```
 public final boolean getRewindVideo()
 ```
 
-
-Определяет, будет ли видео автоматически перемотано в начало сразу после завершения воспроизведения. Чтение/запись boolean.
+Определяет, автоматически ли видео перематывается к началу сразу после завершения воспроизведения. Чтение/запись boolean.
 
 **Возвращает:**
 boolean
+
 ### setRewindVideo(boolean value) {#setRewindVideo-boolean-}
 ```
 public final void setRewindVideo(boolean value)
 ```
 
-
-Определяет, будет ли видео автоматически перемотано в начало сразу после завершения воспроизведения. Чтение/запись boolean.
+Определяет, автоматически ли видео перематывается к началу сразу после завершения воспроизведения. Чтение/запись boolean.
 
 **Параметры:**
 | Параметр | Тип | Описание |
@@ -68,18 +70,17 @@ public final void setRewindVideo(boolean value)
 public final boolean getPlayLoopMode()
 ```
 
-
-Определяет, будет ли видео воспроизводиться в цикле. Чтение/запись boolean.
+Определяет, зациклен ли видео. Чтение/запись boolean.
 
 **Возвращает:**
 boolean
+
 ### setPlayLoopMode(boolean value) {#setPlayLoopMode-boolean-}
 ```
 public final void setPlayLoopMode(boolean value)
 ```
 
-
-Определяет, будет ли видео воспроизводиться в цикле. Чтение/запись boolean.
+Определяет, зациклен ли видео. Чтение/запись boolean.
 
 **Параметры:**
 | Параметр | Тип | Описание |
@@ -91,16 +92,15 @@ public final void setPlayLoopMode(boolean value)
 public final boolean getHideAtShowing()
 ```
 
-
 Определяет, скрыт ли VideoFrame. Чтение/запись boolean.
 
 **Возвращает:**
 boolean
+
 ### setHideAtShowing(boolean value) {#setHideAtShowing-boolean-}
 ```
 public final void setHideAtShowing(boolean value)
 ```
-
 
 Определяет, скрыт ли VideoFrame. Чтение/запись boolean.
 
@@ -114,16 +114,15 @@ public final void setHideAtShowing(boolean value)
 public final int getVolume()
 ```
 
-
 Возвращает или задает громкость аудио. Чтение/запись [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
 
 **Возвращает:**
 int
+
 ### setVolume(int value) {#setVolume-int-}
 ```
 public final void setVolume(int value)
 ```
-
 
 Возвращает или задает громкость аудио. Чтение/запись [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
 
@@ -132,21 +131,79 @@ public final void setVolume(int value)
 | --- | --- | --- |
 | value | int |  |
 
+### getVolumeValue() {#getVolumeValue--}
+```
+public final float getVolumeValue()
+```
+
+Возвращает или задает точный уровень громкости видео в процентах. Значение выражается в процентах от 0 до 100. Используйте это свойство для чтения или установки более точных значений громкости, чем предопределённые уровни, доступные через свойство \#getVolume.getVolume/\#setVolume(int).setVolume(int). Чтение/запись float.
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video.pptx");
+>  try {
+>      IVideoFrame videoFrame = (IVideoFrame)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // Прочитать текущий точный уровень громкости и установить его на 75,5 процента.
+>      float currentVolume = videoFrame.getVolumeValue();
+>      System.out.println(currentVolume);
+>      videoFrame.setVolumeValue(75.5f);
+>      pres.save("video_with_volume.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Возвращает:**
+float
+
+### setVolumeValue(float value) {#setVolumeValue-float-}
+```
+public final void setVolumeValue(float value)
+```
+
+Возвращает или задает точный уровень громкости видео в процентах. Значение выражается в процентах от 0 до 100. Используйте это свойство для чтения или установки более точных значений громкости, чем предопределённые уровни, доступные через свойство \#getVolume.getVolume/\#setVolume(int).setVolume(int). Чтение/запись float.
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video.pptx");
+>  try {
+>      IVideoFrame videoFrame = (IVideoFrame)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // Прочитать текущий точный уровень громкости и установить его на 75,5 процента.
+>      float currentVolume = videoFrame.getVolumeValue();
+>      System.out.println(currentVolume);
+>      videoFrame.setVolumeValue(75.5f);
+>      pres.save("video_with_volume.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Параметры:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| value | float |  |
+
 ### getPlayMode() {#getPlayMode--}
 ```
 public final int getPlayMode()
 ```
 
-
 Возвращает или задает режим воспроизведения видео. Чтение/запись [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
 
 **Возвращает:**
 int
+
 ### setPlayMode(int value) {#setPlayMode-int-}
 ```
 public final void setPlayMode(int value)
 ```
-
 
 Возвращает или задает режим воспроизведения видео. Чтение/запись [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
 
@@ -160,18 +217,17 @@ public final void setPlayMode(int value)
 public final boolean getFullScreenMode()
 ```
 
-
-Определяет, показывается ли видео в полноэкранном режиме. Чтение/запись boolean.
+Определяет, отображается ли видео в полноэкранном режиме. Чтение/запись boolean.
 
 **Возвращает:**
 boolean
+
 ### setFullScreenMode(boolean value) {#setFullScreenMode-boolean-}
 ```
 public final void setFullScreenMode(boolean value)
 ```
 
-
-Определяет, показывается ли видео в полноэкранном режиме. Чтение/запись boolean.
+Определяет, отображается ли видео в полноэкранном режиме. Чтение/запись boolean.
 
 **Параметры:**
 | Параметр | Тип | Описание |
@@ -183,16 +239,15 @@ public final void setFullScreenMode(boolean value)
 public final String getLinkPathLong()
 ```
 
-
 Возвращает или задает имя видеофайла, связанного с VideoFrame. Чтение/запись String.
 
 **Возвращает:**
 java.lang.String
+
 ### setLinkPathLong(String value) {#setLinkPathLong-java.lang.String-}
 ```
 public final void setLinkPathLong(String value)
 ```
-
 
 Возвращает или задает имя видеофайла, связанного с VideoFrame. Чтение/запись String.
 
@@ -206,18 +261,17 @@ public final void setLinkPathLong(String value)
 public final IVideo getEmbeddedVideo()
 ```
 
-
-Возвращает или задает встроенный объект видео. Чтение/запись [IVideo](../../com.aspose.slides/ivideo).
+Возвращает или задает встроенный видеообъект. Чтение/запись [IVideo](../../com.aspose.slides/ivideo).
 
 **Возвращает:**
 [IVideo](../../com.aspose.slides/ivideo)
+
 ### setEmbeddedVideo(IVideo value) {#setEmbeddedVideo-com.aspose.slides.IVideo-}
 ```
 public final void setEmbeddedVideo(IVideo value)
 ```
 
-
-Возвращает или задает встроенный объект видео. Чтение/запись [IVideo](../../com.aspose.slides/ivideo).
+Возвращает или задает встроенный видеообъект. Чтение/запись [IVideo](../../com.aspose.slides/ivideo).
 
 **Параметры:**
 | Параметр | Тип | Описание |
@@ -229,8 +283,7 @@ public final void setEmbeddedVideo(IVideo value)
 public final float getTrimFromStart()
 ```
 
-
-Обрезка начала [мс]
+Обрезка начала [ms]
 
 --------------------
 
@@ -251,16 +304,15 @@ public final float getTrimFromStart()
 >  }
 > ```
 
-
 **Возвращает:**
 float
+
 ### setTrimFromStart(float value) {#setTrimFromStart-float-}
 ```
 public final void setTrimFromStart(float value)
 ```
 
-
-Обрезка начала [мс]
+Обрезка начала [ms]
 
 --------------------
 
@@ -280,7 +332,6 @@ public final void setTrimFromStart(float value)
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-
 
 **Параметры:**
 | Параметр | Тип | Описание |
@@ -292,18 +343,17 @@ public final void setTrimFromStart(float value)
 public final float getTrimFromEnd()
 ```
 
-
-Обрезка конца [мс]
+Обрезка конца [ms]
 
 **Возвращает:**
 float
+
 ### setTrimFromEnd(float value) {#setTrimFromEnd-float-}
 ```
 public final void setTrimFromEnd(float value)
 ```
 
-
-Обрезка конца [мс]
+Обрезка конца [ms]
 
 **Параметры:**
 | Параметр | Тип | Описание |
@@ -315,8 +365,7 @@ public final void setTrimFromEnd(float value)
 public final ICaptionsCollection getCaptionTracks()
 ```
 
-
-Возвращает коллекцию закрытых субтитров, связанных с видеокадром. Это свойство только для чтения и возвращает [ICaptionsCollection](../../com.aspose.slides/icaptionscollection), содержащий все дорожки субтитров.
+Получает коллекцию закрытых подписей, связанных с видеокадром. Это свойство только для чтения и возвращает [ICaptionsCollection](../../com.aspose.slides/icaptionscollection), содержащий все дорожки подписей.
 
 --------------------
 
@@ -342,7 +391,6 @@ public final ICaptionsCollection getCaptionTracks()
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-
 
 **Возвращает:**
 [ICaptionsCollection](../../com.aspose.slides/icaptionscollection)

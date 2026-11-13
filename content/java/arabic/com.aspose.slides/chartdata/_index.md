@@ -1,50 +1,51 @@
 ---
 title: ChartData
-second_title: مرجع API ل Aspose.Slides للغة Java
-description: يمثل البيانات المستخدمة في رسم المخطط.
+second_title: مرجع واجهة برمجة التطبيقات Aspose.Slides للـ Java
+description: يمثل البيانات المستخدمة لرسم المخطط.
 type: docs
 url: /ar/com.aspose.slides/chartdata/
 ---
-**التورّث:**
+**الوراثة:**
 java.lang.Object, com.aspose.slides.DomObject
 
-**جميع الواجهات المنفذة:**
+**جميع الواجهات المُنفذة:**
 [com.aspose.slides.IChartData](../../com.aspose.slides/ichartdata)
 ```
 public class ChartData extends DomObject<Chart> implements IChartData
 ```
 
-يمثل البيانات المستخدمة لرسم مخطط.
+يمثل البيانات المستخدمة لرسم المخطط.
 ## الطرق
 
-| Method | Description |
+| الطريقة | الوصف |
 | --- | --- |
-| [getChartDataWorkbook()](#getChartDataWorkbook--) | يحصل على مصنع الخلايا لإنشاء خلايا تُستخدم في سلاسل المخطط أو الفئات. |
+| [getChartDataWorkbook()](#getChartDataWorkbook--) | يحصل على مصنع الخلايا لإنشاء الخلايا المستخدمة لسلسلة المخطط أو الفئات. |
 | [getSeries()](#getSeries--) | يحصل على السلاسل. |
 | [getSeriesGroups()](#getSeriesGroups--) | يحصل على مجموعات السلاسل. |
-| [getCategories()](#getCategories--) | يحصل على الفئات الأساسية (أو كل من الفئات الأساسية والثانوية إذا كانت خاصية #getUseSecondaryCategories.getUseSecondaryCategories/#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) قيمتها false). |
-| [getUseSecondaryCategories()](#getUseSecondaryCategories--) | إذا كانت false فإن خاصية #getSecondaryCategories.getSecondaryCategories تُرجع null وتُستخدم البيانات في خاصية #getCategories.getCategories لكلا السلسلتين الأساسية والثانوية. |
-| [setUseSecondaryCategories(boolean value)](#setUseSecondaryCategories-boolean-) | إذا كانت false فإن خاصية #getSecondaryCategories.getSecondaryCategories تُرجع null وتُستخدم البيانات في خاصية #getCategories.getCategories لكلا السلسلتين الأساسية والثانوية. |
-| [getSecondaryCategories()](#getSecondaryCategories--) | يحصل على الفئات الثانوية إذا كانت خاصية #getUseSecondaryCategories.getUseSecondaryCategories/#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) قيمتها true. |
-| [readWorkbookStream()](#readWorkbookStream--) | يكتب دفتر عمل Excel المتضمن داخليًا إلى تدفق في الذاكرة. |
-| [writeWorkbookStream(byte[] ms)](#writeWorkbookStream-byte---) | يُهيئ دفتر عمل Excel المتضمن داخليًا بالقيمة المحددة من قبل المستخدم. |
+| [getCategories()](#getCategories--) | يحصل على الفئات الأساسية (أو كل من الفئات الأساسية والثانوية إذا كانت الخاصية \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) مساوية لـ false). |
+| [getUseSecondaryCategories()](#getUseSecondaryCategories--) | إذا كان false فإن الخاصية \#getSecondaryCategories.getSecondaryCategories تُعيد null وتُستخدم البيانات في الخاصية \#getCategories.getCategories لكل من السلاسل الأساسية والثانوية. |
+| [setUseSecondaryCategories(boolean value)](#setUseSecondaryCategories-boolean-) | إذا كان false فإن الخاصية \#getSecondaryCategories.getSecondaryCategories تُعيد null وتُستخدم البيانات في الخاصية \#getCategories.getCategories لكل من السلاسل الأساسية والثانوية. |
+| [getSecondaryCategories()](#getSecondaryCategories--) | يحصل على الفئات الثانوية إذا كانت الخاصية \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) مساوية لـ true. |
+| [readWorkbookStream()](#readWorkbookStream--) | يكتب دفتر العمل Excel الداخلي إلى تدفق في الذاكرة. |
+| [writeWorkbookStream(byte[] ms)](#writeWorkbookStream-byte---) | يجهز دفتر العمل Excel الداخلي بقيمة محددة من قبل المستخدم. |
 | [getDataSourceType()](#getDataSourceType--) | يمثل مسار دفتر العمل الخارجي إذا كان مصدر البيانات خارجيًا، وإلا null. |
 | [getExternalWorkbookPath()](#getExternalWorkbookPath--) | يمثل مصدر بيانات المخطط. |
 | [getEmbeddedWorkbookType()](#getEmbeddedWorkbookType--) | يحصل على نوع دفتر العمل المضمن. |
 | [getRange()](#getRange--) | يحصل على نطاق بيانات المخطط. |
 | [setRange(String formula)](#setRange-java.lang.String-) | يضبط نطاق بيانات المخطط. |
-| [setExternalWorkbook(String workbookPath)](#setExternalWorkbook-java.lang.String-) | يضبط دفتر العمل الخارجي كمصدر بيانات للمخطط. |
-| [setExternalWorkbook(String workbookPath, boolean updateChartData)](#setExternalWorkbook-java.lang.String-boolean-) | يضبط دفتر العمل الخارجي كمصدر بيانات للمخطط. |
-| [switchRowColumn()](#switchRowColumn--) | يبدّل البيانات على المحور. |
+| [setExternalWorkbook(String workbookPath)](#setExternalWorkbook-java.lang.String-) | يعين دفتر العمل الخارجي كمصدر بيانات للمخطط. |
+| [setExternalWorkbook(String workbookPath, boolean updateChartData)](#setExternalWorkbook-java.lang.String-boolean-) | يعين دفتر العمل الخارجي كمصدر بيانات للمخطط. |
+| [refreshData()](#refreshData--) | يقوم بتحديث بيانات المخطط بإعادة تحميلها من دفتر العمل المصدر. |
+| [switchRowColumn()](#switchRowColumn--) | تبديل البيانات عبر المحور. |
 
 ### getChartDataWorkbook() {#getChartDataWorkbook--}
 ```
 public final IChartDataWorkbook getChartDataWorkbook()
 ```
 
-يحصل على مصنع الخلايا لإنشاء خلايا تُستخدم في سلاسل المخطط أو الفئات. قراءة فقط [IChartDataWorkbook](../../com.aspose.slides/ichartdataworkbook).
+يستعيد مصنع الخلايا لإنشاء الخلايا المستخدمة لسلسلة المخطط أو الفئات. للقراءة فقط [IChartDataWorkbook](../../com.aspose.slides/ichartdataworkbook).
 
-**الإرجاع:**
+**القيمة المرجعة:**
 [IChartDataWorkbook](../../com.aspose.slides/ichartdataworkbook)
 
 ### getSeries() {#getSeries--}
@@ -52,9 +53,9 @@ public final IChartDataWorkbook getChartDataWorkbook()
 public final IChartSeriesCollection getSeries()
 ```
 
-يحصل على السلاسل. قراءة فقط [IChartSeriesCollection](../../com.aspose.slides/ichartseriescollection).
+يحصل على السلسلة. للقراءة فقط [IChartSeriesCollection](../../com.aspose.slides/ichartseriescollection).
 
-**الإرجاع:**
+**القيمة المرجعة:**
 [IChartSeriesCollection](../../com.aspose.slides/ichartseriescollection)
 
 ### getSeriesGroups() {#getSeriesGroups--}
@@ -62,13 +63,13 @@ public final IChartSeriesCollection getSeries()
 public final IChartSeriesGroupCollection getSeriesGroups()
 ```
 
-يحصل على مجموعات السلاسل. قراءة فقط [IChartSeriesGroupCollection](../../com.aspose.slides/ichartseriesgroupcollection).
+يحصل على مجموعات السلاسل. للقراءة فقط [IChartSeriesGroupCollection](../../com.aspose.slides/ichartseriesgroupcollection).
 
 --------------------
 
-1) كل مجموعة من السلاسل تحتوي على سلاسل بأنواع يمكن دمجها. تم تعريف مجموعات أنواع السلاسل القابلة للدمج وتوضيحها باستخدام تعداد CombinableSeriesTypesGroup. أيضًا كل مجموعة من السلاسل تحتوي على سلاسل تُرسم إما على المحاور الأساسية أو على المحاور الثانوية (ليس كلا الحالتين في مجموعة واحدة). وبالتالي مبدأ تجميع السلاسل هو التجميع حسب مجموعات الأنواع المذكورة أعلاه وحسب نوع الرسم الأساسي/الثانوي. 2) مجموعة السلاسل تحتوي على بعض خصائص السلسلة التي تُشترك بينها جميع السلاسل في المجموعة ("خصائص مجموعة السلسلة"). "خصائص مجموعة السلسلة" في الفئة ChartSeriesGroup هي قراءة/كتابة. كل من "خصائص مجموعة السلسلة" يمكن أن يكون لها نسخة قراءة فقط في الفئة ChartSeries.
+1) كل مجموعة من السلاسل تحتوي على سلاسل بأنواع قابلة للجمع. تُعرّف مجموعات الأنواع القابلة للجمع وتُوصف باستخدام تعداد CombinableSeriesTypesGroup. كما أن كل مجموعة من السلاسل تحتوي على سلاسل تُرسم إما على المحاور الأساسية أو على المحاور الثانوية (ليس كلا الحالتين في مجموعة واحدة). لذا، مبدأ تجميع السلاسل هو التجميع حسب مجموعات الأنواع المذكورة أعلاه وحسب نوع الرسم الأساسي/الثانوي. 2) مجموعة السلاسل تحتوي على بعض خصائص السلاسل التي تكون مشتركة لكل سلسلة في المجموعة ("خصائص مجموعة السلسلة"). "خصائص مجموعة السلسلة" في فئة ChartSeriesGroup هي قابل للقراءة والكتابة. كل واحدة من "خصائص مجموعة السلسلة" يمكن أن يكون لها تمثيل للقراءة فقط في فئة ChartSeries.
 
-**الإرجاع:**
+**القيمة المرجعة:**
 [IChartSeriesGroupCollection](../../com.aspose.slides/ichartseriesgroupcollection)
 
 ### getCategories() {#getCategories--}
@@ -76,12 +77,12 @@ public final IChartSeriesGroupCollection getSeriesGroups()
 public final IChartCategoryCollection getCategories()
 ```
 
-يحصل على الفئات الأساسية (أو كل من الفئات الأساسية والثانوية إذا كانت خاصية #getUseSecondaryCategories.getUseSecondaryCategories/#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) قيمتها false). قراءة فقط [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection).
+يحصل على الفئات الأساسية (أو كل من الفئات الأساسية والثانوية إذا كانت الخاصية \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) مساوية لـ false). للقراءة فقط [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection).
 
 --------------------
 
 > ```
-> Example. What categories are related to series - ChartData.getCategories() or ChartData.getSecondaryCategories()?
+> مثال. ما الفئات المرتبطة بالسلسلة - ChartData.getCategories() أو ChartData.getSecondaryCategories()؟
 >  
 >  if (series.getPlotOnSecondAxis() && series.getChart().getChartData().getUseSecondaryCategories())
 >  {
@@ -93,11 +94,10 @@ public final IChartCategoryCollection getCategories()
 >  }
 > ```
 
---------------------
 
-إذا كانت خاصية #getUseSecondaryCategories.getUseSecondaryCategories/#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) قيمتها false، فإن خاصية (#getSecondaryCategories.getSecondaryCategories) تُرجع null وتُستخدم البيانات في خاصية #getCategories.getCategories لكلٍ من السلاسل الأساسية والثانوية. إذا كانت الخاصية قيمتها true، فإن البيانات في خاصية (#getSecondaryCategories.getSecondaryCategories) تُستخدم للسلاسل الثانوية والبيانات في خاصية #getCategories.getCategories تُستخدم للسلاسل الأساسية.
+إذا كانت الخاصية \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) مساوية لـ false فإن الخاصية (\#getSecondaryCategories.getSecondaryCategories) تُعيد null وتُستخدم البيانات في الخاصية \#getCategories.getCategories لكل من السلاسل الأساسية والثانوية. إذا كانت الخاصية \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) مساوية لـ true فإن البيانات في الخاصية (\#getSecondaryCategories.getSecondaryCategories) تُستخدم للسلاسل الثانوية والبيانات في الخاصية \#getCategories.getCategories تُستخدم للسلاسل الأساسية.
 
-**الإرجاع:**
+**القيمة المرجعة:**
 [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection)
 
 ### getUseSecondaryCategories() {#getUseSecondaryCategories--}
@@ -105,12 +105,12 @@ public final IChartCategoryCollection getCategories()
 public final boolean getUseSecondaryCategories()
 ```
 
-إذا كانت false فإن خاصية #getSecondaryCategories.getSecondaryCategories تُرجع null وتُستخدم البيانات في خاصية #getCategories.getCategories لكلٍ من السلاسل الأساسية والثانوية. إذا كانت true فإن البيانات في خاصية #getSecondaryCategories.getSecondaryCategories تُستخدم للسلاسل الثانوية والبيانات في خاصية #getCategories.getCategories تُستخدم للسلاسل الأساسية. قراءة/كتابة boolean.
+إذا كان false فإن الخاصية \#getSecondaryCategories.getSecondaryCategories تُعيد null وتُستخدم البيانات في الخاصية \#getCategories.getCategories لكل من السلاسل الأساسية والثانوية. إذا كان true فإن البيانات في الخاصية \#getSecondaryCategories.getSecondaryCategories تُستخدم للسلاسل الثانوية والبيانات في الخاصية \#getCategories.getCategories تُستخدم للسلاسل الأساسية. قابل للقراءة والكتابة من نوع boolean.
 
 --------------------
 
 > ```
-> Example. What categories are related to series - ChartData.getCategories() or ChartData.getSecondaryCategories()?
+> مثال. ما الفئات المرتبطة بالسلسلة - ChartData.getCategories() أو ChartData.getSecondaryCategories()?
 >  
 >  if (series.getPlotOnSecondAxis() && series.getChart().getChartData().getUseSecondaryCategories())
 >  {
@@ -122,7 +122,7 @@ public final boolean getUseSecondaryCategories()
 >  }
 > ```
 
-**الإرجاع:**
+**القيمة المرجعة:**
 boolean
 
 ### setUseSecondaryCategories(boolean value) {#setUseSecondaryCategories-boolean-}
@@ -130,12 +130,12 @@ boolean
 public final void setUseSecondaryCategories(boolean value)
 ```
 
-إذا كانت false فإن خاصية #getSecondaryCategories.getSecondaryCategories تُرجع null وتُستخدم البيانات في خاصية #getCategories.getCategories لكلٍ من السلاسل الأساسية والثانوية. إذا كانت true فإن البيانات في خاصية #getSecondaryCategories.getSecondaryCategories تُستخدم للسلاسل الثانوية والبيانات في خاصية #getCategories.getCategories تُستخدم للسلاسل الأساسية. قراءة/كتابة boolean.
+إذا كان false فإن الخاصية \#getSecondaryCategories.getSecondaryCategories تُعيد null وتُستخدم البيانات في الخاصية \#getCategories.getCategories لكل من السلاسل الأساسية والثانوية. إذا كان true فإن البيانات في الخاصية \#getSecondaryCategories.getSecondaryCategories تُستخدم للسلاسل الثانوية والبيانات في الخاصية \#getCategories.getCategories تُستخدم للسلاسل الأساسية. قابل للقراءة والكتابة من نوع boolean.
 
 --------------------
 
 > ```
-> Example. What categories are related to series - ChartData.getCategories() or ChartData.getSecondaryCategories()?
+> مثال. ما الفئات المرتبطة بالسلسلة - ChartData.getCategories() أو ChartData.getSecondaryCategories()؟
 >  
 >  if (series.getPlotOnSecondAxis() && series.getChart().getChartData().getUseSecondaryCategories())
 >  {
@@ -147,7 +147,7 @@ public final void setUseSecondaryCategories(boolean value)
 >  }
 > ```
 
-**المعاملات:**
+**المعلمات:**
 | المعامل | النوع | الوصف |
 | --- | --- | --- |
 | value | boolean |  |
@@ -157,12 +157,12 @@ public final void setUseSecondaryCategories(boolean value)
 public final IChartCategoryCollection getSecondaryCategories()
 ```
 
-يحصل على الفئات الثانوية إذا كانت خاصية #getUseSecondaryCategories.getUseSecondaryCategories/#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) قيمتها true. قراءة فقط [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection).
+يحصل على الفئات الثانوية إذا كانت الخاصية \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) مساوية لـ true. للقراءة فقط [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection).
 
 --------------------
 
 > ```
-> Example. What categories are related to series - ChartData.getCategories() or ChartData.getSecondaryCategories()?
+> مثال. ما الفئات المرتبطة بالسلسلة - ChartData.getCategories() أو ChartData.getSecondaryCategories()?
 >  
 >  if (series.getPlotOnSecondAxis() && series.getChart().getChartData().getUseSecondaryCategories())
 >  {
@@ -174,11 +174,10 @@ public final IChartCategoryCollection getSecondaryCategories()
 >  }
 > ```
 
---------------------
 
-إذا كانت خاصية #getUseSecondaryCategories.getUseSecondaryCategories/#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) قيمتها false، فإن خاصية (#getSecondaryCategories.getSecondaryCategories) تُرجع null وتُستخدم البيانات في خاصية #getCategories.getCategories لكلٍ من السلاسل الأساسية والثانوية. إذا كانت الخاصية قيمتها true، فإن البيانات في خاصية #getSecondaryCategories.getSecondaryCategories تُستخدم للسلاسل الثانوية والبيانات في خاصية #getCategories.getCategories تُستخدم للسلاسل الأساسية.
+إذا كانت الخاصية \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) مساوية لـ false فإن الخاصية (\#getSecondaryCategories.getSecondaryCategories) تُعيد null وتُستخدم البيانات في \#getCategories.getCategories لكل من السلاسل الأساسية والثانوية. إذا كانت الخاصية \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) مساوية بـ true فإن البيانات في الخاصية \#getSecondaryCategories.getSecondaryCategories تُستخدم للسلاسل الثانوية والبيانات في \#getCategories.getCategories تُستخدم للسلاسل الأساسية.
 
-**الإرجاع:**
+**القيمة المرجعة:**
 [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection)
 
 ### readWorkbookStream() {#readWorkbookStream--}
@@ -186,22 +185,22 @@ public final IChartCategoryCollection getSecondaryCategories()
 public final byte[] readWorkbookStream()
 ```
 
-يكتب دفتر عمل Excel المتضمن داخليًا إلى تدفق في الذاكرة.
+يكتب دفتر العمل Excel الداخلي إلى تدفق في الذاكرة.
 
-**الإرجاع:**
-byte[] - إرجاع مثيل من مصفوفة بايت تحتوي على نسخة من دفتر عمل Excel المتضمن داخليًا.
+**القيمة المرجعة:**
+byte[] - يُعيد كائن من مصفوفة بايت يحتوي على نسخة من دفتر العمل Excel الداخلي.
 
 ### writeWorkbookStream(byte[] ms) {#writeWorkbookStream-byte---}
 ```
 public final void writeWorkbookStream(byte[] ms)
 ```
 
-يُهيئ دفتر عمل Excel المتضمن داخليًا بالقيمة المحددة من قبل المستخدم.
+يمهد دفتر العمل Excel الداخلي بقيمة محددة من قبل المستخدم.
 
-**المعاملات:**
+**المعلمات:**
 | المعامل | النوع | الوصف |
 | --- | --- | --- |
-| ms | byte[] | تيار المستخدم الذي يحتوي على دفتر عمل Excel بالكامل. |
+| ms | byte[] | التدفق المقدم من قبل المستخدم والذي يحتوي على دفتر العمل Excel بالكامل. |
 
 ### getDataSourceType() {#getDataSourceType--}
 ```
@@ -210,7 +209,7 @@ public final int getDataSourceType()
 
 يمثل مسار دفتر العمل الخارجي إذا كان مصدر البيانات خارجيًا، وإلا null.
 
-**الإرجاع:**
+**القيمة المرجعة:**
 int
 
 ### getExternalWorkbookPath() {#getExternalWorkbookPath--}
@@ -220,7 +219,7 @@ public final String getExternalWorkbookPath()
 
 يمثل مصدر بيانات المخطط.
 
-**الإرجاع:**
+**القيمة المرجعة:**
 java.lang.String
 
 ### getEmbeddedWorkbookType() {#getEmbeddedWorkbookType--}
@@ -228,9 +227,9 @@ java.lang.String
 public final int getEmbeddedWorkbookType()
 ```
 
-يحصل على نوع دفتر العمل المضمن. إرجاع [WorkbookType.NotDefined](../../com.aspose.slides/workbooktype\#NotDefined) إذا كان DataSourceType (#getDataSourceType.getDataSourceType) هو [ChartDataSourceType.ExternalWorkbook](../../com.aspose.slides/chartdatasourcetype\#ExternalWorkbook). قراءة فقط [WorkbookType](../../com.aspose.slides/workbooktype).
+يحصل على نوع دفتر العمل المضمن. يُعيد [WorkbookType.NotDefined](../../com.aspose.slides/workbooktype\#NotDefined) إذا كان DataSourceType (\#getDataSourceType.getDataSourceType) هو [ChartDataSourceType.ExternalWorkbook](../../com.aspose.slides/chartdatasourcetype\#ExternalWorkbook). للقراءة فقط [WorkbookType](../../com.aspose.slides/workbooktype).
 
-**الإرجاع:**
+**القيمة المرجعة:**
 int
 
 ### getRange() {#getRange--}
@@ -252,7 +251,7 @@ public final String getRange()
 >   }
 > ```
 
-**الإرجاع:**
+**القيمة المرجعة:**
 java.lang.String - صيغة نطاق بيانات الخلايا. مثال: "Sheet1!$A$1:$C$4"
 
 ### setRange(String formula) {#setRange-java.lang.String-}
@@ -260,19 +259,19 @@ java.lang.String - صيغة نطاق بيانات الخلايا. مثال: "She
 public final void setRange(String formula)
 ```
 
-يضبط نطاق بيانات المخطط. سيتم تحديث السلاسل والفئات بناءً على نطاق البيانات الجديد. إذا كان عدد السلاسل في نطاق البيانات أكبر من عدد السلاسل في بيانات المخطط، فستضاف سلاسل إضافية من نفس نوع السلسلة الأخيرة في المجموعة الحالية إلى نهاية المجموعة.
+يضبط نطاق بيانات المخطط. سيتم تحديث السلاسل والفئات بناءً على النطاق الجديد. إذا كان عدد السلاسل في نطاق البيانات أكبر من عدد السلاسل في بيانات المخطط، فسيتم إضافة سلاسل إضافية من نفس نوع السلسلة الأخيرة في المجموعة الحالية إلى نهاية المجموعة.
 
-**المعاملات:**
+**المعلمات:**
 | المعامل | النوع | الوصف |
 | --- | --- | --- |
-| formula | java.lang.String | صيغة نطاق بيانات الخلايا. مثال: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
+| formula | java.lang.String | صيغة نطاق بيانات الخلايا. مثال: "Sheet1!$A$1:$C$4" ، "SomeSheetName!A1:B100" ، "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
 
 ### setExternalWorkbook(String workbookPath) {#setExternalWorkbook-java.lang.String-}
 ```
 public final void setExternalWorkbook(String workbookPath)
 ```
 
-يضبط دفتر العمل الخارجي كمصدر بيانات للمخطط. سيتم تحديث بيانات المخطط من دفتر العمل الهدف.
+يعين دفتر العمل الخارجي كمصدر بيانات للمخطط. سيتم تحديث بيانات المخطط من دفتر العمل الهدف.
 
 --------------------
 
@@ -288,7 +287,7 @@ public final void setExternalWorkbook(String workbookPath)
 >  }
 > ```
 
-**المعاملات:**
+**المعلمات:**
 | المعامل | النوع | الوصف |
 | --- | --- | --- |
 | workbookPath | java.lang.String | مسار دفتر العمل الهدف |
@@ -298,7 +297,7 @@ public final void setExternalWorkbook(String workbookPath)
 public final void setExternalWorkbook(String workbookPath, boolean updateChartData)
 ```
 
-يضبط دفتر العمل الخارجي كمصدر بيانات للمخطط.
+يعين دفتر العمل الخارجي كمصدر بيانات للمخطط.
 
 --------------------
 
@@ -314,15 +313,34 @@ public final void setExternalWorkbook(String workbookPath, boolean updateChartDa
 >  }
 > ```
 
-**المعاملات:**
+**المعلمات:**
 | المعامل | النوع | الوصف |
 | --- | --- | --- |
 | workbookPath | java.lang.String | مسار دفتر العمل الهدف |
-| updateChartData | boolean | إذا كانت القيمة false سيتم تحديث مسار دفتر العمل فقط. لن يتم تحميل وتحديث بيانات المخطط من دفتر العمل الهدف. يمكن استخدام ذلك عندما لا يوجد دفتر العمل الهدف أو غير متاح. إذا كانت القيمة true سيتم تحديث بيانات المخطط من دفتر العمل الهدف. |
+| updateChartData | boolean | إذا كانت القيمة false سيتم تحديث مسار دفتر العمل فقط. لن يتم تحميل بيانات المخطط ولا تحديثها من دفتر العمل الهدف. يمكن استخدام ذلك عندما لا يكون دفتر العمل الهدف موجودًا أو غير متاح. إذا كانت القيمة true سيتم تحديث بيانات المخطط من دفتر العمل الهدف. |
+
+### refreshData() {#refreshData--}
+```
+public final void refreshData()
+```
+
+يقوم بتحديث بيانات المخطط بإعادة تحميلها من دفتر العمل المصدر.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("presentationWithChart.pptx");
+>  try {
+>      IChart chart = (IChart)presentation.getSlides().get_Item(0).getShapes().get_Item(0);
+>      chart.getChartData().refreshData();
+>  } finally {
+>      presentation.dispose();
+>  }
+> ```
 
 ### switchRowColumn() {#switchRowColumn--}
 ```
 public final void switchRowColumn()
 ```
 
-بدل البيانات على المحور. البيانات التي تُرسم على المحور X ستنتقل إلى المحور Y والعكس بالعكس.
+تبديل البيانات عبر المحور. البيانات المرسومة على المحور X ستنتقل إلى المحور Y والعكس بالعكس.

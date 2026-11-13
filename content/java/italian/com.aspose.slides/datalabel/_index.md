@@ -5,7 +5,7 @@ description: Rappresenta le etichette di una serie.
 type: docs
 url: /it/com.aspose.slides/datalabel/
 ---
-**Eredita:**
+**Eredita da:**
 java.lang.Object
 
 **Tutte le interfacce implementate:**
@@ -28,11 +28,11 @@ Rappresenta le etichette di una serie.
 | --- | --- |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
 | [getChart()](#getChart--) | Restituisce il grafico genitore. |
-| [isVisible()](#isVisible--) | False indica che l'etichetta dati non è visibile (e quindi tutti i flag Show*- (ShowValue, ...) sono falsi). |
-| [hide()](#hide--) | Nascondi l'etichetta dati impostando tutti i flag Show*- (ShowValue, ...) allo stato false. |
-| [getActualLabelText()](#getActualLabelText--) | Restituisce il testo effettivo dell'etichetta basato sulle impostazioni di DataLabelFormat o sul valore TextFrameForOverriding.Text. |
-| [addTextFrameForOverriding(String text)](#addTextFrameForOverriding-java.lang.String-) | Inizializza TextFrameForOverriding con il testo del parametro "text". |
-| [getTextFrameForOverriding()](#getTextFrameForOverriding--) | Può contenere un testo formattato riccamente. |
+| [isVisible()](#isVisible--) | False significa che l'etichetta dati non è visibile (e quindi tutti i flag Show* (ShowValue, ...) sono falsi). |
+| [hide()](#hide--) | Nasconde l'etichetta dati impostando tutti i flag Show* (ShowValue, ...) allo stato falso. |
+| [getActualLabelText()](#getActualLabelText--) | Restituisce il testo reale dell'etichetta in base alle impostazioni di DataLabelFormat o al valore TextFrameForOverriding.Text. |
+| [addTextFrameForOverriding(String text)](#addTextFrameForOverriding-java.lang.String-) | Inizializza TextFrameForOverriding con il testo nel parametro "text". |
+| [getTextFrameForOverriding()](#getTextFrameForOverriding--) | Può contenere un testo con formattazione avanzata. |
 | [getTextFormat()](#getTextFormat--) | Restituisce il formato del testo. |
 | [getX()](#getX--) | Restituisce o imposta la coordinata x di un titolo come frazione della larghezza del grafico. |
 | [setX(float value)](#setX-float-) | Restituisce o imposta la coordinata x di un titolo come frazione della larghezza del grafico. |
@@ -43,12 +43,14 @@ Rappresenta le etichette di una serie.
 | [getHeight()](#getHeight--) | Restituisce o imposta l'altezza di un titolo come frazione dell'altezza del grafico. |
 | [setHeight(float value)](#setHeight-float-) | Restituisce o imposta l'altezza di un titolo come frazione dell'altezza del grafico. |
 | [getRight()](#getRight--) | Destra. |
-| [getBottom()](#getBottom--) | Inferiore. |
+| [getBottom()](#getBottom--) | In basso. |
 | [getDataLabelFormat()](#getDataLabelFormat--) | Restituisce il formato dell'etichetta dati. |
 | [getValueFromCell()](#getValueFromCell--) | Ottiene o imposta la cella dati della cartella di lavoro. |
 | [setValueFromCell(IChartDataCell value)](#setValueFromCell-com.aspose.slides.IChartDataCell-) | Ottiene o imposta la cella dati della cartella di lavoro. |
-| [getActualX()](#getActualX--) | Specifica la posizione x reale (sinistra) dell'elemento del grafico rispetto all'angolo superiore sinistro del grafico. |
-| [getActualY()](#getActualY--) | Specifica la parte superiore reale dell'elemento del grafico rispetto all'angolo superiore sinistro del grafico. |
+| [getLabelShapeType()](#getLabelShapeType--) | Ottiene o imposta il tipo di forma dell'etichetta dati. |
+| [setLabelShapeType(int value)](#setLabelShapeType-int-) | Ottiene o imposta il tipo di forma dell'etichetta dati. |
+| [getActualX()](#getActualX--) | Specifica la posizione x reale (sinistra) dell'elemento del grafico rispetto all'angolo in alto a sinistra del grafico. |
+| [getActualY()](#getActualY--) | Specifica la parte superiore reale dell'elemento del grafico rispetto all'angolo in alto a sinistra del grafico. |
 | [getActualWidth()](#getActualWidth--) | Specifica la larghezza reale dell'elemento del grafico. |
 | [getActualHeight()](#getActualHeight--) | Specifica l'altezza reale dell'elemento del grafico. |
 | [getSlide()](#getSlide--) | Restituisce la diapositiva genitore di un FillFormat. |
@@ -64,7 +66,7 @@ Crea una nuova istanza della classe DataLabel.
 **Parametri:**
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| parentImmediate | [IChartDataPoint](../../com.aspose.slides/ichartdatapoint) | ChartDataPoint genitore. |
+| parentImmediate | [IChartDataPoint](../../com.aspose.slides/ichartdatapoint) | Genitore ChartDataPoint. |
 
 ### getParent_Immediate() {#getParent-Immediate--}
 ```
@@ -91,14 +93,14 @@ Restituisce il grafico genitore. Solo lettura [IChart](../../com.aspose.slides/i
 public final boolean isVisible()
 ```
 
-False indica che l'etichetta dati non è visibile (e quindi tutti i flag Show*- (ShowValue, ...) sono falsi). Solo lettura  boolean .
+False significa che l'etichetta dati non è visibile (e quindi tutti i flag Show* (ShowValue, ...) sono falsi). Solo lettura  boolean .
 
 **Restituisce:**
 boolean
 
 --------------------
 
-Se l'etichetta dati è visibile è possibile nasconderla con il metodo Hide(). Se l'etichetta dati non è visibile (IsVisible è false) è possibile renderla visibile impostando i flag Show*- (ShowValue, ...) allo stato true.
+Se l'etichetta dati è visibile è possibile nasconderla con il metodo Hide(). Ma se l'etichetta dati non è visibile (IsVisible è false) è possibile rendere visibile l'etichetta dati impostando i flag Show* (ShowValue, ...) allo stato true.
 
 **Restituisce:**
 boolean
@@ -108,18 +110,18 @@ boolean
 public final void hide()
 ```
 
-Nascondi l'etichetta dati impostando tutti i flag Show*- (ShowValue, ...) allo stato false. IsVisible sarà false dopo questa operazione.
+Nasconde l'etichetta dati impostando tutti i flag Show* (ShowValue, ...) allo stato falso. IsVisible sarà false dopo questa operazione.
 
 --------------------
 
-Se l'etichetta dati non è visibile (IsVisible è false) è possibile renderla visibile impostando i flag Show*- (ShowValue, ...) allo stato true.
+Se l'etichetta dati non è visibile (IsVisible è false) è possibile rendere visibile l'etichetta dati impostando i flag Show* (ShowValue, ...) allo stato true.
 
 ### getActualLabelText() {#getActualLabelText--}
 ```
 public final String getActualLabelText()
 ```
 
-Restituisce il testo effettivo dell'etichetta basato sulle impostazioni di DataLabelFormat o sul valore TextFrameForOverriding.Text.
+Restituisce il testo reale dell'etichetta in base alle impostazioni di DataLabelFormat o al valore TextFrameForOverriding.Text.
 
 **Restituisce:**
 java.lang.String - L'oggetto java.lang.String.
@@ -129,7 +131,7 @@ java.lang.String - L'oggetto java.lang.String.
 public final ITextFrame addTextFrameForOverriding(String text)
 ```
 
-Inizializza TextFrameForOverriding con il testo del parametro "text". Se TextFrameForOverriding è già inizializzato, cambia semplicemente il suo testo.
+Inizializza TextFrameForOverriding con il testo nel parametro "text". Se TextFrameForOverriding è già inizializzato, cambia semplicemente il suo testo.
 
 **Parametri:**
 | Parametro | Tipo | Descrizione |
@@ -144,7 +146,7 @@ Inizializza TextFrameForOverriding con il testo del parametro "text". Se TextFra
 public final ITextFrame getTextFrameForOverriding()
 ```
 
-Può contenere un testo formattato riccamente. Se questa proprietà non è null, il valore di testo formattato sovrascrive il testo generato automaticamente dell'etichetta dati. Il testo generato automaticamente dell'etichetta dati è quello gestito dalle proprietà ShowSeriesName, ShowValue, ... e formattato con la proprietà TextFormatManager.TextFormat. Solo lettura [ITextFrame](../../com.aspose.slides/itextframe).
+Può contenere un testo formattato in modo avanzato. Se questa proprietà non è null, allora questo valore di testo formattato sovrascrive il testo generato automaticamente dell'etichetta dati. Il testo generato automaticamente dell'etichetta dati significa il testo gestito dalle proprietà ShowSeriesName, ShowValue, ... e formattato con la proprietà TextFormatManager.TextFormat. Solo lettura [ITextFrame](../../com.aspose.slides/itextframe).
 
 **Restituisce:**
 [ITextFrame](../../com.aspose.slides/itextframe)
@@ -262,7 +264,7 @@ float
 public final float getBottom()
 ```
 
-Inferiore. Solo lettura  float .
+In basso. Solo lettura  float .
 
 **Restituisce:**
 float
@@ -299,12 +301,62 @@ Ottiene o imposta la cella dati della cartella di lavoro. Applicato se la propri
 | --- | --- | --- |
 | value | [IChartDataCell](../../com.aspose.slides/ichartdatacell) |  |
 
+### getLabelShapeType() {#getLabelShapeType--}
+```
+public final int getLabelShapeType()
+```
+
+Ottiene o imposta il tipo di forma dell'etichetta dati. Restituisce [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) se nessuna forma è definita.
+
+--------------------
+```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Imposta il tipo di forma della prima etichetta dati su Ellipse.
+>      firstSeries.getLabels().get_Item(0).setLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabel.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Restituisce:**
+int
+
+### setLabelShapeType(int value) {#setLabelShapeType-int-}
+```
+public final void setLabelShapeType(int value)
+```
+
+Ottiene o imposta il tipo di forma dell'etichetta dati. Restituisce [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) se nessuna forma è definita.
+
+--------------------
+```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Imposta il tipo di forma della prima etichetta dati su Ellipse.
+>      firstSeries.getLabels().get_Item(0).setLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabel.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parametri:**
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| value | int |  |
+
 ### getActualX() {#getActualX--}
 ```
 public final float getActualX()
 ```
 
-Specifică la posizione x reale (sinistra) dell'elemento del grafico rispetto all'angolo superiore sinistro del grafico. Chiama il metodo IChart.ValidateChartLayout() prima per ottenere i valori reali. Solo lettura  float .
+Specifică la posizione x reale (sinistra) dell'elemento del grafico rispetto all'angolo in alto a sinistra del grafico. Chiamare il metodo IChart.ValidateChartLayout() prima per ottenere i valori reali. Lettura float.
 
 **Restituisce:**
 float
@@ -314,7 +366,7 @@ float
 public final float getActualY()
 ```
 
-Specifică la parte superiore reale dell'elemento del grafico rispetto all'angolo superiore sinistro del grafico. Chiama il metodo IChart.ValidateChartLayout() prima per ottenere i valori reali. Solo lettura  float .
+Specifică la parte superiore reale dell'elemento del grafico rispetto all'angolo in alto a sinistra del grafico. Chiamare il metodo IChart.ValidateChartLayout() prima per ottenere i valori reali. Lettura float.
 
 **Restituisce:**
 float
@@ -324,7 +376,7 @@ float
 public final float getActualWidth()
 ```
 
-Specifică la larghezza reale dell'elemento del grafico. Chiama il metodo IChart.ValidateChartLayout() prima per ottenere i valori reali. Solo lettura  float .
+Specifică la larghezza reale dell'elemento del grafico. Chiamare il metodo IChart.ValidateChartLayout() prima per ottenere i valori reali. Lettura float.
 
 **Restituisce:**
 float
@@ -334,7 +386,7 @@ float
 public final float getActualHeight()
 ```
 
-Specifică l'altezza reale dell'elemento del grafico. Chiama il metodo IChart.ValidateChartLayout() prima per ottenere i valori reali. Solo lettura  float .
+Specifică l'altezza reale dell'elemento del grafico. Chiamare il metodo IChart.ValidateChartLayout() prima per ottenere i valori reali. Lettura float.
 
 **Restituisce:**
 float

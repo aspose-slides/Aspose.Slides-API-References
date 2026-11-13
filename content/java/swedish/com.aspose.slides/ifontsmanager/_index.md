@@ -1,40 +1,42 @@
 ---
 title: IFontsManager
-second_title: Aspose.Slides for Java API-referens
-description: Hanterar teckensnitt över presentationen.
+second_title: Aspose.Slides for Java API Reference
+description: Hanterar typsnitt i hela presentationen.
 type: docs
 url: /sv/com.aspose.slides/ifontsmanager/
 ---```
 public interface IFontsManager
 ```
 
-Hanterar teckensnitt över presentationen.
+Hanterar typsnitt i hela presentationen.
 ## Metoder
 
 | Metod | Beskrivning |
 | --- | --- |
-| [getFontSubstRuleList()](#getFontSubstRuleList--) | Fontsubstitutioner att använda vid rendering Läs/skriv [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection). |
-| [setFontSubstRuleList(IFontSubstRuleCollection value)](#setFontSubstRuleList-com.aspose.slides.IFontSubstRuleCollection-) | Fontsubstitutioner att använda vid rendering Läs/skriv [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection). |
-| [getFontFallBackRulesCollection()](#getFontFallBackRulesCollection--) | Representerar en användares samling av FontFallBack-regler för hantering av samlingar av teckensnitt för korrekta substitutioner via fallback-funktionalitet Läs/skriv [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
-| [setFontFallBackRulesCollection(IFontFallBackRulesCollection value)](#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-) | Representerar en användares samling av FontFallBack-regler för hantering av samlingar av teckensnitt för korrekta substitutioner via fallback-funktionalitet Läs/skriv [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
-| [getFonts()](#getFonts--) | Returnerar teckensnitten som används i presentationen |
-| [getSubstitutions()](#getSubstitutions--) | Hämtar information om teckensnitt som kommer att ersättas vid presentationens rendering. |
-| [getSubstitutions(int[] slides)](#getSubstitutions-int---) | Hämtar information om teckensnitt som kommer att ersättas vid rendering av de angivna bilderna. |
-| [getEmbeddedFonts()](#getEmbeddedFonts--) | Returnerar teckensnitten som är inbäddade i presentationen |
-| [removeEmbeddedFont(IFontData fontData)](#removeEmbeddedFont-com.aspose.slides.IFontData-) | Tar bort det inbäddade teckensnittet |
-| [addEmbeddedFont(IFontData fontData, int embedFontRule)](#addEmbeddedFont-com.aspose.slides.IFontData-int-) | Lägger till det inbäddade teckensnittet. |
-| [addEmbeddedFont(byte[] fontData, int embedFontRule)](#addEmbeddedFont-byte---int-) | Lägger till det inbäddade teckensnittet |
-| [replaceFont(IFontData sourceFont, IFontData destFont)](#replaceFont-com.aspose.slides.IFontData-com.aspose.slides.IFontData-) | Ersätter teckensnitt i presentationen |
-| [replaceFont(IFontSubstRule substRule)](#replaceFont-com.aspose.slides.IFontSubstRule-) | Ersätter teckensnitt i presentationen med information som tillhandahålls i [IFontSubstRule](../../com.aspose.slides/ifontsubstrule) |
-| [replaceFont(IFontSubstRuleCollection substRules)](#replaceFont-com.aspose.slides.IFontSubstRuleCollection-) | Ersätter teckensnitt i presentationen med information som tillhandahålls i en samling av [IFontSubstRule](../../com.aspose.slides/ifontsubstrule) |
-| [getFontBytes(IFontData fontData, int fontStyle)](#getFontBytes-com.aspose.slides.IFontData-int-) | Hämtar byte-arrayen som representerar teckensnittsdata för en angiven teckensnittsstil och teckensnittsdata. |
-| [getFontEmbeddingLevel(byte[] fontBytes, String fontName)](#getFontEmbeddingLevel-byte---java.lang.String-) | Bestämmer inbäddningsnivån för ett teckensnitt från den givna byte-arrayen och teckensnittsnamnet. |
+| [getFontSubstRuleList()](#getFontSubstRuleList--) | Typsnittssubstitutioner att använda vid rendering Läs/skriv [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection). |
+| [setFontSubstRuleList(IFontSubstRuleCollection value)](#setFontSubstRuleList-com.aspose.slides.IFontSubstRuleCollection-) | Typsnittssubstitutioner att använda vid rendering Läs/skriv [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection). |
+| [getFontFallBackRulesCollection()](#getFontFallBackRulesCollection--) | Representerar en användares samling av FontFallBack-regler för hantering av samlingar av typsnitt för korrekta substitutioner via fallback-funktionalitet Läs/skriv [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
+| [setFontFallBackRulesCollection(IFontFallBackRulesCollection value)](#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-) | Representerar en användares samling av FontFallBack-regler för hantering av samlingar av typsnitt för korrekta substitutioner via fallback-funktionalitet Läs/skriv [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
+| [getFonts()](#getFonts--) | Returnerar de typsnitt som används i presentationen |
+| [getSubstitutions()](#getSubstitutions--) | Hämtar information om typsnitt som kommer att ersättas vid presentationens rendering. |
+| [getSubstitutions(int[] slides)](#getSubstitutions-int---) | Hämtar information om typsnitt som kommer att ersättas under rendering av de angivna bilderna. |
+| [getEmbeddedFonts()](#getEmbeddedFonts--) | Returnerar de inbäddade typsnitten i presentationen |
+| [removeEmbeddedFont(IFontData fontData)](#removeEmbeddedFont-com.aspose.slides.IFontData-) | Tar bort det inbäddade typsnittet |
+| [addEmbeddedFont(IFontData fontData, int embedFontRule)](#addEmbeddedFont-com.aspose.slides.IFontData-int-) | Lägger till det inbäddade typsnittet. |
+| [addEmbeddedFont(byte[] fontData, int embedFontRule)](#addEmbeddedFont-byte---int-) | Lägger till det inbäddade typsnittet |
+| [replaceFont(IFontData sourceFont, IFontData destFont)](#replaceFont-com.aspose.slides.IFontData-com.aspose.slides.IFontData-) | Ersätt typsnitt i presentationen |
+| [replaceFont(IFontSubstRule substRule)](#replaceFont-com.aspose.slides.IFontSubstRule-) | Ersätt typsnitt i presentationen med information som tillhandahålls i [IFontSubstRule](../../com.aspose.slides/ifontsubstrule) |
+| [replaceFont(IFontSubstRuleCollection substRules)](#replaceFont-com.aspose.slides.IFontSubstRuleCollection-) | Ersätt typsnitt i presentationen med information som tillhandahålls i en samling av [IFontSubstRule](../../com.aspose.slides/ifontsubstrule) |
+| [getFontBytes(IFontData fontData, int fontStyle)](#getFontBytes-com.aspose.slides.IFontData-int-) | Hämtar bytearrayen som representerar typsnittsdata för en angiven typsnittsstil och typsnittsdata. |
+| [getFontEmbeddingLevel(byte[] fontBytes, String fontName)](#getFontEmbeddingLevel-byte---java.lang.String-) | Bestämmer inbäddningsnivån för ett typsnitt från den givna bytearrayen och typsnittsnamnet. |
+| [getPreferRegisteredFontsOverEmbedded()](#getPreferRegisteredFontsOverEmbedded--) | Anger om registrerade typsnitt ska föredras framför inbäddade typsnitt med samma namn och stil. |
+| [setPreferRegisteredFontsOverEmbedded(boolean value)](#setPreferRegisteredFontsOverEmbedded-boolean-) | Anger om registrerade typsnitt ska föredras framför inbäddade typsnitt med samma namn och stil. |
 ### getFontSubstRuleList() {#getFontSubstRuleList--}
 ```
 public abstract IFontSubstRuleCollection getFontSubstRuleList()
 ```
 
-Fontsubstitutioner att använda vid rendering Läs/skriv [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
+Typsnittssubstitutioner att använda vid rendering Läs/skriv [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
 
 **Returnerar:**
 [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection)
@@ -43,7 +45,7 @@ Fontsubstitutioner att använda vid rendering Läs/skriv [IFontSubstRuleCollecti
 public abstract void setFontSubstRuleList(IFontSubstRuleCollection value)
 ```
 
-Fontsubstitutioner att använda vid rendering Läs/skriv [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
+Typsnittssubstitutioner att använda vid rendering Läs/skriv [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
 
 **Parametrar:**
 | Parameter | Typ | Beskrivning |
@@ -55,7 +57,7 @@ Fontsubstitutioner att använda vid rendering Läs/skriv [IFontSubstRuleCollecti
 public abstract IFontFallBackRulesCollection getFontFallBackRulesCollection()
 ```
 
-Representerar en användares samling av FontFallBack-regler för hantering av samlingar av teckensnitt för korrekta substitutioner via fallback-funktionalitet Läs/skriv [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
+Representerar en användares samling av FontFallBack-regler för hantering av samlingar av typsnitt för korrekta substitutioner via fallback-funktionalitet Läs/skriv [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
 
 --------------------
 
@@ -63,14 +65,14 @@ Representerar en användares samling av FontFallBack-regler för hantering av sa
 > Presentation pres = new Presentation();
 >  try
 >  {
->      // Hämtar en tom eller förinitierad regelsamling från FontsManager
+>      // Hämtar en tom eller förinitierad regelssamling från FontsManager
 >      IFontFallBackRulesCollection rulesList = pres.getFontsManager().getFontFallBackRulesCollection();
->      // lägger till regler i samlingen
+>      // Lägger till regler i samlingen
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
 >      // eller 
->      // initiering av ny instans av regelsamlingen
+>      // Initialisering av en ny instans av regelssamlingen
 >      IFontFallBackRulesCollection rulesList = new FontFallBackRulesCollection();
->      // lägger till regler i samlingen
+>      // Lägger till regler i samlingen
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
 >      // och ersätter befintlig samling med den nya i FontsManager 
 >      pres.getFontsManager().setFontFallBackRulesCollection(rulesList);
@@ -88,7 +90,7 @@ Representerar en användares samling av FontFallBack-regler för hantering av sa
 public abstract void setFontFallBackRulesCollection(IFontFallBackRulesCollection value)
 ```
 
-Representerar en användares samling av FontFallBack-regler för hantering av samlingar av teckensnitt för korrekta substitutioner via fallback-funktionalitet Läs/skriv [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
+Representerar en användares samling av FontFallBack-regler för hantering av samlingar av typsnitt för korrekta substitutioner via fallback-funktionalitet Läs/skriv [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
 
 --------------------
 
@@ -96,14 +98,14 @@ Representerar en användares samling av FontFallBack-regler för hantering av sa
 > Presentation pres = new Presentation();
 >  try
 >  {
->      // Hämtar en tom eller förinitierad regelsamling från FontsManager
+>      // Hämtar en tom eller förinitierad regelssamling från FontsManager
 >      IFontFallBackRulesCollection rulesList = pres.getFontsManager().getFontFallBackRulesCollection();
->      // lägger till regler i samlingen
+>      // Lägger till regler i samlingen
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
 >      // eller 
->      // initiering av ny instans av regelsamlingen
+>      // Initialisering av en ny instans av regelssamlingen
 >      IFontFallBackRulesCollection rulesList = new FontFallBackRulesCollection();
->      // lägger till regler i samlingen
+>      // Lägger till regler i samlingen
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
 >      // och ersätter befintlig samling med den nya i FontsManager 
 >      pres.getFontsManager().setFontFallBackRulesCollection(rulesList);
@@ -124,16 +126,16 @@ Representerar en användares samling av FontFallBack-regler för hantering av sa
 public abstract IFontData[] getFonts()
 ```
 
-Returnerar teckensnitten som används i presentationen
+Returnerar de typsnitt som används i presentationen
 
 **Returnerar:**
-com.aspose.slides.IFontData[] - En array av teckensnitt
+com.aspose.slides.IFontData[] - En array av typsnitt
 ### getSubstitutions() {#getSubstitutions--}
 ```
 public abstract System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo> getSubstitutions()
 ```
 
-Hämtar information om teckensnitt som kommer att ersättas vid presentationens rendering.
+Hämtar information om typsnitt som kommer att ersättas vid presentationens rendering.
 
 --------------------
 
@@ -151,13 +153,13 @@ Hämtar information om teckensnitt som kommer att ersättas vid presentationens 
 
 
 **Returnerar:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - Samling av alla teckensnitts-substitutioner [FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo).
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - Samling av alla typsnittssubstitutioner [FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo).
 ### getSubstitutions(int[] slides) {#getSubstitutions-int---}
 ```
 public abstract System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo> getSubstitutions(int[] slides)
 ```
 
-Hämtar information om teckensnitt som kommer att ersättas vid rendering av de angivna bilderna.
+Hämtar information om typsnitt som kommer att ersättas under rendering av de angivna bilderna.
 
 --------------------
 
@@ -178,146 +180,149 @@ Hämtar information om teckensnitt som kommer att ersättas vid rendering av de 
 **Parametrar:**
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| slides | int[] | En array av bildindex för vilka teckensnitts-substitutionsinformation ska hämtas, räknat från 1. |
+| slides | int[] | En array av bildindex för vilka typsnittssubstitutionsinformation ska hämtas, med start från 1. |
 
 **Returnerar:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - En samling av alla teckensnitts-substitutioner ([FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo)) för de angivna bilderna.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - En samling av alla typsnittssubstitutioner ([FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo)) för de angivna bilderna.
 ### getEmbeddedFonts() {#getEmbeddedFonts--}
 ```
 public abstract IFontData[] getEmbeddedFonts()
 ```
 
-Returnerar teckensnitten som är inbäddade i presentationen
+Returnerar de inbäddade typsnitten i presentationen
 
 **Returnerar:**
-com.aspose.slides.IFontData[] - Inbäddade teckensnitt IFontData[]
+com.aspose.slides.IFontData[] - Inbäddade typsnitt IFontData[]
 ### removeEmbeddedFont(IFontData fontData) {#removeEmbeddedFont-com.aspose.slides.IFontData-}
 ```
 public abstract void removeEmbeddedFont(IFontData fontData)
 ```
 
-Tar bort det inbäddade teckensnittet
+Tar bort det inbäddade typsnittet
 
 **Parametrar:**
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| fontData | [IFontData](../../com.aspose.slides/ifontdata) | Teckensnittsdatatobjekt [IFontData](../../com.aspose.slides/ifontdata) |
+| fontData | [IFontData](../../com.aspose.slides/ifontdata) | Typsnittsdataobjekt [IFontData](../../com.aspose.slides/ifontdata) |
 
 ### addEmbeddedFont(IFontData fontData, int embedFontRule) {#addEmbeddedFont-com.aspose.slides.IFontData-int-}
 ```
 public abstract void addEmbeddedFont(IFontData fontData, int embedFontRule)
 ```
 
-Lägger till det inbäddade teckensnittet.
+Lägger till det inbäddade typsnittet.
 
 **Parametrar:**
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| fontData | [IFontData](../../com.aspose.slides/ifontdata) | Teckensnittsdatatobjekt [IFontData](../../com.aspose.slides/ifontdata) |
-| embedFontRule | int | Inbäddningsregel för teckensnitt [EmbedFontCharacters](../../com.aspose.slides/embedfontcharacters)
+| fontData | [IFontData](../../com.aspose.slides/ifontdata) | Typsnittsdataobjekt [IFontData](../../com.aspose.slides/ifontdata) |
+| embedFontRule | int | Inbäddningsregel för typsnitt [EmbedFontCharacters](../../com.aspose.slides/embedfontcharacters)
 
 --------------------
 
-Kom ihåg att de flesta teckensnitt är upphovsrättsskyddade när du kopierar dem. Kontrollera teckensnittets licens i förväg och verifiera att de får överföras fritt till en annan maskin. |
+Tänk på att de flesta typsnitt är upphovsrättsskyddade när du kopierar dem. Lokalisera först licensen för ett typsnitt i förväg och verifiera att det kan överföras fritt till en annan maskin. |
+
 ### addEmbeddedFont(byte[] fontData, int embedFontRule) {#addEmbeddedFont-byte---int-}
 ```
 public abstract void addEmbeddedFont(byte[] fontData, int embedFontRule)
 ```
 
-Lägger till det inbäddade teckensnittet
+Lägger till det inbäddade typsnittet
 
 **Parametrar:**
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| fontData | byte[] | Teckensnittsdata byte[] |
-| embedFontRule | int | Inbäddningsregel för teckensnitt [EmbedFontCharacters](../../com.aspose.slides/embedfontcharacters)
+| fontData | byte[] | Typsnittsdata  byte[]  |
+| embedFontRule | int | Inbäddningsregel för typsnitt [EmbedFontCharacters](../../com.aspose.slides/embedfontcharacters)
 
 --------------------
 
-Kom ihåg att de flesta teckensnitt är upphovsrättsskyddade när du lägger till dem. Kontrollera teckensnittets licens i förväg och verifiera att de får överföras fritt till en annan maskin. |
+Tänk på att de flesta typsnitt är upphovsrättsskyddade när du lägger till dem. Lokalisera först licensen för ett typsnitt i förväg och verifiera att det kan överföras fritt till en annan maskin. |
+
 ### replaceFont(IFontData sourceFont, IFontData destFont) {#replaceFont-com.aspose.slides.IFontData-com.aspose.slides.IFontData-}
 ```
 public abstract void replaceFont(IFontData sourceFont, IFontData destFont)
 ```
 
-Ersätt teckensnitt i presentationen
+Ersätt typsnitt i presentationen
 
 **Parametrar:**
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| sourceFont | [IFontData](../../com.aspose.slides/ifontdata) | Källteckensnitt |
-| destFont | [IFontData](../../com.aspose.slides/ifontdata) | Destinations-teckensnitt |
+| sourceFont | [IFontData](../../com.aspose.slides/ifontdata) | Källtypsnitt |
+| destFont | [IFontData](../../com.aspose.slides/ifontdata) | Destinationstypsnitt |
 
 ### replaceFont(IFontSubstRule substRule) {#replaceFont-com.aspose.slides.IFontSubstRule-}
 ```
 public abstract void replaceFont(IFontSubstRule substRule)
 ```
 
-Ersätt teckensnitt i presentationen med information som tillhandahålls i [IFontSubstRule](../../com.aspose.slides/ifontsubstrule)
+Ersätt typsnitt i presentationen med information som tillhandahålls i [IFontSubstRule](../../com.aspose.slides/ifontsubstrule)
 
 **Parametrar:**
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| substRule | [IFontSubstRule](../../com.aspose.slides/ifontsubstrule) | Teckensnittssubstitutionsinfo |
+| substRule | [IFontSubstRule](../../com.aspose.slides/ifontsubstrule) | Information om typsnittssubstitution |
 
 ### replaceFont(IFontSubstRuleCollection substRules) {#replaceFont-com.aspose.slides.IFontSubstRuleCollection-}
 ```
 public abstract void replaceFont(IFontSubstRuleCollection substRules)
 ```
 
-Ersätt teckensnitt i presentationen med information som tillhandahålls i en samling av [IFontSubstRule](../../com.aspose.slides/ifontsubstrule)
+Ersätt typsnitt i presentationen med information som tillhandahålls i en samling av [IFontSubstRule](../../com.aspose.slides/ifontsubstrule)
 
 **Parametrar:**
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| substRules | [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection) | Samling av teckensnittssubstitutionsinfo |
+| substRules | [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection) | Samling av information om typsnittssubstitutioner |
 
 ### getFontBytes(IFontData fontData, int fontStyle) {#getFontBytes-com.aspose.slides.IFontData-int-}
 ```
 public abstract byte[] getFontBytes(IFontData fontData, int fontStyle)
 ```
 
-Hämtar byte-arrayen som representerar teckensnittsdata för en angiven teckensnittsstil och teckensnittsdata.
+Hämtar bytearrayen som representerar typsnittsdata för en angiven typsnittsstil och typsnittsdata.
 
 --------------------
 
 > ```
 > Presentation pres = new Presentation ("Presentation.pptx");
 >  try {
->      // Hämta alla teckensnitt som används i presentationen
+>      // Hämta alla typsnitt som används i presentationen
 >      IFontData[] fonts = pres.getFontsManager().getFonts();
->      // Hämta byte-arrayen som representerar den vanliga stilen för det första teckensnittet i presentationen
+>      // Hämta bytearrayen som representerar den vanliga stilen för det första typsnittet i presentationen
 >      byte[] fontBytes = pres.getFontsManager().getFontBytes(fonts[0], FontStyleType.Regular);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
 > ```
 
+
 **Parametrar:**
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| fontData | [IFontData](../../com.aspose.slides/ifontdata) | Teckensnittsdatatobjektet som innehåller information om teckensnittet [IFontData](../../com.aspose.slides/ifontdata). |
-| fontStyle | int | Stilen på teckensnittet vars data ska hämtas [FontStyleType](../../com.aspose.slides/fontstyletype). |
+| fontData | [IFontData](../../com.aspose.slides/ifontdata) | Typsnittsdataobjektet som innehåller information om typsnittet [IFontData](../../com.aspose.slides/ifontdata). |
+| fontStyle | int | Stilen på typsnittet som data ska hämtas för [FontStyleType](../../com.aspose.slides/fontstyletype). |
 
 **Returnerar:**
-byte[] - En byte-array som innehåller teckensnittsdata för den angivna teckensnittsstilen. Om teckensnittsdata eller stil inte hittas, returneras null.
+byte[] - En bytearray som innehåller typsnittsdata för den angivna stilen. Om typsnittsdata eller stil ej hittas, returneras null.
 ### getFontEmbeddingLevel(byte[] fontBytes, String fontName) {#getFontEmbeddingLevel-byte---java.lang.String-}
 ```
 public abstract int getFontEmbeddingLevel(byte[] fontBytes, String fontName)
 ```
 
-Bestämmer inbäddningsnivån för ett teckensnitt från den angivna byte-arrayen och teckensnittsnamnet.
+Bestämmer inbäddningsnivån för ett typsnitt från den givna bytearrayen och typsnittsnamnet.
 
 --------------------
 
 > ```
 > Presentation pres = new Presentation(pptxFileName);
 >  try {
->      // Hämta alla teckensnitt som används i presentationen
+>      // Hämta alla typsnitt som används i presentationen
 >      IFontData[] fontDatas = pres.getFontsManager().getFonts();
->      // Hämta byte-arrayen som representerar den vanliga stilen för det första teckensnittet i presentationen
+>      // Hämta bytearrayen som representerar den vanliga stilen för det första typsnittet i presentationen
 >      byte[] bytes = pres.getFontsManager().getFontBytes(fontDatas[0], FontStyleType.Regular);
->      // Bestäm inbäddningsnivån för teckensnittet
+>      // Bestäm inbäddningsnivån för typsnittet
 >      int embeddingLevel = pres.getFontsManager().getFontEmbeddingLevel(bytes, fontDatas[0].getFontName());
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -328,8 +333,60 @@ Bestämmer inbäddningsnivån för ett teckensnitt från den angivna byte-arraye
 **Parametrar:**
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| fontBytes | byte[] | Byte-arrayen som innehåller teckensnittsdata. |
-| fontName | java.lang.String | Namnet på teckensnittet. |
+| fontBytes | byte[] | Bytearrayen som innehåller typsnittsdata. |
+| fontName | java.lang.String | Namnet på typsnittet. |
 
 **Returnerar:**
-int - Inbäddningsnivån för det angivna teckensnittet.
+int - Inbäddningsnivån för det angivna typsnittet.
+### getPreferRegisteredFontsOverEmbedded() {#getPreferRegisteredFontsOverEmbedded--}
+```
+public abstract boolean getPreferRegisteredFontsOverEmbedded()
+```
+
+Anger om registrerade typsnitt ska föredras framför inbäddade typsnitt med samma namn och stil. När detta är aktiverat ersätts matchande inbäddade typsnitt tillfälligt med motsvarande registrerade typsnitt vid export.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("SomePresentation.pptx");
+>  try {
+>      pres.getFontsManager().setPreferRegisteredFontsOverEmbedded(true);
+>      pres.save("Presentation-out.pdf", SaveFormat.Pdf);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+Standard är **false** .
+
+**Returnerar:**
+boolean
+### setPreferRegisteredFontsOverEmbedded(boolean value) {#setPreferRegisteredFontsOverEmbedded-boolean-}
+```
+public abstract void setPreferRegisteredFontsOverEmbedded(boolean value)
+```
+
+Anger om registrerade typsnitt ska föredras framför inbäddade typsnitt med samma namn och stil. När detta är aktiverat ersätts matchande inbäddade typsnitt tillfälligt med motsvarande registrerade typsnitt vid export.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("SomePresentation.pptx");
+>  try {
+>      pres.getFontsManager().setPreferRegisteredFontsOverEmbedded(true);
+>      pres.save("Presentation-out.pdf", SaveFormat.Pdf);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+Standard är **false** .
+
+**Parametrar:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| value | boolean |  |

@@ -1,6 +1,6 @@
 ---
 title: IChartDataPoint
-second_title: Aspose.Slides Java API 参考
+second_title: Aspose.Slides for Java API 参考
 description: 表示系列数据点。
 type: docs
 url: /zh/com.aspose.slides/ichartdatapoint/
@@ -12,41 +12,46 @@ public interface IChartDataPoint extends IActualLayout
 ```
 
 表示系列数据点。
+
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
-| [getXValue()](#getXValue--) | 返回图表数据点的 x 值。 |
-| [getYValue()](#getYValue--) | 返回图表数据点的 y 值。 |
-| [getBubbleSize()](#getBubbleSize--) | 返回图表数据点的气泡大小。 |
-| [getValue()](#getValue--) | 返回图表数据点的值。 |
-| [getSizeValue()](#getSizeValue--) | 返回图表数据点的尺寸值。 |
-| [getColorValue()](#getColorValue--) | 返回图表数据点的颜色值。 |
-| [getErrorBarsCustomValues()](#getErrorBarsCustomValues--) | 表示自定义值类型的系列误差线值。 |
+| [getXValue()](#getXValue--) | 获取图表数据点的 x 值。 |
+| [getYValue()](#getYValue--) | 获取图表数据点的 y 值。 |
+| [getBubbleSize()](#getBubbleSize--) | 获取图表数据点的气泡大小。 |
+| [getValue()](#getValue--) | 获取图表数据点的值。 |
+| [getCachedXValue()](#getCachedXValue--) | 获取图表数据点的缓存 X 值。 |
+| [getCachedYValue()](#getCachedYValue--) | 获取图表数据点的缓存 Y 值。 |
+| [getCachedValue()](#getCachedValue--) | 获取图表数据点的缓存值。 |
+| [getCachedBubbleSize()](#getCachedBubbleSize--) | 获取图表数据点的缓存气泡大小。 |
+| [getSizeValue()](#getSizeValue--) | 获取图表数据点的尺寸值。 |
+| [getColorValue()](#getColorValue--) | 获取图表数据点的颜色值。 |
+| [getErrorBarsCustomValues()](#getErrorBarsCustomValues--) | 表示自定义值类型情况下的系列误差条值。 |
 | [getLabel()](#getLabel--) | 表示图表数据点的标签。 |
-| [isBubble3D()](#isBubble3D--) | 指定气泡具有 3-D 效果。 |
-| [setBubble3D(boolean value)](#setBubble3D-boolean-) | 指定气泡具有 3-D 效果。 |
+| [isBubble3D()](#isBubble3D--) | 指定气泡已应用 3-D 效果。 |
+| [setBubble3D(boolean value)](#setBubble3D-boolean-) | 指定气泡已应用 3-D 效果。 |
 | [getExplosion()](#getExplosion--) | 指定数据点相对于饼图中心的移动量。 |
 | [setExplosion(int value)](#setExplosion-int-) | 指定数据点相对于饼图中心的移动量。 |
-| [getFormat()](#getFormat--) | 表示格式化属性。 |
-| [setFormat(IFormat value)](#setFormat-com.aspose.slides.IFormat-) | 表示格式化属性。 |
+| [getFormat()](#getFormat--) | 表示格式属性。 |
+| [setFormat(IFormat value)](#setFormat-com.aspose.slides.IFormat-) | 表示格式属性。 |
 | [getMarker()](#getMarker--) | 指定数据标记。 |
 | [remove()](#remove--) | 从图表系列中移除 DataPoint。 |
-| [getAutomaticDataPointColor()](#getAutomaticDataPointColor--) | 根据系列索引、数据点索引、ParentSeriesGroup.IsColorVaried 属性和图表样式返回数据点的自动颜色。 |
-| [getRelatedLegendEntry()](#getRelatedLegendEntry--) | 对于以下图表类型的相应图例条目属性：ChartType.BarOfPie、ChartType.ExplodedPie、ChartType.ExplodedPie3D、ChartType.Pie、ChartType.Pie3D、ChartType.PieOfPie。 |
+| [getAutomaticDataPointColor()](#getAutomaticDataPointColor--) | 返回基于系列索引、数据点索引、ParentSeriesGroup.IsColorVaried 属性和图表样式的自动颜色。 |
+| [getRelatedLegendEntry()](#getRelatedLegendEntry--) | 对应图例条目的属性（适用于以下图表类型：ChartType.BarOfPie、ChartType.ExplodedPie、ChartType.ExplodedPie3D、ChartType.Pie、ChartType.Pie3D、ChartType.PieOfPie）。 |
 | [getSetAsTotal()](#getSetAsTotal--) | 将数据点设为总计。 |
 | [setSetAsTotal(boolean value)](#setSetAsTotal-boolean-) | 将数据点设为总计。 |
-| [getInvertIfNegative()](#getInvertIfNegative--) | 指定当值为负时，数据点应反转其颜色。 |
-| [setInvertIfNegative(boolean value)](#setInvertIfNegative-boolean-) | 指定当值为负时，数据点应反转其颜色。 |
-| [getDataPointLevels()](#getDataPointLevels--) | 返回数据点级别的容器。 |
-| [getIndex()](#getIndex--) | 确定此数据点适用于父级子集合中的哪一个。 |
+| [getInvertIfNegative()](#getInvertIfNegative--) | 指定如果值为负，则数据点应反转其颜色。 |
+| [setInvertIfNegative(boolean value)](#setInvertIfNegative-boolean-) | 指定如果值为负，则数据点应反转其颜色。 |
+| [getDataPointLevels()](#getDataPointLevels--) | 返回数据点层级的容器。 |
+| [getIndex()](#getIndex--) | 确定此数据点适用于父对象的哪个子集合。 |
 
 ### getXValue() {#getXValue--}
 ```
 public abstract IStringOrDoubleChartValue getXValue()
 ```
 
-返回图表数据点的 x 值。只读 [IStringOrDoubleChartValue](../../com.aspose.slides/istringordoublechartvalue)。
+获取图表数据点的 x 值。只读 [IStringOrDoubleChartValue](../../com.aspose.slides/istringordoublechartvalue)。
 
 **返回值：**
 [IStringOrDoubleChartValue](../../com.aspose.slides/istringordoublechartvalue)
@@ -56,7 +61,7 @@ public abstract IStringOrDoubleChartValue getXValue()
 public abstract IDoubleChartValue getYValue()
 ```
 
-返回图表数据点的 y 值。只读 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)。
+获取图表数据点的 y 值。只读 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)。
 
 **返回值：**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
@@ -66,7 +71,7 @@ public abstract IDoubleChartValue getYValue()
 public abstract IDoubleChartValue getBubbleSize()
 ```
 
-返回图表数据点的气泡大小。只读 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)。
+获取图表数据点的气泡大小。只读 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)。
 
 **返回值：**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
@@ -76,17 +81,125 @@ public abstract IDoubleChartValue getBubbleSize()
 public abstract IDoubleChartValue getValue()
 ```
 
-返回图表数据点的值。只读 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)。
+获取图表数据点的值。只读 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)。
 
 **返回值：**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
+
+### getCachedXValue() {#getCachedXValue--}
+```
+public abstract ICachedChartValue getCachedXValue()
+```
+
+获取图表数据点的缓存 X 值。只读 [ICachedChartValue](../../com.aspose.slides/icachedchartvalue)。
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // 打印图表系列的所有缓存 X 值。
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedXValue().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**返回值：**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
+
+### getCachedYValue() {#getCachedYValue--}
+```
+public abstract ICachedChartValue getCachedYValue()
+```
+
+获取图表数据点的缓存 Y 值。只读 [ICachedChartValue](../../com.aspose.slides/icachedchartvalue)。
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // 打印图表系列的所有缓存 Y 值。
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedYValue().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**返回值：**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
+
+### getCachedValue() {#getCachedValue--}
+```
+public abstract ICachedChartValue getCachedValue()
+```
+
+获取图表数据点的缓存值。只读 [ICachedChartValue](../../com.aspose.slides/icachedchartvalue)。
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // 打印图表系列的所有缓存值。
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedValue().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**返回值：**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
+
+### getCachedBubbleSize() {#getCachedBubbleSize--}
+```
+public abstract ICachedChartValue getCachedBubbleSize()
+```
+
+获取图表数据点的缓存气泡大小。只读 [ICachedChartValue](../../com.aspose.slides/icachedchartvalue)。
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // 打印图表系列的所有缓存气泡大小值。
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedBubbleSize().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**返回值：**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
 
 ### getSizeValue() {#getSizeValue--}
 ```
 public abstract IDoubleChartValue getSizeValue()
 ```
 
-返回图表数据点的尺寸值。用于 Treemap 和 Sunburst 图表。只读 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)。
+获取图表数据点的尺寸值。用于 Treemap 和 Sunburst 图表。只读 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)。
 
 **返回值：**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
@@ -96,7 +209,7 @@ public abstract IDoubleChartValue getSizeValue()
 public abstract IDoubleChartValue getColorValue()
 ```
 
-返回图表数据点的颜色值。用于 Map 图表。只读 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)。
+获取图表数据点的颜色值。用于 Map 图表。只读 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)。
 
 **返回值：**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
@@ -106,7 +219,7 @@ public abstract IDoubleChartValue getColorValue()
 public abstract IErrorBarsCustomValues getErrorBarsCustomValues()
 ```
 
-表示自定义值类型的系列误差线值。只读 [IErrorBarsCustomValues](../../com.aspose.slides/ierrorbarscustomvalues)。
+表示自定义值类型情况下的系列误差条值。只读 [IErrorBarsCustomValues](../../com.aspose.slides/ierrorbarscustomvalues)。
 
 **返回值：**
 [IErrorBarsCustomValues](../../com.aspose.slides/ierrorbarscustomvalues)
@@ -126,7 +239,7 @@ public abstract IDataLabel getLabel()
 public abstract boolean isBubble3D()
 ```
 
-指定气泡具有 3-D 效果。可读写 boolean。
+指定气泡已应用 3-D 效果。读写 boolean。
 
 **返回值：**
 boolean
@@ -136,7 +249,7 @@ boolean
 public abstract void setBubble3D(boolean value)
 ```
 
-指定气泡具有 3-D 效果。可读写 boolean。
+指定气泡已应用 3-D 效果。读写 boolean。
 
 **参数：**
 | 参数 | 类型 | 描述 |
@@ -148,7 +261,7 @@ public abstract void setBubble3D(boolean value)
 public abstract int getExplosion()
 ```
 
-指定数据点相对于饼图中心的移动量。可读写 int。
+指定数据点相对于饼图中心的移动量。读写 int。
 
 **返回值：**
 int
@@ -158,7 +271,7 @@ int
 public abstract void setExplosion(int value)
 ```
 
-指定数据点相对于饼图中心的移动量。可读写 int。
+指定数据点相对于饼图中心的移动量。读写 int。
 
 **参数：**
 | 参数 | 类型 | 描述 |
@@ -170,7 +283,7 @@ public abstract void setExplosion(int value)
 public abstract IFormat getFormat()
 ```
 
-表示格式化属性。可读写 [IFormat](../../com.aspose.slides/iformat)。
+表示格式属性。读写 [IFormat](../../com.aspose.slides/iformat)。
 
 **返回值：**
 [IFormat](../../com.aspose.slides/iformat)
@@ -180,7 +293,7 @@ public abstract IFormat getFormat()
 public abstract void setFormat(IFormat value)
 ```
 
-表示格式化属性。可读写 [IFormat](../../com.aspose.slides/iformat)。
+表示格式属性。读写 [IFormat](../../com.aspose.slides/iformat)。
 
 **参数：**
 | 参数 | 类型 | 描述 |
@@ -209,7 +322,7 @@ public abstract void remove()
 public abstract Color getAutomaticDataPointColor()
 ```
 
-返回基于系列索引、数据点索引、ParentSeriesGroup.IsColorVaried 属性和图表样式的自动颜色。如果 FillType 等于 NotDefined，则默认使用此颜色。
+返回基于系列索引、数据点索引、ParentSeriesGroup.IsColorVaried 属性和图表样式的自动颜色。若 FillType 等于 NotDefined，则默认使用此颜色。
 
 **返回值：**
 java.awt.Color - 自动颜色 java.awt.Color
@@ -219,7 +332,7 @@ java.awt.Color - 自动颜色 java.awt.Color
 public abstract ILegendEntryProperties getRelatedLegendEntry()
 ```
 
-对于以下图表类型的相应图例条目属性：ChartType.BarOfPie、ChartType.ExplodedPie、ChartType.ExplodedPie3D、ChartType.Pie、ChartType.Pie3D、ChartType.PieOfPie。只读 [ILegendEntryProperties](../../com.aspose.slides/ilegendentryproperties)。
+对应图例条目的属性（适用于以下图表类型：ChartType.BarOfPie、ChartType.ExplodedPie、ChartType.ExplodedPie3D、ChartType.Pie、ChartType.Pie3D、ChartType.PieOfPie）。只读 [ILegendEntryProperties](../../com.aspose.slides/ilegendentryproperties)。
 
 **返回值：**
 [ILegendEntryProperties](../../com.aspose.slides/ilegendentryproperties)
@@ -251,7 +364,7 @@ public abstract void setSetAsTotal(boolean value)
 public abstract boolean getInvertIfNegative()
 ```
 
-指定当值为负时，数据点应反转其颜色。可读写 boolean。
+指定如果值为负，则数据点应反转其颜色。读写 boolean。
 
 **返回值：**
 boolean
@@ -261,7 +374,7 @@ boolean
 public abstract void setInvertIfNegative(boolean value)
 ```
 
-指定当值为负时，数据点应反转其颜色。可读写 boolean。
+指定如果值为负，则数据点应反转其颜色。读写 boolean。
 
 **参数：**
 | 参数 | 类型 | 描述 |
@@ -273,7 +386,7 @@ public abstract void setInvertIfNegative(boolean value)
 public abstract IChartDataPointLevelsManager getDataPointLevels()
 ```
 
-返回数据点级别的容器。适用于 Treeamp 和 Sunburst 系列。数据点级别的索引从零开始。
+返回数据点层级的容器。适用于 Treeamp 和 Sunburst 系列。层级索引从零开始。
 
 **返回值：**
 [IChartDataPointLevelsManager](../../com.aspose.slides/ichartdatapointlevelsmanager)
@@ -283,7 +396,7 @@ public abstract IChartDataPointLevelsManager getDataPointLevels()
 public abstract long getIndex()
 ```
 
-确定此数据点适用于父级子集合中的哪一个。只读 long。
+确定此数据点适用于父对象的哪个子集合。读 long。
 
 **返回值：**
 long

@@ -1,6 +1,6 @@
 ---
 title: VideoFrame
-second_title: Aspose.Slides للـ Java – مرجع API
+second_title: Aspose.Slides لواجهة برمجة تطبيقات Java
 description: يمثل مقطع فيديو على شريحة.
 type: docs
 url: /ar/com.aspose.slides/videoframe/
@@ -15,36 +15,38 @@ public class VideoFrame extends PictureFrame implements IVideoFrame
 ```
 
 يمثل مقطع فيديو على شريحة.
-## الطرق
+## Methods
 
 | الطريقة | الوصف |
 | --- | --- |
 | [getRewindVideo()](#getRewindVideo--) | يحدد ما إذا كان يتم إرجاع الفيديو تلقائيًا إلى البداية بمجرد انتهاء تشغيل الفيلم. |
 | [setRewindVideo(boolean value)](#setRewindVideo-boolean-) | يحدد ما إذا كان يتم إرجاع الفيديو تلقائيًا إلى البداية بمجرد انتهاء تشغيل الفيلم. |
-| [getPlayLoopMode()](#getPlayLoopMode--) | يحدد ما إذا كان الفيديو يتكرر. |
-| [setPlayLoopMode(boolean value)](#setPlayLoopMode-boolean-) | يحدد ما إذا كان الفيديو يتكرر. |
+| [getPlayLoopMode()](#getPlayLoopMode--) | يحدد ما إذا كان الفيديو يُعاد تشغيله بشكل متكرر. |
+| [setPlayLoopMode(boolean value)](#setPlayLoopMode-boolean-) | يحدد ما إذا كان الفيديو يُعاد تشغيله بشكل متكرر. |
 | [getHideAtShowing()](#getHideAtShowing--) | يحدد ما إذا كان إطار الفيديو مخفيًا. |
 | [setHideAtShowing(boolean value)](#setHideAtShowing-boolean-) | يحدد ما إذا كان إطار الفيديو مخفيًا. |
-| [getVolume()](#getVolume--) | إرجاع أو تعيين حجم الصوت. |
-| [setVolume(int value)](#setVolume-int-) | إرجاع أو تعيين حجم الصوت. |
-| [getPlayMode()](#getPlayMode--) | إرجاع أو تعيين وضع تشغيل الفيديو. |
-| [setPlayMode(int value)](#setPlayMode-int-) | إرجاع أو تعيين وضع تشغيل الفيديو. |
+| [getVolume()](#getVolume--) | يعيد أو يضبط مستوى صوت الصوت. |
+| [setVolume(int value)](#setVolume-int-) | يعيد أو يضبط مستوى صوت الصوت. |
+| [getVolumeValue()](#getVolumeValue--) | يعيد أو يضبط مستوى صوت الفيديو الدقيق كنسبة مئوية. |
+| [setVolumeValue(float value)](#setVolumeValue-float-) | يعيد أو يضبط مستوى صوت الفيديو الدقيق كنسبة مئوية. |
+| [getPlayMode()](#getPlayMode--) | يعيد أو يضبط وضع تشغيل الفيديو. |
+| [setPlayMode(int value)](#setPlayMode-int-) | يعيد أو يضبط وضع تشغيل الفيديو. |
 | [getFullScreenMode()](#getFullScreenMode--) | يحدد ما إذا كان يتم عرض الفيديو في وضع ملء الشاشة. |
 | [setFullScreenMode(boolean value)](#setFullScreenMode-boolean-) | يحدد ما إذا كان يتم عرض الفيديو في وضع ملء الشاشة. |
-| [getLinkPathLong()](#getLinkPathLong--) | إرجاع أو تعيين اسم ملف فيديو مرتبط بإطار الفيديو. |
-| [setLinkPathLong(String value)](#setLinkPathLong-java.lang.String-) | إرجاع أو تعيين اسم ملف فيديو مرتبط بإطار الفيديو. |
-| [getEmbeddedVideo()](#getEmbeddedVideo--) | إرجاع أو تعيين كائن فيديو مضمّن. |
-| [setEmbeddedVideo(IVideo value)](#setEmbeddedVideo-com.aspose.slides.IVideo-) | إرجاع أو تعيين كائن فيديو مضمّن. |
-| [getTrimFromStart()](#getTrimFromStart--) | بدء القص [ms] |
-| [setTrimFromStart(float value)](#setTrimFromStart-float-) | بدء القص [ms] |
-| [getTrimFromEnd()](#getTrimFromEnd--) | نهاية القص [ms] |
-| [setTrimFromEnd(float value)](#setTrimFromEnd-float-) | نهاية القص [ms] |
-| [getCaptionTracks()](#getCaptionTracks--) | يجلب مجموعة التعليقات المغلقة المرتبطة بإطار الفيديو. |
-
+| [getLinkPathLong()](#getLinkPathLong--) | يعيد أو يضبط اسم ملف فيديو مرتبط بإطار الفيديو. |
+| [setLinkPathLong(String value)](#setLinkPathLong-java.lang.String-) | يعيد أو يضبط اسم ملف فيديو مرتبط بإطار الفيديو. |
+| [getEmbeddedVideo()](#getEmbeddedVideo--) | يعيد أو يضبط كائن الفيديو المضمن. |
+| [setEmbeddedVideo(IVideo value)](#setEmbeddedVideo-com.aspose.slides.IVideo-) | يعيد أو يضبط كائن الفيديو المضمن. |
+| [getTrimFromStart()](#getTrimFromStart--) | قص البداية [ms] |
+| [setTrimFromStart(float value)](#setTrimFromStart-float-) | قص البداية [ms] |
+| [getTrimFromEnd()](#getTrimFromEnd--) | قص النهاية [ms] |
+| [setTrimFromEnd(float value)](#setTrimFromEnd-float-) | قص النهاية [ms] |
+| [getCaptionTracks()](#getCaptionTracks--) | يحصل على مجموعة التسميات المغلقة المرتبطة بإطار الفيديو. |
 ### getRewindVideo() {#getRewindVideo--}
 ```
 public final boolean getRewindVideo()
 ```
+
 
 يحدد ما إذا كان يتم إرجاع الفيديو تلقائيًا إلى البداية بمجرد انتهاء تشغيل الفيلم. قراءة/كتابة boolean.
 
@@ -55,10 +57,11 @@ boolean
 public final void setRewindVideo(boolean value)
 ```
 
+
 يحدد ما إذا كان يتم إرجاع الفيديو تلقائيًا إلى البداية بمجرد انتهاء تشغيل الفيلم. قراءة/كتابة boolean.
 
 **المعلمات:**
-| المعامل | النوع | الوصف |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -67,7 +70,8 @@ public final void setRewindVideo(boolean value)
 public final boolean getPlayLoopMode()
 ```
 
-يحدد ما إذا كان الفيديو يتكرر. قراءة/كتابة boolean.
+
+يحدد ما إذا كان الفيديو يُعاد تشغيله بشكل متكرر. قراءة/كتابة boolean.
 
 **الإرجاع:**
 boolean
@@ -76,10 +80,11 @@ boolean
 public final void setPlayLoopMode(boolean value)
 ```
 
-يحدد ما إذا كان الفيديو يتكرر. قراءة/كتابة boolean.
+
+يحدد ما إذا كان الفيديو يُعاد تشغيله بشكل متكرر. قراءة/كتابة boolean.
 
 **المعلمات:**
-| المعامل | النوع | الوصف |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -87,6 +92,7 @@ public final void setPlayLoopMode(boolean value)
 ```
 public final boolean getHideAtShowing()
 ```
+
 
 يحدد ما إذا كان إطار الفيديو مخفيًا. قراءة/كتابة boolean.
 
@@ -97,10 +103,11 @@ boolean
 public final void setHideAtShowing(boolean value)
 ```
 
+
 يحدد ما إذا كان إطار الفيديو مخفيًا. قراءة/كتابة boolean.
 
 **المعلمات:**
-| المعامل | النوع | الوصف |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -109,7 +116,8 @@ public final void setHideAtShowing(boolean value)
 public final int getVolume()
 ```
 
-إرجاع أو تعيين حجم الصوت. قراءة/كتابة [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
+
+يعيد أو يضبط مستوى صوت الصوت. قراءة/كتابة [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
 
 **الإرجاع:**
 int
@@ -118,19 +126,80 @@ int
 public final void setVolume(int value)
 ```
 
-إرجاع أو تعيين حجم الصوت. قراءة/كتابة [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
+
+يعيد أو يضبط مستوى صوت الصوت. قراءة/كتابة [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
 
 **المعلمات:**
-| المعامل | النوع | الوصف |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### getVolumeValue() {#getVolumeValue--}
+```
+public final float getVolumeValue()
+```
+
+
+يعيد أو يضبط مستوى صوت الفيديو الدقيق كنسبة مئوية. القيمة معبرة كنسبة مئوية من 0 إلى 100. استخدم هذه الخاصية للقراءة أو الضبط بقيم أكثر دقة من المستويات المحددة مسبقًا المتاحة عبر الخاصية \#getVolume.getVolume/\#setVolume(int).setVolume(int). قراءة/كتابة float .
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video.pptx");
+>  try {
+>      IVideoFrame videoFrame = (IVideoFrame)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // اقرأ الحجم الدقيق الحالي واضبطه إلى 75.5 بالمئة.
+>      float currentVolume = videoFrame.getVolumeValue();
+>      System.out.println(currentVolume);
+>      videoFrame.setVolumeValue(75.5f);
+>      pres.save("video_with_volume.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**الإرجاع:**
+float
+### setVolumeValue(float value) {#setVolumeValue-float-}
+```
+public final void setVolumeValue(float value)
+```
+
+
+يعيد أو يضبط مستوى صوت الفيديو الدقيق كنسبة مئوية. القيمة معبرة كنسبة مئوية من 0 إلى 100. استخدم هذه الخاصية للقراءة أو الضبط بقيم أكثر دقة من المستويات المحددة مسبقًا المتاحة عبر الخاصية \#getVolume.getVolume/\#setVolume(int).setVolume(int). قراءة/كتابة float .
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video.pptx");
+>  try {
+>      IVideoFrame videoFrame = (IVideoFrame)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // اقرأ الحجم الدقيق الحالي واضبطه إلى 75.5 بالمئة.
+>      float currentVolume = videoFrame.getVolumeValue();
+>      System.out.println(currentVolume);
+>      videoFrame.setVolumeValue(75.5f);
+>      pres.save("video_with_volume.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**المعلمات:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | float |  |
 
 ### getPlayMode() {#getPlayMode--}
 ```
 public final int getPlayMode()
 ```
 
-إرجاع أو تعيين وضع تشغيل الفيديو. قراءة/كتابة [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
+
+يعيد أو يضبط وضع تشغيل الفيديو. قراءة/كتابة [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
 
 **الإرجاع:**
 int
@@ -139,10 +208,11 @@ int
 public final void setPlayMode(int value)
 ```
 
-إرجاع أو تعيين وضع تشغيل الفيديو. قراءة/كتابة [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
+
+يعيد أو يضبط وضع تشغيل الفيديو. قراءة/كتابة [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
 
 **المعلمات:**
-| المعامل | النوع | الوصف |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
@@ -150,6 +220,7 @@ public final void setPlayMode(int value)
 ```
 public final boolean getFullScreenMode()
 ```
+
 
 يحدد ما إذا كان يتم عرض الفيديو في وضع ملء الشاشة. قراءة/كتابة boolean.
 
@@ -160,10 +231,11 @@ boolean
 public final void setFullScreenMode(boolean value)
 ```
 
+
 يحدد ما إذا كان يتم عرض الفيديو في وضع ملء الشاشة. قراءة/كتابة boolean.
 
 **المعلمات:**
-| المعامل | النوع | الوصف |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -172,7 +244,8 @@ public final void setFullScreenMode(boolean value)
 public final String getLinkPathLong()
 ```
 
-إرجاع أو تعيين اسم ملف فيديو مرتبط بإطار الفيديو. قراءة/كتابة String.
+
+يعيد أو يضبط اسم ملف فيديو مرتبط بإطار الفيديو. قراءة/كتابة String.
 
 **الإرجاع:**
 java.lang.String
@@ -181,10 +254,11 @@ java.lang.String
 public final void setLinkPathLong(String value)
 ```
 
-إرجاع أو تعيين اسم ملف فيديو مرتبط بإطار الفيديو. قراءة/كتابة String.
+
+يعيد أو يضبط اسم ملف فيديو مرتبط بإطار الفيديو. قراءة/كتابة String.
 
 **المعلمات:**
-| المعامل | النوع | الوصف |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
@@ -193,7 +267,8 @@ public final void setLinkPathLong(String value)
 public final IVideo getEmbeddedVideo()
 ```
 
-إرجاع أو تعيين كائن فيديو مضمّن. قراءة/كتابة [IVideo](../../com.aspose.slides/ivideo).
+
+يعيد أو يضبط كائن الفيديو المضمن. قراءة/كتابة [IVideo](../../com.aspose.slides/ivideo).
 
 **الإرجاع:**
 [IVideo](../../com.aspose.slides/ivideo)
@@ -202,10 +277,11 @@ public final IVideo getEmbeddedVideo()
 public final void setEmbeddedVideo(IVideo value)
 ```
 
-إرجاع أو تعيين كائن فيديو مضمّن. قراءة/كتابة [IVideo](../../com.aspose.slides/ivideo).
+
+يعيد أو يضبط كائن الفيديو المضمن. قراءة/كتابة [IVideo](../../com.aspose.slides/ivideo).
 
 **المعلمات:**
-| المعامل | النوع | الوصف |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | [IVideo](../../com.aspose.slides/ivideo) |  |
 
@@ -214,7 +290,8 @@ public final void setEmbeddedVideo(IVideo value)
 public final float getTrimFromStart()
 ```
 
-بدء القص [ms]
+
+قص البداية [ms]
 
 --------------------
 
@@ -226,9 +303,9 @@ public final float getTrimFromStart()
 >      ISlide slide = pres.getSlides().get_Item(0);
 >      IVideo video = pres.getVideos().addVideo(Files.readAllBytes(Paths.get("video.mp4")));
 >      IVideoFrame videoFrame = slide.getShapes().addVideoFrame(0, 0, 100, 100, video);
->      //ضبط وقت بدء التقطيع 1 ثانية
+>      //حدد وقت البداية للقص 1 ثانية
 >      videoFrame.setTrimFromStart(1000f);
->      //ضبط وقت انتهاء التقطيع 2 ثانية
+>      //حدد وقت النهاية للقص 2 ثانية
 >      videoFrame.setTrimFromEnd(2000f);
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -242,7 +319,8 @@ float
 public final void setTrimFromStart(float value)
 ```
 
-بدء القص [ms]
+
+قص البداية [ms]
 
 --------------------
 
@@ -254,9 +332,9 @@ public final void setTrimFromStart(float value)
 >      ISlide slide = pres.getSlides().get_Item(0);
 >      IVideo video = pres.getVideos().addVideo(Files.readAllBytes(Paths.get("video.mp4")));
 >      IVideoFrame videoFrame = slide.getShapes().addVideoFrame(0, 0, 100, 100, video);
->      //ضبط وقت بدء التقطيع 1 ثانية
+>      //حدد وقت البداية للقص 1 ثانية
 >      videoFrame.setTrimFromStart(1000f);
->      //ضبط وقت انتهاء التقطيع 2 ثانية
+>      //حدد وقت النهاية للقص 2 ثانية
 >      videoFrame.setTrimFromEnd(2000f);
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -264,7 +342,7 @@ public final void setTrimFromStart(float value)
 > ```
 
 **المعلمات:**
-| المعامل | النوع | الوصف |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | float |  |
 
@@ -273,7 +351,8 @@ public final void setTrimFromStart(float value)
 public final float getTrimFromEnd()
 ```
 
-نهاية القص [ms]
+
+قص النهاية [ms]
 
 **الإرجاع:**
 float
@@ -282,10 +361,11 @@ float
 public final void setTrimFromEnd(float value)
 ```
 
-نهاية القص [ms]
+
+قص النهاية [ms]
 
 **المعلمات:**
-| المعامل | النوع | الوصف |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | float |  |
 
@@ -294,7 +374,8 @@ public final void setTrimFromEnd(float value)
 public final ICaptionsCollection getCaptionTracks()
 ```
 
-يجلب مجموعة التعليقات المغلقة المرتبطة بإطار الفيديو. هذه الخاصية للقراءة فقط وتُرجع [ICaptionsCollection](../../com.aspose.slides/icaptionscollection) يحتوي على جميع مسارات التعليقات.
+
+يحصل على مجموعة التسميات المغلقة المرتبطة بإطار الفيديو. هذه الخاصية للقراءة فقط وتعيد [ICaptionsCollection](../../com.aspose.slides/icaptionscollection) يحتوي على جميع مسارات التسمية.
 
 --------------------
 
@@ -310,7 +391,7 @@ public final ICaptionsCollection getCaptionTracks()
 >          IVideoFrame videoFrame = (IVideoFrame) shape;
 >          for (ICaptions captionTrack : videoFrame.getCaptionTracks())
 >          {
->              // يستخرج البيانات الثنائية للتعليقات ويحفظها في الملف
+>              // يستخرج البيانات الثنائية للتسميات ويحفظها إلى الملف
 >              FileOutputStream fos = new FileOutputStream(captionTrack.getCaptionId() + ".vtt");
 >              fos.write(captionTrack.getBinaryData());
 >              fos.close();

@@ -1,7 +1,7 @@
 ---
 title: IDataLabelCollection
 second_title: Aspose.Slides för Java API-referens
-description: Representerar serietiketter.
+description: Representerar en serie etiketter.
 type: docs
 url: /sv/com.aspose.slides/idatalabelcollection/
 ---
@@ -11,31 +11,32 @@ com.aspose.ms.System.Collections.Generic.IGenericEnumerable, [com.aspose.slides.
 public interface IDataLabelCollection extends System.Collections.Generic.IGenericEnumerable<IDataLabel>, IChartComponent
 ```
 
-Representerar serietiketter.
+Representerar en serie etiketter.
 ## Metoder
 
 | Metod | Beskrivning |
 | --- | --- |
-| [get_Item(int index)](#get-Item-int-) | Hämtar dataetiketten för datapunkten med angivet index. |
+| [get_Item(int index)](#get-Item-int-) | Hämtar dataetiketten för datapunkten med det angivna indexet. |
 | [getDefaultDataLabelFormat()](#getDefaultDataLabelFormat--) | Returnerar standardformatet för alla dataetiketter i samlingen. |
-| [getLeaderLinesFormat()](#getLeaderLinesFormat--) | Representerar formatet för ledarlinjer för dataetiketter. |
-| [isVisible()](#isVisible--) | Falskt betyder att dataetiketten inte är synlig som standard (och således är alla Show*-flaggor (ShowValue, ...) för egenskapen DefaultDataLabelFormat falska). |
-| [hide()](#hide--) | Gör dataetiketten dold som standard genom att sätta alla Show*-flaggor (ShowValue, ...) för egenskapen DefaultDataLabelFormat till falskt. |
+| [getLeaderLinesFormat()](#getLeaderLinesFormat--) | Representerar dataetiketternas ledarlinjeformat. |
+| [isVisible()](#isVisible--) | False betyder att dataetiketten inte är synlig som standard (och så är alla Show*-flaggor (ShowValue, ...) i egenskapen DefaultDataLabelFormat falska). |
+| [hide()](#hide--) | Gör dataetiketten dold som standard genom att sätta alla Show*-flaggor (ShowValue, ...) i egenskapen DefaultDataLabelFormat till falskt. |
 | [getCountOfVisibleDataLabels()](#getCountOfVisibleDataLabels--) | Hämtar antalet synliga dataetiketter i samlingen. |
-| [getCount()](#getCount--) | Hämtar antalet dataetiketter i samlingen. |
-| [getParentSeries()](#getParentSeries--) | Returnerar föräldra diagramserie. |
+| [getCount()](#getCount--) | Hämtar antalet alla dataetiketter i samlingen. |
+| [getParentSeries()](#getParentSeries--) | Returnerar föräldrakartserien. |
 | [indexOf(IDataLabel value)](#indexOf-com.aspose.slides.IDataLabel-) | Returnerar ett index för den angivna DataLabel i samlingen. |
+| [getDefaultLabelShapeType()](#getDefaultLabelShapeType--) | Hämtar eller anger standardformen för dataetiketter. |
+| [setDefaultLabelShapeType(int value)](#setDefaultLabelShapeType-int-) | Hämtar eller anger standardformen för dataetiketter. |
 ### get_Item(int index) {#get-Item-int-}
 ```
 public abstract IDataLabel get_Item(int index)
 ```
 
-
-Hämtar dataetiketten för datapunkten med angivet index.
+Hämtar dataetiketten för datapunkten med det angivna indexet.
 
 --------------------
 
-Alternativt sätt att komma åt dataetikett är: - getSeries().getDataPoints().get_Item(i).getLabel() - hantera etikettens egenskaper.
+Alternativt sätt att komma åt dataetikett är: - getSeries().getDataPoints().get_Item(i).getLabel() - hantera etikettregenskaper.
 
 **Parametrar:**
 | Parameter | Typ | Beskrivning |
@@ -49,8 +50,7 @@ Alternativt sätt att komma åt dataetikett är: - getSeries().getDataPoints().g
 public abstract IDataLabelFormat getDefaultDataLabelFormat()
 ```
 
-
-Returnerar standardformatet för alla dataetiketter i samlingen. Skrivskyddad [IDataLabelFormat](../../com.aspose.slides/idatalabelformat).
+Returnerar standardformatet för alla dataetiketter i samlingen. Endast läsbar [IDataLabelFormat](../../com.aspose.slides/idatalabelformat).
 
 **Returnerar:**
 [IDataLabelFormat](../../com.aspose.slides/idatalabelformat)
@@ -59,8 +59,7 @@ Returnerar standardformatet för alla dataetiketter i samlingen. Skrivskyddad [I
 public abstract IChartLinesFormat getLeaderLinesFormat()
 ```
 
-
-Representerar formatet för ledarlinjer för dataetiketter. Skrivskyddad [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat).
+Representerar dataetiketternas ledarlinjeformat. Endast läsbar [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat).
 
 --------------------
 
@@ -86,12 +85,11 @@ Representerar formatet för ledarlinjer för dataetiketter. Skrivskyddad [IChart
 public abstract boolean isVisible()
 ```
 
-
-Falskt betyder att dataetiketten inte är synlig som standard (och således är alla Show*-flaggor (ShowValue, ...) för egenskapen DefaultDataLabelFormat falska). Skrivskyddad  boolean .
+False betyder att dataetiketten inte är synlig som standard (och så är alla Show*-flaggor (ShowValue, ...) i egenskapen DefaultDataLabelFormat falska). Endast läsbar  boolean .
 
 --------------------
 
-Om dataetiketten är synlig som standard kan du göra den dold som standard med Hide()-metoden. Men om dataetiketten inte är synlig som standard (IsVisible är falskt) kan du göra dataetiketten "synlig som standard" genom att sätta Show*-flaggor (ShowValue, ...) för egenskapen DefaultDataLabelFormat till sant läge.
+Om dataetiketten är synlig som standard kan du göra den dold som standard med Hide()-metoden. Men om dataetiketten inte är synlig som standard (IsVisible är false) kan du göra dataetiketten "synlig som standard" genom att sätta Show*-flaggor (ShowValue, ...) i egenskapen DefaultDataLabelFormat till sant.
 
 **Returnerar:**
 boolean
@@ -100,20 +98,18 @@ boolean
 public abstract void hide()
 ```
 
-
-Gör dataetiketten dold som standard genom att sätta alla Show*-flaggor (ShowValue, ...) för egenskapen DefaultDataLabelFormat till falskt. IsVisible blir falskt efter detta.
+Gör dataetiketten dold som standard genom att sätta alla Show*-flaggor (ShowValue, ...) i egenskapen DefaultDataLabelFormat till falskt. IsVisible kommer att vara false efter detta.
 
 --------------------
 
-Om dataetiketten inte är synlig som standard (IsVisible är falskt) kan du göra dataetiketten "synlig som standard" genom att sätta Show*-flaggor (ShowValue, ...) för egenskapen DefaultDataLabelFormat till sant läge.
+Om dataetiketten inte är synlig som standard (IsVisible är false) kan du göra dataetiketten "synlig som standard" genom att sätta Show*-flaggor (ShowValue, ...) i egenskapen DefaultDataLabelFormat till sant.
 
 ### getCountOfVisibleDataLabels() {#getCountOfVisibleDataLabels--}
 ```
 public abstract int getCountOfVisibleDataLabels()
 ```
 
-
-Hämtar antalet synliga dataetiketter i samlingen. Skrivskyddad  int .
+Hämtar antalet synliga dataetiketter i samlingen. Endast läsbar  int .
 
 **Returnerar:**
 int
@@ -122,8 +118,7 @@ int
 public abstract int getCount()
 ```
 
-
-Hämtar antalet dataetiketter i samlingen. Skrivskyddad  int .
+Hämtar antalet alla dataetiketter i samlingen. Endast läsbar  int .
 
 **Returnerar:**
 int
@@ -132,8 +127,7 @@ int
 public abstract IChartSeries getParentSeries()
 ```
 
-
-Returnerar föräldra diagramserie. Skrivskyddad [IChartSeries](../../com.aspose.slides/ichartseries).
+Returnerar föräldrakartserien. Endast läsbar [IChartSeries](../../com.aspose.slides/ichartseries).
 
 **Returnerar:**
 [IChartSeries](../../com.aspose.slides/ichartseries)
@@ -141,7 +135,6 @@ Returnerar föräldra diagramserie. Skrivskyddad [IChartSeries](../../com.aspose
 ```
 public abstract int indexOf(IDataLabel value)
 ```
-
 
 Returnerar ett index för den angivna DataLabel i samlingen.
 
@@ -152,3 +145,61 @@ Returnerar ett index för den angivna DataLabel i samlingen.
 
 **Returnerar:**
 int - Index för en DataLabel eller -1 om DataLabel inte kommer från denna samling.
+### getDefaultLabelShapeType() {#getDefaultLabelShapeType--}
+```
+public abstract int getDefaultLabelShapeType()
+```
+
+Hämtar eller anger standardformen för dataetiketter. Returnerar [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) om ingen form är definierad.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Sätt formtypen för alla dataetiketter i den första serien till Ellipse.
+>      firstSeries.getLabels().setDefaultLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabels.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+Att sätta denna egenskap sätter också egenskapen IDataLabel.LabelShapeType ([IDataLabel.getLabelShapeType](../../com.aspose.slides/idatalabel\#getLabelShapeType)/[IDataLabel.setLabelShapeType(int)](../../com.aspose.slides/idatalabel\#setLabelShapeType-int-)) för alla dataetiketter i samlingen till samma värde.
+
+**Returnerar:**
+int
+### setDefaultLabelShapeType(int value) {#setDefaultLabelShapeType-int-}
+```
+public abstract void setDefaultLabelShapeType(int value)
+```
+
+Hämtar eller anger standardformen för dataetiketter. Returnerar [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) om ingen form är definierad.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Sätt formtypen för alla dataetiketter i den första serien till Ellipse.
+>      firstSeries.getLabels().setDefaultLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabels.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+Att sätta denna egenskap sätter också egenskapen IDataLabel.LabelShapeType ([IDataLabel.getLabelShapeType](../../com.aspose.slides/idatalabel\#getLabelShapeType)/[IDataLabel.setLabelShapeType(int)](../../com.aspose.slides/idatalabel\#setLabelShapeType-int-)) för alla dataetiketter i samlingen till samma värde.
+
+**Parametrar:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| value | int |  |

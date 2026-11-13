@@ -15,22 +15,22 @@ public class DataLabel implements IDataLabel, IDOMObject
 ```
 
 Reprezentuje etykiety serii.
-## Konstruktory
+## Konstruktorzy
 
 | Konstruktor | Opis |
 | --- | --- |
-| [DataLabel(IChartDataPoint parentImmediate)](#DataLabel-com.aspose.slides.IChartDataPoint-) | Utworzy nową instancję klasy DataLabel. |
+| [DataLabel(IChartDataPoint parentImmediate)](#DataLabel-com.aspose.slides.IChartDataPoint-) | Tworzy nową instancję klasy DataLabel. |
 ## Metody
 
 | Metoda | Opis |
 | --- | --- |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
 | [getChart()](#getChart--) | Zwraca wykres nadrzędny. |
-| [isVisible()](#isVisible--) | False oznacza, że etykieta danych nie jest widoczna (i tak więc wszystkie flagi Show\*- (ShowValue, ...) są false). |
-| [hide()](#hide--) | Ukryj etykietę danych, ustawiając wszystkie flagi Show\*- (ShowValue, ...) na stan false. |
+| [isVisible()](#isVisible--) | False oznacza, że etykieta danych nie jest widoczna (a więc wszystkie flagi Show*- (ShowValue, ...) są false). |
+| [hide()](#hide--) | Ukrywa etykietę danych, ustawiając wszystkie flagi Show*- (ShowValue, ...) w stan false. |
 | [getActualLabelText()](#getActualLabelText--) | Zwraca rzeczywisty tekst etykiety na podstawie ustawień DataLabelFormat lub wartości TextFrameForOverriding.Text. |
-| [addTextFrameForOverriding(String text)](#addTextFrameForOverriding-java.lang.String-) | Inicjalizuje TextFrameForOverriding przy użyciu tekstu w parametrze "text". |
-| [getTextFrameForOverriding()](#getTextFrameForOverriding--) | Może zawierać tekst sformatowany bogato. |
+| [addTextFrameForOverriding(String text)](#addTextFrameForOverriding-java.lang.String-) | Inicjalizuje TextFrameForOverriding tekstem z parametru "text". |
+| [getTextFrameForOverriding()](#getTextFrameForOverriding--) | Może zawierać sformatowany bogaty tekst. |
 | [getTextFormat()](#getTextFormat--) | Zwraca format tekstu. |
 | [getX()](#getX--) | Zwraca lub ustawia współrzędną x tytułu jako ułamek szerokości wykresu. |
 | [setX(float value)](#setX-float-) | Zwraca lub ustawia współrzędną x tytułu jako ułamek szerokości wykresu. |
@@ -45,7 +45,9 @@ Reprezentuje etykiety serii.
 | [getDataLabelFormat()](#getDataLabelFormat--) | Zwraca format etykiety danych. |
 | [getValueFromCell()](#getValueFromCell--) | Pobiera lub ustawia komórkę danych skoroszytu. |
 | [setValueFromCell(IChartDataCell value)](#setValueFromCell-com.aspose.slides.IChartDataCell-) | Pobiera lub ustawia komórkę danych skoroszytu. |
-| [getActualX()](#getActualX--) | Określa rzeczywistą pozycję x (lewo) elementu wykresu względem lewego górnego rogu wykresu. |
+| [getLabelShapeType()](#getLabelShapeType--) | Pobiera lub ustawia typ kształtu etykiety danych. |
+| [setLabelShapeType(int value)](#setLabelShapeType-int-) | Pobiera lub ustawia typ kształtu etykiety danych. |
+| [getActualX()](#getActualX--) | Określa rzeczywistą pozycję x (lewa) elementu wykresu względem lewego górnego rogu wykresu. |
 | [getActualY()](#getActualY--) | Określa rzeczywistą górę elementu wykresu względem lewego górnego rogu wykresu. |
 | [getActualWidth()](#getActualWidth--) | Określa rzeczywistą szerokość elementu wykresu. |
 | [getActualHeight()](#getActualHeight--) | Określa rzeczywistą wysokość elementu wykresu. |
@@ -56,12 +58,13 @@ Reprezentuje etykiety serii.
 public DataLabel(IChartDataPoint parentImmediate)
 ```
 
-Utworzy nową instancję klasy DataLabel.
+Tworzy nową instancję klasy DataLabel.
 
 **Parametry:**
 | Parametr | Typ | Opis |
 | --- | --- | --- |
 | parentImmediate | [IChartDataPoint](../../com.aspose.slides/ichartdatapoint) | Nadrzędny ChartDataPoint. |
+
 ### getParent_Immediate() {#getParent-Immediate--}
 ```
 public final IDOMObject getParent_Immediate()
@@ -85,11 +88,11 @@ Zwraca wykres nadrzędny. Tylko do odczytu [IChart](../../com.aspose.slides/icha
 public final boolean isVisible()
 ```
 
-False oznacza, że etykieta danych nie jest widoczna (i wszystkie flagi Show\*- (ShowValue, ...) są false). Tylko do odczytu boolean.
+False oznacza, że etykieta danych nie jest widoczna (a więc wszystkie flagi Show*- (ShowValue, ...) są false). Tylko do odczytu  boolean .
 
 --------------------
 
-Jeśli etykieta danych jest widoczna, możesz ją ukryć metodą Hide(). Jeśli etykieta danych nie jest widoczna (IsVisible jest false), możesz ją zrobić widoczną, ustawiając flagi Show\*- (ShowValue, ...) na stan true.
+Jeśli etykieta danych jest widoczna, możesz ją ukryć metodą Hide(). Jeśli etykieta danych nie jest widoczna (IsVisible jest false), możesz ją uczynić widoczną, ustawiając flagi Show*- (ShowValue, ...) w stan true.
 
 **Zwraca:**
 boolean
@@ -98,11 +101,12 @@ boolean
 public final void hide()
 ```
 
-Ukrywa etykietę danych, ustawiając wszystkie flagi Show\*- (ShowValue, ...) na stan false. Po tym IsVisible będzie false.
+Ukrywa etykietę danych, ustawiając wszystkie flagi Show*- (ShowValue, ...) w stan false. IsVisible będzie false po tej operacji.
 
 --------------------
 
-Jeśli etykieta danych nie jest widoczna (IsVisible jest false), możesz ją zrobić widoczną, ustawiając flagi Show\*- (ShowValue, ...) na stan true.
+Jeśli etykieta danych nie jest widoczna (IsVisible jest false), możesz ją uczynić widoczną, ustawiając flagi Show*- (ShowValue, ...) w stan true.
+
 ### getActualLabelText() {#getActualLabelText--}
 ```
 public final String getActualLabelText()
@@ -117,7 +121,7 @@ java.lang.String - Obiekt java.lang.String.
 public final ITextFrame addTextFrameForOverriding(String text)
 ```
 
-Inicjalizuje TextFrameForOverriding przy użyciu tekstu w parametrze "text". Jeśli TextFrameForOverriding jest już zainicjowany, po prostu zmienia jego tekst.
+Inicjalizuje TextFrameForOverriding tekstem z parametru "text". Jeśli TextFrameForOverriding jest już zainicjowany, po prostu zmienia jego tekst.
 
 **Parametry:**
 | Parametr | Typ | Opis |
@@ -131,7 +135,7 @@ Inicjalizuje TextFrameForOverriding przy użyciu tekstu w parametrze "text". Je�
 public final ITextFrame getTextFrameForOverriding()
 ```
 
-Może zawierać bogato sformatowany tekst. Jeśli ta właściwość nie jest nullem, wartość tego sformatowanego tekstu zastępuje automatycznie generowany tekst etykiety danych. Automatycznie generowany tekst etykiety danych oznacza tekst zarządzany przez właściwości ShowSeriesName, ShowValue, ... i formatowany przy użyciu właściwości TextFormatManager.TextFormat. Tylko do odczytu [ITextFrame](../../com.aspose.slides/itextframe).
+Może zawierać sformatowany bogaty tekst. Jeśli ta właściwość nie jest null, ten sformatowany tekst zastępuje automatycznie generowany tekst etykiety danych. Automatycznie generowany tekst etykiety danych oznacza tekst zarządzany przez właściwości ShowSeriesName, ShowValue, ... i formatowany właściwością TextFormatManager.TextFormat. Tylko do odczytu [ITextFrame](../../com.aspose.slides/itextframe).
 
 **Zwraca:**
 [ITextFrame](../../com.aspose.slides/itextframe)
@@ -149,7 +153,7 @@ Zwraca format tekstu. Tylko do odczytu [IChartTextFormat](../../com.aspose.slide
 public final float getX()
 ```
 
-Zwraca lub ustawia współrzędną x tytułu jako ułamek szerokości wykresu. Odczyt/zapis float.
+Zwraca lub ustawia współrzędną x tytułu jako ułamek szerokości wykresu. Tylko do odczytu/zapisu  float .
 
 **Zwraca:**
 float
@@ -158,18 +162,19 @@ float
 public final void setX(float value)
 ```
 
-Zwraca lub ustawia współrzędną x tytułu jako ułamek szerokości wykresu. Odczyt/zapis float.
+Zwraca lub ustawia współrzędną x tytułu jako ułamek szerokości wykresu. Tylko do odczytu/zapisu  float .
 
 **Parametry:**
 | Parametr | Typ | Opis |
 | --- | --- | --- |
 | value | float |  |
+
 ### getY() {#getY--}
 ```
 public final float getY()
 ```
 
-Zwraca lub ustawia współrzędną y tytułu jako ułamek wysokości wykresu. Odczyt/zapis float.
+Zwraca lub ustawia współrzędną y tytułu jako ułamek wysokości wykresu. Tylko do odczytu/zapisu  float .
 
 **Zwraca:**
 float
@@ -178,18 +183,19 @@ float
 public final void setY(float value)
 ```
 
-Zwraca lub ustawia współrzędną y tytułu jako ułamek wysokości wykresu. Odczyt/zapis float.
+Zwraca lub ustawia współrzędną y tytułu jako ułamek wysokości wykresu. Tylko do odczytu/zapisu  float .
 
 **Parametry:**
 | Parametr | Typ | Opis |
 | --- | --- | --- |
 | value | float |  |
+
 ### getWidth() {#getWidth--}
 ```
 public final float getWidth()
 ```
 
-Zwraca lub ustawia szerokość tytułu jako ułamek szerokości wykresu. Odczyt/zapis float.
+Zwraca lub ustawia szerokość tytułu jako ułamek szerokości wykresu. Tylko do odczytu/zapisu  float .
 
 **Zwraca:**
 float
@@ -198,18 +204,19 @@ float
 public final void setWidth(float value)
 ```
 
-Zwraca lub ustawia szerokość tytułu jako ułamek szerokości wykresu. Odczyt/zapis float.
+Zwraca lub ustawia szerokość tytułu jako ułamek szerokości wykresu. Tylko do odczytu/zapisu  float .
 
 **Parametry:**
 | Parametr | Typ | Opis |
 | --- | --- | --- |
 | value | float |  |
+
 ### getHeight() {#getHeight--}
 ```
 public final float getHeight()
 ```
 
-Zwraca lub ustawia wysokość tytułu jako ułamek wysokości wykresu. Odczyt/zapis float.
+Zwraca lub ustawia wysokość tytułu jako ułamek wysokości wykresu. Tylko do odczytu/zapisu  float .
 
 **Zwraca:**
 float
@@ -218,18 +225,19 @@ float
 public final void setHeight(float value)
 ```
 
-Zwraca lub ustawia wysokość tytułu jako ułamek wysokości wykresu. Odczyt/zapis float.
+Zwraca lub ustawia wysokość tytułu jako ułamek wysokości wykresu. Tylko do odczytu/zapisu  float .
 
 **Parametry:**
 | Parametr | Typ | Opis |
 | --- | --- | --- |
 | value | float |  |
+
 ### getRight() {#getRight--}
 ```
 public final float getRight()
 ```
 
-Prawo. Tylko do odczytu float.
+Prawo. Tylko do odczytu  float .
 
 **Zwraca:**
 float
@@ -238,7 +246,7 @@ float
 public final float getBottom()
 ```
 
-Dół. Tylko do odczytu float.
+Dół. Tylko do odczytu  float .
 
 **Zwraca:**
 float
@@ -256,7 +264,7 @@ Zwraca format etykiety danych. Tylko do odczytu [IDataLabelFormat](../../com.asp
 public final IChartDataCell getValueFromCell()
 ```
 
-Pobiera lub ustawia komórkę danych skoroszytu. Zastosowane, jeśli właściwość IDataLabelFormat.ShowLabelValueFromCell jest równa true.
+Pobiera lub ustawia komórkę danych skoroszytu. Stosowane, jeśli właściwość IDataLabelFormat.ShowLabelValueFromCell jest true.
 
 **Zwraca:**
 [IChartDataCell](../../com.aspose.slides/ichartdatacell)
@@ -265,18 +273,70 @@ Pobiera lub ustawia komórkę danych skoroszytu. Zastosowane, jeśli właściwo�
 public final void setValueFromCell(IChartDataCell value)
 ```
 
-Pobiera lub ustawia komórkę danych skoroszytu. Zastosowane, jeśli właściwość IDataLabelFormat.ShowLabelValueFromCell jest równa true.
+Pobiera lub ustawia komórkę danych skoroszytu. Stosowane, jeśli właściwość IDataLabelFormat.ShowLabelValueFromCell jest true.
 
 **Parametry:**
 | Parametr | Typ | Opis |
 | --- | --- | --- |
 | value | [IChartDataCell](../../com.aspose.slides/ichartdatacell) |  |
+
+### getLabelShapeType() {#getLabelShapeType--}
+```
+public final int getLabelShapeType()
+```
+
+Pobiera lub ustawia typ kształtu etykiety danych. Zwraca [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) jeśli nie określono kształtu.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Ustaw typ kształtu pierwszej etykiety danych na Ellipse.
+>      firstSeries.getLabels().get_Item(0).setLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabel.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Zwraca:**
+int
+### setLabelShapeType(int value) {#setLabelShapeType-int-}
+```
+public final void setLabelShapeType(int value)
+```
+
+Pobiera lub ustawia typ kształtu etykiety danych. Zwraca [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) jeśli nie określono kształtu.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Ustaw typ kształtu pierwszej etykiety danych na Ellipse.
+>      firstSeries.getLabels().get_Item(0).setLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabel.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parametry:**
+| Parametr | Typ | Opis |
+| --- | --- | --- |
+| value | int |  |
+
 ### getActualX() {#getActualX--}
 ```
 public final float getActualX()
 ```
 
-Określa rzeczywistą pozycję x (lewo) elementu wykresu względem lewego górnego rogu wykresu. Wywołaj metodę IChart.ValidateChartLayout() przed uzyskaniem rzeczywistych wartości. Tylko do odczytu float.
+Określa rzeczywistą pozycję x (lewa) elementu wykresu względem lewego górnego rogu wykresu. Wywołaj metodę IChart.ValidateChartLayout() przed odczytem rzeczywistych wartości. Tylko do odczytu float.
 
 **Zwraca:**
 float
@@ -285,7 +345,7 @@ float
 public final float getActualY()
 ```
 
-Określa rzeczywistą górę elementu wykresu względem lewego górnego rogu wykresu. Wywołaj metodę IChart.ValidateChartLayout() przed uzyskaniem rzeczywistych wartości. Tylko do odczytu float.
+Określa rzeczywistą górę elementu wykresu względem lewego górnego rogu wykresu. Wywołaj metodę IChart.ValidateChartLayout() przed odczytem rzeczywistych wartości. Tylko do odczytu float.
 
 **Zwraca:**
 float
@@ -294,7 +354,7 @@ float
 public final float getActualWidth()
 ```
 
-Określa rzeczywistą szerokość elementu wykresu. Wywołaj metodę IChart.ValidateChartLayout() przed uzyskaniem rzeczywistych wartości. Tylko do odczytu float.
+Określa rzeczywistą szerokość elementu wykresu. Wywołaj metodę IChart.ValidateChartLayout() przed odczytem rzeczywistych wartości. Tylko do odczytu float.
 
 **Zwraca:**
 float
@@ -303,7 +363,7 @@ float
 public final float getActualHeight()
 ```
 
-Określa rzeczywistą wysokość elementu wykresu. Wywołaj metodę IChart.ValidateChartLayout() przed uzyskaniem rzeczywistych wartości. Tylko do odczytu float.
+Określa rzeczywistą wysokość elementu wykresu. Wywołaj metodę IChart.ValidateChartLayout() przed odczytem rzeczywistych wartości. Tylko do odczytu float.
 
 **Zwraca:**
 float

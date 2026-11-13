@@ -1,6 +1,6 @@
 ---
 title: ChartCategory
-second_title: Aspose.Slides для Java API Reference
+second_title: Справочник API Aspose.Slides для Java
 description: Представляет категории диаграммы.
 type: docs
 url: /ru/com.aspose.slides/chartcategory/
@@ -24,22 +24,22 @@ public class ChartCategory implements IChartCategory, IDOMObject
 | [setAsCell(IChartDataCell value)](#setAsCell-com.aspose.slides.IChartDataCell-) | Возвращает или задает объект IChartDataCell. |
 | [getAsLiteral()](#getAsLiteral--) | Возвращает или задает объект AsLiteral. |
 | [setAsLiteral(Object value)](#setAsLiteral-java.lang.Object-) | Возвращает или задает объект AsLiteral. |
-| [getValue()](#getValue--) | Если UseCell равно true, то это свойство представляет свойство AsCell.Value. |
-| [setValue(Object value)](#setValue-java.lang.Object-) | Если UseCell равно true, то это свойство представляет свойство AsCell.Value. |
+| [getValue()](#getValue--) | Если UseCell = true, то это свойство представляет свойство AsCell.Value. |
+| [setValue(Object value)](#setValue-java.lang.Object-) | Если UseCell = true, то это свойство представляет свойство AsCell.Value. |
 | [getGroupingLevels()](#getGroupingLevels--) | Управляемый контейнер значений уровней группировки категорий диаграммы. |
+| [getCachedValue()](#getCachedValue--) | Получает кэшированное значение категории диаграммы. |
 | [remove()](#remove--) | Удаляет категорию из диаграммы. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-
 ### getUseCell() {#getUseCell--}
 ```
 public final boolean getUseCell()
 ```
 
-Если true, то свойство AsCell актуально. Другими словами, лист используется для хранения категории (в этом случае поддерживается многоуровневая категория). Если false, то свойство AsLiteral актуально. Другими словами, лист НЕ используется для хранения категории (и в этом случае не поддерживается многоуровневые категории). Только для чтения, тип boolean.
+Если true, то свойство AsCell актуально. Другими словами, лист используется для хранения категории (в этом случае поддерживается многоуровневая категория). Если false, то свойство AsLiteral актуально. Другими словами, лист НЕ используется для хранения категории (и в этом случае не поддерживаются многоуровневые категории). Только для чтения, тип boolean.
 
 --------------------
 
-Чтобы изменить значение этого свойства (для всех категорий в коллекции), задайте новое значение свойству ChartCategoryCollection.UseCells property.
+Для изменения значения этого свойства (для всех категорий в коллекции) установите новое значение в свойство ChartCategoryCollection.UseCells property.
 
 **Возвращаемое значение:**
 boolean
@@ -63,7 +63,6 @@ public final void setAsCell(IChartDataCell value)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | value | [IChartDataCell](../../com.aspose.slides/ichartdatacell) |  |
-
 ### getAsLiteral() {#getAsLiteral--}
 ```
 public final Object getAsLiteral()
@@ -84,13 +83,12 @@ public final void setAsLiteral(Object value)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | value | java.lang.Object |  |
-
 ### getValue() {#getValue--}
 ```
 public final Object getValue()
 ```
 
-Если UseCell равно true, то это свойство представляет свойство AsCell.Value. Если UseCell равно false, то это свойство представляет свойство AsLiteral. Чтение/запись Object.
+Если UseCell = true, то это свойство представляет свойство AsCell.Value. Если UseCell = false, то это свойство представляет свойство AsLiteral. Чтение/запись Object.
 
 **Возвращаемое значение:**
 java.lang.Object
@@ -99,22 +97,46 @@ java.lang.Object
 public final void setValue(Object value)
 ```
 
-Если UseCell равно true, то это свойство представляет свойство AsCell.Value. Если UseCell равно false, то это свойство представляет свойство AsLiteral. Чтение/запись Object.
+Если UseCell = true, то это свойство представляет свойство AsCell.Value. Если UseCell = false, то это свойство представляет свойство AsLiteral. Чтение/запись Object.
 
 **Параметры:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | value | java.lang.Object |  |
-
 ### getGroupingLevels() {#getGroupingLevels--}
 ```
 public final IChartCategoryLevelsManager getGroupingLevels()
 ```
 
-Управляемый контейнер значений уровней группировки категорий диаграммы. Многоуровневая категория содержит более одного уровня группировки. Индексация уровней группировки начинается с нуля. Только для чтения [IChartCategoryLevelsManager](../../com.aspose.slides/ichartcategorylevelsmanager).
+Управляемый контейнер значений уровней группировки категорий диаграммы. Многоуровневая категория содержит более одного уровня группировки. Индексация уровней начинается с нуля. Только для чтения [IChartCategoryLevelsManager](../../com.aspose.slides/ichartcategorylevelsmanager).
 
 **Возвращаемое значение:**
 [IChartCategoryLevelsManager](../../com.aspose.slides/ichartcategorylevelsmanager)
+### getCachedValue() {#getCachedValue--}
+```
+public final ICachedChartValue getCachedValue()
+```
+
+Получает кэшированное значение категории диаграммы. Только для чтения [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx")
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+> 
+>      // Вывести все кэшированные значения категорий диаграммы.
+>      for (IChartCategory category : chart.getChartData().getCategories())
+>          System.out.println(category.getCachedValue().toString());
+>  } finally {
+>      pres.dispose();
+>  }
+> ```
+
+
+**Возвращаемое значение:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
 ### remove() {#remove--}
 ```
 public final void remove()

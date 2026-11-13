@@ -5,10 +5,10 @@ description: Mengelola font di seluruh presentasi.
 type: docs
 url: /id/com.aspose.slides/fontsmanager/
 ---
-**Inheritance:**
+**Pewarisan:**
 java.lang.Object
 
-**All Implemented Interfaces:**
+**Semua Antarmuka yang Diimplementasikan:**
 [com.aspose.slides.IFontsManager](../../com.aspose.slides/ifontsmanager)
 ```
 public class FontsManager implements IFontsManager
@@ -21,10 +21,10 @@ Mengelola font di seluruh presentasi.
 > ```
 > The following example shows how to add embedded fonts to PowerPoint Presentation.
 >  
->  // Memuat presentasi
+>  // Muat presentasi
 >  Presentation pres = new Presentation("Fonts.pptx");
 >  try {
->      // Memuat font sumber yang akan diganti
+>      // Muat font sumber yang akan diganti
 >      IFontData sourceFont = new FontData("Arial");
 >      IFontData[] allFonts = pres.getFontsManager().getFonts();
 >      for (IFontData font : allFonts)
@@ -52,41 +52,43 @@ Mengelola font di seluruh presentasi.
 
 ## Metode
 
-| Method | Description |
+| Metode | Deskripsi |
 | --- | --- |
-| [getFontSubstRuleList()](#getFontSubstRuleList--) | Substitusi font yang digunakan saat rendering. |
-| [setFontSubstRuleList(IFontSubstRuleCollection value)](#setFontSubstRuleList-com.aspose.slides.IFontSubstRuleCollection-) | Substitusi font yang digunakan saat rendering. |
-| [getFontFallBackRulesCollection()](#getFontFallBackRulesCollection--) | Mewakili koleksi aturan FontFallBack milik pengguna untuk mengelola kumpulan font demi substitusi yang tepat melalui fungsi fallback Baca/tulis [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
-| [setFontFallBackRulesCollection(IFontFallBackRulesCollection value)](#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-) | Mewakili koleksi aturan FontFallBack milik pengguna untuk mengelola kumpulan font demi substitusi yang tepat melalui fungsi fallback Baca/tulis [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
+| [getFontSubstRuleList()](#getFontSubstRuleList--) | Penggantian font yang digunakan saat merender. |
+| [setFontSubstRuleList(IFontSubstRuleCollection value)](#setFontSubstRuleList-com.aspose.slides.IFontSubstRuleCollection-) | Penggantian font yang digunakan saat merender. |
+| [getFontFallBackRulesCollection()](#getFontFallBackRulesCollection--) | Merepresentasikan kumpulan aturan FontFallBack milik pengguna untuk mengelola koleksi font demi penggantian yang tepat melalui fungsi fallback Baca/tulis [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
+| [setFontFallBackRulesCollection(IFontFallBackRulesCollection value)](#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-) | Merepresentasikan kumpulan aturan FontFallBack milik pengguna untuk mengelola koleksi font demi penggantian yang tepat melalui fungsi fallback Baca/tulis [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
 | [getFonts()](#getFonts--) | Mengembalikan font yang digunakan dalam presentasi |
 | [getSubstitutions()](#getSubstitutions--) | Mendapatkan informasi tentang font yang akan diganti pada rendering presentasi. |
 | [getSubstitutions(int[] slides)](#getSubstitutions-int---) | Mendapatkan informasi tentang font yang akan diganti selama rendering slide yang ditentukan. |
-| [getEmbeddedFonts()](#getEmbeddedFonts--) | Mengembalikan font yang disematkan dalam presentasi |
-| [removeEmbeddedFont(IFontData fontData)](#removeEmbeddedFont-com.aspose.slides.IFontData-) | Menghapus font yang disematkan |
-| [addEmbeddedFont(IFontData fontData, int embedFontRule)](#addEmbeddedFont-com.aspose.slides.IFontData-int-) | Menambahkan font yang disematkan |
-| [addEmbeddedFont(byte[] fontData, int embedFontRule)](#addEmbeddedFont-byte---int-) | Menambahkan font yang disematkan |
-| [replaceFont(IFontData sourceFont, IFontData destFont)](#replaceFont-com.aspose.slides.IFontData-com.aspose.slides.IFontData-) | Mengganti font dalam presentasi |
-| [replaceFont(IFontSubstRule substRule)](#replaceFont-com.aspose.slides.IFontSubstRule-) | Mengganti font dalam presentasi menggunakan informasi yang disediakan dalam [FontSubstRule](../../com.aspose.slides/fontsubstrule) |
-| [replaceFont(IFontSubstRuleCollection substRules)](#replaceFont-com.aspose.slides.IFontSubstRuleCollection-) | Mengganti font dalam presentasi menggunakan informasi yang disediakan dalam koleksi [FontSubstRule](../../com.aspose.slides/fontsubstrule) |
-| [getFontBytes(IFontData fontData, int fontStyle)](#getFontBytes-com.aspose.slides.IFontData-int-) | Mengambil array byte yang mewakili data font untuk gaya font dan data font tertentu. |
-| [getFontEmbeddingLevel(byte[] fontBytes, String fontName)](#getFontEmbeddingLevel-byte---java.lang.String-) | Menentukan level penyematan font dari array byte dan nama font yang diberikan. |
-
+| [getPreferRegisteredFontsOverEmbedded()](#getPreferRegisteredFontsOverEmbedded--) | Menentukan apakah font terdaftar harus diprioritaskan dibandingkan font tersemat dengan nama dan gaya yang sama. |
+| [setPreferRegisteredFontsOverEmbedded(boolean value)](#setPreferRegisteredFontsOverEmbedded-boolean-) | Menentukan apakah font terdaftar harus diprioritaskan dibandingkan font tersemat dengan nama dan gaya yang sama. |
+| [getEmbeddedFonts()](#getEmbeddedFonts--) | Mengembalikan font yang tersemat dalam presentasi |
+| [removeEmbeddedFont(IFontData fontData)](#removeEmbeddedFont-com.aspose.slides.IFontData-) | Menghapus font yang tersemat |
+| [addEmbeddedFont(IFontData fontData, int embedFontRule)](#addEmbeddedFont-com.aspose.slides.IFontData-int-) | Menambahkan font yang tersemat |
+| [addEmbeddedFont(byte[] fontData, int embedFontRule)](#addEmbeddedFont-byte---int-) | Menambahkan font yang tersemat |
+| [replaceFont(IFontData sourceFont, IFontData destFont)](#replaceFont-com.aspose.slides.IFontData-com.aspose.slides.IFontData-) | Ganti font dalam presentasi |
+| [replaceFont(IFontSubstRule substRule)](#replaceFont-com.aspose.slides.IFontSubstRule-) | Ganti font dalam presentasi menggunakan informasi yang disediakan dalam [FontSubstRule](../../com.aspose.slides/fontsubstrule) |
+| [replaceFont(IFontSubstRuleCollection substRules)](#replaceFont-com.aspose.slides.IFontSubstRuleCollection-) | Ganti font dalam presentasi menggunakan informasi yang disediakan dalam koleksi [FontSubstRule](../../com.aspose.slides/fontsubstrule) |
+| [getFontBytes(IFontData fontData, int fontStyle)](#getFontBytes-com.aspose.slides.IFontData-int-) | Mengambil array byte yang merepresentasikan data font untuk gaya dan data font tertentu. |
+| [getFontEmbeddingLevel(byte[] fontBytes, String fontName)](#getFontEmbeddingLevel-byte---java.lang.String-) | Menentukan tingkat penyematan font dari array byte dan nama font yang diberikan. |
 ### getFontSubstRuleList() {#getFontSubstRuleList--}
 ```
 public final IFontSubstRuleCollection getFontSubstRuleList()
 ```
 
-Substitusi font yang digunakan saat rendering. Baca/tulis [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
+
+Penggantian font yang digunakan saat merender. Baca/tulis [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
 
 **Mengembalikan:**
 [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection)
-
 ### setFontSubstRuleList(IFontSubstRuleCollection value) {#setFontSubstRuleList-com.aspose.slides.IFontSubstRuleCollection-}
 ```
 public final void setFontSubstRuleList(IFontSubstRuleCollection value)
 ```
 
-Substitusi font yang digunakan saat rendering. Baca/tulis [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
+
+Penggantian font yang digunakan saat merender. Baca/tulis [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
@@ -98,7 +100,8 @@ Substitusi font yang digunakan saat rendering. Baca/tulis [IFontSubstRuleCollect
 public final IFontFallBackRulesCollection getFontFallBackRulesCollection()
 ```
 
-Mewakili koleksi aturan FontFallBack milik pengguna untuk mengelola kumpulan font demi substitusi yang tepat melalui fungsi fallback Baca/tulis [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
+
+Merepresentasikan kumpulan aturan FontFallBack milik pengguna untuk mengelola koleksi font demi penggantian yang tepat melalui fungsi fallback Baca/tulis [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
 
 --------------------
 
@@ -106,12 +109,12 @@ Mewakili koleksi aturan FontFallBack milik pengguna untuk mengelola kumpulan fon
 > Presentation pres = new Presentation();
 >  try
 >  {
->      // Mendapatkan koleksi aturan yang kosong atau sudah diinisialisasi dari FontsManager
+>      // Mendapatkan koleksi aturan yang kosong atau telah diinisialisasi dari FontsManager
 >      IFontFallBackRulesCollection rulesList = pres.getFontsManager().getFontFallBackRulesCollection();
 >      // menambahkan aturan ke koleksi
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
 >      // atau 
->      // inisialisasi instance baru dari koleksi aturan
+>      // inisialisasi instance baru koleksi aturan
 >      IFontFallBackRulesCollection rulesList = new FontFallBackRulesCollection();
 >      // menambahkan aturan ke koleksi
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
@@ -126,13 +129,13 @@ Mewakili koleksi aturan FontFallBack milik pengguna untuk mengelola kumpulan fon
 
 **Mengembalikan:**
 [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection)
-
 ### setFontFallBackRulesCollection(IFontFallBackRulesCollection value) {#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-}
 ```
 public final void setFontFallBackRulesCollection(IFontFallBackRulesCollection value)
 ```
 
-Mewakili koleksi aturan FontFallBack milik pengguna untuk mengelola kumpulan font demi substitusi yang tepat melalui fungsi fallback Baca/tulis [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
+
+Merepresentasikan kumpulan aturan FontFallBack milik pengguna untuk mengelola koleksi font demi penggantian yang tepat melalui fungsi fallback Baca/tulis [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
 
 --------------------
 
@@ -145,7 +148,7 @@ Mewakili koleksi aturan FontFallBack milik pengguna untuk mengelola kumpulan fon
 >      // menambahkan aturan ke koleksi
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
 >      // atau 
->      // inisialisasi instance baru dari koleksi aturan
+>      // inisialisasi instance baru koleksi aturan
 >      IFontFallBackRulesCollection rulesList = new FontFallBackRulesCollection();
 >      // menambahkan aturan ke koleksi
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
@@ -168,15 +171,16 @@ Mewakili koleksi aturan FontFallBack milik pengguna untuk mengelola kumpulan fon
 public final IFontData[] getFonts()
 ```
 
+
 Mengembalikan font yang digunakan dalam presentasi
 
 **Mengembalikan:**
 com.aspose.slides.IFontData[] - Sebuah array font
-
 ### getSubstitutions() {#getSubstitutions--}
 ```
 public final System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo> getSubstitutions()
 ```
+
 
 Mendapatkan informasi tentang font yang akan diganti pada rendering presentasi.
 
@@ -196,12 +200,12 @@ Mendapatkan informasi tentang font yang akan diganti pada rendering presentasi.
 
 
 **Mengembalikan:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - Koleksi semua substitusi font [FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo).
-
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - Koleksi semua penggantian font [FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo).
 ### getSubstitutions(int[] slides) {#getSubstitutions-int---}
 ```
 public final System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo> getSubstitutions(int[] slides)
 ```
+
 
 Mendapatkan informasi tentang font yang akan diganti selama rendering slide yang ditentukan.
 
@@ -223,27 +227,82 @@ Mendapatkan informasi tentang font yang akan diganti selama rendering slide yang
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| slides | int[] | Sebuah array indeks slide yang akan diambil informasi substitusi fontnya, dimulai dari 1. |
+| slides | int[] | Sebuah array indeks slide untuk mendapatkan informasi penggantian font, dimulai dari 1. |
 
 **Mengembalikan:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - Sekumpulan semua substitusi font ([FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo)) untuk slide yang ditentukan.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - Sebuah koleksi semua penggantian font ([FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo)) untuk slide yang ditentukan.
+### getPreferRegisteredFontsOverEmbedded() {#getPreferRegisteredFontsOverEmbedded--}
+```
+public final boolean getPreferRegisteredFontsOverEmbedded()
+```
+
+
+Menentukan apakah font terdaftar harus diprioritaskan dibandingkan font tersemat dengan nama dan gaya yang sama. Ketika diaktifkan, font tersemat yang cocok sementara diganti dengan font terdaftar yang bersesuaian selama ekspor.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("SomePresentation.pptx");
+>  try {
+>      pres.getFontsManager().setPreferRegisteredFontsOverEmbedded(true);
+>      pres.save("Presentation-out.pdf", SaveFormat.Pdf);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+Default adalah **false**.
+
+**Mengembalikan:**
+boolean
+### setPreferRegisteredFontsOverEmbedded(boolean value) {#setPreferRegisteredFontsOverEmbedded-boolean-}
+```
+public final void setPreferRegisteredFontsOverEmbedded(boolean value)
+```
+
+
+Menentukan apakah font terdaftar harus diprioritaskan dibandingkan font tersemat dengan nama dan gaya yang sama. Ketika diaktifkan, font tersemat yang cocok sementara diganti dengan font terdaftar yang bersesuaian selama ekspor.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("SomePresentation.pptx");
+>  try {
+>      pres.getFontsManager().setPreferRegisteredFontsOverEmbedded(true);
+>      pres.save("Presentation-out.pdf", SaveFormat.Pdf);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+Default adalah **false**.
+
+**Parameter:**
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### getEmbeddedFonts() {#getEmbeddedFonts--}
 ```
 public final IFontData[] getEmbeddedFonts()
 ```
 
-Mengembalikan font yang disematkan dalam presentasi
+
+Mengembalikan font yang tersemat dalam presentasi
 
 **Mengembalikan:**
 com.aspose.slides.IFontData[]
-
 ### removeEmbeddedFont(IFontData fontData) {#removeEmbeddedFont-com.aspose.slides.IFontData-}
 ```
 public final void removeEmbeddedFont(IFontData fontData)
 ```
 
-Menghapus font yang disematkan
+
+Menghapus font yang tersemat
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
@@ -255,7 +314,8 @@ Menghapus font yang disematkan
 public final void addEmbeddedFont(IFontData fontData, int embedFontRule)
 ```
 
-Menambahkan font yang disematkan
+
+Menambahkan font yang tersemat
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
@@ -268,7 +328,8 @@ Menambahkan font yang disematkan
 public final void addEmbeddedFont(byte[] fontData, int embedFontRule)
 ```
 
-Menambahkan font yang disematkan
+
+Menambahkan font yang tersemat
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
@@ -281,7 +342,8 @@ Menambahkan font yang disematkan
 public final void replaceFont(IFontData sourceFont, IFontData destFont)
 ```
 
-Mengganti font dalam presentasi
+
+Ganti font dalam presentasi
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
@@ -294,31 +356,34 @@ Mengganti font dalam presentasi
 public final void replaceFont(IFontSubstRule substRule)
 ```
 
-Mengganti font dalam presentasi menggunakan informasi yang disediakan dalam [FontSubstRule](../../com.aspose.slides/fontsubstrule)
+
+Ganti font dalam presentasi menggunakan informasi yang disediakan dalam [FontSubstRule](../../com.aspose.slides/fontsubstrule)
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| substRule | [IFontSubstRule](../../com.aspose.slides/ifontsubstrule) | Info substitusi font |
+| substRule | [IFontSubstRule](../../com.aspose.slides/ifontsubstrule) | Info penggantian font |
 
 ### replaceFont(IFontSubstRuleCollection substRules) {#replaceFont-com.aspose.slides.IFontSubstRuleCollection-}
 ```
 public final void replaceFont(IFontSubstRuleCollection substRules)
 ```
 
-Mengganti font dalam presentasi menggunakan informasi yang disediakan dalam koleksi [FontSubstRule](../../com.aspose.slides/fontsubstrule)
+
+Ganti font dalam presentasi menggunakan informasi yang disediakan dalam koleksi [FontSubstRule](../../com.aspose.slides/fontsubstrule)
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| substRules | [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection) | Koleksi aturan substitusi font |
+| substRules | [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection) | Koleksi aturan penggantian font |
 
 ### getFontBytes(IFontData fontData, int fontStyle) {#getFontBytes-com.aspose.slides.IFontData-int-}
 ```
 public final byte[] getFontBytes(IFontData fontData, int fontStyle)
 ```
 
-Mengambil array byte yang mewakili data font untuk gaya font dan data font tertentu.
+
+Mengambil array byte yang merepresentasikan data font untuk gaya dan data font tertentu.
 
 --------------------
 
@@ -327,46 +392,44 @@ Mengambil array byte yang mewakili data font untuk gaya font dan data font terte
 >  try {
 >      // Mengambil semua font yang digunakan dalam presentasi
 >      IFontData[] fonts = pres.getFontsManager().getFonts();
->      // Mendapatkan array byte yang mewakili gaya regular dari font pertama dalam presentasi
+>      // Dapatkan array byte yang merepresentasikan gaya regular dari font pertama dalam presentasi
 >      byte[] fontBytes = pres.getFontsManager().getFontBytes(fonts[0], FontStyleType.Regular);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
 > ```
 
-
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | fontData | [IFontData](../../com.aspose.slides/ifontdata) | Objek data font yang berisi informasi tentang font [IFontData](../../com.aspose.slides/ifontdata). |
-| fontStyle | int | Gaya font yang datanya ingin diambil [FontStyleType](../../com.aspose.slides/fontstyletype). |
+| fontStyle | int | Gaya font yang datanya akan diambil [FontStyleType](../../com.aspose.slides/fontstyletype). |
 
 **Mengembalikan:**
-byte[] - Sebuah array byte yang berisi data font untuk gaya yang ditentukan. Jika data font atau gaya tidak ditemukan, mengembalikan null.
-
+byte[] - Sebuah array byte yang berisi data font untuk gaya font yang ditentukan. Jika data font atau gaya tidak ditemukan, mengembalikan null.
 ### getFontEmbeddingLevel(byte[] fontBytes, String fontName) {#getFontEmbeddingLevel-byte---java.lang.String-}
 ```
 public final int getFontEmbeddingLevel(byte[] fontBytes, String fontName)
 ```
 
-Menentukan level penyematan font dari array byte dan nama font yang diberikan.
+
+Menentukan tingkat penyematan font dari array byte dan nama font yang diberikan.
 
 --------------------
 
 > ```
 > Presentation pres = new Presentation(pptxFileName);
 >  try {
->      // Ambil semua font yang digunakan dalam presentasi
+>      // Mengambil semua font yang digunakan dalam presentasi
 >      IFontData[] fontDatas = pres.getFontsManager().getFonts();
->      // Dapatkan array byte yang mewakili gaya regular dari font pertama dalam presentasi
+>      // Dapatkan array byte yang merepresentasikan gaya regular dari font pertama dalam presentasi
 >      byte[] bytes = pres.getFontsManager().getFontBytes(fontDatas[0], FontStyle.Regular);
->      // Tentukan level penyematan font
+>      // Tentukan tingkat penyematan font
 >      int embeddingLevel = pres.getFontsManager().getFontEmbeddingLevel(bytes, fontDatas[0].getFontName());
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
@@ -375,4 +438,4 @@ Menentukan level penyematan font dari array byte dan nama font yang diberikan.
 | fontName | java.lang.String | Nama font. |
 
 **Mengembalikan:**
-int - Level penyematan font yang bersangkutan.
+int - Tingkat penyematan font yang ditentukan.

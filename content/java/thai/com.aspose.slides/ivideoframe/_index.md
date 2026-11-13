@@ -1,58 +1,60 @@
 ---
 title: IVideoFrame
-second_title: อ้างอิง API ของ Aspose.Slides สำหรับ Java
-description: เป็นคลิปวิดีโอที่แสดงบนสไลด์
+second_title: การอ้างอิง API ของ Aspose.Slides สำหรับ Java
+description: แสดงคลิปวิดีโอบนสไลด์หนึ่ง.
 type: docs
 url: /th/com.aspose.slides/ivideoframe/
 ---
-**All Implemented Interfaces:**
+**ทั้งหมดที่ทำไว้เป็นอินเทอร์เฟซ:**
 [com.aspose.slides.IPictureFrame](../../com.aspose.slides/ipictureframe)
 ```
 public interface IVideoFrame extends IPictureFrame
 ```
 
-เป็นคลิปวิดีโอบนสไลด์
+Represents a video clip on a slide.
 ## วิธีการ
 
 | เมธอด | คำอธิบาย |
 | --- | --- |
-| [getRewindVideo()](#getRewindVideo--) | ระบุว่า วิดีโอจะถูกรีวายด์โดยอัตโนมัติไปที่จุดเริ่มต้นทันทีที่ภาพยนตร์เล่นจบหรือไม่ |
-| [setRewindVideo(boolean value)](#setRewindVideo-boolean-) | ระบุว่า วิดีโอจะถูกรีวายด์โดยอัตโนมัติไปที่จุดเริ่มต้นทันทีที่ภาพยนตร์เล่นจบหรือไม่ |
-| [getPlayLoopMode()](#getPlayLoopMode--) | ระบุว่า วิดีโอจะเล่นวนลูปหรือไม่ |
-| [setPlayLoopMode(boolean value)](#setPlayLoopMode-boolean-) | ระบุว่า วิดีโอจะเล่นวนลูปหรือไม่ |
-| [getHideAtShowing()](#getHideAtShowing--) | ระบุว่า VideoFrame ถูกซ่อนหรือไม่ |
-| [setHideAtShowing(boolean value)](#setHideAtShowing-boolean-) | ระบุว่า VideoFrame ถูกซ่อนหรือไม่ |
-| [getVolume()](#getVolume--) | ส่งคืนหรือกำหนดระดับเสียง |
-| [setVolume(int value)](#setVolume-int-) | ส่งคืนหรือกำหนดระดับเสียง |
-| [getPlayMode()](#getPlayMode--) | ส่งคืนหรือกำหนดโหมดการเล่นวิดีโอ |
-| [setPlayMode(int value)](#setPlayMode-int-) | ส่งคืนหรือกำหนดโหมดการเล่นวิดีโอ |
-| [getFullScreenMode()](#getFullScreenMode--) | ระบุว่า วิดีโอจะแสดงในโหมดเต็มหน้าจอหรือไม่ |
-| [setFullScreenMode(boolean value)](#setFullScreenMode-boolean-) | ระบุว่า วิดีโอจะแสดงในโหมดเต็มหน้าจอหรือไม่ |
-| [getLinkPathLong()](#getLinkPathLong--) | ส่งคืนหรือกำหนดชื่อไฟล์วิดีโอที่เชื่อมโยงกับ VideoFrame |
-| [setLinkPathLong(String value)](#setLinkPathLong-java.lang.String-) | ส่งคืนหรือกำหนดชื่อไฟล์วิดีโอที่เชื่อมโยงกับ VideoFrame |
-| [getEmbeddedVideo()](#getEmbeddedVideo--) | ส่งคืนหรือกำหนดวัตถุวิดีโอที่ฝังอยู่ |
-| [setEmbeddedVideo(IVideo value)](#setEmbeddedVideo-com.aspose.slides.IVideo-) | ส่งคืนหรือกำหนดวัตถุวิดีโอที่ฝังอยู่ |
+| [getRewindVideo()](#getRewindVideo--) | กำหนดว่าวิดีโอจะถูกรีวินด์อัตโนมัติเพื่อเริ่มต้นใหม่เมื่อภาพยนตร์เล่นเสร็จแล้วหรือไม่. |
+| [setRewindVideo(boolean value)](#setRewindVideo-boolean-) | กำหนดว่าวิดีโอจะถูกรีวินด์อัตโนมัติเพื่อเริ่มต้นใหม่เมื่อภาพยนตร์เล่นเสร็จแล้วหรือไม่. |
+| [getPlayLoopMode()](#getPlayLoopMode--) | กำหนดว่าวิดีโอจะเล่นวนซ้ำหรือไม่. |
+| [setPlayLoopMode(boolean value)](#setPlayLoopMode-boolean-) | กำหนดว่าวิดีโอจะเล่นวนซ้ำหรือไม่. |
+| [getHideAtShowing()](#getHideAtShowing--) | กำหนดว่า VideoFrame ถูกซ่อนหรือไม่. |
+| [setHideAtShowing(boolean value)](#setHideAtShowing-boolean-) | กำหนดว่า VideoFrame ถูกซ่อนหรือไม่. |
+| [getVolume()](#getVolume--) | ส่งคืนหรือกำหนดระดับเสียงของออดิโอ. |
+| [setVolume(int value)](#setVolume-int-) | ส่งคืนหรือกำหนดระดับเสียงของออดิโอ. |
+| [getVolumeValue()](#getVolumeValue--) | ส่งคืนหรือกำหนดระดับเสียงวิดีโอที่แม่นยำเป็นเปอร์เซ็นต์. |
+| [setVolumeValue(float value)](#setVolumeValue-float-) | ส่งคืนหรือกำหนดระดับเสียงวิดีโอที่แม่นยำเป็นเปอร์เซ็นต์. |
+| [getPlayMode()](#getPlayMode--) | ส่งคืนหรือกำหนดโหมดการเล่นวิดีโอ. |
+| [setPlayMode(int value)](#setPlayMode-int-) | ส่งคืนหรือกำหนดโหมดการเล่นวิดีโอ. |
+| [getFullScreenMode()](#getFullScreenMode--) | กำหนดว่าวิดีโอจะแสดงในโหมดเต็มหน้าจอหรือไม่. |
+| [setFullScreenMode(boolean value)](#setFullScreenMode-boolean-) | กำหนดว่าวิดีโอจะแสดงในโหมดเต็มหน้าจอหรือไม่. |
+| [getLinkPathLong()](#getLinkPathLong--) | ส่งคืนหรือกำหนดชื่อไฟล์วิดีโอที่เชื่อมโยงกับ VideoFrame. |
+| [setLinkPathLong(String value)](#setLinkPathLong-java.lang.String-) | ส่งคืนหรือกำหนดชื่อไฟล์วิดีโอที่เชื่อมโยงกับ VideoFrame. |
+| [getEmbeddedVideo()](#getEmbeddedVideo--) | ส่งคืนหรือกำหนดออบเจกต์วิดีโอที่ฝังอยู่. |
+| [setEmbeddedVideo(IVideo value)](#setEmbeddedVideo-com.aspose.slides.IVideo-) | ส่งคืนหรือกำหนดออบเจกต์วิดีโอที่ฝังอยู่. |
 | [getTrimFromStart()](#getTrimFromStart--) | ตัดเริ่มต้น [ms] |
 | [setTrimFromStart(float value)](#setTrimFromStart-float-) | ตัดเริ่มต้น [ms] |
-| [getTrimFromEnd()](#getTrimFromEnd--) | ตัดท้าย [ms] |
-| [setTrimFromEnd(float value)](#setTrimFromEnd-float-) | ตัดท้าย [ms] |
-| [getCaptionTracks()](#getCaptionTracks--) | รับคอลเลกชันของคำบรรยายแบบปิดที่เกี่ยวข้องกับเฟรมเสียง |
+| [getTrimFromEnd()](#getTrimFromEnd--) | ตัดสิ้นสุด [ms] |
+| [setTrimFromEnd(float value)](#setTrimFromEnd-float-) | ตัดสิ้นสุด [ms] |
+| [getCaptionTracks()](#getCaptionTracks--) | ดึงคอลเลกชันของคำบรรยายปิดที่เชื่อมโยงกับเฟรมออดิโอ. |
 
 ### getRewindVideo() {#getRewindVideo--}
 ```
 public abstract boolean getRewindVideo()
 ```
 
-ระบุว่า วิดีโอจะถูกรีวายด์โดยอัตโนมัติไปที่จุดเริ่มต้นทันทีที่ภาพยนตร์เล่นจบหรือไม่ อ่าน/เขียน boolean.
+กำหนดว่าวิดีโอจะถูกรีวินด์อัตโนมัติเพื่อเริ่มต้นใหม่เมื่อภาพยนตร์เล่นเสร็จแล้วหรือไม่. อ่าน/เขียน boolean.
 
-**คืนค่า:**
+**ส่งคืน:**
 boolean
 ### setRewindVideo(boolean value) {#setRewindVideo-boolean-}
 ```
 public abstract void setRewindVideo(boolean value)
 ```
 
-ระบุว่า วิดีโอจะถูกรีวายด์โดยอัตโนมัติไปที่จุดเริ่มต้นทันทีที่ภาพยนตร์เล่นจบหรือไม่ อ่าน/เขียน boolean.
+กำหนดว่าวิดีโอจะถูกรีวินด์อัตโนมัติเพื่อเริ่มต้นใหม่เมื่อภาพยนตร์เล่นเสร็จแล้วหรือไม่. อ่าน/เขียน boolean.
 
 **พารามิเตอร์:**
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
@@ -64,16 +66,16 @@ public abstract void setRewindVideo(boolean value)
 public abstract boolean getPlayLoopMode()
 ```
 
-ระบุว่า วิดีโอจะเล่นวนลูปหรือไม่ อ่าน/เขียน boolean.
+กำหนดว่าวิดีโอจะเล่นวนซ้ำหรือไม่. อ่าน/เขียน boolean.
 
-**คืนค่า:**
+**ส่งคืน:**
 boolean
 ### setPlayLoopMode(boolean value) {#setPlayLoopMode-boolean-}
 ```
 public abstract void setPlayLoopMode(boolean value)
 ```
 
-ระบุว่า วิดีโอจะเล่นวนลูปเช่นกัน อ่าน/เขียน boolean.
+กำหนดว่าวิดีโอจะเล่นวนซ้ำหรือไม่. อ่าน/เขียน boolean.
 
 **พารามิเตอร์:**
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
@@ -85,16 +87,16 @@ public abstract void setPlayLoopMode(boolean value)
 public abstract boolean getHideAtShowing()
 ```
 
-ระบุว่า VideoFrame ถูกซ่อนหรือไม่ อ่าน/เขียน boolean.
+กำหนดว่า VideoFrame ถูกซ่อนหรือไม่. อ่าน/เขียน boolean.
 
-**คืนค่า:**
+**ส่งคืน:**
 boolean
 ### setHideAtShowing(boolean value) {#setHideAtShowing-boolean-}
 ```
 public abstract void setHideAtShowing(boolean value)
 ```
 
-ระบุว่า VideoFrame ถูกซ่อนหรือไม่ อ่าน/เขียน boolean.
+กำหนดว่า VideoFrame ถูกซ่อนหรือไม่. อ่าน/เขียน boolean.
 
 **พารามิเตอร์:**
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
@@ -106,37 +108,94 @@ public abstract void setHideAtShowing(boolean value)
 public abstract int getVolume()
 ```
 
-ส่งคืนหรือกำหนดระดับเสียง อ่าน/เขียน [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
+ส่งคืนหรือกำหนดระดับเสียงของออดิโอ. อ่าน/เขียน [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
 
-**คืนค่า:**
+**ส่งคืน:**
 int
 ### setVolume(int value) {#setVolume-int-}
 ```
 public abstract void setVolume(int value)
 ```
 
-ส่งคืนหรือกำหนดระดับเสียง อ่าน/เขียน [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
+ส่งคืนหรือกำหนดระดับเสียงของออดิโอ. อ่าน/เขียน [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
 
 **พารามิเตอร์:**
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
 | --- | --- | --- |
 | value | int |  |
 
+### getVolumeValue() {#getVolumeValue--}
+```
+public abstract float getVolumeValue()
+```
+
+ส่งคืนหรือกำหนดระดับเสียงวิดีโอที่แม่นยำเป็นเปอร์เซ็นต์ ค่าแสดงเป็นเปอร์เซ็นต์จาก 0 ถึง 100 ใช้คุณสมบัตินี้เพื่ออ่านหรือกำหนดค่าระดับเสียงที่ละเอียดกว่าระดับที่กำหนดไว้ล่วงหน้าผ่านคุณสมบัติ Volume (\#getVolume.getVolume/\#setVolume(int).setVolume(int)) อ่าน/เขียน float .
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video.pptx");
+>  try {
+>      IVideoFrame videoFrame = (IVideoFrame)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // อ่านระดับเสียงที่แม่นยำในปัจจุบันและตั้งค่าเป็น 75.5 เปอร์เซ็นต์.
+>      float currentVolume = videoFrame.getVolumeValue();
+>      System.out.println(currentVolume);
+>      videoFrame.setVolumeValue(75.5f);
+>      pres.save("video_with_volume.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**ส่งคืน:**
+float
+### setVolumeValue(float value) {#setVolumeValue-float-}
+```
+public abstract void setVolumeValue(float value)
+```
+
+ส่งคืนหรือกำหนดระดับเสียงวิดีโอที่แม่นยำเป็นเปอร์เซ็นต์ ค่าแสดงเป็นเปอร์เซ็นต์จาก 0 ถึง 100 ใช้คุณสมบัตินี้เพื่ออ่านหรือกำหนดค่าระดับเสียงที่ละเอียดกว่าระดับที่กำหนดไว้ล่วงหน้าผ่านคุณสมบัติ Volume (\#getVolume.getVolume/\#setVolume(int).setVolume(int)) อ่าน/เขียน float .
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video.pptx");
+>  try {
+>      IVideoFrame videoFrame = (IVideoFrame)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // อ่านระดับเสียงที่แม่นยำในปัจจุบันและตั้งค่าเป็น 75.5 เปอร์เซ็นต์.
+>      float currentVolume = videoFrame.getVolumeValue();
+>      System.out.println(currentVolume);
+>      videoFrame.setVolumeValue(75.5f);
+>      pres.save("video_with_volume.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**พารามิเตอร์:**
+| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| --- | --- | --- |
+| value | float |  |
+
 ### getPlayMode() {#getPlayMode--}
 ```
 public abstract int getPlayMode()
 ```
 
-ส่งคืนหรือกำหนดโหมดการเล่นวิดีโอ อ่าน/เขียน [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
+ส่งคืนหรือกำหนดโหมดการเล่นวิดีโอ. อ่าน/เขียน [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
 
-**คืนค่า:**
+**ส่งคืน:**
 int
 ### setPlayMode(int value) {#setPlayMode-int-}
 ```
 public abstract void setPlayMode(int value)
 ```
 
-ส่งคืนหรือกำหนดโหมดการเล่นวิดีโอ อ่าน/เขียน [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
+ส่งคืนหรือกำหนดโหมดการเล่นวิดีโอ. อ่าน/เขียน [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
 
 **พารามิเตอร์:**
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
@@ -148,16 +207,16 @@ public abstract void setPlayMode(int value)
 public abstract boolean getFullScreenMode()
 ```
 
-ระบุว่า วิดีโอจะแสดงในโหมดเต็มหน้าจอหรือไม่ อ่าน/เขียน boolean.
+กำหนดว่าวิดีโอจะแสดงในโหมดเต็มหน้าจอหรือไม่. อ่าน/เขียน boolean.
 
-**คืนค่า:**
+**ส่งคืน:**
 boolean
 ### setFullScreenMode(boolean value) {#setFullScreenMode-boolean-}
 ```
 public abstract void setFullScreenMode(boolean value)
 ```
 
-ระบุว่า วิดีโอจะแสดงในโหมดเต็มหน้าจอหรือไม่ อ่าน/เขียน boolean.
+กำหนดว่าวิดีโอจะแสดงในโหมดเต็มหน้าจอหรือไม่. อ่าน/เขียน boolean.
 
 **พารามิเตอร์:**
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
@@ -169,16 +228,16 @@ public abstract void setFullScreenMode(boolean value)
 public abstract String getLinkPathLong()
 ```
 
-ส่งคืนหรือกำหนดชื่อไฟล์วิดีโอที่เชื่อมโยงกับ VideoFrame อ่าน/เขียน String.
+ส่งคืนหรือกำหนดชื่อไฟล์วิดีโอที่เชื่อมโยงกับ VideoFrame. อ่าน/เขียน String.
 
-**คืนค่า:**
+**ส่งคืน:**
 java.lang.String
 ### setLinkPathLong(String value) {#setLinkPathLong-java.lang.String-}
 ```
 public abstract void setLinkPathLong(String value)
 ```
 
-ส่งคืนหรือกำหนดชื่อไฟล์วิดีโอที่เชื่อมโยงกับ VideoFrame อ่าน/เขียน String.
+ส่งคืนหรือกำหนดชื่อไฟล์วิดีโอที่เชื่อมโยงกับ VideoFrame. อ่าน/เขียน String.
 
 **พารามิเตอร์:**
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
@@ -190,16 +249,16 @@ public abstract void setLinkPathLong(String value)
 public abstract IVideo getEmbeddedVideo()
 ```
 
-ส่งคืนหรือกำหนดวัตถุวิดีโอที่ฝังอยู่ อ่าน/เขียน [IVideo](../../com.aspose.slides/ivideo).
+ส่งคืนหรือกำหนดออบเจกต์วิดีโอที่ฝังอยู่. อ่าน/เขียน [IVideo](../../com.aspose.slides/ivideo).
 
-**คืนค่า:**
+**ส่งคืน:**
 [IVideo](../../com.aspose.slides/ivideo)
 ### setEmbeddedVideo(IVideo value) {#setEmbeddedVideo-com.aspose.slides.IVideo-}
 ```
 public abstract void setEmbeddedVideo(IVideo value)
 ```
 
-ส่งคืนหรือกำหนดวัตถุวิดีโอที่ฝังอยู่ อ่าน/เขียน [IVideo](../../com.aspose.slides/ivideo).
+ส่งคืนหรือกำหนดออบเจกต์วิดีโอที่ฝังอยู่. อ่าน/เขียน [IVideo](../../com.aspose.slides/ivideo).
 
 **พารามิเตอร์:**
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
@@ -223,16 +282,16 @@ public abstract float getTrimFromStart()
 >      ISlide slide = pres.getSlides().get_Item(0);
 >      IVideo video = pres.getVideos().addVideo(Files.readAllBytes(Paths.get("video.mp4")));
 >      IVideoFrame videoFrame = slide.getShapes().addVideoFrame(0, 0, 100, 100, video);
->      //ตั้งเวลาเริ่มต้นการตัด 1 วินาที
+>      //ตั้งค่าเวลาเริ่มการตัด 1 วินาที
 >      videoFrame.setTrimFromStart(1000f);
->      //ตั้งเวลา สิ้นสุดการตัด 2 วินาที
+>      //ตั้งค่าเวลาสิ้นสุดการตัด 2 วินาที
 >      videoFrame.setTrimFromEnd(2000f);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
 > ```
 
-**คืนค่า:**
+**ส่งคืน:**
 float
 ### setTrimFromStart(float value) {#setTrimFromStart-float-}
 ```
@@ -251,9 +310,9 @@ public abstract void setTrimFromStart(float value)
 >      ISlide slide = pres.getSlides().get_Item(0);
 >      IVideo video = pres.getVideos().addVideo(Files.readAllBytes(Paths.get("video.mp4")));
 >      IVideoFrame videoFrame = slide.getShapes().addVideoFrame(0, 0, 100, 100, video);
->      //ตั้งเวลาเริ่มต้นการตัด 1 วินาที
+>      //ตั้งเวลาเริ่มการตัด 1 วินาที
 >      videoFrame.setTrimFromStart(1000f);
->      //ตั้งเวลา สิ้นสุดการตัด 2 วินาที
+>      //ตั้งเวลาเส้นสิ้นสุดการตัด 2 วินาที
 >      videoFrame.setTrimFromEnd(2000f);
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -270,16 +329,16 @@ public abstract void setTrimFromStart(float value)
 public abstract float getTrimFromEnd()
 ```
 
-ตัดท้าย [ms]
+ตัดสิ้นสุด [ms]
 
-**คืนค่า:**
+**ส่งคืน:**
 float
 ### setTrimFromEnd(float value) {#setTrimFromEnd-float-}
 ```
 public abstract void setTrimFromEnd(float value)
 ```
 
-ตัดท้าย [ms]
+ตัดสิ้นสุด [ms]
 
 **พารามิเตอร์:**
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
@@ -291,7 +350,7 @@ public abstract void setTrimFromEnd(float value)
 public abstract ICaptionsCollection getCaptionTracks()
 ```
 
-รับคอลเลกชันของคำบรรยายแบบปิดที่เกี่ยวข้องกับเฟรมเสียง คุณสมบัตินี้เป็นแบบอ่านอย่างเดียวและส่งคืน [ICaptionsCollection](../../com.aspose.slides/icaptionscollection) ที่มีแทร็กคำบรรยายทั้งหมด
+ดึงคอลเลกชันของคำบรรยายปิดที่เชื่อมโยงกับเฟรมออดิโอ. คุณสมบัตินี้เป็นแบบอ่านอย่างเดียวและส่งคืน [ICaptionsCollection](../../com.aspose.slides/icaptionscollection) ที่มีแทร็กคำบรรยายทั้งหมด.
 
 --------------------
 
@@ -318,5 +377,5 @@ public abstract ICaptionsCollection getCaptionTracks()
 >  }
 > ```
 
-**คืนค่า:**
+**ส่งคืน:**
 [ICaptionsCollection](../../com.aspose.slides/icaptionscollection)

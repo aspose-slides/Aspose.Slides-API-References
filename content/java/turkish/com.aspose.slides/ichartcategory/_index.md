@@ -1,7 +1,7 @@
 ---
 title: IChartCategory
 second_title: Aspose.Slides for Java API Reference
-description: Represents chart categories.
+description: Grafik kategorilerini temsil eder.
 type: docs
 url: /tr/com.aspose.slides/ichartcategory/
 ---```
@@ -9,25 +9,26 @@ public interface IChartCategory
 ```
 
 Grafik kategorilerini temsil eder.
-## Yöntemler
+## Metotlar
 
 | Metot | Açıklama |
 | --- | --- |
-| [getUseCell()](#getUseCell--) | Doğruysa AsCell özelliği geçerlidir. |
+| [getUseCell()](#getUseCell--) | Doğru ise AsCell özelliği geçerlidir. |
 | [getAsCell()](#getAsCell--) | IChartDataCell nesnesini döndürür veya ayarlar. |
 | [setAsCell(IChartDataCell value)](#setAsCell-com.aspose.slides.IChartDataCell-) | IChartDataCell nesnesini döndürür veya ayarlar. |
-| [getAsLiteral()](#getAsLiteral--) | UseCell false olduğunda AsLiteral'i döndürür veya ayarlar. |
-| [setAsLiteral(Object value)](#setAsLiteral-java.lang.Object-) | UseCell false olduğunda AsLiteral'i döndürür veya ayarlar. |
-| [getValue()](#getValue--) | UseCell true olduğunda bu özellik AsCell.Value özelliğini temsil eder. |
-| [setValue(Object value)](#setValue-java.lang.Object-) | UseCell true olduğunda bu özellik AsCell.Value özelliğini temsil eder. |
-| [getGroupingLevels()](#getGroupingLevels--) | Grafik kategori gruplama seviyelerinin değerlerinin yönetilen konteyneri. |
+| [getAsLiteral()](#getAsLiteral--) | UseCell false ise AsLiteral döndürür veya ayarlar. |
+| [setAsLiteral(Object value)](#setAsLiteral-java.lang.Object-) | UseCell false ise AsLiteral döndürür veya ayarlar. |
+| [getValue()](#getValue--) | UseCell true ise bu özellik AsCell.Value özelliğini temsil eder. |
+| [setValue(Object value)](#setValue-java.lang.Object-) | UseCell true ise bu özellik AsCell.Value özelliğini temsil eder. |
+| [getCachedValue()](#getCachedValue--) | Bir grafik kategorisinin önbelleğe alınmış değerini alır. |
+| [getGroupingLevels()](#getGroupingLevels--) | Grafik kategorisi gruplama seviyelerinin değerlerinin yönetilen konteyneri. |
 | [remove()](#remove--) | Kategoriyi grafikten kaldırır. |
 ### getUseCell() {#getUseCell--}
 ```
 public abstract boolean getUseCell()
 ```
 
-Doğruysa AsCell özelliği geçerlidir. Başka bir deyişle, çalışma sayfası kategori depolamak için kullanılır (bu durumda çok seviyeli kategori desteklenir). Yanlışsa AsLiteral özelliği geçerlidir. Başka bir deyişle, çalışma sayfası kategori depolamak için KULLANILMAZ (ve bu durumda çok seviyeli kategoriler desteklenmez). Yalnızca okunabilir boolean.
+Doğru ise AsCell özelliği geçerlidir. Başka bir deyişle, çalışma sayfası kategoriyi depolamak için kullanılır (bu durumda çok seviyeli kategori desteklenir). False ise AsLiteral özelliği geçerlidir. Başka bir deyişle, çalışma sayfası KATEGORİYİ depolamak için KULLANILMAZ (ve bu durumda çok seviyeli kategoriler desteklenmez). Salt okunur boolean.
 
 --------------------
 
@@ -40,7 +41,7 @@ boolean
 public abstract IChartDataCell getAsCell()
 ```
 
-IChartDataCell nesnesini döndürür veya ayarlar. Kategori çok seviyeli ise seviye "0" için IChartDataCell nesnesi kullanılır. Okunur/yazılır [IChartDataCell](../../com.aspose.slides/ichartdatacell).
+IChartDataCell nesnesini döndürür veya ayarlar. Kategori çok seviyeli ise "0" seviyesi için IChartDataCell nesnesi kullanılır. Okunur/yazılabilir [IChartDataCell](../../com.aspose.slides/ichartdatacell).
 
 **Döndürür:**
 [IChartDataCell](../../com.aspose.slides/ichartdatacell)
@@ -49,7 +50,7 @@ IChartDataCell nesnesini döndürür veya ayarlar. Kategori çok seviyeli ise se
 public abstract void setAsCell(IChartDataCell value)
 ```
 
-IChartDataCell nesnesini döndürür veya ayarlar. Kategori çok seviyeli ise seviye "0" için IChartDataCell nesnesi kullanılır. Okunur/yazılır [IChartDataCell](../../com.aspose.slides/ichartdatacell).
+IChartDataCell nesnesini döndürür veya ayarlar. Kategori çok seviyeli ise "0" seviyesi için IChartDataCell nesnesi kullanılır. Okunur/yazılabilir [IChartDataCell](../../com.aspose.slides/ichartdatacell).
 
 **Parametreler:**
 | Parametre | Tür | Açıklama |
@@ -61,7 +62,7 @@ IChartDataCell nesnesini döndürür veya ayarlar. Kategori çok seviyeli ise se
 public abstract Object getAsLiteral()
 ```
 
-UseCell false olduğunda AsLiteral'i döndürür veya ayarlar. Okunur/yazılır Object.
+UseCell false ise AsLiteral döndürür veya ayarlar. Okunur/yazılabilir Object.
 
 **Döndürür:**
 java.lang.Object
@@ -70,7 +71,7 @@ java.lang.Object
 public abstract void setAsLiteral(Object value)
 ```
 
-UseCell false olduğunda AsLiteral'i döndürür veya ayarlar. Okunur/yazılır Object.
+UseCell false ise AsLiteral döndürür veya ayarlar. Okunur/yazılabilir Object.
 
 **Parametreler:**
 | Parametre | Tür | Açıklama |
@@ -82,7 +83,7 @@ UseCell false olduğunda AsLiteral'i döndürür veya ayarlar. Okunur/yazılır 
 public abstract Object getValue()
 ```
 
-UseCell true olduğunda bu özellik AsCell.Value özelliğini temsil eder. UseCell false olduğunda bu özellik AsLiteral özelliğini temsil eder. Okunur/yazılır Object.
+UseCell true ise bu özellik AsCell.Value özelliğini temsil eder. UseCell false ise bu özellik AsLiteral özelliğini temsil eder. Okunur/yazılabilir Object.
 
 **Döndürür:**
 java.lang.Object
@@ -91,19 +92,44 @@ java.lang.Object
 public abstract void setValue(Object value)
 ```
 
-UseCell true olduğunda bu özellik AsCell.Value özelliğini temsil eder. UseCell false olduğunda bu özellik AsLiteral özelliğini temsil eder. Okunur/yazılır Object.
+UseCell true ise bu özellik AsCell.Value özelliğini temsil eder. UseCell false ise bu özellik AsLiteral özelliğini temsil eder. Okunur/yazılabilir Object.
 
 **Parametreler:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | value | java.lang.Object |  |
 
+### getCachedValue() {#getCachedValue--}
+```
+public abstract ICachedChartValue getCachedValue()
+```
+
+Bir grafik kategorisinin önbelleğe alınmış değerini alır. Salt okunur [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+> 
+>      // Tüm önbelleğe alınmış grafik kategori değerlerini yazdır.
+>      for (IChartCategory category : chart.getChartData().getCategories())
+>          System.out.println(category.getCachedValue().toString());
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Döndürür:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
 ### getGroupingLevels() {#getGroupingLevels--}
 ```
 public abstract IChartCategoryLevelsManager getGroupingLevels()
 ```
 
-Grafik kategori gruplama seviyelerinin değerlerinin yönetilen konteyneri. Çok seviyeli kategori birden fazla gruplama seviyesi içerir. Grublama seviyeleri sıfır tabanlı indekslenir. Yalnızca okunabilir [IChartCategoryLevelsManager](../../com.aspose.slides/ichartcategorylevelsmanager).
+Grafik kategorisi gruplama seviyelerinin değerlerinin yönetilen konteyneri. Çok seviyeli kategori birden fazla gruplama seviyesi içerir. Gruplama seviyeleri indekslemesi sıfır tabanlıdır. Salt okunur [IChartCategoryLevelsManager](../../com.aspose.slides/ichartcategorylevelsmanager).
 
 **Döndürür:**
 [IChartCategoryLevelsManager](../../com.aspose.slides/ichartcategorylevelsmanager)

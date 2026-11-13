@@ -5,7 +5,7 @@ description: Rappresenta le etichette di una serie.
 type: docs
 url: /it/com.aspose.slides/datalabelcollection/
 ---
-**Ereditarietà:**
+**Eredità:**
 java.lang.Object, com.aspose.slides.DomObject
 
 **Tutte le interfacce implementate:**
@@ -19,27 +19,29 @@ Rappresenta le etichette di una serie.
 
 | Metodo | Descrizione |
 | --- | --- |
-| [getChart()](#getChart--) | Restituisce il grafico padre. |
-| [iterator()](#iterator--) | Restituisce un enumeratore che itera attraverso la raccolta. |
-| [iteratorJava()](#iteratorJava--) | Restituisce un iteratore Java per l'intera raccolta. |
-| [isVisible()](#isVisible--) | False indica che l'etichetta dati non è visibile per impostazione predefinita (e quindi tutti i flag Show* (ShowValue, ...) della proprietà DefaultDataLabelFormat sono falsi). |
-| [hide()](#hide--) | Rendi l'etichetta dati nascosta per impostazione predefinita impostando tutti i flag Show* (ShowValue, ...) della proprietà DefaultDataLabelFormat nello stato false. |
-| [getCountOfVisibleDataLabels()](#getCountOfVisibleDataLabels--) | Ottiene il numero di etichette dati visibili nella raccolta. |
-| [getCount()](#getCount--) | Ottiene il numero totale di etichette dati nella raccolta. |
+| [getChart()](#getChart--) | Restituisce il grafico genitore. |
+| [iterator()](#iterator--) | Restituisce un enumeratore che itera attraverso la collezione. |
+| [iteratorJava()](#iteratorJava--) | Restituisce un iteratore java per l'intera collezione. |
+| [isVisible()](#isVisible--) | False indica che l'etichetta dati non è visibile per impostazione predefinita (e quindi tutti i flag Show\*-flags (ShowValue, ...) della proprietà DefaultDataLabelFormat sono false). |
+| [hide()](#hide--) | Nascondi l'etichetta dati per impostazione predefinita impostando tutti i flag Show\*-flags (ShowValue, ...) della proprietà DefaultDataLabelFormat nello stato false. |
+| [getCountOfVisibleDataLabels()](#getCountOfVisibleDataLabels--) | Ottiene il numero di etichette dati visibili nella collezione. |
+| [getCount()](#getCount--) | Ottiene il numero di tutte le etichette dati nella collezione. |
 | [getDefaultDataLabelFormat()](#getDefaultDataLabelFormat--) | Ottiene il formato predefinito dell'etichetta dati. |
 | [getLeaderLinesFormat()](#getLeaderLinesFormat--) | Rappresenta il formato delle linee guida delle etichette dati. |
-| [getParentSeries()](#getParentSeries--) | Ottiene la serie padre. |
-| [indexOf(IDataLabel value)](#indexOf-com.aspose.slides.IDataLabel-) | Restituisce l'indice della DataLabel specificata nella raccolta. |
+| [getParentSeries()](#getParentSeries--) | Ottiene la serie genitore. |
+| [indexOf(IDataLabel value)](#indexOf-com.aspose.slides.IDataLabel-) | Restituisce l'indice del DataLabel specificato nella collezione. |
 | [get_Item(int index)](#get-Item-int-) | Ottiene l'etichetta dati per il punto dati con l'indice specificato. |
-| [getSlide()](#getSlide--) | Restituisce la diapositiva padre di un FillFormat. |
-| [getPresentation()](#getPresentation--) | Restituisce la presentazione padre di un FillFormat. |
+| [getDefaultLabelShapeType()](#getDefaultLabelShapeType--) | Ottiene o imposta il tipo di forma predefinito per le etichette dati. |
+| [setDefaultLabelShapeType(int value)](#setDefaultLabelShapeType-int-) | Ottiene o imposta il tipo di forma predefinito per le etichette dati. |
+| [getSlide()](#getSlide--) | Restituisce la diapositiva genitore di un FillFormat. |
+| [getPresentation()](#getPresentation--) | Restituisce la presentazione genitore di un FillFormat. |
 ### getChart() {#getChart--}
 ```
 public final IChart getChart()
 ```
 
 
-Restituisce il grafico padre. Sola lettura [IChart](../../com.aspose.slides/ichart).
+Restituisce il grafico genitore. Sola lettura [IChart](../../com.aspose.slides/ichart).
 
 **Restituisce:**
 [IChart](../../com.aspose.slides/ichart)
@@ -49,31 +51,31 @@ public final System.Collections.Generic.IGenericEnumerator<IDataLabel> iterator(
 ```
 
 
-Restituisce un enumeratore che itera attraverso la raccolta.
+Restituisce un enumeratore che itera attraverso la collezione.
 
 **Restituisce:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.slides.IDataLabel> - Un IGenericEnumerator che può essere usato per iterare attraverso la raccolta.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.slides.IDataLabel} - A IGenericEnumerator that can be used to iterate through the collection.
 ### iteratorJava() {#iteratorJava--}
 ```
 public final System.Collections.Generic.IGenericEnumerator<IDataLabel> iteratorJava()
 ```
 
 
-Restituisce un iteratore Java per l'intera raccolta.
+Restituisce un iteratore java per l'intera collezione.
 
 **Restituisce:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.slides.IDataLabel> - Un java.util.Iterator per l'intera raccolta.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.slides.IDataLabel} - An java.util.Iterator for the entire collection.
 ### isVisible() {#isVisible--}
 ```
 public final boolean isVisible()
 ```
 
 
-False indica che l'etichetta dati non è visibile per impostazione predefinita (e quindi tutti i flag Show* (ShowValue, ...) della proprietà DefaultDataLabelFormat sono falsi). Booleano sola lettura.
+False indica che l'etichetta dati non è visibile per impostazione predefinita (e quindi tutti i flag Show\*-flags (ShowValue, ...) della proprietà DefaultDataLabelFormat sono false). Sola lettura boolean.
 
 --------------------
 
-Se l'etichetta dati è visibile per impostazione predefinita, è possibile renderla nascosta per impostazione predefinita con il metodo Hide(). Ma se l'etichetta dati non è visibile per impostazione predefinita (IsVisible è false) è possibile rendere l'etichetta dati "visibile per impostazione predefinita" impostando i flag Show* (ShowValue, ...) della proprietà DefaultDataLabelFormat nello stato true.
+Se l'etichetta dati è visibile per impostazione predefinita è possibile nasconderla con il metodo Hide(). Ma se l'etichetta dati non è visibile per impostazione predefinita (IsVisible è false) è possibile renderla "visibile per impostazione predefinita" impostando i flag Show\*-flags (ShowValue, ...) della proprietà DefaultDataLabelFormat nello stato true.
 
 **Restituisce:**
 boolean
@@ -83,18 +85,19 @@ public final void hide()
 ```
 
 
-Rendi l'etichetta dati nascosta per impostazione predefinita impostando tutti i flag Show* (ShowValue, ...) della proprietà DefaultDataLabelFormat nello stato false. IsVisible sarà false dopo questa operazione.
+Nascondi l'etichetta dati per impostazione predefinita impostando tutti i flag Show\*-flags (ShowValue, ...) della proprietà DefaultDataLabelFormat nello stato false. IsVisible sarà false dopo questa operazione.
 
 --------------------
 
-Se l'etichetta dati non è visibile per impostazione predefinita (IsVisible è false) è possibile rendere l'etichetta dati "visibile per impostazione predefinita" impostando i flag Show* (ShowValue, ...) della proprietà DefaultDataLabelFormat nello stato true.
+Se l'etichetta dati non è visibile per impostazione predefinita (IsVisible è false) è possibile renderla "visibile per impostazione predefinita" impostando i flag Show\*-flags (ShowValue, ...) della proprietà DefaultDataLabelFormat nello stato true.
+
 ### getCountOfVisibleDataLabels() {#getCountOfVisibleDataLabels--}
 ```
 public final int getCountOfVisibleDataLabels()
 ```
 
 
-Ottiene il numero di etichette dati visibili nella raccolta. Intero sola lettura.
+Ottiene il numero di etichette dati visibili nella collezione. Sola lettura int.
 
 **Restituisce:**
 int
@@ -104,7 +107,7 @@ public final int getCount()
 ```
 
 
-Ottiene il numero totale di etichette dati nella raccolta. Intero sola lettura.
+Ottiene il numero di tutte le etichette dati nella collezione. Sola lettura int.
 
 **Restituisce:**
 int
@@ -143,6 +146,7 @@ Rappresenta il formato delle linee guida delle etichette dati. Sola lettura [ICh
 >  }
 > ```
 
+
 **Restituisce:**
 [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat)
 ### getParentSeries() {#getParentSeries--}
@@ -151,7 +155,7 @@ public final IChartSeries getParentSeries()
 ```
 
 
-Ottiene la serie padre. Sola lettura [IChartSeries](../../com.aspose.slides/ichartseries).
+Ottiene la serie genitore. Sola lettura [IChartSeries](../../com.aspose.slides/ichartseries).
 
 **Restituisce:**
 [IChartSeries](../../com.aspose.slides/ichartseries)
@@ -161,7 +165,7 @@ public final int indexOf(IDataLabel value)
 ```
 
 
-Restituisce l'indice della DataLabel specificata nella raccolta.
+Restituisce l'indice del DataLabel specificato nella collezione.
 
 **Parametri:**
 | Parametro | Tipo | Descrizione |
@@ -169,7 +173,7 @@ Restituisce l'indice della DataLabel specificata nella raccolta.
 | value | [IDataLabel](../../com.aspose.slides/idatalabel) | DataLabel da trovare. |
 
 **Restituisce:**
-int - Indice di una DataLabel o -1 se la DataLabel non proviene da questa raccolta.
+int - Index of a DataLabel or -1 if DataLabel not from this collection.
 ### get_Item(int index) {#get-Item-int-}
 ```
 public final IDataLabel get_Item(int index)
@@ -189,13 +193,76 @@ Un modo alternativo per accedere all'etichetta dati è: - series.getDataPoints()
 
 **Restituisce:**
 [IDataLabel](../../com.aspose.slides/idatalabel)
+### getDefaultLabelShapeType() {#getDefaultLabelShapeType--}
+```
+public final int getDefaultLabelShapeType()
+```
+
+
+Ottiene o imposta il tipo di forma predefinito per le etichette dati. Restituisce [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) se non è definita alcuna forma.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Imposta il tipo di forma di tutte le etichette dati nella prima serie su Ellipse.
+>      firstSeries.getLabels().setDefaultLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabels.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+--------------------
+
+Impostare questa proprietà imposta anche la proprietà IDataLabel.LabelShapeType ([IDataLabel.getLabelShapeType](../../com.aspose.slides/idatalabel\#getLabelShapeType)/[IDataLabel.setLabelShapeType(int)](../../com.aspose.slides/idatalabel\#setLabelShapeType-int-)) per tutte le etichette dati nella collezione allo stesso valore.
+
+**Restituisce:**
+int
+### setDefaultLabelShapeType(int value) {#setDefaultLabelShapeType-int-}
+```
+public final void setDefaultLabelShapeType(int value)
+```
+
+
+Ottiene o imposta il tipo di forma predefinito per le etichette dati. Restituisce [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) se non è definita alcuna forma.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Imposta il tipo di forma di tutte le etichette dati nella prima serie su Ellipse.
+>      firstSeries.getLabels().setDefaultLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabels.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+--------------------
+
+Impostare questa proprietà imposta anche la proprietà IDataLabel.LabelShapeType ([IDataLabel.getLabelShapeType](../../com.aspose.slides/idatalabel\#getLabelShapeType)/[IDataLabel.setLabelShapeType(int)](../../com.aspose.slides/idatalabel\#setLabelShapeType-int-)) per tutte le etichette dati nella collezione allo stesso valore.
+
+**Parametri:**
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| value | int |  |
+
 ### getSlide() {#getSlide--}
 ```
 public final IBaseSlide getSlide()
 ```
 
 
-Restituisce la diapositiva padre di un FillFormat. Sola lettura [BaseSlide](../../com.aspose.slides/baseslide).
+Restituisce la diapositiva genitore di un FillFormat. Sola lettura [BaseSlide](../../com.aspose.slides/baseslide).
 
 **Restituisce:**
 [IBaseSlide](../../com.aspose.slides/ibaseslide)
@@ -205,7 +272,7 @@ public final IPresentation getPresentation()
 ```
 
 
-Restituisce la presentazione padre di un FillFormat. Sola lettura [IPresentation](../../com.aspose.slides/ipresentation).
+Restituisce la presentazione genitore di un FillFormat. Sola lettura [IPresentation](../../com.aspose.slides/ipresentation).
 
 **Restituisce:**
 [IPresentation](../../com.aspose.slides/ipresentation)

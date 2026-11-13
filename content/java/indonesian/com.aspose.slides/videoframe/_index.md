@@ -1,7 +1,7 @@
 ---
 title: VideoFrame
 second_title: Referensi API Aspose.Slides untuk Java
-description: Mewakili sebuah klip video pada slide.
+description: Mewakili klip video pada slide.
 type: docs
 url: /id/com.aspose.slides/videoframe/
 ---
@@ -14,32 +14,35 @@ java.lang.Object, [com.aspose.slides.Shape](../../com.aspose.slides/shape), [com
 public class VideoFrame extends PictureFrame implements IVideoFrame
 ```
 
-Mewakili sebuah klip video pada slide.
+Mewakili klip video pada slide.
 ## Metode
 
 | Metode | Deskripsi |
 | --- | --- |
 | [getRewindVideo()](#getRewindVideo--) | Menentukan apakah video secara otomatis diputar ulang ke awal segera setelah film selesai diputar. |
 | [setRewindVideo(boolean value)](#setRewindVideo-boolean-) | Menentukan apakah video secara otomatis diputar ulang ke awal segera setelah film selesai diputar. |
-| [getPlayLoopMode()](#getPlayLoopMode--) | Menentukan apakah video diulang. |
-| [setPlayLoopMode(boolean value)](#setPlayLoopMode-boolean-) | Menentukan apakah video diulang. |
+| [getPlayLoopMode()](#getPlayLoopMode--) | Menentukan apakah video diputar berulang. |
+| [setPlayLoopMode(boolean value)](#setPlayLoopMode-boolean-) | Menentukan apakah video diputar berulang. |
 | [getHideAtShowing()](#getHideAtShowing--) | Menentukan apakah VideoFrame disembunyikan. |
 | [setHideAtShowing(boolean value)](#setHideAtShowing-boolean-) | Menentukan apakah VideoFrame disembunyikan. |
 | [getVolume()](#getVolume--) | Mengembalikan atau mengatur volume audio. |
 | [setVolume(int value)](#setVolume-int-) | Mengembalikan atau mengatur volume audio. |
+| [getVolumeValue()](#getVolumeValue--) | Mengembalikan atau mengatur volume video yang tepat sebagai persentase. |
+| [setVolumeValue(float value)](#setVolumeValue-float-) | Mengembalikan atau mengatur volume video yang tepat sebagai persentase. |
 | [getPlayMode()](#getPlayMode--) | Mengembalikan atau mengatur mode pemutaran video. |
 | [setPlayMode(int value)](#setPlayMode-int-) | Mengembalikan atau mengatur mode pemutaran video. |
 | [getFullScreenMode()](#getFullScreenMode--) | Menentukan apakah video ditampilkan dalam mode layar penuh. |
 | [setFullScreenMode(boolean value)](#setFullScreenMode-boolean-) | Menentukan apakah video ditampilkan dalam mode layar penuh. |
-| [getLinkPathLong()](#getLinkPathLong--) | Mengembalikan atau mengatur nama file video yang terhubung ke VideoFrame. |
-| [setLinkPathLong(String value)](#setLinkPathLong-java.lang.String-) | Mengembalikan atau mengatur nama file video yang terhubung ke VideoFrame. |
+| [getLinkPathLong()](#getLinkPathLong--) | Mengembalikan atau mengatur nama berkas video yang terhubung ke VideoFrame. |
+| [setLinkPathLong(String value)](#setLinkPathLong-java.lang.String-) | Mengembalikan atau mengatur nama berkas video yang terhubung ke VideoFrame. |
 | [getEmbeddedVideo()](#getEmbeddedVideo--) | Mengembalikan atau mengatur objek video tersemat. |
 | [setEmbeddedVideo(IVideo value)](#setEmbeddedVideo-com.aspose.slides.IVideo-) | Mengembalikan atau mengatur objek video tersemat. |
 | [getTrimFromStart()](#getTrimFromStart--) | Pemotongan awal [ms] |
 | [setTrimFromStart(float value)](#setTrimFromStart-float-) | Pemotongan awal [ms] |
 | [getTrimFromEnd()](#getTrimFromEnd--) | Pemotongan akhir [ms] |
 | [setTrimFromEnd(float value)](#setTrimFromEnd-float-) | Pemotongan akhir [ms] |
-| [getCaptionTracks()](#getCaptionTracks--) | Mendapatkan koleksi caption tertutup yang terkait dengan bingkai video. |
+| [getCaptionTracks()](#getCaptionTracks--) | Mendapatkan koleksi caption tertutup yang terkait dengan video frame. |
+
 ### getRewindVideo() {#getRewindVideo--}
 ```
 public final boolean getRewindVideo()
@@ -66,7 +69,7 @@ Menentukan apakah video secara otomatis diputar ulang ke awal segera setelah fil
 public final boolean getPlayLoopMode()
 ```
 
-Menentukan apakah video diulang. Baca/tulis boolean.
+Menentukan apakah video diputar berulang. Baca/tulis boolean.
 
 **Mengembalikan:**
 boolean
@@ -75,7 +78,7 @@ boolean
 public final void setPlayLoopMode(boolean value)
 ```
 
-Menentukan apakah video diulang. Baca/tulis boolean.
+Menentukan apakah video diputar berulang. Baca/tulis boolean.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
@@ -124,6 +127,63 @@ Mengembalikan atau mengatur volume audio. Baca/tulis [AudioVolumeMode](../../com
 | --- | --- | --- |
 | value | int |  |
 
+### getVolumeValue() {#getVolumeValue--}
+```
+public final float getVolumeValue()
+```
+
+Mengembalikan atau mengatur volume video yang tepat sebagai persentase. Nilai diungkapkan sebagai persentase dari 0 hingga 100. Gunakan properti ini untuk membaca atau mengatur nilai volume yang lebih presisi daripada tingkat yang telah ditentukan tersedia melalui properti \#getVolume.getVolume/\#setVolume(int).setVolume(int). Baca/tulis float.
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video.pptx");
+>  try {
+>      IVideoFrame videoFrame = (IVideoFrame)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // Baca volume tepat saat ini dan setel ke 75,5 persen.
+>      float currentVolume = videoFrame.getVolumeValue();
+>      System.out.println(currentVolume);
+>      videoFrame.setVolumeValue(75.5f);
+>      pres.save("video_with_volume.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Mengembalikan:**
+float
+### setVolumeValue(float value) {#setVolumeValue-float-}
+```
+public final void setVolumeValue(float value)
+```
+
+Mengembalikan atau mengatur volume video yang tepat sebagai persentase. Nilai diungkapkan sebagai persentase dari 0 hingga 100. Gunakan properti ini untuk membaca atau mengatur nilai volume yang lebih presisi daripada tingkat yang telah ditentukan tersedia melalui properti \#getVolume.getVolume/\#setVolume(int).setVolume(int). Baca/tulis float.
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video.pptx");
+>  try {
+>      IVideoFrame videoFrame = (IVideoFrame)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // Baca volume tepat saat ini dan setel ke 75,5 persen.
+>      float currentVolume = videoFrame.getVolumeValue();
+>      System.out.println(currentVolume);
+>      videoFrame.setVolumeValue(75.5f);
+>      pres.save("video_with_volume.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameter:**
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| value | float |  |
+
 ### getPlayMode() {#getPlayMode--}
 ```
 public final int getPlayMode()
@@ -171,7 +231,7 @@ Menentukan apakah video ditampilkan dalam mode layar penuh. Baca/tulis boolean.
 public final String getLinkPathLong()
 ```
 
-Mengembalikan atau mengatur nama file video yang terhubung ke VideoFrame. Baca/tulis String.
+Mengembalikan atau mengatur nama berkas video yang terhubung ke VideoFrame. Baca/tulis String.
 
 **Mengembalikan:**
 java.lang.String
@@ -180,7 +240,7 @@ java.lang.String
 public final void setLinkPathLong(String value)
 ```
 
-Mengembalikan atau mengatur nama file video yang terhubung ke VideoFrame. Baca/tulis String.
+Mengembalikan atau mengatur nama berkas video yang terhubung ke VideoFrame. Baca/tulis String.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
@@ -225,9 +285,9 @@ Pemotongan awal [ms]
 >      ISlide slide = pres.getSlides().get_Item(0);
 >      IVideo video = pres.getVideos().addVideo(Files.readAllBytes(Paths.get("video.mp4")));
 >      IVideoFrame videoFrame = slide.getShapes().addVideoFrame(0, 0, 100, 100, video);
->      //set triming start time 1sec
+>      //atur waktu pemangkasan mulai 1 detik
 >      videoFrame.setTrimFromStart(1000f);
->      //set triming end time 2sec
+>      //atur waktu pemangkasan akhir 2 detik
 >      videoFrame.setTrimFromEnd(2000f);
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -253,9 +313,9 @@ Pemotongan awal [ms]
 >      ISlide slide = pres.getSlides().get_Item(0);
 >      IVideo video = pres.getVideos().addVideo(Files.readAllBytes(Paths.get("video.mp4")));
 >      IVideoFrame videoFrame = slide.getShapes().addVideoFrame(0, 0, 100, 100, video);
->      //set triming start time 1sec
+>      //atur waktu pemangkasan mulai 1 detik
 >      videoFrame.setTrimFromStart(1000f);
->      //set triming end time 2sec
+>      //atur waktu pemangkasan akhir 2 detik
 >      videoFrame.setTrimFromEnd(2000f);
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -293,7 +353,7 @@ Pemotongan akhir [ms]
 public final ICaptionsCollection getCaptionTracks()
 ```
 
-Mendapatkan koleksi caption tertutup yang terkait dengan bingkai video. Properti ini hanya-baca dan mengembalikan [ICaptionsCollection](../../com.aspose.slides/icaptionscollection) yang berisi semua trek caption.
+Mendapatkan koleksi caption tertutup yang terkait dengan video frame. Properti ini bersifat baca-saja dan mengembalikan sebuah [ICaptionsCollection](../../com.aspose.slides/icaptionscollection) yang berisi semua trek caption.
 
 --------------------
 
@@ -309,7 +369,7 @@ Mendapatkan koleksi caption tertutup yang terkait dengan bingkai video. Properti
 >          IVideoFrame videoFrame = (IVideoFrame) shape;
 >          for (ICaptions captionTrack : videoFrame.getCaptionTracks())
 >          {
->              // Extracts the captions binary data and saves them to the file
+>              // Mengekstrak data biner caption dan menyimpannya ke file
 >              FileOutputStream fos = new FileOutputStream(captionTrack.getCaptionId() + ".vtt");
 >              fos.write(captionTrack.getBinaryData());
 >              fos.close();

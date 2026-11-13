@@ -1,7 +1,7 @@
 ---
 title: IDataLabelCollection
-second_title: Aspose.Slides for Java API リファレンス
-description: シリーズ ラベルを表します。
+second_title: Aspose.Slides の Java API リファレンス
+description: シリーズラベルを表します。
 type: docs
 url: /ja/com.aspose.slides/idatalabelcollection/
 ---
@@ -11,31 +11,33 @@ com.aspose.ms.System.Collections.Generic.IGenericEnumerable, [com.aspose.slides.
 public interface IDataLabelCollection extends System.Collections.Generic.IGenericEnumerable<IDataLabel>, IChartComponent
 ```
 
-シリーズのラベルを表します。
+シリーズラベルを表します。
 ## メソッド
 
 | メソッド | 説明 |
 | --- | --- |
-| [get_Item(int index)](#get-Item-int-) | 指定したインデックスのデータ ポイントのデータ ラベルを取得します。 |
-| [getDefaultDataLabelFormat()](#getDefaultDataLabelFormat--) | コレクション内のすべてのデータ ラベルの既定の書式を返します。 |
-| [getLeaderLinesFormat()](#getLeaderLinesFormat--) | データ ラベルのリーダー ラインの書式を表します。 |
-| [isVisible()](#isVisible--) | false の場合、デフォルトでデータ ラベルは表示されません (したがって DefaultDataLabelFormat プロパティのすべての Show\*-フラグ (ShowValue, ...) は false です)。 |
-| [hide()](#hide--) | DefaultDataLabelFormat プロパティのすべての Show\*-フラグ (ShowValue, ...) を false に設定して、デフォルトでデータ ラベルを非表示にします。 |
-| [getCountOfVisibleDataLabels()](#getCountOfVisibleDataLabels--) | コレクション内の表示されているデータ ラベルの数を取得します。 |
-| [getCount()](#getCount--) | コレクション内のすべてのデータ ラベルの数を取得します。 |
-| [getParentSeries()](#getParentSeries--) | 親チャート シリーズを返します。 |
+| [get_Item(int index)](#get-Item-int-) | 指定されたインデックスのデータポイントのデータラベルを取得します。 |
+| [getDefaultDataLabelFormat()](#getDefaultDataLabelFormat--) | コレクション内のすべてのデータラベルのデフォルト形式を返します。 |
+| [getLeaderLinesFormat()](#getLeaderLinesFormat--) | データラベルのリーダーライン形式を表します。 |
+| [isVisible()](#isVisible--) | False は、データラベルがデフォルトで表示されないことを意味します（そのため DefaultDataLabelFormat プロパティのすべての Show*-フラグ (ShowValue, ...) が false になります）。 |
+| [hide()](#hide--) | DefaultDataLabelFormat プロパティのすべての Show*-フラグ (ShowValue, ...) を false に設定することで、データラベルをデフォルトで非表示にします。 |
+| [getCountOfVisibleDataLabels()](#getCountOfVisibleDataLabels--) | コレクション内の表示されているデータラベルの数を取得します。 |
+| [getCount()](#getCount--) | コレクション内のすべてのデータラベルの数を取得します。 |
+| [getParentSeries()](#getParentSeries--) | 親チャートシリーズを返します。 |
 | [indexOf(IDataLabel value)](#indexOf-com.aspose.slides.IDataLabel-) | コレクション内の指定された DataLabel のインデックスを返します。 |
+| [getDefaultLabelShapeType()](#getDefaultLabelShapeType--) | データラベルのデフォルトのシェイプタイプを取得または設定します。 |
+| [setDefaultLabelShapeType(int value)](#setDefaultLabelShapeType-int-) | データラベルのデフォルトのシェイプタイプを取得または設定します。 |
 ### get_Item(int index) {#get-Item-int-}
 ```
 public abstract IDataLabel get_Item(int index)
 ```
 
 
-指定したインデックスのデータ ポイントのデータ ラベルを取得します。
+指定されたインデックスのデータポイントのデータラベルを取得します。
 
 --------------------
 
-データ ラベルにアクセスする別の方法は次のとおりです。- getSeries().getDataPoints().get_Item(i).getLabel() - ラベル プロパティを管理します。
+データラベルにアクセスする別の方法は次のとおりです: - getSeries().getDataPoints().get_Item(i).getLabel() - ラベルプロパティを管理します。
 
 **パラメーター:**
 | パラメーター | 型 | 説明 |
@@ -50,7 +52,7 @@ public abstract IDataLabelFormat getDefaultDataLabelFormat()
 ```
 
 
-コレクション内のすべてのデータ ラベルの既定の書式を返します。読み取り専用 [IDataLabelFormat](../../com.aspose.slides/idatalabelformat)。
+コレクション内のすべてのデータラベルのデフォルト形式を返します。読み取り専用 [IDataLabelFormat](../../com.aspose.slides/idatalabelformat)。
 
 **戻り値:**
 [IDataLabelFormat](../../com.aspose.slides/idatalabelformat)
@@ -60,7 +62,7 @@ public abstract IChartLinesFormat getLeaderLinesFormat()
 ```
 
 
-データ ラベルのリーダー ラインの書式を表します。読み取り専用 [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat)。
+データラベルのリーダーライン形式を表します。読み取り専用 [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat)。
 
 --------------------
 
@@ -79,6 +81,7 @@ public abstract IChartLinesFormat getLeaderLinesFormat()
 >  }
 > ```
 
+
 **戻り値:**
 [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat)
 ### isVisible() {#isVisible--}
@@ -87,11 +90,11 @@ public abstract boolean isVisible()
 ```
 
 
-false の場合、デフォルトでデータ ラベルは表示されません (したがって DefaultDataLabelFormat プロパティのすべての Show\*-フラグ (ShowValue, ...) は false です)。読み取り専用 boolean 。
+False は、データラベルがデフォルトで表示されないことを意味します（そのため DefaultDataLabelFormat プロパティのすべての Show*-フラグ (ShowValue, ...) が false になります）。読み取り専用 boolean 。
 
 --------------------
 
-デフォルトでデータ ラベルが表示される場合は、Hide() メソッドでデフォルトで非表示にできます。ただしデフォルトで表示されない場合 (IsVisible が false) は、DefaultDataLabelFormat プロパティの Show\*-フラグ (ShowValue, ...) を true に設定して「デフォルトで表示」状態にできます。
+データラベルがデフォルトで表示されている場合は、Hide() メソッドでデフォルトで非表示にできます。ただしデータラベルがデフォルトで表示されない場合（IsVisible が false）には、DefaultDataLabelFormat プロパティの Show*-フラグ (ShowValue, ...) を true に設定することで「デフォルトで表示」させることができます。
 
 **戻り値:**
 boolean
@@ -101,11 +104,11 @@ public abstract void hide()
 ```
 
 
-DefaultDataLabelFormat プロパティのすべての Show\*-フラグ (ShowValue, ...) を false に設定して、デフォルトでデータ ラベルを非表示にします。これ以降 IsVisible は false になります。
+DefaultDataLabelFormat プロパティのすべての Show*-フラグ (ShowValue, ...) を false に設定することで、データラベルをデフォルトで非表示にします。これにより IsVisible は false になります。
 
 --------------------
 
-デフォルトでデータ ラベルが表示されない場合 (IsVisible が false) は、DefaultDataLabelFormat プロパティの Show\*-フラグ (ShowValue, ...) を true に設定して「デフォルトで表示」状態にできます。
+データラベルがデフォルトで表示されない場合（IsVisible が false）には、DefaultDataLabelFormat プロパティの Show*-フラグ (ShowValue, ...) を true に設定することで「デフォルトで表示」させることができます。
 
 ### getCountOfVisibleDataLabels() {#getCountOfVisibleDataLabels--}
 ```
@@ -113,7 +116,7 @@ public abstract int getCountOfVisibleDataLabels()
 ```
 
 
-コレクション内の表示されているデータ ラベルの数を取得します。読み取り専用 int 。
+コレクション内の表示されているデータラベルの数を取得します。読み取り専用  int .
 
 **戻り値:**
 int
@@ -123,7 +126,7 @@ public abstract int getCount()
 ```
 
 
-コレクション内のすべてのデータ ラベルの数を取得します。読み取り専用 int 。
+コレクション内のすべてのデータラベルの数を取得します。読み取り専用  int .
 
 **戻り値:**
 int
@@ -133,7 +136,7 @@ public abstract IChartSeries getParentSeries()
 ```
 
 
-親チャート シリーズを返します。読み取り専用 [IChartSeries](../../com.aspose.slides/ichartseries)。
+親チャートシリーズを返します。読み取り専用 [IChartSeries](../../com.aspose.slides/ichartseries)。
 
 **戻り値:**
 [IChartSeries](../../com.aspose.slides/ichartseries)
@@ -148,7 +151,69 @@ public abstract int indexOf(IDataLabel value)
 **パラメーター:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| value | [IDataLabel](../../com.aspose.slides/idatalabel) | 検索する DataLabel。 |
+| value | [IDataLabel](../../com.aspose.slides/idatalabel) | 見つける DataLabel。 |
 
 **戻り値:**
-int - DataLabel のインデックス、またはこのコレクションに含まれない場合は -1。
+int - DataLabel のインデックス、またはこのコレクションに属さない場合は -1
+### getDefaultLabelShapeType() {#getDefaultLabelShapeType--}
+```
+public abstract int getDefaultLabelShapeType()
+```
+
+
+データラベルのデフォルトのシェイプタイプを取得または設定します。シェイプが定義されていない場合は [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) を返します。
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // 最初のシリーズのすべてのデータラベルのシェイプタイプをEllipseに設定します。
+>      firstSeries.getLabels().setDefaultLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabels.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+--------------------
+
+このプロパティを設定すると、コレクション内のすべてのデータラベルの IDataLabel.LabelShapeType ([IDataLabel.getLabelShapeType](../../com.aspose.slides/idatalabel\#getLabelShapeType)/[IDataLabel.setLabelShapeType(int)](../../com.aspose.slides/idatalabel\#setLabelShapeType-int-)) プロパティも同じ値に設定されます。
+
+**戻り値:**
+int
+### setDefaultLabelShapeType(int value) {#setDefaultLabelShapeType-int-}
+```
+public abstract void setDefaultLabelShapeType(int value)
+```
+
+
+データラベルのデフォルトのシェイプタイプを取得または設定します。シェイプが定義されていない場合は [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) を返します。
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // 最初のシリーズのすべてのデータラベルのシェイプタイプをEllipseに設定します。
+>      firstSeries.getLabels().setDefaultLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabels.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+--------------------
+
+このプロパティを設定すると、コレクション内のすべてのデータラベルの IDataLabel.LabelShapeType ([IDataLabel.getLabelShapeType](../../com.aspose.slides/idatalabel\#getLabelShapeType)/[IDataLabel.setLabelShapeType(int)](../../com.aspose.slides/idatalabel\#setLabelShapeType-int-)) プロパティも同じ値に設定されます。
+
+**パラメーター:**
+| パラメーター | 型 | 説明 |
+| --- | --- | --- |
+| value | int |  |

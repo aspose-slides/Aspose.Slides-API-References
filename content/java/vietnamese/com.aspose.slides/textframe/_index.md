@@ -5,10 +5,10 @@ description: Biểu diễn một TextFrame.
 type: docs
 url: /vi/com.aspose.slides/textframe/
 ---
-**Inheritance:**
+**Kế thừa:**
 java.lang.Object
 
-**All Implemented Interfaces:**
+**Tất cả các giao diện được triển khai:**
 [com.aspose.slides.ITextFrame](../../com.aspose.slides/itextframe), com.aspose.slides.IDOMObject
 ```
 public final class TextFrame implements ITextFrame, IDOMObject
@@ -20,63 +20,64 @@ Biểu diễn một TextFrame.
 | Phương thức | Mô tả |
 | --- | --- |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-| [getParagraphs()](#getParagraphs--) | Trả về danh sách tất cả các đoạn văn trong một khung. |
-| [getText()](#getText--) | Lấy hoặc đặt văn bản thuần cho một TextFrame. |
-| [setText(String value)](#setText-java.lang.String-) | Lấy hoặc đặt văn bản thuần cho một TextFrame. |
+| [getParagraphs()](#getParagraphs--) | Trả về danh sách tất cả các đoạn trong một khung. |
+| [getText()](#getText--) | Lấy hoặc đặt văn bản thuần cho TextFrame. |
+| [setText(String value)](#setText-java.lang.String-) | Lấy hoặc đặt văn bản thuần cho TextFrame. |
 | [getTextFrameFormat()](#getTextFrameFormat--) | Trả về đối tượng định dạng cho đối tượng TextFrame này. |
-| [getHyperlinkQueries()](#getHyperlinkQueries--) | Cung cấp truy cập dễ dàng tới các siêu liên kết chứa trong. |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Ghép các run có cùng định dạng trong tất cả các đoạn văn. |
-| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | Tô sáng tất cả các khớp của văn bản mẫu bằng màu được chỉ định. |
-| [highlightText(String text, Color highlightColor, ITextHighlightingOptions options)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Tô sáng tất cả các khớp của văn bản mẫu bằng màu được chỉ định. |
-| [splitTextByColumns()](#splitTextByColumns--) | Tách nội dung văn bản của [ITextFrame](../../com.aspose.slides/itextframe) thành một mảng các chuỗi, mỗi phần tử tương ứng với một cột văn bản riêng trong khung. |
-| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Tô sáng tất cả các khớp của văn bản mẫu bằng màu được chỉ định. |
-| [highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)](#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Tô sáng tất cả các khớp của biểu thức chính quy bằng màu được chỉ định. |
-| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | Tô sáng tất cả các khớp của biểu thức chính quy bằng màu được chỉ định. |
+| [getHyperlinkQueries()](#getHyperlinkQueries--) | Cung cấp truy cập dễ dàng đến các siêu liên kết chứa trong. |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Ghép các đoạn chạy có cùng định dạng trong tất cả các đoạn. |
+| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | Tô sáng tất cả các kết quả phù hợp của mẫu văn bản với màu được chỉ định. |
+| [highlightText(String text, Color highlightColor, ITextHighlightingOptions options)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Tô sáng tất cả các kết quả phù hợp của mẫu văn bản với màu được chỉ định. |
+| [splitTextByColumns()](#splitTextByColumns--) | Tách nội dung văn bản của [ITextFrame](../../com.aspose.slides/itextframe) thành một mảng các chuỗi, trong đó mỗi phần tử tương ứng với một cột văn bản riêng trong khung. |
+| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Tô sáng tất cả các kết quả phù hợp của mẫu văn bản với màu được chỉ định. |
+| [highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)](#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Tô sáng tất cả các khớp của biểu thức chính quy với màu được chỉ định. |
+| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | Tô sáng tất cả các khớp của biểu thức chính quy với màu được chỉ định. |
 | [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Thay thế tất cả các lần xuất hiện của văn bản được chỉ định bằng một văn bản khác được chỉ định. |
 | [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Thay thế tất cả các khớp của biểu thức chính quy bằng chuỗi được chỉ định. |
 | [getSlide()](#getSlide--) | Trả về slide cha của một TextFrame. |
 | [getPresentation()](#getPresentation--) | Trả về bản trình bày cha của một TextFrame. |
-| [getParentShape()](#getParentShape--) | Trả về shape cha hoặc null nếu đối tượng cha không thực thi giao diện IShape. Chỉ đọc [IShape](../../com.aspose.slides/ishape). |
-| [getParentCell()](#getParentCell--) | Trả về cell cha hoặc null nếu đối tượng cha không thực thi giao diện ICell. |
+| [getParentShape()](#getParentShape--) | Trả về hình dạng cha hoặc null nếu đối tượng cha không triển khai giao diện IShape. Chỉ đọc [IShape](../../com.aspose.slides/ishape). |
+| [getTextRect()](#getTextRect--) | Lấy hình chữ nhật văn bản được định nghĩa bởi hình học của hình dạng cha. |
+| [getParentCell()](#getParentCell--) | Trả về ô cha hoặc null nếu đối tượng cha không triển khai giao diện ICell. |
+
 ### getParent_Immediate() {#getParent-Immediate--}
 ```
 public final IDOMObject getParent_Immediate()
 ```
 
-
 Trả về đối tượng Parent_Immediate. Chỉ đọc IDOMObject.
 
-**Giá trị trả về:**
+**Trả về:**
 com.aspose.slides.IDOMObject
+
 ### getParagraphs() {#getParagraphs--}
 ```
 public final IParagraphCollection getParagraphs()
 ```
 
+Trả về danh sách tất cả các đoạn trong một khung. Chỉ đọc [IParagraphCollection](../../com.aspose.slides/iparagraphcollection).
 
-Trả về danh sách tất cả các đoạn văn trong một khung. Chỉ đọc [IParagraphCollection](../../com.aspose.slides/iparagraphcollection).
-
-**Giá trị trả về:**
+**Trả về:**
 [IParagraphCollection](../../com.aspose.slides/iparagraphcollection)
+
 ### getText() {#getText--}
 ```
 public final String getText()
 ```
 
-
-Lấy hoặc đặt văn bản thuần cho một TextFrame. Đọc/ghi String.
+Lấy hoặc đặt văn bản thuần cho TextFrame. Đọc/ghi String.
 
 Giá trị: Văn bản.
 
-**Giá trị trả về:**
+**Trả về:**
 java.lang.String
+
 ### setText(String value) {#setText-java.lang.String-}
 ```
 public final void setText(String value)
 ```
 
-
-Lấy hoặc đặt văn bản thuần cho một TextFrame. Đọc/ghi String.
+Lấy hoặc đặt văn bản thuần cho TextFrame. Đọc/ghi String.
 
 Giá trị: Văn bản.
 
@@ -90,41 +91,39 @@ Giá trị: Văn bản.
 public final ITextFrameFormat getTextFrameFormat()
 ```
 
-
 Trả về đối tượng định dạng cho đối tượng TextFrame này. Chỉ đọc [ITextFrameFormat](../../com.aspose.slides/itextframeformat).
 
-**Giá trị trả về:**
+**Trả về:**
 [ITextFrameFormat](../../com.aspose.slides/itextframeformat)
+
 ### getHyperlinkQueries() {#getHyperlinkQueries--}
 ```
 public final IHyperlinkQueries getHyperlinkQueries()
 ```
 
+Cung cấp truy cập dễ dàng đến các siêu liên kết chứa trong. Chỉ đọc [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
 
-Cung cấp truy cập dễ dàng tới các siêu liên kết chứa trong. Chỉ đọc [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
-
-**Giá trị trả về:**
+**Trả về:**
 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)
+
 ### joinPortionsWithSameFormatting() {#joinPortionsWithSameFormatting--}
 ```
 public final void joinPortionsWithSameFormatting()
 ```
 
-
-Ghép các run có cùng định dạng trong tất cả các đoạn văn.
+Ghép các đoạn chạy có cùng định dạng trong tất cả các đoạn.
 
 ### highlightText(String text, Color highlightColor) {#highlightText-java.lang.String-java.awt.Color-}
 ```
 public final void highlightText(String text, Color highlightColor)
 ```
 
-
-Tô sáng tất cả các khớp của văn bản mẫu bằng màu được chỉ định.
+Tô sáng tất cả các khớp của mẫu văn bản với màu được chỉ định.
 
 **Tham số:**
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
-| text | java.lang.String | Văn bản mẫu để tô sáng. |
+| text | java.lang.String | Mẫu văn bản để tô sáng. |
 | highlightColor | java.awt.Color | Màu để tô sáng văn bản. |
 
 ### highlightText(String text, Color highlightColor, ITextHighlightingOptions options) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-}
@@ -132,8 +131,7 @@ Tô sáng tất cả các khớp của văn bản mẫu bằng màu được ch�
 public final void highlightText(String text, Color highlightColor, ITextHighlightingOptions options)
 ```
 
-
-Tô sáng tất cả các khớp của văn bản mẫu bằng màu được chỉ định.
+Tô sáng tất cả các khớp của mẫu văn bản với màu được chỉ định.
 
 --------------------
 
@@ -143,9 +141,9 @@ Tô sáng tất cả các khớp của văn bản mẫu bằng màu được ch�
 >  try {
 >      TextHighlightingOptions textHighlightingOptions = new TextHighlightingOptions();
 >      textHighlightingOptions.setWholeWordsOnly(true);
->      // tô sáng tất cả các từ 'important'
+>      // highlighting all words 'important'
 >      ((AutoShape)pres.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightText("title", Color.BLUE);
->      // tô sáng tất cả các lần xuất hiện riêng lẻ của 'the'
+>      // highlighting all separate 'the' occurrences
 >      ((AutoShape)pres.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightText("to", Color.MAGENTA, textHighlightingOptions);
 >      pres.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -153,11 +151,10 @@ Tô sáng tất cả các khớp của văn bản mẫu bằng màu được ch�
 >  }
 > ```
 
-
 **Tham số:**
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
-| text | java.lang.String | Văn bản cần tô sáng. |
+| text | java.lang.String | Văn bản để tô sáng. |
 | highlightColor | java.awt.Color | Màu để tô sáng văn bản. |
 | options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | Tùy chọn tô sáng. |
 
@@ -166,21 +163,20 @@ Tô sáng tất cả các khớp của văn bản mẫu bằng màu được ch�
 public final String[] splitTextByColumns()
 ```
 
-
-Tách nội dung văn bản của [ITextFrame](../../com.aspose.slides/itextframe) thành một mảng các chuỗi, mỗi phần tử tương ứng với một cột văn bản riêng trong khung.
+Tách nội dung văn bản của [ITextFrame](../../com.aspose.slides/itextframe) thành một mảng các chuỗi, trong đó mỗi phần tử tương ứng với một cột văn bản riêng trong khung.
 
 --------------------
 
 > ```
-> Ví dụ sau đây minh họa cách sử dụng #splitTextByColumns.splitTextByColumns:
+> The following example demonstrates how to use #splitTextByColumns.splitTextByColumns:
 >  
 >  Presentation pres = new Presentation("example.pptx");
 >  try {
->      // Lấy shape đầu tiên trên slide và chuyển đổi sang ITextFrame
+>      // Get the first shape on the slide and cast it to ITextFrame
 >      ITextFrame textFrame = (ITextFrame) pres.getSlides().get_Item(0).getShapes().get_Item(0);
->      // Tách nội dung khung văn bản thành các cột
+>      // Split the text frame content into columns
 >      String[] columnsText = textFrame.splitTextByColumns();
->      // In nội dung của mỗi cột ra console
+>      // Print each column's text to the console
 >      for (String column : columnsText)
 >          System.out.println(column);
 >  } finally {
@@ -188,20 +184,17 @@ Tách nội dung văn bản của [ITextFrame](../../com.aspose.slides/itextfram
 >  }
 > ```
 
+**Trả về:**
+java.lang.String[] - Một mảng các chuỗi, trong đó mỗi chuỗi đại diện cho nội dung văn bản của một cột cụ thể trong [ITextFrame](../../com.aspose.slides/itextframe).
 
-**Giá trị trả về:**
-java.lang.String[] - Một mảng các chuỗi, mỗi chuỗi đại diện cho nội dung văn bản của một cột cụ thể trong [ITextFrame](../../com.aspose.slides/itextframe).
+Nếu khung văn bản không chứa nhiều cột, mảng trả về sẽ có một phần tử duy nhất chứa toàn bộ văn bản. Các cột trống sẽ được biểu diễn dưới dạng chuỗi rỗng trong mảng.
 
---------------------
-
-Nếu khung văn bản không chứa nhiều cột, mảng trả về sẽ chỉ có một phần tử chứa toàn bộ văn bản. Các cột trống sẽ được biểu diễn bằng các chuỗi rỗng trong mảng.
 ### highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
 public final void highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
-
-Tô sáng tất cả các khớp của văn bản mẫu bằng màu được chỉ định.
+Tô sáng tất cả các khớp của mẫu văn bản với màu được chỉ định.
 
 --------------------
 
@@ -212,9 +205,9 @@ Tô sáng tất cả các khớp của văn bản mẫu bằng màu được ch�
 >  try {
 >      TextSearchOptions textSearchOptions = new TextSearchOptions();
 >      textSearchOptions.setWholeWordsOnly(true);
->      // tô sáng tất cả các từ 'important'
+>      // highlighting all words 'important'
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightText("important", Color.BLUE);
->      // tô sáng tất cả các lần xuất hiện riêng lẻ của 'the'
+>      // highlighting all separate 'the' occurrences
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightText("the", Color.MAGENTA, textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -222,11 +215,10 @@ Tô sáng tất cả các khớp của văn bản mẫu bằng màu được ch�
 >  }
 > ```
 
-
 **Tham số:**
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
-| text | java.lang.String | Văn bản cần tô sáng. |
+| text | java.lang.String | Văn bản để tô sáng. |
 | highlightColor | java.awt.Color | Màu để tô sáng văn bản. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Tùy chọn tìm kiếm văn bản [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Đối tượng callback để nhận kết quả tìm kiếm [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
@@ -236,8 +228,7 @@ Tô sáng tất cả các khớp của văn bản mẫu bằng màu được ch�
 public final void highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)
 ```
 
-
-Tô sáng tất cả các khớp của biểu thức chính quy bằng màu được chỉ định.
+Tô sáng tất cả các khớp của biểu thức chính quy với màu được chỉ định.
 
 --------------------
 
@@ -268,8 +259,7 @@ Tô sáng tất cả các khớp của biểu thức chính quy bằng màu đư
 public final void highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)
 ```
 
-
-Tô sáng tất cả các khớp của biểu thức chính quy bằng màu được chỉ định.
+Tô sáng tất cả các khớp của biểu thức chính quy với màu được chỉ định.
 
 --------------------
 
@@ -287,6 +277,7 @@ Tô sáng tất cả các khớp của biểu thức chính quy bằng màu đư
 >  }
 > ```
 
+
 **Tham số:**
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
@@ -299,7 +290,6 @@ Tô sáng tất cả các khớp của biểu thức chính quy bằng màu đư
 public final void replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
-
 Thay thế tất cả các lần xuất hiện của văn bản được chỉ định bằng một văn bản khác được chỉ định.
 
 --------------------
@@ -311,7 +301,7 @@ Thay thế tất cả các lần xuất hiện của văn bản được chỉ �
 >  try {
 >      TextSearchOptions textSearchOptions = new TextSearchOptions();
 >      textSearchOptions.setWholeWordsOnly(true);
->      // Thay thế tất cả các lần xuất hiện riêng lẻ của 'the' bằng '***'
+>      // Thay thế tất cả các lần xuất hiện riêng biệt của 'the' bằng '***'
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().replaceText("the", "***", textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -319,11 +309,12 @@ Thay thế tất cả các lần xuất hiện của văn bản được chỉ �
 >  }
 > ```
 
+
 **Tham số:**
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | oldText | java.lang.String | Chuỗi cần được thay thế. |
-| newText | java.lang.String | Chuỗi thay thế cho tất cả các lần xuất hiện của oldText. |
+| newText | java.lang.String | Chuỗi để thay thế tất cả các lần xuất hiện của oldText. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Tùy chọn tìm kiếm văn bản [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Đối tượng callback để lưu kết quả thao tác thay thế [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
@@ -331,7 +322,6 @@ Thay thế tất cả các lần xuất hiện của văn bản được chỉ �
 ```
 public final void replaceRegex(Pattern regex, String newText, IFindResultCallback callback)
 ```
-
 
 Thay thế tất cả các khớp của biểu thức chính quy bằng chuỗi được chỉ định.
 
@@ -356,7 +346,7 @@ Thay thế tất cả các khớp của biểu thức chính quy bằng chuỗi 
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | regex | java.util.regex.Pattern | Biểu thức chính quy java.util.regex.Pattern để lấy các chuỗi cần được thay thế. |
-| newText | java.lang.String | Chuỗi thay thế cho tất cả các lần xuất hiện của các chuỗi cần được thay thế. |
+| newText | java.lang.String | Chuỗi để thay thế tất cả các lần xuất hiện của các chuỗi cần được thay thế. |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Đối tượng callback để lưu kết quả thao tác thay thế [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### getSlide() {#getSlide--}
@@ -364,28 +354,27 @@ Thay thế tất cả các khớp của biểu thức chính quy bằng chuỗi 
 public final IBaseSlide getSlide()
 ```
 
-
 Trả về slide cha của một TextFrame. Chỉ đọc [IBaseSlide](../../com.aspose.slides/ibaseslide).
 
-**Giá trị trả về:**
+**Trả về:**
 [IBaseSlide](../../com.aspose.slides/ibaseslide)
+
 ### getPresentation() {#getPresentation--}
 ```
 public final IPresentation getPresentation()
 ```
 
-
 Trả về bản trình bày cha của một TextFrame. Chỉ đọc [IPresentation](../../com.aspose.slides/ipresentation).
 
-**Giá trị trả về:**
+**Trả về:**
 [IPresentation](../../com.aspose.slides/ipresentation)
+
 ### getParentShape() {#getParentShape--}
 ```
 public final IShape getParentShape()
 ```
 
-
-Trả về shape cha hoặc null nếu đối tượng cha không thực thi giao diện IShape. Chỉ đọc [IShape](../../com.aspose.slides/ishape).
+Trả về hình dạng cha hoặc null nếu đối tượng cha không triển khai giao diện IShape. Chỉ đọc [IShape](../../com.aspose.slides/ishape).
 
 --------------------
 
@@ -397,7 +386,7 @@ Trả về shape cha hoặc null nếu đối tượng cha không thực thi gia
 >      AutoShape autoShape = (AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0);
 >      Table table = (Table)presentation.getSlides().get_Item(0).getShapes().get_Item(1);
 > 
->      // Những khẳng định này luôn đúng
+>      // Các khẳng định này luôn đúng
 >      Assert.assertTrue(autoShape.getTextFrame().getParentShape() == autoShape);
 >      Assert.assertTrue((table.get_Item(0,0).getTextFrame()).getParentShape() == null);
 >  } finally {
@@ -406,15 +395,25 @@ Trả về shape cha hoặc null nếu đối tượng cha không thực thi gia
 > ```
 
 
-**Giá trị trả về:**
+**Trả về:**
 [IShape](../../com.aspose.slides/ishape)
+
+### getTextRect() {#getTextRect--}
+```
+public final Rectangle2D.Float getTextRect()
+```
+
+Lấy hình chữ nhật văn bản được định nghĩa bởi hình học của hình dạng cha.
+
+**Trả về:**
+java.awt.geom.Rectangle2D.Float - Một java.awt.geom.Rectangle2D.Float xác định khu vực văn bản.
+
 ### getParentCell() {#getParentCell--}
 ```
 public final ICell getParentCell()
 ```
 
-
-Trả về cell cha hoặc null nếu đối tượng cha không thực thi giao diện ICell. Chỉ đọc [ICell](../../com.aspose.slides/icell).
+Trả về ô cha hoặc null nếu đối tượng cha không triển khai giao diện ICell. Chỉ đọc [ICell](../../com.aspose.slides/icell).
 
 --------------------
 
@@ -426,7 +425,7 @@ Trả về cell cha hoặc null nếu đối tượng cha không thực thi giao
 >      AutoShape autoShape = (AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0);
 >      Table table = (Table)presentation.getSlides().get_Item(0).getShapes().get_Item(1);
 > 
->      // Những khẳng định này luôn đúng
+>      // Các khẳng định này luôn đúng
 >      Assert.assertTrue(table.get_Item(0,0).getTextFrame().getParentCell() == table.get_Item(0,0));
 >      Assert.assertTrue(autoShape.getTextFrame().getParentCell() == null);
 >  } finally {
@@ -435,5 +434,5 @@ Trả về cell cha hoặc null nếu đối tượng cha không thực thi giao
 > ```
 
 
-**Giá trị trả về:**
+**Trả về:**
 [ICell](../../com.aspose.slides/icell)

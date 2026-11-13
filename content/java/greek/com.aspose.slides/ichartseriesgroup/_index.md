@@ -1,11 +1,11 @@
 ---
 title: IChartSeriesGroup
-second_title: Aspose.Slides για την τεκμηρίωση API Java
-description: Αναπαριστά μια ομάδα σειρών.
+second_title: Aspose.Slides για την αναφορά API της Java
+description: Αναπαριστά ομάδα σειρών.
 type: docs
 url: /el/com.aspose.slides/ichartseriesgroup/
 ---
-**Όλες οι Υλοποιημένες Διασυνδέσεις:**
+**All Implemented Interfaces:**
 [com.aspose.slides.IChartComponent](../../com.aspose.slides/ichartcomponent)
 ```
 public interface IChartSeriesGroup extends IChartComponent
@@ -15,50 +15,50 @@ public interface IChartSeriesGroup extends IChartComponent
 
 --------------------
 
-1) Δείτε τη σύνοψη και τις παρατηρήσεις για την κλάση ChartSeriesGroupCollection και την απαριθμητική τιμή CombinableSeriesTypesGroup. 2) Μια ομάδα σειρών περιέχει ορισμένες ιδιότητες σειρών που είναι κοινές για κάθε σειρά στην ομάδα («ιδιότητες ομάδας σειρών»). Οι «ιδιότητες ομάδας σειρών» στην κλάση ChartSeriesGroup είναι αναγνώσιμη/εγγράψιμη. Κάθε μία από τις «ιδιότητες ομάδας σειρών» μπορεί να έχει μια προβολή μόνο για ανάγνωση στην κλάση ChartSeries.
+1) Δείτε την περίληψη και τις παρατηρήσεις για την κλάση ChartSeriesGroupCollection και την απαρίθμηση CombinableSeriesTypesGroup. 2) Η ομάδα σειρών περιέχει ορισμένες ιδιότητες σειρών που είναι κοινές για κάθε σειρά στην ομάδα («ιδιότητες ομάδας σειρών»). Οι «ιδιότητες ομάδας σειρών» στην κλάση ChartSeriesGroup είναι ανάγνωση/εγγραφή. Κάθε μία από τις «ιδιότητες ομάδας σειρών» μπορεί να έχει μια μόνο για ανάγνωση προβολή στην κλάση ChartSeries.
 
-## Μέθοδοι
+## Methods
 
 | Μέθοδος | Περιγραφή |
 | --- | --- |
 | [getType()](#getType--) | Επιστρέφει έναν τύπο αυτής της ομάδας σειρών. |
-| [getPlotOnSecondAxis()](#getPlotOnSecondAxis--) | Δηλώνει εάν οι σειρές αυτής της ομάδας σχεδιάζονται σε δευτερεύοντα άξονα. |
-| [getSeries()](#getSeries--) | Επιστρέφει μια συλλογή μόνο για ανάγνωση των σειρών γραφήματος. |
+| [getPlotOnSecondAxis()](#getPlotOnSecondAxis--) | Δείχνει αν οι σειρές αυτής της ομάδας σχεδιάζονται σε δευτερεύοντα άξονα. |
+| [getSeries()](#getSeries--) | Επιστρέφει μια συλλογή μόνο για ανάγνωση από σειρές γραφήματος. |
 | [get_Item(int index)](#get-Item-int-) | Λαμβάνει το στοιχείο στον καθορισμένο δείκτη. |
-| [getUpDownBars()](#getUpDownBars--) | Παρέχει πρόσβαση σε μπαρ ανοδικών/καθοδικών ενός γραφήματος Line- ή Stock-chart. |
-| [getGapWidth()](#getGapWidth--) | Καθορίζει το κενό μεταξύ ομάδων ραβδιών ή στηλών, ως ποσοστό του πλάτους του ραβδιού ή της στήλης. |
-| [setGapWidth(int value)](#setGapWidth-int-) | Καθορίζει το κενό μεταξύ ομάδων ραβδιών ή στηλών, ως ποσοστό του πλάτους του ραβδιού ή της στήλης. |
-| [getGapDepth()](#getGapDepth--) | Επιστρέφει ή ορίζει την απόσταση, ως ποσοστό του πλάτους του δείκτη, μεταξύ των σειρών δεδομένων σε γράφημα 3D. |
-| [setGapDepth(int value)](#setGapDepth-int-) | Επιστρέφει ή ορίζει την απόσταση, ως ποσοστό του πλάτους του δείκτη, μεταξύ των σειρών δεδομένων σε γράφημα 3D. |
-| [getFirstSliceAngle()](#getFirstSliceAngle--) | Λαμβάνει ή ορίζει τη γωνία του πρώτου τμήματος πίτας ή δακτυλίου, σε μοίρες (δεξιόστροφα από την κορυφή, από 0 έως 360 μοίρες). |
-| [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | Λαμβάνει ή ορίζει τη γωνία του πρώτου τμήματος πίτας ή δακτυλίου, σε μοίρες (δεξιόστροφα από την κορυφή, από 0 έως 360 μοίρες). |
+| [getUpDownBars()](#getUpDownBars--) | Παρέχει πρόσβαση στις μπαρ ανοδικής/καθοδικής γραμμής ή διαγράμματος μετοχών. |
+| [getGapWidth()](#getGapWidth--) | Λαμβάνει ή ορίζει το διάστημα μεταξύ των ομάδων μπαρ ή στηλών, ως ποσοστό του πλάτους του μπαρ ή της στήλης. |
+| [setGapWidth(int value)](#setGapWidth-int-) | Λαμβάνει ή ορίζει το διάστημα μεταξύ των ομάδων μπαρ ή στηλών, ως ποσοστό του πλάτους του μπαρ ή της στήλης. |
+| [getGapDepth()](#getGapDepth--) | Λαμβάνει ή ορίζει την απόσταση μεταξύ των σειρών δεδομένων σε διάγραμμα 3Δ, ως ποσοστό του πλάτους του δείκτη. |
+| [setGapDepth(int value)](#setGapDepth-int-) | Λαμβάνει ή ορίζει την απόσταση μεταξύ των σειρών δεδομένων σε διάγραμμα 3Δ, ως ποσοστό του πλάτους του δείκτη. |
+| [getFirstSliceAngle()](#getFirstSliceAngle--) | Λαμβάνει ή ορίζει τη γωνία του πρώτου τμήματος πίτας ή δαχτυλιδιού διαγράμματος, σε μοίρες (δεξιόστροφα από την κορυφή, από 0 έως 360 μοίρες). |
+| [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | Λαμβάνει ή ορίζει τη γωνία του πρώτου τμήματος πίτας ή δαχτυλιδιού διαγράμματος, σε μοίρες (δεξιόστροφα από την κορυφή, από 0 έως 360 μοίρες). |
 | [isColorVaried()](#isColorVaried--) | Καθορίζει ότι κάθε δείκτης δεδομένων στη σειρά έχει διαφορετικό χρώμα. |
 | [setColorVaried(boolean value)](#setColorVaried-boolean-) | Καθορίζει ότι κάθε δείκτης δεδομένων στη σειρά έχει διαφορετικό χρώμα. |
-| [hasSeriesLines()](#hasSeriesLines--) | Αληθές αν το γράφημα έχει γραμμές σειράς. |
-| [setSeriesLines(boolean value)](#setSeriesLines-boolean-) | Αληθές αν το γράφημα έχει γραμμές σειράς. |
-| [getOverlap()](#getOverlap--) | Καθορίζει πόσο πρέπει να αλληλοεπικαλύπτονται τα ραβδιά και οι στήλες σε δισδιάστατα γραφήματα, ως ποσοστό (από -100% έως 100%). |
-| [setOverlap(byte value)](#setOverlap-byte-) | Καθορίζει πόσο πρέπει να αλληλοεπικαλύπτονται τα ραβδιά και οι στήλες σε δισδιάστατα γραφήματα, ως ποσοστό (από -100% έως 100%). |
-| [getSecondPieSize()](#getSecondPieSize--) | Καθορίζει το μέγεθος της δεύτερης πίτας ή ράβδου ενός γραφήματος pie-of-pie ή bar-of-pie, ως ποσοστό του μεγέθους της πρώτης πίτας (μπορεί να είναι μεταξύ 5 και 200 τοις εκατό). |
-| [setSecondPieSize(int value)](#setSecondPieSize-int-) | Καθορίζει το μέγεθος της δεύτερης πίτας ή ράβδου ενός γραφήματος pie-of-pie ή bar-of-pie, ως ποσοστό του μεγέθους της πρώτης πίτας (μπορεί να είναι μεταξύ 5 και 200 τοις εκατό). |
-| [getPieSplitPosition()](#getPieSplitPosition--) | Καθορίζει μια τιμή που θα χρησιμοποιηθεί για να προσδιοριστεί ποια σημεία δεδομένων βρίσκονται στη δεύτερη πίτα ή ράβδο σε ένα γράφημα pie-of-pie ή bar-of-pie. |
-| [setPieSplitPosition(double value)](#setPieSplitPosition-double-) | Καθορίζει μια τιμή που θα χρησιμοποιηθεί για να προσδιοριστεί ποια σημεία δεδομένων βρίσκονται στη δεύτερη πίτα ή ράβδο σε ένα γράφημα pie-of-pie ή bar-of-pie. |
-| [getPieSplitBy()](#getPieSplitBy--) | Καθορίζει πώς να προσδιοριστεί ποια σημεία δεδομένων βρίσκονται στη δεύτερη πίτα ή ράβδο σε ένα γράφημα pie-of-pie ή bar-of-pie. |
-| [setPieSplitBy(int value)](#setPieSplitBy-int-) | Καθορίζει πώς να προσδιοριστεί ποια σημεία δεδομένων βρίσκονται στη δεύτερη πίτα ή ράβδο σε ένα γράφημα pie-of-pie ή bar-of-pie. |
-| [getPieSplitCustomPoints()](#getPieSplitCustomPoints--) | Οι προσαρμοσμένες πληροφορίες διαίρεσης για ένα γράφημα pie-of-pie ή bar-of-pie με προσαρμοσμένη διαίρεση. |
-| [getDoughnutHoleSize()](#getDoughnutHoleSize--) | Καθορίζει το μέγεθος της τρύπας σε γράφημα δακτυλίου (μπορεί να είναι μεταξύ 10 και 90 τοις εκατό του μεγέθους της περιοχής σχεδίασης). |
-| [setDoughnutHoleSize(byte value)](#setDoughnutHoleSize-byte-) | Καθορίζει το μέγεθος της τρύπας σε γράφημα δακτυλίου (μπορεί να είναι μεταξύ 10 και 90 τοις εκατό του μεγέθους της περιοχής σχεδίασης). |
-| [getBubbleSizeScale()](#getBubbleSizeScale--) | Καθορίζει τον συντελεστή κλίμακας για το γράφημα φούσκας (μπορεί να είναι μεταξύ 0 και 300 τοις εκατό του προεπιλεγμένου μεγέθους). |
-| [setBubbleSizeScale(int value)](#setBubbleSizeScale-int-) | Καθορίζει τον συντελεστή κλίμακας για το γράφημα φούσκας (μπορεί να είναι μεταξύ 0 και 300 τοις εκατό του προεπιλεγμένου μεγέθους). |
+| [hasSeriesLines()](#hasSeriesLines--) | Αληθές αν το διάγραμμα έχει γραμμές σειράς. |
+| [setSeriesLines(boolean value)](#setSeriesLines-boolean-) | Αληθές αν το διάγραμμα έχει γραμμές σειράς. |
+| [getOverlap()](#getOverlap--) | Καθορίζει πόσο θα επικάλυπται τα μπαρ και οι στήλες σε διαγράμματα 2Δ, ως ποσοστό (από -100% έως 100%). |
+| [setOverlap(byte value)](#setOverlap-byte-) | Καθορίζει πόσο θα επικάλυπται τα μπαρ και οι στήλες σε διαγράμματα 2Δ, ως ποσοστό (από -100% έως 100%). |
+| [getSecondPieSize()](#getSecondPieSize--) | Καθορίζει το μέγεθος του δεύτερου τμήματος ή μπαρ ενός διαγράμματος πίτας-σε-πίτα ή μπαρ-σε-πίτα, ως ποσοστό του μεγέθους της πρώτης πίτας (μπορεί να είναι μεταξύ 5 και 200 ποσοστών). |
+| [setSecondPieSize(int value)](#setSecondPieSize-int-) | Καθορίζει το μέγεθος του δεύτερου τμήματος ή μπαρ ενός διαγράμματος πίτας-σε-πίτα ή μπαρ-σε-πίτα, ως ποσοστό του μεγέθους της πρώτης πίτας (μπορεί να είναι μεταξύ 5 και 200 ποσοστών). |
+| [getPieSplitPosition()](#getPieSplitPosition--) | Καθορίζει μια τιμή η οποία θα χρησιμοποιηθεί για να προσδιοριστεί ποια σημεία δεδομένων βρίσκονται στη δεύτερη πίτα ή μπαρ σε διάγραμμα πίτα-σε-πίτα ή μπαρ-σε-πίτα. |
+| [setPieSplitPosition(double value)](#setPieSplitPosition-double-) | Καθορίζει μια τιμή η οποία θα χρησιμοποιηθεί για να προσδιοριστεί ποια σημεία δεδομένων βρίσκονται στη δεύτερη πίτα ή μπαρ σε διάγραμμα πίτα-σε-πίτα ή μπαρ-σε-πίτα. |
+| [getPieSplitBy()](#getPieSplitBy--) | Καθορίζει πώς να προσδιορίζεται ποια σημεία δεδομένων βρίσκονται στη δεύτερη πίτα ή μπαρ σε διάγραμμα πίτα-σε-πίτα ή μπαρ-σε-πίτα. |
+| [setPieSplitBy(int value)](#setPieSplitBy-int-) | Καθορίζει πώς να προσδιορίζεται ποια σημεία δεδομένων βρίσκονται στη δεύτερη πίτα ή μπαρ σε διάγραμμα πίτα-σε-πίτα ή μπαρ-σε-πίτα. |
+| [getPieSplitCustomPoints()](#getPieSplitCustomPoints--) | Οι προσαρμοσμένες πληροφορίες διαίρεσης για ένα διάγραμμα πίτα-σε-πίτα ή μπαρ-σε-πίτα με προσαρμοσμένη διαίρεση. |
+| [getDoughnutHoleSize()](#getDoughnutHoleSize--) | Καθορίζει το μέγεθος της τρύπας σε διάγραμμα δαχτυλιδιού (μπορεί να είναι μεταξύ 10 και 90 ποσοστών του μεγέθους της περιοχής σχεδίασης). |
+| [setDoughnutHoleSize(byte value)](#setDoughnutHoleSize-byte-) | Καθορίζει το μέγεθος της τρύπας σε διάγραμμα δαχτυλιδιού (μπορεί να είναι μεταξύ 10 και 90 ποσοστών του μεγέθους της περιοχής σχεδίασης). |
+| [getBubbleSizeScale()](#getBubbleSizeScale--) | Καθορίζει τον συντελεστή κλίμακας για το διάγραμμα φυσαλίδων (μπορεί να είναι μεταξύ 0 και 300 ποσοστών του προεπιλεγμένου μεγέθους). |
+| [setBubbleSizeScale(int value)](#setBubbleSizeScale-int-) | Καθορίζει τον συντελεστή κλίμακας για το διάγραμμα φυσαλίδων (μπορεί να είναι μεταξύ 0 και 300 ποσοστών του προεπιλεγμένου μεγέθους). |
 | [getHiLowLinesFormat()](#getHiLowLinesFormat--) | Καθορίζει τη μορφή HiLowLines. |
-| [getBubbleSizeRepresentation()](#getBubbleSizeRepresentation--) | Καθορίζει πώς αναπαρίστανται οι τιμές μεγέθους φούσκας στο γράφημα φούσκας. |
-| [setBubbleSizeRepresentation(int value)](#setBubbleSizeRepresentation-int-) | Καθορίζει πώς αναπαρίστανται οι τιμές μεγέθους φούσκας στο γράφημα φούσκας. |
+| [getBubbleSizeRepresentation()](#getBubbleSizeRepresentation--) | Καθορίζει πώς θα αναπαραγώνται οι τιμές μεγέθους φυσαλίδας στο διάγραμμα φυσαλίδων. |
+| [setBubbleSizeRepresentation(int value)](#setBubbleSizeRepresentation-int-) | Καθορίζει πώς θα αναπαραγώνται οι τιμές μεγέθους φυσαλίδας στο διάγραμμα φυσαλίδων. |
 
 ### getType() {#getType--}
 ```
 public abstract int getType()
 ```
 
-Επιστρέφει έναν τύπο αυτής της ομάδας σειρών. Μόνο για ανάγνωση [CombinableSeriesTypesGroup](../../com.aspose.slides/combinableseriestypesgroup).
+Μηδενίζει έναν τύπο αυτής της ομάδας σειρών. Μόνο για ανάγνωση [CombinableSeriesTypesGroup](../../com.aspose.slides/combinableseriestypesgroup).
 
 **Επιστρέφει:**
 int
@@ -68,7 +68,7 @@ int
 public abstract boolean getPlotOnSecondAxis()
 ```
 
-Δηλώνει εάν οι σειρές αυτής της ομάδας σχεδιάζονται σε δευτερεύοντα άξονα. Μόνο για ανάγνωση boolean.
+Δείχνει αν οι σειρές αυτής της ομάδας σχεδιάζονται σε δευτερεύοντα άξονα. Μόνο για ανάγνωση boolean.
 
 **Επιστρέφει:**
 boolean
@@ -78,7 +78,7 @@ boolean
 public abstract IChartSeriesReadonlyCollection getSeries()
 ```
 
-Επιστρέφει μια συλλογή μόνο για ανάγνωση σειρών γραφήματος. Μόνο για ανάγνωση [IChartSeriesReadonlyCollection](../../com.aspose.slides/ichartseriesreadonlycollection).
+Επιστρέφει μια συλλογή μόνο για ανάγνωση από σειρές γραφήματος. Μόνο για ανάγνωση [IChartSeriesReadonlyCollection](../../com.aspose.slides/ichartseriesreadonlycollection).
 
 **Επιστρέφει:**
 [IChartSeriesReadonlyCollection](../../com.aspose.slides/ichartseriesreadonlycollection)
@@ -91,7 +91,7 @@ public abstract IChartSeries get_Item(int index)
 Λαμβάνει το στοιχείο στον καθορισμένο δείκτη.
 
 **Παράμετροι:**
-| Παράμετρος | Τύπος | Περιγραφή |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | index | int |  |
 
@@ -103,7 +103,7 @@ public abstract IChartSeries get_Item(int index)
 public abstract IUpDownBarsManager getUpDownBars()
 ```
 
-Παρέχει πρόσβαση σε μπαρ ανοδικών/καθοδικών γραφήματος Line- ή Stock-chart. Μόνο για ανάγνωση [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager).
+Παρέχει πρόσβαση στις μπαρ ανοδικής/καθοδικής γραμμής ή διαγράμματος μετοχών. Μόνο για ανάγνωση [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager).
 
 **Επιστρέφει:**
 [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager)
@@ -113,7 +113,11 @@ public abstract IUpDownBarsManager getUpDownBars()
 public abstract int getGapWidth()
 ```
 
-Καθορίζει το κενό μεταξύ ομάδων ραβδιών ή στηλών, ως ποσοστό του πλάτους του ραβδιού ή της στήλης. Αναγνώσιμη/εγγράψιμη int.
+Λαμβάνει ή ορίζει το διάστημα μεταξύ των ομάδων μπαρ ή στηλών, ως ποσοστό του πλάτους του μπαρ ή της στήλης. Η τιμή πρέπει να είναι μεταξύ 0 και 500. Ανάγνωση/εγγραφή int.
+
+--------------------
+
+Αυτή η ιδιότητα ισχύει για σειρές των ακόλουθων τύπων: Όλοι οι υποτύποι μπαρ και στηλών, [ChartType.BarOfPie](../../com.aspose.slides/charttype\#BarOfPie), [ChartType.PieOfPie](../../com.aspose.slides/charttype\#PieOfPie), [ChartType.BoxAndWhisker](../../com.aspose.slides/charttype\#BoxAndWhisker), [ChartType.Funnel](../../com.aspose.slides/charttype\#Funnel), [ChartType.Histogram](../../com.aspose.slides/charttype\#Histogram), [ChartType.Waterfall](../../com.aspose.slides/charttype\#Waterfall).
 
 **Επιστρέφει:**
 int
@@ -123,10 +127,14 @@ int
 public abstract void setGapWidth(int value)
 ```
 
-Καθορίζει το κενό μεταξύ ομάδων ραβδιών ή στηλών, ως ποσοστό του πλάτους του ραβδιού ή της στήλης. Αναγνώσιμη/εγγράψιμη int.
+Λαμβάνει ή ορίζει το διάστημα μεταξύ των ομάδων μπαρ ή στηλών, ως ποσοστό του πλάτους του μπαρ ή της στήλης. Η τιμή πρέπει να είναι μεταξύ 0 και 500. Ανάγνωση/εγγραφή int.
+
+--------------------
+
+Αυτή η ιδιότητα ισχύει για σειρές των ακόλουθων τύπων: Όλοι οι υποτύποι μπαρ και στηλών, [ChartType.BarOfPie](../../com.aspose.slides/charttype\#BarOfPie), [ChartType.PieOfPie](../../com.aspose.slides/charttype\#PieOfPie), [ChartType.BoxAndWhisker](../../com.aspose.slides/charttype\#BoxAndWhisker), [ChartType.Funnel](../../com.aspose.slides/charttype\#Funnel), [ChartType.Histogram](../../com.aspose.slides/charttype\#Histogram), [ChartType.Waterfall](../../com.aspose.slides/charttype\#Waterfall).
 
 **Παράμετροι:**
-| Παράμετρος | Τύπος | Περιγραφή |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
@@ -135,7 +143,11 @@ public abstract void setGapWidth(int value)
 public abstract int getGapDepth()
 ```
 
-Επιστρέφει ή ορίζει την απόσταση, ως ποσοστό του πλάτους του δείκτη, μεταξύ των σειρών δεδομένων σε γράφημα 3D. Αναγνώσιμη/εγγράψιμη int.
+Λαμβάνει ή ορίζει την απόσταση μεταξύ των σειρών δεδομένων σε διάγραμμα 3Δ, ως ποσοστό του πλάτους του δείκτη. Η τιμή πρέπει να είναι μεταξύ 0 και 500. Ανάγνωση/εγγραφή int.
+
+--------------------
+
+Αυτή η ιδιότητα ισχύει για σειρές των ακόλουθων τύπων: Υποτύποι 3Δ μπαρ και στηλών, [ChartType.Line3D](../../com.aspose.slides/charttype\#Line3D), [ChartType.Area3D](../../com.aspose.slides/charttype\#Area3D), [ChartType.StackedArea3D](../../com.aspose.slides/charttype\#StackedArea3D), [ChartType.PercentsStackedArea3D](../../com.aspose.slides/charttype\#PercentsStackedArea3D).
 
 **Επιστρέφει:**
 int
@@ -145,10 +157,14 @@ int
 public abstract void setGapDepth(int value)
 ```
 
-Επιστρέφει ή ορίζει την απόσταση, ως ποσοστό του πλάτους του δείκτη, μεταξύ των σειρών δεδομένων σε γράφημα 3D. Αναγνώσιμη/εγγράψιμη int.
+Λαμβάνει ή ορίζει την απόσταση μεταξύ των σειρών δεδομένων σε διάγραμμα 3Δ, ως ποσοστό του πλάτους του δείκτη. Η τιμή πρέπει να είναι μεταξύ 0 και 500. Ανάγνωση/εγγραφή int.
+
+--------------------
+
+Αυτή η ιδιότητα ισχύει για σειρές των ακόλουθων τύπων: Υποτύποι 3Δ μπαρ και στηλών, [ChartType.Line3D](../../com.aspose.slides/charttype\#Line3D), [ChartType.Area3D](../../com.aspose.slides/charttype\#Area3D), [ChartType.StackedArea3D](../../com.aspose.slides/charttype\#StackedArea3D), [ChartType.PercentsStackedArea3D](../../com.aspose.slides/charttype\#PercentsStackedArea3D).
 
 **Παράμετροι:**
-| Παράμετρος | Τύπος | Περιγραφή |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
@@ -157,7 +173,7 @@ public abstract void setGapDepth(int value)
 public abstract int getFirstSliceAngle()
 ```
 
-Λαμβάνει ή ορίζει τη γωνία του πρώτου τμήματος πίτας ή δακτυλίου, σε μοίρες (δεξιόστροφα από την κορυφή, από 0 έως 360 μοίρες). Αναγνώσιμη/εγγράψιμη int.
+Λαμβάνει ή ορίζει τη γωνία του πρώτου τμήματος πίτας ή δαχτυλιδιού διαγράμματος, σε μοίρες (δεξιόστροφα από την κορυφή, από 0 έως 360 μοίρες). Ανάγνωση/εγγραφή int.
 
 **Επιστρέφει:**
 int
@@ -167,10 +183,10 @@ int
 public abstract void setFirstSliceAngle(int value)
 ```
 
-Λαμβάνει ή ορίζει τη γωνία του πρώτου τμήματος πίτας ή δακτυλίου, σε μοίρες (δεξιόστροφα από την κορυφή, από 0 έως 360 μοίρες). Αναγνώσιμη/εγγράψιμη int.
+Λαμβάνει ή ορίζει τη γωνία του πρώτου τμήματος πίτας ή δαχτυλιδιού διαγράμματος, σε μοίρες (δεξιόστροφα από την κορυφή, από 0 έως 360 μοίρες). Ανάγνωση/εγγραφή int.
 
 **Παράμετροι:**
-| Παράμετρος | Τύπος | Περιγραφή |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
@@ -179,7 +195,7 @@ public abstract void setFirstSliceAngle(int value)
 public abstract boolean isColorVaried()
 ```
 
-Καθορίζει ότι κάθε δείκτης δεδομένων στη σειρά έχει διαφορετικό χρώμα. Αναγνώσιμη/εγγράψιμη boolean.
+Καθορίζει ότι κάθε δείκτης δεδομένων στη σειρά έχει διαφορετικό χρώμα. Ανάγνωση/εγγραφή boolean.
 
 **Επιστρέφει:**
 boolean
@@ -189,10 +205,10 @@ boolean
 public abstract void setColorVaried(boolean value)
 ```
 
-Καθορίζει ότι κάθε δείκτης δεδομένων στη σειρά έχει διαφορετικό χρώμα. Αναγνώσιμη/εγγράψιμη boolean.
+Καθορίζει ότι κάθε δείκτης δεδομένων στη σειρά έχει διαφορετικό χρώμα. Ανάγνωση/εγγραφή boolean.
 
 **Παράμετροι:**
-| Παράμετρος | Τύπος | Περιγραφή |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -201,7 +217,7 @@ public abstract void setColorVaried(boolean value)
 public abstract boolean hasSeriesLines()
 ```
 
-Αληθές αν το γράφημα έχει γραμμές σειράς. Εφαρμόζεται σε στοιβαγμένα ραβδιά και γραφήματα OfPie. Αναγνώσιμη/εγγράψιμη boolean.
+Αληθές αν το διάγραμμα έχει γραμμές σειράς. Εφαρμόζεται σε στοίβαγμα μπαρ και διαγράμματα OfPie. Ανάγνωση/εγγραφή boolean.
 
 **Επιστρέφει:**
 boolean
@@ -211,10 +227,10 @@ boolean
 public abstract void setSeriesLines(boolean value)
 ```
 
-Αληθές αν το γράφημα έχει γραμμές σειράς. Εφαρμόζεται σε στοιβαγμένα ραβδιά και γραφήματα OfPie. Αναγνώσιμη/εγγράψιμη boolean.
+Αληθές αν το διάγραμμα έχει γραμμές σειράς. Εφαρμόζεται σε στοίβαγμα μπαρ και διαγράμματα OfPie. Ανάγνωση/εγγραφή boolean.
 
 **Παράμετροι:**
-| Παράμετρος | Τύπος | Περιγραφή |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -223,7 +239,7 @@ public abstract void setSeriesLines(boolean value)
 public abstract byte getOverlap()
 ```
 
-Καθορίζει πόσο πρέπει να αλληλοεπικαλύπτονται τα ραβδιά και οι στήλες σε δισδιάστατα γραφήματα, ως ποσοστό (από -100% έως 100%). - -100%: Μέγιστη απόσταση (τα ραβδιά είναι εντελώς χωρισμένα). - 0%: Τα ραβδιά τοποθετούνται πλάι-πλάι χωρίς επικάλυψη ή απόσταση. - 100%: Μέγιστη επικάλυψη (τα ραβδιά επικαλύπτονται πλήρως). Αυτή η ιδιότητα είναι αναγνώσιμη/εγγράψιμη byte.
+Καθορίζει πόσο θα επικάλυπται τα μπαρ και οι στήλες σε διαγράμματα 2Δ, ως ποσοστό (από -100% έως 100%). - -100%: Μέγιστη απόσταση (τα μπαρ είναι εντελώς χωρισμένα). - 0%: Τα μπαρ τοποθετούνται δίπλα χωρίς επικάλυψη ή απόσταση. - 100%: Μέγιστη επικάλυψη (τα μπαρ επικάλυπταν πλήρως). Αυτή η ιδιότητα είναι ανάγνωση/εγγραφή byte.
 
 --------------------
 
@@ -235,7 +251,7 @@ public abstract byte getOverlap()
 >  try {
 >      IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);
 >      IChartSeriesCollection series = chart.getChartData().getSeries();
->      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // Ορισμός επικάλυψης στο 55%
+>      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // Ορίστε την επικάλυψη στο 55%
 >      pres.getSlides().get_Item(0).getImage(1, 1).save("chart.png");
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -251,7 +267,7 @@ byte
 public abstract void setOverlap(byte value)
 ```
 
-Καθορίζει πόσο πρέπει να αλληλοεπικαλύπτονται τα ραβδιά και οι στήλες σε δισδιάστατα γραφήματα, ως ποσοστό (από -100% έως 100%). - -100%: Μέγιστη απόσταση (τα ραβδιά είναι εντελώς χωρισμένα). - 0%: Τα ραβδιά τοποθετούνται πλάι-πλάι χωρίς επικάλυψη ή απόσταση. - 100%: Μέγιστη επικάλυψη (τα ραβδιά επικαλύπτονται πλήρως). Αυτή η ιδιότητα είναι αναγνώσιμη/εγγράψιμη byte.
+Καθορίζει πόσο θα επικάλυπται τα μπαρ και οι στήλες σε διαγράμματα 2Δ, ως ποσοστό (από -100% έως 100%). - -100%: Μέγιστη απόσταση (τα μπαρ είναι εντελώς χωρισμένα). - 0%: Τα μπαρ τοποθετούνται δίπλα χωρίς επικάλυψη ή απόσταση. - 100%: Μέγιστη επικάλυψη (τα μπαρ επικάλυπταν πλήρως). Αυτή η ιδιότητα είναι ανάγνωση/εγγραφή byte.
 
 --------------------
 
@@ -272,7 +288,7 @@ public abstract void setOverlap(byte value)
 
 
 **Παράμετροι:**
-| Παράμετρος | Τύπος | Περιγραφή |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | byte |  |
 
@@ -281,7 +297,7 @@ public abstract void setOverlap(byte value)
 public abstract int getSecondPieSize()
 ```
 
-Καθορίζει το μέγεθος της δεύτερης πίτας ή ράβδου ενός γραφήματος pie-of-pie ή bar-of-pie, ως ποσοστό του μεγέθους της πρώτης πίτας (μπορεί να είναι μεταξύ 5 και 200 τοις εκατό). Αναγνώσιμη/εγγράψιμη int.
+Καθορίζει το μέγεθος του δεύτερου τμήματος ή μπαρ ενός διαγράμματος πίτας-σε-πίτα ή μπαρ-σε-πίτα, ως ποσοστό του μεγέθους της πρώτης πίτας (μπορεί να είναι μεταξύ 5 και 200 ποσοστών). Ανάγνωση/εγγραφή int.
 
 **Επιστρέφει:**
 int
@@ -291,10 +307,10 @@ int
 public abstract void setSecondPieSize(int value)
 ```
 
-Καθορίζει το μέγεθος της δεύτερης πίτας ή ράβδου ενός γραφήματος pie-of-pie ή bar-of-pie, ως ποσοστό του μεγέθους της πρώτης πίτας (μπορεί να είναι μεταξύ 5 και 200 τοις εκατό). Αναγνώσιμη/εγγράψιμη int.
+Καθορίζει το μέγεθος του δεύτερου τμήματος ή μπαρ ενός διαγράμματος πίτας-σε-πίτα ή μπαρ-σε-πίτα, ως ποσοστό του μεγέθους της πρώτης πίτας (μπορεί να είναι μεταξύ 5 και 200 ποσοστών). Ανάγνωση/εγγραφή int.
 
 **Παράμετροι:**
-| Παράμετρος | Τύπος | Περιγραφή |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
@@ -303,7 +319,7 @@ public abstract void setSecondPieSize(int value)
 public abstract double getPieSplitPosition()
 ```
 
-Καθορίζει μια τιμή που θα χρησιμοποιηθεί για να προσδιοριστεί ποια σημεία δεδομένων βρίσκονται στη δεύτερη πίτα ή ράβδο σε ένα γράφημα pie-of-pie ή bar-of-pie. Χρησιμοποιείται μαζί με την ιδιότητα PieSplitBy. Αναγνώσιμη/εγγράψιμη double.
+Καθορίζει μια τιμή η οποία θα χρησιμοποιηθεί για να προσδιοριστεί ποια σημεία δεδομένων βρίσκονται στη δεύτερη πίτα ή μπαρ σε διάγραμμα πίτα-σε-πίτα ή μπαρ-σε-πίτα. Χρησιμοποιείται μαζί με την ιδιότητα PieSplitBy. Ανάγνωση/εγγραφή double.
 
 **Επιστρέφει:**
 double
@@ -313,10 +329,10 @@ double
 public abstract void setPieSplitPosition(double value)
 ```
 
-Καθορίζει μια τιμή που θα χρησιμοποιηθεί για να προσδιοριστεί ποια σημεία δεδομένων βρίσκονται στη δεύτερη πίτα ή ράβδο σε ένα γράφημα pie-of-pie ή bar-of-pie. Χρησιμοποιείται μαζί με την ιδιότητα PieSplitBy. Αναγνώσιμη/εγγράψιμη double.
+Καθορίζει μια τιμή η οποία θα χρησιμοποιηθεί για να προσδιοριστεί ποια σημεία δεδομένων βρίσκονται στη δεύτερη πίτα ή μπαρ σε διάγραμμα πίτα-σε-πίτα ή μπαρ-σε-πίτα. Χρησιμοποιείται μαζί με την ιδιότητα PieSplitBy. Ανάγνωση/εγγραφή double.
 
 **Παράμετροι:**
-| Παράμετρος | Τύπος | Περιγραφή |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
 
@@ -325,7 +341,7 @@ public abstract void setPieSplitPosition(double value)
 public abstract int getPieSplitBy()
 ```
 
-Καθορίζει πώς να προσδιοριστεί ποια σημεία δεδομένων βρίσκονται στη δεύτερη πίτα ή ράβδο σε ένα γράφημα pie-of-pie ή bar-of-pie. Αναγνώσιμη/εγγράψιμη [PieSplitType](../../com.aspose.slides/piesplittype).
+Καθορίζει πώς να προσδιορίζεται ποια σημεία δεδομένων βρίσκονται στη δεύτερη πίτα ή μπαρ σε διάγραμμα πίτα-σε-πίτα ή μπαρ-σε-πίτα. Ανάγνωση/εγγραφή [PieSplitType](../../com.aspose.slides/piesplittype).
 
 **Επιστρέφει:**
 int
@@ -335,10 +351,10 @@ int
 public abstract void setPieSplitBy(int value)
 ```
 
-Καθορίζει πώς να προσδιοριστεί ποια σημεία δεδομένων βρίσκονται στη δεύτερη πίτα ή ράβδο σε ένα γράφημα pie-of-pie ή bar-of-pie. Αναγνώσιμη/εγγράψιμη [PieSplitType](../../com.aspose.slides/piesplittype).
+Καθορίζει πώς να προσδιορίζεται ποια σημεία δεδομένων βρίσκονται στη δεύτερη πίτα ή μπαρ σε διάγραμμα πίτα-σε-πίτα ή μπαρ-σε-πίτα. Ανάγνωση/εγγραφή [PieSplitType](../../com.aspose.slides/piesplittype).
 
 **Παράμετροι:**
-| Παράμετρος | Τύπος | Περιγραφή |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
@@ -347,7 +363,7 @@ public abstract void setPieSplitBy(int value)
 public abstract IPieSplitCustomPointCollection getPieSplitCustomPoints()
 ```
 
-Οι προσαρμοσμένες πληροφορίες διαίρεσης για ένα γράφημα pie-of-pie ή bar-of-pie με προσαρμοσμένη διαίρεση. Περιέχει σημεία δεδομένων που θα σχεδιαστούν στη δεύτερη πίτα ή ράβδο σε ένα γράφημα pie-of-pie ή bar-of-pie. Μόνο για ανάγνωση [IPieSplitCustomPointCollection](../../com.aspose.slides/ipiesplitcustompointcollection).
+Οι προσαρμοσμένες πληροφορίες διαίρεσης για ένα διάγραμμα πίτα-σε-πίτα ή μπαρ-σε-πίτα με προσαρμοσμένη διαίρεση. Περιέχει σημεία δεδομένων που θα σχεδιαστούν στη δεύτερη πίτα ή μπαρ. Μόνο για ανάγνωση [IPieSplitCustomPointCollection](../../com.aspose.slides/ipiesplitcustompointcollection).
 
 **Επιστρέφει:**
 [IPieSplitCustomPointCollection](../../com.aspose.slides/ipiesplitcustompointcollection)
@@ -357,7 +373,7 @@ public abstract IPieSplitCustomPointCollection getPieSplitCustomPoints()
 public abstract byte getDoughnutHoleSize()
 ```
 
-Καθορίζει το μέγεθος της τρύπας σε γράφημα δακτυλίου (μπορεί να είναι μεταξύ 10 και 90 τοις εκατό του μεγέθους της περιοχής σχεδίασης). Αναγνώσιμη/εγγράψιμη byte.
+Καθορίζει το μέγεθος της τρύπας σε διάγραμμα δαχτυλιδιού (μπορεί να είναι μεταξύ 10 και 90 ποσοστών του μεγέθους της περιοχής σχεδίασης). Ανάγνωση/εγγραφή byte.
 
 **Επιστρέφει:**
 byte
@@ -367,10 +383,10 @@ byte
 public abstract void setDoughnutHoleSize(byte value)
 ```
 
-Καθορίζει το μέγεθος της τρύπας σε γράφημα δακτυλίου (μπορεί να είναι μεταξύ 10 και 90 τοις εκατό του μεγέθους της περιοχής σχεδίασης). Αναγνώσιμη/εγγράψιμη byte.
+Καθορίζει το μέγεθος της τρύπας σε διάγραμμα δαχτυλιδιού (μπορεί να είναι μεταξύ 10 και 90 ποσοστών του μεγέθους της περιοχής σχεδίασης). Ανάγνωση/εγγραφή byte.
 
 **Παράμετροι:**
-| Παράμετρος | Τύπος | Περιγραφή |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | byte |  |
 
@@ -379,7 +395,7 @@ public abstract void setDoughnutHoleSize(byte value)
 public abstract int getBubbleSizeScale()
 ```
 
-Καθορίζει τον συντελεστή κλίμακας για το γράφημα φούσκας (μπορεί να είναι μεταξύ 0 και 300 τοις εκατό του προεπιλεγμένου μεγέθους). Αναγνώσιμη/εγγράψιμη int.
+Καθορίζει τον συντελεστή κλίμακας για το διάγραμμα φυσαλίδων (μπορεί να είναι μεταξύ 0 και 300 ποσοστών του προεπιλεγμένου μεγέθους). Ανάγνωση/εγγραφή int.
 
 **Επιστρέφει:**
 int
@@ -389,10 +405,10 @@ int
 public abstract void setBubbleSizeScale(int value)
 ```
 
-Καθορίζει τον συντελεστή κλίμακας για το γράφημα φούσκας (μπορεί να είναι μεταξύ 0 και 300 τοις εκατό του προεπιλεγμένου μεγέθους). Αναγνώσιμη/εγγράψιμη int.
+Καθορίζει τον συντελεστή κλίμακας για το διάγραμμα φυσαλίδων (μπορεί να είναι μεταξύ 0 και 300 ποσοστών του προεπιλεγμένου μεγέθους). Ανάγνωση/εγγραφή int.
 
 **Παράμετροι:**
-| Παράμετρος | Τύπος | Περιγραφή |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
@@ -401,7 +417,7 @@ public abstract void setBubbleSizeScale(int value)
 public abstract IChartLinesFormat getHiLowLinesFormat()
 ```
 
-Καθορίζει τη μορφή HiLowLines. Η HiLowLines εφαρμόζεται σε τύπους γραφήματος HiLowClose, OpenHiLowClose, VolumeHiLowClose και VolumeOpenHiLowClose.
+Καθορίζει μορφή HiLowLines. HiLowLines εφαρμόζεται με τύπους διαγραμμάτων HiLowClose, OpenHiLowClose, VolumeHiLowClose και VolumeOpenHiLowClose.
 
 **Επιστρέφει:**
 [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat)
@@ -411,7 +427,7 @@ public abstract IChartLinesFormat getHiLowLinesFormat()
 public abstract int getBubbleSizeRepresentation()
 ```
 
-Καθορίζει πώς αναπαρίστανται οι τιμές μεγέθους φούσκας στο γράφημα φούσκας. Αναγνώσιμη/εγγράψιμη [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
+Καθορίζει πώς θα αναπαραγώνται οι τιμές μεγέθους φυσαλίδας στο διάγραμμα φυσαλίδων. Ανάγνωση/εγγραφή [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
 
 **Επιστρέφει:**
 int
@@ -421,9 +437,9 @@ int
 public abstract void setBubbleSizeRepresentation(int value)
 ```
 
-Καθορίζει πώς αναπαρίστανται οι τιμές μεγέθους φούσκας στο γράφημα φούσκας. Αναγνώσιμη/εγγράψιμη [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
+Καθορίζει πώς θα αναπαραγώνται οι τιμές μεγέθους φυσαλίδας στο διάγραμμα φυσαλίδων. Ανάγνωση/εγγραφή [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
 
 **Παράμετροι:**
-| Παράμετρος | Τύπος | Περιγραφή |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |

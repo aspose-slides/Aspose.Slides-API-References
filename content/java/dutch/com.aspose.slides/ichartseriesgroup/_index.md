@@ -15,51 +15,52 @@ Stelt een groep van series voor.
 
 --------------------
 
-1) Zie de samenvatting en opmerkingen voor de class ChartSeriesGroupCollection en de enum CombinableSeriesTypesGroup. 2) Een groep series bevat enkele series-eigenschappen die gemeenschappelijk zijn voor elke serie in de groep (“seriegroep-eigenschappen”). “Seriegroep-eigenschappen” in de class ChartSeriesGroup zijn lees-/schrijf. Elke “seriegroep-eigenschappen” kan een alleen-lezen projectie hebben in de class ChartSeries.
+1) Bekijk de samenvatting en opmerkingen voor de klasse ChartSeriesGroupCollection en de enum CombinableSeriesTypesGroup. 2) Een groep van series bevat enkele series-eigenschappen die gemeenschappelijk zijn voor elke serie in de groep ("series group properties"). "Series group properties" in de klasse ChartSeriesGroup is lezen/schrijven. Elke van de "series group properties" kan een alleen-lezen projectie hebben in de klasse ChartSeries.
+
 ## Methoden
 
 | Methode | Beschrijving |
 | --- | --- |
-| [getType()](#getType--) | Retourneert een type van deze seriegroep. |
+| [getType()](#getType--) | Geeft een type van deze series-groep terug. |
 | [getPlotOnSecondAxis()](#getPlotOnSecondAxis--) | Geeft aan of series van deze groep op een secundaire as worden geplot. |
-| [getSeries()](#getSeries--) | Retourneert een alleen-lees collectie van diagram-series. |
+| [getSeries()](#getSeries--) | Geeft een alleen-lezen collectie van diagramseries terug. |
 | [get_Item(int index)](#get-Item-int-) | Haalt het element op op de opgegeven index. |
-| [getUpDownBars()](#getUpDownBars--) | Biedt toegang tot op/ neer-balken van een lijndiagram of voorraad-diagram. |
-| [getGapWidth()](#getGapWidth--) | Specificeert de ruimte tussen balk- of kolom-clusters, als een percentage van de balk- of kolombreedte. |
-| [setGapWidth(int value)](#setGapWidth-int-) | Specificeert de ruimte tussen balk- of kolom-clusters, als een percentage van de balk- of kolombreedte. |
-| [getGapDepth()](#getGapDepth--) | Retourneert of stelt de afstand in, als een percentage van de markerbreedte, tussen de gegevensseries in een 3D-diagram. |
-| [setGapDepth(int value)](#setGapDepth-int-) | Retourneert of stelt de afstand in, als een percentage van de markerbreedte, tussen de gegevensseries in een 3D-diagram. |
-| [getFirstSliceAngle()](#getFirstSliceAngle--) | Haalt op of stelt de hoek in van het eerste taart- of donut-segment, in graden (kloksgewijs vanaf boven, van 0 tot 360 graden). |
-| [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | Haalt op of stelt de hoek in van het eerste taart- of donut-segment, in graden (kloksgewijs vanaf boven, van 0 tot 360 graden). |
-| [isColorVaried()](#isColorVaried--) | Specificeert dat elke datamarker in de serie een andere kleur heeft. |
-| [setColorVaried(boolean value)](#setColorVaried-boolean-) | Specificeert dat elke datamarker in de serie een andere kleur heeft. |
+| [getUpDownBars()](#getUpDownBars--) | Biedt toegang tot op/naar-boven staafjes van een Lijn- of Koers-diagram. |
+| [getGapWidth()](#getGapWidth--) | Haalt op of stelt de ruimte tussen staaf- of kolomclusters in, als een percentage van de breedte van de staaf of kolom. |
+| [setGapWidth(int value)](#setGapWidth-int-) | Haalt op of stelt de ruimte tussen staaf- of kolomclusters in, als een percentage van de breedte van de staaf of kolom. |
+| [getGapDepth()](#getGapDepth--) | Haalt op of stelt de afstand tussen gegevensseries in een 3D-diagram in, als een percentage van de markerbreedte. |
+| [setGapDepth(int value)](#setGapDepth-int-) | Haalt op of stelt de afstand tussen gegevensseries in een 3D-diagram in, als een percentage van de markerbreedte. |
+| [getFirstSliceAngle()](#getFirstSliceAngle--) | Haalt op of stelt de hoek van het eerste taart- of donut-diagramsegment in, in graden (met de klok mee vanaf boven, van 0 tot 360 graden). |
+| [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | Haalt op of stelt de hoek van het eerste taart- of donut-diagramsegment in, in graden (met de klok mee vanaf boven, van 0 tot 360 graden). |
+| [isColorVaried()](#isColorVaried--) | Specificeert dat elke gegevensmarker in de serie een andere kleur heeft. |
+| [setColorVaried(boolean value)](#setColorVaried-boolean-) | Specificeert dat elke gegevensmarker in de serie een andere kleur heeft. |
 | [hasSeriesLines()](#hasSeriesLines--) | Waar als het diagram serielijnen heeft. |
 | [setSeriesLines(boolean value)](#setSeriesLines-boolean-) | Waar als het diagram serielijnen heeft. |
-| [getOverlap()](#getOverlap--) | Specificeert hoeveel balken en kolommen overlappen op 2-D diagrammen, als een percentage (van -100% tot 100%). |
-| [setOverlap(byte value)](#setOverlap-byte-) | Specificeert hoeveel balken en kolommen overlappen op 2-D diagrammen, als een percentage (van -100% tot 100%). |
-| [getSecondPieSize()](#getSecondPieSize--) | Specificeert de grootte van de tweede taart of balk van een taart-in-taart diagram of een balk-in-taart diagram, als een percentage van de grootte van de eerste taart (kan tussen 5 en 200 procent liggen). |
-| [setSecondPieSize(int value)](#setSecondPieSize-int-) | Specificeert de grootte van de tweede taart of balk van een taart-in-taart diagram of een balk-in-taart diagram, als een percentage van de grootte van de eerste taart (kan tussen 5 en 200 procent liggen). |
-| [getPieSplitPosition()](#getPieSplitPosition--) | Specificeert een waarde die gebruikt wordt om te bepalen welke gegevenspunten in de tweede taart of balk van een taart-in-taart of balk-in-taart diagram staan. |
-| [setPieSplitPosition(double value)](#setPieSplitPosition-double-) | Specificeert een waarde die gebruikt wordt om te bepalen welke gegevenspunten in de tweede taart of balk van een taart-in-taart of balk-in-taart diagram staan. |
-| [getPieSplitBy()](#getPieSplitBy--) | Specificeert hoe bepaald wordt welke gegevenspunten in de tweede taart of balk van een taart-in-taart of balk-in-taart diagram staan. |
-| [setPieSplitBy(int value)](#setPieSplitBy-int-) | Specificeert hoe bepaald wordt welke gegevenspunten in de tweede taart of balk van een taart-in-taart of balk-in-taart diagram staan. |
-| [getPieSplitCustomPoints()](#getPieSplitCustomPoints--) | De aangepaste splitsingsinformatie voor een taart-in-taart of balk-in-taart diagram met een aangepaste splitsing. |
-| [getDoughnutHoleSize()](#getDoughnutHoleSize--) | Specificeert de grootte van het gat in een donut-diagram (kan tussen 10 en 90 procent van de grootte van het plotgebied liggen). |
-| [setDoughnutHoleSize(byte value)](#setDoughnutHoleSize-byte-) | Specificeert de grootte van het gat in een donut-diagram (kan tussen 10 en 90 procent van de grootte van het plotgebied liggen). |
-| [getBubbleSizeScale()](#getBubbleSizeScale--) | Specificeert de schaalfactor voor het bubbel-diagram (kan tussen 0 en 300 procent van de standaardgrootte liggen). |
-| [setBubbleSizeScale(int value)](#setBubbleSizeScale-int-) | Specificeert de schaalfactor voor het bubbel-diagram (kan tussen 0 en 300 procent van de standaardgrootte liggen). |
+| [getOverlap()](#getOverlap--) | Specificeert hoeveel staven en kolommen elkaar overlappen in 2-D-diagrammen, als een percentage (van -100% tot 100%). |
+| [setOverlap(byte value)](#setOverlap-byte-) | Specificeert hoeveel staven en kolommen elkaar overlappen in 2-D-diagrammen, als een percentage (van -100% tot 100%). |
+| [getSecondPieSize()](#getSecondPieSize--) | Specificeert de grootte van de tweede taart of staaf van een taart-van-taart-diagram of een staaf-van-taart-diagram, als een percentage van de grootte van de eerste taart (kan tussen 5 en 200 procent liggen). |
+| [setSecondPieSize(int value)](#setSecondPieSize-int-) | Specificeert de grootte van de tweede taart of staaf van een taart-van-taart-diagram of een staaf-van-taart-diagram, als een percentage van de grootte van de eerste taart (kan tussen 5 en 200 procent liggen). |
+| [getPieSplitPosition()](#getPieSplitPosition--) | Specificeert een waarde die gebruikt moet worden om te bepalen welke gegevenspunten zich in de tweede taart of staaf bevinden in een taart-van-taart- of staaf-van-taart-diagram. |
+| [setPieSplitPosition(double value)](#setPieSplitPosition-double-) | Specificeert een waarde die gebruikt moet worden om te bepalen welke gegevenspunten zich in de tweede taart of staaf bevinden in een taart-van-taart- of staaf-van-taart-diagram. |
+| [getPieSplitBy()](#getPieSplitBy--) | Specificeert hoe te bepalen welke gegevenspunten zich in de tweede taart of staaf bevinden in een taart-van-taart- of staaf-van-taart-diagram. |
+| [setPieSplitBy(int value)](#setPieSplitBy-int-) | Specificeert hoe te bepalen welke gegevenspunten zich in de tweede taart of staaf bevinden in een taart-van-taart- of staaf-van-taart-diagram. |
+| [getPieSplitCustomPoints()](#getPieSplitCustomPoints--) | De aangepaste splitsingsinformatie voor een taart-van-taart- of staaf-van-taart-diagram met een aangepaste splitsing. |
+| [getDoughnutHoleSize()](#getDoughnutHoleSize--) | Specificeert de grootte van het gat in een donut-diagram (kan liggen tussen 10 en 90 procent van de grootte van het plotgebied). |
+| [setDoughnutHoleSize(byte value)](#setDoughnutHoleSize-byte-) | Specificeert de grootte van het gat in een donut-diagram (kan liggen tussen 10 en 90 procent van de grootte van het plotgebied). |
+| [getBubbleSizeScale()](#getBubbleSizeScale--) | Specificeert de schaalfactor voor het bubbel-diagram (kan liggen tussen 0 en 300 procent van de standaardgrootte). |
+| [setBubbleSizeScale(int value)](#setBubbleSizeScale-int-) | Specificeert de schaalfactor voor het bubbel-diagram (kan liggen tussen 0 en 300 procent van de standaardgrootte). |
 | [getHiLowLinesFormat()](#getHiLowLinesFormat--) | Specificeert het HiLowLines-formaat. |
-| [getBubbleSizeRepresentation()](#getBubbleSizeRepresentation--) | Specificeert hoe de bubbel-groottewaarden worden weergegeven op het bubbel-diagram. |
-| [setBubbleSizeRepresentation(int value)](#setBubbleSizeRepresentation-int-) | Specificeert hoe de bubbel-groottewaarden worden weergegeven op het bubbel-diagram. |
+| [getBubbleSizeRepresentation()](#getBubbleSizeRepresentation--) | Specificeert hoe de bubbelgrootte-waarden worden weergegeven in het bubbel-diagram. |
+| [setBubbleSizeRepresentation(int value)](#setBubbleSizeRepresentation-int-) | Specificeert hoe de bubbelgrootte-waarden worden weergegeven in het bubbel-diagram. |
 
 ### getType() {#getType--}
 ```
 public abstract int getType()
 ```
 
-Retourneert een type van deze seriegroep. Alleen-lezen [CombinableSeriesTypesGroup](../../com.aspose.slides/combinableseriestypesgroup).
+Geeft een type van deze series-groep terug. Alleen-lezen [CombinableSeriesTypesGroup](../../com.aspose.slides/combinableseriestypesgroup).
 
-**Retour:**
+**Retour:**  
 int
 
 ### getPlotOnSecondAxis() {#getPlotOnSecondAxis--}
@@ -69,7 +70,7 @@ public abstract boolean getPlotOnSecondAxis()
 
 Geeft aan of series van deze groep op een secundaire as worden geplot. Alleen-lezen boolean.
 
-**Retour:**
+**Retour:**  
 boolean
 
 ### getSeries() {#getSeries--}
@@ -77,9 +78,9 @@ boolean
 public abstract IChartSeriesReadonlyCollection getSeries()
 ```
 
-Retourneert een alleen-lees collectie van diagram-series. Alleen-lezen [IChartSeriesReadonlyCollection](../../com.aspose.slides/ichartseriesreadonlycollection).
+Geeft een alleen-lezen collectie van diagramseries terug. Alleen-lezen [IChartSeriesReadonlyCollection](../../com.aspose.slides/ichartseriesreadonlycollection).
 
-**Retour:**
+**Retour:**  
 [IChartSeriesReadonlyCollection](../../com.aspose.slides/ichartseriesreadonlycollection)
 
 ### get_Item(int index) {#get-Item-int-}
@@ -89,12 +90,12 @@ public abstract IChartSeries get_Item(int index)
 
 Haalt het element op op de opgegeven index.
 
-**Parameters:**
+**Parameters:**  
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | index | int |  |
 
-**Retour:**
+**Retour:**  
 [IChartSeries](../../com.aspose.slides/ichartseries)
 
 ### getUpDownBars() {#getUpDownBars--}
@@ -102,9 +103,9 @@ Haalt het element op op de opgegeven index.
 public abstract IUpDownBarsManager getUpDownBars()
 ```
 
-Biedt toegang tot op/ neer-balken van een lijn- of voorraad-diagram. Alleen-lezen [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager).
+Biedt toegang tot op/naar-boven staafjes van een Lijn- of Koers-diagram. Alleen-lezen [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager).
 
-**Retour:**
+**Retour:**  
 [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager)
 
 ### getGapWidth() {#getGapWidth--}
@@ -112,9 +113,13 @@ Biedt toegang tot op/ neer-balken van een lijn- of voorraad-diagram. Alleen-leze
 public abstract int getGapWidth()
 ```
 
-Specificeert de ruimte tussen balk- of kolom-clusters, als een percentage van de balk- of kolombreedte. Lees-schrijf int.
+Haalt op of stelt de ruimte tussen staaf- of kolomclusters in, als een percentage van de breedte van de staaf of kolom. De waarde moet tussen 0 en 500 liggen. Lezen/schrijven int.
 
-**Retour:**
+--------------------
+
+Deze eigenschap is van toepassing op series van de volgende typen: alle staaf- en kolomsubtypes, [ChartType.BarOfPie](../../com.aspose.slides/charttype\#BarOfPie), [ChartType.PieOfPie](../../com.aspose.slides/charttype\#PieOfPie), [ChartType.BoxAndWhisker](../../com.aspose.slides/charttype\#BoxAndWhisker), [ChartType.Funnel](../../com.aspose.slides/charttype\#Funnel), [ChartType.Histogram](../../com.aspose.slides/charttype\#Histogram), [ChartType.Waterfall](../../com.aspose.slides/charttype\#Waterfall).
+
+**Retour:**  
 int
 
 ### setGapWidth(int value) {#setGapWidth-int-}
@@ -122,9 +127,13 @@ int
 public abstract void setGapWidth(int value)
 ```
 
-Specificeert de ruimte tussen balk- of kolom-clusters, als een percentage van de balk- of kolombreedte. Lees-schrijf int.
+Haalt op of stelt de ruimte tussen staaf- of kolomclusters in, als een percentage van de breedte van de staaf of kolom. De waarde moet tussen 0 en 500 liggen. Lezen/schrijven int.
 
-**Parameters:**
+--------------------
+
+Deze eigenschap is van toepassing op series van de volgende typen: alle staaf- en kolomsubtypes, [ChartType.BarOfPie](../../com.aspose.slides/charttype\#BarOfPie), [ChartType.PieOfPie](../../com.aspose.slides/charttype\#PieOfPie), [ChartType.BoxAndWhisker](../../com.aspose.slides/charttype\#BoxAndWhisker), [ChartType.Funnel](../../com.aspose.slides/charttype\#Funnel), [ChartType.Histogram](../../com.aspose.slides/charttype\#Histogram), [ChartType.Waterfall](../../com.aspose.slides/charttype\#Waterfall).
+
+**Parameters:**  
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | value | int |  |
@@ -134,9 +143,13 @@ Specificeert de ruimte tussen balk- of kolom-clusters, als een percentage van de
 public abstract int getGapDepth()
 ```
 
-Retourneert of stelt de afstand in, als een percentage van de markerbreedte, tussen de gegevensseries in een 3D-diagram. Lees-schrijf int.
+Haalt op of stelt de afstand tussen gegevensseries in een 3D-diagram in, als een percentage van de markerbreedte. De waarde moet tussen 0 en 500 liggen. Lezen/schrijven int.
 
-**Retour:**
+--------------------
+
+Deze eigenschap is van toepassing op series van de volgende typen: 3D staaf- en kolomsubtypes, [ChartType.Line3D](../../com.aspose.slides/charttype\#Line3D), [ChartType.Area3D](../../com.aspose.slides/charttype\#Area3D), [ChartType.StackedArea3D](../../com.aspose.slides/charttype\#StackedArea3D), [ChartType.PercentsStackedArea3D](../../com.aspose.slides/charttype\#PercentsStackedArea3D).
+
+**Retour:**  
 int
 
 ### setGapDepth(int value) {#setGapDepth-int-}
@@ -144,9 +157,13 @@ int
 public abstract void setGapDepth(int value)
 ```
 
-Retourneert of stelt de afstand in, als een percentage van de markerbreedte, tussen de gegevensseries in een 3D-diagram. Lees-schrijf int.
+Haalt op of stelt de afstand tussen gegevensseries in een 3D-diagram in, als een percentage van de markerbreedte. De waarde moet tussen 0 en 500 liggen. Lezen/schrijven int.
 
-**Parameters:**
+--------------------
+
+Deze eigenschap is van toepassing op series van de volgende typen: 3D staaf- en kolomsubtypes, [ChartType.Line3D](../../com.aspose.slides/charttype\#Line3D), [ChartType.Area3D](../../com.aspose.slides/charttype\#Area3D), [ChartType.StackedArea3D](../../com.aspose.slides/charttype\#StackedArea3D), [ChartType.PercentsStackedArea3D](../../com.aspose.slides/charttype\#PercentsStackedArea3D).
+
+**Parameters:**  
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | value | int |  |
@@ -156,9 +173,9 @@ Retourneert of stelt de afstand in, als een percentage van de markerbreedte, tus
 public abstract int getFirstSliceAngle()
 ```
 
-Haalt op of stelt de hoek in van het eerste taart- of donut-segment, in graden (kloksgewijs vanaf boven, van 0 tot 360 graden). Lees-schrijf int.
+Haalt op of stelt de hoek van het eerste taart- of donut-diagramsegment in, in graden (met de klok mee vanaf boven, van 0 tot 360 graden). Lezen/schrijven int.
 
-**Retour:**
+**Retour:**  
 int
 
 ### setFirstSliceAngle(int value) {#setFirstSliceAngle-int-}
@@ -166,9 +183,9 @@ int
 public abstract void setFirstSliceAngle(int value)
 ```
 
-Haalt op of stelt de hoek in van het eerste taart- of donut-segment, in graden (kloksgewijs vanaf boven, van 0 tot 360 graden). Lees-schrijf int.
+Haalt op of stelt de hoek van het eerste taart- of donut-diagramsegment in, in graden (met de klok mee vanaf boven, van 0 tot 360 graden). Lezen/schrijven int.
 
-**Parameters:**
+**Parameters:**  
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | value | int |  |
@@ -178,9 +195,9 @@ Haalt op of stelt de hoek in van het eerste taart- of donut-segment, in graden (
 public abstract boolean isColorVaried()
 ```
 
-Specificeert dat elke datamarker in de serie een andere kleur heeft. Lees-schrijf boolean.
+Specificeert dat elke gegevensmarker in de serie een andere kleur heeft. Lezen/schrijven boolean.
 
-**Retour:**
+**Retour:**  
 boolean
 
 ### setColorVaried(boolean value) {#setColorVaried-boolean-}
@@ -188,9 +205,9 @@ boolean
 public abstract void setColorVaried(boolean value)
 ```
 
-Specificeert dat elke datamarker in de serie een andere kleur heeft. Lees-schrijf boolean.
+Specificeert dat elke gegevensmarker in de serie een andere kleur heeft. Lezen/schrijven boolean.
 
-**Parameters:**
+**Parameters:**  
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | value | boolean |  |
@@ -200,9 +217,9 @@ Specificeert dat elke datamarker in de serie een andere kleur heeft. Lees-schrij
 public abstract boolean hasSeriesLines()
 ```
 
-Waar als het diagram serielijnen heeft. Toegepast op gestapelde balk- en OfPie-diagrammen. Lees-schrijf boolean.
+Waar als het diagram serielijnen heeft. Toegepast op gestapelde staaf- en OfPie-diagrammen. Lezen/schrijven boolean.
 
-**Retour:**
+**Retour:**  
 boolean
 
 ### setSeriesLines(boolean value) {#setSeriesLines-boolean-}
@@ -210,9 +227,9 @@ boolean
 public abstract void setSeriesLines(boolean value)
 ```
 
-Waar als het diagram serielijnen heeft. Toegepast op gestapelde balk- en OfPie-diagrammen. Lees-schrijf boolean.
+Waar als het diagram serielijnen heeft. Toegepast op gestapelde staaf- en OfPie-diagrammen. Lezen/schrijven boolean.
 
-**Parameters:**
+**Parameters:**  
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | value | boolean |  |
@@ -222,7 +239,7 @@ Waar als het diagram serielijnen heeft. Toegepast op gestapelde balk- en OfPie-d
 public abstract byte getOverlap()
 ```
 
-Specificeert hoeveel balken en kolommen overlappen op 2-D diagrammen, als een percentage (van -100% tot 100%). - -100%: maximale spatiëring (balken zijn volledig gescheiden). - 0%: balken staan naast elkaar zonder overlap of spatiëring. - 100%: maximale overlap (balken overlappen volledig). Deze eigenschap is lees-schrijf byte.
+Specificeert hoeveel staven en kolommen elkaar overlappen in 2-D-diagrammen, als een percentage (van -100% tot 100%). - -100%: maximale afstand (staven zijn volledig gescheiden). - 0%: staven staan zij aan zij zonder overlap of ruimte. - 100%: maximale overlap (staven overlappen volledig). Deze eigenschap is lezen/schrijven byte.
 
 --------------------
 
@@ -234,7 +251,7 @@ Specificeert hoeveel balken en kolommen overlappen op 2-D diagrammen, als een pe
 >  try {
 >      IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);
 >      IChartSeriesCollection series = chart.getChartData().getSeries();
->      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // Set overlap to 55%
+>      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // Stel overlap in op 55%
 >      pres.getSlides().get_Item(0).getImage(1, 1).save("chart.png");
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -242,7 +259,7 @@ Specificeert hoeveel balken en kolommen overlappen op 2-D diagrammen, als een pe
 > ```
 
 
-**Retour:**
+**Retour:**  
 byte
 
 ### setOverlap(byte value) {#setOverlap-byte-}
@@ -250,7 +267,7 @@ byte
 public abstract void setOverlap(byte value)
 ```
 
-Specificeert hoeveel balken en kolommen overlappen op 2-D diagrammen, als een percentage (van -100% tot 100%). - -100%: maximale spatiëring (balken zijn volledig gescheiden). - 0%: balken staan naast elkaar zonder overlap of spatiëring. - 100%: maximale overlap (balken overlappen volledig). Deze eigenschap is lees-schrijf byte.
+Specificeert hoeveel staven en kolommen elkaar overlappen in 2-D-diagrammen, als een percentage (van -100% tot 100%). - -100%: maximale afstand (staven zijn volledig gescheiden). - 0%: staven staan zij aan zij zonder overlap of ruimte. - 100%: maximale overlap (staven overlappen volledig). Deze eigenschap is lezen/schrijven byte.
 
 --------------------
 
@@ -270,7 +287,7 @@ Specificeert hoeveel balken en kolommen overlappen op 2-D diagrammen, als een pe
 > ```
 
 
-**Parameters:**
+**Parameters:**  
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | value | byte |  |
@@ -280,9 +297,9 @@ Specificeert hoeveel balken en kolommen overlappen op 2-D diagrammen, als een pe
 public abstract int getSecondPieSize()
 ```
 
-Specificeert de grootte van de tweede taart of balk van een taart-in-taart diagram of een balk-in-taart diagram, als een percentage van de grootte van de eerste taart (kan tussen 5 en 200 procent liggen). Lees-schrijf int.
+Specificeert de grootte van de tweede taart of staaf van een taart-van-taart-diagram of een staaf-van-taart-diagram, als een percentage van de grootte van de eerste taart (kan tussen 5 en 200 procent liggen). Lezen/schrijven int.
 
-**Retour:**
+**Retour:**  
 int
 
 ### setSecondPieSize(int value) {#setSecondPieSize-int-}
@@ -290,9 +307,9 @@ int
 public abstract void setSecondPieSize(int value)
 ```
 
-Specificeert de grootte van de tweede taart of balk van een taart-in-taart diagram of een balk-in-taart diagram, als een percentage van de grootte van de eerste taart (kan tussen 5 en 200 procent liggen). Lees-schrijf int.
+Specificeert de grootte van de tweede taart of staaf van een taart-van-taart-diagram of een staaf-van-taart-diagram, als een percentage van de grootte van de eerste taart (kan tussen 5 en 200 procent liggen). Lezen/schrijven int.
 
-**Parameters:**
+**Parameters:**  
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | value | int |  |
@@ -302,9 +319,9 @@ Specificeert de grootte van de tweede taart of balk van een taart-in-taart diagr
 public abstract double getPieSplitPosition()
 ```
 
-Specificeert een waarde die gebruikt wordt om te bepalen welke gegevenspunten in de tweede taart of balk van een taart-in-taart of balk-in-taart diagram staan. Wordt samen met de eigenschap PieSplitBy gebruikt. Lees-schrijf double.
+Specificeert een waarde die gebruikt moet worden om te bepalen welke gegevenspunten zich in de tweede taart of staaf bevinden in een taart-van-taart- of staaf-van-taart-diagram. Wordt samen met de eigenschap PieSplitBy gebruikt. Lezen/schrijven double.
 
-**Retour:**
+**Retour:**  
 double
 
 ### setPieSplitPosition(double value) {#setPieSplitPosition-double-}
@@ -312,9 +329,9 @@ double
 public abstract void setPieSplitPosition(double value)
 ```
 
-Specificeert een waarde die gebruikt wordt om te bepalen welke gegevenspunten in de tweede taart of balk van een taart-in-taart of balk-in-taart diagram staan. Wordt samen met de eigenschap PieSplitBy gebruikt. Lees-schrijf double.
+Specificeert een waarde die gebruikt moet worden om te bepalen welke gegevenspunten zich in de tweede taart of staaf bevinden in een taart-van-taart- of staaf-van-taart-diagram. Wordt samen met de eigenschap PieSplitBy gebruikt. Lezen/schrijven double.
 
-**Parameters:**
+**Parameters:**  
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | value | double |  |
@@ -324,9 +341,9 @@ Specificeert een waarde die gebruikt wordt om te bepalen welke gegevenspunten in
 public abstract int getPieSplitBy()
 ```
 
-Specificeert hoe bepaald wordt welke gegevenspunten in de tweede taart of balk van een taart-in-taart of balk-in-taart diagram staan. Lees-schrijf [PieSplitType](../../com.aspose.slides/piesplittype).
+Specificeert hoe te bepalen welke gegevenspunten zich in de tweede taart of staaf bevinden in een taart-van-taart- of staaf-van-taart-diagram. Lezen/schrijven [PieSplitType](../../com.aspose.slides/piesplittype).
 
-**Retour:**
+**Retour:**  
 int
 
 ### setPieSplitBy(int value) {#setPieSplitBy-int-}
@@ -334,9 +351,9 @@ int
 public abstract void setPieSplitBy(int value)
 ```
 
-Specificeert hoe bepaald wordt welke gegevenspunten in de tweede taart of balk van een taart-in-taart of balk-in-taart diagram staan. Lees-schrijf [PieSplitType](../../com.aspose.slides/piesplittype).
+Specificeert hoe te bepalen welke gegevenspunten zich in de tweede taart of staaf bevinden in een taart-van-taart- of staaf-van-taart-diagram. Lezen/schrijven [PieSplitType](../../com.aspose.slides/piesplittype).
 
-**Parameters:**
+**Parameters:**  
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | value | int |  |
@@ -346,9 +363,9 @@ Specificeert hoe bepaald wordt welke gegevenspunten in de tweede taart of balk v
 public abstract IPieSplitCustomPointCollection getPieSplitCustomPoints()
 ```
 
-De aangepaste splitsingsinformatie voor een taart-in-taart of balk-in-taart diagram met een aangepaste splitsing. Bevat gegevenspunten die in de tweede taart of balk van een taart-in-taart of balk-in-taart diagram getekend moeten worden. Alleen-lezen [IPieSplitCustomPointCollection](../../com.aspose.slides/ipiesplitcustompointcollection).
+De aangepaste splitsingsinformatie voor een taart-van-taart- of staaf-van-taart-diagram met een aangepaste splitsing. Bevat gegevenspunten die moeten worden getekend in de tweede taart of staaf in een taart-van-taart- of staaf-van-taart-diagram. Alleen-lezen [IPieSplitCustomPointCollection](../../com.aspose.slides/ipiesplitcustompointcollection).
 
-**Retour:**
+**Retour:**  
 [IPieSplitCustomPointCollection](../../com.aspose.slides/ipiesplitcustompointcollection)
 
 ### getDoughnutHoleSize() {#getDoughnutHoleSize--}
@@ -356,9 +373,9 @@ De aangepaste splitsingsinformatie voor een taart-in-taart of balk-in-taart diag
 public abstract byte getDoughnutHoleSize()
 ```
 
-Specificeert de grootte van het gat in een donut-diagram (kan tussen 10 en 90 procent van de grootte van het plotgebied liggen). Lees-schrijf byte.
+Specificeert de grootte van het gat in een donut-diagram (kan liggen tussen 10 en 90 procent van de grootte van het plotgebied). Lezen/schrijven byte.
 
-**Retour:**
+**Retour:**  
 byte
 
 ### setDoughnutHoleSize(byte value) {#setDoughnutHoleSize-byte-}
@@ -366,9 +383,9 @@ byte
 public abstract void setDoughnutHoleSize(byte value)
 ```
 
-Specificeert de grootte van het gat in een donut-diagram (kan tussen 10 en 90 procent van de grootte van het plotgebied liggen). Lees-schrijf byte.
+Specificeert de grootte van het gat in een donut-diagram (kan liggen tussen 10 en 90 procent van de grootte van het plotgebied). Lezen/schrijven byte.
 
-**Parameters:**
+**Parameters:**  
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | value | byte |  |
@@ -378,9 +395,9 @@ Specificeert de grootte van het gat in een donut-diagram (kan tussen 10 en 90 pr
 public abstract int getBubbleSizeScale()
 ```
 
-Specificeert de schaalfactor voor het bubbel-diagram (kan tussen 0 en 300 procent van de standaardgrootte liggen). Lees-schrijf int.
+Specificeert de schaalfactor voor het bubbel-diagram (kan liggen tussen 0 en 300 procent van de standaardgrootte). Lezen/schrijven int.
 
-**Retour:**
+**Retour:**  
 int
 
 ### setBubbleSizeScale(int value) {#setBubbleSizeScale-int-}
@@ -388,9 +405,9 @@ int
 public abstract void setBubbleSizeScale(int value)
 ```
 
-Specificeert de schaalfactor voor het bubbel-diagram (kan tussen 0 en 300 procent van de standaardgrootte liggen). Lees-schrijf int.
+Specificeert de schaalfactor voor het bubbel-diagram (kan liggen tussen 0 en 300 procent van de standaardgrootte). Lezen/schrijven int.
 
-**Parameters:**
+**Parameters:**  
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | value | int |  |
@@ -400,9 +417,9 @@ Specificeert de schaalfactor voor het bubbel-diagram (kan tussen 0 en 300 procen
 public abstract IChartLinesFormat getHiLowLinesFormat()
 ```
 
-Specificeert het HiLowLines-formaat. HiLowLines wordt toegepast bij HiLowClose, OpenHiLowClose, VolumeHiLowClose en VolumeOpenHiLowClose diagramtypen.
+Specificeert het HiLowLines-formaat. HiLowLines toegepast met HiLowClose, OpenHiLowClose, VolumeHiLowClose en VolumeOpenHiLowClose diagramtypen.
 
-**Retour:**
+**Retour:**  
 [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat)
 
 ### getBubbleSizeRepresentation() {#getBubbleSizeRepresentation--}
@@ -410,9 +427,9 @@ Specificeert het HiLowLines-formaat. HiLowLines wordt toegepast bij HiLowClose, 
 public abstract int getBubbleSizeRepresentation()
 ```
 
-Specificeert hoe de bubbel-groottewaarden worden weergegeven op het bubbel-diagram. Lees-schrijf [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
+Specificeert hoe de bubbelgrootte-waarden worden weergegeven in het bubbel-diagram. Lezen/schrijven [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
 
-**Retour:**
+**Retour:**  
 int
 
 ### setBubbleSizeRepresentation(int value) {#setBubbleSizeRepresentation-int-}
@@ -420,9 +437,9 @@ int
 public abstract void setBubbleSizeRepresentation(int value)
 ```
 
-Specificeert hoe de bubbel-groottewaarden worden weergegeven op het bubbel-diagram. Lees-schrijf [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
+Specificeert hoe de bubbelgrootte-waarden worden weergegeven in het bubbel-diagram. Lezen/schrijven [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
 
-**Parameters:**
+**Parameters:**  
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | value | int |  |

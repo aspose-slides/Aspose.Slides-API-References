@@ -1,6 +1,6 @@
 ---
 title: ITextFrame
-second_title: Aspose.Slides для Java – справка API
+second_title: Справочник API Aspose.Slides для Java
 description: Представляет TextFrame.
 type: docs
 url: /ru/com.aspose.slides/itextframe/
@@ -16,20 +16,21 @@ Represents a TextFrame.
 
 | Метод | Описание |
 | --- | --- |
-| [getParagraphs()](#getParagraphs--) | Возвращает список всех абзацев в фрейме. |
+| [getParagraphs()](#getParagraphs--) | Возвращает список всех абзацев во фрейме. |
 | [getText()](#getText--) | Получает или задает простой текст для TextFrame. |
 | [setText(String value)](#setText-java.lang.String-) | Получает или задает простой текст для TextFrame. |
-| [getTextFrameFormat()](#getTextFrameFormat--) | Возвращает объект форматирования для данного объекта TextFrame. |
+| [getTextFrameFormat()](#getTextFrameFormat--) | Возвращает объект форматирования для этого объекта TextFrame. |
 | [getHyperlinkQueries()](#getHyperlinkQueries--) | Обеспечивает простой доступ к содержащимся гиперссылкам. |
 | [getParentShape()](#getParentShape--) | Возвращает родительскую форму или null, если родительский объект не реализует интерфейс IShape. Только для чтения [IShape](../../com.aspose.slides/ishape). |
+| [getTextRect()](#getTextRect--) | Получает прямоугольник текста, определенный геометрией родительской формы. |
 | [getParentCell()](#getParentCell--) | Возвращает родительскую ячейку или null, если родительский объект не реализует интерфейс ICell. |
 | [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Объединяет участки с одинаковым форматированием во всех абзацах. |
-| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | Выделяет все совпадения образца текста указанным цветом. |
-| [splitTextByColumns()](#splitTextByColumns--) | Разбивает текстовое содержимое [ITextFrame](../../com.aspose.slides/itextframe) на массив строк, где каждый элемент соответствует отдельному текстовому столбцу внутри фрейма. |
-| [highlightText(String text, Color highlightColor, ITextHighlightingOptions options)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Выделяет все совпадения образца текста указанным цветом. |
-| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Выделяет все совпадения образца текста указанным цветом. |
-| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | Выделяет все совпадения регулярного выражения указанным цветом. |
-| [highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)](#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Выделяет все совпадения регулярного выражения указанным цветом. |
+| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | Подсвечивает все совпадения образца текста указанным цветом. |
+| [splitTextByColumns()](#splitTextByColumns--) | Разбивает текстовое содержимое [ITextFrame](../../com.aspose.slides/itextframe) на массив строк, где каждый элемент соответствует отдельной колонке текста во фрейме. |
+| [highlightText(String text, Color highlightColor, ITextHighlightingOptions options)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Подсвечивает все совпадения образца текста указанным цветом. |
+| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Подсвечивает все совпадения образца текста указанным цветом. |
+| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | Подсвечивает все совпадения регулярного выражения указанным цветом. |
+| [highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)](#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Подсвечивает все совпадения регулярного выражения указанным цветом. |
 | [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Заменяет все вхождения указанного текста другим указанным текстом. |
 | [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Заменяет все совпадения регулярного выражения указанной строкой. |
 
@@ -38,9 +39,9 @@ Represents a TextFrame.
 public abstract IParagraphCollection getParagraphs()
 ```
 
-Возвращает список всех абзацев в фрейме. Только для чтения [IParagraphCollection](../../com.aspose.slides/iparagraphcollection).
+Возвращает список всех абзацев во фрейме. Только для чтения [IParagraphCollection](../../com.aspose.slides/iparagraphcollection).
 
-**Возвращаемое значение:**
+**Возвращает:**
 [IParagraphCollection](../../com.aspose.slides/iparagraphcollection)
 
 ### getText() {#getText--}
@@ -52,7 +53,7 @@ public abstract String getText()
 
 Значение: Текст.
 
-**Возвращаемое значение:**
+**Возвращает:**
 java.lang.String
 
 ### setText(String value) {#setText-java.lang.String-}
@@ -74,9 +75,9 @@ public abstract void setText(String value)
 public abstract ITextFrameFormat getTextFrameFormat()
 ```
 
-Возвращает объект форматирования для данного объекта TextFrame. Только для чтения [ITextFrameFormat](../../com.aspose.slides/itextframeformat).
+Возвращает объект форматирования для этого объекта TextFrame. Только для чтения [ITextFrameFormat](../../com.aspose.slides/itextframeformat).
 
-**Возвращаемое значение:**
+**Возвращает:**
 [ITextFrameFormat](../../com.aspose.slides/itextframeformat)
 
 ### getHyperlinkQueries() {#getHyperlinkQueries--}
@@ -86,7 +87,7 @@ public abstract IHyperlinkQueries getHyperlinkQueries()
 
 Обеспечивает простой доступ к содержащимся гиперссылкам. Только для чтения [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
 
-**Возвращаемое значение:**
+**Возвращает:**
 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)
 
 ### getParentShape() {#getParentShape--}
@@ -114,8 +115,23 @@ public abstract IShape getParentShape()
 >  }
 > ```
 
-**Возвращаемое значение:**
+
+**Возвращает:**
 [IShape](../../com.aspose.slides/ishape)
+
+### getTextRect() {#getTextRect--}
+```
+public abstract Rectangle2D.Float getTextRect()
+```
+
+Получает прямоугольник текста, определенный геометрией родительской формы.
+
+**Возвращает:**
+java.awt.geom.Rectangle2D.Float — объект java.awt.geom.Rectangle2D.Float, определяющий область текста.
+
+--------------------
+
+Координаты прямоугольника заданы относительно левого верхнего угла родительской формы.
 
 ### getParentCell() {#getParentCell--}
 ```
@@ -142,7 +158,8 @@ public abstract ICell getParentCell()
 >  }
 > ```
 
-**Возвращаемое значение:**
+
+**Возвращает:**
 [ICell](../../com.aspose.slides/icell)
 
 ### joinPortionsWithSameFormatting() {#joinPortionsWithSameFormatting--}
@@ -157,20 +174,20 @@ public abstract void joinPortionsWithSameFormatting()
 public abstract void highlightText(String text, Color highlightColor)
 ```
 
-Выделяет все совпадения образца текста указанным цветом.
+Подсвечивает все совпадения образца текста указанным цветом.
 
 **Параметры:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| text | java.lang.String | Текст для выделения. |
-| highlightColor | java.awt.Color | Цвет для выделения текста. |
+| text | java.lang.String | Текст для подсветки. |
+| highlightColor | java.awt.Color | Цвет для подсветки текста. |
 
 ### splitTextByColumns() {#splitTextByColumns--}
 ```
 public abstract String[] splitTextByColumns()
 ```
 
-Разбивает текстовое содержимое [ITextFrame](../../com.aspose.slides/itextframe) на массив строк, где каждый элемент соответствует отдельному текстовому столбцу внутри фрейма.
+Разбивает текстовое содержимое [ITextFrame](../../com.aspose.slides/itextframe) на массив строк, где каждый элемент соответствует отдельной колонке текста во фрейме.
 
 --------------------
 
@@ -179,11 +196,11 @@ public abstract String[] splitTextByColumns()
 >  
 >  Presentation pres = new Presentation("example.pptx");
 >  try {
->      // Получить первую фигуру на слайде и привести её к ITextFrame
+>      // Получить первую форму на слайде и привести её к ITextFrame
 >      ITextFrame textFrame = (ITextFrame) pres.getSlides().get_Item(0).getShapes().get_Item(0);
->      // Разбить содержимое текстового фрейма на столбцы
+>      // Разбить содержимое текстового фрейма на колонки
 >      String[] columnsText = textFrame.splitTextByColumns();
->      // Вывести текст каждого столбца в консоль
+>      // Вывести текст каждой колонки в консоль
 >      for (String column : columnsText)
 >          System.out.println(column);
 >  } finally {
@@ -191,33 +208,34 @@ public abstract String[] splitTextByColumns()
 >  }
 > ```
 
-**Возвращаемое значение:**
-java.lang.String[] — массив строк, где каждая строка представляет текстовое содержимое конкретного столбца в [ITextFrame](../../com.aspose.slides/itextframe).
+
+**Возвращает:**
+java.lang.String[] — массив строк, где каждая строка представляет собой текстовое содержимое определённого столбца в [ITextFrame](../../com.aspose.slides/itextframe).
 
 --------------------
 
-Если текстовый фрейм не содержит несколько столбцов, возвращаемый массив будет иметь один элемент, содержащий весь текст. Пустые столбцы будут представлены пустыми строками в массиве.
+Если текстовый фрейм не содержит нескольких колонок, возвращаемый массив будет иметь один элемент, содержащий весь текст. Пустые колонки будут представлены пустыми строками в массиве.
 
 ### highlightText(String text, Color highlightColor, ITextHighlightingOptions options) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-}
 ```
 public abstract void highlightText(String text, Color highlightColor, ITextHighlightingOptions options)
 ```
 
-Выделяет все совпадения образца текста указанным цветом.
+Подсвечивает все совпадения образца текста указанным цветом.
 
 **Параметры:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| text | java.lang.String | Текст для выделения. |
-| highlightColor | java.awt.Color | Цвет для выделения текста. |
-| options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | Параметры выделения. |
+| text | java.lang.String | Текст для подсветки. |
+| highlightColor | java.awt.Color | Цвет для подсветки текста. |
+| options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | Параметры подсветки. |
 
 ### highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
 public abstract void highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
-Выделяет все совпадения образца текста указанным цветом.
+Подсвечивает все совпадения образца текста указанным цветом.
 
 --------------------
 
@@ -228,9 +246,9 @@ public abstract void highlightText(String text, Color highlightColor, ITextSearc
 >  try {
 >      TextSearchOptions textSearchOptions = new TextSearchOptions();
 >      textSearchOptions.setWholeWordsOnly(true);
->      // подсвечивание всех слов 'important'
+>      // подсветка всех слов 'important'
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightText("important", Color.BLUE);
->      // подсвечивание всех отдельных вхождений 'the'
+>      // подсветка всех отдельных вхождений 'the'
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightText("the", Color.MAGENTA, textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -242,8 +260,8 @@ public abstract void highlightText(String text, Color highlightColor, ITextSearc
 **Параметры:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| text | java.lang.String | Текст для выделения. |
-| highlightColor | java.awt.Color | Цвет для выделения текста. |
+| text | java.lang.String | Текст для подсветки. |
+| highlightColor | java.awt.Color | Цвет для подсветки текста. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Параметры поиска текста [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Объект обратного вызова для получения результатов поиска [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
@@ -252,7 +270,7 @@ public abstract void highlightText(String text, Color highlightColor, ITextSearc
 public abstract void highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)
 ```
 
-Выделяет все совпадения регулярного выражения указанным цветом.
+Подсвечивает все совпадения регулярного выражения указанным цветом.
 
 --------------------
 
@@ -262,7 +280,7 @@ public abstract void highlightRegex(Pattern regex, Color highlightColor, IFindRe
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      Pattern regex = Pattern.compile("\\b[^\\s]{5,}\\b");
->      // подсвечивание всех слов из 5 и более символов
+>      // подсветка всех слов длиной 5 символов и более
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightRegex(regex, Color.BLUE, null);
 >      presentation.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -270,11 +288,12 @@ public abstract void highlightRegex(Pattern regex, Color highlightColor, IFindRe
 >  }
 > ```
 
+
 **Параметры:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | Регулярное выражение java.util.regex.Pattern, строки которого нужно выделить. |
-| highlightColor | java.awt.Color | Цвет для выделения текста. |
+| regex | java.util.regex.Pattern | Регулярное выражение java.util.regex.Pattern для получения строк для подсветки. |
+| highlightColor | java.awt.Color | Цвет для подсветки текста. |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Объект обратного вызова для получения результатов поиска [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options) {#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-}
@@ -282,14 +301,14 @@ public abstract void highlightRegex(Pattern regex, Color highlightColor, IFindRe
 public abstract void highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)
 ```
 
-Выделяет все совпадения регулярного выражения указанным цветом.
+Подсвечивает все совпадения регулярного выражения указанным цветом.
 
 **Параметры:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| regex | java.lang.String | Текст регулярного выражения для получения текста, который нужно выделить. |
-| highlightColor | java.awt.Color | Цвет для выделения текста. |
-| options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | Параметры выделения. |
+| regex | java.lang.String | Текст регулярного выражения для получения текста для подсветки. |
+| highlightColor | java.awt.Color | Цвет для подсветки текста. |
+| options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | Параметры подсветки. |
 
 ### replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback) {#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
@@ -319,8 +338,8 @@ public abstract void replaceText(String oldText, String newText, ITextSearchOpti
 **Параметры:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| oldText | java.lang.String | Строка, которую нужно заменить. |
-| newText | java.lang.String | Строка, которой заменяются все вхождения oldText. |
+| oldText | java.lang.String | Строка, подлежащая замене. |
+| newText | java.lang.String | Строка, заменяющая все вхождения oldText. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Параметры поиска текста [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Объект обратного вызова для получения результатов поиска [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
@@ -339,7 +358,7 @@ public abstract void replaceRegex(Pattern regex, String newText, IFindResultCall
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      Pattern regex = Pattern.compile("\\b[^\\s]{5,}\\b");
->      // Заменить все слова из 5 и более символов на '***'
+>      // Заменить все слова длиной 5 символов и более на '***'
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().replaceRegex(regex, "***", null);
 >      presentation.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -347,9 +366,10 @@ public abstract void replaceRegex(Pattern regex, String newText, IFindResultCall
 >  }
 > ```
 
+
 **Параметры:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | Регулярное выражение java.util.regex.Pattern, строки которого нужно заменить. |
-| newText | java.lang.String | Строка, которой заменяются все вхождения строк, подлежащих замене. |
+| regex | java.util.regex.Pattern | Регулярное выражение java.util.regex.Pattern для получения строк для замены. |
+| newText | java.lang.String | Строка, заменяющая все вхождения строк, подлежащих замене. |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Объект обратного вызова для получения результатов поиска [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |

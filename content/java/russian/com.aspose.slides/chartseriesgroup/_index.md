@@ -1,6 +1,6 @@
 ---
 title: ChartSeriesGroup
-second_title: Справочная документация API Aspose.Slides для Java
+second_title: Aspose.Slides для Java справочник API
 description: Представляет группу серий.
 type: docs
 url: /ru/com.aspose.slides/chartseriesgroup/
@@ -18,7 +18,7 @@ public class ChartSeriesGroup implements IChartSeriesGroup, IDOMObject
 
 --------------------
 
-1) См. резюме и замечания для класса ChartSeriesGroupCollection и перечисления CombinableSeriesTypesGroup. 2) Группа серий содержит некоторые свойства серий, общие для каждой серии в группе ("свойства группы серий"). "Свойства группы серий" в классе ChartSeriesGroup доступны для чтения/записи. У каждого из "свойств группы серий" может быть только читаемая проекция в классе ChartSeries.
+1) См. сводку и примечания для класса ChartSeriesGroupCollection и перечисления CombinableSeriesTypesGroup. 2) Группа серий содержит некоторые свойства серий, общие для каждой серии в группе ("свойства группы серий"). "Свойства группы серий" в классе ChartSeriesGroup являются чтение/запись. Каждый из "свойств группы серий" может иметь только для чтения проекцию в классе ChartSeries.
 ## Методы
 
 | Метод | Описание |
@@ -27,33 +27,33 @@ public class ChartSeriesGroup implements IChartSeriesGroup, IDOMObject
 | [getPlotOnSecondAxis()](#getPlotOnSecondAxis--) | Указывает, построена ли серия этой группы по вторичной оси. |
 | [getSeries()](#getSeries--) | Возвращает коллекцию серий. |
 | [get_Item(int index)](#get-Item-int-) | Получает элемент по указанному индексу. |
-| [getUpDownBars()](#getUpDownBars--) | Обеспечивает доступ к верхним/нижним столбцам графика Line или Stock. |
-| [getGapWidth()](#getGapWidth--) | Задает расстояние между кластерами столбцов или колонок в процентах от ширины столбца или колонки. |
-| [setGapWidth(int value)](#setGapWidth-int-) | Задает расстояние между кластерами столбцов или колонок в процентах от ширины столбца или колонки. |
-| [getGapDepth()](#getGapDepth--) | Возвращает или задает расстояние в процентах от ширины маркера между сериями данных в 3D-диаграмме. |
-| [setGapDepth(int value)](#setGapDepth-int-) | Возвращает или задает расстояние в процентах от ширины маркера между сериями данных в 3D-диаграмме. |
-| [getFirstSliceAngle()](#getFirstSliceAngle--) | Получает или задает угол первого сегмента пироговой или кольцевой диаграммы в градусах (по часовой стрелке от вершины, от 0 до 360 градусов). |
-| [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | Получает или задает угол первого сегмента пироговой или кольцевой диаграммы в градусах (по часовой стрелке от вершины, от 0 до 360 градусов). |
-| [getDoughnutHoleSize()](#getDoughnutHoleSize--) | Задает размер отверстия в кольцевой диаграмме (может быть от 0 % до 90 % от размера области построения). |
-| [setDoughnutHoleSize(byte value)](#setDoughnutHoleSize-byte-) | Задает размер отверстия в кольцевой диаграмме (может быть от 0 % до 90 % от размера области построения). |
-| [getOverlap()](#getOverlap--) | Задает, насколько столбцы и колонки перекрываются в 2-D диаграммах, в процентах (от -100 % до 100 %). |
-| [setOverlap(byte value)](#setOverlap-byte-) | Задает, насколько столбцы и колонки перекрываются в 2-D диаграммах, в процентах (от -100 % до 100 %). |
-| [getSecondPieSize()](#getSecondPieSize--) | Задает размер второго пирога или столбца диаграммы «пирог-в-пироге»/«столбец-в-пироге» в процентах от размера первого пирога (от 5 % до 200 %). |
-| [setSecondPieSize(int value)](#setSecondPieSize-int-) | Задает размер второго пирога или столбца диаграммы «пирог-в-пироге»/«столбец-в-пироге» в процентах от размера первого пирога (от 5 % до 200 %). |
-| [getBubbleSizeRepresentation()](#getBubbleSizeRepresentation--) | Задает, как значения размера пузырьков представляются в пузырьковой диаграмме. |
-| [setBubbleSizeRepresentation(int value)](#setBubbleSizeRepresentation-int-) | Задает, как значения размера пузырьков представляются в пузырьковой диаграмме. |
-| [getPieSplitPosition()](#getPieSplitPosition--) | Задает значение, используемое для определения, какие точки данных находятся во втором пироге или столбце диаграммы «пирог-в-пироге»/«столбец-в-пироге». |
-| [setPieSplitPosition(double value)](#setPieSplitPosition-double-) | Задает значение, используемое для определения, какие точки данных находятся во втором пироге или столбце диаграммы «пирог-в-пироге»/«столбец-в-пироге». |
-| [getPieSplitBy()](#getPieSplitBy--) | Задает способ определения, какие точки данных находятся во втором пироге или столбце диаграммы «пирог-в-пироге»/«столбец-в-пироге». |
-| [setPieSplitBy(int value)](#setPieSplitBy-int-) | Задает способ определения, какие точки данных находятся во втором пироге или столбце диаграммы «пирог-в-пироге»/«столбец-в-пироге». |
-| [isColorVaried()](#isColorVaried--) | Задает, чтобы каждый маркер данных в серии имел разный цвет. |
-| [setColorVaried(boolean value)](#setColorVaried-boolean-) | Задает, чтобы каждый маркер данных в серии имел разный цвет. |
-| [hasSeriesLines()](#hasSeriesLines--) | Истина, если у диаграммы есть линии серии. |
-| [setSeriesLines(boolean value)](#setSeriesLines-boolean-) | Истина, если у диаграммы есть линии серии. |
-| [getHiLowLinesFormat()](#getHiLowLinesFormat--) | Задает формат HiLowLines. |
-| [getBubbleSizeScale()](#getBubbleSizeScale--) | Задает коэффициент масштабирования для пузырьковой диаграммы (может быть от 0 % до 300 % от размера по умолчанию). |
-| [setBubbleSizeScale(int value)](#setBubbleSizeScale-int-) | Задает коэффициент масштабирования для пузырьковой диаграммы (может быть от 0 % до 300 % от размера по умолчанию). |
-| [getPieSplitCustomPoints()](#getPieSplitCustomPoints--) | Пользовательская информация о разбиении для диаграммы «пирог-в-пироге»/«столбец-в-пироге» с пользовательским разбиением. |
+| [getUpDownBars()](#getUpDownBars--) | Обеспечивает доступ к полосам вверх/вниз диаграммы Line или Stock. |
+| [getGapWidth()](#getGapWidth--) | Получает или задает расстояние между кластерами столбцов или колонок в процентах от ширины столбца или колонки. |
+| [setGapWidth(int value)](#setGapWidth-int-) | Получает или задает расстояние между кластерами столбцов или колонок в процентах от ширины столбца или колонки. |
+| [getGapDepth()](#getGapDepth--) | Получает или задает расстояние между данными сериями в 3D-диаграмме в процентах от ширины маркера. |
+| [setGapDepth(int value)](#setGapDepth-int-) | Получает или задает расстояние между данными сериями в 3D-диаграмме в процентах от ширины маркера. |
+| [getFirstSliceAngle()](#getFirstSliceAngle--) | Получает или задает угол первого сектора круговой или кольцевой диаграммы в градусах (по часовой стрелке от вершины, от 0 до 360 градусов). |
+| [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | Получает или задает угол первого сектора круговой или кольцевой диаграммы в градусах (по часовой стрелке от вершины, от 0 до 360 градусов). |
+| [getDoughnutHoleSize()](#getDoughnutHoleSize--) | Указывает размер отверстия в кольцевой диаграмме (может быть от 0 до 90 процентов от размера области построения). |
+| [setDoughnutHoleSize(byte value)](#setDoughnutHoleSize-byte-) | Указывает размер отверстия в кольцевой диаграмме (может быть от 0 до 90 процентов от размера области построения). |
+| [getOverlap()](#getOverlap--) | Указывает, насколько столбцы и колонки должны перекрываться на 2-D диаграммах, в процентах (от -100% до 100%). |
+| [setOverlap(byte value)](#setOverlap-byte-) | Указывает, насколько столбцы и колонки должны перекрываться на 2-D диаграммах, в процентах (от -100% до 100%). |
+| [getSecondPieSize()](#getSecondPieSize--) | Указывает размер второй части круговой или столбчатой диаграммы типа pie-of-pie или bar-of-pie в процентах от размера первой части (может быть от 5 до 200 процентов). |
+| [setSecondPieSize(int value)](#setSecondPieSize-int-) | Указывает размер второй части круговой или столбчатой диаграммы типа pie-of-pie или bar-of-pie в процентах от размера первой части (может быть от 5 до 200 процентов). |
+| [getBubbleSizeRepresentation()](#getBubbleSizeRepresentation--) | Указывает, как значения размеров пузырьков отображаются на пузырьковой диаграмме. |
+| [setBubbleSizeRepresentation(int value)](#setBubbleSizeRepresentation-int-) | Указывает, как значения размеров пузырьков отображаются на пузырьковой диаграмме. |
+| [getPieSplitPosition()](#getPieSplitPosition--) | Указывает значение, используемое для определения, какие точки данных находятся во второй части круговой или столбчатой диаграммы типа pie-of-pie или bar-of-pie. |
+| [setPieSplitPosition(double value)](#setPieSplitPosition-double-) | Указывает значение, используемое для определения, какие точки данных находятся во второй части круговой или столбчатой диаграммы типа pie-of-pie или bar-of-pie. |
+| [getPieSplitBy()](#getPieSplitBy--) | Указывает, как определить, какие точки данных находятся во второй части круговой или столбчатой диаграммы типа pie-of-pie или bar-of-pie. |
+| [setPieSplitBy(int value)](#setPieSplitBy-int-) | Указывает, как определить, какие точки данных находятся во второй части круговой или столбчатой диаграммы типа pie-of-pie или bar-of-pie. |
+| [isColorVaried()](#isColorVaried--) | Указывает, что каждый маркер данных в серии имеет разный цвет. |
+| [setColorVaried(boolean value)](#setColorVaried-boolean-) | Указывает, что каждый маркер данных в серии имеет разный цвет. |
+| [hasSeriesLines()](#hasSeriesLines--) | True, если диаграмма имеет линии серии. |
+| [setSeriesLines(boolean value)](#setSeriesLines-boolean-) | True, если диаграмма имеет линии серии. |
+| [getHiLowLinesFormat()](#getHiLowLinesFormat--) | Указывает формат HiLowLines. |
+| [getBubbleSizeScale()](#getBubbleSizeScale--) | Указывает коэффициент масштабирования для пузырьковой диаграммы (может быть от 0 до 300 процентов от размера по умолчанию). |
+| [setBubbleSizeScale(int value)](#setBubbleSizeScale-int-) | Указывает коэффициент масштабирования для пузырьковой диаграммы (может быть от 0 до 300 процентов от размера по умолчанию). |
+| [getPieSplitCustomPoints()](#getPieSplitCustomPoints--) | Информация о пользовательском разделении для диаграммы типа pie-of-pie или bar-of-pie с пользовательским разделением. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
 | [getChart()](#getChart--) | Возвращает родительскую диаграмму. |
 | [getSlide()](#getSlide--) | Возвращает родительский слайд объекта FillFormat. |
@@ -66,7 +66,7 @@ public final int getType()
 
 Возвращает тип этой группы серий. Только для чтения [CombinableSeriesTypesGroup](../../com.aspose.slides/combinableseriestypesgroup).
 
-**Возвращаемое значение:**
+**Возвращает:**
 int
 
 ### getPlotOnSecondAxis() {#getPlotOnSecondAxis--}
@@ -76,7 +76,7 @@ public final boolean getPlotOnSecondAxis()
 
 Указывает, построена ли серия этой группы по вторичной оси. Только для чтения boolean.
 
-**Возвращаемое значение:**
+**Возвращает:**
 boolean
 
 ### getSeries() {#getSeries--}
@@ -86,7 +86,7 @@ public final IChartSeriesReadonlyCollection getSeries()
 
 Возвращает коллекцию серий. Только для чтения [IChartSeriesReadonlyCollection](../../com.aspose.slides/ichartseriesreadonlycollection).
 
-**Возвращаемое значение:**
+**Возвращает:**
 [IChartSeriesReadonlyCollection](../../com.aspose.slides/ichartseriesreadonlycollection)
 
 ### get_Item(int index) {#get-Item-int-}
@@ -101,7 +101,7 @@ public final IChartSeries get_Item(int index)
 | --- | --- | --- |
 | index | int |  |
 
-**Возвращаемое значение:**
+**Возвращает:**
 [IChartSeries](../../com.aspose.slides/ichartseries)
 
 ### getUpDownBars() {#getUpDownBars--}
@@ -109,9 +109,9 @@ public final IChartSeries get_Item(int index)
 public final IUpDownBarsManager getUpDownBars()
 ```
 
-Обеспечивает доступ к верхним/нижним столбцам графика Line или Stock. Только для чтения [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager).
+Обеспечивает доступ к полосам вверх/вниз диаграммы Line или Stock. Только для чтения [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager).
 
-**Возвращаемое значение:**
+**Возвращает:**
 [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager)
 
 ### getGapWidth() {#getGapWidth--}
@@ -119,9 +119,13 @@ public final IUpDownBarsManager getUpDownBars()
 public final int getGapWidth()
 ```
 
-Задает расстояние между кластерами столбцов или колонок в процентах от ширины столбца или колонки. Чтение/запись int.
+Получает или задает расстояние между кластерами столбцов или колонок в процентах от ширины столбца или колонки. Значение должно быть от 0 до 500. Чтение/запись int.
 
-**Возвращаемое значение:**
+--------------------
+
+Это свойство применяется к сериям следующих типов: подтипы Bar (см. также метод [ChartTypeCharacterizer.isChartTypeBar(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBar-int-)), подтипы Column (см. также метод [ChartTypeCharacterizer.isChartTypeColumn(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeColumn-int-)), [ChartType.BarOfPie](../../com.aspose.slides/charttype\#BarOfPie), [ChartType.PieOfPie](../../com.aspose.slides/charttype\#PieOfPie), [ChartType.BoxAndWhisker](../../com.aspose.slides/charttype\#BoxAndWhisker), [ChartType.Funnel](../../com.aspose.slides/charttype\#Funnel), [ChartType.Histogram](../../com.aspose.slides/charttype\#Histogram), [ChartType.Waterfall](../../com.aspose.slides/charttype\#Waterfall).
+
+**Возвращает:**
 int
 
 ### setGapWidth(int value) {#setGapWidth-int-}
@@ -129,7 +133,11 @@ int
 public final void setGapWidth(int value)
 ```
 
-Задает расстояние между кластерами столбцов или колонок в процентах от ширины столбца или колонки. Чтение/запись int.
+Получает или задает расстояние между кластерами столбцов или колонок в процентах от ширины столбца или колонки. Значение должно быть от 0 до 500. Чтение/запись int.
+
+--------------------
+
+Это свойство применяется к сериям следующих типов: подтипы Bar (см. также метод [ChartTypeCharacterizer.isChartTypeBar(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBar-int-)), подтипы Column (см. также метод [ChartTypeCharacterizer.isChartTypeColumn(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeColumn-int-)), [ChartType.BarOfPie](../../com.aspose.slides/charttype\#BarOfPie), [ChartType.PieOfPie](../../com.aspose.slides/charttype\#PieOfPie), [ChartType.BoxAndWhisker](../../com.aspose.slides/charttype\#BoxAndWhisker), [ChartType.Funnel](../../com.aspose.slides/charttype\#Funnel), [ChartType.Histogram](../../com.aspose.slides/charttype\#Histogram), [ChartType.Waterfall](../../com.aspose.slides/charttype\#Waterfall).
 
 **Параметры:**
 | Parameter | Type | Description |
@@ -141,9 +149,13 @@ public final void setGapWidth(int value)
 public final int getGapDepth()
 ```
 
-Возвращает или задает расстояние в процентах от ширины маркера между сериями данных в 3D-диаграмме. Чтение/запись int.
+Получает или задает расстояние между данными сериями в 3D-диаграмме в процентах от ширины маркера. Значение должно быть от 0 до 500. Чтение/запись int.
 
-**Возвращаемое значение:**
+--------------------
+
+Это свойство применяется к сериям следующих типов: 3D-подтипы Bar и Column (см. также метод [ChartTypeCharacterizer.isBar3DChart(int)](../../com.aspose.slides/charttypecharacterizer\#isBar3DChart-int-)), [ChartType.Line3D](../../com.aspose.slides/charttype\#Line3D), [ChartType.Area3D](../../com.aspose.slides/charttype\#Area3D), [ChartType.StackedArea3D](../../com.aspose.slides/charttype\#StackedArea3D), [ChartType.PercentsStackedArea3D](../../com.aspose.slides/charttype\#PercentsStackedArea3D).
+
+**Возвращает:**
 int
 
 ### setGapDepth(int value) {#setGapDepth-int-}
@@ -151,7 +163,11 @@ int
 public final void setGapDepth(int value)
 ```
 
-Возвращает или задает расстояние в процентах от ширины маркера между сериями данных в 3D-диаграмме. Чтение/запись int.
+Получает или задает расстояние между данными сериями в 3D-диаграмме в процентах от ширины маркера. Значение должно быть от 0 до 500. Чтение/запись int.
+
+--------------------
+
+Это свойство применяется к сериям следующих типов: 3D-подтипы Bar и Column (см. также метод [ChartTypeCharacterizer.isBar3DChart(int)](../../com.aspose.slides/charttypecharacterizer\#isBar3DChart-int-)), [ChartType.Line3D](../../com.aspose.slides/charttype\#Line3D), [ChartType.Area3D](../../com.aspose.slides/charttype\#Area3D), [ChartType.StackedArea3D](../../com.aspose.slides/charttype\#StackedArea3D), [ChartType.PercentsStackedArea3D](../../com.aspose.slides/charttype\#PercentsStackedArea3D).
 
 **Параметры:**
 | Parameter | Type | Description |
@@ -163,9 +179,9 @@ public final void setGapDepth(int value)
 public final int getFirstSliceAngle()
 ```
 
-Получает или задает угол первого сегмента пироговой или кольцевой диаграммы в градусах (по часовой стрелке от вершины, от 0 до 360 градусов). Чтение/запись int.
+Получает или задает угол первого сектора круговой или кольцевой диаграммы в градусах (по часовой стрелке от вершины, от 0 до 360 градусов). Чтение/запись int.
 
-**Возвращаемое значение:**
+**Возвращает:**
 int
 
 ### setFirstSliceAngle(int value) {#setFirstSliceAngle-int-}
@@ -173,7 +189,7 @@ int
 public final void setFirstSliceAngle(int value)
 ```
 
-Получает или задает угол первого сегмента пироговой или кольцевой диаграммы в градусах (по часовой стрелке от вершины, от 0 до 360 градусов). Чтение/запись int.
+Получает или задает угол первого сектора круговой или кольцевой диаграммы в градусах (по часовой стрелке от вершины, от 0 до 360 градусов). Чтение/запись int.
 
 **Параметры:**
 | Parameter | Type | Description |
@@ -185,9 +201,9 @@ public final void setFirstSliceAngle(int value)
 public final byte getDoughnutHoleSize()
 ```
 
-Задает размер отверстия в кольцевой диаграмме (может быть от 0 % до 90 % от размера области построения). Чтение/запись byte.
+Указывает размер отверстия в кольцевой диаграмме (может быть от 0 до 90 процентов от размера области построения). Чтение/запись byte.
 
-**Возвращаемое значение:**
+**Возвращает:**
 byte
 
 ### setDoughnutHoleSize(byte value) {#setDoughnutHoleSize-byte-}
@@ -195,7 +211,7 @@ byte
 public final void setDoughnutHoleSize(byte value)
 ```
 
-Задает размер отверстия в кольцевой диаграмме (может быть от 0 % до 90 % от размера области построения). Чтение/запись byte.
+Указывает размер отверстия в кольцевой диаграмме (может быть от 0 до 90 процентов от размера области построения). Чтение/запись byte.
 
 **Параметры:**
 | Parameter | Type | Description |
@@ -207,19 +223,19 @@ public final void setDoughnutHoleSize(byte value)
 public final byte getOverlap()
 ```
 
-Задает, насколько столбцы и колонки перекрываются в 2-D диаграммах, в процентах (от -100 % до 100 %). - -100 %: максимальное расстояние (столбцы полностью разделены). - 0 %: столбцы размещены рядом без перекрытия и без промежутков. - 100 %: максимальное перекрытие (столбцы полностью накладываются друг на друга). Это свойство — чтение/запись byte.
+Указывает, насколько столбцы и колонки должны перекрываться на 2-D диаграммах, в процентах (от -100% до 100%). - -100%: максимальное разнесение (столбцы полностью разъединены). - 0%: столбцы расположены рядом без перекрытия и разрыва. - 100%: максимальное перекрытие (столбцы полностью накладываются друг на друга). Это свойство является чтение/запись byte.
 
 --------------------
 
 > ```
-> The following example demonstrates how to set the overlap for a chart series group 
->   and render the resulting chart on a form:
+> Следующий пример демонстрирует, как установить перекрытие для группы серий диаграммы 
+>   и отобразить получившуюся диаграмму в форме:
 >   
 >  Presentation pres = new Presentation();
 >  try {
 >      IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);
 >      IChartSeriesCollection series = chart.getChartData().getSeries();
->      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // Установить перекрытие до 55%
+>      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // Установить перекрытие в 55%
 >      pres.getSlides().get_Item(0).getImage(1, 1).save("chart.png", ImageFormat.Png);
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -227,7 +243,7 @@ public final byte getOverlap()
 > ```
 
 
-**Возвращаемое значение:**
+**Возвращает:**
 byte
 
 ### setOverlap(byte value) {#setOverlap-byte-}
@@ -235,19 +251,19 @@ byte
 public final void setOverlap(byte value)
 ```
 
-Задает, насколько столбцы и колонки перекрываются в 2-D диаграммах, в процентах (от -100 % до 100 %). - -100 %: максимальное расстояние (столбцы полностью разделены). - 0 %: столбцы размещены рядом без перекрытия и без промежутков. - 100 %: максимальное перекрытие (столбцы полностью накладываются друг на друга). Это свойство — чтение/запись byte.
+Указывает, насколько столбцы и колонки должны перекрываться на 2-D диаграммах, в процентах (от -100% до 100%). - -100%: максимальное разнесение (столбцы полностью разъединены). - 0%: столбцы расположены рядом без перекрытия и разрыва. - 100%: максимальное перекрытие (столбцы полностью накладываются друг на друга). Это свойство является чтение/запись byte.
 
 --------------------
 
 > ```
-> The following example demonstrates how to set the overlap for a chart series group 
->   and render the resulting chart on a form:
+> Следующий пример демонстрирует, как установить перекрытие для группы серий диаграммы 
+>   и отобразить получившуюся диаграмму в форме:
 >   
 >  Presentation pres = new Presentation();
 >  try {
 >      IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);
 >      IChartSeriesCollection series = chart.getChartData().getSeries();
->      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // Установить перекрытие до 55%
+>      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // Установить перекрытие в 55%
 >      pres.getSlides().get_Item(0).getImage(1, 1).save("chart.png", ImageFormat.Png);
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -265,9 +281,9 @@ public final void setOverlap(byte value)
 public final int getSecondPieSize()
 ```
 
-Задает размер второго пирога или столбца диаграммы «пирог-в-пироге»/«столбец-в-пироге» в процентах от размера первого пирога (от 5 % до 200 %). Чтение/запись int.
+Указывает размер второй части круговой или столбчатой диаграммы типа pie-of-pie или bar-of-pie в процентах от размера первой части (может быть от 5 до 200 процентов). Чтение/запись int.
 
-**Возвращаемое значение:**
+**Возвращает:**
 int
 
 ### setSecondPieSize(int value) {#setSecondPieSize-int-}
@@ -275,7 +291,7 @@ int
 public final void setSecondPieSize(int value)
 ```
 
-Задает размер второго пирога или столбца диаграммы «пирог-в-пироге»/«столбец-в-пироге» в процентах от размера первого пирога (от 5 % до 200 %). Чтение/запись int.
+Указывает размер второй части круговой или столбчатой диаграммы типа pie-of-pie или bar-of-pie в процентах от размера первой части (может быть от 5 до 200 процентов). Чтение/запись int.
 
 **Параметры:**
 | Parameter | Type | Description |
@@ -287,9 +303,9 @@ public final void setSecondPieSize(int value)
 public final int getBubbleSizeRepresentation()
 ```
 
-Задает, как значения размера пузырьков представляются в пузырьковой диаграмме. Чтение/запись [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
+Указывает, как значения размеров пузырьков отображаются на пузырьковой диаграмме. Чтение/запись [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
 
-**Возвращаемое значение:**
+**Возвращает:**
 int
 
 ### setBubbleSizeRepresentation(int value) {#setBubbleSizeRepresentation-int-}
@@ -297,7 +313,7 @@ int
 public final void setBubbleSizeRepresentation(int value)
 ```
 
-Задает, как значения размера пузырьков представляются в пузырьковой диаграмме. Чтение/запись [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
+Указывает, как значения размеров пузырьков отображаются на пузырьковой диаграмме. Чтение/запись [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
 
 **Параметры:**
 | Parameter | Type | Description |
@@ -309,9 +325,9 @@ public final void setBubbleSizeRepresentation(int value)
 public final double getPieSplitPosition()
 ```
 
-Задает значение, используемое для определения, какие точки данных находятся во втором пироге или столбце диаграммы «пирог-в-пироге»/«столбец-в-пироге». Используется вместе с свойством PieSplitBy. Чтение/запись double.
+Указывает значение, используемое для определения, какие точки данных находятся во второй части круговой или столбчатой диаграммы типа pie-of-pie или bar-of-pie. Используется совместно со свойством PieSplitBy. Чтение/запись double.
 
-**Возвращаемое значение:**
+**Возвращает:**
 double
 
 ### setPieSplitPosition(double value) {#setPieSplitPosition-double-}
@@ -319,7 +335,7 @@ double
 public final void setPieSplitPosition(double value)
 ```
 
-Задает значение, используемое для определения, какие точки данных находятся во втором пироге или столбце диаграммы «пирог-в-пироге»/«столбец-в-пироге». Используется вместе с свойством PieSplitBy. Чтение/запись double.
+Указывает значение, используемое для определения, какие точки данных находятся во второй части круговой или столбчатой диаграммы типа pie-of-pie или bar-of-pie. Используется совместно со свойством PieSplitBy. Чтение/запись double.
 
 **Параметры:**
 | Parameter | Type | Description |
@@ -331,9 +347,9 @@ public final void setPieSplitPosition(double value)
 public final int getPieSplitBy()
 ```
 
-Задает способ определения, какие точки данных находятся во втором пироге или столбце диаграммы «пирог-в-пироге»/«столбец-в-пироге». Чтение/запись [PieSplitType](../../com.aspose.slides/piesplittype).
+Указывает, как определить, какие точки данных находятся во второй части круговой или столбчатой диаграммы типа pie-of-pie или bar-of-pie. Чтение/запись [PieSplitType](../../com.aspose.slides/piesplittype).
 
-**Возвращаемое значение:**
+**Возвращает:**
 int
 
 ### setPieSplitBy(int value) {#setPieSplitBy-int-}
@@ -341,7 +357,7 @@ int
 public final void setPieSplitBy(int value)
 ```
 
-Задает способ определения, какие точки данных находятся во втором пироге или столбце диаграммы «пирог-в-пироге»/«столбец-в-пироге». Чтение/запись [PieSplitType](../../com.aspose.slides/piesplittype).
+Указывает, как определить, какие точки данных находятся во второй части круговой или столбчатой диаграммы типа pie-of-pie или bar-of-pie. Чтение/запись [PieSplitType](../../com.aspose.slides/piesplittype).
 
 **Параметры:**
 | Parameter | Type | Description |
@@ -353,9 +369,9 @@ public final void setPieSplitBy(int value)
 public final boolean isColorVaried()
 ```
 
-Задает, чтобы каждый маркер данных в серии имел разный цвет. Чтение/запись boolean.
+Указывает, что каждый маркер данных в серии имеет разный цвет. Чтение/запись boolean.
 
-**Возвращаемое значение:**
+**Возвращает:**
 boolean
 
 ### setColorVaried(boolean value) {#setColorVaried-boolean-}
@@ -363,7 +379,7 @@ boolean
 public final void setColorVaried(boolean value)
 ```
 
-Задает, чтобы каждый маркер данных в серии имел разный цвет. Чтение/запись boolean.
+Указывает, что каждый маркер данных в серии имеет разный цвет. Чтение/запись boolean.
 
 **Параметры:**
 | Parameter | Type | Description |
@@ -375,9 +391,9 @@ public final void setColorVaried(boolean value)
 public final boolean hasSeriesLines()
 ```
 
-Истина, если у диаграммы есть линии серии. Применяется к сложенным столбчатым и диаграммам OfPie. Чтение/запись boolean.
+True, если диаграмма имеет линии серии. Применяется к stacked bar и OfPie диаграммам. Чтение/запись boolean.
 
-**Возвращаемое значение:**
+**Возвращает:**
 boolean
 
 ### setSeriesLines(boolean value) {#setSeriesLines-boolean-}
@@ -385,7 +401,7 @@ boolean
 public final void setSeriesLines(boolean value)
 ```
 
-Истина, если у диаграммы есть линии серии. Применяется к сложенным столбчатым и диаграммам OfPie. Чтение/запись boolean.
+True, если диаграмма имеет линии серии. Применяется к stacked bar и OfPie диаграммам. Чтение/запись boolean.
 
 **Параметры:**
 | Parameter | Type | Description |
@@ -397,9 +413,9 @@ public final void setSeriesLines(boolean value)
 public final IChartLinesFormat getHiLowLinesFormat()
 ```
 
-Задает формат HiLowLines. HiLowLines применяется к типам диаграмм HiLowClose, OpenHiLowClose, VolumeHiLowClose и VolumeOpenHiLowClose.
+Указывает формат HiLowLines. HiLowLines применяется к типам диаграмм HiLowClose, OpenHiLowClose, VolumeHiLowClose и VolumeOpenHiLowClose.
 
-**Возвращаемое значение:**
+**Возвращает:**
 [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat)
 
 ### getBubbleSizeScale() {#getBubbleSizeScale--}
@@ -407,9 +423,9 @@ public final IChartLinesFormat getHiLowLinesFormat()
 public final int getBubbleSizeScale()
 ```
 
-Задает коэффициент масштабирования для пузырьковой диаграммы (может быть от 0 % до 300 % от размера по умолчанию). Чтение/запись int.
+Указывает коэффициент масштабирования для пузырьковой диаграммы (может быть от 0 до 300 процентов от размера по умолчанию). Чтение/запись int.
 
-**Возвращаемое значение:**
+**Возвращает:**
 int
 
 ### setBubbleSizeScale(int value) {#setBubbleSizeScale-int-}
@@ -417,7 +433,7 @@ int
 public final void setBubbleSizeScale(int value)
 ```
 
-Задает коэффициент масштабирования для пузырьковой диаграммы (может быть от 0 % до 300 % от размера по умолчанию). Чтение/запись int.
+Указывает коэффициент масштабирования для пузырьковой диаграммы (может быть от 0 до 300 процентов от размера по умолчанию). Чтение/запись int.
 
 **Параметры:**
 | Parameter | Type | Description |
@@ -429,9 +445,9 @@ public final void setBubbleSizeScale(int value)
 public final IPieSplitCustomPointCollection getPieSplitCustomPoints()
 ```
 
-Пользовательская информация о разбиении для диаграммы «пирог-в-пироге»/«столбец-в-пироге» с пользовательским разбиением. Содержит точки данных, которые должны быть нарисованы во втором пироге или столбце. Только для чтения [PieSplitCustomPointCollection](../../com.aspose.slides/piesplitcustompointcollection).
+Информация о пользовательском разделении для диаграммы типа pie-of-pie или bar-of-pie с пользовательским разделением. Содержит точки данных, которые должны быть нарисованы во второй части круговой или столбчатой диаграммы типа pie-of-pie или bar-of-pie. Только для чтения [PieSplitCustomPointCollection](../../com.aspose.slides/piesplitcustompointcollection).
 
-**Возвращаемое значение:**
+**Возвращает:**
 [IPieSplitCustomPointCollection](../../com.aspose.slides/ipiesplitcustompointcollection)
 
 ### getParent_Immediate() {#getParent-Immediate--}
@@ -441,7 +457,7 @@ public final IDOMObject getParent_Immediate()
 
 Возвращает объект Parent_Immediate. Только для чтения IDOMObject.
 
-**Возвращаемое значение:**
+**Возвращает:**
 com.aspose.slides.IDOMObject
 
 ### getChart() {#getChart--}
@@ -451,7 +467,7 @@ public final IChart getChart()
 
 Возвращает родительскую диаграмму. Только для чтения [IChart](../../com.aspose.slides/ichart).
 
-**Возвращаемое значение:**
+**Возвращает:**
 [IChart](../../com.aspose.slides/ichart)
 
 ### getSlide() {#getSlide--}
@@ -461,7 +477,7 @@ public final IBaseSlide getSlide()
 
 Возвращает родительский слайд объекта FillFormat. Только для чтения [BaseSlide](../../com.aspose.slides/baseslide).
 
-**Возвращаемое значение:**
+**Возвращает:**
 [IBaseSlide](../../com.aspose.slides/ibaseslide)
 
 ### getPresentation() {#getPresentation--}
@@ -471,5 +487,5 @@ public final IPresentation getPresentation()
 
 Возвращает родительскую презентацию объекта FillFormat. Только для чтения [IPresentation](../../com.aspose.slides/ipresentation).
 
-**Возвращаемое значение:**
+**Возвращает:**
 [IPresentation](../../com.aspose.slides/ipresentation)

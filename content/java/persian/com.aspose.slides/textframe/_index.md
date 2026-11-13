@@ -1,6 +1,6 @@
 ---
 title: TextFrame
-second_title: مرجع API Aspose.Slides برای Java
+second_title: Aspose.Slides برای Java مرجع API
 description: نمایانگر یک TextFrame است.
 type: docs
 url: /fa/com.aspose.slides/textframe/
@@ -8,7 +8,7 @@ url: /fa/com.aspose.slides/textframe/
 **ارث‌بری:**
 java.lang.Object
 
-**همهٔ رابط‌های پیاده‌سازی‌شده:**
+**تمام رابط‌های پیاده‌سازی شده:**
 [com.aspose.slides.ITextFrame](../../com.aspose.slides/itextframe), com.aspose.slides.IDOMObject
 ```
 public final class TextFrame implements ITextFrame, IDOMObject
@@ -20,59 +20,61 @@ public final class TextFrame implements ITextFrame, IDOMObject
 | متد | توضیح |
 | --- | --- |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-| [getParagraphs()](#getParagraphs--) | فهرست تمام پاراگراف‌ها در یک قاب را برمی‌گرداند. |
+| [getParagraphs()](#getParagraphs--) | لیست تمام پاراگراف‌ها در یک فریم را بازمی‌گرداند. |
 | [getText()](#getText--) | متن ساده یک TextFrame را دریافت یا تنظیم می‌کند. |
 | [setText(String value)](#setText-java.lang.String-) | متن ساده یک TextFrame را دریافت یا تنظیم می‌کند. |
-| [getTextFrameFormat()](#getTextFrameFormat--) | شیء قالب‌بندی برای این شیء TextFrame را برمی‌گرداند. |
+| [getTextFrameFormat()](#getTextFrameFormat--) | شیء فرمت‌بندی برای این شیء TextFrame را بازمی‌گرداند. |
 | [getHyperlinkQueries()](#getHyperlinkQueries--) | دسترسی آسان به پیوندهای موجود را فراهم می‌کند. |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | بخش‌های با قالب‌بندی یکسان را در تمام پاراگراف‌ها ترکیب می‌کند. |
-| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | تمام مطابقت‌های متن نمونه را با رنگ مشخص برجسته می‌کند. |
-| [highlightText(String text, Color highlightColor, ITextHighlightingOptions options)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | تمام مطابقت‌های متن نمونه را با رنگ مشخص برجسته می‌کند. |
-| [splitTextByColumns()](#splitTextByColumns--) | محتویات متنی [ITextFrame](../../com.aspose.slides/itextframe) را به آرایه‌ای از رشته‌ها تقسیم می‌کند که هر عنصر متن مربوط به یک ستون متنی جداگانه در قاب است. |
-| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | تمام مطابقت‌های متن نمونه را با رنگ مشخص برجسته می‌کند. |
-| [highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)](#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | تمام مطابقت‌های عبارت منظم را با رنگ مشخص برجسته می‌کند. |
-| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | تمام مطابقت‌های عبارت منظم را با رنگ مشخص برجسته می‌کند. |
-| [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | تمام موارد متن مشخص را با متن دیگر مشخص جایگزین می‌کند. |
-| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | تمام مطابقت‌های عبارت منظم را با رشتهٔ مشخص جایگزین می‌کند. |
-| [getSlide()](#getSlide--) | اسلاید والد یک TextFrame را برمی‌گرداند. |
-| [getPresentation()](#getPresentation--) | ارائهٔ والد یک TextFrame را برمی‌گرداند. |
-| [getParentShape()](#getParentShape--) | شکل والد یا null را برمی‌گرداند اگر شیء والد رابط IShape را پیاده‌سازی نکند فقط‌خواندنی [IShape](../../com.aspose.slides/ishape). |
-| [getParentCell()](#getParentCell--) | سلول والد یا null را برمی‌گرداند اگر شیء والد رابط ICell را پیاده‌سازی نکند. |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | بخش‌های متنی با فرمت یکسان را در تمام پاراگراف‌ها ترکیب می‌کند. |
+| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | تمام موارد متن نمونه را با رنگ مشخص برجسته می‌کند. |
+| [highlightText(String text, Color highlightColor, ITextHighlightingOptions options)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | تمام موارد متن نمونه را با رنگ مشخص برجسته می‌کند. |
+| [splitTextByColumns()](#splitTextByColumns--) | محتوای متنی [ITextFrame](../../com.aspose.slides/itextframe) را به آرایه‌ای از رشته‌ها تقسیم می‌کند که هر عنصر متناظر با یک ستون متنی جداگانه در داخل فریم است. |
+| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | تمام موارد متن نمونه را با رنگ مشخص برجسته می‌کند. |
+| [highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)](#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | تمام موارد عبارات منظم را با رنگ مشخص برجسته می‌کند. |
+| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | تمام موارد عبارات منظم را با رنگ مشخص برجسته می‌کند. |
+| [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | تمام موارد متن مشخص شده را با متن دیگری جایگزین می‌کند. |
+| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | تمام موارد عبارات منظم را با رشته مشخص شده جایگزین می‌کند. |
+| [getSlide()](#getSlide--) | اسلاید والد یک TextFrame را بازمی‌گرداند. |
+| [getPresentation()](#getPresentation--) | ارائه والد یک TextFrame را بازمی‌گرداند. |
+| [getParentShape()](#getParentShape--) | شکل والد را بازمی‌گرداند یا در صورت عدم پیاده‌سازی رابط IShape، null برمی‌گرداند. فقط خواندنی [IShape](../../com.aspose.slides/ishape). |
+| [getTextRect()](#getTextRect--) | مستطیل متن تعریف‌شده توسط هندسه شکل والد را دریافت می‌کند. |
+| [getParentCell()](#getParentCell--) | سلول والد را بازمی‌گرداند یا در صورت عدم پیاده‌سازی رابط ICell، null برمی‌گرداند. |
+
 ### getParent_Immediate() {#getParent-Immediate--}
 ```
 public final IDOMObject getParent_Immediate()
 ```
 
-شیء Parent_Immediate را برمی‌گرداند. فقط‌خواندنی IDOMObject.
+شیء Parent_Immediate را بازمی‌گرداند. فقط خواندنی IDOMObject.
 
-**باز می‌گردد:**
+**بازمی‌گرداند:**
 com.aspose.slides.IDOMObject
 ### getParagraphs() {#getParagraphs--}
 ```
 public final IParagraphCollection getParagraphs()
 ```
 
-فهرست تمام پاراگراف‌ها در یک قاب را برمی‌گرداند. فقط‌خواندنی [IParagraphCollection](../../com.aspose.slides/iparagraphcollection).
+لیست تمام پاراگراف‌ها در یک فریم را بازمی‌گرداند. فقط خواندنی [IParagraphCollection](../../com.aspose.slides/iparagraphcollection).
 
-**باز می‌گردد:**
+**بازمی‌گرداند:**
 [IParagraphCollection](../../com.aspose.slides/iparagraphcollection)
 ### getText() {#getText--}
 ```
 public final String getText()
 ```
 
-متن ساده یک TextFrame را دریافت یا تنظیم می‌کند. قابل‌خواندن/نوشتن String.
+متن ساده یک TextFrame را دریافت یا تنظیم می‌کند. خواندنی/نوشتنی String.
 
 مقدار: متن.
 
-**باز می‌گردد:**
+**بازمی‌گرداند:**
 java.lang.String
 ### setText(String value) {#setText-java.lang.String-}
 ```
 public final void setText(String value)
 ```
 
-متن ساده یک TextFrame را دریافت یا تنظیم می‌کند. قابل‌خواندن/نوشتن String.
+متن ساده یک TextFrame را دریافت یا تنظیم می‌کند. خواندنی/نوشتنی String.
 
 مقدار: متن.
 
@@ -85,43 +87,43 @@ public final void setText(String value)
 public final ITextFrameFormat getTextFrameFormat()
 ```
 
-شیء قالب‌بندی برای این شیء TextFrame را برمی‌گرداند. فقط‌خواندنی [ITextFrameFormat](../../com.aspose.slides/itextframeformat).
+شیء فرمت‌بندی برای این شیء TextFrame را بازمی‌گرداند. فقط خواندنی [ITextFrameFormat](../../com.aspose.slides/itextframeformat).
 
-**باز می‌گردد:**
+**بازمی‌گرداند:**
 [ITextFrameFormat](../../com.aspose.slides/itextframeformat)
 ### getHyperlinkQueries() {#getHyperlinkQueries--}
 ```
 public final IHyperlinkQueries getHyperlinkQueries()
 ```
 
-دسترسی آسان به پیوندهای موجود را فراهم می‌کند. فقط‌خواندنی [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
+دسترسی آسان به پیوندهای موجود را فراهم می‌کند. فقط خواندنی [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
 
-**باز می‌گردد:**
+**بازمی‌گرداند:**
 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)
 ### joinPortionsWithSameFormatting() {#joinPortionsWithSameFormatting--}
 ```
 public final void joinPortionsWithSameFormatting()
 ```
 
-بخش‌های با قالب‌بندی یکسان را در تمام پاراگراف‌ها ترکیب می‌کند.
+بخش‌های متنی با فرمت یکسان را در تمام پاراگراف‌ها ترکیب می‌کند.
 ### highlightText(String text, Color highlightColor) {#highlightText-java.lang.String-java.awt.Color-}
 ```
 public final void highlightText(String text, Color highlightColor)
 ```
 
-تمام مطابقت‌های متن نمونه را با رنگ مشخص برجسته می‌کند.
+تمام موارد متن نمونه را با رنگ مشخص برجسته می‌کند.
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
-| text | java.lang.String | نمونهٔ متنی برای برجسته‌سازی. |
-| highlightColor | java.awt.Color | رنگی که متن با آن برجسته می‌شود. |
+| text | java.lang.String | نمونه متن برای برجسته‌سازی. |
+| highlightColor | java.awt.Color | رنگی که متن را برجسته می‌کند. |
 ### highlightText(String text, Color highlightColor, ITextHighlightingOptions options) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-}
 ```
 public final void highlightText(String text, Color highlightColor, ITextHighlightingOptions options)
 ```
 
-تمام مطابقت‌های متن نمونه را با رنگ مشخص برجسته می‌کند.
+تمام موارد متن نمونه را با رنگ مشخص برجسته می‌کند.
 
 --------------------
 
@@ -131,9 +133,9 @@ public final void highlightText(String text, Color highlightColor, ITextHighligh
 >  try {
 >      TextHighlightingOptions textHighlightingOptions = new TextHighlightingOptions();
 >      textHighlightingOptions.setWholeWordsOnly(true);
->      // highlighting all words 'important'
+>      // برجسته‌سازی تمام کلمات 'important'
 >      ((AutoShape)pres.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightText("title", Color.BLUE);
->      // highlighting all separate 'the' occurrences
+>      // برجسته‌سازی تمام موارد جداگانه 'the'
 >      ((AutoShape)pres.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightText("to", Color.MAGENTA, textHighlightingOptions);
 >      pres.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -141,18 +143,19 @@ public final void highlightText(String text, Color highlightColor, ITextHighligh
 >  }
 > ```
 
+
 **پارامترها:**
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | text | java.lang.String | متن برای برجسته‌سازی. |
-| highlightColor | java.awt.Color | رنگی که متن با آن برجسته می‌شود. |
+| highlightColor | java.awt.Color | رنگی که متن را برجسته می‌کند. |
 | options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | گزینه‌های برجسته‌سازی. |
 ### splitTextByColumns() {#splitTextByColumns--}
 ```
 public final String[] splitTextByColumns()
 ```
 
-محتویات متنی [ITextFrame](../../com.aspose.slides/itextframe) را به آرایه‌ای از رشته‌ها تقسیم می‌کند که هر عنصر متن مربوط به یک ستون متنی جداگانه در قاب است.
+محتوای متنی [ITextFrame](../../com.aspose.slides/itextframe) را به آرایه‌ای از رشته‌ها تقسیم می‌کند که هر عنصر متناظر با یک ستون متنی جداگانه در داخل فریم است.
 
 --------------------
 
@@ -161,11 +164,11 @@ public final String[] splitTextByColumns()
 >  
 >  Presentation pres = new Presentation("example.pptx");
 >  try {
->      // Get the first shape on the slide and cast it to ITextFrame
+>      // اولین شکل را در اسلاید دریافت کرده و به ITextFrame تبدیل می‌کند
 >      ITextFrame textFrame = (ITextFrame) pres.getSlides().get_Item(0).getShapes().get_Item(0);
->      // Split the text frame content into columns
+>      // محتوای فریم متنی را به ستون‌ها تقسیم می‌کند
 >      String[] columnsText = textFrame.splitTextByColumns();
->      // Print each column's text to the console
+>      // متن هر ستون را در کنسول چاپ می‌کند
 >      for (String column : columnsText)
 >          System.out.println(column);
 >  } finally {
@@ -173,18 +176,17 @@ public final String[] splitTextByColumns()
 >  }
 > ```
 
-**باز می‌گردد:**
-java.lang.String[] - آرایه‌ای از رشته‌ها که هر رشته محتوای متنی یک ستون خاص در [ITextFrame](../../com.aspose.slides/itextframe) را نشان می‌دهد.
 
---------------------
+**بازمی‌گرداند:**
+java.lang.String[] - آرایه‌ای از رشته‌ها که هر رشته متن محتوای یک ستون خاص در [ITextFrame](../../com.aspose.slides/itextframe) را نشان می‌دهد.
 
-اگر فریم متن شامل چندین ستون نباشد، آرایهٔ بازگردانده‌شده یک عنصر واحد شامل متن کامل خواهد داشت. ستون‌های خالی به صورت رشته‌های خالی در آرایه نشان داده می‌شوند.
+اگر فریم متن چندین ستون نداشته باشد، آرایه بازگشتی یک عنصر واحد داشته خواهد بود که متن کامل را شامل می‌شود. ستون‌های خالی به صورت رشته‌های خالی در آرایه نشان داده می‌شوند.
 ### highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
 public final void highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
-تمام مطابقت‌های متن نمونه را با رنگ مشخص برجسته می‌کند.
+تمام موارد متن نمونه را با رنگ مشخص برجسته می‌کند.
 
 --------------------
 
@@ -195,9 +197,9 @@ public final void highlightText(String text, Color highlightColor, ITextSearchOp
 >  try {
 >      TextSearchOptions textSearchOptions = new TextSearchOptions();
 >      textSearchOptions.setWholeWordsOnly(true);
->      // highlighting all words 'important'
+>      // برجسته‌سازی تمام کلمات 'important'
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightText("important", Color.BLUE);
->      // highlighting all separate 'the' occurrences
+>      // برجسته‌سازی تمام موارد جداگانه 'the'
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightText("the", Color.MAGENTA, textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -205,19 +207,20 @@ public final void highlightText(String text, Color highlightColor, ITextSearchOp
 >  }
 > ```
 
+
 **پارامترها:**
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | text | java.lang.String | متن برای برجسته‌سازی. |
-| highlightColor | java.awt.Color | رنگی که متن با آن برجسته می‌شود. |
+| highlightColor | java.awt.Color | رنگی که متن را برجسته می‌کند. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | گزینه‌های جستجوی متن [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | شیء بازخوانی برای دریافت نتایج جستجو [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | شیء بازگردانی برای دریافت نتایج جستجو [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 ### highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options) {#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-}
 ```
 public final void highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)
 ```
 
-تمام مطابقت‌های عبارت منظم را با رنگ مشخص برجسته می‌کند.
+تمام موارد عبارات منظم را با رنگ مشخص برجسته می‌کند.
 
 --------------------
 
@@ -227,7 +230,7 @@ public final void highlightRegex(String regex, Color highlightColor, ITextHighli
 >  Presentation pres = new Presentation("SomePresentation.pptx");
 >  try {
 >      TextHighlightingOptions options = new TextHighlightingOptions();
->      // highlighting all words with 10 symbols or longer
+>      // برجسته‌سازی تمام کلمات با 10 نماد یا بیشتر
 >      ((AutoShape) pres.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightRegex("\\b[^\\s){5,}\\b", Color.BLUE, options);
 >      pres.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -238,15 +241,15 @@ public final void highlightRegex(String regex, Color highlightColor, ITextHighli
 **پارامترها:**
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
-| regex | java.lang.String | متن عبارت منظم برای برجسته‌سازی. |
-| highlightColor | java.awt.Color | رنگی که متن با آن برجسته می‌شود. |
+| regex | java.lang.String | متن عبارت منظم برای دریافت متن برجسته. |
+| highlightColor | java.awt.Color | رنگی که متن را برجسته می‌کند. |
 | options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | گزینه‌های برجسته‌سازی. |
 ### highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback) {#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-}
 ```
 public final void highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)
 ```
 
-تمام مطابقت‌های عبارت منظم را با رنگ مشخص برجسته می‌کند.
+تمام موارد عبارات منظم را با رنگ مشخص برجسته می‌کند.
 
 --------------------
 
@@ -256,7 +259,7 @@ public final void highlightRegex(Pattern regex, Color highlightColor, IFindResul
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      Pattern regex = Pattern.compile("\\b[^\\s]{5,}\\b");
->      // highlighting all words with 5 symbols or longer
+>      // برجسته‌سازی تمام کلمات با 5 نماد یا بیشتر
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightRegex(regex, Color.BLUE, null);
 >      presentation.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -267,15 +270,15 @@ public final void highlightRegex(Pattern regex, Color highlightColor, IFindResul
 **پارامترها:**
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | عبارت منظم java.util.regex.Pattern برای دریافت رشته‌های برجسته‌شده. |
-| highlightColor | java.awt.Color | رنگی که متن با آن برجسته می‌شود. |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | شیء بازخوانی برای دریافت نتایج جستجو [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| regex | java.util.regex.Pattern | عبارت منظم java.util.regex.Pattern برای دریافت رشته‌های برجسته. |
+| highlightColor | java.awt.Color | رنگی که متن را برجسته می‌کند. |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | شیء بازگردانی برای دریافت نتایج جستجو [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 ### replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback) {#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
 public final void replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
-تمام موارد متن مشخص را با متن دیگر مشخص جایگزین می‌کند.
+تمام موارد متن مشخص شده را با متن دیگری جایگزین می‌کند.
 
 --------------------
 
@@ -286,7 +289,7 @@ public final void replaceText(String oldText, String newText, ITextSearchOptions
 >  try {
 >      TextSearchOptions textSearchOptions = new TextSearchOptions();
 >      textSearchOptions.setWholeWordsOnly(true);
->      // جایگزینی تمام موارد جداگانهٔ 'the' با '***'
+>      // تمام موارد جداگانه 'the' را با '***' جایگزین می‌کند
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().replaceText("the", "***", textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -301,13 +304,13 @@ public final void replaceText(String oldText, String newText, ITextSearchOptions
 | oldText | java.lang.String | رشته‌ای که باید جایگزین شود. |
 | newText | java.lang.String | رشته‌ای که تمام موارد oldText را جایگزین می‌کند. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | گزینه‌های جستجوی متن [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | شیء بازخوانی برای ذخیرهٔ نتیجه عملیات جایگزینی [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | شیء بازگردانی برای ذخیره نتیجه عملیات جایگزینی [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 ### replaceRegex(Pattern regex, String newText, IFindResultCallback callback) {#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-}
 ```
 public final void replaceRegex(Pattern regex, String newText, IFindResultCallback callback)
 ```
 
-تمام مطابقت‌های عبارت منظم را با رشتهٔ مشخص جایگزین می‌کند.
+تمام موارد عبارات منظم را با رشته مشخص شده جایگزین می‌کند.
 
 --------------------
 
@@ -317,7 +320,7 @@ public final void replaceRegex(Pattern regex, String newText, IFindResultCallbac
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      Pattern regex = Pattern.compile("\\b[^\\s]{5,}\\b");
->      // جایگزینی تمام کلمات با 5 نماد یا بیشتر با '***'
+>      // تمام کلمات با 5 نماد یا بیشتر را با '***' جایگزین می‌کند
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().replaceRegex(regex, "***", null);
 >      presentation.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -328,33 +331,33 @@ public final void replaceRegex(Pattern regex, String newText, IFindResultCallbac
 **پارامترها:**
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | عبارت منظم java.util.regex.Pattern برای دریافت رشته‌های جایگزین‌شده. |
-| newText | java.lang.String | رشته‌ای که تمام موارد رشته‌های جایگزین‌شده را جایگزین می‌کند. |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | شیء بازخوانی برای ذخیرهٔ نتیجه عملیات جایگزینی [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| regex | java.util.regex.Pattern | عبارت منظم java.util.regex.Pattern برای دریافت رشته‌های جایگزینی. |
+| newText | java.lang.String | رشته‌ای که تمام موارد رشته‌های جایگزین را جایگزین می‌کند. |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | شیء بازگردانی برای ذخیره نتیجه عملیات جایگزینی [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 ### getSlide() {#getSlide--}
 ```
 public final IBaseSlide getSlide()
 ```
 
-اسلاید والد یک TextFrame را برمی‌گرداند. فقط‌خواندنی [IBaseSlide](../../com.aspose.slides/ibaseslide).
+اسلاید والد یک TextFrame را بازمی‌گرداند. فقط خواندنی [IBaseSlide](../../com.aspose.slides/ibaseslide).
 
-**باز می‌گردد:**
+**بازمی‌گرداند:**
 [IBaseSlide](../../com.aspose.slides/ibaseslide)
 ### getPresentation() {#getPresentation--}
 ```
 public final IPresentation getPresentation()
 ```
 
-ارائهٔ والد یک TextFrame را برمی‌گرداند. فقط‌خواندنی [IPresentation](../../com.aspose.slides/ipresentation).
+ارائه والد یک TextFrame را بازمی‌گرداند. فقط خواندنی [IPresentation](../../com.aspose.slides/ipresentation).
 
-**باز می‌گردد:**
+**بازمی‌گرداند:**
 [IPresentation](../../com.aspose.slides/ipresentation)
 ### getParentShape() {#getParentShape--}
 ```
 public final IShape getParentShape()
 ```
 
-شکل والد یا null را برمی‌گرداند اگر شیء والد رابط IShape را پیاده‌سازی نکند فقط‌خواندنی [IShape](../../com.aspose.slides/ishape).
+شکل والد را بازمی‌گرداند یا در صورت عدم پیاده‌سازی رابط IShape، null برمی‌گرداند. فقط خواندنی [IShape](../../com.aspose.slides/ishape).
 
 --------------------
 
@@ -374,15 +377,23 @@ public final IShape getParentShape()
 >  }
 > ```
 
-
-**باز می‌گردد:**
+**بازمی‌گرداند:**
 [IShape](../../com.aspose.slides/ishape)
+### getTextRect() {#getTextRect--}
+```
+public final Rectangle2D.Float getTextRect()
+```
+
+مستطیل متن تعریف‌شده توسط هندسه شکل والد را دریافت می‌کند.
+
+**بازمی‌گرداند:**
+java.awt.geom.Rectangle2D.Float - یک java.awt.geom.Rectangle2D.Float که ناحیه متن را تعریف می‌کند.
 ### getParentCell() {#getParentCell--}
 ```
 public final ICell getParentCell()
 ```
 
-سلول والد یا null را برمی‌گرداند اگر شیء والد رابط ICell را پیاده‌سازی نکند فقط‌خواندنی [ICell](../../com.aspose.slides/icell).
+سلول والد را بازمی‌گرداند یا در صورت عدم پیاده‌سازی رابط ICell، null برمی‌گرداند. فقط خواندنی [ICell](../../com.aspose.slides/icell).
 
 --------------------
 
@@ -402,5 +413,5 @@ public final ICell getParentCell()
 >  }
 > ```
 
-**باز می‌گردد:**
+**بازمی‌گرداند:**
 [ICell](../../com.aspose.slides/icell)

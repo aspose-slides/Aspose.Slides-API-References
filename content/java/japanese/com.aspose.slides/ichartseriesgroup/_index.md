@@ -5,7 +5,7 @@ description: シリーズのグループを表します。
 type: docs
 url: /ja/com.aspose.slides/ichartseriesgroup/
 ---
-**実装されているすべてのインターフェイス:**
+**すべての実装されたインターフェイス:**
 [com.aspose.slides.IChartComponent](../../com.aspose.slides/ichartcomponent)
 ```
 public interface IChartSeriesGroup extends IChartComponent
@@ -15,50 +15,49 @@ public interface IChartSeriesGroup extends IChartComponent
 
 --------------------
 
-1) ChartSeriesGroupCollection クラスと CombinableSeriesTypesGroup 列挙体の概要と備考を参照してください。 2) シリーズのグループは、グループ内の各シリーズに共通するいくつかのシリーズプロパティを含みます（「series group properties」）。「Series group properties」 in ChartSeriesGroup class は読み書き可能です。Each of 「series group properties」 can have a read-only projection in ChartSeries class.
-
+1) ChartSeriesGroupCollection クラスと CombinableSeriesTypesGroup 列挙体の概要と備考を参照してください。 2) シリーズのグループは、グループ内の各シリーズに共通するいくつかのシリーズプロパティ ("series group properties") を含みます。 "Series group properties" は ChartSeriesGroup クラスで読み書き可能です。 "Series group properties" の各項目は、ChartSeries クラスで読み取り専用の投影を持つことができます。
 ## メソッド
 
 | メソッド | 説明 |
 | --- | --- |
-| [getType()](#getType--) | このシリーズグループの型を返します。 |
-| [getPlotOnSecondAxis()](#getPlotOnSecondAxis--) | このグループのシリーズが二次軸にプロットされるかどうかを示します。 |
+| [getType()](#getType--) | このシリーズ グループの型を返します。 |
+| [getPlotOnSecondAxis()](#getPlotOnSecondAxis--) | このグループのシリーズが副軸にプロットされるかどうかを示します。 |
 | [getSeries()](#getSeries--) | チャートシリーズの読み取り専用コレクションを返します。 |
-| [get_Item(int index)](#get-Item-int-) | 指定されたインデックスの要素を取得します。 |
-| [getUpDownBars()](#getUpDownBars--) | 折れ線グラフまたはストックチャートの上/下バーへのアクセスを提供します。 |
-| [getGapWidth()](#getGapWidth--) | バーまたは列クラスター間のスペースを、バーまたは列の幅のパーセンテージで指定します。 |
-| [setGapWidth(int value)](#setGapWidth-int-) | バーまたは列クラスター間のスペースを、バーまたは列の幅のパーセンテージで指定します。 |
-| [getGapDepth()](#getGapDepth--) | 3D チャートのデータシリーズ間の距離を、マーカー幅のパーセンテージで返すまたは設定します。 |
-| [setGapDepth(int value)](#setGapDepth-int-) | 3D チャートのデータシリーズ間の距離を、マーカー幅のパーセンテージで返すまたは設定します。 |
-| [getFirstSliceAngle()](#getFirstSliceAngle--) | 最初の円グラフまたはドーナツチャートのスライスの角度を度単位で取得または設定します（上から時計回り、0 から 360 度）。 |
-| [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | 最初の円グラフまたはドーナツチャートのスライスの角度を度単位で取得または設定します（上から時計回り、0 から 360 度）。 |
-| [isColorVaried()](#isColorVaried--) | シリーズ内の各データマーカーが異なる色を持つことを指定します。 |
-| [setColorVaried(boolean value)](#setColorVaried-boolean-) | シリーズ内の各データマーカーが異なる色を持つことを指定します。 |
-| [hasSeriesLines()](#hasSeriesLines--) | チャートに系列線がある場合は true。 |
-| [setSeriesLines(boolean value)](#setSeriesLines-boolean-) | チャートに系列線がある場合は true。 |
-| [getOverlap()](#getOverlap--) | 2D チャートでバーと列がどれだけ重なるかを、パーセンテージ（-100% から 100%）で指定します。 |
-| [setOverlap(byte value)](#setOverlap-byte-) | 2D チャートでバーと列がどれだけ重なるかを、パーセンテージ（-100% から 100%）で指定します。 |
-| [getSecondPieSize()](#getSecondPieSize--) | パイ・オブ・パイチャートまたはバー・オブ・パイチャートの第2の円またはバーのサイズを、最初の円のサイズのパーセンテージで指定します（5 から 200%）。 |
-| [setSecondPieSize(int value)](#setSecondPieSize-int-) | パイ・オブ・パイチャートまたはバー・オブ・パイチャートの第2の円またはバーのサイズを、最初の円のサイズのパーセンテージで指定します（5 から 200%）。 |
-| [getPieSplitPosition()](#getPieSplitPosition--) | パイ・オブ・パイまたはバー・オブ・パイチャートで、どのデータポイントが第2の円またはバーに属するかを決定するために使用される値を指定します。 |
-| [setPieSplitPosition(double value)](#setPieSplitPosition-double-) | パイ・オブ・パイまたはバー・オブ・パイチャートで、どのデータポイントが第2の円またはバーに属するかを決定するために使用される値を指定します。 |
-| [getPieSplitBy()](#getPieSplitBy--) | パイ・オブ・パイまたはバー・オブ・パイチャートで、どのデータポイントが第2の円またはバーに属するかを決定する方法を指定します。 |
-| [setPieSplitBy(int value)](#setPieSplitBy-int-) | パイ・オブ・パイまたはバー・オブ・パイチャートで、どのデータポイントが第2の円またはバーに属するかを決定する方法を指定します。 |
-| [getPieSplitCustomPoints()](#getPieSplitCustomPoints--) | カスタム分割を持つパイ・オブ・パイまたはバー・オブ・パイチャートのカスタム分割情報です。 |
-| [getDoughnutHoleSize()](#getDoughnutHoleSize--) | ドーナツチャートの穴のサイズを指定します（プロット領域のサイズの 10% から 90%）。 |
-| [setDoughnutHoleSize(byte value)](#setDoughnutHoleSize-byte-) | ドーナツチャートの穴のサイズを指定します（プロット領域のサイズの 10% から 90%）。 |
-| [getBubbleSizeScale()](#getBubbleSizeScale--) | バブルチャートのスケール係数を指定します（デフォルトサイズの 0% から 300%）。 |
-| [setBubbleSizeScale(int value)](#setBubbleSizeScale-int-) | バブルチャートのスケール係数を指定します（デフォルトサイズの 0% から 300%）。 |
-| [getHiLowLinesFormat()](#getHiLowLinesFormat--) | HiLowLines の形式を指定します。 |
-| [getBubbleSizeRepresentation()](#getBubbleSizeRepresentation--) | バブルチャートでバブルサイズの値がどのように表現されるかを指定します。 |
-| [setBubbleSizeRepresentation(int value)](#setBubbleSizeRepresentation-int-) | バブルチャートでバブルサイズの値がどのように表現されるかを指定します。 |
+| [get_Item(int index)](#get-Item-int-) | 指定したインデックスの要素を取得します。 |
+| [getUpDownBars()](#getUpDownBars--) | Line または Stock チャートの上下バーへのアクセスを提供します。 |
+| [getGapWidth()](#getGapWidth--) | バーまたは列クラスター間の間隔を取得または設定します。間隔はバーまたは列の幅のパーセンテージで指定します。 |
+| [setGapWidth(int value)](#setGapWidth-int-) | バーまたは列クラスター間の間隔を取得または設定します。間隔はバーまたは列の幅のパーセンテージで指定します。 |
+| [getGapDepth()](#getGapDepth--) | 3D チャートにおけるデータシリーズ間の距離を取得または設定します。距離はマーカー幅のパーセンテージで指定します。 |
+| [setGapDepth(int value)](#setGapDepth-int-) | 3D チャートにおけるデータシリーズ間の距離を取得または設定します。距離はマーカー幅のパーセンテージで指定します。 |
+| [getFirstSliceAngle()](#getFirstSliceAngle--) | 最初の円グラフまたはドーナツチャートのスライスの角度を度単位で取得または設定します（上から時計回り、0〜360 度）。 |
+| [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | 最初の円グラフまたはドーナツチャートのスライスの角度を度単位で取得または設定します（上から時計回り、0〜360 度）。 |
+| [isColorVaried()](#isColorVaried--) | シリーズ内の各データ マーカーが異なる色を持つことを指定します。 |
+| [setColorVaried(boolean value)](#setColorVaried-boolean-) | シリーズ内の各データ マーカーが異なる色を持つことを指定します。 |
+| [hasSeriesLines()](#hasSeriesLines--) | チャートにシリーズラインがある場合は true。 |
+| [setSeriesLines(boolean value)](#setSeriesLines-boolean-) | チャートにシリーズラインがある場合は true。 |
+| [getOverlap()](#getOverlap--) | 2D チャートでバーおよび列がどの程度重なるかをパーセンテージで指定します（-100%〜100%）。 |
+| [setOverlap(byte value)](#setOverlap-byte-) | 2D チャートでバーおよび列がどの程度重なるかをパーセンテージで指定します（-100%〜100%）。 |
+| [getSecondPieSize()](#getSecondPieSize--) | pie-of-pie チャートまたは bar-of-pie チャートの第2の円または棒のサイズを、最初の円のサイズのパーセンテージで指定します（5〜200% の範囲）。 |
+| [setSecondPieSize(int value)](#setSecondPieSize-int-) | pie-of-pie チャートまたは bar-of-pie チャートの第2の円または棒のサイズを、最初の円のサイズのパーセンテージで指定します（5〜200% の範囲）。 |
+| [getPieSplitPosition()](#getPieSplitPosition--) | pie-of-pie または bar-of-pie チャートで、どのデータポイントが第2の円または棒に属するかを決定するために使用される値を指定します。 |
+| [setPieSplitPosition(double value)](#setPieSplitPosition-double-) | pie-of-pie または bar-of-pie チャートで、どのデータポイントが第2の円または棒に属するかを決定するために使用される値を指定します。 |
+| [getPieSplitBy()](#getPieSplitBy--) | pie-of-pie または bar-of-pie チャートで、どのデータポイントが第2の円または棒に属するかを決定する方法を指定します。 |
+| [setPieSplitBy(int value)](#setPieSplitBy-int-) | pie-of-pie または bar-of-pie チャートで、どのデータポイントが第2の円または棒に属するかを決定する方法を指定します。 |
+| [getPieSplitCustomPoints()](#getPieSplitCustomPoints--) | カスタム分割を持つ pie-of-pie または bar-of-pie チャートのカスタム分割情報です。 |
+| [getDoughnutHoleSize()](#getDoughnutHoleSize--) | ドーナツチャートの穴のサイズを指定します（プロット領域のサイズの 10〜90%）。 |
+| [setDoughnutHoleSize(byte value)](#setDoughnutHoleSize-byte-) | ドーナツチャートの穴のサイズを指定します（プロット領域のサイズの 10〜90%）。 |
+| [getBubbleSizeScale()](#getBubbleSizeScale--) | バブルチャートのスケール係数を指定します（デフォルトサイズの 0〜300% の範囲）。 |
+| [setBubbleSizeScale(int value)](#setBubbleSizeScale-int-) | バブルチャートのスケール係数を指定します（デフォルトサイズの 0〜300% の範囲）。 |
+| [getHiLowLinesFormat()](#getHiLowLinesFormat--) | HiLowLines の書式を指定します。 |
+| [getBubbleSizeRepresentation()](#getBubbleSizeRepresentation--) | バブルチャート上でバブル サイズ値がどのように表現されるかを指定します。 |
+| [setBubbleSizeRepresentation(int value)](#setBubbleSizeRepresentation-int-) | バブルチャート上でバブル サイズ値がどのように表現されるかを指定します。 |
 
 ### getType() {#getType--}
 ```
 public abstract int getType()
 ```
 
-このシリーズグループの型を返します。読み取り専用 [CombinableSeriesTypesGroup](../../com.aspose.slides/combinableseriestypesgroup)。
+このシリーズ グループの型を返します。読み取り専用 [CombinableSeriesTypesGroup](../../com.aspose.slides/combinableseriestypesgroup)。
 
 **戻り値:**
 int
@@ -68,7 +67,7 @@ int
 public abstract boolean getPlotOnSecondAxis()
 ```
 
-このグループのシリーズが二次軸にプロットされるかどうかを示します。読み取り専用 boolean。
+このグループのシリーズが副軸にプロットされるかどうかを示します。読み取り専用 ブール値。
 
 **戻り値:**
 boolean
@@ -88,7 +87,7 @@ public abstract IChartSeriesReadonlyCollection getSeries()
 public abstract IChartSeries get_Item(int index)
 ```
 
-指定されたインデックスの要素を取得します。
+指定したインデックスの要素を取得します。
 
 **パラメーター:**
 | パラメーター | 型 | 説明 |
@@ -103,7 +102,7 @@ public abstract IChartSeries get_Item(int index)
 public abstract IUpDownBarsManager getUpDownBars()
 ```
 
-折れ線グラフまたはストックチャートの上/下バーへのアクセスを提供します。読み取り専用 [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager)。
+Line または Stock チャートの上下バーへのアクセスを提供します。読み取り専用 [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager)。
 
 **戻り値:**
 [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager)
@@ -113,7 +112,11 @@ public abstract IUpDownBarsManager getUpDownBars()
 public abstract int getGapWidth()
 ```
 
-バーまたは列クラスター間のスペースを、バーまたは列の幅のパーセンテージで指定します。読み書き int。
+バーまたは列クラスター間の間隔を取得または設定します。間隔はバーまたは列の幅のパーセンテージで指定します。値は 0 から 500 の間である必要があります。読み書き可能 int。
+
+--------------------
+
+このプロパティは、次のタイプのシリーズに適用されます: すべてのバーおよび列のサブタイプ、[ChartType.BarOfPie](../../com.aspose.slides/charttype\#BarOfPie)、[ChartType.PieOfPie](../../com.aspose.slides/charttype\#PieOfPie)、[ChartType.BoxAndWhisker](../../com.aspose.slides/charttype\#BoxAndWhisker)、[ChartType.Funnel](../../com.aspose.slides/charttype\#Funnel)、[ChartType.Histogram](../../com.aspose.slides/charttype\#Histogram)、[ChartType.Waterfall](../../com.aspose.slides/charttype\#Waterfall)。
 
 **戻り値:**
 int
@@ -123,7 +126,11 @@ int
 public abstract void setGapWidth(int value)
 ```
 
-バーまたは列クラスター間のスペースを、バーまたは列の幅のパーセンテージで指定します。読み書き int。
+バーまたは列クラスター間の間隔を取得または設定します。間隔はバーまたは列の幅のパーセンテージで指定します。値は 0 から 500 の間である必要があります。読み書き可能 int。
+
+--------------------
+
+このプロパティは、次のタイプのシリーズに適用されます: すべてのバーおよび列のサブタイプ、[ChartType.BarOfPie](../../com.aspose.slides/charttype\#BarOfPie)、[ChartType.PieOfPie](../../com.aspose.slides/charttype\#PieOfPie)、[ChartType.BoxAndWhisker](../../com.aspose.slides/charttype\#BoxAndWhisker)、[ChartType.Funnel](../../com.aspose.slides/charttype\#Funnel)、[ChartType.Histogram](../../com.aspose.slides/charttype\#Histogram)、[ChartType.Waterfall](../../com.aspose.slides/charttype\#Waterfall)。
 
 **パラメーター:**
 | パラメーター | 型 | 説明 |
@@ -135,7 +142,11 @@ public abstract void setGapWidth(int value)
 public abstract int getGapDepth()
 ```
 
-3D チャートのデータシリーズ間の距離を、マーカー幅のパーセンテージで返すまたは設定します。読み書き int。
+3D チャートにおけるデータシリーズ間の距離を取得または設定します。距離はマーカー幅のパーセンテージで指定します。値は 0 から 500 の間である必要があります。読み書き可能 int。
+
+--------------------
+
+このプロパティは、次のタイプのシリーズに適用されます: 3D バーおよび列のサブタイプ、[ChartType.Line3D](../../com.aspose.slides/charttype\#Line3D)、[ChartType.Area3D](../../com.aspose.slides/charttype\#Area3D)、[ChartType.StackedArea3D](../../com.aspose.slides/charttype\#StackedArea3D)、[ChartType.PercentsStackedArea3D](../../com.aspose.slides/charttype\#PercentsStackedArea3D)。
 
 **戻り値:**
 int
@@ -145,7 +156,11 @@ int
 public abstract void setGapDepth(int value)
 ```
 
-3D チャートのデータシリーズ間の距離を、マーカー幅のパーセンテージで返すまたは設定します。読み書き int。
+3D チャートにおけるデータシリーズ間の距離を取得または設定します。距離はマーカー幅のパーセンテージで指定します。値は 0 から 500 の間である必要があります。読み書き可能 int。
+
+--------------------
+
+このプロパティは、次のタイプのシリーズに適用されます: 3D バーおよび列のサブタイプ、[ChartType.Line3D](../../com.aspose.slides/charttype\#Line3D)、[ChartType.Area3D](../../com.aspose.slides/charttype\#Area3D)、[ChartType.StackedArea3D](../../com.aspose.slides/charttype\#StackedArea3D)、[ChartType.PercentsStackedArea3D](../../com.aspose.slides/charttype\#PercentsStackedArea3D)。
 
 **パラメーター:**
 | パラメーター | 型 | 説明 |
@@ -157,7 +172,7 @@ public abstract void setGapDepth(int value)
 public abstract int getFirstSliceAngle()
 ```
 
-最初の円グラフまたはドーナツチャートのスライスの角度を度単位で取得または設定します（上から時計回り、0 から 360 度）。読み書き int。
+最初の円グラフまたはドーナツチャートのスライスの角度を度単位で取得または設定します（上から時計回り、0〜360 度）。読み書き可能 int。
 
 **戻り値:**
 int
@@ -167,7 +182,7 @@ int
 public abstract void setFirstSliceAngle(int value)
 ```
 
-最初の円グラフまたはドーナツチャートのスライスの角度を度単位で取得または設定します（上から時計回り、0 から 360 度）。読み書き int。
+最初の円グラフまたはドーナツチャートのスライスの角度を度単位で取得または設定します（上から時計回り、0〜360 度）。読み書き可能 int。
 
 **パラメーター:**
 | パラメーター | 型 | 説明 |
@@ -179,7 +194,7 @@ public abstract void setFirstSliceAngle(int value)
 public abstract boolean isColorVaried()
 ```
 
-シリーズ内の各データマーカーが異なる色を持つことを指定します。読み書き boolean。
+シリーズ内の各データ マーカーが異なる色を持つことを指定します。読み書き可能 ブール値。
 
 **戻り値:**
 boolean
@@ -189,7 +204,7 @@ boolean
 public abstract void setColorVaried(boolean value)
 ```
 
-シリーズ内の各データマーカーが異なる色を持つことを指定します。読み書き boolean。
+シリーズ内の各データ マーカーが異なる色を持つことを指定します。読み書き可能 ブール値。
 
 **パラメーター:**
 | パラメーター | 型 | 説明 |
@@ -201,7 +216,7 @@ public abstract void setColorVaried(boolean value)
 public abstract boolean hasSeriesLines()
 ```
 
-チャートに系列線がある場合は true。スタックドバーおよび OfPie チャートに適用されます。読み書き boolean。
+チャートにシリーズラインがある場合は true。スタック化バーおよび OfPie チャートに適用されます。読み書き可能 ブール値。
 
 **戻り値:**
 boolean
@@ -211,7 +226,7 @@ boolean
 public abstract void setSeriesLines(boolean value)
 ```
 
-チャートに系列線がある場合は true。スタックドバーおよび OfPie チャートに適用されます。読み書き boolean。
+チャートにシリーズラインがある場合は true。スタック化バーおよび OfPie チャートに適用されます。読み書き可能 ブール値。
 
 **パラメーター:**
 | パラメーター | 型 | 説明 |
@@ -223,7 +238,7 @@ public abstract void setSeriesLines(boolean value)
 public abstract byte getOverlap()
 ```
 
-2D チャートでバーと列がどれだけ重なるかを、パーセンテージ（-100% から 100%）で指定します。-100%: 最大間隔（バーは完全に分離）。0%: 重なりや間隔なしで隣接配置。100%: 最大重なり（バーは完全に重なる）。このプロパティは読み書き byte。
+2D チャートでバーおよび列がどの程度重なるかをパーセンテージで指定します（-100%〜100%）。- -100%: 最大間隔（バーは完全に分離）。- 0%: 重なりや間隔なしで隣り合って配置。- 100%: 最大重なり（バーは互いに完全に重なる）。このプロパティは読み書き可能バイト。
 
 --------------------
 
@@ -235,12 +250,13 @@ public abstract byte getOverlap()
 >  try {
 >      IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);
 >      IChartSeriesCollection series = chart.getChartData().getSeries();
->      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // 重なりを55%に設定
+>      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // オーバーラップを55%に設定
 >      pres.getSlides().get_Item(0).getImage(1, 1).save("chart.png");
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
 > ```
+
 
 **戻り値:**
 byte
@@ -250,7 +266,7 @@ byte
 public abstract void setOverlap(byte value)
 ```
 
-2D チャートでバーと列がどれだけ重なるかを、パーセンテージ（-100% から 100%）で指定します。-100%: 最大間隔（バーは完全に分離）。0%: 重なりや間隔なしで隣接配置。100%: 最大重なり（バーは完全に重なる）。このプロパティは読み書き byte。
+2D チャートでバーおよび列がどの程度重なるかをパーセンテージで指定します（-100%〜100%）。- -100%: 最大間隔（バーは完全に分離）。- 0%: 重なりや間隔なしで隣り合って配置。- 100%: 最大重なり（バーは互いに完全に重なる）。このプロパティは読み書き可能バイト。
 
 --------------------
 
@@ -262,7 +278,7 @@ public abstract void setOverlap(byte value)
 >  try {
 >      IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);
 >      IChartSeriesCollection series = chart.getChartData().getSeries();
->      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // 重なりを55%に設定
+>      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // オーバーラップを55%に設定
 >      pres.getSlides().get_Item(0).getImage(1, 1).save("chart.png", ImageFormat.Png);
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -280,7 +296,7 @@ public abstract void setOverlap(byte value)
 public abstract int getSecondPieSize()
 ```
 
-パイ・オブ・パイチャートまたはバー・オブ・パイチャートの第2の円またはバーのサイズを、最初の円のサイズのパーセンテージで指定します（5 から 200%）。読み書き int。
+pie-of-pie チャートまたは bar-of-pie チャートの第2の円または棒のサイズを、最初の円のサイズのパーセンテージで指定します（5〜200% の範囲）。読み書き可能 int。
 
 **戻り値:**
 int
@@ -290,7 +306,7 @@ int
 public abstract void setSecondPieSize(int value)
 ```
 
-パイ・オブ・パイチャートまたはバー・オブ・パイチャートの第2の円またはバーのサイズを、最初の円のサイズのパーセンテージで指定します（5 から 200%）。読み書き int。
+pie-of-pie チャートまたは bar-of-pie チャートの第2の円または棒のサイズを、最初の円のサイズのパーセンテージで指定します（5〜200% の範囲）。読み書き可能 int。
 
 **パラメーター:**
 | パラメーター | 型 | 説明 |
@@ -302,7 +318,7 @@ public abstract void setSecondPieSize(int value)
 public abstract double getPieSplitPosition()
 ```
 
-パイ・オブ・パイまたはバー・オブ・パイチャートで、どのデータポイントが第2の円またはバーに属するかを決定するために使用される値を指定します。PieSplitBy プロパティと併用します。読み書き double。
+pie-of-pie または bar-of-pie チャートで、どのデータポイントが第2の円または棒に属するかを決定するために使用される値を指定します。PieSplitBy プロパティと併用します。読み書き可能 double。
 
 **戻り値:**
 double
@@ -312,7 +328,7 @@ double
 public abstract void setPieSplitPosition(double value)
 ```
 
-パイ・オブ・パイまたはバー・オブ・パイチャートで、どのデータポイントが第2の円またはバーに属するかを決定するために使用される値を指定します。PieSplitBy プロパティと併用します。読み書き double。
+pie-of-pie または bar-of-pie チャートで、どのデータポイントが第2の円または棒に属するかを決定するために使用される値を指定します。PieSplitBy プロパティと併用します。読み書き可能 double。
 
 **パラメーター:**
 | パラメーター | 型 | 説明 |
@@ -324,7 +340,7 @@ public abstract void setPieSplitPosition(double value)
 public abstract int getPieSplitBy()
 ```
 
-パイ・オブ・パイまたはバー・オブ・パイチャートで、どのデータポイントが第2の円またはバーに属するかを決定する方法を指定します。読み書き [PieSplitType](../../com.aspose.slides/piesplittype)。
+pie-of-pie または bar-of-pie チャートで、どのデータポイントが第2の円または棒に属するかを決定する方法を指定します。読み書き可能 [PieSplitType](../../com.aspose.slides/piesplittype)。
 
 **戻り値:**
 int
@@ -334,7 +350,7 @@ int
 public abstract void setPieSplitBy(int value)
 ```
 
-パイ・オブ・パイまたはバー・オブ・パイチャートで、どのデータポイントが第2の円またはバーに属するかを決定する方法を指定します。読み書き [PieSplitType](../../com.aspose.slides/piesplittype)。
+pie-of-pie または bar-of-pie チャートで、どのデータポイントが第2の円または棒に属するかを決定する方法を指定します。読み書き可能 [PieSplitType](../../com.aspose.slides/piesplittype)。
 
 **パラメーター:**
 | パラメーター | 型 | 説明 |
@@ -346,7 +362,7 @@ public abstract void setPieSplitBy(int value)
 public abstract IPieSplitCustomPointCollection getPieSplitCustomPoints()
 ```
 
-カスタム分割を持つパイ・オブ・パイまたはバー・オブ・パイチャートのカスタム分割情報です。第2の円またはバーに描画されるデータポイントを含みます。読み取り専用 [IPieSplitCustomPointCollection](../../com.aspose.slides/ipiesplitcustompointcollection)。
+カスタム分割を持つ pie-of-pie または bar-of-pie チャートのカスタム分割情報です。第2の円または棒に描画されるデータポイントを含みます。読み取り専用 [IPieSplitCustomPointCollection](../../com.aspose.slides/ipiesplitcustompointcollection)。
 
 **戻り値:**
 [IPieSplitCustomPointCollection](../../com.aspose.slides/ipiesplitcustompointcollection)
@@ -356,7 +372,7 @@ public abstract IPieSplitCustomPointCollection getPieSplitCustomPoints()
 public abstract byte getDoughnutHoleSize()
 ```
 
-ドーナツチャートの穴のサイズを指定します（プロット領域のサイズの 10% から 90%）。読み書き byte。
+ドーナツチャートの穴のサイズを指定します（プロット領域のサイズの 10〜90%）。読み書き可能 byte。
 
 **戻り値:**
 byte
@@ -366,7 +382,7 @@ byte
 public abstract void setDoughnutHoleSize(byte value)
 ```
 
-ドーナツチャートの穴のサイズを指定します（プロット領域のサイズの 10% から 90%）。読み書き byte。
+ドーナツチャートの穴のサイズを指定します（プロット領域のサイズの 10〜90%）。読み書き可能 byte。
 
 **パラメーター:**
 | パラメーター | 型 | 説明 |
@@ -378,7 +394,7 @@ public abstract void setDoughnutHoleSize(byte value)
 public abstract int getBubbleSizeScale()
 ```
 
-バブルチャートのスケール係数を指定します（デフォルトサイズの 0% から 300%）。読み書き int。
+バブルチャートのスケール係数を指定します（デフォルトサイズの 0〜300% の範囲）。読み書き可能 int。
 
 **戻り値:**
 int
@@ -388,7 +404,7 @@ int
 public abstract void setBubbleSizeScale(int value)
 ```
 
-バブルチャートのスケール係数を指定します（デフォルトサイズの 0% から 300%）。読み書き int。
+バブルチャートのスケール係数を指定します（デフォルトサイズの 0〜300% の範囲）。読み書き可能 int。
 
 **パラメーター:**
 | パラメーター | 型 | 説明 |
@@ -400,7 +416,7 @@ public abstract void setBubbleSizeScale(int value)
 public abstract IChartLinesFormat getHiLowLinesFormat()
 ```
 
-HiLowLines の形式を指定します。HiLowLines は HiLowClose、OpenHiLowClose、VolumeHiLowClose、VolumeOpenHiLowClose チャートタイプで適用されます。
+HiLowLines の書式を指定します。HiLowLines は HiLowClose、OpenHiLowClose、VolumeHiLowClose、VolumeOpenHiLowClose チャートタイプで適用されます。
 
 **戻り値:**
 [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat)
@@ -410,7 +426,7 @@ HiLowLines の形式を指定します。HiLowLines は HiLowClose、OpenHiLowCl
 public abstract int getBubbleSizeRepresentation()
 ```
 
-バブルチャートでバブルサイズの値がどのように表現されるかを指定します。読み書き [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype)。
+バブルチャート上でバブル サイズ値がどのように表現されるかを指定します。読み書き可能 [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype)。
 
 **戻り値:**
 int
@@ -420,7 +436,7 @@ int
 public abstract void setBubbleSizeRepresentation(int value)
 ```
 
-バブルチャートでバブルサイズの値がどのように表現されるかを指定します。読み書き [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype)。
+バブルチャート上でバブル サイズ値がどのように表現されるかを指定します。読み書き可能 [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype)。
 
 **パラメーター:**
 | パラメーター | 型 | 説明 |

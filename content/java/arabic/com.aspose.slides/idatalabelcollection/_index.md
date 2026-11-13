@@ -1,43 +1,45 @@
 ---
 title: IDataLabelCollection
-second_title: Aspose.Slides لمرجع API جافا
+second_title: مرجع API لـ Aspose.Slides للغة Java
 description: يمثل تسميات السلسلة.
 type: docs
 url: /ar/com.aspose.slides/idatalabelcollection/
 ---
-**جميع الواجهات المُنفذة:**
+**جميع الواجهات المنفذة:**
 com.aspose.ms.System.Collections.Generic.IGenericEnumerable, [com.aspose.slides.IChartComponent](../../com.aspose.slides/ichartcomponent)
 ```
 public interface IDataLabelCollection extends System.Collections.Generic.IGenericEnumerable<IDataLabel>, IChartComponent
 ```
 
-يمثل تسميات السلسلة.
+يمثل التسميات الخاصة بالسلسلة.
 ## الطرق
 
 | الطريقة | الوصف |
 | --- | --- |
-| [get_Item(int index)](#get-Item-int-) | يحصل على تسمية البيانات للنقطة ذات الفهرس المحدد. |
-| [getDefaultDataLabelFormat()](#getDefaultDataLabelFormat--) | يرجع التنسيق الافتراضي لجميع تسميات البيانات في المجموعة. |
-| [getLeaderLinesFormat()](#getLeaderLinesFormat--) | يمثل تنسيق خطوط القائد لتسميات البيانات. |
-| [isVisible()](#isVisible--) | False يعني أن تسمية البيانات غير مرئية افتراضياً (وبالتالي جميع علمات Show*-flags (ShowValue, ...) لخاصية DefaultDataLabelFormat هي false). |
-| [hide()](#hide--) | اجعل تسمية البيانات مخفية افتراضياً عن طريق ضبط جميع علمات Show*-flags (ShowValue, ...) لخاصية DefaultDataLabelFormat إلى الحالة false. |
-| [getCountOfVisibleDataLabels()](#getCountOfVisibleDataLabels--) | يحصل على عدد تسميات البيانات المرئية في المجموعة. |
-| [getCount()](#getCount--) | يحصل على عدد جميع تسميات البيانات في المجموعة. |
-| [getParentSeries()](#getParentSeries--) | يرجع السلسلة الأصلية للمخطط. |
-| [indexOf(IDataLabel value)](#indexOf-com.aspose.slides.IDataLabel-) | يرجع فهرس DataLabel المحدد في المجموعة. |
+| [get_Item(int index)](#get-Item-int-) | يجلب ملصق البيانات للنقطة ذات الفهرس المحدد. |
+| [getDefaultDataLabelFormat()](#getDefaultDataLabelFormat--) | يعيد التنسيق الافتراضي لجميع ملصقات البيانات في المجموعة. |
+| [getLeaderLinesFormat()](#getLeaderLinesFormat--) | يمثل تنسيق خطوط القائد لملصقات البيانات. |
+| [isVisible()](#isVisible--) | False يعني أن ملصق البيانات غير مرئي بشكل افتراضي (وبالتالي تكون جميع أعلام Show* (ShowValue, ...) الخاصة بخ属性 DefaultDataLabelFormat غير مفعلة). |
+| [hide()](#hide--) | اجعل ملصق البيانات مخفيًا بشكل افتراضي عن طريق ضبط جميع أعلام Show* (ShowValue, ...) للخاصية DefaultDataLabelFormat على الحالة غير المفعلة. |
+| [getCountOfVisibleDataLabels()](#getCountOfVisibleDataLabels--) | يجلب عدد ملصقات البيانات المرئية في المجموعة. |
+| [getCount()](#getCount--) | يجلب عدد جميع ملصقات البيانات في المجموعة. |
+| [getParentSeries()](#getParentSeries--) | يعيد سلسلة الرسم البياني الأصلية. |
+| [indexOf(IDataLabel value)](#indexOf-com.aspose.slides.IDataLabel-) | يعيد فهرس DataLabel المحدد في المجموعة. |
+| [getDefaultLabelShapeType()](#getDefaultLabelShapeType--) | يجلب أو يعيّن نوع الشكل الافتراضي لملصقات البيانات. |
+| [setDefaultLabelShapeType(int value)](#setDefaultLabelShapeType-int-) | يجلب أو يعيّن نوع الشكل الافتراضي لملصقات البيانات. |
 ### get_Item(int index) {#get-Item-int-}
 ```
 public abstract IDataLabel get_Item(int index)
 ```
 
-يحصل على تسمية البيانات للنقطة ذات الفهرس المحدد.
+يجلب ملصق البيانات للنقطة ذات الفهرس المحدد.
 
 --------------------
 
-طريقة بديلة للوصول إلى تسمية البيانات هي: - getSeries().getDataPoints().get_Item(i).getLabel() - إدارة خصائص التسمية.
+طريقة بديلة للوصول إلى ملصق البيانات هي: - getSeries().getDataPoints().get_Item(i).getLabel() - إدارة خصائص الملصق.
 
-**الوسائط:**
-| المعامل | النوع | الوصف |
+**المعلمات:**
+| المعلمة | النوع | الوصف |
 | --- | --- | --- |
 | index | int |  |
 
@@ -48,7 +50,7 @@ public abstract IDataLabel get_Item(int index)
 public abstract IDataLabelFormat getDefaultDataLabelFormat()
 ```
 
-يرجع التنسيق الافتراضي لجميع تسميات البيانات في المجموعة. للقراءة فقط [IDataLabelFormat](../../com.aspose.slides/idatalabelformat).
+يعيد التنسيق الافتراضي لجميع ملصقات البيانات في المجموعة. للقراءة فقط [IDataLabelFormat](../../com.aspose.slides/idatalabelformat).
 
 **الإرجاع:**
 [IDataLabelFormat](../../com.aspose.slides/idatalabelformat)
@@ -57,9 +59,7 @@ public abstract IDataLabelFormat getDefaultDataLabelFormat()
 public abstract IChartLinesFormat getLeaderLinesFormat()
 ```
 
-يمثل تنسيق خطوط القائد لتسميات البيانات. للقراءة فقط [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat).
-
---------------------
+يمثل تنسيق خطوط القائد لملصقات البيانات. للقراءة فقط [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat).
 
 > ```
 > Example:
@@ -83,11 +83,9 @@ public abstract IChartLinesFormat getLeaderLinesFormat()
 public abstract boolean isVisible()
 ```
 
-False يعني أن تسمية البيانات غير مرئية افتراضياً (وبالتالي جميع علمات Show*-flags (ShowValue, ...) لخاصية DefaultDataLabelFormat هي false). للقراءة فقط boolean .
+False يعني أن ملصق البيانات غير مرئي بشكل افتراضي (وبالتالي تكون جميع أعلام Show* (ShowValue, ...) الخاصة بخ属性 DefaultDataLabelFormat غير مفعلة). للقراءة فقط boolean .
 
---------------------
-
-إذا كانت تسمية البيانات مرئية افتراضياً يمكنك إخفاؤها افتراضياً باستخدام طريقة Hide(). ولكن إذا كانت تسمية البيانات غير مرئية افتراضياً (IsVisible هو false) يمكنك جعلها "مرئية افتراضياً" عن طريق ضبط علمات Show*-flags (ShowValue, ...) لخاصية DefaultDataLabelFormat إلى الحالة true.
+إذا كان ملصق البيانات مرئيًا بشكل افتراضي يمكنك إخفاؤه باستخدام طريقة Hide(). ولكن إذا كان ملصق البيانات غير مرئي بشكل افتراضي (IsVisible هو false) يمكنك جعله "مرئيًا بشكل افتراضي" بضبط أعلام Show* (ShowValue, ...) للخاصية DefaultDataLabelFormat على الحالة المفعلة.
 
 **الإرجاع:**
 boolean
@@ -96,17 +94,16 @@ boolean
 public abstract void hide()
 ```
 
-اجعل تسمية البيانات مخفية افتراضياً عن طريق ضبط جميع علمات Show*-flags (ShowValue, ...) لخاصية DefaultDataLabelFormat إلى الحالة false. سيكون IsVisible يساوي false بعد ذلك.
+اجعل ملصق البيانات مخفيًا بشكل افتراضي عن طريق ضبط جميع أعلام Show* (ShowValue, ...) للخاصية DefaultDataLabelFormat على الحالة غير المفعلة. سيكون IsVisible هو false بعد ذلك.
 
---------------------
+إذا كان ملصق البيانات غير مرئي بشكل افتراضي (IsVisible هو false) يمكنك جعله "مرئيًا بشكل افتراضي" بضبط أعلام Show* (ShowValue, ...) للخاصية DefaultDataLabelFormat على الحالة المفعلة.
 
-إذا كانت تسمية البيانات غير مرئية افتراضياً (IsVisible هو false) يمكنك جعلها "مرئية افتراضياً" عن طريق ضبط علمات Show*-flags (ShowValue, ...) لخاصية DefaultDataLabelFormat إلى الحالة true.
 ### getCountOfVisibleDataLabels() {#getCountOfVisibleDataLabels--}
 ```
 public abstract int getCountOfVisibleDataLabels()
 ```
 
-يحصل على عدد تسميات البيانات المرئية في المجموعة. للقراءة فقط int .
+يحصل على عدد ملصقات البيانات المرئية في المجموعة. للقراءة فقط int .
 
 **الإرجاع:**
 int
@@ -115,7 +112,7 @@ int
 public abstract int getCount()
 ```
 
-يحصل على عدد جميع تسميات البيانات في المجموعة. للقراءة فقط int .
+يحصل على عدد جميع ملصقات البيانات في المجموعة. للقراءة فقط int .
 
 **الإرجاع:**
 int
@@ -124,7 +121,7 @@ int
 public abstract IChartSeries getParentSeries()
 ```
 
-يرجع السلسلة الأصلية للمخطط. للقراءة فقط [IChartSeries](../../com.aspose.slides/ichartseries).
+يعيد سلسلة الرسم البياني الأصلية. للقراءة فقط [IChartSeries](../../com.aspose.slides/ichartseries).
 
 **الإرجاع:**
 [IChartSeries](../../com.aspose.slides/ichartseries)
@@ -133,12 +130,62 @@ public abstract IChartSeries getParentSeries()
 public abstract int indexOf(IDataLabel value)
 ```
 
-يرجع فهرس DataLabel المحدد في المجموعة.
+يعيد فهرس DataLabel المحدد في المجموعة.
 
-**الوسائط:**
-| المعامل | النوع | الوصف |
+**المعلمات:**
+| المعلمة | النوع | الوصف |
 | --- | --- | --- |
-| value | [IDataLabel](../../com.aspose.slides/idatalabel) | DataLabel للبحث عنه. |
+| value | [IDataLabel](../../com.aspose.slides/idatalabel) | DataLabel للبحث عنها. |
 
 **الإرجاع:**
 int - فهرس DataLabel أو -1 إذا لم يكن DataLabel من هذه المجموعة.
+### getDefaultLabelShapeType() {#getDefaultLabelShapeType--}
+```
+public abstract int getDefaultLabelShapeType()
+```
+
+يجلب أو يعيّن نوع الشكل الافتراضي لملصقات البيانات. يعيد [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) إذا لم يتم تعريف شكل.
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // ضبط نوع الشكل لجميع ملصقات البيانات في السلسلة الأولى إلى Ellipse.
+>      firstSeries.getLabels().setDefaultLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabels.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+ضبط هذه الخاصية يضبط أيضًا الخاصية IDataLabel.LabelShapeType ([IDataLabel.getLabelShapeType](../../com.aspose.slides/idatalabel\#getLabelShapeType)/[IDataLabel.setLabelShapeType(int)](../../com.aspose.slides/idatalabel\#setLabelShapeType-int-)) لجميع ملصقات البيانات في المجموعة إلى نفس القيمة.
+
+**الإرجاع:**
+int
+### setDefaultLabelShapeType(int value) {#setDefaultLabelShapeType-int-}
+```
+public abstract void setDefaultLabelShapeType(int value)
+```
+
+يجلب أو يعيّن نوع الشكل الافتراضي لملصقات البيانات. يعيد [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) إذا لم يتم تعريف شكل.
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // ضبط نوع الشكل لجميع ملصقات البيانات في السلسلة الأولى إلى Ellipse.
+>      firstSeries.getLabels().setDefaultLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabels.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+ضبط هذه الخاصية يضبط أيضًا الخاصية IDataLabel.LabelShapeType ([IDataLabel.getLabelShapeType](../../com.aspose.slides/idatalabel\#getLabelShapeType)/[IDataLabel.setLabelShapeType(int)](../../com.aspose.slides/idatalabel\#setLabelShapeType-int-)) لجميع ملصقات البيانات في المجموعة إلى نفس القيمة.
+
+**المعلمات:**
+| المعلمة | النوع | الوصف |
+| --- | --- | --- |
+| value | int |  |

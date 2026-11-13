@@ -1,67 +1,65 @@
 ---
 title: IDataLabelCollection
 second_title: مرجع API Aspose.Slides برای جاوا
-description: نمایانگر برچسب‌های یک سری است.
+description: نمایانگر برچسب‌های سری.
 type: docs
 url: /fa/com.aspose.slides/idatalabelcollection/
 ---
-**همه‌ٔ رابط‌های پیاده‌سازی شده:**  
+**تمام رابط‌های پیاده‌سازی شده:**  
 com.aspose.ms.System.Collections.Generic.IGenericEnumerable, [com.aspose.slides.IChartComponent](../../com.aspose.slides/ichartcomponent)
 ```
 public interface IDataLabelCollection extends System.Collections.Generic.IGenericEnumerable<IDataLabel>, IChartComponent
 ```
 
-برچسب‌های یک سری را نشان می‌دهد.
-
-## روش‌ها
+نمایش برچسب‌های یک سری.
+## متدها
 
 | متد | توضیح |
 | --- | --- |
-| [get_Item(int index)](#get-Item-int-) | برچسب داده را برای نقطه داده با شاخص مشخص شده دریافت می‌کند. |
-| [getDefaultDataLabelFormat()](#getDefaultDataLabelFormat--) | قالب پیش‌فرض تمام برچسب‌های داده در مجموعه را بازمی‌گرداند. |
-| [getLeaderLinesFormat()](#getLeaderLinesFormat--) | قالب خطوط راهنمای برچسب‌های داده را نشان می‌دهد. |
-| [isVisible()](#isVisible--) | False به این معنی است که برچسب داده به‌صورت پیش‌فرض قابل مشاهده نیست (و بنابراین تمام پرچم‌های Show* (ShowValue, ...) از ویژگی DefaultDataLabelFormat برابر false هستند). |
-| [hide()](#hide--) | برچسب داده را به‌صورت پیش‌فرض مخفی کنید با تنظیم تمام پرچم‌های Show* (ShowValue, ...) از ویژگی DefaultDataLabelFormat به حالت false. |
+| [get_Item(int index)](#get-Item-int-) | برچسب داده را برای نقطه داده با شاخص مشخص دریافت می‌کند. |
+| [getDefaultDataLabelFormat()](#getDefaultDataLabelFormat--) | قالب پیش‌فرض تمام برچسب‌های داده در مجموعه را برمی‌گرداند. |
+| [getLeaderLinesFormat()](#getLeaderLinesFormat--) | نمایش قالب خطوط رهبری برچسب‌های داده. |
+| [isVisible()](#isVisible--) | مقدار False به این معنی است که برچسب داده به‌صورت پیش‌فرض قابل مشاهده نیست (و بنابراین همه پرچم‌های Show* (ShowValue, ...) ویژگی DefaultDataLabelFormat برابر false هستند). |
+| [hide()](#hide--) | برچسب داده را به‌صورت پیش‌فرض مخفی می‌کند با تنظیم همه پرچم‌های Show* (ShowValue, ...) ویژگی DefaultDataLabelFormat به حالت false. |
 | [getCountOfVisibleDataLabels()](#getCountOfVisibleDataLabels--) | تعداد برچسب‌های داده قابل مشاهده در مجموعه را دریافت می‌کند. |
-| [getCount()](#getCount--) | تعداد کلی برچسب‌های داده در مجموعه را دریافت می‌کند. |
-| [getParentSeries()](#getParentSeries--) | سری نمودار والد را بازمی‌گرداند. |
-| [indexOf(IDataLabel value)](#indexOf-com.aspose.slides.IDataLabel-) | شاخص برچسب دادهٔ مشخص شده در مجموعه را بازمی‌گرداند. |
-
+| [getCount()](#getCount--) | تعداد تمام برچسب‌های داده در مجموعه را دریافت می‌کند. |
+| [getParentSeries()](#getParentSeries--) | سری نمودار والد را برمی‌گرداند. |
+| [indexOf(IDataLabel value)](#indexOf-com.aspose.slides.IDataLabel-) | شاخص DataLabel مشخص شده در مجموعه را برمی‌گرداند. |
+| [getDefaultLabelShapeType()](#getDefaultLabelShapeType--) | نوع شکل پیش‌فرض برای برچسب‌های داده را دریافت یا تنظیم می‌کند. |
+| [setDefaultLabelShapeType(int value)](#setDefaultLabelShapeType-int-) | نوع شکل پیش‌فرض برای برچسب‌های داده را دریافت یا تنظیم می‌کند. |
 ### get_Item(int index) {#get-Item-int-}
 ```
 public abstract IDataLabel get_Item(int index)
 ```
 
-برچسب داده را برای نقطه داده با شاخص مشخص شده دریافت می‌کند.
+برچسب داده را برای نقطه داده با شاخص مشخص دریافت می‌کند.
 
 --------------------
 
-یک روش جایگزین برای دسترسی به برچسب داده این است: - getSeries().getDataPoints().get_Item(i).getLabel() - مدیریت ویژگی‌های برچسب.
+روش جایگزین برای دسترسی به برچسب داده به صورت زیر است: - getSeries().getDataPoints().get_Item(i).getLabel() - مدیریت ویژگی‌های برچسب.
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | index | int |  |
 
-**بازمی‌گرداند:**
+**بازگشت:**
 [IDataLabel](../../com.aspose.slides/idatalabel)
-
 ### getDefaultDataLabelFormat() {#getDefaultDataLabelFormat--}
 ```
 public abstract IDataLabelFormat getDefaultDataLabelFormat()
 ```
 
-قالب پیش‌فرض تمام برچسب‌های داده در مجموعه را بازمی‌گرداند. فقط-خواندنی [IDataLabelFormat](../../com.aspose.slides/idatalabelformat).
+قالب پیش‌فرض تمام برچسب‌های داده در مجموعه را برمی‌گرداند. فقط-خواندنی [IDataLabelFormat](../../com.aspose.slides/idatalabelformat).
 
-**بازمی‌گرداند:**
+**بازگشت:**
 [IDataLabelFormat](../../com.aspose.slides/idatalabelformat)
-
 ### getLeaderLinesFormat() {#getLeaderLinesFormat--}
 ```
 public abstract IChartLinesFormat getLeaderLinesFormat()
 ```
 
-قالب خطوط راهنمای برچسب‌های داده را نشان می‌دهد. فقط-خواندنی [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat).
+نمایش قالب خطوط رهبری برچسب‌های داده. فقط-خواندنی [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat).
 
 --------------------
 
@@ -80,34 +78,31 @@ public abstract IChartLinesFormat getLeaderLinesFormat()
 >  }
 > ```
 
-
-**بازمی‌گرداند:**
+**بازگشت:**
 [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat)
-
 ### isVisible() {#isVisible--}
 ```
 public abstract boolean isVisible()
 ```
 
-False به این معنی است که برچسب داده به‌صورت پیش‌فرض قابل مشاهده نیست (و بنابراین تمام پرچم‌های Show* (ShowValue, ...) از ویژگی DefaultDataLabelFormat برابر false هستند). فقط-خواندنی  boolean .
+مقدار False به این معناست که برچسب داده به‌صورت پیش‌فرض قابل مشاهده نیست (و بنابراین همه پرچم‌های Show* (ShowValue, ...) ویژگی DefaultDataLabelFormat برابر false هستند). فقط-خواندنی  boolean .
 
 --------------------
 
-اگر برچسب داده به‌صورت پیش‌فرض قابل مشاهده باشد، می‌توانید آن را به‌صورت پیش‌فرض مخفی کنید با متد Hide(). اما اگر برچسب داده به‌صورت پیش‌فرض قابل مشاهده نباشد (IsVisible برابر false است) می‌توانید برچسب داده را «قابل مشاهده به‌صورت پیش‌فرض» کنید با تنظیم پرچم‌های Show* (ShowValue, ...) از ویژگی DefaultDataLabelFormat به حالت true.
+اگر برچسب داده به‌صورت پیش‌فرض قابل مشاهده باشد می‌توانید آن را با متد Hide() به‌صورت پیش‌فرض مخفی کنید. اما اگر برچسب داده به‌صورت پیش‌فرض قابل مشاهده نیست (IsVisible برابر false) می‌توانید با تنظیم پرچم‌های Show* (ShowValue, ...) ویژگی DefaultDataLabelFormat به حالت true، برچسب را "قابل مشاهده به‌صورت پیش‌فرض" کنید.
 
-**بازمی‌گرداند:**
+**بازگشت:**
 boolean
-
 ### hide() {#hide--}
 ```
 public abstract void hide()
 ```
 
-برچسب داده را به‌صورت پیش‌فرض مخفی کنید با تنظیم تمام پرچم‌های Show* (ShowValue, ...) از ویژگی DefaultDataLabelFormat به حالت false. پس از این IsVisible برابر false خواهد شد.
+برچسب داده را به‌صورت پیش‌فرض مخفی می‌کند با تنظیم همه پرچم‌های Show* (ShowValue, ...) ویژگی DefaultDataLabelFormat به حالت false. پس از این IsVisible برابر false خواهد بود.
 
 --------------------
 
-اگر برچسب داده به‌صورت پیش‌فرض قابل مشاهده نباشد (IsVisible برابر false است) می‌توانید برچسب داده را «قابل مشاهده به‌صورت پیش‌فرض» کنید با تنظیم پرچم‌های Show* (ShowValue, ...) از ویژگی DefaultDataLabelFormat به حالت true.
+اگر برچسب داده به‌صورت پیش‌فرض قابل مشاهده نیست (IsVisible برابر false) می‌توانید با تنظیم پرچم‌های Show* (ShowValue, ...) ویژگی DefaultDataLabelFormat به حالت true، برچسب را "قابل مشاهده به‌صورت پیش‌فرض" کنید.
 
 ### getCountOfVisibleDataLabels() {#getCountOfVisibleDataLabels--}
 ```
@@ -116,40 +111,95 @@ public abstract int getCountOfVisibleDataLabels()
 
 تعداد برچسب‌های داده قابل مشاهده در مجموعه را دریافت می‌کند. فقط-خواندنی  int .
 
-**بازمی‌گرداند:**
+**بازگشت:**
 int
-
 ### getCount() {#getCount--}
 ```
 public abstract int getCount()
 ```
 
-تعداد کلی برچسب‌های داده در مجموعه را دریافت می‌کند. فقط-خواندنی  int .
+تعداد تمام برچسب‌های داده در مجموعه را دریافت می‌کند. فقط-خواندنی  int .
 
-**بازمی‌گرداند:**
+**بازگشت:**
 int
-
 ### getParentSeries() {#getParentSeries--}
 ```
 public abstract IChartSeries getParentSeries()
 ```
 
-سری نمودار والد را بازمی‌گرداند. فقط-خواندنی [IChartSeries](../../com.aspose.slides/ichartseries).
+سری نمودار والد را برمی‌گرداند. فقط-خواندنی [IChartSeries](../../com.aspose.slides/ichartseries).
 
-**بازمی‌گرداند:**
+**بازگشت:**
 [IChartSeries](../../com.aspose.slides/ichartseries)
-
 ### indexOf(IDataLabel value) {#indexOf-com.aspose.slides.IDataLabel-}
 ```
 public abstract int indexOf(IDataLabel value)
 ```
 
-شاخص برچسب دادهٔ مشخص شده در مجموعه را بازمی‌گرداند.
+شاخص DataLabel مشخص شده در مجموعه را برمی‌گرداند.
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
-| value | [IDataLabel](../../com.aspose.slides/idatalabel) | برچسب داده برای جستجو. |
+| value | [IDataLabel](../../com.aspose.slides/idatalabel) | DataLabel برای یافتن. |
 
-**بازمی‌گرداند:**
-int - شاخص یک DataLabel یا -1 اگر DataLabel از این مجموعه نباشد.
+**بازگشت:**
+int - شاخص یک DataLabel یا -1 اگر DataLabel متعلق به این مجموعه نباشد.
+### getDefaultLabelShapeType() {#getDefaultLabelShapeType--}
+```
+public abstract int getDefaultLabelShapeType()
+```
+
+نوع شکل پیش‌فرض برای برچسب‌های داده را دریافت یا تنظیم می‌کند. اگر شکلی تعریف نشده باشد [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) را برمی‌گرداند.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // نوع شکل تمام برچسب‌های داده در سری اول را به Ellipse تنظیم کنید.
+>      firstSeries.getLabels().setDefaultLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabels.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+تنظیم این ویژگی همچنین ویژگی IDataLabel.LabelShapeType ([IDataLabel.getLabelShapeType](../../com.aspose.slides/idatalabel\#getLabelShapeType)/[IDataLabel.setLabelShapeType(int)](../../com.aspose.slides/idatalabel\#setLabelShapeType-int-)) را برای تمام برچسب‌های داده در مجموعه به همان مقدار تنظیم می‌کند.
+
+**بازگشت:**
+int
+### setDefaultLabelShapeType(int value) {#setDefaultLabelShapeType-int-}
+```
+public abstract void setDefaultLabelShapeType(int value)
+```
+
+نوع شکل پیش‌فرض برای برچسب‌های داده را دریافت یا تنظیم می‌کند. اگر شکلی تعریف نشده باشد [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) را برمی‌گرداند.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // نوع شکل تمام برچسب‌های داده در سری اول را به Ellipse تنظیم کنید.
+>      firstSeries.getLabels().setDefaultLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabels.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+تنظیم این ویژگی همچنین ویژگی IDataLabel.LabelShapeType ([IDataLabel.getLabelShapeType](../../com.aspose.slides/idatalabel\#getLabelShapeType)/[IDataLabel.setLabelShapeType(int)](../../com.aspose.slides/idatalabel\#setLabelShapeType-int-)) را برای تمام برچسب‌های داده در مجموعه به همان مقدار تنظیم می‌کند.
+
+**پارامترها:**
+| پارامتر | نوع | توضیح |
+| --- | --- | --- |
+| value | int |  |

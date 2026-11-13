@@ -1,42 +1,43 @@
 ---
 title: IChartData
-second_title: Aspose.Slides for Java API Reference
-description: داده‌های استفاده شده برای ترسیم یک نمودار.
+second_title: Aspose.Slides برای Java API Reference
+description: داده‌هایی را که برای رسم نمودار استفاده می‌شود، نشان می‌دهد.
 type: docs
 url: /fa/com.aspose.slides/ichartdata/
 ---```
 public interface IChartData
 ```
 
-داده‌های استفاده شده برای ترسیم یک نمودار.
+داده‌هایی را که برای رسم نمودار استفاده می‌شود، نشان می‌دهد.
 ## متدها
 
-| متد | توضیح |
+| Method | Description |
 | --- | --- |
-| [getChartDataWorkbook()](#getChartDataWorkbook--) | فاکتور سلول‌ها را برای ایجاد سلول‌های استفاده‌شده در سری یا دسته‌بندی‌های نمودار برمی‌گرداند. |
-| [getSeries()](#getSeries--) | سری‌ها را باز می‌گرداند. |
-| [getSeriesGroups()](#getSeriesGroups--) | گروه‌های سری را باز می‌گرداند. |
-| [getCategories()](#getCategories--) | دسته‌بندی‌های اصلی را باز می‌گرداند (یا هر دو دسته‌بندی اصلی و ثانویه اگر ویژگی (\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) برابر false باشد). |
-| [getUseSecondaryCategories()](#getUseSecondaryCategories--) | اگر مقدار false باشد، ویژگی (\#getSecondaryCategories.getSecondaryCategories) مقدار null باز می‌گرداند و داده‌های موجود در ویژگی (\#getCategories.getCategories) برای هر دو سری اصلی و ثانویه استفاده می‌شود. |
-| [setUseSecondaryCategories(boolean value)](#setUseSecondaryCategories-boolean-) | اگر مقدار false باشد، ویژگی (\#getSecondaryCategories.getSecondaryCategories) مقدار null باز می‌گرداند و داده‌های موجود در ویژگی (\#getCategories.getCategories) برای هر دو سری اصلی و ثانویه استفاده می‌شود. |
-| [getSecondaryCategories()](#getSecondaryCategories--) | دسته‌بندی‌های ثانویه را باز می‌گرداند اگر ویژگی (\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) برابر true باشد. |
-| [readWorkbookStream()](#readWorkbookStream--) | پوشه Excel داخلی را به یک جریان در حافظه می‌نویسد. |
-| [writeWorkbookStream(byte[] ms)](#writeWorkbookStream-byte---) | پوشه Excel داخلی را با مقدار تعیین‌شده توسط کاربر مقداردهی اولیه می‌کند. |
+| [getChartDataWorkbook()](#getChartDataWorkbook--) | فابریکی برای سلول‌ها را برمی‌گرداند تا سلول‌های استفاده‌شده در سری‌ها یا دسته‌های نمودار را ایجاد کند. |
+| [getSeries()](#getSeries--) | سری‌ها را برمی‌گرداند. |
+| [getSeriesGroups()](#getSeriesGroups--) | گروه‌های سری‌ها را برمی‌گرداند. |
+| [getCategories()](#getCategories--) | دسته‌های اصلی را برمی‌گرداند (یا هر دو دسته‌ی اصلی و ثانویه اگر ویژگی (\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) برابر false باشد). |
+| [getUseSecondaryCategories()](#getUseSecondaryCategories--) | اگر false باشد، ویژگی (\#getSecondaryCategories.getSecondaryCategories) مقدار null برمی‌گرداند و داده‌های موجود در ویژگی (\#getCategories.getCategories) برای هر دو سری اصلی و ثانویه استفاده می‌شود. |
+| [setUseSecondaryCategories(boolean value)](#setUseSecondaryCategories-boolean-) | اگر false باشد، ویژگی (\#getSecondaryCategories.getSecondaryCategories) مقدار null برمی‌گرداند و داده‌های موجود در ویژگی (\#getCategories.getCategories) برای هر دو سری اصلی و ثانویه استفاده می‌شود. |
+| [getSecondaryCategories()](#getSecondaryCategories--) | دسته‌های ثانویه را برمی‌گرداند اگر ویژگی (\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) برابر true باشد. |
+| [readWorkbookStream()](#readWorkbookStream--) | دفتر کار Excel داخلی را به یک جریان در-حافظه می‌نویسد. |
+| [writeWorkbookStream(byte[] ms)](#writeWorkbookStream-byte---) | دفتر کار Excel داخلی را با مقدار مشخص‌شده توسط کاربر مقداردهی اولیه می‌کند. |
 | [setRange(String formula)](#setRange-java.lang.String-) | محدوده داده‌های نمودار را تنظیم می‌کند. |
-| [getRange()](#getRange--) | محدوده داده‌های نمودار را باز می‌گرداند. |
-| [getDataSourceType()](#getDataSourceType--) | منبع داده نمودار را نمایندگی می‌کند |
-| [getExternalWorkbookPath()](#getExternalWorkbookPath--) | مسیر ورک‌بوک خارجی را اگر منبع داده خارجی باشد نمایندگی می‌کند، در غیر اینصورت null. |
-| [getEmbeddedWorkbookType()](#getEmbeddedWorkbookType--) | نوع ورک‌بوک توکار را باز می‌گرداند. |
+| [getRange()](#getRange--) | محدوده داده‌های نمودار را برمی‌گرداند. |
+| [getDataSourceType()](#getDataSourceType--) | منبع داده‌ای نمودار را نشان می‌دهد |
+| [getExternalWorkbookPath()](#getExternalWorkbookPath--) | مسیر دفتر کار خارجی را نشان می‌دهد اگر منبع داده خارجی باشد، در غیر این صورت null |
+| [getEmbeddedWorkbookType()](#getEmbeddedWorkbookType--) | نوع دفتر کار جاسازی‌شده را برمی‌گرداند. |
 | [switchRowColumn()](#switchRowColumn--) | داده‌ها را بر روی محور جابجا می‌کند. |
-| [setExternalWorkbook(String workbookPath)](#setExternalWorkbook-java.lang.String-) | یک ورک‌بوک خارجی را به عنوان منبع داده برای نمودار تنظیم می‌کند. |
-| [setExternalWorkbook(String workbookPath, boolean updateChartData)](#setExternalWorkbook-java.lang.String-boolean-) | یک ورک‌بوک خارجی را به عنوان منبع داده برای نمودار تنظیم می‌کند. |
+| [setExternalWorkbook(String workbookPath)](#setExternalWorkbook-java.lang.String-) | دفتر کار خارجی را به عنوان منبع داده برای نمودار تنظیم می‌کند. |
+| [setExternalWorkbook(String workbookPath, boolean updateChartData)](#setExternalWorkbook-java.lang.String-boolean-) | دفتر کار خارجی را به عنوان منبع داده برای نمودار تنظیم می‌کند. |
+| [refreshData()](#refreshData--) | داده‌های نمودار را با بارگذاری مجدد از دفتر کار منبع به‌روزرسانی می‌کند. |
 
 ### getChartDataWorkbook() {#getChartDataWorkbook--}
 ```
 public abstract IChartDataWorkbook getChartDataWorkbook()
 ```
 
-فاکتور سلول‌ها را برای ایجاد سلول‌های استفاده‌شده در سری یا دسته‌بندی‌های نمودار باز می‌گرداند. فقط-خواندنی [IChartDataWorkbook](../../com.aspose.slides/ichartdataworkbook).
+فابریکی برای سلول‌ها را برمی‌گرداند تا سلول‌های استفاده‌شده در سری‌ها یا دسته‌های نمودار را ایجاد کند. فقط خواندنی [IChartDataWorkbook](../../com.aspose.slides/ichartdataworkbook).
 
 **بازگشت:**
 [IChartDataWorkbook](../../com.aspose.slides/ichartdataworkbook)
@@ -46,7 +47,7 @@ public abstract IChartDataWorkbook getChartDataWorkbook()
 public abstract IChartSeriesCollection getSeries()
 ```
 
-سری‌ها را باز می‌گرداند. فقط-خواندنی [IChartSeriesCollection](../../com.aspose.slides/ichartseriescollection).
+سری‌ها را برمی‌گرداند. فقط خواندنی [IChartSeriesCollection](../../com.aspose.slides/ichartseriescollection).
 
 **بازگشت:**
 [IChartSeriesCollection](../../com.aspose.slides/ichartseriescollection)
@@ -56,11 +57,11 @@ public abstract IChartSeriesCollection getSeries()
 public abstract IChartSeriesGroupCollection getSeriesGroups()
 ```
 
-گروه‌های سری را باز می‌گرداند. فقط-خواندنی [IChartSeriesGroupCollection](../../com.aspose.slides/ichartseriesgroupcollection).
+گروه‌های سری‌ها را برمی‌گرداند. فقط خواندنی [IChartSeriesGroupCollection](../../com.aspose.slides/ichartseriesgroupcollection).
 
 --------------------
 
-1) هر گروه سری شامل سری‌های با انواع قابل ترکیب است. گروه‌های انواع سری‌های ترکیب‌پذیر با enum ‎CombinableSeriesTypesGroup‎ تعریف و توضیح داده شده‌اند. همچنین هر گروه سری شامل سری‌هایی است که یا روی محورهای اصلی یا روی محورهای ثانویه ترسیم می‌شوند (نه هر دو به‌صورت همزمان در یک گروه). بنابراین اصل گروه‌بندی سری‌ها بر پایهٔ گروه‌های نوع فوق و نوع ترسیم اصلی/ثانویه است. 2) یک گروه سری ممکن است شامل برخی ویژگی‌های مشترک برای تمام سری‌های داخل گروه باشد («ویژگی‌های گروه سری»). «ویژگی‌های گروه سری» در کلاس ‎ChartSeriesGroup‎ خواندنی/قابل‌نوشتن است. هر یک از «ویژگی‌های گروه سری» می‌تواند یک پیش‌نمایش فقط-خواندنی در کلاس ‎ChartSeries‎ داشته باشد.
+هر گروهی از سری‌ها شامل سری‌هایی با انواع ترکیبی است. گروه‌های انواع سری ترکیبی با enum CombinableSeriesTypesGroup تعریف و توصیف شده‌اند. همچنین هر گروهی از سری‌ها شامل سری‌هایی است که روی محورهای اصلی یا ثانویه رسم می‌شوند (نه هر دو حالت در یک گروه). بنابراین، اصل گروه‌بندی سری‌ها بر اساس گروه‌های نوع ذکر شده در بالا و نوع رسم اصلی/ثانویه است.
 
 **بازگشت:**
 [IChartSeriesGroupCollection](../../com.aspose.slides/ichartseriesgroupcollection)
@@ -70,7 +71,7 @@ public abstract IChartSeriesGroupCollection getSeriesGroups()
 public abstract IChartCategoryCollection getCategories()
 ```
 
-دسته‌بندی‌های اصلی را باز می‌گرداند (یا هر دو دسته‌بندی اصلی و ثانویه اگر ویژگی (\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) برابر false باشد). فقط-خواندنی [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection).
+دسته‌های اصلی را برمی‌گرداند (یا هر دو دسته‌ی اصلی و ثانویه اگر ویژگی (\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) برابر false باشد). فقط خواندنی [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection).
 
 --------------------
 
@@ -79,18 +80,17 @@ public abstract IChartCategoryCollection getCategories()
 >  
 >  if (series.getPlotOnSecondAxis() && series.getChart().getChartData().getUseSecondaryCategories())
 >  {
->      // دسته‌بندی‌های مرتبط عبارتند از series.getChart().getChartData().getSecondaryCategories()
+>      // دسته‌های مرتبط series.getChart().getChartData().getSecondaryCategories()
 >  }
 >  else
 >  {
->      // دسته‌بندی‌های مرتبط عبارتند از series.getChart().getChartData().getCategories()
+>      // دسته‌های مرتبط series.getChart().getChartData().getCategories()
 >  }
 > ```
 
-
 --------------------
 
-اگر ویژگی (\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) برابر false باشد، ویژگی (\#getSecondaryCategories.getSecondaryCategories) مقدار null باز می‌گرداند و داده‌های موجود در این ویژگی (\#getCategories.getCategories) برای هر دو سری اصلی و ثانویه استفاده می‌شود. اگر ویژگی فوق برابر true باشد، داده‌های موجود در ویژگی (\#getSecondaryCategories.getSecondaryCategories) برای سری‌های ثانویه و داده‌های موجود در این ویژگی (\#getCategories.getCategories) برای سری‌های اصلی استفاده می‌شود.
+اگر (\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) برابر false باشد، ویژگی (\#getSecondaryCategories.getSecondaryCategories) مقدار null برمی‌گرداند و داده‌های موجود در این ویژگی (\#getCategories.getCategories) برای هر دو سری اصلی و ثانویه استفاده می‌شود. اگر (\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) برابر true باشد، داده‌های موجود در ویژگی (\#getSecondaryCategories.getSecondaryCategories) برای سری‌های ثانویه و داده‌های موجود در این ویژگی (\#getCategories.getCategories) برای سری‌های اصلی استفاده می‌شود.
 
 **بازگشت:**
 [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection)
@@ -100,7 +100,7 @@ public abstract IChartCategoryCollection getCategories()
 public abstract boolean getUseSecondaryCategories()
 ```
 
-اگر مقدار false باشد، ویژگی (\#getSecondaryCategories.getSecondaryCategories) مقدار null باز می‌گرداند و داده‌های موجود در ویژگی (\#getCategories.getCategories) برای هر دو سری اصلی و ثانویه استفاده می‌شود. اگر مقدار true باشد، داده‌های موجود در ویژگی (\#getSecondaryCategories.getSecondaryCategories) برای سری‌های ثانویه و داده‌های موجود در ویژگی (\#getCategories.getCategories) برای سری‌های اصلی استفاده می‌شود. بولی خواندنی/قابل‌نوشتن.
+اگر false باشد، ویژگی (\#getSecondaryCategories.getSecondaryCategories) مقدار null برمی‌گرداند و داده‌های موجود در ویژگی (\#getCategories.getCategories) برای هر دو سری اصلی و ثانویه استفاده می‌شود. اگر true باشد، داده‌های موجود در ویژگی (\#getSecondaryCategories.getSecondaryCategories) برای سری‌های ثانویه و داده‌های موجود در ویژگی (\#getCategories.getCategories) برای سری‌های اصلی استفاده می‌شود. قابل خواندن/نوشتن boolean.
 
 --------------------
 
@@ -109,14 +109,13 @@ public abstract boolean getUseSecondaryCategories()
 >  
 >  if (series.getPlotOnSecondAxis() && series.getChart().getChartData().getUseSecondaryCategories())
 >  {
->      // دسته‌بندی‌های مرتبط عبارتند از series.getChart().getChartData().getSecondaryCategories()
+>      // دسته‌های مرتبط series.getChart().getChartData().getSecondaryCategories()
 >  }
 >  else
 >  {
->      // دسته‌بندی‌های مرتبط عبارتند از series.getChart().getChartData().getCategories()
+>      // دسته‌های مرتبط series.getChart().getChartData().getCategories()
 >  }
 > ```
-
 
 **بازگشت:**
 boolean
@@ -126,7 +125,7 @@ boolean
 public abstract void setUseSecondaryCategories(boolean value)
 ```
 
-اگر مقدار false باشد، ویژگی (\#getSecondaryCategories.getSecondaryCategories) مقدار null باز می‌گرداند و داده‌های موجود در ویژگی (\#getCategories.getCategories) برای هر دو سری اصلی و ثانویه استفاده می‌شود. اگر مقدار true باشد، داده‌های موجود در ویژگی (\#getSecondaryCategories.getSecondaryCategories) برای سری‌های ثانویه و داده‌های موجود در ویژگی (\#getCategories.getCategories) برای سری‌های اصلی استفاده می‌شود. بولی خواندنی/قابل‌نوشتن.
+اگر false باشد، ویژگی (\#getSecondaryCategories.getSecondaryCategories) مقدار null برمی‌گرداند و داده‌های موجود در ویژگی (\#getCategories.getCategories) برای هر دو سری اصلی و ثانویه استفاده می‌شود. اگر true باشد، داده‌های موجود در ویژگی (\#getSecondaryCategories.getSecondaryCategories) برای سری‌های ثانویه و داده‌های موجود در ویژگی (\#getCategories.getCategories) برای سری‌های اصلی استفاده می‌شود. قابل خواندن/نوشتن boolean.
 
 --------------------
 
@@ -135,11 +134,11 @@ public abstract void setUseSecondaryCategories(boolean value)
 >  
 >  if (series.getPlotOnSecondAxis() && series.getChart().getChartData().getUseSecondaryCategories())
 >  {
->      // دسته‌بندی‌های مرتبط عبارتند از series.getChart().getChartData().getSecondaryCategories()
+>      // دسته‌های مرتبط series.getChart().getChartData().getSecondaryCategories()
 >  }
 >  else
 >  {
->      // دسته‌بندی‌های مرتبط عبارتند از series.getChart().getChartData().getCategories()
+>      // دسته‌های مرتبط series.getChart().getChartData().getCategories()
 >  }
 > ```
 
@@ -153,7 +152,7 @@ public abstract void setUseSecondaryCategories(boolean value)
 public abstract IChartCategoryCollection getSecondaryCategories()
 ```
 
-دسته‌بندی‌های ثانویه را باز می‌گرداند اگر ویژگی (\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) برابر true باشد. فقط-خواندنی [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection).
+دسته‌های ثانویه را برمی‌گرداند اگر ویژگی (\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) برابر true باشد. فقط خواندنی [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection).
 
 --------------------
 
@@ -162,18 +161,17 @@ public abstract IChartCategoryCollection getSecondaryCategories()
 >  
 >  if (series.getPlotOnSecondAxis() && series.getChart().getChartData().getUseSecondaryCategories())
 >  {
->      // دسته‌بندی‌های مرتبط عبارتند از series.getChart().getChartData().getSecondaryCategories()
+>      // دسته‌های مرتبط series.getChart().getChartData().getSecondaryCategories()
 >  }
 >  else
 >  {
->      // دسته‌بندی‌های مرتبط عبارتند از series.getChart().getChartData().getCategories()
+>      // دسته‌های مرتبط series.getChart().getChartData().getCategories()
 >  }
 > ```
 
-
 --------------------
 
-اگر ویژگی (\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) برابر false باشد، این ویژگی (\#getSecondaryCategories.getSecondaryCategories) مقدار null باز می‌گرداند و داده‌های موجود در ویژگی (\#getCategories.getCategories) برای هر دو سری اصلی و ثانویه استفاده می‌شود. اگر ویژگی فوق برابر true باشد، داده‌های موجود در این ویژگی (\#getSecondaryCategories.getSecondaryCategories) برای سری‌های ثانویه و داده‌های موجود در ویژگی (\#getCategories.getCategories) برای سری‌های اصلی استفاده می‌شود.
+اگر (\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) برابر false باشد، این ویژگی (\#getSecondaryCategories.getSecondaryCategories) مقدار null برمی‌گرداند و داده‌های موجود در ویژگی (\#getCategories.getCategories) برای هر دو سری اصلی و ثانویه استفاده می‌شود. اگر (\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) برابر true باشد، داده‌های موجود در این ویژگی (\#getSecondaryCategories.getSecondaryCategories) برای سری‌های ثانویه و داده‌های موجود در ویژگی (\#getCategories.getCategories) برای سری‌های اصلی استفاده می‌شود.
 
 **بازگشت:**
 [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection)
@@ -183,41 +181,41 @@ public abstract IChartCategoryCollection getSecondaryCategories()
 public abstract byte[] readWorkbookStream()
 ```
 
-پوشه Excel داخلی را به یک جریان در حافظه می‌نویسد.
+دفتر کار Excel داخلی را به یک جریان در-حافظه می‌نویسد.
 
 **بازگشت:**
-byte[] - آرایه‌ای از بایت‌ها که نسخه‌ای کپی از پوشه Excel داخلی را شامل می‌شود.
+byte[] - آرایه‌ای از بایت‌ها را برمی‌گرداند که شامل نسخه‌ای از دفتر کار داخلی Excel است.
 
 ### writeWorkbookStream(byte[] ms) {#writeWorkbookStream-byte---}
 ```
 public abstract void writeWorkbookStream(byte[] ms)
 ```
 
-پوشه Excel داخلی را با مقدار تعیین‌شده توسط کاربر مقداردهی اولیه می‌کند.
+دفتر کار Excel داخلی را با مقدار مشخص‌شده توسط کاربر مقداردهی اولیه می‌کند.
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
-| ms | byte[] | جریان فراهم‌شده توسط کاربر که شامل کل ورک‌بوک Excel است. |
+| ms | byte[] | جریانی که توسط کاربر فراهم شده و شامل تمام دفتر کار Excel است. |
 
 ### setRange(String formula) {#setRange-java.lang.String-}
 ```
 public abstract void setRange(String formula)
 ```
 
-محدوده داده‌های نمودار را تنظیم می‌کند. سری‌ها و دسته‌بندی‌ها بر اساس محدوده داده جدید به‌روزرسانی می‌شوند. اگر تعداد سری‌ها در محدوده داده بیش از تعداد سری‌های موجود در داده‌های نمودار باشد، سری‌های اضافی با همان نوع سری آخرین سری موجود به انتهای مجموعه اضافه می‌شوند.
+محدوده داده‌های نمودار را تنظیم می‌کند. سری‌ها و دسته‌ها بر اساس محدوده داده جدید به‌روزرسانی می‌شوند. اگر تعداد سری‌ها در محدوده داده بیشتر از تعداد سری‌های موجود در داده‌های نمودار باشد، سری‌های اضافی با همان نوع سری آخرین سری در مجموعه فعلی به انتهای مجموعه اضافه می‌شوند.
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
-| formula | java.lang.String | فرمول محدوده داده‌های سلول‌ها. مثال: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
+| formula | java.lang.String | فرمول محدوده داده‌های سلول‌ها. مثلا: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
 
 ### getRange() {#getRange--}
 ```
 public abstract String getRange()
 ```
 
-محدوده داده‌های نمودار را باز می‌گرداند.
+محدوده داده‌های نمودار را برمی‌گرداند.
 
 --------------------
 
@@ -230,14 +228,14 @@ public abstract String getRange()
 > ```
 
 **بازگشت:**
-java.lang.String - فرمول محدوده داده‌های سلول‌ها. مثال: "Sheet1!$A$1:$C$4"
+java.lang.String - فرمول محدوده داده‌های سلول‌ها. مثلا: "Sheet1!$A$1:$C$4"
 
 ### getDataSourceType() {#getDataSourceType--}
 ```
 public abstract int getDataSourceType()
 ```
 
-منبع داده نمودار را نمایندگی می‌کند
+منبع داده‌ای نمودار را نشان می‌دهد
 
 **بازگشت:**
 int
@@ -247,7 +245,7 @@ int
 public abstract String getExternalWorkbookPath()
 ```
 
-مسیر ورک‌بوک خارجی را اگر منبع داده خارجی باشد نمایندگی می‌کند، در غیر اینصورت null
+مسیر دفتر کار خارجی را نشان می‌دهد اگر منبع داده خارجی باشد، در غیر این صورت null
 
 **بازگشت:**
 java.lang.String
@@ -257,7 +255,7 @@ java.lang.String
 public abstract int getEmbeddedWorkbookType()
 ```
 
-نوع ورک‌بوک توکار را باز می‌گرداند. اگر ‎DataSourceType‎ (\#getDataSourceType.getDataSourceType) برابر [ChartDataSourceType.ExternalWorkbook](../../com.aspose.slides/chartdatasourcetype\#ExternalWorkbook) باشد ‎[WorkbookType.NotDefined](../../com.aspose.slides/workbooktype\#NotDefined)‎ باز می‌گردد. فقط-خواندنی [WorkbookType](../../com.aspose.slides/workbooktype).
+نوع دفتر کار جاسازی‌شده را برمی‌گرداند. اگر DataSourceType (\#getDataSourceType.getDataSourceType) برابر [ChartDataSourceType.ExternalWorkbook](../../com.aspose.slides/chartdatasourcetype\#ExternalWorkbook) باشد، [WorkbookType.NotDefined](../../com.aspose.slides/workbooktype\#NotDefined) را برمی‌گرداند. فقط خواندنی [WorkbookType](../../com.aspose.slides/workbooktype).
 
 **بازگشت:**
 int
@@ -267,14 +265,14 @@ int
 public abstract void switchRowColumn()
 ```
 
-داده‌ها را بر روی محور جابجا می‌کند. داده‌های ترسیم‌شده روی محور X به محور Y منتقل می‌شوند و بالعکس.
+داده‌ها را بر روی محور جابجا می‌کند. داده‌هایی که بر محور X نمودار شده‌اند به محور Y منتقل می‌شوند و برعکس.
 
 ### setExternalWorkbook(String workbookPath) {#setExternalWorkbook-java.lang.String-}
 ```
 public abstract void setExternalWorkbook(String workbookPath)
 ```
 
-یک ورک‌بوک خارجی را به عنوان منبع داده برای نمودار تنظیم می‌کند. داده‌های نمودار از ورک‌بوک هدف به‌روزرسانی می‌شوند.
+دفتر کار خارجی را به عنوان منبع داده برای نمودار تنظیم می‌کند. داده‌های نمودار از دفتر کار هدف به‌روزرسانی خواهند شد.
 
 --------------------
 
@@ -293,14 +291,14 @@ public abstract void setExternalWorkbook(String workbookPath)
 **پارامترها:**
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
-| workbookPath | java.lang.String | مسیر به ورک‌بوک هدف |
+| workbookPath | java.lang.String | مسیر به دفتر کار هدف |
 
 ### setExternalWorkbook(String workbookPath, boolean updateChartData) {#setExternalWorkbook-java.lang.String-boolean-}
 ```
 public abstract void setExternalWorkbook(String workbookPath, boolean updateChartData)
 ```
 
-یک ورک‌بوک خارجی را به عنوان منبع داده برای نمودار تنظیم می‌کند.
+دفتر کار خارجی را به عنوان منبع داده برای نمودار تنظیم می‌کند.
 
 --------------------
 
@@ -319,5 +317,24 @@ public abstract void setExternalWorkbook(String workbookPath, boolean updateChar
 **پارامترها:**
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
-| workbookPath | java.lang.String | مسیر به ورک‌بوک هدف |
-| updateChartData | boolean | اگر مقدار false باشد، فقط مسیر ورک‌بوک به‌روز می‌شود. داده‌های نمودار بارگذاری و به‌روزرسانی نمی‌شوند. می‌تواند زمانی استفاده شود که ورک‌بوک هدف موجود نباشد یا در دسترس نباشد. اگر مقدار true باشد، داده‌های نمودار از ورک‌بوک هدف به‌روزرسانی می‌شوند. |
+| workbookPath | java.lang.String | مسیر به دفتر کار هدف |
+| updateChartData | boolean | اگر مقدار false باشد فقط مسیر دفتر کار به‌روزرسانی می‌شود. داده‌های نمودار بارگذاری و به‌روزرسانی نخواهند شد. می‌توان از آن وقتی دفتر کار هدف وجود نداشته باشد یا در دسترس نباشد استفاده کرد. اگر مقدار true باشد داده‌های نمودار از دفتر کار هدف به‌روزرسانی خواهند شد. |
+
+### refreshData() {#refreshData--}
+```
+public abstract void refreshData()
+```
+
+داده‌های نمودار را با بارگذاری مجدد از دفتر کار منبع به‌روزرسانی می‌کند.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("presentationWithChart.pptx");
+>  try {
+>      IChart chart = (IChart)presentation.getSlides().get_Item(0).getShapes().get_Item(0);
+>      chart.getChartData().refreshData();
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```

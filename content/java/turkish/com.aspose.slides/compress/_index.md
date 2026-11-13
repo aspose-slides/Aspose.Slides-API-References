@@ -11,7 +11,7 @@ java.lang.Object
 public class Compress
 ```
 
-[Presentation](../../com.aspose.slides/presentation)'ı sıkıştırmak için tasarlanmış bir grup yöntemi temsil eder.
+[Presentation](../../com.aspose.slides/presentation) sıkıştırmak için tasarlanmış bir grup yöntemi temsil eder.
 
 --------------------
 
@@ -30,26 +30,65 @@ public class Compress
 | Yapıcı | Açıklama |
 | --- | --- |
 | [Compress()](#Compress--) |  |
-## Yöntemler
+## Metodlar
 
-| Yöntem | Açıklama |
+| Metod | Açıklama |
 | --- | --- |
-| [removeUnusedMasterSlides(Presentation pres)](#removeUnusedMasterSlides-com.aspose.slides.Presentation-) | Kullanılmayan ana slaytları kaldırarak [Presentation](../../com.aspose.slides/presentation) sıkıştırmasını yapar. |
-| [removeUnusedLayoutSlides(Presentation pres)](#removeUnusedLayoutSlides-com.aspose.slides.Presentation-) | Kullanılmayan düzen slaytlarını kaldırarak [Presentation](../../com.aspose.slides/presentation) sıkıştırmasını yapar. |
-| [compressEmbeddedFonts(Presentation pres)](#compressEmbeddedFonts-com.aspose.slides.Presentation-) | Gömülü yazı tiplerinden kullanılmayan karakterleri kaldırarak [Presentation](../../com.aspose.slides/presentation) sıkıştırmasını yapar. |
+| [compressPresentation(Presentation presentation)](#compressPresentation-com.aspose.slides.Presentation-) | Bir sunumun boyutunu mevcut tüm sıkıştırma adımlarını uygulayarak azaltır:
+
+ *  Kullanılmayan ana slaytları kaldırır \#removeUnusedMasterSlides(Presentation).removeUnusedMasterSlides(Presentation).
+ *  Kullanılmayan yerleşim slaytlarını kaldırır \#removeUnusedLayoutSlides(Presentation).removeUnusedLayoutSlides(Presentation).
+ *  Gömülü yazı tiplerinde gerçekten kullanılan glifleri yalnızca tutar \#compressEmbeddedFonts(Presentation).compressEmbeddedFonts(Presentation).
+ *  Resim çözünürlüğünü 150 DPI'ye düşürür ve resimlerin kırpılmış alanlarını siler \#compressImages(IPresentation,int).compressImages(IPresentation,int). |
+| [removeUnusedMasterSlides(Presentation pres)](#removeUnusedMasterSlides-com.aspose.slides.Presentation-) | [Presentation](../../com.aspose.slides/presentation) sıkıştırması, kullanılmayan ana slaytlar kaldırılarak yapılır. |
+| [removeUnusedLayoutSlides(Presentation pres)](#removeUnusedLayoutSlides-com.aspose.slides.Presentation-) | [Presentation](../../com.aspose.slides/presentation) sıkıştırması, kullanılmayan yerleşim slaytları kaldırılarak yapılır. |
+| [compressEmbeddedFonts(Presentation pres)](#compressEmbeddedFonts-com.aspose.slides.Presentation-) | [Presentation](../../com.aspose.slides/presentation) sıkıştırması, gömülü yazı tiplerinden kullanılmayan karakterler kaldırılarak yapılır. |
+| [compressImages(IPresentation presentation, int resolution)](#compressImages-com.aspose.slides.IPresentation-int-) | Sunumdaki resimlerin çözünürlüğünü düşürür ve kırpılmış alanlarını siler; bu, PowerPoint'in tüm resimlere uyguladığı "Resimleri Sıkıştır" özelliğine benzer. |
 ### Compress() {#Compress--}
 ```
 public Compress()
 ```
 
 
+### compressPresentation(Presentation presentation) {#compressPresentation-com.aspose.slides.Presentation-}
+```
+public static void compressPresentation(Presentation presentation)
+```
+
+
+Bir sunumun boyutunu mevcut tüm sıkıştırma adımlarını uygulayarak azaltır:
+
+ *  Kullanılmayan ana slaytları kaldırır \#removeUnusedMasterSlides(Presentation).removeUnusedMasterSlides(Presentation).
+ *  Kullanılmayan yerleşim slaytlarını kaldırır \#removeUnusedLayoutSlides(Presentation).removeUnusedLayoutSlides(Presentation).
+ *  Gömülü yazı tiplerinde gerçekten kullanılan glifleri yalnızca tutar \#compressEmbeddedFonts(Presentation).compressEmbeddedFonts(Presentation).
+ *  Resim çözünürlüğünü 150 DPI'ye düşürür ve resimlerin kırpılmış alanlarını siler \#compressImages(IPresentation,int).compressImages(IPresentation,int).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      Compress.compressPresentation(pres);
+> 
+>      pres.save("pres-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parametreler:**
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| presentation | [Presentation](../../com.aspose.slides/presentation) | Sıkıştırılacak sunum. |
+
+Sıkıştırmayı özelleştirmek için, örneğin farklı bir resim çözünürlüğü kullanmak veya bir adımı atlamak amacıyla, bu yöntemi yerine yukarıda listelenen yöntemleri tek tek çağırın. Resimlerin kırpılmış alanları kalıcı olarak kaldırılır ve PowerPoint'te geri getirilemez.
+
 ### removeUnusedMasterSlides(Presentation pres) {#removeUnusedMasterSlides-com.aspose.slides.Presentation-}
 ```
 public static void removeUnusedMasterSlides(Presentation pres)
 ```
 
-
-Kullanılmayan ana slaytları kaldırarak [Presentation](../../com.aspose.slides/presentation) sıkıştırmasını yapar.
+[Presentation](../../com.aspose.slides/presentation) sıkıştırması, kullanılmayan ana slaytlar kaldırılarak yapılır.
 
 --------------------
 
@@ -67,15 +106,14 @@ Kullanılmayan ana slaytları kaldırarak [Presentation](../../com.aspose.slides
 **Parametreler:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| pres | [Presentation](../../com.aspose.slides/presentation) | Sunum örneği |
+| pres | [Presentation](../../com.aspose.slides/presentation) | Sunum örneği. |
 
 ### removeUnusedLayoutSlides(Presentation pres) {#removeUnusedLayoutSlides-com.aspose.slides.Presentation-}
 ```
 public static void removeUnusedLayoutSlides(Presentation pres)
 ```
 
-
-Kullanılmayan düzen slaytlarını kaldırarak [Presentation](../../com.aspose.slides/presentation) sıkıştırmasını yapar.
+[Presentation](../../com.aspose.slides/presentation) sıkıştırması, kullanılmayan yerleşim slaytları kaldırılarak yapılır.
 
 --------------------
 
@@ -93,15 +131,14 @@ Kullanılmayan düzen slaytlarını kaldırarak [Presentation](../../com.aspose.
 **Parametreler:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| pres | [Presentation](../../com.aspose.slides/presentation) | Sunum örneği |
+| pres | [Presentation](../../com.aspose.slides/presentation) | Sunum örneği. |
 
 ### compressEmbeddedFonts(Presentation pres) {#compressEmbeddedFonts-com.aspose.slides.Presentation-}
 ```
 public static void compressEmbeddedFonts(Presentation pres)
 ```
 
-
-Gömülü yazı tiplerinden kullanılmayan karakterleri kaldırarak [Presentation](../../com.aspose.slides/presentation) sıkıştırmasını yapar.
+[Presentation](../../com.aspose.slides/presentation) sıkıştırması, gömülü yazı tiplerinden kullanılmayan karakterler kaldırılarak yapılır.
 
 --------------------
 
@@ -119,4 +156,36 @@ Gömülü yazı tiplerinden kullanılmayan karakterleri kaldırarak [Presentatio
 **Parametreler:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| pres | [Presentation](../../com.aspose.slides/presentation) | Sunum örneği |
+| pres | [Presentation](../../com.aspose.slides/presentation) | Sunum örneği. |
+
+### compressImages(IPresentation presentation, int resolution) {#compressImages-com.aspose.slides.IPresentation-int-}
+```
+public static void compressImages(IPresentation presentation, int resolution)
+```
+
+Sunumdaki resimlerin çözünürlüğünü düşürür ve kırpılmış alanlarını siler; bu, PowerPoint'in tüm resimlere uyguladığı "Resimleri Sıkıştır" özelliğine benzer. Slaytlardaki, yerleşim slaytlarındaki ve ana slaytlardaki resimler işlenir; grup şekilleri içindeki resimler ve şekillerin resim dolguları da dahil.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      Compress.compressImages(pres, PicturesCompression.Dpi150);
+> 
+>      pres.save("pres-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parametreler:**
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| presentation | [IPresentation](../../com.aspose.slides/ipresentation) | İşlenecek sunum. |
+| resolution | int | Her resmin gösterildiği boyuta göre hedef çözünürlük. [PicturesCompression.DocumentResolution](../../com.aspose.slides/picturescompression\#DocumentResolution) resimleri değiştirmeden bırakır.
+
+Hedef çözünürlüğe eşit veya daha düşük çözünürlükte olan resimler değişmeden kalır; resimler asla yükseltilmez.
+
+İşlem görmeyenler: slayt arka planları, tablo hücresi doldurmaları, grafikler, SmartArt, GIF görüntüler (animasyonu korumak için), SVG ve metafile (EMF/WMF) görüntüler.
+
+Kırpılmış alanlar kalıcı olarak kaldırılır ve PowerPoint'te geri getirilemez. |

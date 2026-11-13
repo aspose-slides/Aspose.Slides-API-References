@@ -1,6 +1,6 @@
 ---
 title: FontsManager
-second_title: Referencia de API de Aspose.Slides para Java
+second_title: Referencia de la API de Aspose.Slides para Java
 description: Administra fuentes en toda la presentación.
 type: docs
 url: /es/com.aspose.slides/fontsmanager/
@@ -21,10 +21,10 @@ Administra fuentes en toda la presentación.
 > ```
 > The following example shows how to add embedded fonts to PowerPoint Presentation.
 >  
->  // Cargar presentación
+>  // Cargar la presentación
 >  Presentation pres = new Presentation("Fonts.pptx");
 >  try {
->      // Cargar fuente origen para ser reemplazada
+>      // Cargar la fuente de origen a ser reemplazada
 >      IFontData sourceFont = new FontData("Arial");
 >      IFontData[] allFonts = pres.getFontsManager().getFonts();
 >      for (IFontData font : allFonts)
@@ -56,19 +56,21 @@ Administra fuentes en toda la presentación.
 | --- | --- |
 | [getFontSubstRuleList()](#getFontSubstRuleList--) | Sustituciones de fuentes a usar al renderizar. |
 | [setFontSubstRuleList(IFontSubstRuleCollection value)](#setFontSubstRuleList-com.aspose.slides.IFontSubstRuleCollection-) | Sustituciones de fuentes a usar al renderizar. |
-| [getFontFallBackRulesCollection()](#getFontFallBackRulesCollection--) | Representa la colección de reglas FontFallBack de un usuario para gestionar colecciones de fuentes para sustituciones adecuadas mediante la funcionalidad de reserva. Lectura/escritura [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
-| [setFontFallBackRulesCollection(IFontFallBackRulesCollection value)](#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-) | Representa la colección de reglas FontFallBack de un usuario para gestionar colecciones de fuentes para sustituciones adecuadas mediante la funcionalidad de reserva. Lectura/escritura [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
-| [getFonts()](#getFonts--) | Devuelve las fuentes usadas en la presentación |
-| [getSubstitutions()](#getSubstitutions--) | Obtiene la información sobre fuentes que serán reemplazadas al renderizar la presentación. |
-| [getSubstitutions(int[] slides)](#getSubstitutions-int---) | Obtiene la información sobre fuentes que serán reemplazadas durante el renderizado de las diapositivas especificadas. |
+| [getFontFallBackRulesCollection()](#getFontFallBackRulesCollection--) | Representa la colección de un usuario de reglas FontFallBack para gestionar colecciones de fuentes para sustituciones adecuadas mediante la funcionalidad de respaldo Lectura/escritura [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
+| [setFontFallBackRulesCollection(IFontFallBackRulesCollection value)](#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-) | Representa la colección de un usuario de reglas FontFallBack para gestionar colecciones de fuentes para sustituciones adecuadas mediante la funcionalidad de respaldo Lectura/escritura [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
+| [getFonts()](#getFonts--) | Devuelve las fuentes utilizadas en la presentación |
+| [getSubstitutions()](#getSubstitutions--) | Obtiene la información sobre las fuentes que serán reemplazadas en el renderizado de la presentación. |
+| [getSubstitutions(int[] slides)](#getSubstitutions-int---) | Obtiene la información sobre las fuentes que serán reemplazadas durante el renderizado de las diapositivas especificadas. |
+| [getPreferRegisteredFontsOverEmbedded()](#getPreferRegisteredFontsOverEmbedded--) | Especifica si las fuentes registradas deben tener preferencia sobre las fuentes incrustadas con el mismo nombre y estilo. |
+| [setPreferRegisteredFontsOverEmbedded(boolean value)](#setPreferRegisteredFontsOverEmbedded-boolean-) | Especifica si las fuentes registradas deben tener preferencia sobre las fuentes incrustadas con el mismo nombre y estilo. |
 | [getEmbeddedFonts()](#getEmbeddedFonts--) | Devuelve las fuentes incrustadas en la presentación |
 | [removeEmbeddedFont(IFontData fontData)](#removeEmbeddedFont-com.aspose.slides.IFontData-) | Elimina la fuente incrustada |
-| [addEmbeddedFont(IFontData fontData, int embedFontRule)](#addEmbeddedFont-com.aspose.slides.IFontData-int-) | Añade la fuente incrustada |
-| [addEmbeddedFont(byte[] fontData, int embedFontRule)](#addEmbeddedFont-byte---int-) | Añade la fuente incrustada |
+| [addEmbeddedFont(IFontData fontData, int embedFontRule)](#addEmbeddedFont-com.aspose.slides.IFontData-int-) | Agrega la fuente incrustada |
+| [addEmbeddedFont(byte[] fontData, int embedFontRule)](#addEmbeddedFont-byte---int-) | Agrega la fuente incrustada |
 | [replaceFont(IFontData sourceFont, IFontData destFont)](#replaceFont-com.aspose.slides.IFontData-com.aspose.slides.IFontData-) | Reemplaza la fuente en la presentación |
 | [replaceFont(IFontSubstRule substRule)](#replaceFont-com.aspose.slides.IFontSubstRule-) | Reemplaza la fuente en la presentación usando la información proporcionada en [FontSubstRule](../../com.aspose.slides/fontsubstrule) |
 | [replaceFont(IFontSubstRuleCollection substRules)](#replaceFont-com.aspose.slides.IFontSubstRuleCollection-) | Reemplaza la fuente en la presentación usando la información proporcionada en la colección de [FontSubstRule](../../com.aspose.slides/fontsubstrule) |
-| [getFontBytes(IFontData fontData, int fontStyle)](#getFontBytes-com.aspose.slides.IFontData-int-) | Recupera el arreglo de bytes que representa los datos de la fuente para un estilo de fuente especificado y datos de fuente. |
+| [getFontBytes(IFontData fontData, int fontStyle)](#getFontBytes-com.aspose.slides.IFontData-int-) | Recupera el arreglo de bytes que representa los datos de la fuente para un estilo y datos de fuente especificados. |
 | [getFontEmbeddingLevel(byte[] fontBytes, String fontName)](#getFontEmbeddingLevel-byte---java.lang.String-) | Determina el nivel de incrustación de una fuente a partir del arreglo de bytes y el nombre de la fuente proporcionados. |
 
 ### getFontSubstRuleList() {#getFontSubstRuleList--}
@@ -97,7 +99,7 @@ Sustituciones de fuentes a usar al renderizar. Lectura/escritura [IFontSubstRule
 public final IFontFallBackRulesCollection getFontFallBackRulesCollection()
 ```
 
-Representa la colección de reglas FontFallBack de un usuario para gestionar colecciones de fuentes para sustituciones adecuadas mediante la funcionalidad de reserva. Lectura/escritura [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
+Representa la colección de un usuario de reglas FontFallBack para gestionar colecciones de fuentes para sustituciones adecuadas mediante la funcionalidad de respaldo Lectura/escritura [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
 
 --------------------
 
@@ -107,14 +109,14 @@ Representa la colección de reglas FontFallBack de un usuario para gestionar col
 >  {
 >      // Obtención de una colección de reglas vacía o preinicializada del FontsManager
 >      IFontFallBackRulesCollection rulesList = pres.getFontsManager().getFontFallBackRulesCollection();
->      // añadiendo reglas a la colección
+>      // agregar reglas a la colección
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
->      // o
+>      // o 
 >      // inicialización de una nueva instancia de la colección de reglas
 >      IFontFallBackRulesCollection rulesList = new FontFallBackRulesCollection();
->      // añadiendo reglas a la colección
+>      // agregar reglas a la colección
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
->      // y reemplazo de la colección existente por la nueva en FontsManager
+>      // y reemplazo de la colección existente por la nueva en FontsManager 
 >      pres.getFontsManager().setFontFallBackRulesCollection(rulesList);
 >  }
 >  finally {
@@ -130,7 +132,7 @@ Representa la colección de reglas FontFallBack de un usuario para gestionar col
 public final void setFontFallBackRulesCollection(IFontFallBackRulesCollection value)
 ```
 
-Representa la colección de reglas FontFallBack de un usuario para gestionar colecciones de fuentes para sustituciones adecuadas mediante la funcionalidad de reserva. Lectura/escritura [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
+Representa la colección de un usuario de reglas FontFallBack para gestionar colecciones de fuentes para sustituciones adecuadas mediante la funcionalidad de respaldo Lectura/escritura [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
 
 --------------------
 
@@ -140,14 +142,14 @@ Representa la colección de reglas FontFallBack de un usuario para gestionar col
 >  {
 >      // Obtención de una colección de reglas vacía o preinicializada del FontsManager
 >      IFontFallBackRulesCollection rulesList = pres.getFontsManager().getFontFallBackRulesCollection();
->      // añadiendo reglas a la colección
+>      // agregando reglas a la colección
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
->      // o
+>      // o 
 >      // inicialización de una nueva instancia de la colección de reglas
 >      IFontFallBackRulesCollection rulesList = new FontFallBackRulesCollection();
->      // añadiendo reglas a la colección
+>      // agregando reglas a la colección
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
->      // y reemplazo de la colección existente por la nueva en FontsManager
+>      // y reemplazo de la colección existente por la nueva en FontsManager 
 >      pres.getFontsManager().setFontFallBackRulesCollection(rulesList);
 >  }
 >  finally {
@@ -166,16 +168,16 @@ Representa la colección de reglas FontFallBack de un usuario para gestionar col
 public final IFontData[] getFonts()
 ```
 
-Devuelve las fuentes usadas en la presentación
+Devuelve las fuentes utilizadas en la presentación
 
 **Devuelve:**
-com.aspose.slides.IFontData[] - Una matriz de fuentes
+com.aspose.slides.IFontData[] - Un arreglo de fuentes
 ### getSubstitutions() {#getSubstitutions--}
 ```
 public final System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo> getSubstitutions()
 ```
 
-Obtiene la información sobre fuentes que serán reemplazadas al renderizar la presentación.
+Obtiene la información sobre las fuentes que serán reemplazadas en el renderizado de la presentación.
 
 --------------------
 
@@ -191,7 +193,6 @@ Obtiene la información sobre fuentes que serán reemplazadas al renderizar la p
 >  }
 > ```
 
-
 **Devuelve:**
 com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - Colección de todas las sustituciones de fuentes [FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo).
 ### getSubstitutions(int[] slides) {#getSubstitutions-int---}
@@ -199,7 +200,7 @@ com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.Fo
 public final System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo> getSubstitutions(int[] slides)
 ```
 
-Obtiene la información sobre fuentes que serán reemplazadas durante el renderizado de las diapositivas especificadas.
+Obtiene la información sobre las fuentes que serán reemplazadas durante el renderizado de las diapositivas especificadas.
 
 --------------------
 
@@ -219,10 +220,63 @@ Obtiene la información sobre fuentes que serán reemplazadas durante el renderi
 **Parámetros:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| slides | int[] | Una matriz de índices de diapositivas para los cuales obtener información de sustitución de fuentes, comenzando desde 1. |
+| slides | int[] | Un arreglo de índices de diapositivas para los que se debe obtener información de sustitución de fuentes, comenzando desde 1. |
 
 **Devuelve:**
 com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - Una colección de todas las sustituciones de fuentes ([FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo)) para las diapositivas especificadas.
+### getPreferRegisteredFontsOverEmbedded() {#getPreferRegisteredFontsOverEmbedded--}
+```
+public final boolean getPreferRegisteredFontsOverEmbedded()
+```
+
+Especifica si las fuentes registradas deben tener preferencia sobre las fuentes incrustadas con el mismo nombre y estilo. Cuando está habilitado, las fuentes incrustadas coincidentes se reemplazan temporalmente por las fuentes registradas correspondientes durante la exportación.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("SomePresentation.pptx");
+>  try {
+>      pres.getFontsManager().setPreferRegisteredFontsOverEmbedded(true);
+>      pres.save("Presentation-out.pdf", SaveFormat.Pdf);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+El valor predeterminado es **false**.
+
+**Devuelve:**
+boolean
+### setPreferRegisteredFontsOverEmbedded(boolean value) {#setPreferRegisteredFontsOverEmbedded-boolean-}
+```
+public final void setPreferRegisteredFontsOverEmbedded(boolean value)
+```
+
+Especifica si las fuentes registradas deben tener preferencia sobre las fuentes incrustadas con el mismo nombre y estilo. Cuando está habilitado, las fuentes incrustadas coincidentes se reemplazan temporalmente por las fuentes registradas correspondientes durante la exportación.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("SomePresentation.pptx");
+>  try {
+>      pres.getFontsManager().setPreferRegisteredFontsOverEmbedded(true);
+>      pres.save("Presentation-out.pdf", SaveFormat.Pdf);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+El valor predeterminado es **false**.
+
+**Parámetros:**
+| Parámetro | Tipo | Descripción |
+| --- | --- | --- |
+| value | boolean |  |
+
 ### getEmbeddedFonts() {#getEmbeddedFonts--}
 ```
 public final IFontData[] getEmbeddedFonts()
@@ -249,7 +303,7 @@ Elimina la fuente incrustada
 public final void addEmbeddedFont(IFontData fontData, int embedFontRule)
 ```
 
-Añade la fuente incrustada
+Agrega la fuente incrustada
 
 **Parámetros:**
 | Parámetro | Tipo | Descripción |
@@ -262,7 +316,7 @@ Añade la fuente incrustada
 public final void addEmbeddedFont(byte[] fontData, int embedFontRule)
 ```
 
-Añade la fuente incrustada
+Agrega la fuente incrustada
 
 **Parámetros:**
 | Parámetro | Tipo | Descripción |
@@ -312,7 +366,7 @@ Reemplaza la fuente en la presentación usando la información proporcionada en 
 public final byte[] getFontBytes(IFontData fontData, int fontStyle)
 ```
 
-Recupera el arreglo de bytes que representa los datos de la fuente para un estilo de fuente y datos de fuente especificados.
+Recupera el arreglo de bytes que representa los datos de la fuente para un estilo y datos de fuente especificados.
 
 --------------------
 
@@ -341,7 +395,7 @@ byte[] - Un arreglo de bytes que contiene los datos de la fuente para el estilo 
 public final int getFontEmbeddingLevel(byte[] fontBytes, String fontName)
 ```
 
-Determina el nivel de incrustación de una fuente a partir del arreglo de bytes y el nombre de la fuente dados.
+Determina el nivel de incrustación de una fuente a partir del arreglo de bytes y el nombre de la fuente proporcionados.
 
 --------------------
 
@@ -358,7 +412,6 @@ Determina el nivel de incrustación de una fuente a partir del arreglo de bytes 
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-
 
 **Parámetros:**
 | Parámetro | Tipo | Descripción |
