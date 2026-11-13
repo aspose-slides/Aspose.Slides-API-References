@@ -1,11 +1,11 @@
 ---
 title: IChartSeriesGroup
-second_title: Aspose.Slides Java API referencia
+second_title: Aspose.Slides for Java API Referenciája
 description: A sorozatok csoportját képviseli.
 type: docs
 url: /hu/com.aspose.slides/ichartseriesgroup/
 ---
-**Minden megvalósított interfész:**
+**All Implemented Interfaces:**
 [com.aspose.slides.IChartComponent](../../com.aspose.slides/ichartcomponent)
 ```
 public interface IChartSeriesGroup extends IChartComponent
@@ -15,52 +15,51 @@ A sorozatok csoportját képviseli.
 
 --------------------
 
-1) Lásd a ChartSeriesGroupCollection osztály összegzését és megjegyzéseit, valamint a CombinableSeriesTypesGroup enumerációt. 2) A sorozatok csoportja olyan sorozatcsoport-tulajdonságokat tartalmaz, amelyek közösek a csoport minden sorozata számára („series group properties”). A „series group properties” a ChartSeriesGroup osztályban olvasható/írható. Minden „series group properties” rendelkezhet csak-olvasású leképezéssel a ChartSeries osztályban.
+1) See summary and remarks for ChartSeriesGroupCollection class and CombinableSeriesTypesGroup enum. 2) Group of series contains some series properies whitch is common for each series in group ("series group properties"). "Series group properties" in ChartSeriesGroup class is read/write. Each of "series group properties" can have a read-only projection in ChartSeries class.
+## Metódusok
 
-## Módszerek
-
-| Módszer | Leírás |
+| Metódus | Leírás |
 | --- | --- |
 | [getType()](#getType--) | Visszaadja ennek a sorozatcsoportnak a típusát. |
-| [getPlotOnSecondAxis()](#getPlotOnSecondAxis--) | Jelzi, hogy a csoport sorozatai a másodlagos tengelyen kerülnek-e ábrázolásra. |
-| [getSeries()](#getSeries--) | Visszaad egy csak-olvasású gyűjteményt a diagram sorozatokról. |
-| [get_Item(int index)](#get-Item-int-) | Lekéri a megadott indexű elemet. |
-| [getUpDownBars()](#getUpDownBars--) | Lehetővé teszi a fel/le sávok elérését Line- vagy Stock-chart diagramon. |
-| [getGapWidth()](#getGapWidth--) | Megadja a sáv- vagy oszlop-csoportok közötti távolságot a sáv vagy oszlop szélességének százalékában. |
-| [setGapWidth(int value)](#setGapWidth-int-) | Megadja a sáv- vagy oszlop-csoportok közötti távolságot a sáv vagy oszlop szélességének százalékában. |
-| [getGapDepth()](#getGapDepth--) | Visszaadja vagy beállítja a távolságot, a marker szélességének százalékában, az adat sorozatok között egy 3D diagramon. |
-| [setGapDepth(int value)](#setGapDepth-int-) | Visszaadja vagy beállítja a távolságot, a marker szélességének százalékában, az adat sorozatok között egy 3D diagramon. |
-| [getFirstSliceAngle()](#getFirstSliceAngle--) | Lekéri vagy beállítja az első kör- vagy galambkör-szelet szögét fokban (az órakorra felülről, 0-tól 360 fokig). |
-| [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | Lekéri vagy beállítja az első kör- vagy galambkör-szelet szögét fokban (az órakorra felülről, 0-tól 360 fokig). |
-| [isColorVaried()](#isColorVaried--) | Megadja, hogy a sorozat minden adatjelzője különböző színű legyen. |
-| [setColorVaried(boolean value)](#setColorVaried-boolean-) | Megadja, hogy a sorozat minden adatjelzője különböző színű legyen. |
-| [hasSeriesLines()](#hasSeriesLines--) | Igaz, ha a diagramon sorozatvonalak vannak. |
-| [setSeriesLines(boolean value)](#setSeriesLines-boolean-) | Igaz, ha a diagramon sorozatvonalak vannak. |
-| [getOverlap()](#getOverlap--) | Megadja, mennyire fedjék egymást a sávok és oszlopok 2-D diagramokon, százalékban (-100 %-tól 100 %-ig). |
-| [setOverlap(byte value)](#setOverlap-byte-) | Megadja, mennyire fedjék egymást a sávok és oszlopok 2-D diagramokon, százalékban (-100 %-tól 100 %-ig). |
-| [getSecondPieSize()](#getSecondPieSize--) | Megadja a második kör vagy sáv méretét egy pie-of-pie vagy bar-of-pie diagramon, az első kör méretének százalékában (5-200 % között). |
-| [setSecondPieSize(int value)](#setSecondPieSize-int-) | Megadja a második kör vagy sáv méretét egy pie-of-pie vagy bar-of-pie diagramon, az első kör méretének százalékában (5-200 % között). |
-| [getPieSplitPosition()](#getPieSplitPosition--) | Megad egy értéket, amelyet a második kör vagy sáv adatpontjainak meghatározásához használnak egy pie-of-pie vagy bar-of-pie diagramon. |
-| [setPieSplitPosition(double value)](#setPieSplitPosition-double-) | Megad egy értéket, amelyet a második kör vagy sáv adatpontjainak meghatározásához használnak egy pie-of-pie vagy bar-of-pie diagramon. |
-| [getPieSplitBy()](#getPieSplitBy--) | Megadja, hogyan határozzák meg, hogy mely adatpontok legyenek a második körben vagy sávban egy pie-of-pie vagy bar-of-pie diagramon. |
-| [setPieSplitBy(int value)](#setPieSplitBy-int-) | Megadja, hogyan határozzák meg, hogy mely adatpontok legyenek a második körben vagy sávban egy pie-of-pie vagy bar-of-pie diagramon. |
-| [getPieSplitCustomPoints()](#getPieSplitCustomPoints--) | Az egyéni felosztási információ egy egyéni felosztású pie-of-pie vagy bar-of-pie diagramhoz. |
-| [getDoughnutHoleSize()](#getDoughnutHoleSize--) | Megadja a lyuk méretét egy doughnut diagramon (10-90 % a ábrázolási terület méretétől). |
-| [setDoughnutHoleSize(byte value)](#setDoughnutHoleSize-byte-) | Megadja a lyuk méretét egy doughnut diagramon (10-90 % a ábrázolási terület méretétől). |
-| [getBubbleSizeScale()](#getBubbleSizeScale--) | Megadja a méretezési tényezőt a bubble chart diagramhoz (0-300 % az alapértelmezett mérettől). |
-| [setBubbleSizeScale(int value)](#setBubbleSizeScale-int-) | Megadja a méretezési tényezőt a bubble chart diagramhoz (0-300 % az alapértelmezett mérettől). |
+| [getPlotOnSecondAxis()](#getPlotOnSecondAxis--) | Megmutatja, hogy a csoport sorozata másodlagos tengelyen van-e ábrázolva. |
+| [getSeries()](#getSeries--) | Visszaad egy csak olvasható gyűjteményt a diagram sorozatokról. |
+| [get_Item(int index)](#get-Item-int-) | Visszaadja a megadott indexű elemet. |
+| [getUpDownBars()](#getUpDownBars--) | Hozzáférést biztosít a fel/le sávokhoz vonal- vagy részvény-diagramon. |
+| [getGapWidth()](#getGapWidth--) | A sáv vagy oszlop csoportok közötti térközt adja meg vagy állítja be, a sáv vagy oszlop szélességének százalékában. |
+| [setGapWidth(int value)](#setGapWidth-int-) | A sáv vagy oszlop csoportok közötti térközt adja meg vagy állítja be, a sáv vagy oszlop szélességének százalékában. |
+| [getGapDepth()](#getGapDepth--) | A 3D diagram adat sorozatai közötti távolságot adja meg vagy állítja be, a jelölő szélességének százalékában. |
+| [setGapDepth(int value)](#setGapDepth-int-) | A 3D diagram adat sorozatai közötti távolságot adja meg vagy állítja be, a jelölő szélességének százalékában. |
+| [getFirstSliceAngle()](#getFirstSliceAngle--) | Az első kördiagram vagy fánk diagram szeletének szögét adja meg vagy állítja be fokban (óra járásával megegyező irányban felfelé nézve, 0-tól 360 fokig). |
+| [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | Az első kördiagram vagy fánk diagram szeletének szögét adja meg vagy állítja be fokban (óra járásával megegyező irányban felfelé nézve, 0-tól 360 fokig). |
+| [isColorVaried()](#isColorVaried--) | Megadja, hogy a sorozat minden adatjelölője különböző színű legyen. |
+| [setColorVaried(boolean value)](#setColorVaried-boolean-) | Megadja, hogy a sorozat minden adatjelölője különböző színű legyen. |
+| [hasSeriesLines()](#hasSeriesLines--) | Igaz, ha a diagramnak sorozatsorai vannak. |
+| [setSeriesLines(boolean value)](#setSeriesLines-boolean-) | Igaz, ha a diagramnak sorozatsorai vannak. |
+| [getOverlap()](#getOverlap--) | Megadja, hogy a sávok és oszlopok mennyire fedjék egymást 2-D diagramokon, százalékban (-100 % és 100 % között). |
+| [setOverlap(byte value)](#setOverlap-byte-) | Megadja, hogy a sávok és oszlopok mennyire fedjék egymást 2-D diagramokon, százalékban (-100 % és 100 % között). |
+| [getSecondPieSize()](#getSecondPieSize--) | Megadja a második kör vagy sáv méretét a kör-kör vagy sáv-kör diagramon, az első kör méretének százalékában (5-tól 200-ig százalék). |
+| [setSecondPieSize(int value)](#setSecondPieSize-int-) | Megadja a második kör vagy sáv méretét a kör-kör vagy sáv-kör diagramon, az első kör méretének százalékában (5-tól 200-ig százalék). |
+| [getPieSplitPosition()](#getPieSplitPosition--) | Megad egy értéket, amelyet a második kör vagy sáv adatpontjainak meghatározásához használnak a kör-kör vagy sáv-kör diagramon. |
+| [setPieSplitPosition(double value)](#setPieSplitPosition-double-) | Megad egy értéket, amelyet a második kör vagy sáv adatpontjainak meghatározásához használnak a kör-kör vagy sáv-kör diagramon. |
+| [getPieSplitBy()](#getPieSplitBy--) | Megadja, hogyan határozzák meg, mely adatpontok tartoznak a második kör vagy sáv alá a kör-kör vagy sáv-kör diagramon. |
+| [setPieSplitBy(int value)](#setPieSplitBy-int-) | Megadja, hogyan határozzák meg, mely adatpontok tartoznak a második kör vagy sáv alá a kör-kör vagy sáv-kör diagramon. |
+| [getPieSplitCustomPoints()](#getPieSplitCustomPoints--) | Az egyéni felosztási információ egy egyedi felosztású kör-kör vagy sáv-kör diagramhoz. |
+| [getDoughnutHoleSize()](#getDoughnutHoleSize--) | Megadja a fánk diagram lyukjának méretét (10-tól 90-ig százalék a rajzterület méretéhez viszonyítva). |
+| [setDoughnutHoleSize(byte value)](#setDoughnutHoleSize-byte-) | Megadja a fánk diagram lyukjának méretét (10-tól 90-ig százalék a rajzterület méretéhez viszonyítva). |
+| [getBubbleSizeScale()](#getBubbleSizeScale--) | Megadja a buborék diagram méretezési tényezőjét (0-tól 300-ig százalék az alapértelmezett mérettől). |
+| [setBubbleSizeScale(int value)](#setBubbleSizeScale-int-) | Megadja a buborék diagram méretezési tényezőjét (0-tól 300-ig százalék az alapértelmezett mérettől). |
 | [getHiLowLinesFormat()](#getHiLowLinesFormat--) | Megadja a HiLowLines formátumot. |
-| [getBubbleSizeRepresentation()](#getBubbleSizeRepresentation--) | Megadja, hogy a bubble size értékek hogyan jelennek meg a bubble chart diagramon. |
-| [setBubbleSizeRepresentation(int value)](#setBubbleSizeRepresentation-int-) | Megadja, hogy a bubble size értékek hogyan jelennek meg a bubble chart diagramon. |
+| [getBubbleSizeRepresentation()](#getBubbleSizeRepresentation--) | Megadja, hogyan jelennek meg a buborékméret értékek a buborék diagramon. |
+| [setBubbleSizeRepresentation(int value)](#setBubbleSizeRepresentation-int-) | Megadja, hogyan jelennek meg a buborékméret értékek a buborék diagramon. |
 
 ### getType() {#getType--}
 ```
 public abstract int getType()
 ```
 
-Visszaadja ennek a sorozatcsoportnak a típusát. Csak-olvasású [CombinableSeriesTypesGroup](../../com.aspose.slides/combinableseriestypesgroup).
+Visszaadja ennek a sorozatcsoportnak a típusát. Csak olvasható [CombinableSeriesTypesGroup](../../com.aspose.slides/combinableseriestypesgroup).
 
-**Visszatér:**
+**Visszatérési érték:**
 int
 
 ### getPlotOnSecondAxis() {#getPlotOnSecondAxis--}
@@ -68,9 +67,9 @@ int
 public abstract boolean getPlotOnSecondAxis()
 ```
 
-Jelzi, hogy a csoport sorozatai a másodlagos tengelyen kerülnek-e ábrázolásra. Csak-olvasású boolean.
+Megmutatja, hogy a csoport sorozata másodlagos tengelyen van-e ábrázolva. Csak olvasható boolean.
 
-**Visszatér:**
+**Visszatérési érték:**
 boolean
 
 ### getSeries() {#getSeries--}
@@ -78,9 +77,9 @@ boolean
 public abstract IChartSeriesReadonlyCollection getSeries()
 ```
 
-Visszaad egy csak-olvasású gyűjteményt a diagram sorozatokról. Csak-olvasású [IChartSeriesReadonlyCollection](../../com.aspose.slides/ichartseriesreadonlycollection).
+Visszaad egy csak olvasható gyűjteményt a diagram sorozatokról. Csak olvasható [IChartSeriesReadonlyCollection](../../com.aspose.slides/ichartseriesreadonlycollection).
 
-**Visszatér:**
+**Visszatérési érték:**
 [IChartSeriesReadonlyCollection](../../com.aspose.slides/ichartseriesreadonlycollection)
 
 ### get_Item(int index) {#get-Item-int-}
@@ -88,14 +87,14 @@ Visszaad egy csak-olvasású gyűjteményt a diagram sorozatokról. Csak-olvasá
 public abstract IChartSeries get_Item(int index)
 ```
 
-Lekéri a megadott indexű elemet.
+Visszaadja a megadott indexű elemet.
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
 | index | int |  |
 
-**Visszatér:**
+**Visszatérési érték:**
 [IChartSeries](../../com.aspose.slides/ichartseries)
 
 ### getUpDownBars() {#getUpDownBars--}
@@ -103,9 +102,9 @@ Lekéri a megadott indexű elemet.
 public abstract IUpDownBarsManager getUpDownBars()
 ```
 
-Lehetővé teszi a fel/le sávok elérését Line- vagy Stock-chart diagramon. Csak-olvasású [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager).
+Hozzáférést biztosít a fel/le sávokhoz vonal- vagy részvény-diagramon. Csak olvasható [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager).
 
-**Visszatér:**
+**Visszatérési érték:**
 [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager)
 
 ### getGapWidth() {#getGapWidth--}
@@ -113,9 +112,13 @@ Lehetővé teszi a fel/le sávok elérését Line- vagy Stock-chart diagramon. C
 public abstract int getGapWidth()
 ```
 
-Megadja a sáv- vagy oszlop-csoportok közötti távolságot a sáv vagy oszlop szélességének százalékában. Olvasható/írható int.
+A sáv vagy oszlop csoportok közötti térközt adja meg vagy állítja be, a sáv vagy oszlop szélességének százalékában. Az értéknek 0-tól 500-ig kell lennie. Olvasás/írás int.
 
-**Visszatér:**
+--------------------
+
+Ez a tulajdonság a következő típusú sorozatokra vonatkozik: minden sáv és oszlop altípus, [ChartType.BarOfPie](../../com.aspose.slides/charttype\#BarOfPie), [ChartType.PieOfPie](../../com.aspose.slides/charttype\#PieOfPie), [ChartType.BoxAndWhisker](../../com.aspose.slides/charttype\#BoxAndWhisker), [ChartType.Funnel](../../com.aspose.slides/charttype\#Funnel), [ChartType.Histogram](../../com.aspose.slides/charttype\#Histogram), [ChartType.Waterfall](../../com.aspose.slides/charttype\#Waterfall).
+
+**Visszatérési érték:**
 int
 
 ### setGapWidth(int value) {#setGapWidth-int-}
@@ -123,7 +126,11 @@ int
 public abstract void setGapWidth(int value)
 ```
 
-Megadja a sáv- vagy oszlop-csoportok közötti távolságot a sáv vagy oszlop szélességének százalékában. Olvasható/írható int.
+A sáv vagy oszlop csoportok közötti térközt adja meg vagy állítja be, a sáv vagy oszlop szélességének százalékában. Az értéknek 0-tól 500-ig kell lennie. Olvasás/írás int.
+
+--------------------
+
+Ez a tulajdonság a következő típusú sorozatokra vonatkozik: minden sáv és oszlop altípus, [ChartType.BarOfPie](../../com.aspose.slides/charttype\#BarOfPie), [ChartType.PieOfPie](../../com.aspose.slides/charttype\#PieOfPie), [ChartType.BoxAndWhisker](../../com.aspose.slides/charttype\#BoxAndWhisker), [ChartType.Funnel](../../com.aspose.slides/charttype\#Funnel), [ChartType.Histogram](../../com.aspose.slides/charttype\#Histogram), [ChartType.Waterfall](../../com.aspose.slides/charttype\#Waterfall).
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
@@ -135,9 +142,13 @@ Megadja a sáv- vagy oszlop-csoportok közötti távolságot a sáv vagy oszlop 
 public abstract int getGapDepth()
 ```
 
-Visszaadja vagy beállítja a távolságot, a marker szélességének százalékában, az adat sorozatok között egy 3D diagramon. Olvasható/írható int.
+A 3D diagram adat sorozatai közötti távolságot adja meg vagy állítja be, a jelölő szélességének százalékában. Az értéknek 0-tól 500-ig kell lennie. Olvasás/írás int.
 
-**Visszatér:**
+--------------------
+
+Ez a tulajdonság a következő típusú sorozatokra vonatkozik: 3D sáv és oszlop altípusok, [ChartType.Line3D](../../com.aspose.slides/charttype\#Line3D), [ChartType.Area3D](../../com.aspose.slides/charttype\#Area3D), [ChartType.StackedArea3D](../../com.aspose.slides/charttype\#StackedArea3D), [ChartType.PercentsStackedArea3D](../../com.aspose.slides/charttype\#PercentsStackedArea3D).
+
+**Visszatérési érték:**
 int
 
 ### setGapDepth(int value) {#setGapDepth-int-}
@@ -145,7 +156,11 @@ int
 public abstract void setGapDepth(int value)
 ```
 
-Visszaadja vagy beállítja a távolságot, a marker szélességének százalékában, az adat sorozatok között egy 3D diagramon. Olvasható/írható int.
+A 3D diagram adat sorozatai közötti távolságot adja meg vagy állítja be, a jelölő szélességének százalékában. Az értéknek 0-tól 500-ig kell lennie. Olvasás/írás int.
+
+--------------------
+
+Ez a tulajdonság a következő típusú sorozatokra vonatkozik: 3D sáv és oszlop altípusok, [ChartType.Line3D](../../com.aspose.slides/charttype\#Line3D), [ChartType.Area3D](../../com.aspose.slides/charttype\#Area3D), [ChartType.StackedArea3D](../../com.aspose.slides/charttype\#StackedArea3D), [ChartType.PercentsStackedArea3D](../../com.aspose.slides/charttype\#PercentsStackedArea3D).
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
@@ -157,9 +172,9 @@ Visszaadja vagy beállítja a távolságot, a marker szélességének százalék
 public abstract int getFirstSliceAngle()
 ```
 
-Lekéri vagy beállítja az első kör- vagy galambkör-szelet szögét fokban (az órakorra felülről, 0-tól 360 fokig). Olvasható/írható int.
+Az első kördiagram vagy fánk diagram szeletének szögét adja meg vagy állítja be fokban (óra járásával megegyező irányban felfelé nézve, 0-tól 360 fokig). Olvasás/írás int.
 
-**Visszatér:**
+**Visszatérési érték:**
 int
 
 ### setFirstSliceAngle(int value) {#setFirstSliceAngle-int-}
@@ -167,7 +182,7 @@ int
 public abstract void setFirstSliceAngle(int value)
 ```
 
-Lekéri vagy beállítja az első kör- vagy galambkör-szelet szögét fokban (az órakorra felülről, 0-tól 360 fokig). Olvasható/írható int.
+Az első kördiagram vagy fánk diagram szeletének szögét adja meg vagy állítja be fokban (óra járásával megegyező irányban felfelé nézve, 0-tól 360 fokig). Olvasás/írás int.
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
@@ -179,9 +194,9 @@ Lekéri vagy beállítja az első kör- vagy galambkör-szelet szögét fokban (
 public abstract boolean isColorVaried()
 ```
 
-Megadja, hogy a sorozat minden adatjelzője különböző színű legyen. Olvasható/írható boolean.
+Megadja, hogy a sorozat minden adatjelölője különböző színű legyen. Olvasás/írás boolean.
 
-**Visszatér:**
+**Visszatérési érték:**
 boolean
 
 ### setColorVaried(boolean value) {#setColorVaried-boolean-}
@@ -189,7 +204,7 @@ boolean
 public abstract void setColorVaried(boolean value)
 ```
 
-Megadja, hogy a sorozat minden adatjelzője különböző színű legyen. Olvasható/írható boolean.
+Megadja, hogy a sorozat minden adatjelölője különböző színű legyen. Olvasás/írás boolean.
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
@@ -201,9 +216,9 @@ Megadja, hogy a sorozat minden adatjelzője különböző színű legyen. Olvash
 public abstract boolean hasSeriesLines()
 ```
 
-Igaz, ha a diagramon sorozatvonalak vannak. Alkalmazva halmozott sáv- és OfPie diagramokra. Olvasható/írható boolean.
+Igaz, ha a diagramnak sorozatsorai vannak. Alkalmazható halmozott sáv és OfPie diagramokra. Olvasás/írás boolean.
 
-**Visszatér:**
+**Visszatérési érték:**
 boolean
 
 ### setSeriesLines(boolean value) {#setSeriesLines-boolean-}
@@ -211,7 +226,7 @@ boolean
 public abstract void setSeriesLines(boolean value)
 ```
 
-Igaz, ha a diagramon sorozatvonalak vannak. Alkalmazva halmozott sáv- és OfPie diagramokra. Olvasható/írható boolean.
+Igaz, ha a diagramnak sorozatsorai vannak. Alkalmazható halmozott sáv és OfPie diagramokra. Olvasás/írás boolean.
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
@@ -223,7 +238,7 @@ Igaz, ha a diagramon sorozatvonalak vannak. Alkalmazva halmozott sáv- és OfPie
 public abstract byte getOverlap()
 ```
 
-Megadja, mennyire fedjék egymást a sávok és oszlopok 2-D diagramokon, százalékban (-100 %-tól 100 %-ig). - -100 %: maximális térköz (a sávok teljesen el vannak választva). - 0 %: a sávok egymás mellett helyezkednek el átfedés vagy térköz nélkül. - 100 %: maximális átfedés (a sávok teljesen egymásra fednek). Ez a tulajdonság olvasható/írható byte.
+Megadja, hogy a sávok és oszlopok mennyire fedjék egymást 2-D diagramokon, százalékban (-100 %-tól 100 %-ig). -100 %: maximális távolság (a sávok teljesen elkülönülnek). 0 %: a sávok egymás mellett helyezkednek el átfedés vagy távolság nélkül. 100 %: maximális átfedés (a sávok teljesen egymásra fednek). Ez a tulajdonság olvasás/írás byte.
 
 --------------------
 
@@ -242,8 +257,7 @@ Megadja, mennyire fedjék egymást a sávok és oszlopok 2-D diagramokon, száza
 >  }
 > ```
 
-
-**Visszatér:**
+**Visszatérési érték:**
 byte
 
 ### setOverlap(byte value) {#setOverlap-byte-}
@@ -251,7 +265,7 @@ byte
 public abstract void setOverlap(byte value)
 ```
 
-Megadja, mennyire fedjék egymást a sávok és oszlopok 2-D diagramokon, százalékban (-100 %-tól 100 %-ig). - -100 %: maximális térköz (a sávok teljesen el vannak választva). - 0 %: a sávok egymás mellett helyezkednek el átfedés vagy térköz nélkül. - 100 %: maximális átfedés (a sávok teljesen egymásra fednek). Ez a tulajdonság olvasható/írható byte.
+Megadja, hogy a sávok és oszlopok mennyire fedjék egymást 2-D diagramokon, százalékban (-100 %-tól 100 %-ig). -100 %: maximális távolság (a sávok teljesen elkülönülnek). 0 %: a sávok egymás mellett helyezkednek el átfedés vagy távolság nélkül. 100 %: maximális átfedés (a sávok teljesen egymásra fednek). Ez a tulajdonság olvasás/írás byte.
 
 --------------------
 
@@ -270,7 +284,6 @@ Megadja, mennyire fedjék egymást a sávok és oszlopok 2-D diagramokon, száza
 >  }
 > ```
 
-
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
@@ -281,9 +294,9 @@ Megadja, mennyire fedjék egymást a sávok és oszlopok 2-D diagramokon, száza
 public abstract int getSecondPieSize()
 ```
 
-Megadja a második kör vagy sáv méretét egy pie-of-pie vagy bar-of-pie diagramon, az első kör méretének százalékában (5-200 % között). Olvasható/írható int.
+Megadja a második kör vagy sáv méretét a kör-kör vagy sáv-kör diagramon, az első kör méretének százalékában (5-tól 200-ig százalék). Olvasás/írás int.
 
-**Visszatér:**
+**Visszatérési érték:**
 int
 
 ### setSecondPieSize(int value) {#setSecondPieSize-int-}
@@ -291,7 +304,7 @@ int
 public abstract void setSecondPieSize(int value)
 ```
 
-Megadja a második kör vagy sáv méretét egy pie-of-pie vagy bar-of-pie diagramon, az első kör méretének százalékában (5-200 % között). Olvasható/írható int.
+Megadja a második kör vagy sáv méretét a kör-kör vagy sáv-kör diagramon, az első kör méretének százalékában (5-tól 200-ig százalék). Olvasás/írás int.
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
@@ -303,9 +316,9 @@ Megadja a második kör vagy sáv méretét egy pie-of-pie vagy bar-of-pie diagr
 public abstract double getPieSplitPosition()
 ```
 
-Megad egy értéket, amelyet a második kör vagy sáv adatpontjainak meghatározásához használnak egy pie-of-pie vagy bar-of-pie diagramon. A PieSplitBy tulajdonsággal együtt használatos. Olvasható/írható double.
+Megad egy értéket, amelyet a második kör vagy sáv adatpontjainak meghatározásához használnak a kör-kör vagy sáv-kör diagramon. A PieSplitBy tulajdonsággal együtt használható. Olvasás/írás double.
 
-**Visszatér:**
+**Visszatérési érték:**
 double
 
 ### setPieSplitPosition(double value) {#setPieSplitPosition-double-}
@@ -313,7 +326,7 @@ double
 public abstract void setPieSplitPosition(double value)
 ```
 
-Megad egy értéket, amelyet a második kör vagy sáv adatpontjainak meghatározásához használnak egy pie-of-pie vagy bar-of-pie diagramon. A PieSplitBy tulajdonsággal együtt használatos. Olvasható/írható double.
+Megad egy értéket, amelyet a második kör vagy sáv adatpontjainak meghatározásához használnak a kör-kör vagy sáv-kör diagramon. A PieSplitBy tulajdonsággal együtt használható. Olvasás/írás double.
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
@@ -325,9 +338,9 @@ Megad egy értéket, amelyet a második kör vagy sáv adatpontjainak meghatáro
 public abstract int getPieSplitBy()
 ```
 
-Megadja, hogyan határozzák meg, hogy mely adatpontok legyenek a második körben vagy sávban egy pie-of-pie vagy bar-of-pie diagramon. Olvasható/írható [PieSplitType](../../com.aspose.slides/piesplittype).
+Megadja, hogyan határozzák meg, mely adatpontok tartoznak a második kör vagy sáv alá a kör-kör vagy sáv-kör diagramon. Olvasás/írás [PieSplitType](../../com.aspose.slides/piesplittype).
 
-**Visszatér:**
+**Visszatérési érték:**
 int
 
 ### setPieSplitBy(int value) {#setPieSplitBy-int-}
@@ -335,7 +348,7 @@ int
 public abstract void setPieSplitBy(int value)
 ```
 
-Megadja, hogyan határozzák meg, hogy mely adatpontok legyenek a második körben vagy sávban egy pie-of-pie vagy bar-of-pie diagramon. Olvasható/írható [PieSplitType](../../com.aspose.slides/piesplittype).
+Megadja, hogyan határozzák meg, mely adatpontok tartoznak a második kör vagy sáv alá a kör-kör vagy sáv-kör diagramon. Olvasás/írás [PieSplitType](../../com.aspose.slides/piesplittype).
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
@@ -347,9 +360,9 @@ Megadja, hogyan határozzák meg, hogy mely adatpontok legyenek a második körb
 public abstract IPieSplitCustomPointCollection getPieSplitCustomPoints()
 ```
 
-Az egyéni felosztási információ egy egyéni felosztású pie-of-pie vagy bar-of-pie diagramhoz. Azokat az adatpontokat tartalmazza, amelyeket a második körben vagy sávban kell megjeleníteni. Csak-olvasású [IPieSplitCustomPointCollection](../../com.aspose.slides/ipiesplitcustompointcollection).
+Az egyéni felosztási információ egy egyedi felosztású kör-kör vagy sáv-kör diagramhoz. A második kör vagy sávban megjelenítendő adatpontokat tartalmazza. Csak olvasható [IPieSplitCustomPointCollection](../../com.aspose.slides/ipiesplitcustompointcollection).
 
-**Visszatér:**
+**Visszatérési érték:**
 [IPieSplitCustomPointCollection](../../com.aspose.slides/ipiesplitcustompointcollection)
 
 ### getDoughnutHoleSize() {#getDoughnutHoleSize--}
@@ -357,9 +370,9 @@ Az egyéni felosztási információ egy egyéni felosztású pie-of-pie vagy bar
 public abstract byte getDoughnutHoleSize()
 ```
 
-Megadja a lyuk méretét egy doughnut diagramon (10-90 % a ábrázolási terület méretétől). Olvasható/írható byte.
+Megadja a fánk diagram lyukjának méretét (10-tól 90-ig százalék a rajzterület méretéhez viszonyítva). Olvasás/írás byte.
 
-**Visszatér:**
+**Visszatérési érték:**
 byte
 
 ### setDoughnutHoleSize(byte value) {#setDoughnutHoleSize-byte-}
@@ -367,7 +380,7 @@ byte
 public abstract void setDoughnutHoleSize(byte value)
 ```
 
-Megadja a lyuk méretét egy doughnut diagramon (10-90 % a ábrázolási terület méretétől). Olvasható/írható byte.
+Megadja a fánk diagram lyukjának méretét (10-tól 90-ig százalék a rajzterület méretéhez viszonyítva). Olvasás/írás byte.
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
@@ -379,9 +392,9 @@ Megadja a lyuk méretét egy doughnut diagramon (10-90 % a ábrázolási terüle
 public abstract int getBubbleSizeScale()
 ```
 
-Megadja a méretezési tényezőt a bubble chart diagramhoz (0-300 % az alapértelmezett mérettől). Olvasható/írható int.
+Megadja a buborék diagram méretezési tényezőjét (0-tól 300-ig százalék az alapértelmezett mérettől). Olvasás/írás int.
 
-**Visszatér:**
+**Visszatérési érték:**
 int
 
 ### setBubbleSizeScale(int value) {#setBubbleSizeScale-int-}
@@ -389,7 +402,7 @@ int
 public abstract void setBubbleSizeScale(int value)
 ```
 
-Megadja a méretezési tényezőt a bubble chart diagramhoz (0-300 % az alapértelmezett mérettől). Olvasható/írható int.
+Megadja a buborék diagram méretezési tényezőjét (0-tól 300-ig százalék az alapértelmezett mérettől). Olvasás/írás int.
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
@@ -401,9 +414,9 @@ Megadja a méretezési tényezőt a bubble chart diagramhoz (0-300 % az alapért
 public abstract IChartLinesFormat getHiLowLinesFormat()
 ```
 
-Megadja a HiLowLines formátumot. A HiLowLines a HiLowClose, OpenHiLowClose, VolumeHiLowClose és VolumeOpenHiLowClose diagramtípusoknál alkalmazható.
+Megadja a HiLowLines formátumot. A HiLowLines a HiLowClose, OpenHiLowClose, VolumeHiLowClose és VolumeOpenHiLowClose diagramtípusokkal együtt használható.
 
-**Visszatér:**
+**Visszatérési érték:**
 [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat)
 
 ### getBubbleSizeRepresentation() {#getBubbleSizeRepresentation--}
@@ -411,9 +424,9 @@ Megadja a HiLowLines formátumot. A HiLowLines a HiLowClose, OpenHiLowClose, Vol
 public abstract int getBubbleSizeRepresentation()
 ```
 
-Megadja, hogy a bubble size értékek hogyan jelennek meg a bubble chart diagramon. Olvasható/írható [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
+Megadja, hogyan jelennek meg a buborékméret értékek a buborék diagramon. Olvasás/írás [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
 
-**Visszatér:**
+**Visszatérési érték:**
 int
 
 ### setBubbleSizeRepresentation(int value) {#setBubbleSizeRepresentation-int-}
@@ -421,7 +434,7 @@ int
 public abstract void setBubbleSizeRepresentation(int value)
 ```
 
-Megadja, hogy a bubble size értékek hogyan jelennek meg a bubble chart diagramon. Olvasható/írható [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
+Megadja, hogyan jelennek meg a buborékméret értékek a buborék diagramon. Olvasás/írás [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |

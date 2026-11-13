@@ -5,7 +5,7 @@ description: Représente un groupe de séries.
 type: docs
 url: /fr/com.aspose.slides/ichartseriesgroup/
 ---
-**Toutes les interfaces implémentées :**  
+**Toutes les interfaces implémentées :**
 [com.aspose.slides.IChartComponent](../../com.aspose.slides/ichartcomponent)
 ```
 public interface IChartSeriesGroup extends IChartComponent
@@ -15,117 +15,125 @@ Représente un groupe de séries.
 
 --------------------
 
-1) Voir le résumé et les remarques pour la classe ChartSeriesGroupCollection et l'énumération CombinableSeriesTypesGroup. 2) Le groupe de séries contient certaines propriétés communes à chaque série du groupe (« propriétés du groupe de séries »). Les « propriétés du groupe de séries » dans la classe ChartSeriesGroup sont lecture/écriture. Chaque propriété du groupe de séries peut avoir une projection en lecture seule dans la classe ChartSeries.  
+1) Voir le résumé et les remarques pour la classe ChartSeriesGroupCollection et l'énumération CombinableSeriesTypesGroup. 2) Un groupe de séries contient certaines propriétés de séries qui sont communes à chaque série du groupe (« series group properties »). « Series group properties » dans la classe ChartSeriesGroup sont en lecture/écriture. Chacune de ces « series group properties » peut avoir une projection en lecture seule dans la classe ChartSeries.
 
 ## Méthodes
 
 | Méthode | Description |
 | --- | --- |
-| [getType()](#getType--) | Retourne un type de ce groupe de séries. |
-| [getPlotOnSecondAxis()](#getPlotOnSecondAxis--) | Indique si les séries de ce groupe sont tracées sur un axe secondaire. |
-| [getSeries()](#getSeries--) | Retourne une collection en lecture seule de séries de graphique. |
-| [get_Item(int index)](#get-Item-int-) | Obtient l’élément à l’indice spécifié. |
-| [getUpDownBars()](#getUpDownBars--) | Fournit l’accès aux barres up/down d’un graphique en ligne ou en cours. |
-| [getGapWidth()](#getGapWidth--) | Spécifie l’espace entre les groupes de barres ou de colonnes, en pourcentage de la largeur de la barre ou de la colonne. |
-| [setGapWidth(int value)](#setGapWidth-int-) | Spécifie l’espace entre les groupes de barres ou de colonnes, en pourcentage de la largeur de la barre ou de la colonne. |
-| [getGapDepth()](#getGapDepth--) | Retourne ou définit la distance, en pourcentage de la largeur du marqueur, entre les séries de données dans un graphique 3D. |
-| [setGapDepth(int value)](#setGapDepth-int-) | Retourne ou définit la distance, en pourcentage de la largeur du marqueur, entre les séries de données dans un graphique 3D. |
-| [getFirstSliceAngle()](#getFirstSliceAngle--) | Obtient ou définit l’angle de la première tranche de diagramme circulaire ou en anneau, en degrés (dans le sens horaire depuis le haut, de 0 à 360 degrés). |
-| [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | Obtient ou définit l’angle de la première tranche de diagramme circulaire ou en anneau, en degrés (dans le sens horaire depuis le haut, de 0 à 360 degrés). |
-| [isColorVaried()](#isColorVaried--) | Indique que chaque indicateur de données de la série a une couleur différente. |
-| [setColorVaried(boolean value)](#setColorVaried-boolean-) | Indique que chaque indicateur de données de la série a une couleur différente. |
-| [hasSeriesLines()](#hasSeriesLines--) | Vrai si le graphique possède des lignes de série. |
-| [setSeriesLines(boolean value)](#setSeriesLines-boolean-) | Vrai si le graphique possède des lignes de série. |
-| [getOverlap()](#getOverlap--) | Spécifie le chevauchement des barres et colonnes sur les graphiques 2 D, en pourcentage (de -100 % à 100 %). |
-| [setOverlap(byte value)](#setOverlap-byte-) | Spécifie le chevauchement des barres et colonnes sur les graphiques 2 D, en pourcentage (de -100 % à 100 %). |
-| [getSecondPieSize()](#getSecondPieSize--) | Spécifie la taille du deuxième secteur ou barre d’un graphique « pie-of-pie » ou « bar-of-pie », en pourcentage de la taille du premier secteur (entre 5 % et 200 %). |
-| [setSecondPieSize(int value)](#setSecondPieSize-int-) | Spécifie la taille du deuxième secteur ou barre d’un graphique « pie-of-pie » ou « bar-of-pie », en pourcentage de la taille du premier secteur (entre 5 % et 200 %). |
-| [getPieSplitPosition()](#getPieSplitPosition--) | Spécifie une valeur utilisée pour déterminer quels points de données appartiennent au deuxième secteur ou barre d’un graphique « pie-of-pie » ou « bar-of-pie ». |
-| [setPieSplitPosition(double value)](#setPieSplitPosition-double-) | Spécifie une valeur utilisée pour déterminer quels points de données appartiennent au deuxième secteur ou barre d’un graphique « pie-of-pie » ou « bar-of-pie ». |
-| [getPieSplitBy()](#getPieSplitBy--) | Spécifie comment déterminer quels points de données appartiennent au deuxième secteur ou barre d’un graphique « pie-of-pie » ou « bar-of-pie ». |
-| [setPieSplitBy(int value)](#setPieSplitBy-int-) | Spécifie comment déterminer quels points de données appartiennent au deuxième secteur ou barre d’un graphique « pie-of-pie » ou « bar-of-pie ». |
-| [getPieSplitCustomPoints()](#getPieSplitCustomPoints--) | Informations de séparation personnalisée pour un graphique « pie-of-pie » ou « bar-of-pie » avec séparation personnalisée. |
-| [getDoughnutHoleSize()](#getDoughnutHoleSize--) | Spécifie la taille du trou dans un graphique en anneau (entre 10 % et 90 % de la zone de traçage). |
-| [setDoughnutHoleSize(byte value)](#setDoughnutHoleSize-byte-) | Spécifie la taille du trou dans un graphique en anneau (entre 10 % et 90 % de la zone de traçage). |
-| [getBubbleSizeScale()](#getBubbleSizeScale--) | Spécifie le facteur d’échelle pour le graphique à bulles (entre 0 % et 300 % de la taille par défaut). |
-| [setBubbleSizeScale(int value)](#setBubbleSizeScale-int-) | Spécifie le facteur d’échelle pour le graphique à bulles (entre 0 % et 300 % de la taille par défaut). |
-| [getHiLowLinesFormat()](#getHiLowLinesFormat--) | Spécifie le format HiLowLines. |
-| [getBubbleSizeRepresentation()](#getBubbleSizeRepresentation--) | Spécifie comment les valeurs de taille des bulles sont représentées sur le graphique à bulles. |
-| [setBubbleSizeRepresentation(int value)](#setBubbleSizeRepresentation-int-) | Spécifie comment les valeurs de taille des bulles sont représentées sur le graphique à bulles. |
+| [getType()](#getType--) | Returns a type of this series group. |
+| [getPlotOnSecondAxis()](#getPlotOnSecondAxis--) | Indicates if series of this group is plotted on secondary axis. |
+| [getSeries()](#getSeries--) | Returns a readonly collection of chart series. |
+| [get_Item(int index)](#get-Item-int-) | Gets the element at the specified index. |
+| [getUpDownBars()](#getUpDownBars--) | Provede access to up/down bars of Line- or Stock-chart. |
+| [getGapWidth()](#getGapWidth--) | Gets or sets the space between bar or column clusters, as a percentage of the bar or column width. |
+| [setGapWidth(int value)](#setGapWidth-int-) | Gets or sets the space between bar or column clusters, as a percentage of the bar or column width. |
+| [getGapDepth()](#getGapDepth--) | Gets or sets the distance between data series in a 3D chart, as a percentage of the marker width. |
+| [setGapDepth(int value)](#setGapDepth-int-) | Gets or sets the distance between data series in a 3D chart, as a percentage of the marker width. |
+| [getFirstSliceAngle()](#getFirstSliceAngle--) | Gets or sets the angle of the first pie or doughnut chart slice, in degrees (clockwise from up, from 0 to 360 degrees). |
+| [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | Gets or sets the angle of the first pie or doughnut chart slice, in degrees (clockwise from up, from 0 to 360 degrees). |
+| [isColorVaried()](#isColorVaried--) | Specifies that each data marker in the series has a different color. |
+| [setColorVaried(boolean value)](#setColorVaried-boolean-) | Specifies that each data marker in the series has a different color. |
+| [hasSeriesLines()](#hasSeriesLines--) | True if chart has series lines. |
+| [setSeriesLines(boolean value)](#setSeriesLines-boolean-) | True if chart has series lines. |
+| [getOverlap()](#getOverlap--) | Specifies how much bars and columns shall overlap on 2-D charts, as a percentage (from -100% to 100%). |
+| [setOverlap(byte value)](#setOverlap-byte-) | Specifies how much bars and columns shall overlap on 2-D charts, as a percentage (from -100% to 100%). |
+| [getSecondPieSize()](#getSecondPieSize--) | Specifies the size of the second pie or bar of a pie-of-pie chart or a bar-of-pie chart, as a percentage of the size of the first pie (can be between 5 and 200 percents). |
+| [setSecondPieSize(int value)](#setSecondPieSize-int-) | Specifies the size of the second pie or bar of a pie-of-pie chart or a bar-of-pie chart, as a percentage of the size of the first pie (can be between 5 and 200 percents). |
+| [getPieSplitPosition()](#getPieSplitPosition--) | Specifies a value that shall be used to determine which data points are in the second pie or bar on a pie-of-pie or bar-of-pie chart. |
+| [setPieSplitPosition(double value)](#setPieSplitPosition-double-) | Specifies a value that shall be used to determine which data points are in the second pie or bar on a pie-of-pie or bar-of-pie chart. |
+| [getPieSplitBy()](#getPieSplitBy--) | Specifies how to determine which data points are in the second pie or bar on a pie-of-pie or bar-of-pie chart. |
+| [setPieSplitBy(int value)](#setPieSplitBy-int-) | Specifies how to determine which data points are in the second pie or bar on a pie-of-pie or bar-of-pie chart. |
+| [getPieSplitCustomPoints()](#getPieSplitCustomPoints--) | The custom split information for a pie-of-pie or bar-of-pie chart with a custom split. |
+| [getDoughnutHoleSize()](#getDoughnutHoleSize--) | Specifies the size of the hole in a doughnut chart (can be between 10 and 90 percents of the size of the plot area.). |
+| [setDoughnutHoleSize(byte value)](#setDoughnutHoleSize-byte-) | Specifies the size of the hole in a doughnut chart (can be between 10 and 90 percents of the size of the plot area.). |
+| [getBubbleSizeScale()](#getBubbleSizeScale--) | Specifies the scale factor for the bubble chart (can be between 0 and 300 percents of the default size). |
+| [setBubbleSizeScale(int value)](#setBubbleSizeScale-int-) | Specifies the scale factor for the bubble chart (can be between 0 and 300 percents of the default size). |
+| [getHiLowLinesFormat()](#getHiLowLinesFormat--) | Specifies HiLowLines format. |
+| [getBubbleSizeRepresentation()](#getBubbleSizeRepresentation--) | Specifies how the bubble size values are represented on the bubble chart. |
+| [setBubbleSizeRepresentation(int value)](#setBubbleSizeRepresentation-int-) | Specifies how the bubble size values are represented on the bubble chart. |
 
 ### getType() {#getType--}
 ```
 public abstract int getType()
 ```
 
-Retourne un type de ce groupe de séries. Lecture seule [CombinableSeriesTypesGroup](../../com.aspose.slides/combinableseriestypesgroup).
+Renvoie un type de ce groupe de séries. Lecture seule [CombinableSeriesTypesGroup](../../com.aspose.slides/combinableseriestypesgroup).
 
-**Retourne :**  
-int  
+**Retour :**
+int
 
 ### getPlotOnSecondAxis() {#getPlotOnSecondAxis--}
 ```
 public abstract boolean getPlotOnSecondAxis()
 ```
 
-Indique si les séries de ce groupe sont tracées sur un axe secondaire. Lecture seule booléen.
+Indique si les séries de ce groupe sont tracées sur un axe secondaire. Booléen lecture seule.
 
-**Retourne :**  
-boolean  
+**Retour :**
+boolean
 
 ### getSeries() {#getSeries--}
 ```
 public abstract IChartSeriesReadonlyCollection getSeries()
 ```
 
-Retourne une collection en lecture seule de séries de graphique. Lecture seule [IChartSeriesReadonlyCollection](../../com.aspose.slides/ichartseriesreadonlycollection).
+Renvoie une collection en lecture seule de séries de diagramme. Lecture seule [IChartSeriesReadonlyCollection](../../com.aspose.slides/ichartseriesreadonlycollection).
 
-**Retourne :**  
-[IChartSeriesReadonlyCollection](../../com.aspose.slides/ichartseriesreadonlycollection)  
+**Retour :**
+[IChartSeriesReadonlyCollection](../../com.aspose.slides/ichartseriesreadonlycollection)
 
 ### get_Item(int index) {#get-Item-int-}
 ```
 public abstract IChartSeries get_Item(int index)
 ```
 
-Obtient l’élément à l’indice spécifié.
+Obtient l'élément à l'index spécifié.
 
-**Paramètres :**  
+**Paramètres :**
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | index | int |  |
 
-**Retourne :**  
-[IChartSeries](../../com.aspose.slides/ichartseries)  
+**Retour :**
+[IChartSeries](../../com.aspose.slides/ichartseries)
 
 ### getUpDownBars() {#getUpDownBars--}
 ```
 public abstract IUpDownBarsManager getUpDownBars()
 ```
 
-Fournit l’accès aux barres up/down d’un graphique en ligne ou en cours. Lecture seule [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager).
+Fournit l'accès aux barres haut/bas du diagramme en ligne ou en cours. Lecture seule [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager).
 
-**Retourne :**  
-[IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager)  
+**Retour :**
+[IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager)
 
 ### getGapWidth() {#getGapWidth--}
 ```
 public abstract int getGapWidth()
 ```
 
-Spécifie l’espace entre les groupes de barres ou de colonnes, en pourcentage de la largeur de la barre ou de la colonne. Lecture/écriture int.
+Obtient ou définit l'espace entre les groupes de barres ou de colonnes, en pourcentage de la largeur de la barre ou de la colonne. La valeur doit être comprise entre 0 et 500. Entier lecture/écriture.
 
-**Retourne :**  
-int  
+--------------------
+
+Cette propriété s'applique aux séries des types suivants : tous les sous-types de barres et de colonnes, [ChartType.BarOfPie](../../com.aspose.slides/charttype\#BarOfPie), [ChartType.PieOfPie](../../com.aspose.slides/charttype\#PieOfPie), [ChartType.BoxAndWhisker](../../com.aspose.slides/charttype\#BoxAndWhisker), [ChartType.Funnel](../../com.aspose.slides/charttype\#Funnel), [ChartType.Histogram](../../com.aspose.slides/charttype\#Histogram), [ChartType.Waterfall](../../com.aspose.slides/charttype\#Waterfall).
+
+**Retour :**
+int
 
 ### setGapWidth(int value) {#setGapWidth-int-}
 ```
 public abstract void setGapWidth(int value)
 ```
 
-Spécifie l’espace entre les groupes de barres ou de colonnes, en pourcentage de la largeur de la barre ou de la colonne. Lecture/écriture int.
+Obtient ou définit l'espace entre les groupes de barres ou de colonnes, en pourcentage de la largeur de la barre ou de la colonne. La valeur doit être comprise entre 0 et 500. Entier lecture/écriture.
 
-**Paramètres :**  
+--------------------
+
+Cette propriété s'applique aux séries des types suivants : tous les sous-types de barres et de colonnes, [ChartType.BarOfPie](../../com.aspose.slides/charttype\#BarOfPie), [ChartType.PieOfPie](../../com.aspose.slides/charttype\#PieOfPie), [ChartType.BoxAndWhisker](../../com.aspose.slides/charttype\#BoxAndWhisker), [ChartType.Funnel](../../com.aspose.slides/charttype\#Funnel), [ChartType.Histogram](../../com.aspose.slides/charttype\#Histogram), [ChartType.Waterfall](../../com.aspose.slides/charttype\#Waterfall).
+
+**Paramètres :**
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | value | int |  |
@@ -135,19 +143,27 @@ Spécifie l’espace entre les groupes de barres ou de colonnes, en pourcentage 
 public abstract int getGapDepth()
 ```
 
-Retourne ou définit la distance, en pourcentage de la largeur du marqueur, entre les séries de données dans un graphique 3D. Lecture/écriture int.
+Obtient ou définit la distance entre les séries de données dans un diagramme 3D, en pourcentage de la largeur du marqueur. La valeur doit être comprise entre 0 et 500. Entier lecture/écriture.
 
-**Retourne :**  
-int  
+--------------------
+
+Cette propriété s'applique aux séries des types suivants : sous-types de barres et de colonnes 3D, [ChartType.Line3D](../../com.aspose.slides/charttype\#Line3D), [ChartType.Area3D](../../com.aspose.slides/charttype\#Area3D), [ChartType.StackedArea3D](../../com.aspose.slides/charttype\#StackedArea3D), [ChartType.PercentsStackedArea3D](../../com.aspose.slides/charttype\#PercentsStackedArea3D).
+
+**Retour :**
+int
 
 ### setGapDepth(int value) {#setGapDepth-int-}
 ```
 public abstract void setGapDepth(int value)
 ```
 
-Retourne ou définit la distance, en pourcentage de la largeur du marqueur, entre les séries de données dans un graphique 3D. Lecture/écriture int.
+Obtient ou définit la distance entre les séries de données dans un diagramme 3D, en pourcentage de la largeur du marqueur. La valeur doit être comprise entre 0 et 500. Entier lecture/écriture.
 
-**Paramètres :**  
+--------------------
+
+Cette propriété s'applique aux séries des types suivants : sous-types de barres et de colonnes 3D, [ChartType.Line3D](../../com.aspose.slides/charttype\#Line3D), [ChartType.Area3D](../../com.aspose.slides/charttype\#Area3D), [ChartType.StackedArea3D](../../com.aspose.slides/charttype\#StackedArea3D), [ChartType.PercentsStackedArea3D](../../com.aspose.slides/charttype\#PercentsStackedArea3D).
+
+**Paramètres :**
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | value | int |  |
@@ -157,19 +173,19 @@ Retourne ou définit la distance, en pourcentage de la largeur du marqueur, entr
 public abstract int getFirstSliceAngle()
 ```
 
-Obtient ou définit l’angle de la première tranche de diagramme circulaire ou en anneau, en degrés (dans le sens horaire depuis le haut, de 0 à 360 degrés). Lecture/écriture int.
+Obtient ou définit l'angle de la première tranche de diagramme en secteurs ou en beignets, en degrés (dans le sens horaire depuis le haut, de 0 à 360 degrés). Entier lecture/écriture.
 
-**Retourne :**  
-int  
+**Retour :**
+int
 
 ### setFirstSliceAngle(int value) {#setFirstSliceAngle-int-}
 ```
 public abstract void setFirstSliceAngle(int value)
 ```
 
-Obtient ou définit l’angle de la première tranche de diagramme circulaire ou en anneau, en degrés (dans le sens horaire depuis le haut, de 0 à 360 degrés). Lecture/écriture int.
+Obtient ou définit l'angle de la première tranche de diagramme en secteurs ou en beignets, en degrés (dans le sens horaire depuis le haut, de 0 à 360 degrés). Entier lecture/écriture.
 
-**Paramètres :**  
+**Paramètres :**
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | value | int |  |
@@ -179,19 +195,19 @@ Obtient ou définit l’angle de la première tranche de diagramme circulaire ou
 public abstract boolean isColorVaried()
 ```
 
-Indique que chaque indicateur de données de la série a une couleur différente. Lecture/écriture booléen.
+Spécifie que chaque marqueur de données dans la série a une couleur différente. Booléen lecture/écriture.
 
-**Retourne :**  
-boolean  
+**Retour :**
+boolean
 
 ### setColorVaried(boolean value) {#setColorVaried-boolean-}
 ```
 public abstract void setColorVaried(boolean value)
 ```
 
-Indique que chaque indicateur de données de la série a une couleur différente. Lecture/écriture booléen.
+Spécifie que chaque marqueur de données dans la série a une couleur différente. Booléen lecture/écriture.
 
-**Paramètres :**  
+**Paramètres :**
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
@@ -201,19 +217,19 @@ Indique que chaque indicateur de données de la série a une couleur différente
 public abstract boolean hasSeriesLines()
 ```
 
-Vrai si le graphique possède des lignes de série. Appliqué aux graphiques à barres empilées et OfPie. Lecture/écriture booléen.
+Vrai si le diagramme possède des lignes de série. S'applique aux diagrammes à barres empilées et OfPie. Booléen lecture/écriture.
 
-**Retourne :**  
-boolean  
+**Retour :**
+boolean
 
 ### setSeriesLines(boolean value) {#setSeriesLines-boolean-}
 ```
 public abstract void setSeriesLines(boolean value)
 ```
 
-Vrai si le graphique possède des lignes de série. Appliqué aux graphiques à barres empilées et OfPie. Lecture/écriture booléen.
+Vrai si le diagramme possède des lignes de série. S'applique aux diagrammes à barres empilées et OfPie. Booléen lecture/écriture.
 
-**Paramètres :**  
+**Paramètres :**
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
@@ -223,7 +239,7 @@ Vrai si le graphique possède des lignes de série. Appliqué aux graphiques à 
 public abstract byte getOverlap()
 ```
 
-Spécifie le chevauchement des barres et colonnes sur les graphiques 2 D, en pourcentage (de -100 % à 100 %). -100 % : espacement maximal (les barres sont totalement séparées). -0 % : les barres sont côte à côte sans chevauchement ni espacement. 100 % : chevauchement maximal (les barres se superposent entièrement). Cette propriété est lecture/écriture byte.
+Spécifie de combien les barres et colonnes doivent se chevaucher sur les diagrammes 2-D, en pourcentage (de -100 % à 100 %). -100 % : espacement maximal (les barres sont complètement séparées). -0 % : les barres sont côte à côte sans chevauchement ni espacement. 100 % : chevauchement maximal (les barres se superposent entièrement). Cette propriété est un octet lecture/écriture.
 
 --------------------
 
@@ -235,7 +251,7 @@ Spécifie le chevauchement des barres et colonnes sur les graphiques 2 D, en pou
 >  try {
 >      IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);
 >      IChartSeriesCollection series = chart.getChartData().getSeries();
->      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // Définir le chevauchement à 55%
+>      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // Définit le chevauchement à 55%
 >      pres.getSlides().get_Item(0).getImage(1, 1).save("chart.png");
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -243,15 +259,15 @@ Spécifie le chevauchement des barres et colonnes sur les graphiques 2 D, en pou
 > ```
 
 
-**Retourne :**  
-byte  
+**Retour :**
+byte
 
 ### setOverlap(byte value) {#setOverlap-byte-}
 ```
 public abstract void setOverlap(byte value)
 ```
 
-Spécifie le chevauchement des barres et colonnes sur les graphiques 2 D, en pourcentage (de -100 % à 100 %). -100 % : espacement maximal (les barres sont totalement séparées). -0 % : les barres sont côte à côte sans chevauchement ni espacement. 100 % : chevauchement maximal (les barres se superposent entièrement). Cette propriété est lecture/écriture byte.
+Spécifie de combien les barres et colonnes doivent se chevaucher sur les diagrammes 2-D, en pourcentage (de -100 % à 100 %). -100 % : espacement maximal (les barres sont complètement séparées). -0 % : les barres sont côte à côte sans chevauchement ni espacement. 100 % : chevauchement maximal (les barres se superposent entièrement). Cette propriété est un octet lecture/écriture.
 
 --------------------
 
@@ -263,7 +279,7 @@ Spécifie le chevauchement des barres et colonnes sur les graphiques 2 D, en pou
 >  try {
 >      IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);
 >      IChartSeriesCollection series = chart.getChartData().getSeries();
->      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // Définir le chevauchement à 55%
+>      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // Définit le chevauchement à 55%
 >      pres.getSlides().get_Item(0).getImage(1, 1).save("chart.png", ImageFormat.Png);
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -271,7 +287,7 @@ Spécifie le chevauchement des barres et colonnes sur les graphiques 2 D, en pou
 > ```
 
 
-**Paramètres :**  
+**Paramètres :**
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | value | byte |  |
@@ -281,19 +297,19 @@ Spécifie le chevauchement des barres et colonnes sur les graphiques 2 D, en pou
 public abstract int getSecondPieSize()
 ```
 
-Spécifie la taille du deuxième secteur ou barre d’un graphique « pie-of-pie » ou « bar-of-pie », en pourcentage de la taille du premier secteur (entre 5 % et 200 %). Lecture/écriture int.
+Spécifie la taille du deuxième secteur ou de la deuxième barre d'un diagramme « pie-of-pie » ou « bar-of-pie », en pourcentage de la taille du premier secteur (entre 5 % et 200 %). Entier lecture/écriture.
 
-**Retourne :**  
-int  
+**Retour :**
+int
 
 ### setSecondPieSize(int value) {#setSecondPieSize-int-}
 ```
 public abstract void setSecondPieSize(int value)
 ```
 
-Spécifie la taille du deuxième secteur ou barre d’un graphique « pie-of-pie » ou « bar-of-pie », en pourcentage de la taille du premier secteur (entre 5 % et 200 %). Lecture/écriture int.
+Spécifie la taille du deuxième secteur ou de la deuxième barre d'un diagramme « pie-of-pie » ou « bar-of-pie », en pourcentage de la taille du premier secteur (entre 5 % et 200 %). Entier lecture/écriture.
 
-**Paramètres :**  
+**Paramètres :**
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | value | int |  |
@@ -303,19 +319,19 @@ Spécifie la taille du deuxième secteur ou barre d’un graphique « pie-of-pie
 public abstract double getPieSplitPosition()
 ```
 
-Spécifie une valeur utilisée pour déterminer quels points de données appartiennent au deuxième secteur ou barre d’un graphique « pie-of-pie » ou « bar-of-pie ». Utilisée conjointement avec la propriété PieSplitBy. Lecture/écriture double.
+Spécifie une valeur qui doit être utilisée pour déterminer quels points de données se trouvent dans le deuxième secteur ou la deuxième barre d'un diagramme « pie-of-pie » ou « bar-of-pie ». Utilisée conjointement avec la propriété PieSplitBy. Double lecture/écriture.
 
-**Retourne :**  
-double  
+**Retour :**
+double
 
 ### setPieSplitPosition(double value) {#setPieSplitPosition-double-}
 ```
 public abstract void setPieSplitPosition(double value)
 ```
 
-Spécifie une valeur utilisée pour déterminer quels points de données appartiennent au deuxième secteur ou barre d’un graphique « pie-of-pie » ou « bar-of-pie ». Utilisée conjointement avec la propriété PieSplitBy. Lecture/écriture double.
+Spécifie une valeur qui doit être utilisée pour déterminer quels points de données se trouvent dans le deuxième secteur ou la deuxième barre d'un diagramme « pie-of-pie » ou « bar-of-pie ». Utilisée conjointement avec la propriété PieSplitBy. Double lecture/écriture.
 
-**Paramètres :**  
+**Paramètres :**
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | value | double |  |
@@ -325,19 +341,19 @@ Spécifie une valeur utilisée pour déterminer quels points de données apparti
 public abstract int getPieSplitBy()
 ```
 
-Spécifie comment déterminer quels points de données appartiennent au deuxième secteur ou barre d’un graphique « pie-of-pie » ou « bar-of-pie ». Lecture/écriture [PieSplitType](../../com.aspose.slides/piesplittype).
+Spécifie comment déterminer quels points de données se trouvent dans le deuxième secteur ou la deuxième barre d'un diagramme « pie-of-pie » ou « bar-of-pie ». Lecture/écriture [PieSplitType](../../com.aspose.slides/piesplittype).
 
-**Retourne :**  
-int  
+**Retour :**
+int
 
 ### setPieSplitBy(int value) {#setPieSplitBy-int-}
 ```
 public abstract void setPieSplitBy(int value)
 ```
 
-Spécifie comment déterminer quels points de données appartiennent au deuxième secteur ou barre d’un graphique « pie-of-pie » ou « bar-of-pie ». Lecture/écriture [PieSplitType](../../com.aspose.slides/piesplittype).
+Spécifie comment déterminer quels points de données se trouvent dans le deuxième secteur ou la deuxième barre d'un diagramme « pie-of-pie » ou « bar-of-pie ». Lecture/écriture [PieSplitType](../../com.aspose.slides/piesplittype).
 
-**Paramètres :**  
+**Paramètres :**
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | value | int |  |
@@ -347,29 +363,29 @@ Spécifie comment déterminer quels points de données appartiennent au deuxièm
 public abstract IPieSplitCustomPointCollection getPieSplitCustomPoints()
 ```
 
-Les informations de séparation personnalisée pour un graphique « pie-of-pie » ou « bar-of-pie » avec séparation personnalisée. Contient les points de données à dessiner dans le deuxième secteur ou barre. Lecture seule [IPieSplitCustomPointCollection](../../com.aspose.slides/ipiesplitcustompointcollection).
+Les informations de division personnalisée pour un diagramme « pie-of-pie » ou « bar-of-pie » avec division personnalisée. Contient les points de données qui doivent être dessinés dans le deuxième secteur ou la deuxième barre. Lecture seule [IPieSplitCustomPointCollection](../../com.aspose.slides/ipiesplitcustompointcollection).
 
-**Retourne :**  
-[IPieSplitCustomPointCollection](../../com.aspose.slides/ipiesplitcustompointcollection)  
+**Retour :**
+[IPieSplitCustomPointCollection](../../com.aspose.slides/ipiesplitcustompointcollection)
 
 ### getDoughnutHoleSize() {#getDoughnutHoleSize--}
 ```
 public abstract byte getDoughnutHoleSize()
 ```
 
-Spécifie la taille du trou dans un graphique en anneau (entre 10 % et 90 % de la taille de la zone de traçage). Lecture/écriture byte.
+Spécifie la taille du trou dans un diagramme en beignets (entre 10 % et 90 % de la taille de la zone de traçage). Octet lecture/écriture.
 
-**Retourne :**  
-byte  
+**Retour :**
+byte
 
 ### setDoughnutHoleSize(byte value) {#setDoughnutHoleSize-byte-}
 ```
 public abstract void setDoughnutHoleSize(byte value)
 ```
 
-Spécifie la taille du trou dans un graphique en anneau (entre 10 % et 90 % de la taille de la zone de traçage). Lecture/écriture byte.
+Spécifie la taille du trou dans un diagramme en beignets (entre 10 % et 90 % de la taille de la zone de traçage). Octet lecture/écriture.
 
-**Paramètres :**  
+**Paramètres :**
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | value | byte |  |
@@ -379,19 +395,19 @@ Spécifie la taille du trou dans un graphique en anneau (entre 10 % et 90 % de l
 public abstract int getBubbleSizeScale()
 ```
 
-Spécifie le facteur d’échelle pour le graphique à bulles (entre 0 % et 300 % de la taille par défaut). Lecture/écriture int.
+Spécifie le facteur d'échelle pour le diagramme à bulles (entre 0 % et 300 % de la taille par défaut). Entier lecture/écriture.
 
-**Retourne :**  
-int  
+**Retour :**
+int
 
 ### setBubbleSizeScale(int value) {#setBubbleSizeScale-int-}
 ```
 public abstract void setBubbleSizeScale(int value)
 ```
 
-Spécifie le facteur d’échelle pour le graphique à bulles (entre 0 % et 300 % de la taille par défaut). Lecture/écriture int.
+Spécifie le facteur d'échelle pour le diagramme à bulles (entre 0 % et 300 % de la taille par défaut). Entier lecture/écriture.
 
-**Paramètres :**  
+**Paramètres :**
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | value | int |  |
@@ -401,29 +417,29 @@ Spécifie le facteur d’échelle pour le graphique à bulles (entre 0 % et 300 
 public abstract IChartLinesFormat getHiLowLinesFormat()
 ```
 
-Spécifie le format HiLowLines. HiLowLines appliqué aux types de graphiques HiLowClose, OpenHiLowClose, VolumeHiLowClose et VolumeOpenHiLowClose.
+Spécifie le format HiLowLines. HiLowLines s'applique aux types de diagrammes HiLowClose, OpenHiLowClose, VolumeHiLowClose et VolumeOpenHiLowClose.
 
-**Retourne :**  
-[IChartLinesFormat](../../com.aspose.slides/ichartlinesformat)  
+**Retour :**
+[IChartLinesFormat](../../com.aspose.slides/ichartlinesformat)
 
 ### getBubbleSizeRepresentation() {#getBubbleSizeRepresentation--}
 ```
 public abstract int getBubbleSizeRepresentation()
 ```
 
-Spécifie comment les valeurs de taille des bulles sont représentées sur le graphique à bulles. Lecture/écriture [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
+Spécifie comment les valeurs de taille de bulle sont représentées sur le diagramme à bulles. Lecture/écriture [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
 
-**Retourne :**  
-int  
+**Retour :**
+int
 
 ### setBubbleSizeRepresentation(int value) {#setBubbleSizeRepresentation-int-}
 ```
 public abstract void setBubbleSizeRepresentation(int value)
 ```
 
-Spécifie comment les valeurs de taille des bulles sont représentées sur le graphique à bulles. Lecture/écriture [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
+Spécifie comment les valeurs de taille de bulle sont représentées sur le diagramme à bulles. Lecture/écriture [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
 
-**Paramètres :**  
+**Paramètres :**
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | value | int |  |

@@ -1,7 +1,7 @@
 ---
 title: IChartDataPoint
 second_title: Aspose.Slides voor Java API-referentie
-description: Vertegenwoordigt een seriedatapunt.
+description: Stelt een seriesdatapunt voor.
 type: docs
 url: /nl/com.aspose.slides/ichartdatapoint/
 ---
@@ -11,42 +11,47 @@ url: /nl/com.aspose.slides/ichartdatapoint/
 public interface IChartDataPoint extends IActualLayout
 ```
 
-Vertegenwoordigt een seriedatapunt.
+Stelt een seriesdatapunt voor.
 ## Methoden
 
 | Methode | Beschrijving |
 | --- | --- |
-| [getXValue()](#getXValue--) | Retourneert de x-waarde van het diagramdatapunt. |
-| [getYValue()](#getYValue--) | Retourneert de y-waarde van het diagramdatapunt. |
-| [getBubbleSize()](#getBubbleSize--) | Retourneert de bubbelgrootte van het diagramdatapunt. |
-| [getValue()](#getValue--) | Retourneert de waarde van het diagramdatapunt. |
-| [getSizeValue()](#getSizeValue--) | Retourneert de groottewaarde van het diagramdatapunt. |
-| [getColorValue()](#getColorValue--) | Retourneert de kleurwaarde van het diagramdatapunt. |
-| [getErrorBarsCustomValues()](#getErrorBarsCustomValues--) | Stelt de waarden van de foutbalken van de serie voor in het geval van een aangepast waardetype. |
-| [getLabel()](#getLabel--) | Stelt het label van het diagramdatapunt voor. |
-| [isBubble3D()](#isBubble3D--) | Specificeert dat de bubbels een 3D-effect hebben. |
-| [setBubble3D(boolean value)](#setBubble3D-boolean-) | Specificeert dat de bubbels een 3D-effect hebben. |
-| [getExplosion()](#getExplosion--) | Specificeert de hoeveelheid waarmee het datapunt van het midden van de taartgrafiek moet worden verplaatst. |
-| [setExplosion(int value)](#setExplosion-int-) | Specificeert de hoeveelheid waarmee het datapunt van het midden van de taartgrafiek moet worden verplaatst. |
-| [getFormat()](#getFormat--) | Stelt de opmaak eigenschappen voor. |
-| [setFormat(IFormat value)](#setFormat-com.aspose.slides.IFormat-) | Stelt de opmaak eigenschappen voor. |
-| [getMarker()](#getMarker--) | Specificeert een datamarkering. |
-| [remove()](#remove--) | Verwijdert DataPoint uit de diagramreeks. |
-| [getAutomaticDataPointColor()](#getAutomaticDataPointColor--) | Retourneert een automatische kleur van het datapunt op basis van de serie-index, datapunt-index, ParentSeriesGroup.IsColorVaried-eigenschap en diagramstijl. |
-| [getRelatedLegendEntry()](#getRelatedLegendEntry--) | Eigenschappen van de overeenkomstige legende vermelding in het geval van een diagrame type uit deze lijst: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. |
+| [getXValue()](#getXValue--) | Haalt de x-waarde van een grafiekdatapunt op. |
+| [getYValue()](#getYValue--) | Haalt de y-waarde van een grafiekdatapunt op. |
+| [getBubbleSize()](#getBubbleSize--) | Haalt de bubbelgrootte van een grafiekdatapunt op. |
+| [getValue()](#getValue--) | Haalt de waarde van een grafiekdatapunt op. |
+| [getCachedXValue()](#getCachedXValue--) | Haalt de gecachte X-waarde van een grafiekdatapunt op. |
+| [getCachedYValue()](#getCachedYValue--) | Haalt de gecachte Y-waarde van een grafiekdatapunt op. |
+| [getCachedValue()](#getCachedValue--) | Haalt de gecachte waarde van een grafiekdatapunt op. |
+| [getCachedBubbleSize()](#getCachedBubbleSize--) | Haalt de gecachte bubbelgrootte van een grafiekdatapunt op. |
+| [getSizeValue()](#getSizeValue--) | Haalt de grootte-waarde van een grafiekdatapunt op. |
+| [getColorValue()](#getColorValue--) | Haalt de kleurwaarde van een grafiekdatapunt op. |
+| [getErrorBarsCustomValues()](#getErrorBarsCustomValues--) | Stelt de waarden van seriefoutbalken voor in het geval van een aangepast (Custom) waardetype. |
+| [getLabel()](#getLabel--) | Stelt het label van een grafiekdatapunt voor. |
+| [isBubble3D()](#isBubble3D--) | Geeft aan dat de bubbels een 3-D-effect hebben. |
+| [setBubble3D(boolean value)](#setBubble3D-boolean-) | Geeft aan dat de bubbels een 3-D-effect hebben. |
+| [getExplosion()](#getExplosion--) | Geeft de afstand aan waarmee het datapunt van het middelpunt van de taartgrafiek verplaatst moet worden. |
+| [setExplosion(int value)](#setExplosion-int-) | Geeft de afstand aan waarmee het datapunt van het middelpunt van de taartgrafiek verplaatst moet worden. |
+| [getFormat()](#getFormat--) | Stelt de opmaak-eigenschappen voor. |
+| [setFormat(IFormat value)](#setFormat-com.aspose.slides.IFormat-) | Stelt de opmaak-eigenschappen voor. |
+| [getMarker()](#getMarker--) | Geeft een datamarker aan. |
+| [remove()](#remove--) | Verwijdert DataPoint uit de grafiekserie. |
+| [getAutomaticDataPointColor()](#getAutomaticDataPointColor--) | Retourneert een automatische kleur van het datapunt op basis van de series-index, datapunt-index, de eigenschap ParentSeriesGroup.IsColorVaried en de grafiekstijl. |
+| [getRelatedLegendEntry()](#getRelatedLegendEntry--) | Eigenschappen van het overeenkomstige legenda-item in het geval van een grafiektype uit deze lijst: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. |
 | [getSetAsTotal()](#getSetAsTotal--) | Stelt het datapunt in als totaal. |
 | [setSetAsTotal(boolean value)](#setSetAsTotal-boolean-) | Stelt het datapunt in als totaal. |
-| [getInvertIfNegative()](#getInvertIfNegative--) | Specificeert dat het datapunt zijn kleuren moet inverteren als de waarde negatief is. |
-| [setInvertIfNegative(boolean value)](#setInvertIfNegative-boolean-) | Specificeert dat het datapunt zijn kleuren moet inverteren als de waarde negatief is. |
+| [getInvertIfNegative()](#getInvertIfNegative--) | Geeft aan dat het datapunt zijn kleuren moet inverteren als de waarde negatief is. |
+| [setInvertIfNegative(boolean value)](#setInvertIfNegative-boolean-) | Geeft aan dat het datapunt zijn kleuren moet inverteren als de waarde negatief is. |
 | [getDataPointLevels()](#getDataPointLevels--) | Retourneert een container van datapuntniveaus. |
-| [getIndex()](#getIndex--) | Bepaalt op welke collectie van de kinderen van de ouder dit datapunt van toepassing is. |
+| [getIndex()](#getIndex--) | Bepaalt op welke van de kindcollecties van de ouder dit datapunt van toepassing is. |
 
 ### getXValue() {#getXValue--}
 ```
 public abstract IStringOrDoubleChartValue getXValue()
 ```
 
-Retourneert de x-waarde van het diagramdatapunt. Alleen-lezen [IStringOrDoubleChartValue](../../com.aspose.slides/istringordoublechartvalue).
+
+Haalt de x-waarde van een grafiekdatapunt op. Alleen-lezen [IStringOrDoubleChartValue](../../com.aspose.slides/istringordoublechartvalue).
 
 **Retourneert:**
 [IStringOrDoubleChartValue](../../com.aspose.slides/istringordoublechartvalue)
@@ -56,7 +61,8 @@ Retourneert de x-waarde van het diagramdatapunt. Alleen-lezen [IStringOrDoubleCh
 public abstract IDoubleChartValue getYValue()
 ```
 
-Retourneert de y-waarde van het diagramdatapunt. Alleen-lezen [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
+
+Haalt de y-waarde van een grafiekdatapunt op. Alleen-lezen [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
 **Retourneert:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
@@ -66,7 +72,8 @@ Retourneert de y-waarde van het diagramdatapunt. Alleen-lezen [IDoubleChartValue
 public abstract IDoubleChartValue getBubbleSize()
 ```
 
-Retourneert de bubbelgrootte van het diagramdatapunt. Alleen-lezen [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
+
+Haalt de bubbelgrootte van een grafiekdatapunt op. Alleen-lezen [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
 **Retourneert:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
@@ -76,17 +83,131 @@ Retourneert de bubbelgrootte van het diagramdatapunt. Alleen-lezen [IDoubleChart
 public abstract IDoubleChartValue getValue()
 ```
 
-Retourneert de waarde van het diagramdatapunt. Alleen-lezen [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
+
+Haalt de waarde van een grafiekdatapunt op. Alleen-lezen [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
 **Retourneert:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
+
+### getCachedXValue() {#getCachedXValue--}
+```
+public abstract ICachedChartValue getCachedXValue()
+```
+
+
+Haalt de gecachte X-waarde van een grafiekdatapunt op. Alleen-lezen [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // Print alle gecachte X-waarden van de grafiekserie.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedXValue().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Retourneert:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
+
+### getCachedYValue() {#getCachedYValue--}
+```
+public abstract ICachedChartValue getCachedYValue()
+```
+
+
+Haalt de gecachte Y-waarde van een grafiekdatapunt op. Alleen-lezen [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // Print alle gecachte Y-waarden van de grafiekserie.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedYValue().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Retourneert:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
+
+### getCachedValue() {#getCachedValue--}
+```
+public abstract ICachedChartValue getCachedValue()
+```
+
+
+Haalt de gecachte waarde van een grafiekdatapunt op. Alleen-lezen [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // Print alle gecachte waarden van de grafiekserie.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedValue().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Retourneert:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
+
+### getCachedBubbleSize() {#getCachedBubbleSize--}
+```
+public abstract ICachedChartValue getCachedBubbleSize()
+```
+
+
+Haalt de gecachte bubbelgrootte van een grafiekdatapunt op. Alleen-lezen [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // Print alle gecachte bubbelgrootte-waarden van de grafiekserie.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedBubbleSize().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Retourneert:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
 
 ### getSizeValue() {#getSizeValue--}
 ```
 public abstract IDoubleChartValue getSizeValue()
 ```
 
-Retourneert de groottewaarde van het diagramdatapunt. Wordt gebruikt met Treemap- en Sunburst-diagrammen. Alleen-lezen [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
+
+Haalt de grootte-waarde van een grafiekdatapunt op. Wordt gebruikt met Treemap- en Sunburst-grafieken. Alleen-lezen [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
 **Retourneert:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
@@ -96,7 +217,8 @@ Retourneert de groottewaarde van het diagramdatapunt. Wordt gebruikt met Treemap
 public abstract IDoubleChartValue getColorValue()
 ```
 
-Retourneert de kleurwaarde van het diagramdatapunt. Wordt gebruikt met Kaart-diagrammen. Alleen-lezen [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
+
+Haalt de kleurwaarde van een grafiekdatapunt op. Wordt gebruikt met kaart-grafieken. Alleen-lezen [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
 **Retourneert:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
@@ -106,7 +228,8 @@ Retourneert de kleurwaarde van het diagramdatapunt. Wordt gebruikt met Kaart-dia
 public abstract IErrorBarsCustomValues getErrorBarsCustomValues()
 ```
 
-Stelt de waarden van de foutbalken van de serie voor in het geval van een aangepast waardetype. Alleen-lezen [IErrorBarsCustomValues](../../com.aspose.slides/ierrorbarscustomvalues).
+
+Stelt de waarden van seriefoutbalken voor in het geval van een aangepast (Custom) waardetype. Alleen-lezen [IErrorBarsCustomValues](../../com.aspose.slides/ierrorbarscustomvalues).
 
 **Retourneert:**
 [IErrorBarsCustomValues](../../com.aspose.slides/ierrorbarscustomvalues)
@@ -116,7 +239,8 @@ Stelt de waarden van de foutbalken van de serie voor in het geval van een aangep
 public abstract IDataLabel getLabel()
 ```
 
-Stelt het label van het diagramdatapunt voor. Alleen-lezen [IDataLabel](../../com.aspose.slides/idatalabel).
+
+Stelt het label van een grafiekdatapunt voor. Alleen-lezen [IDataLabel](../../com.aspose.slides/idatalabel).
 
 **Retourneert:**
 [IDataLabel](../../com.aspose.slides/idatalabel)
@@ -126,7 +250,8 @@ Stelt het label van het diagramdatapunt voor. Alleen-lezen [IDataLabel](../../co
 public abstract boolean isBubble3D()
 ```
 
-Specificeert dat de bubbels een 3D-effect hebben. Lezen/schrijven boolean.
+
+Geeft aan dat de bubbels een 3-D-effect hebben. Lezen/schrijven boolean.
 
 **Retourneert:**
 boolean
@@ -136,10 +261,11 @@ boolean
 public abstract void setBubble3D(boolean value)
 ```
 
-Specificeert dat de bubbels een 3D-effect hebben. Lezen/schrijven boolean.
+
+Geeft aan dat de bubbels een 3-D-effect hebben. Lezen/schrijven boolean.
 
 **Parameters:**
-| Parameter | Type | Beschrijving |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -148,7 +274,8 @@ Specificeert dat de bubbels een 3D-effect hebben. Lezen/schrijven boolean.
 public abstract int getExplosion()
 ```
 
-Specificeert de hoeveelheid waarmee het datapunt van het midden van de taartgrafiek moet worden verplaatst. Lezen/schrijven int.
+
+Geeft de afstand aan waarmee het datapunt van het middelpunt van de taartgrafiek verplaatst moet worden. Lezen/schrijven int.
 
 **Retourneert:**
 int
@@ -158,10 +285,11 @@ int
 public abstract void setExplosion(int value)
 ```
 
-Specificeert de hoeveelheid waarmee het datapunt van het midden van de taartgrafiek moet worden verplaatst. Lezen/schrijven int.
+
+Geeft de afstand aan waarmee het datapunt van het middelpunt van de taartgrafiek verplaatst moet worden. Lezen/schrijven int.
 
 **Parameters:**
-| Parameter | Type | Beschrijving |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
@@ -170,7 +298,8 @@ Specificeert de hoeveelheid waarmee het datapunt van het midden van de taartgraf
 public abstract IFormat getFormat()
 ```
 
-Stelt de opmaak eigenschappen voor. Lezen/schrijven [IFormat](../../com.aspose.slides/iformat).
+
+Stelt de opmaak-eigenschappen voor. Lezen/schrijven [IFormat](../../com.aspose.slides/iformat).
 
 **Retourneert:**
 [IFormat](../../com.aspose.slides/iformat)
@@ -180,10 +309,11 @@ Stelt de opmaak eigenschappen voor. Lezen/schrijven [IFormat](../../com.aspose.s
 public abstract void setFormat(IFormat value)
 ```
 
-Stelt de opmaak eigenschappen voor. Lezen/schrijven [IFormat](../../com.aspose.slides/iformat).
+
+Stelt de opmaak-eigenschappen voor. Lezen/schrijven [IFormat](../../com.aspose.slides/iformat).
 
 **Parameters:**
-| Parameter | Type | Beschrijving |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | [IFormat](../../com.aspose.slides/iformat) |  |
 
@@ -192,7 +322,8 @@ Stelt de opmaak eigenschappen voor. Lezen/schrijven [IFormat](../../com.aspose.s
 public abstract IMarker getMarker()
 ```
 
-Specificeert een datamarkering. Alleen-lezen [IMarker](../../com.aspose.slides/imarker).
+
+Geeft een datamarker aan. Alleen-lezen [IMarker](../../com.aspose.slides/imarker).
 
 **Retourneert:**
 [IMarker](../../com.aspose.slides/imarker)
@@ -202,14 +333,16 @@ Specificeert een datamarkering. Alleen-lezen [IMarker](../../com.aspose.slides/i
 public abstract void remove()
 ```
 
-Verwijdert DataPoint uit de diagramreeks.
+
+Verwijdert DataPoint uit de grafiekserie.
 
 ### getAutomaticDataPointColor() {#getAutomaticDataPointColor--}
 ```
 public abstract Color getAutomaticDataPointColor()
 ```
 
-Retourneert een automatische kleur van het datapunt op basis van de serie-index, datapunt-index, ParentSeriesGroup.IsColorVaried-eigenschap en diagramstijl. Deze kleur wordt standaard gebruikt als FillType gelijk is aan NotDefined.
+
+Retourneert een automatische kleur van het datapunt op basis van de series-index, datapunt-index, de eigenschap ParentSeriesGroup.IsColorVaried en de grafiekstijl. Deze kleur wordt standaard gebruikt als FillType gelijk is aan NotDefined.
 
 **Retourneert:**
 java.awt.Color - Automatic color of data point java.awt.Color
@@ -219,7 +352,8 @@ java.awt.Color - Automatic color of data point java.awt.Color
 public abstract ILegendEntryProperties getRelatedLegendEntry()
 ```
 
-Eigenschappen van de overeenkomstige legende vermelding in het geval van een diagrame type uit deze lijst: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Alleen-lezen [ILegendEntryProperties](../../com.aspose.slides/ilegendentryproperties).
+
+Eigenschappen van het overeenkomstige legenda-item in het geval van een grafiektype uit deze lijst: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Alleen-lezen [ILegendEntryProperties](../../com.aspose.slides/ilegendentryproperties).
 
 **Retourneert:**
 [ILegendEntryProperties](../../com.aspose.slides/ilegendentryproperties)
@@ -229,7 +363,8 @@ Eigenschappen van de overeenkomstige legende vermelding in het geval van een dia
 public abstract boolean getSetAsTotal()
 ```
 
-Stelt het datapunt in als totaal. Alleen van toepassing op Waterfall-serietype.
+
+Stelt het datapunt in als totaal. Alleen-toegepast voor de Waterfall-serietype.
 
 **Retourneert:**
 boolean
@@ -239,10 +374,11 @@ boolean
 public abstract void setSetAsTotal(boolean value)
 ```
 
-Stelt het datapunt in als totaal. Alleen van toepassing op Waterfall-serietype.
+
+Stelt het datapunt in als totaal. Alleen-toegepast voor de Waterfall-serietype.
 
 **Parameters:**
-| Parameter | Type | Beschrijving |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -251,7 +387,8 @@ Stelt het datapunt in als totaal. Alleen van toepassing op Waterfall-serietype.
 public abstract boolean getInvertIfNegative()
 ```
 
-Specificeert dat het datapunt zijn kleuren moet inverteren als de waarde negatief is. Lezen/schrijven boolean.
+
+Geeft aan dat het datapunt zijn kleuren moet inverteren als de waarde negatief is. Lezen/schrijven boolean.
 
 **Retourneert:**
 boolean
@@ -261,10 +398,11 @@ boolean
 public abstract void setInvertIfNegative(boolean value)
 ```
 
-Specificeert dat het datapunt zijn kleuren moet inverteren als de waarde negatief is. Lezen/schrijven boolean.
+
+Geeft aan dat het datapunt zijn kleuren moet inverteren als de waarde negatief is. Lezen/schrijven boolean.
 
 **Parameters:**
-| Parameter | Type | Beschrijving |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -273,7 +411,8 @@ Specificeert dat het datapunt zijn kleuren moet inverteren als de waarde negatie
 public abstract IChartDataPointLevelsManager getDataPointLevels()
 ```
 
-Retourneert een container van datapuntniveaus. Toegepast voor TreeMap- en Sunburst-series. Indexering van datapuntniveaus begint bij nul.
+
+Retourneert een container van datapuntniveaus. Alleen-toegepast voor Treeamp- en Sunburst-series. Indexering van datapuntniveaus is nul-gebaseerd.
 
 **Retourneert:**
 [IChartDataPointLevelsManager](../../com.aspose.slides/ichartdatapointlevelsmanager)
@@ -283,7 +422,8 @@ Retourneert een container van datapuntniveaus. Toegepast voor TreeMap- en Sunbur
 public abstract long getIndex()
 ```
 
-Bepaalt op welke collectie van de kinderen van de ouder dit datapunt van toepassing is. Alleen-lezen long.
+
+Bepaalt op welke van de kindcollecties van de ouder dit datapunt van toepassing is. Alleen-lezen long.
 
 **Retourneert:**
 long

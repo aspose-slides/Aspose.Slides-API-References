@@ -1,7 +1,7 @@
 ---
 title: IDataLabelCollection
-second_title: Αναφορά API Aspose.Slides για Java
-description: Αντιπροσωπεύει τις ετικέτες σειράς.
+second_title: Aspose.Slides για την αναφορά API της Java
+description: Αντιπροσωπεύει ετικέτες σειράς.
 type: docs
 url: /el/com.aspose.slides/idatalabelcollection/
 ---
@@ -11,53 +11,57 @@ com.aspose.ms.System.Collections.Generic.IGenericEnumerable, [com.aspose.slides.
 public interface IDataLabelCollection extends System.Collections.Generic.IGenericEnumerable<IDataLabel>, IChartComponent
 ```
 
-Αντιπροσωπεύει τις ετικέτες σειράς.
-## Μέθοδοι
+Αντιπροσωπεύει ετικέτες σειράς.
+## Methods
 
-| Μέθοδος | Περιγραφή |
+| Method | Description |
 | --- | --- |
-| [get_Item(int index)](#get-Item-int-) | Λαμβάνει την ετικέτα δεδομένων για το σημείο δεδομένων με το συγκεκριμένο δείκτη. |
-| [getDefaultDataLabelFormat()](#getDefaultDataLabelFormat--) | Επιστρέφει τη προεπιλεγμένη μορφοποίηση όλων των ετικετών δεδομένων στη συλλογή. |
-| [getLeaderLinesFormat()](#getLeaderLinesFormat--) | Αντιπροσωπεύει τη μορφοποίηση γραμμών οδηγού των ετικετών δεδομένων. |
-| [isVisible()](#isVisible--) | False σημαίνει ότι η ετικέτα δεδομένων δεν είναι ορατή εξ ορισμού (και έτσι όλες οι σημαίες Show* (ShowValue, ...) της ιδιότητας DefaultDataLabelFormat είναι ψευδείς). |
-| [hide()](#hide--) | Κάνει την ετικέτα δεδομένων κρυφή εξ ορισμού ορίζοντας όλες τις σημαίες Show* (ShowValue, ...) της ιδιότητας DefaultDataLabelFormat σε ψευδική κατάσταση. |
+| [get_Item(int index)](#get-Item-int-) | Λαμβάνει την ετικέτα δεδομένων για το σημείο δεδομένων με τον καθορισμένο δείκτη. |
+| [getDefaultDataLabelFormat()](#getDefaultDataLabelFormat--) | Επιστρέφει την προεπιλεγμένη μορφή όλων των ετικετών δεδομένων στη συλλογή. |
+| [getLeaderLinesFormat()](#getLeaderLinesFormat--) | Αντιπροσωπεύει τη μορφή των γραμμών οδηγών ετικετών δεδομένων. |
+| [isVisible()](#isVisible--) | False σημαίνει ότι η ετικέτα δεδομένων δεν είναι ορατή εξ ορισμού (και έτσι όλες οι σημαίες Show*-flags (ShowValue, ...) της ιδιότητας DefaultDataLabelFormat είναι false). |
+| [hide()](#hide--) | Κάντε την ετικέτα δεδομένων κρυφή εξ ορισμού ορίζοντας όλες τις σημαίες Show*-flags (ShowValue, ...) της ιδιότητας DefaultDataLabelFormat σε κατάσταση false. |
 | [getCountOfVisibleDataLabels()](#getCountOfVisibleDataLabels--) | Λαμβάνει τον αριθμό των ορατών ετικετών δεδομένων στη συλλογή. |
 | [getCount()](#getCount--) | Λαμβάνει τον αριθμό όλων των ετικετών δεδομένων στη συλλογή. |
 | [getParentSeries()](#getParentSeries--) | Επιστρέφει τη γονική σειρά διαγράμματος. |
-| [indexOf(IDataLabel value)](#indexOf-com.aspose.slides.IDataLabel-) | Επιστρέφει έναν δείκτη της συγκεκριμένης DataLabel στη συλλογή. |
+| [indexOf(IDataLabel value)](#indexOf-com.aspose.slides.IDataLabel-) | Επιστρέφει το δείκτη της συγκεκριμένης DataLabel στη συλλογή. |
+| [getDefaultLabelShapeType()](#getDefaultLabelShapeType--) | Λαμβάνει ή ορίζει τον προεπιλεγμένο τύπο σχήματος για τις ετικέτες δεδομένων. |
+| [setDefaultLabelShapeType(int value)](#setDefaultLabelShapeType-int-) | Λαμβάνει ή ορίζει τον προεπιλεγμένο τύπο σχήματος για τις ετικέτες δεδομένων. |
 ### get_Item(int index) {#get-Item-int-}
 ```
 public abstract IDataLabel get_Item(int index)
 ```
 
-Λαμβάνει την ετικέτα δεδομένων για το σημείο δεδομένων με το συγκεκριμένο δείκτη.
+Λαμβάνει την ετικέτα δεδομένων για το σημείο δεδομένων με τον καθορισμένο δείκτη.
 
 --------------------
 
-Εναλλακτικός τρόπος πρόσβασης στην ετικέτα δεδομένων είναι: - getSeries().getDataPoints().get_Item(i).getLabel() - διαχείριση ιδιοτήτων ετικέτας.
+Εναλλακτικός τρόπος πρόσβασης στην ετικέτα δεδομένων είναι:
+- getSeries().getDataPoints().get_Item(i).getLabel()
+- manage label properties.
 
-**Παράμετροι:**
-| Παράμετρος | Τύπος | Περιγραφή |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | index | int |  |
 
-**Επιστρέφει:**
+**Returns:**
 [IDataLabel](../../com.aspose.slides/idatalabel)
 ### getDefaultDataLabelFormat() {#getDefaultDataLabelFormat--}
 ```
 public abstract IDataLabelFormat getDefaultDataLabelFormat()
 ```
 
-Επιστρέφει τη προεπιλεγμένη μορφοποίηση όλων των ετικετών δεδομένων στη συλλογή. Μόνο για ανάγνωση [IDataLabelFormat](../../com.aspose.slides/idatalabelformat).
+Επιστρέφει την προεπιλεγμένη μορφή όλων των ετικετών δεδομένων στη συλλογή. Μόνο για ανάγνωση [IDataLabelFormat](../../com.aspose.slides/idatalabelformat).
 
-**Επιστρέφει:**
+**Returns:**
 [IDataLabelFormat](../../com.aspose.slides/idatalabelformat)
 ### getLeaderLinesFormat() {#getLeaderLinesFormat--}
 ```
 public abstract IChartLinesFormat getLeaderLinesFormat()
 ```
 
-Αντιπροσωπεύει τη μορφοποίηση γραμμών οδηγού των ετικετών δεδομένων. Μόνο για ανάγνωση [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat).
+Αντιπροσωπεύει τη μορφή των γραμμών οδηγών ετικετών δεδομένων. Μόνο για ανάγνωση [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat).
 
 --------------------
 
@@ -76,49 +80,50 @@ public abstract IChartLinesFormat getLeaderLinesFormat()
 >  }
 > ```
 
-**Επιστρέφει:**
+
+**Returns:**
 [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat)
 ### isVisible() {#isVisible--}
 ```
 public abstract boolean isVisible()
 ```
 
-False σημαίνει ότι η ετικέτα δεδομένων δεν είναι ορατή εξ ορισμού (και έτσι όλες οι σημαίες Show* (ShowValue, ...) της ιδιότητας DefaultDataLabelFormat είναι ψευδείς). Μόνο για ανάγνωση boolean .
+False σημαίνει ότι η ετικέτα δεδομένων δεν είναι ορατή εξ ορισμού (και έτσι όλες οι σημαίες Show*-flags (ShowValue, ...) της ιδιότητας DefaultDataLabelFormat είναι false). Μόνο για ανάγνωση boolean.
 
 --------------------
 
-Αν η ετικέτα δεδομένων είναι ορατή εξ ορισμού, μπορείτε να την κάνετε κρυφή εξ ορισμού με τη μέθοδο Hide(). Ωστόσο, εάν η ετικέτα δεδομένων δεν είναι ορατή εξ ορισμού (IsVisible είναι false), μπορείτε να την κάνετε «ορατή εξ ορισμού» ορίζοντας τις σημαίες Show* (ShowValue, ...) της ιδιότητας DefaultDataLabelFormat σε κατάσταση true.
+Αν η ετικέτα δεδομένων είναι ορατή εξ ορισμού, μπορείτε να την κρύψετε εξ ορισμού με τη μέθοδο Hide(). Αν η ετικέτα δεδομένων δεν είναι ορατή εξ ορισμού (IsVisible είναι false), μπορείτε να την κάνετε «ορατή εξ ορισμού» ορίζοντας τις σημαίες Show*-flags (ShowValue, ...) της ιδιότητας DefaultDataLabelFormat σε κατάσταση true.
 
-**Επιστρέφει:**
+**Returns:**
 boolean
 ### hide() {#hide--}
 ```
 public abstract void hide()
 ```
 
-Κάνει την ετικέτα δεδομένων κρυφή εξ ορισμού ορίζοντας όλες τις σημαίες Show* (ShowValue, ...) της ιδιότητας DefaultDataLabelFormat σε ψευδική κατάσταση. IsVisible θα είναι false μετά από αυτό.
+Κάνει την ετικέτα δεδομένων κρυφή εξ ορισμού ορίζοντας όλες τις σημαίες Show*-flags (ShowValue, ...) της ιδιότητας DefaultDataLabelFormat σε κατάσταση false. IsVisible θα είναι false μετά από αυτό.
 
 --------------------
 
-Αν η ετικέτα δεδομένων δεν είναι ορατή εξ ορισμού (IsVisible είναι false), μπορείτε να την κάνετε «ορατή εξ ορισμού» ορίζοντας τις σημαίες Show* (ShowValue, ...) της ιδιότητας DefaultDataLabelFormat σε κατάσταση true.
+Αν η ετικέτα δεδομένων δεν είναι ορατή εξ ορισμού (IsVisible είναι false), μπορείτε να την κάνετε «ορατή εξ ορισμού» ορίζοντας τις σημαίες Show*-flags (ShowValue, ...) της ιδιότητας DefaultDataLabelFormat σε κατάσταση true.
 
 ### getCountOfVisibleDataLabels() {#getCountOfVisibleDataLabels--}
 ```
 public abstract int getCountOfVisibleDataLabels()
 ```
 
-Λαμβάνει τον αριθμό των ορατών ετικετών δεδομένων στη συλλογή. Μόνο για ανάγνωση int .
+Λαμβάνει τον αριθμό των ορατών ετικετών δεδομένων στη συλλογή. Μόνο για ανάγνωση int.
 
-**Επιστρέφει:**
+**Returns:**
 int
 ### getCount() {#getCount--}
 ```
 public abstract int getCount()
 ```
 
-Λαμβάνει τον αριθμό όλων των ετικετών δεδομένων στη συλλογή. Μόνο για ανάγνωση int .
+Λαμβάνει τον αριθμό όλων των ετικετών δεδομένων στη συλλογή. Μόνο για ανάγνωση int.
 
-**Επιστρέφει:**
+**Returns:**
 int
 ### getParentSeries() {#getParentSeries--}
 ```
@@ -127,19 +132,78 @@ public abstract IChartSeries getParentSeries()
 
 Επιστρέφει τη γονική σειρά διαγράμματος. Μόνο για ανάγνωση [IChartSeries](../../com.aspose.slides/ichartseries).
 
-**Επιστρέφει:**
+**Returns:**
 [IChartSeries](../../com.aspose.slides/ichartseries)
 ### indexOf(IDataLabel value) {#indexOf-com.aspose.slides.IDataLabel-}
 ```
 public abstract int indexOf(IDataLabel value)
 ```
 
-Επιστρέφει έναν δείκτη της συγκεκριμένης DataLabel στη συλλογή.
+Επιστρέφει το δείκτη της συγκεκριμένης DataLabel στη συλλογή.
 
-**Παράμετροι:**
-| Παράμετρος | Τύπος | Περιγραφή |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | [IDataLabel](../../com.aspose.slides/idatalabel) | DataLabel to find. |
 
-**Επιστρέφει:**
-int - Index of a DataLabel or -1 if DataLabel not from this collection.
+**Returns:**
+int - Δείκτης μιας DataLabel ή -1 αν η DataLabel δεν προέρχεται από αυτή τη συλλογή.
+### getDefaultLabelShapeType() {#getDefaultLabelShapeType--}
+```
+public abstract int getDefaultLabelShapeType()
+```
+
+Λαμβάνει ή ορίζει τον προεπιλεγμένο τύπο σχήματος για τις ετικέτες δεδομένων. Επιστρέφει [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) αν δεν έχει οριστεί σχήμα.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Ορίστε τον τύπο σχήματος όλων των ετικετών δεδομένων στην πρώτη σειρά σε Ellipse.
+>      firstSeries.getLabels().setDefaultLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabels.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+Ο καθορισμός αυτής της ιδιότητας ορίζει επίσης την ιδιότητα IDataLabel.LabelShapeType ([IDataLabel.getLabelShapeType](../../com.aspose.slides/idatalabel\#getLabelShapeType)/[IDataLabel.setLabelShapeType(int)](../../com.aspose.slides/idatalabel\#setLabelShapeType-int-)) για όλες τις ετικέτες δεδομένων στη συλλογή στην ίδια τιμή.
+
+**Returns:**
+int
+### setDefaultLabelShapeType(int value) {#setDefaultLabelShapeType-int-}
+```
+public abstract void setDefaultLabelShapeType(int value)
+```
+
+Λαμβάνει ή ορίζει τον προεπιλεγμένο τύπο σχήματος για τις ετικέτες δεδομένων. Επιστρέφει [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) αν δεν έχει οριστεί σχήμα.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Ορίστε τον τύπο σχήματος όλων των ετικετών δεδομένων στην πρώτη σειρά σε Ellipse.
+>      firstSeries.getLabels().setDefaultLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabels.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+--------------------
+
+Ο καθορισμός αυτής της ιδιότητας ορίζει επίσης την ιδιότητα IDataLabel.LabelShapeType ([IDataLabel.getLabelShapeType](../../com.aspose.slides/idatalabel\#getLabelShapeType)/[IDataLabel.setLabelShapeType(int)](../../com.aspose.slides/idatalabel\#setLabelShapeType-int-)) για όλες τις ετικέτες δεδομένων στη συλλογή στην ίδια τιμή.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |

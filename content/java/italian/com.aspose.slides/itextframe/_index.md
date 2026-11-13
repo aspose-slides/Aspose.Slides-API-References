@@ -5,7 +5,7 @@ description: Rappresenta un TextFrame.
 type: docs
 url: /it/com.aspose.slides/itextframe/
 ---
-**Tutte le interfacce implementate:**
+**All Implemented Interfaces:**
 [com.aspose.slides.ISlideComponent](../../com.aspose.slides/islidecomponent)
 ```
 public interface ITextFrame extends ISlideComponent
@@ -20,25 +20,26 @@ Rappresenta un TextFrame.
 | [getText()](#getText--) | Ottiene o imposta il testo semplice per un TextFrame. |
 | [setText(String value)](#setText-java.lang.String-) | Ottiene o imposta il testo semplice per un TextFrame. |
 | [getTextFrameFormat()](#getTextFrameFormat--) | Restituisce l'oggetto di formattazione per questo oggetto TextFrame. |
-| [getHyperlinkQueries()](#getHyperlinkQueries--) | Fornisce un facile accesso ai collegamenti ipertestuali contenuti. |
-| [getParentShape()](#getParentShape--) | Restituisce la forma padre o null se l'oggetto padre non implementa l'interfaccia IShape. Solo lettura [IShape](../../com.aspose.slides/ishape). |
-| [getParentCell()](#getParentCell--) | Restituisce la cella padre o null se l'oggetto padre non implementa l'interfaccia ICell. |
+| [getHyperlinkQueries()](#getHyperlinkQueries--) | Fornisce un accesso facilitato ai collegamenti ipertestuali contenuti. |
+| [getParentShape()](#getParentShape--) | Restituisce la forma genitore o null se l'oggetto genitore non implementa l'interfaccia IShape. Sola lettura [IShape](../../com.aspose.slides/ishape). |
+| [getTextRect()](#getTextRect--) | Ottiene il rettangolo di testo definito dalla geometria della forma genitore. |
+| [getParentCell()](#getParentCell--) | Restituisce la cella genitore o null se l'oggetto genitore non implementa l'interfaccia ICell. |
 | [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Unisce le porzioni con la stessa formattazione in tutti i paragrafi. |
-| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | Evidenzia tutte le corrispondenze del testo di esempio con il colore specificato. |
-| [splitTextByColumns()](#splitTextByColumns--) | Divide il contenuto testuale del [ITextFrame](../../com.aspose.slides/itextframe) in un array di stringhe, dove ogni elemento corrisponde a una colonna testuale separata all'interno del frame. |
-| [highlightText(String text, Color highlightColor, ITextHighlightingOptions options)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Evidenzia tutte le corrispondenze del testo di esempio con il colore specificato. |
-| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Evidenzia tutte le corrispondenze del testo di esempio con il colore specificato. |
-| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | Evidenzia tutte le corrispondenze dell'espressione regolare con il colore specificato. |
-| [highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)](#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Evidenzia tutte le corrispondenze dell'espressione regolare con il colore specificato. |
+| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | Evidenzia tutte le occorrenze del testo di esempio con il colore specificato. |
+| [splitTextByColumns()](#splitTextByColumns--) | Divide il contenuto testuale del [ITextFrame](../../com.aspose.slides/itextframe) in un array di stringhe, dove ogni elemento corrisponde a una colonna di testo separata all'interno del frame. |
+| [highlightText(String text, Color highlightColor, ITextHighlightingOptions options)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Evidenzia tutte le occorrenze del testo di esempio con il colore specificato. |
+| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Evidenzia tutte le occorrenze del testo di esempio con il colore specificato. |
+| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | Evidenzia tutte le occorrenze dell'espressione regolare con il colore specificato. |
+| [highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)](#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Evidenzia tutte le occorrenze dell'espressione regolare con il colore specificato. |
 | [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Sostituisce tutte le occorrenze del testo specificato con un altro testo specificato. |
-| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Sostituisce tutte le corrispondenze dell'espressione regolare con la stringa specificata. |
+| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Sostituisce tutte le occorrenze dell'espressione regolare con la stringa specificata. |
 
 ### getParagraphs() {#getParagraphs--}
 ```
 public abstract IParagraphCollection getParagraphs()
 ```
 
-Restituisce l'elenco di tutti i paragrafi in un frame. Solo lettura [IParagraphCollection](../../com.aspose.slides/iparagraphcollection).
+Restituisce l'elenco di tutti i paragrafi in un frame. Sola lettura [IParagraphCollection](../../com.aspose.slides/iparagraphcollection).
 
 **Restituisce:**
 [IParagraphCollection](../../com.aspose.slides/iparagraphcollection)
@@ -48,7 +49,7 @@ Restituisce l'elenco di tutti i paragrafi in un frame. Solo lettura [IParagraphC
 public abstract String getText()
 ```
 
-Ottiene o imposta il testo semplice per un TextFrame. Lettura/scrittura String.
+Ottiene o imposta il testo semplice per un TextFrame. Lettura/Scrittura String.
 
 Valore: Il testo.
 
@@ -60,7 +61,7 @@ java.lang.String
 public abstract void setText(String value)
 ```
 
-Ottiene o imposta il testo semplice per un TextFrame. Lettura/scrittura String.
+Ottiene o imposta il testo semplice per un TextFrame. Lettura/Scrittura String.
 
 Valore: Il testo.
 
@@ -74,7 +75,7 @@ Valore: Il testo.
 public abstract ITextFrameFormat getTextFrameFormat()
 ```
 
-Restituisce l'oggetto di formattazione per questo oggetto TextFrame. Solo lettura [ITextFrameFormat](../../com.aspose.slides/itextframeformat).
+Restituisce l'oggetto di formattazione per questo oggetto TextFrame. Sola lettura [ITextFrameFormat](../../com.aspose.slides/itextframeformat).
 
 **Restituisce:**
 [ITextFrameFormat](../../com.aspose.slides/itextframeformat)
@@ -84,7 +85,7 @@ Restituisce l'oggetto di formattazione per questo oggetto TextFrame. Solo lettur
 public abstract IHyperlinkQueries getHyperlinkQueries()
 ```
 
-Fornisce un facile accesso ai collegamenti ipertestuali contenuti. Solo lettura [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
+Fornisce un accesso facilitato ai collegamenti ipertestuali contenuti. Sola lettura [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
 
 **Restituisce:**
 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)
@@ -94,7 +95,7 @@ Fornisce un facile accesso ai collegamenti ipertestuali contenuti. Solo lettura 
 public abstract IShape getParentShape()
 ```
 
-Restituisce la forma padre o null se l'oggetto padre non implementa l'interfaccia IShape. Solo lettura [IShape](../../com.aspose.slides/ishape).
+Restituisce la forma genitore o null se l'oggetto genitore non implementa l'interfaccia IShape. Sola lettura [IShape](../../com.aspose.slides/ishape).
 
 --------------------
 
@@ -114,16 +115,29 @@ Restituisce la forma padre o null se l'oggetto padre non implementa l'interfacci
 >  }
 > ```
 
-
 **Restituisce:**
 [IShape](../../com.aspose.slides/ishape)
+
+### getTextRect() {#getTextRect--}
+```
+public abstract Rectangle2D.Float getTextRect()
+```
+
+Ottiene il rettangolo di testo definito dalla geometria della forma genitore.
+
+**Restituisce:**
+java.awt.geom.Rectangle2D.Float - Un java.awt.geom.Rectangle2D.Float che definisce l'area del testo.
+
+--------------------
+
+Le coordinate del rettangolo sono relative all'angolo in alto a sinistra della forma genitore.
 
 ### getParentCell() {#getParentCell--}
 ```
 public abstract ICell getParentCell()
 ```
 
-Restituisce la cella padre o null se l'oggetto padre non implementa l'interfaccia ICell. Solo lettura [ICell](../../com.aspose.slides/icell).
+Restituisce la cella genitore o null se l'oggetto genitore non implementa l'interfaccia ICell. Sola lettura [ICell](../../com.aspose.slides/icell).
 
 --------------------
 
@@ -143,7 +157,6 @@ Restituisce la cella padre o null se l'oggetto padre non implementa l'interfacci
 >  }
 > ```
 
-
 **Restituisce:**
 [ICell](../../com.aspose.slides/icell)
 
@@ -159,33 +172,33 @@ Unisce le porzioni con la stessa formattazione in tutti i paragrafi.
 public abstract void highlightText(String text, Color highlightColor)
 ```
 
-Evidenzia tutte le corrispondenze del testo di esempio con il colore specificato.
+Evidenzia tutte le occorrenze del testo di esempio con il colore specificato.
 
 **Parametri:**
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | text | java.lang.String | Il testo da evidenziare. |
-| highlightColor | java.awt.Color | Il colore per evidenziare il testo. |
+| highlightColor | java.awt.Color | Il colore con cui evidenziare il testo. |
 
 ### splitTextByColumns() {#splitTextByColumns--}
 ```
 public abstract String[] splitTextByColumns()
 ```
 
-Divide il contenuto testuale del [ITextFrame](../../com.aspose.slides/itextframe) in un array di stringhe, dove ogni elemento corrisponde a una colonna testuale separata all'interno del frame.
+Divide il contenuto testuale del [ITextFrame](../../com.aspose.slides/itextframe) in un array di stringhe, dove ogni elemento corrisponde a una colonna di testo separata all'interno del frame.
 
 --------------------
 
 > ```
-> Il seguente esempio dimostra come usare #splitTextByColumns.splitTextByColumns:
+> The following example demonstrates how to use #splitTextByColumns.splitTextByColumns:
 >  
 >  Presentation pres = new Presentation("example.pptx");
 >  try {
->      // Ottieni la prima forma nella diapositiva e convertila in ITextFrame
+>      // Ottieni la prima forma sulla diapositiva e castala a ITextFrame
 >      ITextFrame textFrame = (ITextFrame) pres.getSlides().get_Item(0).getShapes().get_Item(0);
 >      // Dividi il contenuto del text frame in colonne
 >      String[] columnsText = textFrame.splitTextByColumns();
->      // Stampa il testo di ogni colonna nella console
+>      // Stampa il testo di ogni colonna sulla console
 >      for (String column : columnsText)
 >          System.out.println(column);
 >  } finally {
@@ -195,24 +208,22 @@ Divide il contenuto testuale del [ITextFrame](../../com.aspose.slides/itextframe
 
 
 **Restituisce:**
-java.lang.String[] - Un array di stringhe, in cui ogni stringa rappresenta il contenuto testuale di una colonna specifica nel [ITextFrame](../../com.aspose.slides/itextframe).
+java.lang.String[] - Un array di stringhe, dove ogni stringa rappresenta il contenuto testuale di una colonna specifica nel [ITextFrame](../../com.aspose.slides/itextframe).
 
---------------------
-
-Se il TextFrame non contiene più colonne, l'array restituito avrà un unico elemento contenente il testo completo. Le colonne vuote saranno rappresentate come stringhe vuote nell'array.
+Se il TextFrame non contiene più colonne, l'array restituito avrà un unico elemento contenente tutto il testo. Le colonne vuote saranno rappresentate come stringhe vuote nell'array.
 
 ### highlightText(String text, Color highlightColor, ITextHighlightingOptions options) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-}
 ```
 public abstract void highlightText(String text, Color highlightColor, ITextHighlightingOptions options)
 ```
 
-Evidenzia tutte le corrispondenze del testo di esempio con il colore specificato.
+Evidenzia tutte le occorrenze del testo di esempio con il colore specificato.
 
 **Parametri:**
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | text | java.lang.String | Il testo da evidenziare. |
-| highlightColor | java.awt.Color | Il colore per evidenziare il testo. |
+| highlightColor | java.awt.Color | Il colore con cui evidenziare il testo. |
 | options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | Opzioni di evidenziazione. |
 
 ### highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
@@ -220,7 +231,7 @@ Evidenzia tutte le corrispondenze del testo di esempio con il colore specificato
 public abstract void highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
-Evidenzia tutte le corrispondenze del testo di esempio con il colore specificato.
+Evidenzia tutte le occorrenze del testo di esempio con il colore specificato.
 
 --------------------
 
@@ -246,16 +257,16 @@ Evidenzia tutte le corrispondenze del testo di esempio con il colore specificato
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | text | java.lang.String | Il testo da evidenziare. |
-| highlightColor | java.awt.Color | Il colore per evidenziare il testo. |
+| highlightColor | java.awt.Color | Il colore con cui evidenziare il testo. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Opzioni di ricerca del testo [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | L'oggetto di callback per ricevere i risultati della ricerca [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | L'oggetto di callback per la ricezione dei risultati della ricerca [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback) {#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-}
 ```
 public abstract void highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)
 ```
 
-Evidenzia tutte le corrispondenze dell'espressione regolare con il colore specificato.
+Evidenzia tutte le occorrenze dell'espressione regolare con il colore specificato.
 
 --------------------
 
@@ -278,21 +289,21 @@ Evidenzia tutte le corrispondenze dell'espressione regolare con il colore specif
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | regex | java.util.regex.Pattern | L'espressione regolare java.util.regex.Pattern per ottenere le stringhe da evidenziare. |
-| highlightColor | java.awt.Color | Il colore per evidenziare il testo. |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | L'oggetto di callback per ricevere i risultati della ricerca [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| highlightColor | java.awt.Color | Il colore con cui evidenziare il testo. |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | L'oggetto di callback per la ricezione dei risultati della ricerca [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options) {#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-}
 ```
 public abstract void highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)
 ```
 
-Evidenzia tutte le corrispondenze dell'espressione regolare con il colore specificato.
+Evidenzia tutte le occorrenze dell'espressione regolare con il colore specificato.
 
 **Parametri:**
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | regex | java.lang.String | Testo dell'espressione regolare per ottenere il testo da evidenziare. |
-| highlightColor | java.awt.Color | Il colore per evidenziare il testo. |
+| highlightColor | java.awt.Color | Il colore con cui evidenziare il testo. |
 | options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | Opzioni di evidenziazione. |
 
 ### replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback) {#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
@@ -326,14 +337,14 @@ Sostituisce tutte le occorrenze del testo specificato con un altro testo specifi
 | oldText | java.lang.String | La stringa da sostituire. |
 | newText | java.lang.String | La stringa con cui sostituire tutte le occorrenze di oldText. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Opzioni di ricerca del testo [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | L'oggetto di callback per ricevere i risultati della ricerca [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | L'oggetto di callback per la ricezione dei risultati della ricerca [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### replaceRegex(Pattern regex, String newText, IFindResultCallback callback) {#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-}
 ```
 public abstract void replaceRegex(Pattern regex, String newText, IFindResultCallback callback)
 ```
 
-Sostituisce tutte le corrispondenze dell'espressione regolare con la stringa specificata.
+Sostituisce tutte le occorrenze dell'espressione regolare con la stringa specificata.
 
 --------------------
 
@@ -351,10 +362,9 @@ Sostituisce tutte le corrispondenze dell'espressione regolare con la stringa spe
 >  }
 > ```
 
-
 **Parametri:**
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | regex | java.util.regex.Pattern | L'espressione regolare java.util.regex.Pattern per ottenere le stringhe da sostituire. |
 | newText | java.lang.String | La stringa con cui sostituire tutte le occorrenze delle stringhe da sostituire. |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | L'oggetto di callback per ricevere i risultati della ricerca [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | L'oggetto di callback per la ricezione dei risultati della ricerca [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |

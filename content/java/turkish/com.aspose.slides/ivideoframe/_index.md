@@ -1,11 +1,11 @@
 ---
 title: IVideoFrame
-second_title: Aspose.Slides for Java API Referansı
-description: Bir slaytta bir video klibi temsil eder.
+second_title: Aspose.Slides için Java API Referansı
+description: Bir slayttaki video klibi temsil eder.
 type: docs
 url: /tr/com.aspose.slides/ivideoframe/
 ---
-**Uygulanan Tüm Arayüzler:**
+**Uygulanan Tüm Arabirimler:**
 [com.aspose.slides.IPictureFrame](../../com.aspose.slides/ipictureframe)
 ```
 public interface IVideoFrame extends IPictureFrame
@@ -16,20 +16,22 @@ Bir slayttaki video klibi temsil eder.
 
 | Yöntem | Açıklama |
 | --- | --- |
-| [getRewindVideo()](#getRewindVideo--) | Bir videonun, film oynatıldıktan hemen sonra otomatik olarak başa sarılıp sarılmayacağını belirler. |
-| [setRewindVideo(boolean value)](#setRewindVideo-boolean-) | Bir videonun, film oynatıldıktan hemen sonra otomatik olarak başa sarılıp sarılmayacağını belirler. |
+| [getRewindVideo()](#getRewindVideo--) | Bir videonun film bitince otomatik olarak başa sarılıp sarılmayacağını belirler. |
+| [setRewindVideo(boolean value)](#setRewindVideo-boolean-) | Bir videonun film bitince otomatik olarak başa sarılıp sarılmayacağını belirler. |
 | [getPlayLoopMode()](#getPlayLoopMode--) | Bir videonun döngüde olup olmadığını belirler. |
 | [setPlayLoopMode(boolean value)](#setPlayLoopMode-boolean-) | Bir videonun döngüde olup olmadığını belirler. |
 | [getHideAtShowing()](#getHideAtShowing--) | Bir VideoFrame'in gizli olup olmadığını belirler. |
 | [setHideAtShowing(boolean value)](#setHideAtShowing-boolean-) | Bir VideoFrame'in gizli olup olmadığını belirler. |
 | [getVolume()](#getVolume--) | Ses seviyesini döndürür veya ayarlar. |
 | [setVolume(int value)](#setVolume-int-) | Ses seviyesini döndürür veya ayarlar. |
+| [getVolumeValue()](#getVolumeValue--) | Tam video seviyesini yüzde olarak döndürür veya ayarlar. |
+| [setVolumeValue(float value)](#setVolumeValue-float-) | Tam video seviyesini yüzde olarak döndürür veya ayarlar. |
 | [getPlayMode()](#getPlayMode--) | Video oynatma modunu döndürür veya ayarlar. |
 | [setPlayMode(int value)](#setPlayMode-int-) | Video oynatma modunu döndürür veya ayarlar. |
 | [getFullScreenMode()](#getFullScreenMode--) | Bir videonun tam ekran modunda gösterilip gösterilmeyeceğini belirler. |
 | [setFullScreenMode(boolean value)](#setFullScreenMode-boolean-) | Bir videonun tam ekran modunda gösterilip gösterilmeyeceğini belirler. |
-| [getLinkPathLong()](#getLinkPathLong--) | VideoFrame'e bağlı bir video dosyasının adını döndürür veya ayarlar. |
-| [setLinkPathLong(String value)](#setLinkPathLong-java.lang.String-) | VideoFrame'e bağlı bir video dosyasının adını döndürür veya ayarlar. |
+| [getLinkPathLong()](#getLinkPathLong--) | Bir VideoFrame'e bağlı video dosyasının adını döndürür veya ayarlar. |
+| [setLinkPathLong(String value)](#setLinkPathLong-java.lang.String-) | Bir VideoFrame'e bağlı video dosyasının adını döndürür veya ayarlar. |
 | [getEmbeddedVideo()](#getEmbeddedVideo--) | Gömülü video nesnesini döndürür veya ayarlar. |
 | [setEmbeddedVideo(IVideo value)](#setEmbeddedVideo-com.aspose.slides.IVideo-) | Gömülü video nesnesini döndürür veya ayarlar. |
 | [getTrimFromStart()](#getTrimFromStart--) | Başlangıç kırpma [ms] |
@@ -43,7 +45,7 @@ Bir slayttaki video klibi temsil eder.
 public abstract boolean getRewindVideo()
 ```
 
-Bir videonun, film oynatıldıktan hemen sonra otomatik olarak başa sarılıp sarılmayacağını belirler. Okuma/Yazma boolean.
+Bir videonun film bitince otomatik olarak başa sarılıp sarılmayacağını belirler. Okuma/yazma boolean.
 
 **Döndürür:**
 boolean
@@ -52,7 +54,7 @@ boolean
 public abstract void setRewindVideo(boolean value)
 ```
 
-Bir videonun, film oynatıldıktan hemen sonra otomatik olarak başa sarılıp sarılmayacağını belirler. Okuma/Yazma boolean.
+Bir videonun film bitince otomatik olarak başa sarılıp sarılmayacağını belirler. Okuma/yazma boolean.
 
 **Parametreler:**
 | Parametre | Tür | Açıklama |
@@ -64,7 +66,7 @@ Bir videonun, film oynatıldıktan hemen sonra otomatik olarak başa sarılıp s
 public abstract boolean getPlayLoopMode()
 ```
 
-Bir videonun döngüde olup olmadığını belirler. Okuma/Yazma boolean.
+Bir videonun döngüde olup olmadığını belirler. Okuma/yazma boolean.
 
 **Döndürür:**
 boolean
@@ -73,7 +75,7 @@ boolean
 public abstract void setPlayLoopMode(boolean value)
 ```
 
-Bir videonun döngüde olup olmadığını belirler. Okuma/Yazma boolean.
+Bir videonun döngüde olup olmadığını belirler. Okuma/yazma boolean.
 
 **Parametreler:**
 | Parametre | Tür | Açıklama |
@@ -85,7 +87,7 @@ Bir videonun döngüde olup olmadığını belirler. Okuma/Yazma boolean.
 public abstract boolean getHideAtShowing()
 ```
 
-Bir VideoFrame'in gizli olup olmadığını belirler. Okuma/Yazma boolean.
+Bir VideoFrame'in gizli olup olmadığını belirler. Okuma/yazma boolean.
 
 **Döndürür:**
 boolean
@@ -94,7 +96,7 @@ boolean
 public abstract void setHideAtShowing(boolean value)
 ```
 
-Bir VideoFrame'in gizli olup olmadığını belirler. Okuma/Yazma boolean.
+Bir VideoFrame'in gizli olup olmadığını belirler. Okuma/yazma boolean.
 
 **Parametreler:**
 | Parametre | Tür | Açıklama |
@@ -106,7 +108,7 @@ Bir VideoFrame'in gizli olup olmadığını belirler. Okuma/Yazma boolean.
 public abstract int getVolume()
 ```
 
-Ses seviyesini döndürür veya ayarlar. Okuma/Yazma [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
+Ses seviyesini döndürür veya ayarlar. Okuma/yazma [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
 
 **Döndürür:**
 int
@@ -115,19 +117,78 @@ int
 public abstract void setVolume(int value)
 ```
 
-Ses seviyesini döndürür veya ayarlar. Okuma/Yazma [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
+Ses seviyesini döndürür veya ayarlar. Okuma/yazma [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
 
 **Parametreler:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | value | int |  |
 
+### getVolumeValue() {#getVolumeValue--}
+```
+public abstract float getVolumeValue()
+```
+
+Tam video seviyesini yüzde olarak döndürür veya ayarlar. Değer, %0 ile %100 arasında yüzde olarak ifade edilir. Bu özelliği, Volume (\#getVolume.getVolume/\#setVolume(int).setVolume(int)) özelliği aracılığıyla mevcut önceden tanımlı seviyelerden daha hassas ses değerlerini okumak veya ayarlamak için kullanın. Okuma/yazma float.
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video.pptx");
+>  try {
+>      IVideoFrame videoFrame = (IVideoFrame)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // Mevcut tam ses seviyesini okuyun ve %75,5'e ayarlayın.
+>      float currentVolume = videoFrame.getVolumeValue();
+>      System.out.println(currentVolume);
+>      videoFrame.setVolumeValue(75.5f);
+>      pres.save("video_with_volume.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Döndürür:**
+float
+### setVolumeValue(float value) {#setVolumeValue-float-}
+```
+public abstract void setVolumeValue(float value)
+```
+
+Tam video seviyesini yüzde olarak döndürür veya ayarlar. Değer, %0 ile %100 arasında yüzde olarak ifade edilir. Bu özelliği, Volume (\#getVolume.getVolume/\#setVolume(int).setVolume(int)) özelliği aracılığıyla mevcut önceden tanımlı seviyelerden daha hassas ses değerlerini okumak veya ayarlamak için kullanın. Okuma/yazma float.
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video.pptx");
+>  try {
+>      IVideoFrame videoFrame = (IVideoFrame)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // Mevcut tam ses seviyesini okuyun ve %75,5'e ayarlayın.
+>      float currentVolume = videoFrame.getVolumeValue();
+>      System.out.println(currentVolume);
+>      videoFrame.setVolumeValue(75.5f);
+>      pres.save("video_with_volume.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Parametreler:**
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| value | float |  |
+
 ### getPlayMode() {#getPlayMode--}
 ```
 public abstract int getPlayMode()
 ```
 
-Video oynatma modunu döndürür veya ayarlar. Okuma/Yazma [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
+Video oynatma modunu döndürür veya ayarlar. Okuma/yazma [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
 
 **Döndürür:**
 int
@@ -136,7 +197,7 @@ int
 public abstract void setPlayMode(int value)
 ```
 
-Video oynatma modunu döndürür veya ayarlar. Okuma/Yazma [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
+Video oynatma modunu döndürür veya ayarlar. Okuma/yazma [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
 
 **Parametreler:**
 | Parametre | Tür | Açıklama |
@@ -148,7 +209,7 @@ Video oynatma modunu döndürür veya ayarlar. Okuma/Yazma [VideoPlayModePreset]
 public abstract boolean getFullScreenMode()
 ```
 
-Bir videonun tam ekran modunda gösterilip gösterilmeyeceğini belirler. Okuma/Yazma boolean.
+Bir videonun tam ekran modunda gösterilip gösterilmeyeceğini belirler. Okuma/yazma boolean.
 
 **Döndürür:**
 boolean
@@ -157,7 +218,7 @@ boolean
 public abstract void setFullScreenMode(boolean value)
 ```
 
-Bir videonun tam ekran modunda gösterilip gösterilmeyeceğini belirler. Okuma/Yazma boolean.
+Bir videonun tam ekran modunda gösterilip gösterilmeyeceğini belirler. Okuma/yazma boolean.
 
 **Parametreler:**
 | Parametre | Tür | Açıklama |
@@ -169,7 +230,7 @@ Bir videonun tam ekran modunda gösterilip gösterilmeyeceğini belirler. Okuma/
 public abstract String getLinkPathLong()
 ```
 
-VideoFrame'e bağlı bir video dosyasının adını döndürür veya ayarlar. Okuma/Yazma String.
+Bir VideoFrame'e bağlı video dosyasının adını döndürür veya ayarlar. Okuma/yazma String.
 
 **Döndürür:**
 java.lang.String
@@ -178,7 +239,7 @@ java.lang.String
 public abstract void setLinkPathLong(String value)
 ```
 
-VideoFrame'e bağlı bir video dosyasının adını döndürür veya ayarlar. Okuma/Yazma String.
+Bir VideoFrame'e bağlı video dosyasının adını döndürür veya ayarlar. Okuma/yazma String.
 
 **Parametreler:**
 | Parametre | Tür | Açıklama |
@@ -190,7 +251,7 @@ VideoFrame'e bağlı bir video dosyasının adını döndürür veya ayarlar. Ok
 public abstract IVideo getEmbeddedVideo()
 ```
 
-Gömülü video nesnesini döndürür veya ayarlar. Okuma/Yazma [IVideo](../../com.aspose.slides/ivideo).
+Gömülü video nesnesini döndürür veya ayarlar. Okuma/yazma [IVideo](../../com.aspose.slides/ivideo).
 
 **Döndürür:**
 [IVideo](../../com.aspose.slides/ivideo)
@@ -199,7 +260,7 @@ Gömülü video nesnesini döndürür veya ayarlar. Okuma/Yazma [IVideo](../../c
 public abstract void setEmbeddedVideo(IVideo value)
 ```
 
-Gömülü video nesnesini döndürür veya ayarlar. Okuma/Yazma [IVideo](../../com.aspose.slides/ivideo).
+Gömülü video nesnesini döndürür veya ayarlar. Okuma/yazma [IVideo](../../com.aspose.slides/ivideo).
 
 **Parametreler:**
 | Parametre | Tür | Açıklama |
@@ -223,9 +284,9 @@ Başlangıç kırpma [ms]
 >      ISlide slide = pres.getSlides().get_Item(0);
 >      IVideo video = pres.getVideos().addVideo(Files.readAllBytes(Paths.get("video.mp4")));
 >      IVideoFrame videoFrame = slide.getShapes().addVideoFrame(0, 0, 100, 100, video);
->      //başlangıç kırpma süresini 1 saniye olarak ayarla
+>      //kırpma başlangıç zamanını 1 saniye olarak ayarla
 >      videoFrame.setTrimFromStart(1000f);
->      //bitiş kırpma süresini 2 saniye olarak ayarla
+>      //kırpma bitiş zamanını 2 saniye olarak ayarla
 >      videoFrame.setTrimFromEnd(2000f);
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -252,9 +313,9 @@ Başlangıç kırpma [ms]
 >      ISlide slide = pres.getSlides().get_Item(0);
 >      IVideo video = pres.getVideos().addVideo(Files.readAllBytes(Paths.get("video.mp4")));
 >      IVideoFrame videoFrame = slide.getShapes().addVideoFrame(0, 0, 100, 100, video);
->      //başlangıç kırpma süresi 1 saniye
+>      //kırpma başlangıç zamanını 1 saniye olarak ayarla
 >      videoFrame.setTrimFromStart(1000f);
->      //bitiş kırpma süresi 2 saniye
+>      //kırpma bitiş zamanını 2 saniye olarak ayarla
 >      videoFrame.setTrimFromEnd(2000f);
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -293,7 +354,7 @@ Bitiş kırpma [ms]
 public abstract ICaptionsCollection getCaptionTracks()
 ```
 
-Ses çerçevesiyle ilişkili kapalı altyazıların koleksiyonunu alır. Bu özellik salt okunurdur ve tüm alt yazı izlerini içeren bir [ICaptionsCollection](../../com.aspose.slides/icaptionscollection) döndürür.
+Ses çerçevesiyle ilişkili kapalı altyazıların koleksiyonunu alır. Bu özellik yalnızca okunabilir ve tüm altyazı izlerini içeren bir [ICaptionsCollection](../../com.aspose.slides/icaptionscollection) döndürür.
 
 --------------------
 
@@ -309,7 +370,7 @@ Ses çerçevesiyle ilişkili kapalı altyazıların koleksiyonunu alır. Bu öze
 >          IVideoFrame videoFrame = (IVideoFrame) shape;
 >          for (ICaptions captionTrack : videoFrame.getCaptionTracks())
 >          {
->              // Altyazı ikili verilerini çıkarır ve dosyaya kaydeder
+>              // Altyazıların ikili verilerini çıkarır ve dosyaya kaydeder
 >              FileOutputStream fos = new FileOutputStream(captionTrack.getCaptionId() + ".vtt");
 >              fos.write(captionTrack.getBinaryData());
 >              fos.close();

@@ -1,33 +1,33 @@
 ---
 title: IPresentation
-second_title: Aspose.Slides for Java API Referansı
+second_title: Aspose.Slides için Java API Referansı
 description: Sunum belgesi
 type: docs
 url: /tr/com.aspose.slides/ipresentation/
 ---
-**Tüm Gerçekleştirilen Arabirimler:**
+**Tüm Gerçekleştirilen Arayüzler:**
 [com.aspose.slides.IPresentationComponent](../../com.aspose.slides/ipresentationcomponent), com.aspose.ms.System.IDisposable
 ```
 public interface IPresentation extends IPresentationComponent, System.IDisposable
 ```
 
-Presentation document
-## Metotlar
+Sunum belgesi
+## Yöntemler
 
-| Metot | Açıklama |
+| Method | Description |
 | --- | --- |
-| [getCurrentDateTime()](#getCurrentDateTime--) | Tarih ve saat alanlarının içeriğini değiştirecek tarih ve saati döndürür veya ayarlar. |
-| [setCurrentDateTime(Date value)](#setCurrentDateTime-java.util.Date-) | Tarih ve saat alanlarının içeriğini değiştirecek tarih ve saati döndürür veya ayarlar. |
+| [getCurrentDateTime()](#getCurrentDateTime--) | Tarih ve saat döndürür veya ayarlar; datetime alanlarının içeriğini yerine koyar. |
+| [setCurrentDateTime(Date value)](#setCurrentDateTime-java.util.Date-) | Tarih ve saat döndürür veya ayarlar; datetime alanlarının içeriğini yerine koyar. |
 | [getHeaderFooterManager()](#getHeaderFooterManager--) | Sunumun HeaderFooter yöneticisini döndürür. |
-| [getProtectionManager()](#getProtectionManager--) | Bu sunum için izin yöneticisini alır. |
+| [getProtectionManager()](#getProtectionManager--) | Bu sunumun izin yöneticisini alır. |
 | [getSlides()](#getSlides--) | Sunumda tanımlı tüm slaytların bir listesini döndürür. |
 | [getSections()](#getSections--) | Sunumda tanımlı tüm slayt bölümlerinin bir listesini döndürür. |
 | [getSlideSize()](#getSlideSize--) | Slayt boyutu nesnesini döndürür. |
 | [getNotesSize()](#getNotesSize--) | Not slaytı boyutu nesnesini döndürür. |
 | [getLayoutSlides()](#getLayoutSlides--) | Sunumda tanımlı tüm yerleşim slaytlarının bir listesini döndürür. |
-| [getMasters()](#getMasters--) | Sunumda tanımlı tüm master slaytların bir listesini döndürür. |
-| [getMasterNotesSlideManager()](#getMasterNotesSlideManager--) | Not master yöneticisini döndürür. |
-| [getMasterHandoutSlideManager()](#getMasterHandoutSlideManager--) | El ilanı master yöneticisini döndürür. |
+| [getMasters()](#getMasters--) | Sunumda tanımlı tüm ana slaytların bir listesini döndürür. |
+| [getMasterNotesSlideManager()](#getMasterNotesSlideManager--) | Not ana yöneticisini döndürür. |
+| [getMasterHandoutSlideManager()](#getMasterHandoutSlideManager--) | El ilanı ana yöneticisini döndürür. |
 | [getFontsManager()](#getFontsManager--) | Yazı tipleri yöneticisini döndürür. |
 | [getDefaultTextStyle()](#getDefaultTextStyle--) | Şekiller için varsayılan metin stilini döndürür. |
 | [getCommentAuthors()](#getCommentAuthors--) | Yorum yazarlarının koleksiyonunu döndürür. |
@@ -38,44 +38,46 @@ Presentation document
 | [getCustomData()](#getCustomData--) | Sunumun özel verilerini döndürür. |
 | [getVbaProject()](#getVbaProject--) | Sunum makrolarıyla VBA projesini alır. |
 | [setVbaProject(IVbaProject value)](#setVbaProject-com.aspose.slides.IVbaProject-) | Sunum makrolarıyla VBA projesini alır. |
-| [getSourceFormat()](#getSourceFormat--) | Sunumun hangi formatta yüklendiğine dair bilgiyi döndürür. |
-| [getMasterTheme()](#getMasterTheme--) | Sunumun master temasını döndürür. |
-| [getHyperlinkQueries()](#getHyperlinkQueries--) | Tüm sunum slaytlarında (master, yerleşim, not slaytları hariç) bulunan tüm hiperlinklere kolay erişim sağlar. |
-| [getViewProperties()](#getViewProperties--) | Sunuma genel görünüm özelliklerini alır. |
+| [getSourceFormat()](#getSourceFormat--) | Sunumun yüklendiği format hakkında bilgi döndürür. |
+| [getMasterTheme()](#getMasterTheme--) | Sunumun ana temasını döndürür. |
+| [getHyperlinkQueries()](#getHyperlinkQueries--) | Tüm sunum slaytlarında bulunan (ana, yerleşim, not slaytlarında olmayan) tüm köprülerin kolay erişimini sağlar. |
+| [getViewProperties()](#getViewProperties--) | Sunum genelinde görünüm özelliklerini alır. |
 | [getFirstSlideNumber()](#getFirstSlideNumber--) | Sunumdaki ilk slayt numarasını temsil eder. |
 | [setFirstSlideNumber(int value)](#setFirstSlideNumber-int-) | Sunumdaki ilk slayt numarasını temsil eder. |
 | [getAllCustomXmlParts()](#getAllCustomXmlParts--) | Sunumdaki tüm özel veri parçalarını döndürür. |
 | [getDigitalSignatures()](#getDigitalSignatures--) | Sunumu imzalamak için kullanılan imzaların koleksiyonunu döndürür. |
-| [getSensitivityLabels()](#getSensitivityLabels--) | Sunum belgesine uygulanan duyarlılık etiketlerinin koleksiyonunu döndürür. |
-| [save(String fname, int format)](#save-java.lang.String-int-) | Sunumdaki tüm slaytları belirtilen formatta bir dosyaya kaydeder. |
-| [save(OutputStream stream, int format)](#save-java.io.OutputStream-int-) | Sunumdaki tüm slaytları belirtilen formatta bir akışa kaydeder. |
-| [save(String fname, int format, ISaveOptions options)](#save-java.lang.String-int-com.aspose.slides.ISaveOptions-) | Sunumdaki tüm slaytları belirtilen formatta ve ek seçeneklerle bir dosyaya kaydeder. |
-| [save(OutputStream stream, int format, ISaveOptions options)](#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-) | Sunumdaki tüm slaytları belirtilen formatta ve ek seçeneklerle bir akışa kaydeder. |
-| [save(String fname, int[] slides, int format)](#save-java.lang.String-int---int-) | Sunumdaki belirtilen slaytları belirtilen formatta bir dosyaya kaydeder. |
-| [save(String fname, int[] slides, int format, ISaveOptions options)](#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-) | Sunumdaki belirtilen slaytları belirtilen formatta bir dosyaya kaydeder. |
-| [save(OutputStream stream, int[] slides, int format)](#save-java.io.OutputStream-int---int-) | Sunumdaki belirtilen slaytları belirtilen formatta bir akışa kaydeder. |
-| [save(OutputStream stream, int[] slides, int format, ISaveOptions options)](#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-) | Sunumdaki belirtilen slaytları belirtilen formatta bir akışa kaydeder. |
-| [save(IXamlOptions options)](#save-com.aspose.slides.IXamlOptions-) | Sunumdaki tüm slaytları XAML işaretlemesi temsil eden bir dosya setine kaydeder. |
-| [getImages(IRenderingOptions options)](#getImages-com.aspose.slides.IRenderingOptions-) | Sunumdaki tüm slaytlar için bir Küçük Resim nesnesi döndürür. |
-| [getImages(IRenderingOptions options, int[] slides)](#getImages-com.aspose.slides.IRenderingOptions-int---) | Sunumdaki belirtilen slaytlar için bir Küçük Resim IImage nesnesi döndürür. |
-| [getImages(IRenderingOptions options, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-float-float-) | Özel ölçekleme ile sunumdaki tüm slaytlar için bir Küçük Resim nesnesi döndürür. |
-| [getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-int---float-float-) | Özel ölçekleme ile sunumdaki belirtilen slaytlar için bir Küçük Resim nesnesi döndürür. |
-| [getImages(IRenderingOptions options, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-) | Belirtilen boyutta sunumdaki tüm slaytlar için bir Küçük Resim nesnesi döndürür. |
-| [getImages(IRenderingOptions options, int[] slides, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-) | Belirtilen boyutta sunumdaki belirtilen slaytlar için bir Küçük Resim nesnesi döndürür. |
-| [getSlideById(long id)](#getSlideById-long-) | Id'ye göre bir Slide, MasterSlide veya LayoutSlide döndürür. |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Tüm slaytlardaki tüm kabul edilebilir şekillerdeki tüm paragraflarda aynı biçimlendirmeye sahip runları birleştirir. |
+| [getSensitivityLabels()](#getSensitivityLabels--) | Sunum belgesine uygulanan hassasiyet etiketlerinin koleksiyonunu döndürür. |
+| [save(String fname, int format)](#save-java.lang.String-int-) | Sunumun tüm slaytlarını belirtilen formatta bir dosyaya kaydeder. |
+| [save(OutputStream stream, int format)](#save-java.io.OutputStream-int-) | Sunumun tüm slaytlarını belirtilen formatta bir akışa kaydeder. |
+| [save(String fname, int format, ISaveOptions options)](#save-java.lang.String-int-com.aspose.slides.ISaveOptions-) | Sunumun tüm slaytlarını belirtilen formatta ve ek seçeneklerle bir dosyaya kaydeder. |
+| [save(OutputStream stream, int format, ISaveOptions options)](#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-) | Sunumun tüm slaytlarını belirtilen formatta ve ek seçeneklerle bir akışa kaydeder. |
+| [save(String fname, int[] slides, int format)](#save-java.lang.String-int---int-) | Sunumun belirtilen slaytlarını belirtilen formatta bir dosyaya kaydeder. |
+| [save(String fname, int[] slides, int format, ISaveOptions options)](#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-) | Sunumun belirtilen slaytlarını belirtilen formatta ve ek seçeneklerle bir dosyaya kaydeder. |
+| [save(OutputStream stream, int[] slides, int format)](#save-java.io.OutputStream-int---int-) | Sunumun belirtilen slaytlarını belirtilen formatta bir akışa kaydeder. |
+| [save(OutputStream stream, int[] slides, int format, ISaveOptions options)](#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-) | Sunumun belirtilen slaytlarını belirtilen formatta ve ek seçeneklerle bir akışa kaydeder. |
+| [save(IXamlOptions options)](#save-com.aspose.slides.IXamlOptions-) | Sunumun tüm slaytlarını XAML işaretlemeyi temsil eden dosya setine kaydeder. |
+| [getImages(IRenderingOptions options)](#getImages-com.aspose.slides.IRenderingOptions-) | Sunumdaki tüm slaytlar için Küçük Resim Image nesnelerini döndürür. |
+| [getImages(IRenderingOptions options, int[] slides)](#getImages-com.aspose.slides.IRenderingOptions-int---) | Belirtilen slaytlar için Küçük Resim IImage nesnelerini döndürür. |
+| [getImages(IRenderingOptions options, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-float-float-) | Tüm slaytlar için özel ölçekle Küçük Resim Image nesnelerini döndürür. |
+| [getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-int---float-float-) | Belirtilen slaytlar için özel ölçekle Küçük Resim Image nesnelerini döndürür. |
+| [getImages(IRenderingOptions options, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-) | Belirtilen boyutta tüm slaytlar için Küçük Resim Image nesnelerini döndürür. |
+| [getImages(IRenderingOptions options, int[] slides, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-) | Belirtilen slaytlar için belirtilen boyutta Küçük Resim Image nesnelerini döndürür. |
+| [getSlideById(long id)](#getSlideById-long-) | Id ile bir Slide, MasterSlide veya LayoutSlide döndürür. |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Tüm slaytlardaki tüm kabul edilebilir şekillerdeki tüm paragraflarda aynı biçimlendirmeye sahip koşulları birleştirir. |
 | [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | Örnek metnin tüm eşleşmelerini belirtilen renk ile vurgular. |
 | [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Örnek metnin tüm eşleşmelerini belirtilen renk ile vurgular. |
-| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | Düzenli ifadelerin tüm eşleşmelerini belirtilen renk ile vurgular. |
-| [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Belirtilen metnin tüm oluşumlarını başka belirtilen metinle değiştirir. |
+| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | Düzenli ifadenin tüm eşleşmelerini belirtilen renk ile vurgular. |
+| [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Belirtilen metnin tüm oluşumlarını başka bir belirtilen metinle değiştirir. |
 | [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Düzenli ifadenin tüm eşleşmelerini belirtilen dizeyle değiştirir. |
+| [refreshChartsData()](#refreshChartsData--) | Sunumdaki tüm grafiklerin verilerini kaynak çalışma kitaplarından yeniden yükler. |
+| [refreshChartsData(boolean skipFailedCharts)](#refreshChartsData-boolean-) | Sunumdaki tüm grafiklerin verilerini kaynak çalışma kitaplarından yeniden yükler. |
 
 ### getCurrentDateTime() {#getCurrentDateTime--}
 ```
 public abstract Date getCurrentDateTime()
 ```
 
-Tarih ve saat alanlarının içeriğini değiştirecek tarih ve saati döndürür veya ayarlar. Varsayılan olarak bu Presentation nesnesinin oluşturulma zamanı. **Okuma/yazma** java.util.Date.
+Tarih ve saat döndürür veya ayarlar; datetime alanlarının içeriğini yerine koyar. Bu Presentation nesnesinin oluşturulma zamanı varsayılandır. Okuma/yazma java.util.Date.
 
 **Döndürür:**
 java.util.Date
@@ -85,10 +87,10 @@ java.util.Date
 public abstract void setCurrentDateTime(Date value)
 ```
 
-Tarih ve saat alanlarının içeriğini değiştirecek tarih ve saati döndürür veya ayarlar. Varsayılan olarak bu Presentation nesnesinin oluşturulma zamanı. **Okuma/yazma** java.util.Date.
+Tarih ve saat döndürür veya ayarlar; datetime alanlarının içeriğini yerine koyar. Bu Presentation nesnesinin oluşturulma zamanı varsayılandır. Okuma/yazma java.util.Date.
 
 **Parametreler:**
-| Parametre | Tür | Açıklama |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.util.Date |  |
 
@@ -97,7 +99,7 @@ Tarih ve saat alanlarının içeriğini değiştirecek tarih ve saati döndürü
 public abstract IPresentationHeaderFooterManager getHeaderFooterManager()
 ```
 
-Sunumun HeaderFooter yöneticisini döndürür. **Yalnızca okuma** [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager).
+Sunumun HeaderFooter yöneticisini döndürür. Salt okunur [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager).
 
 **Döndürür:**
 [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager)
@@ -107,7 +109,7 @@ Sunumun HeaderFooter yöneticisini döndürür. **Yalnızca okuma** [IPresentati
 public abstract IProtectionManager getProtectionManager()
 ```
 
-Bu sunum için izin yöneticisini alır. **Yalnızca okuma** [IProtectionManager](../../com.aspose.slides/iprotectionmanager).
+Bu sunumun izin yöneticisini alır. Salt okunur [IProtectionManager](../../com.aspose.slides/iprotectionmanager).
 
 **Döndürür:**
 [IProtectionManager](../../com.aspose.slides/iprotectionmanager)
@@ -117,7 +119,7 @@ Bu sunum için izin yöneticisini alır. **Yalnızca okuma** [IProtectionManager
 public abstract ISlideCollection getSlides()
 ```
 
-Sunumda tanımlı tüm slaytların bir listesini döndürür. **Yalnızca okuma** [ISlideCollection](../../com.aspose.slides/islidecollection).
+Sunumda tanımlı tüm slaytların bir listesini döndürür. Salt okunur [ISlideCollection](../../com.aspose.slides/islidecollection).
 
 **Döndürür:**
 [ISlideCollection](../../com.aspose.slides/islidecollection)
@@ -127,7 +129,7 @@ Sunumda tanımlı tüm slaytların bir listesini döndürür. **Yalnızca okuma*
 public abstract ISectionCollection getSections()
 ```
 
-Sunumda tanımlı tüm slayt bölümlerinin bir listesini döndürür. **Yalnızca okuma** [ISectionCollection](../../com.aspose.slides/isectioncollection).
+Sunumda tanımlı tüm slayt bölümlerinin bir listesini döndürür. Salt okunur [ISectionCollection](../../com.aspose.slides/isectioncollection).
 
 **Döndürür:**
 [ISectionCollection](../../com.aspose.slides/isectioncollection)
@@ -137,7 +139,7 @@ Sunumda tanımlı tüm slayt bölümlerinin bir listesini döndürür. **Yalnız
 public abstract ISlideSize getSlideSize()
 ```
 
-Slayt boyutu nesnesini döndürür. **Yalnızca okuma** [ISlideSize](../../com.aspose.slides/islidesize).
+Slayt boyutu nesnesini döndürür. Salt okunur [ISlideSize](../../com.aspose.slides/islidesize).
 
 **Döndürür:**
 [ISlideSize](../../com.aspose.slides/islidesize)
@@ -147,7 +149,7 @@ Slayt boyutu nesnesini döndürür. **Yalnızca okuma** [ISlideSize](../../com.a
 public abstract INotesSize getNotesSize()
 ```
 
-Not slaytı boyutu nesnesini döndürür. **Yalnızca okuma** [INotesSize](../../com.aspose.slides/inotessize).
+Not slaytı boyutu nesnesini döndürür. Salt okunur [INotesSize](../../com.aspose.slides/inotessize).
 
 **Döndürür:**
 [INotesSize](../../com.aspose.slides/inotessize)
@@ -157,11 +159,11 @@ Not slaytı boyutu nesnesini döndürür. **Yalnızca okuma** [INotesSize](../..
 public abstract IGlobalLayoutSlideCollection getLayoutSlides()
 ```
 
-Sunumda tanımlı tüm yerleşim slaytlarının bir listesini döndürür. **Yalnızca okuma** [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection).
+Sunumda tanımlı tüm yerleşim slaytlarının bir listesini döndürür. Salt okunur [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection).
 
 --------------------
 
-You can access to alternative API for adding/inserting/removing/cloning layout slides by using IMasterSlide.LayoutSlides property.
+Bu slaytların ekleme/kaldırma/klonlama işlemleri için IMasterSlide.LayoutSlides özelliği kullanılabilir.
 
 **Döndürür:**
 [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection)
@@ -171,7 +173,7 @@ You can access to alternative API for adding/inserting/removing/cloning layout s
 public abstract IMasterSlideCollection getMasters()
 ```
 
-Sunumda tanımlı tüm master slaytların bir listesini döndürür. **Yalnızca okuma** [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection).
+Sunumda tanımlı tüm ana slaytların bir listesini döndürür. Salt okunur [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection).
 
 **Döndürür:**
 [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection)
@@ -181,7 +183,7 @@ Sunumda tanımlı tüm master slaytların bir listesini döndürür. **Yalnızca
 public abstract IMasterNotesSlideManager getMasterNotesSlideManager()
 ```
 
-Not master yöneticisini döndürür. **Yalnızca okuma** [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager).
+Not ana yöneticisini döndürür. Salt okunur [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager).
 
 **Döndürür:**
 [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager)
@@ -191,7 +193,7 @@ Not master yöneticisini döndürür. **Yalnızca okuma** [IMasterNotesSlideMana
 public abstract IMasterHandoutSlideManager getMasterHandoutSlideManager()
 ```
 
-El ilanı master yöneticisini döndürür. **Yalnızca okuma** [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager).
+El ilanı ana yöneticisini döndürür. Salt okunur [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager).
 
 **Döndürür:**
 [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager)
@@ -201,7 +203,7 @@ El ilanı master yöneticisini döndürür. **Yalnızca okuma** [IMasterHandoutS
 public abstract IFontsManager getFontsManager()
 ```
 
-Yazı tipleri yöneticisini döndürür. **Yalnızca okuma** [IFontsManager](../../com.aspose.slides/ifontsmanager).
+Yazı tipleri yöneticisini döndürür. Salt okunur [IFontsManager](../../com.aspose.slides/ifontsmanager).
 
 **Döndürür:**
 [IFontsManager](../../com.aspose.slides/ifontsmanager)
@@ -211,7 +213,7 @@ Yazı tipleri yöneticisini döndürür. **Yalnızca okuma** [IFontsManager](../
 public abstract ITextStyle getDefaultTextStyle()
 ```
 
-Şekiller için varsayılan metin stilini döndürür. **Yalnızca okuma** [ITextStyle](../../com.aspose.slides/itextstyle).
+Şekiller için varsayılan metin stilini döndürür. Salt okunur [ITextStyle](../../com.aspose.slides/itextstyle).
 
 **Döndürür:**
 [ITextStyle](../../com.aspose.slides/itextstyle)
@@ -221,7 +223,7 @@ public abstract ITextStyle getDefaultTextStyle()
 public abstract ICommentAuthorCollection getCommentAuthors()
 ```
 
-Yorum yazarlarının koleksiyonunu döndürür. **Yalnızca okuma** [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection).
+Yorum yazarlarının koleksiyonunu döndürür. Salt okunur [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection).
 
 **Döndürür:**
 [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection)
@@ -231,7 +233,7 @@ Yorum yazarlarının koleksiyonunu döndürür. **Yalnızca okuma** [ICommentAut
 public abstract IDocumentProperties getDocumentProperties()
 ```
 
-Standart ve özel belge özelliklerini içeren DocumentProperties nesnesini döndürür. **Yalnızca okuma** [IDocumentProperties](../../com.aspose.slides/idocumentproperties).
+Standart ve özel belge özelliklerini içeren DocumentProperties nesnesini döndürür. Salt okunur [IDocumentProperties](../../com.aspose.slides/idocumentproperties).
 
 **Döndürür:**
 [IDocumentProperties](../../com.aspose.slides/idocumentproperties)
@@ -241,7 +243,7 @@ Standart ve özel belge özelliklerini içeren DocumentProperties nesnesini dön
 public abstract IImageCollection getImages()
 ```
 
-Sunumdaki tüm görüntülerin koleksiyonunu döndürür. **Yalnızca okuma** [IImageCollection](../../com.aspose.slides/iimagecollection).
+Sunumdaki tüm görüntülerin koleksiyonunu döndürür. Salt okunur [IImageCollection](../../com.aspose.slides/iimagecollection).
 
 **Döndürür:**
 [IImageCollection](../../com.aspose.slides/iimagecollection)
@@ -251,7 +253,7 @@ Sunumdaki tüm görüntülerin koleksiyonunu döndürür. **Yalnızca okuma** [I
 public abstract IAudioCollection getAudios()
 ```
 
-Sunumdaki tüm gömülü ses dosyalarının koleksiyonunu döndürür. **Yalnızca okuma** [IAudioCollection](../../com.aspose.slides/iaudiocollection).
+Sunumdaki tüm gömülü ses dosyalarının koleksiyonunu döndürür. Salt okunur [IAudioCollection](../../com.aspose.slides/iaudiocollection).
 
 **Döndürür:**
 [IAudioCollection](../../com.aspose.slides/iaudiocollection)
@@ -261,7 +263,7 @@ Sunumdaki tüm gömülü ses dosyalarının koleksiyonunu döndürür. **Yalnız
 public abstract IVideoCollection getVideos()
 ```
 
-Sunumdaki tüm gömülü video dosyalarının koleksiyonunu döndürür. **Yalnızca okuma** [IVideoCollection](../../com.aspose.slides/ivideocollection).
+Sunumdaki tüm gömülü video dosyalarının koleksiyonunu döndürür. Salt okunur [IVideoCollection](../../com.aspose.slides/ivideocollection).
 
 **Döndürür:**
 [IVideoCollection](../../com.aspose.slides/ivideocollection)
@@ -271,7 +273,7 @@ Sunumdaki tüm gömülü video dosyalarının koleksiyonunu döndürür. **Yaln�
 public abstract ICustomData getCustomData()
 ```
 
-Sunumun özel verilerini döndürür. **Yalnızca okuma** [ICustomData](../../com.aspose.slides/icustomdata).
+Sunumun özel verilerini döndürür. Salt okunur [ICustomData](../../com.aspose.slides/icustomdata).
 
 **Döndürür:**
 [ICustomData](../../com.aspose.slides/icustomdata)
@@ -281,7 +283,7 @@ Sunumun özel verilerini döndürür. **Yalnızca okuma** [ICustomData](../../co
 public abstract IVbaProject getVbaProject()
 ```
 
-Sunum makrolarıyla VBA projesini alır. **Okuma/yazma** [IVbaProject](../../com.aspose.slides/ivbaproject).
+Sunum makrolarıyla VBA projesini alır. Okuma/yazma [IVbaProject](../../com.aspose.slides/ivbaproject).
 
 **Döndürür:**
 [IVbaProject](../../com.aspose.slides/ivbaproject)
@@ -291,10 +293,10 @@ Sunum makrolarıyla VBA projesini alır. **Okuma/yazma** [IVbaProject](../../com
 public abstract void setVbaProject(IVbaProject value)
 ```
 
-Sunum makrolarıyla VBA projesini alır. **Okuma/yazma** [IVbaProject](../../com.aspose.slides/ivbaproject).
+Sunum makrolarıyla VBA projesini alır. Okuma/yazma [IVbaProject](../../com.aspose.slides/ivbaproject).
 
 **Parametreler:**
-| Parametre | Tür | Açıklama |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | [IVbaProject](../../com.aspose.slides/ivbaproject) |  |
 
@@ -303,7 +305,7 @@ Sunum makrolarıyla VBA projesini alır. **Okuma/yazma** [IVbaProject](../../com
 public abstract int getSourceFormat()
 ```
 
-Sunumun hangi formatta yüklendiğine dair bilgiyi döndürür. **Yalnızca okuma** [SourceFormat](../../com.aspose.slides/sourceformat).
+Sunumun yüklendiği format hakkında bilgi döndürür. Salt okunur [SourceFormat](../../com.aspose.slides/sourceformat).
 
 **Döndürür:**
 int
@@ -313,7 +315,7 @@ int
 public abstract IMasterTheme getMasterTheme()
 ```
 
-Sunumun master temasını döndürür. **Yalnızca okuma** [IMasterTheme](../../com.aspose.slides/imastertheme).
+Sunumun ana temasını döndürür. Salt okunur [IMasterTheme](../../com.aspose.slides/imastertheme).
 
 **Döndürür:**
 [IMasterTheme](../../com.aspose.slides/imastertheme)
@@ -323,7 +325,7 @@ Sunumun master temasını döndürür. **Yalnızca okuma** [IMasterTheme](../../
 public abstract IHyperlinkQueries getHyperlinkQueries()
 ```
 
-Tüm sunum slaytlarında (master, yerleşim, not slaytları hariç) bulunan tüm hiperlinklere kolay erişim sağlar. **Yalnızca okuma** [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
+Tüm sunum slaytlarında bulunan (ana, yerleşim, not slaytlarında olmayan) tüm köprülerin kolay erişimini sağlar. Salt okunur [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
 
 **Döndürür:**
 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)
@@ -333,7 +335,7 @@ Tüm sunum slaytlarında (master, yerleşim, not slaytları hariç) bulunan tüm
 public abstract IViewProperties getViewProperties()
 ```
 
-Sunuma genel görünüm özelliklerini alır. **Yalnızca okuma** [IViewProperties](../../com.aspose.slides/iviewproperties).
+Sunum genelinde görünüm özelliklerini alır. Salt okunur [IViewProperties](../../com.aspose.slides/iviewproperties).
 
 **Döndürür:**
 [IViewProperties](../../com.aspose.slides/iviewproperties)
@@ -343,7 +345,7 @@ Sunuma genel görünüm özelliklerini alır. **Yalnızca okuma** [IViewProperti
 public abstract int getFirstSlideNumber()
 ```
 
-Sunumdaki ilk slayt numarasını temsil eder. **Okuma/yazma** int.
+Sunumdaki ilk slayt numarasını temsil eder. Okuma/yazma int.
 
 **Döndürür:**
 int
@@ -353,10 +355,10 @@ int
 public abstract void setFirstSlideNumber(int value)
 ```
 
-Sunumdaki ilk slayt numarasını temsil eder. **Okuma/yazma** int.
+Sunumdaki ilk slayt numarasını temsil eder. Okuma/yazma int.
 
 **Parametreler:**
-| Parametre | Tür | Açıklama |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
@@ -365,7 +367,7 @@ Sunumdaki ilk slayt numarasını temsil eder. **Okuma/yazma** int.
 public abstract ICustomXmlPart[] getAllCustomXmlParts()
 ```
 
-Sunumdaki tüm özel veri parçalarını döndürür. **Yalnızca okuma** ICustomXmlPart[].
+Sunumdaki tüm özel veri parçalarını döndürür. Salt okunur ICustomXmlPart[].
 
 **Döndürür:**
 com.aspose.slides.ICustomXmlPart[]
@@ -375,7 +377,7 @@ com.aspose.slides.ICustomXmlPart[]
 public abstract IDigitalSignatureCollection getDigitalSignatures()
 ```
 
-Sunumu imzalamak için kullanılan imzaların koleksiyonunu döndürür. **Yalnızca okuma** [IDigitalSignatureCollection](../../com.aspose.slides/idigitalsignaturecollection).
+Sunumu imzalamak için kullanılan imzaların koleksiyonunu döndürür. Salt okunur [IDigitalSignatureCollection](../../com.aspose.slides/idigitalsignaturecollection).
 
 --------------------
 
@@ -403,6 +405,7 @@ Sunumu imzalamak için kullanılan imzaların koleksiyonunu döndürür. **Yaln�
 >  }
 > ```
 
+
 **Döndürür:**
 [IDigitalSignatureCollection](../../com.aspose.slides/idigitalsignaturecollection)
 
@@ -411,7 +414,7 @@ Sunumu imzalamak için kullanılan imzaların koleksiyonunu döndürür. **Yaln�
 public abstract ISensitivityLabelCollection getSensitivityLabels()
 ```
 
-Sunum belgesine uygulanan duyarlılık etiketlerinin koleksiyonunu döndürür. **Yalnızca okuma** [ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection).
+Sunum belgesine uygulanan hassasiyet etiketlerinin koleksiyonunu döndürür. Salt okunur [ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection).
 
 --------------------
 
@@ -425,8 +428,8 @@ Sunum belgesine uygulanan duyarlılık etiketlerinin koleksiyonunu döndürür. 
 >          System.out.println("Label Id " + sensitivityLabel.getId() + " from Azure AD site " + sensitivityLabel.getSiteId());
 > 
 >      // Yeni etiketi ekle
->      String labelIdString = "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"; // Politikadan hassasiyet etiketi kimliğini al
->      UUID siteIdGuid = UUID.fromString("{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"); // Politikadan Azure AD site tanımlayıcısını al
+>      String labelIdString = "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"; // Duyarlılık etiketi kimliğini politikadan al
+>      UUID siteIdGuid = UUID.fromString("{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"); // Azure AD site tanımlayıcısını politikadan al
 >      ISensitivityLabel label = sensitivityLabels.add(labelIdString, siteIdGuid, true, SensitivityLabelAssignmentType.Privileged);
 >      label.getContentMarkTypes().addItem(SensitivityLabelContentType.Footer);
 > 
@@ -436,6 +439,7 @@ Sunum belgesine uygulanan duyarlılık etiketlerinin koleksiyonunu döndürür. 
 >  }
 > ```
 
+
 **Döndürür:**
 [ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection)
 
@@ -444,10 +448,10 @@ Sunum belgesine uygulanan duyarlılık etiketlerinin koleksiyonunu döndürür. 
 public abstract void save(String fname, int format)
 ```
 
-Sunumdaki tüm slaytları belirtilen formatta bir dosyaya kaydeder.
+Sunumun tüm slaytlarını belirtilen formatta bir dosyaya kaydeder.
 
 **Parametreler:**
-| Parametre | Tür | Açıklama |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | fname | java.lang.String | Oluşturulacak dosyanın yolu. |
 | format | int | Dışa aktarılan verinin formatı. |
@@ -457,10 +461,10 @@ Sunumdaki tüm slaytları belirtilen formatta bir dosyaya kaydeder.
 public abstract void save(OutputStream stream, int format)
 ```
 
-Sunumdaki tüm slaytları belirtilen formatta bir akışa kaydeder.
+Sunumun tüm slaytlarını belirtilen formatta bir akışa kaydeder.
 
 **Parametreler:**
-| Parametre | Tür | Açıklama |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.OutputStream | Çıktı akışı. |
 | format | int | Dışa aktarılan verinin formatı. |
@@ -469,94 +473,93 @@ Sunumdaki tüm slaytları belirtilen formatta bir akışa kaydeder.
 ```
 public abstract void save(String fname, int format, ISaveOptions options)
 ```
-
-Sunumdaki tüm slaytları belirtilen formatta ve ek seçeneklerle bir dosyaya kaydeder.
+Bir sunumdaki tüm slaytları belirtilen formatta ve ek seçeneklerle bir dosyaya kaydeder.
 
 **Parametreler:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| fname | java.lang.String | Oluşturulacak dosyanın yolu. |
-| format | int | Dışa aktarılan verinin biçimi. |
-| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Ek biçim seçenekleri. |
+| fname | java.lang.String | Oluşturulan dosyanın yolu. |
+| format | int | Dışa aktarılan verinin formatı. |
+| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Ek format seçenekleri. |
 
 ### save(OutputStream stream, int format, ISaveOptions options) {#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-}
-```
+``` 
 public abstract void save(OutputStream stream, int format, ISaveOptions options)
 ```
 
-Bir sunumun tüm slaytlarını belirtilen biçimde ve ek seçeneklerle bir akışa kaydeder.
+Bir sunumdaki tüm slaytları belirtilen formatta ve ek seçeneklerle bir akışa kaydeder.
 
 **Parametreler:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | stream | java.io.OutputStream | Çıktı akışı. |
-| format | int | Dışa aktarılan verinin biçimi. |
-| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Ek biçim seçenekleri. |
+| format | int | Dışa aktarılan verinin formatı. |
+| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Ek format seçenekleri. |
 
 ### save(String fname, int[] slides, int format) {#save-java.lang.String-int---int-}
-```
+``` 
 public abstract void save(String fname, int[] slides, int format)
 ```
 
-Belirtilen slaytları, belirtilen biçimde bir dosyaya kaydeder.
+Belirtilen slaytları bir sunumdan belirtilen formatta bir dosyaya kaydeder.
 
 **Parametreler:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | fname | java.lang.String | Oluşturulan dosyanın yolu. |
 | slides | int[] | 1'den başlayan slayt konumlarını içeren dizi. |
-| format | int | Dışa aktarılan verinin biçimi. |
+| format | int | Dışa aktarılan verinin formatı. |
 
 ### save(String fname, int[] slides, int format, ISaveOptions options) {#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-}
-```
+``` 
 public abstract void save(String fname, int[] slides, int format, ISaveOptions options)
 ```
 
-Belirtilen slaytları, belirtilen biçimde bir dosyaya kaydeder.
+Belirtilen slaytları bir sunumdan belirtilen formatta bir dosyaya kaydeder.
 
 **Parametreler:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | fname | java.lang.String | Oluşturulan dosyanın yolu. |
 | slides | int[] | 1'den başlayan slayt konumlarını içeren dizi. |
-| format | int | Dışa aktarılan verinin biçimi. |
-| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Ek biçim seçenekleri. |
+| format | int | Dışa aktarılan verinin formatı. |
+| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Ek format seçenekleri. |
 
 ### save(OutputStream stream, int[] slides, int format) {#save-java.io.OutputStream-int---int-}
-```
+``` 
 public abstract void save(OutputStream stream, int[] slides, int format)
 ```
 
-Belirtilen slaytları belirtilen biçimde bir akışa kaydeder.
+Belirtilen slaytları bir sunumdan belirtilen formatta bir akışa kaydeder.
 
 **Parametreler:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | stream | java.io.OutputStream | Çıktı akışı. |
 | slides | int[] | 1'den başlayan slayt konumlarını içeren dizi. |
-| format | int | Dışa aktarılan verinin biçimi. |
+| format | int | Dışa aktarılan verinin formatı. |
 
 ### save(OutputStream stream, int[] slides, int format, ISaveOptions options) {#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-}
-```
+``` 
 public abstract void save(OutputStream stream, int[] slides, int format, ISaveOptions options)
 ```
 
-Belirtilen slaytları belirtilen biçimde bir akışa kaydeder.
+Belirtilen slaytları bir sunumdan belirtilen formatta bir akışa kaydeder.
 
 **Parametreler:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | stream | java.io.OutputStream | Çıktı akışı. |
 | slides | int[] | 1'den başlayan slayt konumlarını içeren dizi. |
-| format | int | Dışa aktarılan verinin biçimi. |
-| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Ek biçim seçenekleri. |
+| format | int | Dışa aktarılan verinin formatı. |
+| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Ek format seçenekleri. |
 
 ### save(IXamlOptions options) {#save-com.aspose.slides.IXamlOptions-}
 ```
 public abstract void save(IXamlOptions options)
 ```
 
-Bir sunumun tüm slaytlarını XAML işaretlemesini temsil eden bir dizi dosyaya kaydeder.
+Bir sunumdaki tüm slaytları XAML işaretlemesini temsil eden bir dosya kümesine kaydeder.
 
 --------------------
 
@@ -572,131 +575,132 @@ Bir sunumun tüm slaytlarını XAML işaretlemesini temsil eden bir dizi dosyaya
 >  }
 > ```
 
+
 **Parametreler:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| options | [IXamlOptions](../../com.aspose.slides/ixamloptions) | XAML biçim seçenekleri. |
+| options | [IXamlOptions](../../com.aspose.slides/ixamloptions) | XAML format seçenekleri. |
 
 ### getImages(IRenderingOptions options) {#getImages-com.aspose.slides.IRenderingOptions-}
 ```
 public abstract IImage[] getImages(IRenderingOptions options)
 ```
 
-Bir sunumun tüm slaytları için küçük resim Image nesneleri döndürür.
+Sunumdaki tüm slaytlar için Küçük Resim nesneleri döndürür.
 
 **Parametreler:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Render seçenekleri. |
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Renderleme seçenekleri. |
 
 **Döndürür:**
-com.aspose.slides.IImage[] - IImage nesneleri.
+com.aspose.slides.IImage[] - IImage objects.
 
 ### getImages(IRenderingOptions options, int[] slides) {#getImages-com.aspose.slides.IRenderingOptions-int---}
 ```
 public abstract IImage[] getImages(IRenderingOptions options, int[] slides)
 ```
 
-Belirtilen slaytlar için küçük resim IImage nesneleri döndürür.
+Belirtilen slaytlar için Küçük Resim IImage nesneleri döndürür.
 
 **Parametreler:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Render seçenekleri. |
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Renderleme seçenekleri. |
 | slides | int[] | 1'den başlayan slayt konumlarını içeren dizi. |
 
 **Döndürür:**
-com.aspose.slides.IImage[] - IImage nesneleri.
+com.aspose.slides.IImage[] - IImage objects.
 
 ### getImages(IRenderingOptions options, float scaleX, float scaleY) {#getImages-com.aspose.slides.IRenderingOptions-float-float-}
 ```
 public abstract IImage[] getImages(IRenderingOptions options, float scaleX, float scaleY)
 ```
 
-Bir sunumun tüm slaytları için özel ölçekleme ile küçük resim Image nesneleri döndürür.
+Özel ölçeklendirme ile sunumdaki tüm slaytlar için Küçük Resim nesneleri döndürür.
 
 **Parametreler:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Render seçenekleri. |
-| scaleX | float | Bu küçük resmin x ekseninde ölçekleneceği değer. |
-| scaleY | float | Bu küçük resmin y ekseninde ölçekleneceği değer. |
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Renderleme seçenekleri. |
+| scaleX | float | Bu Küçük Resmi x ekseni yönünde ölçeklemek için kullanılacak değer. |
+| scaleY | float | Bu Küçük Resmi y ekseni yönünde ölçeklemek için kullanılacak değer. |
 
 **Döndürür:**
-com.aspose.slides.IImage[] - Bitmap nesneleri.
+com.aspose.slides.IImage[] - Bitmap objects.
 
 ### getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY) {#getImages-com.aspose.slides.IRenderingOptions-int---float-float-}
 ```
 public abstract IImage[] getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)
 ```
 
-Belirtilen slaytlar için özel ölçekleme ile küçük resim Image nesneleri döndürür.
+Özel ölçeklendirme ile belirtilen slaytlar için Küçük Resim nesneleri döndürür.
 
 **Parametreler:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Render seçenekleri. |
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Renderleme seçenekleri. |
 | slides | int[] | 1'den başlayan slayt konumlarını içeren dizi. |
-| scaleX | float | Bu küçük resmin x ekseninde ölçekleneceği değer. |
-| scaleY | float | Bu küçük resmin y ekseninde ölçekleneceği değer. |
+| scaleX | float | Bu Küçük Resmi x ekseni yönünde ölçeklemek için kullanılacak değer. |
+| scaleY | float | Bu Küçük Resmi y ekseni yönünde ölçeklemek için kullanılacak değer. |
 
 **Döndürür:**
-com.aspose.slides.IImage[] - IImage nesneleri.
+com.aspose.slides.IImage[] - IImage objects.
 
 ### getImages(IRenderingOptions options, Dimension imageSize) {#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-}
-```
+``` 
 public abstract IImage[] getImages(IRenderingOptions options, Dimension imageSize)
 ```
 
-Belirtilen boyutta bir görüntü oluşturularak tüm slaytlar için küçük resim Image nesneleri döndürür.
+Belirtilen boyutta sunumdaki tüm slaytlar için Küçük Resim nesneleri döndürür.
 
 **Parametreler:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Render seçenekleri. |
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Renderleme seçenekleri. |
 | imageSize | java.awt.Dimension | Oluşturulacak görüntünün boyutu. |
 
 **Döndürür:**
-com.aspose.slides.IImage[] - IImage nesneleri.
+com.aspose.slides.IImage[] - IImage objects.
 
 ### getImages(IRenderingOptions options, int[] slides, Dimension imageSize) {#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-}
 ```
 public abstract IImage[] getImages(IRenderingOptions options, int[] slides, Dimension imageSize)
 ```
 
-Belirtilen slaytlar için belirtilen boyutta bir görüntü oluşturularak küçük resim Image nesneleri döndürür.
+Belirtilen boyutta belirtilen slaytlar için Küçük Resim nesneleri döndürür.
 
 **Parametreler:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Render seçenekleri. |
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Renderleme seçenekleri. |
 | slides | int[] | 1'den başlayan slayt konumlarını içeren dizi. |
 | imageSize | java.awt.Dimension | Oluşturulacak görüntünün boyutu. |
 
 **Döndürür:**
-com.aspose.slides.IImage[] - IImage nesneleri.
+com.aspose.slides.IImage[] - IImage objects.
 
 ### getSlideById(long id) {#getSlideById-long-}
 ```
 public abstract IBaseSlide getSlideById(long id)
 ```
 
-Id’ye göre bir Slide, MasterSlide veya LayoutSlide döndürür.
+Id'ye göre bir Slide, MasterSlide veya LayoutSlide döndürür.
 
 **Parametreler:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| id | long | Bir slaytın Id'si. |
+| id | long | Bir slaydın Id'si. |
 
 **Döndürür:**
-[IBaseSlide](../../com.aspose.slides/ibaseslide) - IBaseSlide nesnesi.
+[IBaseSlide](../../com.aspose.slides/ibaseslide) - IBaseSlide object.
 
 ### joinPortionsWithSameFormatting() {#joinPortionsWithSameFormatting--}
-```
+``` 
 public abstract void joinPortionsWithSameFormatting()
 ```
 
-Tüm slaytlardaki tüm kabul edilebilir şekillerdeki tüm paragraflarda aynı biçimlendirmeye sahip koşulları birleştirir.
+Tüm slaytlardaki tüm kabul edilebilir şekillerdeki tüm paragraflarda aynı biçimlendirmeye sahip karakter dizilerini birleştirir.
 
 ### highlightText(String text, Color highlightColor) {#highlightText-java.lang.String-java.awt.Color-}
 ```
@@ -707,7 +711,7 @@ public abstract void highlightText(String text, Color highlightColor)
 
 --------------------
 
-> ``` 
+> ```
 > The following code sample shows how to highlight text in a PowerPoint presentation.
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
@@ -736,7 +740,7 @@ public abstract void highlightText(String text, Color highlightColor, ITextSearc
 
 --------------------
 
-> ``` 
+> ```
 > The following code sample shows how to highlight text in a PowerPoint presentation.
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
@@ -749,13 +753,14 @@ public abstract void highlightText(String text, Color highlightColor, ITextSearc
 >  }
 > ```
 
+
 **Parametreler:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | text | java.lang.String | Vurgulanacak metin. |
 | highlightColor | java.awt.Color | Metni vurgulamak için renk. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Metin arama seçenekleri [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Arama sonuçlarını almak için geri arama nesnesi [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Arama sonuçlarını almak için geri çağırma nesnesi [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback) {#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-}
 ```
@@ -766,12 +771,12 @@ Düzenli ifadenin tüm eşleşmelerini belirtilen renk ile vurgular.
 
 --------------------
 
-> ``` 
+> ```
 > The following code sample shows how to highlight text in a PowerPoint Presentation using a regular expression.
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
->      // tüm ayrı 'the' oluşumlarını vurgulama
+>      // highlighting all separate 'the' occurrences
 >      presentation.highlightText("the", Color.MAGENTA);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -782,20 +787,20 @@ Düzenli ifadenin tüm eşleşmelerini belirtilen renk ile vurgular.
 **Parametreler:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | Vurgulanacak dizeleri elde etmek için java.util.regex.Pattern düzenli ifadesi. |
+| regex | java.util.regex.Pattern | Vurgulanacak dizeleri elde etmek için java.util.regex.Pattern türündeki düzenli ifade. |
 | highlightColor | java.awt.Color | Metni vurgulamak için renk. |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Arama sonuçlarını almak için geri arama nesnesi [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Arama sonuçlarını almak için geri çağırma nesnesi [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback) {#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
 public abstract void replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
-Belirtilen metnin tüm örneklerini başka bir metinle değiştirir.
+Belirtilen metnin tüm oluşumlarını başka bir belirtilen metinle değiştirir.
 
 --------------------
 
-> ``` 
+> ```
 > The following sample code shows how to replace one specified string with another specified string.
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx")
@@ -815,29 +820,75 @@ Belirtilen metnin tüm örneklerini başka bir metinle değiştirir.
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | oldText | java.lang.String | Değiştirilecek dize. |
-| newText | java.lang.String | oldText’in tüm örneklerini değiştirecek dize. |
+| newText | java.lang.String | oldText'in tüm oluşumlarını değiştirecek dize. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Metin arama seçenekleri [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Arama sonuçlarını almak için geri arama nesnesi [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Arama sonuçlarını almak için geri çağırma nesnesi [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### replaceRegex(Pattern regex, String newText, IFindResultCallback callback) {#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-}
 ```
 public abstract void replaceRegex(Pattern regex, String newText, IFindResultCallback callback)
 ```
 
-Düzenli ifadenin tüm eşleşmelerini belirtilen dizeyle değiştirir.
+Düzenli ifadenin tüm eşleşmelerini belirtilen dize ile değiştirir.
 
 --------------------
 
-> ``` 
+> ```
 > The following code sample shows how to replace text using regular expression with the specified string.
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx")
 >  try {
 >      TextSearchOptions textSearchOptions = new TextSearchOptions();
 >      textSearchOptions.setWholeWordsOnly(true);
->      // Tüm ayrı 'the' oluşumlarını '***' ile değiştir
+>      // Replace all separate 'the' occurrences with '***'
 >      presentation.replaceText("the", "***", textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Parametreler:**
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| regex | java.util.regex.Pattern | Değiştirilecek dizeleri elde etmek için java.util.regex.Pattern türündeki düzenli ifade. |
+| newText | java.lang.String | Değiştirilecek dizelerin tüm oluşumlarını değiştirecek dize. |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Arama sonuçlarını almak için geri çağırma nesnesi [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+
+### refreshChartsData() {#refreshChartsData--}
+```
+public abstract void refreshChartsData()
+```
+
+Sunumdaki tüm grafiklerin verilerini kaynak çalışma kitaplarından yeniden yükler.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("PresentationWithCharts.pptx");
+>  try {
+>      presentation.refreshChartsData();
+>      presentation.save("PresentationWithCharts-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+
+### refreshChartsData(boolean skipFailedCharts) {#refreshChartsData-boolean-}
+```
+public abstract void refreshChartsData(boolean skipFailedCharts)
+```
+
+Sunumdaki tüm grafiklerin verilerini kaynak çalışma kitaplarından yeniden yükler.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("PresentationWithCharts.pptx");
+>  try {
+>      presentation.refreshChartsData();
+>      presentation.save("PresentationWithCharts-out.pptx", SaveFormat.Pptx);
 >  } finally {
 >      if (presentation != null) presentation.dispose();
 >  }
@@ -847,6 +898,4 @@ Düzenli ifadenin tüm eşleşmelerini belirtilen dizeyle değiştirir.
 **Parametreler:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | Değiştirilecek dizeleri elde etmek için java.util.regex.Pattern düzenli ifadesi. |
-| newText | java.lang.String | Değiştirilecek dizelerin tüm örneklerini yerine koyacak dize. |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Arama sonuçlarını almak için geri arama nesnesi [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| skipFailedCharts | boolean | Bir grafiğin güncellenememesi durumunda yenileme işleminin devam edip etmeyeceğini belirler. true ise, istisna oluşturan grafikler atlanır; aksi takdirde istisna yayılır. |

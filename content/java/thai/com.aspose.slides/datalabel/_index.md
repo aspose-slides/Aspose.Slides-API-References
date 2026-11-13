@@ -1,61 +1,58 @@
 ---
 title: DataLabel
-second_title: อ้างอิง API ของ Aspose.Slides สำหรับ Java
-description: แสดงป้ายกำกับของซีรีส์.
+second_title: Aspose.Slides สำหรับ Java API Reference
+description: เป็นตัวแทนของป้ายกำกับซีรีส์
 type: docs
 url: /th/com.aspose.slides/datalabel/
 ---
-**Inheritance:**  
-การสืบทอด:  
+**การสืบทอด:**  
 java.lang.Object
 
-**All Implemented Interfaces:**  
+**อินเทอร์เฟซที่ใช้ทั้งหมด:**  
 [com.aspose.slides.IDataLabel](../../com.aspose.slides/idatalabel), com.aspose.slides.IDOMObject  
 ```
 public class DataLabel implements IDataLabel, IDOMObject
 ```
 
-Represents a series labels.  
-แสดงป้ายกำกับของซีรีส์.
+เป็นตัวแทนของป้ายกำกับซีรีส์.  
+## ตัวสร้าง
 
-## Constructors
-
-| Constructor | Description |
+| ตัวสร้าง | คำอธิบาย |
 | --- | --- |
 | [DataLabel(IChartDataPoint parentImmediate)](#DataLabel-com.aspose.slides.IChartDataPoint-) | สร้างอินสแตนซ์ใหม่ของคลาส DataLabel. |
+## เมธอด
 
-## Methods
-
-| Method | Description |
+| เมธอด | คำอธิบาย |
 | --- | --- |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-| [getChart()](#getChart--) | ส่งกลับแผนภูมิเพียวพัน. |
-| [isVisible()](#isVisible--) | False หมายความว่าป้ายกำกับข้อมูลไม่ปรากฏ (และดังนั้นทุกแฟล็ก Show*-flags (ShowValue, ...) จะเป็น false). |
-| [hide()](#hide--) | ทำให้ป้ายกำกับข้อมูลซ่อนโดยตั้งค่าแฟล็ก Show*-flags (ShowValue, ...) ให้เป็นสถานะ false. |
-| [getActualLabelText()](#getActualLabelText--) | ส่งกลับข้อความป้ายกำกับจริงตามการตั้งค่า DataLabelFormat หรือค่า TextFrameForOverriding.Text. |
-| [addTextFrameForOverriding(String text)](#addTextFrameForOverriding-java.lang.String-) | เริ่มต้น TextFrameForOverriding ด้วยข้อความในพารามิเตอร์ "text". |
-| [getTextFrameForOverriding()](#getTextFrameForOverriding--) | สามารถบรรจุข้อความที่มีรูปแบบเต็ม. |
-| [getTextFormat()](#getTextFormat--) | ส่งกลับรูปแบบข้อความ. |
-| [getX()](#getX--) | ส่งกลับหรือกำหนดค่าพิกัด x ของหัวเรื่องเป็นส่วนหนึ่งของความกว้างของแผนภูมิ. |
-| [setX(float value)](#setX-float-) | ส่งกลับหรือกำหนดค่าพิกัด x ของหัวเรื่องเป็นส่วนหนึ่งของความกว้างของแผนภูมิ. |
-| [getY()](#getY--) | ส่งกลับหรือกำหนดค่าพิกัด y ของหัวเรื่องเป็นส่วนหนึ่งของความสูงของแผนภูมิ. |
-| [setY(float value)](#setY-float-) | ส่งกลับหรือกำหนดค่าพิกัด y ของหัวเรื่องเป็นส่วนหนึ่งของความสูงของแผนภูมิ. |
-| [getWidth()](#getWidth--) | ส่งกลับหรือกำหนดค่าความกว้างของหัวเรื่องเป็นส่วนหนึ่งของความกว้างของแผนภูมิ. |
-| [setWidth(float value)](#setWidth-float-) | ส่งกลับหรือกำหนดค่าความกว้างของหัวเรื่องเป็นส่วนหนึ่งของความกว้างของแผนภูมิ. |
-| [getHeight()](#getHeight--) | ส่งกลับหรือกำหนดค่าความสูงของหัวเรื่องเป็นส่วนหนึ่งของความสูงของแผนภูมิ. |
-| [setHeight(float value)](#setHeight-float-) | ส่งกลับหรือกำหนดค่าความสูงของหัวเรื่องเป็นส่วนหนึ่งของความสูงของแผนภูมิ. |
-| [getRight()](#getRight--) | ด้านขวา. |
+| [getChart()](#getChart--) | คืนค่าแผนภูมิต้นแบบ. |
+| [isVisible()](#isVisible--) | ค่าผิดหมายความว่าป้ายข้อมูลไม่ปรากฏ (และทำให้ทุกฟลัก Show*- (ShowValue, ...) มีค่าเป็นเท็จ). |
+| [hide()](#hide--) | ซ่อนป้ายข้อมูลโดยตั้งค่าฟลัก Show*- (ShowValue, ...) ทั้งหมดเป็นเท็จ. |
+| [getActualLabelText()](#getActualLabelText--) | คืนค่าข้อความป้ายจริงตามการตั้งค่า DataLabelFormat หรืค่า TextFrameForOverriding.Text. |
+| [addTextFrameForOverriding(String text)](#addTextFrameForOverriding-java.lang.String-) | เริ่มต้น TextFrameForOverriding ด้วยข้อความในพารามิเตอร์ “text”. |
+| [getTextFrameForOverriding()](#getTextFrameForOverriding--) | สามารถบรรจุข้อความที่จัดรูปแบบแบบ Rich. |
+| [getTextFormat()](#getTextFormat--) | คืนค่ารูปแบบข้อความ. |
+| [getX()](#getX--) | คืนค่า หรือ ตั้งค่าพิกัด x ของหัวเรื่องเป็นส่วนละครึ่งของความกว้างของแผนภูมิ. |
+| [setX(float value)](#setX-float-) | คืนค่า หรือ ตั้งค่าพิกัด x ของหัวเรื่องเป็นส่วนละครึ่งของความกว้างของแผนภูมิ. |
+| [getY()](#getY--) | คืนค่า หรือ ตั้งค่าพิกัด y ของหัวเรื่องเป็นส่วนละครึ่งของความสูงของแผนภูมิ. |
+| [setY(float value)](#setY-float-) | คืนค่า หรือ ตั้งค่าพิกัด y ของหัวเรื่องเป็นส่วนละครึ่งของความสูงของแผนภูมิ. |
+| [getWidth()](#getWidth--) | คืนค่า หรือ ตั้งค่าความกว้างของหัวเรื่องเป็นส่วนละครึ่งของความกว้างของแผนภูมิ. |
+| [setWidth(float value)](#setWidth-float-) | คืนค่า หรือ ตั้งค่าความกว้างของหัวเรื่องเป็นส่วนละครึ่งของความกว้างของแผนภูมิ. |
+| [getHeight()](#getHeight--) | คืนค่า หรือ ตั้งค่าความสูงของหัวเรื่องเป็นส่วนละครึ่งของความสูงของแผนภูมิ. |
+| [setHeight(float value)](#setHeight-float-) | คืนค่า หรือ ตั้งค่าความสูงของหัวเรื่องเป็นส่วนละครึ่งของความสูงของแผนภูมิ. |
+| [getRight()](#getRight--) | ขวา. |
 | [getBottom()](#getBottom--) | ด้านล่าง. |
-| [getDataLabelFormat()](#getDataLabelFormat--) | ส่งกลับรูปแบบป้ายกำกับข้อมูล. |
-| [getValueFromCell()](#getValueFromCell--) | รับหรือกำหนดเซลล์ข้อมูลของเวิร์กบุ๊ก. |
-| [setValueFromCell(IChartDataCell value)](#setValueFromCell-com.aspose.slides.IChartDataCell-) | รับหรือกำหนดเซลล์ข้อมูลของเวิร์กบุ๊ก. |
-| [getActualX()](#getActualX--) | ระบุตำแหน่ง x จริง (ซ้าย) ขององค์ประกอบแผนภูมิเกี่ยวกับมุมซ้ายบนของแผนภูมิ. |
-| [getActualY()](#getActualY--) | ระบุตำแหน่งบนจริงขององค์ประกอบแผนภูมิเกี่ยวกับมุมซ้ายบนของแผนภูมิ. |
+| [getDataLabelFormat()](#getDataLabelFormat--) | คืนค่ารูปแบบป้ายข้อมูล. |
+| [getValueFromCell()](#getValueFromCell--) | รับ หรือ ตั้งค่าเซลล์ข้อมูลเวิร์กบุ๊ก. |
+| [setValueFromCell(IChartDataCell value)](#setValueFromCell-com.aspose.slides.IChartDataCell-) | รับ หรือ ตั้งค่าเซลล์ข้อมูลเวิร์กบุ๊ก. |
+| [getLabelShapeType()](#getLabelShapeType--) | รับ หรือ ตั้งค่าประเภทรูปทรงของป้ายข้อมูล. |
+| [setLabelShapeType(int value)](#setLabelShapeType-int-) | รับ หรือ ตั้งค่าประเภทรูปทรงของป้ายข้อมูล. |
+| [getActualX()](#getActualX--) | ระบุตำแหน่ง x จริง (ซ้าย) ขององค์ประกอบแผนภูมิสัมพันธ์กับมุมซ้ายบนของแผนภูมิ. |
+| [getActualY()](#getActualY--) | ระบุตำแหน่งบนจริงขององค์ประกอบแผนภูมิสัมพันธ์กับมุมซ้ายบนของแผนภูมิ. |
 | [getActualWidth()](#getActualWidth--) | ระบุความกว้างจริงขององค์ประกอบแผนภูมิ. |
 | [getActualHeight()](#getActualHeight--) | ระบุความสูงจริงขององค์ประกอบแผนภูมิ. |
-| [getSlide()](#getSlide--) | ส่งกลับสไลด์แม่ของ FillFormat. |
-| [getPresentation()](#getPresentation--) | ส่งกลับการนำเสนอแม่ของ FillFormat. |
-
+| [getSlide()](#getSlide--) | คืนสไลด์แม่ของ FillFormat. |
+| [getPresentation()](#getPresentation--) | คืนการนำเสนอแม่ของ FillFormat. |
 ### DataLabel(IChartDataPoint parentImmediate) {#DataLabel-com.aspose.slides.IChartDataPoint-}
 ```
 public DataLabel(IChartDataPoint parentImmediate)
@@ -63,131 +60,112 @@ public DataLabel(IChartDataPoint parentImmediate)
 
 สร้างอินสแตนซ์ใหม่ของคลาส DataLabel.
 
-**Parameters:**  
-พารามิเตอร์:  
-| Parameter | Type | Description |
+**พารามิเตอร์:**  
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
-| parentImmediate | [IChartDataPoint](../../com.aspose.slides/ichartdatapoint) | ChartDataPoint พาเรนท์. |
+| parentImmediate | [IChartDataPoint](../../com.aspose.slides/ichartdatapoint) | ChartDataPoint พาเรนต์. |
 
 ### getParent_Immediate() {#getParent-Immediate--}
 ```
 public final IDOMObject getParent_Immediate()
 ```
 
-ส่งกลับวัตถุ Parent_Immediate. อ่านอย่างเดียว IDOMObject.
+คืนค่าอ็อบเจ็กต์ Parent_Immediate. อ่านอย่างเดียว IDOMObject.
 
-**Returns:**  
-ส่งกลับ:  
+**ค่าที่คืนกลับ:**  
 com.aspose.slides.IDOMObject
-
 ### getChart() {#getChart--}
 ```
 public final IChart getChart()
 ```
 
-ส่งกลับแผนภูมิเพียวพัน. อ่านอย่างเดียว [IChart](../../com.aspose.slides/ichart).
+คืนค่าแผนภูมิต้นแบบ. อ่านอย่างเดียว [IChart](../../com.aspose.slides/ichart).
 
-**Returns:**  
-ส่งกลับ:  
+**ค่าที่คืนกลับ:**  
 [IChart](../../com.aspose.slides/ichart)
-
 ### isVisible() {#isVisible--}
 ```
 public final boolean isVisible()
 ```
 
-False หมายความว่าป้ายกำกับข้อมูลไม่ปรากฏ (และดังนั้นทุกแฟล็ก Show*-flags (ShowValue, ...) จะเป็น false). อ่านอย่างเดียว boolean.
+ค่าผิดหมายความว่าป้ายข้อมูลไม่ปรากฏ (และทำให้ทุกฟลัก Show*- (ShowValue, ...) มีค่าเป็นเท็จ). อ่านอย่างเดียว  boolean .
 
 --------------------
 
-หากป้ายกำกับข้อมูลปรากฏคุณสามารถทำให้ซ่อนด้วยเมธอด hide() แต่หากป้ายกำกับข้อมูลไม่ปรากฏ (IsVisible เป็น false) คุณสามารถทำให้ปรากฏได้โดยตั้งค่าแฟล็ก Show*-flags (ShowValue, ...) ให้เป็นสถานะ true.
+หากป้ายข้อมูลปรากฏ คุณสามารถซ่อนมันด้วยเมธอด hide() แต่หากป้ายข้อมูลไม่ปรากฏ (IsVisible เป็นค่าเท็จ) คุณสามารถทำให้ป้ายข้อมูลปรากฏได้โดยตั้งค่าฟลัก Show*- (ShowValue, ...) ให้เป็นสถานะจริง.
 
-**Returns:**  
-ส่งกลับ:  
+**ค่าที่คืนกลับ:**  
 boolean
-
 ### hide() {#hide--}
 ```
 public final void hide()
 ```
 
-ทำให้ป้ายกำกับข้อมูลซ่อนโดยตั้งค่าแฟล็ก Show*-flags (ShowValue, ...) ให้เป็นสถานะ false. IsVisible จะเป็น false หลังจากนี้.
+ซ่อนป้ายข้อมูลโดยตั้งค่าฟลัก Show*- (ShowValue, ...) ทั้งหมดเป็นเท็จ. IsVisible จะเป็นค่าเท็จหลังจากนี้.
 
 --------------------
 
-หากป้ายกำกับข้อมูลไม่ปรากฏ (IsVisible เป็น false) คุณสามารถทำให้ปรากฏได้โดยตั้งค่าแฟล็ก Show*-flags (ShowValue, ...) ให้เป็นสถานะ true.
+หากป้ายข้อมูลไม่ปรากฏ (IsVisible เป็นค่าเท็จ) คุณสามารถทำให้ป้ายข้อมูลปรากฏได้โดยตั้งค่าฟลัก Show*- (ShowValue, ...) ให้เป็นสถานะจริง.
 
 ### getActualLabelText() {#getActualLabelText--}
 ```
 public final String getActualLabelText()
 ```
 
-ส่งกลับข้อความป้ายกำกับจริงตามการตั้งค่า DataLabelFormat หรือค่า TextFrameForOverriding.Text.
+คืนค่าข้อความป้ายจริงตามการตั้งค่า DataLabelFormat หรืค่า TextFrameForOverriding.Text.
 
-**Returns:**  
-ส่งกลับ:  
+**ค่าที่คืนกลับ:**  
 java.lang.String - วัตถุ java.lang.String.
-
 ### addTextFrameForOverriding(String text) {#addTextFrameForOverriding-java.lang.String-}
 ```
 public final ITextFrame addTextFrameForOverriding(String text)
 ```
 
-เริ่มต้น TextFrameForOverriding ด้วยข้อความในพารามิเตอร์ "text". หาก TextFrameForOverriding ถูกเริ่มต้นไว้แล้วก็จะเปลี่ยนข้อความเพียงอย่างเดียว.
+เริ่มต้น TextFrameForOverriding ด้วยข้อความในพารามิเตอร์ “text”. หาก TextFrameForOverriding ถูกเริ่มต้นแล้วจะเปลี่ยนข้อความเท่านั้น.
 
-**Parameters:**  
-พารามิเตอร์:  
-| Parameter | Type | Description |
+**พารามิเตอร์:**  
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
 | text | java.lang.String | ข้อความสำหรับ TextFrameForOverriding ใหม่. |
 
-**Returns:**  
-ส่งกลับ:  
+**ค่าที่คืนกลับ:**  
 [ITextFrame](../../com.aspose.slides/itextframe)
-
 ### getTextFrameForOverriding() {#getTextFrameForOverriding--}
 ```
 public final ITextFrame getTextFrameForOverriding()
 ```
 
-สามารถบรรจุข้อความที่มีรูปแบบเต็ม. หากคุณสมบัตินี้ไม่เป็น null ข้อความที่มีรูปแบบนี้จะทับข้อความที่สร้างอัตโนมัติของป้ายกำกับข้อมูล. ข้อความที่สร้างอัตโนมัติหมายถึงข้อความที่จัดการโดยคุณสมบัติ ShowSeriesName, ShowValue, ... และถูกจัดรูปแบบด้วย TextFormatManager.TextFormat. อ่านอย่างเดียว [ITextFrame](../../com.aspose.slides/itextframe).
+สามารถบรรจุข้อความที่จัดรูปแบบแบบ Rich. หากคุณสมบัตินี้ไม่เป็น null ข้อความที่จัดรูปแบบนี้จะทับข้อความที่สร้างอัตโนมัติของป้ายข้อมูล. ข้อความที่สร้างอัตโนมัติของป้ายข้อมูลหมายถึงข้อความที่จัดการโดยคุณสมบัติ ShowSeriesName, ShowValue, ... และถูกจัดรูปแบบด้วยคุณสมบัติ TextFormatManager.TextFormat. อ่านอย่างเดียว [ITextFrame](../../com.aspose.slides/itextframe).
 
-**Returns:**  
-ส่งกลับ:  
+**ค่าที่คืนกลับ:**  
 [ITextFrame](../../com.aspose.slides/itextframe)
-
 ### getTextFormat() {#getTextFormat--}
 ```
 public final IChartTextFormat getTextFormat()
 ```
 
-ส่งกลับรูปแบบข้อความ. อ่านอย่างเดียว [IChartTextFormat](../../com.aspose.slides/icharttextformat).
+คืนค่ารูปแบบข้อความ. อ่านอย่างเดียว [IChartTextFormat](../../com.aspose.slides/icharttextformat).
 
-**Returns:**  
-ส่งกลับ:  
+**ค่าที่คืนกลับ:**  
 [IChartTextFormat](../../com.aspose.slides/icharttextformat)
-
 ### getX() {#getX--}
 ```
 public final float getX()
 ```
 
-ส่งกลับหรือกำหนดค่าพิกัด x ของหัวเรื่องเป็นส่วนหนึ่งของความกว้างของแผนภูมิ. อ่าน/เขียน float.
+คืนค่า หรือ ตั้งค่าพิกัด x ของหัวเรื่องเป็นส่วนละครึ่งของความกว้างของแผนภูมิ. อ่าน/เขียน  float .
 
-**Returns:**  
-ส่งกลับ:  
+**ค่าที่คืนกลับ:**  
 float
-
 ### setX(float value) {#setX-float-}
 ```
 public final void setX(float value)
 ```
 
-ส่งกลับหรือกำหนดค่าพิกัด x ของหัวเรื่องเป็นส่วนหนึ่งของความกว้างของแผนภูมิ. อ่าน/เขียน float.
+คืนค่า หรือ ตั้งค่าพิกัด x ของหัวเรื่องเป็นส่วนละครึ่งของความกว้างของแผนภูมิ. อ่าน/เขียน  float .
 
-**Parameters:**  
-พารามิเตอร์:  
-| Parameter | Type | Description |
+**พารามิเตอร์:**  
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
 | value | float |  |
 
@@ -196,22 +174,19 @@ public final void setX(float value)
 public final float getY()
 ```
 
-ส่งกลับหรือกำหนดค่าพิกัด y ของหัวเรื่องเป็นส่วนหนึ่งของความสูงของแผนภูมิ. อ่าน/เขียน float.
+คืนค่า หรือ ตั้งค่าพิกัด y ของหัวเรื่องเป็นส่วนละครึ่งของความสูงของแผนภูมิ. อ่าน/เขียน  float .
 
-**Returns:**  
-ส่งกลับ:  
+**ค่าที่คืนกลับ:**  
 float
-
 ### setY(float value) {#setY-float-}
 ```
 public final void setY(float value)
 ```
 
-ส่งกลับหรือกำหนดค่าพิกัด y ของหัวเรื่องเป็นส่วนหนึ่งของความสูงของแผนภูมิ. อ่าน/เขียน float.
+คืนค่า หรือ ตั้งค่าพิกัด y ของหัวเรื่องเป็นส่วนละครึ่งของความสูงของแผนภูมิ. อ่าน/เขียน  float .
 
-**Parameters:**  
-พารามิเตอร์:  
-| Parameter | Type | Description |
+**พารามิเตอร์:**  
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
 | value | float |  |
 
@@ -220,22 +195,19 @@ public final void setY(float value)
 public final float getWidth()
 ```
 
-ส่งกลับหรือกำหนดค่าความกว้างของหัวเรื่องเป็นส่วนหนึ่งของความกว้างของแผนภูมิ. อ่าน/เขียน float.
+คืนค่า หรือ ตั้งค่าความกว้างของหัวเรื่องเป็นส่วนละครึ่งของความกว้างของแผนภูมิ. อ่าน/เขียน  float .
 
-**Returns:**  
-ส่งกลับ:  
+**ค่าที่คืนกลับ:**  
 float
-
 ### setWidth(float value) {#setWidth-float-}
 ```
 public final void setWidth(float value)
 ```
 
-ส่งกลับหรือกำหนดค่าความกว้างของหัวเรื่องเป็นส่วนหนึ่งของความกว้างของแผนภูมิ. อ่าน/เขียน float.
+คืนค่า หรือ ตั้งค่าความกว้างของหัวเรื่องเป็นส่วนละครึ่งของความกว้างของแผนภูมิ. อ่าน/เขียน  float .
 
-**Parameters:**  
-พารามิเตอร์:  
-| Parameter | Type | Description |
+**พารามิเตอร์:**  
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
 | value | float |  |
 
@@ -244,22 +216,19 @@ public final void setWidth(float value)
 public final float getHeight()
 ```
 
-ส่งกลับหรือกำหนดค่าความสูงของหัวเรื่องเป็นส่วนหนึ่งของความสูงของแผนภูมิ. อ่าน/เขียน float.
+คืนค่า หรือ ตั้งค่าความสูงของหัวเรื่องเป็นส่วนละครึ่งของความสูงของแผนภูมิ. อ่าน/เขียน  float .
 
-**Returns:**  
-ส่งกลับ:  
+**ค่าที่คืนกลับ:**  
 float
-
 ### setHeight(float value) {#setHeight-float-}
 ```
 public final void setHeight(float value)
 ```
 
-ส่งกลับหรือกำหนดค่าความสูงของหัวเรื่องเป็นส่วนหนึ่งของความสูงของแผนภูมิ. อ่าน/เขียน float.
+คืนค่า หรือ ตั้งค่าความสูงของหัวเรื่องเป็นส่วนละครึ่งของความสูงของแผนภูมิ. อ่าน/เขียน  float .
 
-**Parameters:**  
-พารามิเตอร์:  
-| Parameter | Type | Description |
+**พารามิเตอร์:**  
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
 | value | float |  |
 
@@ -268,80 +237,119 @@ public final void setHeight(float value)
 public final float getRight()
 ```
 
-ด้านขวา. อ่านอย่างเดียว float.
+ขวา. อ่านอย่างเดียว  float .
 
-**Returns:**  
-ส่งกลับ:  
+**ค่าที่คืนกลับ:**  
 float
-
 ### getBottom() {#getBottom--}
 ```
 public final float getBottom()
 ```
 
-ด้านล่าง. อ่านอย่างเดียว float.
+ด้านล่าง. อ่านอย่างเดียว  float .
 
-**Returns:**  
-ส่งกลับ:  
+**ค่าที่คืนกลับ:**  
 float
-
 ### getDataLabelFormat() {#getDataLabelFormat--}
 ```
 public final IDataLabelFormat getDataLabelFormat()
 ```
 
-ส่งกลับรูปแบบป้ายกำกับข้อมูล. อ่านอย่างเดียว [IDataLabelFormat](../../com.aspose.slides/idatalabelformat).
+คืนค่ารูปแบบป้ายข้อมูล. อ่านอย่างเดียว [IDataLabelFormat](../../com.aspose.slides/idatalabelformat).
 
-**Returns:**  
-ส่งกลับ:  
+**ค่าที่คืนกลับ:**  
 [IDataLabelFormat](../../com.aspose.slides/idatalabelformat)
-
 ### getValueFromCell() {#getValueFromCell--}
 ```
 public final IChartDataCell getValueFromCell()
 ```
 
-รับหรือกำหนดเซลล์ข้อมูลของเวิร์กบุ๊ก. ใช้เมื่อคุณสมบัติ IDataLabelFormat.ShowLabelValueFromCell มีค่าเป็น true.
+รับ หรือ ตั้งค่าเซลล์ข้อมูลเวิร์กบุ๊ก. ใช้เมื่อคุณสมบัติ IDataLabelFormat.ShowLabelValueFromCell มีค่าเป็น true.
 
-**Returns:**  
-ส่งกลับ:  
+**ค่าที่คืนกลับ:**  
 [IChartDataCell](../../com.aspose.slides/ichartdatacell)
-
 ### setValueFromCell(IChartDataCell value) {#setValueFromCell-com.aspose.slides.IChartDataCell-}
 ```
 public final void setValueFromCell(IChartDataCell value)
 ```
 
-รับหรือกำหนดเซลล์ข้อมูลของเวิร์กบุ๊ก. ใช้เมื่อคุณสมบัติ IDataLabelFormat.ShowLabelValueFromCell มีค่าเป็น true.
+รับ หรือ ตั้งค่าเซลล์ข้อมูลเวิร์กบุ๊ก. ใช้เมื่อคุณสมบัติ IDataLabelFormat.ShowLabelValueFromCell มีค่าเป็น true.
 
-**Parameters:**  
-พารามิเตอร์:  
-| Parameter | Type | Description |
+**พารามิเตอร์:**  
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
 | value | [IChartDataCell](../../com.aspose.slides/ichartdatacell) |  |
+
+### getLabelShapeType() {#getLabelShapeType--}
+```
+public final int getLabelShapeType()
+```
+
+รับ หรือ ตั้งค่าประเภทรูปทรงของป้ายข้อมูล. คืนค่า [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) หากไม่มีการกำหนดรูปทรง.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // ตั้งค่าประเภทรูปทรงของป้ายข้อมูลแรกเป็น Ellipse.
+>      firstSeries.getLabels().get_Item(0).setLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabel.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**ค่าที่คืนกลับ:**  
+int
+### setLabelShapeType(int value) {#setLabelShapeType-int-}
+```
+public final void setLabelShapeType(int value)
+```
+
+รับ หรือ ตั้งค่าประเภทรูปทรงของป้ายข้อมูล. คืนค่า [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) หากไม่มีการกำหนดรูปทรง.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // ตั้งค่าประเภทรูปทรงของป้ายข้อมูลแรกเป็น Ellipse.
+>      firstSeries.getLabels().get_Item(0).setLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabel.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**พารามิเตอร์:**  
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| --- | --- | --- |
+| value | int |  |
 
 ### getActualX() {#getActualX--}
 ```
 public final float getActualX()
 ```
 
-ระบุตำแหน่ง x จริง (ซ้าย) ขององค์ประกอบแผนภูมิเกี่ยวกับมุมซ้ายบนของแผนภูมิ. เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง. อ่าน float.
+ระบุตำแหน่ง x จริง (ซ้าย) ขององค์ประกอบแผนภูมิสัมพันธ์กับมุมซ้ายบนของแผนภูมิ. เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง. อ่าน float.
 
-**Returns:**  
-ส่งกลับ:  
+**ค่าที่คืนกลับ:**  
 float
-
 ### getActualY() {#getActualY--}
 ```
 public final float getActualY()
 ```
 
-ระบุตำแหน่งบนจริงขององค์ประกอบแผนภูมิเกี่ยวกับมุมซ้ายบนของแผนภูมิ. เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง. อ่าน float.
+ระบุตำแหน่งบนจริงขององค์ประกอบแผนภูมิสัมพันธ์กับมุมซ้ายบนของแผนภูมิ. เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง. อ่าน float.
 
-**Returns:**  
-ส่งกลับ:  
+**ค่าที่คืนกลับ:**  
 float
-
 ### getActualWidth() {#getActualWidth--}
 ```
 public final float getActualWidth()
@@ -349,10 +357,8 @@ public final float getActualWidth()
 
 ระบุความกว้างจริงขององค์ประกอบแผนภูมิ. เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง. อ่าน float.
 
-**Returns:**  
-ส่งกลับ:  
+**ค่าที่คืนกลับ:**  
 float
-
 ### getActualHeight() {#getActualHeight--}
 ```
 public final float getActualHeight()
@@ -360,28 +366,23 @@ public final float getActualHeight()
 
 ระบุความสูงจริงขององค์ประกอบแผนภูมิ. เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง. อ่าน float.
 
-**Returns:**  
-ส่งกลับ:  
+**ค่าที่คืนกลับ:**  
 float
-
 ### getSlide() {#getSlide--}
 ```
 public final IBaseSlide getSlide()
 ```
 
-ส่งกลับสไลด์แม่ของ FillFormat. อ่านอย่างเดียว [BaseSlide](../../com.aspose.slides/baseslide).
+คืนสไลด์แม่ของ FillFormat. อ่านอย่างเดียว [BaseSlide](../../com.aspose.slides/baseslide).
 
-**Returns:**  
-ส่งกลับ:  
+**ค่าที่คืนกลับ:**  
 [IBaseSlide](../../com.aspose.slides/ibaseslide)
-
 ### getPresentation() {#getPresentation--}
 ```
 public final IPresentation getPresentation()
 ```
 
-ส่งกลับการนำเสนอแม่ของ FillFormat. อ่านอย่างเดียว [IPresentation](../../com.aspose.slides/ipresentation).
+คืนการนำเสนอแม่ของ FillFormat. อ่านอย่างเดียว [IPresentation](../../com.aspose.slides/ipresentation).
 
-**Returns:**  
-ส่งกลับ:  
+**ค่าที่คืนกลับ:**  
 [IPresentation](../../com.aspose.slides/ipresentation)

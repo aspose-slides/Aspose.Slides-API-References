@@ -5,7 +5,7 @@ description: Dokument prezentacji
 type: docs
 url: /pl/com.aspose.slides/ipresentation/
 ---
-**Wszystkie zaimplementowane interfejsy:**
+**All Implemented Interfaces:**
 [com.aspose.slides.IPresentationComponent](../../com.aspose.slides/ipresentationcomponent), com.aspose.ms.System.IDisposable
 ```
 public interface IPresentation extends IPresentationComponent, System.IDisposable
@@ -14,21 +14,21 @@ public interface IPresentation extends IPresentationComponent, System.IDisposabl
 Dokument prezentacji
 ## Metody
 
-| Metoda | Opis |
+| Method | Description |
 | --- | --- |
-| [getCurrentDateTime()](#getCurrentDateTime--) | Zwraca lub ustawia datę i godzinę, które zastąpią zawartość pól datetime. |
-| [setCurrentDateTime(Date value)](#setCurrentDateTime-java.util.Date-) | Zwraca lub ustawia datę i godzinę, które zastąpią zawartość pól datetime. |
-| [getHeaderFooterManager()](#getHeaderFooterManager--) | Zwraca menedżera HeaderFooter prezentacji. |
-| [getProtectionManager()](#getProtectionManager--) | Pobiera menedżera uprawnień dla tej prezentacji. |
+| [getCurrentDateTime()](#getCurrentDateTime--) | Zwraca lub ustawia datę i godzinę, które zastąpią zawartość pól daty i czasu. |
+| [setCurrentDateTime(Date value)](#setCurrentDateTime-java.util.Date-) | Zwraca lub ustawia datę i godzinę, które zastąpią zawartość pól daty i czasu. |
+| [getHeaderFooterManager()](#getHeaderFooterManager--) | Zwraca menedżer HeaderFooter prezentacji. |
+| [getProtectionManager()](#getProtectionManager--) | Pobiera menedżer uprawnień dla tej prezentacji. |
 | [getSlides()](#getSlides--) | Zwraca listę wszystkich slajdów zdefiniowanych w prezentacji. |
 | [getSections()](#getSections--) | Zwraca listę wszystkich sekcji slajdów zdefiniowanych w prezentacji. |
 | [getSlideSize()](#getSlideSize--) | Zwraca obiekt rozmiaru slajdu. |
 | [getNotesSize()](#getNotesSize--) | Zwraca obiekt rozmiaru slajdu notatek. |
 | [getLayoutSlides()](#getLayoutSlides--) | Zwraca listę wszystkich slajdów układu zdefiniowanych w prezentacji. |
-| [getMasters()](#getMasters--) | Zwraca listę wszystkich slajdów głównych zdefiniowanych w prezentacji. |
-| [getMasterNotesSlideManager()](#getMasterNotesSlideManager--) | Zwraca menedżera notatek głównych. |
-| [getMasterHandoutSlideManager()](#getMasterHandoutSlideManager--) | Zwraca menedżera handout głównego. |
-| [getFontsManager()](#getFontsManager--) | Zwraca menedżera czcionek. |
+| [getMasters()](#getMasters--) | Zwraca listę wszystkich slajdów master zdefiniowanych w prezentacji. |
+| [getMasterNotesSlideManager()](#getMasterNotesSlideManager--) | Zwraca menedżer notatek master. |
+| [getMasterHandoutSlideManager()](#getMasterHandoutSlideManager--) | Zwraca menedżer handout master. |
+| [getFontsManager()](#getFontsManager--) | Zwraca menedżer czcionek. |
 | [getDefaultTextStyle()](#getDefaultTextStyle--) | Zwraca domyślny styl tekstu dla kształtów. |
 | [getCommentAuthors()](#getCommentAuthors--) | Zwraca kolekcję autorów komentarzy. |
 | [getDocumentProperties()](#getDocumentProperties--) | Zwraca obiekt DocumentProperties, który zawiera standardowe i niestandardowe właściwości dokumentu. |
@@ -39,9 +39,9 @@ Dokument prezentacji
 | [getVbaProject()](#getVbaProject--) | Pobiera projekt VBA z makrami prezentacji. |
 | [setVbaProject(IVbaProject value)](#setVbaProject-com.aspose.slides.IVbaProject-) | Pobiera projekt VBA z makrami prezentacji. |
 | [getSourceFormat()](#getSourceFormat--) | Zwraca informacje o formacie, z którego załadowano prezentację. |
-| [getMasterTheme()](#getMasterTheme--) | Zwraca motyw główny prezentacji. |
-| [getHyperlinkQueries()](#getHyperlinkQueries--) | Umożliwia łatwy dostęp do wszystkich hiperłączy zawartych we wszystkich slajdach prezentacji (z wyjątkiem slajdów głównych, układu, notatek). |
-| [getViewProperties()](#getViewProperties--) | Pobiera właściwości widoku całej prezentacji. |
+| [getMasterTheme()](#getMasterTheme--) | Zwraca motyw master prezentacji. |
+| [getHyperlinkQueries()](#getHyperlinkQueries--) | Zapewnia łatwy dostęp do wszystkich hiperłączy zawartych we wszystkich slajdach prezentacji (nie w slajdach master, układu, notatek). |
+| [getViewProperties()](#getViewProperties--) | Pobiera właściwości widoku na poziomie całej prezentacji. |
 | [getFirstSlideNumber()](#getFirstSlideNumber--) | Reprezentuje numer pierwszego slajdu w prezentacji. |
 | [setFirstSlideNumber(int value)](#setFirstSlideNumber-int-) | Reprezentuje numer pierwszego slajdu w prezentacji. |
 | [getAllCustomXmlParts()](#getAllCustomXmlParts--) | Zwraca wszystkie niestandardowe części danych w prezentacji. |
@@ -56,26 +56,28 @@ Dokument prezentacji
 | [save(OutputStream stream, int[] slides, int format)](#save-java.io.OutputStream-int---int-) | Zapisuje określone slajdy prezentacji do strumienia w określonym formacie. |
 | [save(OutputStream stream, int[] slides, int format, ISaveOptions options)](#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-) | Zapisuje określone slajdy prezentacji do strumienia w określonym formacie. |
 | [save(IXamlOptions options)](#save-com.aspose.slides.IXamlOptions-) | Zapisuje wszystkie slajdy prezentacji do zestawu plików reprezentujących znacznik XAML. |
-| [getImages(IRenderingOptions options)](#getImages-com.aspose.slides.IRenderingOptions-) | Zwraca miniatury obrazów dla wszystkich slajdów prezentacji. |
-| [getImages(IRenderingOptions options, int[] slides)](#getImages-com.aspose.slides.IRenderingOptions-int---) | Zwraca miniatury IImage dla określonych slajdów prezentacji. |
-| [getImages(IRenderingOptions options, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-float-float-) | Zwraca miniatury obrazów dla wszystkich slajdów prezentacji ze skalowaniem niestandardowym. |
-| [getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-int---float-float-) | Zwraca miniatury obrazów dla określonych slajdów prezentacji ze skalowaniem niestandardowym. |
-| [getImages(IRenderingOptions options, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-) | Zwraca miniatury obrazów dla wszystkich slajdów prezentacji o określonym rozmiarze. |
-| [getImages(IRenderingOptions options, int[] slides, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-) | Zwraca miniatury obrazów dla określonych slajdów prezentacji o określonym rozmiarze. |
+| [getImages(IRenderingOptions options)](#getImages-com.aspose.slides.IRenderingOptions-) | Zwraca obiekty obrazu miniatury dla wszystkich slajdów prezentacji. |
+| [getImages(IRenderingOptions options, int[] slides)](#getImages-com.aspose.slides.IRenderingOptions-int---) | Zwraca obiekty IImage miniatury dla określonych slajdów prezentacji. |
+| [getImages(IRenderingOptions options, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-float-float-) | Zwraca obiekty obrazu miniatury dla wszystkich slajdów prezentacji z niestandardowym skalowaniem. |
+| [getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-int---float-float-) | Zwraca obiekty obrazu miniatury dla określonych slajdów prezentacji z niestandardowym skalowaniem. |
+| [getImages(IRenderingOptions options, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-) | Zwraca obiekty obrazu miniatury dla wszystkich slajdów prezentacji o określonym rozmiarze. |
+| [getImages(IRenderingOptions options, int[] slides, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-) | Zwraca obiekty obrazu miniatury dla określonych slajdów prezentacji o określonym rozmiarze. |
 | [getSlideById(long id)](#getSlideById-long-) | Zwraca obiekt Slide, MasterSlide lub LayoutSlide według Id. |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Łączy fragmenty o tym samym formatowaniu we wszystkich akapitach we wszystkich akceptowalnych kształtach we wszystkich slajdach. |
-| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | podświetla wszystkie wystąpienia tekstu przykładowego określonym kolorem. |
-| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | podświetla wszystkie wystąpienia tekstu przykładowego określonym kolorem. |
-| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | podświetla wszystkie dopasowania wyrażenia regularnego określonym kolorem. |
-| [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Zastępuje wszystkie wystąpienia określonego tekstu innym określonym tekstem. |
-| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Zastępuje wszystkie dopasowania wyrażenia regularnego określonym ciągiem. |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Łączy ciągi znaków o tym samym formatowaniu we wszystkich akapitach we wszystkich dopuszczalnych kształtach we wszystkich slajdach. |
+| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | Podświetla wszystkie dopasowania przykładowego tekstu określonym kolorem. |
+| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Podświetla wszystkie dopasowania przykładowego tekstu określonym kolorem. |
+| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | Podświetla wszystkie dopasowania wyrażenia regularnego określonym kolorem. |
+| [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Zamienia wszystkie wystąpienia określonego tekstu na inny określony tekst. |
+| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Zamienia wszystkie dopasowania wyrażenia regularnego na określony ciąg. |
+| [refreshChartsData()](#refreshChartsData--) | Ponownie ładuje dane dla wszystkich wykresów w prezentacji z ich źródłowych skoroszytów. |
+| [refreshChartsData(boolean skipFailedCharts)](#refreshChartsData-boolean-) | Ponownie ładuje dane dla wszystkich wykresów w prezentacji z ich źródłowych skoroszytów. |
 
 ### getCurrentDateTime() {#getCurrentDateTime--}
 ```
 public abstract Date getCurrentDateTime()
 ```
 
-Zwraca lub ustawia datę i godzinę, które zastąpią zawartość pól datetime. Czas utworzenia tego obiektu Presentation domyślnie. Odczyt/zapis java.util.Date.
+Zwraca lub ustawia datę i godzinę, które zastąpią zawartość pól daty i czasu. Domyślnie jest to czas utworzenia tego obiektu Presentation. Odczyt/zapis java.util.Date.
 
 **Zwraca:**
 java.util.Date
@@ -85,10 +87,10 @@ java.util.Date
 public abstract void setCurrentDateTime(Date value)
 ```
 
-Zwraca lub ustawia datę i godzinę, które zastąpią zawartość pól datetime. Czas utworzenia tego obiektu Presentation domyślnie. Odczyt/zapis java.util.Date.
+Zwraca lub ustawia datę i godzinę, które zastąpią zawartość pól daty i czasu. Domyślnie jest to czas utworzenia tego obiektu Presentation. Odczyt/zapis java.util.Date.
 
 **Parametry:**
-| Parametr | Typ | Opis |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.util.Date |  |
 
@@ -97,7 +99,7 @@ Zwraca lub ustawia datę i godzinę, które zastąpią zawartość pól datetime
 public abstract IPresentationHeaderFooterManager getHeaderFooterManager()
 ```
 
-Zwraca menedżera HeaderFooter prezentacji. Tylko do odczytu [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager).
+Zwraca menedżer HeaderFooter prezentacji. Tylko do odczytu [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager).
 
 **Zwraca:**
 [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager)
@@ -107,7 +109,7 @@ Zwraca menedżera HeaderFooter prezentacji. Tylko do odczytu [IPresentationHeade
 public abstract IProtectionManager getProtectionManager()
 ```
 
-Pobiera menedżera uprawnień dla tej prezentacji. Tylko do odczytu [IProtectionManager](../../com.aspose.slides/iprotectionmanager).
+Pobiera menedżer uprawnień dla tej prezentacji. Tylko do odczytu [IProtectionManager](../../com.aspose.slides/iprotectionmanager).
 
 **Zwraca:**
 [IProtectionManager](../../com.aspose.slides/iprotectionmanager)
@@ -161,7 +163,7 @@ Zwraca listę wszystkich slajdów układu zdefiniowanych w prezentacji. Tylko do
 
 --------------------
 
-Można uzyskać dostęp do alternatywnego API służącego do dodawania/wstawiania/usuwania/klonowania slajdów układu za pomocą własności IMasterSlide.LayoutSlides.
+Możesz uzyskać dostęp do alternatywnego API służącego do dodawania/wstawiania/usuwania/klonowania slajdów układu, używając właściwości IMasterSlide.LayoutSlides.
 
 **Zwraca:**
 [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection)
@@ -171,7 +173,7 @@ Można uzyskać dostęp do alternatywnego API służącego do dodawania/wstawian
 public abstract IMasterSlideCollection getMasters()
 ```
 
-Zwraca listę wszystkich slajdów głównych zdefiniowanych w prezentacji. Tylko do odczytu [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection).
+Zwraca listę wszystkich slajdów master zdefiniowanych w prezentacji. Tylko do odczytu [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection).
 
 **Zwraca:**
 [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection)
@@ -181,7 +183,7 @@ Zwraca listę wszystkich slajdów głównych zdefiniowanych w prezentacji. Tylko
 public abstract IMasterNotesSlideManager getMasterNotesSlideManager()
 ```
 
-Zwraca menedżera notatek głównych. Tylko do odczytu [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager).
+Zwraca menedżer notatek master. Tylko do odczytu [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager).
 
 **Zwraca:**
 [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager)
@@ -191,7 +193,7 @@ Zwraca menedżera notatek głównych. Tylko do odczytu [IMasterNotesSlideManager
 public abstract IMasterHandoutSlideManager getMasterHandoutSlideManager()
 ```
 
-Zwraca menedżera handout głównego. Tylko do odczytu [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager).
+Zwraca menedżer handout master. Tylko do odczytu [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager).
 
 **Zwraca:**
 [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager)
@@ -201,7 +203,7 @@ Zwraca menedżera handout głównego. Tylko do odczytu [IMasterHandoutSlideManag
 public abstract IFontsManager getFontsManager()
 ```
 
-Zwraca menedżera czcionek. Tylko do odczytu [IFontsManager](../../com.aspose.slides/ifontsmanager).
+Zwraca menedżer czcionek. Tylko do odczytu [IFontsManager](../../com.aspose.slides/ifontsmanager).
 
 **Zwraca:**
 [IFontsManager](../../com.aspose.slides/ifontsmanager)
@@ -294,7 +296,7 @@ public abstract void setVbaProject(IVbaProject value)
 Pobiera projekt VBA z makrami prezentacji. Odczyt/zapis [IVbaProject](../../com.aspose.slides/ivbaproject).
 
 **Parametry:**
-| Parametr | Typ | Opis |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | [IVbaProject](../../com.aspose.slides/ivbaproject) |  |
 
@@ -313,7 +315,7 @@ int
 public abstract IMasterTheme getMasterTheme()
 ```
 
-Zwraca motyw główny prezentacji. Tylko do odczytu [IMasterTheme](../../com.aspose.slides/imastertheme).
+Zwraca motyw master prezentacji. Tylko do odczytu [IMasterTheme](../../com.aspose.slides/imastertheme).
 
 **Zwraca:**
 [IMasterTheme](../../com.aspose.slides/imastertheme)
@@ -323,7 +325,7 @@ Zwraca motyw główny prezentacji. Tylko do odczytu [IMasterTheme](../../com.asp
 public abstract IHyperlinkQueries getHyperlinkQueries()
 ```
 
-Umożliwia łatwy dostęp do wszystkich hiperłączy zawartych we wszystkich slajdach prezentacji (z wyjątkiem slajdów głównych, układu, notatek). Tylko do odczytu [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
+Zapewnia łatwy dostęp do wszystkich hiperłączy zawartych we wszystkich slajdach prezentacji (nie w slajdach master, układu, notatek). Tylko do odczytu [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
 
 **Zwraca:**
 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)
@@ -333,7 +335,7 @@ Umożliwia łatwy dostęp do wszystkich hiperłączy zawartych we wszystkich sla
 public abstract IViewProperties getViewProperties()
 ```
 
-Pobiera właściwości widoku całej prezentacji. Tylko do odczytu [IViewProperties](../../com.aspose.slides/iviewproperties).
+Pobiera właściwości widoku na poziomie całej prezentacji. Tylko do odczytu [IViewProperties](../../com.aspose.slides/iviewproperties).
 
 **Zwraca:**
 [IViewProperties](../../com.aspose.slides/iviewproperties)
@@ -356,7 +358,7 @@ public abstract void setFirstSlideNumber(int value)
 Reprezentuje numer pierwszego slajdu w prezentacji. Odczyt/zapis int.
 
 **Parametry:**
-| Parametr | Typ | Opis |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
@@ -449,7 +451,7 @@ public abstract void save(String fname, int format)
 Zapisuje wszystkie slajdy prezentacji do pliku w określonym formacie.
 
 **Parametry:**
-| Parametr | Typ | Opis |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | fname | java.lang.String | Ścieżka do tworzonego pliku. |
 | format | int | Format eksportowanych danych. |
@@ -462,7 +464,7 @@ public abstract void save(OutputStream stream, int format)
 Zapisuje wszystkie slajdy prezentacji do strumienia w określonym formacie.
 
 **Parametry:**
-| Parametr | Typ | Opis |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.OutputStream | Strumień wyjściowy. |
 | format | int | Format eksportowanych danych. |
@@ -471,14 +473,13 @@ Zapisuje wszystkie slajdy prezentacji do strumienia w określonym formacie.
 ```
 public abstract void save(String fname, int format, ISaveOptions options)
 ```
-
-Zapisuje wszystkie slajdy prezentacji do pliku w określonym formacie oraz z dodatkowymi opcjami.
+Zapisuje wszystkie slajdy prezentacji do pliku w określonym formacie z dodatkowymi opcjami.
 
 **Parametry:**
 | Parametr | Typ | Opis |
 | --- | --- | --- |
 | fname | java.lang.String | Ścieżka do tworzonego pliku. |
-| format | int | Format wyeksportowanych danych. |
+| format | int | Format eksportowanych danych. |
 | options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Dodatkowe opcje formatu. |
 
 ### save(OutputStream stream, int format, ISaveOptions options) {#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-}
@@ -486,13 +487,13 @@ Zapisuje wszystkie slajdy prezentacji do pliku w określonym formacie oraz z dod
 public abstract void save(OutputStream stream, int format, ISaveOptions options)
 ```
 
-Zapisuje wszystkie slajdy prezentacji do strumienia w określonym formacie i z dodatkowymi opcjami.
+Zapisuje wszystkie slajdy prezentacji do strumienia w określonym formacie z dodatkowymi opcjami.
 
 **Parametry:**
 | Parametr | Typ | Opis |
 | --- | --- | --- |
 | stream | java.io.OutputStream | Strumień wyjściowy. |
-| format | int | Format wyeksportowanych danych. |
+| format | int | Format eksportowanych danych. |
 | options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Dodatkowe opcje formatu. |
 
 ### save(String fname, int[] slides, int format) {#save-java.lang.String-int---int-}
@@ -507,7 +508,7 @@ Zapisuje wybrane slajdy prezentacji do pliku w określonym formacie.
 | --- | --- | --- |
 | fname | java.lang.String | Ścieżka do tworzonego pliku. |
 | slides | int[] | Tablica z pozycjami slajdów, zaczynając od 1. |
-| format | int | Format wyeksportowanych danych. |
+| format | int | Format eksportowanych danych. |
 
 ### save(String fname, int[] slides, int format, ISaveOptions options) {#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-}
 ```
@@ -521,7 +522,7 @@ Zapisuje wybrane slajdy prezentacji do pliku w określonym formacie.
 | --- | --- | --- |
 | fname | java.lang.String | Ścieżka do tworzonego pliku. |
 | slides | int[] | Tablica z pozycjami slajdów, zaczynając od 1. |
-| format | int | Format wyeksportowanych danych. |
+| format | int | Format eksportowanych danych. |
 | options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Dodatkowe opcje formatu. |
 
 ### save(OutputStream stream, int[] slides, int format) {#save-java.io.OutputStream-int---int-}
@@ -536,7 +537,7 @@ Zapisuje wybrane slajdy prezentacji do strumienia w określonym formacie.
 | --- | --- | --- |
 | stream | java.io.OutputStream | Strumień wyjściowy. |
 | slides | int[] | Tablica z pozycjami slajdów, zaczynając od 1. |
-| format | int | Format wyeksportowanych danych. |
+| format | int | Format eksportowanych danych. |
 
 ### save(OutputStream stream, int[] slides, int format, ISaveOptions options) {#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-}
 ```
@@ -550,7 +551,7 @@ Zapisuje wybrane slajdy prezentacji do strumienia w określonym formacie.
 | --- | --- | --- |
 | stream | java.io.OutputStream | Strumień wyjściowy. |
 | slides | int[] | Tablica z pozycjami slajdów, zaczynając od 1. |
-| format | int | Format wyeksportowanych danych. |
+| format | int | Format eksportowanych danych. |
 | options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Dodatkowe opcje formatu. |
 
 ### save(IXamlOptions options) {#save-com.aspose.slides.IXamlOptions-}
@@ -585,7 +586,7 @@ Zapisuje wszystkie slajdy prezentacji do zestawu plików reprezentujących znacz
 public abstract IImage[] getImages(IRenderingOptions options)
 ```
 
-Zwraca obiekty IImage typu Miniatura dla wszystkich slajdów prezentacji.
+Zwraca obiekty obrazu miniatur dla wszystkich slajdów prezentacji.
 
 **Parametry:**
 | Parametr | Typ | Opis |
@@ -600,7 +601,7 @@ com.aspose.slides.IImage[] - obiekty IImage.
 public abstract IImage[] getImages(IRenderingOptions options, int[] slides)
 ```
 
-Zwraca obiekty IImage typu Miniatura dla wybranych slajdów prezentacji.
+Zwraca obiekty obrazu miniatur dla wybranych slajdów prezentacji.
 
 **Parametry:**
 | Parametr | Typ | Opis |
@@ -616,7 +617,7 @@ com.aspose.slides.IImage[] - obiekty IImage.
 public abstract IImage[] getImages(IRenderingOptions options, float scaleX, float scaleY)
 ```
 
-Zwraca obiekty IImage typu Miniatura dla wszystkich slajdów prezentacji ze skalowaniem niestandardowym.
+Zwraca obiekty obrazu miniatur dla wszystkich slajdów prezentacji z niestandardowym skalowaniem.
 
 **Parametry:**
 | Parametr | Typ | Opis |
@@ -633,7 +634,7 @@ com.aspose.slides.IImage[] - obiekty Bitmap.
 public abstract IImage[] getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)
 ```
 
-Zwraca obiekty IImage typu Miniatura dla wybranych slajdów prezentacji ze skalowaniem niestandardowym.
+Zwraca obiekty obrazu miniatur dla wybranych slajdów prezentacji z niestandardowym skalowaniem.
 
 **Parametry:**
 | Parametr | Typ | Opis |
@@ -651,7 +652,7 @@ com.aspose.slides.IImage[] - obiekty IImage.
 public abstract IImage[] getImages(IRenderingOptions options, Dimension imageSize)
 ```
 
-Zwraca obiekty IImage typu Miniatura dla wszystkich slajdów prezentacji o określonym rozmiarze.
+Zwraca obiekty obrazu miniatur dla wszystkich slajdów prezentacji o określonym rozmiarze.
 
 **Parametry:**
 | Parametr | Typ | Opis |
@@ -667,7 +668,7 @@ com.aspose.slides.IImage[] - obiekty IImage.
 public abstract IImage[] getImages(IRenderingOptions options, int[] slides, Dimension imageSize)
 ```
 
-Zwraca obiekty IImage typu Miniatura dla wybranych slajdów prezentacji o określonym rozmiarze.
+Zwraca obiekty obrazu miniatur dla wybranych slajdów prezentacji o określonym rozmiarze.
 
 **Parametry:**
 | Parametr | Typ | Opis |
@@ -684,7 +685,7 @@ com.aspose.slides.IImage[] - obiekty IImage.
 public abstract IBaseSlide getSlideById(long id)
 ```
 
-Zwraca obiekt Slide, MasterSlide lub LayoutSlide według Id.
+Zwraca obiekt Slide, MasterSlide lub LayoutSlide na podstawie Id.
 
 **Parametry:**
 | Parametr | Typ | Opis |
@@ -706,7 +707,7 @@ public abstract void joinPortionsWithSameFormatting()
 public abstract void highlightText(String text, Color highlightColor)
 ```
 
-Podświetla wszystkie dopasowania przykładowego tekstu przy użyciu określonego koloru.
+Podświetla wszystkie dopasowania podanego tekstu przy użyciu określonego koloru.
 
 --------------------
 
@@ -715,7 +716,7 @@ Podświetla wszystkie dopasowania przykładowego tekstu przy użyciu określoneg
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
->      // podświetlanie wszystkich oddzielnych wystąpień 'the'
+>      // podświetlanie wszystkich osobnych wystąpień 'the'
 >      presentation.highlightText("the", Color.MAGENTA);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -723,28 +724,27 @@ Podświetla wszystkie dopasowania przykładowego tekstu przy użyciu określoneg
 >  }
 > ```
 
-
 **Parametry:**
 | Parametr | Typ | Opis |
 | --- | --- | --- |
 | text | java.lang.String | Tekst do podświetlenia. |
-| highlightColor | java.awt.Color | Kolor do podświetlenia tekstu. |
+| highlightColor | java.awt.Color | Kolor używany do podświetlenia tekstu. |
 
 ### highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
 public abstract void highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
-Podświetla wszystkie dopasowania przykładowego tekstu przy użyciu określonego koloru.
+Podświetla wszystkie dopasowania podanego tekstu przy użyciu określonego koloru.
 
 --------------------
 
 > ```
-> Poniższy przykład kodu pokazuje, jak podświetlić tekst w prezentacji PowerPoint.
+> The following code sample shows how to highlight text in a PowerPoint presentation.
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
->      // podświetlanie wszystkich oddzielnych wystąpień 'the'
+>      // podświetlanie wszystkich osobnych wystąpień 'the'
 >      presentation.highlightText("the", Color.MAGENTA);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -757,9 +757,9 @@ Podświetla wszystkie dopasowania przykładowego tekstu przy użyciu określoneg
 | Parametr | Typ | Opis |
 | --- | --- | --- |
 | text | java.lang.String | Tekst do podświetlenia. |
-| highlightColor | java.awt.Color | Kolor do podświetlenia tekstu. |
+| highlightColor | java.awt.Color | Kolor używany do podświetlenia tekstu. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Opcje wyszukiwania tekstu [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Obiekt wywołania zwrotnego służący do odbierania wyników wyszukiwania [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Obiekt wywołania zwrotnego do otrzymywania wyników wyszukiwania [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback) {#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-}
 ```
@@ -787,9 +787,9 @@ Podświetla wszystkie dopasowania wyrażenia regularnego przy użyciu określone
 **Parametry:**
 | Parametr | Typ | Opis |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | Wyrażenie regularne java.util.regex.Pattern służące do uzyskania ciągów do podświetlenia. |
-| highlightColor | java.awt.Color | Kolor do podświetlenia tekstu. |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Obiekt wywołania zwrotnego służący do odbierania wyników wyszukiwania [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| regex | java.util.regex.Pattern | Wyrażenie regularne java.util.regex.Pattern służące do pobrania ciągów do podświetlenia. |
+| highlightColor | java.awt.Color | Kolor używany do podświetlenia tekstu. |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Obiekt wywołania zwrotnego do otrzymywania wyników wyszukiwania [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback) {#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
@@ -801,13 +801,13 @@ Zastępuje wszystkie wystąpienia określonego tekstu innym podanym tekstem.
 --------------------
 
 > ```
-> Poniższy przykładowy kod pokazuje, jak zamienić jeden określony ciąg znaków na inny określony ciąg znaków.
+> The following sample code shows how to replace one specified string with another specified string.
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx")
 >  try {
 >      TextSearchOptions textSearchOptions = new TextSearchOptions();
 >      textSearchOptions.setWholeWordsOnly(true);
->      // Zastąp wszystkie oddzielne wystąpienia 'the' ciągiem '***'
+>      // Zamień wszystkie osobne wystąpienia 'the' na '***'
 >      presentation.replaceText("the", "***", textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -820,9 +820,9 @@ Zastępuje wszystkie wystąpienia określonego tekstu innym podanym tekstem.
 | Parametr | Typ | Opis |
 | --- | --- | --- |
 | oldText | java.lang.String | Ciąg znaków do zastąpienia. |
-| newText | java.lang.String | Ciąg znaków służący do zastąpienia wszystkich wystąpień oldText. |
+| newText | java.lang.String | Ciąg znaków, który zastąpi wszystkie wystąpienia oldText. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Opcje wyszukiwania tekstu [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Obiekt wywołania zwrotnego służący do odbierania wyników wyszukiwania [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Obiekt wywołania zwrotnego do otrzymywania wyników wyszukiwania [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### replaceRegex(Pattern regex, String newText, IFindResultCallback callback) {#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-}
 ```
@@ -834,7 +834,7 @@ Zastępuje wszystkie dopasowania wyrażenia regularnego podanym ciągiem znaków
 --------------------
 
 > ```
-> Poniższy przykład kodu pokazuje, jak zamienić tekst przy użyciu wyrażenia regularnego na określony ciąg znaków.
+> Poniższy przykład kodu pokazuje, jak zastąpić tekst przy użyciu wyrażenia regularnego określonym ciągiem.
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx")
 >  try {
@@ -852,6 +852,51 @@ Zastępuje wszystkie dopasowania wyrażenia regularnego podanym ciągiem znaków
 **Parametry:**
 | Parametr | Typ | Opis |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | Wyrażenie regularne java.util.regex.Pattern służące do uzyskania ciągów do zastąpienia. |
-| newText | java.lang.String | Ciąg znaków służący do zastąpienia wszystkich wystąpień ciągów do zastąpienia. |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Obiekt wywołania zwrotnego służący do odbierania wyników wyszukiwania [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| regex | java.util.regex.Pattern | Wyrażenie regularne java.util.regex.Pattern służące do pobrania ciągów do zamiany. |
+| newText | java.lang.String | Ciąg znaków, który zastąpi wszystkie wystąpienia ciągów do zamiany. |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Obiekt wywołania zwrotnego do otrzymywania wyników wyszukiwania [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+
+### refreshChartsData() {#refreshChartsData--}
+```
+public abstract void refreshChartsData()
+```
+
+Ponownie ładuje dane dla wszystkich wykresów w prezentacji z ich źródłowych skoroszytów.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("PresentationWithCharts.pptx");
+>  try {
+>      presentation.refreshChartsData();
+>      presentation.save("PresentationWithCharts-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+
+### refreshChartsData(boolean skipFailedCharts) {#refreshChartsData-boolean-}
+```
+public abstract void refreshChartsData(boolean skipFailedCharts)
+```
+
+Ponownie ładuje dane dla wszystkich wykresów w prezentacji z ich źródłowych skoroszytów.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("PresentationWithCharts.pptx");
+>  try {
+>      presentation.refreshChartsData();
+>      presentation.save("PresentationWithCharts-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+
+**Parametry:**
+| Parametr | Typ | Opis |
+| --- | --- | --- |
+| skipFailedCharts | boolean | Określa, czy proces odświeżania kontynuuje, jeśli wykres nie uda się zaktualizować. Jeśli true, wykresy powodujące wyjątek są pomijane; w przeciwnym razie wyjątek jest propagowany. |

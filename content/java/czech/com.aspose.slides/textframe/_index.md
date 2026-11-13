@@ -1,14 +1,14 @@
 ---
 title: TextFrame
 second_title: Aspose.Slides pro Java API Reference
-description: Representuje TextFrame.
+description: Reprezentuje TextFrame.
 type: docs
 url: /cs/com.aspose.slides/textframe/
 ---
 **Dědičnost:**
 java.lang.Object
 
-**Všechny implementované rozhraní:**
+**Všechna implementovaná rozhraní:**
 [com.aspose.slides.ITextFrame](../../com.aspose.slides/itextframe), com.aspose.slides.IDOMObject
 ```
 public final class TextFrame implements ITextFrame, IDOMObject
@@ -20,23 +20,24 @@ Reprezentuje TextFrame.
 | Metoda | Popis |
 | --- | --- |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-| [getParagraphs()](#getParagraphs--) | Vrací seznam všech odstavců v rámci. |
-| [getText()](#getText--) | Získá nebo nastaví prostý text pro TextFrame. |
-| [setText(String value)](#setText-java.lang.String-) | Získá nebo nastaví prostý text pro TextFrame. |
-| [getTextFrameFormat()](#getTextFrameFormat--) | Vrací objekt formátování pro tento TextFrame. |
+| [getParagraphs()](#getParagraphs--) | Vrací seznam všech odstavců v rámečku. |
+| [getText()](#getText--) | Získává nebo nastavuje prostý text TextFrame. |
+| [setText(String value)](#setText-java.lang.String-) | Získává nebo nastavuje prostý text TextFrame. |
+| [getTextFrameFormat()](#getTextFrameFormat--) | Vrací objekt formátování pro tento objekt TextFrame. |
 | [getHyperlinkQueries()](#getHyperlinkQueries--) | Poskytuje snadný přístup k obsaženým hyperodkazům. |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Spojí úseky se stejným formátováním ve všech odstavcích. |
-| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | Zvýrazní všechny výskyty ukázkového textu zvolenou barvou. |
-| [highlightText(String text, Color highlightColor, ITextHighlightingOptions options)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Zvýrazní všechny výskyty ukázkového textu zvolenou barvou. |
-| [splitTextByColumns()](#splitTextByColumns--) | Rozdělí textový obsah [ITextFrame](../../com.aspose.slides/itextframe) do pole řetězců, kde každý prvek odpovídá samostatnému sloupci textu v rámci. |
-| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Zvýrazní všechny výskyty ukázkového textu zvolenou barvou. |
-| [highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)](#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Zvýrazní všechny výskyty regulárního výrazu zvolenou barvou. |
-| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | Zvýrazní všechny výskyty regulárního výrazu zvolenou barvou. |
-| [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Nahradí všechny výskyty zadaného textu jiným zadaným textem. |
-| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Nahradí všechny výskyty regulárního výrazu zadaným řetězcem. |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Spojuje běhy se stejným formátováním ve všech odstavcích. |
+| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | Zvýrazní všechny shody vzorkového textu zadanou barvou. |
+| [highlightText(String text, Color highlightColor, ITextHighlightingOptions options)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Zvýrazní všechny shody vzorkového textu zadanou barvou. |
+| [splitTextByColumns()](#splitTextByColumns--) | Rozděluje textový obsah [ITextFrame](../../com.aspose.slides/itextframe) do pole řetězců, kde každý prvek odpovídá samostatnému textovému sloupci v rámci. |
+| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Zvýrazní všechny shody vzorkového textu zadanou barvou. |
+| [highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)](#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Zvýrazní všechny shody regulárního výrazu zadanou barvou. |
+| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | Zvýrazní všechny shody regulárního výrazu zadanou barvou. |
+| [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Nahrazuje všechny výskyty zadaného textu jiným zadaným textem. |
+| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Nahrazuje všechny shody regulárního výrazu zadaným řetězcem. |
 | [getSlide()](#getSlide--) | Vrací nadřazený snímek TextFrame. |
 | [getPresentation()](#getPresentation--) | Vrací nadřazenou prezentaci TextFrame. |
 | [getParentShape()](#getParentShape--) | Vrací nadřazený tvar nebo null, pokud nadřazený objekt neimplementuje rozhraní IShape. Pouze pro čtení [IShape](../../com.aspose.slides/ishape). |
+| [getTextRect()](#getTextRect--) | Získává textový obdélník definovaný geometrií nadřazeného tvaru. |
 | [getParentCell()](#getParentCell--) | Vrací nadřazenou buňku nebo null, pokud nadřazený objekt neimplementuje rozhraní ICell. |
 
 ### getParent_Immediate() {#getParent-Immediate--}
@@ -54,7 +55,7 @@ com.aspose.slides.IDOMObject
 public final IParagraphCollection getParagraphs()
 ```
 
-Vrací seznam všech odstavců v rámci. Pouze pro čtení [IParagraphCollection](../../com.aspose.slides/iparagraphcollection).
+Vrací seznam všech odstavců v rámečku. Pouze pro čtení [IParagraphCollection](../../com.aspose.slides/iparagraphcollection).
 
 **Vrací:**
 [IParagraphCollection](../../com.aspose.slides/iparagraphcollection)
@@ -64,7 +65,7 @@ Vrací seznam všech odstavců v rámci. Pouze pro čtení [IParagraphCollection
 public final String getText()
 ```
 
-Získá nebo nastaví prostý text pro TextFrame. Čtení/zápis String.
+Získává nebo nastavuje prostý text TextFrame. Čtení/zápis String.
 
 Hodnota: Text.
 
@@ -76,7 +77,7 @@ java.lang.String
 public final void setText(String value)
 ```
 
-Získá nebo nastaví prostý text pro TextFrame. Čtení/zápis String.
+Získává nebo nastavuje prostý text TextFrame. Čtení/zápis String.
 
 Hodnota: Text.
 
@@ -90,7 +91,7 @@ Hodnota: Text.
 public final ITextFrameFormat getTextFrameFormat()
 ```
 
-Vrací objekt formátování pro tento TextFrame. Pouze pro čtení [ITextFrameFormat](../../com.aspose.slides/itextframeformat).
+Vrací objekt formátování pro tento objekt TextFrame. Pouze pro čtení [ITextFrameFormat](../../com.aspose.slides/itextframeformat).
 
 **Vrací:**
 [ITextFrameFormat](../../com.aspose.slides/itextframeformat)
@@ -110,19 +111,19 @@ Poskytuje snadný přístup k obsaženým hyperodkazům. Pouze pro čtení [IHyp
 public final void joinPortionsWithSameFormatting()
 ```
 
-Spojí úseky se stejným formátováním ve všech odstavcích.
+Spojuje běhy se stejným formátováním ve všech odstavcích.
 
 ### highlightText(String text, Color highlightColor) {#highlightText-java.lang.String-java.awt.Color-}
 ```
 public final void highlightText(String text, Color highlightColor)
 ```
 
-Zvýrazní všechny výskyty ukázkového textu zvolenou barvou.
+Zvýrazní všechny shody vzorkového textu zadanou barvou.
 
 **Parametry:**
 | Parametr | Typ | Popis |
 | --- | --- | --- |
-| text | java.lang.String | Ukázkový text k zvýraznění. |
+| text | java.lang.String | Vzorek textu k zvýraznění. |
 | highlightColor | java.awt.Color | Barva pro zvýraznění textu. |
 
 ### highlightText(String text, Color highlightColor, ITextHighlightingOptions options) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-}
@@ -130,7 +131,7 @@ Zvýrazní všechny výskyty ukázkového textu zvolenou barvou.
 public final void highlightText(String text, Color highlightColor, ITextHighlightingOptions options)
 ```
 
-Zvýrazní všechny výskyty ukázkového textu zvolenou barvou.
+Zvýrazní všechny shody vzorkového textu zadanou barvou.
 
 --------------------
 
@@ -140,15 +141,16 @@ Zvýrazní všechny výskyty ukázkového textu zvolenou barvou.
 >  try {
 >      TextHighlightingOptions textHighlightingOptions = new TextHighlightingOptions();
 >      textHighlightingOptions.setWholeWordsOnly(true);
->      // highlighting all words 'important'
+>      // zvýraznění všech slov 'important'
 >      ((AutoShape)pres.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightText("title", Color.BLUE);
->      // highlighting all separate 'the' occurrences
+>      // zvýraznění všech samostatných výskytů 'the'
 >      ((AutoShape)pres.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightText("to", Color.MAGENTA, textHighlightingOptions);
 >      pres.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
 > ```
+
 
 **Parametry:**
 | Parametr | Typ | Popis |
@@ -162,7 +164,7 @@ Zvýrazní všechny výskyty ukázkového textu zvolenou barvou.
 public final String[] splitTextByColumns()
 ```
 
-Rozdělí textový obsah [ITextFrame](../../com.aspose.slides/itextframe) do pole řetězců, kde každý prvek odpovídá samostatnému sloupci textu v rámci.
+Rozděluje textový obsah [ITextFrame](../../com.aspose.slides/itextframe) do pole řetězců, kde každý prvek odpovídá samostatnému textovému sloupci v rámci.
 
 --------------------
 
@@ -171,11 +173,11 @@ Rozdělí textový obsah [ITextFrame](../../com.aspose.slides/itextframe) do pol
 >  
 >  Presentation pres = new Presentation("example.pptx");
 >  try {
->      // Získejte první tvar na snímku a přetypujte jej na ITextFrame
+>      // Získat první tvar na snímku a přetypovat jej na ITextFrame
 >      ITextFrame textFrame = (ITextFrame) pres.getSlides().get_Item(0).getShapes().get_Item(0);
->      // Rozdělte obsah textového rámce do sloupců
+>      // Rozdělit obsah textového rámce do sloupců
 >      String[] columnsText = textFrame.splitTextByColumns();
->      // Vytiskněte text každého sloupce do konzole
+>      // Vytisknout text každého sloupce do konzole
 >      for (String column : columnsText)
 >          System.out.println(column);
 >  } finally {
@@ -183,20 +185,19 @@ Rozdělí textový obsah [ITextFrame](../../com.aspose.slides/itextframe) do pol
 >  }
 > ```
 
-
 **Vrací:**
 java.lang.String[] - Pole řetězců, kde každý řetězec představuje textový obsah konkrétního sloupce v [ITextFrame](../../com.aspose.slides/itextframe).
 
 --------------------
 
-Pokud textový rámec neobsahuje více sloupců, vrácené pole bude mít jediný prvek obsahující celý text. Prázdné sloupce budou v poli reprezentovány prázdnými řetězci.
+Pokud TextFrame neobsahuje více sloupců, vrácené pole bude mít jediný prvek obsahující celý text. Prázdné sloupce budou v poli reprezentovány prázdnými řetězci.
 
 ### highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
 public final void highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
-Zvýrazní všechny výskyty ukázkového textu zvolenou barvou.
+Zvýrazní všechny shody vzorkového textu zadanou barvou.
 
 --------------------
 
@@ -217,21 +218,20 @@ Zvýrazní všechny výskyty ukázkového textu zvolenou barvou.
 >  }
 > ```
 
-
 **Parametry:**
 | Parametr | Typ | Popis |
 | --- | --- | --- |
 | text | java.lang.String | Text k zvýraznění. |
 | highlightColor | java.awt.Color | Barva pro zvýraznění textu. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Možnosti vyhledávání textu [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Objekt zpětného volání pro získání výsledků vyhledávání [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Objekt zpětného volání pro přijímání výsledků vyhledávání [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options) {#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-}
 ```
 public final void highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)
 ```
 
-Zvýrazní všechny výskyty regulárního výrazu zvolenou barvou.
+Zvýrazní všechny shody regulárního výrazu zadanou barvou.
 
 --------------------
 
@@ -241,7 +241,7 @@ Zvýrazní všechny výskyty regulárního výrazu zvolenou barvou.
 >  Presentation pres = new Presentation("SomePresentation.pptx");
 >  try {
 >      TextHighlightingOptions options = new TextHighlightingOptions();
->      // zvýraznění všech slov s 10 nebo více znaky
+>      // zvýraznění všech slov s 10 a více znaky
 >      ((AutoShape) pres.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightRegex("\\b[^\\s){5,}\\b", Color.BLUE, options);
 >      pres.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -249,11 +249,10 @@ Zvýrazní všechny výskyty regulárního výrazu zvolenou barvou.
 >  }
 > ```
 
-
 **Parametry:**
 | Parametr | Typ | Popis |
 | --- | --- | --- |
-| regex | java.lang.String | Text regulárního výrazu, jehož výskyty mají být zvýrazněny. |
+| regex | java.lang.String | Text regulárního výrazu, jehož výsledek má být zvýrazněn. |
 | highlightColor | java.awt.Color | Barva pro zvýraznění textu. |
 | options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | Možnosti zvýraznění. |
 
@@ -262,7 +261,7 @@ Zvýrazní všechny výskyty regulárního výrazu zvolenou barvou.
 public final void highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)
 ```
 
-Zvýrazní všechny výskyty regulárního výrazu zvolenou barvou.
+Zvýrazní všechny shody regulárního výrazu zadanou barvou.
 
 --------------------
 
@@ -272,7 +271,7 @@ Zvýrazní všechny výskyty regulárního výrazu zvolenou barvou.
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      Pattern regex = Pattern.compile("\\b[^\\s]{5,}\\b");
->      // zvýraznění všech slov s 5 nebo více znaky
+>      // zvýraznění všech slov s 5 a více znaky
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightRegex(regex, Color.BLUE, null);
 >      presentation.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -280,20 +279,19 @@ Zvýrazní všechny výskyty regulárního výrazu zvolenou barvou.
 >  }
 > ```
 
-
 **Parametry:**
 | Parametr | Typ | Popis |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | Regulární výraz java.util.regex.Pattern, jehož výskyty mají být zvýrazněny. |
+| regex | java.util.regex.Pattern | Regulární výraz java.util.regex.Pattern, jehož řetězce mají být zvýrazněny. |
 | highlightColor | java.awt.Color | Barva pro zvýraznění textu. |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Objekt zpětného volání pro získání výsledků vyhledávání [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Objekt zpětného volání pro přijímání výsledků vyhledávání [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback) {#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
 public final void replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
-Nahradí všechny výskyty zadaného textu jiným zadaným textem.
+Nahrazuje všechny výskyty zadaného textu jiným zadaným textem.
 
 --------------------
 
@@ -312,7 +310,6 @@ Nahradí všechny výskyty zadaného textu jiným zadaným textem.
 >  }
 > ```
 
-
 **Parametry:**
 | Parametr | Typ | Popis |
 | --- | --- | --- |
@@ -326,17 +323,17 @@ Nahradí všechny výskyty zadaného textu jiným zadaným textem.
 public final void replaceRegex(Pattern regex, String newText, IFindResultCallback callback)
 ```
 
-Nahradí všechny výskyty regulárního výrazu zadaným řetězcem.
+Nahrazuje všechny shody regulárního výrazu zadaným řetězcem.
 
 --------------------
 
 > ```
-> The following sample code shows how to replace text using regular expression with specified string.
+> Následující ukázkový kód ukazuje, jak nahradit text pomocí regulárního výrazu určeným řetězcem.
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      Pattern regex = Pattern.compile("\\b[^\\s]{5,}\\b");
->      // Nahraďte všechna slova s 5 nebo více znaky řetězcem '***'
+>      // Nahraďte všechna slova s 5 a více symboly řetězcem '***'
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().replaceRegex(regex, "***", null);
 >      presentation.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -347,7 +344,7 @@ Nahradí všechny výskyty regulárního výrazu zadaným řetězcem.
 **Parametry:**
 | Parametr | Typ | Popis |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | Regulární výraz java.util.regex.Pattern, jehož výskyty mají být nahrazeny. |
+| regex | java.util.regex.Pattern | Regulární výraz java.util.regex.Pattern, jehož řetězce mají být nahrazeny. |
 | newText | java.lang.String | Řetězec, kterým se nahradí všechny výskyty řetězců k nahrazení. |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Objekt zpětného volání pro uložení výsledku operace nahrazení [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
@@ -396,9 +393,18 @@ Vrací nadřazený tvar nebo null, pokud nadřazený objekt neimplementuje rozhr
 >  }
 > ```
 
-
 **Vrací:**
 [IShape](../../com.aspose.slides/ishape)
+
+### getTextRect() {#getTextRect--}
+```
+public final Rectangle2D.Float getTextRect()
+```
+
+Získává textový obdélník definovaný geometrií nadřazeného tvaru.
+
+**Vrací:**
+java.awt.geom.Rectangle2D.Float - java.awt.geom.Rectangle2D.Float definující oblast textu.
 
 ### getParentCell() {#getParentCell--}
 ```

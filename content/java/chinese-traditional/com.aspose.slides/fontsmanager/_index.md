@@ -19,12 +19,12 @@ public class FontsManager implements IFontsManager
 --------------------
 
 > ```
-> 以下範例示範如何將嵌入字型加入 PowerPoint 簡報。
+> The following example shows how to add embedded fonts to PowerPoint Presentation.
 >  
 >  // 載入簡報
 >  Presentation pres = new Presentation("Fonts.pptx");
 >  try {
->      // 載入欲替換的來源字型
+>      // 載入要被取代的來源字型
 >      IFontData sourceFont = new FontData("Arial");
 >      IFontData[] allFonts = pres.getFontsManager().getFonts();
 >      for (IFontData font : allFonts)
@@ -52,24 +52,26 @@ public class FontsManager implements IFontsManager
 
 ## 方法
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [getFontSubstRuleList()](#getFontSubstRuleList--) | 渲染時使用的字型替代。 |
 | [setFontSubstRuleList(IFontSubstRuleCollection value)](#setFontSubstRuleList-com.aspose.slides.IFontSubstRuleCollection-) | 渲染時使用的字型替代。 |
-| [getFontFallBackRulesCollection()](#getFontFallBackRulesCollection--) | 表示使用者的 FontFallBack 規則集合，用於透過備援功能管理字型集合的正確替代。讀寫 [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection)。 |
-| [setFontFallBackRulesCollection(IFontFallBackRulesCollection value)](#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-) | 表示使用者的 FontFallBack 規則集合，用於透過備援功能管理字型集合的正確替代。讀寫 [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection)。 |
-| [getFonts()](#getFonts--) | 傳回簡報中使用的字型。 |
-| [getSubstitutions()](#getSubstitutions--) | 取得有關在簡報渲染時將被替換的字型資訊。 |
+| [getFontFallBackRulesCollection()](#getFontFallBackRulesCollection--) | 代表使用者的 FontFallBack 規則集合，用於管理字型集合以透過回退功能正確替代。讀寫 [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection)。 |
+| [setFontFallBackRulesCollection(IFontFallBackRulesCollection value)](#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-) | 代表使用者的 FontFallBack 規則集合，用於管理字型集合以透過回退功能正確替代。讀寫 [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection)。 |
+| [getFonts()](#getFonts--) | 返回簡報中使用的字型 |
+| [getSubstitutions()](#getSubstitutions--) | 取得簡報渲染時將被替換的字型資訊。 |
 | [getSubstitutions(int[] slides)](#getSubstitutions-int---) | 取得指定投影片渲染期間將被替換的字型資訊。 |
-| [getEmbeddedFonts()](#getEmbeddedFonts--) | 傳回嵌入於簡報中的字型。 |
-| [removeEmbeddedFont(IFontData fontData)](#removeEmbeddedFont-com.aspose.slides.IFontData-) | 移除嵌入的字型。 |
-| [addEmbeddedFont(IFontData fontData, int embedFontRule)](#addEmbeddedFont-com.aspose.slides.IFontData-int-) | 新增嵌入的字型。 |
-| [addEmbeddedFont(byte[] fontData, int embedFontRule)](#addEmbeddedFont-byte---int-) | 新增嵌入的字型。 |
-| [replaceFont(IFontData sourceFont, IFontData destFont)](#replaceFont-com.aspose.slides.IFontData-com.aspose.slides.IFontData-) | 在簡報中替換字型。 |
-| [replaceFont(IFontSubstRule substRule)](#replaceFont-com.aspose.slides.IFontSubstRule-) | 使用 [FontSubstRule](../../com.aspose.slides/fontsubstrule) 中提供的資訊在簡報中替換字型。 |
-| [replaceFont(IFontSubstRuleCollection substRules)](#replaceFont-com.aspose.slides.IFontSubstRuleCollection-) | 使用 [FontSubstRule](../../com.aspose.slides/fontsubstrule) 集合中提供的資訊在簡報中替換字型。 |
-| [getFontBytes(IFontData fontData, int fontStyle)](#getFontBytes-com.aspose.slides.IFontData-int-) | 取得代表指定字型樣式及字型資料的位元組陣列。 |
-| [getFontEmbeddingLevel(byte[] fontBytes, String fontName)](#getFontEmbeddingLevel-byte---java.lang.String-) | 根據給定的位元組陣列與字型名稱確定字型的嵌入層級。 |
+| [getPreferRegisteredFontsOverEmbedded()](#getPreferRegisteredFontsOverEmbedded--) | 指定是否應優先使用已註冊的字型而非具有相同字型名稱和樣式的嵌入字型。 |
+| [setPreferRegisteredFontsOverEmbedded(boolean value)](#setPreferRegisteredFontsOverEmbedded-boolean-) | 指定是否應優先使用已註冊的字型而非具有相同字型名稱和樣式的嵌入字型。 |
+| [getEmbeddedFonts()](#getEmbeddedFonts--) | 返回嵌入在簡報中的字型 |
+| [removeEmbeddedFont(IFontData fontData)](#removeEmbeddedFont-com.aspose.slides.IFontData-) | 移除嵌入的字型 |
+| [addEmbeddedFont(IFontData fontData, int embedFontRule)](#addEmbeddedFont-com.aspose.slides.IFontData-int-) | 新增嵌入的字型 |
+| [addEmbeddedFont(byte[] fontData, int embedFontRule)](#addEmbeddedFont-byte---int-) | 新增嵌入的字型 |
+| [replaceFont(IFontData sourceFont, IFontData destFont)](#replaceFont-com.aspose.slides.IFontData-com.aspose.slides.IFontData-) | 取代簡報中的字型 |
+| [replaceFont(IFontSubstRule substRule)](#replaceFont-com.aspose.slides.IFontSubstRule-) | 使用 [FontSubstRule](../../com.aspose.slides/fontsubstrule) 提供的資訊取代簡報中的字型 |
+| [replaceFont(IFontSubstRuleCollection substRules)](#replaceFont-com.aspose.slides.IFontSubstRuleCollection-) | 使用 [FontSubstRule](../../com.aspose.slides/fontsubstrule) 集合提供的資訊取代簡報中的字型 |
+| [getFontBytes(IFontData fontData, int fontStyle)](#getFontBytes-com.aspose.slides.IFontData-int-) | 取得代表指定字型樣式與字型資料之字型資料的位元組陣列。 |
+| [getFontEmbeddingLevel(byte[] fontBytes, String fontName)](#getFontEmbeddingLevel-byte---java.lang.String-) | 根據給定的位元組陣列與字型名稱判斷字型的嵌入層級。 |
 
 ### getFontSubstRuleList() {#getFontSubstRuleList--}
 ```
@@ -78,9 +80,8 @@ public final IFontSubstRuleCollection getFontSubstRuleList()
 
 渲染時使用的字型替代。讀寫 [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection)。
 
-**傳回:**
+**返回:**
 [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection)
-
 ### setFontSubstRuleList(IFontSubstRuleCollection value) {#setFontSubstRuleList-com.aspose.slides.IFontSubstRuleCollection-}
 ```
 public final void setFontSubstRuleList(IFontSubstRuleCollection value)
@@ -89,7 +90,7 @@ public final void setFontSubstRuleList(IFontSubstRuleCollection value)
 渲染時使用的字型替代。讀寫 [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection)。
 
 **參數:**
-| 參數 | 型別 | 描述 |
+| 參數 | 類型 | 說明 |
 | --- | --- | --- |
 | value | [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection) |  |
 
@@ -98,7 +99,7 @@ public final void setFontSubstRuleList(IFontSubstRuleCollection value)
 public final IFontFallBackRulesCollection getFontFallBackRulesCollection()
 ```
 
-表示使用者的 FontFallBack 規則集合，用於透過備援功能管理字型集合的正確替代。讀寫 [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection)。
+代表使用者的 FontFallBack 規則集合，用於管理字型集合以透過回退功能正確替代。讀寫 [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection)。
 
 --------------------
 
@@ -106,16 +107,16 @@ public final IFontFallBackRulesCollection getFontFallBackRulesCollection()
 > Presentation pres = new Presentation();
 >  try
 >  {
->      // 獲取來自 FontsManager 的空或預先初始化的規則集合
+>      // 從 FontsManager 獲取空的或預先初始化的規則集合
 >      IFontFallBackRulesCollection rulesList = pres.getFontsManager().getFontFallBackRulesCollection();
->      // 新增規則至集合
+>      // 將規則加入集合
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
->      // 或
+>      // 或 
 >      // 初始化規則集合的新實例
 >      IFontFallBackRulesCollection rulesList = new FontFallBackRulesCollection();
->      // 新增規則至集合
+>      // 將規則加入集合
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
->      // 透過新集合在 FontsManager 中取代現有集合
+>      // 在 FontsManager 中以新集合取代現有的集合 
 >      pres.getFontsManager().setFontFallBackRulesCollection(rulesList);
 >  }
 >  finally {
@@ -124,15 +125,14 @@ public final IFontFallBackRulesCollection getFontFallBackRulesCollection()
 > ```
 
 
-**傳回:**
+**返回:**
 [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection)
-
 ### setFontFallBackRulesCollection(IFontFallBackRulesCollection value) {#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-}
 ```
 public final void setFontFallBackRulesCollection(IFontFallBackRulesCollection value)
 ```
 
-表示使用者的 FontFallBack 規則集合，用於透過備援功能管理字型集合的正確替代。讀寫 [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection)。
+代表使用者的 FontFallBack 規則集合，用於管理字型集合以透過回退功能正確替代。讀寫 [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection)。
 
 --------------------
 
@@ -140,16 +140,16 @@ public final void setFontFallBackRulesCollection(IFontFallBackRulesCollection va
 > Presentation pres = new Presentation();
 >  try
 >  {
->      // 獲取來自 FontsManager 的空或預先初始化的規則集合
+>      // 從 FontsManager 獲取空的或預先初始化的規則集合
 >      IFontFallBackRulesCollection rulesList = pres.getFontsManager().getFontFallBackRulesCollection();
->      // 新增規則至集合
+>      // 將規則加入集合
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
->      // 或
+>      // 或 
 >      // 初始化規則集合的新實例
 >      IFontFallBackRulesCollection rulesList = new FontFallBackRulesCollection();
->      // 新增規則至集合
+>      // 將規則加入集合
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
->      // 透過新集合在 FontsManager 中取代現有集合
+>      // 在 FontsManager 中以新集合取代現有的集合 
 >      pres.getFontsManager().setFontFallBackRulesCollection(rulesList);
 >  }
 >  finally {
@@ -159,7 +159,7 @@ public final void setFontFallBackRulesCollection(IFontFallBackRulesCollection va
 
 
 **參數:**
-| 參數 | 型別 | 描述 |
+| 參數 | 類型 | 說明 |
 | --- | --- | --- |
 | value | [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection) |  |
 
@@ -168,17 +168,16 @@ public final void setFontFallBackRulesCollection(IFontFallBackRulesCollection va
 public final IFontData[] getFonts()
 ```
 
-傳回簡報中使用的字型
+返回簡報中使用的字型
 
-**傳回:**
+**返回:**
 com.aspose.slides.IFontData[] - 字型陣列
-
 ### getSubstitutions() {#getSubstitutions--}
 ```
 public final System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo> getSubstitutions()
 ```
 
-取得有關在簡報渲染時將被替換的字型資訊。
+取得簡報渲染時將被替換的字型資訊。
 
 --------------------
 
@@ -195,15 +194,14 @@ public final System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo>
 > ```
 
 
-**傳回:**
+**返回:**
 com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - 所有字型替代的集合 [FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo)。
-
 ### getSubstitutions(int[] slides) {#getSubstitutions-int---}
 ```
 public final System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo> getSubstitutions(int[] slides)
 ```
 
-取得在指定投影片渲染期間將被替換的字型資訊。
+取得指定投影片渲染期間將被替換的字型資訊。
 
 --------------------
 
@@ -222,23 +220,74 @@ public final System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo>
 
 
 **參數:**
-| 參數 | 型別 | 描述 |
+| 參數 | 類型 | 說明 |
 | --- | --- | --- |
-| slides | int[] | 一個投影片索引陣列，用於取得字型替代資訊，索引從 1 開始。 |
+| slides | int[] | 要檢索字型替代資訊的投影片索引陣列，起始值為 1。 |
 
-**傳回:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - 指定投影片的所有字型替代集合 ([FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo))。
+**返回:**
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - 所有指定投影片的字型替代集合 ([FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo))。
+### getPreferRegisteredFontsOverEmbedded() {#getPreferRegisteredFontsOverEmbedded--}
+```
+public final boolean getPreferRegisteredFontsOverEmbedded()
+```
+
+指定是否應優先使用已註冊的字型而非具有相同字型名稱和樣式的嵌入字型。啟用時，匹配的嵌入字型會在匯出期間暫時被相應的已註冊字型取代。
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("SomePresentation.pptx");
+>  try {
+>      pres.getFontsManager().setPreferRegisteredFontsOverEmbedded(true);
+>      pres.save("Presentation-out.pdf", SaveFormat.Pdf);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+預設為 **false**。
+
+**返回:**
+boolean
+### setPreferRegisteredFontsOverEmbedded(boolean value) {#setPreferRegisteredFontsOverEmbedded-boolean-}
+```
+public final void setPreferRegisteredFontsOverEmbedded(boolean value)
+```
+
+指定是否應優先使用已註冊的字型而非具有相同字型名稱和樣式的嵌入字型。啟用時，匹配的嵌入字型會在匯出期間暫時被相應的已註冊字型取代。
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("SomePresentation.pptx");
+>  try {
+>      pres.getFontsManager().setPreferRegisteredFontsOverEmbedded(true);
+>      pres.save("Presentation-out.pdf", SaveFormat.Pdf);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+預設為 **false**。
+
+**參數:**
+| 參數 | 類型 | 說明 |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### getEmbeddedFonts() {#getEmbeddedFonts--}
 ```
 public final IFontData[] getEmbeddedFonts()
 ```
 
-傳回嵌入於簡報中的字型
+返回嵌入在簡報中的字型
 
-**傳回:**
+**返回:**
 com.aspose.slides.IFontData[]
-
 ### removeEmbeddedFont(IFontData fontData) {#removeEmbeddedFont-com.aspose.slides.IFontData-}
 ```
 public final void removeEmbeddedFont(IFontData fontData)
@@ -247,7 +296,7 @@ public final void removeEmbeddedFont(IFontData fontData)
 移除嵌入的字型
 
 **參數:**
-| 參數 | 型別 | 描述 |
+| 參數 | 類型 | 說明 |
 | --- | --- | --- |
 | fontData | [IFontData](../../com.aspose.slides/ifontdata) |  |
 
@@ -259,7 +308,7 @@ public final void addEmbeddedFont(IFontData fontData, int embedFontRule)
 新增嵌入的字型
 
 **參數:**
-| 參數 | 型別 | 描述 |
+| 參數 | 類型 | 說明 |
 | --- | --- | --- |
 | fontData | [IFontData](../../com.aspose.slides/ifontdata) |  |
 | embedFontRule | int |  |
@@ -272,7 +321,7 @@ public final void addEmbeddedFont(byte[] fontData, int embedFontRule)
 新增嵌入的字型
 
 **參數:**
-| 參數 | 型別 | 描述 |
+| 參數 | 類型 | 說明 |
 | --- | --- | --- |
 | fontData | byte[] |  |
 | embedFontRule | int |  |
@@ -282,12 +331,12 @@ public final void addEmbeddedFont(byte[] fontData, int embedFontRule)
 public final void replaceFont(IFontData sourceFont, IFontData destFont)
 ```
 
-在簡報中替換字型
+取代簡報中的字型
 
 **參數:**
-| 參數 | 型別 | 描述 |
+| 參數 | 類型 | 說明 |
 | --- | --- | --- |
-| sourceFont | [IFontData](../../com.aspose.slides/ifontdata) | 來源字型 |
+| sourceFont | [IFontData](../../com.aspose.slides/ifontdata) | 原始字型 |
 | destFont | [IFontData](../../com.aspose.slides/ifontdata) | 目標字型 |
 
 ### replaceFont(IFontSubstRule substRule) {#replaceFont-com.aspose.slides.IFontSubstRule-}
@@ -295,10 +344,10 @@ public final void replaceFont(IFontData sourceFont, IFontData destFont)
 public final void replaceFont(IFontSubstRule substRule)
 ```
 
-使用 [FontSubstRule](../../com.aspose.slides/fontsubstrule) 中提供的資訊在簡報中替換字型
+使用 [FontSubstRule](../../com.aspose.slides/fontsubstrule) 提供的資訊取代簡報中的字型
 
 **參數:**
-| 參數 | 型別 | 描述 |
+| 參數 | 類型 | 說明 |
 | --- | --- | --- |
 | substRule | [IFontSubstRule](../../com.aspose.slides/ifontsubstrule) | 字型替代資訊 |
 
@@ -307,10 +356,10 @@ public final void replaceFont(IFontSubstRule substRule)
 public final void replaceFont(IFontSubstRuleCollection substRules)
 ```
 
-使用 [FontSubstRule](../../com.aspose.slides/fontsubstrule) 集合中提供的資訊在簡報中替換字型
+使用 [FontSubstRule](../../com.aspose.slides/fontsubstrule) 集合提供的資訊取代簡報中的字型
 
 **參數:**
-| 參數 | 型別 | 描述 |
+| 參數 | 類型 | 說明 |
 | --- | --- | --- |
 | substRules | [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection) | 字型替代規則集合 |
 
@@ -319,46 +368,46 @@ public final void replaceFont(IFontSubstRuleCollection substRules)
 public final byte[] getFontBytes(IFontData fontData, int fontStyle)
 ```
 
-取得代表指定字型樣式和字型資料的位元組陣列。
+取得代表指定字型樣式與字型資料之字型資料的位元組陣列。
 
 --------------------
 
 > ```
 > Presentation pres = new Presentation ("Presentation.pptx");
 >  try {
->      // 取得簡報中使用的所有字型
+>      // 取得簡報中使用的全部字型
 >      IFontData[] fonts = pres.getFontsManager().getFonts();
->      // 取得簡報中第一個字型之常規樣式的位元組陣列
+>      // 取得簡報中第一個字型的常規樣式之位元組陣列
 >      byte[] fontBytes = pres.getFontsManager().getFontBytes(fonts[0], FontStyleType.Regular);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
 > ```
 
+
 **參數:**
-| 參數 | 型別 | 描述 |
+| 參數 | 類型 | 說明 |
 | --- | --- | --- |
 | fontData | [IFontData](../../com.aspose.slides/ifontdata) | 包含字型 [IFontData](../../com.aspose.slides/ifontdata) 資訊的字型資料物件。 |
 | fontStyle | int | 要取得資料的字型樣式 [FontStyleType](../../com.aspose.slides/fontstyletype)。 |
 
-**傳回:**
-byte[] - 包含指定字型樣式字型資料的位元組陣列。若找不到字型資料或樣式，則返回 null。
-
+**返回:**
+byte[] - 位元組陣列，包含指定字型樣式的字型資料。如果找不到字型資料或樣式，返回 null。
 ### getFontEmbeddingLevel(byte[] fontBytes, String fontName) {#getFontEmbeddingLevel-byte---java.lang.String-}
 ```
 public final int getFontEmbeddingLevel(byte[] fontBytes, String fontName)
 ```
 
-根據給定的位元組陣列與字型名稱確定字型的嵌入層級。
+根據給定的位元組陣列與字型名稱判斷字型的嵌入層級。
 
 --------------------
 
 > ```
 > Presentation pres = new Presentation(pptxFileName);
 >  try {
->      // 取得簡報中使用的所有字型
+>      // 取得簡報中使用的全部字型
 >      IFontData[] fontDatas = pres.getFontsManager().getFonts();
->      // 取得簡報中第一個字型之常規樣式的位元組陣列
+>      // 取得簡報中第一個字型的常規樣式之位元組陣列
 >      byte[] bytes = pres.getFontsManager().getFontBytes(fontDatas[0], FontStyle.Regular);
 >      // 判斷字型的嵌入層級
 >      int embeddingLevel = pres.getFontsManager().getFontEmbeddingLevel(bytes, fontDatas[0].getFontName());
@@ -367,11 +416,12 @@ public final int getFontEmbeddingLevel(byte[] fontBytes, String fontName)
 >  }
 > ```
 
+
 **參數:**
-| 參數 | 型別 | 描述 |
+| 參數 | 類型 | 說明 |
 | --- | --- | --- |
 | fontBytes | byte[] | 包含字型資料的位元組陣列。 |
 | fontName | java.lang.String | 字型的名稱。 |
 
-**傳回:**
+**返回:**
 int - 指定字型的嵌入層級。

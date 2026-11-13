@@ -1,6 +1,6 @@
 ---
 title: VideoFrame
-second_title: Aspose.Slides für Java API-Referenz
+second_title: Aspose.Slides für Java API Referenz
 description: Stellt einen Videoclip auf einer Folie dar.
 type: docs
 url: /de/com.aspose.slides/videoframe/
@@ -19,33 +19,36 @@ Stellt einen Videoclip auf einer Folie dar.
 
 | Methode | Beschreibung |
 | --- | --- |
-| [getRewindVideo()](#getRewindVideo--) | Bestimmt, ob ein Video automatisch zum Anfang zurückgespult wird, sobald der Film zu Ende abgespielt ist. |
-| [setRewindVideo(boolean value)](#setRewindVideo-boolean-) | Bestimmt, ob ein Video automatisch zum Anfang zurückgespult wird, sobald der Film zu Ende abgespielt ist. |
-| [getPlayLoopMode()](#getPlayLoopMode--) | Bestimmt, ob ein Video in einer Schleife wiedergegeben wird. |
-| [setPlayLoopMode(boolean value)](#setPlayLoopMode-boolean-) | Bestimmt, ob ein Video in einer Schleife wiedergegeben wird. |
+| [getRewindVideo()](#getRewindVideo--) | Bestimmt, ob ein Video automatisch zum Start zurückgespult wird, sobald der Film zu Ende gespielt wurde. |
+| [setRewindVideo(boolean value)](#setRewindVideo-boolean-) | Bestimmt, ob ein Video automatisch zum Start zurückgespult wird, sobald der Film zu Ende gespielt wurde. |
+| [getPlayLoopMode()](#getPlayLoopMode--) | Bestimmt, ob ein Video in Schleife wiedergegeben wird. |
+| [setPlayLoopMode(boolean value)](#setPlayLoopMode-boolean-) | Bestimmt, ob ein Video in Schleife wiedergegeben wird. |
 | [getHideAtShowing()](#getHideAtShowing--) | Bestimmt, ob ein VideoFrame ausgeblendet ist. |
 | [setHideAtShowing(boolean value)](#setHideAtShowing-boolean-) | Bestimmt, ob ein VideoFrame ausgeblendet ist. |
-| [getVolume()](#getVolume--) | Gibt die Audio-Lautstärke zurück oder legt sie fest. |
-| [setVolume(int value)](#setVolume-int-) | Gibt die Audio-Lautstärke zurück oder legt sie fest. |
-| [getPlayMode()](#getPlayMode--) | Gibt den Videowiedergabemodus zurück oder legt ihn fest. |
-| [setPlayMode(int value)](#setPlayMode-int-) | Gibt den Videowiedergabemodus zurück oder legt ihn fest. |
+| [getVolume()](#getVolume--) | Gibt die Audio-Lautstärke zurück oder setzt sie. |
+| [setVolume(int value)](#setVolume-int-) | Gibt die Audio-Lautstärke zurück oder setzt sie. |
+| [getVolumeValue()](#getVolumeValue--) | Gibt die genaue Video-Lautstärke als Prozentsatz zurück oder setzt sie. |
+| [setVolumeValue(float value)](#setVolumeValue-float-) | Gibt die genaue Video-Lautstärke als Prozentsatz zurück oder setzt sie. |
+| [getPlayMode()](#getPlayMode--) | Gibt den Wiedergabemodus des Videos zurück oder setzt ihn. |
+| [setPlayMode(int value)](#setPlayMode-int-) | Gibt den Wiedergabemodus des Videos zurück oder setzt ihn. |
 | [getFullScreenMode()](#getFullScreenMode--) | Bestimmt, ob ein Video im Vollbildmodus angezeigt wird. |
 | [setFullScreenMode(boolean value)](#setFullScreenMode-boolean-) | Bestimmt, ob ein Video im Vollbildmodus angezeigt wird. |
-| [getLinkPathLong()](#getLinkPathLong--) | Gibt den Namen einer Videodatei zurück oder legt ihn fest, die mit einem VideoFrame verknüpft ist. |
-| [setLinkPathLong(String value)](#setLinkPathLong-java.lang.String-) | Gibt den Namen einer Videodatei zurück oder legt ihn fest, die mit einem VideoFrame verknüpft ist. |
-| [getEmbeddedVideo()](#getEmbeddedVideo--) | Gibt das eingebettete Videoobjekt zurück oder legt es fest. |
-| [setEmbeddedVideo(IVideo value)](#setEmbeddedVideo-com.aspose.slides.IVideo-) | Gibt das eingebettete Videoobjekt zurück oder legt es fest. |
-| [getTrimFromStart()](#getTrimFromStart--) | Start zuschneiden [ms] |
-| [setTrimFromStart(float value)](#setTrimFromStart-float-) | Start zuschneiden [ms] |
-| [getTrimFromEnd()](#getTrimFromEnd--) | Ende zuschneiden [ms] |
-| [setTrimFromEnd(float value)](#setTrimFromEnd-float-) | Ende zuschneiden [ms] |
-| [getCaptionTracks()](#getCaptionTracks--) | Ruft die Sammlung geschlossener Untertitel ab, die mit dem VideoFrame verknüpft sind. |
+| [getLinkPathLong()](#getLinkPathLong--) | Gibt den Namen einer Videodatei zurück, die mit einem VideoFrame verknüpft ist, oder setzt ihn. |
+| [setLinkPathLong(String value)](#setLinkPathLong-java.lang.String-) | Gibt den Namen einer Videodatei zurück, die mit einem VideoFrame verknüpft ist, oder setzt ihn. |
+| [getEmbeddedVideo()](#getEmbeddedVideo--) | Gibt das eingebettete Videoobjekt zurück oder setzt es. |
+| [setEmbeddedVideo(IVideo value)](#setEmbeddedVideo-com.aspose.slides.IVideo-) | Gibt das eingebettete Videoobjekt zurück oder setzt es. |
+| [getTrimFromStart()](#getTrimFromStart--) | Trim-Start [ms] |
+| [setTrimFromStart(float value)](#setTrimFromStart-float-) | Trim-Start [ms] |
+| [getTrimFromEnd()](#getTrimFromEnd--) | Trim-Ende [ms] |
+| [setTrimFromEnd(float value)](#setTrimFromEnd-float-) | Trim-Ende [ms] |
+| [getCaptionTracks()](#getCaptionTracks--) | Erhält die Sammlung von Untertiteln, die dem VideoFrame zugeordnet sind. |
+
 ### getRewindVideo() {#getRewindVideo--}
 ```
 public final boolean getRewindVideo()
 ```
 
-Bestimmt, ob ein Video automatisch zum Anfang zurückgespult wird, sobald der Film zu Ende abgespielt ist. Lese/Schreib boolean.
+Bestimmt, ob ein Video automatisch zum Start zurückgespult wird, sobald der Film zu Ende gespielt wurde. Lesen/Schreiben boolesch.
 
 **Rückgabewert:**
 boolean
@@ -54,7 +57,7 @@ boolean
 public final void setRewindVideo(boolean value)
 ```
 
-Bestimmt, ob ein Video automatisch zum Anfang zurückgespult wird, sobald der Film zu Ende abgespielt ist. Lese/Schreib boolean.
+Bestimmt, ob ein Video automatisch zum Start zurückgespult wird, sobald der Film zu Ende gespielt wurde. Lesen/Schreiben boolesch.
 
 **Parameter:**
 | Parameter | Typ | Beschreibung |
@@ -66,7 +69,7 @@ Bestimmt, ob ein Video automatisch zum Anfang zurückgespult wird, sobald der Fi
 public final boolean getPlayLoopMode()
 ```
 
-Bestimmt, ob ein Video in einer Schleife wiedergegeben wird. Lese/Schreib boolean.
+Bestimmt, ob ein Video in Schleife wiedergegeben wird. Lesen/Schreiben boolesch.
 
 **Rückgabewert:**
 boolean
@@ -75,7 +78,7 @@ boolean
 public final void setPlayLoopMode(boolean value)
 ```
 
-Bestimmt, ob ein Video in einer Schleife wiedergegeben wird. Lese/Schreib boolean.
+Bestimmt, ob ein Video in Schleife wiedergegeben wird. Lesen/Schreiben boolesch.
 
 **Parameter:**
 | Parameter | Typ | Beschreibung |
@@ -87,7 +90,7 @@ Bestimmt, ob ein Video in einer Schleife wiedergegeben wird. Lese/Schreib boolea
 public final boolean getHideAtShowing()
 ```
 
-Bestimmt, ob ein VideoFrame ausgeblendet ist. Lese/Schreib boolean.
+Bestimmt, ob ein VideoFrame ausgeblendet ist. Lesen/Schreiben boolesch.
 
 **Rückgabewert:**
 boolean
@@ -96,7 +99,7 @@ boolean
 public final void setHideAtShowing(boolean value)
 ```
 
-Bestimmt, ob ein VideoFrame ausgeblendet ist. Lese/Schreib boolean.
+Bestimmt, ob ein VideoFrame ausgeblendet ist. Lesen/Schreiben boolesch.
 
 **Parameter:**
 | Parameter | Typ | Beschreibung |
@@ -108,7 +111,7 @@ Bestimmt, ob ein VideoFrame ausgeblendet ist. Lese/Schreib boolean.
 public final int getVolume()
 ```
 
-Gibt die Audio-Lautstärke zurück oder legt sie fest. Lese/Schreib [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
+Gibt die Audio-Lautstärke zurück oder setzt sie. Lesen/Schreiben [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
 
 **Rückgabewert:**
 int
@@ -117,19 +120,78 @@ int
 public final void setVolume(int value)
 ```
 
-Gibt die Audio-Lautstärke zurück oder legt sie fest. Lese/Schreib [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
+Gibt die Audio-Lautstärke zurück oder setzt sie. Lesen/Schreiben [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
 
 **Parameter:**
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | value | int |  |
 
+### getVolumeValue() {#getVolumeValue--}
+```
+public final float getVolumeValue()
+```
+
+Gibt die genaue Video-Lautstärke als Prozentsatz zurück oder setzt sie. Der Wert wird als Prozentsatz von 0 bis 100 angegeben. Verwenden Sie diese Eigenschaft, um Lautstärkewerte zu lesen oder zu setzen, die präziser sind als die vordefinierten Stufen, die über die \#getVolume.getVolume/\#setVolume(int).setVolume(int)-Eigenschaft verfügbar sind. Lesen/Schreiben float.
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video.pptx");
+>  try {
+>      IVideoFrame videoFrame = (IVideoFrame)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // Lese die aktuelle genaue Lautstärke und setze sie auf 75,5 Prozent.
+>      float currentVolume = videoFrame.getVolumeValue();
+>      System.out.println(currentVolume);
+>      videoFrame.setVolumeValue(75.5f);
+>      pres.save("video_with_volume.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Rückgabewert:**
+float
+### setVolumeValue(float value) {#setVolumeValue-float-}
+```
+public final void setVolumeValue(float value)
+```
+
+Gibt die genaue Video-Lautstärke als Prozentsatz zurück oder setzt sie. Der Wert wird als Prozentsatz von 0 bis 100 angegeben. Verwenden Sie diese Eigenschaft, um Lautstärkewerte zu lesen oder zu setzen, die präziser sind als die vordefinierten Stufen, die über die \#getVolume.getVolume/\#setVolume(int).setVolume(int)-Eigenschaft verfügbar sind. Lesen/Schreiben float.
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video.pptx");
+>  try {
+>      IVideoFrame videoFrame = (IVideoFrame)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // Lese die aktuelle genaue Lautstärke und setze sie auf 75,5 Prozent.
+>      float currentVolume = videoFrame.getVolumeValue();
+>      System.out.println(currentVolume);
+>      videoFrame.setVolumeValue(75.5f);
+>      pres.save("video_with_volume.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Parameter:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| value | float |  |
+
 ### getPlayMode() {#getPlayMode--}
 ```
 public final int getPlayMode()
 ```
 
-Gibt den Videowiedergabemodus zurück oder legt ihn fest. Lese/Schreib [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
+Gibt den Wiedergabemodus des Videos zurück oder setzt ihn. Lesen/Schreiben [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
 
 **Rückgabewert:**
 int
@@ -138,7 +200,7 @@ int
 public final void setPlayMode(int value)
 ```
 
-Gibt den Videowiedergabemodus zurück oder legt ihn fest. Lese/Schreib [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
+Gibt den Wiedergabemodus des Videos zurück oder setzt ihn. Lesen/Schreiben [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
 
 **Parameter:**
 | Parameter | Typ | Beschreibung |
@@ -150,7 +212,7 @@ Gibt den Videowiedergabemodus zurück oder legt ihn fest. Lese/Schreib [VideoPla
 public final boolean getFullScreenMode()
 ```
 
-Bestimmt, ob ein Video im Vollbildmodus angezeigt wird. Lese/Schreib boolean.
+Bestimmt, ob ein Video im Vollbildmodus angezeigt wird. Lesen/Schreiben boolesch.
 
 **Rückgabewert:**
 boolean
@@ -159,7 +221,7 @@ boolean
 public final void setFullScreenMode(boolean value)
 ```
 
-Bestimmt, ob ein Video im Vollbildmodus angezeigt wird. Lese/Schreib boolean.
+Bestimmt, ob ein Video im Vollbildmodus angezeigt wird. Lesen/Schreiben boolesch.
 
 **Parameter:**
 | Parameter | Typ | Beschreibung |
@@ -171,7 +233,7 @@ Bestimmt, ob ein Video im Vollbildmodus angezeigt wird. Lese/Schreib boolean.
 public final String getLinkPathLong()
 ```
 
-Gibt den Namen einer Videodatei zurück oder legt ihn fest, die mit einem VideoFrame verknüpft ist. Lese/Schreib String.
+Gibt den Namen einer Videodatei zurück, die mit einem VideoFrame verknüpft ist, oder setzt ihn. Lesen/Schreiben String.
 
 **Rückgabewert:**
 java.lang.String
@@ -180,7 +242,7 @@ java.lang.String
 public final void setLinkPathLong(String value)
 ```
 
-Gibt den Namen einer Videodatei zurück oder legt ihn fest, die mit einem VideoFrame verknüpft ist. Lese/Schreib String.
+Gibt den Namen einer Videodatei zurück, die mit einem VideoFrame verknüpft ist, oder setzt ihn. Lesen/Schreiben String.
 
 **Parameter:**
 | Parameter | Typ | Beschreibung |
@@ -192,7 +254,7 @@ Gibt den Namen einer Videodatei zurück oder legt ihn fest, die mit einem VideoF
 public final IVideo getEmbeddedVideo()
 ```
 
-Gibt das eingebettete Videoobjekt zurück oder legt es fest. Lese/Schreib [IVideo](../../com.aspose.slides/ivideo).
+Gibt das eingebettete Videoobjekt zurück oder setzt es. Lesen/Schreiben [IVideo](../../com.aspose.slides/ivideo).
 
 **Rückgabewert:**
 [IVideo](../../com.aspose.slides/ivideo)
@@ -201,7 +263,7 @@ Gibt das eingebettete Videoobjekt zurück oder legt es fest. Lese/Schreib [IVide
 public final void setEmbeddedVideo(IVideo value)
 ```
 
-Gibt das eingebettete Videoobjekt zurück oder legt es fest. Lese/Schreib [IVideo](../../com.aspose.slides/ivideo).
+Gibt das eingebettete Videoobjekt zurück oder setzt es. Lesen/Schreiben [IVideo](../../com.aspose.slides/ivideo).
 
 **Parameter:**
 | Parameter | Typ | Beschreibung |
@@ -213,7 +275,7 @@ Gibt das eingebettete Videoobjekt zurück oder legt es fest. Lese/Schreib [IVide
 public final float getTrimFromStart()
 ```
 
-Start zuschneiden [ms]
+Trim-Start [ms]
 
 --------------------
 
@@ -225,9 +287,9 @@ Start zuschneiden [ms]
 >      ISlide slide = pres.getSlides().get_Item(0);
 >      IVideo video = pres.getVideos().addVideo(Files.readAllBytes(Paths.get("video.mp4")));
 >      IVideoFrame videoFrame = slide.getShapes().addVideoFrame(0, 0, 100, 100, video);
->      //set triming start time 1sec
+>      //Setzt Trim-Startzeit auf 1 Sekunde
 >      videoFrame.setTrimFromStart(1000f);
->      //set triming end time 2sec
+>      //Setzt Trim-Endzeit auf 2 Sekunden
 >      videoFrame.setTrimFromEnd(2000f);
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -241,7 +303,7 @@ float
 public final void setTrimFromStart(float value)
 ```
 
-Start zuschneiden [ms]
+Trim-Start [ms]
 
 --------------------
 
@@ -253,9 +315,9 @@ Start zuschneiden [ms]
 >      ISlide slide = pres.getSlides().get_Item(0);
 >      IVideo video = pres.getVideos().addVideo(Files.readAllBytes(Paths.get("video.mp4")));
 >      IVideoFrame videoFrame = slide.getShapes().addVideoFrame(0, 0, 100, 100, video);
->      //set triming start time 1sec
+>      //Setzt Trim-Startzeit auf 1 Sekunde
 >      videoFrame.setTrimFromStart(1000f);
->      //set triming end time 2sec
+>      //Setzt Trim-Endzeit auf 2 Sekunden
 >      videoFrame.setTrimFromEnd(2000f);
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -272,7 +334,7 @@ Start zuschneiden [ms]
 public final float getTrimFromEnd()
 ```
 
-Ende zuschneiden [ms]
+Trim-Ende [ms]
 
 **Rückgabewert:**
 float
@@ -281,7 +343,7 @@ float
 public final void setTrimFromEnd(float value)
 ```
 
-Ende zuschneiden [ms]
+Trim-Ende [ms]
 
 **Parameter:**
 | Parameter | Typ | Beschreibung |
@@ -293,7 +355,7 @@ Ende zuschneiden [ms]
 public final ICaptionsCollection getCaptionTracks()
 ```
 
-Ruft die Sammlung geschlossener Untertitel ab, die mit dem VideoFrame verknüpft sind. Diese Eigenschaft ist schreibgeschützt und gibt ein [ICaptionsCollection](../../com.aspose.slides/icaptionscollection) zurück, das alle Caption-Tracks enthält.
+Erhält die Sammlung von Untertiteln, die dem VideoFrame zugeordnet sind. Diese Eigenschaft ist nur lesend und gibt ein [ICaptionsCollection](../../com.aspose.slides/icaptionscollection) zurück, das alle Untertitelspuren enthält.
 
 --------------------
 
@@ -309,7 +371,7 @@ Ruft die Sammlung geschlossener Untertitel ab, die mit dem VideoFrame verknüpft
 >          IVideoFrame videoFrame = (IVideoFrame) shape;
 >          for (ICaptions captionTrack : videoFrame.getCaptionTracks())
 >          {
->              // Extrahiert die binären Daten der Untertitel und speichert sie in die Datei
+>              // Extrahiert die Binärdaten der Untertitel und speichert sie in die Datei
 >              FileOutputStream fos = new FileOutputStream(captionTrack.getCaptionId() + ".vtt");
 >              fos.write(captionTrack.getBinaryData());
 >              fos.close();

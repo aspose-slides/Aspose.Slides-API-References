@@ -1,25 +1,25 @@
 ---
 title: IChartData
 second_title: Aspose.Slides for Java API Reference
-description: Reprezentuje dane używane do tworzenia wykresu.
+description: Represents data used for a chart plotting.
 type: docs
 url: /pl/com.aspose.slides/ichartdata/
 ---```
 public interface IChartData
 ```
 
-Reprezentuje dane używane do tworzenia wykresu.
+Reprezentuje dane używane do rysowania wykresu.
 ## Metody
 
 | Metoda | Opis |
 | --- | --- |
-| [getChartDataWorkbook()](#getChartDataWorkbook--) | Pobiera fabrykę komórek do tworzenia komórek używanych dla serii wykresu lub kategorii. |
+| [getChartDataWorkbook()](#getChartDataWorkbook--) | Pobiera fabrykę komórek do tworzenia komórek używanych w seriach lub kategoriach wykresu. |
 | [getSeries()](#getSeries--) | Pobiera serie. |
 | [getSeriesGroups()](#getSeriesGroups--) | Pobiera grupy serii. |
-| [getCategories()](#getCategories--) | Pobiera główne kategorie (lub zarówno główne, jak i podrzędne kategorie, jeśli (\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) właściwość jest fałszywa). |
-| [getUseSecondaryCategories()](#getUseSecondaryCategories--) | Jeśli fałsz, to (\#getSecondaryCategories.getSecondaryCategories) właściwość zwraca null i dane w (\#getCategories.getCategories) właściwość są używane zarówno dla głównych, jak i podrzędnych serii. |
-| [setUseSecondaryCategories(boolean value)](#setUseSecondaryCategories-boolean-) | Jeśli fałsz, to (\#getSecondaryCategories.getSecondaryCategories) właściwość zwraca null i dane w (\#getCategories.getCategories) właściwość są używane zarówno dla głównych, jak i podrzędnych serii. |
-| [getSecondaryCategories()](#getSecondaryCategories--) | Pobiera podrzędne kategorie, jeśli (\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) właściwość jest prawdziwa. |
+| [getCategories()](#getCategories--) | Pobiera główne kategorie (lub zarówno główne, jak i drugorzędne kategorie, jeśli właściwość (\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) jest fałsz). |
+| [getUseSecondaryCategories()](#getUseSecondaryCategories--) | Jeśli fałsz, wtedy właściwość (\#getSecondaryCategories.getSecondaryCategories) zwraca null i dane w właściwości (\#getCategories.getCategories) są używane zarówno dla głównych, jak i drugorzędnych serii. |
+| [setUseSecondaryCategories(boolean value)](#setUseSecondaryCategories-boolean-) | Jeśli fałsz, wtedy właściwość (\#getSecondaryCategories.getSecondaryCategories) zwraca null i dane w właściwości (\#getCategories.getCategories) są używane zarówno dla głównych, jak i drugorzędnych serii. |
+| [getSecondaryCategories()](#getSecondaryCategories--) | Pobiera drugorzędne kategorie, jeśli właściwość (\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) jest prawda. |
 | [readWorkbookStream()](#readWorkbookStream--) | Zapisuje wewnętrznie zawarty skoroszyt Excel do strumienia w pamięci. |
 | [writeWorkbookStream(byte[] ms)](#writeWorkbookStream-byte---) | Inicjalizuje wewnętrznie zawarty skoroszyt Excel wartością podaną przez użytkownika. |
 | [setRange(String formula)](#setRange-java.lang.String-) | Ustaw zakres danych wykresu. |
@@ -29,48 +29,49 @@ Reprezentuje dane używane do tworzenia wykresu.
 | [getEmbeddedWorkbookType()](#getEmbeddedWorkbookType--) | Pobiera typ osadzonego skoroszytu. |
 | [switchRowColumn()](#switchRowColumn--) | Zamienia dane wzdłuż osi. |
 | [setExternalWorkbook(String workbookPath)](#setExternalWorkbook-java.lang.String-) | Ustawia zewnętrzny skoroszyt jako źródło danych dla wykresu. |
-| [setExternalWorkbook(String workbookPath, boolean updateChartData)](#setExternalWorkbook-java.lang.String-boolean-) | Ustawia zewnętrzny skoroszyt jako źródło danych dla wykrafu. |
-
+| [setExternalWorkbook(String workbookPath, boolean updateChartData)](#setExternalWorkbook-java.lang.String-boolean-) | Ustawia zewnętrzny skoroszyt jako źródło danych dla wykresu. |
+| [refreshData()](#refreshData--) | Odświeża dane wykresu, ponownie ładując je ze skoroszytu źródłowego. |
 ### getChartDataWorkbook() {#getChartDataWorkbook--}
 ```
 public abstract IChartDataWorkbook getChartDataWorkbook()
 ```
 
-Pobiera fabrykę komórek do tworzenia komórek używanych dla serii wykresu lub kategorii. Tylko do odczytu [IChartDataWorkbook](../../com.aspose.slides/ichartdataworkbook).
+
+Pobiera fabrykę komórek do tworzenia komórek używanych w seriach lub kategoriach wykresu. Tylko do odczytu [IChartDataWorkbook](../../com.aspose.slides/ichartdataworkbook).
 
 **Zwraca:**
 [IChartDataWorkbook](../../com.aspose.slides/ichartdataworkbook)
-
 ### getSeries() {#getSeries--}
 ```
 public abstract IChartSeriesCollection getSeries()
 ```
 
+
 Pobiera serie. Tylko do odczytu [IChartSeriesCollection](../../com.aspose.slides/ichartseriescollection).
 
 **Zwraca:**
 [IChartSeriesCollection](../../com.aspose.slides/ichartseriescollection)
-
 ### getSeriesGroups() {#getSeriesGroups--}
 ```
 public abstract IChartSeriesGroupCollection getSeriesGroups()
 ```
 
+
 Pobiera grupy serii. Tylko do odczytu [IChartSeriesGroupCollection](../../com.aspose.slides/ichartseriesgroupcollection).
 
 --------------------
 
-1) Każda grupa serii zawiera serie o łączonych typach. Grupy łączonych typów serii są definiowane i opisane w wyliczeniu CombinableSeriesTypesGroup. Ponadto każda grupa serii zawiera serie, które są wykreślane albo na głównych osiach, albo na osiach podrzędnych (nie w obu przypadkach w jednej grupie). Zatem zasada grupowania serii polega na grupowaniu według wspomnianych wyżej grup typów oraz według typu wykreślania głównego/podrzędnego. 2) Grupa serii zawiera niektóre właściwości serii, które są wspólne dla każdej serii w grupie („właściwości grupy serii”). „Właściwości grupy serii” w klasie ChartSeriesGroup są odczyt/zapis. Każda z „właściwości grupy serii” może mieć projekcję tylko do odczytu w klasie ChartSeries.
+1) Każda grupa serii zawiera serie o łączonych typach. Grupy łączonych typów serii są definiowane i opisywane za pomocą wyliczenia CombinableSeriesTypesGroup. Ponadto każda grupa serii zawiera serie, które są rysowane albo na głównych osiach, albo na drugorzędnych osiach (nie jednocześnie w jednej grupie). Zatem zasada grupowania serii to grupowanie według typów wymienionych wyżej oraz według typu rysowania (główny/drugorzędny). 2) Grupa serii zawiera niektóre właściwości serii wspólne dla każdej serii w grupie („właściwości grupy serii”). „Właściwości grupy serii” w klasie ChartSeriesGroup są odczyt/zapis. Każda z „właściwości grupy serii” może mieć tylko do odczytu projekcję w klasie ChartSeries.
 
 **Zwraca:**
 [IChartSeriesGroupCollection](../../com.aspose.slides/ichartseriesgroupcollection)
-
 ### getCategories() {#getCategories--}
 ```
 public abstract IChartCategoryCollection getCategories()
 ```
 
-Pobiera główne kategorie (lub zarówno główne, jak i podrzędne kategorie, jeśli (\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) właściwość jest fałszywa). Tylko do odczytu [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection).
+
+Pobiera główne kategorie (lub zarówno główne, jak i drugorzędne kategorie, jeśli właściwość (\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) jest fałsz). Tylko do odczytu [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection).
 
 --------------------
 
@@ -87,20 +88,19 @@ Pobiera główne kategorie (lub zarówno główne, jak i podrzędne kategorie, j
 >  }
 > ```
 
-
 --------------------
 
-Jeśli (\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) właściwość jest fałszywa, to (\#getSecondaryCategories.getSecondaryCategories) właściwość zwraca null i dane w tej (\#getCategories.getCategories) właściwość są używane zarówno dla głównych, jak i podrzędnych serii. Jeśli (\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) właściwość jest prawdziwa, to dane w (\#getSecondaryCategories.getSecondaryCategories) właściwość są używane dla serii podrzędnych, a dane w tej (\#getCategories.getCategories) właściwość są używane dla serii głównych.
+Jeśli właściwość (\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) jest fałsz, wtedy właściwość (\#getSecondaryCategories.getSecondaryCategories) zwraca null i dane w tej właściwości (\#getCategories.getCategories) są używane zarówno dla głównych, jak i drugorzędnych serii. Jeśli właściwość (\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) jest prawda, wtedy dane w właściwości (\#getSecondaryCategories.getSecondaryCategories) są używane dla drugorzędnych serii, a dane w tej właściwości (\#getCategories.getCategories) są używane dla głównych serii.
 
 **Zwraca:**
 [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection)
-
 ### getUseSecondaryCategories() {#getUseSecondaryCategories--}
 ```
 public abstract boolean getUseSecondaryCategories()
 ```
 
-Jeśli fałsz, to (\#getSecondaryCategories.getSecondaryCategories) właściwość zwraca null i dane w (\#getCategories.getCategories) właściwość są używane zarówno dla głównych, jak i podrzędnych serii. Jeśli prawda, to dane w (\#getSecondaryCategories.getSecondaryCategories) właściwość są używane dla serii podrzędnych i dane w (\#getCategories.getCategories) właściwość są używane dla serii głównych. Odczyt/zapis boolean.
+
+Jeśli fałsz, wtedy właściwość (\#getSecondaryCategories.getSecondaryCategories) zwraca null i dane w właściwości (\#getCategories.getCategories) są używane zarówno dla głównych, jak i drugorzędnych serii. Jeśli prawda, wtedy dane w właściwości (\#getSecondaryCategories.getSecondaryCategories) są używane dla drugorzędnych serii, a dane w właściwości (\#getCategories.getCategories) są używane dla głównych serii. Odczyt/zapis boolean.
 
 --------------------
 
@@ -117,16 +117,15 @@ Jeśli fałsz, to (\#getSecondaryCategories.getSecondaryCategories) właściwoś
 >  }
 > ```
 
-
 **Zwraca:**
 boolean
-
 ### setUseSecondaryCategories(boolean value) {#setUseSecondaryCategories-boolean-}
 ```
 public abstract void setUseSecondaryCategories(boolean value)
 ```
 
-Jeśli fałsz, to (\#getSecondaryCategories.getSecondaryCategories) właściwość zwraca null i dane w (\#getCategories.getCategories) właściwość są używane zarówno dla głównych, jak i podrzędnych serii. Jeśli prawda, to dane w (\#getSecondaryCategories.getSecondaryCategories) właściwość są używane dla serii podrzędnych i dane w (\#getCategories.getCategories) właściwość są używane dla serii głównych. Odczyt/zapis boolean.
+
+Jeśli fałsz, wtedy właściwość (\#getSecondaryCategories.getSecondaryCategories) zwraca null i dane w właściwości (\#getCategories.getCategories) są używane zarówno dla głównych, jak i drugorzędnych serii. Jeśli prawda, wtedy dane w właściwości (\#getSecondaryCategories.getSecondaryCategories) są używane dla drugorzędnych serii, a dane w właściwości (\#getCategories.getCategories) są używane dla głównych serii. Odczyt/zapis boolean.
 
 --------------------
 
@@ -144,7 +143,7 @@ Jeśli fałsz, to (\#getSecondaryCategories.getSecondaryCategories) właściwoś
 > ```
 
 **Parametry:**
-| Parametr | Typ | Opis |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -153,7 +152,8 @@ Jeśli fałsz, to (\#getSecondaryCategories.getSecondaryCategories) właściwoś
 public abstract IChartCategoryCollection getSecondaryCategories()
 ```
 
-Pobiera podrzędne kategorie, jeśli (\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) właściwość jest prawdziwa. Tylko do odczytu [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection).
+
+Pobiera drugorzędne kategorie, jeśli właściwość (\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) jest prawda. Tylko do odczytu [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection).
 
 --------------------
 
@@ -172,30 +172,30 @@ Pobiera podrzędne kategorie, jeśli (\#getUseSecondaryCategories.getUseSecondar
 
 --------------------
 
-Jeśli (\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) właściwość jest fałszywa, to ta (\#getSecondaryCategories.getSecondaryCategories) właściwość zwraca null i dane w (\#getCategories.getCategories) właściwość są używane zarówno dla głównych, jak i podrzędnych serii. Jeśli (\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) właściwość jest prawdziwa, to dane w tej (\#getSecondaryCategories.getSecondaryCategories) właściwość są używane dla serii podrzędnych i dane w (\#getCategories.getCategories) właściwość są używane dla serii głównych.
+Jeśli właściwość (\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) jest fałsz, wtedy ta właściwość (\#getSecondaryCategories.getSecondaryCategories) zwraca null i dane w właściwości (\#getCategories.getCategories) są używane zarówno dla głównych, jak i drugorzędnych serii. Jeśli właściwość (\#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean)) jest prawda, wtedy dane w tej właściwości (\#getSecondaryCategories.getSecondaryCategories) są używane dla drugorzędnych serii, a dane w właściwości (\#getCategories.getCategories) są używane dla głównych serii.
 
 **Zwraca:**
 [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection)
-
 ### readWorkbookStream() {#readWorkbookStream--}
 ```
 public abstract byte[] readWorkbookStream()
 ```
 
+
 Zapisuje wewnętrznie zawarty skoroszyt Excel do strumienia w pamięci.
 
 **Zwraca:**
 byte[] - Zwraca tablicę bajtów zawierającą kopię wewnętrznie zawartego skoroszytu Excel.
-
 ### writeWorkbookStream(byte[] ms) {#writeWorkbookStream-byte---}
 ```
 public abstract void writeWorkbookStream(byte[] ms)
 ```
 
+
 Inicjalizuje wewnętrznie zawarty skoroszyt Excel wartością podaną przez użytkownika.
 
 **Parametry:**
-| Parametr | Typ | Opis |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | ms | byte[] | Strumień dostarczony przez użytkownika zawierający cały skoroszyt Excel. |
 
@@ -204,17 +204,19 @@ Inicjalizuje wewnętrznie zawarty skoroszyt Excel wartością podaną przez uży
 public abstract void setRange(String formula)
 ```
 
+
 Ustaw zakres danych wykresu. Serie i kategorie zostaną zaktualizowane na podstawie nowego zakresu danych. Jeśli liczba serii w zakresie danych jest większa niż liczba serii w danych wykresu, dodatkowe serie o tym samym typie co ostatnia seria w bieżącej kolekcji zostaną dodane na koniec kolekcji.
 
 **Parametry:**
-| Parametr | Typ | Opis |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| formula | java.lang.String | Formuła zakresu danych komórek. Np.: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
+| formula | java.lang.String | Formuła zakresu danych komórek. Np.: "Sheet1!$A$1:$C$4", "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
 
 ### getRange() {#getRange--}
 ```
 public abstract String getRange()
 ```
+
 
 Pobiera zakres danych wykresu.
 
@@ -230,48 +232,49 @@ Pobiera zakres danych wykresu.
 
 **Zwraca:**
 java.lang.String - Formuła zakresu danych komórek. Np.: "Sheet1!$A$1:$C$4"
-
 ### getDataSourceType() {#getDataSourceType--}
 ```
 public abstract int getDataSourceType()
 ```
 
+
 Reprezentuje źródło danych wykresu
 
 **Zwraca:**
 int
-
 ### getExternalWorkbookPath() {#getExternalWorkbookPath--}
 ```
 public abstract String getExternalWorkbookPath()
 ```
 
+
 Reprezentuje ścieżkę do zewnętrznego skoroszytu, jeśli źródło danych jest zewnętrzne, w przeciwnym razie null
 
 **Zwraca:**
 java.lang.String
-
 ### getEmbeddedWorkbookType() {#getEmbeddedWorkbookType--}
 ```
 public abstract int getEmbeddedWorkbookType()
 ```
 
+
 Pobiera typ osadzonego skoroszytu. Zwraca [WorkbookType.NotDefined](../../com.aspose.slides/workbooktype\#NotDefined) jeśli DataSourceType (\#getDataSourceType.getDataSourceType) jest [ChartDataSourceType.ExternalWorkbook](../../com.aspose.slides/chartdatasourcetype\#ExternalWorkbook). Tylko do odczytu [WorkbookType](../../com.aspose.slides/workbooktype).
 
 **Zwraca:**
 int
-
 ### switchRowColumn() {#switchRowColumn--}
 ```
 public abstract void switchRowColumn()
 ```
 
-Zamienia dane wzdłuż osi. Dane wykreślane na osi X zostaną przeniesione na oś Y i odwrotnie.
+
+Zamienia dane wzdłuż osi. Dane wykreślone na osi X zostaną przeniesione na oś Y i odwrotnie.
 
 ### setExternalWorkbook(String workbookPath) {#setExternalWorkbook-java.lang.String-}
 ```
 public abstract void setExternalWorkbook(String workbookPath)
 ```
+
 
 Ustawia zewnętrzny skoroszyt jako źródło danych dla wykresu. Dane wykresu zostaną zaktualizowane z docelowego skoroszytu.
 
@@ -290,7 +293,7 @@ Ustawia zewnętrzny skoroszyt jako źródło danych dla wykresu. Dane wykresu zo
 > ```
 
 **Parametry:**
-| Parametr | Typ | Opis |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | workbookPath | java.lang.String | Ścieżka do docelowego skoroszytu |
 
@@ -298,6 +301,7 @@ Ustawia zewnętrzny skoroszyt jako źródło danych dla wykresu. Dane wykresu zo
 ```
 public abstract void setExternalWorkbook(String workbookPath, boolean updateChartData)
 ```
+
 
 Ustawia zewnętrzny skoroszyt jako źródło danych dla wykresu.
 
@@ -316,7 +320,27 @@ Ustawia zewnętrzny skoroszyt jako źródło danych dla wykresu.
 > ```
 
 **Parametry:**
-| Parametr | Typ | Opis |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | workbookPath | java.lang.String | Ścieżka do docelowego skoroszytu |
 | updateChartData | boolean | Jeśli wartość jest fałsz, zostanie zaktualizowana tylko ścieżka do skoroszytu. Dane wykresu nie zostaną załadowane i zaktualizowane z docelowego skoroszytu. Może być użyte, gdy docelowy skoroszyt nie istnieje lub nie jest dostępny. Jeśli wartość jest prawda, dane wykresu zostaną zaktualizowane z docelowego skoroszytu. |
+
+### refreshData() {#refreshData--}
+```
+public abstract void refreshData()
+```
+
+
+Odświeża dane wykresu, ponownie ładując je ze skoroszytu źródłowego.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("presentationWithChart.pptx");
+>  try {
+>      IChart chart = (IChart)presentation.getSlides().get_Item(0).getShapes().get_Item(0);
+>      chart.getChartData().refreshData();
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```

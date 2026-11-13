@@ -5,7 +5,7 @@ description: سند ارائه
 type: docs
 url: /fa/com.aspose.slides/ipresentation/
 ---
-**تمام رابط‌های پیاده‌سازی شده:**  
+**تمام رابط‌های پیاده‌سازی‌شده:**
 [com.aspose.slides.IPresentationComponent](../../com.aspose.slides/ipresentationcomponent), com.aspose.ms.System.IDisposable
 ```
 public interface IPresentation extends IPresentationComponent, System.IDisposable
@@ -14,70 +14,72 @@ public interface IPresentation extends IPresentationComponent, System.IDisposabl
 سند ارائه
 ## متدها
 
-| متد | توضیح |
+| Method | Description |
 | --- | --- |
-| [getCurrentDateTime()](#getCurrentDateTime--) | تاریخ و زمان را برمی‌گرداند یا تنظیم می‌کند که محتوای فیلدهای datetime را جایگزین می‌کند. |
-| [setCurrentDateTime(Date value)](#setCurrentDateTime-java.util.Date-) | تاریخ و زمان را برمی‌گرداند یا تنظیم می‌کند که محتوای فیلدهای datetime را جایگزین می‌کند. |
-| [getHeaderFooterManager()](#getHeaderFooterManager--) | مدیر HeaderFooter ارائه را برمی‌گرداند. |
-| [getProtectionManager()](#getProtectionManager--) | مدیر مجوزهای این ارائه را دریافت می‌کند. |
-| [getSlides()](#getSlides--) | فهرستی از تمام اسلایدهای تعریف‌شده در ارائه را برمی‌گرداند. |
-| [getSections()](#getSections--) | فهرستی از تمام بخش‌های اسلاید که در ارائه تعریف شده‌اند را برمی‌گرداند. |
-| [getSlideSize()](#getSlideSize--) | شیء اندازه اسلاید را برمی‌گرداند. |
-| [getNotesSize()](#getNotesSize--) | شیء اندازه اسلاید یادداشت‌ها را برمی‌گرداند. |
-| [getLayoutSlides()](#getLayoutSlides--) | فهرستی از تمام اسلایدهای طرح‌بندی تعریف‌شده در ارائه را برمی‌گرداند. |
-| [getMasters()](#getMasters--) | فهرستی از تمام اسلایدهای مستر تعریف‌شده در ارائه را برمی‌گرداند. |
-| [getMasterNotesSlideManager()](#getMasterNotesSlideManager--) | مدیر مستر یادداشت‌ها را برمی‌گرداند. |
-| [getMasterHandoutSlideManager()](#getMasterHandoutSlideManager--) | مدیر مستر برگه‌های توزیعی را برمی‌گرداند. |
-| [getFontsManager()](#getFontsManager--) | مدیر قلم‌ها را برمی‌گرداند. |
-| [getDefaultTextStyle()](#getDefaultTextStyle--) | سبک متن پیش‌فرض برای اشکال را برمی‌گرداند. |
-| [getCommentAuthors()](#getCommentAuthors--) | مجموعهٔ نویسندگان نظرات را برمی‌گرداند. |
-| [getDocumentProperties()](#getDocumentProperties--) | شیء DocumentProperties را برمی‌گرداند که شامل ویژگی‌های استاندارد و سفارشی سند است. |
-| [getImages()](#getImages--) | مجموعهٔ تمام تصاویر موجود در ارائه را برمی‌گرداند. |
-| [getAudios()](#getAudios--) | مجموعهٔ تمام فایل‌های صوتی توکار در ارائه را برمی‌گرداند. |
-| [getVideos()](#getVideos--) | مجموعهٔ تمام فایل‌های ویدئویی توکار در ارائه را برمی‌گرداند. |
-| [getCustomData()](#getCustomData--) | داده‌های سفارشی ارائه را برمی‌گرداند. |
-| [getVbaProject()](#getVbaProject--) | پروژه VBA حاوی ماکروهای ارائه را دریافت می‌کند. |
-| [setVbaProject(IVbaProject value)](#setVbaProject-com.aspose.slides.IVbaProject-) | پروژه VBA حاوی ماکروهای ارائه را دریافت می‌کند. |
-| [getSourceFormat()](#getSourceFormat--) | اطلاعاتی درباره فرمت منبعی که ارائه از آن بارگذاری شده است را برمی‌گرداند. |
-| [getMasterTheme()](#getMasterTheme--) | طرح اصلی (master theme) ارائه را برمی‌گرداند. |
-| [getHyperlinkQueries()](#getHyperlinkQueries--) | دسترسی آسان به تمام پیوندهای موجود در تمامی اسلایدهای ارائه (نه در مستر، طرح‌بندی یا اسلایدهای یادداشت) را فراهم می‌کند. |
-| [getViewProperties()](#getViewProperties--) | ویژگی‌های نمایش سراسری ارائه را دریافت می‌کند. |
-| [getFirstSlideNumber()](#getFirstSlideNumber--) | شمارهٔ اولین اسلاید در ارائه را نشان می‌دهد. |
-| [setFirstSlideNumber(int value)](#setFirstSlideNumber-int-) | شمارهٔ اولین اسلاید در ارائه را نشان می‌دهد. |
-| [getAllCustomXmlParts()](#getAllCustomXmlParts--) | تمام بخش‌های داده سفارشی در ارائه را برمی‌گرداند. |
-| [getDigitalSignatures()](#getDigitalSignatures--) | مجموعهٔ امضایی که برای امضای ارائه استفاده شده‌اند را برمی‌گرداند. |
-| [getSensitivityLabels()](#getSensitivityLabels--) | مجموعهٔ برچسب‌های حساسیتی اعمال‌شده بر سند ارائه را برمی‌گرداند. |
-| [save(String fname, int format)](#save-java.lang.String-int-) | تمام اسلایدهای یک ارائه را در فایلی با فرمت مشخص ذخیره می‌کند. |
-| [save(OutputStream stream, int format)](#save-java.io.OutputStream-int-) | تمام اسلایدهای یک ارائه را در یک جریان با فرمت مشخص ذخیره می‌کند. |
-| [save(String fname, int format, ISaveOptions options)](#save-java.lang.String-int-com.aspose.slides.ISaveOptions-) | تمام اسلایدهای یک ارائه را در فایلی با فرمت مشخص و گزینه‌های اضافی ذخیره می‌کند. |
-| [save(OutputStream stream, int format, ISaveOptions options)](#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-) | تمام اسلایدهای یک ارائه را در یک جریان با فرمت مشخص و گزینه‌های اضافی ذخیره می‌کند. |
-| [save(String fname, int[] slides, int format)](#save-java.lang.String-int---int-) | اسلایدهای مشخص‌شده یک ارائه را در فایلی با فرمت مشخص ذخیره می‌کند. |
-| [save(String fname, int[] slides, int format, ISaveOptions options)](#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-) | اسلایدهای مشخص‌شده یک ارائه را در فایلی با فرمت مشخص ذخیره می‌کند. |
-| [save(OutputStream stream, int[] slides, int format)](#save-java.io.OutputStream-int---int-) | اسلایدهای مشخص‌شده یک ارائه را در یک جریان با فرمت مشخص ذخیره می‌کند. |
-| [save(OutputStream stream, int[] slides, int format, ISaveOptions options)](#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-) | اسلایدهای مشخص‌شده یک ارائه را در یک جریان با فرمت مشخص ذخیره می‌کند. |
-| [save(IXamlOptions options)](#save-com.aspose.slides.IXamlOptions-) | تمام اسلایدهای یک ارائه را به مجموعه‌ای از فایل‌ها که مارکاپ XAML را نشان می‌دهند ذخیره می‌کند. |
-| [getImages(IRenderingOptions options)](#getImages-com.aspose.slides.IRenderingOptions-) | شیء تصویر بندانگشتی برای تمام اسلایدهای یک ارائه را برمی‌گرداند. |
-| [getImages(IRenderingOptions options, int[] slides)](#getImages-com.aspose.slides.IRenderingOptions-int---) | شیء تصویر بندانگشتی برای اسلایدهای مشخص‌شده یک ارائه را برمی‌گرداند. |
-| [getImages(IRenderingOptions options, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-float-float-) | شیء تصویر بندانگشتی برای تمام اسلایدهای یک ارائه با مقیاس‌بندی سفارشی را برمی‌گرداند. |
-| [getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-int---float-float-) | شیء تصویر بندانگشتی برای اسلایدهای مشخص‌شده یک ارائه با مقیاس‌بندی سفارشی را برمی‌گرداند. |
-| [getImages(IRenderingOptions options, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-) | شیء تصویر بندانگشتی برای تمام اسلایدهای یک ارائه با سایز مشخص را برمی‌گرداند. |
-| [getImages(IRenderingOptions options, int[] slides, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-) | شیء تصویر بندانگشتی برای اسلایدهای مشخص‌شده یک ارائه با سایز مشخص را برمی‌گرداند. |
-| [getSlideById(long id)](#getSlideById-long-) | یک Slide، MasterSlide یا LayoutSlide را بر اساس Id برمی‌گرداند. |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | دسته‌های متن با قالب‌بندی یکسان را در تمام پاراگراف‌ها در تمام اشکال قابل قبول در تمام اسلایدها ترکیب می‌کند. |
-| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | تمام موارد متن نمونه را با رنگ مشخص برجسته می‌کند. |
-| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | تمام موارد متن نمونه را با رنگ مشخص برجسته می‌کند. |
-| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | تمام موارد تطبیق عبارات منظم را با رنگ مشخص برجسته می‌کند. |
-| [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | تمام رخدادهای متن مشخص‌شده را با متن دیگری که مشخص شده است جایگزین می‌کند. |
-| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | تمام موارد تطبیق عبارات منظم را با رشتهٔ مشخص‌شده جایگزین می‌کند. |
+| [getCurrentDateTime()](#getCurrentDateTime--) | باز می‌گردد یا تنظیم می‌کند تاریخ و زمان که محتواهای فیلدهای datetime را جایگزین می‌کند. |
+| [setCurrentDateTime(Date value)](#setCurrentDateTime-java.util.Date-) | باز می‌گردد یا تنظیم می‌کند تاریخ و زمان که محتواهای فیلدهای datetime را جایگزین می‌کند. |
+| [getHeaderFooterManager()](#getHeaderFooterManager--) | باز می‌گردد مدیر HeaderFooter ارائه. |
+| [getProtectionManager()](#getProtectionManager--) | دست می‌گیرد مدیر مجوزها برای این ارائه. |
+| [getSlides()](#getSlides--) | باز می‌گردد فهرستی از تمام اسلایدهایی که در ارائه تعریف شده‌اند. |
+| [getSections()](#getSections--) | باز می‌گردد فهرستی از تمام بخش‌های اسلاید که در ارائه تعریف شده‌اند. |
+| [getSlideSize()](#getSlideSize--) | باز می‌گردد شیء اندازه اسلاید. |
+| [getNotesSize()](#getNotesSize--) | باز می‌گردد شیء اندازه اسلاید یادداشت‌ها. |
+| [getLayoutSlides()](#getLayoutSlides--) | باز می‌گردد فهرستی از تمام اسلایدهای طرح‌بندی که در ارائه تعریف شده‌اند. |
+| [getMasters()](#getMasters--) | باز می‌گردد فهرستی از تمام اسلایدهای مستر که در ارائه تعریف شده‌اند. |
+| [getMasterNotesSlideManager()](#getMasterNotesSlideManager--) | باز می‌گردد مدیر یادداشت‌های مستر. |
+| [getMasterHandoutSlideManager()](#getMasterHandoutSlideManager--) | باز می‌گردد مدیر توزیع‌های دست‌نویس مستر. |
+| [getFontsManager()](#getFontsManager--) | باز می‌گردد مدیر قلم‌ها. |
+| [getDefaultTextStyle()](#getDefaultTextStyle--) | باز می‌گردد سبک متن پیش‌فرض برای شکل‌ها. |
+| [getCommentAuthors()](#getCommentAuthors--) | باز می‌گردد مجموعه‌ای از نویسندگان نظرات. |
+| [getDocumentProperties()](#getDocumentProperties--) | باز می‌گردد شیء DocumentProperties که شامل ویژگی‌های استاندارد و سفارشی سند است. |
+| [getImages()](#getImages--) | باز می‌گردد مجموعه‌ای از تمام تصاویر موجود در ارائه. |
+| [getAudios()](#getAudios--) | باز می‌گردد مجموعه‌ای از تمام فایل‌های صوتی توکار در ارائه. |
+| [getVideos()](#getVideos--) | باز می‌گردد مجموعه‌ای از تمام فایل‌های ویدئویی توکار در ارائه. |
+| [getCustomData()](#getCustomData--) | باز می‌گردد داده‌های سفارشی ارائه. |
+| [getVbaProject()](#getVbaProject--) | دست می‌گیرد پروژه VBA با ماکروهای ارائه. |
+| [setVbaProject(IVbaProject value)](#setVbaProject-com.aspose.slides.IVbaProject-) | دست می‌گیرد پروژه VBA با ماکروهای ارائه. |
+| [getSourceFormat()](#getSourceFormat--) | باز می‌گردد اطلاعات درباره فرمت‌ّی که ارائه از آن بارگذاری شده است. |
+| [getMasterTheme()](#getMasterTheme--) | باز می‌گردد تم مستر ارائه. |
+| [getHyperlinkQueries()](#getHyperlinkQueries--) | دسترسی آسان به تمام هایپرلینک‌های موجود در تمام اسلایدهای ارائه (نه در مستر، طرح‌بندی یا اسلایدهای یادداشت). |
+| [getViewProperties()](#getViewProperties--) | دست می‌گیرد ویژگی‌های نمای کلی ارائه. |
+| [getFirstSlideNumber()](#getFirstSlideNumber--) | نشان می‌دهد شماره اولین اسلاید در ارائه. |
+| [setFirstSlideNumber(int value)](#setFirstSlideNumber-int-) | نشان می‌دهد شماره اولین اسلاید در ارائه. |
+| [getAllCustomXmlParts()](#getAllCustomXmlParts--) | باز می‌گردد تمام بخش‌های داده سفارشی در ارائه. |
+| [getDigitalSignatures()](#getDigitalSignatures--) | باز می‌گردد مجموعه‌ای از امضاهایی که برای امضای ارائه استفاده می‌شوند. |
+| [getSensitivityLabels()](#getSensitivityLabels--) | باز می‌گردد مجموعه‌ای از برچسب‌های حساسیتی اعمال‌شده به سند ارائه. |
+| [save(String fname, int format)](#save-java.lang.String-int-) | ذخیره می‌کند تمام اسلایدهای یک ارائه در فایلی با فرمت مشخص. |
+| [save(OutputStream stream, int format)](#save-java.io.OutputStream-int-) | ذخیره می‌کند تمام اسلایدهای یک ارائه در جریان (stream) با فرمت مشخص. |
+| [save(String fname, int format, ISaveOptions options)](#save-java.lang.String-int-com.aspose.slides.ISaveOptions-) | ذخیره می‌کند تمام اسلایدهای یک ارائه در فایلی با فرمت مشخص و با گزینه‌های اضافی. |
+| [save(OutputStream stream, int format, ISaveOptions options)](#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-) | ذخیره می‌کند تمام اسلایدهای یک ارائه در جریان (stream) با فرمت مشخص و با گزینه‌های اضافی. |
+| [save(String fname, int[] slides, int format)](#save-java.lang.String-int---int-) | ذخیره می‌کند اسلایدهای مشخص‌شده از یک ارائه در فایلی با فرمت تعیین‌شده. |
+| [save(String fname, int[] slides, int format, ISaveOptions options)](#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-) | ذخیره می‌کند اسلایدهای مشخص‌شده از یک ارائه در فایلی با فرمت تعیین‌شده. |
+| [save(OutputStream stream, int[] slides, int format)](#save-java.io.OutputStream-int---int-) | ذخیره می‌کند اسلایدهای مشخص‌شده از یک ارائه در یک جریان (stream) با فرمت تعیین‌شده. |
+| [save(OutputStream stream, int[] slides, int format, ISaveOptions options)](#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-) | ذخیره می‌کند اسلایدهای مشخص‌شده از یک ارائه در یک جریان (stream) با فرمت تعیین‌شده. |
+| [save(IXamlOptions options)](#save-com.aspose.slides.IXamlOptions-) | ذخیره می‌کند تمام اسلایدهای یک ارائه در مجموعه‌ای از فایل‌ها که markup XAML را نشان می‌دهند. |
+| [getImages(IRenderingOptions options)](#getImages-com.aspose.slides.IRenderingOptions-) | باز می‌گردد اشیاء تصویر بندانگشتی برای تمام اسلایدهای یک ارائه. |
+| [getImages(IRenderingOptions options, int[] slides)](#getImages-com.aspose.slides.IRenderingOptions-int---) | باز می‌گردد اشیاء IImage بندانگشتی برای اسلایدهای مشخص‌شده از یک ارائه. |
+| [getImages(IRenderingOptions options, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-float-float-) | باز می‌گردد اشیاء تصویر بندانگشتی برای تمام اسلایدهای یک ارائه با مقیاس‌گذاری سفارشی. |
+| [getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-int---float-float-) | باز می‌گردد اشیاء تصویر بندانگشتی برای اسلایدهای مشخص‌شده از یک ارائه با مقیاس‌گذاری سفارشی. |
+| [getImages(IRenderingOptions options, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-) | باز می‌گردد اشیاء تصویر بندانگشتی برای تمام اسلایدهای یک ارائه با اندازه مشخص. |
+| [getImages(IRenderingOptions options, int[] slides, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-) | باز می‌گردد اشیاء تصویر بندانگشتی برای اسلایدهای مشخص‌شده از یک ارائه با اندازه مشخص. |
+| [getSlideById(long id)](#getSlideById-long-) | باز می‌گردد اسلاید، MasterSlide یا LayoutSlide بر اساس شناسه. |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | ترکیب می‌کند ران‌های با فرمت‌گذاری مشابه در تمام پاراگراف‌های تمام شکل‌های قابل‌قبول در تمام اسلایدها. |
+| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | برجسته می‌کند تمام مطابقت‌های متن نمونه با رنگ مشخص‌شده. |
+| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | برجسته می‌کند تمام مطابقت‌های متن نمونه با رنگ مشخص‌شده. |
+| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | برجسته می‌کند تمام مطابقت‌های عبارت منظم با رنگ مشخص‌شده. |
+| [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | جایگزین می‌کند تمام رخدادهای متن مشخص‌شده با متن دیگری. |
+| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | جایگزین می‌کند تمام مطابقت‌های عبارت منظم با رشتهٔ مشخص‌شده. |
+| [refreshChartsData()](#refreshChartsData--) | بارگذاری مجدد داده‌ها برای تمام نمودارها در ارائه از کتاب‌کارهای منبعشان. |
+| [refreshChartsData(boolean skipFailedCharts)](#refreshChartsData-boolean-) | بارگذاری مجدد داده‌ها برای تمام نمودارها در ارائه از کتاب‌کارهای منبعشان. |
 
 ### getCurrentDateTime() {#getCurrentDateTime--}
 ```
 public abstract Date getCurrentDateTime()
 ```
 
-تاریخ و زمان را برمی‌گرداند یا تنظیم می‌کند که محتوای فیلدهای datetime را جایگزین می‌کند. زمان ایجاد این شیء Presentation به‌صورت پیش‌فرض. قابل خواندن/قابل نوشتن java.util.Date.
+باز می‌گردد یا تنظیم می‌کند تاریخ و زمان که محتواهای فیلدهای datetime را جایگزین می‌کند. زمان ایجاد این شی Presentation به‌صورت پیش‌فرض. **قابل خواندن و نوشتن** java.util.Date.
 
-**بازگشت:**  
+**باز می‌گردد:**
 java.util.Date
 
 ### setCurrentDateTime(Date value) {#setCurrentDateTime-java.util.Date-}
@@ -85,10 +87,10 @@ java.util.Date
 public abstract void setCurrentDateTime(Date value)
 ```
 
-تاریخ و زمان را برمی‌گرداند یا تنظیم می‌کند که محتوای فیلدهای datetime را جایگزین می‌کند. زمان ایجاد این شیء Presentation به‌صورت پیش‌فرض. قابل خواندن/قابل نوشتن java.util.Date.
+باز می‌گردد یا تنظیم می‌کند تاریخ و زمان که محتواهای فیلدهای datetime را جایگزین می‌کند. زمان ایجاد این شی Presentation به‌صورت پیش‌فرض. **قابل خواندن و نوشتن** java.util.Date.
 
-**پارامترها:**  
-| پارامتر | نوع | توضیح |
+**پارامترها:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.util.Date |  |
 
@@ -97,9 +99,9 @@ public abstract void setCurrentDateTime(Date value)
 public abstract IPresentationHeaderFooterManager getHeaderFooterManager()
 ```
 
-مدیر HeaderFooter ارائه را برمی‌گرداند. **فقط خواندنی** [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager).
+باز می‌گردد مدیر HeaderFooter ارائه. **فقط-خواندنی** [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager).
 
-**بازگشت:**  
+**باز می‌گردد:**
 [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager)
 
 ### getProtectionManager() {#getProtectionManager--}
@@ -107,9 +109,9 @@ public abstract IPresentationHeaderFooterManager getHeaderFooterManager()
 public abstract IProtectionManager getProtectionManager()
 ```
 
-مدیر مجوزهای این ارائه را دریافت می‌کند. **فقط خواندنی** [IProtectionManager](../../com.aspose.slides/iprotectionmanager).
+دست می‌گیرد مدیر مجوزها برای این ارائه. **فقط-خواندنی** [IProtectionManager](../../com.aspose.slides/iprotectionmanager).
 
-**بازگشت:**  
+**باز می‌گردد:**
 [IProtectionManager](../../com.aspose.slides/iprotectionmanager)
 
 ### getSlides() {#getSlides--}
@@ -117,9 +119,9 @@ public abstract IProtectionManager getProtectionManager()
 public abstract ISlideCollection getSlides()
 ```
 
-فهرستی از تمام اسلایدهای تعریف‌شده در ارائه را برمی‌گرداند. **فقط خواندنی** [ISlideCollection](../../com.aspose.slides/islidecollection).
+باز می‌گردد فهرستی از تمام اسلایدهایی که در ارائه تعریف شده‌اند. **فقط-خواندنی** [ISlideCollection](../../com.aspose.slides/islidecollection).
 
-**بازگشت:**  
+**باز می‌گردد:**
 [ISlideCollection](../../com.aspose.slides/islidecollection)
 
 ### getSections() {#getSections--}
@@ -127,9 +129,9 @@ public abstract ISlideCollection getSlides()
 public abstract ISectionCollection getSections()
 ```
 
-فهرستی از تمام بخش‌های اسلاید که در ارائه تعریف شده‌اند را برمی‌گرداند. **فقط خواندنی** [ISectionCollection](../../com.aspose.slides/isectioncollection).
+باز می‌گردد فهرستی از تمام بخش‌های اسلاید که در ارائه تعریف شده‌اند. **فقط-خواندنی** [ISectionCollection](../../com.aspose.slides/isectioncollection).
 
-**بازگشت:**  
+**باز می‌گردد:**
 [ISectionCollection](../../com.aspose.slides/isectioncollection)
 
 ### getSlideSize() {#getSlideSize--}
@@ -137,9 +139,9 @@ public abstract ISectionCollection getSections()
 public abstract ISlideSize getSlideSize()
 ```
 
-شیء اندازه اسلاید را برمی‌گرداند. **فقط خواندنی** [ISlideSize](../../com.aspose.slides/islidesize).
+باز می‌گردد شیء اندازه اسلاید. **فقط-خواندنی** [ISlideSize](../../com.aspose.slides/islidesize).
 
-**بازگشت:**  
+**باز می‌گردد:**
 [ISlideSize](../../com.aspose.slides/islidesize)
 
 ### getNotesSize() {#getNotesSize--}
@@ -147,9 +149,9 @@ public abstract ISlideSize getSlideSize()
 public abstract INotesSize getNotesSize()
 ```
 
-شیء اندازه اسلاید یادداشت‌ها را برمی‌گرداند. **فقط خواندنی** [INotesSize](../../com.aspose.slides/inotessize).
+باز می‌گردد شیء اندازه اسلاید یادداشت‌ها. **فقط-خواندنی** [INotesSize](../../com.aspose.slides/inotessize).
 
-**بازگشت:**  
+**باز می‌گردد:**
 [INotesSize](../../com.aspose.slides/inotessize)
 
 ### getLayoutSlides() {#getLayoutSlides--}
@@ -157,13 +159,13 @@ public abstract INotesSize getNotesSize()
 public abstract IGlobalLayoutSlideCollection getLayoutSlides()
 ```
 
-فهرستی از تمام اسلایدهای طرح‌بندی تعریف‌شده در ارائه را برمی‌گرداند. **فقط خواندنی** [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection).
+باز می‌گردد فهرستی از تمام اسلایدهای طرح‌بندی که در ارائه تعریف شده‌اند. **فقط-خواندنی** [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection).
 
 --------------------
 
-می‌توانید از API جایگزین برای افزودن/درج/حذف/کلون کردن اسلایدهای طرح‌بندی با استفاده از ویژگی IMasterSlide.LayoutSlides استفاده کنید.
+می‌توانید به API جایگزین برای افزودن/درج/حذف/کلون کردن اسلایدهای طرح‌بندی از طریق ویژگی IMasterSlide.LayoutSlides دسترسی پیدا کنید.
 
-**بازگشت:**  
+**باز می‌گردد:**
 [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection)
 
 ### getMasters() {#getMasters--}
@@ -171,9 +173,9 @@ public abstract IGlobalLayoutSlideCollection getLayoutSlides()
 public abstract IMasterSlideCollection getMasters()
 ```
 
-فهرستی از تمام اسلایدهای مستر تعریف‌شده در ارائه را برمی‌گرداند. **فقط خواندنی** [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection).
+باز می‌گردد فهرستی از تمام اسلایدهای مستر که در ارائه تعریف شده‌اند. **فقط-خواندنی** [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection).
 
-**بازگشت:**  
+**باز می‌گردد:**
 [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection)
 
 ### getMasterNotesSlideManager() {#getMasterNotesSlideManager--}
@@ -181,9 +183,9 @@ public abstract IMasterSlideCollection getMasters()
 public abstract IMasterNotesSlideManager getMasterNotesSlideManager()
 ```
 
-مدیر مستر یادداشت‌ها را برمی‌گرداند. **فقط خواندنی** [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager).
+باز می‌گردد مدیر یادداشت‌های مستر. **فقط-خواندنی** [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager).
 
-**بازگشت:**  
+**باز می‌گردد:**
 [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager)
 
 ### getMasterHandoutSlideManager() {#getMasterHandoutSlideManager--}
@@ -191,9 +193,9 @@ public abstract IMasterNotesSlideManager getMasterNotesSlideManager()
 public abstract IMasterHandoutSlideManager getMasterHandoutSlideManager()
 ```
 
-مدیر مستر برگه‌های توزیعی را برمی‌گرداند. **فقط خواندنی** [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager).
+باز می‌گردد مدیر توزیع‌های دست‌نویس مستر. **فقط-خواندنی** [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager).
 
-**بازگشت:**  
+**باز می‌گردد:**
 [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager)
 
 ### getFontsManager() {#getFontsManager--}
@@ -201,9 +203,9 @@ public abstract IMasterHandoutSlideManager getMasterHandoutSlideManager()
 public abstract IFontsManager getFontsManager()
 ```
 
-مدیر قلم‌ها را برمی‌گرداند. **فقط خواندنی** [IFontsManager](../../com.aspose.slides/ifontsmanager).
+باز می‌گردد مدیر قلم‌ها. **فقط-خواندنی** [IFontsManager](../../com.aspose.slides/ifontsmanager).
 
-**بازگشت:**  
+**باز می‌گردد:**
 [IFontsManager](../../com.aspose.slides/ifontsmanager)
 
 ### getDefaultTextStyle() {#getDefaultTextStyle--}
@@ -211,9 +213,9 @@ public abstract IFontsManager getFontsManager()
 public abstract ITextStyle getDefaultTextStyle()
 ```
 
-سبک متن پیش‌فرض برای اشکال را برمی‌گرداند. **فقط خواندنی** [ITextStyle](../../com.aspose.slides/itextstyle).
+باز می‌گردد سبک متن پیش‌فرض برای شکل‌ها. **فقط-خواندنی** [ITextStyle](../../com.aspose.slides/itextstyle).
 
-**بازگشت:**  
+**باز می‌گردد:**
 [ITextStyle](../../com.aspose.slides/itextstyle)
 
 ### getCommentAuthors() {#getCommentAuthors--}
@@ -221,9 +223,9 @@ public abstract ITextStyle getDefaultTextStyle()
 public abstract ICommentAuthorCollection getCommentAuthors()
 ```
 
-مجموعهٔ نویسندگان نظرات را برمی‌گرداند. **فقط خواندنی** [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection).
+باز می‌گردد مجموعه‌ای از نویسندگان نظرات. **فقط-خواندنی** [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection).
 
-**بازگشت:**  
+**باز می‌گردد:**
 [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection)
 
 ### getDocumentProperties() {#getDocumentProperties--}
@@ -231,9 +233,9 @@ public abstract ICommentAuthorCollection getCommentAuthors()
 public abstract IDocumentProperties getDocumentProperties()
 ```
 
-شیء DocumentProperties را برمی‌گرداند که شامل ویژگی‌های استاندارد و سفارشی سند است. **فقط خواندنی** [IDocumentProperties](../../com.aspose.slides/idocumentproperties).
+باز می‌گردد شیء DocumentProperties که شامل ویژگی‌های استاندارد و سفارشی سند است. **فقط-خواندنی** [IDocumentProperties](../../com.aspose.slides/idocumentproperties).
 
-**بازگشت:**  
+**باز می‌گردد:**
 [IDocumentProperties](../../com.aspose.slides/idocumentproperties)
 
 ### getImages() {#getImages--}
@@ -241,9 +243,9 @@ public abstract IDocumentProperties getDocumentProperties()
 public abstract IImageCollection getImages()
 ```
 
-مجموعهٔ تمام تصاویر موجود در ارائه را برمی‌گرداند. **فقط خواندنی** [IImageCollection](../../com.aspose.slides/iimagecollection).
+باز می‌گردد مجموعه‌ای از تمام تصاویر موجود در ارائه. **فقط-خواندنی** [IImageCollection](../../com.aspose.slides/iimagecollection).
 
-**بازگشت:**  
+**باز می‌گردد:**
 [IImageCollection](../../com.aspose.slides/iimagecollection)
 
 ### getAudios() {#getAudios--}
@@ -251,9 +253,9 @@ public abstract IImageCollection getImages()
 public abstract IAudioCollection getAudios()
 ```
 
-مجموعهٔ تمام فایل‌های صوتی توکار در ارائه را برمی‌گرداند. **فقط خواندنی** [IAudioCollection](../../com.aspose.slides/iaudiocollection).
+باز می‌گردد مجموعه‌ای از تمام فایل‌های صوتی توکار در ارائه. **فقط-خواندنی** [IAudioCollection](../../com.aspose.slides/iaudiocollection).
 
-**بازگشت:**  
+**باز می‌گردد:**
 [IAudioCollection](../../com.aspose.slides/iaudiocollection)
 
 ### getVideos() {#getVideos--}
@@ -261,9 +263,9 @@ public abstract IAudioCollection getAudios()
 public abstract IVideoCollection getVideos()
 ```
 
-مجموعهٔ تمام فایل‌های ویدئویی توکار در ارائه را برمی‌گرداند. **فقط خواندنی** [IVideoCollection](../../com.aspose.slides/ivideocollection).
+باز می‌گردد مجموعه‌ای از تمام فایل‌های ویدئویی توکار در ارائه. **فقط-خواندنی** [IVideoCollection](../../com.aspose.slides/ivideocollection).
 
-**بازگشت:**  
+**باز می‌گردد:**
 [IVideoCollection](../../com.aspose.slides/ivideocollection)
 
 ### getCustomData() {#getCustomData--}
@@ -271,9 +273,9 @@ public abstract IVideoCollection getVideos()
 public abstract ICustomData getCustomData()
 ```
 
-داده‌های سفارشی ارائه را برمی‌گرداند. **فقط خواندنی** [ICustomData](../../com.aspose.slides/icustomdata).
+باز می‌گردد داده‌های سفارشی ارائه. **فقط-خواندنی** [ICustomData](../../com.aspose.slides/icustomdata).
 
-**بازگشت:**  
+**باز می‌گردد:**
 [ICustomData](../../com.aspose.slides/icustomdata)
 
 ### getVbaProject() {#getVbaProject--}
@@ -281,9 +283,9 @@ public abstract ICustomData getCustomData()
 public abstract IVbaProject getVbaProject()
 ```
 
-پروژه VBA حاوی ماکروهای ارائه را دریافت می‌کند. **قابل خواندن/قابل نوشتن** [IVbaProject](../../com.aspose.slides/ivbaproject).
+دست می‌گیرد پروژه VBA با ماکروهای ارائه. **قابل خواندن و نوشتن** [IVbaProject](../../com.aspose.slides/ivbaproject).
 
-**بازگشت:**  
+**باز می‌گردد:**
 [IVbaProject](../../com.aspose.slides/ivbaproject)
 
 ### setVbaProject(IVbaProject value) {#setVbaProject-com.aspose.slides.IVbaProject-}
@@ -291,10 +293,10 @@ public abstract IVbaProject getVbaProject()
 public abstract void setVbaProject(IVbaProject value)
 ```
 
-پروژه VBA حاوی ماکروهای ارائه را دریافت می‌کند. **قابل خواندن/قابل نوشتن** [IVbaProject](../../com.aspose.slides/ivbaproject).
+دست می‌گیرد پروژه VBA با ماکروهای ارائه. **قابل خواندن و نوشتن** [IVbaProject](../../com.aspose.slides/ivbaproject).
 
-**پارامترها:**  
-| پارامتر | نوع | توضیح |
+**پارامترها:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | [IVbaProject](../../com.aspose.slides/ivbaproject) |  |
 
@@ -303,9 +305,9 @@ public abstract void setVbaProject(IVbaProject value)
 public abstract int getSourceFormat()
 ```
 
-اطلاعاتی درباره فرمت منبعی که ارائه از آن بارگذاری شده است را برمی‌گرداند. **فقط خواندنی** [SourceFormat](../../com.aspose.slides/sourceformat).
+باز می‌گردد اطلاعات درباره فرمت‌ّی که ارائه از آن بارگذاری شده است. **فقط-خواندنی** [SourceFormat](../../com.aspose.slides/sourceformat).
 
-**بازگشت:**  
+**باز می‌گردد:**
 int
 
 ### getMasterTheme() {#getMasterTheme--}
@@ -313,9 +315,9 @@ int
 public abstract IMasterTheme getMasterTheme()
 ```
 
-طرح اصلی (master theme) ارائه را برمی‌گرداند. **فقط خواندنی** [IMasterTheme](../../com.aspose.slides/imastertheme).
+باز می‌گردد تم مستر ارائه. **فقط-خواندنی** [IMasterTheme](../../com.aspose.slides/imastertheme).
 
-**بازگشت:**  
+**باز می‌گردد:**
 [IMasterTheme](../../com.aspose.slides/imastertheme)
 
 ### getHyperlinkQueries() {#getHyperlinkQueries--}
@@ -323,9 +325,9 @@ public abstract IMasterTheme getMasterTheme()
 public abstract IHyperlinkQueries getHyperlinkQueries()
 ```
 
-دسترس آسان به تمام پیوندهای موجود در تمامی اسلایدهای ارائه (نه در مستر، طرح‌بندی یا اسلایدهای یادداشت) را فراهم می‌کند. **فقط خواندنی** [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
+دسترسی آسان به تمام هایپرلینک‌های موجود در تمام اسلایدهای ارائه (نه در مستر، طرح‌بندی یا اسلایدهای یادداشت). **فقط-خواندنی** [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
 
-**بازگشت:**  
+**باز می‌گردد:**
 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)
 
 ### getViewProperties() {#getViewProperties--}
@@ -333,9 +335,9 @@ public abstract IHyperlinkQueries getHyperlinkQueries()
 public abstract IViewProperties getViewProperties()
 ```
 
-ویژگی‌های نمایش سراسری ارائه را دریافت می‌کند. **فقط خواندنی** [IViewProperties](../../com.aspose.slides/iviewproperties).
+دست می‌گیرد ویژگی‌های نمای کلی ارائه. **فقط-خواندنی** [IViewProperties](../../com.aspose.slides/iviewproperties).
 
-**بازگشت:**  
+**باز می‌گردد:**
 [IViewProperties](../../com.aspose.slides/iviewproperties)
 
 ### getFirstSlideNumber() {#getFirstSlideNumber--}
@@ -343,9 +345,9 @@ public abstract IViewProperties getViewProperties()
 public abstract int getFirstSlideNumber()
 ```
 
-شمارهٔ اولین اسلاید در ارائه را نشان می‌دهد. **قابل خواندن/قابل نوشتن** int.
+نشان می‌دهد شماره اولین اسلاید در ارائه. **قابل خواندن و نوشتن** int.
 
-**بازگشت:**  
+**باز می‌گردد:**
 int
 
 ### setFirstSlideNumber(int value) {#setFirstSlideNumber-int-}
@@ -353,10 +355,10 @@ int
 public abstract void setFirstSlideNumber(int value)
 ```
 
-شمارهٔ اولین اسلاید در ارائه را نشان می‌دهد. **قابل خواندن/قابل نوشتن** int.
+نشان می‌دهد شماره اولین اسلاید در ارائه. **قابل خواندن و نوشتن** int.
 
-**پارامترها:**  
-| پارامتر | نوع | توضیح |
+**پارامترها:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
@@ -365,9 +367,9 @@ public abstract void setFirstSlideNumber(int value)
 public abstract ICustomXmlPart[] getAllCustomXmlParts()
 ```
 
-تمام بخش‌های داده سفارشی در ارائه را برمی‌گرداند. **فقط خواندنی** ICustomXmlPart[].
+باز می‌گردد تمام بخش‌های داده سفارشی در ارائه. **فقط-خواندنی** ICustomXmlPart[].
 
-**بازگشت:**  
+**باز می‌گردد:**
 com.aspose.slides.ICustomXmlPart[]
 
 ### getDigitalSignatures() {#getDigitalSignatures--}
@@ -375,7 +377,7 @@ com.aspose.slides.ICustomXmlPart[]
 public abstract IDigitalSignatureCollection getDigitalSignatures()
 ```
 
-مجموعهٔ امضایی که برای امضای ارائه استفاده شده‌اند را برمی‌گرداند. **فقط خواندنی** [IDigitalSignatureCollection](../../com.aspose.slides/idigitalsignaturecollection).
+باز می‌گردد مجموعه‌ای از امضاهایی که برای امضای ارائه استفاده می‌شوند. **فقط-خواندنی** [IDigitalSignatureCollection](../../com.aspose.slides/idigitalsignaturecollection).
 
 --------------------
 
@@ -404,7 +406,7 @@ public abstract IDigitalSignatureCollection getDigitalSignatures()
 > ```
 
 
-**بازگشت:**  
+**باز می‌گردد:**
 [IDigitalSignatureCollection](../../com.aspose.slides/idigitalsignaturecollection)
 
 ### getSensitivityLabels() {#getSensitivityLabels--}
@@ -412,7 +414,7 @@ public abstract IDigitalSignatureCollection getDigitalSignatures()
 public abstract ISensitivityLabelCollection getSensitivityLabels()
 ```
 
-مجموعهٔ برچسب‌های حساسیتی اعمال‌شده بر سند ارائه را برمی‌گرداند. **فقط خواندنی** [ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection).
+باز می‌گردد مجموعه‌ای از برچسب‌های حساسیتی اعمال‌شده به سند ارائه. **فقط-خواندنی** [ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection).
 
 --------------------
 
@@ -421,13 +423,13 @@ public abstract ISensitivityLabelCollection getSensitivityLabels()
 >  try {
 >      ISensitivityLabelCollection sensitivityLabels = pres.getSensitivityLabels();
 > 
->      // چاپ برچسب‌های اعمال شده
+>      // چاپ برچسب‌های اعمال‌شده
 >      for (ISensitivityLabel sensitivityLabel : sensitivityLabels)
 >          System.out.println("Label Id " + sensitivityLabel.getId() + " from Azure AD site " + sensitivityLabel.getSiteId());
 > 
 >      // افزودن برچسب جدید
->      String labelIdString = "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"; // دریافت شناسه برچسب حساسیت از سیاست
->      UUID siteIdGuid = UUID.fromString("{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"); // دریافت شناسه سایت Azure AD از سیاست
+>      String labelIdString = "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"; // دریافت شناسهٔ برچسب حساسیت از سیاست
+>      UUID siteIdGuid = UUID.fromString("{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"); // دریافت شناسهٔ سایت Azure AD از سیاست
 >      ISensitivityLabel label = sensitivityLabels.add(labelIdString, siteIdGuid, true, SensitivityLabelAssignmentType.Privileged);
 >      label.getContentMarkTypes().addItem(SensitivityLabelContentType.Footer);
 > 
@@ -438,7 +440,7 @@ public abstract ISensitivityLabelCollection getSensitivityLabels()
 > ```
 
 
-**بازگشت:**  
+**باز می‌گردد:**
 [ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection)
 
 ### save(String fname, int format) {#save-java.lang.String-int-}
@@ -446,120 +448,118 @@ public abstract ISensitivityLabelCollection getSensitivityLabels()
 public abstract void save(String fname, int format)
 ```
 
-تمام اسلایدهای یک ارائه را در فایلی با فرمت مشخص ذخیره می‌کند.
+ذخیره می‌کند تمام اسلایدهای یک ارائه در فایلی با فرمت مشخص.
 
-**پارامترها:**  
-| پارامتر | نوع | توضیح |
+**پارامترها:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| fname | java.lang.String | مسیر به فایل ایجادشده. |
-| format | int | فرمت داده‌های خروجی. |
+| fname | java.lang.String | مسیر به فایلی که ایجاد می‌شود. |
+| format | int | فرمت داده‌های صادرشده. |
 
 ### save(OutputStream stream, int format) {#save-java.io.OutputStream-int-}
 ```
 public abstract void save(OutputStream stream, int format)
 ```
 
-تمام اسلایدهای یک ارائه را در یک جریان با فرمت مشخص ذخیره می‌کند.
+ذخیره می‌کند تمام اسلایدهای یک ارائه در یک جریان (stream) با فرمت مشخص.
 
-**پارامترها:**  
-| پارامتر | نوع | توضیح |
+**پارامترها:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.OutputStream | جریان خروجی. |
-| format | int | فرمت داده‌های خروجی. |
+| format | int | فرمت داده‌های صادرشده. |
 
 ### save(String fname, int format, ISaveOptions options) {#save-java.lang.String-int-com.aspose.slides.ISaveOptions-}
 ```
 public abstract void save(String fname, int format, ISaveOptions options)
 ```
+تمام اسلایدهای یک ارائه را با فرمت مشخص و با گزینه‌های اضافی به یک فایل ذخیره می‌کند.
 
-تمام اسلایدهای یک ارائه را در فایلی با فرمت مشخص و گزینه‌های اضافی ذخیره می‌کند.
-
-**پارامترها:**  
+**پارامترها:**
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
-| fname | java.lang.String | مسیر به فایل ایجادشده. |
-...
-| format | int | فرمت داده‌های خروجی. |
-| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | گزینه‌های فرمت اضافی. |
+| fname | java.lang.String | مسیر فایل ایجاد شده. |
+| format | int | قالب داده‌های صادرشده. |
+| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | گزینه‌های قالب اضافی. |
 
 ### save(OutputStream stream, int format, ISaveOptions options) {#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-}
 ```
 public abstract void save(OutputStream stream, int format, ISaveOptions options)
 ```
 
-تمام اسلایدهای یک ارائه را در فرمت مشخص شده و با گزینه‌های اضافی به یک Stream ذخیره می‌کند.
+تمام اسلایدهای یک ارائه را با فرمت مشخص و با گزینه‌های اضافی به یک جریان ذخیره می‌کند.
 
-**Parameters:**
+**پارامترها:**
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
-| stream | java.io.OutputStream | خروجی Stream. |
-| format | int | فرمت داده‌های خروجی. |
-| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | گزینه‌های فرمت اضافی. |
+| stream | java.io.OutputStream | جریان خروجی. |
+| format | int | قالب داده‌های صادرشده. |
+| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | گزینه‌های قالب اضافی. |
 
 ### save(String fname, int[] slides, int format) {#save-java.lang.String-int---int-}
 ```
 public abstract void save(String fname, int[] slides, int format)
 ```
 
-اسلایدهای مشخص شده‌ی یک ارائه را با فرمت مورد نظر به فایلی ذخیره می‌کند.
+اسلایدهای مشخص‌شده یک ارائه را با فرمت تعیین‌شده به یک فایل ذخیره می‌کند.
 
-**Parameters:**
+**پارامترها:**
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | fname | java.lang.String | مسیر فایل ایجاد شده. |
-| slides | int[] | آرایه‌ای از موقعیت اسلایدها، شروع از 1. |
-| format | int | فرمت داده‌های خروجی. |
+| slides | int[] | آرایه‌ای شامل موقعیت اسلایدها، آغاز از 1. |
+| format | int | قالب داده‌های صادرشده. |
 
 ### save(String fname, int[] slides, int format, ISaveOptions options) {#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-}
 ```
 public abstract void save(String fname, int[] slides, int format, ISaveOptions options)
 ```
 
-اسلایدهای مشخص شده‌ی یک ارائه را با فرمت مورد نظر و گزینه‌های اضافی به فایلی ذخیره می‌کند.
+اسلایدهای مشخص‌شده یک ارائه را با فرمت تعیین‌شده به یک فایل ذخیره می‌کند.
 
-**Parameters:**
+**پارامترها:**
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | fname | java.lang.String | مسیر فایل ایجاد شده. |
-| slides | int[] | آرایه‌ای از موقعیت اسلایدها، شروع از 1. |
-| format | int | فرمت داده‌های خروجی. |
-| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | گزینه‌های فرمت اضافی. |
+| slides | int[] | آرایه‌ای شامل موقعیت اسلایدها، آغاز از 1. |
+| format | int | قالب داده‌های صادرشده. |
+| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | گزینه‌های قالب اضافی. |
 
 ### save(OutputStream stream, int[] slides, int format) {#save-java.io.OutputStream-int---int-}
 ```
 public abstract void save(OutputStream stream, int[] slides, int format)
 ```
 
-اسلایدهای مشخص شده‌ی یک ارائه را در فرمت مورد نظر به یک Stream ذخیره می‌کند.
+اسلایدهای مشخص‌شده یک ارائه را با فرمت تعیین‌شده به یک جریان ذخیره می‌کند.
 
-**Parameters:**
+**پارامترها:**
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
-| stream | java.io.OutputStream | خروجی Stream. |
-| slides | int[] | آرایه‌ای از موقعیت اسلایدها، شروع از 1. |
-| format | int | فرمت داده‌های خروجی. |
+| stream | java.io.OutputStream | جریان خروجی. |
+| slides | int[] | آرایه‌ای شامل موقعیت اسلایدها، آغاز از 1. |
+| format | int | قالب داده‌های صادرشده. |
 
 ### save(OutputStream stream, int[] slides, int format, ISaveOptions options) {#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-}
 ```
 public abstract void save(OutputStream stream, int[] slides, int format, ISaveOptions options)
 ```
 
-اسلایدهای مشخص شده‌ی یک ارائه را در فرمت مورد نظر و با گزینه‌های اضافی به یک Stream ذخیره می‌کند.
+اسلایدهای مشخص‌شده یک ارائه را با فرمت تعیین‌شده به یک جریان ذخیره می‌کند.
 
-**Parameters:**
+**پارامترها:**
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
-| stream | java.io.OutputStream | خروجی Stream. |
-| slides | int[] | آرایه‌ای از موقعیت اسلایدها، شروع از 1. |
-| format | int | فرمت داده‌های خروجی. |
-| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | گزینه‌های فرمت اضافی. |
+| stream | java.io.OutputStream | جریان خروجی. |
+| slides | int[] | آرایه‌ای شامل موقعیت اسلایدها، آغاز از 1. |
+| format | int | قالب داده‌های صادرشده. |
+| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | گزینه‌های قالب اضافی. |
 
 ### save(IXamlOptions options) {#save-com.aspose.slides.IXamlOptions-}
 ```
 public abstract void save(IXamlOptions options)
 ```
 
-تمام اسلایدهای یک ارائه را به مجموعه‌ای از فایل‌ها که نشانگر قالب XAML هستند، ذخیره می‌کند.
+تمام اسلایدهای یک ارائه را به مجموعه‌ای از فایل‌ها که نشانگر علامت‌نگاری XAML هستند، ذخیره می‌کند.
 
 --------------------
 
@@ -576,7 +576,7 @@ public abstract void save(IXamlOptions options)
 > ```
 
 
-**Parameters:**
+**پارامترها:**
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | options | [IXamlOptions](../../com.aspose.slides/ixamloptions) | گزینه‌های قالب XAML. |
@@ -586,128 +586,128 @@ public abstract void save(IXamlOptions options)
 public abstract IImage[] getImages(IRenderingOptions options)
 ```
 
-تصاویر بندانگشتی برای تمام اسلایدهای یک ارائه باز می‌گرداند.
+یک شیء تصویر بندانگشتی برای تمام اسلایدهای یک ارائه بازمی‌گرداند.
 
-**Parameters:**
+**پارامترها:**
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | گزینه‌های رندرینگ. |
 
-**Returns:**
-com.aspose.slides.IImage[] - اشیاء IImage.
+**بازگرداندن:**
+com.aspose.slides.IImage[] - IImage objects.
 
 ### getImages(IRenderingOptions options, int[] slides) {#getImages-com.aspose.slides.IRenderingOptions-int---}
 ```
 public abstract IImage[] getImages(IRenderingOptions options, int[] slides)
 ```
 
-تصاویر بندانگشتی برای اسلایدهای مشخص شده‌ی یک ارائه باز می‌گرداند.
+یک شیء تصویر بندانگشتی برای اسلایدهای مشخص‌شده یک ارائه بازمی‌گرداند.
 
-**Parameters:**
+**پارامترها:**
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | گزینه‌های رندرینگ. |
-| slides | int[] | آرایه‌ای از موقعیت اسلایدها، شروع از 1. |
+| slides | int[] | آرایه‌ای شامل موقعیت اسلایدها، آغاز از 1. |
 
-**Returns:**
-com.aspose.slides.IImage[] - اشیاء IImage.
+**بازگرداندن:**
+com.aspose.slides.IImage[] - IImage objects.
 
 ### getImages(IRenderingOptions options, float scaleX, float scaleY) {#getImages-com.aspose.slides.IRenderingOptions-float-float-}
 ```
 public abstract IImage[] getImages(IRenderingOptions options, float scaleX, float scaleY)
 ```
 
-تصاویر بندانگشتی برای تمام اسلایدهای یک ارائه با مقیاس سفارشی باز می‌گرداند.
+یک شیء تصویر بندانگشتی برای تمام اسلایدهای یک ارائه با مقیاس‌گذاری سفارشی بازمی‌گرداند.
 
-**Parameters:**
+**پارامترها:**
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | گزینه‌های رندرینگ. |
-| scaleX | float | مقدار مقیاس‌بندی در جهت محور X. |
-| scaleY | float | مقدار مقیاس‌بندی در جهت محور Y. |
+| scaleX | float | مقداری که برای مقیاس‌بندی این تصویر بندانگشتی در جهت محور x استفاده می‌شود. |
+| scaleY | float | مقداری که برای مقیاس‌بندی این تصویر بندانگشتی در جهت محور y استفاده می‌شود. |
 
-**Returns:**
-com.aspose.slides.IImage[] - اشیاء Bitmap.
+**بازگرداندن:**
+com.aspose.slides.IImage[] - Bitmap objects.
 
 ### getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY) {#getImages-com.aspose.slides.IRenderingOptions-int---float-float-}
 ```
 public abstract IImage[] getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)
 ```
 
-تصاویر بندانگشتی برای اسلایدهای مشخص شده‌ی یک ارائه با مقیاس سفارشی باز می‌گرداند.
+یک شیء تصویر بندانگشتی برای اسلایدهای مشخص‌شده یک ارائه با مقیاس‌گذاری سفارشی بازمی‌گرداند.
 
-**Parameters:**
+**پارامترها:**
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | گزینه‌های رندرینگ. |
-| slides | int[] | آرایه‌ای از موقعیت اسلایدها، شروع از 1. |
-| scaleX | float | مقدار مقیاس‌بندی در جهت محور X. |
-| scaleY | float | مقدار مقیاس‌بندی در جهت محور Y. |
+| slides | int[] | آرایه‌ای شامل موقعیت اسلایدها، آغاز از 1. |
+| scaleX | float | مقداری که برای مقیاس‌بندی این تصویر بندانگشتی در جهت محور x استفاده می‌شود. |
+| scaleY | float | مقداری که برای مقیاس‌بندی این تصویر بندانگشتی در جهت محور y استفاده می‌شود. |
 
-**Returns:**
-com.aspose.slides.IImage[] - اشیاء IImage.
+**بازگرداندن:**
+com.aspose.slides.IImage[] - IImage objects.
 
 ### getImages(IRenderingOptions options, Dimension imageSize) {#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-}
 ```
 public abstract IImage[] getImages(IRenderingOptions options, Dimension imageSize)
 ```
 
-تصاویر بندانگشتی برای تمام اسلایدهای یک ارائه با اندازه مشخص باز می‌گرداند.
+یک شیء تصویر بندانگشتی برای تمام اسلایدهای یک ارائه با اندازه مشخص بازمی‌گرداند.
 
-**Parameters:**
+**پارامترها:**
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | گزینه‌های رندرینگ. |
-| imageSize | java.awt.Dimension | اندازهٔ تصویری که باید ساخته شود. |
+| imageSize | java.awt.Dimension | اندازه تصویر برای ساخت. |
 
-**Returns:**
-com.aspose.slides.IImage[] - اشیاء IImage.
+**بازگرداندن:**
+com.aspose.slides.IImage[] - IImage objects.
 
 ### getImages(IRenderingOptions options, int[] slides, Dimension imageSize) {#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-}
 ```
 public abstract IImage[] getImages(IRenderingOptions options, int[] slides, Dimension imageSize)
 ```
 
-تصاویر بندانگشتی برای اسلایدهای مشخص شده‌ی یک ارائه با اندازه مشخص باز می‌گرداند.
+یک شیء تصویر بندانگشتی برای اسلایدهای مشخص‌شده یک ارائه با اندازه مشخص بازمی‌گرداند.
 
-**Parameters:**
+**پارامترها:**
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | گزینه‌های رندرینگ. |
-| slides | int[] | آرایه‌ای از موقعیت اسلایدها، شروع از 1. |
-| imageSize | java.awt.Dimension | اندازهٔ تصویری که باید ساخته شود. |
+| slides | int[] | آرایه‌ای شامل موقعیت اسلایدها، آغاز از 1. |
+| imageSize | java.awt.Dimension | اندازه تصویر برای ساخت. |
 
-**Returns:**
-com.aspose.slides.IImage[] - اشیاء IImage.
+**بازگرداندن:**
+com.aspose.slides.IImage[] - IImage objects.
 
 ### getSlideById(long id) {#getSlideById-long-}
 ```
 public abstract IBaseSlide getSlideById(long id)
 ```
 
-اسلاید، ماستر اسلاید یا لِیوت اسلاید را بر اساس شناسه باز می‌گرداند.
+یک Slide، MasterSlide یا LayoutSlide را بر اساس Id بازمی‌گرداند.
 
-**Parameters:**
+**پارامترها:**
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
-| id | long | شناسهٔ اسلاید. |
+| id | long | Id یک اسلاید. |
 
-**Returns:**
-[IBaseSlide](../../com.aspose.slides/ibaseslide) - شیء IBaseSlide.
+**بازگرداندن:**
+[IBaseSlide](../../com.aspose.slides/ibaseslide) - IBaseSlide object.
 
 ### joinPortionsWithSameFormatting() {#joinPortionsWithSameFormatting--}
 ```
 public abstract void joinPortionsWithSameFormatting()
 ```
 
-قسمت‌های متنی با قالب‌بندی یکسان را در تمام پاراگراف‌های تمام اشکال قابل قبول در تمام اسلایدها ترکیب می‌کند.
+قطعات متن با قالب‌بندی یکسان را در تمام پاراگراف‌ها در تمام اشکال قابل قبول در همه اسلایدها ترکیب می‌کند.
 
 ### highlightText(String text, Color highlightColor) {#highlightText-java.lang.String-java.awt.Color-}
 ```
 public abstract void highlightText(String text, Color highlightColor)
 ```
 
-تمام مطابقت‌های متن نمونه را با رنگ مشخص شده برجسته می‌کند.
+تمام تطابق‌های متن نمونه را با رنگ مشخص برجسته می‌کند.
 
 --------------------
 
@@ -716,7 +716,7 @@ public abstract void highlightText(String text, Color highlightColor)
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
->      // برجسته‌سازی تمام موارد جداگانه 'the'
+>      // برجسته‌سازی تمام موارد جداگانهٔ 'the'
 >      presentation.highlightText("the", Color.MAGENTA);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -724,7 +724,8 @@ public abstract void highlightText(String text, Color highlightColor)
 >  }
 > ```
 
-**Parameters:**
+
+**پارامترها:**
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | text | java.lang.String | متنی که باید برجسته شود. |
@@ -735,7 +736,7 @@ public abstract void highlightText(String text, Color highlightColor)
 public abstract void highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
-تمام مطابقت‌های متن نمونه را با رنگ مشخص شده برجسته می‌کند.
+تمام تطابق‌های متن نمونه را با رنگ مشخص برجسته می‌کند.
 
 --------------------
 
@@ -744,7 +745,7 @@ public abstract void highlightText(String text, Color highlightColor, ITextSearc
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
->      // برجسته‌سازی تمام موارد جداگانه 'the'
+>      // برجسته‌سازی تمام موارد جداگانهٔ 'the'
 >      presentation.highlightText("the", Color.MAGENTA);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -752,20 +753,21 @@ public abstract void highlightText(String text, Color highlightColor, ITextSearc
 >  }
 > ```
 
-**Parameters:**
+
+**پارامترها:**
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | text | java.lang.String | متنی که باید برجسته شود. |
 | highlightColor | java.awt.Color | رنگی که متن با آن برجسته می‌شود. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | گزینه‌های جستجوی متن [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | شیء Callback برای دریافت نتایج جستجو [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | شیء بازگشتی برای دریافت نتایج جستجو [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback) {#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-}
 ```
 public abstract void highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)
 ```
 
-تمام مطابقت‌های عبارت منظم را با رنگ مشخص شده برجسته می‌کند.
+تمام تطابق‌های عبارت منظم را با رنگ مشخص برجسته می‌کند.
 
 --------------------
 
@@ -774,7 +776,7 @@ public abstract void highlightRegex(Pattern regex, Color highlightColor, IFindRe
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
->      // برجسته‌سازی تمام موارد جداگانه 'the'
+>      // برجسته‌سازی تمام موارد جداگانهٔ 'the'
 >      presentation.highlightText("the", Color.MAGENTA);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -783,19 +785,19 @@ public abstract void highlightRegex(Pattern regex, Color highlightColor, IFindRe
 > ```
 
 
-**Parameters:**
+**پارامترها:**
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | عبارت منظم java.util.regex.Pattern برای دریافت رشته‌های مورد برجسته. |
+| regex | java.util.regex.Pattern | عبارت منظم java.util.regex.Pattern برای دریافت رشته‌های برجسته. |
 | highlightColor | java.awt.Color | رنگی که متن با آن برجسته می‌شود. |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | شیء Callback برای دریافت نتایج جستجو [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | شیء بازگشتی برای دریافت نتایج جستجو [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback) {#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
 public abstract void replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
-تمام رخدادهای متن مشخص شده را با متن دیگر جایگزین می‌کند.
+تمام رخدادهای متن مشخص‌شده را با متن دیگری جایگزین می‌کند.
 
 --------------------
 
@@ -806,7 +808,7 @@ public abstract void replaceText(String oldText, String newText, ITextSearchOpti
 >  try {
 >      TextSearchOptions textSearchOptions = new TextSearchOptions();
 >      textSearchOptions.setWholeWordsOnly(true);
->      // جایگزینی تمام موارد جداگانه 'the' با '***'
+>      // جایگزینی تمام موارد جداگانهٔ 'the' با '***'
 >      presentation.replaceText("the", "***", textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -814,20 +816,21 @@ public abstract void replaceText(String oldText, String newText, ITextSearchOpti
 >  }
 > ```
 
-**Parameters:**
+
+**پارامترها:**
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | oldText | java.lang.String | رشته‌ای که باید جایگزین شود. |
 | newText | java.lang.String | رشته‌ای که تمام رخدادهای oldText را جایگزین می‌کند. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | گزینه‌های جستجوی متن [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | شیء Callback برای دریافت نتایج جستجو [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | شیء بازگشتی برای دریافت نتایج جستجو [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### replaceRegex(Pattern regex, String newText, IFindResultCallback callback) {#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-}
 ```
 public abstract void replaceRegex(Pattern regex, String newText, IFindResultCallback callback)
 ```
 
-تمام مطابقت‌های عبارت منظم را با رشتهٔ مشخص شده جایگزین می‌کند.
+تمام تطابق‌های عبارت منظم را با رشته مشخص جایگزین می‌کند.
 
 --------------------
 
@@ -838,7 +841,7 @@ public abstract void replaceRegex(Pattern regex, String newText, IFindResultCall
 >  try {
 >      TextSearchOptions textSearchOptions = new TextSearchOptions();
 >      textSearchOptions.setWholeWordsOnly(true);
->      // جایگزینی تمام موارد جداگانه 'the' با '***'
+>      // جایگزینی تمام موارد جداگانهٔ 'the' با '***'
 >      presentation.replaceText("the", "***", textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -847,9 +850,52 @@ public abstract void replaceRegex(Pattern regex, String newText, IFindResultCall
 > ```
 
 
-**Parameters:**
+**پارامترها:**
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | عبارت منظم java.util.regex.Pattern برای دریافت رشته‌های قابل جایگزینی. |
-| newText | java.lang.String | رشته‌ای که تمام رخدادهای رشته‌های قابل جایگزینی را جایگزین می‌کند. |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | شیء Callback برای دریافت نتایج جستجو [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| regex | java.util.regex.Pattern | عبارت منظم java.util.regex.Pattern برای دریافت رشته‌های جایگزین. |
+| newText | java.lang.String | رشته‌ای که تمام رخدادهای رشته‌های جایگزین‌شده را جایگزین می‌کند. |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | شیء بازگشتی برای دریافت نتایج جستجو [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+
+### refreshChartsData() {#refreshChartsData--}
+```
+public abstract void refreshChartsData()
+```
+
+داده‌های تمام نمودارهای موجود در ارائه را از کتاب‌کارهای منبع خود مجدداً بارگیری می‌کند.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("PresentationWithCharts.pptx");
+>  try {
+>      presentation.refreshChartsData();
+>      presentation.save("PresentationWithCharts-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+### refreshChartsData(boolean skipFailedCharts) {#refreshChartsData-boolean-}
+```
+public abstract void refreshChartsData(boolean skipFailedCharts)
+```
+
+داده‌های تمام نمودارهای موجود در ارائه را از کتاب‌کارهای منبع خود مجدداً بارگیری می‌کند.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("PresentationWithCharts.pptx");
+>  try {
+>      presentation.refreshChartsData();
+>      presentation.save("PresentationWithCharts-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**پارامترها:**
+| پارامتر | نوع | توضیح |
+| --- | --- | --- |
+| skipFailedCharts | boolean | تعیین می‌کند که آیا فرآیند بروزرسانی در صورت شکست یک نمودار ادامه یابد یا نه. اگر true باشد، نمودارهای باعث استثنا صرف‌نظر می‌شوند؛ در غیر این صورت استثنا ادامه می‌یابد. |

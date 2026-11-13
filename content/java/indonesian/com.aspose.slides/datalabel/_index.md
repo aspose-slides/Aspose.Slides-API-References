@@ -5,7 +5,7 @@ description: Mewakili label seri.
 type: docs
 url: /id/com.aspose.slides/datalabel/
 ---
-**Pewarisan:**
+**Warisan:**
 java.lang.Object
 
 **Semua Antarmuka yang Diimplementasikan:**
@@ -15,7 +15,6 @@ public class DataLabel implements IDataLabel, IDOMObject
 ```
 
 Mewakili label seri.
-
 ## Konstruktor
 
 | Konstruktor | Deskripsi |
@@ -27,10 +26,10 @@ Mewakili label seri.
 | --- | --- |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
 | [getChart()](#getChart--) | Mengembalikan chart induk. |
-| [isVisible()](#isVisible--) | False berarti label data tidak terlihat (dan semua flag Show*- (ShowValue, ...) menjadi false). |
-| [hide()](#hide--) | Membuat label data tersembunyi dengan mengatur semua flag Show*- (ShowValue, ...) ke keadaan false. |
-| [getActualLabelText()](#getActualLabelText--) | Mengembalikan teks label aktual berdasarkan pengaturan DataLabelFormat atau nilai TextFrameForOverriding.Text. |
-| [addTextFrameForOverriding(String text)](#addTextFrameForOverriding-java.lang.String-) | Menginisialisasi TextFrameForOverriding dengan teks pada parameter "text". |
+| [isVisible()](#isVisible--) | False berarti label data tidak terlihat (dan semua Show\\*-flags (ShowValue, ...) menjadi false). |
+| [hide()](#hide--) | Menyembunyikan label data dengan mengatur semua Show\\*-flags (ShowValue, ...) ke keadaan false. |
+| [getActualLabelText()](#getActualLabelText--) | Mengembalikan teks label sebenarnya berdasarkan pengaturan DataLabelFormat atau nilai TextFrameForOverriding.Text. |
+| [addTextFrameForOverriding(String text)](#addTextFrameForOverriding-java.lang.String-) | Inisialisasi TextFrameForOverriding dengan teks pada parameter "text". |
 | [getTextFrameForOverriding()](#getTextFrameForOverriding--) | Dapat berisi teks berformat kaya. |
 | [getTextFormat()](#getTextFormat--) | Mengembalikan format teks. |
 | [getX()](#getX--) | Mengembalikan atau mengatur koordinat x judul sebagai fraksi lebar chart. |
@@ -44,15 +43,16 @@ Mewakili label seri.
 | [getRight()](#getRight--) | Kanan. |
 | [getBottom()](#getBottom--) | Bawah. |
 | [getDataLabelFormat()](#getDataLabelFormat--) | Mengembalikan format label data. |
-| [getValueFromCell()](#getValueFromCell--) | Mendapatkan atau mengatur sel data buku kerja. |
-| [setValueFromCell(IChartDataCell value)](#setValueFromCell-com.aspose.slides.IChartDataCell-) | Mendapatkan atau mengatur sel data buku kerja. |
+| [getValueFromCell()](#getValueFromCell--) | Mendapatkan atau mengatur sel data workbook. |
+| [setValueFromCell(IChartDataCell value)](#setValueFromCell-com.aspose.slides.IChartDataCell-) | Mendapatkan atau mengatur sel data workbook. |
+| [getLabelShapeType()](#getLabelShapeType--) | Mendapatkan atau mengatur tipe bentuk label data. |
+| [setLabelShapeType(int value)](#setLabelShapeType-int-) | Mendapatkan atau mengatur tipe bentuk label data. |
 | [getActualX()](#getActualX--) | Menentukan lokasi x aktual (kiri) elemen chart relatif terhadap sudut kiri atas chart. |
 | [getActualY()](#getActualY--) | Menentukan posisi atas aktual elemen chart relatif terhadap sudut kiri atas chart. |
 | [getActualWidth()](#getActualWidth--) | Menentukan lebar aktual elemen chart. |
 | [getActualHeight()](#getActualHeight--) | Menentukan tinggi aktual elemen chart. |
 | [getSlide()](#getSlide--) | Mengembalikan slide induk dari FillFormat. |
 | [getPresentation()](#getPresentation--) | Mengembalikan presentasi induk dari FillFormat. |
-
 ### DataLabel(IChartDataPoint parentImmediate) {#DataLabel-com.aspose.slides.IChartDataPoint-}
 ```
 public DataLabel(IChartDataPoint parentImmediate)
@@ -88,11 +88,11 @@ Mengembalikan chart induk. Baca-saja [IChart](../../com.aspose.slides/ichart).
 public final boolean isVisible()
 ```
 
-False berarti label data tidak terlihat (dan semua flag Show*- (ShowValue, ...) menjadi false). Baca-saja boolean.
+False berarti label data tidak terlihat (dan semua Show\\*-flags (ShowValue, ...) menjadi false). Baca-saja boolean.
 
 --------------------
 
-Jika label data terlihat Anda dapat menyembunyikannya dengan metode Hide(). Tetapi jika label data tidak terlihat (IsVisible bernilai false) Anda dapat membuat label data terlihat dengan mengatur flag Show*- (ShowValue, ...) ke keadaan true.
+Jika label data terlihat, Anda dapat menyembunyikannya dengan metode Hide(). Namun jika label data tidak terlihat (IsVisible adalah false), Anda dapat membuat label data terlihat dengan mengatur Show\\*-flags (ShowValue, ...) ke keadaan true.
 
 **Mengembalikan:**
 boolean
@@ -101,27 +101,27 @@ boolean
 public final void hide()
 ```
 
-Membuat label data tersembunyi dengan mengatur semua flag Show*- (ShowValue, ...) ke keadaan false. IsVisible akan menjadi false setelah ini.
+Menyembunyikan label data dengan mengatur semua Show\\*-flags (ShowValue, ...) ke keadaan false. IsVisible akan menjadi false setelah ini.
 
 --------------------
 
-Jika label data tidak terlihat (IsVisible bernilai false) Anda dapat membuat label data terlihat dengan mengatur flag Show*- (ShowValue, ...) ke keadaan true.
+Jika label data tidak terlihat (IsVisible adalah false), Anda dapat membuat label data terlihat dengan mengatur Show\\*-flags (ShowValue, ...) ke keadaan true.
 
 ### getActualLabelText() {#getActualLabelText--}
 ```
 public final String getActualLabelText()
 ```
 
-Mengembalikan teks label aktual berdasarkan pengaturan DataLabelFormat atau nilai TextFrameForOverriding.Text.
+Mengembalikan teks label sebenarnya berdasarkan pengaturan DataLabelFormat atau nilai TextFrameForOverriding.Text.
 
 **Mengembalikan:**
-java.lang.String - Objek java.lang.String.
+java.lang.String - objek java.lang.String.
 ### addTextFrameForOverriding(String text) {#addTextFrameForOverriding-java.lang.String-}
 ```
 public final ITextFrame addTextFrameForOverriding(String text)
 ```
 
-Menginisialisasi TextFrameForOverriding dengan teks pada parameter "text". Jika TextFrameForOverriding sudah diinisialisasi maka cukup mengubah teksnya.
+Inisialisasi TextFrameForOverriding dengan teks pada parameter "text". Jika TextFrameForOverriding sudah diinisialisasi maka cukup mengubah teksnya.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
@@ -260,7 +260,7 @@ Mengembalikan format label data. Baca-saja [IDataLabelFormat](../../com.aspose.s
 public final IChartDataCell getValueFromCell()
 ```
 
-Mendapatkan atau mengatur sel data buku kerja. Diterapkan jika properti IDataLabelFormat.ShowLabelValueFromCell bernilai true.
+Mendapatkan atau mengatur sel data workbook. Diterapkan jika properti IDataLabelFormat.ShowLabelValueFromCell bernilai true.
 
 **Mengembalikan:**
 [IChartDataCell](../../com.aspose.slides/ichartdatacell)
@@ -269,12 +269,64 @@ Mendapatkan atau mengatur sel data buku kerja. Diterapkan jika properti IDataLab
 public final void setValueFromCell(IChartDataCell value)
 ```
 
-Mendapatkan atau mengatur sel data buku kerja. Diterapkan jika properti IDataLabelFormat.ShowLabelValueFromCell bernilai true.
+Mendapatkan atau mengatur sel data workbook. Diterapkan jika properti IDataLabelFormat.ShowLabelValueFromCell bernilai true.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | value | [IChartDataCell](../../com.aspose.slides/ichartdatacell) |  |
+### getLabelShapeType() {#getLabelShapeType--}
+```
+public final int getLabelShapeType()
+```
+
+Mendapatkan atau mengatur tipe bentuk label data. Mengembalikan [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) jika tidak ada bentuk yang didefinisikan.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Atur tipe bentuk label data pertama menjadi Ellipse.
+>      firstSeries.getLabels().get_Item(0).setLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabel.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Mengembalikan:**
+int
+### setLabelShapeType(int value) {#setLabelShapeType-int-}
+```
+public final void setLabelShapeType(int value)
+```
+
+Mendapatkan atau mengatur tipe bentuk label data. Mengembalikan [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) jika tidak ada bentuk yang didefinisikan.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Atur tipe bentuk label data pertama menjadi Ellipse.
+>      firstSeries.getLabels().get_Item(0).setLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabel.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Parameter:**
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| value | int |  |
 ### getActualX() {#getActualX--}
 ```
 public final float getActualX()

@@ -1,38 +1,38 @@
 ---
 title: ITextFrame
-second_title: Aspose.Slides για την αναφορά API της Java
+second_title: Aspose.Slides για την Αναφορά API της Java
 description: Αντιπροσωπεύει ένα TextFrame.
 type: docs
 url: /el/com.aspose.slides/itextframe/
 ---
-**Όλες οι Υλοποιημένες Διεπαφές:**
+**All Implemented Interfaces:**
 [com.aspose.slides.ISlideComponent](../../com.aspose.slides/islidecomponent)
 ```
 public interface ITextFrame extends ISlideComponent
 ```
 
 Αντιπροσωπεύει ένα TextFrame.
-## Μέθοδοι
+## Methods
 
-| Μέθοδος | Περιγραφή |
+| Method | Description |
 | --- | --- |
 | [getParagraphs()](#getParagraphs--) | Επιστρέφει τη λίστα όλων των παραγράφων σε ένα πλαίσιο. |
 | [getText()](#getText--) | Λαμβάνει ή ορίζει το απλό κείμενο για ένα TextFrame. |
 | [setText(String value)](#setText-java.lang.String-) | Λαμβάνει ή ορίζει το απλό κείμενο για ένα TextFrame. |
-| [getTextFrameFormat()](#getTextFrameFormat--) | Επιστρέφει το αντικείμενο μορφοποίησης για αυτό το αντικείμενο TextFrame. |
-| [getHyperlinkQueries()](#getHyperlinkQueries--) | Παρέχει εύκολη πρόσβαση στους περιέχονται υπερσυνδέσμους. |
-| [getParentShape()](#getParentShape--) | Επιστρέφει το γονικό σχήμα ή null εάν το γονικό αντικείμενο δεν υλοποιεί τη διεπαφή IShape Μόνο για ανάγνωση [IShape](../../com.aspose.slides/ishape). |
-| [getParentCell()](#getParentCell--) | Επιστρέφει το γονικό κελί ή null εάν το γονικό αντικείμενο δεν υλοποιεί τη διεπαφή ICell. |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Συνδέει τις ακολουθίες με ίδια μορφοποίηση σε όλες τις παραγράφους. |
+| [getTextFrameFormat()](#getTextFrameFormat--) | Επιστρέφει το αντικείμενο μορφοποίησης για αυτό το TextFrame. |
+| [getHyperlinkQueries()](#getHyperlinkQueries--) | Παρέχει εύκολη πρόσβαση σε ενσωματωμένες υπερσυνδέσεις. |
+| [getParentShape()](#getParentShape--) | Επιστρέφει το γονικό σχήμα ή null εάν το γονικό αντικείμενο δεν υλοποιεί το interface IShape. Μόνο για ανάγνωση [IShape](../../com.aspose.slides/ishape). |
+| [getTextRect()](#getTextRect--) | Λαμβάνει το ορθογώνιο κείμενο που ορίζεται από τη γεωμετρία του γονικού σχήματος. |
+| [getParentCell()](#getParentCell--) | Επιστρέφει το γονικό κελί ή null εάν το γονικό αντικείμενο δεν υλοποιεί το interface ICell. |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Συγχωνεύει τμήματα με την ίδια μορφοποίηση σε όλες τις παραγράφους. |
 | [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | Επισημαίνει όλες τις αντιστοιχίες του δείγματος κειμένου με το καθορισμένο χρώμα. |
-| [splitTextByColumns()](#splitTextByColumns--) | Διαχωρίζει το κειμενικό περιεχόμενο του [ITextFrame](../../com.aspose.slides/itextframe) σε έναν πίνακα συμβολοσειρών, όπου κάθε στοιχείο αντιστοιχεί σε ξεχωριστή στήλη κειμένου μέσα στο πλαίσιο. |
+| [splitTextByColumns()](#splitTextByColumns--) | Διαχωρίζει το περιεχόμενο κειμένου του [ITextFrame](../../com.aspose.slides/itextframe) σε έναν πίνακα συμβολοσειρών, όπου κάθε στοιχείο αντιστοιχεί σε ξεχωριστή στήλη κειμένου μέσα στο πλαίσιο. |
 | [highlightText(String text, Color highlightColor, ITextHighlightingOptions options)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Επισημαίνει όλες τις αντιστοιχίες του δείγματος κειμένου με το καθορισμένο χρώμα. |
 | [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Επισημαίνει όλες τις αντιστοιχίες του δείγματος κειμένου με το καθορισμένο χρώμα. |
 | [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | Επισημαίνει όλες τις αντιστοιχίες της κανονικής έκφρασης με το καθορισμένο χρώμα. |
 | [highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)](#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Επισημαίνει όλες τις αντιστοιχίες της κανονικής έκφρασης με το καθορισμένο χρώμα. |
 | [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Αντικαθιστά όλες τις εμφανίσεις του καθορισμένου κειμένου με άλλο καθορισμένο κείμενο. |
 | [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Αντικαθιστά όλες τις αντιστοιχίες της κανονικής έκφρασης με τη συγκεκριμένη συμβολοσειρά. |
-
 ### getParagraphs() {#getParagraphs--}
 ```
 public abstract IParagraphCollection getParagraphs()
@@ -40,32 +40,30 @@ public abstract IParagraphCollection getParagraphs()
 
 Επιστρέφει τη λίστα όλων των παραγράφων σε ένα πλαίσιο. Μόνο για ανάγνωση [IParagraphCollection](../../com.aspose.slides/iparagraphcollection).
 
-**Επιστρέφει:**
+**Returns:**
 [IParagraphCollection](../../com.aspose.slides/iparagraphcollection)
-
 ### getText() {#getText--}
 ```
 public abstract String getText()
 ```
 
-Λαμβάνει ή ορίζει το απλό κείμενο για ένα TextFrame. Ανάγνωση/Εγγραφή String.
+Λαμβάνει ή ορίζει το απλό κείμενο για ένα TextFrame. Ανάγνωση/εγγραφή String.
 
-Τιμή: Το κείμενο.
+Value: Το κείμενο.
 
-**Επιστρέφει:**
+**Returns:**
 java.lang.String
-
 ### setText(String value) {#setText-java.lang.String-}
 ```
 public abstract void setText(String value)
 ```
 
-Λαμβάνει ή ορίζει το απλό κείμενο για ένα TextFrame. Ανάγνωση/Εγγραφή String.
+Λαμβάνει ή ορίζει το απλό κείμενο για ένα TextFrame. Ανάγνωση/εγγραφή String.
 
-Τιμή: Το κείμενο.
+Value: Το κείμενο.
 
-**Παράμετροι:**
-| Παράμετρος | Τύπος | Περιγραφή |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
@@ -74,27 +72,25 @@ public abstract void setText(String value)
 public abstract ITextFrameFormat getTextFrameFormat()
 ```
 
-Επιστρέφει το αντικείμενο μορφοποίησης για αυτό το αντικείμενο TextFrame. Μόνο για ανάγνωση [ITextFrameFormat](../../com.aspose.slides/itextframeformat).
+Επιστρέφει το αντικείμενο μορφοποίησης για αυτό το TextFrame. Μόνο για ανάγνωση [ITextFrameFormat](../../com.aspose.slides/itextframeformat).
 
-**Επιστρέφει:**
+**Returns:**
 [ITextFrameFormat](../../com.aspose.slides/itextframeformat)
-
 ### getHyperlinkQueries() {#getHyperlinkQueries--}
 ```
 public abstract IHyperlinkQueries getHyperlinkQueries()
 ```
 
-Παρέχει εύκολη πρόσβαση στους περιέχονται υπερσυνδέσμους. Μόνο για ανάγνωση [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
+Παρέχει εύκολη πρόσβαση σε ενσωματωμένες υπερσυνδέσεις. Μόνο για ανάγνωση [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
 
-**Επιστρέφει:**
+**Returns:**
 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)
-
 ### getParentShape() {#getParentShape--}
 ```
 public abstract IShape getParentShape()
 ```
 
-Επιστρέφει το γονικό σχήμα ή null εάν το γονικό αντικείμενο δεν υλοποιεί τη διεπαφή IShape Μόνο για ανάγνωση [IShape](../../com.aspose.slides/ishape).
+Επιστρέφει το γονικό σχήμα ή null εάν το γονικό αντικείμενο δεν υλοποιεί το interface IShape. Μόνο για ανάγνωση [IShape](../../com.aspose.slides/ishape).
 
 --------------------
 
@@ -106,7 +102,7 @@ public abstract IShape getParentShape()
 >      AutoShape autoShape = (AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0);
 >      Table table = (Table)presentation.getSlides().get_Item(0).getShapes().get_Item(1);
 > 
->      // These assertions are always true
+>      // Αυτές οι δηλώσεις είναι πάντα αληθινές
 >      Assert.assertTrue(autoShape.getTextFrame().getParentShape() == autoShape);
 >      Assert.assertTrue((table.get_Item(0,0).getTextFrame()).getParentShape() == null);
 >  } finally {
@@ -114,15 +110,28 @@ public abstract IShape getParentShape()
 >  }
 > ```
 
-**Επιστρέφει:**
-[IShape](../../com.aspose.slides/ishape)
 
+**Returns:**
+[IShape](../../com.aspose.slides/ishape)
+### getTextRect() {#getTextRect--}
+```
+public abstract Rectangle2D.Float getTextRect()
+```
+
+Λαμβάνει το ορθογώνιο κείμενο που ορίζεται από τη γεωμετρία του γονικού σχήματος.
+
+**Returns:**
+java.awt.geom.Rectangle2D.Float - Ένα java.awt.geom.Rectangle2D.Float που ορίζει την περιοχή κειμένου.
+
+--------------------
+
+Οι συντεταγμένες του ορθογωνίου είναι σχετικές με την επάνω αριστερή γωνία του γονικού σχήματος.
 ### getParentCell() {#getParentCell--}
 ```
 public abstract ICell getParentCell()
 ```
 
-Επιστρέφει το γονικό κελί ή null εάν το γονικό αντικείμενο δεν υλοποιεί τη διεπαφή ICell. Μόνο για ανάγνωση [ICell](../../com.aspose.slides/icell).
+Επιστρέφει το γονικό κελί ή null εάν το γονικό αντικείμενο δεν υλοποιεί το interface ICell. Μόνο για ανάγνωση [ICell](../../com.aspose.slides/icell).
 
 --------------------
 
@@ -134,7 +143,7 @@ public abstract ICell getParentCell()
 >      AutoShape autoShape = (AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0);
 >      Table table = (Table)presentation.getSlides().get_Item(0).getShapes().get_Item(1);
 > 
->      // These assertions are always true
+>      // Αυτές οι δηλώσεις είναι πάντα αληθινές
 >      Assert.assertTrue(table.get_Item(0,0).getTextFrame().getParentCell() == table.get_Item(0,0));
 >      Assert.assertTrue(autoShape.getTextFrame().getParentCell() == null);
 >  } finally {
@@ -142,15 +151,15 @@ public abstract ICell getParentCell()
 >  }
 > ```
 
-**Επιστρέφει:**
-[ICell](../../com.aspose.slides/icell)
 
+**Returns:**
+[ICell](../../com.aspose.slides/icell)
 ### joinPortionsWithSameFormatting() {#joinPortionsWithSameFormatting--}
 ```
 public abstract void joinPortionsWithSameFormatting()
 ```
 
-Συνδέει τις ακολουθίες με ίδια μορφοποίηση σε όλες τις παραγράφους.
+Συγχωνεύει τμήματα με την ίδια μορφοποίηση σε όλες τις παραγράφους.
 
 ### highlightText(String text, Color highlightColor) {#highlightText-java.lang.String-java.awt.Color-}
 ```
@@ -159,18 +168,18 @@ public abstract void highlightText(String text, Color highlightColor)
 
 Επισημαίνει όλες τις αντιστοιχίες του δείγματος κειμένου με το καθορισμένο χρώμα.
 
-**Παράμετροι:**
-| Παράμετρος | Τύπος | Περιγραφή |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | text | java.lang.String | Το κείμενο προς επισήμανση. |
-| highlightColor | java.awt.Color | Το χρώμα με το οποίο θα επισημανθεί το κείμενο. |
+| highlightColor | java.awt.Color | Το χρώμα για την επισήμανση του κειμένου. |
 
 ### splitTextByColumns() {#splitTextByColumns--}
 ```
 public abstract String[] splitTextByColumns()
 ```
 
-Διαχωρίζει το κειμενικό περιεχόμενο του [ITextFrame](../../com.aspose.slides/itextframe) σε έναν πίνακα συμβολοσειρών, όπου κάθε στοιχείο αντιστοιχεί σε ξεχωριστή στήλη κειμένου μέσα στο πλαίσιο.
+Διαχωρίζει το περιεχόμενο κειμένου του [ITextFrame](../../com.aspose.slides/itextframe) σε έναν πίνακα συμβολοσειρών, όπου κάθε στοιχείο αντιστοιχεί σε ξεχωριστή στήλη κειμένου μέσα στο πλαίσιο.
 
 --------------------
 
@@ -179,11 +188,11 @@ public abstract String[] splitTextByColumns()
 >  
 >  Presentation pres = new Presentation("example.pptx");
 >  try {
->      // Get the first shape on the slide and cast it to ITextFrame
+>      // Λάβετε το πρώτο σχήμα στη διαφάνεια και μετατρέψτε το σε ITextFrame
 >      ITextFrame textFrame = (ITextFrame) pres.getSlides().get_Item(0).getShapes().get_Item(0);
->      // Split the text frame content into columns
+>      // Διαχωρίστε το περιεχόμενο του πλαισίου κειμένου σε στήλες
 >      String[] columnsText = textFrame.splitTextByColumns();
->      // Print each column's text to the console
+>      // Εκτυπώστε το κείμενο κάθε στήλης στην κονσόλα
 >      for (String column : columnsText)
 >          System.out.println(column);
 >  } finally {
@@ -191,13 +200,13 @@ public abstract String[] splitTextByColumns()
 >  }
 > ```
 
-**Επιστρέφει:**
-java.lang.String[] - Ένας πίνακας συμβολοσειρών, όπου κάθε συμβολοσειρά αντιπροσωπεύει το κειμενικό περιεχόμενο μιας συγκεκριμένης στήλης στο [ITextFrame](../../com.aspose.slides/itextframe).
+
+**Returns:**
+java.lang.String[] - Ένας πίνακας συμβολοσειρών, όπου κάθε συμβολοσειρά αντιπροσωπεύει το περιεχόμενο κειμένου μιας συγκεκριμένης στήλης στο [ITextFrame](../../com.aspose.slides/itextframe).
 
 --------------------
 
-Εάν το πλαίσιο κειμένου δεν περιέχει πολλαπλές στήλες, ο επιστρεφόμενος πίνακας θα έχει ένα μόνο στοιχείο που περιέχει ολόκληρο το κείμενο. Οι κενές στήλες θα αναπαρίστανται ως κενές συμβολοσειρές στον πίνακα.
-
+Εάν το πλαίσιο κειμένου δεν περιέχει πολλές στήλες, ο επιστρεφόμενος πίνακας θα έχει ένα μόνο στοιχείο που περιέχει ολόκληρο το κείμενο. Κενές στήλες θα αντιπροσωπεύονται ως κενές συμβολοσειρές στον πίνακα.
 ### highlightText(String text, Color highlightColor, ITextHighlightingOptions options) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-}
 ```
 public abstract void highlightText(String text, Color highlightColor, ITextHighlightingOptions options)
@@ -205,11 +214,11 @@ public abstract void highlightText(String text, Color highlightColor, ITextHighl
 
 Επισημαίνει όλες τις αντιστοιχίες του δείγματος κειμένου με το καθορισμένο χρώμα.
 
-**Παράμετροι:**
-| Παράμετρος | Τύπος | Περιγραφή |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | text | java.lang.String | Το κείμενο προς επισήμανση. |
-| highlightColor | java.awt.Color | Το χρώμα με το οποίο θα επισημανθεί το κείμενο. |
+| highlightColor | java.awt.Color | Το χρώμα για την επισήμανση του κειμένου. |
 | options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | Επιλογές επισήμανσης. |
 
 ### highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
@@ -238,13 +247,13 @@ public abstract void highlightText(String text, Color highlightColor, ITextSearc
 >  }
 > ```
 
-**Παράμετροι:**
-| Παράμετρος | Τύπος | Περιγραφή |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | text | java.lang.String | Το κείμενο προς επισήμανση. |
-| highlightColor | java.awt.Color | Το χρώμα με το οποίο θα επισημανθεί το κείμενο. |
+| highlightColor | java.awt.Color | Το χρώμα για την επισήμανση του κειμένου. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Επιλογές αναζήτησης κειμένου [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Το αντικείμενο κλήσης επιστροφής για λήψη αποτελεσμάτων αναζήτησης [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Το αντικείμενο callback για τη λήψη αποτελεσμάτων αναζήτησης [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback) {#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-}
 ```
@@ -261,7 +270,7 @@ public abstract void highlightRegex(Pattern regex, Color highlightColor, IFindRe
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      Pattern regex = Pattern.compile("\\b[^\\s]{5,}\\b");
->      // επισήμανση όλων των λέξεων με 5 σύμβολα ή περισσότερα
+>      // επισήμανση όλων των λέξεων με 5 σύμβολα ή περισσότερο
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightRegex(regex, Color.BLUE, null);
 >      presentation.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -270,12 +279,12 @@ public abstract void highlightRegex(Pattern regex, Color highlightColor, IFindRe
 > ```
 
 
-**Παράμετροι:**
-| Παράμετρος | Τύπος | Περιγραφή |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | Η κανονική έκφραση java.util.regex.Pattern για λήψη συμβολοσειρών προς επισήμανση. |
-| highlightColor | java.awt.Color | Το χρώμα με το οποίο θα επισημανθεί το κείμενο. |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Το αντικείμενο κλήσης επιστροφής για λήψη αποτελεσμάτων αναζήτησης [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| regex | java.util.regex.Pattern | Η κανονική έκφραση java.util.regex.Pattern για την εύρεση συμβολοσειρών προς επισήμανση. |
+| highlightColor | java.awt.Color | Το χρώμα για την επισήμανση του κειμένου. |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Το αντικείμενο callback για τη λήψη αποτελεσμάτων αναζήτησης [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options) {#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-}
 ```
@@ -284,11 +293,11 @@ public abstract void highlightRegex(String regex, Color highlightColor, ITextHig
 
 Επισημαίνει όλες τις αντιστοιχίες της κανονικής έκφρασης με το καθορισμένο χρώμα.
 
-**Παράμετροι:**
-| Παράμετρος | Τύπος | Περιγραφή |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| regex | java.lang.String | Κείμενο κανονικής έκφρασης για λήψη κειμένου προς επισήμανση. |
-| highlightColor | java.awt.Color | Το χρώμα με το οποίο θα επισημανθεί το κείμενο. |
+| regex | java.lang.String | Το κείμενο της κανονικής έκφρασης για την εύρεση κειμένου προς επισήμανση. |
+| highlightColor | java.awt.Color | Το χρώμα για την επισήμανση του κειμένου. |
 | options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | Επιλογές επισήμανσης. |
 
 ### replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback) {#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
@@ -316,13 +325,13 @@ public abstract void replaceText(String oldText, String newText, ITextSearchOpti
 > ```
 
 
-**Παράμετροι:**
-| Παράμετρος | Τύπος | Περιγραφή |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | oldText | java.lang.String | Η συμβολοσειρά που θα αντικατασταθεί. |
-| newText | java.lang.String | Η συμβολοσειρά που θα αντικαταστήσει όλες τις εμφανίσεις του oldText. |
+| newText | java.lang.String | Η συμβολοσειρά που αντικαθιστά όλες τις εμφανίσεις του oldText. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Επιλογές αναζήτησης κειμένου [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Το αντικείμενο κλήσης επιστροφής για λήψη αποτελεσμάτων αναζήτησης [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Το αντικείμενο callback για τη λήψη αποτελεσμάτων αναζήτησης [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### replaceRegex(Pattern regex, String newText, IFindResultCallback callback) {#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-}
 ```
@@ -348,9 +357,9 @@ public abstract void replaceRegex(Pattern regex, String newText, IFindResultCall
 > ```
 
 
-**Παράμετροι:**
-| Παράμετρος | Τύπος | Περιγραφή |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | Η κανονική έκφραση java.util.regex.Pattern για λήψη συμβολοσειρών προς αντικατάσταση. |
-| newText | java.lang.String | Η συμβολοσειρά που θα αντικαταστήσει όλες τις εμφανίσεις των συμβολοσειρών που θα αντικατασταθούν. |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Το αντικείμενο κλήσης επιστροφής για λήψη αποτελεσμάτων αναζήτησης [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| regex | java.util.regex.Pattern | Η κανονική έκφραση java.util.regex.Pattern για την εύρεση συμβολοσειρών προς αντικατάσταση. |
+| newText | java.lang.String | Η συμβολοσειρά που αντικαθιστά όλες τις εμφανίσεις των συμβολοσειρών που θα αντικατασταθούν. |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Το αντικείμενο callback για τη λήψη αποτελεσμάτων αναζήτησης [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |

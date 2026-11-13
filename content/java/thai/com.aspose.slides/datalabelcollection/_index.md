@@ -1,122 +1,132 @@
 ---
 title: DataLabelCollection
-second_title: Aspose.Slides สำหรับ Java API Reference
-description: แทนชุดป้ายกำกับของซีรีส์.
+second_title: Aspose.Slides สำหรับอ้างอิง API ของ Java
+description: แสดงฉลากของชุดข้อมูล.
 type: docs
 url: /th/com.aspose.slides/datalabelcollection/
 ---
-**การสืบทอด:**
+**Inheritance:**  
 java.lang.Object, com.aspose.slides.DomObject
 
-**อินเทอร์เฟซที่ทำตามทั้งหมด:**
-[com.aspose.slides.IDataLabelCollection](../../com.aspose.slides/idatalabelcollection)
+**All Implemented Interfaces:**  
+[com.aspose.slides.IDataLabelCollection](../../com.aspose.slides/idatalabelcollection)  
 ```
 public class DataLabelCollection extends DomObject<ChartSeries> implements IDataLabelCollection
 ```
 
-แทนชุดป้ายกำกับของซีรีส์.
+แสดงฉลากของชุดข้อมูล  
 ## เมธอด
 
-| เมธอด | คำอธิบาย |
+| Method | Description |
 | --- | --- |
-| [getChart()](#getChart--) | ส่งคืนแผนภูมิแม่. |
-| [iterator()](#iterator--) | ส่งคืนตัวนับที่วนผ่านคอลเลกชัน. |
-| [iteratorJava()](#iteratorJava--) | ส่งคืนตัววนของ java สำหรับคอลเลกชันทั้งหมด. |
-| [isVisible()](#isVisible--) | False หมายความว่าป้ายข้อมูลไม่แสดงตามค่าเริ่มต้น (and so all Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property are false). |
-| [hide()](#hide--) | ทำให้ป้ายข้อมูลซ่อนโดยค่าเริ่มต้นโดยตั้งค่าแฟล็ก Show*-flags (ShowValue, ...) ของคุณสมบัติ DefaultDataLabelFormat ให้เป็น false. |
-| [getCountOfVisibleDataLabels()](#getCountOfVisibleDataLabels--) | รับจำนวนป้ายข้อมูลที่มองเห็นได้ในคอลเลกชัน. |
-| [getCount()](#getCount--) | รับจำนวนป้ายข้อมูลทั้งหมดในคอลเลกชัน. |
-| [getDefaultDataLabelFormat()](#getDefaultDataLabelFormat--) | รับรูปแบบป้ายข้อมูลเริ่มต้น. |
-| [getLeaderLinesFormat()](#getLeaderLinesFormat--) | แทนรูปแบบเส้นนำของป้ายข้อมูล. |
-| [getParentSeries()](#getParentSeries--) | รับซีรีส์แม่. |
-| [indexOf(IDataLabel value)](#indexOf-com.aspose.slides.IDataLabel-) | ส่งคืนดัชนีของ DataLabel ที่ระบุในคอลเลกชัน. |
-| [get_Item(int index)](#get-Item-int-) | รับป้ายข้อมูลสำหรับจุดข้อมูลที่มีดัชนีที่ระบุ. |
-| [getSlide()](#getSlide--) | ส่งคืนสไลด์แม่ของ FillFormat. |
-| [getPresentation()](#getPresentation--) | ส่งคืนการนำเสนอแม่ของ FillFormat. |
+| [getChart()](#getChart--) | คืนค่าแผนภูมิต้นแบบ |
+| [iterator()](#iterator--) | คืนค่า enumerator ที่วนซ้ำผ่านคอลเลกชัน |
+| [iteratorJava()](#iteratorJava--) | คืนค่า java iterator สำหรับคอลเลกชันทั้งหมด |
+| [isVisible()](#isVisible--) | false หมายความว่า data label ไม่แสดงโดยค่าเริ่มต้น (และทำให้ Show*-flags ทั้งหมด (ShowValue, …) ของคุณสมบัติ DefaultDataLabelFormat เป็น false) |
+| [hide()](#hide--) | ทำให้ data label ซ่อนโดยค่าเริ่มต้นโดยตั้งค่า Show*-flags ทั้งหมด (ShowValue, …) ของคุณสมบัติ DefaultDataLabelFormat ให้เป็น false |
+| [getCountOfVisibleDataLabels()](#getCountOfVisibleDataLabels--) | รับจำนวนของ data label ที่มองเห็นได้ในคอลเลกชัน |
+| [getCount()](#getCount--) | รับจำนวนของ data label ทั้งหมดในคอลเลกชัน |
+| [getDefaultDataLabelFormat()](#getDefaultDataLabelFormat--) | รับรูปแบบ data label เริ่มต้น |
+| [getLeaderLinesFormat()](#getLeaderLinesFormat--) | แสดงรูปแบบเส้นนำของ data label |
+| [getParentSeries()](#getParentSeries--) | รับ series ต้นแบบ |
+| [indexOf(IDataLabel value)](#indexOf-com.aspose.slides.IDataLabel-) | คืนดัชนีของ DataLabel ที่ระบุในคอลเลกชัน |
+| [get_Item(int index)](#get-Item-int-) | รับ data label สำหรับจุดข้อมูลที่มีดัชนีระบุ |
+| [getDefaultLabelShapeType()](#getDefaultLabelShapeType--) | รับหรือกำหนดประเภทรูปทรงเริ่มต้นสำหรับ data label |
+| [setDefaultLabelShapeType(int value)](#setDefaultLabelShapeType-int-) | รับหรือกำหนดประเภทรูปทรงเริ่มต้นสำหรับ data label |
+| [getSlide()](#getSlide--) | คืนสไลด์แม่ของ FillFormat |
+| [getPresentation()](#getPresentation--) | คืนการพรีเซนเทชันแม่ของ FillFormat |
+
 ### getChart() {#getChart--}
 ```
 public final IChart getChart()
 ```
 
-ส่งคืนแผนภูมิแม่. อ่านอย่างเดียว [IChart](../../com.aspose.slides/ichart).
+คืนแผนภูมิต้นแบบ. อ่านอย่างเดียว [IChart](../../com.aspose.slides/ichart).
 
-**คืนค่า:**
+**คืนค่า:**  
 [IChart](../../com.aspose.slides/ichart)
+
 ### iterator() {#iterator--}
 ```
 public final System.Collections.Generic.IGenericEnumerator<IDataLabel> iterator()
 ```
 
-ส่งคืนตัวนับที่วนผ่านคอลเลกชัน.
+คืนค่า enumerator ที่วนซ้ำผ่านคอลเลกชัน.
 
-**คืนค่า:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.slides.IDataLabel> - IGenericEnumerator ที่สามารถใช้เพื่อวนผ่านคอลเลกชัน.
+**คืนค่า:**  
+com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.slides.IDataLabel> - A IGenericEnumerator that can be used to iterate through the collection.
+
 ### iteratorJava() {#iteratorJava--}
 ```
 public final System.Collections.Generic.IGenericEnumerator<IDataLabel> iteratorJava()
 ```
 
-ส่งคืนตัววนของ java สำหรับคอลเลกชันทั้งหมด.
+คืนค่า java iterator สำหรับคอลเลกชันทั้งหมด.
 
-**คืนค่า:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.slides.IDataLabel> - java.util.Iterator สำหรับคอลเลกชันทั้งหมด.
+**คืนค่า:**  
+com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.slides.IDataLabel> - An java.util.Iterator for the entire collection.
+
 ### isVisible() {#isVisible--}
 ```
 public final boolean isVisible()
 ```
 
-False หมายความว่าป้ายข้อมูลไม่แสดงตามค่าเริ่มต้น (and so all Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property are false). อ่านอย่างเดียว boolean.
+false หมายความว่า data label ไม่แสดงโดยค่าเริ่มต้น (และทำให้ Show*-flags ทั้งหมด (ShowValue, …) ของคุณสมบัติ DefaultDataLabelFormat เป็น false). อ่านอย่างเดียว boolean.
 
 --------------------
 
-หากป้ายข้อมูลแสดงตามค่าเริ่มต้น คุณสามารถทำให้ซ่อนตามค่าเริ่มต้นด้วยเมธอด Hide() ได้ แต่หากป้ายข้อมูลไม่แสดงตามค่าเริ่มต้น (IsVisible มีค่า false) คุณสามารถทำให้ป้ายข้อมูล "แสดงตามค่าเริ่มต้น" ได้โดยตั้งค่าแฟล็ก Show*-flags (ShowValue, ...) ของคุณสมบัติ DefaultDataLabelFormat ให้เป็น true
+หาก data label มองเห็นได้โดยค่าเริ่มต้นคุณสามารถทำให้มันซ่อนโดยค่าเริ่มต้นด้วยเมธอด Hide() แต่หาก data label ไม่มองเห็นได้โดยค่าเริ่มต้น (IsVisible เป็น false) คุณสามารถทำให้ data label “มองเห็นได้โดยค่าเริ่มต้น” โดยตั้งค่า Show*-flags (ShowValue, …) ของคุณสมบัติ DefaultDataLabelFormat ให้เป็น true
 
-**คืนค่า:**
+**คืนค่า:**  
 boolean
+
 ### hide() {#hide--}
 ```
 public final void hide()
 ```
 
-ทำให้ป้ายข้อมูลซ่อนตามค่าเริ่มต้นโดยตั้งค่าแฟล็ก Show*-flags (ShowValue, ...) ของคุณสมบัติ DefaultDataLabelFormat ให้เป็น false. IsVisible จะเป็น false หลังจากนี้.
+ทำให้ data label ซ่อนโดยค่าเริ่มต้นโดยตั้งค่า Show*-flags ทั้งหมด (ShowValue, …) ของคุณสมบัติ DefaultDataLabelFormat ให้เป็น false IsVisible จะเป็น false หลังจากนี้
 
 --------------------
 
-หากป้ายข้อมูลไม่แสดงตามค่าเริ่มต้น (IsVisible มีค่า false) คุณสามารถทำให้ป้ายข้อมูล "แสดงตามค่าเริ่มต้น" ได้โดยตั้งค่าแฟล็ก Show*-flags (ShowValue, ...) ของคุณสมบัติ DefaultDataLabelFormat ให้เป็น true
+หาก data label ไม่มองเห็นได้โดยค่าเริ่มต้น (IsVisible เป็น false) คุณสามารถทำให้ data label “มองเห็นได้โดยค่าเริ่มต้น” โดยตั้งค่า Show*-flags (ShowValue, …) ของคุณสมบัติ DefaultDataLabelFormat ให้เป็น true
 
 ### getCountOfVisibleDataLabels() {#getCountOfVisibleDataLabels--}
 ```
 public final int getCountOfVisibleDataLabels()
 ```
 
-รับจำนวนป้ายข้อมูลที่มองเห็นได้ในคอลเลกชัน. อ่านอย่างเดียว int.
+รับจำนวนของ data label ที่มองเห็นได้ในคอลเลกชัน. อ่านอย่างเดียว int.
 
-**คืนค่า:**
+**คืนค่า:**  
 int
+
 ### getCount() {#getCount--}
 ```
 public final int getCount()
 ```
 
-รับจำนวนป้ายข้อมูลทั้งหมดในคอลเลกชัน. อ่านอย่างเดียว int.
+รับจำนวนของ data label ทั้งหมดในคอลเลกชัน. อ่านอย่างเดียว int.
 
-**คืนค่า:**
+**คืนค่า:**  
 int
+
 ### getDefaultDataLabelFormat() {#getDefaultDataLabelFormat--}
 ```
 public final IDataLabelFormat getDefaultDataLabelFormat()
 ```
 
-รับรูปแบบป้ายข้อมูลเริ่มต้น. อ่านอย่างเดียว [IDataLabelFormat](../../com.aspose.slides/idatalabelformat).
+รับรูปแบบ data label เริ่มต้น. อ่านอย่างเดียว [IDataLabelFormat](../../com.aspose.slides/idatalabelformat).
 
-**คืนค่า:**
+**คืนค่า:**  
 [IDataLabelFormat](../../com.aspose.slides/idatalabelformat)
+
 ### getLeaderLinesFormat() {#getLeaderLinesFormat--}
 ```
 public final IChartLinesFormat getLeaderLinesFormat()
 ```
 
-แทนรูปแบบเส้นนำของป้ายข้อมูล. อ่านอย่างเดียว [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat).
+แสดงรูปแบบเส้นนำของ data label. อ่านอย่างเดียว [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat).
 
 --------------------
 
@@ -136,64 +146,131 @@ public final IChartLinesFormat getLeaderLinesFormat()
 > ```
 
 
-**คืนค่า:**
+**คืนค่า:**  
 [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat)
+
 ### getParentSeries() {#getParentSeries--}
 ```
 public final IChartSeries getParentSeries()
 ```
 
-รับซีรีส์แม่. อ่านอย่างเดียว [IChartSeries](../../com.aspose.slides/ichartseries).
+รับ series แม่. อ่านอย่างเดียว [IChartSeries](../../com.aspose.slides/ichartseries).
 
-**คืนค่า:**
+**คืนค่า:**  
 [IChartSeries](../../com.aspose.slides/ichartseries)
+
 ### indexOf(IDataLabel value) {#indexOf-com.aspose.slides.IDataLabel-}
 ```
 public final int indexOf(IDataLabel value)
 ```
 
-ส่งคืนดัชนีของ DataLabel ที่ระบุในคอลเลกชัน.
+คืนดัชนีของ DataLabel ที่ระบุในคอลเลกชัน.
 
-**พารามิเตอร์:**
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+**พารามิเตอร์:**  
+| พารามิเตอร์ | ประเภท | คำอธิบาย |
 | --- | --- | --- |
-| value | [IDataLabel](../../com.aspose.slides/idatalabel) | DataLabel ที่ต้องการค้นหา. |
+| value | [IDataLabel](../../com.aspose.slides/idatalabel) | DataLabel ที่ต้องการค้นหา |
 
-**คืนค่า:**
-int - ดัชนีของ DataLabel หรือ -1 หาก DataLabel ไม่อยู่ในคอลเลกชันนี้.
+**คืนค่า:**  
+int - ดัชนีของ DataLabel หรือ -1 หาก DataLabel ไม่ได้มาจากคอลเลกชันนี้
+
 ### get_Item(int index) {#get-Item-int-}
 ```
 public final IDataLabel get_Item(int index)
 ```
 
-รับป้ายข้อมูลสำหรับจุดข้อมูลที่มีดัชนีที่ระบุ.
+รับ data label สำหรับจุดข้อมูลที่มีดัชนีระบุ.
 
 --------------------
 
-วิธีการเข้าถึงป้ายข้อมูลแบบสลับคือ: - series.getDataPoints().get_Item(i).getLabel() - จัดการคุณสมบัติป้าย.
+วิธีทางเลือกในการเข้าถึง data label คือ: - series.getDataPoints().get_Item(i).getLabel() - จัดการคุณสมบัติของ label.
 
-**พารามิเตอร์:**
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+**พารามิเตอร์:**  
+| พารามิเตอร์ | ประเภท | คำอธิบาย |
 | --- | --- | --- |
 | index | int |  |
 
-**คืนค่า:**
+**คืนค่า:**  
 [IDataLabel](../../com.aspose.slides/idatalabel)
+
+### getDefaultLabelShapeType() {#getDefaultLabelShapeType--}
+```
+public final int getDefaultLabelShapeType()
+```
+
+รับหรือกำหนดประเภทรูปทรงเริ่มต้นสำหรับ data label. คืนค่า [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) หากไม่ได้กำหนดรูปทรง.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // ตั้งค่าชนิดรูปทรงของทุก data label ใน series แรกเป็น Ellipse.
+>      firstSeries.getLabels().setDefaultLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabels.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+--------------------
+
+การตั้งค่าคุณสมบัตินี้จะตั้งค่า IDataLabel.LabelShapeType ([IDataLabel.getLabelShapeType](../../com.aspose.slides/idatalabel\#getLabelShapeType)/[IDataLabel.setLabelShapeType(int)](../../com.aspose.slides/idatalabel\#setLabelShapeType-int-)) สำหรับ data label ทั้งหมดในคอลเลกชันให้เป็นค่าเดียวกัน
+
+**คืนค่า:**  
+int
+
+### setDefaultLabelShapeType(int value) {#setDefaultLabelShapeType-int-}
+```
+public final void setDefaultLabelShapeType(int value)
+```
+
+รับหรือกำหนดประเภทรูปทรงเริ่มต้นสำหรับ data label. คืนค่า [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) หากไม่ได้กำหนดรูปทรง.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // ตั้งค่าชนิดรูปทรงของทุก data label ใน series แรกเป็น Ellipse.
+>      firstSeries.getLabels().setDefaultLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabels.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+--------------------
+
+การตั้งค่าคุณสมบัตินี้จะตั้งค่า IDataLabel.LabelShapeType ([IDataLabel.getLabelShapeType](../../com.aspose.slides/idatalabel\#getLabelShapeType)/[IDataLabel.setLabelShapeType(int)](../../com.aspose.slides/idatalabel\#setLabelShapeType-int-)) สำหรับ data label ทั้งหมดในคอลเลกชันให้เป็นค่าเดียวกัน
+
+**พารามิเตอร์:**  
+| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| --- | --- | --- |
+| value | int |  |
+
 ### getSlide() {#getSlide--}
 ```
 public final IBaseSlide getSlide()
 ```
 
-ส่งคืนสไลด์แม่ของ FillFormat. อ่านอย่างเดียว [BaseSlide](../../com.aspose.slides/baseslide).
+คืนสไลด์แม่ของ FillFormat. อ่านอย่างเดียว [BaseSlide](../../com.aspose.slides/baseslide).
 
-**คืนค่า:**
+**คืนค่า:**  
 [IBaseSlide](../../com.aspose.slides/ibaseslide)
+
 ### getPresentation() {#getPresentation--}
 ```
 public final IPresentation getPresentation()
 ```
 
-ส่งคืนการนำเสนอแม่ของ FillFormat. อ่านอย่างเดียว [IPresentation](../../com.aspose.slides/ipresentation).
+คืนการพรีเซนเทชันแม่ของ FillFormat. อ่านอย่างเดียว [IPresentation](../../com.aspose.slides/ipresentation).
 
-**คืนค่า:**
+**คืนค่า:**  
 [IPresentation](../../com.aspose.slides/ipresentation)

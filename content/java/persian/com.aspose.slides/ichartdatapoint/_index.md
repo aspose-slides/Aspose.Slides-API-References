@@ -1,44 +1,48 @@
 ---
 title: IChartDataPoint
-second_title: مرجع API Aspose.Slides برای Java
-description: نماینده نقطه دادهٔ سری.
+second_title: مرجع API Aspose.Slides برای جاوا
+description: نقطه داده‌ای سری را نشان می‌دهد.
 type: docs
 url: /fa/com.aspose.slides/ichartdatapoint/
 ---
-**همه رابط‌های پیاده‌سازی‌شده:**
+**تمام رابط‌های پیاده‌سازی‌شده:**  
 [com.aspose.slides.IActualLayout](../../com.aspose.slides/iactuallayout)
 ```
 public interface IChartDataPoint extends IActualLayout
 ```
 
-نماینده نقطه داده سری.
+نقطه داده‌ای سری را نشان می‌دهد.
 ## متدها
 
 | متد | توضیح |
 | --- | --- |
-| [getXValue()](#getXValue--) | مقدار x نقطه دادهٔ نمودار را برمی‌گرداند. |
-| [getYValue()](#getYValue--) | مقدار y نقطه دادهٔ نمودار را برمی‌گرداند. |
-| [getBubbleSize()](#getBubbleSize--) | اندازهٔ حباب نقطه دادهٔ نمودار را برمی‌گرداند. |
-| [getValue()](#getValue--) | مقدار نقطه دادهٔ نمودار را برمی‌گرداند. |
-| [getSizeValue()](#getSizeValue--) | مقدار اندازهٔ نقطه دادهٔ نمودار را برمی‌گرداند. |
-| [getColorValue()](#getColorValue--) | مقدار رنگ نقطه دادهٔ نمودار را برمی‌گرداند. |
-| [getErrorBarsCustomValues()](#getErrorBarsCustomValues--) | مقادیر نمودار خطای سری را در حالت نوع مقدار سفارشی نشان می‌دهد. |
-| [getLabel()](#getLabel--) | برچسب نقطه دادهٔ نمودار را نشان می‌دهد. |
-| [isBubble3D()](#isBubble3D--) | مشخص می‌کند که حباب‌ها اثر سه‌بعدی دارند. |
-| [setBubble3D(boolean value)](#setBubble3D-boolean-) | مشخص می‌کند که حباب‌ها اثر سه‌بعدی دارند. |
-| [getExplosion()](#getExplosion--) | مقدار جابه‌جایی نقطه داده از مرکز کیک را مشخص می‌کند. |
-| [setExplosion(int value)](#setExplosion-int-) | مقدار جابه‌جایی نقطه داده از مرکز کیک را مشخص می‌کند. |
+| [getXValue()](#getXValue--) | مقدار x یک نقطه داده نمودار را می‌گیرد. |
+| [getYValue()](#getYValue--) | مقدار y یک نقطه داده نمودار را می‌گیرد. |
+| [getBubbleSize()](#getBubbleSize--) | اندازه حباب یک نقطه داده نمودار را می‌گیرد. |
+| [getValue()](#getValue--) | مقدار یک نقطه داده نمودار را می‌گیرد. |
+| [getCachedXValue()](#getCachedXValue--) | مقدار X کش‌شده یک نقطه داده نمودار را می‌گیرد. |
+| [getCachedYValue()](#getCachedYValue--) | مقدار Y کش‌شده یک نقطه داده نمودار را می‌گیرد. |
+| [getCachedValue()](#getCachedValue--) | مقدار کش‌شده یک نقطه داده نمودار را می‌گیرد. |
+| [getCachedBubbleSize()](#getCachedBubbleSize--) | اندازه حباب کش‌شده یک نقطه داده نمودار را می‌گیرد. |
+| [getSizeValue()](#getSizeValue--) | مقدار اندازه یک نقطه داده نمودار را می‌گیرد. |
+| [getColorValue()](#getColorValue--) | مقدار رنگ یک نقطه داده نمودار را می‌گیرد. |
+| [getErrorBarsCustomValues()](#getErrorBarsCustomValues--) | مقدارهای نوارهای خطای سری را در حالت نوع مقدار سفارشی نشان می‌دهد. |
+| [getLabel()](#getLabel--) | برچسب یک نقطه داده نمودار را نشان می‌دهد. |
+| [isBubble3D()](#isBubble3D--) | مشخص می‌کند که حباب‌ها اثر ۳-بعدی دارند. |
+| [setBubble3D(boolean value)](#setBubble3D-boolean-) | مشخص می‌کند که حباب‌ها اثر ۳-بعدی دارند. |
+| [getExplosion()](#getExplosion--) | مقدار جابه‌جایی نقطه داده از مرکز قطاع را مشخص می‌کند. |
+| [setExplosion(int value)](#setExplosion-int-) | مقدار جابه‌جایی نقطه داده از مرکز قطاع را مشخص می‌کند. |
 | [getFormat()](#getFormat--) | ویژگی‌های قالب‌بندی را نشان می‌دهد. |
 | [setFormat(IFormat value)](#setFormat-com.aspose.slides.IFormat-) | ویژگی‌های قالب‌بندی را نشان می‌دهد. |
 | [getMarker()](#getMarker--) | یک نشانگر داده را مشخص می‌کند. |
 | [remove()](#remove--) | نقطه داده را از سری نمودار حذف می‌کند. |
-| [getAutomaticDataPointColor()](#getAutomaticDataPointColor--) | رنگ خودکار نقطه داده را بر اساس شاخص سری، شاخص نقطه داده، ویژگی ParentSeriesGroup.IsColorVaried و سبک نمودار برمی‌گرداند. |
-| [getRelatedLegendEntry()](#getRelatedLegendEntry--) | ویژگی‌های ورودی افسانهٔ متناظر در صورت نوع نمودار از این فهرست: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. |
-| [getSetAsTotal()](#getSetAsTotal--) | نقطه داده را به‌عنوان مجموع تنظیم می‌کند. |
-| [setSetAsTotal(boolean value)](#setSetAsTotal-boolean-) | نقطه داده را به‌عنوان مجموع تنظیم می‌کند. |
-| [getInvertIfNegative()](#getInvertIfNegative--) | در صورت منفی بودن مقدار، رنگ‌های نقطه داده را معکوس می‌کند. |
-| [setInvertIfNegative(boolean value)](#setInvertIfNegative-boolean-) | در صورت منفی بودن مقدار، رنگ‌های نقطه داده را معکوس می‌کند. |
-| [getDataPointLevels()](#getDataPointLevels--) | ظرف سطوح نقطه داده را برمی‌گرداند. |
+| [getAutomaticDataPointColor()](#getAutomaticDataPointColor--) | یک رنگ خودکار برای نقطه داده بر اساس ایندکس سری، ایندکس نقطه داده، ویژگی ParentSeriesGroup.IsColorVaried و سبک نمودار برمی‌گرداند. |
+| [getRelatedLegendEntry()](#getRelatedLegendEntry--) | خواص مورد مرتبط در لیجند برای نوع نمودارهای این فهرست: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. |
+| [getSetAsTotal()](#getSetAsTotal--) | نقطه داده را به عنوان مجموع تنظیم می‌کند. |
+| [setSetAsTotal(boolean value)](#setSetAsTotal-boolean-) | نقطه داده را به عنوان مجموع تنظیم می‌کند. |
+| [getInvertIfNegative()](#getInvertIfNegative--) | مشخص می‌کند که نقطه داده در صورت منفی بودن مقدار، رنگ‌های خود را معکوس کند. |
+| [setInvertIfNegative(boolean value)](#setInvertIfNegative-boolean-) | مشخص می‌کند که نقطه داده در صورت منفی بودن مقدار، رنگ‌های خود را معکوس کند. |
+| [getDataPointLevels()](#getDataPointLevels--) | محفظهٔ سطوح نقاط داده را برمی‌گرداند. |
 | [getIndex()](#getIndex--) | تعیین می‌کند این نقطه داده به کدام مجموعهٔ فرزندان والد تعلق دارد. |
 
 ### getXValue() {#getXValue--}
@@ -46,7 +50,7 @@ public interface IChartDataPoint extends IActualLayout
 public abstract IStringOrDoubleChartValue getXValue()
 ```
 
-مقدار x نقطه دادهٔ نمودار را برمی‌گرداند. فقط خواندنی [IStringOrDoubleChartValue](../../com.aspose.slides/istringordoublechartvalue).
+مقدار x یک نقطه داده نمودار را می‌گیرد. فقط‌خواندنی [IStringOrDoubleChartValue](../../com.aspose.slides/istringordoublechartvalue).
 
 **بازگشت:**
 [IStringOrDoubleChartValue](../../com.aspose.slides/istringordoublechartvalue)
@@ -56,7 +60,7 @@ public abstract IStringOrDoubleChartValue getXValue()
 public abstract IDoubleChartValue getYValue()
 ```
 
-مقدار y نقطه دادهٔ نمودار را برمی‌گرداند. فقط خواندنی [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
+مقدار y یک نقطه داده نمودار را می‌گیرد. فقط‌خواندنی [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
 **بازگشت:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
@@ -66,7 +70,7 @@ public abstract IDoubleChartValue getYValue()
 public abstract IDoubleChartValue getBubbleSize()
 ```
 
-اندازهٔ حباب نقطه دادهٔ نمودار را برمی‌گرداند. فقط خواندنی [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
+اندازه حباب یک نقطه داده نمودار را می‌گیرد. فقط‌خواندنی [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
 **بازگشت:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
@@ -76,17 +80,125 @@ public abstract IDoubleChartValue getBubbleSize()
 public abstract IDoubleChartValue getValue()
 ```
 
-مقدار نقطه دادهٔ نمودار را برمی‌گرداند. فقط خواندنی [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
+مقدار یک نقطه داده نمودار را می‌گیرد. فقط‌خواندنی [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
 **بازگشت:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
+
+### getCachedXValue() {#getCachedXValue--}
+```
+public abstract ICachedChartValue getCachedXValue()
+```
+
+مقدار X کش‌شده یک نقطه داده نمودار را می‌گیرد. فقط‌خواندنی [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // تمام مقادیر X کش‌شده سری نمودار را چاپ می‌کند.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedXValue().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**بازگشت:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
+
+### getCachedYValue() {#getCachedYValue--}
+```
+public abstract ICachedChartValue getCachedYValue()
+```
+
+مقدار Y کش‌شده یک نقطه داده نمودار را می‌گیرد. فقط‌خواندنی [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // تمام مقادیر Y کش‌شده سری نمودار را چاپ می‌کند.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedYValue().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**بازگشت:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
+
+### getCachedValue() {#getCachedValue--}
+```
+public abstract ICachedChartValue getCachedValue()
+```
+
+مقدار کش‌شده یک نقطه داده نمودار را می‌گیرد. فقط‌خواندنی [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // تمام مقادیر کش‌شده سری نمودار را چاپ می‌کند.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedValue().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**بازگشت:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
+
+### getCachedBubbleSize() {#getCachedBubbleSize--}
+```
+public abstract ICachedChartValue getCachedBubbleSize()
+```
+
+اندازه حباب کش‌شده یک نقطه داده نمودار را می‌گیرد. فقط‌خواندنی [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // تمام مقادیر حجم حباب کش‌شده سری نمودار را چاپ می‌کند.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedBubbleSize().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**بازگشت:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
 
 ### getSizeValue() {#getSizeValue--}
 ```
 public abstract IDoubleChartValue getSizeValue()
 ```
 
-مقدار اندازهٔ نقطه دادهٔ نمودار را برمی‌گرداند. برای نمودارهای Treemap و Sunburst استفاده می‌شود. فقط خواندنی [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
+مقدار اندازه یک نقطه داده نمودار را می‌گیرد. برای نمودارهای Treemap و Sunburst استفاده می‌شود. فقط‌خواندنی [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
 **بازگشت:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
@@ -96,7 +208,7 @@ public abstract IDoubleChartValue getSizeValue()
 public abstract IDoubleChartValue getColorValue()
 ```
 
-مقدار رنگ نقطه دادهٔ نمودار را برمی‌گرداند. برای نمودارهای نقشه استفاده می‌شود. فقط خواندنی [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
+مقدار رنگ یک نقطه داده نمودار را می‌گیرد. برای نمودارهای نقشه استفاده می‌شود. فقط‌خواندنی [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
 **بازگشت:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
@@ -106,7 +218,7 @@ public abstract IDoubleChartValue getColorValue()
 public abstract IErrorBarsCustomValues getErrorBarsCustomValues()
 ```
 
-مقادیری خطای سری را در حالت نوع مقدار سفارشی نشان می‌دهد. فقط خواندنی [IErrorBarsCustomValues](../../com.aspose.slides/ierrorbarscustomvalues).
+مقدارهای نوارهای خطای سری را در حالت نوع مقدار سفارشی نشان می‌دهد. فقط‌خواندنی [IErrorBarsCustomValues](../../com.aspose.slides/ierrorbarscustomvalues).
 
 **بازگشت:**
 [IErrorBarsCustomValues](../../com.aspose.slides/ierrorbarscustomvalues)
@@ -116,7 +228,7 @@ public abstract IErrorBarsCustomValues getErrorBarsCustomValues()
 public abstract IDataLabel getLabel()
 ```
 
-برچسب نقطه دادهٔ نمودار را نشان می‌دهد. فقط خواندنی [IDataLabel](../../com.aspose.slides/idatalabel).
+برچسب یک نقطه داده نمودار را نشان می‌دهد. فقط‌خواندنی [IDataLabel](../../com.aspose.slides/idatalabel).
 
 **بازگشت:**
 [IDataLabel](../../com.aspose.slides/idatalabel)
@@ -126,7 +238,7 @@ public abstract IDataLabel getLabel()
 public abstract boolean isBubble3D()
 ```
 
-مشخص می‌کند که حباب‌ها اثر سه‌بعدی دارند. خواندنی/قابل نوشتن boolean.
+مشخص می‌کند که حباب‌ها اثر ۳-بعدی دارند. قابل‌خواندن/نوشتن بولی.
 
 **بازگشت:**
 boolean
@@ -136,7 +248,7 @@ boolean
 public abstract void setBubble3D(boolean value)
 ```
 
-مشخص می‌کند که حباب‌ها اثر سه‌بعدی دارند. خواندنی/قابل نوشتن boolean.
+مشخص می‌کند که حباب‌ها اثر ۳-بعدی دارند. قابل‌خواندن/نوشتن بولی.
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
@@ -148,7 +260,7 @@ public abstract void setBubble3D(boolean value)
 public abstract int getExplosion()
 ```
 
-مقداری که نقطه داده باید از مرکز کیک جابجا شود را مشخص می‌کند. خواندنی/قابل نوشتن int.
+مقدار جابه‌جایی نقطه داده از مرکز قطاع را مشخص می‌کند. قابل‌خواندن/نوشتن عدد صحیح.
 
 **بازگشت:**
 int
@@ -158,7 +270,7 @@ int
 public abstract void setExplosion(int value)
 ```
 
-مقداری که نقطه داده باید از مرکز کیک جابجا شود را مشخص می‌کند. خواندنی/قابل نوشتن int.
+مقدار جابه‌جایی نقطه داده از مرکز قطاع را مشخص می‌کند. قابل‌خواندن/نوشتن عدد صحیح.
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
@@ -170,7 +282,7 @@ public abstract void setExplosion(int value)
 public abstract IFormat getFormat()
 ```
 
-ویژگی‌های قالب‌بندی را نشان می‌دهد. خواندنی/قابل نوشتن [IFormat](../../com.aspose.slides/iformat).
+ویژگی‌های قالب‌بندی را نشان می‌دهد. قابل‌خواندن/نوشتن [IFormat](../../com.aspose.slides/iformat).
 
 **بازگشت:**
 [IFormat](../../com.aspose.slides/iformat)
@@ -180,7 +292,7 @@ public abstract IFormat getFormat()
 public abstract void setFormat(IFormat value)
 ```
 
-ویژگی‌های قالب‌بندی را نشان می‌دهد. خواندنی/قابل نوشتن [IFormat](../../com.aspose.slides/iformat).
+ویژگی‌های قالب‌بندی را نشان می‌دهد. قابل‌خواندن/نوشتن [IFormat](../../com.aspose.slides/iformat).
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
@@ -192,7 +304,7 @@ public abstract void setFormat(IFormat value)
 public abstract IMarker getMarker()
 ```
 
-یک نشانگر داده را مشخص می‌کند. فقط خواندنی [IMarker](../../com.aspose.slides/imarker).
+یک نشانگر داده را مشخص می‌کند. فقط‌خواندنی [IMarker](../../com.aspose.slides/imarker).
 
 **بازگشت:**
 [IMarker](../../com.aspose.slides/imarker)
@@ -209,7 +321,7 @@ public abstract void remove()
 public abstract Color getAutomaticDataPointColor()
 ```
 
-یک رنگ خودکار برای نقطه داده بر اساس شاخص سری، شاخص نقطه داده، ویژگی ParentSeriesGroup.IsColorVaried و سبک نمودار برمی‌گرداند. این رنگ به‌صورت پیش‌فرض اگر FillType برابر NotDefined باشد استفاده می‌شود.
+یک رنگ خودکار برای نقطه داده بر اساس ایندکس سری، ایندکس نقطه داده، ویژگی ParentSeriesGroup.IsColorVaried و سبک نمودار برمی‌گرداند. این رنگ به‌صورت پیش‌فرض استفاده می‌شود اگر FillType برابر NotDefined باشد.
 
 **بازگشت:**
 java.awt.Color - رنگ خودکار نقطه داده java.awt.Color
@@ -219,7 +331,7 @@ java.awt.Color - رنگ خودکار نقطه داده java.awt.Color
 public abstract ILegendEntryProperties getRelatedLegendEntry()
 ```
 
-ویژگی‌های ورودی افسانهٔ متناظر در صورت نوع نمودار از این فهرست: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. فقط خواندنی [ILegendEntryProperties](../../com.aspose.slides/ilegendentryproperties).
+خواص مورد مرتبط در لیجند برای نوع نمودارهای این فهرست: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. فقط‌خواندنی [ILegendEntryProperties](../../com.aspose.slides/ilegendentryproperties).
 
 **بازگشت:**
 [ILegendEntryProperties](../../com.aspose.slides/ilegendentryproperties)
@@ -229,7 +341,7 @@ public abstract ILegendEntryProperties getRelatedLegendEntry()
 public abstract boolean getSetAsTotal()
 ```
 
-نقطه داده را به‌عنوان مجموع تنظیم می‌کند. فقط برای نوع سری Waterfall اعمال می‌شود.
+نقطه داده را به عنوان مجموع تنظیم می‌کند. برای نوع سری Waterfall فقط اعمال می‌شود.
 
 **بازگشت:**
 boolean
@@ -239,7 +351,7 @@ boolean
 public abstract void setSetAsTotal(boolean value)
 ```
 
-نقطه داده را به‌عنوان مجموع تنظیم می‌کند. فقط برای نوع سری Waterfall اعمال می‌شود.
+نقطه داده را به عنوان مجموع تنظیم می‌کند. برای نوع سری Waterfall فقط اعمال می‌شود.
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
@@ -251,7 +363,7 @@ public abstract void setSetAsTotal(boolean value)
 public abstract boolean getInvertIfNegative()
 ```
 
-مشخص می‌کند که نقطه داده در صورت منفی بودن مقدار، رنگ‌های خود را معکوس می‌کند. خواندنی/قابل نوشتن boolean.
+مشخص می‌کند که نقطه داده در صورت منفی بودن مقدار، رنگ‌های خود را معکوس کند. قابل‌خواندن/نوشتن بولی.
 
 **بازگشت:**
 boolean
@@ -261,7 +373,7 @@ boolean
 public abstract void setInvertIfNegative(boolean value)
 ```
 
-مشخص می‌کند که نقطه داده در صورت منفی بودن مقدار، رنگ‌های خود را معکوس می‌کند. خواندنی/قابل نوشتن boolean.
+مشخص می‌کند که نقطه داده در صورت منفی بودن مقدار، رنگ‌های خود را معکوس کند. قابل‌خواندن/نوشتن بولی.
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
@@ -273,7 +385,7 @@ public abstract void setInvertIfNegative(boolean value)
 public abstract IChartDataPointLevelsManager getDataPointLevels()
 ```
 
-ظرف سطوح نقطه داده را برمی‌گرداند. برای سری‌های Treeamp و Sunburst کاربرد دارد. ایندکس سطوح نقطه داده صفر‌مبنا است.
+محفظهٔ سطوح نقاط داده را برمی‌گرداند. برای سری‌های Treeamp و Sunburst اعمال می‌شود. شاخص‌بندی سطوح نقطه داده از صفر شروع می‌شود.
 
 **بازگشت:**
 [IChartDataPointLevelsManager](../../com.aspose.slides/ichartdatapointlevelsmanager)
@@ -283,7 +395,7 @@ public abstract IChartDataPointLevelsManager getDataPointLevels()
 public abstract long getIndex()
 ```
 
-تعیین می‌کند این نقطه داده به کدام مجموعهٔ فرزندان والد تعلق دارد. خواندنی long.
+تعیین می‌کند این نقطه داده به کدام مجموعهٔ فرزندان والد تعلق دارد. فقط عدد صحیح طول.
 
 **بازگشت:**
 long

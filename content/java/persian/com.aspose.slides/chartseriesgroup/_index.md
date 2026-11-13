@@ -1,59 +1,58 @@
 ---
 title: ChartSeriesGroup
-second_title: مرجع API Aspose.Slides برای جاوا
+second_title: Aspose.Slides برای مرجع API جاوا
 description: نمایانگر گروهی از سری‌ها.
 type: docs
 url: /fa/com.aspose.slides/chartseriesgroup/
 ---
-**ارث‌بری:**  
+**وراثت:**
 java.lang.Object
 
-**تمام رابط‌های پیاده‌سازی‌شده:**  
-[com.aspose.slides.IChartSeriesGroup](../../com.aspose.slides/ichartseriesgroup), com.aspose.slides.IDOMObject  
+**تمام رابط‌های پیاده‌سازی شده:**
+[com.aspose.slides.IChartSeriesGroup](../../com.aspose.slides/ichartseriesgroup), com.aspose.slides.IDOMObject
 ```
 public class ChartSeriesGroup implements IChartSeriesGroup, IDOMObject
 ```
 
-نمایانگر گروهی از سری‌ها.
+نمایشگر گروهی از سری‌ها.
 
 --------------------
 
-1) خلاصه و توضیحات مربوط به کلاس ChartSeriesGroupCollection و enum CombinableSeriesTypesGroup را ببینید. 2) گروهی از سری‌ها شامل برخی ویژگی‌های سری است که برای هر سری در گروه مشترک است ("series group properties"). ویژگی‌های "series group properties" در کلاس ChartSeriesGroup قابل خواندن/نوشتن است. هر یک از "series group properties" می‌تواند یک نسخه فقط-خواندنی در کلاس ChartSeries داشته باشد.
-
+1) خلاصه و ملاحظات را برای کلاس ChartSeriesGroupCollection و شمارش CombinableSeriesTypesGroup مشاهده کنید. 2) گروهی از سری‌ها شامل برخی ویژگی‌های سری است که برای هر سری در گروه مشترک است ("ویژگی‌های گروه سری"). "ویژگی‌های گروه سری" در کلاس ChartSeriesGroup خواندنی/نوشتنی است. هر یک از "ویژگی‌های گروه سری" می‌تواند یک پیش‌نمایش فقط-خواندنی در کلاس ChartSeries داشته باشد.
 ## متدها
 
 | متد | توضیح |
 | --- | --- |
 | [getType()](#getType--) | یک نوع از این گروه سری را برمی‌گرداند. |
-| [getPlotOnSecondAxis()](#getPlotOnSecondAxis--) | نشان می‌دهد آیا سری‌های این گروه بر محور ثانویه رسم می‌شوند. |
+| [getPlotOnSecondAxis()](#getPlotOnSecondAxis--) | نشان می‌دهد که آیا سری‌های این گروه روی محور ثانویه رسم می‌شوند یا نه. |
 | [getSeries()](#getSeries--) | یک مجموعه از سری‌ها را برمی‌گرداند. |
-| [get_Item(int index)](#get-Item-int-) | عنصر در ایندکس مشخص‌شده را دریافت می‌کند. |
-| [getUpDownBars()](#getUpDownBars--) | دسترسی به نوارهای بالا/پایین نمودار Line یا Stock را فراهم می‌کند. |
-| [getGapWidth()](#getGapWidth--) | فضای بین خوشه‌های نوار یا ستون را به‌عنوان درصدی از عرض نوار یا ستون مشخص می‌کند. |
-| [setGapWidth(int value)](#setGapWidth-int-) | فضای بین خوشه‌های نوار یا ستون را به‌عنوان درصدی از عرض نورد یا ستون مشخص می‌کند. |
-| [getGapDepth()](#getGapDepth--) | فاصله، به‌صورت درصدی از عرض نشانگر، بین سری‌های داده در نمودار سه‌بعدی را برمی‌گرداند یا تنظیم می‌کند. |
-| [setGapDepth(int value)](#setGapDepth-int-) | فاصله، به‌صورت درصدی از عرض نشانگر، بین سری‌های داده در نمودار سه‌بعدی را برمی‌گرداند یا تنظیم می‌کند. |
-| [getFirstSliceAngle()](#getFirstSliceAngle--) | زاویه اولین برش کیک یا دونات را به‌صورت درجه (از ۰ تا ۳۶۰ درجه، ساعتگرد از بالا) دریافت یا تنظیم می‌کند. |
-| [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | زاویه اولین برش کیک یا دونات را به‌صورت درجه (از ۰ تا ۳۶۰ درجه، ساعتگرد از بالا) دریافت یا تنظیم می‌کند. |
-| [getDoughnutHoleSize()](#getDoughnutHoleSize--) | اندازه سوراخ در نمودار دونات را مشخص می‌کند (می‌تواند بین ۰ تا ۹۰ درصد از اندازه ناحیه‌نقشه باشد). |
-| [setDoughnutHoleSize(byte value)](#setDoughnutHoleSize-byte-) | اندازه سوراخ در نمودار دونات را مشخص می‌کند (می‌تواند بین ۰ تا ۹۰ درصد از اندازه ناحیه‌نقشه باشد). |
-| [getOverlap()](#getOverlap--) | درصد همپوشانی نوارها و ستون‌ها در نمودارهای دو‌بعدی را مشخص می‌کند (از -۱۰۰٪ تا ۱۰۰٪). |
-| [setOverlap(byte value)](#setOverlap-byte-) | درصد همپوشانی نوارها و ستون‌ها در نمودارهای دو‌بعدی را مشخص می‌کند (از -۱۰۰٪ تا ۱۰۰٪). |
-| [getSecondPieSize()](#getSecondPieSize--) | اندازه دومین کیک یا نوار در نمودار pie-of-pie یا bar-of-pie را به‌صورت درصدی از اندازه کیک اول مشخص می‌کند (می‌تواند بین ۵ تا ۲۰۰ درصد باشد). |
-| [setSecondPieSize(int value)](#setSecondPieSize-int-) | اندازه دومین کیک یا نوار در نمودار pie-of-pie یا bar-of-pie را به‌صورت درصدی از اندازه کیک اول مشخص می‌کند (می‌تواند بین ۵ تا ۲۰۰ درصد باشد). |
-| [getBubbleSizeRepresentation()](#getBubbleSizeRepresentation--) | نحوه نمایش مقادیر اندازه حباب‌ها را در نمودار حبابی مشخص می‌کند. |
-| [setBubbleSizeRepresentation(int value)](#setBubbleSizeRepresentation-int-) | نحوه نمایش مقادیر اندازه حباب‌ها را در نمودار حبابی مشخص می‌کند. |
-| [getPieSplitPosition()](#getPieSplitPosition--) | مقداری را تعیین می‌کند که برای شناسایی نقاط داده‌ای که در کیک یا نوار دوم در نمودار pie-of-pie یا bar-of-pie قرار می‌گیرند، استفاده می‌شود. |
-| [setPieSplitPosition(double value)](#setPieSplitPosition-double-) | مقداری را تعیین می‌کند که برای شناسایی نقاط داده‌ای که در کیک یا نوار دوم در نمودار pie-of-pie یا bar-of-pie قرار می‌گیرند، استفاده می‌شود. |
-| [getPieSplitBy()](#getPieSplitBy--) | نحوه تعیین نقاط داده‌ای که در کیک یا نوار دوم در نمودار pie-of-pie یا bar-of-pie قرار می‌گیرند را مشخص می‌کند. |
-| [setPieSplitBy(int value)](#setPieSplitBy-int-) | نحوه تعیین نقاط داده‌ای که در کیک یا نوار دوم در نمودار pie-of-pie یا bar-of-pie قرار می‌گیرند را مشخص می‌کند. |
-| [isColorVaried()](#isColorVaried--) | مشخص می‌کند که هر مارکر داده در سری دارای رنگ متفاوتی باشد. |
-| [setColorVaried(boolean value)](#setColorVaried-boolean-) | مشخص می‌کند که هر مارکر داده در سری دارای رنگ متفاوتی باشد. |
-| [hasSeriesLines()](#hasSeriesLines--) | اگر نمودار خطوط سری داشته باشد مقدار true برمی‌گرداند. |
-| [setSeriesLines(boolean value)](#setSeriesLines-boolean-) | اگر نمودار خطوط سری داشته باشد مقدار true برمی‌گرداند. |
-| [getHiLowLinesFormat()](#getHiLowLinesFormat--) | قالب HiLowLines را تعیین می‌کند. |
-| [getBubbleSizeScale()](#getBubbleSizeScale--) | عامل مقیاس برای نمودار حبابی را تعیین می‌کند (می‌تواند بین ۰ تا ۳۰۰ درصد از اندازه پیش‌فرض باشد). |
-| [setBubbleSizeScale(int value)](#setBubbleSizeScale-int-) | عامل مقیاس برای نمودار حبابی را تعیین می‌کند (می‌تواند بین ۰ تا ۳۰۰ درصد از اندازه پیش‌فرض باشد). |
+| [get_Item(int index)](#get-Item-int-) | عنصر در اندیس مشخص شده را دریافت می‌کند. |
+| [getUpDownBars()](#getUpDownBars--) | دسترسی به نوارهای بالا/پایین نمودار خطی یا سهام را فراهم می‌کند. |
+| [getGapWidth()](#getGapWidth--) | فاصله بین خوشه‌های میله یا ستون را به عنوان درصدی از عرض میله یا ستون دریافت یا تنظیم می‌کند. |
+| [setGapWidth(int value)](#setGapWidth-int-) | فاصله بین خوشه‌های میله یا ستون را به عنوان درصدی از عرض میله یا ستون دریافت یا تنظیم می‌کند. |
+| [getGapDepth()](#getGapDepth--) | فاصله بین سری‌های داده در یک نمودار 3بعدی را به عنوان درصدی از عرض نشانگر دریافت یا تنظیم می‌کند. |
+| [setGapDepth(int value)](#setGapDepth-int-) | فاصله بین سری‌های داده در یک نمودار 3بعدی را به عنوان درصدی از عرض نشانگر دریافت یا تنظیم می‌کند. |
+| [getFirstSliceAngle()](#getFirstSliceAngle--) | زاویهٔ اولین برش نمودار دایره یا دونات را به درجه دریافت یا تنظیم می‌کند (ساعتگرد از بالا، از 0 تا 360 درجه). |
+| [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | زاویهٔ اولین برش نمودار دایره یا دونات را به درجه دریافت یا تنظیم می‌کند (ساعتگرد از بالا، از 0 تا 360 درجه). |
+| [getDoughnutHoleSize()](#getDoughnutHoleSize--) | اندازهٔ سوراخ در نمودار دونات را مشخص می‌کند (می‌تواند بین 0 تا 90 درصد از اندازهٔ ناحیهٔ طرح باشد). |
+| [setDoughnutHoleSize(byte value)](#setDoughnutHoleSize-byte-) | اندازهٔ سوراخ در نمودار دونات را مشخص می‌کند (می‌تواند بین 0 تا 90 درصد از اندازهٔ ناحیهٔ طرح باشد). |
+| [getOverlap()](#getOverlap--) | مشخص می‌کند که میله‌ها و ستون‌ها تا چه حد بر روی نمودارهای دو-بعدی همپوشانی داشته باشند، به صورت درصد (از -100٪ تا 100٪). |
+| [setOverlap(byte value)](#setOverlap-byte-) | مشخص می‌کند که میله‌ها و ستون‌ها تا چه حد بر روی نمودارهای دو-بعدی همپوشانی داشته باشند، به صورت درصد (از -100٪ تا 100٪). |
+| [getSecondPieSize()](#getSecondPieSize--) | اندازهٔ دومین دایره یا میله در نمودار pie-of-pie یا bar-of-pie را به عنوان درصدی از اندازهٔ اولین دایره مشخص می‌کند (می‌تواند بین 5 تا 200 درصد باشد). |
+| [setSecondPieSize(int value)](#setSecondPieSize-int-) | اندازهٔ دومین دایره یا میله در نمودار pie-of-pie یا bar-of-pie را به عنوان درصدی از اندازهٔ اولین دایره مشخص می‌کند (می‌تواند بین 5 تا 200 درصد باشد). |
+| [getBubbleSizeRepresentation()](#getBubbleSizeRepresentation--) | نحوهٔ نمایش مقادیر اندازهٔ حباب در نمودار حبابی را مشخص می‌کند. |
+| [setBubbleSizeRepresentation(int value)](#setBubbleSizeRepresentation-int-) | نحوهٔ نمایش مقادیر اندازهٔ حباب در نمودار حبابی را مشخص می‌کند. |
+| [getPieSplitPosition()](#getPieSplitPosition--) | مقداری را که برای تعیین نقاط داده در دومین دایره یا میله در نمودار pie-of-pie یا bar-of-pie استفاده می‌شود، مشخص می‌کند. |
+| [setPieSplitPosition(double value)](#setPieSplitPosition-double-) | مقداری را که برای تعیین نقاط داده در دومین دایره یا میله در نمودار pie-of-pie یا bar-of-pie استفاده می‌شود، مشخص می‌کند. |
+| [getPieSplitBy()](#getPieSplitBy--) | نحوهٔ تعیین نقاط داده در دومین دایره یا میله در نمودار pie-of-pie یا bar-of-pie را مشخص می‌کند. |
+| [setPieSplitBy(int value)](#setPieSplitBy-int-) | نحوهٔ تعیین نقاط داده در دومین دایره یا میله در نمودار pie-of-pie یا bar-of-pie را مشخص می‌کند. |
+| [isColorVaried()](#isColorVaried--) | مشخص می‌کند که هر نشانگر داده در سری رنگ متفاوتی دارد. |
+| [setColorVaried(boolean value)](#setColorVaried-boolean-) | مشخص می‌کند که هر نشانگر داده در سری رنگ متفاوتی دارد. |
+| [hasSeriesLines()](#hasSeriesLines--) | درست اگر نمودار خطوط سری داشته باشد. |
+| [setSeriesLines(boolean value)](#setSeriesLines-boolean-) | درست اگر نمودار خطوط سری داشته باشد. |
+| [getHiLowLinesFormat()](#getHiLowLinesFormat--) | قالب HiLowLines را مشخص می‌کند. |
+| [getBubbleSizeScale()](#getBubbleSizeScale--) | ضریب مقیاس برای نمودار حبابی را مشخص می‌کند (می‌تواند بین 0 تا 300 درصد از اندازهٔ پیش‌فرض باشد). |
+| [setBubbleSizeScale(int value)](#setBubbleSizeScale-int-) | ضریب مقیاس برای نمودار حبابی را مشخص می‌کند (می‌تواند بین 0 تا 300 درصد از اندازهٔ پیش‌فرض باشد). |
 | [getPieSplitCustomPoints()](#getPieSplitCustomPoints--) | اطلاعات تقسیم سفارشی برای نمودار pie-of-pie یا bar-of-pie با تقسیم سفارشی. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
 | [getChart()](#getChart--) | نمودار والد را برمی‌گرداند. |
@@ -67,7 +66,7 @@ public final int getType()
 
 یک نوع از این گروه سری را برمی‌گرداند. فقط-خواندنی [CombinableSeriesTypesGroup](../../com.aspose.slides/combinableseriestypesgroup).
 
-**برگشت:**  
+**بازگشت:**
 int
 
 ### getPlotOnSecondAxis() {#getPlotOnSecondAxis--}
@@ -75,9 +74,9 @@ int
 public final boolean getPlotOnSecondAxis()
 ```
 
-نشان می‌دهد آیا سری‌های این گروه بر محور ثانویه رسم می‌شوند. فقط-خواندنی boolean.
+نشان می‌دهد که آیا سری‌های این گروه روی محور ثانویه رسم می‌شوند یا نه. فقط-خواندنی boolean.
 
-**برگشت:**  
+**بازگشت:**
 boolean
 
 ### getSeries() {#getSeries--}
@@ -87,7 +86,7 @@ public final IChartSeriesReadonlyCollection getSeries()
 
 یک مجموعه از سری‌ها را برمی‌گرداند. فقط-خواندنی [IChartSeriesReadonlyCollection](../../com.aspose.slides/ichartseriesreadonlycollection).
 
-**برگشت:**  
+**بازگشت:**
 [IChartSeriesReadonlyCollection](../../com.aspose.slides/ichartseriesreadonlycollection)
 
 ### get_Item(int index) {#get-Item-int-}
@@ -95,14 +94,14 @@ public final IChartSeriesReadonlyCollection getSeries()
 public final IChartSeries get_Item(int index)
 ```
 
-عنصر در ایندکس مشخص‌شده را دریافت می‌کند.
+عنصر در اندیس مشخص شده را دریافت می‌کند.
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | index | int |  |
 
-**برگشت:**  
+**بازگشت:**
 [IChartSeries](../../com.aspose.slides/ichartseries)
 
 ### getUpDownBars() {#getUpDownBars--}
@@ -110,9 +109,9 @@ public final IChartSeries get_Item(int index)
 public final IUpDownBarsManager getUpDownBars()
 ```
 
-دستیابی به نوارهای بالا/پایین نمودار Line یا Stock را فراهم می‌کند. فقط-خواندنی [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager).
+دسترسی به نوارهای بالا/پایین نمودار خطی یا سهام را فراهم می‌کند. فقط-خواندنی [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager).
 
-**برگشت:**  
+**بازگشت:**
 [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager)
 
 ### getGapWidth() {#getGapWidth--}
@@ -120,9 +119,13 @@ public final IUpDownBarsManager getUpDownBars()
 public final int getGapWidth()
 ```
 
-فضای بین خوشه‌های نوار یا ستون را به‌عنوان درصدی از عرض نورد یا ستون مشخص می‌کند. خواندن/نوشتن int.
+فاصله بین خوشه‌های میله یا ستون را به عنوان درصدی از عرض میله یا ستون دریافت یا تنظیم می‌کند. مقدار باید بین 0 و 500 باشد. خواندن/نوشتن int.
 
-**برگشت:**  
+--------------------
+
+این ویژگی برای سری‌های از انواع زیر اعمال می‌شود: زیرنوع‌های Bar (همچنین به متد [ChartTypeCharacterizer.isChartTypeBar(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBar-int-) مراجعه کنید)، زیرنوع‌های Column (همچنین به متد [ChartTypeCharacterizer.isChartTypeColumn(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeColumn-int-) مراجعه کنید)، [ChartType.BarOfPie](../../com.aspose.slides/charttype\#BarOfPie)، [ChartType.PieOfPie](../../com.aspose.slides/charttype\#PieOfPie)، [ChartType.BoxAndWhisker](../../com.aspose.slides/charttype\#BoxAndWhisker)، [ChartType.Funnel](../../com.aspose.slides/charttype\#Funnel)، [ChartType.Histogram](../../com.aspose.slides/charttype\#Histogram)، [ChartType.Waterfall](../../com.aspose.slides/charttype\#Waterfall).
+
+**بازگشت:**
 int
 
 ### setGapWidth(int value) {#setGapWidth-int-}
@@ -130,7 +133,11 @@ int
 public final void setGapWidth(int value)
 ```
 
-فضای بین خوشه‌های نوار یا ستون را به‌عنوان درصدی از عرض نورد یا ستون مشخص می‌کند. خواندن/نوشتن int.
+فاصله بین خوشه‌های میله یا ستون را به عنوان درصدی از عرض میله یا ستون دریافت یا تنظیم می‌کند. مقدار باید بین 0 و 500 باشد. خواندن/نوشتن int.
+
+--------------------
+
+این ویژگی برای سری‌های از انواع زیر اعمال می‌شود: زیرنوع‌های Bar (همچنین به متد [ChartTypeCharacterizer.isChartTypeBar(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBar-int-) مراجعه کنید)، زیرنوع‌های Column (همچنین به متد [ChartTypeCharacterizer.isChartTypeColumn(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeColumn-int-) مراجعه کنید)، [ChartType.BarOfPie](../../com.aspose.slides/charttype\#BarOfPie)، [ChartType.PieOfPie](../../com.aspose.slides/charttype\#PieOfPie)، [ChartType.BoxAndWhisker](../../com.aspose.slides/charttype\#BoxAndWhisker)، [ChartType.Funnel](../../com.aspose.slides/charttype\#Funnel)، [ChartType.Histogram](../../com.aspose.slides/charttype\#Histogram)، [ChartType.Waterfall](../../com.aspose.slides/charttype\#Waterfall).
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
@@ -142,9 +149,13 @@ public final void setGapWidth(int value)
 public final int getGapDepth()
 ```
 
-فاصله، به‌صورت درصدی از عرض نشانگر، بین سری‌های داده در نمودار سه‌بعدی را برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن int.
+فاصله بین سری‌های داده در یک نمودار 3بعدی را به عنوان درصدی از عرض نشانگر دریافت یا تنظیم می‌کند. مقدار باید بین 0 و 500 باشد. خواندن/نوشتن int.
 
-**برگشت:**  
+--------------------
+
+این ویژگی برای سری‌های از انواع زیر اعمال می‌شود: زیرنوع‌های 3D Bar و Column (همچنین به متد [ChartTypeCharacterizer.isBar3DChart(int)](../../com.aspose.slides/charttypecharacterizer\#isBar3DChart-int-) مراجعه کنید)، [ChartType.Line3D](../../com.aspose.slides/charttype\#Line3D)، [ChartType.Area3D](../../com.aspose.slides/charttype\#Area3D)، [ChartType.StackedArea3D](../../com.aspose.slides/charttype\#StackedArea3D)، [ChartType.PercentsStackedArea3D](../../com.aspose.slides/charttype\#PercentsStackedArea3D).
+
+**بازگشت:**
 int
 
 ### setGapDepth(int value) {#setGapDepth-int-}
@@ -152,7 +163,11 @@ int
 public final void setGapDepth(int value)
 ```
 
-فاصله، به‌صورت درصدی از عرض نشانگر، بین سری‌های داده در نمودار سه‌بعدی را برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن int.
+فاصله بین سری‌های داده در یک نمودار 3بعدی را به عنوان درصدی از عرض نشانگر دریافت یا تنظیم می‌کند. مقدار باید بین 0 و 500 باشد. خواندن/نوشتن int.
+
+--------------------
+
+این ویژگی برای سری‌های از انواع زیر اعمال می‌شود: زیرنوع‌های 3D Bar و Column (همچنین به متد [ChartTypeCharacterizer.isBar3DChart(int)](../../com.aspose.slides/charttypecharacterizer\#isBar3DChart-int-) مراجعه کنید)، [ChartType.Line3D](../../com.aspose.slides/charttype\#Line3D)، [ChartType.Area3D](../../com.aspose.slides/charttype\#Area3D)، [ChartType.StackedArea3D](../../com.aspose.slides/charttype\#StackedArea3D)، [ChartType.PercentsStackedArea3D](../../com.aspose.slides/charttype\#PercentsStackedArea3D).
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
@@ -164,9 +179,9 @@ public final void setGapDepth(int value)
 public final int getFirstSliceAngle()
 ```
 
-زاویه اولین برش کیک یا دونات را به‌صورت درجه (از ۰ تا ۳۶۰ درجه، ساعتگرد از بالا) دریافت یا تنظیم می‌کند. خواندن/نوشتن int.
+زاویهٔ اولین برش نمودار دایره یا دونات را به درجه دریافت یا تنظیم می‌کند (ساعتگرد از بالا، از 0 تا 360 درجه). خواندن/نوشتن int.
 
-**برگشت:**  
+**بازگشت:**
 int
 
 ### setFirstSliceAngle(int value) {#setFirstSliceAngle-int-}
@@ -174,7 +189,7 @@ int
 public final void setFirstSliceAngle(int value)
 ```
 
-زاویه اولین برش کیک یا دونات را به‌صورت درجه (از ۰ تا ۳۶۰ درجه، ساعتگرد از بالا) دریافت یا تنظیم می‌کند. خواندن/نوشتن int.
+زاویهٔ اولین برش نمودار دایره یا دونات را به درجه دریافت یا تنظیم می‌کند (ساعتگرد از بالا، از 0 تا 360 درجه). خواندن/نوشتن int.
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
@@ -186,9 +201,9 @@ public final void setFirstSliceAngle(int value)
 public final byte getDoughnutHoleSize()
 ```
 
-اندازه سوراخ در نمودار دونات را مشخص می‌کند (می‌تواند بین ۰ تا ۹۰ درصد از اندازه ناحیه‌نقشه باشد). خواندن/نوشتن byte.
+اندازهٔ سوراخ در نمودار دونات را مشخص می‌کند (می‌تواند بین 0 تا 90 درصد از اندازهٔ ناحیهٔ طرح باشد). خواندن/نوشتن byte.
 
-**برگشت:**  
+**بازگشت:**
 byte
 
 ### setDoughnutHoleSize(byte value) {#setDoughnutHoleSize-byte-}
@@ -196,7 +211,7 @@ byte
 public final void setDoughnutHoleSize(byte value)
 ```
 
-اندازه سوراخ در نمودار دونات را مشخص می‌کند (می‌تواند بین ۰ تا ۹۰ درصد از اندازه ناحیه‌نقشه باشد). خواندن/نوشتن byte.
+اندازهٔ سوراخ در نمودار دونات را مشخص می‌کند (می‌تواند بین 0 تا 90 درصد از اندازهٔ ناحیهٔ طرح باشد). خواندن/نوشتن byte.
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
@@ -208,7 +223,7 @@ public final void setDoughnutHoleSize(byte value)
 public final byte getOverlap()
 ```
 
-مشخص می‌کند که نوارها و ستون‌ها در نمودارهای دو‌بعدی با چه درصدی همپوشانی داشته باشند (از -۱۰۰٪ تا ۱۰۰٪). - -۱۰۰٪: بیشترین فاصله (نوارها کاملاً جدا هستند). - ۰٪: نوارها بدون همپوشانی یا فاصله کنار هم قرار می‌گیرند. - ۱۰۰٪: بیشترین همپوشانی (نوارها کاملاً روی هم هستند). این ویژگی خواندن/نوشتن byte.
+مشخص می‌کند که میله‌ها و ستون‌ها تا چه حد بر روی نمودارهای دو-بعدی همپوشانی داشته باشند، به صورت درصد (از -100٪ تا 100٪). - -100٪: حداکثر فاصله (میله‌ها کاملاً جدا هستند). - 0٪: میله‌ها بدون همپوشانی یا فاصله کنار هم قرار می‌گیرند. - 100٪: حداکثر همپوشانی (میله‌ها کاملاً روی هم قرار می‌گیرند). این ویژگی خواندن/نوشتن byte.
 
 --------------------
 
@@ -220,7 +235,7 @@ public final byte getOverlap()
 >  try {
 >      IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);
 >      IChartSeriesCollection series = chart.getChartData().getSeries();
->      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // Set overlap to 55%
+>      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // تنظیم همپوشانی به 55%
 >      pres.getSlides().get_Item(0).getImage(1, 1).save("chart.png", ImageFormat.Png);
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -228,7 +243,7 @@ public final byte getOverlap()
 > ```
 
 
-**برگشت:**  
+**بازگشت:**
 byte
 
 ### setOverlap(byte value) {#setOverlap-byte-}
@@ -236,7 +251,7 @@ byte
 public final void setOverlap(byte value)
 ```
 
-مشخص می‌کند که نوارها و ستون‌ها در نمودارهای دو‌بعدی با چه درصدی همپوشانی داشته باشند (از -۱۰۰٪ تا ۱۰۰٪). - -۱۰۰٪: بیشترین فاصله (نوارها کاملاً جدا هستند). - ۰٪: نوارها بدون همپوشانی یا فاصله کنار هم قرار می‌گیرند. - ۱۰۰٪: بیشترین همپوشانی (نوارها کاملاً روی هم هستند). این ویژگی خواندن/نوشتن byte.
+مشخص می‌کند که میله‌ها و ستون‌ها تا چه حد بر روی نمودارهای دو-بعدی همپوشانی داشته باشند، به صورت درصد (از -100٪ تا 100٪). - -100٪: حداکثر فاصله (میله‌ها کاملاً جدا هستند). - 0٪: میله‌ها بدون همپوشانی یا فاصله کنار هم قرار می‌گیرند. - 100٪: حداکثر همپوشانی (میله‌ها کاملاً روی هم قرار می‌گیرند). این ویژگی خواندن/نوشتن byte.
 
 --------------------
 
@@ -266,9 +281,9 @@ public final void setOverlap(byte value)
 public final int getSecondPieSize()
 ```
 
-اندازه دومین کیک یا نوار در نمودار pie-of-pie یا bar-of-pie را به‌صورت درصدی از اندازه کیک اول مشخص می‌کند (می‌تواند بین ۵ تا ۲۰۰ درصد باشد). خواندن/نوشتن int.
+اندازهٔ دومین دایره یا میله در نمودار pie-of-pie یا bar-of-pie را به عنوان درصدی از اندازهٔ اولین دایره مشخص می‌کند (می‌تواند بین 5 تا 200 درصد باشد). خواندن/نوشتن int.
 
-**برگشت:**  
+**بازگشت:**
 int
 
 ### setSecondPieSize(int value) {#setSecondPieSize-int-}
@@ -276,7 +291,7 @@ int
 public final void setSecondPieSize(int value)
 ```
 
-اندازه دومین کیک یا نوار در نمودار pie-of-pie یا bar-of-pie را به‌صورت درصدی از اندازه کیک اول مشخص می‌کند (می‌تواند بین ۵ تا ۲۰۰ درصد باشد). خواندن/نوشتن int.
+اندازهٔ دومین دایره یا میله در نمودار pie-of-pie یا bar-of-pie را به عنوان درصدی از اندازهٔ اولین دایره مشخص می‌کند (می‌تواند بین 5 تا 200 درصد باشد). خواندن/نوشتن int.
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
@@ -288,9 +303,9 @@ public final void setSecondPieSize(int value)
 public final int getBubbleSizeRepresentation()
 ```
 
-نحوه نمایش مقادیر اندازه حباب‌ها را در نمودار حبابی مشخص می‌کند. خواندن/نوشتن [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
+نحوهٔ نمایش مقادیر اندازهٔ حباب در نمودار حبابی را مشخص می‌کند. خواندن/نوشتن [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
 
-**برگشت:**  
+**بازگشت:**
 int
 
 ### setBubbleSizeRepresentation(int value) {#setBubbleSizeRepresentation-int-}
@@ -298,7 +313,7 @@ int
 public final void setBubbleSizeRepresentation(int value)
 ```
 
-نحوه نمایش مقادیر اندازه حباب‌ها را در نمودار حبابی مشخص می‌کند. خواندن/نوشتن [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
+نحوهٔ نمایش مقادیر اندازهٔ حباب در نمودار حبابی را مشخص می‌کند. خواندن/نوشتن [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
@@ -310,9 +325,9 @@ public final void setBubbleSizeRepresentation(int value)
 public final double getPieSplitPosition()
 ```
 
-مقداری را تعیین می‌کند که برای شناسایی نقاط داده‌ای که در کیک یا نوار دوم در نمودار pie-of-pie یا bar-of-pie قرار می‌گیرند، استفاده می‌شود. همراه با خصوصیت PieSplitBy استفاده می‌شود. خواندن/نوشتن double.
+مقداری را که برای تعیین نقاط داده در دومین دایره یا میله در نمودار pie-of-pie یا bar-of-pie استفاده می‌شود، مشخص می‌کند. همراه با ویژگی PieSplitBy استفاده می‌شود. خواندن/نوشتن double.
 
-**برگشت:**  
+**بازگشت:**
 double
 
 ### setPieSplitPosition(double value) {#setPieSplitPosition-double-}
@@ -320,7 +335,7 @@ double
 public final void setPieSplitPosition(double value)
 ```
 
-مقداری را تعیین می‌کند که برای شناسایی نقاط داده‌ای که در کیک یا نوار دوم در نمودار pie-of-pie یا bar-of-pie قرار می‌گیرند، استفاده می‌شود. همراه با خصوصیت PieSplitBy استفاده می‌شود. خواندن/نوشتن double.
+مقداری را که برای تعیین نقاط داده در دومین دایره یا میله در نمودار pie-of-pie یا bar-of-pie استفاده می‌شود، مشخص می‌کند. همراه با ویژگی PieSplitBy استفاده می‌شود. خواندن/نوشتن double.
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
@@ -332,9 +347,9 @@ public final void setPieSplitPosition(double value)
 public final int getPieSplitBy()
 ```
 
-نحوه تعیین نقاط داده‌ای که در کیک یا نوار دوم در نمودار pie-of-pie یا bar-of-pie قرار می‌گیرند را مشخص می‌کند. خواندن/نوشتن [PieSplitType](../../com.aspose.slides/piesplittype).
+نحوهٔ تعیین نقاط داده در دومین دایره یا میله در نمودار pie-of-pie یا bar-of-pie را مشخص می‌کند. خواندن/نوشتن [PieSplitType](../../com.aspose.slides/piesplittype).
 
-**برگشت:**  
+**بازگشت:**
 int
 
 ### setPieSplitBy(int value) {#setPieSplitBy-int-}
@@ -342,7 +357,7 @@ int
 public final void setPieSplitBy(int value)
 ```
 
-نحوه تعیین نقاط داده‌ای که در کیک یا نوار دوم در نمودار pie-of-pie یا bar-of-pie قرار می‌گیرند را مشخص می‌کند. خواندن/نوشتن [PieSplitType](../../com.aspose.slides/piesplittype).
+نحوهٔ تعیین نقاط داده در دومین دایره یا میله در نمودار pie-of-pie یا bar-of-pie را مشخص می‌کند. خواندن/نوشتن [PieSplitType](../../com.aspose.slides/piesplittype).
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
@@ -354,9 +369,9 @@ public final void setPieSplitBy(int value)
 public final boolean isColorVaried()
 ```
 
-مشخص می‌کند که هر مارکر داده در سری دارای رنگ متفاوتی باشد. خواندن/نوشتن boolean.
+مشخص می‌کند که هر نشانگر داده در سری رنگ متفاوتی دارد. خواندن/نوشتن boolean.
 
-**برگشت:**  
+**بازگشت:**
 boolean
 
 ### setColorVaried(boolean value) {#setColorVaried-boolean-}
@@ -364,7 +379,7 @@ boolean
 public final void setColorVaried(boolean value)
 ```
 
-مشخص می‌کند که هر مارکر داده در سری دارای رنگ متفاوتی باشد. خواندن/نوشتن boolean.
+مشخص می‌کند که هر نشانگر داده در سری رنگ متفاوتی دارد. خواندن/نوشتن boolean.
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
@@ -376,9 +391,9 @@ public final void setColorVaried(boolean value)
 public final boolean hasSeriesLines()
 ```
 
-اگر نمودار خطوط سری داشته باشد مقدار true برمی‌گرداند. برای نمودارهای stacked bar و OfPie اعمال می‌شود. خواندن/نوشتن boolean.
+درست اگر نمودار خطوط سری داشته باشد. برای نمودارهای stacked bar و OfPie اعمال می‌شود. خواندن/نوشتن boolean.
 
-**برگشت:**  
+**بازگشت:**
 boolean
 
 ### setSeriesLines(boolean value) {#setSeriesLines-boolean-}
@@ -386,7 +401,7 @@ boolean
 public final void setSeriesLines(boolean value)
 ```
 
-اگر نمودار خطوط سری داشته باشد مقدار true برمی‌گرداند. برای نمودارهای stacked bar و OfPie اعمال می‌شود. خواندن/نوشتن boolean.
+درست اگر نمودار خطوط سری داشته باشد. برای نمودارهای stacked bar و OfPie اعمال می‌شود. خواندن/نوشتن boolean.
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
@@ -398,9 +413,9 @@ public final void setSeriesLines(boolean value)
 public final IChartLinesFormat getHiLowLinesFormat()
 ```
 
-قالب HiLowLines را تعیین می‌کند. HiLowLines با انواع نمودار HiLowClose, OpenHiLowClose, VolumeHiLowClose و VolumeOpenHiLowClose اعمال می‌شود.
+قالب HiLowLines را مشخص می‌کند. HiLowLines همراه با انواع نمودار HiLowClose، OpenHiLowClose، VolumeHiLowClose و VolumeOpenHiLowClose اعمال می‌شود.
 
-**برگشت:**  
+**بازگشت:**
 [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat)
 
 ### getBubbleSizeScale() {#getBubbleSizeScale--}
@@ -408,9 +423,9 @@ public final IChartLinesFormat getHiLowLinesFormat()
 public final int getBubbleSizeScale()
 ```
 
-عامل مقیاس برای نمودار حبابی را تعیین می‌کند (می‌تواند بین ۰ تا ۳۰۰ درصد از اندازه پیش‌فرض باشد). خواندن/نوشتن int.
+ضریب مقیاس برای نمودار حبابی را مشخص می‌کند (می‌تواند بین 0 تا 300 درصد از اندازهٔ پیش‌فرض باشد). خواندن/نوشتن int.
 
-**برگشت:**  
+**بازگشت:**
 int
 
 ### setBubbleSizeScale(int value) {#setBubbleSizeScale-int-}
@@ -418,7 +433,7 @@ int
 public final void setBubbleSizeScale(int value)
 ```
 
-عامل مقیاس برای نمودار حبابی را تعیین می‌کند (می‌تواند بین ۰ تا ۳۰۰ درصد از اندازه پیش‌فرض باشد). خواندن/نوشتن int.
+ضریب مقیاس برای نمودار حبابی را مشخص می‌کند (می‌تواند بین 0 تا 300 درصد از اندازهٔ پیش‌فرض باشد). خواندن/نوشتن int.
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
@@ -430,9 +445,9 @@ public final void setBubbleSizeScale(int value)
 public final IPieSplitCustomPointCollection getPieSplitCustomPoints()
 ```
 
-اطلاعات تقسیم سفارشی برای نمودار pie-of-pie یا bar-of-pie با تقسیم سفارشی. شامل نقاط داده‌ای است که باید در کیک یا نوار دوم رسم شوند. فقط-خواندنی [PieSplitCustomPointCollection](../../com.aspose.slides/piesplitcustompointcollection).
+اطلاعات تقسیم سفارشی برای نمودار pie-of-pie یا bar-of-pie با تقسیم سفارشی. شامل نقاط داده‌ای است که باید در دومین دایره یا میله در نمودار pie-of-pie یا bar-of-pie رسم شوند. فقط-خواندنی [PieSplitCustomPointCollection](../../com.aspose.slides/piesplitcustompointcollection).
 
-**برگشت:**  
+**بازگشت:**
 [IPieSplitCustomPointCollection](../../com.aspose.slides/ipiesplitcustompointcollection)
 
 ### getParent_Immediate() {#getParent-Immediate--}
@@ -442,7 +457,7 @@ public final IDOMObject getParent_Immediate()
 
 شیء Parent_Immediate را برمی‌گرداند. فقط-خواندنی IDOMObject.
 
-**برگشت:**  
+**بازگشت:**
 com.aspose.slides.IDOMObject
 
 ### getChart() {#getChart--}
@@ -452,7 +467,7 @@ public final IChart getChart()
 
 نمودار والد را برمی‌گرداند. فقط-خواندنی [IChart](../../com.aspose.slides/ichart).
 
-**برگشت:**  
+**بازگشت:**
 [IChart](../../com.aspose.slides/ichart)
 
 ### getSlide() {#getSlide--}
@@ -462,7 +477,7 @@ public final IBaseSlide getSlide()
 
 اسلاید والد یک FillFormat را برمی‌گرداند. فقط-خواندنی [BaseSlide](../../com.aspose.slides/baseslide).
 
-**برگشت:**  
+**بازگشت:**
 [IBaseSlide](../../com.aspose.slides/ibaseslide)
 
 ### getPresentation() {#getPresentation--}
@@ -472,5 +487,5 @@ public final IPresentation getPresentation()
 
 ارائه والد یک FillFormat را برمی‌گرداند. فقط-خواندنی [IPresentation](../../com.aspose.slides/ipresentation).
 
-**برگشت:**  
+**بازگشت:**
 [IPresentation](../../com.aspose.slides/ipresentation)

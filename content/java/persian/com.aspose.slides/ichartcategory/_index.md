@@ -8,19 +8,20 @@ url: /fa/com.aspose.slides/ichartcategory/
 public interface IChartCategory
 ```
 
-Represents chart categories.
+دسته‌های نمودار را نشان می‌دهد.
 ## متدها
 
 | متد | توضیح |
 | --- | --- |
-| [getUseCell()](#getUseCell--) | اگر مقدار true باشد، ویژگی AsCell واقعی است. |
+| [getUseCell()](#getUseCell--) | اگر مقدار true باشد، ویژگی AsCell معتبر است. |
 | [getAsCell()](#getAsCell--) | شیء IChartDataCell را برمی‌گرداند یا تنظیم می‌کند. |
 | [setAsCell(IChartDataCell value)](#setAsCell-com.aspose.slides.IChartDataCell-) | شیء IChartDataCell را برمی‌گرداند یا تنظیم می‌کند. |
-| [getAsLiteral()](#getAsLiteral--) | اگر UseCell false باشد، AsLiteral را برمی‌گرداند یا تنظیم می‌کند. |
-| [setAsLiteral(Object value)](#setAsLiteral-java.lang.Object-) | اگر UseCell false باشد، AsLiteral را برمی‌گرداند یا تنظیم می‌کند. |
-| [getValue()](#getValue--) | اگر UseCell true باشد، این ویژگی نمایانگر ویژگی AsCell.Value است. |
-| [setValue(Object value)](#setValue-java.lang.Object-) | اگر UseCell true باشد، این ویژگی نمایانگر ویژگی AsCell.Value است. |
-| [getGroupingLevels()](#getGroupingLevels--) | محفظه مدیریت شدهٔ مقادیر سطوح گروه‌بندی دسته‌های نمودار. |
+| [getAsLiteral()](#getAsLiteral--) | اگر UseCell برابر false باشد، AsLiteral را برمی‌گرداند یا تنظیم می‌کند. |
+| [setAsLiteral(Object value)](#setAsLiteral-java.lang.Object-) | اگر UseCell برابر false باشد، AsLiteral را برمی‌گرداند یا تنظیم می‌کند. |
+| [getValue()](#getValue--) | اگر UseCell برابر true باشد، این ویژگی نمایانگر ویژگی AsCell.Value است. |
+| [setValue(Object value)](#setValue-java.lang.Object-) | اگر UseCell برابر true باشد، این ویژگی نمایانگر ویژگی AsCell.Value است. |
+| [getCachedValue()](#getCachedValue--) | مقدار ذخیره‌شده‌ی یک دستهٔ نمودار را دریافت می‌کند. |
+| [getGroupingLevels()](#getGroupingLevels--) | محفظه‌ای مدیریت‌شده برای مقادیر سطوح گروه‌بندی دستهٔ نمودار. |
 | [remove()](#remove--) | دسته را از نمودار حذف می‌کند. |
 ### getUseCell() {#getUseCell--}
 ```
@@ -28,11 +29,11 @@ public abstract boolean getUseCell()
 ```
 
 
-اگر مقدار true باشد، ویژگی AsCell واقعی است. به عبارت دیگر، برگه کاری برای ذخیره‌سازی دسته استفاده می‌شود (این حالت از دسته‌بندی چندسطحی پشتیبانی می‌کند). اگر مقدار false باشد، ویژگی AsLiteral واقعی است. به عبارت دیگر، برگه کاری برای ذخیره‌سازی دسته استفاده نمی‌شود (و این حالت از دسته‌های چندسطحی پشتیبانی نمی‌کند). نوع boolean فقط-خواندنی.
+اگر مقدار true باشد، ویژگی AsCell معتبر است. به عبارت دیگر، worksheet برای ذخیره‌سازی دسته استفاده می‌شود (این حالت از دسته‌بندی چندسطحی پشتیبانی می‌کند). اگر مقدار false باشد، ویژگی AsLiteral معتبر است. به عبارت دیگر، worksheet برای ذخیره‌سازی دسته استفاده نمی‌شود (و این حالت از دسته‌بندی چندسطحی پشتیبانی نمی‌کند). بولی فقط‌خواندنی.
 
 --------------------
 
-برای تغییر مقدار این ویژگی (برای همهٔ دسته‌ها در مجموعه) مقدار جدید را به ویژگی [ChartCategoryCollection.getUseCells()](../../com.aspose.slides/chartcategorycollection\#getUseCells--) تنظیم کنید.
+برای تغییر مقدار این ویژگی (برای تمام دسته‌ها در مجموعه) مقدار جدید را به ویژگی [ChartCategoryCollection.getUseCells()](../../com.aspose.slides/chartcategorycollection\#getUseCells--) اختصاص دهید.
 
 **بازگشت:**
 boolean
@@ -42,7 +43,7 @@ public abstract IChartDataCell getAsCell()
 ```
 
 
-شیء IChartDataCell را برمی‌گرداند یا تنظیم می‌کند. اگر دسته چندسطحی باشد، شیء IChartDataCell برای سطح "0" استفاده می‌شود. خواند/نوشتن [IChartDataCell](../../com.aspose.slides/ichartdatacell).
+شیء IChartDataCell را برمی‌گرداند یا تنظیم می‌کند. اگر دسته چندسطحی باشد، از شیء IChartDataCell برای سطح «0» استفاده می‌شود. قابل‌نوشتن [IChartDataCell](../../com.aspose.slides/ichartdatacell).
 
 **بازگشت:**
 [IChartDataCell](../../com.aspose.slides/ichartdatacell)
@@ -52,7 +53,7 @@ public abstract void setAsCell(IChartDataCell value)
 ```
 
 
-شیء IChartDataCell را برمی‌گرداند یا تنظیم می‌کند. اگر دسته چندسطحی باشد، شیء IChartDataCell برای سطح "0" استفاده می‌شود. خواند/نوشتن [IChartDataCell](../../com.aspose.slides/ichartdatacell).
+شیء IChartDataCell را برمی‌گرداند یا تنظیم می‌کند. اگر دسته چندسطحی باشد، از شیء IChartDataCell برای سطح «0» استفاده می‌شود. قابل‌نوشتن [IChartDataCell](../../com.aspose.slides/ichartdatacell).
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
@@ -65,7 +66,7 @@ public abstract Object getAsLiteral()
 ```
 
 
-اگر UseCell false باشد، AsLiteral را برمی‌گرداند یا تنظیم می‌کند. خواند/نوشتن Object.
+اگر UseCell برابر false باشد، AsLiteral را برمی‌گرداند یا تنظیم می‌کند. قابل‌نوشتن Object.
 
 **بازگشت:**
 java.lang.Object
@@ -75,7 +76,7 @@ public abstract void setAsLiteral(Object value)
 ```
 
 
-اگر UseCell false باشد، AsLiteral را برمی‌گرداند یا تنظیم می‌کند. خواند/نوشتن Object.
+اگر UseCell برابر false باشد، AsLiteral را برمی‌گرداند یا تنظیم می‌کند. قابل‌نوشتن Object.
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
@@ -88,7 +89,7 @@ public abstract Object getValue()
 ```
 
 
-اگر UseCell true باشد، این ویژگی نمایانگر ویژگی AsCell.Value است. اگر UseCell false باشد، این ویژگی نمایانگر ویژگی AsLiteral است. خواند/نوشتن Object.
+اگر UseCell برابر true باشد، این ویژگی نمایانگر ویژگی AsCell.Value است. اگر UseCell برابر false باشد، این ویژگی نمایانگر ویژگی AsLiteral است. قابل‌نوشتن Object.
 
 **بازگشت:**
 java.lang.Object
@@ -98,20 +99,45 @@ public abstract void setValue(Object value)
 ```
 
 
-اگر UseCell true باشد، این ویژگی نمایانگر ویژگی AsCell.Value است. اگر UseCell false باشد، این ویژگی نمایانگر ویژگی AsLiteral است. خواند/نوشتن Object.
+اگر UseCell برابر true باشد، این ویژگی نمایانگر ویژگی AsCell.Value است. اگر UseCell برابر false باشد، این ویژگی نمایانگر ویژگی AsLiteral است. قابل‌نوشتن Object.
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | value | java.lang.Object |  |
 
+### getCachedValue() {#getCachedValue--}
+```
+public abstract ICachedChartValue getCachedValue()
+```
+
+
+مقدار ذخیره‌شده‌ی یک دستهٔ نمودار را دریافت می‌کند. فقط‌خواندنی [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+> 
+>      // تمام مقادیر ذخیره‌شدهٔ دسته‌های نمودار را چاپ کنید.
+>      for (IChartCategory category : chart.getChartData().getCategories())
+>          System.out.println(category.getCachedValue().toString());
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**بازگشت:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
 ### getGroupingLevels() {#getGroupingLevels--}
 ```
 public abstract IChartCategoryLevelsManager getGroupingLevels()
 ```
 
 
-محفظه مدیریت شدهٔ مقادیر سطوح گروه‌بندی دسته‌های نمودار. دستهٔ چندسطحی بیش از یک سطح گروه‌بندی دارد. ایندکس‌گذاری سطوح گروه‌بندی از صفر آغاز می‌شود. فقط-خواندنی [IChartCategoryLevelsManager](../../com.aspose.slides/ichartcategorylevelsmanager).
+محفظه‌ای مدیریت‌شده برای مقادیر سطوح گروه‌بندی دستهٔ نمودار. دسته‌بندی چندسطحی بیش از یک سطح گروه‌بندی دارد. ایندکس‌گذاری سطوح گروه‌بندی صفر-پایه است. فقط‌خواندنی [IChartCategoryLevelsManager](../../com.aspose.slides/ichartcategorylevelsmanager).
 
 **بازگشت:**
 [IChartCategoryLevelsManager](../../com.aspose.slides/ichartcategorylevelsmanager)

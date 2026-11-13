@@ -1,73 +1,72 @@
 ---
 title: ChartSeriesGroup
-second_title: Aspose.Slides สำหรับ Java การอ้างอิง API
-description: เป็นตัวแทนของกลุ่มของ series.
+second_title: อ้างอิง API ของ Aspose.Slides สำหรับ Java
+description: แทนกลุ่มของซีรีส์.
 type: docs
 url: /th/com.aspose.slides/chartseriesgroup/
 ---
 **การสืบทอด:**
 java.lang.Object
 
-**อินเทอร์เฟซที่ Implement ทั้งหมด:**
+**อินเทอร์เฟซที่นำไปใช้ทั้งหมด:**
 [com.aspose.slides.IChartSeriesGroup](../../com.aspose.slides/ichartseriesgroup), com.aspose.slides.IDOMObject
 ```
 public class ChartSeriesGroup implements IChartSeriesGroup, IDOMObject
 ```
 
-เป็นตัวแทนของกลุ่มของ series.
+แทนกลุ่มของซีรีส์.
 
 --------------------
 
-1) ดูสรุปและหมายเหตุสำหรับคลาส ChartSeriesGroupCollection และ enum CombinableSeriesTypesGroup. 2) กลุ่มของ series มีบาง property ของ series ที่เป็นค่าร่วมกันสำหรับแต่ละ series ในกลุ่ม ("series group properties"). "Series group properties" ในคลาส ChartSeriesGroup เป็นแบบอ่าน/เขียน. แต่ละ "series group properties" สามารถมีการฉายแบบอ่านอย่างเดียวในคลาส ChartSeries.
+1) ดูสรุปและหมายเหตุสำหรับคลาส ChartSeriesGroupCollection และ enum CombinableSeriesTypesGroup. 2) กลุ่มของซีรีส์มีคุณสมบัติบางอย่างที่เป็นเรื่องทั่วไปสำหรับแต่ละซีรีส์ในกลุ่ม (“คุณสมบัติของกลุ่มซีรีส์”). “คุณสมบัติของกลุ่มซีรีส์” ในคลาส ChartSeriesGroup เป็นแบบอ่าน/เขียน. แต่ละ “คุณสมบัติของกลุ่มซีรีส์” สามารถมีการฉายแบบอ่านอย่างเดียวในคลาส ChartSeries.
+## เมธอด
 
-## Methods
-
-| Method | คำอธิบาย |
+| เมธอด | รายละเอียด |
 | --- | --- |
-| [getType()](#getType--) | คืนค่าประเภทของกลุ่ม series นี้. |
-| [getPlotOnSecondAxis()](#getPlotOnSecondAxis--) | บ่งชี้ว่า series ของกลุ่มนี้ถูกพล็อตบนแกนรองหรือไม่. |
-| [getSeries()](#getSeries--) | คืนค่าคอลเลกชันของ series. |
-| [get_Item(int index)](#get-Item-int-) | ดึง element ที่ตำแหน่ง index ที่ระบุ. |
-| [getUpDownBars()](#getUpDownBars--) | ให้การเข้าถึง up/down bars ของแผนภูมิ Line- หรือ Stock-chart. |
-| [getGapWidth()](#getGapWidth--) | กำหนดช่องว่างระหว่างกลุ่ม bar หรือ column เป็นเปอร์เซ็นต์ของความกว้างของ bar หรือ column. |
-| [setGapWidth(int value)](#setGapWidth-int-) | กำหนดช่องว่างระหว่างกลุ่ม bar หรือ column เป็นเปอร์เซ็นต์ของความกว้างของ bar หรือ column. |
-| [getGapDepth()](#getGapDepth--) | คืนค่าหรือกำหนดระยะทางเป็นเปอร์เซ็นต์ของความกว้าง marker ระหว่าง data series ในแผนภูมิ 3D. |
-| [setGapDepth(int value)](#setGapDepth-int-) | คืนค่าหรือกำหนดระยะทางเป็นเปอร์เซ็นต์ของความกว้าง marker ระหว่าง data series ในแผนภูมิ 3D. |
-| [getFirstSliceAngle()](#getFirstSliceAngle--) | ดึงหรือกำหนดมุมของชิ้นแรกของแผนภูมิ pie หรือ doughnut เป็นองศา (ตามเข็มนาฬิกาตั้งจากด้านบน, ตั้งแต่ 0 ถึง 360 องศา). |
-| [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | ดึงหรือกำหนดมุมของชิ้นแรกของแผนภูมิ pie หรือ doughnut เป็นองศา (ตามเข็มนาฬิกาตั้งจากด้านบน, ตั้งแต่ 0 ถึง 360 องศา). |
-| [getDoughnutHoleSize()](#getDoughnutHoleSize--) | กำหนดขนาดของรูในแผนภูมิ doughnut (สามารถอยู่ระหว่าง 0 ถึง 90 เปอร์เซ็นต์ของขนาดพื้นที่พล็อต). |
-| [setDoughnutHoleSize(byte value)](#setDoughnutHoleSize-byte-) | กำหนดขนาดของรูในแผนภูมิ doughnut (สามารถอยู่ระหว่าง 0 ถึง 90 เปอร์เซ็นต์ของขนาดพื้นที่พล็อต). |
-| [getOverlap()](#getOverlap--) | กำหนดว่าบาร์และคอลัมน์ควรทับกันมากเท่าใดในแผนภูมิ 2-D เป็นเปอร์เซ็นต์ (จาก -100% ถึง 100%). |
-| [setOverlap(byte value)](#setOverlap-byte-) | กำหนดว่าบาร์และคอลัมน์ควรทับกันมากเท่าใดในแผนภูมิ 2-D เป็นเปอร์เซ็นต์ (จาก -100% ถึง 100%). |
-| [getSecondPieSize()](#getSecondPieSize--) | กำหนดขนาดของ pie หรือ bar ที่สองของแผนภูมิ pie-of-pie หรือ bar-of-pie เป็นเปอร์เซ็นต์ของขนาดของ pie แรก (สามารถอยู่ระหว่าง 5 ถึง 200 เปอร์เซ็นต์). |
-| [setSecondPieSize(int value)](#setSecondPieSize-int-) | กำหนดขนาดของ pie หรือ bar ที่สองของแผนภูมิ pie-of-pie หรือ bar-of-pie เป็นเปอร์เซ็นต์ของขนาดของ pie แรก (สามารถอยู่ระหว่าง 5 ถึง 200 เปอร์เซ็นต์). |
-| [getBubbleSizeRepresentation()](#getBubbleSizeRepresentation--) | กำหนดว่าค่าขนาดของ bubble จะถูกแสดงอย่างไรในแผนภูมิ bubble. |
-| [setBubbleSizeRepresentation(int value)](#setBubbleSizeRepresentation-int-) | กำหนดว่าค่าขนาดของ bubble จะถูกแสดงอย่างไรในแผนภูมิ bubble. |
-| [getPieSplitPosition()](#getPieSplitPosition--) | กำหนดค่าที่จะใช้เพื่อกำหนดว่าจุดข้อมูลใดอยู่ใน pie หรือ bar ที่สองของแผนภูมิ pie-of-pie หรือ bar-of-pie. |
-| [setPieSplitPosition(double value)](#setPieSplitPosition-double-) | กำหนดค่าที่จะใช้เพื่อกำหนดว่าจุดข้อมูลใดอยู่ใน pie หรือ bar ที่สองของแผนภูมิ pie-of-pie หรือ bar-of-pie. |
-| [getPieSplitBy()](#getPieSplitBy--) | กำหนดวิธีการที่ใช้เพื่อกำหนดว่าจุดข้อมูลใดอยู่ใน pie หรือ bar ที่สองของแผนภูมิ pie-of-pie หรือ bar-of-pie. |
-| [setPieSplitBy(int value)](#setPieSplitBy-int-) | กำหนดวิธีการที่ใช้เพื่อกำหนดว่าจุดข้อมูลใดอยู่ใน pie หรือ bar ที่สองของแผนภูมิ pie-of-pie หรือ bar-of-pie. |
-| [isColorVaried()](#isColorVaried--) | กำหนดว่า marker ของข้อมูลแต่ละตัวใน series มีสีที่ต่างกัน. |
-| [setColorVaried(boolean value)](#setColorVaried-boolean-) | กำหนดว่า marker ของข้อมูลแต่ละตัวใน series มีสีที่ต่างกัน. |
-| [hasSeriesLines()](#hasSeriesLines--) | เป็นจริงหาก chart มี series lines. |
-| [setSeriesLines(boolean value)](#setSeriesLines-boolean-) | เป็นจริงหาก chart มี series lines. |
-| [getHiLowLinesFormat()](#getHiLowLinesFormat--) | กำหนดรูปแบบ HiLowLines. |
-| [getBubbleSizeScale()](#getBubbleSizeScale--) | กำหนดตัวคูณสเกลสำหรับแผนภูมิ bubble (สามารถอยู่ระหว่าง 0 ถึง 300 เปอร์เซ็นต์ของขนาดเริ่มต้น). |
-| [setBubbleSizeScale(int value)](#setBubbleSizeScale-int-) | กำหนดตัวคูณสเกลสำหรับแผนภูมิ bubble (สามารถอยู่ระหว่าง 0 ถึง 300 เปอร์เซ็นต์ของขนาดเริ่มต้น). |
-| [getPieSplitCustomPoints()](#getPieSplitCustomPoints--) | ข้อมูลการแยกแบบกำหนดเองสำหรับแผนภูมิ pie-of-pie หรือ bar-of-pie ที่มีการแยกแบบกำหนดเอง. |
+| [getType()](#getType--) | ส่งคืนประเภทของกลุ่มซีรีส์นี้. |
+| [getPlotOnSecondAxis()](#getPlotOnSecondAxis--) | ระบุว่าชุดข้อมูลของกลุ่มนี้ถูกพล็อตบนแกนรองหรือไม่. |
+| [getSeries()](#getSeries--) | ส่งคืนคอลเล็กชันของซีรีส์. |
+| [get_Item(int index)](#get-Item-int-) | รับองค์ประกอบที่ตำแหน่งที่ระบุ. |
+| [getUpDownBars()](#getUpDownBars--) | ให้การเข้าถึงแถบขึ้น/ลงของแผนภูมิ Line หรือ Stock. |
+| [getGapWidth()](#getGapWidth--) | รับหรือกำหนดระยะห่างระหว่างกลุ่มแท่งหรือคอลัมน์เป็นเปอร์เซ็นต์ของความกว้างแท่งหรือคอลัมน์. |
+| [setGapWidth(int value)](#setGapWidth-int-) | รับหรือกำหนดระยะห่างระหว่างกลุ่มแท่งหรือคอลัมน์เป็นเปอร์เซ็นต์ของความกว้างแท่งหรือคอลัมน์. |
+| [getGapDepth()](#getGapDepth--) | รับหรือกำหนดระยะห่างระหว่างชุดข้อมูลในแผนภูมิ 3 มิติเป็นเปอร์เซ็นต์ของความกว้างมาร์คเกอร์. |
+| [setGapDepth(int value)](#setGapDepth-int-) | รับหรือกำหนดระยะห่างระหว่างชุดข้อมูลในแผนภูมิ 3 มิติเป็นเปอร์เซ็นต์ของความกว้างมาร์คเกอร์. |
+| [getFirstSliceAngle()](#getFirstSliceAngle--) | รับหรือกำหนดมุมของส่วนแรกของแผนภูมิพายหรือโดนัทเป็นองศา (ตามเข็มนาฬิกาตั้งแต่ด้านบน, ตั้งแต่ 0 ถึง 360 องศา). |
+| [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | รับหรือกำหนดมุมของส่วนแรกของแผนภูมิพายหรือโดนัทเป็นองศา (ตามเข็มนาฬิกาตั้งแต่ด้านบน, ตั้งแต่ 0 ถึง 360 องศา). |
+| [getDoughnutHoleSize()](#getDoughnutHoleSize--) | ระบุขนาดของรูในแผนภูมิโดนัท (อาจอยู่ระหว่าง 0 ถึง 90 เปอร์เซ็นต์ของขนาดพื้นที่พล็อต). |
+| [setDoughnutHoleSize(byte value)](#setDoughnutHoleSize-byte-) | ระบุขนาดของรูในแผนภูมิโดนัท (อาจอยู่ระหว่าง 0 ถึง 90 เปอร์เซ็นต์ของขนาดพื้นที่พล็อต). |
+| [getOverlap()](#getOverlap--) | ระบุระดับการทับซ้อนของแท่งและคอลัมน์ในแผนภูมิ 2 มิติเป็นเปอร์เซ็นต์ (ตั้งแต่ -100% ถึง 100%). |
+| [setOverlap(byte value)](#setOverlap-byte-) | ระบุระดับการทับซ้อนของแท่งและคอลัมน์ในแผนภูมิ 2 มิติเป็นเปอร์เซ็นต์ (ตั้งแต่ -100% ถึง 100%). |
+| [getSecondPieSize()](#getSecondPieSize--) | ระบุขนาดของพายหรือแท่งที่สองของแผนภูมิ pie-of-pie หรือ bar-of-pie เป็นเปอร์เซ็นต์ของขนาดพายแรก (อาจอยู่ระหว่าง 5 ถึง 200 เปอร์เซ็นต์). |
+| [setSecondPieSize(int value)](#setSecondPieSize-int-) | ระบุขนาดของพายหรือแท่งที่สองของแผนภูมิ pie-of-pie หรือ bar-of-pie เป็นเปอร์เซ็นต์ของขนาดพายแรก (อาจอยู่ระหว่าง 5 ถึง 200 เปอร์เซ็นต์). |
+| [getBubbleSizeRepresentation()](#getBubbleSizeRepresentation--) | ระบุวิธีการแสดงค่าขนาดของบับเบิลในแผนภูมิบับเบิล. |
+| [setBubbleSizeRepresentation(int value)](#setBubbleSizeRepresentation-int-) | ระบุวิธีการแสดงค่าขนาดของบับเบิลในแผนภูมิบับเบิล. |
+| [getPieSplitPosition()](#getPieSplitPosition--) | ระบุค่าที่จะใช้กำหนดว่าจุดข้อมูลใดอยู่ในพายหรือแท่งที่สองของแผนภูมิ pie-of-pie หรือ bar-of-pie. |
+| [setPieSplitPosition(double value)](#setPieSplitPosition-double-) | ระบุค่าที่จะใช้กำหนดว่าจุดข้อมูลใดอยู่ในพายหรือแท่งที่สองของแผนภูมิ pie-of-pie หรือ bar-of-pie. |
+| [getPieSplitBy()](#getPieSplitBy--) | ระบุวิธีการกำหนดว่าจุดข้อมูลใดอยู่ในพายหรือแท่งที่สองของแผนภูมิ pie-of-pie หรือ bar-of-pie. |
+| [setPieSplitBy(int value)](#setPieSplitBy-int-) | ระบุวิธีการกำหนดว่าจุดข้อมูลใดอยู่ในพายหรือแท่งที่สองของแผนภูมิ pie-of-pie หรือ bar-of-pie. |
+| [isColorVaried()](#isColorVaried--) | ระบุว่ามาร์คเกอร์ข้อมูลแต่ละตัวในซีรีส์มีสีที่แตกต่างกัน. |
+| [setColorVaried(boolean value)](#setColorVaried-boolean-) | ระบุว่ามาร์คเกอร์ข้อมูลแต่ละตัวในซีรีส์มีสีที่แตกต่างกัน. |
+| [hasSeriesLines()](#hasSeriesLines--) | จริงหากแผนภูมิมีเส้นของซีรีส์. |
+| [setSeriesLines(boolean value)](#setSeriesLines-boolean-) | จริงหากแผนภูมิมีเส้นของซีรีส์. |
+| [getHiLowLinesFormat()](#getHiLowLinesFormat--) | ระบุรูปแบบ HiLowLines. |
+| [getBubbleSizeScale()](#getBubbleSizeScale--) | ระบุปัจจัยสเกลสำหรับแผนภูมิบับเบิล (อาจอยู่ระหว่าง 0 ถึง 300 เปอร์เซ็นต์ของขนาดเริ่มต้น). |
+| [setBubbleSizeScale(int value)](#setBubbleSizeScale-int-) | ระบุปัจจัยสเกลสำหรับแผนภูมิบับเบิล (อาจอยู่ระหว่าง 0 ถึง 300 เปอร์เซ็นต์ของขนาดเริ่มต้น). |
+| [getPieSplitCustomPoints()](#getPieSplitCustomPoints--) | ข้อมูลการแยกส่วนแบบกำหนดเองสำหรับแผนภูมิ pie-of-pie หรือ bar-of-pie ที่มีการแยกส่วนแบบกำหนดเอง. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-| [getChart()](#getChart--) | คืนค่าแผนภูมาพาเรนต์. |
-| [getSlide()](#getSlide--) | คืนค่า slide พาเรนต์ของ FillFormat. |
-| [getPresentation()](#getPresentation--) | คืนค่า presentation พาเรนต์ของ FillFormat. |
+| [getChart()](#getChart--) | ส่งคืนแผนภูมิแม่. |
+| [getSlide()](#getSlide--) | ส่งคืนสไลด์แม่ของ FillFormat. |
+| [getPresentation()](#getPresentation--) | ส่งคืนการนำเสนอแม่ของ FillFormat. |
 
 ### getType() {#getType--}
 ```
 public final int getType()
 ```
 
-คืนค่าประเภทของกลุ่ม series นี้. อ่านอย่างเดียว [CombinableSeriesTypesGroup](../../com.aspose.slides/combinableseriestypesgroup).
+ส่งคืนประเภทของกลุ่มซีรีส์นี้. อ่านอย่างเดียว [CombinableSeriesTypesGroup](../../com.aspose.slides/combinableseriestypesgroup).
 
-**คืนค่า:**
+**ส่งคืน:**
 int
 
 ### getPlotOnSecondAxis() {#getPlotOnSecondAxis--}
@@ -75,9 +74,9 @@ int
 public final boolean getPlotOnSecondAxis()
 ```
 
-บ่งชี้ว่า series ของกลุ่มนี้ถูกพล็อตบนแกนรองหรือไม่. อ่านอย่างเดียว boolean.
+ระบุว่าชุดข้อมูลของกลุ่มนี้ถูกพล็อตบนแกนรองหรือไม่. อ่านอย่างเดียว boolean.
 
-**คืนค่า:**
+**ส่งคืน:**
 boolean
 
 ### getSeries() {#getSeries--}
@@ -85,9 +84,9 @@ boolean
 public final IChartSeriesReadonlyCollection getSeries()
 ```
 
-คืนค่าคอลเลกชันของ series. อ่านอย่างเดียว [IChartSeriesReadonlyCollection](../../com.aspose.slides/ichartseriesreadonlycollection).
+ส่งคืนคอลเล็กชันของซีรีส์. อ่านอย่างเดียว [IChartSeriesReadonlyCollection](../../com.aspose.slides/ichartseriesreadonlycollection).
 
-**คืนค่า:**
+**ส่งคืน:**
 [IChartSeriesReadonlyCollection](../../com.aspose.slides/ichartseriesreadonlycollection)
 
 ### get_Item(int index) {#get-Item-int-}
@@ -95,14 +94,14 @@ public final IChartSeriesReadonlyCollection getSeries()
 public final IChartSeries get_Item(int index)
 ```
 
-ดึง element ที่ตำแหน่ง index ที่ระบุ.
+รับองค์ประกอบที่ตำแหน่งที่ระบุ.
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| พารามิเตอร์ | ชนิด | รายละเอียด |
 | --- | --- | --- |
 | index | int |  |
 
-**คืนค่า:**
+**ส่งคืน:**
 [IChartSeries](../../com.aspose.slides/ichartseries)
 
 ### getUpDownBars() {#getUpDownBars--}
@@ -110,9 +109,9 @@ public final IChartSeries get_Item(int index)
 public final IUpDownBarsManager getUpDownBars()
 ```
 
-ให้การเข้าถึง up/down bars ของแผนภูมิ Line- หรือ Stock-chart. อ่านอย่างเดียว [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager).
+ให้การเข้าถึงแถบขึ้น/ลงของแผนภูมิ Line หรือ Stock. อ่านอย่างเดียว [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager).
 
-**คืนค่า:**
+**ส่งคืน:**
 [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager)
 
 ### getGapWidth() {#getGapWidth--}
@@ -120,9 +119,13 @@ public final IUpDownBarsManager getUpDownBars()
 public final int getGapWidth()
 ```
 
-กำหนดช่องว่างระหว่างกลุ่ม bar หรือ column เป็นเปอร์เซ็นต์ของความกว้างของ bar หรือ column. อ่าน/เขียน int.
+รับหรือกำหนดระยะห่างระหว่างกลุ่มแท่งหรือคอลัมน์เป็นเปอร์เซ็นต์ของความกว้างแท่งหรือคอลัมน์. ค่าต้องอยู่ระหว่าง 0 ถึง 500. อ่าน/เขียน int.
 
-**คืนค่า:**
+--------------------
+
+พร็อพเพอร์ตี้นี้ใช้กับซีรีส์ของประเภทต่อไปนี้: Bar subtypes (ดูวิธีการ [ChartTypeCharacterizer.isChartTypeBar(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBar-int-) ด้วย), Column subtypes (ดูวิธีการ [ChartTypeCharacterizer.isChartTypeColumn(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeColumn-int-) ด้วย), [ChartType.BarOfPie](../../com.aspose.slides/charttype\#BarOfPie), [ChartType.PieOfPie](../../com.aspose.slides/charttype\#PieOfPie), [ChartType.BoxAndWhisker](../../com.aspose.slides/charttype\#BoxAndWhisker), [ChartType.Funnel](../../com.aspose.slides/charttype\#Funnel), [ChartType.Histogram](../../com.aspose.slides/charttype\#Histogram), [ChartType.Waterfall](../../com.aspose.slides/charttype\#Waterfall).
+
+**ส่งคืน:**
 int
 
 ### setGapWidth(int value) {#setGapWidth-int-}
@@ -130,10 +133,14 @@ int
 public final void setGapWidth(int value)
 ```
 
-กำหนดช่องว่างระหว่างกลุ่ม bar หรือ column เป็นเปอร์เซ็นต์ของความกว้างของ bar หรือ column. อ่าน/เขียน int.
+รับหรือกำหนดระยะห่างระหว่างกลุ่มแท่งหรือคอลัมน์เป็นเปอร์เซ็นต์ของความกว้างแท่งหรือคอลัมน์. ค่าต้องอยู่ระหว่าง 0 ถึง 500. อ่าน/เขียน int.
+
+--------------------
+
+พร็อพเพอร์ตี้นี้ใช้กับซีรีส์ของประเภทต่อไปนี้: Bar subtypes (ดูวิธีการ [ChartTypeCharacterizer.isChartTypeBar(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBar-int-) ด้วย), Column subtypes (ดูวิธีการ [ChartTypeCharacterizer.isChartTypeColumn(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeColumn-int-) ด้วย), [ChartType.BarOfPie](../../com.aspose.slides/charttype\#BarOfPie), [ChartType.PieOfPie](../../com.aspose.slides/charttype\#PieOfPie), [ChartType.BoxAndWhisker](../../com.aspose.slides/charttype\#BoxAndWhisker), [ChartType.Funnel](../../com.aspose.slides/charttype\#Funnel), [ChartType.Histogram](../../com.aspose.slides/charttype\#Histogram), [ChartType.Waterfall](../../com.aspose.slides/charttype\#Waterfall).
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| พารามิเตอร์ | ชนิด | รายละเอียด |
 | --- | --- | --- |
 | value | int |  |
 
@@ -142,9 +149,13 @@ public final void setGapWidth(int value)
 public final int getGapDepth()
 ```
 
-คืนค่าหรือกำหนดระยะทางเป็นเปอร์เซ็นต์ของความกว้าง marker ระหว่าง data series ในแผนภูมิ 3D. อ่าน/เขียน int.
+รับหรือกำหนดระยะห่างระหว่างชุดข้อมูลในแผนภูมิ 3 มิติเป็นเปอร์เซ็นต์ของความกว้างมาร์คเกอร์. ค่าต้องอยู่ระหว่าง 0 ถึง 500. อ่าน/เขียน int.
 
-**คืนค่า:**
+--------------------
+
+พร็อพเพอร์ตี้นี้ใช้กับซีรีส์ของประเภทต่อไปนี้: 3D bar and column subtypes (ดูวิธีการ [ChartTypeCharacterizer.isBar3DChart(int)](../../com.aspose.slides/charttypecharacterizer\#isBar3DChart-int-) ด้วย), [ChartType.Line3D](../../com.aspose.slides/charttype\#Line3D), [ChartType.Area3D](../../com.aspose.slides/charttype\#Area3D), [ChartType.StackedArea3D](../../com.aspose.slides/charttype\#StackedArea3D), [ChartType.PercentsStackedArea3D](../../com.aspose.slides/charttype\#PercentsStackedArea3D).
+
+**ส่งคืน:**
 int
 
 ### setGapDepth(int value) {#setGapDepth-int-}
@@ -152,10 +163,14 @@ int
 public final void setGapDepth(int value)
 ```
 
-คืนค่าหรือกำหนดระยะทางเป็นเปอร์เซ็นต์ของความกว้าง marker ระหว่าง data series ในแผนภูมิ 3D. อ่าน/เขียน int.
+รับหรือกำหนดระยะห่างระหว่างชุดข้อมูลในแผนภูมิ 3 มิติเป็นเปอร์เซ็นต์ของความกว้างมาร์คเกอร์. ค่าต้องอยู่ระหว่าง 0 ถึง 500. อ่าน/เขียน int.
+
+--------------------
+
+พร็อพเพอร์ตี้นี้ใช้กับซีรีส์ของประเภทต่อไปนี้: 3D bar and column subtypes (ดูวิธีการ [ChartTypeCharacterizer.isBar3DChart(int)](../../com.aspose.slides/charttypecharacterizer\#isBar3DChart-int-) ด้วย), [ChartType.Line3D](../../com.aspose.slides/charttype\#Line3D), [ChartType.Area3D](../../com.aspose.slides/charttype\#Area3D), [ChartType.StackedArea3D](../../com.aspose.slides/charttype\#StackedArea3D), [ChartType.PercentsStackedArea3D](../../com.aspose.slides/charttype\#PercentsStackedArea3D).
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| พารามิเตอร์ | ชนิด | รายละเอียด |
 | --- | --- | --- |
 | value | int |  |
 
@@ -164,9 +179,9 @@ public final void setGapDepth(int value)
 public final int getFirstSliceAngle()
 ```
 
-ดึงหรือกำหนดมุมของชิ้นแรกของแผนภูมิ pie หรือ doughnut เป็นองศา (ตามเข็มนาฬิกาตั้งจากด้านบน, ตั้งแต่ 0 ถึง 360 องศา). อ่าน/เขียน int.
+รับหรือกำหนดมุมของส่วนแรกของแผนภูมิพายหรือโดนัทเป็นองศา (ตามเข็มนาฬิกาตั้งแต่ด้านบน, ตั้งแต่ 0 ถึง 360 องศา). อ่าน/เขียน int.
 
-**คืนค่า:**
+**ส่งคืน:**
 int
 
 ### setFirstSliceAngle(int value) {#setFirstSliceAngle-int-}
@@ -174,10 +189,10 @@ int
 public final void setFirstSliceAngle(int value)
 ```
 
-ดึงหรือกำหนดมุมของชิ้นแรกของแผนภูมิ pie หรือ doughnut เป็นองศา (ตามเข็มนาฬิกาตั้งจากด้านบน, ตั้งแต่ 0 ถึง 360 องศา). อ่าน/เขียน int.
+รับหรือกำหนดมุมของส่วนแรกของแผนภูมิพายหรือโดนัทเป็นองศา (ตามเข็มนาฬิกาตั้งแต่ด้านบน, ตั้งแต่ 0 ถึง 360 องศา). อ่าน/เขียน int.
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| พารามิเตอร์ | ชนิด | รายละเอียด |
 | --- | --- | --- |
 | value | int |  |
 
@@ -186,9 +201,9 @@ public final void setFirstSliceAngle(int value)
 public final byte getDoughnutHoleSize()
 ```
 
-กำหนดขนาดของรูในแผนภูมิ doughnut (สามารถอยู่ระหว่าง 0 ถึง 90 เปอร์เซ็นต์ของขนาดพื้นที่พล็อต). อ่าน/เขียน byte.
+ระบุขนาดของรูในแผนภูมิโดนัท (อาจอยู่ระหว่าง 0 ถึง 90 เปอร์เซ็นต์ของขนาดพื้นที่พล็อต). อ่าน/เขียน byte.
 
-**คืนค่า:**
+**ส่งคืน:**
 byte
 
 ### setDoughnutHoleSize(byte value) {#setDoughnutHoleSize-byte-}
@@ -196,10 +211,10 @@ byte
 public final void setDoughnutHoleSize(byte value)
 ```
 
-กำหนดขนาดของรูในแผนภูมิ doughnut (สามารถอยู่ระหว่าง 0 ถึง 90 เปอร์เซ็นต์ของขนาดพื้นที่พล็อต). อ่าน/เขียน byte.
+ระบุขนาดของรูในแผนภูมิโดนัท (อาจอยู่ระหว่าง 0 ถึง 90 เปอร์เซ็นต์ของขนาดพื้นที่พล็อต). อ่าน/เขียน byte.
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| พารามิเตอร์ | ชนิด | รายละเอียด |
 | --- | --- | --- |
 | value | byte |  |
 
@@ -208,7 +223,7 @@ public final void setDoughnutHoleSize(byte value)
 public final byte getOverlap()
 ```
 
-กำหนดว่าบาร์และคอลัมน์ควรทับกันมากเท่าใดในแผนภูมิ 2-D เป็นเปอร์เซ็นต์ (จาก -100% ถึง 100%). - -100%: ช่องว่างสูงสุด (บาร์แยกจากกันอย่างสิ้นเชิง). - 0%: บาร์จัดเรียงต่อกันโดยไม่ทับหรือช่องว่าง. - 100%: ทับสูงสุด (บาร์ทับกันเต็มที่). คุณสมบัตินี้เป็นอ่าน/เขียน byte.
+ระบุระดับการทับซ้อนของแท่งและคอลัมน์ในแผนภูมิ 2 มิติเป็นเปอร์เซ็นต์ (ตั้งแต่ -100% ถึง 100%). -100%: ระยะห่างสูงสุด (แท่งแยกจากกันอย่างสมบูรณ์). 0%: แท่งวางเคียงกันโดยไม่มีการทับซ้อนหรือช่องว่าง. 100%: การทับซ้อนสูงสุด (แท่งทับซ้อนกันทั้งหมด). พร็อพเพอร์ตี้นี้เป็นอ่าน/เขียน byte.
 
 --------------------
 
@@ -228,7 +243,7 @@ public final byte getOverlap()
 > ```
 
 
-**คืนค่า:**
+**ส่งคืน:**
 byte
 
 ### setOverlap(byte value) {#setOverlap-byte-}
@@ -236,7 +251,7 @@ byte
 public final void setOverlap(byte value)
 ```
 
-กำหนดว่าบาร์และคอลัมน์ควรทับกันมากเท่าใดในแผนภูมิ 2-D เป็นเปอร์เซ็นต์ (จาก -100% ถึง 100%). - -100%: ช่องว่างสูงสุด (บาร์แยกจากกันอย่างสิ้นเชิง). - 0%: บาร์จัดเรียงต่อกันโดยไม่ทับหรือช่องว่าง. - 100%: ทับสูงสุด (บาร์ทับกันเต็มที่). คุณสมบัตินี้เป็นอ่าน/เขียน byte.
+ระบุระดับการทับซ้อนของแท่งและคอลัมน์ในแผนภูมิ 2 มิติเป็นเปอร์เซ็นต์ (ตั้งแต่ -100% ถึง 100%). -100%: ระยะห่างสูงสุด (แท่งแยกจากกันอย่างสมบูรณ์). 0%: แท่งวางเคียงกันโดยไม่มีการทับซ้อนหรือช่องว่าง. 100%: การทับซ้อนสูงสุด (แท่งทับซ้อนกันทั้งหมด). พร็อพเพอร์ตี้นี้เป็นอ่าน/เขียน byte.
 
 --------------------
 
@@ -257,7 +272,7 @@ public final void setOverlap(byte value)
 
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| พารามิเตอร์ | ชนิด | รายละเอียด |
 | --- | --- | --- |
 | value | byte |  |
 
@@ -266,9 +281,9 @@ public final void setOverlap(byte value)
 public final int getSecondPieSize()
 ```
 
-กำหนดขนาดของ pie หรือ bar ที่สองของแผนภูมิ pie-of-pie หรือ bar-of-pie เป็นเปอร์เซ็นต์ของขนาดของ pie แรก (สามารถอยู่ระหว่าง 5 ถึง 200 เปอร์เซ็นต์). อ่าน/เขียน int.
+ระบุขนาดของพายหรือแท่งที่สองของแผนภูมิ pie-of-pie หรือ bar-of-pie เป็นเปอร์เซ็นต์ของขนาดพายแรก (อาจอยู่ระหว่าง 5 ถึง 200 เปอร์เซ็นต์). อ่าน/เขียน int.
 
-**คืนค่า:**
+**ส่งคืน:**
 int
 
 ### setSecondPieSize(int value) {#setSecondPieSize-int-}
@@ -276,10 +291,10 @@ int
 public final void setSecondPieSize(int value)
 ```
 
-กำหนดขนาดของ pie หรือ bar ที่สองของแผนภูมิ pie-of-pie หรือ bar-of-pie เป็นเปอร์เซ็นต์ของขนาดของ pie แรก (สามารถอยู่ระหว่าง 5 ถึง 200 เปอร์เซ็นต์). อ่าน/เขียน int.
+ระบุขนาดของพายหรือแท่งที่สองของแผนภูมิ pie-of-pie หรือ bar-of-pie เป็นเปอร์เซ็นต์ของขนาดพายแรก (อาจอยู่ระหว่าง 5 ถึง 200 เปอร์เซ็นต์). อ่าน/เขียน int.
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| พารามิเตอร์ | ชนิด | รายละเอียด |
 | --- | --- | --- |
 | value | int |  |
 
@@ -288,9 +303,9 @@ public final void setSecondPieSize(int value)
 public final int getBubbleSizeRepresentation()
 ```
 
-กำหนดว่าค่าขนาดของ bubble จะถูกแสดงอย่างไรในแผนภูมิ bubble. อ่าน/เขียน [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
+ระบุวิธีการแสดงค่าขนาดของบับเบิลในแผนภูมิบับเบิล. อ่าน/เขียน [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
 
-**คืนค่า:**
+**ส่งคืน:**
 int
 
 ### setBubbleSizeRepresentation(int value) {#setBubbleSizeRepresentation-int-}
@@ -298,10 +313,10 @@ int
 public final void setBubbleSizeRepresentation(int value)
 ```
 
-กำหนดว่าค่าขนาดของ bubble จะถูกแสดงอย่างไรในแผนภูมิ bubble. อ่าน/เขียน [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
+ระบุวิธีการแสดงค่าขนาดของบับเบิลในแผนภูมิบับเบิล. อ่าน/เขียน [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| พารามิเตอร์ | ชนิด | รายละเอียด |
 | --- | --- | --- |
 | value | int |  |
 
@@ -310,9 +325,9 @@ public final void setBubbleSizeRepresentation(int value)
 public final double getPieSplitPosition()
 ```
 
-กำหนดค่าที่จะใช้เพื่อกำหนดว่าจุดข้อมูลใดอยู่ใน pie หรือ bar ที่สองของแผนภูมิ pie-of-pie หรือ bar-of-pie. ใช้ร่วมกับคุณสมบัติ PieSplitBy. อ่าน/เขียน double.
+ระบุค่าที่จะใช้กำหนดว่าจุดข้อมูลใดอยู่ในพายหรือแท่งที่สองของแผนภูมิ pie-of-pie หรือ bar-of-pie. ใช้ร่วมกับพร็อพเพอร์ตี้ PieSplitBy. อ่าน/เขียน double.
 
-**คืนค่า:**
+**ส่งคืน:**
 double
 
 ### setPieSplitPosition(double value) {#setPieSplitPosition-double-}
@@ -320,10 +335,10 @@ double
 public final void setPieSplitPosition(double value)
 ```
 
-กำหนดค่าที่จะใช้เพื่อกำหนดว่าจุดข้อมูลใดอยู่ใน pie หรือ bar ที่สองของแผนภูมิ pie-of-pie หรือ bar-of-pie. ใช้ร่วมกับคุณสมบัติ PieSplitBy. อ่าน/เขียน double.
+ระบุค่าที่จะใช้กำหนดว่าจุดข้อมูลใดอยู่ในพายหรือแท่งที่สองของแผนภูมิ pie-of-pie หรือ bar-of-pie. ใช้ร่วมกับพร็อพเพอร์ตี้ PieSplitBy. อ่าน/เขียน double.
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| พารามิเตอร์ | ชนิด | รายละเอียด |
 | --- | --- | --- |
 | value | double |  |
 
@@ -332,9 +347,9 @@ public final void setPieSplitPosition(double value)
 public final int getPieSplitBy()
 ```
 
-กำหนดวิธีการที่ใช้เพื่อกำหนดว่าจุดข้อมูลใดอยู่ใน pie หรือ bar ที่สองของแผนภูมิ pie-of-pie หรือ bar-of-pie. อ่าน/เขียน [PieSplitType](../../com.aspose.slides/piesplittype).
+ระบุวิธีการกำหนดว่าจุดข้อมูลใดอยู่ในพายหรือแท่งที่สองของแผนภูมิ pie-of-pie หรือ bar-of-pie. อ่าน/เขียน [PieSplitType](../../com.aspose.slides/piesplittype).
 
-**คืนค่า:**
+**ส่งคืน:**
 int
 
 ### setPieSplitBy(int value) {#setPieSplitBy-int-}
@@ -342,10 +357,10 @@ int
 public final void setPieSplitBy(int value)
 ```
 
-กำหนดวิธีการที่ใช้เพื่อกำหนดว่าจุดข้อมูลใดอยู่ใน pie หรือ bar ที่สองของแผนภูมิ pie-of-pie หรือ bar-of-pie. อ่าน/เขียน [PieSplitType](../../com.aspose.slides/piesplittype).
+ระบุวิธีการกำหนดว่าจุดข้อมูลใดอยู่ในพายหรือแท่งที่สองของแผนภูมิ pie-of-pie หรือ bar-of-pie. อ่าน/เขียน [PieSplitType](../../com.aspose.slides/piesplittype).
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| พารามิเตอร์ | ชนิด | รายละเอียด |
 | --- | --- | --- |
 | value | int |  |
 
@@ -354,9 +369,9 @@ public final void setPieSplitBy(int value)
 public final boolean isColorVaried()
 ```
 
-กำหนดว่า marker ของข้อมูลแต่ละตัวใน series มีสีที่ต่างกัน. อ่าน/เขียน boolean.
+ระบุว่ามาร์คเกอร์ข้อมูลแต่ละตัวในซีรีส์มีสีที่แตกต่างกัน. อ่าน/เขียน boolean.
 
-**คืนค่า:**
+**ส่งคืน:**
 boolean
 
 ### setColorVaried(boolean value) {#setColorVaried-boolean-}
@@ -364,10 +379,10 @@ boolean
 public final void setColorVaried(boolean value)
 ```
 
-กำหนดว่า marker ของข้อมูลแต่ละตัวใน series มีสีที่ต่างกัน. อ่าน/เขียน boolean.
+ระบุว่ามาร์คเกอร์ข้อมูลแต่ละตัวในซีรีส์มีสีที่แตกต่างกัน. อ่าน/เขียน boolean.
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| พารามิเตอร์ | ชนิด | รายละเอียด |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -376,9 +391,9 @@ public final void setColorVaried(boolean value)
 public final boolean hasSeriesLines()
 ```
 
-เป็นจริงหาก chart มี series lines. ใช้กับแผนภูมิ stacked bar และ OfPie. อ่าน/เขียน boolean.
+จริงหากแผนภูมิมีเส้นของซีรีส์. ใช้กับแผนภูมิ stacked bar และ OfPie. อ่าน/เขียน boolean.
 
-**คืนค่า:**
+**ส่งคืน:**
 boolean
 
 ### setSeriesLines(boolean value) {#setSeriesLines-boolean-}
@@ -386,10 +401,10 @@ boolean
 public final void setSeriesLines(boolean value)
 ```
 
-เป็นจริงหาก chart มี series lines. ใช้กับแผนภูมิ stacked bar และ OfPie. อ่าน/เขียน boolean.
+จริงหากแผนภูมิมีเส้นของซีรีส์. ใช้กับแผนภูมิ stacked bar และ OfPie. อ่าน/เขียน boolean.
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| พารามิเตอร์ | ชนิด | รายละเอียด |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -398,9 +413,9 @@ public final void setSeriesLines(boolean value)
 public final IChartLinesFormat getHiLowLinesFormat()
 ```
 
-กำหนดรูปแบบ HiLowLines. HiLowLines ใช้ร่วมกับประเภทแผนภูมิ HiLowClose, OpenHiLowClose, VolumeHiLowClose และ VolumeOpenHiLowClose.
+ระบุรูปแบบ HiLowLines. HiLowLines ใช้ร่วมกับประเภทแผนภูมิ HiLowClose, OpenHiLowClose, VolumeHiLowClose และ VolumeOpenHiLowClose.
 
-**คืนค่า:**
+**ส่งคืน:**
 [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat)
 
 ### getBubbleSizeScale() {#getBubbleSizeScale--}
@@ -408,9 +423,9 @@ public final IChartLinesFormat getHiLowLinesFormat()
 public final int getBubbleSizeScale()
 ```
 
-กำหนดตัวคูณสเกลสำหรับแผนภูมิ bubble (สามารถอยู่ระหว่าง 0 ถึง 300 เปอร์เซ็นต์ของขนาดเริ่มต้น). อ่าน/เขียน int.
+ระบุปัจจัยสเกลสำหรับแผนภูมิบับเบิล (อาจอยู่ระหว่าง 0 ถึง 300 เปอร์เซ็นต์ของขนาดเริ่มต้น). อ่าน/เขียน int.
 
-**คืนค่า:**
+**ส่งคืน:**
 int
 
 ### setBubbleSizeScale(int value) {#setBubbleSizeScale-int-}
@@ -418,10 +433,10 @@ int
 public final void setBubbleSizeScale(int value)
 ```
 
-กำหนดตัวคูณสเกลสำหรับแผนภูมิ bubble (สามารถอยู่ระหว่าง 0 ถึง 300 เปอร์เซ็นต์ของขนาดเริ่มต้น). อ่าน/เขียน int.
+ระบุปัจจัยสเกลสำหรับแผนภูมิบับเบิล (อาจอยู่ระหว่าง 0 ถึง 300 เปอร์เซ็นต์ของขนาดเริ่มต้น). อ่าน/เขียน int.
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| พารามิเตอร์ | ชนิด | รายละเอียด |
 | --- | --- | --- |
 | value | int |  |
 
@@ -430,9 +445,9 @@ public final void setBubbleSizeScale(int value)
 public final IPieSplitCustomPointCollection getPieSplitCustomPoints()
 ```
 
-ข้อมูลการแยกแบบกำหนดเองสำหรับแผนภูมิ pie-of-pie หรือ bar-of-pie ที่มีการแยกแบบกำหนดเอง. มีจุดข้อมูลที่ควรวาดใน pie หรือ bar ที่สองของแผนภูมิดังกล่าว. อ่านอย่างเดียว [PieSplitCustomPointCollection](../../com.aspose.slides/piesplitcustompointcollection).
+ข้อมูลการแยกส่วนแบบกำหนดเองสำหรับแผนภูมิ pie-of-pie หรือ bar-of-pie ที่มีการแยกส่วนแบบกำหนดเอง. มีจุดข้อมูลที่ควรวาดในพายหรือแท่งที่สองของแผนภูมิ. อ่านอย่างเดียว [PieSplitCustomPointCollection](../../com.aspose.slides/piesplitcustompointcollection).
 
-**คืนค่า:**
+**ส่งคืน:**
 [IPieSplitCustomPointCollection](../../com.aspose.slides/ipiesplitcustompointcollection)
 
 ### getParent_Immediate() {#getParent-Immediate--}
@@ -440,9 +455,9 @@ public final IPieSplitCustomPointCollection getPieSplitCustomPoints()
 public final IDOMObject getParent_Immediate()
 ```
 
-คืนค่าออบเจกต์ Parent_Immediate. อ่านอย่างเดียว IDOMObject.
+ส่งคืนวัตถุ Parent_Immediate. อ่านอย่างเดียว IDOMObject.
 
-**คืนค่า:**
+**ส่งคืน:**
 com.aspose.slides.IDOMObject
 
 ### getChart() {#getChart--}
@@ -450,9 +465,9 @@ com.aspose.slides.IDOMObject
 public final IChart getChart()
 ```
 
-คืนค่าแผนภูมาพาเรนต์. อ่านอย่างเดียว [IChart](../../com.aspose.slides/ichart).
+ส่งคืนแผนภูมิแม่. อ่านอย่างเดียว [IChart](../../com.aspose.slides/ichart).
 
-**คืนค่า:**
+**ส่งคืน:**
 [IChart](../../com.aspose.slides/ichart)
 
 ### getSlide() {#getSlide--}
@@ -460,9 +475,9 @@ public final IChart getChart()
 public final IBaseSlide getSlide()
 ```
 
-คืนค่า slide พาเรนต์ของ FillFormat. อ่านอย่างเดียว [BaseSlide](../../com.aspose.slides/baseslide).
+ส่งคืนสไลด์แม่ของ FillFormat. อ่านอย่างเดียว [BaseSlide](../../com.aspose.slides/baseslide).
 
-**คืนค่า:**
+**ส่งคืน:**
 [IBaseSlide](../../com.aspose.slides/ibaseslide)
 
 ### getPresentation() {#getPresentation--}
@@ -470,7 +485,7 @@ public final IBaseSlide getSlide()
 public final IPresentation getPresentation()
 ```
 
-คืนค่า presentation พาเรนต์ของ FillFormat. อ่านอย่างเดียว [IPresentation](../../com.aspose.slides/ipresentation).
+ส่งคืนการนำเสนอแม่ของ FillFormat. อ่านอย่างเดียว [IPresentation](../../com.aspose.slides/ipresentation).
 
-**คืนค่า:**
+**ส่งคืน:**
 [IPresentation](../../com.aspose.slides/ipresentation)

@@ -1,78 +1,73 @@
 ---
 title: ChartSeriesGroup
-second_title: Aspose.Slides के लिए जावा API संदर्भ
-description: सिरीज़ समूह का प्रतिनिधित्व करता है।
+second_title: Aspose.Slides के लिए Java API संदर्भ
+description: श्रृंखला समूह का प्रतिनिधित्व करता है।
 type: docs
 url: /hi/com.aspose.slides/chartseriesgroup/
 ---
-**Inheritance:**  
-विरासत:
-
+**विरासत:**
 java.lang.Object
 
-**All Implemented Interfaces:**  
-सभी लागू इंटरफ़ेस:
+**सभी लागू इंटरफ़ेस:**
 [com.aspose.slides.IChartSeriesGroup](../../com.aspose.slides/ichartseriesgroup), com.aspose.slides.IDOMObject
 ```
 public class ChartSeriesGroup implements IChartSeriesGroup, IDOMObject
 ```
 
-Represents group of series.  
-सिरीज़ समूह का प्रतिनिधित्व करता है।
+श्रृंखलाओं का समूह प्रदर्शित करता है।
 
 --------------------
 
-1) See summary and remarks for ChartSeriesGroupCollection class and CombinableSeriesTypesGroup enum. 2) Group of series contains some series properies whitch is common for each series in group ("series group properties"). "Series group properties" in ChartSeriesGroup class is read/write. Each of "series group properties" can have a read-only projection in ChartSeries class.  
-1) ChartSeriesGroupCollection क्लास और CombinableSeriesTypesGroup एनीम के लिए सारांश और टिप्पणी देखें। 2) सिरीज़ समूह में कुछ सिरीज़ प्रॉपर्टीज़ होती हैं जो समूह में प्रत्येक सिरीज़ के लिए सामान्य हैं ("series group properties")। ChartSeriesGroup क्लास में "Series group properties" पढ़ने/लिखने योग्य है। प्रत्येक "series group properties" का एक केवल-पढ़ने योग्य प्रोजेक्शन ChartSeries क्लास में हो सकता है।
+1) देखें सारांश और टिप्पणी के लिए ChartSeriesGroupCollection क्लास और CombinableSeriesTypesGroup एन्नुम। 2) श्रृंखलाओं का समूह कुछ श्रृंखला गुणों को समेटता है जो समूह में प्रत्येक श्रृंखला के लिए सामान्य हैं ("series group properties")। "Series group properties" ChartSeriesGroup क्लास में पढ़ने/लिखने योग्य है। प्रत्येक "series group properties" का एक केवल-पढ़ने योग्य प्रोजेक्शन ChartSeries क्लास में हो सकता है।
 
-## मेथड्स
+## विधियाँ
 
-| मेथड | विवरण |
+| विधि | विवरण |
 | --- | --- |
-| [getType()](#getType--) | इस सिरीज़ समूह का प्रकार लौटाता है। |
-| [getPlotOnSecondAxis()](#getPlotOnSecondAxis--) | यह दर्शाता है कि क्या इस समूह की सिरीज़ द्वितीयक अक्ष पर प्लॉट की गई है। |
-| [getSeries()](#getSeries--) | सिरीज़ का संग्रह लौटाता है। |
-| [get_Item(int index)](#get-Item-int-) | निर्दिष्ट अनुक्रमांक पर तत्व प्राप्त करता है। |
-| [getUpDownBars()](#getUpDownBars--) | लाइन या स्टॉक-चार्ट की अप/डाउन बार तक पहुंच प्रदान करता है। |
-| [getGapWidth()](#getGapWidth--) | बार या कॉलम क्लस्टर के बीच के अंतराल को, बार या कॉलम की चौड़ाई के प्रतिशत के रूप में निर्दिष्ट करता है। |
-| [setGapWidth(int value)](#setGapWidth-int-) | बार या कॉलम क्लस्टर के बीच के अंतराल को, बार या कॉलम की चौड़ाई के प्रतिशत के रूप में निर्दिष्ट करता है। |
-| [getGapDepth()](#getGapDepth--) | 3डी चार्ट में डेटा सिरीज़ के बीच की दूरी को, मार्कर की चौड़ाई के प्रतिशत के रूप में लौटाता या सेट करता है। |
-| [setGapDepth(int value)](#setGapDepth-int-) | 3डी चार्ट में डेटा सिरीज़ के बीच की दूरी को, मार्कर की चौड़ाई के प्रतिशत के रूप में लौटाता या सेट करता है। |
-| [getFirstSliceAngle()](#getFirstSliceAngle--) | पहले पाई या डोनट चार्ट स्लाइस का कोण डिग्री में प्राप्त या सेट करता है (उपर से घड़ी की दिशा में, 0 से 360 डिग्री तक)। |
-| [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | पहले पाई या डोनट चार्ट स्लाइस का कोण डिग्री में प्राप्त या सेट करता है (उपर से घड़ी की दिशा में, 0 से 360 डिग्री तक)। |
+| [getType()](#getType--) | इस श्रृंखला समूह का प्रकार लौटाता है। |
+| [getPlotOnSecondAxis()](#getPlotOnSecondAxis--) | दर्शाता है कि इस समूह की श्रृंखलाएँ द्वितीयक अक्ष पर प्लॉट की गई हैं या नहीं। |
+| [getSeries()](#getSeries--) | श्रृंखलाओं का संग्रह लौटाता है। |
+| [get_Item(int index)](#get-Item-int-) | निर्दिष्ट इंडेक्स पर तत्व प्राप्त करता है। |
+| [getUpDownBars()](#getUpDownBars--) | Line- या Stock-चार्ट के अप/डाउन बार तक पहुँच प्रदान करता है। |
+| [getGapWidth()](#getGapWidth--) | बार या कॉलम क्लस्टर के बीच अंतराल प्राप्त करता है या सेट करता है, जो बार या कॉलम की चौड़ाई का प्रतिशत है। |
+| [setGapWidth(int value)](#setGapWidth-int-) | बार या कॉलम क्लस्टर के बीच अंतराल प्राप्त करता है या सेट करता है, जो बार या कॉलम की चौड़ाई का प्रतिशत है। |
+| [getGapDepth()](#getGapDepth--) | 3D चार्ट में डेटा श्रृंखलाओं के बीच दूरी प्राप्त करता है या सेट करता है, जो मार्कर की चौड़ाई का प्रतिशत है। |
+| [setGapDepth(int value)](#setGapDepth-int-) | 3D चार्ट में डेटा श्रृंखलाओं के बीच दूरी प्राप्त करता है या सेट करता है, जो मार्कर की चौड़ाई का प्रतिशत है। |
+| [getFirstSliceAngle()](#getFirstSliceAngle--) | पहले पाई या डोनट चार्ट स्लाइस का कोन डिग्री में प्राप्त करता है या सेट करता है (ऊपर से घड़ी की दिशा में, 0 से 360 डिग्री)। |
+| [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | पहले पाई या डोनट चार्ट स्लाइस का कोन डिग्री में प्राप्त करता है या सेट करता है (ऊपर से घड़ी की दिशा में, 0 से 360 डिग्री)। |
 | [getDoughnutHoleSize()](#getDoughnutHoleSize--) | डोनट चार्ट में छेद का आकार निर्दिष्ट करता है (प्लॉट क्षेत्र के आकार के 0 से 90 प्रतिशत तक)। |
 | [setDoughnutHoleSize(byte value)](#setDoughnutHoleSize-byte-) | डोनट चार्ट में छेद का आकार निर्दिष्ट करता है (प्लॉट क्षेत्र के आकार के 0 से 90 प्रतिशत तक)। |
-| [getOverlap()](#getOverlap--) | 2-डी चार्ट पर बार और कॉलम कितने ओवरलैप करेंगे, इसे प्रतिशत में निर्दिष्ट करता है ( -100% से 100% तक)। |
-| [setOverlap(byte value)](#setOverlap-byte-) | 2-डी चार्ट पर बार और कॉलम कितने ओवरलैप करेंगे, इसे प्रतिशत में निर्दिष्ट करता है ( -100% से 100% तक)। |
-| [getSecondPieSize()](#getSecondPieSize--) | पाई-ऑफ़-पाई या बार-ऑफ़-पाई चार्ट में दूसरे पाई या बार का आकार, पहले पाई के आकार के प्रतिशत में निर्दिष्ट करता है (5 से 200 प्रतिशत तक)। |
-| [setSecondPieSize(int value)](#setSecondPieSize-int-) | पाई-ऑफ़-पाई या बार-ऑफ़-पाई चार्ट में दूसरे पाई या बार का आकार, पहले पाई के आकार के प्रतिशत में निर्दिष्ट करता है (5 से 200 प्रतिशत तक)। |
-| [getBubbleSizeRepresentation()](#getBubbleSizeRepresentation--) | बबल चार्ट में बबल आकार मानों का प्रतिनिधित्व कैसे किया जाता है, इसे निर्दिष्ट करता है। |
-| [setBubbleSizeRepresentation(int value)](#setBubbleSizeRepresentation-int-) | बबल चार्ट में बबल आकार मानों का प्रतिनिधित्व कैसे किया जाता है, इसे निर्दिष्ट करता है। |
-| [getPieSplitPosition()](#getPieSplitPosition--) | पाई-ऑफ़-पाई या बार-ऑफ़-पाई चार्ट में कौन से डेटा पॉइंट्स दूसरे पाई या बार में हैं, यह निर्धारित करने के लिए उपयोग किए जाने वाले मान को निर्दिष्ट करता है। |
-| [setPieSplitPosition(double value)](#setPieSplitPosition-double-) | पाई-ऑफ़-पाई या बार-ऑफ़-पाई चार्ट में कौन से डेटा पॉइंट्स दूसरे पाई या बार में हैं, यह निर्धारित करने के लिए उपयोग किए जाने वाले मान को निर्दिष्ट करता है। |
-| [getPieSplitBy()](#getPieSplitBy--) | पाई-ऑफ़-पाई या बार-ऑफ़-पाई चार्ट में कौन से डेटा पॉइंट्स दूसरे पाई या बार में हैं, इसे निर्धारित करने का तरीका निर्दिष्ट करता है। |
-| [setPieSplitBy(int value)](#setPieSplitBy-int-) | पाई-ऑफ़-पाई या बार-ऑफ़-पाई चार्ट में कौन से डेटा पॉइंट्स दूसरे पाई या बार में हैं, इसे निर्धारित करने का तरीका निर्दिष्ट करता है। |
-| [isColorVaried()](#isColorVaried--) | यह निर्दिष्ट करता है कि सिरीज़ में प्रत्येक डेटा मार्कर का रंग अलग है। |
-| [setColorVaried(boolean value)](#setColorVaried-boolean-) | यह निर्दिष्ट करता है कि सिरीज़ में प्रत्येक डेटा मार्कर का रंग अलग है। |
-| [hasSeriesLines()](#hasSeriesLines--) | यदि चार्ट में सिरीज़ लाइन्स हैं तो सत्य। |
-| [setSeriesLines(boolean value)](#setSeriesLines-boolean-) | यदि चार्ट में सिरीज़ लाइन्स हैं तो सत्य। |
-| [getHiLowLinesFormat()](#getHiLowLinesFormat--) | HiLowLines का फॉर्मेट निर्दिष्ट करता है। |
+| [getOverlap()](#getOverlap--) | 2-डी चार्ट पर बार और कॉलम कितनी ओवरलैप करेंगे, प्रतिशत में निर्दिष्ट करता है (-100% से 100% तक)। |
+| [setOverlap(byte value)](#setOverlap-byte-) | 2-डी चार्ट पर बार और कॉलम कितनी ओवरलैप करेंगे, प्रतिशत में निर्दिष्ट करता है (-100% से 100% तक)। |
+| [getSecondPieSize()](#getSecondPieSize--) | पाई-ऑफ-पाई या बार-ऑफ-पाई चार्ट में दूसरे पाई या बार का आकार, पहले पाई के आकार का प्रतिशत निर्दिष्ट करता है (5 से 200 प्रतिशत तक)। |
+| [setSecondPieSize(int value)](#setSecondPieSize-int-) | पाई-ऑफ-पाई या बार-ऑफ-पाई चार्ट में दूसरे पाई या बार का आकार, पहले पाई के आकार का प्रतिशत निर्दिष्ट करता है (5 से 200 प्रतिशत तक)। |
+| [getBubbleSizeRepresentation()](#getBubbleSizeRepresentation--) | बबल चार्ट पर बबल आकार मानों को कैसे प्रदर्शित किया जाता है, यह निर्दिष्ट करता है। |
+| [setBubbleSizeRepresentation(int value)](#setBubbleSizeRepresentation-int-) | बबल चार्ट पर बबल आकार मानों को कैसे प्रदर्शित किया जाता है, यह निर्दिष्ट करता है। |
+| [getPieSplitPosition()](#getPieSplitPosition--) | एक मान निर्दिष्ट करता है जिसका उपयोग यह निर्धारित करने के लिए किया जाता है कि कौन से डेटा बिंदु पाई-ऑफ-पाई या बार-ऑफ़-पाई चार्ट में दूसरे पाई या बार में हैं। |
+| [setPieSplitPosition(double value)](#setPieSplitPosition-double-) | एक मान निर्दिष्ट करता है जिसका उपयोग यह निर्धारित करने के लिए किया जाता है कि कौन से डेटा बिंदु पाई-ऑफ-पाई या बार-ऑफ़-पाई चार्ट में दूसरे पाई या बार में हैं। |
+| [getPieSplitBy()](#getPieSplitBy--) | पाई-ऑफ-पाई या बार-ऑफ़-पाई चार्ट में कौन से डेटा बिंदु दूसरे पाई या बार में हैं, इसे निर्धारित करने का तरीका निर्दिष्ट करता है। |
+| [setPieSplitBy(int value)](#setPieSplitBy-int-) | पाई-ऑफ-पाई या बार-ऑफ़-पाई चार्ट में कौन से डेटा बिंदु दूसरे पाई या बार में हैं, इसे निर्धारित करने का तरीका निर्दिष्ट करता है। |
+| [isColorVaried()](#isColorVaried--) | श्रृंखला में प्रत्येक डेटा मार्कर का रंग अलग है, यह निर्दिष्ट करता है। |
+| [setColorVaried(boolean value)](#setColorVaried-boolean-) | श्रृंखला में प्रत्येक डेटा मार्कर का रंग अलग है, यह निर्दिष्ट करता है। |
+| [hasSeriesLines()](#hasSeriesLines--) | यदि चार्ट में श्रृंखला रेखाएँ हैं तो True। |
+| [setSeriesLines(boolean value)](#setSeriesLines-boolean-) | यदि चार्ट में श्रृंखला रेखाएँ हैं तो True। |
+| [getHiLowLinesFormat()](#getHiLowLinesFormat--) | HiLowLines स्वरूप निर्दिष्ट करता है। |
 | [getBubbleSizeScale()](#getBubbleSizeScale--) | बबल चार्ट के लिए स्केल फैक्टर निर्दिष्ट करता है (डिफ़ॉल्ट आकार के 0 से 300 प्रतिशत तक)। |
 | [setBubbleSizeScale(int value)](#setBubbleSizeScale-int-) | बबल चार्ट के लिए स्केल फैक्टर निर्दिष्ट करता है (डिफ़ॉल्ट आकार के 0 से 300 प्रतिशत तक)। |
-| [getPieSplitCustomPoints()](#getPieSplitCustomPoints--) | कस्टम स्प्लिट वाले पाई-ऑफ़-पाई या बार-ऑफ़-पाई चार्ट के लिए कस्टम स्प्लिट जानकारी। |
+| [getPieSplitCustomPoints()](#getPieSplitCustomPoints--) | कस्टम स्प्लिट के साथ पाई-ऑफ-पाई या बार-ऑफ़-पाई चार्ट के लिए कस्टम स्प्लिट जानकारी। |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-| [getChart()](#getChart--) | पैरेंट चार्ट लौटाता है। |
+| [getChart()](#getChart--) | माता चार्ट लौटाता है। |
 | [getSlide()](#getSlide--) | FillFormat का पैरेंट स्लाइड लौटाता है। |
-| [getPresentation()](#getPresentation--) | FillFormat का पैरेंट प्रेजेंटेशन लौटाता है। |
+| [getPresentation()](#getPresentation--) | FillFormat की पैरेंट प्रस्तुति लौटाता है। |
 
 ### getType() {#getType--}
 ```
 public final int getType()
 ```
 
-इस सिरीज़ समूह का प्रकार लौटाता है। केवल-पढ़ने योग्य [CombinableSeriesTypesGroup](../../com.aspose.slides/combinableseriestypesgroup).
+इस श्रृंखला समूह का प्रकार लौटाता है। केवल-पढ़ने योग्य [CombinableSeriesTypesGroup](../../com.aspose.slides/combinableseriestypesgroup).
 
-**रिटर्न:**  
+**रिटर्न:**
 int
 
 ### getPlotOnSecondAxis() {#getPlotOnSecondAxis--}
@@ -80,9 +75,9 @@ int
 public final boolean getPlotOnSecondAxis()
 ```
 
-यह दर्शाता है कि क्या इस समूह की सिरीज़ द्वितीयक अक्ष पर प्लॉट की गई है। केवल-पढ़ने योग्य boolean.
+निर्देशित करता है कि इस समूह की श्रृंखलाएँ द्वितीयक अक्ष पर प्लॉट की गई हैं या नहीं। केवल-पढ़ने योग्य boolean.
 
-**रिटर्न:**  
+**रिटर्न:**
 boolean
 
 ### getSeries() {#getSeries--}
@@ -90,9 +85,9 @@ boolean
 public final IChartSeriesReadonlyCollection getSeries()
 ```
 
-सिरीज़ का संग्रह लौटाता है। केवल-पढ़ने योग्य [IChartSeriesReadonlyCollection](../../com.aspose.slides/ichartseriesreadonlycollection).
+श्रृंखलाओं का संग्रह लौटाता है। केवल-पढ़ने योग्य [IChartSeriesReadonlyCollection](../../com.aspose.slides/ichartseriesreadonlycollection).
 
-**रिटर्न:**  
+**रिटर्न:**
 [IChartSeriesReadonlyCollection](../../com.aspose.slides/ichartseriesreadonlycollection)
 
 ### get_Item(int index) {#get-Item-int-}
@@ -100,14 +95,14 @@ public final IChartSeriesReadonlyCollection getSeries()
 public final IChartSeries get_Item(int index)
 ```
 
-निर्दिष्ट अनुक्रमांक पर तत्व प्राप्त करता है।
+निर्दिष्ट इंडेक्स पर तत्व प्राप्त करता है।
 
-**पैरामीटर:**  
-| पैरामीटर | टाइप | विवरण |
+**पैरामीटर्स:**
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | index | int |  |
 
-**रिटर्न:**  
+**रिटर्न:**
 [IChartSeries](../../com.aspose.slides/ichartseries)
 
 ### getUpDownBars() {#getUpDownBars--}
@@ -115,9 +110,9 @@ public final IChartSeries get_Item(int index)
 public final IUpDownBarsManager getUpDownBars()
 ```
 
-लाइन या स्टॉक-चार्ट की अप/डाउन बार तक पहुंच प्रदान करता है। केवल-पढ़ने योग्य [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager).
+Line- या Stock-चार्ट के अप/डाउन बार तक पहुँच प्रदान करता है। केवल-पढ़ने योग्य [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager).
 
-**रिटर्न:**  
+**रिटर्न:**
 [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager)
 
 ### getGapWidth() {#getGapWidth--}
@@ -125,9 +120,11 @@ public final IUpDownBarsManager getUpDownBars()
 public final int getGapWidth()
 ```
 
-बार या कॉलम क्लस्टर के बीच के अंतराल को, बार या कॉलम की चौड़ाई के प्रतिशत के रूप में निर्दिष्ट करता है। पढ़ने/लिखने योग्य int.
+बार या कॉलम क्लस्टर के बीच अंतराल प्राप्त करता है या सेट करता है, जो बार या कॉलम की चौड़ाई का प्रतिशत है। मान 0 और 500 के बीच होना चाहिए। पढ़ने/लिखने योग्य int.
 
-**रिटर्न:**  
+यह प्रॉपर्टी निम्नलिखित प्रकार की श्रृंखलाओं पर लागू होती है: Bar उपप्रकार ([ChartTypeCharacterizer.isChartTypeBar(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBar-int-) मेथड देखें), Column उपप्रकार ([ChartTypeCharacterizer.isChartTypeColumn(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeColumn-int-) मेथड देखें), [ChartType.BarOfPie](../../com.aspose.slides/charttype\#BarOfPie), [ChartType.PieOfPie](../../com.aspose.slides/charttype\#PieOfPie), [ChartType.BoxAndWhisker](../../com.aspose.slides/charttype\#BoxAndWhisker), [ChartType.Funnel](../../com.aspose.slides/charttype\#Funnel), [ChartType.Histogram](../../com.aspose.slides/charttype\#Histogram), [ChartType.Waterfall](../../com.aspose.slides/charttype\#Waterfall)।
+
+**रिटर्न:**
 int
 
 ### setGapWidth(int value) {#setGapWidth-int-}
@@ -135,10 +132,12 @@ int
 public final void setGapWidth(int value)
 ```
 
-बार या कॉलम क्लस्टर के बीच के अंतराल को, बार या कॉलम की चौड़ाई के प्रतिशत के रूप में निर्दिष्ट करता है। पढ़ने/लिखने योग्य int.
+बार या कॉलम क्लस्टर के बीच अंतराल प्राप्त करता है या सेट करता है, जो बार या कॉलम की चौड़ाई का प्रतिशत है। मान 0 और 500 के बीच होना चाहिए। पढ़ने/लिखने योग्य int.
 
-**पैरामीटर:**  
-| पैरामीटर | टाइप | विवरण |
+यह प्रॉपर्टी निम्नलिखित प्रकार की श्रृंखलाओं पर लागू होती है: Bar उपप्रकार ([ChartTypeCharacterizer.isChartTypeBar(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBar-int-) मेथड देखें), Column उपप्रकार ([ChartTypeCharacterizer.isChartTypeColumn(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeColumn-int-) मेथड देखें), [ChartType.BarOfPie](../../com.aspose.slides/charttype\#BarOfPie), [ChartType.PieOfPie](../../com.aspose.slides/charttype\#PieOfPie), [ChartType.BoxAndWhisker](../../com.aspose.slides/charttype\#BoxAndWhisker), [ChartType.Funnel](../../com.aspose.slides/charttype\#Funnel), [ChartType.Histogram](../../com.aspose.slides/charttype\#Histogram), [ChartType.Waterfall](../../com.aspose.slides/charttype\#Waterfall)।
+
+**पैरामीटर्स:**
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | value | int |  |
 
@@ -147,9 +146,11 @@ public final void setGapWidth(int value)
 public final int getGapDepth()
 ```
 
-3डी चार्ट में डेटा सिरीज़ के बीच की दूरी को, मार्कर की चौड़ाई के प्रतिशत के रूप में लौटाता या सेट करता है। पढ़ने/लिखने योग्य int.
+3D चार्ट में डेटा श्रृंखलाओं के बीच दूरी प्राप्त करता है या सेट करता है, जो मार्कर की चौड़ाई का प्रतिशत है। मान 0 और 500 के बीच होना चाहिए। पढ़ने/लिखने योग्य int.
 
-**रिटर्न:**  
+यह प्रॉपर्टी निम्नलिखित प्रकार की श्रृंखलाओं पर लागू होती है: 3D bar and column subtypes ([ChartTypeCharacterizer.isBar3DChart(int)](../../com.aspose.slides/charttypecharacterizer\#isBar3DChart-int-) मेथड देखें), [ChartType.Line3D](../../com.aspose.slides/charttype\#Line3D), [ChartType.Area3D](../../com.aspose.slides/charttype\#Area3D), [ChartType.StackedArea3D](../../com.aspose.slides/charttype\#StackedArea3D), [ChartType.PercentsStackedArea3D](../../com.aspose.slides/charttype\#PercentsStackedArea3D)।
+
+**रिटर्न:**
 int
 
 ### setGapDepth(int value) {#setGapDepth-int-}
@@ -157,10 +158,12 @@ int
 public final void setGapDepth(int value)
 ```
 
-3डी चार्ट में डेटा सिरीज़ के बीच की दूरी को, मार्कर की चौड़ाई के प्रतिशत के रूप में लौटाता या सेट करता है। पढ़ने/लिखने योग्य int.
+3D चार्ट में डेटा श्रृंखलाओं के बीच दूरी प्राप्त करता है या सेट करता है, जो मार्कर की चौड़ाई का प्रतिशत है। मान 0 और 500 के बीच होना चाहिए। पढ़ने/लिखने योग्य int.
 
-**पैरामीटर:**  
-| पैरामीटर | टाइप | विवरण |
+यह प्रॉपर्टी निम्नलिखित प्रकार की श्रृंखलाओं पर लागू होती है: 3D bar and column subtypes ([ChartTypeCharacterizer.isBar3DChart(int)](../../com.aspose.slides/charttypecharacterizer\#isBar3DChart-int-) मेथड देखें), [ChartType.Line3D](../../com.aspose.slides/charttype\#Line3D), [ChartType.Area3D](../../com.aspose.slides/charttype\#Area3D), [ChartType.StackedArea3D](../../com.aspose.slides/charttype\#StackedArea3D), [ChartType.PercentsStackedArea3D](../../com.aspose.slides/charttype\#PercentsStackedArea3D)।
+
+**पैरामीटर्स:**
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | value | int |  |
 
@@ -169,9 +172,9 @@ public final void setGapDepth(int value)
 public final int getFirstSliceAngle()
 ```
 
-पहले पाई या डोनट चार्ट स्लाइस का कोण डिग्री में प्राप्त या सेट करता है (उपर से घड़ी की दिशा में, 0 से 360 डिग्री तक)। पढ़ने/लिखने योग्य int.
+पहले पाई या डोनट चार्ट स्लाइस का कोन डिग्री में प्राप्त करता है या सेट करता है (ऊपर से घड़ी की दिशा में, 0 से 360 डिग्री)। पढ़ने/लिखने योग्य int.
 
-**रिटर्न:**  
+**रिटर्न:**
 int
 
 ### setFirstSliceAngle(int value) {#setFirstSliceAngle-int-}
@@ -179,10 +182,10 @@ int
 public final void setFirstSliceAngle(int value)
 ```
 
-पहले पाई या डोनट चार्ट स्लाइस का कोण डिग्री में प्राप्त या सेट करता है (उपर से घड़ी की दिशा में, 0 से 360 डिग्री तक)। पढ़ने/लिखने योग्य int.
+पहले पाई या डोनट चार्ट स्लाइस का कोन डिग्री में प्राप्त करता है या सेट करता है (ऊपर से घड़ी की दिशा में, 0 से 360 डिग्री)। पढ़ने/लिखने योग्य int.
 
-**पैरामीटर:**  
-| पैरामीटर | टाइप | विवरण |
+**पैरामीटर्स:**
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | value | int |  |
 
@@ -193,7 +196,7 @@ public final byte getDoughnutHoleSize()
 
 डोनट चार्ट में छेद का आकार निर्दिष्ट करता है (प्लॉट क्षेत्र के आकार के 0 से 90 प्रतिशत तक)। पढ़ने/लिखने योग्य byte.
 
-**रिटर्न:**  
+**रिटर्न:**
 byte
 
 ### setDoughnutHoleSize(byte value) {#setDoughnutHoleSize-byte-}
@@ -203,8 +206,8 @@ public final void setDoughnutHoleSize(byte value)
 
 डोनट चार्ट में छेद का आकार निर्दिष्ट करता है (प्लॉट क्षेत्र के आकार के 0 से 90 प्रतिशत तक)। पढ़ने/लिखने योग्य byte.
 
-**पैरामीटर:**  
-| पैरामीटर | टाइप | विवरण |
+**पैरामीटर्स:**
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | value | byte |  |
 
@@ -213,9 +216,7 @@ public final void setDoughnutHoleSize(byte value)
 public final byte getOverlap()
 ```
 
-2-डी चार्ट पर बार और कॉलम कितने ओवरलैप करेंगे, इसे प्रतिशत में निर्दिष्ट करता है ( -100% से 100% तक)। -100%: अधिकतम अंतराल (बार पूरी तरह अलग)। -0%: बार बिना ओवरलैप या अंतराल के साइड बाय साइड। -100%: अधिकतम ओवरलैप (बार एक-दूसरे को पूरी तरह ओवरलैप करते हैं)। यह प्रॉपर्टी पढ़ने/लिखने योग्य byte.
-
---------------------
+2-डी चार्ट पर बार और कॉलम कितनी ओवरलैप करेंगे, प्रतिशत में निर्धारित करता है (-100% से 100% तक)। --100%: अधिकतम अंतर (बार पूरी तरह अलग)। - 0%: बार बिना ओवरलैप या अंतर के साथ-साथ रखे जाते हैं। - 100%: अधिकतम ओवरलैप (बार पूरी तरह एक-दूसरे पर ओवरलैप)। यह प्रॉपर्टी पढ़ने/लिखने योग्य byte है।
 
 > ```
 > The following example demonstrates how to set the overlap for a chart series group 
@@ -232,8 +233,7 @@ public final byte getOverlap()
 >  }
 > ```
 
-
-**रिटर्न:**  
+**रिटर्न:**
 byte
 
 ### setOverlap(byte value) {#setOverlap-byte-}
@@ -241,9 +241,7 @@ byte
 public final void setOverlap(byte value)
 ```
 
-2-डी चार्ट पर बार और कॉलम कितने ओवरलैप करेंगे, इसे प्रतिशत में निर्दिष्ट करता है ( -100% से 100% तक)। -100%: अधिकतम अंतराल (बार पूरी तरह अलग)। -0%: बार बिना ओवरलैप या अंतराल के साइड बाय साइड। -100%: अधिकतम ओवरलैप (बार एक-दूसरे को पूरी तरह ओवरलैप करते हैं)। यह प्रॉपर्टी पढ़ने/लिखने योग्य byte.
-
---------------------
+2-डी चार्ट पर बार और कॉलम कितनी ओवरलैप करेंगे, प्रतिशत में निर्धारित करता है (-100% से 100% तक)। --100%: अधिकतम अंतर (बार पूरी तरह अलग)। - 0%: बार बिना ओवरलैप या अंतर के साथ-साथ रखे जाते हैं। - 100%: अधिकतम ओवरलैप (बार पूरी तरह एक-दूसरे पर ओवरलैप)। यह प्रॉपर्टी पढ़ने/लिखने योग्य byte है।
 
 > ```
 > The following example demonstrates how to set the overlap for a chart series group 
@@ -261,8 +259,8 @@ public final void setOverlap(byte value)
 > ```
 
 
-**पैरामीटर:**  
-| पैरामीटर | टाइप | विवरण |
+**पैरामीटर्स:**
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | value | byte |  |
 
@@ -271,9 +269,9 @@ public final void setOverlap(byte value)
 public final int getSecondPieSize()
 ```
 
-पाई-ऑफ़-पाई या बार-ऑफ़-पाई चार्ट में दूसरे पाई या बार का आकार, पहले पाई के आकार के प्रतिशत में निर्दिष्ट करता है (5 से 200 प्रतिशत तक)। पढ़ने/लिखने योग्य int.
+पाई-ऑफ-पाई या बार-ऑफ-पाई चार्ट में दूसरे पाई या बार का आकार, पहले पाई के आकार का प्रतिशत निर्दिष्ट करता है (5 से 200 प्रतिशत तक)। पढ़ने/लिखने योग्य int.
 
-**रिटर्न:**  
+**रिटर्न:**
 int
 
 ### setSecondPieSize(int value) {#setSecondPieSize-int-}
@@ -281,10 +279,10 @@ int
 public final void setSecondPieSize(int value)
 ```
 
-पाई-ऑफ़-पाई या बार-ऑफ़-पाई चार्ट में दूसरे पाई या बार का आकार, पहले पाई के आकार के प्रतिशत में निर्दिष्ट करता है (5 से 200 प्रतिशत तक)। पढ़ने/लिखने योग्य int.
+पाई-ऑफ-पाई या बार-ऑफ-पाई चार्ट में दूसरे पाई या बार का आकार, पहले पाई के आकार का प्रतिशत निर्दिष्ट करता है (5 से 200 प्रतिशत तक)। पढ़ने/लिखने योग्य int.
 
-**पैरामीटर:**  
-| पैरामीटर | टाइप | विवरण |
+**पैरामीटर्स:**
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | value | int |  |
 
@@ -293,9 +291,9 @@ public final void setSecondPieSize(int value)
 public final int getBubbleSizeRepresentation()
 ```
 
-बबल चार्ट में बबल आकार मानों का प्रतिनिधित्व कैसे किया जाता है, इसे निर्दिष्ट करता है। पढ़ने/लिखने योग्य [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
+बबल चार्ट पर बबल आकार मानों को कैसे प्रदर्शित किया जाता है, यह निर्दिष्ट करता है। पढ़ने/लिखने योग्य [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
 
-**रिटर्न:**  
+**रिटर्न:**
 int
 
 ### setBubbleSizeRepresentation(int value) {#setBubbleSizeRepresentation-int-}
@@ -303,10 +301,10 @@ int
 public final void setBubbleSizeRepresentation(int value)
 ```
 
-बबल चार्ट में बबल आकार मानों का प्रतिनिधित्व कैसे किया जाता है, इसे निर्दिष्ट करता है। पढ़ने/लिखने योग्य [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
+बबल चार्ट पर बबल आकार मानों को कैसे प्रदर्शित किया जाता है, यह निर्दिष्ट करता है। पढ़ने/लिखने योग्य [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
 
-**पैरामीटर:**  
-| पैरामीटर | टाइप | विवरण |
+**पैरामीटर्स:**
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | value | int |  |
 
@@ -315,9 +313,9 @@ public final void setBubbleSizeRepresentation(int value)
 public final double getPieSplitPosition()
 ```
 
-पाई-ऑफ़-पाई या बार-ऑफ़-पाई चार्ट में कौन से डेटा पॉइंट्स दूसरे पाई या बार में हैं, इसे निर्धारित करने के लिए उपयोग किए जाने वाले मान को निर्दिष्ट करता है। PieSplitBy प्रॉपर्टी के साथ उपयोग किया जाता है। पढ़ने/लिखने योग्य double.
+एक मान निर्दिष्ट करता है जिसका उपयोग यह निर्धारित करने के लिए किया जाता है कि कौन से डेटा बिंदु पाई-ऑफ-पाई या बार-ऑफ़-पाई चार्ट में दूसरे पाई या बार में हैं। PieSplitBy प्रॉपर्टी के साथ उपयोग किया जाता है। पढ़ने/लिखने योग्य double.
 
-**रिटर्न:**  
+**रिटर्न:**
 double
 
 ### setPieSplitPosition(double value) {#setPieSplitPosition-double-}
@@ -325,10 +323,10 @@ double
 public final void setPieSplitPosition(double value)
 ```
 
-पाई-ऑफ़-पाई या बार-ऑफ़-पाई चार्ट में कौन से डेटा पॉइंट्स दूसरे पाई या बार में हैं, इसे निर्धारित करने के लिए उपयोग किए जाने वाले मान को निर्दिष्ट करता है। PieSplitBy प्रॉपर्टी के साथ उपयोग किया जाता है। पढ़ने/लिखने योग्य double.
+एक मान निर्दिष्ट करता है जिसका उपयोग यह निर्धारित करने के लिए किया जाता है कि कौन से डेटा बिंदु पाई-ऑफ-पाई या बार-ऑफ़-पाई चार्ट में दूसरे पाई या बार में हैं। PieSplitBy प्रॉपर्टी के साथ उपयोग किया जाता है। पढ़ने/लिखने योग्य double.
 
-**पैरामीटर:**  
-| पैरामीटर | टाइप | विवरण |
+**पैरामीटर्स:**
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | value | double |  |
 
@@ -337,9 +335,9 @@ public final void setPieSplitPosition(double value)
 public final int getPieSplitBy()
 ```
 
-पाई-ऑफ़-पाई या बार-ऑफ़-पाई चार्ट में कौन से डेटा पॉइंट्स दूसरे पाई या बार में हैं, इसे निर्धारित करने का तरीका निर्दिष्ट करता है। पढ़ने/लिखने योग्य [PieSplitType](../../com.aspose.slides/piesplittype).
+पाई-ऑफ-पाई या बार-ऑफ़-पाई चार्ट में कौन से डेटा बिंदु दूसरे पाई या बार में हैं, इसे निर्धारित करने का तरीका निर्दिष्ट करता है। पढ़ने/लिखने योग्य [PieSplitType](../../com.aspose.slides/piesplittype).
 
-**रिटर्न:**  
+**रिटर्न:**
 int
 
 ### setPieSplitBy(int value) {#setPieSplitBy-int-}
@@ -347,10 +345,10 @@ int
 public final void setPieSplitBy(int value)
 ```
 
-पाई-ऑफ़-पाई या बार-ऑफ़-पाई चार्ट में कौन से डेटा पॉइंट्स दूसरे पाई या बार में हैं, इसे निर्धारित करने का तरीका निर्दिष्ट करता है। पढ़ने/लिखने योग्य [PieSplitType](../../com.aspose.slides/piesplittype).
+पाई-ऑफ-पाई या बार-ऑफ़-पाई चार्ट में कौन से डेटा बिंदु दूसरे पाई या बार में हैं, इसे निर्धारित करने का तरीका निर्दिष्ट करता है। पढ़ने/लिखने योग्य [PieSplitType](../../com.aspose.slides/piesplittype).
 
-**पैरामीटर:**  
-| पैरामीटर | टाइप | विवरण |
+**पैरामीटर्स:**
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | value | int |  |
 
@@ -359,9 +357,9 @@ public final void setPieSplitBy(int value)
 public final boolean isColorVaried()
 ```
 
-यह निर्दिष्ट करता है कि सिरीज़ में प्रत्येक डेटा मार्कर का रंग अलग है। पढ़ने/लिखने योग्य boolean.
+निर्दिष्ट करता है कि श्रृंखला में प्रत्येक डेटा मार्कर का रंग अलग है। पढ़ने/लिखने योग्य boolean.
 
-**रिटर्न:**  
+**रिटर्न:**
 boolean
 
 ### setColorVaried(boolean value) {#setColorVaried-boolean-}
@@ -369,10 +367,10 @@ boolean
 public final void setColorVaried(boolean value)
 ```
 
-यह निर्दिष्ट करता है कि सिरीज़ में प्रत्येक डेटा मार्कर का रंग अलग है। पढ़ने/लिखने योग्य boolean.
+निर्दिष्ट करता है कि श्रृंखला में प्रत्येक डेटा मार्कर का रंग अलग है। पढ़ने/लिखने योग्य boolean.
 
-**पैरामीटर:**  
-| पैरामीटर | टाइप | विवरण |
+**पैरामीटर्स:**
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -381,9 +379,9 @@ public final void setColorVaried(boolean value)
 public final boolean hasSeriesLines()
 ```
 
-यदि चार्ट में सिरीज़ लाइन्स हैं तो सत्य। स्टैक्ड बार और OfPie चार्ट पर लागू। पढ़ने/लिखने योग्य boolean.
+यदि चार्ट में श्रृंखला रेखाएँ हैं तो True। स्टैक्ड बार और OfPie चार्ट पर लागू। पढ़ने/लिखने योग्य boolean.
 
-**रिटर्न:**  
+**रिटर्न:**
 boolean
 
 ### setSeriesLines(boolean value) {#setSeriesLines-boolean-}
@@ -391,10 +389,10 @@ boolean
 public final void setSeriesLines(boolean value)
 ```
 
-यदि चार्ट में सिरीज़ लाइन्स हैं तो सत्य। स्टैक्ड बार और OfPie चार्ट पर लागू। पढ़ने/लिखने योग्य boolean.
+यदि चार्ट में श्रृंखला रेखाएँ हैं तो True। स्टैक्ड बार और OfPie चार्ट पर लागू। पढ़ने/लिखने योग्य boolean.
 
-**पैरामीटर:**  
-| पैरामीटर | टाइप | विवरण |
+**पैरामीटर्स:**
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -403,9 +401,9 @@ public final void setSeriesLines(boolean value)
 public final IChartLinesFormat getHiLowLinesFormat()
 ```
 
-HiLowLines का फॉर्मेट निर्दिष्ट करता है। HiLowLines को HiLowClose, OpenHiLowClose, VolumeHiLowClose और VolumeOpenHiLowClose चार्ट प्रकारों के साथ लागू किया जाता है।
+HiLowLines स्वरूप निर्दिष्ट करता है। HiLowLines को HiLowClose, OpenHiLowClose, VolumeHiLowClose और VolumeOpenHiLowClose चार्ट प्रकारों के साथ लागू किया जाता है।
 
-**रिटर्न:**  
+**रिटर्न:**
 [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat)
 
 ### getBubbleSizeScale() {#getBubbleSizeScale--}
@@ -415,7 +413,7 @@ public final int getBubbleSizeScale()
 
 बबल चार्ट के लिए स्केल फैक्टर निर्दिष्ट करता है (डिफ़ॉल्ट आकार के 0 से 300 प्रतिशत तक)। पढ़ने/लिखने योग्य int.
 
-**रिटर्न:**  
+**रिटर्न:**
 int
 
 ### setBubbleSizeScale(int value) {#setBubbleSizeScale-int-}
@@ -425,8 +423,8 @@ public final void setBubbleSizeScale(int value)
 
 बबल चार्ट के लिए स्केल फैक्टर निर्दिष्ट करता है (डिफ़ॉल्ट आकार के 0 से 300 प्रतिशत तक)। पढ़ने/लिखने योग्य int.
 
-**पैरामीटर:**  
-| पैरामीटर | टाइप | विवरण |
+**पैरामीटर्स:**
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | value | int |  |
 
@@ -435,9 +433,9 @@ public final void setBubbleSizeScale(int value)
 public final IPieSplitCustomPointCollection getPieSplitCustomPoints()
 ```
 
-कस्टम स्प्लिट वाले पाई-ऑफ़-पाई या बार-ऑफ़-पाई चार्ट के लिए कस्टम स्प्लिट जानकारी। वह डेटा पॉइंट्स शामिल करता है जो पाई-ऑफ़-पाई या बार-ऑफ़-पाई चार्ट में दूसरे पाई या बार में खींचे जाने चाहिए। केवल-पढ़ने योग्य [PieSplitCustomPointCollection](../../com.aspose.slides/piesplitcustompointcollection).
+कस्टम स्प्लिट के साथ पाई-ऑफ-पाई या बार-ऑफ़-पाई चार्ट के लिए कस्टम स्प्लिट जानकारी। इसमें डेटा बिंदु होते हैं जो पाई-ऑफ-पाई या बार-ऑफ़-पाई चार्ट में दूसरे पाई या बार में दर्शाए जाने चाहिए। केवल-पढ़ने योग्य [PieSplitCustomPointCollection](../../com.aspose.slides/piesplitcustompointcollection).
 
-**रिटर्न:**  
+**रिटर्न:**
 [IPieSplitCustomPointCollection](../../com.aspose.slides/ipiesplitcustompointcollection)
 
 ### getParent_Immediate() {#getParent-Immediate--}
@@ -447,7 +445,7 @@ public final IDOMObject getParent_Immediate()
 
 Parent_Immediate ऑब्जेक्ट लौटाता है। केवल-पढ़ने योग्य IDOMObject.
 
-**रिटर्न:**  
+**रिटर्न:**
 com.aspose.slides.IDOMObject
 
 ### getChart() {#getChart--}
@@ -455,9 +453,9 @@ com.aspose.slides.IDOMObject
 public final IChart getChart()
 ```
 
-पैरेंट चार्ट लौटाता है। केवल-पढ़ने योग्य [IChart](../../com.aspose.slides/ichart).
+माता चार्ट लौटाता है। केवल-पढ़ने योग्य [IChart](../../com.aspose.slides/ichart).
 
-**रिटर्न:**  
+**रिटर्न:**
 [IChart](../../com.aspose.slides/ichart)
 
 ### getSlide() {#getSlide--}
@@ -467,7 +465,7 @@ public final IBaseSlide getSlide()
 
 FillFormat का पैरेंट स्लाइड लौटाता है। केवल-पढ़ने योग्य [BaseSlide](../../com.aspose.slides/baseslide).
 
-**रिटर्न:**  
+**रिटर्न:**
 [IBaseSlide](../../com.aspose.slides/ibaseslide)
 
 ### getPresentation() {#getPresentation--}
@@ -475,7 +473,7 @@ FillFormat का पैरेंट स्लाइड लौटाता ह�
 public final IPresentation getPresentation()
 ```
 
-FillFormat का पैरेंट प्रेजेंटेशन लौटाता है। केवल-पढ़ने योग्य [IPresentation](../../com.aspose.slides/ipresentation).
+FillFormat की पैरेंट प्रस्तुति लौटाता है। केवल-पढ़ने योग्य [IPresentation](../../com.aspose.slides/ipresentation).
 
-**रिटर्न:**  
+**रिटर्न:**
 [IPresentation](../../com.aspose.slides/ipresentation)

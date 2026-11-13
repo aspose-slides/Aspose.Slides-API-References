@@ -1,66 +1,66 @@
 ---
 title: IChartSeriesGroup
-second_title: Aspose.Slides dla Java – dokumentacja API
+second_title: Odwołanie API Aspose.Slides dla Javy
 description: Reprezentuje grupę serii.
 type: docs
 url: /pl/com.aspose.slides/ichartseriesgroup/
 ---
-**Wszystkie zaimplementowane interfejsy:**
+**All Implemented Interfaces:**  
 [com.aspose.slides.IChartComponent](../../com.aspose.slides/ichartcomponent)
 ```
 public interface IChartSeriesGroup extends IChartComponent
 ```
 
-Reprezentuje grupę serii.
+Represents group of series.
 
 --------------------
 
-1) Zobacz podsumowanie i uwagi dla klasy ChartSeriesGroupCollection i enumeracji CombinableSeriesTypesGroup. 2) Grupa serii zawiera niektóre właściwości serii, które są wspólne dla każdej serii w grupie („właściwości grupy serii”). „Właściwości grupy serii” w klasie ChartSeriesGroup są odczyt/zapis. Każda z „właściwości grupy serii” może mieć projekcję tylko do odczytu w klasie ChartSeries.
+1) See summary and remarks for ChartSeriesGroupCollection class and CombinableSeriesTypesGroup enum. 2) Group of series contains some series properies whitch is common for each series in group ("series group properties"). "Series group properties" in ChartSeriesGroup class is read/write. Each of "series group properties" can have a read-only projection in ChartSeries class.
 
-## Metody
+## Methods
 
-| Metoda | Opis |
+| Method | Description |
 | --- | --- |
-| [getType()](#getType--) | Zwraca typ tej grupy serii. |
-| [getPlotOnSecondAxis()](#getPlotOnSecondAxis--) | Wskazuje, czy serie tej grupy są wykreślane na drugiej osi. |
-| [getSeries()](#getSeries--) | Zwraca kolekcję serii wykresu tylko do odczytu. |
-| [get_Item(int index)](#get-Item-int-) | Pobiera element o podanym indeksie. |
-| [getUpDownBars()](#getUpDownBars--) | Zapewnia dostęp do pasków góra/dół wykresu liniowego lub giełdowego. |
-| [getGapWidth()](#getGapWidth--) | Określa odstęp między grupami słupków lub kolumn jako procent szerokości słupka lub kolumny. |
-| [setGapWidth(int value)](#setGapWidth-int-) | Określa odstęp między grupami słupków lub kolumn jako procent szerokości słupka lub kolumny. |
-| [getGapDepth()](#getGapDepth--) | Zwraca lub ustawia odległość jako procent szerokości znacznika między seriami danych w wykresie 3D. |
-| [setGapDepth(int value)](#setGapDepth-int-) | Zwraca lub ustawia odległość jako procent szerokości znacznika między seriami danych w wykresie 3D. |
-| [getFirstSliceAngle()](#getFirstSliceAngle--) | Pobiera lub ustawia kąt pierwszego wycinka wykresu kołowego lub pierścieniowego w stopniach (zgodnie z ruchem wskazówek zegara od góry, od 0 do 360 stopni). |
-| [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | Pobiera lub ustawia kąt pierwszego wycinka wykresu kołowego lub pierścieniowego w stopniach (zgodnie z ruchem wskazówek zegara od góry, od 0 do 360 stopni). |
-| [isColorVaried()](#isColorVaried--) | Określa, że każdy znacznik danych w serii ma inny kolor. |
-| [setColorVaried(boolean value)](#setColorVaried-boolean-) | Określa, że każdy znacznik danych w serii ma inny kolor. |
-| [hasSeriesLines()](#hasSeriesLines--) | Prawda, jeśli wykres ma linie serii. |
-| [setSeriesLines(boolean value)](#setSeriesLines-boolean-) | Prawda, jeśli wykres ma linie serii. |
-| [getOverlap()](#getOverlap--) | Określa, jak bardzo słupki i kolumny mają nachodzić na siebie w wykresach 2D, jako procent (od -100% do 100%). |
-| [setOverlap(byte value)](#setOverlap-byte-) | Określa, jak bardzo słupki i kolumny mają nachodzić na siebie w wykresach 2D, jako procent (od -100% do 100%). |
-| [getSecondPieSize()](#getSecondPieSize--) | Określa rozmiar drugiego koła lub słupka w wykresie koło-w-kwadracie lub słupek-w-kwadracie jako procent rozmiaru pierwszego koła (może wynosić od 5% do 200%). |
-| [setSecondPieSize(int value)](#setSecondPieSize-int-) | Określa rozmiar drugiego koła lub słupka w wykresie koło-w-kwadracie lub słupek-w-kwadracie jako procent rozmiaru pierwszego koła (może wynosić od 5% do 200%). |
-| [getPieSplitPosition()](#getPieSplitPosition--) | Określa wartość używaną do określenia, które punkty danych znajdują się w drugim kole lub słupku w wykresie koło-w-kwadracie lub słupek-w-kwadracie. |
-| [setPieSplitPosition(double value)](#setPieSplitPosition-double-) | Określa wartość używaną do określenia, które punkty danych znajdują się w drugim kole lub słupku w wykresie koło-w-kwadracie lub słupek-w-kwadracie. |
-| [getPieSplitBy()](#getPieSplitBy--) | Określa sposób określania, które punkty danych znajdują się w drugim kole lub słupku w wykresie koło-w-kwadracie lub słupek-w-kwadracie. |
-| [setPieSplitBy(int value)](#setPieSplitBy-int-) | Określa sposób określania, które punkty danych znajdują się w drugim kole lub słupku w wykresie koło-w-kwadracie lub słupek-w-kwadracie. |
-| [getPieSplitCustomPoints()](#getPieSplitCustomPoints--) | Informacje o niestandardowym podziale dla wykresu koło-w-kwadracie lub słupek-w-kwadracie z niestandardowym podziałem. |
-| [getDoughnutHoleSize()](#getDoughnutHoleSize--) | Określa rozmiar otworu w wykresie pierścieniowym (może wynosić od 10% do 90% rozmiaru obszaru wykresu). |
-| [setDoughnutHoleSize(byte value)](#setDoughnutHoleSize-byte-) | Określa rozmiar otworu w wykresie pierścieniowym (może wynosić od 10% do 90% rozmiaru obszaru wykresu). |
-| [getBubbleSizeScale()](#getBubbleSizeScale--) | Określa współczynnik skali wykresu bąbelkowego (może wynosić od 0% do 300% domyślnego rozmiaru). |
-| [setBubbleSizeScale(int value)](#setBubbleSizeScale-int-) | Określa współczynnik skali wykresu bąbelkowego (może wynosić od 0% do 300% domyślnego rozmiaru). |
-| [getHiLowLinesFormat()](#getHiLowLinesFormat--) | Określa format HiLowLines. |
-| [getBubbleSizeRepresentation()](#getBubbleSizeRepresentation--) | Określa, w jaki sposób wartości rozmiaru bąbelka są wyświetlane na wykresie bąbelkowym. |
-| [setBubbleSizeRepresentation(int value)](#setBubbleSizeRepresentation-int-) | Określa, w jaki sposób wartości rozmiaru bąbelka są wyświetlane na wykresie bąbelkowym. |
+| [getType()](#getType--) | Returns a type of this series group. |
+| [getPlotOnSecondAxis()](#getPlotOnSecondAxis--) | Indicates if series of this group is plotted on secondary axis. |
+| [getSeries()](#getSeries--) | Returns a readonly collection of chart series. |
+| [get_Item(int index)](#get-Item-int-) | Gets the element at the specified index. |
+| [getUpDownBars()](#getUpDownBars--) | Provede access to up/down bars of Line- or Stock-chart. |
+| [getGapWidth()](#getGapWidth--) | Gets or sets the space between bar or column clusters, as a percentage of the bar or column width. |
+| [setGapWidth(int value)](#setGapWidth-int-) | Gets or sets the space between bar or column clusters, as a percentage of the bar or column width. |
+| [getGapDepth()](#getGapDepth--) | Gets or sets the distance between data series in a 3D chart, as a percentage of the marker width. |
+| [setGapDepth(int value)](#setGapDepth-int-) | Gets or sets the distance between data series in a 3D chart, as a percentage of the marker width. |
+| [getFirstSliceAngle()](#getFirstSliceAngle--) | Gets or sets the angle of the first pie or doughnut chart slice, in degrees (clockwise from up, from 0 to 360 degrees). |
+| [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | Gets or sets the angle of the first pie or doughnut chart slice, in degrees (clockwise from up, from 0 to 360 degrees). |
+| [isColorVaried()](#isColorVaried--) | Specifies that each data marker in the series has a different color. |
+| [setColorVaried(boolean value)](#setColorVaried-boolean-) | Specifies that each data marker in the series has a different color. |
+| [hasSeriesLines()](#hasSeriesLines--) | True if chart has series lines. |
+| [setSeriesLines(boolean value)](#setSeriesLines-boolean-) | True if chart has series lines. |
+| [getOverlap()](#getOverlap--) | Specifies how much bars and columns shall overlap on 2-D charts, as a percentage (from -100% to 100%). |
+| [setOverlap(byte value)](#setOverlap-byte-) | Specifies how much bars and columns shall overlap on 2-D charts, as a percentage (from -100% to 100%). |
+| [getSecondPieSize()](#getSecondPieSize--) | Specifies the size of the second pie or bar of a pie-of-pie chart or a bar-of-pie chart, as a percentage of the size of the first pie (can be between 5 and 200 percents). |
+| [setSecondPieSize(int value)](#setSecondPieSize-int-) | Specifies the size of the second pie or bar of a pie-of-pie chart or a bar-of-pie chart, as a percentage of the size of the first pie (can be between 5 and 200 percents). |
+| [getPieSplitPosition()](#getPieSplitPosition--) | Specifies a value that shall be used to determine which data points are in the second pie or bar on a pie-of-pie or bar-of-pie chart. |
+| [setPieSplitPosition(double value)](#setPieSplitPosition-double-) | Specifies a value that shall be used to determine which data points are in the second pie or bar on a pie-of-pie or bar-of-pie chart. |
+| [getPieSplitBy()](#getPieSplitBy--) | Specifies how to determine which data points are in the second pie or bar on a pie-of-pie or bar-of-pie chart. |
+| [setPieSplitBy(int value)](#setPieSplitBy-int-) | Specifies how to determine which data points are in the second pie or bar on a pie-of-pie or bar-of-pie chart. |
+| [getPieSplitCustomPoints()](#getPieSplitCustomPoints--) | The custom split information for a pie-of-pie or bar-of-pie chart with a custom split. |
+| [getDoughnutHoleSize()](#getDoughnutHoleSize--) | Specifies the size of the hole in a doughnut chart (can be between 10 and 90 percents of the size of the plot area.). |
+| [setDoughnutHoleSize(byte value)](#setDoughnutHoleSize-byte-) | Specifies the size of the hole in a doughnut chart (can be between 10 and 90 percents of the size of the plot area.). |
+| [getBubbleSizeScale()](#getBubbleSizeScale--) | Specifies the scale factor for the bubble chart (can be between 0 and 300 percents of the default size). |
+| [setBubbleSizeScale(int value)](#setBubbleSizeScale-int-) | Specifies the scale factor for the bubble chart (can be between 0 and 300 percents of the default size). |
+| [getHiLowLinesFormat()](#getHiLowLinesFormat--) | Specifies HiLowLines format. |
+| [getBubbleSizeRepresentation()](#getBubbleSizeRepresentation--) | Specifies how the bubble size values are represented on the bubble chart. |
+| [setBubbleSizeRepresentation(int value)](#setBubbleSizeRepresentation-int-) | Specifies how the bubble size values are represented on the bubble chart. |
 
 ### getType() {#getType--}
 ```
 public abstract int getType()
 ```
 
-Zwraca typ tej grupy serii. Tylko do odczytu [CombinableSeriesTypesGroup](../../com.aspose.slides/combinableseriestypesgroup).
+Returns a type of this series group. Read-only [CombinableSeriesTypesGroup](../../com.aspose.slides/combinableseriestypesgroup).
 
-**Zwraca:**
+**Returns:**  
 int
 
 ### getPlotOnSecondAxis() {#getPlotOnSecondAxis--}
@@ -68,9 +68,9 @@ int
 public abstract boolean getPlotOnSecondAxis()
 ```
 
-Wskazuje, czy serie tej grupy są wykreślane na drugiej osi. Tylko do odczytu boolean.
+Indicates if series of this group is plotted on secondary axis. Read-only boolean.
 
-**Zwraca:**
+**Returns:**  
 boolean
 
 ### getSeries() {#getSeries--}
@@ -78,9 +78,9 @@ boolean
 public abstract IChartSeriesReadonlyCollection getSeries()
 ```
 
-Zwraca kolekcję serii wykresu tylko do odczytu. Tylko do odczytu [IChartSeriesReadonlyCollection](../../com.aspose.slides/ichartseriesreadonlycollection).
+Returns a readonly collection of chart series. Read-only [IChartSeriesReadonlyCollection](../../com.aspose.slides/ichartseriesreadonlycollection).
 
-**Zwraca:**
+**Returns:**  
 [IChartSeriesReadonlyCollection](../../com.aspose.slides/ichartseriesreadonlycollection)
 
 ### get_Item(int index) {#get-Item-int-}
@@ -88,14 +88,14 @@ Zwraca kolekcję serii wykresu tylko do odczytu. Tylko do odczytu [IChartSeriesR
 public abstract IChartSeries get_Item(int index)
 ```
 
-Pobiera element o podanym indeksie.
+Gets the element at the specified index.
 
-**Parametry:**
-| Parametr | Typ | Opis |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | index | int |  |
 
-**Zwraca:**
+**Returns:**  
 [IChartSeries](../../com.aspose.slides/ichartseries)
 
 ### getUpDownBars() {#getUpDownBars--}
@@ -103,9 +103,9 @@ Pobiera element o podanym indeksie.
 public abstract IUpDownBarsManager getUpDownBars()
 ```
 
-Zapewnia dostęp do pasków góra/dół wykresu liniowego lub giełdowego. Tylko do odczytu [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager).
+Provede access to up/down bars of Line- or Stock-chart. Read-only [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager).
 
-**Zwraca:**
+**Returns:**  
 [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager)
 
 ### getGapWidth() {#getGapWidth--}
@@ -113,9 +113,13 @@ Zapewnia dostęp do pasków góra/dół wykresu liniowego lub giełdowego. Tylko
 public abstract int getGapWidth()
 ```
 
-Określa odstęp między grupami słupków lub kolumn jako procent szerokości słupka lub kolumny. Odczyt/zapis int.
+Gets or sets the space between bar or column clusters, as a percentage of the bar or column width. The value must be between 0 and 500. Read/write int.
 
-**Zwraca:**
+--------------------
+
+This property applies to series of the following types: All bar and column subtypes, [ChartType.BarOfPie](../../com.aspose.slides/charttype\#BarOfPie), [ChartType.PieOfPie](../../com.aspose.slides/charttype\#PieOfPie), [ChartType.BoxAndWhisker](../../com.aspose.slides/charttype\#BoxAndWhisker), [ChartType.Funnel](../../com.aspose.slides/charttype\#Funnel), [ChartType.Histogram](../../com.aspose.slides/charttype\#Histogram), [ChartType.Waterfall](../../com.aspose.slides/charttype\#Waterfall).
+
+**Returns:**  
 int
 
 ### setGapWidth(int value) {#setGapWidth-int-}
@@ -123,10 +127,14 @@ int
 public abstract void setGapWidth(int value)
 ```
 
-Określa odstęp między grupami słupków lub kolumn jako procent szerokości słupka lub kolumny. Odczyt/zapis int.
+Gets or sets the space between bar or column clusters, as a percentage of the bar or column width. The value must be between 0 and 500. Read/write int.
 
-**Parametry:**
-| Parametr | Typ | Opis |
+--------------------
+
+This property applies to series of the following types: All bar and column subtypes, [ChartType.BarOfPie](../../com.aspose.slides/charttype\#BarOfPie), [ChartType.PieOfPie](../../com.aspose.slides/charttype\#PieOfPie), [ChartType.BoxAndWhisker](../../com.aspose.slides/charttype\#BoxAndWhisker), [ChartType.Funnel](../../com.aspose.slides/charttype\#Funnel), [ChartType.Histogram](../../com.aspose.slides/charttype\#Histogram), [ChartType.Waterfall](../../com.aspose.slides/charttype\#Waterfall).
+
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
@@ -135,9 +143,13 @@ Określa odstęp między grupami słupków lub kolumn jako procent szerokości s
 public abstract int getGapDepth()
 ```
 
-Zwraca lub ustawia odległość jako procent szerokości znacznika między seriami danych w wykresie 3D. Odczyt/zapis int.
+Gets or sets the distance between data series in a 3D chart, as a percentage of the marker width. The value must be between 0 and 500. Read/write int.
 
-**Zwraca:**
+--------------------
+
+This property applies to series of the following types: 3D bar and column subtypes, [ChartType.Line3D](../../com.aspose.slides/charttype\#Line3D), [ChartType.Area3D](../../com.aspose.slides/charttype\#Area3D), [ChartType.StackedArea3D](../../com.aspose.slides/charttype\#StackedArea3D), [ChartType.PercentsStackedArea3D](../../com.aspose.slides/charttype\#PercentsStackedArea3D).
+
+**Returns:**  
 int
 
 ### setGapDepth(int value) {#setGapDepth-int-}
@@ -145,10 +157,14 @@ int
 public abstract void setGapDepth(int value)
 ```
 
-Zwraca lub ustawia odległość jako procent szerokości znacznika między seriami danych w wykresie 3D. Odczyt/zapis int.
+Gets or sets the distance between data series in a 3D chart, as a percentage of the marker width. The value must be between 0 and 500. Read/write int.
 
-**Parametry:**
-| Parametr | Typ | Opis |
+--------------------
+
+This property applies to series of the following types: 3D bar and column subtypes, [ChartType.Line3D](../../com.aspose.slides/charttype\#Line3D), [ChartType.Area3D](../../com.aspose.slides/charttype\#Area3D), [ChartType.StackedArea3D](../../com.aspose.slides/charttype\#StackedArea3D), [ChartType.PercentsStackedArea3D](../../com.aspose.slides/charttype\#PercentsStackedArea3D).
+
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
@@ -157,9 +173,9 @@ Zwraca lub ustawia odległość jako procent szerokości znacznika między seria
 public abstract int getFirstSliceAngle()
 ```
 
-Pobiera lub ustawia kąt pierwszego wycinka wykresu kołowego lub pierścieniowego w stopniach (zgodnie z ruchem wskazówek zegara od góry, od 0 do 360 stopni). Odczyt/zapis int.
+Gets or sets the angle of the first pie or doughnut chart slice, in degrees (clockwise from up, from 0 to 360 degrees). Read/write int.
 
-**Zwraca:**
+**Returns:**  
 int
 
 ### setFirstSliceAngle(int value) {#setFirstSliceAngle-int-}
@@ -167,10 +183,10 @@ int
 public abstract void setFirstSliceAngle(int value)
 ```
 
-Pobiera lub ustawia kąt pierwszego wycinka wykresu kołowego lub pierścieniowego w stopniach (zgodnie z ruchem wskazówek zegara od góry, od 0 do 360 stopni). Odczyt/zapis int.
+Gets or sets the angle of the first pie or doughnut chart slice, in degrees (clockwise from up, from 0 to 360 degrees). Read/write int.
 
-**Parametry:**
-| Parametr | Typ | Opis |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
@@ -179,9 +195,9 @@ Pobiera lub ustawia kąt pierwszego wycinka wykresu kołowego lub pierścieniowe
 public abstract boolean isColorVaried()
 ```
 
-Określa, że każdy znacznik danych w serii ma inny kolor. Odczyt/zapis boolean.
+Specifies that each data marker in the series has a different color. Read/write boolean.
 
-**Zwraca:**
+**Returns:**  
 boolean
 
 ### setColorVaried(boolean value) {#setColorVaried-boolean-}
@@ -189,10 +205,10 @@ boolean
 public abstract void setColorVaried(boolean value)
 ```
 
-Określa, że każdy znacznik danych w serii ma inny kolor. Odczyt/zapis boolean.
+Specifies that each data marker in the series has a different color. Read/write boolean.
 
-**Parametry:**
-| Parametr | Typ | Opis |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -201,9 +217,9 @@ Określa, że każdy znacznik danych w serii ma inny kolor. Odczyt/zapis boolean
 public abstract boolean hasSeriesLines()
 ```
 
-Prawda, jeśli wykres ma linie serii. Stosowane do wykresów słupkowych skumulowanych i OfPie. Odczyt/zapis boolean.
+True if chart has series lines. Applied to stacked bar and OfPie charts. Read/write boolean.
 
-**Zwraca:**
+**Returns:**  
 boolean
 
 ### setSeriesLines(boolean value) {#setSeriesLines-boolean-}
@@ -211,10 +227,10 @@ boolean
 public abstract void setSeriesLines(boolean value)
 ```
 
-Prawda, jeśli wykres ma linie serii. Stosowane do wykresów słupkowych skumulowanych i OfPie. Odczyt/zapis boolean.
+True if chart has series lines. Applied to stacked bar and OfPie charts. Read/write boolean.
 
-**Parametry:**
-| Parametr | Typ | Opis |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -223,7 +239,9 @@ Prawda, jeśli wykres ma linie serii. Stosowane do wykresów słupkowych skumulo
 public abstract byte getOverlap()
 ```
 
-Określa, jak bardzo słupki i kolumny mają nachodzić na siebie w wykresach 2D, jako procent (od -100% do 100%). - -100%: maksymalne odstępy (słupki są całkowicie oddzielone). - 0%: słupki są umieszczone obok siebie bez nachodzenia ani odstępów. - 100%: maksymalne nachodzenie (słupki całkowicie na siebie nachodzą). Właściwość jest odczyt/zapis byte.
+Specifies how much bars and columns shall overlap on 2-D charts, as a percentage (from -100% to 100%). - -100%: Maximum spacing (bars are completely separated). - 0%: Bars are placed side by side without overlap or spacing. - 100%: Maximum overlap (bars completely overlap each other). This property is read/write byte.
+
+--------------------
 
 > ```
 > The following example demonstrates how to set the overlap for a chart series group 
@@ -241,7 +259,7 @@ Określa, jak bardzo słupki i kolumny mają nachodzić na siebie w wykresach 2D
 > ```
 
 
-**Zwraca:**
+**Returns:**  
 byte
 
 ### setOverlap(byte value) {#setOverlap-byte-}
@@ -249,7 +267,9 @@ byte
 public abstract void setOverlap(byte value)
 ```
 
-Określa, jak bardzo słupki i kolumny mają nachodzić na siebie w wykresach 2D, jako procent (od -100% do 100%). - -100%: maksymalne odstępy (słupki są całkowicie oddzielone). - 0%: słupki są umieszczone obok siebie bez nachodzenia ani odstępów. - 100%: maksymalne nachodzenie (słupki całkowicie na siebie nachodzą). Właściwość jest odczyt/zapis byte.
+Specifies how much bars and columns shall overlap on 2-D charts, as a percentage (from -100% to 100%). - -100%: Maximum spacing (bars are completely separated). - 0%: Bars are placed side by side without overlap or spacing. - 100%: Maximum overlap (bars completely overlap each other). This property is read/write byte.
+
+--------------------
 
 > ```
 > The following example demonstrates how to set the overlap for a chart series group 
@@ -267,8 +287,8 @@ Określa, jak bardzo słupki i kolumny mają nachodzić na siebie w wykresach 2D
 > ```
 
 
-**Parametry:**
-| Parametr | Typ | Opis |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | byte |  |
 
@@ -277,9 +297,9 @@ Określa, jak bardzo słupki i kolumny mają nachodzić na siebie w wykresach 2D
 public abstract int getSecondPieSize()
 ```
 
-Określa rozmiar drugiego koła lub słupka w wykresie koło-w-kwadracie lub słupek-w-kwadracie jako procent rozmiaru pierwszego koła (może wynosić od 5% do 200%). Odczyt/zapis int.
+Specifies the size of the second pie or bar of a pie-of-pie chart or a bar-of-pie chart, as a percentage of the size of the first pie (can be between 5 and 200 percents). Read/write int.
 
-**Zwraca:**
+**Returns:**  
 int
 
 ### setSecondPieSize(int value) {#setSecondPieSize-int-}
@@ -287,10 +307,10 @@ int
 public abstract void setSecondPieSize(int value)
 ```
 
-Określa rozmiar drugiego koła lub słupka w wykresie koło-w-kwadracie lub słupek-w-kwadracie jako procent rozmiaru pierwszego koła (może wynosić od 5% do 200%). Odczyt/zapis int.
+Specifies the size of the second pie or bar of a pie-of-pie chart or a bar-of-pie chart, as a percentage of the size of the first pie (can be between 5 and 200 percents). Read/write int.
 
-**Parametry:**
-| Parametr | Typ | Opis |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
@@ -299,9 +319,9 @@ Określa rozmiar drugiego koła lub słupka w wykresie koło-w-kwadracie lub sł
 public abstract double getPieSplitPosition()
 ```
 
-Określa wartość używaną do określenia, które punkty danych znajdują się w drugim kole lub słupku w wykresie koło-w-kwadracie lub słupek-w-kwadracie. Jest używana razem z właściwością PieSplitBy. Odczyt/zapis double.
+Specifies a value that shall be used to determine which data points are in the second pie or bar on a pie-of-pie or bar-of-pie chart. Is used together with PieSplitBy property. Read/write double.
 
-**Zwraca:**
+**Returns:**  
 double
 
 ### setPieSplitPosition(double value) {#setPieSplitPosition-double-}
@@ -309,10 +329,10 @@ double
 public abstract void setPieSplitPosition(double value)
 ```
 
-Określa wartość używaną do określenia, które punkty danych znajdują się w drugim kole lub słupku w wykresie koło-w-kwadracie lub słupek-w-kwadracie. Jest używana razem z właściwością PieSplitBy. Odczyt/zapis double.
+Specifies a value that shall be used to determine which data points are in the second pie or bar on a pie-of-pie or bar-of-pie chart. Is used together with PieSplitBy property. Read/write double.
 
-**Parametry:**
-| Parametr | Typ | Opis |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
 
@@ -321,9 +341,9 @@ Określa wartość używaną do określenia, które punkty danych znajdują się
 public abstract int getPieSplitBy()
 ```
 
-Określa, jak określić, które punkty danych znajdują się w drugim kole lub słupku w wykresie koło-w-kwadracie lub słupek-w-kwadracie. Odczyt/zapis [PieSplitType](../../com.aspose.slides/piesplittype).
+Specifies how to determine which data points are in the second pie or bar on a pie-of-pie or bar-of-pie chart. Read/write [PieSplitType](../../com.aspose.slides/piesplittype).
 
-**Zwraca:**
+**Returns:**  
 int
 
 ### setPieSplitBy(int value) {#setPieSplitBy-int-}
@@ -331,10 +351,10 @@ int
 public abstract void setPieSplitBy(int value)
 ```
 
-Określa, jak określić, które punkty danych znajdują się w drugim kole lub słupku w wykresie koło-w-kwadracie lub słupek-w-kwadracie. Odczyt/zapis [PieSplitType](../../com.aspose.slides/piesplittype).
+Specifies how to determine which data points are in the second pie or bar on a pie-of-pie or bar-of-pie chart. Read/write [PieSplitType](../../com.aspose.slides/piesplittype).
 
-**Parametry:**
-| Parametr | Typ | Opis |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
@@ -343,9 +363,9 @@ Określa, jak określić, które punkty danych znajdują się w drugim kole lub 
 public abstract IPieSplitCustomPointCollection getPieSplitCustomPoints()
 ```
 
-Informacje o niestandardowym podziale dla wykresu koło-w-kwadracie lub słupek-w-kwadracie z niestandardowym podziałem. Zawiera punkty danych, które mają być rysowane w drugim kole lub słupku w wykresie koło-w-kwadracie lub słupek-w-kwadracie. Tylko do odczytu [IPieSplitCustomPointCollection](../../com.aspose.slides/ipiesplitcustompointcollection).
+The custom split information for a pie-of-pie or bar-of-pie chart with a custom split. Contains data points that shall be drawn in the second pie or bar in a pie-of-pie or bar-of-pie chart. Read-only [IPieSplitCustomPointCollection](../../com.aspose.slides/ipiesplitcustompointcollection).
 
-**Zwraca:**
+**Returns:**  
 [IPieSplitCustomPointCollection](../../com.aspose.slides/ipiesplitcustompointcollection)
 
 ### getDoughnutHoleSize() {#getDoughnutHoleSize--}
@@ -353,9 +373,9 @@ Informacje o niestandardowym podziale dla wykresu koło-w-kwadracie lub słupek-
 public abstract byte getDoughnutHoleSize()
 ```
 
-Określa rozmiar otworu w wykresie pierścieniowym (może wynosić od 10% do 90% rozmiaru obszaru wykresu). Odczyt/zapis byte.
+Specifies the size of the hole in a doughnut chart (can be between 10 and 90 percents of the size of the plot area.). Read/write byte.
 
-**Zwraca:**
+**Returns:**  
 byte
 
 ### setDoughnutHoleSize(byte value) {#setDoughnutHoleSize-byte-}
@@ -363,10 +383,10 @@ byte
 public abstract void setDoughnutHoleSize(byte value)
 ```
 
-Określa rozmiar otworu w wykresie pierścieniowym (może wynosić od 10% do 90% rozmiaru obszaru wykresu). Odczyt/zapis byte.
+Specifies the size of the hole in a doughnut chart (can be between 10 and 90 percents of the size of the plot area.). Read/write byte.
 
-**Parametry:**
-| Parametr | Typ | Opis |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | byte |  |
 
@@ -375,9 +395,9 @@ Określa rozmiar otworu w wykresie pierścieniowym (może wynosić od 10% do 90%
 public abstract int getBubbleSizeScale()
 ```
 
-Określa współczynnik skali wykresu bąbelkowego (może wynosić od 0% do 300% domyślnego rozmiaru). Odczyt/zapis int.
+Specifies the scale factor for the bubble chart (can be between 0 and 300 percents of the default size). Read/write int.
 
-**Zwraca:**
+**Returns:**  
 int
 
 ### setBubbleSizeScale(int value) {#setBubbleSizeScale-int-}
@@ -385,10 +405,10 @@ int
 public abstract void setBubbleSizeScale(int value)
 ```
 
-Określa współczynnik skali wykresu bąbelkowego (może wynosić od 0% do 300% domyślnego rozmiaru). Odczyt/zapis int.
+Specifies the scale factor for the bubble chart (can be between 0 and 300 percents of the default size). Read/write int.
 
-**Parametry:**
-| Parametr | Typ | Opis |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
@@ -397,9 +417,9 @@ Określa współczynnik skali wykresu bąbelkowego (może wynosić od 0% do 300%
 public abstract IChartLinesFormat getHiLowLinesFormat()
 ```
 
-Określa format HiLowLines. HiLowLines stosowane z typami wykresów HiLowClose, OpenHiLowClose, VolumeHiLowClose i VolumeOpenHiLowClose.
+Specifies HiLowLines format. HiLowLines applied with HiLowClose, OpenHiLowClose, VolumeHiLowClose and VolumeOpenHiLowClose chart types.
 
-**Zwraca:**
+**Returns:**  
 [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat)
 
 ### getBubbleSizeRepresentation() {#getBubbleSizeRepresentation--}
@@ -407,9 +427,9 @@ Określa format HiLowLines. HiLowLines stosowane z typami wykresów HiLowClose, 
 public abstract int getBubbleSizeRepresentation()
 ```
 
-Określa, w jaki sposób wartości rozmiaru bąbelka są wyświetlane na wykresie bąbelkowym. Odczyt/zapis [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
+Specifies how the bubble size values are represented on the bubble chart. Read/write [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
 
-**Zwraca:**
+**Returns:**  
 int
 
 ### setBubbleSizeRepresentation(int value) {#setBubbleSizeRepresentation-int-}
@@ -417,9 +437,9 @@ int
 public abstract void setBubbleSizeRepresentation(int value)
 ```
 
-Określa, w jaki sposób wartości rozmiaru bąbelka są wyświetlane na wykresie bąbelkowym. Odczyt/zapis [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
+Specifies how the bubble size values are represented on the bubble chart. Read/write [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
 
-**Parametry:**
-| Parametr | Typ | Opis |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |

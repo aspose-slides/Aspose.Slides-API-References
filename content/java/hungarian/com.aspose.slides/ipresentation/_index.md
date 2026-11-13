@@ -1,6 +1,6 @@
 ---
 title: IPresentation
-second_title: Aspose.Slides a Java API referencia
+second_title: Aspose.Slides for Java API referenciája
 description: Prezentációs dokumentum
 type: docs
 url: /hu/com.aspose.slides/ipresentation/
@@ -11,71 +11,73 @@ url: /hu/com.aspose.slides/ipresentation/
 public interface IPresentation extends IPresentationComponent, System.IDisposable
 ```
 
-Presentation document
+Prezentációs dokumentum
 ## Módszerek
 
-| Módszer | Leírás |
+| Metódus | Leírás |
 | --- | --- |
-| [getCurrentDateTime()](#getCurrentDateTime--) | Visszaadja vagy beállítja a dátumot és az időt, amely helyettesíti a datetime mezők tartalmát. |
-| [setCurrentDateTime(Date value)](#setCurrentDateTime-java.util.Date-) | Visszaadja vagy beállítja a dátumot és az időt, amely helyettesíti a datetime mezők tartalmát. |
+| [getCurrentDateTime()](#getCurrentDateTime--) | Visszaadja vagy beállítja a dátumot és időt, amely helyettesíti a datetime mezők tartalmát. |
+| [setCurrentDateTime(Date value)](#setCurrentDateTime-java.util.Date-) | Visszaadja vagy beállítja a dátumot és időt, amely helyettesíti a datetime mezők tartalmát. |
 | [getHeaderFooterManager()](#getHeaderFooterManager--) | Visszaadja a prezentáció HeaderFooter kezelőjét. |
-| [getProtectionManager()](#getProtectionManager--) | Megkapja a jogosultságok kezelőjét ehhez a prezentációhoz. |
-| [getSlides()](#getSlides--) | Visszaad egy listát az összes diáról, amely a prezentációban van definiálva. |
-| [getSections()](#getSections--) | Visszaad egy listát az összes dia szekcióról, amely a prezentációban van definiálva. |
-| [getSlideSize()](#getSlideSize--) | Visszaadja a dia méret objektumot. |
-| [getNotesSize()](#getNotesSize--) | Visszaadja a jegyzet dia méret objektumot. |
-| [getLayoutSlides()](#getLayoutSlides--) | Visszaad egy listát az összes elrendezés diáról, amely a prezentációban van definiálva. |
-| [getMasters()](#getMasters--) | Visszaad egy listát az összes mester diáról, amely a prezentációban van definiálva. |
+| [getProtectionManager()](#getProtectionManager--) | Visszaadja a jogosultságok kezelőjét ehhez a prezentációhoz. |
+| [getSlides()](#getSlides--) | Visszaadja az összes diát tartalmazó listát, amely a prezentációban definiálva van. |
+| [getSections()](#getSections--) | Visszaadja az összes diarészlet listáját, amely a prezentációban definiálva van. |
+| [getSlideSize()](#getSlideSize--) | Visszaadja a dia méret objektumát. |
+| [getNotesSize()](#getNotesSize--) | Visszaadja a jegyzet diák méret objektumát. |
+| [getLayoutSlides()](#getLayoutSlides--) | Visszaadja az összes elrendezési dia listáját, amely a prezentációban definiálva van. |
+| [getMasters()](#getMasters--) | Visszaadja az összes mesterdia listáját, amely a prezentációban definiálva van. |
 | [getMasterNotesSlideManager()](#getMasterNotesSlideManager--) | Visszaadja a jegyzet mester kezelőt. |
-| [getMasterHandoutSlideManager()](#getMasterHandoutSlideManager--) | Visszaadja a kézbesítő mester kezelőt. |
+| [getMasterHandoutSlideManager()](#getMasterHandoutSlideManager--) | Visszaadja a kiosztmány mester kezelőt. |
 | [getFontsManager()](#getFontsManager--) | Visszaadja a betűtípusok kezelőjét. |
-| [getDefaultTextStyle()](#getDefaultTextStyle--) | Visszaadja az alakzatok alapértelmezett szövegstílusát. |
-| [getCommentAuthors()](#getCommentAuthors--) | Visszaadja a hozzászólások szerzőinek gyűjteményét. |
-| [getDocumentProperties()](#getDocumentProperties--) | Visszaad egy DocumentProperties objektumot, amely szabványos és egyedi dokumentum tulajdonságokat tartalmaz. |
-| [getImages()](#getImages--) | Visszaadja az összes kép gyűjteményét a prezentációban. |
-| [getAudios()](#getAudios--) | Visszaadja az összes beágyazott audio fájl gyűjteményét a prezentációban. |
-| [getVideos()](#getVideos--) | Visszaadja az összes beágyazott video fájl gyűjteményét a prezentációban. |
-| [getCustomData()](#getCustomData--) | Visszaadja a prezentáció egyedi adatait. |
-| [getVbaProject()](#getVbaProject--) | Megkapja a VBA projektet a prezentáció makrókkal. |
-| [setVbaProject(IVbaProject value)](#setVbaProject-com.aspose.slides.IVbaProject-) | Megkapja a VBA projektet a prezentáció makrókkal. |
-| [getSourceFormat()](#getSourceFormat--) | Visszaad információt arról, hogy melyik formátumból lett betöltve a prezentáció. |
+| [getDefaultTextStyle()](#getDefaultTextStyle--) | Visszaadja az alapértelmezett szövegstílust a formákhoz. |
+| [getCommentAuthors()](#getCommentAuthors--) | Visszaadja a megjegyzés szerzők gyűjteményét. |
+| [getDocumentProperties()](#getDocumentProperties--) | Visszaadja a DocumentProperties objektumot, amely a szabványos és egyedi dokumentum tulajdonságokat tartalmazza. |
+| [getImages()](#getImages--) | Visszaadja a prezentáció összes képének gyűjteményét. |
+| [getAudios()](#getAudios--) | Visszaadja a prezentációban beágyazott összes hangfájl gyűjteményét. |
+| [getVideos()](#getVideos--) | Visszaadja a prezentációban beágyazott összes videófájl gyűjteményét. |
+| [getCustomData()](#getCustomData--) | Visszaadja a prezentáció egyéni adatát. |
+| [getVbaProject()](#getVbaProject--) | Visszaadja a VBA projektet a prezentáció makrókkal. |
+| [setVbaProject(IVbaProject value)](#setVbaProject-com.aspose.slides.IVbaProject-) | Visszaadja a VBA projektet a prezentáció makrókkal. |
+| [getSourceFormat()](#getSourceFormat--) | Visszaadja a prezentáció betöltésének formátumáról szóló információt. |
 | [getMasterTheme()](#getMasterTheme--) | Visszaadja a prezentáció mester témáját. |
-| [getHyperlinkQueries()](#getHyperlinkQueries--) | Könnyű hozzáférést biztosít az összes hiperhivatkozáshoz, amely az összes prezentációs dián található (nem a mester, elrendezés vagy jegyzet diákon). |
-| [getViewProperties()](#getViewProperties--) | Megkapja a prezentáció szintű nézeti tulajdonságokat. |
-| [getFirstSlideNumber()](#getFirstSlideNumber--) | A prezentáció első dia számát jelöli. |
-| [setFirstSlideNumber(int value)](#setFirstSlideNumber-int-) | A prezentáció első dia számát jelöli. |
-| [getAllCustomXmlParts()](#getAllCustomXmlParts--) | Visszaadja az összes egyedi adat részt a prezentációban. |
+| [getHyperlinkQueries()](#getHyperlinkQueries--) | Könnyű hozzáférést biztosít az összes hiperhivatkozáshoz, amely az összes prezentációs dián található (nem a mester, elrendezés, jegyzet diákon). |
+| [getViewProperties()](#getViewProperties--) | Visszaadja a prezentációra vonatkozó nézeti tulajdonságokat. |
+| [getFirstSlideNumber()](#getFirstSlideNumber--) | A prezentáció első diájának számát jelöli. |
+| [setFirstSlideNumber(int value)](#setFirstSlideNumber-int-) | A prezentáció első diájának számát jelöli. |
+| [getAllCustomXmlParts()](#getAllCustomXmlParts--) | Visszaadja a prezentáció összes egyéni adat részét. |
 | [getDigitalSignatures()](#getDigitalSignatures--) | Visszaadja a prezentáció aláírásához használt aláírások gyűjteményét. |
 | [getSensitivityLabels()](#getSensitivityLabels--) | Visszaadja a prezentáció dokumentumra alkalmazott érzékenységi címkék gyűjteményét. |
-| [save(String fname, int format)](#save-java.lang.String-int-) | Ment minden diát a prezentációból egy fájlba a megadott formátummal. |
-| [save(OutputStream stream, int format)](#save-java.io.OutputStream-int-) | Ment minden diát a prezentációból egy adatfolyamra a megadott formátummal. |
-| [save(String fname, int format, ISaveOptions options)](#save-java.lang.String-int-com.aspose.slides.ISaveOptions-) | Ment minden diát a prezentációból egy fájlba a megadott formátummal és további beállításokkal. |
-| [save(OutputStream stream, int format, ISaveOptions options)](#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-) | Ment minden diát a prezentációból egy adatfolyamra a megadott formátummal és további beállításokkal. |
-| [save(String fname, int[] slides, int format)](#save-java.lang.String-int---int-) | Ment megadott diákat a prezentációból egy fájlba a megadott formátummal. |
-| [save(String fname, int[] slides, int format, ISaveOptions options)](#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-) | Ment megadott diákat a prezentációból egy fájlba a megadott formátummal. |
-| [save(OutputStream stream, int[] slides, int format)](#save-java.io.OutputStream-int---int-) | Ment megadott diákat a prezentációból egy adatfolyamra a megadott formátummal. |
-| [save(OutputStream stream, int[] slides, int format, ISaveOptions options)](#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-) | Ment megadott diákat a prezentációból egy adatfolyamra a megadott formátummal. |
-| [save(IXamlOptions options)](#save-com.aspose.slides.IXamlOptions-) | Ment minden diát a prezentációból egy sor fájlba, amely XAML markup-ot képvisel. |
-| [getImages(IRenderingOptions options)](#getImages-com.aspose.slides.IRenderingOptions-) | Visszaad egy Thumbnail Image objektumot minden prezentációs dia számára. |
-| [getImages(IRenderingOptions options, int[] slides)](#getImages-com.aspose.slides.IRenderingOptions-int---) | Visszaad egy Thumbnail IImage objektumot a megadott diákhoz a prezentációban. |
-| [getImages(IRenderingOptions options, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-float-float-) | Visszaad egy Thumbnail Image objektumot minden prezentációs diára egyedi méretezéssel. |
-| [getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-int---float-float-) | Visszaad egy Thumbnail Image objektumot a megadott diákhoz a prezentációban egyedi méretezéssel. |
-| [getImages(IRenderingOptions options, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-) | Visszaad egy Thumbnail Image objektumot minden prezentációs diára a megadott mérettel. |
-| [getImages(IRenderingOptions options, int[] slides, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-) | Visszaad egy Thumbnail Image objektumot a megadott diákhoz a prezentációban a megadott mérettel. |
-| [getSlideById(long id)](#getSlideById-long-) | Visszaad egy Slide, MasterSlide vagy LayoutSlide objektumot az azonosító alapján. |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Egyesíti a futamokat azonos formázással az összes bekezdésben az összes megfelelő alakzatban minden dián. |
+| [save(String fname, int format)](#save-java.lang.String-int-) | Elmenti a prezentáció összes diáját egy fájlba a megadott formátummal. |
+| [save(OutputStream stream, int format)](#save-java.io.OutputStream-int-) | Elmenti a prezentáció összes diáját egy adatfolyamra a megadott formátummal. |
+| [save(String fname, int format, ISaveOptions options)](#save-java.lang.String-int-com.aspose.slides.ISaveOptions-) | Elmenti a prezentáció összes diáját egy fájlba a megadott formátummal és további beállításokkal. |
+| [save(OutputStream stream, int format, ISaveOptions options)](#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-) | Elmenti a prezentáció összes diáját egy adatfolyamra a megadott formátummal és további beállításokkal. |
+| [save(String fname, int[] slides, int format)](#save-java.lang.String-int---int-) | Saves specified slides of a presentation to a file with the specified format. |
+| [save(String fname, int[] slides, int format, ISaveOptions options)](#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-) | Saves specified slides of a presentation to a file with the specified format. |
+| [save(OutputStream stream, int[] slides, int format)](#save-java.io.OutputStream-int---int-) | Saves specified slides of a presentation to a stream in the specified format. |
+| [save(OutputStream stream, int[] slides, int format, ISaveOptions options)](#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-) | Saves specified slides of a presentation to a stream in the specified format. |
+| [save(IXamlOptions options)](#save-com.aspose.slides.IXamlOptions-) | Elmenti a prezentáció összes diáját egy XAML jelölést ábrázoló fájlkészletbe. |
+| [getImages(IRenderingOptions options)](#getImages-com.aspose.slides.IRenderingOptions-) | Visszaadja az összes diasorhoz tartozó bélyegkép kép objektumot. |
+| [getImages(IRenderingOptions options, int[] slides)](#getImages-com.aspose.slides.IRenderingOptions-int---) | Visszaadja a megadott prezentációs diák bélyegkép IImage objektumait. |
+| [getImages(IRenderingOptions options, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-float-float-) | Visszaadja az összes prezentációs dia bélyegkép kép objektumát egyéni skálázással. |
+| [getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-int---float-float-) | Visszaadja a megadott prezentációs diák bélyegkép IImage objektumait egyéni skálázással. |
+| [getImages(IRenderingOptions options, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-) | Visszaadja az összes prezentációs dia bélyegkép kép objektumát a megadott mérettel. |
+| [getImages(IRenderingOptions options, int[] slides, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-) | Visszaadja a megadott prezentációs diák bélyegkép IImage objektumait a megadott mérettel. |
+| [getSlideById(long id)](#getSlideById-long-) | Visszaadja a Slide, MasterSlide vagy LayoutSlide elemet az Azonosító alapján. |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Összevonja a ugyanazon formázással rendelkező futamokat az összes bekezdésben minden elfogadható alakzatban az összes dián. |
 | [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | Kiemeli a mintaszöveg összes egyezését a megadott színnel. |
 | [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Kiemeli a mintaszöveg összes egyezését a megadott színnel. |
 | [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | Kiemeli a reguláris kifejezés összes egyezését a megadott színnel. |
 | [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Lecseréli a megadott szöveg összes előfordulását egy másik megadott szövegre. |
 | [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Lecseréli a reguláris kifejezés összes egyezését a megadott karakterláncra. |
+| [refreshChartsData()](#refreshChartsData--) | Újratölti a prezentáció összes diagramjának adatait a forrás munkafüzetekből. |
+| [refreshChartsData(boolean skipFailedCharts)](#refreshChartsData-boolean-) | Újratölti a prezentáció összes diagramjának adatait a forrás munkafüzetekből. |
 
 ### getCurrentDateTime() {#getCurrentDateTime--}
 ```
 public abstract Date getCurrentDateTime()
 ```
 
-Visszaadja vagy beállítja a dátumot és az időt, amely helyettesíti a datetime mezők tartalmát. Alapértelmezés szerint a Presentation objektum létrehozásának ideje. Olvasás/írás java.util.Date.
+Visszaadja vagy beállítja a dátumot és időt, amely helyettesíti a datetime mezők tartalmát. Alapértelmezés szerint a Presentation objektum létrehozásának időpontja. **Olvasás/írás** java.util.Date.
 
 **Visszatér:**
 java.util.Date
@@ -85,7 +87,7 @@ java.util.Date
 public abstract void setCurrentDateTime(Date value)
 ```
 
-Visszaadja vagy beállítja a dátumot és az időt, amely helyettesíti a datetime mezők tartalmát. Alapértelmezés szerint a Presentation objektum létrehozásának ideje. Olvasás/írás java.util.Date.
+Visszaadja vagy beállítja a dátumot és időt, amely helyettesíti a datetime mezők tartalmát. Alapértelmezés szerint a Presentation objektum létrehozásának időpontja. **Olvasás/írás** java.util.Date.
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
@@ -97,7 +99,7 @@ Visszaadja vagy beállítja a dátumot és az időt, amely helyettesíti a datet
 public abstract IPresentationHeaderFooterManager getHeaderFooterManager()
 ```
 
-Visszaadja a prezentáció HeaderFooter kezelőjét. Csak olvasható [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager).
+Visszaadja a prezentáció HeaderFooter kezelőjét. **Csak olvasható** [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager).
 
 **Visszatér:**
 [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager)
@@ -107,7 +109,7 @@ Visszaadja a prezentáció HeaderFooter kezelőjét. Csak olvasható [IPresentat
 public abstract IProtectionManager getProtectionManager()
 ```
 
-Megkapja a jogosultságok kezelőjét ehhez a prezentációhoz. Csak olvasható [IProtectionManager](../../com.aspose.slides/iprotectionmanager).
+Visszaadja a jogosultságok kezelőjét ehhez a prezentációhoz. **Csak olvasható** [IProtectionManager](../../com.aspose.slides/iprotectionmanager).
 
 **Visszatér:**
 [IProtectionManager](../../com.aspose.slides/iprotectionmanager)
@@ -117,7 +119,7 @@ Megkapja a jogosultságok kezelőjét ehhez a prezentációhoz. Csak olvasható 
 public abstract ISlideCollection getSlides()
 ```
 
-Visszaad egy listát az összes diáról, amely a prezentációban van definiálva. Csak olvasható [ISlideCollection](../../com.aspose.slides/islidecollection).
+Visszaadja az összes diát tartalmazó listát, amely a prezentációban definiálva van. **Csak olvasható** [ISlideCollection](../../com.aspose.slides/islidecollection).
 
 **Visszatér:**
 [ISlideCollection](../../com.aspose.slides/islidecollection)
@@ -127,7 +129,7 @@ Visszaad egy listát az összes diáról, amely a prezentációban van definiál
 public abstract ISectionCollection getSections()
 ```
 
-Visszaad egy listát az összes dia szekcióról, amely a prezentációban van definiálva. Csak olvasható [ISectionCollection](../../com.aspose.slides/isectioncollection).
+Visszaadja az összes diarészlet listáját, amely a prezentációban definiálva van. **Csak olvasható** [ISectionCollection](../../com.aspose.slides/isectioncollection).
 
 **Visszatér:**
 [ISectionCollection](../../com.aspose.slides/isectioncollection)
@@ -137,7 +139,7 @@ Visszaad egy listát az összes dia szekcióról, amely a prezentációban van d
 public abstract ISlideSize getSlideSize()
 ```
 
-Visszaadja a dia méret objektumot. Csak olvasható [ISlideSize](../../com.aspose.slides/islidesize).
+Visszaadja a dia méret objektumát. **Csak olvasható** [ISlideSize](../../com.aspose.slides/islidesize).
 
 **Visszatér:**
 [ISlideSize](../../com.aspose.slides/islidesize)
@@ -147,7 +149,7 @@ Visszaadja a dia méret objektumot. Csak olvasható [ISlideSize](../../com.aspos
 public abstract INotesSize getNotesSize()
 ```
 
-Visszaadja a jegyzet dia méret objektumot. Csak olvasható [INotesSize](../../com.aspose.slides/inotessize).
+Visszaadja a jegyzet diák méret objektumát. **Csak olvasható** [INotesSize](../../com.aspose.slides/inotessize).
 
 **Visszatér:**
 [INotesSize](../../com.aspose.slides/inotessize)
@@ -157,11 +159,11 @@ Visszaadja a jegyzet dia méret objektumot. Csak olvasható [INotesSize](../../c
 public abstract IGlobalLayoutSlideCollection getLayoutSlides()
 ```
 
-Visszaad egy listát az összes elrendezés diáról, amely a prezentációban van definiálva. Csak olvasható [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection).
+Visszaadja az összes elrendezési dia listáját, amely a prezentációban definiálva van. **Csak olvasható** [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection).
 
 --------------------
 
-Alternatív API-t a layout diákat hozzáadásához/beszúrásához/eltávolításhoz/klónozáshoz a **IMasterSlide.LayoutSlides** tulajdonság használatával érheti el.
+Az alternatív API-t a layout diák hozzáadásához/beszúrásához/eltávolításához/kettőzéséhez az IMasterSlide.LayoutSlides tulajdonságon keresztül érheti el.
 
 **Visszatér:**
 [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection)
@@ -171,7 +173,7 @@ Alternatív API-t a layout diákat hozzáadásához/beszúrásához/eltávolít�
 public abstract IMasterSlideCollection getMasters()
 ```
 
-Visszaad egy listát az összes mester diáról, amely a prezentációban van definiálva. Csak olvasható [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection).
+Visszaadja az összes mesterdia listáját, amely a prezentációban definiálva van. **Csak olvasható** [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection).
 
 **Visszatér:**
 [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection)
@@ -181,7 +183,7 @@ Visszaad egy listát az összes mester diáról, amely a prezentációban van de
 public abstract IMasterNotesSlideManager getMasterNotesSlideManager()
 ```
 
-Visszaadja a jegyzet mester kezelőt. Csak olvasható [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager).
+Visszaadja a jegyzet mester kezelőt. **Csak olvasható** [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager).
 
 **Visszatér:**
 [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager)
@@ -191,7 +193,7 @@ Visszaadja a jegyzet mester kezelőt. Csak olvasható [IMasterNotesSlideManager]
 public abstract IMasterHandoutSlideManager getMasterHandoutSlideManager()
 ```
 
-Visszaadja a kézbesítő mester kezelőt. Csak olvasható [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager).
+Visszaadja a kiosztmány mester kezelőt. **Csak olvasható** [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager).
 
 **Visszatér:**
 [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager)
@@ -201,7 +203,7 @@ Visszaadja a kézbesítő mester kezelőt. Csak olvasható [IMasterHandoutSlideM
 public abstract IFontsManager getFontsManager()
 ```
 
-Visszaadja a betűtípusok kezelőjét. Csak olvasható [IFontsManager](../../com.aspose.slides/ifontsmanager).
+Visszaadja a betűtípusok kezelőjét. **Csak olvasható** [IFontsManager](../../com.aspose.slides/ifontsmanager).
 
 **Visszatér:**
 [IFontsManager](../../com.aspose.slides/ifontsmanager)
@@ -211,7 +213,7 @@ Visszaadja a betűtípusok kezelőjét. Csak olvasható [IFontsManager](../../co
 public abstract ITextStyle getDefaultTextStyle()
 ```
 
-Visszaadja az alakzatok alapértelmezett szövegstílusát. Csak olvasható [ITextStyle](../../com.aspose.slides/itextstyle).
+Visszaadja az alapértelmezett szövegstílust a formákhoz. **Csak olvasható** [ITextStyle](../../com.aspose.slides/itextstyle).
 
 **Visszatér:**
 [ITextStyle](../../com.aspose.slides/itextstyle)
@@ -221,7 +223,7 @@ Visszaadja az alakzatok alapértelmezett szövegstílusát. Csak olvasható [ITe
 public abstract ICommentAuthorCollection getCommentAuthors()
 ```
 
-Visszaadja a hozzászólások szerzőinek gyűjteményét. Csak olvasható [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection).
+Visszaadja a megjegyzés szerzők gyűjteményét. **Csak olvasható** [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection).
 
 **Visszatér:**
 [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection)
@@ -231,7 +233,7 @@ Visszaadja a hozzászólások szerzőinek gyűjteményét. Csak olvasható [ICom
 public abstract IDocumentProperties getDocumentProperties()
 ```
 
-Visszaad egy DocumentProperties objektumot, amely szabványos és egyedi dokumentum tulajdonságokat tartalmaz. Csak olvasható [IDocumentProperties](../../com.aspose.slides/idocumentproperties).
+Visszaadja a DocumentProperties objektumot, amely a szabványos és egyedi dokumentum tulajdonságokat tartalmazza. **Csak olvasható** [IDocumentProperties](../../com.aspose.slides/idocumentproperties).
 
 **Visszatér:**
 [IDocumentProperties](../../com.aspose.slides/idocumentproperties)
@@ -241,7 +243,7 @@ Visszaad egy DocumentProperties objektumot, amely szabványos és egyedi dokumen
 public abstract IImageCollection getImages()
 ```
 
-Visszaadja az összes kép gyűjteményét a prezentációban. Csak olvasható [IImageCollection](../../com.aspose.slides/iimagecollection).
+Visszaadja a prezentáció összes képének gyűjteményét. **Csak olvasható** [IImageCollection](../../com.aspose.slides/iimagecollection).
 
 **Visszatér:**
 [IImageCollection](../../com.aspose.slides/iimagecollection)
@@ -251,7 +253,7 @@ Visszaadja az összes kép gyűjteményét a prezentációban. Csak olvasható [
 public abstract IAudioCollection getAudios()
 ```
 
-Visszaadja az összes beágyazott audio fájl gyűjteményét a prezentációban. Csak olvasható [IAudioCollection](../../com.aspose.slides/iaudiocollection).
+Visszaadja a prezentációban beágyazott összes hangfájl gyűjteményét. **Csak olvasható** [IAudioCollection](../../com.aspose.slides/iaudiocollection).
 
 **Visszatér:**
 [IAudioCollection](../../com.aspose.slides/iaudiocollection)
@@ -261,7 +263,7 @@ Visszaadja az összes beágyazott audio fájl gyűjteményét a prezentációban
 public abstract IVideoCollection getVideos()
 ```
 
-Visszaadja az összes beágyazott video fájl gyűjteményét a prezentációban. Csak olvasható [IVideoCollection](../../com.aspose.slides/ivideocollection).
+Visszaadja a prezentációban beágyazott összes videófájl gyűjteményét. **Csak olvasható** [IVideoCollection](../../com.aspose.slides/ivideocollection).
 
 **Visszatér:**
 [IVideoCollection](../../com.aspose.slides/ivideocollection)
@@ -271,7 +273,7 @@ Visszaadja az összes beágyazott video fájl gyűjteményét a prezentációban
 public abstract ICustomData getCustomData()
 ```
 
-Visszaadja a prezentáció egyedi adatait. Csak olvasható [ICustomData](../../com.aspose.slides/icustomdata).
+Visszaadja a prezentáció egyéni adatát. **Csak olvasható** [ICustomData](../../com.aspose.slides/icustomdata).
 
 **Visszatér:**
 [ICustomData](../../com.aspose.slides/icustomdata)
@@ -281,7 +283,7 @@ Visszaadja a prezentáció egyedi adatait. Csak olvasható [ICustomData](../../c
 public abstract IVbaProject getVbaProject()
 ```
 
-Megkapja a VBA projektet a prezentáció makrókkal. Olvasás/írás [IVbaProject](../../com.aspose.slides/ivbaproject).
+Visszaadja a VBA projektet a prezentáció makrókkal. **Olvasás/írás** [IVbaProject](../../com.aspose.slides/ivbaproject).
 
 **Visszatér:**
 [IVbaProject](../../com.aspose.slides/ivbaproject)
@@ -291,7 +293,7 @@ Megkapja a VBA projektet a prezentáció makrókkal. Olvasás/írás [IVbaProjec
 public abstract void setVbaProject(IVbaProject value)
 ```
 
-Megkapja a VBA projektet a prezentáció makrókkal. Olvasás/írás [IVbaProject](../../com.aspose.slides/ivbaproject).
+Visszaadja a VBA projektet a prezentáció makrókkal. **Olvasás/írás** [IVbaProject](../../com.aspose.slides/ivbaproject).
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
@@ -303,7 +305,7 @@ Megkapja a VBA projektet a prezentáció makrókkal. Olvasás/írás [IVbaProjec
 public abstract int getSourceFormat()
 ```
 
-Visszaad információt arról, hogy melyik formátumból lett betöltve a prezentáció. Csak olvasható [SourceFormat](../../com.aspose.slides/sourceformat).
+Visszaadja a prezentáció betöltésének formátumáról szóló információt. **Csak olvasható** [SourceFormat](../../com.aspose.slides/sourceformat).
 
 **Visszatér:**
 int
@@ -313,7 +315,7 @@ int
 public abstract IMasterTheme getMasterTheme()
 ```
 
-Visszaadja a prezentáció mester témáját. Csak olvasható [IMasterTheme](../../com.aspose.slides/imastertheme).
+Visszaadja a prezentáció mester témáját. **Csak olvasható** [IMasterTheme](../../com.aspose.slides/imastertheme).
 
 **Visszatér:**
 [IMasterTheme](../../com.aspose.slides/imastertheme)
@@ -323,7 +325,7 @@ Visszaadja a prezentáció mester témáját. Csak olvasható [IMasterTheme](../
 public abstract IHyperlinkQueries getHyperlinkQueries()
 ```
 
-Könnyű hozzáférést biztosít az összes hiperhivatkozáshoz, amely az összes prezentációs dián található (nem a mester, elrendezés vagy jegyzet diákon). Csak olvasható [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
+Könnyű hozzáférést biztosít az összes hiperhivatkozáshoz, amely az összes prezentációs dián található (nem a mester, elrendezés, jegyzet diákon). **Csak olvasható** [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
 
 **Visszatér:**
 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)
@@ -333,7 +335,7 @@ Könnyű hozzáférést biztosít az összes hiperhivatkozáshoz, amely az össz
 public abstract IViewProperties getViewProperties()
 ```
 
-Megkapja a prezentáció szintű nézeti tulajdonságokat. Csak olvasható [IViewProperties](../../com.aspose.slides/iviewproperties).
+Visszaadja a prezentációra vonatkozó nézeti tulajdonságokat. **Csak olvasható** [IViewProperties](../../com.aspose.slides/iviewproperties).
 
 **Visszatér:**
 [IViewProperties](../../com.aspose.slides/iviewproperties)
@@ -343,7 +345,7 @@ Megkapja a prezentáció szintű nézeti tulajdonságokat. Csak olvasható [IVie
 public abstract int getFirstSlideNumber()
 ```
 
-A prezentáció első dia számát jelöli. Olvasás/írás int.
+A prezentáció első diájának számát jelöli. **Olvasás/írás** int.
 
 **Visszatér:**
 int
@@ -353,7 +355,7 @@ int
 public abstract void setFirstSlideNumber(int value)
 ```
 
-A prezentáció első dia számát jelöli. Olvasás/írás int.
+A prezentáció első diájának számát jelöli. **Olvasás/írás** int.
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
@@ -365,7 +367,7 @@ A prezentáció első dia számát jelöli. Olvasás/írás int.
 public abstract ICustomXmlPart[] getAllCustomXmlParts()
 ```
 
-Visszaadja az összes egyedi adat részt a prezentációban. Csak olvasható ICustomXmlPart[].
+Visszaadja a prezentáció összes egyéni adat részét. **Csak olvasható** ICustomXmlPart[].
 
 **Visszatér:**
 com.aspose.slides.ICustomXmlPart[]
@@ -375,7 +377,7 @@ com.aspose.slides.ICustomXmlPart[]
 public abstract IDigitalSignatureCollection getDigitalSignatures()
 ```
 
-Visszaadja a prezentáció aláírásához használt aláírások gyűjteményét. Csak olvasható [IDigitalSignatureCollection](../../com.aspose.slides/idigitalsignaturecollection).
+Visszaadja a prezentáció aláírásához használt aláírások gyűjteményét. **Csak olvasható** [IDigitalSignatureCollection](../../com.aspose.slides/idigitalsignaturecollection).
 
 --------------------
 
@@ -412,7 +414,7 @@ Visszaadja a prezentáció aláírásához használt aláírások gyűjteményé
 public abstract ISensitivityLabelCollection getSensitivityLabels()
 ```
 
-Visszaadja a prezentáció dokumentumra alkalmazott érzékenységi címkék gyűjteményét. Csak olvasható [ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection).
+Visszaadja a prezentáció dokumentumra alkalmazott érzékenységi címkék gyűjteményét. **Csak olvasható** [ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection).
 
 --------------------
 
@@ -421,13 +423,13 @@ Visszaadja a prezentáció dokumentumra alkalmazott érzékenységi címkék gy�
 >  try {
 >      ISensitivityLabelCollection sensitivityLabels = pres.getSensitivityLabels();
 > 
->      // Írja ki a alkalmazott címkéket
+>      // Írja ki a használt címkéket
 >      for (ISensitivityLabel sensitivityLabel : sensitivityLabels)
 >          System.out.println("Label Id " + sensitivityLabel.getId() + " from Azure AD site " + sensitivityLabel.getSiteId());
 > 
->      // Adja hozzá az új címkét
->      String labelIdString = "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"; // Szerezze be az érzékenységi címke azonosítóját a szabályzatból
->      UUID siteIdGuid = UUID.fromString("{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"); // Szerezze be az Azure AD oldal azonosítóját a szabályzatból
+>      // Új címke hozzáadása
+>      String labelIdString = "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"; // A szenzitivitási címke azonosítóját a szabályzatból kapja
+>      UUID siteIdGuid = UUID.fromString("{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"); // Az Azure AD hely azonosítóját a szabályzatból kapja
 >      ISensitivityLabel label = sensitivityLabels.add(labelIdString, siteIdGuid, true, SensitivityLabelAssignmentType.Privileged);
 >      label.getContentMarkTypes().addItem(SensitivityLabelContentType.Footer);
 > 
@@ -446,66 +448,65 @@ Visszaadja a prezentáció dokumentumra alkalmazott érzékenységi címkék gy�
 public abstract void save(String fname, int format)
 ```
 
-Ment minden diát a prezentációból egy fájlba a megadott formátummal.
+Elmenti a prezentáció összes diáját egy fájlba a megadott formátummal.
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| fname | java.lang.String | A létrehozandó fájl elérési útja. |
-| format | int | Az exportált adatok formátuma. |
+| fname | java.lang.String | A létrehozott fájl elérési útja. |
+| format | int | Az exportált adat formátuma. |
 
 ### save(OutputStream stream, int format) {#save-java.io.OutputStream-int-}
 ```
 public abstract void save(OutputStream stream, int format)
 ```
 
-Ment minden diát a prezentációból egy adatfolyamra a megadott formátummal.
+Elmenti a prezentáció összes diáját egy adatfolyamra a megadott formátummal.
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
 | stream | java.io.OutputStream | Kimeneti adatfolyam. |
-| format | int | Az exportált adatok formátuma. |
+| format | int | Az exportált adat formátuma. |
 
 ### save(String fname, int format, ISaveOptions options) {#save-java.lang.String-int-com.aspose.slides.ISaveOptions-}
 ```
 public abstract void save(String fname, int format, ISaveOptions options)
 ```
-
-Ment minden diát a prezentációból egy fájlba a megadott formátummal és további opciókkal.
+Ment minden diát egy prezentációból egy fájlba a megadott formátummal és további opciókkal.
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| fname | java.lang.String | A létrehozandó fájl elérési útja. |
+| fname | java.lang.String | A létrehozott fájl elérési útja. |
 | format | int | Az exportált adatok formátuma. |
-| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | További formátumbeállítások. |
+| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | További formátum opciók. |
 
 ### save(OutputStream stream, int format, ISaveOptions options) {#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-}
 ```
 public abstract void save(OutputStream stream, int format, ISaveOptions options)
 ```
 
-Ment minden diát egy prezentációból egy adatfolyamra a megadott formátumban, további beállításokkal.
+Ment minden diát egy prezentációból egy adatfolyamra a megadott formátumban és további opciókkal.
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
 | stream | java.io.OutputStream | Kimeneti adatfolyam. |
 | format | int | Az exportált adatok formátuma. |
-| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | További formátumbeállítások. |
+| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | További formátum opciók. |
 
 ### save(String fname, int[] slides, int format) {#save-java.lang.String-int---int-}
 ```
 public abstract void save(String fname, int[] slides, int format)
 ```
 
-A megadott diák egy prezentációból egy fájlba menti a megadott formátummal.
+Ment megadott diákat egy prezentációból egy fájlba a megadott formátummal.
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| fname | java.lang.String | Az elkészített fájl elérési útja. |
+| fname | java.lang.String | A létrehozott fájl elérési útja. |
 | slides | int[] | Diapozíciókat tartalmazó tömb, 1-től kezdve. |
 | format | int | Az exportált adatok formátuma. |
 
@@ -514,22 +515,22 @@ A megadott diák egy prezentációból egy fájlba menti a megadott formátummal
 public abstract void save(String fname, int[] slides, int format, ISaveOptions options)
 ```
 
-A megadott diák egy prezentációból egy fájlba menti a megadott formátummal.
+Ment megadott diákat egy prezentációból egy fájlba a megadott formátummal.
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| fname | java.lang.String | Az elkészített fájl elérési útja. |
+| fname | java.lang.String | A létrehozott fájl elérési útja. |
 | slides | int[] | Diapozíciókat tartalmazó tömb, 1-től kezdve. |
 | format | int | Az exportált adatok formátuma. |
-| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | További formátumbeállítások. |
+| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | További formátum opciók. |
 
 ### save(OutputStream stream, int[] slides, int format) {#save-java.io.OutputStream-int---int-}
 ```
 public abstract void save(OutputStream stream, int[] slides, int format)
 ```
 
-A megadott diák egy prezentációból egy adatfolyamra menti a megadott formátummal.
+Ment megadott diákat egy prezentációból egy adatfolyamra a megadott formátumban.
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
@@ -543,7 +544,7 @@ A megadott diák egy prezentációból egy adatfolyamra menti a megadott formát
 public abstract void save(OutputStream stream, int[] slides, int format, ISaveOptions options)
 ```
 
-A megadott diák egy prezentációból egy adatfolyamra menti a megadott formátummal.
+Ment megadott diákat egy prezentációból egy adatfolyamra a megadott formátumban.
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
@@ -551,14 +552,14 @@ A megadott diák egy prezentációból egy adatfolyamra menti a megadott formát
 | stream | java.io.OutputStream | Kimeneti adatfolyam. |
 | slides | int[] | Diapozíciókat tartalmazó tömb, 1-től kezdve. |
 | format | int | Az exportált adatok formátuma. |
-| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | További formátumbeállítások. |
+| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | További formátum opciók. |
 
 ### save(IXamlOptions options) {#save-com.aspose.slides.IXamlOptions-}
 ```
 public abstract void save(IXamlOptions options)
 ```
 
-Ment minden diát egy prezentációból egy XAML jelölőnyelvet képviselő fájlkészletbe.
+Ment minden diát egy prezentációból egy sor fájlba, amely XAML jelölést képvisel.
 
 --------------------
 
@@ -578,135 +579,135 @@ Ment minden diát egy prezentációból egy XAML jelölőnyelvet képviselő fá
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| options | [IXamlOptions](../../com.aspose.slides/ixamloptions) | A XAML formátum opciói. |
+| options | [IXamlOptions](../../com.aspose.slides/ixamloptions) | Az XAML formátum opciói. |
 
 ### getImages(IRenderingOptions options) {#getImages-com.aspose.slides.IRenderingOptions-}
 ```
 public abstract IImage[] getImages(IRenderingOptions options)
 ```
 
-Visszaad Miniatűr kép objektumokat minden diához a prezentációban.
+Visszaad miniatűr Image objektumokat az összes diáról a prezentációban.
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Renderelési opciók. |
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Megjelenítési beállítások. |
 
 **Visszatérési érték:**
-com.aspose.slides.IImage[] - IImage objects.
+com.aspose.slides.IImage[] - IImage objektumok.
 
 ### getImages(IRenderingOptions options, int[] slides) {#getImages-com.aspose.slides.IRenderingOptions-int---}
 ```
 public abstract IImage[] getImages(IRenderingOptions options, int[] slides)
 ```
 
-Visszaad Miniatűr IImage objektumokat a megadott diákhoz egy prezentációban.
+Visszaad miniatűr IImage objektumokat a megadott diákhoz a prezentációban.
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Renderelési opciók. |
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Megjelenítési beállítások. |
 | slides | int[] | Diapozíciókat tartalmazó tömb, 1-től kezdve. |
 
 **Visszatérési érték:**
-com.aspose.slides.IImage[] - IImage objects.
+com.aspose.slides.IImage[] - IImage objektumok.
 
 ### getImages(IRenderingOptions options, float scaleX, float scaleY) {#getImages-com.aspose.slides.IRenderingOptions-float-float-}
 ```
 public abstract IImage[] getImages(IRenderingOptions options, float scaleX, float scaleY)
 ```
 
-Visszaad Miniatűr kép objektumokat minden diához egy prezentációban, egyedi méretezéssel.
+Visszaad miniatűr Image objektumokat az összes diáról a prezentációban egyéni méretezéssel.
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Renderelési opciók. |
-| scaleX | float | Az érték, amellyel az X tengelyen méretezi a Miniatűrt. |
-| scaleY | float | Az érték, amellyel az Y tengelyen méretezi a Miniatűrt. |
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Megjelenítési beállítások. |
+| scaleX | float | Az az érték, amellyel a miniatűrt az x tengelyen skálázzuk. |
+| scaleY | float | Az az érték, amellyel a miniatűrt az y tengelyen skálázzuk. |
 
 **Visszatérési érték:**
-com.aspose.slides.IImage[] - Bitmap objects.
+com.aspose.slides.IImage[] - Bitmap objektumok.
 
 ### getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY) {#getImages-com.aspose.slides.IRenderingOptions-int---float-float-}
 ```
 public abstract IImage[] getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)
 ```
 
-Visszaad Miniatűr kép objektumokat a megadott diákhoz egy prezentációban, egyedi méretezéssel.
+Visszaad miniatűr Image objektumokat a megadott diákhoz a prezentációban egyéni méretezéssel.
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Renderelési opciók. |
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Megjelenítési beállítások. |
 | slides | int[] | Diapozíciókat tartalmazó tömb, 1-től kezdve. |
-| scaleX | float | Az érték, amellyel az X tengelyen méretezi a Miniatűrt. |
-| scaleY | float | Az érték, amellyel az Y tengelyen méretezi a Miniatűrt. |
+| scaleX | float | Az az érték, amellyel a miniatűrt az x tengelyen skálázzuk. |
+| scaleY | float | Az az érték, amellyel a miniatűrt az y tengelyen skálázzuk. |
 
 **Visszatérési érték:**
-com.aspose.slides.IImage[] - IImage objects.
+com.aspose.slides.IImage[] - IImage objektumok.
 
 ### getImages(IRenderingOptions options, Dimension imageSize) {#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-}
 ```
 public abstract IImage[] getImages(IRenderingOptions options, Dimension imageSize)
 ```
 
-Visszaad Miniatűr kép objektumokat minden diához egy prezentációban a megadott mérettel.
+Visszaad miniatűr Image objektumokat az összes diáról a prezentációban a megadott mérettel.
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Renderelési opciók. |
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Megjelenítési beállítások. |
 | imageSize | java.awt.Dimension | A létrehozandó kép mérete. |
 
 **Visszatérési érték:**
-com.aspose.slides.IImage[] - IImage objects.
+com.aspose.slides.IImage[] - IImage objektumok.
 
 ### getImages(IRenderingOptions options, int[] slides, Dimension imageSize) {#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-}
 ```
 public abstract IImage[] getImages(IRenderingOptions options, int[] slides, Dimension imageSize)
 ```
 
-Visszaad Miniatűr kép objektumokat a megadott diákhoz egy prezentációban a megadott mérettel.
+Visszaad miniatűr Image objektumokat a megadott diákhoz a prezentációban a megadott mérettel.
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Renderelési opciók. |
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Megjelenítési beállítások. |
 | slides | int[] | Diapozíciókat tartalmazó tömb, 1-től kezdve. |
 | imageSize | java.awt.Dimension | A létrehozandó kép mérete. |
 
 **Visszatérési érték:**
-com.aspose.slides.IImage[] - IImage objects.
+com.aspose.slides.IImage[] - IImage objektumok.
 
 ### getSlideById(long id) {#getSlideById-long-}
 ```
 public abstract IBaseSlide getSlideById(long id)
 ```
 
-Visszaad egy Slide, MasterSlide vagy LayoutSlide objektumot azonosító alapján.
+Visszaad egy Slide, MasterSlide vagy LayoutSlide azonosító alapján.
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| id | long | A dia azonosítója. |
+| id | long | Egy dia azonosítója. |
 
 **Visszatérési érték:**
-[IBaseSlide](../../com.aspose.slides/ibaseslide) - IBaseSlide object.
+[IBaseSlide](../../com.aspose.slides/ibaseslide) - IBaseSlide objektum.
 
 ### joinPortionsWithSameFormatting() {#joinPortionsWithSameFormatting--}
 ```
 public abstract void joinPortionsWithSameFormatting()
 ```
 
-Azonos formázású szövegrészeket egyesíti az összes bekezdésben, minden elfogadható alakzatban, minden dián.
+Összevonja az egységes formázású szakaszokat az összes bekezdésben, minden elfogadható alakzatban, minden dián.
 
 ### highlightText(String text, Color highlightColor) {#highlightText-java.lang.String-java.awt.Color-}
 ```
 public abstract void highlightText(String text, Color highlightColor)
 ```
 
-Kiemeli a minta szövegre illeszkedő összes találatot a megadott színnel.
+Kiemeli a mintaszöveg összes egyezését a megadott színnel.
 
 --------------------
 
@@ -715,7 +716,7 @@ Kiemeli a minta szövegre illeszkedő összes találatot a megadott színnel.
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
->      // összes különálló 'the' előfordulás kiemelése
+>      // az összes különálló 'the' előfordulás kiemelése
 >      presentation.highlightText("the", Color.MAGENTA);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -723,19 +724,18 @@ Kiemeli a minta szövegre illeszkedő összes találatot a megadott színnel.
 >  }
 > ```
 
-
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
 | text | java.lang.String | A kiemelendő szöveg. |
-| highlightColor | java.awt.Color | A szöveget kiemelő szín. |
+| highlightColor | java.awt.Color | A szöveg kiemeléséhez használt szín. |
 
 ### highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
 public abstract void highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
-Kiemeli a minta szövegre illeszkedő összes találatot a megadott színnel.
+Kiemeli a mintaszöveg összes egyezését a megadott színnel.
 
 --------------------
 
@@ -744,7 +744,7 @@ Kiemeli a minta szövegre illeszkedő összes találatot a megadott színnel.
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
->      // összes különálló 'the' előfordulás kiemelése
+>      // az összes különálló 'the' előfordulás kiemelése
 >      presentation.highlightText("the", Color.MAGENTA);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -757,7 +757,7 @@ Kiemeli a minta szövegre illeszkedő összes találatot a megadott színnel.
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
 | text | java.lang.String | A kiemelendő szöveg. |
-| highlightColor | java.awt.Color | A szöveget kiemelő szín. |
+| highlightColor | java.awt.Color | A szöveg kiemeléséhez használt szín. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Szövegkeresési opciók [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | A visszahívási objektum a keresési eredmények fogadásához [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
@@ -766,7 +766,7 @@ Kiemeli a minta szövegre illeszkedő összes találatot a megadott színnel.
 public abstract void highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)
 ```
 
-Kiemeli a reguláris kifejezés összes találatát a megadott színnel.
+Kiemeli a reguláris kifejezés összes egyezését a megadott színnel.
 
 --------------------
 
@@ -775,7 +775,7 @@ Kiemeli a reguláris kifejezés összes találatát a megadott színnel.
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
->      // highlighting all separate 'the' occurrences
+>      // az összes különálló 'the' előfordulás kiemelése
 >      presentation.highlightText("the", Color.MAGENTA);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -783,11 +783,12 @@ Kiemeli a reguláris kifejezés összes találatát a megadott színnel.
 >  }
 > ```
 
+
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | A kiemelendő karakterláncokhoz használt reguláris kifejezés java.util.regex.Pattern. |
-| highlightColor | java.awt.Color | A szöveget kiemelő szín. |
+| regex | java.util.regex.Pattern | A java.util.regex.Pattern reguláris kifejezés a kiemelendő karakterláncok meghatározásához. |
+| highlightColor | java.awt.Color | A szöveg kiemeléséhez használt szín. |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | A visszahívási objektum a keresési eredmények fogadásához [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback) {#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
@@ -818,8 +819,8 @@ Lecseréli a megadott szöveg összes előfordulását egy másik megadott szöv
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| oldText | java.lang.String | A lecserélendő karakterlánc. |
-| newText | java.lang.String | A karakterlánc, amely az oldText összes előfordulását helyettesíti. |
+| oldText | java.lang.String | A cserélendő karakterlánc. |
+| newText | java.lang.String | A karakterlánc, amelyre az oldText összes előfordulását cserélni kell. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Szövegkeresési opciók [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | A visszahívási objektum a keresési eredmények fogadásához [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
@@ -828,7 +829,7 @@ Lecseréli a megadott szöveg összes előfordulását egy másik megadott szöv
 public abstract void replaceRegex(Pattern regex, String newText, IFindResultCallback callback)
 ```
 
-Lecseréli a reguláris kifejezés összes találatát a megadott karakterláncra.
+Lecseréli a reguláris kifejezés összes egyezését a megadott karakterláncra.
 
 --------------------
 
@@ -851,6 +852,51 @@ Lecseréli a reguláris kifejezés összes találatát a megadott karakterláncr
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | A lecserélendő karakterláncokhoz használt reguláris kifejezés java.util.regex.Pattern. |
-| newText | java.lang.String | A karakterlánc, amely a lecserélendő karakterláncok összes előfordulását helyettesíti. |
+| regex | java.util.regex.Pattern | A java.util.regex.Pattern reguláris kifejezés a cserélendő karakterláncok meghatározásához. |
+| newText | java.lang.String | A karakterlánc, amelyre a cserélendő karakterláncok összes előfordulását cserélni kell. |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | A visszahívási objektum a keresési eredmények fogadásához [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+
+### refreshChartsData() {#refreshChartsData--}
+```
+public abstract void refreshChartsData()
+```
+
+Újratölti az adatokat az összes diagramhoz a prezentációban az eredeti munkafüzetekből.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("PresentationWithCharts.pptx");
+>  try {
+>      presentation.refreshChartsData();
+>      presentation.save("PresentationWithCharts-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+
+### refreshChartsData(boolean skipFailedCharts) {#refreshChartsData-boolean-}
+```
+public abstract void refreshChartsData(boolean skipFailedCharts)
+```
+
+Újratölti az adatokat az összes diagramhoz a prezentációban az eredeti munkafüzetekből.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("PresentationWithCharts.pptx");
+>  try {
+>      presentation.refreshChartsData();
+>      presentation.save("PresentationWithCharts-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+
+**Paraméterek:**
+| Paraméter | Típus | Leírás |
+| --- | --- | --- |
+| skipFailedCharts | boolean | Megadja, hogy a frissítési folyamat folytatódjon-e, ha egy diagram frissítése sikertelen. Ha true, a kivételt okozó diagramok kihagyásra kerülnek; ellenkező esetben a kivétel továbbadódik. |

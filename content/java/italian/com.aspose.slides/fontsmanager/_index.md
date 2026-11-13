@@ -1,6 +1,6 @@
 ---
 title: FontsManager
-second_title: Riferimento API di Aspose.Slides per Java
+second_title: Riferimento API Aspose.Slides per Java
 description: Gestisce i font nella presentazione.
 type: docs
 url: /it/com.aspose.slides/fontsmanager/
@@ -54,39 +54,40 @@ Gestisce i font nella presentazione.
 
 | Metodo | Descrizione |
 | --- | --- |
-| [getFontSubstRuleList()](#getFontSubstRuleList--) | Sostituzioni di font da utilizzare durante il rendering. |
-| [setFontSubstRuleList(IFontSubstRuleCollection value)](#setFontSubstRuleList-com.aspose.slides.IFontSubstRuleCollection-) | Sostituzioni di font da utilizzare durante il rendering. |
-| [getFontFallBackRulesCollection()](#getFontFallBackRulesCollection--) | Rappresenta la collezione dell'utente di regole FontFallBack per la gestione delle collezioni di font per le corrette sostituzioni tramite la funzionalità di fallback Lettura/scrittura [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
-| [setFontFallBackRulesCollection(IFontFallBackRulesCollection value)](#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-) | Rappresenta la collezione dell'utente di regole FontFallBack per la gestione delle collezioni di font per le corrette sostituzioni tramite la funzionalità di fallback Lettura/scrittura [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
-| [getFonts()](#getFonts--) | Restituisce i font utilizzati nella presentazione |
+| [getFontSubstRuleList()](#getFontSubstRuleList--) | Sostituzioni di font da usare durante il rendering. |
+| [setFontSubstRuleList(IFontSubstRuleCollection value)](#setFontSubstRuleList-com.aspose.slides.IFontSubstRuleCollection-) | Sostituzioni di font da usare durante il rendering. |
+| [getFontFallBackRulesCollection()](#getFontFallBackRulesCollection--) | Rappresenta la raccolta dell'utente di regole FontFallBack per la gestione di collezioni di font per corrette sostituzioni tramite funzionalità di fallback Lettura/scrittura [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
+| [setFontFallBackRulesCollection(IFontFallBackRulesCollection value)](#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-) | Rappresenta la raccolta dell'utente di regole FontFallBack per la gestione di collezioni di font per corrette sostituzioni tramite funzionalità di fallback Lettura/scrittura [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
+| [getFonts()](#getFonts--) | Restituisce i font usati nella presentazione |
 | [getSubstitutions()](#getSubstitutions--) | Ottiene le informazioni sui font che saranno sostituiti durante il rendering della presentazione. |
 | [getSubstitutions(int[] slides)](#getSubstitutions-int---) | Ottiene le informazioni sui font che saranno sostituiti durante il rendering delle diapositive specificate. |
+| [getPreferRegisteredFontsOverEmbedded()](#getPreferRegisteredFontsOverEmbedded--) | Specifica se i font registrati devono avere la precedenza sui font incorporati con lo stesso nome e stile. |
+| [setPreferRegisteredFontsOverEmbedded(boolean value)](#setPreferRegisteredFontsOverEmbedded-boolean-) | Specifica se i font registrati devono avere la precedenza sui font incorporati con lo stesso nome e stile. |
 | [getEmbeddedFonts()](#getEmbeddedFonts--) | Restituisce i font incorporati nella presentazione |
 | [removeEmbeddedFont(IFontData fontData)](#removeEmbeddedFont-com.aspose.slides.IFontData-) | Rimuove il font incorporato |
 | [addEmbeddedFont(IFontData fontData, int embedFontRule)](#addEmbeddedFont-com.aspose.slides.IFontData-int-) | Aggiunge il font incorporato |
 | [addEmbeddedFont(byte[] fontData, int embedFontRule)](#addEmbeddedFont-byte---int-) | Aggiunge il font incorporato |
-| [replaceFont(IFontData sourceFont, IFontData destFont)](#replaceFont-com.aspose.slides.IFontData-com.aspose.slides.IFontData-) | Sostituisce il font nella presentazione |
-| [replaceFont(IFontSubstRule substRule)](#replaceFont-com.aspose.slides.IFontSubstRule-) | Sostituisce il font nella presentazione usando le informazioni fornite in [FontSubstRule](../../com.aspose.slides/fontsubstrule) |
-| [replaceFont(IFontSubstRuleCollection substRules)](#replaceFont-com.aspose.slides.IFontSubstRuleCollection-) | Sostituisce il font nella presentazione usando le informazioni fornite nella collezione di [FontSubstRule](../../com.aspose.slides/fontsubstrule) |
-| [getFontBytes(IFontData fontData, int fontStyle)](#getFontBytes-com.aspose.slides.IFontData-int-) | Recupera l'array di byte che rappresenta i dati del font per uno stile di font e dati del font specificati. |
-| [getFontEmbeddingLevel(byte[] fontBytes, String fontName)](#getFontEmbeddingLevel-byte---java.lang.String-) | Determina il livello di incorporamento di un font dall'array di byte e dal nome del font forniti. |
+| [replaceFont(IFontData sourceFont, IFontData destFont)](#replaceFont-com.aspose.slides.IFontData-com.aspose.slides.IFontData-) | Sostituisci il font nella presentazione |
+| [replaceFont(IFontSubstRule substRule)](#replaceFont-com.aspose.slides.IFontSubstRule-) | Sostituisci il font nella presentazione usando le informazioni fornite in [FontSubstRule](../../com.aspose.slides/fontsubstrule) |
+| [replaceFont(IFontSubstRuleCollection substRules)](#replaceFont-com.aspose.slides.IFontSubstRuleCollection-) | Sostituisci il font nella presentazione usando le informazioni fornite nella raccolta di [FontSubstRule](../../com.aspose.slides/fontsubstrule) |
+| [getFontBytes(IFontData fontData, int fontStyle)](#getFontBytes-com.aspose.slides.IFontData-int-) | Recupera l'array di byte che rappresenta i dati del font per uno stile di font specificato e i dati del font. |
+| [getFontEmbeddingLevel(byte[] fontBytes, String fontName)](#getFontEmbeddingLevel-byte---java.lang.String-) | Determina il livello di incorporamento di un font dall'array di byte fornito e dal nome del font. |
 
 ### getFontSubstRuleList() {#getFontSubstRuleList--}
 ```
 public final IFontSubstRuleCollection getFontSubstRuleList()
 ```
 
-Sostituzioni di font da utilizzare durante il rendering. Lettura/scrittura [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
+Sostituzioni di font da usare durante il rendering. Lettura/scrittura [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
 
 **Restituisce:**
 [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection)
-
 ### setFontSubstRuleList(IFontSubstRuleCollection value) {#setFontSubstRuleList-com.aspose.slides.IFontSubstRuleCollection-}
 ```
 public final void setFontSubstRuleList(IFontSubstRuleCollection value)
 ```
 
-Sostituzioni di font da utilizzare durante il rendering. Lettura/scrittura [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
+Sostituzioni di font da usare durante il rendering. Lettura/scrittura [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
 
 **Parametri:**
 | Parametro | Tipo | Descrizione |
@@ -98,7 +99,7 @@ Sostituzioni di font da utilizzare durante il rendering. Lettura/scrittura [IFon
 public final IFontFallBackRulesCollection getFontFallBackRulesCollection()
 ```
 
-Rappresenta la collezione dell'utente di regole FontFallBack per la gestione delle collezioni di font per le corrette sostituzioni tramite la funzionalità di fallback Lettura/scrittura [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
+Rappresenta la raccolta dell'utente di regole FontFallBack per la gestione di collezioni di font per corrette sostituzioni tramite funzionalità di fallback Lettura/scrittura [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
 
 --------------------
 
@@ -106,11 +107,11 @@ Rappresenta la collezione dell'utente di regole FontFallBack per la gestione del
 > Presentation pres = new Presentation();
 >  try
 >  {
->      // Ottenimento di una collezione di regole vuota o preinizializzata da FontsManager
+>      // Ottenere una collezione di regole vuota o preinizializzata da FontsManager
 >      IFontFallBackRulesCollection rulesList = pres.getFontsManager().getFontFallBackRulesCollection();
 >      // aggiunta di regole alla collezione
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
->      // oppure 
+>      // oppure
 >      // inizializzazione di una nuova istanza della collezione di regole
 >      IFontFallBackRulesCollection rulesList = new FontFallBackRulesCollection();
 >      // aggiunta di regole alla collezione
@@ -126,13 +127,12 @@ Rappresenta la collezione dell'utente di regole FontFallBack per la gestione del
 
 **Restituisce:**
 [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection)
-
 ### setFontFallBackRulesCollection(IFontFallBackRulesCollection value) {#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-}
 ```
 public final void setFontFallBackRulesCollection(IFontFallBackRulesCollection value)
 ```
 
-Rappresenta la collezione dell'utente di regole FontFallBack per la gestione delle collezioni di font per le corrette sostituzioni tramite la funzionalità di fallback Lettura/scrittura [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
+Rappresenta la raccolta dell'utente di regole FontFallBack per la gestione di collezioni di font per corrette sostituzioni tramite funzionalità di fallback Lettura/scrittura [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
 
 --------------------
 
@@ -140,11 +140,11 @@ Rappresenta la collezione dell'utente di regole FontFallBack per la gestione del
 > Presentation pres = new Presentation();
 >  try
 >  {
->      // Ottenimento di una collezione di regole vuota o preinizializzata da FontsManager
+>      // Ottenere una collezione di regole vuota o preinizializzata da FontsManager
 >      IFontFallBackRulesCollection rulesList = pres.getFontsManager().getFontFallBackRulesCollection();
 >      // aggiunta di regole alla collezione
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
->      // oppure 
+>      // oppure
 >      // inizializzazione di una nuova istanza della collezione di regole
 >      IFontFallBackRulesCollection rulesList = new FontFallBackRulesCollection();
 >      // aggiunta di regole alla collezione
@@ -168,11 +168,10 @@ Rappresenta la collezione dell'utente di regole FontFallBack per la gestione del
 public final IFontData[] getFonts()
 ```
 
-Restituisce i font utilizzati nella presentazione
+Restituisce i font usati nella presentazione
 
 **Restituisce:**
 com.aspose.slides.IFontData[] - Un array di font
-
 ### getSubstitutions() {#getSubstitutions--}
 ```
 public final System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo> getSubstitutions()
@@ -196,8 +195,7 @@ Ottiene le informazioni sui font che saranno sostituiti durante il rendering del
 
 
 **Restituisce:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - Collezione di tutte le sostituzioni di font [FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo).
-
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - Raccolta di tutte le sostituzioni dei font [FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo).
 ### getSubstitutions(int[] slides) {#getSubstitutions-int---}
 ```
 public final System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo> getSubstitutions(int[] slides)
@@ -220,13 +218,62 @@ Ottiene le informazioni sui font che saranno sostituiti durante il rendering del
 >  }
 > ```
 
+
 **Parametri:**
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| slides | int[] | Un array di indici di diapositiva per i quali recuperare le informazioni di sostituzione dei font, a partire da 1. |
+| slides | int[] | Un array di indici di diapositive per le quali recuperare le informazioni di sostituzione del font, a partire da 1. |
 
 **Restituisce:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - Una collezione di tutte le sostituzioni di font ([FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo)) per le diapositive specificate.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - Una raccolta di tutte le sostituzioni dei font ([FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo)) per le diapositive specificate.
+### getPreferRegisteredFontsOverEmbedded() {#getPreferRegisteredFontsOverEmbedded--}
+```
+public final boolean getPreferRegisteredFontsOverEmbedded()
+```
+
+Specifica se i font registrati devono avere la precedenza sui font incorporati con lo stesso nome e stile. Quando abilitato, i font incorporati corrispondenti sono temporaneamente sostituiti con i corrispondenti font registrati durante l'esportazione.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("SomePresentation.pptx");
+>  try {
+>      pres.getFontsManager().setPreferRegisteredFontsOverEmbedded(true);
+>      pres.save("Presentation-out.pdf", SaveFormat.Pdf);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+Il valore predefinito è **false**.
+
+**Restituisce:**
+boolean
+### setPreferRegisteredFontsOverEmbedded(boolean value) {#setPreferRegisteredFontsOverEmbedded-boolean-}
+```
+public final void setPreferRegisteredFontsOverEmbedded(boolean value)
+```
+
+Specifică se i font registrati devono avere la precedenza sui font incorporati con lo stesso nome e stile. Quando abilitato, i font incorporati corrispondenti sono temporaneamente sostituiti con i corrispondenti font registrati durante l'esportazione.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("SomePresentation.pptx");
+>  try {
+>      pres.getFontsManager().setPreferRegisteredFontsOverEmbedded(true);
+>      pres.save("Presentation-out.pdf", SaveFormat.Pdf);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+Il valore predefinito è **false**.
+
+**Parametri:**
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### getEmbeddedFonts() {#getEmbeddedFonts--}
 ```
@@ -237,7 +284,6 @@ Restituisce i font incorporati nella presentazione
 
 **Restituisce:**
 com.aspose.slides.IFontData[]
-
 ### removeEmbeddedFont(IFontData fontData) {#removeEmbeddedFont-com.aspose.slides.IFontData-}
 ```
 public final void removeEmbeddedFont(IFontData fontData)
@@ -281,7 +327,7 @@ Aggiunge il font incorporato
 public final void replaceFont(IFontData sourceFont, IFontData destFont)
 ```
 
-Sostituisce il font nella presentazione
+Sostituisci il font nella presentazione
 
 **Parametri:**
 | Parametro | Tipo | Descrizione |
@@ -294,31 +340,31 @@ Sostituisce il font nella presentazione
 public final void replaceFont(IFontSubstRule substRule)
 ```
 
-Sostituisce il font nella presentazione usando le informazioni fornite in [FontSubstRule](../../com.aspose.slides/fontsubstrule)
+Sostituisci il font nella presentazione usando le informazioni fornite in [FontSubstRule](../../com.aspose.slides/fontsubstrule)
 
 **Parametri:**
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| substRule | [IFontSubstRule](../../com.aspose.slides/ifontsubstrule) | Informazioni di sostituzione del font |
+| substRule | [IFontSubstRule](../../com.aspose.slides/ifontsubstrule) | Informazioni sulla sostituzione del font |
 
 ### replaceFont(IFontSubstRuleCollection substRules) {#replaceFont-com.aspose.slides.IFontSubstRuleCollection-}
 ```
 public final void replaceFont(IFontSubstRuleCollection substRules)
 ```
 
-Sostituisce il font nella presentazione usando le informazioni fornite nella collezione di [FontSubstRule](../../com.aspose.slides/fontsubstrule)
+Sostituisci il font nella presentazione usando le informazioni fornite nella raccolta di [FontSubstRule](../../com.aspose.slides/fontsubstrule)
 
 **Parametri:**
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| substRules | [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection) | Collezione di regole di sostituzione del font |
+| substRules | [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection) | Raccolta di regole di sostituzione del font |
 
 ### getFontBytes(IFontData fontData, int fontStyle) {#getFontBytes-com.aspose.slides.IFontData-int-}
 ```
 public final byte[] getFontBytes(IFontData fontData, int fontStyle)
 ```
 
-Recupera l'array di byte che rappresenta i dati del font per uno stile di font e dati del font specificati.
+Recupera l'array di byte che rappresenta i dati del font per uno stile di font specificato e i dati del font.
 
 --------------------
 
@@ -327,35 +373,35 @@ Recupera l'array di byte che rappresenta i dati del font per uno stile di font e
 >  try {
 >      // Recupera tutti i font utilizzati nella presentazione
 >      IFontData[] fonts = pres.getFontsManager().getFonts();
->      // Ottieni l'array di byte che rappresenta lo stile regular del primo font nella presentazione
+>      // Ottieni l'array di byte che rappresenta lo stile Regular del primo font nella presentazione
 >      byte[] fontBytes = pres.getFontsManager().getFontBytes(fonts[0], FontStyleType.Regular);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
 > ```
 
+
 **Parametri:**
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| fontData | [IFontData](../../com.aspose.slides/ifontdata) | L'oggetto dei dati del font contenente le informazioni sul font [IFontData](../../com.aspose.slides/ifontdata). |
-| fontStyle | int | Lo stile del font per il quale i dati devono essere recuperati [FontStyleType](../../com.aspose.slides/fontstyletype). |
+| fontData | [IFontData](../../com.aspose.slides/ifontdata) | L'oggetto dati del font contenente le informazioni sul font [IFontData](../../com.aspose.slides/ifontdata). |
+| fontStyle | int | Lo stile del font per il quale devono essere recuperati i dati [FontStyleType](../../com.aspose.slides/fontstyletype). |
 
 **Restituisce:**
-byte[] - Un array di byte contenente i dati del font per lo stile di font specificato. Se i dati del font o lo stile non vengono trovati, restituisce null.
-
+byte[] - Un array di byte contenente i dati del font per lo stile specificato. Se i dati del font o lo stile non sono trovati, restituisce null.
 ### getFontEmbeddingLevel(byte[] fontBytes, String fontName) {#getFontEmbeddingLevel-byte---java.lang.String-}
 ```
 public final int getFontEmbeddingLevel(byte[] fontBytes, String fontName)
 ```
 
-Determina il livello di incorporamento di un font dall'array di byte e dal nome del font forniti.
+Determina il livello di incorporamento di un font dall'array di byte fornito e dal nome del font.
 
 --------------------
 
 > ```
 > Presentation pres = new Presentation(pptxFileName);
 >  try {
->      // Recupera tutti i font utilizzati nella presentazione
+>      // Recupera tutti i font usati nella presentazione
 >      IFontData[] fontDatas = pres.getFontsManager().getFonts();
 >      // Ottieni l'array di byte che rappresenta lo stile regular del primo font nella presentazione
 >      byte[] bytes = pres.getFontsManager().getFontBytes(fontDatas[0], FontStyle.Regular);
@@ -365,6 +411,7 @@ Determina il livello di incorporamento di un font dall'array di byte e dal nome 
 >      if (pres != null) pres.dispose();
 >  }
 > ```
+
 
 **Parametri:**
 | Parametro | Tipo | Descrizione |

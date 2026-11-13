@@ -14,38 +14,40 @@ java.lang.Object, [com.aspose.slides.Shape](../../com.aspose.slides/shape), [com
 public class VideoFrame extends PictureFrame implements IVideoFrame
 ```
 
-Đại diện cho một đoạn video trên slide.
+Biểu diễn một đoạn video trên slide.
 ## Phương thức
 
 | Phương thức | Mô tả |
 | --- | --- |
-| [getRewindVideo()](#getRewindVideo--) | Xác định liệu video có được tự động tua lại về đầu khi phim đã phát xong hay không. |
-| [setRewindVideo(boolean value)](#setRewindVideo-boolean-) | Xác định liệu video có được tự động tua lại về đầu khi phim đã phát xong hay không. |
-| [getPlayLoopMode()](#getPlayLoopMode--) | Xác định liệu video có được lặp lại hay không. |
-| [setPlayLoopMode(boolean value)](#setPlayLoopMode-boolean-) | Xác định liệu video có được lặp lại hay không. |
-| [getHideAtShowing()](#getHideAtShowing--) | Xác định liệu VideoFrame có bị ẩn hay không. |
-| [setHideAtShowing(boolean value)](#setHideAtShowing-boolean-) | Xác định liệu VideoFrame có bị ẩn hay không. |
+| [getRewindVideo()](#getRewindVideo--) | Xác định xem video có được tự động tua lại về đầu khi phim đã phát xong hay không. |
+| [setRewindVideo(boolean value)](#setRewindVideo-boolean-) | Xác định xem video có được tự động tua lại về đầu khi phim đã phát xong hay không. |
+| [getPlayLoopMode()](#getPlayLoopMode--) | Xác định xem video có được phát vòng lặp hay không. |
+| [setPlayLoopMode(boolean value)](#setPlayLoopMode-boolean-) | Xác định xem video có được phát vòng lặp hay không. |
+| [getHideAtShowing()](#getHideAtShowing--) | Xác định xem VideoFrame có bị ẩn hay không. |
+| [setHideAtShowing(boolean value)](#setHideAtShowing-boolean-) | Xác định xem VideoFrame có bị ẩn hay không. |
 | [getVolume()](#getVolume--) | Trả về hoặc đặt âm lượng âm thanh. |
 | [setVolume(int value)](#setVolume-int-) | Trả về hoặc đặt âm lượng âm thanh. |
+| [getVolumeValue()](#getVolumeValue--) | Trả về hoặc đặt âm lượng video chính xác dưới dạng phần trăm. |
+| [setVolumeValue(float value)](#setVolumeValue-float-) | Trả về hoặc đặt âm lượng video chính xác dưới dạng phần trăm. |
 | [getPlayMode()](#getPlayMode--) | Trả về hoặc đặt chế độ phát video. |
 | [setPlayMode(int value)](#setPlayMode-int-) | Trả về hoặc đặt chế độ phát video. |
-| [getFullScreenMode()](#getFullScreenMode--) | Xác định liệu video có được hiển thị ở chế độ toàn màn hình hay không. |
-| [setFullScreenMode(boolean value)](#setFullScreenMode-boolean-) | Xác định liệu video có được hiển thị ở chế độ toàn màn hình hay không. |
-| [getLinkPathLong()](#getLinkPathLong--) | Trả về hoặc đặt tên của một tệp video được liên kết với VideoFrame. |
-| [setLinkPathLong(String value)](#setLinkPathLong-java.lang.String-) | Trả về hoặc đặt tên của một tệp video được liên kết với VideoFrame. |
+| [getFullScreenMode()](#getFullScreenMode--) | Xác định xem video có được hiển thị ở chế độ toàn màn hình hay không. |
+| [setFullScreenMode(boolean value)](#setFullScreenMode-boolean-) | Xác định xem video có được hiển thị ở chế độ toàn màn hình hay không. |
+| [getLinkPathLong()](#getLinkPathLong--) | Trả về hoặc đặt tên của tệp video được liên kết với VideoFrame. |
+| [setLinkPathLong(String value)](#setLinkPathLong-java.lang.String-) | Trả về hoặc đặt tên của tệp video được liên kết với VideoFrame. |
 | [getEmbeddedVideo()](#getEmbeddedVideo--) | Trả về hoặc đặt đối tượng video nhúng. |
 | [setEmbeddedVideo(IVideo value)](#setEmbeddedVideo-com.aspose.slides.IVideo-) | Trả về hoặc đặt đối tượng video nhúng. |
 | [getTrimFromStart()](#getTrimFromStart--) | Cắt đầu [ms] |
 | [setTrimFromStart(float value)](#setTrimFromStart-float-) | Cắt đầu [ms] |
 | [getTrimFromEnd()](#getTrimFromEnd--) | Cắt kết thúc [ms] |
 | [setTrimFromEnd(float value)](#setTrimFromEnd-float-) | Cắt kết thúc [ms] |
-| [getCaptionTracks()](#getCaptionTracks--) | Lấy tập hợp các phụ đề đóng (closed captions) liên quan tới khung video. |
+| [getCaptionTracks()](#getCaptionTracks--) | Lấy bộ sưu tập các phụ đề đóng liên quan đến video frame. |
 ### getRewindVideo() {#getRewindVideo--}
 ```
 public final boolean getRewindVideo()
 ```
 
-Xác định liệu video có được tự động tua lại về đầu khi phim đã phát xong hay không. Đọc/ghi boolean.
+Xác định xem video có được tự động tua lại về đầu khi phim đã phát xong hay không. Đọc/ghi boolean.
 
 **Trả về:**
 boolean
@@ -54,19 +56,18 @@ boolean
 public final void setRewindVideo(boolean value)
 ```
 
-Xác định liệu video có được tự động tua lại về đầu khi phim đã phát xong hay không. Đọc/ghi boolean.
+Xác định xem video có được tự động tua lại về đầu khi phim đã phát xong hay không. Đọc/ghi boolean.
 
 **Tham số:**
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | value | boolean |  |
-
 ### getPlayLoopMode() {#getPlayLoopMode--}
 ```
 public final boolean getPlayLoopMode()
 ```
 
-Xác định liệu video có được lặp lại hay không. Đọc/ghi boolean.
+Xác định xem video có được phát vòng lặp hay không. Đọc/ghi boolean.
 
 **Trả về:**
 boolean
@@ -75,19 +76,18 @@ boolean
 public final void setPlayLoopMode(boolean value)
 ```
 
-Xác định liệu video có được lặp lại hay không. Đọc/ghi boolean.
+Xác định xem video có được phát vòng lặp hay không. Đọc/ghi boolean.
 
 **Tham số:**
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | value | boolean |  |
-
 ### getHideAtShowing() {#getHideAtShowing--}
 ```
 public final boolean getHideAtShowing()
 ```
 
-Xác định liệu VideoFrame có bị ẩn hay không. Đọc/ghi boolean.
+Xác định xem VideoFrame có bị ẩn hay không. Đọc/ghi boolean.
 
 **Trả về:**
 boolean
@@ -96,13 +96,12 @@ boolean
 public final void setHideAtShowing(boolean value)
 ```
 
-Xác định liệu VideoFrame có bị ẩn hay không. Đọc/ghi boolean.
+Xác định xem VideoFrame có bị ẩn hay không. Đọc/ghi boolean.
 
 **Tham số:**
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | value | boolean |  |
-
 ### getVolume() {#getVolume--}
 ```
 public final int getVolume()
@@ -123,7 +122,62 @@ Trả về hoặc đặt âm lượng âm thanh. Đọc/ghi [AudioVolumeMode](..
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | value | int |  |
+### getVolumeValue() {#getVolumeValue--}
+```
+public final float getVolumeValue()
+```
 
+Trả về hoặc đặt âm lượng video chính xác dưới dạng phần trăm. Giá trị được diễn đạt dưới dạng phần trăm từ 0 đến 100. Sử dụng thuộc tính này để đọc hoặc đặt giá trị âm lượng chi tiết hơn mức độ đã định sẵn thông qua thuộc tính \#getVolume.getVolume/\#setVolume(int).setVolume(int). Đọc/ghi float.
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video.pptx");
+>  try {
+>      IVideoFrame videoFrame = (IVideoFrame)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // Đọc âm lượng chính xác hiện tại và đặt nó ở mức 75.5 phần trăm.
+>      float currentVolume = videoFrame.getVolumeValue();
+>      System.out.println(currentVolume);
+>      videoFrame.setVolumeValue(75.5f);
+>      pres.save("video_with_volume.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Trả về:**
+float
+### setVolumeValue(float value) {#setVolumeValue-float-}
+```
+public final void setVolumeValue(float value)
+```
+
+Trả về hoặc đặt âm lượng video chính xác dưới dạng phần trăm. Giá trị được diễn đạt dưới dạng phần trăm từ 0 đến 100. Sử dụng thuộc tính này để đọc hoặc đặt giá trị âm lượng chi tiết hơn mức độ đã định sẵn thông qua thuộc tính \#getVolume.getVolume/\#setVolume(int).setVolume(int). Đọc/ghi float.
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video.pptx");
+>  try {
+>      IVideoFrame videoFrame = (IVideoFrame)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // Đọc âm lượng chính xác hiện tại và đặt nó ở mức 75.5 phần trăm.
+>      float currentVolume = videoFrame.getVolumeValue();
+>      System.out.println(currentVolume);
+>      videoFrame.setVolumeValue(75.5f);
+>      pres.save("video_with_volume.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Tham số:**
+| Tham số | Kiểu | Mô tả |
+| --- | --- | --- |
+| value | float |  |
 ### getPlayMode() {#getPlayMode--}
 ```
 public final int getPlayMode()
@@ -144,13 +198,12 @@ Trả về hoặc đặt chế độ phát video. Đọc/ghi [VideoPlayModePrese
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | value | int |  |
-
 ### getFullScreenMode() {#getFullScreenMode--}
 ```
 public final boolean getFullScreenMode()
 ```
 
-Xác định liệu video có được hiển thị ở chế độ toàn màn hình hay không. Đọc/ghi boolean.
+Xác định xem video có được hiển thị ở chế độ toàn màn hình hay không. Đọc/ghi boolean.
 
 **Trả về:**
 boolean
@@ -159,19 +212,18 @@ boolean
 public final void setFullScreenMode(boolean value)
 ```
 
-Xác định liệu video có được hiển thị ở chế độ toàn màn hình hay không. Đọc/ghi boolean.
+Xác định xem video có được hiển thị ở chế độ toàn màn hình hay không. Đọc/ghi boolean.
 
 **Tham số:**
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | value | boolean |  |
-
 ### getLinkPathLong() {#getLinkPathLong--}
 ```
 public final String getLinkPathLong()
 ```
 
-Trả về hoặc đặt tên của một tệp video được liên kết với VideoFrame. Đọc/ghi String.
+Trả về hoặc đặt tên của tệp video được liên kết với VideoFrame. Đọc/ghi String.
 
 **Trả về:**
 java.lang.String
@@ -180,13 +232,12 @@ java.lang.String
 public final void setLinkPathLong(String value)
 ```
 
-Trả về hoặc đặt tên của một tệp video được liên kết với VideoFrame. Đọc/ghi String.
+Trả về hoặc đặt tên của tệp video được liên kết với VideoFrame. Đọc/ghi String.
 
 **Tham số:**
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | value | java.lang.String |  |
-
 ### getEmbeddedVideo() {#getEmbeddedVideo--}
 ```
 public final IVideo getEmbeddedVideo()
@@ -207,7 +258,6 @@ Trả về hoặc đặt đối tượng video nhúng. Đọc/ghi [IVideo](../..
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | value | [IVideo](../../com.aspose.slides/ivideo) |  |
-
 ### getTrimFromStart() {#getTrimFromStart--}
 ```
 public final float getTrimFromStart()
@@ -233,7 +283,6 @@ Cắt đầu [ms]
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-
 
 **Trả về:**
 float
@@ -263,12 +312,10 @@ Cắt đầu [ms]
 >  }
 > ```
 
-
 **Tham số:**
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | value | float |  |
-
 ### getTrimFromEnd() {#getTrimFromEnd--}
 ```
 public final float getTrimFromEnd()
@@ -289,13 +336,12 @@ Cắt kết thúc [ms]
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | value | float |  |
-
 ### getCaptionTracks() {#getCaptionTracks--}
 ```
 public final ICaptionsCollection getCaptionTracks()
 ```
 
-Lấy tập hợp các phụ đề đóng (closed captions) liên quan tới khung video. Thuộc tính này chỉ đọc và trả về một [ICaptionsCollection](../../com.aspose.slides/icaptionscollection) chứa tất cả các đoạn caption track.
+Lấy bộ sưu tập các phụ đề đóng liên quan đến video frame. Thuộc tính này chỉ đọc và trả về một [ICaptionsCollection](../../com.aspose.slides/icaptionscollection) chứa tất cả các track phụ đề.
 
 --------------------
 
@@ -321,7 +367,6 @@ Lấy tập hợp các phụ đề đóng (closed captions) liên quan tới khu
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-
 
 **Trả về:**
 [ICaptionsCollection](../../com.aspose.slides/icaptionscollection)

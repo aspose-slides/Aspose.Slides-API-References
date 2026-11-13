@@ -1,52 +1,56 @@
 ---
 title: IChartDataPoint
-second_title: Aspose.Slides για Java Αναφορά API
+second_title: Αναφορά API του Aspose.Slides για Java
 description: Αναπαριστά σημείο δεδομένων σειράς.
 type: docs
 url: /el/com.aspose.slides/ichartdatapoint/
 ---
-**Όλες οι Υλοποιημένες Διεπαφές:**
+**Όλες οι Υλοποιημένες Διασυνδέσεις:**
 [com.aspose.slides.IActualLayout](../../com.aspose.slides/iactuallayout)
 ```
 public interface IChartDataPoint extends IActualLayout
 ```
 
-Αναπαριστά σημείο δεδομένων σειράς.
+Αναπαριστά το σημείο δεδομένων σειράς.
 ## Μέθοδοι
 
 | Μέθοδος | Περιγραφή |
 | --- | --- |
-| [getXValue()](#getXValue--) | Επιστρέφει την τιμή x του σημείου δεδομένων διαγράμματος. |
-| [getYValue()](#getYValue--) | Επιστρέφει την τιμή y του σημείου δεδομένων διαγράμματος. |
-| [getBubbleSize()](#getBubbleSize--) | Επιστρέφει το μέγεθος φυσαλίδας του σημείου δεδομένων διαγράμματος. |
-| [getValue()](#getValue--) | Επιστρέφει την τιμή του σημείου δεδομένων διαγράμματος. |
-| [getSizeValue()](#getSizeValue--) | Επιστρέφει τη μέτρηση μεγέθους του σημείου δεδομένων διαγράμματος. |
-| [getColorValue()](#getColorValue--) | Επιστρέφει την τιμή χρώματος του σημείου δεδομένων διαγράμματος. |
-| [getErrorBarsCustomValues()](#getErrorBarsCustomValues--) | Αναπαριστά τιμές γραμμών σφαλμάτων σειράς στην περίπτωση τύπου Custom. |
+| [getXValue()](#getXValue--) | Επιστρέφει την τιμή x ενός σημείου δεδομένων διαγράμματος. |
+| [getYValue()](#getYValue--) | Επιστρέφει την τιμή y ενός σημείου δεδομένων διαγράμματος. |
+| [getBubbleSize()](#getBubbleSize--) | Επιστρέφει το μέγεθος της φούσκας ενός σημείου δεδομένων διαγράμματος. |
+| [getValue()](#getValue--) | Επιστρέφει την τιμή ενός σημείου δεδομένων διαγράμματος. |
+| [getCachedXValue()](#getCachedXValue--) | Επιστρέφει την αποθηκευμένη τιμή X ενός σημείου δεδομένων διαγράμματος. |
+| [getCachedYValue()](#getCachedYValue--) | Επιστρέφει την αποθηκευμένη τιμή Y ενός σημείου δεδομένων διαγράμματος. |
+| [getCachedValue()](#getCachedValue--) | Επιστρέφει την αποθηκευμένη τιμή ενός σημείου δεδομένων διαγράμματος. |
+| [getCachedBubbleSize()](#getCachedBubbleSize--) | Επιστρέφει το αποθηκευμένο μέγεθος φούσκας ενός σημείου δεδομένων διαγράμματος. |
+| [getSizeValue()](#getSizeValue--) | Επιστρέφει την τιμή μεγέθους ενός σημείου δεδομένων διαγράμματος. |
+| [getColorValue()](#getColorValue--) | Επιστρέφει την τιμή χρώματος ενός σημείου δεδομένων διαγράμματος. |
+| [getErrorBarsCustomValues()](#getErrorBarsCustomValues--) | Αναπαριστά τις τιμές των γραμμών σφάλματος σειράς στην περίπτωση τύπου προσαρμοσμένης τιμής. |
 | [getLabel()](#getLabel--) | Αναπαριστά την ετικέτα του σημείου δεδομένων διαγράμματος. |
-| [isBubble3D()](#isBubble3D--) | Καθορίζει ότι οι φυσαλίδες έχουν εφαρμοσμένο εφέ 3Δ. |
-| [setBubble3D(boolean value)](#setBubble3D-boolean-) | Καθορίζει ότι οι φυσαλίδες έχουν εφαρμοσμένο εφέ 3Δ. |
-| [getExplosion()](#getExplosion--) | Καθορίζει το ποσό με το οποίο το σημείο δεδομένων θα μετακινηθεί από το κέντρο του πίτας. |
-| [setExplosion(int value)](#setExplosion-int-) | Καθορίζει το ποσό με το οποίο το σημείο δεδομένων θα μετακινηθεί από το κέντρο του πίτας. |
+| [isBubble3D()](#isBubble3D--) | Καθορίζει ότι οι φούσκες έχουν εφαρμοσμένο εφέ 3Δ. |
+| [setBubble3D(boolean value)](#setBubble3D-boolean-) | Καθορίζει ότι οι φούσκες έχουν εφαρμοσμένο εφέ 3Δ. |
+| [getExplosion()](#getExplosion--) | Καθορίζει το ποσό κατά το οποίο το σημείο δεδομένων θα μετακινηθεί από το κέντρο του πίτα. |
+| [setExplosion(int value)](#setExplosion-int-) | Καθορίζει το ποσό κατά το οποίο το σημείο δεδομένων θα μετακινηθεί από το κέντρο του πίτα. |
 | [getFormat()](#getFormat--) | Αναπαριστά τις ιδιότητες μορφοποίησης. |
 | [setFormat(IFormat value)](#setFormat-com.aspose.slides.IFormat-) | Αναπαριστά τις ιδιότητες μορφοποίησης. |
-| [getMarker()](#getMarker--) | Καθορίζει μια ένδειξη δεδομένων. |
-| [remove()](#remove--) | Καταργεί το DataPoint από τη σειρά διαγράμματος. |
-| [getAutomaticDataPointColor()](#getAutomaticDataPointColor--) | Επιστρέφει ένα αυτόματο χρώμα του σημείου δεδομένων βάσει δείκτη σειράς, δείκτη σημείου δεδομένων, ιδιότητας ParentSeriesGroup.IsColorVaried και στυλ διαγράμματος. |
-| [getRelatedLegendEntry()](#getRelatedLegendEntry--) | Ιδιότητες της αντίστοιχης εγγραφής υπομνήματος σε περίπτωση τύπου διαγράμματος από αυτή τη λίστα: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. |
+| [getMarker()](#getMarker--) | Καθορίζει έναν δείκτη δεδομένων. |
+| [remove()](#remove--) | Αφαιρεί το DataPoint από τη σειρά διαγράμματος. |
+| [getAutomaticDataPointColor()](#getAutomaticDataPointColor--) | Επιστρέφει ένα αυτόματο χρώμα του σημείου δεδομένων βάσει του δείκτη σειράς, του δείκτη σημείου δεδομένων, της ιδιότητας ParentSeriesGroup.IsColorVaried και του στυλ διαγράμματος. |
+| [getRelatedLegendEntry()](#getRelatedLegendEntry--) | Ιδιότητες του αντίστοιχου καταχώρησης υπομνήματος στην περίπτωση τύπου διαγράμματος από αυτή τη λίστα: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. |
 | [getSetAsTotal()](#getSetAsTotal--) | Ορίζει το σημείο δεδομένων ως σύνολο. |
 | [setSetAsTotal(boolean value)](#setSetAsTotal-boolean-) | Ορίζει το σημείο δεδομένων ως σύνολο. |
-| [getInvertIfNegative()](#getInvertIfNegative--) | Καθορίζει ότι το σημείο δεδομένων θα αντιστροφή των χρωμάτων του εάν η τιμή είναι αρνητική. |
-| [setInvertIfNegative(boolean value)](#setInvertIfNegative-boolean-) | Καθορίζει ότι το σημείο δεδομένων θα αντιστροφή των χρωμάτων του εάν η τιμή είναι αρνητική. |
-| [getDataPointLevels()](#getDataPointLevels--) | Επιστρέφει το κοντέινερ των επιπέδων του σημείου δεδομένων. |
+| [getInvertIfNegative()](#getInvertIfNegative--) | Καθορίζει ότι το σημείο δεδομένων θα αντιστρέψει τα χρώματά του εάν η τιμή είναι αρνητική. |
+| [setInvertIfNegative(boolean value)](#setInvertIfNegative-boolean-) | Καθορίζει ότι το σημείο δεδομένων θα αντιστρέψει τα χρώματά του εάν η τιμή είναι αρνητική. |
+| [getDataPointLevels()](#getDataPointLevels--) | Επιστρέφει το δοχείο των επιπέδων σημείου δεδομένων. |
 | [getIndex()](#getIndex--) | Καθορίζει σε ποια συλλογή παιδιών του γονέα εφαρμόζεται αυτό το σημείο δεδομένων. |
+
 ### getXValue() {#getXValue--}
 ```
 public abstract IStringOrDoubleChartValue getXValue()
 ```
 
-
-Επιστρέφει την τιμή x του σημείου δεδομένων διαγράμματος. Μόνο για ανάγνωση [IStringOrDoubleChartValue](../../com.aspose.slides/istringordoublechartvalue).
+Επιστρέφει την τιμή x ενός σημείου δεδομένων διαγράμματος. Μόνο για ανάγνωση [IStringOrDoubleChartValue](../../com.aspose.slides/istringordoublechartvalue).
 
 **Επιστρέφει:**
 [IStringOrDoubleChartValue](../../com.aspose.slides/istringordoublechartvalue)
@@ -55,8 +59,7 @@ public abstract IStringOrDoubleChartValue getXValue()
 public abstract IDoubleChartValue getYValue()
 ```
 
-
-Επιστρέφει την τιμή y του σημείου δεδομένων διαγράμματος. Μόνο για ανάγνωση [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
+Επιστρέφει την τιμή y ενός σημείου δεδομένων διαγράμματος. Μόνο για ανάγνωση [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
 **Επιστρέφει:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
@@ -65,8 +68,7 @@ public abstract IDoubleChartValue getYValue()
 public abstract IDoubleChartValue getBubbleSize()
 ```
 
-
-Επιστρέφει το μέγεθος φυσαλίδας του σημείου δεδομένων διαγράμματος. Μόνο για ανάγνωση [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
+Επιστρέφει το μέγεθος της φούσκας ενός σημείου δεδομένων διαγράμματος. Μόνο για ανάγνωση [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
 **Επιστρέφει:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
@@ -75,18 +77,121 @@ public abstract IDoubleChartValue getBubbleSize()
 public abstract IDoubleChartValue getValue()
 ```
 
-
-Επιστρέφει την τιμή του σημείου δεδομένων διαγράμματος. Μόνο για ανάγνωση [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
+Επιστρέφει την τιμή ενός σημείου δεδομένων διαγράμματος. Μόνο για ανάγνωση [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
 **Επιστρέφει:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
+### getCachedXValue() {#getCachedXValue--}
+```
+public abstract ICachedChartValue getCachedXValue()
+```
+
+Επιστρέφει την αποθηκευμένη τιμή X ενός σημείου δεδομένων διαγράμματος. Μόνο για ανάγνωση [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // Εκτυπώνει όλες τις αποθηκευμένες τιμές X της σειράς διαγράμματος.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedXValue().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Επιστρέφει:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
+### getCachedYValue() {#getCachedYValue--}
+```
+public abstract ICachedChartValue getCachedYValue()
+```
+
+Επιστρέφει την αποθηκευμένη τιμή Y ενός σημείου δεδομένων διαγράμματος. Μόνο για ανάγνωση [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // Εκτυπώνει όλες τις αποθηκευμένες τιμές Y της σειράς διαγράμματος.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedYValue().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Επιστρέφει:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
+### getCachedValue() {#getCachedValue--}
+```
+public abstract ICachedChartValue getCachedValue()
+```
+
+Επιστρέφει την αποθηκευμένη τιμή ενός σημείου δεδομένων διαγράμματος. Μόνο για ανάγνωση [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // Εκτυπώνει όλες τις αποθηκευμένες τιμές της σειράς διαγράμματος.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedValue().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Επιστρέφει:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
+### getCachedBubbleSize() {#getCachedBubbleSize--}
+```
+public abstract ICachedChartValue getCachedBubbleSize()
+```
+
+Επιστρέφει το αποθηκευμένο μέγεθος φούσκας ενός σημείου δεδομένων διαγράμματος. Μόνο για ανάγνωση [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // Εκτυπώνει όλες τις αποθηκευμένες τιμές μεγέθους φούσκας της σειράς διαγράμματος.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedBubbleSize().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Επιστρέφει:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
 ### getSizeValue() {#getSizeValue--}
 ```
 public abstract IDoubleChartValue getSizeValue()
 ```
 
-
-Επιστρέφει τη μέτρηση μεγέθους του σημείου δεδομένων διαγράμματος. Χρησιμοποιείται με διαγράμματα Treemap και Sunburst. Μόνο για ανάγνωση [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
+Επιστρέφει την τιμή μεγέθους ενός σημείου δεδομένων διαγράμματος. Χρησιμοποιείται σε διαγράμματα Treemap και Sunburst. Μόνο για ανάγνωση [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
 **Επιστρέφει:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
@@ -95,8 +200,7 @@ public abstract IDoubleChartValue getSizeValue()
 public abstract IDoubleChartValue getColorValue()
 ```
 
-
-Επιστρέφει την τιμή χρώματος του σημείου δεδομένων διαγράμματος. Χρησιμοποιείται με διαγράμματα Map. Μόνο για ανάγνωση [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
+Επιστρέφει την τιμή χρώματος ενός σημείου δεδομένων διαγράμματος. Χρησιμοποιείται σε διαγράμματα χάρτη. Μόνο για ανάγνωση [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
 **Επιστρέφει:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
@@ -105,8 +209,7 @@ public abstract IDoubleChartValue getColorValue()
 public abstract IErrorBarsCustomValues getErrorBarsCustomValues()
 ```
 
-
-Αναπαριστά τιμές γραμμών σφαλμάτων σειράς στην περίπτωση τύπου Custom. Μόνο για ανάγνωση [IErrorBarsCustomValues](../../com.aspose.slides/ierrorbarscustomvalues).
+Αναπαριστά τις τιμές των γραμμών σφάλματος σειράς στην περίπτωση τύπου προσαρμοσμένης τιμής. Μόνο για ανάγνωση [IErrorBarsCustomValues](../../com.aspose.slides/ierrorbarscustomvalues).
 
 **Επιστρέφει:**
 [IErrorBarsCustomValues](../../com.aspose.slides/ierrorbarscustomvalues)
@@ -114,7 +217,6 @@ public abstract IErrorBarsCustomValues getErrorBarsCustomValues()
 ```
 public abstract IDataLabel getLabel()
 ```
-
 
 Αναπαριστά την ετικέτα του σημείου δεδομένων διαγράμματος. Μόνο για ανάγνωση [IDataLabel](../../com.aspose.slides/idatalabel).
 
@@ -125,8 +227,7 @@ public abstract IDataLabel getLabel()
 public abstract boolean isBubble3D()
 ```
 
-
-Καθορίζει ότι οι φυσαλίδες έχουν εφαρμοσμένο εφέ 3Δ. Ανάγνωση/εγγραφή boolean.
+Καθορίζει ότι οι φούσκες έχουν εφαρμοσμένο εφέ 3Δ. Ανάγνωση/εγγραφή boolean.
 
 **Επιστρέφει:**
 boolean
@@ -135,8 +236,7 @@ boolean
 public abstract void setBubble3D(boolean value)
 ```
 
-
-Καθορίζει ότι οι φυσαλίδες έχουν εφαρμοσμένο εφέ 3Δ. Ανάγνωση/εγγραφή boolean.
+Καθορίζει ότι οι φούσκες έχουν εφαρμοσμένο εφέ 3Δ. Ανάγνωση/εγγραφή boolean.
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
@@ -148,8 +248,7 @@ public abstract void setBubble3D(boolean value)
 public abstract int getExplosion()
 ```
 
-
-Καθορίζει το ποσό με το οποίο το σημείο δεδομένων θα μετακινηθεί από το κέντρο του πίτας. Ανάγνωση/εγγραφή int.
+Καθορίζει το ποσό κατά το οποίο το σημείο δεδομένων θα μετακινηθεί από το κέντρο του πίτα. Ανάγνωση/εγγραφή int.
 
 **Επιστρέφει:**
 int
@@ -158,8 +257,7 @@ int
 public abstract void setExplosion(int value)
 ```
 
-
-Καθορίζει το ποσό με το οποίο το σημείο δεδομένων θα μετακινηθεί από το κέντρο του πίτας. Ανάγνωση/εγγραφή int.
+Καθορίζει το ποσό κατά το οποίο το σημείο δεδομένων θα μετακινηθεί από το κέντρο του πίτα. Ανάγνωση/εγγραφή int.
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
@@ -171,7 +269,6 @@ public abstract void setExplosion(int value)
 public abstract IFormat getFormat()
 ```
 
-
 Αναπαριστά τις ιδιότητες μορφοποίησης. Ανάγνωση/εγγραφή [IFormat](../../com.aspose.slides/iformat).
 
 **Επιστρέφει:**
@@ -180,7 +277,6 @@ public abstract IFormat getFormat()
 ```
 public abstract void setFormat(IFormat value)
 ```
-
 
 Αναπαριστά τις ιδιότητες μορφοποίησης. Ανάγνωση/εγγραφή [IFormat](../../com.aspose.slides/iformat).
 
@@ -194,8 +290,7 @@ public abstract void setFormat(IFormat value)
 public abstract IMarker getMarker()
 ```
 
-
-Καθορίζει μια ένδειξη δεδομένων. Μόνο για ανάγνωση [IMarker](../../com.aspose.slides/imarker).
+Καθορίζει έναν δείκτη δεδομένων. Μόνο για ανάγνωση [IMarker](../../com.aspose.slides/imarker).
 
 **Επιστρέφει:**
 [IMarker](../../com.aspose.slides/imarker)
@@ -204,16 +299,14 @@ public abstract IMarker getMarker()
 public abstract void remove()
 ```
 
-
-Καταργεί το DataPoint από τη σειρά διαγράμματος.
+Αφαιρεί το DataPoint από τη σειρά διαγράμματος.
 
 ### getAutomaticDataPointColor() {#getAutomaticDataPointColor--}
 ```
 public abstract Color getAutomaticDataPointColor()
 ```
 
-
-Επιστρέφει ένα αυτόματο χρώμα του σημείου δεδομένων βάσει δείκτη σειράς, δείκτη σημείου δεδομένων, ιδιότητας ParentSeriesGroup.IsColorVaried και στυλ διαγράμματος. Αυτό το χρώμα χρησιμοποιείται εξ' όρισμα εάν το FillType ισούται με NotDefined.
+Επιστρέφει ένα αυτόματο χρώμα του σημείου δεδομένων βάσει του δείκτη σειράς, του δείκτη σημείου δεδομένων, της ιδιότητας ParentSeriesGroup.IsColorVaried και του στυλ διαγράμματος. Αυτό το χρώμα χρησιμοποιείται εξ ορισμού εάν το FillType είναι NotDefined.
 
 **Επιστρέφει:**
 java.awt.Color - Automatic color of data point java.awt.Color
@@ -222,8 +315,7 @@ java.awt.Color - Automatic color of data point java.awt.Color
 public abstract ILegendEntryProperties getRelatedLegendEntry()
 ```
 
-
-Ιδιότητες της αντίστοιχης εγγραφής υπομνήματος σε περίπτωση τύπου διαγράμματος από αυτή τη λίστα: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Μόνο για ανάγνωση [ILegendEntryProperties](../../com.aspose.slides/ilegendentryproperties).
+Ιδιότητες του αντίστοιχου καταχώρησης υπομνήματος στην περίπτωση τύπου διαγράμματος από αυτή τη λίστα: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Μόνο για ανάγνωση [ILegendEntryProperties](../../com.aspose.slides/ilegendentryproperties).
 
 **Επιστρέφει:**
 [ILegendEntryProperties](../../com.aspose.slides/ilegendentryproperties)
@@ -231,7 +323,6 @@ public abstract ILegendEntryProperties getRelatedLegendEntry()
 ```
 public abstract boolean getSetAsTotal()
 ```
-
 
 Ορίζει το σημείο δεδομένων ως σύνολο. Εφαρμόζεται μόνο για τύπο σειράς Waterfall.
 
@@ -241,7 +332,6 @@ boolean
 ```
 public abstract void setSetAsTotal(boolean value)
 ```
-
 
 Ορίζει το σημείο δεδομένων ως σύνολο. Εφαρμόζεται μόνο για τύπο σειράς Waterfall.
 
@@ -255,8 +345,7 @@ public abstract void setSetAsTotal(boolean value)
 public abstract boolean getInvertIfNegative()
 ```
 
-
-Καθορίζει ότι το σημείο δεδομένων θα αντιστροφή των χρωμάτων του εάν η τιμή είναι αρνητική. Ανάγνωση/εγγραφή boolean.
+Καθορίζει ότι το σημείο δεδομένων θα αντιστρέψει τα χρώματά του εάν η τιμή είναι αρνητική. Ανάγνωση/εγγραφή boolean.
 
 **Επιστρέφει:**
 boolean
@@ -265,8 +354,7 @@ boolean
 public abstract void setInvertIfNegative(boolean value)
 ```
 
-
-Καθορίζει ότι το σημείο δεδομένων θα αντιστροφή των χρωμάτων του εάν η τιμή είναι αρνητική. Ανάγνωση/εγγραφή boolean.
+Καθορίζει ότι το σημείο δεδομένων θα αντιστρέψει τα χρώματά του εάν η τιμή είναι αρνητική. Ανάγνωση/εγγραφή boolean.
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
@@ -278,8 +366,7 @@ public abstract void setInvertIfNegative(boolean value)
 public abstract IChartDataPointLevelsManager getDataPointLevels()
 ```
 
-
-Επιστρέφει το κοντέινερ των επιπέδων του σημείου δεδομένων. Εφαρμόζεται για σειρές Treeamp και Sunburst. Η αρίθμηση επιπέδων σημείου δεδομένων είναι μηδενική.
+Επιστρέφει το δοχείο των επιπέδων σημείου δεδομένων. Εφαρμόζεται για σειρές Treeamp και Sunburst. Η αρίθμηση των επιπέδων σημείου δεδομένων ξεκινά από το μηδέν.
 
 **Επιστρέφει:**
 [IChartDataPointLevelsManager](../../com.aspose.slides/ichartdatapointlevelsmanager)
@@ -288,8 +375,7 @@ public abstract IChartDataPointLevelsManager getDataPointLevels()
 public abstract long getIndex()
 ```
 
-
-Καθορίζει σε ποια συλλογή παιδιών του γονέα εφαρμόζεται αυτό το σημείο δεδομένων. Ανάγνωση long.
+Καθορίζει σε ποια συλλογή παιδιών του γονέα εφαρμόζεται αυτό το σημείο δεδομένων. Μόνο για ανάγνωση long.
 
 **Επιστρέφει:**
 long

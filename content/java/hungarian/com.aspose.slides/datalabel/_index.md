@@ -1,6 +1,6 @@
 ---
 title: DataLabel
-second_title: Aspose.Slides Java API Referencia
+second_title: Aspose.Slides Java API referencia
 description: Sorozat címkéket képvisel.
 type: docs
 url: /hu/com.aspose.slides/datalabel/
@@ -8,55 +8,58 @@ url: /hu/com.aspose.slides/datalabel/
 **Öröklés:**
 java.lang.Object
 
-**Minden megvalósított interfész:**
+**Az összes megvalósított interfész:**
 [com.aspose.slides.IDataLabel](../../com.aspose.slides/idatalabel), com.aspose.slides.IDOMObject
 ```
 public class DataLabel implements IDataLabel, IDOMObject
 ```
 
-Egy sorozat címkéit képviseli.
+A sorozat címkéket képviseli.
 ## Konstruktorok
 
 | Konstruktor | Leírás |
 | --- | --- |
-| [DataLabel(IChartDataPoint parentImmediate)](#DataLabel-com.aspose.slides.IChartDataPoint-) | Létrehoz egy új DataLabel példányt. |
+| [DataLabel(IChartDataPoint parentImmediate)](#DataLabel-com.aspose.slides.IChartDataPoint-) | Létrehozza a DataLabel osztály egy új példányát. |
 ## Metódusok
 
 | Metódus | Leírás |
 | --- | --- |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
 | [getChart()](#getChart--) | Visszaadja a szülő diagramot. |
-| [isVisible()](#isVisible--) | A False azt jelenti, hogy a címke nem látható (és ezért az összes Show*-flag (ShowValue, …) hamis). |
-| [hide()](#hide--) | Elrejti a címkét az összes Show*-flag (ShowValue, …) hamis állapotra állításával. |
-| [getActualLabelText()](#getActualLabelText--) | Visszaadja a tényleges címkeszöveget a DataLabelFormat beállítások vagy a TextFrameForOverriding.Text érték alapján. |
-| [addTextFrameForOverriding(String text)](#addTextFrameForOverriding-java.lang.String-) | Inicializálja a TextFrameForOverriding-et a “text” paraméterben megadott szöveggel. |
+| [isVisible()](#isVisible--) | A hamis azt jelenti, hogy az adatel címke nem látható (és így minden Show*-jelző (ShowValue, ...) hamis). |
+| [hide()](#hide--) | Az adatel címkét rejtetté teszi az összes Show*-jelző (ShowValue, ...) hamis állapotúra állításával. |
+| [getActualLabelText()](#getActualLabelText--) | Visszaadja a címke tényleges szövegét a DataLabelFormat beállítások vagy a TextFrameForOverriding.Text érték alapján. |
+| [addTextFrameForOverriding(String text)](#addTextFrameForOverriding-java.lang.String-) | Inicializálja a TextFrameForOverriding-ot a "text" paraméterben megadott szöveggel. |
 | [getTextFrameForOverriding()](#getTextFrameForOverriding--) | Tartalmazhat gazdag formázott szöveget. |
 | [getTextFormat()](#getTextFormat--) | Visszaadja a szövegformátumot. |
-| [getX()](#getX--) | Visszaadja vagy beállítja a címke x koordinátáját a diagram szélességének hányadában. |
-| [setX(float value)](#setX-float-) | Visszaadja vagy beállítja a címke x koordinátáját a diagram szélességének hányadában. |
-| [getY()](#getY--) | Visszaadja vagy beállítja a címke y koordinátáját a diagram magasságának hányadában. |
-| [setY(float value)](#setY-float-) | Visszaadja vagy beállítja a címke y koordinátáját a diagram magasságának hányadában. |
-| [getWidth()](#getWidth--) | Visszaadja vagy beállítja a címke szélességét a diagram szélességének hányadában. |
-| [setWidth(float value)](#setWidth-float-) | Visszaadja vagy beállítja a címke szélességét a diagram szélességének hányadában. |
-| [getHeight()](#getHeight--) | Visszaadja vagy beállítja a címke magasságát a diagram magasságának hányadában. |
-| [setHeight(float value)](#setHeight-float-) | Visszaadja vagy beállítja a címke magasságát a diagram magasságának hányadában. |
+| [getX()](#getX--) | Visszaadja vagy beállítja a cím X koordinátáját a diagram szélességének hányadában. |
+| [setX(float value)](#setX-float-) | Visszaadja vagy beállítja a cím X koordinátáját a diagram szélességének hányadában. |
+| [getY()](#getY--) | Visszaadja vagy beállítja a cím Y koordinátáját a diagram magasságának hányadában. |
+| [setY(float value)](#setY-float-) | Visszaadja vagy beállítja a cím Y koordinátáját a diagram magasságának hányadában. |
+| [getWidth()](#getWidth--) | Visszaadja vagy beállítja a cím szélességét a diagram szélességének hányadában. |
+| [setWidth(float value)](#setWidth-float-) | Visszaadja vagy beállítja a cím szélességét a diagram szélességének hányadában. |
+| [getHeight()](#getHeight--) | Visszaadja vagy beállítja a cím magasságát a diagram magasságának hányadában. |
+| [setHeight(float value)](#setHeight-float-) | Visszaadja vagy beállítja a cím magasságát a diagram magasságának hányadában. |
 | [getRight()](#getRight--) | Jobb. |
-| [getBottom()](#getBottom--) | Alul. |
-| [getDataLabelFormat()](#getDataLabelFormat--) | Visszaadja a címkeformátumot. |
+| [getBottom()](#getBottom--) | Alsó. |
+| [getDataLabelFormat()](#getDataLabelFormat--) | Visszaadja az adatel címke formátumát. |
 | [getValueFromCell()](#getValueFromCell--) | Lekéri vagy beállítja a munkafüzet adatcelláját. |
 | [setValueFromCell(IChartDataCell value)](#setValueFromCell-com.aspose.slides.IChartDataCell-) | Lekéri vagy beállítja a munkafüzet adatcelláját. |
-| [getActualX()](#getActualX--) | Meghatározza a diagram elem tényleges x helyzetét (bal) a diagram bal felső sarkához képest. |
-| [getActualY()](#getActualY--) | Meghatározza a diagram elem tényleges felső pozícióját a diagram bal felső sarkához képest. |
-| [getActualWidth()](#getActualWidth--) | Meghatározza a diagram elem tényleges szélességét. |
-| [getActualHeight()](#getActualHeight--) | Meghatározza a diagram elem tényleges magasságát. |
-| [getSlide()](#getSlide--) | Visszaadja a FillFormat szülő diát. |
+| [getLabelShapeType()](#getLabelShapeType--) | Lekéri vagy beállítja az adatel címke alakzat típusát. |
+| [setLabelShapeType(int value)](#setLabelShapeType-int-) | Lekéri vagy beállítja az adatel címke alakzat típusát. |
+| [getActualX()](#getActualX--) | Megadja a diagram elem tényleges X helyét (bal), a diagram bal felső sarkához képest. |
+| [getActualY()](#getActualY--) | Megadja a diagram elem tényleges tetejét a diagram bal felső sarkához képest. |
+| [getActualWidth()](#getActualWidth--) | Megadja a diagram elem tényleges szélességét. |
+| [getActualHeight()](#getActualHeight--) | Megadja a diagram elem tényleges magasságát. |
+| [getSlide()](#getSlide--) | Visszaadja a FillFormat szülő diaját. |
 | [getPresentation()](#getPresentation--) | Visszaadja a FillFormat szülő prezentációját. |
 ### DataLabel(IChartDataPoint parentImmediate) {#DataLabel-com.aspose.slides.IChartDataPoint-}
 ```
 public DataLabel(IChartDataPoint parentImmediate)
 ```
 
-Létrehoz egy új DataLabel példányt.
+
+Létrehozza a DataLabel osztály egy új példányát.
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
@@ -68,6 +71,7 @@ Létrehoz egy új DataLabel példányt.
 public final IDOMObject getParent_Immediate()
 ```
 
+
 Visszaadja a Parent_Immediate objektumot. Csak olvasható IDOMObject.
 
 **Visszatérési érték:**
@@ -76,6 +80,7 @@ com.aspose.slides.IDOMObject
 ```
 public final IChart getChart()
 ```
+
 
 Visszaadja a szülő diagramot. Csak olvasható [IChart](../../com.aspose.slides/ichart).
 
@@ -86,11 +91,12 @@ Visszaadja a szülő diagramot. Csak olvasható [IChart](../../com.aspose.slides
 public final boolean isVisible()
 ```
 
-A False azt jelenti, hogy a címke nem látható (és ezért az összes Show*-flag (ShowValue, …) hamis). Csak olvasható boolean.
+
+A hamis azt jelenti, hogy az adatel címke nem látható (és így minden Show*-jelző (ShowValue, ...) hamis). Csak olvasható boolean.
 
 --------------------
 
-Ha a címke látható, a Hide() metódussal elrejthető. Ha a címke nem látható (IsVisible hamis), a Show*-flag-ek (ShowValue, …) true állapotra állításával láthatóvá tehető.
+Ha az adatel címke látható, elrejtheted a Hide() metódussal. Ha azonban az adatel címke nem látható (IsVisible hamis), láthatóvá teheted a Show*-jelzők (ShowValue, ...) true állapotra állításával.
 
 **Visszatérési érték:**
 boolean
@@ -99,32 +105,35 @@ boolean
 public final void hide()
 ```
 
-Elrejti a címkét az összes Show*-flag (ShowValue, …) hamis állapotra állításával. Az IsVisible ezután hamis lesz.
+
+Az adatel címkét rejtetté teszi az összes Show*-jelző (ShowValue, ...) hamis állapotúra állításával. Ennek hatására az IsVisible hamis lesz.
 
 --------------------
 
-Ha a címke nem látható (IsVisible hamis), a Show*-flag-ek (ShowValue, …) true állapotra állításával láthatóvá tehető.
+Ha az adatel címke nem látható (IsVisible hamis), láthatóvá teheted a Show*-jelzők (ShowValue, ...) true állapotra állításával.
 
 ### getActualLabelText() {#getActualLabelText--}
 ```
 public final String getActualLabelText()
 ```
 
-Visszaadja a tényleges címkeszöveget a DataLabelFormat beállítások vagy a TextFrameForOverriding.Text érték alapján.
+
+Visszaadja a címke tényleges szövegét a DataLabelFormat beállítások vagy a TextFrameForOverriding.Text érték alapján.
 
 **Visszatérési érték:**
-java.lang.String - The java.lang.String object.
+java.lang.String - A java.lang.String objektum.
 ### addTextFrameForOverriding(String text) {#addTextFrameForOverriding-java.lang.String-}
 ```
 public final ITextFrame addTextFrameForOverriding(String text)
 ```
 
-Inicializálja a TextFrameForOverriding-et a “text” paraméterben megadott szöveggel. Ha a TextFrameForOverriding már inicializálva van, egyszerűen megváltoztatja a szövegét.
+
+Inicializálja a TextFrameForOverriding-ot a "text" paraméterben megadott szöveggel. Ha a TextFrameForOverriding már inicializálva van, akkor egyszerűen módosítja a szövegét.
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| text | java.lang.String | Szöveg az új TextFrameForOverriding-hez. |
+| text | java.lang.String | Az új TextFrameForOverriding szövege. |
 
 **Visszatérési érték:**
 [ITextFrame](../../com.aspose.slides/itextframe)
@@ -133,7 +142,8 @@ Inicializálja a TextFrameForOverriding-et a “text” paraméterben megadott s
 public final ITextFrame getTextFrameForOverriding()
 ```
 
-Tartalmazhat gazdag formázott szöveget. Ha ez a tulajdonság nem null, akkor ez a formázott szöveg felülírja a címke automatikusan generált szövegét. Az automatikusan generált szöveg a ShowSeriesName, ShowValue, … tulajdonságok által kezelt szöveg, amely a TextFormatManager.TextFormat tulajdonsággal formázott. Csak olvasható [ITextFrame](../../com.aspose.slides/itextframe).
+
+Tartalmazhat gazdag formázott szöveget. Ha ez a tulajdonság nem null, akkor ez a formázott szöveg felülírja a címke automatikusan generált szövegét. Az automatikusan generált szöveg a ShowSeriesName, ShowValue, ... tulajdonságok által kezelt szöveget jelenti, és a TextFormatManager.TextFormat tulajdonsággal van formázva. Csak olvasható [ITextFrame](../../com.aspose.slides/itextframe).
 
 **Visszatérési érték:**
 [ITextFrame](../../com.aspose.slides/itextframe)
@@ -141,6 +151,7 @@ Tartalmazhat gazdag formázott szöveget. Ha ez a tulajdonság nem null, akkor e
 ```
 public final IChartTextFormat getTextFormat()
 ```
+
 
 Visszaadja a szövegformátumot. Csak olvasható [IChartTextFormat](../../com.aspose.slides/icharttextformat).
 
@@ -151,7 +162,8 @@ Visszaadja a szövegformátumot. Csak olvasható [IChartTextFormat](../../com.as
 public final float getX()
 ```
 
-Visszaadja vagy beállítja a címke x koordinátáját a diagram szélességének hányadában. Olvasás/írás float.
+
+Visszaadja vagy beállítja a cím X koordinátáját a diagram szélességének hányadában. Olvasás/írás float .
 
 **Visszatérési érték:**
 float
@@ -160,19 +172,20 @@ float
 public final void setX(float value)
 ```
 
-Visszaadja vagy beállítja a címke x koordinátáját a diagram szélességének hányadában. Olvasás/írás float.
+
+Visszaadja vagy beállítja a cím X koordinátáját a diagram szélességének hányadában. Olvasás/írás float .
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
 | value | float |  |
-
 ### getY() {#getY--}
 ```
 public final float getY()
 ```
 
-Visszaadja vagy beállítja a címke y koordinátáját a diagram magasságának hányadában. Olvasás/írás float.
+
+Visszaadja vagy beállítja a cím Y koordinátáját a diagram magasságának hányadában. Olvasás/írás float .
 
 **Visszatérési érték:**
 float
@@ -181,19 +194,20 @@ float
 public final void setY(float value)
 ```
 
-Visszaadja vagy beállítja a címke y koordinátáját a diagram magasságának hányadában. Olvasás/írás float.
+
+Visszaadja vagy beállítja a cím Y koordinátáját a diagram magasságának hányadában. Olvasás/írás float .
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
 | value | float |  |
-
 ### getWidth() {#getWidth--}
 ```
 public final float getWidth()
 ```
 
-Visszaadja vagy beállítja a címke szélességét a diagram szélességének hányadában. Olvasás/írás float.
+
+Visszaadja vagy beállítja a cím szélességét a diagram szélességének hányadában. Olvasás/írás float .
 
 **Visszatérési érték:**
 float
@@ -202,19 +216,20 @@ float
 public final void setWidth(float value)
 ```
 
-Visszaadja vagy beállítja a címke szélességét a diagram szélességének hányadában. Olvasás/írás float.
+
+Visszaadja vagy beállítja a cím szélességét a diagram szélességének hányadában. Olvasás/írás float .
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
 | value | float |  |
-
 ### getHeight() {#getHeight--}
 ```
 public final float getHeight()
 ```
 
-Visszaadja vagy beállítja a címke magasságát a diagram magasságának hányadában. Olvasás/írás float.
+
+Visszaadja vagy beállítja a cím magasságát a diagram magasságának hányadában. Olvasás/írás float .
 
 **Visszatérési érték:**
 float
@@ -223,19 +238,20 @@ float
 public final void setHeight(float value)
 ```
 
-Visszaadja vagy beállítja a címke magasságát a diagram magasságának hányadában. Olvasás/írás float.
+
+Visszaadja vagy beállítja a cím magasságát a diagram magasságának hányadában. Olvasás/írás float .
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
 | value | float |  |
-
 ### getRight() {#getRight--}
 ```
 public final float getRight()
 ```
 
-Jobb. Csak olvasható float.
+
+Jobb. Csak olvasható float .
 
 **Visszatérési érték:**
 float
@@ -244,7 +260,8 @@ float
 public final float getBottom()
 ```
 
-Alul. Csak olvasható float.
+
+Alsó. Csak olvasható float .
 
 **Visszatérési érték:**
 float
@@ -253,7 +270,8 @@ float
 public final IDataLabelFormat getDataLabelFormat()
 ```
 
-Visszaadja a címkeformátumot. Csak olvasható [IDataLabelFormat](../../com.aspose.slides/idatalabelformat).
+
+Visszaadja az adatel címke formátumát. Csak olvasható [IDataLabelFormat](../../com.aspose.slides/idatalabelformat).
 
 **Visszatérési érték:**
 [IDataLabelFormat](../../com.aspose.slides/idatalabelformat)
@@ -262,7 +280,8 @@ Visszaadja a címkeformátumot. Csak olvasható [IDataLabelFormat](../../com.asp
 public final IChartDataCell getValueFromCell()
 ```
 
-Lekéri vagy beállítja a munkafüzet adatcelláját. Alkalmazandó, ha az IDataLabelFormat.ShowLabelValueFromCell tulajdonság értéke true.
+
+Lekéri vagy beállítja a munkafüzet adatcelláját. Alkalmazható, ha az IDataLabelFormat.ShowLabelValueFromCell tulajdonság igaz.
 
 **Visszatérési érték:**
 [IChartDataCell](../../com.aspose.slides/ichartdatacell)
@@ -271,19 +290,68 @@ Lekéri vagy beállítja a munkafüzet adatcelláját. Alkalmazandó, ha az IDat
 public final void setValueFromCell(IChartDataCell value)
 ```
 
-Lekéri vagy beállítja a munkafüzet adatcelláját. Alkalmazandó, ha az IDataLabelFormat.ShowLabelValueFromCell tulajdonság értéke true.
+
+Lekéri vagy beállítja a munkafüzet adatcelláját. Alkalmazható, ha az IDataLabelFormat.ShowLabelValueFromCell tulajdonság igaz.
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
 | value | [IChartDataCell](../../com.aspose.slides/ichartdatacell) |  |
+### getLabelShapeType() {#getLabelShapeType--}
+```
+public final int getLabelShapeType()
+```
 
+
+Lekéri vagy beállítja az adatel címke alakzat típusát. Ha nincs meghatározott alakzat, akkor [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined).
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Állítsa be az első adatcímke alakzattípusát Ellipse-re.
+>      firstSeries.getLabels().get_Item(0).setLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabel.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Visszatérési érték:**
+int
+### setLabelShapeType(int value) {#setLabelShapeType-int-}
+```
+public final void setLabelShapeType(int value)
+```
+
+
+Lekéri vagy beállítja az adatel címke alakzat típusát. Ha nincs meghatározott alakzat, akkor [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined).
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Állítsa be az első adatcímke alakzattípusát Ellipse-re.
+>      firstSeries.getLabels().get_Item(0).setLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabel.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Paraméterek:**
+| Paraméter | Típus | Leírás |
+| --- | --- | --- |
+| value | int |  |
 ### getActualX() {#getActualX--}
 ```
 public final float getActualX()
 ```
 
-Meghatározza a diagram elem tényleges x helyzetét (bal) a diagram bal felső sarkához képest. Hívja meg az IChart.ValidateChartLayout() metódust a tényleges értékek lekéréséhez. Olvasás float.
+
+Megadja a diagram elem tényleges X helyét (bal) a diagram bal felső sarkához képest. Hívja meg az IChart.ValidateChartLayout() metódust a tényleges értékek lekéréséhez. Olvasás float.
 
 **Visszatérési érték:**
 float
@@ -292,7 +360,8 @@ float
 public final float getActualY()
 ```
 
-Meghatározza a diagram elem tényleges felső pozícióját a diagram bal felső sarkához képest. Hívja meg az IChart.ValidateChartLayout() metódust a tényleges értékek lekéréséhez. Olvasás float.
+
+Megadja a diagram elem tényleges tetejét a diagram bal felső sarkához képest. Hívja meg az IChart.ValidateChartLayout() metódust a tényleges értékek lekéréséhez. Olvasás float.
 
 **Visszatérési érték:**
 float
@@ -301,7 +370,8 @@ float
 public final float getActualWidth()
 ```
 
-Meghatározza a diagram elem tényleges szélességét. Hívja meg az IChart.ValidateChartLayout() metódust a tényleges értékek lekéréséhez. Olvasás float.
+
+Megadja a diagram elem tényleges szélességét. Hívja meg az IChart.ValidateChartLayout() metódust a tényleges értékek lekéréséhez. Olvasás float.
 
 **Visszatérési érték:**
 float
@@ -310,7 +380,8 @@ float
 public final float getActualHeight()
 ```
 
-Meghatározza a diagram elem tényleges magasságát. Hívja meg az IChart.ValidateChartLayout() metódust a tényleges értékek lekéréséhez. Olvasás float.
+
+Megadja a diagram elem tényleges magasságát. Hívja meg az IChart.ValidateChartLayout() metódust a tényleges értékek lekéréséhez. Olvasás float.
 
 **Visszatérési érték:**
 float
@@ -319,7 +390,8 @@ float
 public final IBaseSlide getSlide()
 ```
 
-Visszaadja a FillFormat szülő diát. Csak olvasható [BaseSlide](../../com.aspose.slides/baseslide).
+
+Visszaadja a FillFormat szülő diáját. Csak olvasható [BaseSlide](../../com.aspose.slides/baseslide).
 
 **Visszatérési érték:**
 [IBaseSlide](../../com.aspose.slides/ibaseslide)
@@ -327,6 +399,7 @@ Visszaadja a FillFormat szülő diát. Csak olvasható [BaseSlide](../../com.asp
 ```
 public final IPresentation getPresentation()
 ```
+
 
 Visszaadja a FillFormat szülő prezentációját. Csak olvasható [IPresentation](../../com.aspose.slides/ipresentation).
 

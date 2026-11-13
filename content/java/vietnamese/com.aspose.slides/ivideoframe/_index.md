@@ -1,29 +1,31 @@
 ---
 title: IVideoFrame
-second_title: Aspose.Slides cho Java Tham chiếu API
-description: Biểu diễn một đoạn video trên một slide.
+second_title: Tham chiếu API Aspose.Slides cho Java
+description: Biểu thị một đoạn video trên slide.
 type: docs
 url: /vi/com.aspose.slides/ivideoframe/
 ---
-**Tất cả các giao diện đã triển khai:**
+**Tất cả các giao diện được triển khai:**
 [com.aspose.slides.IPictureFrame](../../com.aspose.slides/ipictureframe)
 ```
 public interface IVideoFrame extends IPictureFrame
 ```
 
-Biểu diễn một đoạn video trên một slide.
+Biểu thị một đoạn video trên slide.
 ## Phương thức
 
 | Phương thức | Mô tả |
 | --- | --- |
-| [getRewindVideo()](#getRewindVideo--) | Xác định xem video có tự động quay lại đầu khi phim đã phát xong hay không. |
-| [setRewindVideo(boolean value)](#setRewindVideo-boolean-) | Xác định xem video có tự động quay lại đầu khi phim đã phát xong hay không. |
+| [getRewindVideo()](#getRewindVideo--) | Xác định xem video có được tự động quay lại đầu khi bộ phim đã phát xong hay không. |
+| [setRewindVideo(boolean value)](#setRewindVideo-boolean-) | Xác định xem video có được tự động quay lại đầu khi bộ phim đã phát xong hay không. |
 | [getPlayLoopMode()](#getPlayLoopMode--) | Xác định xem video có được lặp lại hay không. |
 | [setPlayLoopMode(boolean value)](#setPlayLoopMode-boolean-) | Xác định xem video có được lặp lại hay không. |
 | [getHideAtShowing()](#getHideAtShowing--) | Xác định xem VideoFrame có bị ẩn hay không. |
 | [setHideAtShowing(boolean value)](#setHideAtShowing-boolean-) | Xác định xem VideoFrame có bị ẩn hay không. |
-| [getVolume()](#getVolume--) | Trả về hoặc đặt mức âm lượng. |
-| [setVolume(int value)](#setVolume-int-) | Trả về hoặc đặt mức âm lượng. |
+| [getVolume()](#getVolume--) | Trả về hoặc đặt âm lượng âm thanh. |
+| [setVolume(int value)](#setVolume-int-) | Trả về hoặc đặt âm lượng âm thanh. |
+| [getVolumeValue()](#getVolumeValue--) | Trả về hoặc đặt âm lượng video chính xác dưới dạng phần trăm. |
+| [setVolumeValue(float value)](#setVolumeValue-float-) | Trả về hoặc đặt âm lượng video chính xác dưới dạng phần trăm. |
 | [getPlayMode()](#getPlayMode--) | Trả về hoặc đặt chế độ phát video. |
 | [setPlayMode(int value)](#setPlayMode-int-) | Trả về hoặc đặt chế độ phát video. |
 | [getFullScreenMode()](#getFullScreenMode--) | Xác định xem video có được hiển thị ở chế độ toàn màn hình hay không. |
@@ -32,17 +34,18 @@ Biểu diễn một đoạn video trên một slide.
 | [setLinkPathLong(String value)](#setLinkPathLong-java.lang.String-) | Trả về hoặc đặt tên của tệp video được liên kết với VideoFrame. |
 | [getEmbeddedVideo()](#getEmbeddedVideo--) | Trả về hoặc đặt đối tượng video nhúng. |
 | [setEmbeddedVideo(IVideo value)](#setEmbeddedVideo-com.aspose.slides.IVideo-) | Trả về hoặc đặt đối tượng video nhúng. |
-| [getTrimFromStart()](#getTrimFromStart--) | Cắt phần đầu [ms] |
-| [setTrimFromStart(float value)](#setTrimFromStart-float-) | Cắt phần đầu [ms] |
-| [getTrimFromEnd()](#getTrimFromEnd--) | Cắt phần cuối [ms] |
-| [setTrimFromEnd(float value)](#setTrimFromEnd-float-) | Cắt phần cuối [ms] |
-| [getCaptionTracks()](#getCaptionTracks--) | Lấy tập hợp các phụ đề đóng liên quan đến khung âm thanh. |
+| [getTrimFromStart()](#getTrimFromStart--) | Cắt đầu [ms] |
+| [setTrimFromStart(float value)](#setTrimFromStart-float-) | Cắt đầu [ms] |
+| [getTrimFromEnd()](#getTrimFromEnd--) | Cắt cuối [ms] |
+| [setTrimFromEnd(float value)](#setTrimFromEnd-float-) | Cắt cuối [ms] |
+| [getCaptionTracks()](#getCaptionTracks--) | Lấy bộ sưu tập phụ đề đóng liên quan đến khung âm thanh. |
+
 ### getRewindVideo() {#getRewindVideo--}
 ```
 public abstract boolean getRewindVideo()
 ```
 
-Xác định xem video có tự động quay lại đầu khi phim đã phát xong hay không. Đọc/ghi boolean.
+Xác định xem video có được tự động quay lại đầu khi bộ phim đã phát xong hay không. Đọc/ghi boolean.
 
 **Trả về:**
 boolean
@@ -51,12 +54,13 @@ boolean
 public abstract void setRewindVideo(boolean value)
 ```
 
-Xác định xem video có tự động quay lại đầu khi phim đã phát xong hay không. Đọc/ghi boolean.
+Xác định xem video có được tự động quay lại đầu khi bộ phim đã phát xong hay không. Đọc/ghi boolean.
 
 **Tham số:**
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | value | boolean |  |
+
 ### getPlayLoopMode() {#getPlayLoopMode--}
 ```
 public abstract boolean getPlayLoopMode()
@@ -77,6 +81,7 @@ Xác định xem video có được lặp lại hay không. Đọc/ghi boolean.
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | value | boolean |  |
+
 ### getHideAtShowing() {#getHideAtShowing--}
 ```
 public abstract boolean getHideAtShowing()
@@ -97,12 +102,13 @@ Xác định xem VideoFrame có bị ẩn hay không. Đọc/ghi boolean.
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | value | boolean |  |
+
 ### getVolume() {#getVolume--}
 ```
 public abstract int getVolume()
 ```
 
-Trả về hoặc đặt mức âm lượng. Đọc/ghi [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
+Trả về hoặc đặt âm lượng âm thanh. Đọc/ghi [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
 
 **Trả về:**
 int
@@ -111,12 +117,72 @@ int
 public abstract void setVolume(int value)
 ```
 
-Trả về hoặc đặt mức âm lượng. Đọc/ghi [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
+Trả về hoặc đặt âm lượng âm thanh. Đọc/ghi [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
 
 **Tham số:**
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | value | int |  |
+
+### getVolumeValue() {#getVolumeValue--}
+```
+public abstract float getVolumeValue()
+```
+
+Trả về hoặc đặt âm lượng video chính xác dưới dạng phần trăm. Giá trị được biểu thị dưới dạng phần trăm từ 0 đến 100. Sử dụng thuộc tính này để đọc hoặc đặt các giá trị âm lượng chi tiết hơn so với các mức định sẵn có thông qua thuộc tính Volume (\#getVolume.getVolume/\#setVolume(int).setVolume(int)). Đọc/ghi  float .
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video.pptx");
+>  try {
+>      IVideoFrame videoFrame = (IVideoFrame)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // Đọc âm lượng chính xác hiện tại và đặt nó thành 75,5 phần trăm.
+>      float currentVolume = videoFrame.getVolumeValue();
+>      System.out.println(currentVolume);
+>      videoFrame.setVolumeValue(75.5f);
+>      pres.save("video_with_volume.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Trả về:**
+float
+### setVolumeValue(float value) {#setVolumeValue-float-}
+```
+public abstract void setVolumeValue(float value)
+```
+
+Trả về hoặc đặt âm lượng video chính xác dưới dạng phần trăm. Giá trị được biểu thị dưới dạng phần trăm từ 0 đến 100. Sử dụng thuộc tính này để đọc hoặc đặt các giá trị âm lượng chi tiết hơn so với các mức định sẵn có thông qua thuộc tính Volume (\#getVolume.getVolume/\#setVolume(int).setVolume(int)). Đọc/ghi  float .
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video.pptx");
+>  try {
+>      IVideoFrame videoFrame = (IVideoFrame)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // Đọc âm lượng chính xác hiện tại và đặt nó thành 75.5 phần trăm.
+>      float currentVolume = videoFrame.getVolumeValue();
+>      System.out.println(currentVolume);
+>      videoFrame.setVolumeValue(75.5f);
+>      pres.save("video_with_volume.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Tham số:**
+| Tham số | Kiểu | Mô tả |
+| --- | --- | --- |
+| value | float |  |
+
 ### getPlayMode() {#getPlayMode--}
 ```
 public abstract int getPlayMode()
@@ -137,6 +203,7 @@ Trả về hoặc đặt chế độ phát video. Đọc/ghi [VideoPlayModePrese
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | value | int |  |
+
 ### getFullScreenMode() {#getFullScreenMode--}
 ```
 public abstract boolean getFullScreenMode()
@@ -157,6 +224,7 @@ Xác định xem video có được hiển thị ở chế độ toàn màn hìn
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | value | boolean |  |
+
 ### getLinkPathLong() {#getLinkPathLong--}
 ```
 public abstract String getLinkPathLong()
@@ -177,6 +245,7 @@ Trả về hoặc đặt tên của tệp video được liên kết với Video
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
 ### getEmbeddedVideo() {#getEmbeddedVideo--}
 ```
 public abstract IVideo getEmbeddedVideo()
@@ -197,12 +266,13 @@ Trả về hoặc đặt đối tượng video nhúng. Đọc/ghi [IVideo](../..
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | value | [IVideo](../../com.aspose.slides/ivideo) |  |
+
 ### getTrimFromStart() {#getTrimFromStart--}
 ```
 public abstract float getTrimFromStart()
 ```
 
-Cắt phần đầu [ms]
+Cắt đầu [ms]
 
 --------------------
 
@@ -214,7 +284,7 @@ Cắt phần đầu [ms]
 >      ISlide slide = pres.getSlides().get_Item(0);
 >      IVideo video = pres.getVideos().addVideo(Files.readAllBytes(Paths.get("video.mp4")));
 >      IVideoFrame videoFrame = slide.getShapes().addVideoFrame(0, 0, 100, 100, video);
->      //đặt thời gian cắt bắt đầu 1 giây
+>      //đặt thời gian cắt đầu 1 giây
 >      videoFrame.setTrimFromStart(1000f);
 >      //đặt thời gian cắt kết thúc 2 giây
 >      videoFrame.setTrimFromEnd(2000f);
@@ -231,7 +301,7 @@ float
 public abstract void setTrimFromStart(float value)
 ```
 
-Cắt phần đầu [ms]
+Cắt đầu [ms]
 
 --------------------
 
@@ -243,7 +313,7 @@ Cắt phần đầu [ms]
 >      ISlide slide = pres.getSlides().get_Item(0);
 >      IVideo video = pres.getVideos().addVideo(Files.readAllBytes(Paths.get("video.mp4")));
 >      IVideoFrame videoFrame = slide.getShapes().addVideoFrame(0, 0, 100, 100, video);
->      //đặt thời gian cắt bắt đầu 1 giây
+>      //đặt thời gian cắt đầu 1 giây
 >      videoFrame.setTrimFromStart(1000f);
 >      //đặt thời gian cắt kết thúc 2 giây
 >      videoFrame.setTrimFromEnd(2000f);
@@ -257,12 +327,13 @@ Cắt phần đầu [ms]
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | value | float |  |
+
 ### getTrimFromEnd() {#getTrimFromEnd--}
 ```
 public abstract float getTrimFromEnd()
 ```
 
-Cắt phần cuối [ms]
+Cắt cuối [ms]
 
 **Trả về:**
 float
@@ -271,18 +342,19 @@ float
 public abstract void setTrimFromEnd(float value)
 ```
 
-Cắt phần cuối [ms]
+Cắt cuối [ms]
 
 **Tham số:**
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | value | float |  |
+
 ### getCaptionTracks() {#getCaptionTracks--}
 ```
 public abstract ICaptionsCollection getCaptionTracks()
 ```
 
-Lấy tập hợp các phụ đề đóng liên quan đến khung âm thanh. Thuộc tính này chỉ đọc và trả về một [ICaptionsCollection](../../com.aspose.slides/icaptionscollection) chứa tất cả các track phụ đề.
+Lấy bộ sưu tập phụ đề đóng liên quan đến khung âm thanh. Thuộc tính này chỉ đọc và trả về một [ICaptionsCollection](../../com.aspose.slides/icaptionscollection) chứa tất cả các track phụ đề.
 
 --------------------
 

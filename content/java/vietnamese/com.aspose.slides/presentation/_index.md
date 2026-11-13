@@ -1,34 +1,34 @@
 ---
 title: Presentation
-second_title: Tham chiếu API Aspose.Slides cho Java
-description: Biểu diễn một bản trình chiếu Microsoft PowerPoint.
+second_title: Tài liệu tham chiếu API Aspose.Slides cho Java
+description: Đại diện cho một bản trình chiếu Microsoft PowerPoint.
 type: docs
 url: /vi/com.aspose.slides/presentation/
 ---
 **Kế thừa:**
 java.lang.Object
 
-**Tất cả các giao diện được triển khai:**
+**Tất cả giao diện đã triển khai:**
 [com.aspose.slides.IPresentation](../../com.aspose.slides/ipresentation), com.aspose.slides.IDOMObject
 ```
 public final class Presentation implements IPresentation, IDOMObject
 ```
 
-Đại diện cho một bản trình bày Microsoft PowerPoint.
+Biểu diễn một bản trình chiếu Microsoft PowerPoint.
 
 --------------------
 
 > ```
 > The following example shows how to create PowerPoint Presentation.
 >   
->  // Tạo một đối tượng Presentation đại diện cho một tệp tin bản trình chiếu
+>  // Tạo một đối tượng Presentation đại diện cho tệp trình chiếu
 >  Presentation pres = new Presentation();
 >  try {
 >      // Lấy slide đầu tiên
 >      ISlide slide = pres.getSlides().get_Item(0);
->      // Thêm một hình tự động dạng đường thẳng
+>      // Thêm một autoshape loại đường thẳng
 >      slide.getShapes().addAutoShape(ShapeType.Line, 50, 150, 300, 0);
->      // Lưu tệp tin bản trình chiếu.
+>      // Lưu tệp trình chiếu.
 >      pres.save("NewPresentation_out.pptx", SaveFormat.Pptx);
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -36,103 +36,105 @@ public final class Presentation implements IPresentation, IDOMObject
 >   
 >   The following example shows how to open and save Presentation.
 >   
->  // Tải bất kỳ tệp tin được hỗ trợ nào trong Presentation, ví dụ ppt, pptx, odp, v.v.
+>  // Tải bất kỳ tệp được hỗ trợ nào trong Presentation, ví dụ ppt, pptx, odp, v.v.
 >  Presentation pres = new Presentation("Sample.odp");
 >  try {
->      // Lưu tệp tin bản trình chiếu.
+>      // Lưu tệp trình chiếu.
 >      pres.save("OutputPresenation.pptx", SaveFormat.Pptx);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
 > ```
 
-## Hàm tạo
+## Các hàm khởi tạo
 
-| Hàm tạo | Mô tả |
+| Constructor | Mô tả |
 | --- | --- |
-| [Presentation()](#Presentation--) | Hàm tạo này tạo một bản trình bày mới từ đầu. |
-| [Presentation(LoadOptions loadOptions)](#Presentation-com.aspose.slides.LoadOptions-) | Hàm tạo này tạo một bản trình bày mới từ đầu. |
-| [Presentation(InputStream stream)](#Presentation-java.io.InputStream-) | Hàm tạo này là cơ chế chính để đọc một Bản Trình Bày hiện có. |
-| [Presentation(InputStream stream, LoadOptions loadOptions)](#Presentation-java.io.InputStream-com.aspose.slides.LoadOptions-) | Hàm tạo này là cơ chế chính để đọc một Bản Trình Bày hiện có. |
-| [Presentation(String file)](#Presentation-java.lang.String-) | Hàm tạo này lấy đường dẫn tệp nguồn mà từ đó nội dung của Bản Trình Bày được đọc. |
-| [Presentation(String file, LoadOptions loadOptions)](#Presentation-java.lang.String-com.aspose.slides.LoadOptions-) | Hàm tạo này lấy đường dẫn tệp nguồn mà từ đó nội dung của Bản Trình Bày được đọc. |
-## Phương thức
+| [Presentation()](#Presentation--) | Hàm khởi tạo này tạo bản trình chiếu mới từ đầu. |
+| [Presentation(LoadOptions loadOptions)](#Presentation-com.aspose.slides.LoadOptions-) | Hàm khởi tạo này tạo bản trình chiếu mới từ đầu. |
+| [Presentation(InputStream stream)](#Presentation-java.io.InputStream-) | Hàm khởi tạo này là cơ chế chính để đọc một Presentation đã tồn tại. |
+| [Presentation(InputStream stream, LoadOptions loadOptions)](#Presentation-java.io.InputStream-com.aspose.slides.LoadOptions-) | Hàm khởi tạo này là cơ chế chính để đọc một Presentation đã tồn tại. |
+| [Presentation(String file)](#Presentation-java.lang.String-) | Hàm khởi tạo này lấy đường dẫn tệp nguồn từ đó nội dung của Presentation được đọc. |
+| [Presentation(String file, LoadOptions loadOptions)](#Presentation-java.lang.String-com.aspose.slides.LoadOptions-) | Hàm khởi tạo này lấy đường dẫn tệp nguồn từ đó nội dung của Presentation được đọc. |
+## Methods
 
-| Phương thức | Mô tả |
+| Method | Mô tả |
 | --- | --- |
 | [getCurrentDateTime()](#getCurrentDateTime--) | Trả về hoặc đặt ngày và giờ sẽ thay thế nội dung của các trường datetime. |
 | [setCurrentDateTime(Date value)](#setCurrentDateTime-java.util.Date-) | Trả về hoặc đặt ngày và giờ sẽ thay thế nội dung của các trường datetime. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
 | [getHeaderFooterManager()](#getHeaderFooterManager--) | Trả về trình quản lý HeaderFooter thực tế. |
-| [getProtectionManager()](#getProtectionManager--) | Lấy trình quản lý quyền cho bản trình bày này. |
-| [getSlides()](#getSlides--) | Trả về danh sách tất cả các slide được định nghĩa trong bản trình bày. |
-| [getSections()](#getSections--) | Trả về danh sách tất cả các phần slide được định nghĩa trong bản trình bày. |
+| [getProtectionManager()](#getProtectionManager--) | Lấy trình quản lý quyền cho bản trình chiếu này. |
+| [getSlides()](#getSlides--) | Trả về danh sách tất cả các slide được định nghĩa trong bản trình chiếu. |
+| [getSections()](#getSections--) | Trả về danh sách tất cả các phần slide được định nghĩa trong bản trình chiếu. |
 | [getSlideSize()](#getSlideSize--) | Trả về đối tượng kích thước slide. |
 | [getNotesSize()](#getNotesSize--) | Trả về đối tượng kích thước slide ghi chú. |
-| [getLayoutSlides()](#getLayoutSlides--) | Trả về danh sách tất cả các slide bố cục được định nghĩa trong bản trình bày. |
-| [getMasters()](#getMasters--) | Trả về danh sách tất cả các slide master được định nghĩa trong bản trình bày. |
-| [getMasterNotesSlideManager()](#getMasterNotesSlideManager--) | Trả về trình quản lý master ghi chú. |
-| [getMasterHandoutSlideManager()](#getMasterHandoutSlideManager--) | Trả về trình quản lý master handout. |
+| [getLayoutSlides()](#getLayoutSlides--) | Trả về danh sách tất cả các slide layout được định nghĩa trong bản trình chiếu. |
+| [getMasters()](#getMasters--) | Trả về danh sách tất cả các slide master được định nghĩa trong bản trình chiếu. |
+| [getMasterNotesSlideManager()](#getMasterNotesSlideManager--) | Trả về trình quản lý notes master. |
+| [getMasterHandoutSlideManager()](#getMasterHandoutSlideManager--) | Trả về trình quản lý handout master. |
 | [getFontsManager()](#getFontsManager--) | Trả về trình quản lý phông chữ. |
-| [getDefaultTextStyle()](#getDefaultTextStyle--) | Trả về kiểu văn bản mặc định cho các hình dạng. |
-| [getCommentAuthors()](#getCommentAuthors--) | Trả về tập hợp các tác giả bình luận. |
+| [getDefaultTextStyle()](#getDefaultTextStyle--) | Trả về kiểu văn bản mặc định cho các shape. |
+| [getCommentAuthors()](#getCommentAuthors--) | Trả về bộ sưu tập các tác giả bình luận. |
 | [getDocumentProperties()](#getDocumentProperties--) | Trả về đối tượng DocumentProperties chứa các thuộc tính tài liệu chuẩn và tùy chỉnh. |
-| [getImages()](#getImages--) | Trả về tập hợp tất cả các hình ảnh trong bản trình bày. |
-| [getAudios()](#getAudios--) | Trả về tập hợp tất cả các tệp âm thanh nhúng trong bản trình bày. |
-| [getVideos()](#getVideos--) | Trả về tập hợp tất cả các tệp video nhúng trong bản trình bày. |
-| [getSlideShowSettings()](#getSlideShowSettings--) | Trả về cài đặt trình chiếu cho bản trình bày. |
-| [getDigitalSignatures()](#getDigitalSignatures--) | Trả về tập hợp các chữ ký được sử dụng để ký bản trình bày. |
-| [getCustomData()](#getCustomData--) | Trả về dữ liệu tùy chỉnh của bản trình bày. |
-| [getAllCustomXmlParts()](#getAllCustomXmlParts--) | Trả về tất cả các phần dữ liệu tùy chỉnh trong bản trình bày. |
-| [getVbaProject()](#getVbaProject--) | Lấy hoặc đặt dự án VBA với các macro của bản trình bày. |
-| [setVbaProject(IVbaProject value)](#setVbaProject-com.aspose.slides.IVbaProject-) | Lấy hoặc đặt dự án VBA với các macro của bản trình bày. |
-| [getHyperlinkQueries()](#getHyperlinkQueries--) | Cung cấp truy cập dễ dàng tới tất cả các siêu liên kết có trong tất cả các slide của bản trình bày (không bao gồm master, layout, slide ghi chú). |
-| [getViewProperties()](#getViewProperties--) | Lấy các thuộc tính xem toàn bộ bản trình bày. |
-| [getFirstSlideNumber()](#getFirstSlideNumber--) | Đại diện cho số slide đầu tiên trong bản trình bày. |
-| [setFirstSlideNumber(int value)](#setFirstSlideNumber-int-) | Đại diện cho số slide đầu tiên trong bản trình bày. |
-| [getSensitivityLabels()](#getSensitivityLabels--) | Trả về tập hợp các nhãn nhạy cảm được áp dụng cho tài liệu bản trình bày. |
+| [getImages()](#getImages--) | Trả về bộ sưu tập tất cả các hình ảnh trong bản trình chiếu. |
+| [getAudios()](#getAudios--) | Trả về bộ sưu tập tất cả các tệp âm thanh nhúng trong bản trình chiếu. |
+| [getVideos()](#getVideos--) | Trả về bộ sưu tập tất cả các tệp video nhúng trong bản trình chiếu. |
+| [getSlideShowSettings()](#getSlideShowSettings--) | Trả về cài đặt trình chiếu cho bản trình chiếu. |
+| [getDigitalSignatures()](#getDigitalSignatures--) | Trả về bộ sưu tập chữ ký được dùng để ký bản trình chiếu. |
+| [getCustomData()](#getCustomData--) | Trả về dữ liệu tùy chỉnh của bản trình chiếu. |
+| [getAllCustomXmlParts()](#getAllCustomXmlParts--) | Trả về tất cả các phần dữ liệu tùy chỉnh trong bản trình chiếu. |
+| [getVbaProject()](#getVbaProject--) | Lấy hoặc đặt dự án VBA với macro của bản trình chiếu. |
+| [setVbaProject(IVbaProject value)](#setVbaProject-com.aspose.slides.IVbaProject-) | Lấy hoặc đặt dự án VBA với macro của bản trình chiếu. |
+| [getHyperlinkQueries()](#getHyperlinkQueries--) | Cung cấp truy cập dễ dàng tới tất cả các siêu liên kết có trong tất cả các slide của bản trình chiếu (không bao gồm master, layout, slide ghi chú). |
+| [getViewProperties()](#getViewProperties--) | Lấy các thuộc tính xem toàn bộ bản trình chiếu. |
+| [getFirstSlideNumber()](#getFirstSlideNumber--) | Biểu diễn số slide đầu tiên trong bản trình chiếu |
+| [setFirstSlideNumber(int value)](#setFirstSlideNumber-int-) | Biểu diễn số slide đầu tiên trong bản trình chiếu |
+| [getSensitivityLabels()](#getSensitivityLabels--) | Trả về bộ sưu tập các nhãn nhạy cảm được áp dụng cho tài liệu bản trình chiếu. |
 | [getSlideById(long id)](#getSlideById-long-) | Trả về một Slide, MasterSlide hoặc LayoutSlide theo Id. |
-| [getSourceFormat()](#getSourceFormat--) | Trả về thông tin về định dạng mà bản trình bày đã được tải. |
-| [getMasterTheme()](#getMasterTheme--) | Trả về chủ đề master. |
-| [save(String fname, int format)](#save-java.lang.String-int-) | Lưu tất cả các slide của bản trình bày vào tệp với định dạng được chỉ định. |
-| [save(OutputStream stream, int format)](#save-java.io.OutputStream-int-) | Lưu tất cả các slide của bản trình bày vào luồng với định dạng được chỉ định. |
-| [save(String fname, int format, ISaveOptions options)](#save-java.lang.String-int-com.aspose.slides.ISaveOptions-) | Lưu tất cả các slide của bản trình bày vào tệp với định dạng được chỉ định và với các tùy chọn bổ sung. |
-| [save(OutputStream stream, int format, ISaveOptions options)](#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-) | Lưu tất cả các slide của bản trình bày vào luồng với định dạng được chỉ định và với các tùy chọn bổ sung. |
-| [save(IXamlOptions options)](#save-com.aspose.slides.IXamlOptions-) | Lưu tất cả các slide của bản trình bày thành một tập hợp các tệp đại diện cho markup XAML. |
-| [getImages(IRenderingOptions options)](#getImages-com.aspose.slides.IRenderingOptions-) | Trả về các đối tượng Image cho tất cả các slide của bản trình bày. |
-| [getImages(IRenderingOptions options, int[] slides)](#getImages-com.aspose.slides.IRenderingOptions-int---) | Trả về các đối tượng Thumbnail Image cho các slide được chỉ định của bản trình bày. |
-| [getImages(IRenderingOptions options, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-float-float-) | Trả về các đối tượng Thumbnail Image cho tất cả các slide của bản trình bày với tỉ lệ tùy chỉnh. |
-| [getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-int---float-float-) | Trả về các đối tượng Thumbnail Image cho các slide được chỉ định của bản trình bày với tỉ lệ tùy chỉnh. |
-| [getImages(IRenderingOptions options, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-) | Trả về các đối tượng Thumbnail Image cho tất cả các slide của bản trình bày với kích thước được chỉ định. |
-| [getImages(IRenderingOptions options, int[] slides, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-) | Trả về các đối tượng Thumbnail Image cho các slide được chỉ định của bản trình bày với kích thước được chỉ định. |
-| [save(String fname, int[] slides, int format)](#save-java.lang.String-int---int-) | Lưu các slide được chỉ định của bản trình bày vào tệp với định dạng được chỉ định và giữ số trang. |
-| [save(String fname, int[] slides, int format, ISaveOptions options)](#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-) | Lưu các slide được chỉ định của bản trình bày vào tệp với định dạng được chỉ định và giữ số trang. |
-| [save(OutputStream stream, int[] slides, int format)](#save-java.io.OutputStream-int---int-) | Lưu các slide được chỉ định của bản trình bày vào luồng với định dạng được chỉ định và giữ số trang. |
-| [save(OutputStream stream, int[] slides, int format, ISaveOptions options)](#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-) | Lưu các slide được chỉ định của bản trình bày vào luồng với định dạng được chỉ định và giữ số trang. |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Nối các run có cùng định dạng trong tất cả các đoạn văn trong tất cả các hình dạng chấp nhận được trên tất cả các slide. |
-| [dispose()](#dispose--) | Giải phóng tất cả tài nguyên được sử dụng bởi đối tượng Presentation này. |
-| [getPresentation()](#getPresentation--) | Trả về bản trình bày cha của một đoạn văn bản. |
-| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | Tô sáng tất cả các khớp của văn bản mẫu với màu được chỉ định. |
-| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Tô sáng tất cả các khớp của văn bản mẫu với màu được chỉ định. |
-| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | Tô sáng tất cả các khớp của biểu thức chính quy với màu được chỉ định. |
-| [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Thay thế tất cả các lần xuất hiện của văn bản được chỉ định bằng một văn bản khác được chỉ định. |
-| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Thay thế tất cả các khớp của biểu thức chính quy bằng chuỗi được chỉ định. |
+| [getSourceFormat()](#getSourceFormat--) | Trả về thông tin về định dạng mà bản trình chiếu được tải. |
+| [getMasterTheme()](#getMasterTheme--) | Trả về theme master. |
+| [save(String fname, int format)](#save-java.lang.String-int-) | Lưu tất cả các slide của bản trình chiếu vào tệp với định dạng đã chỉ định. |
+| [save(OutputStream stream, int format)](#save-java.io.OutputStream-int-) | Lưu tất cả các slide của bản trình chiếu vào luồng với định dạng đã chỉ định. |
+| [save(String fname, int format, ISaveOptions options)](#save-java.lang.String-int-com.aspose.slides.ISaveOptions-) | Lưu tất cả các slide của bản trình chiếu vào tệp với định dạng đã chỉ định và các tùy chọn bổ sung. |
+| [save(OutputStream stream, int format, ISaveOptions options)](#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-) | Lưu tất cả các slide của bản trình chiếu vào luồng với định dạng đã chỉ định và các tùy chọn bổ sung. |
+| [save(IXamlOptions options)](#save-com.aspose.slides.IXamlOptions-) | Lưu tất cả các slide của bản trình chiếu vào một tập hợp các tệp đại diện cho markup XAML. |
+| [getImages(IRenderingOptions options)](#getImages-com.aspose.slides.IRenderingOptions-) | Trả về các đối tượng Image cho tất cả các slide của bản trình chiếu. |
+| [getImages(IRenderingOptions options, int[] slides)](#getImages-com.aspose.slides.IRenderingOptions-int---) | Trả về các đối tượng Thumbnail Image cho các slide được chỉ định của bản trình chiếu. |
+| [getImages(IRenderingOptions options, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-float-float-) | Trả về các đối tượng Thumbnail Image cho tất cả các slide của bản trình chiếu với tỉ lệ tùy chỉnh. |
+| [getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-int---float-float-) | Trả về các đối tượng Thumbnail Image cho các slide được chỉ định của bản trình chiếu với tỉ lệ tùy chỉnh. |
+| [getImages(IRenderingOptions options, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-) | Trả về các đối tượng Thumbnail Image cho tất cả các slide của bản trình chiếu với kích thước được chỉ định. |
+| [getImages(IRenderingOptions options, int[] slides, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-) | Trả về các đối tượng Thumbnail Image cho các slide được chỉ định của bản trình chiếu với kích thước được chỉ định. |
+| [save(String fname, int[] slides, int format)](#save-java.lang.String-int---int-) | Lưu các slide được chỉ định của bản trình chiếu vào tệp với định dạng đã chỉ định và giữ số trang. |
+| [save(String fname, int[] slides, int format, ISaveOptions options)](#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-) | Lưu các slide được chỉ định của bản trình chiếu vào tệp với định dạng đã chỉ định và giữ số trang. |
+| [save(OutputStream stream, int[] slides, int format)](#save-java.io.OutputStream-int---int-) | Lưu các slide được chỉ định của bản trình chiếu vào luồng với định dạng đã chỉ định và giữ số trang. |
+| [save(OutputStream stream, int[] slides, int format, ISaveOptions options)](#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-) | Lưu các slide được chỉ định của bản trình chiếu vào luồng với định dạng đã chỉ định và giữ số trang. |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Nối các run có cùng định dạng trong tất cả các đoạn văn trong tất cả các shape chấp nhận được ở mọi slide. |
+| [dispose()](#dispose--) | Giải phóng tất cả tài nguyên được đối tượng Presentation này sử dụng. |
+| [getPresentation()](#getPresentation--) | Trả về bản trình chiếu cha của một văn bản. |
+| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | Tô sáng tất cả các kết quả khớp của văn bản mẫu với màu đã chỉ định. |
+| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Tô sáng tất cả các kết quả khớp của văn bản mẫu với màu đã chỉ định. |
+| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | Tô sáng tất cả các kết quả khớp của biểu thức chính quy với màu đã chỉ định. |
+| [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Thay thế tất cả các lần xuất hiện của văn bản đã chỉ định bằng một văn bản khác đã chỉ định. |
+| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Thay thế tất cả các kết quả khớp của biểu thức chính quy bằng chuỗi đã chỉ định. |
+| [refreshChartsData()](#refreshChartsData--) | Tải lại dữ liệu cho tất cả các biểu đồ trong bản trình chiếu từ các workbook nguồn. |
+| [refreshChartsData(boolean skipFailedCharts)](#refreshChartsData-boolean-) | Tải lại dữ liệu cho tất cả các biểu đồ trong bản trình chiếu từ các workbook nguồn. |
 ### Presentation() {#Presentation--}
 ```
 public Presentation()
 ```
 
-Hàm tạo này tạo một bản trình bày mới từ đầu. Bản trình bày được tạo có một slide trống.
+Hàm khởi tạo này tạo bản trình chiếu mới từ đầu. Bản trình chiếu được tạo có một slide trống.
 
 ### Presentation(LoadOptions loadOptions) {#Presentation-com.aspose.slides.LoadOptions-}
 ```
 public Presentation(LoadOptions loadOptions)
 ```
 
-Hàm tạo này tạo một bản trình bày mới từ đầu. Bản trình bày được tạo có một slide trống.
+Hàm khởi tạo này tạo bản trình chiếu mới từ đầu. Bản trình chiếu được tạo có một slide trống.
 
 **Tham số:**
-| Tham số | Kiểu | Mô tả |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) | Các tùy chọn tải bổ sung. |
 
@@ -141,7 +143,7 @@ Hàm tạo này tạo một bản trình bày mới từ đầu. Bản trình b�
 public Presentation(InputStream stream)
 ```
 
-Hàm tạo này là cơ chế chính để đọc một Bản Trình Bày hiện có.
+Hàm khởi tạo này là cơ chế chính để đọc một Presentation đã tồn tại.
 
 --------------------
 
@@ -153,7 +155,7 @@ Hàm tạo này là cơ chế chính để đọc một Bản Trình Bày hiện
 
 
 **Tham số:**
-| Tham số | Kiểu | Mô tả |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.InputStream | Luồng đầu vào. |
 
@@ -162,10 +164,10 @@ Hàm tạo này là cơ chế chính để đọc một Bản Trình Bày hiện
 public Presentation(InputStream stream, LoadOptions loadOptions)
 ```
 
-Hàm tạo này là cơ chế chính để đọc một Bản Trình Bày hiện có.
+Hàm khởi tạo này là cơ chế chính để đọc một Presentation đã tồn tại.
 
 **Tham số:**
-| Tham số | Kiểu | Mô tả |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.InputStream | Luồng đầu vào. |
 | loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) | Các tùy chọn tải bổ sung. |
@@ -175,7 +177,7 @@ Hàm tạo này là cơ chế chính để đọc một Bản Trình Bày hiện
 public Presentation(String file)
 ```
 
-Hàm tạo này lấy đường dẫn tệp nguồn mà từ đó nội dung của Bản Trình Bày được đọc.
+Hàm khởi tạo này lấy đường dẫn tệp nguồn từ đó nội dung của Presentation được đọc.
 
 --------------------
 
@@ -185,7 +187,7 @@ Hàm tạo này lấy đường dẫn tệp nguồn mà từ đó nội dung c�
 
 
 **Tham số:**
-| Tham số | Kiểu | Mô tả |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | file | java.lang.String | Tệp đầu vào. |
 
@@ -194,10 +196,10 @@ Hàm tạo này lấy đường dẫn tệp nguồn mà từ đó nội dung c�
 public Presentation(String file, LoadOptions loadOptions)
 ```
 
-Hàm tạo này lấy đường dẫn tệp nguồn mà từ đó nội dung của Bản Trình Bày được đọc.
+Hàm khởi tạo này lấy đường dẫn tệp nguồn từ đó nội dung của Presentation được đọc.
 
 **Tham số:**
-| Tham số | Kiểu | Mô tả |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | file | java.lang.String | Tệp đầu vào. |
 | loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) | Các tùy chọn tải bổ sung. |
@@ -207,7 +209,7 @@ Hàm tạo này lấy đường dẫn tệp nguồn mà từ đó nội dung c�
 public final Date getCurrentDateTime()
 ```
 
-Trả về hoặc đặt ngày và giờ sẽ thay thế nội dung của các trường datetime. Thời gian tạo đối tượng Presentation này theo mặc định. Đọc/ghi java.util.Date.
+Trả về hoặc đặt ngày và giờ sẽ thay thế nội dung của các trường datetime. Thời gian tạo đối tượng Presentation này theo mặc định. **Đọc/ghi** java.util.Date.
 
 **Trả về:**
 java.util.Date
@@ -216,10 +218,10 @@ java.util.Date
 public final void setCurrentDateTime(Date value)
 ```
 
-Trả về hoặc đặt ngày và giờ sẽ thay thế nội dung của các trường datetime. Thời gian tạo đối tượng Presentation này theo mặc định. Đọc/ghi java.util.Date.
+Trả về hoặc đặt ngày và giờ sẽ thay thế nội dung của các trường datetime. Thời gian tạo đối tượng Presentation này theo mặc định. **Đọc/ghi** java.util.Date.
 
 **Tham số:**
-| Tham số | Kiểu | Mô tả |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.util.Date |  |
 
@@ -228,7 +230,7 @@ Trả về hoặc đặt ngày và giờ sẽ thay thế nội dung của các t
 public final IDOMObject getParent_Immediate()
 ```
 
-Trả về đối tượng Parent_Immediate. Chỉ đọc IDOMObject.
+Trả về đối tượng Parent_Immediate. **Chỉ đọc** IDOMObject.
 
 **Trả về:**
 com.aspose.slides.IDOMObject
@@ -237,7 +239,9 @@ com.aspose.slides.IDOMObject
 public final IPresentationHeaderFooterManager getHeaderFooterManager()
 ```
 
-Trả về trình quản lý HeaderFooter thực tế. Chỉ đọc [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager).
+Trả về trình quản lý HeaderFooter thực tế. **Chỉ đọc** [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager).
+
+--------------------
 
 > ```
 > The following example shows how to set footer visibility inside Slide of PowerPoint Presentation.
@@ -246,20 +250,20 @@ Trả về trình quản lý HeaderFooter thực tế. Chỉ đọc [IPresentati
 >  try
 >  {
 >      IBaseSlideHeaderFooterManager headerFooterManager = pres.getSlides().get_Item(0).getHeaderFooterManager();
->      if (!headerFooterManager.isFooterVisible()) // Thuộc tính IsFooterVisible được dùng để chỉ ra rằng không có trình giữ chỗ chân trang trong slide.
+>      if (!headerFooterManager.isFooterVisible()) // Thuộc tính IsFooterVisible được sử dụng để chỉ ra rằng placeholder chân trang slide không tồn tại.
 >      {
->          headerFooterManager.setFooterVisibility(true); // Phương thức SetFooterVisibility được dùng để làm cho trình giữ chỗ chân trang trong slide hiển thị.
+>          headerFooterManager.setFooterVisibility(true); // Phương thức SetFooterVisibility được sử dụng để làm cho placeholder chân trang slide hiển thị.
 >      }
->      if (!headerFooterManager.isSlideNumberVisible()) // Thuộc tính IsSlideNumberVisible được dùng để chỉ ra rằng không có trình giữ chỗ số trang trong slide.
+>      if (!headerFooterManager.isSlideNumberVisible()) // Thuộc tính IsSlideNumberVisible được sử dụng để chỉ ra rằng placeholder số trang slide không tồn tại.
 >      {
->          headerFooterManager.setSlideNumberVisibility(true); // Phương thức SetSlideNumberVisibility được dùng để làm cho trình giữ chỗ số trang trong slide hiển thị.
+>          headerFooterManager.setSlideNumberVisibility(true); // Phương thức SetSlideNumberVisibility được sử dụng để làm cho placeholder số trang slide hiển thị.
 >      }
->      if (!headerFooterManager.isDateTimeVisible()) // Thuộc tính IsDateTimeVisible được dùng để chỉ ra rằng không có trình giữ chỗ ngày-giờ trong slide.
+>      if (!headerFooterManager.isDateTimeVisible()) // Thuộc tính IsDateTimeVisible được sử dụng để chỉ ra rằng placeholder ngày-giờ slide không tồn tại.
 >      {
->          headerFooterManager.setDateTimeVisibility(true); // Phương thức SetFooterVisibility được dùng để làm cho trình giữ chỗ ngày-giờ trong slide hiển thị.
+>          headerFooterManager.setDateTimeVisibility(true); // Phương thức SetFooterVisibility được sử dụng để làm cho placeholder ngày-giờ slide hiển thị.
 >      }
->      headerFooterManager.setFooterText("Footer text"); // Phương thức SetFooterText được dùng để đặt văn bản cho trình giữ chỗ chân trang trong slide.
->      headerFooterManager.setDateTimeText("Date and time text"); // Phương thức SetDateTimeText được dùng để đặt văn bản cho trình giữ chỗ ngày-giờ trong slide.
+>      headerFooterManager.setFooterText("Footer text"); // Phương thức SetFooterText được sử dụng để đặt văn bản cho placeholder chân trang slide.
+>      headerFooterManager.setDateTimeText("Date and time text"); // Phương thức SetDateTimeText được sử dụng để đặt văn bản cho placeholder ngày-giờ slide.
 >      pres.save("Presentation.ppt", SaveFormat.Ppt);
 >  }
 >  finally
@@ -273,12 +277,12 @@ Trả về trình quản lý HeaderFooter thực tế. Chỉ đọc [IPresentati
 >  try
 >  {
 >      IMasterSlideHeaderFooterManager headerFooterManager = pres.getMasters().get_Item(0).getHeaderFooterManager();
->      headerFooterManager.setFooterAndChildFootersVisibility(true); // Phương thức SetFooterAndChildFootersVisibility được dùng để làm cho slide chủ và tất cả các trình giữ chỗ chân trang con hiển thị.
->      headerFooterManager.setSlideNumberAndChildSlideNumbersVisibility(true); // Phương thức SetSlideNumberAndChildSlideNumbersVisibility được dùng để làm cho slide chủ và tất cả các trình giữ chỗ số trang con hiển thị.
->      headerFooterManager.setDateTimeAndChildDateTimesVisibility(true); // Phương thức SetDateTimeAndChildDateTimesVisibility được dùng để làm cho slide chủ và tất cả các trình giữ chỗ ngày-giờ con hiển thị.
+>      headerFooterManager.setFooterAndChildFootersVisibility(true); // Phương thức SetFooterAndChildFootersVisibility được sử dụng để làm cho slide chủ và tất cả các placeholder chân trang con hiển thị.
+>      headerFooterManager.setSlideNumberAndChildSlideNumbersVisibility(true); // Phương thức SetSlideNumberAndChildSlideNumbersVisibility được sử dụng để làm cho slide chủ và tất cả các placeholder số trang con hiển thị.
+>      headerFooterManager.setDateTimeAndChildDateTimesVisibility(true); // Phương thức SetDateTimeAndChildDateTimesVisibility được sử dụng để làm cho slide chủ và tất cả các placeholder ngày-giờ con hiển thị.
 > 
->      headerFooterManager.setFooterAndChildFootersText("Footer text"); // Phương thức SetFooterAndChildFootersText được dùng để đặt văn bản cho slide chủ và tất cả các trình giữ chỗ chân trang con.
->      headerFooterManager.setDateTimeAndChildDateTimesText("Date and time text"); // Phương thức SetDateTimeAndChildDateTimesText được dùng để đặt văn bản cho slide chủ và tất cả các trình giữ chỗ ngày-giờ con.
+>      headerFooterManager.setFooterAndChildFootersText("Footer text"); // Phương thức SetFooterAndChildFootersText được sử dụng để đặt văn bản cho slide chủ và tất cả các placeholder chân trang con.
+>      headerFooterManager.setDateTimeAndChildDateTimesText("Date and time text"); // Phương thức SetDateTimeAndChildDateTimesText được sử dụng để đặt văn bản cho slide chủ và tất cả các placeholder ngày-giờ con.
 >  }
 >  finally
 >  {
@@ -294,7 +298,7 @@ Trả về trình quản lý HeaderFooter thực tế. Chỉ đọc [IPresentati
 public final IProtectionManager getProtectionManager()
 ```
 
-Lấy trình quản lý quyền cho bản trình bày này. Chỉ đọc [IProtectionManager](../../com.aspose.slides/iprotectionmanager).
+Lấy trình quản lý quyền cho bản trình chiếu này. **Chỉ đọc** [IProtectionManager](../../com.aspose.slides/iprotectionmanager).
 
 **Trả về:**
 [IProtectionManager](../../com.aspose.slides/iprotectionmanager)
@@ -303,7 +307,9 @@ Lấy trình quản lý quyền cho bản trình bày này. Chỉ đọc [IProte
 public final ISlideCollection getSlides()
 ```
 
-Trả về danh sách tất cả các slide được định nghĩa trong bản trình bày. Chỉ đọc [ISlideCollection](../../com.aspose.slides/islidecollection).
+Trả về danh sách tất cả các slide được định nghĩa trong bản trình chiếu. **Chỉ đọc** [ISlideCollection](../../com.aspose.slides/islidecollection).
+
+--------------------
 
 > ```
 > The following example shows how to set slides' background color of PowerPoint Presentation.
@@ -400,7 +406,9 @@ Trả về danh sách tất cả các slide được định nghĩa trong bản 
 public final ISectionCollection getSections()
 ```
 
-Trả về danh sách tất cả các phần slide được định nghĩa trong bản trình bày. Chỉ đọc [ISectionCollection](../../com.aspose.slides/isectioncollection).
+Trả về danh sách tất cả các phần slide được định nghĩa trong bản trình chiếu. **Chỉ đọc** [ISectionCollection](../../com.aspose.slides/isectioncollection).
+
+--------------------
 
 > ```
 > The following examples shows how to create Sections in a PowerPoint Presentation.
@@ -413,7 +421,7 @@ Trả về danh sách tất cả các phần slide được định nghĩa trong
 >      ISlide newSlide3 = pres.getSlides().addEmptySlide(pres.getLayoutSlides().get_Item(0));
 >      ISlide newSlide4 = pres.getSlides().addEmptySlide(pres.getLayoutSlides().get_Item(0));
 >      ISection section1 = pres.getSections().addSection("Section 1", newSlide1);
->      // section1 sẽ kết thúc tại newSlide2 và sau đó section2 sẽ bắt đầu
+>      // section1 sẽ kết thúc ở newSlide2 và sau đó section2 sẽ bắt đầu
 >      ISection section2 = pres.getSections().addSection("Section 2", newSlide3);
 >      pres.save("pres-sections.pptx", SaveFormat.Pptx);
 >      pres.getSections().reorderSectionWithSlides(section2, 0);
@@ -444,7 +452,9 @@ Trả về danh sách tất cả các phần slide được định nghĩa trong
 public final ISlideSize getSlideSize()
 ```
 
-Trả về đối tượng kích thước slide. Chỉ đọc [ISlideSize](../../com.aspose.slides/islidesize).
+Trả về đối tượng kích thước slide. **Chỉ đọc** [ISlideSize](../../com.aspose.slides/islidesize).
+
+--------------------
 
 > ```
 > The following example shows how to change the slide size in a PowerPoint Presentation.
@@ -495,7 +505,7 @@ Trả về đối tượng kích thước slide. Chỉ đọc [ISlideSize](../..
 public final INotesSize getNotesSize()
 ```
 
-Trả về đối tượng kích thước slide ghi chú. Chỉ đọc [INotesSize](../../com.aspose.slides/inotessize).
+Trả về đối tượng kích thước slide ghi chú. **Chỉ đọc** [INotesSize](../../com.aspose.slides/inotessize).
 
 **Trả về:**
 [INotesSize](../../com.aspose.slides/inotessize)
@@ -504,10 +514,11 @@ Trả về đối tượng kích thước slide ghi chú. Chỉ đọc [INotesSi
 public final IGlobalLayoutSlideCollection getLayoutSlides()
 ```
 
-Trả về danh sách tất cả các slide bố cục được định nghĩa trong bản trình bày. Chỉ đọc [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection).
+Trả về danh sách tất cả các slide layout được định nghĩa trong bản trình chiếu. **Chỉ đọc** [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection).
 
 --------------------
-Bạn có thể truy cập API thay thế để thêm/chèn/xóa/sao chép slide bố cục bằng cách sử dụng thuộc tính IMasterSlide.LayoutSlides property.
+
+Bạn có thể truy cập API thay thế để thêm/chèn/xóa/nhân bản slide layout bằng cách sử dụng thuộc tính IMasterSlide.LayoutSlides.
 
 **Trả về:**
 [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection)
@@ -516,7 +527,9 @@ Bạn có thể truy cập API thay thế để thêm/chèn/xóa/sao chép slide
 public final IMasterSlideCollection getMasters()
 ```
 
-Trả về danh sách tất cả các slide master được định nghĩa trong bản trình bày. Chỉ đọc [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection).
+Trả về danh sách tất cả các slide master được định nghĩa trong bản trình chiếu. **Chỉ đọc** [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection).
+
+--------------------
 
 > ```
 > The following examples shows how to adding Images to Master Slides of PowerPoint Presentation.
@@ -620,7 +633,7 @@ Trả về danh sách tất cả các slide master được định nghĩa trong
 public final IMasterNotesSlideManager getMasterNotesSlideManager()
 ```
 
-Trả về trình quản lý master ghi chú. Chỉ đọc [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager).
+Trả về trình quản lý notes master. **Chỉ đọc** [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager).
 
 **Trả về:**
 [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager)
@@ -629,7 +642,7 @@ Trả về trình quản lý master ghi chú. Chỉ đọc [IMasterNotesSlideMan
 public final IMasterHandoutSlideManager getMasterHandoutSlideManager()
 ```
 
-Trả về trình quản lý master handout. Chỉ đọc [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager).
+Trả về trình quản lý handout master. **Chỉ đọc** [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager).
 
 **Trả về:**
 [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager)
@@ -638,7 +651,9 @@ Trả về trình quản lý master handout. Chỉ đọc [IMasterHandoutSlideMa
 public final IFontsManager getFontsManager()
 ```
 
-Trả về trình quản lý phông chữ. Chỉ đọc [IFontsManager](../../com.aspose.slides/ifontsmanager).
+Trả về trình quản lý phông chữ. **Chỉ đọc** [IFontsManager](../../com.aspose.slides/ifontsmanager).
+
+--------------------
 
 > ```
 > The following example shows how to add embedded fonts to PowerPoint Presentation.
@@ -679,7 +694,7 @@ Trả về trình quản lý phông chữ. Chỉ đọc [IFontsManager](../../co
 public final ITextStyle getDefaultTextStyle()
 ```
 
-Trả về kiểu văn bản mặc định cho các hình dạng. Chỉ đọc [ITextStyle](../../com.aspose.slides/itextstyle).
+Trả về kiểu văn bản mặc định cho các shape. **Chỉ đọc** [ITextStyle](../../com.aspose.slides/itextstyle).
 
 **Trả về:**
 [ITextStyle](../../com.aspose.slides/itextstyle)
@@ -688,7 +703,7 @@ Trả về kiểu văn bản mặc định cho các hình dạng. Chỉ đọc [
 public final ICommentAuthorCollection getCommentAuthors()
 ```
 
-Trả về tập hợp các tác giả bình luận. Chỉ đọc [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection).
+Trả về bộ sưu tập các tác giả bình luận. **Chỉ đọc** [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection).
 
 **Trả về:**
 [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection)
@@ -697,7 +712,7 @@ Trả về tập hợp các tác giả bình luận. Chỉ đọc [ICommentAutho
 public final IDocumentProperties getDocumentProperties()
 ```
 
-Trả về đối tượng DocumentProperties chứa các thuộc tính tài liệu chuẩn và tùy chỉnh. Chỉ đọc [IDocumentProperties](../../com.aspose.slides/idocumentproperties).
+Trả về đối tượng DocumentProperties chứa các thuộc tính tài liệu chuẩn và tùy chỉnh. **Chỉ đọc** [IDocumentProperties](../../com.aspose.slides/idocumentproperties).
 
 **Trả về:**
 [IDocumentProperties](../../com.aspose.slides/idocumentproperties)
@@ -706,7 +721,9 @@ Trả về đối tượng DocumentProperties chứa các thuộc tính tài li�
 public final IImageCollection getImages()
 ```
 
-Trả về tập hợp tất cả các hình ảnh trong bản trình bày. Chỉ đọc [IImageCollection](../../com.aspose.slides/iimagecollection).
+Trả về bộ sưu tập tất cả các hình ảnh trong bản trình chiếu. **Chỉ đọc** [IImageCollection](../../com.aspose.slides/iimagecollection).
+
+--------------------
 
 > ```
 > The following examples shows how to add image as BLOB in PowerPoint Presentation.
@@ -762,8 +779,9 @@ Trả về tập hợp tất cả các hình ảnh trong bản trình bày. Ch�
 ```
 public final IAudioCollection getAudios()
 ```
+Trả về tập hợp các tệp âm thanh được nhúng trong bản trình chiếu. Chỉ đọc [IAudioCollection](../../com.aspose.slides/iaudiocollection).
 
-Trả về tập hợp tất cả các tệp âm thanh nhúng trong bản trình bày. Chỉ đọc [IAudioCollection](../../com.aspose.slides/iaudiocollection).
+--------------------
 
 > ```
 > The following examples shows how to add a hyperlink to an audio file.
@@ -789,7 +807,8 @@ Trả về tập hợp tất cả các tệp âm thanh nhúng trong bản trình
 ```
 public final IVideoCollection getVideos()
 ```
-Trả về tập hợp tất cả các tệp video được nhúng trong bản trình chiếu. Chỉ đọc [IVideoCollection](../../com.aspose.slides/ivideocollection).
+
+Trả về tập hợp các tệp video được nhúng trong bản trình chiếu. Chỉ đọc [IVideoCollection](../../com.aspose.slides/ivideocollection).
 
 --------------------
 
@@ -987,7 +1006,6 @@ Trả về tập hợp tất cả các tệp video được nhúng trong bản t
 public final SlideShowSettings getSlideShowSettings()
 ```
 
-
 Trả về cài đặt chiếu slide cho bản trình chiếu.
 
 **Trả về:**
@@ -997,8 +1015,7 @@ Trả về cài đặt chiếu slide cho bản trình chiếu.
 public final IDigitalSignatureCollection getDigitalSignatures()
 ```
 
-
-Trả về tập hợp các chữ ký được dùng để ký bản trình chiếu. Chỉ đọc [IDigitalSignatureCollection](../../com.aspose.slides/idigitalsignaturecollection).
+Trả về tập hợp các chữ ký được sử dụng để ký bản trình chiếu. Chỉ đọc [IDigitalSignatureCollection](../../com.aspose.slides/idigitalsignaturecollection).
 
 --------------------
 
@@ -1034,7 +1051,6 @@ Trả về tập hợp các chữ ký được dùng để ký bản trình chi�
 public final ICustomData getCustomData()
 ```
 
-
 Trả về dữ liệu tùy chỉnh của bản trình chiếu. Chỉ đọc [ICustomData](../../com.aspose.slides/icustomdata).
 
 **Trả về:**
@@ -1043,7 +1059,6 @@ Trả về dữ liệu tùy chỉnh của bản trình chiếu. Chỉ đọc [IC
 ```
 public final ICustomXmlPart[] getAllCustomXmlParts()
 ```
-
 
 Trả về tất cả các phần dữ liệu tùy chỉnh trong bản trình chiếu. Chỉ đọc ICustomXmlPart[].
 
@@ -1054,7 +1069,7 @@ Trả về tất cả các phần dữ liệu tùy chỉnh trong bản trình ch
 >  
 >  Presentation pres = new Presentation("PresentationWithCustomXml.pptx");
 >  try {
->      // Duyệt qua tất cả các phần XML tùy chỉnh
+>      // Iterate all custom XML Parts
 >      for (ICustomXmlPart item : pres.getAllCustomXmlParts())
 >      {
 >          item.remove();
@@ -1067,7 +1082,6 @@ Trả về tất cả các phần dữ liệu tùy chỉnh trong bản trình ch
 >  }
 > ```
 
-
 **Trả về:**
 com.aspose.slides.ICustomXmlPart[]
 ### getVbaProject() {#getVbaProject--}
@@ -1075,8 +1089,7 @@ com.aspose.slides.ICustomXmlPart[]
 public final IVbaProject getVbaProject()
 ```
 
-
-Lấy hoặc đặt dự án VBA với macro của bản trình chiếu. Đọc/ghi [IVbaProject](../../com.aspose.slides/ivbaproject).
+Lấy hoặc đặt dự án VBA với macro bản trình chiếu. Đọc/ghi [IVbaProject](../../com.aspose.slides/ivbaproject).
 
 **Trả về:**
 [IVbaProject](../../com.aspose.slides/ivbaproject)
@@ -1085,11 +1098,10 @@ Lấy hoặc đặt dự án VBA với macro của bản trình chiếu. Đọc/
 public final void setVbaProject(IVbaProject value)
 ```
 
-
-Lấy hoặc đặt dự án VBA với macro của bản trình chiếu. Đọc/ghi [IVbaProject](../../com.aspose.slides/ivbaproject).
+Lấy hoặc đặt dự án VBA với macro bản trình chiếu. Đọc/ghi [IVbaProject](../../com.aspose.slides/ivbaproject).
 
 **Tham số:**
-| Parameter | Type | Description |
+| Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | value | [IVbaProject](../../com.aspose.slides/ivbaproject) |  |
 
@@ -1098,8 +1110,7 @@ Lấy hoặc đặt dự án VBA với macro của bản trình chiếu. Đọc/
 public final IHyperlinkQueries getHyperlinkQueries()
 ```
 
-
-Cung cấp truy cập dễ dàng tới tất cả các liên kết siêu văn bản có trong tất cả các slide của bản trình chiếu (không bao gồm master, layout, slide ghi chú). Chỉ đọc [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
+Cung cấp truy cập dễ dàng tới tất cả các siêu liên kết có trong mọi slide của bản trình chiếu (không bao gồm master, layout, notes slide). Chỉ đọc [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
 
 **Trả về:**
 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)
@@ -1107,7 +1118,6 @@ Cung cấp truy cập dễ dàng tới tất cả các liên kết siêu văn b�
 ```
 public final IViewProperties getViewProperties()
 ```
-
 
 Lấy các thuộc tính hiển thị toàn bộ bản trình chiếu. Chỉ đọc [IViewProperties](../../com.aspose.slides/iviewproperties).
 
@@ -1118,7 +1128,6 @@ Lấy các thuộc tính hiển thị toàn bộ bản trình chiếu. Chỉ đ�
 public final int getFirstSlideNumber()
 ```
 
-
 Đại diện cho số slide đầu tiên trong bản trình chiếu
 
 **Trả về:**
@@ -1128,11 +1137,10 @@ int
 public final void setFirstSlideNumber(int value)
 ```
 
-
 Đại diện cho số slide đầu tiên trong bản trình chiếu
 
 **Tham số:**
-| Parameter | Type | Description |
+| Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | value | int |  |
 
@@ -1140,7 +1148,6 @@ public final void setFirstSlideNumber(int value)
 ```
 public final ISensitivityLabelCollection getSensitivityLabels()
 ```
-
 
 Trả về tập hợp các nhãn nhạy cảm được áp dụng cho tài liệu bản trình chiếu. Chỉ đọc [ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection).
 
@@ -1151,12 +1158,12 @@ Trả về tập hợp các nhãn nhạy cảm được áp dụng cho tài li�
 >  try {
 >      ISensitivityLabelCollection sensitivityLabels = pres.getSensitivityLabels();
 > 
->      // In các nhãn đã áp dụng
+>      // In ra các nhãn đã áp dụng
 >      for (ISensitivityLabel sensitivityLabel : sensitivityLabels)
 >          System.out.println("Label Id " + sensitivityLabel.getId() + " from Azure AD site " + sensitivityLabel.getSiteId());
 > 
 >      // Thêm nhãn mới
->      String labelIdString = "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"; // Lấy Id nhãn độ nhạy từ chính sách
+>      String labelIdString = "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"; // Lấy ID nhãn độ nhạy từ chính sách
 >      UUID siteIdGuid = UUID.fromString("{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"); // Lấy định danh site Azure AD từ chính sách
 >      ISensitivityLabel label = sensitivityLabels.add(labelIdString, siteIdGuid, true, SensitivityLabelAssignmentType.Privileged);
 >      label.getContentMarkTypes().addItem(SensitivityLabelContentType.Footer);
@@ -1175,13 +1182,12 @@ Trả về tập hợp các nhãn nhạy cảm được áp dụng cho tài li�
 public final IBaseSlide getSlideById(long id)
 ```
 
-
 Trả về một Slide, MasterSlide hoặc LayoutSlide theo Id.
 
 **Tham số:**
-| Parameter | Type | Description |
+| Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
-| id | long | Id of a slide. |
+| id | long | Id của một slide. |
 
 **Trả về:**
 [IBaseSlide](../../com.aspose.slides/ibaseslide) - đối tượng IBaseSlide.
@@ -1190,8 +1196,7 @@ Trả về một Slide, MasterSlide hoặc LayoutSlide theo Id.
 public final int getSourceFormat()
 ```
 
-
-Trả về thông tin về định dạng mà bản trình chiếu được tải. Chỉ đọc [SourceFormat](../../com.aspose.slides/sourceformat).
+Trả về thông tin về định dạng mà bản trình chiếu được tải từ. Chỉ đọc [SourceFormat](../../com.aspose.slides/sourceformat).
 
 **Trả về:**
 int
@@ -1200,15 +1205,14 @@ int
 public final IMasterTheme getMasterTheme()
 ```
 
-
-Trả về giao diện chủ đề. Chỉ đọc [IMasterTheme](../../com.aspose.slides/imastertheme).
+Trả về chủ đề master. Chỉ đọc [IMasterTheme](../../com.aspose.slides/imastertheme).
 
 --------------------
 
 > ```
 > The following examples shows how to change a theme effect by altering parts of elements of PowerPoint Presentation.
 >  
->  //Instantiate a presentation object that represents a presentation file
+>  //Khởi tạo một đối tượng presentation đại diện cho tệp trình chiếu
 >  Presentation pres = new Presentation("Subtle_Moderate_Intense.pptx");
 >  try {
 >      pres.getMasterTheme().getFormatScheme().getLineStyles().get_Item(0).getFillFormat().getSolidFillColor().setColor(Color.RED);
@@ -1223,6 +1227,7 @@ Trả về giao diện chủ đề. Chỉ đọc [IMasterTheme](../../com.aspose
 >  }
 > ```
 
+
 **Trả về:**
 [IMasterTheme](../../com.aspose.slides/imastertheme)
 ### save(String fname, int format) {#save-java.lang.String-int-}
@@ -1230,11 +1235,10 @@ Trả về giao diện chủ đề. Chỉ đọc [IMasterTheme](../../com.aspose
 public final void save(String fname, int format)
 ```
 
-
-Lưu tất cả các slide của bản trình chiếu vào một tệp với định dạng được chỉ định.
+Lưu tất cả các slide của bản trình chiếu vào một tệp với định dạng đã chỉ định.
 
 **Tham số:**
-| Parameter | Type | Description |
+| Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | fname | java.lang.String | Đường dẫn tới tệp được tạo. |
 | format | int | Định dạng của dữ liệu xuất. |
@@ -1244,11 +1248,10 @@ Lưu tất cả các slide của bản trình chiếu vào một tệp với đ�
 public final void save(OutputStream stream, int format)
 ```
 
-
-Lưu tất cả các slide của bản trình chiếu vào một luồng ở định dạng được chỉ định.
+Lưu tất cả các slide của bản trình chiếu vào một luồng với định dạng đã chỉ định.
 
 **Tham số:**
-| Parameter | Type | Description |
+| Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | stream | java.io.OutputStream | Luồng đầu ra. |
 | format | int | Định dạng của dữ liệu xuất. |
@@ -1258,11 +1261,10 @@ Lưu tất cả các slide của bản trình chiếu vào một luồng ở đ�
 public final void save(String fname, int format, ISaveOptions options)
 ```
 
-
-Lưu tất cả các slide của bản trình chiếu vào một tệp với định dạng được chỉ định và với các tùy chọn bổ sung.
+Lưu tất cả các slide của bản trình chiếu vào một tệp với định dạng đã chỉ định và với các tùy chọn bổ sung.
 
 **Tham số:**
-| Parameter | Type | Description |
+| Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | fname | java.lang.String | Đường dẫn tới tệp được tạo. |
 | format | int | Định dạng của dữ liệu xuất. |
@@ -1273,11 +1275,10 @@ Lưu tất cả các slide của bản trình chiếu vào một tệp với đ�
 public final void save(OutputStream stream, int format, ISaveOptions options)
 ```
 
-
-Lưu tất cả các slide của bản trình chiếu vào một luồng ở định dạng được chỉ định và với các tùy chọn bổ sung.
+Lưu tất cả các slide của bản trình chiếu vào một luồng với định dạng đã chỉ định và với các tùy chọn bổ sung.
 
 **Tham số:**
-| Parameter | Type | Description |
+| Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | stream | java.io.OutputStream | Luồng đầu ra. |
 | format | int | Định dạng của dữ liệu xuất. |
@@ -1288,8 +1289,7 @@ Lưu tất cả các slide của bản trình chiếu vào một luồng ở đ�
 public final void save(IXamlOptions options)
 ```
 
-
-Lưu tất cả các slide của bản trình chiếu thành một tập hợp các tệp đại diện cho markup XAML.
+Lưu tất cả các slide của bản trình chiếu vào một tập hợp các tệp đại diện cho markup XAML.
 
 --------------------
 
@@ -1307,7 +1307,7 @@ Lưu tất cả các slide của bản trình chiếu thành một tập hợp c
 
 
 **Tham số:**
-| Parameter | Type | Description |
+| Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | options | [IXamlOptions](../../com.aspose.slides/ixamloptions) | Các tùy chọn định dạng XAML. |
 
@@ -1316,11 +1316,10 @@ Lưu tất cả các slide của bản trình chiếu thành một tập hợp c
 public final IImage[] getImages(IRenderingOptions options)
 ```
 
-
 Trả về các đối tượng Image cho tất cả các slide của bản trình chiếu.
 
 **Tham số:**
-| Parameter | Type | Description |
+| Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Các tùy chọn Tiff. |
 
@@ -1331,14 +1330,13 @@ com.aspose.slides.IImage[] - các đối tượng Image.
 public final IImage[] getImages(IRenderingOptions options, int[] slides)
 ```
 
-
 Trả về các đối tượng Thumbnail Image cho các slide được chỉ định của bản trình chiếu.
 
 **Tham số:**
-| Parameter | Type | Description |
+| Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Các tùy chọn Tiff. |
-| slides | int[] | Mảng chứa vị trí các slide, bắt đầu từ 1. |
+| slides | int[] | Mảng các vị trí slide, bắt đầu từ 1. |
 
 **Trả về:**
 com.aspose.slides.IImage[] - các đối tượng Image.
@@ -1347,15 +1345,14 @@ com.aspose.slides.IImage[] - các đối tượng Image.
 public final IImage[] getImages(IRenderingOptions options, float scaleX, float scaleY)
 ```
 
-
 Trả về các đối tượng Thumbnail Image cho tất cả các slide của bản trình chiếu với tỷ lệ tùy chỉnh.
 
 **Tham số:**
-| Parameter | Type | Description |
+| Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Các tùy chọn Tiff. |
-| scaleX | float | Giá trị tỷ lệ theo trục x. |
-| scaleY | float | Giá trị tỷ lệ theo trục y. |
+| scaleX | float | Giá trị để phóng to Thumbnail này theo hướng trục x. |
+| scaleY | float | Giá trị để phóng to Thumbnail này theo hướng trục y. |
 
 **Trả về:**
 com.aspose.slides.IImage[] - các đối tượng Image.
@@ -1364,16 +1361,15 @@ com.aspose.slides.IImage[] - các đối tượng Image.
 public final IImage[] getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)
 ```
 
-
 Trả về các đối tượng Thumbnail Image cho các slide được chỉ định của bản trình chiếu với tỷ lệ tùy chỉnh.
 
 **Tham số:**
-| Parameter | Type | Description |
+| Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Các tùy chọn Tiff. |
-| slides | int[] | Mảng chứa vị trí các slide, bắt đầu từ 1. |
-| scaleX | float | Giá trị tỷ lệ theo trục x. |
-| scaleY | float | Giá trị tỷ lệ theo trục y. |
+| slides | int[] | Mảng các vị trí slide, bắt đầu từ 1. |
+| scaleX | float | Giá trị để phóng to Thumbnail này theo hướng trục x. |
+| scaleY | float | Giá trị để phóng to Thumbnail này theo hướng trục y. |
 
 **Trả về:**
 com.aspose.slides.IImage[] - các đối tượng Image.
@@ -1382,11 +1378,10 @@ com.aspose.slides.IImage[] - các đối tượng Image.
 public final IImage[] getImages(IRenderingOptions options, Dimension imageSize)
 ```
 
-
-Trả về các đối tượng Thumbnail Image cho tất cả các slide của bản trình chiếu với kích thước đã chỉ định.
+Trả về các đối tượng Thumbnail Image cho tất cả các slide của bản trình chiếu với kích thước được chỉ định.
 
 **Tham số:**
-| Parameter | Type | Description |
+| Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Các tùy chọn Tiff. |
 | imageSize | java.awt.Dimension | Kích thước của hình ảnh cần tạo. |
@@ -1398,14 +1393,13 @@ com.aspose.slides.IImage[] - các đối tượng Image.
 public final IImage[] getImages(IRenderingOptions options, int[] slides, Dimension imageSize)
 ```
 
-
-Trả về các đối tượng Thumbnail Image cho các slide được chỉ định của bản trình chiếu với kích thước đã chỉ định.
+Trả về các đối tượng Thumbnail Image cho các slide được chỉ định của bản trình chiếu với kích thước được chỉ định.
 
 **Tham số:**
-| Parameter | Type | Description |
+| Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Các tùy chọn Tiff. |
-| slides | int[] | Mảng chứa vị trí các slide, bắt đầu từ 1. |
+| slides | int[] | Mảng các vị trí slide, bắt đầu từ 1. |
 | imageSize | java.awt.Dimension | Kích thước của hình ảnh cần tạo. |
 
 **Trả về:**
@@ -1415,14 +1409,13 @@ com.aspose.slides.IImage[] - các đối tượng Image.
 public final void save(String fname, int[] slides, int format)
 ```
 
-
-Lưu các slide được chỉ định của bản trình chiếu vào một tệp với định dạng được chỉ định và giữ lại số trang.
+Lưu các slide được chỉ định của bản trình chiếu vào một tệp với định dạng đã chỉ định và giữ lại số trang.
 
 **Tham số:**
-| Parameter | Type | Description |
+| Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | fname | java.lang.String | Đường dẫn tới tệp được tạo. |
-| slides | int[] | Mảng chứa vị trí các slide, bắt đầu từ 1. |
+| slides | int[] | Mảng các vị trí slide, bắt đầu từ 1. |
 | format | int | Định dạng của dữ liệu xuất. |
 
 ### save(String fname, int[] slides, int format, ISaveOptions options) {#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-}
@@ -1430,14 +1423,13 @@ Lưu các slide được chỉ định của bản trình chiếu vào một t�
 public final void save(String fname, int[] slides, int format, ISaveOptions options)
 ```
 
-
-Lưu các slide được chỉ định của bản trình chiếu vào một tệp với định dạng được chỉ định và giữ lại số trang.
+Lưu các slide được chỉ định của bản trình chiếu vào một tệp với định dạng đã chỉ định và giữ lại số trang.
 
 **Tham số:**
-| Parameter | Type | Description |
+| Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | fname | java.lang.String | Đường dẫn tới tệp được tạo. |
-| slides | int[] | Mảng chứa vị trí các slide, bắt đầu từ 1. |
+| slides | int[] | Mảng các vị trí slide, bắt đầu từ 1. |
 | format | int | Định dạng của dữ liệu xuất. |
 | options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Các tùy chọn định dạng bổ sung. |
 
@@ -1446,14 +1438,13 @@ Lưu các slide được chỉ định của bản trình chiếu vào một t�
 public final void save(OutputStream stream, int[] slides, int format)
 ```
 
-
-Lưu các slide được chỉ định của bản trình chiếu vào một luồng ở định dạng được chỉ định và giữ lại số trang.
+Lưu các slide được chỉ định của bản trình chiếu vào một luồng trong định dạng đã chỉ định và giữ lại số trang.
 
 **Tham số:**
-| Parameter | Type | Description |
+| Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | stream | java.io.OutputStream | Luồng đầu ra. |
-| slides | int[] | Mảng chứa vị trí các slide, bắt đầu từ 1. |
+| slides | int[] | Mảng các vị trí slide, bắt đầu từ 1. |
 | format | int | Định dạng của dữ liệu xuất. |
 
 ### save(OutputStream stream, int[] slides, int format, ISaveOptions options) {#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-}
@@ -1461,8 +1452,7 @@ Lưu các slide được chỉ định của bản trình chiếu vào một lu�
 public final void save(OutputStream stream, int[] slides, int format, ISaveOptions options)
 ```
 
-
-Lưu các slide được chỉ định của bản trình chiếu vào một luồng ở định dạng được chỉ định và giữ lại số trang.
+Lưu các slide được chỉ định của bản trình chiếu vào một luồng trong định dạng đã chỉ định và giữ lại số trang.
 
 --------------------
 
@@ -1511,10 +1501,10 @@ Lưu các slide được chỉ định của bản trình chiếu vào một lu�
 > ```
 
 **Tham số:**
-| Parameter | Type | Description |
+| Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | stream | java.io.OutputStream | Luồng đầu ra. |
-| slides | int[] | Mảng chứa vị trí các slide, bắt đầu từ 1. |
+| slides | int[] | Mảng các vị trí slide, bắt đầu từ 1. |
 | format | int | Định dạng của dữ liệu xuất. |
 | options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Các tùy chọn định dạng bổ sung. |
 
@@ -1523,24 +1513,21 @@ Lưu các slide được chỉ định của bản trình chiếu vào một lu�
 public final void joinPortionsWithSameFormatting()
 ```
 
-
-Ghép các đoạn văn bản có cùng định dạng trong tất cả các đoạn văn bản của tất cả các hình dạng cho phép trong tất cả các slide.
+Kết hợp các run có cùng định dạng trong tất cả các đoạn văn trong tất cả các shape chấp nhận được trên mọi slide.
 
 ### dispose() {#dispose--}
 ```
 public final void dispose()
 ```
 
-
-Giải phóng tất cả các tài nguyên được đối tượng Presentation này sử dụng.
+Giải phóng tất cả tài nguyên được sử dụng bởi đối tượng Presentation này.
 
 ### getPresentation() {#getPresentation--}
 ```
 public final IPresentation getPresentation()
 ```
 
-
-Trả về bản trình chiếu cha của một đoạn văn bản. Chỉ đọc [IPresentation](../../com.aspose.slides/ipresentation).
+Trả về bản trình chiếu cha của một văn bản. Chỉ đọc [IPresentation](../../com.aspose.slides/ipresentation).
 
 **Trả về:**
 [IPresentation](../../com.aspose.slides/ipresentation)
@@ -1549,8 +1536,7 @@ Trả về bản trình chiếu cha của một đoạn văn bản. Chỉ đọc
 public final void highlightText(String text, Color highlightColor)
 ```
 
-
-Tô sáng tất cả các vị trí khớp của văn bản mẫu với màu được chỉ định.
+Đánh dấu tất cả các khớp của văn bản mẫu bằng màu đã chỉ định.
 
 --------------------
 
@@ -1559,7 +1545,7 @@ Tô sáng tất cả các vị trí khớp của văn bản mẫu với màu đ�
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
->      // Đánh dấu tất cả các lần xuất hiện riêng biệt của 'the'
+>      // highlighting all separate 'the' occurrences
 >      presentation.highlightText("the", Color.MAGENTA);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -1567,20 +1553,18 @@ Tô sáng tất cả các vị trí khớp của văn bản mẫu với màu đ�
 >  }
 > ```
 
-
 **Tham số:**
-| Parameter | Type | Description |
+| Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
-| text | java.lang.String | Văn bản cần tô sáng. |
-| highlightColor | java.awt.Color | Màu để tô sáng văn bản. |
+| text | java.lang.String | Văn bản cần đánh dấu. |
+| highlightColor | java.awt.Color | Màu để đánh dấu văn bản. |
 
 ### highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
 public final void highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
-
-Tô sáng tất cả các vị trí khớp của văn bản mẫu với màu được chỉ định.
+Đánh dấu tất cả các khớp của văn bản mẫu bằng màu đã chỉ định.
 
 --------------------
 
@@ -1591,7 +1575,7 @@ Tô sáng tất cả các vị trí khớp của văn bản mẫu với màu đ�
 >  try {
 >      TextSearchOptions textSearchOptions = new TextSearchOptions();
 >      textSearchOptions.setWholeWordsOnly(true);
->      // đánh dấu tất cả các lần xuất hiện riêng biệt của 'the'
+>      // highlighting all separate 'the' occurrences
 >      presentation.highlightText("the", Color.MAGENTA, textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -1599,12 +1583,11 @@ Tô sáng tất cả các vị trí khớp của văn bản mẫu với màu đ�
 >  }
 > ```
 
-
 **Tham số:**
-| Parameter | Type | Description |
+| Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
-| text | java.lang.String | Văn bản cần tô sáng. |
-| highlightColor | java.awt.Color | Màu để tô sáng văn bản. |
+| text | java.lang.String | Văn bản cần đánh dấu. |
+| highlightColor | java.awt.Color | Màu để đánh dấu văn bản. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Các tùy chọn tìm kiếm văn bản [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Đối tượng callback để nhận kết quả tìm kiếm [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
@@ -1613,8 +1596,7 @@ Tô sáng tất cả các vị trí khớp của văn bản mẫu với màu đ�
 public final void highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)
 ```
 
-
-Tô sáng tất cả các vị trí khớp của biểu thức chính quy với màu được chỉ định.
+Đánh dấu tất cả các khớp của biểu thức chính quy bằng màu đã chỉ định.
 
 --------------------
 
@@ -1624,7 +1606,7 @@ Tô sáng tất cả các vị trí khớp của biểu thức chính quy với 
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      Pattern regex = Pattern.compile("\\b[^\\s]{10,}\\b");
->      // đánh dấu tất cả các từ có độ dài 10 ký tự trở lên
+>      // highlighting all words with 10 symbols or longer
 >      presentation.highlightRegex(regex, Color.BLUE, null);
 >      presentation.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -1632,19 +1614,17 @@ Tô sáng tất cả các vị trí khớp của biểu thức chính quy với 
 >  }
 > ```
 
-
 **Tham số:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| regex | java.util.regex.Pattern | Biểu thức chính quy java.util.regex.Pattern để lấy các chuỗi cần tô sáng. |
-| highlightColor | java.awt.Color | Màu để tô sáng văn bản. |
+| regex | java.util.regex.Pattern | Biểu thức chính quy java.util.regex.Pattern để lấy các chuỗi cần làm nổi bật. |
+| highlightColor | java.awt.Color | Màu để làm nổi bật văn bản. |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Đối tượng callback để nhận kết quả tìm kiếm [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+
 ### replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback) {#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
 public final void replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
-Thay thế tất cả các trường hợp xuất hiện của văn bản được chỉ định bằng một văn bản khác được chỉ định.
+Thay thế mọi lần xuất hiện của văn bản được chỉ định bằng một văn bản khác.
 
 --------------------
 
@@ -1668,7 +1648,7 @@ Thay thế tất cả các trường hợp xuất hiện của văn bản đư�
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | oldText | java.lang.String | Chuỗi cần được thay thế. |
-| newText | java.lang.String | Chuỗi để thay thế tất cả các trường hợp xuất hiện của oldText. |
+| newText | java.lang.String | Chuỗi để thay thế mọi lần xuất hiện của oldText. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Tùy chọn tìm kiếm văn bản [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Đối tượng callback để nhận kết quả tìm kiếm [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
@@ -1677,7 +1657,7 @@ Thay thế tất cả các trường hợp xuất hiện của văn bản đư�
 public final void replaceRegex(Pattern regex, String newText, IFindResultCallback callback)
 ```
 
-Thay thế tất cả các kết quả khớp của biểu thức chính quy bằng chuỗi được chỉ định.
+Thay thế mọi kết quả khớp của biểu thức chính quy bằng chuỗi được chỉ định.
 
 --------------------
 
@@ -1686,7 +1666,7 @@ Thay thế tất cả các kết quả khớp của biểu thức chính quy b�
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      Pattern regex = Pattern.compile("\\b[^\\s]{10,}\\b");
->      // Thay thế tất cả các từ có độ dài 10 ký tự hoặc hơn bằng '***'
+>      // Thay thế mọi từ có 10 ký tự trở lên bằng '***'
 >      presentation.replaceRegex(regex, "***", null);
 >      presentation.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -1699,5 +1679,50 @@ Thay thế tất cả các kết quả khớp của biểu thức chính quy b�
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | regex | java.util.regex.Pattern | Biểu thức chính quy java.util.regex.Pattern để lấy các chuỗi cần thay thế. |
-| newText | java.lang.String | Chuỗi để thay thế tất cả các trường hợp xuất hiện của các chuỗi cần được thay thế. |
+| newText | java.lang.String | Chuỗi để thay thế mọi lần xuất hiện của các chuỗi cần được thay thế. |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Đối tượng callback để nhận kết quả tìm kiếm [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+
+### refreshChartsData() {#refreshChartsData--}
+```
+public final void refreshChartsData()
+```
+
+Tải lại dữ liệu cho mọi biểu đồ trong bản trình chiếu từ sổ làm việc nguồn của chúng.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("PresentationWithCharts.pptx");
+>  try {
+>      presentation.refreshChartsData();
+>      presentation.save("PresentationWithCharts-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+
+### refreshChartsData(boolean skipFailedCharts) {#refreshChartsData-boolean-}
+```
+public final void refreshChartsData(boolean skipFailedCharts)
+```
+
+Tải lại dữ liệu cho mọi biểu đồ trong bản trình chiếu từ sổ làm việc nguồn của chúng.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("PresentationWithCharts.pptx");
+>  try {
+>      presentation.refreshChartsData();
+>      presentation.save("PresentationWithCharts-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+
+**Tham số:**
+| Tham số | Kiểu | Mô tả |
+| --- | --- | --- |
+| skipFailedCharts | boolean | Xác định việc quá trình làm mới có tiếp tục nếu một biểu đồ không cập nhật được hay không. Nếu true, các biểu đồ gây ra ngoại lệ sẽ bị bỏ qua; nếu không, ngoại lệ sẽ được truyền lên. |

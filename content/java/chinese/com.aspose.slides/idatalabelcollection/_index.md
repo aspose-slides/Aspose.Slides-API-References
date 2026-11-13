@@ -1,11 +1,11 @@
 ---
 title: IDataLabelCollection
-second_title: Aspose.Slides Java API 参考
+second_title: Aspose.Slides for Java API 参考
 description: 表示系列标签。
 type: docs
 url: /zh/com.aspose.slides/idatalabelcollection/
 ---
-**所有实现的接口：**
+**所有实现的接口:**  
 com.aspose.ms.System.Collections.Generic.IGenericEnumerable, [com.aspose.slides.IChartComponent](../../com.aspose.slides/ichartcomponent)
 ```
 public interface IDataLabelCollection extends System.Collections.Generic.IGenericEnumerable<IDataLabel>, IChartComponent
@@ -16,49 +16,51 @@ public interface IDataLabelCollection extends System.Collections.Generic.IGeneri
 
 | 方法 | 描述 |
 | --- | --- |
-| [get_Item(int index)](#get-Item-int-) | 获取具有指定索引的数据点的数据标签。 |
+| [get_Item(int index)](#get-Item-int-) | 获取指定索引的数据点的数据标签。 |
 | [getDefaultDataLabelFormat()](#getDefaultDataLabelFormat--) | 返回集合中所有数据标签的默认格式。 |
 | [getLeaderLinesFormat()](#getLeaderLinesFormat--) | 表示数据标签引导线的格式。 |
-| [isVisible()](#isVisible--) | False 表示默认情况下数据标签不可见（因此 DefaultDataLabelFormat 属性的所有 Show\*-标志（ShowValue，...）均为 false）。 |
-| [hide()](#hide--) | 通过将 DefaultDataLabelFormat 属性的所有 Show\*-标志（ShowValue，...）设置为 false 状态，使数据标签默认隐藏。 |
+| [isVisible()](#isVisible--) | False 表示默认情况下数据标签不可见（因此 DefaultDataLabelFormat 属性的所有 Show*-标志（如 ShowValue 等）均为 false）。 |
+| [hide()](#hide--) | 通过将 DefaultDataLabelFormat 属性的所有 Show*-标志（如 ShowValue 等）设置为 false 状态，使数据标签默认隐藏。 |
 | [getCountOfVisibleDataLabels()](#getCountOfVisibleDataLabels--) | 获取集合中可见数据标签的数量。 |
 | [getCount()](#getCount--) | 获取集合中所有数据标签的数量。 |
 | [getParentSeries()](#getParentSeries--) | 返回父图表系列。 |
 | [indexOf(IDataLabel value)](#indexOf-com.aspose.slides.IDataLabel-) | 返回集合中指定 DataLabel 的索引。 |
+| [getDefaultLabelShapeType()](#getDefaultLabelShapeType--) | 获取或设置数据标签的默认形状类型。 |
+| [setDefaultLabelShapeType(int value)](#setDefaultLabelShapeType-int-) | 获取或设置数据标签的默认形状类型。 |
+
 ### get_Item(int index) {#get-Item-int-}
 ```
 public abstract IDataLabel get_Item(int index)
 ```
 
-
-获取具有指定索引的数据点的数据标签。
+获取指定索引的数据点的数据标签。
 
 --------------------
 
-访问数据标签的另一种方式是：- getSeries().getDataPoints().get_Item(i).getLabel() - 管理标签属性。
+Alternate way to access data label is:
+- getSeries().getDataPoints().get_Item(i).getLabel()
+- 管理标签属性。
 
-**参数：**
+**参数:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | index | int |  |
 
-**返回值：**
+**返回:**
 [IDataLabel](../../com.aspose.slides/idatalabel)
 ### getDefaultDataLabelFormat() {#getDefaultDataLabelFormat--}
 ```
 public abstract IDataLabelFormat getDefaultDataLabelFormat()
 ```
 
-
 返回集合中所有数据标签的默认格式。只读 [IDataLabelFormat](../../com.aspose.slides/idatalabelformat)。
 
-**返回值：**
+**返回:**
 [IDataLabelFormat](../../com.aspose.slides/idatalabelformat)
 ### getLeaderLinesFormat() {#getLeaderLinesFormat--}
 ```
 public abstract IChartLinesFormat getLeaderLinesFormat()
 ```
-
 
 表示数据标签引导线的格式。只读 [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat)。
 
@@ -79,76 +81,128 @@ public abstract IChartLinesFormat getLeaderLinesFormat()
 >  }
 > ```
 
-**返回值：**
+**返回:**
 [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat)
 ### isVisible() {#isVisible--}
 ```
 public abstract boolean isVisible()
 ```
 
-
-False 表示默认情况下数据标签不可见（因此 DefaultDataLabelFormat 属性的所有 Show\*-标志（ShowValue，...）均为 false）。只读 boolean 。
+False 表示默认情况下数据标签不可见（因此 DefaultDataLabelFormat 属性的所有 Show*-标志（如 ShowValue 等）均为 false）。只读 boolean 。
 
 --------------------
 
-如果数据标签默认可见，您可以使用 Hide() 方法将其默认隐藏。但如果数据标签默认不可见（IsVisible 为 false），您可以通过将 DefaultDataLabelFormat 属性的所有 Show\*-标志（ShowValue，...）设置为 true 状态，使数据标签“默认可见”。
+如果数据标签默认可见，你可以使用 Hide() 方法将其默认隐藏。但如果数据标签默认不可见（IsVisible 为 false），则可以通过将 DefaultDataLabelFormat 属性的 Show*-标志（如 ShowValue 等）设置为 true 状态，使数据标签“默认可见”。
 
-**返回值：**
+**返回:**
 boolean
 ### hide() {#hide--}
 ```
 public abstract void hide()
 ```
 
-
-通过将 DefaultDataLabelFormat 属性的所有 Show\*-标志（ShowValue，...）设置为 false 状态，使数据标签默认隐藏。IsVisible 将为 false。
+通过将 DefaultDataLabelFormat 属性的所有 Show*-标志（如 ShowValue 等）设置为 false 状态，使数据标签默认隐藏。之后 IsVisible 将为 false。
 
 --------------------
 
-如果数据标签默认不可见（IsVisible 为 false），您可以通过将 DefaultDataLabelFormat 属性的所有 Show\*-标志（ShowValue，...）设置为 true 状态，使数据标签“默认可见”。
+如果数据标签默认不可见（IsVisible 为 false），则可以通过将 DefaultDataLabelFormat 属性的 Show*-标志（如 ShowValue 等）设置为 true 状态，使数据标签“默认可见”。
 
 ### getCountOfVisibleDataLabels() {#getCountOfVisibleDataLabels--}
 ```
 public abstract int getCountOfVisibleDataLabels()
 ```
 
-
 获取集合中可见数据标签的数量。只读 int 。
 
-**返回值：**
+**返回:**
 int
 ### getCount() {#getCount--}
 ```
 public abstract int getCount()
 ```
 
-
 获取集合中所有数据标签的数量。只读 int 。
 
-**返回值：**
+**返回:**
 int
 ### getParentSeries() {#getParentSeries--}
 ```
 public abstract IChartSeries getParentSeries()
 ```
 
-
 返回父图表系列。只读 [IChartSeries](../../com.aspose.slides/ichartseries)。
 
-**返回值：**
+**返回:**
 [IChartSeries](../../com.aspose.slides/ichartseries)
 ### indexOf(IDataLabel value) {#indexOf-com.aspose.slides.IDataLabel-}
 ```
 public abstract int indexOf(IDataLabel value)
 ```
 
-
 返回集合中指定 DataLabel 的索引。
 
-**参数：**
+**参数:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | value | [IDataLabel](../../com.aspose.slides/idatalabel) | 要查找的 DataLabel。 |
 
-**返回值：**
-int - DataLabel 的索引，如果 DataLabel 不在此集合中则返回 -1。
+**返回:**
+int - DataLabel 的索引；如果 DataLabel 不属于此集合，则返回 -1。
+### getDefaultLabelShapeType() {#getDefaultLabelShapeType--}
+```
+public abstract int getDefaultLabelShapeType()
+```
+
+获取或设置数据标签的默认形状类型。如果未定义形状，则返回 [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined)。
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // 将第一系列中所有数据标签的形状类型设置为 Ellipse。
+>      firstSeries.getLabels().setDefaultLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabels.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+设置此属性还会将集合中所有数据标签的 IDataLabel.LabelShapeType ([IDataLabel.getLabelShapeType](../../com.aspose.slides/idatalabel\#getLabelShapeType)/[IDataLabel.setLabelShapeType(int)](../../com.aspose.slides/idatalabel\#setLabelShapeType-int-)) 属性设置为相同的值。
+
+**返回:**
+int
+### setDefaultLabelShapeType(int value) {#setDefaultLabelShapeType-int-}
+```
+public abstract void setDefaultLabelShapeType(int value)
+```
+
+获取或设置数据标签的默认形状类型。如果未定义形状，则返回 [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined)。
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // 将第一系列中所有数据标签的形状类型设置为 Ellipse。
+>      firstSeries.getLabels().setDefaultLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabels.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+设置此属性还会将集合中所有数据标签的 IDataLabel.LabelShapeType ([IDataLabel.getLabelShapeType](../../com.aspose.slides/idatalabel\#getLabelShapeType)/[IDataLabel.setLabelShapeType(int)](../../com.aspose.slides/idatalabel\#setLabelShapeType-int-)) 属性设置为相同的值。
+
+**参数:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| value | int |  |

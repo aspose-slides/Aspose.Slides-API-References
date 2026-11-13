@@ -1,6 +1,6 @@
 ---
 title: FontsManager
-second_title: مرجع API لـ Aspose.Slides للغة Java
+second_title: مرجع Aspose.Slides لواجهة برمجة تطبيقات جافا
 description: يدير الخطوط عبر العرض التقديمي.
 type: docs
 url: /ar/com.aspose.slides/fontsmanager/
@@ -24,7 +24,7 @@ public class FontsManager implements IFontsManager
 >  // تحميل العرض التقديمي
 >  Presentation pres = new Presentation("Fonts.pptx");
 >  try {
->      // تحميل الخط المصدر الذي سيتم استبداله
+>      // تحميل الخط المصدر لاستبداله
 >      IFontData sourceFont = new FontData("Arial");
 >      IFontData[] allFonts = pres.getFontsManager().getFonts();
 >      for (IFontData font : allFonts)
@@ -48,34 +48,36 @@ public class FontsManager implements IFontsManager
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
-```
+> ```
+
 ## الطرق
 
-| طريقة | الوصف |
+| الطريقة | الوصف |
 | --- | --- |
-| [getFontSubstRuleList()](#getFontSubstRuleList--) | استبدالات الخط لتُستخدم أثناء التصيير. |
-| [setFontSubstRuleList(IFontSubstRuleCollection value)](#setFontSubstRuleList-com.aspose.slides.IFontSubstRuleCollection-) | استبدالات الخط لتُستخدم أثناء التصيير. |
-| [getFontFallBackRulesCollection()](#getFontFallBackRulesCollection--) | يمثل مجموعة المستخدم لقواعد FontFallBack لإدارة مجموعات الخطوط للاستبدالات الصحيحة عبر وظيفة fallback. قراءة/كتابة [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
-| [setFontFallBackRulesCollection(IFontFallBackRulesCollection value)](#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-) | يمثل مجموعة المستخدم لقواعد FontFallBack لإدارة مجموعات الخطوط للاستبدالات الصحيحة عبر وظيفة fallback. قراءة/كتابة [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
-| [getFonts()](#getFonts--) | يعيد الخطوط المستخدمة في العرض التقديمي |
-| [getSubstitutions()](#getSubstitutions--) | يحصل على المعلومات حول الخطوط التي سيتم استبدالها عند تصيير العرض التقديمي. |
-| [getSubstitutions(int[] slides)](#getSubstitutions-int---) | يحصل على المعلومات حول الخطوط التي سيتم استبدالها عند تصيير العرض التقديمي. |
-| [getEmbeddedFonts()](#getEmbeddedFonts--) | يعيد الخطوط المتضمنة في العرض التقديمي |
-| [removeEmbeddedFont(IFontData fontData)](#removeEmbeddedFont-com.aspose.slides.IFontData-) | يزيل الخط المتضمن |
-| [addEmbeddedFont(IFontData fontData, int embedFontRule)](#addEmbeddedFont-com.aspose.slides.IFontData-int-) | يضيف الخط المتضمن |
-| [addEmbeddedFont(byte[] fontData, int embedFontRule)](#addEmbeddedFont-byte---int-) | يضيف الخط المتضمن |
+| [getFontSubstRuleList()](#getFontSubstRuleList--) | بدائل الخطوط لاستخدامها عند التصيير. |
+| [setFontSubstRuleList(IFontSubstRuleCollection value)](#setFontSubstRuleList-com.aspose.slides.IFontSubstRuleCollection-) | بدائل الخطوط لاستخدامها عند التصيير. |
+| [getFontFallBackRulesCollection()](#getFontFallBackRulesCollection--) | يمثل مجموعة المستخدم لقواعد FontFallBack لإدارة مجموعات الخطوط للاستبدالات المناسبة عبر وظيفة fallback. قراءة/كتابة [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
+| [setFontFallBackRulesCollection(IFontFallBackRulesCollection value)](#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-) | يمثل مجموعة المستخدم لقواعد FontFallBack لإدارة مجموعات الخطوط للاستبدالات المناسبة عبر وظيفة fallback. قراءة/كتابة [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
+| [getFonts()](#getFonts--) | تُرجع الخطوط المستخدمة في العرض التقديمي |
+| [getSubstitutions()](#getSubstitutions--) | يحصل على المعلومات عن الخطوط التي سيتم استبدالها عند تصيير العرض التقديمي. |
+| [getSubstitutions(int[] slides)](#getSubstitutions-int---) | يحصل على المعلومات عن الخطوط التي سيتم استبدالها أثناء تصيير الشرائح المحددة. |
+| [getPreferRegisteredFontsOverEmbedded()](#getPreferRegisteredFontsOverEmbedded--) | يحدد ما إذا كان يجب تفضيل الخطوط المسجلة على الخطوط المدمجة التي لها نفس اسم الخط والنمط. |
+| [setPreferRegisteredFontsOverEmbedded(boolean value)](#setPreferRegisteredFontsOverEmbedded-boolean-) | يحدد ما إذا كان يجب تفضيل الخطوط المسجلة على الخطوط المدمجة التي لها نفس اسم الخط والنمط. |
+| [getEmbeddedFonts()](#getEmbeddedFonts--) | تُرجع الخطوط المدمجة في العرض التقديمي |
+| [removeEmbeddedFont(IFontData fontData)](#removeEmbeddedFont-com.aspose.slides.IFontData-) | يزيل الخط المدمج |
+| [addEmbeddedFont(IFontData fontData, int embedFontRule)](#addEmbeddedFont-com.aspose.slides.IFontData-int-) | يضيف الخط المدمج |
+| [addEmbeddedFont(byte[] fontData, int embedFontRule)](#addEmbeddedFont-byte---int-) | يضيف الخط المدمج |
 | [replaceFont(IFontData sourceFont, IFontData destFont)](#replaceFont-com.aspose.slides.IFontData-com.aspose.slides.IFontData-) | استبدال الخط في العرض التقديمي |
 | [replaceFont(IFontSubstRule substRule)](#replaceFont-com.aspose.slides.IFontSubstRule-) | استبدال الخط في العرض التقديمي باستخدام المعلومات المقدمة في [FontSubstRule](../../com.aspose.slides/fontsubstrule) |
 | [replaceFont(IFontSubstRuleCollection substRules)](#replaceFont-com.aspose.slides.IFontSubstRuleCollection-) | استبدال الخط في العرض التقديمي باستخدام المعلومات المقدمة في مجموعة [FontSubstRule](../../com.aspose.slides/fontsubstrule) |
-| [getFontBytes(IFontData fontData, int fontStyle)](#getFontBytes-com.aspose.slides.IFontData-int-) | يسترجع المصفوفة البايتية التي تمثل بيانات الخط لنمط خط محدد وبيانات الخط. |
-| [getFontEmbeddingLevel(byte[] fontBytes, String fontName)](#getFontEmbeddingLevel-byte---java.lang.String-) | يحدد مستوى تضمين الخط من مصفوفة البايت المعطاة واسم الخط. |
-
+| [getFontBytes(IFontData fontData, int fontStyle)](#getFontBytes-com.aspose.slides.IFontData-int-) | يسترجع مصفوفة البايت التي تمثل بيانات الخط لنمط خط محدد وبيانات الخط. |
+| [getFontEmbeddingLevel(byte[] fontBytes, String fontName)](#getFontEmbeddingLevel-byte---java.lang.String-) | يحدد مستوى دمج الخط من مصفوفة البايت المعطاة واسم الخط. |
 ### getFontSubstRuleList() {#getFontSubstRuleList--}
 ```
 public final IFontSubstRuleCollection getFontSubstRuleList()
 ```
 
-استبدالات الخط لتُستخدم أثناء التصيير. قراءة/كتابة [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
+بدائل الخطوط لاستخدامها عند التصيير. قراءة/كتابة [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
 
 **الإرجاع:**
 [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection)
@@ -84,10 +86,10 @@ public final IFontSubstRuleCollection getFontSubstRuleList()
 public final void setFontSubstRuleList(IFontSubstRuleCollection value)
 ```
 
-استبدالات الخط لتُستخدم أثناء التصيير. قراءة/كتابة [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
+بدائل الخطوط لاستخدامها عند التصيير. قراءة/كتابة [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
 
 **المعلمات:**
-| معامل | نوع | وصف |
+| المعامل | النوع | الوصف |
 | --- | --- | --- |
 | value | [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection) |  |
 
@@ -96,7 +98,7 @@ public final void setFontSubstRuleList(IFontSubstRuleCollection value)
 public final IFontFallBackRulesCollection getFontFallBackRulesCollection()
 ```
 
-يمثل مجموعة المستخدم لقواعد FontFallBack لإدارة مجموعات الخطوط للاستبدالات الصحيحة عبر وظيفة fallback. قراءة/كتابة [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
+يمثل مجموعة المستخدم لقواعد FontFallBack لإدارة مجموعات الخطوط للاستبدالات المناسبة عبر وظيفة fallback. قراءة/كتابة [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
 
 --------------------
 
@@ -104,16 +106,16 @@ public final IFontFallBackRulesCollection getFontFallBackRulesCollection()
 > Presentation pres = new Presentation();
 >  try
 >  {
->      // جلب مجموعة القواعد الفارغة أو المُهيأة مسبقًا من FontsManager
+>      // الحصول على مجموعة قواعد فارغة أو مبدئية من FontsManager
 >      IFontFallBackRulesCollection rulesList = pres.getFontsManager().getFontFallBackRulesCollection();
->      // إضافة القواعد إلى المجموعة
+>      // إضافة قواعد إلى المجموعة
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
->      // أو
->      // تهيئة كائن جديد لمجموعة القواعد
+>      // أو 
+>      // تهيئة نسخة جديدة من مجموعة القواعد
 >      IFontFallBackRulesCollection rulesList = new FontFallBackRulesCollection();
->      // إضافة القواعد إلى المجموعة
+>      // إضافة قواعد إلى المجموعة
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
->      // واستبدال المجموعة الحالية بالأخرى الجديدة في FontsManager 
+>      // واستبدال المجموعة الموجودة بالجديدة في FontsManager 
 >      pres.getFontsManager().setFontFallBackRulesCollection(rulesList);
 >  }
 >  finally {
@@ -129,7 +131,7 @@ public final IFontFallBackRulesCollection getFontFallBackRulesCollection()
 public final void setFontFallBackRulesCollection(IFontFallBackRulesCollection value)
 ```
 
-يمثل مجموعة المستخدم لقواعد FontFallBack لإدارة مجموعات الخطوط للاستبدالات الصحيحة عبر وظيفة fallback. قراءة/كتابة [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
+يمثل مجموعة المستخدم لقواعد FontFallBack لإدارة مجموعات الخطوط للاستبدالات المناسبة عبر وظيفة fallback. قراءة/كتابة [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
 
 --------------------
 
@@ -137,16 +139,16 @@ public final void setFontFallBackRulesCollection(IFontFallBackRulesCollection va
 > Presentation pres = new Presentation();
 >  try
 >  {
->      // جلب مجموعة القواعد الفارغة أو المُهيأة مسبقًا من FontsManager
+>      // الحصول على مجموعة قواعد فارغة أو مبدئية من FontsManager
 >      IFontFallBackRulesCollection rulesList = pres.getFontsManager().getFontFallBackRulesCollection();
->      // إضافة القواعد إلى المجموعة
+>      // إضافة قواعد إلى المجموعة
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
->      // أو
->      // تهيئة كائن جديد لمجموعة القواعد
+>      // أو 
+>      // تهيئة نسخة جديدة من مجموعة القواعد
 >      IFontFallBackRulesCollection rulesList = new FontFallBackRulesCollection();
->      // إضافة القواعد إلى المجموعة
+>      // إضافة قواعد إلى المجموعة
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
->      // واستبدال المجموعة الحالية بالأخرى الجديدة في FontsManager 
+>      // واستبدال المجموعة الموجودة بالجديدة في FontsManager 
 >      pres.getFontsManager().setFontFallBackRulesCollection(rulesList);
 >  }
 >  finally {
@@ -156,7 +158,7 @@ public final void setFontFallBackRulesCollection(IFontFallBackRulesCollection va
 
 
 **المعلمات:**
-| معامل | نوع | وصف |
+| المعامل | النوع | الوصف |
 | --- | --- | --- |
 | value | [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection) |  |
 
@@ -165,7 +167,7 @@ public final void setFontFallBackRulesCollection(IFontFallBackRulesCollection va
 public final IFontData[] getFonts()
 ```
 
-يعيد الخطوط المستخدمة في العرض التقديمي
+تُرجع الخطوط المستخدمة في العرض التقديمي
 
 **الإرجاع:**
 com.aspose.slides.IFontData[] - مصفوفة من الخطوط
@@ -174,7 +176,7 @@ com.aspose.slides.IFontData[] - مصفوفة من الخطوط
 public final System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo> getSubstitutions()
 ```
 
-يحصل على المعلومات حول الخطوط التي سيتم استبدالها عند تصيير العرض التقديمي.
+يحصل على المعلومات عن الخطوط التي سيتم استبدالها عند تصيير العرض التقديمي.
 
 --------------------
 
@@ -190,6 +192,7 @@ public final System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo>
 >  }
 > ```
 
+
 **الإرجاع:**
 com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - مجموعة من جميع استبدالات الخطوط [FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo).
 ### getSubstitutions(int[] slides) {#getSubstitutions-int---}
@@ -197,7 +200,7 @@ com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.Fo
 public final System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo> getSubstitutions(int[] slides)
 ```
 
-يحصل على المعلومات حول الخطوط التي سيتم استبدالها عند تصيير الشرائح المحددة.
+يحصل على المعلومات عن الخطوط التي سيتم استبدالها أثناء تصيير الشرائح المحددة.
 
 --------------------
 
@@ -215,18 +218,71 @@ public final System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo>
 > ```
 
 **المعلمات:**
-| معامل | نوع | وصف |
+| المعامل | النوع | الوصف |
 | --- | --- | --- |
-| slides | int[] | مصفوفة من مؤشرات الشرائح التي يُراد استرجاع معلومات استبدال الخطوط لها، بدءًا من 1. |
+| slides | int[] | مصفوفة من فهارس الشرائح التي يجب استرجاع معلومات استبدال الخطوط لها، بدءاً من 1. |
 
 **الإرجاع:**
 com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - مجموعة من جميع استبدالات الخطوط ([FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo)) للشرائح المحددة.
+### getPreferRegisteredFontsOverEmbedded() {#getPreferRegisteredFontsOverEmbedded--}
+```
+public final boolean getPreferRegisteredFontsOverEmbedded()
+```
+
+يحدد ما إذا كان يجب تفضيل الخطوط المسجلة على الخطوط المدمجة التي لها نفس اسم الخط والنمط. عندما يكون مفعلاً، يتم استبدال الخطوط المدمجة المتطابقة مؤقتًا بالخطوط المسجلة المقابلة أثناء التصدير.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("SomePresentation.pptx");
+>  try {
+>      pres.getFontsManager().setPreferRegisteredFontsOverEmbedded(true);
+>      pres.save("Presentation-out.pdf", SaveFormat.Pdf);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+القيمة الافتراضية هي **false**.
+
+**الإرجاع:**
+boolean
+### setPreferRegisteredFontsOverEmbedded(boolean value) {#setPreferRegisteredFontsOverEmbedded-boolean-}
+```
+public final void setPreferRegisteredFontsOverEmbedded(boolean value)
+```
+
+يحدد ما إذا كان يجب تفضيل الخطوط المسجلة على الخطوط المدمجة التي لها نفس اسم الخط والنمط. عندما يكون مفعلاً، يتم استبدال الخطوط المدمجة المتطابقة مؤقتًا بالخطوط المسجلة المقابلة أثناء التصدير.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("SomePresentation.pptx");
+>  try {
+>      pres.getFontsManager().setPreferRegisteredFontsOverEmbedded(true);
+>      pres.save("Presentation-out.pdf", SaveFormat.Pdf);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+القيمة الافتراضية هي **false**.
+
+**المعلمات:**
+| المعامل | النوع | الوصف |
+| --- | --- | --- |
+| value | boolean |  |
+
 ### getEmbeddedFonts() {#getEmbeddedFonts--}
 ```
 public final IFontData[] getEmbeddedFonts()
 ```
 
-يعيد الخطوط المتضمنة في العرض التقديمي
+تُرجع الخطوط المدمجة في العرض التقديمي
 
 **الإرجاع:**
 com.aspose.slides.IFontData[]
@@ -235,10 +291,10 @@ com.aspose.slides.IFontData[]
 public final void removeEmbeddedFont(IFontData fontData)
 ```
 
-يزيل الخط المتضمن
+يزيل الخط المدمج
 
 **المعلمات:**
-| معامل | نوع | وصف |
+| المعامل | النوع | الوصف |
 | --- | --- | --- |
 | fontData | [IFontData](../../com.aspose.slides/ifontdata) |  |
 
@@ -247,10 +303,10 @@ public final void removeEmbeddedFont(IFontData fontData)
 public final void addEmbeddedFont(IFontData fontData, int embedFontRule)
 ```
 
-يضيف الخط المتضمن
+يضيف الخط المدمج
 
 **المعلمات:**
-| معامل | نوع | وصف |
+| المعامل | النوع | الوصف |
 | --- | --- | --- |
 | fontData | [IFontData](../../com.aspose.slides/ifontdata) |  |
 | embedFontRule | int |  |
@@ -260,10 +316,10 @@ public final void addEmbeddedFont(IFontData fontData, int embedFontRule)
 public final void addEmbeddedFont(byte[] fontData, int embedFontRule)
 ```
 
-يضيف الخط المتضمن
+يضيف الخط المدمج
 
 **المعلمات:**
-| معامل | نوع | وصف |
+| المعامل | النوع | الوصف |
 | --- | --- | --- |
 | fontData | byte[] |  |
 | embedFontRule | int |  |
@@ -276,10 +332,10 @@ public final void replaceFont(IFontData sourceFont, IFontData destFont)
 استبدال الخط في العرض التقديمي
 
 **المعلمات:**
-| معامل | نوع | وصف |
+| المعامل | النوع | الوصف |
 | --- | --- | --- |
-| sourceFont | [IFontData](../../com.aspose.slides/ifontdata) | خط المصدر |
-| destFont | [IFontData](../../com.aspose.slides/ifontdata) | خط الوجهة |
+| sourceFont | [IFontData](../../com.aspose.slides/ifontdata) | الخط المصدر |
+| destFont | [IFontData](../../com.aspose.slides/ifontdata) | الخط الوجهة |
 
 ### replaceFont(IFontSubstRule substRule) {#replaceFont-com.aspose.slides.IFontSubstRule-}
 ```
@@ -289,7 +345,7 @@ public final void replaceFont(IFontSubstRule substRule)
 استبدال الخط في العرض التقديمي باستخدام المعلومات المقدمة في [FontSubstRule](../../com.aspose.slides/fontsubstrule)
 
 **المعلمات:**
-| معامل | نوع | وصف |
+| المعامل | النوع | الوصف |
 | --- | --- | --- |
 | substRule | [IFontSubstRule](../../com.aspose.slides/ifontsubstrule) | معلومات استبدال الخط |
 
@@ -301,16 +357,16 @@ public final void replaceFont(IFontSubstRuleCollection substRules)
 استبدال الخط في العرض التقديمي باستخدام المعلومات المقدمة في مجموعة [FontSubstRule](../../com.aspose.slides/fontsubstrule)
 
 **المعلمات:**
-| معامل | نوع | وصف |
+| المعامل | النوع | الوصف |
 | --- | --- | --- |
-| substRules | [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection) | مجموعة قواعد استبدال الخطوط |
+| substRules | [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection) | مجموعة قواعد استبدال الخط |
 
 ### getFontBytes(IFontData fontData, int fontStyle) {#getFontBytes-com.aspose.slides.IFontData-int-}
 ```
 public final byte[] getFontBytes(IFontData fontData, int fontStyle)
 ```
 
-يسترجع المصفوفة البايتية التي تمثل بيانات الخط لنمط خط محدد وبيانات الخط.
+يسترجع مصفوفة البايت التي تمثل بيانات الخط لنمط خط محدد وبيانات الخط.
 
 --------------------
 
@@ -319,7 +375,7 @@ public final byte[] getFontBytes(IFontData fontData, int fontStyle)
 >  try {
 >      // استرجاع جميع الخطوط المستخدمة في العرض التقديمي
 >      IFontData[] fonts = pres.getFontsManager().getFonts();
->      // الحصول على مصفوفة البايت تمثل النمط العادي للخط الأول في العرض التقديمي
+>      // احصل على مصفوفة البايت التي تمثل النمط العادي لأول خط في العرض التقديمي
 >      byte[] fontBytes = pres.getFontsManager().getFontBytes(fonts[0], FontStyleType.Regular);
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -327,19 +383,19 @@ public final byte[] getFontBytes(IFontData fontData, int fontStyle)
 > ```
 
 **المعلمات:**
-| معامل | نوع | وصف |
+| المعامل | النوع | الوصف |
 | --- | --- | --- |
 | fontData | [IFontData](../../com.aspose.slides/ifontdata) | كائن بيانات الخط الذي يحتوي على المعلومات حول الخط [IFontData](../../com.aspose.slides/ifontdata). |
-| fontStyle | int | نمط الخط الذي يُراد استرجاع البيانات له [FontStyleType](../../com.aspose.slides/fontstyletype). |
+| fontStyle | int | نمط الخط الذي يجب استرجاع البيانات له [FontStyleType](../../com.aspose.slides/fontstyletype). |
 
 **الإرجاع:**
-byte[] - مصفوفة بايتية تحتوي على بيانات الخط للنمط المحدد. إذا لم توجد بيانات الخط أو النمط، يرجع null.
+byte[] - مصفوفة بايت تحتوي على بيانات الخط للنمط المحدد. إذا لم يتم العثور على بيانات الخط أو النمط، تُرجع null.
 ### getFontEmbeddingLevel(byte[] fontBytes, String fontName) {#getFontEmbeddingLevel-byte---java.lang.String-}
 ```
 public final int getFontEmbeddingLevel(byte[] fontBytes, String fontName)
 ```
 
-يحدد مستوى تضمين الخط من مصفوفة البايت المعطاة واسم الخط.
+يحدد مستوى دمج الخط من مصفوفة البايت المعطاة واسم الخط.
 
 --------------------
 
@@ -348,20 +404,21 @@ public final int getFontEmbeddingLevel(byte[] fontBytes, String fontName)
 >  try {
 >      // استرجاع جميع الخطوط المستخدمة في العرض التقديمي
 >      IFontData[] fontDatas = pres.getFontsManager().getFonts();
->      // الحصول على مصفوفة البايت التي تمثل النمط العادي للخط الأول في العرض التقديمي
+>      // احصل على مصفوفة البايت التي تمثل النمط العادي للخط الأول في العرض التقديمي
 >      byte[] bytes = pres.getFontsManager().getFontBytes(fontDatas[0], FontStyle.Regular);
->      // تحديد مستوى تضمين الخط
+>      // تحديد مستوى دمج الخط
 >      int embeddingLevel = pres.getFontsManager().getFontEmbeddingLevel(bytes, fontDatas[0].getFontName());
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
 > ```
 
+
 **المعلمات:**
-| معامل | نوع | وصف |
+| المعامل | النوع | الوصف |
 | --- | --- | --- |
-| fontBytes | byte[] | المصفوفة البايتية التي تحتوي على بيانات الخط. |
+| fontBytes | byte[] | مصفوفة البايت التي تحتوي على بيانات الخط. |
 | fontName | java.lang.String | اسم الخط. |
 
 **الإرجاع:**
-int - مستوى التضمين للخط المحدد.
+int - مستوى دمج الخط المحدد.

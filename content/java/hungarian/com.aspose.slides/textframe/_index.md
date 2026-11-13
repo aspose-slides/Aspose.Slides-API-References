@@ -1,85 +1,86 @@
 ---
 title: TextFrame
-second_title: Aspose.Slides Java API Referenciája
-description: Egy TextFrame-et reprezentál.
+second_title: Aspose.Slides Java API referencia
+description: A TextFrame-et képviseli.
 type: docs
 url: /hu/com.aspose.slides/textframe/
 ---
 **Öröklés:**
 java.lang.Object
 
-**Az összes megvalósított interfész:**
+**Az összes implementált interfész:**
 [com.aspose.slides.ITextFrame](../../com.aspose.slides/itextframe), com.aspose.slides.IDOMObject
 ```
 public final class TextFrame implements ITextFrame, IDOMObject
 ```
 
-Egy TextFrame-et ábrázol.
-## Módszerek
+A TextFrame-et képviseli.
+## Metódusok
 
-| Módszer | Leírás |
+| Metódus | Leírás |
 | --- | --- |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-| [getParagraphs()](#getParagraphs--) | Visszaadja keretben található összes bekezdés listáját. |
-| [getText()](#getText--) | Lekérdezi vagy beállítja egy TextFrame egyszerű szövegét. |
-| [setText(String value)](#setText-java.lang.String-) | A TextFrame egyszerű szövegét kérdezi le vagy állítja be. |
+| [getParagraphs()](#getParagraphs--) | Visszaadja a keret összes bekezdésének listáját. |
+| [getText()](#getText--) | Lekérdezi vagy beállítja a TextFrame egyszerű szövegét. |
+| [setText(String value)](#setText-java.lang.String-) | Lekérdezi vagy beállítja a TextFrame egyszerű szövegét. |
 | [getTextFrameFormat()](#getTextFrameFormat--) | Visszaadja a formázási objektumot ehhez a TextFrame objektumhoz. |
 | [getHyperlinkQueries()](#getHyperlinkQueries--) | Könnyű hozzáférést biztosít a tartalmazott hiperhivatkozásokhoz. |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Egyesíti az azonos formázású run-okat az összes bekezdésben. |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Egyesíti az azonos formázású futamokat az összes bekezdésben. |
 | [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | Kiemeli a minta szöveg összes egyezését a megadott színnel. |
 | [highlightText(String text, Color highlightColor, ITextHighlightingOptions options)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Kiemeli a minta szöveg összes egyezését a megadott színnel. |
-| [splitTextByColumns()](#splitTextByColumns--) | Felosztja a [ITextFrame](../../com.aspose.slides/itextframe) szövegtartalmát egy karakterlánc tömbre, ahol minden elem a keretben lévő különálló szövegoszlopnak felel meg. |
+| [splitTextByColumns()](#splitTextByColumns--) | Felosztja a(z) [ITextFrame](../../com.aspose.slides/itextframe) szövegtartalmát egy karakterlánc-tömbbé, ahol minden elem a kereten belüli külön szövegoszlopnak felel meg. |
 | [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Kiemeli a minta szöveg összes egyezését a megadott színnel. |
 | [highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)](#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Kiemeli a reguláris kifejezés összes egyezését a megadott színnel. |
 | [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | Kiemeli a reguláris kifejezés összes egyezését a megadott színnel. |
 | [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Lecseréli a megadott szöveg összes előfordulását egy másik megadott szövegre. |
-| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Lecseréli a reguláris kifejezés összes egyezését a megadott karakterláncra. |
+| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Lecseréli a reguláris kifejezés összes találatát a megadott karakterláncra. |
 | [getSlide()](#getSlide--) | Visszaadja egy TextFrame szülődiapozitívját. |
-| [getPresentation()](#getPresentation--) | Visszaadja egy TextFrame szülőprezentációját. |
-| [getParentShape()](#getParentShape--) | Visszaadja a szülő alakzatot, vagy null értéket, ha a szülőobjektum nem valósítja meg az IShape interfészt. Csak olvasható [IShape](../../com.aspose.slides/ishape). |
-| [getParentCell()](#getParentCell--) | Visszaadja a szülő cellát, vagy null értéket, ha a szülőobjektum nem valósítja meg az ICell interfészt. |
+| [getPresentation()](#getPresentation--) | Visszaadja egy TextFrame szülő prezentációját. |
+| [getParentShape()](#getParentShape--) | Visszaadja a szülő alakzatot, vagy null értéket, ha a szülő objektum nem valósítja meg az IShape interfészt. Csak olvasható [IShape](../../com.aspose.slides/ishape). |
+| [getTextRect()](#getTextRect--) | Lekérdezi a szülő alakzat geometria által definiált szövegtéglalapot. |
+| [getParentCell()](#getParentCell--) | Visszaadja a szülő cellát, vagy null értéket, ha a szülő objektum nem valósítja meg az ICell interfészt. |
 
 ### getParent_Immediate() {#getParent-Immediate--}
 ```
 public final IDOMObject getParent_Immediate()
 ```
 
+Visszaadja a Parent_Immediate objektumot. Csak olvasható IDOMObject.
 
-Visszaad egy Parent_Immediate objektumot. Csak olvasható IDOMObject.
-
-**Visszatérési érték:**
+**Visszaad:**
 com.aspose.slides.IDOMObject
+
 ### getParagraphs() {#getParagraphs--}
 ```
 public final IParagraphCollection getParagraphs()
 ```
 
+Visszaadja a keret összes bekezdésének listáját. Csak olvasható [IParagraphCollection](../../com.aspose.slides/iparagraphcollection).
 
-Visszaadja az összes bekezdés listáját egy keretben. Csak olvasható [IParagraphCollection](../../com.aspose.slides/iparagraphcollection).
-
-**Visszatérési érték:**
+**Visszaad:**
 [IParagraphCollection](../../com.aspose.slides/iparagraphcollection)
+
 ### getText() {#getText--}
 ```
 public final String getText()
 ```
 
-
-Lekéri vagy beállítja a TextFrame egyszerű szövegét. Olvasható/írható String.
+Lekérdezi vagy beállítja a TextFrame egyszerű szövegét. Olvasható/írható String.
 
 Érték: A szöveg.
 
-**Visszatérési érték:**
+**Visszaad:**
 java.lang.String
+
 ### setText(String value) {#setText-java.lang.String-}
 ```
 public final void setText(String value)
 ```
 
-
-Lekéri vagy beállítja a TextFrame egyszerű szövegét. Olvasható/írható String.
+Lekérdezi vagy beállítja a TextFrame egyszerű szövegét. Olvasható/írható String.
 
 Érték: A szöveg.
+
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
@@ -92,7 +93,7 @@ public final ITextFrameFormat getTextFrameFormat()
 
 Visszaadja a formázási objektumot ehhez a TextFrame objektumhoz. Csak olvasható [ITextFrameFormat](../../com.aspose.slides/itextframeformat).
 
-**Visszatér:**
+**Visszaad:**
 [ITextFrameFormat](../../com.aspose.slides/itextframeformat)
 
 ### getHyperlinkQueries() {#getHyperlinkQueries--}
@@ -100,9 +101,9 @@ Visszaadja a formázási objektumot ehhez a TextFrame objektumhoz. Csak olvashat
 public final IHyperlinkQueries getHyperlinkQueries()
 ```
 
-Könnyű hozzáférést biztosít a tartalmazott hivatkozásokhoz. Csak olvasható [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
+Könnyű hozzáférést biztosít a tartalmazott hiperhivatkozásokhoz. Csak olvasható [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
 
-**Visszatér:**
+**Visszaad:**
 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)
 
 ### joinPortionsWithSameFormatting() {#joinPortionsWithSameFormatting--}
@@ -110,29 +111,27 @@ Könnyű hozzáférést biztosít a tartalmazott hivatkozásokhoz. Csak olvashat
 public final void joinPortionsWithSameFormatting()
 ```
 
-Összevonja a futamokat azonos formázással minden bekezdésben.
+Egyesíti az azonos formázású futamokat az összes bekezdésben.
 
 ### highlightText(String text, Color highlightColor) {#highlightText-java.lang.String-java.awt.Color-}
 ```
 public final void highlightText(String text, Color highlightColor)
 ```
 
-Kiemeli a mintaszöveg összes egyezését a megadott színnel.
+Kiemeli a minta szöveg összes egyezését a megadott színnel.
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| text | java.lang.String | Kiemelendő szövegminta. |
-| highlightColor | java.awt.Color | A szöveg kiemeléséhez használt szín. |
+| text | java.lang.String | A kiemelendő szöveg minta. |
+| highlightColor | java.awt.Color | A szöveg kiemeléséhez használandó szín. |
 
 ### highlightText(String text, Color highlightColor, ITextHighlightingOptions options) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-}
 ```
 public final void highlightText(String text, Color highlightColor, ITextHighlightingOptions options)
 ```
 
-Kiemeli a mintaszöveg összes egyezését a megadott színnel.
-
---------------------
+Kiemeli a minta szöveg összes egyezését a megadott színnel.
 
 > ```
 > The following sample code shows how to Highlight Text in a TextFrame.
@@ -140,9 +139,9 @@ Kiemeli a mintaszöveg összes egyezését a megadott színnel.
 >  try {
 >      TextHighlightingOptions textHighlightingOptions = new TextHighlightingOptions();
 >      textHighlightingOptions.setWholeWordsOnly(true);
->      // az összes 'important' szót kiemeli
+>      // highlighting all words 'important'
 >      ((AutoShape)pres.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightText("title", Color.BLUE);
->      // az összes különálló 'the' előfordulást kiemeli
+>      // highlighting all separate 'the' occurrences
 >      ((AutoShape)pres.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightText("to", Color.MAGENTA, textHighlightingOptions);
 >      pres.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -150,12 +149,11 @@ Kiemeli a mintaszöveg összes egyezését a megadott színnel.
 >  }
 > ```
 
-
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
 | text | java.lang.String | A kiemelendő szöveg. |
-| highlightColor | java.awt.Color | A szöveg kiemeléséhez használt szín. |
+| highlightColor | java.awt.Color | A szöveg kiemeléséhez használandó szín. |
 | options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | Kiemelési beállítások. |
 
 ### splitTextByColumns() {#splitTextByColumns--}
@@ -163,20 +161,18 @@ Kiemeli a mintaszöveg összes egyezését a megadott színnel.
 public final String[] splitTextByColumns()
 ```
 
-Felosztja a [ITextFrame](../../com.aspose.slides/itextframe) szövegtartalmát egy karakterlánc tömbbe, ahol minden elem a kereten belül egy külön szövegoszlopnak felel meg.
-
---------------------
+Felosztja a(z) [ITextFrame](../../com.aspose.slides/itextframe) szövegtartalmát egy karakterlánc-tömbbé, ahol minden elem a kereten belüli külön szövegoszlopnak felel meg.
 
 > ```
-> A következő példa bemutatja a #splitTextByColumns.splitTextByColumns használatát:
+> The following example demonstrates how to use #splitTextByColumns.splitTextByColumns:
 >  
 >  Presentation pres = new Presentation("example.pptx");
 >  try {
->      // Az első alakzatot a dián lekéri és ITextFrame típusra konvertálja
+>      // Get the first shape on the slide and cast it to ITextFrame
 >      ITextFrame textFrame = (ITextFrame) pres.getSlides().get_Item(0).getShapes().get_Item(0);
->      // A szövegkeret tartalmát oszlopokra bontja
+>      // Split the text frame content into columns
 >      String[] columnsText = textFrame.splitTextByColumns();
->      // Minden oszlop szövegét kiírja a konzolra
+>      // Print each column's text to the console
 >      for (String column : columnsText)
 >          System.out.println(column);
 >  } finally {
@@ -184,22 +180,17 @@ Felosztja a [ITextFrame](../../com.aspose.slides/itextframe) szövegtartalmát e
 >  }
 > ```
 
+**Visszaad:**
+java.lang.String[] - Egy karakterlánc-tömb, ahol minden karakterlánc egy adott oszlop szövegtartalmát reprezentálja a [ITextFrame](../../com.aspose.slides/itextframe)-ben.
 
-**Visszatér:**
-java.lang.String[] - Egy karakterláncok tömbje, ahol minden karakterlánc egy adott oszlop szövegtartalmát képviseli a [ITextFrame](../../com.aspose.slides/itextframe)-ben.
+Ha a szövegkeret nem tartalmaz több oszlopot, a visszaadott tömb egyetlen elemet tartalmaz, amely a teljes szöveget tartalmazza. Üres oszlopok üres karakterláncokként lesznek ábrázolva a tömbben.
 
---------------------
-
-Ha a szövegkeret nem tartalmaz több oszlopot, a visszaadott tömb egyetlen elemet fog tartalmazni, amely az egész szöveget tartalmazza. Üres oszlopok a tömbben üres karakterláncként lesznek ábrázolva.
 ### highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
 public final void highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
-
 Kiemeli a minta szöveg összes egyezését a megadott színnel.
-
---------------------
 
 > ```
 > The following code sample shows how to highlight text in a TextFrame.
@@ -208,9 +199,9 @@ Kiemeli a minta szöveg összes egyezését a megadott színnel.
 >  try {
 >      TextSearchOptions textSearchOptions = new TextSearchOptions();
 >      textSearchOptions.setWholeWordsOnly(true);
->      // az összes 'important' szót kiemeli
+>      // highlighting all words 'important'
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightText("important", Color.BLUE);
->      // az összes különálló 'the' előfordulást kiemeli
+>      // highlighting all separate 'the' occurrences
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightText("the", Color.MAGENTA, textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -218,24 +209,20 @@ Kiemeli a minta szöveg összes egyezését a megadott színnel.
 >  }
 > ```
 
-
 **Paraméterek:**
-| Parameter | Type | Description |
+| Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| text | java.lang.String | The text to highlight. |
-| highlightColor | java.awt.Color | The color to highlight the text. |
-| options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Text search options [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | The callback object for receiving search results [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| text | java.lang.String | A kiemelendő szöveg. |
+| highlightColor | java.awt.Color | A szöveg kiemeléséhez használandó szín. |
+| options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Szövegkeresési beállítások [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | A visszahívási objektum a keresési eredmények fogadásához [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options) {#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-}
 ```
 public final void highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)
 ```
 
-
 Kiemeli a reguláris kifejezés összes egyezését a megadott színnel.
-
---------------------
 
 > ```
 > The following code sample shows how to highlight text in a TextFrame using a regular expression.
@@ -243,7 +230,7 @@ Kiemeli a reguláris kifejezés összes egyezését a megadott színnel.
 >  Presentation pres = new Presentation("SomePresentation.pptx");
 >  try {
 >      TextHighlightingOptions options = new TextHighlightingOptions();
->      // a 10 vagy több szimbólumú összes szót kiemeli
+>      // a 10 vagy több szimbólumú összes szó kiemelése
 >      ((AutoShape) pres.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightRegex("\\b[^\\s){5,}\\b", Color.BLUE, options);
 >      pres.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -253,21 +240,18 @@ Kiemeli a reguláris kifejezés összes egyezését a megadott színnel.
 
 
 **Paraméterek:**
-| Parameter | Type | Description |
+| Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| regex | java.lang.String | Text of regular expression to get text to highlight. |
-| highlightColor | java.awt.Color | The color to highlight the text. |
-| options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | Highlighting options. |
+| regex | java.lang.String | A reguláris kifejezés szövege a kiemelendő szöveghez. |
+| highlightColor | java.awt.Color | A szöveg kiemeléséhez használandó szín. |
+| options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | Kiemelési beállítások. |
 
 ### highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback) {#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-}
 ```
 public final void highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)
 ```
 
-
 Kiemeli a reguláris kifejezés összes egyezését a megadott színnel.
-
---------------------
 
 > ```
 > The following code sample shows how to highlight text in a TextFrame using a regular expression.
@@ -275,7 +259,7 @@ Kiemeli a reguláris kifejezés összes egyezését a megadott színnel.
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      Pattern regex = Pattern.compile("\\b[^\\s]{5,}\\b");
->      // a 5 vagy több szimbólumú összes szót kiemeli
+>      // az összes 5 vagy több szimbólumú szó kiemelése
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightRegex(regex, Color.BLUE, null);
 >      presentation.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -285,21 +269,18 @@ Kiemeli a reguláris kifejezés összes egyezését a megadott színnel.
 
 
 **Paraméterek:**
-| Parameter | Type | Description |
+| Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | The regular expression java.util.regex.Pattern to get strings to highlight. |
-| highlightColor | java.awt.Color | The color to highlight the text. |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | The callback object for receiving search results [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| regex | java.util.regex.Pattern | A java.util.regex.Pattern típusú reguláris kifejezés a kiemelendő karakterláncokhoz. |
+| highlightColor | java.awt.Color | A szöveg kiemeléséhez használandó szín. |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | A visszahívási objektum a keresési eredmények fogadásához [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback) {#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
 public final void replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
-
 Lecseréli a megadott szöveg összes előfordulását egy másik megadott szövegre.
-
---------------------
 
 > ```
 > The following sample code shows how to replace one speified string with another speified string.
@@ -308,7 +289,7 @@ Lecseréli a megadott szöveg összes előfordulását egy másik megadott szöv
 >  try {
 >      TextSearchOptions textSearchOptions = new TextSearchOptions();
 >      textSearchOptions.setWholeWordsOnly(true);
->      // Az összes különálló 'the' előfordulást '***'-ra cseréli
+>      // Az összes különálló 'the' előfordulást cseréli '***'-ra
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().replaceText("the", "***", textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -316,23 +297,21 @@ Lecseréli a megadott szöveg összes előfordulását egy másik megadott szöv
 >  }
 > ```
 
+
 **Paraméterek:**
-| Parameter | Type | Description |
+| Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| oldText | java.lang.String | The string to be replaced. |
-| newText | java.lang.String | The string to replace all occurrences of oldText. |
-| options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Text search options [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Callback object for saving replacement operation result [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| oldText | java.lang.String | A lecserélendő karakterlánc. |
+| newText | java.lang.String | A karakterlánc, amely minden előfordulást lecserél az oldText-re. |
+| options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Szövegkeresési beállítások [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Visszahívási objektum a csere művelet eredményének mentéséhez [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### replaceRegex(Pattern regex, String newText, IFindResultCallback callback) {#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-}
 ```
 public final void replaceRegex(Pattern regex, String newText, IFindResultCallback callback)
 ```
 
-
 Lecseréli a reguláris kifejezés összes egyezését a megadott karakterláncra.
-
---------------------
 
 > ```
 > The following sample code shows how to replace text using regular expression with specified string.
@@ -340,7 +319,7 @@ Lecseréli a reguláris kifejezés összes egyezését a megadott karakterláncr
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      Pattern regex = Pattern.compile("\\b[^\\s]{5,}\\b");
->      // A 5 vagy több szimbólumú összes szót '***'-ra cseréli
+>      // Az összes 5 vagy több szimbólumú szót cseréli '***'-ra
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().replaceRegex(regex, "***", null);
 >      presentation.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -348,43 +327,39 @@ Lecseréli a reguláris kifejezés összes egyezését a megadott karakterláncr
 >  }
 > ```
 
-
 **Paraméterek:**
-| Parameter | Type | Description |
+| Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | The regular expression java.util.regex.Pattern to get strings to be replaced. |
-| newText | java.lang.String | The string to replace all occurrences of strings to be replaced. |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Callback object for saving replacement operation result [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| regex | java.util.regex.Pattern | A java.util.regex.Pattern típusú reguláris kifejezés a lecserélendő karakterláncokhoz. |
+| newText | java.lang.String | A karakterlánc, amely a lecserélendő karakterláncok összes előfordulását lecseréli. |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Visszahívási objektum a csere művelet eredményének mentéséhez [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### getSlide() {#getSlide--}
 ```
 public final IBaseSlide getSlide()
 ```
 
+Visszaadja a TextFrame szülődiapozitívját. Csak olvasható [IBaseSlide](../../com.aspose.slides/ibaseslide).
 
-Visszatér a TextFrame szülő diájával. Csak olvasható [IBaseSlide](../../com.aspose.slides/ibaseslide).
-
-**Visszatér:**
+**Visszaad:**
 [IBaseSlide](../../com.aspose.slides/ibaseslide)
+
 ### getPresentation() {#getPresentation--}
 ```
 public final IPresentation getPresentation()
 ```
 
+Visszaadja a TextFrame szülőprezentációját. Csak olvasható [IPresentation](../../com.aspose.slides/ipresentation).
 
-Visszatér a TextFrame szülő prezentációjával. Csak olvasható [IPresentation](../../com.aspose.slides/ipresentation).
-
-**Visszatér:**
+**Visszaad:**
 [IPresentation](../../com.aspose.slides/ipresentation)
+
 ### getParentShape() {#getParentShape--}
 ```
 public final IShape getParentShape()
 ```
 
-
-Visszatér a szülő alakzattal, vagy null értékkel, ha a szülő objektum nem valósítja meg az IShape interfészt. Csak olvasható [IShape](../../com.aspose.slides/ishape).
-
---------------------
+Visszaadja a szülő alakzatot, vagy null értéket, ha a szülő objektum nem valósítja meg az IShape interfészt. Csak olvasható [IShape](../../com.aspose.slides/ishape).
 
 > ```
 > The following code sample shows 
@@ -394,7 +369,7 @@ Visszatér a szülő alakzattal, vagy null értékkel, ha a szülő objektum nem
 >      AutoShape autoShape = (AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0);
 >      Table table = (Table)presentation.getSlides().get_Item(0).getShapes().get_Item(1);
 > 
->      // Ezek az ellenőrzések mindig igazak
+>      // Ezek az állítások mindig igazak
 >      Assert.assertTrue(autoShape.getTextFrame().getParentShape() == autoShape);
 >      Assert.assertTrue((table.get_Item(0,0).getTextFrame()).getParentShape() == null);
 >  } finally {
@@ -402,18 +377,25 @@ Visszatér a szülő alakzattal, vagy null értékkel, ha a szülő objektum nem
 >  }
 > ```
 
-
-**Visszatér:**
+**Visszaad:**
 [IShape](../../com.aspose.slides/ishape)
+
+### getTextRect() {#getTextRect--}
+```
+public final Rectangle2D.Float getTextRect()
+```
+
+Lekérdezi a szülő alakzat geometria által definiált szövegtéglalapot.
+
+**Visszaad:**
+java.awt.geom.Rectangle2D.Float - Egy java.awt.geom.Rectangle2D.Float, amely meghatározza a szövegterületet.
+
 ### getParentCell() {#getParentCell--}
 ```
 public final ICell getParentCell()
 ```
 
-
-Visszatér a szülő cellával, vagy null értékkel, ha a szülő objektum nem valósítja meg az ICell interfészt. Csak olvasható [ICell](../../com.aspose.slides/icell).
-
---------------------
+Visszaadja a szülő cellát, vagy null értéket, ha a szülő objektum nem valósítja meg az ICell interfészt. Csak olvasható [ICell](../../com.aspose.slides/icell).
 
 > ```
 > The following code sample shows 
@@ -423,7 +405,7 @@ Visszatér a szülő cellával, vagy null értékkel, ha a szülő objektum nem 
 >      AutoShape autoShape = (AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0);
 >      Table table = (Table)presentation.getSlides().get_Item(0).getShapes().get_Item(1);
 > 
->      // Ezek az ellenőrzések mindig igazak
+>      // These assertions are always true
 >      Assert.assertTrue(table.get_Item(0,0).getTextFrame().getParentCell() == table.get_Item(0,0));
 >      Assert.assertTrue(autoShape.getTextFrame().getParentCell() == null);
 >  } finally {
@@ -431,6 +413,5 @@ Visszatér a szülő cellával, vagy null értékkel, ha a szülő objektum nem 
 >  }
 > ```
 
-
-**Visszatér:**
+**Visszaad:**
 [ICell](../../com.aspose.slides/icell)

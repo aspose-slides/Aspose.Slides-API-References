@@ -1,40 +1,45 @@
 ---
 title: IDataLabelCollection
-second_title: Aspose.Slides için Java API Referansı
-description: Bir serinin etiketlerini temsil eder.
+second_title: Aspose.Slides for Java API Referansı
+description: Bir seri etiketini temsil eder.
 type: docs
 url: /tr/com.aspose.slides/idatalabelcollection/
 ---
-**Tüm Uygulanan Arabirimler:**
+**Tüm Uygulanan Arayüzler:**
 com.aspose.ms.System.Collections.Generic.IGenericEnumerable, [com.aspose.slides.IChartComponent](../../com.aspose.slides/ichartcomponent)
 ```
 public interface IDataLabelCollection extends System.Collections.Generic.IGenericEnumerable<IDataLabel>, IChartComponent
 ```
 
-Bir seri etiketlerini temsil eder.
+Bir seri etiketini temsil eder.
 ## Yöntemler
 
-| Metot | Açıklama |
+| Yöntem | Açıklama |
 | --- | --- |
-| [get_Item(int index)](#get-Item-int-) | Belirtilen indeksli veri noktası için veri etiketini alır. |
+| [get_Item(int index)](#get-Item-int-) | Belirtilen dizine sahip veri noktasının veri etiketini alır. |
 | [getDefaultDataLabelFormat()](#getDefaultDataLabelFormat--) | Koleksiyondaki tüm veri etiketlerinin varsayılan biçimini döndürür. |
-| [getLeaderLinesFormat()](#getLeaderLinesFormat--) | Veri etiketlerinin lider çizgi biçimini temsil eder. |
+| [getLeaderLinesFormat()](#getLeaderLinesFormat--) | Veri etiketleri lider çizgi biçimini temsil eder. |
 | [isVisible()](#isVisible--) | False, veri etiketinin varsayılan olarak görünür olmadığını (ve bu nedenle DefaultDataLabelFormat özelliğinin tüm Show*-bayraklarının (ShowValue, ...) false olduğunu) ifade eder. |
-| [hide()](#hide--) | DefaultDataLabelFormat özelliğinin tüm Show*-bayraklarını (ShowValue, ...) false durumuna ayarlayarak veri etiketini varsayılan olarak gizli yapar. |
+| [hide()](#hide--) | Veri etiketi varsayılan olarak gizlemek için DefaultDataLabelFormat özelliğinin tüm Show*-bayraklarını (ShowValue, ...) false duruma ayarlayın. |
 | [getCountOfVisibleDataLabels()](#getCountOfVisibleDataLabels--) | Koleksiyondaki görünen veri etiketlerinin sayısını alır. |
 | [getCount()](#getCount--) | Koleksiyondaki tüm veri etiketlerinin sayısını alır. |
-| [getParentSeries()](#getParentSeries--) | Üst (ana) grafik serisini döndürür. |
+| [getParentSeries()](#getParentSeries--) | Üst grafik serisini döndürür. |
 | [indexOf(IDataLabel value)](#indexOf-com.aspose.slides.IDataLabel-) | Koleksiyondaki belirtilen DataLabel'ın indeksini döndürür. |
+| [getDefaultLabelShapeType()](#getDefaultLabelShapeType--) | Veri etiketleri için varsayılan şekil türünü alır veya ayarlar. |
+| [setDefaultLabelShapeType(int value)](#setDefaultLabelShapeType-int-) | Veri etiketleri için varsayılan şekil türünü alır veya ayarlar. |
 ### get_Item(int index) {#get-Item-int-}
 ```
 public abstract IDataLabel get_Item(int index)
 ```
 
-Veri noktası için belirtilen indeks ile veri etiketini alır.
+
+Belirtilen dizine sahip veri noktasının veri etiketini alır.
 
 --------------------
 
-Veri etiketine erişmenin alternatif yolu şudur: - getSeries().getDataPoints().get_Item(i).getLabel() - etiket özelliklerini yönet.
+Veri etiketine erişmenin alternatif yolu şudur:
+- getSeries().getDataPoints().get_Item(i).getLabel()
+- etiket özelliklerini yönet.
 
 **Parametreler:**
 | Parametre | Tür | Açıklama |
@@ -48,7 +53,8 @@ Veri etiketine erişmenin alternatif yolu şudur: - getSeries().getDataPoints().
 public abstract IDataLabelFormat getDefaultDataLabelFormat()
 ```
 
-Koleksiyondaki tüm veri etiketlerinin varsayılan biçimini döndürür. Salt okunur [IDataLabelFormat](../../com.aspose.slides/idatalabelformat).
+
+Koleksiyondaki tüm veri etiketlerinin varsayılan biçimini döndürür. Yalnızca okunabilir [IDataLabelFormat](../../com.aspose.slides/idatalabelformat).
 
 **Döndürür:**
 [IDataLabelFormat](../../com.aspose.slides/idatalabelformat)
@@ -57,7 +63,8 @@ Koleksiyondaki tüm veri etiketlerinin varsayılan biçimini döndürür. Salt o
 public abstract IChartLinesFormat getLeaderLinesFormat()
 ```
 
-Veri etiketlerinin lider çizgi biçimini temsil eder. Salt okunur [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat).
+
+Veri etiketleri lider çizgi biçimini temsil eder. Yalnızca okunabilir [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat).
 
 --------------------
 
@@ -76,6 +83,7 @@ Veri etiketlerinin lider çizgi biçimini temsil eder. Salt okunur [IChartLinesF
 >  }
 > ```
 
+
 **Döndürür:**
 [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat)
 ### isVisible() {#isVisible--}
@@ -83,11 +91,10 @@ Veri etiketlerinin lider çizgi biçimini temsil eder. Salt okunur [IChartLinesF
 public abstract boolean isVisible()
 ```
 
-False, veri etiketinin varsayılan olarak görünür olmadığını (ve bu yüzden DefaultDataLabelFormat özelliğinin tüm Show*-bayraklarının (ShowValue, ...) false olduğunu) ifade eder. Salt okunur  boolean .
 
---------------------
+False, veri etiketinin varsayılan olarak görünür olmadığını (ve bu nedenle DefaultDataLabelFormat özelliğinin tüm Show*-bayraklarının (ShowValue, ...) false olduğunu) ifade eder. Yalnızca okunabilir boolean .
 
-Veri etiketi varsayılan olarak görünür ise Hide() yöntemiyle varsayılan olarak gizleyebilirsiniz. Ancak veri etiketi varsayılan olarak görünür değilse (IsVisible false ise) Show*-bayraklarını (ShowValue, ...) DefaultDataLabelFormat özelliğinde true durumuna ayarlayarak veri etiketini "varsayılan olarak görünür" yapabilirsiniz.
+Veri etiketi varsayılan olarak görünürse, Hide() metodu ile varsayılan olarak gizleyebilirsiniz. Ancak veri etiketi varsayılan olarak görünür değilse (IsVisible false) Show*-bayraklarını (ShowValue, ...) DefaultDataLabelFormat özelliğinde true duruma ayarlayarak veri etiketini "varsayılan olarak görünür" yapabilirsiniz.
 
 **Döndürür:**
 boolean
@@ -96,18 +103,18 @@ boolean
 public abstract void hide()
 ```
 
-DefaultDataLabelFormat özelliğinin tüm Show*-bayraklarını (ShowValue, ...) false durumuna ayarlayarak veri etiketini varsayılan olarak gizli yapar. Bu işlemden sonra IsVisible false olacaktır.
 
---------------------
+DefaultDataLabelFormat özelliğinin tüm Show*-bayraklarını (ShowValue, ...) false duruma ayarlayarak veri etiketini varsayılan olarak gizleyin. Bu işlemden sonra IsVisible false olur.
 
-Veri etiketi varsayılan olarak görünür değilse (IsVisible false ise) Show*-bayraklarını (ShowValue, ...) DefaultDataLabelFormat özelliğinde true durumuna ayarlayarak veri etiketini "varsayılan olarak görünür" yapabilirsiniz.
+Veri etiketi varsayılan olarak görünür değilse (IsVisible false) Show*-bayraklarını (ShowValue, ...) DefaultDataLabelFormat özelliğinde true duruma ayarlayarak veri etiketini "varsayılan olarak görünür" yapabilirsiniz.
 
 ### getCountOfVisibleDataLabels() {#getCountOfVisibleDataLabels--}
 ```
 public abstract int getCountOfVisibleDataLabels()
 ```
 
-Koleksiyondaki görünen veri etiketlerinin sayısını alır. Salt okunur  int .
+
+Koleksiyondaki görünen veri etiketlerinin sayısını alır. Yalnızca okunabilir int .
 
 **Döndürür:**
 int
@@ -116,7 +123,8 @@ int
 public abstract int getCount()
 ```
 
-Koleksiyondaki tüm veri etiketlerinin sayısını alır. Salt okunur  int .
+
+Koleksiyondaki tüm veri etiketlerinin sayısını alır. Yalnızca okunabilir int .
 
 **Döndürür:**
 int
@@ -125,7 +133,8 @@ int
 public abstract IChartSeries getParentSeries()
 ```
 
-Üst (ana) grafik serisini döndürür. Salt okunur [IChartSeries](../../com.aspose.slides/ichartseries).
+
+Üst grafik serisini döndürür. Yalnızca okunabilir [IChartSeries](../../com.aspose.slides/ichartseries).
 
 **Döndürür:**
 [IChartSeries](../../com.aspose.slides/ichartseries)
@@ -133,6 +142,7 @@ public abstract IChartSeries getParentSeries()
 ```
 public abstract int indexOf(IDataLabel value)
 ```
+
 
 Koleksiyondaki belirtilen DataLabel'ın indeksini döndürür.
 
@@ -143,3 +153,65 @@ Koleksiyondaki belirtilen DataLabel'ın indeksini döndürür.
 
 **Döndürür:**
 int - Bir DataLabel'ın indeksi veya DataLabel bu koleksiyondan değilse -1.
+### getDefaultLabelShapeType() {#getDefaultLabelShapeType--}
+```
+public abstract int getDefaultLabelShapeType()
+```
+
+
+Veri etiketleri için varsayılan şekil türünü alır veya ayarlar. Şekil tanımlı değilse [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) döndürür.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // İlk serideki tüm veri etiketlerinin şekil tipini Elips olarak ayarla.
+>      firstSeries.getLabels().setDefaultLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabels.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+--------------------
+
+Bu özelliği ayarlamak, koleksiyondaki tüm veri etiketlerinin IDataLabel.LabelShapeType ([IDataLabel.getLabelShapeType](../../com.aspose.slides/idatalabel\#getLabelShapeType)/[IDataLabel.setLabelShapeType(int)](../../com.aspose.slides/idatalabel\#setLabelShapeType-int-)) özelliğini aynı değere ayarlar.
+
+**Döndürür:**
+int
+### setDefaultLabelShapeType(int value) {#setDefaultLabelShapeType-int-}
+```
+public abstract void setDefaultLabelShapeType(int value)
+```
+
+
+Veri etiketleri için varsayılan şekil türünü alır veya ayarlar. Şekil tanımlı değilse [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) döndürür.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // İlk serideki tüm veri etiketlerinin şekil tipini Elips olarak ayarla.
+>      firstSeries.getLabels().setDefaultLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabels.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+--------------------
+
+Bu özelliği ayarlamak, koleksiyondaki tüm veri etiketlerinin IDataLabel.LabelShapeType ([IDataLabel.getLabelShapeType](../../com.aspose.slides/idatalabel\#getLabelShapeType)/[IDataLabel.setLabelShapeType(int)](../../com.aspose.slides/idatalabel\#setLabelShapeType-int-)) özelliğini aynı değere ayarlar.
+
+**Parametreler:**
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| value | int |  |

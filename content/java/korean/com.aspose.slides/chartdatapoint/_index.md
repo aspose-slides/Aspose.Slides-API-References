@@ -5,10 +5,10 @@ description: 시리즈 데이터 포인트를 나타냅니다.
 type: docs
 url: /ko/com.aspose.slides/chartdatapoint/
 ---
-**Inheritance:**  
+**상속:**  
 java.lang.Object
 
-**All Implemented Interfaces:**  
+**구현된 모든 인터페이스:**  
 [com.aspose.slides.IChartDataPoint](../../com.aspose.slides/ichartdatapoint), com.aspose.slides.IDOMObject  
 ```
 public class ChartDataPoint implements IChartDataPoint, IDOMObject
@@ -27,12 +27,12 @@ public class ChartDataPoint implements IChartDataPoint, IDOMObject
 | [getColorValue()](#getColorValue--) | 차트 데이터 포인트의 색상 값을 반환합니다. |
 | [getErrorBarsCustomValues()](#getErrorBarsCustomValues--) | Custom 값 유형인 경우 시리즈 오류 막대 값을 나타냅니다. |
 | [getLabel()](#getLabel--) | Label. |
-| [isBubble3D()](#isBubble3D--) | 버블에 3-D 효과가 적용되었음을 지정합니다. |
-| [setBubble3D(boolean value)](#setBubble3D-boolean-) | 버블에 3-D 효과가 적용되었음을 지정합니다. |
-| [getExplosion()](#getExplosion--) | 파이의 중심에서 데이터 포인트가 이동해야 하는 양을 지정합니다. |
-| [setExplosion(int value)](#setExplosion-int-) | 파이의 중심에서 데이터 포인트가 이동해야 하는 양을 지정합니다. |
-| [getFormat()](#getFormat--) | 포맷 속성을 나타냅니다. |
-| [setFormat(IFormat value)](#setFormat-com.aspose.slides.IFormat-) | 포맷 속성을 나타냅니다. |
+| [isBubble3D()](#isBubble3D--) | 버블에 3D 효과가 적용됨을 지정합니다. |
+| [setBubble3D(boolean value)](#setBubble3D-boolean-) | 버블에 3D 효과가 적용됨을 지정합니다. |
+| [getExplosion()](#getExplosion--) | 데이터 포인트가 파이의 중심에서 이동할 거리(양)를 지정합니다. |
+| [setExplosion(int value)](#setExplosion-int-) | 데이터 포인트가 파이의 중심에서 이동할 거리(양)를 지정합니다. |
+| [getFormat()](#getFormat--) | 서식 속성을 나타냅니다. |
+| [setFormat(IFormat value)](#setFormat-com.aspose.slides.IFormat-) | 서식 속성을 나타냅니다. |
 | [getMarker()](#getMarker--) | 데이터 마커를 지정합니다. |
 | [getSetAsTotal()](#getSetAsTotal--) | 데이터 포인트를 총계로 설정합니다. |
 | [setSetAsTotal(boolean value)](#setSetAsTotal-boolean-) | 데이터 포인트를 총계로 설정합니다. |
@@ -44,8 +44,12 @@ public class ChartDataPoint implements IChartDataPoint, IDOMObject
 | [getAutomaticDataPointColor()](#getAutomaticDataPointColor--) | 시리즈 인덱스, 데이터 포인트 인덱스, ParentSeriesGroup.IsColorVaried 속성 및 차트 스타일을 기반으로 데이터 포인트의 자동 색상을 반환합니다. |
 | [getInvertIfNegative()](#getInvertIfNegative--) | 값이 음수인 경우 데이터 포인트가 색상을 반전하도록 지정합니다. |
 | [setInvertIfNegative(boolean value)](#setInvertIfNegative-boolean-) | 값이 음수인 경우 데이터 포인트가 색상을 반전하도록 지정합니다. |
-| [getActualX()](#getActualX--) | 차트 요소의 실제 x 위치(왼쪽)를 차트 왼쪽 상단 모서리 기준으로 지정합니다. |
-| [getActualY()](#getActualY--) | 차트 요소의 실제 위쪽을 차트 왼쪽 상단 모서리 기준으로 지정합니다. |
+| [getCachedValue()](#getCachedValue--) | 차트 데이터 포인트의 캐시된 값을 가져옵니다. |
+| [getCachedXValue()](#getCachedXValue--) | 차트 데이터 포인트의 캐시된 X 값을 가져옵니다. |
+| [getCachedYValue()](#getCachedYValue--) | 차트 데이터 포인트의 캐시된 Y 값을 가져옵니다. |
+| [getCachedBubbleSize()](#getCachedBubbleSize--) | 차트 데이터 포인트의 캐시된 버블 크기를 가져옵니다. |
+| [getActualX()](#getActualX--) | 차트 요소의 실제 x 위치(왼쪽)를 차트의 왼쪽 상단 모서리를 기준으로 지정합니다. |
+| [getActualY()](#getActualY--) | 차트 요소의 실제 상단을 차트의 왼쪽 상단 모서리를 기준으로 지정합니다. |
 | [getActualWidth()](#getActualWidth--) | 차트 요소의 실제 너비를 지정합니다. |
 | [getActualHeight()](#getActualHeight--) | 차트 요소의 실제 높이를 지정합니다. |
 
@@ -56,7 +60,7 @@ public final IStringOrDoubleChartValue getXValue()
 
 XValue. 읽기 전용 [IStringOrDoubleChartValue](../../com.aspose.slides/istringordoublechartvalue).
 
-**반환:**  
+**반환값:**  
 [IStringOrDoubleChartValue](../../com.aspose.slides/istringordoublechartvalue)
 
 ### getYValue() {#getYValue--}
@@ -66,7 +70,7 @@ public final IDoubleChartValue getYValue()
 
 YValue. 읽기 전용 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
-**반환:**  
+**반환값:**  
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
 
 ### getBubbleSize() {#getBubbleSize--}
@@ -76,7 +80,7 @@ public final IDoubleChartValue getBubbleSize()
 
 BubbleSize. 읽기 전용 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
-**반환:**  
+**반환값:**  
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
 
 ### getValue() {#getValue--}
@@ -86,7 +90,7 @@ public final IDoubleChartValue getValue()
 
 Value. 읽기 전용 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
-**반환:**  
+**반환값:**  
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
 
 ### getSizeValue() {#getSizeValue--}
@@ -96,7 +100,7 @@ public final IDoubleChartValue getSizeValue()
 
 차트 데이터 포인트의 크기 값을 반환합니다. Treemap 및 Sunburst 차트에서 사용됩니다. 읽기 전용 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
-**반환:**  
+**반환값:**  
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
 
 ### getColorValue() {#getColorValue--}
@@ -104,9 +108,9 @@ public final IDoubleChartValue getSizeValue()
 public final IDoubleChartValue getColorValue()
 ```
 
-차트 데이터 포인트의 색상 값을 반환합니다. 지도 차트에서 사용됩니다. 읽기 전용 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
+차트 데이터 포인트의 색상 값을 반환합니다. Map 차트에서 사용됩니다. 읽기 전용 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
-**반환:**  
+**반환값:**  
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
 
 ### getErrorBarsCustomValues() {#getErrorBarsCustomValues--}
@@ -116,7 +120,7 @@ public final IErrorBarsCustomValues getErrorBarsCustomValues()
 
 Custom 값 유형인 경우 시리즈 오류 막대 값을 나타냅니다. 읽기 전용 [IErrorBarsCustomValues](../../com.aspose.slides/ierrorbarscustomvalues).
 
-**반환:**  
+**반환값:**  
 [IErrorBarsCustomValues](../../com.aspose.slides/ierrorbarscustomvalues)
 
 ### getLabel() {#getLabel--}
@@ -126,7 +130,7 @@ public final IDataLabel getLabel()
 
 Label. 읽기 전용 [IDataLabel](../../com.aspose.slides/idatalabel).
 
-**반환:**  
+**반환값:**  
 [IDataLabel](../../com.aspose.slides/idatalabel)
 
 ### isBubble3D() {#isBubble3D--}
@@ -134,9 +138,9 @@ Label. 읽기 전용 [IDataLabel](../../com.aspose.slides/idatalabel).
 public final boolean isBubble3D()
 ```
 
-버블에 3-D 효과가 적용되었음을 지정합니다. 읽기/쓰기 boolean.
+버블에 3D 효과가 적용됨을 지정합니다. 읽기/쓰기 부울.
 
-**반환:**  
+**반환값:**  
 boolean
 
 ### setBubble3D(boolean value) {#setBubble3D-boolean-}
@@ -144,9 +148,9 @@ boolean
 public final void setBubble3D(boolean value)
 ```
 
-버블에 3-D 효과가 적용되었음을 지정합니다. 읽기/쓰기 boolean.
+버블에 3D 효과가 적용됨을 지정합니다. 읽기/쓰기 부울.
 
-**매개변수:**
+**매개변수:**  
 | 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
 | value | boolean |  |
@@ -156,9 +160,9 @@ public final void setBubble3D(boolean value)
 public final int getExplosion()
 ```
 
-파이의 중심에서 데이터 포인트가 이동해야 하는 양을 지정합니다. 읽기/쓰기 int.
+데이터 포인트가 파이의 중심에서 이동할 거리(양)를 지정합니다. 읽기/쓰기 int.
 
-**반환:**  
+**반환값:**  
 int
 
 ### setExplosion(int value) {#setExplosion-int-}
@@ -166,9 +170,9 @@ int
 public final void setExplosion(int value)
 ```
 
-파이의 중심에서 데이터 포인트가 이동해야 하는 양을 지정합니다. 읽기/쓰기 int.
+데이터 포인트가 파이의 중심에서 이동할 거리(양)를 지정합니다. 읽기/쓰기 int.
 
-**매개변수:**
+**매개변수:**  
 | 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
 | value | int |  |
@@ -178,9 +182,9 @@ public final void setExplosion(int value)
 public final IFormat getFormat()
 ```
 
-포맷 속성을 나타냅니다. 읽기/쓰기 [IFormat](../../com.aspose.slides/iformat).
+서식 속성을 나타냅니다. 읽기/쓰기 [IFormat](../../com.aspose.slides/iformat).
 
-**반환:**  
+**반환값:**  
 [IFormat](../../com.aspose.slides/iformat)
 
 ### setFormat(IFormat value) {#setFormat-com.aspose.slides.IFormat-}
@@ -188,9 +192,9 @@ public final IFormat getFormat()
 public final void setFormat(IFormat value)
 ```
 
-포맷 속성을 나타냅니다. 읽기/쓰기 [IFormat](../../com.aspose.slides/iformat).
+서식 속성을 나타냅니다. 읽기/쓰기 [IFormat](../../com.aspose.slides/iformat).
 
-**매개변수:**
+**매개변수:**  
 | 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
 | value | [IFormat](../../com.aspose.slides/iformat) |  |
@@ -202,7 +206,7 @@ public final IMarker getMarker()
 
 데이터 마커를 지정합니다. 읽기 전용 [IMarker](../../com.aspose.slides/imarker).
 
-**반환:**  
+**반환값:**  
 [IMarker](../../com.aspose.slides/imarker)
 
 ### getSetAsTotal() {#getSetAsTotal--}
@@ -212,7 +216,7 @@ public final boolean getSetAsTotal()
 
 데이터 포인트를 총계로 설정합니다. Waterfall 시리즈 유형에만 적용됩니다.
 
-**반환:**  
+**반환값:**  
 boolean
 
 ### setSetAsTotal(boolean value) {#setSetAsTotal-boolean-}
@@ -222,7 +226,7 @@ public final void setSetAsTotal(boolean value)
 
 데이터 포인트를 총계로 설정합니다. Waterfall 시리즈 유형에만 적용됩니다.
 
-**매개변수:**
+**매개변수:**  
 | 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
 | value | boolean |  |
@@ -234,7 +238,7 @@ public final ILegendEntryProperties getRelatedLegendEntry()
 
 다음 목록 중 차트 유형인 경우 해당 범례 항목의 속성: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. 읽기 전용 [ILegendEntryProperties](../../com.aspose.slides/ilegendentryproperties).
 
-**반환:**  
+**반환값:**  
 [ILegendEntryProperties](../../com.aspose.slides/ilegendentryproperties)
 
 ### remove() {#remove--}
@@ -249,9 +253,9 @@ public final void remove()
 public final IChartDataPointLevelsManager getDataPointLevels()
 ```
 
-데이터 포인트 레벨의 컨테이너를 반환합니다. Treeamp 및 Sunburst 시리즈에 적용됩니다. 데이터 포인트 레벨 인덱싱은 0부터 시작합니다.
+데이터 포인트 레벨의 컨테이너를 반환합니다. Treeamp 및 Sunburst 시리즈에 적용됩니다. 데이터 포인트 레벨의 인덱스는 0부터 시작합니다.
 
-**반환:**  
+**반환값:**  
 [IChartDataPointLevelsManager](../../com.aspose.slides/ichartdatapointlevelsmanager)
 
 ### getIndex() {#getIndex--}
@@ -259,7 +263,7 @@ public final IChartDataPointLevelsManager getDataPointLevels()
 public final long getIndex()
 ```
 
-**반환:**  
+**반환값:**  
 long
 
 ### getParent_Immediate() {#getParent-Immediate--}
@@ -269,7 +273,7 @@ public final IDOMObject getParent_Immediate()
 
 Parent_Immediate 객체를 반환합니다. 읽기 전용 IDOMObject.
 
-**반환:**  
+**반환값:**  
 com.aspose.slides.IDOMObject
 
 ### getAutomaticDataPointColor() {#getAutomaticDataPointColor--}
@@ -277,9 +281,9 @@ com.aspose.slides.IDOMObject
 public final Color getAutomaticDataPointColor()
 ```
 
-시리즈 인덱스, 데이터 포인트 인덱스, ParentSeriesGroup.IsColorVaried 속성 및 차트 스타일을 기반으로 데이터 포인트의 자동 색상을 반환합니다. 이 색상은 FillType이 NotDefined와 동일한 경우 기본적으로 사용됩니다.
+시리즈 인덱스, 데이터 포인트 인덱스, ParentSeriesGroup.IsColorVaried 속성 및 차트 스타일을 기반으로 데이터 포인트의 자동 색상을 반환합니다. 이 색상은 FillType이 NotDefined인 경우 기본적으로 사용됩니다.
 
-**반환:**  
+**반환값:**  
 java.awt.Color
 
 ### getInvertIfNegative() {#getInvertIfNegative--}
@@ -287,9 +291,9 @@ java.awt.Color
 public final boolean getInvertIfNegative()
 ```
 
-값이 음수인 경우 데이터 포인트가 색상을 반전하도록 지정합니다. 읽기/쓰기 boolean.
+값이 음수인 경우 데이터 포인트가 색상을 반전하도록 지정합니다. 읽기/쓰기 부울.
 
-**반환:**  
+**반환값:**  
 boolean
 
 ### setInvertIfNegative(boolean value) {#setInvertIfNegative-boolean-}
@@ -297,21 +301,129 @@ boolean
 public final void setInvertIfNegative(boolean value)
 ```
 
-값이 음수인 경우 데이터 포인트가 색상을 반전하도록 지정합니다. 읽기/쓰기 boolean.
+값이 음수인 경우 데이터 포인트가 색상을 반전하도록 지정합니다. 읽기/쓰기 부울.
 
-**매개변수:**
+**매개변수:**  
 | 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
 | value | boolean |  |
+
+### getCachedValue() {#getCachedValue--}
+```
+public final ICachedChartValue getCachedValue()
+```
+
+차트 데이터 포인트의 캐시된 값을 가져옵니다. 읽기 전용 [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+---
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // 차트 시리즈의 모든 캐시된 값을 출력합니다.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedValue().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**반환값:**  
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
+
+### getCachedXValue() {#getCachedXValue--}
+```
+public final ICachedChartValue getCachedXValue()
+```
+
+차트 데이터 포인트의 캐시된 X 값을 가져옵니다. 읽기 전용 [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+---
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // 차트 시리즈의 모든 캐시된 X 값을 출력합니다.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedXValue().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**반환값:**  
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
+
+### getCachedYValue() {#getCachedYValue--}
+```
+public final ICachedChartValue getCachedYValue()
+```
+
+차트 데이터 포인트의 캐시된 Y 값을 가져옵니다. 읽기 전용 [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+---
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // 차트 시리즈의 모든 캐시된 Y 값을 출력합니다.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedYValue().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**반환값:**  
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
+
+### getCachedBubbleSize() {#getCachedBubbleSize--}
+```
+public final ICachedChartValue getCachedBubbleSize()
+```
+
+차트 데이터 포인트의 캐시된 버블 크기를 가져옵니다. 읽기 전용 [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+---
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // 차트 시리즈의 모든 캐시된 버블 크기 값을 출력합니다.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedBubbleSize().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**반환값:**  
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
 
 ### getActualX() {#getActualX--}
 ```
 public final float getActualX()
 ```
 
-차트 요소의 실제 x 위치(왼쪽)를 차트 왼쪽 상단 모서리 기준으로 지정합니다. 실제 값을 얻으려면 IChart.ValidateChartLayout() 메서드를 먼저 호출하십시오. 읽기 float.
+차트 요소의 실제 x 위치(왼쪽)를 차트의 왼쪽 상단 모서리를 기준으로 지정합니다. 실제 값을 얻기 위해 먼저 IChart.ValidateChartLayout() 메서드를 호출하세요. 읽기 전용 float.
 
-**반환:**  
+**반환값:**  
 float
 
 ### getActualY() {#getActualY--}
@@ -319,9 +431,9 @@ float
 public final float getActualY()
 ```
 
-차트 요소의 실제 위쪽을 차트 왼쪽 상단 모서리 기준으로 지정합니다. 실제 값을 얻으려면 IChart.ValidateChartLayout() 메서드를 먼저 호출하십시오. 읽기 float.
+차트 요소의 실제 상단을 차트의 왼쪽 상단 모서리를 기준으로 지정합니다. 실제 값을 얻기 위해 먼저 IChart.ValidateChartLayout() 메서드를 호출하세요. 읽기 전용 float.
 
-**반환:**  
+**반환값:**  
 float
 
 ### getActualWidth() {#getActualWidth--}
@@ -329,9 +441,9 @@ float
 public final float getActualWidth()
 ```
 
-차트 요소의 실제 너비를 지정합니다. 실제 값을 얻으려면 IChart.ValidateChartLayout() 메서드를 먼저 호출하십시오. 읽기 float.
+차트 요소의 실제 너비를 지정합니다. 실제 값을 얻기 위해 먼저 IChart.ValidateChartLayout() 메서드를 호출하세요. 읽기 전용 float.
 
-**반환:**  
+**반환값:**  
 float
 
 ### getActualHeight() {#getActualHeight--}
@@ -339,7 +451,7 @@ float
 public final float getActualHeight()
 ```
 
-차트 요소의 실제 높이를 지정합니다. 실제 값을 얻으려면 IChart.ValidateChartLayout() 메서드를 먼저 호출하십시오. 읽기 float.
+차트 요소의 실제 높이를 지정합니다. 실제 값을 얻기 위해 먼저 IChart.ValidateChartLayout() 메서드를 호출하세요. 읽기 전용 float.
 
-**반환:**  
+**반환값:**  
 float

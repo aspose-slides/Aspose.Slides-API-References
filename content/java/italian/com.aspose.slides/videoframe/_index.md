@@ -8,7 +8,7 @@ url: /it/com.aspose.slides/videoframe/
 **Ereditarietà:**
 java.lang.Object, [com.aspose.slides.Shape](../../com.aspose.slides/shape), [com.aspose.slides.GeometryShape](../../com.aspose.slides/geometryshape), [com.aspose.slides.PictureFrame](../../com.aspose.slides/pictureframe)
 
-**Tutte le interfacce implementate:**
+**Tutte le Interfacce Implementate:**
 [com.aspose.slides.IVideoFrame](../../com.aspose.slides/ivideoframe)
 ```
 public class VideoFrame extends PictureFrame implements IVideoFrame
@@ -27,6 +27,8 @@ Rappresenta una clip video su una diapositiva.
 | [setHideAtShowing(boolean value)](#setHideAtShowing-boolean-) | Determina se un VideoFrame è nascosto. |
 | [getVolume()](#getVolume--) | Restituisce o imposta il volume audio. |
 | [setVolume(int value)](#setVolume-int-) | Restituisce o imposta il volume audio. |
+| [getVolumeValue()](#getVolumeValue--) | Restituisce o imposta il volume video esatto come percentuale. |
+| [setVolumeValue(float value)](#setVolumeValue-float-) | Restituisce o imposta il volume video esatto come percentuale. |
 | [getPlayMode()](#getPlayMode--) | Restituisce o imposta la modalità di riproduzione video. |
 | [setPlayMode(int value)](#setPlayMode-int-) | Restituisce o imposta la modalità di riproduzione video. |
 | [getFullScreenMode()](#getFullScreenMode--) | Determina se un video è mostrato in modalità a schermo intero. |
@@ -35,18 +37,17 @@ Rappresenta una clip video su una diapositiva.
 | [setLinkPathLong(String value)](#setLinkPathLong-java.lang.String-) | Restituisce o imposta il nome di un file video collegato a un VideoFrame. |
 | [getEmbeddedVideo()](#getEmbeddedVideo--) | Restituisce o imposta l'oggetto video incorporato. |
 | [setEmbeddedVideo(IVideo value)](#setEmbeddedVideo-com.aspose.slides.IVideo-) | Restituisce o imposta l'oggetto video incorporato. |
-| [getTrimFromStart()](#getTrimFromStart--) | Ritaglio inizio [ms] |
-| [setTrimFromStart(float value)](#setTrimFromStart-float-) | Ritaglio inizio [ms] |
-| [getTrimFromEnd()](#getTrimFromEnd--) | Ritaglio fine [ms] |
-| [setTrimFromEnd(float value)](#setTrimFromEnd-float-) | Ritaglio fine [ms] |
-| [getCaptionTracks()](#getCaptionTracks--) | Restituisce la collezione dei sottotitoli chiusi associati al frame video. |
+| [getTrimFromStart()](#getTrimFromStart--) | Inizio ritaglio [ms] |
+| [setTrimFromStart(float value)](#setTrimFromStart-float-) | Inizio ritaglio [ms] |
+| [getTrimFromEnd()](#getTrimFromEnd--) | Fine ritaglio [ms] |
+| [setTrimFromEnd(float value)](#setTrimFromEnd-float-) | Fine ritaglio [ms] |
+| [getCaptionTracks()](#getCaptionTracks--) | Restituisce la raccolta di sottotitoli chiusi associati al frame video. |
 ### getRewindVideo() {#getRewindVideo--}
 ```
 public final boolean getRewindVideo()
 ```
 
-
-Determina se un video viene riavvolto automaticamente all'inizio non appena il filmato ha terminato la riproduzione. Lettura/scrittura booleano.
+Determina se un video viene riavvolto automaticamente all'inizio non appena il filmato ha terminato la riproduzione. Lettura/scrittura boolean.
 
 **Restituisce:**
 boolean
@@ -55,21 +56,18 @@ boolean
 public final void setRewindVideo(boolean value)
 ```
 
-
-Determina se un video viene riavvolto automaticamente all'inizio non appena il filmato ha terminato la riproduzione. Lettura/scrittura booleano.
+Determina se un video viene riavvolto automaticamente all'inizio non appena il filmato ha terminato la riproduzione. Lettura/scrittura boolean.
 
 **Parametri:**
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | value | boolean |  |
-
 ### getPlayLoopMode() {#getPlayLoopMode--}
 ```
 public final boolean getPlayLoopMode()
 ```
 
-
-Determina se un video è in loop. Lettura/scrittura booleano.
+Determina se un video è in loop. Lettura/scrittura boolean.
 
 **Restituisce:**
 boolean
@@ -78,21 +76,18 @@ boolean
 public final void setPlayLoopMode(boolean value)
 ```
 
-
-Determina se un video è in loop. Lettura/scrittura booleano.
+Determina se un video è in loop. Lettura/scrittura boolean.
 
 **Parametri:**
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | value | boolean |  |
-
 ### getHideAtShowing() {#getHideAtShowing--}
 ```
 public final boolean getHideAtShowing()
 ```
 
-
-Determina se un VideoFrame è nascosto. Lettura/scrittura booleano.
+Determina se un VideoFrame è nascosto. Lettura/scrittura boolean.
 
 **Restituisce:**
 boolean
@@ -101,19 +96,16 @@ boolean
 public final void setHideAtShowing(boolean value)
 ```
 
-
-Determina se un VideoFrame è nascosto. Lettura/scrittura booleano.
+Determina se un VideoFrame è nascosto. Lettura/scrittura boolean.
 
 **Parametri:**
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | value | boolean |  |
-
 ### getVolume() {#getVolume--}
 ```
 public final int getVolume()
 ```
-
 
 Restituisce o imposta il volume audio. Lettura/scrittura [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
 
@@ -124,19 +116,72 @@ int
 public final void setVolume(int value)
 ```
 
-
 Restituisce o imposta il volume audio. Lettura/scrittura [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
 
 **Parametri:**
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | value | int |  |
+### getVolumeValue() {#getVolumeValue--}
+```
+public final float getVolumeValue()
+```
 
+Restituisce o imposta il volume video esatto come percentuale. Il valore è espresso come percentuale da 0 a 100. Utilizzare questa proprietà per leggere o impostare valori di volume più precisi rispetto ai livelli predefiniti disponibili tramite la proprietà \#getVolume.getVolume/\#setVolume(int).setVolume(int). Lettura/scrittura float.
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video.pptx");
+>  try {
+>      IVideoFrame videoFrame = (IVideoFrame)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // Leggi il volume esatto corrente e impostalo al 75,5 percento.
+>      float currentVolume = videoFrame.getVolumeValue();
+>      System.out.println(currentVolume);
+>      videoFrame.setVolumeValue(75.5f);
+>      pres.save("video_with_volume.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Restituisce:**
+float
+### setVolumeValue(float value) {#setVolumeValue-float-}
+```
+public final void setVolumeValue(float value)
+```
+
+Restituisce o imposta il volume video esatto come percentuale. Il valore è espresso come percentuale da 0 a 100. Utilizzare questa proprietà per leggere o impostare valori di volume più precisi rispetto ai livelli predefiniti disponibili tramite la proprietà \#getVolume.getVolume/\#setVolume(int).setVolume(int). Lettura/scrittura float.
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video.pptx");
+>  try {
+>      IVideoFrame videoFrame = (IVideoFrame)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // Leggi il volume esatto corrente e impostalo al 75,5 percento.
+>      float currentVolume = videoFrame.getVolumeValue();
+>      System.out.println(currentVolume);
+>      videoFrame.setVolumeValue(75.5f);
+>      pres.save("video_with_volume.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parametri:**
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| value | float |  |
 ### getPlayMode() {#getPlayMode--}
 ```
 public final int getPlayMode()
 ```
-
 
 Restituisce o imposta la modalità di riproduzione video. Lettura/scrittura [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
 
@@ -147,21 +192,18 @@ int
 public final void setPlayMode(int value)
 ```
 
-
 Restituisce o imposta la modalità di riproduzione video. Lettura/scrittura [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
 
 **Parametri:**
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | value | int |  |
-
 ### getFullScreenMode() {#getFullScreenMode--}
 ```
 public final boolean getFullScreenMode()
 ```
 
-
-Determina se un video è mostrato in modalità a schermo intero. Lettura/scrittura booleano.
+Determina se un video è mostrato in modalità a schermo intero. Lettura/scrittura boolean.
 
 **Restituisce:**
 boolean
@@ -170,19 +212,16 @@ boolean
 public final void setFullScreenMode(boolean value)
 ```
 
-
-Determina se un video è mostrato in modalità a schermo intero. Lettura/scrittura booleano.
+Determina se un video è mostrato in modalità a schermo intero. Lettura/scrittura boolean.
 
 **Parametri:**
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | value | boolean |  |
-
 ### getLinkPathLong() {#getLinkPathLong--}
 ```
 public final String getLinkPathLong()
 ```
-
 
 Restituisce o imposta il nome di un file video collegato a un VideoFrame. Lettura/scrittura String.
 
@@ -193,19 +232,16 @@ java.lang.String
 public final void setLinkPathLong(String value)
 ```
 
-
 Restituisce o imposta il nome di un file video collegato a un VideoFrame. Lettura/scrittura String.
 
 **Parametri:**
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | value | java.lang.String |  |
-
 ### getEmbeddedVideo() {#getEmbeddedVideo--}
 ```
 public final IVideo getEmbeddedVideo()
 ```
-
 
 Restituisce o imposta l'oggetto video incorporato. Lettura/scrittura [IVideo](../../com.aspose.slides/ivideo).
 
@@ -216,21 +252,18 @@ Restituisce o imposta l'oggetto video incorporato. Lettura/scrittura [IVideo](..
 public final void setEmbeddedVideo(IVideo value)
 ```
 
-
 Restituisce o imposta l'oggetto video incorporato. Lettura/scrittura [IVideo](../../com.aspose.slides/ivideo).
 
 **Parametri:**
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | value | [IVideo](../../com.aspose.slides/ivideo) |  |
-
 ### getTrimFromStart() {#getTrimFromStart--}
 ```
 public final float getTrimFromStart()
 ```
 
-
-Ritaglio inizio [ms]
+Inizio ritaglio [ms]
 
 --------------------
 
@@ -242,15 +275,14 @@ Ritaglio inizio [ms]
 >      ISlide slide = pres.getSlides().get_Item(0);
 >      IVideo video = pres.getVideos().addVideo(Files.readAllBytes(Paths.get("video.mp4")));
 >      IVideoFrame videoFrame = slide.getShapes().addVideoFrame(0, 0, 100, 100, video);
->      //imposta l'inizio del ritaglio a 1 sec
+>      // imposta il tempo di inizio del ritaglio a 1sec
 >      videoFrame.setTrimFromStart(1000f);
->      //imposta la fine del ritaglio a 2 sec
+>      // imposta il tempo di fine del ritaglio a 2sec
 >      videoFrame.setTrimFromEnd(2000f);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-
 
 **Restituisce:**
 float
@@ -259,8 +291,7 @@ float
 public final void setTrimFromStart(float value)
 ```
 
-
-Ritaglio inizio [ms]
+Inizio ritaglio [ms]
 
 --------------------
 
@@ -272,27 +303,26 @@ Ritaglio inizio [ms]
 >      ISlide slide = pres.getSlides().get_Item(0);
 >      IVideo video = pres.getVideos().addVideo(Files.readAllBytes(Paths.get("video.mp4")));
 >      IVideoFrame videoFrame = slide.getShapes().addVideoFrame(0, 0, 100, 100, video);
->      //imposta l'inizio del ritaglio a 1sec
+>      // imposta il tempo di inizio del ritaglio a 1sec
 >      videoFrame.setTrimFromStart(1000f);
->      //imposta la fine del ritaglio a 2sec
+>      // imposta il tempo di fine del ritaglio a 2sec
 >      videoFrame.setTrimFromEnd(2000f);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
 > ```
 
+
 **Parametri:**
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | value | float |  |
-
 ### getTrimFromEnd() {#getTrimFromEnd--}
 ```
 public final float getTrimFromEnd()
 ```
 
-
-Ritaglio fine [ms]
+Fine ritaglio [ms]
 
 **Restituisce:**
 float
@@ -301,21 +331,18 @@ float
 public final void setTrimFromEnd(float value)
 ```
 
-
-Ritaglio fine [ms]
+Fine ritaglio [ms]
 
 **Parametri:**
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | value | float |  |
-
 ### getCaptionTracks() {#getCaptionTracks--}
 ```
 public final ICaptionsCollection getCaptionTracks()
 ```
 
-
-Restituisce la collezione dei sottotitoli chiusi associati al frame video. Questa proprietà è sola lettura e restituisce un [ICaptionsCollection](../../com.aspose.slides/icaptionscollection) contenente tutti i tracce dei sottotitoli.
+Questa proprietà è sola lettura e restituisce un [ICaptionsCollection](../../com.aspose.slides/icaptionscollection) contenente tutti i percorsi di sottotitoli.
 
 --------------------
 
@@ -332,7 +359,7 @@ Restituisce la collezione dei sottotitoli chiusi associati al frame video. Quest
 >          for (ICaptions captionTrack : videoFrame.getCaptionTracks())
 >          {
 >              // Estrae i dati binari dei sottotitoli e li salva nel file
->              FileOutputStream fos = new FileOutputStream(captionTrack.getCaptionId() + ".vpt");
+>              FileOutputStream fos = new FileOutputStream(captionTrack.getCaptionId() + ".vtt");
 >              fos.write(captionTrack.getBinaryData());
 >              fos.close();
 >          }

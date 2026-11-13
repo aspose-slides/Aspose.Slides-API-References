@@ -1,7 +1,7 @@
 ---
 title: ChartSeriesGroup
 second_title: Aspose.Slides für Java API-Referenz
-description: Stellt eine Gruppe von Serien dar.
+description: Stellt eine Gruppe von Reihen dar.
 type: docs
 url: /de/com.aspose.slides/chartseriesgroup/
 ---
@@ -14,47 +14,46 @@ java.lang.Object
 public class ChartSeriesGroup implements IChartSeriesGroup, IDOMObject
 ```
 
-Stellt eine Gruppe von Serien dar.
+Stellt eine Gruppe von Datenreihen dar.
 
 --------------------
 
-1) Siehe Zusammenfassung und Anmerkungen für ChartSeriesGroupCollection Klasse und CombinableSeriesTypesGroup Aufzählung. 2) Gruppe von Serien enthält einige Serien-Eigenschaften, die für jede Serie in der Gruppe gemeinsam sind („series group properties“). „Series group properties“ in ChartSeriesGroup Klasse ist Lesen/Schreiben. Jede der „series group properties“ kann eine Nur-lesbar-Projektion in ChartSeries Klasse haben.
-
+1) Siehe Zusammenfassung und Anmerkungen für die Klasse ChartSeriesGroupCollection und das Enum CombinableSeriesTypesGroup. 2) Die Gruppe von Reihen enthält einige Reihen-Eigenschaften, die für jede Reihe in der Gruppe gemeinsam sind („series group properties“). „Series group properties“ in der Klasse ChartSeriesGroup ist lesen/ schreiben. Jede der „series group properties“ kann eine nur lesbare Projektion in der Klasse ChartSeries haben.
 ## Methoden
 
 | Methode | Beschreibung |
 | --- | --- |
-| [getType()](#getType--) | Gibt den Typ dieser Seriengruppe zurück. |
-| [getPlotOnSecondAxis()](#getPlotOnSecondAxis--) | Gibt an, ob Serien dieser Gruppe auf einer sekundären Achse dargestellt werden. |
-| [getSeries()](#getSeries--) | Gibt eine Sammlung von Serien zurück. |
+| [getType()](#getType--) | Gibt einen Typ dieser Seriengruppe zurück. |
+| [getPlotOnSecondAxis()](#getPlotOnSecondAxis--) | Gibt an, ob die Reihen dieser Gruppe auf einer sekundären Achse dargestellt werden. |
+| [getSeries()](#getSeries--) | Gibt eine Sammlung von Reihen zurück. |
 | [get_Item(int index)](#get-Item-int-) | Gibt das Element am angegebenen Index zurück. |
-| [getUpDownBars()](#getUpDownBars--) | Stellt Zugriff auf Auf/Ab-Balken eines Linien- oder Kurs-Diagramms bereit. |
-| [getGapWidth()](#getGapWidth--) | Gibt den Abstand zwischen Balken- oder Säulen-Clustern als Prozentsatz der Balken- oder Säulenbreite an. |
-| [setGapWidth(int value)](#setGapWidth-int-) | Gibt den Abstand zwischen Balken- oder Säulen-Clustern als Prozentsatz der Balken- oder Säulenbreite an. |
-| [getGapDepth()](#getGapDepth--) | Gibt die Entfernung als Prozentsatz der Markierungsbreite zwischen den Datenserien in einem 3D-Diagramm zurück oder legt sie fest. |
-| [setGapDepth(int value)](#setGapDepth-int-) | Gibt die Entfernung als Prozentsatz der Markierungsbreite zwischen den Datenserien in einem 3D-Diagramm zurück oder legt sie fest. |
-| [getFirstSliceAngle()](#getFirstSliceAngle--) | Gibt den Winkel des ersten Kuchens oder Donut-Diagrammsegments in Grad zurück oder legt ihn fest (im Uhrzeigersinn von oben, von 0 bis 360 Grad). |
-| [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | Gibt den Winkel des ersten Kuchens oder Donut-Diagrammsegments in Grad zurück oder legt ihn fest (im Uhrzeigersinn von oben, von 0 bis 360 Grad). |
-| [getDoughnutHoleSize()](#getDoughnutHoleSize--) | Gibt die Größe des Lochs in einem Donut-Diagramm an (kann zwischen 0 und 90 % der Plot-Bereich-Größe liegen). |
-| [setDoughnutHoleSize(byte value)](#setDoughnutHoleSize-byte-) | Gibt die Größe des Lochs in einem Donut-Diagramm an (kann zwischen 0 und 90 % der Plot-Bereich-Größe liegen). |
-| [getOverlap()](#getOverlap--) | Gibt an, wie stark Balken und Säulen in 2-D-Diagrammen überlappen sollen, als Prozentsatz (von –100 % bis 100 %). |
-| [setOverlap(byte value)](#setOverlap-byte-) | Gibt an, wie stark Balken und Säulen in 2-D-Diagrammen überlappen sollen, als Prozentsatz (von –100 % bis 100 %). |
-| [getSecondPieSize()](#getSecondPieSize--) | Gibt die Größe des zweiten Kuchens oder Balkens eines Pie-of-Pie-Diagramms oder Bar-of-Pie-Diagramms als Prozentsatz der Größe des ersten Kuchens an (kann zwischen 5 % und 200 % liegen). |
-| [setSecondPieSize(int value)](#setSecondPieSize-int-) | Gibt die Größe des zweiten Kuchens oder Balkens eines Pie-of-Pie-Diagramms oder Bar-of-Pie-Diagramms als Prozentsatz der Größe des ersten Kuchens an (kann zwischen 5 % und 200 % liegen). |
+| [getUpDownBars()](#getUpDownBars--) | Stellt Zugriff auf Auf/Ab-Balken von Linien- oder Kurs-Diagrammen bereit. |
+| [getGapWidth()](#getGapWidth--) | Gibt den Abstand zwischen Balken- oder Säulen-Clustern zurück oder legt ihn fest, angegeben als Prozentsatz der Balken- bzw. Säulenbreite. |
+| [setGapWidth(int value)](#setGapWidth-int-) | Gibt den Abstand zwischen Balken- oder Säulen-Clustern zurück oder legt ihn fest, angegeben als Prozentsatz der Balken- bzw. Säulenbreite. |
+| [getGapDepth()](#getGapDepth--) | Gibt den Abstand zwischen Datenreihen in einem 3D-Diagramm zurück oder legt ihn fest, angegeben als Prozentsatz der Markierungsbreite. |
+| [setGapDepth(int value)](#setGapDepth-int-) | Gibt den Abstand zwischen Datenreihen in einem 3D-Diagramm zurück oder legt ihn fest, angegeben als Prozentsatz der Markierungsbreite. |
+| [getFirstSliceAngle()](#getFirstSliceAngle--) | Gibt den Winkel des ersten Stücks eines Kreis- bzw. Donut-Diagramms zurück oder legt ihn fest, in Grad (im Uhrzeigersinn von oben, von 0 bis 360 Grad). |
+| [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | Gibt den Winkel des ersten Stücks eines Kreis- bzw. Donut-Diagramms zurück oder legt ihn fest, in Grad (im Uhrzeigersinn von oben, von 0 bis 360 Grad). |
+| [getDoughnutHoleSize()](#getDoughnutHoleSize--) | Gibt die Größe des Lochs in einem Donut-Diagramm an (kann zwischen 0 und 90 % der Plot-Bereichsgröße liegen). |
+| [setDoughnutHoleSize(byte value)](#setDoughnutHoleSize-byte-) | Gibt die Größe des Lochs in einem Donut-Diagramm an (kann zwischen 0 und 90 % der Plot-Bereichsgröße liegen). |
+| [getOverlap()](#getOverlap--) | Gibt an, wie stark Balken und Säulen in 2-D-Diagrammen überlappen sollen, als Prozentsatz (von -100 % bis 100 %). |
+| [setOverlap(byte value)](#setOverlap-byte-) | Gibt an, wie stark Balken und Säulen in 2-D-Diagrammen überlappen sollen, als Prozentsatz (von -100 % bis 100 %). |
+| [getSecondPieSize()](#getSecondPieSize--) | Gibt die Größe des zweiten Kreises oder Balkens eines Pie-of-Pie-Diagramms oder Bar-of-Pie-Diagramms an, als Prozentsatz der Größe des ersten Kreises (kann zwischen 5 % und 200 % liegen). |
+| [setSecondPieSize(int value)](#setSecondPieSize-int-) | Gibt die Größe des zweiten Kreises oder Balkens eines Pie-of-Pie-Diagramms oder Bar-of-Pie-Diagramms an, als Prozentsatz der Größe des ersten Kreises (kann zwischen 5 % und 200 % liegen). |
 | [getBubbleSizeRepresentation()](#getBubbleSizeRepresentation--) | Gibt an, wie die Werte der Blasengröße im Blasendiagramm dargestellt werden. |
 | [setBubbleSizeRepresentation(int value)](#setBubbleSizeRepresentation-int-) | Gibt an, wie die Werte der Blasengröße im Blasendiagramm dargestellt werden. |
-| [getPieSplitPosition()](#getPieSplitPosition--) | Gibt einen Wert an, der verwendet wird, um zu bestimmen, welche Datenpunkte im zweiten Kuchen oder Balken eines Pie-of-Pie- oder Bar-of-Pie-Diagramms liegen. |
-| [setPieSplitPosition(double value)](#setPieSplitPosition-double-) | Gibt einen Wert an, der verwendet wird, um zu bestimmen, welche Datenpunkte im zweiten Kuchen oder Balken eines Pie-of-Pie- oder Bar-of-Pie-Diagramms liegen. |
-| [getPieSplitBy()](#getPieSplitBy--) | Gibt an, wie zu bestimmen ist, welche Datenpunkte im zweiten Kuchen oder Balken eines Pie-of-Pie- oder Bar-of-Pie-Diagramms liegen. |
-| [setPieSplitBy(int value)](#setPieSplitBy-int-) | Gibt an, wie zu bestimmen ist, welche Datenpunkte im zweiten Kuchen oder Balken eines Pie-of-Pie- oder Bar-of-Pie-Diagramms liegen. |
-| [isColorVaried()](#isColorVaried--) | Gibt an, dass jeder Datenmarker in der Serie eine andere Farbe hat. |
-| [setColorVaried(boolean value)](#setColorVaried-boolean-) | Gibt an, dass jeder Datenmarker in der Serie eine andere Farbe hat. |
-| [hasSeriesLines()](#hasSeriesLines--) | Wahr, wenn das Diagramm Serienlinien hat. |
-| [setSeriesLines(boolean value)](#setSeriesLines-boolean-) | Wahr, wenn das Diagramm Serienlinien hat. |
+| [getPieSplitPosition()](#getPieSplitPosition--) | Gibt einen Wert an, der verwendet wird, um zu bestimmen, welche Datenpunkte im zweiten Kreis oder Balken eines Pie-of-Pie- bzw. Bar-of-Pie-Diagramms liegen. |
+| [setPieSplitPosition(double value)](#setPieSplitPosition-double-) | Gibt einen Wert an, der verwendet wird, um zu bestimmen, welche Datenpunkte im zweiten Kreis oder Balken eines Pie-of-Pie- bzw. Bar-of-Pie-Diagramms liegen. |
+| [getPieSplitBy()](#getPieSplitBy--) | Gibt an, wie zu bestimmen ist, welche Datenpunkte im zweiten Kreis oder Balken eines Pie-of-Pie- bzw. Bar-of-Pie-Diagramms liegen. |
+| [setPieSplitBy(int value)](#setPieSplitBy-int-) | Gibt an, wie zu bestimmen ist, welche Datenpunkte im zweiten Kreis oder Balken eines Pie-of-Pie- bzw. Bar-of-Pie-Diagramms liegen. |
+| [isColorVaried()](#isColorVaried--) | Gibt an, dass jeder Datenpunkt in der Reihe eine andere Farbe hat. |
+| [setColorVaried(boolean value)](#setColorVaried-boolean-) | Gibt an, dass jeder Datenpunkt in der Reihe eine andere Farbe hat. |
+| [hasSeriesLines()](#hasSeriesLines--) | True, wenn das Diagramm Serienlinien hat. |
+| [setSeriesLines(boolean value)](#setSeriesLines-boolean-) | True, wenn das Diagramm Serienlinien hat. |
 | [getHiLowLinesFormat()](#getHiLowLinesFormat--) | Gibt das HiLowLines-Format an. |
 | [getBubbleSizeScale()](#getBubbleSizeScale--) | Gibt den Skalierungsfaktor für das Blasendiagramm an (kann zwischen 0 und 300 % der Standardgröße liegen). |
 | [setBubbleSizeScale(int value)](#setBubbleSizeScale-int-) | Gibt den Skalierungsfaktor für das Blasendiagramm an (kann zwischen 0 und 300 % der Standardgröße liegen). |
-| [getPieSplitCustomPoints()](#getPieSplitCustomPoints--) | Die benutzerdefinierten Split-Informationen für ein Pie-of-Pie- oder Bar-of-Pie-Diagramm mit einem benutzerdefinierten Split. |
+| [getPieSplitCustomPoints()](#getPieSplitCustomPoints--) | Die benutzerdefinierten Split-Informationen für ein Pie-of-Pie- oder Bar-of-Pie-Diagramm mit benutzerdefiniertem Split. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
 | [getChart()](#getChart--) | Gibt das übergeordnete Diagramm zurück. |
 | [getSlide()](#getSlide--) | Gibt die übergeordnete Folie eines FillFormat zurück. |
@@ -75,7 +74,7 @@ int
 public final boolean getPlotOnSecondAxis()
 ```
 
-Gibt an, ob Serien dieser Gruppe auf einer sekundären Achse dargestellt werden. Nur lesbar boolean.
+Gibt an, ob die Reihen dieser Gruppe auf einer sekundären Achse dargestellt werden. Nur lesbar boolean.
 
 **Rückgabe:**
 boolean
@@ -85,7 +84,7 @@ boolean
 public final IChartSeriesReadonlyCollection getSeries()
 ```
 
-Gibt eine Sammlung von Serien zurück. Nur lesbar [IChartSeriesReadonlyCollection](../../com.aspose.slides/ichartseriesreadonlycollection).
+Gibt eine Sammlung von Reihen zurück. Nur lesbar [IChartSeriesReadonlyCollection](../../com.aspose.slides/ichartseriesreadonlycollection).
 
 **Rückgabe:**
 [IChartSeriesReadonlyCollection](../../com.aspose.slides/ichartseriesreadonlycollection)
@@ -110,7 +109,7 @@ Gibt das Element am angegebenen Index zurück.
 public final IUpDownBarsManager getUpDownBars()
 ```
 
-Stellt Zugriff auf Auf/Ab-Balken eines Linien- oder Kurs-Diagramms bereit. Nur lesbar [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager).
+Stellt Zugriff auf Auf/Ab-Balken von Linien- oder Kurs-Diagrammen bereit. Nur lesbar [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager).
 
 **Rückgabe:**
 [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager)
@@ -120,7 +119,11 @@ Stellt Zugriff auf Auf/Ab-Balken eines Linien- oder Kurs-Diagramms bereit. Nur l
 public final int getGapWidth()
 ```
 
-Gibt den Abstand zwischen Balken- oder Säulen-Clustern als Prozentsatz der Balken- oder Säulenbreite an. Lesen/Schreiben int.
+Gibt den Abstand zwischen Balken- oder Säulen-Clustern zurück oder legt ihn fest, angegeben als Prozentsatz der Balken- bzw. Säulenbreite. Der Wert muss zwischen 0 und 500 liegen. Lesen/Schreiben int.
+
+--------------------
+
+Diese Eigenschaft gilt für Reihen der folgenden Typen: Bar-Untertypen (siehe auch [ChartTypeCharacterizer.isChartTypeBar(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBar-int-)-Methode), Column-Untertypen (siehe auch [ChartTypeCharacterizer.isChartTypeColumn(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeColumn-int-)-Methode), [ChartType.BarOfPie](../../com.aspose.slides/charttype\#BarOfPie), [ChartType.PieOfPie](../../com.aspose.slides/charttype\#PieOfPie), [ChartType.BoxAndWhisker](../../com.aspose.slides/charttype\#BoxAndWhisker), [ChartType.Funnel](../../com.aspose.slides/charttype\#Funnel), [ChartType.Histogram](../../com.aspose.slides/charttype\#Histogram), [ChartType.Waterfall](../../com.aspose.slides/charttype\#Waterfall).
 
 **Rückgabe:**
 int
@@ -130,7 +133,11 @@ int
 public final void setGapWidth(int value)
 ```
 
-Gibt den Abstand zwischen Balken- oder Säulen-Clustern als Prozentsatz der Balken- oder Säulenbreite an. Lesen/Schreiben int.
+Gibt den Abstand zwischen Balken- oder Säulen-Clustern zurück oder legt ihn fest, angegeben als Prozentsatz der Balken- bzw. Säulenbreite. Der Wert muss zwischen 0 und 500 liegen. Lesen/Schreiben int.
+
+--------------------
+
+Diese Eigenschaft gilt für Reihen der folgenden Typen: Bar-Untertypen (siehe auch [ChartTypeCharacterizer.isChartTypeBar(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBar-int-)-Methode), Column-Untertypen (siehe auch [ChartTypeCharacterizer.isChartTypeColumn(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeColumn-int-)-Methode), [ChartType.BarOfPie](../../com.aspose.slides/charttype\#BarOfPie), [ChartType.PieOfPie](../../com.aspose.slides/charttype\#PieOfPie), [ChartType.BoxAndWhisker](../../com.aspose.slides/charttype\#BoxAndWhisker), [ChartType.Funnel](../../com.aspose.slides/charttype\#Funnel), [ChartType.Histogram](../../com.aspose.slides/charttype\#Histogram), [ChartType.Waterfall](../../com.aspose.slides/charttype\#Waterfall).
 
 **Parameter:**
 | Parameter | Typ | Beschreibung |
@@ -142,7 +149,11 @@ Gibt den Abstand zwischen Balken- oder Säulen-Clustern als Prozentsatz der Balk
 public final int getGapDepth()
 ```
 
-Gibt die Entfernung als Prozentsatz der Markierungsbreite zwischen den Datenserien in einem 3D-Diagramm zurück oder legt sie fest. Lesen/Schreiben int.
+Gibt den Abstand zwischen Datenreihen in einem 3D-Diagramm zurück oder legt ihn fest, angegeben als Prozentsatz der Markierungsbreite. Der Wert muss zwischen 0 und 500 liegen. Lesen/Schreiben int.
+
+--------------------
+
+Diese Eigenschaft gilt für Reihen der folgenden Typen: 3D-Bar- und Säulen-Untertypen (siehe auch [ChartTypeCharacterizer.isBar3DChart(int)](../../com.aspose.slides/charttypecharacterizer\#isBar3DChart-int-)-Methode), [ChartType.Line3D](../../com.aspose.slides/charttype\#Line3D), [ChartType.Area3D](../../com.aspose.slides/charttype\#Area3D), [ChartType.StackedArea3D](../../com.aspose.slides/charttype\#StackedArea3D), [ChartType.PercentsStackedArea3D](../../com.aspose.slides/charttype\#PercentsStackedArea3D).
 
 **Rückgabe:**
 int
@@ -152,7 +163,11 @@ int
 public final void setGapDepth(int value)
 ```
 
-Gibt die Entfernung als Prozentsatz der Markierungsbreite zwischen den Datenserien in einem 3D-Diagramm zurück oder legt sie fest. Lesen/Schreiben int.
+Gibt den Abstand zwischen Datenreihen in einem 3D-Diagramm zurück oder legt ihn fest, angegeben als Prozentsatz der Markierungsbreite. Der Wert muss zwischen 0 und 500 liegen. Lesen/Schreiben int.
+
+--------------------
+
+Diese Eigenschaft gilt für Reihen der folgenden Typen: 3D-Bar- und Säulen-Untertypen (siehe auch [ChartTypeCharacterizer.isBar3DChart(int)](../../com.aspose.slides/charttypecharacterizer\#isBar3DChart-int-)-Methode), [ChartType.Line3D](../../com.aspose.slides/charttype\#Line3D), [ChartType.Area3D](../../com.aspose.slides/charttype\#Area3D), [ChartType.StackedArea3D](../../com.aspose.slides/charttype\#StackedArea3D), [ChartType.PercentsStackedArea3D](../../com.aspose.slides/charttype\#PercentsStackedArea3D).
 
 **Parameter:**
 | Parameter | Typ | Beschreibung |
@@ -164,7 +179,7 @@ Gibt die Entfernung als Prozentsatz der Markierungsbreite zwischen den Datenseri
 public final int getFirstSliceAngle()
 ```
 
-Gibt den Winkel des ersten Kuchens oder Donut-Diagrammsegments in Grad zurück oder legt ihn fest (im Uhrzeigersinn von oben, von 0 bis 360 Grad). Lesen/Schreiben int.
+Gibt den Winkel des ersten Stücks eines Kreis- bzw. Donut-Diagramms zurück oder legt ihn fest, in Grad (im Uhrzeigersinn von oben, von 0 bis 360 Grad). Lesen/Schreiben int.
 
 **Rückgabe:**
 int
@@ -174,7 +189,7 @@ int
 public final void setFirstSliceAngle(int value)
 ```
 
-Gibt den Winkel des ersten Kuchens oder Donut-Diagrammsegments in Grad zurück oder legt ihn fest (im Uhrzeigersinn von oben, von 0 bis 360 Grad). Lesen/Schreiben int.
+Gibt den Winkel des ersten Stücks eines Kreis- bzw. Donut-Diagramms zurück oder legt ihn fest, in Grad (im Uhrzeigersinn von oben, von 0 bis 360 Grad). Lesen/Schreiben int.
 
 **Parameter:**
 | Parameter | Typ | Beschreibung |
@@ -186,7 +201,7 @@ Gibt den Winkel des ersten Kuchens oder Donut-Diagrammsegments in Grad zurück o
 public final byte getDoughnutHoleSize()
 ```
 
-Gibt die Größe des Lochs in einem Donut-Diagramm an (kann zwischen 0 und 90 % der Plot-Bereich-Größe liegen). Lesen/Schreiben byte.
+Gibt die Größe des Lochs in einem Donut-Diagramm an (kann zwischen 0 und 90 % der Plot-Bereichsgröße liegen). Lesen/Schreiben byte.
 
 **Rückgabe:**
 byte
@@ -196,7 +211,7 @@ byte
 public final void setDoughnutHoleSize(byte value)
 ```
 
-Gibt die Größe des Lochs in einem Donut-Diagramm an (kann zwischen 0 und 90 % der Plot-Bereich-Größe liegen). Lesen/Schreiben byte.
+Gibt die Größe des Lochs in einem Donut-Diagramm an (kann zwischen 0 und 90 % der Plot-Bereichsgröße liegen). Lesen/Schreiben byte.
 
 **Parameter:**
 | Parameter | Typ | Beschreibung |
@@ -208,7 +223,7 @@ Gibt die Größe des Lochs in einem Donut-Diagramm an (kann zwischen 0 und 90 % 
 public final byte getOverlap()
 ```
 
-Gibt an, wie stark Balken und Säulen in 2-D-Diagrammen überlappen sollen, als Prozentsatz (von –100 % bis 100 %). –100 %: Maximale Trennung (Balken sind vollständig getrennt). –0 %: Balken liegen nebeneinander ohne Überlappung oder Abstand. 100 %: Maximale Überlappung (Balken überlappen vollständig). Diese Eigenschaft ist Lesen/Schreiben byte.
+Gibt an, wie stark Balken und Säulen in 2-D-Diagrammen überlappen sollen, als Prozentsatz (von -100 % bis 100 %). - -100 %: Maximaler Abstand (Balken sind vollständig getrennt). - 0 %: Balken werden nebeneinander ohne Überlappung oder Abstand platziert. - 100 %: Maximale Überlappung (Balken überlappen vollständig). Diese Eigenschaft ist Lesen/Schreiben byte.
 
 --------------------
 
@@ -220,7 +235,7 @@ Gibt an, wie stark Balken und Säulen in 2-D-Diagrammen überlappen sollen, als 
 >  try {
 >      IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);
 >      IChartSeriesCollection series = chart.getChartData().getSeries();
->      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // Set overlap to 55%
+>      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // Setze Überlappung auf 55%
 >      pres.getSlides().get_Item(0).getImage(1, 1).save("chart.png", ImageFormat.Png);
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -235,7 +250,7 @@ byte
 public final void setOverlap(byte value)
 ```
 
-Gibt an, wie stark Balken und Säulen in 2-D-Diagrammen überlappen sollen, als Prozentsatz (von –100 % bis 100 %). –100 %: Maximale Trennung (Balken sind vollständig getrennt). –0 %: Balken liegen nebeneinander ohne Überlappung oder Abstand. 100 %: Maximale Überlappung (Balken überlappen vollständig). Diese Eigenschaft ist Lesen/Schreiben byte.
+Gibt an, wie stark Balken und Säulen in 2-D-Diagrammen überlappen sollen, als Prozentsatz (von -100 % bis 100 %). - -100 %: Maximaler Abstand (Balken sind vollständig getrennt). - 0 %: Balken werden nebeneinander ohne Überlappung oder Abstand platziert. - 100 %: Maximale Überlappung (Balken überlappen vollständig). Diese Eigenschaft ist Lesen/Schreiben byte.
 
 --------------------
 
@@ -247,12 +262,13 @@ Gibt an, wie stark Balken und Säulen in 2-D-Diagrammen überlappen sollen, als 
 >  try {
 >      IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);
 >      IChartSeriesCollection series = chart.getChartData().getSeries();
->      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // Set overlap to 55%
+>      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // Setze die Überlappung auf 55%
 >      pres.getSlides().get_Item(0).getImage(1, 1).save("chart.png", ImageFormat.Png);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
 > ```
+
 
 **Parameter:**
 | Parameter | Typ | Beschreibung |
@@ -264,7 +280,7 @@ Gibt an, wie stark Balken und Säulen in 2-D-Diagrammen überlappen sollen, als 
 public final int getSecondPieSize()
 ```
 
-Gibt die Größe des zweiten Kuchens oder Balkens eines Pie-of-Pie-Diagramms oder Bar-of-Pie-Diagramms als Prozentsatz der Größe des ersten Kuchens an (kann zwischen 5 % und 200 % liegen). Lesen/Schreiben int.
+Gibt die Größe des zweiten Kreises oder Balkens eines Pie-of-Pie-Diagramms oder Bar-of-Pie-Diagramms an, als Prozentsatz der Größe des ersten Kreises (kann zwischen 5 % und 200 % liegen). Lesen/Schreiben int.
 
 **Rückgabe:**
 int
@@ -274,7 +290,7 @@ int
 public final void setSecondPieSize(int value)
 ```
 
-Gibt die Größe des zweiten Kuchens oder Balkens eines Pie-of-Pie-Diagramms oder Bar-of-Pie-Diagramms als Prozentsatz der Größe des ersten Kuchens an (kann zwischen 5 % und 200 % liegen). Lesen/Schreiben int.
+Gibt die Größe des zweiten Kreises oder Balkens eines Pie-of-Pie-Diagramms oder Bar-of-Pie-Diagramms an, als Prozentsatz der Größe des ersten Kreises (kann zwischen 5 % und 200 % liegen). Lesen/Schreiben int.
 
 **Parameter:**
 | Parameter | Typ | Beschreibung |
@@ -308,7 +324,7 @@ Gibt an, wie die Werte der Blasengröße im Blasendiagramm dargestellt werden. L
 public final double getPieSplitPosition()
 ```
 
-Gibt einen Wert an, der verwendet wird, um zu bestimmen, welche Datenpunkte im zweiten Kuchen oder Balken eines Pie-of-Pie- oder Bar-of-Pie-Diagramms liegen. Wird zusammen mit der Eigenschaft PieSplitBy verwendet. Lesen/Schreiben double.
+Gibt einen Wert an, der verwendet wird, um zu bestimmen, welche Datenpunkte im zweiten Kreis oder Balken eines Pie-of-Pie- bzw. Bar-of-Pie-Diagramms liegen. Wird zusammen mit der Eigenschaft PieSplitBy verwendet. Lesen/Schreiben double.
 
 **Rückgabe:**
 double
@@ -318,7 +334,7 @@ double
 public final void setPieSplitPosition(double value)
 ```
 
-Gibt einen Wert an, der verwendet wird, um zu bestimmen, welche Datenpunkte im zweiten Kuchen oder Balken eines Pie-of-Pie- oder Bar-of-Pie-Diagramms liegen. Wird zusammen mit der Eigenschaft PieSplitBy verwendet. Lesen/Schreiben double.
+Gibt einen Wert an, der verwendet wird, um zu bestimmen, welche Datenpunkte im zweiten Kreis oder Balken eines Pie-of-Pie- bzw. Bar-of-Pie-Diagramms liegen. Wird zusammen mit der Eigenschaft PieSplitBy verwendet. Lesen/Schreiben double.
 
 **Parameter:**
 | Parameter | Typ | Beschreibung |
@@ -330,7 +346,7 @@ Gibt einen Wert an, der verwendet wird, um zu bestimmen, welche Datenpunkte im z
 public final int getPieSplitBy()
 ```
 
-Gibt an, wie zu bestimmen ist, welche Datenpunkte im zweiten Kuchen oder Balken eines Pie-of-Pie- oder Bar-of-Pie-Diagramms liegen. Lesen/Schreiben [PieSplitType](../../com.aspose.slides/piesplittype).
+Gibt an, wie zu bestimmen ist, welche Datenpunkte im zweiten Kreis oder Balken eines Pie-of-Pie- bzw. Bar-of-Pie-Diagramms liegen. Lesen/Schreiben [PieSplitType](../../com.aspose.slides/piesplittype).
 
 **Rückgabe:**
 int
@@ -340,7 +356,7 @@ int
 public final void setPieSplitBy(int value)
 ```
 
-Gibt an, wie zu bestimmen ist, welche Datenpunkte im zweiten Kuchen oder Balken eines Pie-of-Pie- oder Bar-of-Pie-Diagramms liegen. Lesen/Schreiben [PieSplitType](../../com.aspose.slides/piesplittype).
+Gibt an, wie zu bestimmen ist, welche Datenpunkte im zweiten Kreis oder Balken eines Pie-of-Pie- bzw. Bar-of-Pie-Diagramms liegen. Lesen/Schreiben [PieSplitType](../../com.aspose.slides/piesplittype).
 
 **Parameter:**
 | Parameter | Typ | Beschreibung |
@@ -352,7 +368,7 @@ Gibt an, wie zu bestimmen ist, welche Datenpunkte im zweiten Kuchen oder Balken 
 public final boolean isColorVaried()
 ```
 
-Gibt an, dass jeder Datenmarker in der Serie eine andere Farbe hat. Lesen/Schreiben boolean.
+Gibt an, dass jeder Datenpunkt in der Reihe eine andere Farbe hat. Lesen/Schreiben boolean.
 
 **Rückgabe:**
 boolean
@@ -362,7 +378,7 @@ boolean
 public final void setColorVaried(boolean value)
 ```
 
-Gibt an, dass jeder Datenmarker in der Serie eine andere Farbe hat. Lesen/Schreiben boolean.
+Gibt an, dass jeder Datenpunkt in der Reihe eine andere Farbe hat. Lesen/Schreiben boolean.
 
 **Parameter:**
 | Parameter | Typ | Beschreibung |
@@ -374,7 +390,7 @@ Gibt an, dass jeder Datenmarker in der Serie eine andere Farbe hat. Lesen/Schrei
 public final boolean hasSeriesLines()
 ```
 
-Wahr, wenn das Diagramm Serienlinien hat. Auf gestapelte Balken- und OfPie-Diagramme angewendet. Lesen/Schreiben boolean.
+True, wenn das Diagramm Serienlinien hat. Auf gestapelte Balken- und OfPie-Diagramme angewendet. Lesen/Schreiben boolean.
 
 **Rückgabe:**
 boolean
@@ -384,7 +400,7 @@ boolean
 public final void setSeriesLines(boolean value)
 ```
 
-Wahr, wenn das Diagramm Serienlinien hat. Auf gestapelte Balken- und OfPie-Diagramme angewendet. Lesen/Schreiben boolean.
+True, wenn das Diagramm Serienlinien hat. Auf gestapelte Balken- und OfPie-Diagramme angewendet. Lesen/Schreiben boolean.
 
 **Parameter:**
 | Parameter | Typ | Beschreibung |
@@ -396,7 +412,7 @@ Wahr, wenn das Diagramm Serienlinien hat. Auf gestapelte Balken- und OfPie-Diagr
 public final IChartLinesFormat getHiLowLinesFormat()
 ```
 
-Gibt das HiLowLines-Format an. HiLowLines wird mit den Diagrammtypen HiLowClose, OpenHiLowClose, VolumeHiLowClose und VolumeOpenHiLowClose verwendet.
+Gibt das HiLowLines-Format an. HiLowLines wird bei den Diagrammtypen HiLowClose, OpenHiLowClose, VolumeHiLowClose und VolumeOpenHiLowClose angewendet.
 
 **Rückgabe:**
 [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat)
@@ -428,7 +444,7 @@ Gibt den Skalierungsfaktor für das Blasendiagramm an (kann zwischen 0 und 300 %
 public final IPieSplitCustomPointCollection getPieSplitCustomPoints()
 ```
 
-Die benutzerdefinierten Split-Informationen für ein Pie-of-Pie- oder Bar-of-Pie-Diagramm mit einem benutzerdefinierten Split. Enthält Datenpunkte, die im zweiten Kuchen oder Balken eines Pie-of-Pie- oder Bar-of-Pie-Diagramms gezeichnet werden sollen. Nur lesbar [PieSplitCustomPointCollection](../../com.aspose.slides/piesplitcustompointcollection).
+Die benutzerdefinierten Split-Informationen für ein Pie-of-Pie- oder Bar-of-Pie-Diagramm mit benutzerdefiniertem Split. Enthält Datenpunkte, die im zweiten Kreis oder Balken eines Pie-of-Pie- bzw. Bar-of-Pie-Diagramms gezeichnet werden sollen. Nur lesbar [PieSplitCustomPointCollection](../../com.aspose.slides/piesplitcustompointcollection).
 
 **Rückgabe:**
 [IPieSplitCustomPointCollection](../../com.aspose.slides/ipiesplitcustompointcollection)

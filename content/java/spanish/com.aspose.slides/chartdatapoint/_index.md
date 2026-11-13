@@ -1,7 +1,7 @@
 ---
 title: ChartDataPoint
-second_title: Referencia de API de Aspose.Slides para Java
-description: Representa un punto de datos de serie.
+second_title: Referencia de la API de Aspose.Slides para Java
+description: Representa un punto de datos de la serie.
 type: docs
 url: /es/com.aspose.slides/chartdatapoint/
 ---
@@ -14,7 +14,7 @@ java.lang.Object
 public class ChartDataPoint implements IChartDataPoint, IDOMObject
 ```
 
-Representa un punto de datos de serie.
+Representa un punto de datos de la serie.
 ## Métodos
 
 | Método | Descripción |
@@ -38,20 +38,25 @@ Representa un punto de datos de serie.
 | [setSetAsTotal(boolean value)](#setSetAsTotal-boolean-) | Establece el punto de datos como total. |
 | [getRelatedLegendEntry()](#getRelatedLegendEntry--) | Propiedades de la entrada de leyenda correspondiente en caso de tipo de gráfico de esta lista: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. |
 | [remove()](#remove--) | Elimina DataPoint de la serie del gráfico. |
-| [getDataPointLevels()](#getDataPointLevels--) | Devuelve el contenedor de niveles de punto de datos. |
+| [getDataPointLevels()](#getDataPointLevels--) | Devuelve el contenedor de los niveles del punto de datos. |
 | [getIndex()](#getIndex--) |    |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-| [getAutomaticDataPointColor()](#getAutomaticDataPointColor--) | Devuelve un color automático del punto de datos basado en el índice de serie, índice de punto de datos, la propiedad ParentSeriesGroup.IsColorVaried y el estilo del gráfico. |
+| [getAutomaticDataPointColor()](#getAutomaticDataPointColor--) | Devuelve un color automático del punto de datos basado en el índice de la serie, índice del punto de datos, propiedad ParentSeriesGroup.IsColorVaried y el estilo del gráfico. |
 | [getInvertIfNegative()](#getInvertIfNegative--) | Especifica que el punto de datos debe invertir sus colores si el valor es negativo. |
 | [setInvertIfNegative(boolean value)](#setInvertIfNegative-boolean-) | Especifica que el punto de datos debe invertir sus colores si el valor es negativo. |
-| [getActualX()](#getActualX--) | Especifica la ubicación x real (izquierda) del elemento del gráfico relativo a la esquina superior izquierda del gráfico. |
-| [getActualY()](#getActualY--) | Especifica la parte superior real del elemento del gráfico relativo a la esquina superior izquierda del gráfico. |
+| [getCachedValue()](#getCachedValue--) | Obtiene el valor almacenado en caché de un punto de datos del gráfico. |
+| [getCachedXValue()](#getCachedXValue--) | Obtiene el valor X almacenado en caché de un punto de datos del gráfico. |
+| [getCachedYValue()](#getCachedYValue--) | Obtiene el valor Y almacenado en caché de un punto de datos del gráfico. |
+| [getCachedBubbleSize()](#getCachedBubbleSize--) | Obtiene el tamaño de burbuja almacenado en caché de un punto de datos del gráfico. |
+| [getActualX()](#getActualX--) | Especifica la ubicación real x (izquierda) del elemento del gráfico relativa a la esquina superior izquierda del gráfico. |
+| [getActualY()](#getActualY--) | Especifica la parte superior real del elemento del gráfico relativa a la esquina superior izquierda del gráfico. |
 | [getActualWidth()](#getActualWidth--) | Especifica el ancho real del elemento del gráfico. |
 | [getActualHeight()](#getActualHeight--) | Especifica la altura real del elemento del gráfico. |
 ### getXValue() {#getXValue--}
 ```
 public final IStringOrDoubleChartValue getXValue()
 ```
+
 
 XValue. Solo lectura [IStringOrDoubleChartValue](../../com.aspose.slides/istringordoublechartvalue).
 
@@ -62,6 +67,7 @@ XValue. Solo lectura [IStringOrDoubleChartValue](../../com.aspose.slides/istring
 public final IDoubleChartValue getYValue()
 ```
 
+
 YValue. Solo lectura [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
 **Devuelve:**
@@ -70,6 +76,7 @@ YValue. Solo lectura [IDoubleChartValue](../../com.aspose.slides/idoublechartval
 ```
 public final IDoubleChartValue getBubbleSize()
 ```
+
 
 BubbleSize. Solo lectura [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
@@ -80,6 +87,7 @@ BubbleSize. Solo lectura [IDoubleChartValue](../../com.aspose.slides/idoublechar
 public final IDoubleChartValue getValue()
 ```
 
+
 Value. Solo lectura [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
 **Devuelve:**
@@ -89,7 +97,8 @@ Value. Solo lectura [IDoubleChartValue](../../com.aspose.slides/idoublechartvalu
 public final IDoubleChartValue getSizeValue()
 ```
 
-Devuelve el valor de tamaño del punto de datos del gráfico. Se usa con gráficos Treemap y Sunburst. Solo lectura [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
+
+Devuelve el valor de tamaño del punto de datos del gráfico. Utilizado con gráficos Treemap y Sunburst. Solo lectura [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
 **Devuelve:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
@@ -98,7 +107,8 @@ Devuelve el valor de tamaño del punto de datos del gráfico. Se usa con gráfic
 public final IDoubleChartValue getColorValue()
 ```
 
-Devuelve el valor de color del punto de datos del gráfico. Se usa con gráficos Map. Solo lectura [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
+
+Devuelve el valor de color del punto de datos del gráfico. Utilizado con gráficos Map. Solo lectura [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
 **Devuelve:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
@@ -106,6 +116,7 @@ Devuelve el valor de color del punto de datos del gráfico. Se usa con gráficos
 ```
 public final IErrorBarsCustomValues getErrorBarsCustomValues()
 ```
+
 
 Representa los valores de barras de error de la serie en caso de tipo de valor Custom. Solo lectura [IErrorBarsCustomValues](../../com.aspose.slides/ierrorbarscustomvalues).
 
@@ -116,6 +127,7 @@ Representa los valores de barras de error de la serie en caso de tipo de valor C
 public final IDataLabel getLabel()
 ```
 
+
 Label. Solo lectura [IDataLabel](../../com.aspose.slides/idatalabel).
 
 **Devuelve:**
@@ -125,6 +137,7 @@ Label. Solo lectura [IDataLabel](../../com.aspose.slides/idatalabel).
 public final boolean isBubble3D()
 ```
 
+
 Especifica que las burbujas tienen un efecto 3-D aplicado. Lectura/escritura boolean.
 
 **Devuelve:**
@@ -133,6 +146,7 @@ boolean
 ```
 public final void setBubble3D(boolean value)
 ```
+
 
 Especifica que las burbujas tienen un efecto 3-D aplicado. Lectura/escritura boolean.
 
@@ -145,6 +159,7 @@ Especifica que las burbujas tienen un efecto 3-D aplicado. Lectura/escritura boo
 public final int getExplosion()
 ```
 
+
 Especifica la cantidad que el punto de datos debe moverse desde el centro del pastel. Lectura/escritura int.
 
 **Devuelve:**
@@ -153,6 +168,7 @@ int
 ```
 public final void setExplosion(int value)
 ```
+
 
 Especifica la cantidad que el punto de datos debe moverse desde el centro del pastel. Lectura/escritura int.
 
@@ -165,6 +181,7 @@ Especifica la cantidad que el punto de datos debe moverse desde el centro del pa
 public final IFormat getFormat()
 ```
 
+
 Representa las propiedades de formato. Lectura/escritura [IFormat](../../com.aspose.slides/iformat).
 
 **Devuelve:**
@@ -173,6 +190,7 @@ Representa las propiedades de formato. Lectura/escritura [IFormat](../../com.asp
 ```
 public final void setFormat(IFormat value)
 ```
+
 
 Representa las propiedades de formato. Lectura/escritura [IFormat](../../com.aspose.slides/iformat).
 
@@ -185,6 +203,7 @@ Representa las propiedades de formato. Lectura/escritura [IFormat](../../com.asp
 public final IMarker getMarker()
 ```
 
+
 Especifica un marcador de datos. Solo lectura [IMarker](../../com.aspose.slides/imarker).
 
 **Devuelve:**
@@ -194,6 +213,7 @@ Especifica un marcador de datos. Solo lectura [IMarker](../../com.aspose.slides/
 public final boolean getSetAsTotal()
 ```
 
+
 Establece el punto de datos como total. Aplicado solo para series de tipo Waterfall.
 
 **Devuelve:**
@@ -202,6 +222,7 @@ boolean
 ```
 public final void setSetAsTotal(boolean value)
 ```
+
 
 Establece el punto de datos como total. Aplicado solo para series de tipo Waterfall.
 
@@ -214,6 +235,7 @@ Establece el punto de datos como total. Aplicado solo para series de tipo Waterf
 public final ILegendEntryProperties getRelatedLegendEntry()
 ```
 
+
 Propiedades de la entrada de leyenda correspondiente en caso de tipo de gráfico de esta lista: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Solo lectura [ILegendEntryProperties](../../com.aspose.slides/ilegendentryproperties).
 
 **Devuelve:**
@@ -223,13 +245,15 @@ Propiedades de la entrada de leyenda correspondiente en caso de tipo de gráfico
 public final void remove()
 ```
 
+
 Elimina DataPoint de la serie del gráfico.
 ### getDataPointLevels() {#getDataPointLevels--}
 ```
 public final IChartDataPointLevelsManager getDataPointLevels()
 ```
 
-Devuelve el contenedor de niveles de punto de datos. Aplicado para series Treeamp y Sunburst. El indexado de niveles de punto de datos es base cero.
+
+Devuelve el contenedor de los niveles del punto de datos. Aplicado para series Treeamp y Sunburst. La indexación de los niveles del punto de datos es basada en cero.
 
 **Devuelve:**
 [IChartDataPointLevelsManager](../../com.aspose.slides/ichartdatapointlevelsmanager)
@@ -237,6 +261,7 @@ Devuelve el contenedor de niveles de punto de datos. Aplicado para series Treeam
 ```
 public final long getIndex()
 ```
+
 
   
 
@@ -247,6 +272,7 @@ long
 public final IDOMObject getParent_Immediate()
 ```
 
+
 Devuelve el objeto Parent_Immediate. Solo lectura IDOMObject.
 
 **Devuelve:**
@@ -256,7 +282,8 @@ com.aspose.slides.IDOMObject
 public final Color getAutomaticDataPointColor()
 ```
 
-Devuelve un color automático del punto de datos basado en el índice de serie, índice de punto de datos, la propiedad ParentSeriesGroup.IsColorVaried y el estilo del gráfico. Este color se usa por defecto si FillType es NotDefined.
+
+Devuelve un color automático del punto de datos basado en el índice de la serie, índice del punto de datos, propiedad ParentSeriesGroup.IsColorVaried y el estilo del gráfico. Este color se usa por defecto si FillType es igual a NotDefined.
 
 **Devuelve:**
 java.awt.Color
@@ -264,6 +291,7 @@ java.awt.Color
 ```
 public final boolean getInvertIfNegative()
 ```
+
 
 Especifica que el punto de datos debe invertir sus colores si el valor es negativo. Lectura/escritura boolean.
 
@@ -274,18 +302,128 @@ boolean
 public final void setInvertIfNegative(boolean value)
 ```
 
+
 Especifica que el punto de datos debe invertir sus colores si el valor es negativo. Lectura/escritura boolean.
 
 **Parámetros:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | value | boolean |  |
+### getCachedValue() {#getCachedValue--}
+```
+public final ICachedChartValue getCachedValue()
+```
+
+
+Obtiene el valor almacenado en caché de un punto de datos del gráfico. Solo lectura [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // Imprime todos los valores en caché de la serie del gráfico.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedValue().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Devuelve:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
+### getCachedXValue() {#getCachedXValue--}
+```
+public final ICachedChartValue getCachedXValue()
+```
+
+
+Obtiene el valor X almacenado en caché de un punto de datos del gráfico. Solo lectura [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // Imprime todos los valores X en caché de la serie del gráfico.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedXValue().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Devuelve:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
+### getCachedYValue() {#getCachedYValue--}
+```
+public final ICachedChartValue getCachedYValue()
+```
+
+
+Obtiene el valor Y almacenado en caché de un punto de datos del gráfico. Solo lectura [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // Imprime todos los valores Y en caché de la serie del gráfico.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedYValue().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Devuelve:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
+### getCachedBubbleSize() {#getCachedBubbleSize--}
+```
+public final ICachedChartValue getCachedBubbleSize()
+```
+
+
+Obtiene el tamaño de burbuja almacenado en caché de un punto de datos del gráfico. Solo lectura [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // Imprime todos los valores del tamaño de burbuja en caché de la serie del gráfico.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedBubbleSize().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Devuelve:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
 ### getActualX() {#getActualX--}
 ```
 public final float getActualX()
 ```
 
-Especifica la ubicación x real (izquierda) del elemento del gráfico relativo a la esquina superior izquierda del gráfico. Llame al método IChart.ValidateChartLayout() antes para obtener los valores reales. Lectura float.
+
+Especifica la ubicación real x (izquierda) del elemento del gráfico relativa a la esquina superior izquierda del gráfico. Llame al método IChart.ValidateChartLayout() antes para obtener valores reales. Lectura float.
 
 **Devuelve:**
 float
@@ -294,7 +432,8 @@ float
 public final float getActualY()
 ```
 
-Especifica la parte superior real del elemento del gráfico relativo a la esquina superior izquierda del gráfico. Llame al método IChart.ValidateChartLayout() antes para obtener los valores reales. Lectura float.
+
+Especifica la parte superior real del elemento del gráfico relativa a la esquina superior izquierda del gráfico. Llame al método IChart.ValidateChartLayout() antes para obtener valores reales. Lectura float.
 
 **Devuelve:**
 float
@@ -303,7 +442,8 @@ float
 public final float getActualWidth()
 ```
 
-Especifica el ancho real del elemento del gráfico. Llame al método IChart.ValidateChartLayout() antes para obtener los valores reales. Lectura float.
+
+Especifica el ancho real del elemento del gráfico. Llame al método IChart.ValidateChartLayout() antes para obtener valores reales. Lectura float.
 
 **Devuelve:**
 float
@@ -312,7 +452,8 @@ float
 public final float getActualHeight()
 ```
 
-Especifica la altura real del elemento del gráfico. Llame al método IChart.ValidateChartLayout() antes para obtener los valores reales. Lectura float.
+
+Especifica la altura real del elemento del gráfico. Llame al método IChart.ValidateChartLayout() antes para obtener valores reales. Lectura float.
 
 **Devuelve:**
 float

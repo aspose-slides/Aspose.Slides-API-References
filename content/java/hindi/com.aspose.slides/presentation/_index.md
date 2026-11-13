@@ -1,7 +1,7 @@
 ---
 title: Presentation
 second_title: Aspose.Slides for Java API संदर्भ
-description: Microsoft PowerPoint प्रस्तुति का प्रतिनिधित्व करता है।
+description: Microsoft PowerPoint प्रस्तुति को दर्शाता है।
 type: docs
 url: /hi/com.aspose.slides/presentation/
 ---
@@ -14,21 +14,21 @@ java.lang.Object
 public final class Presentation implements IPresentation, IDOMObject
 ```
 
-एक Microsoft PowerPoint प्रस्तुति का प्रतिनिधित्व करता है।
+Microsoft PowerPoint प्रस्तुति को दर्शाता है।
 
 --------------------
 
 > ```
 > The following example shows how to create PowerPoint Presentation.
 >   
->  // एक Presentation ऑब्जेक्ट बनाएं जो प्रस्तुति फ़ाइल का प्रतिनिधित्व करता है
+>  // एक Presentation वस्तु बनाएं जो प्रस्तुति फ़ाइल का प्रतिनिधित्व करती है
 >  Presentation pres = new Presentation();
 >  try {
 >      // पहली स्लाइड प्राप्त करें
 >      ISlide slide = pres.getSlides().get_Item(0);
->      // लाइन प्रकार का ऑटोशेप जोड़ें
+>      // लाइन प्रकार का एक ऑटॉशेप जोड़ें
 >      slide.getShapes().addAutoShape(ShapeType.Line, 50, 150, 300, 0);
->      // प्रस्तुति फ़ाइल सहेजें।
+>      // प्रस्तुति फ़ाइल को सहेजें।
 >      pres.save("NewPresentation_out.pptx", SaveFormat.Pptx);
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -36,103 +36,107 @@ public final class Presentation implements IPresentation, IDOMObject
 >   
 >   The following example shows how to open and save Presentation.
 >   
->  // Presentation में कोई भी समर्थित फ़ाइल लोड करें, जैसे ppt, pptx, odp आदि।
+>  // Presentation में कोई भी समर्थित फ़ाइल लोड करें, उदाहरण के लिए ppt, pptx, odp आदि।
 >  Presentation pres = new Presentation("Sample.odp");
 >  try {
->      // प्रस्तुति फ़ाइल सहेजें।
+>      // प्रस्तुति फ़ाइल को सहेजें।
 >      pres.save("OutputPresenation.pptx", SaveFormat.Pptx);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
 > ```
 
-## निर्माताओं
+## निर्माता
 
-| निर्माता | विवरण |
+| Constructor | Description |
 | --- | --- |
-| [Presentation()](#Presentation--) | यह कंस्ट्रक्टर नई प्रस्तुति को शून्य से बनाता है। |
-| [Presentation(LoadOptions loadOptions)](#Presentation-com.aspose.slides.LoadOptions-) | यह कंस्ट्रक्टर नई प्रस्तुति को शून्य से बनाता है। |
-| [Presentation(InputStream stream)](#Presentation-java.io.InputStream-) | यह कंस्ट्रक्टर मौजूदा प्रस्तुति को पढ़ने के लिए प्राथमिक तंत्र है। |
-| [Presentation(InputStream stream, LoadOptions loadOptions)](#Presentation-java.io.InputStream-com.aspose.slides.LoadOptions-) | यह कंस्ट्रक्टर मौजूदा प्रस्तुति को पढ़ने के लिए प्राथमिक तंत्र है। |
-| [Presentation(String file)](#Presentation-java.lang.String-) | यह कंस्ट्रक्टर स्रोत फ़ाइल पथ प्राप्त करता है जिससे प्रस्तुति की सामग्री पढ़ी जाती है। |
-| [Presentation(String file, LoadOptions loadOptions)](#Presentation-java.lang.String-com.aspose.slides.LoadOptions-) | यह कंस्ट्रक्टर स्रोत फ़ाइल पथ प्राप्त करता है जिससे प्रस्तुति की सामग्री पढ़ी जाती है। |
+| [Presentation()](#Presentation--) | यह निर्माता प्रारंभ से नई प्रस्तुति बनाता है। |
+| [Presentation(LoadOptions loadOptions)](#Presentation-com.aspose.slides.LoadOptions-) | यह निर्माता प्रारंभ से नई प्रस्तुति बनाता है। |
+| [Presentation(InputStream stream)](#Presentation-java.io.InputStream-) | यह निर्माता मौजूदा प्रस्तुति को पढ़ने के लिए मुख्य तंत्र है। |
+| [Presentation(InputStream stream, LoadOptions loadOptions)](#Presentation-java.io.InputStream-com.aspose.slides.LoadOptions-) | यह निर्माता मौजूदा प्रस्तुति को पढ़ने के लिए मुख्य तंत्र है। |
+| [Presentation(String file)](#Presentation-java.lang.String-) | यह निर्माता स्रोत फ़ाइल पथ प्राप्त करता है जिससे प्रस्तुति की सामग्री पढ़ी जाती है। |
+| [Presentation(String file, LoadOptions loadOptions)](#Presentation-java.lang.String-com.aspose.slides.LoadOptions-) | यह निर्माता स्रोत फ़ाइल पथ प्राप्त करता है जिससे प्रस्तुति की सामग्री पढ़ी जाती है। |
+
 ## विधियाँ
 
-| विधि | विवरण |
+| Method | Description |
 | --- | --- |
-| [getCurrentDateTime()](#getCurrentDateTime--) | तारीख और समय लौटाता है या सेट करता है जो datetime फ़ील्ड की सामग्री को बदलता है। |
-| [setCurrentDateTime(Date value)](#setCurrentDateTime-java.util.Date-) | तारीख और समय लौटाता है या सेट करता है जो datetime फ़ील्ड की सामग्री को बदलता है। |
+| [getCurrentDateTime()](#getCurrentDateTime--) | डेटेटाइम फ़ील्ड की सामग्री को प्रतिस्थापित करने के लिए तिथि व समय को लौटाता है या सेट करता है। |
+| [setCurrentDateTime(Date value)](#setCurrentDateTime-java.util.Date-) | डेटेटाइम फ़ील्ड की सामग्री को प्रतिस्थापित करने के लिए तिथि व समय को लौटाता है या सेट करता है। |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-| [getHeaderFooterManager()](#getHeaderFooterManager--) | वास्तविक HeaderFooter प्रबंधक लौटाता है। |
-| [getProtectionManager()](#getProtectionManager--) | इस प्रस्तुति के अनुमतियों के प्रबंधक को प्राप्त करता है। |
-| [getSlides()](#getSlides--) | प्रस्तुति में परिभाषित सभी स्लाइडों की सूची लौटाता है। |
+| [getHeaderFooterManager()](#getHeaderFooterManager--) | वास्तविक HeaderFooter प्रबंधक को लौटाता है। |
+| [getProtectionManager()](#getProtectionManager--) | इस प्रस्तुति के लिए अनुमतियों का प्रबंधक प्राप्त करता है। |
+| [getSlides()](#getSlides--) | प्रस्तुति में परिभाषित सभी स्लाइड्स की सूची लौटाता है। |
 | [getSections()](#getSections--) | प्रस्तुति में परिभाषित सभी स्लाइड सेक्शन की सूची लौटाता है। |
 | [getSlideSize()](#getSlideSize--) | स्लाइड आकार ऑब्जेक्ट लौटाता है। |
 | [getNotesSize()](#getNotesSize--) | नोट्स स्लाइड आकार ऑब्जेक्ट लौटाता है। |
-| [getLayoutSlides()](#getLayoutSlides--) | प्रस्तुति में परिभाषित सभी लेआउट स्लाइडों की सूची लौटाता है। |
-| [getMasters()](#getMasters--) | प्रस्तुति में परिभाषित सभी मास्टर स्लाइडों की सूची लौटाता है। |
-| [getMasterNotesSlideManager()](#getMasterNotesSlideManager--) | नोट्स मास्टर प्रबंधक लौटाता है। |
-| [getMasterHandoutSlideManager()](#getMasterHandoutSlideManager--) | हैंडआउट मास्टर प्रबंधक लौटाता है। |
-| [getFontsManager()](#getFontsManager--) | फ़ॉन्ट प्रबंधक लौटाता है। |
+| [getLayoutSlides()](#getLayoutSlides--) | प्रस्तुति में परिभाषित सभी लेआउट स्लाइड्स की सूची लौटाता है। |
+| [getMasters()](#getMasters--) | प्रस्तुति में परिभाषित सभी मास्टर स्लाइड्स की सूची लौटाता है। |
+| [getMasterNotesSlideManager()](#getMasterNotesSlideManager--) | नोट्स मास्टर प्रबंधक को लौटाता है। |
+| [getMasterHandoutSlideManager()](#getMasterHandoutSlideManager--) | हैंडआउट मास्टर प्रबंधक को लौटाता है। |
+| [getFontsManager()](#getFontsManager--) | फ़ॉन्ट्स प्रबंधक को लौटाता है। |
 | [getDefaultTextStyle()](#getDefaultTextStyle--) | आकारों के लिए डिफ़ॉल्ट टेक्स्ट शैली लौटाता है। |
 | [getCommentAuthors()](#getCommentAuthors--) | टिप्पणी लेखकों का संग्रह लौटाता है। |
 | [getDocumentProperties()](#getDocumentProperties--) | DocumentProperties ऑब्जेक्ट लौटाता है जिसमें मानक और कस्टम दस्तावेज़ गुण होते हैं। |
 | [getImages()](#getImages--) | प्रस्तुति में सभी छवियों का संग्रह लौटाता है। |
-| [getAudios()](#getAudios--) | प्रस्तुति में सभी एम्बेडेड ऑडियो फ़ाइलों का संग्रह लौटाता है। |
-| [getVideos()](#getVideos--) | प्रस्तुति में सभी एम्बेडेड वीडियो फ़ाइलों का संग्रह लौटाता है। |
-| [getSlideShowSettings()](#getSlideShowSettings--) | प्रस्तुति के स्लाइडशो सेटिंग्स लौटाता है। |
-| [getDigitalSignatures()](#getDigitalSignatures--) | प्रस्तुति पर हस्ताक्षर करने के लिए उपयोग किए गए हस्ताक्षरों का संग्रह लौटाता है। |
-| [getCustomData()](#getCustomData--) | प्रस्तुति का कस्टम डेटा लौटाता है। |
-| [getAllCustomXmlParts()](#getAllCustomXmlParts--) | प्रस्तुति में सभी कस्टम डेटा भाग लौटाता है। |
-| [getVbaProject()](#getVbaProject--) | प्रस्तुति मैक्रो के साथ VBA प्रोजेक्ट प्राप्त करता या सेट करता है। |
-| [setVbaProject(IVbaProject value)](#setVbaProject-com.aspose.slides.IVbaProject-) | प्रस्तुति मैक्रो के साथ VBA प्रोजेक्ट प्राप्त करता या सेट करता है। |
-| [getHyperlinkQueries()](#getHyperlinkQueries--) | सभी प्रस्तुति स्लाइडों (मास्टर, लेआउट, नोट्स स्लाइड नहीं) में मौजूद सभी हाइपरलिंक्स तक आसान पहुंच प्रदान करता है। |
+| [getAudios()](#getAudios--) | प्रस्तुति में सभी एंबेडेड ऑडियो फ़ाइलों का संग्रह लौटाता है। |
+| [getVideos()](#getVideos--) | प्रस्तुति में सभी एंबेडेड वीडियो फ़ाइलों का संग्रह लौटाता है। |
+| [getSlideShowSettings()](#getSlideShowSettings--) | प्रस्तुति के स्लाइड शो सेटिंग्स को लौटाता है। |
+| [getDigitalSignatures()](#getDigitalSignatures--) | प्रस्तुति को साइन करने हेतु उपयोग किए गए हस्ताक्षरों का संग्रह लौटाता है। |
+| [getCustomData()](#getCustomData--) | प्रस्तुति के कस्टम डेटा को लौटाता है। |
+| [getAllCustomXmlParts()](#getAllCustomXmlParts--) | प्रस्तुति में सभी कस्टम डेटा भागों को लौटाता है। |
+| [getVbaProject()](#getVbaProject--) | प्रस्तुति मैक्रो के साथ VBA प्रोजेक्ट को प्राप्त या सेट करता है। |
+| [setVbaProject(IVbaProject value)](#setVbaProject-com.aspose.slides.IVbaProject-) | प्रस्तुति मैक्रो के साथ VBA प्रोजेक्ट को प्राप्त या सेट करता है। |
+| [getHyperlinkQueries()](#getHyperlinkQueries--) | सभी प्रस्तुति स्लाइडों (मास्टर, लेआउट, नोट्स स्लाइडों को छोड़कर) में सम्मिलित सभी हाइपरलिंक्स तक आसान पहुंच प्रदान करता है। |
 | [getViewProperties()](#getViewProperties--) | प्रस्तुति-व्यापी दृश्य गुण प्राप्त करता है। |
-| [getFirstSlideNumber()](#getFirstSlideNumber--) | प्रस्तुति में पहला स्लाइड नंबर दर्शाता है |
-| [setFirstSlideNumber(int value)](#setFirstSlideNumber-int-) | प्रस्तुति में पहला स्लाइड नंबर दर्शाता है |
+| [getFirstSlideNumber()](#getFirstSlideNumber--) | प्रस्तुति में पहला स्लाइड क्रमांक दर्शाता है। |
+| [setFirstSlideNumber(int value)](#setFirstSlideNumber-int-) | प्रस्तुति में पहला स्लाइड क्रमांक दर्शाता है। |
 | [getSensitivityLabels()](#getSensitivityLabels--) | प्रस्तुति दस्तावेज़ पर लागू संवेदनशीलता लेबलों का संग्रह लौटाता है। |
 | [getSlideById(long id)](#getSlideById-long-) | Id द्वारा Slide, MasterSlide या LayoutSlide लौटाता है। |
-| [getSourceFormat()](#getSourceFormat--) | प्रस्तुति किस फ़ॉर्मेट से लोड किया गया था, इसकी जानकारी लौटाता है। |
-| [getMasterTheme()](#getMasterTheme--) | मास्टर थीम लौटाता है। |
-| [save(String fname, int format)](#save-java.lang.String-int-) | निर्दिष्ट फ़ॉर्मेट के साथ फ़ाइल में प्रस्तुति की सभी स्लाइडें सहेजता है। |
-| [save(OutputStream stream, int format)](#save-java.io.OutputStream-int-) | निर्दिष्ट फ़ॉर्मेट में स्ट्रीम में प्रस्तुति की सभी स्लाइडें सहेजता है। |
-| [save(String fname, int format, ISaveOptions options)](#save-java.lang.String-int-com.aspose.slides.ISaveOptions-) | निर्दिष्ट फ़ॉर्मेट और अतिरिक्त विकल्पों के साथ फ़ाइल में प्रस्तुति की सभी स्लाइडें सहेजता है। |
-| [save(OutputStream stream, int format, ISaveOptions options)](#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-) | निर्दिष्ट फ़ॉर्मेट और अतिरिक्त विकल्पों के साथ स्ट्रीम में प्रस्तुति की सभी स्लाइडें सहेजता है। |
-| [save(IXamlOptions options)](#save-com.aspose.slides.IXamlOptions-) | XAML मार्कअप दर्शाने वाली फ़ाइलों के सेट में प्रस्तुति की सभी स्लाइडें सहेजता है। |
-| [getImages(IRenderingOptions options)](#getImages-com.aspose.slides.IRenderingOptions-) | प्रस्तुति की सभी स्लाइडों के लिए Image ऑब्जेक्ट लौटाता है। |
-| [getImages(IRenderingOptions options, int[] slides)](#getImages-com.aspose.slides.IRenderingOptions-int---) | निर्दिष्ट स्लाइडों के लिए थंबनेल Image ऑब्जेक्ट लौटाता है। |
-| [getImages(IRenderingOptions options, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-float-float-) | कस्टम स्केलिंग के साथ प्रस्तुति की सभी स्लाइडों के लिए थंबनेल Image ऑब्जेक्ट लौटाता है। |
-| [getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-int---float-float-) | कस्टम स्केलिंग के साथ निर्दिष्ट स्लाइडों के लिए थंबनेल Image ऑब्जेक्ट लौटाता है। |
-| [getImages(IRenderingOptions options, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-) | निर्दिष्ट आकार के साथ प्रस्तुति की सभी स्लाइडों के लिए थंबनेल Image ऑब्जेक्ट लौटाता है। |
-| [getImages(IRenderingOptions options, int[] slides, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-) | निर्दिष्ट आकार के साथ निर्दिष्ट स्लाइडों के लिए थंबनेल Image ऑब्जेक्ट लौटाता है। |
-| [save(String fname, int[] slides, int format)](#save-java.lang.String-int---int-) | निर्दिष्ट स्लाइडों को पृष्ठ संख्याएँ रखकर निर्दिष्ट फ़ॉर्मेट में फ़ाइल में सहेजता है। |
-| [save(String fname, int[] slides, int format, ISaveOptions options)](#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-) | निर्दिष्ट स्लाइडों को पृष्ठ संख्याएँ रखकर निर्दिष्ट फ़ॉर्मेट में फ़ाइल में सहेजता है। |
-| [save(OutputStream stream, int[] slides, int format)](#save-java.io.OutputStream-int---int-) | निर्दिष्ट स्लाइडों को पृष्ठ संख्याएँ रखकर निर्दिष्ट फ़ॉर्मेट में स्ट्रीम में सहेजता है। |
-| [save(OutputStream stream, int[] slides, int format, ISaveOptions options)](#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-) | निर्दिष्ट स्लाइडों को पृष्ठ संख्याएँ रखकर निर्दिष्ट फ़ॉर्मेट में स्ट्रीम में सहेजता है। |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | सभी पैराग्राफ़ों में समान फॉर्मेट वाले रन को सभी स्वीकृत आकारों में जोड़ता है। |
+| [getSourceFormat()](#getSourceFormat--) | प्रस्तुति किस फ़ॉर्मेट से लोड हुई, इस बारे में जानकारी लौटाता है। |
+| [getMasterTheme()](#getMasterTheme--) | मास्टर थीम को लौटाता है। |
+| [save(String fname, int format)](#save-java.lang.String-int-) | निर्दिष्ट फ़ॉर्मेट के साथ प्रस्तुति की सभी स्लाइड्स को फ़ाइल में सहेजता है। |
+| [save(OutputStream stream, int format)](#save-java.io.OutputStream-int-) | निर्दिष्ट फ़ॉर्मेट के साथ प्रस्तुति की सभी स्लाइड्स को स्ट्रीम में सहेजता है। |
+| [save(String fname, int format, ISaveOptions options)](#save-java.lang.String-int-com.aspose.slides.ISaveOptions-) | निर्दिष्ट फ़ॉर्मेट और अतिरिक्त विकल्पों के साथ प्रस्तुति की सभी स्लाइड्स को फ़ाइल में सहेजता है। |
+| [save(OutputStream stream, int format, ISaveOptions options)](#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-) | निर्दिष्ट फ़ॉर्मेट और अतिरिक्त विकल्पों के साथ प्रस्तुति की सभी स्लाइड्स को स्ट्रीम में सहेजता है। |
+| [save(IXamlOptions options)](#save-com.aspose.slides.IXamlOptions-) | XAML मार्कअप का प्रतिनिधित्व करने वाली फ़ाइलों के सेट में प्रस्तुति की सभी स्लाइड्स को सहेजता है। |
+| [getImages(IRenderingOptions options)](#getImages-com.aspose.slides.IRenderingOptions-) | प्रस्तुति की सभी स्लाइड्स के लिए Image ऑब्जेक्ट्स लौटाता है। |
+| [getImages(IRenderingOptions options, int[] slides)](#getImages-com.aspose.slides.IRenderingOptions-int---) | निर्दिष्ट स्लाइड्स के लिए थंबनेल Image ऑब्जेक्ट्स लौटाता है। |
+| [getImages(IRenderingOptions options, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-float-float-) | सभी स्लाइड्स के लिए कस्टम स्केलिंग के साथ थंबनेल Image ऑब्जेक्ट्स लौटाता है। |
+| [getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-int---float-float-) | निर्दिष्ट स्लाइड्स के लिए कस्टम स्केलिंग के साथ थंबनेल Image ऑब्जेक्ट्स लौटाता है। |
+| [getImages(IRenderingOptions options, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-) | सभी स्लाइड्स के लिए निर्दिष्ट आकार के साथ थंबनेल Image ऑब्जेक्ट्स लौटाता है। |
+| [getImages(IRenderingOptions options, int[] slides, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-) | निर्दिष्ट स्लाइड्स के लिए निर्दिष्ट आकार के साथ थंबनेल Image ऑब्जेक्ट्स लौटाता है। |
+| [save(String fname, int[] slides, int format)](#save-java.lang.String-int---int-) | निर्दिष्ट स्लाइड्स को पृष्ठ संख्या बनाए रखते हुए निर्दिष्ट फ़ॉर्मेट की फ़ाइल में सहेजता है। |
+| [save(String fname, int[] slides, int format, ISaveOptions options)](#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-) | निर्दिष्ट स्लाइड्स को पृष्ठ संख्या बनाए रखते हुए निर्दिष्ट फ़ॉर्मेट की फ़ाइल में सहेजता है। |
+| [save(OutputStream stream, int[] slides, int format)](#save-java.io.OutputStream-int---int-) | निर्दिष्ट स्लाइड्स को पृष्ठ संख्या बनाए रखते हुए निर्दिष्ट फ़ॉर्मेट की स्ट्रीम में सहेजता है। |
+| [save(OutputStream stream, int[] slides, int format, ISaveOptions options)](#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-) | निर्दिष्ट स्लाइड्स को पृष्ठ संख्या बनाए रखते हुए निर्दिष्ट फ़ॉर्मेट की स्ट्रीम में सहेजता है। |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | सभी स्वीकार्य आकारों में सभी पैराग्राफ़ों की समान फ़ॉर्मेटिंग वाले रन को जोड़ता है। |
 | [dispose()](#dispose--) | इस Presentation ऑब्जेक्ट द्वारा उपयोग किए गए सभी संसाधनों को मुक्त करता है। |
 | [getPresentation()](#getPresentation--) | टेक्स्ट का पैरेंट प्रस्तुति लौटाता है। |
-| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | निर्दिष्ट रंग के साथ नमूना टेक्स्ट के सभी मिलान को हाइलाइट करता है। |
-| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | निर्दिष्ट रंग के साथ नमूना टेक्स्ट के सभी मिलान को हाइलाइट करता है। |
-| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | निर्दिष्ट रंग के साथ नियमित अभिव्यक्ति के सभी मिलान को हाइलाइट करता है। |
-| [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | निर्दिष्ट टेक्स्ट के सभी उदाहरणों को दूसरे निर्दिष्ट टेक्स्ट से बदलता है। |
-| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | नियमित अभिव्यक्ति के सभी मिलान को निर्दिष्ट स्ट्रिंग से बदलता है। |
+| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | निर्दिष्ट रंग के साथ नमूना टेक्स्ट के सभी मिलानों को हाइलाइट करता है। |
+| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | निर्दिष्ट रंग के साथ नमूना टेक्स्ट के सभी मिलानों को हाइलाइट करता है। |
+| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | निर्दिष्ट रंग के साथ रेगुलर एक्सप्रेशन के सभी मिलानों को हाइलाइट करता है। |
+| [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | निर्दिष्ट टेक्स्ट की सभी उपस्थितियों को दूसरे निर्दिष्ट टेक्स्ट से बदलता है। |
+| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | निर्दिष्ट स्ट्रिंग के साथ रेगुलर एक्सप्रेशन के सभी मिलानों को बदलता है। |
+| [refreshChartsData()](#refreshChartsData--) | प्रस्तुति में सभी चार्ट्स के डेटा को उनके स्रोत वर्कबुक से पुनः लोड करता है। |
+| [refreshChartsData(boolean skipFailedCharts)](#refreshChartsData-boolean-) | प्रस्तुति में सभी चार्ट्स के डेटा को उनके स्रोत वर्कबुक से पुनः लोड करता है। |
+
 ### Presentation() {#Presentation--}
 ```
 public Presentation()
 ```
 
-यह कंस्ट्रक्टर नई प्रस्तुति को शून्य से बनाता है। निर्मित प्रस्तुति में एक खाली स्लाइड होती है।
+यह निर्माता प्रारंभ से नई प्रस्तुति बनाता है। निर्मित प्रस्तुति में एक खाली स्लाइड होती है।
 
 ### Presentation(LoadOptions loadOptions) {#Presentation-com.aspose.slides.LoadOptions-}
 ```
 public Presentation(LoadOptions loadOptions)
 ```
 
-यह कंस्ट्रक्टर नई प्रस्तुति को शून्य से बनाता है। निर्मित प्रस्तुति में एक खाली स्लाइड होती है।
+यह निर्माता प्रारंभ से नई प्रस्तुति बनाता है। निर्मित प्रस्तुति में एक खाली स्लाइड होती है।
 
 **पैरामीटर:**
-| पैरामीटर | प्रकार | विवरण |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) | अतिरिक्त लोड विकल्प। |
 
@@ -141,7 +145,7 @@ public Presentation(LoadOptions loadOptions)
 public Presentation(InputStream stream)
 ```
 
-यह कंस्ट्रक्टर मौजूदा प्रस्तुति को पढ़ने के लिए प्राथमिक तंत्र है।
+यह निर्माता मौजूदा प्रस्तुति को पढ़ने के लिए मुख्य तंत्र है।
 
 --------------------
 
@@ -153,7 +157,7 @@ public Presentation(InputStream stream)
 
 
 **पैरामीटर:**
-| पैरामीटर | प्रकार | विवरण |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.InputStream | इनपुट स्ट्रीम। |
 
@@ -162,10 +166,10 @@ public Presentation(InputStream stream)
 public Presentation(InputStream stream, LoadOptions loadOptions)
 ```
 
-यह कंस्ट्रक्टर मौजूदा प्रस्तुति को पढ़ने के लिए प्राथमिक तंत्र है।
+यह निर्माता मौजूदा प्रस्तुति को पढ़ने के लिए मुख्य तंत्र है।
 
 **पैरामीटर:**
-| पैरामीटर | प्रकार | विवरण |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.InputStream | इनपुट स्ट्रीम। |
 | loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) | अतिरिक्त लोड विकल्प। |
@@ -175,7 +179,7 @@ public Presentation(InputStream stream, LoadOptions loadOptions)
 public Presentation(String file)
 ```
 
-यह कंस्ट्रक्टर स्रोत फ़ाइल पथ प्राप्त करता है जिससे प्रस्तुति की सामग्री पढ़ी जाती है।
+यह निर्माता स्रोत फ़ाइल पथ प्राप्त करता है जिससे प्रस्तुति की सामग्री पढ़ी जाती है।
 
 --------------------
 
@@ -185,7 +189,7 @@ public Presentation(String file)
 
 
 **पैरामीटर:**
-| पैरामीटर | प्रकार | विवरण |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | file | java.lang.String | इनपुट फ़ाइल। |
 
@@ -194,10 +198,10 @@ public Presentation(String file)
 public Presentation(String file, LoadOptions loadOptions)
 ```
 
-यह कंस्ट्रक्टर स्रोत फ़ाइल पथ प्राप्त करता है जिससे प्रस्तुति की सामग्री पढ़ी जाती है।
+यह निर्माता स्रोत फ़ाइल पथ प्राप्त करता है जिससे प्रस्तुति की सामग्री पढ़ी जाती है।
 
 **पैरामीटर:**
-| पैरामीटर | प्रकार | विवरण |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | file | java.lang.String | इनपुट फ़ाइल। |
 | loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) | अतिरिक्त लोड विकल्प। |
@@ -207,19 +211,20 @@ public Presentation(String file, LoadOptions loadOptions)
 public final Date getCurrentDateTime()
 ```
 
-तारीख और समय लौटाता है या सेट करता है जो datetime फ़ील्ड की सामग्री को बदलता है। इस Presentation ऑब्जेक्ट के निर्माण का समय डिफ़ॉल्ट है। पढ़ें/लिखें java.util.Date।
+डेटेटाइम फ़ील्ड की सामग्री को प्रतिस्थापित करने के लिए तिथि व समय को लौटाता है या सेट करता है। डिफ़ॉल्ट रूप से इस Presentation ऑब्जेक्ट के निर्माण का समय। पढ़ने/लिखने योग्य java.util.Date।
 
-**रिटर्न:**
+**वापसी:**
 java.util.Date
+
 ### setCurrentDateTime(Date value) {#setCurrentDateTime-java.util.Date-}
 ```
 public final void setCurrentDateTime(Date value)
 ```
 
-तारीख और समय लौटाता है या सेट करता है जो datetime फ़ील्ड की सामग्री को बदलता है। इस Presentation ऑब्जेक्ट के निर्माण का समय डिफ़ॉल्ट है। पढ़ें/लिखें java.util.Date।
+डेटेटाइम फ़ील्ड की सामग्री को प्रतिस्थापित करने के लिए तिथि व समय को लौटाता है या सेट करता है। डिफ़ॉल्ट रूप से इस Presentation ऑब्जेक्ट के निर्माण का समय। पढ़ने/लिखने योग्य java.util.Date।
 
 **पैरामीटर:**
-| पैरामीटर | प्रकार | विवरण |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.util.Date |  |
 
@@ -230,14 +235,15 @@ public final IDOMObject getParent_Immediate()
 
 Parent_Immediate ऑब्जेक्ट लौटाता है। केवल-पढ़ने योग्य IDOMObject।
 
-**रिटर्न:**
+**वापसी:**
 com.aspose.slides.IDOMObject
+
 ### getHeaderFooterManager() {#getHeaderFooterManager--}
 ```
 public final IPresentationHeaderFooterManager getHeaderFooterManager()
 ```
 
-वास्तविक HeaderFooter प्रबंधक लौटाता है। केवल-पढ़ने योग्य [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager)।
+वास्तविक HeaderFooter प्रबंधक को लौटाता है। केवल-पढ़ने योग्य [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager)।
 
 --------------------
 
@@ -288,23 +294,25 @@ public final IPresentationHeaderFooterManager getHeaderFooterManager()
 >  }
 > ```
 
-**रिटर्न:**
+**वापसी:**
 [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager)
+
 ### getProtectionManager() {#getProtectionManager--}
 ```
 public final IProtectionManager getProtectionManager()
 ```
 
-इस प्रस्तुति के अनुमतियों के प्रबंधक को प्राप्त करता है। केवल-पढ़ने योग्य [IProtectionManager](../../com.aspose.slides/iprotectionmanager)।
+इस प्रस्तुति के लिए अनुमतियों का प्रबंधक प्राप्त करता है। केवल-पढ़ने योग्य [IProtectionManager](../../com.aspose.slides/iprotectionmanager)।
 
-**रिटर्न:**
+**वापसी:**
 [IProtectionManager](../../com.aspose.slides/iprotectionmanager)
+
 ### getSlides() {#getSlides--}
 ```
 public final ISlideCollection getSlides()
 ```
 
-प्रस्तुति में परिभाषित सभी स्लाइडों की सूची लौटाता है। केवल-पढ़ने योग्य [ISlideCollection](../../com.aspose.slides/islidecollection)।
+प्रस्तुति में परिभाषित सभी स्लाइड्स की सूची लौटाता है। केवल-पढ़ने योग्य [ISlideCollection](../../com.aspose.slides/islidecollection)।
 
 --------------------
 
@@ -396,14 +404,15 @@ public final ISlideCollection getSlides()
 >  }
 > ```
 
-**रिटर्न:**
+**वापसी:**
 [ISlideCollection](../../com.aspose.slides/islidecollection)
+
 ### getSections() {#getSections--}
 ```
 public final ISectionCollection getSections()
 ```
 
-प्रस्तुति में सभी स्लाइड सेक्शन की सूची लौटाता है। केवल-पढ़ने योग्य [ISectionCollection](../../com.aspose.slides/isectioncollection)।
+प्रस्तुति में परिभाषित सभी स्लाइड सेक्शन की सूची लौटाता है। केवल-पढ़ने योग्य [ISectionCollection](../../com.aspose.slides/isectioncollection)।
 
 --------------------
 
@@ -441,8 +450,9 @@ public final ISectionCollection getSections()
 >  }
 > ```
 
-**रिटर्न:**
+**वापसी:**
 [ISectionCollection](../../com.aspose.slides/isectioncollection)
+
 ### getSlideSize() {#getSlideSize--}
 ```
 public final ISlideSize getSlideSize()
@@ -494,8 +504,9 @@ public final ISlideSize getSlideSize()
 >  }
 > ```
 
-**रिटर्न:**
+**वापसी:**
 [ISlideSize](../../com.aspose.slides/islidesize)
+
 ### getNotesSize() {#getNotesSize--}
 ```
 public final INotesSize getNotesSize()
@@ -503,27 +514,29 @@ public final INotesSize getNotesSize()
 
 नोट्स स्लाइड आकार ऑब्जेक्ट लौटाता है। केवल-पढ़ने योग्य [INotesSize](../../com.aspose.slides/inotessize)।
 
-**रिटर्न:**
+**वापसी:**
 [INotesSize](../../com.aspose.slides/inotessize)
+
 ### getLayoutSlides() {#getLayoutSlides--}
 ```
 public final IGlobalLayoutSlideCollection getLayoutSlides()
 ```
 
-प्रस्तुति में परिभाषित सभी लेआउट स्लाइडों की सूची लौटाता है। केवल-पढ़ने योग्य [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection)।
+प्रस्तुति में परिभाषित सभी लेआउट स्लाइड्स की सूची लौटाता है। केवल-पढ़ने योग्य [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection)।
 
 --------------------
 
-आप वैकल्पिक API का उपयोग करके IMasterSlide.LayoutSlides प्रॉपर्टी के द्वारा लेआउट स्लाइडों को जोड़/डाल/हटा/क्लोन कर सकते हैं।
+आप IMasterSlide.LayoutSlides प्रॉपर्टी का उपयोग करके लेआउट स्लाइड्स को जोड़ने/डालने/हटाने/क्लोन करने के लिए वैकल्पिक API तक पहुंच सकते हैं।
 
-**रिटर्न:**
+**वापसी:**
 [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection)
+
 ### getMasters() {#getMasters--}
 ```
 public final IMasterSlideCollection getMasters()
 ```
 
-प्रस्तुति में परिभाषित सभी मास्टर स्लाइडों की सूची लौटाता है। केवल-पढ़ने योग्य [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection)।
+प्रस्तुति में परिभाषित सभी मास्टर स्लाइड्स की सूची लौटाता है। केवल-पढ़ने योग्य [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection)।
 
 --------------------
 
@@ -622,32 +635,35 @@ public final IMasterSlideCollection getMasters()
 >  }
 > ```
 
-**रिटर्न:**
+**वापसी:**
 [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection)
+
 ### getMasterNotesSlideManager() {#getMasterNotesSlideManager--}
 ```
 public final IMasterNotesSlideManager getMasterNotesSlideManager()
 ```
 
-नोट्स मास्टर प्रबंधक लौटाता है। केवल-पढ़ने योग्य [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager)।
+नोट्स मास्टर प्रबंधक को लौटाता है। केवल-पढ़ने योग्य [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager)।
 
-**रिटर्न:**
+**वापसी:**
 [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager)
+
 ### getMasterHandoutSlideManager() {#getMasterHandoutSlideManager--}
 ```
 public final IMasterHandoutSlideManager getMasterHandoutSlideManager()
 ```
 
-हैंडआउट मास्टर प्रबंधक लौटाता है। केवल-पढ़ने योग्य [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager)।
+हैंडआउट मास्टर प्रबंधक को लौटाता है। केवल-पढ़ने योग्य [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager)।
 
-**रिटर्न:**
+**वापसी:**
 [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager)
+
 ### getFontsManager() {#getFontsManager--}
 ```
 public final IFontsManager getFontsManager()
 ```
 
-फ़ॉन्ट प्रबंधक लौटाता है। केवल-पढ़ने योग्य [IFontsManager](../../com.aspose.slides/ifontsmanager)।
+फ़ॉन्ट्स प्रबंधक को लौटाता है। केवल-पढ़ने योग्य [IFontsManager](../../com.aspose.slides/ifontsmanager)।
 
 --------------------
 
@@ -683,26 +699,29 @@ public final IFontsManager getFontsManager()
 >  }
 > ```
 
-**रिटर्न:**
+**वापसी:**
 [IFontsManager](../../com.aspose.slides/ifontsmanager)
+
 ### getDefaultTextStyle() {#getDefaultTextStyle--}
 ```
 public final ITextStyle getDefaultTextStyle()
 ```
 
-आकारों के लिए डिफ़ॉल्ट टेक्स्ट शैली लौटाता है। केवल-पढ़ने योग्य [ITextStyle](../../com.aspose.slides/itextstyle)।
+आकृतियों के लिए डिफ़ॉल्ट टेक्स्ट शैली लौटाता है। केवल-पढ़ने योग्य [ITextStyle](../../com.aspose.slides/itextstyle)।
 
-**रिटर्न:**
+**वापसी:**
 [ITextStyle](../../com.aspose.slides/itextstyle)
+
 ### getCommentAuthors() {#getCommentAuthors--}
 ```
 public final ICommentAuthorCollection getCommentAuthors()
 ```
 
-टिप्पणी लेखकों का संग्रह लौटाता है। केवल-पढ़ने योग्य [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection)।
+टिप्पणी लेखकों के संग्रह को लौटाता है। केवल-पढ़ने योग्य [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection)।
 
-**रिटर्न:**
+**वापसी:**
 [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection)
+
 ### getDocumentProperties() {#getDocumentProperties--}
 ```
 public final IDocumentProperties getDocumentProperties()
@@ -710,8 +729,9 @@ public final IDocumentProperties getDocumentProperties()
 
 DocumentProperties ऑब्जेक्ट लौटाता है जिसमें मानक और कस्टम दस्तावेज़ गुण होते हैं। केवल-पढ़ने योग्य [IDocumentProperties](../../com.aspose.slides/idocumentproperties)।
 
-**रिटर्न:**
+**वापसी:**
 [IDocumentProperties](../../com.aspose.slides/idocumentproperties)
+
 ### getImages() {#getImages--}
 ```
 public final IImageCollection getImages()
@@ -724,20 +744,20 @@ public final IImageCollection getImages()
 > ```
 > The following examples shows how to add image as BLOB in PowerPoint Presentation.
 >  
->  // नई प्रस्तुति बनाएं जिसमें छवि जोड़ी जाएगी।
+>  // creates a new presentation to which the image will be added.
 >  Presentation pres = new Presentation();
 >  try
 >  {
->      // मान लेते हैं कि हमारे पास बड़ी छवि फ़ाइल है जिसे हम प्रस्तुति में शामिल करना चाहते हैं
+>      // supposed we have the large image file we want to include into the presentation
 >      FileInputStream fip = new FileInputStream("large_image.jpg");
 >      try
 >      {
->          // आइए छवि को प्रस्तुति में जोड़ें - हम KeepLocked व्यवहार चुनते हैं क्योंकि हम
->          // NOT ऐसी "largeImage.png" फ़ाइल तक पहुंच नहीं चाहते।
+>          // Let's add the image to the presentation - we choose KeepLocked behavior because we do
+>          // NOT intend to access the "largeImage.png" file.
 >          IPPImage img = pres.getImages().addImage(fip, LoadingStreamBehavior.KeepLocked);
 >          pres.getSlides().get_Item(0).getShapes().addPictureFrame(ShapeType.Rectangle, 0, 0, 300, 200, img);
->          // प्रस्तुति को सहेजता है। जबकि बड़ी प्रस्तुति आउटपुट होती है, मेमोरी खपत
->          // pres ऑब्जेक्ट के जीवनचक्र के दौरान कम रहती है
+>          // Saves the presentation. While a large presentation gets outputted, the memory consumption
+>          // stays low through the pres object's lifecycle
 >          pres.save("presentationWithLargeImage.pptx", SaveFormat.Pptx);
 >      }
 >      finally
@@ -755,9 +775,9 @@ public final IImageCollection getImages()
 >  
 >  Presentation pres = new Presentation();
 >  try {
->      // प्रस्तुति में छवि जोड़ें
+>      // Adds image to presentation
 >      IPPImage image = pres.getImages().addImage(Files.readAllBytes(Paths.get("image.png")));
->      // पहले जोड़ी गई छवि के आधार पर स्लाइड 1 पर चित्र फ्रेम बनाता है
+>      // Creates picture frame on slide 1 based on previously added image
 >      IPictureFrame pictureFrame = pres.getSlides().get_Item(0).getShapes().addPictureFrame(ShapeType.Rectangle, 10, 10, 100, 100, image);
 >      pictureFrame.setHyperlinkClick(new Hyperlink("https://www.aspose.com/"));
 >      pictureFrame.getHyperlinkClick().setTooltip("More than 70% Fortune 100 companies trust Aspose APIs");
@@ -769,14 +789,14 @@ public final IImageCollection getImages()
 >  }
 > ```
 
-**रिटर्न:**
+**वापसी:**
 [IImageCollection](../../com.aspose.slides/iimagecollection)
+
 ### getAudios() {#getAudios--}
 ```
 public final IAudioCollection getAudios()
 ```
-
-प्रस्तुति में सभी एम्बेडेड ऑडियो फ़ाइलों का संग्रह लौटाता है। केवल-पढ़ने योग्य [IAudioCollection](../../com.aspose.slides/iaudiocollection)।
+प्रेजेंटेशन में एम्बेडेड सभी ऑडियो फ़ाइलों का संग्रह लौटाता है। केवल पढ़ने योग्य [IAudioCollection](../../com.aspose.slides/iaudiocollection).
 
 --------------------
 
@@ -799,13 +819,16 @@ public final IAudioCollection getAudios()
 > ```
 
 
-**रिटर्न:**
+**वापसी:**
 [IAudioCollection](../../com.aspose.slides/iaudiocollection)
 ### getVideos() {#getVideos--}
 ```
 public final IVideoCollection getVideos()
 ```
-प्रस्तुति में सभी एम्बेडेड वीडियो फ़ाइलों का संग्रह लौटाता है। केवल पढ़ने योग्य [IVideoCollection](../../com.aspose.slides/ivideocollection).
+
+प्रेजेंटेशन में एम्बेडेड सभी वीडियो फ़ाइलों का संग्रह लौटाता है। केवल पढ़ने योग्य [IVideoCollection](../../com.aspose.slides/ivideocollection).
+
+--------------------
 
 > ```
 > The following examples shows how to create embedded Video Frame in a PowerPoint Presentation.
@@ -1001,7 +1024,7 @@ public final IVideoCollection getVideos()
 public final SlideShowSettings getSlideShowSettings()
 ```
 
-प्रस्तुति के स्लाइड शो सेटिंग्स लौटाता है।
+प्रेजेंटेशन के स्लाइड शो सेटिंग्स लौटाता है।
 
 **वापसी:**
 [SlideShowSettings](../../com.aspose.slides/slideshowsettings)
@@ -1010,7 +1033,9 @@ public final SlideShowSettings getSlideShowSettings()
 public final IDigitalSignatureCollection getDigitalSignatures()
 ```
 
-प्रस्तुति को साइन करने के लिए उपयोग किए गए हस्ताक्षरों का संग्रह लौटाता है। केवल पढ़ने योग्य [IDigitalSignatureCollection](../../com.aspose.slides/idigitalsignaturecollection).
+प्रेजेंटेशन पर हस्ताक्षर करने के लिए उपयोग किए गए हस्ताक्षरों का संग्रह लौटाता है। केवल पढ़ने योग्य [IDigitalSignatureCollection](../../com.aspose.slides/idigitalsignaturecollection).
+
+--------------------
 
 > ```
 > Presentation pres = new Presentation("SomePresentationSigned.pptx");
@@ -1036,6 +1061,7 @@ public final IDigitalSignatureCollection getDigitalSignatures()
 >  }
 > ```
 
+
 **वापसी:**
 [IDigitalSignatureCollection](../../com.aspose.slides/idigitalsignaturecollection)
 ### getCustomData() {#getCustomData--}
@@ -1043,23 +1069,25 @@ public final IDigitalSignatureCollection getDigitalSignatures()
 public final ICustomData getCustomData()
 ```
 
-प्रस्तुति का कस्टम डेटा लौटाता है। केवल पढ़ने योग्य [ICustomData](../../com.aspose.slides/icustomdata)।
+प्रेजेंटेशन का कस्टम डेटा लौटाता है। केवल पढ़ने योग्य [ICustomData](../../com.aspose.slides/icustomdata)।
 
 **वापसी:**
 [ICustomData](../../com.aspose.slides/icustomdata)
 ### getAllCustomXmlParts() {#getAllCustomXmlParts--}
-```
+```java
 public final ICustomXmlPart[] getAllCustomXmlParts()
 ```
 
-प्रस्तुति में सभी कस्टम डेटा पार्ट्स लौटाता है। केवल पढ़ने योग्य ICustomXmlPart[]।
+प्रेजेंटेशन में सभी कस्टम डेटा पार्ट्स लौटाता है। केवल पढ़ने योग्य ICustomXmlPart[].
+
+--------------------
 
 > ```
 > The following examples show how to clear all custom xml parts from PowerPoint Presentation.
 >  
 >  Presentation pres = new Presentation("PresentationWithCustomXml.pptx");
 >  try {
->      // सभी कस्टम XML पार्ट्स पर इटररेट करें
+>      // Iterate all custom XML Parts
 >      for (ICustomXmlPart item : pres.getAllCustomXmlParts())
 >      {
 >          item.remove();
@@ -1072,7 +1100,6 @@ public final ICustomXmlPart[] getAllCustomXmlParts()
 >  }
 > ```
 
-
 **वापसी:**
 com.aspose.slides.ICustomXmlPart[]
 ### getVbaProject() {#getVbaProject--}
@@ -1080,7 +1107,7 @@ com.aspose.slides.ICustomXmlPart[]
 public final IVbaProject getVbaProject()
 ```
 
-प्रस्तुति मैक्रोज़ के साथ VBA प्रोजेक्ट को प्राप्त करता है या सेट करता है। पढ़ने/लिखने योग्य [IVbaProject](../../com.aspose.slides/ivbaproject)।
+प्रेजेंटेशन मैक्रोज़ के साथ VBA प्रोजेक्ट को प्राप्त करता या सेट करता है। पढ़ने/लिखने योग्य [IVbaProject](../../com.aspose.slides/ivbaproject)।
 
 **वापसी:**
 [IVbaProject](../../com.aspose.slides/ivbaproject)
@@ -1089,27 +1116,35 @@ public final IVbaProject getVbaProject()
 public final void setVbaProject(IVbaProject value)
 ```
 
-प्रस्तुति मैक्रोज़ के साथ VBA प्रोजेक्ट को प्राप्त करता है या सेट करता है। पढ़ने/लिखने योग्य [IVbaProject](../../com.aspose.slides/ivbaproject)।
+प्रेजेंटेशन मैक्रोज़ के साथ VBA प्रोजेक्ट को प्राप्त करता या सेट करता है। पढ़ने/लिखने योग्य [IVbaProject](../../com.aspose.slides/ivbaproject)।
 
 **पैरामीटर:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | value | [IVbaProject](../../com.aspose.slides/ivbaproject) |  |
+
 ### getHyperlinkQueries() {#getHyperlinkQueries--}
 ```
 public final IHyperlinkQueries getHyperlinkQueries()
 ```
 
-सभी प्रस्तुति स्लाइड्स (मास्टर, लेआउट, नोट्स स्लाइड्स में नहीं) में मौजूद सभी हाइपरलिंक तक आसान पहुँच प्रदान करता है। केवल पढ़ने योग्य [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)।
+सभी प्रेजेंटेशन स्लाइड्स (मास्टर, लेआउट, नोट्स स्लाइड्स में नहीं) में मौजूद सभी हाइपरलिंक्स तक आसान पहुँच प्रदान करता है। केवल पढ़ने योग्य [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)।
 
 **वापसी:**
 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)
 ### getViewProperties() {#getViewProperties--}
 ```
-public final IViewProperties getViewProperties()
+public   
+
+
+
+This is ...
+
+
+
 ```
 
-प्रस्तुति-व्यापी दृश्य गुणों को प्राप्त करता है। केवल पढ़ने योग्य [IViewProperties](../../com.aspose.slides/iviewproperties)।
+प्रेजेंटेशन के व्यापक दृश्य गुणों को प्राप्त करता है। केवल पढ़ने योग्य [IViewProperties](../../com.aspose.slides/iviewproperties)।
 
 **वापसी:**
 [IViewProperties](../../com.aspose.slides/iviewproperties)
@@ -1118,7 +1153,7 @@ public final IViewProperties getViewProperties()
 public final int getFirstSlideNumber()
 ```
 
-प्रस्तुति में पहली स्लाइड संख्या को दर्शाता है
+प्रेजेंटेशन में पहली स्लाइड नंबर का प्रतिनिधित्व करता है।
 
 **वापसी:**
 int
@@ -1127,18 +1162,21 @@ int
 public final void setFirstSlideNumber(int value)
 ```
 
-प्रस्तुति में पहली स्लाइड संख्या को दर्शाता है
+प्रेजेंटेशन में पहली स्लाइड नंबर का प्रतिनिधित्व करता है।
 
 **पैरामीटर:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | value | int |  |
+
 ### getSensitivityLabels() {#getSensitivityLabels--}
 ```
 public final ISensitivityLabelCollection getSensitivityLabels()
 ```
 
-प्रस्तुति दस्तावेज़ पर लागू संवेदनशीलता लेबल्स का संग्रह लौटाता है। केवल पढ़ने योग्य [ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection).
+प्रेजेंटेशन दस्तावेज़ पर लागू संवेदनशीलता लेबल्स का संग्रह लौटाता है। केवल पढ़ने योग्य [ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection)।
+
+--------------------
 
 > ```
 > Presentation pres = new Presentation("SomePresentation.pptx");
@@ -1174,14 +1212,15 @@ Id द्वारा एक Slide, MasterSlide या LayoutSlide लौटा�
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | id | long | स्लाइड का Id। |
+
 **वापसी:**
-[IBaseSlide](../../com.aspose.slides/ibaseslide) - IBaseSlide object.
+[IBaseSlide](../../com.aspose.slides/ibaseslide) - IBaseSlide ऑब्जेक्ट।
 ### getSourceFormat() {#getSourceFormat--}
 ```
 public final int getSourceFormat()
 ```
 
-प्रस्तुति किस फॉर्मेट से लोड हुई थी, इस बारे में जानकारी लौटाता है। केवल पढ़ने योग्य [SourceFormat](../../com.aspose.slides/sourceformat)।
+प्रेजेंटेशन किस फ़ॉर्मेट से लोड किया गया था, इसकी जानकारी लौटाता है। केवल पढ़ने योग्य [SourceFormat](../../com.aspose.slides/sourceformat)।
 
 **वापसी:**
 int
@@ -1192,24 +1231,26 @@ public final IMasterTheme getMasterTheme()
 
 मास्टर थीम लौटाता है। केवल पढ़ने योग्य [IMasterTheme](../../com.aspose.slides/imastertheme)।
 
-> ```
+--------------------
+
+> ```markdown
 > The following examples shows how to change a theme effect by altering parts of elements of PowerPoint Presentation.
 >  
->  // एक प्रस्तुति ऑब्जेक्ट बनाएं जो प्रस्तुति फ़ाइल का प्रतिनिधित्व करता है
->  Presentation pres = new Presentation("Subtle_Moderate_Intense.pptx");
->  try {
->      pres.getMasterTheme().getFormatScheme().getLineStyles().get_Item(0).getFillFormat().getSolidFillColor().setColor(Color.RED);
->      ((FillFormat)pres.getMasterTheme().getFormatScheme().getLineStyles().get_Item(2)).setFillType(FillType.Solid);
->      ((FillFormat)pres.getMasterTheme().getFormatScheme().getLineStyles().get_Item(2)).getSolidFillColor().setColor(Color.GREEN);
->      ((EffectStyle)pres.getMasterTheme().getFormatScheme().getLineStyles().get_Item(2)).getEffectFormat().getOuterShadowEffect().setDistance(10f);
->      pres.save("Design_04_Subtle_Moderate_Intense-out.pptx", SaveFormat.Pptx);
->  }
->  finally
->  {
->      if (pres != null) pres.dispose();
->  }
-> ```
 
+// प्रस्तुति फ़ाइल का प्रतिनिधित्व करने वाला प्रस्तुति ऑब्जेक्ट बनाएं
+Presentation pres = new Presentation("Subtle_Moderate_Intense.pptx");
+try {
+    pres.getMasterTheme().getFormatScheme().getLineStyles().get_Item(0).getFillFormat().getSolidFillColor().setColor(Color.RED);
+    ((FillFormat)pres.getMasterTheme().getFormatScheme().getLineStyles().get_Item(2)).setFillType(FillType.Solid);
+    ((FillFormat)pres.getMasterTheme().getFormatScheme().getLineStyles().get_Item(2)).getSolidFillColor().setColor(Color.GREEN);
+    ((EffectStyle)pres.getMasterTheme().getFormatScheme().getLineStyles().get_Item(2)).getEffectFormat().getOuterShadowEffect().setDistance(10f);
+    pres.save("Design_04_Subtle_Moderate_Intense-out.pptx", SaveFormat.Pptx);
+}
+finally
+{
+    if (pres != null) pres.dispose();
+}
+```
 
 **वापसी:**
 [IMasterTheme](../../com.aspose.slides/imastertheme)
@@ -1218,59 +1259,65 @@ public final IMasterTheme getMasterTheme()
 public final void save(String fname, int format)
 ```
 
-प्रस्तुति की सभी स्लाइड्स को निर्दिष्ट फॉर्मेट वाली फ़ाइल में सहेजता है।
+प्रेजेंटेशन की सभी स्लाइड्स को निर्दिष्ट फ़ॉर्मेट वाली फ़ाइल में सहेजता है।
 
 **पैरामीटर:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| fname | java.lang.String | बनाई गई फ़ाइल का पथ। |
-| format | int | निर्यातित डेटा का फॉर्मेट। |
+| fname | java.lang.String | निर्मित फ़ाइल का पथ। |
+| format | int | निर्यातित डेटा का फ़ॉर्मेट। |
+
 ### save(OutputStream stream, int format) {#save-java.io.OutputStream-int-}
 ```
 public final void save(OutputStream stream, int format)
 ```
 
-प्रस्तुति की सभी स्लाइड्स को निर्दिष्ट फॉर्मेट में एक स्ट्रीम में सहेजता है।
+प्रेजेंटेशन की सभी स्लाइड्स को निर्दिष्ट फ़ॉर्मेट में स्ट्रीम पर सहेजता है।
 
 **पैरामीटर:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | stream | java.io.OutputStream | आउटपुट स्ट्रीम। |
-| format | int | निर्यातित डेटा का फॉर्मेट। |
+| format | int | निर्यातित डेटा का फ़ॉर्मेट। |
+
 ### save(String fname, int format, ISaveOptions options) {#save-java.lang.String-int-com.aspose.slides.ISaveOptions-}
 ```
 public final void save(String fname, int format, ISaveOptions options)
 ```
 
-प्रस्तुति की सभी स्लाइड्स को निर्दिष्ट फॉर्मेट और अतिरिक्त फॉर्मेट विकल्पों के साथ फ़ाइल में सहेजता है।
+प्रेजेंटेशन की सभी स्लाइड्स को निर्दिष्ट फ़ॉर्मेट और अतिरिक्त विकल्पों के साथ फ़ाइल में सहेजता है।
 
 **पैरामीटर:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| fname | java.lang.String | बनाई गई फ़ाइल का पथ। |
-| format | int | निर्यातित डेटा का फॉर्मेट। |
-| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | अतिरिक्त फॉर्मेट विकल्प। |
+| fname | java.lang.String | निर्मित फ़ाइल का पथ। |
+| format | int | निर्यातित डेटा का फ़ॉर्मेट। |
+| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | अतिरिक्त फ़ॉर्मेट विकल्प। |
+
 ### save(OutputStream stream, int format, ISaveOptions options) {#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-}
 ```
 public final void save(OutputStream stream, int format, ISaveOptions options)
 ```
 
-प्रस्तुति की सभी स्लाइड्स को निर्दिष्ट फॉर्मेट और अतिरिक्त फॉर्मेट विकल्पों के साथ स्ट्रीम में सहेजता है।
+प्रेजेंटेशन की सभी स्लाइड्स को निर्दिष्ट फ़ॉर्मेट और अतिरिक्त विकल्पों के साथ स्ट्रीम पर सहेजता है।
 
 **पैरामीटर:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | stream | java.io.OutputStream | आउटपुट स्ट्रीम। |
-| format | int | निर्यातित डेटा का फॉर्मेट। |
-| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | अतिरिक्त फॉर्मेट विकल्प। |
+| format | int | निर्यातित डेटा का फ़ॉर्मेट। |
+| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | अतिरिक्त फ़ॉर्मेट विकल्प। |
+
 ### save(IXamlOptions options) {#save-com.aspose.slides.IXamlOptions-}
-```
+``` 
 public final void save(IXamlOptions options)
 ```
 
-प्रस्तुति की सभी स्लाइड्स को XAML मार्कअप का प्रतिनिधित्व करने वाली फ़ाइलों के सेट में सहेजता है।
+प्रेजेंटेशन की सभी स्लाइड्स को XAML मार्कअप के सेट वाली फ़ाइलों में सहेजता है।
 
-> ```
+--------------------
+
+> ```markdown
 > Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      XamlOptions xamlOptions = new XamlOptions();
@@ -1286,140 +1333,152 @@ public final void save(IXamlOptions options)
 **पैरामीटर:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| options | [IXamlOptions](../../com.aspose.slides/ixamloptions) | XAML फॉर्मेट विकल्प। |
+| options | [IXamlOptions](../../com.aspose.slides/ixamloptions) | XAML फ़ॉर्मेट विकल्प। |
+
 ### getImages(IRenderingOptions options) {#getImages-com.aspose.slides.IRenderingOptions-}
 ```
 public final IImage[] getImages(IRenderingOptions options)
 ```
 
-प्रस्तुति की सभी स्लाइड्स के लिए Image objects लौटाता है।
+प्रेजेंटेशन की सभी स्लाइड्स के लिए Image ऑब्जेक्ट्स लौटाता है।
 
 **पैरामीटर:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff विकल्प। |
+
 **वापसी:**
-com.aspose.slides.IImage[] - Image objects.
+com.aspose.slides.IImage[] - Image ऑब्जेक्ट्स।
 ### getImages(IRenderingOptions options, int[] slides) {#getImages-com.aspose.slides.IRenderingOptions-int---}
 ```
-public final IImage[] getImages(IRenderingOptions options)
+public final IImage[] getImages(IRenderingOptions options, int[] slides)
 ```
 
-निर्देशित स्लाइड्स के लिए Thumbnail Image objects लौटाता है।
+निर्दिष्ट स्लाइड्स के लिए थंबनेल Image ऑब्जेक्ट्स लौटाता है।
 
 **पैरामीटर:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff विकल्प। |
-| slides | int[] | स्लाइड स्थितियों की एरे, 1 से शुरू। |
+| slides | int[] | स्लाइड क्रमांक की एरे, 1 से शुरू। |
+
 **वापसी:**
-com.aspose.slides.IImage[] - Image objects.
+com.aspose.slides.IImage[] - Image ऑब्जेक्ट्स।
 ### getImages(IRenderingOptions options, float scaleX, float scaleY) {#getImages-com.aspose.slides.IRenderingOptions-float-float-}
 ```
 public final IImage[] getImages(IRenderingOptions options, float scaleX, float scaleY)
 ```
 
-प्रस्तुति की सभी स्लाइड्स के लिए कस्टम स्केलिंग के साथ Thumbnail Image objects लौटाता है।
+सभी स्लाइड्स के लिए कस्टम स्केलिंग के साथ थंबनेल Image ऑब्जेक्ट्स लौटाता है।
 
 **पैरामीटर:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff विकल्प। |
-| scaleX | float | x-अक्ष दिशा में इस थंबनेल को स्केल करने का मान। |
-| scaleY | float | y-अक्ष दिशा में इस थंबनेल को स्केल करने का मान। |
+| scaleX | float | X-अक्ष दिशा में स्केल करने का मान। |
+| scaleY | float | Y-अक्ष दिशा में स्केल करने का मान। |
+
 **वापसी:**
-com.aspose.slides.IImage[] - Image objects.
+com.aspose.slides.IImage[] - Image ऑब्जेक्ट्स।
 ### getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY) {#getImages-com.aspose.slides.IRenderingOptions-int---float-float-}
 ```
 public final IImage[] getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)
 ```
 
-निर्देशित स्लाइड्स के लिए कस्टम स्केलिंग के साथ Thumbnail Image objects लौटाता है।
+निर्दिष्ट स्लाइड्स के लिए कस्टम स्केलिंग के साथ थंबनेल Image ऑब्जेक्ट्स लौटाता है।
 
 **पैरामीटर:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff विकल्प। |
-| slides | int[] | स्लाइड स्थितियों की एरे, 1 से शुरू। |
-| scaleX | float | x-अक्ष दिशा में इस थंबनेल को स्केल करने का मान। |
-| scaleY | float | y-अक्ष दिशा में इस थंबनेल को स्केल करने का मान। |
+| slides | int[] | स्लाइड क्रमांक की एरे, 1 से शुरू। |
+| scaleX | float | X-अक्ष दिशा में स्केल करने का मान। |
+| scaleY | float | Y-अक्ष दिशा में स्केल करने का मान। |
+
 **वापसी:**
-com.aspose.slides.IImage[] - Image objects.
+com.aspose.slides.IImage[] - Image ऑब्जेक्ट्स।
 ### getImages(IRenderingOptions options, Dimension imageSize) {#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-}
 ```
 public final IImage[] getImages(IRenderingOptions options, Dimension imageSize)
 ```
 
-निर्दिष्ट आकार के साथ प्रस्तुति की सभी स्लाइड्स के लिए Thumbnail Image objects लौटाता है।
+निर्दिष्ट आकार के साथ सभी स्लाइड्स के लिए थंबनेल Image ऑब्जेक्ट्स लौटाता है।
 
 **पैरामीटर:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff विकल्प। |
-| imageSize | java.awt.Dimension | बनाने के लिए छवि का आकार। |
+| imageSize | java.awt.Dimension | बनायीं जाने वाली इमेज का आकार। |
+
 **वापसी:**
-com.aspose.slides.IImage[] - Image objects.
+com.aspose.slides.IImage[] - Image ऑब्जेक्ट्स।
 ### getImages(IRenderingOptions options, int[] slides, Dimension imageSize) {#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-}
 ```
 public final IImage[] getImages(IRenderingOptions options, int[] slides, Dimension imageSize)
 ```
 
-निर्देशित स्लाइड्स के लिए निर्दिष्ट आकार के साथ Thumbnail Image objects लौटाता है।
+निर्दिष्ट स्लाइड्स के लिए निर्दिष्ट आकार के साथ थंबनेल Image ऑब्जेक्ट्स लौटाता है।
 
 **पैरामीटर:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff विकल्प। |
-| slides | int[] | स्लाइड स्थितियों की एरे, 1 से शुरू। |
-| imageSize | java.awt.Dimension | बनाने के लिए छवि का आकार। |
+| slides | int[] | स्लाइड क्रमांक की एरे, 1 से शुरू। |
+| imageSize | java.awt.Dimension | बनायीं जाने वाली इमेज का आकार। |
+
 **वापसी:**
-com.aspose.slides.IImage[] - Image objects.
+com.aspose.slides.IImage[] - Image ऑब्जेक्ट्स।
 ### save(String fname, int[] slides, int format) {#save-java.lang.String-int---int-}
 ```
 public final void save(String fname, int[] slides, int format)
 ```
 
-प्रस्तुति की निर्दिष्ट स्लाइड्स को पृष्ठ संख्या बनाए रखते हुए निर्दिष्ट फॉर्मेट वाली फ़ाइल में सहेजता है।
+निर्दिष्ट स्लाइड्स को पृष्ठ क्रमांक बनाए रखते हुए निर्दिष्ट फ़ॉर्मेट वाली फ़ाइल में सहेजता है।
 
 **पैरामीटर:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| fname | java.lang.String | बनाई गई फ़ाइल का पथ। |
-| slides | int[] | स्लाइड स्थितियों की एरे, 1 से शुरू। |
-| format | int | निर्यातित डेटा का फॉर्मेट। |
+| fname | java.lang.String | निर्मित फ़ाइल का पथ। |
+| slides | int[] | स्लाइड क्रमांक की एरे, 1 से शुरू। |
+| format | int | निर्यातित डेटा का फ़ॉर्मेट। |
+
 ### save(String fname, int[] slides, int format, ISaveOptions options) {#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-}
 ```
 public final void save(String fname, int[] slides, int format, ISaveOptions options)
 ```
 
-प्रस्तुति की निर्दिष्ट स्लाइड्स को पृष्ठ संख्या बनाए रखते हुए निर्दिष्ट फॉर्मेट और अतिरिक्त फॉर्मेट विकल्पों के साथ फ़ाइल में सहेजता है।
+निर्दिष्ट स्लाइड्स को पृष्ठ क्रमांक बनाए रखते हुए निर्दिष्ट फ़ॉर्मेट और अतिरिक्त विकल्पों के साथ फ़ाइल में सहेजता है।
 
 **पैरामीटर:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| fname | java.lang.String | बनाई गई फ़ाइल का पथ। |
-| slides | int[] | स्लाइड स्थितियों की एरे, 1 से शुरू। |
-| format | int | निर्यातित डेटा का फॉर्मेट। |
-| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | अतिरिक्त फॉर्मेट विकल्प। |
+| fname | java.lang.String | निर्मित फ़ाइल का पथ। |
+| slides | int[] | स्लाइड क्रमांक की एरे, 1 से शुरू। |
+| format | int | निर्यातित डेटा का फ़ॉर्मेट। |
+| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | अतिरिक्त फ़ॉर्मेट विकल्प। |
+
 ### save(OutputStream stream, int[] slides, int format) {#save-java.io.OutputStream-int---int-}
 ```
 public final void save(OutputStream stream, int[] slides, int format)
 ```
 
-निर्दिष्ट स्लाइड्स को पृष्ठ संख्या बनाए रखते हुए निर्दिष्ट फॉर्मेट में स्ट्रीम में सहेजता है।
+निर्दिष्ट स्लाइड्स को पृष्ठ क्रमांक बनाए रखते हुए निर्दिष्ट फ़ॉर्मेट में स्ट्रीम पर सहेजता है।
 
 **पैरामीटर:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | stream | java.io.OutputStream | आउटपुट स्ट्रीम। |
-| slides | int[] | स्लाइड स्थितियों की एरे, 1 से शुरू। |
-| format | int | निर्यातित डेटा का फॉर्मेट। |
+| slides | int[] | स्लाइड क्रमांक की एरे, 1 से शुरू। |
+| format | int | निर्यातित डेटा का फ़ॉर्मेट। |
+
 ### save(OutputStream stream, int[] slides, int format, ISaveOptions options) {#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-}
 ```
 public final void save(OutputStream stream, int[] slides, int format, ISaveOptions options)
 ```
 
-निर्दिष्ट स्लाइड्स को पृष्ठ संख्या बनाए रखते हुए निर्दिष्ट फॉर्मेट और अतिरिक्त फॉर्मेट विकल्पों के साथ स्ट्रीम में सहेजता है।
+निर्दिष्ट स्लाइड्स को पृष्ठ क्रमांक बनाए रखते हुए निर्दिष्ट फ़ॉर्मेट और अतिरिक्त विकल्पों के साथ स्ट्रीम पर सहेजता है।
+
+--------------------
 
 > ```
 > The following example shows how to convert PowerPoint to PNG.
@@ -1465,34 +1524,34 @@ public final void save(OutputStream stream, int[] slides, int format, ISaveOptio
 >  }
 > ```
 
-
 **पैरामीटर:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | stream | java.io.OutputStream | आउटपुट स्ट्रीम। |
-| slides | int[] | स्लाइड स्थितियों की एरे, 1 से शुरू। |
-| format | int | निर्यातित डेटा का फॉर्मेट। |
-| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | अतिरिक्त फॉर्मेट विकल्प। |
+| slides | int[] | स्लाइड क्रमांक की एरे, 1 से शुरू। |
+| format | int | निर्यातित डेटा का फ़ॉर्मेट। |
+| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | अतिरिक्त फ़ॉर्मेट विकल्प। |
+
 ### joinPortionsWithSameFormatting() {#joinPortionsWithSameFormatting--}
 ```
 public final void joinPortionsWithSameFormatting()
 ```
 
-सभी स्लाइड्स में सभी स्वीकार्य आकारों में सभी पैराग्राफ़ में समान फ़ॉर्मेटिंग वाले रन को जोड़ता है।
+सभी स्वीकार्य शैलियों में सभी पैराग्राफ़ों की समान फ़ॉर्मेटिंग वाले रन को जोड़ता है।
 
 ### dispose() {#dispose--}
 ```
 public final void dispose()
 ```
 
-इस Presentation ऑब्जेक्ट द्वारा उपयोग किए गए सभी संसाधनों को रिलीज़ करता है।
+इस Presentation ऑब्जेक्ट द्वारा उपयोग किए गए सभी संसाधनों को जारी करता है।
 
 ### getPresentation() {#getPresentation--}
 ```
 public final IPresentation getPresentation()
 ```
 
-टेक्स्ट का पैरेंट प्रस्तुति लौटाता है। केवल पढ़ने योग्य [IPresentation](../../com.aspose.slides/ipresentation)।
+टेक्स्ट का पैरेंट प्रेजेंटेशन लौटाता है। केवल पढ़ने योग्य [IPresentation](../../com.aspose.slides/ipresentation)।
 
 **वापसी:**
 [IPresentation](../../com.aspose.slides/ipresentation)
@@ -1501,7 +1560,9 @@ public final IPresentation getPresentation()
 public final void highlightText(String text, Color highlightColor)
 ```
 
-उदाहरण टेक्स्ट की सभी मेलों को निर्दिष्ट रंग के साथ हाइलाइट करता है।
+निर्दिष्ट रंग के साथ नमूना टेक्स्ट के सभी मिलान को हाइलाइट करता है।
+
+--------------------
 
 > ```
 > The following code sample shows how to highlight text in a PowerPoint presentation.
@@ -1519,23 +1580,26 @@ public final void highlightText(String text, Color highlightColor)
 **पैरामीटर:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| text | java.lang.String | हाइलाइट करने के लिए टेक्स्ट। |
+| text | java.lang.String | हाइलाइट करने हेतु टेक्स्ट। |
 | highlightColor | java.awt.Color | टेक्स्ट को हाइलाइट करने का रंग। |
+
 ### highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
 public final void highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
-उदाहरण टेक्स्ट की सभी मेलों को निर्दिष्ट रंग के साथ हाइलाइट करता है।
+निर्दिष्ट रंग के साथ नमूना टेक्स्ट के सभी मिलान को हाइलाइट करता है।
 
-> ```
-> PowerPoint प्रस्तुति में टेक्स्ट हाइलाइट करने का कोड उदाहरण।
+--------------------
+
+> ```markdown
+> The following code sample shows how to highlight text in a PowerPoint presentation.
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      TextSearchOptions textSearchOptions = new TextSearchOptions();
 >      textSearchOptions.setWholeWordsOnly(true);
->      // सभी अलग-अलग 'the' घटनाओं को हाइलाइट कर रहा है
+>      // सभी अलग-अलग 'the' मौजूदियों को हाइलाइट करना
 >      presentation.highlightText("the", Color.MAGENTA, textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -1547,24 +1611,27 @@ public final void highlightText(String text, Color highlightColor, ITextSearchOp
 **पैरामीटर:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| text | java.lang.String | हाइलाइट करने के लिए टेक्स्ट। |
+| text | java.lang.String | हाइलाइट करने हेतु टेक्स्ट। |
 | highlightColor | java.awt.Color | टेक्स्ट को हाइलाइट करने का रंग। |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | टेक्स्ट खोज विकल्प [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions)। |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | खोज परिणाम प्राप्त करने के लिए कॉलबैक ऑब्जेक्ट [IFindResultCallback](../../com.aspose.slides/ifindresultcallback)। |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | खोज परिणाम प्राप्त करने के लिये कॉलबैक ऑब्जेक्ट [IFindResultCallback](../../com.aspose.slides/ifindresultcallback)। |
+
 ### highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback) {#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-}
 ```
 public final void highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)
 ```
 
-रेगुलर एक्सप्रेशन की सभी मेलों को निर्दिष्ट रंग के साथ हाइलाइट करता है।
+निर्दिष्ट रंग के साथ नियमित अभिव्यक्ति के सभी मिलान को हाइलाइट करता है।
 
-> ```
+--------------------
+
+> ```markdown
 > The following code sample shows how to highlight text in a PowerPoint Presentation using a regular expression.
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      Pattern regex = Pattern.compile("\\b[^\\s]{10,}\\b");
->      // 10 अक्षर या अधिक वाले सभी शब्दों को हाइलाइट कर रहा है
+>      // 10 अक्षरों या उससे अधिक वाले सभी शब्दों को हाइलाइट करना
 >      presentation.highlightRegex(regex, Color.BLUE, null);
 >      presentation.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -1572,30 +1639,27 @@ public final void highlightRegex(Pattern regex, Color highlightColor, IFindResul
 >  }
 > ```
 
+| regex | java.util.regex.Pattern | हाइलाइट करने के लिए स्ट्रिंग्स प्राप्त करने हेतु java.util.regex.Pattern नियमित अभिव्यक्ति। |
+| highlightColor | java.awt.Color | टेक्स्ट को हाइलाइट करने के लिए रंग। |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | खोज परिणाम प्राप्त करने के लिए कॉलबैक ऑब्जेक्ट [IFindResultCallback](../../com.aspose.slides/ifindresultcallback)। |
 
-**पैरामीटर:**
-| पैरामीटर | प्रकार | विवरण |
-| --- | --- | --- |
-| regex | java.util.regex.Pattern | हाइलाइट करने के लिए स्ट्रिंग्स प्राप्त करने हेतु रेगुलर एक्सप्रेशन java.util.regex.Pattern। |
-| highlightColor | java.awt.Color | टेक्स्ट को हाइलाइट करने का रंग। |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | खोज परिणाम प्राप्त करने के लिए कॉलबैक ऑब्जेक्ट [IFindResultCallback](../../com.aspose.slides/ifindresultcallback)।
 ### replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback) {#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
 public final void replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
-निर्दिष्ट पाठ के सभी उदाहरणों को दूसरे निर्दिष्ट पाठ से बदलता है।
+निर्दिष्ट टेक्स्ट की सभी घटनाओं को अन्य निर्दिष्ट टेक्स्ट से बदलता है।
 
 --------------------
 
-> ```
-> निम्न नमूना कोड दिखाता है कि कैसे एक निर्दिष्ट स्ट्रिंग को दूसरी निर्दिष्ट स्ट्रिंग से बदलें।
+> ```markdown
+> The following sample code shows how to replace one specified string with another specified string.
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx")
 >  try {
 >      TextSearchOptions textSearchOptions = new TextSearchOptions();
 >      textSearchOptions.setWholeWordsOnly(true);
->      // सभी अलग 'the' घटनाओं को '***' से बदलें
+>      // सभी अलग-अलग 'the' उपस्थितियों को '***' से बदलें
 >      presentation.replaceText("the", "***", textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -1607,17 +1671,17 @@ public final void replaceText(String oldText, String newText, ITextSearchOptions
 **पैरामीटर:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| oldText | java.lang.String | बदलने वाला स्ट्रिंग। |
-| newText | java.lang.String | oldText के सभी उदाहरणों को बदलने वाला स्ट्रिंग। |
-| options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | पाठ खोज विकल्प [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions)। |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | खोज परिणाम प्राप्त करने के लिए कॉलबैक ऑब्जेक्ट [IFindResultCallback](../../com.aspose.slides/ifindresultcallback)। |
+| oldText | java.lang.String | बदलने के लिए स्ट्रिंग। |
+| newText | java.lang.String | oldText की सभी घटनाओं को बदलने के लिए स्ट्रिंग। |
+| options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | टेम्प्लेट खोज विकल्प [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions)। |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | खोज परिणाम प्राप्त करने के लिए कॉलगबैक ऑब्जेक्ट [IFindResultCallback](../../com.aspose.slides/ifindresultcallback)। |
 
 ### replaceRegex(Pattern regex, String newText, IFindResultCallback callback) {#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-}
 ```
 public final void replaceRegex(Pattern regex, String newText, IFindResultCallback callback)
 ```
 
-नियमित अभिव्यक्ति के सभी मिलान को निर्दिष्ट स्ट्रिंग से बदलता है।
+नियमित अभिव्यक्ति की सभी मेलों को निर्दिष्ट स्ट्रिंग से बदलता है।
 
 --------------------
 
@@ -1626,9 +1690,54 @@ public final void replaceRegex(Pattern regex, String newText, IFindResultCallbac
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      Pattern regex = Pattern.compile("\\b[^\\s]{10,}\\b");
->      // सभी शब्दों को 10 या अधिक अक्षरों वाले को '***' से बदलें
+>      // Replace all words with 10 symbols or longer with '***'
 >      presentation.replaceRegex(regex, "***", null);
 >      presentation.save("SomePresentation-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**पैरामीटर:**
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| regex | java.util.regex.Pattern | बदलने के लिए स्ट्रिंग्स प्राप्त करने हेतु java.util.regex.Pattern नियमित अभिव्यक्ति। |
+| newText | java.lang.String | बदलने वाले स्ट्रिंग्स की सभी घटनाओं को बदलने के लिए स्ट्रिंग। |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | खोज परिणाम प्राप्त करने के लिए कॉलबैक ऑब्जेक्ट [IFindResultCallback](../../com.aspose.slides/ifindresultcallback)। |
+
+### refreshChartsData() {#refreshChartsData--}
+```
+public final void refreshChartsData()
+```
+
+प्रेजेंटेशन में सभी चार्ट्स के डेटा को उनके स्रोत वर्कबुक से पुनः लोड करता है।
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("PresentationWithCharts.pptx");
+>  try {
+>      presentation.refreshChartsData();
+>      presentation.save("PresentationWithCharts-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+### refreshChartsData(boolean skipFailedCharts) {#refreshChartsData-boolean-}
+```
+public final void refreshChartsData(boolean skipFailedCharts)
+```
+
+प्रेजेंटेशन में सभी चार्ट्स के डेटा को उनके स्रोत वर्कबुक से पुनः लोड करता है।
+
+--------------------
+
+> ```markdown
+> Presentation presentation = new Presentation("PresentationWithCharts.pptx");
+>  try {
+>      presentation.refreshChartsData();
+>      presentation.save("PresentationWithCharts-out.pptx", SaveFormat.Pptx);
 >  } finally {
 >      if (presentation != null) presentation.dispose();
 >  }
@@ -1638,6 +1747,4 @@ public final void replaceRegex(Pattern regex, String newText, IFindResultCallbac
 **पैरामीटर:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | बदलने के लिए स्ट्रिंग प्राप्त करने हेतु नियमित अभिव्यक्ति java.util.regex.Pattern। |
-| newText | java.lang.String | बदलने के लिए स्ट्रिंग। |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | खोज परिणाम प्राप्त करने के लिए कॉलबैक ऑब्जेक्ट [IFindResultCallback](../../com.aspose.slides/ifindresultcallback)। |
+| skipFailedCharts | boolean | निर्धारित करता है कि क्या चार्ट अपडेट में विफल होने पर रीफ़्रेश प्रक्रिया जारी रहेगी। यदि true है, तो अपवाद उत्पन्न करने वाले चार्ट्स को छोड़ दिया जाता है; अन्यथा अपवाद को आगे प्रसारित किया जाता है। |

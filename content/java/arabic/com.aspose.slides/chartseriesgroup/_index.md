@@ -1,15 +1,15 @@
 ---
 title: ChartSeriesGroup
-second_title: مرجع API Aspose.Slides للـ Java
+second_title: مرجع API لـ Aspose.Slides للـ Java
 description: يمثل مجموعة من السلاسل.
 type: docs
 url: /ar/com.aspose.slides/chartseriesgroup/
 ---
-**الوراثة:**
+**الوراثة:**  
 java.lang.Object
 
-**جميع الواجهات المنفذة:**
-[com.aspose.slides.IChartSeriesGroup](../../com.aspose.slides/ichartseriesgroup), com.aspose.slides.IDOMObject
+**جميع الواجهات المُنفذة:**  
+[com.aspose.slides.IChartSeriesGroup](../../com.aspose.slides/ichartseriesgroup), com.aspose.slides.IDOMObject  
 ```
 public class ChartSeriesGroup implements IChartSeriesGroup, IDOMObject
 ```
@@ -18,56 +18,56 @@ public class ChartSeriesGroup implements IChartSeriesGroup, IDOMObject
 
 --------------------
 
-1) انظر الملخص والملاحظات لفئة ChartSeriesGroupCollection والعدد CombinableSeriesTypesGroup enum. 2) تحتوي مجموعة السلاسل على بعض خصائص السلاسل التي تكون مشتركة لكل سلسلة في المجموعة ("خصائص مجموعة السلاسل"). "خصائص مجموعة السلاسل" في فئة ChartSeriesGroup هي قراءة/كتابة. كل من "خصائص مجموعة السلاسل" يمكن أن تكون لديها إسقاط قراءة فقط في فئة ChartSeries.
+1) راجع الملخص والملاحظات لفئة ChartSeriesGroupCollection والعدد CombinableSeriesTypesGroup. 2) تحتوي مجموعة السلاسل على بعض خصائص السلسلة التي هي مشتركة لكل سلسلة في المجموعة ("series group properties"). "Series group properties" في فئة ChartSeriesGroup هي قراءة/كتابة. يمكن لكل من "series group properties" أن يكون لها تمثيل للقراءة فقط في فئة ChartSeries.
 
 ## الطرق
 
 | الطريقة | الوصف |
 | --- | --- |
-| [getType()](#getType--) | إرجاع نوع من مجموعة السلاسل هذه. |
-| [getPlotOnSecondAxis()](#getPlotOnSecondAxis--) | يوضح ما إذا كانت سلاسل هذه المجموعة مرسومة على المحور الثانوي. |
-| [getSeries()](#getSeries--) | إرجاع مجموعة من السلاسل. |
+| [getType()](#getType--) | يُرجع نوعًا لمجموعة السلاسل هذه. |
+| [getPlotOnSecondAxis()](#getPlotOnSecondAxis--) | يُشير إلى ما إذا كانت سلاسل هذه المجموعة مرسومة على محور ثانوي. |
+| [getSeries()](#getSeries--) | يُرجع مجموعة من السلاسل. |
 | [get_Item(int index)](#get-Item-int-) | يحصل على العنصر في الفهرس المحدد. |
-| [getUpDownBars()](#getUpDownBars--) | يوفر وصولاً إلى أشرطة الصعود/الهبوط في مخطط خط أو مخطط أسهم. |
-| [getGapWidth()](#getGapWidth--) | يحدد المسافة بين مجموعات الشرائط أو الأعمدة كنسبة مئوية من عرض الشريط أو العمود. |
-| [setGapWidth(int value)](#setGapWidth-int-) | يحدد المسافة بين مجموعات الشرائط أو الأعمدة كنسبة مئوية من عرض الشريط أو العمود. |
-| [getGapDepth()](#getGapDepth--) | إرجاع أو ضبط المسافة، كنسبة مئوية من عرض العلامة، بين سلاسل البيانات في مخطط ثلاثي الأبعاد. |
-| [setGapDepth(int value)](#setGapDepth-int-) | إرجاع أو ضبط المسافة، كنسبة مئوية من عرض العلامة، بين سلاسل البيانات في مخطط ثلاثي الأبعاد. |
-| [getFirstSliceAngle()](#getFirstSliceAngle--) | يحصل أو يضبط زاوية قطعة الفطيرة أو المخطط الدائري الأولى بالدرجات (في اتجاه عقرب الساعة من الأعلى، من 0 إلى 360 درجة). |
-| [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | يحصل أو يضبط زاوية قطعة الفطيرة أو المخطط الدائري الأولى بالدرجات (في اتجاه عقرب الساعة من الأعلى، من 0 إلى 360 درجة). |
-| [getDoughnutHoleSize()](#getDoughnutHoleSize--) | يحدد حجم الثقب في مخطط مقلوب (يمكن أن يكون بين 0 و 90٪ من حجم منطقة الرسم). |
-| [setDoughnutHoleSize(byte value)](#setDoughnutHoleSize-byte-) | يحدد حجم الثقب في مخطط مقلوب (يمكن أن يكون بين 0 و 90٪ من حجم منطقة الرسم). |
-| [getOverlap()](#getOverlap--) | يحدد مقدار تداخل الشرائط والأعمدة في المخططات ثنائية الأبعاد، كنسبة مئوية (من -100٪ إلى 100٪). |
-| [setOverlap(byte value)](#setOverlap-byte-) | يحدد مقدار تداخل الشرائط والأعمدة في المخططات ثنائية الأبعاد، كنسبة مئوية (من -100٪ إلى 100٪). |
-| [getSecondPieSize()](#getSecondPieSize--) | يحدد حجم الفطيرة أو الشريط الثاني في مخطط الفطيرة-على-فطيرة أو شريط-على-فطيرة، كنسبة مئوية من حجم الفطيرة الأولى (يمكن أن يكون بين 5 و 200٪). |
-| [setSecondPieSize(int value)](#setSecondPieSize-int-) | يحدد حجم الفطيرة أو الشريط الثاني في مخطط الفطيرة-على-فطيرة أو شريط-على-فطيرة، كنسبة مئوية من حجم الفطيرة الأولى (يمكن أن يكون بين 5 و 200٪). |
+| [getUpDownBars()](#getUpDownBars--) | يوفر الوصول إلى أشرطة الصعود/الهبوط في مخطط الخط أو المخطط السهمي. |
+| [getGapWidth()](#getGapWidth--) | يحصل أو يحدد المسافة بين مجموعات الأعمدة أو الأشرطة كنسبة مئوية من عرض العمود أو الشريط. |
+| [setGapWidth(int value)](#setGapWidth-int-) | يحصل أو يحدد المسافة بين مجموعات الأعمدة أو الأشرطة كنسبة مئوية من عرض العمود أو الشريط. |
+| [getGapDepth()](#getGapDepth--) | يحصل أو يحدد المسافة بين سلاسل البيانات في مخطط ثلاثي الأبعاد كنسبة مئوية من عرض العلامة. |
+| [setGapDepth(int value)](#setGapDepth-int-) | يحصل أو يحدد المسافة بين سلاسل البيانات في مخطط ثلاثي الأبعاد كنسبة مئوية من عرض العلامة. |
+| [getFirstSliceAngle()](#getFirstSliceAngle--) | يحصل أو يحدد زاوية الشريحة الأولى في مخطط الفطيرة أو المخطط الإسطواني، بالدرجات (مع اتجاه عقارب الساعة من الأعلى، من 0 إلى 360 درجة). |
+| [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | يحصل أو يحدد زاوية الشريحة الأولى في مخطط الفطيرة أو المخطط الإسطواني، بالدرجات (مع اتجاه عقارب الساعة من الأعلى، من 0 إلى 360 درجة). |
+| [getDoughnutHoleSize()](#getDoughnutHoleSize--) | يحدد حجم الفتحة في مخطط الإسطواني (يمكن أن يكون بين 0 و90 بالمائة من حجم مساحة الرسم). |
+| [setDoughnutHoleSize(byte value)](#setDoughnutHoleSize-byte-) | يحدد حجم الفتحة في مخطط الإسطواني (يمكن أن يكون بين 0 و90 بالمائة من حجم مساحة الرسم). |
+| [getOverlap()](#getOverlap--) | يحدد مقدار تداخل الأعمدة والأشرطة في المخططات ثنائية الأبعاد كنسبة مئوية (من -100% إلى 100%). |
+| [setOverlap(byte value)](#setOverlap-byte-) | يحدد مقدار تداخل الأعمدة والأشرطة في المخططات ثنائية الأبعاد كنسبة مئوية (من -100% إلى 100%). |
+| [getSecondPieSize()](#getSecondPieSize--) | يحدد حجم الفطيرة أو الشريط الثاني في مخطط الفطيرة داخل الفطيرة أو مخطط الشريط داخل الفطيرة كنسبة مئوية من حجم الفطيرة الأولى (يمكن أن يكون بين 5 و200 بالمائة). |
+| [setSecondPieSize(int value)](#setSecondPieSize-int-) | يحدد حجم الفطيرة أو الشريط الثاني في مخطط الفطيرة داخل الفطيرة أو مخطط الشريط داخل الفطيرة كنسبة مئوية من حجم الفطيرة الأولى (يمكن أن يكون بين 5 و200 بالمائة). |
 | [getBubbleSizeRepresentation()](#getBubbleSizeRepresentation--) | يحدد كيفية تمثيل قيم حجم الفقاعات في مخطط الفقاعات. |
 | [setBubbleSizeRepresentation(int value)](#setBubbleSizeRepresentation-int-) | يحدد كيفية تمثيل قيم حجم الفقاعات في مخطط الفقاعات. |
-| [getPieSplitPosition()](#getPieSplitPosition--) | يحدد قيمة ستُستخدم لتحديد أي نقاط البيانات تكون في الفطيرة أو الشريط الثاني في مخطط الفطيرة-على-فطيرة أو شريط-على-فطيرة. |
-| [setPieSplitPosition(double value)](#setPieSplitPosition-double-) | يحدد قيمة ستُستخدم لتحديد أي نقاط البيانات تكون في الفطيرة أو الشريط الثاني في مخطط الفطيرة-على-فطيرة أو شريط-على-فطيرة. |
-| [getPieSplitBy()](#getPieSplitBy--) | يحدد طريقة تحديد أي نقاط البيانات تكون في الفطيرة أو الشريط الثاني في مخطط الفطيرة-على-فطيرة أو شريط-على-فطيرة. |
-| [setPieSplitBy(int value)](#setPieSplitBy-int-) | يحدد طريقة تحديد أي نقاط البيانات تكون في الفطيرة أو الشريط الثاني في مخطط الفطيرة-على-فطيرة أو شريط-على-فطيرة. |
+| [getPieSplitPosition()](#getPieSplitPosition--) | يحدد قيمة تُستخدم لتحديد أي نقاط البيانات تكون في الفطيرة أو الشريط الثاني في مخطط الفطيرة داخل الفطيرة أو مخطط الشريط داخل الفطيرة. |
+| [setPieSplitPosition(double value)](#setPieSplitPosition-double-) | يحدد قيمة تُستخدم لتحديد أي نقاط البيانات تكون في الفطيرة أو الشريط الثاني في مخطط الفطيرة داخل الفطيرة أو مخطط الشريط داخل الفطيرة. |
+| [getPieSplitBy()](#getPieSplitBy--) | يحدد كيفية تحديد أي نقاط البيانات تكون في الفطيرة أو الشريط الثاني في مخطط الفطيرة داخل الفطيرة أو مخطط الشريط داخل الفطيرة. |
+| [setPieSplitBy(int value)](#setPieSplitBy-int-) | يحدد كيفية تحديد أي نقاط البيانات تكون في الفطيرة أو الشريط الثاني في مخطط الفطيرة داخل الفطيرة أو مخطط الشريط داخل الفطيرة. |
 | [isColorVaried()](#isColorVaried--) | يحدد أن كل علامة بيانات في السلسلة لها لون مختلف. |
 | [setColorVaried(boolean value)](#setColorVaried-boolean-) | يحدد أن كل علامة بيانات في السلسلة لها لون مختلف. |
-| [hasSeriesLines()](#hasSeriesLines--) | صحيح إذا كان المخطط يحتوي على خطوط السلسلة. |
-| [setSeriesLines(boolean value)](#setSeriesLines-boolean-) | صحيح إذا كان المخطط يحتوي على خطوط السلسلة. |
+| [hasSeriesLines()](#hasSeriesLines--) | True إذا كان المخطط يحتوي على خطوط السلسلة. |
+| [setSeriesLines(boolean value)](#setSeriesLines-boolean-) | True إذا كان المخطط يحتوي على خطوط السلسلة. |
 | [getHiLowLinesFormat()](#getHiLowLinesFormat--) | يحدد تنسيق HiLowLines. |
-| [getBubbleSizeScale()](#getBubbleSizeScale--) | يحدد عامل المقياس لمخطط الفقاعات (يمكن أن يكون بين 0 و 300٪ من الحجم الافتراضي). |
-| [setBubbleSizeScale(int value)](#setBubbleSizeScale-int-) | يحدد عامل المقياس لمخطط الفقاعات (يمكن أن يكون بين 0 و 300٪ من الحجم الافتراضي). |
-| [getPieSplitCustomPoints()](#getPieSplitCustomPoints--) | معلومات التقسيم المخصص لمخطط الفطيرة-على-فطيرة أو شريط-على-فطيرة مع تقسيم مخصص. |
+| [getBubbleSizeScale()](#getBubbleSizeScale--) | يحدد معامل المقياس لمخطط الفقاعات (يمكن أن يكون بين 0 و300 بالمائة من الحجم الافتراضي). |
+| [setBubbleSizeScale(int value)](#setBubbleSizeScale-int-) | يحدد معامل المقياس لمخطط الفقاعات (يمكن أن يكون بين 0 و300 بالمائة من الحجم الافتراضي). |
+| [getPieSplitCustomPoints()](#getPieSplitCustomPoints--) | معلومات الانقسام المخصص لمخطط الفطيرة داخل الفطيرة أو مخطط الشريط داخل الفطيرة مع انقسام مخصص. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-| [getChart()](#getChart--) | يرجع المخطط الأب. |
-| [getSlide()](#getSlide--) | يرجع شريحة الأبوية لـ FillFormat. |
-| [getPresentation()](#getPresentation--) | يرجع العرض التقديمي الأب لـ FillFormat. |
+| [getChart()](#getChart--) | يُرجع المخطط الأب. |
+| [getSlide()](#getSlide--) | يُرجع الشريحة الأب لتنسيق التعبئة. |
+| [getPresentation()](#getPresentation--) | يُرجع العرض التقديمي الأب لتنسيق التعبئة. |
 
 ### getType() {#getType--}
 ```
 public final int getType()
 ```
 
-إرجاع نوع من مجموعة السلاسل هذه. قراءة فقط [CombinableSeriesTypesGroup](../../com.aspose.slides/combinableseriestypesgroup).
+يُرجع نوعًا لمجموعة السلاسل هذه. للقراءة فقط [CombinableSeriesTypesGroup](../../com.aspose.slides/combinableseriestypesgroup).
 
-**الإرجاع:**
+**الإرجاع:**  
 int
 
 ### getPlotOnSecondAxis() {#getPlotOnSecondAxis--}
@@ -75,9 +75,9 @@ int
 public final boolean getPlotOnSecondAxis()
 ```
 
-يوضح ما إذا كانت سلاسل هذه المجموعة مرسومة على المحور الثانوي. قراءة فقط boolean.
+يُشير إلى ما إذا كانت سلاسل هذه المجموعة مرسومة على محور ثانوي. للقراءة فقط boolean.
 
-**الإرجاع:**
+**الإرجاع:**  
 boolean
 
 ### getSeries() {#getSeries--}
@@ -85,9 +85,9 @@ boolean
 public final IChartSeriesReadonlyCollection getSeries()
 ```
 
-إرجاع مجموعة من السلاسل. قراءة فقط [IChartSeriesReadonlyCollection](../../com.aspose.slides/ichartseriesreadonlycollection).
+يُرجع مجموعة من السلاسل. للقراءة فقط [IChartSeriesReadonlyCollection](../../com.aspose.slides/ichartseriesreadonlycollection).
 
-**الإرجاع:**
+**الإرجاع:**  
 [IChartSeriesReadonlyCollection](../../com.aspose.slides/ichartseriesreadonlycollection)
 
 ### get_Item(int index) {#get-Item-int-}
@@ -97,12 +97,12 @@ public final IChartSeries get_Item(int index)
 
 يحصل على العنصر في الفهرس المحدد.
 
-**المعاملات:**
-| المعامل | النوع | الوصف |
+**المعلمات:**  
+| المعلمة | النوع | الوصف |
 | --- | --- | --- |
 | index | int |  |
 
-**الإرجاع:**
+**الإرجاع:**  
 [IChartSeries](../../com.aspose.slides/ichartseries)
 
 ### getUpDownBars() {#getUpDownBars--}
@@ -110,9 +110,9 @@ public final IChartSeries get_Item(int index)
 public final IUpDownBarsManager getUpDownBars()
 ```
 
-يوفر وصولاً إلى أشرطة الصعود/الهبوط في مخطط خط أو مخطط أسهم. قراءة فقط [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager).
+يوفر الوصول إلى أشرطة الصعود/الهبوط في مخطط الخط أو المخطط السهمي. للقراءة فقط [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager).
 
-**الإرجاع:**
+**الإرجاع:**  
 [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager)
 
 ### getGapWidth() {#getGapWidth--}
@@ -120,9 +120,13 @@ public final IUpDownBarsManager getUpDownBars()
 public final int getGapWidth()
 ```
 
-يحدد المسافة بين مجموعات الشرائط أو الأعمدة كنسبة مئوية من عرض الشريط أو العمود. قراءة/كتابة int.
+يحصل أو يحدد المسافة بين مجموعات الأعمدة أو الأشرطة كنسبة مئوية من عرض العمود أو الشريط. يجب أن تكون القيمة بين 0 و 500. قراءة/كتابة int.
 
-**الإرجاع:**
+--------------------
+
+تنطبق هذه الخاصية على سلاسل الأنواع التالية: الأنواع الفرعية Bar (انظر أيضًا طريقة [ChartTypeCharacterizer.isChartTypeBar(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBar-int-))، الأنواع الفرعية Column (انظر أيضًا طريقة [ChartTypeCharacterizer.isChartTypeColumn(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeColumn-int-))، [ChartType.BarOfPie](../../com.aspose.slides/charttype\#BarOfPie)، [ChartType.PieOfPie](../../com.aspose.slides/charttype\#PieOfPie)، [ChartType.BoxAndWhisker](../../com.aspose.slides/charttype\#BoxAndWhisker)، [ChartType.Funnel](../../com.aspose.slides/charttype\#Funnel)، [ChartType.Histogram](../../com.aspose.slides/charttype\#Histogram)، [ChartType.Waterfall](../../com.aspose.slides/charttype\#Waterfall).
+
+**الإرجاع:**  
 int
 
 ### setGapWidth(int value) {#setGapWidth-int-}
@@ -130,10 +134,14 @@ int
 public final void setGapWidth(int value)
 ```
 
-يحدد المسافة بين مجموعات الشرائط أو الأعمدة كنسبة مئوية من عرض الشريط أو العمود. قراءة/كتابة int.
+يحصل أو يحدد المسافة بين مجموعات الأعمدة أو الأشرطة كنسبة مئوية من عرض العمود أو الشريط. يجب أن تكون القيمة بين 0 و 500. قراءة/كتابة int.
 
-**المعاملات:**
-| المعامل | النوع | الوصف |
+--------------------
+
+تنطبق هذه الخاصية على سلاسل الأنواع التالية: الأنواع الفرعية Bar (انظر أيضًا طريقة [ChartTypeCharacterizer.isChartTypeBar(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBar-int-))، الأنواع الفرعية Column (انظر أيضًا طريقة [ChartTypeCharacterizer.isChartTypeColumn(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeColumn-int-))، [ChartType.BarOfPie](../../com.aspose.slides/charttype\#BarOfPie)، [ChartType.PieOfPie](../../com.aspose.slides/charttype\#PieOfPie)، [ChartType.BoxAndWhisker](../../com.aspose.slides/charttype\#BoxAndWhisker)، [ChartType.Funnel](../../com.aspose.slides/charttype\#Funnel)، [ChartType.Histogram](../../com.aspose.slides/charttype\#Histogram)، [ChartType.Waterfall](../../com.aspose.slides/charttype\#Waterfall).
+
+**المعلمات:**  
+| المعلمة | النوع | الوصف |
 | --- | --- | --- |
 | value | int |  |
 
@@ -142,9 +150,13 @@ public final void setGapWidth(int value)
 public final int getGapDepth()
 ```
 
-إرجاع أو ضبط المسافة، كنسبة مئوية من عرض العلامة، بين سلاسل البيانات في مخطط ثلاثي الأبعاد. قراءة/كتابة int.
+يحصل أو يحدد المسافة بين سلاسل البيانات في مخطط ثلاثي الأبعاد كنسبة مئوية من عرض العلامة. يجب أن تكون القيمة بين 0 و 500. قراءة/كتابة int.
 
-**الإرجاع:**
+--------------------
+
+تنطبق هذه الخاصية على سلاسل الأنواع التالية: الأنواع الفرعية Bar و Column ثلاثية الأبعاد (انظر أيضًا طريقة [ChartTypeCharacterizer.isBar3DChart(int)](../../com.aspose.slides/charttypecharacterizer\#isBar3DChart-int-))، [ChartType.Line3D](../../com.aspose.slides/charttype\#Line3D)، [ChartType.Area3D](../../com.aspose.slides/charttype\#Area3D)، [ChartType.StackedArea3D](../../com.aspose.slides/charttype\#StackedArea3D)، [ChartType.PercentsStackedArea3D](../../com.aspose.slides/charttype\#PercentsStackedArea3D).
+
+**الإرجاع:**  
 int
 
 ### setGapDepth(int value) {#setGapDepth-int-}
@@ -152,10 +164,14 @@ int
 public final void setGapDepth(int value)
 ```
 
-إرجاع أو ضبط المسافة، كنسبة مئوية من عرض العلامة، بين سلاسل البيانات في مخطط ثلاثي الأبعاد. قراءة/كتابة int.
+يحصل أو يحدد المسافة بين سلاسل البيانات في مخطط ثلاثي الأبعاد كنسبة مئوية من عرض العلامة. يجب أن تكون القيمة بين 0 و 500. قراءة/كتابة int.
 
-**المعاملات:**
-| المعامل | النوع | الوصف |
+--------------------
+
+تنطبق هذه الخاصية على سلاسل الأنواع التالية: الأنواع الفرعية Bar و Column ثلاثية الأبعاد (انظر أيضًا طريقة [ChartTypeCharacterizer.isBar3DChart(int)](../../com.aspose.slides/charttypecharacterizer\#isBar3DChart-int-))، [ChartType.Line3D](../../com.aspose.slides/charttype\#Line3D)، [ChartType.Area3D](../../com.aspose.slides/charttype\#Area3D)، [ChartType.StackedArea3D](../../com.aspose.slides/charttype\#StackedArea3D)، [ChartType.PercentsStackedArea3D](../../com.aspose.slides/charttype\#PercentsStackedArea3D).
+
+**المعلمات:**  
+| المعلمة | النوع | الوصف |
 | --- | --- | --- |
 | value | int |  |
 
@@ -164,9 +180,9 @@ public final void setGapDepth(int value)
 public final int getFirstSliceAngle()
 ```
 
-يحصل أو يضبط زاوية قطعة الفطيرة أو المخطط الدائري الأولى بالدرجات (في اتجاه عقرب الساعة من الأعلى، من 0 إلى 360 درجة). قراءة/كتابة int.
+يحصل أو يحدد زاوية الشريحة الأولى في مخطط الفطيرة أو المخطط الإسطواني، بالدرجات (مع اتجاه عقارب الساعة من الأعلى، من 0 إلى 360 درجة). قراءة/كتابة int.
 
-**الإرجاع:**
+**الإرجاع:**  
 int
 
 ### setFirstSliceAngle(int value) {#setFirstSliceAngle-int-}
@@ -174,10 +190,10 @@ int
 public final void setFirstSliceAngle(int value)
 ```
 
-يحصل أو يضبط زاوية قطعة الفطيرة أو المخطط الدائري الأولى بالدرجات (في اتجاه عقرب الساعة من الأعلى، من 0 إلى 360 درجة). قراءة/كتابة int.
+يحصل أو يحدد زاوية الشريحة الأولى في مخطط الفطيرة أو المخطط الإسطواني، بالدرجات (مع اتجاه عقارب الساعة من الأعلى، من 0 إلى 360 درجة). قراءة/كتابة int.
 
-**المعاملات:**
-| المعامل | النوع | الوصف |
+**المعلمات:**  
+| المعلمة | النوع | الوصف |
 | --- | --- | --- |
 | value | int |  |
 
@@ -186,9 +202,9 @@ public final void setFirstSliceAngle(int value)
 public final byte getDoughnutHoleSize()
 ```
 
-يحدد حجم الثقب في مخطط مقلوب (يمكن أن يكون بين 0 و 90٪ من حجم منطقة الرسم). قراءة/كتابة byte.
+يحدد حجم الفتحة في مخطط الإسطواني (يمكن أن يكون بين 0 و90 بالمائة من حجم مساحة الرسم). قراءة/كتابة byte.
 
-**الإرجاع:**
+**الإرجاع:**  
 byte
 
 ### setDoughnutHoleSize(byte value) {#setDoughnutHoleSize-byte-}
@@ -196,10 +212,10 @@ byte
 public final void setDoughnutHoleSize(byte value)
 ```
 
-يحدد حجم الثقب في مخطط مقلوب (يمكن أن يكون بين 0 و 90٪ من حجم منطقة الرسم). قراءة/كتابة byte.
+يحدد حجم الفتحة في مخطط الإسطواني (يمكن أن يكون بين 0 و90 بالمائة من حجم مساحة الرسم). قراءة/كتابة byte.
 
-**المعاملات:**
-| المعامل | النوع | الوصف |
+**المعلمات:**  
+| المعلمة | النوع | الوصف |
 | --- | --- | --- |
 | value | byte |  |
 
@@ -208,7 +224,7 @@ public final void setDoughnutHoleSize(byte value)
 public final byte getOverlap()
 ```
 
-يحدد مقدار تداخل الشرائط والأعمدة في المخططات ثنائية الأبعاد، كنسبة مئوية (من -100٪ إلى 100٪). - -100٪: أقصى مسافة (الشرائط منفصلة تمامًا). - 0٪: توضع الشرائط جنبًا إلى جنب دون تداخل أو مسافة. - 100٪: أقصى تداخل (الشرائط تتداخل تمامًا). هذه الخاصية قراءة/كتابة byte.
+يحدد مقدار تداخل الأعمدة والأشرطة في المخططات ثنائية الأبعاد كنسبة مئوية (من -100% إلى 100%). -100%: أقصى مساحة بين الأعمدة (مفصولة بالكامل). 0%: الأعمدة موضوعة جنبًا إلى جنب دون تداخل أو مساحة. 100%: أقصى تداخل (الأعمدة تتداخل تمامًا). هذه الخاصية قراءة/كتابة byte.
 
 --------------------
 
@@ -220,15 +236,14 @@ public final byte getOverlap()
 >  try {
 >      IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);
 >      IChartSeriesCollection series = chart.getChartData().getSeries();
->      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // ضبط التداخل إلى 55%
+>      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // Set overlap to 55%
 >      pres.getSlides().get_Item(0).getImage(1, 1).save("chart.png", ImageFormat.Png);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
 > ```
 
-
-**الإرجاع:**
+**الإرجاع:**  
 byte
 
 ### setOverlap(byte value) {#setOverlap-byte-}
@@ -236,7 +251,7 @@ byte
 public final void setOverlap(byte value)
 ```
 
-يحدد مقدار تداخل الشرائط والأعمدة في المخططات ثنائية الأبعاد، كنسبة مئوية (من -100٪ إلى 100٪). - -100٪: أقصى مسافة (الشرائط منفصلة تمامًا). - 0٪: توضع الشرائط جنبًا إلى جنب دون تداخل أو مسافة. - 100٪: أقصى تداخل (الشرائط تتداخل تمامًا). هذه الخاصية قراءة/كتابة byte.
+يحدد مقدار تداخل الأعمدة والأشرطة في المخططات ثنائية الأبعاد كنسبة مئوية (من -100% إلى 100%). -100%: أقصى مساحة بين الأعمدة (مفصولة بالكامل). 0%: الأعمدة موضوعة جنبًا إلى جنب دون تداخل أو مساحة. 100%: أقصى تداخل (الأعمدة تتداخل تمامًا). هذه الخاصية قراءة/كتابة byte.
 
 --------------------
 
@@ -248,7 +263,7 @@ public final void setOverlap(byte value)
 >  try {
 >      IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);
 >      IChartSeriesCollection series = chart.getChartData().getSeries();
->      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // ضبط التداخل إلى 55%
+>      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // تعيين التداخل إلى 55%
 >      pres.getSlides().get_Item(0).getImage(1, 1).save("chart.png", ImageFormat.Png);
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -256,8 +271,8 @@ public final void setOverlap(byte value)
 > ```
 
 
-**المعاملات:**
-| المعامل | النوع | الوصف |
+**المعلمات:**  
+| المعلمة | النوع | الوصف |
 | --- | --- | --- |
 | value | byte |  |
 
@@ -266,9 +281,9 @@ public final void setOverlap(byte value)
 public final int getSecondPieSize()
 ```
 
-يحدد حجم الفطيرة أو الشريط الثاني في مخطط الفطيرة-على-فطيرة أو شريط-على-فطيرة، كنسبة مئوية من حجم الفطيرة الأولى (يمكن أن يكون بين 5 و 200٪). قراءة/كتابة int.
+يحدد حجم الفطيرة أو الشريط الثاني في مخطط الفطيرة داخل الفطيرة أو مخطط الشريط داخل الفطيرة كنسبة مئوية من حجم الفطيرة الأولى (يمكن أن يكون بين 5 و200 بالمائة). قراءة/كتابة int.
 
-**الإرجاع:**
+**الإرجاع:**  
 int
 
 ### setSecondPieSize(int value) {#setSecondPieSize-int-}
@@ -276,10 +291,10 @@ int
 public final void setSecondPieSize(int value)
 ```
 
-يحدد حجم الفطيرة أو الشريط الثاني في مخطط الفطيرة-على-فطيرة أو شريط-على-فطيرة، كنسبة مئوية من حجم الفطيرة الأولى (يمكن أن يكون بين 5 و 200٪). قراءة/كتابة int.
+يحدد حجم الفطيرة أو الشريط الثاني في مخطط الفطيرة داخل الفطيرة أو مخطط الشريط داخل الفطيرة كنسبة مئوية من حجم الفطيرة الأولى (يمكن أن يكون بين 5 و200 بالمائة). قراءة/كتابة int.
 
-**المعاملات:**
-| المعامل | النوع | الوصف |
+**المعلمات:**  
+| المعلمة | النوع | الوصف |
 | --- | --- | --- |
 | value | int |  |
 
@@ -290,7 +305,7 @@ public final int getBubbleSizeRepresentation()
 
 يحدد كيفية تمثيل قيم حجم الفقاعات في مخطط الفقاعات. قراءة/كتابة [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
 
-**الإرجاع:**
+**الإرجاع:**  
 int
 
 ### setBubbleSizeRepresentation(int value) {#setBubbleSizeRepresentation-int-}
@@ -300,8 +315,8 @@ public final void setBubbleSizeRepresentation(int value)
 
 يحدد كيفية تمثيل قيم حجم الفقاعات في مخطط الفقاعات. قراءة/كتابة [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
 
-**المعاملات:**
-| المعامل | النوع | الوصف |
+**المعلمات:**  
+| المعلمة | النوع | الوصف |
 | --- | --- | --- |
 | value | int |  |
 
@@ -310,9 +325,9 @@ public final void setBubbleSizeRepresentation(int value)
 public final double getPieSplitPosition()
 ```
 
-يحدد قيمة ستُستخدم لتحديد أي نقاط البيانات تكون في الفطيرة أو الشريط الثاني في مخطط الفطيرة-على-فطيرة أو شريط-على-فطيرة. تُستخدم مع خاصية PieSplitBy. قراءة/كتابة double.
+يحدد قيمة تُستخدم لتحديد أي نقاط البيانات تكون في الفطيرة أو الشريط الثاني في مخطط الفطيرة داخل الفطيرة أو مخطط الشريط داخل الفطيرة. يُستخدم مع الخاصية PieSplitBy. قراءة/كتابة double.
 
-**الإرجاع:**
+**الإرجاع:**  
 double
 
 ### setPieSplitPosition(double value) {#setPieSplitPosition-double-}
@@ -320,10 +335,10 @@ double
 public final void setPieSplitPosition(double value)
 ```
 
-يحدد قيمة ستُستخدم لتحديد أي نقاط البيانات تكون في الفطيرة أو الشريط الثاني في مخطط الفطيرة-على-فطيرة أو شريط-على-فطيرة. تُستخدم مع خاصية PieSplitBy. قراءة/كتابة double.
+يحدد قيمة تُستخدم لتحديد أي نقاط البيانات تكون في الفطيرة أو الشريط الثاني في مخطط الفطيرة داخل الفطيرة أو مخطط الشريط داخل الفطيرة. يُستخدم مع الخاصية PieSplitBy. قراءة/كتابة double.
 
-**المعاملات:**
-| المعامل | النوع | الوصف |
+**المعلمات:**  
+| المعلمة | النوع | الوصف |
 | --- | --- | --- |
 | value | double |  |
 
@@ -332,9 +347,9 @@ public final void setPieSplitPosition(double value)
 public final int getPieSplitBy()
 ```
 
-يحدد طريقة تحديد أي نقاط البيانات تكون في الفطيرة أو الشريط الثاني في مخطط الفطيرة-على-فطيرة أو شريط-على-فطيرة. قراءة/كتابة [PieSplitType](../../com.aspose.slides/piesplittype).
+يحدد كيفية تحديد أي نقاط البيانات تكون في الفطيرة أو الشريط الثاني في مخطط الفطيرة داخل الفطيرة أو مخطط الشريط داخل الفطيرة. قراءة/كتابة [PieSplitType](../../com.aspose.slides/piesplittype).
 
-**الإرجاع:**
+**الإرجاع:**  
 int
 
 ### setPieSplitBy(int value) {#setPieSplitBy-int-}
@@ -342,10 +357,10 @@ int
 public final void setPieSplitBy(int value)
 ```
 
-يحدد طريقة تحديد أي نقاط البيانات تكون في الفطيرة أو الشريط الثاني في مخطط الفطيرة-على-فطيرة أو شريط-على-فطيرة. قراءة/كتابة [PieSplitType](../../com.aspose.slides/piesplittype).
+يحدد كيفية تحديد أي نقاط البيانات تكون في الفطيرة أو الشريط الثاني في مخطط الفطيرة داخل الفطيرة أو مخطط الشريط داخل الفطيرة. قراءة/كتابة [PieSplitType](../../com.aspose.slides/piesplittype).
 
-**المعاملات:**
-| المعامل | النوع | الوصف |
+**المعلمات:**  
+| المعلمة | النوع | الوصف |
 | --- | --- | --- |
 | value | int |  |
 
@@ -356,7 +371,7 @@ public final boolean isColorVaried()
 
 يحدد أن كل علامة بيانات في السلسلة لها لون مختلف. قراءة/كتابة boolean.
 
-**الإرجاع:**
+**الإرجاع:**  
 boolean
 
 ### setColorVaried(boolean value) {#setColorVaried-boolean-}
@@ -366,8 +381,8 @@ public final void setColorVaried(boolean value)
 
 يحدد أن كل علامة بيانات في السلسلة لها لون مختلف. قراءة/كتابة boolean.
 
-**المعاملات:**
-| المعامل | النوع | الوصف |
+**المعلمات:**  
+| المعلمة | النوع | الوصف |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -376,9 +391,9 @@ public final void setColorVaried(boolean value)
 public final boolean hasSeriesLines()
 ```
 
-صحيح إذا كان المخطط يحتوي على خطوط السلسلة. يُطبق على مخططات الأعمدة المكدسة ومخططات OfPie. قراءة/كتابة boolean.
+True إذا كان المخطط يحتوي على خطوط السلسلة. يطبق على مخططات Bar المتراصة ومخططات OfPie. قراءة/كتابة boolean.
 
-**الإرجاع:**
+**الإرجاع:**  
 boolean
 
 ### setSeriesLines(boolean value) {#setSeriesLines-boolean-}
@@ -386,10 +401,10 @@ boolean
 public final void setSeriesLines(boolean value)
 ```
 
-صحيح إذا كان المخطط يحتوي على خطوط السلسلة. يُطبق على مخططات الأعمدة المكدسة ومخططات OfPie. قراءة/كتابة boolean.
+True إذا كان المخطط يحتوي على خطوط السلسلة. يطبق على مخططات Bar المتراصة ومخططات OfPie. قراءة/كتابة boolean.
 
-**المعاملات:**
-| المعامل | النوع | الوصف |
+**المعلمات:**  
+| المعلمة | النوع | الوصف |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -400,7 +415,7 @@ public final IChartLinesFormat getHiLowLinesFormat()
 
 يحدد تنسيق HiLowLines. يُطبق HiLowLines مع أنواع المخططات HiLowClose، OpenHiLowClose، VolumeHiLowClose و VolumeOpenHiLowClose.
 
-**الإرجاع:**
+**الإرجاع:**  
 [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat)
 
 ### getBubbleSizeScale() {#getBubbleSizeScale--}
@@ -408,9 +423,9 @@ public final IChartLinesFormat getHiLowLinesFormat()
 public final int getBubbleSizeScale()
 ```
 
-يحدد عامل المقياس لمخطط الفقاعات (يمكن أن يكون بين 0 و 300٪ من الحجم الافتراضي). قراءة/كتابة int.
+يحدد معامل المقياس لمخطط الفقاعات (يمكن أن يكون بين 0 و300 بالمائة من الحجم الافتراضي). قراءة/كتابة int.
 
-**الإرجاع:**
+**الإرجاع:**  
 int
 
 ### setBubbleSizeScale(int value) {#setBubbleSizeScale-int-}
@@ -418,10 +433,10 @@ int
 public final void setBubbleSizeScale(int value)
 ```
 
-يحدد عامل المقياس لمخطط الفقاعات (يمكن أن يكون بين 0 و 300٪ من الحجم الافتراضي). قراءة/كتابة int.
+يحدد معامل المقياس لمخطط الفقاعات (يمكن أن يكون بين 0 و300 بالمائة من الحجم الافتراضي). قراءة/كتابة int.
 
-**المعاملات:**
-| المعامل | النوع | الوصف |
+**المعلمات:**  
+| المعلمة | النوع | الوصف |
 | --- | --- | --- |
 | value | int |  |
 
@@ -430,9 +445,9 @@ public final void setBubbleSizeScale(int value)
 public final IPieSplitCustomPointCollection getPieSplitCustomPoints()
 ```
 
-معلومات التقسيم المخصص لمخطط الفطيرة-على-فطيرة أو شريط-على-فطيرة مع تقسيم مخصص. يحتوي على نقاط البيانات التي يجب رسمها في الفطيرة أو الشريط الثاني. قراءة فقط [PieSplitCustomPointCollection](../../com.aspose.slides/piesplitcustompointcollection).
+معلومات الانقسام المخصص لمخطط الفطيرة داخل الفطيرة أو مخطط الشريط داخل الفطيرة مع انقسام مخصص. يحتوي على نقاط البيانات التي تُرسم في الفطيرة أو الشريط الثاني. للقراءة فقط [PieSplitCustomPointCollection](../../com.aspose.slides/piesplitcustompointcollection).
 
-**الإرجاع:**
+**الإرجاع:**  
 [IPieSplitCustomPointCollection](../../com.aspose.slides/ipiesplitcustompointcollection)
 
 ### getParent_Immediate() {#getParent-Immediate--}
@@ -440,9 +455,9 @@ public final IPieSplitCustomPointCollection getPieSplitCustomPoints()
 public final IDOMObject getParent_Immediate()
 ```
 
-يرجع كائن Parent_Immediate. قراءة فقط IDOMObject.
+يُرجع كائن Parent_Immediate. للقراءة فقط IDOMObject.
 
-**الإرجاع:**
+**الإرجاع:**  
 com.aspose.slides.IDOMObject
 
 ### getChart() {#getChart--}
@@ -450,9 +465,9 @@ com.aspose.slides.IDOMObject
 public final IChart getChart()
 ```
 
-يرجع المخطط الأب. قراءة فقط [IChart](../../com.aspose.slides/ichart).
+يُرجع المخطط الأب. للقراءة فقط [IChart](../../com.aspose.slides/ichart).
 
-**الإرجاع:**
+**الإرجاع:**  
 [IChart](../../com.aspose.slides/ichart)
 
 ### getSlide() {#getSlide--}
@@ -460,9 +475,9 @@ public final IChart getChart()
 public final IBaseSlide getSlide()
 ```
 
-يرجع شريحة الأبوية لـ FillFormat. قراءة فقط [BaseSlide](../../com.aspose.slides/baseslide).
+يُرجع الشريحة الأب لتنسيق التعبئة. للقراءة فقط [BaseSlide](../../com.aspose.slides/baseslide).
 
-**الإرجاع:**
+**الإرجاع:**  
 [IBaseSlide](../../com.aspose.slides/ibaseslide)
 
 ### getPresentation() {#getPresentation--}
@@ -470,7 +485,7 @@ public final IBaseSlide getSlide()
 public final IPresentation getPresentation()
 ```
 
-يرجع العرض التقديمي الأب لـ FillFormat. قراءة فقط [IPresentation](../../com.aspose.slides/ipresentation).
+يُرجع العرض التقديمي الأب لتنسيق التعبئة. للقراءة فقط [IPresentation](../../com.aspose.slides/ipresentation).
 
-**الإرجاع:**
+**الإرجاع:**  
 [IPresentation](../../com.aspose.slides/ipresentation)

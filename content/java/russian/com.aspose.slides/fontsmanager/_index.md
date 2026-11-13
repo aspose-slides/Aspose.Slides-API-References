@@ -5,10 +5,10 @@ description: Управляет шрифтами в презентации.
 type: docs
 url: /ru/com.aspose.slides/fontsmanager/
 ---
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 
-**Все реализованные интерфейсы:**
+**All Implemented Interfaces:**
 [com.aspose.slides.IFontsManager](../../com.aspose.slides/ifontsmanager)
 ```
 public class FontsManager implements IFontsManager
@@ -54,28 +54,30 @@ public class FontsManager implements IFontsManager
 
 | Метод | Описание |
 | --- | --- |
-| [getFontSubstRuleList()](#getFontSubstRuleList--) | Подстановки шрифтов, используемые при отображении. |
-| [setFontSubstRuleList(IFontSubstRuleCollection value)](#setFontSubstRuleList-com.aspose.slides.IFontSubstRuleCollection-) | Подстановки шрифтов, используемые при отображении. |
-| [getFontFallBackRulesCollection()](#getFontFallBackRulesCollection--) | Представляет пользовательскую коллекцию правил FontFallBack для управления коллекциями шрифтов с правильными подстановками через механизм резервирования. Чтение/запись [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
-| [setFontFallBackRulesCollection(IFontFallBackRulesCollection value)](#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-) | Представляет пользовательскую коллекцию правил FontFallBack для управления коллекциями шрифтов с правильными подстановками через механизм резервирования. Чтение/запись [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
+| [getFontSubstRuleList()](#getFontSubstRuleList--) | Замены шрифтов, используемые при рендеринге. |
+| [setFontSubstRuleList(IFontSubstRuleCollection value)](#setFontSubstRuleList-com.aspose.slides.IFontSubstRuleCollection-) | Замены шрифтов, используемые при рендеринге. |
+| [getFontFallBackRulesCollection()](#getFontFallBackRulesCollection--) | Представляет коллекцию правил FontFallBack пользователя для управления наборами шрифтов для корректных замен с помощью функции fallback. Чтение/запись [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
+| [setFontFallBackRulesCollection(IFontFallBackRulesCollection value)](#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-) | Представляет коллекцию правил FontFallBack пользователя для управления наборами шрифтов для корректных замен с помощью функции fallback. Чтение/запись [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
 | [getFonts()](#getFonts--) | Возвращает шрифты, используемые в презентации |
-| [getSubstitutions()](#getSubstitutions--) | Получает информацию о шрифтах, которые будут заменены при отображении презентации. |
-| [getSubstitutions(int[] slides)](#getSubstitutions-int---) | Получает информацию о шрифтах, которые будут заменены при отображении указанных слайдов. |
+| [getSubstitutions()](#getSubstitutions--) | Получает информацию о шрифтах, которые будут заменены при рендеринге презентации. |
+| [getSubstitutions(int[] slides)](#getSubstitutions-int---) | Получает информацию о шрифтах, которые будут заменены при рендеринге указанных слайдов. |
+| [getPreferRegisteredFontsOverEmbedded()](#getPreferRegisteredFontsOverEmbedded--) | Указывает, следует ли отдавать предпочтение зарегистрированным шрифтам перед встроенными шрифтами с тем же именем и стилем. |
+| [setPreferRegisteredFontsOverEmbedded(boolean value)](#setPreferRegisteredFontsOverEmbedded-boolean-) | Указывает, следует ли отдавать предпочтение зарегистрированным шрифтам перед встроенными шрифтами с тем же именем и стилем. |
 | [getEmbeddedFonts()](#getEmbeddedFonts--) | Возвращает встроенные в презентацию шрифты |
 | [removeEmbeddedFont(IFontData fontData)](#removeEmbeddedFont-com.aspose.slides.IFontData-) | Удаляет встроенный шрифт |
 | [addEmbeddedFont(IFontData fontData, int embedFontRule)](#addEmbeddedFont-com.aspose.slides.IFontData-int-) | Добавляет встроенный шрифт |
-| [addEmbeddedFont(byte[] fontData, int embedFontRule)](#addEmbeddedFont-byte---int-) | Добавляет встроенный шрифт |
+| [addEmbeddedFont(byte[] fontData, int embedFontRule)](#addEmbeddedFont-byte---int-) | Adds the embedded font |
 | [replaceFont(IFontData sourceFont, IFontData destFont)](#replaceFont-com.aspose.slides.IFontData-com.aspose.slides.IFontData-) | Заменить шрифт в презентации |
 | [replaceFont(IFontSubstRule substRule)](#replaceFont-com.aspose.slides.IFontSubstRule-) | Заменить шрифт в презентации, используя информацию, предоставленную в [FontSubstRule](../../com.aspose.slides/fontsubstrule) |
 | [replaceFont(IFontSubstRuleCollection substRules)](#replaceFont-com.aspose.slides.IFontSubstRuleCollection-) | Заменить шрифт в презентации, используя информацию, предоставленную в коллекции [FontSubstRule](../../com.aspose.slides/fontsubstrule) |
 | [getFontBytes(IFontData fontData, int fontStyle)](#getFontBytes-com.aspose.slides.IFontData-int-) | Получает массив байтов, представляющий данные шрифта для указанного стиля шрифта и данных шрифта. |
-| [getFontEmbeddingLevel(byte[] fontBytes, String fontName)](#getFontEmbeddingLevel-byte---java.lang.String-) | Определяет уровень внедрения шрифта из заданного массива байтов и имени шрифта. |
+| [getFontEmbeddingLevel(byte[] fontBytes, String fontName)](#getFontEmbeddingLevel-byte---java.lang.String-) | Определяет уровень встраивания шрифта из заданного массива байтов и имени шрифта. |
 ### getFontSubstRuleList() {#getFontSubstRuleList--}
 ```
 public final IFontSubstRuleCollection getFontSubstRuleList()
 ```
 
-Подстановки шрифтов, используемые при отображении. Чтение/запись [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
+Замены шрифтов, используемые при рендеринге. Чтение/запись [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
 
 **Возвращаемое значение:**
 [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection)
@@ -84,7 +86,7 @@ public final IFontSubstRuleCollection getFontSubstRuleList()
 public final void setFontSubstRuleList(IFontSubstRuleCollection value)
 ```
 
-Подстановки шрифтов, используемые при отображении. Чтение/запись [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
+Замены шрифтов, используемые при рендеринге. Чтение/запись [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
 
 **Параметры:**
 | Параметр | Тип | Описание |
@@ -96,7 +98,7 @@ public final void setFontSubstRuleList(IFontSubstRuleCollection value)
 public final IFontFallBackRulesCollection getFontFallBackRulesCollection()
 ```
 
-Представляет пользовательскую коллекцию правил FontFallBack для управления коллекциями шрифтов с правильными подстановками через механизм резервирования. Чтение/запись [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
+Представляет коллекцию правил FontFallBack пользователя для управления наборами шрифтов для корректных замен с помощью функции fallback. Чтение/запись [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
 
 --------------------
 
@@ -108,7 +110,7 @@ public final IFontFallBackRulesCollection getFontFallBackRulesCollection()
 >      IFontFallBackRulesCollection rulesList = pres.getFontsManager().getFontFallBackRulesCollection();
 >      // добавление правил в коллекцию
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
->      // или 
+>      // или
 >      // инициализация нового экземпляра коллекции правил
 >      IFontFallBackRulesCollection rulesList = new FontFallBackRulesCollection();
 >      // добавление правил в коллекцию
@@ -129,7 +131,7 @@ public final IFontFallBackRulesCollection getFontFallBackRulesCollection()
 public final void setFontFallBackRulesCollection(IFontFallBackRulesCollection value)
 ```
 
-Представляет пользовательскую коллекцию правил FontFallBack для управления коллекциями шрифтов с правильными подстановками через механизм резервирования. Чтение/запись [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
+Представляет коллекцию правил FontFallBack пользователя для управления наборами шрифтов для корректных замен с помощью функции fallback. Чтение/запись [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
 
 --------------------
 
@@ -141,7 +143,7 @@ public final void setFontFallBackRulesCollection(IFontFallBackRulesCollection va
 >      IFontFallBackRulesCollection rulesList = pres.getFontsManager().getFontFallBackRulesCollection();
 >      // добавление правил в коллекцию
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
->      // или 
+>      // или
 >      // инициализация нового экземпляра коллекции правил
 >      IFontFallBackRulesCollection rulesList = new FontFallBackRulesCollection();
 >      // добавление правил в коллекцию
@@ -153,7 +155,6 @@ public final void setFontFallBackRulesCollection(IFontFallBackRulesCollection va
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-
 
 **Параметры:**
 | Параметр | Тип | Описание |
@@ -168,13 +169,13 @@ public final IFontData[] getFonts()
 Возвращает шрифты, используемые в презентации
 
 **Возвращаемое значение:**
-com.aspose.slides.IFontData[] - Массив шрифтов
+com.aspose.slides.IFontData[] - An array of fonts
 ### getSubstitutions() {#getSubstitutions--}
 ```
 public final System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo> getSubstitutions()
 ```
 
-Получает информацию о шрифтах, которые будут заменены при отображении презентации.
+Получает информацию о шрифтах, которые будут заменены при рендеринге презентации.
 
 --------------------
 
@@ -191,13 +192,13 @@ public final System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo>
 > ```
 
 **Возвращаемое значение:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - Коллекция всех подстановок шрифтов [FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo).
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - Collection of all fonts substitution [FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo).
 ### getSubstitutions(int[] slides) {#getSubstitutions-int---}
 ```
 public final System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo> getSubstitutions(int[] slides)
 ```
 
-Получает информацию о шрифтах, которые будут заменены при отображении указанных слайдов.
+Получает информацию о шрифтах, которые будут заменены при рендеринге указанных слайдов.
 
 --------------------
 
@@ -217,16 +218,69 @@ public final System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo>
 **Параметры:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| slides | int[] | Массив индексов слайдов, для которых необходимо получить информацию о подстановке шрифтов, начиная с 1. |
+| slides | int[] | Массив индексов слайдов, для которых нужно получить информацию о замене шрифтов, начиная с 1. |
 
 **Возвращаемое значение:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - Коллекция всех подстановок шрифтов ([FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo)) для указанных слайдов.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - A collection of all font substitutions ([FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo)) for the specified slides.
+### getPreferRegisteredFontsOverEmbedded() {#getPreferRegisteredFontsOverEmbedded--}
+```
+public final boolean getPreferRegisteredFontsOverEmbedded()
+```
+
+Указывает, следует ли отдавать предпочтение зарегистрированным шрифтам перед встроенными шрифтами с тем же именем и стилем. При включении соответствующие встроенные шрифты временно заменяются на зарегистрированные шрифты во время экспорта.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("SomePresentation.pptx");
+>  try {
+>      pres.getFontsManager().setPreferRegisteredFontsOverEmbedded(true);
+>      pres.save("Presentation-out.pdf", SaveFormat.Pdf);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+По умолчанию **false**.
+
+**Возвращаемое значение:**
+boolean
+### setPreferRegisteredFontsOverEmbedded(boolean value) {#setPreferRegisteredFontsOverEmbedded-boolean-}
+```
+public final void setPreferRegisteredFontsOverEmbedded(boolean value)
+```
+
+Указывает, следует ли отдавать предпочтение зарегистрированным шрифтам перед встроенными шрифтами с тем же именем и стилем. При включении соответствующие встроенные шрифты временно заменяются на зарегистрированные шрифты во время экспорта.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("SomePresentation.pptx");
+>  try {
+>      pres.getFontsManager().setPreferRegisteredFontsOverEmbedded(true);
+>      pres.save("Presentation-out.pdf", SaveFormat.Pdf);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+По умолчанию **false**.
+
+**Параметры:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| value | boolean |  |
+
 ### getEmbeddedFonts() {#getEmbeddedFonts--}
 ```
 public final IFontData[] getEmbeddedFonts()
 ```
 
-Возвращает шрифты, встроенные в презентацию
+Возвращает встроенные в презентацию шрифты
 
 **Возвращаемое значение:**
 com.aspose.slides.IFontData[]
@@ -247,7 +301,7 @@ public final void removeEmbeddedFont(IFontData fontData)
 public final void addEmbeddedFont(IFontData fontData, int embedFontRule)
 ```
 
-Добавляет встроенный шрифт
+Adds the embedded font
 
 **Параметры:**
 | Параметр | Тип | Описание |
@@ -260,7 +314,7 @@ public final void addEmbeddedFont(IFontData fontData, int embedFontRule)
 public final void addEmbeddedFont(byte[] fontData, int embedFontRule)
 ```
 
-Добавляет встроенный шрифт
+Adds the embedded font
 
 **Параметры:**
 | Параметр | Тип | Описание |
@@ -279,7 +333,7 @@ public final void replaceFont(IFontData sourceFont, IFontData destFont)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sourceFont | [IFontData](../../com.aspose.slides/ifontdata) | Исходный шрифт |
-| destFont | [IFontData](../../com.aspose.slides/ifontdata) | Шрифт назначения |
+| destFont | [IFontData](../../com.aspose.slides/ifontdata) | Целевой шрифт |
 
 ### replaceFont(IFontSubstRule substRule) {#replaceFont-com.aspose.slides.IFontSubstRule-}
 ```
@@ -291,7 +345,7 @@ public final void replaceFont(IFontSubstRule substRule)
 **Параметры:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| substRule | [IFontSubstRule](../../com.aspose.slides/ifontsubstrule) | Информация о подстановке шрифта |
+| substRule | [IFontSubstRule](../../com.aspose.slides/ifontsubstrule) | Информация о замене шрифта |
 
 ### replaceFont(IFontSubstRuleCollection substRules) {#replaceFont-com.aspose.slides.IFontSubstRuleCollection-}
 ```
@@ -303,7 +357,7 @@ public final void replaceFont(IFontSubstRuleCollection substRules)
 **Параметры:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| substRules | [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection) | Коллекция правил подстановки шрифтов |
+| substRules | [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection) | Коллекция правил замены шрифтов |
 
 ### getFontBytes(IFontData fontData, int fontStyle) {#getFontBytes-com.aspose.slides.IFontData-int-}
 ```
@@ -330,16 +384,16 @@ public final byte[] getFontBytes(IFontData fontData, int fontStyle)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fontData | [IFontData](../../com.aspose.slides/ifontdata) | Объект данных шрифта, содержащий информацию о шрифте [IFontData](../../com.aspose.slides/ifontdata). |
-| fontStyle | int | Стиль шрифта, для которого необходимо получить данные [FontStyleType](../../com.aspose.slides/fontstyletype). |
+| fontStyle | int | Стиль шрифта, для которого требуется получить данные [FontStyleType](../../com.aspose.slides/fontstyletype). |
 
 **Возвращаемое значение:**
-byte[] - Массив байтов, содержащий данные шрифта для указанного стиля. Если данные шрифта или стиль не найдены, возвращает null.
+byte[] — массив байтов, содержащий данные шрифта для указанного стиля шрифта. Если данные шрифта или стиль не найдены, возвращает null.
 ### getFontEmbeddingLevel(byte[] fontBytes, String fontName) {#getFontEmbeddingLevel-byte---java.lang.String-}
 ```
 public final int getFontEmbeddingLevel(byte[] fontBytes, String fontName)
 ```
 
-Определяет уровень внедрения шрифта из заданного массива байтов и имени шрифта.
+Определяет уровень встраивания шрифта из заданного массива байтов и имени шрифта.
 
 --------------------
 
@@ -350,7 +404,7 @@ public final int getFontEmbeddingLevel(byte[] fontBytes, String fontName)
 >      IFontData[] fontDatas = pres.getFontsManager().getFonts();
 >      // Получить массив байтов, представляющий обычный стиль первого шрифта в презентации
 >      byte[] bytes = pres.getFontsManager().getFontBytes(fontDatas[0], FontStyle.Regular);
->      // Определить уровень внедрения шрифта
+>      // Определить уровень встраивания шрифта
 >      int embeddingLevel = pres.getFontsManager().getFontEmbeddingLevel(bytes, fontDatas[0].getFontName());
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -364,4 +418,4 @@ public final int getFontEmbeddingLevel(byte[] fontBytes, String fontName)
 | fontName | java.lang.String | Имя шрифта. |
 
 **Возвращаемое значение:**
-int - Уровень внедрения указанного шрифта.
+int — уровень встраивания указанного шрифта.

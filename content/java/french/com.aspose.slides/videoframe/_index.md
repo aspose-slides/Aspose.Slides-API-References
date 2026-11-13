@@ -19,14 +19,16 @@ Représente un clip vidéo sur une diapositive.
 
 | Méthode | Description |
 | --- | --- |
-| [getRewindVideo()](#getRewindVideo--) | Détermine si une vidéo est automatiquement rembobinée au début dès que le film a fini de jouer. |
-| [setRewindVideo(boolean value)](#setRewindVideo-boolean-) | Détermine si une vidéo est automatiquement rembobinée au début dès que le film a fini de jouer. |
+| [getRewindVideo()](#getRewindVideo--) | Détermine si une vidéo est automatiquement rembobinée au début dès que le film a terminé de jouer. |
+| [setRewindVideo(boolean value)](#setRewindVideo-boolean-) | Détermine si une vidéo est automatiquement rembobinée au début dès que le film a terminé de jouer. |
 | [getPlayLoopMode()](#getPlayLoopMode--) | Détermine si une vidéo est en boucle. |
 | [setPlayLoopMode(boolean value)](#setPlayLoopMode-boolean-) | Détermine si une vidéo est en boucle. |
 | [getHideAtShowing()](#getHideAtShowing--) | Détermine si un VideoFrame est masqué. |
 | [setHideAtShowing(boolean value)](#setHideAtShowing-boolean-) | Détermine si un VideoFrame est masqué. |
 | [getVolume()](#getVolume--) | Renvoie ou définit le volume audio. |
 | [setVolume(int value)](#setVolume-int-) | Renvoie ou définit le volume audio. |
+| [getVolumeValue()](#getVolumeValue--) | Renvoie ou définit le volume vidéo exact en pourcentage. |
+| [setVolumeValue(float value)](#setVolumeValue-float-) | Renvoie ou définit le volume vidéo exact en pourcentage. |
 | [getPlayMode()](#getPlayMode--) | Renvoie ou définit le mode de lecture vidéo. |
 | [setPlayMode(int value)](#setPlayMode-int-) | Renvoie ou définit le mode de lecture vidéo. |
 | [getFullScreenMode()](#getFullScreenMode--) | Détermine si une vidéo est affichée en mode plein écran. |
@@ -40,23 +42,23 @@ Représente un clip vidéo sur une diapositive.
 | [getTrimFromEnd()](#getTrimFromEnd--) | Fin du rognage [ms] |
 | [setTrimFromEnd(float value)](#setTrimFromEnd-float-) | Fin du rognage [ms] |
 | [getCaptionTracks()](#getCaptionTracks--) | Obtient la collection de sous-titres fermés associés au cadre vidéo. |
+
 ### getRewindVideo() {#getRewindVideo--}
 ```
 public final boolean getRewindVideo()
 ```
 
-
-Détermine si une vidéo est automatiquement rembobinée au début dès que le film a fini de jouer. Lecture/écriture booléen.
+Détermine si une vidéo est automatiquement rembobinée au début dès que le film a terminé de jouer. Lecture/écriture boolean.
 
 **Renvoie :**
 boolean
+
 ### setRewindVideo(boolean value) {#setRewindVideo-boolean-}
 ```
 public final void setRewindVideo(boolean value)
 ```
 
-
-Détermine si une vidéo est automatiquement rembobinée au début dès que le film a fini de jouer. Lecture/écriture booléen.
+Détermine si une vidéo est automatiquement rembobinée au début dès que le film a terminé de jouer. Lecture/écriture boolean.
 
 **Paramètres :**
 | Paramètre | Type | Description |
@@ -68,18 +70,17 @@ Détermine si une vidéo est automatiquement rembobinée au début dès que le f
 public final boolean getPlayLoopMode()
 ```
 
-
-Détermine si une vidéo est en boucle. Lecture/écriture booléen.
+Détermine si une vidéo est en boucle. Lecture/écriture boolean.
 
 **Renvoie :**
 boolean
+
 ### setPlayLoopMode(boolean value) {#setPlayLoopMode-boolean-}
 ```
 public final void setPlayLoopMode(boolean value)
 ```
 
-
-Détermine si une vidéo est en boucle. Lecture/écriture booléen.
+Détermine si une vidéo est en boucle. Lecture/écriture boolean.
 
 **Paramètres :**
 | Paramètre | Type | Description |
@@ -91,18 +92,17 @@ Détermine si une vidéo est en boucle. Lecture/écriture booléen.
 public final boolean getHideAtShowing()
 ```
 
-
-Détermine si un VideoFrame est masqué. Lecture/écriture booléen.
+Détermine si un VideoFrame est masqué. Lecture/écriture boolean.
 
 **Renvoie :**
 boolean
+
 ### setHideAtShowing(boolean value) {#setHideAtShowing-boolean-}
 ```
 public final void setHideAtShowing(boolean value)
 ```
 
-
-Détermine si un VideoFrame est masqué. Lecture/écriture booléen.
+Détermine si un VideoFrame est masqué. Lecture/écriture boolean.
 
 **Paramètres :**
 | Paramètre | Type | Description |
@@ -114,16 +114,15 @@ Détermine si un VideoFrame est masqué. Lecture/écriture booléen.
 public final int getVolume()
 ```
 
-
 Renvoie ou définit le volume audio. Lecture/écriture [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
 
 **Renvoie :**
 int
+
 ### setVolume(int value) {#setVolume-int-}
 ```
 public final void setVolume(int value)
 ```
-
 
 Renvoie ou définit le volume audio. Lecture/écriture [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
 
@@ -132,21 +131,78 @@ Renvoie ou définit le volume audio. Lecture/écriture [AudioVolumeMode](../../c
 | --- | --- | --- |
 | value | int |  |
 
+### getVolumeValue() {#getVolumeValue--}
+```
+public final float getVolumeValue()
+```
+
+Renvoie ou définit le volume vidéo exact en pourcentage. La valeur est exprimée en pourcentage de 0 à 100. Utilisez cette propriété pour lire ou définir des valeurs de volume plus précises que les niveaux prédéfinis disponibles via la propriété \#getVolume.getVolume/\#setVolume(int).setVolume(int). Lecture/écriture  float .
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video.pptx");
+>  try {
+>      IVideoFrame videoFrame = (IVideoFrame)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // Lire le volume exact actuel et le définir à 75,5 %.
+>      float currentVolume = videoFrame.getVolumeValue();
+>      System.out.println(currentVolume);
+>      videoFrame.setVolumeValue(75.5f);
+>      pres.save("video_with_volume.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Renvoie :**
+float
+
+### setVolumeValue(float value) {#setVolumeValue-float-}
+```
+public final void setVolumeValue(float value)
+```
+
+Renvoie ou définit le volume vidéo exact en pourcentage. La valeur est exprimée en pourcentage de 0 à 100. Utilisez cette propriété pour lire ou définir des valeurs de volume plus précises que les niveaux prédéfinis disponibles via la propriété \#getVolume.getVolume/\#setVolume(int).setVolume(int). Lecture/écriture  float .
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video.pptx");
+>  try {
+>      IVideoFrame videoFrame = (IVideoFrame)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // Lire le volume exact actuel et le définir à 75,5 %.
+>      float currentVolume = videoFrame.getVolumeValue();
+>      System.out.println(currentVolume);
+>      videoFrame.setVolumeValue(75.5f);
+>      pres.save("video_with_volume.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Paramètres :**
+| Paramètre | Type | Description |
+| --- | --- | --- |
+| value | float |  |
+
 ### getPlayMode() {#getPlayMode--}
 ```
 public final int getPlayMode()
 ```
 
-
 Renvoie ou définit le mode de lecture vidéo. Lecture/écriture [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
 
 **Renvoie :**
 int
+
 ### setPlayMode(int value) {#setPlayMode-int-}
 ```
 public final void setPlayMode(int value)
 ```
-
 
 Renvoie ou définit le mode de lecture vidéo. Lecture/écriture [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
 
@@ -160,18 +216,17 @@ Renvoie ou définit le mode de lecture vidéo. Lecture/écriture [VideoPlayModeP
 public final boolean getFullScreenMode()
 ```
 
-
-Détermine si une vidéo est affichée en mode plein écran. Lecture/écriture booléen.
+Détermine si une vidéo est affichée en mode plein écran. Lecture/écriture boolean.
 
 **Renvoie :**
 boolean
+
 ### setFullScreenMode(boolean value) {#setFullScreenMode-boolean-}
 ```
 public final void setFullScreenMode(boolean value)
 ```
 
-
-Détermine si une vidéo est affichée en mode plein écran. Lecture/écriture booléen.
+Détermine si une vidéo est affichée en mode plein écran. Lecture/écriture boolean.
 
 **Paramètres :**
 | Paramètre | Type | Description |
@@ -183,16 +238,15 @@ Détermine si une vidéo est affichée en mode plein écran. Lecture/écriture b
 public final String getLinkPathLong()
 ```
 
-
 Renvoie ou définit le nom d'un fichier vidéo lié à un VideoFrame. Lecture/écriture String.
 
 **Renvoie :**
 java.lang.String
+
 ### setLinkPathLong(String value) {#setLinkPathLong-java.lang.String-}
 ```
 public final void setLinkPathLong(String value)
 ```
-
 
 Renvoie ou définit le nom d'un fichier vidéo lié à un VideoFrame. Lecture/écriture String.
 
@@ -206,16 +260,15 @@ Renvoie ou définit le nom d'un fichier vidéo lié à un VideoFrame. Lecture/é
 public final IVideo getEmbeddedVideo()
 ```
 
-
 Renvoie ou définit l'objet vidéo embarqué. Lecture/écriture [IVideo](../../com.aspose.slides/ivideo).
 
 **Renvoie :**
 [IVideo](../../com.aspose.slides/ivideo)
+
 ### setEmbeddedVideo(IVideo value) {#setEmbeddedVideo-com.aspose.slides.IVideo-}
 ```
 public final void setEmbeddedVideo(IVideo value)
 ```
-
 
 Renvoie ou définit l'objet vidéo embarqué. Lecture/écriture [IVideo](../../com.aspose.slides/ivideo).
 
@@ -229,7 +282,6 @@ Renvoie ou définit l'objet vidéo embarqué. Lecture/écriture [IVideo](../../c
 public final float getTrimFromStart()
 ```
 
-
 Début du rognage [ms]
 
 --------------------
@@ -242,10 +294,8 @@ Début du rognage [ms]
 >      ISlide slide = pres.getSlides().get_Item(0);
 >      IVideo video = pres.getVideos().addVideo(Files.readAllBytes(Paths.get("video.mp4")));
 >      IVideoFrame videoFrame = slide.getShapes().addVideoFrame(0, 0, 100, 100, video);
->      //définir le temps de début du rognage 1 sec
->      videoFrame.setTrimFromStart(1000f);
->      //définir le temps de fin du rognage 2 sec
->      videoFrame.setTrimFromEnd(2000f);
+>      //définir le temps de début de rognage 1sec
+>      //définir le temps de fin de rognage 2sec
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
@@ -253,11 +303,11 @@ Début du rognage [ms]
 
 **Renvoie :**
 float
+
 ### setTrimFromStart(float value) {#setTrimFromStart-float-}
 ```
 public final void setTrimFromStart(float value)
 ```
-
 
 Début du rognage [ms]
 
@@ -271,15 +321,14 @@ Début du rognage [ms]
 >      ISlide slide = pres.getSlides().get_Item(0);
 >      IVideo video = pres.getVideos().addVideo(Files.readAllBytes(Paths.get("video.mp4")));
 >      IVideoFrame videoFrame = slide.getShapes().addVideoFrame(0, 0, 100, 100, video);
->      //définir le temps de début du rognage 1 sec
+>      //définir le temps de début de rognage 1sec
 >      videoFrame.setTrimFromStart(1000f);
->      //définir le temps de fin du rognage 2 sec
+>      //définir le temps de fin de rognage 2sec
 >      videoFrame.setTrimFromEnd(2000f);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-
 
 **Paramètres :**
 | Paramètre | Type | Description |
@@ -291,16 +340,15 @@ Début du rognage [ms]
 public final float getTrimFromEnd()
 ```
 
-
 Fin du rognage [ms]
 
 **Renvoie :**
 float
+
 ### setTrimFromEnd(float value) {#setTrimFromEnd-float-}
 ```
 public final void setTrimFromEnd(float value)
 ```
-
 
 Fin du rognage [ms]
 
@@ -313,7 +361,6 @@ Fin du rognage [ms]
 ```
 public final ICaptionsCollection getCaptionTracks()
 ```
-
 
 Obtient la collection de sous-titres fermés associés au cadre vidéo. Cette propriété est en lecture seule et renvoie un [ICaptionsCollection](../../com.aspose.slides/icaptionscollection) contenant toutes les pistes de sous-titres.
 
@@ -341,7 +388,6 @@ Obtient la collection de sous-titres fermés associés au cadre vidéo. Cette pr
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-
 
 **Renvoie :**
 [ICaptionsCollection](../../com.aspose.slides/icaptionscollection)

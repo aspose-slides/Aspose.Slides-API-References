@@ -1,7 +1,7 @@
 ---
 title: IPresentation
 second_title: Referensi API Aspose.Slides untuk Java
-description: dokumen presentasi
+description: Dokumen presentasi
 type: docs
 url: /id/com.aspose.slides/ipresentation/
 ---
@@ -16,19 +16,19 @@ Dokumen presentasi
 
 | Metode | Deskripsi |
 | --- | --- |
-| [getCurrentDateTime()](#getCurrentDateTime--) | Mengembalikan atau mengatur tanggal dan waktu yang akan menggantikan konten bidang datetime. |
-| [setCurrentDateTime(Date value)](#setCurrentDateTime-java.util.Date-) | Mengembalikan atau mengatur tanggal dan waktu yang akan menggantikan konten bidang datetime. |
-| [getHeaderFooterManager()](#getHeaderFooterManager--) | Mengembalikan manajer HeaderFooter dari presentasi. |
-| [getProtectionManager()](#getProtectionManager--) | Mengambil manajer izin untuk presentasi ini. |
+| [getCurrentDateTime()](#getCurrentDateTime--) | Mengembalikan atau mengatur tanggal dan waktu yang akan menggantikan konten bidang tanggal-waktu. |
+| [setCurrentDateTime(Date value)](#setCurrentDateTime-java.util.Date-) | Mengembalikan atau mengatur tanggal dan waktu yang akan menggantikan konten bidang tanggal-waktu. |
+| [getHeaderFooterManager()](#getHeaderFooterManager--) | Mengembalikan pengelola HeaderFooter dari presentasi. |
+| [getProtectionManager()](#getProtectionManager--) | Mendapatkan pengelola izin untuk presentasi ini. |
 | [getSlides()](#getSlides--) | Mengembalikan daftar semua slide yang didefinisikan dalam presentasi. |
 | [getSections()](#getSections--) | Mengembalikan daftar semua bagian slide yang didefinisikan dalam presentasi. |
 | [getSlideSize()](#getSlideSize--) | Mengembalikan objek ukuran slide. |
 | [getNotesSize()](#getNotesSize--) | Mengembalikan objek ukuran slide catatan. |
 | [getLayoutSlides()](#getLayoutSlides--) | Mengembalikan daftar semua slide tata letak yang didefinisikan dalam presentasi. |
 | [getMasters()](#getMasters--) | Mengembalikan daftar semua slide master yang didefinisikan dalam presentasi. |
-| [getMasterNotesSlideManager()](#getMasterNotesSlideManager--) | Mengembalikan manajer master catatan. |
-| [getMasterHandoutSlideManager()](#getMasterHandoutSlideManager--) | Mengembalikan manajer master handout. |
-| [getFontsManager()](#getFontsManager--) | Mengembalikan manajer font. |
+| [getMasterNotesSlideManager()](#getMasterNotesSlideManager--) | Mengembalikan pengelola master catatan. |
+| [getMasterHandoutSlideManager()](#getMasterHandoutSlideManager--) | Mengembalikan pengelola master handout. |
+| [getFontsManager()](#getFontsManager--) | Mengembalikan pengelola font. |
 | [getDefaultTextStyle()](#getDefaultTextStyle--) | Mengembalikan gaya teks default untuk bentuk. |
 | [getCommentAuthors()](#getCommentAuthors--) | Mengembalikan koleksi penulis komentar. |
 | [getDocumentProperties()](#getDocumentProperties--) | Mengembalikan objek DocumentProperties yang berisi properti dokumen standar dan khusus. |
@@ -36,12 +36,12 @@ Dokumen presentasi
 | [getAudios()](#getAudios--) | Mengembalikan koleksi semua file audio tersemat dalam presentasi. |
 | [getVideos()](#getVideos--) | Mengembalikan koleksi semua file video tersemat dalam presentasi. |
 | [getCustomData()](#getCustomData--) | Mengembalikan data khusus presentasi. |
-| [getVbaProject()](#getVbaProject--) | Mengambil proyek VBA dengan makro presentasi. |
-| [setVbaProject(IVbaProject value)](#setVbaProject-com.aspose.slides.IVbaProject-) | Mengambil proyek VBA dengan makro presentasi. |
-| [getSourceFormat()](#getSourceFormat--) | Mengembalikan informasi tentang format mana presentasi dimuat. |
+| [getVbaProject()](#getVbaProject--) | Mendapatkan proyek VBA dengan makro presentasi. |
+| [setVbaProject(IVbaProject value)](#setVbaProject-com.aspose.slides.IVbaProject-) | Mendapatkan proyek VBA dengan makro presentasi. |
+| [getSourceFormat()](#getSourceFormat--) | Mengembalikan informasi tentang format asal presentasi dimuat. |
 | [getMasterTheme()](#getMasterTheme--) | Mengembalikan tema master presentasi. |
-| [getHyperlinkQueries()](#getHyperlinkQueries--) | Memberikan akses mudah ke semua hyperlink yang terdapat dalam semua slide presentasi (tidak termasuk master, tata letak, slide catatan). |
-| [getViewProperties()](#getViewProperties--) | Mengambil properti tampilan seluruh presentasi. |
+| [getHyperlinkQueries()](#getHyperlinkQueries--) | Menyediakan akses mudah ke semua hyperlink yang terdapat dalam semua slide presentasi (tidak termasuk master, tata letak, slide catatan). |
+| [getViewProperties()](#getViewProperties--) | Mendapatkan properti tampilan seluruh presentasi. |
 | [getFirstSlideNumber()](#getFirstSlideNumber--) | Mewakili nomor slide pertama dalam presentasi. |
 | [setFirstSlideNumber(int value)](#setFirstSlideNumber-int-) | Mewakili nomor slide pertama dalam presentasi. |
 | [getAllCustomXmlParts()](#getAllCustomXmlParts--) | Mengembalikan semua bagian data khusus dalam presentasi. |
@@ -49,33 +49,35 @@ Dokumen presentasi
 | [getSensitivityLabels()](#getSensitivityLabels--) | Mengembalikan koleksi label sensitivitas yang diterapkan pada dokumen presentasi. |
 | [save(String fname, int format)](#save-java.lang.String-int-) | Menyimpan semua slide presentasi ke file dengan format yang ditentukan. |
 | [save(OutputStream stream, int format)](#save-java.io.OutputStream-int-) | Menyimpan semua slide presentasi ke aliran dalam format yang ditentukan. |
-| [save(String fname, int format, ISaveOptions options)](#save-java.lang.String-int-com.aspose.slides.ISaveOptions-) | Menyimpan semua slide presentasi ke file dengan format yang ditentukan dan dengan opsi tambahan. |
-| [save(OutputStream stream, int format, ISaveOptions options)](#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-) | Menyimpan semua slide presentasi ke aliran dalam format yang ditentukan dan dengan opsi tambahan. |
-| [save(String fname, int[] slides, int format)](#save-java.lang.String-int---int-) | Menyimpan slide yang ditentukan dari presentasi ke file dengan format yang ditentukan. |
-| [save(String fname, int[] slides, int format, ISaveOptions options)](#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-) | Menyimpan slide yang ditentukan dari presentasi ke file dengan format yang ditentukan. |
-| [save(OutputStream stream, int[] slides, int format)](#save-java.io.OutputStream-int---int-) | Menyimpan slide yang ditentukan dari presentasi ke aliran dalam format yang ditentukan. |
-| [save(OutputStream stream, int[] slides, int format, ISaveOptions options)](#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-) | Menyimpan slide yang ditentukan dari presentasi ke aliran dalam format yang ditentukan. |
+| [save(String fname, int format, ISaveOptions options)](#save-java.lang.String-int-com.aspose.slides.ISaveOptions-) | Menyimpan semua slide presentasi ke file dengan format yang ditentukan dan opsi tambahan. |
+| [save(OutputStream stream, int format, ISaveOptions options)](#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-) | Menyimpan semua slide presentasi ke aliran dalam format yang ditentukan dan opsi tambahan. |
+| [save(String fname, int[] slides, int format)](#save-java.lang.String-int---int-) | Menyimpan slide tertentu presentasi ke file dengan format yang ditentukan. |
+| [save(String fname, int[] slides, int format, ISaveOptions options)](#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-) | Menyimpan slide tertentu presentasi ke file dengan format yang ditentukan. |
+| [save(OutputStream stream, int[] slides, int format)](#save-java.io.OutputStream-int---int-) | Menyimpan slide tertentu presentasi ke aliran dalam format yang ditentukan. |
+| [save(OutputStream stream, int[] slides, int format, ISaveOptions options)](#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-) | Menyimpan slide tertentu presentasi ke aliran dalam format yang ditentukan. |
 | [save(IXamlOptions options)](#save-com.aspose.slides.IXamlOptions-) | Menyimpan semua slide presentasi ke sekumpulan file yang mewakili markup XAML. |
-| [getImages(IRenderingOptions options)](#getImages-com.aspose.slides.IRenderingOptions-) | Mengembalikan objek Gambar Thumbnail untuk semua slide presentasi. |
-| [getImages(IRenderingOptions options, int[] slides)](#getImages-com.aspose.slides.IRenderingOptions-int---) | Mengembalikan objek IImage Thumbnail untuk slide yang ditentukan dari presentasi. |
-| [getImages(IRenderingOptions options, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-float-float-) | Mengembalikan objek Gambar Thumbnail untuk semua slide presentasi dengan skala khusus. |
-| [getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-int---float-float-) | Mengembalikan objek Gambar Thumbnail untuk slide yang ditentukan dari presentasi dengan skala khusus. |
-| [getImages(IRenderingOptions options, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-) | Mengembalikan objek Gambar Thumbnail untuk semua slide presentasi dengan ukuran yang ditentukan. |
-| [getImages(IRenderingOptions options, int[] slides, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-) | Mengembalikan objek Gambar Thumbnail untuk slide yang ditentukan dari presentasi dengan ukuran yang ditentukan. |
+| [getImages(IRenderingOptions options)](#getImages-com.aspose.slides.IRenderingOptions-) | Mengembalikan objek Gambar Miniatur untuk semua slide presentasi. |
+| [getImages(IRenderingOptions options, int[] slides)](#getImages-com.aspose.slides.IRenderingOptions-int---) | Mengembalikan objek IImage Miniatur untuk slide tertentu presentasi. |
+| [getImages(IRenderingOptions options, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-float-float-) | Mengembalikan objek Gambar Miniatur untuk semua slide presentasi dengan skala khusus. |
+| [getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-int---float-float-) | Mengembalikan objek Gambar Miniatur untuk slide tertentu presentasi dengan skala khusus. |
+| [getImages(IRenderingOptions options, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-) | Mengembalikan objek Gambar Miniatur untuk semua slide presentasi dengan ukuran tertentu. |
+| [getImages(IRenderingOptions options, int[] slides, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-) | Mengembalikan objek Gambar Miniatur untuk slide tertentu presentasi dengan ukuran tertentu. |
 | [getSlideById(long id)](#getSlideById-long-) | Mengembalikan Slide, MasterSlide, atau LayoutSlide berdasarkan Id. |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Menggabungkan run dengan format yang sama di semua paragraf dalam semua bentuk yang dapat diterima di semua slide. |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Menggabungkan run dengan pemformatan yang sama di semua paragraf dalam semua bentuk yang dapat diterima di semua slide. |
 | [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | Menyorot semua kecocokan teks contoh dengan warna yang ditentukan. |
 | [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Menyorot semua kecocokan teks contoh dengan warna yang ditentukan. |
 | [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | Menyorot semua kecocokan ekspresi reguler dengan warna yang ditentukan. |
 | [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Mengganti semua kemunculan teks yang ditentukan dengan teks lain yang ditentukan. |
 | [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Mengganti semua kecocokan ekspresi reguler dengan string yang ditentukan. |
+| [refreshChartsData()](#refreshChartsData--) | Memuat ulang data untuk semua diagram dalam presentasi dari buku kerja sumber mereka. |
+| [refreshChartsData(boolean skipFailedCharts)](#refreshChartsData-boolean-) | Memuat ulang data untuk semua diagram dalam presentasi dari buku kerja sumber mereka. |
 
 ### getCurrentDateTime() {#getCurrentDateTime--}
 ```
 public abstract Date getCurrentDateTime()
 ```
 
-Mengembalikan atau mengatur tanggal dan waktu yang akan menggantikan konten bidang datetime. Waktu pembuatan objek Presentation ini secara default. Baca/tulis java.util.Date.
+Mengembalikan atau mengatur tanggal dan waktu yang akan menggantikan konten bidang tanggal-waktu. Waktu pembuatan objek Presentation ini secara default. Baca/tulis java.util.Date.
 
 **Mengembalikan:**
 java.util.Date
@@ -85,7 +87,7 @@ java.util.Date
 public abstract void setCurrentDateTime(Date value)
 ```
 
-Mengembalikan atau mengatur tanggal dan waktu yang akan menggantikan konten bidang datetime. Waktu pembuatan objek Presentation ini secara default. Baca/tulis java.util.Date.
+Mengembalikan atau mengatur tanggal dan waktu yang akan menggantikan konten bidang tanggal-waktu. Waktu pembuatan objek Presentation ini secara default. Baca/tulis java.util.Date.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
@@ -97,7 +99,7 @@ Mengembalikan atau mengatur tanggal dan waktu yang akan menggantikan konten bida
 public abstract IPresentationHeaderFooterManager getHeaderFooterManager()
 ```
 
-Mengembalikan manajer HeaderFooter dari presentasi. Hanya-baca [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager).
+Mengembalikan pengelola HeaderFooter dari presentasi. Hanya-baca [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager).
 
 **Mengembalikan:**
 [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager)
@@ -107,7 +109,7 @@ Mengembalikan manajer HeaderFooter dari presentasi. Hanya-baca [IPresentationHea
 public abstract IProtectionManager getProtectionManager()
 ```
 
-Mengambil manajer izin untuk presentasi ini. Hanya-baca [IProtectionManager](../../com.aspose.slides/iprotectionmanager).
+Mendapatkan pengelola izin untuk presentasi ini. Hanya-baca [IProtectionManager](../../com.aspose.slides/iprotectionmanager).
 
 **Mengembalikan:**
 [IProtectionManager](../../com.aspose.slides/iprotectionmanager)
@@ -161,7 +163,7 @@ Mengembalikan daftar semua slide tata letak yang didefinisikan dalam presentasi.
 
 --------------------
 
-Anda dapat mengakses API alternatif untuk menambahkan/menyisipkan/menghapus/menkloning slide tata letak dengan menggunakan properti IMasterSlide.LayoutSlides.
+Anda dapat mengakses API alternatif untuk menambahkan/menyisipkan/menghapus/menyalin slide tata letak dengan menggunakan properti IMasterSlide.LayoutSlides.
 
 **Mengembalikan:**
 [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection)
@@ -181,7 +183,7 @@ Mengembalikan daftar semua slide master yang didefinisikan dalam presentasi. Han
 public abstract IMasterNotesSlideManager getMasterNotesSlideManager()
 ```
 
-Mengembalikan manajer master catatan. Hanya-baca [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager).
+Mengembalikan pengelola master catatan. Hanya-baca [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager).
 
 **Mengembalikan:**
 [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager)
@@ -191,7 +193,7 @@ Mengembalikan manajer master catatan. Hanya-baca [IMasterNotesSlideManager](../.
 public abstract IMasterHandoutSlideManager getMasterHandoutSlideManager()
 ```
 
-Mengembalikan manajer master handout. Hanya-baca [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager).
+Mengembalikan pengelola master handout. Hanya-baca [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager).
 
 **Mengembalikan:**
 [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager)
@@ -201,7 +203,7 @@ Mengembalikan manajer master handout. Hanya-baca [IMasterHandoutSlideManager](..
 public abstract IFontsManager getFontsManager()
 ```
 
-Mengembalikan manajer font. Hanya-baca [IFontsManager](../../com.aspose.slides/ifontsmanager).
+Mengembalikan pengelola font. Hanya-baca [IFontsManager](../../com.aspose.slides/ifontsmanager).
 
 **Mengembalikan:**
 [IFontsManager](../../com.aspose.slides/ifontsmanager)
@@ -281,7 +283,7 @@ Mengembalikan data khusus presentasi. Hanya-baca [ICustomData](../../com.aspose.
 public abstract IVbaProject getVbaProject()
 ```
 
-Mengambil proyek VBA dengan makro presentasi. Baca/tulis [IVbaProject](../../com.aspose.slides/ivbaproject).
+Mendapatkan proyek VBA dengan makro presentasi. Baca/tulis [IVbaProject](../../com.aspose.slides/ivbaproject).
 
 **Mengembalikan:**
 [IVbaProject](../../com.aspose.slides/ivbaproject)
@@ -291,7 +293,7 @@ Mengambil proyek VBA dengan makro presentasi. Baca/tulis [IVbaProject](../../com
 public abstract void setVbaProject(IVbaProject value)
 ```
 
-Mengambil proyek VBA dengan makro presentasi. Baca/tulis [IVbaProject](../../com.aspose.slides/ivbaproject).
+Mendapatkan proyek VBA dengan makro presentasi. Baca/tulis [IVbaProject](../../com.aspose.slides/ivbaproject).
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
@@ -303,7 +305,7 @@ Mengambil proyek VBA dengan makro presentasi. Baca/tulis [IVbaProject](../../com
 public abstract int getSourceFormat()
 ```
 
-Mengembalikan informasi tentang format mana presentasi dimuat. Hanya-baca [SourceFormat](../../com.aspose.slides/sourceformat).
+Mengembalikan informasi tentang format asal presentasi dimuat. Hanya-baca [SourceFormat](../../com.aspose.slides/sourceformat).
 
 **Mengembalikan:**
 int
@@ -323,7 +325,7 @@ Mengembalikan tema master presentasi. Hanya-baca [IMasterTheme](../../com.aspose
 public abstract IHyperlinkQueries getHyperlinkQueries()
 ```
 
-Memberikan akses mudah ke semua hyperlink yang terdapat dalam semua slide presentasi (tidak termasuk master, tata letak, slide catatan). Hanya-baca [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
+Menyediakan akses mudah ke semua hyperlink yang terdapat dalam semua slide presentasi (tidak termasuk master, tata letak, slide catatan). Hanya-baca [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
 
 **Mengembalikan:**
 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)
@@ -333,7 +335,7 @@ Memberikan akses mudah ke semua hyperlink yang terdapat dalam semua slide presen
 public abstract IViewProperties getViewProperties()
 ```
 
-Mengambil properti tampilan seluruh presentasi. Hanya-baca [IViewProperties](../../com.aspose.slides/iviewproperties).
+Mendapatkan properti tampilan seluruh presentasi. Hanya-baca [IViewProperties](../../com.aspose.slides/iviewproperties).
 
 **Mengembalikan:**
 [IViewProperties](../../com.aspose.slides/iviewproperties)
@@ -427,7 +429,7 @@ Mengembalikan koleksi label sensitivitas yang diterapkan pada dokumen presentasi
 > 
 >      // Tambahkan label baru
 >      String labelIdString = "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"; // Dapatkan Id label sensitivitas dari kebijakan
->      UUID siteIdGuid = UUID.fromString("{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"); // Dapatkan pengenal situs Azure AD dari kebijakan
+>      UUID siteIdGuid = UUID.fromString("{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"); // Dapatkan pengidentifikasi situs Azure AD dari kebijakan
 >      ISensitivityLabel label = sensitivityLabels.add(labelIdString, siteIdGuid, true, SensitivityLabelAssignmentType.Privileged);
 >      label.getContentMarkTypes().addItem(SensitivityLabelContentType.Footer);
 > 
@@ -471,15 +473,12 @@ Menyimpan semua slide presentasi ke aliran dalam format yang ditentukan.
 ```
 public abstract void save(String fname, int format, ISaveOptions options)
 ```
-
-Menyimpan semua slide presentasi ke file dengan format yang ditentukan dan dengan opsi tambahan.
+Menyimpan semua slide dari presentasi ke sebuah file dengan format yang ditentukan serta opsi tambahan.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| fname | java.lang.String | Jalur ke file yang dibuat. |
-| format | int | Format data yang diekspor. |
-| options | ISaveOptions |  |
+| fname | java.lang.String | Path ke file yang dibuat. |
 | format | int | Format data yang diekspor. |
 | options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Opsi format tambahan. |
 
@@ -488,12 +487,13 @@ Menyimpan semua slide presentasi ke file dengan format yang ditentukan dan denga
 public abstract void save(OutputStream stream, int format, ISaveOptions options)
 ```
 
-Menyimpan semua slide presentasi ke dalam stream dengan format yang ditentukan dan opsi tambahan.
+
+Menyimpan semua slide dari presentasi ke aliran (stream) dengan format yang ditentukan serta opsi tambahan.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| stream | java.io.OutputStream | Stream output. |
+| stream | java.io.OutputStream | Aliran output. |
 | format | int | Format data yang diekspor. |
 | options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Opsi format tambahan. |
 
@@ -502,12 +502,13 @@ Menyimpan semua slide presentasi ke dalam stream dengan format yang ditentukan d
 public abstract void save(String fname, int[] slides, int format)
 ```
 
-Menyimpan slide yang ditentukan dari presentasi ke file dengan format yang ditentukan.
+
+Menyimpan slide tertentu dari presentasi ke sebuah file dengan format yang ditentukan.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| fname | java.lang.String | Jalur ke file yang dibuat. |
+| fname | java.lang.String | Path ke file yang dibuat. |
 | slides | int[] | Array dengan posisi slide, dimulai dari 1. |
 | format | int | Format data yang diekspor. |
 
@@ -516,12 +517,13 @@ Menyimpan slide yang ditentukan dari presentasi ke file dengan format yang diten
 public abstract void save(String fname, int[] slides, int format, ISaveOptions options)
 ```
 
-Menyimpan slide yang ditentukan dari presentasi ke file dengan format yang ditentukan.
+
+Menyimpan slide tertentu dari presentasi ke sebuah file dengan format yang ditentukan.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| fname | java.lang.String | Jalur ke file yang dibuat. |
+| fname | java.lang.String | Path ke file yang dibuat. |
 | slides | int[] | Array dengan posisi slide, dimulai dari 1. |
 | format | int | Format data yang diekspor. |
 | options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Opsi format tambahan. |
@@ -531,12 +533,13 @@ Menyimpan slide yang ditentukan dari presentasi ke file dengan format yang diten
 public abstract void save(OutputStream stream, int[] slides, int format)
 ```
 
-Menyimpan slide yang ditentukan dari presentasi ke dalam stream dengan format yang ditentukan.
+
+Menyimpan slide tertentu dari presentasi ke aliran (stream) dengan format yang ditentukan.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| stream | java.io.OutputStream | Stream output. |
+| stream | java.io.OutputStream | Aliran output. |
 | slides | int[] | Array dengan posisi slide, dimulai dari 1. |
 | format | int | Format data yang diekspor. |
 
@@ -545,12 +548,13 @@ Menyimpan slide yang ditentukan dari presentasi ke dalam stream dengan format ya
 public abstract void save(OutputStream stream, int[] slides, int format, ISaveOptions options)
 ```
 
-Menyimpan slide yang ditentukan dari presentasi ke dalam stream dengan format yang ditentukan.
+
+Menyimpan slide tertentu dari presentasi ke aliran (stream) dengan format yang ditentukan.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| stream | java.io.OutputStream | Stream output. |
+| stream | java.io.OutputStream | Aliran output. |
 | slides | int[] | Array dengan posisi slide, dimulai dari 1. |
 | format | int | Format data yang diekspor. |
 | options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Opsi format tambahan. |
@@ -560,7 +564,8 @@ Menyimpan slide yang ditentukan dari presentasi ke dalam stream dengan format ya
 public abstract void save(IXamlOptions options)
 ```
 
-Menyimpan semua slide presentasi ke sekumpulan file yang mewakili markup XAML.
+
+Menyimpan semua slide dari presentasi ke sekumpulan file yang mewakili markup XAML.
 
 --------------------
 
@@ -587,7 +592,8 @@ Menyimpan semua slide presentasi ke sekumpulan file yang mewakili markup XAML.
 public abstract IImage[] getImages(IRenderingOptions options)
 ```
 
-Mengembalikan objek Thumbnail Image untuk semua slide presentasi.
+
+Mengembalikan objek Gambar Thumbnail untuk semua slide dalam presentasi.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
@@ -602,7 +608,8 @@ com.aspose.slides.IImage[] - IImage objects.
 public abstract IImage[] getImages(IRenderingOptions options, int[] slides)
 ```
 
-Mengembalikan objek Thumbnail IImage untuk slide yang ditentukan dari presentasi.
+
+Mengembalikan objek IImage Thumbnail untuk slide tertentu dalam presentasi.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
@@ -618,7 +625,8 @@ com.aspose.slides.IImage[] - IImage objects.
 public abstract IImage[] getImages(IRenderingOptions options, float scaleX, float scaleY)
 ```
 
-Mengembalikan objek Thumbnail Image untuk semua slide presentasi dengan skala khusus.
+
+Mengembalikan objek Gambar Thumbnail untuk semua slide dalam presentasi dengan skala khusus.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
@@ -635,7 +643,8 @@ com.aspose.slides.IImage[] - Bitmap objects.
 public abstract IImage[] getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)
 ```
 
-Mengembalikan objek Thumbnail Image untuk slide yang ditentukan dari presentasi dengan skala khusus.
+
+Mengembalikan objek Gambar Thumbnail untuk slide tertentu dalam presentasi dengan skala khusus.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
@@ -653,7 +662,8 @@ com.aspose.slides.IImage[] - IImage objects.
 public abstract IImage[] getImages(IRenderingOptions options, Dimension imageSize)
 ```
 
-Mengembalikan objek Thumbnail Image untuk semua slide presentasi dengan ukuran yang ditentukan.
+
+Mengembalikan objek Gambar Thumbnail untuk semua slide dalam presentasi dengan ukuran yang ditentukan.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
@@ -669,7 +679,8 @@ com.aspose.slides.IImage[] - IImage objects.
 public abstract IImage[] getImages(IRenderingOptions options, int[] slides, Dimension imageSize)
 ```
 
-Mengembalikan objek Thumbnail Image untuk slide yang ditentukan dari presentasi dengan ukuran yang ditentukan.
+
+Mengembalikan objek Gambar Thumbnail untuk slide tertentu dalam presentasi dengan ukuran yang ditentukan.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
@@ -686,7 +697,8 @@ com.aspose.slides.IImage[] - IImage objects.
 public abstract IBaseSlide getSlideById(long id)
 ```
 
-Mengembalikan Slide, MasterSlide atau LayoutSlide berdasarkan Id.
+
+Mengembalikan Slide, MasterSlide, atau LayoutSlide berdasarkan Id.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
@@ -701,23 +713,23 @@ Mengembalikan Slide, MasterSlide atau LayoutSlide berdasarkan Id.
 public abstract void joinPortionsWithSameFormatting()
 ```
 
-Menggabungkan run dengan pemformatan yang sama di semua paragraf dalam semua shape yang dapat diterima di semua slide.
+
+Menggabungkan run dengan format yang sama di semua paragraf dalam semua bentuk yang dapat diterima di semua slide.
 
 ### highlightText(String text, Color highlightColor) {#highlightText-java.lang.String-java.awt.Color-}
 ```
 public abstract void highlightText(String text, Color highlightColor)
 ```
 
-Menyorot semua kecocokan teks contoh dengan warna yang ditentukan.
 
---------------------
+Menyorot semua kecocokan teks contoh dengan warna yang ditentukan.
 
 > ```
 > The following code sample shows how to highlight text in a PowerPoint presentation.
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
->      // menyorot semua kemunculan 'the' yang terpisah
+>      // menyorot semua kemunculan 'the' secara terpisah
 >      presentation.highlightText("the", Color.MAGENTA);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -737,16 +749,15 @@ Menyorot semua kecocokan teks contoh dengan warna yang ditentukan.
 public abstract void highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
+
 Menyorot semua kecocokan teks contoh dengan warna yang ditentukan.
 
---------------------
-
 > ```
-> The following code sample shows how to highlight text in a PowerPoint presentation.
+> Contoh kode berikut menunjukkan cara menyorot teks dalam presentasi PowerPoint.
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
->      // menyorot semua kemunculan 'the' yang terpisah
+>      // menyorot semua kemunculan 'the' secara terpisah
 >      presentation.highlightText("the", Color.MAGENTA);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -768,16 +779,15 @@ Menyorot semua kecocokan teks contoh dengan warna yang ditentukan.
 public abstract void highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)
 ```
 
-Menyorot semua kecocokan ekspresi reguler dengan warna yang ditentukan.
 
---------------------
+Menyorot semua kecocokan ekspresi reguler dengan warna yang ditentukan.
 
 > ```
 > The following code sample shows how to highlight text in a PowerPoint Presentation using a regular expression.
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
->      // menyorot semua kemunculan 'the' yang terpisah
+>      // menyorot semua kemunculan 'the' secara terpisah
 >      presentation.highlightText("the", Color.MAGENTA);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -789,7 +799,7 @@ Menyorot semua kecocokan ekspresi reguler dengan warna yang ditentukan.
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | Ekspresi reguler java.util.regex.Pattern untuk memperoleh string yang akan disorot. |
+| regex | java.util.regex.Pattern | Ekspresi reguler java.util.regex.Pattern untuk mendapatkan string yang akan disorot. |
 | highlightColor | java.awt.Color | Warna untuk menyorot teks. |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Objek callback untuk menerima hasil pencarian [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
@@ -798,9 +808,8 @@ Menyorot semua kecocokan ekspresi reguler dengan warna yang ditentukan.
 public abstract void replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
-Menggantikan semua kemunculan teks yang ditentukan dengan teks lain yang ditentukan.
 
---------------------
+Mengganti semua kemunculan teks yang ditentukan dengan teks lain yang ditentukan.
 
 > ```
 > The following sample code shows how to replace one specified string with another specified string.
@@ -822,7 +831,7 @@ Menggantikan semua kemunculan teks yang ditentukan dengan teks lain yang ditentu
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | oldText | java.lang.String | String yang akan diganti. |
-| newText | java.lang.String | String untuk menggantikan semua kemunculan oldText. |
+| newText | java.lang.String | String untuk mengganti semua kemunculan oldText. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Opsi pencarian teks [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Objek callback untuk menerima hasil pencarian [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
@@ -831,12 +840,11 @@ Menggantikan semua kemunculan teks yang ditentukan dengan teks lain yang ditentu
 public abstract void replaceRegex(Pattern regex, String newText, IFindResultCallback callback)
 ```
 
-Menggantikan semua kecocokan ekspresi reguler dengan string yang ditentukan.
 
---------------------
+Mengganti semua kecocokan ekspresi reguler dengan string yang ditentukan.
 
 > ```
-> The following code sample shows how to replace text using regular expression with the specified string.
+> Contoh kode berikut menunjukkan cara mengganti teks menggunakan ekspresi reguler dengan string yang ditentukan.
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx")
 >  try {
@@ -854,6 +862,49 @@ Menggantikan semua kecocokan ekspresi reguler dengan string yang ditentukan.
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | Ekspresi reguler java.util.regex.Pattern untuk memperoleh string yang akan diganti. |
-| newText | java.lang.String | String untuk menggantikan semua kemunculan string yang akan diganti. |
+| regex | java.util.regex.Pattern | Ekspresi reguler java.util.regex.Pattern untuk mendapatkan string yang akan diganti. |
+| newText | java.lang.String | String untuk mengganti semua kemunculan string yang akan diganti. |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Objek callback untuk menerima hasil pencarian [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+
+### refreshChartsData() {#refreshChartsData--}
+```
+public abstract void refreshChartsData()
+```
+
+
+Memuat ulang data untuk semua bagan dalam presentasi dari buku kerja sumber mereka.
+
+> ```
+> Presentation presentation = new Presentation("PresentationWithCharts.pptx");
+>  try {
+>      presentation.refreshChartsData();
+>      presentation.save("PresentationWithCharts-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+
+### refreshChartsData(boolean skipFailedCharts) {#refreshChartsData-boolean-}
+```
+public abstract void refreshChartsData(boolean skipFailedCharts)
+```
+
+
+Memuat ulang data untuk semua bagan dalam presentasi dari buku kerja sumber mereka.
+
+> ```
+> Presentation presentation = new Presentation("PresentationWithCharts.pptx");
+>  try {
+>      presentation.refreshChartsData();
+>      presentation.save("PresentationWithCharts-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+
+**Parameter:**
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| skipFailedCharts | boolean | Menentukan apakah proses penyegaran dilanjutkan jika sebuah bagan gagal memperbarui. Jika true, bagan yang menyebabkan pengecualian akan dilewati; jika tidak, pengecualian akan diteruskan. |

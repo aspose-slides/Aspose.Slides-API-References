@@ -15,39 +15,44 @@ public class ChartDataPoint implements IChartDataPoint, IDOMObject
 ```
 
 يمثل نقطة بيانات السلسلة.
+
 ## الطرق
 
-| طريقة | الوصف |
+| الطريقة | الوصف |
 | --- | --- |
 | [getXValue()](#getXValue--) | XValue. |
 | [getYValue()](#getYValue--) | YValue. |
 | [getBubbleSize()](#getBubbleSize--) | BubbleSize. |
 | [getValue()](#getValue--) | Value. |
-| [getSizeValue()](#getSizeValue--) | Returns the size value of chart data point. |
-| [getColorValue()](#getColorValue--) | Returns the color value of chart data point. |
-| [getErrorBarsCustomValues()](#getErrorBarsCustomValues--) | Represents series error bars values in case of Custom value type. |
+| [getSizeValue()](#getSizeValue--) | إرجاع قيمة الحجم لنقطة بيانات المخطط. |
+| [getColorValue()](#getColorValue--) | إرجاع قيمة اللون لنقطة بيانات المخطط. |
+| [getErrorBarsCustomValues()](#getErrorBarsCustomValues--) | يمثل قيم أشرطة الخطأ للسلسلة في حالة نوع القيمة المخصص. |
 | [getLabel()](#getLabel--) | Label. |
-| [isBubble3D()](#isBubble3D--) | Specifies that the bubbles have a 3-D effect applied to them. |
-| [setBubble3D(boolean value)](#setBubble3D-boolean-) | Specifies that the bubbles have a 3-D effect applied to them. |
-| [getExplosion()](#getExplosion--) | Specifies the amount the data point shall be moved from the center of the pie. |
-| [setExplosion(int value)](#setExplosion-int-) | Specifies the amount the data point shall be moved from the center of the pie. |
-| [getFormat()](#getFormat--) | Represents the formatting properties. |
-| [setFormat(IFormat value)](#setFormat-com.aspose.slides.IFormat-) | Represents the formatting properties. |
-| [getMarker()](#getMarker--) | Specifies a data marker. |
-| [getSetAsTotal()](#getSetAsTotal--) | Sets data point as total. |
-| [setSetAsTotal(boolean value)](#setSetAsTotal-boolean-) | Sets data point as total. |
-| [getRelatedLegendEntry()](#getRelatedLegendEntry--) | Properties of corresponding legend entry in case of chart type from this list: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. |
-| [remove()](#remove--) | Removes DataPoint from chart series. |
-| [getDataPointLevels()](#getDataPointLevels--) | Returns container of data point levels. |
-| [getIndex()](#getIndex--) |    |
+| [isBubble3D()](#isBubble3D--) | يحدد أن الفقاعات لديها تأثير ثلاثي الأبعاد مطبق عليها. |
+| [setBubble3D(boolean value)](#setBubble3D-boolean-) | يحدد أن الفقاعات لديها تأثير ثلاثي الأبعاد مطبق عليها. |
+| [getExplosion()](#getExplosion--) | يحدد مقدار التحرك لنقطة البيانات من مركز الفطيرة. |
+| [setExplosion(int value)](#setExplosion-int-) | يحدد مقدار التحرك لنقطة البيانات من مركز الفطيرة. |
+| [getFormat()](#getFormat--) | يمثل خصائص التنسيق. |
+| [setFormat(IFormat value)](#setFormat-com.aspose.slides.IFormat-) | يمثل خصائص التنسيق. |
+| [getMarker()](#getMarker--) | يحدد علامة بيانات. |
+| [getSetAsTotal()](#getSetAsTotal--) | يضبط نقطة البيانات كإجمالي. |
+| [setSetAsTotal(boolean value)](#setSetAsTotal-boolean-) | يضبط نقطة البيانات كإجمالي. |
+| [getRelatedLegendEntry()](#getRelatedLegendEntry--) | خصائص إدخال الأسطورة المقابل في حالة نوع المخطط من هذه القائمة: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. |
+| [remove()](#remove--) | يزيل DataPoint من سلسلة المخطط. |
+| [getDataPointLevels()](#getDataPointLevels--) | إرجاع حاوية مستويات نقطة البيانات. |
+| [getIndex()](#getIndex--) |  |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-| [getAutomaticDataPointColor()](#getAutomaticDataPointColor--) | Returns an automatic color of data point based on series index, data point index, ParentSeriesGroup.IsColorVaried property and chart style. |
-| [getInvertIfNegative()](#getInvertIfNegative--) | Specifies the data point shall invert its colors if the value is negative. |
-| [setInvertIfNegative(boolean value)](#setInvertIfNegative-boolean-) | Specifies the data point shall invert its colors if the value is negative. |
-| [getActualX()](#getActualX--) | Specifies actual x location (left) of the chart element relative to the left top corner of the chart. |
-| [getActualY()](#getActualY--) | Specifies actual top of the chart element relative to the left top corner of the chart. |
-| [getActualWidth()](#getActualWidth--) | Specifies actual width of the chart element. |
-| [getActualHeight()](#getActualHeight--) | Specifies actual height of the chart element. |
+| [getAutomaticDataPointColor()](#getAutomaticDataPointColor--) | إرجاع لون تلقائي لنقطة البيانات بناءً على فهرس السلسلة، فهرس نقطة البيانات، خاصية ParentSeriesGroup.IsColorVaried ونمط المخطط. |
+| [getInvertIfNegative()](#getInvertIfNegative--) | يحدد أن نقطة البيانات يجب أن تعكس ألوانها إذا كانت القيمة سلبية. |
+| [setInvertIfNegative(boolean value)](#setInvertIfNegative-boolean-) | يحدد أن نقطة البيانات يجب أن تعكس ألوانها إذا كانت القيمة سلبية. |
+| [getCachedValue()](#getCachedValue--) | يحصل على القيمة المخزنة مؤقتًا لنقطة بيانات المخطط. |
+| [getCachedXValue()](#getCachedXValue--) | يحصل على القيمة المخزنة مؤقتًا لـ X لنقطة بيانات المخطط. |
+| [getCachedYValue()](#getCachedYValue--) | يحصل على القيمة المخزنة مؤقتًا لـ Y لنقطة بيانات المخطط. |
+| [getCachedBubbleSize()](#getCachedBubbleSize--) | يحصل على حجم الفقاعة المخزن مؤقتًا لنقطة بيانات المخطط. |
+| [getActualX()](#getActualX--) | يحدد الموقع الفعلي لـ x (اليسار) لعناصر المخطط بالنسبة إلى الزاوية العلوية اليسرى للمخطط. |
+| [getActualY()](#getActualY--) | يحدد الجزء العلوي الفعلي لعنصر المخطط بالنسبة إلى الزاوية العلوية اليسرى للمخطط. |
+| [getActualWidth()](#getActualWidth--) | يحدد العرض الفعلي لعنصر المخطط. |
+| [getActualHeight()](#getActualHeight--) | يحدد الارتفاع الفعلي لعنصر المخطط. |
 
 ### getXValue() {#getXValue--}
 ```
@@ -56,7 +61,7 @@ public final IStringOrDoubleChartValue getXValue()
 
 XValue. للقراءة فقط [IStringOrDoubleChartValue](../../com.aspose.slides/istringordoublechartvalue).
 
-**الإرجاع:**
+**القيمة المرجعة:**
 [IStringOrDoubleChartValue](../../com.aspose.slides/istringordoublechartvalue)
 
 ### getYValue() {#getYValue--}
@@ -66,7 +71,7 @@ public final IDoubleChartValue getYValue()
 
 YValue. للقراءة فقط [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
-**الإرجاع:**
+**القيمة المرجعة:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
 
 ### getBubbleSize() {#getBubbleSize--}
@@ -76,7 +81,7 @@ public final IDoubleChartValue getBubbleSize()
 
 BubbleSize. للقراءة فقط [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
-**الإرجاع:**
+**القيمة المرجعة:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
 
 ### getValue() {#getValue--}
@@ -86,7 +91,7 @@ public final IDoubleChartValue getValue()
 
 Value. للقراءة فقط [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
-**الإرجاع:**
+**القيمة المرجعة:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
 
 ### getSizeValue() {#getSizeValue--}
@@ -94,9 +99,9 @@ Value. للقراءة فقط [IDoubleChartValue](../../com.aspose.slides/idouble
 public final IDoubleChartValue getSizeValue()
 ```
 
-يعيد قيمة الحجم لنقطة بيانات المخطط. يُستخدم مع مخططات Treemap و Sunburst. للقراءة فقط [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
+إرجاع قيمة الحجم لنقطة بيانات المخطط. يُستخدم مع مخططات Treemap و Sunburst. للقراءة فقط [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
-**الإرجاع:**
+**القيمة المرجعة:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
 
 ### getColorValue() {#getColorValue--}
@@ -104,9 +109,9 @@ public final IDoubleChartValue getSizeValue()
 public final IDoubleChartValue getColorValue()
 ```
 
-يعيد قيمة اللون لنقطة بيانات المخطط. يُستخدم مع مخططات Map. للقراءة فقط [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
+إرجاع قيمة اللون لنقطة بيانات المخطط. يُستخدم مع مخططات الخريطة. للقراءة فقط [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue).
 
-**الإرجاع:**
+**القيمة المرجعة:**
 [IDoubleChartValue](../../com.aspose.slides/idoublechartvalue)
 
 ### getErrorBarsCustomValues() {#getErrorBarsCustomValues--}
@@ -114,9 +119,9 @@ public final IDoubleChartValue getColorValue()
 public final IErrorBarsCustomValues getErrorBarsCustomValues()
 ```
 
-يمثل قيم أشرطة الخطأ للسلسلة في حالة نوع القيمة Custom. للقراءة فقط [IErrorBarsCustomValues](../../com.aspose.slides/ierrorbarscustomvalues).
+يمثل قيم أشرطة الخطأ للسلسلة في حالة نوع القيمة المخصص. للقراءة فقط [IErrorBarsCustomValues](../../com.aspose.slides/ierrorbarscustomvalues).
 
-**الإرجاع:**
+**القيمة المرجعة:**
 [IErrorBarsCustomValues](../../com.aspose.slides/ierrorbarscustomvalues)
 
 ### getLabel() {#getLabel--}
@@ -126,7 +131,7 @@ public final IDataLabel getLabel()
 
 Label. للقراءة فقط [IDataLabel](../../com.aspose.slides/idatalabel).
 
-**الإرجاع:**
+**القيمة المرجعة:**
 [IDataLabel](../../com.aspose.slides/idatalabel)
 
 ### isBubble3D() {#isBubble3D--}
@@ -134,9 +139,9 @@ Label. للقراءة فقط [IDataLabel](../../com.aspose.slides/idatalabel).
 public final boolean isBubble3D()
 ```
 
-يحدد أن الفقاعات لديها تأثير ثلاثي الأبعاد مطبق عليها. قابل للقراءة والكتابة boolean.
+يحدد أن الفقاعات لديها تأثير ثلاثي الأبعاد مطبق عليها. قابل للقراءة/الكتابة boolean.
 
-**الإرجاع:**
+**القيمة المرجعة:**
 boolean
 
 ### setBubble3D(boolean value) {#setBubble3D-boolean-}
@@ -144,10 +149,10 @@ boolean
 public final void setBubble3D(boolean value)
 ```
 
-يحدد أن الفقاعات لديها تأثير ثلاثي الأبعاد مطبق عليها. قابل للقراءة والكتابة boolean.
+يحدد أن الفقاعات لديها تأثير ثلاثي الأبعاد مطبق عليها. قابل للقراءة/الكتابة boolean.
 
-**المعاملات:**
-| معامل | نوع | وصف |
+**المُعلمات:**
+| المُعامل | النوع | الوصف |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -156,9 +161,9 @@ public final void setBubble3D(boolean value)
 public final int getExplosion()
 ```
 
-يحدد مقدار التحريك لنقطة البيانات من مركز الفطيرة. قراءة/كتابة int.
+يحدد مقدار التحرك لنقطة البيانات من مركز الفطيرة. قابل للقراءة/الكتابة int.
 
-**الإرجاع:**
+**القيمة المرجعة:**
 int
 
 ### setExplosion(int value) {#setExplosion-int-}
@@ -166,10 +171,10 @@ int
 public final void setExplosion(int value)
 ```
 
-يحدد مقدار التحريك لنقطة البيانات من مركز الفطيرة. قراءة/كتابة int.
+يحدد مقدار التحرك لنقطة البيانات من مركز الفطيرة. قابل للقراءة/الكتابة int.
 
-**المعاملات:**
-| معامل | نوع | وصف |
+**المُعلمات:**
+| المُعامل | النوع | الوصف |
 | --- | --- | --- |
 | value | int |  |
 
@@ -178,9 +183,9 @@ public final void setExplosion(int value)
 public final IFormat getFormat()
 ```
 
-يمثل خصائص التنسيق. قراءة/كتابة [IFormat](../../com.aspose.slides/iformat).
+يمثل خصائص التنسيق. قابل للقراءة/الكتابة [IFormat](../../com.aspose.slides/iformat).
 
-**الإرجاع:**
+**القيمة المرجعة:**
 [IFormat](../../com.aspose.slides/iformat)
 
 ### setFormat(IFormat value) {#setFormat-com.aspose.slides.IFormat-}
@@ -188,10 +193,10 @@ public final IFormat getFormat()
 public final void setFormat(IFormat value)
 ```
 
-يمثل خصائص التنسيق. قراءة/كتابة [IFormat](../../com.aspose.slides/iformat).
+يمثل خصائص التنسيق. قابل للقراءة/الكتابة [IFormat](../../com.aspose.slides/iformat).
 
-**المعاملات:**
-| معامل | نوع | وصف |
+**المُعلمات:**
+| المُعامل | النوع | الوصف |
 | --- | --- | --- |
 | value | [IFormat](../../com.aspose.slides/iformat) |  |
 
@@ -200,9 +205,9 @@ public final void setFormat(IFormat value)
 public final IMarker getMarker()
 ```
 
-يحدد مؤشر بيانات. للقراءة فقط [IMarker](../../com.aspose.slides/imarker).
+يحدد علامة بيانات. للقراءة فقط [IMarker](../../com.aspose.slides/imarker).
 
-**الإرجاع:**
+**القيمة المرجعة:**
 [IMarker](../../com.aspose.slides/imarker)
 
 ### getSetAsTotal() {#getSetAsTotal--}
@@ -210,9 +215,9 @@ public final IMarker getMarker()
 public final boolean getSetAsTotal()
 ```
 
-يضبط نقطة البيانات كإجمالي. يُطبق على نوع السلسلة Waterfall فقط.
+يضبط نقطة البيانات كإجمالي. يُطبق فقط على نوع السلسلة Waterfall.
 
-**الإرجاع:**
+**القيمة المرجعة:**
 boolean
 
 ### setSetAsTotal(boolean value) {#setSetAsTotal-boolean-}
@@ -220,10 +225,10 @@ boolean
 public final void setSetAsTotal(boolean value)
 ```
 
-يضبط نقطة البيانات كإجمالي. يُطبق على نوع السلسلة Waterfall فقط.
+يضبط نقطة البيانات كإجمالي. يُطبق فقط على نوع السلسلة Waterfall.
 
-**المعاملات:**
-| معامل | نوع | وصف |
+**المُعلمات:**
+| المُعامل | النوع | الوصف |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -232,9 +237,9 @@ public final void setSetAsTotal(boolean value)
 public final ILegendEntryProperties getRelatedLegendEntry()
 ```
 
-خصائص مدخل الأسطورة المقابل في حالة نوع المخطط من هذه القائمة: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. للقراءة فقط [ILegendEntryProperties](../../com.aspose.slides/ilegendentryproperties).
+خصائص إدخال الأسطورة المقابل في حالة نوع المخطط من هذه القائمة: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. للقراءة فقط [ILegendEntryProperties](../../com.aspose.slides/ilegendentryproperties).
 
-**الإرجاع:**
+**القيمة المرجعة:**
 [ILegendEntryProperties](../../com.aspose.slides/ilegendentryproperties)
 
 ### remove() {#remove--}
@@ -249,9 +254,9 @@ public final void remove()
 public final IChartDataPointLevelsManager getDataPointLevels()
 ```
 
-يعيد حاوية مستويات نقطة البيانات. يُطبق على سلسلة Treeamp و Sunburst. ترقيم مستويات نقطة البيانات يبدأ من الصفر.
+إرجاع حاوية مستويات نقطة البيانات. يُطبق على سلاسل Treeamp و Sunburst. فهرسة مستويات نقطة البيانات تبدأ من الصفر.
 
-**الإرجاع:**
+**القيمة المرجعة:**
 [IChartDataPointLevelsManager](../../com.aspose.slides/ichartdatapointlevelsmanager)
 
 ### getIndex() {#getIndex--}
@@ -259,7 +264,7 @@ public final IChartDataPointLevelsManager getDataPointLevels()
 public final long getIndex()
 ```
 
-**الإرجاع:**
+**القيمة المرجعة:**
 long
 
 ### getParent_Immediate() {#getParent-Immediate--}
@@ -267,9 +272,9 @@ long
 public final IDOMObject getParent_Immediate()
 ```
 
-يعيد كائن Parent_Immediate. للقراءة فقط IDOMObject.
+إرجاع كائن Parent_Immediate. للقراءة فقط IDOMObject.
 
-**الإرجاع:**
+**القيمة المرجعة:**
 com.aspose.slides.IDOMObject
 
 ### getAutomaticDataPointColor() {#getAutomaticDataPointColor--}
@@ -277,9 +282,9 @@ com.aspose.slides.IDOMObject
 public final Color getAutomaticDataPointColor()
 ```
 
-يعيد لونًا تلقائيًا لنقطة البيانات بناءً على فهرس السلسلة، فهرس نقطة البيانات، خاصية ParentSeriesGroup.IsColorVaried ونمط المخطط. يُستخدم هذا اللون بشكل افتراضي إذا كان FillType يساوي NotDefined.
+إرجاع لون تلقائي لنقطة البيانات بناءً على فهرس السلسلة، فهرس نقطة البيانات، خاصية ParentSeriesGroup.IsColorVaried ونمط المخطط. يُستخدم هذا اللون افتراضيًا إذا كان FillType يساوي NotDefined.
 
-**الإرجاع:**
+**القيمة المرجعة:**
 java.awt.Color
 
 ### getInvertIfNegative() {#getInvertIfNegative--}
@@ -287,9 +292,9 @@ java.awt.Color
 public final boolean getInvertIfNegative()
 ```
 
-يحدد أن نقطة البيانات يجب أن تعكس ألوانها إذا كانت القيمة سلبية. قابل للقراءة والكتابة boolean.
+يحدد أن نقطة البيانات يجب أن تعكس ألوانها إذا كانت القيمة سلبية. قابل للقراءة/الكتابة boolean.
 
-**الإرجاع:**
+**القيمة المرجعة:**
 boolean
 
 ### setInvertIfNegative(boolean value) {#setInvertIfNegative-boolean-}
@@ -297,21 +302,132 @@ boolean
 public final void setInvertIfNegative(boolean value)
 ```
 
-يحدد أن نقطة البيانات يجب أن تعكس ألوانها إذا كانت القيمة سلبية. قابل للقراءة والكتابة boolean.
+يحدد أن نقطة البيانات يجب أن تعكس ألوانها إذا كانت القيمة سلبية. قابل للقراءة/الكتابة boolean.
 
-**المعاملات:**
-| معامل | نوع | وصف |
+**المُعلمات:**
+| المُعامل | النوع | الوصف |
 | --- | --- | --- |
 | value | boolean |  |
+
+### getCachedValue() {#getCachedValue--}
+```
+public final ICachedChartValue getCachedValue()
+```
+
+يحصل على القيمة المخزنة مؤقتًا لنقطة بيانات المخطط. للقراءة فقط [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // اطبع جميع القيم المخزنة لسلسلة المخطط.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedValue().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**القيمة المرجعة:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
+
+### getCachedXValue() {#getCachedXValue--}
+```
+public final ICachedChartValue getCachedXValue()
+```
+
+يحصل على القيمة المخزنة مؤقتًا لـ X لنقطة بيانات المخطط. للقراءة فقط [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // اطبع جميع القيم المخزنة للمحور X لسلسلة المخطط.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedXValue().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**القيمة المرجعة:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
+
+### getCachedYValue() {#getCachedYValue--}
+```
+public final ICachedChartValue getCachedYValue()
+```
+
+يحصل على القيمة المخزنة مؤقتًا لـ Y لنقطة بيانات المخطط. للقراءة فقط [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // اطبع جميع القيم المخزنة للمحور Y لسلسلة المخطط.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedYValue().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**القيمة المرجعة:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
+
+### getCachedBubbleSize() {#getCachedBubbleSize--}
+```
+public final ICachedChartValue getCachedBubbleSize()
+```
+
+يحصل على حجم الفقاعة المخزن مؤقتًا لنقطة بيانات المخطط. للقراءة فقط [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      for(IChartSeries series : chart.getChartData().getSeries())
+>      {
+>          // اطبع جميع قيم حجم الفقاعات المخزنة لسلسلة المخطط.
+>          for (IChartDataPoint point : series.getDataPoints())
+>              System.out.println(point.getCachedBubbleSize().toDouble());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**القيمة المرجعة:**
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
 
 ### getActualX() {#getActualX--}
 ```
 public final float getActualX()
 ```
 
-يحدد الموقع الفعلي للمحور x (يسار) لعنصر المخطط نسبةً إلى الزاوية اليسرى العليا للمخطط. استدعِ الطريقة IChart.ValidateChartLayout() مسبقًا للحصول على القيم الفعلية. قراءة float.
+يحدد الموقع الفعلي لـ x (اليسار) لعناصر المخطط بالنسبة إلى الزاوية العلوية اليسرى للمخطط. استدعِ الطريقة IChart.ValidateChartLayout() قبل الحصول على القيم الفعلية. قراءة float.
 
-**الإرجاع:**
+**القيمة المرجعة:**
 float
 
 ### getActualY() {#getActualY--}
@@ -319,9 +435,9 @@ float
 public final float getActualY()
 ```
 
-يحدد أعلى العنصر الفعلي للمخطط نسبةً إلى الزاوية اليسرى العليا للمخطط. استدعِ الطريقة IChart.ValidateChartLayout() مسبقًا للحصول على القيم الفعلية. قراءة float.
+يحدد الجزء العلوي الفعلي لعنصر المخطط بالنسبة إلى الزاوية العلوية اليسرى للمخطط. استدعِ الطريقة IChart.ValidateChartLayout() قبل الحصول على القيم الفعلية. قراءة float.
 
-**الإرجاع:**
+**القيمة المرجعة:**
 float
 
 ### getActualWidth() {#getActualWidth--}
@@ -329,9 +445,9 @@ float
 public final float getActualWidth()
 ```
 
-يحدد العرض الفعلي لعنصر المخطط. استدعِ الطريقة IChart.ValidateChartLayout() مسبقًا للحصول على القيم الفعلية. قراءة float.
+يحدد العرض الفعلي لعنصر المخطط. استدعِ الطريقة IChart.ValidateChartLayout() قبل الحصول على القيم الفعلية. قراءة float.
 
-**الإرجاع:**
+**القيمة المرجعة:**
 float
 
 ### getActualHeight() {#getActualHeight--}
@@ -339,7 +455,7 @@ float
 public final float getActualHeight()
 ```
 
-يحدد الارتفاع الفعلي لعنصر المخطط. استدعِ الطريقة IChart.ValidateChartLayout() مسبقًا للحصول على القيم الفعلية. قراءة float.
+يحدد الارتفاع الفعلي لعنصر المخطط. استدعِ الطريقة IChart.ValidateChartLayout() قبل الحصول على القيم الفعلية. قراءة float.
 
-**الإرجاع:**
+**القيمة المرجعة:**
 float

@@ -1,6 +1,6 @@
 ---
 title: IPresentation
-second_title: Riferimento API di Aspose.Slides per Java
+second_title: Riferimento API Aspose.Slides per Java
 description: Documento di presentazione
 type: docs
 url: /it/com.aspose.slides/ipresentation/
@@ -22,16 +22,16 @@ Documento di presentazione
 | [getProtectionManager()](#getProtectionManager--) | Ottiene il gestore delle autorizzazioni per questa presentazione. |
 | [getSlides()](#getSlides--) | Restituisce un elenco di tutte le diapositive definite nella presentazione. |
 | [getSections()](#getSections--) | Restituisce un elenco di tutte le sezioni diapositive definite nella presentazione. |
-| [getSlideSize()](#getSlideSize--) | Restituisce l'oggetto dimensione diapositiva. |
-| [getNotesSize()](#getNotesSize--) | Restituisce l'oggetto dimensione diapositiva note. |
-| [getLayoutSlides()](#getLayoutSlides--) | Restituisce un elenco di tutte le diapositive layout definite nella presentazione. |
+| [getSlideSize()](#getSlideSize--) | Restituisce l'oggetto di dimensione della diapositiva. |
+| [getNotesSize()](#getNotesSize--) | Restituisce l'oggetto di dimensione delle note della diapositiva. |
+| [getLayoutSlides()](#getLayoutSlides--) | Restituisce un elenco di tutte le diapositive di layout definite nella presentazione. |
 | [getMasters()](#getMasters--) | Restituisce un elenco di tutte le diapositive master definite nella presentazione. |
-| [getMasterNotesSlideManager()](#getMasterNotesSlideManager--) | Restituisce il gestore master delle note. |
-| [getMasterHandoutSlideManager()](#getMasterHandoutSlideManager--) | Restituisce il gestore master dei volanti. |
-| [getFontsManager()](#getFontsManager--) | Restituisce il gestore dei font. |
+| [getMasterNotesSlideManager()](#getMasterNotesSlideManager--) | Restituisce il gestore delle note master. |
+| [getMasterHandoutSlideManager()](#getMasterHandoutSlideManager--) | Restituisce il gestore del master della stampa. |
+| [getFontsManager()](#getFontsManager--) | Restituisce il gestore dei caratteri. |
 | [getDefaultTextStyle()](#getDefaultTextStyle--) | Restituisce lo stile di testo predefinito per le forme. |
 | [getCommentAuthors()](#getCommentAuthors--) | Restituisce la raccolta di autori dei commenti. |
-| [getDocumentProperties()](#getDocumentProperties--) | Restituisce l'oggetto DocumentProperties che contiene le proprietà del documento standard e personalizzate. |
+| [getDocumentProperties()](#getDocumentProperties--) | Restituisce l'oggetto DocumentProperties che contiene le proprietà standard e personalizzate del documento. |
 | [getImages()](#getImages--) | Restituisce la raccolta di tutte le immagini nella presentazione. |
 | [getAudios()](#getAudios--) | Restituisce la raccolta di tutti i file audio incorporati nella presentazione. |
 | [getVideos()](#getVideos--) | Restituisce la raccolta di tutti i file video incorporati nella presentazione. |
@@ -40,12 +40,12 @@ Documento di presentazione
 | [setVbaProject(IVbaProject value)](#setVbaProject-com.aspose.slides.IVbaProject-) | Ottiene il progetto VBA con le macro della presentazione. |
 | [getSourceFormat()](#getSourceFormat--) | Restituisce informazioni sul formato da cui è stata caricata la presentazione. |
 | [getMasterTheme()](#getMasterTheme--) | Restituisce il tema master della presentazione. |
-| [getHyperlinkQueries()](#getHyperlinkQueries--) | Fornisce un facile accesso a tutti i collegamenti ipertestuali contenuti in tutte le diapositive della presentazione (non nelle master, layout, diapositive note). |
-| [getViewProperties()](#getViewProperties--) | Ottiene le proprietà visualizzazione dell'intera presentazione. |
+| [getHyperlinkQueries()](#getHyperlinkQueries--) | Fornisce un facile accesso a tutti i collegamenti ipertestuali contenuti in tutte le diapositive della presentazione (non nei master, layout, diapositive note). |
+| [getViewProperties()](#getViewProperties--) | Ottiene le proprietà di visualizzazione a livello di presentazione. |
 | [getFirstSlideNumber()](#getFirstSlideNumber--) | Rappresenta il numero della prima diapositiva nella presentazione. |
 | [setFirstSlideNumber(int value)](#setFirstSlideNumber-int-) | Rappresenta il numero della prima diapositiva nella presentazione. |
-| [getAllCustomXmlParts()](#getAllCustomXmlParts--) | Restituisce tutte le parti dati personalizzate nella presentazione. |
-| [getDigitalSignatures()](#getDigitalSignatures--) | Restituisce la raccolta di firme usate per firmare la presentazione. |
+| [getAllCustomXmlParts()](#getAllCustomXmlParts--) | Restituisce tutte le parti di dati personalizzati nella presentazione. |
+| [getDigitalSignatures()](#getDigitalSignatures--) | Restituisce la raccolta di firme utilizzate per firmare la presentazione. |
 | [getSensitivityLabels()](#getSensitivityLabels--) | Restituisce la raccolta di etichette di sensibilità applicate al documento della presentazione. |
 | [save(String fname, int format)](#save-java.lang.String-int-) | Salva tutte le diapositive di una presentazione in un file con il formato specificato. |
 | [save(OutputStream stream, int format)](#save-java.io.OutputStream-int-) | Salva tutte le diapositive di una presentazione in uno stream nel formato specificato. |
@@ -56,19 +56,21 @@ Documento di presentazione
 | [save(OutputStream stream, int[] slides, int format)](#save-java.io.OutputStream-int---int-) | Salva le diapositive specificate di una presentazione in uno stream nel formato specificato. |
 | [save(OutputStream stream, int[] slides, int format, ISaveOptions options)](#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-) | Salva le diapositive specificate di una presentazione in uno stream nel formato specificato. |
 | [save(IXamlOptions options)](#save-com.aspose.slides.IXamlOptions-) | Salva tutte le diapositive di una presentazione in un insieme di file che rappresentano il markup XAML. |
-| [getImages(IRenderingOptions options)](#getImages-com.aspose.slides.IRenderingOptions-) | Restituisce oggetti immagine miniatura per tutte le diapositive di una presentazione. |
-| [getImages(IRenderingOptions options, int[] slides)](#getImages-com.aspose.slides.IRenderingOptions-int---) | Restituisce oggetti IImage miniatura per le diapositive specificate di una presentazione. |
-| [getImages(IRenderingOptions options, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-float-float-) | Restituisce oggetti immagine miniatura per tutte le diapositive di una presentazione con scala personalizzata. |
-| [getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-int---float-float-) | Restituisce oggetti immagine miniatura per le diapositive specificate di una presentazione con scala personalizzata. |
-| [getImages(IRenderingOptions options, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-) | Restituisce oggetti immagine miniatura per tutte le diapositive di una presentazione con dimensione specificata. |
-| [getImages(IRenderingOptions options, int[] slides, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-) | Restituisce oggetti immagine miniatura per le diapositive specificate di una presentazione con dimensione specificata. |
+| [getImages(IRenderingOptions options)](#getImages-com.aspose.slides.IRenderingOptions-) | Restituisce oggetti Image Thumbnail per tutte le diapositive della presentazione. |
+| [getImages(IRenderingOptions options, int[] slides)](#getImages-com.aspose.slides.IRenderingOptions-int---) | Restituisce oggetti IImage Thumbnail per le diapositive specificate della presentazione. |
+| [getImages(IRenderingOptions options, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-float-float-) | Restituisce oggetti Image Thumbnail per tutte le diapositive della presentazione con scala personalizzata. |
+| [getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-int---float-float-) | Restituisce oggetti Image Thumbnail per le diapositive specificate della presentazione con scala personalizzata. |
+| [getImages(IRenderingOptions options, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-) | Restituisce oggetti Image Thumbnail per tutte le diapositive della presentazione con dimensione specificata. |
+| [getImages(IRenderingOptions options, int[] slides, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-) | Restituisce oggetti Image Thumbnail per le diapositive specificate della presentazione con dimensione specificata. |
 | [getSlideById(long id)](#getSlideById-long-) | Restituisce una Slide, MasterSlide o LayoutSlide per Id. |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Unisce le run con la stessa formattazione in tutti i paragrafi di tutte le forme accettabili in tutte le diapositive. |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Unisce le run con la stessa formattazione in tutti i paragrafi in tutte le forme accettabili in tutte le diapositive. |
 | [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | Evidenzia tutte le corrispondenze del testo di esempio con il colore specificato. |
 | [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Evidenzia tutte le corrispondenze del testo di esempio con il colore specificato. |
 | [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | Evidenzia tutte le corrispondenze dell'espressione regolare con il colore specificato. |
 | [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Sostituisce tutte le occorrenze del testo specificato con un altro testo specificato. |
 | [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Sostituisce tutte le corrispondenze dell'espressione regolare con la stringa specificata. |
+| [refreshChartsData()](#refreshChartsData--) | Ricarica i dati per tutti i grafici nella presentazione dai relativi workbook di origine. |
+| [refreshChartsData(boolean skipFailedCharts)](#refreshChartsData-boolean-) | Ricarica i dati per tutti i grafici nella presentazione dai relativi workbook di origine. |
 
 ### getCurrentDateTime() {#getCurrentDateTime--}
 ```
@@ -97,7 +99,7 @@ Restituisce o imposta data e ora che sostituiranno il contenuto dei campi dateti
 public abstract IPresentationHeaderFooterManager getHeaderFooterManager()
 ```
 
-Restituisce il gestore HeaderFooter della presentazione. Solo lettura [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager).
+Restituisce il gestore HeaderFooter della presentazione. Sola lettura [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager).
 
 **Restituisce:**
 [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager)
@@ -107,7 +109,7 @@ Restituisce il gestore HeaderFooter della presentazione. Solo lettura [IPresenta
 public abstract IProtectionManager getProtectionManager()
 ```
 
-Ottiene il gestore delle autorizzazioni per questa presentazione. Solo lettura [IProtectionManager](../../com.aspose.slides/iprotectionmanager).
+Ottiene il gestore delle autorizzazioni per questa presentazione. Sola lettura [IProtectionManager](../../com.aspose.slides/iprotectionmanager).
 
 **Restituisce:**
 [IProtectionManager](../../com.aspose.slides/iprotectionmanager)
@@ -117,7 +119,7 @@ Ottiene il gestore delle autorizzazioni per questa presentazione. Solo lettura [
 public abstract ISlideCollection getSlides()
 ```
 
-Restituisce un elenco di tutte le diapositive definite nella presentazione. Solo lettura [ISlideCollection](../../com.aspose.slides/islidecollection).
+Restituisce un elenco di tutte le diapositive definite nella presentazione. Sola lettura [ISlideCollection](../../com.aspose.slides/islidecollection).
 
 **Restituisce:**
 [ISlideCollection](../../com.aspose.slides/islidecollection)
@@ -127,7 +129,7 @@ Restituisce un elenco di tutte le diapositive definite nella presentazione. Solo
 public abstract ISectionCollection getSections()
 ```
 
-Restituisce un elenco di tutte le sezioni diapositive definite nella presentazione. Solo lettura [ISectionCollection](../../com.aspose.slides/isectioncollection).
+Restituisce un elenco di tutte le sezioni diapositive definite nella presentazione. Sola lettura [ISectionCollection](../../com.aspose.slides/isectioncollection).
 
 **Restituisce:**
 [ISectionCollection](../../com.aspose.slides/isectioncollection)
@@ -137,7 +139,7 @@ Restituisce un elenco di tutte le sezioni diapositive definite nella presentazio
 public abstract ISlideSize getSlideSize()
 ```
 
-Restituisce l'oggetto dimensione diapositiva. Solo lettura [ISlideSize](../../com.aspose.slides/islidesize).
+Restituisce l'oggetto di dimensione della diapositiva. Sola lettura [ISlideSize](../../com.aspose.slides/islidesize).
 
 **Restituisce:**
 [ISlideSize](../../com.aspose.slides/islidesize)
@@ -147,7 +149,7 @@ Restituisce l'oggetto dimensione diapositiva. Solo lettura [ISlideSize](../../co
 public abstract INotesSize getNotesSize()
 ```
 
-Restituisce l'oggetto dimensione diapositiva note. Solo lettura [INotesSize](../../com.aspose.slides/inotessize).
+Restituisce l'oggetto di dimensione delle note della diapositiva. Sola lettura [INotesSize](../../com.aspose.slides/inotessize).
 
 **Restituisce:**
 [INotesSize](../../com.aspose.slides/inotessize)
@@ -157,11 +159,11 @@ Restituisce l'oggetto dimensione diapositiva note. Solo lettura [INotesSize](../
 public abstract IGlobalLayoutSlideCollection getLayoutSlides()
 ```
 
-Restituisce un elenco di tutte le diapositive layout definite nella presentazione. Solo lettura [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection).
+Restituisce un elenco di tutte le diapositive di layout definite nella presentazione. Sola lettura [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection).
 
 --------------------
 
-È possibile accedere a un'API alternativa per aggiungere/inserire/rimuovere/clonare diapositive layout utilizzando la proprietà IMasterSlide.LayoutSlides.
+È possibile accedere a un'API alternativa per aggiungere/inserire/rimuovere/clonare diapositive di layout utilizzando la proprietà IMasterSlide.LayoutSlides.
 
 **Restituisce:**
 [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection)
@@ -171,7 +173,7 @@ Restituisce un elenco di tutte le diapositive layout definite nella presentazion
 public abstract IMasterSlideCollection getMasters()
 ```
 
-Restituisce un elenco di tutte le diapositive master definite nella presentazione. Solo lettura [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection).
+Restituisce un elenco di tutte le diapositive master definite nella presentazione. Sola lettura [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection).
 
 **Restituisce:**
 [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection)
@@ -181,7 +183,7 @@ Restituisce un elenco di tutte le diapositive master definite nella presentazion
 public abstract IMasterNotesSlideManager getMasterNotesSlideManager()
 ```
 
-Restituisce il gestore master delle note. Solo lettura [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager).
+Restituisce il gestore delle note master. Sola lettura [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager).
 
 **Restituisce:**
 [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager)
@@ -191,7 +193,7 @@ Restituisce il gestore master delle note. Solo lettura [IMasterNotesSlideManager
 public abstract IMasterHandoutSlideManager getMasterHandoutSlideManager()
 ```
 
-Restituisce il gestore master dei volanti. Solo lettura [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager).
+Restituisce il gestore del master della stampa. Sola lettura [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager).
 
 **Restituisce:**
 [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager)
@@ -201,7 +203,7 @@ Restituisce il gestore master dei volanti. Solo lettura [IMasterHandoutSlideMana
 public abstract IFontsManager getFontsManager()
 ```
 
-Restituisce il gestore dei font. Solo lettura [IFontsManager](../../com.aspose.slides/ifontsmanager).
+Restituisce il gestore dei caratteri. Sola lettura [IFontsManager](../../com.aspose.slides/ifontsmanager).
 
 **Restituisce:**
 [IFontsManager](../../com.aspose.slides/ifontsmanager)
@@ -211,7 +213,7 @@ Restituisce il gestore dei font. Solo lettura [IFontsManager](../../com.aspose.s
 public abstract ITextStyle getDefaultTextStyle()
 ```
 
-Restituisce lo stile di testo predefinito per le forme. Solo lettura [ITextStyle](../../com.aspose.slides/itextstyle).
+Restituisce lo stile di testo predefinito per le forme. Sola lettura [ITextStyle](../../com.aspose.slides/itextstyle).
 
 **Restituisce:**
 [ITextStyle](../../com.aspose.slides/itextstyle)
@@ -221,7 +223,7 @@ Restituisce lo stile di testo predefinito per le forme. Solo lettura [ITextStyle
 public abstract ICommentAuthorCollection getCommentAuthors()
 ```
 
-Restituisce la raccolta di autori dei commenti. Solo lettura [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection).
+Restituisce la raccolta di autori dei commenti. Sola lettura [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection).
 
 **Restituisce:**
 [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection)
@@ -231,7 +233,7 @@ Restituisce la raccolta di autori dei commenti. Solo lettura [ICommentAuthorColl
 public abstract IDocumentProperties getDocumentProperties()
 ```
 
-Restituisce l'oggetto DocumentProperties che contiene le proprietà del documento standard e personalizzate. Solo lettura [IDocumentProperties](../../com.aspose.slides/idocumentproperties).
+Restituisce l'oggetto DocumentProperties che contiene le proprietà standard e personalizzate del documento. Sola lettura [IDocumentProperties](../../com.aspose.slides/idocumentproperties).
 
 **Restituisce:**
 [IDocumentProperties](../../com.aspose.slides/idocumentproperties)
@@ -241,7 +243,7 @@ Restituisce l'oggetto DocumentProperties che contiene le proprietà del document
 public abstract IImageCollection getImages()
 ```
 
-Restituisce la raccolta di tutte le immagini nella presentazione. Solo lettura [IImageCollection](../../com.aspose.slides/iimagecollection).
+Restituisce la raccolta di tutte le immagini nella presentazione. Sola lettura [IImageCollection](../../com.aspose.slides/iimagecollection).
 
 **Restituisce:**
 [IImageCollection](../../com.aspose.slides/iimagecollection)
@@ -251,7 +253,7 @@ Restituisce la raccolta di tutte le immagini nella presentazione. Solo lettura [
 public abstract IAudioCollection getAudios()
 ```
 
-Restituisce la raccolta di tutti i file audio incorporati nella presentazione. Solo lettura [IAudioCollection](../../com.aspose.slides/iaudiocollection).
+Restituisce la raccolta di tutti i file audio incorporati nella presentazione. Sola lettura [IAudioCollection](../../com.aspose.slides/iaudiocollection).
 
 **Restituisce:**
 [IAudioCollection](../../com.aspose.slides/iaudiocollection)
@@ -261,7 +263,7 @@ Restituisce la raccolta di tutti i file audio incorporati nella presentazione. S
 public abstract IVideoCollection getVideos()
 ```
 
-Restituisce la raccolta di tutti i file video incorporati nella presentazione. Solo lettura [IVideoCollection](../../com.aspose.slides/ivideocollection).
+Restituisce la raccolta di tutti i file video incorporati nella presentazione. Sola lettura [IVideoCollection](../../com.aspose.slides/ivideocollection).
 
 **Restituisce:**
 [IVideoCollection](../../com.aspose.slides/ivideocollection)
@@ -271,7 +273,7 @@ Restituisce la raccolta di tutti i file video incorporati nella presentazione. S
 public abstract ICustomData getCustomData()
 ```
 
-Restituisce i dati personalizzati della presentazione. Solo lettura [ICustomData](../../com.aspose.slides/icustomdata).
+Restituisce i dati personalizzati della presentazione. Sola lettura [ICustomData](../../com.aspose.slides/icustomdata).
 
 **Restituisce:**
 [ICustomData](../../com.aspose.slides/icustomdata)
@@ -303,7 +305,7 @@ Ottiene il progetto VBA con le macro della presentazione. Lettura/scrittura [IVb
 public abstract int getSourceFormat()
 ```
 
-Restituisce informazioni sul formato da cui è stata caricata la presentazione. Solo lettura [SourceFormat](../../com.aspose.slides/sourceformat).
+Restituisce informazioni sul formato da cui è stata caricata la presentazione. Sola lettura [SourceFormat](../../com.aspose.slides/sourceformat).
 
 **Restituisce:**
 int
@@ -313,7 +315,7 @@ int
 public abstract IMasterTheme getMasterTheme()
 ```
 
-Restituisce il tema master della presentazione. Solo lettura [IMasterTheme](../../com.aspose.slides/imastertheme).
+Restituisce il tema master della presentazione. Sola lettura [IMasterTheme](../../com.aspose.slides/imastertheme).
 
 **Restituisce:**
 [IMasterTheme](../../com.aspose.slides/imastertheme)
@@ -323,7 +325,7 @@ Restituisce il tema master della presentazione. Solo lettura [IMasterTheme](../.
 public abstract IHyperlinkQueries getHyperlinkQueries()
 ```
 
-Fornisce un facile accesso a tutti i collegamenti ipertestuali contenuti in tutte le diapositive della presentazione (non nelle master, layout, diapositive note). Solo lettura [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
+Fornisce un facile accesso a tutti i collegamenti ipertestuali contenuti in tutte le diapositive della presentazione (non nei master, layout, diapositive note). Sola lettura [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
 
 **Restituisce:**
 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)
@@ -333,7 +335,7 @@ Fornisce un facile accesso a tutti i collegamenti ipertestuali contenuti in tutt
 public abstract IViewProperties getViewProperties()
 ```
 
-Ottiene le proprietà visualizzazione dell'intera presentazione. Solo lettura [IViewProperties](../../com.aspose.slides/iviewproperties).
+Ottiene le proprietà di visualizzazione a livello di presentazione. Sola lettura [IViewProperties](../../com.aspose.slides/iviewproperties).
 
 **Restituisce:**
 [IViewProperties](../../com.aspose.slides/iviewproperties)
@@ -365,7 +367,7 @@ Rappresenta il numero della prima diapositiva nella presentazione. Lettura/scrit
 public abstract ICustomXmlPart[] getAllCustomXmlParts()
 ```
 
-Restituisce tutte le parti dati personalizzate nella presentazione. Solo lettura ICustomXmlPart[].
+Restituisce tutte le parti di dati personalizzati nella presentazione. Sola lettura ICustomXmlPart[].
 
 **Restituisce:**
 com.aspose.slides.ICustomXmlPart[]
@@ -375,7 +377,7 @@ com.aspose.slides.ICustomXmlPart[]
 public abstract IDigitalSignatureCollection getDigitalSignatures()
 ```
 
-Restituisce la raccolta di firme usate per firmare la presentazione. Solo lettura [IDigitalSignatureCollection](../../com.aspose.slides/idigitalsignaturecollection).
+Restituisce la raccolta di firme utilizzate per firmare la presentazione. Sola lettura [IDigitalSignatureCollection](../../com.aspose.slides/idigitalsignaturecollection).
 
 --------------------
 
@@ -403,7 +405,6 @@ Restituisce la raccolta di firme usate per firmare la presentazione. Solo lettur
 >  }
 > ```
 
-
 **Restituisce:**
 [IDigitalSignatureCollection](../../com.aspose.slides/idigitalsignaturecollection)
 
@@ -412,7 +413,7 @@ Restituisce la raccolta di firme usate per firmare la presentazione. Solo lettur
 public abstract ISensitivityLabelCollection getSensitivityLabels()
 ```
 
-Restituisce la raccolta di etichette di sensibilità applicate al documento della presentazione. Solo lettura [ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection).
+Restituisce la raccolta di etichette di sensibilità applicate al documento della presentazione. Sola lettura [ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection).
 
 --------------------
 
@@ -426,8 +427,8 @@ Restituisce la raccolta di etichette di sensibilità applicate al documento dell
 >          System.out.println("Label Id " + sensitivityLabel.getId() + " from Azure AD site " + sensitivityLabel.getSiteId());
 > 
 >      // Aggiungi la nuova etichetta
->      String labelIdString = "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"; // Ottieni l'ID dell'etichetta di sensibilità dalla politica
->      UUID siteIdGuid = UUID.fromString("{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"); // Ottieni l'identificatore del sito Azure AD dalla politica
+>      String labelIdString = "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"; // Ottieni l'Id dell'etichetta di sensibilità dalla policy
+>      UUID siteIdGuid = UUID.fromString("{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"); // Ottieni l'identificatore del sito Azure AD dalla policy
 >      ISensitivityLabel label = sensitivityLabels.add(labelIdString, siteIdGuid, true, SensitivityLabelAssignmentType.Privileged);
 >      label.getContentMarkTypes().addItem(SensitivityLabelContentType.Footer);
 > 
@@ -472,12 +473,13 @@ Salva tutte le diapositive di una presentazione in uno stream nel formato specif
 public abstract void save(String fname, int format, ISaveOptions options)
 ```
 
-Salva tutte le diapositive di una presentazione in un file con il formato specificato e con opzioni aggiuntive.
+Saves all slides of a presentation to a file with the specified format and with additional options.
+Saves all slides of a presentation to a file with the specified format and with additional options.
 
 **Parametri:**
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| fname | java.lang.String | Percorso del file da creare. |
+| fname | java.lang.String | Percorso del file creato. |
 | format | int | Formato dei dati esportati. |
 | options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Opzioni di formato aggiuntive. |
 
@@ -486,11 +488,10 @@ Salva tutte le diapositive di una presentazione in un file con il formato specif
 public abstract void save(OutputStream stream, int format, ISaveOptions options)
 ```
 
-
-Salva tutte le diapositive di una presentazione in uno stream nel formato specificato e con le opzioni aggiuntive.
+Saves all slides of a presentation to a stream in the specified format and with additional options.
 
 **Parametri:**
-| Parameter | Type | Description |
+| Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | stream | java.io.OutputStream | Stream di output. |
 | format | int | Formato dei dati esportati. |
@@ -501,11 +502,10 @@ Salva tutte le diapositive di una presentazione in uno stream nel formato specif
 public abstract void save(String fname, int[] slides, int format)
 ```
 
-
-Salva le diapositive specificate di una presentazione in un file con il formato specificato.
+Saves specified slides of a presentation to a file with the specified format.
 
 **Parametri:**
-| Parameter | Type | Description |
+| Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | fname | java.lang.String | Percorso del file creato. |
 | slides | int[] | Array con le posizioni delle diapositive, a partire da 1. |
@@ -516,11 +516,10 @@ Salva le diapositive specificate di una presentazione in un file con il formato 
 public abstract void save(String fname, int[] slides, int format, ISaveOptions options)
 ```
 
-
-Salva le diapositive specificate di una presentazione in un file con il formato specificato.
+Saves specified slides of a presentation to a file with the specified format.
 
 **Parametri:**
-| Parameter | Type | Description |
+| Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | fname | java.lang.String | Percorso del file creato. |
 | slides | int[] | Array con le posizioni delle diapositive, a partire da 1. |
@@ -532,11 +531,10 @@ Salva le diapositive specificate di una presentazione in un file con il formato 
 public abstract void save(OutputStream stream, int[] slides, int format)
 ```
 
-
-Salva le diapositive specificate di una presentazione in uno stream nel formato specificato.
+Saves specified slides of a presentation to a stream in the specified format.
 
 **Parametri:**
-| Parameter | Type | Description |
+| Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | stream | java.io.OutputStream | Stream di output. |
 | slides | int[] | Array con le posizioni delle diapositive, a partire da 1. |
@@ -547,11 +545,10 @@ Salva le diapositive specificate di una presentazione in uno stream nel formato 
 public abstract void save(OutputStream stream, int[] slides, int format, ISaveOptions options)
 ```
 
-
-Salva le diapositive specificate di una presentazione in uno stream nel formato specificato.
+Saves specified slides of a presentation to a stream in the specified format.
 
 **Parametri:**
-| Parameter | Type | Description |
+| Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | stream | java.io.OutputStream | Stream di output. |
 | slides | int[] | Array con le posizioni delle diapositive, a partire da 1. |
@@ -563,8 +560,7 @@ Salva le diapositive specificate di una presentazione in uno stream nel formato 
 public abstract void save(IXamlOptions options)
 ```
 
-
-Salva tutte le diapositive di una presentazione in un insieme di file che rappresentano il markup XAML.
+Saves all slides of a presentation to a set of files representing XAML markup.
 
 --------------------
 
@@ -580,9 +576,8 @@ Salva tutte le diapositive di una presentazione in un insieme di file che rappre
 >  }
 > ```
 
-
 **Parametri:**
-| Parameter | Type | Description |
+| Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | options | [IXamlOptions](../../com.aspose.slides/ixamloptions) | Le opzioni di formato XAML. |
 
@@ -591,98 +586,87 @@ Salva tutte le diapositive di una presentazione in un insieme di file che rappre
 public abstract IImage[] getImages(IRenderingOptions options)
 ```
 
-
-Restituisce oggetti Image di miniatura per tutte le diapositive di una presentazione.
+Returns a Thumbnail Image objects for all slides of a presentation.
 
 **Parametri:**
-| Parameter | Type | Description |
+| Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Opzioni di rendering. |
 
 **Restituisce:**
 com.aspose.slides.IImage[] - IImage objects.
-
 ### getImages(IRenderingOptions options, int[] slides) {#getImages-com.aspose.slides.IRenderingOptions-int---}
 ```
 public abstract IImage[] getImages(IRenderingOptions options, int[] slides)
 ```
 
-
-Restituisce oggetti IImage di miniatura per le diapositive specificate di una presentazione.
+Returns a Thumbnail IImage objects for specified slides of a presentation.
 
 **Parametri:**
-| Parameter | Type | Description |
+| Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Opzioni di rendering. |
 | slides | int[] | Array con le posizioni delle diapositive, a partire da 1. |
 
 **Restituisce:**
 com.aspose.slides.IImage[] - IImage objects.
-
 ### getImages(IRenderingOptions options, float scaleX, float scaleY) {#getImages-com.aspose.slides.IRenderingOptions-float-float-}
 ```
 public abstract IImage[] getImages(IRenderingOptions options, float scaleX, float scaleY)
 ```
 
-
-Restituisce oggetti Image di miniatura per tutte le diapositive di una presentazione con scalatura personalizzata.
+Returns a Thumbnail Image objects for all slides of a presentation with custom scaling.
 
 **Parametri:**
-| Parameter | Type | Description |
+| Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Opzioni di rendering. |
-| scaleX | float | Il valore di scala di questa miniatura lungo l'asse x. |
-| scaleY | float | Il valore di scala di questa miniatura lungo l'asse y. |
+| scaleX | float | Il valore con cui scalare questa miniatura nella direzione dell'asse x. |
+| scaleY | float | Il valore con cui scalare questa miniatura nella direzione dell'asse y. |
 
 **Restituisce:**
 com.aspose.slides.IImage[] - Bitmap objects.
-
 ### getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY) {#getImages-com.aspose.slides.IRenderingOptions-int---float-float-}
 ```
 public abstract IImage[] getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)
 ```
 
-
-Restituisce oggetti Image di miniatura per le diapositive specificate di una presentazione con scalatura personalizzata.
+Returns a Thumbnail Image objects for specified slides of a presentation with custom scaling.
 
 **Parametri:**
-| Parameter | Type | Description |
+| Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Opzioni di rendering. |
 | slides | int[] | Array con le posizioni delle diapositive, a partire da 1. |
-| scaleX | float | Il valore di scala di questa miniatura lungo l'asse x. |
-| scaleY | float | Il valore di scala di questa miniatura lungo l'asse y. |
+| scaleX | float | Il valore con cui scalare questa miniatura nella direzione dell'asse x. |
+| scaleY | float | Il valore con cui scalare questa miniatura nella direzione dell'asse y. |
 
 **Restituisce:**
 com.aspose.slides.IImage[] - IImage objects.
-
 ### getImages(IRenderingOptions options, Dimension imageSize) {#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-}
 ```
 public abstract IImage[] getImages(IRenderingOptions options, Dimension imageSize)
 ```
 
-
-Restituisce oggetti Image di miniatura per tutte le diapositive di una presentazione con dimensione specificata.
+Returns a Thumbnail Image objects for all slides of a presentation with specified size.
 
 **Parametri:**
-| Parameter | Type | Description |
+| Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Opzioni di rendering. |
 | imageSize | java.awt.Dimension | Dimensione dell'immagine da creare. |
 
 **Restituisce:**
 com.aspose.slides.IImage[] - IImage objects.
-
 ### getImages(IRenderingOptions options, int[] slides, Dimension imageSize) {#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-}
 ```
 public abstract IImage[] getImages(IRenderingOptions options, int[] slides, Dimension imageSize)
 ```
 
-
-Restituisce oggetti Image di miniatura per le diapositive specificate di una presentazione con dimensione specificata.
+Returns a Thumbnail Image objects for specified slides of a presentation with specified size.
 
 **Parametri:**
-| Parameter | Type | Description |
+| Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Opzioni di rendering. |
 | slides | int[] | Array con le posizioni delle diapositive, a partire da 1. |
@@ -690,38 +674,33 @@ Restituisce oggetti Image di miniatura per le diapositive specificate di una pre
 
 **Restituisce:**
 com.aspose.slides.IImage[] - IImage objects.
-
 ### getSlideById(long id) {#getSlideById-long-}
 ```
 public abstract IBaseSlide getSlideById(long id)
 ```
 
-
-Restituisce una Slide, MasterSlide o LayoutSlide per Id.
+Returns a Slide, MasterSlide or LayoutSlide by Id.
 
 **Parametri:**
-| Parameter | Type | Description |
+| Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | id | long | Id di una diapositiva. |
 
 **Restituisce:**
 [IBaseSlide](../../com.aspose.slides/ibaseslide) - IBaseSlide object.
-
 ### joinPortionsWithSameFormatting() {#joinPortionsWithSameFormatting--}
 ```
 public abstract void joinPortionsWithSameFormatting()
 ```
 
-
-Unisce le sezioni con la stessa formattazione in tutti i paragrafi in tutte le forme accettabili in tutte le diapositive.
+Joins runs with same formatting in all paragraphs in all acceptable shapes in all slides.
 
 ### highlightText(String text, Color highlightColor) {#highlightText-java.lang.String-java.awt.Color-}
 ```
 public abstract void highlightText(String text, Color highlightColor)
 ```
 
-
-Evidenzia tutte le corrispondenze del testo di esempio con il colore specificato.
+Highlights all matches of the sample text with the specified color.
 
 --------------------
 
@@ -730,7 +709,7 @@ Evidenzia tutte le corrispondenze del testo di esempio con il colore specificato
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
->      // evidenziando tutte le occorrenze separate di 'the'
+>      // evidenziare tutte le occorrenze separate di 'the'
 >      presentation.highlightText("the", Color.MAGENTA);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -740,18 +719,17 @@ Evidenzia tutte le corrispondenze del testo di esempio con il colore specificato
 
 
 **Parametri:**
-| Parameter | Type | Description |
+| Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | text | java.lang.String | Il testo da evidenziare. |
-| highlightColor | java.awt.Color | Il colore con cui evidenziare il testo. |
+| highlightColor | java.awt.Color | Il colore per evidenziare il testo. |
 
 ### highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
 public abstract void highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
-
-Evidenzia tutte le corrispondenze del testo di esempio con il colore specificato.
+Highlights all matches of the sample text with the specified color.
 
 --------------------
 
@@ -760,7 +738,7 @@ Evidenzia tutte le corrispondenze del testo di esempio con il colore specificato
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
->      // evidenziando tutte le occorrenze separate di 'the'
+>      // evidenziare tutte le occorrenze separate di 'the'
 >      presentation.highlightText("the", Color.MAGENTA);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -770,10 +748,10 @@ Evidenzia tutte le corrispondenze del testo di esempio con il colore specificato
 
 
 **Parametri:**
-| Parameter | Type | Description |
+| Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | text | java.lang.String | Il testo da evidenziare. |
-| highlightColor | java.awt.Color | Il colore con cui evidenziare il testo. |
+| highlightColor | java.awt.Color | Il colore per evidenziare il testo. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Opzioni di ricerca del testo [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | L'oggetto callback per ricevere i risultati della ricerca [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
@@ -782,8 +760,7 @@ Evidenzia tutte le corrispondenze del testo di esempio con il colore specificato
 public abstract void highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)
 ```
 
-
-Evidenzia tutte le corrispondenze dell'espressione regolare con il colore specificato.
+Highlights all matches of the regular expression with the specified color.
 
 --------------------
 
@@ -792,7 +769,7 @@ Evidenzia tutte le corrispondenze dell'espressione regolare con il colore specif
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
->      // evidenziando tutte le occorrenze separate di 'the'
+>      // evidenziare tutte le occorrenze separate di 'the'
 >      presentation.highlightText("the", Color.MAGENTA);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -802,10 +779,10 @@ Evidenzia tutte le corrispondenze dell'espressione regolare con il colore specif
 
 
 **Parametri:**
-| Parameter | Type | Description |
+| Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | regex | java.util.regex.Pattern | L'espressione regolare java.util.regex.Pattern per ottenere le stringhe da evidenziare. |
-| highlightColor | java.awt.Color | Il colore con cui evidenziare il testo. |
+| highlightColor | java.awt.Color | Il colore per evidenziare il testo. |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | L'oggetto callback per ricevere i risultati della ricerca [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback) {#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
@@ -813,8 +790,7 @@ Evidenzia tutte le corrispondenze dell'espressione regolare con il colore specif
 public abstract void replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
-
-Sostituisce tutte le occorrenze del testo specificato con un altro testo specificato.
+Replaces all occurrences of the specified text with another specified text.
 
 --------------------
 
@@ -835,10 +811,10 @@ Sostituisce tutte le occorrenze del testo specificato con un altro testo specifi
 
 
 **Parametri:**
-| Parameter | Type | Description |
+| Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | oldText | java.lang.String | La stringa da sostituire. |
-| newText | java.lang.String | La stringa con cui sostituire tutte le occorrenze di oldText. |
+| newText | java.lang.String | La stringa per sostituire tutte le occorrenze di oldText. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Opzioni di ricerca del testo [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | L'oggetto callback per ricevere i risultati della ricerca [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
@@ -847,13 +823,12 @@ Sostituisce tutte le occorrenze del testo specificato con un altro testo specifi
 public abstract void replaceRegex(Pattern regex, String newText, IFindResultCallback callback)
 ```
 
-
-Sostituisce tutte le corrispondenze dell'espressione regolare con la stringa specificata.
+Replaces all matches of the regular expression with the specified string.
 
 --------------------
 
 > ```
-> Il seguente esempio di codice mostra come sostituire il testo usando un'espressione regolare con la stringa specificata.
+> The following code sample shows how to replace text using regular expression with the specified string.
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx")
 >  try {
@@ -869,8 +844,52 @@ Sostituisce tutte le corrispondenze dell'espressione regolare con la stringa spe
 
 
 **Parametri:**
-| Parameter | Type | Description |
+| Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | regex | java.util.regex.Pattern | L'espressione regolare java.util.regex.Pattern per ottenere le stringhe da sostituire. |
-| newText | java.lang.String | La stringa con cui sostituire tutte le occorrenze delle stringhe da sostituire. |
+| newText | java.lang.String | La stringa per sostituire tutte le occorrenze delle stringhe da sostituire. |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | L'oggetto callback per ricevere i risultati della ricerca [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+
+### refreshChartsData() {#refreshChartsData--}
+```
+public abstract void refreshChartsData()
+```
+
+Reloads the data for all charts in the presentation from their source workbooks.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("PresentationWithCharts.pptx");
+>  try {
+>      presentation.refreshChartsData();
+>      presentation.save("PresentationWithCharts-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+
+### refreshChartsData(boolean skipFailedCharts) {#refreshChartsData-boolean-}
+```
+public abstract void refreshChartsData(boolean skipFailedCharts)
+```
+
+Reloads the data for all charts in the presentation from their source workbooks.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("PresentationWithCharts.pptx");
+>  try {
+>      presentation.refreshChartsData();
+>      presentation.save("PresentationWithCharts-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Parametri:**
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| skipFailedCharts | boolean | Determina se il processo di aggiornamento continua nel caso un grafico non riesca ad aggiornarsi. Se true, i grafici che causano un'eccezione vengono omessi; altrimenti l'eccezione viene propagata. |

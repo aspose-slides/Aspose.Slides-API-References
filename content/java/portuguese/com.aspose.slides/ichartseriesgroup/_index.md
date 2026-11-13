@@ -15,7 +15,7 @@ Representa um grupo de séries.
 
 --------------------
 
-1) Veja o resumo e as observações para a classe ChartSeriesGroupCollection e o enum CombinableSeriesTypesGroup. 2) O grupo de séries contém algumas propriedades de série que são comuns a cada série no grupo (“propriedades do grupo de séries”). As “propriedades do grupo de séries” na classe ChartSeriesGroup são leitura/gravação. Cada uma das “propriedades do grupo de séries” pode ter uma projeção somente leitura na classe ChartSeries.
+1) Consulte o resumo e as observações para a classe ChartSeriesGroupCollection e o enum CombinableSeriesTypesGroup. 2) Grupo de séries contém algumas propriedades de série que são comuns a cada série no grupo ("propriedades do grupo de séries"). "Propriedades do grupo de séries" na classe ChartSeriesGroup são de leitura/gravação. Cada uma das "propriedades do grupo de séries" pode ter uma projeção somente leitura na classe ChartSeries.
 
 ## Métodos
 
@@ -25,31 +25,31 @@ Representa um grupo de séries.
 | [getPlotOnSecondAxis()](#getPlotOnSecondAxis--) | Indica se as séries deste grupo são plotadas em eixo secundário. |
 | [getSeries()](#getSeries--) | Retorna uma coleção somente leitura de séries de gráfico. |
 | [get_Item(int index)](#get-Item-int-) | Obtém o elemento no índice especificado. |
-| [getUpDownBars()](#getUpDownBars--) | Fornece acesso às barras up/down de gráficos Line- ou Stock-. |
-| [getGapWidth()](#getGapWidth--) | Especifica o espaço entre grupos de barras ou colunas, como porcentagem da largura da barra ou coluna. |
-| [setGapWidth(int value)](#setGapWidth-int-) | Especifica o espaço entre grupos de barras ou colunas, como porcentagem da largura da barra ou coluna. |
-| [getGapDepth()](#getGapDepth--) | Retorna ou define a distância, como porcentagem da largura do marcador, entre as séries de dados em um gráfico 3D. |
-| [setGapDepth(int value)](#setGapDepth-int-) | Retorna ou define a distância, como porcentagem da largura do marcador, entre as séries de dados em um gráfico 3D. |
-| [getFirstSliceAngle()](#getFirstSliceAngle--) | Obtém ou define o ângulo da primeira fatia de gráfico de pizza ou rosquinha, em graus (no sentido horário a partir do topo, de 0 a 360 graus). |
-| [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | Obtém ou define o ângulo da primeira fatia de gráfico de pizza ou rosquinha, em graus (no sentido horário a partir do topo, de 0 a 360 graus). |
+| [getUpDownBars()](#getUpDownBars--) | Fornece acesso às barras de alta/baixa de gráfico de Linha ou Estoque. |
+| [getGapWidth()](#getGapWidth--) | Obtém ou define o espaço entre grupos de barras ou colunas, como porcentagem da largura da barra ou coluna. |
+| [setGapWidth(int value)](#setGapWidth-int-) | Obtém ou define o espaço entre grupos de barras ou colunas, como porcentagem da largura da barra ou coluna. |
+| [getGapDepth()](#getGapDepth--) | Obtém ou define a distância entre séries de dados em um gráfico 3D, como porcentagem da largura do marcador. |
+| [setGapDepth(int value)](#setGapDepth-int-) | Obtém ou define a distância entre séries de dados em um gráfico 3D, como porcentagem da largura do marcador. |
+| [getFirstSliceAngle()](#getFirstSliceAngle--) | Obtém ou define o ângulo da primeira fatia de gráfico de pizza ou rosquinha, em graus (no sentido horário a partir de cima, de 0 a 360 graus). |
+| [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | Obtém ou define o ângulo da primeira fatia de gráfico de pizza ou rosquinha, em graus (no sentido horário a partir de cima, de 0 a 360 graus). |
 | [isColorVaried()](#isColorVaried--) | Especifica que cada marcador de dados na série tem uma cor diferente. |
 | [setColorVaried(boolean value)](#setColorVaried-boolean-) | Especifica que cada marcador de dados na série tem uma cor diferente. |
-| [hasSeriesLines()](#hasSeriesLines--) | Verdadeiro se o gráfico possui linhas de série. |
-| [setSeriesLines(boolean value)](#setSeriesLines-boolean-) | Verdadeiro se o gráfico possui linhas de série. |
-| [getOverlap()](#getOverlap--) | Especifica o quanto as barras e colunas devem se sobrepor em gráficos 2-D, como porcentagem (de -100% a 100%). |
-| [setOverlap(byte value)](#setOverlap-byte-) | Especifica o quanto as barras e colunas devem se sobrepor em gráficos 2-D, como porcentagem (de -100% a 100%). |
-| [getSecondPieSize()](#getSecondPieSize--) | Especifica o tamanho da segunda pizza ou barra de um gráfico pie-of-pie ou bar-of-pie, como porcentagem do tamanho da primeira pizza (pode ser entre 5 e 200%). |
-| [setSecondPieSize(int value)](#setSecondPieSize-int-) | Especifica o tamanho da segunda pizza ou barra de um gráfico pie-of-pie ou bar-of-pie, como porcentagem do tamanho da primeira pizza (pode ser entre 5 e 200%). |
-| [getPieSplitPosition()](#getPieSplitPosition--) | Especifica um valor que será usado para determinar quais pontos de dados estão na segunda pizza ou barra em um gráfico pie-of-pie ou bar-of-pie. |
-| [setPieSplitPosition(double value)](#setPieSplitPosition-double-) | Especifica um valor que será usado para determinar quais pontos de dados estão na segunda pizza ou barra em um gráfico pie-of-pie ou bar-of-pie. |
-| [getPieSplitBy()](#getPieSplitBy--) | Especifica como determinar quais pontos de dados estão na segunda pizza ou barra em um gráfico pie-of-pie ou bar-of-pie. |
-| [setPieSplitBy(int value)](#setPieSplitBy-int-) | Especifica como determinar quais pontos de dados estão na segunda pizza ou barra em um gráfico pie-of-pie ou bar-of-pie. |
-| [getPieSplitCustomPoints()](#getPieSplitCustomPoints--) | As informações de divisão personalizada para um gráfico pie-of-pie ou bar-of-pie com divisão personalizada. |
-| [getDoughnutHoleSize()](#getDoughnutHoleSize--) | Especifica o tamanho do buraco em um gráfico de rosquinha (pode ser entre 10 e 90% do tamanho da área de plotagem). |
-| [setDoughnutHoleSize(byte value)](#setDoughnutHoleSize-byte-) | Especifica o tamanho do buraco em um gráfico de rosquinha (pode ser entre 10 e 90% do tamanho da área de plotagem). |
-| [getBubbleSizeScale()](#getBubbleSizeScale--) | Especifica o fator de escala para o gráfico de bolhas (pode ser entre 0 e 300% do tamanho padrão). |
-| [setBubbleSizeScale(int value)](#setBubbleSizeScale-int-) | Especifica o fator de escala para o gráfico de bolhas (pode ser entre 0 e 300% do tamanho padrão). |
-| [getHiLowLinesFormat()](#getHiLowLinesFormat--) | Especifica o formato de HiLowLines. |
+| [hasSeriesLines()](#hasSeriesLines--) | Verdadeiro se o gráfico tem linhas de série. |
+| [setSeriesLines(boolean value)](#setSeriesLines-boolean-) | Verdadeiro se o gráfico tem linhas de série. |
+| [getOverlap()](#getOverlap--) | Especifica quanto as barras e colunas devem se sobrepor em gráficos 2D, como porcentagem (de -100% a 100%). |
+| [setOverlap(byte value)](#setOverlap-byte-) | Especifica quanto as barras e colunas devem se sobrepor em gráficos 2D, como porcentagem (de -100% a 100%). |
+| [getSecondPieSize()](#getSecondPieSize--) | Especifica o tamanho da segunda pizza ou barra de um gráfico pizza-de-pizza ou barra-de-pizza, como porcentagem do tamanho da primeira pizza (pode estar entre 5 e 200 por cento). |
+| [setSecondPieSize(int value)](#setSecondPieSize-int-) | Especifica o tamanho da segunda pizza ou barra de um gráfico pizza-de-pizza ou barra-de-pizza, como porcentagem do tamanho da primeira pizza (pode estar entre 5 e 200 por cento). |
+| [getPieSplitPosition()](#getPieSplitPosition--) | Especifica um valor que será usado para determinar quais pontos de dados estão na segunda pizza ou barra em um gráfico pizza-de-pizza ou barra-de-pizza. |
+| [setPieSplitPosition(double value)](#setPieSplitPosition-double-) | Especifica um valor que será usado para determinar quais pontos de dados estão na segunda pizza ou barra em um gráfico pizza-de-pizza ou barra-de-pizza. |
+| [getPieSplitBy()](#getPieSplitBy--) | Especifica como determinar quais pontos de dados estão na segunda pizza ou barra em um gráfico pizza-de-pizza ou barra-de-pizza. |
+| [setPieSplitBy(int value)](#setPieSplitBy-int-) | Especifica como determinar quais pontos de dados estão na segunda pizza ou barra em um gráfico pizza-de-pizza ou barra-de-pizza. |
+| [getPieSplitCustomPoints()](#getPieSplitCustomPoints--) | A informação de divisão personalizada para um gráfico pizza-de-pizza ou barra-de-pizza com divisão personalizada. |
+| [getDoughnutHoleSize()](#getDoughnutHoleSize--) | Especifica o tamanho do buraco em um gráfico rosquinha (pode estar entre 10 e 90 por cento do tamanho da área de plotagem). |
+| [setDoughnutHoleSize(byte value)](#setDoughnutHoleSize-byte-) | Especifica o tamanho do buraco em um gráfico rosquinha (pode estar entre 10 e 90 por cento do tamanho da área de plotagem). |
+| [getBubbleSizeScale()](#getBubbleSizeScale--) | Especifica o fator de escala para o gráfico de bolhas (pode estar entre 0 e 300 por cento do tamanho padrão). |
+| [setBubbleSizeScale(int value)](#setBubbleSizeScale-int-) | Especifica o fator de escala para o gráfico de bolhas (pode estar entre 0 e 300 por cento do tamanho padrão). |
+| [getHiLowLinesFormat()](#getHiLowLinesFormat--) | Especifica o formato HiLowLines. |
 | [getBubbleSizeRepresentation()](#getBubbleSizeRepresentation--) | Especifica como os valores de tamanho de bolha são representados no gráfico de bolhas. |
 | [setBubbleSizeRepresentation(int value)](#setBubbleSizeRepresentation-int-) | Especifica como os valores de tamanho de bolha são representados no gráfico de bolhas. |
 
@@ -103,7 +103,7 @@ Obtém o elemento no índice especificado.
 public abstract IUpDownBarsManager getUpDownBars()
 ```
 
-Fornece acesso às barras up/down de gráficos Line- ou Stock-. Somente leitura [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager).
+Fornece acesso às barras de alta/baixa de gráfico de Linha ou Estoque. Somente leitura [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager).
 
 **Retorna:**
 [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager)
@@ -113,7 +113,11 @@ Fornece acesso às barras up/down de gráficos Line- ou Stock-. Somente leitura 
 public abstract int getGapWidth()
 ```
 
-Especifica o espaço entre grupos de barras ou colunas, como porcentagem da largura da barra ou coluna. Leitura/gravação int.
+Obtém ou define o espaço entre grupos de barras ou colunas, como porcentagem da largura da barra ou coluna. O valor deve estar entre 0 e 500. Leitura/gravação int.
+
+--------------------
+
+Esta propriedade se aplica a séries dos seguintes tipos: Todos os subtipos de barra e coluna, [ChartType.BarOfPie](../../com.aspose.slides/charttype\#BarOfPie), [ChartType.PieOfPie](../../com.aspose.slides/charttype\#PieOfPie), [ChartType.BoxAndWhisker](../../com.aspose.slides/charttype\#BoxAndWhisker), [ChartType.Funnel](../../com.aspose.slides/charttype\#Funnel), [ChartType.Histogram](../../com.aspose.slides/charttype\#Histogram), [ChartType.Waterfall](../../com.aspose.slides/charttype\#Waterfall).
 
 **Retorna:**
 int
@@ -123,7 +127,11 @@ int
 public abstract void setGapWidth(int value)
 ```
 
-Especifica o espaço entre grupos de barras ou colunas, como porcentagem da largura da barra ou coluna. Leitura/gravação int.
+Obtém ou define o espaço entre grupos de barras ou colunas, como porcentagem da largura da barra ou coluna. O valor deve estar entre 0 e 500. Leitura/gravação int.
+
+--------------------
+
+Esta propriedade se aplica a séries dos seguintes tipos: Todos os subtipos de barra e coluna, [ChartType.BarOfPie](../../com.aspose.slides/charttype\#BarOfPie), [ChartType.PieOfPie](../../com.aspose.slides/charttype\#PieOfPie), [ChartType.BoxAndWhisker](../../com.aspose.slides/charttype\#BoxAndWhisker), [ChartType.Funnel](../../com.aspose.slides/charttype\#Funnel), [ChartType.Histogram](../../com.aspose.slides/charttype\#Histogram), [ChartType.Waterfall](../../com.aspose.slides/charttype\#Waterfall).
 
 **Parâmetros:**
 | Parâmetro | Tipo | Descrição |
@@ -135,7 +143,11 @@ Especifica o espaço entre grupos de barras ou colunas, como porcentagem da larg
 public abstract int getGapDepth()
 ```
 
-Retorna ou define a distância, como porcentagem da largura do marcador, entre as séries de dados em um gráfico 3D. Leitura/gravação int.
+Obtém ou define a distância entre séries de dados em um gráfico 3D, como porcentagem da largura do marcador. O valor deve estar entre 0 e 500. Leitura/gravação int.
+
+--------------------
+
+Esta propriedade se aplica a séries dos seguintes tipos: Subtipos de barra e coluna 3D, [ChartType.Line3D](../../com.aspose.slides/charttype\#Line3D), [ChartType.Area3D](../../com.aspose.slides/charttype\#Area3D), [ChartType.StackedArea3D](../../com.aspose.slides/charttype\#StackedArea3D), [ChartType.PercentsStackedArea3D](../../com.aspose.slides/charttype\#PercentsStackedArea3D).
 
 **Retorna:**
 int
@@ -145,7 +157,11 @@ int
 public abstract void setGapDepth(int value)
 ```
 
-Retorna ou define a distância, como porcentagem da largura do marcador, entre as séries de dados em um gráfico 3D. Leitura/gravação int.
+Obtém ou define a distância entre séries de dados em um gráfico 3D, como porcentagem da largura do marcador. O valor deve estar entre 0 e 500. Leitura/gravação int.
+
+--------------------
+
+Esta propriedade se aplica a séries dos seguintes tipos: Subtipos de barra e coluna 3D, [ChartType.Line3D](../../com.aspose.slides/charttype\#Line3D), [ChartType.Area3D](../../com.aspose.slides/charttype\#Area3D), [ChartType.StackedArea3D](../../com.aspose.slides/charttype\#StackedArea3D), [ChartType.PercentsStackedArea3D](../../com.aspose.slides/charttype\#PercentsStackedArea3D).
 
 **Parâmetros:**
 | Parâmetro | Tipo | Descrição |
@@ -157,7 +173,7 @@ Retorna ou define a distância, como porcentagem da largura do marcador, entre a
 public abstract int getFirstSliceAngle()
 ```
 
-Obtém ou define o ângulo da primeira fatia de gráfico de pizza ou rosquinha, em graus (no sentido horário a partir do topo, de 0 a 360 graus). Leitura/gravação int.
+Obtém ou define o ângulo da primeira fatia de gráfico de pizza ou rosquinha, em graus (no sentido horário a partir de cima, de 0 a 360 graus). Leitura/gravação int.
 
 **Retorna:**
 int
@@ -167,7 +183,7 @@ int
 public abstract void setFirstSliceAngle(int value)
 ```
 
-Obtém ou define o ângulo da primeira fatia de gráfico de pizza ou rosquinha, em graus (no sentido horário a partir do topo, de 0 a 360 graus). Leitura/gravação int.
+Obtém ou define o ângulo da primeira fatia de gráfico de pizza ou rosquinha, em graus (no sentido horário a partir de cima, de 0 a 360 graus). Leitura/gravação int.
 
 **Parâmetros:**
 | Parâmetro | Tipo | Descrição |
@@ -201,7 +217,7 @@ Especifica que cada marcador de dados na série tem uma cor diferente. Leitura/g
 public abstract boolean hasSeriesLines()
 ```
 
-Verdadeiro se o gráfico possui linhas de série. Aplicado a gráficos de barra empilhada e OfPie. Leitura/gravação boolean.
+Verdadeiro se o gráfico tem linhas de série. Aplicado a gráficos de barra empilhada e OfPie. Leitura/gravação boolean.
 
 **Retorna:**
 boolean
@@ -211,7 +227,7 @@ boolean
 public abstract void setSeriesLines(boolean value)
 ```
 
-Verdadeiro se o gráfico possui linhas de série. Aplicado a gráficos de barra empilhada e OfPie. Leitura/gravação boolean.
+Verdadeiro se o gráfico tem linhas de série. Aplicado a gráficos de barra empilhada e OfPie. Leitura/gravação boolean.
 
 **Parâmetros:**
 | Parâmetro | Tipo | Descrição |
@@ -223,7 +239,7 @@ Verdadeiro se o gráfico possui linhas de série. Aplicado a gráficos de barra 
 public abstract byte getOverlap()
 ```
 
-Especifica o quanto as barras e colunas devem se sobrepor em gráficos 2-D, como porcentagem (de -100% a 100%). - -100%: espaçamento máximo (barras totalmente separadas). - 0%: barras lado a lado sem sobreposição ou espaçamento. - 100%: sobreposição máxima (barras totalmente sobrepostas). Esta propriedade é leitura/gravação byte.
+Especifica quanto as barras e colunas devem se sobrepor em gráficos 2D, como porcentagem (de -100% a 100%). - -100%: Espaçamento máximo (barras completamente separadas). - 0%: Barras posicionadas lado a lado sem sobreposição ou espaçamento. - 100%: Sobreposição máxima (barras se sobrepõem completamente). Esta propriedade é leitura/gravação byte.
 
 --------------------
 
@@ -251,7 +267,7 @@ byte
 public abstract void setOverlap(byte value)
 ```
 
-Especifica o quanto as barras e colunas devem se sobrepor em gráficos 2-D, como porcentagem (de -100% a 100%). - -100%: espaçamento máximo (barras totalmente separadas). - 0%: barras lado a lado sem sobreposição ou espaçamento. - 100%: sobreposição máxima (barras totalmente sobrepostas). Esta propriedade é leitura/gravação byte.
+Especifica quanto as barras e colunas devem se sobrepor em gráficos 2D, como porcentagem (de -100% a 100%). - -100%: Espaçamento máximo (barras completamente separadas). - 0%: Barras posicionadas lado a lado sem sobreposição ou espaçamento. - 100%: Sobreposição máxima (barras se sobrepõem completamente). Esta propriedade é leitura/gravação byte.
 
 --------------------
 
@@ -281,7 +297,7 @@ Especifica o quanto as barras e colunas devem se sobrepor em gráficos 2-D, como
 public abstract int getSecondPieSize()
 ```
 
-Especifica o tamanho da segunda pizza ou barra de um gráfico pie-of-pie ou bar-of-pie, como porcentagem do tamanho da primeira pizza (pode ser entre 5 e 200%). Leitura/gravação int.
+Especifica o tamanho da segunda pizza ou barra de um gráfico pizza-de-pizza ou barra-de-pizza, como porcentagem do tamanho da primeira pizza (pode estar entre 5 e 200 por cento). Leitura/gravação int.
 
 **Retorna:**
 int
@@ -291,7 +307,7 @@ int
 public abstract void setSecondPieSize(int value)
 ```
 
-Especifica o tamanho da segunda pizza ou barra de um gráfico pie-of-pie ou bar-of-pie, como porcentagem do tamanho da primeira pizza (pode ser entre 5 e 200%). Leitura/gravação int.
+Especifica o tamanho da segunda pizza ou barra de um gráfico pizza-de-pizza ou barra-de-pizza, como porcentagem do tamanho da primeira pizza (pode estar entre 5 e 200 por cento). Leitura/gravação int.
 
 **Parâmetros:**
 | Parâmetro | Tipo | Descrição |
@@ -303,7 +319,7 @@ Especifica o tamanho da segunda pizza ou barra de um gráfico pie-of-pie ou bar-
 public abstract double getPieSplitPosition()
 ```
 
-Especifica um valor que será usado para determinar quais pontos de dados estão na segunda pizza ou barra em um gráfico pie-of-pie ou bar-of-pie. É usado junto com a propriedade PieSplitBy. Leitura/gravação double.
+Especifica um valor que será usado para determinar quais pontos de dados estão na segunda pizza ou barra em um gráfico pizza-de-pizza ou barra-de-pizza. É usado junto com a propriedade PieSplitBy. Leitura/gravação double.
 
 **Retorna:**
 double
@@ -313,7 +329,7 @@ double
 public abstract void setPieSplitPosition(double value)
 ```
 
-Especifica um valor que será usado para determinar quais pontos de dados estão na segunda pizza ou barra em um gráfico pie-of-pie ou bar-of-pie. É usado junto com a propriedade PieSplitBy. Leitura/gravação double.
+Especifica um valor que será usado para determinar quais pontos de dados estão na segunda pizza ou barra em um gráfico pizza-de-pizza ou barra-de-pizza. É usado junto com a propriedade PieSplitBy. Leitura/gravação double.
 
 **Parâmetros:**
 | Parâmetro | Tipo | Descrição |
@@ -325,7 +341,7 @@ Especifica um valor que será usado para determinar quais pontos de dados estão
 public abstract int getPieSplitBy()
 ```
 
-Especifica como determinar quais pontos de dados estão na segunda pizza ou barra em um gráfico pie-of-pie ou bar-of-pie. Leitura/gravação [PieSplitType](../../com.aspose.slides/piesplittype).
+Especifica como determinar quais pontos de dados estão na segunda pizza ou barra em um gráfico pizza-de-pizza ou barra-de-pizza. Leitura/gravação [PieSplitType](../../com.aspose.slides/piesplittype).
 
 **Retorna:**
 int
@@ -335,7 +351,7 @@ int
 public abstract void setPieSplitBy(int value)
 ```
 
-Especifica como determinar quais pontos de dados estão na segunda pizza ou barra em um gráfico pie-of-pie ou bar-of-pie. Leitura/gravação [PieSplitType](../../com.aspose.slides/piesplittype).
+Especifica como determinar quais pontos de dados estão na segunda pizza ou barra em um gráfico pizza-de-pizza ou barra-de-pizza. Leitura/gravação [PieSplitType](../../com.aspose.slides/piesplittype).
 
 **Parâmetros:**
 | Parâmetro | Tipo | Descrição |
@@ -347,7 +363,7 @@ Especifica como determinar quais pontos de dados estão na segunda pizza ou barr
 public abstract IPieSplitCustomPointCollection getPieSplitCustomPoints()
 ```
 
-As informações de divisão personalizada para um gráfico pie-of-pie ou bar-of-pie com divisão personalizada. Contém pontos de dados que deverão ser desenhados na segunda pizza ou barra em um gráfico pie-of-pie ou bar-of-pie. Somente leitura [IPieSplitCustomPointCollection](../../com.aspose.slides/ipiesplitcustompointcollection).
+A informação de divisão personalizada para um gráfico pizza-de-pizza ou barra-de-pizza com divisão personalizada. Contém pontos de dados que devem ser desenhados na segunda pizza ou barra em um gráfico pizza-de-pizza ou barra-de-pizza. Somente leitura [IPieSplitCustomPointCollection](../../com.aspose.slides/ipiesplitcustompointcollection).
 
 **Retorna:**
 [IPieSplitCustomPointCollection](../../com.aspose.slides/ipiesplitcustompointcollection)
@@ -357,7 +373,7 @@ As informações de divisão personalizada para um gráfico pie-of-pie ou bar-of
 public abstract byte getDoughnutHoleSize()
 ```
 
-Especifica o tamanho do buraco em um gráfico de rosquinha (pode ser entre 10 e 90% do tamanho da área de plotagem). Leitura/gravação byte.
+Especifica o tamanho do buraco em um gráfico rosquinha (pode estar entre 10 e 90 por cento do tamanho da área de plotagem). Leitura/gravação byte.
 
 **Retorna:**
 byte
@@ -367,7 +383,7 @@ byte
 public abstract void setDoughnutHoleSize(byte value)
 ```
 
-Especifica o tamanho do buraco em um gráfico de rosquinha (pode ser entre 10 e 90% do tamanho da área de plotagem). Leitura/gravação byte.
+Especifica o tamanho do buraco em um gráfico rosquinha (pode estar entre 10 e 90 por cento do tamanho da área de plotagem). Leitura/gravação byte.
 
 **Parâmetros:**
 | Parâmetro | Tipo | Descrição |
@@ -379,7 +395,7 @@ Especifica o tamanho do buraco em um gráfico de rosquinha (pode ser entre 10 e 
 public abstract int getBubbleSizeScale()
 ```
 
-Especifica o fator de escala para o gráfico de bolhas (pode ser entre 0 e 300% do tamanho padrão). Leitura/gravação int.
+Especifica o fator de escala para o gráfico de bolhas (pode estar entre 0 e 300 por cento do tamanho padrão). Leitura/gravação int.
 
 **Retorna:**
 int
@@ -389,7 +405,7 @@ int
 public abstract void setBubbleSizeScale(int value)
 ```
 
-Especifica o fator de escala para o gráfico de bolhas (pode ser entre 0 e 300% do tamanho padrão). Leitura/gravação int.
+Especifica o fator de escala para o gráfico de bolhas (pode estar entre 0 e 300 por cento do tamanho padrão). Leitura/gravação int.
 
 **Parâmetros:**
 | Parâmetro | Tipo | Descrição |
@@ -401,7 +417,7 @@ Especifica o fator de escala para o gráfico de bolhas (pode ser entre 0 e 300% 
 public abstract IChartLinesFormat getHiLowLinesFormat()
 ```
 
-Especifica o formato de HiLowLines. HiLowLines aplicado com os tipos de gráfico HiLowClose, OpenHiLowClose, VolumeHiLowClose e VolumeOpenHiLowClose.
+Especifica o formato HiLowLines. HiLowLines é aplicado com os tipos de gráfico HiLowClose, OpenHiLowClose, VolumeHiLowClose e VolumeOpenHiLowClose.
 
 **Retorna:**
 [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat)

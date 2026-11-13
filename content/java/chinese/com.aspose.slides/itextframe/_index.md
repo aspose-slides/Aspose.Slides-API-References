@@ -5,7 +5,7 @@ description: 表示一个 TextFrame。
 type: docs
 url: /zh/com.aspose.slides/itextframe/
 ---
-**所有实现的接口：**
+**All Implemented Interfaces:**
 [com.aspose.slides.ISlideComponent](../../com.aspose.slides/islidecomponent)
 ```
 public interface ITextFrame extends ISlideComponent
@@ -21,12 +21,13 @@ public interface ITextFrame extends ISlideComponent
 | [getText()](#getText--) | 获取或设置 TextFrame 的纯文本。 |
 | [setText(String value)](#setText-java.lang.String-) | 获取或设置 TextFrame 的纯文本。 |
 | [getTextFrameFormat()](#getTextFrameFormat--) | 返回此 TextFrame 对象的格式化对象。 |
-| [getHyperlinkQueries()](#getHyperlinkQueries--) | 提供对包含的超链接的简便访问。 |
+| [getHyperlinkQueries()](#getHyperlinkQueries--) | 提供对包含的超链接的便捷访问。 |
 | [getParentShape()](#getParentShape--) | 返回父形状，如果父对象未实现 IShape 接口则返回 null。只读 [IShape](../../com.aspose.slides/ishape)。 |
+| [getTextRect()](#getTextRect--) | 获取由父形状几何形状定义的文本矩形。 |
 | [getParentCell()](#getParentCell--) | 返回父单元格，如果父对象未实现 ICell 接口则返回 null。 |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | 合并所有段落中具有相同格式的运行。 |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | 合并所有段落中具有相同格式的文本运行。 |
 | [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | 使用指定颜色突出显示样本文本的所有匹配项。 |
-| [splitTextByColumns()](#splitTextByColumns--) | 将 [ITextFrame](../../com.aspose.slides/itextframe) 的文本内容拆分为字符串数组，每个元素对应框内的单独文本列。 |
+| [splitTextByColumns()](#splitTextByColumns--) | 将 [ITextFrame](../../com.aspose.slides/itextframe) 的文本内容拆分为字符串数组，每个元素对应帧内的一个独立文本列。 |
 | [highlightText(String text, Color highlightColor, ITextHighlightingOptions options)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | 使用指定颜色突出显示样本文本的所有匹配项。 |
 | [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | 使用指定颜色突出显示样本文本的所有匹配项。 |
 | [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | 使用指定颜色突出显示正则表达式的所有匹配项。 |
@@ -43,7 +44,6 @@ public abstract IParagraphCollection getParagraphs()
 
 **返回：**
 [IParagraphCollection](../../com.aspose.slides/iparagraphcollection)
-
 ### getText() {#getText--}
 ```
 public abstract String getText()
@@ -51,11 +51,10 @@ public abstract String getText()
 
 获取或设置 TextFrame 的纯文本。读写 String。
 
-值：文本。
+值： 文本。
 
 **返回：**
 java.lang.String
-
 ### setText(String value) {#setText-java.lang.String-}
 ```
 public abstract void setText(String value)
@@ -63,13 +62,12 @@ public abstract void setText(String value)
 
 获取或设置 TextFrame 的纯文本。读写 String。
 
-值：文本。
+值： 文本。
 
 **参数：**
-| 参数 | 类型 | 描述 |
+| 参数 | 类型 | 说明 |
 | --- | --- | --- |
 | value | java.lang.String |  |
-
 ### getTextFrameFormat() {#getTextFrameFormat--}
 ```
 public abstract ITextFrameFormat getTextFrameFormat()
@@ -79,17 +77,15 @@ public abstract ITextFrameFormat getTextFrameFormat()
 
 **返回：**
 [ITextFrameFormat](../../com.aspose.slides/itextframeformat)
-
 ### getHyperlinkQueries() {#getHyperlinkQueries--}
 ```
 public abstract IHyperlinkQueries getHyperlinkQueries()
 ```
 
-提供对包含的超链接的简便访问。只读 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)。
+提供对包含的超链接的便捷访问。只读 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)。
 
 **返回：**
 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)
-
 ### getParentShape() {#getParentShape--}
 ```
 public abstract IShape getParentShape()
@@ -118,7 +114,17 @@ public abstract IShape getParentShape()
 
 **返回：**
 [IShape](../../com.aspose.slides/ishape)
+### getTextRect() {#getTextRect--}
+```
+public abstract Rectangle2D.Float getTextRect()
+```
 
+获取由父形状几何形状定义的文本矩形。
+
+**返回：**
+java.awt.geom.Rectangle2D.Float - 一个定义文本区域的 java.awt.geom.Rectangle2D.Float。
+
+矩形坐标相对于父形状的左上角。
 ### getParentCell() {#getParentCell--}
 ```
 public abstract ICell getParentCell()
@@ -144,16 +150,14 @@ public abstract ICell getParentCell()
 >  }
 > ```
 
-
 **返回：**
 [ICell](../../com.aspose.slides/icell)
-
 ### joinPortionsWithSameFormatting() {#joinPortionsWithSameFormatting--}
 ```
 public abstract void joinPortionsWithSameFormatting()
 ```
 
-合并所有段落中具有相同格式的运行。
+合并所有段落中具有相同格式的文本运行。
 
 ### highlightText(String text, Color highlightColor) {#highlightText-java.lang.String-java.awt.Color-}
 ```
@@ -163,17 +167,16 @@ public abstract void highlightText(String text, Color highlightColor)
 使用指定颜色突出显示样本文本的所有匹配项。
 
 **参数：**
-| 参数 | 类型 | 描述 |
+| 参数 | 类型 | 说明 |
 | --- | --- | --- |
 | text | java.lang.String | 要突出显示的文本。 |
 | highlightColor | java.awt.Color | 用于突出显示文本的颜色。 |
-
 ### splitTextByColumns() {#splitTextByColumns--}
 ```
 public abstract String[] splitTextByColumns()
 ```
 
-将 [ITextFrame](../../com.aspose.slides/itextframe) 的文本内容拆分为字符串数组，每个元素对应框内的单独文本列。
+将 [ITextFrame](../../com.aspose.slides/itextframe) 的文本内容拆分为字符串数组，每个元素对应帧内的一个独立文本列。
 
 --------------------
 
@@ -182,7 +185,7 @@ public abstract String[] splitTextByColumns()
 >  
 >  Presentation pres = new Presentation("example.pptx");
 >  try {
->      // 获取幻灯片上的第一个形状并将其转换为 ITextFrame
+>      // 获取幻灯片上的第一个形状并将其强制转换为 ITextFrame
 >      ITextFrame textFrame = (ITextFrame) pres.getSlides().get_Item(0).getShapes().get_Item(0);
 >      // 将文本框内容拆分为列
 >      String[] columnsText = textFrame.splitTextByColumns();
@@ -196,10 +199,9 @@ public abstract String[] splitTextByColumns()
 
 
 **返回：**
-java.lang.String[] - 一个字符串数组，每个字符串代表 [ITextFrame](../../com.aspose.slides/itextframe) 中特定列的文本内容。
+java.lang.String[] - 一个字符串数组，其中每个字符串表示 [ITextFrame](../../com.aspose.slides/itextframe) 中特定列的文本内容。
 
-如果文本框不包含多列，返回的数组将只有一个元素，包含完整文本。空列将在数组中表示为空字符串。
-
+如果文本帧不包含多个列，返回的数组将只有一个元素，包含完整的文本。空列将在数组中表现为空字符串。
 ### highlightText(String text, Color highlightColor, ITextHighlightingOptions options) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-}
 ```
 public abstract void highlightText(String text, Color highlightColor, ITextHighlightingOptions options)
@@ -208,12 +210,11 @@ public abstract void highlightText(String text, Color highlightColor, ITextHighl
 使用指定颜色突出显示样本文本的所有匹配项。
 
 **参数：**
-| 参数 | 类型 | 描述 |
+| 参数 | 类型 | 说明 |
 | --- | --- | --- |
 | text | java.lang.String | 要突出显示的文本。 |
 | highlightColor | java.awt.Color | 用于突出显示文本的颜色。 |
 | options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | 突出显示选项。 |
-
 ### highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
 public abstract void highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)
@@ -242,13 +243,12 @@ public abstract void highlightText(String text, Color highlightColor, ITextSearc
 
 
 **参数：**
-| 参数 | 类型 | 描述 |
+| 参数 | 类型 | 说明 |
 | --- | --- | --- |
 | text | java.lang.String | 要突出显示的文本。 |
 | highlightColor | java.awt.Color | 用于突出显示文本的颜色。 |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | 文本搜索选项 [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions)。 |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | 用于接收搜索结果的回调对象 [IFindResultCallback](../../com.aspose.slides/ifindresultcallback)。 |
-
 ### highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback) {#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-}
 ```
 public abstract void highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)
@@ -264,7 +264,7 @@ public abstract void highlightRegex(Pattern regex, Color highlightColor, IFindRe
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      Pattern regex = Pattern.compile("\\b[^\\s]{5,}\\b");
->      // 突出显示所有 5 个字符或更长的单词
+>      // 突出显示所有长度为5个字符或更长的单词
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightRegex(regex, Color.BLUE, null);
 >      presentation.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -274,12 +274,11 @@ public abstract void highlightRegex(Pattern regex, Color highlightColor, IFindRe
 
 
 **参数：**
-| 参数 | 类型 | 描述 |
+| 参数 | 类型 | 说明 |
 | --- | --- | --- |
 | regex | java.util.regex.Pattern | 用于获取要突出显示字符串的正则表达式 java.util.regex.Pattern。 |
 | highlightColor | java.awt.Color | 用于突出显示文本的颜色。 |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | 用于接收搜索结果的回调对象 [IFindResultCallback](../../com.aspose.slides/ifindresultcallback)。 |
-
 ### highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options) {#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-}
 ```
 public abstract void highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)
@@ -288,12 +287,11 @@ public abstract void highlightRegex(String regex, Color highlightColor, ITextHig
 使用指定颜色突出显示正则表达式的所有匹配项。
 
 **参数：**
-| 参数 | 类型 | 描述 |
+| 参数 | 类型 | 说明 |
 | --- | --- | --- |
-| regex | java.lang.String | 正则表达式的文本，用于获取要突出显示的文本。 |
+| regex | java.lang.String | 用于获取要突出显示文本的正则表达式文本。 |
 | highlightColor | java.awt.Color | 用于突出显示文本的颜色。 |
 | options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | 突出显示选项。 |
-
 ### replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback) {#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
 public abstract void replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)
@@ -320,13 +318,12 @@ public abstract void replaceText(String oldText, String newText, ITextSearchOpti
 
 
 **参数：**
-| 参数 | 类型 | 描述 |
+| 参数 | 类型 | 说明 |
 | --- | --- | --- |
 | oldText | java.lang.String | 要被替换的字符串。 |
-| newText | java.lang.String | 用于替换 oldText 所有出现的字符串。 |
+| newText | java.lang.String | 用于替换所有 oldText 出现的字符串。 |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | 文本搜索选项 [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions)。 |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | 用于接收搜索结果的回调对象 [IFindResultCallback](../../com.aspose.slides/ifindresultcallback)。 |
-
 ### replaceRegex(Pattern regex, String newText, IFindResultCallback callback) {#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-}
 ```
 public abstract void replaceRegex(Pattern regex, String newText, IFindResultCallback callback)
@@ -342,7 +339,7 @@ public abstract void replaceRegex(Pattern regex, String newText, IFindResultCall
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      Pattern regex = Pattern.compile("\\b[^\\s]{5,}\\b");
->      // 将所有长度为 5 个字符或更长的单词替换为 '***'
+>      // 用 '***' 替换所有长度为5个字符或更长的单词
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().replaceRegex(regex, "***", null);
 >      presentation.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -350,10 +347,9 @@ public abstract void replaceRegex(Pattern regex, String newText, IFindResultCall
 >  }
 > ```
 
-
 **参数：**
-| 参数 | 类型 | 描述 |
+| 参数 | 类型 | 说明 |
 | --- | --- | --- |
 | regex | java.util.regex.Pattern | 用于获取要替换字符串的正则表达式 java.util.regex.Pattern。 |
-| newText | java.lang.String | 用于替换所有待替换字符串的字符串。 |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | 用于接收搜索结果的回调对象 [IFindResultCallback](../../com.aspose.slides/ifindresultcallback)。 |
+| newText | java.lang.String | 用于替换所有待替换字符串出现的字符串。 |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | 用于接收搜索结果的回调对象 [IFindResultCallback](../../com.aspose.slides/ifindresultcallback)。

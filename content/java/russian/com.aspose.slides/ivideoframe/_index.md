@@ -12,19 +12,20 @@ public interface IVideoFrame extends IPictureFrame
 ```
 
 Представляет видеоклип на слайде.
-
 ## Методы
 
-| Method | Description |
+| Метод | Описание |
 | --- | --- |
 | [getRewindVideo()](#getRewindVideo--) | Определяет, будет ли видео автоматически перемотываться к началу сразу после завершения воспроизведения. |
 | [setRewindVideo(boolean value)](#setRewindVideo-boolean-) | Определяет, будет ли видео автоматически перемотываться к началу сразу после завершения воспроизведения. |
-| [getPlayLoopMode()](#getPlayLoopMode--) | Определяет, воспроизводится ли видео в режиме цикла. |
-| [setPlayLoopMode(boolean value)](#setPlayLoopMode-boolean-) | Определяет, воспроизводится ли видео в режиме цикла. |
+| [getPlayLoopMode()](#getPlayLoopMode--) | Определяет, зациклен ли видео. |
+| [setPlayLoopMode(boolean value)](#setPlayLoopMode-boolean-) | Определяет, зациклен ли видео. |
 | [getHideAtShowing()](#getHideAtShowing--) | Определяет, скрыт ли VideoFrame. |
 | [setHideAtShowing(boolean value)](#setHideAtShowing-boolean-) | Определяет, скрыт ли VideoFrame. |
 | [getVolume()](#getVolume--) | Возвращает или задает громкость аудио. |
 | [setVolume(int value)](#setVolume-int-) | Возвращает или задает громкость аудио. |
+| [getVolumeValue()](#getVolumeValue--) | Возвращает или задает точный уровень громкости видео в процентах. |
+| [setVolumeValue(float value)](#setVolumeValue-float-) | Возвращает или задает точный уровень громкости видео в процентах. |
 | [getPlayMode()](#getPlayMode--) | Возвращает или задает режим воспроизведения видео. |
 | [setPlayMode(int value)](#setPlayMode-int-) | Возвращает или задает режим воспроизведения видео. |
 | [getFullScreenMode()](#getFullScreenMode--) | Определяет, отображается ли видео в полноэкранном режиме. |
@@ -33,12 +34,11 @@ public interface IVideoFrame extends IPictureFrame
 | [setLinkPathLong(String value)](#setLinkPathLong-java.lang.String-) | Возвращает или задает имя видеофайла, связанного с VideoFrame. |
 | [getEmbeddedVideo()](#getEmbeddedVideo--) | Возвращает или задает встроенный объект видео. |
 | [setEmbeddedVideo(IVideo value)](#setEmbeddedVideo-com.aspose.slides.IVideo-) | Возвращает или задает встроенный объект видео. |
-| [getTrimFromStart()](#getTrimFromStart--) | Начало обрезки [ms] |
-| [setTrimFromStart(float value)](#setTrimFromStart-float-) | Начало обрезки [ms] |
-| [getTrimFromEnd()](#getTrimFromEnd--) | Конец обрезки [ms] |
-| [setTrimFromEnd(float value)](#setTrimFromEnd-float-) | Конец обрезки [ms] |
+| [getTrimFromStart()](#getTrimFromStart--) | Обрезка начала [ms] |
+| [setTrimFromStart(float value)](#setTrimFromStart-float-) | Обрезка начала [ms] |
+| [getTrimFromEnd()](#getTrimFromEnd--) | Обрезка конца [ms] |
+| [setTrimFromEnd(float value)](#setTrimFromEnd-float-) | Обрезка конца [ms] |
 | [getCaptionTracks()](#getCaptionTracks--) | Получает коллекцию закрытых субтитров, связанных с аудио-кадром. |
-
 ### getRewindVideo() {#getRewindVideo--}
 ```
 public abstract boolean getRewindVideo()
@@ -48,7 +48,6 @@ public abstract boolean getRewindVideo()
 
 **Возвращаемое значение:**
 boolean
-
 ### setRewindVideo(boolean value) {#setRewindVideo-boolean-}
 ```
 public abstract void setRewindVideo(boolean value)
@@ -60,29 +59,26 @@ public abstract void setRewindVideo(boolean value)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | value | boolean |  |
-
 ### getPlayLoopMode() {#getPlayLoopMode--}
 ```
 public abstract boolean getPlayLoopMode()
 ```
 
-Определяет, воспроизводится ли видео в режиме цикла. Чтение/запись boolean.
+Определяет, зациклен ли видео. Чтение/запись boolean.
 
 **Возвращаемое значение:**
 boolean
-
 ### setPlayLoopMode(boolean value) {#setPlayLoopMode-boolean-}
 ```
 public abstract void setPlayLoopMode(boolean value)
 ```
 
-Определяет, воспроизводится ли видео в режиме цикла. Чтение/запись boolean.
+Определяет, зациклен ли видео. Чтение/запись boolean.
 
 **Параметры:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | value | boolean |  |
-
 ### getHideAtShowing() {#getHideAtShowing--}
 ```
 public abstract boolean getHideAtShowing()
@@ -92,7 +88,6 @@ public abstract boolean getHideAtShowing()
 
 **Возвращаемое значение:**
 boolean
-
 ### setHideAtShowing(boolean value) {#setHideAtShowing-boolean-}
 ```
 public abstract void setHideAtShowing(boolean value)
@@ -104,7 +99,6 @@ public abstract void setHideAtShowing(boolean value)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | value | boolean |  |
-
 ### getVolume() {#getVolume--}
 ```
 public abstract int getVolume()
@@ -114,7 +108,6 @@ public abstract int getVolume()
 
 **Возвращаемое значение:**
 int
-
 ### setVolume(int value) {#setVolume-int-}
 ```
 public abstract void setVolume(int value)
@@ -126,7 +119,64 @@ public abstract void setVolume(int value)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | value | int |  |
+### getVolumeValue() {#getVolumeValue--}
+```
+public abstract float getVolumeValue()
+```
 
+Возвращает или задает точный уровень громкости видео в процентах. Значение выражено в процентах от 0 до 100. Используйте это свойство для чтения или задания значений громкости, более точных, чем предустановленные уровни, доступные через свойство Volume (\#getVolume.getVolume/\#setVolume(int).setVolume(int)). Чтение/запись float.
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video.pptx");
+>  try {
+>      IVideoFrame videoFrame = (IVideoFrame)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // Прочитать текущий точный уровень громкости и установить его на 75.5 процента.
+>      float currentVolume = videoFrame.getVolumeValue();
+>      System.out.println(currentVolume);
+>      videoFrame.setVolumeValue(75.5f);
+>      pres.save("video_with_volume.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Возвращаемое значение:**
+float
+### setVolumeValue(float value) {#setVolumeValue-float-}
+```
+public abstract void setVolumeValue(float value)
+```
+
+Возвращает или задает точный уровень громкости видео в процентах. Значение выражено в процентах от 0 до 100. Используйте это свойство для чтения или задания значений громкости, более точных, чем предустановленные уровни, доступные через свойство Volume (\#getVolume.getVolume/\#setVolume(int).setVolume(int)). Чтение/запись float.
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video.pptx");
+>  try {
+>      IVideoFrame videoFrame = (IVideoFrame)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // Прочитать текущий точный уровень громкости и установить его на 75.5 процента.
+>      float currentVolume = videoFrame.getVolumeValue();
+>      System.out.println(currentVolume);
+>      videoFrame.setVolumeValue(75.5f);
+>      pres.save("video_with_volume.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Параметры:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| value | float |  |
 ### getPlayMode() {#getPlayMode--}
 ```
 public abstract int getPlayMode()
@@ -136,7 +186,6 @@ public abstract int getPlayMode()
 
 **Возвращаемое значение:**
 int
-
 ### setPlayMode(int value) {#setPlayMode-int-}
 ```
 public abstract void setPlayMode(int value)
@@ -148,7 +197,6 @@ public abstract void setPlayMode(int value)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | value | int |  |
-
 ### getFullScreenMode() {#getFullScreenMode--}
 ```
 public abstract boolean getFullScreenMode()
@@ -158,7 +206,6 @@ public abstract boolean getFullScreenMode()
 
 **Возвращаемое значение:**
 boolean
-
 ### setFullScreenMode(boolean value) {#setFullScreenMode-boolean-}
 ```
 public abstract void setFullScreenMode(boolean value)
@@ -170,7 +217,6 @@ public abstract void setFullScreenMode(boolean value)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | value | boolean |  |
-
 ### getLinkPathLong() {#getLinkPathLong--}
 ```
 public abstract String getLinkPathLong()
@@ -180,9 +226,8 @@ public abstract String getLinkPathLong()
 
 **Возвращаемое значение:**
 java.lang.String
-
 ### setLinkPathLong(String value) {#setLinkPathLong-java.lang.String-}
-```java
+```
 public abstract void setLinkPathLong(String value)
 ```
 
@@ -192,7 +237,6 @@ public abstract void setLinkPathLong(String value)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | value | java.lang.String |  |
-
 ### getEmbeddedVideo() {#getEmbeddedVideo--}
 ```
 public abstract IVideo getEmbeddedVideo()
@@ -202,7 +246,6 @@ public abstract IVideo getEmbeddedVideo()
 
 **Возвращаемое значение:**
 [IVideo](../../com.aspose.slides/ivideo)
-
 ### setEmbeddedVideo(IVideo value) {#setEmbeddedVideo-com.aspose.slides.IVideo-}
 ```
 public abstract void setEmbeddedVideo(IVideo value)
@@ -214,17 +257,16 @@ public abstract void setEmbeddedVideo(IVideo value)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | value | [IVideo](../../com.aspose.slides/ivideo) |  |
-
 ### getTrimFromStart() {#getTrimFromStart--}
 ```
 public abstract float getTrimFromStart()
 ```
 
-Начало обрезки [ms]
+Обрезка начала [ms]
 
 --------------------
 
-> ```markdown
+> ```
 > Example:
 >  
 >  Presentation pres = new Presentation();
@@ -232,29 +274,27 @@ public abstract float getTrimFromStart()
 >      ISlide slide = pres.getSlides().get_Item(0);
 >      IVideo video = pres.getVideos().addVideo(Files.readAllBytes(Paths.get("video.mp4")));
 >      IVideoFrame videoFrame = slide.getShapes().addVideoFrame(0, 0, 100, 100, video);
->      //установить время начала обрезки 1 сек
+>      //установить время начала обрезки 1сек
 >      videoFrame.setTrimFromStart(1000f);
->      //установить время окончания обрезки 2 сек
+>      //установить время окончания обрезки 2сек
 >      videoFrame.setTrimFromEnd(2000f);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
 > ```
 
-
 **Возвращаемое значение:**
 float
-
 ### setTrimFromStart(float value) {#setTrimFromStart-float-}
 ```
 public abstract void setTrimFromStart(float value)
 ```
 
-Начало обрезки [ms]
+Обрезка начала [ms]
 
 --------------------
 
-> ```markdown
+> ```
 > Example:
 >  
 >  Presentation pres = new Presentation();
@@ -262,43 +302,39 @@ public abstract void setTrimFromStart(float value)
 >      ISlide slide = pres.getSlides().get_Item(0);
 >      IVideo video = pres.getVideos().addVideo(Files.readAllBytes(Paths.get("video.mp4")));
 >      IVideoFrame videoFrame = slide.getShapes().addVideoFrame(0, 0, 100, 100, video);
->      //установить время начала обрезки 1 сек
+>      //установить время начала обрезки 1сек
 >      videoFrame.setTrimFromStart(1000f);
->      //установить время окончания обрезки 2 сек
+>      //установить время окончания обрезки 2сек
 >      videoFrame.setTrimFromEnd(2000f);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
 > ```
 
-
 **Параметры:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | value | float |  |
-
 ### getTrimFromEnd() {#getTrimFromEnd--}
 ```
 public abstract float getTrimFromEnd()
 ```
 
-Конец обрезки [ms]
+Обрезка конца [ms]
 
 **Возвращаемое значение:**
 float
-
 ### setTrimFromEnd(float value) {#setTrimFromEnd-float-}
 ```
 public abstract void setTrimFromEnd(float value)
 ```
 
-Конец обрезки [ms]
+Обрезка конца [ms]
 
 **Параметры:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | value | float |  |
-
 ### getCaptionTracks() {#getCaptionTracks--}
 ```
 public abstract ICaptionsCollection getCaptionTracks()
@@ -308,7 +344,7 @@ public abstract ICaptionsCollection getCaptionTracks()
 
 --------------------
 
-> ```markdown
+> ```
 > Example:
 >   
 >  Presentation pres = new Presentation("video with captions.pptx");
@@ -330,7 +366,6 @@ public abstract ICaptionsCollection getCaptionTracks()
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-
 
 **Возвращаемое значение:**
 [ICaptionsCollection](../../com.aspose.slides/icaptionscollection)

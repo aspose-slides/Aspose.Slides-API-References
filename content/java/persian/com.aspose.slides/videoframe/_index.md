@@ -1,7 +1,7 @@
 ---
 title: VideoFrame
-second_title: Aspose.Slides برای مرجع API جاوا
-description: یک کلیپ ویدئویی را در یک اسلاید نشان می‌دهد.
+second_title: مرجع API Aspose.Slides برای Java
+description: یک کلیپ ویدئویی را بر روی اسلاید نشان می‌دهد.
 type: docs
 url: /fa/com.aspose.slides/videoframe/
 ---
@@ -14,47 +14,49 @@ java.lang.Object, [com.aspose.slides.Shape](../../com.aspose.slides/shape), [com
 public class VideoFrame extends PictureFrame implements IVideoFrame
 ```
 
-یک کلیپ ویدئویی را در یک اسلاید نشان می‌دهد.
+یک کلیپ ویدئویی را در اسلاید نشان می‌دهد.
 ## متدها
 
 | متد | توضیح |
 | --- | --- |
-| [getRewindVideo()](#getRewindVideo--) | مشخص می‌کند که آیا ویدئو به‌صورت خودکار پس از پایان پخش فیلم به ابتدای خود باز می‌گردد یا خیر. |
-| [setRewindVideo(boolean value)](#setRewindVideo-boolean-) | مشخص می‌کند که آیا ویدئو به‌صورت خودکار پس از پایان پخش فیلم به ابتدای خود باز می‌گردد یا خیر. |
-| [getPlayLoopMode()](#getPlayLoopMode--) | مشخص می‌کند که آیا ویدئو حلقه‌ای است یا خیر. |
-| [setPlayLoopMode(boolean value)](#setPlayLoopMode-boolean-) | مشخص می‌کند که آیا ویدئو حلقه‌ای است یا خیر. |
-| [getHideAtShowing()](#getHideAtShowing--) | مشخص می‌کند که آیا VideoFrame مخفی است یا خیر. |
-| [setHideAtShowing(boolean value)](#setHideAtShowing-boolean-) | مشخص می‌کند که آیا VideoFrame مخفی است یا خیر. |
-| [getVolume()](#getVolume--) | مقدار یا تنظیم حجم صدا را برمی‌گرداند. |
-| [setVolume(int value)](#setVolume-int-) | مقدار یا تنظیم حجم صدا را برمی‌گرداند. |
-| [getPlayMode()](#getPlayMode--) | حالت پخش ویدئو را برمی‌گرداند یا تنظیم می‌کند. |
-| [setPlayMode(int value)](#setPlayMode-int-) | حالت پخش ویدئو را برمی‌گرداند یا تنظیم می‌کند. |
-| [getFullScreenMode()](#getFullScreenMode--) | مشخص می‌کند که آیا ویدئو در حالت تمام‌صفحه نمایش داده می‌شود یا خیر. |
-| [setFullScreenMode(boolean value)](#setFullScreenMode-boolean-) | مشخص می‌کند که آیا ویدئو در حالت تمام‌صفحه نمایش داده می‌شود یا خیر. |
-| [getLinkPathLong()](#getLinkPathLong--) | نام فایل ویدئویی که به VideoFrame لینک شده است را برمی‌گرداند یا تنظیم می‌کند. |
-| [setLinkPathLong(String value)](#setLinkPathLong-java.lang.String-) | نام فایل ویدئویی که به VideoFrame لینک شده است را برمی‌گرداند یا تنظیم می‌کند. |
-| [getEmbeddedVideo()](#getEmbeddedVideo--) | شیء ویدئوی جاسازی‌شده را برمی‌گرداند یا تنظیم می‌کند. |
-| [setEmbeddedVideo(IVideo value)](#setEmbeddedVideo-com.aspose.slides.IVideo-) | شیء ویدئوی جاسازی‌شده را برمی‌گرداند یا تنظیم می‌کند. |
-| [getTrimFromStart()](#getTrimFromStart--) | برش از ابتدا [ms] |
-| [setTrimFromStart(float value)](#setTrimFromStart-float-) | برش از ابتدا [ms] |
-| [getTrimFromEnd()](#getTrimFromEnd--) | برش از انتها [ms] |
-| [setTrimFromEnd(float value)](#setTrimFromEnd-float-) | برش از انتها [ms] |
-| [getCaptionTracks()](#getCaptionTracks--) | مجموعه‌ی زیرنویس‌های بسته مرتبط با فریم ویدئو را دریافت می‌کند. |
+| [getRewindVideo()](#getRewindVideo--) | مشخص می‌کند که آیا ویدئو به‌صورت خودکار پس از پایان پخش به ابتدا باز می‌گردد. |
+| [setRewindVideo(boolean value)](#setRewindVideo-boolean-) | مشخص می‌کند که آیا ویدئو به‌صورت خودکار پس از پایان پخش به ابتدا باز می‌گردد. |
+| [getPlayLoopMode()](#getPlayLoopMode--) | مشخص می‌کند که آیا ویدئو به‌صورت حلقه‌ای پخش می‌شود. |
+| [setPlayLoopMode(boolean value)](#setPlayLoopMode-boolean-) | مشخص می‌کند که آیا ویدئو به‌صورت حلقه‌ای پخش می‌شود. |
+| [getHideAtShowing()](#getHideAtShowing--) | مشخص می‌کند که آیا VideoFrame پنهان است. |
+| [setHideAtShowing(boolean value)](#setHideAtShowing-boolean-) | مشخص می‌کند که آیا VideoFrame پنهان است. |
+| [getVolume()](#getVolume--) | مقدار حجم صدا را بازمی‌گرداند یا تنظیم می‌کند. |
+| [setVolume(int value)](#setVolume-int-) | مقدار حجم صدا را بازمی‌گرداند یا تنظیم می‌کند. |
+| [getVolumeValue()](#getVolumeValue--) | حجم دقیق ویدئو را به صورت درصد بازمی‌گرداند یا تنظیم می‌کند. |
+| [setVolumeValue(float value)](#setVolumeValue-float-) | حجم دقیق ویدئو را به صورت درصد بازمی‌گرداند یا تنظیم می‌کند. |
+| [getPlayMode()](#getPlayMode--) | حالت پخش ویدئو را بازمی‌گرداند یا تنظیم می‌کند. |
+| [setPlayMode(int value)](#setPlayMode-int-) | حالت پخش ویدئو را بازمی‌گرداند یا تنظیم می‌کند. |
+| [getFullScreenMode()](#getFullScreenMode--) | مشخص می‌کند که آیا ویدئو در حالت تمام‌صفحه نمایش داده می‌شود. |
+| [setFullScreenMode(boolean value)](#setFullScreenMode-boolean-) | مشخص می‌کند که آیا ویدئو در حالت تمام‌صفحه نمایش داده می‌شود. |
+| [getLinkPathLong()](#getLinkPathLong--) | نام فایل ویدئویی که به VideoFrame لینک شده است را بازمی‌گرداند یا تنظیم می‌کند. |
+| [setLinkPathLong(String value)](#setLinkPathLong-java.lang.String-) | نام فایل ویدئویی که به VideoFrame لینک شده است را بازمی‌گرداند یا تنظیم می‌کند. |
+| [getEmbeddedVideo()](#getEmbeddedVideo--) | شیء ویدئوی جاسازی‌شده را بازمی‌گرداند یا تنظیم می‌کند. |
+| [setEmbeddedVideo(IVideo value)](#setEmbeddedVideo-com.aspose.slides.IVideo-) | شیء ویدئوی جاسازی‌شده را بازمی‌گرداند یا تنظیم می‌کند. |
+| [getTrimFromStart()](#getTrimFromStart--) | شروع برش [ms] |
+| [setTrimFromStart(float value)](#setTrimFromStart-float-) | شروع برش [ms] |
+| [getTrimFromEnd()](#getTrimFromEnd--) | پایان برش [ms] |
+| [setTrimFromEnd(float value)](#setTrimFromEnd-float-) | پایان برش [ms] |
+| [getCaptionTracks()](#getCaptionTracks--) | کلکسیونی از زیرنویس‌های بسته مرتبط با فریم ویدئو را دریافت می‌کند. |
 ### getRewindVideo() {#getRewindVideo--}
 ```
 public final boolean getRewindVideo()
 ```
 
-مشخص می‌کند که آیا ویدئو به‌صورت خودکار پس از پایان پخش فیلم به ابتدای خود باز می‌گردد یا خیر. خواندنی/نوشتنی بولی.
+مشخص می‌کند که آیا ویدئو به‌صورت خودکار پس از پایان پخش به ابتدا باز می‌گردد. قابلیت خواندن/نوشتن boolean.
 
-**بازگشت:**
+**باز می‌گردد:**
 boolean
 ### setRewindVideo(boolean value) {#setRewindVideo-boolean-}
 ```
 public final void setRewindVideo(boolean value)
 ```
 
-مشخص می‌کند که آیا ویدئو به‌صورت خودکار پس از پایان پخش فیلم به ابتدای خود باز می‌گردد یا خیر. خواندنی/نوشتنی بولی.
+مشخص می‌کند که آیا ویدئو به‌صورت خودکار پس از پایان پخش به ابتدا باز می‌گردد. قابلیت خواندن/نوشتن boolean.
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
@@ -66,16 +68,16 @@ public final void setRewindVideo(boolean value)
 public final boolean getPlayLoopMode()
 ```
 
-مشخص می‌کند که آیا ویدئو حلقه‌ای است یا خیر. خواندنی/نوشتنی بولی.
+مشخص می‌کند که آیا ویدئو به‌صورت حلقه‌ای پخش می‌شود. قابلیت خواندن/نوشتن boolean.
 
-**بازگشت:**
+**باز می‌گردد:**
 boolean
 ### setPlayLoopMode(boolean value) {#setPlayLoopMode-boolean-}
 ```
 public final void setPlayLoopMode(boolean value)
 ```
 
-مشخص می‌کند که آیا ویدئو حلقه‌ای است یا خیر. خواندنی/نوشتنی بولی.
+مشخص می‌کند که آیا ویدئو به‌صورت حلقه‌ای پخش می‌شود. قابلیت خواندن/نوشتن boolean.
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
@@ -87,16 +89,16 @@ public final void setPlayLoopMode(boolean value)
 public final boolean getHideAtShowing()
 ```
 
-مشخص می‌کند که آیا VideoFrame مخفی است یا خیر. خواندنی/نوشتنی بولی.
+مشخص می‌کند که آیا VideoFrame پنهان است. قابلیت خواندن/نوشتن boolean.
 
-**بازگشت:**
+**باز می‌گردد:**
 boolean
 ### setHideAtShowing(boolean value) {#setHideAtShowing-boolean-}
 ```
 public final void setHideAtShowing(boolean value)
 ```
 
-مشخص می‌کند که آیا VideoFrame مخفی است یا خیر. خواندنی/نوشتنی بولی.
+مشخص می‌کند که آیا VideoFrame پنهان است. قابلیت خواندن/نوشتن boolean.
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
@@ -108,37 +110,95 @@ public final void setHideAtShowing(boolean value)
 public final int getVolume()
 ```
 
-مقدار یا تنظیم حجم صدا را برمی‌گرداند. خواندنی/نوشتنی [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
+مقدار حجم صدا را بازمی‌گرداند یا تنظیم می‌کند. قابلیت خواندن/نوشتن [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
 
-**بازگشت:**
+**باز می‌گردد:**
 int
 ### setVolume(int value) {#setVolume-int-}
 ```
 public final void setVolume(int value)
 ```
 
-مقدار یا تنظیم حجم صدا را برمی‌گرداند. خواندنی/نوشتنی [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
+مقدار حجم صدا را بازمی‌گرداند یا تنظیم می‌کند. قابلیت خواندن/نوشتن [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | value | int |  |
 
+### getVolumeValue() {#getVolumeValue--}
+```
+public final float getVolumeValue()
+```
+
+حجم دقیق ویدئو را به صورت درصد بازمی‌گرداند یا تنظیم می‌کند. مقدار به صورت درصدی از 0 تا 100 بیان می‌شود. از این ویژگی برای خواندن یا تنظیم مقادیر دقیق‌تر نسبت به سطوح از پیش تعریف شده استفاده کنید. قابلیت خواندن/نوشتن float .
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video.pptx");
+>  try {
+>      IVideoFrame videoFrame = (IVideoFrame)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // حجم دقیق فعلی را بخوانید و آن را به 75.5 درصد تنظیم کنید.
+>      float currentVolume = videoFrame.getVolumeValue();
+>      System.out.println(currentVolume);
+>      videoFrame.setVolumeValue(75.5f);
+>      pres.save("video_with_volume.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**باز می‌گردد:**
+float
+### setVolumeValue(float value) {#setVolumeValue-float-}
+```
+public final void setVolumeValue(float value)
+```
+
+حجم دقیق ویدئو را به صورت درصد بازمی‌گرداند یا تنظیم می‌کند. مقدار به صورت درصدی از 0 تا 100 بیان می‌شود. از این ویژگی برای خواندن یا تنظیم مقادیر دقیق‌تر نسبت به سطوح از پیش تعریف شده استفاده کنید. قابلیت خواندن/نوشتن float .
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video.pptx");
+>  try {
+>      IVideoFrame videoFrame = (IVideoFrame)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // حجم دقیق فعلی را بخوانید و آن را به 75.5 درصد تنظیم کنید.
+>      float currentVolume = videoFrame.getVolumeValue();
+>      System.out.println(currentVolume);
+>      videoFrame.setVolumeValue(75.5f);
+>      pres.save("video_with_volume.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**پارامترها:**
+| پارامتر | نوع | توضیح |
+| --- | --- | --- |
+| value | float |  |
+
 ### getPlayMode() {#getPlayMode--}
 ```
 public final int getPlayMode()
 ```
 
-حالت پخش ویدئو را برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
+حالت پخش ویدئو را بازمی‌گرداند یا تنظیم می‌کند. قابلیت خواندن/نوشتن [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
 
-**بازگشت:**
+**باز می‌گردد:**
 int
 ### setPlayMode(int value) {#setPlayMode-int-}
 ```
 public final void setPlayMode(int value)
 ```
 
-حالت پخش ویدئو را برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
+حالت پخش ویدئو را بازمی‌گرداند یا تنظیم می‌کند. قابلیت خواندن/نوشتن [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
@@ -150,16 +210,16 @@ public final void setPlayMode(int value)
 public final boolean getFullScreenMode()
 ```
 
-مشخص می‌کند که آیا ویدئو در حالت تمام‌صفحه نمایش داده می‌شود یا خیر. خواندنی/نوشتنی بولی.
+مشخص می‌کند که آیا ویدئو در حالت تمام‌صفحه نمایش داده می‌شود. قابلیت خواندن/نوشتن boolean.
 
-**بازگشت:**
+**باز می‌گردد:**
 boolean
 ### setFullScreenMode(boolean value) {#setFullScreenMode-boolean-}
 ```
 public final void setFullScreenMode(boolean value)
 ```
 
-مشخص می‌کند که آیا ویدئو در حالت تمام‌صفحه نمایش داده می‌شود یا خیر. خواندنی/نوشتنی بولی.
+مشخص می‌کند که آیا ویدئو در حالت تمام‌صفحه نمایش داده می‌شود. قابلیت خواندن/نوشتن boolean.
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
@@ -171,16 +231,16 @@ public final void setFullScreenMode(boolean value)
 public final String getLinkPathLong()
 ```
 
-نام فایل ویدئویی که به VideoFrame لینک شده است را برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی String.
+نام فایل ویدئویی که به VideoFrame لینک شده است را بازمی‌گرداند یا تنظیم می‌کند. قابلیت خواندن/نوشتن String.
 
-**بازگشت:**
+**باز می‌گردد:**
 java.lang.String
 ### setLinkPathLong(String value) {#setLinkPathLong-java.lang.String-}
 ```
 public final void setLinkPathLong(String value)
 ```
 
-نام فایل ویدئویی که به VideoFrame لینک شده است را برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی String.
+نام فایل ویدئویی که به VideoFrame لینک شده است را بازمی‌گرداند یا تنظیم می‌کند. قابلیت خواندن/نوشتن String.
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
@@ -192,16 +252,16 @@ public final void setLinkPathLong(String value)
 public final IVideo getEmbeddedVideo()
 ```
 
-شیء ویدئوی جاسازی‌شده را برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی [IVideo](../../com.aspose.slides/ivideo).
+شیء ویدئوی جاسازی‌شده را بازمی‌گرداند یا تنظیم می‌کند. قابلیت خواندن/نوشتن [IVideo](../../com.aspose.slides/ivideo).
 
-**بازگشت:**
+**باز می‌گردد:**
 [IVideo](../../com.aspose.slides/ivideo)
 ### setEmbeddedVideo(IVideo value) {#setEmbeddedVideo-com.aspose.slides.IVideo-}
 ```
 public final void setEmbeddedVideo(IVideo value)
 ```
 
-شیء ویدئوی جاسازی‌شده را برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی [IVideo](../../com.aspose.slides/ivideo).
+شیء ویدئوی جاسازی‌شده را بازمی‌گرداند یا تنظیم می‌کند. قابلیت خواندن/نوشتن [IVideo](../../com.aspose.slides/ivideo).
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
@@ -213,7 +273,7 @@ public final void setEmbeddedVideo(IVideo value)
 public final float getTrimFromStart()
 ```
 
-برش از ابتدا [ms]
+شروع برش [ms]
 
 --------------------
 
@@ -225,23 +285,23 @@ public final float getTrimFromStart()
 >      ISlide slide = pres.getSlides().get_Item(0);
 >      IVideo video = pres.getVideos().addVideo(Files.readAllBytes(Paths.get("video.mp4")));
 >      IVideoFrame videoFrame = slide.getShapes().addVideoFrame(0, 0, 100, 100, video);
->      //set triming start time 1sec
+>      // زمان شروع برش را 1 ثانیه تنظیم کنید
 >      videoFrame.setTrimFromStart(1000f);
->      //set triming end time 2sec
+>      // زمان پایان برش را 2 ثانیه تنظیم کنید
 >      videoFrame.setTrimFromEnd(2000f);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
 > ```
 
-**بازگشت:**
+**باز می‌گردد:**
 float
 ### setTrimFromStart(float value) {#setTrimFromStart-float-}
 ```
 public final void setTrimFromStart(float value)
 ```
 
-برش از ابتدا [ms]
+شروع برش [ms]
 
 --------------------
 
@@ -253,15 +313,14 @@ public final void setTrimFromStart(float value)
 >      ISlide slide = pres.getSlides().get_Item(0);
 >      IVideo video = pres.getVideos().addVideo(Files.readAllBytes(Paths.get("video.mp4")));
 >      IVideoFrame videoFrame = slide.getShapes().addVideoFrame(0, 0, 100, 100, video);
->      //تنظیم زمان شروع برش 1 ثانیه
+>      //زمان شروع برش را 1 ثانیه تنظیم کنید
 >      videoFrame.setTrimFromStart(1000f);
->      //تنظیم زمان پایان برش 2 ثانیه
+>      //زمان پایان برش را 2 ثانیه تنظیم کنید
 >      videoFrame.setTrimFromEnd(2000f);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
@@ -273,16 +332,16 @@ public final void setTrimFromStart(float value)
 public final float getTrimFromEnd()
 ```
 
-برش از انتها [ms]
+پایان برش [ms]
 
-**بازگشت:**
+**باز می‌گردد:**
 float
 ### setTrimFromEnd(float value) {#setTrimFromEnd-float-}
 ```
 public final void setTrimFromEnd(float value)
 ```
 
-برش از انتها [ms]
+پایان برش [ms]
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
@@ -294,7 +353,7 @@ public final void setTrimFromEnd(float value)
 public final ICaptionsCollection getCaptionTracks()
 ```
 
-مجموعه‌ی زیرنویس‌های بسته مرتبط با فریم ویدئو را دریافت می‌کند. این خصوصیت فقط-خواندنی است و یک [ICaptionsCollection](../../com.aspose.slides/icaptionscollection) شامل تمام مسیرهای زیرنویس را برمی‌گرداند.
+کلکسیونی از زیرنویس‌های بسته مرتبط با فریم ویدئو را دریافت می‌کند. این ویژگی فقط-خواندنی است و یک [ICaptionsCollection](../../com.aspose.slides/icaptionscollection) حاوی تمام مسیرهای زیرنویس را بازمی‌گرداند.
 
 --------------------
 
@@ -310,7 +369,7 @@ public final ICaptionsCollection getCaptionTracks()
 >          IVideoFrame videoFrame = (IVideoFrame) shape;
 >          for (ICaptions captionTrack : videoFrame.getCaptionTracks())
 >          {
->              // داده‌های باینری زیرنویس‌ها را استخراج می‌کند و در فایل ذخیره می‌دارد
+>              // داده‌های باینری زیرنویس را استخراج می‌کند و در فایل ذخیره می‌نماید
 >              FileOutputStream fos = new FileOutputStream(captionTrack.getCaptionId() + ".vtt");
 >              fos.write(captionTrack.getBinaryData());
 >              fos.close();
@@ -321,6 +380,5 @@ public final ICaptionsCollection getCaptionTracks()
 >  }
 > ```
 
-
-**بازگشت:**
+**باز می‌گردد:**
 [ICaptionsCollection](../../com.aspose.slides/icaptionscollection)

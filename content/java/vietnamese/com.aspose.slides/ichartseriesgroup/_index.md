@@ -1,64 +1,63 @@
 ---
 title: IChartSeriesGroup
-second_title: Aspose.Slides cho Java Tham chiếu API
-description: Đại diện cho nhóm chuỗi.
+second_title: Tham chiếu API Aspose.Slides cho Java
+description: Biểu thị nhóm các chuỗi.
 type: docs
 url: /vi/com.aspose.slides/ichartseriesgroup/
 ---
-**Tất cả các giao diện được triển khai:**
+**Tất cả các giao diện đã triển khai:**
 [com.aspose.slides.IChartComponent](../../com.aspose.slides/ichartcomponent)
 ```
 public interface IChartSeriesGroup extends IChartComponent
 ```
 
-Represents group of series.
+Biểu thị nhóm các chuỗi.
 
 --------------------
 
-1) See summary and remarks for ChartSeriesGroupCollection class and CombinableSeriesTypesGroup enum. 2) Group of series contains some series properies whitch is common for each series in group ("series group properties"). "Series group properties" in ChartSeriesGroup class is read/write. Each of "series group properties" can have a read-only projection in ChartSeries class.
-
+1) Xem tóm tắt và ghi chú cho lớp ChartSeriesGroupCollection và enum CombinableSeriesTypesGroup. 2) Nhóm các chuỗi chứa một số thuộc tính chuỗi mà chung cho mỗi chuỗi trong nhóm (“thuộc tính nhóm chuỗi”). “Thuộc tính nhóm chuỗi” trong lớp ChartSeriesGroup là đọc/ghi. Mỗi “thuộc tính nhóm chuỗi” có thể có một phiên bản chỉ đọc trong lớp ChartSeries.
 ## Phương thức
 
 | Phương thức | Mô tả |
 | --- | --- |
-| [getType()](#getType--) | Trả về một kiểu của nhóm chuỗi này. |
-| [getPlotOnSecondAxis()](#getPlotOnSecondAxis--) | Cho biết nếu chuỗi của nhóm này được vẽ trên trục phụ. |
+| [getType()](#getType--) | Trả về kiểu của nhóm chuỗi này. |
+| [getPlotOnSecondAxis()](#getPlotOnSecondAxis--) | Cho biết liệu các chuỗi của nhóm này có được vẽ trên trục phụ hay không. |
 | [getSeries()](#getSeries--) | Trả về một bộ sưu tập chỉ đọc của các chuỗi biểu đồ. |
-| [get_Item(int index)](#get-Item-int-) | Lấy phần tử tại chỉ mục đã chỉ định. |
-| [getUpDownBars()](#getUpDownBars--) | Cung cấp truy cập tới các thanh lên/xuống của biểu đồ Đường hoặc Cổ phiếu. |
-| [getGapWidth()](#getGapWidth--) | Xác định khoảng cách giữa các cụm thanh hoặc cột, tính bằng phần trăm độ rộng của thanh hoặc cột. |
-| [setGapWidth(int value)](#setGapWidth-int-) | Xác định khoảng cách giữa các cụm thanh hoặc cột, tính bằng phần trăm độ rộng của thanh hoặc cột. |
-| [getGapDepth()](#getGapDepth--) | Trả về hoặc đặt khoảng cách, tính bằng phần trăm độ rộng của dấu đánh dấu, giữa các chuỗi dữ liệu trong biểu đồ 3D. |
-| [setGapDepth(int value)](#setGapDepth-int-) | Trả về hoặc đặt khoảng cách, tính bằng phần trăm độ rộng của dấu đánh dấu, giữa các chuỗi dữ liệu trong biểu đồ 3D. |
-| [getFirstSliceAngle()](#getFirstSliceAngle--) | Lấy hoặc đặt góc của phần bánh hoặc vòng donut đầu tiên, tính bằng độ (theo chiều kim đồng hồ từ trên, từ 0 tới 360 độ). |
-| [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | Lấy hoặc đặt góc của phần bánh hoặc vòng donut đầu tiên, tính bằng độ (theo chiều kim đồng hồ từ trên, từ 0 tới 360 độ). |
-| [isColorVaried()](#isColorVaried--) | Xác định rằng mỗi dấu dữ liệu trong chuỗi có màu khác nhau. |
-| [setColorVaried(boolean value)](#setColorVaried-boolean-) | Xác định rằng mỗi dấu dữ liệu trong chuỗi có màu khác nhau. |
+| [get_Item(int index)](#get-Item-int-) | Lấy phần tử tại chỉ mục xác định. |
+| [getUpDownBars()](#getUpDownBars--) | Cung cấp quyền truy cập vào thanh tăng/giảm của biểu đồ Đường hoặc Cổ phiếu. |
+| [getGapWidth()](#getGapWidth--) | Lấy hoặc đặt khoảng cách giữa các cụm thanh hoặc cột, tính bằng phần trăm độ rộng của thanh hoặc cột. |
+| [setGapWidth(int value)](#setGapWidth-int-) | Lấy hoặc đặt khoảng cách giữa các cụm thanh hoặc cột, tính bằng phần trăm độ rộng của thanh hoặc cột. |
+| [getGapDepth()](#getGapDepth--) | Lấy hoặc đặt khoảng cách giữa các chuỗi dữ liệu trong biểu đồ 3D, tính bằng phần trăm độ rộng của dấu đánh dấu. |
+| [setGapDepth(int value)](#setGapDepth-int-) | Lấy hoặc đặt khoảng cách giữa các chuỗi dữ liệu trong biểu đồ 3D, tính bằng phần trăm độ rộng của dấu đánh dấu. |
+| [getFirstSliceAngle()](#getFirstSliceAngle--) | Lấy hoặc đặt góc của lát bánh hoặc vòng tròn đầu tiên, tính bằng độ (theo chiều kim đồng hồ từ trên, từ 0 đến 360 độ). |
+| [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | Lấy hoặc đặt góc của lát bánh hoặc vòng tròn đầu tiên, tính bằng độ (theo chiều kim đồng hồ từ trên, từ 0 đến 360 độ). |
+| [isColorVaried()](#isColorVaried--) | Chỉ định rằng mỗi dấu dữ liệu trong chuỗi có màu khác nhau. |
+| [setColorVaried(boolean value)](#setColorVaried-boolean-) | Chỉ định rằng mỗi dấu dữ liệu trong chuỗi có màu khác nhau. |
 | [hasSeriesLines()](#hasSeriesLines--) | Đúng nếu biểu đồ có các đường chuỗi. |
 | [setSeriesLines(boolean value)](#setSeriesLines-boolean-) | Đúng nếu biểu đồ có các đường chuỗi. |
-| [getOverlap()](#getOverlap--) | Xác định mức độ chồng lấn của các thanh và cột trên biểu đồ 2-D, tính bằng phần trăm (từ -100% tới 100%). |
-| [setOverlap(byte value)](#setOverlap-byte-) | Xác định mức độ chồng lấn của các thanh và cột trên biểu đồ 2-D, tính bằng phần trăm (từ -100% tới 100%). |
-| [getSecondPieSize()](#getSecondPieSize--) | Xác định kích thước của bánh hoặc thanh thứ hai trong biểu đồ bánh trong bánh hoặc thanh trong bánh, tính bằng phần trăm kích thước của bánh đầu tiên (có thể từ 5 tới 200%). |
-| [setSecondPieSize(int value)](#setSecondPieSize-int-) | Xác định kích thước của bánh hoặc thanh thứ hai trong biểu đồ bánh trong bánh hoặc thanh trong bánh, tính bằng phần trăm kích thước của bánh đầu tiên (có thể từ 5 tới 200%). |
-| [getPieSplitPosition()](#getPieSplitPosition--) | Xác định một giá trị sẽ được sử dụng để quyết định các điểm dữ liệu nào nằm trong bánh hoặc thanh thứ hai trên biểu đồ bánh trong bánh hoặc thanh trong bánh. |
-| [setPieSplitPosition(double value)](#setPieSplitPosition-double-) | Xác định một giá trị sẽ được sử dụng để quyết định các điểm dữ liệu nào nằm trong bánh hoặc thanh thứ hai trên biểu đồ bánh trong bánh hoặc thanh trong bánh. |
-| [getPieSplitBy()](#getPieSplitBy--) | Xác định cách quyết định các điểm dữ liệu nào nằm trong bánh hoặc thanh thứ hai trên biểu đồ bánh trong bánh hoặc thanh trong bánh. |
-| [setPieSplitBy(int value)](#setPieSplitBy-int-) | Xác định cách quyết định các điểm dữ liệu nào nằm trong bánh hoặc thanh thứ hai trên biểu đồ bánh trong bánh hoặc thanh trong bánh. |
-| [getPieSplitCustomPoints()](#getPieSplitCustomPoints--) | Thông tin chia tách tùy chỉnh cho biểu đồ bánh trong bánh hoặc thanh trong bánh có chia tách tùy chỉnh. |
-| [getDoughnutHoleSize()](#getDoughnutHoleSize--) | Xác định kích thước lỗ trong biểu đồ donut (có thể từ 10 tới 90% kích thước khu vực vẽ). |
-| [setDoughnutHoleSize(byte value)](#setDoughnutHoleSize-byte-) | Xác định kích thước lỗ trong biểu đồ donut (có thể từ 10 tới 90% kích thước khu vực vẽ). |
-| [getBubbleSizeScale()](#getBubbleSizeScale--) | Xác định hệ số tỷ lệ cho biểu đồ bong bóng (có thể từ 0 tới 300% kích thước mặc định). |
-| [setBubbleSizeScale(int value)](#setBubbleSizeScale-int-) | Xác định hệ số tỷ lệ cho biểu đồ bong bóng (có thể từ 0 tới 300% kích thước mặc định). |
-| [getHiLowLinesFormat()](#getHiLowLinesFormat--) | Xác định định dạng HiLowLines. |
-| [getBubbleSizeRepresentation()](#getBubbleSizeRepresentation--) | Xác định cách các giá trị kích thước bong bóng được biểu thị trên biểu đồ bong bóng. |
-| [setBubbleSizeRepresentation(int value)](#setBubbleSizeRepresentation-int-) | Xác định cách các giá trị kích thước bong bóng được biểu thị trên biểu đồ bong bóng. |
+| [getOverlap()](#getOverlap--) | Chỉ định mức độ chồng lấn của các thanh và cột trên biểu đồ 2D, tính bằng phần trăm (từ -100% đến 100%). |
+| [setOverlap(byte value)](#setOverlap-byte-) | Chỉ định mức độ chồng lấn của các thanh và cột trên biểu đồ 2D, tính bằng phần trăm (từ -100% đến 100%). |
+| [getSecondPieSize()](#getSecondPieSize--) | Chỉ định kích thước của bánh hoặc thanh thứ hai trong biểu đồ bánh-con-bánh hoặc thanh-con-bánh, tính bằng phần trăm kích thước của bánh đầu tiên (có thể từ 5 đến 200%). |
+| [setSecondPieSize(int value)](#setSecondPieSize-int-) | Chỉ định kích thước của bánh hoặc thanh thứ hai trong biểu đồ bánh-con-bánh hoặc thanh-con-bánh, tính bằng phần trăm kích thước của bánh đầu tiên (có thể từ 5 đến 200%). |
+| [getPieSplitPosition()](#getPieSplitPosition--) | Chỉ định giá trị được sử dụng để xác định các điểm dữ liệu nằm trong bánh hoặc thanh thứ hai trên biểu đồ bánh-con-bánh hoặc thanh-con-bánh. |
+| [setPieSplitPosition(double value)](#setPieSplitPosition-double-) | Chỉ định giá trị được sử dụng để xác định các điểm dữ liệu nằm trong bánh hoặc thanh thứ hai trên biểu đồ bánh-con-bánh hoặc thanh-con-bánh. |
+| [getPieSplitBy()](#getPieSplitBy--) | Chỉ định cách xác định các điểm dữ liệu nằm trong bánh hoặc thanh thứ hai trên biểu đồ bánh-con-bánh hoặc thanh-con-bánh. |
+| [setPieSplitBy(int value)](#setPieSplitBy-int-) | Chỉ định cách xác định các điểm dữ liệu nằm trong bánh hoặc thanh thứ hai trên biểu đồ bánh-con-bánh hoặc thanh-con-bánh. |
+| [getPieSplitCustomPoints()](#getPieSplitCustomPoints--) | Thông tin tách tùy chỉnh cho biểu đồ bánh-con-bánh hoặc thanh-con-bánh có tách tùy chỉnh. |
+| [getDoughnutHoleSize()](#getDoughnutHoleSize--) | Chỉ định kích thước của lỗ trong biểu đồ vòng tròn (có thể từ 10 đến 90% kích thước vùng vẽ). |
+| [setDoughnutHoleSize(byte value)](#setDoughnutHoleSize-byte-) | Chỉ định kích thước của lỗ trong biểu đồ vòng tròn (có thể từ 10 đến 90% kích thước vùng vẽ). |
+| [getBubbleSizeScale()](#getBubbleSizeScale--) | Chỉ định hệ số tỷ lệ cho biểu đồ bong bóng (có thể từ 0 đến 300% kích thước mặc định). |
+| [setBubbleSizeScale(int value)](#setBubbleSizeScale-int-) | Chỉ định hệ số tỷ lệ cho biểu đồ bong bóng (có thể từ 0 đến 300% kích thước mặc định). |
+| [getHiLowLinesFormat()](#getHiLowLinesFormat--) | Chỉ định định dạng HiLowLines. |
+| [getBubbleSizeRepresentation()](#getBubbleSizeRepresentation--) | Chỉ định cách các giá trị kích thước bong bóng được biểu diễn trên biểu đồ bong bóng. |
+| [setBubbleSizeRepresentation(int value)](#setBubbleSizeRepresentation-int-) | Chỉ định cách các giá trị kích thước bong bóng được biểu diễn trên biểu đồ bong bóng. |
 
 ### getType() {#getType--}
 ```
 public abstract int getType()
 ```
 
-Trả về một kiểu của nhóm chuỗi này. Chỉ đọc [CombinableSeriesTypesGroup](../../com.aspose.slides/combinableseriestypesgroup).
+Trả về kiểu của nhóm chuỗi này. Chỉ đọc [CombinableSeriesTypesGroup](../../com.aspose.slides/combinableseriestypesgroup).
 
 **Trả về:**
 int
@@ -68,7 +67,7 @@ int
 public abstract boolean getPlotOnSecondAxis()
 ```
 
-Cho biết nếu chuỗi của nhóm này được vẽ trên trục phụ. Chỉ đọc boolean.
+Cho biết liệu các chuỗi của nhóm này có được vẽ trên trục phụ hay không. Chỉ đọc boolean.
 
 **Trả về:**
 boolean
@@ -88,7 +87,7 @@ Trả về một bộ sưu tập chỉ đọc của các chuỗi biểu đồ. C
 public abstract IChartSeries get_Item(int index)
 ```
 
-Lấy phần tử tại chỉ mục đã chỉ định.
+Lấy phần tử tại chỉ mục xác định.
 
 **Tham số:**
 | Tham số | Kiểu | Mô tả |
@@ -103,7 +102,7 @@ Lấy phần tử tại chỉ mục đã chỉ định.
 public abstract IUpDownBarsManager getUpDownBars()
 ```
 
-Cung cấp truy cập tới các thanh lên/xuống của biểu đồ Đường hoặc Cổ phiếu. Chỉ đọc [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager).
+Cung cấp quyền truy cập vào thanh tăng/giảm của biểu đồ Đường hoặc Cổ phiếu. Chỉ đọc [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager).
 
 **Trả về:**
 [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager)
@@ -113,7 +112,11 @@ Cung cấp truy cập tới các thanh lên/xuống của biểu đồ Đường
 public abstract int getGapWidth()
 ```
 
-Xác định khoảng cách giữa các cụm thanh hoặc cột, tính bằng phần trăm độ rộng của thanh hoặc cột. Đọc/ghi int.
+Lấy hoặc đặt khoảng cách giữa các cụm thanh hoặc cột, tính bằng phần trăm độ rộng của thanh hoặc cột. Giá trị phải nằm trong khoảng từ 0 đến 500. Đọc/ghi int.
+
+--------------------
+
+Thuộc tính này áp dụng cho các chuỗi của các kiểu sau: Tất cả các kiểu con thanh và cột, [ChartType.BarOfPie](../../com.aspose.slides/charttype\#BarOfPie), [ChartType.PieOfPie](../../com.aspose.slides/charttype\#PieOfPie), [ChartType.BoxAndWhisker](../../com.aspose.slides/charttype\#BoxAndWhisker), [ChartType.Funnel](../../com.aspose.slides/charttype\#Funnel), [ChartType.Histogram](../../com.aspose.slides/charttype\#Histogram), [ChartType.Waterfall](../../com.aspose.slides/charttype\#Waterfall).
 
 **Trả về:**
 int
@@ -123,7 +126,11 @@ int
 public abstract void setGapWidth(int value)
 ```
 
-Xác định khoảng cách giữa các cụm thanh hoặc cột, tính bằng phần trăm độ rộng của thanh hoặc cột. Đọc/ghi int.
+Lấy hoặc đặt khoảng cách giữa các cụm thanh hoặc cột, tính bằng phần trăm độ rộng của thanh hoặc cột. Giá trị phải nằm trong khoảng từ 0 đến 500. Đọc/ghi int.
+
+--------------------
+
+Thuộc tính này áp dụng cho các chuỗi của các kiểu sau: Tất cả các kiểu con thanh và cột, [ChartType.BarOfPie](../../com.aspose.slides/charttype\#BarOfPie), [ChartType.PieOfPie](../../com.aspose.slides/charttype\#PieOfPie), [ChartType.BoxAndWhisker](../../com.aspose.slides/charttype\#BoxAndWhisker), [ChartType.Funnel](../../com.aspose.slides/charttype\#Funnel), [ChartType.Histogram](../../com.aspose.slides/charttype\#Histogram), [ChartType.Waterfall](../../com.aspose.slides/charttype\#Waterfall).
 
 **Tham số:**
 | Tham số | Kiểu | Mô tả |
@@ -135,7 +142,11 @@ Xác định khoảng cách giữa các cụm thanh hoặc cột, tính bằng p
 public abstract int getGapDepth()
 ```
 
-Trả về hoặc đặt khoảng cách, tính bằng phần trăm độ rộng của dấu đánh dấu, giữa các chuỗi dữ liệu trong biểu đồ 3D. Đọc/ghi int.
+Lấy hoặc đặt khoảng cách giữa các chuỗi dữ liệu trong biểu đồ 3D, tính bằng phần trăm độ rộng của dấu đánh dấu. Giá trị phải nằm trong khoảng từ 0 đến 500. Đọc/ghi int.
+
+--------------------
+
+Thuộc tính này áp dụng cho các chuỗi của các kiểu sau: Các kiểu con thanh và cột 3D, [ChartType.Line3D](../../com.aspose.slides/charttype\#Line3D), [ChartType.Area3D](../../com.aspose.slides/charttype\#Area3D), [ChartType.StackedArea3D](../../com.aspose.slides/charttype\#StackedArea3D), [ChartType.PercentsStackedArea3D](../../com.aspose.slides/charttype\#PercentsStackedArea3D).
 
 **Trả về:**
 int
@@ -145,7 +156,11 @@ int
 public abstract void setGapDepth(int value)
 ```
 
-Trả về hoặc đặt khoảng cách, tính bằng phần trăm độ rộng của dấu đánh dấu, giữa các chuỗi dữ liệu trong biểu đồ 3D. Đọc/ghi int.
+Lấy hoặc đặt khoảng cách giữa các chuỗi dữ liệu trong biểu đồ 3D, tính bằng phần trăm độ rộng của dấu đánh dấu. Giá trị phải nằm trong khoảng từ 0 đến 500. Đọc/ghi int.
+
+--------------------
+
+Thuộc tính này áp dụng cho các chuỗi của các kiểu sau: Các kiểu con thanh và cột 3D, [ChartType.Line3D](../../com.aspose.slides/charttype\#Line3D), [ChartType.Area3D](../../com.aspose.slides/charttype\#Area3D), [ChartType.StackedArea3D](../../com.aspose.slides/charttype\#StackedArea3D), [ChartType.PercentsStackedArea3D](../../com.aspose.slides/charttype\#PercentsStackedArea3D).
 
 **Tham số:**
 | Tham số | Kiểu | Mô tả |
@@ -157,7 +172,7 @@ Trả về hoặc đặt khoảng cách, tính bằng phần trăm độ rộng 
 public abstract int getFirstSliceAngle()
 ```
 
-Lấy hoặc đặt góc của phần bánh hoặc vòng donut đầu tiên, tính bằng độ (theo chiều kim đồng hồ từ trên, từ 0 tới 360 độ). Đọc/ghi int.
+Lấy hoặc đặt góc của lát bánh hoặc vòng tròn đầu tiên, tính bằng độ (theo chiều kim đồng hồ từ trên, từ 0 đến 360 độ). Đọc/ghi int.
 
 **Trả về:**
 int
@@ -167,7 +182,7 @@ int
 public abstract void setFirstSliceAngle(int value)
 ```
 
-Lấy hoặc đặt góc của phần bánh hoặc vòng donut đầu tiên, tính bằng độ (theo chiều kim đồng hồ từ trên, từ 0 tới 360 độ). Đọc/ghi int.
+Lấy hoặc đặt góc của lát bánh hoặc vòng tròn đầu tiên, tính bằng độ (theo chiều kim đồng hồ từ trên, từ 0 đến 360 độ). Đọc/ghi int.
 
 **Tham số:**
 | Tham số | Kiểu | Mô tả |
@@ -179,7 +194,7 @@ Lấy hoặc đặt góc của phần bánh hoặc vòng donut đầu tiên, tí
 public abstract boolean isColorVaried()
 ```
 
-Xác định rằng mỗi dấu dữ liệu trong chuỗi có màu khác nhau. Đọc/ghi boolean.
+Chỉ định rằng mỗi dấu dữ liệu trong chuỗi có màu khác nhau. Đọc/ghi boolean.
 
 **Trả về:**
 boolean
@@ -189,7 +204,7 @@ boolean
 public abstract void setColorVaried(boolean value)
 ```
 
-Xác định rằng mỗi dấu dữ liệu trong chuỗi có màu khác nhau. Đọc/ghi boolean.
+Chỉ định rằng mỗi dấu dữ liệu trong chuỗi có màu khác nhau. Đọc/ghi boolean.
 
 **Tham số:**
 | Tham số | Kiểu | Mô tả |
@@ -201,7 +216,7 @@ Xác định rằng mỗi dấu dữ liệu trong chuỗi có màu khác nhau. �
 public abstract boolean hasSeriesLines()
 ```
 
-Đúng nếu biểu đồ có các đường chuỗi. Áp dụng cho biểu đồ cột chồng và OfPie. Đọc/ghi boolean.
+Đúng nếu biểu đồ có các đường chuỗi. Áp dụng cho biểu đồ thanh xếp chồng và OfPie. Đọc/ghi boolean.
 
 **Trả về:**
 boolean
@@ -211,7 +226,7 @@ boolean
 public abstract void setSeriesLines(boolean value)
 ```
 
-Đúng nếu biểu đồ có các đường chuỗi. Áp dụng cho biểu đồ cột chồng và OfPie. Đọc/ghi boolean.
+Đúng nếu biểu đồ có các đường chuỗi. Áp dụng cho biểu đồ thanh xếp chồng và OfPie. Đọc/ghi boolean.
 
 **Tham số:**
 | Tham số | Kiểu | Mô tả |
@@ -223,7 +238,7 @@ public abstract void setSeriesLines(boolean value)
 public abstract byte getOverlap()
 ```
 
-Xác định mức độ chồng lấn của các thanh và cột trên biểu đồ 2-D, tính bằng phần trăm (từ -100% tới 100%). - -100%: Khoảng cách tối đa (các thanh hoàn toàn tách rời). - 0%: Các thanh đặt cạnh nhau mà không chồng lấn hay có khoảng cách. - 100%: Chồng lấn tối đa (các thanh hoàn toàn chồng lên nhau). Thuộc tính này là đọc/ghi byte.
+Chỉ định mức độ chồng lấn của các thanh và cột trên biểu đồ 2D, tính bằng phần trăm (từ -100% đến 100%). - -100%: Khoảng cách tối đa (các thanh hoàn toàn tách rời). - 0%: Các thanh được đặt cạnh nhau mà không chồng lấn hay khoảng cách. - 100%: Chồng lấn tối đa (các thanh hoàn toàn chồng lên nhau). Thuộc tính này là đọc/ghi byte.
 
 --------------------
 
@@ -235,7 +250,7 @@ Xác định mức độ chồng lấn của các thanh và cột trên biểu �
 >  try {
 >      IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);
 >      IChartSeriesCollection series = chart.getChartData().getSeries();
->      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // Đặt chồng lấn thành 55%
+>      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // Đặt độ chồng lấn thành 55%
 >      pres.getSlides().get_Item(0).getImage(1, 1).save("chart.png");
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -251,7 +266,7 @@ byte
 public abstract void setOverlap(byte value)
 ```
 
-Xác định mức độ chồng lấn của các thanh và cột trên biểu đồ 2-D, tính bằng phần trăm (từ -100% tới 100%). - -100%: Khoảng cách tối đa (các thanh hoàn toàn tách rời). - 0%: Các thanh đặt cạnh nhau mà không chồng lấn hay có khoảng cách. - 100%: Chồng lấn tối đa (các thanh hoàn toàn chồng lên nhau). Thuộc tính này là đọc/ghi byte.
+Chỉ định mức độ chồng lấn của các thanh và cột trên biểu đồ 2D, tính bằng phần trăm (từ -100% đến 100%). - -100%: Khoảng cách tối đa (các thanh hoàn toàn tách rời). - 0%: Các thanh được đặt cạnh nhau mà không chồng lấn hay khoảng cách. - 100%: Chồng lấn tối đa (các thanh hoàn toàn chồng lên nhau). Thuộc tính này là đọc/ghi byte.
 
 --------------------
 
@@ -263,7 +278,7 @@ Xác định mức độ chồng lấn của các thanh và cột trên biểu �
 >  try {
 >      IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);
 >      IChartSeriesCollection series = chart.getChartData().getSeries();
->      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // Đặt chồng lấn thành 55%
+>      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // Đặt độ chồng lấn thành 55%
 >      pres.getSlides().get_Item(0).getImage(1, 1).save("chart.png", ImageFormat.Png);
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -281,7 +296,7 @@ Xác định mức độ chồng lấn của các thanh và cột trên biểu �
 public abstract int getSecondPieSize()
 ```
 
-Xác định kích thước của bánh hoặc thanh thứ hai trong biểu đồ bánh trong bánh hoặc thanh trong bánh, tính bằng phần trăm kích thước của bánh đầu tiên (có thể từ 5 tới 200%). Đọc/ghi int.
+Chỉ định kích thước của bánh hoặc thanh thứ hai trong biểu đồ bánh-con-bánh hoặc thanh-con-bánh, tính bằng phần trăm kích thước của bánh đầu tiên (có thể từ 5 đến 200%). Đọc/ghi int.
 
 **Trả về:**
 int
@@ -291,7 +306,7 @@ int
 public abstract void setSecondPieSize(int value)
 ```
 
-Xác định kích thước của bánh hoặc thanh thứ hai trong biểu đồ bánh trong bánh hoặc thanh trong bánh, tính bằng phần trăm kích thước của bánh đầu tiên (có thể từ 5 tới 200%). Đọc/ghi int.
+Chỉ định kích thước của bánh hoặc thanh thứ hai trong biểu đồ bánh-con-bánh hoặc thanh-con-bánh, tính bằng phần trăm kích thước của bánh đầu tiên (có thể từ 5 đến 200%). Đọc/ghi int.
 
 **Tham số:**
 | Tham số | Kiểu | Mô tả |
@@ -303,7 +318,7 @@ Xác định kích thước của bánh hoặc thanh thứ hai trong biểu đ�
 public abstract double getPieSplitPosition()
 ```
 
-Xác định một giá trị sẽ được sử dụng để quyết định các điểm dữ liệu nào nằm trong bánh hoặc thanh thứ hai trên biểu đồ bánh trong bánh hoặc thanh trong bánh. Được sử dụng cùng với thuộc tính PieSplitBy. Đọc/ghi double.
+Chỉ định giá trị được sử dụng để xác định các điểm dữ liệu nằm trong bánh hoặc thanh thứ hai trên biểu đồ bánh-con-bánh hoặc thanh-con-bánh. Được sử dụng cùng với thuộc tính PieSplitBy. Đọc/ghi double.
 
 **Trả về:**
 double
@@ -313,7 +328,7 @@ double
 public abstract void setPieSplitPosition(double value)
 ```
 
-Xác định một giá trị sẽ được sử dụng để quyết định các điểm dữ liệu nào nằm trong bánh hoặc thanh thứ hai trên biểu đồ bánh trong bánh hoặc thanh trong bánh. Được sử dụng cùng với thuộc tính PieSplitBy. Đọc/ghi double.
+Chỉ định giá trị được sử dụng để xác định các điểm dữ liệu nằm trong bánh hoặc thanh thứ hai trên biểu đồ bánh-con-bánh hoặc thanh-con-bánh. Được sử dụng cùng với thuộc tính PieSplitBy. Đọc/ghi double.
 
 **Tham số:**
 | Tham số | Kiểu | Mô tả |
@@ -325,7 +340,7 @@ Xác định một giá trị sẽ được sử dụng để quyết định c�
 public abstract int getPieSplitBy()
 ```
 
-Xác định cách quyết định các điểm dữ liệu nào nằm trong bánh hoặc thanh thứ hai trên biểu đồ bánh trong bánh hoặc thanh trong bánh. Đọc/ghi [PieSplitType](../../com.aspose.slides/piesplittype).
+Chỉ định cách xác định các điểm dữ liệu nằm trong bánh hoặc thanh thứ hai trên biểu đồ bánh-con-bánh hoặc thanh-con-bánh. Đọc/ghi [PieSplitType](../../com.aspose.slides/piesplittype).
 
 **Trả về:**
 int
@@ -335,7 +350,7 @@ int
 public abstract void setPieSplitBy(int value)
 ```
 
-Xác định cách quyết định các điểm dữ liệu nào nằm trong bánh hoặc thanh thứ hai trên biểu đồ bánh trong bánh hoặc thanh trong bánh. Đọc/ghi [PieSplitType](../../com.aspose.slides/piesplittype).
+Chỉ định cách xác định các điểm dữ liệu nằm trong bánh hoặc thanh thứ hai trên biểu đồ bánh-con-bánh hoặc thanh-con-bánh. Đọc/ghi [PieSplitType](../../com.aspose.slides/piesplittype).
 
 **Tham số:**
 | Tham số | Kiểu | Mô tả |
@@ -347,7 +362,7 @@ Xác định cách quyết định các điểm dữ liệu nào nằm trong bá
 public abstract IPieSplitCustomPointCollection getPieSplitCustomPoints()
 ```
 
-Thông tin chia tách tùy chỉnh cho biểu đồ bánh trong bánh hoặc thanh trong bánh có chia tách tùy chỉnh. Chứa các điểm dữ liệu sẽ được vẽ trong bánh hoặc thanh thứ hai trong biểu đồ bánh trong bánh hoặc thanh trong bánh. Chỉ đọc [IPieSplitCustomPointCollection](../../com.aspose.slides/ipiesplitcustompointcollection).
+Thông tin tách tùy chỉnh cho biểu đồ bánh-con-bánh hoặc thanh-con-bánh có tách tùy chỉnh. Chứa các điểm dữ liệu sẽ được vẽ trong bánh hoặc thanh thứ hai. Chỉ đọc [IPieSplitCustomPointCollection](../../com.aspose.slides/ipiesplitcustompointcollection).
 
 **Trả về:**
 [IPieSplitCustomPointCollection](../../com.aspose.slides/ipiesplitcustompointcollection)
@@ -357,7 +372,7 @@ Thông tin chia tách tùy chỉnh cho biểu đồ bánh trong bánh hoặc tha
 public abstract byte getDoughnutHoleSize()
 ```
 
-Xác định kích thước lỗ trong biểu đồ donut (có thể từ 10 tới 90% kích thước khu vực vẽ). Đọc/ghi byte.
+Chỉ định kích thước của lỗ trong biểu đồ vòng tròn (có thể từ 10 đến 90% kích thước vùng vẽ). Đọc/ghi byte.
 
 **Trả về:**
 byte
@@ -367,7 +382,7 @@ byte
 public abstract void setDoughnutHoleSize(byte value)
 ```
 
-Xác định kích thước lỗ trong biểu đồ donut (có thể từ 10 tới 90% kích thước khu vực vẽ). Đọc/ghi byte.
+Chỉ định kích thước của lỗ trong biểu đồ vòng tròn (có thể từ 10 đến 90% kích thước vùng vẽ). Đọc/ghi byte.
 
 **Tham số:**
 | Tham số | Kiểu | Mô tả |
@@ -379,7 +394,7 @@ Xác định kích thước lỗ trong biểu đồ donut (có thể từ 10 t�
 public abstract int getBubbleSizeScale()
 ```
 
-Xác định hệ số tỷ lệ cho biểu đồ bong bóng (có thể từ 0 tới 300% kích thước mặc định). Đọc/ghi int.
+Chỉ định hệ số tỷ lệ cho biểu đồ bong bóng (có thể từ 0 đến 300% kích thước mặc định). Đọc/ghi int.
 
 **Trả về:**
 int
@@ -389,7 +404,7 @@ int
 public abstract void setBubbleSizeScale(int value)
 ```
 
-Xác định hệ số tỷ lệ cho biểu đồ bong bóng (có thể từ 0 tới 300% kích thước mặc định). Đọc/ghi int.
+Chỉ định hệ số tỷ lệ cho biểu đồ bong bóng (có thể từ 0 đến 300% kích thước mặc định). Đọc/ghi int.
 
 **Tham số:**
 | Tham số | Kiểu | Mô tả |
@@ -401,7 +416,7 @@ Xác định hệ số tỷ lệ cho biểu đồ bong bóng (có thể từ 0 t
 public abstract IChartLinesFormat getHiLowLinesFormat()
 ```
 
-Xác định định dạng HiLowLines. HiLowLines được áp dụng với các loại biểu đồ HiLowClose, OpenHiLowClose, VolumeHiLowClose và VolumeOpenHiLowClose.
+Chỉ định định dạng HiLowLines. HiLowLines áp dụng cho các kiểu biểu đồ HiLowClose, OpenHiLowClose, VolumeHiLowClose và VolumeOpenHiLowClose.
 
 **Trả về:**
 [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat)
@@ -411,7 +426,7 @@ Xác định định dạng HiLowLines. HiLowLines được áp dụng với cá
 public abstract int getBubbleSizeRepresentation()
 ```
 
-Xác định cách các giá trị kích thước bong bóng được biểu thị trên biểu đồ bong bóng. Đọc/ghi [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
+Chỉ định cách các giá trị kích thước bong bóng được biểu diễn trên biểu đồ bong bóng. Đọc/ghi [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
 
 **Trả về:**
 int
@@ -421,7 +436,7 @@ int
 public abstract void setBubbleSizeRepresentation(int value)
 ```
 
-Xác định cách các giá trị kích thước bong bóng được biểu thị trên biểu đồ bong bóng. Đọc/ghi [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
+Chỉ định cách các giá trị kích thước bong bóng được biểu diễn trên biểu đồ bong bóng. Đọc/ghi [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
 
 **Tham số:**
 | Tham số | Kiểu | Mô tả |

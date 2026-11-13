@@ -1,41 +1,42 @@
 ---
 title: IDataLabelCollection
-second_title: Aspose.Slides pro Java API Reference
-description: Reprezentuje štítky řady.
+second_title: Aspose.Slides pro Java – reference API
+description: Představuje popisky řady.
 type: docs
 url: /cs/com.aspose.slides/idatalabelcollection/
 ---
-**All Implemented Interfaces:**
+**Všechny implementované rozhraní:**
 com.aspose.ms.System.Collections.Generic.IGenericEnumerable, [com.aspose.slides.IChartComponent](../../com.aspose.slides/ichartcomponent)
 ```
 public interface IDataLabelCollection extends System.Collections.Generic.IGenericEnumerable<IDataLabel>, IChartComponent
 ```
 
-Represents a series labels.
+Představuje popisky řady.
 ## Metody
 
 | Metoda | Popis |
 | --- | --- |
-| [get_Item(int index)](#get-Item-int-) | Získá datový štítek pro datový bod s určeným indexem. |
-| [getDefaultDataLabelFormat()](#getDefaultDataLabelFormat--) | Vrací výchozí formát všech datových štítků ve sbírce. |
-| [getLeaderLinesFormat()](#getLeaderLinesFormat--) | Představuje formát vodicích čar datových štítků. |
-| [isVisible()](#isVisible--) | False znamená, že datový štítek není ve výchozím nastavení viditelný (a tak jsou všechny Show*-flags (ShowValue, ...) vlastnosti DefaultDataLabelFormat nastaveny na false). |
-| [hide()](#hide--) | Skryje datový štítek ve výchozím nastavení nastavením všech Show*-flags (ShowValue, ...) vlastnosti DefaultDataLabelFormat na false. |
-| [getCountOfVisibleDataLabels()](#getCountOfVisibleDataLabels--) | Získá počet viditelných datových štítků ve sbírce. |
-| [getCount()](#getCount--) | Získá počet všech datových štítků ve sbírce. |
+| [get_Item(int index)](#get-Item-int-) | Získá popisek dat pro datový bod se zadaným indexem. |
+| [getDefaultDataLabelFormat()](#getDefaultDataLabelFormat--) | Vrací výchozí formát všech popisků dat v kolekci. |
+| [getLeaderLinesFormat()](#getLeaderLinesFormat--) | Představuje formát vodičových čar popisků dat. |
+| [isVisible()](#isVisible--) | False znamená, že popisek dat není ve výchozím nastavení viditelný (a proto jsou všechny příznaky Show*- (ShowValue, ...) vlastnosti DefaultDataLabelFormat nastaveny na false). |
+| [hide()](#hide--) | Skryje popisek dat ve výchozím nastavení nastavením všech příznaků Show*- (ShowValue, ...) vlastnosti DefaultDataLabelFormat do stavu false. |
+| [getCountOfVisibleDataLabels()](#getCountOfVisibleDataLabels--) | Získá počet viditelných popisků dat v kolekci. |
+| [getCount()](#getCount--) | Získá počet všech popisků dat v kolekci. |
 | [getParentSeries()](#getParentSeries--) | Vrací nadřazenou sérii grafu. |
-| [indexOf(IDataLabel value)](#indexOf-com.aspose.slides.IDataLabel-) | Vrací index zadaného DataLabel ve sbírce. |
+| [indexOf(IDataLabel value)](#indexOf-com.aspose.slides.IDataLabel-) | Vrací index zadaného DataLabel v kolekci. |
+| [getDefaultLabelShapeType()](#getDefaultLabelShapeType--) | Získá nebo nastaví výchozí typ tvaru pro popisky dat. |
+| [setDefaultLabelShapeType(int value)](#setDefaultLabelShapeType-int-) | Získá nebo nastaví výchozí typ tvaru pro popisky dat. |
 ### get_Item(int index) {#get-Item-int-}
 ```
 public abstract IDataLabel get_Item(int index)
 ```
 
-
-Získá datový štítek pro datový bod s určeným indexem.
+Získá popisek dat pro datový bod se zadaným indexem.
 
 --------------------
 
-Alternativní způsob přístupu k datovému štítku je: - getSeries().getDataPoints().get_Item(i).getLabel() - spravovat vlastnosti štítku.
+Alternativní způsob přístupu k popisku dat je: - getSeries().getDataPoints().get_Item(i).getLabel() - spravovat vlastnosti popisku.
 
 **Parametry:**
 | Parametr | Typ | Popis |
@@ -49,8 +50,7 @@ Alternativní způsob přístupu k datovému štítku je: - getSeries().getDataP
 public abstract IDataLabelFormat getDefaultDataLabelFormat()
 ```
 
-
-Vrací výchozí formát všech datových štítků ve sbírce. Pouze pro čtení [IDataLabelFormat](../../com.aspose.slides/idatalabelformat).
+Vrací výchozí formát všech popisků dat v kolekci. Pouze pro čtení [IDataLabelFormat](../../com.aspose.slides/idatalabelformat).
 
 **Vrací:**
 [IDataLabelFormat](../../com.aspose.slides/idatalabelformat)
@@ -59,8 +59,7 @@ Vrací výchozí formát všech datových štítků ve sbírce. Pouze pro čten�
 public abstract IChartLinesFormat getLeaderLinesFormat()
 ```
 
-
-Představuje formát vodicích čar datových štítků. Pouze pro čtení [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat).
+Představuje formát vodičových čar popisků dat. Pouze pro čtení [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat).
 
 --------------------
 
@@ -86,12 +85,11 @@ Představuje formát vodicích čar datových štítků. Pouze pro čtení [ICha
 public abstract boolean isVisible()
 ```
 
-
-False znamená, že datový štítek není ve výchozím nastavení viditelný (a tak jsou všechny Show*-flags (ShowValue, ...) vlastnosti DefaultDataLabelFormat nastaveny na false). Pouze pro čtení  boolean .
+False znamená, že popisek dat není ve výchozím nastavení viditelný (a proto jsou všechny příznaky Show*- (ShowValue, ...) vlastnosti DefaultDataLabelFormat nastaveny na false). Pouze pro čtení  boolean .
 
 --------------------
 
-Pokud je datový štítek ve výchozím nastavení viditelný, můžete jej skrýt ve výchozím nastavení metodou Hide(). Pokud však datový štítek není ve výchozím nastavení viditelný (IsVisible je false), můžete jej nastavit jako „viditelný ve výchozím nastavení“ nastavením Show*-flags (ShowValue, ...) vlastnosti DefaultDataLabelFormat na true.
+Pokud je popisek dat ve výchozím nastavení viditelný, můžete jej ve výchozím nastavení skrýt pomocí metody Hide(). Ale pokud popisek dat není ve výchozím nastavení viditelný (IsVisible je false), můžete popisek dat „viditelný ve výchozím nastavení“ nastavit nastavením příznaků Show*- (ShowValue, ...) vlastnosti DefaultDataLabelFormat na stav true.
 
 **Vrací:**
 boolean
@@ -100,19 +98,17 @@ boolean
 public abstract void hide()
 ```
 
-
-Skryje datový štítek ve výchozím nastavení nastavením všech Show*-flags (ShowValue, ...) vlastnosti DefaultDataLabelFormat na false. IsVisible bude po tomto nastavení false.
+Skryje popisek dat ve výchozím nastavení nastavením všech příznaků Show*- (ShowValue, ...) vlastnosti DefaultDataLabelFormat do stavu false. IsVisible bude po tomto nastavení false.
 
 --------------------
 
-Pokud je datový štítek ve výchozím nastavení viditelný, můžete jej skrýt ve výchozím nastavení metodou Hide(). Pokud však datový štítek není ve výchozím nastavení viditelný (IsVisible je false), můžete jej nastavit jako „viditelný ve výchozím nastavení“ nastavením Show*-flags (ShowValue, ...) vlastnosti DefaultDataLabelFormat na true.
+Pokud popisek dat není ve výchozím nastavení viditelný (IsVisible je false), můžete popisek dat „viditelný ve výchozím nastavení“ nastavit nastavením příznaků Show*- (ShowValue, ...) vlastnosti DefaultDataLabelFormat na stav true.
 ### getCountOfVisibleDataLabels() {#getCountOfVisibleDataLabels--}
 ```
 public abstract int getCountOfVisibleDataLabels()
 ```
 
-
-Získá počet viditelných datových štítků ve sbírce. Pouze pro čtení  int .
+Získá počet viditelných popisků dat v kolekci. Pouze pro čtení  int .
 
 **Vrací:**
 int
@@ -121,8 +117,7 @@ int
 public abstract int getCount()
 ```
 
-
-Získá počet všech datových štítků ve sbírce. Pouze pro čtení  int .
+Získá počet všech popisků dat v kolekci. Pouze pro čtení  int .
 
 **Vrací:**
 int
@@ -130,7 +125,6 @@ int
 ```
 public abstract IChartSeries getParentSeries()
 ```
-
 
 Vrací nadřazenou sérii grafu. Pouze pro čtení [IChartSeries](../../com.aspose.slides/ichartseries).
 
@@ -141,8 +135,7 @@ Vrací nadřazenou sérii grafu. Pouze pro čtení [IChartSeries](../../com.aspo
 public abstract int indexOf(IDataLabel value)
 ```
 
-
-Vrací index zadaného DataLabel ve sbírce.
+Vrací index zadaného DataLabel v kolekci.
 
 **Parametry:**
 | Parametr | Typ | Popis |
@@ -150,4 +143,62 @@ Vrací index zadaného DataLabel ve sbírce.
 | value | [IDataLabel](../../com.aspose.slides/idatalabel) | DataLabel k nalezení. |
 
 **Vrací:**
-int - Index DataLabel nebo -1, pokud DataLabel nepatří do této sbírky.
+int - Index DataLabel nebo -1, pokud DataLabel není z této kolekce.
+### getDefaultLabelShapeType() {#getDefaultLabelShapeType--}
+```
+public abstract int getDefaultLabelShapeType()
+```
+
+Získá nebo nastaví výchozí typ tvaru pro popisky dat. Vrací [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined), pokud není definován žádný tvar.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Nastavte typ tvaru všech popisků dat v první sérii na Ellipse.
+>      firstSeries.getLabels().setDefaultLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabels.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+Nastavení této vlastnosti také nastaví vlastnost IDataLabel.LabelShapeType ([IDataLabel.getLabelShapeType](../../com.aspose.slides/idatalabel\#getLabelShapeType)/[IDataLabel.setLabelShapeType(int)](../../com.aspose.slides/idatalabel\#setLabelShapeType-int-)) pro všechny popisky dat v kolekci na stejnou hodnotu.
+
+**Vrací:**
+int
+### setDefaultLabelShapeType(int value) {#setDefaultLabelShapeType-int-}
+```
+public abstract void setDefaultLabelShapeType(int value)
+```
+
+Získá nebo nastaví výchozí typ tvaru pro popisky dat. Vrací [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined), pokud není definován žádný tvar.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Nastavte typ tvaru všech popisků dat v první sérii na Ellipse.
+>      firstSeries.getLabels().setDefaultLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabels.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+Nastavení této vlastnosti také nastaví vlastnost IDataLabel.LabelShapeType ([IDataLabel.getLabelShapeType](../../com.aspose.slides/idatalabel\#getLabelShapeType)/[IDataLabel.setLabelShapeType(int)](../../com.aspose.slides/idatalabel\#setLabelShapeType-int-)) pro všechny popisky dat v kolekci na stejnou hodnotu.
+
+**Parametry:**
+| Parametr | Typ | Popis |
+| --- | --- | --- |
+| value | int |  |

@@ -14,57 +14,55 @@ public interface ITextFrame extends ISlideComponent
 يمثل TextFrame.
 ## الطرق
 
-| Method | Description |
+| الطريقة | الوصف |
 | --- | --- |
-| [getParagraphs()](#getParagraphs--) | يرجع القائمة التي تحتوي على جميع الفقرات في الإطار. |
-| [getText()](#getText--) | يحصل أو يضبط النص العادي لإطار TextFrame. |
-| [setText(String value)](#setText-java.lang.String-) | يحصل أو يضبط النص العادي لإطار TextFrame. |
-| [getTextFrameFormat()](#getTextFrameFormat--) | يرجع كائن التنسيق لهذا كائن TextFrame. |
-| [getHyperlinkQueries()](#getHyperlinkQueries--) | يوفر وصولًا سهلًا إلى الروابط التشعبية المحتواة. |
-| [getParentShape()](#getParentShape--) | يرجع الشكل الأب أو null إذا لم يطبق الكائن الأب واجهة IShape. للقراءة فقط [IShape](../../com.aspose.slides/ishape). |
-| [getParentCell()](#getParentCell--) | يرجع الخلية الأب أو null إذا لم يطبق الكائن الأب واجهة ICell. |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | يجمع المقاطع ذات التنسيق المتطابق في جميع الفقرات. |
-| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | يبرز جميع التطابقات للنص النموذجي باللون المحدد. |
-| [splitTextByColumns()](#splitTextByColumns--) | يقسم محتوى النص في [ITextFrame](../../com.aspose.slides/itextframe) إلى مصفوفة من السلاسل، حيث يمثل كل عنصر عمود نص منفصل داخل الإطار. |
-| [highlightText(String text, Color highlightColor, ITextHighlightingOptions options)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | يبرز جميع التطابقات للنص النموذجي باللون المحدد. |
-| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | يبرز جميع التطابقات للنص النموذجي باللون المحدد. |
-| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | يبرز جميع التطابقات للتعبير النمطي باللون المحدد. |
-| [highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)](#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | يبرز جميع التطابقات للتعبير النمطي باللون المحدد. |
-| [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | يستبدل جميع حدوثات النص المحدد بنص آخر محدد. |
-| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | يستبدل جميع التطابقات للتعبير النمطي بالسلسلة المحددة. |
-
+| [getParagraphs()](#getParagraphs--) | إرجاع قائمة جميع الفقرات في إطار. |
+| [getText()](#getText--) | الحصول على النص العادي أو تعيينه لإطار TextFrame. |
+| [setText(String value)](#setText-java.lang.String-) | الحصول على النص العادي أو تعيينه لإطار TextFrame. |
+| [getTextFrameFormat()](#getTextFrameFormat--) | إرجاع كائن التنسيق لهذا الكائن TextFrame. |
+| [getHyperlinkQueries()](#getHyperlinkQueries--) | توفير وصول سهل إلى الروابط التشعبية المحتواة. |
+| [getParentShape()](#getParentShape--) | إرجاع الشكل الأب أو null إذا كان الكائن الأب لا يطبق واجهة IShape. للقراءة فقط [IShape](../../com.aspose.slides/ishape). |
+| [getTextRect()](#getTextRect--) | الحصول على مستطيل النص المحدد بواسطة هندسة الشكل الأب. |
+| [getParentCell()](#getParentCell--) | إرجاع الخلية الأب أو null إذا كان الكائن الأب لا يطبق واجهة ICell. |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | دمج القطع ذات التنسيق المتطابق في جميع الفقرات. |
+| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | تظليل جميع التطابقات للنص العينة باللون المحدد. |
+| [splitTextByColumns()](#splitTextByColumns--) | تقسيم محتوى النص في [ITextFrame](../../com.aspose.slides/itextframe) إلى مصفوفة من السلاسل، حيث يتطابق كل عنصر مع عمود نص منفصل داخل الإطار. |
+| [highlightText(String text, Color highlightColor, ITextHighlightingOptions options)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | تظليل جميع التطابقات للنص العينة باللون المحدد. |
+| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | تظليل جميع التطابقات للنص العينة باللون المحدد. |
+| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | تظليل جميع التطابقات للتعبير النمطي باللون المحدد. |
+| [highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)](#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | تظليل جميع التطابقات للتعبير النمطي باللون المحدد. |
+| [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | استبدال جميع حدوث النص المحدد بنص آخر محدد. |
+| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | استبدال جميع التطابقات للتعبير النمطي بالسلسلة المحددة. |
 ### getParagraphs() {#getParagraphs--}
 ```
 public abstract IParagraphCollection getParagraphs()
 ```
 
-يرجع القائمة التي تحتوي على جميع الفقرات في الإطار. للقراءة فقط [IParagraphCollection](../../com.aspose.slides/iparagraphcollection).
+إرجاع قائمة جميع الفقرات في إطار. للقراءة فقط [IParagraphCollection](../../com.aspose.slides/iparagraphcollection).
 
 **الإرجاع:**
 [IParagraphCollection](../../com.aspose.slides/iparagraphcollection)
-
 ### getText() {#getText--}
 ```
 public abstract String getText()
 ```
 
-يحصل أو يضبط النص العادي لإطار TextFrame. للقراءة والكتابة String.
+الحصول على النص العادي أو تعيينه لإطار TextFrame. قراءة/كتابة String.
 
 القيمة: النص.
 
 **الإرجاع:**
 java.lang.String
-
 ### setText(String value) {#setText-java.lang.String-}
 ```
 public abstract void setText(String value)
 ```
 
-يحصل أو يضبط النص العادي لإطار TextFrame. للقراءة والكتابة String.
+الحصول على النص العادي أو تعيينه لإطار TextFrame. قراءة/كتابة String.
 
 القيمة: النص.
 
-**المعلمات:**
+**المعاملات:**
 | المعامل | النوع | الوصف |
 | --- | --- | --- |
 | value | java.lang.String |  |
@@ -74,27 +72,25 @@ public abstract void setText(String value)
 public abstract ITextFrameFormat getTextFrameFormat()
 ```
 
-يرجع كائن التنسيق لهذا كائن TextFrame. للقراءة فقط [ITextFrameFormat](../../com.aspose.slides/itextframeformat).
+إرجاع كائن التنسيق لهذا الكائن TextFrame. للقراءة فقط [ITextFrameFormat](../../com.aspose.slides/itextframeformat).
 
 **الإرجاع:**
 [ITextFrameFormat](../../com.aspose.slides/itextframeformat)
-
 ### getHyperlinkQueries() {#getHyperlinkQueries--}
 ```
 public abstract IHyperlinkQueries getHyperlinkQueries()
 ```
 
-يوفر وصولًا سهلًا إلى الروابط التشعبية المحتواة. للقراءة فقط [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
+توفر وصول سهل إلى الروابط التشعبية المحتواة. للقراءة فقط [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
 
 **الإرجاع:**
 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)
-
 ### getParentShape() {#getParentShape--}
 ```
 public abstract IShape getParentShape()
 ```
 
-يرجع الشكل الأب أو null إذا لم يطبق الكائن الأب واجهة IShape. للقراءة فقط [IShape](../../com.aspose.slides/ishape).
+إرجاع الشكل الأب أو null إذا كان الكائن الأب لا يطبق واجهة IShape. للقراءة فقط [IShape](../../com.aspose.slides/ishape).
 
 --------------------
 
@@ -106,7 +102,7 @@ public abstract IShape getParentShape()
 >      AutoShape autoShape = (AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0);
 >      Table table = (Table)presentation.getSlides().get_Item(0).getShapes().get_Item(1);
 > 
->      // هذه التأكيدات صحيحة دائمًا
+>      // هذه العبارات دائمًا صحيحة
 >      Assert.assertTrue(autoShape.getTextFrame().getParentShape() == autoShape);
 >      Assert.assertTrue((table.get_Item(0,0).getTextFrame()).getParentShape() == null);
 >  } finally {
@@ -117,13 +113,25 @@ public abstract IShape getParentShape()
 
 **الإرجاع:**
 [IShape](../../com.aspose.slides/ishape)
+### getTextRect() {#getTextRect--}
+```
+public abstract Rectangle2D.Float getTextRect()
+```
 
+الحصول على مستطيل النص المحدد بواسطة هندسة الشكل الأب.
+
+**الإرجاع:**
+java.awt.geom.Rectangle2D.Float - كائن java.awt.geom.Rectangle2D.Float يحدد مساحة النص.
+
+--------------------
+
+إحداثيات المستطيل نسبية إلى الزاوية العليا اليسرى للشكل الأب.
 ### getParentCell() {#getParentCell--}
 ```
 public abstract ICell getParentCell()
 ```
 
-يرجع الخلية الأب أو null إذا لم يطبق الكائن الأب واجهة ICell. للقراءة فقط [ICell](../../com.aspose.slides/icell).
+إرجاع الخلية الأب أو null إذا كان الكائن الأب لا يطبق واجهة ICell. للقراءة فقط [ICell](../../com.aspose.slides/icell).
 
 --------------------
 
@@ -135,7 +143,7 @@ public abstract ICell getParentCell()
 >      AutoShape autoShape = (AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0);
 >      Table table = (Table)presentation.getSlides().get_Item(0).getShapes().get_Item(1);
 > 
->      // هذه التأكيدات صحيحة دائمًا
+>      // هذه العبارات دائمًا صحيحة
 >      Assert.assertTrue(table.get_Item(0,0).getTextFrame().getParentCell() == table.get_Item(0,0));
 >      Assert.assertTrue(autoShape.getTextFrame().getParentCell() == null);
 >  } finally {
@@ -146,33 +154,32 @@ public abstract ICell getParentCell()
 
 **الإرجاع:**
 [ICell](../../com.aspose.slides/icell)
-
 ### joinPortionsWithSameFormatting() {#joinPortionsWithSameFormatting--}
 ```
 public abstract void joinPortionsWithSameFormatting()
 ```
 
-يجمع المقاطع ذات التنسيق المتطابق في جميع الفقرات.
+دمج القطع ذات التنسيق المتطابق في جميع الفقرات.
 
 ### highlightText(String text, Color highlightColor) {#highlightText-java.lang.String-java.awt.Color-}
 ```
 public abstract void highlightText(String text, Color highlightColor)
 ```
 
-يبرز جميع التطابقات للنص النموذجي باللون المحدد.
+تظليل جميع التطابقات للنص العينة باللون المحدد.
 
-**المعلمات:**
+**المعاملات:**
 | المعامل | النوع | الوصف |
 | --- | --- | --- |
-| text | java.lang.String | النص الذي سيُبرز. |
-| highlightColor | java.awt.Color | اللون الذي سيُبرز النص به. |
+| text | java.lang.String | النص المراد تظليله. |
+| highlightColor | java.awt.Color | اللون المستخدم لتظليل النص. |
 
 ### splitTextByColumns() {#splitTextByColumns--}
 ```
 public abstract String[] splitTextByColumns()
 ```
 
-يقسم محتوى النص في [ITextFrame](../../com.aspose.slides/itextframe) إلى مصفوفة من السلاسل، حيث يمثل كل عنصر عمود نص منفصل داخل الإطار.
+تقسيم محتوى النص في [ITextFrame](../../com.aspose.slides/itextframe) إلى مصفوفة من السلاسل، حيث يتطابق كل عنصر مع عمود نص منفصل داخل الإطار.
 
 --------------------
 
@@ -183,7 +190,7 @@ public abstract String[] splitTextByColumns()
 >  try {
 >      // احصل على الشكل الأول في الشريحة وقم بتحويله إلى ITextFrame
 >      ITextFrame textFrame = (ITextFrame) pres.getSlides().get_Item(0).getShapes().get_Item(0);
->      // قسم محتوى إطار النص إلى أعمدة
+>      // قسّم محتوى إطار النص إلى أعمدة
 >      String[] columnsText = textFrame.splitTextByColumns();
 >      // اطبع نص كل عمود إلى وحدة التحكم
 >      for (String column : columnsText)
@@ -199,28 +206,27 @@ java.lang.String[] - مصفوفة من السلاسل، حيث تمثل كل س�
 
 --------------------
 
-إذا لم يحتوي إطار النص على عدة أعمدة، فستحتوي المصفوفة المرجعة على عنصر واحد يحتوي على النص الكامل. ستُمثَّل الأعمدة الفارغة كسلاسل فارغة في المصفوفة.
-
+إذا لم يحتوي إطار النص على أعمدة متعددة، فستحتوي المصفوفة المرجعة على عنصر واحد يحتوي على النص الكامل. الأعمدة الفارغة ستمثل كسلاسل فارغة في المصفوفة.
 ### highlightText(String text, Color highlightColor, ITextHighlightingOptions options) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-}
 ```
 public abstract void highlightText(String text, Color highlightColor, ITextHighlightingOptions options)
 ```
 
-يبرز جميع التطابقات للنص النموذجي باللون المحدد.
+تظليل جميع التطابقات للنص العينة باللون المحدد.
 
-**المعلمات:**
+**المعاملات:**
 | المعامل | النوع | الوصف |
 | --- | --- | --- |
-| text | java.lang.String | النص الذي سيُبرز. |
-| highlightColor | java.awt.Color | اللون الذي سيُبرز النص به. |
-| options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | خيارات التمييز. |
+| text | java.lang.String | النص المراد تظليله. |
+| highlightColor | java.awt.Color | اللون المستخدم لتظليل النص. |
+| options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | خيارات التظليل. |
 
 ### highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
 public abstract void highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
-يبرز جميع التطابقات للنص النموذجي باللون المحدد.
+تظليل جميع التطابقات للنص العينة باللون المحدد.
 
 --------------------
 
@@ -231,9 +237,9 @@ public abstract void highlightText(String text, Color highlightColor, ITextSearc
 >  try {
 >      TextSearchOptions textSearchOptions = new TextSearchOptions();
 >      textSearchOptions.setWholeWordsOnly(true);
->      // تسليط الضوء على جميع الكلمات 'important'
+>      // تظليل جميع الكلمات 'important'
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightText("important", Color.BLUE);
->      // تسليط الضوء على جميع ظهورات 'the' المنفصلة
+>      // تظليل جميع تكرارات 'the' المستقلة
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightText("the", Color.MAGENTA, textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -242,20 +248,20 @@ public abstract void highlightText(String text, Color highlightColor, ITextSearc
 > ```
 
 
-**المعلمات:**
+**المعاملات:**
 | المعامل | النوع | الوصف |
 | --- | --- | --- |
-| text | java.lang.String | النص الذي سيُبرز. |
-| highlightColor | java.awt.Color | اللون الذي سيُبرز النص به. |
-| options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | خيارات البحث النصي [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | كائن الاستدعاء لتلقي نتائج البحث [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| text | java.lang.String | النص المراد تظليله. |
+| highlightColor | java.awt.Color | اللون المستخدم لتظليل النص. |
+| options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | خيارات البحث عن النص [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | كائن الاسترجاع لتلقي نتائج البحث [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback) {#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-}
 ```
 public abstract void highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)
 ```
 
-يبرز جميع التطابقات للتعبير النمطي باللون المحدد.
+تظليل جميع التطابقات للتعبير النمطي باللون المحدد.
 
 --------------------
 
@@ -265,7 +271,7 @@ public abstract void highlightRegex(Pattern regex, Color highlightColor, IFindRe
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      Pattern regex = Pattern.compile("\\b[^\\s]{5,}\\b");
->      // تسليط الضوء على جميع الكلمات التي تتكون من 5 أحرف أو أكثر
+>      // تظليل جميع الكلمات التي تتكون من 5 رموز أو أكثر
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightRegex(regex, Color.BLUE, null);
 >      presentation.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -274,33 +280,33 @@ public abstract void highlightRegex(Pattern regex, Color highlightColor, IFindRe
 > ```
 
 
-**المعلمات:**
+**المعاملات:**
 | المعامل | النوع | الوصف |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | التعبير النمطي java.util.regex.Pattern للحصول على سلاسل للتمييز. |
-| highlightColor | java.awt.Color | اللون الذي سيُبرز النص به. |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | كائن الاستدعاء لتلقي نتائج البحث [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| regex | java.util.regex.Pattern | التعبير النمطي java.util.regex.Pattern للحصول على السلاسل لتظليلها. |
+| highlightColor | java.awt.Color | اللون المستخدم لتظليل النص. |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | كائن الاسترجاع لتلقي نتائج البحث [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options) {#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-}
 ```
 public abstract void highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)
 ```
 
-يبرز جميع التطابقات للتعبير النمطي باللون المحدد.
+تظليل جميع التطابقات للتعبير النمطي باللون المحدد.
 
-**المعلمات:**
+**المعاملات:**
 | المعامل | النوع | الوصف |
 | --- | --- | --- |
-| regex | java.lang.String | نص التعبير النمطي للحصول على النص للتمييز. |
-| highlightColor | java.awt.Color | اللون الذي سيُبرز النص به. |
-| options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | خيارات التمييز. |
+| regex | java.lang.String | نص التعبير النمطي للحصول على النص المراد تظليله. |
+| highlightColor | java.awt.Color | اللون المستخدم لتظليل النص. |
+| options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | خيارات التظليل. |
 
 ### replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback) {#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
 public abstract void replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
-يستبدل جميع حدوثات النص المحدد بنص آخر محدد.
+استبدال جميع حدوث النص المحدد بنص آخر محدد.
 
 --------------------
 
@@ -311,7 +317,7 @@ public abstract void replaceText(String oldText, String newText, ITextSearchOpti
 >  try {
 >      TextSearchOptions textSearchOptions = new TextSearchOptions();
 >      textSearchOptions.setWholeWordsOnly(true);
->      // استبدال جميع ظهورات 'the' المنفصلة بـ '***'
+>      // استبدال جميع حالات 'the' المنفصلة بـ '***'
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().replaceText("the", "***", textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -320,20 +326,20 @@ public abstract void replaceText(String oldText, String newText, ITextSearchOpti
 > ```
 
 
-**المعلمات:**
+**المعاملات:**
 | المعامل | النوع | الوصف |
 | --- | --- | --- |
 | oldText | java.lang.String | السلسلة التي سيتم استبدالها. |
-| newText | java.lang.String | السلسلة التي ستحل محل جميع حدوثات oldText. |
-| options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | خيارات البحث النصي [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | كائن الاستدعاء لتلقي نتائج البحث [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| newText | java.lang.String | السلسلة التي ستحل محل جميع حدوث oldText. |
+| options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | خيارات البحث عن النص [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | كائن الاسترجاع لتلقي نتائج البحث [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### replaceRegex(Pattern regex, String newText, IFindResultCallback callback) {#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-}
 ```
 public abstract void replaceRegex(Pattern regex, String newText, IFindResultCallback callback)
 ```
 
-يستبدل جميع التطابقات للتعبير النمطي بالسلسلة المحددة.
+استبدال جميع التطابقات للتعبير النمطي بالسلسلة المحددة.
 
 --------------------
 
@@ -343,7 +349,7 @@ public abstract void replaceRegex(Pattern regex, String newText, IFindResultCall
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      Pattern regex = Pattern.compile("\\b[^\\s]{5,}\\b");
->      // استبدال جميع الكلمات التي تتكون من 5 أحرف أو أكثر بـ '***'
+>      // استبدال جميع الكلمات التي تتكون من 5 رموز أو أكثر بـ '***'
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().replaceRegex(regex, "***", null);
 >      presentation.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -352,9 +358,9 @@ public abstract void replaceRegex(Pattern regex, String newText, IFindResultCall
 > ```
 
 
-**المعلمات:**
+**المعاملات:**
 | المعامل | النوع | الوصف |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | التعبير النمطي java.util.regex.Pattern للحصول على سلاسل لاستبدالها. |
-| newText | java.lang.String | السلسلة التي ستحل محل جميع حدوثات السلاسل التي سيتم استبدالها. |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | كائن الاستدعاء لتلقي نتائج البحث [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| regex | java.util.regex.Pattern | التعبير النمطي java.util.regex.Pattern للحصول على السلاسل التي سيتم استبدالها. |
+| newText | java.lang.String | السلسلة التي ستحل محل جميع حدوث السلاسل التي سيتم استبدالها. |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | كائن الاسترجاع لتلقي نتائج البحث [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |

@@ -19,30 +19,31 @@ public class ChartData extends DomObject<Chart> implements IChartData
 
 | Метод | Описание |
 | --- | --- |
-| [getChartDataWorkbook()](#getChartDataWorkbook--) | Получает фабрику ячеек для создания ячеек, используемых в сериях диаграммы или категориях. |
+| [getChartDataWorkbook()](#getChartDataWorkbook--) | Получает фабрику ячеек для создания ячеек, используемых в сериях или категориях диаграммы. |
 | [getSeries()](#getSeries--) | Получает серии. |
 | [getSeriesGroups()](#getSeriesGroups--) | Получает группы серий. |
-| [getCategories()](#getCategories--) | Получает первичные категории (или обе первичные и вторичные категории, если свойство \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) равно false). |
-| [getUseSecondaryCategories()](#getUseSecondaryCategories--) | Если false, то свойство \#getSecondaryCategories.getSecondaryCategories возвращает null, и данные в свойстве \#getCategories.getCategories используются как для первичных, так и для вторичных серий. |
-| [setUseSecondaryCategories(boolean value)](#setUseSecondaryCategories-boolean-) | Если false, то свойство \#getSecondaryCategories.getSecondaryCategories возвращает null, и данные в свойстве \#getCategories.getCategories используются как для первичных, так и для вторичных серий. |
+| [getCategories()](#getCategories--) | Получает первичные категории (или и первичные, и вторичные категории, если свойство \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) равно false). |
+| [getUseSecondaryCategories()](#getUseSecondaryCategories--) | Если false, то свойство \#getSecondaryCategories.getSecondaryCategories возвращает null, а данные в свойстве \#getCategories.getCategories используются как для первичных, так и для вторичных серий. |
+| [setUseSecondaryCategories(boolean value)](#setUseSecondaryCategories-boolean-) | Если false, то свойство \#getSecondaryCategories.getSecondaryCategories возвращает null, а данные в свойстве \#getCategories.getCategories используются как для первичных, так и для вторичных серий. |
 | [getSecondaryCategories()](#getSecondaryCategories--) | Получает вторичные категории, если свойство \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) равно true. |
-| [readWorkbookStream()](#readWorkbookStream--) | Записывает внутреннюю книгу Excel в поток в памяти. |
-| [writeWorkbookStream(byte[] ms)](#writeWorkbookStream-byte---) | Инициализирует внутреннюю книгу Excel значением, заданным пользователем. |
-| [getDataSourceType()](#getDataSourceType--) | Представляет путь к внешней книге, если внешний источник данных, иначе null. |
+| [readWorkbookStream()](#readWorkbookStream--) | Записывает внутреннюю Excel-книгу в поток в памяти. |
+| [writeWorkbookStream(byte[] ms)](#writeWorkbookStream-byte---) | Инициализирует внутреннюю Excel-книгу пользовательским значением. |
+| [getDataSourceType()](#getDataSourceType--) | Представляет путь к внешней книге, если источник данных внешний, иначе null. |
 | [getExternalWorkbookPath()](#getExternalWorkbookPath--) | Представляет источник данных диаграммы. |
-| [getEmbeddedWorkbookType()](#getEmbeddedWorkbookType--) | Получает тип внедрённой книги. |
+| [getEmbeddedWorkbookType()](#getEmbeddedWorkbookType--) | Получает тип встроенной книги. |
 | [getRange()](#getRange--) | Получает диапазон данных диаграммы. |
 | [setRange(String formula)](#setRange-java.lang.String-) | Устанавливает диапазон данных диаграммы. |
 | [setExternalWorkbook(String workbookPath)](#setExternalWorkbook-java.lang.String-) | Устанавливает внешнюю книгу в качестве источника данных для диаграммы. |
 | [setExternalWorkbook(String workbookPath, boolean updateChartData)](#setExternalWorkbook-java.lang.String-boolean-) | Устанавливает внешнюю книгу в качестве источника данных для диаграммы. |
-| [switchRowColumn()](#switchRowColumn--) | Меняет данные местами по оси. |
+| [refreshData()](#refreshData--) | Обновляет данные диаграммы, перезагружая их из исходной книги. |
+| [switchRowColumn()](#switchRowColumn--) | Меняет местами данные по оси. |
 
 ### getChartDataWorkbook() {#getChartDataWorkbook--}
 ```
 public final IChartDataWorkbook getChartDataWorkbook()
 ```
 
-Получает фабрику ячеек для создания ячеек, используемых в сериях диаграммы или категориях. Только для чтения [IChartDataWorkbook](../../com.aspose.slides/ichartdataworkbook).
+Получает фабрику ячеек для создания ячеек, используемых в сериях или категориях диаграммы. Только для чтения [IChartDataWorkbook](../../com.aspose.slides/ichartdataworkbook).
 
 **Возвращаемое значение:**  
 [IChartDataWorkbook](../../com.aspose.slides/ichartdataworkbook)
@@ -66,7 +67,7 @@ public final IChartSeriesGroupCollection getSeriesGroups()
 
 --------------------
 
-1) Каждая группа серий содержит серии совместимых типов. Группы совместимых типов серий определены и описаны перечислением CombinableSeriesTypesGroup. Кроме того, каждая группа серий содержит серии, которые отображаются либо на первичной оси, либо на вторичной оси (не оба варианта в одной группе). Таким образом, принцип группировки серий — группировка по типам групп, упомянутым выше, и по типу отображения (первичная/вторичная). 2) Группа серий содержит некоторые свойства серий, общие для каждой серии в группе («свойства группы серий»). «Свойства группы серий» в классе ChartSeriesGroup доступны для чтения/записи. Каждое из «свойств группы серий» может иметь только для чтения проекцию в классе ChartSeries.
+1) Каждая группа серий содержит серии совместимых типов. Группы совместимых типов серий определены и описаны перечислением CombinableSeriesTypesGroup. Кроме того, каждая группа серий содержит серии, которые отображаются либо на первичных осях, либо на вторичных осях (не оба варианта в одной группе). Таким образом, принцип группировки серий — группировка по вышеупомянутым типовым группам и по типу отображения (первичный/вторичный). 2) Группа серий содержит некоторые свойства серий, общие для каждой серии в группе («свойства группы серий»). «Свойства группы серий» в классе ChartSeriesGroup доступны для чтения/записи. У каждого «свойства группы серий» может быть только для чтения проекция в классе ChartSeries.
 
 **Возвращаемое значение:**  
 [IChartSeriesGroupCollection](../../com.aspose.slides/ichartseriesgroupcollection)
@@ -76,27 +77,22 @@ public final IChartSeriesGroupCollection getSeriesGroups()
 public final IChartCategoryCollection getCategories()
 ```
 
-Получает первичные категории (или обе первичные и вторичные категории, если свойство \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) равно false). Только для чтения [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection).
-
---------------------
+Получает первичные категории (или и первичные, и вторичные категории, если свойство \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) равно false). Только для чтения [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection).
 
 > ```
 > Example. What categories are related to series - ChartData.getCategories() or ChartData.getSecondaryCategories()?
 >  
 >  if (series.getPlotOnSecondAxis() && series.getChart().getChartData().getUseSecondaryCategories())
 >  {
->      // соответствующие категории — series.getChart().getChartData().getSecondaryCategories()
+>      // соответствующие категории находятся в series.getChart().getChartData().getSecondaryCategories()
 >  }
 >  else
 >  {
->      // соответствующие категории — series.getChart().getChartData().getCategories()
+>      // соответствующие категории находятся в series.getChart().getChartData().getCategories()
 >  }
 > ```
 
-
---------------------
-
-Если свойство \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) равно false, то свойство (\#getSecondaryCategories.getSecondaryCategories) возвращает null, и данные в свойстве \#getCategories.getCategories используются как для первичных, так и для вторичных серий. Если свойство \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) равно true, то данные в свойстве (\#getSecondaryCategories.getSecondaryCategories) используются для вторичных серий, а данные в свойстве \#getCategories.getCategories — для первичных серий.
+Если свойство \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) равно false, то свойство (\#getSecondaryCategories.getSecondaryCategories) возвращает null, а данные в свойстве \#getCategories.getCategories используются как для первичных, так и для вторичных серий. Если свойство \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) равно true, то данные в свойстве (\#getSecondaryCategories.getSecondaryCategories) используются для вторичных серий, а данные в этом свойстве \#getCategories.getCategories используются для первичных серий.
 
 **Возвращаемое значение:**  
 [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection)
@@ -106,20 +102,18 @@ public final IChartCategoryCollection getCategories()
 public final boolean getUseSecondaryCategories()
 ```
 
-Если false, то свойство \#getSecondaryCategories.getSecondaryCategories возвращает null, и данные в свойстве \#getCategories.getCategories используются как для первичных, так и для вторичных серий. Если true, то данные в свойстве \#getSecondaryCategories.getSecondaryCategories используются для вторичных серий, а данные в свойстве \#getCategories.getCategories — для первичных серий. Чтение/запись boolean.
-
---------------------
+Если false, то свойство \#getSecondaryCategories.getSecondaryCategories возвращает null, а данные в свойстве \#getCategories.getCategories используются как для первичных, так и для вторичных серий. Если true, то данные в свойстве \#getSecondaryCategories.getSecondaryCategories используются для вторичных серий, а данные в свойстве \#getCategories.getCategories используются для первичных серий. Чтение/запись boolean.
 
 > ```
 > Example. What categories are related to series - ChartData.getCategories() or ChartData.getSecondaryCategories()?
 >  
 >  if (series.getPlotOnSecondAxis() && series.getChart().getChartData().getUseSecondaryCategories())
 >  {
->      // соответствующие категории — series.getChart().getChartData().getSecondaryCategories()
+>      // соответствующие категории находятся в series.getChart().getChartData().getSecondaryCategories()
 >  }
 >  else
 >  {
->      // соответствующие категории — series.getChart().getChartData().getCategories()
+>      // соответствующие категории находятся в series.getChart().getChartData().getCategories()
 >  }
 > ```
 
@@ -131,24 +125,22 @@ boolean
 public final void setUseSecondaryCategories(boolean value)
 ```
 
-Если false, то свойство \#getSecondaryCategories.getSecondaryCategories возвращает null, и данные в свойстве \#getCategories.getCategories используются как для первичных, так и для вторичных серий. Если true, то данные в свойстве \#getSecondaryCategories.getSecondaryCategories используются для вторичных серий, а данные в свойстве \#getCategories.getCategories — для первичных серий. Чтение/запись boolean.
-
---------------------
+Если false, то свойство \#getSecondaryCategories.getSecondaryCategories возвращает null, а данные в свойстве \#getCategories.getCategories используются как для первичных, так и для вторичных серий. Если true, то данные в свойстве \#getSecondaryCategories.getSecondaryCategories используются для вторичных серий, а данные в свойстве \#getCategories.getCategories используются для первичных серий. Чтение/запись boolean.
 
 > ```
 > Example. What categories are related to series - ChartData.getCategories() or ChartData.getSecondaryCategories()?
 >  
 >  if (series.getPlotOnSecondAxis() && series.getChart().getChartData().getUseSecondaryCategories())
 >  {
->      // соответствующие категории — series.getChart().getChartData().getSecondaryCategories()
+>      // соответствующие категории находятся в series.getChart().getChartData().getSecondaryCategories()
 >  }
 >  else
 >  {
->      // соответствующие категории — series.getChart().getChartData().getCategories()
+>      // соответствующие категории находятся в series.getChart().getChartData().getCategories()
 >  }
 > ```
 
-**Параметры:**  
+**Параметры:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | value | boolean |  |
@@ -160,24 +152,20 @@ public final IChartCategoryCollection getSecondaryCategories()
 
 Получает вторичные категории, если свойство \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) равно true. Только для чтения [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection).
 
---------------------
-
 > ```
 > Example. What categories are related to series - ChartData.getCategories() or ChartData.getSecondaryCategories()?
 >  
 >  if (series.getPlotOnSecondAxis() && series.getChart().getChartData().getUseSecondaryCategories())
 >  {
->      // соответствующие категории — series.getChart().getChartData().getSecondaryCategories()
+>      // соответствующие категории находятся в series.getChart().getChartData().getSecondaryCategories()
 >  }
 >  else
 >  {
->      // соответствующие категории — series.getChart().getChartData().getCategories()
+>      // соответствующие категории находятся в series.getChart().getChartData().getCategories()
 >  }
 > ```
 
---------------------
-
-Если свойство \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) равно false, то это свойство (\#getSecondaryCategories.getSecondaryCategories) возвращает null, и данные в свойстве \#getCategories.getCategories используются как для первичных, так и для вторичных серий. Если свойство \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) равно true, то данные в этом свойстве \#getSecondaryCategories.getSecondaryCategories используются для вторичных серий, а данные в свойстве \#getCategories.getCategories — для первичных серий.
+Если свойство \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) равно false, то это свойство (\#getSecondaryCategories.getSecondaryCategories) возвращает null и данные в свойстве \#getCategories.getCategories используются как для первичных, так и для вторичных серий. Если свойство \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) равно true, то данные в этом свойстве \#getSecondaryCategories.getSecondaryCategories используются для вторичных серий, а данные в свойстве \#getCategories.getCategories используются для первичных серий.
 
 **Возвращаемое значение:**  
 [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection)
@@ -187,22 +175,22 @@ public final IChartCategoryCollection getSecondaryCategories()
 public final byte[] readWorkbookStream()
 ```
 
-Записывает внутреннюю книгу Excel в поток в памяти.
+Записывает внутреннюю Excel-книгу в поток в памяти.
 
 **Возвращаемое значение:**  
-byte[] - Возвращает экземпляр массива байтов, содержащий копию внутренней книги Excel.
+byte[] - Возвращает экземпляр массива байтов, содержащий копию внутренней Excel-книги.
 
 ### writeWorkbookStream(byte[] ms) {#writeWorkbookStream-byte---}
 ```
 public final void writeWorkbookStream(byte[] ms)
 ```
 
-Инициализирует внутреннюю книгу Excel значением, заданным пользователем.
+Инициализирует внутреннюю Excel-книгу пользовательским значением.
 
-**Параметры:**  
+**Параметры:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| ms | byte[] | Поток, предоставленный пользователем, содержащий всю книгу Excel. |
+| ms | byte[] | Поток, предоставленный пользователем, содержащий полную Excel-книгу. |
 
 ### getDataSourceType() {#getDataSourceType--}
 ```
@@ -229,7 +217,7 @@ java.lang.String
 public final int getEmbeddedWorkbookType()
 ```
 
-Получает тип внедрённой книги. Возвращает [WorkbookType.NotDefined](../../com.aspose.slides/workbooktype\#NotDefined), если DataSourceType (\#getDataSourceType.getDataSourceType) равен [ChartDataSourceType.ExternalWorkbook](../../com.aspose.slides/chartdatasourcetype\#ExternalWorkbook). Только для чтения [WorkbookType](../../com.aspose.slides/workbooktype).
+Получает тип встроенной книги. Возвращает [WorkbookType.NotDefined](../../com.aspose.slides/workbooktype\#NotDefined), если DataSourceType (\#getDataSourceType.getDataSourceType) равен [ChartDataSourceType.ExternalWorkbook](../../com.aspose.slides/chartdatasourcetype\#ExternalWorkbook). Только для чтения [WorkbookType](../../com.aspose.slides/workbooktype).
 
 **Возвращаемое значение:**  
 int
@@ -241,8 +229,6 @@ public final String getRange()
 
 Получает диапазон данных диаграммы.
 
---------------------
-
 > ```
 > Presentation pres = new Presentation();
 >   try {
@@ -253,21 +239,20 @@ public final String getRange()
 >   }
 > ```
 
-
 **Возвращаемое значение:**  
-java.lang.String - Формула диапазона данных ячеек. Например: "Sheet1!$A$1:$C$4"
+java.lang.String - Формула диапазона ячеек данных. Например: "Sheet1!$A$1:$C$4"
 
 ### setRange(String formula) {#setRange-java.lang.String-}
 ```
 public final void setRange(String formula)
 ```
 
-Устанавливает диапазон данных диаграммы. Серии и категории будут обновлены в соответствии с новым диапазоном данных. Если количество серий в диапазоне данных превышает количество серий в данных диаграммы, то дополнительные серии того же типа, что и последняя серия в текущей коллекции, будут добавлены в конец коллекции.
+Устанавливает диапазон данных диаграммы. Серии и категории будут обновлены на основе нового диапазона данных. Если количество серий в диапазоне данных превышает количество серий в данных диаграммы, то дополнительные серии того же типа, что и последняя серия в текущей коллекции, будут добавлены в конец коллекции.
 
-**Параметры:**  
+**Параметры:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| formula | java.lang.String | Формула диапазона данных ячеек. Например: "Sheet1!$A$1:$C$4", "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
+| formula | java.lang.String | Формула диапазона ячеек данных. Например: "Sheet1!$A$1:$C$4", "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
 
 ### setExternalWorkbook(String workbookPath) {#setExternalWorkbook-java.lang.String-}
 ```
@@ -275,8 +260,6 @@ public final void setExternalWorkbook(String workbookPath)
 ```
 
 Устанавливает внешнюю книгу в качестве источника данных для диаграммы. Данные диаграммы будут обновлены из целевой книги.
-
---------------------
 
 > ```
 > Presentation pres = new Presentation();
@@ -290,8 +273,7 @@ public final void setExternalWorkbook(String workbookPath)
 >  }
 > ```
 
-
-**Параметры:**  
+**Параметры:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | workbookPath | java.lang.String | Путь к целевой книге |
@@ -302,8 +284,6 @@ public final void setExternalWorkbook(String workbookPath, boolean updateChartDa
 ```
 
 Устанавливает внешнюю книгу в качестве источника данных для диаграммы.
-
---------------------
 
 > ```
 > Presentation pres = new Presentation();
@@ -317,16 +297,32 @@ public final void setExternalWorkbook(String workbookPath, boolean updateChartDa
 >  }
 > ```
 
-
-**Параметры:**  
+**Параметры:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | workbookPath | java.lang.String | Путь к целевой книге |
-| updateChartData | boolean | Если значение false, будет обновлен только путь к книге. Данные диаграммы не будут загружены и обновлены из целевой книги. Может использоваться, когда целевая книга не существует или недоступна. Если значение true, данные диаграммы будут обновлены из целевой книги. |
+| updateChartData | boolean | Если значение false, будет обновлен только путь к книге. Данные диаграммы не будут загружены и обновлены из целевой книги. Можно использовать, когда целевая книга не существует или недоступна. Если значение true, данные диаграммы будут обновлены из целевой книги. |
+
+### refreshData() {#refreshData--}
+```
+public final void refreshData()
+```
+
+Обновляет данные диаграммы, перезагружая их из исходной книги.
+
+> ```
+> Presentation presentation = new Presentation("presentationWithChart.pptx");
+>  try {
+>      IChart chart = (IChart)presentation.getSlides().get_Item(0).getShapes().get_Item(0);
+>      chart.getChartData().refreshData();
+>  } finally {
+>      presentation.dispose();
+>  }
+> ```
 
 ### switchRowColumn() {#switchRowColumn--}
 ```
 public final void switchRowColumn()
 ```
 
-Меняет данные местами по оси. Данные, построенные по оси X, перемещаются на ось Y и наоборот.
+Меняет данные по оси. Данные, построенные по оси X, перейдут на ось Y и наоборот.

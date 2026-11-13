@@ -1,6 +1,6 @@
 ---
 title: ITextFrame
-second_title: Aspose.Slides dla Java – odniesienie API
+second_title: Aspose.Slides – odniesienie API Java
 description: Reprezentuje TextFrame.
 type: docs
 url: /pl/com.aspose.slides/itextframe/
@@ -11,7 +11,8 @@ url: /pl/com.aspose.slides/itextframe/
 public interface ITextFrame extends ISlideComponent
 ```
 
-Reprezentuje TextFrame.
+Represents a TextFrame.
+
 ## Metody
 
 | Metoda | Opis |
@@ -21,17 +22,19 @@ Reprezentuje TextFrame.
 | [setText(String value)](#setText-java.lang.String-) | Pobiera lub ustawia zwykły tekst dla TextFrame. |
 | [getTextFrameFormat()](#getTextFrameFormat--) | Zwraca obiekt formatowania dla tego obiektu TextFrame. |
 | [getHyperlinkQueries()](#getHyperlinkQueries--) | Zapewnia łatwy dostęp do zawartych hiperłączy. |
-| [getParentShape()](#getParentShape--) | Zwraca nadrzędny kształt lub null, jeśli obiekt nadrzędny nie implementuje interfejsu IShape. Tylko do odczytu [IShape](../../com.aspose.slides/ishape). |
-| [getParentCell()](#getParentCell--) | Zwraca nadrzędną komórkę lub null, jeśli obiekt nadrzędny nie implementuje interfejsu ICell. |
+| [getParentShape()](#getParentShape--) | Zwraca kształt nadrzędny lub null, jeśli obiekt nadrzędny nie implementuje interfejsu IShape. Tylko do odczytu [IShape](../../com.aspose.slides/ishape). |
+| [getTextRect()](#getTextRect--) | Pobiera prostokąt tekstu określony przez geometrię kształtu nadrzędnego. |
+| [getParentCell()](#getParentCell--) | Zwraca komórkę nadrzędną lub null, jeśli obiekt nadrzędny nie implementuje interfejsu ICell. |
 | [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Łączy fragmenty z tym samym formatowaniem we wszystkich akapitach. |
-| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | Podświetla wszystkie dopasowania tekstu przykładowego określonym kolorem. |
+| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | Wyróżnia wszystkie dopasowania próbnego tekstu podanym kolorem. |
 | [splitTextByColumns()](#splitTextByColumns--) | Dzieli zawartość tekstową [ITextFrame](../../com.aspose.slides/itextframe) na tablicę łańcuchów, gdzie każdy element odpowiada osobnej kolumnie tekstowej w ramce. |
-| [highlightText(String text, Color highlightColor, ITextHighlightingOptions options)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Podświetla wszystkie dopasowania tekstu przykładowego określonym kolorem. |
-| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Podświetla wszystkie dopasowania tekstu przykładowego określonym kolorem. |
-| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | Podświetla wszystkie dopasowania wyrażenia regularnego określonym kolorem. |
-| [highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)](#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Podświetla wszystkie dopasowania wyrażenia regularnego określonym kolorem. |
-| [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Zastępuje wszystkie wystąpienia określonego tekstu innym określonym tekstem. |
-| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Zastępuje wszystkie dopasowania wyrażenia regularnego określonym ciągiem. |
+| [highlightText(String text, Color highlightColor, ITextHighlightingOptions options)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Wyróżnia wszystkie dopasowania próbnego tekstu podanym kolorem. |
+| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Wyróżnia wszystkie dopasowania próbnego tekstu podanym kolorem. |
+| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | Wyróżnia wszystkie dopasowania wyrażenia regularnego podanym kolorem. |
+| [highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)](#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Wyróżnia wszystkie dopasowania wyrażenia regularnego podanym kolorem. |
+| [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Zastępuje wszystkie wystąpienia określonego tekstu innym podanym tekstem. |
+| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Zastępuje wszystkie dopasowania wyrażenia regularnego podanym łańcuchem. |
+
 ### getParagraphs() {#getParagraphs--}
 ```
 public abstract IParagraphCollection getParagraphs()
@@ -41,6 +44,7 @@ Zwraca listę wszystkich akapitów w ramce. Tylko do odczytu [IParagraphCollecti
 
 **Zwraca:**
 [IParagraphCollection](../../com.aspose.slides/iparagraphcollection)
+
 ### getText() {#getText--}
 ```
 public abstract String getText()
@@ -52,6 +56,7 @@ Wartość: Tekst.
 
 **Zwraca:**
 java.lang.String
+
 ### setText(String value) {#setText-java.lang.String-}
 ```
 public abstract void setText(String value)
@@ -65,6 +70,7 @@ Wartość: Tekst.
 | Parametr | Typ | Opis |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
 ### getTextFrameFormat() {#getTextFrameFormat--}
 ```
 public abstract ITextFrameFormat getTextFrameFormat()
@@ -74,6 +80,7 @@ Zwraca obiekt formatowania dla tego obiektu TextFrame. Tylko do odczytu [ITextFr
 
 **Zwraca:**
 [ITextFrameFormat](../../com.aspose.slides/itextframeformat)
+
 ### getHyperlinkQueries() {#getHyperlinkQueries--}
 ```
 public abstract IHyperlinkQueries getHyperlinkQueries()
@@ -83,12 +90,13 @@ Zapewnia łatwy dostęp do zawartych hiperłączy. Tylko do odczytu [IHyperlinkQ
 
 **Zwraca:**
 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)
+
 ### getParentShape() {#getParentShape--}
 ```
 public abstract IShape getParentShape()
 ```
 
-Zwraca nadrzędny kształt lub null, jeśli obiekt nadrzędny nie implementuje interfejsu IShape. Tylko do odczytu [IShape](../../com.aspose.slides/ishape).
+Zwraca kształt nadrzędny lub null, jeśli obiekt nadrzędny nie implementuje interfejsu IShape. Tylko do odczytu [IShape](../../com.aspose.slides/ishape).
 
 --------------------
 
@@ -111,12 +119,27 @@ Zwraca nadrzędny kształt lub null, jeśli obiekt nadrzędny nie implementuje i
 
 **Zwraca:**
 [IShape](../../com.aspose.slides/ishape)
+
+### getTextRect() {#getTextRect--}
+```
+public abstract Rectangle2D.Float getTextRect()
+```
+
+Pobiera prostokąt tekstu określony przez geometrię kształtu nadrzędnego.
+
+**Zwraca:**
+java.awt.geom.Rectangle2D.Float - java.awt.geom.Rectangle2D.Float definiujący obszar tekstu.
+
+--------------------
+
+Współrzędne prostokąta są względem lewego górnego narożnika kształtu nadrzędnego.
+
 ### getParentCell() {#getParentCell--}
 ```
 public abstract ICell getParentCell()
 ```
 
-Zwraca nadrzędną komórkę lub null, jeśli obiekt nadrzędny nie implementuje interfejsu ICell. Tylko do odczytu [ICell](../../com.aspose.slides/icell).
+Zwraca komórkę nadrzędną lub null, jeśli obiekt nadrzędny nie implementuje interfejsu ICell. Tylko do odczytu [ICell](../../com.aspose.slides/icell).
 
 --------------------
 
@@ -139,6 +162,7 @@ Zwraca nadrzędną komórkę lub null, jeśli obiekt nadrzędny nie implementuje
 
 **Zwraca:**
 [ICell](../../com.aspose.slides/icell)
+
 ### joinPortionsWithSameFormatting() {#joinPortionsWithSameFormatting--}
 ```
 public abstract void joinPortionsWithSameFormatting()
@@ -151,13 +175,14 @@ public abstract void joinPortionsWithSameFormatting()
 public abstract void highlightText(String text, Color highlightColor)
 ```
 
-Podświetla wszystkie dopasowania tekstu przykładowego określonym kolorem.
+Wyróżnia wszystkie dopasowania próbnego tekstu podanym kolorem.
 
 **Parametry:**
 | Parametr | Typ | Opis |
 | --- | --- | --- |
-| text | java.lang.String | Tekst do podświetlenia. |
-| highlightColor | java.awt.Color | Kolor służący do podświetlenia tekstu. |
+| text | java.lang.String | Tekst do wyróżnienia. |
+| highlightColor | java.awt.Color | Kolor wyróżniający tekst. |
+
 ### splitTextByColumns() {#splitTextByColumns--}
 ```
 public abstract String[] splitTextByColumns()
@@ -186,30 +211,32 @@ Dzieli zawartość tekstową [ITextFrame](../../com.aspose.slides/itextframe) na
 
 
 **Zwraca:**
-java.lang.String[] - Tablica łańcuchów, gdzie każdy łańcuch reprezentuje zawartość tekstową konkretnej kolumny w [ITextFrame](../../com.aspose.slides/itextframe).
+java.lang.String[] - tablica łańcuchów, gdzie każdy łańcuch reprezentuje zawartość tekstową określonej kolumny w [ITextFrame](../../com.aspose.slides/itextframe).
 
 --------------------
 
-Jeśli ramka tekstowa nie zawiera wielu kolumn, zwrócona tablica będzie miała pojedynczy element zawierający pełny tekst. Puste kolumny będą reprezentowane jako puste łańcuchy w tablicy.
+Jeśli ramka tekstowa nie zawiera wielu kolumn, zwrócona tablica będzie miała jeden element zawierający cały tekst. Puste kolumny będą reprezentowane jako puste łańcuchy w tablicy.
+
 ### highlightText(String text, Color highlightColor, ITextHighlightingOptions options) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-}
 ```
 public abstract void highlightText(String text, Color highlightColor, ITextHighlightingOptions options)
 ```
 
-Podświetla wszystkie dopasowania tekstu przykładowego określonym kolorem.
+Wyróżnia wszystkie dopasowania próbnego tekstu podanym kolorem.
 
 **Parametry:**
 | Parametr | Typ | Opis |
 | --- | --- | --- |
-| text | java.lang.String | Tekst do podświetlenia. |
-| highlightColor | java.awt.Color | Kolor służący do podświetlenia tekstu. |
-| options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | Opcje podświetlania. |
+| text | java.lang.String | Tekst do wyróżnienia. |
+| highlightColor | java.awt.Color | Kolor wyróżniający tekst. |
+| options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | Opcje wyróżniania. |
+
 ### highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
 public abstract void highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
-Podświetla wszystkie dopasowania tekstu przykładowego określonym kolorem.
+Wyróżnia wszystkie dopasowania próbnego tekstu podanym kolorem.
 
 --------------------
 
@@ -234,16 +261,17 @@ Podświetla wszystkie dopasowania tekstu przykładowego określonym kolorem.
 **Parametry:**
 | Parametr | Typ | Opis |
 | --- | --- | --- |
-| text | java.lang.String | Tekst do podświetlenia. |
-| highlightColor | java.awt.Color | Kolor służący do podświetlenia tekstu. |
+| text | java.lang.String | Tekst do wyróżnienia. |
+| highlightColor | java.awt.Color | Kolor wyróżniający tekst. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Opcje wyszukiwania tekstu [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Obiekt wywołania zwrotnego służący do odbierania wyników wyszukiwania [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Obiekt zwrotny do otrzymywania wyników wyszukiwania [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+
 ### highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback) {#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-}
 ```
 public abstract void highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)
 ```
 
-Podświetla wszystkie dopasowania wyrażenia regularnego określonym kolorem.
+Wyróżnia wszystkie dopasowania wyrażenia regularnego podanym kolorem.
 
 --------------------
 
@@ -265,28 +293,30 @@ Podświetla wszystkie dopasowania wyrażenia regularnego określonym kolorem.
 **Parametry:**
 | Parametr | Typ | Opis |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | Wyrażenie regularne java.util.regex.Pattern służące do uzyskania łańcuchów do podświetlenia. |
-| highlightColor | java.awt.Color | Kolor służący do podświetlenia tekstu. |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Obiekt wywołania zwrotnego służący do odbierania wyników wyszukiwania [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| regex | java.util.regex.Pattern | Wyrażenie regularne java.util.regex.Pattern służące do uzyskania łańcuchów do wyróżnienia. |
+| highlightColor | java.awt.Color | Kolor wyróżniający tekst. |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Obiekt zwrotny do otrzymywania wyników wyszukiwania [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+
 ### highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options) {#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-}
 ```
 public abstract void highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)
 ```
 
-Podświetla wszystkie dopasowania wyrażenia regularnego określonym kolorem.
+Wyróżnia wszystkie dopasowania wyrażenia regularnego podanym kolorem.
 
 **Parametry:**
 | Parametr | Typ | Opis |
 | --- | --- | --- |
-| regex | java.lang.String | Tekst wyrażenia regularnego służący do uzyskania tekstu do podświetlenia. |
-| highlightColor | java.awt.Color | Kolor służący do podświetlenia tekstu. |
-| options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | Opcje podświetlania. |
+| regex | java.lang.String | Tekst wyrażenia regularnego służący do uzyskania tekstu do wyróżnienia. |
+| highlightColor | java.awt.Color | Kolor wyróżniający tekst. |
+| options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | Opcje wyróżniania. |
+
 ### replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback) {#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
 public abstract void replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
-Zastępuje wszystkie wystąpienia określonego tekstu innym określonym tekstem.
+Zastępuje wszystkie wystąpienia określonego tekstu innym podanym tekstem.
 
 --------------------
 
@@ -297,7 +327,7 @@ Zastępuje wszystkie wystąpienia określonego tekstu innym określonym tekstem.
 >  try {
 >      TextSearchOptions textSearchOptions = new TextSearchOptions();
 >      textSearchOptions.setWholeWordsOnly(true);
->      // Zastąp wszystkie oddzielne wystąpienia 'the' ciągiem '***'
+>      // Zamień wszystkie oddzielne wystąpienia 'the' na '***'
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().replaceText("the", "***", textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -309,16 +339,17 @@ Zastępuje wszystkie wystąpienia określonego tekstu innym określonym tekstem.
 **Parametry:**
 | Parametr | Typ | Opis |
 | --- | --- | --- |
-| oldText | java.lang.String | Łańcuch do zamiany. |
-| newText | java.lang.String | Łańcuch, który zastąpi wszystkie wystąpienia oldText. |
+| oldText | java.lang.String | Łańcuch do zastąpienia. |
+| newText | java.lang.String | Łańcuch zastępujący wszystkie wystąpienia oldText. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Opcje wyszukiwania tekstu [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Obiekt wywołania zwrotnego służący do odbierania wyników wyszukiwania [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Obiekt zwrotny do otrzymywania wyników wyszukiwania [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+
 ### replaceRegex(Pattern regex, String newText, IFindResultCallback callback) {#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-}
 ```
 public abstract void replaceRegex(Pattern regex, String newText, IFindResultCallback callback)
 ```
 
-Zastępuje wszystkie dopasowania wyrażenia regularnego określonym ciągiem.
+Zastępuje wszystkie dopasowania wyrażenia regularnego podanym łańcuchem.
 
 --------------------
 
@@ -328,7 +359,7 @@ Zastępuje wszystkie dopasowania wyrażenia regularnego określonym ciągiem.
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      Pattern regex = Pattern.compile("\\b[^\\s]{5,}\\b");
->      // Zastąp wszystkie słowa o długości 5 znaków lub więcej ciągiem '***'
+>      // Zamień wszystkie słowa o długości 5 znaków lub więcej na '***'
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().replaceRegex(regex, "***", null);
 >      presentation.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -340,6 +371,6 @@ Zastępuje wszystkie dopasowania wyrażenia regularnego określonym ciągiem.
 **Parametry:**
 | Parametr | Typ | Opis |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | Wyrażenie regularne java.util.regex.Pattern służące do uzyskania łańcuchów do zamiany. |
-| newText | java.lang.String | Łańcuch, który zastąpi wszystkie wystąpienia łańcuchów do zamiany. |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Obiekt wywołania zwrotnego służący do odbierania wyników wyszukiwania [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| regex | java.util.regex.Pattern | Wyrażenie regularne java.util.regex.Pattern służące do uzyskania łańcuchów do zastąpienia. |
+| newText | java.lang.String | Łańcuch zastępujący wszystkie wystąpienia łańcuchów do zastąpienia. |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Obiekt zwrotny do otrzymywania wyników wyszukiwania [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |

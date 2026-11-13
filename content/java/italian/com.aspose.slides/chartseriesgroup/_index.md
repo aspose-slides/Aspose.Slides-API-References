@@ -5,10 +5,10 @@ description: Rappresenta un gruppo di serie.
 type: docs
 url: /it/com.aspose.slides/chartseriesgroup/
 ---
-**Inheritance:**
+**Eredità:**
 java.lang.Object
 
-**All Implemented Interfaces:**
+**Tutte le interfacce implementate:**
 [com.aspose.slides.IChartSeriesGroup](../../com.aspose.slides/ichartseriesgroup), com.aspose.slides.IDOMObject
 ```
 public class ChartSeriesGroup implements IChartSeriesGroup, IDOMObject
@@ -18,7 +18,8 @@ Rappresenta un gruppo di serie.
 
 --------------------
 
-1) Vedi il riepilogo e le osservazioni per la classe ChartSeriesGroupCollection e l'enumerazione CombinableSeriesTypesGroup. 2) Il gruppo di serie contiene alcune proprietà della serie che sono comuni a ogni serie nel gruppo ("proprietà del gruppo di serie"). Le "proprietà del gruppo di serie" nella classe ChartSeriesGroup sono di lettura/scrittura. Ciascuna delle "proprietà del gruppo di serie" può avere una proiezione di sola lettura nella classe ChartSeries.
+1) Vedere il riepilogo e le osservazioni per la classe ChartSeriesGroupCollection e l'enumerazione CombinableSeriesTypesGroup. 2) Il gruppo di serie contiene alcune proprietà delle serie che sono comuni per ciascuna serie nel gruppo ("series group properties"). "Series group properties" nella classe ChartSeriesGroup è lettura/scrittura. Ciascuna delle "series group properties" può avere una proiezione solo lettura nella classe ChartSeries.
+
 ## Metodi
 
 | Metodo | Descrizione |
@@ -27,37 +28,37 @@ Rappresenta un gruppo di serie.
 | [getPlotOnSecondAxis()](#getPlotOnSecondAxis--) | Indica se le serie di questo gruppo sono tracciate su un asse secondario. |
 | [getSeries()](#getSeries--) | Restituisce una raccolta di serie. |
 | [get_Item(int index)](#get-Item-int-) | Ottiene l'elemento all'indice specificato. |
-| [getUpDownBars()](#getUpDownBars--) | Fornisce l'accesso alle barre up/down di un grafico a linee o a barre. |
-| [getGapWidth()](#getGapWidth--) | Specifica lo spazio tra gruppi di barre o colonne, come percentuale della larghezza della barra o della colonna. |
-| [setGapWidth(int value)](#setGapWidth-int-) | Specifica lo spazio tra gruppi di barre o colonne, come percentuale della larghezza della barra o della colonna. |
-| [getGapDepth()](#getGapDepth--) | Restituisce o imposta la distanza, come percentuale della larghezza del marcatore, tra le serie di dati in un grafico 3D. |
-| [setGapDepth(int value)](#setGapDepth-int-) | Restituisce o imposta la distanza, come percentuale della larghezza del marcatore, tra le serie di dati in un grafico 3D. |
+| [getUpDownBars()](#getUpDownBars--) | Fornisce l'accesso alle barre up/down di un grafico a linee o Stock. |
+| [getGapWidth()](#getGapWidth--) | Ottiene o imposta lo spazio tra raggruppamenti di barre o colonne, come percentuale della larghezza della barra o della colonna. |
+| [setGapWidth(int value)](#setGapWidth-int-) | Ottiene o imposta lo spazio tra raggruppamenti di barre o colonne, come percentuale della larghezza della barra o della colonna. |
+| [getGapDepth()](#getGapDepth--) | Ottiene o imposta la distanza tra le serie di dati in un grafico 3D, come percentuale della larghezza del marcatore. |
+| [setGapDepth(int value)](#setGapDepth-int-) | Ottiene o imposta la distanza tra le serie di dati in un grafico 3D, come percentuale della larghezza del marcatore. |
 | [getFirstSliceAngle()](#getFirstSliceAngle--) | Ottiene o imposta l'angolo della prima fetta di un grafico a torta o ciambella, in gradi (orario dall'alto, da 0 a 360 gradi). |
 | [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | Ottiene o imposta l'angolo della prima fetta di un grafico a torta o ciambella, in gradi (orario dall'alto, da 0 a 360 gradi). |
-| [getDoughnutHoleSize()](#getDoughnutHoleSize--) | Specifica la dimensione del foro in un grafico a ciambella (può essere tra 0 e 90 percento della dimensione dell'area del grafico.). |
-| [setDoughnutHoleSize(byte value)](#setDoughnutHoleSize-byte-) | Specifica la dimensione del foro in un grafico a ciambella (può essere tra 0 e 90 percento della dimensione dell'area del grafico.). |
+| [getDoughnutHoleSize()](#getDoughnutHoleSize--) | Specifica la dimensione del foro in un grafico a ciambella (può essere tra 0 e 90 percenti della dimensione dell'area del grafico). |
+| [setDoughnutHoleSize(byte value)](#setDoughnutHoleSize-byte-) | Specifica la dimensione del foro in un grafico a ciambella (può essere tra 0 e 90 percenti della dimensione dell'area del grafico). |
 | [getOverlap()](#getOverlap--) | Specifica quanto le barre e le colonne devono sovrapporsi nei grafici 2-D, come percentuale (da -100% a 100%). |
 | [setOverlap(byte value)](#setOverlap-byte-) | Specifica quanto le barre e le colonne devono sovrapporsi nei grafici 2-D, come percentuale (da -100% a 100%). |
-| [getSecondPieSize()](#getSecondPieSize--) | Specifica la dimensione della seconda fetta o barra di un grafico pie-of-pie o bar-of-pie, come percentuale della dimensione della prima fetta (può essere tra 5 e 200 percento). |
-| [setSecondPieSize(int value)](#setSecondPieSize-int-) | Specifica la dimensione della seconda fetta o barra di un grafico pie-of-pie o bar-of-pie, come percentuale della dimensione della prima fetta (può essere tra 5 e 200 percento). |
-| [getBubbleSizeRepresentation()](#getBubbleSizeRepresentation--) | Specifica come i valori della dimensione delle bolle sono rappresentati nel grafico a bolle. |
-| [setBubbleSizeRepresentation(int value)](#setBubbleSizeRepresentation-int-) | Specifica come i valori della dimensione delle bolle sono rappresentati nel grafico a bolle. |
-| [getPieSplitPosition()](#getPieSplitPosition--) | Specifica un valore da usare per determinare quali punti dati sono nella seconda fetta o barra in un grafico pie-of-pie o bar-of-pie. |
-| [setPieSplitPosition(double value)](#setPieSplitPosition-double-) | Specifica un valore da usare per determinare quali punti dati sono nella seconda fetta o barra in un grafico pie-of-pie o bar-of-pie. |
-| [getPieSplitBy()](#getPieSplitBy--) | Specifica come determinare quali punti dati sono nella seconda fetta o barra in un grafico pie-of-pie o bar-of-pie. |
-| [setPieSplitBy(int value)](#setPieSplitBy-int-) | Specifica come determinare quali punti dati sono nella seconda fetta o barra in un grafico pie-of-pie o bar-of-pie. |
+| [getSecondPieSize()](#getSecondPieSize--) | Specifica la dimensione della seconda torta o barra di un grafico pie-of-pie o bar-of-pie, come percentuale della dimensione della prima torta (può essere tra 5 e 200 percenti). |
+| [setSecondPieSize(int value)](#setSecondPieSize-int-) | Specifica la dimensione della seconda torta o barra di un grafico pie-of-pie o bar-of-pie, come percentuale della dimensione della prima torta (può essere tra 5 e 200 percenti). |
+| [getBubbleSizeRepresentation()](#getBubbleSizeRepresentation--) | Specifica come i valori delle dimensioni delle bolle sono rappresentati nel grafico a bolle. |
+| [setBubbleSizeRepresentation(int value)](#setBubbleSizeRepresentation-int-) | Specifica come i valori delle dimensioni delle bolle sono rappresentati nel grafico a bolle. |
+| [getPieSplitPosition()](#getPieSplitPosition--) | Specifica un valore da utilizzare per determinare quali punti dati sono nella seconda torta o barra in un grafico pie-of-pie o bar-of-pie. |
+| [setPieSplitPosition(double value)](#setPieSplitPosition-double-) | Specifica un valore da utilizzare per determinare quali punti dati sono nella seconda torta o barra in un grafico pie-of-pie o bar-of-pie. |
+| [getPieSplitBy()](#getPieSplitBy--) | Specifica come determinare quali punti dati sono nella seconda torta o barra in un grafico pie-of-pie o bar-of-pie. |
+| [setPieSplitBy(int value)](#setPieSplitBy-int-) | Specifica come determinare quali punti dati sono nella seconda torta o barra in un grafico pie-of-pie o bar-of-pie. |
 | [isColorVaried()](#isColorVaried--) | Specifica che ogni marcatore dati nella serie ha un colore diverso. |
 | [setColorVaried(boolean value)](#setColorVaried-boolean-) | Specifica che ogni marcatore dati nella serie ha un colore diverso. |
-| [hasSeriesLines()](#hasSeriesLines--) | Vero se il grafico ha linee di serie. |
-| [setSeriesLines(boolean value)](#setSeriesLines-boolean-) | Vero se il grafico ha linee di serie. |
+| [hasSeriesLines()](#hasSeriesLines--) | True se il grafico ha linee di serie. |
+| [setSeriesLines(boolean value)](#setSeriesLines-boolean-) | True se il grafico ha linee di serie. |
 | [getHiLowLinesFormat()](#getHiLowLinesFormat--) | Specifica il formato HiLowLines. |
-| [getBubbleSizeScale()](#getBubbleSizeScale--) | Specifica il fattore di scala per il grafico a bolle (può essere tra 0 e 300 percento della dimensione predefinita). |
-| [setBubbleSizeScale(int value)](#setBubbleSizeScale-int-) | Specifica il fattore di scala per il grafico a bolle (può essere tra 0 e 300 percento della dimensione predefinita). |
-| [getPieSplitCustomPoints()](#getPieSplitCustomPoints--) | Le informazioni di divisione personalizzata per un grafico pie-of-pie o bar-of-pie con divisione personalizzata. |
+| [getBubbleSizeScale()](#getBubbleSizeScale--) | Specifica il fattore di scala per il grafico a bolle (può essere tra 0 e 300 percenti della dimensione predefinita). |
+| [setBubbleSizeScale(int value)](#setBubbleSizeScale-int-) | Specifica il fattore di scala per il grafico a bolle (può essere tra 0 e 300 percenti della dimensione predefinita). |
+| [getPieSplitCustomPoints()](#getPieSplitCustomPoints--) | Le informazioni di divisione personalizzate per un grafico pie-of-pie o bar-of-pie con divisione personalizzata. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-| [getChart()](#getChart--) | Restituisce il grafico padre. |
-| [getSlide()](#getSlide--) | Restituisce la diapositiva padre di un FillFormat. |
-| [getPresentation()](#getPresentation--) | Restituisce la presentazione padre di un FillFormat. |
+| [getChart()](#getChart--) | Restituisce il grafico genitore. |
+| [getSlide()](#getSlide--) | Restituisce la diapositiva genitore di un FillFormat. |
+| [getPresentation()](#getPresentation--) | Restituisce la presentazione genitore di un FillFormat. |
 
 ### getType() {#getType--}
 ```
@@ -74,7 +75,7 @@ int
 public final boolean getPlotOnSecondAxis()
 ```
 
-Indica se le serie di questo gruppo sono tracciate su un asse secondario. Booleano solo lettura.
+Indica se le serie di questo gruppo sono tracciate su un asse secondario. Solo lettura boolean.
 
 **Restituisce:**
 boolean
@@ -109,7 +110,7 @@ Ottiene l'elemento all'indice specificato.
 public final IUpDownBarsManager getUpDownBars()
 ```
 
-Fornisce l'accesso alle barre up/down di un grafico a linee o a barre. Solo lettura [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager).
+Fornisce l'accesso alle barre up/down di un grafico a linee o Stock. Solo lettura [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager).
 
 **Restituisce:**
 [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager)
@@ -119,7 +120,11 @@ Fornisce l'accesso alle barre up/down di un grafico a linee o a barre. Solo lett
 public final int getGapWidth()
 ```
 
-Specifica lo spazio tra gruppi di barre o colonne, come percentuale della larghezza della barra o della colonna. Lettura/Scrittura int.
+Ottiene o imposta lo spazio tra raggruppamenti di barre o colonne, come percentuale della larghezza della barra o della colonna. Il valore deve essere compreso tra 0 e 500. Lettura/Scrittura int.
+
+--------------------
+
+Questa proprietà si applica alle serie dei seguenti tipi: sottotipi Bar (vedi anche il metodo [ChartTypeCharacterizer.isChartTypeBar(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBar-int-)), sottotipi Column (vedi anche il metodo [ChartTypeCharacterizer.isChartTypeColumn(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeColumn-int-)), [ChartType.BarOfPie](../../com.aspose.slides/charttype\#BarOfPie), [ChartType.PieOfPie](../../com.aspose.slides/charttype\#PieOfPie), [ChartType.BoxAndWhisker](../../com.aspose.slides/charttype\#BoxAndWhisker), [ChartType.Funnel](../../com.aspose.slides/charttype\#Funnel), [ChartType.Histogram](../../com.aspose.slides/charttype\#Histogram), [ChartType.Waterfall](../../com.aspose.slides/charttype\#Waterfall).
 
 **Restituisce:**
 int
@@ -129,7 +134,11 @@ int
 public final void setGapWidth(int value)
 ```
 
-Specifica lo spazio tra gruppi di barre o colonne, come percentuale della larghezza della barra o della colonna. Lettura/Scrittura int.
+Ottiene o imposta lo spazio tra raggruppamenti di barre o colonne, come percentuale della larghezza della barra o della colonna. Il valore deve essere compreso tra 0 e 500. Lettura/Scrittura int.
+
+--------------------
+
+Questa proprietà si applica alle serie dei seguenti tipi: sottotipi Bar (vedi anche il metodo [ChartTypeCharacterizer.isChartTypeBar(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBar-int-)), sottotipi Column (vedi anche il metodo [ChartTypeCharacterizer.isChartTypeColumn(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeColumn-int-)), [ChartType.BarOfPie](../../com.aspose.slides/charttype\#BarOfPie), [ChartType.PieOfPie](../../com.aspose.slides/charttype\#PieOfPie), [ChartType.BoxAndWhisker](../../com.aspose.slides/charttype\#BoxAndWhisker), [ChartType.Funnel](../../com.aspose.slides/charttype\#Funnel), [ChartType.Histogram](../../com.aspose.slides/charttype\#Histogram), [ChartType.Waterfall](../../com.aspose.slides/charttype\#Waterfall).
 
 **Parametri:**
 | Parametro | Tipo | Descrizione |
@@ -141,7 +150,11 @@ Specifica lo spazio tra gruppi di barre o colonne, come percentuale della larghe
 public final int getGapDepth()
 ```
 
-Restituisce o imposta la distanza, come percentuale della larghezza del marcatore, tra le serie di dati in un grafico 3D. Lettura/Scrittura int.
+Ottiene o imposta la distanza tra le serie di dati in un grafico 3D, come percentuale della larghezza del marcatore. Il valore deve essere compreso tra 0 e 500. Lettura/Scrittura int.
+
+--------------------
+
+Questa proprietà si applica alle serie dei seguenti tipi: sottotipi di grafico 3D bar e column (vedi anche il metodo [ChartTypeCharacterizer.isBar3DChart(int)](../../com.aspose.slides/charttypecharacterizer\#isBar3DChart-int-)), [ChartType.Line3D](../../com.aspose.slides/charttype\#Line3D), [ChartType.Area3D](../../com.aspose.slides/charttype\#Area3D), [ChartType.StackedArea3D](../../com.aspose.slides/charttype\#StackedArea3D), [ChartType.PercentsStackedArea3D](../../com.aspose.slides/charttype\#PercentsStackedArea3D).
 
 **Restituisce:**
 int
@@ -151,7 +164,11 @@ int
 public final void setGapDepth(int value)
 ```
 
-Restituisce o imposta la distanza, come percentuale della larghezza del marcatore, tra le serie di dati in un grafico 3D. Lettura/Scrittura int.
+Ottiene o imposta la distanza tra le serie di dati in un grafico 3D, come percentuale della larghezza del marcatore. Il valore deve essere compreso tra 0 e 500. Lettura/Scrittura int.
+
+--------------------
+
+Questa proprietà si applica alle serie dei seguenti tipi: sottotipi di grafico 3D bar e column (vedi anche il metodo [ChartTypeCharacterizer.isBar3DChart(int)](../../com.aspose.slides/charttypecharacterizer\#isBar3DChart-int-)), [ChartType.Line3D](../../com.aspose.slides/charttype\#Line3D), [ChartType.Area3D](../../com.aspose.slides/charttype\#Area3D), [ChartType.StackedArea3D](../../com.aspose.slides/charttype\#StackedArea3D), [ChartType.PercentsStackedArea3D](../../com.aspose.slides/charttype\#PercentsStackedArea3D).
 
 **Parametri:**
 | Parametro | Tipo | Descrizione |
@@ -185,7 +202,7 @@ Ottiene o imposta l'angolo della prima fetta di un grafico a torta o ciambella, 
 public final byte getDoughnutHoleSize()
 ```
 
-Specifică la dimensione del foro in un grafico a ciambella (può essere tra 0 e 90 percento della dimensione dell'area del grafico). Lettura/Scrittura byte.
+Specifica la dimensione del foro in un grafico a ciambella (può essere tra 0 e 90 percenti della dimensione dell'area del grafico). Lettura/Scrittura byte.
 
 **Restituisce:**
 byte
@@ -195,7 +212,7 @@ byte
 public final void setDoughnutHoleSize(byte value)
 ```
 
-Specifică la dimensione del foro in un grafico a ciambella (può essere tra 0 e 90 percento della dimensione dell'area del grafico). Lettura/Scrittura byte.
+Specifica la dimensione del foro in un grafico a ciambella (può essere tra 0 e 90 percenti della dimensione dell'area del grafico). Lettura/Scrittura byte.
 
 **Parametri:**
 | Parametro | Tipo | Descrizione |
@@ -207,7 +224,32 @@ Specifică la dimensione del foro in un grafico a ciambella (può essere tra 0 e
 public final byte getOverlap()
 ```
 
-Specifică quanto le barre e le colonne devono sovrapporsi nei grafici 2-D, come percentuale (da -100% a 100%). - -100%: Spaziatura massima (le barre sono completamente separate). - 0%: Le barre sono affiancate senza sovrapposizione o spaziatura. - 100%: Sovrapposizione massima (le barre si sovrappongono completamente). Questa proprietà è lettura/scrittura byte.
+Specifica quanto le barre e le colonne devono sovrapporsi nei grafici 2-D, come percentuale (da -100% a 100%). - -100%: Spaziatura massima (le barre sono completamente separate). - 0%: Le barre sono posizionate fianco a fianco senza sovrapposizione o spaziatura. - 100%: Sovrapposizione massima (le barre si sovrappongono completamente). Questa proprietà è Lettura/Scrittura byte.
+
+> ```
+> The following example demonstrates how to set the overlap for a chart series group 
+>   and render the resulting chart on a form:
+>   
+>  Presentation pres = new Presentation();
+>  try {
+>      IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);
+>      IChartSeriesCollection series = chart.getChartData().getSeries();
+>      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // Imposta la sovrapposizione al 55%
+>      pres.getSlides().get_Item(0).getImage(1, 1).save("chart.png", ImageFormat.Png);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Restituisce:**
+byte
+
+### setOverlap(byte value) {#setOverlap-byte-}
+```
+public final void setOverlap(byte value)
+```
+
+Specifica quanto le barre e le colonne devono sovrapporsi nei grafici 2-D, come percentuale (da -100% a 100%). - -100%: Spaziatura massima (le barre sono completamente separate). - 0%: Le barre sono posizionate fianco a fianco senza sovrapposizione o spaziatura. - 100%: Sovrapposizione massima (le barre si sovrappongono completamente). Questa proprietà è Lettura/Scrittura byte.
 
 --------------------
 
@@ -226,35 +268,6 @@ Specifică quanto le barre e le colonne devono sovrapporsi nei grafici 2-D, come
 >  }
 > ```
 
-
-**Restituisce:**
-byte
-
-### setOverlap(byte value) {#setOverlap-byte-}
-```
-public final void setOverlap(byte value)
-```
-
-Specifică quanto le barre e le colonne devono sovrapporsi nei grafici 2-D, come percentuale (da -100% a 100%). - -100%: Spaziatura massima (le barre sono completamente separate). - 0%: Le barre sono affiancate senza sovrapposizione o spaziatura. - 100%: Sovrapposizione massima (le barre si sovrappongono completamente). Questa proprietà è lettura/scrittura byte.
-
---------------------
-
-> ```
-> The following example demonstrates how to set the overlap for a chart series group 
->   and render the resulting chart on a form:
->   
->  Presentation pres = new Presentation();
->  try {
->      IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);
->      IChartSeriesCollection series = chart.getChartData().getSeries();
->      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // Imposta sovrapposizione al 55%
->      pres.getSlides().get_Item(0).getImage(1, 1).save("chart.png", ImageFormat.Png);
->  } finally {
->      if (pres != null) pres.dispose();
->  }
-> ```
-
-
 **Parametri:**
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
@@ -265,7 +278,7 @@ Specifică quanto le barre e le colonne devono sovrapporsi nei grafici 2-D, come
 public final int getSecondPieSize()
 ```
 
-Specifică la dimensione della seconda fetta o barra di un grafico pie-of-pie o bar-of-pie, come percentuale della dimensione della prima fetta (può essere tra 5 e 200 percento). Lettura/Scrittura int.
+Specifica la dimensione della seconda torta o barra di un grafico pie-of-pie o bar-of-pie, come percentuale della dimensione della prima torta (può essere tra 5 e 200 percenti). Lettura/Scrittura int.
 
 **Restituisce:**
 int
@@ -275,7 +288,7 @@ int
 public final void setSecondPieSize(int value)
 ```
 
-Specifică la dimensione della seconda fetta o barra di un grafico pie-of-pie o bar-of-pie, come percentuale della dimensione della prima fetta (può essere tra 5 e 200 percento). Lettura/Scrittura int.
+Specifica la dimensione della seconda torta o barra di un grafico pie-of-pie o bar-of-pie, come percentuale della dimensione della prima torta (può essere tra 5 e 200 percenti). Lettura/Scrittura int.
 
 **Parametri:**
 | Parametro | Tipo | Descrizione |
@@ -287,7 +300,7 @@ Specifică la dimensione della seconda fetta o barra di un grafico pie-of-pie o 
 public final int getBubbleSizeRepresentation()
 ```
 
-Specifică come i valori della dimensione delle bolle sono rappresentati nel grafico a bolle. Lettura/Scrittura [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
+Specifică come i valori delle dimensioni delle bolle sono rappresentati nel grafico a bolle. Lettura/Scrittura [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
 
 **Restituisce:**
 int
@@ -297,7 +310,7 @@ int
 public final void setBubbleSizeRepresentation(int value)
 ```
 
-Specifică come i valori della dimensione delle bolle sono rappresentati nel grafico a bolle. Lettura/Scrittura [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
+Specifică come i valori delle dimensioni delle bolle sono rappresentati nel grafico a bolle. Lettura/Scrittura [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
 
 **Parametri:**
 | Parametro | Tipo | Descrizione |
@@ -309,7 +322,7 @@ Specifică come i valori della dimensione delle bolle sono rappresentati nel gra
 public final double getPieSplitPosition()
 ```
 
-Specifică un valore da usare per determinare quali punti dati sono nella seconda fetta o barra in un grafico pie-of-pie o bar-of-pie. È usato insieme alla proprietà PieSplitBy. Lettura/Scrittura double.
+Specifica un valore da utilizzare per determinare quali punti dati sono nella seconda torta o barra in un grafico pie-of-pie o bar-of-pie. Viene usato insieme alla proprietà PieSplitBy. Lettura/Scrittura double.
 
 **Restituisce:**
 double
@@ -319,7 +332,7 @@ double
 public final void setPieSplitPosition(double value)
 ```
 
-Specifică un valore da usare per determinare quali punti dati sono nella seconda fetta o barra in un grafico pie-of-pie o bar-of-pie. È usato insieme alla proprietà PieSplitBy. Lettura/Scrittura double.
+Specifica un valore da utilizzare per determinare quali punti dati sono nella seconda torta o barra in un grafico pie-of-pie o bar-of-pie. Viene usato insieme alla proprietà PieSplitBy. Lettura/Scrittura double.
 
 **Parametri:**
 | Parametro | Tipo | Descrizione |
@@ -331,7 +344,7 @@ Specifică un valore da usare per determinare quali punti dati sono nella second
 public final int getPieSplitBy()
 ```
 
-Specifică come determinare quali punti dati sono nella seconda fetta o barra in un grafico pie-of-pie o bar-of-pie. Lettura/Scrittura [PieSplitType](../../com.aspose.slides/piesplittype).
+Specifica come determinare quali punti dati sono nella seconda torta o barra in un grafico pie-of-pie o bar-of-pie. Lettura/Scrittura [PieSplitType](../../com.aspose.slides/piesplittype).
 
 **Restituisce:**
 int
@@ -341,7 +354,7 @@ int
 public final void setPieSplitBy(int value)
 ```
 
-Specifică come determinare quali punti dati sono nella seconda fetta o barra in un grafico pie-of-pie o bar-of-pie. Lettura/Scrittura [PieSplitType](../../com.aspose.slides/piesplittype).
+Specifica come determinare quali punti dati sono nella seconda torta o barra in un grafico pie-of-pie o bar-of-pie. Lettura/Scrittura [PieSplitType](../../com.aspose.slides/piesplittype).
 
 **Parametri:**
 | Parametro | Tipo | Descrizione |
@@ -353,7 +366,7 @@ Specifică come determinare quali punti dati sono nella seconda fetta o barra in
 public final boolean isColorVaried()
 ```
 
-Specifică che ogni marcatore dati nella serie ha un colore diverso. Lettura/Scrittura boolean.
+Specifica che ogni marcatore dati nella serie ha un colore diverso. Lettura/Scrittura boolean.
 
 **Restituisce:**
 boolean
@@ -363,7 +376,7 @@ boolean
 public final void setColorVaried(boolean value)
 ```
 
-Specifică che ogni marcatore dati nella serie ha un colore diverso. Lettura/Scrittura boolean.
+Specifica che ogni marcatore dati nella serie ha un colore diverso. Lettura/Scrittura boolean.
 
 **Parametri:**
 | Parametro | Tipo | Descrizione |
@@ -375,7 +388,7 @@ Specifică che ogni marcatore dati nella serie ha un colore diverso. Lettura/Scr
 public final boolean hasSeriesLines()
 ```
 
-Vero se il grafico ha linee di serie. Applicato a grafici a barre impilate e OfPie. Lettura/Scrittura boolean.
+True se il grafico ha linee di serie. Applicato a grafici bar stacked e OfPie. Lettura/Scrittura boolean.
 
 **Restituisce:**
 boolean
@@ -385,7 +398,7 @@ boolean
 public final void setSeriesLines(boolean value)
 ```
 
-Vero se il grafico ha linee di serie. Applicato a grafici a barre impilate e OfPie. Lettura/Scrittura boolean.
+True se il grafico ha linee di serie. Applicato a grafici bar stacked e OfPie. Lettura/Scrittura boolean.
 
 **Parametri:**
 | Parametro | Tipo | Descrizione |
@@ -397,7 +410,7 @@ Vero se il grafico ha linee di serie. Applicato a grafici a barre impilate e OfP
 public final IChartLinesFormat getHiLowLinesFormat()
 ```
 
-Specifică il formato HiLowLines. HiLowLines è applicato ai tipi di grafico HiLowClose, OpenHiLowClose, VolumeHiLowClose e VolumeOpenHiLowClose.
+Specifica il formato HiLowLines. HiLowLines applicato con HiLowClose, OpenHiLowClose, VolumeHiLowClose e VolumeOpenHiLowClose tipi di grafico.
 
 **Restituisce:**
 [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat)
@@ -407,7 +420,7 @@ Specifică il formato HiLowLines. HiLowLines è applicato ai tipi di grafico HiL
 public final int getBubbleSizeScale()
 ```
 
-Specifică il fattore di scala per il grafico a bolle (può essere tra 0 e 300 percento della dimensione predefinita). Lettura/Scrittura int.
+Specifica il fattore di scala per il grafico a bolle (può essere tra 0 e 300 percenti della dimensione predefinita). Lettura/Scrittura int.
 
 **Restituisce:**
 int
@@ -417,7 +430,7 @@ int
 public final void setBubbleSizeScale(int value)
 ```
 
-Specifică il fattore di scala per il grafico a bolle (può essere tra 0 e 300 percento della dimensione predefinita). Lettura/Scrittura int.
+Specifica il fattore di scala per il grafico a bolle (può essere tra 0 e 300 percenti della dimensione predefinita). Lettura/Scrittura int.
 
 **Parametri:**
 | Parametro | Tipo | Descrizione |
@@ -429,7 +442,7 @@ Specifică il fattore di scala per il grafico a bolle (può essere tra 0 e 300 p
 public final IPieSplitCustomPointCollection getPieSplitCustomPoints()
 ```
 
-Le informazioni di divisione personalizzata per un grafico pie-of-pie o bar-of-pie con divisione personalizzata. Contiene i punti dati che devono essere disegnati nella seconda fetta o barra in un grafico pie-of-pie o bar-of-pie. Solo lettura [PieSplitCustomPointCollection](../../com.aspose.slides/piesplitcustompointcollection).
+Le informazioni di divisione personalizzate per un grafico pie-of-pie o bar-of-pie con divisione personalizzata. Contiene punti dati che devono essere disegnati nella seconda torta o barra in un grafico pie-of-pie o bar-of-pie. Solo lettura [PieSplitCustomPointCollection](../../com.aspose.slides/piesplitcustompointcollection).
 
 **Restituisce:**
 [IPieSplitCustomPointCollection](../../com.aspose.slides/ipiesplitcustompointcollection)
@@ -449,7 +462,7 @@ com.aspose.slides.IDOMObject
 public final IChart getChart()
 ```
 
-Restituisce il grafico padre. Solo lettura [IChart](../../com.aspose.slides/ichart).
+Restituisce il grafico genitore. Solo lettura [IChart](../../com.aspose.slides/ichart).
 
 **Restituisce:**
 [IChart](../../com.aspose.slides/ichart)
@@ -459,7 +472,7 @@ Restituisce il grafico padre. Solo lettura [IChart](../../com.aspose.slides/icha
 public final IBaseSlide getSlide()
 ```
 
-Restituisce la diapositiva padre di un FillFormat. Solo lettura [BaseSlide](../../com.aspose.slides/baseslide).
+Restituisce la diapositiva genitore di un FillFormat. Solo lettura [BaseSlide](../../com.aspose.slides/baseslide).
 
 **Restituisce:**
 [IBaseSlide](../../com.aspose.slides/ibaseslide)
@@ -469,7 +482,7 @@ Restituisce la diapositiva padre di un FillFormat. Solo lettura [BaseSlide](../.
 public final IPresentation getPresentation()
 ```
 
-Restituisce la presentazione padre di un FillFormat. Solo lettura [IPresentation](../../com.aspose.slides/ipresentation).
+Restituisce la presentazione genitore di un FillFormat. Solo lettura [IPresentation](../../com.aspose.slides/ipresentation).
 
 **Restituisce:**
 [IPresentation](../../com.aspose.slides/ipresentation)

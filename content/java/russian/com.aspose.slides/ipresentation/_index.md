@@ -5,7 +5,7 @@ description: Документ презентации
 type: docs
 url: /ru/com.aspose.slides/ipresentation/
 ---
-**Все реализованные интерфейсы:**
+**All Implemented Interfaces:**
 [com.aspose.slides.IPresentationComponent](../../com.aspose.slides/ipresentationcomponent), com.aspose.ms.System.IDisposable
 ```
 public interface IPresentation extends IPresentationComponent, System.IDisposable
@@ -16,18 +16,18 @@ public interface IPresentation extends IPresentationComponent, System.IDisposabl
 
 | Метод | Описание |
 | --- | --- |
-| [getCurrentDateTime()](#getCurrentDateTime--) | Возвращает или устанавливает дату и время, которые заменят содержимое полей даты и времени. |
-| [setCurrentDateTime(Date value)](#setCurrentDateTime-java.util.Date-) | Возвращает или устанавливает дату и время, которые заменят содержимое полей даты и времени. |
+| [getCurrentDateTime()](#getCurrentDateTime--) | Возвращает или задает дату и время, которые заменят содержимое полей даты/времени. |
+| [setCurrentDateTime(Date value)](#setCurrentDateTime-java.util.Date-) | Возвращает или задает дату и время, которые заменят содержимое полей даты/времени. |
 | [getHeaderFooterManager()](#getHeaderFooterManager--) | Возвращает менеджер HeaderFooter презентации. |
 | [getProtectionManager()](#getProtectionManager--) | Получает менеджер разрешений для этой презентации. |
 | [getSlides()](#getSlides--) | Возвращает список всех слайдов, определённых в презентации. |
 | [getSections()](#getSections--) | Возвращает список всех разделов слайдов, определённых в презентации. |
 | [getSlideSize()](#getSlideSize--) | Возвращает объект размера слайда. |
 | [getNotesSize()](#getNotesSize--) | Возвращает объект размера слайда заметок. |
-| [getLayoutSlides()](#getLayoutSlides--) | Возвращает список всех шаблонных слайдов, определённых в презентации. |
+| [getLayoutSlides()](#getLayoutSlides--) | Возвращает список всех слайдов компоновки, определённых в презентации. |
 | [getMasters()](#getMasters--) | Возвращает список всех мастер-слайдов, определённых в презентации. |
 | [getMasterNotesSlideManager()](#getMasterNotesSlideManager--) | Возвращает менеджер мастера заметок. |
-| [getMasterHandoutSlideManager()](#getMasterHandoutSlideManager--) | Возвращает менеджер мастера раздаточных материалов. |
+| [getMasterHandoutSlideManager()](#getMasterHandoutSlideManager--) | Возвращает менеджер мастера раздач. |
 | [getFontsManager()](#getFontsManager--) | Возвращает менеджер шрифтов. |
 | [getDefaultTextStyle()](#getDefaultTextStyle--) | Возвращает стиль текста по умолчанию для фигур. |
 | [getCommentAuthors()](#getCommentAuthors--) | Возвращает коллекцию авторов комментариев. |
@@ -36,12 +36,12 @@ public interface IPresentation extends IPresentationComponent, System.IDisposabl
 | [getAudios()](#getAudios--) | Возвращает коллекцию всех встроенных аудиофайлов в презентации. |
 | [getVideos()](#getVideos--) | Возвращает коллекцию всех встроенных видеофайлов в презентации. |
 | [getCustomData()](#getCustomData--) | Возвращает пользовательские данные презентации. |
-| [getVbaProject()](#getVbaProject--) | Получает проект VBA с макросами презентации. |
-| [setVbaProject(IVbaProject value)](#setVbaProject-com.aspose.slides.IVbaProject-) | Получает проект VBA с макросами презентации. |
-| [getSourceFormat()](#getSourceFormat--) | Возвращает информацию о формате, из которого была загружена презентация. |
-| [getMasterTheme()](#getMasterTheme--) | Возвращает мастер-тему презентации. |
-| [getHyperlinkQueries()](#getHyperlinkQueries--) | Обеспечивает простой доступ ко всем гиперссылкам, содержащимся в слайдах презентации (не в мастерах, шаблонах, слайдах заметок). |
-| [getViewProperties()](#getViewProperties--) | Получает свойства представления, охватывающие всю презентацию. |
+| [getVbaProject()](#getVbaProject--) | Получает VBA-проект с макросами презентации. |
+| [setVbaProject(IVbaProject value)](#setVbaProject-com.aspose.slides.IVbaProject-) | Получает VBA-проект с макросами презентации. |
+| [getSourceFormat()](#getSourceFormat--) | Возвращает информацию о том, из какого формата была загружена презентация. |
+| [getMasterTheme()](#getMasterTheme--) | Возвращает главный стиль темы презентации. |
+| [getHyperlinkQueries()](#getHyperlinkQueries--) | Обеспечивает простой доступ ко всем гиперссылкам, содержащимся во всех слайдах презентации (не в мастерах, компоновках, слайдах заметок). |
+| [getViewProperties()](#getViewProperties--) | Получает свойства просмотра презентации. |
 | [getFirstSlideNumber()](#getFirstSlideNumber--) | Представляет номер первого слайда в презентации. |
 | [setFirstSlideNumber(int value)](#setFirstSlideNumber-int-) | Представляет номер первого слайда в презентации. |
 | [getAllCustomXmlParts()](#getAllCustomXmlParts--) | Возвращает все пользовательские части данных в презентации. |
@@ -57,25 +57,27 @@ public interface IPresentation extends IPresentationComponent, System.IDisposabl
 | [save(OutputStream stream, int[] slides, int format, ISaveOptions options)](#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-) | Сохраняет указанные слайды презентации в поток в указанном формате. |
 | [save(IXamlOptions options)](#save-com.aspose.slides.IXamlOptions-) | Сохраняет все слайды презентации в набор файлов, представляющих разметку XAML. |
 | [getImages(IRenderingOptions options)](#getImages-com.aspose.slides.IRenderingOptions-) | Возвращает объекты миниатюрных изображений для всех слайдов презентации. |
-| [getImages(IRenderingOptions options, int[] slides)](#getImages-com.aspose.slides.IRenderingOptions-int---) | Возвращает объекты миниатюр IImage для указанных слайдов презентации. |
+| [getImages(IRenderingOptions options, int[] slides)](#getImages-com.aspose.slides.IRenderingOptions-int---) | Возвращает объекты миниатюрных IImage для указанных слайдов презентации. |
 | [getImages(IRenderingOptions options, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-float-float-) | Возвращает объекты миниатюрных изображений для всех слайдов презентации с пользовательским масштабированием. |
 | [getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-int---float-float-) | Возвращает объекты миниатюрных изображений для указанных слайдов презентации с пользовательским масштабированием. |
 | [getImages(IRenderingOptions options, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-) | Возвращает объекты миниатюрных изображений для всех слайдов презентации с указанным размером. |
 | [getImages(IRenderingOptions options, int[] slides, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-) | Возвращает объекты миниатюрных изображений для указанных слайдов презентации с указанным размером. |
 | [getSlideById(long id)](#getSlideById-long-) | Возвращает Slide, MasterSlide или LayoutSlide по Id. |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Объединяет ранги с одинаковым форматированием во всех абзацах всех допустимых фигур во всех слайдах. |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Объединяет блоки с одинаковым форматированием во всех абзацах во всех приемлемых фигурах во всех слайдах. |
 | [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | Выделяет все совпадения образца текста указанным цветом. |
 | [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Выделяет все совпадения образца текста указанным цветом. |
 | [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | Выделяет все совпадения регулярного выражения указанным цветом. |
 | [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Заменяет все вхождения указанного текста другим указанным текстом. |
 | [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Заменяет все совпадения регулярного выражения указанной строкой. |
+| [refreshChartsData()](#refreshChartsData--) | Перезагружает данные для всех диаграмм в презентации из их исходных рабочих книг. |
+| [refreshChartsData(boolean skipFailedCharts)](#refreshChartsData-boolean-) | Перезагружает данные для всех диаграмм в презентации из их исходных рабочих книг. |
 
 ### getCurrentDateTime() {#getCurrentDateTime--}
 ```
 public abstract Date getCurrentDateTime()
 ```
 
-Возвращает или устанавливает дату и время, которые заменят содержимое полей даты и времени. Время создания этого объекта Presentation по умолчанию. Чтение/запись java.util.Date.
+Возвращает или задает дату и время, которые заменят содержимое полей даты/времени. По умолчанию время создания этого объекта Presentation. **Чтение/запись** java.util.Date.
 
 **Возвращает:**
 java.util.Date
@@ -85,7 +87,7 @@ java.util.Date
 public abstract void setCurrentDateTime(Date value)
 ```
 
-Возвращает или устанавливает дату и время, которые заменят содержимое полей даты и времени. Время создания этого объекта Presentation по умолчанию. Чтение/запись java.util.Date.
+Возвращает или задает дату и время, которые заменят содержимое полей даты/времени. По умолчанию время создания этого объекта Presentation. **Чтение/запись** java.util.Date.
 
 **Параметры:**
 | Параметр | Тип | Описание |
@@ -97,7 +99,7 @@ public abstract void setCurrentDateTime(Date value)
 public abstract IPresentationHeaderFooterManager getHeaderFooterManager()
 ```
 
-Возвращает менеджер HeaderFooter презентации. Только для чтения [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager).
+Возвращает менеджер HeaderFooter презентации. **Только для чтения** [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager).
 
 **Возвращает:**
 [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager)
@@ -107,7 +109,7 @@ public abstract IPresentationHeaderFooterManager getHeaderFooterManager()
 public abstract IProtectionManager getProtectionManager()
 ```
 
-Получает менеджер разрешений для этой презентации. Только для чтения [IProtectionManager](../../com.aspose.slides/iprotectionmanager).
+Получает менеджер разрешений для этой презентации. **Только для чтения** [IProtectionManager](../../com.aspose.slides/iprotectionmanager).
 
 **Возвращает:**
 [IProtectionManager](../../com.aspose.slides/iprotectionmanager)
@@ -117,7 +119,7 @@ public abstract IProtectionManager getProtectionManager()
 public abstract ISlideCollection getSlides()
 ```
 
-Возвращает список всех слайдов, определённых в презентации. Только для чтения [ISlideCollection](../../com.aspose.slides/islidecollection).
+Возвращает список всех слайдов, определённых в презентации. **Только для чтения** [ISlideCollection](../../com.aspose.slides/islidecollection).
 
 **Возвращает:**
 [ISlideCollection](../../com.aspose.slides/islidecollection)
@@ -127,7 +129,7 @@ public abstract ISlideCollection getSlides()
 public abstract ISectionCollection getSections()
 ```
 
-Возвращает список всех разделов слайдов, определённых в презентации. Только для чтения [ISectionCollection](../../com.aspose.slides/isectioncollection).
+Возвращает список всех разделов слайдов, определённых в презентации. **Только для чтения** [ISectionCollection](../../com.aspose.slides/isectioncollection).
 
 **Возвращает:**
 [ISectionCollection](../../com.aspose.slides/isectioncollection)
@@ -137,7 +139,7 @@ public abstract ISectionCollection getSections()
 public abstract ISlideSize getSlideSize()
 ```
 
-Возвращает объект размера слайда. Только для чтения [ISlideSize](../../com.aspose.slides/islidesize).
+Возвращает объект размера слайда. **Только для чтения** [ISlideSize](../../com.aspose.slides/islidesize).
 
 **Возвращает:**
 [ISlideSize](../../com.aspose.slides/islidesize)
@@ -147,7 +149,7 @@ public abstract ISlideSize getSlideSize()
 public abstract INotesSize getNotesSize()
 ```
 
-Возвращает объект размера слайда заметок. Только для чтения [INotesSize](../../com.aspose.slides/inotessize).
+Возвращает объект размера слайда заметок. **Только для чтения** [INotesSize](../../com.aspose.slides/inotessize).
 
 **Возвращает:**
 [INotesSize](../../com.aspose.slides/inotessize)
@@ -157,11 +159,11 @@ public abstract INotesSize getNotesSize()
 public abstract IGlobalLayoutSlideCollection getLayoutSlides()
 ```
 
-Возвращает список всех шаблонных слайдов, определённых в презентации. Только для чтения [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection).
+Возвращает список всех слайдов компоновки, определённых в презентации. **Только для чтения** [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection).
 
 --------------------
 
-Вы можете получить доступ к альтернативному API для добавления/вставки/удаления/клонирования шаблонных слайдов, используя свойство IMasterSlide.LayoutSlides.
+Вы можете получить доступ к альтернативному API для добавления/вставки/удаления/клонирования слайдов компоновки, используя свойство IMasterSlide.LayoutSlides.
 
 **Возвращает:**
 [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection)
@@ -171,7 +173,7 @@ public abstract IGlobalLayoutSlideCollection getLayoutSlides()
 public abstract IMasterSlideCollection getMasters()
 ```
 
-Возвращает список всех мастер-слайдов, определённых в презентации. Только для чтения [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection).
+Возвращает список всех мастер-слайдов, определённых в презентации. **Только для чтения** [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection).
 
 **Возвращает:**
 [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection)
@@ -181,7 +183,7 @@ public abstract IMasterSlideCollection getMasters()
 public abstract IMasterNotesSlideManager getMasterNotesSlideManager()
 ```
 
-Возвращает менеджер мастера заметок. Только для чтения [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager).
+Возвращает менеджер мастера заметок. **Только для чтения** [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager).
 
 **Возвращает:**
 [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager)
@@ -191,7 +193,7 @@ public abstract IMasterNotesSlideManager getMasterNotesSlideManager()
 public abstract IMasterHandoutSlideManager getMasterHandoutSlideManager()
 ```
 
-Возвращает менеджер мастера раздаточных материалов. Только для чтения [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager).
+Возвращает менеджер мастера раздач. **Только для чтения** [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager).
 
 **Возвращает:**
 [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager)
@@ -201,7 +203,7 @@ public abstract IMasterHandoutSlideManager getMasterHandoutSlideManager()
 public abstract IFontsManager getFontsManager()
 ```
 
-Возвращает менеджер шрифтов. Только для чтения [IFontsManager](../../com.aspose.slides/ifontsmanager).
+Возвращает менеджер шрифтов. **Только для чтения** [IFontsManager](../../com.aspose.slides/ifontsmanager).
 
 **Возвращает:**
 [IFontsManager](../../com.aspose.slides/ifontsmanager)
@@ -211,7 +213,7 @@ public abstract IFontsManager getFontsManager()
 public abstract ITextStyle getDefaultTextStyle()
 ```
 
-Возвращает стиль текста по умолчанию для фигур. Только для чтения [ITextStyle](../../com.aspose.slides/itextstyle).
+Возвращает стиль текста по умолчанию для фигур. **Только для чтения** [ITextStyle](../../com.aspose.slides/itextstyle).
 
 **Возвращает:**
 [ITextStyle](../../com.aspose.slides/itextstyle)
@@ -221,7 +223,7 @@ public abstract ITextStyle getDefaultTextStyle()
 public abstract ICommentAuthorCollection getCommentAuthors()
 ```
 
-Возвращает коллекцию авторов комментариев. Только для чтения [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection).
+Возвращает коллекцию авторов комментариев. **Только для чтения** [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection).
 
 **Возвращает:**
 [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection)
@@ -231,7 +233,7 @@ public abstract ICommentAuthorCollection getCommentAuthors()
 public abstract IDocumentProperties getDocumentProperties()
 ```
 
-Возвращает объект DocumentProperties, содержащий стандартные и пользовательские свойства документа. Только для чтения [IDocumentProperties](../../com.aspose.slides/idocumentproperties).
+Возвращает объект DocumentProperties, содержащий стандартные и пользовательские свойства документа. **Только для чтения** [IDocumentProperties](../../com.aspose.slides/idocumentproperties).
 
 **Возвращает:**
 [IDocumentProperties](../../com.aspose.slides/idocumentproperties)
@@ -241,7 +243,7 @@ public abstract IDocumentProperties getDocumentProperties()
 public abstract IImageCollection getImages()
 ```
 
-Возвращает коллекцию всех изображений в презентации. Только для чтения [IImageCollection](../../com.aspose.slides/iimagecollection).
+Возвращает коллекцию всех изображений в презентации. **Только для чтения** [IImageCollection](../../com.aspose.slides/iimagecollection).
 
 **Возвращает:**
 [IImageCollection](../../com.aspose.slides/iimagecollection)
@@ -251,7 +253,7 @@ public abstract IImageCollection getImages()
 public abstract IAudioCollection getAudios()
 ```
 
-Возвращает коллекцию всех встроенных аудиофайлов в презентации. Только для чтения [IAudioCollection](../../com.aspose.slides/iaudiocollection).
+Возвращает коллекцию всех встроенных аудиофайлов в презентации. **Только для чтения** [IAudioCollection](../../com.aspose.slides/iaudiocollection).
 
 **Возвращает:**
 [IAudioCollection](../../com.aspose.slides/iaudiocollection)
@@ -261,7 +263,7 @@ public abstract IAudioCollection getAudios()
 public abstract IVideoCollection getVideos()
 ```
 
-Возвращает коллекцию всех встроенных видеофайлов в презентации. Только для чтения [IVideoCollection](../../com.aspose.slides/ivideocollection).
+Возвращает коллекцию всех встроенных видеофайлов в презентации. **Только для чтения** [IVideoCollection](../../com.aspose.slides/ivideocollection).
 
 **Возвращает:**
 [IVideoCollection](../../com.aspose.slides/ivideocollection)
@@ -271,7 +273,7 @@ public abstract IVideoCollection getVideos()
 public abstract ICustomData getCustomData()
 ```
 
-Возвращает пользовательские данные презентации. Только для чтения [ICustomData](../../com.aspose.slides/icustomdata).
+Возвращает пользовательские данные презентации. **Только для чтения** [ICustomData](../../com.aspose.slides/icustomdata).
 
 **Возвращает:**
 [ICustomData](../../com.aspose.slides/icustomdata)
@@ -281,7 +283,7 @@ public abstract ICustomData getCustomData()
 public abstract IVbaProject getVbaProject()
 ```
 
-Получает проект VBA с макросами презентации. Чтение/запись [IVbaProject](../../com.aspose.slides/ivbaproject).
+Получает VBA-проект с макросами презентации. **Чтение/запись** [IVbaProject](../../com.aspose.slides/ivbaproject).
 
 **Возвращает:**
 [IVbaProject](../../com.aspose.slides/ivbaproject)
@@ -291,7 +293,7 @@ public abstract IVbaProject getVbaProject()
 public abstract void setVbaProject(IVbaProject value)
 ```
 
-Получает проект VBA с макросами презентации. Чтение/запись [IVbaProject](../../com.aspose.slides/ivbaproject).
+Получает VBA-проект с макросами презентации. **Чтение/запись** [IVbaProject](../../com.aspose.slides/ivbaproject).
 
 **Параметры:**
 | Параметр | Тип | Описание |
@@ -303,7 +305,7 @@ public abstract void setVbaProject(IVbaProject value)
 public abstract int getSourceFormat()
 ```
 
-Возвращает информацию о формате, из которого была загружена презентация. Только для чтения [SourceFormat](../../com.aspose.slides/sourceformat).
+Возвращает информацию о том, из какого формата была загружена презентация. **Только для чтения** [SourceFormat](../../com.aspose.slides/sourceformat).
 
 **Возвращает:**
 int
@@ -313,7 +315,7 @@ int
 public abstract IMasterTheme getMasterTheme()
 ```
 
-Возвращает мастер-тему презентации. Только для чтения [IMasterTheme](../../com.aspose.slides/imastertheme).
+Возвращает главный стиль темы презентации. **Только для чтения** [IMasterTheme](../../com.aspose.slides/imastertheme).
 
 **Возвращает:**
 [IMasterTheme](../../com.aspose.slides/imastertheme)
@@ -323,7 +325,7 @@ public abstract IMasterTheme getMasterTheme()
 public abstract IHyperlinkQueries getHyperlinkQueries()
 ```
 
-Обеспечивает простой доступ ко всем гиперссылкам, содержащимся в слайдах презентации (не в мастерах, шаблонах, слайдах заметок). Только для чтения [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
+Обеспечивает простой доступ ко всем гиперссылкам, содержащимся во всех слайдах презентации (не в мастерах, компоновках, слайдах заметок). **Только для чтения** [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
 
 **Возвращает:**
 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)
@@ -333,7 +335,7 @@ public abstract IHyperlinkQueries getHyperlinkQueries()
 public abstract IViewProperties getViewProperties()
 ```
 
-Получает свойства представления, охватывающие всю презентацию. Только для чтения [IViewProperties](../../com.aspose.slides/iviewproperties).
+Получает свойства просмотра презентации. **Только для чтения** [IViewProperties](../../com.aspose.slides/iviewproperties).
 
 **Возвращает:**
 [IViewProperties](../../com.aspose.slides/iviewproperties)
@@ -343,7 +345,7 @@ public abstract IViewProperties getViewProperties()
 public abstract int getFirstSlideNumber()
 ```
 
-Представляет номер первого слайда в презентации. Чтение/запись int.
+Представляет номер первого слайда в презентации. **Чтение/запись** int.
 
 **Возвращает:**
 int
@@ -353,7 +355,7 @@ int
 public abstract void setFirstSlideNumber(int value)
 ```
 
-Представляет номер первого слайда в презентации. Чтение/запись int.
+Представляет номер первого слайда в презентации. **Чтение/запись** int.
 
 **Параметры:**
 | Параметр | Тип | Описание |
@@ -365,7 +367,7 @@ public abstract void setFirstSlideNumber(int value)
 public abstract ICustomXmlPart[] getAllCustomXmlParts()
 ```
 
-Возвращает все пользовательские части данных в презентации. Только для чтения ICustomXmlPart[].
+Возвращает все пользовательские части данных в презентации. **Только для чтения** ICustomXmlPart[].
 
 **Возвращает:**
 com.aspose.slides.ICustomXmlPart[]
@@ -375,7 +377,7 @@ com.aspose.slides.ICustomXmlPart[]
 public abstract IDigitalSignatureCollection getDigitalSignatures()
 ```
 
-Возвращает коллекцию подписей, использованных для подписи презентации. Только для чтения [IDigitalSignatureCollection](../../com.aspose.slides/idigitalsignaturecollection).
+Возвращает коллекцию подписей, использованных для подписи презентации. **Только для чтения** [IDigitalSignatureCollection](../../com.aspose.slides/idigitalsignaturecollection).
 
 --------------------
 
@@ -403,7 +405,6 @@ public abstract IDigitalSignatureCollection getDigitalSignatures()
 >  }
 > ```
 
-
 **Возвращает:**
 [IDigitalSignatureCollection](../../com.aspose.slides/idigitalsignaturecollection)
 
@@ -412,7 +413,7 @@ public abstract IDigitalSignatureCollection getDigitalSignatures()
 public abstract ISensitivityLabelCollection getSensitivityLabels()
 ```
 
-Возвращает коллекцию меток чувствительности, применённых к документу презентации. Только для чтения [ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection).
+Возвращает коллекцию меток чувствительности, применённых к документу презентации. **Только для чтения** [ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection).
 
 --------------------
 
@@ -426,7 +427,7 @@ public abstract ISensitivityLabelCollection getSensitivityLabels()
 >          System.out.println("Label Id " + sensitivityLabel.getId() + " from Azure AD site " + sensitivityLabel.getSiteId());
 > 
 >      // Добавить новую метку
->      String labelIdString = "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"; // Получить идентификатор метки чувствительности из политики
+>      String labelIdString = "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"; // Получить Id метки чувствительности из политики
 >      UUID siteIdGuid = UUID.fromString("{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"); // Получить идентификатор сайта Azure AD из политики
 >      ISensitivityLabel label = sensitivityLabels.add(labelIdString, siteIdGuid, true, SensitivityLabelAssignmentType.Privileged);
 >      label.getContentMarkTypes().addItem(SensitivityLabelContentType.Footer);
@@ -471,7 +472,6 @@ public abstract void save(OutputStream stream, int format)
 ```
 public abstract void save(String fname, int format, ISaveOptions options)
 ```
-
 Сохраняет все слайды презентации в файл в указанном формате с дополнительными параметрами.
 
 **Параметры:**
@@ -486,12 +486,12 @@ public abstract void save(String fname, int format, ISaveOptions options)
 public abstract void save(OutputStream stream, int format, ISaveOptions options)
 ```
 
-Сохраняет все слайды презентации в поток в указанном формате и с дополнительными параметрами.
+Сохраняет все слайды презентации в поток в указанном формате с дополнительными параметрами.
 
 **Параметры:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | java.io.OutputStream | Поток вывода. |
+| stream | java.io.OutputStream | Выходной поток. |
 | format | int | Формат экспортируемых данных. |
 | options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Дополнительные параметры формата. |
 
@@ -506,7 +506,7 @@ public abstract void save(String fname, int[] slides, int format)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fname | java.lang.String | Путь к создаваемому файлу. |
-| slides | int[] | Массив с номерами слайдов, начиная с 1. |
+| slides | int[] | Массив с позициями слайдов, начиная с 1. |
 | format | int | Формат экспортируемых данных. |
 
 ### save(String fname, int[] slides, int format, ISaveOptions options) {#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-}
@@ -520,7 +520,7 @@ public abstract void save(String fname, int[] slides, int format, ISaveOptions o
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fname | java.lang.String | Путь к создаваемому файлу. |
-| slides | int[] | Массив с номерами слайдов, начиная с 1. |
+| slides | int[] | Массив с позициями слайдов, начиная с 1. |
 | format | int | Формат экспортируемых данных. |
 | options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Дополнительные параметры формата. |
 
@@ -534,8 +534,8 @@ public abstract void save(OutputStream stream, int[] slides, int format)
 **Параметры:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | java.io.OutputStream | Поток вывода. |
-| slides | int[] | Массив с номерами слайдов, начиная с 1. |
+| stream | java.io.OutputStream | Выходной поток. |
+| slides | int[] | Массив с позициями слайдов, начиная с 1. |
 | format | int | Формат экспортируемых данных. |
 
 ### save(OutputStream stream, int[] slides, int format, ISaveOptions options) {#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-}
@@ -548,8 +548,8 @@ public abstract void save(OutputStream stream, int[] slides, int format, ISaveOp
 **Параметры:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | java.io.OutputStream | Поток вывода. |
-| slides | int[] | Массив с номерами слайдов, начиная с 1. |
+| stream | java.io.OutputStream | Выходной поток. |
+| slides | int[] | Массив с позициями слайдов, начиная с 1. |
 | format | int | Формат экспортируемых данных. |
 | options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Дополнительные параметры формата. |
 
@@ -592,24 +592,24 @@ public abstract IImage[] getImages(IRenderingOptions options)
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Параметры рендеринга. |
 
-**Возврат:**
-com.aspose.slides.IImage[] - IImage объекты.
+**Возвращаемое значение:**
+com.aspose.slides.IImage[] - IImage objects.
 
 ### getImages(IRenderingOptions options, int[] slides) {#getImages-com.aspose.slides.IRenderingOptions-int---}
 ```
 public abstract IImage[] getImages(IRenderingOptions options, int[] slides)
 ```
 
-Возвращает объекты миниатюрных IImage для указанных слайдов презентации.
+Возвращает объекты миниатюрных изображений для указанных слайдов презентации.
 
 **Параметры:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Параметры рендеринга. |
-| slides | int[] | Массив с номерами слайдов, начиная с 1. |
+| slides | int[] | Массив с позициями слайдов, начиная с 1. |
 
-**Возврат:**
-com.aspose.slides.IImage[] - IImage объекты.
+**Возвращаемое значение:**
+com.aspose.slides.IImage[] - IImage objects.
 
 ### getImages(IRenderingOptions options, float scaleX, float scaleY) {#getImages-com.aspose.slides.IRenderingOptions-float-float-}
 ```
@@ -622,11 +622,11 @@ public abstract IImage[] getImages(IRenderingOptions options, float scaleX, floa
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Параметры рендеринга. |
-| scaleX | float | Значение, на которое масштабируется эта миниатюра по оси X. |
-| scaleY | float | Значение, на которое масштабируется эта миниатюра по оси Y. |
+| scaleX | float | Значение, на которое масштабировать эту миниатюру по оси X. |
+| scaleY | float | Значение, на которое масштабировать эту миниатюру по оси Y. |
 
-**Возврат:**
-com.aspose.slides.IImage[] - Bitmap объекты.
+**Возвращаемое значение:**
+com.aspose.slides.IImage[] - Bitmap objects.
 
 ### getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY) {#getImages-com.aspose.slides.IRenderingOptions-int---float-float-}
 ```
@@ -639,12 +639,12 @@ public abstract IImage[] getImages(IRenderingOptions options, int[] slides, floa
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Параметры рендеринга. |
-| slides | int[] | Массив с номерами слайдов, начиная с 1. |
-| scaleX | float | Значение, на которое масштабируется эта миниатюра по оси X. |
-| scaleY | float | Значение, на которое масштабируется эта миниатюра по оси Y. |
+| slides | int[] | Массив с позициями слайдов, начиная с 1. |
+| scaleX | float | Значение, на которое масштабировать эту миниатюру по оси X. |
+| scaleY | float | Значение, на которое масштабировать эту миниатюру по оси Y. |
 
-**Возврат:**
-com.aspose.slides.IImage[] - IImage объекты.
+**Возвращаемое значение:**
+com.aspose.slides.IImage[] - IImage objects.
 
 ### getImages(IRenderingOptions options, Dimension imageSize) {#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-}
 ```
@@ -659,8 +659,8 @@ public abstract IImage[] getImages(IRenderingOptions options, Dimension imageSiz
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Параметры рендеринга. |
 | imageSize | java.awt.Dimension | Размер создаваемого изображения. |
 
-**Возврат:**
-com.aspose.slides.IImage[] - IImage объекты.
+**Возвращаемое значение:**
+com.aspose.slides.IImage[] - IImage objects.
 
 ### getImages(IRenderingOptions options, int[] slides, Dimension imageSize) {#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-}
 ```
@@ -673,33 +673,33 @@ public abstract IImage[] getImages(IRenderingOptions options, int[] slides, Dime
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Параметры рендеринга. |
-| slides | int[] | Массив с номерами слайдов, начиная с 1. |
+| slides | int[] | Массив с позициями слайдов, начиная с 1. |
 | imageSize | java.awt.Dimension | Размер создаваемого изображения. |
 
-**Возврат:**
-com.aspose.slides.IImage[] - IImage объекты.
+**Возвращаемое значение:**
+com.aspose.slides.IImage[] - IImage objects.
 
 ### getSlideById(long id) {#getSlideById-long-}
 ```
 public abstract IBaseSlide getSlideById(long id)
 ```
 
-Возвращает объект Slide, MasterSlide или LayoutSlide по идентификатору.
+Возвращает Slide, MasterSlide или LayoutSlide по идентификатору.
 
 **Параметры:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | id | long | Идентификатор слайда. |
 
-**Возврат:**
-[IBaseSlide](../../com.aspose.slides/ibaseslide) - IBaseSlide объект.
+**Возвращаемое значение:**
+[IBaseSlide](../../com.aspose.slides/ibaseslide) - IBaseSlide object.
 
 ### joinPortionsWithSameFormatting() {#joinPortionsWithSameFormatting--}
 ```
 public abstract void joinPortionsWithSameFormatting()
 ```
 
-Объединяет фрагменты с одинаковым форматированием во всех абзацах во всех допустимых фигурах на всех слайдах.
+Объединяет фрагменты с одинаковым форматированием во всех абзацах всех допустимых фигур во всех слайдах.
 
 ### highlightText(String text, Color highlightColor) {#highlightText-java.lang.String-java.awt.Color-}
 ```
@@ -722,7 +722,6 @@ public abstract void highlightText(String text, Color highlightColor)
 >      if (presentation != null) presentation.dispose();
 >  }
 > ```
-
 
 **Параметры:**
 | Параметр | Тип | Описание |
@@ -771,7 +770,7 @@ public abstract void highlightRegex(Pattern regex, Color highlightColor, IFindRe
 --------------------
 
 > ```
-> The following code sample shows how to highlight text in a PowerPoint Presentation using a regular expression.
+> Следующий пример кода показывает, как выделять текст в презентации PowerPoint, используя регулярное выражение.
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
@@ -801,7 +800,7 @@ public abstract void replaceText(String oldText, String newText, ITextSearchOpti
 --------------------
 
 > ```
-> The following sample code shows how to replace one specified string with another specified string.
+> Следующий пример кода показывает, как заменить одну указанную строку другой указанной строкой.
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx")
 >  try {
@@ -819,7 +818,7 @@ public abstract void replaceText(String oldText, String newText, ITextSearchOpti
 **Параметры:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| oldText | java.lang.String | Строка, подлежащая замене. |
+| oldText | java.lang.String | Строка, которую необходимо заменить. |
 | newText | java.lang.String | Строка, которой заменяются все вхождения oldText. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Параметры поиска текста [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Объект обратного вызова для получения результатов поиска [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
@@ -848,10 +847,52 @@ public abstract void replaceRegex(Pattern regex, String newText, IFindResultCall
 >  }
 > ```
 
-
 **Параметры:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | regex | java.util.regex.Pattern | Регулярное выражение java.util.regex.Pattern для получения строк для замены. |
-| newText | java.lang.String | Строка, которой заменяются все вхождения строк для замены. |
+| newText | java.lang.String | Строка, которой заменяются все вхождения строк, подлежащих замене. |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Объект обратного вызова для получения результатов поиска [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+
+### refreshChartsData() {#refreshChartsData--}
+```
+public abstract void refreshChartsData()
+```
+
+Перезагружает данные всех диаграмм в презентации из их исходных рабочих книг.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("PresentationWithCharts.pptx");
+>  try {
+>      presentation.refreshChartsData();
+>      presentation.save("PresentationWithCharts-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+### refreshChartsData(boolean skipFailedCharts) {#refreshChartsData-boolean-}
+```
+public abstract void refreshChartsData(boolean skipFailedCharts)
+```
+
+Перезагружает данные всех диаграмм в презентации из их исходных рабочих книг.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("PresentationWithCharts.pptx");
+>  try {
+>      presentation.refreshChartsData();
+>      presentation.save("PresentationWithCharts-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Параметры:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| skipFailedCharts | boolean | Определяет, продолжается ли процесс обновления, если обновление диаграммы завершилось ошибкой. Если true, диаграммы, вызывающие исключение, пропускаются; иначе исключение propagates. |

@@ -19,29 +19,31 @@ Representa os dados usados para a plotagem de um gráfico.
 
 | Método | Descrição |
 | --- | --- |
-| [getChartDataWorkbook()](#getChartDataWorkbook--) | Obtém a fábrica de células para criar células usadas para séries ou categorias de gráfico. |
-| [getSeries()](#getSeries--) | Gets the series. |
-| [getSeriesGroups()](#getSeriesGroups--) | Gets the groups of series. |
-| [getCategories()](#getCategories--) | Obtém as categorias primárias (ou tanto as categorias primárias quanto as secundárias se a propriedade \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) for false). |
-| [getUseSecondaryCategories()](#getUseSecondaryCategories--) | Se false, então a propriedade \#getSecondaryCategories.getSecondaryCategories retorna null e os dados na propriedade \#getCategories.getCategories são usados tanto para séries primárias quanto para secundárias. |
-| [setUseSecondaryCategories(boolean value)](#setUseSecondaryCategories-boolean-) | Se false, então a propriedade \#getSecondaryCategories.getSecondaryCategories retorna null e os dados na propriedade \#getCategories.getCategories são usados tanto para séries primárias quanto para secundárias. |
+| [getChartDataWorkbook()](#getChartDataWorkbook--) | Obtém a fábrica de células para criar células usadas em séries ou categorias de gráfico. |
+| [getSeries()](#getSeries--) | Obtém as séries. |
+| [getSeriesGroups()](#getSeriesGroups--) | Obtém os grupos de séries. |
+| [getCategories()](#getCategories--) | Obtém as categorias principais (ou tanto as categorias principais quanto as secundárias se a propriedade \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) for false). |
+| [getUseSecondaryCategories()](#getUseSecondaryCategories--) | Se false então a propriedade \#getSecondaryCategories.getSecondaryCategories retorna null e os dados na propriedade \#getCategories.getCategories são usados tanto para séries principais quanto para secundárias. |
+| [setUseSecondaryCategories(boolean value)](#setUseSecondaryCategories-boolean-) | Se false então a propriedade \#getSecondaryCategories.getSecondaryCategories retorna null e os dados na propriedade \#getCategories.getCategories são usados tanto para séries principais quanto para secundárias. |
 | [getSecondaryCategories()](#getSecondaryCategories--) | Obtém as categorias secundárias se a propriedade \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) for true. |
-| [readWorkbookStream()](#readWorkbookStream--) | Grava a pasta de trabalho Excel interna em um fluxo de memória. |
-| [writeWorkbookStream(byte[] ms)](#writeWorkbookStream-byte---) | Inicializa a pasta de trabalho Excel interna com o valor especificado pelo usuário. |
-| [getDataSourceType()](#getDataSourceType--) | Representa o caminho da pasta de trabalho externa se a fonte de dados for externa, caso contrário null. |
+| [readWorkbookStream()](#readWorkbookStream--) | Grava o workbook Excel interno em um fluxo de memória. |
+| [writeWorkbookStream(byte[] ms)](#writeWorkbookStream-byte---) | Inicializa o workbook Excel interno com o valor especificado pelo usuário. |
+| [getDataSourceType()](#getDataSourceType--) | Representa o caminho do workbook externo se a fonte de dados for externa, caso contrário null. |
 | [getExternalWorkbookPath()](#getExternalWorkbookPath--) | Representa a fonte de dados do gráfico. |
-| [getEmbeddedWorkbookType()](#getEmbeddedWorkbookType--) | Obtém o tipo da pasta de trabalho incorporada. |
+| [getEmbeddedWorkbookType()](#getEmbeddedWorkbookType--) | Obtém o tipo do workbook incorporado. |
 | [getRange()](#getRange--) | Obtém o intervalo de dados do gráfico. |
 | [setRange(String formula)](#setRange-java.lang.String-) | Define o intervalo de dados do gráfico. |
-| [setExternalWorkbook(String workbookPath)](#setExternalWorkbook-java.lang.String-) | Define a pasta de trabalho externa como fonte de dados para o gráfico. |
-| [setExternalWorkbook(String workbookPath, boolean updateChartData)](#setExternalWorkbook-java.lang.String-boolean-) | Define a pasta de trabalho externa como fonte de dados para o gráfico. |
+| [setExternalWorkbook(String workbookPath)](#setExternalWorkbook-java.lang.String-) | Define o workbook externo como fonte de dados para o gráfico. |
+| [setExternalWorkbook(String workbookPath, boolean updateChartData)](#setExternalWorkbook-java.lang.String-boolean-) | Define o workbook externo como fonte de dados para o gráfico. |
+| [refreshData()](#refreshData--) | Atualiza os dados do gráfico recarregando-os a partir do workbook fonte. |
 | [switchRowColumn()](#switchRowColumn--) | Inverte os dados ao longo do eixo. |
+
 ### getChartDataWorkbook() {#getChartDataWorkbook--}
 ```
 public final IChartDataWorkbook getChartDataWorkbook()
 ```
 
-Obtém a fábrica de células para criar células usadas para séries ou categorias de gráfico. Somente leitura [IChartDataWorkbook](../../com.aspose.slides/ichartdataworkbook).
+Obtém a fábrica de células para criar células usadas em séries ou categorias de gráfico. Somente leitura [IChartDataWorkbook](../../com.aspose.slides/ichartdataworkbook).
 
 **Retorna:**
 [IChartDataWorkbook](../../com.aspose.slides/ichartdataworkbook)
@@ -50,7 +52,7 @@ Obtém a fábrica de células para criar células usadas para séries ou categor
 public final IChartSeriesCollection getSeries()
 ```
 
-Gets the series. Somente leitura [IChartSeriesCollection](../../com.aspose.slides/ichartseriescollection).
+Obtém as séries. Somente leitura [IChartSeriesCollection](../../com.aspose.slides/ichartseriescollection).
 
 **Retorna:**
 [IChartSeriesCollection](../../com.aspose.slides/ichartseriescollection)
@@ -59,11 +61,11 @@ Gets the series. Somente leitura [IChartSeriesCollection](../../com.aspose.slide
 public final IChartSeriesGroupCollection getSeriesGroups()
 ```
 
-Gets the groups of series. Somente leitura [IChartSeriesGroupCollection](../../com.aspose.slides/ichartseriesgroupcollection).
+Obtém os grupos de séries. Somente leitura [IChartSeriesGroupCollection](../../com.aspose.slides/ichartseriesgroupcollection).
 
 --------------------
 
-1) Cada grupo de séries contém séries com tipos combináveis. Grupos de tipos de séries combináveis são definidos e descritos com o enum CombinableSeriesTypesGroup. Além disso, cada grupo de séries contém séries que são plotadas ou nos eixos primários ou nos eixos secundários (não ambos os casos em um mesmo grupo). Portanto, o princípio de agrupamento de séries é um agrupamento por tipos de grupos mencionados acima e por tipo de plotagem primário/secundário. 2) O grupo de séries contém algumas propriedades de séries que são comuns a cada série no grupo (“propriedades do grupo de séries”). “Propriedades do grupo de séries” na classe ChartSeriesGroup são de leitura/escrita. Cada uma das “propriedades do grupo de séries” pode ter uma projeção somente leitura na classe ChartSeries.
+1) Cada grupo de séries contém séries com tipos combináveis. Os grupos de tipos de séries combináveis são definidos e descritos com o enum CombinableSeriesTypesGroup. Além disso, cada grupo de séries contém séries que são plotadas tanto no eixo primário quanto no eixo secundário (não ambos os casos em um mesmo grupo). Portanto, o princípio de agrupamento de séries é o agrupamento por grupos de tipos mencionados acima e por tipo de plotagem primária/secundária. 2) O grupo de séries contém algumas propriedades de séries que são comuns a cada série no grupo (“propriedades do grupo de séries”). As “propriedades do grupo de séries” na classe ChartSeriesGroup são leitura/gravação. Cada uma das “propriedades do grupo de séries” pode ter uma projeção somente leitura na classe ChartSeries.
 
 **Retorna:**
 [IChartSeriesGroupCollection](../../com.aspose.slides/ichartseriesgroupcollection)
@@ -72,7 +74,7 @@ Gets the groups of series. Somente leitura [IChartSeriesGroupCollection](../../c
 public final IChartCategoryCollection getCategories()
 ```
 
-Obtém as categorias primárias (ou tanto as categorias primárias quanto as secundárias se a propriedade \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) for false). Somente leitura [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection).
+Obtém as categorias principais (ou tanto as categorias principais quanto as secundárias se a propriedade \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) for false). Somente leitura [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection).
 
 --------------------
 
@@ -81,17 +83,17 @@ Obtém as categorias primárias (ou tanto as categorias primárias quanto as sec
 >  
 >  if (series.getPlotOnSecondAxis() && series.getChart().getChartData().getUseSecondaryCategories())
 >  {
->      // as categorias relacionadas são series.getChart().getChartData().getSecondaryCategories()
+>      // categorias relacionadas são series.getChart().getChartData().getSecondaryCategories()
 >  }
 >  else
 >  {
->      // as categorias relacionadas são series.getChart().getChartData().getCategories()
+>      // categorias relacionadas são series.getChart().getChartData().getCategories()
 >  }
 > ```
 
 --------------------
 
-Se a propriedade \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) for false, então a propriedade (\#getSecondaryCategories.getSecondaryCategories) retorna null e os dados na propriedade \#getCategories.getCategories são usados tanto para séries primárias quanto para secundárias. Se a propriedade \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) for true, então os dados na propriedade (\#getSecondaryCategories.getSecondaryCategories) são usados para séries secundárias e os dados nesta propriedade \#getCategories.getCategories são usados para séries primárias.
+Se \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) for false então a propriedade (\#getSecondaryCategories.getSecondaryCategories) retorna null e os dados nesta propriedade \#getCategories.getCategories são usados tanto para séries principais quanto para secundárias. Se a propriedade for true então os dados na propriedade (\#getSecondaryCategories.getSecondaryCategories) são usados para séries secundárias e os dados na propriedade \#getCategories.getCategories são usados para séries principais.
 
 **Retorna:**
 [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection)
@@ -100,7 +102,7 @@ Se a propriedade \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseS
 public final boolean getUseSecondaryCategories()
 ```
 
-Se false então a propriedade \#getSecondaryCategories.getSecondaryCategories retorna null e os dados na propriedade \#getCategories.getCategories são usados tanto para séries primárias quanto para secundárias. Se true então os dados na propriedade \#getSecondaryCategories.getSecondaryCategories são usados para séries secundárias e os dados na propriedade \#getCategories.getCategories são usados para séries primárias. Boolean de leitura/escrita.
+Se false então a propriedade \#getSecondaryCategories.getSecondaryCategories retorna null e os dados na propriedade \#getCategories.getCategories são usados tanto para séries principais quanto para secundárias. Se true então os dados na propriedade \#getSecondaryCategories.getSecondaryCategories são usados para séries secundárias e os dados na propriedade \#getCategories.getCategories são usados para séries principais. Leitura/Gravação boolean.
 
 --------------------
 
@@ -109,11 +111,11 @@ Se false então a propriedade \#getSecondaryCategories.getSecondaryCategories re
 >  
 >  if (series.getPlotOnSecondAxis() && series.getChart().getChartData().getUseSecondaryCategories())
 >  {
->      // as categorias relacionadas são series.getChart().getChartData().getSecondaryCategories()
+>      // categorias relacionadas são series.getChart().getChartData().getSecondaryCategories()
 >  }
 >  else
 >  {
->      // as categorias relacionadas são series.getChart().getChartData().getCategories()
+>      // categorias relacionadas são series.getChart().getChartData().getCategories()
 >  }
 > ```
 
@@ -124,7 +126,7 @@ boolean
 public final void setUseSecondaryCategories(boolean value)
 ```
 
-Se false então a propriedade \#getSecondaryCategories.getSecondaryCategories retorna null e os dados na propriedade \#getCategories.getCategories são usados tanto para séries primárias quanto para secundárias. Se true então os dados na propriedade \#getSecondaryCategories.getSecondaryCategories são usados para séries secundárias e os dados na propriedade \#getCategories.getCategories são usados para séries primárias. Boolean de leitura/escrita.
+Se false então a propriedade \#getSecondaryCategories.getSecondaryCategories retorna null e os dados na propriedade \#getCategories.getCategories são usados tanto para séries principais quanto para secundárias. Se true então os dados na propriedade \#getSecondaryCategories.getSecondaryCategories são usados para séries secundárias e os dados na propriedade \#getCategories.getCategories são usados para séries principais. Leitura/Gravação boolean.
 
 --------------------
 
@@ -133,19 +135,19 @@ Se false então a propriedade \#getSecondaryCategories.getSecondaryCategories re
 >  
 >  if (series.getPlotOnSecondAxis() && series.getChart().getChartData().getUseSecondaryCategories())
 >  {
->      // as categorias relacionadas são series.getChart().getChartData().getSecondaryCategories()
+>      // categorias relacionadas são series.getChart().getChartData().getSecondaryCategories()
 >  }
 >  else
 >  {
->      // as categorias relacionadas são series.getChart().getChartData().getCategories()
+>      // categorias relacionadas são series.getChart().getChartData().getCategories()
 >  }
 > ```
-
 
 **Parâmetros:**
 | Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
 | value | boolean |  |
+
 ### getSecondaryCategories() {#getSecondaryCategories--}
 ```
 public final IChartCategoryCollection getSecondaryCategories()
@@ -160,17 +162,17 @@ Obtém as categorias secundárias se a propriedade \#getUseSecondaryCategories.g
 >  
 >  if (series.getPlotOnSecondAxis() && series.getChart().getChartData().getUseSecondaryCategories())
 >  {
->      // as categorias relacionadas são series.getChart().getChartData().getSecondaryCategories()
+>      // categorias relacionadas são series.getChart().getChartData().getSecondaryCategories()
 >  }
 >  else
 >  {
->      // as categorias relacionadas são series.getChart().getChartData().getCategories()
+>      // categorias relacionadas são series.getChart().getChartData().getCategories()
 >  }
 > ```
 
 --------------------
 
-Se a propriedade \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) for false, então esta (\#getSecondaryCategories.getSecondaryCategories) retorna null e os dados na propriedade \#getCategories.getCategories são usados tanto para séries primárias quanto para secundárias. Se a propriedade \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) for true, então os dados nesta \#getSecondaryCategories.getSecondaryCategories são usados para séries secundárias e os dados na \#getCategories.getCategories são usados para séries primárias.
+Se \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) for false então esta propriedade (\#getSecondaryCategories.getSecondaryCategories) retorna null e os dados na propriedade \#getCategories.getCategories são usados tanto para séries principais quanto para secundárias. Se a propriedade for true então os dados nesta propriedade \#getSecondaryCategories.getSecondaryCategories são usados para séries secundárias e os dados na propriedade \#getCategories.getCategories são usados para séries principais.
 
 **Retorna:**
 [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection)
@@ -179,27 +181,28 @@ Se a propriedade \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseS
 public final byte[] readWorkbookStream()
 ```
 
-Grava a pasta de trabalho Excel interna em um fluxo de memória.
+Grava o workbook Excel interno em um fluxo de memória.
 
 **Retorna:**
-byte[] - Retorna uma instância de array de bytes contendo uma cópia da pasta de trabalho Excel interna.
+byte[] - Retorna uma instância de array de bytes contendo uma cópia do workbook Excel interno.
 ### writeWorkbookStream(byte[] ms) {#writeWorkbookStream-byte---}
 ```
 public final void writeWorkbookStream(byte[] ms)
 ```
 
-Inicializa a pasta de trabalho Excel interna com o valor especificado pelo usuário.
+Inicializa o workbook Excel interno com o valor especificado pelo usuário.
 
 **Parâmetros:**
 | Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
-| ms | byte[] | O fluxo fornecido pelo usuário contendo a pasta de trabalho Excel completa. |
+| ms | byte[] | O fluxo fornecido pelo usuário contendo o workbook Excel completo. |
+
 ### getDataSourceType() {#getDataSourceType--}
 ```
 public final int getDataSourceType()
 ```
 
-Representa o caminho da pasta de trabalho externa se a fonte de dados for externa, caso contrário null
+Representa o caminho do workbook externo se a fonte de dados for externa, caso contrário null.
 
 **Retorna:**
 int
@@ -208,7 +211,7 @@ int
 public final String getExternalWorkbookPath()
 ```
 
-Representa a fonte de dados do gráfico
+Representa a fonte de dados do gráfico.
 
 **Retorna:**
 java.lang.String
@@ -217,7 +220,7 @@ java.lang.String
 public final int getEmbeddedWorkbookType()
 ```
 
-Obtém o tipo da pasta de trabalho incorporada. Retorna [WorkbookType.NotDefined](../../com.aspose.slides/workbooktype\#NotDefined) se DataSourceType (\#getDataSourceType.getDataSourceType) for [ChartDataSourceType.ExternalWorkbook](../../com.aspose.slides/chartdatasourcetype\#ExternalWorkbook). Somente leitura [WorkbookType](../../com.aspose.slides/workbooktype).
+Obtém o tipo do workbook incorporado. Retorna [WorkbookType.NotDefined](../../com.aspose.slides/workbooktype\#NotDefined) se DataSourceType (\#getDataSourceType.getDataSourceType) for [ChartDataSourceType.ExternalWorkbook](../../com.aspose.slides/chartdatasourcetype\#ExternalWorkbook). Somente leitura [WorkbookType](../../com.aspose.slides/workbooktype).
 
 **Retorna:**
 int
@@ -241,24 +244,25 @@ Obtém o intervalo de dados do gráfico.
 > ```
 
 **Retorna:**
-java.lang.String - Fórmula do intervalo de dados das células. Ex.: "Sheet1!$A$1:$C$4"
+java.lang.String - Fórmula do intervalo de dados de células. Ex.: "Sheet1!$A$1:$C$4"
 ### setRange(String formula) {#setRange-java.lang.String-}
 ```
 public final void setRange(String formula)
 ```
 
-Define o intervalo de dados do gráfico. Séries e categorias serão atualizadas com base no novo intervalo de dados. Se a quantidade de séries no intervalo de dados for maior que a contagem de séries nos dados do gráfico, então séries adicionais com o mesmo tipo da última série na coleção atual serão adicionadas ao final da coleção.
+Define o intervalo de dados do gráfico. As séries e categorias serão atualizadas com base no novo intervalo de dados. Se a quantidade de séries no intervalo de dados for maior que a contagem de séries nos dados do gráfico, séries adicionais com o mesmo tipo da última série na coleção atual serão adicionadas ao final da coleção.
 
 **Parâmetros:**
 | Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
-| formula | java.lang.String | A fórmula do intervalo de dados das células. Ex.: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
+| formula | java.lang.String | A fórmula do intervalo de dados de células. Ex.: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
+
 ### setExternalWorkbook(String workbookPath) {#setExternalWorkbook-java.lang.String-}
 ```
 public final void setExternalWorkbook(String workbookPath)
 ```
 
-Define a pasta de trabalho externa como fonte de dados para o gráfico. Os dados do gráfico serão atualizados a partir da pasta de trabalho alvo.
+Define o workbook externo como fonte de dados para o gráfico. Os dados do gráfico serão atualizados a partir do workbook de destino.
 
 --------------------
 
@@ -277,13 +281,14 @@ Define a pasta de trabalho externa como fonte de dados para o gráfico. Os dados
 **Parâmetros:**
 | Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
-| workbookPath | java.lang.String | Caminho para a pasta de trabalho alvo |
+| workbookPath | java.lang.String | Caminho para o workbook de destino |
+
 ### setExternalWorkbook(String workbookPath, boolean updateChartData) {#setExternalWorkbook-java.lang.String-boolean-}
 ```
 public final void setExternalWorkbook(String workbookPath, boolean updateChartData)
 ```
 
-Define a pasta de trabalho externa como fonte de dados para o gráfico.
+Define o workbook externo como fonte de dados para o gráfico.
 
 --------------------
 
@@ -302,11 +307,31 @@ Define a pasta de trabalho externa como fonte de dados para o gráfico.
 **Parâmetros:**
 | Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
-| workbookPath | java.lang.String | Caminho para a pasta de trabalho alvo |
-| updateChartData | boolean | Se o valor for false, apenas o caminho da pasta de trabalho será atualizado. Os dados do gráfico não serão carregados e atualizados a partir da pasta de trabalho alvo. Pode ser usado quando a pasta de trabalho alvo não existe ou não está disponível. Se o valor for true, os dados do gráfico serão atualizados a partir da pasta de trabalho alvo. |
+| workbookPath | java.lang.String | Caminho para o workbook de destino |
+| updateChartData | boolean | Se o valor for false, somente o caminho do workbook será atualizado. Os dados do gráfico não serão carregados e atualizados a partir do workbook de destino. Pode ser usado quando o workbook de destino não existe ou não está disponível. Se o valor for true, os dados do gráfico serão atualizados a partir do workbook de destino. |
+
+### refreshData() {#refreshData--}
+```
+public final void refreshData()
+```
+
+Atualiza os dados do gráfico recarregando-os a partir do workbook fonte.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("presentationWithChart.pptx");
+>  try {
+>      IChart chart = (IChart)presentation.getSlides().get_Item(0).getShapes().get_Item(0);
+>      chart.getChartData().refreshData();
+>  } finally {
+>      presentation.dispose();
+>  }
+> ```
+
 ### switchRowColumn() {#switchRowColumn--}
 ```
 public final void switchRowColumn()
 ```
 
-Inverte os dados ao longo do eixo. Dados plotados no eixo X serão movidos para o eixo Y e vice-versa.
+Inverte os dados ao longo do eixo. Os dados plotados no eixo X serão movidos para o eixo Y e vice-versa.

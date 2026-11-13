@@ -1,122 +1,124 @@
 ---
 title: DataLabelCollection
 second_title: Справочник API Aspose.Slides для Java
-description: Представляет метки серии.
+description: Представляет подписи серии.
 type: docs
 url: /ru/com.aspose.slides/datalabelcollection/
 ---
-**Наследование:**
+**Inheritance:**
 java.lang.Object, com.aspose.slides.DomObject
 
-**Все реализованные интерфейсы:**
+**All Implemented Interfaces:**
 [com.aspose.slides.IDataLabelCollection](../../com.aspose.slides/idatalabelcollection)
 ```
 public class DataLabelCollection extends DomObject<ChartSeries> implements IDataLabelCollection
 ```
 
-Представляет метки серии.
-## Методы
+Представляет подписи серии.
+## Methods
 
-| Метод | Описание |
+| Method | Description |
 | --- | --- |
-| [getChart()](#getChart--) | Возвращает родительскую chart. |
-| [iterator()](#iterator--) | Возвращает перечислитель, который перебирает элементы коллекции. |
-| [iteratorJava()](#iteratorJava--) | Возвращает java-итератор для всей коллекции. |
-| [isVisible()](#isVisible--) | False означает, что подпись данных не видна по умолчанию (и поэтому все флаги Show*-flags (ShowValue, ...) свойства DefaultDataLabelFormat имеют значение false). |
-| [hide()](#hide--) | Сделать подпись данных скрытой по умолчанию, установив все флаги Show*-flags (ShowValue, ...) свойства DefaultDataLabelFormat в состояние false. |
-| [getCountOfVisibleDataLabels()](#getCountOfVisibleDataLabels--) | Получает количество видимых подписей данных в коллекции. |
-| [getCount()](#getCount--) | Получает количество всех подписей данных в коллекции. |
-| [getDefaultDataLabelFormat()](#getDefaultDataLabelFormat--) | Получает формат подписи данных по умолчанию. |
-| [getLeaderLinesFormat()](#getLeaderLinesFormat--) | Представляет формат линий-подключений подписей данных. |
-| [getParentSeries()](#getParentSeries--) | Получает родительскую серию. |
-| [indexOf(IDataLabel value)](#indexOf-com.aspose.slides.IDataLabel-) | Возвращает индекс указанного DataLabel в коллекции. |
-| [get_Item(int index)](#get-Item-int-) | Получает подпись данных для точки данных с указанным индексом. |
-| [getSlide()](#getSlide--) | Возвращает родительский слайд FillFormat. |
-| [getPresentation()](#getPresentation--) | Возвращает родительскую презентацию FillFormat. |
+| [getChart()](#getChart--) | Returns the parent chart. |
+| [iterator()](#iterator--) | Returns an enumerator that iterates through the collection. |
+| [iteratorJava()](#iteratorJava--) | Returns a java iterator for the entire collection. |
+| [isVisible()](#isVisible--) | False means that data label is not visible by default (and so all Show\*-flags (ShowValue, ...) of the DefaultDataLabelFormat property are false). |
+| [hide()](#hide--) | Make data label hidden by default by setting all Show\*-flags (ShowValue, ...) of the DefaultDataLabelFormat property to false state. |
+| [getCountOfVisibleDataLabels()](#getCountOfVisibleDataLabels--) | Gets the number of visible data labels in the collection. |
+| [getCount()](#getCount--) | Gets the number of all data labels in the collection. |
+| [getDefaultDataLabelFormat()](#getDefaultDataLabelFormat--) | Gets the default data label format. |
+| [getLeaderLinesFormat()](#getLeaderLinesFormat--) | Represents data labels leader lines format. |
+| [getParentSeries()](#getParentSeries--) | Gets the parent series. |
+| [indexOf(IDataLabel value)](#indexOf-com.aspose.slides.IDataLabel-) | Returns an index of the specified DataLabel in the collection. |
+| [get_Item(int index)](#get-Item-int-) | Gets the data label for the data point with the specified index. |
+| [getDefaultLabelShapeType()](#getDefaultLabelShapeType--) | Gets or sets the default shape type for data labels. |
+| [setDefaultLabelShapeType(int value)](#setDefaultLabelShapeType-int-) | Gets or sets the default shape type for data labels. |
+| [getSlide()](#getSlide--) | Returns the parent slide of a FillFormat. |
+| [getPresentation()](#getPresentation--) | Returns the parent presentation of a FillFormat. |
 ### getChart() {#getChart--}
 ```
 public final IChart getChart()
 ```
 
-Возвращает родительскую chart. Только для чтения [IChart](../../com.aspose.slides/ichart).
+Returns the parent chart. Read-only [IChart](../../com.aspose.slides/ichart).
 
-**Возвращает:**
+**Returns:**
 [IChart](../../com.aspose.slides/ichart)
 ### iterator() {#iterator--}
 ```
 public final System.Collections.Generic.IGenericEnumerator<IDataLabel> iterator()
 ```
 
-Возвращает перечислитель, который перебирает элементы коллекции.
+Returns an enumerator that iterates through the collection.
 
-**Возвращает:**
+**Returns:**
 com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.slides.IDataLabel> - A IGenericEnumerator that can be used to iterate through the collection.
 ### iteratorJava() {#iteratorJava--}
 ```
 public final System.Collections.Generic.IGenericEnumerator<IDataLabel> iteratorJava()
 ```
 
-Возвращает java-итератор для всей коллекции.
+Returns a java iterator for the entire collection.
 
-**Возвращает:**
+**Returns:**
 com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.slides.IDataLabel> - An java.util.Iterator for the entire collection.
 ### isVisible() {#isVisible--}
 ```
 public final boolean isVisible()
 ```
 
-False означает, что подпись данных не видна по умолчанию (и поэтому все флаги Show*-flags (ShowValue, ...) свойства DefaultDataLabelFormat имеют значение false). Только для чтения boolean.
+False means that data label is not visible by default (and so all Show\*-flags (ShowValue, ...) of the DefaultDataLabelFormat property are false). Read-only boolean.
 
 --------------------
 
-Если подпись данных видна по умолчанию, её можно скрыть по умолчанию с помощью метода Hide(). Но если подпись данных не видна по умолчанию (IsVisible равно false), её можно сделать «видимой по умолчанию», установив флаги Show*-flags (ShowValue, ...) свойства DefaultDataLabelFormat в состояние true.
+If data label is visible by default you can make it hidden by default with Hide() method. But if data label is not visible by default (IsVisible is false) you can make data label "visible by default" with setting Show\*-flags (ShowValue, ...) of the DefaultDataLabelFormat property to true state.
 
-**Возвращает:**
+**Returns:**
 boolean
 ### hide() {#hide--}
 ```
 public final void hide()
 ```
 
-Сделать подпись данных скрытой по умолчанию, установив все флаги Show*-flags (ShowValue, ...) свойства DefaultDataLabelFormat в состояние false. После этого IsVisible будет false.
+Make data label hidden by default by setting all Show\*-flags (ShowValue, ...) of the DefaultDataLabelFormat property to false state. IsVisible will be false after this.
 
 --------------------
 
-Если подпись данных не видна по умолчанию (IsVisible равно false), её можно сделать «видимой по умолчанию», установив флаги Show*-flags (ShowValue, ...) свойства DefaultDataLabelFormat в состояние true.
+If data label is not visible by default (IsVisible is false) you can make data label "visible by default" with setting Show\*-flags (ShowValue, ...) of the DefaultDataLabelFormat property to true state.
 
 ### getCountOfVisibleDataLabels() {#getCountOfVisibleDataLabels--}
 ```
 public final int getCountOfVisibleDataLabels()
 ```
 
-Получает количество видимых подписей данных в коллекции. Только для чтения int.
+Gets the number of visible data labels in the collection. Read-only int.
 
-**Возвращает:**
+**Returns:**
 int
 ### getCount() {#getCount--}
 ```
 public final int getCount()
 ```
 
-Получает количество всех подписей данных в коллекции. Только для чтения int.
+Gets the number of all data labels in the collection. Read-only int.
 
-**Возвращает:**
+**Returns:**
 int
 ### getDefaultDataLabelFormat() {#getDefaultDataLabelFormat--}
 ```
 public final IDataLabelFormat getDefaultDataLabelFormat()
 ```
 
-Получает формат подписи данных по умолчанию. Только для чтения [IDataLabelFormat](../../com.aspose.slides/idatalabelformat).
+Gets the default data label format. Read-only [IDataLabelFormat](../../com.aspose.slides/idatalabelformat).
 
-**Возвращает:**
+**Returns:**
 [IDataLabelFormat](../../com.aspose.slides/idatalabelformat)
 ### getLeaderLinesFormat() {#getLeaderLinesFormat--}
 ```
 public final IChartLinesFormat getLeaderLinesFormat()
 ```
 
-Представляет формат линий-подключений подписей данных. Только для чтения [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat).
+Represents data labels leader lines format. Read-only [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat).
 
 --------------------
 
@@ -135,65 +137,123 @@ public final IChartLinesFormat getLeaderLinesFormat()
 >  }
 > ```
 
-
-**Возвращает:**
+**Returns:**
 [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat)
 ### getParentSeries() {#getParentSeries--}
 ```
 public final IChartSeries getParentSeries()
 ```
 
-Получает родительскую серию. Только для чтения [IChartSeries](../../com.aspose.slides/ichartseries).
+Gets the parent series. Read-only [IChartSeries](../../com.aspose.slides/ichartseries).
 
-**Возвращает:**
+**Returns:**
 [IChartSeries](../../com.aspose.slides/ichartseries)
 ### indexOf(IDataLabel value) {#indexOf-com.aspose.slides.IDataLabel-}
 ```
 public final int indexOf(IDataLabel value)
 ```
 
-Возвращает индекс указанного DataLabel в коллекции.
+Returns an index of the specified DataLabel in the collection.
 
-**Параметры:**
-| Параметр | Тип | Описание |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IDataLabel](../../com.aspose.slides/idatalabel) | DataLabel для поиска. |
+| value | [IDataLabel](../../com.aspose.slides/idatalabel) | DataLabel to find. |
 
-**Возвращает:**
-int - Индекс DataLabel или -1, если DataLabel не принадлежит этой коллекции.
+**Returns:**
+int - Index of a DataLabel or -1 if DataLabel not from this collection.
 ### get_Item(int index) {#get-Item-int-}
 ```
 public final IDataLabel get_Item(int index)
 ```
 
-Получает подпись данных для точки данных с указанным индексом.
+Gets the data label for the data point with the specified index.
 
 --------------------
 
-Альтернативный способ доступа к подписи данных: - series.getDataPoints().get_Item(i).getLabel() - управление свойствами подписи.
+Alternate way to access data label is: - series.getDataPoints().get\_Item(i).getLabel() - manage label properties.
 
-**Параметры:**
-| Параметр | Тип | Описание |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | index | int |  |
 
-**Возвращает:**
+**Returns:**
 [IDataLabel](../../com.aspose.slides/idatalabel)
+### getDefaultLabelShapeType() {#getDefaultLabelShapeType--}
+```
+public final int getDefaultLabelShapeType()
+```
+
+Gets or sets the default shape type for data labels. Returns [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) if no shape is defined.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Установить тип формы всех подписей данных в первой серии в Ellipse.
+>      firstSeries.getLabels().setDefaultLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabels.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+Setting this property also sets the  IDataLabel.LabelShapeType ([IDataLabel.getLabelShapeType](../../com.aspose.slides/idatalabel\#getLabelShapeType)/[IDataLabel.setLabelShapeType(int)](../../com.aspose.slides/idatalabel\#setLabelShapeType-int-)) property for all data labels in the collection to the same value.
+
+**Returns:**
+int
+### setDefaultLabelShapeType(int value) {#setDefaultLabelShapeType-int-}
+```
+public final void setDefaultLabelShapeType(int value)
+```
+
+Gets or sets the default shape type for data labels. Returns [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) if no shape is defined.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Установить тип формы всех подписей данных в первой серии в Ellipse.
+>      firstSeries.getLabels().setDefaultLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabels.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+Setting this property also sets the  IDataLabel.LabelShapeType ([IDataLabel.getLabelShapeType](../../com.aspose.slides/idatalabel\#getLabelShapeType)/[IDataLabel.setLabelShapeType(int)](../../com.aspose.slides/idatalabel\#setLabelShapeType-int-)) property for all data labels in the collection to the same value.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
 ### getSlide() {#getSlide--}
 ```
 public final IBaseSlide getSlide()
 ```
 
-Возвращает родительский слайд FillFormat. Только для чтения [BaseSlide](../../com.aspose.slides/baseslide).
+Returns the parent slide of a FillFormat. Read-only [BaseSlide](../../com.aspose.slides/baseslide).
 
-**Возвращает:**
+**Returns:**
 [IBaseSlide](../../com.aspose.slides/ibaseslide)
 ### getPresentation() {#getPresentation--}
 ```
 public final IPresentation getPresentation()
 ```
 
-Возвращает родительскую презентацию FillFormat. Только для чтения [IPresentation](../../com.aspose.slides/ipresentation).
+Returns the parent presentation of a FillFormat. Read-only [IPresentation](../../com.aspose.slides/ipresentation).
 
-**Возвращает:**
+**Returns:**
 [IPresentation](../../com.aspose.slides/ipresentation)

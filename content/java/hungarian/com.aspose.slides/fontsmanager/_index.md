@@ -1,6 +1,6 @@
 ---
 title: FontsManager
-second_title: Aspose.Slides Java API referencia
+second_title: Aspose.Slides Java API hivatkozás
 description: Kezeli a betűtípusokat a prezentációban.
 type: docs
 url: /hu/com.aspose.slides/fontsmanager/
@@ -8,23 +8,23 @@ url: /hu/com.aspose.slides/fontsmanager/
 **Öröklés:**
 java.lang.Object
 
-**Minden megvalósított interfész:**
+**Az összes megvalósított interfész:**
 [com.aspose.slides.IFontsManager](../../com.aspose.slides/ifontsmanager)
 ```
 public class FontsManager implements IFontsManager
 ```
 
-A prezentációban használt betűtípusok kezelését végzi.
+Manages fonts across the presentation.
 
 --------------------
 
 > ```
 > The following example shows how to add embedded fonts to PowerPoint Presentation.
 >  
->  // Prezentáció betöltése
+>  // Töltsd be a prezentációt
 >  Presentation pres = new Presentation("Fonts.pptx");
 >  try {
->      // A cserélendő forrás betűtípus betöltése
+>      // Töltsd be a cserélendő forrás betűtípust
 >      IFontData sourceFont = new FontData("Arial");
 >      IFontData[] allFonts = pres.getFontsManager().getFonts();
 >      for (IFontData font : allFonts)
@@ -43,7 +43,7 @@ A prezentációban használt betűtípusok kezelését végzi.
 >              pres.getFontsManager().addEmbeddedFont(font, EmbedFontCharacters.All);
 >          }
 >      }
->      // Prezentáció mentése
+>      // Mentsd el a prezentációt
 >      pres.save("AddEmbeddedFont_out.pptx", SaveFormat.Pptx);
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -54,29 +54,31 @@ A prezentációban használt betűtípusok kezelését végzi.
 
 | Módszer | Leírás |
 | --- | --- |
-| [getFontSubstRuleList()](#getFontSubstRuleList--) | Rendereléskor használandó betűtípushelyettesítések. |
-| [setFontSubstRuleList(IFontSubstRuleCollection value)](#setFontSubstRuleList-com.aspose.slides.IFontSubstRuleCollection-) | Rendereléskor használandó betűtípushelyettesítések. |
-| [getFontFallBackRulesCollection()](#getFontFallBackRulesCollection--) | A felhasználó FontFallBack szabályainak gyűjteménye a betűtípus-gyűjtemények kezeléséhez a megfelelő helyettesítésekhez visszalépési funkcióval. Olvasás/írás [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
-| [setFontFallBackRulesCollection(IFontFallBackRulesCollection value)](#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-) | A felhasználó FontFallBack szabályainak gyűjteménye a betűtípus-gyűjtemények kezeléséhez a megfelelő helyettesítésekhez visszalépési funkcióval. Olvasás/írás [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
+| [getFontSubstRuleList()](#getFontSubstRuleList--) | A renderelés során használandó betűtípus helyettesítések. |
+| [setFontSubstRuleList(IFontSubstRuleCollection value)](#setFontSubstRuleList-com.aspose.slides.IFontSubstRuleCollection-) | A renderelés során használandó betűtípus helyettesítések. |
+| [getFontFallBackRulesCollection()](#getFontFallBackRulesCollection--) | A felhasználó FontFallBack szabályainak gyűjteménye a betűtípus-gyűjtemények kezelésére a megfelelő helyettesítéshez a visszaesés funkcióval. Olvasás/írás [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
+| [setFontFallBackRulesCollection(IFontFallBackRulesCollection value)](#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-) | A felhasználó FontFallBack szabályainak gyűjteménye a betűtípus-gyűjtemények kezelésére a megfelelő helyettesítéshez a visszaesés funkcióval. Olvasás/írás [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
 | [getFonts()](#getFonts--) | Visszaadja a prezentációban használt betűtípusokat |
-| [getSubstitutions()](#getSubstitutions--) | Lekéri a prezentáció renderelése során lecserélendő betűtípusok információit. |
-| [getSubstitutions(int[] slides)](#getSubstitutions-int---) | Lekéri a megadott diák renderelése során lecserélendő betűtípusok információit. |
+| [getSubstitutions()](#getSubstitutions--) | Lekéri a prezentáció renderelése során cserélendő betűtípusokkal kapcsolatos információkat. |
+| [getSubstitutions(int[] slides)](#getSubstitutions-int---) | Lekéri a megadott diák renderelése során cserélendő betűtípusokkal kapcsolatos információkat. |
+| [getPreferRegisteredFontsOverEmbedded()](#getPreferRegisteredFontsOverEmbedded--) | Megadja, hogy a regisztrált betűtípusokat részesítsék előnyben a beágyazott, azonos névű és stílusú betűtípusokkal szemben. |
+| [setPreferRegisteredFontsOverEmbedded(boolean value)](#setPreferRegisteredFontsOverEmbedded-boolean-) | Megadja, hogy a regisztrált betűtípusokat részesítsék előnyben a beágyazott, azonos névű és stílusú betűtípusokkal szemben. |
 | [getEmbeddedFonts()](#getEmbeddedFonts--) | Visszaadja a prezentációba beágyazott betűtípusokat |
 | [removeEmbeddedFont(IFontData fontData)](#removeEmbeddedFont-com.aspose.slides.IFontData-) | Eltávolítja a beágyazott betűtípust |
 | [addEmbeddedFont(IFontData fontData, int embedFontRule)](#addEmbeddedFont-com.aspose.slides.IFontData-int-) | Hozzáadja a beágyazott betűtípust |
 | [addEmbeddedFont(byte[] fontData, int embedFontRule)](#addEmbeddedFont-byte---int-) | Hozzáadja a beágyazott betűtípust |
 | [replaceFont(IFontData sourceFont, IFontData destFont)](#replaceFont-com.aspose.slides.IFontData-com.aspose.slides.IFontData-) | Betűtípus cseréje a prezentációban |
 | [replaceFont(IFontSubstRule substRule)](#replaceFont-com.aspose.slides.IFontSubstRule-) | Betűtípus cseréje a prezentációban a [FontSubstRule](../../com.aspose.slides/fontsubstrule) által biztosított információk alapján |
-| [replaceFont(IFontSubstRuleCollection substRules)](#replaceFont-com.aspose.slides.IFontSubstRuleCollection-) | Betűtípus cseréje a prezentációban a [FontSubstRule](../../com.aspose.slides/fontsubstrule) gyűjteménye alapján |
-| [getFontBytes(IFontData fontData, int fontStyle)](#getFontBytes-com.aspose.slides.IFontData-int-) | Lekéri a megadott betűtípusstílus és betűtípus adatot reprezentáló bájtarray-t. |
-| [getFontEmbeddingLevel(byte[] fontBytes, String fontName)](#getFontEmbeddingLevel-byte---java.lang.String-) | Meghatározza egy betűtípus beágyazási szintjét a megadott bájtarray és betűtípusnév alapján. |
+| [replaceFont(IFontSubstRuleCollection substRules)](#replaceFont-com.aspose.slides.IFontSubstRuleCollection-) | Betűtípus cseréje a prezentációban a [FontSubstRule](../../com.aspose.slides/fontsubstrule) gyűjtemény által biztosított információk alapján |
+| [getFontBytes(IFontData fontData, int fontStyle)](#getFontBytes-com.aspose.slides.IFontData-int-) | Lekéri a megadott betűtípus stílushoz és betűtípus adathoz tartozó bájt tömböt. |
+| [getFontEmbeddingLevel(byte[] fontBytes, String fontName)](#getFontEmbeddingLevel-byte---java.lang.String-) | Megállapítja egy betűtípus beágyazási szintjét a megadott bájt tömb és betűtípus név alapján. |
 
 ### getFontSubstRuleList() {#getFontSubstRuleList--}
 ```
 public final IFontSubstRuleCollection getFontSubstRuleList()
 ```
 
-Rendereléskor használandó betűtípushelyettesítések. Olvasás/írás [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
+Renderelés során használható betűtípus helyettesítések. Olvasás/írás [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
 
 **Visszatérési érték:**
 [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection)
@@ -86,7 +88,7 @@ Rendereléskor használandó betűtípushelyettesítések. Olvasás/írás [IFon
 public final void setFontSubstRuleList(IFontSubstRuleCollection value)
 ```
 
-Rendereléskor használandó betűtípushelyettesítések. Olvasás/írás [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
+Renderelés során használható betűtípus helyettesítések. Olvasás/írás [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
@@ -98,7 +100,7 @@ Rendereléskor használandó betűtípushelyettesítések. Olvasás/írás [IFon
 public final IFontFallBackRulesCollection getFontFallBackRulesCollection()
 ```
 
-A felhasználó FontFallBack szabályainak gyűjteménye a betűtípus-gyűjtemények kezeléséhez a megfelelő helyettesítésekhez visszalépési funkcióval. Olvasás/írás [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
+A felhasználó FontFallBack szabályainak gyűjteménye a betűtípus-gyűjtemények kezelésére a megfelelő helyettesítéshez a visszaesés funkcióval. Olvasás/írás [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
 
 --------------------
 
@@ -106,16 +108,16 @@ A felhasználó FontFallBack szabályainak gyűjteménye a betűtípus-gyűjtem�
 > Presentation pres = new Presentation();
 >  try
 >  {
->      // Üres vagy előre inicializált szabálygyűjtemény lekérése a FontsManager-ből
+>      // Üres vagy előre inicializált szabálykészlet lekérése a FontsManager-ből
 >      IFontFallBackRulesCollection rulesList = pres.getFontsManager().getFontFallBackRulesCollection();
 >      // szabályok hozzáadása a gyűjteményhez
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
 >      // vagy 
->      // új szabálygyűjtemény példányának inicializálása
+>      // új szabálykészlet példányának inicializálása
 >      IFontFallBackRulesCollection rulesList = new FontFallBackRulesCollection();
 >      // szabályok hozzáadása a gyűjteményhez
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
->      // és a meglévő gyűjtemény helyettesítése az újjal a FontsManagerben 
+>      // és a meglévő gyűjtemény cseréje az újra a FontsManager-ben 
 >      pres.getFontsManager().setFontFallBackRulesCollection(rulesList);
 >  }
 >  finally {
@@ -132,7 +134,7 @@ A felhasználó FontFallBack szabályainak gyűjteménye a betűtípus-gyűjtem�
 public final void setFontFallBackRulesCollection(IFontFallBackRulesCollection value)
 ```
 
-A felhasználó FontFallBack szabályainak gyűjteménye a betűtípus-gyűjtemények kezeléséhez a megfelelő helyettesítésekhez visszalépési funkcióval. Olvasás/írás [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
+A felhasználó FontFallBack szabályainak gyűjteménye a betűtípus-gyűjtemények kezelésére a megfelelő helyettesítéshez a visszaesés funkcióval. Olvasás/írás [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
 
 --------------------
 
@@ -140,16 +142,16 @@ A felhasználó FontFallBack szabályainak gyűjteménye a betűtípus-gyűjtem�
 > Presentation pres = new Presentation();
 >  try
 >  {
->      // Üres vagy előre inicializált szabálygyűjtemény lekérése a FontsManager-ből
+>      // Üres vagy előre inicializált szabálykészlet lekérése a FontsManager-ből
 >      IFontFallBackRulesCollection rulesList = pres.getFontsManager().getFontFallBackRulesCollection();
 >      // szabályok hozzáadása a gyűjteményhez
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
 >      // vagy 
->      // új szabálygyűjtemény példányának inicializálása
+>      // új szabálykészlet példányának inicializálása
 >      IFontFallBackRulesCollection rulesList = new FontFallBackRulesCollection();
 >      // szabályok hozzáadása a gyűjteményhez
 >      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
->      // és a meglévő gyűjtemény helyettesítése az újjal a FontsManagerben 
+>      // és a meglévő gyűjtemény cseréje az újra a FontsManager-ben 
 >      pres.getFontsManager().setFontFallBackRulesCollection(rulesList);
 >  }
 >  finally {
@@ -171,14 +173,14 @@ public final IFontData[] getFonts()
 Visszaadja a prezentációban használt betűtípusokat
 
 **Visszatérési érték:**
-com.aspose.slides.IFontData[] - An array of fonts
+com.aspose.slides.IFontData[] - A betűtípusok tömbje
 
 ### getSubstitutions() {#getSubstitutions--}
 ```
 public final System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo> getSubstitutions()
 ```
 
-Lekéri a prezentáció renderelése során lecserélendő betűtípusok információit.
+Lekéri a prezentáció renderelése során cserélendő betűtípusokkal kapcsolatos információkat.
 
 --------------------
 
@@ -196,14 +198,14 @@ Lekéri a prezentáció renderelése során lecserélendő betűtípusok inform�
 
 
 **Visszatérési érték:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - Collection of all fonts substitution [FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo).
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - Az összes betűtípus helyettesítés gyűjteménye [FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo).
 
 ### getSubstitutions(int[] slides) {#getSubstitutions-int---}
 ```
 public final System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo> getSubstitutions(int[] slides)
 ```
 
-Lekéri a megadott diák renderelése során lecserélendő betűtípusok információit.
+Lekéri a megadott diák renderelése során cserélendő betűtípusokkal kapcsolatos információkat.
 
 --------------------
 
@@ -220,14 +222,67 @@ Lekéri a megadott diák renderelése során lecserélendő betűtípusok inform
 >  }
 > ```
 
+**Paraméterek:**
+| Paraméter | Típus | Leírás |
+| --- | --- | --- |
+| slides | int[] | Egy tömb a diák indexeivel, amelyekhez a betűtípus helyettesítési információkat le kell kérni, 1-től kezdődően. |
+
+**Visszatérési érték:**
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - Az összes betűtípus helyettesítés ([FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo)) a megadott diákra.
+
+### getPreferRegisteredFontsOverEmbedded() {#getPreferRegisteredFontsOverEmbedded--}
+```
+public final boolean getPreferRegisteredFontsOverEmbedded()
+```
+
+Megadja, hogy a regisztrált betűtípusokat részesítsék előnyben a ugyanazt a betűtípusnevet és stílust használó beágyazott betűtípusokkal szemben. Ha engedélyezett, a megfelelő beágyazott betűtípusok ideiglenesen a megfelelő regisztrált betűtípusokkal lesznek helyettesítve exportálás során.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("SomePresentation.pptx");
+>  try {
+>      pres.getFontsManager().setPreferRegisteredFontsOverEmbedded(true);
+>      pres.save("Presentation-out.pdf", SaveFormat.Pdf);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+Az alapértelmezett **false**.
+
+**Visszatérési érték:**
+boolean
+
+### setPreferRegisteredFontsOverEmbedded(boolean value) {#setPreferRegisteredFontsOverEmbedded-boolean-}
+```
+public final void setPreferRegisteredFontsOverEmbedded(boolean value)
+```
+
+Megadja, hogy a regisztrált betűtípusokat részesítsék előnyben a ugyanazt a betűtípusnevet és stílust használó beágyazott betűtípusokkal szemben. Ha engedélyezett, a megfelelő beágyazott betűtípusok ideiglenesen a megfelelő regisztrált betűtípusokkal lesznek helyettesítve exportálás során.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("SomePresentation.pptx");
+>  try {
+>      pres.getFontsManager().setPreferRegisteredFontsOverEmbedded(true);
+>      pres.save("Presentation-out.pdf", SaveFormat.Pdf);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+Az alapértelmezett **false**.
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| slides | int[] | An array of slide indexes for which to retrieve font substitution information, starting from 1. |
-
-**Visszatérési érték:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - A collection of all font substitutions ([FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo)) for the specified slides.
+| value | boolean |  |
 
 ### getEmbeddedFonts() {#getEmbeddedFonts--}
 ```
@@ -307,7 +362,7 @@ Betűtípus cseréje a prezentációban a [FontSubstRule](../../com.aspose.slide
 public final void replaceFont(IFontSubstRuleCollection substRules)
 ```
 
-Betűtípus cseréje a prezentációban a [FontSubstRule](../../com.aspose.slides/fontsubstrule) gyűjteménye alapján
+Betűtípus cseréje a prezentációban a [FontSubstRule](../../com.aspose.slides/fontsubstrule) gyűjtemény által biztosított információk alapján
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
@@ -319,16 +374,16 @@ Betűtípus cseréje a prezentációban a [FontSubstRule](../../com.aspose.slide
 public final byte[] getFontBytes(IFontData fontData, int fontStyle)
 ```
 
-Lekéri a megadott betűtípusstílus és betűtípus adatot reprezentáló bájtarray-t.
+Lekéri a bájt tömböt, amely a megadott betűtípus stílushoz és betűtípus adathoz tartozó betűtípust tartalmazza.
 
 --------------------
 
 > ```
 > Presentation pres = new Presentation ("Presentation.pptx");
 >  try {
->      // A prezentációban használt összes betűtípust lekéri
+>      // A prezentációban használt összes betűtípus lekérése
 >      IFontData[] fonts = pres.getFontsManager().getFonts();
->      // A prezentáció első betűtípusának normál stílusát reprezentáló bájtarray lekérése
+>      // A prezentációban az első betűtípus normál stílusát reprezentáló bájt tömb lekérése
 >      byte[] fontBytes = pres.getFontsManager().getFontBytes(fonts[0], FontStyleType.Regular);
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -339,27 +394,27 @@ Lekéri a megadott betűtípusstílus és betűtípus adatot reprezentáló báj
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| fontData | [IFontData](../../com.aspose.slides/ifontdata) | A betűtípus adatot tartalmazó objektum, amely a [IFontData](../../com.aspose.slides/ifontdata) információkat tartalmazza. |
-| fontStyle | int | A betűtípus stílusa, amelynek az adatát le kell kérni [FontStyleType](../../com.aspose.slides/fontstyletype). |
+| fontData | [IFontData](../../com.aspose.slides/ifontdata) | A betűtípus adatobjektum, amely a [IFontData](../../com.aspose.slides/ifontdata) betűtípussal kapcsolatos információkat tartalmaz. |
+| fontStyle | int | A betűtípus stílusa, amelyhez az adatot le kell kérni [FontStyleType](../../com.aspose.slides/fontstyletype). |
 
 **Visszatérési érték:**
-byte[] - A megadott betűtípusstílushoz tartozó betűtípus adatot tartalmazó bájtarray. Ha a betűtípus adat vagy stílus nem található, null értékkel tér vissza.
+byte[] - Egy bájt tömb, amely a megadott betűtípus stílushoz tartozó betűtípust tartalmazza. Ha a betűtípus adat vagy a stílus nem található, null értéket ad vissza.
 
 ### getFontEmbeddingLevel(byte[] fontBytes, String fontName) {#getFontEmbeddingLevel-byte---java.lang.String-}
 ```
 public final int getFontEmbeddingLevel(byte[] fontBytes, String fontName)
 ```
 
-Meghatározza egy betűtípus beágyazási szintjét a megadott bájtarray és betűtípusnév alapján.
+Megállapítja egy betűtípus beágyazási szintjét a megadott bájt tömb és betűtípus név alapján.
 
 --------------------
 
 > ```
 > Presentation pres = new Presentation(pptxFileName);
 >  try {
->      // A prezentációban használt összes betűtípust lekéri
+>      // A prezentációban használt összes betűtípus lekérése
 >      IFontData[] fontDatas = pres.getFontsManager().getFonts();
->      // A prezentáció első betűtípusának normál stílusát reprezentáló bájtarray lekérése
+>      // A prezentációban az első betűtípus normál stílusát reprezentáló bájt tömb lekérése
 >      byte[] bytes = pres.getFontsManager().getFontBytes(fontDatas[0], FontStyle.Regular);
 >      // A betűtípus beágyazási szintjének meghatározása
 >      int embeddingLevel = pres.getFontsManager().getFontEmbeddingLevel(bytes, fontDatas[0].getFontName());
@@ -372,7 +427,7 @@ Meghatározza egy betűtípus beágyazási szintjét a megadott bájtarray és b
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| fontBytes | byte[] | A betűtípus adatot tartalmazó bájtarray. |
+| fontBytes | byte[] | A betűtípust tartalmazó bájt tömb. |
 | fontName | java.lang.String | A betűtípus neve. |
 
 **Visszatérési érték:**

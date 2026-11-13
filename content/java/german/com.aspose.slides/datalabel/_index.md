@@ -1,6 +1,6 @@
 ---
 title: DataLabel
-second_title: Aspose.Slides für Java API Referenz
+second_title: Aspose.Slides für Java API-Referenz
 description: Stellt Serienbeschriftungen dar.
 type: docs
 url: /de/com.aspose.slides/datalabel/
@@ -14,7 +14,7 @@ java.lang.Object
 public class DataLabel implements IDataLabel, IDOMObject
 ```
 
-Stellt Serienbeschriftungen dar.
+Stellt eine Serienbeschriftung dar.
 ## Konstruktoren
 
 | Konstruktor | Beschreibung |
@@ -26,27 +26,29 @@ Stellt Serienbeschriftungen dar.
 | --- | --- |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
 | [getChart()](#getChart--) | Gibt das übergeordnete Diagramm zurück. |
-| [isVisible()](#isVisible--) | False bedeutet, dass die Datenbeschriftung nicht sichtbar ist (und somit alle Show\*-Flags (ShowValue, ...) false sind). |
-| [hide()](#hide--) | Macht die Datenbeschriftung unsichtbar, indem alle Show\*-Flags (ShowValue, ...) auf den falschen Zustand gesetzt werden. |
-| [getActualLabelText()](#getActualLabelText--) | Gibt den tatsächlichen Beschriftungstext basierend auf den DataLabelFormat-Einstellungen oder dem Textwert von TextFrameForOverriding.Text zurück. |
+| [isVisible()](#isVisible--) | False bedeutet, dass die Datenbeschriftung nicht sichtbar ist (und damit alle Show*-Flags (ShowValue, ...) false sind). |
+| [hide()](#hide--) | Macht die Datenbeschriftung unsichtbar, indem alle Show*-Flags (ShowValue, ...) auf false gesetzt werden. |
+| [getActualLabelText()](#getActualLabelText--) | Gibt den tatsächlichen Beschriftungstext basierend auf den DataLabelFormat-Einstellungen oder dem Textwert von TextFrameForOverriding zurück. |
 | [addTextFrameForOverriding(String text)](#addTextFrameForOverriding-java.lang.String-) | Initialisiert TextFrameForOverriding mit dem Text im Parameter "text". |
 | [getTextFrameForOverriding()](#getTextFrameForOverriding--) | Kann einen reich formatierten Text enthalten. |
 | [getTextFormat()](#getTextFormat--) | Gibt das Textformat zurück. |
-| [getX()](#getX--) | Gibt die x-Koordinate eines Titels zurück oder setzt sie als Bruchteil der Breite des Diagramms. |
-| [setX(float value)](#setX-float-) | Gibt die x-Koordinate eines Titels zurück oder setzt sie als Bruchteil der Breite des Diagramms. |
-| [getY()](#getY--) | Gibt die y-Koordinate eines Titels zurück oder setzt sie als Bruchteil der Höhe des Diagramms. |
-| [setY(float value)](#setY-float-) | Gibt die y-Koordinate eines Titels zurück oder setzt sie als Bruchteil der Höhe des Diagramms. |
-| [getWidth()](#getWidth--) | Gibt die Breite eines Titels zurück oder setzt sie als Bruchteil der Breite des Diagramms. |
-| [setWidth(float value)](#setWidth-float-) | Gibt die Breite eines Titels zurück oder setzt sie als Bruchteil der Breite des Diagramms. |
-| [getHeight()](#getHeight--) | Gibt die Höhe eines Titels zurück oder setzt sie als Bruchteil der Höhe des Diagramms. |
-| [setHeight(float value)](#setHeight-float-) | Gibt die Höhe eines Titels zurück oder setzt sie als Bruchteil der Höhe des Diagramms. |
+| [getX()](#getX--) | Gibt die X-Koordinate eines Titels als Bruchteil der Diagrammbreite zurück oder setzt sie. |
+| [setX(float value)](#setX-float-) | Gibt die X-Koordinate eines Titels als Bruchteil der Diagrammbreite zurück oder setzt sie. |
+| [getY()](#getY--) | Gibt die Y-Koordinate eines Titels als Bruchteil der Diagrammhöhe zurück oder setzt sie. |
+| [setY(float value)](#setY-float-) | Gibt die Y-Koordinate eines Titels als Bruchteil der Diagrammhöhe zurück oder setzt sie. |
+| [getWidth()](#getWidth--) | Gibt die Breite eines Titels als Bruchteil der Diagrammbreite zurück oder setzt sie. |
+| [setWidth(float value)](#setWidth-float-) | Gibt die Breite eines Titels als Bruchteil der Diagrammbreite zurück oder setzt sie. |
+| [getHeight()](#getHeight--) | Gibt die Höhe eines Titels als Bruchteil der Diagrammhöhe zurück oder setzt sie. |
+| [setHeight(float value)](#setHeight-float-) | Gibt die Höhe eines Titels als Bruchteil der Diagrammhöhe zurück oder setzt sie. |
 | [getRight()](#getRight--) | Rechts. |
 | [getBottom()](#getBottom--) | Unten. |
 | [getDataLabelFormat()](#getDataLabelFormat--) | Gibt das Datenbeschriftungsformat zurück. |
-| [getValueFromCell()](#getValueFromCell--) | Ruft die Arbeitsblatt-Datenzelle ab oder legt sie fest. |
-| [setValueFromCell(IChartDataCell value)](#setValueFromCell-com.aspose.slides.IChartDataCell-) | Ruft die Arbeitsblatt-Datenzelle ab oder legt sie fest. |
-| [getActualX()](#getActualX--) | Gibt den tatsächlichen x-Standort (links) des Diagrammelements relativ zur linken oberen Ecke des Diagramms an. |
-| [getActualY()](#getActualY--) | Gibt den tatsächlichen oberen Standort des Diagrammelements relativ zur linken oberen Ecke des Diagramms an. |
+| [getValueFromCell()](#getValueFromCell--) | Liest oder setzt die Arbeitsmappendatenzelle. |
+| [setValueFromCell(IChartDataCell value)](#setValueFromCell-com.aspose.slides.IChartDataCell-) | Liest oder setzt die Arbeitsmappendatenzelle. |
+| [getLabelShapeType()](#getLabelShapeType--) | Liest oder setzt den Formtyp der Datenbeschriftung. |
+| [setLabelShapeType(int value)](#setLabelShapeType-int-) | Liest oder setzt den Formtyp der Datenbeschriftung. |
+| [getActualX()](#getActualX--) | Gibt die tatsächliche X-Position (links) des Diagrammelements relativ zur linken oberen Ecke des Diagramms an. |
+| [getActualY()](#getActualY--) | Gibt den tatsächlichen oberen Rand des Diagrammelements relativ zur linken oberen Ecke des Diagramms an. |
 | [getActualWidth()](#getActualWidth--) | Gibt die tatsächliche Breite des Diagrammelements an. |
 | [getActualHeight()](#getActualHeight--) | Gibt die tatsächliche Höhe des Diagrammelements an. |
 | [getSlide()](#getSlide--) | Gibt die übergeordnete Folie eines FillFormat zurück. |
@@ -61,13 +63,14 @@ Erstellt eine neue Instanz der DataLabel-Klasse.
 **Parameter:**
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| parentImmediate | [IChartDataPoint](../../com.aspose.slides/ichartdatapoint) | Übergeordneter ChartDataPoint. |
+| parentImmediate | [IChartDataPoint](../../com.aspose.slides/ichartdatapoint) | Eltern-ChartDataPoint. |
+
 ### getParent_Immediate() {#getParent-Immediate--}
 ```
 public final IDOMObject getParent_Immediate()
 ```
 
-Gibt das Parent_Immediate-Objekt zurück. Nur lesbar IDOMObject.
+Gibt das Parent_Immediate-Objekt zurück. Nur lesend IDOMObject.
 
 **Rückgabe:**
 com.aspose.slides.IDOMObject
@@ -76,7 +79,7 @@ com.aspose.slides.IDOMObject
 public final IChart getChart()
 ```
 
-Gibt das übergeordnete Diagramm zurück. Nur lesbar [IChart](../../com.aspose.slides/ichart).
+Gibt das übergeordnete Diagramm zurück. Nur lesend [IChart](../../com.aspose.slides/ichart).
 
 **Rückgabe:**
 [IChart](../../com.aspose.slides/ichart)
@@ -85,11 +88,11 @@ Gibt das übergeordnete Diagramm zurück. Nur lesbar [IChart](../../com.aspose.s
 public final boolean isVisible()
 ```
 
-False bedeutet, dass die Datenbeschriftung nicht sichtbar ist (und somit alle Show\*-Flags (ShowValue, ...) false sind). Nur lesbar boolean.
+False bedeutet, dass die Datenbeschriftung nicht sichtbar ist (und damit alle Show*-Flags (ShowValue, ...) false sind). Nur lesend boolean.
 
 --------------------
 
-Wenn die Datenbeschriftung sichtbar ist, können Sie sie mit der Hide()-Methode ausblenden. Wenn die Datenbeschriftung jedoch nicht sichtbar ist (IsVisible ist false), können Sie sie sichtbar machen, indem Sie die Show\*-Flags (ShowValue, ...) auf den wahren Zustand setzen.
+Wenn die Datenbeschriftung sichtbar ist, können Sie sie mit der Hide()-Methode ausblenden. Wenn die Datenbeschriftung nicht sichtbar ist (IsVisible ist false), können Sie sie sichtbar machen, indem Sie die Show*-Flags (ShowValue, ...) auf den true-Zustand setzen.
 
 **Rückgabe:**
 boolean
@@ -98,17 +101,18 @@ boolean
 public final void hide()
 ```
 
-Macht die Datenbeschriftung unsichtbar, indem alle Show\*-Flags (ShowValue, ...) auf den falschen Zustand gesetzt werden. IsVisible wird nach diesem Aufruf false sein.
+Macht die Datenbeschriftung unsichtbar, indem alle Show*-Flags (ShowValue, ...) auf false gesetzt werden. IsVisible wird danach false sein.
 
 --------------------
 
-Wenn die Datenbeschriftung nicht sichtbar ist (IsVisible ist false), können Sie sie sichtbar machen, indem Sie die Show\*-Flags (ShowValue, ...) auf den wahren Zustand setzen.
+Wenn die Datenbeschriftung nicht sichtbar ist (IsVisible ist false), können Sie sie sichtbar machen, indem Sie die Show*-Flags (ShowValue, ...) auf den true-Zustand setzen.
+
 ### getActualLabelText() {#getActualLabelText--}
 ```
 public final String getActualLabelText()
 ```
 
-Gibt den tatsächlichen Beschriftungstext basierend auf den DataLabelFormat-Einstellungen oder dem Textwert von TextFrameForOverriding.Text zurück.
+Gibt den tatsächlichen Beschriftungstext basierend auf den DataLabelFormat-Einstellungen oder dem Textwert von TextFrameForOverriding zurück.
 
 **Rückgabe:**
 java.lang.String - Das java.lang.String-Objekt.
@@ -117,7 +121,7 @@ java.lang.String - Das java.lang.String-Objekt.
 public final ITextFrame addTextFrameForOverriding(String text)
 ```
 
-Initialisiert TextFrameForOverriding mit dem Text im Parameter "text". Wenn TextFrameForOverriding bereits initialisiert ist, wird einfach sein Text geändert.
+Initialisiert TextFrameForOverriding mit dem Text im Parameter "text". Wenn TextFrameForOverriding bereits initialisiert ist, wird lediglich sein Text geändert.
 
 **Parameter:**
 | Parameter | Typ | Beschreibung |
@@ -131,7 +135,7 @@ Initialisiert TextFrameForOverriding mit dem Text im Parameter "text". Wenn Text
 public final ITextFrame getTextFrameForOverriding()
 ```
 
-Kann einen reich formatierten Text enthalten. Wenn diese Eigenschaft nicht null ist, überschreibt dieser formatierte Textwert den automatisch erzeugten Text der Datenbeschriftung. Der automatisch erzeugte Text der Datenbeschriftung ist der Text, der von den Eigenschaften ShowSeriesName, ShowValue, … verwaltet wird und mit der TextFormatManager.TextFormat-Eigenschaft formatiert ist. Nur lesbar [ITextFrame](../../com.aspose.slides/itextframe).
+Kann einen reich formatierten Text enthalten. Wenn diese Eigenschaft nicht null ist, überschreibt dieser formatierte Textwert den automatisch generierten Text der Datenbeschriftung. Der automatisch generierte Text der Datenbeschriftung bedeutet den Text, der von den Eigenschaften ShowSeriesName, ShowValue, ... verwaltet wird und mit der TextFormatManager.TextFormat-Eigenschaft formatiert ist. Nur lesend [ITextFrame](../../com.aspose.slides/itextframe).
 
 **Rückgabe:**
 [ITextFrame](../../com.aspose.slides/itextframe)
@@ -140,7 +144,7 @@ Kann einen reich formatierten Text enthalten. Wenn diese Eigenschaft nicht null 
 public final IChartTextFormat getTextFormat()
 ```
 
-Gibt das Textformat zurück. Nur lesbar [IChartTextFormat](../../com.aspose.slides/icharttextformat).
+Gibt das Textformat zurück. Nur lesend [IChartTextFormat](../../com.aspose.slides/icharttextformat).
 
 **Rückgabe:**
 [IChartTextFormat](../../com.aspose.slides/icharttextformat)
@@ -149,7 +153,7 @@ Gibt das Textformat zurück. Nur lesbar [IChartTextFormat](../../com.aspose.slid
 public final float getX()
 ```
 
-Gibt die x-Koordinate eines Titels zurück oder setzt sie als Bruchteil der Breite des Diagramms. Lesen/Schreiben float.
+Gibt die X-Koordinate eines Titels als Bruchteil der Diagrammbreite zurück oder setzt sie. Lesen/Schreiben float.
 
 **Rückgabe:**
 float
@@ -158,7 +162,7 @@ float
 public final void setX(float value)
 ```
 
-Gibt die x-Koordinate eines Titels zurück oder setzt sie als Bruchteil der Breite des Diagramms. Lesen/Schreiben float.
+Gibt die X-Koordinate eines Titels als Bruchteil der Diagrammbreite zurück oder setzt sie. Lesen/Schreiben float.
 
 **Parameter:**
 | Parameter | Typ | Beschreibung |
@@ -169,7 +173,7 @@ Gibt die x-Koordinate eines Titels zurück oder setzt sie als Bruchteil der Brei
 public final float getY()
 ```
 
-Gibt die y-Koordinate eines Titels zurück oder setzt sie als Bruchteil der Höhe des Diagramms. Lesen/Schreiben float.
+Gibt die Y-Koordinate eines Titels als Bruchteil der Diagrammhöhe zurück oder setzt sie. Lesen/Schreiben float.
 
 **Rückgabe:**
 float
@@ -178,7 +182,7 @@ float
 public final void setY(float value)
 ```
 
-Gibt die y-Koordinate eines Titels zurück oder setzt sie als Bruchteil der Höhe des Diagramms. Lesen/Schreiben float.
+Gibt die Y-Koordinate eines Titels als Bruchteil der Diagrammhöhe zurück oder setzt sie. Lesen/Schreiben float.
 
 **Parameter:**
 | Parameter | Typ | Beschreibung |
@@ -189,7 +193,7 @@ Gibt die y-Koordinate eines Titels zurück oder setzt sie als Bruchteil der Höh
 public final float getWidth()
 ```
 
-Gibt die Breite eines Titels zurück oder setzt sie als Bruchteil der Breite des Diagramms. Lesen/Schreiben float.
+Gibt die Breite eines Titels als Bruchteil der Diagrammbreite zurück oder setzt sie. Lesen/Schreiben float.
 
 **Rückgabe:**
 float
@@ -198,7 +202,7 @@ float
 public final void setWidth(float value)
 ```
 
-Gibt die Breite eines Titels zurück oder setzt sie als Bruchteil der Breite des Diagramms. Lesen/Schreiben float.
+Gibt die Breite eines Titels als Bruchteil der Diagrammbreite zurück oder setzt sie. Lesen/Schreiben float.
 
 **Parameter:**
 | Parameter | Typ | Beschreibung |
@@ -209,7 +213,7 @@ Gibt die Breite eines Titels zurück oder setzt sie als Bruchteil der Breite des
 public final float getHeight()
 ```
 
-Gibt die Höhe eines Titels zurück oder setzt sie als Bruchteil der Höhe des Diagramms. Lesen/Schreiben float.
+Gibt die Höhe eines Titels als Bruchteil der Diagrammhöhe zurück oder setzt sie. Lesen/Schreiben float.
 
 **Rückgabe:**
 float
@@ -218,7 +222,7 @@ float
 public final void setHeight(float value)
 ```
 
-Gibt die Höhe eines Titels zurück oder setzt sie als Bruchteil der Höhe des Diagramms. Lesen/Schreiben float.
+Gibt die Höhe eines Titels als Bruchteil der Diagrammhöhe zurück oder setzt sie. Lesen/Schreiben float.
 
 **Parameter:**
 | Parameter | Typ | Beschreibung |
@@ -229,7 +233,7 @@ Gibt die Höhe eines Titels zurück oder setzt sie als Bruchteil der Höhe des D
 public final float getRight()
 ```
 
-Rechts. Nur lesbar float.
+Rechts. Nur lesend float.
 
 **Rückgabe:**
 float
@@ -238,7 +242,7 @@ float
 public final float getBottom()
 ```
 
-Unten. Nur lesbar float.
+Unten. Nur lesend float.
 
 **Rückgabe:**
 float
@@ -247,7 +251,7 @@ float
 public final IDataLabelFormat getDataLabelFormat()
 ```
 
-Gibt das Datenbeschriftungsformat zurück. Nur lesbar [IDataLabelFormat](../../com.aspose.slides/idatalabelformat).
+Gibt das Datenbeschriftungsformat zurück. Nur lesend [IDataLabelFormat](../../com.aspose.slides/idatalabelformat).
 
 **Rückgabe:**
 [IDataLabelFormat](../../com.aspose.slides/idatalabelformat)
@@ -256,7 +260,7 @@ Gibt das Datenbeschriftungsformat zurück. Nur lesbar [IDataLabelFormat](../../c
 public final IChartDataCell getValueFromCell()
 ```
 
-Ruft die Arbeitsblatt-Datenzelle ab oder legt sie fest. Wird angewendet, wenn die Eigenschaft IDataLabelFormat.ShowLabelValueFromCell true ist.
+Liest oder setzt die Arbeitsmappendatenzelle. Wird angewendet, wenn die Eigenschaft IDataLabelFormat.ShowLabelValueFromCell den Wert true hat.
 
 **Rückgabe:**
 [IChartDataCell](../../com.aspose.slides/ichartdatacell)
@@ -265,18 +269,68 @@ Ruft die Arbeitsblatt-Datenzelle ab oder legt sie fest. Wird angewendet, wenn di
 public final void setValueFromCell(IChartDataCell value)
 ```
 
-Ruft die Arbeitsblatt-Datenzelle ab oder legt sie fest. Wird angewendet, wenn die Eigenschaft IDataLabelFormat.ShowLabelValueFromCell true ist.
+Liest oder setzt die Arbeitsmappendatenzelle. Wird angewendet, wenn die Eigenschaft IDataLabelFormat.ShowLabelValueFromCell den Wert true hat.
 
 **Parameter:**
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | value | [IChartDataCell](../../com.aspose.slides/ichartdatacell) |  |
+### getLabelShapeType() {#getLabelShapeType--}
+```
+public final int getLabelShapeType()
+```
+
+Liest oder setzt den Formtyp der Datenbeschriftung. Gibt [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) zurück, wenn keine Form definiert ist.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Setzen Sie den Formtyp der ersten Datenbeschriftung auf Ellipse.
+>      firstSeries.getLabels().get_Item(0).setLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabel.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Rückgabe:**
+int
+### setLabelShapeType(int value) {#setLabelShapeType-int-}
+```
+public final void setLabelShapeType(int value)
+```
+
+Liest oder setzt den Formtyp der Datenbeschriftung. Gibt [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) zurück, wenn keine Form definiert ist.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Setzen Sie den Formtyp der ersten Datenbeschriftung auf Ellipse.
+>      firstSeries.getLabels().get_Item(0).setLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabel.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameter:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| value | int |  |
 ### getActualX() {#getActualX--}
 ```
 public final float getActualX()
 ```
 
-Gibt den tatsächlichen x-Standort (links) des Diagrammelements relativ zur linken oberen Ecke des Diagramms an. Rufen Sie vorab die Methode IChart.ValidateChartLayout() auf, um die tatsächlichen Werte zu erhalten. Lesen float.
+Gibt die tatsächliche X-Position (links) des Diagrammelements relativ zur linken oberen Ecke des Diagramms an. Rufen Sie vorher die Methode IChart.ValidateChartLayout() auf, um die tatsächlichen Werte zu erhalten. Lesen float.
 
 **Rückgabe:**
 float
@@ -285,7 +339,7 @@ float
 public final float getActualY()
 ```
 
-Gibt den tatsächlichen oberen Standort des Diagrammelements relativ zur linken oberen Ecke des Diagramms an. Rufen Sie vorab die Methode IChart.ValidateChartLayout() auf, um die tatsächlichen Werte zu erhalten. Lesen float.
+Gibt den tatsächlichen oberen Rand des Diagrammelements relativ zur linken oberen Ecke des Diagramms an. Rufen Sie vorher die Methode IChart.ValidateChartLayout() auf, um die tatsächlichen Werte zu erhalten. Lesen float.
 
 **Rückgabe:**
 float
@@ -294,7 +348,7 @@ float
 public final float getActualWidth()
 ```
 
-Gibt die tatsächliche Breite des Diagrammelements an. Rufen Sie vorab die Methode IChart.ValidateChartLayout() auf, um die tatsächlichen Werte zu erhalten. Lesen float.
+Gibt die tatsächliche Breite des Diagrammelements an. Rufen Sie vorher die Methode IChart.ValidateChartLayout() auf, um die tatsächlichen Werte zu erhalten. Lesen float.
 
 **Rückgabe:**
 float
@@ -303,7 +357,7 @@ float
 public final float getActualHeight()
 ```
 
-Gibt die tatsächliche Höhe des Diagrammelements an. Rufen Sie vorab die Methode IChart.ValidateChartLayout() auf, um die tatsächlichen Werte zu erhalten. Lesen float.
+Gibt die tatsächliche Höhe des Diagrammelements an. Rufen Sie vorher die Methode IChart.ValidateChartLayout() auf, um die tatsächlichen Werte zu erhalten. Lesen float.
 
 **Rückgabe:**
 float
@@ -312,7 +366,7 @@ float
 public final IBaseSlide getSlide()
 ```
 
-Gibt die übergeordnete Folie eines FillFormat zurück. Nur lesbar [BaseSlide](../../com.aspose.slides/baseslide).
+Gibt die übergeordnete Folie eines FillFormat zurück. Nur lesend [BaseSlide](../../com.aspose.slides/baseslide).
 
 **Rückgabe:**
 [IBaseSlide](../../com.aspose.slides/ibaseslide)
@@ -321,7 +375,7 @@ Gibt die übergeordnete Folie eines FillFormat zurück. Nur lesbar [BaseSlide](.
 public final IPresentation getPresentation()
 ```
 
-Gibt die übergeordnete Präsentation eines FillFormat zurück. Nur lesbar [IPresentation](../../com.aspose.slides/ipresentation).
+Gibt die übergeordnete Präsentation eines FillFormat zurück. Nur lesend [IPresentation](../../com.aspose.slides/ipresentation).
 
 **Rückgabe:**
 [IPresentation](../../com.aspose.slides/ipresentation)

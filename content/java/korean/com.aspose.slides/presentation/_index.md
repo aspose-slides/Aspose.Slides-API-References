@@ -5,10 +5,10 @@ description: Microsoft PowerPoint 프레젠테이션을 나타냅니다.
 type: docs
 url: /ko/com.aspose.slides/presentation/
 ---
-**상속:**
+**Inheritance:**
 java.lang.Object
 
-**구현된 모든 인터페이스:**
+**All Implemented Interfaces:**
 [com.aspose.slides.IPresentation](../../com.aspose.slides/ipresentation), com.aspose.slides.IDOMObject
 ```
 public final class Presentation implements IPresentation, IDOMObject
@@ -36,7 +36,7 @@ Microsoft PowerPoint 프레젠테이션을 나타냅니다.
 >   
 >   The following example shows how to open and save Presentation.
 >   
->  // 프레젠테이션에서 지원되는 파일을 로드합니다(예: ppt, pptx, odp 등).
+>  // ppt, pptx, odp 등과 같이 지원되는 파일을 Presentation에 로드합니다
 >  Presentation pres = new Presentation("Sample.odp");
 >  try {
 >      // 프레젠테이션 파일을 저장합니다.
@@ -50,8 +50,8 @@ Microsoft PowerPoint 프레젠테이션을 나타냅니다.
 
 | 생성자 | 설명 |
 | --- | --- |
-| [Presentation()](#Presentation--) | 이 생성자는 새로운 프레젠테이션을 처음부터 생성합니다. |
-| [Presentation(LoadOptions loadOptions)](#Presentation-com.aspose.slides.LoadOptions-) | 이 생성자는 새로운 프레젠테이션을 처음부터 생성합니다. |
+| [Presentation()](#Presentation--) | 이 생성자는 새 프레젠테이션을 처음부터 만듭니다. |
+| [Presentation(LoadOptions loadOptions)](#Presentation-com.aspose.slides.LoadOptions-) | 이 생성자는 새 프레젠테이션을 처음부터 만듭니다. |
 | [Presentation(InputStream stream)](#Presentation-java.io.InputStream-) | 이 생성자는 기존 프레젠테이션을 읽는 기본 메커니즘입니다. |
 | [Presentation(InputStream stream, LoadOptions loadOptions)](#Presentation-java.io.InputStream-com.aspose.slides.LoadOptions-) | 이 생성자는 기존 프레젠테이션을 읽는 기본 메커니즘입니다. |
 | [Presentation(String file)](#Presentation-java.lang.String-) | 이 생성자는 프레젠테이션 내용이 읽혀지는 소스 파일 경로를 가져옵니다. |
@@ -60,76 +60,78 @@ Microsoft PowerPoint 프레젠테이션을 나타냅니다.
 
 | 메서드 | 설명 |
 | --- | --- |
-| [getCurrentDateTime()](#getCurrentDateTime--) | 날짜 및 시간을 반환하거나 설정합니다. 이 값은 datetime 필드의 내용을 대체합니다. |
-| [setCurrentDateTime(Date value)](#setCurrentDateTime-java.util.Date-) | 날짜 및 시간을 반환하거나 설정합니다. 이 값은 datetime 필드의 내용을 대체합니다. |
+| [getCurrentDateTime()](#getCurrentDateTime--) | datetime 필드의 내용을 대체할 날짜와 시간을 반환하거나 설정합니다. |
+| [setCurrentDateTime(Date value)](#setCurrentDateTime-java.util.Date-) | datetime 필드의 내용을 대체할 날짜와 시간을 반환하거나 설정합니다. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
 | [getHeaderFooterManager()](#getHeaderFooterManager--) | 실제 HeaderFooter 관리자를 반환합니다. |
 | [getProtectionManager()](#getProtectionManager--) | 이 프레젠테이션에 대한 권한 관리자를 가져옵니다. |
-| [getSlides()](#getSlides--) | 프레젠테이션에 정의된 모든 슬라이드 목록을 반환합니다. |
-| [getSections()](#getSections--) | 프레젠테이션에 정의된 모든 슬라이드 섹션 목록을 반환합니다. |
+| [getSlides()](#getSlides--) | 프레젠테이션에 정의된 모든 슬라이드의 목록을 반환합니다. |
+| [getSections()](#getSections--) | 프레젠테이션에 정의된 모든 슬라이드 섹션의 목록을 반환합니다. |
 | [getSlideSize()](#getSlideSize--) | 슬라이드 크기 객체를 반환합니다. |
 | [getNotesSize()](#getNotesSize--) | 노트 슬라이드 크기 객체를 반환합니다. |
-| [getLayoutSlides()](#getLayoutSlides--) | 프레젠테이션에 정의된 모든 레이아웃 슬라이드 목록을 반환합니다. |
-| [getMasters()](#getMasters--) | 프레젠테이션에 정의된 모든 마스터 슬라이드 목록을 반환합니다. |
+| [getLayoutSlides()](#getLayoutSlides--) | 프레젠테이션에 정의된 모든 레이아웃 슬라이드의 목록을 반환합니다. |
+| [getMasters()](#getMasters--) | 프레젠테이션에 정의된 모든 마스터 슬라이드의 목록을 반환합니다. |
 | [getMasterNotesSlideManager()](#getMasterNotesSlideManager--) | 노트 마스터 관리자를 반환합니다. |
 | [getMasterHandoutSlideManager()](#getMasterHandoutSlideManager--) | 핸드아웃 마스터 관리자를 반환합니다. |
 | [getFontsManager()](#getFontsManager--) | 글꼴 관리자를 반환합니다. |
-| [getDefaultTextStyle()](#getDefaultTextStyle--) | 셰이프에 대한 기본 텍스트 스타일을 반환합니다. |
+| [getDefaultTextStyle()](#getDefaultTextStyle--) | 도형의 기본 텍스트 스타일을 반환합니다. |
 | [getCommentAuthors()](#getCommentAuthors--) | 댓글 작성자 컬렉션을 반환합니다. |
 | [getDocumentProperties()](#getDocumentProperties--) | 표준 및 사용자 정의 문서 속성을 포함하는 DocumentProperties 객체를 반환합니다. |
-| [getImages()](#getImages--) | 프레젠테이션에 있는 모든 이미지 컬렉션을 반환합니다. |
-| [getAudios()](#getAudios--) | 프레젠테이션에 포함된 모든 오디오 파일 컬렉션을 반환합니다. |
-| [getVideos()](#getVideos--) | 프레젠테이션에 포함된 모든 비디오 파일 컬렉션을 반환합니다. |
-| [getSlideShowSettings()](#getSlideShowSettings--) | 프레젠테이션의 슬라이드쇼 설정을 반환합니다. |
+| [getImages()](#getImages--) | 프레젠테이션에 포함된 모든 이미지 컬렉션을 반환합니다. |
+| [getAudios()](#getAudios--) | 프레젠테이션에 포함된 모든 임베드된 오디오 파일 컬렉션을 반환합니다. |
+| [getVideos()](#getVideos--) | 프레젠테이션에 포함된 모든 임베드된 비디오 파일 컬렉션을 반환합니다. |
+| [getSlideShowSettings()](#getSlideShowSettings--) | 프레젠테이션의 슬라이드 쇼 설정을 반환합니다. |
 | [getDigitalSignatures()](#getDigitalSignatures--) | 프레젠테이션 서명에 사용된 서명 컬렉션을 반환합니다. |
 | [getCustomData()](#getCustomData--) | 프레젠테이션의 사용자 정의 데이터를 반환합니다. |
-| [getAllCustomXmlParts()](#getAllCustomXmlParts--) | 프레젠테이션에 있는 모든 사용자 정의 데이터 파트를 반환합니다. |
+| [getAllCustomXmlParts()](#getAllCustomXmlParts--) | 프레젠테이션의 모든 사용자 정의 데이터 파트를 반환합니다. |
 | [getVbaProject()](#getVbaProject--) | 프레젠테이션 매크로가 포함된 VBA 프로젝트를 가져오거나 설정합니다. |
 | [setVbaProject(IVbaProject value)](#setVbaProject-com.aspose.slides.IVbaProject-) | 프레젠테이션 매크로가 포함된 VBA 프로젝트를 가져오거나 설정합니다. |
-| [getHyperlinkQueries()](#getHyperlinkQueries--) | 모든 프레젠테이션 슬라이드(마스터, 레이아웃, 노트 슬라이드 제외)에 포함된 모든 하이퍼링크에 손쉽게 접근할 수 있습니다. |
+| [getHyperlinkQueries()](#getHyperlinkQueries--) | 모든 프레젠테이션 슬라이드(마스터, 레이아웃, 노트 슬라이드 제외)에 포함된 모든 하이퍼링크에 대한 쉬운 접근성을 제공합니다. |
 | [getViewProperties()](#getViewProperties--) | 프레젠테이션 전체 보기 속성을 가져옵니다. |
-| [getFirstSlideNumber()](#getFirstSlideNumber--) | 프레젠테이션의 첫 슬라이드 번호를 나타냅니다. |
-| [setFirstSlideNumber(int value)](#setFirstSlideNumber-int-) | 프레젠테이션의 첫 슬라이드 번호를 나타냅니다. |
+| [getFirstSlideNumber()](#getFirstSlideNumber--) | 프레젠테이션에서 첫 번째 슬라이드 번호를 나타냅니다. |
+| [setFirstSlideNumber(int value)](#setFirstSlideNumber-int-) | 프레젠테이션에서 첫 번째 슬라이드 번호를 나타냅니다. |
 | [getSensitivityLabels()](#getSensitivityLabels--) | 프레젠테이션 문서에 적용된 민감도 레이블 컬렉션을 반환합니다. |
-| [getSlideById(long id)](#getSlideById-long-) | Id 로 Slide, MasterSlide 또는 LayoutSlide를 반환합니다. |
+| [getSlideById(long id)](#getSlideById-long-) | ID로 Slide, MasterSlide 또는 LayoutSlide를 반환합니다. |
 | [getSourceFormat()](#getSourceFormat--) | 프레젠테이션이 로드된 형식에 대한 정보를 반환합니다. |
 | [getMasterTheme()](#getMasterTheme--) | 마스터 테마를 반환합니다. |
-| [save(String fname, int format)](#save-java.lang.String-int-) | 프레젠테이션의 모든 슬라이드를 지정된 형식의 파일에 저장합니다. |
-| [save(OutputStream stream, int format)](#save-java.io.OutputStream-int-) | 프레젠테이션의 모든 슬라이드를 지정된 형식의 스트림에 저장합니다. |
-| [save(String fname, int format, ISaveOptions options)](#save-java.lang.String-int-com.aspose.slides.ISaveOptions-) | 프레젠테이션의 모든 슬라이드를 지정된 형식 및 추가 옵션으로 파일에 저장합니다. |
-| [save(OutputStream stream, int format, ISaveOptions options)](#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-) | 프레젠테이션의 모든 슬라이드를 지정된 형식 및 추가 옵션으로 스트림에 저장합니다. |
-| [save(IXamlOptions options)](#save-com.aspose.slides.IXamlOptions-) | 프레젠테이션의 모든 슬라이드를 XAML 마크업을 나타내는 파일 세트에 저장합니다. |
+| [save(String fname, int format)](#save-java.lang.String-int-) | 프레젠테이션의 모든 슬라이드를 지정된 형식으로 파일에 저장합니다. |
+| [save(OutputStream stream, int format)](#save-java.io.OutputStream-int-) | 프레젠테이션의 모든 슬라이드를 지정된 형식으로 스트림에 저장합니다. |
+| [save(String fname, int format, ISaveOptions options)](#save-java.lang.String-int-com.aspose.slides.ISaveOptions-) | 프레젠테이션의 모든 슬라이드를 지정된 형식으로 파일에 저장하고 추가 옵션을 사용합니다. |
+| [save(OutputStream stream, int format, ISaveOptions options)](#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-) | 프레젠테이션의 모든 슬라이드를 지정된 형식으로 스트림에 저장하고 추가 옵션을 사용합니다. |
+| [save(IXamlOptions options)](#save-com.aspose.slides.IXamlOptions-) | 프레젠테이션의 모든 슬라이드를 XAML 마크업을 나타내는 파일 집합으로 저장합니다. |
 | [getImages(IRenderingOptions options)](#getImages-com.aspose.slides.IRenderingOptions-) | 프레젠테이션의 모든 슬라이드에 대한 Image 객체를 반환합니다. |
-| [getImages(IRenderingOptions options, int[] slides)](#getImages-com.aspose.slides.IRenderingOptions-int---) | Returns a Thumbnail Image objects for specified slides of a presentation. |
-| [getImages(IRenderingOptions options, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-float-float-) | 사용자 지정 스케일링으로 프레젠테이션의 모든 슬라이드에 대한 썸네일 Image 객체를 반환합니다. |
-| [getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-int---float-float-) | Returns a Thumbnail Image objects for specified slides of a presentation with custom scaling. |
+| [getImages(IRenderingOptions options, int[] slides)](#getImages-com.aspose.slides.IRenderingOptions-int---) | 프레젠테이션의 지정된 슬라이드에 대한 썸네일 Image 객체를 반환합니다. |
+| [getImages(IRenderingOptions options, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-float-float-) | 맞춤 스케일링을 사용하여 프레젠테이션의 모든 슬라이드에 대한 썸네일 Image 객체를 반환합니다. |
+| [getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-int---float-float-) | 지정된 슬라이드에 대한 썸네일 Image 객체를 맞춤 스케일링으로 반환합니다. |
 | [getImages(IRenderingOptions options, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-) | 지정된 크기로 프레젠테이션의 모든 슬라이드에 대한 썸네일 Image 객체를 반환합니다. |
-| [getImages(IRenderingOptions options, int[] slides, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-) | Returns a Thumbnail Image objects for specified slides of a presentation with specified size. |
-| [save(String fname, int[] slides, int format)](#save-java.lang.String-int---int-) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
-| [save(String fname, int[] slides, int format, ISaveOptions options)](#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
-| [save(OutputStream stream, int[] slides, int format)](#save-java.io.OutputStream-int---int-) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
-| [save(OutputStream stream, int[] slides, int format, ISaveOptions options)](#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | 모든 슬라이드의 모든 허용 가능한 셰이프에 있는 모든 단락에서 동일한 서식의 런을 결합합니다. |
-| [dispose()](#dispose--) | 이 Presentation 객체가 사용하는 모든 리소스를 해제합니다. |
-| [getPresentation()](#getPresentation--) | 텍스트의 부모 프레젠테이션을 반환합니다. |
+| [getImages(IRenderingOptions options, int[] slides, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-) | 지정된 크기로 프레젠테이션의 지정된 슬라이드에 대한 썸네일 Image 객체를 반환합니다. |
+| [save(String fname, int[] slides, int format)](#save-java.lang.String-int---int-) | 페이지 번호를 유지하면서 지정된 형식으로 프레젠테이션의 지정된 슬라이드를 파일에 저장합니다. |
+| [save(String fname, int[] slides, int format, ISaveOptions options)](#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-) | 페이지 번호를 유지하면서 지정된 형식으로 프레젠테이션의 지정된 슬라이드를 파일에 저장합니다. |
+| [save(OutputStream stream, int[] slides, int format)](#save-java.io.OutputStream-int---int-) | 페이지 번호를 유지하면서 지정된 형식으로 프레젠테이션의 지정된 슬라이드를 스트림에 저장합니다. |
+| [save(OutputStream stream, int[] slides, int format, ISaveOptions options)](#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-) | 페이지 번호를 유지하면서 지정된 형식으로 프레젠테이션의 지정된 슬라이드를 스트림에 저장합니다. |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | 모든 슬라이드의 모든 허용 도형에 있는 모든 단락에서 동일한 서식의 런을 병합합니다. |
+| [dispose()](#dispose--) | 이 Presentation 객체가 사용한 모든 리소스를 해제합니다. |
+| [getPresentation()](#getPresentation--) | 텍스트의 상위 프레젠테이션을 반환합니다. |
 | [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | 지정된 색상으로 샘플 텍스트의 모든 일치를 강조 표시합니다. |
 | [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | 지정된 색상으로 샘플 텍스트의 모든 일치를 강조 표시합니다. |
-| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | 지정된 색상으로 정규 표현식의 모든 일치를 강조 표시합니다. |
-| [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | 지정된 텍스트를 다른 지정된 텍스트로 모두 교체합니다. |
-| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | 정규 표현식의 모든 일치를 지정된 문자열로 교체합니다. |
+| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | 지정된 색상으로 정규식의 모든 일치를 강조 표시합니다. |
+| [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | 지정된 텍스트의 모든 발생을 다른 지정 텍스트로 교체합니다. |
+| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | 정규식의 모든 일치를 지정된 문자열로 교체합니다. |
+| [refreshChartsData()](#refreshChartsData--) | 프레젠테이션에 포함된 모든 차트의 데이터를 원본 워크북에서 다시 로드합니다. |
+| [refreshChartsData(boolean skipFailedCharts)](#refreshChartsData-boolean-) | 프레젠테이션에 포함된 모든 차트의 데이터를 원본 워크북에서 다시 로드합니다. |
 ### Presentation() {#Presentation--}
 ```
 public Presentation()
 ```
 
-이 생성자는 새로운 프레젠테이션을 처음부터 생성합니다. 생성된 프레젠테이션에는 빈 슬라이드가 하나 포함됩니다.
+이 생성자는 새 프레젠테이션을 처음부터 만듭니다. 생성된 프레젠테이션은 빈 슬라이드 하나를 포함합니다.
 
 ### Presentation(LoadOptions loadOptions) {#Presentation-com.aspose.slides.LoadOptions-}
 ```
 public Presentation(LoadOptions loadOptions)
 ```
 
-이 생성자는 새로운 프레젠테이션을 처음부터 생성합니다. 생성된 프레젠테이션에는 빈 슬라이드가 하나 포함됩니다.
+이 생성자는 새 프레젠테이션을 처음부터 만듭니다. 생성된 프레젠테이션은 빈 슬라이드 하나를 포함합니다.
 
 **매개변수:**
 | 매개변수 | 형식 | 설명 |
@@ -183,7 +185,6 @@ public Presentation(String file)
 > Presentation pres = new Presentation("demo.pptx");
 > ```
 
-
 **매개변수:**
 | 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
@@ -207,7 +208,7 @@ public Presentation(String file, LoadOptions loadOptions)
 public final Date getCurrentDateTime()
 ```
 
-날짜 및 시간을 반환하거나 설정합니다. 이 값은 datetime 필드의 내용을 대체합니다. 기본값은 이 Presentation 객체가 생성된 시점입니다. 읽기/쓰기 java.util.Date.
+datetime 필드의 내용을 대체할 날짜와 시간을 반환하거나 설정합니다. 기본값은 이 Presentation 객체가 생성된 시각입니다. 읽기/쓰기 java.util.Date.
 
 **반환값:**
 java.util.Date
@@ -216,7 +217,7 @@ java.util.Date
 public final void setCurrentDateTime(Date value)
 ```
 
-날짜 및 시간을 반환하거나 설정합니다. 이 값은 datetime 필드의 내용을 대체합니다. 기본값은 이 Presentation 객체가 생성된 시점입니다. 읽기/쓰기 java.util.Date.
+datetime 필드의 내용을 대체할 날짜와 시간을 반환하거나 설정합니다. 기본값은 이 Presentation 객체가 생성된 시각입니다. 읽기/쓰기 java.util.Date.
 
 **매개변수:**
 | 매개변수 | 형식 | 설명 |
@@ -248,20 +249,20 @@ public final IPresentationHeaderFooterManager getHeaderFooterManager()
 >  try
 >  {
 >      IBaseSlideHeaderFooterManager headerFooterManager = pres.getSlides().get_Item(0).getHeaderFooterManager();
->      if (!headerFooterManager.isFooterVisible()) // Property IsFooterVisible는 슬라이드 푸터 자리표시자가 없음을 나타내는 데 사용됩니다.
+>      if (!headerFooterManager.isFooterVisible()) // IsFooterVisible 속성은 슬라이드 푸터 플레이스홀더가 없음을 나타내는 데 사용됩니다.
 >      {
->          headerFooterManager.setFooterVisibility(true); // Method SetFooterVisibility는 슬라이드 푸터 자리표시자를 표시하도록 만드는 데 사용됩니다.
+>          headerFooterManager.setFooterVisibility(true); // SetFooterVisibility 메서드는 슬라이드 푸터 플레이스홀더를 보이게 하는 데 사용됩니다.
 >      }
->      if (!headerFooterManager.isSlideNumberVisible()) // Property IsSlideNumberVisible는 슬라이드 페이지 번호 자리표시자가 없음을 나타내는 데 사용됩니다.
+>      if (!headerFooterManager.isSlideNumberVisible()) // IsSlideNumberVisible 속성은 슬라이드 페이지 번호 플레이스홀더가 없음을 나타내는 데 사용됩니다.
 >      {
->          headerFooterManager.setSlideNumberVisibility(true); // Method SetSlideNumberVisibility는 슬라이드 페이지 번호 자리표시자를 표시하도록 만드는 데 사용됩니다.
+>          headerFooterManager.setSlideNumberVisibility(true); // SetSlideNumberVisibility 메서드는 슬라이드 페이지 번호 플레이스홀더를 보이게 하는 데 사용됩니다.
 >      }
->      if (!headerFooterManager.isDateTimeVisible()) // Property IsDateTimeVisible는 슬라이드 날짜-시간 자리표시자가 없음을 나타내는 데 사용됩니다.
+>      if (!headerFooterManager.isDateTimeVisible()) // IsDateTimeVisible 속성은 슬라이드 날짜-시간 플레이스홀더가 없음을 나타내는 데 사용됩니다.
 >      {
->          headerFooterManager.setDateTimeVisibility(true); // Method SetFooterVisibility는 슬라이드 날짜-시간 자리표시자를 표시하도록 만드는 데 사용됩니다.
+>          headerFooterManager.setDateTimeVisibility(true); // SetFooterVisibility 메서드는 슬라이드 날짜-시간 플레이스홀더를 보이게 하는 데 사용됩니다.
 >      }
->      headerFooterManager.setFooterText("Footer text"); // Method SetFooterText는 슬라이드 푸터 자리표시자에 텍스트를 설정하는 데 사용됩니다.
->      headerFooterManager.setDateTimeText("Date and time text"); // Method SetDateTimeText는 슬라이드 날짜-시간 자리표시자에 텍스트를 설정하는 데 사용됩니다.
+>      headerFooterManager.setFooterText("Footer text"); // SetFooterText 메서드는 슬라이드 푸터 플레이스홀더에 텍스트를 설정하는 데 사용됩니다.
+>      headerFooterManager.setDateTimeText("Date and time text"); // SetDateTimeText 메서드는 슬라이드 날짜-시간 플레이스홀더에 텍스트를 설정하는 데 사용됩니다.
 >      pres.save("Presentation.ppt", SaveFormat.Ppt);
 >  }
 >  finally
@@ -275,12 +276,12 @@ public final IPresentationHeaderFooterManager getHeaderFooterManager()
 >  try
 >  {
 >      IMasterSlideHeaderFooterManager headerFooterManager = pres.getMasters().get_Item(0).getHeaderFooterManager();
->      headerFooterManager.setFooterAndChildFootersVisibility(true); // Method SetFooterAndChildFootersVisibility는 마스터 슬라이드와 모든 자식 푸터 자리표시자를 표시하도록 만드는 데 사용됩니다.
->      headerFooterManager.setSlideNumberAndChildSlideNumbersVisibility(true); // Method SetSlideNumberAndChildSlideNumbersVisibility는 마스터 슬라이드와 모든 자식 페이지 번호 자리표시자를 표시하도록 만드는 데 사용됩니다.
->      headerFooterManager.setDateTimeAndChildDateTimesVisibility(true); // Method SetDateTimeAndChildDateTimesVisibility는 마스터 슬라이드와 모든 자식 날짜-시간 자리표시자를 표시하도록 만드는 데 사용됩니다.
+>      headerFooterManager.setFooterAndChildFootersVisibility(true); // SetFooterAndChildFootersVisibility 메서드는 마스터 슬라이드와 모든 자식 푸터 플레이스홀더를 보이게 하는 데 사용됩니다.
+>      headerFooterManager.setSlideNumberAndChildSlideNumbersVisibility(true); // SetSlideNumberAndChildSlideNumbersVisibility 메서드는 마스터 슬라이드와 모든 자식 페이지 번호 플레이스홀더를 보이게 하는 데 사용됩니다.
+>      headerFooterManager.setDateTimeAndChildDateTimesVisibility(true); // SetDateTimeAndChildDateTimesVisibility 메서드는 마스터 슬라이드와 모든 자식 날짜-시간 플레이스홀더를 보이게 하는 데 사용됩니다.
 > 
->      headerFooterManager.setFooterAndChildFootersText("Footer text"); // Method SetFooterAndChildFootersText는 마스터 슬라이드와 모든 자식 푸터 자리표시자에 텍스트를 설정하는 데 사용됩니다.
->      headerFooterManager.setDateTimeAndChildDateTimesText("Date and time text"); // Method SetDateTimeAndChildDateTimesText는 마스터 슬라이드와 모든 자식 날짜-시간 자리표시자에 텍스트를 설정하는 데 사용됩니다.
+>      headerFooterManager.setFooterAndChildFootersText("Footer text"); // SetFooterAndChildFootersText 메서드는 마스터 슬라이드와 모든 자식 푸터 플레이스홀더에 텍스트를 설정하는 데 사용됩니다.
+>      headerFooterManager.setDateTimeAndChildDateTimesText("Date and time text"); // SetDateTimeAndChildDateTimesText 메서드는 마스터 슬라이드와 모든 자식 날짜-시간 플레이스홀더에 텍스트를 설정하는 데 사용됩니다.
 >  }
 >  finally
 >  {
@@ -305,7 +306,7 @@ public final IProtectionManager getProtectionManager()
 public final ISlideCollection getSlides()
 ```
 
-프레젠테이션에 정의된 모든 슬라이드 목록을 반환합니다. 읽기 전용 [ISlideCollection](../../com.aspose.slides/islidecollection).
+프레젠테이션에 정의된 모든 슬라이드의 목록을 반환합니다. 읽기 전용 [ISlideCollection](../../com.aspose.slides/islidecollection).
 
 --------------------
 
@@ -316,7 +317,7 @@ public final ISlideCollection getSlides()
 >  Presentation pres = new Presentation();
 >  try
 >  {
->      // 첫 번째 ISlide의 배경색을 파란색으로 설정합니다
+>      // 첫 번째 ISlide의 배경 색상을 파란색으로 설정합니다
 >      pres.getSlides().get_Item(0).getBackground().setType(BackgroundType.OwnBackground);
 >      pres.getSlides().get_Item(0).getBackground().getFillFormat().setFillType(FillType.Solid);
 >      pres.getSlides().get_Item(0).getBackground().getFillFormat().getSolidFillColor().setColor(Color.BLUE);
@@ -355,9 +356,9 @@ public final ISlideCollection getSlides()
 >  Presentation pres = new Presentation("AccessSlides.pptx");
 >  try
 >  {
->      // 슬라이드 1에 원형 전환을 적용합니다
+>      // 슬라이드 1에 원형 전환 효과를 적용합니다
 >      pres.getSlides().get_Item(0).getSlideShowTransition().setType(TransitionType.Circle);
->      // 슬라이드 2에 콤 전환을 적용합니다
+>      // 슬라이드 2에 콤 전환 효과를 적용합니다
 >      pres.getSlides().get_Item(1).getSlideShowTransition().setType(TransitionType.Comb);
 >      // 프레젠테이션을 디스크에 저장합니다
 >      pres.save("SampleTransition_out.pptx", SaveFormat.Pptx);
@@ -373,17 +374,17 @@ public final ISlideCollection getSlides()
 >  Presentation pres = new Presentation("BetterSlideTransitions.pptx");
 >  try
 >  {
->      // 슬라이드 1에 원형 전환을 적용합니다
+>      // 슬라이드 1에 원형 전환 효과를 적용합니다
 >      pres.getSlides().get_Item(0).getSlideShowTransition().setType(TransitionType.Circle);
 >      // 전환 시간을 3초로 설정합니다
 >      pres.getSlides().get_Item(0).getSlideShowTransition().setAdvanceOnClick(true);
 >      pres.getSlides().get_Item(0).getSlideShowTransition().setAdvanceAfterTime(3000);
->      // 슬라이드 2에 콤 전환을 적용합니다
+>      // 슬라이드 2에 콤 전환 효과를 적용합니다
 >      pres.getSlides().get_Item(1).getSlideShowTransition().setType(TransitionType.Comb);
 >      // 전환 시간을 5초로 설정합니다
 >      pres.getSlides().get_Item(1).getSlideShowTransition().setAdvanceOnClick(true);
 >      pres.getSlides().get_Item(1).getSlideShowTransition().setAdvanceAfterTime(5000);
->      // 슬라이드 3에 줌 전환을 적용합니다
+>      // 슬라이드 3에 확대 전환 효과를 적용합니다
 >      pres.getSlides().get_Item(2).getSlideShowTransition().setType(TransitionType.Zoom);
 >      // 전환 시간을 7초로 설정합니다
 >      pres.getSlides().get_Item(2).getSlideShowTransition().setAdvanceOnClick(true);
@@ -405,7 +406,7 @@ public final ISlideCollection getSlides()
 public final ISectionCollection getSections()
 ```
 
-프레젠테이션에 정의된 모든 슬라이드 섹션 목록을 반환합니다. 읽기 전용 [ISectionCollection](../../com.aspose.slides/isectioncollection).
+프레젠테이션에 정의된 모든 슬라이드 섹션의 목록을 반환합니다. 읽기 전용 [ISectionCollection](../../com.aspose.slides/isectioncollection).
 
 --------------------
 
@@ -420,7 +421,7 @@ public final ISectionCollection getSections()
 >      ISlide newSlide3 = pres.getSlides().addEmptySlide(pres.getLayoutSlides().get_Item(0));
 >      ISlide newSlide4 = pres.getSlides().addEmptySlide(pres.getLayoutSlides().get_Item(0));
 >      ISection section1 = pres.getSections().addSection("Section 1", newSlide1);
->      // section1은 newSlide2에서 끝나며 그 후에 section2가 시작됩니다
+>      // section1은 newSlide2에서 끝나며 그 이후에 section2가 시작됩니다
 >      ISection section2 = pres.getSections().addSection("Section 2", newSlide3);
 >      pres.save("pres-sections.pptx", SaveFormat.Pptx);
 >      pres.getSections().reorderSectionWithSlides(section2, 0);
@@ -474,9 +475,9 @@ public final ISlideSize getSlideSize()
 >      Presentation auxPresentation = new Presentation();
 >      try {
 >          ISlide slide = presentation.getSlides().get_Item(0);
->          // 생성된 프레젠테이션의 슬라이드 크기를 소스와 동일하게 설정합니다
->          presentation.getSlideSize().setSize(540, 720, SlideSizeScaleType.EnsureFit); // Method SetSize는 콘텐츠를 스케일하여 슬라이드 크기를 설정하고 맞춤을 보장하는 데 사용됩니다
->          presentation.getSlideSize().setSize(SlideSizeType.A4Paper, SlideSizeScaleType.Maximize); // Method SetSize는 콘텐츠의 최대 크기로 슬라이드 크기를 설정하는 데 사용됩니다
+>          // 생성된 프레젠테이션의 슬라이드 크기를 원본과 동일하게 설정합니다
+>          presentation.getSlideSize().setSize(540, 720, SlideSizeScaleType.EnsureFit); // SetSize 메서드는 내용 크기를 스케일링하여 맞추도록 슬라이드 크기를 설정하는 데 사용됩니다
+>          presentation.getSlideSize().setSize(SlideSizeType.A4Paper, SlideSizeScaleType.Maximize); // SetSize 메서드는 내용의 크기를 최대화하도록 슬라이드 크기를 설정하는 데 사용됩니다
 >          // 프레젠테이션을 디스크에 저장합니다
 >          auxPresentation.save("Set_Size&Type_out.pptx", SaveFormat.Pptx);
 >      } finally {
@@ -514,11 +515,11 @@ public final INotesSize getNotesSize()
 public final IGlobalLayoutSlideCollection getLayoutSlides()
 ```
 
-프레젠테이션에 정의된 모든 레이아웃 슬라이드 목록을 반환합니다. 읽기 전용 [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection).
+프레젠테이션에 정의된 모든 레이아웃 슬라이드의 목록을 반환합니다. 읽기 전용 [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection).
 
 --------------------
 
-IMasterSlide.LayoutSlides 속성을 사용하여 레이아웃 슬라이드를 추가/삽입/제거/복제하기 위한 대체 API에 접근할 수 있습니다.
+IMasterSlide.LayoutSlides 속성을 사용하여 레이아웃 슬라이드를 추가/삽입/제거/복제하는 대체 API에 접근할 수 있습니다.
 
 **반환값:**
 [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection)
@@ -527,7 +528,7 @@ IMasterSlide.LayoutSlides 속성을 사용하여 레이아웃 슬라이드를 �
 public final IMasterSlideCollection getMasters()
 ```
 
-프레젠테이션에 정의된 모든 마스터 슬라이드 목록을 반환합니다. 읽기 전용 [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection).
+프레젠테이션에 정의된 모든 마스터 슬라이드의 목록을 반환합니다. 읽기 전용 [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection).
 
 --------------------
 
@@ -552,7 +553,7 @@ public final IMasterSlideCollection getMasters()
 >  Presentation pres = new Presentation();
 >  try
 >  {
->      // Master ISlide의 배경색을 포레스트 그린으로 설정합니다
+>      // 마스터 ISlide의 배경 색상을 포레스트 그린으로 설정합니다
 >      pres.getMasters().get_Item(0).getBackground().setType(BackgroundType.OwnBackground);
 >      pres.getMasters().get_Item(0).getBackground().getFillFormat().setFillType(FillType.Solid);
 >      pres.getMasters().get_Item(0).getBackground().getFillFormat().getSolidFillColor().setColor(Color.GREEN);
@@ -580,13 +581,13 @@ public final IMasterSlideCollection getMasters()
 > 
 >      if (layoutSlide == null)
 >      {
->          // 프레젠테이션에 일부 유형의 레이아웃이 포함되지 않은 경우 상황입니다.
->          // 프레젠테이션 파일은 Blank와 Custom 레이아웃 유형만 포함합니다.
+>          // 프레젠테이션에 특정 유형의 레이아웃이 포함되지 않은 상황입니다.
+>          // 프레젠테이션 파일에는 Blank 및 Custom 레이아웃 유형만 포함됩니다.
 >          // 그러나 Custom 유형의 레이아웃 슬라이드에는 다른 슬라이드 이름이 있습니다,
 >          // 예: "Title", "Title and Content" 등. 그리고 이를 사용할 수 있습니다
 >          // 레이아웃 슬라이드 선택을 위한 이름들.
->          // 또한 자리표시자 형태 유형 집합을 사용할 수 있습니다. 예를 들어,
->          // Title 슬라이드에는 Title 자리표시자 유형만 있어야 합니다 등.
+>          // 또한 플레이스홀더 형태 유형 집합을 사용할 수도 있습니다. 예를 들어,
+>          // 타이틀 슬라이드에는 Title 플레이스홀더 유형만 있어야 합니다 등.
 >          for (ILayoutSlide titleAndObjectLayoutSlide : (Iterable) layoutSlides)
 >          {
 >              if ("Title and Object".equals(titleAndObjectLayoutSlide.getName()))
@@ -617,7 +618,7 @@ public final IMasterSlideCollection getMasters()
 >      }
 >      // 추가된 레이아웃 슬라이드로 빈 슬라이드를 삽입합니다
 >      presentation.getSlides().insertEmptySlide(0, layoutSlide);
->      // 프레젠테이션 저장
+>      // Save presentation
 >      presentation.save("AddLayoutSlides_out.pptx", SaveFormat.Pptx);
 >  }
 >  finally
@@ -662,7 +663,7 @@ public final IFontsManager getFontsManager()
 >  // 프레젠테이션을 로드합니다
 >  Presentation pres = new Presentation("Fonts.pptx");
 >  try {
->      // 교체될 원본 폰트를 로드합니다
+>      // 교체할 원본 글꼴을 로드합니다
 >      IFontData sourceFont = new FontData("Arial");
 >      IFontData[] allFonts = pres.getFontsManager().getFonts();
 >      for (IFontData font : allFonts)
@@ -696,7 +697,7 @@ public final IFontsManager getFontsManager()
 public final ITextStyle getDefaultTextStyle()
 ```
 
-셰이프에 대한 기본 텍스트 스타일을 반환합니다. 읽기 전용 [ITextStyle](../../com.aspose.slides/itextstyle).
+도형의 기본 텍스트 스타일을 반환합니다. 읽기 전용 [ITextStyle](../../com.aspose.slides/itextstyle).
 
 **반환값:**
 [ITextStyle](../../com.aspose.slides/itextstyle)
@@ -723,14 +724,14 @@ public final IDocumentProperties getDocumentProperties()
 public final IImageCollection getImages()
 ```
 
-프레젠테이션에 있는 모든 이미지 컬렉션을 반환합니다. 읽기 전용 [IImageCollection](../../com.aspose.slides/iimagecollection).
+프레젠테이션에 포함된 모든 이미지 컬렉션을 반환합니다. 읽기 전용 [IImageCollection](../../com.aspose.slides/iimagecollection).
 
 --------------------
 
 > ```
 > The following examples shows how to add image as BLOB in PowerPoint Presentation.
 >  
->  // 이미지가 추가될 새 프레젠테이션을 생성합니다.
+>  // 이미지를 추가할 새 프레젠테이션을 생성합니다.
 >  Presentation pres = new Presentation();
 >  try
 >  {
@@ -738,12 +739,12 @@ public final IImageCollection getImages()
 >      FileInputStream fip = new FileInputStream("large_image.jpg");
 >      try
 >      {
->          // 프레젠테이션에 이미지를 추가합니다 - KeepLocked 동작을 선택한 이유는 파일에 접근할 의도가 없기 때문입니다.
->          // "largeImage.png" 파일에 접근할 의도가 없습니다.
+>          // 이미지를 프레젠테이션에 추가합니다 - KeepLocked 동작을 선택한 이유는
+>          // 해당 "largeImage.png" 파일에 접근하려는 의도가 없기 때문입니다.
 >          IPPImage img = pres.getImages().addImage(fip, LoadingStreamBehavior.KeepLocked);
 >          pres.getSlides().get_Item(0).getShapes().addPictureFrame(ShapeType.Rectangle, 0, 0, 300, 200, img);
->          // 프레젠테이션을 저장합니다. 큰 프레젠테이션이 출력되는 동안에도 메모리 사용량은
->          // pres 객체의 전체 수명 동안 낮게 유지됩니다.
+>          // 프레젠테이션을 저장합니다. 큰 프레젠테이션이 출력되는 동안에도
+>          // pres 객체의 전체 수명 동안 메모리 사용량이 낮게 유지됩니다.
 >          pres.save("presentationWithLargeImage.pptx", SaveFormat.Pptx);
 >      }
 >      finally
@@ -782,8 +783,7 @@ public final IImageCollection getImages()
 ```
 public final IAudioCollection getAudios()
 ```
-
-프레젠테이션에 포함된 모든 오디오 파일 컬렉션을 반환합니다. 읽기 전용 [IAudioCollection](../../com.aspose.slides/iaudiocollection).
+프레젠테이션에 포함된 모든 임베디드 오디오 파일의 컬렉션을 반환합니다. 읽기 전용 [IAudioCollection](../../com.aspose.slides/iaudiocollection).
 
 --------------------
 
@@ -806,13 +806,15 @@ public final IAudioCollection getAudios()
 > ```
 
 
-**반환값:**
+**반환:**  
 [IAudioCollection](../../com.aspose.slides/iaudiocollection)
 ### getVideos() {#getVideos--}
 ```
 public final IVideoCollection getVideos()
 ```
-프레젠테이션에 포함된 모든 임베드된 비디오 파일 컬렉션을 반환합니다. 읽기 전용 [IVideoCollection](../../com.aspose.slides/ivideocollection).
+
+
+프레젠테이션에 포함된 모든 임베디드 비디오 파일의 컬렉션을 반환합니다. 읽기 전용 [IVideoCollection](../../com.aspose.slides/ivideocollection).
 
 --------------------
 
@@ -1003,23 +1005,25 @@ public final IVideoCollection getVideos()
 >  }
 > ```
 
-**반환:**
+**반환:**  
 [IVideoCollection](../../com.aspose.slides/ivideocollection)
 ### getSlideShowSettings() {#getSlideShowSettings--}
 ```
 public final SlideShowSettings getSlideShowSettings()
 ```
 
-프레젠테이션에 대한 슬라이드 쇼 설정을 반환합니다.
 
-**반환:**
+프레젠테이션의 슬라이드 쇼 설정을 반환합니다.
+
+**반환:**  
 [SlideShowSettings](../../com.aspose.slides/slideshowsettings)
 ### getDigitalSignatures() {#getDigitalSignatures--}
 ```
 public final IDigitalSignatureCollection getDigitalSignatures()
 ```
 
-프레젠테이션 서명에 사용된 서명 컬렉션을 반환합니다. 읽기 전용 [IDigitalSignatureCollection](../../com.aspose.slides/idigitalsignaturecollection).
+
+프레젠테이션에 서명하는 서명의 컬렉션을 반환합니다. 읽기 전용 [IDigitalSignatureCollection](../../com.aspose.slides/idigitalsignaturecollection).
 
 --------------------
 
@@ -1048,23 +1052,25 @@ public final IDigitalSignatureCollection getDigitalSignatures()
 > ```
 
 
-**반환:**
+**반환:**  
 [IDigitalSignatureCollection](../../com.aspose.slides/idigitalsignaturecollection)
 ### getCustomData() {#getCustomData--}
 ```
 public final ICustomData getCustomData()
 ```
 
+
 프레젠테이션의 사용자 정의 데이터를 반환합니다. 읽기 전용 [ICustomData](../../com.aspose.slides/icustomdata).
 
-**반환:**
+**반환:**  
 [ICustomData](../../com.aspose.slides/icustomdata)
 ### getAllCustomXmlParts() {#getAllCustomXmlParts--}
 ```
 public final ICustomXmlPart[] getAllCustomXmlParts()
 ```
 
-프레젠테이션의 모든 사용자 정의 데이터 파트를 반환합니다. 읽기 전용 ICustomXmlPart[].
+
+프레젠테이션의 모든 사용자 정의 XML 파트를 반환합니다. 읽기 전용 ICustomXmlPart[].
 
 --------------------
 
@@ -1073,7 +1079,7 @@ public final ICustomXmlPart[] getAllCustomXmlParts()
 >  
 >  Presentation pres = new Presentation("PresentationWithCustomXml.pptx");
 >  try {
->      // 모든 커스텀 XML 파트를 순회합니다
+>      // 모든 커스텀 XML 파트를 반복합니다
 >      for (ICustomXmlPart item : pres.getAllCustomXmlParts())
 >      {
 >          item.remove();
@@ -1087,26 +1093,28 @@ public final ICustomXmlPart[] getAllCustomXmlParts()
 > ```
 
 
-**반환:**
+**반환:**  
 com.aspose.slides.ICustomXmlPart[]
 ### getVbaProject() {#getVbaProject--}
 ```
 public final IVbaProject getVbaProject()
 ```
 
+
 프레젠테이션 매크로가 포함된 VBA 프로젝트를 가져오거나 설정합니다. 읽기/쓰기 [IVbaProject](../../com.aspose.slides/ivbaproject).
 
-**반환:**
+**반환:**  
 [IVbaProject](../../com.aspose.slides/ivbaproject)
 ### setVbaProject(IVbaProject value) {#setVbaProject-com.aspose.slides.IVbaProject-}
 ```
 public final void setVbaProject(IVbaProject value)
 ```
 
+
 프레젠테이션 매크로가 포함된 VBA 프로젝트를 가져오거나 설정합니다. 읽기/쓰기 [IVbaProject](../../com.aspose.slides/ivbaproject).
 
 **매개변수:**
-| 매개변수 | 타입 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
 | value | [IVbaProject](../../com.aspose.slides/ivbaproject) |  |
 
@@ -1115,37 +1123,41 @@ public final void setVbaProject(IVbaProject value)
 public final IHyperlinkQueries getHyperlinkQueries()
 ```
 
-모든 프레젠테이션 슬라이드(마스터, 레이아웃, 노트 슬라이드 제외)에 포함된 모든 하이퍼링크에 쉽게 접근할 수 있습니다. 읽기 전용 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
 
-**반환:**
+모든 프레젠테이션 슬라이드(마스터, 레이아웃, 노트 슬라이드 제외)에 포함된 모든 하이퍼링크에 대한 쉬운 액세스를 제공합니다. 읽기 전용 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
+
+**반환:**  
 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)
 ### getViewProperties() {#getViewProperties--}
 ```
 public final IViewProperties getViewProperties()
 ```
 
-프레젠테이션 전체에 대한 보기 속성을 가져옵니다. 읽기 전용 [IViewProperties](../../com.aspose.slides/iviewproperties).
 
-**반환:**
+프레젠테이션 전체의 보기 속성을 가져옵니다. 읽기 전용 [IViewProperties](../../com.aspose.slides/iviewproperties).
+
+**반환:**  
 [IViewProperties](../../com.aspose.slides/iviewproperties)
 ### getFirstSlideNumber() {#getFirstSlideNumber--}
 ```
 public final int getFirstSlideNumber()
 ```
 
+
 프레젠테이션에서 첫 번째 슬라이드 번호를 나타냅니다.
 
-**반환:**
+**반환:**  
 int
 ### setFirstSlideNumber(int value) {#setFirstSlideNumber-int-}
 ```
 public final void setFirstSlideNumber(int value)
 ```
 
-프레젠테이션에서 첫 번째 슬라이드 번호를 나타냅니다.
+
+프레젠테이션에서 첫 번째 슬라이드 번호를 설정합니다.
 
 **매개변수:**
-| 매개변수 | 타입 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
 | value | int |  |
 
@@ -1153,6 +1165,7 @@ public final void setFirstSlideNumber(int value)
 ```
 public final ISensitivityLabelCollection getSensitivityLabels()
 ```
+
 
 프레젠테이션 문서에 적용된 민감도 레이블 컬렉션을 반환합니다. 읽기 전용 [ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection).
 
@@ -1163,13 +1176,13 @@ public final ISensitivityLabelCollection getSensitivityLabels()
 >  try {
 >      ISensitivityLabelCollection sensitivityLabels = pres.getSensitivityLabels();
 > 
->      // Print the applied labels
+>      // 적용된 라벨을 출력합니다
 >      for (ISensitivityLabel sensitivityLabel : sensitivityLabels)
 >          System.out.println("Label Id " + sensitivityLabel.getId() + " from Azure AD site " + sensitivityLabel.getSiteId());
 > 
->      // Add the new label
->      String labelIdString = "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"; // Get the sensitivity label Id from the policy
->      UUID siteIdGuid = UUID.fromString("{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"); // Get the Azure AD site identifier from the policy
+>      // 새 라벨을 추가합니다
+>      String labelIdString = "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"; // 정책에서 민감도 라벨 Id를 가져옵니다
+>      UUID siteIdGuid = UUID.fromString("{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"); // 정책에서 Azure AD 사이트 식별자를 가져옵니다
 >      ISensitivityLabel label = sensitivityLabels.add(labelIdString, siteIdGuid, true, SensitivityLabelAssignmentType.Privileged);
 >      label.getContentMarkTypes().addItem(SensitivityLabelContentType.Footer);
 > 
@@ -1179,35 +1192,39 @@ public final ISensitivityLabelCollection getSensitivityLabels()
 >  }
 > ```
 
-**반환:**
+
+**반환:**  
 [ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection)
 ### getSlideById(long id) {#getSlideById-long-}
 ```
 public final IBaseSlide getSlideById(long id)
 ```
 
-ID로 Slide, MasterSlide 또는 LayoutSlide를 반환합니다.
+
+ID로 슬라이드, 마스터 슬라이드 또는 레이아웃 슬라이드를 반환합니다.
 
 **매개변수:**
-| 매개변수 | 타입 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
 | id | long | 슬라이드의 ID. |
 
-**반환:**
+**반환:**  
 [IBaseSlide](../../com.aspose.slides/ibaseslide) - IBaseSlide 객체.
 ### getSourceFormat() {#getSourceFormat--}
 ```
 public final int getSourceFormat()
 ```
 
+
 프레젠테이션이 로드된 형식에 대한 정보를 반환합니다. 읽기 전용 [SourceFormat](../../com.aspose.slides/sourceformat).
 
-**반환:**
+**반환:**  
 int
 ### getMasterTheme() {#getMasterTheme--}
 ```
 public final IMasterTheme getMasterTheme()
 ```
+
 
 마스터 테마를 반환합니다. 읽기 전용 [IMasterTheme](../../com.aspose.slides/imastertheme).
 
@@ -1232,46 +1249,49 @@ public final IMasterTheme getMasterTheme()
 > ```
 
 
-**반환:**
+**반환:**  
 [IMasterTheme](../../com.aspose.slides/imastertheme)
 ### save(String fname, int format) {#save-java.lang.String-int-}
 ```
 public final void save(String fname, int format)
 ```
 
-프레젠테이션의 모든 슬라이드를 지정된 형식으로 파일에 저장합니다.
+
+지정된 형식으로 프레젠테이션의 모든 슬라이드를 파일에 저장합니다.
 
 **매개변수:**
-| 매개변수 | 타입 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
 | fname | java.lang.String | 생성된 파일의 경로. |
-| format | int | 내보내기 데이터의 형식. |
+| format | int | 내보낸 데이터의 형식. |
 
 ### save(OutputStream stream, int format) {#save-java.io.OutputStream-int-}
 ```
 public final void save(OutputStream stream, int format)
 ```
 
-프레젠테이션의 모든 슬라이드를 지정된 형식으로 스트림에 저장합니다.
+
+지정된 형식으로 프레젠테이션의 모든 슬라이드를 스트림에 저장합니다.
 
 **매개변수:**
-| 매개변수 | 타입 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
 | stream | java.io.OutputStream | 출력 스트림. |
-| format | int | 내보내기 데이터의 형식. |
+| format | int | 내보낸 데이터의 형식. |
 
 ### save(String fname, int format, ISaveOptions options) {#save-java.lang.String-int-com.aspose.slides.ISaveOptions-}
 ```
 public final void save(String fname, int format, ISaveOptions options)
 ```
 
-프레젠테이션의 모든 슬라이드를 지정된 형식과 추가 옵션으로 파일에 저장합니다.
+
+지정된 형식과 추가 옵션으로 프레젠테이션의 모든 슬라이드를 파일에 저장합니다.
 
 **매개변수:**
-| 매개변수 | 타입 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
 | fname | java.lang.String | 생성된 파일의 경로. |
-| format | int | 내보내기 데이터의 형식. |
+| format | int | 내보낸 데이터의 형식. |
 | options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | 추가 형식 옵션. |
 
 ### save(OutputStream stream, int format, ISaveOptions options) {#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-}
@@ -1279,13 +1299,14 @@ public final void save(String fname, int format, ISaveOptions options)
 public final void save(OutputStream stream, int format, ISaveOptions options)
 ```
 
-프레젠테이션의 모든 슬라이드를 지정된 형식과 추가 옵션으로 스트림에 저장합니다.
+
+지정된 형식과 추가 옵션으로 프레젠테이션의 모든 슬라이드를 스트림에 저장합니다.
 
 **매개변수:**
-| 매개변수 | 타입 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
 | stream | java.io.OutputStream | 출력 스트림. |
-| format | int | 내보내기 데이터의 형식. |
+| format | int | 내보낸 데이터의 형식. |
 | options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | 추가 형식 옵션. |
 
 ### save(IXamlOptions options) {#save-com.aspose.slides.IXamlOptions-}
@@ -1293,7 +1314,8 @@ public final void save(OutputStream stream, int format, ISaveOptions options)
 public final void save(IXamlOptions options)
 ```
 
-프레젠테이션의 모든 슬라이드를 XAML 마크업을 나타내는 파일 집합으로 저장합니다.
+
+프레젠테이션의 모든 슬라이드를 XAML 마크업을 나타내는 파일 세트에 저장합니다.
 
 --------------------
 
@@ -1311,7 +1333,7 @@ public final void save(IXamlOptions options)
 
 
 **매개변수:**
-| 매개변수 | 타입 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
 | options | [IXamlOptions](../../com.aspose.slides/ixamloptions) | XAML 형식 옵션. |
 
@@ -1320,121 +1342,129 @@ public final void save(IXamlOptions options)
 public final IImage[] getImages(IRenderingOptions options)
 ```
 
+
 프레젠테이션의 모든 슬라이드에 대한 Image 객체를 반환합니다.
 
 **매개변수:**
-| 매개변수 | 타입 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff 옵션. |
 
-**반환:**
-com.aspose.slides.IImage[] - 이미지 객체.
+**반환:**  
+com.aspose.slides.IImage[] - Image 객체.
 ### getImages(IRenderingOptions options, int[] slides) {#getImages-com.aspose.slides.IRenderingOptions-int---}
 ```
 public final IImage[] getImages(IRenderingOptions options, int[] slides)
 ```
 
-프레젠테이션의 지정된 슬라이드에 대한 썸네일 Image 객체를 반환합니다.
+
+지정된 슬라이드에 대한 썸네일 Image 객체를 반환합니다.
 
 **매개변수:**
-| 매개변수 | 타입 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff 옵션. |
-| slides | int[] | 시작 번호 1부터 시작하는 슬라이드 위치 배열. |
+| slides | int[] | 1부터 시작하는 슬라이드 위치 배열. |
 
-**반환:**
-com.aspose.slides.IImage[] - 이미지 객체.
+**반환:**  
+com.aspose.slides.IImage[] - Image 객체.
 ### getImages(IRenderingOptions options, float scaleX, float scaleY) {#getImages-com.aspose.slides.IRenderingOptions-float-float-}
 ```
 public final IImage[] getImages(IRenderingOptions options, float scaleX, float scaleY)
 ```
 
-프레젠테이션의 모든 슬라이드에 대해 사용자 지정 스케일링이 적용된 썸네일 Image 객체를 반환합니다.
+
+전체 슬라이드에 대해 사용자 정의 스케일링을 적용한 썸네일 Image 객체를 반환합니다.
 
 **매개변수:**
-| 매개변수 | 타입 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff 옵션. |
-| scaleX | float | x축 방향으로 이 썸네일을 스케일링할 값. |
-| scaleY | float | y축 방향으로 이 썸네일을 스케일링할 값. |
+| scaleX | float | X축 방향으로 썸네일을 스케일링할 값. |
+| scaleY | float | Y축 방향으로 썸네일을 스케일링할 값. |
 
-**반환:**
-com.aspose.slides.IImage[] - 이미지 객체.
+**반환:**  
+com.aspose.slides.IImage[] - Image 객체.
 ### getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY) {#getImages-com.aspose.slides.IRenderingOptions-int---float-float-}
 ```
 public final IImage[] getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)
 ```
 
-프레젠테이션의 지정된 슬라이드에 대해 사용자 지정 스케일링이 적용된 썸네일 Image 객체를 반환합니다.
+
+지정된 슬라이드에 대해 사용자 정의 스케일링을 적용한 썸네일 Image 객체를 반환합니다.
 
 **매개변수:**
-| 매개변수 | 타입 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff 옵션. |
-| slides | int[] | 시작 번호 1부터 시작하는 슬라이드 위치 배열. |
-| scaleX | float | x축 방향으로 이 썸네일을 스케일링할 값. |
-| scaleY | float | y축 방향으로 이 썸네일을 스케일링할 값. |
+| slides | int[] | 1부터 시작하는 슬라이드 위치 배열. |
+| scaleX | float | X축 방향으로 썸네일을 스케일링할 값. |
+| scaleY | float | Y축 방향으로 썸네일을 스케일링할 값. |
 
-**반환:**
-com.aspose.slides.IImage[] - 이미지 객체.
+**반환:**  
+com.aspose.slides.IImage[] - Image 객체.
 ### getImages(IRenderingOptions options, Dimension imageSize) {#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-}
 ```
 public final IImage[] getImages(IRenderingOptions options, Dimension imageSize)
 ```
 
-지정된 크기로 프레젠테이션의 모든 슬라이드에 대한 썸네일 Image 객체를 반환합니다.
+
+지정된 크기로 전체 슬라이드에 대한 썸네일 Image 객체를 반환합니다.
 
 **매개변수:**
-| 매개변수 | 타입 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff 옵션. |
 | imageSize | java.awt.Dimension | 생성할 이미지의 크기. |
 
-**반환:**
-com.aspose.slides.IImage[] - 이미지 객체.
+**반환:**  
+com.aspose.slides.IImage[] - Image 객체.
 ### getImages(IRenderingOptions options, int[] slides, Dimension imageSize) {#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-}
 ```
 public final IImage[] getImages(IRenderingOptions options, int[] slides, Dimension imageSize)
 ```
 
-지정된 슬라이드에 대해 지정된 크기로 썸네일 Image 객체를 반환합니다.
+
+지정된 슬라이드에 대해 지정된 크기의 썸네일 Image 객체를 반환합니다.
 
 **매개변수:**
-| 매개변수 | 타입 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff 옵션. |
-| slides | int[] | 시작 번호 1부터 시작하는 슬라이드 위치 배열. |
+| slides | int[] | 1부터 시작하는 슬라이드 위치 배열. |
 | imageSize | java.awt.Dimension | 생성할 이미지의 크기. |
 
-**반환:**
-com.aspose.slides.IImage[] - 이미지 객체.
+**반환:**  
+com.aspose.slides.IImage[] - Image 객체.
 ### save(String fname, int[] slides, int format) {#save-java.lang.String-int---int-}
 ```
 public final void save(String fname, int[] slides, int format)
 ```
 
-지정된 슬라이드들을 페이지 번호를 유지한 상태로 지정된 형식으로 파일에 저장합니다.
+
+페이지 번호를 유지하면서 지정된 슬라이드를 지정된 형식의 파일에 저장합니다.
 
 **매개변수:**
-| 매개변수 | 타입 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
 | fname | java.lang.String | 생성된 파일의 경로. |
-| slides | int[] | 시작 번호 1부터 시작하는 슬라이드 위치 배열. |
-| format | int | 내보내기 데이터의 형식. |
+| slides | int[] | 1부터 시작하는 슬라이드 위치 배열. |
+| format | int | 내보낸 데이터의 형식. |
 
 ### save(String fname, int[] slides, int format, ISaveOptions options) {#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-}
 ```
 public final void save(String fname, int[] slides, int format, ISaveOptions options)
 ```
 
-지정된 슬라이드들을 페이지 번호를 유지한 상태로 지정된 형식과 추가 옵션으로 파일에 저장합니다.
+
+페이지 번호를 유지하면서 지정된 슬라이드를 지정된 형식과 추가 옵션으로 파일에 저장합니다.
 
 **매개변수:**
-| 매개변수 | 타입 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
 | fname | java.lang.String | 생성된 파일의 경로. |
-| slides | int[] | 시작 번호 1부터 시작하는 슬라이드 위치 배열. |
-| format | int | 내보내기 데이터의 형식. |
+| slides | int[] | 1부터 시작하는 슬라이드 위치 배열. |
+| format | int | 내보낸 데이터의 형식. |
 | options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | 추가 형식 옵션. |
 
 ### save(OutputStream stream, int[] slides, int format) {#save-java.io.OutputStream-int---int-}
@@ -1442,21 +1472,23 @@ public final void save(String fname, int[] slides, int format, ISaveOptions opti
 public final void save(OutputStream stream, int[] slides, int format)
 ```
 
-지정된 슬라이드들을 페이지 번호를 유지한 상태로 지정된 형식으로 스트림에 저장합니다.
+
+페이지 번호를 유지하면서 지정된 슬라이드를 지정된 형식의 스트림에 저장합니다.
 
 **매개변수:**
-| 매개변수 | 타입 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
 | stream | java.io.OutputStream | 출력 스트림. |
-| slides | int[] | 시작 번호 1부터 시작하는 슬라이드 위치 배열. |
-| format | int | 내보내기 데이터의 형식. |
+| slides | int[] | 1부터 시작하는 슬라이드 위치 배열. |
+| format | int | 내보낸 데이터의 형식. |
 
 ### save(OutputStream stream, int[] slides, int format, ISaveOptions options) {#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-}
 ```
 public final void save(OutputStream stream, int[] slides, int format, ISaveOptions options)
 ```
 
-지정된 슬라이드들을 페이지 번호를 유지한 상태로 지정된 형식과 추가 옵션으로 스트림에 저장합니다.
+
+페이지 번호를 유지하면서 지정된 슬라이드를 지정된 형식과 추가 옵션으로 스트림에 저장합니다.
 
 --------------------
 
@@ -1506,11 +1538,11 @@ public final void save(OutputStream stream, int[] slides, int format, ISaveOptio
 
 
 **매개변수:**
-| 매개변수 | 타입 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
 | stream | java.io.OutputStream | 출력 스트림. |
-| slides | int[] | 시작 번호 1부터 시작하는 슬라이드 위치 배열. |
-| format | int | 내보내기 데이터의 형식. |
+| slides | int[] | 1부터 시작하는 슬라이드 위치 배열. |
+| format | int | 내보낸 데이터의 형식. |
 | options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | 추가 형식 옵션. |
 
 ### joinPortionsWithSameFormatting() {#joinPortionsWithSameFormatting--}
@@ -1518,12 +1550,14 @@ public final void save(OutputStream stream, int[] slides, int format, ISaveOptio
 public final void joinPortionsWithSameFormatting()
 ```
 
-모든 슬라이드의 모든 허용 가능한 도형에 있는 모든 단락에서 동일한 서식을 가진 실행(run)을 결합합니다.
+
+모든 슬라이드의 모든 허용 가능한 도형에 있는 모든 단락에서 동일한 서식을 가진 런을 병합합니다.
 
 ### dispose() {#dispose--}
 ```
 public final void dispose()
 ```
+
 
 이 Presentation 객체가 사용한 모든 리소스를 해제합니다.
 
@@ -1532,14 +1566,16 @@ public final void dispose()
 public final IPresentation getPresentation()
 ```
 
+
 텍스트의 상위 프레젠테이션을 반환합니다. 읽기 전용 [IPresentation](../../com.aspose.slides/ipresentation).
 
-**반환:**
+**반환:**  
 [IPresentation](../../com.aspose.slides/ipresentation)
 ### highlightText(String text, Color highlightColor) {#highlightText-java.lang.String-java.awt.Color-}
 ```
 public final void highlightText(String text, Color highlightColor)
 ```
+
 
 지정된 색상으로 샘플 텍스트와 일치하는 모든 항목을 강조 표시합니다.
 
@@ -1560,15 +1596,16 @@ public final void highlightText(String text, Color highlightColor)
 
 
 **매개변수:**
-| 매개변수 | 타입 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| text | java.lang.String | 강조할 텍스트. |
-| highlightColor | java.awt.Color | 텍스트를 강조할 색상. |
+| text | java.lang.String | 강조 표시할 텍스트. |
+| highlightColor | java.awt.Color | 텍스트를 강조 표시할 색상. |
 
 ### highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
 public final void highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)
 ```
+
 
 지정된 색상으로 샘플 텍스트와 일치하는 모든 항목을 강조 표시합니다.
 
@@ -1591,19 +1628,20 @@ public final void highlightText(String text, Color highlightColor, ITextSearchOp
 
 
 **매개변수:**
-| 매개변수 | 타입 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| text | java.lang.String | 강조할 텍스트. |
-| highlightColor | java.awt.Color | 텍스트를 강조할 색상. |
+| text | java.lang.String | 강조 표시할 텍스트. |
+| highlightColor | java.awt.Color | 텍스트를 강조 표시할 색상. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | 텍스트 검색 옵션 [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | 검색 결과를 수신하기 위한 콜백 객체 [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | 검색 결과를 수신하는 콜백 객체 [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback) {#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-}
 ```
 public final void highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)
 ```
 
-지정된 색상으로 정규 표현식과 일치하는 모든 항목을 강조 표시합니다.
+
+지정된 색상으로 정규식과 일치하는 모든 항목을 강조 표시합니다.
 
 --------------------
 
@@ -1613,7 +1651,7 @@ public final void highlightRegex(Pattern regex, Color highlightColor, IFindResul
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      Pattern regex = Pattern.compile("\\b[^\\s]{10,}\\b");
->      // 10자 이상의 모든 단어를 강조합니다
+>      // 10자 이상인 모든 단어를 강조합니다
 >      presentation.highlightRegex(regex, Color.BLUE, null);
 >      presentation.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -1623,11 +1661,13 @@ public final void highlightRegex(Pattern regex, Color highlightColor, IFindResul
 
 
 **매개변수:**
-| 매개변수 | 타입 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | 강조할 문자열을 얻기 위한 정규 표현식 java.util.regex.Pattern. |
-| highlightColor | java.awt.Color | 텍스트를 강조할 색상. |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | 검색 결과를 수신하기 위한 콜백 객체 [IFindResultCallback](../../com.aspose.slides/ifindresultcallback).
+
+| regex | java.util.regex.Pattern | 하이라이트할 문자열을 가져오기 위한 정규식 java.util.regex.Pattern. |
+| highlightColor | java.awt.Color | 텍스트를 하이라이트할 색상. |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | 검색 결과를 수신하기 위한 콜백 객체 [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+
 ### replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback) {#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
 public final void replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)
@@ -1644,7 +1684,7 @@ public final void replaceText(String oldText, String newText, ITextSearchOptions
 >  try {
 >      TextSearchOptions textSearchOptions = new TextSearchOptions();
 >      textSearchOptions.setWholeWordsOnly(true);
->      // 모든 개별 'the' 발생을 '***'로 교체합니다
+>      // 모든 개별 'the' 발생을 '***' 로 교체합니다
 >      presentation.replaceText("the", "***", textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -1652,21 +1692,20 @@ public final void replaceText(String oldText, String newText, ITextSearchOptions
 >  }
 > ```
 
-
 **매개변수:**
 | 매개변수 | 유형 | 설명 |
 | --- | --- | --- |
-| oldText | java.lang.String | 교체될 문자열입니다. |
-| newText | java.lang.String | oldText의 모든 발생을 교체할 문자열입니다. |
+| oldText | java.lang.String | 교체될 문자열. |
+| newText | java.lang.String | oldText의 모든 발생을 교체할 문자열. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | 텍스트 검색 옵션 [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | 검색 결과를 받기 위한 콜백 객체 [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | 검색 결과를 수신하기 위한 콜백 객체 [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### replaceRegex(Pattern regex, String newText, IFindResultCallback callback) {#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-}
 ```
 public final void replaceRegex(Pattern regex, String newText, IFindResultCallback callback)
 ```
 
-정규 표현식의 모든 일치를 지정된 문자열로 교체합니다.
+정규식과 일치하는 모든 항목을 지정된 문자열로 교체합니다.
 
 --------------------
 
@@ -1675,7 +1714,7 @@ public final void replaceRegex(Pattern regex, String newText, IFindResultCallbac
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      Pattern regex = Pattern.compile("\\b[^\\s]{10,}\\b");
->      // 10자 이상인 모든 단어를 '***'로 교체합니다
+>      // 10자 이상인 모든 단어를 '***' 로 교체합니다
 >      presentation.replaceRegex(regex, "***", null);
 >      presentation.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -1687,6 +1726,51 @@ public final void replaceRegex(Pattern regex, String newText, IFindResultCallbac
 **매개변수:**
 | 매개변수 | 유형 | 설명 |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | 교체할 문자열을 얻기 위한 정규 표현식 java.util.regex.Pattern입니다. |
-| newText | java.lang.String | 교체될 문자열의 모든 발생을 교체할 문자열입니다. |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | 검색 결과를 받기 위한 콜백 객체 [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| regex | java.util.regex.Pattern | 교체할 문자열을 가져오기 위한 정규식 java.util.regex.Pattern. |
+| newText | java.lang.String | 대체될 문자열들의 모든 발생을 교체하는 문자열. |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | 검색 결과를 수신하기 위한 콜백 객체 [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+
+### refreshChartsData() {#refreshChartsData--}
+```
+public final void refreshChartsData()
+```
+
+프레젠테이션에 있는 모든 차트의 데이터를 해당 원본 워크북에서 다시 로드합니다.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("PresentationWithCharts.pptx");
+>  try {
+>      presentation.refreshChartsData();
+>      presentation.save("PresentationWithCharts-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+
+### refreshChartsData(boolean skipFailedCharts) {#refreshChartsData-boolean-}
+```
+public final void refreshChartsData(boolean skipFailedCharts)
+```
+
+프레젠테이션에 있는 모든 차트의 데이터를 해당 원본 워크북에서 다시 로드합니다.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("PresentationWithCharts.pptx");
+>  try {
+>      presentation.refreshChartsData();
+>      presentation.save("PresentationWithCharts-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+
+**매개변수:**
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| skipFailedCharts | boolean | 차트 업데이트에 실패할 경우 재로드 프로세스를 계속할지 여부를 결정합니다. true이면 예외를 발생시키는 차트를 건너뛰고, 그렇지 않으면 예외가 전파됩니다. |

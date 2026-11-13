@@ -1,11 +1,11 @@
 ---
 title: DataLabelCollection
 second_title: Aspose.Slides voor Java API-referentie
-description: Stelt labels van een serie voor.
+description: Stelt een reekslabels voor.
 type: docs
 url: /nl/com.aspose.slides/datalabelcollection/
 ---
-**Overerving:**
+**Erfenis:**
 java.lang.Object, com.aspose.slides.DomObject
 
 **Alle geïmplementeerde interfaces:**
@@ -14,31 +14,33 @@ java.lang.Object, com.aspose.slides.DomObject
 public class DataLabelCollection extends DomObject<ChartSeries> implements IDataLabelCollection
 ```
 
-Stelt labels voor een serie voor.
+Stelt een reekslabels voor.
 ## Methoden
 
 | Methode | Beschrijving |
 | --- | --- |
-| [getChart()](#getChart--) | Retourneert de bovenliggende chart. |
-| [iterator()](#iterator--) | Retourneert een enumerator die door de collectie iterereert. |
-| [iteratorJava()](#iteratorJava--) | Retourneert een java-iterator voor de volledige collectie. |
-| [isVisible()](#isVisible--) | False betekent dat het datalabel standaard niet zichtbaar is (en dus alle Show\*-flags (ShowValue, …) van de DefaultDataLabelFormat-eigenschap false zijn). |
-| [hide()](#hide--) | Maakt het datalabel standaard verborgen door alle Show\*-flags (ShowValue, …) van de DefaultDataLabelFormat-eigenschap op false te zetten. |
-| [getCountOfVisibleDataLabels()](#getCountOfVisibleDataLabels--) | Haalt het aantal zichtbare datalabels in de collectie op. |
-| [getCount()](#getCount--) | Haalt het totale aantal datalabels in de collectie op. |
-| [getDefaultDataLabelFormat()](#getDefaultDataLabelFormat--) | Haalt het standaard datalabel-formaat op. |
-| [getLeaderLinesFormat()](#getLeaderLinesFormat--) | Vertegenwoordigt het opmaakformaat van de leider-lijnen van datalabels. |
+| [getChart()](#getChart--) | Geeft het bovenliggende diagram terug. |
+| [iterator()](#iterator--) | Geeft een enumerator die door de collectie iterereert terug. |
+| [iteratorJava()](#iteratorJava--) | Geeft een java-iterator voor de volledige collectie terug. |
+| [isVisible()](#isVisible--) | False betekent dat gegevenslabel standaard niet zichtbaar is (en dus zijn alle Show*-flags (ShowValue, ...) van de DefaultDataLabelFormat-eigenschap false). |
+| [hide()](#hide--) | Maak het gegevenslabel standaard verborgen door alle Show*-flags (ShowValue, ...) van de DefaultDataLabelFormat-eigenschap op false te zetten. |
+| [getCountOfVisibleDataLabels()](#getCountOfVisibleDataLabels--) | Haalt het aantal zichtbare gegevenslabels in de collectie op. |
+| [getCount()](#getCount--) | Haalt het totale aantal gegevenslabels in de collectie op. |
+| [getDefaultDataLabelFormat()](#getDefaultDataLabelFormat--) | Haalt het standaard gegevenslabelopmaak op. |
+| [getLeaderLinesFormat()](#getLeaderLinesFormat--) | Stelt het opmaak van leidende lijnen van gegevenslabels voor. |
 | [getParentSeries()](#getParentSeries--) | Haalt de bovenliggende serie op. |
-| [indexOf(IDataLabel value)](#indexOf-com.aspose.slides.IDataLabel-) | Retourneert een index van het opgegeven DataLabel in de collectie. |
-| [get_Item(int index)](#get-Item-int-) | Haalt het datalabel op voor het datapunt met de opgegeven index. |
-| [getSlide()](#getSlide--) | Retourneert de bovenliggende slide van een FillFormat. |
-| [getPresentation()](#getPresentation--) | Retourneert de bovenliggende presentatie van een FillFormat. |
+| [indexOf(IDataLabel value)](#indexOf-com.aspose.slides.IDataLabel-) | Geeft de index van het opgegeven DataLabel in de collectie terug. |
+| [get_Item(int index)](#get-Item-int-) | Haalt het gegevenslabel op voor het gegevenspunt met de opgegeven index. |
+| [getDefaultLabelShapeType()](#getDefaultLabelShapeType--) | Haalt het standaard vormtype op voor gegevenslabels of stelt het in. |
+| [setDefaultLabelShapeType(int value)](#setDefaultLabelShapeType-int-) | Haalt het standaard vormtype op voor gegevenslabels of stelt het in. |
+| [getSlide()](#getSlide--) | Geeft de bovenliggende dia van een FillFormat terug. |
+| [getPresentation()](#getPresentation--) | Geeft de bovenliggende presentatie van een FillFormat terug. |
 ### getChart() {#getChart--}
 ```
 public final IChart getChart()
 ```
 
-Retourneert de bovenliggende chart. Alleen-lezen [IChart](../../com.aspose.slides/ichart).
+Geeft het bovenliggende diagram terug. Alleen-lezen [IChart](../../com.aspose.slides/ichart).
 
 **Retourneert:**
 [IChart](../../com.aspose.slides/ichart)
@@ -47,29 +49,29 @@ Retourneert de bovenliggende chart. Alleen-lezen [IChart](../../com.aspose.slide
 public final System.Collections.Generic.IGenericEnumerator<IDataLabel> iterator()
 ```
 
-Retourneert een enumerator die door de collectie iterereert.
+Geeft een enumerator die door de collectie iterereert terug.
 
 **Retourneert:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.slides.IDataLabel> - Een IGenericEnumerator die kan worden gebruikt om door de collectie te itereren.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.slides.IDataLabel} - Een IGenericEnumerator die kan worden gebruikt om door de collectie te itereren.
 ### iteratorJava() {#iteratorJava--}
 ```
 public final System.Collections.Generic.IGenericEnumerator<IDataLabel> iteratorJava()
 ```
 
-Retourneert een java-iterator voor de volledige collectie.
+Geeft een java-iterator voor de volledige collectie terug.
 
 **Retourneert:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.slides.IDataLabel> - Een java.util.Iterator voor de volledige collectie.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.slides.IDataLabel} - Een java.util.Iterator voor de volledige collectie.
 ### isVisible() {#isVisible--}
 ```
 public final boolean isVisible()
 ```
 
-False betekent dat het datalabel standaard niet zichtbaar is (en dus alle Show\*-flags (ShowValue, …) van de DefaultDataLabelFormat-eigenschap false zijn). Alleen-lezen boolean.
+False betekent dat gegevenslabel standaard niet zichtbaar is (en dus zijn alle Show*-flags (ShowValue, ...) van de DefaultDataLabelFormat-eigenschap false). Alleen-lezen boolean.
 
 --------------------
 
-Als het datalabel standaard zichtbaar is, kun je het standaard verborgen maken met de Hide()-methode. Maar als het datalabel standaard niet zichtbaar is (IsVisible is false), kun je het datalabel “standaard zichtbaar” maken door de Show\*-flags (ShowValue, …) van de DefaultDataLabelFormat-eigenschap op true te zetten.
+Als het gegevenslabel standaard zichtbaar is, kun je het standaard verborgen maken met de Hide()-methode. Maar als het gegevenslabel standaard niet zichtbaar is (IsVisible is false), kun je het gegevenslabel "standaard zichtbaar" maken door de Show*-flags (ShowValue, ...) van de DefaultDataLabelFormat-eigenschap op true te zetten.
 
 **Retourneert:**
 boolean
@@ -78,18 +80,18 @@ boolean
 public final void hide()
 ```
 
-Maakt het datalabel standaard verborgen door alle Show\*-flags (ShowValue, …) van de DefaultDataLabelFormat-eigenschap op false te zetten. IsVisible zal daarna false zijn.
+Maak het gegevenslabel standaard verborgen door alle Show*-flags (ShowValue, ...) van de DefaultDataLabelFormat-eigenschap op false te zetten. IsVisible zal daarna false zijn.
 
 --------------------
 
-Als het datalabel standaard niet zichtbaar is (IsVisible is false), kun je het datalabel “standaard zichtbaar” maken door de Show\*-flags (ShowValue, …) van de DefaultDataLabelFormat-eigenschap op true te zetten.
+Als het gegevenslabel standaard niet zichtbaar is (IsVisible is false), kun je het gegevenslabel "standaard zichtbaar" maken door de Show*-flags (ShowValue, ...) van de DefaultDataLabelFormat-eigenschap op true te zetten.
 
 ### getCountOfVisibleDataLabels() {#getCountOfVisibleDataLabels--}
 ```
 public final int getCountOfVisibleDataLabels()
 ```
 
-Haalt het aantal zichtbare datalabels in de collectie op. Alleen-lezen int.
+Haalt het aantal zichtbare gegevenslabels in de collectie op. Alleen-lezen int.
 
 **Retourneert:**
 int
@@ -98,7 +100,7 @@ int
 public final int getCount()
 ```
 
-Haalt het totale aantal datalabels in de collectie op. Alleen-lezen int.
+Haalt het totale aantal gegevenslabels in de collectie op. Alleen-lezen int.
 
 **Retourneert:**
 int
@@ -107,7 +109,7 @@ int
 public final IDataLabelFormat getDefaultDataLabelFormat()
 ```
 
-Haalt het standaard datalabel-formaat op. Alleen-lezen [IDataLabelFormat](../../com.aspose.slides/idatalabelformat).
+Haalt het standaard gegevenslabelopmaak op. Alleen-lezen [IDataLabelFormat](../../com.aspose.slides/idatalabelformat).
 
 **Retourneert:**
 [IDataLabelFormat](../../com.aspose.slides/idatalabelformat)
@@ -116,7 +118,7 @@ Haalt het standaard datalabel-formaat op. Alleen-lezen [IDataLabelFormat](../../
 public final IChartLinesFormat getLeaderLinesFormat()
 ```
 
-Vertegenwoordigt het opmaakformaat van de leider-lijnen van datalabels. Alleen-lezen [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat).
+Stelt het opmaak van leidende lijnen van gegevenslabels voor. Alleen-lezen [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat).
 
 --------------------
 
@@ -151,7 +153,7 @@ Haalt de bovenliggende serie op. Alleen-lezen [IChartSeries](../../com.aspose.sl
 public final int indexOf(IDataLabel value)
 ```
 
-Retourneert een index van het opgegeven DataLabel in de collectie.
+Geeft de index van het opgegeven DataLabel in de collectie terug.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -165,11 +167,13 @@ int - Index van een DataLabel of -1 als DataLabel niet uit deze collectie komt.
 public final IDataLabel get_Item(int index)
 ```
 
-Haalt het datalabel op voor het datapunt met de opgegeven index.
+Haalt het gegevenslabel op voor het gegevenspunt met de opgegeven index.
 
 --------------------
 
-Alternatieve manier om een datalabel te benaderen is: - series.getDataPoints().get\_Item(i).getLabel() - beheer label-eigenschappen.
+Alternatieve manier om toegang te krijgen tot het gegevenslabel is:
+- series.getDataPoints().get_Item(i).getLabel()
+- label-eigenschappen beheren.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -178,12 +182,71 @@ Alternatieve manier om een datalabel te benaderen is: - series.getDataPoints().g
 
 **Retourneert:**
 [IDataLabel](../../com.aspose.slides/idatalabel)
+### getDefaultLabelShapeType() {#getDefaultLabelShapeType--}
+```
+public final int getDefaultLabelShapeType()
+```
+
+Haalt het standaard vormtype op voor gegevenslabels of stelt het in. Retourneert [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) als er geen vorm is gedefinieerd.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Stel het vormtype van alle gegevenslabels in de eerste serie in op Ellipse.
+>      firstSeries.getLabels().setDefaultLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabels.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+Het instellen van deze eigenschap stelt ook de  IDataLabel.LabelShapeType ([IDataLabel.getLabelShapeType](../../com.aspose.slides/idatalabel\#getLabelShapeType)/[IDataLabel.setLabelShapeType(int)](../../com.aspose.slides/idatalabel\#setLabelShapeType-int-)) eigenschap voor alle gegevenslabels in de collectie in op dezelfde waarde.
+
+**Retourneert:**
+int
+### setDefaultLabelShapeType(int value) {#setDefaultLabelShapeType-int-}
+```
+public final void setDefaultLabelShapeType(int value)
+```
+
+Haalt het standaard vormtype op voor gegevenslabels of stelt het in. Retourneert [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined) als er geen vorm is gedefinieerd.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Stel het vormtype van alle gegevenslabels in de eerste serie in op Ellipse.
+>      firstSeries.getLabels().setDefaultLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabels.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+Het instellen van deze eigenschap stelt ook de  IDataLabel.LabelShapeType ([IDataLabel.getLabelShapeType](../../com.aspose.slides/idatalabel\#getLabelShapeType)/[IDataLabel.setLabelShapeType(int)](../../com.aspose.slides/idatalabel\#setLabelShapeType-int-)) eigenschap voor alle gegevenslabels in de collectie in op dezelfde waarde.
+
+**Parameters:**
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| value | int |  |
+
 ### getSlide() {#getSlide--}
 ```
 public final IBaseSlide getSlide()
 ```
 
-Retourneert de bovenliggende slide van een FillFormat. Alleen-lezen [BaseSlide](../../com.aspose.slides/baseslide).
+Geeft de bovenliggende dia van een FillFormat terug. Alleen-lezen [BaseSlide](../../com.aspose.slides/baseslide).
 
 **Retourneert:**
 [IBaseSlide](../../com.aspose.slides/ibaseslide)
@@ -192,7 +255,7 @@ Retourneert de bovenliggende slide van een FillFormat. Alleen-lezen [BaseSlide](
 public final IPresentation getPresentation()
 ```
 
-Retourneert de bovenliggende presentatie van een FillFormat. Alleen-lezen [IPresentation](../../com.aspose.slides/ipresentation).
+Geeft de bovenliggende presentatie van een FillFormat terug. Alleen-lezen [IPresentation](../../com.aspose.slides/ipresentation).
 
 **Retourneert:**
 [IPresentation](../../com.aspose.slides/ipresentation)

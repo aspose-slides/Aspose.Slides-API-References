@@ -16,33 +16,36 @@ Representerar ett videoklipp på en bild.
 
 | Metod | Beskrivning |
 | --- | --- |
-| [getRewindVideo()](#getRewindVideo--) | Bestämmer om en video automatiskt spolas tillbaka till början så snart filmen har spelats färdigt. |
-| [setRewindVideo(boolean value)](#setRewindVideo-boolean-) | Bestämmer om en video automatiskt spolas tillbaka till början så snart filmen har spelats färdigt. |
-| [getPlayLoopMode()](#getPlayLoopMode--) | Bestämmer om en video loopas. |
-| [setPlayLoopMode(boolean value)](#setPlayLoopMode-boolean-) | Bestämmer om en video loopas. |
+| [getRewindVideo()](#getRewindVideo--) | Bestämmer om en video automatiskt spolas tillbaka till start så snart filmen har spelats färdigt. |
+| [setRewindVideo(boolean value)](#setRewindVideo-boolean-) | Bestämmer om en video automatiskt spolas tillbaka till start så snart filmen har spelats färdigt. |
+| [getPlayLoopMode()](#getPlayLoopMode--) | Bestämmer om en video är loopad. |
+| [setPlayLoopMode(boolean value)](#setPlayLoopMode-boolean-) | Bestämmer om en video är loopad. |
 | [getHideAtShowing()](#getHideAtShowing--) | Bestämmer om en VideoFrame är dold. |
 | [setHideAtShowing(boolean value)](#setHideAtShowing-boolean-) | Bestämmer om en VideoFrame är dold. |
-| [getVolume()](#getVolume--) | Returnerar eller ställer in ljudvolymen. |
-| [setVolume(int value)](#setVolume-int-) | Returnerar eller ställer in ljudvolymen. |
-| [getPlayMode()](#getPlayMode--) | Returnerar eller ställer in videouppspelningsläget. |
-| [setPlayMode(int value)](#setPlayMode-int-) | Returnerar eller ställer in videouppspelningsläget. |
-| [getFullScreenMode()](#getFullScreenMode--) | Bestämmer om en video visas i helskärmsläge. |
-| [setFullScreenMode(boolean value)](#setFullScreenMode-boolean-) | Bestämmer om en video visas i helskärmsläge. |
-| [getLinkPathLong()](#getLinkPathLong--) | Returnerar eller ställer in namnet på en videofil som är länkad till en VideoFrame. |
-| [setLinkPathLong(String value)](#setLinkPathLong-java.lang.String-) | Returnerar eller ställer in namnet på en videofil som är länkad till en VideoFrame. |
-| [getEmbeddedVideo()](#getEmbeddedVideo--) | Returnerar eller ställer in inbäddat videoobjekt. |
-| [setEmbeddedVideo(IVideo value)](#setEmbeddedVideo-com.aspose.slides.IVideo-) | Returnerar eller ställer in inbäddat videoobjekt. |
+| [getVolume()](#getVolume--) | Returnerar eller anger ljudvolymen. |
+| [setVolume(int value)](#setVolume-int-) | Returnerar eller anger ljudvolymen. |
+| [getVolumeValue()](#getVolumeValue--) | Returnerar eller anger den exakta videovolymen som en procentsats. |
+| [setVolumeValue(float value)](#setVolumeValue-float-) | Returnerar eller anger den exakta videovolymen som en procentsats. |
+| [getPlayMode()](#getPlayMode--) | Returnerar eller anger videouppspelningsläget. |
+| [setPlayMode(int value)](#setPlayMode-int-) | Returnerar eller anger videouppspelningsläget. |
+| [getFullScreenMode()](#getFullScreenMode--) | Bestämmer om en video visas i helskärm. |
+| [setFullScreenMode(boolean value)](#setFullScreenMode-boolean-) | Bestämmer om en video visas i helskärm. |
+| [getLinkPathLong()](#getLinkPathLong--) | Returnerar eller anger namnet på en videofil som är länkat till en VideoFrame. |
+| [setLinkPathLong(String value)](#setLinkPathLong-java.lang.String-) | Returnerar eller anger namnet på en videofil som är länkat till en VideoFrame. |
+| [getEmbeddedVideo()](#getEmbeddedVideo--) | Returnerar eller anger inbäddat videoobjekt. |
+| [setEmbeddedVideo(IVideo value)](#setEmbeddedVideo-com.aspose.slides.IVideo-) | Returnerar eller anger inbäddat videoobjekt. |
 | [getTrimFromStart()](#getTrimFromStart--) | Trimma start [ms] |
 | [setTrimFromStart(float value)](#setTrimFromStart-float-) | Trimma start [ms] |
 | [getTrimFromEnd()](#getTrimFromEnd--) | Trimma slut [ms] |
 | [setTrimFromEnd(float value)](#setTrimFromEnd-float-) | Trimma slut [ms] |
-| [getCaptionTracks()](#getCaptionTracks--) | Hämtar samlingen av undertexter som är kopplade till ljudramen. |
+| [getCaptionTracks()](#getCaptionTracks--) | Hämtar samlingen av stängda undertexter som är associerade med ljudramen. |
 ### getRewindVideo() {#getRewindVideo--}
 ```
 public abstract boolean getRewindVideo()
 ```
 
-Bestämmer om en video automatiskt spolas tillbaka till början så snart filmen har spelats färdigt. Läsa/skriva boolesk.
+
+Bestämmer om en video automatiskt spolas tillbaka till start så snart filmen har spelats färdigt. Läs/skriv boolean.
 
 **Returnerar:**
 boolean
@@ -51,10 +54,11 @@ boolean
 public abstract void setRewindVideo(boolean value)
 ```
 
-Bestämmer om en video automatiskt spolas tillbaka till början så snart filmen har spelats färdigt. Läsa/skriva boolesk.
+
+Bestämmer om en video automatiskt spolas tillbaka till start så snart filmen har spelats färdigt. Läs/skriv boolean.
 
 **Parametrar:**
-| Parameter | Type | Description |
+| Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -63,7 +67,8 @@ Bestämmer om en video automatiskt spolas tillbaka till början så snart filmen
 public abstract boolean getPlayLoopMode()
 ```
 
-Bestämmer om en video loopas. Läsa/skriva boolesk.
+
+Bestämmer om en video är loopad. Läs/skriv boolean.
 
 **Returnerar:**
 boolean
@@ -72,10 +77,11 @@ boolean
 public abstract void setPlayLoopMode(boolean value)
 ```
 
-Bestämmer om en video loopas. Läsa/skriva boolesk.
+
+Bestämmer om en video är loopad. Läs/skriv boolean.
 
 **Parametrar:**
-| Parameter | Type | Description |
+| Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -84,7 +90,8 @@ Bestämmer om en video loopas. Läsa/skriva boolesk.
 public abstract boolean getHideAtShowing()
 ```
 
-Bestämmer om en VideoFrame är dold. Läsa/skriva boolesk.
+
+Bestämmer om en VideoFrame är dold. Läs/skriv boolean.
 
 **Returnerar:**
 boolean
@@ -93,10 +100,11 @@ boolean
 public abstract void setHideAtShowing(boolean value)
 ```
 
-Bestämmer om en VideoFrame är dold. Läsa/skriva boolesk.
+
+Bestämmer om en VideoFrame är dold. Läs/skriv boolean.
 
 **Parametrar:**
-| Parameter | Type | Description |
+| Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -105,7 +113,8 @@ Bestämmer om en VideoFrame är dold. Läsa/skriva boolesk.
 public abstract int getVolume()
 ```
 
-Returnerar eller ställer in ljudvolymen. Läsa/skriva [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
+
+Returnerar eller anger ljudvolymen. Läs/skriv [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
 
 **Returnerar:**
 int
@@ -114,19 +123,80 @@ int
 public abstract void setVolume(int value)
 ```
 
-Returnerar eller ställer in ljudvolymen. Läsa/skriva [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
+
+Returnerar eller anger ljudvolymen. Läs/skriv [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
 
 **Parametrar:**
-| Parameter | Type | Description |
+| Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | value | int |  |
+
+### getVolumeValue() {#getVolumeValue--}
+```
+public abstract float getVolumeValue()
+```
+
+
+Returnerar eller anger den exakta videovolymen som en procentsats. Värdet uttrycks som en procentsats från 0 till 100. Använd denna egenskap för att läsa eller ange volymer som är mer precisa än de fördefinierade nivåerna som finns via Volume-egenskapen. Läs/skriv  float .
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video.pptx");
+>  try {
+>      IVideoFrame videoFrame = (IVideoFrame)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // Läs den aktuella exakta volymen och sätt den till 75.5 procent.
+>      float currentVolume = videoFrame.getVolumeValue();
+>      System.out.println(currentVolume);
+>      videoFrame.setVolumeValue(75.5f);
+>      pres.save("video_with_volume.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returnerar:**
+float
+### setVolumeValue(float value) {#setVolumeValue-float-}
+```
+public abstract void setVolumeValue(float value)
+```
+
+
+Returnerar eller anger den exakta videovolymen som en procentsats. Värdet uttrycks som en procentsats från 0 till 100. Använd denna egenskap för att läsa eller ange volymer som är mer precisa än de fördefinierade nivåerna som finns via Volume-egenskapen. Läs/skriv  float .
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video.pptx");
+>  try {
+>      IVideoFrame videoFrame = (IVideoFrame)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // Läs den aktuella exakta volymen och sätt den till 75.5 procent.
+>      float currentVolume = videoFrame.getVolumeValue();
+>      System.out.println(currentVolume);
+>      videoFrame.setVolumeValue(75.5f);
+>      pres.save("video_with_volume.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parametrar:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| value | float |  |
 
 ### getPlayMode() {#getPlayMode--}
 ```
 public abstract int getPlayMode()
 ```
 
-Returnerar eller ställer in videouppspelningsläget. Läsa/skriva [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
+
+Returnerar eller anger videouppspelningsläget. Läs/skriv [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
 
 **Returnerar:**
 int
@@ -135,10 +205,11 @@ int
 public abstract void setPlayMode(int value)
 ```
 
-Returnerar eller ställer in videouppspelningsläget. Läsa/skriva [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
+
+Returnerar eller anger videouppspelningsläget. Läs/skriv [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
 
 **Parametrar:**
-| Parameter | Type | Description |
+| Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | value | int |  |
 
@@ -147,7 +218,8 @@ Returnerar eller ställer in videouppspelningsläget. Läsa/skriva [VideoPlayMod
 public abstract boolean getFullScreenMode()
 ```
 
-Bestämmer om en video visas i helskärmsläge. Läsa/skriva boolesk.
+
+Bestämmer om en video visas i helskärm. Läs/skriv boolean.
 
 **Returnerar:**
 boolean
@@ -156,10 +228,11 @@ boolean
 public abstract void setFullScreenMode(boolean value)
 ```
 
-Bestämmer om en video visas i helskärmsläge. Läsa/skriva boolesk.
+
+Bestämmer om en video visas i helskärm. Läs/skriv boolean.
 
 **Parametrar:**
-| Parameter | Type | Description |
+| Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -168,7 +241,8 @@ Bestämmer om en video visas i helskärmsläge. Läsa/skriva boolesk.
 public abstract String getLinkPathLong()
 ```
 
-Returnerar eller ställer in namnet på en videofil som är länkad till en VideoFrame. Läsa/skriva String.
+
+Returnerar eller anger namnet på en videofil som är länkat till en VideoFrame. Läs/skriv String.
 
 **Returnerar:**
 java.lang.String
@@ -177,10 +251,11 @@ java.lang.String
 public abstract void setLinkPathLong(String value)
 ```
 
-Returnerar eller ställer in namnet på en videofil som är länkad till en VideoFrame. Läsa/skriva String.
+
+Returnerar eller anger namnet på en videofil som är länkat till en VideoFrame. Läs/skriv String.
 
 **Parametrar:**
-| Parameter | Type | Description |
+| Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
@@ -189,7 +264,8 @@ Returnerar eller ställer in namnet på en videofil som är länkad till en Vide
 public abstract IVideo getEmbeddedVideo()
 ```
 
-Returnerar eller ställer in inbäddat videoobjekt. Läsa/skriva [IVideo](../../com.aspose.slides/ivideo).
+
+Returnerar eller anger inbäddat videoobjekt. Läs/skriv [IVideo](../../com.aspose.slides/ivideo).
 
 **Returnerar:**
 [IVideo](../../com.aspose.slides/ivideo)
@@ -198,10 +274,11 @@ Returnerar eller ställer in inbäddat videoobjekt. Läsa/skriva [IVideo](../../
 public abstract void setEmbeddedVideo(IVideo value)
 ```
 
-Returnerar eller ställer in inbäddat videoobjekt. Läsa/skriva [IVideo](../../com.aspose.slides/ivideo).
+
+Returnerar eller anger inbäddat videoobjekt. Läs/skriv [IVideo](../../com.aspose.slides/ivideo).
 
 **Parametrar:**
-| Parameter | Type | Description |
+| Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | value | [IVideo](../../com.aspose.slides/ivideo) |  |
 
@@ -210,6 +287,7 @@ Returnerar eller ställer in inbäddat videoobjekt. Läsa/skriva [IVideo](../../
 public abstract float getTrimFromStart()
 ```
 
+
 Trimma start [ms]
 
 --------------------
@@ -222,15 +300,14 @@ Trimma start [ms]
 >      ISlide slide = pres.getSlides().get_Item(0);
 >      IVideo video = pres.getVideos().addVideo(Files.readAllBytes(Paths.get("video.mp4")));
 >      IVideoFrame videoFrame = slide.getShapes().addVideoFrame(0, 0, 100, 100, video);
->      //sätt trimning starttid 1 sek
+>      //sätt trimningsstarttid 1sek
 >      videoFrame.setTrimFromStart(1000f);
->      //sätt trimning sluttid 2 sek
+>      //sätt trimningssluttid 2sek
 >      videoFrame.setTrimFromEnd(2000f);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-
 
 **Returnerar:**
 float
@@ -239,6 +316,7 @@ float
 public abstract void setTrimFromStart(float value)
 ```
 
+
 Trimma start [ms]
 
 --------------------
@@ -251,18 +329,17 @@ Trimma start [ms]
 >      ISlide slide = pres.getSlides().get_Item(0);
 >      IVideo video = pres.getVideos().addVideo(Files.readAllBytes(Paths.get("video.mp4")));
 >      IVideoFrame videoFrame = slide.getShapes().addVideoFrame(0, 0, 100, 100, video);
->      //sätt trimning starttid 1 sek
+>      //sätt trimningsstarttid 1sek
 >      videoFrame.setTrimFromStart(1000f);
->      //sätt trimning sluttid 2 sek
+>      //sätt trimningssluttid 2sek
 >      videoFrame.setTrimFromEnd(2000f);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
 > ```
 
-
 **Parametrar:**
-| Parameter | Type | Description |
+| Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | value | float |  |
 
@@ -270,6 +347,7 @@ Trimma start [ms]
 ```
 public abstract float getTrimFromEnd()
 ```
+
 
 Trimma slut [ms]
 
@@ -280,10 +358,11 @@ float
 public abstract void setTrimFromEnd(float value)
 ```
 
+
 Trimma slut [ms]
 
 **Parametrar:**
-| Parameter | Type | Description |
+| Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | value | float |  |
 
@@ -292,7 +371,8 @@ Trimma slut [ms]
 public abstract ICaptionsCollection getCaptionTracks()
 ```
 
-Hämtar samlingen av undertexter som är kopplade till ljudramen. Denna egendom är endast läsning och returnerar ett [ICaptionsCollection](../../com.aspose.slides/icaptionscollection) som innehåller alla undertextspår.
+
+Hämtar samlingen av stängda undertexter som är associerade med ljudramen. Denna egenskap är endast läsning och returnerar en [ICaptionsCollection](../../com.aspose.slides/icaptionscollection) som innehåller alla undertextspår.
 
 --------------------
 
@@ -308,7 +388,7 @@ Hämtar samlingen av undertexter som är kopplade till ljudramen. Denna egendom 
 >          IVideoFrame videoFrame = (IVideoFrame) shape;
 >          for (ICaptions captionTrack : videoFrame.getCaptionTracks())
 >          {
->              // Extraherar undertexternas binära data och sparar dem till filen
+>              // Extraherar den binära undertextdata och sparar den till filen
 >              FileOutputStream fos = new FileOutputStream(captionTrack.getCaptionId() + ".vtt");
 >              fos.write(captionTrack.getBinaryData());
 >              fos.close();
@@ -318,7 +398,6 @@ Hämtar samlingen av undertexter som är kopplade till ljudramen. Denna egendom 
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-
 
 **Returnerar:**
 [ICaptionsCollection](../../com.aspose.slides/icaptionscollection)

@@ -1,32 +1,33 @@
 ---
 title: ChartCategory
-second_title: Aspose.Slides لجافا - مرجع API
+second_title: مرجع API لـ Aspose.Slides for Java
 description: يمثل فئات المخطط.
 type: docs
 url: /ar/com.aspose.slides/chartcategory/
 ---
-**الوراثة:**
+**الوراثة:**  
 java.lang.Object
 
-**جميع الواجهات المنفذة:**
-[com.aspose.slides.IChartCategory](../../com.aspose.slides/ichartcategory), com.aspose.slides.IDOMObject
+**جميع الواجهات المنفذة:**  
+[com.aspose.slides.IChartCategory](../../com.aspose.slides/ichartcategory), com.aspose.slides.IDOMObject  
 ```
 public class ChartCategory implements IChartCategory, IDOMObject
 ```
 
-يمثل فئات المخطط.
+يمثل فئات المخطط.  
 ## الطرق
 
 | الطريقة | الوصف |
 | --- | --- |
-| [getUseCell()](#getUseCell--) | إذا كان صحيحًا فإن خاصية AsCell هي الفعلية. |
-| [getAsCell()](#getAsCell--) | يرجع أو يضبط كائن IChartDataCell. |
-| [setAsCell(IChartDataCell value)](#setAsCell-com.aspose.slides.IChartDataCell-) | يرجع أو يضبط كائن IChartDataCell. |
-| [getAsLiteral()](#getAsLiteral--) | يرجع أو يضبط كائن AsLiteral. |
-| [setAsLiteral(Object value)](#setAsLiteral-java.lang.Object-) | يرجع أو يضبط كائن AsLiteral. |
-| [getValue()](#getValue--) | إذا كان UseCell صحيحًا فإن هذه الخاصية تمثل خاصية AsCell.Value. |
-| [setValue(Object value)](#setValue-java.lang.Object-) | إذا كان UseCell صحيحًا فإن هذه الخاصية تمثل خاصية AsCell.Value. |
+| [getUseCell()](#getUseCell--) | إذا كان true فإن خاصية AsCell هي الفعلية. |
+| [getAsCell()](#getAsCell--) | إرجاع أو تعيين كائن IChartDataCell. |
+| [setAsCell(IChartDataCell value)](#setAsCell-com.aspose.slides.IChartDataCell-) | إرجاع أو تعيين كائن IChartDataCell. |
+| [getAsLiteral()](#getAsLiteral--) | إرجاع أو تعيين كائن AsLiteral. |
+| [setAsLiteral(Object value)](#setAsLiteral-java.lang.Object-) | إرجاع أو تعيين كائن AsLiteral. |
+| [getValue()](#getValue--) | إذا كان UseCell true فإن هذه الخاصية تمثل خاصية AsCell.Value. |
+| [setValue(Object value)](#setValue-java.lang.Object-) | إذا كان UseCell true فإن هذه الخاصية تمثل خاصية AsCell.Value. |
 | [getGroupingLevels()](#getGroupingLevels--) | حاوية مُدارة لقيم مستويات تجميع فئات المخطط. |
+| [getCachedValue()](#getCachedValue--) | يحصل على القيمة المخزنة مؤقتًا لفئة المخطط. |
 | [remove()](#remove--) | يزيل الفئة من المخطط. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
 ### getUseCell() {#getUseCell--}
@@ -34,86 +35,108 @@ public class ChartCategory implements IChartCategory, IDOMObject
 public final boolean getUseCell()
 ```
 
-إذا كان صحيحًا فإن خاصية AsCell هي الفعلية. بعبارة أخرى، يتم استخدام ورقة العمل لتخزين الفئة (هذا المثال يدعم فئة متعددة المستويات). إذا كان خاطئًا فإن خاصية AsLiteral هي الفعلية. بعبارة أخرى، لا يتم استخدام ورقة العمل لتخزين الفئة (وهذا المثال لا يدعم فئات متعددة المستويات). قراءة فقط من نوع boolean.
+إذا كان true فإن خاصية AsCell هي الفعلية. بمعنى آخر، تُستخدم ورقة العمل لتخزين الفئة (هذه الحالة تدعم فئة متعددة المستويات). إذا كان false فإن خاصية AsLiteral هي الفعلية. بمعنى آخر، لا تُستخدم ورقة العمل لتخزين الفئة (وهذه الحالة لا تدعم فئات متعددة المستويات). قيمة منطقية للقراءة فقط.
 
 --------------------
 
-لتغيير قيمة هذه الخاصية (لكل الفئات في المجموعة) عيّن القيمة الجديدة لخاصية ChartCategoryCollection.UseCells property.
+لتغيير قيمة هذه الخاصية (لكل الفئات في المجموعة) اضبط القيمة الجديدة إلى خاصية ChartCategoryCollection.UseCells.
 
-**القيمة المرجعة:**
+**الإرجاع:**  
 boolean
 ### getAsCell() {#getAsCell--}
 ```
 public final IChartDataCell getAsCell()
 ```
 
-يرجع أو يضبط كائن IChartDataCell. إذا كانت الفئة متعددة المستويات فإن كائن IChartDataCell يُستخدم للمستوى "0". قراءة/كتابة [IChartDataCell](../../com.aspose.slides/ichartdatacell).
+إرجاع أو تعيين كائن IChartDataCell. إذا كانت الفئة متعددة المستويات فسيتم استخدام كائن IChartDataCell للمستوى "0". قراءة/كتابة [IChartDataCell](../../com.aspose.slides/ichartdatacell).
 
-**القيمة المرجعة:**
+**الإرجاع:**  
 [IChartDataCell](../../com.aspose.slides/ichartdatacell)
 ### setAsCell(IChartDataCell value) {#setAsCell-com.aspose.slides.IChartDataCell-}
 ```
 public final void setAsCell(IChartDataCell value)
 ```
 
-يرجع أو يضبط كائن IChartDataCell. إذا كانت الفئة متعددة المستويات فإن كائن IChartDataCell يُستخدم للمستوى "0". قراءة/كتابة [IChartDataCell](../../com.aspose.slides/ichartdatacell).
+إرجاع أو تعيين كائن IChartDataCell. إذا كانت الفئة متعددة المستويات فسيتم استخدام كائن IChartDataCell للمستوى "0". قراءة/كتابة [IChartDataCell](../../com.aspose.slides/ichartdatacell).
 
-**المعلمات:**
+**المعاملات:**  
 | المعامل | النوع | الوصف |
 | --- | --- | --- |
 | value | [IChartDataCell](../../com.aspose.slides/ichartdatacell) |  |
-
 ### getAsLiteral() {#getAsLiteral--}
 ```
 public final Object getAsLiteral()
 ```
 
-يرجع أو يضبط كائن AsLiteral. قراءة/كتابة Object.
+إرجاع أو تعيين كائن AsLiteral. قراءة/كتابة Object.
 
-**القيمة المرجعة:**
+**الإرجاع:**  
 java.lang.Object
 ### setAsLiteral(Object value) {#setAsLiteral-java.lang.Object-}
 ```
 public final void setAsLiteral(Object value)
 ```
 
-يرجع أو يضبط كائن AsLiteral. قراءة/كتابة Object.
+إرجاع أو تعيين كائن AsLiteral. قراءة/كتابة Object.
 
-**المعلمات:**
+**المعاملات:**  
 | المعامل | النوع | الوصف |
 | --- | --- | --- |
 | value | java.lang.Object |  |
-
 ### getValue() {#getValue--}
 ```
 public final Object getValue()
 ```
 
-إذا كان UseCell صحيحًا فإن هذه الخاصية تمثل خاصية AsCell.Value. إذا كان UseCell خاطئًا فإن هذه الخاصية تمثل خاصية AsLiteral. قراءة/كتابة Object.
+إذا كان UseCell true فإن هذه الخاصية تمثل خاصية AsCell.Value. إذا كان UseCell false فإن هذه الخاصية تمثل خاصية AsLiteral. قراءة/كتابة Object.
 
-**القيمة المرجعة:**
+**الإرجاع:**  
 java.lang.Object
 ### setValue(Object value) {#setValue-java.lang.Object-}
 ```
 public final void setValue(Object value)
 ```
 
-إذا كان UseCell صحيحًا فإن هذه الخاصية تمثل خاصية AsCell.Value. إذا كان UseCell خاطئًا فإن هذه الخاصية تمثل خاصية AsLiteral. قراءة/كتابة Object.
+إذا كان UseCell true فإن هذه الخاصية تمثل خاصية AsCell.Value. إذا كان UseCell false فإن هذه الخاصية تمثل خاصية AsLiteral. قراءة/كتابة Object.
 
-**المعلمات:**
+**المعاملات:**  
 | المعامل | النوع | الوصف |
 | --- | --- | --- |
 | value | java.lang.Object |  |
-
 ### getGroupingLevels() {#getGroupingLevels--}
 ```
 public final IChartCategoryLevelsManager getGroupingLevels()
 ```
 
-حاوية مُدارة لقيم مستويات تجميع فئات المخطط. الفئة متعددة المستويات تحتوي على أكثر من مستوى تجميع واحد. فهرسة مستويات التجميع تبدأ من الصفر. قراءة فقط [IChartCategoryLevelsManager](../../com.aspose.slides/ichartcategorylevelsmanager).
+حاوية مُدارة لقيم مستويات تجميع فئة المخطط. الفئة متعددة المستويات تحتوي على أكثر من مستوى تجميع واحد. فهرسة مستويات التجميع تبدأ من الصفر. للقراءة فقط [IChartCategoryLevelsManager](../../com.aspose.slides/ichartcategorylevelsmanager).
 
-**القيمة المرجعة:**
+**الإرجاع:**  
 [IChartCategoryLevelsManager](../../com.aspose.slides/ichartcategorylevelsmanager)
+### getCachedValue() {#getCachedValue--}
+```
+public final ICachedChartValue getCachedValue()
+```
+
+يحصل على القيمة المخزنة مؤقتًا لفئة المخطط. للقراءة فقط [ICachedChartValue](../../com.aspose.slides/icachedchartvalue).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx")
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+> 
+>      // اطبع جميع القيم المخزنة مؤقتًا لفئات المخطط.
+>      for (IChartCategory category : chart.getChartData().getCategories())
+>          System.out.println(category.getCachedValue().toString());
+>  } finally {
+>      pres.dispose();
+>  }
+> ```
+
+
+**الإرجاع:**  
+[ICachedChartValue](../../com.aspose.slides/icachedchartvalue)
 ### remove() {#remove--}
 ```
 public final void remove()
@@ -126,7 +149,7 @@ public final void remove()
 public final IDOMObject getParent_Immediate()
 ```
 
-يرجع كائن Parent_Immediate. قراءة فقط IDOMObject.
+إرجاع كائن Parent_Immediate. للقراءة فقط IDOMObject.
 
-**القيمة المرجعة:**
+**الإرجاع:**  
 com.aspose.slides.IDOMObject

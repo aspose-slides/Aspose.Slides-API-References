@@ -5,40 +5,41 @@ description: Bir TextFrame'i temsil eder.
 type: docs
 url: /tr/com.aspose.slides/itextframe/
 ---
-**Uygulanan Tüm Arayüzler:**
+**Tüm Gerçekleştirilen Arayüzler:**
 [com.aspose.slides.ISlideComponent](../../com.aspose.slides/islidecomponent)
 ```
 public interface ITextFrame extends ISlideComponent
 ```
 
 Bir TextFrame'i temsil eder.
-## Yöntemler
+## Metotlar
 
-| Yöntem | Açıklama |
+| Metot | Açıklama |
 | --- | --- |
 | [getParagraphs()](#getParagraphs--) | Bir çerçevedeki tüm paragrafların listesini döndürür. |
-| [getText()](#getText--) | Bir TextFrame'in düz metnini alır veya ayarlar. |
-| [setText(String value)](#setText-java.lang.String-) | Bir TextFrame'in düz metnini alır veya ayarlar. |
+| [getText()](#getText--) | Bir TextFrame için düz metni alır veya ayarlar. |
+| [setText(String value)](#setText-java.lang.String-) | Bir TextFrame için düz metni alır veya ayarlar. |
 | [getTextFrameFormat()](#getTextFrameFormat--) | Bu TextFrame nesnesi için biçimlendirme nesnesini döndürür. |
-| [getHyperlinkQueries()](#getHyperlinkQueries--) | İçerdiği bağlantılara kolay erişim sağlar. |
-| [getParentShape()](#getParentShape--) | Parent şekli döndürür veya ebeveyn nesne IShape arayüzünü uygulamıyorsa null döndürür. Salt-okunur [IShape](../../com.aspose.slides/ishape). |
-| [getParentCell()](#getParentCell--) | Parent hücreyi döndürür veya ebeveyn nesne ICell arayüzünü uygulamıyorsa null döndürür. |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Tüm paragraflardaki aynı biçimlendirmeye sahip bölümleri birleştirir. |
-| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | Belirtilen metnin tüm eşleşmelerini belirtilen renk ile vurgular. |
-| [splitTextByColumns()](#splitTextByColumns--) | [ITextFrame](../../com.aspose.slides/itextframe)'nin metin içeriğini dize dizisine böler; her öğe çerçevedeki ayrı bir metin sütununa karşılık gelir. |
-| [highlightText(String text, Color highlightColor, ITextHighlightingOptions options)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Belirtilen metnin tüm eşleşmelerini belirtilen renk ile vurgular. |
-| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Belirtilen metnin tüm eşleşmelerini belirtilen renk ile vurgular. |
-| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | Belirtilen düzenli ifadenin tüm eşleşmelerini belirtilen renk ile vurgular. |
-| [highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)](#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Belirtilen düzenli ifadenin tüm eşleşmelerini belirtilen renk ile vurgular. |
+| [getHyperlinkQueries()](#getHyperlinkQueries--) | İçerilen köprüleri kolayca erişilebilir hâle getirir. |
+| [getParentShape()](#getParentShape--) | Ebeveyn şekli döndürür veya ebeveyn nesne IShape arayüzünü uygulamıyorsa null döndürür. Salt okunur [IShape](../../com.aspose.slides/ishape). |
+| [getTextRect()](#getTextRect--) | Ebeveyn şeklinin geometrisi tarafından tanımlanan metin dikdörtgenini alır. |
+| [getParentCell()](#getParentCell--) | Ebeveyn hücreyi döndürür veya ebeveyn nesne ICell arayüzünü uygulamıyorsa null döndürür. |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Tüm paragraflarda aynı biçimlendirmeye sahip bölümleri birleştirir. |
+| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | Örnek metnin tüm eşleşmelerini belirtilen renk ile vurgular. |
+| [splitTextByColumns()](#splitTextByColumns--) | [ITextFrame](../../com.aspose.slides/itextframe) metin içeriğini, çerçeve içinde ayrı bir metin sütununa karşılık gelen dize dizisine böler. |
+| [highlightText(String text, Color highlightColor, ITextHighlightingOptions options)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Örnek metnin tüm eşleşmelerini belirtilen renk ile vurgular. |
+| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Örnek metnin tüm eşleşmelerini belirtilen renk ile vurgular. |
+| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | Düzenli ifadenin tüm eşleşmelerini belirtilen renk ile vurgular. |
+| [highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)](#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Düzenli ifadenin tüm eşleşmelerini belirtilen renk ile vurgular. |
 | [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Belirtilen metnin tüm oluşumlarını başka bir belirtilen metinle değiştirir. |
-| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Belirtilen düzenli ifadenin tüm eşleşmelerini belirtilen dizeyle değiştirir. |
+| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Düzenli ifadenin tüm eşleşmelerini belirtilen dizeyle değiştirir. |
 
 ### getParagraphs() {#getParagraphs--}
 ```
 public abstract IParagraphCollection getParagraphs()
 ```
 
-Bir çerçevedeki tüm paragrafların listesini döndürür. Salt-okunur [IParagraphCollection](../../com.aspose.slides/iparagraphcollection).
+Bir çerçevedeki tüm paragrafların listesini döndürür. Salt okunur [IParagraphCollection](../../com.aspose.slides/iparagraphcollection).
 
 **Döndürür:**
 [IParagraphCollection](../../com.aspose.slides/iparagraphcollection)
@@ -48,7 +49,7 @@ Bir çerçevedeki tüm paragrafların listesini döndürür. Salt-okunur [IParag
 public abstract String getText()
 ```
 
-Bir TextFrame'in düz metnini alır veya ayarlar. Okunur/yazılabilir String.
+Bir TextFrame için düz metni alır veya ayarlar. Okunabilir/Yazılabilir String.
 
 Değer: Metin.
 
@@ -60,7 +61,7 @@ java.lang.String
 public abstract void setText(String value)
 ```
 
-Bir TextFrame'in düz metnini alır veya ayarlar. Okunur/yazılabilir String.
+Bir TextFrame için düz metni alır veya ayarlar. Okunabilir/Yazılabilir String.
 
 Değer: Metin.
 
@@ -74,7 +75,7 @@ Değer: Metin.
 public abstract ITextFrameFormat getTextFrameFormat()
 ```
 
-Bu TextFrame nesnesi için biçimlendirme nesnesini döndürür. Salt-okunur [ITextFrameFormat](../../com.aspose.slides/itextframeformat).
+Bu TextFrame nesnesi için biçimlendirme nesnesini döndürür. Salt okunur [ITextFrameFormat](../../com.aspose.slides/itextframeformat).
 
 **Döndürür:**
 [ITextFrameFormat](../../com.aspose.slides/itextframeformat)
@@ -84,7 +85,7 @@ Bu TextFrame nesnesi için biçimlendirme nesnesini döndürür. Salt-okunur [IT
 public abstract IHyperlinkQueries getHyperlinkQueries()
 ```
 
-İçerdiği bağlantılara kolay erişim sağlar. Salt-okunur [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
+İçerilen köprüleri kolayca erişilebilir hâle getirir. Salt okunur [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
 
 **Döndürür:**
 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)
@@ -94,7 +95,7 @@ public abstract IHyperlinkQueries getHyperlinkQueries()
 public abstract IShape getParentShape()
 ```
 
-Parent şekli döndürür veya ebeveyn nesne IShape arayüzünü uygulamıyorsa null döndürür. Salt-okunur [IShape](../../com.aspose.slides/ishape).
+Ebeveyn şekli döndürür veya ebeveyn nesne IShape arayüzünü uygulamıyorsa null döndürür. Salt okunur [IShape](../../com.aspose.slides/ishape).
 
 --------------------
 
@@ -118,12 +119,25 @@ Parent şekli döndürür veya ebeveyn nesne IShape arayüzünü uygulamıyorsa 
 **Döndürür:**
 [IShape](../../com.aspose.slides/ishape)
 
+### getTextRect() {#getTextRect--}
+```
+public abstract Rectangle2D.Float getTextRect()
+```
+
+Ebeveyn şeklinin geometrisi tarafından tanımlanan metin dikdörtgenini alır.
+
+**Döndürür:**
+java.awt.geom.Rectangle2D.Float - Metin alanını tanımlayan bir java.awt.geom.Rectangle2D.Float nesnesi.
+
+--------------------
+
+Dikdörtgen koordinatları ebeveyn şeklin sol üst köşesine göre görecelidir.
 ### getParentCell() {#getParentCell--}
 ```
 public abstract ICell getParentCell()
 ```
 
-Parent hücreyi döndürür veya ebeveyn nesne ICell arayüzünü uygulamıyorsa null döndürür. Salt-okunur [ICell](../../com.aspose.slides/icell).
+Ebeveyn hücreyi döndürür veya ebeveyn nesne ICell arayüzünü uygulamıyorsa null döndürür. Salt okunur [ICell](../../com.aspose.slides/icell).
 
 --------------------
 
@@ -152,27 +166,27 @@ Parent hücreyi döndürür veya ebeveyn nesne ICell arayüzünü uygulamıyorsa
 public abstract void joinPortionsWithSameFormatting()
 ```
 
-Tüm paragraflardaki aynı biçimlendirmeye sahip bölümleri birleştirir.
+Tüm paragraflarda aynı biçimlendirmeye sahip bölümleri birleştirir.
 
 ### highlightText(String text, Color highlightColor) {#highlightText-java.lang.String-java.awt.Color-}
 ```
 public abstract void highlightText(String text, Color highlightColor)
 ```
 
-Belirtilen metnin tüm eşleşmelerini belirtilen renk ile vurgular.
+Örnek metnin tüm eşleşmelerini belirtilen renk ile vurgular.
 
 **Parametreler:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | text | java.lang.String | Vurgulanacak metin. |
-| highlightColor | java.awt.Color | Metni vurgulamak için renk. |
+| highlightColor | java.awt.Color | Metni vurgulamak için kullanılacak renk. |
 
 ### splitTextByColumns() {#splitTextByColumns--}
 ```
 public abstract String[] splitTextByColumns()
 ```
 
-[ITextFrame](../../com.aspose.slides/itextframe)'nin metin içeriğini dize dizisine böler; her öğe çerçevedeki ayrı bir metin sütununa karşılık gelir.
+[ITextFrame](../../com.aspose.slides/itextframe) metin içeriğini, çerçeve içinde ayrı bir metin sütununa karşılık gelen dize dizisine böler.
 
 --------------------
 
@@ -195,22 +209,23 @@ public abstract String[] splitTextByColumns()
 
 
 **Döndürür:**
-java.lang.String[] - Her bir dize, [ITextFrame](../../com.aspose.slides/itextframe) içinde belirli bir sütunun metin içeriğini temsil eden bir dize dizisidir.
+java.lang.String[] - Her bir dize, [ITextFrame](../../com.aspose.slides/itextframe) içindeki belirli bir sütunun metin içeriğini temsil eden bir dize dizisi.
 
-Eğer metin çerçevesi birden fazla sütun içermiyorsa, döndürülen dizi tam metni içeren tek bir öğeye sahip olur. Boş sütunlar dizide boş dizeler olarak temsil edilir.
+--------------------
 
+Metin çerçevesi birden fazla sütun içermiyorsa, döndürülen dizi tam metni içeren tek bir öğeye sahip olur. Boş sütunlar dizi içinde boş dizelerle temsil edilir.
 ### highlightText(String text, Color highlightColor, ITextHighlightingOptions options) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-}
 ```
 public abstract void highlightText(String text, Color highlightColor, ITextHighlightingOptions options)
 ```
 
-Belirtilen metnin tüm eşleşmelerini belirtilen renk ile vurgular.
+Örnek metnin tüm eşleşmelerini belirtilen renk ile vurgular.
 
 **Parametreler:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | text | java.lang.String | Vurgulanacak metin. |
-| highlightColor | java.awt.Color | Metni vurgulamak için renk. |
+| highlightColor | java.awt.Color | Metni vurgulamak için kullanılacak renk. |
 | options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | Vurgulama seçenekleri. |
 
 ### highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
@@ -218,7 +233,7 @@ Belirtilen metnin tüm eşleşmelerini belirtilen renk ile vurgular.
 public abstract void highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
-Belirtilen metnin tüm eşleşmelerini belirtilen renk ile vurgular.
+Örnek metnin tüm eşleşmelerini belirtilen renk ile vurgular.
 
 --------------------
 
@@ -244,16 +259,16 @@ Belirtilen metnin tüm eşleşmelerini belirtilen renk ile vurgular.
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | text | java.lang.String | Vurgulanacak metin. |
-| highlightColor | java.awt.Color | Metni vurgulamak için renk. |
+| highlightColor | java.awt.Color | Metni vurgulamak için kullanılacak renk. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Metin arama seçenekleri [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Arama sonuçlarını almak için geri çağırma nesnesi [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Arama sonuçlarını almak için kullanılan geri çağırma nesnesi [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback) {#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-}
 ```
 public abstract void highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)
 ```
 
-Belirtilen düzenli ifadenin tüm eşleşmelerini belirtilen renk ile vurgular.
+Düzenli ifadenin tüm eşleşmelerini belirtilen renk ile vurgular.
 
 --------------------
 
@@ -263,7 +278,7 @@ Belirtilen düzenli ifadenin tüm eşleşmelerini belirtilen renk ile vurgular.
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      Pattern regex = Pattern.compile("\\b[^\\s]{5,}\\b");
->      // 5 sembol veya daha uzun tüm kelimeleri vurgulama
+>      // 5 semboldan uzun tüm kelimeleri vurgulama
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightRegex(regex, Color.BLUE, null);
 >      presentation.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -276,21 +291,21 @@ Belirtilen düzenli ifadenin tüm eşleşmelerini belirtilen renk ile vurgular.
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | regex | java.util.regex.Pattern | Vurgulanacak dizeleri elde etmek için java.util.regex.Pattern düzenli ifadesi. |
-| highlightColor | java.awt.Color | Metni vurgulamak için renk. |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Arama sonuçlarını almak için geri çağırma nesnesi [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| highlightColor | java.awt.Color | Metni vurgulamak için kullanılacak renk. |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Arama sonuçlarını almak için kullanılan geri çağırma nesnesi [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options) {#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-}
 ```
 public abstract void highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)
 ```
 
-Belirtilen düzenli ifadenin tüm eşleşmelerini belirtilen renk ile vurgular.
+Düzenli ifadenin tüm eşleşmelerini belirtilen renk ile vurgular.
 
 **Parametreler:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| regex | java.lang.String | Vurgulanacak metni elde etmek için düzenli ifadenin metni. |
-| highlightColor | java.awt.Color | Metni vurgulamak için renk. |
+| regex | java.lang.String | Vurgulanacak metni elde etmek için düzenli ifade metni. |
+| highlightColor | java.awt.Color | Metni vurgulamak için kullanılacak renk. |
 | options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | Vurgulama seçenekleri. |
 
 ### replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback) {#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
@@ -324,14 +339,14 @@ Belirtilen metnin tüm oluşumlarını başka bir belirtilen metinle değiştiri
 | oldText | java.lang.String | Değiştirilecek dize. |
 | newText | java.lang.String | oldText'in tüm oluşumlarını değiştirecek dize. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Metin arama seçenekleri [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Arama sonuçlarını almak için geri çağırma nesnesi [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Arama sonuçlarını almak için kullanılan geri çağırma nesnesi [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### replaceRegex(Pattern regex, String newText, IFindResultCallback callback) {#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-}
 ```
 public abstract void replaceRegex(Pattern regex, String newText, IFindResultCallback callback)
 ```
 
-Belirtilen düzenli ifadenin tüm eşleşmelerini belirtilen dizeyle değiştirir.
+Düzenli ifadenin tüm eşleşmelerini belirtilen dizeyle değiştirir.
 
 --------------------
 
@@ -355,4 +370,4 @@ Belirtilen düzenli ifadenin tüm eşleşmelerini belirtilen dizeyle değiştiri
 | --- | --- | --- |
 | regex | java.util.regex.Pattern | Değiştirilecek dizeleri elde etmek için java.util.regex.Pattern düzenli ifadesi. |
 | newText | java.lang.String | Değiştirilecek dizelerin tüm oluşumlarını değiştirecek dize. |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Arama sonuçlarını almak için geri çağırma nesnesi [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Arama sonuçlarını almak için kullanılan geri çağırma nesnesi [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |

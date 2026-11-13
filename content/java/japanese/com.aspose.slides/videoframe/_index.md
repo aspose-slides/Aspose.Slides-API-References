@@ -8,7 +8,7 @@ url: /ja/com.aspose.slides/videoframe/
 **継承:**  
 java.lang.Object, [com.aspose.slides.Shape](../../com.aspose.slides/shape), [com.aspose.slides.GeometryShape](../../com.aspose.slides/geometryshape), [com.aspose.slides.PictureFrame](../../com.aspose.slides/pictureframe)
 
-**実装されたすべてのインターフェイス:**  
+**実装されているすべてのインターフェイス:**  
 [com.aspose.slides.IVideoFrame](../../com.aspose.slides/ivideoframe)  
 ```
 public class VideoFrame extends PictureFrame implements IVideoFrame
@@ -16,18 +16,20 @@ public class VideoFrame extends PictureFrame implements IVideoFrame
 
 スライド上のビデオクリップを表します。
 
-## メソッド
+## Methods
 
 | メソッド | 説明 |
 | --- | --- |
-| [getRewindVideo()](#getRewindVideo--) | ビデオが再生完了した直後に自動的に先頭に巻き戻されるかどうかを判定します。 |
-| [setRewindVideo(boolean value)](#setRewindVideo-boolean-) | ビデオが再生完了した直後に自動的に先頭に巻き戻されるかどうかを判定します。 |
-| [getPlayLoopMode()](#getPlayLoopMode--) | ビデオがループされるかどうかを判定します。 |
-| [setPlayLoopMode(boolean value)](#setPlayLoopMode-boolean-) | ビデオがループされるかどうかを判定します。 |
+| [getRewindVideo()](#getRewindVideo--) | 映画の再生が終了した直後にビデオが自動的に先頭に巻き戻されるかどうかを判定します。 |
+| [setRewindVideo(boolean value)](#setRewindVideo-boolean-) | 映画の再生が終了した直後にビデオが自動的に先頭に巻き戻されるかどうかを判定します。 |
+| [getPlayLoopMode()](#getPlayLoopMode--) | ビデオがループ再生されるかどうかを判定します。 |
+| [setPlayLoopMode(boolean value)](#setPlayLoopMode-boolean-) | ビデオがループ再生されるかどうかを判定します。 |
 | [getHideAtShowing()](#getHideAtShowing--) | VideoFrame が非表示かどうかを判定します。 |
 | [setHideAtShowing(boolean value)](#setHideAtShowing-boolean-) | VideoFrame が非表示かどうかを判定します。 |
 | [getVolume()](#getVolume--) | オーディオボリュームを取得または設定します。 |
 | [setVolume(int value)](#setVolume-int-) | オーディオボリュームを取得または設定します。 |
+| [getVolumeValue()](#getVolumeValue--) | ビデオボリュームをパーセンテージで正確に取得または設定します。 |
+| [setVolumeValue(float value)](#setVolumeValue-float-) | ビデオボリュームをパーセンテージで正確に取得または設定します。 |
 | [getPlayMode()](#getPlayMode--) | ビデオ再生モードを取得または設定します。 |
 | [setPlayMode(int value)](#setPlayMode-int-) | ビデオ再生モードを取得または設定します。 |
 | [getFullScreenMode()](#getFullScreenMode--) | ビデオが全画面モードで表示されるかどうかを判定します。 |
@@ -36,10 +38,10 @@ public class VideoFrame extends PictureFrame implements IVideoFrame
 | [setLinkPathLong(String value)](#setLinkPathLong-java.lang.String-) | VideoFrame にリンクされたビデオファイルの名前を取得または設定します。 |
 | [getEmbeddedVideo()](#getEmbeddedVideo--) | 埋め込みビデオオブジェクトを取得または設定します。 |
 | [setEmbeddedVideo(IVideo value)](#setEmbeddedVideo-com.aspose.slides.IVideo-) | 埋め込みビデオオブジェクトを取得または設定します。 |
-| [getTrimFromStart()](#getTrimFromStart--) | 開始位置のトリミング [ms] |
-| [setTrimFromStart(float value)](#setTrimFromStart-float-) | 開始位置のトリミング [ms] |
-| [getTrimFromEnd()](#getTrimFromEnd--) | 終了位置のトリミング [ms] |
-| [setTrimFromEnd(float value)](#setTrimFromEnd-float-) | 終了位置のトリミング [ms] |
+| [getTrimFromStart()](#getTrimFromStart--) | 開始トリム [ms] |
+| [setTrimFromStart(float value)](#setTrimFromStart-float-) | 開始トリム [ms] |
+| [getTrimFromEnd()](#getTrimFromEnd--) | 終了トリム [ms] |
+| [setTrimFromEnd(float value)](#setTrimFromEnd-float-) | 終了トリム [ms] |
 | [getCaptionTracks()](#getCaptionTracks--) | ビデオフレームに関連付けられたクローズドキャプションのコレクションを取得します。 |
 
 ### getRewindVideo() {#getRewindVideo--}
@@ -47,9 +49,9 @@ public class VideoFrame extends PictureFrame implements IVideoFrame
 public final boolean getRewindVideo()
 ```
 
-ビデオが再生完了した直後に自動的に先頭に巻き戻されるかどうかを判定します。読み書き可能な boolean。
+映画の再生が終了した直後にビデオが自動的に先頭に巻き戻されるかどうかを判定します。読み取り/書き込み boolean.
 
-**戻り値:**  
+**Returns:**  
 boolean
 
 ### setRewindVideo(boolean value) {#setRewindVideo-boolean-}
@@ -57,10 +59,10 @@ boolean
 public final void setRewindVideo(boolean value)
 ```
 
-ビデオが再生完了した直後に自動的に先頭に巻き戻されるかどうかを判定します。読み書き可能な boolean。
+映画の再生が終了した直後にビデオが自動的に先頭に巻き戻されるかどうかを判定します。読み取り/書き込み boolean.
 
-**パラメータ:**  
-| パラメータ | 型 | 説明 |
+**Parameters:**  
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -69,9 +71,9 @@ public final void setRewindVideo(boolean value)
 public final boolean getPlayLoopMode()
 ```
 
-ビデオがループされるかどうかを判定します。読み書き可能な boolean。
+ビデオがループ再生されるかどうかを判定します。読み取り/書き込み boolean.
 
-**戻り値:**  
+**Returns:**  
 boolean
 
 ### setPlayLoopMode(boolean value) {#setPlayLoopMode-boolean-}
@@ -79,10 +81,10 @@ boolean
 public final void setPlayLoopMode(boolean value)
 ```
 
-ビデオがループされるかどうかを判定します。読み書き可能な boolean。
+ビデオがループ再生されるかどうかを判定します。読み取り/書き込み boolean.
 
-**パラメータ:**  
-| パラメータ | 型 | 説明 |
+**Parameters:**  
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -91,9 +93,9 @@ public final void setPlayLoopMode(boolean value)
 public final boolean getHideAtShowing()
 ```
 
-VideoFrame が非表示かどうかを判定します。読み書き可能な boolean。
+VideoFrame が非表示かどうかを判定します。読み取り/書き込み boolean.
 
-**戻り値:**  
+**Returns:**  
 boolean
 
 ### setHideAtShowing(boolean value) {#setHideAtShowing-boolean-}
@@ -101,10 +103,10 @@ boolean
 public final void setHideAtShowing(boolean value)
 ```
 
-VideoFrame が非表示かどうかを判定します。読み書き可能な boolean。
+VideoFrame が非表示かどうかを判定します。読み取り/書き込み boolean.
 
-**パラメータ:**  
-| パラメータ | 型 | 説明 |
+**Parameters:**  
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -113,9 +115,9 @@ VideoFrame が非表示かどうかを判定します。読み書き可能な bo
 public final int getVolume()
 ```
 
-オーディオボリュームを取得または設定します。読み書き可能な [AudioVolumeMode](../../com.aspose.slides/audiovolumemode)。
+オーディオボリュームを取得または設定します。読み取り/書き込み [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
 
-**戻り値:**  
+**Returns:**  
 int
 
 ### setVolume(int value) {#setVolume-int-}
@@ -123,21 +125,79 @@ int
 public final void setVolume(int value)
 ```
 
-オーディオボリュームを取得または設定します。読み書き可能な [AudioVolumeMode](../../com.aspose.slides/audiovolumemode)。
+オーディオボリュームを取得または設定します。読み取り/書き込み [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
 
-**パラメータ:**  
-| パラメータ | 型 | 説明 |
+**Parameters:**  
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### getVolumeValue() {#getVolumeValue--}
+```
+public final float getVolumeValue()
+```
+
+ビデオボリュームをパーセンテージで正確に取得または設定します。値は 0 から 100 のパーセンテージで表されます。#getVolume.getVolume/#setVolume(int) プロパティよりも細かい音量を読み書きする場合に使用します。読み取り/書き込み float.
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video.pptx");
+>  try {
+>      IVideoFrame videoFrame = (IVideoFrame)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // 現在の正確な音量を読み取り、75.5% に設定します。
+>      float currentVolume = videoFrame.getVolumeValue();
+>      System.out.println(currentVolume);
+>      videoFrame.setVolumeValue(75.5f);
+>      pres.save("video_with_volume.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**  
+float
+
+### setVolumeValue(float value) {#setVolumeValue-float-}
+```
+public final void setVolumeValue(float value)
+```
+
+ビデオボリュームをパーセンテージで正確に取得または設定します。値は 0 から 100 のパーセンテージで表されます。#getVolume.getVolume/#setVolume(int) プロパティよりも細かい音量を読み書きする場合に使用します。読み取り/書き込み float.
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video.pptx");
+>  try {
+>      IVideoFrame videoFrame = (IVideoFrame)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // 現在の正確な音量を読み取り、75.5% に設定します。
+>      float currentVolume = videoFrame.getVolumeValue();
+>      System.out.println(currentVolume);
+>      videoFrame.setVolumeValue(75.5f);
+>      pres.save("video_with_volume.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**  
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | float |  |
 
 ### getPlayMode() {#getPlayMode--}
 ```
 public final int getPlayMode()
 ```
 
-ビデオ再生モードを取得または設定します。読み書き可能な [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset)。
+ビデオ再生モードを取得または設定します。読み取り/書き込み [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
 
-**戻り値:**  
+**Returns:**  
 int
 
 ### setPlayMode(int value) {#setPlayMode-int-}
@@ -145,10 +205,10 @@ int
 public final void setPlayMode(int value)
 ```
 
-ビデオ再生モードを取得または設定します。読み書き可能な [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset)。
+ビデオ再生モードを取得または設定します。読み取り/書き込み [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
 
-**パラメータ:**  
-| パラメータ | 型 | 説明 |
+**Parameters:**  
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
@@ -157,9 +217,9 @@ public final void setPlayMode(int value)
 public final boolean getFullScreenMode()
 ```
 
-ビデオが全画面モードで表示されるかどうかを判定します。読み書き可能な boolean。
+ビデオが全画面モードで表示されるかどうかを判定します。読み取り/書き込み boolean.
 
-**戻り値:**  
+**Returns:**  
 boolean
 
 ### setFullScreenMode(boolean value) {#setFullScreenMode-boolean-}
@@ -167,10 +227,10 @@ boolean
 public final void setFullScreenMode(boolean value)
 ```
 
-ビデオが全画面モードで表示されるかどうかを判定します。読み書き可能な boolean。
+ビデオが全画面モードで表示されるかどうかを判定します。読み取り/書き込み boolean.
 
-**パラメータ:**  
-| パラメータ | 型 | 説明 |
+**Parameters:**  
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -179,9 +239,9 @@ public final void setFullScreenMode(boolean value)
 public final String getLinkPathLong()
 ```
 
-VideoFrame にリンクされたビデオファイルの名前を取得または設定します。読み書き可能な String。
+VideoFrame にリンクされたビデオファイルの名前を取得または設定します。読み取り/書き込み String.
 
-**戻り値:**  
+**Returns:**  
 java.lang.String
 
 ### setLinkPathLong(String value) {#setLinkPathLong-java.lang.String-}
@@ -189,10 +249,10 @@ java.lang.String
 public final void setLinkPathLong(String value)
 ```
 
-VideoFrame にリンクされたビデオファイルの名前を取得または設定します。読み書き可能な String。
+VideoFrame にリンクされたビデオファイルの名前を取得または設定します。読み取り/書き込み String.
 
-**パラメータ:**  
-| パラメータ | 型 | 説明 |
+**Parameters:**  
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
@@ -201,9 +261,9 @@ VideoFrame にリンクされたビデオファイルの名前を取得または
 public final IVideo getEmbeddedVideo()
 ```
 
-埋め込みビデオオブジェクトを取得または設定します。読み書き可能な [IVideo](../../com.aspose.slides/ivideo)。
+埋め込みビデオオブジェクトを取得または設定します。読み取り/書き込み [IVideo](../../com.aspose.slides/ivideo).
 
-**戻り値:**  
+**Returns:**  
 [IVideo](../../com.aspose.slides/ivideo)
 
 ### setEmbeddedVideo(IVideo value) {#setEmbeddedVideo-com.aspose.slides.IVideo-}
@@ -211,10 +271,10 @@ public final IVideo getEmbeddedVideo()
 public final void setEmbeddedVideo(IVideo value)
 ```
 
-埋め込みビデオオブジェクトを取得または設定します。読み書き可能な [IVideo](../../com.aspose.slides/ivideo)。
+埋め込みビデオオブジェクトを取得または設定します。読み取り/書き込み [IVideo](../../com.aspose.slides/ivideo).
 
-**パラメータ:**  
-| パラメータ | 型 | 説明 |
+**Parameters:**  
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | [IVideo](../../com.aspose.slides/ivideo) |  |
 
@@ -223,7 +283,7 @@ public final void setEmbeddedVideo(IVideo value)
 public final float getTrimFromStart()
 ```
 
-開始位置のトリミング [ms]
+開始トリム [ms]
 
 --------------------
 
@@ -244,8 +304,7 @@ public final float getTrimFromStart()
 >  }
 > ```
 
-
-**戻り値:**  
+**Returns:**  
 float
 
 ### setTrimFromStart(float value) {#setTrimFromStart-float-}
@@ -253,7 +312,7 @@ float
 public final void setTrimFromStart(float value)
 ```
 
-開始位置のトリミング [ms]
+開始トリム [ms]
 
 --------------------
 
@@ -274,9 +333,8 @@ public final void setTrimFromStart(float value)
 >  }
 > ```
 
-
-**パラメータ:**  
-| パラメータ | 型 | 説明 |
+**Parameters:**  
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | float |  |
 
@@ -285,9 +343,9 @@ public final void setTrimFromStart(float value)
 public final float getTrimFromEnd()
 ```
 
-終了位置のトリミング [ms]
+終了トリム [ms]
 
-**戻り値:**  
+**Returns:**  
 float
 
 ### setTrimFromEnd(float value) {#setTrimFromEnd-float-}
@@ -295,10 +353,10 @@ float
 public final void setTrimFromEnd(float value)
 ```
 
-終了位置のトリミング [ms]
+終了トリム [ms]
 
-**パラメータ:**  
-| パラメータ | 型 | 説明 |
+**Parameters:**  
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | float |  |
 
@@ -323,7 +381,7 @@ public final ICaptionsCollection getCaptionTracks()
 >          IVideoFrame videoFrame = (IVideoFrame) shape;
 >          for (ICaptions captionTrack : videoFrame.getCaptionTracks())
 >          {
->              //キャプションのバイナリデータを抽出し、ファイルに保存します
+>              // キャプションのバイナリデータを抽出し、ファイルに保存します。
 >              FileOutputStream fos = new FileOutputStream(captionTrack.getCaptionId() + ".vtt");
 >              fos.write(captionTrack.getBinaryData());
 >              fos.close();
@@ -334,6 +392,5 @@ public final ICaptionsCollection getCaptionTracks()
 >  }
 > ```
 
-
-**戻り値:**  
+**Returns:**  
 [ICaptionsCollection](../../com.aspose.slides/icaptionscollection)

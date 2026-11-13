@@ -1,102 +1,107 @@
 ---
 title: IVideoFrame
-second_title: Αναφορά API του Aspose.Slides για Java
-description: Αντιπροσωπεύει ένα απόσπασμα βίντεο σε μια διαφάνεια.
+second_title: Aspose.Slides για την τεκμηρίωση API της Java
+description: Αναπαριστά ένα βίντεο σε μια διαφάνεια.
 type: docs
 url: /el/com.aspose.slides/ivideoframe/
 ---
-**Όλες οι Υλοποιημένες Διεπαφές:**
+**Όλες οι υλοποιημένες διεπαφές:**
 [com.aspose.slides.IPictureFrame](../../com.aspose.slides/ipictureframe)
 ```
 public interface IVideoFrame extends IPictureFrame
 ```
 
-Αντιπροσωπεύει ένα απόσπασμα βίντεο σε μια διαφάνεια.
+Αναπαριστά ένα βίντεο σε μια διαφάνεια.
 ## Μέθοδοι
 
 | Μέθοδος | Περιγραφή |
 | --- | --- |
-| [getRewindVideo()](#getRewindVideo--) | Καθορίζει εάν ένα βίντεο επαναφέρεται αυτόματα στην αρχή μόλις ολοκληρωθεί η αναπαραγωγή της ταινίας. |
-| [setRewindVideo(boolean value)](#setRewindVideo-boolean-) | Καθορίζει εάν ένα βίντεο επαναφέρεται αυτόματα στην αρχή μόλις ολοκληρωθεί η αναπαραγωγή της ταινίας. |
-| [getPlayLoopMode()](#getPlayLoopMode--) | Καθορίζει εάν ένα βίντεο επαναλαμβάνεται. |
-| [setPlayLoopMode(boolean value)](#setPlayLoopMode-boolean-) | Καθορίζει εάν ένα βίντεο επαναλαμβάνεται. |
-| [getHideAtShowing()](#getHideAtShowing--) | Καθορίζει εάν ένα VideoFrame είναι κρυφό. |
-| [setHideAtShowing(boolean value)](#setHideAtShowing-boolean-) | Καθορίζει εάν ένα VideoFrame είναι κρυφό. |
+| [getRewindVideo()](#getRewindVideo--) | Καθορίζει αν ένα βίντεο επανέρχεται αυτόματα στην αρχή μόλις ολοκληρωθεί η αναπαραγωγή του. |
+| [setRewindVideo(boolean value)](#setRewindVideo-boolean-) | Καθορίζει αν ένα βίντεο επανέρχεται αυτόματα στην αρχή μόλις ολοκληρωθεί η αναπαραγωγή του. |
+| [getPlayLoopMode()](#getPlayLoopMode--) | Καθορίζει αν ένα βίντεο επαναλαμβάνεται σε βρόχο. |
+| [setPlayLoopMode(boolean value)](#setPlayLoopMode-boolean-) | Καθορίζει αν ένα βίντεο επαναλαμβάνεται σε βρόχο. |
+| [getHideAtShowing()](#getHideAtShowing--) | Καθορίζει αν ένα VideoFrame είναι κρυφό. |
+| [setHideAtShowing(boolean value)](#setHideAtShowing-boolean-) | Καθορίζει αν ένα VideoFrame είναι κρυφό. |
 | [getVolume()](#getVolume--) | Επιστρέφει ή ορίζει την ένταση ήχου. |
 | [setVolume(int value)](#setVolume-int-) | Επιστρέφει ή ορίζει την ένταση ήχου. |
+| [getVolumeValue()](#getVolumeValue--) | Επιστρέφει ή ορίζει την ακριβή ένταση βίντεο ως ποσοστό. |
+| [setVolumeValue(float value)](#setVolumeValue-float-) | Επιστρέφει ή ορίζει την ακριβή ένταση βίντεο ως ποσοστό. |
 | [getPlayMode()](#getPlayMode--) | Επιστρέφει ή ορίζει τη λειτουργία αναπαραγωγής βίντεο. |
 | [setPlayMode(int value)](#setPlayMode-int-) | Επιστρέφει ή ορίζει τη λειτουργία αναπαραγωγής βίντεο. |
-| [getFullScreenMode()](#getFullScreenMode--) | Καθορίζει εάν ένα βίντεο εμφανίζεται σε λειτουργία πλήρους οθόνης. |
-| [setFullScreenMode(boolean value)](#setFullScreenMode-boolean-) | Καθορίζει εάν ένα βίντεο εμφανίζεται σε λειτουργία πλήρους οθόνης. |
-| [getLinkPathLong()](#getLinkPathLong--) | Επιστρέφει ή ορίζει το όνομα ενός αρχείου βίντεο που είναι συνδεδεμένο με ένα VideoFrame. |
-| [setLinkPathLong(String value)](#setLinkPathLong-java.lang.String-) | Επιστρέφει ή ορίζει το όνομα ενός αρχείου βίντεο που είναι συνδεδεμένο με ένα VideoFrame. |
+| [getFullScreenMode()](#getFullScreenMode--) | Καθορίζει αν ένα βίντεο εμφανίζεται σε λειτουργία πλήρους οθόνης. |
+| [setFullScreenMode(boolean value)](#setFullScreenMode-boolean-) | Καθορίζει αν ένα βίντεο εμφανίζεται σε λειτουργία πλήρους οθόνης. |
+| [getLinkPathLong()](#getLinkPathLong--) | Επιστρέφει ή ορίζει το όνομα ενός αρχείου βίντεο που συνδέεται με ένα VideoFrame. |
+| [setLinkPathLong(String value)](#setLinkPathLong-java.lang.String-) | Επιστρέφει ή ορίζει το όνομα ενός αρχείου βίντεο που συνδέεται με ένα VideoFrame. |
 | [getEmbeddedVideo()](#getEmbeddedVideo--) | Επιστρέφει ή ορίζει ενσωματωμένο αντικείμενο βίντεο. |
 | [setEmbeddedVideo(IVideo value)](#setEmbeddedVideo-com.aspose.slides.IVideo-) | Επιστρέφει ή ορίζει ενσωματωμένο αντικείμενο βίντεο. |
-| [getTrimFromStart()](#getTrimFromStart--) | Περικοπή από την αρχή [ms] |
-| [setTrimFromStart(float value)](#setTrimFromStart-float-) | Περικοπή από την αρχή [ms] |
-| [getTrimFromEnd()](#getTrimFromEnd--) | Περικοπή από το τέλος [ms] |
-| [setTrimFromEnd(float value)](#setTrimFromEnd-float-) | Περικοπή από το τέλος [ms] |
-| [getCaptionTracks()](#getCaptionTracks--) | Παίρνει τη συλλογή των κλειστών υπότιτλων που σχετίζονται με το πλαίσιο ήχου. |
+| [getTrimFromStart()](#getTrimFromStart--) | Περικοπή έναρξης [ms] |
+| [setTrimFromStart(float value)](#setTrimFromStart-float-) | Περικοπή έναρξης [ms] |
+| [getTrimFromEnd()](#getTrimFromEnd--) | Περικοπή λήξης [ms] |
+| [setTrimFromEnd(float value)](#setTrimFromEnd-float-) | Περικοπή λήξης [ms] |
+| [getCaptionTracks()](#getCaptionTracks--) | Λαμβάνει τη συλλογή των κλειστών λεζαντών που σχετίζονται με το πλαίσιο ήχου. |
 ### getRewindVideo() {#getRewindVideo--}
 ```
 public abstract boolean getRewindVideo()
 ```
 
-Καθορίζει εάν ένα βίντεο επαναφέρεται αυτόματα στην αρχή μόλις ολοκληρωθεί η αναπαραγωγή της ταινίας. Ανάγνωση/εγγραφή boolean.
+Καθορίζει αν ένα βίντεο επανέρχεται αυτόματα στην αρχή μόλις ολοκληρωθεί η αναπαραγωγή του. Ανάγνωση/εγγραφή boolean.
 
-**Επιστρέφει:**
+**Returns:**
 boolean
 ### setRewindVideo(boolean value) {#setRewindVideo-boolean-}
 ```
 public abstract void setRewindVideo(boolean value)
 ```
 
-Καθορίζει εάν ένα βίντεο επαναφέρεται αυτόματα στην αρχή μόλις ολοκληρωθεί η αναπαραγωγή της ταινίας. Ανάγνωση/εγγραφή boolean.
+Καθορίζει αν ένα βίντεο επανέρχεται αυτόματα στην αρχή μόλις ολοκληρωθεί η αναπαραγωγή του. Ανάγνωση/εγγραφή boolean.
 
-**Παράμετροι:**
+**Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
 ### getPlayLoopMode() {#getPlayLoopMode--}
 ```
 public abstract boolean getPlayLoopMode()
 ```
 
-Καθορίζει εάν ένα βίντεο επαναλαμβάνεται. Ανάγνωση/εγγραφή boolean.
+Καθορίζει αν ένα βίντεο επαναλαμβάνεται σε βρόχο. Ανάγνωση/εγγραφή boolean.
 
-**Επιστρέφει:**
+**Returns:**
 boolean
 ### setPlayLoopMode(boolean value) {#setPlayLoopMode-boolean-}
 ```
 public abstract void setPlayLoopMode(boolean value)
 ```
 
-Καθορίζει εάν ένα βίντεο επαναλαμβάνεται. Ανάγνωση/εγγραφή boolean.
+Καθορίζει αν ένα βίντεο επαναλαμβάνεται σε βρόχο. Ανάγνωση/εγγραφή boolean.
 
-**Παράμετροι:**
+**Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
 ### getHideAtShowing() {#getHideAtShowing--}
 ```
 public abstract boolean getHideAtShowing()
 ```
 
-Καθορίζει εάν ένα VideoFrame είναι κρυφό. Ανάγνωση/εγγραφή boolean.
+Καθορίζει αν ένα VideoFrame είναι κρυφό. Ανάγνωση/εγγραφή boolean.
 
-**Επιστρέφει:**
+**Returns:**
 boolean
 ### setHideAtShowing(boolean value) {#setHideAtShowing-boolean-}
 ```
 public abstract void setHideAtShowing(boolean value)
 ```
 
-Καθορίζει εάν ένα VideoFrame είναι κρυφό. Ανάγνωση/εγγραφή boolean.
+Καθορίζει αν ένα VideoFrame είναι κρυφό. Ανάγνωση/εγγραφή boolean.
 
-**Παράμετροι:**
+**Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
 ### getVolume() {#getVolume--}
 ```
 public abstract int getVolume()
@@ -104,7 +109,7 @@ public abstract int getVolume()
 
 Επιστρέφει ή ορίζει την ένταση ήχου. Ανάγνωση/εγγραφή [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
 
-**Επιστρέφει:**
+**Returns:**
 int
 ### setVolume(int value) {#setVolume-int-}
 ```
@@ -113,10 +118,68 @@ public abstract void setVolume(int value)
 
 Επιστρέφει ή ορίζει την ένταση ήχου. Ανάγνωση/εγγραφή [AudioVolumeMode](../../com.aspose.slides/audiovolumemode).
 
-**Παράμετροι:**
+**Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### getVolumeValue() {#getVolumeValue--}
+```
+public abstract float getVolumeValue()
+```
+
+Επιστρέφει ή ορίζει την ακριβή ένταση βίντεο ως ποσοστό. Η τιμή εκφράζεται ως ποσοστό από 0 έως 100. Χρησιμοποιήστε αυτήν την ιδιότητα για να διαβάσετε ή να ορίσετε τιμές έντασης που είναι πιο ακριβείς από τα προκαθορισμένα επίπεδα που διατίθενται μέσω της ιδιότητας Volume (\#getVolume.getVolume/\#setVolume(int).setVolume(int)). Ανάγνωση/εγγραφή float.
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video.pptx");
+>  try {
+>      IVideoFrame videoFrame = (IVideoFrame)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // Διαβάστε την τρέχουσα ακριβή ένταση και ορίστε την στο 75.5 τοις εκατό.
+>      float currentVolume = videoFrame.getVolumeValue();
+>      System.out.println(currentVolume);
+>      videoFrame.setVolumeValue(75.5f);
+>      pres.save("video_with_volume.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+float
+### setVolumeValue(float value) {#setVolumeValue-float-}
+```
+public abstract void setVolumeValue(float value)
+```
+
+Επιστρέφει ή ορίζει την ακριβή ένταση βίντεο ως ποσοστό. Η τιμή εκφράζεται ως ποσοστό από 0 έως 100. Χρησιμοποιήστε αυτήν την ιδιότητα για να διαβάσετε ή να ορίσετε τιμές έντασης που είναι πιο ακριβείς από τα προκαθορισμένα επίπεδα που διατίθενται μέσω της ιδιότητας Volume (\#getVolume.getVolume/\#setVolume(int).setVolume(int)). Ανάγνωση/εγγραφή float.
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video.pptx");
+>  try {
+>      IVideoFrame videoFrame = (IVideoFrame)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // Διαβάστε την τρέχουσα ακριβή ένταση και ορίστε την στο 75.5 τοις εκατό.
+>      float currentVolume = videoFrame.getVolumeValue();
+>      System.out.println(currentVolume);
+>      videoFrame.setVolumeValue(75.5f);
+>      pres.save("video_with_volume.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | float |  |
+
 ### getPlayMode() {#getPlayMode--}
 ```
 public abstract int getPlayMode()
@@ -124,7 +187,7 @@ public abstract int getPlayMode()
 
 Επιστρέφει ή ορίζει τη λειτουργία αναπαραγωγής βίντεο. Ανάγνωση/εγγραφή [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
 
-**Επιστρέφει:**
+**Returns:**
 int
 ### setPlayMode(int value) {#setPlayMode-int-}
 ```
@@ -133,50 +196,53 @@ public abstract void setPlayMode(int value)
 
 Επιστρέφει ή ορίζει τη λειτουργία αναπαραγωγής βίντεο. Ανάγνωση/εγγραφή [VideoPlayModePreset](../../com.aspose.slides/videoplaymodepreset).
 
-**Παράμετροι:**
+**Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
 ### getFullScreenMode() {#getFullScreenMode--}
 ```
 public abstract boolean getFullScreenMode()
 ```
 
-Καθορίζει εάν ένα βίντεο εμφανίζεται σε λειτουργία πλήρους οθόνης. Ανάγνωση/εγγραφή boolean.
+Καθορίζει αν ένα βίντεο εμφανίζεται σε λειτουργία πλήρους οθόνης. Ανάγνωση/εγγραφή boolean.
 
-**Επιστρέφει:**
+**Returns:**
 boolean
 ### setFullScreenMode(boolean value) {#setFullScreenMode-boolean-}
 ```
 public abstract void setFullScreenMode(boolean value)
 ```
 
-Καθορίζει εάν ένα βίντεο εμφανίζεται σε λειτουργία πλήρους οθόνης. Ανάγνωση/εγγραφή boolean.
+Καθορίζει αν ένα βίντεο εμφανίζεται σε λειτουργία πλήρους οθάννης. Ανάγνωση/εγγραφή boolean.
 
-**Παράμετροι:**
+**Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
 ### getLinkPathLong() {#getLinkPathLong--}
 ```
 public abstract String getLinkPathLong()
 ```
 
-Επιστρέφει ή ορίζει το όνομα ενός αρχείου βίντεο που είναι συνδεδεμένο με ένα VideoFrame. Ανάγνωση/εγγραφή String.
+Επιστρέφει ή ορίζει το όνομα ενός αρχείου βίντεο που συνδέεται με ένα VideoFrame. Ανάγνωση/εγγραφή String.
 
-**Επιστρέφει:**
+**Returns:**
 java.lang.String
 ### setLinkPathLong(String value) {#setLinkPathLong-java.lang.String-}
 ```
 public abstract void setLinkPathLong(String value)
 ```
 
-Επιστρέφει ή ορίζει το όνομα ενός αρχείου βίντεο που είναι συνδεδεμένο με ένα VideoFrame. Ανάγνωση/εγγραφή String.
+Επιστρέφει ή ορίζει το όνομα ενός αρχείου βίντεο που συνδέεται με ένα VideoFrame. Ανάγνωση/εγγραφή String.
 
-**Παράμετροι:**
+**Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
 ### getEmbeddedVideo() {#getEmbeddedVideo--}
 ```
 public abstract IVideo getEmbeddedVideo()
@@ -184,7 +250,7 @@ public abstract IVideo getEmbeddedVideo()
 
 Επιστρέφει ή ορίζει ενσωματωμένο αντικείμενο βίντεο. Ανάγνωση/εγγραφή [IVideo](../../com.aspose.slides/ivideo).
 
-**Επιστρέφει:**
+**Returns:**
 [IVideo](../../com.aspose.slides/ivideo)
 ### setEmbeddedVideo(IVideo value) {#setEmbeddedVideo-com.aspose.slides.IVideo-}
 ```
@@ -193,16 +259,17 @@ public abstract void setEmbeddedVideo(IVideo value)
 
 Επιστρέφει ή ορίζει ενσωματωμένο αντικείμενο βίντεο. Ανάγνωση/εγγραφή [IVideo](../../com.aspose.slides/ivideo).
 
-**Παράμετροι:**
+**Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [IVideo](../../com.aspose.slides/ivideo) |  |
+
 ### getTrimFromStart() {#getTrimFromStart--}
 ```
 public abstract float getTrimFromStart()
 ```
 
-Περικοπή από την αρχή [ms]
+Περικοπή έναρξης [ms]
 
 --------------------
 
@@ -214,23 +281,23 @@ public abstract float getTrimFromStart()
 >      ISlide slide = pres.getSlides().get_Item(0);
 >      IVideo video = pres.getVideos().addVideo(Files.readAllBytes(Paths.get("video.mp4")));
 >      IVideoFrame videoFrame = slide.getShapes().addVideoFrame(0, 0, 100, 100, video);
->      //set triming start time 1sec
+>      //ορίστε τον χρόνο έναρξης περικοπής σε 1 δευτερόλεπτο
 >      videoFrame.setTrimFromStart(1000f);
->      //set triming end time 2sec
+>      //ορίστε τον χρόνο λήξης περικοπής σε 2 δευτερόλεπτα
 >      videoFrame.setTrimFromEnd(2000f);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
 > ```
 
-**Επιστρέφει:**
+**Returns:**
 float
 ### setTrimFromStart(float value) {#setTrimFromStart-float-}
 ```
 public abstract void setTrimFromStart(float value)
 ```
 
-Περικοπή από την αρχή [ms]
+Περικοπή έναρξης [ms]
 
 --------------------
 
@@ -242,45 +309,47 @@ public abstract void setTrimFromStart(float value)
 >      ISlide slide = pres.getSlides().get_Item(0);
 >      IVideo video = pres.getVideos().addVideo(Files.readAllBytes(Paths.get("video.mp4")));
 >      IVideoFrame videoFrame = slide.getShapes().addVideoFrame(0, 0, 100, 100, video);
->      //set triming start time 1sec
+>      //ορίστε χρόνο έναρξης περικοπής 1 δευτερόλεπτο
 >      videoFrame.setTrimFromStart(1000f);
->      //set triming end time 2sec
+>      //ορίστε χρόνο λήξης περικοπής 2 δευτερόλεπτα
 >      videoFrame.setTrimFromEnd(2000f);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
 > ```
 
-**Παράμετροι:**
+**Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | float |  |
+
 ### getTrimFromEnd() {#getTrimFromEnd--}
 ```
 public abstract float getTrimFromEnd()
 ```
 
-Περικοπή από το τέλος [ms]
+Περικοπή λήξης [ms]
 
-**Επιστρέφει:**
+**Returns:**
 float
 ### setTrimFromEnd(float value) {#setTrimFromEnd-float-}
 ```
 public abstract void setTrimFromEnd(float value)
 ```
 
-Περικοπή από το τέλος [ms]
+Περικοπή λήξης [ms]
 
-**Παράμετροι:**
+**Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | float |  |
+
 ### getCaptionTracks() {#getCaptionTracks--}
 ```
 public abstract ICaptionsCollection getCaptionTracks()
 ```
 
-Παίρνει τη συλλογή των κλειστών υπότιτλων που σχετίζονται με το πλαίσιο ήχου. Αυτή η ιδιότητα είναι μόνο για ανάγνωση και επιστρέφει ένα [ICaptionsCollection](../../com.aspose.slides/icaptionscollection) που περιέχει όλες τις διαδρομές υπότιτλων.
+Λαμβάνει τη συλλογή των κλειστών λεζαντών που σχετίζονται με το πλαίσιο ήχου. Αυτή η ιδιότητα είναι μόνο για ανάγνωση και επιστρέφει ένα [ICaptionsCollection](../../com.aspose.slides/icaptionscollection) που περιέχει όλα τα κομμάτια λεζαντών.
 
 --------------------
 
@@ -296,7 +365,7 @@ public abstract ICaptionsCollection getCaptionTracks()
 >          IVideoFrame videoFrame = (IVideoFrame) shape;
 >          for (ICaptions captionTrack : videoFrame.getCaptionTracks())
 >          {
->              // Extracts the captions binary data and saves them to the file
+>              // Εξάγει τα δυαδικά δεδομένα των λεζαντών και τα αποθηκεύει στο αρχείο
 >              FileOutputStream fos = new FileOutputStream(captionTrack.getCaptionId() + ".vtt");
 >              fos.write(captionTrack.getBinaryData());
 >              fos.close();
@@ -307,5 +376,5 @@ public abstract ICaptionsCollection getCaptionTracks()
 >  }
 > ```
 
-**Επιστρέφει:**
+**Returns:**
 [ICaptionsCollection](../../com.aspose.slides/icaptionscollection)

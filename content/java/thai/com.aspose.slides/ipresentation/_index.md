@@ -1,83 +1,85 @@
 ---
 title: IPresentation
-second_title: เอกสารอ้างอิง API ของ Aspose.Slides สำหรับ Java
-description: เอกสารนำเสนอ
+second_title: Aspose.Slides สำหรับ Java เอกสารอ้างอิง API
+description: เอกสารการนำเสนอ
 type: docs
 url: /th/com.aspose.slides/ipresentation/
 ---
-**ส่วนต่อประสานที่ใช้งานทั้งหมด:**
+**อินเทอร์เฟซที่ใช้งานทั้งหมด:**  
 [com.aspose.slides.IPresentationComponent](../../com.aspose.slides/ipresentationcomponent), com.aspose.ms.System.IDisposable
 ```
 public interface IPresentation extends IPresentationComponent, System.IDisposable
 ```
 
 เอกสารการนำเสนอ
-## เมธอด
+## วิธีการ
 
 | เมธอด | คำอธิบาย |
 | --- | --- |
-| [getCurrentDateTime()](#getCurrentDateTime--) | คืนค่าหรือกำหนดวันที่และเวลาซึ่งจะแทนที่เนื้อหาของฟิลด์ datetime |
-| [setCurrentDateTime(Date value)](#setCurrentDateTime-java.util.Date-) | คืนค่าหรือกำหนดวันที่และเวลาซึ่งจะแทนที่เนื้อหาของฟิลด์ datetime |
-| [getHeaderFooterManager()](#getHeaderFooterManager--) | คืนค่า HeaderFooter manager ของการนำเสนอ |
-| [getProtectionManager()](#getProtectionManager--) | รับผู้จัดการสิทธิ์สำหรับการนำเสนอนี้ |
-| [getSlides()](#getSlides--) | คืนค่ารายการสไลด์ทั้งหมดที่กำหนดไว้ในการนำเสนอ |
-| [getSections()](#getSections--) | คืนค่ารายการส่วนของสไลด์ทั้งหมดที่กำหนดไว้ในการนำเสนอ |
-| [getSlideSize()](#getSlideSize--) | คืนค่าอ็อบเจกต์ขนาดสไลด์ |
-| [getNotesSize()](#getNotesSize--) | คืนค่าอ็อบเจกต์ขนาดสไลด์บันทึกย่อ |
-| [getLayoutSlides()](#getLayoutSlides--) | คืนค่ารายการสไลด์เค้าโครงทั้งหมดที่กำหนดไว้ในการนำเสนอ |
-| [getMasters()](#getMasters--) | คืนค่ารายการสไลด์แม่ทั้งหมดที่กำหนดไว้ในการนำเสนอ |
-| [getMasterNotesSlideManager()](#getMasterNotesSlideManager--) | คืนค่า notes master manager |
-| [getMasterHandoutSlideManager()](#getMasterHandoutSlideManager--) | คืนค่า handout master manager |
-| [getFontsManager()](#getFontsManager--) | คืนค่า fonts manager |
-| [getDefaultTextStyle()](#getDefaultTextStyle--) | คืนค่า default text style สำหรับรูปร่าง |
-| [getCommentAuthors()](#getCommentAuthors--) | คืนค่าคอลเลกชันของผู้เขียนความคิดเห็น |
-| [getDocumentProperties()](#getDocumentProperties--) | คืนค่า DocumentProperties object ซึ่งบรรจุคุณสมบัติมาตรฐานและคุณสมบัติกำหนดเองของเอกสาร |
-| [getImages()](#getImages--) | คืนค่าคอลเลกชันของรูปภาพทั้งหมดในการนำเสนอ |
-| [getAudios()](#getAudios--) | คืนค่าคอลเลกชันของไฟล์เสียงที่ฝังอยู่ทั้งหมดในการนำเสนอ |
-| [getVideos()](#getVideos--) | คืนค่าคอลเลกชันของไฟล์วิดีโอที่ฝังอยู่ทั้งหมดในการนำเสนอ |
-| [getCustomData()](#getCustomData--) | คืนค่าข้อมูลกำหนดเองของการนำเสนอ |
-| [getVbaProject()](#getVbaProject--) | รับ VBA project กับแมโครของการนำเสนอ |
-| [setVbaProject(IVbaProject value)](#setVbaProject-com.aspose.slides.IVbaProject-) | รับ VBA project กับแมโครของการนำเสนอ |
-| [getSourceFormat()](#getSourceFormat--) | คืนค่าข้อมูลเกี่ยวกับรูปแบบที่การนำเสนอถูกโหลดมา |
-| [getMasterTheme()](#getMasterTheme--) | คืนค่า master theme ของการนำเสนอ |
-| [getHyperlinkQueries()](#getHyperlinkQueries--) | ให้การเข้าถึงลิงก์ทั้งหมดที่อยู่ในสไลด์การนำเสนอ (ไม่รวมสไลด์แม่, เค้าโครง, หรือสไลด์บันทึกย่อ) |
-| [getViewProperties()](#getViewProperties--) | รับคุณสมบัติมุมมองทั่วทั้งการนำเสนอ |
-| [getFirstSlideNumber()](#getFirstSlideNumber--) | แสดงหมายเลขสไลด์แรกในการนำเสนอ |
-| [setFirstSlideNumber(int value)](#setFirstSlideNumber-int-) | แสดงหมายเลขสไลด์แรกในการนำเสนอ |
-| [getAllCustomXmlParts()](#getAllCustomXmlParts--) | คืนค่าทุกส่วนข้อมูลกำหนดเองในการนำเสนอ |
-| [getDigitalSignatures()](#getDigitalSignatures--) | คืนค่าคอลเลกชันของลายเซ็นที่ใช้ลงนามการนำเสนอ |
-| [getSensitivityLabels()](#getSensitivityLabels--) | คืนค่าคอลเลกชันของป้ายความอ่อนไหวที่ใช้กับเอกสารการนำเสนอ |
-| [save(String fname, int format)](#save-java.lang.String-int-) | บันทึกสไลด์ทั้งหมดของการนำเสนอเป็นไฟล์ด้วยรูปแบบที่ระบุ |
-| [save(OutputStream stream, int format)](#save-java.io.OutputStream-int-) | บันทึกสไลด์ทั้งหมดของการนำเสนอเป็นสตรีมด้วยรูปแบบที่ระบุ |
-| [save(String fname, int format, ISaveOptions options)](#save-java.lang.String-int-com.aspose.slides.ISaveOptions-) | บันทึกสไลด์ทั้งหมดของการนำเสนอเป็นไฟล์ด้วยรูปแบบที่ระบุและตัวเลือกเพิ่มเติม |
-| [save(OutputStream stream, int format, ISaveOptions options)](#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-) | บันทึกสไลด์ทั้งหมดของการนำเสนอเป็นสตรีมด้วยรูปแบบที่ระบุและตัวเลือกเพิ่มเติม |
-| [save(String fname, int[] slides, int format)](#save-java.lang.String-int---int-) | บันทึกสไลด์ที่ระบุของการนำเสนอเป็นไฟล์ด้วยรูปแบบที่ระบุ |
-| [save(String fname, int[] slides, int format, ISaveOptions options)](#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-) | บันทึกสไลด์ที่ระบุของการนำเสนอเป็นไฟล์ด้วยรูปแบบที่ระบุ |
-| [save(OutputStream stream, int[] slides, int format)](#save-java.io.OutputStream-int---int-) | บันทึกสไลด์ที่ระบุของการนำเสนอเป็นสตรีมด้วยรูปแบบที่ระบุ |
-| [save(OutputStream stream, int[] slides, int format, ISaveOptions options)](#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-) | บันทึกสไลด์ที่ระบุของการนำเสนอเป็นสตรีมด้วยรูปแบบที่ระบุ |
-| [save(IXamlOptions options)](#save-com.aspose.slides.IXamlOptions-) | บันทึกสไลด์ทั้งหมดของการนำเสนอเป็นชุดไฟล์ที่เป็น XAML markup |
-| [getImages(IRenderingOptions options)](#getImages-com.aspose.slides.IRenderingOptions-) | คืนค่าอ็อบเจกต์ Thumbnail Image สำหรับสไลด์ทั้งหมดของการนำเสนอ |
-| [getImages(IRenderingOptions options, int[] slides)](#getImages-com.aspose.slides.IRenderingOptions-int---) | คืนค่าอ็อบเจกต์ Thumbnail IImage สำหรับสไลด์ที่ระบุของการนำเสนอ |
-| [getImages(IRenderingOptions options, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-float-float-) | คืนค่าอ็อบเจกต์ Thumbnail Image สำหรับสไลด์ทั้งหมดของการนำเสนอโดยปรับสเกลตามที่กำหนด |
-| [getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-int---float-float-) | คืนค่าอ็อบเจกต์ Thumbnail Image สำหรับสไลด์ที่ระบุของการนำเสนอโดยปรับสเกลตามที่กำหนด |
-| [getImages(IRenderingOptions options, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-) | คืนค่าอ็อบเจกต์ Thumbnail Image สำหรับสไลด์ทั้งหมดของการนำเสนอด้วยขนาดที่ระบุ |
-| [getImages(IRenderingOptions options, int[] slides, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-) | คืนค่าอ็อบเจกต์ Thumbnail Image สำหรับสไลด์ที่ระบุของการนำเสนอด้วยขนาดที่ระบุ |
-| [getSlideById(long id)](#getSlideById-long-) | คืนค่า Slide, MasterSlide หรือ LayoutSlide ตาม Id |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | เชื่อมต่อรันที่มีรูปแบบเดียวกันในย่อหน้าทั้งหมดในรูปร่างที่ยอมรับได้ในสไลด์ทั้งหมด |
-| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | เน้นข้อความตัวอย่างทั้งหมดด้วยสีที่ระบุ |
-| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | เน้นข้อความตัวอย่างทั้งหมดด้วยสีที่ระบุ |
-| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | เน้นผลแมตช์ของ regular expression ด้วยสีที่ระบุ |
-| [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | แทนที่ข้อความที่ระบุทั้งหมดด้วยข้อความอื่นที่ระบุ |
-| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | แทนที่ผลแมตช์ของ regular expression ด้วยสตริงที่ระบุ |
+| [getCurrentDateTime()](#getCurrentDateTime--) | ส่งคืนหรือกำหนดวันที่และเวลาที่จะใช้แทนเนื้อหาของฟิลด์ datetime. |
+| [setCurrentDateTime(Date value)](#setCurrentDateTime-java.util.Date-) | ส่งคืนหรือกำหนดวันที่และเวลาที่จะใช้แทนเนื้อหาของฟิลด์ datetime. |
+| [getHeaderFooterManager()](#getHeaderFooterManager--) | ส่งคืนตัวจัดการ HeaderFooter ของการนำเสนอ. |
+| [getProtectionManager()](#getProtectionManager--) | ดึงตัวจัดการสิทธิ์ของการนำเสนอนี้. |
+| [getSlides()](#getSlides--) | ส่งคืนรายการของสไลด์ทั้งหมดที่กำหนดไว้ในการนำเสนอ. |
+| [getSections()](#getSections--) | ส่งคืนรายการของส่วนสไลด์ทั้งหมดที่กำหนดไว้ในการนำเสนอ. |
+| [getSlideSize()](#getSlideSize--) | ส่งคืนอ็อบเจกต์ขนาดสไลด์. |
+| [getNotesSize()](#getNotesSize--) | ส่งคืนอ็อบเจกต์ขนาดสไลด์โน้ต. |
+| [getLayoutSlides()](#getLayoutSlides--) | ส่งคืนรายการของสไลด์เลย์เอาต์ทั้งหมดที่กำหนดไว้ในการนำเสนอ. |
+| [getMasters()](#getMasters--) | ส่งคืนรายการของมาสเตอร์สไลด์ทั้งหมดที่กำหนดไว้ในการนำเสนอ. |
+| [getMasterNotesSlideManager()](#getMasterNotesSlideManager--) | ส่งคืนตัวจัดการโน้ตมาสเตอร์. |
+| [getMasterHandoutSlideManager()](#getMasterHandoutSlideManager--) | ส่งคืนตัวจัดการแฮนด์เอาต์มาสเตอร์. |
+| [getFontsManager()](#getFontsManager--) | ส่งคืนตัวจัดการฟอนต์. |
+| [getDefaultTextStyle()](#getDefaultTextStyle--) | ส่งคืนสไตล์ข้อความเริ่มต้นสำหรับรูปร่าง. |
+| [getCommentAuthors()](#getCommentAuthors--) | ส่งคืนคอลเลกชันของผู้เขียนคอมเมนต์. |
+| [getDocumentProperties()](#getDocumentProperties--) | ส่งคืนอ็อบเจกต์ DocumentProperties ที่มีคุณสมบัติมาตรฐานและกำหนดเองของเอกสาร. |
+| [getImages()](#getImages--) | ส่งคืนคอลเลกชันของภาพทั้งหมดในการนำเสนอ. |
+| [getAudios()](#getAudios--) | ส่งคืนคอลเลกชันของไฟล์เสียงฝังทั้งหมดในการนำเสนอ. |
+| [getVideos()](#getVideos--) | ส่งคืนคอลเลกชันของไฟล์วิดีโอฝังทั้งหมดในการนำเสนอ. |
+| [getCustomData()](#getCustomData--) | ส่งคืนข้อมูลกำหนดเองของการนำเสนอ. |
+| [getVbaProject()](#getVbaProject--) | ดึงโปรเจกต์ VBA พร้อมแมคโครของการนำเสนอ. |
+| [setVbaProject(IVbaProject value)](#setVbaProject-com.aspose.slides.IVbaProject-) | ดึงโปรเจกต์ VBA พร้อมแมคโครของการนำเสนอ. |
+| [getSourceFormat()](#getSourceFormat--) | ส่งคืนข้อมูลเกี่ยวกับรูปแบบที่การนำเสนอถูกโหลด. |
+| [getMasterTheme()](#getMasterTheme--) | ส่งคืนธีมมาสเตอร์ของการนำเสนอ. |
+| [getHyperlinkQueries()](#getHyperlinkQueries--) | ให้การเข้าถึงง่ายแก่ทุกไฮเปอร์ลิงก์ที่อยู่ในสไลด์การนำเสนอทั้งหมด (ไม่รวมมาสเตอร์, เลย์เอาต์, สไลด์โน้ต). |
+| [getViewProperties()](#getViewProperties--) | ดึงคุณสมบัติการมองเห็นทั่วการนำเสนอ. |
+| [getFirstSlideNumber()](#getFirstSlideNumber--) | แสดงหมายเลขสไลด์แรกในการนำเสนอ. |
+| [setFirstSlideNumber(int value)](#setFirstSlideNumber-int-) | แสดงหมายเลขสไลด์แรกในการนำเสนอ. |
+| [getAllCustomXmlParts()](#getAllCustomXmlParts--) | ส่งคืนส่วนข้อมูลกำหนดเองทั้งหมดในการนำเสนอ. |
+| [getDigitalSignatures()](#getDigitalSignatures--) | ส่งคืนคอลเลกชันของลายเซ็นที่ใช้ในการลงนามการนำเสนอ. |
+| [getSensitivityLabels()](#getSensitivityLabels--) | ส่งคืนคอลเลกชันของป้ายความอ่อนไหวที่ใช้กับเอกสารการนำเสนอ. |
+| [save(String fname, int format)](#save-java.lang.String-int-) | บันทึกสไลด์ทั้งหมดของการนำเสนอไปยังไฟล์ด้วยรูปแบบที่กำหนด. |
+| [save(OutputStream stream, int format)](#save-java.io.OutputStream-int-) | บันทึกสไลด์ทั้งหมดของการนำเสนอไปยังสตรีมด้วยรูปแบบที่กำหนด. |
+| [save(String fname, int format, ISaveOptions options)](#save-java.lang.String-int-com.aspose.slides.ISaveOptions-) | บันทึกสไลด์ทั้งหมดของการนำเสนอไปยังไฟล์ด้วยรูปแบบที่กำหนดและตัวเลือกเพิ่มเติม. |
+| [save(OutputStream stream, int format, ISaveOptions options)](#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-) | บันทึกสไลด์ทั้งหมดของการนำเสนอไปยังสตรีมด้วยรูปแบบที่กำหนดและตัวเลือกเพิ่มเติม. |
+| [save(String fname, int[] slides, int format)](#save-java.lang.String-int---int-) | Saves specified slides of a presentation to a file with the specified format. |
+| [save(String fname, int[] slides, int format, ISaveOptions options)](#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-) | Saves specified slides of a presentation to a file with the specified format. |
+| [save(OutputStream stream, int[] slides, int format)](#save-java.io.OutputStream-int---int-) | Saves specified slides of a presentation to a stream in the specified format. |
+| [save(OutputStream stream, int[] slides, int format, ISaveOptions options)](#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-) | Saves specified slides of a presentation to a stream in the specified format. |
+| [save(IXamlOptions options)](#save-com.aspose.slides.IXamlOptions-) | บันทึกสไลด์ทั้งหมดของการนำเสนอเป็นชุดไฟล์ที่แสดง XAML markup. |
+| [getImages(IRenderingOptions options)](#getImages-com.aspose.slides.IRenderingOptions-) | ส่งคืนอ็อบเจกต์ Thumbnail Image สำหรับสไลด์ทั้งหมดของการนำเสนอ. |
+| [getImages(IRenderingOptions options, int[] slides)](#getImages-com.aspose.slides.IRenderingOptions-int---) | ส่งคืนอ็อบเจกต์ Thumbnail IImage สำหรับสไลด์ที่ระบุของการนำเสนอ. |
+| [getImages(IRenderingOptions options, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-float-float-) | ส่งคืนอ็อบเจกต์ Thumbnail Image สำหรับสไลด์ทั้งหมดของการนำเสนอด้วยการสเกลที่กำหนดเอง. |
+| [getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-int---float-float-) | ส่งคืนอ็อบเจกต์ Thumbnail Image สำหรับสไลด์ที่ระบุของการนำเสนอด้วยการสเกลที่กำหนดเอง. |
+| [getImages(IRenderingOptions options, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-) | ส่งคืนอ็อบเจกต์ Thumbnail Image สำหรับสไลด์ทั้งหมดของการนำเสนอด้วยขนาดที่ระบุ. |
+| [getImages(IRenderingOptions options, int[] slides, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-) | ส่งคืนอ็อบเจกต์ Thumbnail Image สำหรับสไลด์ที่ระบุของการนำเสนอด้วยขนาดที่ระบุ. |
+| [getSlideById(long id)](#getSlideById-long-) | ส่งคืน Slide, MasterSlide หรือ LayoutSlide ตาม Id. |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | รวมรันที่มีรูปแบบเดียวกันในทุกย่อหน้าในรูปร่างที่ยอมรับทั้งหมดในทุกสไลด์. |
+| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | ทำให้ตรงกับข้อความตัวอย่างทั้งหมดเป็นสีที่ระบุ. |
+| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | ทำให้ตรงกับข้อความตัวอย่างทั้งหมดเป็นสีที่ระบุ. |
+| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | ทำให้ตรงกับนิพจน์ปกติทั้งหมดเป็นสีที่ระบุ. |
+| [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | แทนที่ทุกการเกิดของข้อความที่ระบุด้วยข้อความที่ระบุอื่น. |
+| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | แทนที่ทุกการตรงกับนิพจน์ปกติด้วยสตริงที่ระบุ. |
+| [refreshChartsData()](#refreshChartsData--) | โหลดข้อมูลของแผนภูมิทั้งหมดในการนำเสนอจากเวิร์กบุ๊คต้นฉบับ. |
+| [refreshChartsData(boolean skipFailedCharts)](#refreshChartsData-boolean-) | โหลดข้อมูลของแผนภูมิทั้งหมดในการนำเสนอจากเวิร์กบุ๊คต้นฉบับ. |
 
 ### getCurrentDateTime() {#getCurrentDateTime--}
 ```
 public abstract Date getCurrentDateTime()
 ```
 
-คืนค่าหรือกำหนดวันที่และเวลาที่จะใช้แทนเนื้อหาของฟิลด์ datetime การสร้างอ็อบเจกต์ Presentation นี้โดยค่าเริ่มต้น อ่าน/เขียน java.util.Date
+ส่งคืนหรือกำหนดวันที่และเวลาที่จะใช้แทนเนื้อหาของฟิลด์ datetime. เวลาโดยปริยายของการสร้างอ็อบเจกต์ Presentation นี้. อ่าน/เขียน java.util.Date.
 
-**คืนค่า:**
+**ส่งคืน:**  
 java.util.Date
 
 ### setCurrentDateTime(Date value) {#setCurrentDateTime-java.util.Date-}
@@ -85,10 +87,10 @@ java.util.Date
 public abstract void setCurrentDateTime(Date value)
 ```
 
-คืนค่าหรือกำหนดวันที่และเวลาที่จะใช้แทนเนื้อหาของฟิลด์ datetime การสร้างอ็อบเจกต์ Presentation นี้โดยค่าเริ่มต้น อ่าน/เขียน java.util.Date
+ส่งคืนหรือกำหนดวันที่และเวลาที่จะใช้แทนเนื้อหาของฟิลด์ datetime. เวลาโดยปริยายของการสร้างอ็อบเจกต์ Presentation นี้. อ่าน/เขียน java.util.Date.
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
 | value | java.util.Date |  |
 
@@ -97,9 +99,9 @@ public abstract void setCurrentDateTime(Date value)
 public abstract IPresentationHeaderFooterManager getHeaderFooterManager()
 ```
 
-คืนค่า HeaderFooter manager ของการนำเสนอ อ่านอย่างเดียว [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager)
+ส่งคืนตัวจัดการ HeaderFooter ของการนำเสนอ. อ่านอย่างเดียว [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager).
 
-**คืนค่า:**
+**ส่งคืน:**  
 [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager)
 
 ### getProtectionManager() {#getProtectionManager--}
@@ -107,9 +109,9 @@ public abstract IPresentationHeaderFooterManager getHeaderFooterManager()
 public abstract IProtectionManager getProtectionManager()
 ```
 
-รับผู้จัดการสิทธิ์สำหรับการนำเสนอนี้ อ่านอย่างเดียว [IProtectionManager](../../com.aspose.slides/iprotectionmanager)
+ดึงตัวจัดการสิทธิ์ของการนำเสนอนี้. อ่านอย่างเดียว [IProtectionManager](../../com.aspose.slides/iprotectionmanager).
 
-**คืนค่า:**
+**ส่งคืน:**  
 [IProtectionManager](../../com.aspose.slides/iprotectionmanager)
 
 ### getSlides() {#getSlides--}
@@ -117,9 +119,9 @@ public abstract IProtectionManager getProtectionManager()
 public abstract ISlideCollection getSlides()
 ```
 
-คืนค่ารายการสไลด์ทั้งหมดที่กำหนดไว้ในการนำเสนอ อ่านอย่างเดียว [ISlideCollection](../../com.aspose.slides/islidecollection)
+ส่งคืนรายการของสไลด์ทั้งหมดที่กำหนดไว้ในการนำเสนอ. อ่านอย่างเดียว [ISlideCollection](../../com.aspose.slides/islidecollection).
 
-**คืนค่า:**
+**ส่งคืน:**  
 [ISlideCollection](../../com.aspose.slides/islidecollection)
 
 ### getSections() {#getSections--}
@@ -127,9 +129,9 @@ public abstract ISlideCollection getSlides()
 public abstract ISectionCollection getSections()
 ```
 
-คืนค่ารายการส่วนของสไลด์ทั้งหมดที่กำหนดไว้ในการนำเสนอ อ่านอย่างเดียว [ISectionCollection](../../com.aspose.slides/isectioncollection)
+ส่งคืนรายการของส่วนสไลด์ทั้งหมดที่กำหนดไว้ในการนำเสนอ. อ่านอย่างเดียว [ISectionCollection](../../com.aspose.slides/isectioncollection).
 
-**คืนค่า:**
+**ส่งคืน:**  
 [ISectionCollection](../../com.aspose.slides/isectioncollection)
 
 ### getSlideSize() {#getSlideSize--}
@@ -137,9 +139,9 @@ public abstract ISectionCollection getSections()
 public abstract ISlideSize getSlideSize()
 ```
 
-คืนค่าอ็อบเจกต์ขนาดสไลด์ อ่านอย่างเดียว [ISlideSize](../../com.aspose.slides/islidesize)
+ส่งคืนอ็อบเจกต์ขนาดสไลด์. อ่านอย่างเดียว [ISlideSize](../../com.aspose.slides/islidesize).
 
-**คืนค่า:**
+**ส่งคืน:**  
 [ISlideSize](../../com.aspose.slides/islidesize)
 
 ### getNotesSize() {#getNotesSize--}
@@ -147,9 +149,9 @@ public abstract ISlideSize getSlideSize()
 public abstract INotesSize getNotesSize()
 ```
 
-คืนค่าอ็อบเจกต์ขนาดสไลด์บันทึกย่อ อ่านอย่างเดียว [INotesSize](../../com.aspose.slides/inotessize)
+ส่งคืนอ็อบเจกต์ขนาดสไลด์โน้ต. อ่านอย่างเดียว [INotesSize](../../com.aspose.slides/inotessize).
 
-**คืนค่า:**
+**ส่งคืน:**  
 [INotesSize](../../com.aspose.slides/inotessize)
 
 ### getLayoutSlides() {#getLayoutSlides--}
@@ -157,13 +159,13 @@ public abstract INotesSize getNotesSize()
 public abstract IGlobalLayoutSlideCollection getLayoutSlides()
 ```
 
-คืนค่ารายการสไลด์เค้าโครงทั้งหมดที่กำหนดไว้ในการนำเสนอ อ่านอย่างเดียว [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection)
+ส่งคืนรายการของสไลด์เลย์เอาต์ทั้งหมดที่กำหนดไว้ในการนำเสนอ. อ่านอย่างเดียว [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection).
 
 --------------------
 
-คุณสามารถเข้าถึง API ทางเลือกสำหรับการเพิ่ม/แทรก/ลบ/คัดลอกสไลด์เค้าโครงโดยใช้คุณสมบัติ IMasterSlide.LayoutSlides
+You can access to alternative API for adding/inserting/removing/cloning layout slides by using IMasterSlide.LayoutSlides property.
 
-**คืนค่า:**
+**ส่งคืน:**  
 [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection)
 
 ### getMasters() {#getMasters--}
@@ -171,9 +173,9 @@ public abstract IGlobalLayoutSlideCollection getLayoutSlides()
 public abstract IMasterSlideCollection getMasters()
 ```
 
-คืนค่ารายการสไลด์แม่ทั้งหมดที่กำหนดไว้ในการนำเสนอ อ่านอย่างเดียว [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection)
+ส่งคืนรายการของมาสเตอร์สไลด์ทั้งหมดที่กำหนดไว้ในการนำเสนอ. อ่านอย่างเดียว [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection).
 
-**คืนค่า:**
+**ส่งคืน:**  
 [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection)
 
 ### getMasterNotesSlideManager() {#getMasterNotesSlideManager--}
@@ -181,9 +183,9 @@ public abstract IMasterSlideCollection getMasters()
 public abstract IMasterNotesSlideManager getMasterNotesSlideManager()
 ```
 
-คืนค่า notes master manager อ่านอย่างเดียว [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager)
+ส่งคืนตัวจัดการโน้ตมาสเตอร์. อ่านอย่างเดียว [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager).
 
-**คืนค่า:**
+**ส่งคืน:**  
 [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager)
 
 ### getMasterHandoutSlideManager() {#getMasterHandoutSlideManager--}
@@ -191,9 +193,9 @@ public abstract IMasterNotesSlideManager getMasterNotesSlideManager()
 public abstract IMasterHandoutSlideManager getMasterHandoutSlideManager()
 ```
 
-คืนค่า handout master manager อ่านอย่างเดียว [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager)
+ส่งคืนตัวจัดการแฮนด์เอาต์มาสเตอร์. อ่านอย่างเดียว [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager).
 
-**คืนค่า:**
+**ส่งคืน:**  
 [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager)
 
 ### getFontsManager() {#getFontsManager--}
@@ -201,9 +203,9 @@ public abstract IMasterHandoutSlideManager getMasterHandoutSlideManager()
 public abstract IFontsManager getFontsManager()
 ```
 
-คืนค่า fonts manager อ่านอย่างเดียว [IFontsManager](../../com.aspose.slides/ifontsmanager)
+ส่งคืนตัวจัดการฟอนต์. อ่านอย่างเดียว [IFontsManager](../../com.aspose.slides/ifontsmanager).
 
-**คืนค่า:**
+**ส่งคืน:**  
 [IFontsManager](../../com.aspose.slides/ifontsmanager)
 
 ### getDefaultTextStyle() {#getDefaultTextStyle--}
@@ -211,9 +213,9 @@ public abstract IFontsManager getFontsManager()
 public abstract ITextStyle getDefaultTextStyle()
 ```
 
-คืนค่า default text style สำหรับรูปร่าง อ่านอย่างเดียว [ITextStyle](../../com.aspose.slides/itextstyle)
+ส่งคืนสไตล์ข้อความเริ่มต้นสำหรับรูปร่าง. อ่านอย่างเดียว [ITextStyle](../../com.aspose.slides/itextstyle).
 
-**คืนค่า:**
+**ส่งคืน:**  
 [ITextStyle](../../com.aspose.slides/itextstyle)
 
 ### getCommentAuthors() {#getCommentAuthors--}
@@ -221,9 +223,9 @@ public abstract ITextStyle getDefaultTextStyle()
 public abstract ICommentAuthorCollection getCommentAuthors()
 ```
 
-คืนค่าคอลเลกชันของผู้เขียนความคิดเห็น อ่านอย่างเดียว [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection)
+ส่งคืนคอลเลกชันของผู้เขียนคอมเมนต์. อ่านอย่างเดียว [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection).
 
-**คืนค่า:**
+**ส่งคืน:**  
 [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection)
 
 ### getDocumentProperties() {#getDocumentProperties--}
@@ -231,9 +233,9 @@ public abstract ICommentAuthorCollection getCommentAuthors()
 public abstract IDocumentProperties getDocumentProperties()
 ```
 
-คืนค่า DocumentProperties object ซึ่งบรรจุคุณสมบัติมาตรฐานและคุณสมบัติกำหนดเองของเอกสาร อ่านอย่างเดียว [IDocumentProperties](../../com.aspose.slides/idocumentproperties)
+ส่งคืนอ็อบเจกต์ DocumentProperties ที่มีคุณสมบัติมาตรฐานและกำหนดเองของเอกสาร. อ่านอย่างเดียว [IDocumentProperties](../../com.aspose.slides/idocumentproperties).
 
-**คืนค่า:**
+**ส่งคืน:**  
 [IDocumentProperties](../../com.aspose.slides/idocumentproperties)
 
 ### getImages() {#getImages--}
@@ -241,9 +243,9 @@ public abstract IDocumentProperties getDocumentProperties()
 public abstract IImageCollection getImages()
 ```
 
-คืนค่าคอลเลกชันของรูปภาพทั้งหมดในการนำเสนอ อ่านอย่างเดียว [IImageCollection](../../com.aspose.slides/iimagecollection)
+ส่งคืนคอลเลกชันของภาพทั้งหมดในการนำเสนอ. อ่านอย่างเดียว [IImageCollection](../../com.aspose.slides/iimagecollection).
 
-**คืนค่า:**
+**ส่งคืน:**  
 [IImageCollection](../../com.aspose.slides/iimagecollection)
 
 ### getAudios() {#getAudios--}
@@ -251,9 +253,9 @@ public abstract IImageCollection getImages()
 public abstract IAudioCollection getAudios()
 ```
 
-คืนค่าคอลเลกชันของไฟล์เสียงที่ฝังอยู่ทั้งหมดในการนำเสนอ อ่านอย่างเดียว [IAudioCollection](../../com.aspose.slides/iaudiocollection)
+ส่งคืนคอลเลกชันของไฟล์เสียงฝังทั้งหมดในการนำเสนอ. อ่านอย่างเดียว [IAudioCollection](../../com.aspose.slides/iaudiocollection).
 
-**คืนค่า:**
+**ส่งคืน:**  
 [IAudioCollection](../../com.aspose.slides/iaudiocollection)
 
 ### getVideos() {#getVideos--}
@@ -261,9 +263,9 @@ public abstract IAudioCollection getAudios()
 public abstract IVideoCollection getVideos()
 ```
 
-คืนค่าคอลเลกชันของไฟล์วิดีโอที่ฝังอยู่ทั้งหมดในการนำเสนอ อ่านอย่างเดียว [IVideoCollection](../../com.aspose.slides/ivideocollection)
+ส่งคืนคอลเลกชันของไฟล์วิดีโอฝังทั้งหมดในการนำเสนอ. อ่านอย่างเดียว [IVideoCollection](../../com.aspose.slides/ivideocollection).
 
-**คืนค่า:**
+**ส่งคืน:**  
 [IVideoCollection](../../com.aspose.slides/ivideocollection)
 
 ### getCustomData() {#getCustomData--}
@@ -271,9 +273,9 @@ public abstract IVideoCollection getVideos()
 public abstract ICustomData getCustomData()
 ```
 
-คืนค่าข้อมูลกำหนดเองของการนำเสนอ อ่านอย่างเดียว [ICustomData](../../com.aspose.slides/icustomdata)
+ส่งคืนข้อมูลกำหนดเองของการนำเสนอ. อ่านอย่างเดียว [ICustomData](../../com.aspose.slides/icustomdata).
 
-**คืนค่า:**
+**ส่งคืน:**  
 [ICustomData](../../com.aspose.slides/icustomdata)
 
 ### getVbaProject() {#getVbaProject--}
@@ -281,9 +283,9 @@ public abstract ICustomData getCustomData()
 public abstract IVbaProject getVbaProject()
 ```
 
-รับ VBA project กับแมโครของการนำเสนอ อ่าน/เขียน [IVbaProject](../../com.aspose.slides/ivbaproject)
+ดึงโปรเจกต์ VBA พร้อมแมคโครของการนำเสนอ. อ่าน/เขียน [IVbaProject](../../com.aspose.slides/ivbaproject).
 
-**คืนค่า:**
+**ส่งคืน:**  
 [IVbaProject](../../com.aspose.slides/ivbaproject)
 
 ### setVbaProject(IVbaProject value) {#setVbaProject-com.aspose.slides.IVbaProject-}
@@ -291,10 +293,10 @@ public abstract IVbaProject getVbaProject()
 public abstract void setVbaProject(IVbaProject value)
 ```
 
-รับ VBA project กับแมโครของการนำเสนอ อ่าน/เขียน [IVbaProject](../../com.aspose.slides/ivbaproject)
+ดึงโปรเจกต์ VBA พร้อมแมคโครของการนำเสนอ. อ่าน/เขียน [IVbaProject](../../com.aspose.slides/ivbaproject).
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
 | value | [IVbaProject](../../com.aspose.slides/ivbaproject) |  |
 
@@ -303,9 +305,9 @@ public abstract void setVbaProject(IVbaProject value)
 public abstract int getSourceFormat()
 ```
 
-คืนค่าข้อมูลเกี่ยวกับรูปแบบที่การนำเสนอถูกโหลดมา อ่านอย่างเดียว [SourceFormat](../../com.aspose.slides/sourceformat)
+ส่งคืนข้อมูลเกี่ยวกับรูปแบบที่การนำเสนอถูกโหลด. อ่านอย่างเดียว [SourceFormat](../../com.aspose.slides/sourceformat).
 
-**คืนค่า:**
+**ส่งคืน:**  
 int
 
 ### getMasterTheme() {#getMasterTheme--}
@@ -313,9 +315,9 @@ int
 public abstract IMasterTheme getMasterTheme()
 ```
 
-คืนค่า master theme ของการนำเสนอ อ่านอย่างเดียว [IMasterTheme](../../com.aspose.slides/imastertheme)
+ส่งคืนธีมมาสเตอร์ของการนำเสนอ. อ่านอย่างเดียว [IMasterTheme](../../com.aspose.slides/imastertheme).
 
-**คืนค่า:**
+**ส่งคืน:**  
 [IMasterTheme](../../com.aspose.slides/imastertheme)
 
 ### getHyperlinkQueries() {#getHyperlinkQueries--}
@@ -323,9 +325,9 @@ public abstract IMasterTheme getMasterTheme()
 public abstract IHyperlinkQueries getHyperlinkQueries()
 ```
 
-ให้การเข้าถึงลิงก์ทั้งหมดที่อยู่ในสไลด์การนำเสนอ (ไม่รวมสไลด์แม่, เค้าโครง, หรือสไลด์บันทึกย่อ) อ่านอย่างเดียว [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)
+ให้การเข้าถึงง่ายแก่ทุกไฮเปอร์ลิงก์ที่อยู่ในสไลด์การนำเสนอทั้งหมด (ไม่รวมมาสเตอร์, เลย์เอาต์, สไลด์โน้ต). อ่านอย่างเดียว [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
 
-**คืนค่า:**
+**ส่งคืน:**  
 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)
 
 ### getViewProperties() {#getViewProperties--}
@@ -333,9 +335,9 @@ public abstract IHyperlinkQueries getHyperlinkQueries()
 public abstract IViewProperties getViewProperties()
 ```
 
-รับคุณสมบัติมุมมองทั่วทั้งการนำเสนอ อ่านอย่างเดียว [IViewProperties](../../com.aspose.slides/iviewproperties)
+ดึงคุณสมบัติการมองเห็นทั่วการนำเสนอ. อ่านอย่างเดียว [IViewProperties](../../com.aspose.slides/iviewproperties).
 
-**คืนค่า:**
+**ส่งคืน:**  
 [IViewProperties](../../com.aspose.slides/iviewproperties)
 
 ### getFirstSlideNumber() {#getFirstSlideNumber--}
@@ -343,9 +345,9 @@ public abstract IViewProperties getViewProperties()
 public abstract int getFirstSlideNumber()
 ```
 
-แสดงหมายเลขสไลด์แรกในการนำเสนอ อ่าน/เขียน int
+แสดงหมายเลขสไลด์แรกในการนำเสนอ. อ่าน/เขียน int.
 
-**คืนค่า:**
+**ส่งคืน:**  
 int
 
 ### setFirstSlideNumber(int value) {#setFirstSlideNumber-int-}
@@ -353,10 +355,10 @@ int
 public abstract void setFirstSlideNumber(int value)
 ```
 
-แสดงหมายเลขสไลด์แรกในการนำเสนอ อ่าน/เขียน int
+แสดงหมายเลขสไลด์แรกในการนำเสนอ. อ่าน/เขียน int.
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
 | value | int |  |
 
@@ -365,9 +367,9 @@ public abstract void setFirstSlideNumber(int value)
 public abstract ICustomXmlPart[] getAllCustomXmlParts()
 ```
 
-คืนค่าทุกส่วนข้อมูลกำหนดเองในการนำเสนอ อ่านอย่างเดียว ICustomXmlPart[]
+ส่งคืนส่วนข้อมูลกำหนดเองทั้งหมดในการนำเสนอ. อ่านอย่างเดียว ICustomXmlPart[].
 
-**คืนค่า:**
+**ส่งคืน:**  
 com.aspose.slides.ICustomXmlPart[]
 
 ### getDigitalSignatures() {#getDigitalSignatures--}
@@ -375,7 +377,7 @@ com.aspose.slides.ICustomXmlPart[]
 public abstract IDigitalSignatureCollection getDigitalSignatures()
 ```
 
-คืนค่าคอลเลกชันของลายเซ็นที่ใช้ลงนามการนำเสนอ อ่านอย่างเดียว [IDigitalSignatureCollection](../../com.aspose.slides/idigitalsignaturecollection)
+ส่งคืนคอลเลกชันของลายเซ็นที่ใช้ในการลงนามการนำเสนอ. อ่านอย่างเดียว [IDigitalSignatureCollection](../../com.aspose.slides/idigitalsignaturecollection).
 
 --------------------
 
@@ -403,7 +405,8 @@ public abstract IDigitalSignatureCollection getDigitalSignatures()
 >  }
 > ```
 
-**คืนค่า:**
+
+**ส่งคืน:**  
 [IDigitalSignatureCollection](../../com.aspose.slides/idigitalsignaturecollection)
 
 ### getSensitivityLabels() {#getSensitivityLabels--}
@@ -411,7 +414,7 @@ public abstract IDigitalSignatureCollection getDigitalSignatures()
 public abstract ISensitivityLabelCollection getSensitivityLabels()
 ```
 
-คืนค่าคอลเลกชันของป้ายความอ่อนไหวที่ใช้กับเอกสารการนำเสนอ อ่านอย่างเดียว [ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection)
+ส่งคืนคอลเลกชันของป้ายความอ่อนไหวที่ใช้กับเอกสารการนำเสนอ. อ่านอย่างเดียว [ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection).
 
 --------------------
 
@@ -420,12 +423,12 @@ public abstract ISensitivityLabelCollection getSensitivityLabels()
 >  try {
 >      ISensitivityLabelCollection sensitivityLabels = pres.getSensitivityLabels();
 > 
->      // พิมพ์ป้ายกำกับที่ใช้
+>      // พิมพ์ป้ายกำกับที่ถูกใช้งาน
 >      for (ISensitivityLabel sensitivityLabel : sensitivityLabels)
 >          System.out.println("Label Id " + sensitivityLabel.getId() + " from Azure AD site " + sensitivityLabel.getSiteId());
 > 
 >      // เพิ่มป้ายกำกับใหม่
->      String labelIdString = "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"; // ดึง Id ของป้ายกำกับความอ่อนไหมาจากนโยบาย
+>      String labelIdString = "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"; // ดึง Id ของป้ายกำกับความรู้สึกจากนโยบาย
 >      UUID siteIdGuid = UUID.fromString("{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"); // ดึงตัวระบุไซต์ Azure AD จากนโยบาย
 >      ISensitivityLabel label = sensitivityLabels.add(labelIdString, siteIdGuid, true, SensitivityLabelAssignmentType.Privileged);
 >      label.getContentMarkTypes().addItem(SensitivityLabelContentType.Footer);
@@ -437,7 +440,7 @@ public abstract ISensitivityLabelCollection getSensitivityLabels()
 > ```
 
 
-**คืนค่า:**
+**ส่งคืน:**  
 [ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection)
 
 ### save(String fname, int format) {#save-java.lang.String-int-}
@@ -445,38 +448,37 @@ public abstract ISensitivityLabelCollection getSensitivityLabels()
 public abstract void save(String fname, int format)
 ```
 
-บันทึกสไลด์ทั้งหมดของการนำเสนอเป็นไฟล์ด้วยรูปแบบที่ระบุ
+บันทึกสไลด์ทั้งหมดของการนำเสนอไปยังไฟล์ด้วยรูปแบบที่กำหนด.
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
-| fname | java.lang.String | พาธไปยังไฟล์ที่สร้าง |
-| format | int | รูปแบบของข้อมูลที่ส่งออก |
+| fname | java.lang.String | Path to the created file. |
+| format | int | Format of the exported data. |
 
 ### save(OutputStream stream, int format) {#save-java.io.OutputStream-int-}
 ```
 public abstract void save(OutputStream stream, int format)
 ```
 
-บันทึกสไลด์ทั้งหมดของการนำเสนอเป็นสตรีมด้วยรูปแบบที่ระบุ
+บันทึกสไลด์ทั้งหมดของการนำเสนอไปยังสตรีมด้วยรูปแบบที่กำหนด.
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
-| stream | java.io.OutputStream | สตรีมผลลัพธ์ |
-| format | int | รูปแบบของข้อมูลที่ส่งออก |
+| stream | java.io.OutputStream | Output stream. |
+| format | int | Format of the exported data. |
 
 ### save(String fname, int format, ISaveOptions options) {#save-java.lang.String-int-com.aspose.slides.ISaveOptions-}
 ```
 public abstract void save(String fname, int format, ISaveOptions options)
 ```
-
-บันทึกสไลด์ทั้งหมดของการนำเสนอเป็นไฟล์ด้วยรูปแบบที่ระบุและด้วยตัวเลือกเพิ่มเติม
+บันทึกสไลด์ทั้งหมดของงานพรีเซนเทชันลงในไฟล์ด้วยรูปแบบที่ระบุและตัวเลือกเพิ่มเติม
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| fname | java.lang.String | พาธไปยังไฟล์ที่สร้าง |
+| fname | java.lang.String | เส้นทางไปยังไฟล์ที่สร้าง |
 | format | int | รูปแบบของข้อมูลที่ส่งออก |
 | options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | ตัวเลือกรูปแบบเพิ่มเติม |
 
@@ -485,10 +487,10 @@ public abstract void save(String fname, int format, ISaveOptions options)
 public abstract void save(OutputStream stream, int format, ISaveOptions options)
 ```
 
-บันทึกสไลด์ทั้งหมดของการนำเสนอไปยังสตรีมในรูปแบบที่ระบุและด้วยตัวเลือกเพิ่มเติม
+บันทึกสไลด์ทั้งหมดของงานพรีเซนเทชันลงในสตรีมด้วยรูปแบบที่ระบุและตัวเลือกเพิ่มเติม
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.OutputStream | สตรีมเอาต์พุต |
 | format | int | รูปแบบของข้อมูลที่ส่งออก |
@@ -499,13 +501,13 @@ public abstract void save(OutputStream stream, int format, ISaveOptions options)
 public abstract void save(String fname, int[] slides, int format)
 ```
 
-บันทึกสไลด์ที่ระบุของการนำเสนอไปยังไฟล์ด้วยรูปแบบที่ระบุ
+บันทึกสไลด์ที่ระบุของงานพรีเซนเทชันลงในไฟล์ด้วยรูปแบบที่ระบุ
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | fname | java.lang.String | เส้นทางไปยังไฟล์ที่สร้าง |
-| slides | int[] | อาร์เรย์ที่มีตำแหน่งของสไลด์ เริ่มจาก 1 |
+| slides | int[] | อาร์เรย์ของตำแหน่งสไลด์ เริ่มจาก 1 |
 | format | int | รูปแบบของข้อมูลที่ส่งออก |
 
 ### save(String fname, int[] slides, int format, ISaveOptions options) {#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-}
@@ -513,13 +515,13 @@ public abstract void save(String fname, int[] slides, int format)
 public abstract void save(String fname, int[] slides, int format, ISaveOptions options)
 ```
 
-บันทึกสไลด์ที่ระบุของการนำเสนอไปยังไฟล์ด้วยรูปแบบที่ระบุ
+บันทึกสไลด์ที่ระบุของงานพรีเซนเทชันลงในไฟล์ด้วยรูปแบบที่ระบุ
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | fname | java.lang.String | เส้นทางไปยังไฟล์ที่สร้าง |
-| slides | int[] | อาร์เรย์ที่มีตำแหน่งของสไลด์ เริ่มจาก 1 |
+| slides | int[] | อาร์เรย์ของตำแหน่งสไลด์ เริ่มจาก 1 |
 | format | int | รูปแบบของข้อมูลที่ส่งออก |
 | options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | ตัวเลือกรูปแบบเพิ่มเติม |
 
@@ -528,13 +530,13 @@ public abstract void save(String fname, int[] slides, int format, ISaveOptions o
 public abstract void save(OutputStream stream, int[] slides, int format)
 ```
 
-บันทึกสไลด์ที่ระบุของการนำเสนอไปยังสตรีมในรูปแบบที่ระบุ
+บันทึกสไลด์ที่ระบุของงานพรีเซนเทชันลงในสตรีมด้วยรูปแบบที่ระบุ
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.OutputStream | สตรีมเอาต์พุต |
-| slides | int[] | อาร์เรย์ที่มีตำแหน่งของสไลด์ เริ่มจาก 1 |
+| slides | int[] | อาร์เรย์ของตำแหน่งสไลด์ เริ่มจาก 1 |
 | format | int | รูปแบบของข้อมูลที่ส่งออก |
 
 ### save(OutputStream stream, int[] slides, int format, ISaveOptions options) {#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-}
@@ -542,13 +544,13 @@ public abstract void save(OutputStream stream, int[] slides, int format)
 public abstract void save(OutputStream stream, int[] slides, int format, ISaveOptions options)
 ```
 
-บันทึกสไลด์ที่ระบุของการนำเสนอไปยังสตรีมในรูปแบบที่ระบุ
+บันทึกสไลด์ที่ระบุของงานพรีเซนเทชันลงในสตรีมด้วยรูปแบบที่ระบุ
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.OutputStream | สตรีมเอาต์พุต |
-| slides | int[] | อาร์เรย์ที่มีตำแหน่งของสไลด์ เริ่มจาก 1 |
+| slides | int[] | อาร์เรย์ของตำแหน่งสไลด์ เริ่มจาก 1 |
 | format | int | รูปแบบของข้อมูลที่ส่งออก |
 | options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | ตัวเลือกรูปแบบเพิ่มเติม |
 
@@ -557,7 +559,7 @@ public abstract void save(OutputStream stream, int[] slides, int format, ISaveOp
 public abstract void save(IXamlOptions options)
 ```
 
-บันทึกสไลด์ทั้งหมดของการนำเสนอไปยังชุดไฟล์ที่เป็นการทำเครื่องหมาย XAML
+บันทึกสไลด์ทั้งหมดของงานพรีเซนเทชันเป็นชุดไฟล์ที่เป็นมาร์กอัป XAML
 
 --------------------
 
@@ -573,8 +575,9 @@ public abstract void save(IXamlOptions options)
 >  }
 > ```
 
+
 **พารามิเตอร์:**
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | options | [IXamlOptions](../../com.aspose.slides/ixamloptions) | ตัวเลือกรูปแบบ XAML |
 
@@ -583,14 +586,14 @@ public abstract void save(IXamlOptions options)
 public abstract IImage[] getImages(IRenderingOptions options)
 ```
 
-ส่งคืนอ็อบเจ็กต์ภาพย่อสำหรับสไลด์ทั้งหมดของการนำเสนอ
+คืนค่าอ็อบเจ็กต์ Thumbnail Image สำหรับสไลด์ทั้งหมดของงานพรีเซนเทชัน
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | ตัวเลือกการเรนเดอร์ |
 
-**ส่งคืน:**
+**Returns:**
 com.aspose.slides.IImage[] - IImage objects.
 
 ### getImages(IRenderingOptions options, int[] slides) {#getImages-com.aspose.slides.IRenderingOptions-int---}
@@ -598,15 +601,15 @@ com.aspose.slides.IImage[] - IImage objects.
 public abstract IImage[] getImages(IRenderingOptions options, int[] slides)
 ```
 
-ส่งคืนอ็อบเจ็กต์ IImage ย่อสำหรับสไลด์ที่ระบุของการนำเสนอ
+คืนค่าอ็อบเจ็กต์ Thumbnail IImage สำหรับสไลด์ที่ระบุของงานพรีเซนเทชัน
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | ตัวเลือกการเรนเดอร์ |
-| slides | int[] | อาร์เรย์ที่มีตำแหน่งของสไลด์ เริ่มจาก 1 |
+| slides | int[] | อาร์เรย์ของตำแหน่งสไลด์ เริ่มจาก 1 |
 
-**ส่งคืน:**
+**Returns:**
 com.aspose.slides.IImage[] - IImage objects.
 
 ### getImages(IRenderingOptions options, float scaleX, float scaleY) {#getImages-com.aspose.slides.IRenderingOptions-float-float-}
@@ -614,16 +617,16 @@ com.aspose.slides.IImage[] - IImage objects.
 public abstract IImage[] getImages(IRenderingOptions options, float scaleX, float scaleY)
 ```
 
-ส่งคืนอ็อบเจ็กต์ภาพย่อสำหรับสไลด์ทั้งหมดของการนำเสนอด้วยการปรับสเกลแบบกำหนดเอง
+คืนค่าอ็อบเจ็กต์ Thumbnail Image สำหรับสไลด์ทั้งหมดของงานพรีเซนเทชันโดยกำหนดอัตราสเกลเอง
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | ตัวเลือกการเรนเดอร์ |
-| scaleX | float | ค่าที่ใช้ปรับสเกลภาพย่อนี้ในแนวแกน x |
-| scaleY | float | ค่าที่ใช้ปรับสเกลภาพย่อนี้ในแนวแกน y |
+| scaleX | float | ค่าที่ใช้ปรับสเกล Thumbnail นี้ในทิศทางแกน X |
+| scaleY | float | ค่าที่ใช้ปรับสเกล Thumbnail นี้ในทิศทางแกน Y |
 
-**ส่งคืน:**
+**Returns:**
 com.aspose.slides.IImage[] - Bitmap objects.
 
 ### getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY) {#getImages-com.aspose.slides.IRenderingOptions-int---float-float-}
@@ -631,17 +634,17 @@ com.aspose.slides.IImage[] - Bitmap objects.
 public abstract IImage[] getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)
 ```
 
-ส่งคืนอ็อบเจ็กต์ภาพย่อสำหรับสไลด์ที่ระบุของการนำเสนอด้วยการปรับสเกลแบบกำหนดเอง
+คืนค่าอ็อบเจ็กต์ Thumbnail Image สำหรับสไลด์ที่ระบุของงานพรีเซนเทชันโดยกำหนดอัตราสเกลเอง
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | ตัวเลือกการเรนเดอร์ |
-| slides | int[] | อาร์เรย์ที่มีตำแหน่งของสไลด์ เริ่มจาก 1 |
-| scaleX | float | ค่าที่ใช้ปรับสเกลภาพย่อนี้ในแนวแกน x |
-| scaleY | float | ค่าที่ใช้ปรับสเกลภาพย่อนี้ในแนวแกน y |
+| slides | int[] | อาร์เรย์ของตำแหน่งสไลด์ เริ่มจาก 1 |
+| scaleX | float | ค่าที่ใช้ปรับสเกล Thumbnail นี้ในทิศทางแกน X |
+| scaleY | float | ค่าที่ใช้ปรับสเกล Thumbnail นี้ในทิศทางแกน Y |
 
-**ส่งคืน:**
+**Returns:**
 com.aspose.slides.IImage[] - IImage objects.
 
 ### getImages(IRenderingOptions options, Dimension imageSize) {#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-}
@@ -649,15 +652,15 @@ com.aspose.slides.IImage[] - IImage objects.
 public abstract IImage[] getImages(IRenderingOptions options, Dimension imageSize)
 ```
 
-ส่งคืนอ็อบเจ็กต์ภาพย่อสำหรับสไลด์ทั้งหมดของการนำเสนอด้วยขนาดที่ระบุ
+คืนค่าอ็อบเจ็กต์ Thumbnail Image สำหรับสไลด์ทั้งหมดของงานพรีเซนเทชันโดยกำหนดขนาดที่ต้องการ
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | ตัวเลือกการเรนเดอร์ |
-| imageSize | java.awt.Dimension | ขนาดของภาพที่จะสร้าง |
+| imageSize | java.awt.Dimension | ขนาดของภาพที่ต้องการสร้าง |
 
-**ส่งคืน:**
+**Returns:**
 com.aspose.slides.IImage[] - IImage objects.
 
 ### getImages(IRenderingOptions options, int[] slides, Dimension imageSize) {#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-}
@@ -665,16 +668,16 @@ com.aspose.slides.IImage[] - IImage objects.
 public abstract IImage[] getImages(IRenderingOptions options, int[] slides, Dimension imageSize)
 ```
 
-ส่งคืนอ็อบเจ็กต์ภาพย่อสำหรับสไลด์ที่ระบุของการนำเสนอด้วยขนาดที่ระบุ
+คืนค่าอ็อบเจ็กต์ Thumbnail Image สำหรับสไลด์ที่ระบุของงานพรีเซนเทชันโดยกำหนดขนาดที่ต้องการ
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | ตัวเลือกการเรนเดอร์ |
-| slides | int[] | อาร์เรย์ที่มีตำแหน่งของสไลด์ เริ่มจาก 1 |
-| imageSize | java.awt.Dimension | ขนาดของภาพที่จะสร้าง |
+| slides | int[] | อาร์เรย์ของตำแหน่งสไลด์ เริ่มจาก 1 |
+| imageSize | java.awt.Dimension | ขนาดของภาพที่ต้องการสร้าง |
 
-**ส่งคืน:**
+**Returns:**
 com.aspose.slides.IImage[] - IImage objects.
 
 ### getSlideById(long id) {#getSlideById-long-}
@@ -682,14 +685,14 @@ com.aspose.slides.IImage[] - IImage objects.
 public abstract IBaseSlide getSlideById(long id)
 ```
 
-ส่งคืน Slide, MasterSlide หรือ LayoutSlide ตาม Id
+คืนค่า Slide, MasterSlide หรือ LayoutSlide ตาม Id
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | id | long | Id ของสไลด์ |
 
-**ส่งคืน:**
+**Returns:**
 [IBaseSlide](../../com.aspose.slides/ibaseslide) - IBaseSlide object.
 
 ### joinPortionsWithSameFormatting() {#joinPortionsWithSameFormatting--}
@@ -697,14 +700,14 @@ public abstract IBaseSlide getSlideById(long id)
 public abstract void joinPortionsWithSameFormatting()
 ```
 
-รวม run ที่มีการจัดรูปแบบเดียวกันในทุกย่อหน้าของรูปทรงที่ยอมรับได้ทั้งหมดในทุกสไลด์
+รวม run ที่มีการจัดรูปแบบเดียวกันในทุกย่อหน้าของรูปร่างที่รับได้ในทุกสไลด์
 
 ### highlightText(String text, Color highlightColor) {#highlightText-java.lang.String-java.awt.Color-}
 ```
 public abstract void highlightText(String text, Color highlightColor)
 ```
 
-ไฮไลท์ทั้งหมดที่ตรงกับข้อความตัวอย่างด้วยสีที่ระบุ
+ไฮไลท์ข้อความทั้งหมดที่ตรงกับข้อความตัวอย่างด้วยสีที่ระบุ
 
 --------------------
 
@@ -713,7 +716,7 @@ public abstract void highlightText(String text, Color highlightColor)
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
->      // ไฮไลท์คำ 'the' ทั้งหมดที่แยกจากกัน
+>      // ไฮไลต์ทุกการปรากฏของคำ 'the' ที่แยกออกจากกัน
 >      presentation.highlightText("the", Color.MAGENTA);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -723,17 +726,17 @@ public abstract void highlightText(String text, Color highlightColor)
 
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | text | java.lang.String | ข้อความที่จะไฮไลท์ |
-| highlightColor | java.awt.Color | สีที่ใช้ไฮไลท์ข้อความ |
+| highlightColor | java.awt.Color | สีที่จะใช้ไฮไลท์ข้อความ |
 
 ### highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
 public abstract void highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
-ไฮไลท์ทั้งหมดที่ตรงกับข้อความตัวอย่างด้วยสีที่ระบุ
+ไฮไลท์ข้อความทั้งหมดที่ตรงกับข้อความตัวอย่างด้วยสีที่ระบุ
 
 --------------------
 
@@ -742,7 +745,7 @@ public abstract void highlightText(String text, Color highlightColor, ITextSearc
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
->      // ไฮไลท์คำ 'the' ทั้งหมดที่แยกจากกัน
+>      // ไฮไลต์ทุกการปรากฏของคำ 'the' ที่แยกออกจากกัน
 >      presentation.highlightText("the", Color.MAGENTA);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -752,10 +755,10 @@ public abstract void highlightText(String text, Color highlightColor, ITextSearc
 
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | text | java.lang.String | ข้อความที่จะไฮไลท์ |
-| highlightColor | java.awt.Color | สีที่ใช้ไฮไลท์ข้อความ |
+| highlightColor | java.awt.Color | สีที่จะใช้ไฮไลท์ข้อความ |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | ตัวเลือกการค้นหาข้อความ [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | อ็อบเจ็กต์ callback สำหรับรับผลการค้นหา [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) |
 
@@ -764,7 +767,7 @@ public abstract void highlightText(String text, Color highlightColor, ITextSearc
 public abstract void highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)
 ```
 
-ไฮไลท์ทั้งหมดที่ตรงกับนิพจน์ปกติกับสีที่ระบุ
+ไฮไลท์การจับคู่ทั้งหมดของ regular expression ด้วยสีที่ระบุ
 
 --------------------
 
@@ -773,7 +776,7 @@ public abstract void highlightRegex(Pattern regex, Color highlightColor, IFindRe
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
->      // ไฮไลท์คำ 'the' ทั้งหมดที่แยกจากกัน
+>      // ไฮไลต์ทุกการปรากฏของคำ 'the' ที่แยกออกจากกัน
 >      presentation.highlightText("the", Color.MAGENTA);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -782,10 +785,10 @@ public abstract void highlightRegex(Pattern regex, Color highlightColor, IFindRe
 > ```
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | นิพจน์ปกติ java.util.regex.Pattern เพื่อดึงสตริงที่จะไฮไลท์ |
-| highlightColor | java.awt.Color | สีที่ใช้ไฮไลท์ข้อความ |
+| regex | java.util.regex.Pattern | regular expression java.util.regex.Pattern เพื่อหาสตริงที่จะไฮไลท์ |
+| highlightColor | java.awt.Color | สีที่จะใช้ไฮไลท์ข้อความ |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | อ็อบเจ็กต์ callback สำหรับรับผลการค้นหา [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) |
 
 ### replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback) {#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
@@ -793,7 +796,7 @@ public abstract void highlightRegex(Pattern regex, Color highlightColor, IFindRe
 public abstract void replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)
 ```
 
-แทนที่ทั้งหมดของข้อความที่ระบุด้วยข้อความใหม่ที่ระบุ
+แทนที่การปรากฏทั้งหมดของข้อความที่ระบุด้วยข้อความอื่นที่ระบุ
 
 --------------------
 
@@ -804,7 +807,7 @@ public abstract void replaceText(String oldText, String newText, ITextSearchOpti
 >  try {
 >      TextSearchOptions textSearchOptions = new TextSearchOptions();
 >      textSearchOptions.setWholeWordsOnly(true);
->      // แทนที่การเกิดคำ 'the' ที่แยกจากกันทั้งหมดด้วย '***'
+>      // แทนที่การปรากฏของคำ 'the' ที่แยกออกจากกันทั้งหมดด้วย '***'
 >      presentation.replaceText("the", "***", textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -814,10 +817,10 @@ public abstract void replaceText(String oldText, String newText, ITextSearchOpti
 
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | oldText | java.lang.String | สตริงที่จะถูกแทนที่ |
-| newText | java.lang.String | สตริงที่จะแทนที่ทุกการปรากฏของ oldText |
+| newText | java.lang.String | สตริงที่จะแทนที่การปรากฏทั้งหมดของ oldText |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | ตัวเลือกการค้นหาข้อความ [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | อ็อบเจ็กต์ callback สำหรับรับผลการค้นหา [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) |
 
@@ -826,7 +829,7 @@ public abstract void replaceText(String oldText, String newText, ITextSearchOpti
 public abstract void replaceRegex(Pattern regex, String newText, IFindResultCallback callback)
 ```
 
-แทนที่ทั้งหมดที่ตรงกับนิพจน์ปกติกับสตริงที่ระบุ
+แทนที่การจับคู่ทั้งหมดของ regular expression ด้วยสตริงที่ระบุ
 
 --------------------
 
@@ -837,7 +840,7 @@ public abstract void replaceRegex(Pattern regex, String newText, IFindResultCall
 >  try {
 >      TextSearchOptions textSearchOptions = new TextSearchOptions();
 >      textSearchOptions.setWholeWordsOnly(true);
->      // แทนที่คำ 'the' ที่แยกจากกันทั้งหมดด้วย '***'
+>      // แทนที่การปรากฏของคำ 'the' ที่แยกออกจากกันทั้งหมดด้วย '***'
 >      presentation.replaceText("the", "***", textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -847,8 +850,52 @@ public abstract void replaceRegex(Pattern regex, String newText, IFindResultCall
 
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | นิพจน์ปกติ java.util.regex.Pattern เพื่อดึงสตริงที่จะแทนที่ |
-| newText | java.lang.String | สตริงที่จะแทนที่ทุกการปรากฏของสตริงที่ต้องการแทนที่ |
+| regex | java.util.regex.Pattern | regular expression java.util.regex.Pattern เพื่อหาสตริงที่จะแทนที่ |
+| newText | java.lang.String | สตริงที่จะแทนที่การปรากฏทั้งหมดของสตริงที่ต้องการแทนที่ |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | อ็อบเจ็กต์ callback สำหรับรับผลการค้นหา [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) |
+
+### refreshChartsData() {#refreshChartsData--}
+```
+public abstract void refreshChartsData()
+```
+
+โหลดข้อมูลสำหรับแผนภูมิทั้งหมดในงานพรีเซนเทชันจากเวิร์กบุ๊กต้นทาง
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("PresentationWithCharts.pptx");
+>  try {
+>      presentation.refreshChartsData();
+>      presentation.save("PresentationWithCharts-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+
+### refreshChartsData(boolean skipFailedCharts) {#refreshChartsData-boolean-}
+```
+public abstract void refreshChartsData(boolean skipFailedCharts)
+```
+
+โหลดข้อมูลสำหรับแผนภูมิทั้งหมดในงานพรีเซนเทชันจากเวิร์กบุ๊กต้นทาง
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("PresentationWithCharts.pptx");
+>  try {
+>      presentation.refreshChartsData();
+>      presentation.save("PresentationWithCharts-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**พารามิเตอร์:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| skipFailedCharts | boolean | กำหนดว่ากระบวนการรีเฟรชจะดำเนินต่อหากแผนภูมิหนึ่งล้มเหลวในการอัปเดตหรือไม่ หาก true จะข้ามแผนภูมิที่ทำให้เกิดข้อยกเว้น; หาก false จะปล่อยให้ข้อยกเว้นถูกส่งต่อ |

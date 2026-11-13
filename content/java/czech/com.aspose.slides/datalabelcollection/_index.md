@@ -1,6 +1,6 @@
 ---
 title: DataLabelCollection
-second_title: Aspose.Slides pro Java – referenční příručka API
+second_title: Aspose.Slides pro Java – reference API
 description: Reprezentuje popisky řady.
 type: docs
 url: /cs/com.aspose.slides/datalabelcollection/
@@ -14,31 +14,33 @@ java.lang.Object, com.aspose.slides.DomObject
 public class DataLabelCollection extends DomObject<ChartSeries> implements IDataLabelCollection
 ```
 
-Representuje popisky řady.
+Reprezentuje popisky řady.
 ## Metody
 
 | Metoda | Popis |
 | --- | --- |
 | [getChart()](#getChart--) | Vrací nadřazený graf. |
 | [iterator()](#iterator--) | Vrací enumerátor, který prochází kolekcí. |
-| [iteratorJava()](#iteratorJava--) | Vrací java iterator pro celou kolekci. |
-| [isVisible()](#isVisible--) | False znamená, že popisek dat není ve výchozím nastavení viditelný (a tak jsou všechna Show*-příznaky (ShowValue, ...) vlastnosti DefaultDataLabelFormat nastavená na false). |
-| [hide()](#hide--) | Zpřístupní popisek dat jako skrytý ve výchozím nastavení nastavením všech Show*-příznaků (ShowValue, ...) vlastnosti DefaultDataLabelFormat na false. |
+| [iteratorJava()](#iteratorJava--) | Vrací java iterátor pro celou kolekci. |
+| [isVisible()](#isVisible--) | False znamená, že popisek dat není ve výchozím stavu viditelný (a tedy všechny Show*-flags (ShowValue, ...) vlastnosti DefaultDataLabelFormat jsou false). |
+| [hide()](#hide--) | Skryjte popisek dat ve výchozím stavu nastavením všech Show*-flags (ShowValue, ...) vlastnosti DefaultDataLabelFormat na false. |
 | [getCountOfVisibleDataLabels()](#getCountOfVisibleDataLabels--) | Získá počet viditelných popisků dat v kolekci. |
 | [getCount()](#getCount--) | Získá počet všech popisků dat v kolekci. |
 | [getDefaultDataLabelFormat()](#getDefaultDataLabelFormat--) | Získá výchozí formát popisku dat. |
-| [getLeaderLinesFormat()](#getLeaderLinesFormat--) | Representuje formát linií spojujících popisky dat. |
+| [getLeaderLinesFormat()](#getLeaderLinesFormat--) | Reprezentuje formát vodicích čar popisků dat. |
 | [getParentSeries()](#getParentSeries--) | Získá nadřazenou řadu. |
 | [indexOf(IDataLabel value)](#indexOf-com.aspose.slides.IDataLabel-) | Vrací index zadaného DataLabel v kolekci. |
 | [get_Item(int index)](#get-Item-int-) | Získá popisek dat pro datový bod se zadaným indexem. |
-| [getSlide()](#getSlide--) | Vrací nadřazený snímek FillFormat. |
-| [getPresentation()](#getPresentation--) | Vrací nadřazenou prezentaci FillFormat. |
+| [getDefaultLabelShapeType()](#getDefaultLabelShapeType--) | Získá nebo nastaví výchozí typ tvaru pro popisky dat. |
+| [setDefaultLabelShapeType(int value)](#setDefaultLabelShapeType-int-) | Získá nebo nastaví výchozí typ tvaru pro popisky dat. |
+| [getSlide()](#getSlide--) | Vrací nadřazený snímek objektu FillFormat. |
+| [getPresentation()](#getPresentation--) | Vrací nadřazenou prezentaci objektu FillFormat. |
 ### getChart() {#getChart--}
 ```
 public final IChart getChart()
 ```
 
-Vrací nadřazený graf. Pouze ke čtení [IChart](../../com.aspose.slides/ichart).
+Vrací nadřazený graf. Pouze pro čtení [IChart](../../com.aspose.slides/ichart).
 
 **Vrací:**
 [IChart](../../com.aspose.slides/ichart)
@@ -50,26 +52,26 @@ public final System.Collections.Generic.IGenericEnumerator<IDataLabel> iterator(
 Vrací enumerátor, který prochází kolekcí.
 
 **Vrací:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.slides.IDataLabel> - A IGenericEnumerator that can be used to iterate through the collection.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.slides.IDataLabel> - IGenericEnumerator, který lze použít k iteraci přes kolekci.
 ### iteratorJava() {#iteratorJava--}
 ```
 public final System.Collections.Generic.IGenericEnumerator<IDataLabel> iteratorJava()
 ```
 
-Vrací java iterator pro celou kolekci.
+Vrací java iterátor pro celou kolekci.
 
 **Vrací:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.slides.IDataLabel> - An java.util.Iterator for the entire collection.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.slides.IDataLabel> - java.util.Iterator pro celou kolekci.
 ### isVisible() {#isVisible--}
 ```
 public final boolean isVisible()
 ```
 
-False znamená, že popisek dat není ve výchozím nastavení viditelný (a tak jsou všechna Show*-příznaky (ShowValue, ...) vlastnosti DefaultDataLabelFormat nastavená na false). Pouze ke čtení boolean.
+False znamená, že popisek dat není ve výchozím stavu viditelný (a tedy všechny Show*-flags (ShowValue, ...) vlastnosti DefaultDataLabelFormat jsou false). Pouze pro čtení boolean.
 
 --------------------
 
-Pokud je popisek dat ve výchozím nastavení viditelný, můžete jej ve výchozím nastavení skrýt metodou Hide(). Pokud popisek dat není ve výchozím nastavení viditelný (IsVisible je false), můžete jej učinit „viditelným ve výchozím nastavení“ nastavením Show*-příznaků (ShowValue, ...) vlastnosti DefaultDataLabelFormat na true.
+Pokud je popisek dat ve výchozím stavu viditelný, můžete jej ve výchozím stavu skrýt pomocí metody Hide(). Pokud popisek dat není ve výchozím stavu viditelný (IsVisible je false), můžete jej "ve výchozím stavu viditelný" učinit nastavením příznaků Show*-flags (ShowValue, ...) vlastnosti DefaultDataLabelFormat na true.
 
 **Vrací:**
 boolean
@@ -78,17 +80,18 @@ boolean
 public final void hide()
 ```
 
-Zpřístupní popisek dat jako skrytý ve výchozím nastavení nastavením všech Show*-příznaků (ShowValue, ...) vlastnosti DefaultDataLabelFormat na false. IsVisible bude po tomto nastavení false.
+Skryjte popisek dat ve výchozím stavu nastavením všech Show*-flags (ShowValue, ...) vlastnosti DefaultDataLabelFormat na false. IsVisible bude po tomto nastavení false.
 
 --------------------
 
-Pokud popisek dat není ve výchozím nastavení viditelný (IsVisible je false), můžete jej učinit „viditelným ve výchozím nastavení“ nastavením Show*-příznaků (ShowValue, ...) vlastnosti DefaultDataLabelFormat na true.
+Pokud popisek dat není ve výchozím stavu viditelný (IsVisible je false), můžete jej "ve výchozím stavu viditelný" učinit nastavením příznaků Show*-flags (ShowValue, ...) vlastnosti DefaultDataLabelFormat na true.
+
 ### getCountOfVisibleDataLabels() {#getCountOfVisibleDataLabels--}
 ```
 public final int getCountOfVisibleDataLabels()
 ```
 
-Získá počet viditelných popisků dat v kolekci. Pouze ke čtení int.
+Získá počet viditelných popisků dat v kolekci. Pouze pro čtení int.
 
 **Vrací:**
 int
@@ -97,7 +100,7 @@ int
 public final int getCount()
 ```
 
-Získá počet všech popisků dat v kolekci. Pouze ke čtení int.
+Získá počet všech popisků dat v kolekci. Pouze pro čtení int.
 
 **Vrací:**
 int
@@ -106,7 +109,7 @@ int
 public final IDataLabelFormat getDefaultDataLabelFormat()
 ```
 
-Získá výchozí formát popisku dat. Pouze ke čtení [IDataLabelFormat](../../com.aspose.slides/idatalabelformat).
+Získá výchozí formát popisku dat. Pouze pro čtení [IDataLabelFormat](../../com.aspose.slides/idatalabelformat).
 
 **Vrací:**
 [IDataLabelFormat](../../com.aspose.slides/idatalabelformat)
@@ -115,12 +118,12 @@ Získá výchozí formát popisku dat. Pouze ke čtení [IDataLabelFormat](../..
 public final IChartLinesFormat getLeaderLinesFormat()
 ```
 
-Representuje formát linií spojujících popisky dat. Pouze ke čtení [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat).
+Reprezentuje formát vodicích čar popisků dat. Pouze pro čtení [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat).
 
 --------------------
 
 > ```
-> Příklad:
+> Example:
 >   
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
@@ -134,7 +137,6 @@ Representuje formát linií spojujících popisky dat. Pouze ke čtení [IChartL
 >  }
 > ```
 
-
 **Vrací:**
 [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat)
 ### getParentSeries() {#getParentSeries--}
@@ -142,7 +144,7 @@ Representuje formát linií spojujících popisky dat. Pouze ke čtení [IChartL
 public final IChartSeries getParentSeries()
 ```
 
-Získá nadřazenou řadu. Pouze ke čtení [IChartSeries](../../com.aspose.slides/ichartseries).
+Získá nadřazenou řadu. Pouze pro čtení [IChartSeries](../../com.aspose.slides/ichartseries).
 
 **Vrací:**
 [IChartSeries](../../com.aspose.slides/ichartseries)
@@ -159,13 +161,15 @@ Vrací index zadaného DataLabel v kolekci.
 | value | [IDataLabel](../../com.aspose.slides/idatalabel) | DataLabel k nalezení. |
 
 **Vrací:**
-int - Index DataLabel nebo -1 pokud DataLabel nepatří do této kolekce.
+int - Index DataLabel nebo -1, pokud DataLabel není z této kolekce.
 ### get_Item(int index) {#get-Item-int-}
 ```
 public final IDataLabel get_Item(int index)
 ```
 
 Získá popisek dat pro datový bod se zadaným indexem.
+
+--------------------
 
 Alternativní způsob přístupu k popisku dat je: - series.getDataPoints().get_Item(i).getLabel() - spravovat vlastnosti popisku.
 
@@ -176,12 +180,70 @@ Alternativní způsob přístupu k popisku dat je: - series.getDataPoints().get_
 
 **Vrací:**
 [IDataLabel](../../com.aspose.slides/idatalabel)
+### getDefaultLabelShapeType() {#getDefaultLabelShapeType--}
+```
+public final int getDefaultLabelShapeType()
+```
+
+Získá nebo nastaví výchozí typ tvaru pro popisky dat. Vrací [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined), pokud není definován žádný tvar.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Nastavte typ tvaru všech popisků dat v první řadě na Ellipse.
+>      firstSeries.getLabels().setDefaultLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabels.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+Nastavením této vlastnosti se také nastaví vlastnost IDataLabel.LabelShapeType ([IDataLabel.getLabelShapeType](../../com.aspose.slides/idatalabel\#getLabelShapeType)/[IDataLabel.setLabelShapeType(int)](../../com.aspose.slides/idatalabel\#setLabelShapeType-int-)) pro všechny popisky dat v kolekci na stejnou hodnotu.
+
+**Vrací:**
+int
+### setDefaultLabelShapeType(int value) {#setDefaultLabelShapeType-int-}
+```
+public final void setDefaultLabelShapeType(int value)
+```
+
+Získá nebo nastaví výchozí typ tvaru pro popisky dat. Vrací [ShapeType.NotDefined](../../com.aspose.slides/shapetype\#NotDefined), pokud není definován žádný tvar.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("Chart.pptx");
+>  try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(1);
+>      IChartSeries firstSeries = chart.getChartData().getSeries().get_Item(0);
+>      // Nastavte typ tvaru všech popisků dat v první řadě na Ellipse.
+>      firstSeries.getLabels().setDefaultLabelShapeType(ShapeType.Ellipse);
+>      pres.save("ChartWithEllipseLabels.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+Nastavením této vlastnosti se také nastaví vlastnost IDataLabel.LabelShapeType ([IDataLabel.getLabelShapeType](../../com.aspose.slides/idatalabel\#getLabelShapeType)/[IDataLabel.setLabelShapeType(int)](../../com.aspose.slides/idatalabel\#setLabelShapeType-int-)) pro všechny popisky dat v kolekci na stejnou hodnotu.
+
+**Parametry:**
+| Parametr | Typ | Popis |
+| --- | --- | --- |
+| value | int |  |
 ### getSlide() {#getSlide--}
 ```
 public final IBaseSlide getSlide()
 ```
 
-Vrací nadřazený snímek FillFormat. Pouze ke čtení [BaseSlide](../../com.aspose.slides/baseslide).
+Vrací nadřazený snímek objektu FillFormat. Pouze pro čtení [BaseSlide](../../com.aspose.slides/baseslide).
 
 **Vrací:**
 [IBaseSlide](../../com.aspose.slides/ibaseslide)
@@ -190,7 +252,7 @@ Vrací nadřazený snímek FillFormat. Pouze ke čtení [BaseSlide](../../com.as
 public final IPresentation getPresentation()
 ```
 
-Vrací nadřazenou prezentaci FillFormat. Pouze ke čtení [IPresentation](../../com.aspose.slides/ipresentation).
+Vrací nadřazenou prezentaci objektu FillFormat. Pouze pro čtení [IPresentation](../../com.aspose.slides/ipresentation).
 
 **Vrací:**
 [IPresentation](../../com.aspose.slides/ipresentation)

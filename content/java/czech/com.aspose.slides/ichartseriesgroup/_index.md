@@ -1,7 +1,7 @@
 ---
 title: IChartSeriesGroup
-second_title: Aspose.Slides pro Java API Reference
-description: Reprezentuje skupinu řad.
+second_title: Aspose.Slides pro Java – reference API
+description: Zastupuje skupinu řad.
 type: docs
 url: /cs/com.aspose.slides/ichartseriesgroup/
 ---
@@ -11,11 +11,11 @@ url: /cs/com.aspose.slides/ichartseriesgroup/
 public interface IChartSeriesGroup extends IChartComponent
 ```
 
-Reprezentuje skupinu řad.
+Zastupuje skupinu řad.
 
 --------------------
 
-1) Viz souhrn a poznámky ke třídě ChartSeriesGroupCollection a výčtu CombinableSeriesTypesGroup. 2) Skupina řad obsahuje některé vlastnosti řad, které jsou společné pro každou řadu ve skupině ("vlastnosti skupiny řad"). "Vlastnosti skupiny řad" ve třídě ChartSeriesGroup jsou čtení/zápis. Každá z "vlastností skupiny řad" může mít projekci pouze pro čtení ve třídě ChartSeries.
+1) Viz souhrn a poznámky pro třídu ChartSeriesGroupCollection a výčtový typ CombinableSeriesTypesGroup. 2) Skupina řad obsahuje některé vlastnosti řad, které jsou společné pro každou řadu ve skupině („vlastnosti skupiny řad“). „Vlastnosti skupiny řad“ ve třídě ChartSeriesGroup jsou čtení/zápis. Každá z „vlastností skupiny řad“ může mít pouze pro čtení projekci ve třídě ChartSeries.
 
 ## Metody
 
@@ -23,35 +23,35 @@ Reprezentuje skupinu řad.
 | --- | --- |
 | [getType()](#getType--) | Vrací typ této skupiny řad. |
 | [getPlotOnSecondAxis()](#getPlotOnSecondAxis--) | Určuje, zda jsou řady této skupiny vykresleny na sekundární ose. |
-| [getSeries()](#getSeries--) | Vrací kolekci řad grafu pouze pro čtení. |
+| [getSeries()](#getSeries--) | Vrací kolekci řad grafu jen pro čtení. |
 | [get_Item(int index)](#get-Item-int-) | Získá prvek na zadaném indexu. |
-| [getUpDownBars()](#getUpDownBars--) | Poskytuje přístup k up/down pruhům v grafu čáry nebo akcií. |
-| [getGapWidth()](#getGapWidth--) | Určuje prostor mezi shluky pruhů nebo sloupců jako procento šířky pruhu nebo sloupce. |
-| [setGapWidth(int value)](#setGapWidth-int-) | Určuje prostor mezi shluky pruhů nebo sloupců jako procento šířky pruhu nebo sloupce. |
-| [getGapDepth()](#getGapDepth--) | Vrací nebo nastavuje vzdálenost mezi řadami dat v 3D grafu jako procento šířky značky. |
-| [setGapDepth(int value)](#setGapDepth-int-) | Vrací nebo nastavuje vzdálenost mezi řadami dat v 3D grafu jako procento šířky značky. |
-| [getFirstSliceAngle()](#getFirstSliceAngle--) | Získá nebo nastaví úhel první výsečky koláčového nebo prstencového grafu ve stupních (po směru hodinových ručiček odshora, od 0 do 360 stupňů). |
-| [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | Získá nebo nastaví úhel první výsečky koláčového nebo prstencového grafu ve stupních (po směru hodinových ručiček odshora, od 0 do 360 stupňů). |
+| [getUpDownBars()](#getUpDownBars--) | Poskytuje přístup k up/down barům u čarového nebo akciového grafu. |
+| [getGapWidth()](#getGapWidth--) | Získá nebo nastaví prostor mezi shluky pruhů nebo sloupců jako procento šířky pruhu nebo sloupce. |
+| [setGapWidth(int value)](#setGapWidth-int-) | Získá nebo nastaví prostor mezi shluky pruhů nebo sloupců jako procento šířky pruhu nebo sloupce. |
+| [getGapDepth()](#getGapDepth--) | Získá nebo nastaví vzdálenost mezi datovými řadami ve 3D grafu jako procento šířky markeru. |
+| [setGapDepth(int value)](#setGapDepth-int-) | Získá nebo nastaví vzdálenost mezi datovými řadami ve 3D grafu jako procento šířky markeru. |
+| [getFirstSliceAngle()](#getFirstSliceAngle--) | Získá nebo nastaví úhel první výseče koláčového nebo prstencového grafu ve stupních (ve směru hodinových ručiček od shora, od 0 do 360 stupňů). |
+| [setFirstSliceAngle(int value)](#setFirstSliceAngle-int-) | Získá nebo nastaví úhel první výseče koláčového nebo prstencového grafu ve stupních (ve směru hodinových ručiček od shora, od 0 do 360 stupňů). |
 | [isColorVaried()](#isColorVaried--) | Určuje, že každý datový marker v řadě má jinou barvu. |
 | [setColorVaried(boolean value)](#setColorVaried-boolean-) | Určuje, že každý datový marker v řadě má jinou barvu. |
-| [hasSeriesLines()](#hasSeriesLines--) | True, pokud graf má čáry řad. |
-| [setSeriesLines(boolean value)](#setSeriesLines-boolean-) | True, pokud graf má čáry řad. |
+| [hasSeriesLines()](#hasSeriesLines--) | True, pokud graf má řádky řady. |
+| [setSeriesLines(boolean value)](#setSeriesLines-boolean-) | True, pokud graf má řádky řady. |
 | [getOverlap()](#getOverlap--) | Určuje, jak moc se mají pruhy a sloupce překrývat v 2-D grafech, jako procento (od -100 % do 100 %). |
 | [setOverlap(byte value)](#setOverlap-byte-) | Určuje, jak moc se mají pruhy a sloupce překrývat v 2-D grafech, jako procento (od -100 % do 100 %). |
-| [getSecondPieSize()](#getSecondPieSize--) | Určuje velikost druhého koláče nebo pruhu v grafu koláč-v-koláči nebo pruh-v-koláči jako procento velikosti prvního koláče (může být mezi 5 a 200 %). |
-| [setSecondPieSize(int value)](#setSecondPieSize-int-) | Určuje velikost druhého koláče nebo pruhu v grafu koláč-v-koláči nebo pruh-v-koláči jako procento velikosti prvního koláče (může být mezi 5 a 200 %). |
-| [getPieSplitPosition()](#getPieSplitPosition--) | Určuje hodnotu, která se použije k určení, které datové body jsou ve druhém koláči nebo pruhu v grafu koláč-v-koláči nebo pruh-v-koláči. |
-| [setPieSplitPosition(double value)](#setPieSplitPosition-double-) | Určuje hodnotu, která se použije k určení, které datové body jsou ve druhém koláči nebo pruhu v grafu koláč-v-koláči nebo pruh-v-koláči. |
-| [getPieSplitBy()](#getPieSplitBy--) | Určuje, jak určit, které datové body jsou ve druhém koláči nebo pruhu v grafu koláč-v-koláči nebo pruh-v-koláči. |
-| [setPieSplitBy(int value)](#setPieSplitBy-int-) | Určuje, jak určit, které datové body jsou ve druhém koláči nebo pruhu v grafu koláč-v-koláči nebo pruh-v-koláči. |
-| [getPieSplitCustomPoints()](#getPieSplitCustomPoints--) | Vlastní informace o rozdělení pro graf koláč-v-koláči nebo pruh-v-koláči s vlastním rozdělením. |
-| [getDoughnutHoleSize()](#getDoughnutHoleSize--) | Určuje velikost díry v prstencovém grafu (může být mezi 10 a 90 % velikosti vykreslovací oblasti). |
-| [setDoughnutHoleSize(byte value)](#setDoughnutHoleSize-byte-) | Určuje velikost díry v prstencovém grafu (může být mezi 10 a 90 % velikosti vykreslovací oblasti). |
-| [getBubbleSizeScale()](#getBubbleSizeScale--) | Určuje škálovací faktor pro bublinový graf (může být mezi 0 a 300 % výchozí velikosti). |
-| [setBubbleSizeScale(int value)](#setBubbleSizeScale-int-) | Určuje škálovací faktor pro bublinový graf (může být mezi 0 a 300 % výchozí velikosti). |
+| [getSecondPieSize()](#getSecondPieSize--) | Určuje velikost druhého koláče nebo pruhu v grafu koláč-z-koláče nebo pruh-z-koláče jako procento velikosti prvního koláče (může být mezi 5 % a 200 %). |
+| [setSecondPieSize(int value)](#setSecondPieSize-int-) | Určuje velikost druhého koláče nebo pruhu v grafu koláč-z-koláče nebo pruh-z-koláče jako procento velikosti prvního koláče (může být mezi 5 % a 200 %). |
+| [getPieSplitPosition()](#getPieSplitPosition--) | Určuje hodnotu, která se použije k určení, které datové body jsou ve druhém koláči nebo pruhu v grafu koláč-z-koláče nebo pruh-z-koláče. |
+| [setPieSplitPosition(double value)](#setPieSplitPosition-double-) | Určuje hodnotu, která se použije k určení, které datové body jsou ve druhém koláči nebo pruhu v grafu koláč-z-koláče nebo pruh-z-koláče. |
+| [getPieSplitBy()](#getPieSplitBy--) | Určuje, jak určit, které datové body jsou ve druhém koláči nebo pruhu v grafu koláč-z-koláče nebo pruh-z-koláče. |
+| [setPieSplitBy(int value)](#setPieSplitBy-int-) | Určuje, jak určit, které datové body jsou ve druhém koláči nebo pruhu v grafu koláč-z-koláče nebo pruh-z-koláče. |
+| [getPieSplitCustomPoints()](#getPieSplitCustomPoints--) | Vlastní informace o rozdělení pro graf koláč-z-koláče nebo pruh-z-koláče s vlastním rozdělením. |
+| [getDoughnutHoleSize()](#getDoughnutHoleSize--) | Určuje velikost díry v prstencovém grafu (může být mezi 10 % a 90 % velikosti oblasti grafu). |
+| [setDoughnutHoleSize(byte value)](#setDoughnutHoleSize-byte-) | Určuje velikost díry v prstencovém grafu (může být mezi 10 % a 90 % velikosti oblasti grafu). |
+| [getBubbleSizeScale()](#getBubbleSizeScale--) | Určuje měřítkový faktor pro bublinový graf (může být mezi 0 % a 300 % výchozí velikosti). |
+| [setBubbleSizeScale(int value)](#setBubbleSizeScale-int-) | Určuje měřítkový faktor pro bublinový graf (může být mezi 0 % a 300 % výchozí velikosti). |
 | [getHiLowLinesFormat()](#getHiLowLinesFormat--) | Určuje formát HiLowLines. |
-| [getBubbleSizeRepresentation()](#getBubbleSizeRepresentation--) | Určuje, jak jsou hodnoty velikosti bublin zobrazeny v bublinovém grafu. |
-| [setBubbleSizeRepresentation(int value)](#setBubbleSizeRepresentation-int-) | Určuje, jak jsou hodnoty velikosti bublin zobrazeny v bublinovém grafu. |
+| [getBubbleSizeRepresentation()](#getBubbleSizeRepresentation--) | Určuje, jak jsou hodnoty velikosti bubliny zobrazeny v bublinovém grafu. |
+| [setBubbleSizeRepresentation(int value)](#setBubbleSizeRepresentation-int-) | Určuje, jak jsou hodnoty velikosti bubliny zobrazeny v bublinovém grafu. |
 
 ### getType() {#getType--}
 ```
@@ -78,7 +78,7 @@ boolean
 public abstract IChartSeriesReadonlyCollection getSeries()
 ```
 
-Vrací kolekci řad grafu pouze pro čtení. Pouze pro čtení [IChartSeriesReadonlyCollection](../../com.aspose.slides/ichartseriesreadonlycollection).
+Vrací kolekci řad grafu jen pro čtení. Pouze pro čtení [IChartSeriesReadonlyCollection](../../com.aspose.slides/ichartseriesreadonlycollection).
 
 **Vrací:**
 [IChartSeriesReadonlyCollection](../../com.aspose.slides/ichartseriesreadonlycollection)
@@ -103,7 +103,7 @@ Získá prvek na zadaném indexu.
 public abstract IUpDownBarsManager getUpDownBars()
 ```
 
-Poskytuje přístup k up/down pruhům v grafu čáry nebo akcií. Pouze pro čtení [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager).
+Poskytuje přístup k up/down barům u čarového nebo akciového grafu. Pouze pro čtení [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager).
 
 **Vrací:**
 [IUpDownBarsManager](../../com.aspose.slides/iupdownbarsmanager)
@@ -113,7 +113,11 @@ Poskytuje přístup k up/down pruhům v grafu čáry nebo akcií. Pouze pro čte
 public abstract int getGapWidth()
 ```
 
-Určuje prostor mezi shluky pruhů nebo sloupců jako procento šířky pruhu nebo sloupce. Čtení/zápis int.
+Získá nebo nastaví prostor mezi shluky pruhů nebo sloupců jako procento šířky pruhu nebo sloupce. Hodnota musí být mezi 0 a 500. Čtení/Zápis int.
+
+--------------------
+
+Tato vlastnost platí pro řady následujících typů: Všechny podtypy pruhových a sloupcových řad, [ChartType.BarOfPie](../../com.aspose.slides/charttype\#BarOfPie), [ChartType.PieOfPie](../../com.aspose.slides/charttype\#PieOfPie), [ChartType.BoxAndWhisker](../../com.aspose.slides/charttype\#BoxAndWhisker), [ChartType.Funnel](../../com.aspose.slides/charttype\#Funnel), [ChartType.Histogram](../../com.aspose.slides/charttype\#Histogram), [ChartType.Waterfall](../../com.aspose.slides/charttype\#Waterfall).
 
 **Vrací:**
 int
@@ -123,7 +127,11 @@ int
 public abstract void setGapWidth(int value)
 ```
 
-Určuje prostor mezi shluky pruhů nebo sloupců jako procento šířky pruhu nebo sloupce. Čtení/zápis int.
+Získá nebo nastaví prostor mezi shluky pruhů nebo sloupců jako procento šířky pruhu nebo sloupce. Hodnota musí být mezi 0 a 500. Čtení/Zápis int.
+
+--------------------
+
+Tato vlastnost platí pro řady následujících typů: Všechny podtypy pruhových a sloupcových řad, [ChartType.BarOfPie](../../com.aspose.slides/charttype\#BarOfPie), [ChartType.PieOfPie](../../com.aspose.slides/charttype\#PieOfPie), [ChartType.BoxAndWhisker](../../com.aspose.slides/charttype\#BoxAndWhisker), [ChartType.Funnel](../../com.aspose.slides/charttype\#Funnel), [ChartType.Histogram](../../com.aspose.slides/charttype\#Histogram), [ChartType.Waterfall](../../com.aspose.slides/charttype\#Waterfall).
 
 **Parametry:**
 | Parametr | Typ | Popis |
@@ -135,7 +143,11 @@ Určuje prostor mezi shluky pruhů nebo sloupců jako procento šířky pruhu ne
 public abstract int getGapDepth()
 ```
 
-Vrací nebo nastavuje vzdálenost mezi řadami dat v 3D grafu jako procento šířky značky. Čtení/zápis int.
+Získá nebo nastaví vzdálenost mezi datovými řadami ve 3D grafu jako procento šířky markeru. Hodnota musí být mezi 0 a 500. Čtení/Zápis int.
+
+--------------------
+
+Tato vlastnost platí pro řady následujících typů: Podtypy 3D pruhových a sloupcových řad, [ChartType.Line3D](../../com.aspose.slides/charttype\#Line3D), [ChartType.Area3D](../../com.aspose.slides/charttype\#Area3D), [ChartType.StackedArea3D](../../com.aspose.slides/charttype\#StackedArea3D), [ChartType.PercentsStackedArea3D](../../com.aspose.slides/charttype\#PercentsStackedArea3D).
 
 **Vrací:**
 int
@@ -145,7 +157,11 @@ int
 public abstract void setGapDepth(int value)
 ```
 
-Vrací nebo nastavuje vzdálenost mezi řadami dat v 3D grafu jako procento šířky značky. Čtení/zápis int.
+Získá nebo nastaví vzdálenost mezi datovými řadami ve 3D grafu jako procento šířky markeru. Hodnota musí být mezi 0 a 500. Čtení/Zápis int.
+
+--------------------
+
+Tato vlastnost platí pro řady následujících typů: Podtypy 3D pruhových a sloupcových řad, [ChartType.Line3D](../../com.aspose.slides/charttype\#Line3D), [ChartType.Area3D](../../com.aspose.slides/charttype\#Area3D), [ChartType.StackedArea3D](../../com.aspose.slides/charttype\#StackedArea3D), [ChartType.PercentsStackedArea3D](../../com.aspose.slides/charttype\#PercentsStackedArea3D).
 
 **Parametry:**
 | Parametr | Typ | Popis |
@@ -157,7 +173,7 @@ Vrací nebo nastavuje vzdálenost mezi řadami dat v 3D grafu jako procento ší
 public abstract int getFirstSliceAngle()
 ```
 
-Získá nebo nastaví úhel první výsečky koláčového nebo prstencového grafu ve stupních (po směru hodinových ručiček odshora, od 0 do 360 stupňů). Čtení/zápis int.
+Získá nebo nastaví úhel první výseče koláčového nebo prstencového grafu ve stupních (ve směru hodinových ručiček od shora, od 0 do 360 stupňů). Čtení/Zápis int.
 
 **Vrací:**
 int
@@ -167,7 +183,7 @@ int
 public abstract void setFirstSliceAngle(int value)
 ```
 
-Získá nebo nastaví úhel první výsečky koláčového nebo prstencového grafu ve stupních (po směru hodinových ručiček odshora, od 0 do 360 stupňů). Čtení/zápis int.
+Získá nebo nastaví úhel první výseče koláčového nebo prstencového grafu ve stupních (ve směru hodinových ručiček od shora, od 0 do 360 stupňů). Čtení/Zápis int.
 
 **Parametry:**
 | Parametr | Typ | Popis |
@@ -179,7 +195,7 @@ Získá nebo nastaví úhel první výsečky koláčového nebo prstencového gr
 public abstract boolean isColorVaried()
 ```
 
-Určuje, že každý datový marker v řadě má jinou barvu. Čtení/zápis boolean.
+Určuje, že každý datový marker v řadě má jinou barvu. Čtení/Zápis boolean.
 
 **Vrací:**
 boolean
@@ -189,7 +205,7 @@ boolean
 public abstract void setColorVaried(boolean value)
 ```
 
-Určuje, že každý datový marker v řadě má jinou barvu. Čtení/zápis boolean.
+Určuje, že každý datový marker v řadě má jinou barvu. Čtení/Zápis boolean.
 
 **Parametry:**
 | Parametr | Typ | Popis |
@@ -201,7 +217,7 @@ Určuje, že každý datový marker v řadě má jinou barvu. Čtení/zápis boo
 public abstract boolean hasSeriesLines()
 ```
 
-True, pokud graf má čáry řad. Používá se u sloupcových grafů se zásobníkem a grafů OfPie. Čtení/zápis boolean.
+True, pokud graf má řádky řady. Použito u sloupcových grafů se seskupením a grafů OfPie. Čtení/Zápis boolean.
 
 **Vrací:**
 boolean
@@ -211,7 +227,7 @@ boolean
 public abstract void setSeriesLines(boolean value)
 ```
 
-True, pokud graf má čáry řad. Používá se u sloupcových grafů se zásobníkem a grafů OfPie. Čtení/zápis boolean.
+True, pokud graf má řádky řady. Použito u sloupcových grafů se seskupením a grafů OfPie. Čtení/Zápis boolean.
 
 **Parametry:**
 | Parametr | Typ | Popis |
@@ -223,19 +239,19 @@ True, pokud graf má čáry řad. Používá se u sloupcových grafů se zásobn
 public abstract byte getOverlap()
 ```
 
-Určuje, jak moc se mají pruhy a sloupce překrývat v 2-D grafech, jako procento (od -100 % do 100 %). - -100 %: Maximální mezera (pruhy jsou zcela oddělené). - 0 %: Pruhy jsou vedle sebe bez překrývání nebo mezery. - 100 %: Maximální překrývání (pruhy se zcela překrývají). Tato vlastnost je čtení/zápis byte.
+Určuje, jak moc se mají pruhy a sloupce překrývat v 2-D grafech, jako procento (od -100 % do 100 %). - -100 %: Maximální rozestup (pruhy jsou zcela odděleny). - 0 %: Pruhy jsou umístěny vedle sebe bez překrytí nebo mezery. - 100 %: Maximální překrytí (pruhy se zcela překrývají). Tato vlastnost je čtení/zápis byte.
 
 --------------------
 
 > ```
-> Následující příklad ukazuje, jak nastavit překrytí pro skupinu řad grafu 
->   a vykreslit vzniklý graf na formuláři:
+> The following example demonstrates how to set the overlap for a chart series group 
+>   and render the resulting chart on a form:
 >   
 >  Presentation pres = new Presentation();
 >  try {
 >      IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);
 >      IChartSeriesCollection series = chart.getChartData().getSeries();
->      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // Nastavit překrytí na 55%
+>      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // Nastavte překrytí na 55%
 >      pres.getSlides().get_Item(0).getImage(1, 1).save("chart.png");
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -251,19 +267,19 @@ byte
 public abstract void setOverlap(byte value)
 ```
 
-Určuje, jak moc se mají pruhy a sloupce překrývat v 2-D grafech, jako procento (od -100 % do 100 %). - -100 %: Maximální mezera (pruhy jsou zcela oddělené). - 0 %: Pruhy jsou vedle sebe bez překrývání nebo mezery. - 100 %: Maximální překrývání (pruhy se zcela překrývají). Tato vlastnost je čtení/zápis byte.
+Určuje, jak moc se mají pruhy a sloupce překrývat v 2-D grafech, jako procento (od -100 % do 100 %). - -100 %: Maximální rozestup (pruhy jsou zcela odděleny). - 0 %: Pruhy jsou umístěny vedle sebe bez překrytí nebo mezery. - 100 %: Maximální překrytí (pruhy se zcela překrývají). Tato vlastnost je čtení/zápis byte.
 
 --------------------
 
 > ```
-> Následující příklad ukazuje, jak nastavit překrytí pro skupinu řad grafu 
->   a vykreslit vzniklý graf na formuláři:
+> The following example demonstrates how to set the overlap for a chart series group 
+>   and render the resulting chart on a form:
 >   
 >  Presentation pres = new Presentation();
 >  try {
 >      IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);
 >      IChartSeriesCollection series = chart.getChartData().getSeries();
->      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // Nastavit překrytí na 55%
+>      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // Nastavte překrytí na 55%
 >      pres.getSlides().get_Item(0).getImage(1, 1).save("chart.png", ImageFormat.Png);
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -281,7 +297,7 @@ Určuje, jak moc se mají pruhy a sloupce překrývat v 2-D grafech, jako procen
 public abstract int getSecondPieSize()
 ```
 
-Určuje velikost druhého koláče nebo pruhu v grafu koláč-v-koláči nebo pruh-v-koláči jako procento velikosti prvního koláče (může být mezi 5 a 200 %). Čtení/zápis int.
+Určuje velikost druhého koláče nebo pruhu v grafu koláč-z-koláče nebo pruh-z-koláče jako procento velikosti prvního koláče (může být mezi 5 % a 200 %). Čtení/Zápis int.
 
 **Vrací:**
 int
@@ -291,7 +307,7 @@ int
 public abstract void setSecondPieSize(int value)
 ```
 
-Určuje velikost druhého koláče nebo pruhu v grafu koláč-v-koláči nebo pruh-v-koláči jako procento velikosti prvního koláče (může být mezi 5 a 200 %). Čtení/zápis int.
+Určuje velikost druhého koláče nebo pruhu v grafu koláč-z-koláče nebo pruh-z-koláče jako procento velikosti prvního koláče (může být mezi 5 % a 200 %). Čtení/Zápis int.
 
 **Parametry:**
 | Parametr | Typ | Popis |
@@ -303,7 +319,7 @@ Určuje velikost druhého koláče nebo pruhu v grafu koláč-v-koláči nebo pr
 public abstract double getPieSplitPosition()
 ```
 
-Určuje hodnotu, která se použije k určení, které datové body jsou ve druhém koláči nebo pruhu v grafu koláč-v-koláči nebo pruh-v-koláči. Používá se spolu s vlastností PieSplitBy. Čtení/zápis double.
+Určuje hodnotu, která se použije k určení, které datové body jsou ve druhém koláči nebo pruhu v grafu koláč-z-koláče nebo pruh-z-koláče. Používá se společně s vlastností PieSplitBy. Čtení/Zápis double.
 
 **Vrací:**
 double
@@ -313,7 +329,7 @@ double
 public abstract void setPieSplitPosition(double value)
 ```
 
-Určuje hodnotu, která se použije k určení, které datové body jsou ve druhém koláči nebo pruhu v grafu koláč-v-koláči nebo pruh-v-koláči. Používá se spolu s vlastností PieSplitBy. Čtení/zápis double.
+Určuje hodnotu, která se použije k určení, které datové body jsou ve druhém koláči nebo pruhu v grafu koláč-z-koláče nebo pruh-z-koláče. Používá se společně s vlastností PieSplitBy. Čtení/Zápis double.
 
 **Parametry:**
 | Parametr | Typ | Popis |
@@ -325,7 +341,7 @@ Určuje hodnotu, která se použije k určení, které datové body jsou ve druh
 public abstract int getPieSplitBy()
 ```
 
-Určuje, jak určit, které datové body jsou ve druhém koláči nebo pruhu v grafu koláč-v-koláči nebo pruh-v-koláči. Čtení/zápis [PieSplitType](../../com.aspose.slides/piesplittype).
+Určuje, jak určit, které datové body jsou ve druhém koláči nebo pruhu v grafu koláč-z-koláče nebo pruh-z-koláče. Čtení/Zápis [PieSplitType](../../com.aspose.slides/piesplittype).
 
 **Vrací:**
 int
@@ -335,7 +351,7 @@ int
 public abstract void setPieSplitBy(int value)
 ```
 
-Určuje, jak určit, které datové body jsou ve druhém koláči nebo pruhu v grafu koláč-v-koláči nebo pruh-v-koláči. Čtení/zápis [PieSplitType](../../com.aspose.slides/piesplittype).
+Určuje, jak určit, které datové body jsou ve druhém koláči nebo pruhu v grafu koláč-z-koláče nebo pruh-z-koláče. Čtení/Zápis [PieSplitType](../../com.aspose.slides/piesplittype).
 
 **Parametry:**
 | Parametr | Typ | Popis |
@@ -347,7 +363,7 @@ Určuje, jak určit, které datové body jsou ve druhém koláči nebo pruhu v g
 public abstract IPieSplitCustomPointCollection getPieSplitCustomPoints()
 ```
 
-Vlastní informace o rozdělení pro graf koláč-v-koláči nebo pruh-v-koláči s vlastním rozdělením. Obsahuje datové body, které mají být vykresleny ve druhém koláči nebo pruhu. Pouze pro čtení [IPieSplitCustomPointCollection](../../com.aspose.slides/ipiesplitcustompointcollection).
+Vlastní informace o rozdělení pro graf koláč-z-koláče nebo pruh-z-koláče s vlastním rozdělením. Obsahuje datové body, které mají být vykresleny ve druhém koláči nebo pruhu v grafu koláč-z-koláče nebo pruh-z-koláče. Pouze pro čtení [IPieSplitCustomPointCollection](../../com.aspose.slides/ipiesplitcustompointcollection).
 
 **Vrací:**
 [IPieSplitCustomPointCollection](../../com.aspose.slides/ipiesplitcustompointcollection)
@@ -357,7 +373,7 @@ Vlastní informace o rozdělení pro graf koláč-v-koláči nebo pruh-v-koláč
 public abstract byte getDoughnutHoleSize()
 ```
 
-Určuje velikost díry v prstencovém grafu (může být mezi 10 a 90 % velikosti vykreslovací oblasti). Čtení/zápis byte.
+Určuje velikost díry v prstencovém grafu (může být mezi 10 % a 90 % velikosti oblasti grafu). Čtení/Zápis byte.
 
 **Vrací:**
 byte
@@ -367,7 +383,7 @@ byte
 public abstract void setDoughnutHoleSize(byte value)
 ```
 
-Určuje velikost díry v prstencovém grafu (může být mezi 10 a 90 % velikosti vykreslovací oblasti). Čtení/zápis byte.
+Určuje velikost díry v prstencovém grafu (může být mezi 10 % a 90 % velikosti oblasti grafu). Čtení/Zápis byte.
 
 **Parametry:**
 | Parametr | Typ | Popis |
@@ -379,7 +395,7 @@ Určuje velikost díry v prstencovém grafu (může být mezi 10 a 90 % velikost
 public abstract int getBubbleSizeScale()
 ```
 
-Určuje škálovací faktor pro bublinový graf (může být mezi 0 a 300 % výchozí velikosti). Čtení/zápis int.
+Určuje měřítkový faktor pro bublinový graf (může být mezi 0 % a 300 % výchozí velikosti). Čtení/Zápis int.
 
 **Vrací:**
 int
@@ -389,7 +405,7 @@ int
 public abstract void setBubbleSizeScale(int value)
 ```
 
-Určuje škálovací faktor pro bublinový graf (může být mezi 0 a 300 % výchozí velikosti). Čtení/zápis int.
+Určuje měřítkový faktor pro bublinový graf (může být mezi 0 % a 300 % výchozí velikosti). Čtení/Zápis int.
 
 **Parametry:**
 | Parametr | Typ | Popis |
@@ -411,7 +427,7 @@ Určuje formát HiLowLines. HiLowLines se používá s typy grafů HiLowClose, O
 public abstract int getBubbleSizeRepresentation()
 ```
 
-Určuje, jak jsou hodnoty velikosti bublin zobrazeny v bublinovém grafu. Čtení/zápis [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
+Určuje, jak jsou hodnoty velikosti bubliny zobrazeny v bublinovém grafu. Čtení/Zápis [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
 
 **Vrací:**
 int
@@ -421,7 +437,7 @@ int
 public abstract void setBubbleSizeRepresentation(int value)
 ```
 
-Určuje, jak jsou hodnoty velikosti bublin zobrazeny v bublinovém grafu. Čtení/zápis [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
+Určuje, jak jsou hodnoty velikosti bubliny zobrazeny v bublinovém grafu. Čtení/Zápis [BubbleSizeRepresentationType](../../com.aspose.slides/bubblesizerepresentationtype).
 
 **Parametry:**
 | Parametr | Typ | Popis |

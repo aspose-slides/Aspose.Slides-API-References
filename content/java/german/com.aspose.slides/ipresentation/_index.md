@@ -16,66 +16,68 @@ Präsentationsdokument
 
 | Methode | Beschreibung |
 | --- | --- |
-| [getCurrentDateTime()](#getCurrentDateTime--) | Gibt das Datum und die Uhrzeit zurück oder setzt sie, die den Inhalt von Datums-Zeit-Feldern ersetzen. |
-| [setCurrentDateTime(Date value)](#setCurrentDateTime-java.util.Date-) | Gibt das Datum und die Uhrzeit zurück oder setzt sie, die den Inhalt von Datums-Zeit-Feldern ersetzen. |
+| [getCurrentDateTime()](#getCurrentDateTime--) | Gibt das Datum und die Uhrzeit zurück oder setzt sie, die den Inhalt von Datumszeitfeldern ersetzen. |
+| [setCurrentDateTime(Date value)](#setCurrentDateTime-java.util.Date-) | Gibt das Datum und die Uhrzeit zurück oder setzt sie, die den Inhalt von Datumszeitfeldern ersetzen. |
 | [getHeaderFooterManager()](#getHeaderFooterManager--) | Gibt den HeaderFooter-Manager der Präsentation zurück. |
-| [getProtectionManager()](#getProtectionManager--) | Ermittelt den Berechtigungs-Manager für diese Präsentation. |
+| [getProtectionManager()](#getProtectionManager--) | Gibt den Manager der Berechtigungen für diese Präsentation zurück. |
 | [getSlides()](#getSlides--) | Gibt eine Liste aller Folien zurück, die in der Präsentation definiert sind. |
 | [getSections()](#getSections--) | Gibt eine Liste aller Folienabschnitte zurück, die in der Präsentation definiert sind. |
-| [getSlideSize()](#getSlideSize--) | Gibt das Foliengrößen-Objekt zurück. |
-| [getNotesSize()](#getNotesSize--) | Gibt das Notizfolien-Größen-Objekt zurück. |
-| [getLayoutSlides()](#getLayoutSlides--) | Gibt eine Liste aller Layout-Folien zurück, die in der Präsentation definiert sind. |
-| [getMasters()](#getMasters--) | Gibt eine Liste aller Master-Folien zurück, die in der Präsentation definiert sind. |
-| [getMasterNotesSlideManager()](#getMasterNotesSlideManager--) | Gibt den Notiz-Master-Manager zurück. |
-| [getMasterHandoutSlideManager()](#getMasterHandoutSlideManager--) | Gibt den Handzettel-Master-Manager zurück. |
+| [getSlideSize()](#getSlideSize--) | Gibt ein Foliengrößenobjekt zurück. |
+| [getNotesSize()](#getNotesSize--) | Gibt ein Notizfoliengrößenobjekt zurück. |
+| [getLayoutSlides()](#getLayoutSlides--) | Gibt eine Liste aller Layoutfolien zurück, die in der Präsentation definiert sind. |
+| [getMasters()](#getMasters--) | Gibt eine Liste aller Masterfolien zurück, die in der Präsentation definiert sind. |
+| [getMasterNotesSlideManager()](#getMasterNotesSlideManager--) | Gibt den Notizmaster-Manager zurück. |
+| [getMasterHandoutSlideManager()](#getMasterHandoutSlideManager--) | Gibt den Handout-Master-Manager zurück. |
 | [getFontsManager()](#getFontsManager--) | Gibt den Schriftarten-Manager zurück. |
 | [getDefaultTextStyle()](#getDefaultTextStyle--) | Gibt den Standard-Textstil für Formen zurück. |
-| [getCommentAuthors()](#getCommentAuthors--) | Gibt die Sammlung der Kommentar-Autoren zurück. |
+| [getCommentAuthors()](#getCommentAuthors--) | Gibt die Sammlung der Kommentarautoren zurück. |
 | [getDocumentProperties()](#getDocumentProperties--) | Gibt das DocumentProperties-Objekt zurück, das Standard- und benutzerdefinierte Dokumenteigenschaften enthält. |
 | [getImages()](#getImages--) | Gibt die Sammlung aller Bilder in der Präsentation zurück. |
 | [getAudios()](#getAudios--) | Gibt die Sammlung aller eingebetteten Audiodateien in der Präsentation zurück. |
 | [getVideos()](#getVideos--) | Gibt die Sammlung aller eingebetteten Videodateien in der Präsentation zurück. |
 | [getCustomData()](#getCustomData--) | Gibt die benutzerdefinierten Daten der Präsentation zurück. |
-| [getVbaProject()](#getVbaProject--) | Ermittelt das VBA-Projekt mit Präsentations-Makros. |
-| [setVbaProject(IVbaProject value)](#setVbaProject-com.aspose.slides.IVbaProject-) | Ermittelt das VBA-Projekt mit Präsentations-Makros. |
+| [getVbaProject()](#getVbaProject--) | Gibt das VBA-Projekt mit Präsentationsmakros zurück. |
+| [setVbaProject(IVbaProject value)](#setVbaProject-com.aspose.slides.IVbaProject-) | Gibt das VBA-Projekt mit Präsentationsmakros zurück. |
 | [getSourceFormat()](#getSourceFormat--) | Gibt Informationen darüber zurück, aus welchem Format die Präsentation geladen wurde. |
-| [getMasterTheme()](#getMasterTheme--) | Gibt das Master-Theme der Präsentation zurück. |
-| [getHyperlinkQueries()](#getHyperlinkQueries--) | Ermöglicht einfachen Zugriff auf alle Hyperlinks, die in allen Präsentationsfolien enthalten sind (nicht in Master-, Layout- oder Notizfolien). |
-| [getViewProperties()](#getViewProperties--) | Ermittelt die Ansichtseigenschaften der gesamten Präsentation. |
-| [getFirstSlideNumber()](#getFirstSlideNumber--) | Stellt die Nummer der ersten Folie in der Präsentation dar. |
-| [setFirstSlideNumber(int value)](#setFirstSlideNumber-int-) | Stellt die Nummer der ersten Folie in der Präsentation dar. |
-| [getAllCustomXmlParts()](#getAllCustomXmlParts--) | Gibt alle benutzerdefinierten Daten-Teile in der Präsentation zurück. |
-| [getDigitalSignatures()](#getDigitalSignatures--) | Gibt die Sammlung der Signaturen zurück, die verwendet wurden, um die Präsentation zu signieren. |
-| [getSensitivityLabels()](#getSensitivityLabels--) | Gibt die Sammlung der Empfindlichkeits-Labels zurück, die auf das Präsentationsdokument angewendet wurden. |
-| [save(String fname, int format)](#save-java.lang.String-int-) | Speichert alle Folien einer Präsentation in einer Datei mit dem angegebenen Format. |
+| [getMasterTheme()](#getMasterTheme--) | Gibt das Master-Thema der Präsentation zurück. |
+| [getHyperlinkQueries()](#getHyperlinkQueries--) | Bietet einfachen Zugriff auf alle Hyperlinks, die in allen Präsentationsfolien enthalten sind (nicht in Master-, Layout- oder Notizfolien). |
+| [getViewProperties()](#getViewProperties--) | Gibt die präsentationsweiten Ansichtseigenschaften zurück. |
+| [getFirstSlideNumber()](#getFirstSlideNumber--) | Stellt die erste Foliennummer in der Präsentation dar. |
+| [setFirstSlideNumber(int value)](#setFirstSlideNumber-int-) | Stellt die erste Foliennummer in der Präsentation dar. |
+| [getAllCustomXmlParts()](#getAllCustomXmlParts--) | Gibt alle benutzerdefinierten Datenparts in der Präsentation zurück. |
+| [getDigitalSignatures()](#getDigitalSignatures--) | Gibt die Sammlung der Signaturen zurück, die zum Signieren der Präsentation verwendet werden. |
+| [getSensitivityLabels()](#getSensitivityLabels--) | Gibt die Sammlung der Sensitivitätskennzeichnungen zurück, die auf das Präsentationsdokument angewendet wurden. |
+| [save(String fname, int format)](#save-java.lang.String-int-) | Speichert alle Folien einer Präsentation in eine Datei mit dem angegebenen Format. |
 | [save(OutputStream stream, int format)](#save-java.io.OutputStream-int-) | Speichert alle Folien einer Präsentation in einen Stream im angegebenen Format. |
-| [save(String fname, int format, ISaveOptions options)](#save-java.lang.String-int-com.aspose.slides.ISaveOptions-) | Speichert alle Folien einer Präsentation in einer Datei mit dem angegebenen Format und zusätzlichen Optionen. |
-| [save(OutputStream stream, int format, ISaveOptions options)](#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-) | Speichert alle Folien einer Präsentation in einen Stream im angegebenen Format und mit zusätzlichen Optionen. |
-| [save(String fname, int[] slides, int format)](#save-java.lang.String-int---int-) | Speichert die angegebenen Folien einer Präsentation in einer Datei mit dem angegebenen Format. |
-| [save(String fname, int[] slides, int format, ISaveOptions options)](#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-) | Speichert die angegebenen Folien einer Präsentation in einer Datei mit dem angegebenen Format. |
+| [save(String fname, int format, ISaveOptions options)](#save-java.lang.String-int-com.aspose.slides.ISaveOptions-) | Speichert alle Folien einer Präsentation in eine Datei mit dem angegebenen Format und zusätzlichen Optionen. |
+| [save(OutputStream stream, int format, ISaveOptions options)](#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-) | Speichert alle Folien einer Präsentation in einen Stream im angegebenen Format und zusätzlichen Optionen. |
+| [save(String fname, int[] slides, int format)](#save-java.lang.String-int---int-) | Speichert die angegebenen Folien einer Präsentation in eine Datei mit dem angegebenen Format. |
+| [save(String fname, int[] slides, int format, ISaveOptions options)](#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-) | Speichert die angegebenen Folien einer Präsentation in eine Datei mit dem angegebenen Format. |
 | [save(OutputStream stream, int[] slides, int format)](#save-java.io.OutputStream-int---int-) | Speichert die angegebenen Folien einer Präsentation in einen Stream im angegebenen Format. |
 | [save(OutputStream stream, int[] slides, int format, ISaveOptions options)](#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-) | Speichert die angegebenen Folien einer Präsentation in einen Stream im angegebenen Format. |
-| [save(IXamlOptions options)](#save-com.aspose.slides.IXamlOptions-) | Speichert alle Folien einer Präsentation in einer Menge von Dateien, die das XAML-Markup darstellen. |
+| [save(IXamlOptions options)](#save-com.aspose.slides.IXamlOptions-) | Speichert alle Folien einer Präsentation in ein Satz von Dateien, die XAML-Markup repräsentieren. |
 | [getImages(IRenderingOptions options)](#getImages-com.aspose.slides.IRenderingOptions-) | Gibt Thumbnail-Image-Objekte für alle Folien einer Präsentation zurück. |
 | [getImages(IRenderingOptions options, int[] slides)](#getImages-com.aspose.slides.IRenderingOptions-int---) | Gibt Thumbnail-IImage-Objekte für die angegebenen Folien einer Präsentation zurück. |
-| [getImages(IRenderingOptions options, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-float-float-) | Gibt Thumbnail-Image-Objekte für alle Folien einer Präsentation mit benutzerdefinierter Skalierung zurück. |
-| [getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-int---float-float-) | Gibt Thumbnail-Image-Objekte für die angegebenen Folien einer Präsentation mit benutzerdefinierter Skalierung zurück. |
+| [getImages(IRenderingOptions options, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-float-float-) | Gibt Thumbnail-Image-Objekte für alle Folien einer Präsentation mit benutzerdefinierten Skalierungen zurück. |
+| [getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-int---float-float-) | Gibt Thumbnail-Image-Objekte für die angegebenen Folien einer Präsentation mit benutzerdefinierten Skalierungen zurück. |
 | [getImages(IRenderingOptions options, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-) | Gibt Thumbnail-Image-Objekte für alle Folien einer Präsentation mit angegebener Größe zurück. |
 | [getImages(IRenderingOptions options, int[] slides, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-) | Gibt Thumbnail-Image-Objekte für die angegebenen Folien einer Präsentation mit angegebener Größe zurück. |
-| [getSlideById(long id)](#getSlideById-long-) | Gibt eine Folie, Masterfolie oder Layoutfolie anhand der Id zurück. |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Verbindet Lauftexte mit gleicher Formatierung in allen Absätzen in allen zulässigen Formen in allen Folien. |
-| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | Hebt alle Treffer des Beispieltextes mit der angegebenen Farbe hervor. |
-| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Hebt alle Treffer des Beispieltextes mit der angegebenen Farbe hervor. |
+| [getSlideById(long id)](#getSlideById-long-) | Gibt ein Slide, MasterSlide oder LayoutSlide anhand der Id zurück. |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Verbindet Läufe mit gleicher Formatierung in allen Absätzen in allen akzeptablen Formen in allen Folien. |
+| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | Hebt alle Treffer des Beispieltexts mit der angegebenen Farbe hervor. |
+| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Hebt alle Treffer des Beispieltexts mit der angegebenen Farbe hervor. |
 | [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | Hebt alle Treffer des regulären Ausdrucks mit der angegebenen Farbe hervor. |
 | [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Ersetzt alle Vorkommen des angegebenen Textes durch einen anderen angegebenen Text. |
 | [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Ersetzt alle Treffer des regulären Ausdrucks durch die angegebene Zeichenkette. |
+| [refreshChartsData()](#refreshChartsData--) | Lädt die Daten für alle Diagramme in der Präsentation aus ihren Quell-Arbeitsmappen neu. |
+| [refreshChartsData(boolean skipFailedCharts)](#refreshChartsData-boolean-) | Lädt die Daten für alle Diagramme in der Präsentation aus ihren Quell-Arbeitsmappen neu. |
 
 ### getCurrentDateTime() {#getCurrentDateTime--}
 ```
 public abstract Date getCurrentDateTime()
 ```
 
-Gibt das Datum und die Uhrzeit zurück oder setzt sie, die den Inhalt von Datums-Zeit-Feldern ersetzen. Standardmäßig die Erstellungszeit dieses Presentation-Objekts. **Lesen/Schreiben** java.util.Date.
+Gibt das Datum und die Uhrzeit zurück oder setzt sie, die den Inhalt von Datumszeitfeldern ersetzen. Standardmäßig die Erstellungszeit dieses Presentation-Objekts. **Lese/Schreib** java.util.Date.
 
 **Rückgabe:**
 java.util.Date
@@ -85,7 +87,7 @@ java.util.Date
 public abstract void setCurrentDateTime(Date value)
 ```
 
-Gibt das Datum und die Uhrzeit zurück oder setzt sie, die den Inhalt von Datums-Zeit-Feldern ersetzen. Standardmäßig die Erstellungszeit dieses Presentation-Objekts. **Lesen/Schreiben** java.util.Date.
+Gibt das Datum und die Uhrzeit zurück oder setzt sie, die den Inhalt von Datumszeitfeldern ersetzen. Standardmäßig die Erstellungszeit dieses Presentation-Objekts. **Lese/Schreib** java.util.Date.
 
 **Parameter:**
 | Parameter | Typ | Beschreibung |
@@ -97,7 +99,7 @@ Gibt das Datum und die Uhrzeit zurück oder setzt sie, die den Inhalt von Datums
 public abstract IPresentationHeaderFooterManager getHeaderFooterManager()
 ```
 
-Gibt den HeaderFooter-Manager der Präsentation zurück. **Nur lesend** [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager).
+Gibt den HeaderFooter-Manager der Präsentation zurück. **Nur-Lesen** [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager).
 
 **Rückgabe:**
 [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager)
@@ -107,7 +109,7 @@ Gibt den HeaderFooter-Manager der Präsentation zurück. **Nur lesend** [IPresen
 public abstract IProtectionManager getProtectionManager()
 ```
 
-Ermittelt den Berechtigungs-Manager für diese Präsentation. **Nur lesend** [IProtectionManager](../../com.aspose.slides/iprotectionmanager).
+Gibt den Manager der Berechtigungen für diese Präsentation zurück. **Nur-Lesen** [IProtectionManager](../../com.aspose.slides/iprotectionmanager).
 
 **Rückgabe:**
 [IProtectionManager](../../com.aspose.slides/iprotectionmanager)
@@ -117,7 +119,7 @@ Ermittelt den Berechtigungs-Manager für diese Präsentation. **Nur lesend** [IP
 public abstract ISlideCollection getSlides()
 ```
 
-Gibt eine Liste aller Folien zurück, die in der Präsentation definiert sind. **Nur lesend** [ISlideCollection](../../com.aspose.slides/islidecollection).
+Gibt eine Liste aller Folien zurück, die in der Präsentation definiert sind. **Nur-Lesen** [ISlideCollection](../../com.aspose.slides/islidecollection).
 
 **Rückgabe:**
 [ISlideCollection](../../com.aspose.slides/islidecollection)
@@ -127,7 +129,7 @@ Gibt eine Liste aller Folien zurück, die in der Präsentation definiert sind. *
 public abstract ISectionCollection getSections()
 ```
 
-Gibt eine Liste aller Folienabschnitte zurück, die in der Präsentation definiert sind. **Nur lesend** [ISectionCollection](../../com.aspose.slides/isectioncollection).
+Gibt eine Liste aller Folienabschnitte zurück, die in der Präsentation definiert sind. **Nur-Lesen** [ISectionCollection](../../com.aspose.slides/isectioncollection).
 
 **Rückgabe:**
 [ISectionCollection](../../com.aspose.slides/isectioncollection)
@@ -137,7 +139,7 @@ Gibt eine Liste aller Folienabschnitte zurück, die in der Präsentation definie
 public abstract ISlideSize getSlideSize()
 ```
 
-Gibt das Foliengrößen-Objekt zurück. **Nur lesend** [ISlideSize](../../com.aspose.slides/islidesize).
+Gibt ein Foliengrößenobjekt zurück. **Nur-Lesen** [ISlideSize](../../com.aspose.slides/islidesize).
 
 **Rückgabe:**
 [ISlideSize](../../com.aspose.slides/islidesize)
@@ -147,7 +149,7 @@ Gibt das Foliengrößen-Objekt zurück. **Nur lesend** [ISlideSize](../../com.as
 public abstract INotesSize getNotesSize()
 ```
 
-Gibt das Notizfolien-Größen-Objekt zurück. **Nur lesend** [INotesSize](../../com.aspose.slides/inotessize).
+Gibt ein Notizfoliengrößenobjekt zurück. **Nur-Lesen** [INotesSize](../../com.aspose.slides/inotessize).
 
 **Rückgabe:**
 [INotesSize](../../com.aspose.slides/inotessize)
@@ -157,11 +159,11 @@ Gibt das Notizfolien-Größen-Objekt zurück. **Nur lesend** [INotesSize](../../
 public abstract IGlobalLayoutSlideCollection getLayoutSlides()
 ```
 
-Gibt eine Liste aller Layout-Folien zurück, die in der Präsentation definiert sind. **Nur lesend** [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection).
+Gibt eine Liste aller Layoutfolien zurück, die in der Präsentation definiert sind. **Nur-Lesen** [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection).
 
 --------------------
 
-Sie können über die Eigenschaft IMasterSlide.LayoutSlides auf die alternative API zum Hinzufügen/Einfügen/Entfernen/Klonen von Layout-Folien zugreifen.
+Sie können über die Eigenschaft IMasterSlide.LayoutSlides auf alternative APIs zum Hinzufügen/Einfügen/Entfernen/Klonen von Layoutfolien zugreifen.
 
 **Rückgabe:**
 [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection)
@@ -171,7 +173,7 @@ Sie können über die Eigenschaft IMasterSlide.LayoutSlides auf die alternative 
 public abstract IMasterSlideCollection getMasters()
 ```
 
-Gibt eine Liste aller Master-Folien zurück, die in der Präsentation definiert sind. **Nur lesend** [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection).
+Gibt eine Liste aller Masterfolien zurück, die in der Präsentation definiert sind. **Nur-Lesen** [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection).
 
 **Rückgabe:**
 [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection)
@@ -181,7 +183,7 @@ Gibt eine Liste aller Master-Folien zurück, die in der Präsentation definiert 
 public abstract IMasterNotesSlideManager getMasterNotesSlideManager()
 ```
 
-Gibt den Notiz-Master-Manager zurück. **Nur lesend** [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager).
+Gibt den Notizmaster-Manager zurück. **Nur-Lesen** [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager).
 
 **Rückgabe:**
 [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager)
@@ -191,7 +193,7 @@ Gibt den Notiz-Master-Manager zurück. **Nur lesend** [IMasterNotesSlideManager]
 public abstract IMasterHandoutSlideManager getMasterHandoutSlideManager()
 ```
 
-Gibt den Handzettel-Master-Manager zurück. **Nur lesend** [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager).
+Gibt den Handout-Master-Manager zurück. **Nur-Lesen** [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager).
 
 **Rückgabe:**
 [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager)
@@ -201,7 +203,7 @@ Gibt den Handzettel-Master-Manager zurück. **Nur lesend** [IMasterHandoutSlideM
 public abstract IFontsManager getFontsManager()
 ```
 
-Gibt den Schriftarten-Manager zurück. **Nur lesend** [IFontsManager](../../com.aspose.slides/ifontsmanager).
+Gibt den Schriftarten-Manager zurück. **Nur-Lesen** [IFontsManager](../../com.aspose.slides/ifontsmanager).
 
 **Rückgabe:**
 [IFontsManager](../../com.aspose.slides/ifontsmanager)
@@ -211,7 +213,7 @@ Gibt den Schriftarten-Manager zurück. **Nur lesend** [IFontsManager](../../com.
 public abstract ITextStyle getDefaultTextStyle()
 ```
 
-Gibt den Standard-Textstil für Formen zurück. **Nur lesend** [ITextStyle](../../com.aspose.slides/itextstyle).
+Gibt den Standard-Textstil für Formen zurück. **Nur-Lesen** [ITextStyle](../../com.aspose.slides/itextstyle).
 
 **Rückgabe:**
 [ITextStyle](../../com.aspose.slides/itextstyle)
@@ -221,7 +223,7 @@ Gibt den Standard-Textstil für Formen zurück. **Nur lesend** [ITextStyle](../.
 public abstract ICommentAuthorCollection getCommentAuthors()
 ```
 
-Gibt die Sammlung der Kommentar-Autoren zurück. **Nur lesend** [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection).
+Gibt die Sammlung der Kommentarautoren zurück. **Nur-Lesen** [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection).
 
 **Rückgabe:**
 [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection)
@@ -231,7 +233,7 @@ Gibt die Sammlung der Kommentar-Autoren zurück. **Nur lesend** [ICommentAuthorC
 public abstract IDocumentProperties getDocumentProperties()
 ```
 
-Gibt das DocumentProperties-Objekt zurück, das Standard- und benutzerdefinierte Dokumenteigenschaften enthält. **Nur lesend** [IDocumentProperties](../../com.aspose.slides/idocumentproperties).
+Gibt das DocumentProperties-Objekt zurück, das Standard- und benutzerdefinierte Dokumenteigenschaften enthält. **Nur-Lesen** [IDocumentProperties](../../com.aspose.slides/idocumentproperties).
 
 **Rückgabe:**
 [IDocumentProperties](../../com.aspose.slides/idocumentproperties)
@@ -241,7 +243,7 @@ Gibt das DocumentProperties-Objekt zurück, das Standard- und benutzerdefinierte
 public abstract IImageCollection getImages()
 ```
 
-Gibt die Sammlung aller Bilder in der Präsentation zurück. **Nur lesend** [IImageCollection](../../com.aspose.slides/iimagecollection).
+Gibt die Sammlung aller Bilder in der Präsentation zurück. **Nur-Lesen** [IImageCollection](../../com.aspose.slides/iimagecollection).
 
 **Rückgabe:**
 [IImageCollection](../../com.aspose.slides/iimagecollection)
@@ -251,7 +253,7 @@ Gibt die Sammlung aller Bilder in der Präsentation zurück. **Nur lesend** [IIm
 public abstract IAudioCollection getAudios()
 ```
 
-Gibt die Sammlung aller eingebetteten Audiodateien in der Präsentation zurück. **Nur lesend** [IAudioCollection](../../com.aspose.slides/iaudiocollection).
+Gibt die Sammlung aller eingebetteten Audiodateien in der Präsentation zurück. **Nur-Lesen** [IAudioCollection](../../com.aspose.slides/iaudiocollection).
 
 **Rückgabe:**
 [IAudioCollection](../../com.aspose.slides/iaudiocollection)
@@ -261,7 +263,7 @@ Gibt die Sammlung aller eingebetteten Audiodateien in der Präsentation zurück.
 public abstract IVideoCollection getVideos()
 ```
 
-Gibt die Sammlung aller eingebetteten Videodateien in der Präsentation zurück. **Nur lesend** [IVideoCollection](../../com.aspose.slides/ivideocollection).
+Gibt die Sammlung aller eingebetteten Videodateien in der Präsentation zurück. **Nur-Lesen** [IVideoCollection](../../com.aspose.slides/ivideocollection).
 
 **Rückgabe:**
 [IVideoCollection](../../com.aspose.slides/ivideocollection)
@@ -271,7 +273,7 @@ Gibt die Sammlung aller eingebetteten Videodateien in der Präsentation zurück.
 public abstract ICustomData getCustomData()
 ```
 
-Gibt die benutzerdefinierten Daten der Präsentation zurück. **Nur lesend** [ICustomData](../../com.aspose.slides/icustomdata).
+Gibt die benutzerdefinierten Daten der Präsentation zurück. **Nur-Lesen** [ICustomData](../../com.aspose.slides/icustomdata).
 
 **Rückgabe:**
 [ICustomData](../../com.aspose.slides/icustomdata)
@@ -281,7 +283,7 @@ Gibt die benutzerdefinierten Daten der Präsentation zurück. **Nur lesend** [IC
 public abstract IVbaProject getVbaProject()
 ```
 
-Ermittelt das VBA-Projekt mit Präsentations-Makros. **Lesen/Schreiben** [IVbaProject](../../com.aspose.slides/ivbaproject).
+Gibt das VBA-Projekt mit Präsentationsmakros zurück. **Lese/Schreib** [IVbaProject](../../com.aspose.slides/ivbaproject).
 
 **Rückgabe:**
 [IVbaProject](../../com.aspose.slides/ivbaproject)
@@ -291,7 +293,7 @@ Ermittelt das VBA-Projekt mit Präsentations-Makros. **Lesen/Schreiben** [IVbaPr
 public abstract void setVbaProject(IVbaProject value)
 ```
 
-Ermittelt das VBA-Projekt mit Präsentations-Makros. **Lesen/Schreiben** [IVbaProject](../../com.aspose.slides/ivbaproject).
+Setzt das VBA-Projekt mit Präsentationsmakros. **Lese/Schreib** [IVbaProject](../../com.aspose.slides/ivbaproject).
 
 **Parameter:**
 | Parameter | Typ | Beschreibung |
@@ -303,7 +305,7 @@ Ermittelt das VBA-Projekt mit Präsentations-Makros. **Lesen/Schreiben** [IVbaPr
 public abstract int getSourceFormat()
 ```
 
-Gibt Informationen darüber zurück, aus welchem Format die Präsentation geladen wurde. **Nur lesend** [SourceFormat](../../com.aspose.slides/sourceformat).
+Gibt Informationen darüber zurück, aus welchem Format die Präsentation geladen wurde. **Nur-Lesen** [SourceFormat](../../com.aspose.slides/sourceformat).
 
 **Rückgabe:**
 int
@@ -313,7 +315,7 @@ int
 public abstract IMasterTheme getMasterTheme()
 ```
 
-Gibt das Master-Theme der Präsentation zurück. **Nur lesend** [IMasterTheme](../../com.aspose.slides/imastertheme).
+Gibt das Master-Thema der Präsentation zurück. **Nur-Lesen** [IMasterTheme](../../com.aspose.slides/imastertheme).
 
 **Rückgabe:**
 [IMasterTheme](../../com.aspose.slides/imastertheme)
@@ -323,7 +325,7 @@ Gibt das Master-Theme der Präsentation zurück. **Nur lesend** [IMasterTheme](.
 public abstract IHyperlinkQueries getHyperlinkQueries()
 ```
 
-Ermöglicht einfachen Zugriff auf alle Hyperlinks, die in allen Präsentationsfolien enthalten sind (nicht in Master-, Layout- oder Notizfolien). **Nur lesend** [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
+Bietet einfachen Zugriff auf alle Hyperlinks, die in allen Präsentationsfolien enthalten sind (nicht in Master-, Layout- oder Notizfolien). **Nur-Lesen** [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
 
 **Rückgabe:**
 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)
@@ -333,7 +335,7 @@ Ermöglicht einfachen Zugriff auf alle Hyperlinks, die in allen Präsentationsfo
 public abstract IViewProperties getViewProperties()
 ```
 
-Ermittelt die Ansichtseigenschaften der gesamten Präsentation. **Nur lesend** [IViewProperties](../../com.aspose.slides/iviewproperties).
+Gibt die präsentationsweiten Ansichtseigenschaften zurück. **Nur-Lesen** [IViewProperties](../../com.aspose.slides/iviewproperties).
 
 **Rückgabe:**
 [IViewProperties](../../com.aspose.slides/iviewproperties)
@@ -343,7 +345,7 @@ Ermittelt die Ansichtseigenschaften der gesamten Präsentation. **Nur lesend** [
 public abstract int getFirstSlideNumber()
 ```
 
-Stellt die Nummer der ersten Folie in der Präsentation dar. **Lesen/Schreiben** int.
+Stellt die erste Foliennummer in der Präsentation dar. **Lese/Schreib** int.
 
 **Rückgabe:**
 int
@@ -353,7 +355,7 @@ int
 public abstract void setFirstSlideNumber(int value)
 ```
 
-Stellt die Nummer der ersten Folie in der Präsentation dar. **Lesen/Schreiben** int.
+Setzt die erste Foliennummer in der Präsentation. **Lese/Schreib** int.
 
 **Parameter:**
 | Parameter | Typ | Beschreibung |
@@ -365,7 +367,7 @@ Stellt die Nummer der ersten Folie in der Präsentation dar. **Lesen/Schreiben**
 public abstract ICustomXmlPart[] getAllCustomXmlParts()
 ```
 
-Gibt alle benutzerdefinierten Daten-Teile in der Präsentation zurück. **Nur lesend** ICustomXmlPart[].
+Gibt alle benutzerdefinierten Datenparts in der Präsentation zurück. **Nur-Lesen** ICustomXmlPart[].
 
 **Rückgabe:**
 com.aspose.slides.ICustomXmlPart[]
@@ -375,7 +377,7 @@ com.aspose.slides.ICustomXmlPart[]
 public abstract IDigitalSignatureCollection getDigitalSignatures()
 ```
 
-Gibt die Sammlung der Signaturen zurück, die verwendet wurden, um die Präsentation zu signieren. **Nur lesend** [IDigitalSignatureCollection](../../com.aspose.slides/idigitalsignaturecollection).
+Gibt die Sammlung der Signaturen zurück, die zum Signieren der Präsentation verwendet werden. **Nur-Lesen** [IDigitalSignatureCollection](../../com.aspose.slides/idigitalsignaturecollection).
 
 --------------------
 
@@ -412,7 +414,7 @@ Gibt die Sammlung der Signaturen zurück, die verwendet wurden, um die Präsenta
 public abstract ISensitivityLabelCollection getSensitivityLabels()
 ```
 
-Gibt die Sammlung der Empfindlichkeits-Labels zurück, die auf das Präsentationsdokument angewendet wurden. **Nur lesend** [ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection).
+Gibt die Sammlung der Sensitivitätskennzeichnungen zurück, die auf das Präsentationsdokument angewendet wurden. **Nur-Lesen** [ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection).
 
 --------------------
 
@@ -426,8 +428,8 @@ Gibt die Sammlung der Empfindlichkeits-Labels zurück, die auf das Präsentation
 >          System.out.println("Label Id " + sensitivityLabel.getId() + " from Azure AD site " + sensitivityLabel.getSiteId());
 > 
 >      // Neues Label hinzufügen
->      String labelIdString = "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"; // Hole die Sensitivity-Label-ID aus der Richtlinie
->      UUID siteIdGuid = UUID.fromString("{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"); // Hole den Azure AD Site-Identifier aus der Richtlinie
+>      String labelIdString = "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"; // Sensitivitäts-Label-ID aus der Richtlinie abrufen
+>      UUID siteIdGuid = UUID.fromString("{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"); // Azure AD Site-ID aus der Richtlinie abrufen
 >      ISensitivityLabel label = sensitivityLabels.add(labelIdString, siteIdGuid, true, SensitivityLabelAssignmentType.Privileged);
 >      label.getContentMarkTypes().addItem(SensitivityLabelContentType.Footer);
 > 
@@ -446,12 +448,12 @@ Gibt die Sammlung der Empfindlichkeits-Labels zurück, die auf das Präsentation
 public abstract void save(String fname, int format)
 ```
 
-Speichert alle Folien einer Präsentation in einer Datei mit dem angegebenen Format.
+Speichert alle Folien einer Präsentation in eine Datei mit dem angegebenen Format.
 
 **Parameter:**
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| fname | java.lang.String | Pfad zur zu erstellenden Datei. |
+| fname | java.lang.String | Pfad zur erstellten Datei. |
 | format | int | Format der exportierten Daten. |
 
 ### save(OutputStream stream, int format) {#save-java.io.OutputStream-int-}
@@ -471,8 +473,12 @@ Speichert alle Folien einer Präsentation in einen Stream im angegebenen Format.
 ```
 public abstract void save(String fname, int format, ISaveOptions options)
 ```
+Saves all slides of a presentation to a file with the specified format and with additional options.
 
-Speichert alle Folien einer Präsentation in einer Datei mit dem angegebenen Format und zusätzlichen Optionen.
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| fname | java.lang.String | Pfad zur erstellten Datei. |
 | format | int | Format der exportierten Daten. |
 | options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Zusätzliche Formatoptionen. |
 
@@ -484,7 +490,7 @@ public abstract void save(OutputStream stream, int format, ISaveOptions options)
 
 Speichert alle Folien einer Präsentation in einen Stream im angegebenen Format und mit zusätzlichen Optionen.
 
-**Parameter:**
+**Parameters:**
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | stream | java.io.OutputStream | Ausgabestream. |
@@ -497,9 +503,9 @@ public abstract void save(String fname, int[] slides, int format)
 ```
 
 
-Speichert die angegebenen Folien einer Präsentation in einer Datei mit dem angegebenen Format.
+Speichert die angegebenen Folien einer Präsentation in eine Datei mit dem angegebenen Format.
 
-**Parameter:**
+**Parameters:**
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | fname | java.lang.String | Pfad zur erstellten Datei. |
@@ -512,9 +518,9 @@ public abstract void save(String fname, int[] slides, int format, ISaveOptions o
 ```
 
 
-Speichert die angegebenen Folien einer Präsentation in einer Datei mit dem angegebenen Format.
+Speichert die angegebenen Folien einer Präsentation in eine Datei mit dem angegebenen Format.
 
-**Parameter:**
+**Parameters:**
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | fname | java.lang.String | Pfad zur erstellten Datei. |
@@ -530,7 +536,7 @@ public abstract void save(OutputStream stream, int[] slides, int format)
 
 Speichert die angegebenen Folien einer Präsentation in einen Stream im angegebenen Format.
 
-**Parameter:**
+**Parameters:**
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | stream | java.io.OutputStream | Ausgabestream. |
@@ -545,7 +551,7 @@ public abstract void save(OutputStream stream, int[] slides, int format, ISaveOp
 
 Speichert die angegebenen Folien einer Präsentation in einen Stream im angegebenen Format.
 
-**Parameter:**
+**Parameters:**
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | stream | java.io.OutputStream | Ausgabestream. |
@@ -576,7 +582,7 @@ Speichert alle Folien einer Präsentation in einer Menge von Dateien, die XAML-M
 > ```
 
 
-**Parameter:**
+**Parameters:**
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | options | [IXamlOptions](../../com.aspose.slides/ixamloptions) | Die XAML-Formatoptionen. |
@@ -587,128 +593,121 @@ public abstract IImage[] getImages(IRenderingOptions options)
 ```
 
 
-Gibt Miniaturbild-Objekte für alle Folien einer Präsentation zurück.
+Gibt Thumbnail Image-Objekte für alle Folien einer Präsentation zurück.
 
-**Parameter:**
+**Parameters:**
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Renderoptionen. |
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Rendering-Optionen. |
 
-**Rückgabewert:**
-com.aspose.slides.IImage[] - IImage-Objekte.
-
+**Returns:**
+com.aspose.slides.IImage[] - IImage objects.
 ### getImages(IRenderingOptions options, int[] slides) {#getImages-com.aspose.slides.IRenderingOptions-int---}
 ```
 public abstract IImage[] getImages(IRenderingOptions options, int[] slides)
 ```
 
 
-Gibt Miniaturbild-IImage-Objekte für die angegebenen Folien einer Präsentation zurück.
+Gibt Thumbnail IImage-Objekte für die angegebenen Folien einer Präsentation zurück.
 
-**Parameter:**
+**Parameters:**
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Renderoptionen. |
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Rendering-Optionen. |
 | slides | int[] | Array mit Folienpositionen, beginnend bei 1. |
 
-**Rückgabewert:**
-com.aspose.slides.IImage[] - IImage-Objekte.
-
+**Returns:**
+com.aspose.slides.IImage[] - IImage objects.
 ### getImages(IRenderingOptions options, float scaleX, float scaleY) {#getImages-com.aspose.slides.IRenderingOptions-float-float-}
 ```
 public abstract IImage[] getImages(IRenderingOptions options, float scaleX, float scaleY)
 ```
 
 
-Gibt Miniaturbild-Objekte für alle Folien einer Präsentation mit benutzerdefinierter Skalierung zurück.
+Gibt Thumbnail Image-Objekte für alle Folien einer Präsentation mit benutzerdefinierter Skalierung zurück.
 
-**Parameter:**
+**Parameters:**
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Renderoptionen. |
-| scaleX | float | Der Wert, um den diese Miniatur in x-Richtung skaliert wird. |
-| scaleY | float | Der Wert, um den diese Miniatur in y-Richtung skaliert wird. |
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Rendering-Optionen. |
+| scaleX | float | Der Wert, um den das Thumbnail in x-Richtung skaliert wird. |
+| scaleY | float | Der Wert, um den das Thumbnail in y-Richtung skaliert wird. |
 
-**Rückgabewert:**
-com.aspose.slides.IImage[] - Bitmap-Objekte.
-
+**Returns:**
+com.aspose.slides.IImage[] - Bitmap objects.
 ### getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY) {#getImages-com.aspose.slides.IRenderingOptions-int---float-float-}
 ```
 public abstract IImage[] getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)
 ```
 
 
-Gibt Miniaturbild-Objekte für die angegebenen Folien einer Präsentation mit benutzerdefinierter Skalierung zurück.
+Gibt Thumbnail Image-Objekte für die angegebenen Folien einer Präsentation mit benutzerdefinierter Skalierung zurück.
 
-**Parameter:**
+**Parameters:**
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Renderoptionen. |
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Rendering-Optionen. |
 | slides | int[] | Array mit Folienpositionen, beginnend bei 1. |
-| scaleX | float | Der Wert, um den diese Miniatur in x-Richtung skaliert wird. |
-| scaleY | float | Der Wert, um den diese Miniatur in y-Richtung skaliert wird. |
+| scaleX | float | Der Wert, um den das Thumbnail in x-Richtung skaliert wird. |
+| scaleY | float | Der Wert, um den das Thumbnail in y-Richtung skaliert wird. |
 
-**Rückgabewert:**
-com.aspose.slides.IImage[] - IImage-Objekte.
-
+**Returns:**
+com.aspose.slides.IImage[] - IImage objects.
 ### getImages(IRenderingOptions options, Dimension imageSize) {#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-}
 ```
 public abstract IImage[] getImages(IRenderingOptions options, Dimension imageSize)
 ```
 
 
-Gibt Miniaturbild-Objekte für alle Folien einer Präsentation in der angegebenen Größe zurück.
+Gibt Thumbnail Image-Objekte für alle Folien einer Präsentation mit der angegebenen Größe zurück.
 
-**Parameter:**
+**Parameters:**
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Renderoptionen. |
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Rendering-Optionen. |
 | imageSize | java.awt.Dimension | Größe des zu erstellenden Bildes. |
 
-**Rückgabewert:**
-com.aspose.slides.IImage[] - IImage-Objekte.
-
+**Returns:**
+com.aspose.slides.IImage[] - IImage objects.
 ### getImages(IRenderingOptions options, int[] slides, Dimension imageSize) {#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-}
 ```
 public abstract IImage[] getImages(IRenderingOptions options, int[] slides, Dimension imageSize)
 ```
 
 
-Gibt Miniaturbild-Objekte für die angegebenen Folien einer Präsentation in der angegebenen Größe zurück.
+Gibt Thumbnail Image-Objekte für die angegebenen Folien einer Präsentation mit der angegebenen Größe zurück.
 
-**Parameter:**
+**Parameters:**
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Renderoptionen. |
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Rendering-Optionen. |
 | slides | int[] | Array mit Folienpositionen, beginnend bei 1. |
 | imageSize | java.awt.Dimension | Größe des zu erstellenden Bildes. |
 
-**Rückgabewert:**
-com.aspose.slides.IImage[] - IImage-Objekte.
-
+**Returns:**
+com.aspose.slides.IImage[] - IImage objects.
 ### getSlideById(long id) {#getSlideById-long-}
 ```
 public abstract IBaseSlide getSlideById(long id)
 ```
 
 
-Gibt eine Folie, Masterfolie oder Layoutfolie anhand der Id zurück.
+Gibt eine Slide, MasterSlide oder LayoutSlide anhand der Id zurück.
 
-**Parameter:**
+**Parameters:**
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | id | long | Id einer Folie. |
 
-**Rückgabewert:**
-[IBaseSlide](../../com.aspose.slides/ibaseslide) - IBaseSlide-Objekt.
-
+**Returns:**
+[IBaseSlide](../../com.aspose.slides/ibaseslide) - IBaseSlide object.
 ### joinPortionsWithSameFormatting() {#joinPortionsWithSameFormatting--}
 ```
 public abstract void joinPortionsWithSameFormatting()
 ```
 
 
-Verbindet Lauftexte mit derselben Formatierung in allen Absätzen in allen zulässigen Formen in allen Folien.
+Führt Textabschnitte mit gleicher Formatierung in allen Absätzen in allen geeigneten Formen in allen Folien zusammen.
 
 ### highlightText(String text, Color highlightColor) {#highlightText-java.lang.String-java.awt.Color-}
 ```
@@ -716,7 +715,7 @@ public abstract void highlightText(String text, Color highlightColor)
 ```
 
 
-Hebt alle Übereinstimmungen des Beispieltexts mit der angegebenen Farbe hervor.
+Hebt alle Vorkommen des Beispieltexts mit der angegebenen Farbe hervor.
 
 --------------------
 
@@ -725,7 +724,7 @@ Hebt alle Übereinstimmungen des Beispieltexts mit der angegebenen Farbe hervor.
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
->      // Hervorhebung aller einzelnen 'the'-Vorkommen
+>      // Hervorheben aller einzelnen 'the'-Vorkommen
 >      presentation.highlightText("the", Color.MAGENTA);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -734,10 +733,10 @@ Hebt alle Übereinstimmungen des Beispieltexts mit der angegebenen Farbe hervor.
 > ```
 
 
-**Parameter:**
+**Parameters:**
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| text | java.lang.String | Der zu hervorhebende Text. |
+| text | java.lang.String | Der zu hervorgehobene Text. |
 | highlightColor | java.awt.Color | Die Farbe, mit der der Text hervorgehoben wird. |
 
 ### highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
@@ -746,7 +745,7 @@ public abstract void highlightText(String text, Color highlightColor, ITextSearc
 ```
 
 
-Hebt alle Übereinstimmungen des Beispieltexts mit der angegebenen Farbe hervor.
+Hebt alle Vorkommen des Beispieltexts mit der angegebenen Farbe hervor.
 
 --------------------
 
@@ -755,7 +754,7 @@ Hebt alle Übereinstimmungen des Beispieltexts mit der angegebenen Farbe hervor.
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
->      // Hervorhebung aller einzelnen 'the'-Vorkommen
+>      // Hervorheben aller einzelnen 'the'-Vorkommen
 >      presentation.highlightText("the", Color.MAGENTA);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -763,13 +762,12 @@ Hebt alle Übereinstimmungen des Beispieltexts mit der angegebenen Farbe hervor.
 >  }
 > ```
 
-
-**Parameter:**
+**Parameters:**
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| text | java.lang.String | Der zu hervorhebende Text. |
+| text | java.lang.String | Der zu hervorgehobene Text. |
 | highlightColor | java.awt.Color | Die Farbe, mit der der Text hervorgehoben wird. |
-| options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Textsuchoptionen [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
+| options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Textsuche-Optionen [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Das Callback-Objekt zum Empfangen von Suchergebnissen [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback) {#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-}
@@ -787,7 +785,7 @@ Hebt alle Übereinstimmungen des regulären Ausdrucks mit der angegebenen Farbe 
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
->      // highlighting all separate 'the' occurrences
+>      // Hervorheben aller einzelnen 'the'-Vorkommen
 >      presentation.highlightText("the", Color.MAGENTA);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -795,10 +793,11 @@ Hebt alle Übereinstimmungen des regulären Ausdrucks mit der angegebenen Farbe 
 >  }
 > ```
 
-**Parameter:**
+
+**Parameters:**
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | Der reguläre Ausdruck java.util.regex.Pattern, um die zu hervorhebenden Zeichenketten zu erhalten. |
+| regex | java.util.regex.Pattern | Der reguläre Ausdruck java.util.regex.Pattern, um die zu hervorhebenden Zeichenketten zu ermitteln. |
 | highlightColor | java.awt.Color | Die Farbe, mit der der Text hervorgehoben wird. |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Das Callback-Objekt zum Empfangen von Suchergebnissen [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
@@ -819,7 +818,7 @@ Ersetzt alle Vorkommen des angegebenen Textes durch einen anderen angegebenen Te
 >  try {
 >      TextSearchOptions textSearchOptions = new TextSearchOptions();
 >      textSearchOptions.setWholeWordsOnly(true);
->      // Ersetze alle einzelnen 'the'-Vorkommen durch '***'
+>      // Ersetzen aller einzelnen 'the'-Vorkommen durch '***'
 >      presentation.replaceText("the", "***", textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -828,12 +827,12 @@ Ersetzt alle Vorkommen des angegebenen Textes durch einen anderen angegebenen Te
 > ```
 
 
-**Parameter:**
+**Parameters:**
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | oldText | java.lang.String | Die zu ersetzende Zeichenkette. |
-| newText | java.lang.String | Die Zeichenkette, die alle Vorkommen von oldText ersetzt. |
-| options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Textsuchoptionen [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
+| newText | java.lang.String | Die Zeichenkette, die alle Vorkommen von oldText ersetzen soll. |
+| options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Textsuche-Optionen [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Das Callback-Objekt zum Empfangen von Suchergebnissen [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### replaceRegex(Pattern regex, String newText, IFindResultCallback callback) {#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-}
@@ -847,13 +846,13 @@ Ersetzt alle Übereinstimmungen des regulären Ausdrucks durch die angegebene Ze
 --------------------
 
 > ```
-> The following code sample shows how to replace one specified string with another specified string.
+> The following code sample shows how to replace text using regular expression with the specified string.
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx")
 >  try {
 >      TextSearchOptions textSearchOptions = new TextSearchOptions();
 >      textSearchOptions.setWholeWordsOnly(true);
->      // Ersetze alle einzelnen 'the'-Vorkommen durch '***'
+>      // Ersetzen aller einzelnen 'the'-Vorkommen durch '***'
 >      presentation.replaceText("the", "***", textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -862,9 +861,56 @@ Ersetzt alle Übereinstimmungen des regulären Ausdrucks durch die angegebene Ze
 > ```
 
 
-**Parameter:**
+**Parameters:**
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | Der reguläre Ausdruck java.util.regex.Pattern, um die zu ersetzenden Zeichenketten zu erhalten. |
-| newText | java.lang.String | Die Zeichenkette, die alle Vorkommen der zu ersetzenden Zeichenketten ersetzt. |
+| regex | java.util.regex.Pattern | Der reguläre Ausdruck java.util.regex.Pattern, um die zu ersetzenden Zeichenketten zu ermitteln. |
+| newText | java.lang.String | Die Zeichenkette, die alle Vorkommen der zu ersetzenden Zeichenketten ersetzen soll. |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Das Callback-Objekt zum Empfangen von Suchergebnissen [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+
+### refreshChartsData() {#refreshChartsData--}
+```
+public abstract void refreshChartsData()
+```
+
+
+Lädt die Daten für alle Diagramme in der Präsentation aus ihren Quellarbeitsmappen neu.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("PresentationWithCharts.pptx");
+>  try {
+>      presentation.refreshChartsData();
+>      presentation.save("PresentationWithCharts-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+
+### refreshChartsData(boolean skipFailedCharts) {#refreshChartsData-boolean-}
+```
+public abstract void refreshChartsData(boolean skipFailedCharts)
+```
+
+
+Lädt die Daten für alle Diagramme in der Präsentation aus ihren Quellarbeitsmappen neu.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("PresentationWithCharts.pptx");
+>  try {
+>      presentation.refreshChartsData();
+>      presentation.save("PresentationWithCharts-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| skipFailedCharts | boolean | Bestimmt, ob der Aktualisierungsvorgang fortgesetzt wird, wenn ein Diagramm nicht aktualisiert werden kann. Wenn true, werden Diagramme, die eine Ausnahme auslösen, übersprungen; andernfalls wird die Ausnahme weitergereicht. |

@@ -16,29 +16,31 @@ Representerar en TextFrame.
 
 | Metod | Beskrivning |
 | --- | --- |
-| [getParagraphs()](#getParagraphs--) | Returnerar listan över alla stycken i en ram. |
-| [getText()](#getText--) | Hämtar eller anger vanlig text för en TextFrame. |
-| [setText(String value)](#setText-java.lang.String-) | Hämtar eller anger vanlig text för en TextFrame. |
+| [getParagraphs()](#getParagraphs--) | Returnerar listan med alla stycken i en ram. |
+| [getText()](#getText--) | Hämtar eller anger ren text för en TextFrame. |
+| [setText(String value)](#setText-java.lang.String-) | Hämtar eller anger ren text för en TextFrame. |
 | [getTextFrameFormat()](#getTextFrameFormat--) | Returnerar formateringsobjektet för detta TextFrame-objekt. |
 | [getHyperlinkQueries()](#getHyperlinkQueries--) | Tillhandahåller enkel åtkomst till innehållna hyperlänkar. |
 | [getParentShape()](#getParentShape--) | Returnerar den överordnade formen eller null om det överordnade objektet inte implementerar IShape-gränssnittet Skrivskyddad [IShape](../../com.aspose.slides/ishape). |
+| [getTextRect()](#getTextRect--) | Hämtar textrutan som definieras av geometrin för den överordnade formen. |
 | [getParentCell()](#getParentCell--) | Returnerar den överordnade cellen eller null om det överordnade objektet inte implementerar ICell-gränssnittet. |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Slår samman delar med samma formatering i alla stycken. |
-| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | Markerar alla träffar av exempeltexten med den angivna färgen. |
-| [splitTextByColumns()](#splitTextByColumns--) | Delar upp textinnehållet i [ITextFrame](../../com.aspose.slides/itextframe) i en array av strängar, där varje element motsvarar en separat textkolumn i ramen. |
-| [highlightText(String text, Color highlightColor, ITextHighlightingOptions options)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Markerar alla träffar av exempeltexten med den angivna färgen. |
-| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Markerar alla träffar av exempeltexten med den angivna färgen. |
-| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | Markerar alla träffar av reguljära uttrycket med den angivna färgen. |
-| [highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)](#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Markerar alla träffar av reguljära uttrycket med den angivna färgen. |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Slår samman run med samma formatering i alla stycken. |
+| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | Markerar alla matchningar av exempeltexten med den angivna färgen. |
+| [splitTextByColumns()](#splitTextByColumns--) | Delar upp textinnehållet i [ITextFrame](../../com.aspose.slides/itextframe) i en array av strängar, där varje element motsvarar en separat textkolumn inom ramen. |
+| [highlightText(String text, Color highlightColor, ITextHighlightingOptions options)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Markerar alla matchningar av exempeltexten med den angivna färgen. |
+| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Markerar alla matchningar av exempeltexten med den angivna färgen. |
+| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | Markerar alla matchningar av det reguljära uttrycket med den angivna färgen. |
+| [highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)](#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Markerar alla matchningar av det reguljära uttrycket med den angivna färgen. |
 | [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Ersätter alla förekomster av den angivna texten med en annan angiven text. |
-| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Ersätter alla träffar av det reguljära uttrycket med den angivna strängen. |
+| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Ersätter alla matchningar av det reguljära uttrycket med den angivna strängen. |
+
 ### getParagraphs() {#getParagraphs--}
 ```
 public abstract IParagraphCollection getParagraphs()
 ```
 
 
-Returnerar listan över alla stycken i en ram. Skrivskyddad [IParagraphCollection](../../com.aspose.slides/iparagraphcollection).
+Returnerar listan med alla stycken i en ram. Skrivskyddad [IParagraphCollection](../../com.aspose.slides/iparagraphcollection).
 
 **Returnerar:**
 [IParagraphCollection](../../com.aspose.slides/iparagraphcollection)
@@ -48,7 +50,7 @@ public abstract String getText()
 ```
 
 
-Hämtar eller anger vanlig text för en TextFrame. Läs/skriv String.
+Hämtar eller anger ren text för en TextFrame. Läs/skriv String.
 
 Värde: Texten.
 
@@ -60,7 +62,7 @@ public abstract void setText(String value)
 ```
 
 
-Hämtar eller anger vanlig text för en TextFrame. Läs/skriv String.
+Hämtar eller anger ren text för en TextFrame. Läs/skriv String.
 
 Värde: Texten.
 
@@ -114,15 +116,28 @@ Returnerar den överordnade formen eller null om det överordnade objektet inte 
 >  }
 > ```
 
+
 **Returnerar:**
 [IShape](../../com.aspose.slides/ishape)
+### getTextRect() {#getTextRect--}
+```
+public abstract Rectangle2D.Float getTextRect()
+```
+
+
+Hämtar textrutan som definieras av geometrin för den överordnade formen.
+
+**Returnerar:**
+java.awt.geom.Rectangle2D.Float - Ett java.awt.geom.Rectangle2D.Float som definierar textområdet.
+
+Rektangelkoordinaterna är relativa till det övre vänstra hörnet av den överordnade formen.
 ### getParentCell() {#getParentCell--}
 ```
 public abstract ICell getParentCell()
 ```
 
 
-Returnerar den överordnade cellen eller null om det överordnade objektet inte implementerar ICell-gränssnittet. Skrivskyddad [ICell](../../com.aspose.slides/icell).
+Returnerar den överordnade cellen eller null om det överordnade objektet inte implementerar ICell-gränssnittet Skrivskyddad [ICell](../../com.aspose.slides/icell).
 
 --------------------
 
@@ -142,6 +157,7 @@ Returnerar den överordnade cellen eller null om det överordnade objektet inte 
 >  }
 > ```
 
+
 **Returnerar:**
 [ICell](../../com.aspose.slides/icell)
 ### joinPortionsWithSameFormatting() {#joinPortionsWithSameFormatting--}
@@ -150,28 +166,27 @@ public abstract void joinPortionsWithSameFormatting()
 ```
 
 
-Slår samman delar med samma formatering i alla stycken.
-
+Slår samman run med samma formatering i alla stycken.
 ### highlightText(String text, Color highlightColor) {#highlightText-java.lang.String-java.awt.Color-}
 ```
 public abstract void highlightText(String text, Color highlightColor)
 ```
 
 
-Markerar alla träffar av exempeltexten med den angivna färgen.
+Markerar alla matchningar av exempeltexten med den angivna färgen.
 
 **Parametrar:**
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | text | java.lang.String | Texten att markera. |
-| highlightColor | java.awt.Color | Färgen att markera texten med. |
+| highlightColor | java.awt.Color | Färgen för att markera texten. |
 ### splitTextByColumns() {#splitTextByColumns--}
 ```
 public abstract String[] splitTextByColumns()
 ```
 
 
-Delar upp textinnehållet i [ITextFrame](../../com.aspose.slides/itextframe) i en array av strängar, där varje element motsvarar en separat textkolumn i ramen.
+Delar upp textinnehållet i [ITextFrame](../../com.aspose.slides/itextframe) i en array av strängar, där varje element motsvarar en separat textkolumn inom ramen.
 
 --------------------
 
@@ -182,7 +197,7 @@ Delar upp textinnehållet i [ITextFrame](../../com.aspose.slides/itextframe) i e
 >  try {
 >      // Hämta den första formen på bilden och kasta den till ITextFrame
 >      ITextFrame textFrame = (ITextFrame) pres.getSlides().get_Item(0).getShapes().get_Item(0);
->      // Dela upp textramens innehåll i kolumner
+>      // Dela upp textramsinnehållet i kolumner
 >      String[] columnsText = textFrame.splitTextByColumns();
 >      // Skriv ut varje kolumns text till konsolen
 >      for (String column : columnsText)
@@ -192,23 +207,26 @@ Delar upp textinnehållet i [ITextFrame](../../com.aspose.slides/itextframe) i e
 >  }
 > ```
 
+
 **Returnerar:**
 java.lang.String[] - En array av strängar, där varje sträng representerar textinnehållet i en specifik kolumn i [ITextFrame](../../com.aspose.slides/itextframe).
 
-Om textramen inte innehåller flera kolumner kommer den returnerade arrayen att ha ett enda element som innehåller hela texten. Tomma kolumner kommer att representeras som tomma strängar i arrayen.
+--------------------
+
+Om textramen inte innehåller flera kolumner, kommer den returnerade arrayen att ha ett enda element som innehåller hela texten. Tomma kolumner kommer att representeras som tomma strängar i arrayen.
 ### highlightText(String text, Color highlightColor, ITextHighlightingOptions options) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-}
 ```
 public abstract void highlightText(String text, Color highlightColor, ITextHighlightingOptions options)
 ```
 
 
-Markerar alla träffar av exempeltexten med den angivna färgen.
+Markerar alla matchningar av exempeltexten med den angivna färgen.
 
 **Parametrar:**
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | text | java.lang.String | Texten att markera. |
-| highlightColor | java.awt.Color | Färgen att markera texten med. |
+| highlightColor | java.awt.Color | Färgen för att markera texten. |
 | options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | Markeringsalternativ. |
 ### highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
@@ -216,7 +234,7 @@ public abstract void highlightText(String text, Color highlightColor, ITextSearc
 ```
 
 
-Markerar alla träffar av exempeltexten med den angivna färgen.
+Markerar alla matchningar av exempeltexten med den angivna färgen.
 
 --------------------
 
@@ -229,7 +247,7 @@ Markerar alla träffar av exempeltexten med den angivna färgen.
 >      textSearchOptions.setWholeWordsOnly(true);
 >      // markerar alla förekomster av ordet 'important'
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightText("important", Color.BLUE);
->      // markerar alla separata 'the'-förekomster
+>      // markerar alla separata förekomster av ordet 'the'
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightText("the", Color.MAGENTA, textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -242,8 +260,8 @@ Markerar alla träffar av exempeltexten med den angivna färgen.
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | text | java.lang.String | Texten att markera. |
-| highlightColor | java.awt.Color | Färgen att markera texten med. |
-| options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Text sökalternativ [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
+| highlightColor | java.awt.Color | Färgen för att markera texten. |
+| options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Sökalternativ för text [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Callback-objektet för att ta emot sökresultat [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 ### highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback) {#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-}
 ```
@@ -251,7 +269,7 @@ public abstract void highlightRegex(Pattern regex, Color highlightColor, IFindRe
 ```
 
 
-Markerar alla träffar av reguljära uttrycket med den angivna färgen.
+Markerar alla matchningar av det reguljära uttrycket med den angivna färgen.
 
 --------------------
 
@@ -269,11 +287,12 @@ Markerar alla träffar av reguljära uttrycket med den angivna färgen.
 >  }
 > ```
 
+
 **Parametrar:**
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | Det reguljära uttrycket java.util.regex.Pattern för att få strängar att markera. |
-| highlightColor | java.awt.Color | Färgen att markera texten med. |
+| regex | java.util.regex.Pattern | Det reguljära uttrycket java.util.regex.Pattern för att hämta strängar att markera. |
+| highlightColor | java.awt.Color | Färgen för att markera texten. |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Callback-objektet för att ta emot sökresultat [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 ### highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options) {#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-}
 ```
@@ -281,13 +300,13 @@ public abstract void highlightRegex(String regex, Color highlightColor, ITextHig
 ```
 
 
-Markerar alla träffar av reguljära uttrycket med den angivna färgen.
+Markerar alla matchningar av det reguljära uttrycket med den angivna färgen.
 
 **Parametrar:**
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| regex | java.lang.String | Text för reguljärt uttryck för att få text att markera. |
-| highlightColor | java.awt.Color | Färgen att markera texten med. |
+| regex | java.lang.String | Texten för det reguljära uttrycket för att hämta text att markera. |
+| highlightColor | java.awt.Color | Färgen för att markera texten. |
 | options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | Markeringsalternativ. |
 ### replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback) {#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
@@ -306,7 +325,7 @@ Ersätter alla förekomster av den angivna texten med en annan angiven text.
 >  try {
 >      TextSearchOptions textSearchOptions = new TextSearchOptions();
 >      textSearchOptions.setWholeWordsOnly(true);
->      // Ersätt alla separata 'the'-förekomster med '***'
+>      // Ersätt alla separata förekomster av 'the' med '***'
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().replaceText("the", "***", textSearchOptions, null);
 >      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -314,12 +333,13 @@ Ersätter alla förekomster av den angivna texten med en annan angiven text.
 >  }
 > ```
 
+
 **Parametrar:**
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | oldText | java.lang.String | Strängen som ska ersättas. |
 | newText | java.lang.String | Strängen som ersätter alla förekomster av oldText. |
-| options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Text sökalternativ [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
+| options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Sökalternativ för text [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Callback-objektet för att ta emot sökresultat [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 ### replaceRegex(Pattern regex, String newText, IFindResultCallback callback) {#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-}
 ```
@@ -327,7 +347,7 @@ public abstract void replaceRegex(Pattern regex, String newText, IFindResultCall
 ```
 
 
-Ersätter alla träffar av det reguljära uttrycket med den angivna strängen.
+Ersätter alla matchningar av det reguljära uttrycket med den angivna strängen.
 
 --------------------
 
@@ -337,7 +357,7 @@ Ersätter alla träffar av det reguljära uttrycket med den angivna strängen.
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      Pattern regex = Pattern.compile("\\b[^\\s]{5,}\\b");
->      // Ersätt alla ord med 5 symboler eller längre med '***'
+>      // Ersätt alla ord med 5 tecken eller längre med '***'
 >      ((AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().replaceRegex(regex, "***", null);
 >      presentation.save("SomePresentation-out.pptx", SaveFormat.Pptx);
 >  } finally {
@@ -345,9 +365,10 @@ Ersätter alla träffar av det reguljära uttrycket med den angivna strängen.
 >  }
 > ```
 
+
 **Parametrar:**
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | Det reguljära uttrycket java.util.regex.Pattern för att få strängar att ersätta. |
+| regex | java.util.regex.Pattern | Det reguljära uttrycket java.util.regex.Pattern för att hämta strängar att ersätta. |
 | newText | java.lang.String | Strängen för att ersätta alla förekomster av de strängar som ska ersättas. |
 | callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Callback-objektet för att ta emot sökresultat [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |

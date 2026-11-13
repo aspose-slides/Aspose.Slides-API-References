@@ -1,25 +1,25 @@
 ---
 title: FontsManager
-second_title: Aspose.Slides dla Java – odniesienie API
+second_title: Aspose.Slides dla Java – dokumentacja API
 description: Zarządza czcionkami w całej prezentacji.
 type: docs
 url: /pl/com.aspose.slides/fontsmanager/
 ---
-**Dziedziczenie:**
+**Dziedziczenie:**  
 java.lang.Object
 
-**Wszystkie zaimplementowane interfejsy:**
-[com.aspose.slides.IFontsManager](../../com.aspose.slides/ifontsmanager)
+**Wszystkie zaimplementowane interfejsy:**  
+[com.aspose.slides.IFontsManager](../../com.aspose.slides/ifontsmanager)  
 ```
 public class FontsManager implements IFontsManager
 ```
 
-Zarządza czcionkami w całej prezentacji.
+Zarządza czcionkami w prezentacji.
 
 --------------------
 
-> ``` 
-> The following example shows how to add embedded fonts to PowerPoint Presentation.
+> ```
+> Poniższy przykład pokazuje, jak dodać osadzone czcionki do prezentacji PowerPoint.
 >  
 >  // Załaduj prezentację
 >  Presentation pres = new Presentation("Fonts.pptx");
@@ -54,85 +54,50 @@ Zarządza czcionkami w całej prezentacji.
 
 | Metoda | Opis |
 | --- | --- |
-| [getFontSubstRuleList()](#getFontSubstRuleList--) | Zastąpienia czcionek używane podczas renderowania. |
-| [setFontSubstRuleList(IFontSubstRuleCollection value)](#setFontSubstRuleList-com.aspose.slides.IFontSubstRuleCollection-) | Zastąpienia czcionek używane podczas renderowania. |
-| [getFontFallBackRulesCollection()](#getFontFallBackRulesCollection--) | Reprezentuje kolekcję reguł FontFallBack użytkownika służącą do zarządzania kolekcjami czcionek w celu prawidłowych zastąpień przez funkcję awaryjną Odczyt/zapis [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
-| [setFontFallBackRulesCollection(IFontFallBackRulesCollection value)](#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-) | Reprezentuje kolekcję reguł FontFallBack użytkownika służącą do zarządzania kolekcjami czcionek w celu prawidłowych zastąpień przez funkcję awaryjną Odczyt/zapis [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
-| [getFonts()](#getFonts--) | Zwraca czcionki użyte w prezentacji |
-| [getSubstitutions()](#getSubstitutions--) | Pobiera informacje o czcionkach, które zostaną zastąpione podczas renderowania prezentacji. |
+| [getFontSubstRuleList()](#getFontSubstRuleList--) | Zastępniki czcionek używane przy renderowaniu. |
+| [setFontSubstRuleList(IFontSubstRuleCollection value)](#setFontSubstRuleList-com.aspose.slides.IFontSubstRuleCollection-) | Zastępniki czcionek używane przy renderowaniu. |
+| [getFontFallBackRulesCollection()](#getFontFallBackRulesCollection--) | Reprezentuje kolekcję reguł FontFallBack użytkownika służącą do zarządzania kolekcjami czcionek w celu prawidłowych substytucji przy użyciu funkcjonalności awaryjnej Odczyt/zapis [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
+| [setFontFallBackRulesCollection(IFontFallBackRulesCollection value)](#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-) | Reprezentuje kolekcję reguł FontFallBack użytkownika służącą do zarządzania kolekcjami czcionek w celu prawidłowych substytucji przy użyciu funkcjonalności awaryjnej Odczyt/zapis [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
+| [getFonts()](#getFonts--) | Zwraca czcionki używane w prezentacji |
+| [getSubstitutions()](#getSubstitutions--) | Pobiera informacje o czcionkach, które zostaną zastąpione przy renderowaniu prezentacji. |
 | [getSubstitutions(int[] slides)](#getSubstitutions-int---) | Pobiera informacje o czcionkach, które zostaną zastąpione podczas renderowania określonych slajdów. |
+| [getPreferRegisteredFontsOverEmbedded()](#getPreferRegisteredFontsOverEmbedded--) | Określa, czy zarejestrowane czcionki powinny mieć pierwszeństwo przed osadzonymi czcionkami o tej samej nazwie i stylu. |
+| [setPreferRegisteredFontsOverEmbedded(boolean value)](#setPreferRegisteredFontsOverEmbedded-boolean-) | Określa, czy zarejestrowane czcionki powinny mieć pierwszeństwo przed osadzonymi czcionkami o tej samej nazwie i stylu. |
 | [getEmbeddedFonts()](#getEmbeddedFonts--) | Zwraca czcionki osadzone w prezentacji |
 | [removeEmbeddedFont(IFontData fontData)](#removeEmbeddedFont-com.aspose.slides.IFontData-) | Usuwa osadzoną czcionkę |
 | [addEmbeddedFont(IFontData fontData, int embedFontRule)](#addEmbeddedFont-com.aspose.slides.IFontData-int-) | Dodaje osadzoną czcionkę |
 | [addEmbeddedFont(byte[] fontData, int embedFontRule)](#addEmbeddedFont-byte---int-) | Dodaje osadzoną czcionkę |
-| [replaceFont(IFontData sourceFont, IFontData destFont)](#replaceFont-com.aspose.slides.IFontData-com.aspose.slides.IFontData-) | Zastępuje czcionkę w prezentacji |
-| [replaceFont(IFontSubstRule substRule)](#replaceFont-com.aspose.slides.IFontSubstRule-) | Zastępuje czcionkę w prezentacji przy użyciu informacji podanych w [FontSubstRule](../../com.aspose.slides/fontsubstrule) |
-| [replaceFont(IFontSubstRuleCollection substRules)](#replaceFont-com.aspose.slides.IFontSubstRuleCollection-) | Zastępuje czcionkę w prezentacji przy użyciu informacji podanych w kolekcji [FontSubstRule](../../com.aspose.slides/fontsubstrule) |
+| [replaceFont(IFontData sourceFont, IFontData destFont)](#replaceFont-com.aspose.slides.IFontData-com.aspose.slides.IFontData-) | Zastąp czcionkę w prezentacji |
+| [replaceFont(IFontSubstRule substRule)](#replaceFont-com.aspose.slides.IFontSubstRule-) | Zastąp czcionkę w prezentacji przy użyciu informacji podanych w [FontSubstRule](../../com.aspose.slides/fontsubstrule) |
+| [replaceFont(IFontSubstRuleCollection substRules)](#replaceFont-com.aspose.slides.IFontSubstRuleCollection-) | Zastąp czcionkę w prezentacji przy użyciu informacji podanych w kolekcji [FontSubstRule](../../com.aspose.slides/fontsubstrule) |
 | [getFontBytes(IFontData fontData, int fontStyle)](#getFontBytes-com.aspose.slides.IFontData-int-) | Pobiera tablicę bajtów reprezentującą dane czcionki dla określonego stylu czcionki i danych czcionki. |
 | [getFontEmbeddingLevel(byte[] fontBytes, String fontName)](#getFontEmbeddingLevel-byte---java.lang.String-) | Określa poziom osadzania czcionki na podstawie podanej tablicy bajtów i nazwy czcionki. |
-
 ### getFontSubstRuleList() {#getFontSubstRuleList--}
 ```
 public final IFontSubstRuleCollection getFontSubstRuleList()
 ```
 
-Zastąpienia czcionek używane podczas renderowania. Odczyt/zapis [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
+Zastępniki czcionek używane przy renderowaniu. Odczyt/zapis [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
 
-**Zwraca:**
+**Zwraca:**  
 [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection)
-
 ### setFontSubstRuleList(IFontSubstRuleCollection value) {#setFontSubstRuleList-com.aspose.slides.IFontSubstRuleCollection-}
 ```
 public final void setFontSubstRuleList(IFontSubstRuleCollection value)
 ```
 
-Zastąpienia czcionek używane podczas renderowania. Odczyt/zapis [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
+Zastępniki czcionek używane przy renderowaniu. Odczyt/zapis [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection).
 
-**Parametry:**
+**Parametry:**  
 | Parametr | Typ | Opis |
 | --- | --- | --- |
 | value | [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection) |  |
-
 ### getFontFallBackRulesCollection() {#getFontFallBackRulesCollection--}
 ```
 public final IFontFallBackRulesCollection getFontFallBackRulesCollection()
 ```
 
-Reprezentuje kolekcję reguł FontFallBack użytkownika służącą do zarządzania kolekcjami czcionek w celu prawidłowych zastąpień przez funkcję awaryjną Odczyt/zapis [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
-
---------------------
-
-> ```
-> Presentation pres = new Presentation();
->  try
->  {
->      // Pobieranie pustej lub wstępnie zainicjowanej kolekcji reguł z FontsManager
->      IFontFallBackRulesCollection rulesList = pres.getFontsManager().getFontFallBackRulesCollection();
->      // dodawanie reguł do kolekcji
->      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
->      // lub 
->      // inicjalizacja nowej instancji kolekcji reguł
->      IFontFallBackRulesCollection rulesList = new FontFallBackRulesCollection();
->      // dodawanie reguł do kolekcji
->      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
->      // i zastąpienie istniejącej kolekcji nową w FontsManager 
->      pres.getFontsManager().setFontFallBackRulesCollection(rulesList);
->  }
->  finally {
->      if (pres != null) pres.dispose();
->  }
-> ```
-
-
-**Zwraca:**
-[IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection)
-
-### setFontFallBackRulesCollection(IFontFallBackRulesCollection value) {#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-}
-```
-public final void setFontFallBackRulesCollection(IFontFallBackRulesCollection value)
-```
-
-Reprezentuje kolekcję reguł FontFallBack użytkownika służącą do zarządzania kolekcjami czcionek w celu prawidłowych zastąpień przez funkcję awaryjną Odczyt/zapis [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
+Reprezentuje kolekcję reguł FontFallBack użytkownika służącą do zarządzania kolekcjami czcionek w celu prawidłowych substytucji przy użyciu funkcjonalności awaryjnej Odczyt/zapis [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
 
 --------------------
 
@@ -158,27 +123,58 @@ Reprezentuje kolekcję reguł FontFallBack użytkownika służącą do zarządza
 > ```
 
 
-**Parametry:**
+**Zwraca:**  
+[IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection)
+### setFontFallBackRulesCollection(IFontFallBackRulesCollection value) {#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-}
+```
+public final void setFontFallBackRulesCollection(IFontFallBackRulesCollection value)
+```
+
+Reprezentuje kolekcję reguł FontFallBack użytkownika służącą do zarządzania kolekcjami czcionek w celu prawidłowych substytucji przy użyciu funkcjonalności awaryjnej Odczyt/zapis [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation();
+>  try
+>  {
+>      // Pobieranie pustej lub wstępnie zainicjowanej kolekcji reguł z FontsManager
+>      IFontFallBackRulesCollection rulesList = pres.getFontsManager().getFontFallBackRulesCollection();
+>      // dodawanie reguł do kolekcji
+>      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
+>      // lub 
+>      // inicjalizacja nowej instancji kolekcji reguł
+>      IFontFallBackRulesCollection rulesList = new FontFallBackRulesCollection();
+>      // dodawanie reguł do kolekcji
+>      rulesList.add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
+>      // oraz zastąpienie istniejącej kolekcji nową w FontsManager 
+>      pres.getFontsManager().setFontFallBackRulesCollection(rulesList);
+>  }
+>  finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Parametry:**  
 | Parametr | Typ | Opis |
 | --- | --- | --- |
 | value | [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection) |  |
-
 ### getFonts() {#getFonts--}
 ```
 public final IFontData[] getFonts()
 ```
 
-Zwraca czcionki użyte w prezentacji
+Zwraca czcionki używane w prezentacji
 
-**Zwraca:**
-com.aspose.slides.IFontData[] - tablica czcionek
-
+**Zwraca:**  
+com.aspose.slides.IFontData[] - Tablica czcionek
 ### getSubstitutions() {#getSubstitutions--}
 ```
 public final System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo> getSubstitutions()
 ```
 
-Pobiera informacje o czcionkach, które zostaną zastąpione podczas renderowania prezentacji.
+Pobiera informacje o czcionkach, które zostaną zastąpione przy renderowaniu prezentacji.
 
 --------------------
 
@@ -195,9 +191,8 @@ Pobiera informacje o czcionkach, które zostaną zastąpione podczas renderowani
 > ```
 
 
-**Zwraca:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - kolekcja wszystkich zastąpień czcionek [FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo).
-
+**Zwraca:**  
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - Zbiór wszystkich zastąpień czcionek [FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo).
 ### getSubstitutions(int[] slides) {#getSubstitutions-int---}
 ```
 public final System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo> getSubstitutions(int[] slides)
@@ -220,14 +215,66 @@ Pobiera informacje o czcionkach, które zostaną zastąpione podczas renderowani
 >  }
 > ```
 
-**Parametry:**
+
+**Parametry:**  
 | Parametr | Typ | Opis |
 | --- | --- | --- |
-| slides | int[] | Tablica indeksów slajdów, dla których należy pobrać informacje o zastąpieniach czcionek, zaczynając od 1. |
+| slides | int[] | Tablica indeksów slajdów, dla których pobiera się informacje o zastąpieniach czcionek, zaczynając od 1. |
 
-**Zwraca:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - kolekcja wszystkich zastąpień czcionek ([FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo)) dla określonych slajdów.
+**Zwraca:**  
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - Zbiór wszystkich zastąpień czcionek ([FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo)) dla określonych slajdów.
+### getPreferRegisteredFontsOverEmbedded() {#getPreferRegisteredFontsOverEmbedded--}
+```
+public final boolean getPreferRegisteredFontsOverEmbedded()
+```
 
+Określa, czy zarejestrowane czcionki powinny mieć pierwszeństwo przed osadzonymi czcionkami o tej samej nazwie i stylu. Gdy włączone, pasujące czcionki osadzone są tymczasowo zastępowane odpowiednimi czcionkami zarejestrowanymi podczas eksportu.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("SomePresentation.pptx");
+>  try {
+>      pres.getFontsManager().setPreferRegisteredFontsOverEmbedded(true);
+>      pres.save("Presentation-out.pdf", SaveFormat.Pdf);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+Domyślnie jest **false**.
+
+**Zwraca:**  
+boolean
+### setPreferRegisteredFontsOverEmbedded(boolean value) {#setPreferRegisteredFontsOverEmbedded-boolean-}
+```
+public final void setPreferRegisteredFontsOverEmbedded(boolean value)
+```
+
+Określa, czy zarejestrowane czcionki powinny mieć pierwszeństwo przed osadzonymi czcionkami o tej samej nazwie i stylu. Gdy włączone, pasujące czcionki osadzone są tymczasowo zastępowane odpowiednimi czcionkami zarejestrowanymi podczas eksportu.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("SomePresentation.pptx");
+>  try {
+>      pres.getFontsManager().setPreferRegisteredFontsOverEmbedded(true);
+>      pres.save("Presentation-out.pdf", SaveFormat.Pdf);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+Domyślnie jest **false**.
+
+**Parametry:**  
+| Parametr | Typ | Opis |
+| --- | --- | --- |
+| value | boolean |  |
 ### getEmbeddedFonts() {#getEmbeddedFonts--}
 ```
 public final IFontData[] getEmbeddedFonts()
@@ -235,9 +282,8 @@ public final IFontData[] getEmbeddedFonts()
 
 Zwraca czcionki osadzone w prezentacji
 
-**Zwraca:**
+**Zwraca:**  
 com.aspose.slides.IFontData[]
-
 ### removeEmbeddedFont(IFontData fontData) {#removeEmbeddedFont-com.aspose.slides.IFontData-}
 ```
 public final void removeEmbeddedFont(IFontData fontData)
@@ -245,11 +291,10 @@ public final void removeEmbeddedFont(IFontData fontData)
 
 Usuwa osadzoną czcionkę
 
-**Parametry:**
+**Parametry:**  
 | Parametr | Typ | Opis |
 | --- | --- | --- |
 | fontData | [IFontData](../../com.aspose.slides/ifontdata) |  |
-
 ### addEmbeddedFont(IFontData fontData, int embedFontRule) {#addEmbeddedFont-com.aspose.slides.IFontData-int-}
 ```
 public final void addEmbeddedFont(IFontData fontData, int embedFontRule)
@@ -257,12 +302,11 @@ public final void addEmbeddedFont(IFontData fontData, int embedFontRule)
 
 Dodaje osadzoną czcionkę
 
-**Parametry:**
+**Parametry:**  
 | Parametr | Typ | Opis |
 | --- | --- | --- |
 | fontData | [IFontData](../../com.aspose.slides/ifontdata) |  |
 | embedFontRule | int |  |
-
 ### addEmbeddedFont(byte[] fontData, int embedFontRule) {#addEmbeddedFont-byte---int-}
 ```
 public final void addEmbeddedFont(byte[] fontData, int embedFontRule)
@@ -270,49 +314,45 @@ public final void addEmbeddedFont(byte[] fontData, int embedFontRule)
 
 Dodaje osadzoną czcionkę
 
-**Parametry:**
+**Parametry:**  
 | Parametr | Typ | Opis |
 | --- | --- | --- |
 | fontData | byte[] |  |
 | embedFontRule | int |  |
-
 ### replaceFont(IFontData sourceFont, IFontData destFont) {#replaceFont-com.aspose.slides.IFontData-com.aspose.slides.IFontData-}
 ```
 public final void replaceFont(IFontData sourceFont, IFontData destFont)
 ```
 
-Zastępuje czcionkę w prezentacji
+Zastąp czcionkę w prezentacji
 
-**Parametry:**
+**Parametry:**  
 | Parametr | Typ | Opis |
 | --- | --- | --- |
 | sourceFont | [IFontData](../../com.aspose.slides/ifontdata) | Czcionka źródłowa |
 | destFont | [IFontData](../../com.aspose.slides/ifontdata) | Czcionka docelowa |
-
 ### replaceFont(IFontSubstRule substRule) {#replaceFont-com.aspose.slides.IFontSubstRule-}
 ```
 public final void replaceFont(IFontSubstRule substRule)
 ```
 
-Zastępuje czcionkę w prezentacji przy użyciu informacji podanych w [FontSubstRule](../../com.aspose.slides/fontsubstrule)
+Zastąp czcionkę w prezentacji przy użyciu informacji podanych w [FontSubstRule](../../com.aspose.slides/fontsubstrule)
 
-**Parametry:**
+**Parametry:**  
 | Parametr | Typ | Opis |
 | --- | --- | --- |
 | substRule | [IFontSubstRule](../../com.aspose.slides/ifontsubstrule) | Informacje o zastąpieniu czcionki |
-
 ### replaceFont(IFontSubstRuleCollection substRules) {#replaceFont-com.aspose.slides.IFontSubstRuleCollection-}
 ```
 public final void replaceFont(IFontSubstRuleCollection substRules)
 ```
 
-Zastępuje czcionkę w prezentacji przy użyciu informacji podanych w kolekcji [FontSubstRule](../../com.aspose.slides/fontsubstrule)
+Zastąp czcionkę w prezentacji przy użyciu informacji podanych w kolekcji [FontSubstRule](../../com.aspose.slides/fontsubstrule)
 
-**Parametry:**
+**Parametry:**  
 | Parametr | Typ | Opis |
 | --- | --- | --- |
 | substRules | [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection) | Kolekcja reguł zastąpienia czcionek |
-
 ### getFontBytes(IFontData fontData, int fontStyle) {#getFontBytes-com.aspose.slides.IFontData-int-}
 ```
 public final byte[] getFontBytes(IFontData fontData, int fontStyle)
@@ -334,15 +374,15 @@ Pobiera tablicę bajtów reprezentującą dane czcionki dla określonego stylu c
 >  }
 > ```
 
-**Parametry:**
+
+**Parametry:**  
 | Parametr | Typ | Opis |
 | --- | --- | --- |
 | fontData | [IFontData](../../com.aspose.slides/ifontdata) | Obiekt danych czcionki zawierający informacje o czcionce [IFontData](../../com.aspose.slides/ifontdata). |
-| fontStyle | int | Styl czcionki, dla którego mają być pobrane dane [FontStyleType](../../com.aspose.slides/fontstyletype). |
+| fontStyle | int | Styl czcionki, dla którego mają zostać pobrane dane [FontStyleType](../../com.aspose.slides/fontstyletype). |
 
-**Zwraca:**
+**Zwraca:**  
 byte[] - Tablica bajtów zawierająca dane czcionki dla określonego stylu czcionki. Jeśli dane czcionki lub styl nie zostaną znalezione, zwraca null.
-
 ### getFontEmbeddingLevel(byte[] fontBytes, String fontName) {#getFontEmbeddingLevel-byte---java.lang.String-}
 ```
 public final int getFontEmbeddingLevel(byte[] fontBytes, String fontName)
@@ -366,11 +406,12 @@ Określa poziom osadzania czcionki na podstawie podanej tablicy bajtów i nazwy 
 >  }
 > ```
 
-**Parametry:**
+
+**Parametry:**  
 | Parametr | Typ | Opis |
 | --- | --- | --- |
 | fontBytes | byte[] | Tablica bajtów zawierająca dane czcionki. |
 | fontName | java.lang.String | Nazwa czcionki. |
 
-**Zwraca:**
+**Zwraca:**  
 int - Poziom osadzania określonej czcionki.
