@@ -1,14 +1,14 @@
 ---
 title: LineCapStyle
-second_title: Aspose.Sildes pro .NET API referenci
-description: Representuje styl zakončení čáry.
+second_title: Aspose.Sildes pro .NET referenční příručka API
+description: Reprezentuje styl zakončení čáry.
 type: docs
-weight: 7760
+weight: 7780
 url: /cs/aspose.slides/linecapstyle/
 ---
-## Výčet LineCapStyle
+## LineCapStyle výčet
 
-Representuje styl zakončení čáry.
+Reprezentuje styl zakončení čáry.
 
 ```csharp
 public enum LineCapStyle : sbyte

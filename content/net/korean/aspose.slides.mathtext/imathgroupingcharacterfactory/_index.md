@@ -1,9 +1,9 @@
 ---
 title: IMathGroupingCharacterFactory
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes용 .NET API 레퍼런스
 description: 수학 그룹화 문자를 생성할 수 있습니다
 type: docs
-weight: 8300
+weight: 8320
 url: /ko/aspose.slides.mathtext/imathgroupingcharacterfactory/
 ---
 ## IMathGroupingCharacterFactory 인터페이스
@@ -25,7 +25,7 @@ public interface IMathGroupingCharacterFactory
 
 COM 호환성을 위해
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 어셈블리 [Aspose.Slides](../../)

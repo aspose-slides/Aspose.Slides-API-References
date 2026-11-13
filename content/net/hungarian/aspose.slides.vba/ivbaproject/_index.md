@@ -1,14 +1,14 @@
 ---
 title: IVbaProject
-second_title: Aspose.Sildes .NET API Referencia
-description: VBA projektet képvisel prezentációs makrókkal.
+second_title: Aspose.Sildes .NET-hez API hivatkozás
+description: A prezentációs makrókat tartalmazó VBA projektet képviseli.
 type: docs
-weight: 11550
+weight: 11570
 url: /hu/aspose.slides.vba/ivbaproject/
 ---
 ## IVbaProject interfész
 
-A VBA projektet képviseli a prezentációs makrókkal.
+A prezentációs makrókat tartalmazó VBA projektet képviseli.
 
 ```csharp
 public interface IVbaProject
@@ -18,16 +18,16 @@ public interface IVbaProject
 
 | Név | Leírás |
 | --- | --- |
-| [IsPasswordProtected](../../aspose.slides.vba/ivbaproject/ispasswordprotected) { get; } | Jelzi, hogy a VBAProject jelszóval védett-e a projekt tulajdonságainak megtekintéséhez. Csak olvasható Boolean. |
+| [IsPasswordProtected](../../aspose.slides.vba/ivbaproject/ispasswordprotected) { get; } | Jelzi, hogy a VBAProject jelszóval védett-e a projekt tulajdonságainak megtekintése érdekében. Csak olvasható Boolean. |
 | [Modules](../../aspose.slides.vba/ivbaproject/modules) { get; } | Visszaadja a VBA projektben található összes modul listáját. Csak olvasható [`IVbaModuleCollection`](../ivbamodulecollection). |
 | [Name](../../aspose.slides.vba/ivbaproject/name) { get; } | Visszaadja a VBA projekt nevét. Csak olvasható String. |
-| [References](../../aspose.slides.vba/ivbaproject/references) { get; } | Visszaadja a VBA projektben található összes hivatkozás listáját. Csak olvasható [`IVbaReferenceCollection`](../ivbareferencecollection). |
+| [References](../../aspose.slides.vba/ivbaproject/references) { get; } | Visszaadja a VBA projektben szereplő összes hivatkozás listáját. Csak olvasható [`IVbaReferenceCollection`](../ivbareferencecollection). |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [ToBinary](../../aspose.slides.vba/ivbaproject/tobinary)() | Visszaadja a VBA projekt bináris reprezentációját OLE konténerként. Csak olvasható Byte[]. |
+| [ToBinary](../../aspose.slides.vba/ivbaproject/tobinary)() | Visszaadja a VBA projekt bináris ábrázolását OLE tárolóként. Csak olvasható Byte[]. |
 
 ### Lásd még
 

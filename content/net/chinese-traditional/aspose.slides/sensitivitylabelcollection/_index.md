@@ -1,9 +1,9 @@
 ---
 title: SensitivityLabelCollection
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes .NET API 參考
 description: 表示套用於文件的敏感度標籤集合。
 type: docs
-weight: 9810
+weight: 9830
 url: /zh-hant/aspose.slides/sensitivitylabelcollection/
 ---
 ## SensitivityLabelCollection 類別
@@ -19,21 +19,21 @@ public sealed class SensitivityLabelCollection : DomObject<Presentation>,
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Count](../../aspose.slides/sensitivitylabelcollection/count) { get; } | 傳回集合中元素的數量。唯讀 Int32。 |
-| [Item](../../aspose.slides/sensitivitylabelcollection/item) { get; } | 依索引傳回敏感度標籤。 |
+| [Count](../../aspose.slides/sensitivitylabelcollection/count) { get; } | 返回集合中元素的數量。唯讀 Int32。 |
+| [Item](../../aspose.slides/sensitivitylabelcollection/item) { get; } | 根據索引返回敏感度標籤。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
 | [Add](../../aspose.slides/sensitivitylabelcollection/add#add_1)(ISensitivityLabel) | 將 SensitivityLabel 新增至集合。 |
-| [Add](../../aspose.slides/sensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | 在集合的末端新增敏感度標籤。 |
-| [Clear](../../aspose.slides/sensitivitylabelcollection/clear)() | 從集合中移除所有元素。 |
-| [CopyTo](../../aspose.slides/sensitivitylabelcollection/copyto)(ISensitivityLabel[], int) | 將集合中所有元素複製到指定的陣列。 |
-| [GetEnumerator](../../aspose.slides/sensitivitylabelcollection/getenumerator)() | 傳回可遍歷集合的列舉器。 |
+| [Add](../../aspose.slides/sensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | 在集合末端新增敏感度標籤。 |
+| [Clear](../../aspose.slides/sensitivitylabelcollection/clear)() | 移除集合中的全部元素。 |
+| [CopyTo](../../aspose.slides/sensitivitylabelcollection/copyto)(ISensitivityLabel[], int) | 將集合中的全部元素複製到指定的陣列。 |
+| [GetEnumerator](../../aspose.slides/sensitivitylabelcollection/getenumerator)() | 返回可遍歷集合的列舉器。 |
 | [RemoveAt](../../aspose.slides/sensitivitylabelcollection/removeat)(int) | 移除指定索引處的敏感度標籤。 |
 
-### 相關參考
+### 另請參閱
 
 * 類別 [DomObject&lt;TParent&gt;](../domobject-1)
 * 類別 [Presentation](../presentation)

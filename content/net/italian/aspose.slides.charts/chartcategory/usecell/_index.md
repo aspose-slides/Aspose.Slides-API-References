@@ -1,14 +1,14 @@
 ---
 title: UseCell
-second_title: Aspose.Sildes per il Riferimento API .NET
-description: Se vero, la proprietà AsCell è attiva. In altre parole, il foglio di lavoro è usato per memorizzare la categoria; questo caso supporta una categoria a più livelli. Se falso, la proprietà AsLiteral è attiva. In altre parole, il foglio di lavoro NON è usato per memorizzare la categoria e questo caso non supporta categorie a più livelli. Boolean di sola lettura.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Se true allora la proprietà AsCell è attiva. In altre parole il foglio di lavoro è usato per memorizzare la categoria; questo caso supporta una categoria a più livelli. Se false allora la proprietà AsLiteral è attiva. In altre parole il foglio di lavoro NON è usato per memorizzare la categoria e questo caso non supporta categorie a più livelli. Boolean di sola lettura.
 type: docs
-weight: 40
+weight: 50
 url: /it/aspose.slides.charts/chartcategory/usecell/
 ---
-## Proprietà ChartCategory.UseCell
+## ChartCategory.UseCell proprietà
 
-Se vero, la proprietà AsCell è attiva. In altre parole, il foglio di lavoro è usato per memorizzare la categoria (questo caso supporta una categoria a più livelli). Se falso, la proprietà AsLiteral è attiva. In altre parole, il foglio di lavoro NON è usato per memorizzare la categoria (e questo caso non supporta categorie a più livelli). Boolean di sola lettura.
+Se true allora la proprietà AsCell è effettiva. In altre parole, il foglio di lavoro è usato per memorizzare la categoria (questo caso supporta una categoria a più livelli). Se false allora la proprietà AsLiteral è effettiva. In altre parole, il foglio di lavoro NON è usato per memorizzare la categoria (e questo caso non supporta categorie a più livelli). Boolean di sola lettura.
 
 ```csharp
 public bool UseCell { get; }
@@ -16,7 +16,7 @@ public bool UseCell { get; }
 
 ### Osservazioni
 
-Per modificare il valore di questa proprietà (per tutte le categorie nella raccolta) impostare il nuovo valore nella proprietà ChartCategoryCollection.UseCells.
+Per modificare il valore di questa proprietà (per tutte le categorie nella collezione) impostare il nuovo valore sulla proprietà UseCells di ChartCategoryCollection.
 
 ### Vedi anche
 

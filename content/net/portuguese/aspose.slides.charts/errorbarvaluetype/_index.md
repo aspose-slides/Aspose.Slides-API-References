@@ -1,9 +1,9 @@
 ---
 title: ErrorBarValueType
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa o tipo de valor da barra de erro
 type: docs
-weight: 1650
+weight: 1660
 url: /pt/aspose.slides.charts/errorbarvaluetype/
 ---
 ## ErrorBarValueType enumeração
@@ -20,7 +20,7 @@ public enum ErrorBarValueType
 | --- | --- | --- |
 | Custom | `0` | Especifica que o comprimento das barras de erro deve ser determinado pelos elementos Plus e Minus. |
 | Fixed | `1` | Especifica que o comprimento das barras de erro deve ser o valor fixo determinado por Error Bar Value. |
-| Percentage | `2` | Especifica que o comprimento das barras de erro deve ser a porcentagem do Error Bar Value dos dados. |
+| Percentage | `2` | Especifica que o comprimento das barras de erro deve ser Error Bar Value por cento dos dados. |
 | StandardDeviation | `3` | Especifica que o comprimento das barras de erro deve ser Error Bar Value desvios padrão dos dados. |
 | StandardError | `4` | Especifica que o comprimento das barras de erro deve ser Error Bar Value erros padrão dos dados. |
 

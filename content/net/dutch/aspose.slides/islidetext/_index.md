@@ -1,14 +1,14 @@
 ---
 title: ISlideText
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt de tekst voor die uit de dia is gehaald
+description: Stelt de tekst voor die uit de dia is geëxtraheerd
 type: docs
-weight: 7100
+weight: 7120
 url: /nl/aspose.slides/islidetext/
 ---
 ## ISlideText interface
 
-Stelt de tekst voor die uit de dia is gehaald
+Stelt de tekst voor die uit de dia is geëxtraheerd
 
 ```csharp
 public interface ISlideText
@@ -18,7 +18,7 @@ public interface ISlideText
 
 | Naam | Beschrijving |
 | --- | --- |
-| [CommentsText](../../aspose.slides/islidetext/commentstext) { get; } | De tekst van de diaopmerkingen |
+| [CommentsText](../../aspose.slides/islidetext/commentstext) { get; } | De tekst van de dia-opmerkingen |
 | [LayoutText](../../aspose.slides/islidetext/layouttext) { get; } | De tekst op de vormen van de lay-outpagina voor deze dia |
 | [MasterText](../../aspose.slides/islidetext/mastertext) { get; } | De tekst op de vormen van de masterpagina voor deze dia |
 | [NotesText](../../aspose.slides/islidetext/notestext) { get; } | De tekst op de vormen van de notitiepagina voor deze dia |

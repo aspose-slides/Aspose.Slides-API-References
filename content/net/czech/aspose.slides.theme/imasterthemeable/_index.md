@@ -1,14 +1,14 @@
 ---
 title: IMasterThemeable
-second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje správce hlavního motivu.
+second_title: Aspose.Sildes pro .NET – API reference
+description: Reprezentuje správce hlavního motivu.
 type: docs
-weight: 11330
+weight: 11350
 url: /cs/aspose.slides.theme/imasterthemeable/
 ---
 ## IMasterThemeable rozhraní
 
-Představuje správce hlavního motivu.
+Reprezentuje správce hlavního motivu.
 
 ```csharp
 public interface IMasterThemeable : IThemeable

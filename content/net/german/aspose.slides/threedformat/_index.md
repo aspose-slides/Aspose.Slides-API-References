@@ -1,14 +1,14 @@
 ---
 title: ThreeDFormat
-second_title: Aspose.Sildes für .NET API Referenz
-description: Stellt 3-D-Eigenschaften dar.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt 3-D Eigenschaften dar.
 type: docs
-weight: 11490
+weight: 11510
 url: /de/aspose.slides/threedformat/
 ---
 ## ThreeDFormat Klasse
 
-Stellt 3-D-Eigenschaften dar.
+Stellt 3-D Eigenschaften dar.
 
 ```csharp
 public sealed class ThreeDFormat : PVIObject, IThreeDFormat
@@ -18,24 +18,24 @@ public sealed class ThreeDFormat : PVIObject, IThreeDFormat
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht den Zugriff auf die Basis-IPresentationComponent-Schnittstelle. Nur-Lesen [`IPresentationComponent`](../ipresentationcomponent). |
-| [BevelBottom](../../aspose.slides/threedformat/bevelbottom) { get; } | Gibt den Typ einer unteren 3D-Fase zurück oder setzt ihn. Nur-Lesen [`IShapeBevel`](../ishapebevel). |
-| [BevelTop](../../aspose.slides/threedformat/beveltop) { get; } | Gibt den Typ einer oberen 3D-Fase zurück oder setzt ihn. Nur-Lesen [`IShapeBevel`](../ishapebevel). |
-| [Camera](../../aspose.slides/threedformat/camera) { get; } | Gibt die Einstellungen einer Kamera zurück oder setzt sie. Nur-Lesen [`ICamera`](../icamera). |
-| [ContourColor](../../aspose.slides/threedformat/contourcolor) { get; } | Gibt die Farbe einer Kontur zurück oder setzt sie. Nur-Lesen [`IColorFormat`](../icolorformat). |
-| [ContourWidth](../../aspose.slides/threedformat/contourwidth) { get; set; } | Gibt die Breite einer 3D-Kontur zurück oder setzt sie. Lesen/Schreiben Double. |
-| [Depth](../../aspose.slides/threedformat/depth) { get; set; } | Gibt die Tiefe einer 3D-Form zurück oder setzt sie. Lesen/Schreiben Double. |
-| [ExtrusionColor](../../aspose.slides/threedformat/extrusioncolor) { get; } | Gibt die Farbe einer Extrusion zurück oder setzt sie. Nur-Lesen [`IColorFormat`](../icolorformat). |
-| [ExtrusionHeight](../../aspose.slides/threedformat/extrusionheight) { get; set; } | Gibt die Höhe eines Extrusionseffekts zurück oder setzt sie. Lesen/Schreiben Double. |
-| [LightRig](../../aspose.slides/threedformat/lightrig) { get; } | Gibt den Typ einer Beleuchtung zurück oder setzt ihn. Nur-Lesen [`ILightRig`](../ilightrig). |
-| [Material](../../aspose.slides/threedformat/material) { get; set; } | Gibt den Typ eines Materials zurück oder setzt ihn. Lesen/Schreiben [`MaterialPresetType`](../materialpresettype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht das Abrufen der Basis-IPresentationComponent-Schnittstelle. Nur-Lese [`IPresentationComponent`](../ipresentationcomponent). |
+| [BevelBottom](../../aspose.slides/threedformat/bevelbottom) { get; } | Gibt den Typ einer unteren 3D-Kante zurück oder legt ihn fest. Nur-Lese [`IShapeBevel`](../ishapebevel). |
+| [BevelTop](../../aspose.slides/threedformat/beveltop) { get; } | Gibt den Typ einer oberen 3D-Kante zurück oder legt ihn fest. Nur-Lese [`IShapeBevel`](../ishapebevel). |
+| [Camera](../../aspose.slides/threedformat/camera) { get; } | Gibt die Einstellungen einer Kamera zurück oder legt sie fest. Nur-Lese [`ICamera`](../icamera). |
+| [ContourColor](../../aspose.slides/threedformat/contourcolor) { get; } | Gibt die Farbe einer Kontur zurück oder legt sie fest. Nur-Lese [`IColorFormat`](../icolorformat). |
+| [ContourWidth](../../aspose.slides/threedformat/contourwidth) { get; set; } | Gibt die Breite einer 3D-Kontur zurück oder legt sie fest. Lese-/Schreib-Double. |
+| [Depth](../../aspose.slides/threedformat/depth) { get; set; } | Gibt die Tiefe einer 3D-Form zurück oder legt sie fest. Lese-/Schreib-Double. |
+| [ExtrusionColor](../../aspose.slides/threedformat/extrusioncolor) { get; } | Gibt die Farbe einer Extrusion zurück oder legt sie fest. Nur-Lese [`IColorFormat`](../icolorformat). |
+| [ExtrusionHeight](../../aspose.slides/threedformat/extrusionheight) { get; set; } | Gibt die Höhe eines Extrusionseffekts zurück oder legt sie fest. Lese-/Schreib-Double. |
+| [LightRig](../../aspose.slides/threedformat/lightrig) { get; } | Gibt den Typ eines Lichts zurück oder legt ihn fest. Nur-Lese [`ILightRig`](../ilightrig). |
+| [Material](../../aspose.slides/threedformat/material) { get; set; } | Gibt den Typ eines Materials zurück oder legt ihn fest. Lese-/Schreib [`MaterialPresetType`](../materialpresettype). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Vergleicht mit dem angegebenen Objekt. |
-| [GetEffective](../../aspose.slides/threedformat/geteffective)() | Ermittelt die wirksamen 3-D-Formatierungsdaten unter Berücksichtigung der Vererbung. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Vergleicht mit angegebenem Objekt. |
+| [GetEffective](../../aspose.slides/threedformat/geteffective)() | Ermittelt effektive 3-D-Formatierungsdaten mit angewandter Vererbung. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Gibt den Hashcode zurück. |
 
 ### Beispiele
@@ -61,12 +61,12 @@ using (Presentation pres = new Presentation())
     shape.ThreeDFormat.ExtrusionHeight = 100;
     shape.ThreeDFormat.ExtrusionColor.Color = Color.Blue;
     pres.Slides[0].GetThumbnail(2, 2).Save("sample_3d.png");
-	// Speichere die Präsentationsdatei
+	// Speichere die Presentationsdatei
     pres.Save("sandbox_3d.pptx", SaveFormat.Pptx);
 }
 ```
 
-Das folgende Beispiel zeigt, wie man einen Verlaufs-Effekt auf eine 3D-Form in einer PowerPoint-Präsentation anwendet.
+Das folgende Beispiel zeigt, wie man einen Gradient-Effekt auf eine 3D-Form in einer PowerPoint-Präsentation anwendet.
 
 ```csharp
 [C#]
@@ -78,7 +78,7 @@ using (Presentation pres = new Presentation())
 	// Definiere TextFrame und seine Eigenschaften
     shape.TextFrame.Text = "3D Gradient";
     shape.TextFrame.Paragraphs[0].ParagraphFormat.DefaultPortionFormat.FontHeight = 64;
-	// Konfiguriere FillFormat.FillType als FillType.Gradient und definiere Gradient-Eigenschaften
+	// Konfiguriere FillFormat.FillType als FillType.Gradient und definiere die Gradient-Eigenschaften
 	shape.FillFormat.FillType = FillType.Gradient;
     shape.FillFormat.GradientFormat.GradientStops.Add(0, Color.Blue);
     shape.FillFormat.GradientFormat.GradientStops.Add(100, Color.Orange);
@@ -96,7 +96,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-Das folgende Beispiel zeigt, wie man einen 3D-Effekt auf Text anwendet. Zum Erstellen von 3D-Text kann der WordArt-Transformations-Effekt verwendet werden.
+Das folgende Beispiel zeigt, wie man einen 3D-Effekt auf Text anwendet. Für die Erstellung von 3D-Text kann der WordArt-Transformations-Effekt verwendet werden.
 
 ```csharp
 [C#]
@@ -110,7 +110,7 @@ using (Presentation pres = new Presentation())
 	// Konfiguriere FillFormat.FillType als FillType.NoFill
 	shape.FillFormat.FillType = FillType.NoFill;
     shape.LineFormat.FillFormat.FillType = FillType.NoFill;
-	// Konfiguriere den Portion des TextFrames und dessen PortionFormat-Eigenschaften
+	// Konfiguriere Portion des TextFrames und die Eigenschaften von PortionFormat
 	Portion portion = (Portion)shape.TextFrame.Paragraphs[0].Portions[0];
     portion.PortionFormat.FillFormat.FillType = FillType.Pattern;
     portion.PortionFormat.FillFormat.PatternFormat.ForeColor.Color = Color.DarkOrange;

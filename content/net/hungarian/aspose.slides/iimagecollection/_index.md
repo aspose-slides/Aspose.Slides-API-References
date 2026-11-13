@@ -1,14 +1,14 @@
 ---
 title: IImageCollection
-second_title: Aspose.Sildes .NET API Referenciája
-description: PPImage gyűjteményt képviseli.
+second_title: Aspose.Sildes .NET API referencia
+description: A PPImage gyűjteményét ábrázolja.
 type: docs
-weight: 6160
+weight: 6180
 url: /hu/aspose.slides/iimagecollection/
 ---
 ## IImageCollection interfész
 
-PPImage gyűjteményt képviseli.
+A PPImage gyűjteményét ábrázolja.
 
 ```csharp
 public interface IImageCollection : IGenericCollection<IPPImage>
@@ -16,21 +16,21 @@ public interface IImageCollection : IGenericCollection<IPPImage>
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [Item](../../aspose.slides/iimagecollection/item) { get; } | Visszaadja a képet az indexe alapján. |
+| [Item](../../aspose.slides/iimagecollection/item) { get; } | Visszaadja a képet az indexe szerint. |
 
-## Módszerek
+## Metódusok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_3)(byte[]) | Képet ad egy prezentációhoz a megadott pufferből. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage)(IImage) | Képet ad egy prezentációhoz. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_1)(IPPImage) | Képmásolatot ad egy másik prezentációból. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_2)(ISvgImage) | Képet ad egy prezentációhoz SVG objektumból. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_4)(MemoryStream) | Képet ad hozzá memóriaáramról. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_5)(Stream) | Képet ad egy prezentációhoz áramlásból. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | Létrehoz és hozzáad egy képet egy prezentációhoz áramlásból. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_3)(byte[]) | Hozzáad egy képet a prezentációhoz a megadott pufforból. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage)(IImage) | Képet ad a prezentációhoz. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_1)(IPPImage) | Egy másik prezentációból másolatként hozzáad egy képet. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_2)(ISvgImage) | SVG objektumból ad hozzá egy képet a prezentációhoz. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_4)(MemoryStream) | Képet ad hozzá egy memóriafolyamból. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_5)(Stream) | Folyamról ad hozzá egy képet a prezentációhoz. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | Létrehozza és hozzáadja a képet a prezentációhoz egy folyamatról. |
 
 ### Lásd még
 

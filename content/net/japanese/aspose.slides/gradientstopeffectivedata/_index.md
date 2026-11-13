@@ -1,14 +1,14 @@
 ---
 title: GradientStopEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
-description: グラデーション ストップを表す不変オブジェクトです。
+description: グラデーションストップを表すイミュータブルオブジェクトです。
 type: docs
-weight: 5050
+weight: 5070
 url: /ja/aspose.slides/gradientstopeffectivedata/
 ---
 ## GradientStopEffectiveData クラス
 
-グラデーション ストップを表す不変オブジェクトです。
+グラデーションストップを表すイミュータブルオブジェクト。
 
 ```csharp
 public class GradientStopEffectiveData : IGradientStopEffectiveData
@@ -18,8 +18,8 @@ public class GradientStopEffectiveData : IGradientStopEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [Color](../../aspose.slides/gradientstopeffectivedata/color) { get; } | グラデーション ストップの色を返します。読み取り専用 Color。 |
-| [Position](../../aspose.slides/gradientstopeffectivedata/position) { get; } | グラデーション ストップの位置 (0..1) を返します。読み取り専用 Single。 |
+| [Color](../../aspose.slides/gradientstopeffectivedata/color) { get; } | グラデーションストップの色を返します。読み取り専用 Color. |
+| [Position](../../aspose.slides/gradientstopeffectivedata/position) { get; } | グラデーションストップの位置 (0..1) を返します。読み取り専用 Single. |
 
 ## メソッド
 
@@ -28,7 +28,7 @@ public class GradientStopEffectiveData : IGradientStopEffectiveData
 | override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | 指定された [`GradientStopEffectiveData`](../gradientstopeffectivedata) が現在の [`GradientStopEffectiveData`](../gradientstopeffectivedata) と等しいかどうかを判断します。 |
 | override [GetHashCode](../../aspose.slides/gradientstopeffectivedata/gethashcode)() |  |
 
-### 関連項目
+### 参照
 
 * インターフェイス [IGradientStopEffectiveData](../igradientstopeffectivedata)
 * 名前空間 [Aspose.Slides](../../aspose.slides)

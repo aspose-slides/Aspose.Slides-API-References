@@ -1,14 +1,14 @@
 ---
 title: IDataLabel
-second_title: Aspose.Sildes .NET API Referansı
-description: Bir serinin etiketlerini temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Seri etiketlerini temsil eder.
 type: docs
-weight: 2020
+weight: 2040
 url: /tr/aspose.slides.charts/idatalabel/
 ---
-## IDataLabel arayüzü
+## IDataLabel arayüz
 
-Bir dizi etiketi temsil eder.
+Seri etiketlerini temsil eder.
 
 ```csharp
 public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
@@ -22,7 +22,8 @@ public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
 | [AsILayoutable](../../aspose.slides.charts/idatalabel/asilayoutable) { get; } | ILayoutable arayüzünü döndürür. Salt okunur [`ILayoutable`](../ilayoutable). |
 | [AsIOverridableText](../../aspose.slides.charts/idatalabel/asioverridabletext) { get; } | IOverridableText arayüzünü döndürür. Salt okunur [`IOverridableText`](../ioverridabletext). |
 | [DataLabelFormat](../../aspose.slides.charts/idatalabel/datalabelformat) { get; } | Veri etiketinin biçimini döndürür. Salt okunur [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | False, veri etiketinin görünür olmadığını (ve bu yüzden tüm Show*-bayrakları (ShowValue, ...) yanlıştır) gösterir. Salt okunur Boolean. |
+| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | False, veri etiketinin görünür olmadığını (ve bu nedenle tüm Show*-bayraklarının (ShowValue, ...) false olduğunu) ifade eder. Salt okunur Boolean. |
+| [LabelShapeType](../../aspose.slides.charts/idatalabel/labelshapetype) { get; set; } | Veri etiketinin şekil tipini alır veya ayarlar. Şekil tanımlı değilse NotDefined döndürür. |
 | [ValueFromCell](../../aspose.slides.charts/idatalabel/valuefromcell) { get; set; } | Çalışma kitabı veri hücresini alır veya ayarlar. IDataLabelFormat.ShowLabelValueFromCell özelliği true olduğunda uygulanır. |
 
 ## Yöntemler
@@ -32,7 +33,7 @@ public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
 | [GetActualLabelText](../../aspose.slides.charts/idatalabel/getactuallabeltext)() | DataLabelFormat ayarlarına veya TextFrameForOverriding.Text değerine göre gerçek etiket metnini döndürür. |
 | [Hide](../../aspose.slides.charts/idatalabel/hide)() | Tüm Show*-bayraklarını (ShowValue, ...) false durumuna ayarlayarak veri etiketini gizler. Bu işlemden sonra IsVisible false olacaktır. |
 
-### Ayrıca
+### Ayrıca Bakınız
 
 * arayüz [IActualLayout](../iactuallayout)
 * arayüz [ILayoutable](../ilayoutable)

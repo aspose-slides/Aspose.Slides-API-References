@@ -3,7 +3,7 @@ title: SystemColor
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa colores del sistema predefinidos.
 type: docs
-weight: 10810
+weight: 10830
 url: /es/aspose.slides/systemcolor/
 ---
 ## enumeración SystemColor
@@ -18,7 +18,7 @@ public enum SystemColor
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| NotDefined | `-1` | El color del sistema no está definido. |
+| NotDefined | `-1` | System color is not defined. |
 | ScrollBar | `0` |  |
 | Background | `1` |  |
 | ActiveCaption | `2` |  |

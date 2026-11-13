@@ -1,14 +1,14 @@
 ---
 title: TransitionShredPattern
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Xác định một hình học được sắp xếp để lấp đầy một khu vực lớn hơn.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Xác định một hình dạng hình học ghép lại với nhau để lấp đầy một khu vực lớn hơn.
 type: docs
-weight: 10410
+weight: 10430
 url: /vi/aspose.slides.slideshow/transitionshredpattern/
 ---
 ## TransitionShredPattern liệt kê
 
-Xác định một hình học được sắp xếp lại để lấp đầy một khu vực lớn hơn.
+Xác định một hình dạng hình học mà ghép lại với nhau để lấp đầy một khu vực lớn hơn.
 
 ```csharp
 public enum TransitionShredPattern
@@ -21,7 +21,7 @@ public enum TransitionShredPattern
 | Strip | `0` | Dải dọc |
 | Rectangle | `1` | Hình chữ nhật nhỏ |
 
-### Xem thêm
+### Xem Thêm
 
 * không gian tên [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * tập hợp [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: Merger
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक ही प्रारूप की कई PowerPoint प्रस्तुतियों को एक फ़ाइल में मिलाने के लिए विधियों के समूह को दर्शाता है।
+second_title: Aspose.Sildes .NET के लिए API रेफ़रेंस
+description: एक ही फ़ॉर्मेट में PowerPoint प्रस्तुतियों को एक फ़ाइल में मर्ज करने के लिए विधियों के समूह का प्रतिनिधित्व करता है।
 type: docs
-weight: 7970
+weight: 7990
 url: /hi/aspose.slides.lowcode/merger/
 ---
 ## Merger क्लास
 
-एक ही प्रारूप की कई PowerPoint प्रस्तुतियों को एक फ़ाइल में मिलाने के लिए विधियों का एक समूह दर्शाता है।
+PowerPoint प्रस्तुतियों को समान फ़ॉर्मेट में एक फ़ाइल में मर्ज करने के लिए विधियों के एक समूह का प्रतिनिधित्व करता है।
 
 ```csharp
 public static class Merger
@@ -18,10 +18,10 @@ public static class Merger
 
 | नाम | विवरण |
 | --- | --- |
-| static [Process](../../aspose.slides.lowcode/merger/process#process)(string[], Stream) | एक ही प्रारूप की कई PowerPoint प्रस्तुतियों को एकल प्रस्तुति फ़ाइल में मिलाता है। |
-| static [Process](../../aspose.slides.lowcode/merger/process#process_2)(string[], string) | एक ही प्रारूप की कई PowerPoint प्रस्तुतियों को एकल प्रस्तुति फ़ाइल में मिलाता है। |
-| static [Process](../../aspose.slides.lowcode/merger/process#process_1)(string[], Stream, ISaveOptions) | एक ही प्रारूप की कई PowerPoint प्रस्तुतियों को एकल प्रस्तुति फ़ाइल में मिलाता है। |
-| static [Process](../../aspose.slides.lowcode/merger/process#process_3)(string[], string, ISaveOptions) | एक ही प्रारूप की कई PowerPoint प्रस्तुतियों को एकल प्रस्तुति फ़ाइल में मिलाता है। |
+| static [Process](../../aspose.slides.lowcode/merger/process#process)(string[], Stream) | एक ही फ़ॉर्मेट की कई PowerPoint प्रस्तुतियों को एकल प्रस्तुति फ़ाइल में मर्ज करता है। |
+| static [Process](../../aspose.slides.lowcode/merger/process#process_2)(string[], string) | एक ही फ़ॉर्मेट की कई PowerPoint प्रस्तुतियों को एकल प्रस्तुति फ़ाइल में मर्ज करता है। |
+| static [Process](../../aspose.slides.lowcode/merger/process#process_1)(string[], Stream, ISaveOptions) | एक ही फ़ॉर्मेट की कई PowerPoint प्रस्तुतियों को एकल प्रस्तुति फ़ाइल में मर्ज करता है। |
+| static [Process](../../aspose.slides.lowcode/merger/process#process_3)(string[], string, ISaveOptions) | एक ही फ़ॉर्मेट की कई PowerPoint प्रस्तुतियों को एकल प्रस्तुति फ़ाइल में मर्ज करता है। |
 
 ### संबंधित देखें
 

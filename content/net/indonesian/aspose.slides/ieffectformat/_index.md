@@ -3,12 +3,12 @@ title: IEffectFormat
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili properti efek dari bentuk.
 type: docs
-weight: 5740
+weight: 5760
 url: /id/aspose.slides/ieffectformat/
 ---
-## Antarmuka IEffectFormat
+## antarmuka IEffectFormat
 
-Mewakili properti efek bentuk.
+Mewakili properti efek dari bentuk.
 
 ```csharp
 public interface IEffectFormat : IEffectParamSource
@@ -18,16 +18,16 @@ public interface IEffectFormat : IEffectParamSource
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIEffectParamSource](../../aspose.slides/ieffectformat/asieffectparamsource) { get; } | Mengizinkan mendapatkan antarmuka IEffectParamSource dasar. Hanya baca [`IEffectParamSource`](../ieffectparamsource). |
+| [AsIEffectParamSource](../../aspose.slides/ieffectformat/asieffectparamsource) { get; } | Mengizinkan untuk mendapatkan antarmuka IEffectParamSource dasar. Hanya baca [`IEffectParamSource`](../ieffectparamsource). |
 | [BlurEffect](../../aspose.slides/ieffectformat/blureffect) { get; set; } | Efek blur. Baca/tulis [`IBlur`](../../aspose.slides.effects/iblur). |
 | [FillOverlayEffect](../../aspose.slides/ieffectformat/filloverlayeffect) { get; set; } | Efek overlay isi. Baca/tulis [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |
-| [GlowEffect](../../aspose.slides/ieffectformat/gloweffect) { get; set; } | Efek glow. Baca/tulis [`IGlow`](../../aspose.slides.effects/iglow). |
+| [GlowEffect](../../aspose.slides/ieffectformat/gloweffect) { get; set; } | Efek cahaya. Baca/tulis [`IGlow`](../../aspose.slides.effects/iglow). |
 | [InnerShadowEffect](../../aspose.slides/ieffectformat/innershadoweffect) { get; set; } | Bayangan dalam. Baca/tulis [`IInnerShadow`](../../aspose.slides.effects/iinnershadow). |
 | [IsNoEffects](../../aspose.slides/ieffectformat/isnoeffects) { get; } | Mengembalikan true jika semua efek dinonaktifkan (seperti baru dibuat, objek EffectFormat default). Hanya baca Boolean. |
 | [OuterShadowEffect](../../aspose.slides/ieffectformat/outershadoweffect) { get; set; } | Bayangan luar. Baca/tulis [`IOuterShadow`](../../aspose.slides.effects/ioutershadow). |
 | [PresetShadowEffect](../../aspose.slides/ieffectformat/presetshadoweffect) { get; set; } | Bayangan preset. Baca/tulis [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow). |
 | [ReflectionEffect](../../aspose.slides/ieffectformat/reflectioneffect) { get; set; } | Refleksi. Baca/tulis [`IReflection`](../../aspose.slides.effects/ireflection). |
-| [SoftEdgeEffect](../../aspose.slides/ieffectformat/softedgeeffect) { get; set; } | Tepi lembut. Baca/tulis [`ISoftEdge`](../../aspose.slides.effects/isoftedge). |
+| [SoftEdgeEffect](../../aspose.slides/ieffectformat/softedgeeffect) { get; set; } | Pinggiran lunak. Baca/tulis [`ISoftEdge`](../../aspose.slides.effects/isoftedge). |
 
 ## Metode
 
@@ -35,19 +35,19 @@ public interface IEffectFormat : IEffectParamSource
 | --- | --- |
 | [DisableBlurEffect](../../aspose.slides/ieffectformat/disableblureffect)() | Menonaktifkan efek blur. |
 | [DisableFillOverlayEffect](../../aspose.slides/ieffectformat/disablefilloverlayeffect)() | Menonaktifkan efek overlay isi. |
-| [DisableGlowEffect](../../aspose.slides/ieffectformat/disablegloweffect)() | Menonaktifkan efek glow. |
+| [DisableGlowEffect](../../aspose.slides/ieffectformat/disablegloweffect)() | Menonaktifkan efek cahaya. |
 | [DisableInnerShadowEffect](../../aspose.slides/ieffectformat/disableinnershadoweffect)() | Menonaktifkan efek bayangan dalam. |
 | [DisableOuterShadowEffect](../../aspose.slides/ieffectformat/disableoutershadoweffect)() | Menonaktifkan efek bayangan luar. |
 | [DisablePresetShadowEffect](../../aspose.slides/ieffectformat/disablepresetshadoweffect)() | Menonaktifkan efek bayangan preset. |
 | [DisableReflectionEffect](../../aspose.slides/ieffectformat/disablereflectioneffect)() | Menonaktifkan efek refleksi. |
-| [DisableSoftEdgeEffect](../../aspose.slides/ieffectformat/disablesoftedgeeffect)() | Menonaktifkan efek tepi lembut. |
+| [DisableSoftEdgeEffect](../../aspose.slides/ieffectformat/disablesoftedgeeffect)() | Menonaktifkan efek pinggiran lunak. |
 | [EnableFillOverlayEffect](../../aspose.slides/ieffectformat/enablefilloverlayeffect)() | Mengaktifkan efek overlay isi. |
-| [EnableGlowEffect](../../aspose.slides/ieffectformat/enablegloweffect)() | Mengaktifkan efek glow. |
+| [EnableGlowEffect](../../aspose.slides/ieffectformat/enablegloweffect)() | Mengaktifkan efek cahaya. |
 | [EnableInnerShadowEffect](../../aspose.slides/ieffectformat/enableinnershadoweffect)() | Mengaktifkan efek bayangan dalam. |
 | [EnableOuterShadowEffect](../../aspose.slides/ieffectformat/enableoutershadoweffect)() | Mengaktifkan efek bayangan luar. |
 | [EnablePresetShadowEffect](../../aspose.slides/ieffectformat/enablepresetshadoweffect)() | Mengaktifkan efek bayangan preset. |
 | [EnableReflectionEffect](../../aspose.slides/ieffectformat/enablereflectioneffect)() | Mengaktifkan efek refleksi. |
-| [EnableSoftEdgeEffect](../../aspose.slides/ieffectformat/enablesoftedgeeffect)() | Mengaktifkan efek tepi lembut. |
+| [EnableSoftEdgeEffect](../../aspose.slides/ieffectformat/enablesoftedgeeffect)() | Mengaktifkan efek pinggiran lunak. |
 | [GetEffective](../../aspose.slides/ieffectformat/geteffective)() | Mendapatkan data format efek efektif dengan pewarisan yang diterapkan. |
 | [SetBlurEffect](../../aspose.slides/ieffectformat/setblureffect)(double, bool) | Mengatur efek blur. |
 
@@ -55,6 +55,6 @@ public interface IEffectFormat : IEffectParamSource
 
 * antarmuka [IEffectParamSource](../ieffectparamsource)
 * ruang nama [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* perakitan [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

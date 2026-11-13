@@ -1,9 +1,9 @@
 ---
 title: GetFontEmbeddingLevel
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET API Reference
 description: Określa poziom osadzania czcionki na podstawie podanej tablicy bajtów i nazwy czcionki.
 type: docs
-weight: 60
+weight: 70
 url: /pl/aspose.slides/fontsmanager/getfontembeddinglevel/
 ---
 ## FontsManager.GetFontEmbeddingLevel metoda
@@ -27,7 +27,7 @@ Poziom osadzania określonej czcionki.
 
 | wyjątek | warunek |
 | --- | --- |
-| ArgumentNullException | Rzucany, gdy *fontBytes* jest nullem. |
+| ArgumentNullException | Rzucany, gdy *fontBytes* jest null. |
 
 ### Przykłady
 
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation(pptxFileName))
     // Pobierz wszystkie czcionki użyte w prezentacji
     IFontData[] fontDatas = pres.FontsManager.GetFonts();
 
-    // Pobierz tablicę bajtów reprezentującą styl regularny pierwszej czcionki w prezentacji
+    // Pobierz tablicę bajtów reprezentującą zwykły styl pierwszej czcionki w prezentacji
     byte[] bytes = pres.FontsManager.GetFontBytes(fontDatas[0], FontStyle.Regular);
 
     // Określ poziom osadzania czcionki

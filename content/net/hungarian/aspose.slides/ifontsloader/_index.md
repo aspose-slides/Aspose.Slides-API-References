@@ -1,14 +1,14 @@
 ---
 title: IFontsLoader
-second_title: Aspose.Sildes .NET API-referencia
-description: Osztály a felhasználó által definiált egyéni betűkészletek betöltéséhez. A prezentációs objektumok létrehozása előtt kell használni.
+second_title: Aspose.Sildes a .NET API hivatkozáshoz
+description: Osztály az egyéni, felhasználó által meghatározott betűtípusok betöltéséhez. A prezentációobjektumok létrehozása előtt kell használni.
 type: docs
-weight: 5920
+weight: 5940
 url: /hu/aspose.slides/ifontsloader/
 ---
 ## IFontsLoader interfész
 
-Osztály a felhasználó által meghatározott egyéni betűkészletek betöltéséhez. A prezentációs objektumok létrehozása előtt kell használni.
+Osztály a felhasználó által meghatározott egyéni betűtípusok betöltéséhez. A prezentációobjektumok létrehozása előtt kell használni.
 
 ```csharp
 public interface IFontsLoader

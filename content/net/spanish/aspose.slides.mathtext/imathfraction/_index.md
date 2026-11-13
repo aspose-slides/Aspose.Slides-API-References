@@ -1,14 +1,14 @@
 ---
 title: IMathFraction
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Especifica el objeto fracción que consiste en un numerador y un denominador separados por una barra de fracción. La barra de fracción puede ser horizontal o diagonal según las propiedades de la fracción. El objeto fracción también se utiliza para representar la función de apilamiento, que coloca un elemento sobre otro sin barra de fracción.
+description: Especifica el objeto fracción compuesto por un numerador y un denominador separados por una barra de fracción. La barra de fracción puede ser horizontal o diagonal según las propiedades de la fracción. El objeto fracción también se usa para representar la función de apilamiento que coloca un elemento sobre otro sin barra de fracción.
 type: docs
-weight: 8250
+weight: 8270
 url: /es/aspose.slides.mathtext/imathfraction/
 ---
 ## IMathFraction interfaz
 
-Especifica el objeto fracción, compuesto por un numerador y un denominador separados por una barra de fracción. La barra de fracción puede ser horizontal o diagonal, según las propiedades de la fracción. El objeto fracción también se utiliza para representar la función de apilamiento, que coloca un elemento sobre otro, sin barra de fracción.
+Especifica el objeto fracción, compuesto por un numerador y un denominador separados por una barra de fracción. La barra de fracción puede ser horizontal o diagonal, según las propiedades de la fracción. El objeto fracción también se usa para representar la función de apilamiento, que coloca un elemento sobre otro, sin barra de fracción.
 
 ```csharp
 public interface IMathFraction : IMathElement
@@ -16,7 +16,7 @@ public interface IMathFraction : IMathElement
 
 ## Propiedades
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathfraction/asimathelement) { get; } | Permite obtener la interfaz base IMathElement [`IMathElement`](../imathelement) |
 | [Denominator](../../aspose.slides.mathtext/imathfraction/denominator) { get; } | Denominador |

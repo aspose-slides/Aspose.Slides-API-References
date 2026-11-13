@@ -1,9 +1,9 @@
 ---
 title: SchemeColor
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 색 구성표의 색상을 나타냅니다.
 type: docs
-weight: 9740
+weight: 9760
 url: /ko/aspose.slides/schemecolor/
 ---
 ## SchemeColor 열거형

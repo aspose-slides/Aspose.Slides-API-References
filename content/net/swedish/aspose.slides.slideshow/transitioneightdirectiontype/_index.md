@@ -1,14 +1,14 @@
 ---
 title: TransitionEightDirectionType
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar åtta riktningsövergångstyper.
+description: Representerar åtta riktningstransitionstyper.
 type: docs
-weight: 10360
+weight: 10380
 url: /sv/aspose.slides.slideshow/transitioneightdirectiontype/
 ---
-## TransitionEightDirectionType enumeration
+## TransitionEightDirectionType enum
 
-Representerar åtta riktningsövergångstyper.
+Representerar åtta riktningstransitionstyper.
 
 ```csharp
 public enum TransitionEightDirectionType

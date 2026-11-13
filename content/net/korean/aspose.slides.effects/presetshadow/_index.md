@@ -1,14 +1,14 @@
 ---
 title: PresetShadow
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 프리셋 섀도우 효과를 나타냅니다.
+description: 프리셋 그림자 효과를 나타냅니다.
 type: docs
-weight: 3630
+weight: 3650
 url: /ko/aspose.slides.effects/presetshadow/
 ---
 ## PresetShadow 클래스
 
-프리셋 섀도우 효과를 나타냅니다.
+Preset Shadow 효과를 나타냅니다.
 
 ```csharp
 public sealed class PresetShadow : IPresetShadow
@@ -16,7 +16,7 @@ public sealed class PresetShadow : IPresetShadow
 
 ## 속성
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [Direction](../../aspose.slides.effects/presetshadow/direction) { get; set; } | 그림자 방향. 읽기/쓰기 Single. |
 | [Distance](../../aspose.slides.effects/presetshadow/distance) { get; set; } | 그림자 거리. 읽기/쓰기 Double. |
@@ -25,11 +25,11 @@ public sealed class PresetShadow : IPresetShadow
 
 ## 메서드
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/presetshadow/equals)(object) | 지정된 [`PresetShadow`](../presetshadow)가 현재 [`PresetShadow`](../presetshadow)와 같은지 여부를 결정합니다. |
-| [GetEffective](../../aspose.slides.effects/presetshadow/geteffective)() | 상속이 적용된 유효한 Preset Shadow 효과 데이터를 가져옵니다. |
-| override [GetHashCode](../../aspose.slides.effects/presetshadow/gethashcode)() | 특정 형식에 대한 해시 함수로 사용됩니다. |
+| [GetEffective](../../aspose.slides.effects/presetshadow/geteffective)() | 상속이 적용된 효과적인 Preset Shadow 효과 데이터를 가져옵니다. |
+| override [GetHashCode](../../aspose.slides.effects/presetshadow/gethashcode)() | 특정 형식에 대한 해시 함수를 제공합니다. |
 
 ### 참고
 

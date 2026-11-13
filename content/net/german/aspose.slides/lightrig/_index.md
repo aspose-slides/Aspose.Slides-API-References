@@ -3,7 +3,7 @@ title: LightRig
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt LightRig dar.
 type: docs
-weight: 7690
+weight: 7710
 url: /de/aspose.slides/lightrig/
 ---
 ## LightRig Klasse
@@ -18,18 +18,18 @@ public sealed class LightRig : PVIObject, ILightRig
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht das Abrufen der Basis-IPresentationComponent-Schnittstelle. Nur lesbar [`IPresentationComponent`](../ipresentationcomponent). |
-| [Direction](../../aspose.slides/lightrig/direction) { get; set; } | Lichtrichtung. Lesen/Schreiben [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/lightrig/lighttype) { get; set; } | Stellt ein vordefiniertes Licht rechts dar, das auf eine Form angewendet werden kann. Das LightRig stellt eine Gruppe von Lichtern dar, die in einer bestimmten Weise relativ zu einer 3D-Szene ausgerichtet sind. Lesen/Schreiben [`LightRigPresetType`](../lightrigpresettype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht das Abrufen der Basis IPresentationComponent-Schnittstelle. Nur lesbar [`IPresentationComponent`](../ipresentationcomponent). |
+| [Direction](../../aspose.slides/lightrig/direction) { get; set; } | Lichtrichtung. Lese/Schreib [`LightingDirection`](../lightingdirection). |
+| [LightType](../../aspose.slides/lightrig/lighttype) { get; set; } | Stellt ein vordefiniertes Licht-Recht dar, das auf eine Form angewendet werden kann. Das LightRig stellt eine Gruppe von Lichtern dar, die in einer bestimmten Weise relativ zu einer 3D-Szene ausgerichtet sind. Lese/Schreib [`LightRigPresetType`](../lightrigpresettype). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Vergleicht mit dem angegebenen Objekt. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Gibt den Hash-Code zurück. |
-| [GetRotation](../../aspose.slides/lightrig/getrotation)() | Eine Drehung wird über die Verwendung einer Breitengrad-Koordinate, einer Längengrad-Koordinate und einer Umdrehung um die Achse definiert, wobei die Breitengrad- und Längengrad-Koordinaten verwendet werden. Erstes Element im Rückgabe-Array – Breitengrad, zweites – Längengrad, drittes – Umdrehung. Gibt null zurück, wenn keine Drehung definiert ist. |
-| [SetRotation](../../aspose.slides/lightrig/setrotation)(float, float, float) | Eine Drehung wird über die Verwendung einer Breitengrad-Koordinate, einer Längengrad-Koordinate und einer Umdrehung um die Achse definiert, wobei die Breitengrad- und Längengrad-Koordinaten verwendet werden. Wenn einer der Koordinatenwerte float.NaN ist, ist die gesamte Drehung undefiniert. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Gibt den Hashcode zurück. |
+| [GetRotation](../../aspose.slides/lightrig/getrotation)() | Eine Drehung wird durch die Verwendung eines Breitengrad-Koordinatenwertes, eines Längengrad-Koordinatenwertes und einer Umdrehung um die Achse definiert, wobei Breitengrad und Längengrad als Koordinaten verwendet werden. Erstes Element im Rückgabe-Array – Breitengrad, zweites – Längengrad, drittes – Umdrehung. Gibt null zurück, wenn keine Drehung definiert ist. |
+| [SetRotation](../../aspose.slides/lightrig/setrotation)(float, float, float) | Eine Drehung wird durch die Verwendung eines Breitengrad-Koordinatenwertes, eines Längengrad-Koordinatenwertes und einer Umdrehung um die Achse definiert, wobei Breitengrad und Längengrad als Koordinaten verwendet werden. Wenn irgendein Koordinatenwert float.NaN ist, ist die gesamte Drehung undefiniert. |
 
 ### Siehe auch
 

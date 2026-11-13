@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlideHeaderFooterManager
-second_title: Aspose.Sildes для .NET справочник API
-description: Представляет менеджер, который управляет поведением заполнителей мастер-раздаточного слайда, включая заполнитель заголовка.
+second_title: Aspose.Sildes для .NET справочника API
+description: Представляет менеджер, который управляет поведением заполняющих элементы мастер-слайда раздаточного материала, включая заполнитель заголовка.
 type: docs
-weight: 6360
+weight: 6380
 url: /ru/aspose.slides/imasterhandoutslideheaderfootermanager/
 ---
 ## IMasterHandoutSlideHeaderFooterManager интерфейс
 
-Представляет менеджер, который управляет поведением заполнителей мастер-страницы раздаточного слайда, включая заполнитель заголовка.
+Represents manager which holds behavior of the master handout slide placeholders, including header placeholder.
 
 ```csharp
 public interface IMasterHandoutSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -18,7 +18,7 @@ public interface IMasterHandoutSlideHeaderFooterManager : IBaseHandoutNotesSlide
 
 | Имя | Описание |
 | --- | --- |
-| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasterhandoutslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Возвращает интерфейс IBaseHandoutNotesSlideHeaderFooterManag. |
+| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasterhandoutslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Возвращает IBaseHandoutNotesSlideHeaderFooterManag interface. |
 
 ### См. также
 

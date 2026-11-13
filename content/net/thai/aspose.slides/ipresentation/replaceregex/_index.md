@@ -1,14 +1,14 @@
 ---
 title: ReplaceRegex
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
-description: แทนที่การจับคู่ทั้งหมดของนิพจน์ปกติด้วยสตริงที่ระบุ
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แทนที่ข้อความที่ตรงกับ regular expression ทั้งหมดด้วยสตริงที่ระบุ
 type: docs
-weight: 360
+weight: 370
 url: /th/aspose.slides/ipresentation/replaceregex/
 ---
 ## IPresentation.ReplaceRegex เมธอด
 
-แทนที่การจับคู่ทั้งหมดของนิพจน์ปกติด้วยข้อความที่ระบุ
+แทนที่ข้อความที่ตรงกับ regular expression ทั้งหมดด้วยสตริงที่ระบุ
 
 ```csharp
 public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callback)
@@ -16,13 +16,13 @@ public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callba
 
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
 | --- | --- | --- |
-| regex | Regex | นิพจน์ปกติ Regex เพื่อรับสตริงที่ต้องการแทนที่ |
-| newText | String | สตริงที่จะใช้แทนที่การปรากฏทั้งหมดของสตริงที่ต้องการแทนที่ |
-| callback | IFindResultCallback | อ็อบเจ็กต์คอลแบ็กสำหรับรับผลการค้นหา [`IFindResultCallback`](../../ifindresultcallback) |
+| regex | Regex | regular expression Regex เพื่อรับสตริงที่ต้องการแทนที่ |
+| newText | String | สตริงที่ใช้แทนที่ทุกกรณีของสตริงที่ต้องการแทนที่ |
+| callback | IFindResultCallback | อ็อบเจกต์ callback สำหรับรับผลการค้นหา [`IFindResultCallback`](../../ifindresultcallback) |
 
 ### ตัวอย่าง
 
-ตัวอย่างโค้ดต่อไปนี้แสดงวิธีการแทนที่ข้อความด้วยนิพจน์ปกติโดยใช้ข้อความที่ระบุ
+ตัวอย่างโค้ดต่อไปนี้แสดงวิธีการแทนที่ข้อความโดยใช้ regular expression ด้วยสตริงที่ระบุ
 
 ```csharp
 [C#]

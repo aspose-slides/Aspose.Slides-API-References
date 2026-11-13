@@ -1,14 +1,14 @@
 ---
 title: INotesSlide
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 프레젠테이션에서 노트 슬라이드를 나타냅니다.
+description: 프레젠테이션의 노트 슬라이드를 나타냅니다.
 type: docs
-weight: 6500
+weight: 6520
 url: /ko/aspose.slides/inotesslide/
 ---
 ## INotesSlide 인터페이스
 
-프레젠테이션에서 노트 슬라이드를 나타냅니다.
+프레젠테이션의 노트 슬라이드를 나타냅니다.
 
 ```csharp
 public interface INotesSlide : IBaseSlide, IOverrideThemeable
@@ -24,7 +24,7 @@ public interface INotesSlide : IBaseSlide, IOverrideThemeable
 | [NotesTextFrame](../../aspose.slides/inotesslide/notestextframe) { get; } | 노트 텍스트가 있으면 TextFrame을 반환합니다. 읽기 전용 [`ITextFrame`](../itextframe). |
 | [ParentSlide](../../aspose.slides/inotesslide/parentslide) { get; } | ParentSlide를 반환합니다. 읽기 전용 [`ISlide`](../islide). |
 
-### 참조
+### 참고
 
 * 인터페이스 [IBaseSlide](../ibaseslide)
 * 인터페이스 [IOverrideThemeable](../../aspose.slides.theme/ioverridethemeable)

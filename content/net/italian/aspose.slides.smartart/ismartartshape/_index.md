@@ -1,9 +1,9 @@
 ---
 title: ISmartArtShape
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Aspose.Sildes per .NET API Reference
 description: Rappresenta una forma all'interno del diagramma SmartArt
 type: docs
-weight: 10570
+weight: 10590
 url: /it/aspose.slides.smartart/ismartartshape/
 ---
 ## ISmartArtShape interfaccia
@@ -18,8 +18,8 @@ public interface ISmartArtShape : IGeometryShape
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides.smartart/ismartartshape/asigeometryshape) { get; } | Consente di ottenere l'interfaccia base IGeometryShape. Solo lettura [`IGeometryShape`](../../aspose.slides/igeometryshape). |
-| [TextFrame](../../aspose.slides.smartart/ismartartshape/textframe) { get; } | Restituisce il testo della forma SmartArt. Solo lettura [`ITextFrame`](../../aspose.slides/itextframe). |
+| [AsIGeometryShape](../../aspose.slides.smartart/ismartartshape/asigeometryshape) { get; } | Consente di ottenere l'interfaccia IGeometryShape di base. Sola lettura [`IGeometryShape`](../../aspose.slides/igeometryshape). |
+| [TextFrame](../../aspose.slides.smartart/ismartartshape/textframe) { get; } | Restituisce il testo della forma SmartArt. Sola lettura [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ### Vedi anche
 

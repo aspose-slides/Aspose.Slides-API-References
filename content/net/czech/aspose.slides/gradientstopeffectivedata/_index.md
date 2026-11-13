@@ -1,14 +1,14 @@
 ---
 title: GradientStopEffectiveData
 second_title: Aspose.Sildes pro .NET API Reference
-description: Neměnný objekt, který představuje zastavení gradientu.
+description: Neměnný objekt, který představuje gradientové zastavení.
 type: docs
-weight: 5050
+weight: 5070
 url: /cs/aspose.slides/gradientstopeffectivedata/
 ---
 ## GradientStopEffectiveData třída
 
-Neměnný objekt, který představuje zastavení gradientu.
+Immutable object which represents a gradient stop.
 
 ```csharp
 public class GradientStopEffectiveData : IGradientStopEffectiveData
@@ -18,14 +18,14 @@ public class GradientStopEffectiveData : IGradientStopEffectiveData
 
 | Název | Popis |
 | --- | --- |
-| [Color](../../aspose.slides/gradientstopeffectivedata/color) { get; } | Vrací barvu zastavení gradientu. Pouze pro čtení Color. |
-| [Position](../../aspose.slides/gradientstopeffectivedata/position) { get; } | Vrací pozici (0..1) zastavení gradientu. Pouze pro čtení Single. |
+| [Color](../../aspose.slides/gradientstopeffectivedata/color) { get; } | Vrací barvu gradientového zastavení. Pouze ke čtení Color. |
+| [Position](../../aspose.slides/gradientstopeffectivedata/position) { get; } | Vrací pozici (0..1) gradientového zastavení. Pouze ke čtení Single. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | Určuje, zda je specifikovaný [`GradientStopEffectiveData`](../gradientstopeffectivedata) roven aktuálnímu [`GradientStopEffectiveData`](../gradientstopeffectivedata). |
+| override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | Určuje, zda je zadaný [`GradientStopEffectiveData`](../gradientstopeffectivedata) roven aktuálnímu [`GradientStopEffectiveData`](../gradientstopeffectivedata). |
 | override [GetHashCode](../../aspose.slides/gradientstopeffectivedata/gethashcode)() |  |
 
 ### Viz také

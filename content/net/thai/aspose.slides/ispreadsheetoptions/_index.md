@@ -1,14 +1,14 @@
 ---
 title: ISpreadsheetOptions
 second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงตัวเลือกที่สามารถใช้เพื่อกำหนดพฤติกรรมเพิ่มเติมของสเปรดชีต
+description: แสดงตัวเลือกที่สามารถใช้เพื่อระบุพฤติกรรมเพิ่มเติมของสเปรดชีต
 type: docs
-weight: 7120
+weight: 7140
 url: /th/aspose.slides/ispreadsheetoptions/
 ---
 ## ISpreadsheetOptions อินเทอร์เฟซ
 
-แสดงตัวเลือกที่สามารถใช้เพื่อกำหนดพฤติกรรมเพิ่มเติมของสเปรดชีต
+แสดงตัวเลือกที่สามารถใช้เพื่อระบุพฤติกรรมเพิ่มเติมของสเปรดชีต
 
 ```csharp
 public interface ISpreadsheetOptions
@@ -18,8 +18,8 @@ public interface ISpreadsheetOptions
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [PreferredCulture](../../aspose.slides/ispreadsheetoptions/preferredculture) { get; set; } | ดึงหรือกำหนดข้อมูลวัฒนธรรมที่ต้องการสำหรับการคำนวณฟังก์ชันบางอย่างที่ออกแบบมาเพื่อใช้กับภาษาที่ใช้ชุดอักขระสองไบต์ (DBCS). |
-| [RecoverWorkbookFromChartCache](../../aspose.slides/ispreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | หากแหล่งข้อมูลสำหรับ chart เป็นเวิร์กบุ๊คภายนอกและไม่สามารถใช้ได้ จะทำการกู้คืนจาก chart cache. |
+| [PreferredCulture](../../aspose.slides/ispreadsheetoptions/preferredculture) { get; set; } | รับหรือกำหนดข้อมูลวัฒนธรรมที่ต้องการสำหรับการคำนวณฟังก์ชันบางอย่างที่ออกแบบมาเพื่อใช้กับภาษาที่ใช้ชุดอักศรแบบสองไบต์ (DBCS). |
+| [RecoverWorkbookFromChartCache](../../aspose.slides/ispreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | หากแหล่งข้อมูลสำหรับแผนภูมิเป็นเวิร์กบุ๊กภายนอกและไม่พร้อมใช้งาน ระบบจะกู้คืนจากแคชของแผนภูมิ. |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: UpDownBarsManager
-second_title: Aspose.Sildes .NET API Referenciája
-description: Hozzáférést biztosít a vonal- vagy részvény-diagram fel/le sávjaihoz.
+second_title: Aspose.Sildes a .NET API hivatkozása
+description: Hozzáférést biztosít a vonal- vagy részvénydiagram fel- és lecsúcsos oszlopaihoz.
 type: docs
-weight: 2500
+weight: 2520
 url: /hu/aspose.slides.charts/updownbarsmanager/
 ---
 ## UpDownBarsManager osztály
 
-Hozzáférést biztosít a Line- vagy Stock-diagram fel/le sávjaihoz.
+Hozzáférést biztosít a vonal- vagy részvénydiagram fel- és lecsúcsos oszlopaihoz.
 
 ```csharp
 public class UpDownBarsManager : DomObject<ChartSeriesGroup>, IUpDownBarsManager
@@ -18,10 +18,10 @@ public class UpDownBarsManager : DomObject<ChartSeriesGroup>, IUpDownBarsManager
 
 | Név | Leírás |
 | --- | --- |
-| [DownBarsFormat](../../aspose.slides.charts/updownbarsmanager/downbarsformat) { get; } | Visszaadja a DownBars formátumot. Csak olvasható [`IFormat`](../iformat). |
+| [DownBarsFormat](../../aspose.slides.charts/updownbarsmanager/downbarsformat) { get; } | Visszaadja a DownBars formátumát. Csak olvasható [`IFormat`](../iformat). |
 | [GapWidth](../../aspose.slides.charts/updownbarsmanager/gapwidth) { get; set; } | GapWidth. Olvasás/írás Int32. |
 | [HasUpDownBars](../../aspose.slides.charts/updownbarsmanager/hasupdownbars) { get; set; } | HasUpDownBars. Olvasás/írás Boolean. |
-| [UpBarsFormat](../../aspose.slides.charts/updownbarsmanager/upbarsformat) { get; } | Visszaadja az UpBars formátumot. Csak olvasható [`IFormat`](../iformat). |
+| [UpBarsFormat](../../aspose.slides.charts/updownbarsmanager/upbarsformat) { get; } | Visszaadja az UpBars formátumát. Csak olvasható [`IFormat`](../iformat). |
 
 ### Lásd még
 

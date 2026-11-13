@@ -3,7 +3,7 @@ title: LegendEntryCollection
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa la colección de leyendas.
 type: docs
-weight: 2300
+weight: 2320
 url: /es/aspose.slides.charts/legendentrycollection/
 ---
 ## LegendEntryCollection clase
@@ -18,8 +18,8 @@ public class LegendEntryCollection : ILegendEntryCollection
 
 | Nombre | Descripción |
 | --- | --- |
-| [Count](../../aspose.slides.charts/legendentrycollection/count) { get; } | Obtiene el número de entradas de leyenda. Sólo lectura Int32. |
-| [Item](../../aspose.slides.charts/legendentrycollection/item) { get; } | Obtiene las propiedades de la entrada de leyenda correspondiente a Chart.ChartData.Series[0].DataPoints[index] en caso de que el tipo de gráfico sea de esta lista: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; o correspondiente a Chart.ChartData.Series[index] para otros tipos de gráficos. |
+| [Count](../../aspose.slides.charts/legendentrycollection/count) { get; } | Obtiene el número de entradas de leyenda. Solo lectura Int32. |
+| [Item](../../aspose.slides.charts/legendentrycollection/item) { get; } | Obtiene las propiedades de la entrada de leyenda correspondiente a Chart.ChartData.Series[0].DataPoints[index] en caso de que el tipo de gráfico sea de esta lista: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; o correspondiente a Chart.ChartData.Series[index] para otros tipos de gráfico. |
 
 ### Ver también
 

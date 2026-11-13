@@ -1,14 +1,14 @@
 ---
 title: IMathNaryOperator
-second_title: Aspose.Sildes の .NET API リファレンス
-description: Summation や Integral などの N-ary 数学オブジェクトを指定します。演算子、ベースまたはオペランド、およびオプションの上限と下限で構成されます。N-ary 演算子の例としては Summation、Union、Intersection、Integral があります。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: Summation と Integral などの N 項数学オブジェクトを指定します。演算子、ベース（またはオペランド）、およびオプションの上限と下限で構成されます。N 項演算子の例としては Summation、Union、Intersection、Integral があります。
 type: docs
-weight: 8360
+weight: 8380
 url: /ja/aspose.slides.mathtext/imathnaryoperator/
 ---
 ## IMathNaryOperator インターフェイス
 
-Summation や Integral などの N 元数学オブジェクトを指定します。演算子、基底（またはオペランド）、および任意の上限と下限で構成されます。N 元演算子の例としては、Summation、Union、Intersection、Integral があります。
+N項演算子（例: Summation および Integral） の数学オブジェクトを指定します。演算子、ベース（オペランド）、およびオプションの上限と下限で構成されます。N項演算子の例としては、Summation、Union、Intersection、Integral が挙げられます。
 
 ```csharp
 public interface IMathNaryOperator : IMathElement, IMathNaryOperatorProperties
@@ -16,13 +16,13 @@ public interface IMathNaryOperator : IMathElement, IMathNaryOperatorProperties
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathnaryoperator/asimathelement) { get; } | ベース IMathElement インターフェイス [`IMathElement`](../imathelement) を取得できます |
-| [AsIMathNaryOperatorProperties](../../aspose.slides.mathtext/imathnaryoperator/asimathnaryoperatorproperties) { get; } | ベース IMathNaryOperatorProperties インターフェイス [`IMathNaryOperatorProperties`](../imathnaryoperatorproperties) を取得できます |
+| [AsIMathElement](../../aspose.slides.mathtext/imathnaryoperator/asimathelement) { get; } | ベースの IMathElement インターフェイス [`IMathElement`](../imathelement) を取得できます |
+| [AsIMathNaryOperatorProperties](../../aspose.slides.mathtext/imathnaryoperator/asimathnaryoperatorproperties) { get; } | ベースの IMathNaryOperatorProperties インターフェイス [`IMathNaryOperatorProperties`](../imathnaryoperatorproperties) を取得できます |
 | [Base](../../aspose.slides.mathtext/imathnaryoperator/base) { get; } | ベース引数 |
-| [Subscript](../../aspose.slides.mathtext/imathnaryoperator/subscript) { get; } | 積分の場合などに下限を設定する下付き引数を指定します |
-| [Superscript](../../aspose.slides.mathtext/imathnaryoperator/superscript) { get; } | 積分の場合などに上限を設定する上付き引数を指定します |
+| [Subscript](../../aspose.slides.mathtext/imathnaryoperator/subscript) { get; } | 例えば積分の場合、下限を設定する添え字引数を指定します |
+| [Superscript](../../aspose.slides.mathtext/imathnaryoperator/superscript) { get; } | 例えば積分の場合、上限を設定する上付き文字引数を指定します |
 
 ### 例
 

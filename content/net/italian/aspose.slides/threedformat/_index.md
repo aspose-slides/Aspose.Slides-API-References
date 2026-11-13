@@ -1,9 +1,9 @@
 ---
 title: ThreeDFormat
-second_title: Aspose.Sildes per .NET - Riferimento API
+second_title: Riferimento API .NET di Aspose.Sildes
 description: Rappresenta le proprietà 3-D.
 type: docs
-weight: 11490
+weight: 11510
 url: /it/aspose.slides/threedformat/
 ---
 ## ThreeDFormat classe
@@ -19,8 +19,8 @@ public sealed class ThreeDFormat : PVIObject, IThreeDFormat
 | Nome | Descrizione |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia base IPresentationComponent. Solo lettura [`IPresentationComponent`](../ipresentationcomponent). |
-| [BevelBottom](../../aspose.slides/threedformat/bevelbottom) { get; } | Restituisce o imposta il tipo di una smussatura 3D inferiore. Solo lettura [`IShapeBevel`](../ishapebevel). |
-| [BevelTop](../../aspose.slides/threedformat/beveltop) { get; } | Restituisce o imposta il tipo di una smussatura 3D superiore. Solo lettura [`IShapeBevel`](../ishapebevel). |
+| [BevelBottom](../../aspose.slides/threedformat/bevelbottom) { get; } | Restituisce o imposta il tipo di smusso 3D inferiore. Solo lettura [`IShapeBevel`](../ishapebevel). |
+| [BevelTop](../../aspose.slides/threedformat/beveltop) { get; } | Restituisce o imposta il tipo di smusso 3D superiore. Solo lettura [`IShapeBevel`](../ishapebevel). |
 | [Camera](../../aspose.slides/threedformat/camera) { get; } | Restituisce o imposta le impostazioni di una fotocamera. Solo lettura [`ICamera`](../icamera). |
 | [ContourColor](../../aspose.slides/threedformat/contourcolor) { get; } | Restituisce o imposta il colore di un contorno. Solo lettura [`IColorFormat`](../icolorformat). |
 | [ContourWidth](../../aspose.slides/threedformat/contourwidth) { get; set; } | Restituisce o imposta la larghezza di un contorno 3D. Lettura/scrittura Double. |
@@ -40,7 +40,7 @@ public sealed class ThreeDFormat : PVIObject, IThreeDFormat
 
 ### Esempi
 
-Il seguente esempio mostra come aggiungere una forma 3D in una presentazione PowerPoint.
+L'esempio seguente mostra come aggiungere una forma 3D in una presentazione PowerPoint.
 
 ```csharp
 [C#]
@@ -52,7 +52,7 @@ using (Presentation pres = new Presentation())
 	// Definisci TextFrame e le sue proprietà
     shape.TextFrame.Text = "3D";
     shape.TextFrame.Paragraphs[0].ParagraphFormat.DefaultPortionFormat.FontHeight = 64;
-	// Definisci le proprietà di ThreeDFormat
+	// Definisci le proprietà ThreeDFormat
     shape.ThreeDFormat.Camera.CameraType = CameraPresetType.OrthographicFront;
     shape.ThreeDFormat.Camera.SetRotation(20, 30, 40);
     shape.ThreeDFormat.LightRig.LightType = LightRigPresetType.Flat;
@@ -66,7 +66,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-Il seguente esempio mostra come applicare l'effetto gradiente a una forma 3D in una presentazione PowerPoint.
+L'esempio seguente mostra come applicare l'effetto Gradiente a una forma 3D in una presentazione PowerPoint.
 
 ```csharp
 [C#]
@@ -82,7 +82,7 @@ using (Presentation pres = new Presentation())
 	shape.FillFormat.FillType = FillType.Gradient;
     shape.FillFormat.GradientFormat.GradientStops.Add(0, Color.Blue);
     shape.FillFormat.GradientFormat.GradientStops.Add(100, Color.Orange);
-	// Definisci le proprietà di ThreeDFormat
+	// Definisci le proprietà ThreeDFormat
     shape.ThreeDFormat.Camera.CameraType = CameraPresetType.OrthographicFront;
     shape.ThreeDFormat.Camera.SetRotation(20, 30, 40);
     shape.ThreeDFormat.LightRig.LightType = LightRigPresetType.Flat;
@@ -96,7 +96,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-Il seguente esempio mostra come applicare l'effetto 3D al testo. Per creare un testo 3D è possibile utilizzare l'effetto di trasformazione WordArt.
+L'esempio seguente mostra come applicare l'effetto 3D al testo. Per creare un testo 3D è possibile utilizzare l'effetto di trasformazione WordArt.
 
 ```csharp
 [C#]
@@ -110,7 +110,7 @@ using (Presentation pres = new Presentation())
 	// Configura FillFormat.FillType come FillType.NoFill
 	shape.FillFormat.FillType = FillType.NoFill;
     shape.LineFormat.FillFormat.FillType = FillType.NoFill;
-	// Configura la Porzione di TextFrame e le proprietà di PortionFormat
+	// Configura la porzione di TextFrame e le proprietà di PortionFormat
 	Portion portion = (Portion)shape.TextFrame.Paragraphs[0].Portions[0];
     portion.PortionFormat.FillFormat.FillType = FillType.Pattern;
     portion.PortionFormat.FillFormat.PatternFormat.ForeColor.Color = Color.DarkOrange;
@@ -120,7 +120,7 @@ using (Presentation pres = new Presentation())
     ITextFrame textFrame = shape.TextFrame;
     // imposta l'effetto di trasformazione WordArt "Arch Up"
     textFrame.TextFrameFormat.Transform = TextShapeType.ArchUp;
-	// Definisci le proprietà di ThreeDFormat di ITextFrame
+	// Definisci le proprietà ThreeDFormat di ITextFrame
 	textFrame.TextFrameFormat.ThreeDFormat.ExtrusionHeight = 3.5f;
     textFrame.TextFrameFormat.ThreeDFormat.Depth = 3;
     textFrame.TextFrameFormat.ThreeDFormat.Material = MaterialPresetType.Plastic;

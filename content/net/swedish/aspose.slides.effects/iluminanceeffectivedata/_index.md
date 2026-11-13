@@ -1,14 +1,14 @@
 ---
 title: ILuminanceEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en luminans-effekt. Brightness flyttar linjärt alla färger närmare vitt eller svart. Contrast skalar alla färger så att de blir antingen närmare eller längre ifrån varandra.
+description: Representerar en luminanseffekt. Ljusstyrka förskjuter linjärt alla färger närmare vitt eller svart. Kontrast skalar alla färger så att de blir antingen närmare eller längre ifrån varandra.
 type: docs
-weight: 3450
+weight: 3470
 url: /sv/aspose.slides.effects/iluminanceeffectivedata/
 ---
 ## ILuminanceEffectiveData gränssnitt
 
-Representerar en luminans-effekt. Brightness flyttar linjärt alla färger närmare vitt eller svart. Contrast skalar alla färger så att de blir antingen närmare eller längre ifrån varandra.
+Representerar en luminans-effekt. Ljusstyrka förskjuter linjärt alla färger närmare vitt eller svart. Kontrast skalar alla färger så att de blir närmare eller längre ifrån varandra.
 
 ```csharp
 public interface ILuminanceEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface ILuminanceEffectiveData : IEffectEffectiveData
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iluminanceeffectivedata/asieffecteffectivedata) { get; } | Tillåter att hämta bas IEffectEffectiveData gränssnitt. Skrivskyddad [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Brightness](../../aspose.slides.effects/iluminanceeffectivedata/brightness) { get; } | Brightness. Skrivskyddad Single. |
-| [Contrast](../../aspose.slides.effects/iluminanceeffectivedata/contrast) { get; } | Contrast. Skrivskyddad Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iluminanceeffectivedata/asieffecteffectivedata) { get; } | Tillåter att hämta bas-IEffectEffectiveData gränssnitt. Skrivskyddad [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Brightness](../../aspose.slides.effects/iluminanceeffectivedata/brightness) { get; } | Ljusstyrka. Skrivskyddad Single. |
+| [Contrast](../../aspose.slides.effects/iluminanceeffectivedata/contrast) { get; } | Kontrast. Skrivskyddad Single. |
 
 ### Se också
 

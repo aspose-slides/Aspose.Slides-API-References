@@ -1,20 +1,20 @@
 ---
 title: IResourceLoadingCallback
-second_title: Aspose.Sildes a .NET API referencia
+second_title: Aspose.Sildes .NET API referencia
 description: Visszahívási interfész, amely a külső erőforrások betöltésének kezelésére szolgál.
 type: docs
-weight: 6840
+weight: 6860
 url: /hu/aspose.slides/iresourceloadingcallback/
 ---
 ## IResourceLoadingCallback interfész
 
-A visszahívási interfész a külső erőforrások betöltésének kezelésére szolgál.
+Visszahívási interfész, amely a külső erőforrások betöltésének kezelésére szolgál.
 
 ```csharp
 public interface IResourceLoadingCallback
 ```
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |

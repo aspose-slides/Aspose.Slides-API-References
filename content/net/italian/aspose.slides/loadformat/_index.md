@@ -1,12 +1,12 @@
 ---
 title: LoadFormat
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Aspose.Sildes per il riferimento API .NET
 description: Indica il formato del documento da caricare.
 type: docs
-weight: 7830
+weight: 7850
 url: /it/aspose.slides/loadformat/
 ---
-## enumerazione LoadFormat
+## Enumerazione LoadFormat
 
 Indica il formato del documento da caricare.
 
@@ -18,20 +18,20 @@ public enum LoadFormat
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Auto | `0` | Indica ad Aspose.Slides di riconoscere automaticamente il formato. |
+| Auto | `0` | Istruisce Aspose.Slides a riconoscere automaticamente il formato. |
 | Ppt | `1` | Presentazione Microsoft PowerPoint 97-2003. |
 | Pps | `2` | Presentazione Microsoft PowerPoint 97-2003 SlideShow. |
 | Pptx | `3` | Documento Microsoft Office Open XML PresentationML. |
-| Ppsx | `4` | Presentazione Microsoft Office Open XML PresentationML SlideShow. |
+| Ppsx | `4` | SlideShow Microsoft Office Open XML PresentationML. |
 | Odp | `5` | Presentazione OpenOffice ODF. |
 | Potx | `6` | Modello Microsoft Office Open XML PresentationML. |
 | Pptm | `7` | Documento Microsoft Office Open XML PresentationML con macro. |
-| Ppsm | `8` | Presentazione Microsoft Office Open XML PresentationML con macro. |
+| Ppsm | `8` | SlideShow Microsoft Office Open XML PresentationML con macro. |
 | Potm | `9` | Modello Microsoft Office Open XML PresentationML con macro. |
 | Otp | `10` | Modello di presentazione OpenOffice OTP. |
 | Ppt95 | `11` | Presentazione Microsoft PowerPoint 95. |
 | Pot | `12` | Modello di presentazione Microsoft PowerPoint 97-2003. |
-| Fodp | `13` | Presentazione ODF Flat XML. |
+| Fodp | `13` | Presentazione Flat XML ODF. |
 | Unknown | `255` | Formato file sconosciuto |
 
 ### Vedi anche

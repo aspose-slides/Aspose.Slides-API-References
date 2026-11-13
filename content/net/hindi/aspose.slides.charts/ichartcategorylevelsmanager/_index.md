@@ -3,7 +3,7 @@ title: IChartCategoryLevelsManager
 second_title: Aspose.Sildes for .NET API संदर्भ
 description: चार्ट श्रेणी स्तरों के मानों का प्रबंधित कंटेनर।
 type: docs
-weight: 1770
+weight: 1790
 url: /hi/aspose.slides.charts/ichartcategorylevelsmanager/
 ---
 ## IChartCategoryLevelsManager इंटरफ़ेस
@@ -24,7 +24,7 @@ public interface IChartCategoryLevelsManager
 
 | नाम | विवरण |
 | --- | --- |
-| [DeleteGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/deletegroupingitem)(int) | परिभाषित स्तर के लिए समूहित आइटम को हटाता है। |
+| [DeleteGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/deletegroupingitem)(int) | परिभाषित स्तर के लिए समूहित आइटम हटाता है। |
 | [SetGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/setgroupingitem)(int, object) | परिभाषित स्तर के लिए समूहित आइटम सेट करता है। |
 
 ### देखें भी

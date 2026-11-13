@@ -1,14 +1,14 @@
 ---
 title: NumberedBulletStyle
-second_title: Aspose.Sildes .NET API-referencia
-description: A számozott golyók stílusát reprezentálja.
+second_title: Aspose.Sildes .NET API referencia
+description: A számozott felsorolások stílusát jelöli.
 type: docs
-weight: 9180
+weight: 9200
 url: /hu/aspose.slides/numberedbulletstyle/
 ---
 ## NumberedBulletStyle enumeráció
 
-A számozott golyók stílusát reprezentálja.
+Represents the style of the numbered bullets.
 
 ```csharp
 public enum NumberedBulletStyle : sbyte
@@ -19,47 +19,47 @@ public enum NumberedBulletStyle : sbyte
 | Név | Érték | Leírás |
 | --- | --- | --- |
 | NotDefined | `-1` | Nincs definiálva. |
-| BulletAlphaLCPeriod | `0` | Kisbetűs alfabetikus karakterek ponttal. Példa: a., b., c., ... |
-| BulletAlphaUCPeriod | `1` | Nagybetűs alfabetikus karakterek ponttal. Példa: A., B., C., ... |
-| BulletArabicParenRight | `2` | Arab számsorok záró zárójellel. Példa: 1), 2), 3), ... |
-| BulletArabicPeriod | `3` | Arab számsorok ponttal. Példa: 1., 2., 3., ... |
-| BulletRomanLCParenBoth | `4` | Kisbetűs római számok mindkét zárójellel. Példa: (i), (ii), (iii), ... |
-| BulletRomanLCParenRight | `5` | Kisbetűs római számok záró zárójellel. Példa: i), ii), iii), ... |
-| BulletRomanLCPeriod | `6` | Kisbetűs római számok ponttal. Példa: i., ii., iii., ... |
-| BulletRomanUCPeriod | `7` | Nagybetűs római számok ponttal. Példa: I., II., III., ... |
-| BulletAlphaLCParenBoth | `8` | Kisbetűs alfabetikus karakterek mindkét zárójellel. Példa: (a), (b), (c), ... |
-| BulletAlphaLCParenRight | `9` | Kisbetűs alfabetikus karakterek záró zárójellel. Példa: a), b), c), ... |
-| BulletAlphaUCParenBoth | `10` | Nagybetűs alfabetikus karakterek mindkét zárójellel. Példa: (A), (B), (C), ... |
-| BulletAlphaUCParenRight | `11` | Nagybetűs alfabetikus karakterek záró zárójellel. Példa: A), B), C), ... |
-| BulletArabicParenBoth | `12` | Arab számsorok mindkét zárójellel. Példa: (1), (2), (3), ... |
-| BulletArabicPlain | `13` | Arab számsorok. Példa: 1, 2, 3, ... |
-| BulletRomanUCParenBoth | `14` | Nagybetűs római számok mindkét zárójellel. Példa: (I), (II), (III), ... |
-| BulletRomanUCParenRight | `15` | Nagybetűs római számok záró zárójellel. Példa: I), II), III), ... |
-| BulletSimpChinPlain | `16` | Egyszerűsített kínai pont nélkül. |
-| BulletSimpChinPeriod | `17` | Egyszerűsített kínai ponttal. |
-| BulletCircleNumDBPlain | `18` | Kettős bájt kör alakú szám a 10-ig terjedő értékekhez, 11-től arab számok. |
-| BulletCircleNumWDWhitePlain | `19` | Szöveg színű szám ugyanazzal a színű körrel körülötte (Wingdings fehér körszámok). 11-től arab számok. |
-| BulletCircleNumWDBlackPlain | `20` | Árnyék színű szám kör alakú háttérrel a normál szövegszínben (Wingdings fekete körszámok). |
-| BulletTradChinPlain | `21` | Hagyományos kínai pont nélkül. |
-| BulletTradChinPeriod | `22` | Hagyományos kínai ponttal. |
-| BulletArabicAlphaDash | `23` | Arab nyelv alfabetikus karakterek kötőjellel. |
-| BulletArabicAbjadDash | `24` | Arab abjad ábécék kötőjellel. |
-| BulletHebrewAlphaDash | `25` | Héber nyelv alfabetikus karakterek kötőjellel. |
-| BulletKanjiKoreanPlain | `26` | Japán/koreai számok pont nélkül. |
-| BulletKanjiKoreanPeriod | `27` | Japán/koreai számok ponttal. |
-| BulletArabicDBPlain | `28` | Kettős bájt arab számolási séma (írásjel nélkül). |
-| BulletArabicDBPeriod | `29` | Kettős bájt arab számolási séma kettős bájt ponttal. |
-| BulletThaiAlphaPeriod | `30` | Thai ábécé pont. |
+| BulletAlphaLCPeriod | `0` | Kisbetűs ábécé karakterek ponttal. Minta: a., b., c., ... |
+| BulletAlphaUCPeriod | `1` | Nagybetűs ábécé karakterek ponttal. Minta: A., B., C., ... |
+| BulletArabicParenRight | `2` | Arab számjegyek záró zárójellel. Minta: 1), 2), 3), ... |
+| BulletArabicPeriod | `3` | Arab számjegyek ponttal. Minta: 1., 2., 3., ... |
+| BulletRomanLCParenBoth | `4` | Kis római számok mindkét zárójellel. Minta: (i), (ii), (iii), ... |
+| BulletRomanLCParenRight | `5` | Kis római számok záró zárójellel. Minta: i), ii), iii), ... |
+| BulletRomanLCPeriod | `6` | Kis római számok ponttal. Minta: i., ii., iii., ... |
+| BulletRomanUCPeriod | `7` | Nagy római számok ponttal. Minta: I., II., III., ... |
+| BulletAlphaLCParenBoth | `8` | Kisbetűs ábécé karakterek mindkét zárójellel. Minta: (a), (b), (c), ... |
+| BulletAlphaLCParenRight | `9` | Kisbetűs ábécé karakterek záró zárójellel. Minta: a), b), c), ... |
+| BulletAlphaUCParenBoth | `10` | Nagybetűs ábécé karakterek mindkét zárójellel. Minta: (A), (B), (C), ... |
+| BulletAlphaUCParenRight | `11` | Nagybetűs ábécé karakterek záró zárójellel. Minta: A), B), C), ... |
+| BulletArabicParenBoth | `12` | Arab számjegyek mindkét zárójellel. Minta: (1), (2), (3), ... |
+| BulletArabicPlain | `13` | Arab számjegyek. Minta: 1, 2, 3, ... |
+| BulletRomanUCParenBoth | `14` | Nagy római számok mindkét zárójellel. Minta: (I), (II), (III), ... |
+| BulletRomanUCParenRight | `15` | Nagy római számok záró zárójellel. Minta: I), II), III), ... |
+| BulletSimpChinPlain | `16` | Egyszerűsített kínai írás jel nélkül. |
+| BulletSimpChinPeriod | `17` | Egyszerűsített kínai írás ponttal. |
+| BulletCircleNumDBPlain | `18` | Kétszeres bájtú kör alakú szám 10-ig, 11-től arab számjegyek. |
+| BulletCircleNumWDWhitePlain | `19` | Színben kiemelt szám ugyanazzal a színnel körrel (Wingdings fehér kör számok). 11-től arab számjegyek. |
+| BulletCircleNumWDBlackPlain | `20` | Árnyék színű szám kör háttérrel, amely normál szövegszín (Wingdings fekete kör számok). |
+| BulletTradChinPlain | `21` | Hagyományos kínai írás jel nélkül. |
+| BulletTradChinPeriod | `22` | Hagyományos kínai írás ponttal. |
+| BulletArabicAlphaDash | `23` | Arab nyelv ábécé karakterek kötőjellel. |
+| BulletArabicAbjadDash | `24` | Arab Abjad ábécék kötőjellel. |
+| BulletHebrewAlphaDash | `25` | Héber nyelv ábécé karakterek kötőjellel. |
+| BulletKanjiKoreanPlain | `26` | Japán/kórei számok pont nélkül. |
+| BulletKanjiKoreanPeriod | `27` | Japán/kórei számok ponttal. |
+| BulletArabicDBPlain | `28` | Kétszeres bájtú arab számozási séma (írásjelek nélkül). |
+| BulletArabicDBPeriod | `29` | Kétszeres bájtú arab számozási séma kétszeres bájtú ponttal. |
+| BulletThaiAlphaPeriod | `30` | Thai ábécé ponttal. |
 | BulletThaiAlphaParenRight | `31` | Thai ábécé zárójelek – jobb. |
 | BulletThaiAlphaParenBoth | `32` | Thai ábécé zárójelek – mindkettő. |
-| BulletThaiNumPeriod | `33` | Thai számok pont. |
+| BulletThaiNumPeriod | `33` | Thai számrendszer ponttal. |
 | BulletThaiNumParenRight | `34` | Thai számok zárójelek – jobb. |
 | BulletThaiNumParenBoth | `35` | Thai számok zárójelek – mindkettő. |
-| BulletHindiAlphaPeriod | `36` | Hindi ábécé pont – magánhangzók. |
-| BulletHindiNumPeriod | `37` | Hindi számok pont. |
-| BulletKanjiSimpChinDBPeriod | `38` | Kanji egyszerű kínai kettős bájt pont. |
+| BulletHindiAlphaPeriod | `36` | Hindi ábécé ponttal – magánhangzók. |
+| BulletHindiNumPeriod | `37` | Hindi számrendszer ponttal. |
+| BulletKanjiSimpChinDBPeriod | `38` | Kanji egyszerű kínai DBPeriod. |
 | BulletHindiNumParenRight | `39` | Hindi számok zárójelek – jobb. |
-| BulletHindiAlpha1Period | `40` | Hindi ábécé pont – mássalhangzók. |
+| BulletHindiAlpha1Period | `40` | Hindi ábécé ponttal – mássalhangzók. |
 
 ### Lásd még
 

@@ -1,9 +1,9 @@
 ---
 title: IImageTransformOCollectionEffectiveData
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 읽기 전용 컬렉션의 효과적인 이미지 변환 효과를 나타내는 불변 객체입니다.
 type: docs
-weight: 3380
+weight: 3400
 url: /ko/aspose.slides.effects/iimagetransformocollectioneffectivedata/
 ---
 ## IImageTransformOCollectionEffectiveData 인터페이스
@@ -24,7 +24,7 @@ public interface IImageTransformOCollectionEffectiveData : IGenericCollection<IE
 
 IImageTransformOperationCollectionEffectiveData 이름이 COM 이름 길이 제한으로 39자를 초과할 수 없어 IImageTransformOCollectionEffectiveData 로 잘렸습니다.
 
-### 참조
+### 참고
 
 * 인터페이스 [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * 인터페이스 [IEffectEffectiveData](../ieffecteffectivedata)

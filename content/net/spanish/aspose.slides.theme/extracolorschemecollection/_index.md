@@ -1,9 +1,9 @@
 ---
 title: ExtraColorSchemeCollection
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para la referencia de API de .NET
 description: Representa una colección de esquemas de color adicionales.
 type: docs
-weight: 11110
+weight: 11130
 url: /es/aspose.slides.theme/extracolorschemecollection/
 ---
 ## ExtraColorSchemeCollection clase

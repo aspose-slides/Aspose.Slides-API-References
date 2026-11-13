@@ -1,12 +1,12 @@
 ---
 title: ColorFormat
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa un color usado en una presentación.
+second_title: Referencia de la API de Aspose.Sildes para .NET
+description: Representa un color utilizado en una presentación.
 type: docs
-weight: 2520
+weight: 2540
 url: /es/aspose.slides/colorformat/
 ---
-## Clase ColorFormat
+## ColorFormat clase
 
 Representa un color usado en una presentación.
 
@@ -18,11 +18,11 @@ public sealed class ColorFormat : PVIObject, IColorFormat
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obtener la interfaz base IPresentationComponent. Solo lectura [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obtener la interfaz base IPresentationComponent. Sólo lectura [`IPresentationComponent`](../ipresentationcomponent). |
 | [B](../../aspose.slides/colorformat/b) { get; set; } | Devuelve o establece el componente azul de un color. Todas las transformaciones de color se ignoran. Lectura/escritura Byte. |
-| [Color](../../aspose.slides/colorformat/color) { get; set; } | Devuelve el color resultante (con todas las transformaciones de color aplicadas). Establece los colores RGB y elimina todas las transformaciones de color. Lectura/escritura Color. |
-| [ColorTransform](../../aspose.slides/colorformat/colortransform) { get; } | Devuelve la colección de transformaciones de color aplicadas a un color. Solo lectura [`IColorOperationCollection`](../icoloroperationcollection). |
-| [ColorType](../../aspose.slides/colorformat/colortype) { get; set; } | Devuelve o establece el método de definición de color. Lectura/escritura [`ColorType`](../colortype). |
+| [Color](../../aspose.slides/colorformat/color) { get; set; } | Devuelve el color resultante (con todas las transformaciones de color aplicadas). Establece los colores RGB y borra todas las transformaciones de color. Lectura/escritura Color. |
+| [ColorTransform](../../aspose.slides/colorformat/colortransform) { get; } | Devuelve la colección de transformaciones de color aplicadas a un color. Sólo lectura [`IColorOperationCollection`](../icoloroperationcollection). |
+| [ColorType](../../aspose.slides/colorformat/colortype) { get; set; } | Devuelve o establece el método de definición del color. Lectura/escritura [`ColorType`](../colortype). |
 | [FloatB](../../aspose.slides/colorformat/floatb) { get; set; } | Devuelve o establece el componente azul de un color. Todas las transformaciones de color se ignoran. Lectura/escritura Single. |
 | [FloatG](../../aspose.slides/colorformat/floatg) { get; set; } | Devuelve o establece el componente verde de un color. Todas las transformaciones de color se ignoran. Lectura/escritura Single. |
 | [FloatR](../../aspose.slides/colorformat/floatr) { get; set; } | Devuelve o establece el componente rojo de un color. Todas las transformaciones de color se ignoran. Lectura/escritura Single. |
@@ -39,8 +39,8 @@ public sealed class ColorFormat : PVIObject, IColorFormat
 
 | Nombre | Descripción |
 | --- | --- |
-| [CopyFrom](../../aspose.slides/colorformat/copyfrom)(IColorFormat) | Copia el formato de color desde "color". |
-| override [Equals](../../aspose.slides/colorformat/equals)(object) | Verifica la igualdad con el objeto especificado. |
+| [CopyFrom](../../aspose.slides/colorformat/copyfrom)(IColorFormat) | Copia el formato de color de "color". |
+| override [Equals](../../aspose.slides/colorformat/equals)(object) | Comprueba la igualdad con el objeto especificado. |
 | override [GetHashCode](../../aspose.slides/colorformat/gethashcode)() | Devuelve el código hash. |
 | [ToString](../../aspose.slides/colorformat/tostring#tostring_1)(ColorStringFormat) | Devuelve una cadena que representa el formato de color actual. |
 

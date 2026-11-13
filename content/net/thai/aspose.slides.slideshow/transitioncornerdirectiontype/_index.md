@@ -1,20 +1,20 @@
 ---
 title: TransitionCornerDirectionType
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แสดงประเภทการเปลี่ยนแปลงทิศทางของมุม.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงประเภทการเปลี่ยนทิศทางมุม
 type: docs
-weight: 10350
+weight: 10370
 url: /th/aspose.slides.slideshow/transitioncornerdirectiontype/
 ---
-## TransitionCornerDirectionType การกำหนดค่า
+## TransitionCornerDirectionType enumeration
 
-แสดงประเภทการเปลี่ยนแปลงทิศทางของมุม
+แสดงประเภทการเปลี่ยนทิศทางมุม
 
 ```csharp
 public enum TransitionCornerDirectionType
 ```
 
-### ค่า
+### ค่าต่างๆ
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |

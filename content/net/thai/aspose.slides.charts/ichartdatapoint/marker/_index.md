@@ -1,14 +1,14 @@
 ---
 title: Marker
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ระบุเครื่องหมายข้อมูล. อ่านอย่างเดียว IMarkeraspose.slides.charts/imarker.
+description: ระบุตัวทำเครื่องหมายข้อมูล. อ่านอย่างเดียว IMarkeraspose.slides.charts/imarker.
 type: docs
-weight: 120
+weight: 160
 url: /th/aspose.slides.charts/ichartdatapoint/marker/
 ---
 ## IChartDataPoint.Marker คุณสมบัติ
 
-ระบุเครื่องหมายข้อมูล. อ่านอย่างเดียว [`IMarker`](../../imarker).
+ระบุตัวทำเครื่องหมายข้อมูล. อ่านอย่างเดียว [`IMarker`](../../imarker).
 
 ```csharp
 public IMarker Marker { get; }

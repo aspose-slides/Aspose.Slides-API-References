@@ -1,14 +1,14 @@
 ---
 title: IFillFormatCollectionEffectiveData
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Objek tidak dapat diubah yang mewakili koleksi hanya-baca format isian yang efektif.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Objek tidak dapat diubah yang mewakili koleksi hanya-baca dari format isian yang efektif.
 type: docs
-weight: 11240
+weight: 11260
 url: /id/aspose.slides.theme/ifillformatcollectioneffectivedata/
 ---
-## IFillFormatCollectionEffectiveData antarmuka
+## IFillFormatCollectionEffectiveData interface
 
-Objek tidak dapat diubah yang mewakili koleksi hanya-baca format isian yang efektif.
+Objek tidak dapat diubah yang mewakili koleksi hanya-baca dari format isian yang efektif.
 
 ```csharp
 public interface IFillFormatCollectionEffectiveData : IGenericCollection<IFillFormatEffectiveData>
@@ -16,9 +16,9 @@ public interface IFillFormatCollectionEffectiveData : IGenericCollection<IFillFo
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ifillformatcollectioneffectivedata/item) { get; } | Mengambil elemen pada indeks yang ditentukan. Baca-saja [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
+| [Item](../../aspose.slides.theme/ifillformatcollectioneffectivedata/item) { get; } | Mendapatkan elemen pada indeks yang ditentukan. Hanya-baca [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
 
 ### Catatan
 

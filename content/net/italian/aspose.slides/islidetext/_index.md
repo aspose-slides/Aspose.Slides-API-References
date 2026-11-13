@@ -3,7 +3,7 @@ title: ISlideText
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta il testo estratto dalla diapositiva
 type: docs
-weight: 7100
+weight: 7120
 url: /it/aspose.slides/islidetext/
 ---
 ## ISlideText interfaccia
@@ -19,10 +19,10 @@ public interface ISlideText
 | Nome | Descrizione |
 | --- | --- |
 | [CommentsText](../../aspose.slides/islidetext/commentstext) { get; } | Il testo dei commenti della diapositiva |
-| [LayoutText](../../aspose.slides/islidetext/layouttext) { get; } | Il testo delle forme della pagina layout per questa diapositiva |
-| [MasterText](../../aspose.slides/islidetext/mastertext) { get; } | Il testo delle forme della pagina master per questa diapositiva |
-| [NotesText](../../aspose.slides/islidetext/notestext) { get; } | Il testo delle forme della pagina note per questa diapositiva |
-| [Text](../../aspose.slides/islidetext/text) { get; } | Il testo delle forme della diapositiva |
+| [LayoutText](../../aspose.slides/islidetext/layouttext) { get; } | Il testo sulle forme della pagina di layout per questa diapositiva |
+| [MasterText](../../aspose.slides/islidetext/mastertext) { get; } | Il testo sulle forme della pagina master per questa diapositiva |
+| [NotesText](../../aspose.slides/islidetext/notestext) { get; } | Il testo sulle forme della pagina delle note per questa diapositiva |
+| [Text](../../aspose.slides/islidetext/text) { get; } | Il testo sulle forme della diapositiva |
 
 ### Vedi anche
 

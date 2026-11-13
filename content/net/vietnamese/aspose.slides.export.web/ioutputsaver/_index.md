@@ -1,14 +1,14 @@
 ---
 title: IOutputSaver
-second_title: Aspose.Sildes cho .NET Tham khảo API
-description: Đại diện cho một dịch vụ lưu đầu ra.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Đại diện cho dịch vụ lưu đầu ra.
 type: docs
-weight: 4610
+weight: 4630
 url: /vi/aspose.slides.export.web/ioutputsaver/
 ---
 ## IOutputSaver giao diện
 
-Đại diện cho một dịch vụ lưu đầu ra.
+Đại diện cho dịch vụ lưu đầu ra.
 
 ```csharp
 public interface IOutputSaver

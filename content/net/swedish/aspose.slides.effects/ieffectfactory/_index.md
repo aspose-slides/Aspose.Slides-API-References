@@ -3,7 +3,7 @@ title: IEffectFactory
 second_title: Aspose.Sildes för .NET API-referens
 description: Tillåter att skapa instanser av effekter
 type: docs
-weight: 3290
+weight: 3310
 url: /sv/aspose.slides.effects/ieffectfactory/
 ---
 ## IEffectFactory gränssnitt
@@ -16,13 +16,13 @@ public interface IEffectFactory
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
 | [ImageTransformOperationFactory](../../aspose.slides.effects/ieffectfactory/imagetransformoperationfactory) { get; } | Returnerar ImageTransformOperationFactory. Skrivskyddad [`IImageTransformOperationFactory`](../iimagetransformoperationfactory). |
 
 ## Metoder
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
 | [CreateGlow](../../aspose.slides.effects/ieffectfactory/createglow)() | Skapar Glow-effekt. |
 | [CreateInnerShadow](../../aspose.slides.effects/ieffectfactory/createinnershadow)() | Skapar Inner shafow-effekt. |
@@ -35,7 +35,7 @@ public interface IEffectFactory
 
 För COM-kompatibilitet.
 
-### Se också
+### Se även
 
 * namnrymd [Aspose.Slides.Effects](../../aspose.slides.effects)
 * samling [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IBackgroundEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติพื้นหลังที่มีผล.
+second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
+description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติพื้นหลังที่มีผล
 type: docs
-weight: 5280
+weight: 5300
 url: /th/aspose.slides/ibackgroundeffectivedata/
 ---
 ## IBackgroundEffectiveData อินเทอร์เฟซ
 
-ออบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติพื้นหลังที่มีผล
+อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติพื้นหลังที่มีผล
 
 ```csharp
 public interface IBackgroundEffectiveData : IFillParamSource
@@ -18,13 +18,13 @@ public interface IBackgroundEffectiveData : IFillParamSource
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ibackgroundeffectivedata/asifillparamsource) { get; } | ส่งคืน IFillParamSource อินเทอร์เฟซ. |
-| [EffectFormat](../../aspose.slides/ibackgroundeffectivedata/effectformat) { get; } | ส่งคืนรูปแบบเอฟเฟกต์ที่มีผล. อ่านอย่างเดียว [`IEffectFormatEffectiveData`](../ieffectformateffectivedata). |
-| [FillFormat](../../aspose.slides/ibackgroundeffectivedata/fillformat) { get; } | ส่งคืนรูปแบบเติมที่มีผล. อ่านอย่างเดียว [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [AsIFillParamSource](../../aspose.slides/ibackgroundeffectivedata/asifillparamsource) { get; } | คืนค่า IFillParamSource interface. |
+| [EffectFormat](../../aspose.slides/ibackgroundeffectivedata/effectformat) { get; } | คืนค่า รูปแบบเอฟเฟกต์ที่มีผล. อ่านอย่างเดียว [`IEffectFormatEffectiveData`](../ieffectformateffectivedata). |
+| [FillFormat](../../aspose.slides/ibackgroundeffectivedata/fillformat) { get; } | คืนค่า รูปแบบการเติมที่มีผล. อ่านอย่างเดียว [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 
 ### หมายเหตุ
 
-อินเทอร์เฟซนี้ถูกใช้ร่วมกับอินเทอร์เฟซ [`IBackground`](../ibackground) เพื่อส่งคืนค่าการจัดรูปแบบที่มีผลโดยใช้การสืบทอด
+อินเทอร์เฟซนี้ใช้ร่วมกับอินเทอร์เฟซ [`IBackground`](../ibackground) เพื่อคืนค่าการจัดรูปแบบที่มีผลพร้อมการใช้การสืบทอด
 
 ### ดูเพิ่มเติม
 

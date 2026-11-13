@@ -1,20 +1,20 @@
 ---
 title: X
 second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Trả về hoặc đặt tọa độ x của tiêu đề dưới dạng tỷ lệ của chiều rộng biểu đồ. Đọc/ghi Single.
+description: Trả về hoặc đặt tọa độ x của tiêu đề dưới dạng một phần của chiều rộng của biểu đồ. Đọc/ghi Single.
 type: docs
-weight: 160
+weight: 170
 url: /vi/aspose.slides.charts/datalabel/x/
 ---
 ## DataLabel.X thuộc tính
 
-Trả về hoặc đặt tọa độ x của tiêu đề dưới dạng tỷ lệ của chiều rộng biểu đồ. Đọc/ghi Single.
+Trả về hoặc đặt tọa độ x của tiêu đề dưới dạng một phần của chiều rộng của biểu đồ. Đọc/ghi Single.
 
 ```csharp
 public float X { get; set; }
 ```
 
-### Xem Thêm
+### Xem thêm
 
 * lớp [DataLabel](../../datalabel)
 * không gian tên [Aspose.Slides.Charts](../../datalabel)

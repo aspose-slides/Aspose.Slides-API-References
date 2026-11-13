@@ -1,14 +1,14 @@
 ---
 title: SlideSize
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示幻灯片的尺寸和方向。
+second_title: Aspose.Sildes .NET API 参考
+description: 表示幻灯片的大小和方向。
 type: docs
-weight: 10500
+weight: 10520
 url: /zh/aspose.slides/slidesize/
 ---
 ## SlideSize 类
 
-表示幻灯片的尺寸和方向。
+表示幻灯片的大小和方向。
 
 ```csharp
 public class SlideSize : DomObject<Presentation>, ISlideSize
@@ -19,15 +19,15 @@ public class SlideSize : DomObject<Presentation>, ISlideSize
 | 名称 | 描述 |
 | --- | --- |
 | [Orientation](../../aspose.slides/slidesize/orientation) { get; set; } | 获取或设置幻灯片方向。 |
-| [Size](../../aspose.slides/slidesize/size) { get; } | 获取幻灯片尺寸（以点为单位）。 |
+| [Size](../../aspose.slides/slidesize/size) { get; } | 获取幻灯片的以点为单位的尺寸。 |
 | [Type](../../aspose.slides/slidesize/type) { get; } | 获取幻灯片大小类型。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [SetSize](../../aspose.slides/slidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | 按类型设置幻灯片大小并按比例缩放现有内容。 |
-| [SetSize](../../aspose.slides/slidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | 显式设置幻灯片尺寸并按比例缩放现有内容。 |
+| [SetSize](../../aspose.slides/slidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | 按类型设置幻灯片大小并缩放现有内容。 |
+| [SetSize](../../aspose.slides/slidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | 显式设置幻灯片尺寸并缩放现有内容。 |
 
 ### 另见
 

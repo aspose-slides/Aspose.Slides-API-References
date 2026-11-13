@@ -1,14 +1,14 @@
 ---
 title: MorphTransition
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Efekt przejścia slajdu Ripple.
+second_title: Aspose.Sildes dla .NET API Reference
+description: Efekt przejścia slajdu typu Ripple.
 type: docs
-weight: 10250
+weight: 10270
 url: /pl/aspose.slides.slideshow/morphtransition/
 ---
 ## Klasa MorphTransition
 
-Efekt przejścia slajdu Ripple.
+Efekt przejścia slajdu typu Ripple.
 
 ```csharp
 public class MorphTransition : TransitionValueBase, IMorphTransition
@@ -16,16 +16,16 @@ public class MorphTransition : TransitionValueBase, IMorphTransition
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [MorphType](../../aspose.slides.slideshow/morphtransition/morphtype) { get; set; } | Typ przejścia morph. Odczyt/zapis [`TransitionMorphType`](../transitionmorphtype). |
 
 ## Metody
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Określa, czy dwie instancje TransitionValueBase są równe. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Służy jako funkcja skrótu dla określonego typu, odpowiednia do użycia w algorytmach haszowania i strukturach danych takich jak tablica hash. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Służy jako funkcja skrótu dla określonego typu, odpowiednia do użycia w algorytmach haszowania i strukturach danych, takich jak tablica mieszająca. |
 
 ### Zobacz także
 

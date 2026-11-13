@@ -1,14 +1,14 @@
 ---
 title: CellInvalidReferenceException
 second_title: Aspose.Sildes için .NET API Referansı
-description: Geçersiz bir hücre referansı karşılaşıldığında fırlatılan istisna.
+description: Geçersiz bir hücre referansı ile karşılaşıldığında fırlatılan istisna.
 type: docs
-weight: 10720
+weight: 10740
 url: /tr/aspose.slides.spreadsheet/cellinvalidreferenceexception/
 ---
 ## CellInvalidReferenceException sınıfı
 
-Geçersiz bir hücre referansıyle karşılaşıldığında fırlatılan istisna.
+Invalid bir hücre referansıyle karşılaşıldığında fırlatılan istisna.
 
 ```csharp
 public class CellInvalidReferenceException : PptxEditException
@@ -18,10 +18,10 @@ public class CellInvalidReferenceException : PptxEditException
 
 | Ad | Açıklama |
 | --- | --- |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor)() | Yeni bir [`CellInvalidReferenceException`](../cellinvalidreferenceexception) sınıfının bir örneğini başlatır. |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_1)(string) | Belirtilen bir hata mesajı ile [`CellInvalidReferenceException`](../cellinvalidreferenceexception) sınıfının yeni bir örneğini başlatır. |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_2)(string, Exception) | Belirtilen bir hata mesajı ve bu istisnanın nedeni olan iç istisna referansı ile [`CellInvalidReferenceException`](../cellinvalidreferenceexception) sınıfının yeni bir örneğini başlatır. |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_3)(string, string) | Belirtilen bir hata mesajı ve geçersiz bir hücre referansı ile [`CellCircularReferenceException`](../cellcircularreferenceexception) sınıfının yeni bir örneğini başlatır. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor)() | [`CellInvalidReferenceException`](../cellinvalidreferenceexception) sınıfının yeni bir örneğini başlatır. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_1)(string) | Belirtilen hata mesajı ile [`CellInvalidReferenceException`](../cellinvalidreferenceexception) sınıfının yeni bir örneğini başlatır. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_2)(string, Exception) | Belirtilen hata mesajı ve bir inner exception referansı ile [`CellInvalidReferenceException`](../cellinvalidreferenceexception) sınıfının yeni bir örneğini başlatır. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_3)(string, string) | Belirtilen hata mesajı ve geçersiz bir hücre referansı ile [`CellCircularReferenceException`](../cellcircularreferenceexception) sınıfının yeni bir örneğini başlatır. |
 
 ## Özellikler
 
@@ -29,7 +29,7 @@ public class CellInvalidReferenceException : PptxEditException
 | --- | --- |
 | [Reference](../../aspose.slides.spreadsheet/cellinvalidreferenceexception/reference) { get; } | Geçersiz bir hücre referansı alır. |
 
-### Diğer Bilgiler
+### Ayrıca Bakınız
 
 * sınıf [PptxEditException](../../aspose.slides/pptxeditexception)
 * ad alanı [Aspose.Slides.Spreadsheet](../../aspose.slides.spreadsheet)

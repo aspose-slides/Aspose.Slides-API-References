@@ -1,12 +1,12 @@
 ---
 title: HyperlinkQueries
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Menyediakan akses mudah ke hyperlink yang terkandung.
 type: docs
-weight: 5160
+weight: 5180
 url: /id/aspose.slides/hyperlinkqueries/
 ---
-## Kelas HyperlinkQueries
+## HyperlinkQueries class
 
 Menyediakan akses mudah ke hyperlink yang terkandung.
 
@@ -18,9 +18,9 @@ public sealed class HyperlinkQueries : IHyperlinkQueries
 
 | Nama | Deskripsi |
 | --- | --- |
-| [GetAnyHyperlinks](../../aspose.slides/hyperlinkqueries/getanyhyperlinks)() | Dapatkan semua subobjek IHyperlinkContainer yang berisi HyperlinkMouseOver yang tidak null. Dengan objek IHyperlinkContainer yang diberikan, Anda dapat mengelola hyperlink-nya (membaca, memperbarui, atau menghapus). Lihat antarmuka IHyperlinkContainer. |
-| [GetHyperlinkClicks](../../aspose.slides/hyperlinkqueries/gethyperlinkclicks)() | Dapatkan semua subobjek IHyperlinkContainer yang berisi HyperlinkClick yang tidak null. Dengan objek IHyperlinkContainer yang diberikan, Anda dapat mengelola hyperlink-nya (membaca, memperbarui, atau menghapus). Lihat antarmuka IHyperlinkContainer. |
-| [GetHyperlinkMouseOvers](../../aspose.slides/hyperlinkqueries/gethyperlinkmouseovers)() | Dapatkan semua subobjek IHyperlinkContainer yang berisi HyperlinkMouseOver yang tidak null. Dengan objek IHyperlinkContainer yang diberikan, Anda dapat mengelola hyperlink-nya (membaca, memperbarui, atau menghapus). Lihat antarmuka IHyperlinkContainer. |
+| [GetAnyHyperlinks](../../aspose.slides/hyperlinkqueries/getanyhyperlinks)() | Dapatkan semua subobjek IHyperlinkContainer yang berisi HyperlinkMouseOver tidak null. Dengan objek IHyperlinkContainer yang diberikan, Anda dapat mengelola hyperlink-nya (membaca, memperbarui, atau menghapus). Lihat IHyperlinkContainer antarmuka. |
+| [GetHyperlinkClicks](../../aspose.slides/hyperlinkqueries/gethyperlinkclicks)() | Dapatkan semua subobjek IHyperlinkContainer yang berisi HyperlinkClick tidak null. Dengan objek IHyperlinkContainer yang diberikan, Anda dapat mengelola hyperlink-nya (membaca, memperbarui, atau menghapus). Lihat IHyperlinkContainer antarmuka. |
+| [GetHyperlinkMouseOvers](../../aspose.slides/hyperlinkqueries/gethyperlinkmouseovers)() | Dapatkan semua subobjek IHyperlinkContainer yang berisi HyperlinkMouseOver tidak null. Dengan objek IHyperlinkContainer yang diberikan, Anda dapat mengelola hyperlink-nya (membaca, memperbarui, atau menghapus). Lihat IHyperlinkContainer antarmuka. |
 | [RemoveAllHyperlinks](../../aspose.slides/hyperlinkqueries/removeallhyperlinks)() | Menghapus semua hyperlink HyperlinkClick dan HyperlinkMouseOver yang terkandung (di semua subobjek IHyperlinkContainer). |
 
 ### Lihat Juga

@@ -1,14 +1,14 @@
 ---
 title: IRippleTransition
-second_title: Aspose.Sildes için .NET API Referansı
-description: Dalga slayt geçiş efekti.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Ripple slayt geçiş efekti.
 type: docs
-weight: 10170
+weight: 10190
 url: /tr/aspose.slides.slideshow/irippletransition/
 ---
-## IRippleTransition arayüz
+## IRippleTransition arabirimi
 
-Dalga slayt geçiş efekti.
+Ripple slayt geçiş efekti.
 
 ```csharp
 public interface IRippleTransition : ITransitionValueBase
@@ -18,12 +18,12 @@ public interface IRippleTransition : ITransitionValueBase
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/irippletransition/asitransitionvaluebase) { get; } | Temel ITransitionValueBase arayüzünü almayı sağlar. Salt okunur [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/irippletransition/direction) { get; set; } | Geçiş yönü. Okunur/Yazılabilir [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/irippletransition/asitransitionvaluebase) { get; } | Temel ITransitionValueBase arabirimini almayı sağlar. Salt okunur [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/irippletransition/direction) { get; set; } | Geçiş yönü. Okunur/yazılabilir [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
 
-### Ayrıca bakınız
+### İlgili
 
-* arayüz [ITransitionValueBase](../itransitionvaluebase)
+* arabirim [ITransitionValueBase](../itransitionvaluebase)
 * ad alanı [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * derleme [Aspose.Slides](../../)
 

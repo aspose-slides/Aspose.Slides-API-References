@@ -3,7 +3,7 @@ title: ISideDirectionTransition
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Efecto de transición de diapositiva en dirección lateral.
 type: docs
-weight: 10190
+weight: 10210
 url: /es/aspose.slides.slideshow/isidedirectiontransition/
 ---
 ## ISideDirectionTransition interfaz
@@ -18,7 +18,7 @@ public interface ISideDirectionTransition : ITransitionValueBase
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/isidedirectiontransition/asitransitionvaluebase) { get; } | Permite obtener la interfaz base ITransitionValueBase. Sólo lectura [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/isidedirectiontransition/asitransitionvaluebase) { get; } | Permite obtener la interfaz base ITransitionValueBase. Solo lectura [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/isidedirectiontransition/direction) { get; set; } | Dirección de la transición. Lectura/escritura [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
 
 ### Ver también

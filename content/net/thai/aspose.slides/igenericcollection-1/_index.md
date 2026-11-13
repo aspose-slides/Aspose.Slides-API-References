@@ -1,12 +1,12 @@
 ---
 title: IGenericCollectionT
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: อินเทอร์เฟซคอลเลกชันทั่วไปเสริม.
 type: docs
-weight: 5960
+weight: 5980
 url: /th/aspose.slides/igenericcollection-1/
 ---
-## IGenericCollection<T> อินเทอร์เฟซ
+## IGenericCollection&lt;T&gt; อินเทอร์เฟซ
 
 อินเทอร์เฟซคอลเลกชันทั่วไปเสริม.
 

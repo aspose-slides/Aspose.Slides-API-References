@@ -1,12 +1,12 @@
 ---
 title: Orientation
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Bir şeklin yönünü temsil eder.
 type: docs
-weight: 9240
+weight: 9260
 url: /tr/aspose.slides/orientation/
 ---
-## Orientation enum
+## Orientation enum'ı
 
 Bir şeklin yönünü temsil eder.
 

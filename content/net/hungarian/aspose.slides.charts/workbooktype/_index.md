@@ -1,9 +1,9 @@
 ---
 title: WorkbookType
-second_title: Aspose.Sildes .NET API hivatkozás
+second_title: Aspose.Sildes .NET API referencia
 description: Megadja az Open XML munkafüzet fájl típusát.
 type: docs
-weight: 2510
+weight: 2530
 url: /hu/aspose.slides.charts/workbooktype/
 ---
 ## WorkbookType enumeráció
@@ -18,7 +18,7 @@ public enum WorkbookType
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| NotDefined | `-1` | A munkafüzet típusa nincs meghatározva. |
+| NotDefined | `-1` | A munkafüzet típusa nincs definiálva. |
 | Workbook | `0` | Excel munkafüzet (*.xlsx). |
 | WorkbookMacro | `1` | Excel makróval engedélyezett munkafüzet (*.xlsm). |
 | Template | `2` | Excel sablon (*.xltx). |

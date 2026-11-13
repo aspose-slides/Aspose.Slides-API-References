@@ -1,14 +1,14 @@
 ---
 title: TagCollection
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili koleksi tag berupa pasangan string yang ditentukan pengguna
+description: Mewakili koleksi tag (pasangan string yang didefinisikan pengguna)
 type: docs
-weight: 10890
+weight: 10910
 url: /id/aspose.slides/tagcollection/
 ---
 ## TagCollection kelas
 
-Mewakili kumpulan tag (pasangan string yang didefinisikan pengguna)
+Mewakili koleksi tag (pasangan string yang didefinisikan pengguna)
 
 ```csharp
 public sealed class TagCollection : ITagCollection
@@ -18,8 +18,8 @@ public sealed class TagCollection : ITagCollection
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Count](../../aspose.slides/tagcollection/count) { get; } | Mengembalikan sejumlah tag dalam koleksi. Baca-saja Int32. |
-| [IsSynchronized](../../aspose.slides/tagcollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (thread-safe). Baca-saja Boolean. |
+| [Count](../../aspose.slides/tagcollection/count) { get; } | Mengembalikan jumlah tag dalam koleksi. Baca-saja Int32. |
+| [IsSynchronized](../../aspose.slides/tagcollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (aman terhadap thread). Baca-saja Boolean. |
 | [Item](../../aspose.slides/tagcollection/item) { get; set; } | Mengembalikan atau mengatur pasangan kunci dan nilai dari sebuah tag. |
 | [SyncRoot](../../aspose.slides/tagcollection/syncroot) { get; } | Mengembalikan akar sinkronisasi. Baca-saja Object. |
 
@@ -30,7 +30,7 @@ public sealed class TagCollection : ITagCollection
 | [Add](../../aspose.slides/tagcollection/add)(string, string) | Menambahkan tag baru ke koleksi. |
 | [Clear](../../aspose.slides/tagcollection/clear)() | Menghapus semua tag dari koleksi. |
 | [Contains](../../aspose.slides/tagcollection/contains)(string) | Menentukan apakah koleksi berisi nama tertentu. |
-| [CopyTo](../../aspose.slides/tagcollection/copyto)(Array, int) | Menyalin semua elemen dari koleksi ke array yang ditentukan. |
+| [CopyTo](../../aspose.slides/tagcollection/copyto)(Array, int) | Menyalin semua elemen dari koleksi ke dalam array yang ditentukan. |
 | [GetEnumerator](../../aspose.slides/tagcollection/getenumerator)() | Mengembalikan enumerator yang mengiterasi koleksi. |
 | [GetNameByIndex](../../aspose.slides/tagcollection/getnamebyindex)(int) | Mengembalikan kunci tag pada indeks yang ditentukan. |
 | [GetNamesOfTags](../../aspose.slides/tagcollection/getnamesoftags)() | Mengembalikan nama-nama tag. |

@@ -1,14 +1,14 @@
 ---
 title: ShapeAdjustmentType
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Különböző alakzatkorrekciós értéktípusokat határoz meg.
+second_title: Aspose.Slides .NET API hivatkozás
+description: Különböző alakzatkorrekciós érték típusokat határoz meg.
 type: docs
-weight: 9840
+weight: 9860
 url: /hu/aspose.slides/shapeadjustmenttype/
 ---
 ## ShapeAdjustmentType felsorolás
 
-Különböző típusú alakzatkorrekciós értékeket határoz meg.
+Különböző alakzatkorrekciós érték típusokat határoz meg.
 
 ```csharp
 public enum ShapeAdjustmentType
@@ -18,7 +18,7 @@ public enum ShapeAdjustmentType
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Custom | `0` | Egyéni típus (ismeretlen korrekció) |
+| Custom | `0` | Egyéni típus (ismeretlen beállítás) |
 | CornerSize | `1` | A sarkok méretét szabályozza. |
 | LeftUpCorner | `2` | A bal felső sarkot szabályozza. |
 | RightUpCorner | `3` | A jobb felső sarkot szabályozza. |
@@ -26,37 +26,37 @@ public enum ShapeAdjustmentType
 | DownCorners | `5` | Az alsó sarkokat szabályozza. |
 | Thickness | `6` | Az ábra vastagságát szabályozza. |
 | ArrowTailThickness | `7` | A nyílfarok vastagságát szabályozza. |
-| ArrowheadLength | `8` | A nyílpont hosszát szabályozza. |
-| ArrowheadWidth | `9` | A nyílpont szélességét szabályozza. |
-| Radius | `10` | Az alakzat vagy annak részének sugara méretét szabályozza. |
-| Depth | `11` | A fogaskerék fogak vagy a perem effektus mélységét szabályozza. |
-| ShapePartOffset | `12` | Az ábra egy részének eltolását szabályozza egy másikhoz képest. |
+| ArrowheadLength | `8` | A nyílhegy hosszát szabályozza. |
+| ArrowheadWidth | `9` | A nyílhegy szélességét szabályozza. |
+| Radius | `10` | Az alakzat vagy annak részének sugár méretét szabályozza. |
+| Depth | `11` | A fogaskerék fogainak vagy a fazetta hatás mélységét szabályozza. |
+| ShapePartOffset | `12` | Az ábra egy részének másikhoz viszonyított eltolását szabályozza. |
 | Angle | `13` | Az ábra vagy annak részének szögét szabályozza. |
-| StartAngle | `14` | A kezdő szög a kördiagram és ív alakzatokhoz. |
-| EndAngle | `15` | A befejező szög a kördiagram és ív alakzatokhoz. |
-| StartPointX | `16` | A feljegyzés kezdőpontjának X pozícióját szabályozza. |
-| StartPointY | `17` | A feljegyzés kezdőpontjának Y pozícióját szabályozza. |
-| ConnectorPoint1X | `18` | A feljegyzés szögkorrekciós pontjának vízszintes pozícióját szabályozza. |
-| ConnectorPoint1Y | `19` | A feljegyzés szögkorrekciós pontjának függőleges pozícióját szabályozza. |
-| ConnectorPoint2X | `20` | A feljegyzés szögkorrekciós pontjának vízszintes pozícióját szabályozza. |
-| ConnectorPoint2Y | `21` | A feljegyzés szögkorrekciós pontjának függőleges pozícióját szabályozza. |
-| ConnectorBendPositionX | `22` | A csatlakozó ív vízszintes pozícióját szabályozza. |
-| ConnectorBendPositionY | `23` | A csatlakozó ív függőleges pozícióját szabályozza. |
-| AttachY | `24` | Az ábra függőleges rögzítési pontját szabályozza. |
-| AttachX | `25` | Az ábra vízszintes rögzítési pontját szabályozza. |
-| CalloutHeight | `26` | A feljegyzés függőleges méretét szabályozza. |
-| CalloutWidth | `27` | A feljegyzés vízszintes méretét szabályozza. |
-| CalloutSize | `28` | A feljegyzés méretét szabályozza. |
-| Curvature | `29` | A görbület hajlított, zárójelezett, ívelt nyíl vagy alakzat esetén. |
-| HorizontalThickness | `30` | A sark alakzat vízszintes vastagságát szabályozza. |
-| VerticalThickness | `31` | A sark alakzat függőleges vastagságát szabályozza. |
+| StartAngle | `14` | Kezdő szög a kördiagram és ív alakzatokhoz. |
+| EndAngle | `15` | Végszög a kördiagram és ív alakzatokhoz. |
+| StartPointX | `16` | A hívás kezdőpontjának X pozícióját szabályozza. |
+| StartPointY | `17` | A hívás kezdőpontjának Y pozícióját szabályozza. |
+| ConnectorPoint1X | `18` | A hívás szögállító pontjának vízszintes pozícióját szabályozza. |
+| ConnectorPoint1Y | `19` | A hívás szögállító pontjának függőleges pozícióját szabályozza. |
+| ConnectorPoint2X | `20` | A hívás szögállító pontjának vízszintes pozícióját szabályozza. |
+| ConnectorPoint2Y | `21` | A hívás szögállító pontjának függőleges pozícióját szabályozza. |
+| ConnectorBendPositionX | `22` | A csatlakozóban lévő hajlítás vízszintes pozícióját szabályozza. |
+| ConnectorBendPositionY | `23` | A csatlakozóban lévő hajlítás függőleges pozícióját szabályozza. |
+| AttachY | `24` | Az ábra függőleges csatlakozási pontját szabályozza. |
+| AttachX | `25` | Az ábra vízszintes csatlakozási pontját szabályozza. |
+| CalloutHeight | `26` | A hívás függőleges méretét szabályozza. |
+| CalloutWidth | `27` | A hívás vízszintes méretét szabályozza. |
+| CalloutSize | `28` | A hívás méretét szabályozza. |
+| Curvature | `29` | A hajlított, zárójelezett, ívelt nyíl vagy alakzat görbülete. |
+| HorizontalThickness | `30` | A sarok alakzat vízszintes vastagságát szabályozza. |
+| VerticalThickness | `31` | A sarok alakzat függőleges vastagságát szabályozza. |
 | VerticalSize | `32` | Az alakzat függőleges méretét szabályozza. |
 | HorizontalSize | `33` | Az alakzat vízszintes méretét szabályozza. |
 | Top | `34` | Az alakzat felső oldalát szabályozza. |
 
 ### Lásd még
 
-* névterület [Aspose.Slides](../../aspose.slides)
+* névtér [Aspose.Slides](../../aspose.slides)
 * összeállítás [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

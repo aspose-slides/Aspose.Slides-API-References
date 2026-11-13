@@ -1,14 +1,14 @@
 ---
 title: WarningType
-second_title: Riferimento API di Aspose.Sildes per .NET
-description: Rappresenta un tipo di avviso.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Rappresenta un tipo di avvertimento.
 type: docs
-weight: 11830
+weight: 11850
 url: /it/aspose.slides.warnings/warningtype/
 ---
-## Enumerazione WarningType
+## enumerazione WarningType
 
-Rappresenta un tipo di avviso.
+Rappresenta un tipo di avvertimento.
 
 ```csharp
 public enum WarningType
@@ -18,12 +18,12 @@ public enum WarningType
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| SourceFileCorruption | `0` | È stato rilevato un problema nel documento di origine che rende molto probabile che il documento non possa essere aperto se salvato nel suo formato originale. |
-| DataLoss | `1` | Testo/grafico/immagine o altri dati saranno completamente mancanti dall'albero del documento dopo il caricamento, o dal documento creato dopo il salvataggio. |
+| SourceFileCorruption | `0` | È stato rilevato un problema nel documento sorgente che rende molto probabile che il documento non possa essere aperto se salvato nel suo formato originale. |
+| DataLoss | `1` | Testo/grafico/immagine o altri dati saranno completamente mancanti sia dall'albero del documento dopo il caricamento, sia dal documento creato dopo il salvataggio. |
 | MajorFormattingLoss | `2` | Perdita di formattazione importante. |
 | MinorFormattingLoss | `3` | Perdita di formattazione minore. |
-| CompatibilityIssue | `4` | Questo è un problema noto che impedirà l'apertura del documento da parte di alcuni agenti utente o versioni precedenti di agenti utente. |
-| UnexpectedContent | `99` | Alcuni contenuti nel documento di origine non sono stati riconosciuti (cioè non sono supportati); ciò potrebbe o meno causare problemi o provocare perdite di dati/formattazione. |
+| CompatibilityIssue | `4` | Questo è un problema noto che impedirà l'apertura del documento da parte di alcuni agenti utente, o versioni precedenti di agenti utente. |
+| UnexpectedContent | `99` | Alcuni contenuti nel documento sorgente non sono stati riconosciuti (cioè non sono supportati), questo potrebbe o meno causare problemi o provocare perdita di dati/formattazione. |
 
 ### Vedi anche
 

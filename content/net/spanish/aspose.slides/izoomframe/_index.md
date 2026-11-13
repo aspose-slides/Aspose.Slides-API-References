@@ -1,12 +1,12 @@
 ---
 title: IZoomFrame
-second_title: Aspose.Sildes para la referencia de la API de .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa un objeto Slide Zoom en una diapositiva.
 type: docs
-weight: 7400
+weight: 7420
 url: /es/aspose.slides/izoomframe/
 ---
-## Interfaz IZoomFrame
+## IZoomFrame interfaz
 
 Representa un objeto Slide Zoom en una diapositiva.
 
@@ -19,7 +19,7 @@ public interface IZoomFrame : IZoomObject
 | Nombre | Descripción |
 | --- | --- |
 | [AsIZoomObject](../../aspose.slides/izoomframe/asizoomobject) { get; } | Devuelve la interfaz IZoomObject. |
-| [TargetSlide](../../aspose.slides/izoomframe/targetslide) { get; set; } | Obtiene o establece el objeto diapositiva al que el objeto Slide Zoom enlaza. Lectura/escritura [`ISlide`](../islide). |
+| [TargetSlide](../../aspose.slides/izoomframe/targetslide) { get; set; } | Obtiene o establece el objeto de diapositiva al que el objeto Slide Zoom enlaza. Lectura/escritura [`ISlide`](../islide). |
 
 ### Ver también
 

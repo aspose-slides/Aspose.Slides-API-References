@@ -1,14 +1,14 @@
 ---
 title: IFontSchemeEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
-description: Oföränderligt objekt som innehåller de faktiska egenskaperna för teckensnittsschemat.
+description: Oföränderligt objekt som innehåller effektiva egenskaper för teckensnittsschemat.
 type: docs
-weight: 11260
+weight: 11280
 url: /sv/aspose.slides.theme/ifontschemeeffectivedata/
 ---
 ## IFontSchemeEffectiveData gränssnitt
 
-Oföränderligt objekt som innehåller de faktiska egenskaperna för teckensnittsschemat.
+Oföränderligt objekt som innehåller effektiva egenskaper för teckensnittsschemat.
 
 ```csharp
 public interface IFontSchemeEffectiveData
@@ -16,11 +16,11 @@ public interface IFontSchemeEffectiveData
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | Returnerar teckensnittssamlingen för en "rubrik"-del av bilden. Read-only [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
-| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | Returnerar teckensnittssamlingen för en "brödtext"-del av bilden. Read-only [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
-| [Name](../../aspose.slides.theme/ifontschemeeffectivedata/name) { get; } | Returnerar teckensnittsschemanamnet. Read-only String. |
+| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | Returnerar fontsamlingen för en "rubrik"-del av bilden. Endast läsning [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
+| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | Returnerar fontsamlingen för en "innehåll"-del av bilden. Endast läsning [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
+| [Name](../../aspose.slides.theme/ifontschemeeffectivedata/name) { get; } | Returnerar namn på fontschemat. Endast läsning String. |
 
 ### Anmärkningar
 

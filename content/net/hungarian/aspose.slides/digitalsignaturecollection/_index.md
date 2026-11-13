@@ -1,9 +1,9 @@
 ---
 title: DigitalSignatureCollection
-second_title: Aspose.Sildes a .NET API Referenciához
-description: A dokumentumhoz csatolt digitális aláírások gyűjteményét képviseli.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Egy dokumentumhoz csatolt digitális aláírások gyűjteményét ábrázolja.
 type: docs
-weight: 2780
+weight: 2800
 url: /hu/aspose.slides/digitalsignaturecollection/
 ---
 ## DigitalSignatureCollection osztály
@@ -18,10 +18,10 @@ public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSigna
 
 | Név | Leírás |
 | --- | --- |
-| [Count](../../aspose.slides/digitalsignaturecollection/count) { get; } | Visszaadja a gyűjteményben lévő elemek számát. Csak olvasható Int32. |
-| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált-e (szálbiztos). Csak olvasható Boolean. |
-| [Item](../../aspose.slides/digitalsignaturecollection/item) { get; } | Visszaadja az aláírást index szerint. |
-| [SyncRoot](../../aspose.slides/digitalsignaturecollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökeret. Csak olvasható Object. |
+| [Count](../../aspose.slides/digitalsignaturecollection/count) { get; } | Visszaadja az elemek számát a gyűjteményben. Csak olvasható Int32. |
+| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált (szálbiztos). Csak olvasható Boolean. |
+| [Item](../../aspose.slides/digitalsignaturecollection/item) { get; } | Visszaadja az index szerinti aláírást. |
+| [SyncRoot](../../aspose.slides/digitalsignaturecollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökérobjektumot. Csak olvasható Object. |
 
 ## Metódusok
 
@@ -30,7 +30,7 @@ public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSigna
 | [Add](../../aspose.slides/digitalsignaturecollection/add)(IDigitalSignature) | Hozzáadja az aláírást a gyűjtemény végéhez. |
 | [Clear](../../aspose.slides/digitalsignaturecollection/clear)() | Eltávolítja az összes aláírást a gyűjteményből. |
 | [CopyTo](../../aspose.slides/digitalsignaturecollection/copyto)(Array, int) | Átmásolja a gyűjtemény összes elemét a megadott tömbbe. |
-| [GetEnumerator](../../aspose.slides/digitalsignaturecollection/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |
+| [GetEnumerator](../../aspose.slides/digitalsignaturecollection/getenumerator)() | Visszaad egy enumerátort, amely bejárja a gyűjteményt. |
 | [RemoveAt](../../aspose.slides/digitalsignaturecollection/removeat)(int) | Eltávolítja a megadott indexű aláírást. |
 
 ### Lásd még

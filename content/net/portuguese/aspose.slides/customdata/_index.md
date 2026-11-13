@@ -1,9 +1,9 @@
 ---
 title: CustomData
-second_title: Referência de API Aspose.Sildes para .NET
-description: Representa um contêiner para dados personalizados.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Representa contêiner para dados personalizados.
 type: docs
-weight: 2730
+weight: 2750
 url: /pt/aspose.slides/customdata/
 ---
 ## CustomData classe
@@ -21,7 +21,7 @@ public class CustomData : ICustomData
 | [CustomXmlParts](../../aspose.slides/customdata/customxmlparts) { get; } | Retorna a coleção de partes xml personalizadas. Somente leitura [`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
 | [Tags](../../aspose.slides/customdata/tags) { get; } | Retorna a coleção de tags de dados do cliente. Somente leitura [`ITagCollection`](../itagcollection). |
 
-### Veja também
+### Ver também
 
 * interface [ICustomData](../icustomdata)
 * espaço de nomes [Aspose.Slides](../../aspose.slides)

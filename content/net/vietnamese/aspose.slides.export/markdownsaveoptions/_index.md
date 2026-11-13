@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Biểu thị các tùy chọn kiểm soát cách bản trình chiếu được lưu dưới dạng markdown.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Đại diện cho các tùy chọn kiểm soát cách bản trình chiếu được lưu dưới dạng markdown.
 type: docs
-weight: 4250
+weight: 4270
 url: /vi/aspose.slides.export/markdownsaveoptions/
 ---
-## MarkdownSaveOptions lớp
+## Lớp MarkdownSaveOptions
 
-Biểu thị các tùy chọn kiểm soát cách bản trình chiếu được lưu dưới dạng markdown.
+Biểu thị các tùy chọn kiểm soát cách bài thuyết trình được lưu dưới dạng markdown.
 
 ```csharp
 public class MarkdownSaveOptions : SaveOptions
@@ -25,21 +25,21 @@ public class MarkdownSaveOptions : SaveOptions
 | Tên | Mô tả |
 | --- | --- |
 | [BasePath](../../aspose.slides.export/markdownsaveoptions/basepath) { get; set; } | Xác định đường dẫn cơ sở nơi tài liệu kèm tài nguyên sẽ được lưu. Mặc định là thư mục hiện tại của ứng dụng. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Trả về hoặc đặt phông chữ được sử dụng trong trường hợp không tìm thấy phông chữ nguồn. Đọc-ghi String. |
-| [ExportType](../../aspose.slides.export/markdownsaveoptions/exporttype) { get; set; } | Xác định đặc tả markdown để chuyển đổi bản trình chiếu. Mặc định là `TextOnly`. |
-| [Flavor](../../aspose.slides.export/markdownsaveoptions/flavor) { get; set; } | Xác định đặc tả markdown để chuyển đổi bản trình chiếu. Mặc định là `Multi-markdown`. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Trả về hoặc đặt kiểu hiển thị của gradient. Đọc/ghi [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Trả về hoặc đặt phông chữ được sử dụng khi không tìm thấy phông chữ nguồn. Đọc-ghi String. |
+| [ExportType](../../aspose.slides.export/markdownsaveoptions/exporttype) { get; set; } | Xác định định dạng markdown để chuyển đổi bài thuyết trình. Mặc định là `TextOnly`. |
+| [Flavor](../../aspose.slides.export/markdownsaveoptions/flavor) { get; set; } | Xác định định dạng markdown để chuyển đổi bài thuyết trình. Mặc định là `Multi-markdown`. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Trả về hoặc đặt kiểu dáng trực quan của gradient. Đọc/ghi [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [HandleRepeatedSpaces](../../aspose.slides.export/markdownsaveoptions/handlerepeatedspaces) { get; set; } |  |
 | [ImagesSaveFolderName](../../aspose.slides.export/markdownsaveoptions/imagessavefoldername) { get; set; } | Xác định tên thư mục để lưu hình ảnh. Mặc định là `Images`. |
-| [NewLineType](../../aspose.slides.export/markdownsaveoptions/newlinetype) { get; set; } | Xác định liệu tài liệu được tạo ra có các dòng mới \\r(Macintosh) của \\n(Unix) hay \\r\\n(Windows). Mặc định là `Unix`. |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Biểu thị một đối tượng callback để cập nhật tiến độ lưu dưới dạng phần trăm. Xem [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [RemoveEmptyLines](../../aspose.slides.export/markdownsaveoptions/removeemptylines) { get; set; } | Nếu được đặt thành `true`, sẽ loại bỏ các dòng trống hoặc chỉ chứa ký tự khoảng trắng khỏi đầu ra Markdown cuối cùng. Mặc định là `false`. |
-| [ShowComments](../../aspose.slides.export/markdownsaveoptions/showcomments) { get; set; } | Xác định liệu tài liệu được tạo ra có hiển thị bình luận hay không. Mặc định là `false`. |
-| [ShowHiddenSlides](../../aspose.slides.export/markdownsaveoptions/showhiddenslides) { get; set; } | Xác định liệu tài liệu được tạo ra có bao gồm các slide ẩn hay không. Mặc định là `false`. |
-| [ShowSlideNumber](../../aspose.slides.export/markdownsaveoptions/showslidenumber) { get; set; } | Xác định liệu tài liệu được tạo ra có hiển thị số của mỗi slide hay không. Mặc định là `false`. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Xác định liệu có bỏ qua các siêu liên kết có lời gọi JavaScript khi lưu bản trình chiếu hay không. Đọc/ghi Boolean. Giá trị mặc định là **false**. |
-| [SlideNumberFormat](../../aspose.slides.export/markdownsaveoptions/slidenumberformat) { get; set; } | Lấy hoặc đặt chuỗi định dạng được sử dụng cho tiêu đề số slide trong đầu ra Markdown. Định dạng phải bao gồm placeholder "{0}", sẽ được thay thế bằng chỉ mục slide khi xuất. Ví dụ: "# Slide {0}" sẽ tạo "# Slide 1", "# Slide 2", v.v. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Trả về hoặc đặt một đối tượng nhận cảnh báo và quyết định liệu quá trình tải sẽ tiếp tục hay sẽ bị hủy. Đọc/ghi [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [NewLineType](../../aspose.slides.export/markdownsaveoptions/newlinetype) { get; set; } | Xác định xem tài liệu được tạo ra có nên có các ký tự ngắt dòng \\r (Macintosh), \\n (Unix) hoặc \\r\\n (Windows). Mặc định là `Unix`. |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Biểu thị một đối tượng callback để lưu cập nhật tiến độ dưới dạng phần trăm. Xem [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [RemoveEmptyLines](../../aspose.slides.export/markdownsaveoptions/removeemptylines) { get; set; } | Nếu đặt thành `true`, sẽ loại bỏ các dòng trống hoặc chỉ chứa khoảng trắng khỏi kết quả Markdown cuối cùng. Mặc định là `false`. |
+| [ShowComments](../../aspose.slides.export/markdownsaveoptions/showcomments) { get; set; } | Xác định xem tài liệu được tạo ra có hiển thị bình luận hay không. Mặc định là `false`. |
+| [ShowHiddenSlides](../../aspose.slides.export/markdownsaveoptions/showhiddenslides) { get; set; } | Xác định xem tài liệu được tạo ra có bao gồm các slide ẩn hay không. Mặc định là `false`. |
+| [ShowSlideNumber](../../aspose.slides.export/markdownsaveoptions/showslidenumber) { get; set; } | Xác định xem tài liệu được tạo ra có hiển thị số thứ tự của mỗi slide hay không. Mặc định là `false`. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Xác định xem có bỏ qua các siêu liên kết có lời gọi JavaScript khi lưu bài thuyết trình hay không. Đọc/ghi Boolean. Giá trị mặc định là **false**. |
+| [SlideNumberFormat](../../aspose.slides.export/markdownsaveoptions/slidenumberformat) { get; set; } | Lấy hoặc đặt chuỗi định dạng được dùng cho tiêu đề số slide trong đầu ra Markdown. Định dạng phải bao gồm chuỗi giữ chỗ "{0}", sẽ được thay thế bằng chỉ số slide khi xuất. Ví dụ: "# Slide {0}" sẽ tạo ra "# Slide 1", "# Slide 2", v.v. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Trả về hoặc đặt một đối tượng nhận cảnh báo và quyết định quá trình tải sẽ tiếp tục hay bị hủy. Đọc/ghi [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Ví dụ
 

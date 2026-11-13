@@ -1,14 +1,14 @@
 ---
 title: IResourceLoadingArgs
-second_title: Aspose.Sildes для .NET справочник API
-description: Интерфейс аргументов загрузки внешних ресурсов.
+second_title: Справочник API Aspose.Sildes для .NET
+description: Интерфейс для аргументов загрузки внешних ресурсов.
 type: docs
-weight: 6830
+weight: 6850
 url: /ru/aspose.slides/iresourceloadingargs/
 ---
 ## IResourceLoadingArgs интерфейс
 
-Интерфейс аргументов загрузки внешних ресурсов.
+Интерфейс для аргументов загрузки внешних ресурсов.
 
 ```csharp
 public interface IResourceLoadingArgs
@@ -25,7 +25,7 @@ public interface IResourceLoadingArgs
 
 | Имя | Описание |
 | --- | --- |
-| [SetData](../../aspose.slides/iresourceloadingargs/setdata)(byte[]) | Устанавливает предоставленные пользователем данные ресурса, которые используются, если [`ResourceLoading`](../iresourceloadingcallback/resourceloading) возвращает UserProvided. |
+| [SetData](../../aspose.slides/iresourceloadingargs/setdata)(byte[]) | Устанавливает пользовательские данные ресурса, которые используются, если [`ResourceLoading`](../iresourceloadingcallback/resourceloading) возвращает UserProvided. |
 
 ### См. также
 

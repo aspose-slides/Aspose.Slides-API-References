@@ -1,14 +1,14 @@
 ---
 title: IOuterShadow
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes .NET API Referencia
 description: Külső árnyék hatást képvisel.
 type: docs
-weight: 3460
+weight: 3480
 url: /hu/aspose.slides.effects/ioutershadow/
 ---
 ## IOuterShadow interfész
 
-Képviseli a külső árnyék hatást.
+Külső árnyék hatást képvisel.
 
 ```csharp
 public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>, 
@@ -19,13 +19,13 @@ public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>,
 
 | Név | Leírás |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | Lehetővé teszi az alap IAccessiblePVIObject interfész lekérdezését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | Lehetővé teszi az alap IImageTransformOperation interfész lekérdezését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | Elmosási sugár, pontban. Alapértelmezett érték – 0 pt. Olvasás/írás Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | Lehetővé teszi a base IAccessiblePVIObject interfész lekérését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | Lehetővé teszi a base IImageTransformOperation interfész lekérését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
+| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | Elmosódási sugár, pontokban. Alapértelmezett érték – 0 pt. Olvasás/írás Double. |
 | [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | Az árnyék iránya fokban. Alapértelmezett érték – 0 ° (balról jobbra). Olvasás/írás Single. |
-| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | Az árnyék távolsága az objektumtól, pontban. Alapértelmezett érték – 0 pt. Olvasás/írás Double. |
+| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | Az árnyék távolsága az objektumtól, pontokban. Alapértelmezett érték – 0 pt. Olvasás/írás Double. |
 | [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | Téglalap igazítása. Alapértelmezett érték – Bottom. Olvasás/írás [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | Jelzi, hogy az árnyék a formával együtt forgatható-e. Alapértelmezett érték – true. Olvasás/írás Boolean. |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | Megadja, hogy az árnyék a formával együtt forog-e. Alapértelmezett érték – true. Olvasás/írás Boolean. |
 | [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Vízszintes méretezési tényező, az eredeti méret százalékában. Negatív méretezés tükrözést okoz. Alapértelmezett érték – 100 %. Olvasás/írás Double. |
 | [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Függőleges méretezési tényező, az eredeti méret százalékában. Negatív méretezés tükrözést okoz. Alapértelmezett érték – 100 %. Olvasás/írás Double. |
 | [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | Az árnyék színe. Alapértelmezett érték – automatikus fekete (témafüggő). Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |

@@ -1,14 +1,14 @@
 ---
 title: NotesSlideHeaderFooterManager
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Représente le gestionnaire qui maintient le comportement des espaces réservés des diapositives de notes, y compris l'espace réservé d'en-tête.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Représente le gestionnaire qui maintient le comportement des espaces réservés de la diapositive des notes, y compris l'espace réservé d'en-tête.
 type: docs
-weight: 9150
+weight: 9170
 url: /fr/aspose.slides/notesslideheaderfootermanager/
 ---
 ## NotesSlideHeaderFooterManager classe
 
-Représente le gestionnaire qui maintient le comportement des espaces réservés des diapositives de notes, y compris l'espace réservé d'en-tête.
+Représente le gestionnaire qui maintient le comportement des espaces réservés de la diapositive des notes, y compris l'espace réservé d'en-tête.
 
 ```csharp
 public sealed class NotesSlideHeaderFooterManager : BaseHandoutNotesSlideHeaderFooterManager, 
@@ -36,7 +36,7 @@ public sealed class NotesSlideHeaderFooterManager : BaseHandoutNotesSlideHeaderF
 | [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Modifie la visibilité de l'espace réservé d'en-tête de la diapositive. |
 | [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Modifie la visibilité de l'espace réservé de numéro de page de la diapositive. |
 
-### Voir aussi
+### Voir également
 
 * classe [BaseHandoutNotesSlideHeaderFooterManager](../basehandoutnotesslideheaderfootermanager)
 * interface [INotesSlideHeaderFooterManager](../inotesslideheaderfootermanager)

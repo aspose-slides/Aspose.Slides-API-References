@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeilingEffectiveData
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Változtathatatlan objektum, amely egy Alpha Ceiling hatást reprezentál. A nulla feletti alfa átlátszatlansági értékek 100-ra módosulnak. Más szóval, minden részben átlátszó teljesen átlátszatlanná válik.
+second_title: Aspose.Sildes a .NET API referencia
+description: Megváltoztathatatlan objektum, amely egy Alpha Ceiling hatást képvisel. A nullánál nagyobb alfa áttetszőség értékek 100-ra módosulnak. Más szóval, minden részben átlátszó teljesen átlátszatlanná válik.
 type: docs
-weight: 3050
+weight: 3070
 url: /hu/aspose.slides.effects/ialphaceilingeffectivedata/
 ---
 ## IAlphaCeilingEffectiveData interfész
 
-Immutable object which represents an Alpha Ceiling effect. Alpha (opacity) values greater than zero are changed to 100%. In other words, anything partially opaque becomes fully opaque.
+Megváltoztathatatlan objektum, amely egy Alpha Ceiling hatást reprezentál. Az nulla fölötti Alpha (átlátszóság) értékek 100%-ra módosulnak. Más szóval, minden részben átlátszó teljesen átlátszatlanná válik.
 
 ```csharp
 public interface IAlphaCeilingEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IAlphaCeilingEffectiveData : IEffectEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaceilingeffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi az alap IEffectEffectiveData interfész lekérését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaceilingeffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi a base IEffectEffectiveData interfész lekérését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Lásd még
 

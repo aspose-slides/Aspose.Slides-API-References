@@ -1,14 +1,14 @@
 ---
 title: TickLabelPositionType
-second_title: Aspose.Sildes para .NET Referência da API
-description: Representa o tipo de posição dos rótulos de marcas de graduação no eixo especificado.
+second_title: Referência da API Aspose.Sildes for .NET
+description: Representa o tipo de posição dos rótulos de marcas de escala no eixo especificado.
 type: docs
-weight: 2440
+weight: 2460
 url: /pt/aspose.slides.charts/ticklabelpositiontype/
 ---
-## Enumeração TickLabelPositionType
+## TickLabelPositionType enumeração
 
-Representa o tipo de posição dos rótulos de marcas de graduação no eixo especificado.
+Representa o tipo de posição dos rótulos de marcas de escala no eixo especificado.
 
 ```csharp
 public enum TickLabelPositionType
@@ -18,9 +18,9 @@ public enum TickLabelPositionType
 
 | Nome | Valor | Descrição |
 | --- | --- | --- |
-| High | `0` | Especifica que os rótulos do eixo devem estar na extremidade alta do eixo perpendicular. |
-| Low | `1` | Especifica que os rótulos do eixo devem estar na extremidade baixa do eixo perpendicular. |
-| NextTo | `2` | Especifica que os rótulos do eixo devem estar ao lado do eixo. |
+| High | `0` | Especifica que os rótulos do eixo devem estar no extremo superior do eixo perpendicular. |
+| Low | `1` | Especifica que os rótulos do eixo devem estar no extremo inferior do eixo perpendicular. |
+| NextTo | `2` | Especifica que os rótulos do eixo devem ficar ao lado do eixo. |
 | None | `3` | Especifica que os rótulos do eixo não são desenhados. |
 
 ### Veja Também

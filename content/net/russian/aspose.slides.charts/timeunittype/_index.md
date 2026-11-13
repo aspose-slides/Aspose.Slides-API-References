@@ -1,12 +1,12 @@
 ---
 title: TimeUnitType
-second_title: Aspose.Sildes для .NET API справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет базовую единицу для оси категорий
 type: docs
-weight: 2460
+weight: 2480
 url: /ru/aspose.slides.charts/timeunittype/
 ---
-## TimeUnitType перечисление
+## Перечисление TimeUnitType
 
 Представляет базовую единицу для оси категорий
 

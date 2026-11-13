@@ -1,9 +1,9 @@
 ---
 title: ThreeDFormat
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Représente les propriétés 3-D.
 type: docs
-weight: 11490
+weight: 11510
 url: /fr/aspose.slides/threedformat/
 ---
 ## ThreeDFormat classe
@@ -16,9 +16,9 @@ public sealed class ThreeDFormat : PVIObject, IThreeDFormat
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'obtenir l'interface de base IPresentationComponent. Lecture seule [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'obtenir l'interface IPresentationComponent de base. Lecture seule [`IPresentationComponent`](../ipresentationcomponent). |
 | [BevelBottom](../../aspose.slides/threedformat/bevelbottom) { get; } | Renvoie ou définit le type d'un biseau 3D inférieur. Lecture seule [`IShapeBevel`](../ishapebevel). |
 | [BevelTop](../../aspose.slides/threedformat/beveltop) { get; } | Renvoie ou définit le type d'un biseau 3D supérieur. Lecture seule [`IShapeBevel`](../ishapebevel). |
 | [Camera](../../aspose.slides/threedformat/camera) { get; } | Renvoie ou définit les paramètres d'une caméra. Lecture seule [`ICamera`](../icamera). |
@@ -32,10 +32,10 @@ public sealed class ThreeDFormat : PVIObject, IThreeDFormat
 
 ## Méthodes
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compare avec l'objet spécifié. |
-| [GetEffective](../../aspose.slides/threedformat/geteffective)() | Obtient les données de formatage 3-D effectif avec l'héritage appliqué. |
+| [GetEffective](../../aspose.slides/threedformat/geteffective)() | Obtient les données de formatage 3-D effectives avec l'héritage appliqué. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Renvoie le code de hachage. |
 
 ### Exemples
@@ -47,12 +47,12 @@ L'exemple suivant montre comment ajouter une forme 3D dans une présentation Pow
 // Créer une instance de la classe Presentation.
 using (Presentation pres = new Presentation())
 {
-	// Ajouter une forme en utilisant la méthode AddAutoShape.
+	// Ajouter une forme en utilisant la méthode AddAutoShape
     IAutoShape shape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 200, 150, 200, 200);
 	// Définir le TextFrame et ses propriétés
     shape.TextFrame.Text = "3D";
     shape.TextFrame.Paragraphs[0].ParagraphFormat.DefaultPortionFormat.FontHeight = 64;
-	// Définir les propriétés de ThreeDFormat
+	// Définir les propriétés ThreeDFormat
     shape.ThreeDFormat.Camera.CameraType = CameraPresetType.OrthographicFront;
     shape.ThreeDFormat.Camera.SetRotation(20, 30, 40);
     shape.ThreeDFormat.LightRig.LightType = LightRigPresetType.Flat;
@@ -61,12 +61,12 @@ using (Presentation pres = new Presentation())
     shape.ThreeDFormat.ExtrusionHeight = 100;
     shape.ThreeDFormat.ExtrusionColor.Color = Color.Blue;
     pres.Slides[0].GetThumbnail(2, 2).Save("sample_3d.png");
-	// Enregistrer le fichier Presentation.
+	// Enregistrer le fichier Presentation
     pres.Save("sandbox_3d.pptx", SaveFormat.Pptx);
 }
 ```
 
-L'exemple suivant montre comment appliquer un effet de dégradé à une forme 3D dans une présentation PowerPoint.
+L'exemple suivant montre comment appliquer un effet Dégradé à une forme 3D dans une présentation PowerPoint.
 
 ```csharp
 [C#]
@@ -82,7 +82,7 @@ using (Presentation pres = new Presentation())
 	shape.FillFormat.FillType = FillType.Gradient;
     shape.FillFormat.GradientFormat.GradientStops.Add(0, Color.Blue);
     shape.FillFormat.GradientFormat.GradientStops.Add(100, Color.Orange);
-	// Définir les propriétés de ThreeDFormat
+	// Définir les propriétés ThreeDFormat
     shape.ThreeDFormat.Camera.CameraType = CameraPresetType.OrthographicFront;
     shape.ThreeDFormat.Camera.SetRotation(20, 30, 40);
     shape.ThreeDFormat.LightRig.LightType = LightRigPresetType.Flat;
@@ -91,12 +91,12 @@ using (Presentation pres = new Presentation())
     shape.ThreeDFormat.ExtrusionHeight = 100;
     shape.ThreeDFormat.ExtrusionColor.Color = Color.Blue;
     pres.Slides[0].GetThumbnail(2, 2).Save("sample_3d.png");
-	// Enregistrer le fichier Presentation.
+	// Enregistrer le fichier Presentation
     pres.Save("sandbox_3d.pptx", SaveFormat.Pptx);
 }
 ```
 
-L'exemple suivant montre comment appliquer un effet 3D sur du texte. Pour créer du texte 3D, il est possible d'utiliser l'effet de transformation WordArt.
+L'exemple suivant montre comment appliquer un effet 3D au texte. Pour créer un texte 3D, il est possible d'utiliser l'effet de transformation WordArt.
 
 ```csharp
 [C#]
@@ -110,7 +110,7 @@ using (Presentation pres = new Presentation())
 	// Configurer FillFormat.FillType comme FillType.NoFill
 	shape.FillFormat.FillType = FillType.NoFill;
     shape.LineFormat.FillFormat.FillType = FillType.NoFill;
-	// Configurer la Portion du TextFrame et les propriétés de PortionFormat
+	// Configurer la Portion du TextFrame et définir les propriétés de PortionFormat
 	Portion portion = (Portion)shape.TextFrame.Paragraphs[0].Portions[0];
     portion.PortionFormat.FillFormat.FillType = FillType.Pattern;
     portion.PortionFormat.FillFormat.PatternFormat.ForeColor.Color = Color.DarkOrange;
@@ -129,7 +129,7 @@ using (Presentation pres = new Presentation())
     textFrame.TextFrameFormat.ThreeDFormat.LightRig.SetRotation(0, 0, 40);
     textFrame.TextFrameFormat.ThreeDFormat.Camera.CameraType = CameraPresetType.PerspectiveContrastingRightFacing;
     pres.Slides[0].GetThumbnail(2, 2).Save("text3d.png");
-	// Enregistrer le fichier Presentation.
+	// Enregistrer le fichier Presentation
      pres.Save("text3d.pptx", SaveFormat.Pptx);
 }
 ```

@@ -1,14 +1,14 @@
 ---
 title: IMasterNotesSlide
-second_title: Справочник API Aspose.Sildes для .NET
-description: Представляет мастер-слайд для заметок.
+second_title: Aspose.Sildes для .NET справочник API
+description: Представляет главный слайд для заметок.
 type: docs
-weight: 6390
+weight: 6410
 url: /ru/aspose.slides/imasternotesslide/
 ---
 ## IMasterNotesSlide интерфейс
 
-Представляет мастер-слайд для заметок.
+Представляет главный слайд заметок.
 
 ```csharp
 public interface IMasterNotesSlide : IBaseSlide, IMasterThemeable
@@ -18,13 +18,13 @@ public interface IMasterNotesSlide : IBaseSlide, IMasterThemeable
 
 | Имя | Описание |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasternotesslide/asibaseslide) { get; } | Позволяет получить базовый IBaseSlide интерфейс. Только для чтения [`IBaseSlide`](../ibaseslide). |
-| [AsIMasterThemeable](../../aspose.slides/imasternotesslide/asimasterthemeable) { get; } | Возвращает интерфейс IMoolMasterThemeable. Только для чтения [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [DrawingGuides](../../aspose.slides/imasternotesslide/drawingguides) { get; } | Возвращает коллекцию направляющих рисунка для мастер-слайда заметок. Только для чтения [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HeaderFooterManager](../../aspose.slides/imasternotesslide/headerfootermanager) { get; } | Возвращает менеджер HeaderFooter мастер-слайда заметок. Только для чтения [`IMasterNotesSlideHeaderFooterManager`](../imasternotesslideheaderfootermanager). |
+| [AsIBaseSlide](../../aspose.slides/imasternotesslide/asibaseslide) { get; } | Позволяет получить базовый интерфейс IBaseSlide. Только для чтения [`IBaseSlide`](../ibaseslide). |
+| [AsIMasterThemeable](../../aspose.slides/imasternotesslide/asimasterthemeable) { get; } | Возвращает интерфейс IMasterThemeable. Только для чтения [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
+| [DrawingGuides](../../aspose.slides/imasternotesslide/drawingguides) { get; } | Возвращает коллекцию направляющих рисования для главного слайда заметок. Только для чтения [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HeaderFooterManager](../../aspose.slides/imasternotesslide/headerfootermanager) { get; } | Возвращает менеджер HeaderFooter главного слайда заметок. Только для чтения [`IMasterNotesSlideHeaderFooterManager`](../imasternotesslideheaderfootermanager). |
 | [NotesStyle](../../aspose.slides/imasternotesslide/notesstyle) { get; } | Возвращает стиль текста заметок. Только для чтения [`ITextStyle`](../itextstyle). |
 
-### См. также
+### Смотрите также
 
 * интерфейс [IBaseSlide](../ibaseslide)
 * интерфейс [IMasterThemeable](../../aspose.slides.theme/imasterthemeable)

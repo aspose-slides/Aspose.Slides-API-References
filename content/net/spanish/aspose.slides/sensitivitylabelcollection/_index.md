@@ -3,10 +3,10 @@ title: SensitivityLabelCollection
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una colección de etiquetas de sensibilidad aplicadas al documento.
 type: docs
-weight: 9810
+weight: 9830
 url: /es/aspose.slides/sensitivitylabelcollection/
 ---
-## Clase SensitivityLabelCollection
+## SensitivityLabelCollection clase
 
 Representa una colección de etiquetas de sensibilidad aplicadas al documento.
 
@@ -30,7 +30,7 @@ public sealed class SensitivityLabelCollection : DomObject<Presentation>,
 | [Add](../../aspose.slides/sensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | Agrega la etiqueta de sensibilidad al final de la colección. |
 | [Clear](../../aspose.slides/sensitivitylabelcollection/clear)() | Elimina todos los elementos de la colección. |
 | [CopyTo](../../aspose.slides/sensitivitylabelcollection/copyto)(ISensitivityLabel[], int) | Copia todos los elementos de la colección al array especificado. |
-| [GetEnumerator](../../aspose.slides/sensitivitylabelcollection/getenumerator)() | Devuelve un enumerador que itera a través de la colección. |
+| [GetEnumerator](../../aspose.slides/sensitivitylabelcollection/getenumerator)() | Devuelve un enumerador que recorre la colección. |
 | [RemoveAt](../../aspose.slides/sensitivitylabelcollection/removeat)(int) | Elimina la etiqueta de sensibilidad en el índice especificado. |
 
 ### Ver también

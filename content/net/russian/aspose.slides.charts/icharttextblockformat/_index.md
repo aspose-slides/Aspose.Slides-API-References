@@ -1,14 +1,14 @@
 ---
 title: IChartTextBlockFormat
-second_title: Aspose.Sildes для .NET — справочник API
-description: Представляет свойства форматирования для текстовых элементов диаграммы.
+second_title: Aspose.Sildes для .NET, справочник API
+description: Представляет свойства форматирования для элементов текста диаграммы.
 type: docs
-weight: 1980
+weight: 2000
 url: /ru/aspose.slides.charts/icharttextblockformat/
 ---
 ## IChartTextBlockFormat интерфейс
 
-Представляет свойства форматирования для текстовых элементов диаграммы.
+Представляет свойства форматирования для элементов текста диаграммы.
 
 ```csharp
 public interface IChartTextBlockFormat
@@ -19,15 +19,15 @@ public interface IChartTextBlockFormat
 | Имя | Описание |
 | --- | --- |
 | [AnchoringType](../../aspose.slides.charts/icharttextblockformat/anchoringtype) { get; set; } | Возвращает или задает вертикальное привязывание текста в TextFrame. Чтение/запись [`TextAnchorType`](../../aspose.slides/textanchortype). |
-| [AutofitType](../../aspose.slides.charts/icharttextblockformat/autofittype) { get; set; } | Возвращает или задает режим автоматической подгонки текста. Изменение этого свойства может оказывать определённое влияние только на следующие части диаграммы: DataLabel и DataLabelFormat (полная поддержка в PowerPoint 2013; в PowerPoint 2007 нет эффекта при отображении). Чтение/запись [`TextAutofitType`](../../aspose.slides/textautofittype). |
-| [CenterText](../../aspose.slides.charts/icharttextblockformat/centertext) { get; set; } | Если NullableBool.True, то текст должен быть центрирован в рамке по горизонтали. Чтение/запись [`NullableBool`](../../aspose.slides/nullablebool). |
-| [MarginBottom](../../aspose.slides.charts/icharttextblockformat/marginbottom) { get; set; } | Возвращает или задает нижний отступ (в пунктах) в TextFrame. Изменение этого свойства может оказывать определённое влияние только на следующие части диаграммы: DataLabel и DataLabelFormat (полная поддержка в PowerPoint 2013; в PowerPoint 2007 нет эффекта при отображении). Чтение/запись Double. |
-| [MarginLeft](../../aspose.slides.charts/icharttextblockformat/marginleft) { get; set; } | Возвращает или задает левый отступ (в пунктах) в TextFrame. Изменение этого свойства может оказывать определённое влияние только на следующие части диаграммы: DataLabel и DataLabelFormat (полная поддержка в PowerPoint 2013; в PowerPoint 2007 нет эффекта при отображении). Чтение/запись Double. |
-| [MarginRight](../../aspose.slides.charts/icharttextblockformat/marginright) { get; set; } | Возвращает или задает правый отступ (в пунктах) в TextFrame. Изменение этого свойства может оказывать определённое влияние только на следующие части диаграммы: DataLabel и DataLabelFormat (полная поддержка в PowerPoint 2013; в PowerPoint 2007 нет эффекта при отображении). Чтение/запись Double. |
-| [MarginTop](../../aspose.slides.charts/icharttextblockformat/margintop) { get; set; } | Возвращает или задает верхний отступ (в пунктах) в TextFrame. Изменение этого свойства может оказывать определённое влияние только на следующие части диаграммы: DataLabel и DataLabelFormat (полная поддержка в PowerPoint 2013; в PowerPoint 2007 нет эффекта при отображении). Чтение/запись Double. |
-| [RotationAngle](../../aspose.slides.charts/icharttextblockformat/rotationangle) { get; set; } | Указывает пользовательский угол вращения, применяемый к тексту внутри ограничивающего блока. Если не указано, используется поворот сопутствующей фигуры. Если указано, то он применяется независимо от фигуры. То есть фигура может иметь собственный поворот, дополнительно к повороту текста. Полученное визуальное значение поворота текста суммируется из этого свойства и предопределённого вертикального типа в свойстве TextVerticalType. Чтение/запись Single. |
-| [TextVerticalType](../../aspose.slides.charts/icharttextblockformat/textverticaltype) { get; set; } | Определяет ориентацию текста. Полученное визуальное значение поворота текста суммируется из этого свойства и пользовательского угла в свойстве RotationAngle. Чтение/запись [`TextVerticalType`](../../aspose.slides/textverticaltype). |
-| [WrapText](../../aspose.slides.charts/icharttextblockformat/wraptext) { get; set; } | **True** если текст переносится на границах TextFrame. Изменение этого свойства может оказывать определённое влияние только на следующие части диаграммы: DataLabel и DataLabelFormat (полная поддержка в PowerPoint 2007/2013). Чтение/запись [`NullableBool`](../../aspose.slides/nullablebool). |
+| [AutofitType](../../aspose.slides.charts/icharttextblockformat/autofittype) { get; set; } | Возвращает или задает режим автоподгонки текста. Изменение этого свойства может оказывать определённое влияние только на следующие части диаграммы: DataLabel и DataLabelFormat (полная поддержка в PowerPoint 2013; в PowerPoint 2007 нет эффекта при рендеринге). Чтение/запись [`TextAutofitType`](../../aspose.slides/textautofittype). |
+| [CenterText](../../aspose.slides.charts/icharttextblockformat/centertext) { get; set; } | Если NullableBool.True, то текст должен быть центрирован горизонтально в коробке. Чтение/запись [`NullableBool`](../../aspose.slides/nullablebool). |
+| [MarginBottom](../../aspose.slides.charts/icharttextblockformat/marginbottom) { get; set; } | Возвращает или задает нижний отступ (points) в TextFrame. Изменение этого свойства может оказывать определённое влияние только на следующие части диаграммы: DataLabel и DataLabelFormat (полная поддержка в PowerPoint 2013; в PowerPoint 2007 нет эффекта при рендеринге). Чтение/запись Double. |
+| [MarginLeft](../../aspose.slides.charts/icharttextblockformat/marginleft) { get; set; } | Возвращает или задает левый отступ (points) в TextFrame. Изменение этого свойства может оказывать определённое влияние только на следующие части диаграммы: DataLabel и DataLabelFormat (полная поддержка в PowerPoint 2013; в PowerPoint 2007 нет эффекта при рендеринге). Чтение/запись Double. |
+| [MarginRight](../../aspose.slides.charts/icharttextblockformat/marginright) { get; set; } | Возвращает или задает правый отступ (points) в TextFrame. Изменение этого свойства может оказывать определённое влияние только на следующие части диаграммы: DataLabel и DataLabelFormat (полная поддержка в PowerPoint 2013; в PowerPoint 2007 нет эффекта при рендеринге). Чтение/запись Double. |
+| [MarginTop](../../aspose.slides.charts/icharttextblockformat/margintop) { get; set; } | Возвращает или задает верхний отступ (points) в TextFrame. Изменение этого свойства может оказывать определённое влияние только на следующие части диаграммы: DataLabel и DataLabelFormat (полная поддержка в PowerPoint 2013; в PowerPoint 2007 нет эффекта при рендеринге). Чтение/запись Double. |
+| [RotationAngle](../../aspose.slides.charts/icharttextblockformat/rotationangle) { get; set; } | Указывает пользовательский угол поворота, применяемый к тексту внутри ограничивающего прямоугольника. Если он не указан, используется поворот сопутствующей фигуры. Если указан, то он применяется независимо от фигуры. То есть фигура может иметь поворот, дополнительно к повороту самого текста. Получаемое значение визуального поворота текста суммируется из этого свойства и заданного вертикального типа в свойстве TextVerticalType. Чтение/запись Single. |
+| [TextVerticalType](../../aspose.slides.charts/icharttextblockformat/textverticaltype) { get; set; } | Определяет ориентацию текста. Получаемое значение визуального поворота текста суммируется из этого свойства и пользовательского угла в свойстве RotationAngle. Чтение/запись [`TextVerticalType`](../../aspose.slides/textverticaltype). |
+| [WrapText](../../aspose.slides.charts/icharttextblockformat/wraptext) { get; set; } | **True**, если текст переносится по границам TextFrame. Изменение этого свойства может оказывать определённое влияние только на следующие части диаграммы: DataLabel и DataLabelFormat (полная поддержка в PowerPoint 2007/2013). Чтение/запись [`NullableBool`](../../aspose.slides/nullablebool). |
 
 ### См. также
 

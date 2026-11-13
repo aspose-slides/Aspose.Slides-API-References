@@ -1,14 +1,14 @@
 ---
 title: TabAlignment
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili penyelarasan tab.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili perataan tab.
 type: docs
-weight: 10830
+weight: 10850
 url: /id/aspose.slides/tabalignment/
 ---
-## enumerasi TabAlignment
+## TabAlignment enumerasi
 
-Mewakili penyelarasan tab.
+Mewakili perataan tab.
 
 ```csharp
 public enum TabAlignment
@@ -18,10 +18,10 @@ public enum TabAlignment
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| Left | `0` | penyelarasan kiri |
-| Center | `1` | penyelarasan tengah |
-| Right | `2` | penyelarasan kanan |
-| Decimal | `3` | penyelarasan Decimal |
+| Left | `0` | Left perataan |
+| Center | `1` | Center perataan |
+| Right | `2` | Right perataan |
+| Decimal | `3` | Decimal perataan |
 
 ### Lihat Juga
 

@@ -1,14 +1,14 @@
 ---
 title: GetFonts
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Trả về các phông chữ được sử dụng trong bản trình chiếu
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Trả về các phông chữ được sử dụng trong bài thuyết trình
 type: docs
-weight: 70
+weight: 80
 url: /vi/aspose.slides/ifontsmanager/getfonts/
 ---
 ## IFontsManager.GetFonts phương thức
 
-Trả về các phông chữ được sử dụng trong bản trình chiếu
+Trả về các phông chữ được sử dụng trong bài thuyết trình
 
 ```csharp
 public IFontData[] GetFonts()
@@ -16,7 +16,7 @@ public IFontData[] GetFonts()
 
 ### Giá trị trả về
 
-Một mảng phông chữ
+Một mảng các phông chữ
 
 ### Xem thêm
 

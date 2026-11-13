@@ -3,12 +3,12 @@ title: IMasterSlideCollection
 second_title: Aspose.Sildes για .NET API Αναφορά
 description: Αναπαριστά μια συλλογή από κύριες διαφάνειες.
 type: docs
-weight: 6430
+weight: 6450
 url: /el/aspose.slides/imasterslidecollection/
 ---
 ## IMasterSlideCollection διασύνδεση
 
-Αναπαριστά μια συλλογή από κύριες διαφάνειες.
+Αντιπροσωπεύει μια συλλογή από κύριες διαφάνειες.
 
 ```csharp
 public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
@@ -18,17 +18,17 @@ public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Item](../../aspose.slides/imasterslidecollection/item) { get; } | Επιστρέφει το στοιχείο στο καθορισμένο δείκτη. Μόνο για ανάγνωση [`IMasterSlide`](../imasterslide). |
+| [Item](../../aspose.slides/imasterslidecollection/item) { get; } | Λαμβάνει το στοιχείο στη συγκεκριμένη θέση. Μόνο για ανάγνωση [`IMasterSlide`](../imasterslide). |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | Προσθέτει ένα αντίγραφο μιας καθορισμένης κύριας διαφάνειας στο τέλος της συλλογής. Θα αντιγραφούν επίσης οι συνδεδεμένες διαφάνειες διάταξης. |
-| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Εισάγει ένα αντίγραφο μιας καθορισμένης κύριας διαφάνειας στη συγκεκριμένη θέση της συλλογής. Θα αντιγραφούν επίσης οι συνδεδεμένες διαφάνειες διάταξης. |
+| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | Προσθέτει ένα αντίγραφο μιας συγκεκριμένης κύριας διαφάνειας στο τέλος της συλλογής. Οι συνδεδεμένες διαφάνειες διάταξης θα αντιγραφούν επίσης. |
+| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Εισάγει ένα αντίγραφο μιας συγκεκριμένης κύριας διαφάνειας στη συγκεκριμένη θέση της συλλογής. Οι συνδεδεμένες διαφάνειες διάταξης θα αντιγραφούν επίσης. |
 | [Remove](../../aspose.slides/imasterslidecollection/remove)(IMasterSlide) | Αφαιρεί την πρώτη εμφάνιση ενός συγκεκριμένου αντικειμένου από τη συλλογή. |
-| [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | Αφαιρεί το στοιχείο στο καθορισμένο δείκτη της συλλογής. |
-| [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | Αφαιρεί τις αχρησιμοποίητες κύριες διαφάνειες. |
+| [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | Αφαιρεί το στοιχείο στη συγκεκριμένη θέση της συλλογής. |
+| [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | Αφαιρεί αχρησιμοποίητες κύριες διαφάνειες. |
 
 ### Δείτε επίσης
 

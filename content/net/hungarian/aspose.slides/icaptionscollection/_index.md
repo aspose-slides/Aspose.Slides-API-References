@@ -1,14 +1,14 @@
 ---
 title: ICaptionsCollection
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes .NET API Referenciája
 description: A zárt feliratok gyűjteményét képviseli.
 type: docs
-weight: 5440
+weight: 5460
 url: /hu/aspose.slides/icaptionscollection/
 ---
 ## ICaptionsCollection interfész
 
-Egy zárt feliratokból álló gyűjteményt képvisel.
+A zárt feliratok gyűjteményét képviseli.
 
 ```csharp
 public interface ICaptionsCollection : IEnumerable<ICaptions>
@@ -19,17 +19,17 @@ public interface ICaptionsCollection : IEnumerable<ICaptions>
 | Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides/icaptionscollection/count) { get; } | Visszaadja a gyűjtemény elemeinek számát. Csak olvasható Int32. |
-| [Item](../../aspose.slides/icaptionscollection/item) { get; } | Visszaadja a megadott indexű feliratot. Csak olvasható [`ICaptions`](../icaptions). |
+| [Item](../../aspose.slides/icaptionscollection/item) { get; } | Visszaadja a megadott indexű zárt feliratot. Csak olvasható [`ICaptions`](../icaptions). |
 
-## Metódusok
+## Módszerek
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/icaptionscollection/add#add)(string, Stream) | WebVTT feliratokat ad a gyűjtemény végéhez egy adatfolyam alapján. |
-| [Add](../../aspose.slides/icaptionscollection/add#add_1)(string, string) | WebVTT feliratokat ad a gyűjtemény végéhez. |
-| [Clear](../../aspose.slides/icaptionscollection/clear)() | Eltávolítja az összes feliratot a gyűjteményből. |
-| [Remove](../../aspose.slides/icaptionscollection/remove)(ICaptions) | Eltávolítja a megadott feliratot a gyűjteményből. |
-| [RemoveAt](../../aspose.slides/icaptionscollection/removeat)(int) | Eltávolítja a feliratot a megadott indexnél. |
+| [Add](../../aspose.slides/icaptionscollection/add#add)(string, Stream) | WebVTT zárt feliratokat ad a gyűjtemény végéhez egy adatfolyamból. |
+| [Add](../../aspose.slides/icaptionscollection/add#add_1)(string, string) | WebVTT zárt feliratokat ad a gyűjtemény végéhez. |
+| [Clear](../../aspose.slides/icaptionscollection/clear)() | Eltávolítja az összes zárt feliratot a gyűjteményből. |
+| [Remove](../../aspose.slides/icaptionscollection/remove)(ICaptions) | Eltávolítja a megadott zárt feliratokat a gyűjteményből. |
+| [RemoveAt](../../aspose.slides/icaptionscollection/removeat)(int) | Eltávolítja a megadott indexű zárt feliratokat a gyűjteményből. |
 
 ### Lásd még
 

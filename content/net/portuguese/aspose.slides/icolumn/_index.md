@@ -1,9 +1,9 @@
 ---
 title: IColumn
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa uma coluna em uma tabela.
 type: docs
-weight: 5520
+weight: 5540
 url: /pt/aspose.slides/icolumn/
 ---
 ## IColumn interface
@@ -21,9 +21,9 @@ public interface IColumn : IBulkTextFormattable, ICellCollection
 | [AsIBulkTextFormattable](../../aspose.slides/icolumn/asibulktextformattable) { get; } | Permite obter a interface base IBulkTextFormattable. Somente leitura [`IBulkTextFormattable`](../ibulktextformattable). |
 | [AsICellCollection](../../aspose.slides/icolumn/asicellcollection) { get; } | Permite obter a interface base ICellCollection. Somente leitura [`ICellCollection`](../icellcollection). |
 | [ColumnFormat](../../aspose.slides/icolumn/columnformat) { get; } | Retorna o objeto ColumnFormat que contém propriedades de formatação para esta coluna. Somente leitura [`IColumnFormat`](../icolumnformat). |
-| [Width](../../aspose.slides/icolumn/width) { get; set; } | Retorna ou define a largura de uma coluna. Leitura/Gravação Double. |
+| [Width](../../aspose.slides/icolumn/width) { get; set; } | Retorna ou define a largura de uma coluna. Leitura/gravação Double. |
 
-### Ver também
+### Veja Também
 
 * interface [IBulkTextFormattable](../ibulktextformattable)
 * interface [ICellCollection](../icellcollection)

@@ -3,7 +3,7 @@ title: TextAlignment
 second_title: Aspose.Sildes for .NET API リファレンス
 description: さまざまなテキスト配置スタイルを表します。
 type: docs
-weight: 10900
+weight: 10920
 url: /ja/aspose.slides/textalignment/
 ---
 ## TextAlignment 列挙体
@@ -23,8 +23,8 @@ public enum TextAlignment
 | Center | `1` | 中央揃え。 |
 | Right | `2` | 右揃え。 |
 | Justify | `3` | 両端揃え。 |
-| JustifyLow | `4` | Kashida low による均等揃え。 |
-| Distributed | `5` | 分散揃え。 |
+| JustifyLow | `4` | 低いカシーダ両端揃え。 |
+| Distributed | `5` | 分散配置。 |
 
 ### 参照
 

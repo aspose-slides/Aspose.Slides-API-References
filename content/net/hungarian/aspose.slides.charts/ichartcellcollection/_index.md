@@ -1,14 +1,14 @@
 ---
 title: IChartCellCollection
-second_title: Aspose.Sildes .NET API-referencia
-description: Cellákat adatként tartalmazó gyűjteményt képvisel.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Cellákat adatokal tartalmazó gyűjteményt képviseli.
 type: docs
-weight: 1780
+weight: 1800
 url: /hu/aspose.slides.charts/ichartcellcollection/
 ---
 ## IChartCellCollection interfész
 
-A cellákat adatként tartalmazó gyűjteményt képviseli.
+A cellák adatait tartalmazó gyűjteményt képviseli.
 
 ```csharp
 public interface IChartCellCollection : IEnumerable<IChartDataCell>
@@ -16,21 +16,21 @@ public interface IChartCellCollection : IEnumerable<IChartDataCell>
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.charts/ichartcellcollection/asienumerable) { get; } | Az ICollection interfészt adja vissza. Csak olvasható IEnumerable. |
-| [Count](../../aspose.slides.charts/ichartcellcollection/count) { get; } | A gyűjteményben lévő cellák számát adja vissza. Csak olvasható Int32. |
-| [Item](../../aspose.slides.charts/ichartcellcollection/item) { get; } | Az index alapján egy cellát (IChartDataCell) ad vissza. |
+| [AsIEnumerable](../../aspose.slides.charts/ichartcellcollection/asienumerable) { get; } | Visszaadja az ICollection interfészt. Csak olvasható IEnumerable. |
+| [Count](../../aspose.slides.charts/ichartcellcollection/count) { get; } | Lekéri a cellák számát a gyűjteményben. Csak olvasható Int32. |
+| [Item](../../aspose.slides.charts/ichartcellcollection/item) { get; } | Visszaad egy cellát (IChartDataCell) index alapján. |
 
 ## Metódusok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
 | [Add](../../aspose.slides.charts/ichartcellcollection/add#add)(IChartDataCell) | Új cellát ad a gyűjteményhez. |
-| [Add](../../aspose.slides.charts/ichartcellcollection/add#add_1)(object) | Létrehozza a [`IChartDataCell`](../ichartdatacell)-t a megadott értékből, és hozzáadja a gyűjteményhez. |
-| [GetCellsAddress](../../aspose.slides.charts/ichartcellcollection/getcellsaddress)() | A munkafüzet cellakészletének címét adja vissza. |
-| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | Az összes cella karakterlánc értékének összefűzött karakterláncát adja vissza. |
-| [RemoveAt](../../aspose.slides.charts/ichartcellcollection/removeat)(int) | Eltávolít egy cellát a gyűjteményből az index alapján. |
+| [Add](../../aspose.slides.charts/ichartcellcollection/add#add_1)(object) | Létrehozza a [`IChartDataCell`](../ichartdatacell) a megadott értékből, és hozzáadja a gyűjteményhez. |
+| [GetCellsAddress](../../aspose.slides.charts/ichartcellcollection/getcellsaddress)() | Visszaadja a cellakészlet címét a munkafüzetben. |
+| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | Összefűzött karakterláncot ad vissza az összes cella értékéből. |
+| [RemoveAt](../../aspose.slides.charts/ichartcellcollection/removeat)(int) | Eltávolít egy cellát a gyűjteményből index alapján. |
 
 ### Lásd még
 

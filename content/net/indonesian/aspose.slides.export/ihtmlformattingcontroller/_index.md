@@ -1,14 +1,14 @@
 ---
 title: IHtmlFormattingController
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mengontrol pembuatan file html.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mengendalikan pembuatan file html.
 type: docs
-weight: 3950
+weight: 3970
 url: /id/aspose.slides.export/ihtmlformattingcontroller/
 ---
 ## IHtmlFormattingController antarmuka
 
-Mengontrol pembuatan file html.
+Mengendalikan pembuatan file html.
 
 ```csharp
 public interface IHtmlFormattingController
@@ -18,12 +18,12 @@ public interface IHtmlFormattingController
 
 | Nama | Deskripsi |
 | --- | --- |
-| [WriteDocumentEnd](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | Dipanggil untuk menulis footer dokumen html. Dipanggil satu kali per konversi presentasi. |
-| [WriteDocumentStart](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | Dipanggil untuk menulis header dokumen html. Dipanggil satu kali per konversi presentasi. |
-| [WriteShapeEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeshapeend)(IHtmlGenerator, IShape) | Dipanggil sebelum rendering shape. Dipanggil satu kali per masing-masing shape. Jika fungsi ini menulis apa pun ke generator, pembuatan gambar slide saat ini akan selesai, fragmen html yang ditambahkan akan disisipkan dan gambar baru akan dimulai di atas yang sebelumnya. |
-| [WriteShapeStart](../../aspose.slides.export/ihtmlformattingcontroller/writeshapestart)(IHtmlGenerator, IShape) | Dipanggil sebelum rendering shape. Dipanggil satu kali per masing-masing shape. Jika fungsi ini menulis apa pun ke generator, pembuatan gambar slide saat ini akan selesai, fragmen html yang ditambahkan akan disisipkan dan gambar baru akan dimulai di atas yang sebelumnya. |
-| [WriteSlideEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeslideend)(IHtmlGenerator, ISlide) | Dipanggil untuk menulis footer slide html. Dipanggil satu kali per masing-masing slide. |
-| [WriteSlideStart](../../aspose.slides.export/ihtmlformattingcontroller/writeslidestart)(IHtmlGenerator, ISlide) | Dipanggil untuk menulis header slide html. Dipanggil satu kali per masing-masing slide. |
+| [WriteDocumentEnd](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | Dipanggil untuk menulis footer dokumen html. Dipanggil sekali per konversi presentasi. |
+| [WriteDocumentStart](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | Dipanggil untuk menulis header dokumen html. Dipanggil sekali per konversi presentasi. |
+| [WriteShapeEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeshapeend)(IHtmlGenerator, IShape) | Dipanggil sebelum rendering shape. Dipanggil sekali per masing-masing shape. Jika fungsi ini menulis apa pun ke generator, pembuatan gambar slide saat ini akan selesai, fragmen html yang ditambahkan disisipkan, dan gambar baru akan dimulai di atas yang sebelumnya. |
+| [WriteShapeStart](../../aspose.slides.export/ihtmlformattingcontroller/writeshapestart)(IHtmlGenerator, IShape) | Dipanggil sebelum rendering shape. Dipanggil sekali per masing-masing shape. Jika fungsi ini menulis apa pun ke generator, pembuatan gambar slide saat ini akan selesai, fragmen html yang ditambahkan disisipkan, dan gambar baru akan dimulai di atas yang sebelumnya. |
+| [WriteSlideEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeslideend)(IHtmlGenerator, ISlide) | Dipanggil untuk menulis footer slide html. Dipanggil sekali per masing-masing slide. |
+| [WriteSlideStart](../../aspose.slides.export/ihtmlformattingcontroller/writeslidestart)(IHtmlGenerator, ISlide) | Dipanggil untuk menulis header slide html. Dipanggil sekali per masing-masing slide. |
 
 ### Lihat Juga
 

@@ -1,9 +1,9 @@
 ---
 title: ITableFormat
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes a .NET-hez API hivatkozás
 description: A táblázat formátumát képviseli.
 type: docs
-weight: 7240
+weight: 7260
 url: /hu/aspose.slides/itableformat/
 ---
 ## ITableFormat interfész
@@ -16,16 +16,16 @@ public interface ITableFormat
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [FillFormat](../../aspose.slides/itableformat/fillformat) { get; } | Visszaad egy táblázat kitöltés tulajdonságok objektumot. Csak olvasható [`IFillFormat`](../ifillformat). |
-| [Transparency](../../aspose.slides/itableformat/transparency) { get; set; } | Lekérdezi vagy beállítja a kitöltés szín átlátszóságát. Olvasás/írás Single. |
+| [FillFormat](../../aspose.slides/itableformat/fillformat) { get; } | Visszaad egy táblázat kitöltés tulajdonságait tartalmazó objektumot. Csak olvasható [`IFillFormat`](../ifillformat). |
+| [Transparency](../../aspose.slides/itableformat/transparency) { get; set; } | Megkapja vagy beállítja a kitöltés szín átlátszóságát. Olvasás/írás Single. |
 
-## Módszerek
+## Metódusok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [GetEffective](../../aspose.slides/itableformat/geteffective)() | A hatékony táblázat formázási tulajdonságokat adja vissza, figyelembe véve az öröklődést és a táblázat stílusokat. |
+| [GetEffective](../../aspose.slides/itableformat/geteffective)() | Lekéri a hatékony táblázatformázási tulajdonságokat öröklődéssel és alkalmazott tábla stílusokkal. |
 
 ### Lásd még
 

@@ -1,12 +1,12 @@
 ---
 title: VideoPlayerHtmlControllerFactory
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: VideoPlayerHtmlController를 생성할 수 있습니다.
 type: docs
-weight: 4590
+weight: 4610
 url: /ko/aspose.slides.export/videoplayerhtmlcontrollerfactory/
 ---
-## VideoPlayerHtmlControllerFactory 클래스
+## VideoPlayerHtmlController 클래스
 
 VideoPlayerHtmlController를 생성할 수 있습니다.
 
@@ -16,19 +16,19 @@ public class VideoPlayerHtmlControllerFactory : IVideoPlayerHtmlControllerFactor
 
 ## 생성자
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [VideoPlayerHtmlControllerFactory](videoplayerhtmlcontrollerfactory)() | 기본 생성자입니다. |
+| [VideoPlayerHtmlControllerFactory](videoplayerhtmlcontrollerfactory)() | 기본 생성자. |
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [CreateVideoPlayerHtmlController](../../aspose.slides.export/videoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller)(string, string, string) | 새로운 `VideoPlayerHtmlController`를 생성합니다. |
+| [CreateVideoPlayerHtmlController](../../aspose.slides.export/videoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller)(string, string, string) | 새 `VideoPlayerHtmlController`를 생성합니다. |
 
 ### 비고
 
-COM 호환성을 위해 제공합니다.
+COM 호환성을 위해.
 
 ### 참조
 

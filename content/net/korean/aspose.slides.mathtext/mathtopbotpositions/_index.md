@@ -1,14 +1,14 @@
 ---
 title: MathTopBotPositions
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 상/하 위치 열거형
+second_title: Aspose.Sildes for .NET API 참조
+description: 위/아래 위치 열거형
 type: docs
-weight: 9040
+weight: 9060
 url: /ko/aspose.slides.mathtext/mathtopbotpositions/
 ---
 ## MathTopBotPositions 열거형
 
-상/하 위치 열거형
+위/아래 위치 열거형
 
 ```csharp
 public enum MathTopBotPositions
@@ -16,7 +16,7 @@ public enum MathTopBotPositions
 
 ### 값
 
-| 이름 | 값 | 설명 |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `0` | 정의되지 않음 |
 | Top | `1` | 위 |

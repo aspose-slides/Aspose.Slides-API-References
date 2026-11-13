@@ -1,14 +1,14 @@
 ---
 title: EmbeddedWoffFontsHtmlController
-second_title: Aspose.Sildes .NET API Referansı
-description: WOFF biçiminde font gömme için kullanılacak biçimlendirme denetleyici sınıfı
+second_title: Aspose.Sildes for .NET API Referansı
+description: WOFF formatında fontları gömmek için kullanılacak biçimlendirme denetleyici sınıfı
 type: docs
-weight: 3790
+weight: 3810
 url: /tr/aspose.slides.export/embeddedwofffontshtmlcontroller/
 ---
 ## EmbeddedWoffFontsHtmlController sınıfı
 
-WOFF biçiminde font gömme işlemi için kullanılacak biçimlendirme denetleyici sınıfı
+WOFF biçiminde fontları gömmek için kullanılacak biçimlendirme denetleyici sınıfı
 
 ```csharp
 public class EmbeddedWoffFontsHtmlController : IEmbeddedWoffFontsHtmlController

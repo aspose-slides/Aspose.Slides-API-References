@@ -1,14 +1,14 @@
 ---
 title: IOverridableText
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt übersteuerbaren Text für ein Diagramm dar.
+description: Stellt überschreibbaren Text für ein Diagramm dar.
 type: docs
-weight: 2180
+weight: 2200
 url: /de/aspose.slides.charts/ioverridabletext/
 ---
 ## IOverridableText Schnittstelle
 
-Stellt übersteuerbaren Text für ein Diagramm dar.
+Stellt überschreibbaren Text für ein Diagramm dar.
 
 ```csharp
 public interface IOverridableText : IFormattedTextContainer
@@ -18,14 +18,14 @@ public interface IOverridableText : IFormattedTextContainer
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ioverridabletext/asiformattedtextcontainer) { get; } | Ermöglicht das Abrufen der Basis-IFormattedTextContainer-Schnittstelle. Nur lesbar [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | Kann einen reich formatierten Text enthalten. Wenn diese Eigenschaft nicht null ist, überschreibt dieser formatierte Textwert den automatisch generierten Text. Der automatisch generierte Text ist eine implizite Eigenschaft des Datenlabels, des Anzeigeeinheitenlabels der Wertachse, des Achsentitels, des Diagrammtitels, des Labels der Trendlinie. Der automatisch generierte Text wird mit der IFormattedTextContainer.TextFormat-Eigenschaft formatiert. Nur lesbar [`ITextFrame`](../../aspose.slides/itextframe). |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ioverridabletext/asiformattedtextcontainer) { get; } | Ermöglicht das Abrufen der Basis IFormattedTextContainer Schnittstelle. Nur lesbar [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | Kann einen reich formatierten Text enthalten. Wenn diese Eigenschaft nicht null ist, überschreibt dieser formatierte Textwert automatisch generierten Text. Automatisch generierter Text ist eine implizite Eigenschaft des Datenetiketts, des Anzeigeeinheitslabels der Werteachse, des Achsentitels, des Diagrammtitels, des Labels der Trendlinie. Automatisch generierter Text wird mit der IFormattedTextContainer.TextFormat Eigenschaft formatiert. Nur lesbar [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/addtextframeforoverriding)(string) | Initialisiert TextFrameForOverriding mit dem Text im Parameter "text". Wenn TextFrameForOverriding bereits initialisiert ist, ändert er einfach seinen Text. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/addtextframeforoverriding)(string) | Initialisiert TextFrameForOverriding mit dem Text im Parameter "text". Wenn TextFrameForOverriding bereits initialisiert ist, wird dessen Text einfach geändert. |
 
 ### Siehe auch
 

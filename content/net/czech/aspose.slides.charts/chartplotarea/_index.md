@@ -1,37 +1,37 @@
 ---
 title: ChartPlotArea
-second_title: Aspose.Sildes pro .NET referenční příručku API
+second_title: Aspose.Sildes pro .NET – reference API
 description: Reprezentuje obdélník, kde by měl být graf vykreslen.
 type: docs
-weight: 1420
+weight: 1430
 url: /cs/aspose.slides.charts/chartplotarea/
 ---
 ## ChartPlotArea třída
 
-Reprezentuje obdélník, ve kterém by měl být graf vykreslen.
+Reprezentuje obdélník, kde by měl být graf vykreslen.
 
 ```csharp
 public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
 ```
 
-## Vlastnosti
+## Properties
 
 | Název | Popis |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | Určuje aktuální výšku prvku grafu. Zavolejte metodu IChart.ValidateChartLayout() předtím, abyste získali skutečné hodnoty. Pouze pro čtení Single. |
-| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | Určuje aktuální šířku prvku grafu. Zavolejte metodu IChart.ValidateChartLayout() předtím, abyste získali skutečné hodnoty. Pouze pro čtení Single. |
-| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | Určuje aktuální polohu x (vlevo) prvku grafu vzhledem k levému hornímu rohu grafu. Zavolejte metodu IChart.ValidateChartLayout() předtím, abyste získali skutečné hodnoty. Pouze pro čtení Single. |
-| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | Určuje aktuální horní okraj prvku grafu vzhledem k levému hornímu rohu grafu. Zavolejte metodu IChart.ValidateChartLayout() předtím, abyste získali skutečné hodnoty. Pouze pro čtení Single. |
-| [Bottom](../../aspose.slides.charts/chartplotarea/bottom) { get; } | Dolní okraj. Pouze pro čtení Single. |
+| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | Určuje skutečnou výšku prvku grafu. Předtím zavolejte metodu IChart.ValidateChartLayout() pro získání skutečných hodnot. Čtení Single. |
+| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | Určuje skutečnou šířku prvku grafu. Předtím zavolejte metodu IChart.ValidateChartLayout() pro získání skutečných hodnot. Čtení Single. |
+| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | Určuje skutečnou souřadnici x (levá) prvku grafu vzhledem k levému hornímu rohu grafu. Předtím zavolejte metodu IChart.ValidateChartLayout() pro získání skutečných hodnot. Čtení Single. |
+| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | Určuje skutečnou horní část prvku grafu vzhledem k levému hornímu rohu grafu. Předtím zavolejte metodu IChart.ValidateChartLayout() pro získání skutečných hodnot. Čtení Single. |
+| [Bottom](../../aspose.slides.charts/chartplotarea/bottom) { get; } | Spodní. Pouze pro čtení Single. |
 | [Chart](../../aspose.slides.charts/chartplotarea/chart) { get; } | Graf. Pouze pro čtení [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | Vrací formát oblasti vykreslení. Pouze pro čtení [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | Vrací nebo nastavuje výšku ohraničujícího rámečku oblasti vykreslení jako zlomek výšky grafu (od 0 do 1). Čtení/zápis Single. |
-| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | Definuje, jak má být umístění vypočítáno: true – vypočítáno automaticky; definováno pomocí vlastností X, Y, Width, Height. Pouze pro čtení Boolean. |
-| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | Pokud je rozvržení oblasti vykreslení definováno ručně, tato vlastnost určuje, zda rozvrhnout oblast vykreslení podle jejího vnitřku (bez os a popisků os) nebo podle vnějšího okraje (s osami a popisky os). Čtení/zápis [`LayoutTargetType`](./layouttargettype). |
-| [Right](../../aspose.slides.charts/chartplotarea/right) { get; } | Pravý okraj. Pouze pro čtení Single. |
-| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | Vrací nebo nastavuje šířku ohraničujícího rámečku oblasti vykreslení jako zlomek šířky grafu (od 0 do 1). Čtení/zápis Single. |
-| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | Vrací nebo nastavuje souřadnici x levého horního rohu ohraničujícího rámečku oblasti vykreslení jako zlomek šířky grafu (od 0 do 1). Čtení/zápis Single. |
-| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | Vrací nebo nastavuje souřadnici y levého horního rohu ohraničujícího rámečku oblasti vykreslení jako zlomek výšky grafu (od 0 do 1). Čtení/zápis Single. |
+| [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | Vrací formát oblasti vykreslování. Pouze pro čtení [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | Vrací nebo nastavuje výšku ohraničujícího rámečku oblasti vykreslování jako zlomek výšky grafu (od 0 do 1). Čtení/zápis Single. |
+| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | Definuje, jak by měla být poloha vypočítána: true – vypočítáno automaticky; definováno pomocí vlastností X, Y, Width, Height. Pouze pro čtení Boolean. |
+| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | Pokud je rozložení oblasti vykreslování definováno ručně, tato vlastnost určuje, zda rozvrhnout oblast vykreslování podle jejího vnitřku (bez os a popisků os) nebo podle vnějšího okraje (s osami a popisky os). Čtení/zápis [`LayoutTargetType`](./layouttargettype). |
+| [Right](../../aspose.slides.charts/chartplotarea/right) { get; } | Vpravo. Pouze pro čtení Single. |
+| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | Vrací nebo nastavuje šířku ohraničujícího rámečku oblasti vykreslování jako zlomek šířky grafu (od 0 do 1). Čtení/zápis Single. |
+| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | Vrací nebo nastavuje souřadnici x levého horního rohu ohraničujícího rámečku oblasti vykreslování jako zlomek šířky grafu (od 0 do 1). Čtení/zápis Single. |
+| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | Vrací nebo nastavuje souřadnici y levého horního rohu ohraničujícího rámečku oblasti vykreslování jako zlomek výšky grafu (od 0 do 1). Čtení/zápis Single. |
 
 ### Viz také
 

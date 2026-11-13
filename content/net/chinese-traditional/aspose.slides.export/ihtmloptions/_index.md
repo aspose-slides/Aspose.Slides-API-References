@@ -1,14 +1,14 @@
 ---
 title: IHtmlOptions
-second_title: Aspose.Sildes .NET API 參考
-description: 表示 HTML 匯出選項。
+second_title: Aspose.Sildes for .NET API 參考
+description: 代表 HTML 匯出選項。
 type: docs
-weight: 3970
+weight: 3990
 url: /zh-hant/aspose.slides.export/ihtmloptions/
 ---
 ## IHtmlOptions 介面
 
-表示 HTML 匯出選項。
+代表 HTML 匯出選項。
 
 ```csharp
 public interface IHtmlOptions : ISaveOptions
@@ -16,19 +16,19 @@ public interface IHtmlOptions : ISaveOptions
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/ihtmloptions/asisaveoptions) { get; } | 返回 ISaveOptions 介面。唯讀 [`ISaveOptions`](../isaveoptions)。 |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/ihtmloptions/deletepicturescroppedareas) { get; set; } | 布林旗標表示裁切的部分是否保留在文件中。如果為 true，裁切的部分將被移除；如果為 false，則會在文件中序列化（這可能導致檔案變大）。可讀寫 Boolean。 |
-| [DisableFontLigatures](../../aspose.slides.export/ihtmloptions/disablefontligatures) { get; set; } | 取得或設定一個值，指示文字是否在渲染時不使用連字。設定為 `true` 時，連字將在輸出中被停用。預設情況下，此屬性設定為 `false`。 |
-| [HtmlFormatter](../../aspose.slides.export/ihtmloptions/htmlformatter) { get; set; } | 返回或設定 HTML 模板。可讀寫 [`IHtmlFormatter`](../ihtmlformatter)。 |
+| [AsISaveOptions](../../aspose.slides.export/ihtmloptions/asisaveoptions) { get; } | 傳回 ISaveOptions 介面。唯讀 [`ISaveOptions`](../isaveoptions)。 |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/ihtmloptions/deletepicturescroppedareas) { get; set; } | 布林旗標指出裁剪的部份是否保留在文件中。如果 true，裁剪的部份將被移除；如果 false，則會在文件中序列化（這可能導致檔案變大）。可讀寫 Boolean。 |
+| [DisableFontLigatures](../../aspose.slides.export/ihtmloptions/disablefontligatures) { get; set; } | 取得或設定指示文字是否在不使用連字的情況下呈現的值。設定為 `true` 時，連字將在輸出中被停用。預設情況下，此屬性設定為 `false`。 |
+| [HtmlFormatter](../../aspose.slides.export/ihtmloptions/htmlformatter) { get; set; } | 傳回或設定 HTML 範本。可讀寫 [`IHtmlFormatter`](../ihtmlformatter)。 |
 | [InkOptions](../../aspose.slides.export/ihtmloptions/inkoptions) { get; } | 提供控制匯出文件中 Ink 物件外觀的選項。唯讀 [`IInkOptions`](../iinkoptions) |
-| [JpegQuality](../../aspose.slides.export/ihtmloptions/jpegquality) { get; set; } | 返回或設定一個值，以決定 PDF 文件中 JPEG 圖片的品質。可讀寫 Byte。 |
+| [JpegQuality](../../aspose.slides.export/ihtmloptions/jpegquality) { get; set; } | 傳回或設定決定 PDF 文件內 JPEG 圖片品質的值。可讀寫 Byte。 |
 | [PicturesCompression](../../aspose.slides.export/ihtmloptions/picturescompression) { get; set; } | 表示圖片壓縮等級。可讀寫 [`PicturesCompression`](./picturescompression)。 |
 | [ShowHiddenSlides](../../aspose.slides.export/ihtmloptions/showhiddenslides) { get; set; } | 指定產生的文件是否應包含隱藏投影片。預設為 `false`。 |
-| [SlideImageFormat](../../aspose.slides.export/ihtmloptions/slideimageformat) { get; set; } | 返回或設定投影片影像格式選項。可讀寫 [`ISlideImageFormat`](../islideimageformat)。 |
-| [SlidesLayoutOptions](../../aspose.slides.export/ihtmloptions/slideslayoutoptions) { get; set; } | 取得或設定匯出簡報時投影片在頁面上的放置模式 [`ISlidesLayoutOptions`](../islideslayoutoptions)。 |
-| [SvgResponsiveLayout](../../aspose.slides.export/ihtmloptions/svgresponsivelayout) { get; set; } | True 表示從 SVG 容器中排除寬度和高度屬性——這將使版面配置具回應式。False 表示保留。可讀寫 Boolean。 |
+| [SlideImageFormat](../../aspose.slides.export/ihtmloptions/slideimageformat) { get; set; } | 傳回或設定投影片圖像格式選項。可讀寫 [`ISlideImageFormat`](../islideimageformat)。 |
+| [SlidesLayoutOptions](../../aspose.slides.export/ihtmloptions/slideslayoutoptions) { get; set; } | 取得或設定匯出簡報時投影片在頁面上的排列模式 [`ISlidesLayoutOptions`](../islideslayoutoptions)。 |
+| [SvgResponsiveLayout](../../aspose.slides.export/ihtmloptions/svgresponsivelayout) { get; set; } | 若為 true，則會從 SVG 容器中排除寬度和高度屬性——此舉將使版面配置具備回應式。若為 false，則不排除。可讀寫 Boolean。 |
 
 ### 另請參閱
 

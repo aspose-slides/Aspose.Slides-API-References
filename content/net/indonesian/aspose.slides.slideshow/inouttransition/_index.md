@@ -3,7 +3,7 @@ title: InOutTransition
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Efek transisi slide masuk-keluar.
 type: docs
-weight: 10230
+weight: 10250
 url: /id/aspose.slides.slideshow/inouttransition/
 ---
 ## InOutTransition kelas
@@ -16,13 +16,13 @@ public class InOutTransition : TransitionValueBase, IInOutTransition
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/inouttransition/direction) { get; set; } | Arah efek transisi. Baca/tulis [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 
 ## Metode
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Menentukan apakah dua instance TransitionValueBase sama. |
 | override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Berfungsi sebagai fungsi hash untuk tipe tertentu, cocok untuk digunakan dalam algoritma hashing dan struktur data seperti tabel hash. |

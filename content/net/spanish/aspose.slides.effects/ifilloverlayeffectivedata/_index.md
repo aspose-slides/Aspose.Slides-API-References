@@ -3,7 +3,7 @@ title: IFillOverlayEffectiveData
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Objeto inmutable que representa un efecto de superposición de relleno. Una superposición de relleno puede usarse para especificar un relleno adicional para un objeto y combinar los dos rellenos.
 type: docs
-weight: 3310
+weight: 3330
 url: /es/aspose.slides.effects/ifilloverlayeffectivedata/
 ---
 ## IFillOverlayEffectiveData interfaz
@@ -18,9 +18,9 @@ public interface IFillOverlayEffectiveData : IEffectEffectiveData
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ifilloverlayeffectivedata/asieffecteffectivedata) { get; } | Permite obtener la interfaz base IEffectEffectiveData. Sólo lectura [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Blend](../../aspose.slides.effects/ifilloverlayeffectivedata/blend) { get; } | FillBlendMode. Sólo lectura [`FillBlendMode`](../../aspose.slides/fillblendmode). |
-| [FillFormat](../../aspose.slides.effects/ifilloverlayeffectivedata/fillformat) { get; } | Formato de relleno. Sólo lectura [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ifilloverlayeffectivedata/asieffecteffectivedata) { get; } | Permite obtener la interfaz base IEffectEffectiveData. Solo lectura [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Blend](../../aspose.slides.effects/ifilloverlayeffectivedata/blend) { get; } | FillBlendMode. Solo lectura [`FillBlendMode`](../../aspose.slides/fillblendmode). |
+| [FillFormat](../../aspose.slides.effects/ifilloverlayeffectivedata/fillformat) { get; } | Formato de relleno. Solo lectura [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
 
 ### Ver también
 

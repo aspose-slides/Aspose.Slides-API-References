@@ -1,14 +1,14 @@
 ---
 title: CrossesType
-second_title: Aspose.Sildes para .NET API Reference
+second_title: Aspose.Sildes para Referência de API .NET
 description: Determina onde o eixo cruzará.
 type: docs
-weight: 1540
+weight: 1550
 url: /pt/aspose.slides.charts/crossestype/
 ---
 ## enumeração CrossesType
 
-Determina onde o eixo cruzará.
+Determina onde o eixo cruza.
 
 ```csharp
 public enum CrossesType
@@ -18,11 +18,11 @@ public enum CrossesType
 
 | Nome | Valor | Descrição |
 | --- | --- | --- |
-| AxisCrossesAtZero | `0` | O eixo de categoria cruza no ponto zero do eixo de valores (se possível), ou no valor mínimo (se o mínimo for maior que zero) ou no máximo (se o máximo for menor que zero). |
+| AxisCrossesAtZero | `0` | O eixo de categorias cruza no ponto zero do eixo de valores (se possível), ou no valor mínimo (se o mínimo for maior que zero) ou no máximo (se o máximo for menor que zero). |
 | Maximum | `1` | O eixo cruza no valor máximo. |
 | Custom | `2` | Valor personalizado da propriedade CrossAt |
 
-### Veja Também
+### Veja também
 
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

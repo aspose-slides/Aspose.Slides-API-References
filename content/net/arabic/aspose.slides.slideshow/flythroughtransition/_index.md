@@ -1,14 +1,14 @@
 ---
 title: FlyThroughTransition
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: تأثير انتقال شريحة طائر.
+description: تأثير انتقال شريحة Fly-through.
 type: docs
-weight: 10040
+weight: 10060
 url: /ar/aspose.slides.slideshow/flythroughtransition/
 ---
 ## FlyThroughTransition فئة
 
-تأثير انتقال شريحة طائر.
+تأثير انتقال شريحة Fly-through.
 
 ```csharp
 public class FlyThroughTransition : TransitionValueBase, IFlyThroughTransition
@@ -25,8 +25,8 @@ public class FlyThroughTransition : TransitionValueBase, IFlyThroughTransition
 
 | الاسم | الوصف |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | يحدد ما إذا كانت كائنتا TransitionValueBase متساويتين. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | يعمل كدالة تجزئة لنوع معين، مناسبة للاستخدام في خوارزميات التجزئة والهياكل البيانية مثل جدول التجزئة. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | يحدد ما إذا كان مثليا TransitionValueBase متساويين. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | يعمل كدالة تجزئة لنوع معين، مناسبة للاستخدام في خوارزميات التجزئة وهياكل البيانات مثل جدول التجزئة. |
 
 ### انظر أيضًا
 

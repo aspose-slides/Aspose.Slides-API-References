@@ -1,9 +1,9 @@
 ---
 title: EmptyTransition
-second_title: Aspose.Sildes dla dokumentacji API .NET
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Pusty efekt przejścia slajdu.
 type: docs
-weight: 10030
+weight: 10050
 url: /pl/aspose.slides.slideshow/emptytransition/
 ---
 ## EmptyTransition klasa
@@ -19,7 +19,7 @@ public class EmptyTransition : TransitionValueBase, IEmptyTransition
 | Nazwa | Opis |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Określa, czy dwie instancje TransitionValueBase są równe. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Służy jako funkcja skrótu dla określonego typu, odpowiednia do użycia w algorytmach haszujących i strukturach danych, takich jak tablica mieszająca. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Służy jako funkcja skrótu dla określonego typu, odpowiednia do użycia w algorytmach haszowania i strukturach danych, takich jak tablica mieszająca. |
 
 ### Zobacz także
 

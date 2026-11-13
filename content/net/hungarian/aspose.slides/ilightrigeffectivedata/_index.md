@@ -1,14 +1,14 @@
 ---
 title: ILightRigEffectiveData
-second_title: Aspose.Sildes .NET API referenciája
-description: Módosíthatatlan objektum, amely a hatékony light rig tulajdonságait tartalmazza.
+second_title: Aspose.Sildes .NET API referencia
+description: Módosíthatatlan objektum, amely a hatékony fényrendszer tulajdonságait tartalmazza.
 type: docs
-weight: 6280
+weight: 6300
 url: /hu/aspose.slides/ilightrigeffectivedata/
 ---
 ## ILightRigEffectiveData interfész
 
-Módosíthatatlan objektum, amely a hatékony light rig tulajdonságait tartalmazza.
+Módosíthatatlan objektum, amely a hatékony fényrendszer tulajdonságait tartalmazza.
 
 ```csharp
 public interface ILightRigEffectiveData
@@ -16,20 +16,20 @@ public interface ILightRigEffectiveData
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [Direction](../../aspose.slides/ilightrigeffectivedata/direction) { get; } | Fény iránya. Csak olvasható [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | Egy előre beállított fényirányt képvisel, amely egy alakzatra alkalmazható. A light rig egy csoport fényt képvisel, amelyek egy meghatározott módon vannak orientálva egy 3D-s jelenethez képest. Csak olvasható [`LightRigPresetType`](../lightrigpresettype). |
+| [Direction](../../aspose.slides/ilightrigeffectivedata/direction) { get; } | Fényirány. Csak olvasható [`LightingDirection`](../lightingdirection). |
+| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | Egy előre beállított fényirányt képvisel, amely alakzatokra alkalmazható. A light rig egy adott módon a 3D jelenethez viszonyítva elrendezett fények csoportját jelenti. Csak olvasható [`LightRigPresetType`](../lightrigpresettype). |
 
-## Metódusok
+## Módszerek
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | A forgást a szélességi koordináta, a hosszúsági koordináta és az tengely körüli revolúció használatával határozzák meg a szélességi és hosszúsági koordináták alapján. Az eredmény tömb első eleme – szélesség, a második – hosszúság, a harmadik – revolúció. |
+| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | A forgás a szélességi koordináta, a hosszúsági koordináta és a tengely körüli forogás segítségével van definiálva. Az első elem a visszatérő tömbben – szélesség, a második – hosszúság, a harmadik – forogás. |
 
-### Megjegyzések
+### Megjegyzés
 
-Ez az interfész a [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata) részeként használatos.
+Ez az interfész a [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata) részeként használható.
 
 ### Lásd még
 

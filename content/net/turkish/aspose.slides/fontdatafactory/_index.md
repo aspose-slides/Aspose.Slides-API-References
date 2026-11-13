@@ -1,9 +1,9 @@
 ---
 title: FontDataFactory
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: FontData fabrikası
 type: docs
-weight: 4830
+weight: 4850
 url: /tr/aspose.slides/fontdatafactory/
 ---
 ## FontDataFactory sınıfı
@@ -20,13 +20,13 @@ public class FontDataFactory : IFontDataFactory
 | --- | --- |
 | [FontDataFactory](fontdatafactory)() | Varsayılan yapıcı. |
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | [CreateFontData](../../aspose.slides/fontdatafactory/createfontdata)(string) | Belirtilen yazı tipi adıyla FontData oluşturur. |
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
 * arayüz [IFontDataFactory](../ifontdatafactory)
 * ad alanı [Aspose.Slides](../../aspose.slides)

@@ -1,12 +1,12 @@
 ---
 title: FontCollectionIndex
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Sildes для .NET справочника API
 description: Представляет индекс шрифтов в коллекции.
 type: docs
-weight: 4810
+weight: 4830
 url: /ru/aspose.slides/fontcollectionindex/
 ---
-## Перечисление FontCollectionIndex
+## FontCollectionIndex перечисление
 
 Представляет индекс шрифта в коллекции.
 

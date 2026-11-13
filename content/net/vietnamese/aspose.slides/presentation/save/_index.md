@@ -1,14 +1,14 @@
 ---
 title: Save
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Lưu tất cả các slide của một bài thuyết trình vào một tệp với định dạng đã chỉ định.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Lưu tất cả các slide của bản trình bày vào một tệp với định dạng đã chỉ định.
 type: docs
-weight: 390
+weight: 400
 url: /vi/aspose.slides/presentation/save/
 ---
 ## Save(string, SaveFormat) {#save_5}
 
-Lưu tất cả các slide của một bài thuyết trình vào một tệp với định dạng đã chỉ định.
+Lưu tất cả các slide của bản trình bày vào một tệp với định dạng đã chỉ định.
 
 ```csharp
 public void Save(string fname, SaveFormat format)
@@ -16,21 +16,21 @@ public void Save(string fname, SaveFormat format)
 
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
-| fname | String | Đường dẫn tới tệp đã tạo. |
+| fname | String | Đường dẫn tới tệp được tạo. |
 | format | SaveFormat | Định dạng của dữ liệu được xuất. |
 
-### Xem Thêm
+### Xem thêm
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* lớp [Presentation](../../presentation)
+* không gian tên [Aspose.Slides](../../presentation)
+* tập hợp [Aspose.Slides](../../../)
 
 ---
 
 ## Save(Stream, SaveFormat) {#save_1}
 
-Lưu tất cả các slide của một bài thuyết trình vào một luồng với định dạng đã chỉ định.
+Lưu tất cả các slide của bản trình bày vào một luồng với định dạng đã chỉ định.
 
 ```csharp
 public void Save(Stream stream, SaveFormat format)
@@ -41,12 +41,12 @@ public void Save(Stream stream, SaveFormat format)
 | stream | Stream | Luồng đầu ra. |
 | format | SaveFormat | Định dạng của dữ liệu được xuất. |
 
-### Xem Thêm
+### Xem thêm
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* lớp [Presentation](../../presentation)
+* không gian tên [Aspose.Slides](../../presentation)
+* tập hợp [Aspose.Slides](../../../)
 
 ---
 
@@ -56,19 +56,19 @@ public void Save(Stream stream, SaveFormat format)
 public void Save(string fname, SaveFormat format, ISaveOptions options)
 ```
 
-### Xem Thêm
+### Xem thêm
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* giao diện [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* lớp [Presentation](../../presentation)
+* không gian tên [Aspose.Slides](../../presentation)
+* tập hợp [Aspose.Slides](../../../)
 
 ---
 
 ## Save(Stream, SaveFormat, ISaveOptions) {#save_2}
 
-Lưu tất cả các slide của một bài thuyết trình vào một luồng với định dạng đã chỉ định và các tùy chọn bổ sung.
+Lưu tất cả các slide của bản trình bày vào một luồng với định dạng đã chỉ định và các tùy chọn bổ sung.
 
 ```csharp
 public void Save(Stream stream, SaveFormat format, ISaveOptions options)
@@ -84,21 +84,21 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 
 | Ngoại lệ | Điều kiện |
 | --- | --- |
-| NotSupportedException | Nếu bạn cố gắng lưu tệp được mã hóa ở định dạng không phải Office 2007-2010 |
+| NotSupportedException | Nếu bạn cố lưu tệp đã mã hóa ở định dạng không phải Office 2007-2010 |
 
-### Xem Thêm
+### Xem thêm
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* giao diện [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* lớp [Presentation](../../presentation)
+* không gian tên [Aspose.Slides](../../presentation)
+* tập hợp [Aspose.Slides](../../../)
 
 ---
 
 ## Save(IXamlOptions) {#save}
 
-Lưu tất cả các slide của một bài thuyết trình thành một tập hợp các tệp đại diện cho markup XAML.
+Lưu tất cả các slide của bản trình bày thành một tập hợp các tệp đại diện cho đánh dấu XAML.
 
 ```csharp
 public void Save(IXamlOptions options)
@@ -118,18 +118,18 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Xem Thêm
+### Xem thêm
 
-* interface [IXamlOptions](../../../aspose.slides.export.xaml/ixamloptions)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* giao diện [IXamlOptions](../../../aspose.slides.export.xaml/ixamloptions)
+* lớp [Presentation](../../presentation)
+* không gian tên [Aspose.Slides](../../presentation)
+* tập hợp [Aspose.Slides](../../../)
 
 ---
 
 ## Save(string, int[], SaveFormat) {#save_7}
 
-Lưu các slide được chỉ định của một bài thuyết trình vào một tệp với định dạng đã chỉ định, giữ nguyên số trang.
+Lưu các slide đã chỉ định của bản trình bày vào một tệp với định dạng đã chỉ định và giữ nguyên số trang.
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format)
@@ -137,8 +137,8 @@ public void Save(string fname, int[] slides, SaveFormat format)
 
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
-| fname | String | Đường dẫn tới tệp đã tạo. |
-| slides | Int32[] | Mảng các vị trí slide, bắt đầu từ 1. |
+| fname | String | Đường dẫn tới tệp được tạo. |
+| slides | Int32[] | Mảng chứa vị trí các slide, bắt đầu từ 1. |
 | format | SaveFormat | Định dạng của dữ liệu được xuất. |
 
 ### Ngoại lệ
@@ -146,21 +146,21 @@ public void Save(string fname, int[] slides, SaveFormat format)
 | Ngoại lệ | Điều kiện |
 | --- | --- |
 | ArgumentNullException | Khi tham số stream hoặc slides là null. |
-| ArgumentOutOfRangeException | Khi tham số slides chứa số trang không đúng. |
+| ArgumentOutOfRangeException | Khi tham số slides chứa số trang không hợp lệ. |
 | InvalidOperationException | Khi sử dụng SaveFormat không được hỗ trợ, ví dụ: PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
-### Xem Thêm
+### Xem thêm
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* lớp [Presentation](../../presentation)
+* không gian tên [Aspose.Slides](../../presentation)
+* tập hợp [Aspose.Slides](../../../)
 
 ---
 
 ## Save(string, int[], SaveFormat, ISaveOptions) {#save_8}
 
-Lưu các slide được chỉ định của một bài thuyết trình vào một tệp với định dạng đã chỉ định, giữ nguyên số trang.
+Lưu các slide đã chỉ định của bản trình bày vào một tệp với định dạng đã chỉ định và giữ nguyên số trang.
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions options)
@@ -168,24 +168,24 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
-| fname | String | Đường dẫn tới tệp đã tạo. |
-| slides | Int32[] | Mảng các vị trí slide, bắt đầu từ 1. |
+| fname | String | Đường dẫn tới tệp được tạo. |
+| slides | Int32[] | Mảng chứa vị trí các slide, bắt đầu từ 1. |
 | format | SaveFormat | Định dạng của dữ liệu được xuất. |
 | options | ISaveOptions | Các tùy chọn định dạng bổ sung. |
 
-### Xem Thêm
+### Xem thêm
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* giao diện [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* lớp [Presentation](../../presentation)
+* không gian tên [Aspose.Slides](../../presentation)
+* tập hợp [Aspose.Slides](../../../)
 
 ---
 
 ## Save(Stream, int[], SaveFormat) {#save_3}
 
-Lưu các slide được chỉ định của một bài thuyết trình vào một luồng với định dạng đã chỉ định, giữ nguyên số trang.
+Lưu các slide đã chỉ định của bản trình bày vào một luồng với định dạng đã chỉ định và giữ nguyên số trang.
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format)
@@ -194,21 +194,21 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | stream | Stream | Luồng đầu ra. |
-| slides | Int32[] | Mảng các vị trí slide, bắt đầu từ 1. |
+| slides | Int32[] | Mảng chứa vị trí các slide, bắt đầu từ 1. |
 | format | SaveFormat | Định dạng của dữ liệu được xuất. |
 
-### Xem Thêm
+### Xem thêm
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* lớp [Presentation](../../presentation)
+* không gian tên [Aspose.Slides](../../presentation)
+* tập hợp [Aspose.Slides](../../../)
 
 ---
 
 ## Save(Stream, int[], SaveFormat, ISaveOptions) {#save_4}
 
-Lưu các slide được chỉ định của một bài thuyết trình vào một luồng với định dạng đã chỉ định, giữ nguyên số trang.
+Lưu các slide đã chỉ định của bản trình bày vào một luồng với định dạng đã chỉ định và giữ nguyên số trang.
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions options)
@@ -217,7 +217,7 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | stream | Stream | Luồng đầu ra. |
-| slides | Int32[] | Mảng các vị trí slide, bắt đầu từ 1. |
+| slides | Int32[] | Mảng chứa vị trí các slide, bắt đầu từ 1. |
 | format | SaveFormat | Định dạng của dữ liệu được xuất. |
 | options | ISaveOptions | Các tùy chọn định dạng bổ sung. |
 
@@ -226,7 +226,7 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 | Ngoại lệ | Điều kiện |
 | --- | --- |
 | ArgumentNullException | Khi tham số stream hoặc slides là null. |
-| ArgumentOutOfRangeException | Khi tham số slides chứa số trang không đúng. |
+| ArgumentOutOfRangeException | Khi tham số slides chứa số trang không hợp lệ. |
 | InvalidOperationException | Khi sử dụng SaveFormat không được hỗ trợ, ví dụ: PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### Ví dụ
@@ -276,12 +276,12 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Xem Thêm
+### Xem thêm
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* giao diện [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* lớp [Presentation](../../presentation)
+* không gian tên [Aspose.Slides](../../presentation)
+* tập hợp [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

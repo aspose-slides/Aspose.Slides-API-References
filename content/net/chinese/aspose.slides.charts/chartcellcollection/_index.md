@@ -3,7 +3,7 @@ title: ChartCellCollection
 second_title: Aspose.Sildes .NET API 参考
 description: 表示包含数据的单元格集合。
 type: docs
-weight: 1300
+weight: 1310
 url: /zh/aspose.slides.charts/chartcellcollection/
 ---
 ## ChartCellCollection 类
@@ -18,21 +18,21 @@ public class ChartCellCollection : IChartCellCollection
 
 | 名称 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartcellcollection/count) { get; } | 获取集合中单元格的数量。只读 Int32。 |
+| [Count](../../aspose.slides.charts/chartcellcollection/count) { get; } | 获取集合中单元格的计数。只读 Int32。 |
 | [Item](../../aspose.slides.charts/chartcellcollection/item) { get; } | 按索引返回一个单元格 (IChartDataCell)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [Add](../../aspose.slides.charts/chartcellcollection/add#add)(IChartDataCell) | 向集合添加新单元格。 |
-| [Add](../../aspose.slides.charts/chartcellcollection/add#add_1)(object) | 从指定值创建 [`ChartDataCell`](../chartdatacell) 并将其添加到集合中。 |
+| [Add](../../aspose.slides.charts/chartcellcollection/add#add)(IChartDataCell) | 向集合中添加新的单元格。 |
+| [Add](../../aspose.slides.charts/chartcellcollection/add#add_1)(object) | 从指定的值创建 [`ChartDataCell`](../chartdatacell) 并将其添加到集合中。 |
 | [GetCellsAddress](../../aspose.slides.charts/chartcellcollection/getcellsaddress)() | 返回工作簿中单元格集合的地址。 |
-| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells)() | 将所有单元格的字符串值连接成一个字符串。 |
-| [GetEnumerator](../../aspose.slides.charts/chartcellcollection/getenumerator)() | 返回遍历集合的枚举器。 |
-| [RemoveAt](../../aspose.slides.charts/chartcellcollection/removeat)(int) | 按索引从集合中移除单元格。 |
+| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells)() | 从所有单元格的字符串值连接成一个字符串。 |
+| [GetEnumerator](../../aspose.slides.charts/chartcellcollection/getenumerator)() | 返回用于遍历集合的枚举器。 |
+| [RemoveAt](../../aspose.slides.charts/chartcellcollection/removeat)(int) | 按索引从集合中移除一个单元格。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [IChartCellCollection](../ichartcellcollection)
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)

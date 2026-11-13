@@ -3,10 +3,10 @@ title: SlideImageFormat
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Bestimmt das Format, in dem das Folienbild für die Präsentation beim HTML-Export gespeichert wird.
 type: docs
-weight: 4470
+weight: 4490
 url: /de/aspose.slides.export/slideimageformat/
 ---
-## SlideImageFormat class
+## SlideImageFormat Klasse
 
 Bestimmt das Format, in dem das Folienbild für die Präsentation beim HTML-Export gespeichert wird.
 
@@ -14,20 +14,20 @@ Bestimmt das Format, in dem das Folienbild für die Präsentation beim HTML-Expo
 public class SlideImageFormat : ISlideImageFormat
 ```
 
-## Constructors
+## Konstruktoren
 
 | Name | Beschreibung |
 | --- | --- |
 | [SlideImageFormat](slideimageformat)() | Der Standardkonstruktor. |
 
-## Methods
+## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
 | static [Bitmap](../../aspose.slides.export/slideimageformat/bitmap)(float, ImageFormat) | Folien sollten in ein Rasterbild konvertiert werden. |
 | static [Svg](../../aspose.slides.export/slideimageformat/svg)(SVGOptions) | Folien sollten in ein SVG-Format konvertiert werden. |
 
-### See Also
+### Siehe auch
 
 * Schnittstelle [ISlideImageFormat](../islideimageformat)
 * Namensraum [Aspose.Slides.Export](../../aspose.slides.export)

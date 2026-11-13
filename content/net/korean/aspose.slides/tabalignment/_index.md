@@ -3,7 +3,7 @@ title: TabAlignment
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 탭 정렬을 나타냅니다.
 type: docs
-weight: 10830
+weight: 10850
 url: /ko/aspose.slides/tabalignment/
 ---
 ## TabAlignment 열거형

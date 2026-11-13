@@ -3,7 +3,7 @@ title: ExtraColorSchemeCollection
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Sammlung zusätzlicher Farbschemata dar.
 type: docs
-weight: 11110
+weight: 11130
 url: /de/aspose.slides.theme/extracolorschemecollection/
 ---
 ## ExtraColorSchemeCollection Klasse
@@ -16,16 +16,16 @@ public class ExtraColorSchemeCollection : IExtraColorSchemeCollection
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides.theme/extracolorschemecollection/count) { get; } | Gibt die Anzahl der Elemente in der Sammlung zurück. Nur lesbar Int32. |
-| [IsSynchronized](../../aspose.slides.theme/extracolorschemecollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die ArrayList synchronisiert ist (thread-sicher). Nur lesbar Boolean. |
+| [IsSynchronized](../../aspose.slides.theme/extracolorschemecollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die ArrayList synchronisiert (thread-sicher) ist. Nur lesbar Boolean. |
 | [Item](../../aspose.slides.theme/extracolorschemecollection/item) { get; } | Gibt ein Farbschema nach Index zurück. Nur lesbar [`ExtraColorScheme`](../extracolorscheme). |
 | [SyncRoot](../../aspose.slides.theme/extracolorschemecollection/syncroot) { get; } | Gibt ein Objekt zurück, das verwendet werden kann, um den Zugriff auf die Sammlung zu synchronisieren. Nur lesbar Object. |
 
 ## Methoden
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
 | [CopyTo](../../aspose.slides.theme/extracolorschemecollection/copyto)(Array, int) | Kopiert alle Elemente der Sammlung in das angegebene Array. |
 | [GetEnumerator](../../aspose.slides.theme/extracolorschemecollection/getenumerator)() | Gibt einen Enumerator zurück, der die Sammlung durchläuft. |

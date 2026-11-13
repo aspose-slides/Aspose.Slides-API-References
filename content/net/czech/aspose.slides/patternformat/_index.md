@@ -1,14 +1,14 @@
 ---
 title: PatternFormat
-second_title: Aspose.Sildes pro .NET API referenci
-description: Představuje vzor pro vyplnění tvaru.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Representuje vzor pro vyplnění tvaru.
 type: docs
-weight: 9350
+weight: 9370
 url: /cs/aspose.slides/patternformat/
 ---
 ## PatternFormat třída
 
-Představuje vzor pro vyplnění tvaru.
+Representuje vzor pro vyplnění tvaru.
 
 ```csharp
 public sealed class PatternFormat : PVIObject, IPatternFormat
@@ -18,19 +18,19 @@ public sealed class PatternFormat : PVIObject, IPatternFormat
 
 | Název | Popis |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze pro čtení [`IPresentationComponent`](../ipresentationcomponent). |
-| [BackColor](../../aspose.slides/patternformat/backcolor) { get; } | Vrací barvu pozadí vzoru. Pouze pro čtení [`IColorFormat`](../icolorformat). |
-| [ForeColor](../../aspose.slides/patternformat/forecolor) { get; } | Vrací barvu popředí vzoru. Pouze pro čtení [`IColorFormat`](../icolorformat). |
-| [PatternStyle](../../aspose.slides/patternformat/patternstyle) { get; set; } | Vrací nebo nastavuje styl vzoru. Čtení/zápis [`PatternStyle`](../patternstyle). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní IPresentationComponent rozhraní. Pouze ke čtení [`IPresentationComponent`](../ipresentationcomponent). |
+| [BackColor](../../aspose.slides/patternformat/backcolor) { get; } | Vrací barvu vzoru pozadí. Pouze ke čtení [`IColorFormat`](../icolorformat). |
+| [ForeColor](../../aspose.slides/patternformat/forecolor) { get; } | Vrací barvu vzoru popředí. Pouze ke čtení [`IColorFormat`](../icolorformat). |
+| [PatternStyle](../../aspose.slides/patternformat/patternstyle) { get; set; } | Vrací nebo nastavuje styl vzoru. Čtení/Zápis [`PatternStyle`](../patternstyle). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Porovnává s určeným objektem. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Porovnává se zadaným objektem. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Vrací hash kód. |
-| [GetTile](../../aspose.slides/patternformat/gettile#gettile)(Color) | Vytvoří dlaždicový obrázek pro vyplnění vzoru. |
-| [GetTile](../../aspose.slides/patternformat/gettile#gettile_1)(Color, Color) | Vytvoří dlaždicový obrázek pro vyplnění vzoru s určenými barvami. |
+| [GetTile](../../aspose.slides/patternformat/gettile#gettile)(Color) | Vytváří dlaždicový obrázek pro výplň vzoru. |
+| [GetTile](../../aspose.slides/patternformat/gettile#gettile_1)(Color, Color) | Vytváří dlaždicový obrázek pro výplň vzoru se zadanými barvami. |
 
 ### Viz také
 

@@ -1,20 +1,20 @@
 ---
 title: ValueFromCell
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes .NET için API Referansı
 description: Çalışma kitabı veri hücresini alır veya ayarlar. IDataLabelFormat.ShowLabelValueFromCell özelliği true olduğunda uygulanır.
 type: docs
-weight: 140
+weight: 150
 url: /tr/aspose.slides.charts/datalabel/valuefromcell/
 ---
 ## DataLabel.ValueFromCell özelliği
 
-Çalışma kitabı veri hücresini alır veya ayarlar. IDataLabelFormat.ShowLabelValueFromCell özelliği true olduğunda uygulanır.
+Alır veya ayarlar çalışma kitabı veri hücresini. Uygulanır eğer IDataLabelFormat.ShowLabelValueFromCell özelliği true değerine eşitse.
 
 ```csharp
 public IChartDataCell ValueFromCell { get; set; }
 ```
 
-### Ayrıca Bakınız
+### Diğerlerine Bak
 
 * arayüz [IChartDataCell](../../ichartdatacell)
 * sınıf [DataLabel](../../datalabel)

@@ -1,14 +1,14 @@
 ---
 title: ISpreadsheetOptions
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar alternativ som kan användas för att specificera ytterligare beteende för kalkylblad.
+description: Representerar alternativ som kan användas för att ange ytterligare kalkylbladsbeteende.
 type: docs
-weight: 7120
+weight: 7140
 url: /sv/aspose.slides/ispreadsheetoptions/
 ---
 ## ISpreadsheetOptions gränssnitt
 
-Representerar alternativ som kan användas för att specificera ytterligare beteende för kalkylblad.
+Representerar alternativ som kan användas för att ange ytterligare kalkylbladsbeteende.
 
 ```csharp
 public interface ISpreadsheetOptions
@@ -16,9 +16,9 @@ public interface ISpreadsheetOptions
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [PreferredCulture](../../aspose.slides/ispreadsheetoptions/preferredculture) { get; set; } | Hämtar eller anger föredragen kulturinformation för beräkning av vissa funktioner avsedda för språk som använder dubbelbyte-teckenuppsättningen (DBCS). |
+| [PreferredCulture](../../aspose.slides/ispreadsheetoptions/preferredculture) { get; set; } | Hämtar eller anger föredragen kulturinformation för beräkning av vissa funktioner avsedda för språk som använder dubbla teckenkodning (DBCS). |
 | [RecoverWorkbookFromChartCache](../../aspose.slides/ispreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Om datakällan för diagrammet är en extern arbetsbok och den inte är tillgänglig, återställs den från diagrammets cache. |
 
 ### Se även

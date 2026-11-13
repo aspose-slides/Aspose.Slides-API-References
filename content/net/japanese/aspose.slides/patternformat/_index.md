@@ -3,7 +3,7 @@ title: PatternFormat
 second_title: Aspose.Sildes for .NET API リファレンス
 description: シェイプを塗りつぶすためのパターンを表します。
 type: docs
-weight: 9350
+weight: 9370
 url: /ja/aspose.slides/patternformat/
 ---
 ## PatternFormat クラス
@@ -21,7 +21,7 @@ public sealed class PatternFormat : PVIObject, IPatternFormat
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
 | [BackColor](../../aspose.slides/patternformat/backcolor) { get; } | 背景パターンの色を返します。読み取り専用 [`IColorFormat`](../icolorformat)。 |
 | [ForeColor](../../aspose.slides/patternformat/forecolor) { get; } | 前景パターンの色を返します。読み取り専用 [`IColorFormat`](../icolorformat)。 |
-| [PatternStyle](../../aspose.slides/patternformat/patternstyle) { get; set; } | パターンスタイルを取得または設定します。読み書き可能 [`PatternStyle`](../patternstyle)。 |
+| [PatternStyle](../../aspose.slides/patternformat/patternstyle) { get; set; } | パターンスタイルを取得または設定します。読み書き [`PatternStyle`](../patternstyle)。 |
 
 ## メソッド
 
@@ -32,7 +32,7 @@ public sealed class PatternFormat : PVIObject, IPatternFormat
 | [GetTile](../../aspose.slides/patternformat/gettile#gettile)(Color) | パターン塗りつぶし用のタイル画像を作成します。 |
 | [GetTile](../../aspose.slides/patternformat/gettile#gettile_1)(Color, Color) | 指定された色でパターン塗りつぶし用のタイル画像を作成します。 |
 
-### 参照
+### 関連項目
 
 * クラス [PVIObject](../pviobject)
 * インターフェイス [IPatternFormat](../ipatternformat)

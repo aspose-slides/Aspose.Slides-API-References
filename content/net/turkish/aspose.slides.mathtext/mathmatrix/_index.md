@@ -1,14 +1,14 @@
 ---
 title: MathMatrix
-second_title: Aspose.Sildes for .NET API Referansı
-description: Satır ve sütunlarda düzenlenmiş alt öğelerden oluşan Matrix nesnesini belirtir. Matrislerin yerleşik sınırlayıcıları olmadığını belirtmek önemlidir. Matrisi köşeli parantez içine yerleştirmek için IMathDelimiter sınırlayıcı nesnesini kullanmalısınız. Null argümanlar, matrislerde boşluklar oluşturmak için kullanılabilir.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bir veya daha fazla satır ve sütunda düzenlenmiş çocuk öğelerden oluşan Matrix nesnesini belirtir. Matrislerin yerleşik sınırlayıcıları olmadığını belirtmek önemlidir. Matrisı parantez içine yerleştirmek için IMathDelimiter sınırlayıcı nesnesini kullanmalısınız. Boş argümanlar, matrislerde boşluklar oluşturmak için kullanılabilir.
 type: docs
-weight: 8850
+weight: 8870
 url: /tr/aspose.slides.mathtext/mathmatrix/
 ---
 ## MathMatrix sınıfı
 
-Matris nesnesini belirtir; bir veya daha fazla satır ve sütunda düzenlenmiş alt öğelerden oluşur. Matrislerin yerleşik sınırlayıcıları olmadığını unutmamak önemlidir. Matrisi köşeli parantez içine yerleştirmek için sınırlayıcı nesnesini (IMathDelimiter) kullanmalısınız. Null argümanlar, matrislerde boşluklar oluşturmak için kullanılabilir.
+Specifies the Matrix object, consisting of child elements laid out in one or more rows and columns. It is important to note that matrices do not have built in delimiters. To place the matrix in the brackets you should use the delimiter object (IMathDelimiter). Null arguments can be used to create gaps in matrices.
 
 ```csharp
 public sealed class MathMatrix : MathElementBase, IMathMatrix
@@ -18,94 +18,94 @@ public sealed class MathMatrix : MathElementBase, IMathMatrix
 
 | Ad | Açıklama |
 | --- | --- |
-| [MathMatrix](mathmatrix)(int, int) | MathMatrix sınıfının yeni bir örneğini başlatır. |
+| [MathMatrix](mathmatrix)(int, int) | Initializes a new instance of the MathMatrix class. |
 
 ## Özellikler
 
 | Ad | Açıklama |
 | --- | --- |
-| [BaseJustification](../../aspose.slides.mathtext/mathmatrix/basejustification) { get; set; } | Çevredeki metne göre dikey hizalamayı belirtir. Olası değerler top, bottom ve center'dir. Varsayılan: Center |
-| [ColumnCount](../../aspose.slides.mathtext/mathmatrix/columncount) { get; } | Matrisin sütun sayısı |
-| [ColumnGap](../../aspose.slides.mathtext/mathmatrix/columngap) { get; set; } | Bir matrisin sütunları arasındaki yatay boşluk değerini belirler; ColumnGapRule 3 ('Exactly') olarak ayarlanmışsa birim twip (bir noktanın 1/20'si) olarak yorumlanır. ColumnGapRule 4 ('Multiple') olarak ayarlanmışsa birim 0.5 em artışının sayısı olarak yorumlanır. Diğer durumlarda yok sayılır. Varsayılan: 0 |
-| [ColumnGapRule](../../aspose.slides.mathtext/mathmatrix/columngaprule) { get; set; } | Bir matrisin sütunları arasındaki yatay boşluk türünü belirler; Yatay boşluk birimleri em veya point (twip olarak depolanır) olabilir. Varsayılan: SingleSpacingGap (0) |
-| [HidePlaceholders](../../aspose.slides.mathtext/mathmatrix/hideplaceholders) { get; set; } | Boş matris öğeleri için yer tutucuları gizler. Varsayılan: false |
-| [Item](../../aspose.slides.mathtext/mathmatrix/item) { get; set; } | Matris öğesi |
-| [MinColumnWidth](../../aspose.slides.mathtext/mathmatrix/mincolumnwidth) { get; set; } | Twip cinsinden minimum sütun genişliği (bir noktanın 1/20'si). Boşluk aralığı (“Column Gap” veya “Gap Width” olarak da adlandırılır), MinColumnWidth’e eklenerek toplam Matris Sütun Boşluğu (farklı sütunların aynı kenarları arasındaki mesafe) belirlenir. Varsayılan: 0. |
-| [RowCount](../../aspose.slides.mathtext/mathmatrix/rowcount) { get; } | Matrisin satır sayısı |
-| [RowGap](../../aspose.slides.mathtext/mathmatrix/rowgap) { get; set; } | Bir matrisin satırları arasındaki dikey boşluk değerini belirler; RowGapRule 3 ('Exactly') olarak ayarlanmışsa birim twip (bir noktanın 1/20'si) olarak yorumlanır. RowGapRule 4 ('Multiple') olarak ayarlanmışsa birim yarım satır olarak yorumlanır. Varsayılan: 0 |
-| [RowGapRule](../../aspose.slides.mathtext/mathmatrix/rowgaprule) { get; set; } | Bir matrisin satırları arasındaki dikey boşluk türünü belirler; Dikey boşluk birimleri satır veya point (twip olarak depolanır) olabilir. Varsayılan: SingleSpacingGap (0) |
+| [BaseJustification](../../aspose.slides.mathtext/mathmatrix/basejustification) { get; set; } | Belirtilen metnin çevresine göre dikey hizalamayı belirtir. Olası değerler top, bottom ve center. Varsayılan: Center |
+| [ColumnCount](../../aspose.slides.mathtext/mathmatrix/columncount) { get; } | Number of columns in the matrix |
+| [ColumnGap](../../aspose.slides.mathtext/mathmatrix/columngap) { get; set; } | The value of horizontal spacing between columns of a matrix; If the ColumnGapRule is set to 3 ("Exactly"), then the unit is interpreted as twips (1/20th of a point) If the ColumnGapRule is set to 4 ("Multiple"), then the unit is interpreted as number of 0.5 em increments. In other cases ignored. Default: 0 |
+| [ColumnGapRule](../../aspose.slides.mathtext/mathmatrix/columngaprule) { get; set; } | The type of horizontal spacing between columns of a matrix; Horizontal spacing units can be ems or points (stored as twips). Default: SingleSpacingGap (0) |
+| [HidePlaceholders](../../aspose.slides.mathtext/mathmatrix/hideplaceholders) { get; set; } | Hide the placeholders for empty matrix elements Default: false |
+| [Item](../../aspose.slides.mathtext/mathmatrix/item) { get; set; } | Element of matrix |
+| [MinColumnWidth](../../aspose.slides.mathtext/mathmatrix/mincolumnwidth) { get; set; } | Minimum column width in twips (1/20th of a point) The gap spacing (also referred to as “Column Gap” or “Gap Width”) is added to the MinColumnWidth to determine the total Matrix Column Spacing (distance between the same edges of different columns). Default: 0. |
+| [RowCount](../../aspose.slides.mathtext/mathmatrix/rowcount) { get; } | Number of rows in the matrix |
+| [RowGap](../../aspose.slides.mathtext/mathmatrix/rowgap) { get; set; } | The value of vertical spacing between rows of a matrix; If the RowGapRule is set to 3 ("Exactly"), then the unit is interpreted as twips (1/20th of a point) If the RowGapRule is set to 4 ("Multiple"), then the unit is interpreted as half-lines. Default: 0 |
+| [RowGapRule](../../aspose.slides.mathtext/mathmatrix/rowgaprule) { get; set; } | The type of vertical spacing between rows of a matrix; Vertical spacing units can be lines or points (stored as twips). Default: SingleSpacingGap (0) |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [Accent](../../aspose.slides.mathtext/mathelementbase/accent)(char) | Bu öğenin üstüne bir aksan işareti (bir karakter) koyar |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(IMathElement) | Bu örneği argüman olarak kullanarak belirtilen işlevi alır |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfOneArgument) | Bu örneği argüman olarak kullanarak belirtilen işlevi alır |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(string) | Bu örneği argüman olarak kullanarak belirtilen işlevi alır |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfTwoArguments, IMathElement) | Bu örneği argüman ve belirtilen ek argüman olarak kullanarak belirtilen işlevi alır |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfTwoArguments, string) | Bu örneği argüman ve belirtilen ek argüman olarak kullanarak belirtilen işlevi alır |
-| [DeleteColumn](../../aspose.slides.mathtext/mathmatrix/deletecolumn)(int) | Belirtilen sütunu siler |
-| [DeleteRow](../../aspose.slides.mathtext/mathmatrix/deleterow)(int) | Belirtilen satırı siler |
-| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(IMathElement) | Bu payı ve belirtilen paydayı kullanarak bir kesir oluşturur |
-| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(string) | Bu payı ve belirtilen paydayı kullanarak bir kesir oluşturur |
-| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(IMathElement, MathFractionTypes) | Belirtilen tipte, bu pay ve belirtilen payda ile bir kesir oluşturur |
-| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(string, MathFractionTypes) | Belirtilen tipte, bu pay ve belirtilen payda ile bir kesir oluşturur |
-| [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)() | Bir matematik öğesini parantez içine alır |
-| virtual [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)(char, char) | Bir matematik öğesini parantez veya başka bir çerçeve karakteri gibi belirtilen karakterler arasına alır |
-| [Function](../../aspose.slides.mathtext/mathelementbase/function)(IMathElement) | Bu örneği fonksiyon adı olarak kullanarak bir argümanın fonksiyonunu alır |
-| [Function](../../aspose.slides.mathtext/mathelementbase/function)(string) | Bu örneği fonksiyon adı olarak kullanarak bir argümanın fonksiyonunu alır |
-| [GetChildren](../../aspose.slides.mathtext/mathmatrix/getchildren)() | Çocuk öğeleri alır |
-| [GetColumnAlignment](../../aspose.slides.mathtext/mathmatrix/getcolumnalignment)(int) | Belirtilen sütunun yatay hizalamasını alır |
-| [Group](../../aspose.slides.mathtext/mathelementbase/group)() | Bu öğeyi alt köşeli parantez kullanarak bir gruba yerleştirir |
-| [Group](../../aspose.slides.mathtext/mathelementbase/group)(char, MathTopBotPositions, MathTopBotPositions) | Bu öğeyi alt köşeli parantez gibi bir grup karakteri kullanarak bir gruba yerleştirir |
-| [InsertColumnAfter](../../aspose.slides.mathtext/mathmatrix/insertcolumnafter)(int) | Belirtilen sütunun ardından yeni bir sütun ekler. Yeni sütundaki tüm öğeler null olur. |
-| [InsertColumnBefore](../../aspose.slides.mathtext/mathmatrix/insertcolumnbefore)(int) | Belirtilen sütunun önüne yeni bir sütun ekler. Yeni sütundaki tüm öğeler null olur. |
-| [InsertRowAfter](../../aspose.slides.mathtext/mathmatrix/insertrowafter)(int) | Belirtilen satırın ardından yeni bir satır ekler. Yeni satırdaki tüm öğeler null olur. |
-| [InsertRowBefore](../../aspose.slides.mathtext/mathmatrix/insertrowbefore)(int) | Belirtilen satırın önüne yeni bir satır ekler. Yeni satırdaki tüm öğeler null olur. |
-| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes) | Sınırlı olmayan integral alır |
-| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, IMathElement, IMathElement) | Integral alır |
-| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, string, string) | Integral alır |
-| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, IMathElement, IMathElement, MathLimitLocations) | Integral alır |
-| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, string, string, MathLimitLocations) | Integral alır |
-| virtual [Join](../../aspose.slides.mathtext/mathelementbase/join)(IMathElement) | Matematiksel bir öğeyi birleştirerek bir matematik bloğu oluşturur |
-| virtual [Join](../../aspose.slides.mathtext/mathelementbase/join)(string) | Matematiksel bir metni birleştirerek bir matematik bloğu oluşturur |
-| [Nary](../../aspose.slides.mathtext/mathelementbase/nary)(MathNaryOperatorTypes, IMathElement, IMathElement) | N'li bir operatör oluşturur |
-| [Nary](../../aspose.slides.mathtext/mathelementbase/nary)(MathNaryOperatorTypes, string, string) | N'li bir operatör oluşturur |
-| [Overbar](../../aspose.slides.mathtext/mathelementbase/overbar)() | Bu öğenin üstüne bir çubuk ekler |
-| [Radical](../../aspose.slides.mathtext/mathelementbase/radical)(IMathElement) | Belirtilen argümandan verilen dereceli matematiksel kökü belirtir. |
-| [Radical](../../aspose.slides.mathtext/mathelementbase/radical)(string) | Belirtilen argümandan verilen dereceli matematiksel kökü belirtir. |
-| [SetColumnAlignment](../../aspose.slides.mathtext/mathmatrix/setcolumnalignment)(int, MathHorizontalAlignment) | Belirtilen sütunun yatay hizalamasını ayarlar |
-| [SetColumnsAlignment](../../aspose.slides.mathtext/mathmatrix/setcolumnsalignment)(int, uint, MathHorizontalAlignment) | Belirtilen sütunların yatay hizalamasını ayarlar |
-| [SetLowerLimit](../../aspose.slides.mathtext/mathelementbase/setlowerlimit)(IMathElement) | Alt limit alır |
-| [SetLowerLimit](../../aspose.slides.mathtext/mathelementbase/setlowerlimit)(string) | Alt limit alır |
-| [SetSubscript](../../aspose.slides.mathtext/mathelementbase/setsubscript)(IMathElement) | Alt simge oluşturur |
-| [SetSubscript](../../aspose.slides.mathtext/mathelementbase/setsubscript)(string) | Alt simge oluşturur |
-| [SetSubSuperscriptOnTheLeft](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheleft)(IMathElement, IMathElement) | Sol tarafta alt ve üst simge oluşturur |
-| [SetSubSuperscriptOnTheLeft](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheleft)(string, string) | Sol tarafta alt ve üst simge oluşturur |
-| [SetSubSuperscriptOnTheRight](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheright)(IMathElement, IMathElement) | Sağ tarafta alt ve üst simge oluşturur |
-| [SetSubSuperscriptOnTheRight](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheright)(string, string) | Sağ tarafta alt ve üst simge oluşturur |
-| [SetSuperscript](../../aspose.slides.mathtext/mathelementbase/setsuperscript)(IMathElement) | Üst simge oluşturur |
-| [SetSuperscript](../../aspose.slides.mathtext/mathelementbase/setsuperscript)(string) | Üst simge oluşturur |
-| [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit)(IMathElement) | Üst limit alır |
-| [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit)(string) | Üst limit alır |
-| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)() | Bu öğeyi bir kenarlık kutusuna yerleştirir |
-| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)(bool, bool, bool, bool, bool, bool, bool, bool) | Bu öğeyi bir kenarlık kutusuna yerleştirir |
-| [ToBox](../../aspose.slides.mathtext/mathelementbase/tobox)() | Bu öğeyi görünmez bir kutuya (mantıksal gruplama) yerleştirir; bu kutu bir denklemin veya diğer matematiksel metin parçasının bileşenlerini gruplamak için kullanılır. Kutu, bir operatör taklidi, satır sonu noktası gibi işlevler görebilir ya da içinde satır sonu izin vermeyecek şekilde gruplandırılabilir. |
-| virtual [ToMathArray](../../aspose.slides.mathtext/mathelementbase/tomatharray)() | Dikey bir diziye yerleştirir |
-| [Underbar](../../aspose.slides.mathtext/mathelementbase/underbar)() | Bu öğenin altına bir çubuk ekler |
+| [Accent](../../aspose.slides.mathtext/mathelementbase/accent)(char) | Sets an accent mark (a character on the top of this element) |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(IMathElement) | Takes specified function using this instance as the argument |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfOneArgument) | Takes specified function using this instance as the argument |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(string) | Takes specified function using this instance as the argument |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfTwoArguments, IMathElement) | Takes specified function using this instance as the argument and specified additional argument |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfTwoArguments, string) | Takes specified function using this instance as the argument and specified additional argument |
+| [DeleteColumn](../../aspose.slides.mathtext/mathmatrix/deletecolumn)(int) | Deletes the specified column |
+| [DeleteRow](../../aspose.slides.mathtext/mathmatrix/deleterow)(int) | Deletes the specified row |
+| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(IMathElement) | Creates a fraction with this numerator and specified denominator |
+| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(string) | Creates a fraction with this numerator and specified denominator |
+| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(IMathElement, MathFractionTypes) | Creates a fraction of the specified type with this numerator and specified denominator |
+| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(string, MathFractionTypes) | Creates a fraction of the specified type with this numerator and specified denominator |
+| [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)() | Encloses a math element in parenthesis |
+| virtual [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)(char, char) | Encloses a math element in specified characters such as parenthesis or another characters as framing |
+| [Function](../../aspose.slides.mathtext/mathelementbase/function)(IMathElement) | Takes a function of an argument using this instance as the function name |
+| [Function](../../aspose.slides.mathtext/mathelementbase/function)(string) | Takes a function of an argument using this instance as the function name |
+| [GetChildren](../../aspose.slides.mathtext/mathmatrix/getchildren)() | Get children elements |
+| [GetColumnAlignment](../../aspose.slides.mathtext/mathmatrix/getcolumnalignment)(int) | Get the horizontal alignment of the specified column |
+| [Group](../../aspose.slides.mathtext/mathelementbase/group)() | Places this element in a group using a bottom curly bracket |
+| [Group](../../aspose.slides.mathtext/mathelementbase/group)(char, MathTopBotPositions, MathTopBotPositions) | Places this element in a group using a grouping character such as bottom curly bracket or another |
+| [InsertColumnAfter](../../aspose.slides.mathtext/mathmatrix/insertcolumnafter)(int) | Insert a new column after the specified one Initially all elements in the new column are null. |
+| [InsertColumnBefore](../../aspose.slides.mathtext/mathmatrix/insertcolumnbefore)(int) | Insert a new column before the specified one Initially all elements in the new column are null. |
+| [InsertRowAfter](../../aspose.slides.mathtext/mathmatrix/insertrowafter)(int) | Insert a new row after the specified one Initially all elements in the new row are null. |
+| [InsertRowBefore](../../aspose.slides.mathtext/mathmatrix/insertrowbefore)(int) | Insert a new row before the specified one Initially all elements in the new row are null. |
+| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes) | Takes the integral without limits |
+| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, IMathElement, IMathElement) | Takes the integral |
+| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, string, string) | Takes the integral |
+| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, IMathElement, IMathElement, MathLimitLocations) | Takes the integral |
+| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, string, string, MathLimitLocations) | Takes the integral |
+| virtual [Join](../../aspose.slides.mathtext/mathelementbase/join)(IMathElement) | Joins a mathematical element and forms a mathematical block |
+| virtual [Join](../../aspose.slides.mathtext/mathelementbase/join)(string) | Joins a mathematical text and forms a mathematical block |
+| [Nary](../../aspose.slides.mathtext/mathelementbase/nary)(MathNaryOperatorTypes, IMathElement, IMathElement) | Creates a N-ary operator |
+| [Nary](../../aspose.slides.mathtext/mathelementbase/nary)(MathNaryOperatorTypes, string, string) | Creates a N-ary operator |
+| [Overbar](../../aspose.slides.mathtext/mathelementbase/overbar)() | Sets a bar on the top of this element |
+| [Radical](../../aspose.slides.mathtext/mathelementbase/radical)(IMathElement) | Specifies the mathematical root of the given degree from the specified argument. |
+| [Radical](../../aspose.slides.mathtext/mathelementbase/radical)(string) | Specifies the mathematical root of the given degree from the specified argument. |
+| [SetColumnAlignment](../../aspose.slides.mathtext/mathmatrix/setcolumnalignment)(int, MathHorizontalAlignment) | Set the horizontal alignment of the specified column |
+| [SetColumnsAlignment](../../aspose.slides.mathtext/mathmatrix/setcolumnsalignment)(int, uint, MathHorizontalAlignment) | Set the horizontal alignment of the specified columns |
+| [SetLowerLimit](../../aspose.slides.mathtext/mathelementbase/setlowerlimit)(IMathElement) | Takes lower limit |
+| [SetLowerLimit](../../aspose.slides.mathtext/mathelementbase/setlowerlimit)(string) | Takes lower limit |
+| [SetSubscript](../../aspose.slides.mathtext/mathelementbase/setsubscript)(IMathElement) | Creates subscript |
+| [SetSubscript](../../aspose.slides.mathtext/mathelementbase/setsubscript)(string) | Creates subscript |
+| [SetSubSuperscriptOnTheLeft](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheleft)(IMathElement, IMathElement) | Creates subscript and superscript on the left |
+| [SetSubSuperscriptOnTheLeft](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheleft)(string, string) | Creates subscript and superscript on the left |
+| [SetSubSuperscriptOnTheRight](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheright)(IMathElement, IMathElement) | Creates subscript and superscript on the right |
+| [SetSubSuperscriptOnTheRight](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheright)(string, string) | Creates subscript and superscript on the right |
+| [SetSuperscript](../../aspose.slides.mathtext/mathelementbase/setsuperscript)(IMathElement) | Creates superscript |
+| [SetSuperscript](../../aspose.slides.mathtext/mathelementbase/setsuperscript)(string) | Creates superscript |
+| [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit)(IMathElement) | Takes upper limit |
+| [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit)(string) | Takes upper limit |
+| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)() | Places this element in a border-box |
+| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)(bool, bool, bool, bool, bool, bool, bool, bool) | Places this element in a border-box |
+| [ToBox](../../aspose.slides.mathtext/mathelementbase/tobox)() | Places this element in a non-visual box (logical grouping) which is used to group components of an equation or other instance of mathematical text. A boxed object can (for example) serve as an operator emulator with or without an alignment point, serve as a line break point, or be grouped such as not to allow line breaks within. |
+| virtual [ToMathArray](../../aspose.slides.mathtext/mathelementbase/tomatharray)() | Puts in a vertical array |
+| [Underbar](../../aspose.slides.mathtext/mathelementbase/underbar)() | Sets a bar on the bottom of this element |
 
 ### Örnekler
 
-Örnek:
+Example:
 
 ```csharp
 [C#]
-IMMathMatrix matrix = new MathMatrix(2, 3);
+IMathMatrix matrix = new MathMatrix(2, 3);
 matrix[0, 0] = new MathematicalText("item.1.1");
 ```
 
-### Ayrıca Bakınız
+### Bakınız
 
 * sınıf [MathElementBase](../mathelementbase)
 * arayüz [IMathMatrix](../imathmatrix)

@@ -3,10 +3,10 @@ title: FillBlendMode
 second_title: Aspose.Sildes için .NET API Referansı
 description: Karıştırma modunu belirler.
 type: docs
-weight: 4770
+weight: 4790
 url: /tr/aspose.slides/fillblendmode/
 ---
-## FillBlendMode enumı
+## FillBlendMode enum
 
 Karıştırma modunu belirler.
 
@@ -24,7 +24,7 @@ public enum FillBlendMode
 | Overlay | `3` | Overlay karıştırma modu. |
 | Screen | `4` | Screen karıştırma modu. |
 
-### Ayrıca Bakınız
+### Diğer Bağlantılar
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

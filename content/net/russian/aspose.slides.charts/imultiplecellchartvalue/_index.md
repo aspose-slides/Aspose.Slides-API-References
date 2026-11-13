@@ -1,9 +1,9 @@
 ---
 title: IMultipleCellChartValue
-second_title: Aspose.Sildes для .NET справочника API
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет коллекцию ячеек диаграммы.
 type: docs
-weight: 2170
+weight: 2190
 url: /ru/aspose.slides.charts/imultiplecellchartvalue/
 ---
 ## IMultipleCellChartValue интерфейс
@@ -19,7 +19,7 @@ public interface IMultipleCellChartValue : IBaseChartValue
 | Имя | Описание |
 | --- | --- |
 | [AsCells](../../aspose.slides.charts/imultiplecellchartvalue/ascells) { get; set; } | Возвращает или задает коллекцию ячеек диаграммы. Чтение/запись [`IChartCellCollection`](../ichartcellcollection). |
-| [AsIBaseChartValue](../../aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue) { get; } | Позволяет получить базовый интерфейс IBaseChartValue. Только чтение [`IBaseChartValue`](../ibasechartvalue). |
+| [AsIBaseChartValue](../../aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue) { get; } | Позволяет получить базовый интерфейс IBaseChartValue. Только для чтения [`IBaseChartValue`](../ibasechartvalue). |
 
 ### См. также
 

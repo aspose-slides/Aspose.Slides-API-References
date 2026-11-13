@@ -1,14 +1,14 @@
 ---
 title: ColorScheme
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: थीम-परिभाषित रंगों को संग्रहित करता है।
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: थीम-परिभाषित रंगों को संग्रहीत करता है।
 type: docs
-weight: 11070
+weight: 11090
 url: /hi/aspose.slides.theme/colorscheme/
 ---
 ## ColorScheme क्लास
 
-थीम-परिभाषित रंगों को संग्रहित करता है।
+थीम-परिभाषित रंगों को संग्रहीत करता है।
 
 ```csharp
 public class ColorScheme : IColorScheme
@@ -18,21 +18,21 @@ public class ColorScheme : IColorScheme
 
 | नाम | विवरण |
 | --- | --- |
-| [Accent1](../../aspose.slides.theme/colorscheme/accent1) { get; } | स्कीम में पहला एक्सेंट रंग। केवल पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent2](../../aspose.slides.theme/colorscheme/accent2) { get; } | स्कीम में दूसरा एक्सेंट रंग। केवल पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent3](../../aspose.slides.theme/colorscheme/accent3) { get; } | स्कीम में तीसरा एक्सेंट रंग। केवल पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent4](../../aspose.slides.theme/colorscheme/accent4) { get; } | स्कीम में चौथा एक्सेंट रंग। केवल पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent5](../../aspose.slides.theme/colorscheme/accent5) { get; } | स्कीम में पाँचवाँ एक्सेंट रंग। केवल पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent6](../../aspose.slides.theme/colorscheme/accent6) { get; } | स्कीम में छठा एक्सेंट रंग। केवल पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Dark1](../../aspose.slides.theme/colorscheme/dark1) { get; } | स्कीम में पहला डार्क रंग। केवल पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Dark2](../../aspose.slides.theme/colorscheme/dark2) { get; } | स्कीम में दूसरा डार्क रंग। केवल पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [FollowedHyperlink](../../aspose.slides.theme/colorscheme/followedhyperlink) { get; } | देखे गए हाइपरलिंक के लिए रंग। केवल पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Hyperlink](../../aspose.slides.theme/colorscheme/hyperlink) { get; } | हाइपरलिंक के लिए रंग। केवल पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Item](../../aspose.slides.theme/colorscheme/item) { get; } | निर्दिष्ट इंडेक्स पर तत्व प्राप्त करता है। केवल पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Light1](../../aspose.slides.theme/colorscheme/light1) { get; } | स्कीम में पहला लाइट रंग। केवल पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Light2](../../aspose.slides.theme/colorscheme/light2) { get; } | स्कीम में दूसरा लाइट रंग। केवल पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Presentation](../../aspose.slides.theme/colorscheme/presentation) { get; } | पैरेंट प्रस्तुति लौटाता है। केवल पढ़ने योग्य [`IPresentation`](../../aspose.slides/ipresentation). |
-| [Slide](../../aspose.slides.theme/colorscheme/slide) { get; } | पैरेंट स्लाइड लौटाता है। केवल पढ़ने योग्य [`IBaseSlide`](../../aspose.slides/ibaseslide). |
+| [Accent1](../../aspose.slides.theme/colorscheme/accent1) { get; } | पहला एक्सेंट रंग योजना में। केवल-पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent2](../../aspose.slides.theme/colorscheme/accent2) { get; } | दूसरा एक्सेंट रंग योजना में। केवल-पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent3](../../aspose.slides.theme/colorscheme/accent3) { get; } | तीसरा एक्सेंट रंग योजना में। केवल-पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent4](../../aspose.slides.theme/colorscheme/accent4) { get; } | चौथा एक्सेंट रंग योजना में। केवल-पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent5](../../aspose.slides.theme/colorscheme/accent5) { get; } | पाँचवाँ एक्सेंट रंग योजना में। केवल-पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent6](../../aspose.slides.theme/colorscheme/accent6) { get; } | छठा एक्सेंट रंग योजना में। केवल-पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Dark1](../../aspose.slides.theme/colorscheme/dark1) { get; } | पहला गहरा रंग योजना में। केवल-पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Dark2](../../aspose.slides.theme/colorscheme/dark2) { get; } | दूसरा गहरा रंग योजना में। केवल-पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [FollowedHyperlink](../../aspose.slides.theme/colorscheme/followedhyperlink) { get; } | विजिट किए गए हाइपरलिंक का रंग। केवल-पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Hyperlink](../../aspose.slides.theme/colorscheme/hyperlink) { get; } | हाइपरलिंक का रंग। केवल-पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Item](../../aspose.slides.theme/colorscheme/item) { get; } | निर्दिष्ट इंडेक्स पर तत्व प्राप्त करता है। केवल-पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Light1](../../aspose.slides.theme/colorscheme/light1) { get; } | पहला हल्का रंग योजना में। केवल-पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Light2](../../aspose.slides.theme/colorscheme/light2) { get; } | दूसरा हल्का रंग योजना में। केवल-पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Presentation](../../aspose.slides.theme/colorscheme/presentation) { get; } | पैरेंट प्रेजेंटेशन लौटाता है। केवल-पढ़ने योग्य [`IPresentation`](../../aspose.slides/ipresentation). |
+| [Slide](../../aspose.slides.theme/colorscheme/slide) { get; } | पैरेंट स्लाइड लौटाता है। केवल-पढ़ने योग्य [`IBaseSlide`](../../aspose.slides/ibaseslide). |
 
 ### संबंधित देखें
 

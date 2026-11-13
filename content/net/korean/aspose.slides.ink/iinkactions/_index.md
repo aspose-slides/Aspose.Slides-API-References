@@ -3,7 +3,7 @@ title: IInkActions
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 슬라이드의 잉크 개체를 나타냅니다.
 type: docs
-weight: 7520
+weight: 7540
 url: /ko/aspose.slides.ink/iinkactions/
 ---
 ## IInkActions 인터페이스

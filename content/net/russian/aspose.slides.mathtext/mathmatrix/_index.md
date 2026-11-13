@@ -1,14 +1,14 @@
 ---
 title: MathMatrix
-second_title: Aspose.Sildes для .NET справочник API
-description: Определяет объект Matrix, состоящий из дочерних элементов, расположенных в одной или нескольких строках и столбцах. Важно отметить, что у матриц нет встроенных разделителей. Чтобы разместить матрицу в скобках, следует использовать объект разделителя IMathDelimiter. Нулевые аргументы могут использоваться для создания пробелов в матрицах.
+second_title: Aspose.Sildes для .NET API справка
+description: Определяет объект Matrix, состоящий из дочерних элементов, размещённых в одной или нескольких строках и столбцах. Важно отметить, что у матриц нет встроенных разделителей. Чтобы поместить матрицу в скобки, следует использовать объект-разделитель IMathDelimiter. Аргументы со значением null можно использовать для создания пробелов в матрицах.
 type: docs
-weight: 8850
+weight: 8870
 url: /ru/aspose.slides.mathtext/mathmatrix/
 ---
 ## MathMatrix класс
 
-Определяет объект Matrix, состоящий из дочерних элементов, размещённых в одной или нескольких строках и столбцах. Важно отметить, что у матриц нет встроенных разделителей. Чтобы разместить матрицу в скобках, следует использовать объект разделителя (IMathDelimiter). Нулевые аргументы могут использоваться для создания пробелов в матрицах.
+Определяет объект Matrix, состоящий из дочерних элементов, размещённых в одной или нескольких строках и столбцах. Важно отметить, что у матриц нет встроенных разделителей. Чтобы поместить матрицу в скобки, следует использовать объект-разделитель (IMathDelimiter). Параметры со значением null можно использовать для создания пробелов в матрицах.
 
 ```csharp
 public sealed class MathMatrix : MathElementBase, IMathMatrix
@@ -24,61 +24,61 @@ public sealed class MathMatrix : MathElementBase, IMathMatrix
 
 | Имя | Описание |
 | --- | --- |
-| [BaseJustification](../../aspose.slides.mathtext/mathmatrix/basejustification) { get; set; } | Указывает вертикальное выравнивание относительно окружающего текста. Возможные значения: top, bottom и center. По умолчанию: Center |
+| [BaseJustification](../../aspose.slides.mathtext/mathmatrix/basejustification) { get; set; } | Определяет вертикальное выравнивание относительно окружающего текста. Возможные значения: top, bottom, center. По умолчанию: Center |
 | [ColumnCount](../../aspose.slides.mathtext/mathmatrix/columncount) { get; } | Количество столбцов в матрице |
-| [ColumnGap](../../aspose.slides.mathtext/mathmatrix/columngap) { get; set; } | Значение горизонтального интервала между столбцами матрицы; Если ColumnGapRule установлен в 3 ("Exactly"), то единица интерпретируется как твипсы (1/20 пункта). Если ColumnGapRule установлен в 4 ("Multiple"), то единица интерпретируется как количество шагов 0.5 em. В других случаях игнорируется. По умолчанию: 0 |
-| [ColumnGapRule](../../aspose.slides.mathtext/mathmatrix/columngaprule) { get; set; } | Тип горизонтального интервала между столбцами матрицы; единицы горизонтального интервала могут быть ems или points (хранятся как твипсы). По умолчанию: SingleSpacingGap (0) |
-| [HidePlaceholders](../../aspose.slides.mathtext/mathmatrix/hideplaceholders) { get; set; } | Скрывать заполнители для пустых элементов матрицы. По умолчанию: false |
+| [ColumnGap](../../aspose.slides.mathtext/mathmatrix/columngap) { get; set; } | Значение горизонтального интервала между столбцами матрицы; если свойство ColumnGapRule равно 3 ("Exactly"), единица измерения интерпретируется как твипы (1/20 пункта). Если ColumnGapRule равно 4 ("Multiple"), единица измеряется как количество шагов 0.5 em. В остальных случаях игнорируется. По умолчанию: 0 |
+| [ColumnGapRule](../../aspose.slides.mathtext/mathmatrix/columngaprule) { get; set; } | Тип горизонтального интервала между столбцами матрицы; единицы интервала могут быть ems или points (хранятся как твипы). По умолчанию: SingleSpacingGap (0) |
+| [HidePlaceholders](../../aspose.slides.mathtext/mathmatrix/hideplaceholders) { get; set; } | Скрывает заполнители для пустых элементов матрицы. По умолчанию: false |
 | [Item](../../aspose.slides.mathtext/mathmatrix/item) { get; set; } | Элемент матрицы |
-| [MinColumnWidth](../../aspose.slides.mathtext/mathmatrix/mincolumnwidth) { get; set; } | Минимальная ширина столбца в твипсах (1/20 пункта). Промежуток (также называемый “Column Gap” или “Gap Width”) добавляется к MinColumnWidth для определения общего интервала столбцов матрицы (расстояние между одинаковыми краями разных столбцов). По умолчанию: 0. |
+| [MinColumnWidth](../../aspose.slides.mathtext/mathmatrix/mincolumnwidth) { get; set; } | Минимальная ширина столбца в твипах (1/20 пункта). Промежуток (также называемый “Column Gap” или “Gap Width”) добавляется к MinColumnWidth для определения общего интервала столбцов матрицы (расстояние между одинаковыми краями разных столбцов). По умолчанию: 0. |
 | [RowCount](../../aspose.slides.mathtext/mathmatrix/rowcount) { get; } | Количество строк в матрице |
-| [RowGap](../../aspose.slides.mathtext/mathmatrix/rowgap) { get; set; } | Значение вертикального интервала между строками матрицы; Если RowGapRule установлен в 3 ("Exactly"), то единица интерпретируется как твипсы (1/20 пункта). Если RowGapRule установлен в 4 ("Multiple"), то единица интерпретируется как полулинии. По умолчанию: 0 |
-| [RowGapRule](../../aspose.slides.mathtext/mathmatrix/rowgaprule) { get; set; } | Тип вертикального интервала между строками матрицы; единицы вертикального интервала могут быть lines или points (хранятся как твипсы). По умолчанию: SingleSpacingGap (0) |
+| [RowGap](../../aspose.slides.mathtext/mathmatrix/rowgap) { get; set; } | Значение вертикального интервала между строками матрицы; если RowGapRule равно 3 ("Exactly"), единица измерения интерпретируется как твипы (1/20 пункта). Если RowGapRule равно 4 ("Multiple"), единица измеряется как половины строк. По умолчанию: 0 |
+| [RowGapRule](../../aspose.slides.mathtext/mathmatrix/rowgaprule) { get; set; } | Тип вертикального интервала между строками матрицы; единицы вертикального интервала могут быть lines или points (хранятся как твипы). По умолчанию: SingleSpacingGap (0) |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | [Accent](../../aspose.slides.mathtext/mathelementbase/accent)(char) | Устанавливает знак акцента (символ над этим элементом) |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(IMathElement) | Выполняет указанную функцию, используя этот экземпляр в качестве аргумента |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfOneArgument) | Выполняет указанную функцию, используя этот экземпляр в качестве аргумента |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(string) | Выполняет указанную функцию, используя этот экземпляр в качестве аргумента |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfTwoArguments, IMathElement) | Выполняет указанную функцию, используя этот экземпляр в качестве аргумента и указанный дополнительный аргумент |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfTwoArguments, string) | Выполняет указанную функцию, используя этот экземпляр в качестве аргумента и указанный дополнительный аргумент |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(IMathElement) | Принимает указанную функцию, используя данный экземпляр в качестве аргумента |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfOneArgument) | Принимает указанную функцию, используя данный экземпляр в качестве аргумента |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(string) | Принимает указанную функцию, используя данный экземпляр в качестве аргумента |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfTwoArguments, IMathElement) | Принимает указанную функцию, используя данный экземпляр в качестве аргумента и указанный дополнительный аргумент |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfTwoArguments, string) | Принимает указанную функцию, используя данный экземпляр в качестве аргумента и указанный дополнительный аргумент |
 | [DeleteColumn](../../aspose.slides.mathtext/mathmatrix/deletecolumn)(int) | Удаляет указанный столбец |
 | [DeleteRow](../../aspose.slides.mathtext/mathmatrix/deleterow)(int) | Удаляет указанную строку |
-| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(IMathElement) | Создаёт дробь с этим числителем и указанным знаменателем |
-| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(string) | Создаёт дробь с этим числителем и указанным знаменателем |
-| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(IMathElement, MathFractionTypes) | Создаёт дробь указанного типа с этим числителем и указанным знаменателем |
-| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(string, MathFractionTypes) | Создаёт дробь указанного типа с этим числителем и указанным знаменателем |
-| [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)() | Охватывает математический элемент в скобках |
-| virtual [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)(char, char) | Охватывает математический элемент указанными символами, например скобками или другими символами, как рамкой |
-| [Function](../../aspose.slides.mathtext/mathelementbase/function)(IMathElement) | Выполняет функцию аргумента, используя этот экземпляр в качестве имени функции |
-| [Function](../../aspose.slides.mathtext/mathelementbase/function)(string) | Выполняет функцию аргумента, используя этот экземпляр в качестве имени функции |
-| [GetChildren](../../aspose.slides.mathtext/mathmatrix/getchildren)() | Получить дочерние элементы |
-| [GetColumnAlignment](../../aspose.slides.mathtext/mathmatrix/getcolumnalignment)(int) | Получить горизонтальное выравнивание указанного столбца |
-| [Group](../../aspose.slides.mathtext/mathelementbase/group)() | Размещает этот элемент в группу, используя нижнюю фигурную скобку |
-| [Group](../../aspose.slides.mathtext/mathelementbase/group)(char, MathTopBotPositions, MathTopBotPositions) | Размещает этот элемент в группу, используя символ группировки, такой как нижняя фигурная скобка или другой |
-| [InsertColumnAfter](../../aspose.slides.mathtext/mathmatrix/insertcolumnafter)(int) | Вставить новый столбец после указанного. Изначально все элементы в новом столбце равны null. |
-| [InsertColumnBefore](../../aspose.slides.mathtext/mathmatrix/insertcolumnbefore)(int) | Вставить новый столбец перед указанным. Изначально все элементы в новом столбце равны null. |
-| [InsertRowAfter](../../aspose.slides.mathtext/mathmatrix/insertrowafter)(int) | Вставить новую строку после указанной. Изначально все элементы в новой строке равны null. |
-| [InsertRowBefore](../../aspose.slides.mathtext/mathmatrix/insertrowbefore)(int) | Вставить новую строку перед указанной. Изначально все элементы в новой строке равны null. |
-| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes) | Выполняет интеграл без пределов |
-| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, IMathElement, IMathElement) | Выполняет интеграл |
-| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, string, string) | Выполняет интеграл |
-| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, IMathElement, IMathElement, MathLimitLocations) | Выполняет интеграл |
-| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, string, string, MathLimitLocations) | Выполняет интеграл |
+| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(IMathElement) | Создает дробь с этим числителем и указанным знаменателем |
+| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(string) | Создает дробь с этим числителем и указанным знаменателем |
+| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(IMathElement, MathFractionTypes) | Создает дробь указанного типа с этим числителем и указанным знаменателем |
+| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(string, MathFractionTypes) | Создает дробь указанного типа с этим числителем и указанным знаменателем |
+| [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)() | Обрамляет математический элемент скобками |
+| virtual [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)(char, char) | Обрамляет математический элемент указанными символами, например скобками или другими символами |
+| [Function](../../aspose.slides.mathtext/mathelementbase/function)(IMathElement) | Принимает функцию аргумента, используя данный экземпляр в качестве имени функции |
+| [Function](../../aspose.slides.mathtext/mathelementbase/function)(string) | Принимает функцию аргумента, используя данный экземпляр в качестве имени функции |
+| [GetChildren](../../aspose.slides.mathtext/mathmatrix/getchildren)() | Получает дочерние элементы |
+| [GetColumnAlignment](../../aspose.slides.mathtext/mathmatrix/getcolumnalignment)(int) | Получает горизонтальное выравнивание указанного столбца |
+| [Group](../../aspose.slides.mathtext/mathelementbase/group)() | Помещает этот элемент в группу, используя нижнюю фигурную скобку |
+| [Group](../../aspose.slides.mathtext/mathelementbase/group)(char, MathTopBotPositions, MathTopBotPositions) | Помещает этот элемент в группу, используя символ группировки, такой как нижняя фигурная скобка или другой |
+| [InsertColumnAfter](../../aspose.slides.mathtext/mathmatrix/insertcolumnafter)(int) | Вставляет новый столбец после указанного. Изначально все элементы нового столбца равны null. |
+| [InsertColumnBefore](../../aspose.slides.mathtext/mathmatrix/insertcolumnbefore)(int) | Вставляет новый столбец перед указанным. Изначально все элементы нового столбца равны null. |
+| [InsertRowAfter](../../aspose.slides.mathtext/mathmatrix/insertrowafter)(int) | Вставляет новую строку после указанной. Изначально все элементы новой строки равны null. |
+| [InsertRowBefore](../../aspose.slides.mathtext/mathmatrix/insertrowbefore)(int) | Вставляет новую строку перед указанной. Изначально все элементы новой строки равны null. |
+| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes) | Принимает интеграл без пределов |
+| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, IMathElement, IMathElement) | Принимает интеграл |
+| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, string, string) | Принимает интеграл |
+| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, IMMathElement, IMathElement, MathLimitLocations) | Принимает интеграл |
+| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, string, string, MathLimitLocations) | Принимает интеграл |
 | virtual [Join](../../aspose.slides.mathtext/mathelementbase/join)(IMathElement) | Объединяет математический элемент и формирует математический блок |
 | virtual [Join](../../aspose.slides.mathtext/mathelementbase/join)(string) | Объединяет математический текст и формирует математический блок |
-| [Nary](../../aspose.slides.mathtext/mathelementbase/nary)(MathNaryOperatorTypes, IMathElement, IMathElement) | Создаёт N-арный оператор |
-| [Nary](../../aspose.slides.mathtext/mathelementbase/nary)(MathNaryOperatorTypes, string, string) | Создаёт N-арный оператор |
-| [Overbar](../../aspose.slides.mathtext/mathelementbase/overbar)() | Устанавливает полосу над этим элементом |
-| [Radical](../../aspose.slides.mathtext/mathelementbase/radical)(IMathElement) | Указывает математический корень данной степени из указанного аргумента. |
-| [Radical](../../aspose.slides.mathtext/mathelementbase/radical)(string) | Указывает математический корень данной степени из указанного аргумента. |
-| [SetColumnAlignment](../../aspose.slides.mathtext/mathmatrix/setcolumnalignment)(int, MathHorizontalAlignment) | Установить горизонтальное выравнивание указанного столбца |
-| [SetColumnsAlignment](../../aspose.slides.mathtext/mathmatrix/setcolumnsalignment)(int, uint, MathHorizontalAlignment) | Установить горизонтальное выравнивание указанных столбцов |
-| [SetLowerLimit](../../aspose.slides.mathtext/mathelementbase/setlowerlimit)(IMathElement) | Выполняет нижний предел |
-| [SetLowerLimit](../../aspose.slides.mathtext/mathelementbase/setlowerlimit)(string) | Выполняет нижний предел |
+| [Nary](../../aspose.slides.mathtext/mathelementbase/nary)(MathNaryOperatorTypes, IMathElement, IMathElement) | Создает N-арный оператор |
+| [Nary](../../aspose.slides.mathtext/mathelementbase/nary)(MathNaryOperatorTypes, string, string) | Создает N-арный оператор |
+| [Overbar](../../aspose.slides.mathtext/mathelementbase/overbar)() | Устанавливает черту сверху данного элемента |
+| [Radical](../../aspose.slides.mathtext/mathelementbase/radical)(IMathElement) | Задает математический корень заданной степени от указанного аргумента. |
+| [Radical](../../aspose.slides.mathtext/mathelementbase/radical)(string) | Задает математический корень заданной степени от указанного аргумента. |
+| [SetColumnAlignment](../../aspose.slides.mathtext/mathmatrix/setcolumnalignment)(int, MathHorizontalAlignment) | Устанавливает горизонтальное выравнивание указанного столбца |
+| [SetColumnsAlignment](../../aspose.slides.mathtext/mathmatrix/setcolumnsalignment)(int, uint, MathHorizontalAlignment) | Устанавливает горизонтальное выравнивание указанных столбцов |
+| [SetLowerLimit](../../aspose.slides.mathtext/mathelementbase/setlowerlimit)(IMathElement) | Принимает нижний предел |
+| [SetLowerLimit](../../aspose.slides.mathtext/mathelementbase/setlowerlimit)(string) | Принимает нижний предел |
 | [SetSubscript](../../aspose.slides.mathtext/mathelementbase/setsubscript)(IMathElement) | Создаёт нижний индекс |
 | [SetSubscript](../../aspose.slides.mathtext/mathelementbase/setsubscript)(string) | Создаёт нижний индекс |
 | [SetSubSuperscriptOnTheLeft](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheleft)(IMathElement, IMathElement) | Создаёт нижний и верхний индексы слева |
@@ -87,13 +87,13 @@ public sealed class MathMatrix : MathElementBase, IMathMatrix
 | [SetSubSuperscriptOnTheRight](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheright)(string, string) | Создаёт нижний и верхний индексы справа |
 | [SetSuperscript](../../aspose.slides.mathtext/mathelementbase/setsuperscript)(IMathElement) | Создаёт верхний индекс |
 | [SetSuperscript](../../aspose.slides.mathtext/mathelementbase/setsuperscript)(string) | Создаёт верхний индекс |
-| [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit)(IMathElement) | Выполняет верхний предел |
-| [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit)(string) | Выполняет верхний предел |
-| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)() | Размещает этот элемент в рамке |
-| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)(bool, bool, bool, bool, bool, bool, bool, bool) | Размещает этот элемент в рамке |
-| [ToBox](../../aspose.slides.mathtext/mathelementbase/tobox)() | Размещает этот элемент в невизуальном блоке (логическая группировка), который используется для группировки компонентов уравнения или другого фрагмента математического текста. Объект в блоке может (например) служить эмулятором оператора с точкой выравнивания или без неё, служить точкой разрыва строки, или быть сгруппированным так, чтобы не допускать разрывы строк внутри. |
-| virtual [ToMathArray](../../aspose.slides.mathtext/mathelementbase/tomatharray)() | Размещает в вертикальном массиве |
-| [Underbar](../../aspose.slides.mathtext/mathelementbase/underbar)() | Устанавливает полосу внизу этого элемента |
+| [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit)(IMathElement) | Принимает верхний предел |
+| [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit)(string) | Принимает верхний предел |
+| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)() | Помещает этот элемент в рамку |
+| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)(bool, bool, bool, bool, bool, bool, bool, bool) | Помещает этот элемент в рамку |
+| [ToBox](../../aspose.slides.mathtext/mathelementbase/tobox)() | Помещает этот элемент в невизуальный контейнер (логическую группу), используемый для группировки компонентов уравнения или другого фрагмента математического текста. Объект в коробке может, например, выступать в роли эмулятора оператора с точкой выравнивания или без неё, служить точкой разрыва строки или быть сгруппирован так, чтобы не позволять разрывы строк внутри. |
+| virtual [ToMathArray](../../aspose.slides.mathtext/mathelementbase/tomatharray)() | Помещает в вертикальный массив |
+| [Underbar](../../aspose.slides.mathtext/mathelementbase/underbar)() | Устанавливает черту снизу данного элемента |
 
 ### Примеры
 

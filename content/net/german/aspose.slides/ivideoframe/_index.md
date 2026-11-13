@@ -3,7 +3,7 @@ title: IVideoFrame
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt einen Videoclip auf einer Folie dar.
 type: docs
-weight: 7380
+weight: 7400
 url: /de/aspose.slides/ivideoframe/
 ---
 ## IVideoFrame Schnittstelle
@@ -16,20 +16,21 @@ public interface IVideoFrame : IPictureFrame
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | Ermöglicht das Abrufen des Basis-IPictureFrame Schnittstelle. Nur lesen [`IPictureFrame`](../ipictureframe). |
-| [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | Ruft die Sammlung geschlossener Untertitel ab, die mit dem Audio-Frame verknüpft ist. Diese Eigenschaft ist nur lesen und gibt ein [`ICaptionsCollection`](../icaptionscollection) zurück, das alle Untertitelspuren enthält. |
-| [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | Gibt das eingebettete Video-Objekt zurück oder legt es fest. Lesen/Schreiben [`IVideo`](../ivideo). |
+| [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | Ermöglicht das Abrufen der Basis-IPictureFrame-Schnittstelle. Nur lesbar [`IPictureFrame`](../ipictureframe). |
+| [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | Ruft die Sammlung geschlossener Untertitel ab, die dem Audio-Frame zugeordnet sind. Diese Eigenschaft ist nur lesbar und gibt ein [`ICaptionsCollection`](../icaptionscollection) zurück, das alle Untertitelspuren enthält. |
+| [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | Gibt das eingebettete Videoobjekt zurück oder setzt es. Lesen/Schreiben [`IVideo`](../ivideo). |
 | [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | Bestimmt, ob ein Video im Vollbildmodus angezeigt wird. Lesen/Schreiben Boolean. |
-| [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | Bestimmt, ob ein VideoFrame ausgeblendet ist. Lesen/Schreiben Boolean. |
-| [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | Gibt den Namen einer Videodatei zurück oder legt ihn fest, die mit einem VideoFrame verknüpft ist. Lesen/Schreiben String. |
+| [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | Bestimmt, ob ein VideoFrame verborgen ist. Lesen/Schreiben Boolean. |
+| [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | Gibt den Namen einer Videodatei zurück oder setzt ihn, die mit einem VideoFrame verknüpft ist. Lesen/Schreiben String. |
 | [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | Bestimmt, ob ein Video wiederholt wird. Lesen/Schreiben Boolean. |
-| [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | Gibt den Wiedergabemodus des Videos zurück oder legt ihn fest. Lesen/Schreiben [`VideoPlayModePreset`](../videoplaymodepreset). |
-| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | Bestimmt, ob ein Video nach Beendigung der Wiedergabe automatisch zum Start zurückgespult wird. Lesen/Schreiben Boolean. |
-| [TrimFromEnd](../../aspose.slides/ivideoframe/trimfromend) { get; set; } | Trim end [ms] |
-| [TrimFromStart](../../aspose.slides/ivideoframe/trimfromstart) { get; set; } | Trim start [ms] |
-| [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | Gibt die Audio-Lautstärke zurück oder legt sie fest. Lesen/Schreiben [`AudioVolumeMode`](../audiovolumemode). |
+| [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | Gibt den Videowiedergabemodus zurück oder setzt ihn. Lesen/Schreiben [`VideoPlayModePreset`](../videoplaymodepreset). |
+| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | Bestimmt, ob ein Video automatisch zum Anfang zurückgespult wird, sobald der Film die Wiedergabe beendet hat. Lesen/Schreiben Boolean. |
+| [TrimFromEnd](../../aspose.slides/ivideoframe/trimfromend) { get; set; } | Trim-Ende [ms] |
+| [TrimFromStart](../../aspose.slides/ivideoframe/trimfromstart) { get; set; } | Trim-Start [ms] |
+| [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | Gibt die Audio-Lautstärke zurück oder setzt sie. Lesen/Schreiben [`AudioVolumeMode`](../audiovolumemode). |
+| [VolumeValue](../../aspose.slides/ivideoframe/volumevalue) { get; set; } | Gibt die genaue Video-Lautstärke als Prozentsatz zurück oder setzt sie. Der Wert wird als Prozentsatz von 0 bis 100 ausgedrückt. Verwenden Sie diese Eigenschaft, um Lautstärkewerte zu lesen oder zu setzen, die präziser sind als die über die [`Volume`](./volume)-Eigenschaft verfügbaren vordefinierten Stufen. Lesen/Schreiben Single. |
 
 ### Siehe auch
 

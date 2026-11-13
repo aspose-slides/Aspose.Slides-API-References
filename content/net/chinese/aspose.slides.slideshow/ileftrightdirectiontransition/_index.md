@@ -1,14 +1,14 @@
 ---
 title: ILeftRightDirectionTransition
 second_title: Aspose.Sildes for .NET API 参考
-description: 左右方向的幻灯片过渡效果。
+description: 左右方向幻灯片过渡效果。
 type: docs
-weight: 10120
+weight: 10140
 url: /zh/aspose.slides.slideshow/ileftrightdirectiontransition/
 ---
 ## ILeftRightDirectionTransition 接口
 
-左右方向的幻灯片过渡效果。
+Left-right direction slide transition effect.
 
 ```csharp
 public interface ILeftRightDirectionTransition : ITransitionValueBase
@@ -18,10 +18,10 @@ public interface ILeftRightDirectionTransition : ITransitionValueBase
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ileftrightdirectiontransition/asitransitionvaluebase) { get; } | 允许获取基 ITransitionValueBase 接口。只读 [`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [Direction](../../aspose.slides.slideshow/ileftrightdirectiontransition/direction) { get; set; } | 过渡的方向。读写 [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype)。 |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ileftrightdirectiontransition/asitransitionvaluebase) { get; } | 允许获取基础 ITransitionValueBase 接口。只读 [`ITransitionValueBase`](../itransitionvaluebase)。 |
+| [Direction](../../aspose.slides.slideshow/ileftrightdirectiontransition/direction) { get; set; } | 转换的方向。读写 [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype)。 |
 
-### 另请参阅
+### 参见
 
 * 接口 [ITransitionValueBase](../itransitionvaluebase)
 * 命名空间 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

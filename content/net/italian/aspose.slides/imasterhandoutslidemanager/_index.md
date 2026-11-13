@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlideManager
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Gestore master delle diapositive handout.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Gestore di diapositive master per le dispense.
 type: docs
-weight: 6370
+weight: 6390
 url: /it/aspose.slides/imasterhandoutslidemanager/
 ---
 ## IMasterHandoutSlideManager interfaccia
 
-Gestore delle diapositive di handout master.
+Gestore di diapositive master per le dispense.
 
 ```csharp
 public interface IMasterHandoutSlideManager
@@ -16,16 +16,16 @@ public interface IMasterHandoutSlideManager
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | Restituisce un master per tutte le diapositive delle note di questa presentazione, se presente, altrimenti restituisce null. Solo lettura [`IMasterHandoutSlide`](../imasterhandoutslide). |
+| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | Restituisce un master per tutte le diapositive delle note di questa presentazione se presente, altrimenti restituisce null. Solo lettura [`IMasterHandoutSlide`](../imasterhandoutslide). |
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | Rimuove la diapositiva di handout master. |
-| [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | Imposta la diapositiva di handout master predefinita sulla diapositiva di handout correlata. |
+| [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | Rimuove la diapositiva master della dispensa. |
+| [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | Imposta la diapositiva master della dispensa predefinita sulla diapositiva di dispensa correlata. |
 
 ### Vedi anche
 

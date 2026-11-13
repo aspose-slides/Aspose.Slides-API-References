@@ -1,9 +1,9 @@
 ---
 title: VideoCollection
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示 Video 对象的集合。
 type: docs
-weight: 11710
+weight: 11730
 url: /zh/aspose.slides/videocollection/
 ---
 ## VideoCollection 类
@@ -19,7 +19,7 @@ public class VideoCollection : DomObject<Presentation>, IVideoCollection
 | 名称 | 描述 |
 | --- | --- |
 | [Count](../../aspose.slides/videocollection/count) { get; } | 返回集合中视频文件的数量。只读 Int32。 |
-| [IsSynchronized](../../aspose.slides/videocollection/issynchronized) { get; } | 返回一个指示对集合的访问是否同步（线程安全）的值。只读 Boolean。 |
+| [IsSynchronized](../../aspose.slides/videocollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。只读 Boolean。 |
 | [Item](../../aspose.slides/videocollection/item) { get; } | 获取指定索引处的元素。只读 [`IVideo`](../ivideo)。 |
 | [SyncRoot](../../aspose.slides/videocollection/syncroot) { get; } | 返回同步根。只读 Object。 |
 
@@ -27,9 +27,9 @@ public class VideoCollection : DomObject<Presentation>, IVideoCollection
 
 | 名称 | 描述 |
 | --- | --- |
-| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_1)(byte[]) | 从字节数组创建并将视频添加到演示文稿。 |
-| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo)(IVideo) | 从另一个演示文稿中添加视频文件的副本。 |
-| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | 从流创建并将视频添加到演示文稿。 |
+| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_1)(byte[]) | 从字节数组创建并添加视频到演示文稿。 |
+| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo)(IVideo) | 从另一个演示文稿添加视频文件的副本。 |
+| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | 从流创建并添加视频到演示文稿。 |
 | [CopyTo](../../aspose.slides/videocollection/copyto)(Array, int) | 将视频复制到指定数组，从指定索引开始。 |
 | [GetEnumerator](../../aspose.slides/videocollection/getenumerator)() | 返回一个遍历集合的枚举器。 |
 

@@ -1,15 +1,14 @@
 ---
 title: ReplaceFont
-second_title: Aspose.Sildes für .NET API Referenz
-description: Schriftart in der Präsentation ersetzen
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Schriftart in Präsentation ersetzen
 type: docs
-weight: 100
+weight: 110
 url: /de/aspose.slides/ifontsmanager/replacefont/
 ---
-
 ## ReplaceFont(IFontData, IFontData) {#replacefont}
 
-Schriftart in der Präsentation ersetzen
+Schriftart in Präsentation ersetzen
 
 ```csharp
 public void ReplaceFont(IFontData sourceFont, IFontData destFont)
@@ -18,7 +17,7 @@ public void ReplaceFont(IFontData sourceFont, IFontData destFont)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | sourceFont | IFontData | Quellschriftart |
-| destFont | IFontData | Zielschnittart |
+| destFont | IFontData | Zielschriftart |
 
 ### Siehe auch
 
@@ -31,7 +30,7 @@ public void ReplaceFont(IFontData sourceFont, IFontData destFont)
 
 ## ReplaceFont(IFontSubstRule) {#replacefont_1}
 
-Schriftart in der Präsentation ersetzen, indem Informationen aus [`IFontSubstRule`](../../ifontsubstrule) verwendet werden
+Schriftart in Präsentation mithilfe der in [`IFontSubstRule`](../../ifontsubstrule) bereitgestellten Informationen ersetzen
 
 ```csharp
 public void ReplaceFont(IFontSubstRule substRule)
@@ -39,7 +38,7 @@ public void ReplaceFont(IFontSubstRule substRule)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| substRule | IFontSubstRule | Informationen zur Schriftartsubstitution |
+| substRule | IFontSubstRule | Schriftart-Ersetzungsinfo |
 
 ### Siehe auch
 
@@ -52,7 +51,7 @@ public void ReplaceFont(IFontSubstRule substRule)
 
 ## ReplaceFont(IFontSubstRuleCollection) {#replacefont_2}
 
-Schriftart in der Präsentation ersetzen, indem Informationen aus der Sammlung von [`IFontSubstRule`](../../ifontsubstrule) verwendet werden
+Schriftart in Präsentation mithilfe der in der Sammlung von [`IFontSubstRule`](../../ifontsubstrule) bereitgestellten Informationen ersetzen
 
 ```csharp
 public void ReplaceFont(IFontSubstRuleCollection substRules)
@@ -60,7 +59,7 @@ public void ReplaceFont(IFontSubstRuleCollection substRules)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| substRules | IFontSubstRuleCollection | Sammlung von Informationen zur Schriftartsubstitution |
+| substRules | IFontSubstRuleCollection | Sammlung von Schriftart-Ersetzungsinformationen |
 
 ### Siehe auch
 

@@ -1,14 +1,14 @@
 ---
 title: ITintEffectiveData
-second_title: Aspose.Sildes para .NET Referência da API
-description: Objeto imutável que representa um efeito Tint. Desloca os valores de cor do efeito em direção/afastamento do matiz pela quantidade especificada.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Objeto imutável que representa um efeito Tint. Desloca os valores de cor do efeito em direção/afastando-se do matiz pela quantidade especificada.
 type: docs
-weight: 3550
+weight: 3570
 url: /pt/aspose.slides.effects/itinteffectivedata/
 ---
 ## ITintEffectiveData interface
 
-Objeto imutável que representa um efeito Tint. Desloca os valores de cor do efeito em direção/afastamento do matiz pela quantidade especificada.
+Objeto imutável que representa um efeito Tint. Desloca os valores de cor do efeito em direção/afastando-se do matiz pela quantidade especificada.
 
 ```csharp
 public interface ITintEffectiveData : IEffectEffectiveData

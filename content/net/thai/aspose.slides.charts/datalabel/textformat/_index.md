@@ -1,14 +1,14 @@
 ---
 title: TextFormat
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: คืนรูปแบบข้อความ. อ่านอย่างเดียว IChartTextFormataspose.slides.charts/icharttextformat.
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: ส่งคืนรูปแบบข้อความ. อ่านอย่างเดียว IChartTextFormataspose.slides.charts/icharttextformat.
 type: docs
-weight: 120
+weight: 130
 url: /th/aspose.slides.charts/datalabel/textformat/
 ---
 ## DataLabel.TextFormat คุณสมบัติ
 
-คืนรูปแบบข้อความ. อ่านอย่างเดียว [`IChartTextFormat`](../../icharttextformat).
+ส่งคืนรูปแบบข้อความ. อ่านอย่างเดียว [`IChartTextFormat`](../../icharttextformat).
 
 ```csharp
 public IChartTextFormat TextFormat { get; }

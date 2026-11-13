@@ -3,7 +3,7 @@ title: IPictureFrame
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa un marco con una imagen dentro.
 type: docs
-weight: 6670
+weight: 6690
 url: /es/aspose.slides/ipictureframe/
 ---
 ## IPictureFrame interfaz

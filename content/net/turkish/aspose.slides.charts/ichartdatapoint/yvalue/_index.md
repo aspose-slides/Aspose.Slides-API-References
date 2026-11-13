@@ -1,20 +1,20 @@
 ---
 title: YValue
-second_title: Aspose.Slides .NET API Referansı
-description: Grafik veri noktasının y değerini döndürür. Salt okunur IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+second_title: Aspose.Sildes .NET API Referansı
+description: Bir grafik veri noktasının y değerini alır. Yalnızca okunur IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 180
+weight: 220
 url: /tr/aspose.slides.charts/ichartdatapoint/yvalue/
 ---
 ## IChartDataPoint.YValue özelliği
 
-Grafik veri noktasının y değerini döndürür. Salt okunur [`IDoubleChartValue`](../../idoublechartvalue).
+Bir grafik veri noktasının y değerini alır. Yalnızca okunur [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue YValue { get; }
 ```
 
-### İlgili
+### Ayrıca Bakınız
 
 * arayüz [IDoubleChartValue](../../idoublechartvalue)
 * arayüz [IChartDataPoint](../../ichartdatapoint)

@@ -1,14 +1,14 @@
 ---
 title: IFonts
-second_title: Aspose.Sildes pro .NET – referenční příručka API
-description: Představuje kolekci písem.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Reprezentuje kolekci písem.
 type: docs
-weight: 5900
+weight: 5920
 url: /cs/aspose.slides/ifonts/
 ---
 ## IFonts rozhraní
 
-Představuje kolekci písem.
+Reprezentuje kolekci písem.
 
 ```csharp
 public interface IFonts
@@ -19,17 +19,17 @@ public interface IFonts
 | Název | Popis |
 | --- | --- |
 | [ComplexScriptFont](../../aspose.slides/ifonts/complexscriptfont) { get; set; } | Vrací nebo nastavuje písmo komplexního skriptu. Čtení/zápis [`IFontData`](../ifontdata). |
-| [EastAsianFont](../../aspose.slides/ifonts/eastasianfont) { get; set; } | Vrací nebo nastavuje východoasijské písmo. Čtení/zápis [`IFontData`](../ifontdata). |
+| [EastAsianFont](../../aspose.slides/ifonts/eastasianfont) { get; set; } | Vrací nebo nastavuje písmo východoasijské. Čtení/zápis [`IFontData`](../ifontdata). |
 | [LatinFont](../../aspose.slides/ifonts/latinfont) { get; set; } | Vrací nebo nastavuje latinské písmo. Čtení/zápis [`IFontData`](../ifontdata). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [GetScriptFont](../../aspose.slides/ifonts/getscriptfont)(string) | Získá název písma spojený s konkrétní značkou skriptu z motivu prezentace. |
-| [GetScriptFontMap](../../aspose.slides/ifonts/getscriptfontmap)() | Vrací slovník všech definic písem skriptu v prezentaci. |
-| [RemoveScriptFont](../../aspose.slides/ifonts/removescriptfont)(string) | Odstraní nastavení písma spojené s konkrétní značkou skriptu ze sbírky písem motivu. |
-| [SetScriptFont](../../aspose.slides/ifonts/setscriptfont)(string, string) | Přiřadí název písma ke konkrétní značce skriptu, což určuje, jak bude text toho skriptu v prezentaci vykreslen. |
+| [GetScriptFont](../../aspose.slides/ifonts/getscriptfont)(string) | Získá název písma přiřazeného ke konkrétní značce skriptu z motivu prezentace. |
+| [GetScriptFontMap](../../aspose.slides/ifonts/getscriptfontmap)() | Vrací slovník všech definic písma skriptů v prezentaci. |
+| [RemoveScriptFont](../../aspose.slides/ifonts/removescriptfont)(string) | Odstraní nastavení písma přiřazené ke konkrétní značce skriptu ze sbírky písem motivu. |
+| [SetScriptFont](../../aspose.slides/ifonts/setscriptfont)(string, string) | Přiřadí název písma ke konkrétní značce skriptu, což určuje, jak bude text tohoto skriptu v prezentaci vykreslen. |
 
 ### Viz také
 

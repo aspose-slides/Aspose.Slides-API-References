@@ -1,12 +1,12 @@
 ---
 title: DisplayUnitType
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Determina la multiplicidad de los datos mostrados.
 type: docs
-weight: 1620
+weight: 1630
 url: /es/aspose.slides.charts/displayunittype/
 ---
-## enumeración DisplayUnitType
+## DisplayUnitType enumeración
 
 Determina la multiplicidad de los datos mostrados.
 
@@ -19,16 +19,16 @@ public enum DisplayUnitType
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | None | `0` | Los valores se mostrarán tal cual. |
-| Hundreds | `1` | Especifica que los valores del gráfico se dividirán por 100. |
-| Thousands | `2` | Especifica que los valores del gráfico se dividirán por 1 000. |
-| TenThousands | `3` | Especifica que los valores del gráfico se dividirán por 10 000. |
-| HundredThousands | `4` | Especifica que los valores del gráfico se dividirán por 100 000. |
-| Millions | `5` | Especifica que los valores del gráfico se dividirán por 1 000 000. |
-| TenMillions | `6` | Especifica que los valores del gráfico se dividirán por 10 000 000. |
-| HundredMillions | `7` | Especifica que los valores del gráfico se dividirán por 100 000 000. |
-| Billions | `8` | Especifica que los valores del gráfico se dividirán por 1 000 000 000. |
-| Trillions | `9` | Especifica que los valores del gráfico se dividirán por 1 000 000 000 000. |
-| CustomValue | `10` | Especifica que los valores del gráfico se dividirán por un valor personalizado. |
+| Hundreds | `1` | Especifica que los valores en el gráfico se dividirán por 100. |
+| Thousands | `2` | Especifica que los valores en el gráfico se dividirán por 1,000. |
+| TenThousands | `3` | Especifica que los valores en el gráfico se dividirán por 10,000. |
+| HundredThousands | `4` | Especifica que los valores en el gráfico se dividirán por 100,000. |
+| Millions | `5` | Especifica que los valores en el gráfico se dividirán por 1,000,000. |
+| TenMillions | `6` | Especifica que los valores en el gráfico se dividirán por 10,000,000. |
+| HundredMillions | `7` | Especifica que los valores en el gráfico se dividirán por 100,000,000. |
+| Billions | `8` | Especifica que los valores en el gráfico se dividirán por 1,000,000,000. |
+| Trillions | `9` | Especifica que los valores en el gráfico se dividirán por 1,000,000,000,000. |
+| CustomValue | `10` | Especifica que los valores en el gráfico se dividirán por un valor personalizado. |
 
 ### Ver también
 

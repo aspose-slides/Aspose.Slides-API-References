@@ -1,14 +1,14 @@
 ---
 title: ShredTransition
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Efecto de transición de diapositiva desmenuzada.
+description: Efecto de transición de diapositiva Shred.
 type: docs
-weight: 10300
+weight: 10320
 url: /es/aspose.slides.slideshow/shredtransition/
 ---
 ## ShredTransition clase
 
-Efecto de transición de diapositiva desmenuzada.
+Efecto de transición de diapositiva Shred.
 
 ```csharp
 public class ShredTransition : TransitionValueBase, IShredTransition
@@ -19,14 +19,14 @@ public class ShredTransition : TransitionValueBase, IShredTransition
 | Nombre | Descripción |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/shredtransition/direction) { get; set; } | Dirección de la transición. Lectura/escritura [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/shredtransition/pattern) { get; set; } | Especifica la forma de los visuales utilizados durante la transición. Lectura/escritura [`TransitionShredPattern`](../transitionshredpattern). |
+| [Pattern](../../aspose.slides.slideshow/shredtransition/pattern) { get; set; } | Especifica la forma de los elementos visuales usados durante la transición. Lectura/escritura [`TransitionShredPattern`](../transitionshredpattern). |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina si las dos instancias de TransitionValueBase son iguales. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funciona como una función hash para un tipo particular, adecuada para su uso en algoritmos de hash y estructuras de datos como una tabla hash. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funciona como una función hash para un tipo específico, adecuada para su uso en algoritmos de hash y estructuras de datos como una tabla hash. |
 
 ### Ver también
 

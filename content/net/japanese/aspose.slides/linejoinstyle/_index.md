@@ -3,7 +3,7 @@ title: LineJoinStyle
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 線の結合スタイルを表します。
 type: docs
-weight: 7800
+weight: 7820
 url: /ja/aspose.slides/linejoinstyle/
 ---
 ## LineJoinStyle 列挙型

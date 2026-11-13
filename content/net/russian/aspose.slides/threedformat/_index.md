@@ -1,9 +1,9 @@
 ---
 title: ThreeDFormat
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Справочник API Aspose.Sildes для .NET
 description: Представляет свойства 3-D.
 type: docs
-weight: 11490
+weight: 11510
 url: /ru/aspose.slides/threedformat/
 ---
 ## ThreeDFormat класс
@@ -24,10 +24,10 @@ public sealed class ThreeDFormat : PVIObject, IThreeDFormat
 | [Camera](../../aspose.slides/threedformat/camera) { get; } | Возвращает или задает настройки камеры. Только для чтения [`ICamera`](../icamera). |
 | [ContourColor](../../aspose.slides/threedformat/contourcolor) { get; } | Возвращает или задает цвет контура. Только для чтения [`IColorFormat`](../icolorformat). |
 | [ContourWidth](../../aspose.slides/threedformat/contourwidth) { get; set; } | Возвращает или задает ширину 3D контура. Чтение/запись Double. |
-| [Depth](../../aspose.slides/threedformat/depth) { get; set; } | Возвращает или задает глубину 3D фигуры. Чтение/запись Double. |
-| [ExtrusionColor](../../aspose.slides/threedformat/extrusioncolor) { get; } | Возвращает или задает цвет экструзии. Только для чтения [`IColorFormat`](../icolorformat). |
-| [ExtrusionHeight](../../aspose.slides/threedformat/extrusionheight) { get; set; } | Возвращает или задает высоту эффекта экструзии. Чтение/запись Double. |
-| [LightRig](../../aspose.slides/threedformat/lightrig) { get; } | Возвращает или задает тип света. Только для чтения [`ILightRig`](../ilightrig). |
+| [Depth](../../aspose.slides/threedformat/depth) { get; set; } | Возвращает или задает глубину 3D формы. Чтение/запись Double. |
+| [ExtrusionColor](../../aspose.slides/threedformat/extrusioncolor) { get; } | Возвращает или задает цвет экструдирования. Только для чтения [`IColorFormat`](../icolorformat). |
+| [ExtrusionHeight](../../aspose.slides/threedformat/extrusionheight) { get; set; } | Возвращает или задает высоту эффекта экструдирования. Чтение/запись Double. |
+| [LightRig](../../aspose.slides/threedformat/lightrig) { get; } | Возвращает или задает тип освещения. Только для чтения [`ILightRig`](../ilightrig). |
 | [Material](../../aspose.slides/threedformat/material) { get; set; } | Возвращает или задает тип материала. Чтение/запись [`MaterialPresetType`](../materialpresettype). |
 
 ## Методы
@@ -35,24 +35,24 @@ public sealed class ThreeDFormat : PVIObject, IThreeDFormat
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Сравнивает с указанным объектом. |
-| [GetEffective](../../aspose.slides/threedformat/geteffective)() | Получает эффективные данные форматирования 3-D с учётом наследования. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает хэш-код. |
+| [GetEffective](../../aspose.slides/threedformat/geteffective)() | Получает действительные данные 3-D форматирования с примененным наследованием. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает код хеширования. |
 
 ### Примеры
 
-Следующий пример показывает, как добавить 3D-объект в презентацию PowerPoint.
+В следующем примере показано, как добавить 3D-объект в презентацию PowerPoint.
 
 ```csharp
 [C#]
 // Создать экземпляр класса Presentation.
 using (Presentation pres = new Presentation())
 {
-	// Добавить фигуру с помощью метода AddAutoShape.
+	// Добавить фигуру с помощью метода AddAutoShape
     IAutoShape shape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 200, 150, 200, 200);
-	// Определить TextFrame и его свойства.
+	// Определить TextFrame и его свойства
     shape.TextFrame.Text = "3D";
     shape.TextFrame.Paragraphs[0].ParagraphFormat.DefaultPortionFormat.FontHeight = 64;
-	// Определить свойства ThreeDFormat.
+	// Определить свойства ThreeDFormat
     shape.ThreeDFormat.Camera.CameraType = CameraPresetType.OrthographicFront;
     shape.ThreeDFormat.Camera.SetRotation(20, 30, 40);
     shape.ThreeDFormat.LightRig.LightType = LightRigPresetType.Flat;
@@ -61,12 +61,12 @@ using (Presentation pres = new Presentation())
     shape.ThreeDFormat.ExtrusionHeight = 100;
     shape.ThreeDFormat.ExtrusionColor.Color = Color.Blue;
     pres.Slides[0].GetThumbnail(2, 2).Save("sample_3d.png");
-	// Сохранить файл Presentation.
+	// Сохранить файл Presentation
     pres.Save("sandbox_3d.pptx", SaveFormat.Pptx);
 }
 ```
 
-Следующий пример показывает, как применить градиентный эффект к 3D-объекту в презентации PowerPoint.
+В следующем примере показано, как применить градиентный эффект к 3D-объекту в презентации PowerPoint.
 
 ```csharp
 [C#]
@@ -78,7 +78,7 @@ using (Presentation pres = new Presentation())
 	// Определить TextFrame и его свойства
     shape.TextFrame.Text = "3D Gradient";
     shape.TextFrame.Paragraphs[0].ParagraphFormat.DefaultPortionFormat.FontHeight = 64;
-	// Настроить FillFormat.FillType как FillType.Gradient и определить свойства градиента
+	// Настроить FillFormat.FillType как FillType.Gradient и задать свойства градиента
 	shape.FillFormat.FillType = FillType.Gradient;
     shape.FillFormat.GradientFormat.GradientStops.Add(0, Color.Blue);
     shape.FillFormat.GradientFormat.GradientStops.Add(100, Color.Orange);
@@ -91,12 +91,12 @@ using (Presentation pres = new Presentation())
     shape.ThreeDFormat.ExtrusionHeight = 100;
     shape.ThreeDFormat.ExtrusionColor.Color = Color.Blue;
     pres.Slides[0].GetThumbnail(2, 2).Save("sample_3d.png");
-	// Сохранить файл Presentation.
+	// Сохранить файл Presentation
     pres.Save("sandbox_3d.pptx", SaveFormat.Pptx);
 }
 ```
 
-Следующий пример показывает, как применить 3D-эффект к тексту. Для создания 3D-текста можно использовать трансформацию WordArt.
+В следующем примере показано, как применить 3D-эффект к тексту. Для создания 3D-текста можно использовать эффект преобразования WordArt.
 
 ```csharp
 [C#]
@@ -110,7 +110,7 @@ using (Presentation pres = new Presentation())
 	// Настроить FillFormat.FillType как FillType.NoFill
 	shape.FillFormat.FillType = FillType.NoFill;
     shape.LineFormat.FillFormat.FillType = FillType.NoFill;
-	// Настроить часть TextFrame и свойства PortionFormat
+	// Настроить Portion TextFrame и свойства PortionFormat
 	Portion portion = (Portion)shape.TextFrame.Paragraphs[0].Portions[0];
     portion.PortionFormat.FillFormat.FillType = FillType.Pattern;
     portion.PortionFormat.FillFormat.PatternFormat.ForeColor.Color = Color.DarkOrange;
@@ -118,9 +118,9 @@ using (Presentation pres = new Presentation())
     portion.PortionFormat.FillFormat.PatternFormat.PatternStyle = PatternStyle.LargeGrid;
 	shape.TextFrame.Paragraphs[0].ParagraphFormat.DefaultPortionFormat.FontHeight = 128;
     ITextFrame textFrame = shape.TextFrame;
-    // Настроить трансформ-эффект WordArt "Arch Up"
+    // настроить трансформацию WordArt "Arch Up"
     textFrame.TextFrameFormat.Transform = TextShapeType.ArchUp;
-	// Определить свойства ThreeDFormat объекта ITextFrame
+	// Определить свойства ThreeDFormat для ITextFrame
 	textFrame.TextFrameFormat.ThreeDFormat.ExtrusionHeight = 3.5f;
     textFrame.TextFrameFormat.ThreeDFormat.Depth = 3;
     textFrame.TextFrameFormat.ThreeDFormat.Material = MaterialPresetType.Plastic;
@@ -129,7 +129,7 @@ using (Presentation pres = new Presentation())
     textFrame.TextFrameFormat.ThreeDFormat.LightRig.SetRotation(0, 0, 40);
     textFrame.TextFrameFormat.ThreeDFormat.Camera.CameraType = CameraPresetType.PerspectiveContrastingRightFacing;
     pres.Slides[0].GetThumbnail(2, 2).Save("text3d.png");
-	// Сохранить файл Presentation.
+	// Сохранить файл Presentation
      pres.Save("text3d.pptx", SaveFormat.Pptx);
 }
 ```

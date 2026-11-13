@@ -3,7 +3,7 @@ title: IBackgroundEffectiveData
 second_title: Aspose.Sildes para la referencia de API de .NET
 description: Objeto inmutable que contiene propiedades de fondo efectivas.
 type: docs
-weight: 5280
+weight: 5300
 url: /es/aspose.slides/ibackgroundeffectivedata/
 ---
 ## IBackgroundEffectiveData interfaz
@@ -22,9 +22,9 @@ public interface IBackgroundEffectiveData : IFillParamSource
 | [EffectFormat](../../aspose.slides/ibackgroundeffectivedata/effectformat) { get; } | Devuelve el formato de efecto efectivo. Solo lectura [`IEffectFormatEffectiveData`](../ieffectformateffectivedata). |
 | [FillFormat](../../aspose.slides/ibackgroundeffectivedata/fillformat) { get; } | Devuelve el formato de relleno efectivo. Solo lectura [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 
-### Comentarios
+### Observaciones
 
-Esta interfaz se utiliza junto con la interfaz [`IBackground`](../ibackground) para devolver valores de formato efectivos con herencia aplicada.
+Esta interfaz se usa junto con la interfaz [`IBackground`](../ibackground) para devolver valores de formato efectivos con herencia aplicada.
 
 ### Ver también
 

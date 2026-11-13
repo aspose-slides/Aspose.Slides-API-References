@@ -1,9 +1,9 @@
 ---
 title: ISectionZoomFrame
-second_title: Aspose.Sildes pour .NET Référence API
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente un objet Section Zoom dans une diapositive.
 type: docs
-weight: 6920
+weight: 6940
 url: /fr/aspose.slides/isectionzoomframe/
 ---
 ## ISectionZoomFrame interface

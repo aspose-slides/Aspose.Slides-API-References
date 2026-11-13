@@ -1,14 +1,14 @@
 ---
 title: SourceFormat
 second_title: Aspose.Sildes for .NET API リファレンス
-description: ソース ファイル形式を表します。
+description: ソースファイル形式を表します。
 type: docs
-weight: 10680
+weight: 10700
 url: /ja/aspose.slides/sourceformat/
 ---
-## SourceFormat 列挙体
+## SourceFormat 列挙
 
-ソース ファイル形式を表します。
+ソースファイル形式を表します。
 
 ```csharp
 public enum SourceFormat
@@ -18,19 +18,19 @@ public enum SourceFormat
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| Ppt | `0` | Microsoft PowerPoint 97-2003 プレゼンテーション (*.ppt). |
-| Pptx | `1` | Microsoft Office Open XML プレゼンテーション (*.pptx). |
-| Odp | `2` | OpenDocument プレゼンテーション (*.odp). |
-| Pptm | `3` | Microsoft Office Open XML マクロ対応プレゼンテーション (*.pptm). |
-| Ppsx | `4` | Microsoft Office Open XML スライドショー (*.ppsx). |
-| Ppsm | `5` | Microsoft Office Open XML マクロ対応スライドショー (*.ppsm). |
-| Potx | `6` | Microsoft Office Open XML テンプレート (*.potx). |
-| Potm | `7` | Microsoft Office Open XML マクロ対応テンプレート (*.potm). |
-| Pps | `8` | Microsoft PowerPoint 97-2003 スライドショー (*.pps). |
-| Pot | `9` | Microsoft PowerPoint 97-2003 テンプレート (*.pot). |
-| Otp | `10` | OpenDocument プレゼンテーションテンプレート (*.otp). |
-| Fodp | `11` | Flat XML ODF プレゼンテーション (*.fodp). |
-| Xml | `12` | PowerPoint XML プレゼンテーション (*.xml). |
+| Ppt | `0` | Microsoft PowerPoint 97-2003 プレゼンテーション (*.ppt)。 |
+| Pptx | `1` | Microsoft Office Open XML プレゼンテーション (*.pptx)。 |
+| Odp | `2` | OpenDocument プレゼンテーション (*.odp)。 |
+| Pptm | `3` | Microsoft Office Open XML マクロ有効プレゼンテーション (*.pptm)。 |
+| Ppsx | `4` | Microsoft Office Open XML スライドショー (*.ppsx)。 |
+| Ppsm | `5` | Microsoft Office Open XML マクロ有効スライドショー (*.ppsm)。 |
+| Potx | `6` | Microsoft Office Open XML テンプレート (*.potx)。 |
+| Potm | `7` | Microsoft Office Open XML マクロ有効テンプレート (*.potm)。 |
+| Pps | `8` | Microsoft PowerPoint 97-2003 スライドショー (*.pps)。 |
+| Pot | `9` | Microsoft PowerPoint 97-2003 テンプレート (*.pot)。 |
+| Otp | `10` | OpenDocument プレゼンテーションテンプレート (*.otp)。 |
+| Fodp | `11` | Flat XML ODF プレゼンテーション (*.fodp)。 |
+| Xml | `12` | PowerPoint XML プレゼンテーション (*.xml)。 |
 
 ### 参照
 

@@ -1,14 +1,14 @@
 ---
 title: IPictureFrameLock
 second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Xác định các thao tác nào bị vô hiệu trên PictureFrameEx cha.
+description: Xác định các thao tác nào bị tắt trên PictureFrameEx cha.
 type: docs
-weight: 6680
+weight: 6700
 url: /vi/aspose.slides/ipictureframelock/
 ---
 ## IPictureFrameLock giao diện
 
-Xác định các thao tác nào bị vô hiệu trên PictureFrameEx cha.
+Xác định các thao tác nào bị vô hiệu hoá trên PictureFrameEx cha.
 
 ```csharp
 public interface IPictureFrameLock : IBaseShapeLock
@@ -19,14 +19,14 @@ public interface IPictureFrameLock : IBaseShapeLock
 | Tên | Mô tả |
 | --- | --- |
 | [AdjustHandlesLocked](../../aspose.slides/ipictureframelock/adjusthandleslocked) { get; set; } | Xác định liệu việc thay đổi giá trị điều chỉnh có bị cấm hay không. Đọc/ghi Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/ipictureframelock/arrowheadslocked) { get; set; } | Xác định liệu việc thay đổi mũi tên có bị cấm hay không. Đọc/ghi Boolean. |
-| [AsIBaseShapeLock](../../aspose.slides/ipictureframelock/asibaseshapelock) { get; } | Cho phép lấy giao diện cơ sở IBaseShapeLock. Chỉ đọc [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/ipictureframelock/aspectratiolocked) { get; set; } | Xác định liệu hình dạng phải duy trì tỷ lệ khi thay đổi kích thước hay không. Đọc/ghi Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/ipictureframelock/arrowheadslocked) { get; set; } | Xác định liệu việc thay đổi mũi tên mũi tên có bị cấm hay không. Đọc/ghi Boolean. |
+| [AsIBaseShapeLock](../../aspose.slides/ipictureframelock/asibaseshapelock) { get; } | Cho phép lấy giao diện IBaseShapeLock cơ bản. Chỉ đọc [`IBaseShapeLock`](../ibaseshapelock). |
+| [AspectRatioLocked](../../aspose.slides/ipictureframelock/aspectratiolocked) { get; set; } | Xác định liệu hình dạng phải giữ tỷ lệ khi thay đổi kích thước có bị cấm hay không. Đọc/ghi Boolean. |
 | [CropLocked](../../aspose.slides/ipictureframelock/croplocked) { get; set; } | Xác định liệu việc cắt ảnh có bị cấm hay không. Đọc/ghi Boolean. |
 | [EditPointsLocked](../../aspose.slides/ipictureframelock/editpointslocked) { get; set; } | Xác định liệu việc thay đổi trực tiếp đường viền của hình dạng này có bị cấm hay không. Đọc/ghi Boolean. |
-| [GroupingLocked](../../aspose.slides/ipictureframelock/groupinglocked) { get; set; } | Xác định liệu việc thêm hình dạng này vào một nhóm có bị cấm hay không. Đọc/ghi Boolean. |
+| [GroupingLocked](../../aspose.slides/ipictureframelock/groupinglocked) { get; set; } | Xác định liệu việc thêm hình dạng này vào nhóm có bị cấm hay không. Đọc/ghi Boolean. |
 | [PositionLocked](../../aspose.slides/ipictureframelock/positionlocked) { get; set; } | Xác định liệu việc di chuyển hình dạng này có bị cấm hay không. Đọc/ghi Boolean. |
-| [RotationLocked](../../aspose.slides/ipictureframelock/rotationlocked) { get; set; } | Xác định liệu việc thay đổi góc quay của hình dạng này có bị cấm hay không. Đọc/ghi Boolean. |
+| [RotationLocked](../../aspose.slides/ipictureframelock/rotationlocked) { get; set; } | Xác định liệu việc thay đổi góc xoay của hình dạng này có bị cấm hay không. Đọc/ghi Boolean. |
 | [SelectLocked](../../aspose.slides/ipictureframelock/selectlocked) { get; set; } | Xác định liệu việc chọn hình dạng này có bị cấm hay không. Đọc/ghi Boolean. |
 | [ShapeTypeLocked](../../aspose.slides/ipictureframelock/shapetypelocked) { get; set; } | Xác định liệu việc thay đổi loại hình dạng có bị cấm hay không. Đọc/ghi Boolean. |
 | [SizeLocked](../../aspose.slides/ipictureframelock/sizelocked) { get; set; } | Xác định liệu việc thay đổi kích thước của hình dạng này có bị cấm hay không. Đọc/ghi Boolean. |

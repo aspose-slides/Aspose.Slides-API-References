@@ -3,10 +3,10 @@ title: IInOutTransition
 second_title: Aspose.Sildes für .NET API-Referenz
 description: In-Out Folienübergangseffekt.
 type: docs
-weight: 10110
+weight: 10130
 url: /de/aspose.slides.slideshow/iinouttransition/
 ---
-## IInOutTransition Schnittstelle
+## IInOutTransition interface
 
 In-Out Folienübergangseffekt.
 
@@ -18,8 +18,8 @@ public interface IInOutTransition : ITransitionValueBase
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iinouttransition/asitransitionvaluebase) { get; } | Ermöglicht das Abrufen der Basis-ITransitionValueBase-Schnittstelle. Nur-Lesen [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/iinouttransition/direction) { get; set; } | Richtung eines Übergangseffekts. Lesen/Schreiben [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iinouttransition/asitransitionvaluebase) { get; } | Ermöglicht den Zugriff auf das Basis-Interface ITransitionValueBase. Nur lesbar [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/iinouttransition/direction) { get; set; } | Richtung des Übergangseffekts. Lesen/Schreiben [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 
 ### Siehe auch
 

@@ -1,12 +1,12 @@
 ---
 title: MathFunctionsOfOneArgument
 second_title: Aspose.Sildes için .NET API Referansı
-description: Tek argümanlı ortak matematiksel fonksiyonlar
+description: Tek argümanlı yaygın matematiksel fonksiyonlar
 type: docs
-weight: 8740
+weight: 8760
 url: /tr/aspose.slides.mathtext/mathfunctionsofoneargument/
 ---
-## MathFunctionsOfOneArgument numaralandırması
+## MathFunctionsOfOneArgument enum
 
 Tek argümanlı ortak matematiksel fonksiyonlar
 
@@ -16,7 +16,7 @@ public enum MathFunctionsOfOneArgument
 
 ### Değerler
 
-| Ad | Değer | Açıklama |
+| Name | Value | Description |
 | --- | --- | --- |
 | Sin | `0` | Sinüs |
 | Cos | `1` | Kosinüs |
@@ -32,20 +32,20 @@ public enum MathFunctionsOfOneArgument
 | HyperbolicCot | `11` | Hiperbolik kotanjant |
 | Lg | `12` | Ondalık logaritma |
 | Ln | `13` | Doğal logaritma |
-| ArcSin | `14` | Arksin |
-| ArcCos | `15` | Arkkosin |
-| ArcTan | `16` | Arktanjant |
-| ArcCsc | `17` | Arkkosekant |
-| ArcSec | `18` | Arksekant |
-| ArcCot | `19` | Arkkotanjant |
-| HyperbolicArcSin | `20` | Hiperbolik arksin |
-| HyperbolicArcCos | `21` | Hiperbolik arkkosin |
-| HyperbolicArcTan | `22` | Hiperbolik arktanjant |
-| HyperbolicArcCsc | `23` | Hiperbolik arkkosekant |
-| HyperbolicArcSec | `24` | Hiperbolik arksekant |
-| HyperbolicArcCot | `25` | Hiperbolik arkkotanjant |
+| ArcSin | `14` | Ark sinüsü |
+| ArcCos | `15` | Ark kosinüsü |
+| ArcTan | `16` | Ark tanjantı |
+| ArcCsc | `17` | Ark kosekantı |
+| ArcSec | `18` | Ark sekantı |
+| ArcCot | `19` | Ark kotanjantı |
+| HyperbolicArcSin | `20` | Hiperbolik ark sinüsü |
+| HyperbolicArcCos | `21` | Hiperbolik ark kosinüsü |
+| HyperbolicArcTan | `22` | Hiperbolik ark tanjantı |
+| HyperbolicArcCsc | `23` | Hiperbolik ark kosekantı |
+| HyperbolicArcSec | `24` | Hiperbolik ark sekantı |
+| HyperbolicArcCot | `25` | Hiperbolik ark kotanjantı |
 
-### İlgili
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * derleme [Aspose.Slides](../../)

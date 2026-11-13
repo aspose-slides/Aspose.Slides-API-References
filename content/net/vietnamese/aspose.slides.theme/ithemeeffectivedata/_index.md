@@ -1,9 +1,9 @@
 ---
 title: IThemeEffectiveData
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Aspose.Sildes cho .NET Tham chiếu API
 description: Đối tượng bất biến chứa các thuộc tính chủ đề hiệu quả.
 type: docs
-weight: 11380
+weight: 11400
 url: /vi/aspose.slides.theme/ithemeeffectivedata/
 ---
 ## IThemeEffectiveData giao diện
@@ -18,18 +18,18 @@ public interface IThemeEffectiveData
 
 | Tên | Mô tả |
 | --- | --- |
-| [FontScheme](../../aspose.slides.theme/ithemeeffectivedata/fontscheme) { get; } | Trả về lược đồ phông chữ. Chỉ-đọc [`IFontSchemeEffectiveData`](../ifontschemeeffectivedata). |
-| [FormatScheme](../../aspose.slides.theme/ithemeeffectivedata/formatscheme) { get; } | Trả về lược đồ định dạng hình dạng. Chỉ-đọc [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata). |
+| [FontScheme](../../aspose.slides.theme/ithemeeffectivedata/fontscheme) { get; } | Trả về sơ đồ phông chữ. Chỉ đọc [`IFontSchemeEffectiveData`](../ifontschemeeffectivedata). |
+| [FormatScheme](../../aspose.slides.theme/ithemeeffectivedata/formatscheme) { get; } | Trả về sơ đồ định dạng hình. Chỉ đọc [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata). |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [GetColorScheme](../../aspose.slides.theme/ithemeeffectivedata/getcolorscheme)(Color) | Trả về lược đồ màu. |
+| [GetColorScheme](../../aspose.slides.theme/ithemeeffectivedata/getcolorscheme)(Color) | Trả về sơ đồ màu. |
 
 ### Ghi chú
 
-Giao diện này được sử dụng cùng với giao diện [`ITheme`](../itheme) để trả về các giá trị định dạng hiệu quả với tính kế thừa được áp dụng.
+Giao diện này được sử dụng cùng với giao diện [`ITheme`](../itheme) để trả về các giá trị định dạng hiệu quả với kế thừa được áp dụng.
 
 ### Xem thêm
 

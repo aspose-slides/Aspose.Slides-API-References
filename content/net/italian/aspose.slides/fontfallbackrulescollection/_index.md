@@ -1,14 +1,14 @@
 ---
 title: FontFallBackRulesCollection
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta una collezione di regole FontFallBack definite dall'utente
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Rappresenta una raccolta di regole FontFallBack definite dall'utente
 type: docs
-weight: 4850
+weight: 4870
 url: /it/aspose.slides/fontfallbackrulescollection/
 ---
 ## FontFallBackRulesCollection classe
 
-Rappresenta una collezione di regole FontFallBack, definite dall'utente
+Rappresenta una raccolta di regole FontFallBack, definite dall'utente
 
 ```csharp
 public class FontFallBackRulesCollection : IFontFallBackRulesCollection
@@ -16,27 +16,27 @@ public class FontFallBackRulesCollection : IFontFallBackRulesCollection
 
 ## Costruttori
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [FontFallBackRulesCollection](fontfallbackrulescollection)() | Il costruttore predefinito. |
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/fontfallbackrulescollection/count) { get; } | Restituisce il numero di regole effettivamente contenute nella collezione. Di sola lettura Int32. |
-| [IsSynchronized](../../aspose.slides/fontfallbackrulescollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla collezione è sincronizzato (thread-safe). Di sola lettura Boolean. |
-| [Item](../../aspose.slides/fontfallbackrulescollection/item) { get; } | Restituisce la regola all'indice specificato. Di sola lettura [`IFontFallBackRule`](../ifontfallbackrule). |
-| [SyncRoot](../../aspose.slides/fontfallbackrulescollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Di sola lettura Object. |
+| [Count](../../aspose.slides/fontfallbackrulescollection/count) { get; } | Restituisce il numero di regole effettivamente contenute nella raccolta. Solo lettura Int32. |
+| [IsSynchronized](../../aspose.slides/fontfallbackrulescollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla raccolta è sincronizzato (thread-safe). Solo lettura Boolean. |
+| [Item](../../aspose.slides/fontfallbackrulescollection/item) { get; } | Restituisce la regola all'indice specificato. Solo lettura [`IFontFallBackRule`](../ifontfallbackrule). |
+| [SyncRoot](../../aspose.slides/fontfallbackrulescollection/syncroot) { get; } | Restituisce la radice di sincronizzazione. Solo lettura Object. |
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/fontfallbackrulescollection/add)(IFontFallBackRule) | Aggiunge una regola FallBack specificata alla fine della collezione. |
-| [CopyTo](../../aspose.slides/fontfallbackrulescollection/copyto)(Array, int) | Copia tutti gli elementi dalla collezione all'array specificato. |
-| [GetEnumerator](../../aspose.slides/fontfallbackrulescollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la collezione. |
-| [Remove](../../aspose.slides/fontfallbackrulescollection/remove)(IFontFallBackRule) | Rimuove la prima occorrenza di una regola FallBack specifica dalla collezione. |
+| [Add](../../aspose.slides/fontfallbackrulescollection/add)(IFontFallBackRule) | Aggiunge una regola FallBack specificata alla fine della raccolta. |
+| [CopyTo](../../aspose.slides/fontfallbackrulescollection/copyto)(Array, int) | Copia tutti gli elementi dalla raccolta nell'array specificato. |
+| [GetEnumerator](../../aspose.slides/fontfallbackrulescollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la raccolta. |
+| [Remove](../../aspose.slides/fontfallbackrulescollection/remove)(IFontFallBackRule) | Rimuove la prima occorrenza di una specifica regola FallBack dalla raccolta. |
 
 ### Vedi anche
 

@@ -1,14 +1,14 @@
 ---
 title: IEffectStyleCollectionEffectiveData
 second_title: Aspose.Sildes for .NET API 参考
-description: 不可变对象，表示有效效果样式的只读集合。
+description: 表示只读有效效果样式集合的不可变对象。
 type: docs
-weight: 11190
+weight: 11210
 url: /zh/aspose.slides.theme/ieffectstylecollectioneffectivedata/
 ---
 ## IEffectStyleCollectionEffectiveData 接口
 
-不可变对象，表示有效效果样式的只读集合。
+不可变对象，表示只读的有效效果样式集合。
 
 ```csharp
 public interface IEffectStyleCollectionEffectiveData : IGenericCollection<IEffectStyleEffectiveData>
@@ -24,7 +24,7 @@ public interface IEffectStyleCollectionEffectiveData : IGenericCollection<IEffec
 
 此接口用作 [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata) 的一部分。
 
-### 参见
+### 另请参见
 
 * 接口 [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * 接口 [IEffectStyleEffectiveData](../ieffectstyleeffectivedata)

@@ -1,33 +1,33 @@
 ---
 title: ISvgImage
 second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایانگر یک تصویر SVG است.
+description: یک تصویر SVG را نشان می‌دهد.
 type: docs
-weight: 7180
+weight: 7200
 url: /fa/aspose.slides/isvgimage/
 ---
-## ISvgImage واسط
+## ISvgImage رابط
 
-نمایانگر یک تصویر SVG است.
+نمایش یک تصویر SVG.
 
 ```csharp
 public interface ISvgImage
 ```
 
-## ویژگی‌ها
+## خصوصیات
 
-| نام | توضیح |
+| نام | توضیحات |
 | --- | --- |
-| [BaseUri](../../aspose.slides/isvgimage/baseuri) { get; } | URI پایهٔ SVG مشخص شده را بر می‌گرداند. برای حل پیوندهای نسبی استفاده می‌شود. فقط-خواندنی String. |
-| [ExternalResourceResolver](../../aspose.slides/isvgimage/externalresourceresolver) { get; } | رابط بازخوردی که برای حل منابع خارجی هنگام وارد کردن اسناد SVG استفاده می‌شود را بر می‌گرداند. فقط-خواندنی [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
-| [SvgContent](../../aspose.slides/isvgimage/svgcontent) { get; } | محتوای SVG را بر می‌گرداند. فقط-خواندنی String. |
-| [SvgData](../../aspose.slides/isvgimage/svgdata) { get; } | دادهٔ SVG را بر می‌گرداند. فقط-خواندنی Byte[]. |
+| [BaseUri](../../aspose.slides/isvgimage/baseuri) { get; } | URI پایه تصویر SVG مشخص شده را برمی‌گرداند. برای حل لینک‌های نسبی استفاده می‌شود. فقط‌خواندنی String. |
+| [ExternalResourceResolver](../../aspose.slides/isvgimage/externalresourceresolver) { get; } | رابط بازگشت کال‌بک مورد استفاده برای حل منابع خارجی هنگام وارد کردن اسناد SVG را برمی‌گرداند. فقط‌خواندنی [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
+| [SvgContent](../../aspose.slides/isvgimage/svgcontent) { get; } | محتویات SVG را برمی‌گرداند. فقط‌خواندنی String. |
+| [SvgData](../../aspose.slides/isvgimage/svgdata) { get; } | داده‌های SVG را برمی‌گرداند. فقط‌خواندنی Byte[]. |
 
-## متدها
+## روش‌ها
 
-| نام | توضیح |
+| نام | توضیحات |
 | --- | --- |
-| [WriteAsEmf](../../aspose.slides/isvgimage/writeasemf)(Stream) | تصویر SVG را به عنوان یک فایل EMF ذخیره می‌کند. |
+| [WriteAsEmf](../../aspose.slides/isvgimage/writeasemf)(Stream) | تصویر SVG را به‌عنوان فایل EMF ذخیره می‌کند. |
 
 ### موارد مرتبط
 

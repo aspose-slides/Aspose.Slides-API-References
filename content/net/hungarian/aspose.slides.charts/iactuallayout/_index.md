@@ -1,27 +1,27 @@
 ---
 title: IActualLayout
-second_title: Aspose.Sildes .NET API Referenciája
-description: Meghatározza a diagram elem tényleges pozícióját.
+second_title: Aspose.Sildes .NET API Referenciához
+description: Megadja a diagram elem tényleges pozícióját.
 type: docs
-weight: 1690
+weight: 1700
 url: /hu/aspose.slides.charts/iactuallayout/
 ---
 ## IActualLayout interfész
 
-Meghatározza egy chart elem tényleges pozícióját.
+Megadja a diagram elem tényleges pozícióját.
 
 ```csharp
 public interface IActualLayout
 ```
 
-## Properties
+## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/iactuallayout/actualheight) { get; } | Meghatározza a chart elem tényleges magasságát. Hívja meg az IChart.ValidateChartLayout() metódust előtte a tényleges értékek lekéréséhez. Olvasás Single. |
-| [ActualWidth](../../aspose.slides.charts/iactuallayout/actualwidth) { get; } | Meghatározza a chart elem tényleges szélességét. Hívja meg az IChart.ValidateChartLayout() metódust előtte a tényleges értékek lekéréséhez. Olvasás Single. |
-| [ActualX](../../aspose.slides.charts/iactuallayout/actualx) { get; } | Meghatározza a chart elem tényleges x helyzetét (balra) a chart bal felső sarkához képest. Hívja meg az IChart.ValidateChartLayout() metódust előtte a tényleges értékek lekéréséhez. Olvasás Single. |
-| [ActualY](../../aspose.slides.charts/iactuallayout/actualy) { get; } | Meghatározza a chart elem tényleges felső helyzetét a chart bal felső sarkához képest. Hívja meg az IChart.ValidateChartLayout() metódust előtte a tényleges értékek lekéréséhez. Olvasás Single. |
+| [ActualHeight](../../aspose.slides.charts/iactuallayout/actualheight) { get; } | Megadja a diagram elem tényleges magasságát. Hívja meg az IChart.ValidateChartLayout() metódust előtte a tényleges értékek lekéréséhez. Olvassa Single. |
+| [ActualWidth](../../aspose.slides.charts/iactuallayout/actualwidth) { get; } | Megadja a diagram elem tényleges szélességét. Hívja meg az IChart.ValidateChartLayout() metódust előtte a tényleges értékek lekéréséhez. Olvassa Single. |
+| [ActualX](../../aspose.slides.charts/iactuallayout/actualx) { get; } | Megadja a diagram elem tényleges x helyzetét (bal) a diagram bal felső sarkához képest. Hívja meg az IChart.ValidateChartLayout() metódust előtte a tényleges értékek lekéréséhez. Olvassa Single. |
+| [ActualY](../../aspose.slides.charts/iactuallayout/actualy) { get; } | Megadja a diagram elem tényleges tetejét a diagram bal felső sarkához képest. Hívja meg az IChart.ValidateChartLayout() metódust előtte a tényleges értékek lekéréséhez. Olvassa Single. |
 
 ### Lásd még
 

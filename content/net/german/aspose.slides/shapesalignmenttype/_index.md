@@ -1,9 +1,9 @@
 ---
 title: ShapesAlignmentType
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Definiert eine Möglichkeit, die Platzierung ausgewählter Formen auf der Folie zu ändern.
 type: docs
-weight: 9940
+weight: 9960
 url: /de/aspose.slides/shapesalignmenttype/
 ---
 ## ShapesAlignmentType Aufzählung
@@ -22,7 +22,7 @@ public enum ShapesAlignmentType
 | AlignRight | `1` | Rechts ausrichten |
 | AlignCenter | `2` | Zentriert ausrichten |
 | AlignTop | `3` | Oben ausrichten |
-| AlignMiddle | `4` | Mitte ausrichten |
+| AlignMiddle | `4` | Mittig ausrichten |
 | AlignBottom | `5` | Unten ausrichten |
 | DistributeHorizontally | `6` | Horizontal verteilen |
 | DistributeVertically | `7` | Vertikal verteilen |

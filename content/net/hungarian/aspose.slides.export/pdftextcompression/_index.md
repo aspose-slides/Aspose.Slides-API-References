@@ -1,14 +1,14 @@
 ---
 title: PdfTextCompression
-second_title: Aspose.Sildes .NET API referencia
-description: Konstansok, amelyek meghatározzák a PDF-fájlban a képek kivételével az összes tartalomra alkalmazott tömörítés típusát.
+second_title: Aspose.Sildes .NET API Referenciája
+description: A PDF-fájl minden tartalmára, a képek kivételével, alkalmazott tömörítés típusát meghatározó konstansok.
 type: docs
-weight: 4340
+weight: 4360
 url: /hu/aspose.slides.export/pdftextcompression/
 ---
-## PdfTextCompression enumeráció
+## PdfTextCompression felsorolás
 
-Konstansok, amelyek meghatározzák a PDF-fájlban, a képeken kívül, az összes tartalomra alkalmazott tömörítés típusát.
+Az összes PDF-fájlban lévő tartalomra, a képek kivételével, alkalmazott tömörítés típusát meghatározó konstansok.
 
 ```csharp
 public enum PdfTextCompression

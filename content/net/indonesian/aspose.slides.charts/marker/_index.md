@@ -1,14 +1,14 @@
 ---
 title: Marker
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili penanda dari chert.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili marker dari sebuah chert.
 type: docs
-weight: 2330
+weight: 2350
 url: /id/aspose.slides.charts/marker/
 ---
 ## Kelas Marker
 
-Mewakili penanda dari chert.
+Mewakili marker dari sebuah chert.
 
 ```csharp
 public class Marker : IMarker
@@ -18,9 +18,9 @@ public class Marker : IMarker
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Format](../../aspose.slides.charts/marker/format) { get; } | Mendapatkan atau mengatur isi penanda. Hanya-baca [`IFormat`](../iformat). |
-| [Size](../../aspose.slides.charts/marker/size) { get; set; } | Mewakili ukuran penanda pada diagram garis, diagram sebar, atau diagram radar. Baca/tulis Int32. |
-| [Symbol](../../aspose.slides.charts/marker/symbol) { get; set; } | Mewakili gaya penanda pada diagram garis, diagram sebar, atau diagram radar. Baca/tulis [`MarkerStyleType`](../markerstyletype). |
+| [Format](../../aspose.slides.charts/marker/format) { get; } | Mendapatkan atau mengatur isi marker. Hanya-baca [`IFormat`](../iformat). |
+| [Size](../../aspose.slides.charts/marker/size) { get; set; } | Mewakili ukuran marker dalam diagram garis, diagram sebar, atau diagram radar. Baca/tulis Int32. |
+| [Symbol](../../aspose.slides.charts/marker/symbol) { get; set; } | Mewakili gaya marker dalam diagram garis, diagram sebar, atau diagram radar. Baca/tulis [`MarkerStyleType`](../markerstyletype). |
 
 ### Lihat Juga
 

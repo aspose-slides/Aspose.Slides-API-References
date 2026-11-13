@@ -1,9 +1,9 @@
 ---
 title: IOuterShadowEffectiveData
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Slides для .NET: справочник API
 description: Неизменяемый объект, представляющий эффект внешней тени.
 type: docs
-weight: 3470
+weight: 3490
 url: /ru/aspose.slides.effects/ioutershadoweffectivedata/
 ---
 ## IOuterShadowEffectiveData интерфейс
@@ -23,9 +23,9 @@ public interface IOuterShadowEffectiveData : IEffectEffectiveData
 | [Direction](../../aspose.slides.effects/ioutershadoweffectivedata/direction) { get; } | Направление тени. Только для чтения Single. |
 | [Distance](../../aspose.slides.effects/ioutershadoweffectivedata/distance) { get; } | Расстояние тени. Только для чтения Double. |
 | [RectangleAlign](../../aspose.slides.effects/ioutershadoweffectivedata/rectanglealign) { get; } | Выравнивание прямоугольника. Только для чтения [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadoweffectivedata/rotateshadowwithshape) { get; } | Указывает, следует ли вращать тень вместе с фигурой, если фигура вращается. Только для чтения Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal) { get; } | Указывает горизонтальный коэффициент масштабирования, отрицательное масштабирование приводит к отражению. Только для чтения Double. |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | Указывает вертикальный коэффициент масштабирования, отрицательное масштабирование приводит к отражению. Только для чтения Double. |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadoweffectivedata/rotateshadowwithshape) { get; } | Указывает, должна ли тень вращаться вместе с фигурой, если фигура вращается. Только для чтения Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal) { get; } | Указывает горизонтальный коэффициент масштабирования, отрицательное масштабирование вызывает отражение. Только для чтения Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | Указывает вертикальный коэффициент масштабирования, отрицательное масштабирование вызывает отражение. Только для чтения Double. |
 | [ShadowColor](../../aspose.slides.effects/ioutershadoweffectivedata/shadowcolor) { get; } | Цвет тени. Только для чтения Color. |
 | [SkewHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal) { get; } | Указывает горизонтальный угол наклона (в градусах). Только для чтения Double. |
 | [SkewVertical](../../aspose.slides.effects/ioutershadoweffectivedata/skewvertical) { get; } | Указывает вертикальный угол наклона (в градусах). Только для чтения Double. |

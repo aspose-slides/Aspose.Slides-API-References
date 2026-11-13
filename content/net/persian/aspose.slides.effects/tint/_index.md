@@ -1,14 +1,14 @@
 ---
 title: Tint
-second_title: مرجع API Aspose.Sildes برای .NET
-description: نمایانگر یک اثر Tint است. مقادیر رنگ اثر را بر حسب مقدار مشخص‌شده به سمت یا از سمت رنگ اصلی جابه‌جا می‌کند.
+second_title: Aspose.Sildes برای .NET API Reference
+description: نمایانگر یک اثر Tint است. مقادیر رنگ اثر را به سمت/از سمت رنگ اصلی به مقدار مشخص تغییر می‌دهد.
 type: docs
-weight: 3660
+weight: 3680
 url: /fa/aspose.slides.effects/tint/
 ---
 ## Tint کلاس
 
-نمایانگر یک اثر Tint است. مقادیر رنگ اثر را بر اساس مقدار مشخص‌شده به سمت/از سمت‌ رنگ اصلی جابه‌جا می‌کند.
+نمایانگر یک اثر Tint است. مقادیر رنگ اثر را به سمت/از سمت رنگ اصلی به مقدار مشخص تغییر می‌دهد.
 
 ```csharp
 public sealed class Tint : ImageTransformOperation, ITint
@@ -18,20 +18,20 @@ public sealed class Tint : ImageTransformOperation, ITint
 
 | نام | توضیح |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | اجازه می‌دهد رابط IPresentationComponent پایه را دریافت کند. فقط خواندنی [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | اجازهٔ دریافت رابط پایه IPresentationComponent را می‌دهد. فقط-خواندنی [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/tint/equals)(object) | تعیین می‌کند آیا [`Tint`](../tint) مشخص‌شده برابر با [`Tint`](../tint) فعلی است. |
-| [GetEffective](../../aspose.slides.effects/tint/geteffective)() | داده‌های مؤثر اثر Tint را با درنظر گرفتن وراثت دریافت می‌کند. |
-| override [GetHashCode](../../aspose.slides.effects/tint/gethashcode)() | به عنوان تابع هش برای یک نوع خاص عمل می‌کند. |
+| override [Equals](../../aspose.slides.effects/tint/equals)(object) | تعیین می‌کند که آیا [`Tint`](../tint) مشخص شده برابر با [`Tint`](../tint) فعلی است یا خیر. |
+| [GetEffective](../../aspose.slides.effects/tint/geteffective)() | داده‌های مؤثر اثر Tint را با اعمال وراثت دریافت می‌کند. |
+| override [GetHashCode](../../aspose.slides.effects/tint/gethashcode)() | به عنوان تابع هش برای نوع خاصی عمل می‌کند. |
 
 ### موارد مرتبط
 
 * کلاس [ImageTransformOperation](../imagetransformoperation)
-* رابط [ITint](../itint)
+* اینترفیس [ITint](../itint)
 * فضای‌نام [Aspose.Slides.Effects](../../aspose.slides.effects)
 * اسمبلی [Aspose.Slides](../../)
 

@@ -1,9 +1,9 @@
 ---
 title: IEffectParamSource
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 辅助效果参数接口。
 type: docs
-weight: 5760
+weight: 5780
 url: /zh/aspose.slides/ieffectparamsource/
 ---
 ## IEffectParamSource 接口
@@ -14,7 +14,7 @@ url: /zh/aspose.slides/ieffectparamsource/
 public interface IEffectParamSource
 ```
 
-### 另请参阅
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

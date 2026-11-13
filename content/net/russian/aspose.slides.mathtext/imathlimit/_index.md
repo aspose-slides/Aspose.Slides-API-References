@@ -1,14 +1,14 @@
 ---
 title: IMathLimit
-second_title: Справочник API Aspose.Sildes для .NET
-description: Определяет объект Limit, состоящий из текста на базовой линии и уменьшенного текста непосредственно над ней или под ней.
+second_title: Aspose.Sildes для .NET — справка по API
+description: Указывает объект Limit, состоящий из текста на базовой линии и текста уменьшенного размера непосредственно выше или ниже неё.
 type: docs
-weight: 8320
+weight: 8340
 url: /ru/aspose.slides.mathtext/imathlimit/
 ---
 ## IMathLimit интерфейс
 
-Определяет объект Limit, состоящий из текста на базовой линии и уменьшенного текста непосредственно над ней или под ней.
+Указывает объект Limit, состоящий из текста на базовой линии и текста уменьшенного размера непосредственно выше или ниже её.
 
 ```csharp
 public interface IMathLimit : IMathElement
@@ -20,7 +20,7 @@ public interface IMathLimit : IMathElement
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathlimit/asimathelement) { get; } | Позволяет получить базовый интерфейс IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathlimit/base) { get; } | Базовый аргумент |
-| [Limit](../../aspose.slides.mathtext/imathlimit/limit) { get; } | Аргумент Limit |
+| [Limit](../../aspose.slides.mathtext/imathlimit/limit) { get; } | Аргумент ограничения |
 | [UpperLimit](../../aspose.slides.mathtext/imathlimit/upperlimit) { get; set; } | Указывает верхний или нижний предел |
 
 ### Примеры

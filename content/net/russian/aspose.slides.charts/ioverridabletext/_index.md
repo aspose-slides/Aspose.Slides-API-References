@@ -1,9 +1,9 @@
 ---
 title: IOverridableText
-second_title: "Aspose.Sildes для .NET: справочник API"
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет переопределяемый текст для диаграммы.
 type: docs
-weight: 2180
+weight: 2200
 url: /ru/aspose.slides.charts/ioverridabletext/
 ---
 ## IOverridableText интерфейс
@@ -16,14 +16,14 @@ public interface IOverridableText : IFormattedTextContainer
 
 ## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | [AsIFormattedTextContainer](../../aspose.slides.charts/ioverridabletext/asiformattedtextcontainer) { get; } | Позволяет получить базовый интерфейс IFormattedTextContainer. Только для чтения [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | Может содержать богатый форматированный текст. Если это свойство не равно null, то значение этого форматированного текста переопределяет автоматически сгенерированный текст. Автоматически сгенерированный текст является неявным свойством метки данных, подписи единицы измерения значения оси, заголовка оси, заголовка диаграммы, подписи линии тренда. Автоматически сгенерированный текст форматируется с помощью свойства IFormattedTextContainer.TextFormat. Только для чтения [`ITextFrame`](../../aspose.slides/itextframe). |
+| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | Может содержать богато отформатированный текст. Если это свойство не равно null, то это значение отформатированного текста переопределяет автоматически сгенерированный текст. Автоматически сгенерированный текст является неявным свойством метки данных, метки единиц отображения оси значений, заголовка оси, заголовка диаграммы, метки линии тренда. Автоматически сгенерированный текст форматируется с помощью свойства IFormattedTextContainer.TextFormat. Только для чтения [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ## Методы
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | [AddTextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/addtextframeforoverriding)(string) | Инициализирует TextFrameForOverriding текстом, переданным в параметре "text". Если TextFrameForOverriding уже инициализирован, то просто изменяет его текст. |
 

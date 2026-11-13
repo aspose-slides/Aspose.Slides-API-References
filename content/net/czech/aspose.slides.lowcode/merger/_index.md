@@ -3,10 +3,10 @@ title: Merger
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje skupinu metod pro sloučení prezentací PowerPoint ve stejném formátu do jednoho souboru.
 type: docs
-weight: 7970
+weight: 7990
 url: /cs/aspose.slides.lowcode/merger/
 ---
-## třída Merger
+## Třída Merger
 
 Reprezentuje skupinu metod pro sloučení prezentací PowerPoint ve stejném formátu do jednoho souboru.
 

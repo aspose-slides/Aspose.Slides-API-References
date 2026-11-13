@@ -1,14 +1,14 @@
 ---
 title: ISoftEdge
 second_title: Aspose.Sildes for .NET API リファレンス
-description: ソフトエッジ効果を表します。形状のエッジはぼかされますが、塗りつぶしには影響しません。
+description: ソフトエッジ効果を表します。シェイプのエッジはぼかされますが、塗りつぶしには影響しません。
 type: docs
-weight: 3520
+weight: 3540
 url: /ja/aspose.slides.effects/isoftedge/
 ---
 ## ISoftEdge インターフェイス
 
-ベースの形状のエッジがぼかされますが、塗りつぶしは影響を受けません。
+ソフトエッジ効果を表します。シェイプのエッジはぼかされますが、塗りつぶしには影響しません。
 
 ```csharp
 public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImageTransformOperation
@@ -18,11 +18,11 @@ public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImag
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | ベースの IAccessiblePVIObject インターフェイスを取得できます。読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | ベースの IImageTransformOperation インターフェイスを取得できます。読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | エッジに適用するぼかしの半径を指定します。読み書き Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | 基底 IAccessiblePVIObject インターフェイスを取得できます。読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
+| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | 基底 IImageTransformOperation インターフェイスを取得できます。読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | エッジに適用するぼかしの半径を指定します。読み書き Double。 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * インターフェイス [ISoftEdgeEffectiveData](../isoftedgeeffectivedata)

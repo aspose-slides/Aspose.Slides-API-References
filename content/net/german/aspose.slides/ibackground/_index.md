@@ -3,7 +3,7 @@ title: IBackground
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt den Hintergrund einer Folie dar.
 type: docs
-weight: 5270
+weight: 5290
 url: /de/aspose.slides/ibackground/
 ---
 ## IBackground Schnittstelle
@@ -18,19 +18,19 @@ public interface IBackground : IFillParamSource, ISlideComponent
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ibackground/asifillparamsource) { get; } | Gibt die IFillParamSource Schnittstelle zurück. Nur lesbar [`IFillParamSource`](../ifillparamsource). |
-| [AsISlideComponent](../../aspose.slides/ibackground/asislidecomponent) { get; } | Gibt die ISlideComponent Schnittstelle zurück. Nur lesbar [`ISlideComponent`](../islidecomponent). |
-| [EffectFormat](../../aspose.slides/ibackground/effectformat) { get; } | Gibt ein EffectFormat für BackgroundType.OwnBackground-Füllung zurück. Nur lesbar [`IEffectFormat`](../ieffectformat). |
-| [FillFormat](../../aspose.slides/ibackground/fillformat) { get; } | Gibt ein FillFormat für BackgroundType.OwnBackground-Füllung zurück. Nur lesbar [`IFillFormat`](../ifillformat). |
-| [StyleColor](../../aspose.slides/ibackground/stylecolor) { get; } | Gibt ein ColorFormat für eine BackgroundType.Themed-Füllung zurück. Nur lesbar [`IColorFormat`](../icolorformat). |
-| [StyleIndex](../../aspose.slides/ibackground/styleindex) { get; set; } | Gibt den Index der BackgroundType.Themed-Füllung in der Hintergrundthemensammlung zurück. 0 bedeutet keine Füllung. 1..999 – Index. Lesen/Schreiben UInt16. |
-| [Type](../../aspose.slides/ibackground/type) { get; set; } | Gibt den Typ der Hintergrundfüllung zurück. Lesen/Schreiben [`BackgroundType`](../backgroundtype). |
+| [AsIFillParamSource](../../aspose.slides/ibackground/asifillparamsource) { get; } | Gibt IFillParamSource Schnittstelle zurück. Nur lesbar [`IFillParamSource`](../ifillparamsource). |
+| [AsISlideComponent](../../aspose.slides/ibackground/asislidecomponent) { get; } | Gibt ISlideComponent Schnittstelle zurück. Nur lesbar [`ISlideComponent`](../islidecomponent). |
+| [EffectFormat](../../aspose.slides/ibackground/effectformat) { get; } | Gibt ein EffectFormat für die Hintergrundfüllung BackgroundType.OwnBackground zurück. Nur lesbar [`IEffectFormat`](../ieffectformat). |
+| [FillFormat](../../aspose.slides/ibackground/fillformat) { get; } | Gibt ein FillFormat für die Hintergrundfüllung BackgroundType.OwnBackground zurück. Nur lesbar [`IFillFormat`](../ifillformat). |
+| [StyleColor](../../aspose.slides/ibackground/stylecolor) { get; } | Gibt ein ColorFormat für eine Hintergrundfüllung BackgroundType.Themed zurück. Nur lesbar [`IColorFormat`](../icolorformat). |
+| [StyleIndex](../../aspose.slides/ibackground/styleindex) { get; set; } | Gibt einen Index der Hintergrundfüllung BackgroundType.Themed in der Hintergrundthemensammlung zurück. 0 bedeutet keine Füllung. 1..999 – Index. Lese-/Schreib UInt16. |
+| [Type](../../aspose.slides/ibackground/type) { get; set; } | Gibt einen Typ der Hintergrundfüllung zurück. Lese-/Schreib [`BackgroundType`](../backgroundtype). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetEffective](../../aspose.slides/ibackground/geteffective)() | Ruft effektive Hintergrunddaten mit angewandter Vererbung ab. |
+| [GetEffective](../../aspose.slides/ibackground/geteffective)() | Ermittelt effektive Hintergrunddaten mit angewandter Vererbung. |
 
 ### Siehe auch
 

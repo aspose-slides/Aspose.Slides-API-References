@@ -1,9 +1,9 @@
 ---
 title: ITab
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для .NET API справки
 description: Представляет табуляцию для текста.
 type: docs
-weight: 7190
+weight: 7210
 url: /ru/aspose.slides/itab/
 ---
 ## ITab интерфейс
@@ -20,7 +20,7 @@ public interface ITab : IComparable
 | --- | --- |
 | [Alignment](../../aspose.slides/itab/alignment) { get; set; } | Возвращает или задает стиль выравнивания табуляции. Чтение/запись [`TabAlignment`](../tabalignment). |
 | [AsIComparable](../../aspose.slides/itab/asicomparable) { get; } | Возвращает интерфейс IComparable. Только для чтения IComparable. |
-| [Position](../../aspose.slides/itab/position) { get; set; } | Возвращает или задает позицию табуляции. Присвоение этого свойства может изменить индекс табуляции в коллекции и сделать Enumerator недействительным. Чтение/запись Double. |
+| [Position](../../aspose.slides/itab/position) { get; set; } | Возвращает или задает позицию табуляции. Присвоение этому свойству может изменить индекс табуляции в коллекции и сделать недействительным Enumerator. Чтение/запись Double. |
 
 ### См. также
 

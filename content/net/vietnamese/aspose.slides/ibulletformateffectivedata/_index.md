@@ -1,14 +1,14 @@
 ---
 title: IBulletFormatEffectiveData
-second_title: Aspose.Sildes cho .NET Tham khảo API
-description: Đối tượng bất biến chứa các thuộc tính định dạng dấu đầu dòng đoạn văn hiệu quả.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đối tượng bất biến chứa các thuộc tính định dạng bullet hiệu quả cho đoạn văn.
 type: docs
-weight: 5400
+weight: 5420
 url: /vi/aspose.slides/ibulletformateffectivedata/
 ---
 ## IBulletFormatEffectiveData giao diện
 
-Đối tượng bất biến chứa các thuộc tính định dạng dấu đầu dòng đoạn văn hiệu quả.
+Đối tượng bất biến chứa các thuộc tính định dạng bullet đoạn văn thực tế.
 
 ```csharp
 public interface IBulletFormatEffectiveData
@@ -16,18 +16,18 @@ public interface IBulletFormatEffectiveData
 
 ## Thuộc tính
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
-| [ActualBulletValue](../../aspose.slides/ibulletformateffectivedata/actualbulletvalue) { get; } | Trả về giá trị dấu đầu dòng thực tế của đoạn văn cha. Chỉ đọc String. |
-| [Char](../../aspose.slides/ibulletformateffectivedata/char) { get; } | Trả về ký tự dấu đầu dòng của đoạn văn. Chỉ đọc Char. |
-| [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | Trả về định dạng tô màu dấu đầu dòng của đoạn văn. Chỉ đọc [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
-| [Font](../../aspose.slides/ibulletformateffectivedata/font) { get; } | Trả về phông chữ dấu đầu dòng của đoạn văn. Chỉ đọc [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/ibulletformateffectivedata/height) { get; } | Trả về chiều cao dấu đầu dòng của đoạn văn. Chỉ đọc Single. |
-| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | Xác định liệu dấu đầu dòng có màu riêng hoặc kế thừa từ phần đầu tiên trong đoạn văn. Trả về **true** nếu dấu đầu dòng có màu riêng và **false** nếu dấu đầu dòng kế thừa màu từ phần đầu tiên trong đoạn văn. Chỉ đọc Boolean. |
-| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | Xác định liệu dấu đầu dòng có phông chữ riêng hoặc kế thừa từ phần đầu tiên trong đoạn văn. Trả về **true** nếu dấu đầu dòng có phông chữ riêng và **true** nếu dấu đầu dòng kế thừa phông chữ từ phần đầu tiên trong đoạn văn. Chỉ đọc Boolean. |
-| [NumberedBulletStartWith](../../aspose.slides/ibulletformateffectivedata/numberedbulletstartwith) { get; } | Trả về số đầu tiên được sử dụng cho nhóm các dấu đầu dòng có số. Chỉ đọc Int16. |
-| [NumberedBulletStyle](../../aspose.slides/ibulletformateffectivedata/numberedbulletstyle) { get; } | Trả về kiểu của dấu đầu dòng có số. Chỉ đọc [`NumberedBulletStyle`](../numberedbulletstyle). |
-| [Type](../../aspose.slides/ibulletformateffectivedata/type) { get; } | Trả về loại dấu đầu dòng của đoạn văn. Chỉ đọc [`BulletType`](../bullettype). |
+| [ActualBulletValue](../../aspose.slides/ibulletformateffectivedata/actualbulletvalue) { get; } | Trả về giá trị bullet thực tế cho đoạn văn cha. Chỉ-đọc String. |
+| [Char](../../aspose.slides/ibulletformateffectivedata/char) { get; } | Trả về ký tự bullet của một đoạn văn. Chỉ-đọc Char. |
+| [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | Trả về định dạng tô màu bullet của một đoạn văn. Chỉ-đọc [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [Font](../../aspose.slides/ibulletformateffectivedata/font) { get; } | Trả về phông chữ bullet của một đoạn văn. Chỉ-đọc [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/ibulletformateffectivedata/height) { get; } | Trả về chiều cao bullet của một đoạn văn. Chỉ-đọc Single. |
+| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | Xác định bullet có màu riêng hay kế thừa từ phần đầu tiên trong đoạn văn. Trả về **true** nếu bullet có màu riêng và **false** nếu bullet kế thừa màu từ phần đầu tiên trong đoạn văn. Chỉ-đọc Boolean. |
+| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | Xác định bullet có phông chữ riêng hay kế thừa từ phần đầu tiên trong đoạn văn. Trả về **true** nếu bullet có phông chữ riêng và **true** nếu bullet kế thừa phông chữ từ phần đầu tiên trong đoạn văn. Chỉ-đọc Boolean. |
+| [NumberedBulletStartWith](../../aspose.slides/ibulletformateffectivedata/numberedbulletstartwith) { get; } | Trả về số đầu tiên được sử dụng cho nhóm các bullet có số. Chỉ-đọc Int16. |
+| [NumberedBulletStyle](../../aspose.slides/ibulletformateffectivedata/numberedbulletstyle) { get; } | Trả về kiểu dáng của bullet có số. Chỉ-đọc [`NumberedBulletStyle`](../numberedbulletstyle). |
+| [Type](../../aspose.slides/ibulletformateffectivedata/type) { get; } | Trả về loại bullet của một đoạn văn. Chỉ-đọc [`BulletType`](../bullettype). |
 
 ### Ghi chú
 
@@ -35,7 +35,7 @@ Giao diện này được sử dụng như một phần của [`IParagraphFormat
 
 ### Xem thêm
 
-* không gian tên [Aspose.Slides](../../aspose.slides)
-* tập lắp ráp [Aspose.Slides](../../)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

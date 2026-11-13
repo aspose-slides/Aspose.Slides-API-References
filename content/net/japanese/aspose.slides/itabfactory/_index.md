@@ -1,14 +1,14 @@
 ---
 title: ITabFactory
 second_title: Aspose.Sildes の .NET API リファレンス
-description: ITab インスタンスを作成できるようにします
+description: ITab インスタンスの作成を許可します
 type: docs
-weight: 7220
+weight: 7240
 url: /ja/aspose.slides/itabfactory/
 ---
 ## ITabFactory インターフェイス
 
-ITab インスタンスを作成できるようにする
+ITab インスタンスの作成を許可します
 
 ```csharp
 public interface ITabFactory

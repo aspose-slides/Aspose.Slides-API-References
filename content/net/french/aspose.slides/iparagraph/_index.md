@@ -3,10 +3,10 @@ title: IParagraph
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente un paragraphe de texte.
 type: docs
-weight: 6560
+weight: 6580
 url: /fr/aspose.slides/iparagraph/
 ---
-## Interface IParagraph
+## IParagraph interface
 
 Représente un paragraphe de texte.
 
@@ -16,21 +16,23 @@ public interface IParagraph : ISlideComponent
 
 ## Propriétés
 
-| Name | Description |
+| Nom | Description |
 | --- | --- |
 | [AsISlideComponent](../../aspose.slides/iparagraph/asislidecomponent) { get; } | Permet d'obtenir l'interface de base ISlideComponent. Lecture seule [`ISlideComponent`](../islidecomponent). |
-| [EndParagraphPortionFormat](../../aspose.slides/iparagraph/endparagraphportionformat) { get; set; } | Spécifie les propriétés de portion qui seront utilisées si une autre portion est insérée après la dernière. |
-| [ParagraphFormat](../../aspose.slides/iparagraph/paragraphformat) { get; } | Renvoie l'objet de formatage pour ce paragraphe. Lecture seule [`IParagraphFormat`](../iparagraphformat). |
-| [Portions](../../aspose.slides/iparagraph/portions) { get; } | Renvoie la collection des portions de texte. Lecture seule [`IPortionCollection`](../iportioncollection). |
+| [EndParagraphPortionFormat](../../aspose.slides/iparagraph/endparagraphportionformat) { get; set; } | Spécifie les propriétés de portion qui doivent être utilisées si une autre portion est insérée après la dernière. |
+| [ParagraphFormat](../../aspose.slides/iparagraph/paragraphformat) { get; } | Renvoie l'objet de mise en forme pour ce paragraphe. Lecture seule [`IParagraphFormat`](../iparagraphformat). |
+| [Portions](../../aspose.slides/iparagraph/portions) { get; } | Renvoie la collection de portions de texte. Lecture seule [`IPortionCollection`](../iportioncollection). |
 | [Text](../../aspose.slides/iparagraph/text) { get; set; } | Obtient ou définit le texte brut d'un paragraphe. Lecture/écriture String. |
 
 ## Méthodes
 
-| Name | Description |
+| Nom | Description |
 | --- | --- |
+| [GetImage](../../aspose.slides/iparagraph/getimage#getimage)() | Renvoie une image du paragraphe. |
+| [GetImage](../../aspose.slides/iparagraph/getimage#getimage_1)(float, float) | Renvoie une image du paragraphe avec l'échelle spécifiée. |
 | [GetLinesCount](../../aspose.slides/iparagraph/getlinescount)() | Obtient le nombre de lignes d'un paragraphe. |
-| [GetRect](../../aspose.slides/iparagraph/getrect)() | Obtient les coordonnées du rectangle qui encadre le paragraphe. Le rectangle inclut toutes les lignes de texte du paragraphe, y compris les lignes vides. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/iparagraph/joinportionswithsameformatting)() | Fusionne les séquences avec le même formatage. |
+| [GetRect](../../aspose.slides/iparagraph/getrect)() | Obtient les coordonnées du rectangle qui encadre le paragraphe. Le rectangle comprend toutes les lignes de texte du paragraphe, y compris les lignes vides. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/iparagraph/joinportionswithsameformatting)() | Fusionne les segments avec le même formatage. |
 
 ### Voir aussi
 

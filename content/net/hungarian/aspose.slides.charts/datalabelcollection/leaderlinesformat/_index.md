@@ -1,14 +1,14 @@
 ---
 title: LeaderLinesFormat
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Adatajelzők vezetővonalainak formátumát képviseli. Csak olvasható IChartLinesFormataspose.slides.charts/ichartlinesformat.
+second_title: Aspose.Sildes .NET API referencia
+description: Az adatcímkék vezető vonalainak formátumát reprezentálja. Csak olvasható IChartLinesFormataspose.slides.charts/ichartlinesformat.
 type: docs
-weight: 70
+weight: 80
 url: /hu/aspose.slides.charts/datalabelcollection/leaderlinesformat/
 ---
 ## DataLabelCollection.LeaderLinesFormat tulajdonság
 
-Adatajelzők vezetővonalainak formátumát képviseli. Csak olvasható [`IChartLinesFormat`](../../ichartlinesformat).
+Az adatcímkék vezető vonalainak formátumát reprezentálja. Csak olvasható [`IChartLinesFormat`](../../ichartlinesformat).
 
 ```csharp
 public IChartLinesFormat LeaderLinesFormat { get; }

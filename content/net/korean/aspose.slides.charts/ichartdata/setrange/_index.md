@@ -1,14 +1,14 @@
 ---
 title: SetRange
-second_title: Aspose.Sildes for .NET API 참조
-description: 차트 데이터 범위를 설정합니다. 새 데이터 범위를 기반으로 시리즈와 카테고리가 업데이트됩니다. 데이터 범위의 시리즈 수가 차트 데이터의 시리즈 수보다 많으면 현재 컬렉션의 마지막 시리즈와 동일한 유형의 추가 시리즈가 컬렉션 끝에 추가됩니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 차트 데이터 범위를 설정합니다. 새로운 데이터 범위를 기준으로 시리즈와 범주가 업데이트됩니다. 데이터 범위의 시리즈 수가 차트 데이터의 시리즈 수보다 많으면 현재 컬렉션의 마지막 시리즈와 동일한 유형의 추가 시리즈가 컬렉션 끝에 추가됩니다.
 type: docs
-weight: 130
+weight: 140
 url: /ko/aspose.slides.charts/ichartdata/setrange/
 ---
 ## IChartData.SetRange 메서드
 
-차트 데이터 범위를 설정합니다. 새 데이터 범위를 기반으로 Series와 카테고리가 업데이트됩니다. 데이터 범위의 시리즈 수가 차트 데이터의 시리즈 수보다 많으면 현재 컬렉션의 마지막 시리즈와 동일한 유형의 추가 시리즈가 컬렉션 끝에 추가됩니다.
+차트 데이터 범위를 설정합니다. 새로운 데이터 범위를 기준으로 Series와 범주가 업데이트됩니다. 데이터 범위의 Series 수가 차트 데이터의 Series 수보다 많으면 현재 컬렉션의 마지막 Series와 동일한 유형의 추가 Series가 컬렉션 끝에 추가됩니다.
 
 ```csharp
 public void SetRange(string formula)
@@ -16,16 +16,16 @@ public void SetRange(string formula)
 
 | 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| formula | String | 셀 데이터 범위 수식입니다. 예: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
+| formula | String | 셀 데이터 범위 수식입니다. E.g: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
 
 ### 예외
 
 | 예외 | 조건 |
 | --- | --- |
-| ArgumentNullException | formula는 null입니다. |
-| ArgumentException | formula의 형식이 올바르지 않습니다. |
+| ArgumentNullException | formula이 null인 경우 |
+| ArgumentException | formula의 형식이 올바르지 않은 경우 |
 
-### 참고
+### 참조
 
 * 인터페이스 [IChartData](../../ichartdata)
 * 네임스페이스 [Aspose.Slides.Charts](../../ichartdata)

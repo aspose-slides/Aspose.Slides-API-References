@@ -1,12 +1,12 @@
 ---
 title: TransitionSideDirectionType
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes for .NET APIリファレンス
 description: サイド方向の遷移タイプを表します。
 type: docs
-weight: 10420
+weight: 10440
 url: /ja/aspose.slides.slideshow/transitionsidedirectiontype/
 ---
-## TransitionSideDirectionType 列挙型
+## TransitionSideDirectionType 列挙
 
 サイド方向の遷移タイプを表します。
 

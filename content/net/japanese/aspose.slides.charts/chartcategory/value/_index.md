@@ -1,9 +1,9 @@
 ---
 title: Value
-second_title: Aspose.Sildes の .NET API リファレンス
-description: UseCell が true の場合、このプロパティは AsCell.Value プロパティを表します。UseCell が false の場合、このプロパティは AsLiteral プロパティを表します。読み取り/書き込み Object。
+second_title: Aspose.Sildes for .NET APIリファレンス
+description: UseCell が true の場合、このプロパティは AsCell.Value プロパティを表します。UseCell が false の場合、このプロパティは AsLiteral プロパティを表します。読み取り/書き込み Object.
 type: docs
-weight: 50
+weight: 60
 url: /ja/aspose.slides.charts/chartcategory/value/
 ---
 ## ChartCategory.Value プロパティ

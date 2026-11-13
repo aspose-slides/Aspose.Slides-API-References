@@ -1,14 +1,14 @@
 ---
 title: IOrientationTransition
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 方向スライド遷移効果。
+description: オリエンテーション スライド遷移効果。
 type: docs
-weight: 10150
+weight: 10170
 url: /ja/aspose.slides.slideshow/iorientationtransition/
 ---
 ## IOrientationTransition インターフェイス
 
-方向スライドの遷移効果。
+オリエンテーション スライド遷移効果。
 
 ```csharp
 public interface IOrientationTransition : ITransitionValueBase
@@ -19,7 +19,7 @@ public interface IOrientationTransition : ITransitionValueBase
 | 名前 | 説明 |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/iorientationtransition/asitransitionvaluebase) { get; } | ベース ITransitionValueBase インターフェイスを取得できます。 読み取り専用 [`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [Direction](../../aspose.slides.slideshow/iorientationtransition/direction) { get; set; } | 遷移の方向。 読み書き [`Orientation`](../../aspose.slides/orientation)。 |
+| [Direction](../../aspose.slides.slideshow/iorientationtransition/direction) { get; set; } | 遷移の方向。 読み書き可能 [`Orientation`](../../aspose.slides/orientation)。 |
 
 ### 参照
 

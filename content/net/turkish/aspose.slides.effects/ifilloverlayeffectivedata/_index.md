@@ -1,14 +1,14 @@
 ---
 title: IFillOverlayEffectiveData
 second_title: Aspose.Sildes için .NET API Referansı
-description: Dolgu Katmanı efektini temsil eden değişmez nesne. Bir dolgu katmanı, bir nesne için ek bir dolgu belirtmek ve iki dolguyu birleştirmek için kullanılabilir.
+description: Değiştirilemez nesne, bir Fill Overlay etkisini temsil eder. Bir fill overlay, bir nesne için ek bir dolgu belirtmek ve iki dolguyu birleştirmek için kullanılabilir.
 type: docs
-weight: 3310
+weight: 3330
 url: /tr/aspose.slides.effects/ifilloverlayeffectivedata/
 ---
-## IFillOverlayEffectiveData arayüz
+## IFillOverlayEffectiveData arayüzü
 
-Dolgu Katmanı efektini temsil eden değişmez nesne. Bir dolgu katmanı, bir nesne için ek bir dolgu belirlemek ve iki dolguyu birlikte karıştırmak için kullanılabilir.
+Değiştirilemez nesne, bir Fill Overlay etkisini temsil eder. Bir fill overlay, bir nesne için ek bir dolgu belirtmek ve iki dolguyu birleştirmek için kullanılabilir.
 
 ```csharp
 public interface IFillOverlayEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface IFillOverlayEffectiveData : IEffectEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ifilloverlayeffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzünü almayı sağlar. Sadece okunabilir [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Blend](../../aspose.slides.effects/ifilloverlayeffectivedata/blend) { get; } | FillBlendMode. Sadece okunabilir [`FillBlendMode`](../../aspose.slides/fillblendmode). |
-| [FillFormat](../../aspose.slides.effects/ifilloverlayeffectivedata/fillformat) { get; } | Dolgu biçimi. Sadece okunabilir [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ifilloverlayeffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzünü almaya izin verir. Salt okunur [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Blend](../../aspose.slides.effects/ifilloverlayeffectivedata/blend) { get; } | FillBlendMode. Salt okunur [`FillBlendMode`](../../aspose.slides/fillblendmode). |
+| [FillFormat](../../aspose.slides.effects/ifilloverlayeffectivedata/fillformat) { get; } | Fill format. Salt okunur [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
 
 ### Ayrıca Bakınız
 

@@ -3,7 +3,7 @@ title: IPathSegment
 second_title: Aspose.Sildes for .NET API リファレンス
 description: GeometryShape のグラフィック パスのセグメントを表します
 type: docs
-weight: 6610
+weight: 6630
 url: /ja/aspose.slides/ipathsegment/
 ---
 ## IPathSegment インターフェイス
@@ -19,7 +19,7 @@ public interface IPathSegment
 | 名前 | 説明 |
 | --- | --- |
 | [PathCommand](../../aspose.slides/ipathsegment/pathcommand) { get; } | セグメントのパスの種類 |
-| [SegmentData](../../aspose.slides/ipathsegment/segmentdata) { get; } | セグメントのパスデータ |
+| [SegmentData](../../aspose.slides/ipathsegment/segmentdata) { get; } | セグメントのパス データ |
 
 ### 参照
 

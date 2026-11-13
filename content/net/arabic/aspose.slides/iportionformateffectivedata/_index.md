@@ -1,14 +1,14 @@
 ---
 title: IPortionFormatEffectiveData
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: كائن غير قابل للتغيير يحتوي على خصائص تنسيق الجزء النصي الفعلي.
+description: كائن غير قابل للتغيير يحتوي على خصائص تنسيق أجزاء النص الفعّالة.
 type: docs
-weight: 6740
+weight: 6760
 url: /ar/aspose.slides/iportionformateffectivedata/
 ---
 ## IPortionFormatEffectiveData واجهة
 
-كائن غير قابل للتغيير يحتوي على خصائص تنسيق الجزء النصي الفعلي.
+Immutable object which contains effective text portion formatting properties.
 
 ```csharp
 public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
@@ -18,18 +18,18 @@ public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIBasePortionFormatEffectiveData](../../aspose.slides/iportionformateffectivedata/asibaseportionformateffectivedata) { get; } | يرجع واجهة IBasePortionFormatEffectiveData. |
-| [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | يرجع معرف الإشارة المرجعية. سلسلة للقراءة فقط. |
-| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | يرجع الارتباط التشعبي المعرف للنقر بالفأرة. [`IHyperlink`](../ihyperlink) للقراءة فقط. |
-| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | يرجع الارتباط التشعبي المعرف للتحريك بالفأرة. [`IHyperlink`](../ihyperlink) للقراءة فقط. |
+| [AsIBasePortionFormatEffectiveData](../../aspose.slides/iportionformateffectivedata/asibaseportionformateffectivedata) { get; } | يررج IBasePortionFormatEffectiveData واجهة. |
+| [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | يررج معرف إشارة مرجعية. سلسلة قراءة فقط. |
+| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | يررج الارتباط التشعبي المحدد للنقر بالفأرة. قراءة فقط [`IHyperlink`](../ihyperlink). |
+| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | يررج الارتباط التشعبي المحدد للمرور بالفأرة. قراءة فقط [`IHyperlink`](../ihyperlink). |
 
 ### ملاحظات
 
-تُستخدم هذه الواجهة مع واجهة [`IPortionFormat`](../iportionformat) لإرجاع قيم التنسيق الفعّالة مع تطبيق الوراثة.
+يتم استخدام هذه الواجهة مع الواجهة [`IPortionFormat`](../iportionformat) لإرجاع قيم التنسيق الفعّالة مع تطبيق الوراثة.
 
 ### انظر أيضًا
 
-* واجهة [IBasePortionFormatEffectiveData](../ibaseportionformateffectivedata)
+* الواجهة [IBasePortionFormatEffectiveData](../ibaseportionformateffectivedata)
 * النطاق [Aspose.Slides](../../aspose.slides)
 * التجميع [Aspose.Slides](../../)
 

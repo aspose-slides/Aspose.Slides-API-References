@@ -1,14 +1,14 @@
 ---
 title: CombinableSeriesTypesGroup
-second_title: "Aspose.Sildes для .NET: справочник API"
-description: Перечисление групп совместимых типов рядов. Каждый элемент относится к группе типов рядов диаграммы, которые могут одновременно существовать в одном ChartSeriesGroup. Например, ряд ChartType.PercentsStackedArea не может одновременно находиться с рядом ChartType.StackedArea в одном ChartSeriesGroup. Однако два или более ряда ChartType.PercentsStackedArea могут одновременно находиться в одном ChartSeriesGroup (CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea). И ряд ChartType.Line может находиться вместе с рядом ChartType.LineWithMarkers одновременно в одном ChartSeriesGroup (CombinableSeriesTypesGroup.LineChart_Line).
+second_title: Справочник API Aspose.Sildes для .NET
+description: Перечисление групп комбинируемых типов рядов. Каждый элемент относится к группе типов рядов диаграммы, которые могут одновременно существовать в одном ChartSeriesGroup. Например, ряд ChartType.PercentsStackedArea не может одновременно находиться с рядом ChartType.StackedArea в одном ChartSeriesGroup. Но два или более рядов ChartType.PercentsStackedArea могут одновременно находиться в одном ChartSeriesGroup: CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea. И ряд ChartType.Line может одновременно находиться с рядом ChartType.LineWithMarkers в одном ChartSeriesGroup: CombinableSeriesTypesGroup.LineChart_Line.
 type: docs
-weight: 1530
+weight: 1540
 url: /ru/aspose.slides.charts/combinableseriestypesgroup/
 ---
 ## CombinableSeriesTypesGroup перечисление
 
-Перечисление групп совместимых типов рядов. Каждый элемент относится к группе типов рядов диаграммы, которые могут существовать одновременно в одном ChartSeriesGroup. Например: ряд ChartType.PercentsStackedArea не может одновременно находиться с рядом ChartType.StackedArea в одном ChartSeriesGroup. Но два или более ряда ChartType.PercentsStackedArea могут находиться в одном ChartSeriesGroup одновременно (CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea). И ряд ChartType.Line может находиться вместе с рядом ChartType.LineWithMarkers одновременно в одном CombinableSeriesTypesGroup.LineChart_Line ChartSeriesGroup.
+Перечисление групп комбинируемых типов рядов. Каждый элемент относится к группе типов рядов диаграммы, которые могут одновременно находиться в одном ChartSeriesGroup. Например: ChartType.PercentsStackedArea ряд не может одновременно быть с ChartType.StackedArea рядом в одном ChartSeriesGroup. Но два или более ChartType.PercentsStackedArea могут одновременно находиться в одном ChartSeriesGroup (CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea). И ChartType.Line ряд может одновременно быть с ChartType.LineWithMarkers рядом в одном CombinableSeriesTypesGroup.Line ChartSeriesGroup.
 
 ```csharp
 public enum CombinableSeriesTypesGroup
@@ -16,7 +16,7 @@ public enum CombinableSeriesTypesGroup
 
 ### Значения
 
-| Name | Value | Description |
+| Имя | Значение | Описание |
 | --- | --- | --- |
 | AreaChart_Area | `4` | Группирует этот набор типов рядов: { ChartType.Area } |
 | AreaChart_PercentsStackedArea | `5` | Группирует этот набор типов рядов: { ChartType.PercentsStackedArea } |
@@ -80,7 +80,7 @@ public enum CombinableSeriesTypesGroup
 | MapChart | `59` | Группирует этот набор типов рядов: { ChartType.Map } |
 | SunburstChart | `60` | Группирует этот набор типов рядов: { ChartType.Sunburst } |
 
-### Смотрите также
+### См. также
 
 * пространство имён [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)

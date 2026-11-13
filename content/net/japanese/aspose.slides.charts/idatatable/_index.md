@@ -1,14 +1,14 @@
 ---
 title: IDataTable
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: データテーブルのプロパティを表します。
 type: docs
-weight: 2060
+weight: 2080
 url: /ja/aspose.slides.charts/idatatable/
 ---
 ## IDataTable インターフェイス
 
-データテーブルのプロパティを表します。
+Represents data table properties.
 
 ```csharp
 public interface IDataTable : IFormattedTextContainer
@@ -18,12 +18,12 @@ public interface IDataTable : IFormattedTextContainer
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/idatatable/asiformattedtextcontainer) { get; } | ベース IFormattedTextContainer インターフェイスを取得できます。読み取り専用 [`IFormattedTextContainer`](../iformattedtextcontainer)。 |
-| [Format](../../aspose.slides.charts/idatatable/format) { get; } | オブジェクトの線、塗りつぶし、エフェクトスタイルを返します。読み取り専用 [`IFormat`](../iformat)。 |
-| [HasBorderHorizontal](../../aspose.slides.charts/idatatable/hasborderhorizontal) { get; set; } | チャート データテーブルに水平セル境界線がある場合は True です。読み書き可能な Boolean。 |
-| [HasBorderOutline](../../aspose.slides.charts/idatatable/hasborderoutline) { get; set; } | チャート データテーブルにアウトライン境界線がある場合は True です。読み書き可能な Boolean。 |
-| [HasBorderVertical](../../aspose.slides.charts/idatatable/hasbordervertical) { get; set; } | チャート データテーブルに垂直セル境界線がある場合は True です。読み書き可能な Boolean。 |
-| [ShowLegendKey](../../aspose.slides.charts/idatatable/showlegendkey) { get; set; } | データ ラベルの凡例キーが表示されている場合は True です。読み書き可能な Boolean。 |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/idatatable/asiformattedtextcontainer) { get; } | ベース IFormattedTextContainer インターフェイスを取得できます。 読み取り専用 [`IFormattedTextContainer`](../iformattedtextcontainer)。 |
+| [Format](../../aspose.slides.charts/idatatable/format) { get; } | オブジェクトの線、塗りつぶし、およびエフェクト スタイルを返します。 読み取り専用 [`IFormat`](../iformat)。 |
+| [HasBorderHorizontal](../../aspose.slides.charts/idatatable/hasborderhorizontal) { get; set; } | チャート データ テーブルに水平セル境界線がある場合は True。 読み書き可能 Boolean. |
+| [HasBorderOutline](../../aspose.slides.charts/idatatable/hasborderoutline) { get; set; } | チャート データ テーブルにアウトライン境界線がある場合は True。 読み書き可能 Boolean. |
+| [HasBorderVertical](../../aspose.slides.charts/idatatable/hasbordervertical) { get; set; } | チャート データ テーブルに垂直セル境界線がある場合は True。 読み書き可能 Boolean. |
+| [ShowLegendKey](../../aspose.slides.charts/idatatable/showlegendkey) { get; set; } | データ ラベル 凡例キーが表示されている場合は True。 読み書き可能 Boolean. |
 
 ### 参照
 

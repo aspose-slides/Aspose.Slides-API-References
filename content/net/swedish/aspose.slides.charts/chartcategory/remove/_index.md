@@ -3,7 +3,7 @@ title: Remove
 second_title: Aspose.Sildes för .NET API-referens
 description: Tar bort kategori från diagrammet.
 type: docs
-weight: 60
+weight: 70
 url: /sv/aspose.slides.charts/chartcategory/remove/
 ---
 ## ChartCategory.Remove metod
@@ -18,7 +18,7 @@ public void Remove()
 
 | undantag | villkor |
 | --- | --- |
-| [PptxEditException](../../../aspose.slides/pptxeditexception) | Kastas om kategori redan har tagits bort från diagrammet. |
+| [PptxEditException](../../../aspose.slides/pptxeditexception) | Kastas om kategorin redan har tagits bort från diagrammet. |
 
 ### Se även
 

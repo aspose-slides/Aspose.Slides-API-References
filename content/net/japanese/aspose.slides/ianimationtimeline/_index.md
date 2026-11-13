@@ -1,9 +1,9 @@
 ---
 title: IAnimationTimeLine
-second_title: .NET 用 Aspose.Sildes APIリファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: アニメーションのタイムラインを表します。
 type: docs
-weight: 5200
+weight: 5220
 url: /ja/aspose.slides/ianimationtimeline/
 ---
 ## IAnimationTimeLine インターフェイス
@@ -18,9 +18,9 @@ public interface IAnimationTimeLine
 
 | 名前 | 説明 |
 | --- | --- |
-| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | インタラクティブシーケンスのコレクションを返します。このシーケンスは、対象のシェイプを指定した「シェイプのクリック」効果のみを含むことができます。読み取り専用 [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection)。 |
-| [MainSequence](../../aspose.slides/ianimationtimeline/mainsequence) { get; } | メインエフェクトコレクションのみを含む可能性があるメインシーケンスを返します。読み取り専用 [`ISequence`](../../aspose.slides.animation/isequence)。 |
-| [TextAnimationCollection](../../aspose.slides/ianimationtimeline/textanimationcollection) { get; } | テキストアニメーションのコレクションを返します。読み取り専用 [`ITextAnimationCollection`](../../aspose.slides.animation/itextanimationcollection)。 |
+| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | インタラクティブ シーケンスのコレクションを返します。このシーケンスは、対象シェイプを指定した "click on shape" による効果のみを含むことができます。読み取り専用 [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection)。 |
+| [MainSequence](../../aspose.slides/ianimationtimeline/mainsequence) { get; } | メイン効果コレクションのみを含むことができるメインシーケンスを返します。読み取り専用 [`ISequence`](../../aspose.slides.animation/isequence)。 |
+| [TextAnimationCollection](../../aspose.slides/ianimationtimeline/textanimationcollection) { get; } | テキスト アニメーションのコレクションを返します。読み取り専用 [`ITextAnimationCollection`](../../aspose.slides.animation/itextanimationcollection)。 |
 
 ### 参照
 

@@ -1,14 +1,14 @@
 ---
 title: IChartDataPointLevel
 second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Đại diện cho mức điểm dữ liệu. Áp dụng cho biểu đồ Treemap và Sunburst.
+description: Đại diện cho mức độ điểm dữ liệu. Áp dụng cho biểu đồ Treemap và Sunburst.
 type: docs
-weight: 1840
+weight: 1860
 url: /vi/aspose.slides.charts/ichartdatapointlevel/
 ---
 ## IChartDataPointLevel giao diện
 
-Đại diện cho mức điểm dữ liệu. Áp dụng cho biểu đồ Treemap và Sunburst.
+Đại diện cho mức độ điểm dữ liệu. Áp dụng cho biểu đồ Treemap và Sunburst.
 
 ```csharp
 public interface IChartDataPointLevel
@@ -16,10 +16,10 @@ public interface IChartDataPointLevel
 
 ## Thuộc tính
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
-| [Format](../../aspose.slides.charts/ichartdatapointlevel/format) { get; } | Đại diện cho các thuộc tính định dạng của mức điểm dữ liệu. Đọc/ghi [`IFormat`](../iformat). |
-| [Label](../../aspose.slides.charts/ichartdatapointlevel/label) { get; } | Đại diện cho nhãn dữ liệu của mức điểm dữ liệu. Áp dụng cho các loại series Treemap và Sunburst. Chỉ đọc [`IDataLabel`](../idatalabel). |
+| [Format](../../aspose.slides.charts/ichartdatapointlevel/format) { get; } | Đại diện cho các thuộc tính định dạng của mức độ điểm dữ liệu. Đọc/ghi [`IFormat`](../iformat). |
+| [Label](../../aspose.slides.charts/ichartdatapointlevel/label) { get; } | Đại diện cho nhãn dữ liệu của mức độ điểm dữ liệu. Được áp dụng cho các loại chuỗi Treemap và Sunburst. Chỉ đọc [`IDataLabel`](../idatalabel). |
 
 ### Xem thêm
 

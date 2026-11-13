@@ -1,14 +1,14 @@
 ---
 title: MathSuperscriptElementFactory
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: IMathSuperscriptElement을 생성할 수 있습니다
+second_title: Aspose.Sildes for .NET API 참조
+description: IMathSuperscriptElement를 만들 수 있습니다
 type: docs
-weight: 9030
+weight: 9050
 url: /ko/aspose.slides.mathtext/mathsuperscriptelementfactory/
 ---
 ## MathSuperscriptElementFactory 클래스
 
-IMathSuperscriptElement을 생성할 수 있습니다
+IMathSuperscriptElement를 만들 수 있습니다
 
 ```csharp
 public class MathSuperscriptElementFactory : IMathSuperscriptElementFactory
@@ -18,13 +18,13 @@ public class MathSuperscriptElementFactory : IMathSuperscriptElementFactory
 
 | 이름 | 설명 |
 | --- | --- |
-| [MathSuperscriptElementFactory](mathsuperscriptelementfactory)() | 기본 생성자입니다. |
+| [MathSuperscriptElementFactory](mathsuperscriptelementfactory)() | 기본 생성자. |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [CreateMathSuperscriptElement](../../aspose.slides.mathtext/mathsuperscriptelementfactory/createmathsuperscriptelement)(IMathElement, IMathElement) | IMathSuperscriptElement을 생성합니다 |
+| [CreateMathSuperscriptElement](../../aspose.slides.mathtext/mathsuperscriptelementfactory/createmathsuperscriptelement)(IMathElement, IMathElement) | IMathSuperscriptElement를 생성합니다 |
 
 ### 비고
 

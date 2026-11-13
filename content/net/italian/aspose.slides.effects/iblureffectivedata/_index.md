@@ -1,14 +1,14 @@
 ---
 title: IBlurEffectiveData
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Oggetto immutabile che rappresenta un effetto Blur applicato all'intera forma, compreso il riempimento. Tutti i canali colore, inclusa l'alpha, sono interessati.
+second_title: Riferimento API di Aspose.Sildes per .NET
+description: Oggetto immutabile che rappresenta un effetto Blur applicato all'intera forma, compreso il riempimento. Tutti i canali di colore, compresa l'alpha, sono interessati.
 type: docs
-weight: 3190
+weight: 3210
 url: /it/aspose.slides.effects/iblureffectivedata/
 ---
 ## IBlurEffectiveData interfaccia
 
-Oggetto immutabile che rappresenta un effetto Blur applicato all'intera forma, compreso il riempimento. Tutti i canali colore, compreso l'alpha, sono interessati.
+Oggetto immutabile che rappresenta un effetto Blur applicato all'intera forma, compreso il riempimento. Tutti i canali di colore, compresa l'alpha, sono interessati.
 
 ```csharp
 public interface IBlurEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface IBlurEffectiveData : IEffectEffectiveData
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iblureffectivedata/asieffecteffectivedata) { get; } | Consente di ottenere l'interfaccia base IEffectEffectiveData. Solo lettura [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | Determina se i limiti dell'oggetto devono essere ingranditi a causa della sfocatura. True indica che i limiti sono ingranditi mentre false indica che non lo sono. Solo lettura Boolean. |
-| [Radius](../../aspose.slides.effects/iblureffectivedata/radius) { get; } | Restituisce o imposta il raggio della sfocatura. Solo lettura Double. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iblureffectivedata/asieffecteffectivedata) { get; } | Consente di ottenere l'interfaccia base IEffectEffectiveData. Sola lettura [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | Determina se i limiti dell'oggetto devono essere ampliati a seguito della sfocatura. True indica che i limiti sono ampliati mentre false indica che non lo sono. Sola lettura Boolean. |
+| [Radius](../../aspose.slides.effects/iblureffectivedata/radius) { get; } | Restituisce o imposta il raggio della sfocatura. Sola lettura Double. |
 
 ### Vedi anche
 

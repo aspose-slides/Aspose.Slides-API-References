@@ -1,14 +1,14 @@
 ---
 title: Merger
-second_title: Aspose.Sildes per .NET API Reference
-description: Rappresenta un gruppo di metodi per unire presentazioni PowerPoint dello stesso formato in un unico file.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta un gruppo di metodi per l'unione di presentazioni PowerPoint con lo stesso formato in un unico file.
 type: docs
-weight: 7970
+weight: 7990
 url: /it/aspose.slides.lowcode/merger/
 ---
 ## Merger classe
 
-Rappresenta un gruppo di metodi per unire presentazioni PowerPoint dello stesso formato in un unico file.
+Rappresenta un gruppo di metodi per l'unione di presentazioni PowerPoint con lo stesso formato in un unico file.
 
 ```csharp
 public static class Merger
@@ -18,10 +18,10 @@ public static class Merger
 
 | Nome | Descrizione |
 | --- | --- |
-| static [Process](../../aspose.slides.lowcode/merger/process#process)(string[], Stream) | Unisce più presentazioni PowerPoint dello stesso formato in un unico file di presentazione. |
-| static [Process](../../aspose.slides.lowcode/merger/process#process_2)(string[], string) | Unisce più presentazioni PowerPoint dello stesso formato in un unico file di presentazione. |
-| static [Process](../../aspose.slides.lowcode/merger/process#process_1)(string[], Stream, ISaveOptions) | Unisce più presentazioni PowerPoint dello stesso formato in un unico file di presentazione. |
-| static [Process](../../aspose.slides.lowcode/merger/process#process_3)(string[], string, ISaveOptions) | Unisce più presentazioni PowerPoint dello stesso formato in un unico file di presentazione. |
+| static [Process](../../aspose.slides.lowcode/merger/process#process)(string[], Stream) | Unisce più presentazioni PowerPoint con lo stesso formato in un unico file di presentazione. |
+| static [Process](../../aspose.slides.lowcode/merger/process#process_2)(string[], string) | Unisce più presentazioni PowerPoint con lo stesso formato in un unico file di presentazione. |
+| static [Process](../../aspose.slides.lowcode/merger/process#process_1)(string[], Stream, ISaveOptions) | Unisce più presentazioni PowerPoint con lo stesso formato in un unico file di presentazione. |
+| static [Process](../../aspose.slides.lowcode/merger/process#process_3)(string[], string, ISaveOptions) | Unisce più presentazioni PowerPoint con lo stesso formato in un unico file di presentazione. |
 
 ### Vedi anche
 

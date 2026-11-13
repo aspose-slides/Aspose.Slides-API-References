@@ -1,14 +1,14 @@
 ---
 title: MasterNotesSlideHeaderFooterManager
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงผู้จัดการที่ดูแลพฤติกรรมของตัวเว้นส่วนคอลังท้ายของสไลด์บันทึกหลัก วันที่และเวลาหมายเลขหน้า และตัวเว้นทั้งหมดของสไลด์ลูก ตัวเว้นลูกหมายถึงตัวเว้นที่อยู่ในสไลด์บันทึกที่ขึ้นกับสไลด์หลัก สไลด์บันทึกที่ขึ้นกับใช้และพึ่งพาสไลด์บันทึกหลัก
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงถึงตัวจัดการที่ถือพฤติกรรมของส่วนท้ายสไลด์โน้ตหลัก ตัวเก็บวันที่และเวลา หมายเลขหน้า และตัวเก็บทั้งหมดของลูก. ตัวเก็บลูกหมายถึงตัวเก็บที่อยู่บนสไลด์โน้ตที่ขึ้นอยู่. สไลด์โน้ตที่ขึ้นอยู่ใช้และพึ่งพาสไลด์โน้ตหลัก.
 type: docs
-weight: 8020
+weight: 8040
 url: /th/aspose.slides/masternotesslideheaderfootermanager/
 ---
 ## MasterNotesSlideHeaderFooterManager คลาส
 
-Represents manager which holds behavior of the master notes slide footer, date-time, page number placeholders and all child placeholders. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide.
+แสดงถึงตัวจัดการที่ถือพฤติกรรมของส่วนท้ายสไลด์โน้ตหลัก, ตัวเก็บวันที่และเวลา, ตัวเก็บหมายเลขหน้า และตัวเก็บทั้งหมดของลูก. ตัวเก็บลูกหมายถึงตัวเก็บที่อยู่บนสไลด์โน้ตที่ขึ้นอยู่. สไลด์โน้ตที่ขึ้นอยู่ใช้และพึ่งพาสไลด์โน้ตหลัก.
 
 ```csharp
 public sealed class MasterNotesSlideHeaderFooterManager : BaseHandoutNotesSlideHeaderFooterManager, 
@@ -17,31 +17,31 @@ public sealed class MasterNotesSlideHeaderFooterManager : BaseHandoutNotesSlideH
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | รับค่าที่บ่งชี้ว่ามีตัวเว้นของวันที่และเวลาอยู่. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | รับค่าที่บ่งชี้ว่ามีตัวเว้นส่วนคอลังท้ายอยู่. Read Boolean. |
-| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | รับค่าที่บ่งชี้ว่ามีตัวเว้นส่วนหัวอยู่. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | รับค่าที่บ่งชี้ว่ามีตัวเว้นหมายเลขหน้อยู่. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | ดึงค่าที่บ่งชี้ว่ามีตัวเก็บวันที่และเวลาที่อยู่. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | ดึงค่าที่บ่งชี้ว่ามีตัวเก็บส่วนท้ายอยู่. Read Boolean. |
+| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | ดึงค่าที่บ่งชี้ว่ามีตัวเก็บส่วนหัวอยู่. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | ดึงค่าที่บ่งชี้ว่ามีตัวเก็บหมายเลขหน้าที่อยู่. ReadBoolean. |
 
-## วิธีการ
+## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | กำหนดข้อความให้กับตัวเว้นของวันที่และเวลาในสไลด์หลักและตัวเว้นของวันที่และเวลาในสไลด์ลูกทั้งหมด. ตัวเว้นลูกหมายถึงตัวเว้นที่อยู่ในสไลด์บันทึกที่ขึ้นกับสไลด์หลัก. สไลด์บันทึกที่ขึ้นกับใช้และพึ่งพาสไลด์บันทึกหลัก. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | เปลี่ยนการแสดงผลของตัวเว้นของวันที่และเวลาในสไลด์หลักและตัวเว้นของวันที่และเวลาในสไลด์ลูกทั้งหมด. ตัวเว้นลูกหมายถึงตัวเว้นที่อยู่ในสไลด์บันทึกที่ขึ้นกับสไลด์หลัก. |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | กำหนดข้อความให้กับตัวเว้นของวันที่และเวลาในสไลด์. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | เปลี่ยนการแสดงผลของตัวเว้นของวันที่และเวลาในสไลด์. |
-| [SetFooterAndChildFootersText](../../aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | กำหนดข้อความให้กับตัวเว้นส่วนคอลังท้ายของสไลด์หลักและตัวเว้นส่วนคอลังท้ายของสไลด์ลูกทั้งหมด. ตัวเว้นลูกหมายถึงตัวเว้นที่อยู่ในสไลด์บันทึกที่ขึ้นกับสไลด์หลัก. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | เปลี่ยนการแสดงผลของตัวเว้นส่วนคอลังท้ายของสไลด์หลักและตัวเว้นส่วนคอลังท้ายของสไลด์ลูกทั้งหมด. ตัวเว้นลูกหมายถึงตัวเว้นที่อยู่ในสไลด์บันทึกที่ขึ้นกับสไลด์หลัก. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | กำหนดข้อความให้กับตัวเว้นส่วนคอลังท้ายในสไลด์. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | เปลี่ยนการแสดงผลของตัวเว้นส่วนคอลังท้ายในสไลด์. |
-| [SetHeaderAndChildHeadersText](../../aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | กำหนดข้อความให้กับตัวเว้นส่วนหัวของสไลด์บันทึกหลักและตัวเว้นส่วนหัวของสไลด์ลูกทั้งหมด. ตัวเว้นลูกหมายถึงตัวเว้นที่อยู่ในสไลด์บันทึกที่ขึ้นกับสไลด์หลัก. |
-| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | เปลี่ยนการแสดงผลของตัวเว้นส่วนหัวของสไลด์บันทึกหลักและตัวเว้นส่วนหัวของสไลด์ลูกทั้งหมด. ตัวเว้นลูกหมายถึงตัวเว้นที่อยู่ในสไลด์บันทึกที่ขึ้นกับสไลด์หลัก. |
-| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | กำหนดข้อความให้กับตัวเว้นส่วนหัวในสไลด์. |
-| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | เปลี่ยนการแสดงผลของตัวเว้นส่วนหัวในสไลด์. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | เปลี่ยนการแสดงผลของตัวเว้นหมายเลขหน้าของสไลด์หลักและตัวเว้นหมายเลขหน้าของสไลด์ลูกทั้งหมด. ตัวเว้นลูกหมายถึงตัวเว้นที่อยู่ในสไลด์บันทึกที่ขึ้นกับสไลด์หลัก. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | เปลี่ยนการแสดงผลของตัวเว้นหมายเลขหน้าในสไลด์. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | ตั้งค่าข้อความให้กับตัวเก็บวันที่และเวลาของสไลด์หลักและตัวเก็บวันที่และเวลาของลูกทั้งหมด. ตัวเก็บลูกหมายถึงตัวเก็บที่อยู่บนสไลด์โน้ตที่ขึ้นอยู่. สไลด์โน้ตที่ขึ้นอยู่ใช้และพึ่งพาสไลด์โน้ตหลัก. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | เปลี่ยนการแสดงผลของตัวเก็บวันที่และเวลาของสไลด์หลักและตัวเก็บวันที่และเวลาของลูกทั้งหมด. ตัวเก็บลูกหมายถึงตัวเก็บที่อยู่บนสไลด์โน้ตที่ขึ้นอยู่. สไลด์โน้ตที่ขึ้นอยู่ใช้และพึ่งพาสไลด์โน้ตหลัก. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | ตั้งค่าข้อความให้กับตัวเก็บวันที่และเวลาของสไลด์. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | เปลี่ยนการแสดงผลของตัวเก็บวันที่และเวลาของสไลด์. |
+| [SetFooterAndChildFootersText](../../aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | ตั้งค่าข้อความให้กับตัวเก็บส่วนท้ายของสไลด์หลักและตัวเก็บส่วนท้ายของลูกทั้งหมด. ตัวเก็บลูกหมายถึงตัวเก็บที่อยู่บนสไลด์โน้ตที่ขึ้นอยู่. สไลด์โน้ตที่ขึ้นอยู่ใช้และพึ่งพาสไลด์โน้ตหลัก. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | เปลี่ยนการแสดงผลของตัวเก็บส่วนท้ายของสไลด์หลักและตัวเก็บส่วนท้ายของลูกทั้งหมด. ตัวเก็บลูกหมายถึงตัวเก็บที่อยู่บนสไลด์โน้ตที่ขึ้นอยู่. สไลด์โน้ตที่ขึ้นอยู่ใช้และพึ่งพาสไลด์โน้ตหลัก. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | ตั้งค่าข้อความให้กับตัวเก็บส่วนท้ายของสไลด์. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | เปลี่ยนการแสดงผลของตัวเก็บส่วนท้ายของสไลด์. |
+| [SetHeaderAndChildHeadersText](../../aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | ตั้งค่าข้อความให้กับตัวเก็บส่วนหัวของสไลด์โน้ตหลักและตัวเก็บส่วนหัวของลูกทั้งหมด. ตัวเก็บลูกหมายถึงตัวเก็บที่อยู่บนสไลด์โน้ตที่ขึ้นอยู่. สไลด์โน้ตที่ขึ้นอยู่ใช้และพึ่งพาสไลด์โน้ตหลัก. |
+| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | เปลี่ยนการแสดงผลของตัวเก็บส่วนหัวของสไลด์โน้ตหลักและตัวเก็บส่วนหัวของลูกทั้งหมด. ตัวเก็บลูกหมายถึงตัวเก็บที่อยู่บนสไลด์โน้ตที่ขึ้นอยู่. สไลด์โน้ตที่ขึ้นอยู่ใช้และพึ่งพาสไลด์โน้ตหลัก. |
+| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | ตั้งค่าข้อความให้กับตัวเก็บส่วนหัวของสไลด์. |
+| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | เปลี่ยนการแสดงผลของตัวเก็บส่วนหัวของสไลด์. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | เปลี่ยนการแสดงผลของตัวเก็บหมายเลขหน้าของสไลด์หลักและตัวเก็บหมายเลขหน้าของลูกทั้งหมด. ตัวเก็บลูกหมายถึงตัวเก็บที่อยู่บนสไลด์โน้ตที่ขึ้นอยู่. สไลด์โน้ตที่ขึ้นอยู่ใช้และพึ่งพาสไลด์โน้ตหลัก. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | เปลี่ยนการแสดงผลของตัวเก็บหมายเลขหน้าของสไลด์. |
 
 ### ดูเพิ่มเติม
 

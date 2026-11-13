@@ -1,14 +1,14 @@
 ---
 title: ISlideText
-second_title: Aspose.Sildes для .NET API Справка
-description: Представляет извлечённый из слайда текст
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет текст, извлечённый из слайда
 type: docs
-weight: 7100
+weight: 7120
 url: /ru/aspose.slides/islidetext/
 ---
 ## ISlideText интерфейс
 
-Представляет извлечённый из слайда текст
+Представляет текст, извлечённый из слайда
 
 ```csharp
 public interface ISlideText
@@ -18,10 +18,10 @@ public interface ISlideText
 
 | Имя | Описание |
 | --- | --- |
-| [CommentsText](../../aspose.slides/islidetext/commentstext) { get; } | Текст комментариев слайда |
-| [LayoutText](../../aspose.slides/islidetext/layouttext) { get; } | Текст фигур на странице макета этого слайда |
-| [MasterText](../../aspose.slides/islidetext/mastertext) { get; } | Текст фигур на странице шаблона этого слайда |
-| [NotesText](../../aspose.slides/islidetext/notestext) { get; } | Текст фигур на странице заметок этого слайда |
+| [CommentsText](../../aspose.slides/islidetext/commentstext) { get; } | Текст комментариев к слайду |
+| [LayoutText](../../aspose.slides/islidetext/layouttext) { get; } | Текст фигур на странице макета для этого слайда |
+| [MasterText](../../aspose.slides/islidetext/mastertext) { get; } | Текст фигур на странице шаблона для этого слайда |
+| [NotesText](../../aspose.slides/islidetext/notestext) { get; } | Текст фигур на странице заметок для этого слайда |
 | [Text](../../aspose.slides/islidetext/text) { get; } | Текст фигур на слайде |
 
 ### См. также

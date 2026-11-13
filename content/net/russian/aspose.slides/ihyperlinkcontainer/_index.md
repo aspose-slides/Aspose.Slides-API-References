@@ -1,9 +1,9 @@
 ---
 title: IHyperlinkContainer
-second_title: Aspose.Sildes для .NET Справочник API
+second_title: Aspose.Slides для .NET справочник API
 description: Представляет объект гиперссылки.
 type: docs
-weight: 6120
+weight: 6140
 url: /ru/aspose.slides/ihyperlinkcontainer/
 ---
 ## IHyperlinkContainer интерфейс

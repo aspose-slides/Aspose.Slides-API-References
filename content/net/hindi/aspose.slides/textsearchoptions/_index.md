@@ -1,20 +1,20 @@
 ---
 title: TextSearchOptions
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक Presentation Slide या TextFrame में पाठ खोजने के लिए उपयोग किए जा सकने वाले विकल्पों का प्रतिनिधित्व करता है।
+description: प्रस्तुति स्लाइड या टेक्स्टफ़्रेम में टेक्स्ट खोजने के लिए उपयोग किए जा सकने वाले विकल्पों का प्रतिनिधित्व करता है।
 type: docs
-weight: 10970
+weight: 10990
 url: /hi/aspose.slides/textsearchoptions/
 ---
 ## TextSearchOptions क्लास
 
-एक Presentation, Slide या TextFrame में पाठ खोजने के लिए उपयोग की जा सकने वाली विकल्पों का प्रतिनिधित्व करता है।
+यह उन विकल्पों को दर्शाता है जिन्हें प्रस्तुति, स्लाइड या टेक्स्टफ़्रेम में टेक्स्ट खोजने के लिए उपयोग किया जा सकता है।
 
 ```csharp
 public class TextSearchOptions : ITextSearchOptions
 ```
 
-## कन्स्ट्रक्टर्स
+## कंस्ट्रक्टर
 
 | नाम | विवरण |
 | --- | --- |
@@ -24,9 +24,9 @@ public class TextSearchOptions : ITextSearchOptions
 
 | नाम | विवरण |
 | --- | --- |
-| [CaseSensitive](../../aspose.slides/textsearchoptions/casesensitive) { get; set; } | केस-संवेदनशील खोज के लिए `true` सेट करें, अन्यथा `false`। पढ़ने/लिखने योग्य Boolean। |
-| [IncludeNotes](../../aspose.slides/textsearchoptions/includenotes) { get; set; } | पाठ खोज, प्रतिस्थापन या हाइलाइटिंग संचालन के दौरान स्लाइड नोट्स ([`NotesSlide`](../notesslide)) में मौजूद पाठ को शामिल करने के लिए `true` सेट करें। डिफ़ॉल्ट मान `false` है। |
-| [WholeWordsOnly](../../aspose.slides/textsearchoptions/wholewordsonly) { get; set; } | केवल पूर्ण शब्दों से मेल खाने के लिए `true` सेट करें, अन्यथा `false`। पढ़ने/लिखने योग्य Boolean। |
+| [CaseSensitive](../../aspose.slides/textsearchoptions/casesensitive) { get; set; } | सच्चा सेट करें ताकि केस-सेंसिटिव खोज का उपयोग हो, अन्यथा असत्य। पढ़ने/लिखने योग्य बूलियन। |
+| [IncludeNotes](../../aspose.slides/textsearchoptions/includenotes) { get; set; } | `true` सेट करें ताकि स्लाइड नोट्स ([`NotesSlide`](../notesslide)) में मौजूद टेक्स्ट को टेक्स्ट खोज, प्रतिस्थापन या हाइलाइटिंग संचालन के समय शामिल किया जाए। डिफ़ॉल्ट मान `false` है। |
+| [WholeWordsOnly](../../aspose.slides/textsearchoptions/wholewordsonly) { get; set; } | सच्चा सेट करें ताकि केवल पूरे शब्दों से मेल हो, अन्यथा असत्य। पढ़ने/लिखने योग्य बूलियन। |
 
 ### देखें
 

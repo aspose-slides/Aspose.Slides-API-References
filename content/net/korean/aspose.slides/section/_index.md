@@ -3,12 +3,12 @@ title: Section
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 슬라이드 섹션을 나타냅니다.
 type: docs
-weight: 9750
+weight: 9770
 url: /ko/aspose.slides/section/
 ---
-## 섹션 클래스
+## Section 클래스
 
-슬라이드 섹션을 나타냅니다.
+슬라이드의 섹션을 나타냅니다.
 
 ```csharp
 public class Section : DomObject<SectionCollection>, ISection
@@ -16,19 +16,19 @@ public class Section : DomObject<SectionCollection>, ISection
 
 ## 속성
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
-| [Name](../../aspose.slides/section/name) { get; set; } | 섹션의 이름. |
+| [Name](../../aspose.slides/section/name) { get; set; } | 섹션의 이름입니다. |
 | [SectionId](../../aspose.slides/section/sectionid) { get; } | 섹션 ID. |
 | [StartedFromSlide](../../aspose.slides/section/startedfromslide) { get; } | 섹션의 첫 번째 슬라이드를 반환합니다. |
 
 ## 메서드
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
-| [GetSlidesListOfSection](../../aspose.slides/section/getslideslistofsection)() | 섹션에 포함된 슬라이드 목록을 반환합니다. |
+| [GetSlidesListOfSection](../../aspose.slides/section/getslideslistofsection)() | 섹션에 있는 슬라이드 목록을 반환합니다. |
 
-### 참조
+### 관련 항목
 
 * 클래스 [DomObject&lt;TParent&gt;](../domobject-1)
 * 클래스 [SectionCollection](../sectioncollection)

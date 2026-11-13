@@ -1,12 +1,12 @@
 ---
 title: NewLineType
-second_title: Riferimento API di Aspose.Sildes per .NET
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Tipo di nuova riga che verrà utilizzato nel documento generato.
 type: docs
-weight: 4280
+weight: 4300
 url: /it/aspose.slides.export/newlinetype/
 ---
-## enumerazione NewLineType
+## Enumerazione NewLineType
 
 Tipo di nuova riga che verrà utilizzato nel documento generato.
 

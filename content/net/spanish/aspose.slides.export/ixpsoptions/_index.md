@@ -3,12 +3,12 @@ title: IXpsOptions
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Proporciona opciones que controlan cómo se guarda una presentación en formato XPS.
 type: docs
-weight: 4200
+weight: 4220
 url: /es/aspose.slides.export/ixpsoptions/
 ---
 ## IXpsOptions interfaz
 
-Proporciona opciones que controlan cómo se guarda una presentación en formato XPS.
+Provides options that control how a presentation is saved in XPS format.
 
 ```csharp
 public interface IXpsOptions : ISaveOptions
@@ -18,9 +18,9 @@ public interface IXpsOptions : ISaveOptions
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/ixpsoptions/asisaveoptions) { get; } | Devuelve la interfaz ISaveOptions. Solo lectura [`ISaveOptions`](../isaveoptions). |
-| [DrawSlidesFrame](../../aspose.slides.export/ixpsoptions/drawslidesframe) { get; set; } | True para dibujar un marco negro alrededor de cada diapositiva. Lectura/escritura Boolean. |
-| [SaveMetafilesAsPng](../../aspose.slides.export/ixpsoptions/savemetafilesaspng) { get; set; } | True para convertir todos los metafiles usados en una presentación a imágenes PNG. Lectura/escritura Boolean. |
+| [AsISaveOptions](../../aspose.slides.export/ixpsoptions/asisaveoptions) { get; } | Devuelve ISaveOptions interfaz. Sólo lectura [`ISaveOptions`](../isaveoptions). |
+| [DrawSlidesFrame](../../aspose.slides.export/ixpsoptions/drawslidesframe) { get; set; } | Verdadero para dibujar un marco negro alrededor de cada diapositiva. Booleano de lectura/escritura. |
+| [SaveMetafilesAsPng](../../aspose.slides.export/ixpsoptions/savemetafilesaspng) { get; set; } | Verdadero para convertir todos los metaficheros usados en una presentación a imágenes PNG. Booleano de lectura/escritura. |
 | [ShowHiddenSlides](../../aspose.slides.export/ixpsoptions/showhiddenslides) { get; set; } | Especifica si el documento generado debe incluir diapositivas ocultas o no. El valor predeterminado es `false`. |
 
 ### Ver también

@@ -1,14 +1,14 @@
 ---
 title: IExternalResourceResolver
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Tham khảo API Aspose.Sildes cho .NET
 description: Giao diện callback được sử dụng để giải quyết các tài nguyên bên ngoài trong quá trình nhập tài liệu Html và Svg.
 type: docs
-weight: 7490
+weight: 7510
 url: /vi/aspose.slides.import/iexternalresourceresolver/
 ---
 ## IExternalResourceResolver giao diện
 
-Giao diện callback được sử dụng để giải quyết các tài nguyên bên ngoài trong quá trình nhập tài liệu Html, Svg.
+Giao diện callback được sử dụng để giải quyết các tài nguyên bên ngoài khi nhập tài liệu Html, Svg.
 
 ```csharp
 public interface IExternalResourceResolver
@@ -19,9 +19,9 @@ public interface IExternalResourceResolver
 | Tên | Mô tả |
 | --- | --- |
 | [GetEntity](../../aspose.slides.import/iexternalresourceresolver/getentity)(string) | Ánh xạ một URI tới một đối tượng chứa tài nguyên thực tế. |
-| [ResolveUri](../../aspose.slides.import/iexternalresourceresolver/resolveuri)(string, string) | Giải quyết URI tuyệt đối từ các URI cơ sở và tương đối. |
+| [ResolveUri](../../aspose.slides.import/iexternalresourceresolver/resolveuri)(string, string) | Xác định URI tuyệt đối dựa trên URI cơ sở và URI tương đối. |
 
-### Xem Thêm
+### Xem thêm
 
 * không gian tên [Aspose.Slides.Import](../../aspose.slides.import)
 * tập hợp [Aspose.Slides](../../)

@@ -1,9 +1,9 @@
 ---
 title: Fonts
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Fonts collectie.
+description: Fonts-collectie.
 type: docs
-weight: 4920
+weight: 4940
 url: /nl/aspose.slides/fonts/
 ---
 ## Fonts klasse
@@ -18,18 +18,18 @@ public class Fonts : IFonts
 
 | Naam | Beschrijving |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/fonts/complexscriptfont) { get; set; } | Geeft het complex script-lettertype terug of stelt het in. Lezen/Schrijven [`IFontData`](../ifontdata). |
-| [EastAsianFont](../../aspose.slides/fonts/eastasianfont) { get; set; } | Geeft het oost-Aziatische lettertype terug of stelt het in. Lezen/Schrijven [`IFontData`](../ifontdata). |
-| [LatinFont](../../aspose.slides/fonts/latinfont) { get; set; } | Geeft het Latijnse lettertype terug of stelt het in. Lezen/Schrijven [`IFontData`](../ifontdata). |
+| [ComplexScriptFont](../../aspose.slides/fonts/complexscriptfont) { get; set; } | Geeft de complexe scriptlettertype terug of stelt deze in. Lezen/schrijven [`IFontData`](../ifontdata). |
+| [EastAsianFont](../../aspose.slides/fonts/eastasianfont) { get; set; } | Geeft het Oost-Aziatische lettertype terug of stelt dit in. Lezen/schrijven [`IFontData`](../ifontdata). |
+| [LatinFont](../../aspose.slides/fonts/latinfont) { get; set; } | Geeft het Latijnse lettertype terug of stelt dit in. Lezen/schrijven [`IFontData`](../ifontdata). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [GetScriptFont](../../aspose.slides/fonts/getscriptfont)(string) | Haalt de naam van het lettertype op die is gekoppeld aan een specifiek script-tag uit het presentatiethema. |
-| [GetScriptFontMap](../../aspose.slides/fonts/getscriptfontmap)() | Geeft een woordenboek terug van alle script-lettertype-definities in de presentatie. |
+| [GetScriptFont](../../aspose.slides/fonts/getscriptfont)(string) | Haalt de lettertypenaam op die is gekoppeld aan een specifiek script-tag uit het presentatiethema. |
+| [GetScriptFontMap](../../aspose.slides/fonts/getscriptfontmap)() | Geeft een woordenboek terug met alle scriptlettertype-definities in de presentatie. |
 | [RemoveScriptFont](../../aspose.slides/fonts/removescriptfont)(string) | Verwijdert de lettertype-instelling die is gekoppeld aan een specifiek script-tag uit de lettertype-collectie van het thema. |
-| [SetScriptFont](../../aspose.slides/fonts/setscriptfont)(string, string) | Wijs een lettertype-naam toe aan een specifiek script-tag, waarmee wordt bepaald hoe tekst van dat script wordt weergegeven in de presentatie. |
+| [SetScriptFont](../../aspose.slides/fonts/setscriptfont)(string, string) | Kent een lettertypenaam toe aan een specifiek script-tag, waarmee wordt bepaald hoe tekst van dat script in de presentatie wordt weergegeven. |
 
 ### Zie ook
 

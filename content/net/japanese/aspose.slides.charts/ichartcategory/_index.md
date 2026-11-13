@@ -1,14 +1,14 @@
 ---
 title: IChartCategory
 second_title: Aspose.Sildes for .NET API リファレンス
-description: チャートカテゴリを表します。
+description: チャートのカテゴリを表します。
 type: docs
-weight: 1750
+weight: 1770
 url: /ja/aspose.slides.charts/ichartcategory/
 ---
 ## IChartCategory インターフェイス
 
-チャートカテゴリを表します。
+チャートのカテゴリを表します。
 
 ```csharp
 public interface IChartCategory
@@ -16,17 +16,18 @@ public interface IChartCategory
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/ichartcategory/ascell) { get; set; } | IChartDataCell オブジェクトを取得または設定します。カテゴリが複数レベルの場合、レベル "0" 用に IChartDataCell オブジェクトが使用されます。読み書き [`IChartDataCell`](../ichartdatacell)。 |
-| [AsLiteral](../../aspose.slides.charts/ichartcategory/asliteral) { get; set; } | UseCell が false の場合、AsLiteral を取得または設定します。読み書き Object。 |
-| [GroupingLevels](../../aspose.slides.charts/ichartcategory/groupinglevels) { get; } | チャートカテゴリのグループ化レベルの値を管理するコンテナ。複数レベルのカテゴリは複数のグループ化レベルを含みます。グループ化レベルのインデックスは 0 から始まります。読み取り専用 [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager)。 |
-| [UseCell](../../aspose.slides.charts/ichartcategory/usecell) { get; } | true の場合、AsCell プロパティが有効です。つまり、ワークシートがカテゴリの保存に使用されます（この場合は複数レベルのカテゴリをサポートします）。false の場合、AsLiteral プロパティが有効です。つまり、ワークシートはカテゴリの保存に使用されません（この場合は複数レベルのカテゴリをサポートしません）。読み取り専用 Boolean。 |
-| [Value](../../aspose.slides.charts/ichartcategory/value) { get; set; } | UseCell が true の場合、このプロパティは AsCell.Value プロパティを表します。UseCell が false の場合、このプロパティは AsLiteral プロパティを表します。読み書き Object。 |
+| [AsCell](../../aspose.slides.charts/ichartcategory/ascell) { get; set; } | IChartDataCell オブジェクトを取得または設定します。カテゴリが複数階層の場合、レベル「0」の IChartDataCell オブジェクトが使用されます。読み取り/書き込み [`IChartDataCell`](../ichartdatacell)。 |
+| [AsLiteral](../../aspose.slides.charts/ichartcategory/asliteral) { get; set; } | UseCell が false の場合、AsLiteral を取得または設定します。読み取り/書き込み Object。 |
+| [CachedValue](../../aspose.slides.charts/ichartcategory/cachedvalue) { get; } | チャートカテゴリのキャッシュされた値を取得します。読み取り専用 [`ICachedChartValue`](../icachedchartvalue)。 |
+| [GroupingLevels](../../aspose.slides.charts/ichartcategory/groupinglevels) { get; } | チャートカテゴリのグループ化レベルの値を管理するコンテナです。複数階層のカテゴリは複数のグループ化レベルを含みます。グループ化レベルのインデックスはゼロベースです。読み取り専用 [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager)。 |
+| [UseCell](../../aspose.slides.charts/ichartcategory/usecell) { get; } | true の場合、AsCell プロパティが有効です。つまり、ワークシートがカテゴリの保存に使用されます（このケースは複数階層のカテゴリをサポートします）。false の場合、AsLiteral プロパティが有効です。つまり、ワークシートはカテゴリの保存に使用されません（このケースは複数階層のカテゴリをサポートしません）。読み取り専用 Boolean。 |
+| [Value](../../aspose.slides.charts/ichartcategory/value) { get; set; } | UseCell が true の場合、このプロパティは AsCell.Value プロパティを表します。UseCell が false の場合、このプロパティは AsLiteral プロパティを表します。読み取り/書き込み Object。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [Remove](../../aspose.slides.charts/ichartcategory/remove)() | チャートからカテゴリを削除します。 |
 

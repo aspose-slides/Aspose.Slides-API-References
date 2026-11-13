@@ -3,7 +3,7 @@ title: IGroupShape
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt een groep vormen op een dia voor.
 type: docs
-weight: 6080
+weight: 6100
 url: /nl/aspose.slides/igroupshape/
 ---
 ## IGroupShape interface
@@ -18,7 +18,7 @@ public interface IGroupShape : IShape
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIShape](../../aspose.slides/igroupshape/asishape) { get; } | Staat toe om de basis IShape interface op te halen. Alleen-lezen [`IShape`](../ishape). |
+| [AsIShape](../../aspose.slides/igroupshape/asishape) { get; } | Staat toe de basis IShape interface op te halen. Alleen-lezen [`IShape`](../ishape). |
 | [GroupShapeLock](../../aspose.slides/igroupshape/groupshapelock) { get; } | Geeft de vergrendelingen van de vorm terug. Alleen-lezen [`IGroupShapeLock`](../igroupshapelock). |
 | [ShapeLock](../../aspose.slides/igroupshape/shapelock) { get; } | Geeft de vergrendelingen van de vorm terug. Alleen-lezen [`IGroupShapeLock`](../igroupshapelock). |
 | [Shapes](../../aspose.slides/igroupshape/shapes) { get; } | Geeft de verzameling vormen binnen de groep terug. Alleen-lezen [`IShapeCollection`](../ishapecollection). |

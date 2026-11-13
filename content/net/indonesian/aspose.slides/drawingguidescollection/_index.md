@@ -1,14 +1,14 @@
 ---
 title: DrawingGuidesCollection
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili kumpulan panduan gambar yang dapat disesuaikan.
+description: Mewakili koleksi panduan gambar yang dapat disesuaikan.
 type: docs
-weight: 2820
+weight: 2840
 url: /id/aspose.slides/drawingguidescollection/
 ---
 ## DrawingGuidesCollection kelas
 
-Mewakili kumpulan panduan gambar yang dapat disesuaikan.
+Mewakili koleksi panduan gambar yang dapat disesuaikan.
 
 ```csharp
 public sealed class DrawingGuidesCollection : IDrawingGuidesCollection

@@ -1,14 +1,14 @@
 ---
 title: CellCircularReferenceException
-second_title: Справочник API Aspose.Slides для .NET
-description: Исключение, которое выбрасывается, когда обнаружена одна или несколько циклических ссылок, при которых формула ссылается на свою собственную ячейку напрямую или косвенно.
+second_title: Aspose.Sildes для .NET справочник API
+description: Исключение, которое бросается, когда обнаружены одна или несколько круговых ссылок, при которых формула ссылается на свою собственную ячейку напрямую или косвенно.
 type: docs
-weight: 10700
+weight: 10720
 url: /ru/aspose.slides.spreadsheet/cellcircularreferenceexception/
 ---
 ## CellCircularReferenceException класс
 
-Исключение, которое выбрасывается, когда обнаружены одна или несколько циклических ссылок, при которых формула ссылается на свою собственную ячейку напрямую или косвенно.
+Исключение, которое бросается, когда обнаружены одна или несколько круговых ссылок, при которых формула ссылается на свою собственную ячейку напрямую или косвенно.
 
 ```csharp
 public class CellCircularReferenceException : PptxEditException
@@ -21,13 +21,13 @@ public class CellCircularReferenceException : PptxEditException
 | [CellCircularReferenceException](cellcircularreferenceexception#constructor)() | Инициализирует новый экземпляр класса [`CellCircularReferenceException`](../cellcircularreferenceexception). |
 | [CellCircularReferenceException](cellcircularreferenceexception#constructor_1)(string) | Инициализирует новый экземпляр класса [`CellCircularReferenceException`](../cellcircularreferenceexception) с указанным сообщением об ошибке. |
 | [CellCircularReferenceException](cellcircularreferenceexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр класса [`CellCircularReferenceException`](../cellcircularreferenceexception) с указанным сообщением об ошибке и ссылкой на внутреннее исключение, являющееся причиной данного исключения. |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor_3)(string, string) | Инициализирует новый экземпляр класса [`CellCircularReferenceException`](../cellcircularreferenceexception) с указанным сообщением об ошибке и ссылкой на циклическую ячейку. |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor_3)(string, string) | Инициализирует новый экземпляр класса [`CellCircularReferenceException`](../cellcircularreferenceexception) с указанным сообщением об ошибке и круговой ссылкой на ячейку. |
 
 ## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Reference](../../aspose.slides.spreadsheet/cellcircularreferenceexception/reference) { get; } | Возвращает ссылку на циклическую ячейку. |
+| [Reference](../../aspose.slides.spreadsheet/cellcircularreferenceexception/reference) { get; } | Возвращает круговую ссылку на ячейку. |
 
 ### См. также
 

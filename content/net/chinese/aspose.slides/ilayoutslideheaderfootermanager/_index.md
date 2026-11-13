@@ -1,14 +1,14 @@
 ---
 title: ILayoutSlideHeaderFooterManager
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示管理器，负责布局幻灯片的页脚、日期时间、页码占位符以及所有子占位符的行为。子占位符是指包含在依赖幻灯片中的占位符。依赖幻灯片使用并依赖于布局幻灯片。
+description: 表示管理器，负责布局幻灯片页脚、日期时间、页码占位符以及所有子占位符的行为。子占位符指的是包含在依赖幻灯片上的占位符。依赖幻灯片使用并依赖于布局幻灯片。
 type: docs
-weight: 6240
+weight: 6260
 url: /zh/aspose.slides/ilayoutslideheaderfootermanager/
 ---
 ## ILayoutSlideHeaderFooterManager 接口
 
-表示管理器，负责布局幻灯片页脚、日期时间、页码占位符以及所有子占位符的行为。子占位符是指包含在依赖幻灯片中的占位符。依赖幻灯片使用并依赖于布局幻灯片。
+表示管理器，负责布局幻灯片页脚、日期时间、页码占位符以及所有子占位符的行为。子占位符指的是包含在依赖幻灯片上的占位符。依赖幻灯片使用并依赖于布局幻灯片。
 
 ```csharp
 public interface ILayoutSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -24,13 +24,13 @@ public interface ILayoutSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 | 名称 | 描述 |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | 将文本设置到布局幻灯片的日期时间占位符及所有子日期时间占位符。子占位符是指包含在依赖幻灯片中的占位符。依赖幻灯片使用并依赖于布局幻灯片。 |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | 更改布局幻灯片日期时间占位符及所有子日期时间占位符的可见性。子占位符是指包含在依赖幻灯片中的占位符。依赖幻灯片使用并依赖于布局幻灯片。 |
-| [SetFooterAndChildFootersText](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | 将文本设置到布局幻灯片的页脚占位符及所有子页脚占位符。子占位符是指包含在依赖幻灯片中的占位符。依赖幻灯片使用并依赖于布局幻灯片。 |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | 更改布局幻灯片页脚占位符及所有子页脚占位符的可见性。子占位符是指包含在依赖幻灯片中的占位符。依赖幻灯片使用并依赖于母版幻灯片。 |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | 更改布局幻灯片页码占位符及所有子页码占位符的可见性。子占位符是指包含在依赖幻灯片中的占位符。依赖幻灯片使用并依赖于布局幻灯片。 |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | 设置文本到布局幻灯片日期时间占位符以及所有子占位符。子占位符指的是包含在依赖幻灯片上的占位符。依赖幻灯片使用并依赖于布局幻灯片。 |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | 更改布局幻灯片日期时间占位符及所有子日期时间占位符的可见性。子占位符指的是包含在依赖幻灯片上的占位符。依赖幻灯片使用并依赖于布局幻灯片。 |
+| [SetFooterAndChildFootersText](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | 设置文本到布局幻灯片页脚占位符以及所有子页脚占位符。子占位符指的是包含在依赖幻灯片上的占位符。依赖幻灯片使用并依赖于布局幻灯片。 |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | 更改布局幻灯片页脚占位符及所有子页脚占位符的可见性。子占位符指的是包含在依赖幻灯片上的占位符。依赖幻灯片使用并依赖于母版幻灯片。 |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | 更改布局幻灯片页码占位符及所有子页码占位符的可见性。子占位符指的是包含在依赖幻灯片上的占位符。依赖幻灯片使用并依赖于布局幻灯片。 |
 
-### 另请参见
+### 另见
 
 * 接口 [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

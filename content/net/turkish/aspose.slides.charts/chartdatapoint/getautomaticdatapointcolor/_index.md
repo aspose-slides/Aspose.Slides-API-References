@@ -1,14 +1,14 @@
 ---
 title: GetAutomaticDataPointColor
 second_title: Aspose.Sildes için .NET API Referansı
-description: Seri indeksi, veri noktası indeksi, ParentSeriesGroup.IsColorVaried özelliği ve grafik stiline göre veri noktasının otomatik rengini döndürür. FillType NotDefined ise bu renk varsayılan olarak kullanılır.
+description: Seri indeksine, veri noktası indeksine, ParentSeriesGroup.IsColorVaried özelliğine ve grafik stiline göre veri noktasının otomatik rengini döndürür. FillType NotDefined olduğunda bu renk varsayılan olarak kullanılır.
 type: docs
-weight: 220
+weight: 260
 url: /tr/aspose.slides.charts/chartdatapoint/getautomaticdatapointcolor/
 ---
 ## ChartDataPoint.GetAutomaticDataPointColor metodu
 
-Seri indeksi, veri noktası indeksi, ParentSeriesGroup.IsColorVaried özelliği ve grafik stiline göre veri noktasının otomatik rengini döndürür. FillType NotDefined ise bu renk varsayılan olarak kullanılır.
+Veri noktasının seri indeksine, veri noktası indeksine, ParentSeriesGroup.IsColorVaried özelliğine ve grafik stiline göre otomatik bir renk döndürür. Bu renk, FillType NotDefined olduğunda varsayılan olarak kullanılır.
 
 ```csharp
 public Color GetAutomaticDataPointColor()

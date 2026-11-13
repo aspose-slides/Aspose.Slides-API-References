@@ -1,14 +1,14 @@
 ---
 title: SlideShowType
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Pengaturan dasar pertunjukan slide. Nenek moyang mewakili jenis-jenis pertunjukan slide PresentedBySpeaker./presentedbyspeaker Ditampilkan oleh pembicara layar penuh BrowsedByIndividual./browsedbyindividual Dijelajahi oleh individu jendela BrowsedAtKiosk./browsedatkiosk Dijelajahi di kiosk layar penuh
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Pengaturan slide show dasar. Ancestors mewakili tipe slide show PresentedBySpeaker./presentedbyspeaker Disajikan oleh pembicara layar penuh BrowsedByIndividual./browsedbyindividual Dijelajahi oleh individu jendela BrowsedAtKiosk./browsedatkiosk Dijelajahi di kios layar penuh
 type: docs
-weight: 10490
+weight: 10510
 url: /id/aspose.slides/slideshowtype/
 ---
 ## SlideShowType kelas
 
-Pengaturan dasar pertunjukan slide. Nenek moyang mewakili jenis-jenis pertunjukan slide: [`PresentedBySpeaker`](../presentedbyspeaker) Ditampilkan oleh seorang pembicara (layar penuh) [`BrowsedByIndividual`](../browsedbyindividual) Dijelajahi oleh individu (jendela) [`BrowsedAtKiosk`](../browsedatkiosk) Dijelajahi di kiosk (layar penuh)
+Pengaturan slide show dasar. Ancestor mewakili tipe slide show: [`PresentedBySpeaker`](../presentedbyspeaker) Disajikan oleh pembicara (layar penuh) [`BrowsedByIndividual`](../browsedbyindividual) Dijelajahi oleh individu (jendela) [`BrowsedAtKiosk`](../browsedatkiosk) Dijelajahi di kios (layar penuh)
 
 ```csharp
 public abstract class SlideShowType

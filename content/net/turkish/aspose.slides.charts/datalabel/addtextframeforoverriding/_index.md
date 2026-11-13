@@ -1,14 +1,14 @@
 ---
 title: AddTextFrameForOverriding
-second_title: Aspose.Sildes .NET API Referansı
-description: TextFrameForOverriding'i parametre text içindeki metinle başlatır. TextFrameForOverriding zaten başlatılmışsa, sadece metnini değiştirir.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Parametre text içindeki metinle TextFrameForOverriding'i başlatır. TextFrameForOverriding zaten başlatılmışsa, sadece metnini değiştirir.
 type: docs
-weight: 180
+weight: 190
 url: /tr/aspose.slides.charts/datalabel/addtextframeforoverriding/
 ---
-## DataLabel.AddTextFrameForOverriding metodu
+## DataLabel.AddTextFrameForOverriding metod
 
-TextFrameForOverriding'i parametre "text" içindeki metinle başlatın. TextFrameForOverriding zaten başlatılmışsa, sadece metnini değiştirir.
+Parametre "text" içinde verilen metinle TextFrameForOverriding'i başlatır. TextFrameForOverriding zaten başlatılmışsa, sadece metnini değiştirir.
 
 ```csharp
 public ITextFrame AddTextFrameForOverriding(string text)
@@ -18,7 +18,7 @@ public ITextFrame AddTextFrameForOverriding(string text)
 | --- | --- | --- |
 | text | String | Yeni bir TextFrameForOverriding için metin. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * arayüz [ITextFrame](../../../aspose.slides/itextframe)
 * sınıf [DataLabel](../../datalabel)

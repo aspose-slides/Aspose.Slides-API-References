@@ -1,12 +1,12 @@
 ---
 title: ForEach.ForEachSlideCallback
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes .NET API 레퍼런스
 description: 각 Slide./foreach/slide에 대해 Presentation../aspose.slides/presentation에서 호출되는 콜백입니다.
 type: docs
-weight: 7960
+weight: 7980
 url: /ko/aspose.slides.lowcode/foreach.foreachslidecallback/
 ---
-## ForEach.ForEachSlideCallback delegate
+## ForEach.ForEachSlideCallback 델리게이트
 
 각 [`Slide`](../foreach/slide)에 대해 [`Presentation`](../../aspose.slides/presentation)에서 호출되는 콜백입니다.
 
@@ -14,12 +14,12 @@ url: /ko/aspose.slides.lowcode/foreach.foreachslidecallback/
 public delegate void ForEachSlideCallback(Slide slide, int index);
 ```
 
-| 매개변수 | 형식 | 설명 |
+| 매개변수 | 유형 | 설명 |
 | --- | --- | --- |
-| slide | Slide | 현재 반복되는 슬라이드 |
+| slide | Slide | 현재 반복 중인 슬라이드 |
 | index | Int32 | 현재 슬라이드의 인덱스 |
 
-### 관련 항목
+### 참조
 
 * 클래스 [Slide](../../aspose.slides/slide)
 * 클래스 [ForEach](../foreach)

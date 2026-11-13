@@ -1,9 +1,9 @@
 ---
 title: ISplitTransition
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Efecto de transición de diapositiva dividida.
 type: docs
-weight: 10200
+weight: 10220
 url: /es/aspose.slides.slideshow/isplittransition/
 ---
 ## ISplitTransition interfaz
@@ -19,8 +19,8 @@ public interface ISplitTransition : ITransitionValueBase
 | Nombre | Descripción |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/isplittransition/asitransitionvaluebase) { get; } | Permite obtener la interfaz base ITransitionValueBase. Solo lectura [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/isplittransition/direction) { get; set; } | Dirección de la división de la transición. Lectura/escritura [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Orientation](../../aspose.slides.slideshow/isplittransition/orientation) { get; set; } | Orientación de la división de la transición. Lectura/escritura [`Orientation`](../../aspose.slides/orientation). |
+| [Direction](../../aspose.slides.slideshow/isplittransition/direction) { get; set; } | Dirección de la división de transición. Lectura/escritura [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Orientation](../../aspose.slides.slideshow/isplittransition/orientation) { get; set; } | Orientación de la división de transición. Lectura/escritura [`Orientation`](../../aspose.slides/orientation). |
 
 ### Ver también
 

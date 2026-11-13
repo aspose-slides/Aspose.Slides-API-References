@@ -3,7 +3,7 @@ title: IConnector
 second_title: Aspose.Sildes .NET API 参考
 description: 表示一个连接器。
 type: docs
-weight: 5610
+weight: 5630
 url: /zh/aspose.slides/iconnector/
 ---
 ## IConnector 接口
@@ -16,23 +16,23 @@ public interface IConnector : IGeometryShape
 
 ## 属性
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides/iconnector/asigeometryshape) { get; } | 允许获取基本 IGeometryShape 接口。只读 [`IGeometryShape`](../igeometryshape)。 |
+| [AsIGeometryShape](../../aspose.slides/iconnector/asigeometryshape) { get; } | 允许获取基础 IGeometryShape 接口。只读 [`IGeometryShape`](../igeometryshape)。 |
 | [ConnectorLock](../../aspose.slides/iconnector/connectorlock) { get; } | 返回 Connector 的锁定。只读 [`IConnectorLock`](../iconnectorlock)。 |
-| [EndShapeConnectedTo](../../aspose.slides/iconnector/endshapeconnectedto) { get; set; } | 返回或设置用于连接器末端的形状。读/写 [`IShape`](../ishape)。 |
-| [EndShapeConnectionSiteIndex](../../aspose.slides/iconnector/endshapeconnectionsiteindex) { get; set; } | 返回或设置末端形状的连接点索引。读/写 UInt32。 |
+| [EndShapeConnectedTo](../../aspose.slides/iconnector/endshapeconnectedto) { get; set; } | 返回或设置要将连接器的端部附加到的形状。读写 [`IShape`](../ishape)。 |
+| [EndShapeConnectionSiteIndex](../../aspose.slides/iconnector/endshapeconnectionsiteindex) { get; set; } | 返回或设置终点形状的连接点索引。读写 UInt32。 |
 | [ShapeLock](../../aspose.slides/iconnector/shapelock) { get; } | 返回形状的锁定。只读 [`IConnectorLock`](../iconnectorlock)。 |
-| [StartShapeConnectedTo](../../aspose.slides/iconnector/startshapeconnectedto) { get; set; } | 返回或设置用于连接器起始端的形状。读/写 [`IShape`](../ishape)。 |
-| [StartShapeConnectionSiteIndex](../../aspose.slides/iconnector/startshapeconnectionsiteindex) { get; set; } | 返回或设置起始形状的连接点索引。读/写 UInt32。 |
+| [StartShapeConnectedTo](../../aspose.slides/iconnector/startshapeconnectedto) { get; set; } | 返回或设置要将连接器的起点附加到的形状。读写 [`IShape`](../ishape)。 |
+| [StartShapeConnectionSiteIndex](../../aspose.slides/iconnector/startshapeconnectionsiteindex) { get; set; } | 返回或设置起点形状的连接点索引。读写 UInt32。 |
 
 ## 方法
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [Reroute](../../aspose.slides/iconnector/reroute)() | 重新路由连接器，使其在所连接的形状之间采取最短路径。 |
+| [Reroute](../../aspose.slides/iconnector/reroute)() | 重新路由连接器，使其在所连接的形状之间采用最短路径。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IGeometryShape](../igeometryshape)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

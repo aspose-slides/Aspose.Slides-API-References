@@ -3,7 +3,7 @@ title: PresetColor
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示预定义的颜色预设。
 type: docs
-weight: 9660
+weight: 9680
 url: /zh/aspose.slides/presetcolor/
 ---
 ## PresetColor 枚举
@@ -18,7 +18,7 @@ public enum PresetColor
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| NotDefined | `-1` | 颜色预设未定义。 |
+| NotDefined | `-1` | Color preset is not defined. |
 | AliceBlue | `0` |  |
 | AntiqueWhite | `1` |  |
 | Aqua | `2` |  |

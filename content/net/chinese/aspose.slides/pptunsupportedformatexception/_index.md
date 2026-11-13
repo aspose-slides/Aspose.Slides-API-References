@@ -3,7 +3,7 @@ title: PptUnsupportedFormatException
 second_title: Aspose.Sildes for .NET API 参考
 description: 当演示文稿文件格式不受支持时抛出的异常。
 type: docs
-weight: 9540
+weight: 9560
 url: /zh/aspose.slides/pptunsupportedformatexception/
 ---
 ## PptUnsupportedFormatException 类
@@ -19,10 +19,10 @@ public class PptUnsupportedFormatException : PptReadException
 | 名称 | 描述 |
 | --- | --- |
 | [PptUnsupportedFormatException](pptunsupportedformatexception#constructor)() | 默认构造函数。 |
-| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_1)(string) | 允许向此异常添加消息的构造函数。 |
-| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_2)(string, Exception) | 包含消息和嵌入异常的构造函数。 |
+| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_1)(string) | 构造函数，允许向此异常添加消息。 |
+| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_2)(string, Exception) | 构造函数，用于包含消息和嵌入异常的异常。 |
 
-### 另见
+### 另请参阅
 
 * 类 [PptReadException](../pptreadexception)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

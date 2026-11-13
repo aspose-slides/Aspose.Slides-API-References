@@ -1,14 +1,14 @@
 ---
 title: GradientStopCollection
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αναπαριστά μια συλλογή από διαβαθμίσεις χρώματος.
+second_title: Aspose.Sildes για .NET Αναφορά API
+description: Αναπαριστά μια συλλογή από σημεία διαβάθμισης.
 type: docs
-weight: 5030
+weight: 5050
 url: /el/aspose.slides/gradientstopcollection/
 ---
 ## GradientStopCollection κλάση
 
-Αναπαριστά μια συλλογή από διαβαθμίσεις χρωμάτων.
+Αναπαριστά μια συλλογή από σημεία διαβάθμισης.
 
 ```csharp
 public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
@@ -16,36 +16,36 @@ public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
 
 ## Ιδιότητες
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Επιτρέπει την λήψη της βασικής διεπαφής IPresentationComponent. Μόνο για ανάγνωση [`IPresentationComponent`](../ipresentationcomponent). |
-| [Count](../../aspose.slides/gradientstopcollection/count) { get; } | Επιστρέφει τον αριθμό των διαβαθμίσεων χρωμάτων σε μια συλλογή. Μόνο για ανάγνωση Int32. |
-| [IsSynchronized](../../aspose.slides/gradientstopcollection/issynchronized) { get; } | Επιστρέφει μια τιμή που δείχνει εάν η πρόσβαση στη συλλογή είναι συγχρονισμένη (thread-safe). Μόνο για ανάγνωση Boolean. |
-| [Item](../../aspose.slides/gradientstopcollection/item) { get; } | Επιστρέφει τη διαβαθμίση χρώματος με βάση το δείκτη. |
-| [SyncRoot](../../aspose.slides/gradientstopcollection/syncroot) { get; } | Επιστρέφει τη ρίζα συγχρονισμού. Μόνο για ανάγνωση Object. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής IPresentationComponent. Μόνο ανάγνωση [`IPresentationComponent`](../ipresentationcomponent). |
+| [Count](../../aspose.slides/gradientstopcollection/count) { get; } | Επιστρέφει τον αριθμό των σημείων διαβάθμισης σε μια συλλογή. Μόνο ανάγνωση Int32. |
+| [IsSynchronized](../../aspose.slides/gradientstopcollection/issynchronized) { get; } | Επιστρέφει τιμή που υπο δηλώνει αν η πρόσβαση στη συλλογή είναι συγχρονισμένη (thread-safe). Μόνο ανάγνωση Boolean. |
+| [Item](../../aspose.slides/gradientstopcollection/item) { get; } | Επιστρέφει το σημείο διαβάθμισης με βάση τον δείκτη. |
+| [SyncRoot](../../aspose.slides/gradientstopcollection/syncroot) { get; } | Επιστρέφει τη ρίζα συγχρονισμού. Μόνο ανάγνωση Object. |
 
 ## Μέθοδοι
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Add](../../aspose.slides/gradientstopcollection/add#add_2)(float, Color) | Δημιουργεί τη νέα διαβαθμίση χρώματος και την προσθέτει στο τέλος της συλλογής. |
-| [Add](../../aspose.slides/gradientstopcollection/add#add)(float, PresetColor) | Δημιουργεί τη νέα διαβαθμίση χρώματος και την προσθέτει στο τέλος της συλλογής. |
-| [Add](../../aspose.slides/gradientstopcollection/add#add_1)(float, SchemeColor) | Δημιουργεί τη νέα διαβαθμίση χρώματος και την προσθέτει στο τέλος της συλλογής. |
-| [Clear](../../aspose.slides/gradientstopcollection/clear)() | Αφαιρεί όλες τις διαβαθμίσεις χρώματος από τη συλλογή. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add_2)(float, Color) | Δημιουργεί το νέο σημείο διαβάθμισης και το προσθέτει στο τέλος της συλλογής. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add)(float, PresetColor) | Δημιουργεί το νέο σημείο διαβάθμισης και το προσθέτει στο τέλος της συλλογής. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add_1)(float, SchemeColor) | Δημιουργεί το νέο σημείο διαβάθμισης και το προσθέτει στο τέλος της συλλογής. |
+| [Clear](../../aspose.slides/gradientstopcollection/clear)() | Αφαιρεί όλα τα σημεία διαβάθμισης από μια συλλογή. |
 | [CopyTo](../../aspose.slides/gradientstopcollection/copyto)(Array, int) | Αντιγράφει όλα τα στοιχεία από τη συλλογή στον καθορισμένο πίνακα. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Συγκρίνει με το καθορισμένο αντικείμενο. |
-| [GetEnumerator](../../aspose.slides/gradientstopcollection/getenumerator)() | Επιστρέφει έναν εκτελεστή που διασχίζει τη συλλογή. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Επιστρέφει τον κωδικό κατακερματισμού. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | Δημιουργεί τη νέα διαβαθμίση χρώματος και την εισάγει στο καθορισμένο δείκτη στη συλλογή. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | Δημιουργεί τη νέα διαβαθμίση χρώματος και την εισάγει στο καθορισμένο δείκτη στη συλλογή. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Δημιουργεί τη νέα διαβαθμίση χρώματος και την εισάγει στο καθορισμένο δείκτη στη συλλογή. |
-| [RemoveAt](../../aspose.slides/gradientstopcollection/removeat)(int) | Αφαιρεί μια διαβαθμίση χρώματος στο καθορισμένο δείκτη. |
+| [GetEnumerator](../../aspose.slides/gradientstopcollection/getenumerator)() | Επιστρέφει έναν απαριθμητή που διατρέχει τη συλλογή. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Επιστρέφει κωδικό hash. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | Δημιουργεί το νέο σημείο διαβάθμισης και το εισάγει στην καθορισμένη θέση στη συλλογή. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | Δημιουργεί το νέο σημείο διαβάθμισης και το εισάγει στην καθορισμένη θέση στη συλλογή. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Δημιουργεί το νέο σημείο διαβάθμισης και το εισάγει στην καθορισμένη θέση στη συλλογή. |
+| [RemoveAt](../../aspose.slides/gradientstopcollection/removeat)(int) | Αφαιρεί ένα σημείο διαβάθμισης στην καθορισμένη θέση. |
 
 ### Δείτε επίσης
 
 * κλάση [PVIObject](../pviobject)
-* διασύνδεση [IGradientStopCollection](../igradientstopcollection)
-* χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
-* συγκρότηση [Aspose.Slides](../../)
+* διεπαφή [IGradientStopCollection](../igradientstopcollection)
+* χώρος ονομάτων [Aspose.Slides](../../aspose.slides)
+* σύγκροτηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

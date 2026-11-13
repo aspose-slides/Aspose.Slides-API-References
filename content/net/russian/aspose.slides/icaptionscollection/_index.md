@@ -1,9 +1,9 @@
 ---
 title: ICaptionsCollection
-second_title: "Aspose.Sildes для .NET: справочник API"
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет коллекцию закрытых субтитров.
 type: docs
-weight: 5440
+weight: 5460
 url: /ru/aspose.slides/icaptionscollection/
 ---
 ## ICaptionsCollection интерфейс

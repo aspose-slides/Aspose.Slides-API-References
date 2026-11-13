@@ -1,14 +1,14 @@
 ---
 title: IMathAccent
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Specifica la funzione di accento composta da una base e da un segno diacritico combinante Esempio ́
+description: Specifica la funzione di accento composta da una base e da un segno diacritico combinante. Esempio ́
 type: docs
-weight: 8080
+weight: 8100
 url: /it/aspose.slides.mathtext/imathaccent/
 ---
 ## IMathAccent interfaccia
 
-Specifica la funzione di accento, composta da una base e un segno diacritico combinante Esempio: 𝑎́
+Specifica la funzione di accento, costituita da una base e da un segno diacritico combinante. Esempio: 𝑎́
 
 ```csharp
 public interface IMathAccent : IMathElement
@@ -18,9 +18,9 @@ public interface IMathAccent : IMathElement
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathaccent/asimathelement) { get; } | Consente di ottenere l'interfaccia base IMathElement [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathaccent/base) { get; } | L'argomento a cui è stato applicato l'accento |
-| [Character](../../aspose.slides.mathtext/imathaccent/character) { get; set; } | Carattere di accento Il valore deve essere compreso nell'intervallo (U+0300–U+036F) o (U+20D0–U+20EF) Valore predefinito: Accento circonflesso combinato (U+0302) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathaccent/asimathelement) { get; } | Consente di ottenere la base dell'interfaccia IMathElement [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathaccent/base) { get; } | L'argomento al quale è stato applicato l'accento |
+| [Character](../../aspose.slides.mathtext/imathaccent/character) { get; set; } | Carattere di accento. Il valore deve trovarsi nell'intervallo (U+0300–U+036F) o (U+20D0–U+20EF). Valore predefinito: Accento circonflesso combinante (U+0302) |
 
 ### Esempi
 

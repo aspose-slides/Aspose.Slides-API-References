@@ -1,9 +1,9 @@
 ---
 title: IBaseSlide
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Справочник API Aspose.Sildes для .NET
 description: Представляет общие данные для всех типов слайдов.
 type: docs
-weight: 5340
+weight: 5360
 url: /ru/aspose.slides/ibaseslide/
 ---
 ## IBaseSlide интерфейс
@@ -23,20 +23,20 @@ public interface IBaseSlide : IThemeable
 | [Controls](../../aspose.slides/ibaseslide/controls) { get; } | Возвращает коллекцию элементов управления ActiveX на слайде. Только для чтения [`IControlCollection`](../icontrolcollection). |
 | [CustomData](../../aspose.slides/ibaseslide/customdata) { get; } | Возвращает пользовательские данные слайда. Только для чтения [`ICustomData`](../icustomdata). |
 | [HyperlinkQueries](../../aspose.slides/ibaseslide/hyperlinkqueries) { get; } | Обеспечивает простой доступ к содержащимся гиперссылкам. Только для чтения [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| [Name](../../aspose.slides/ibaseslide/name) { get; set; } | Возвращает или задаёт имя слайда. Чтение/запись String. |
+| [Name](../../aspose.slides/ibaseslide/name) { get; set; } | Возвращает или задает имя слайда. Чтение/запись String. |
 | [Shapes](../../aspose.slides/ibaseslide/shapes) { get; } | Возвращает фигуры слайда. Только для чтения [`IShapeCollection`](../ishapecollection). |
-| [ShowMasterShapes](../../aspose.slides/ibaseslide/showmastershapes) { get; set; } | Указывает, должны ли фигуры на мастер-слайде отображаться на слайдах или нет. Для самого мастер-слайда это свойство всегда возвращает `false`. Чтение/запись Boolean. |
+| [ShowMasterShapes](../../aspose.slides/ibaseslide/showmastershapes) { get; set; } | Указывает, должны ли фигуры на главном слайде отображаться на слайдах или нет. Для самого главного слайда это свойство всегда возвращает `false`. Чтение/запись Boolean. |
 | [SlideId](../../aspose.slides/ibaseslide/slideid) { get; } | Возвращает идентификатор слайда. Только для чтения UInt32. |
-| [SlideShowTransition](../../aspose.slides/ibaseslide/slideshowtransition) { get; } | Возвращает объект TransitionEx, содержащий информацию о том, как указанный слайд продвигается во время показа слайдов. Только для чтения [`ISlideShowTransition`](../islideshowtransition). |
-| [Timeline](../../aspose.slides/ibaseslide/timeline) { get; } | Возвращает объект анимационной временной шкалы. Только для чтения [`IAnimationTimeLine`](../ianimationtimeline). |
+| [SlideShowTransition](../../aspose.slides/ibaseslide/slideshowtransition) { get; } | Возвращает объект TransitionEx, содержащий информацию о том, как указанный слайд переходит в ходе показа слайдов. Только для чтения [`ISlideShowTransition`](../islideshowtransition). |
+| [Timeline](../../aspose.slides/ibaseslide/timeline) { get; } | Возвращает объект временной шкалы анимации. Только для чтения [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Equals](../../aspose.slides/ibaseslide/equals)(IBaseSlide) | Определяет, равны ли два экземпляра IBaseSlide. Возвращаемое значение вычисляется на основе структуры слайда и статического содержимого. Два слайда считаются равными, если все фигуры, стили, тексты, анимация и другие настройки и т.д. одинаковы. При сравнении не учитываются значения уникальных идентификаторов, например SlideId, и динамическое содержимое, например текущее значение даты в заполнителе даты. |
+| [Equals](../../aspose.slides/ibaseslide/equals)(IBaseSlide) | Определяет, равны ли два экземпляра IBaseSlide. Возвращаемое значение вычисляется на основе структуры слайда и статического содержимого. Два слайда считаются равными, если все фигуры, стили, тексты, анимация и прочие настройки и т.д. одинаковы. При сравнении не учитываются уникальные идентификаторы, например SlideId, и динамическое содержимое, например текущее значение даты в заполнителе даты. |
 | [FindShapeByAltText](../../aspose.slides/ibaseslide/findshapebyalttext)(string) | Находит первое вхождение фигуры с указанным альтернативным текстом. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/ibaseslide/joinportionswithsameformatting)() | Объединяет участки текста с одинаковым форматированием во всех абзацах всех подходящих фигур. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/ibaseslide/joinportionswithsameformatting)() | Объединяет последовательности с одинаковым форматированием во всех абзацах всех подходящих фигур. |
 
 ### См. также
 

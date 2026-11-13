@@ -1,14 +1,14 @@
 ---
 title: ExtraColorScheme
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示一个可分配给幻灯片的附加配色方案。
+second_title: Aspose.Sildes .NET API 参考
+description: 表示可以分配给幻灯片的附加颜色方案。
 type: docs
-weight: 11100
+weight: 11120
 url: /zh/aspose.slides.theme/extracolorscheme/
 ---
 ## ExtraColorScheme 类
 
-表示一个可分配给幻灯片的附加配色方案。
+表示可以分配给幻灯片的附加颜色方案。
 
 ```csharp
 public class ExtraColorScheme : IExtraColorScheme
@@ -21,7 +21,7 @@ public class ExtraColorScheme : IExtraColorScheme
 | [ColorScheme](../../aspose.slides.theme/extracolorscheme/colorscheme) { get; } | 返回一个颜色方案。只读 [`IColorScheme`](../icolorscheme)。 |
 | [Name](../../aspose.slides.theme/extracolorscheme/name) { get; } | 返回此方案的名称。只读 String。 |
 
-### 另请参见
+### 另见
 
 * 接口 [IExtraColorScheme](../iextracolorscheme)
 * 命名空间 [Aspose.Slides.Theme](../../aspose.slides.theme)

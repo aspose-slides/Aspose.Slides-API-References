@@ -1,14 +1,14 @@
 ---
 title: IVbaModuleCollection
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: VBA Project 모듈 컬렉션을 나타냅니다.
+description: VBA 프로젝트 모듈의 컬렉션을 나타냅니다.
 type: docs
-weight: 11540
+weight: 11560
 url: /ko/aspose.slides.vba/ivbamodulecollection/
 ---
 ## IVbaModuleCollection 인터페이스
 
-VBA Project 모듈의 컬렉션을 나타냅니다.
+VBA 프로젝트 모듈의 컬렉션을 나타냅니다.
 
 ```csharp
 public interface IVbaModuleCollection : IGenericCollection<IVbaModule>
@@ -16,15 +16,15 @@ public interface IVbaModuleCollection : IGenericCollection<IVbaModule>
 
 ## 속성
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [Item](../../aspose.slides.vba/ivbamodulecollection/item) { get; } | 지정된 인덱스에 있는 요소를 가져옵니다. |
 
 ## 메서드
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
-| [AddEmptyModule](../../aspose.slides.vba/ivbamodulecollection/addemptymodule)(string) | VBA Project에 새 빈 모듈을 추가합니다. |
+| [AddEmptyModule](../../aspose.slides.vba/ivbamodulecollection/addemptymodule)(string) | VBA 프로젝트에 새 빈 모듈을 추가합니다. |
 | [Remove](../../aspose.slides.vba/ivbamodulecollection/remove)(IVbaModule) | 컬렉션에서 특정 객체의 첫 번째 항목을 제거합니다. |
 
 ### 참고

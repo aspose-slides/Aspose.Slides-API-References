@@ -1,14 +1,14 @@
 ---
 title: ISingleCellChartValue
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक चार्ट डेटा सेल का प्रतिनिधित्व करता है।
+description: चार्ट डेटा सेल का प्रतिनिधित्व करता है।
 type: docs
-weight: 2210
+weight: 2230
 url: /hi/aspose.slides.charts/isinglecellchartvalue/
 ---
 ## ISingleCellChartValue इंटरफ़ेस
 
-एक चार्ट डेटा सेल को दर्शाता है।
+चार्ट डेटा सेल का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface ISingleCellChartValue : IBaseChartValue

@@ -1,14 +1,14 @@
 ---
 title: IPatternFormat
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Bir şekli doldurmak için bir deseni temsil eder.
 type: docs
-weight: 6620
+weight: 6640
 url: /tr/aspose.slides/ipatternformat/
 ---
-## IPatternFormat arayüzü
+## IPatternFormat arayüz
 
-Bir şekli doldurmak için kullanılan deseni temsil eder.
+Bir şekli doldurmak için bir deseni temsil eder.
 
 ```csharp
 public interface IPatternFormat
@@ -18,18 +18,18 @@ public interface IPatternFormat
 
 | Ad | Açıklama |
 | --- | --- |
-| [BackColor](../../aspose.slides/ipatternformat/backcolor) { get; } | Arka plan desen rengini döndürür. Salt okunur [`IColorFormat`](../icolorformat). |
-| [ForeColor](../../aspose.slides/ipatternformat/forecolor) { get; } | Ön plan desen rengini döndürür. Salt okunur [`IColorFormat`](../icolorformat). |
-| [PatternStyle](../../aspose.slides/ipatternformat/patternstyle) { get; set; } | Desen stilini döndürür veya ayarlar. Okunur/yazılabilir [`PatternStyle`](../patternstyle). |
+| [BackColor](../../aspose.slides/ipatternformat/backcolor) { get; } | Arka plan desen rengini döndürür. Yalnızca okuma [`IColorFormat`](../icolorformat). |
+| [ForeColor](../../aspose.slides/ipatternformat/forecolor) { get; } | Ön plan desen rengini döndürür. Yalnızca okuma [`IColorFormat`](../icolorformat). |
+| [PatternStyle](../../aspose.slides/ipatternformat/patternstyle) { get; set; } | Desen stilini döndürür veya ayarlar. Okunur/yazılır [`PatternStyle`](../patternstyle). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile)(Color) | Desen doldurması için bir döşeme resmi oluşturur. |
-| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile_1)(Color, Color) | Belirli renklerle desen doldurması için bir döşeme resmi oluşturur. |
+| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile)(Color) | Desen doldurması için bir döşeme görüntüsü oluşturur. |
+| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile_1)(Color, Color) | Belirtilen renklerle desen doldurması için bir döşeme görüntüsü oluşturur. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

@@ -3,7 +3,7 @@ title: IMathBorderBoxFactory
 second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
 description: อนุญาตให้สร้างกล่องขอบคณิตศาสตร์
 type: docs
-weight: 8180
+weight: 8200
 url: /th/aspose.slides.mathtext/imathborderboxfactory/
 ---
 ## IMathBorderBoxFactory อินเทอร์เฟซ
@@ -18,12 +18,12 @@ public interface IMathBorderBoxFactory
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | สร้างกล่องขอบคณิตศาสตร์โดยนำไปใช้กับองค์ประกอบ |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | สร้างกล่องขอบคณิตศาสตร์โดยนำไปใช้กับองค์ประกอบ |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | สร้างกล่องขอบคณิตศาสตร์โดยประยุกต์ใช้กับองค์ประกอบ |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | สร้างกล่องขอบคณิตศาสตร์โดยประยุกต์ใช้กับองค์ประกอบ |
 
 ### หมายเหตุ
 
-สำหรับความเข้ากันได้กับ COM
+สำหรับความเข้ากันได้ของ COM
 
 ### ดูเพิ่มเติม
 

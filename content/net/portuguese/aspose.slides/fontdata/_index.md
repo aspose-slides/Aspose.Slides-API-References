@@ -1,9 +1,9 @@
 ---
 title: FontData
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa uma definição de fonte. Imutável.
 type: docs
-weight: 4820
+weight: 4840
 url: /pt/aspose.slides/fontdata/
 ---
 ## FontData classe
@@ -31,9 +31,9 @@ public sealed class FontData : IFontData
 | Nome | Descrição |
 | --- | --- |
 | override [Equals](../../aspose.slides/fontdata/equals)(object) | Determina se duas instâncias de FontData são iguais. |
-| [GetFontName](../../aspose.slides/fontdata/getfontname)(IThemeEffectiveData) | Retorna o nome da fonte, substituindo a referência ao tema por uma fonte real utilizada. |
-| override [GetHashCode](../../aspose.slides/fontdata/gethashcode)() | Serve como função hash para um tipo específico, adequada para uso em algoritmos de hash e estruturas de dados como uma tabela de hash. |
-| override [ToString](../../aspose.slides/fontdata/tostring)() | Retorna a representação em forma de string. |
+| [GetFontName](../../aspose.slides/fontdata/getfontname)(IThemeEffectiveData) | Retorna o nome da fonte, substituindo a referência de tema por uma fonte real usada. |
+| override [GetHashCode](../../aspose.slides/fontdata/gethashcode)() | Serve como uma função hash para um tipo específico, adequada para uso em algoritmos de hash e estruturas de dados como uma tabela hash. |
+| override [ToString](../../aspose.slides/fontdata/tostring)() | Retorna a representação em string. |
 
 ### Veja Também
 

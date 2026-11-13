@@ -1,14 +1,14 @@
 ---
 title: LayoutSlideHeaderFooterManager
-second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt een manager die het gedrag regelt van de indelingsdia-voettekst-datum-tijd-paginanummer-plaatshouders en alle onderliggende plaatshouders. Onderliggende plaatshouders betekenen dat de plaatshouders zich bevinden op afhankelijke dia's. Afhankelijke dia's gebruiken en zijn afhankelijk van de indelingsdia.
+second_title: Aspose.Slides voor .NET API-referentie
+description: Stelt de manager voor die het gedrag van de voettekst-, datum-tijd- en paginanummer-plaatsaanduiders van de lay-outdia en alle onderliggende plaatsaanduiders bevat. Onderliggende plaatsaanduiders betekenen dat plaatsaanduiders zich bevinden op afhankelijke dia's. Afhankelijke dia's gebruiken en zijn afhankelijk van de lay-outdia.
 type: docs
-weight: 7660
+weight: 7680
 url: /nl/aspose.slides/layoutslideheaderfootermanager/
 ---
 ## LayoutSlideHeaderFooterManager klasse
 
-Vertegenwoordigt een manager die het gedrag van de indelingsdia voettekst-, datum-tijd-, paginanummer-plaatshouders en alle onderliggende plaatshouders regelt. Onderliggende plaatshouders betekenen dat de plaatshouders zich bevinden op afhankelijke dia's. Afhankelijke dia's gebruiken en zijn afhankelijk van de indelingsdia.
+Stelt de manager voor die het gedrag van de voettekst van de lay-outdia, datum-tijd-plaatsaanduiders, paginanummer-plaatsaanduiders en alle onderliggende plaatsaanduiders bevat. Onderliggende plaatsaanduiders betekenen dat plaatsaanduiders zich bevinden op afhankelijke dia's. Afhankelijke dia's gebruiken en zijn afhankelijk van de lay-outdia.
 
 ```csharp
 public sealed class LayoutSlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
@@ -19,24 +19,24 @@ public sealed class LayoutSlideHeaderFooterManager : BaseSlideHeaderFooterManage
 
 | Naam | Beschrijving |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Haalt de waarde op die aangeeft dat een datum-tijd plaatshouder aanwezig is. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Haalt de waarde op die aangeeft dat een voettekst plaatshouder aanwezig is. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Haalt de waarde op die aangeeft dat een paginanummer plaatshouder aanwezig is. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Haalt de waarde op die aangeeft dat er een datum-tijd-plaatsaanduider aanwezig is. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Haalt de waarde op die aangeeft dat er een voettekst-plaatsaanduider aanwezig is. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Haalt de waarde op die aangeeft dat er een paginanummer-plaatsaanduider aanwezig is. ReadBoolean. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Stelt de tekst in voor de indelingsdia datum-tijd plaatshouder en alle onderliggende datum-tijd plaatshouders. Onderliggende plaatshouders betekenen dat de plaatshouders zich bevinden op afhankelijke dia's. Afhankelijke dia's gebruiken en zijn afhankelijk van de indelingsdia. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Wijzigt de zichtbaarheid van de indelingsdia datum-tijd plaatshouder en alle onderliggende datum-tijd plaatshouders. Onderliggende plaatshouders betekenen dat de plaatshouders zich bevinden op afhankelijke dia's. Afhankelijke dia's gebruiken en zijn afhankelijk van de indelingsdia. |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Stelt de tekst in voor de dia datum-tijd plaatshouder. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Wijzigt de zichtbaarheid van de dia datum-tijd plaatshouder. |
-| [SetFooterAndChildFootersText](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | Stelt de tekst in voor de indelingsdia voettekst plaatshouder en alle onderliggende voettekst plaatshouders. Onderliggende plaatshouders betekenen dat de plaatshouders zich bevinden op afhankelijke dia's. Afhankelijke dia's gebruiken en zijn afhankelijk van de indelingsdia. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Wijzigt de zichtbaarheid van de indelingsdia voettekst plaatshouder en alle onderliggende voettekst plaatshouders. Onderliggende plaatshouders betekenen dat de plaatshouders zich bevinden op afhankelijke dia's. Afhankelijke dia's gebruiken en zijn afhankelijk van de masterdia. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Stelt de tekst in voor de dia voettekst plaatshouder. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Wijzigt de zichtbaarheid van de dia voettekst plaatshouder. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Wijzigt de zichtbaarheid van de indelingsdia paginanummer plaatshouder en alle onderliggende paginanummer plaatshouders. Onderliggende plaatshouders betekenen dat de plaatshouders zich bevinden op afhankelijke dia's. Afhankelijke dia's gebruiken en zijn afhankelijk van de indelingsdia. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Wijzigt de zichtbaarheid van de dia paginanummer plaatshouder. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Stelt de tekst in voor de datum-tijd-plaatsaanduider van de lay-outdia en alle onderliggende datum-tijd-plaatsaanduiders. Onderliggende plaatsaanduiders betekenen dat plaatsaanduiders zich bevinden op afhankelijke dia's. Afhankelijke dia's gebruiken en zijn afhankelijk van de lay-outdia. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Wijzigt de zichtbaarheid van de datum-tijd-plaatsaanduider van de lay-outdia en alle onderliggende datum-tijd-plaatsaanduiders. Onderliggende plaatsaanduiders betekenen dat plaatsaanduiders zich bevinden op afhankelijke dia's. Afhankelijke dia's gebruiken en zijn afhankelijk van de lay-outdia. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Stelt de tekst in voor de datum-tijd-plaatsaanduider van de dia. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Wijzigt de zichtbaarheid van de datum-tijd-plaatsaanduider van de dia. |
+| [SetFooterAndChildFootersText](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | Stelt de tekst in voor de voettekst-plaatsaanduider van de lay-outdia en alle onderliggende voettekst-plaatsaanduiders. Onderliggende plaatsaanduiders betekenen dat plaatsaanduiders zich bevinden op afhankelijke dia's. Afhankelijke dia's gebruiken en zijn afhankelijk van de lay-outdia. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Wijzigt de zichtbaarheid van de voettekst-plaatsaanduider van de lay-outdia en alle onderliggende voettekst-plaatsaanduiders. Onderliggende plaatsaanduiders betekenen dat plaatsaanduiders zich bevinden op afhankelijke dia's. Afhankelijke dia's gebruiken en zijn afhankelijk van de masterdia. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Stelt de tekst in voor de voettekst-plaatsaanduider van de dia. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Wijzigt de zichtbaarheid van de voettekst-plaatsaanduider van de dia. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Wijzigt de zichtbaarheid van de paginanummer-plaatsaanduider van de lay-outdia en alle onderliggende paginanummer-plaatsaanduiders. Onderliggende plaatsaanduiders betekenen dat plaatsaanduiders zich bevinden op afhankelijke dia's. Afhankelijke dia's gebruiken en zijn afhankelijk van de lay-outdia. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Wijzigt de zichtbaarheid van de paginanummer-plaatsaanduider van de dia. |
 
 ### Zie ook
 

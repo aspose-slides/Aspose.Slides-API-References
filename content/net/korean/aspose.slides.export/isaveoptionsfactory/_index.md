@@ -3,12 +3,12 @@ title: ISaveOptionsFactory
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 저장 옵션 인스턴스를 생성할 수 있습니다
 type: docs
-weight: 4080
+weight: 4100
 url: /ko/aspose.slides.export/isaveoptionsfactory/
 ---
 ## ISaveOptionsFactory 인터페이스
 
-저장 옵션 인스턴스를 생성할 수 있습니다
+save options 인스턴스를 생성할 수 있습니다.
 
 ```csharp
 public interface ISaveOptionsFactory
@@ -18,7 +18,7 @@ public interface ISaveOptionsFactory
 
 | 이름 | 설명 |
 | --- | --- |
-| [CreatePptxOptions](../../aspose.slides.export/isaveoptionsfactory/createpptxoptions)() | PPTX 저장 옵션을 생성합니다. |
+| [CreatePptxOptions](../../aspose.slides.export/isaveoptionsfactory/createpptxoptions)() | PPTX save options를 생성합니다. |
 
 ### 비고
 

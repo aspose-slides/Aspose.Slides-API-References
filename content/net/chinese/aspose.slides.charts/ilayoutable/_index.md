@@ -1,9 +1,9 @@
 ---
 title: ILayoutable
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 指定图表元素的精确位置。
 type: docs
-weight: 2120
+weight: 2140
 url: /zh/aspose.slides.charts/ilayoutable/
 ---
 ## ILayoutable 接口
@@ -19,14 +19,14 @@ public interface ILayoutable : IChartComponent
 | 名称 | 描述 |
 | --- | --- |
 | [AsIChartComponent](../../aspose.slides.charts/ilayoutable/asichartcomponent) { get; } | 允许获取基础 IChartComponent 接口。只读 [`IChartComponent`](../ichartcomponent)。 |
-| [Bottom](../../aspose.slides.charts/ilayoutable/bottom) { get; } | 获取图表元素的顶部，作为图表高度的比例。只读 Single。 |
-| [Height](../../aspose.slides.charts/ilayoutable/height) { get; set; } | 指定图表元素的高度，作为图表高度的比例。读/写 Single。 |
+| [Bottom](../../aspose.slides.charts/ilayoutable/bottom) { get; } | 获取图表元素顶部，作为图表高度的比例。只读 Single。 |
+| [Height](../../aspose.slides.charts/ilayoutable/height) { get; set; } | 指定图表元素的高度，作为图表高度的比例。可读写 Single。 |
 | [Right](../../aspose.slides.charts/ilayoutable/right) { get; } | 获取图表元素的右侧，作为图表宽度的比例。只读 Single。 |
-| [Width](../../aspose.slides.charts/ilayoutable/width) { get; set; } | 指定图表元素的宽度，作为图表宽度的比例。读/写 Single。 |
-| [X](../../aspose.slides.charts/ilayoutable/x) { get; set; } | 指定图表元素的 x 位置（左）为图表宽度的比例。读/写 Single。 |
-| [Y](../../aspose.slides.charts/ilayoutable/y) { get; set; } | 指定图表元素的顶部为图表高度的比例。读/写 Single。 |
+| [Width](../../aspose.slides.charts/ilayoutable/width) { get; set; } | 指定图表元素的宽度，作为图表宽度的比例。可读写 Single。 |
+| [X](../../aspose.slides.charts/ilayoutable/x) { get; set; } | 指定图表元素的 x 位置（左），作为图表宽度的比例。可读写 Single。 |
+| [Y](../../aspose.slides.charts/ilayoutable/y) { get; set; } | 指定图表元素的顶部，作为图表高度的比例。可读写 Single。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [IChartComponent](../ichartcomponent)
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)

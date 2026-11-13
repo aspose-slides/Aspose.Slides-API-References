@@ -3,7 +3,7 @@ title: GeometryPath
 second_title: Aspose.Sildes για .NET API Αναφορά
 description: Αναπαριστά το γεωμετρικό μονοπάτι του GeometryShape
 type: docs
-weight: 4960
+weight: 4980
 url: /el/aspose.slides/geometrypath/
 ---
 ## GeometryPath κλάση
@@ -18,39 +18,39 @@ public sealed class GeometryPath : IGeometryPath
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [GeometryPath](geometrypath)() | Δημιουργεί μια παρουσία του GeometryPath |
+| [GeometryPath](geometrypath)() | Creates instance of GeometryPath |
 
 ## Ιδιότητες
 
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [FillMode](../../aspose.slides/geometrypath/fillmode) { get; set; } | Ορίζει τη λειτουργία γεμίσματος |
-| [PathData](../../aspose.slides/geometrypath/pathdata) { get; } | Επιστρέφει το γεωμετρικό μονοπάτι του GeometryShape ως έναν πίνακα τμημάτων μονοπατιού. |
+| [PathData](../../aspose.slides/geometrypath/pathdata) { get; } | Επιστρέφει το γεωμετρικό μονοπάτι του GeometryShape ως έναν πίνακα τμημάτων διαδρομής. |
 | [Stroke](../../aspose.slides/geometrypath/stroke) { get; set; } | Ορίζει την εμφάνιση του περιγράμματος |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [ArcTo](../../aspose.slides/geometrypath/arcto)(float, float, float, float) | Προσθέτει το καθορισμένο τόξο στο μονοπάτι. |
-| [CloseFigure](../../aspose.slides/geometrypath/closefigure)() | Κλείνει το τρέχον σχήμα του μονοπατιού |
-| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_2)(PointF, PointF, PointF) | Προσθέτει κυβική καμπύλη Bezier στο τέλος του μονοπατιού |
-| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | Προσθέτει κυβική καμπύλη Bezier στην καθορισμένη θέση του μονοπατίου |
-| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto)(float, float, float, float, float, float) | Προσθέτει κυβική καμπύλη Bezier στο τέλος του μονοπατιού |
-| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | Προσθέτει κυβική καμπύλη Bezier στην καθορισμένη θέση του μονοπατίου |
-| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_2)(PointF) | Προσθέτει γραμμή στο τέλος του μονοπατιού |
-| [LineTo](../../aspose.slides/geometrypath/lineto#lineto)(float, float) | Προσθέτει γραμμή στο τέλος του μονοπατιού |
-| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_3)(PointF, uint) | Προσθέτει γραμμή στην καθορισμένη θέση του μονοπατίου |
-| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_1)(float, float, uint) | Προσθέτει γραμμή στην καθορισμένη θέση του μονοπατίου |
+| [ArcTo](../../aspose.slides/geometrypath/arcto)(float, float, float, float) | Προσθέτει το καθορισμένο τόξο στη διαδρομή. |
+| [CloseFigure](../../aspose.slides/geometrypath/closefigure)() | Κλείνει το τρέχον σχήμα αυτής της διαδρομής |
+| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_2)(PointF, PointF, PointF) | Προσθέτει κυρτή καμπύλη Bezier στο τέλος της διαδρομής |
+| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | Προσθέτει κυρτή καμπύλη Bezier στο καθορισμένο σημείο της διαδρομής |
+| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto)(float, float, float, float, float, float) | Προσθέτει κυρτή καμπύλη Bezier στο τέλος της διαδρομής |
+| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | Προσθέτει κυρτή καμπύλη Bezier στο καθορισμένο σημείο της διαδρομής |
+| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_2)(PointF) | Προσθέτει γραμμή στο τέλος της διαδρομής |
+| [LineTo](../../aspose.slides/geometrypath/lineto#lineto)(float, float) | Προσθέτει γραμμή στο τέλος της διαδρομής |
+| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_3)(PointF, uint) | Προσθέτει γραμμή στο καθορισμένο σημείο της διαδρομής |
+| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_1)(float, float, uint) | Προσθέτει γραμμή στο καθορισμένο σημείο της διαδρομής |
 | [MoveTo](../../aspose.slides/geometrypath/moveto#moveto_1)(PointF) | Ορίζει τη θέση του επόμενου σημείου. |
 | [MoveTo](../../aspose.slides/geometrypath/moveto#moveto)(float, float) | Ορίζει τη θέση του επόμενου σημείου. |
-| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | Προσθέτει τετραγωνική καμπύλη Bezier στο τέλος του μονοπατιού |
-| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | Προσθέτει τετραγωνική καμπύλη Bezier στην καθορισμένη θέση του μονοπατίου |
-| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | Προσθέτει τετραγωνική καμπύλη Bezier στο τέλος του μονοπατιού |
-| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | Προσθέτει τετραγωνική καμπύλη Bezier στην καθορισμένη θέση του μονοπατίου |
-| [RemoveAt](../../aspose.slides/geometrypath/removeat)(int) | Αφαιρέ το τμήμα στον καθορισμένο δείκτη του γεωμετρικού μονοπατιού. |
+| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | Προσθέτει τετραγωνική καμπύλη Bezier στο τέλος της διαδρομής |
+| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | Προσθέτει τετραγωνική καμπύλη Bezier στο καθορισμένο σημείο της διαδρομής |
+| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | Προσθέτει τετραγωνική καμπύλη Bezier στο τέλος της διαδρομής |
+| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | Προσθέτει τετραγωνική καμπύλη Bezier στο καθορισμένο σημείο της διαδρομής |
+| [RemoveAt](../../aspose.slides/geometrypath/removeat)(int) | Αφαιρεί το τμήμα στο καθορισμένο ευρετήριο του γεωμετρικού μονοπατιού. |
 
-### Δείτε Επίσης
+### Δείτε επίσης
 
 * διεπαφή [IGeometryPath](../igeometrypath)
 * χώρο ονομάτων [Aspose.Slides](../../aspose.slides)

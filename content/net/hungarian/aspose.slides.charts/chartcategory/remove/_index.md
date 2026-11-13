@@ -1,12 +1,12 @@
 ---
 title: Remove
-second_title: Aspose.Sildes a .NET API referencia
+second_title: Aspose.Sildes .NET API referencia
 description: Eltávolítja a kategóriát a diagramról.
 type: docs
-weight: 60
+weight: 70
 url: /hu/aspose.slides.charts/chartcategory/remove/
 ---
-## ChartCategory.Remove módszer
+## ChartCategory.Remove metódus
 
 Eltávolítja a kategóriát a diagramról.
 
@@ -18,7 +18,7 @@ public void Remove()
 
 | kivétel | feltétel |
 | --- | --- |
-| [PptxEditException](../../../aspose.slides/pptxeditexception) | Kivétel dobódik, ha a kategória már el lett távolítva a diagramról. |
+| [PptxEditException](../../../aspose.slides/pptxeditexception) | Kivétel, ha a kategória már el lett távolítva a diagramról. |
 
 ### Lásd még
 

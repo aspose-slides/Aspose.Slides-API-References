@@ -1,14 +1,14 @@
 ---
 title: ICommonSlideViewProperties
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Stellt gemeinsame Folienansichtseigenschaften dar.
 type: docs
-weight: 5600
+weight: 5620
 url: /de/aspose.slides/icommonslideviewproperties/
 ---
 ## ICommonSlideViewProperties Schnittstelle
 
-Stellt gemeinsame Folienansichtseigenschaften dar.
+Stellt gemeinsame Folienansichts-Eigenschaften dar.
 
 ```csharp
 public interface ICommonSlideViewProperties
@@ -18,9 +18,9 @@ public interface ICommonSlideViewProperties
 
 | Name | Beschreibung |
 | --- | --- |
-| [DrawingGuides](../../aspose.slides/icommonslideviewproperties/drawingguides) { get; } | Gibt die Sammlung der Zeichenhilfen zurück. Nur lesbar [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | Gibt das Skalierungsverhältnis der Ansicht in Prozent an. Lese/Schreib Int32. |
-| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | Gibt an, dass der Ansichtsinhalt automatisch skaliert werden soll, um optimal in die aktuelle Fenstergröße zu passen. Lese/Schreib Boolean. |
+| [DrawingGuides](../../aspose.slides/icommonslideviewproperties/drawingguides) { get; } | Gibt die Sammlung der Zeichenhilfslinien zurück. Nur-Lesen [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | Gibt das Skalierungsverhältnis der Ansicht in Prozent an. Lesen/Schreiben Int32. |
+| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | Gibt an, dass der Ansichtinhalt automatisch skaliert werden soll, um optimal in die aktuelle Fenstergröße zu passen. Lesen/Schreiben Boolean. |
 
 ### Siehe auch
 

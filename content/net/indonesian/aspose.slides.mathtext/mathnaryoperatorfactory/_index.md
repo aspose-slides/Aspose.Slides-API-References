@@ -1,14 +1,14 @@
 ---
 title: MathNaryOperatorFactory
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Memungkinkan pembuatan IMathNaryOperator
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Memungkinkan membuat IMathNaryOperator
 type: docs
-weight: 8880
+weight: 8900
 url: /id/aspose.slides.mathtext/mathnaryoperatorfactory/
 ---
-## MathNaryOperatorFactory kelas
+## MathNaryOperatorFactory class
 
-Mengizinkan pembuatan IMathNaryOperator
+Memungkinkan membuat IMathNaryOperator
 
 ```csharp
 public class MathNaryOperatorFactory : IMathNaryOperatorFactory
@@ -16,13 +16,13 @@ public class MathNaryOperatorFactory : IMathNaryOperatorFactory
 
 ## Konstruktor
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | [MathNaryOperatorFactory](mathnaryoperatorfactory)() | Konstruktor default. |
 
 ## Metode
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | [CreateMathNaryOperator](../../aspose.slides.mathtext/mathnaryoperatorfactory/createmathnaryoperator#createmathnaryoperator)(char, IMathElement) | Membuat IMathNaryOperator |
 | [CreateMathNaryOperator](../../aspose.slides.mathtext/mathnaryoperatorfactory/createmathnaryoperator#createmathnaryoperator_1)(char, IMathElement, IMathElement) | Membuat IMathNaryOperator |

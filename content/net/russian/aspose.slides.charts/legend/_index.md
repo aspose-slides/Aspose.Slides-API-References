@@ -1,12 +1,12 @@
 ---
 title: Legend
-second_title: Справка API Aspose.Sildes для .NET
+second_title: Справочник API Aspose.Sildes для .NET
 description: Представляет свойства легенды диаграмм.
 type: docs
-weight: 2280
+weight: 2300
 url: /ru/aspose.slides.charts/legend/
 ---
-## Класс Legend
+## Legend класс
 
 Представляет свойства легенды диаграммы.
 
@@ -16,26 +16,26 @@ public class Legend : DomObject<Chart>, ILegend
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/legend/actualheight) { get; } | Указывает фактическую высоту элемента диаграммы. Вызовите метод IChart.ValidateChartLayout() перед этим, чтобы получить реальные значения. Только для чтения Single. |
-| [ActualWidth](../../aspose.slides.charts/legend/actualwidth) { get; } | Указывает фактическую ширину элемента диаграммы. Вызовите метод IChart.ValidateChartLayout() перед этим, чтобы получить реальные значения. Только для чтения Single. |
-| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | Указывает фактическое положение по оси X (слева) элемента диаграммы относительно левого верхнего угла диаграммы. Вызовите метод IChart.ValidateChartLayout() перед этим, чтобы получить реальные значения. Только для чтения Single. |
-| [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | Указывает фактическую верхнюю позицию элемента диаграммы относительно левого верхнего угла диаграммы. Вызовите метод IChart.ValidateChartLayout() перед этим, чтобы получить реальные значения. Только для чтения Single. |
+| [ActualHeight](../../aspose.slides.charts/legend/actualheight) { get; } | Указывает фактическую высоту элемента диаграммы. Вызовите метод IChart.ValidateChartLayout() заранее, чтобы получить фактические значения. Только для чтения Single. |
+| [ActualWidth](../../aspose.slides.charts/legend/actualwidth) { get; } | Указывает фактическую ширину элемента диаграммы. Вызовите метод IChart.ValidateChartLayout() заранее, чтобы получить фактические значения. Только для чтения Single. |
+| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | Указывает фактическое положение по оси x (слева) элемента диаграммы относительно левого верхнего угла диаграммы. Вызовите метод IChart.ValidateChartLayout() заранее, чтобы получить фактические значения. Только для чтения Single. |
+| [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | Указывает фактическую верхнюю позицию элемента диаграммы относительно левого верхнего угла диаграммы. Вызовите метод IChart.ValidateChartLayout() заранее, чтобы получить фактические значения. Только для чтения Single. |
 | [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | Низ. Только для чтения Single. |
 | [Chart](../../aspose.slides.charts/legend/chart) { get; } | Возвращает диаграмму. Только для чтения [`IChart`](../ichart). |
 | [Entries](../../aspose.slides.charts/legend/entries) { get; } | Получает элементы легенды. Только для чтения [`ILegendEntryCollection`](../ilegendentrycollection). |
 | [Format](../../aspose.slides.charts/legend/format) { get; } | Возвращает формат легенды. Только для чтения [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/legend/height) { get; set; } | Возвращает или задает высоту легенды как долю высоты диаграммы. Чтение/запись Single. |
+| [Height](../../aspose.slides.charts/legend/height) { get; set; } | Возвращает или задает высоту легенды как долю от высоты диаграммы. Чтение/запись Single. |
 | [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | Определяет, разрешено ли другим элементам диаграммы перекрывать легенду. Чтение/запись Boolean. |
-| [Position](../../aspose.slides.charts/legend/position) { get; set; } | Указывает позицию легенды на диаграмме. Значения X, Y, Width, Heigt, не являющиеся NaN, переопределяют действие этого свойства. Чтение/запись [`LegendPositionType`](../legendpositiontype). |
-| [Right](../../aspose.slides.charts/legend/right) { get; } | Справа. Только для чтения Single. |
-| [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | Текстовый формат. Только для чтения [`IChartTextFormat`](../icharttextformat). |
-| [Width](../../aspose.slides.charts/legend/width) { get; set; } | Возвращает или задает ширину легенды как долю ширины диаграммы. Чтение/запись Single. |
-| [X](../../aspose.slides.charts/legend/x) { get; set; } | Возвращает или задает координату X легенды как долю ширины диаграммы. Чтение/запись Single. |
-| [Y](../../aspose.slides.charts/legend/y) { get; set; } | Возвращает или задает координату Y легенды как долю высоты диаграммы. Чтение/запись Single. |
+| [Position](../../aspose.slides.charts/legend/position) { get; set; } | Указывает положение легенды на диаграмме. Значения X, Y, Width, Heigt, не являющиеся NaN, переопределяют эффект этого свойства. Чтение/запись [`LegendPositionType`](../legendpositiontype). |
+| [Right](../../aspose.slides.charts/legend/right) { get; } | Право. Только для чтения Single. |
+| [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | Формат текста. Только для чтения [`IChartTextFormat`](../icharttextformat). |
+| [Width](../../aspose.slides.charts/legend/width) { get; set; } | Возвращает или задает ширину легенды как долю от ширины диаграммы. Чтение/запись Single. |
+| [X](../../aspose.slides.charts/legend/x) { get; set; } | Возвращает или задает координату x легенды как долю от ширины диаграммы. Чтение/запись Single. |
+| [Y](../../aspose.slides.charts/legend/y) { get; set; } | Возвращает или задает координату y легенды как долю от высоты диаграммы. Чтение/запись Single. |
 
-### Смотрите также
+### См. также
 
 * класс [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * класс [Chart](../chart)

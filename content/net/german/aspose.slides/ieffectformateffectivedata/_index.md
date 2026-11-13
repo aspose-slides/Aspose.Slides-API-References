@@ -1,14 +1,14 @@
 ---
 title: IEffectFormatEffectiveData
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Unveränderliches Objekt, das effektive Effektformatierungseigenschaften enthält.
+description: Unveränderliches Objekt, das effektive Formatierungseigenschaften für Effekte enthält.
 type: docs
-weight: 5750
+weight: 5770
 url: /de/aspose.slides/ieffectformateffectivedata/
 ---
 ## IEffectFormatEffectiveData Schnittstelle
 
-Unveränderliches Objekt, das effektive Effektformatierungseigenschaften enthält.
+Unveränderliches Objekt, das effektive Formatierungseigenschaften für Effekte enthält.
 
 ```csharp
 public interface IEffectFormatEffectiveData : IEffectParamSource
@@ -18,18 +18,18 @@ public interface IEffectFormatEffectiveData : IEffectParamSource
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIEffectParamSource](../../aspose.slides/ieffectformateffectivedata/asieffectparamsource) { get; } | Ermöglicht das Abrufen der Basisschnittstelle IEffectParamSource. Nur lesbar [`IEffectParamSource`](../ieffectparamsource). |
-| [BlurEffect](../../aspose.slides/ieffectformateffectivedata/blureffect) { get; } | Unschärfe-Effekt. Nur lesbar [`IBlurEffectiveData`](../../aspose.slides.effects/iblureffectivedata). |
-| [FillOverlayEffect](../../aspose.slides/ieffectformateffectivedata/filloverlayeffect) { get; } | Füllüberlagerungs-Effekt. Nur lesbar [`IFillOverlayEffectiveData`](../../aspose.slides.effects/ifilloverlayeffectivedata). |
-| [GlowEffect](../../aspose.slides/ieffectformateffectivedata/gloweffect) { get; } | Glow-Effekt. Nur lesbar [`IGlowEffectiveData`](../../aspose.slides.effects/igloweffectivedata). |
-| [InnerShadowEffect](../../aspose.slides/ieffectformateffectivedata/innershadoweffect) { get; } | Inner-Schatten. Nur lesbar [`IInnerShadowEffectiveData`](../../aspose.slides.effects/iinnershadoweffectivedata). |
-| [IsNoEffects](../../aspose.slides/ieffectformateffectivedata/isnoeffects) { get; } | Gibt true zurück, wenn alle Effekte deaktiviert sind (wie gerade erstellt, Standard-EffectFormat-Objekt). Nur lesbar Boolean. |
-| [OuterShadowEffect](../../aspose.slides/ieffectformateffectivedata/outershadoweffect) { get; } | Outer-Schatten. Nur lesbar [`IOuterShadowEffectiveData`](../../aspose.slides.effects/ioutershadoweffectivedata). |
-| [PresetShadowEffect](../../aspose.slides/ieffectformateffectivedata/presetshadoweffect) { get; } | Voreingestellter Schatten. Nur lesbar [`IPresetShadowEffectiveData`](../../aspose.slides.effects/ipresetshadoweffectivedata). |
-| [ReflectionEffect](../../aspose.slides/ieffectformateffectivedata/reflectioneffect) { get; } | Reflexion. Nur lesbar [`IReflectionEffectiveData`](../../aspose.slides.effects/ireflectioneffectivedata). |
-| [SoftEdgeEffect](../../aspose.slides/ieffectformateffectivedata/softedgeeffect) { get; } | Weiche Kante. Nur lesbar [`ISoftEdgeEffectiveData`](../../aspose.slides.effects/isoftedgeeffectivedata). |
+| [AsIEffectParamSource](../../aspose.slides/ieffectformateffectivedata/asieffectparamsource) { get; } | Ermöglicht das Abrufen der Basis-IEffectParamSource-Schnittstelle. Schreibgeschützt [`IEffectParamSource`](../ieffectparamsource). |
+| [BlurEffect](../../aspose.slides/ieffectformateffectivedata/blureffect) { get; } | Unschärfe-Effekt. Schreibgeschützt [`IBlurEffectiveData`](../../aspose.slides.effects/iblureffectivedata). |
+| [FillOverlayEffect](../../aspose.slides/ieffectformateffectivedata/filloverlayeffect) { get; } | Füll-Overlay-Effekt. Schreibgeschützt [`IFillOverlayEffectiveData`](../../aspose.slides.effects/ifilloverlayeffectivedata). |
+| [GlowEffect](../../aspose.slides/ieffectformateffectivedata/gloweffect) { get; } | Leuchte-Effekt. Schreibgeschützt [`IGlowEffectiveData`](../../aspose.slides.effects/igloweffectivedata). |
+| [InnerShadowEffect](../../aspose.slides/ieffectformateffectivedata/innershadoweffect) { get; } | Innerer Schatten. Schreibgeschützt [`IInnerShadowEffectiveData`](../../aspose.slides.effects/iinnershadoweffectivedata). |
+| [IsNoEffects](../../aspose.slides/ieffectformateffectivedata/isnoeffects) { get; } | Gibt true zurück, wenn alle Effekte deaktiviert sind (wie bei einem gerade erstellten, standardmäßigen EffectFormat-Objekt). Schreibgeschützt Boolean. |
+| [OuterShadowEffect](../../aspose.slides/ieffectformateffectivedata/outershadoweffect) { get; } | Äußerer Schatten. Schreibgeschützt [`IOuterShadowEffectiveData`](../../aspose.slides.effects/ioutershadoweffectivedata). |
+| [PresetShadowEffect](../../aspose.slides/ieffectformateffectivedata/presetshadoweffect) { get; } | Voreingestellter Schatten. Schreibgeschützt [`IPresetShadowEffectiveData`](../../aspose.slides.effects/ipresetshadoweffectivedata). |
+| [ReflectionEffect](../../aspose.slides/ieffectformateffectivedata/reflectioneffect) { get; } | Reflexion. Schreibgeschützt [`IReflectionEffectiveData`](../../aspose.slides.effects/ireflectioneffectivedata). |
+| [SoftEdgeEffect](../../aspose.slides/ieffectformateffectivedata/softedgeeffect) { get; } | Weiche Kante. Schreibgeschützt [`ISoftEdgeEffectiveData`](../../aspose.slides.effects/isoftedgeeffectivedata). |
 
-### Anmerkungen
+### Bemerkungen
 
 Diese Schnittstelle wird zusammen mit der [`IEffectFormat`](../ieffectformat) Schnittstelle verwendet, um effektive Formatierungswerte mit angewandter Vererbung zurückzugeben.
 

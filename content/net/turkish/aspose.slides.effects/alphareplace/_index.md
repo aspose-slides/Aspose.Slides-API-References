@@ -1,14 +1,14 @@
 ---
 title: AlphaReplace
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir Alpha Replace etkisini temsil eder. Etkinin alfa opaklık değerleri sabit bir alfa ile değiştirilir.
+description: Alfa Değiştirme etkisini temsil eder. Etki alfa (opaklık) değerleri sabit bir alfa ile değiştirilir.
 type: docs
-weight: 2900
+weight: 2920
 url: /tr/aspose.slides.effects/alphareplace/
 ---
 ## AlphaReplace sınıf
 
-Alpha Replace etkisini temsil eder. Etkinin alfa (opaklık) değerleri sabit bir alfa ile değiştirilir.
+Alfa Değiştirme etkisini temsil eder. Etki alfa (opaklık) değerleri sabit bir alfa ile değiştirilir.
 
 ```csharp
 public sealed class AlphaReplace : ImageTransformOperation, IAlphaReplace
@@ -18,17 +18,17 @@ public sealed class AlphaReplace : ImageTransformOperation, IAlphaReplace
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almayı sağlar. Salt okunur [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almaya izin verir. Yalnızca okuma [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphareplace/equals)(object) | Belirtilen [`AlphaReplace`](../alphareplace)'nin geçerli [`AlphaReplace`](../alphareplace) ile eşit olup olmadığını belirler. |
+| override [Equals](../../aspose.slides.effects/alphareplace/equals)(object) | Belirtilen [`AlphaReplace`](../alphareplace)'nin mevcut [`AlphaReplace`](../alphareplace) ile eşit olup olmadığını belirler. |
 | [GetEffective](../../aspose.slides.effects/alphareplace/geteffective)() | Uygulanan kalıtımla etkili Alpha Replace efekt verilerini alır. |
-| override [GetHashCode](../../aspose.slides.effects/alphareplace/gethashcode)() | Belirli bir tip için bir hash işlevi olarak hizmet verir. |
+| override [GetHashCode](../../aspose.slides.effects/alphareplace/gethashcode)() | Belirli bir tür için bir karma işlevi olarak hizmet eder. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * sınıf [ImageTransformOperation](../imagetransformoperation)
 * arayüz [IAlphaReplace](../ialphareplace)

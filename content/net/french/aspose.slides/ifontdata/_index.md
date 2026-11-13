@@ -1,9 +1,9 @@
 ---
 title: IFontData
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Aspose.Sildes pour la référence d'API .NET
 description: Représente une définition de police.
 type: docs
-weight: 5830
+weight: 5850
 url: /fr/aspose.slides/ifontdata/
 ---
 ## IFontData interface
@@ -16,13 +16,13 @@ public interface IFontData
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [FontName](../../aspose.slides/ifontdata/fontname) { get; } | Renvoie le nom de la police. Lecture seule String. |
 
 ## Méthodes
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [GetFontName](../../aspose.slides/ifontdata/getfontname)(IThemeEffectiveData) | Renvoie le nom de la police, en remplaçant la référence du thème par une police réellement utilisée. |
 

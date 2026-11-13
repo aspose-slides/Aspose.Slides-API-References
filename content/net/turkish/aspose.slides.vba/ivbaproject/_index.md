@@ -1,9 +1,9 @@
 ---
 title: IVbaProject
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Sunum makroları içeren VBA projesini temsil eder.
 type: docs
-weight: 11550
+weight: 11570
 url: /tr/aspose.slides.vba/ivbaproject/
 ---
 ## IVbaProject arayüz
@@ -27,7 +27,7 @@ public interface IVbaProject
 
 | Ad | Açıklama |
 | --- | --- |
-| [ToBinary](../../aspose.slides.vba/ivbaproject/tobinary)() | VBA projesinin ikili temsilini OLE kapsayıcısı olarak döndürür. Yalnızca okuma Byte[]. |
+| [ToBinary](../../aspose.slides.vba/ivbaproject/tobinary)() | VBA projesinin ikili gösterimini OLE kapsayıcısı olarak döndürür. Yalnızca okuma Byte[]. |
 
 ### Ayrıca Bakınız
 

@@ -1,9 +1,9 @@
 ---
 title: ISectionZoomFrame
-second_title: Aspose.Sildes для .NET Справка по API
+second_title: Справочник API Aspose.Sildes для .NET
 description: Представляет объект Section Zoom на слайде.
 type: docs
-weight: 6920
+weight: 6940
 url: /ru/aspose.slides/isectionzoomframe/
 ---
 ## ISectionZoomFrame интерфейс
@@ -19,7 +19,7 @@ public interface ISectionZoomFrame : IZoomObject
 | Имя | Описание |
 | --- | --- |
 | [AsIZoomObject](../../aspose.slides/isectionzoomframe/asizoomobject) { get; } | Возвращает интерфейс IZoomObject. |
-| [TargetSection](../../aspose.slides/isectionzoomframe/targetsection) { get; set; } | Получает или задаёт объект раздела, к которому привязан объект Section Zoom. Чтение/запись [`ISection`](../isection). |
+| [TargetSection](../../aspose.slides/isectionzoomframe/targetsection) { get; set; } | Получает или задает объект раздела, к которому привязан объект Section Zoom. Чтение/запись [`ISection`](../isection). |
 
 ### См. также
 

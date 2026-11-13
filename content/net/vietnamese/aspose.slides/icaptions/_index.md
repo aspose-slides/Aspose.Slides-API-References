@@ -1,14 +1,14 @@
 ---
 title: ICaptions
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho phụ đề đóng WebVTT.
+second_title: Aspose.Sildes cho .NET - Tham chiếu API
+description: Biểu diễn phụ đề đóng WebVTT.
 type: docs
-weight: 5430
+weight: 5450
 url: /vi/aspose.slides/icaptions/
 ---
 ## ICaptions giao diện
 
-Đại diện cho phụ đề đóng WebVTT.
+Biểu diễn phụ đề đóng WebVTT.
 
 ```csharp
 public interface ICaptions
@@ -19,8 +19,8 @@ public interface ICaptions
 | Tên | Mô tả |
 | --- | --- |
 | [BinaryData](../../aspose.slides/icaptions/binarydata) { get; } | Trả về dữ liệu nhị phân của phụ đề đóng. Chỉ đọc Byte[]. |
-| [CaptionId](../../aspose.slides/icaptions/captionid) { get; } | Trả về định danh toàn cục duy nhất (GUID) của phụ đề đóng. Chỉ đọc Guid. |
-| [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | Trả về dữ liệu phụ đề đóng dưới dạng chuỗi mã hoá UTF-8. Chỉ đọc String. |
+| [CaptionId](../../aspose.slides/icaptions/captionid) { get; } | Trả về định danh toàn cầu duy nhất (GUID) của phụ đề đóng. Chỉ đọc Guid. |
+| [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | Trả về dữ liệu phụ đề đóng dưới dạng chuỗi được mã hóa UTF-8. Chỉ đọc String. |
 | [Label](../../aspose.slides/icaptions/label) { get; set; } | Trả về hoặc đặt nhãn của phụ đề đóng. Đọc/ghi String. |
 
 ### Xem thêm

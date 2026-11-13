@@ -1,14 +1,14 @@
 ---
 title: IThemeEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติของธีมที่มีผล
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: ออบเจ็กต์ที่ไม่สามารถเปลี่ยนแปลงได้ซึ่งมีคุณสมบัติธีมที่มีผล
 type: docs
-weight: 11380
+weight: 11400
 url: /th/aspose.slides.theme/ithemeeffectivedata/
 ---
 ## IThemeEffectiveData อินเทอร์เฟซ
 
-อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติของธีมที่มีผล.
+ออบเจ็กต์ที่ไม่สามารถเปลี่ยนแปลงได้ซึ่งมีคุณสมบัติของธีมที่มีผล
 
 ```csharp
 public interface IThemeEffectiveData
@@ -16,20 +16,20 @@ public interface IThemeEffectiveData
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [FontScheme](../../aspose.slides.theme/ithemeeffectivedata/fontscheme) { get; } | ส่งคืนแบบอักษร. อ่านอย่างเดียว [`IFontSchemeEffectiveData`](../ifontschemeeffectivedata). |
-| [FormatScheme](../../aspose.slides.theme/ithemeeffectivedata/formatscheme) { get; } | ส่งคืนรูปแบบรูปร่าง. อ่านอย่างเดียว [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata). |
+| [FontScheme](../../aspose.slides.theme/ithemeeffectivedata/fontscheme) { get; } | คืนค่าแบบแผนฟอนต์. อ่านอย่างเดียว [`IFontSchemeEffectiveData`](../ifontschemeeffectivedata). |
+| [FormatScheme](../../aspose.slides.theme/ithemeeffectivedata/formatscheme) { get; } | คืนค่าแบบแผนรูปแบบรูปร่าง. อ่านอย่างเดียว [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata). |
 
 ## เมธอด
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GetColorScheme](../../aspose.slides.theme/ithemeeffectivedata/getcolorscheme)(Color) | ส่งคืนแบบสี. |
+| [GetColorScheme](../../aspose.slides.theme/ithemeeffectivedata/getcolorscheme)(Color) | คืนค่าแบบแผนสี. |
 
 ### หมายเหตุ
 
-อินเทอร์เฟซนี้ใช้ร่วมกับอินเทอร์เฟซ [`ITheme`](../itheme) เพื่อส่งคืนค่าการจัดรูปแบบที่มีผลพร้อมการสืบทอด.
+อินเทอร์เฟซนี้ใช้ร่วมกับอินเทอร์เฟซ [`ITheme`](../itheme) เพื่อคืนค่าการจัดรูปแบบที่มีผลโดยมีการสืบทอดที่นำไปใช้
 
 ### ดูเพิ่มเติม
 

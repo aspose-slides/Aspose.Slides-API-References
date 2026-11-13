@@ -3,7 +3,7 @@ title: IChartCategory
 second_title: Aspose.Sildes для .NET Справочник API
 description: Представляет категории диаграммы.
 type: docs
-weight: 1750
+weight: 1770
 url: /ru/aspose.slides.charts/ichartcategory/
 ---
 ## IChartCategory интерфейс
@@ -16,21 +16,22 @@ public interface IChartCategory
 
 ## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/ichartcategory/ascell) { get; set; } | Возвращает или задает объект IChartDataCell. Если категория многоуровневая, то используется объект IChartDataCell для уровня "0". Чтение/запись [`IChartDataCell`](../ichartdatacell). |
-| [AsLiteral](../../aspose.slides.charts/ichartcategory/asliteral) { get; set; } | Возвращает или задает AsLiteral, если UseCell равно false. Чтение/запись Object. |
-| [GroupingLevels](../../aspose.slides.charts/ichartcategory/groupinglevels) { get; } | Управляемый контейнер значений уровней группировки категорий диаграммы. Многоуровневая категория содержит более одного уровня группировки. Индексация уровней группировки начинается с нуля. Только чтение [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
-| [UseCell](../../aspose.slides.charts/ichartcategory/usecell) { get; } | Если true, то свойство AsCell актуально. Другими словами, лист используется для хранения категории (в этом случае поддерживается многоуровневая категория). Если false, то свойство AsLiteral актуально. Другими словами, лист НЕ используется для хранения категории (и в этом случае не поддерживаются многоуровневые категории). Только чтение Boolean. |
+| [AsCell](../../aspose.slides.charts/ichartcategory/ascell) { get; set; } | Возвращает или устанавливает объект IChartDataCell. Если категория многоуровневая, то используется объект IChartDataCell для уровня "0". Чтение/запись [`IChartDataCell`](../ichartdatacell). |
+| [AsLiteral](../../aspose.slides.charts/ichartcategory/asliteral) { get; set; } | Возвращает или устанавливает AsLiteral, если UseCell равно false. Чтение/запись Object. |
+| [CachedValue](../../aspose.slides.charts/ichartcategory/cachedvalue) { get; } | Получает кешированное значение категории диаграммы. Только для чтения [`ICachedChartValue`](../icachedchartvalue). |
+| [GroupingLevels](../../aspose.slides.charts/ichartcategory/groupinglevels) { get; } | Управляемый контейнер значений уровней группировки категории диаграммы. Многоуровневая категория содержит более одного уровня группировки. Индексация уровней группировки начинается с нуля. Только для чтения [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
+| [UseCell](../../aspose.slides.charts/ichartcategory/usecell) { get; } | Если true, то свойство AsCell активно. Другими словами, лист используется для хранения категории (в этом случае поддерживается многоуровневая категория). Если false, то свойство AsLiteral активно. Другими словами, лист НЕ используется для хранения категории (и в этом случае многоуровневые категории не поддерживаются). Только для чтения Boolean. |
 | [Value](../../aspose.slides.charts/ichartcategory/value) { get; set; } | Если UseCell равно true, то это свойство представляет свойство AsCell.Value. Если UseCell равно false, то это свойство представляет свойство AsLiteral. Чтение/запись Object. |
 
 ## Методы
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | [Remove](../../aspose.slides.charts/ichartcategory/remove)() | Удаляет категорию из диаграммы. |
 
-### См. также
+### Смотрите также
 
 * пространство имён [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)

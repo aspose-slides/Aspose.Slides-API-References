@@ -1,50 +1,50 @@
 ---
 title: ImageTransformOCollectionEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
-description: อ็อบเจ็กต์คงที่ที่แสดงคอลเลกชันแบบอ่านอย่างเดียวของเอฟเฟ็กต์การแปลงภาพที่มีประสิทธิภาพ
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งแสดงถึงคอลเลกชันอ่านอย่างเดียวของเอฟเฟกต์การแปลงภาพที่มีประสิทธิภาพ
 type: docs
-weight: 3560
+weight: 3580
 url: /th/aspose.slides.effects/imagetransformocollectioneffectivedata/
 ---
 ## ImageTransformOCollectionEffectiveData คลาส
 
-อ็อบเจ็กต์ไม่เปลี่ยนแปลงที่แสดงคอลเลกชันแบบอ่านอย่างเดียวของเอฟเฟ็กต์การแปลงภาพที่มีประสิทธิภาพ
+อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งแสดงถึงคอลเลกชันอ่านอย่างเดียวของเอฟเฟกต์การแปลงภาพที่มีประสิทธิภาพ
 
 ```csharp
 public class ImageTransformOCollectionEffectiveData : IImageTransformOCollectionEffectiveData
 ```
 
-## Constructors
+## คอนสตรัคเตอร์
 
 | Name | Description |
 | --- | --- |
-| [ImageTransformOCollectionEffectiveData](imagetransformocollectioneffectivedata)() | คอนสตรัคเตอร์เริ่มต้น |
+| [ImageTransformOCollectionEffectiveData](imagetransformocollectioneffectivedata)() | ตัวคอนสตรัคเตอร์เริ่มต้น |
 
-## Properties
-
-| Name | Description |
-| --- | --- |
-| [Count](../../aspose.slides.effects/imagetransformocollectioneffectivedata/count) { get; } | ส่งคืนจำนวนของเอฟเฟกต์ภาพในคอลเลกชัน อ่านอย่างเดียว Int32 |
-| [IsSynchronized](../../aspose.slides.effects/imagetransformocollectioneffectivedata/issynchronized) { get; } | ส่งคืนค่าที่บ่งชี้ว่าการเข้าถึงคอลเลกชันได้รับการซิงโครไนซ์ (ปลอดภัยต่อเธรด) อ่านอย่างเดียว Boolean |
-| [Item](../../aspose.slides.effects/imagetransformocollectioneffectivedata/item) { get; } | ส่งคืนองค์ประกอบตามดัชนี |
-| [SyncRoot](../../aspose.slides.effects/imagetransformocollectioneffectivedata/syncroot) { get; } | ส่งคืนรากของการซิงโครไนซ์ อ่านอย่างเดียว Object |
-
-## Methods
+## คุณสมบัติ
 
 | Name | Description |
 | --- | --- |
-| [CopyTo](../../aspose.slides.effects/imagetransformocollectioneffectivedata/copyto)(Array, int) | คัดลอกทุกองค์ประกอบจากคอลเลกชันไปยังอาเรย์ที่ระบุ |
-| override [Equals](../../aspose.slides.effects/imagetransformocollectioneffectivedata/equals)(object) | กำหนดว่าอ็อบเจ็กต์ที่ระบุเท่ากับอ็อบเจ็กต์ปัจจุบันหรือไม่ |
-| [GetEnumerator](../../aspose.slides.effects/imagetransformocollectioneffectivedata/getenumerator)() | ส่งคืนตัววนรอบที่ทำการวนผ่านคอลเลกชัน |
-| override [GetHashCode](../../aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทเฉพาะ ซึ่งเหมาะสำหรับการใช้ในอัลกอริทึมแฮชและโครงสร้างข้อมูลเช่น ตารางแฮช |
+| [Count](../../aspose.slides.effects/imagetransformocollectioneffectivedata/count) { get; } | คืนค่าจำนวนเอฟเฟกต์ภาพในคอลเลกชัน อ่านอย่างเดียว Int32. |
+| [IsSynchronized](../../aspose.slides.effects/imagetransformocollectioneffectivedata/issynchronized) { get; } | คืนค่าที่บ่งชี้ว่าการเข้าถึงคอลเลกชันเป็นแบบซิงโครไนซ์ (thread-safe) อ่านอย่างเดียว Boolean. |
+| [Item](../../aspose.slides.effects/imagetransformocollectioneffectivedata/item) { get; } | คืนค่าองค์ประกอบตามดัชนี. |
+| [SyncRoot](../../aspose.slides.effects/imagetransformocollectioneffectivedata/syncroot) { get; } | คืนค่ารากฐานการซิงโครไนซ์ อ่านอย่างเดียว Object. |
 
-### Remarks
+## เมธอด
 
-ชื่อ IImageTransformOperationCollectionEffectiveData ถูกตัดให้สั้นเหลือ IImageTransformOCollectionEffectiveData เนื่องจากความยาวของชื่อ COM ไม่สามารถเกิน 39 ตัวอักษร
+| Name | Description |
+| --- | --- |
+| [CopyTo](../../aspose.slides.effects/imagetransformocollectioneffectivedata/copyto)(Array, int) | คัดลอกองค์ประกอบทั้งหมดจากคอลเลกชันไปยังอาร์เรย์ที่ระบุ. |
+| override [Equals](../../aspose.slides.effects/imagetransformocollectioneffectivedata/equals)(object) | กำหนดว่าวัตถุตามที่ระบุเท่ากับวัตถุปัจจุบันหรือไม่. |
+| [GetEnumerator](../../aspose.slides.effects/imagetransformocollectioneffectivedata/getenumerator)() | คืนค่า enumerator ที่วนซ้ำผ่านคอลเลกชัน. |
+| override [GetHashCode](../../aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทเฉพาะ ซึ่งเหมาะสำหรับการใช้ในอัลกอริทึมแฮชและโครงสร้างข้อมูลเช่นตารางแฮช. |
 
-### See Also
+### หมายเหตุ
 
-* อินเทอร์เฟส [IImageTransformOCollectionEffectiveData](../iimagetransformocollectioneffectivedata)
+ชื่อ IImageTransformOperationCollectionEffectiveData ถูกตัดให้สั้นเป็น IImageTransformOCollectionEffectiveData เนื่องจากความยาวของชื่อ COM ไม่สามารถเกิน 39 ตัวอักษร
+
+### ดูเพิ่มเติม
+
+* อินเทอร์เฟซ [IImageTransformOCollectionEffectiveData](../iimagetransformocollectioneffectivedata)
 * เนมสเปซ [Aspose.Slides.Effects](../../aspose.slides.effects)
 * แอสเซมบลี [Aspose.Slides](../../)
 

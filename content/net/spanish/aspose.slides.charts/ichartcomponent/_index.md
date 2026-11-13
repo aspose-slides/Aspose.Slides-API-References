@@ -3,7 +3,7 @@ title: IChartComponent
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa un componente de un gráfico.
 type: docs
-weight: 1790
+weight: 1810
 url: /es/aspose.slides.charts/ichartcomponent/
 ---
 ## IChartComponent interfaz

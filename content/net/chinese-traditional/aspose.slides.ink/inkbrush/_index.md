@@ -1,14 +1,14 @@
 ---
 title: InkBrush
 second_title: Aspose.Sildes for .NET API 參考
-description: 代表一個 inkBrush 物件。
+description: 表示 inkBrush 物件。
 type: docs
-weight: 7570
+weight: 7590
 url: /zh-hant/aspose.slides.ink/inkbrush/
 ---
 ## InkBrush 類別
 
-代表一個 inkBrush 物件。
+表示 inkBrush 物件。
 
 ```csharp
 public class InkBrush : IInkBrush
@@ -18,9 +18,9 @@ public class InkBrush : IInkBrush
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Color](../../aspose.slides.ink/inkbrush/color) { get; set; } | 取得或設定線條的筆刷顏色。 |
-| [InkEffect](../../aspose.slides.ink/inkbrush/inkeffect) { get; } | 取得墨水效果類型（例如，Galaxy、Gold、Silver），它定義墨跡的視覺樣式。此值是從筆刷屬性 "inkEffects" 中解析的。如果未指定已辨識的效果，則回傳 NotDefined。 |
-| [Size](../../aspose.slides.ink/inkbrush/size) { get; set; } | 取得或設定線條的筆刷大小（單位為點）。 |
+| [Color](../../aspose.slides.ink/inkbrush/color) { get; set; } | 取得或設定直線的筆刷顏色。 |
+| [InkEffect](../../aspose.slides.ink/inkbrush/inkeffect) { get; } | 取得墨水效果類型（例如，Galaxy、Gold、Silver），此類型定義墨跡的視覺樣式。該值從筆刷屬性 "inkEffects" 解析。如果未指定已識別的效果，則回傳 NotDefined。 |
+| [Size](../../aspose.slides.ink/inkbrush/size) { get; set; } | 取得或設定直線的筆刷大小（單位為點）。 |
 
 ### 另請參閱
 

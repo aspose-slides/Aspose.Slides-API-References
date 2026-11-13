@@ -3,7 +3,7 @@ title: IMathSuperscriptElement
 second_title: Aspose.Sildes for .NET API リファレンス
 description: ベースと右上に配置された縮小サイズの上付き文字からなる上付き文字オブジェクトを指定します
 type: docs
-weight: 8490
+weight: 8510
 url: /ja/aspose.slides.mathtext/imathsuperscriptelement/
 ---
 ## IMathSuperscriptElement インターフェイス
@@ -18,8 +18,8 @@ public interface IMathSuperscriptElement : IMathElement
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathsuperscriptelement/asimathelement) { get; } | ベースの IMathElement インターフェイスを取得できます [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathsuperscriptelement/base) { get; } | 基本引数 |
+| [AsIMathElement](../../aspose.slides.mathtext/imathsuperscriptelement/asimathelement) { get; } | ベースのIMathElementインターフェイスを取得できる [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathsuperscriptelement/base) { get; } | ベース引数 |
 | [Superscript](../../aspose.slides.mathtext/imathsuperscriptelement/superscript) { get; } | 上付き文字 |
 
 ### 例

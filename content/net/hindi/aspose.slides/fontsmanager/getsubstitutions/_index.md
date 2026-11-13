@@ -1,24 +1,24 @@
 ---
 title: GetSubstitutions
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: प्रस्तुति के रेंडरिंग के दौरान बदले जाने वाले फ़ॉन्ट्स के बारे में जानकारी प्राप्त करता है।
+description: प्रेजेंटेशन के रेंडरिंग के दौरान बदलने वाले फ़ॉन्ट की जानकारी प्राप्त करता है।
 type: docs
-weight: 80
+weight: 90
 url: /hi/aspose.slides/fontsmanager/getsubstitutions/
 ---
 ## GetSubstitutions() {#getsubstitutions}
 
-प्रस्तुति के रेंडरिंग के दौरान बदलने वाले फ़ॉन्ट्स के बारे में जानकारी प्राप्त करता है।
+उपस्थिति के रेंडरिंग के दौरान बदलने वाले फ़ॉन्ट की जानकारी प्राप्त करता है।
 
 ```csharp
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions()
 ```
 
-### रिटर्न मान
+### Return Value
 
-सभी फ़ॉन्ट प्रतिस्थापन का संग्रह [`FontSubstitutionInfo`](../../fontsubstitutioninfo)।
+सभी फ़ॉन्ट प्रतिस्थापन की संग्रह [`FontSubstitutionInfo`](../../fontsubstitutioninfo)।
 
-### उदाहरण
+### Examples
 
 ```csharp
 using (Presentation pres = new Presentation("pres.pptx"))
@@ -30,7 +30,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }        
 ```
 
-### देखें
+### See Also
 
 * क्लास [FontSubstitutionInfo](../../fontsubstitutioninfo)
 * क्लास [FontsManager](../../fontsmanager)
@@ -41,21 +41,21 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## GetSubstitutions(int[]) {#getsubstitutions_1}
 
-निर्दिष्ट स्लाइड्स के रेंडरिंग के दौरान बदलने वाले फ़ॉन्ट्स के बारे में जानकारी प्राप्त करता है।
+निर्दिष्ट स्लाइड्स के रेंडरिंग के दौरान बदलने वाले फ़ॉन्ट की जानकारी प्राप्त करता है।
 
 ```csharp
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions(int[] slides)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| slides | Int32[] | फ़ॉन्ट प्रतिस्थापन जानकारी प्राप्त करने के लिए स्लाइड इंडेक्स की एक एरे, जो 1 से शुरू होती है। |
+| slides | Int32[] | उन स्लाइड अनुक्रमांक का एक एरे जिससे फ़ॉन्ट प्रतिस्थापन जानकारी प्राप्त की जानी है, 1 से शुरू होते हुए। |
 
-### रिटर्न मान
+### Return Value
 
-निर्दिष्ट स्लाइड्स के लिए सभी फ़ॉन्ट प्रतिस्थापन का संग्रह ([`FontSubstitutionInfo`](../../fontsubstitutioninfo))।
+निर्दिष्ट स्लाइड्स के लिए सभी फ़ॉन्ट प्रतिस्थापनों का संग्रह ([`FontSubstitutionInfo`](../../fontsubstitutioninfo))।
 
-### उदाहरण
+### Examples
 
 ```csharp
 using (Presentation pres = new Presentation("pres.pptx"))
@@ -68,7 +68,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### देखें
+### See Also
 
 * क्लास [FontSubstitutionInfo](../../fontsubstitutioninfo)
 * क्लास [FontsManager](../../fontsmanager)

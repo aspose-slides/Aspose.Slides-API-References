@@ -1,14 +1,14 @@
 ---
 title: IBulkTextFormattable
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa un objeto con la posibilidad de establecer en bloque los formatos de los elementos de texto secundarios.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Representa un objeto con la posibilidad de establecer en bloque los formatos de los elementos de texto hijos.
 type: docs
-weight: 5380
+weight: 5400
 url: /es/aspose.slides/ibulktextformattable/
 ---
 ## IBulkTextFormattable interfaz
 
-Representa un objeto con la posibilidad de establecer en bloque los formatos de los elementos de texto secundarios.
+Representa un objeto con la posibilidad de establecer en bloque los formatos de los elementos de texto hijo.
 
 ```csharp
 public interface IBulkTextFormattable
@@ -16,11 +16,11 @@ public interface IBulkTextFormattable
 
 ## Métodos
 
-| Name | Description |
+| Nombre | Descripción |
 | --- | --- |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat)(IParagraphFormat) | Establece las propiedades de formato de párrafo definidas a todos los párrafos del elemento. |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_1)(IPortionFormat) | Establece las propiedades de formato de porción definidas a todas las porciones del elemento. |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_2)(ITextFrameFormat) | Establece las propiedades de formato de marco de texto definidas a todos los marcos de texto del elemento. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat)(IParagraphFormat) | Establece las propiedades de formato de párrafo definidas en todos los párrafos del elemento. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_1)(IPortionFormat) | Establece las propiedades de formato de porción definidas en todas las porciones del elemento. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_2)(ITextFrameFormat) | Establece las propiedades de formato de marco de texto definidas en todos los marcos de texto del elemento. |
 
 ### Ver también
 

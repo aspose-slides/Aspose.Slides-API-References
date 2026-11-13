@@ -1,9 +1,9 @@
 ---
 title: FillType
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes .NET API Referencia
 description: Meghatározza a különféle vizuális objektumok belső kitöltésének típusát.
 type: docs
-weight: 4790
+weight: 4810
 url: /hu/aspose.slides/filltype/
 ---
 ## FillType enumeráció
@@ -19,11 +19,11 @@ public enum FillType : sbyte
 | Név | Érték | Leírás |
 | --- | --- | --- |
 | NotDefined | `-1` | A kitöltés típusa nincs meghatározva. |
-| NoFill | `0` | Nincs kitöltés. |
+| NoFill | `0` | Nincs kitöltés alkalmazva. |
 | Solid | `1` | Szilárd színnel kitöltve. |
 | Gradient | `2` | A kitöltés színátmenetes. |
-| Pattern | `3` | Ismétlődő minta használatával töltik ki az objektumot. |
-| Picture | `4` | Egyetlen képet használnak az objektum kitöltéséhez. |
+| Pattern | `3` | Ismétlődő minta használatos az objektum kitöltésére. |
+| Picture | `4` | Egyetlen kép használatos az objektum kitöltésére. |
 | Group | `5` | A vizuális objektum a csoporttól örökli a kitöltési tulajdonságokat. |
 
 ### Lásd még

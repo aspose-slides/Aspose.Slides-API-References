@@ -3,7 +3,7 @@ title: IFormat
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示图表格式属性。
 type: docs
-weight: 2100
+weight: 2120
 url: /zh/aspose.slides.charts/iformat/
 ---
 ## IFormat 接口
@@ -18,8 +18,8 @@ public interface IFormat
 
 | 名称 | 描述 |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/iformat/effect) { get; } | 返回用于图表的效果。只读 [`IEffectFormat`](../../aspose.slides/ieffectformat)。 |
-| [Effect3D](../../aspose.slides.charts/iformat/effect3d) { get; } | 返回图表的3D格式。只读 [`IThreeDFormat`](../../aspose.slides/ithreedformat)。 |
+| [Effect](../../aspose.slides.charts/iformat/effect) { get; } | 返回图表使用的效果。只读 [`IEffectFormat`](../../aspose.slides/ieffectformat)。 |
+| [Effect3D](../../aspose.slides.charts/iformat/effect3d) { get; } | 返回图表的 3D 格式。只读 [`IThreeDFormat`](../../aspose.slides/ithreedformat)。 |
 | [Fill](../../aspose.slides.charts/iformat/fill) { get; } | 返回图表的填充样式属性。只读 [`IFillFormat`](../../aspose.slides/ifillformat)。 |
 | [Line](../../aspose.slides.charts/iformat/line) { get; } | 返回图表的线条样式属性。只读 [`ILineFormat`](../../aspose.slides/ilineformat)。 |
 

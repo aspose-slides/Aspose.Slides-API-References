@@ -1,14 +1,14 @@
 ---
 title: MathNaryOperatorTypes
-second_title: Aspose.Sildes pro .NET API referenci
-description: Typy n-árních operátorů IMathNaryOperator bez celých čísel. Pro celá čísla viz MathIntegralTypes./mathintegraltypes
+second_title: Aspose.Sildes pro .NET API Reference
+description: Nary operátory IMathNaryOperator typy kromě integrálů Pro integrály MathIntegralTypes./mathintegraltypes
 type: docs
-weight: 8890
+weight: 8910
 url: /cs/aspose.slides.mathtext/mathnaryoperatortypes/
 ---
-## MathNaryOperatorTypes výčet
+## MathNaryOperatorTypes výčtový typ
 
-Typy n-árních operátorů IMathNaryOperator (kromě celých čísel) Pro celá čísla [`MathIntegralTypes`](../mathintegraltypes)
+Typy N-ary operátorů IMathNaryOperator (mimo integrály) Pro integrály [`MathIntegralTypes`](../mathintegraltypes)
 
 ```csharp
 public enum MathNaryOperatorTypes
@@ -18,15 +18,15 @@ public enum MathNaryOperatorTypes
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| Summation | `0` | Summation: '∑' |
-| Product | `1` | Product: '∏' |
-| CoProduct | `2` | Coproduct: '∐' |
-| Intersection | `3` | Intersection: '∩' |
-| Union | `4` | Union: '∪' |
-| LogicalAnd | `5` | Logical And: '∧' |
-| LogicalOr | `6` | Logical Or: '∨' |
+| Summation | `0` | Sčítání: '∑' |
+| Product | `1` | Součin: '∏' |
+| CoProduct | `2` | Koproduct: '∐' |
+| Intersection | `3` | Průnik: '∩' |
+| Union | `4` | Unie: '∪' |
+| LogicalAnd | `5` | Logické a: '∧' |
+| LogicalOr | `6` | Logické nebo: '∨' |
 
-### Další informace
+### Viz také
 
 * jmenný prostor [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * sestavení [Aspose.Slides](../../)

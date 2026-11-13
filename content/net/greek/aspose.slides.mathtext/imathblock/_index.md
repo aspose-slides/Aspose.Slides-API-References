@@ -1,14 +1,14 @@
 ---
 title: IMathBlock
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Καθορίζει μια παρουσία μαθηματικού κειμένου που βρίσκεται μέσα σε ένα MathParagraph και αρχίζει σε ξεχωριστή γραμμή. Όλες οι μαθηματικές ζώνες, συμπεριλαμβανομένων εξισώσεων, εκφράσεων, πινάκων εξισώσεων ή εκφράσεων και τύπων, αντιπροσωπεύονται από μπλοκ μαθηματικών.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Καθορίζει μια παρουσία μαθηματικού κειμένου που περιέχεται σε ένα MathParagraph και αρχίζει σε δική του γραμμή. Όλες οι μαθηματικές ζώνες, συμπεριλαμβανομένων εξισώσεων, εκφράσεων, σειρών εξισώσεων ή εκφράσεων και τύπων, αντιπροσωπεύονται από math block.
 type: docs
-weight: 8140
+weight: 8160
 url: /el/aspose.slides.mathtext/imathblock/
 ---
-## Διεπαφή IMathBlock
+## IMathBlock διεπαφή
 
-Καθορίζει μια εμφάνιση μαθηματικού κειμένου που περιέχεται σε ένα MathParagraph και αρχίζει σε δική του γραμμή. Όλες οι μαθηματικές ζώνες, συμπεριλαμβανομένων εξισώσεων, εκφράσεων, πινάκων εξισώσεων ή εκφράσεων, και τύπων, αναπαρίστανται από μπλοκ μαθηματικών.
+Καθορίζει μια παρουσία μαθηματικού κειμένου που περιέχεται μέσα σε ένα MathParagraph και ξεκινά σε δική του γραμμή. Όλες οι μαθηματικές ζώνες, συμπεριλαμβανομένων εξισώσεων, εκφράσεων, πινάκων εξισώσεων ή εκφράσεων και τύπων, αντιπροσωπεύονται από math block.
 
 ```csharp
 public interface IMathBlock : IMathElement, IMathElementCollection
@@ -18,21 +18,21 @@ public interface IMathBlock : IMathElement, IMathElementCollection
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathblock/asimathelement) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής IMathElement [`IMathElement`](../imathelement) |
-| [AsIMathElementCollection](../../aspose.slides.mathtext/imathblock/asimathelementcollection) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής IMathElementCollection [`IMathElementCollection`](../imathelementcollection) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathblock/asimathelement) { get; } | Επιτρέπει την λήψη της βασικής διεπαφής IMathElement [`IMathElement`](../imathelement) |
+| [AsIMathElementCollection](../../aspose.slides.mathtext/imathblock/asimathelementcollection) { get; } | Επιτρέπει την λήψη της βασικής διεπαφής IMathElementCollection [`IMathElementCollection`](../imathelementcollection) |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Delimit](../../aspose.slides.mathtext/imathblock/delimit)(char) | Οριοθετεί όλα τα θυγατρικά στοιχεία με χαρακτήρα διαχωριστικού (χωρίς τις αγκύλες) |
-| [Enclose](../../aspose.slides.mathtext/imathblock/enclose)(char, char, char) | Περιβάλλει τα θυγατρικά στοιχεία αυτού του μπλοκ σε καθορισμένους χαρακτήρες, όπως παρενθέσεις ή άλλους, ως πλαίσιο και οριοθετεί με χαρακτήρα διαχωριστικού |
-| [JoinBlock](../../aspose.slides.mathtext/imathblock/joinblock)(IMathBlock) | Ενώνει ένα άλλο μαθηματικό μπλοκ με αυτό |
-| [WriteAsMathMl](../../aspose.slides.mathtext/imathblock/writeasmathml)(Stream) | Αποθηκεύει το περιεχόμενο αυτού του [`IMathBlock`](../imathblock) ως MathML |
+| [Delimit](../../aspose.slides.mathtext/imathblock/delimit)(char) | Περιορίζει όλα τα θυγατρικά στοιχεία με χαρακτήρα διαχωριστικού (χωρίς τις αγκύλες) |
+| [Enclose](../../aspose.slides.mathtext/imathblock/enclose)(char, char, char) | Τυλίγει τα θυγατρικά στοιχεία αυτού του block σε καθορισμένους χαρακτήρες, όπως παρενθέσεις ή άλλους, ως περιθώριο και ορίζει διαχωριστικό χαρακτήρα |
+| [JoinBlock](../../aspose.slides.mathtext/imathblock/joinblock)(IMathBlock) | Συνδέει ένα άλλο μαθηματικό block με αυτό |
+| [WriteAsMathMl](../../aspose.slides.mathtext/imathblock/writeasmathml)(Stream) | Αποθηκεύει το περιεχόμενο του [`IMathBlock`](../imathblock) ως MathML |
 
 ### Παραδείγματα
 
-Example:
+Παράδειγμα:
 
 ```csharp
 [C#]

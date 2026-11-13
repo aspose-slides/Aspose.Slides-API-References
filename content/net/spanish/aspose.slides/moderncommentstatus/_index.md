@@ -1,9 +1,9 @@
 ---
 title: ModernCommentStatus
-second_title: Aspose.Sildes para la referencia de API de .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa el estado de un comentario moderno.
 type: docs
-weight: 9100
+weight: 9120
 url: /es/aspose.slides/moderncommentstatus/
 ---
 ## ModernCommentStatus enumeración

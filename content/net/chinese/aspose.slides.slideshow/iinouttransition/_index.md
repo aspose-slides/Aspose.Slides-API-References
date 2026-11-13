@@ -1,14 +1,14 @@
 ---
 title: IInOutTransition
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes 的 .NET API 参考
 description: 进出幻灯片过渡效果。
 type: docs
-weight: 10110
+weight: 10130
 url: /zh/aspose.slides.slideshow/iinouttransition/
 ---
 ## IInOutTransition 接口
 
-进出幻灯片过渡效果。
+In-Out slide transition effect.
 
 ```csharp
 public interface IInOutTransition : ITransitionValueBase
@@ -19,9 +19,9 @@ public interface IInOutTransition : ITransitionValueBase
 | 名称 | 描述 |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/iinouttransition/asitransitionvaluebase) { get; } | 允许获取基础 ITransitionValueBase 接口。只读 [`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [Direction](../../aspose.slides.slideshow/iinouttransition/direction) { get; set; } | 过渡效果的方向。读/写 [`TransitionInOutDirectionType`](../transitioninoutdirectiontype)。 |
+| [Direction](../../aspose.slides.slideshow/iinouttransition/direction) { get; set; } | 过渡效果的方向。可读写 [`TransitionInOutDirectionType`](../transitioninoutdirectiontype)。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [ITransitionValueBase](../itransitionvaluebase)
 * 命名空间 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

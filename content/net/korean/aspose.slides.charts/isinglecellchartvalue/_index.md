@@ -3,7 +3,7 @@ title: ISingleCellChartValue
 second_title: Aspose.Sildes for .NET API 참조
 description: 차트 데이터 셀을 나타냅니다.
 type: docs
-weight: 2210
+weight: 2230
 url: /ko/aspose.slides.charts/isinglecellchartvalue/
 ---
 ## ISingleCellChartValue 인터페이스

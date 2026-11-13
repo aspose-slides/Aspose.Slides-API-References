@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlideHeaderFooterManager
 second_title: Aspose.Sildes for .NET API リファレンス
-description: マスターハンドアウトスライドのプレースホルダーの動作を保持するマネージャーを表し、ヘッダープレースホルダーを含みます。
+description: ヘッダープレースホルダーを含むマスターハンドアウトスライドのプレースホルダーの動作を保持するマネージャーを表します。
 type: docs
-weight: 6360
+weight: 6380
 url: /ja/aspose.slides/imasterhandoutslideheaderfootermanager/
 ---
 ## IMasterHandoutSlideHeaderFooterManager インターフェイス
 
-マスターハンドアウトスライドのプレースホルダーの動作を保持するマネージャーを表し、ヘッダープレースホルダーを含みます。
+マスター配布資料スライドのプレースホルダー、ヘッダープレースホルダーを含む動作を保持するマネージャーを表します。
 
 ```csharp
 public interface IMasterHandoutSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag

@@ -1,12 +1,12 @@
 ---
 title: ITabFactory
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes for .NET Referência de API
 description: Permite criar instâncias de ITab
 type: docs
-weight: 7220
+weight: 7240
 url: /pt/aspose.slides/itabfactory/
 ---
-## ITabFactory interface
+## interface ITabFactory
 
 Permite criar instâncias de ITab
 
@@ -24,7 +24,7 @@ public interface ITabFactory
 
 Para compatibilidade COM.
 
-### Veja também
+### Veja Também
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

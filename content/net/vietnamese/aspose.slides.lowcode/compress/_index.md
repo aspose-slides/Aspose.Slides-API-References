@@ -1,14 +1,14 @@
 ---
 title: Compress
-second_title: Aspose.Sildes cho .NET API Tham khảo
-description: Đại diện cho một nhóm các phương thức được thiết kế để nén Presentation../aspose.slides/presentation.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đại diện cho một nhóm các phương thức nhằm nén Presentation../aspose.slides/presentation.
 type: docs
-weight: 7870
+weight: 7890
 url: /vi/aspose.slides.lowcode/compress/
 ---
-## Lớp Compress
+## Compress lớp
 
-Đại diện cho một nhóm các phương thức được thiết kế để nén [`Presentation`](../../aspose.slides/presentation).
+Đại diện cho một nhóm các phương thức nhằm nén [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public static class Compress
@@ -18,9 +18,11 @@ public static class Compress
 
 | Tên | Mô tả |
 | --- | --- |
-| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | Thực hiện nén [`Presentation`](../../aspose.slides/presentation) bằng cách loại bỏ các ký tự không sử dụng khỏi các phông chữ được nhúng. |
-| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | Thực hiện nén [`Presentation`](../../aspose.slides/presentation) bằng cách loại bỏ các slide bố cục không sử dụng. |
-| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | Thực hiện nén [`Presentation`](../../aspose.slides/presentation) bằng cách loại bỏ các slide master không sử dụng. |
+| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | Thực hiện nén [`Presentation`](../../aspose.slides/presentation) bằng cách loại bỏ các ký tự không dùng khỏi phông chữ nhúng. |
+| static [CompressImages](../../aspose.slides.lowcode/compress/compressimages)(IPresentation, PicturesCompression) | Giảm độ phân giải của hình ảnh trong bản trình chiếu và xóa các vùng đã cắt của chúng, tương tự như tính năng "Compress Pictures" của PowerPoint được áp dụng cho tất cả hình ảnh. Hình ảnh trên các slide, slide bố cục và slide mẫu đều được xử lý, bao gồm hình ảnh trong các nhóm hình và các phần nền hình ảnh của hình dạng. |
+| static [CompressPresentation](../../aspose.slides.lowcode/compress/compresspresentation)(Presentation) | Giảm kích thước của bản trình chiếu bằng cách áp dụng tất cả các bước nén có sẵn: |
+| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | Thực hiện nén [`Presentation`](../../aspose.slides/presentation) bằng cách loại bỏ các slide bố cục không dùng. |
+| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | Thực hiện nén [`Presentation`](../../aspose.slides/presentation) bằng cách loại bỏ các slide mẫu không dùng. |
 
 ### Ví dụ
 

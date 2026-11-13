@@ -1,14 +1,14 @@
 ---
 title: SlideShowSettings
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente les paramètres du diaporama pour la présentation.
 type: docs
-weight: 10480
+weight: 10500
 url: /fr/aspose.slides/slideshowsettings/
 ---
 ## SlideShowSettings classe
 
-Représente les paramètres de diaporama pour la présentation.
+Représente les paramètres du diaporama pour la présentation.
 
 ```csharp
 public class SlideShowSettings
@@ -18,14 +18,14 @@ public class SlideShowSettings
 
 | Nom | Description |
 | --- | --- |
-| [Loop](../../aspose.slides/slideshowsettings/loop) { get; set; } | Boucler le diaporama |
-| [PenColor](../../aspose.slides/slideshowsettings/pencolor) { get; } | Couleur du stylet pour le diaporama |
+| [Loop](../../aspose.slides/slideshowsettings/loop) { get; set; } | Boucle du diaporama |
+| [PenColor](../../aspose.slides/slideshowsettings/pencolor) { get; } | Couleur du stylo pour le diaporama |
 | [ShowAnimation](../../aspose.slides/slideshowsettings/showanimation) { get; set; } | Afficher l'animation dans le diaporama |
 | [ShowMediaControls](../../aspose.slides/slideshowsettings/showmediacontrols) { get; set; } | Afficher les contrôles multimédia |
 | [ShowNarration](../../aspose.slides/slideshowsettings/shownarration) { get; set; } | Afficher la narration dans le diaporama |
 | [Slides](../../aspose.slides/slideshowsettings/slides) { get; set; } | Plage de diapositives |
-| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | Obtient ou définit le type de diaporama. Représenté par les ancêtres suivants [`SlideShowType`](./slideshowtype) : [`BrowsedAtKiosk`](../browsedatkiosk), [`PresentedBySpeaker`](../presentedbyspeaker) et [`BrowsedByIndividual`](../browsedbyindividual) |
-| [UseTimings](../../aspose.slides/slideshowsettings/usetimings) { get; set; } | Utiliser les minuteries dans le diaporama |
+| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | Obtient ou définit le type de diaporama. Représenté par les ancêtres [`SlideShowType`](./slideshowtype) suivants : [`BrowsedAtKiosk`](../browsedatkiosk), [`PresentedBySpeaker`](../presentedbyspeaker) et [`BrowsedByIndividual`](../browsedbyindividual) |
+| [UseTimings](../../aspose.slides/slideshowsettings/usetimings) { get; set; } | Utiliser le minutage dans le diaporama |
 
 ### Voir aussi
 

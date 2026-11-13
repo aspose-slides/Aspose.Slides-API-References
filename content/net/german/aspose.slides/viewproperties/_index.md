@@ -1,14 +1,14 @@
 ---
 title: ViewProperties
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Präsentationsweite Ansichtseigenschaften.
+description: Ansichtseigenschaften für die gesamte Präsentation.
 type: docs
-weight: 11740
+weight: 11760
 url: /de/aspose.slides/viewproperties/
 ---
 ## ViewProperties Klasse
 
-Präsentationsweite Ansichtseigenschaften.
+Ansichts-eigenschaften für die gesamte Präsentation.
 
 ```csharp
 public class ViewProperties : IViewProperties
@@ -18,12 +18,12 @@ public class ViewProperties : IViewProperties
 
 | Name | Beschreibung |
 | --- | --- |
-| [GridSpacing](../../aspose.slides/viewproperties/gridspacing) { get; set; } | Gibt den Rasterabstand zurück oder legt ihn fest, der für das dem Präsentationsdokument zugrunde liegende Raster in Punkt verwendet werden soll. Lese/Schreiben Single. |
-| [LastView](../../aspose.slides/viewproperties/lastview) { get; set; } | Gibt den Ansichtsmodus an, der verwendet wurde, als das Präsentationsdokument zuletzt gespeichert wurde. Lese/Schreiben [`ViewType`](../viewtype). |
-| [NormalViewProperties](../../aspose.slides/viewproperties/normalviewproperties) { get; } | Stellt die normalen Ansichtseigenschaften dar. Die normale Ansicht besteht aus drei Inhaltsbereichen: der Folie selbst, einem seitlichen Inhaltsbereich und einem unteren Inhaltsbereich. Nur Lesen [`INormalViewProperties`](../inormalviewproperties). |
-| [NotesViewProperties](../../aspose.slides/viewproperties/notesviewproperties) { get; } | Gibt die gemeinsamen Ansichtseigenschaften an, die mit dem Notizansichtsmodus verbunden sind. Nur Lesen [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
-| [ShowComments](../../aspose.slides/viewproperties/showcomments) { get; set; } | Gibt an, ob die Folienkommentare angezeigt werden sollen. Lese/Schreiben [`NullableBool`](../nullablebool). |
-| [SlideViewProperties](../../aspose.slides/viewproperties/slideviewproperties) { get; } | Gibt die gemeinsamen Ansichtseigenschaften an, die mit dem Folienansichtsmodus verbunden sind. Nur Lesen [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
+| [GridSpacing](../../aspose.slides/viewproperties/gridspacing) { get; set; } | Gibt den Rasterabstand zurück oder legt ihn fest, der für das dem Präsentationsdokument zugrunde liegende Raster in Punkten verwendet werden soll. Lesen/Schreiben Single. |
+| [LastView](../../aspose.slides/viewproperties/lastview) { get; set; } | Gibt den Ansichtsmodus an, der beim letzten Speichern des Präsentationsdokuments verwendet wurde. Lesen/Schreiben [`ViewType`](../viewtype). |
+| [NormalViewProperties](../../aspose.slides/viewproperties/normalviewproperties) { get; } | Stellt die Eigenschaften der Normalansicht dar. Die Normalansicht besteht aus drei Inhaltsbereichen: der Folie selbst, einem seitlichen Inhaltsbereich und einem unteren Inhaltsbereich. Nur lesend [`INormalViewProperties`](../inormalviewproperties). |
+| [NotesViewProperties](../../aspose.slides/viewproperties/notesviewproperties) { get; } | Gibt gemeinsame Ansichtseigenschaften für den Notizansichtsmodus an. Nur lesend [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
+| [ShowComments](../../aspose.slides/viewproperties/showcomments) { get; set; } | Gibt an, ob die Folienkommentare angezeigt werden sollen. Lesen/Schreiben [`NullableBool`](../nullablebool). |
+| [SlideViewProperties](../../aspose.slides/viewproperties/slideviewproperties) { get; } | Gibt gemeinsame Ansichtseigenschaften für den Folienansichtsmodus an. Nur lesend [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
 
 ### Siehe auch
 

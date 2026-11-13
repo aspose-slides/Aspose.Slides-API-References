@@ -1,14 +1,14 @@
 ---
 title: IMasterSlideHeaderFooterManager
-second_title: Aspose.Sildes dla .NET – referencja API
-description: Reprezentuje menedżera, który kontroluje zachowanie placeholderów stopki, daty i godziny, numeru strony slajdu głównego oraz wszystkich podrzędnych placeholderów. Podręczne placeholdery oznaczają, że placeholdery znajdują się na zależnych slajdach układu i zależnych slajdach. Zależne slajdy układu i slajdy używają i zależą od slajdu głównego.
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Reprezentuje menedżera, który kontroluje zachowanie symboli zastępczych stopki głównego slajdu, daty i godziny, numeru strony oraz wszystkich symboli podrzędnych. Symbole podrzędne oznaczają, że symbole są zawarte na slajdach zależnych od układu i na slajdach zależnych. Slajdy zależne od układu i slajdy zależne używają i opierają się na głównym slajdzie.
 type: docs
-weight: 6440
+weight: 6460
 url: /pl/aspose.slides/imasterslideheaderfootermanager/
 ---
 ## IMasterSlideHeaderFooterManager interfejs
 
-Reprezentuje menedżera, który kontroluje zachowanie stopki, znacznika daty-czasu, numeru strony slajdu głównego oraz wszystkich podrzędnych znaczników. Podręczne znaczniki oznaczają, że znaczniki znajdują się na zależnych slajdach układu i zależnych slajdach. Zależne slajdy układu i slajdy używają i zależą od slajdu głównego.
+Reprezentuje menedżera, który kontroluje zachowanie symboli zastępczych stopki głównego slajdu, daty i godziny, numeru strony oraz wszystkich symboli podrzędnych. Symbole podrzędne oznaczają, że symbole są zawarte na slajdach zależnych od układu i na slajdach zależnych. Slajdy zależne od układu i slajdy zależne używają i opierają się na głównym slajdzie.
 
 ```csharp
 public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -24,11 +24,11 @@ public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 | Nazwa | Opis |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Ustawia tekst w placeholderze daty i godziny slajdu głównego oraz we wszystkich podrzędnych placeholderach daty i godziny. Podręczne placeholdery oznaczają, że placeholdery znajdują się na zależnych slajdach układu i zależnych slajdach. Zależne slajdy układu i slajdy używają i zależą od slajdu głównego. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Zmienia widoczność placeholdera daty i godziny slajdu głównego oraz wszystkich podrzędnych placeholderów daty i godziny. Podręczne placeholdery oznaczają, że placeholdery znajdują się na zależnych slajdach układu i zależnych slajdach. Zależne slajdy układu i slajdy używają i zależą od slajdu głównego. |
-| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | Ustawia tekst w placeholderze stopki slajdu głównego oraz we wszystkich podrzędnych placeholderach stopki. Podręczne placeholdery oznaczają, że placeholdery znajdują się na zależnych slajdach układu i zależnych slajdach. Zależne slajdy układu i slajdy używają i zależą od slajdu głównego. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Zmienia widoczność placeholdera stopki slajdu głównego oraz wszystkich podrzędnych placeholderów stopki. Podręczne placeholdery oznaczają, że placeholdery znajdują się na zależnych slajdach układu i zależnych slajdach. Zależne slajdy układu i slajdy używają i zależą od slajdu głównego. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Zmienia widoczność placeholdera numeru strony slajdu głównego oraz wszystkich podrzędnych placeholderów numeru strony. Podręczne placeholdery oznaczają, że placeholdery znajdują się na zależnych slajdach układu i zależnych slajdach. Zależne slajdy układu i slajdy używają i zależą od slajdu głównego. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Ustawia tekst w symbolu zastępczym daty i czasu głównego slajdu oraz we wszystkich podrzędnych symbolach daty i czasu. Symbole podrzędne oznaczają, że symbole są zawarte na slajdach zależnych od układu i na slajdach zależnych. Slajdy zależne od układu i slajdy zależne używają i opierają się na głównym slajdzie. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Zmienia widoczność symbolu zastępczego daty i czasu głównego slajdu oraz wszystkich podrzędnych symboli daty i czasu. Symbole podrzędne oznaczają, że symbole są zawarte na slajdach zależnych od układu i na slajdach zależnych. Slajdy zależne od układu i slajdy zależne używają i opierają się na głównym slajdzie. |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | Ustawia tekst w symbolu zastępczym stopki głównego slajdu oraz we wszystkich podrzędnych symbolach stopki. Symbole podrzędne oznaczają, że symbole są zawarte na slajdach zależnych od układu i na slajdach zależnych. Slajdy zależne od układu i slajdy zależne używają i opierają się na głównym slajdzie. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Zmienia widoczność symbolu zastępczego stopki głównego slajdu oraz wszystkich podrzędnych symboli stopki. Symbole podrzędne oznaczają, że symbole są zawarte na slajdach zależnych od układu i na slajdach zależnych. Slajdy zależne od układu i slajdy zależne używają i opierają się na głównym slajdzie. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Zmienia widoczność symbolu zastępczego numeru strony głównego slajdu oraz wszystkich podrzędnych symboli numeru strony. Symbole podrzędne oznaczają, że symbole są zawarte na slajdach zależnych od układu i na slajdach zależnych. Slajdy zależne od układu i slajdy zależne używają i opierają się na głównym slajdzie. |
 
 ### Zobacz także
 

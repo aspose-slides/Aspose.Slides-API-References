@@ -1,14 +1,14 @@
 ---
 title: IBrightnessContrast
-second_title: Aspose.Sildes .NET API 参考
-description: 表示 BrightnessContrast 效果。调整亮度和对比度
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示 BrightnessContrast 效果。 调整亮度和对比度
 type: docs
-weight: 3200
+weight: 3220
 url: /zh/aspose.slides.effects/ibrightnesscontrast/
 ---
 ## IBrightnessContrast 接口
 
-表示 BrightnessContrast 效果。调整亮度和对比度
+表示 BrightnessContrast 效果。 调整亮度和对比度
 
 ```csharp
 public interface IBrightnessContrast : IAccessiblePVIObject<IBrightnessContrastEffectiveData>, 

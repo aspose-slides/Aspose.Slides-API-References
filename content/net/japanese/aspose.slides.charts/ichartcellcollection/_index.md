@@ -1,14 +1,14 @@
 ---
 title: IChartCellCollection
-second_title: Aspose.Sildes for .NET API リファレンス
-description: データを持つセルのコレクションを表します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: データを含むセルのコレクションを表します。
 type: docs
-weight: 1780
+weight: 1800
 url: /ja/aspose.slides.charts/ichartcellcollection/
 ---
 ## IChartCellCollection インターフェイス
 
-データを持つセルのコレクションを表します。
+データを含むセルのコレクションを表します。
 
 ```csharp
 public interface IChartCellCollection : IEnumerable<IChartDataCell>

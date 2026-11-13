@@ -1,14 +1,14 @@
 ---
 title: PresentationHeaderFooterManager
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεί τον διαχειριστή που διατηρεί τη συμπεριφορά όλων των στοιχείων κράτησης θέσης υποσέλιδου, ημερομηνίας-ώρας και αριθμού σελίδας της παρουσίασης.
+description: Αναπαριστά έναν διαχειριστή που διατηρεί τη συμπεριφορά όλων των συμβόλων υποσέλιδου, ημερομηνίας-ώρας και αριθμού σελίδας στην παρουσίαση.
 type: docs
-weight: 9610
+weight: 9630
 url: /el/aspose.slides/presentationheaderfootermanager/
 ---
 ## PresentationHeaderFooterManager κλάση
 
-Αντιπροσωπεί τον διαχειριστή που διατηρεί τη συμπεριφορά όλων των στοιχείων κράτησης θέσης υποσέλιδου, ημερομηνίας-ώρας και αριθμού σελίδας της παρουσίασης.
+Αναπαριστά έναν διαχειριστή που διατηρεί τη συμπεριφορά όλων των συμβόλων υποσέλιδου, ημερομηνίας-ώρας και αριθμού σελίδας στην παρουσίαση.
 
 ```csharp
 public class PresentationHeaderFooterManager : BaseHeaderFooterManager, 
@@ -19,20 +19,20 @@ public class PresentationHeaderFooterManager : BaseHeaderFooterManager,
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [SetAllDateTimesText](../../aspose.slides/presentationheaderfootermanager/setalldatetimestext)(string) | Ορίζει κείμενο σε όλα τα στοιχεία κράτησης θέσης ημερομηνίας-ώρας, συμπεριλαμβανομένων των κύριων διαφανειών, διαφανειών διάταξης, διαφανειών, κύριου σημειώματος, διαφανειών σημειώματος και κύριου φυλλαδίου. |
-| [SetAllDateTimesVisibility](../../aspose.slides/presentationheaderfootermanager/setalldatetimesvisibility)(bool) | Αλλάζει την προβολή όλων των στοιχείων κράτησης θέσης ημερομηνίας-ώρας, συμπεριλαμβανομένων των κύριων διαφανειών, διαφανειών διάταξης, διαφανειών, κύριου σημειώματος, διαφανειών σημειώματος και κύριου φυλλαδίου. |
-| [SetAllFootersText](../../aspose.slides/presentationheaderfootermanager/setallfooterstext)(string) | Ορίζει κείμενο σε όλα τα στοιχεία κράτησης θέσης υποσέλιδου, συμπεριλαμβανομένων των κύριων διαφανειών, διαφανειών διάταξης, διαφανειών, κύριου σημειώματος, διαφανειών σημειώματος και κύριου φυλλαδίου. |
-| [SetAllFootersVisibility](../../aspose.slides/presentationheaderfootermanager/setallfootersvisibility)(bool) | Αλλάζει την προβολή όλων των στοιχείων κράτησης θέσης υποσέλιδου, συμπεριλαμβανομένων των κύριων διαφανειών, διαφανειών διάταξης, διαφανειών, κύριου σημειώματος, διαφανειών σημειώματος και κύριου φυλλαδίου. |
-| [SetAllHeadersText](../../aspose.slides/presentationheaderfootermanager/setallheaderstext)(string) | Ορίζει κείμενο σε όλα τα στοιχεία κράτησης θέσης κεφαλίδας, συμπεριλαμβανομένων του κύριου σημειώματος, διαφανειών σημειώματος και κύριου φυλλαδίου. |
-| [SetAllHeadersVisibility](../../aspose.slides/presentationheaderfootermanager/setallheadersvisibility)(bool) | Αλλάζει την προβολή όλων των στοιχείων κράτησης θέσης κεφαλίδας, συμπεριλαμβανομένων του κύριου σημειώματος, διαφανειών σημειώματος και κύριου φυλλαδίου. |
-| [SetAllSlideNumbersVisibility](../../aspose.slides/presentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Αλλάζει την προβολή όλων των στοιχείων κράτησης θέσης αριθμού σελίδας, συμπεριλαμβανομένων των κύριων διαφανειών, διαφανειών διάταξης, διαφανειών, κύριου σημειώματος, διαφανειών σημειώματος και κύριου φυλλαδίου. |
-| [SetVisibilityOnAllTitleSlides](../../aspose.slides/presentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Αλλάζει την προβολή των στοιχείων κράτησης θέσης του υποσέλιδου, ημερομηνίας-ώρας και αριθμού σελίδας για όλες τις διαφάνειες τίτλου και για την πρώτη διαφάνεια διάταξης. Διαφάνειες τίτλου – διαφάνειες που βασίζονται στην πρώτη διαφάνεια διάταξης (ανεξάρτητα από τον τύπο αυτής της πρώτης διάταξης). |
+| [SetAllDateTimesText](../../aspose.slides/presentationheaderfootermanager/setalldatetimestext)(string) | Ορίζει κείμενο σε όλα τα σύμβολα ημερομηνίας-ώρας, συμπεριλαμβανομένων των διαφανειών προτύπου, διαφανειών διάταξης, διαφανειών, προτύπου σημειώσεων, διαφανειών σημειώσεων και προτύπου φυλλαδίου. |
+| [SetAllDateTimesVisibility](../../aspose.slides/presentationheaderfootermanager/setalldatetimesvisibility)(bool) | Αλλάζει την ορατότητα όλων των συμβόλων ημερομηνίας-ώρας, συμπεριλαμβανομένων των διαφανειών προτύπου, διαφανειών διάταξης, διαφανειών, προτύπου σημειώσεων, διαφανειών σημειώσεων και προτύπου φυλλαδίου. |
+| [SetAllFootersText](../../aspose.slides/presentationheaderfootermanager/setallfooterstext)(string) | Ορίζει κείμενο σε όλα τα σύμβολα υποσέλιδου, συμπεριλαμβανομένων των διαφανειών προτύπου, διαφανειών διάταξης, διαφανειών, προτύπου σημειώσεων, διαφανειών σημειώσεων και προτύπου φυλλαδίου. |
+| [SetAllFootersVisibility](../../aspose.slides/presentationheaderfootermanager/setallfootersvisibility)(bool) | Αλλάζει την ορατότητα όλων των συμβόλων υποσέλιδου, συμπεριλαμβανομένων των διαφανειών προτύπου, διαφανειών διάταξης, διαφανειών, προτύπου σημειώσεων, διαφανειών σημειώσεων και προτύπου φυλλαδίου. |
+| [SetAllHeadersText](../../aspose.slides/presentationheaderfootermanager/setallheaderstext)(string) | Ορίζει κείμενο σε όλα τα σύμβολα κεφαλίδας, συμπεριλαμβανομένων του προτύπου σημειώσεων, των διαφανειών σημειώσεων και του προτύπου φυλλαδίου. |
+| [SetAllHeadersVisibility](../../aspose.slides/presentationheaderfootermanager/setallheadersvisibility)(bool) | Αλλάζει την ορατότητα όλων των συμβόλων κεφαλίδας, συμπεριλαμβανομένων του προτύπου σημειώσεων, των διαφανειών σημειώσεων και του προτύπου φυλλαδίου. |
+| [SetAllSlideNumbersVisibility](../../aspose.slides/presentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Αλλάζει την ορατότητα όλων των συμβόλων αριθμού σελίδας, συμπεριλαμβανομένων των διαφανειών προτύπου, διαφανειών διάταξης, διαφανειών, προτύπου σημειώσεων, διαφανειών σημειώσεων και προτύπου φυλλαδίου. |
+| [SetVisibilityOnAllTitleSlides](../../aspose.slides/presentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Αλλάζει την ορατότητα των συμβόλων υποσέλιδου, ημερομηνίας-ώρας και αριθμού σελίδας για όλες τις διαφάνειες τίτλου και για την πρώτη διαφάνεια διάταξης. Διαφάνειες τίτλου – διαφάνειες που βασίζονται στην πρώτη διαφάνεια διάταξης (ανεξαρτήτως τύπου αυτής της πρώτης διάταξης). |
 
 ### Δείτε επίσης
 
 * κλάση [BaseHeaderFooterManager](../baseheaderfootermanager)
-* διεπαφή [IPresentationHeaderFooterManager](../ipresentationheaderfootermanager)
+* διασύνδεση [IPresentationHeaderFooterManager](../ipresentationheaderfootermanager)
 * χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
-* συγκρότημα [Aspose.Slides](../../)
+* συναρμολόγηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

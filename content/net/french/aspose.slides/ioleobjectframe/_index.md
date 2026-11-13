@@ -1,14 +1,14 @@
 ---
 title: IOleObjectFrame
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Aspose.Sildes pour la référence de l'API .NET
 description: Représente un objet OLE sur une diapositive.
 type: docs
-weight: 6540
+weight: 6560
 url: /fr/aspose.slides/ioleobjectframe/
 ---
-## IOleObjectFrame interface
+## Interface IOleObjectFrame
 
-Represents an OLE object on a slide.
+Représente un objet OLE sur une diapositive.
 
 ```csharp
 public interface IOleObjectFrame : IGraphicalObject
@@ -19,19 +19,19 @@ public interface IOleObjectFrame : IGraphicalObject
 | Nom | Description |
 | --- | --- |
 | [AsIGraphicalObject](../../aspose.slides/ioleobjectframe/asigraphicalobject) { get; } | Permet d'obtenir l'interface de base IGraphicalObject. Lecture seule [`IGraphicalObject`](../igraphicalobject). |
-| [EmbeddedData](../../aspose.slides/ioleobjectframe/embeddeddata) { get; } | Obtient les informations sur les données OLE intégrées. Lecture seule [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo). |
-| [EmbeddedFileLabel](../../aspose.slides/ioleobjectframe/embeddedfilelabel) { get; } | Renvoie le nom de fichier de l'objet OLE intégré |
-| [EmbeddedFileName](../../aspose.slides/ioleobjectframe/embeddedfilename) { get; } | Renvoie le chemin de l'objet OLE intégré |
-| [IsObjectIcon](../../aspose.slides/ioleobjectframe/isobjecticon) { get; set; } | Détermine si un objet est visible sous forme d'icône. Lecture/écriture Booléen. |
-| [IsObjectLink](../../aspose.slides/ioleobjectframe/isobjectlink) { get; } | Détermine si un objet est lié à un fichier externe. Lecture seule Booléen. |
-| [LinkFileName](../../aspose.slides/ioleobjectframe/linkfilename) { get; } | Renvoie le chemin complet d'un fichier lié. Le nom de fichier court sera utilisé. Lecture seule Chaîne. |
-| [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | Renvoie le chemin complet d'un fichier lié. Le nom de fichier long sera utilisé. Lecture/écriture Chaîne. |
-| [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | Renvoie le chemin relatif d'un fichier lié s'il existe, sinon renvoie une chaîne vide. Lecture seule Chaîne. |
-| [ObjectName](../../aspose.slides/ioleobjectframe/objectname) { get; set; } | Renvoie ou définit le nom d'un objet. Lecture/écriture Chaîne. |
-| [ObjectProgId](../../aspose.slides/ioleobjectframe/objectprogid) { get; set; } | Renvoie le ProgID d'un objet. Lecture seule Chaîne. |
-| [SubstitutePictureFormat](../../aspose.slides/ioleobjectframe/substitutepictureformat) { get; } | Renvoie l'objet des propriétés de remplissage d'image OleObject. Lecture seule [`IPictureFillFormat`](../ipicturefillformat). |
-| [SubstitutePictureTitle](../../aspose.slides/ioleobjectframe/substitutepicturetitle) { get; set; } | Renvoie ou définit le titre de l'icône OleObject. Lecture/écriture Chaîne. |
-| [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | Détermine si l'objet intégré lié est automatiquement mis à jour lorsque la présentation est ouverte ou imprimée. Lecture/écriture Booléen. |
+| [EmbeddedData](../../aspose.slides/ioleobjectframe/embeddeddata) { get; } | Obtient des informations sur les données OLE intégrées. Lecture seule [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo). |
+| [EmbeddedFileLabel](../../aspose.slides/ioleobjectframe/embeddedfilelabel) { get; } | Renvoie le nom de fichier de l'objet OLE intégré. |
+| [EmbeddedFileName](../../aspose.slides/ioleobjectframe/embeddedfilename) { get; } | Renvoie le chemin de l'objet OLE intégré. |
+| [IsObjectIcon](../../aspose.slides/ioleobjectframe/isobjecticon) { get; set; } | Détermine si un objet est visible sous forme d'icône. Lecture/écriture Boolean. |
+| [IsObjectLink](../../aspose.slides/ioleobjectframe/isobjectlink) { get; } | Détermine si un objet est lié à un fichier externe. Lecture seule Boolean. |
+| [LinkFileName](../../aspose.slides/ioleobjectframe/linkfilename) { get; } | Renvoie le chemin complet d'un fichier lié. Le nom de fichier court sera utilisé. Lecture seule String. |
+| [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | Renvoie le chemin complet d'un fichier lié. Le nom de fichier long sera utilisé. Lecture/écriture String. |
+| [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | Renvoie le chemin relatif d'un fichier lié si présent, sinon renvoie une chaîne vide. Lecture seule String. |
+| [ObjectName](../../aspose.slides/ioleobjectframe/objectname) { get; set; } | Renvoie ou définit le nom d'un objet. Lecture/écriture String. |
+| [ObjectProgId](../../aspose.slides/ioleobjectframe/objectprogid) { get; set; } | Renvoie le ProgID d'un objet. Lecture seule String. |
+| [SubstitutePictureFormat](../../aspose.slides/ioleobjectframe/substitutepictureformat) { get; } | Renvoie l'objet de propriétés de remplissage d'image OleObject. Lecture seule [`IPictureFillFormat`](../ipicturefillformat). |
+| [SubstitutePictureTitle](../../aspose.slides/ioleobjectframe/substitutepicturetitle) { get; set; } | Renvoie ou définit le titre pour l'icône OleObject. Lecture/écriture String. |
+| [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | Détermine si l'objet intégré lié est mis à jour automatiquement lorsque la présentation est ouverte ou imprimée. Lecture/écriture Boolean. |
 
 ## Méthodes
 
@@ -43,6 +43,6 @@ public interface IOleObjectFrame : IGraphicalObject
 
 * interface [IGraphicalObject](../igraphicalobject)
 * espace de noms [Aspose.Slides](../../aspose.slides)
-* assemblage [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

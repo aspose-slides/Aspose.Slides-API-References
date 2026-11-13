@@ -3,7 +3,7 @@ title: LineFormatCollection
 second_title: Aspose.Sildes für .NET API Referenz
 description: Stellt die Sammlung von Linienstilen dar.
 type: docs
-weight: 11420
+weight: 11440
 url: /de/aspose.slides.theme/lineformatcollection/
 ---
 ## LineFormatCollection Klasse
@@ -18,17 +18,17 @@ public sealed class LineFormatCollection : DomObject<FormatScheme>, ILineFormatC
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides.theme/lineformatcollection/count) { get; } | Liefert die tatsächlich in der Sammlung enthaltene Anzahl von Elementen zurück. Nur-Lesen Int32. |
-| [IsSynchronized](../../aspose.slides.theme/lineformatcollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (thread-sicher) ist. Nur-Lesen Boolean. |
-| [Item](../../aspose.slides.theme/lineformatcollection/item) { get; } | Liefert das Element am angegebenen Index. Nur-Lesen [`ILineFormat`](../../aspose.slides/ilineformat). |
-| [SyncRoot](../../aspose.slides.theme/lineformatcollection/syncroot) { get; } | Gibt ein Synchronisations-Root zurück. Nur-Lesen Object. |
+| [Count](../../aspose.slides.theme/lineformatcollection/count) { get; } | Ermittelt die tatsächlich in der Sammlung enthaltene Anzahl von Elementen. Nur lesbar Int32. |
+| [IsSynchronized](../../aspose.slides.theme/lineformatcollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (thread-sicher) ist. Nur lesbar Boolean. |
+| [Item](../../aspose.slides.theme/lineformatcollection/item) { get; } | Ermittelt das Element am angegebenen Index. Nur lesbar [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [SyncRoot](../../aspose.slides.theme/lineformatcollection/syncroot) { get; } | Gibt die Synchronisationswurzel zurück. Nur lesbar Object. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [CopyTo](../../aspose.slides.theme/lineformatcollection/copyto)(Array, int) | Kopiert alle Elemente aus der Sammlung in das angegebene Array. |
-| [GetEnumerator](../../aspose.slides.theme/lineformatcollection/getenumerator)() | Gibt einen Enumerator zurück, der die Sammlung durchläuft. |
+| [CopyTo](../../aspose.slides.theme/lineformatcollection/copyto)(Array, int) | Kopiert alle Elemente der Sammlung in das angegebene Array. |
+| [GetEnumerator](../../aspose.slides.theme/lineformatcollection/getenumerator)() | Gibt einen Enumerator zurück, der durch die Sammlung iteriert. |
 
 ### Siehe auch
 

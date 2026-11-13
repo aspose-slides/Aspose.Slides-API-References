@@ -3,7 +3,7 @@ title: FontsManager
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 프레젠테이션 전체에서 글꼴을 관리합니다.
 type: docs
-weight: 4940
+weight: 4960
 url: /ko/aspose.slides/fontsmanager/
 ---
 ## FontsManager 클래스
@@ -18,36 +18,37 @@ public class FontsManager : IFontsManager
 
 | 이름 | 설명 |
 | --- | --- |
-| [FontFallBackRulesCollection](../../aspose.slides/fontsmanager/fontfallbackrulescollection) { get; set; } | 사용자가 FontFallBack 규칙을 모아 글꼴 컬렉션을 관리하고 대체 기능을 통해 올바르게 교체하도록 하는 컬렉션을 나타냅니다. 읽기/쓰기 [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
-| [FontSubstRuleList](../../aspose.slides/fontsmanager/fontsubstrulelist) { get; set; } | 렌더링 시 사용할 글꼴 대체. 읽기/쓰기 [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
+| [FontFallBackRulesCollection](../../aspose.slides/fontsmanager/fontfallbackrulescollection) { get; set; } | 사용자의 FontFallBack 규칙 컬렉션을 나타내며, 폰트 컬렉션을 관리하여 폴백 기능을 통해 적절한 대체를 수행합니다. 읽기/쓰기 [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
+| [FontSubstRuleList](../../aspose.slides/fontsmanager/fontsubstrulelist) { get; set; } | 렌더링 시 사용할 폰트 대체. 읽기/쓰기 [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
+| [PreferRegisteredFontsOverEmbedded](../../aspose.slides/fontsmanager/preferregisteredfontsoverembedded) { get; set; } | 등록된 폰트가 동일한 폰트 이름 및 스타일을 가진 임베디드 폰트보다 선호되어야 하는지 여부를 지정합니다. 활성화되면, 일치하는 임베디드 폰트가 내보내기 중에 해당 등록된 폰트로 일시적으로 교체됩니다. |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | 내장 글꼴을 추가합니다. 글꼴을 복사할 때 대부분의 글꼴이 저작권이 있음을 명심하십시오. 먼저 글꼴 라이선스를 확인하고 다른 기계에 자유롭게 전달할 수 있는지 확인해야 합니다. 글꼴 데이터가 null이거나 이미 내장된 경우 ArgumentException이 발생할 수 있습니다. |
-| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | 내장 글꼴을 추가합니다. 글꼴을 복사할 때 대부분의 글꼴이 저작권이 있음을 명심하십시오. 먼저 글꼴 라이선스를 확인하고 다른 기계에 자유롭게 전달할 수 있는지 확인해야 합니다. 글꼴 데이터가 null이거나 이미 내장된 경우 ArgumentException이 발생할 수 있습니다. |
-| [GetEmbeddedFonts](../../aspose.slides/fontsmanager/getembeddedfonts)() | 프레젠테이션에 내장된 글꼴을 반환합니다. |
-| [GetFontBytes](../../aspose.slides/fontsmanager/getfontbytes)(IFontData, FontStyleType) | 지정된 글꼴 스타일 및 글꼴 데이터에 대한 글꼴 데이터 바이트 배열을 검색합니다. |
-| [GetFontEmbeddingLevel](../../aspose.slides/fontsmanager/getfontembeddinglevel)(byte[], string) | 주어진 바이트 배열 및 글꼴 이름으로 글꼴의 내장 수준을 결정합니다. |
-| [GetFonts](../../aspose.slides/fontsmanager/getfonts)() | 프레젠테이션에서 사용된 글꼴을 반환합니다. |
-| [GetSubstitutions](../../aspose.slides/fontsmanager/getsubstitutions#getsubstitutions)() | 프레젠테이션 렌더링 시 교체될 글꼴에 대한 정보를 가져옵니다. |
-| [GetSubstitutions](../../aspose.slides/fontsmanager/getsubstitutions#getsubstitutions_1)(int[]) | 지정된 슬라이드 렌더링 중 교체될 글꼴에 대한 정보를 가져옵니다. |
-| [RemoveEmbeddedFont](../../aspose.slides/fontsmanager/removeembeddedfont)(IFontData) | 내장된 글꼴을 제거합니다. |
-| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_1)(IFontSubstRule) | 제공된 [`FontSubstRule`](../fontsubstrule) 정보를 사용하여 프레젠테이션의 글꼴을 교체합니다. |
-| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | [`FontSubstRule`](../fontsubstrule) 컬렉션에 제공된 정보를 사용하여 프레젠테이션의 글꼴을 교체합니다. |
-| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont)(IFontData, IFontData) | 프레젠테이션의 글꼴을 교체합니다. |
+| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | 임베디드 폰트를 추가합니다. 대부분의 폰트는 저작권이 있으므로 폰트를 복사할 때 이를 유념하십시오. 먼저 폰트의 라이선스를 확인하고 해당 폰트를 다른 머신에 자유롭게 전송할 수 있는지 확인하십시오. font data가 null이거나 이미 임베디드된 경우 ArgumentException이 발생할 수 있습니다. |
+| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | 임베디드 폰트를 추가합니다. 대부분의 폰트는 저작권이 있으므로 폰트를 복사할 때 이를 유념하십시오. 먼저 폰트의 라이선스를 확인하고 해당 폰트를 다른 머신에 자유롭게 전송할 수 있는지 확인하십시오. font data가 null이거나 이미 임베디드된 경우 ArgumentException이 발생할 수 있습니다. |
+| [GetEmbeddedFonts](../../aspose.slides/fontsmanager/getembeddedfonts)() | 프레젠테이션에 임베디드된 폰트를 반환합니다. |
+| [GetFontBytes](../../aspose.slides/fontsmanager/getfontbytes)(IFontData, FontStyleType) | 지정된 폰트 스타일 및 폰트 데이터에 대한 폰트 데이터를 나타내는 바이트 배열을 가져옵니다. |
+| [GetFontEmbeddingLevel](../../aspose.slides/fontsmanager/getfontembeddinglevel)(byte[], string) | 주어진 바이트 배열과 폰트 이름으로부터 폰트의 임베딩 수준을 결정합니다. |
+| [GetFonts](../../aspose.slides/fontsmanager/getfonts)() | 프레젠테이션에서 사용된 폰트를 반환합니다. |
+| [GetSubstitutions](../../aspose.slides/fontsmanager/getsubstitutions#getsubstitutions)() | 프레젠테이션 렌더링 시 교체될 폰트에 대한 정보를 가져옵니다. |
+| [GetSubstitutions](../../aspose.slides/fontsmanager/getsubstitutions#getsubstitutions_1)(int[]) | 지정된 슬라이드 렌더링 중에 교체될 폰트에 대한 정보를 가져옵니다. |
+| [RemoveEmbeddedFont](../../aspose.slides/fontsmanager/removeembeddedfont)(IFontData) | 임베디드 폰트를 제거합니다. |
+| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_1)(IFontSubstRule) | [`FontSubstRule`](../fontsubstrule)에 제공된 정보를 사용하여 프레젠테이션의 폰트를 교체합니다. |
+| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | [`FontSubstRule`](../fontsubstrule) 컬렉션에 제공된 정보를 사용하여 프레젠테이션의 폰트를 교체합니다. |
+| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont)(IFontData, IFontData) | 프레젠테이션에서 폰트를 교체합니다. |
 
 ### 예제
 
-다음 예제는 PowerPoint 프레젠테이션에 내장 글꼴을 추가하는 방법을 보여줍니다.
+다음 예제는 PowerPoint 프레젠테이션에 임베디드 폰트를 추가하는 방법을 보여줍니다.
 
 ```csharp
 [C#]
 // 프레젠테이션 로드
 using (Presentation presentation = new Presentation("Fonts.pptx"))
 {
-	// 대체될 소스 글꼴 로드
+	// 교체할 원본 폰트 로드
 	IFontData sourceFont = new FontData("Arial");
 	IFontData[] allFonts = presentation.FontsManager.GetFonts();
 	IFontData[] embeddedFonts = presentation.FontsManager.GetEmbeddedFonts();
@@ -63,7 +64,7 @@ using (Presentation presentation = new Presentation("Fonts.pptx"))
 }
 ```
 
-### 참고
+### 참조
 
 * 인터페이스 [IFontsManager](../ifontsmanager)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

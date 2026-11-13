@@ -1,14 +1,14 @@
 ---
 title: ISlideCollection
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Biểu thị một bộ sưu tập các slide.
+second_title: Tham chiếu API Aspose.Sildes dành cho .NET
+description: Đại diện cho một bộ sưu tập các slide.
 type: docs
-weight: 7050
+weight: 7070
 url: /vi/aspose.slides/islidecollection/
 ---
 ## ISlideCollection giao diện
 
-Biểu thị một bộ sưu tập các slide.
+Represents a collection of a slides.
 
 ```csharp
 public interface ISlideCollection : IGenericCollection<ISlide>
@@ -18,16 +18,16 @@ public interface ISlideCollection : IGenericCollection<ISlide>
 
 | Tên | Mô tả |
 | --- | --- |
-| [Item](../../aspose.slides/islidecollection/item) { get; } | Lấy phần tử tại chỉ mục được chỉ định. Chỉ đọc [`ISlide`](../islide). |
+| [Item](../../aspose.slides/islidecollection/item) { get; } | Lấy phần tử tại chỉ số đã chỉ định. Chỉ đọc [`ISlide`](../islide). |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [AddClone](../../aspose.slides/islidecollection/addclone#addclone)(ISlide) | Thêm một bản sao của slide được chỉ định vào cuối bộ sưu tập. |
-| [AddClone](../../aspose.slides/islidecollection/addclone#addclone_1)(ISlide, ILayoutSlide) | Thêm một bản sao của slide được chỉ định vào cuối bộ sưu tập. |
-| [AddClone](../../aspose.slides/islidecollection/addclone#addclone_3)(ISlide, ISection) | Thêm một bản sao của slide được chỉ định vào cuối phần được chỉ định. |
-| [AddClone](../../aspose.slides/islidecollection/addclone#addclone_2)(ISlide, IMasterSlide, bool) | Thêm một bản sao của slide nguồn đã chỉ định vào cuối bộ sưu tập. Bố cục thích hợp sẽ được tự động chọn từ master được chỉ định (bố cục thích hợp là bố cục có cùng Type hoặc Name với bố cục của slide nguồn). Nếu không có bố cục thích hợp thì bố cục của slide nguồn sẽ được sao chép (nếu allowCloneMissingLayout là true) hoặc sẽ ném ra PptxEditException (nếu allowCloneMissingLayout là false). |
+| [AddClone](../../aspose.slides/islidecollection/addclone#addclone)(ISlide) | Thêm một bản sao của slide đã chỉ định vào cuối bộ sưu tập. |
+| [AddClone](../../aspose.slides/islidecollection/addclone#addclone_1)(ISlide, ILayoutSlide) | Thêm một bản sao của slide đã chỉ định vào cuối bộ sưu tập. |
+| [AddClone](../../aspose.slides/islidecollection/addclone#addclone_3)(ISlide, ISection) | Thêm một bản sao của slide đã chỉ định vào cuối phần đã chỉ định. |
+| [AddClone](../../aspose.slides/islidecollection/addclone#addclone_2)(ISlide, IMasterSlide, bool) | Thêm một bản sao của slide nguồn đã chỉ định vào cuối bộ sưu tập. Bố cục phù hợp sẽ được chọn tự động từ master đã chỉ định (bố cục phù hợp là bố cục có Type hoặc Name giống với bố cục của slide nguồn). Nếu không có bố cục phù hợp thì bố cục của slide nguồn sẽ được sao chép (nếu allowCloneMissingLayout là true) hoặc sẽ ném ra PptxEditException (nếu allowCloneMissingLayout là false). |
 | [AddEmptySlide](../../aspose.slides/islidecollection/addemptyslide)(ILayoutSlide) | Thêm một slide trống mới vào cuối bộ sưu tập. |
 | [AddFromHtml](../../aspose.slides/islidecollection/addfromhtml#addfromhtml)(Stream) | Tạo các slide từ văn bản HTML và thêm chúng vào cuối bộ sưu tập. |
 | [AddFromHtml](../../aspose.slides/islidecollection/addfromhtml#addfromhtml_4)(string) | Tạo các slide từ văn bản HTML và thêm chúng vào cuối bộ sưu tập. |
@@ -40,26 +40,26 @@ public interface ISlideCollection : IGenericCollection<ISlide>
 | [AddFromPdf](../../aspose.slides/islidecollection/addfrompdf#addfrompdf_1)(Stream, PdfImportOptions) | Tạo các slide từ tài liệu PDF và thêm chúng vào cuối bộ sưu tập. |
 | [AddFromPdf](../../aspose.slides/islidecollection/addfrompdf#addfrompdf_3)(string, PdfImportOptions) | Tạo các slide từ tài liệu PDF và thêm chúng vào cuối bộ sưu tập, cân nhắc các tùy chọn nhập PDF. |
 | [IndexOf](../../aspose.slides/islidecollection/indexof)(ISlide) | Trả về chỉ mục của slide đã chỉ định trong bộ sưu tập. |
-| [InsertClone](../../aspose.slides/islidecollection/insertclone#insertclone)(int, ISlide) | Chèn một bản sao của slide được chỉ định vào vị trí được chỉ định của bộ sưu tập. |
-| [InsertClone](../../aspose.slides/islidecollection/insertclone#insertclone_1)(int, ISlide, ILayoutSlide) | Chèn một bản sao của slide được chỉ định vào vị trí được chỉ định của bộ sưu tập. |
-| [InsertClone](../../aspose.slides/islidecollection/insertclone#insertclone_2)(int, ISlide, IMasterSlide, bool) | Chèn một bản sao của slide nguồn đã chỉ định vào vị trí được chỉ định của bộ sưu tập. Bố cục thích hợp sẽ được tự động chọn từ master được chỉ định (bố cục thích hợp là bố cục có cùng Type hoặc Name với bố cục của slide nguồn). Nếu không có bố cục thích hợp thì bố cục của slide nguồn sẽ được sao chép (nếu allowCloneMissingLayout là true) hoặc sẽ ném ra PptxEditException (nếu allowCloneMissingLayout là false). |
-| [InsertEmptySlide](../../aspose.slides/islidecollection/insertemptyslide)(int, ILayoutSlide) | Chèn một bản sao của slide được chỉ định vào vị trí được chỉ định của bộ sưu tập. |
-| [InsertFromHtml](../../aspose.slides/islidecollection/insertfromhtml#insertfromhtml)(int, Stream) | Tạo các slide từ văn bản HTML và chèn chúng vào bộ sưu tập tại vị trí được chỉ định. |
-| [InsertFromHtml](../../aspose.slides/islidecollection/insertfromhtml#insertfromhtml_6)(int, string) | Tạo các slide từ văn bản HTML và chèn chúng vào bộ sưu tập tại vị trí được chỉ định. |
-| [InsertFromHtml](../../aspose.slides/islidecollection/insertfromhtml#insertfromhtml_4)(int, TextReader) | Tạo các slide từ văn bản HTML và chèn chúng vào bộ sưu tập tại vị trí được chỉ định. |
-| [InsertFromHtml](../../aspose.slides/islidecollection/insertfromhtml#insertfromhtml_3)(int, Stream, bool) | Tạo các slide từ văn bản HTML và chèn chúng vào bộ sưu tập tại vị trí được chỉ định. |
-| [InsertFromHtml](../../aspose.slides/islidecollection/insertfromhtml#insertfromhtml_9)(int, string, bool) | Tạo các slide từ văn bản HTML và chèn chúng vào bộ sưu tập tại vị trí được chỉ định. |
-| [InsertFromHtml](../../aspose.slides/islidecollection/insertfromhtml#insertfromhtml_1)(int, Stream, IExternalResourceResolver, string) | Tạo các slide từ văn bản HTML và chèn chúng vào bộ sưu tập tại vị trí được chỉ định. |
-| [InsertFromHtml](../../aspose.slides/islidecollection/insertfromhtml#insertfromhtml_7)(int, string, IExternalResourceResolver, string) | Tạo các slide từ văn bản HTML và chèn chúng vào bộ sưu tập tại vị trí được chỉ định. |
-| [InsertFromHtml](../../aspose.slides/islidecollection/insertfromhtml#insertfromhtml_5)(int, TextReader, IExternalResourceResolver, string) | Tạo các slide từ văn bản HTML và chèn chúng vào bộ sưu tập tại vị trí được chỉ định. |
-| [InsertFromHtml](../../aspose.slides/islidecollection/insertfromhtml#insertfromhtml_2)(int, Stream, IExternalResourceResolver, string, bool) | Tạo các slide từ văn bản HTML và chèn chúng vào bộ sưu tập tại vị trí được chỉ định. |
-| [InsertFromHtml](../../aspose.slides/islidecollection/insertfromhtml#insertfromhtml_8)(int, string, IExternalResourceResolver, string, bool) | Tạo các slide từ văn bản HTML và chèn chúng vào bộ sưu tập tại vị trí được chỉ định. |
+| [InsertClone](../../aspose.slides/islidecollection/insertclone#insertclone)(int, ISlide) | Chèn một bản sao của slide đã chỉ định vào vị trí được chỉ định của bộ sưu tập. |
+| [InsertClone](../../aspose.slides/islidecollection/insertclone#insertclone_1)(int, ISlide, ILayoutSlide) | Chèn một bản sao của slide đã chỉ định vào vị trí được chỉ định của bộ sưu tập. |
+| [InsertClone](../../aspose.slides/islidecollection/insertclone#insertclone_2)(int, ISlide, IMasterSlide, bool) | Chèn một bản sao của slide nguồn đã chỉ định vào vị trí được chỉ định của bộ sưu tập. Bố cục phù hợp sẽ được chọn tự động từ master đã chỉ định (bố cục phù hợp là bố cục có Type hoặc Name giống với bố cục của slide nguồn). Nếu không có bố cục phù hợp thì bố cục của slide nguồn sẽ được sao chép (nếu allowCloneMissingLayout là true) hoặc sẽ ném ra PptxEditException (nếu allowCloneMissingLayout là false). |
+| [InsertEmptySlide](../../aspose.slides/islidecollection/insertemptyslide)(int, ILayoutSlide) | Chèn một bản sao của slide đã chỉ định vào vị trí được chỉ định của bộ sưu tập. |
+| [InsertFromHtml](../../aspose.slides/islidecollection/insertfromhtml#insertfromhtml)(int, Stream) | Tạo các slide từ văn bản HTML và chèn chúng vào bộ sưu tập tại vị trí đã chỉ định. |
+| [InsertFromHtml](../../aspose.slides/islidecollection/insertfromhtml#insertfromhtml_6)(int, string) | Tạo các slide từ văn bản HTML và chèn chúng vào bộ sưu tập tại vị trí đã chỉ định. |
+| [InsertFromHtml](../../aspose.slides/islidecollection/insertfromhtml#insertfromhtml_4)(int, TextReader) | Tạo các slide từ văn bản HTML và chèn chúng vào bộ sưu tập tại vị trí đã chỉ định. |
+| [InsertFromHtml](../../aspose.slides/islidecollection/insertfromhtml#insertfromhtml_3)(int, Stream, bool) | Tạo các slide từ văn bản HTML và chèn chúng vào bộ sưu tập tại vị trí đã chỉ định. |
+| [InsertFromHtml](../../aspose.slides/islidecollection/insertfromhtml#insertfromhtml_9)(int, string, bool) | Tạo các slide từ văn bản HTML và chèn chúng vào bộ sưu tập tại vị trí đã chỉ định. |
+| [InsertFromHtml](../../aspose.slides/islidecollection/insertfromhtml#insertfromhtml_1)(int, Stream, IExternalResourceResolver, string) | Tạo các slide từ văn bản HTML và chèn chúng vào bộ sưu tập tại vị trí đã chỉ định. |
+| [InsertFromHtml](../../aspose.slides/islidecollection/insertfromhtml#insertfromhtml_7)(int, string, IExternalResourceResolver, string) | Tạo các slide từ văn bản HTML và chèn chúng vào bộ sưu tập tại vị trí đã chỉ định. |
+| [InsertFromHtml](../../aspose.slides/islidecollection/insertfromhtml#insertfromhtml_5)(int, TextReader, IExternalResourceResolver, string) | Tạo các slide từ văn bản HTML và chèn chúng vào bộ sưu tập tại vị trí đã chỉ định. |
+| [InsertFromHtml](../../aspose.slides/islidecollection/insertfromhtml#insertfromhtml_2)(int, Stream, IExternalResourceResolver, string, bool) | Tạo các slide từ văn bản HTML và chèn chúng vào bộ sưu tập tại vị trí đã chỉ định. |
+| [InsertFromHtml](../../aspose.slides/islidecollection/insertfromhtml#insertfromhtml_8)(int, string, IExternalResourceResolver, string, bool) | Tạo các slide từ văn bản HTML và chèn chúng vào bộ sưu tập tại vị trí đã chỉ định. |
 | [Remove](../../aspose.slides/islidecollection/remove)(ISlide) | Xóa lần xuất hiện đầu tiên của một đối tượng cụ thể khỏi bộ sưu tập. |
-| [RemoveAt](../../aspose.slides/islidecollection/removeat)(int) | Xóa phần tử tại chỉ mục được chỉ định của bộ sưu tập. |
-| [Reorder](../../aspose.slides/islidecollection/reorder#reorder)(int, ISlide) | Di chuyển slide từ bộ sưu tập đến vị trí được chỉ định. |
-| [Reorder](../../aspose.slides/islidecollection/reorder#reorder_1)(int, params ISlide[]) | Di chuyển các slide từ bộ sưu tập đến vị trí được chỉ định. Các slide sẽ được đặt bắt đầu từ chỉ mục theo thứ tự chúng xuất hiện trong danh sách. |
+| [RemoveAt](../../aspose.slides/islidecollection/removeat)(int) | Xóa phần tử tại chỉ số đã chỉ định của bộ sưu tập. |
+| [Reorder](../../aspose.slides/islidecollection/reorder#reorder)(int, ISlide) | Di chuyển slide từ bộ sưu tập đến vị trí đã chỉ định. |
+| [Reorder](../../aspose.slides/islidecollection/reorder#reorder_1)(int, params ISlide[]) | Di chuyển các slide từ bộ sưu tập đến vị trí đã chỉ định. Các slide sẽ được đặt bắt đầu từ chỉ mục theo thứ tự chúng xuất hiện trong danh sách. |
 | [ToArray](../../aspose.slides/islidecollection/toarray#toarray)() | Tạo và trả về một mảng chứa tất cả các slide. |
-| [ToArray](../../aspose.slides/islidecollection/toarray#toarray_1)(int, int) | Tạo và trả về một mảng chứa tất cả các slide trong khoảng được chỉ định. |
+| [ToArray](../../aspose.slides/islidecollection/toarray#toarray_1)(int, int) | Tạo và trả về một mảng chứa tất cả các slide từ phạm vi đã chỉ định. |
 
 ### Xem thêm
 

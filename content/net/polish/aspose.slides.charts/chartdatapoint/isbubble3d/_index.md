@@ -1,9 +1,9 @@
 ---
 title: IsBubble3D
-second_title: Aspose.Sildes dla .NET Referencja API
+second_title: Aspose.Sildes dla .NET – Referencja API
 description: Określa, że bąbelki mają zastosowany efekt 3-D. Odczyt/zapis Boolean.
 type: docs
-weight: 130
+weight: 170
 url: /pl/aspose.slides.charts/chartdatapoint/isbubble3d/
 ---
 ## ChartDataPoint.IsBubble3D właściwość

@@ -1,14 +1,14 @@
 ---
 title: IColorReplace
-second_title: Aspose.Sildes .NET API Referansı
-description: Bir Renk Değiştirme etkisini temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Renk Değiştirme etkisini temsil eder.
 type: docs
-weight: 3240
+weight: 3260
 url: /tr/aspose.slides.effects/icolorreplace/
 ---
-## IColorReplace arayüz
+## IColorReplace arayüzü
 
-Bir Renk Değiştirme etkisini temsil eder.
+Renk Değiştirme etkisini temsil eder.
 
 ```csharp
 public interface IColorReplace : IAccessiblePVIObject<IColorReplaceEffectiveData>, 
@@ -17,13 +17,13 @@ public interface IColorReplace : IAccessiblePVIObject<IColorReplaceEffectiveData
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorreplace/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arayüzünü almaya izin verir. Salt okunur [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/icolorreplace/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arayüzünü almaya izin verir. Salt okunur [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Color](../../aspose.slides.effects/icolorreplace/color) { get; } | Her pikselin rengini değiştirecek renk formatını döndürür. Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorreplace/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arayüzünü almayı sağlar. Salt okunur [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/icolorreplace/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arayüzünü almayı sağlar. Salt okunur [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Color](../../aspose.slides.effects/icolorreplace/color) { get; } | Her pikselin rengini değiştirecek renk biçimini döndürür. Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
 
-### Ayrıca Bakınız
+### See Also
 
 * arayüz [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * arayüz [IColorReplaceEffectiveData](../icolorreplaceeffectivedata)

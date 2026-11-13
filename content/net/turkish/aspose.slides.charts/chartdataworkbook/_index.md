@@ -1,14 +1,14 @@
 ---
 title: ChartDataWorkbook
 second_title: Aspose.Sildes for .NET API Referansı
-description: Yerleşik Excel çalışma kitabına erişim sağlar
+description: Gömülü Excel çalışma kitabına erişim sağlar
 type: docs
-weight: 1380
+weight: 1390
 url: /tr/aspose.slides.charts/chartdataworkbook/
 ---
 ## ChartDataWorkbook sınıfı
 
-Yerleşik Excel çalışma kitabına erişim sağlar
+Gömülü Excel çalışma kitabına erişim sağlar
 
 ```csharp
 public class ChartDataWorkbook : DomObject<ChartData>, IChartDataWorkbook
@@ -18,22 +18,22 @@ public class ChartDataWorkbook : DomObject<ChartData>, IChartDataWorkbook
 
 | Ad | Açıklama |
 | --- | --- |
-| [Worksheets](../../aspose.slides.charts/chartdataworkbook/worksheets) { get; } | Çalışma sayfalarının bir koleksiyonunu döndürür. |
+| [Worksheets](../../aspose.slides.charts/chartdataworkbook/worksheets) { get; } | Çalışma sayfalarının bir koleksiyonunu alır. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | [CalculateFormulas](../../aspose.slides.charts/chartdataworkbook/calculateformulas)() | Çalışma kitabındaki tüm formülleri hesaplar ve ilgili hücre değerlerini günceller. |
-| [Clear](../../aspose.slides.charts/chartdataworkbook/clear)(int) | Sayfadaki tüm hücre değerlerini temizler. |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_2)(int, string) | Grafik serileri veya kategorileri için kullanılabilecek hücreyi alır. |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell)(int, int, int) | Grafik serileri veya kategorileri için kullanılabilecek hücreyi alır. |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_3)(int, string, object) | Grafik serileri veya kategorileri için kullanılabilecek hücreyi alır. |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_4)(string, int, int) | Grafik serileri veya kategorileri için kullanılabilecek hücreyi alır. |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_1)(int, int, int, object) | Grafik serileri veya kategorileri için kullanılabilecek hücreyi alır. |
+| [Clear](../../aspose.slides.charts/chartdataworkbook/clear)(int) | Sayfadaki tüm hücre değerlerini temizler |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_2)(int, string) | Grafik serileri veya kategorileri için kullanılabilecek hücreyi alır |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell)(int, int, int) | Grafik serileri veya kategorileri için kullanılabilecek hücreyi alır |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_3)(int, string, object) | Grafik serileri veya kategorileri için kullanılabilecek hücreyi alır |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_4)(string, int, int) | Grafik serileri veya kategorileri için kullanılabilecek hücreyi alır |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_1)(int, int, int, object) | Grafik serileri veya kategorileri için kullanılabilecek hücreyi alır |
 | [GetCellCollection](../../aspose.slides.charts/chartdataworkbook/getcellcollection)(string, bool) | Hücre kümesini alır. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * sınıf [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * sınıf [ChartData](../chartdata)

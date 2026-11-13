@@ -1,14 +1,14 @@
 ---
 title: GetFontEmbeddingLevel
-second_title: Aspose.Sildes pro .NET API Reference
-description: Určuje úroveň vkládání písma z daného pole bajtů a názvu písma.
+second_title: Aspose.Sildes pro .NET referenci API
+description: Určuje úroveň vložení písma z daného pole bajtů a názvu písma.
 type: docs
-weight: 60
+weight: 70
 url: /cs/aspose.slides/ifontsmanager/getfontembeddinglevel/
 ---
 ## IFontsManager.GetFontEmbeddingLevel metoda
 
-Určuje úroveň vkládání písma z daného pole bajtů a názvu písma.
+Určuje úroveň vložení písma z daného pole bajtů a názvu písma.
 
 ```csharp
 public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
@@ -21,13 +21,13 @@ public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
 
 ### Návratová hodnota
 
-Úroveň vkládání specifikovaného písma.
+Úroveň vložení uvedeného písma.
 
 ### Výjimky
 
 | výjimka | podmínka |
 | --- | --- |
-| ArgumentNullException | Vyvolána, když je *fontBytes* null. |
+| ArgumentNullException | Vyvolána, když *fontBytes* je null. |
 
 ### Příklady
 
@@ -35,13 +35,13 @@ public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
 [C#]
 using (Presentation pres = new Presentation(pptxFileName))
 {
-    // Získat všechna písma použité v prezentaci
+    // Načíst všechna písma použitá v prezentaci
     IFontData[] fontDatas = pres.FontsManager.GetFonts();
 
     // Získat pole bajtů představující běžný styl prvního písma v prezentaci
     byte[] bytes = pres.FontsManager.GetFontBytes(fontDatas[0], FontStyle.Regular);
 
-    // Stanovit úroveň vkládání písma
+    // Určit úroveň vložení písma
     EmbeddingLevel embeddingLevel = pres.FontsManager.GetFontEmbeddingLevel(bytes, fontDatas[0].FontName);
 }
 ```

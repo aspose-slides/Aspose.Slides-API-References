@@ -1,9 +1,9 @@
 ---
 title: ReturnAction
-second_title: Aspose.Sildes .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 경고 콜백 결정 옵션을 나타냅니다.
 type: docs
-weight: 11820
+weight: 11840
 url: /ko/aspose.slides.warnings/returnaction/
 ---
 ## ReturnAction 열거형

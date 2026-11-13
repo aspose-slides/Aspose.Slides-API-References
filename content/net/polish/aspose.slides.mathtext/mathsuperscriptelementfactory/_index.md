@@ -1,18 +1,19 @@
 ---
 title: MathSuperscriptElementFactory
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Umożliwia utworzenie IMathSuperscriptElement
+second_title: Aspose.Sildes dla .NET - Dokumentacja API
+description: Umożliwia tworzenie IMathSuperscriptElement
 type: docs
-weight: 9030
+weight: 9050
 url: /pl/aspose.slides.mathtext/mathsuperscriptelementfactory/
 ---
 ## MathSuperscriptElementFactory klasa
 
-Umożliwia utworzenie IMathSuperscriptElement
+Umożliwia tworzenie IMathSuperscriptElement
 
 ```csharp
 public class MathSuperscriptElementFactory : IMathSuperscriptElementFactory
 ```
+
 
 ## Konstruktory
 
@@ -28,9 +29,9 @@ public class MathSuperscriptElementFactory : IMathSuperscriptElementFactory
 
 ### Uwagi
 
-Dla kompatybilności z COM
+Dla kompatybilności COM
 
-### Zobacz również
+### Zobacz także
 
 * interfejs [IMathSuperscriptElementFactory](../imathsuperscriptelementfactory)
 * przestrzeń nazw [Aspose.Slides.MathText](../../aspose.slides.mathtext)

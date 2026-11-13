@@ -1,14 +1,14 @@
 ---
 title: IHyperlinkManager
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: हाइपरलिंक्स प्रबंधन (जोड़ना, हटाना) प्रदान करता है।
+description: हाइपरलिंक प्रबंधन (जोड़ना, हटाना) प्रदान करता है।
 type: docs
-weight: 6130
+weight: 6150
 url: /hi/aspose.slides/ihyperlinkmanager/
 ---
 ## IHyperlinkManager इंटरफ़ेस
 
-हाइपरलिंक्स प्रबंधन (जोड़ना, हटाना) प्रदान करता है।
+हाइपरलिंक प्रबंधन (जोड़ना, हटाना) प्रदान करता है।
 
 ```csharp
 public interface IHyperlinkManager
@@ -26,7 +26,7 @@ public interface IHyperlinkManager
 | [SetInternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | माउस ओवर पर आंतरिक हाइपरलिंक सेट करता है। |
 | [SetMacroHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setmacrohyperlinkclick)(string) | क्लिक पर मैक्रो हाइपरलिंक सेट करता है। |
 
-### देखें भी
+### संबंधित देखें
 
 * नेमस्पेस [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

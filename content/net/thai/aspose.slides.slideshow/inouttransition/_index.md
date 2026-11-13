@@ -1,14 +1,14 @@
 ---
 title: InOutTransition
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: เอฟเฟกต์การเปลี่ยนสไลด์แบบเข้า-ออก
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: เอฟเฟกต์การเปลี่ยนสไลด์แบบ In-Out
 type: docs
-weight: 10230
+weight: 10250
 url: /th/aspose.slides.slideshow/inouttransition/
 ---
 ## InOutTransition คลาส
 
-เอฟเฟกต์การเปลี่ยนภาพสไลด์แบบเข้า-ออก
+เอฟเฟกต์การเปลี่ยนสไลด์แบบ In-Out
 
 ```csharp
 public class InOutTransition : TransitionValueBase, IInOutTransition
@@ -18,13 +18,13 @@ public class InOutTransition : TransitionValueBase, IInOutTransition
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/inouttransition/direction) { get; set; } | ทิศทางของเอฟเฟกต์การเปลี่ยนภาพ. อ่าน/เขียน [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/inouttransition/direction) { get; set; } | ทิศทางของเอฟเฟกต์การเปลี่ยน. อ่าน/เขียน [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | กำหนดว่าตัวอย่างสองตัวของ TransitionValueBase เท่ากันหรือไม่. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | กำหนดว่าตัวอย่าง TransitionValueBase สองตัวเท่ากันหรือไม่. |
 | override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทเฉพาะ, เหมาะสำหรับใช้ในอัลกอริทึมแฮชและโครงสร้างข้อมูลเช่น ตารางแฮช. |
 
 ### ดูเพิ่มเติม

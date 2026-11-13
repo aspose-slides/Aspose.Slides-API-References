@@ -1,14 +1,14 @@
 ---
 title: IExternalResourceResolver
-second_title: Aspose.Sildes .NET API referenciája
-description: Visszahívási interfész, amely a HTML és SVG dokumentumok importálása során a külső erőforrások feloldására szolgál.
+second_title: Aspose.Sildes .NET API referencia
+description: Visszahívási interfész, amely a külső erőforrások feloldására szolgál a Html és Svg dokumentumok importálása során.
 type: docs
-weight: 7490
+weight: 7510
 url: /hu/aspose.slides.import/iexternalresourceresolver/
 ---
 ## IExternalResourceResolver interfész
 
-Visszahívási interfész, amely a külső erőforrások feloldására szolgál a Html, Svg dokumentumok importálása során.
+Visszahívási interfész, amely a külső erőforrások feloldására szolgál a Html és Svg dokumentumok importálása során.
 
 ```csharp
 public interface IExternalResourceResolver
@@ -18,8 +18,8 @@ public interface IExternalResourceResolver
 
 | Név | Leírás |
 | --- | --- |
-| [GetEntity](../../aspose.slides.import/iexternalresourceresolver/getentity)(string) | Leképezi az URI-t egy olyan objektumra, amely a tényleges erőforrást tartalmazza. |
-| [ResolveUri](../../aspose.slides.import/iexternalresourceresolver/resolveuri)(string, string) | Feloldja a teljes (abszolút) URI-t az alap és a relatív URI-kból. |
+| [GetEntity](../../aspose.slides.import/iexternalresourceresolver/getentity)(string) | Leképezi az URI-t egy objektumra, amely a tényleges erőforrást tartalmazza. |
+| [ResolveUri](../../aspose.slides.import/iexternalresourceresolver/resolveuri)(string, string) | Feloldja a teljes URI-t az alap- és relatív URI-kból. |
 
 ### Lásd még
 

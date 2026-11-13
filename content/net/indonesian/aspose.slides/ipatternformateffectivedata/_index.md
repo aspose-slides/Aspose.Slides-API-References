@@ -1,14 +1,14 @@
 ---
 title: IPatternFormatEffectiveData
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Objek immutable yang berisi properti pengisian pola yang efektif.
+description: Objek tidak dapat diubah yang berisi properti pengisian pola yang efektif.
 type: docs
-weight: 6630
+weight: 6650
 url: /id/aspose.slides/ipatternformateffectivedata/
 ---
 ## IPatternFormatEffectiveData antarmuka
 
-Objek immutable yang berisi properti pengisian pola yang efektif.
+Objek tidak dapat diubah yang berisi properti pengisian pola yang efektif.
 
 ```csharp
 public interface IPatternFormatEffectiveData
@@ -18,9 +18,9 @@ public interface IPatternFormatEffectiveData
 
 | Nama | Deskripsi |
 | --- | --- |
-| [BackColor](../../aspose.slides/ipatternformateffectivedata/backcolor) { get; } | Mengembalikan warna pola latar belakang. Hanya-baca Color. |
-| [ForeColor](../../aspose.slides/ipatternformateffectivedata/forecolor) { get; } | Mengembalikan warna pola latar depan. Hanya-baca Color. |
-| [PatternStyle](../../aspose.slides/ipatternformateffectivedata/patternstyle) { get; } | Mengembalikan gaya pola. Hanya-baca [`PatternStyle`](../patternstyle). |
+| [BackColor](../../aspose.slides/ipatternformateffectivedata/backcolor) { get; } | Mengembalikan warna pola latar belakang. Baca-saja Color. |
+| [ForeColor](../../aspose.slides/ipatternformateffectivedata/forecolor) { get; } | Mengembalikan warna pola latar depan. Baca-saja Color. |
+| [PatternStyle](../../aspose.slides/ipatternformateffectivedata/patternstyle) { get; } | Mengembalikan gaya pola. Baca-saja [`PatternStyle`](../patternstyle). |
 
 ## Metode
 
@@ -28,7 +28,7 @@ public interface IPatternFormatEffectiveData
 | --- | --- |
 | [GetTileIImage](../../aspose.slides/ipatternformateffectivedata/gettileiimage)(Color, Color) | Membuat gambar ubin untuk pengisian pola dengan warna yang ditentukan. |
 
-### Keterangan
+### Catatan
 
 Antarmuka ini digunakan sebagai bagian dari [`IFillFormatEffectiveData`](../ifillformateffectivedata) dan [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata).
 

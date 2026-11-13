@@ -1,9 +1,9 @@
 ---
 title: TextUnderlineType
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示文本下划线的类型。
 type: docs
-weight: 11010
+weight: 11030
 url: /zh/aspose.slides/textunderlinetype/
 ---
 ## TextUnderlineType 枚举
@@ -38,7 +38,7 @@ public enum TextUnderlineType : sbyte
 | HeavyWavy | `16` |  |
 | DoubleWavy | `17` |  |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

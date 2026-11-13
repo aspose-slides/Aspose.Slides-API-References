@@ -1,14 +1,14 @@
 ---
 title: IPresentationSignedWarningInfo
 second_title: Aspose.Sildes pro .NET API Reference
-description: Toto varování upozorňuje, že načítaná prezentace má digitální podpis a tento podpis bude během zpracování odstraněn.
+description: Toto varování naznačuje, že načítaná prezentace má podpis a tento podpis bude během zpracování odstraněn.
 type: docs
-weight: 11790
+weight: 11810
 url: /cs/aspose.slides.warnings/ipresentationsignedwarninginfo/
 ---
 ## IPresentationSignedWarningInfo rozhraní
 
-Toto varování naznačuje, že načítaná prezentace má digitální podpis a tento podpis bude během zpracování odstraněn.
+Toto varování naznačuje, že načítaná prezentace má podpis a tento podpis bude během zpracování odstraněn.
 
 ```csharp
 public interface IPresentationSignedWarningInfo : IWarningInfo
@@ -18,7 +18,7 @@ public interface IPresentationSignedWarningInfo : IWarningInfo
 
 | Název | Popis |
 | --- | --- |
-| [AsIWarningInfo](../../aspose.slides.warnings/ipresentationsignedwarninginfo/asiwarninginfo) { get; } | Vrací rozhraní IWarningInfo. Pouze pro čtení [`IWarningInfo`](../iwarninginfo). |
+| [AsIWarningInfo](../../aspose.slides.warnings/ipresentationsignedwarninginfo/asiwarninginfo) { get; } | Vrací rozhraní IWarningInfo. Pouze ke čtení [`IWarningInfo`](../iwarninginfo). |
 
 ### Viz také
 

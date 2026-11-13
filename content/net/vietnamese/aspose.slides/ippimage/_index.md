@@ -1,9 +1,9 @@
 ---
 title: IPPImage
-second_title: Tham khảo API Aspose.Sildes cho .NET
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Biểu diễn một hình ảnh trong bài thuyết trình.
 type: docs
-weight: 6550
+weight: 6570
 url: /vi/aspose.slides/ippimage/
 ---
 ## IPPImage giao diện
@@ -19,7 +19,7 @@ public interface IPPImage
 | Tên | Mô tả |
 | --- | --- |
 | [BinaryData](../../aspose.slides/ippimage/binarydata) { get; } | Trả về bản sao dữ liệu của hình ảnh. Chỉ đọc Byte[]. |
-| [ContentType](../../aspose.slides/ippimage/contenttype) { get; } | Trả về kiểu MIME của hình ảnh, được mã hoá trong [`BinaryData`](./binarydata). Chỉ đọc String. |
+| [ContentType](../../aspose.slides/ippimage/contenttype) { get; } | Trả về loại MIME của hình ảnh, được mã hoá theo [`BinaryData`](./binarydata). Chỉ đọc String. |
 | [Height](../../aspose.slides/ippimage/height) { get; } | Trả về chiều cao của hình ảnh. Chỉ đọc Int32. |
 | [Image](../../aspose.slides/ippimage/image) { get; } | Trả về bản sao của hình ảnh. Chỉ đọc [`Image`](./image). |
 | [SvgImage](../../aspose.slides/ippimage/svgimage) { get; set; } | Trả về hoặc đặt đối tượng ISvgImage [`ISvgImage`](../isvgimage) |

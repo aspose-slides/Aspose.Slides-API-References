@@ -1,14 +1,14 @@
 ---
 title: IMasterThemeable
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Reprezentuje menedżera głównego motywu.
+second_title: Aspose.Sildes dla .NET – Referencja API
+description: Reprezentuje menedżera motywu nadrzędnego.
 type: docs
-weight: 11330
+weight: 11350
 url: /pl/aspose.slides.theme/imasterthemeable/
 ---
 ## IMasterThemeable interfejs
 
-Represent master theme manager.
+Reprezentuje menedżera motywu nadrzędnego.
 
 ```csharp
 public interface IMasterThemeable : IThemeable
@@ -19,7 +19,7 @@ public interface IMasterThemeable : IThemeable
 | Nazwa | Opis |
 | --- | --- |
 | [AsIThemeable](../../aspose.slides.theme/imasterthemeable/asithemeable) { get; } | Zwraca interfejs IThemeable. Tylko do odczytu [`IThemeable`](../ithemeable). |
-| [ThemeManager](../../aspose.slides.theme/imasterthemeable/thememanager) { get; } | Zwraca menedżer głównego motywu. Tylko do odczytu [`IMasterThemeManager`](../imasterthememanager). |
+| [ThemeManager](../../aspose.slides.theme/imasterthemeable/thememanager) { get; } | Zwraca menedżera motywu nadrzędnego. Tylko do odczytu [`IMasterThemeManager`](../imasterthememanager). |
 
 ### Zobacz także
 

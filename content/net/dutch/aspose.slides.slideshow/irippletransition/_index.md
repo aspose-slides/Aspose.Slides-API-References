@@ -1,14 +1,14 @@
 ---
 title: IRippleTransition
-second_title: Aspose.Slides voor .NET API Referentie
-description: Ripple diaovergangseffect.
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Ripple dia overgangseffect.
 type: docs
-weight: 10170
+weight: 10190
 url: /nl/aspose.slides.slideshow/irippletransition/
 ---
 ## IRippleTransition interface
 
-Ripple diaovergangseffect.
+Ripple dia overgangseffect.
 
 ```csharp
 public interface IRippleTransition : ITransitionValueBase
@@ -18,8 +18,8 @@ public interface IRippleTransition : ITransitionValueBase
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/irippletransition/asitransitionvaluebase) { get; } | Stelt in staat de basis ITransitionValueBase interface op te halen. Alleen-lezen [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/irippletransition/direction) { get; set; } | Richting van overgang. Lezen/Schrijven [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/irippletransition/asitransitionvaluebase) { get; } | Staat toe de basis ITransitionValueBase interface op te halen. Alleen-lezen [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/irippletransition/direction) { get; set; } | Richting van de overgang. Lezen/Schrijven [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
 
 ### Zie ook
 

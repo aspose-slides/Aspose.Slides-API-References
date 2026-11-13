@@ -1,9 +1,9 @@
 ---
 title: PatternFormat
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para Referência de API .NET
 description: Representa um padrão para preencher uma forma.
 type: docs
-weight: 9350
+weight: 9370
 url: /pt/aspose.slides/patternformat/
 ---
 ## PatternFormat classe
@@ -20,7 +20,7 @@ public sealed class PatternFormat : PVIObject, IPatternFormat
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obter a interface base IPresentationComponent. Somente leitura [`IPresentationComponent`](../ipresentationcomponent). |
 | [BackColor](../../aspose.slides/patternformat/backcolor) { get; } | Retorna a cor de fundo do padrão. Somente leitura [`IColorFormat`](../icolorformat). |
-| [ForeColor](../../aspose.slides/patternformat/forecolor) { get; } | Retorna a cor de primeiro plano do padrão. Somente leitura [`IColorFormat`](../icolorformat). |
+| [ForeColor](../../aspose.slides/patternformat/forecolor) { get; } | Retorna a cor do primeiro plano do padrão. Somente leitura [`IColorFormat`](../icolorformat). |
 | [PatternStyle](../../aspose.slides/patternformat/patternstyle) { get; set; } | Retorna ou define o estilo do padrão. Leitura/gravação [`PatternStyle`](../patternstyle). |
 
 ## Métodos
@@ -29,12 +29,12 @@ public sealed class PatternFormat : PVIObject, IPatternFormat
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compara com o objeto especificado. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Retorna o código hash. |
-| [GetTile](../../aspose.slides/patternformat/gettile#gettile)(Color) | Cria uma imagem em mosaico para o preenchimento de padrão. |
-| [GetTile](../../aspose.slides/patternformat/gettile#gettile_1)(Color, Color) | Cria uma imagem em mosaico para o preenchimento de padrão com cores especificadas. |
+| [GetTile](../../aspose.slides/patternformat/gettile#gettile)(Color) | Cria uma imagem de ladrilho para o preenchimento do padrão. |
+| [GetTile](../../aspose.slides/patternformat/gettile#gettile_1)(Color, Color) | Cria uma imagem de ladrilho para o preenchimento do padrão com cores especificadas. |
 
-### Veja Também
+### Ver Também
 
-* classe [PVIObject](../pviobject)
+* class [PVIObject](../pviobject)
 * interface [IPatternFormat](../ipatternformat)
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

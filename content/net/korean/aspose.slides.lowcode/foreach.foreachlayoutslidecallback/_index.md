@@ -1,25 +1,25 @@
 ---
 title: ForEach.ForEachLayoutSlideCallback
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 각 LayoutSlide./foreach/layoutslide에 대해 Presentation../aspose.slides/presentation에서 호출되는 콜백입니다.
+second_title: Aspose.Sildes .NET API 참조
+description: 각 LayoutSlide./foreach/layoutslide에 대해 프레젠테이션../aspose.slides/presentation에서 호출되는 콜백.
 type: docs
-weight: 7910
+weight: 7930
 url: /ko/aspose.slides.lowcode/foreach.foreachlayoutslidecallback/
 ---
-## ForEach.ForEachLayoutSlideCallback 델리게이트
+## ForEach.ForEachLayoutSlideCallback delegate
 
-각 [`LayoutSlide`](../foreach/layoutslide)에 대해 호출되는 콜백입니다 [`Presentation`](../../aspose.slides/presentation).
+각 [`LayoutSlide`](../foreach/layoutslide)에 대해 [`Presentation`](../../aspose.slides/presentation)에서 호출되는 콜백입니다.
 
 ```csharp
 public delegate void ForEachLayoutSlideCallback(LayoutSlide layoutSlide, int index);
 ```
 
-| 매개변수 | 유형 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
 | layoutSlide | LayoutSlide | 현재 반복 중인 레이아웃 슬라이드 |
 | index | Int32 | 현재 레이아웃 슬라이드의 인덱스 |
 
-### 참고
+### 관련 항목
 
 * 클래스 [LayoutSlide](../../aspose.slides/layoutslide)
 * 클래스 [ForEach](../foreach)

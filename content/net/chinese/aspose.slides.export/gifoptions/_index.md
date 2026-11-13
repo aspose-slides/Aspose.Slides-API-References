@@ -1,9 +1,9 @@
 ---
 title: GifOptions
-second_title: Aspose.Sildes 的 .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示 GIF 导出选项。
 type: docs
-weight: 3820
+weight: 3840
 url: /zh/aspose.slides.export/gifoptions/
 ---
 ## GifOptions 类
@@ -24,19 +24,19 @@ public class GifOptions : SaveOptions, IGifOptions
 
 | 名称 | 描述 |
 | --- | --- |
-| [DefaultDelay](../../aspose.slides.export/gifoptions/defaultdelay) { get; set; } | 获取或设置默认延迟时间 [ms]。如果未设置 [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime)，将使用此值。默认值为 1000。 |
+| [DefaultDelay](../../aspose.slides.export/gifoptions/defaultdelay) { get; set; } | 获取或设置默认延迟时间【毫秒】。如果未设置 [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime)，将使用此值。默认值为 1000。 |
 | [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 获取或设置在未找到源字体时使用的字体。可读写 String。 |
 | [ExportHiddenSlides](../../aspose.slides.export/gifoptions/exporthiddenslides) { get; set; } | 确定是否导出隐藏的幻灯片。默认值为 false。 |
 | [FrameSize](../../aspose.slides.export/gifoptions/framesize) { get; set; } | 获取或设置帧大小。 |
 | [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 获取或设置渐变的视觉样式。可读写 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 表示用于以百分比保存进度更新的回调对象。参见 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定是否在保存演示文稿时跳过带有 JavaScript 调用的超链接。可读写 Boolean。默认值为 **false**。 |
-| [TransitionFps](../../aspose.slides.export/gifoptions/transitionfps) { get; set; } | 获取或设置过渡 FPS [frames/sec]。默认值为 25。 |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 获取或设置接收警告并决定加载过程是继续还是中止的对象。可读写 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 表示用于保存进度更新（百分比）的回调对象。参见 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定在保存演示文稿时是否跳过带有 JavaScript 调用的超链接。可读写 Boolean。默认值为 **false**。 |
+| [TransitionFps](../../aspose.slides.export/gifoptions/transitionfps) { get; set; } | 获取或设置转换帧率【帧/秒】。默认值为 25。 |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 获取或设置一个接收警告并决定加载过程是继续还是中止的对象。可读写 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
 
 ### 示例
 
-以下示例展示了如何使用自定义设置将演示文稿转换为动画 GIF。
+下面的示例演示了如何使用自定义设置将演示文稿转换为动画 GIF。
 
 ```csharp
 [C#]
@@ -51,7 +51,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 另见
+### 另请参见
 
 * 类 [SaveOptions](../saveoptions)
 * 接口 [IGifOptions](../igifoptions)

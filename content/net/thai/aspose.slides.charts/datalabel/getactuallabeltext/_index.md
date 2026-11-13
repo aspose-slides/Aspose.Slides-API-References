@@ -1,14 +1,14 @@
 ---
 title: GetActualLabelText
-second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
-description: ส่งคืนข้อความป้ายกำกับจริงตามการตั้งค่า DataLabelFormat หรือค่าของ TextFrameForOverriding.Text
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: คืนค่าข้อความป้ายกำกับจริงตามการตั้งค่า DataLabelFormat หรือค่าของ TextFrameForOverriding.Text
 type: docs
-weight: 190
+weight: 200
 url: /th/aspose.slides.charts/datalabel/getactuallabeltext/
 ---
 ## DataLabel.GetActualLabelText เมธอด
 
-ส่งคืนข้อความป้ายกำกับจริงตามการตั้งค่า DataLabelFormat หรือค่าของ TextFrameForOverriding.Text
+คืนค่าข้อความป้ายกำกับจริงตามการตั้งค่า DataLabelFormat หรือค่าของ TextFrameForOverriding.Text.
 
 ```csharp
 public string GetActualLabelText()

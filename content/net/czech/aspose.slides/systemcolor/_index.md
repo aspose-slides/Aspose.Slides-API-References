@@ -1,14 +1,14 @@
 ---
 title: SystemColor
-second_title: Aspose.Sildes pro .NET API Referenci
-description: Představuje předdefinované systémové barvy.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Reprezentuje předdefinované systémové barvy.
 type: docs
-weight: 10810
+weight: 10830
 url: /cs/aspose.slides/systemcolor/
 ---
-## Výčtový typ SystemColor
+## SystemColor enumerace
 
-Představuje předdefinované systémové barvy.
+Reprezentuje předdefinované systémové barvy.
 
 ```csharp
 public enum SystemColor
@@ -18,7 +18,7 @@ public enum SystemColor
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| NotDefined | `-1` | Systémová barva není definována. |
+| NotDefined | `-1` | System color is not defined. |
 | ScrollBar | `0` |  |
 | Background | `1` |  |
 | ActiveCaption | `2` |  |

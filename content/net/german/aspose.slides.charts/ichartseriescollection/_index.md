@@ -1,14 +1,14 @@
 ---
 title: IChartSeriesCollection
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt eine Sammlung von IChartSeries./ichartseries
+description: Stellt eine Sammlung von IChartSeries./ichartseries dar
 type: docs
-weight: 1940
+weight: 1960
 url: /de/aspose.slides.charts/ichartseriescollection/
 ---
 ## IChartSeriesCollection Schnittstelle
 
-Represents collection of [`IChartSeries`](../ichartseries)
+Stellt eine Sammlung von [`IChartSeries`](../ichartseries)
 
 ```csharp
 public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
@@ -18,19 +18,19 @@ public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartseriescollection/item) { get; } | Liefert das Element am angegebenen Index. |
+| [Item](../../aspose.slides.charts/ichartseriescollection/item) { get; } | Gibt das Element am angegebenen Index zurück. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add)(ChartType) | Erstellt eine neue Diagrammserie und fügt sie der Sammlung hinzu. |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_1)(IChartCellCollection, ChartType) | Erstellt eine neue Diagrammserie aus [`IChartCellCollection`](../ichartcellcollection) und fügt sie der Sammlung hinzu. |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_2)(IChartDataCell, ChartType) | Erstellt eine neue Diagrammserie aus [`IChartDataCell`](../ichartdatacell) und fügt sie der Sammlung hinzu. |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_3)(string, ChartType) | Erstellt eine neue Diagrammserie aus einem Wert und fügt sie der Sammlung hinzu. |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add)(ChartType) | Erstellt eine neue Diagrammreihe und fügt sie der Sammlung hinzu. |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_1)(IChartCellCollection, ChartType) | Erstellt eine neue Diagrammreihe aus [`IChartCellCollection`](../ichartcellcollection) und fügt sie der Sammlung hinzu. |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_2)(IChartDataCell, ChartType) | Erstellt eine neue Diagrammreihe aus [`IChartDataCell`](../ichartdatacell) und fügt sie der Sammlung hinzu. |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_3)(string, ChartType) | Erstellt eine neue Diagrammreihe aus dem Wert und fügt sie der Sammlung hinzu. |
 | [Clear](../../aspose.slides.charts/ichartseriescollection/clear)() | Entfernt alle Elemente (einschließlich des Diagrammstils) aus der Sammlung. |
-| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | Durchsucht die angegebene [`IChartSeries`](../ichartseries) und gibt den nullbasierten Index des ersten Vorkommens in der gesamten Sammlung zurück. |
-| [Insert](../../aspose.slides.charts/ichartseriescollection/insert)(int, ChartType) | Erstellt eine neue Diagrammserie und fügt sie in die Sammlung ein. |
+| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | Durchsucht die Sammlung nach dem angegebenen [`IChartSeries`](../ichartseries) und gibt den nullbasierten Index des ersten Vorkommens in der gesamten Sammlung zurück. |
+| [Insert](../../aspose.slides.charts/ichartseriescollection/insert)(int, ChartType) | Erstellt eine neue Diagrammreihe und fügt sie in die Sammlung ein. |
 | [Remove](../../aspose.slides.charts/ichartseriescollection/remove)(IChartSeries) | Entfernt den angegebenen Wert. |
 | [RemoveAt](../../aspose.slides.charts/ichartseriescollection/removeat)(int) | Entfernt das Element am angegebenen Index. |
 

@@ -1,9 +1,9 @@
 ---
 title: Remove
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: チャートからカテゴリを削除します。
 type: docs
-weight: 60
+weight: 70
 url: /ja/aspose.slides.charts/chartcategory/remove/
 ---
 ## ChartCategory.Remove メソッド

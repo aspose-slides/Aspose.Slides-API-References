@@ -3,7 +3,7 @@ title: TextAnchorType
 second_title: Aspose.Sildes .NET API 参考
 description: 文本框在文本区域内的对齐方式。
 type: docs
-weight: 10910
+weight: 10930
 url: /zh/aspose.slides/textanchortype/
 ---
 ## TextAnchorType 枚举
@@ -14,7 +14,7 @@ url: /zh/aspose.slides/textanchortype/
 public enum TextAnchorType : sbyte
 ```
 
-### 值
+### 取值
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
@@ -25,7 +25,7 @@ public enum TextAnchorType : sbyte
 | Justified | `3` |  |
 | Distributed | `4` |  |
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

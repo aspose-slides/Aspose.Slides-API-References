@@ -1,14 +1,14 @@
 ---
 title: ILegendEntryProperties
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje vlastnosti legendy grafu.
+description: Reprezentuje vlastnosti legendy grafu.
 type: docs
-weight: 2150
+weight: 2170
 url: /cs/aspose.slides.charts/ilegendentryproperties/
 ---
 ## ILegendEntryProperties rozhraní
 
-Představuje vlastnosti legendy grafu.
+Reprezentuje vlastnosti legendy grafu.
 
 ```csharp
 public interface ILegendEntryProperties : IFormattedTextContainer

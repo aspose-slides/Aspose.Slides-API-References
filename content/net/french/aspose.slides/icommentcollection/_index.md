@@ -3,12 +3,12 @@ title: ICommentCollection
 second_title: Référence API Aspose.Sildes pour .NET
 description: Représente une collection de commentaires d'un seul auteur.
 type: docs
-weight: 5590
+weight: 5610
 url: /fr/aspose.slides/icommentcollection/
 ---
 ## ICommentCollection interface
 
-Représente une collection de commentaires d'un seul auteur.
+Représente une collection de commentaires d'un auteur.
 
 ```csharp
 public interface ICommentCollection : IGenericCollection<IComment>
@@ -32,7 +32,7 @@ public interface ICommentCollection : IGenericCollection<IComment>
 | [Remove](../../aspose.slides/icommentcollection/remove)(IComment) | Supprime la première occurrence du commentaire spécifié dans une collection. |
 | [RemoveAt](../../aspose.slides/icommentcollection/removeat)(int) | Supprime l'élément à l'index spécifié dans une collection. |
 | [ToArray](../../aspose.slides/icommentcollection/toarray#toarray)() | Crée et renvoie un tableau contenant tous les commentaires. |
-| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray_1)(int, int) | Crée et renvoie un tableau contenant tous les commentaires de la plage spécifiée. |
+| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray_1)(int, int) | Crée et renvoie un tableau contenant les commentaires de la plage spécifiée. |
 
 ### Voir aussi
 

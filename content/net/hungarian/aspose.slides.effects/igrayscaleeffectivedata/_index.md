@@ -1,14 +1,14 @@
 ---
 title: IGrayScaleEffectiveData
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Megváltoztathatatlan objektum, amely egy Gray Scale hatást képvisel. Az összes effektus színértéket egy szürke árnyalatra konvertálja, amely a fényerőnek megfelelő. Az effektus alfa (átlátszóság) értékei érintetlenek maradnak.
+second_title: Aspose.Sildes .NET API referencia
+description: Változtathatatlan objektum, amely egy Gray Scale hatást ábrázol. Az összes hatásszín értékét egy szürke árnyalatra konvertálja, amely a luminanciájuknak megfelelő. A hatás alfa (átlátszóság) értékei változatlanok.
 type: docs
-weight: 3350
+weight: 3370
 url: /hu/aspose.slides.effects/igrayscaleeffectivedata/
 ---
 ## IGrayScaleEffectiveData interfész
 
-Megváltoztathatatlan objektum, amely egy Gray Scale hatást képvisel. Az összes effektus színértéket egy szürke árnyalatra konvertálja, amely a fényerőnek megfelelő. Az effektus alfa (átlátszóság) értékei érintetlenek maradnak.
+A változtathatatlan objektum, amely egy Gray Scale hatást ábrázol. Az összes hatásszín értékét egy szürke árnyalatra konvertálja, amely a luminanciájuknak megfelelő. A hatás alfa (átlátszóság) értékei változatlanok.
 
 ```csharp
 public interface IGrayScaleEffectiveData : IEffectEffectiveData

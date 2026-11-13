@@ -1,14 +1,14 @@
 ---
 title: IVbaProjectFactory
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Staat toe een VBA-project te maken via COM-interface
+description: Staat toe om een VBA-project te maken via de COM-interface
 type: docs
-weight: 11560
+weight: 11580
 url: /nl/aspose.slides.vba/ivbaprojectfactory/
 ---
 ## IVbaProjectFactory interface
 
-Staat toe een VBA-project te maken via COM-interface
+Staat toe om een VBA-project te maken via de COM-interface
 
 ```csharp
 public interface IVbaProjectFactory
@@ -18,8 +18,8 @@ public interface IVbaProjectFactory
 
 | Naam | Beschrijving |
 | --- | --- |
-| [CreateVbaProject](../../aspose.slides.vba/ivbaprojectfactory/createvbaproject)() | Maakt een nieuw VBA-project. |
-| [ReadVbaProject](../../aspose.slides.vba/ivbaprojectfactory/readvbaproject)(byte[]) | Leest VBA-project uit OLE-container. |
+| [CreateVbaProject](../../aspose.slides.vba/ivbaprojectfactory/createvbaproject)() | Maakt een nieuw VBA-project aan. |
+| [ReadVbaProject](../../aspose.slides.vba/ivbaprojectfactory/readvbaproject)(byte[]) | Leest een VBA-project uit een OLE-container. |
 
 ### Zie ook
 

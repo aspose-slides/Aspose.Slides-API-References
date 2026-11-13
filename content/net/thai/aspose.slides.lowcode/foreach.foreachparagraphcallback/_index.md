@@ -1,24 +1,24 @@
 ---
 title: ForEach.ForEachParagraphCallback
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: Callback ที่จะถูกเรียกสำหรับแต่ละ Paragraph./foreach/paragraph บน BaseSlide../aspose.slides/baseslide.
+description: คอลแบ็กที่จะถูกเรียกใช้สำหรับแต่ละ Paragraph./foreach/paragraph บน BaseSlide../aspose.slides/baseslide.
 type: docs
-weight: 7930
+weight: 7950
 url: /th/aspose.slides.lowcode/foreach.foreachparagraphcallback/
 ---
 ## ForEach.ForEachParagraphCallback delegate
 
-Callback ที่จะถูกเรียกสำหรับแต่ละ [`Paragraph`](../foreach/paragraph) บน [`BaseSlide`](../../aspose.slides/baseslide).
+คอลแบ็กที่จะถูกเรียกใช้สำหรับแต่ละ [`Paragraph`](../foreach/paragraph) บน [`BaseSlide`](../../aspose.slides/baseslide).
 
 ```csharp
 public delegate void ForEachParagraphCallback(Paragraph para, BaseSlide slide, int index);
 ```
 
-| Parameter | Type | Description |
+| พารามิเตอร์ | ประเภท | คำอธิบาย |
 | --- | --- | --- |
-| para | Paragraph | พารากราฟที่กำลังวนซ้ำ |
-| slide | BaseSlide | สไลด์ที่กำลังวนซ้ำ |
-| index | Int32 | ดัชนีของพารากราฟปัจจุบันบนสไลด์ |
+| para | Paragraph | ย่อหน้าที่กำลังวนซ้ำในปัจจุบัน |
+| slide | BaseSlide | สไลด์ที่กำลังวนซ้ำในปัจจุบัน |
+| index | Int32 | ดัชนีของย่อหน้าปัจจุบันบนสไลด์ |
 
 ### ดูเพิ่มเติม
 

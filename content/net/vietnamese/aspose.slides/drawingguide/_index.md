@@ -1,14 +1,14 @@
 ---
 title: DrawingGuide
-second_title: Aspose.Sildes cho .NET Tham khảo API
-description: Đại diện cho một hướng dẫn vẽ có thể điều chỉnh.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu diễn một hướng dẫn vẽ có thể điều chỉnh.
 type: docs
-weight: 2810
+weight: 2830
 url: /vi/aspose.slides/drawingguide/
 ---
 ## DrawingGuide lớp
 
-Đại diện cho một hướng dẫn vẽ có thể điều chỉnh.
+Represents an adjustable drawing guide.
 
 ```csharp
 public sealed class DrawingGuide : IDrawingGuide
@@ -22,7 +22,7 @@ public sealed class DrawingGuide : IDrawingGuide
 | [Orientation](../../aspose.slides/drawingguide/orientation) { get; set; } | Trả về hoặc đặt hướng của hướng dẫn vẽ. Đọc/ghi [`Orientation`](../orientation). |
 | [Position](../../aspose.slides/drawingguide/position) { get; set; } | Trả về hoặc đặt vị trí của hướng dẫn vẽ tính bằng điểm từ góc trên, trái của slide. Đọc/ghi Single. |
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [IDrawingGuide](../idrawingguide)
 * không gian tên [Aspose.Slides](../../aspose.slides)

@@ -1,14 +1,14 @@
 ---
 title: RemoveEmbeddedFont
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Eltávolítja a beágyazott betűtípust
+second_title: Aspose.Sildes .NET API Referencia
+description: Eltávolítja a beágyazott betűkészletet
 type: docs
-weight: 90
+weight: 100
 url: /hu/aspose.slides/ifontsmanager/removeembeddedfont/
 ---
 ## IFontsManager.RemoveEmbeddedFont metódus
 
-Eltávolítja a beágyazott betűtípust
+Eltávolítja a beágyazott betűkészletet
 
 ```csharp
 public void RemoveEmbeddedFont(IFontData fontData)
@@ -16,7 +16,7 @@ public void RemoveEmbeddedFont(IFontData fontData)
 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| fontData | IFontData | Betűtípus adat objektum [`IFontData`](../../ifontdata) |
+| fontData | IFontData | Betűkészlet-adat objektum [`IFontData`](../../ifontdata) |
 
 ### Lásd még
 

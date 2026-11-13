@@ -3,10 +3,10 @@ title: IMasterThemeable
 second_title: Aspose.Sildes for .NET API リファレンス
 description: マスターテーママネージャーを表します。
 type: docs
-weight: 11330
+weight: 11350
 url: /ja/aspose.slides.theme/imasterthemeable/
 ---
-## IMasterThemeable インターフェイス
+## IMasterThemeable interface
 
 マスターテーママネージャーを表します。
 
@@ -18,8 +18,8 @@ public interface IMasterThemeable : IThemeable
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIThemeable](../../aspose.slides.theme/imasterthemeable/asithemeable) { get; } | IThemeable インターフェイスを返します。 読み取り専用 [`IThemeable`](../ithemeable)。 |
-| [ThemeManager](../../aspose.slides.theme/imasterthemeable/thememanager) { get; } | マスターテーママネージャーを返します。 読み取り専用 [`IMasterThemeManager`](../imasterthememanager)。 |
+| [AsIThemeable](../../aspose.slides.theme/imasterthemeable/asithemeable) { get; } | IThemeable インターフェイスを返します。読み取り専用 [`IThemeable`](../ithemeable)。 |
+| [ThemeManager](../../aspose.slides.theme/imasterthemeable/thememanager) { get; } | マスターテーママネージャーを返します。読み取り専用 [`IMasterThemeManager`](../imasterthememanager)。 |
 
 ### 参照
 

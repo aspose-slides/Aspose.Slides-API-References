@@ -3,10 +3,10 @@ title: IParagraphFormatEffectiveData
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Objeto inmutable que contiene propiedades de formato de párrafo efectivas.
 type: docs
-weight: 6600
+weight: 6620
 url: /es/aspose.slides/iparagraphformateffectivedata/
 ---
-## IParagraphFormatEffectiveData interfaz
+## interfaz IParagraphFormatEffectiveData
 
 Objeto inmutable que contiene las propiedades de formato de párrafo efectivas.
 
@@ -16,7 +16,7 @@ public interface IParagraphFormatEffectiveData
 
 ## Propiedades
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | Devuelve la alineación del texto en un párrafo. Solo lectura [`TextAlignment`](../textalignment). |
 | [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | Devuelve un formato de viñeta de un párrafo. Solo lectura [`IBulletFormatEffectiveData`](../ibulletformateffectivedata). |
@@ -36,7 +36,7 @@ public interface IParagraphFormatEffectiveData
 | [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | Devuelve la cantidad de espacio entre líneas base en un párrafo. Solo lectura Single. |
 | [Tabs](../../aspose.slides/iparagraphformateffectivedata/tabs) { get; } | Devuelve las tabulaciones de un párrafo. Solo lectura [`ITabEffectiveData`](../itabeffectivedata)[]. |
 
-### Observaciones
+### Comentarios
 
 Esta interfaz se usa junto con la interfaz [`IParagraphFormat`](../iparagraphformat) para devolver valores de formato efectivos con herencia aplicada.
 

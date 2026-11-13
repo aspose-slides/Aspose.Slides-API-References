@@ -1,14 +1,14 @@
 ---
 title: ControlType
 second_title: Aspose.Sildes .NET API referencia
-description: Meghatároz egy vezérlő típust, amelyet az AddControl./icontrolcollection/addcontrol kell beágyazni.
+description: Meghatároz egy vezérlőtípust, amelyet az AddControl./icontrolcollection/addcontrol kell beágyazni.
 type: docs
-weight: 2720
+weight: 2740
 url: /hu/aspose.slides/controltype/
 ---
-## ControlType enumeráció
+## ControlType felsorolás
 
-Meghatároz egy vezérlő típust, amelyet a [`AddControl`](../icontrolcollection/addcontrol) be kell ágyazni.
+Meghatároz egy vezérlő típust, amelyet a [`AddControl`](../icontrolcollection/addcontrol) be kell ágyaznia.
 
 ```csharp
 public enum ControlType

@@ -1,9 +1,9 @@
 ---
 title: MathBarFactory
-second_title: Aspose.Sildes 的 .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考
 description: 允許建立數學條
 type: docs
-weight: 8580
+weight: 8600
 url: /zh-hant/aspose.slides.mathtext/mathbarfactory/
 ---
 ## MathBarFactory 類別
@@ -16,22 +16,22 @@ public class MathBarFactory : IMathBarFactory
 
 ## 建構函式
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
 | [MathBarFactory](mathbarfactory)() | 預設建構函式。 |
 
 ## 方法
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
-| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar)(IMathElement) | 建立數學條，套用到元素 |
-| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | 建立數學條，套用到元素 |
+| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar)(IMathElement) | 透過套用於元素來建立數學條。 |
+| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | 透過套用於元素來建立數學條。 |
 
 ### 備註
 
-供 COM 相容性使用
+用於 COM 相容性
 
-### 另請參閱
+### 另見
 
 * 介面 [IMathBarFactory](../imathbarfactory)
 * 命名空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

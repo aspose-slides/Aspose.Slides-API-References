@@ -1,9 +1,9 @@
 ---
 title: CustomXmlPartCollection
 second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje kolekci vlastních xml částí.
+description: Reprezentuje kolekci vlastních xml částí.
 type: docs
-weight: 2750
+weight: 2770
 url: /cs/aspose.slides/customxmlpartcollection/
 ---
 ## CustomXmlPartCollection třída
@@ -19,9 +19,9 @@ public class CustomXmlPartCollection : ICustomXmlPartCollection
 | Název | Popis |
 | --- | --- |
 | [Count](../../aspose.slides/customxmlpartcollection/count) { get; } | Vrací počet vlastních xml částí ve sbírce. Pouze pro čtení Int32. |
-| [IsSynchronized](../../aspose.slides/customxmlpartcollection/issynchronized) { get; } | Vrací hodnotu určující, zda je přístup ke sbírce synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
+| [IsSynchronized](../../aspose.slides/customxmlpartcollection/issynchronized) { get; } | Vrací hodnotu indikující, zda je přístup ke sbírce synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
 | [Item](../../aspose.slides/customxmlpartcollection/item) { get; } | Vrací prvek na zadaném indexu. |
-| [SyncRoot](../../aspose.slides/customxmlpartcollection/syncroot) { get; } | Vrací kořen synchronizace. Pouze pro čtení Object. |
+| [SyncRoot](../../aspose.slides/customxmlpartcollection/syncroot) { get; } | Vrací synchronizační kořen. Pouze pro čtení Object. |
 
 ## Metody
 
@@ -31,9 +31,9 @@ public class CustomXmlPartCollection : ICustomXmlPartCollection
 | [Add](../../aspose.slides/customxmlpartcollection/add#add_1)(Stream) | Přidá novou vlastní xml část. |
 | [Add](../../aspose.slides/customxmlpartcollection/add#add_2)(string) | Přidá novou vlastní xml část. |
 | [Clear](../../aspose.slides/customxmlpartcollection/clear)() | Odstraní všechny položky ze sbírky. |
-| [CopyTo](../../aspose.slides/customxmlpartcollection/copyto)(Array, int) | Zkopíruje do určeného pole. |
+| [CopyTo](../../aspose.slides/customxmlpartcollection/copyto)(Array, int) | Zkopíruje do zadaného pole. |
 | [GetEnumerator](../../aspose.slides/customxmlpartcollection/getenumerator)() | Vrací enumerátor, který prochází sbírkou. |
-| [Remove](../../aspose.slides/customxmlpartcollection/remove)(ICustomXmlPart) | Odstraní první výskyt konkrétního objektu ze sbírky. |
+| [Remove](../../aspose.slides/customxmlpartcollection/remove)(ICustomXmlPart) | Odstraní první výskyt specifického objektu ze sbírky. |
 | [RemoveAt](../../aspose.slides/customxmlpartcollection/removeat)(int) | Odstraní vlastní xml část na zadaném indexu. |
 
 ### Viz také

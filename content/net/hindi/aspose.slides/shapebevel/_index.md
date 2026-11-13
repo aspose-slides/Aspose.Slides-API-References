@@ -1,42 +1,42 @@
 ---
 title: ShapeBevel
-second_title: Aspose.Sildes के लिये .NET API संदर्भ
-description: आकारों के मुख्य चेहरे के रिलीफ़ की गुणधर्म शामिल करता है।
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
+description: आकृतियों के मुख्य चेहरे के रिलीफ़ के गुण सम्मिलित करता है।
 type: docs
-weight: 9850
+weight: 9870
 url: /hi/aspose.slides/shapebevel/
 ---
 ## ShapeBevel क्लास
 
-आकार के मुख्य चेहरे के रिलीफ़ की गुणधर्म शामिल हैं।
+Contains the properties of shape's main face relief.
 
 ```csharp
 public sealed class ShapeBevel : PVIObject, IShapeBevel
 ```
 
-## कंस्ट्रक्टर्स
+## निर्माता
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [ShapeBevel](shapebevel)(bool) | नया उदाहरण बनाता है। |
+| [ShapeBevel](shapebevel)(bool) | नया इंस्टेंस बनाता है। |
 
-## प्रॉपर्टीज़
+## गुण
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | बेस IPresentationComponent इंटरफ़ेस प्राप्त करने की अनुमति देता है। Read-only [`IPresentationComponent`](../ipresentationcomponent). |
-| [BevelType](../../aspose.slides/shapebevel/beveltype) { get; set; } | बीवेल प्रकार। Read/write [`BevelPresetType`](../bevelpresettype). |
-| [Height](../../aspose.slides/shapebevel/height) { get; set; } | बीवेल ऊँचाई। Read/write Double. |
-| [Width](../../aspose.slides/shapebevel/width) { get; set; } | बीवेल चौड़ाई। Read/write Double. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | बेस IPresentationComponent इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IPresentationComponent`](../ipresentationcomponent)। |
+| [BevelType](../../aspose.slides/shapebevel/beveltype) { get; set; } | Bevel प्रकार। पढ़ने/लिखने योग्य [`BevelPresetType`](../bevelpresettype)। |
+| [Height](../../aspose.slides/shapebevel/height) { get; set; } | Bevel ऊँचाई। पढ़ने/लिखने योग्य Double। |
+| [Width](../../aspose.slides/shapebevel/width) { get; set; } | Bevel चौड़ाई। पढ़ने/लिखने योग्य Double। |
 
 ## मेथड्स
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
 | override [Equals](../../aspose.slides/shapebevel/equals)(object) |  |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | हैश कोड लौटाता है। |
 
-### देखें
+### संबंधित देखें
 
 * क्लास [PVIObject](../pviobject)
 * इंटरफ़ेस [IShapeBevel](../ishapebevel)

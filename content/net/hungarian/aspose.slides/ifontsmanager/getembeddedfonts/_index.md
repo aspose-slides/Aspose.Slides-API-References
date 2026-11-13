@@ -1,9 +1,9 @@
 ---
 title: GetEmbeddedFonts
-second_title: Aspose.Sildes a .NET API-referencia
+second_title: Aspose.Sildes .NET API referencia
 description: Visszaadja a prezentációba beágyazott betűtípusokat
 type: docs
-weight: 40
+weight: 50
 url: /hu/aspose.slides/ifontsmanager/getembeddedfonts/
 ---
 ## IFontsManager.GetEmbeddedFonts metódus

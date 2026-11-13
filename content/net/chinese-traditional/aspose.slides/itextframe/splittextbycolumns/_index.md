@@ -1,37 +1,37 @@
 ---
 title: SplitTextByColumns
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes for .NET API 參考
 description: 將 ITextFrameaspose.slides/itextframe 的文字內容分割成字串陣列，每個元素對應框架內的單獨文字欄。
 type: docs
-weight: 130
+weight: 140
 url: /zh-hant/aspose.slides/itextframe/splittextbycolumns/
 ---
 ## ITextFrame.SplitTextByColumns 方法
 
-將 [`ITextFrame`](../../itextframe) 的文字內容分割成字串陣列，每個元素對應框架內的個別文字欄。
+將 [`ITextFrame`](../../itextframe) 的文字內容分割成字串陣列，每個元素對應框架內的單獨文字欄。
 
 ```csharp
 public string[] SplitTextByColumns()
 ```
 
-### 傳回值
+### 返回值
 
-字串陣列，每個字串表示 [`ITextFrame`](../../itextframe) 中特定欄位的文字內容。
+字串陣列，每個字串代表 [`ITextFrame`](../../itextframe) 中特定欄位的文字內容。
 
 ### 備註
 
-如果文字框未包含多個欄位，返回的陣列將僅有一個包含完整文字的元素。空的欄位將在陣列中以空字串表示。
+如果文字框不包含多個欄位，返回的陣列將僅有一個包含完整文字的元素。空的欄位將以空字串表示於陣列中。
 
 ### 範例
 
-以下範例說明如何使用 `SplitTextByColumns`：
+以下範例示範如何使用 `SplitTextByColumns`：
 
 ```csharp
 using (Presentation pres = new Presentation("example.pptx"))
 {
-    // 取得投影片上的第一個形狀並將其轉型為 ITextFrame
+    // 取得投影片上第一個圖形並將其轉型為 ITextFrame
     ITextFrame textFrame = pres.Slides[0].Shapes[0] as ITextFrame;
-    // 將文字框的內容分割成欄位
+    // 將文字框內容分割成欄位
     string[] columnsText = textFrame.SplitTextByColumns();
     // 將每個欄位的文字輸出至主控台
     foreach (string column in columnsText)

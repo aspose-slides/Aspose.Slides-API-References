@@ -1,14 +1,14 @@
 ---
 title: Portion
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili sebagian teks di dalam paragraf teks.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili bagian teks di dalam paragraf teks.
 type: docs
-weight: 9460
+weight: 9480
 url: /id/aspose.slides/portion/
 ---
-## Kelas Portion
+## Portion kelas
 
-Mewakili sebagian teks di dalam paragraf teks.
+Mewakili bagian teks di dalam paragraf teks.
 
 ```csharp
 public class Portion : IPortion
@@ -16,7 +16,7 @@ public class Portion : IPortion
 
 ## Konstruktor
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [Portion](portion#constructor)() | Menginisialisasi instance baru dari kelas Portion. |
 | [Portion](portion#constructor_1)(Portion) | Menginisialisasi instance baru dari kelas Portion. |
@@ -24,20 +24,20 @@ public class Portion : IPortion
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [Field](../../aspose.slides/portion/field) { get; } | Mengembalikan field dari bagian ini. Hanya-baca [`IField`](../ifield). |
-| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Mengembalikan objek pemformatan yang berisi properti pemformatan yang ditetapkan secara eksplisit pada bagian teks tanpa pewarisan yang diterapkan. Hanya-baca [`IPortionFormat`](../iportionformat). |
-| [Text](../../aspose.slides/portion/text) { get; set; } | Mendapatkan atau menetapkan teks polos dari sebuah bagian. Baca/tulis String. |
+| [Field](../../aspose.slides/portion/field) { get; } | Mengembalikan field dari bagian ini. Baca-saja [`IField`](../ifield). |
+| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Mengembalikan objek pemformatan yang berisi properti pemformatan yang ditetapkan secara eksplisit pada bagian teks tanpa pewarisan yang diterapkan. Baca-saja [`IPortionFormat`](../iportionformat). |
+| [Text](../../aspose.slides/portion/text) { get; set; } | Mengambil atau mengatur teks polos dari sebuah bagian. Baca/tulis String. |
 
 ## Metode
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [AddField](../../aspose.slides/portion/addfield#addfield)(IFieldType) | Mengonversi bagian ini menjadi field yang diperbarui secara otomatis. |
 | [AddField](../../aspose.slides/portion/addfield#addfield_1)(string) | Mengonversi bagian ini menjadi field yang diperbarui secara otomatis. |
 | [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Mendapatkan koordinat awal bagian. Koordinat X titik mewakili awal bagian dari karakter pertama termasuk bearing sisi kiri. Koordinat Y termasuk bearing sisi atas. |
-| [GetRect](../../aspose.slides/portion/getrect)() | Mendapatkan koordinat persegi panjang yang membatasi bagian. Persegi panjang tersebut mencakup semua baris teks dalam bagian, termasuk yang kosong. |
+| [GetRect](../../aspose.slides/portion/getrect)() | Mendapatkan koordinat persegi panjang yang membatasi bagian. Persegi panjang mencakup semua baris teks dalam bagian, termasuk baris kosong. |
 | [RemoveField](../../aspose.slides/portion/removefield)() | Mengonversi bagian field ini menjadi bagian sederhana. |
 
 ### Lihat Juga

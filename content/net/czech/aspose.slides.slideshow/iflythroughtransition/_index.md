@@ -1,14 +1,14 @@
 ---
 title: IFlyThroughTransition
 second_title: Aspose.Sildes pro .NET API Reference
-description: Efekt přechodu fly-through snímku.
+description: Efekt přechodu letovým průchodem slidu.
 type: docs
-weight: 10090
+weight: 10110
 url: /cs/aspose.slides.slideshow/iflythroughtransition/
 ---
 ## IFlyThroughTransition rozhraní
 
-Fly-through slide transition effect.
+Efekt přechodu letovým průchodem slidu.
 
 ```csharp
 public interface IFlyThroughTransition : ITransitionValueBase
@@ -18,9 +18,9 @@ public interface IFlyThroughTransition : ITransitionValueBase
 
 | Název | Popis |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iflythroughtransition/asitransitionvaluebase) { get; } | Umožňuje získat základní ITransitionValueBase rozhraní. Pouze pro čtení [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iflythroughtransition/asitransitionvaluebase) { get; } | Umožňuje získat základní rozhraní ITransitionValueBase. Pouze ke čtení [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/iflythroughtransition/direction) { get; set; } | Směr přechodu. Čtení/zápis [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [HasBounce](../../aspose.slides.slideshow/iflythroughtransition/hasbounce) { get; set; } | Určuje, že pohyb snímků prezentace během přechodu zahrnuje odrazy. Čtení/zápis Boolean. |
+| [HasBounce](../../aspose.slides.slideshow/iflythroughtransition/hasbounce) { get; set; } | Určuje, že pohyb snímků prezentace během přechodu zahrnuje odskok. Čtení/zápis Boolean. |
 
 ### Viz také
 

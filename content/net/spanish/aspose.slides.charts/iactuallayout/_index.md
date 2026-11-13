@@ -3,7 +3,7 @@ title: IActualLayout
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Especifica la posición real de un elemento de gráfico.
 type: docs
-weight: 1690
+weight: 1700
 url: /es/aspose.slides.charts/iactuallayout/
 ---
 ## IActualLayout interfaz
@@ -18,10 +18,10 @@ public interface IActualLayout
 
 | Nombre | Descripción |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/iactuallayout/actualheight) { get; } | Especifica la altura real del elemento de gráfico. Llame al método IChart.ValidateChartLayout() antes para obtener los valores reales. Lectura Single. |
-| [ActualWidth](../../aspose.slides.charts/iactuallayout/actualwidth) { get; } | Especifica el ancho real del elemento de gráfico. Llame al método IChart.ValidateChartLayout() antes para obtener los valores reales. Lectura Single. |
-| [ActualX](../../aspose.slides.charts/iactuallayout/actualx) { get; } | Especifica la ubicación x real (izquierda) del elemento de gráfico en relación con la esquina superior izquierda del gráfico. Llame al método IChart.ValidateChartLayout() antes para obtener los valores reales. Lectura Single. |
-| [ActualY](../../aspose.slides.charts/iactuallayout/actualy) { get; } | Especifica la posición superior real del elemento de gráfico en relación con la esquina superior izquierda del gráfico. Llame al método IChart.ValidateChartLayout() antes para obtener los valores reales. Lectura Single. |
+| [ActualHeight](../../aspose.slides.charts/iactuallayout/actualheight) { get; } | Especifica la altura real del elemento del gráfico. Llame al método IChart.ValidateChartLayout() antes para obtener los valores reales. Solo lectura Single. |
+| [ActualWidth](../../aspose.slides.charts/iactuallayout/actualwidth) { get; } | Especifica el ancho real del elemento del gráfico. Llame al método IChart.ValidateChartLayout() antes para obtener los valores reales. Solo lectura Single. |
+| [ActualX](../../aspose.slides.charts/iactuallayout/actualx) { get; } | Especifica la ubicación x real (izquierda) del elemento del gráfico respecto a la esquina superior izquierda del gráfico. Llame al método IChart.ValidateChartLayout() antes para obtener los valores reales. Solo lectura Single. |
+| [ActualY](../../aspose.slides.charts/iactuallayout/actualy) { get; } | Especifica la parte superior real del elemento del gráfico respecto a la esquina superior izquierda del gráfico. Llame al método IChart.ValidateChartLayout() antes para obtener los valores reales. Solo lectura Single. |
 
 ### Ver también
 

@@ -1,14 +1,14 @@
 ---
 title: GetSubstitutions
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: प्रेजेंटेशन के रेंडरिंग के दौरान बदल दिए जाने वाले फ़ॉन्ट्स की जानकारी प्राप्त करता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: प्रेज़ेंटेशन की रेंडरिंग के दौरान बदलने वाले फ़ॉन्ट्स के बारे में जानकारी प्राप्त करता है।
 type: docs
-weight: 80
+weight: 90
 url: /hi/aspose.slides/ifontsmanager/getsubstitutions/
 ---
 ## GetSubstitutions() {#getsubstitutions}
 
-प्रेजेंटेशन के रेंडरिंग के दौरान बदल दी जाने वाली फ़ॉन्ट्स की जानकारी प्राप्त करता है।
+प्रेज़ेंटेशन की रेंडरिंग के दौरान बदलने वाले फ़ॉन्ट्स के बारे में जानकारी प्राप्त करता है।
 
 ```csharp
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions()
@@ -16,7 +16,7 @@ public IEnumerable<FontSubstitutionInfo> GetSubstitutions()
 
 ### वापसी मान
 
-सभी फ़ॉन्ट प्रतिस्थापन का संग्रह [`FontSubstitutionInfo`](../../fontsubstitutioninfo)।
+सभी फ़ॉन्ट्स प्रतिस्थापन का संग्रह [`FontSubstitutionInfo`](../../fontsubstitutioninfo)।
 
 ### उदाहरण
 
@@ -30,9 +30,9 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }        
 ```
 
-### संबंधित
+### देखें भी
 
-* क्लास [FontSubstitutionInfo](../../fontsubstitutioninfo)
+* वर्ग [FontSubstitutionInfo](../../fontsubstitutioninfo)
 * इंटरफ़ेस [IFontsManager](../../ifontsmanager)
 * नामस्थान [Aspose.Slides](../../ifontsmanager)
 * असेंबली [Aspose.Slides](../../../)
@@ -41,7 +41,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## GetSubstitutions(int[]) {#getsubstitutions_1}
 
-निर्दिष्ट स्लाइड्स के रेंडरिंग के दौरान बदल दी जाने वाली फ़ॉन्ट्स की जानकारी प्राप्त करता है।
+निर्दिष्ट स्लाइड्स की रेंडरिंग के दौरान बदलने वाले फ़ॉन्ट्स के बारे में जानकारी प्राप्त करता है।
 
 ```csharp
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions(int[] slides)
@@ -49,11 +49,11 @@ public IEnumerable<FontSubstitutionInfo> GetSubstitutions(int[] slides)
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| slides | Int32[] | फ़ॉन्ट प्रतिस्थापन जानकारी प्राप्त करने के लिए स्लाइड इंडेक्स की एक सरणी, जो 1 से शुरू होती है। |
+| slides | Int32[] | उन स्लाइड इंडेक्सों की एक एरे जिसके लिए फ़ॉन्ट प्रतिस्थापन जानकारी प्राप्त करनी है, प्रारम्भ 1 से। |
 
 ### वापसी मान
 
-निर्दिष्ट स्लाइड्स के लिए सभी फ़ॉन्ट प्रतिस्थापनों का संग्रह ([`FontSubstitutionInfo`](../../fontsubstitutioninfo))।
+निर्दिष्ट स्लाइड्स के लिए सभी फ़ॉन्ट प्रतिस्थापन का संग्रह ([`FontSubstitutionInfo`](../../fontsubstitutioninfo))।
 
 ### उदाहरण
 
@@ -68,9 +68,9 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### संबंधित
+### देखें भी
 
-* क्लास [FontSubstitutionInfo](../../fontsubstitutioninfo)
+* वर्ग [FontSubstitutionInfo](../../fontsubstitutioninfo)
 * इंटरफ़ेस [IFontsManager](../../ifontsmanager)
 * नामस्थान [Aspose.Slides](../../ifontsmanager)
 * असेंबली [Aspose.Slides](../../../)

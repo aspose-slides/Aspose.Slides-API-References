@@ -1,43 +1,43 @@
 ---
 title: IProtectionManager
-second_title: Aspose.Sildes برای .NET مرجع API
+second_title: Aspose.Sildes برای مرجع API .NET
 description: مدیریت حفاظت با رمز عبور ارائه.
 type: docs
-weight: 6820
+weight: 6840
 url: /fa/aspose.slides/iprotectionmanager/
 ---
 ## IProtectionManager رابط
 
-Presentation password protection management.
+مدیریت حفاظت با رمز عبور ارائه.
 
 ```csharp
 public interface IProtectionManager
 ```
 
-## ویژگی‌ها
+## خصوصیات
 
-| نام | توضیح |
+| Name | Description |
 | --- | --- |
-| [EncryptDocumentProperties](../../aspose.slides/iprotectionmanager/encryptdocumentproperties) { get; set; } | این ویژگی منطقی است، اگر ارائه با رمز عبور محافظت شود. اگر true باشد، ویژگی‌های سند در فایل ارائه رمزنگاری می‌شود. اگر false باشد، ویژگی‌های سند عمومی هستند در حالی که ارائه رمزنگاری شده است. Read/write Boolean. |
-| [EncryptionPassword](../../aspose.slides/iprotectionmanager/encryptionpassword) { get; } | رمز عبور رمزگذاری را برمی‌گرداند. Read-only String. |
-| [IsEncrypted](../../aspose.slides/iprotectionmanager/isencrypted) { get; } | مقداری را بر می‌گرداند که نشان می‌دهد آیا این نمونه رمزنگاری شده است یا خیر. Read-only Boolean. |
-| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/iprotectionmanager/isonlydocumentpropertiesloaded) { get; } | این ویژگی زمانی معنا دارد که فایل ارائه با رمز عبور محافظت شود و ویژگی‌های سند این فایل عمومی باشند. مقدار true به این معنی است که فقط ویژگی‌های سند بدون استفاده از رمز عبور از یک فایل ارائه رمزنگاری شده بارگذاری می‌شوند. مقدار false به این معنی است که کل ارائه رمزنگاری شده با استفاده از رمز صحیح بارگذاری می‌شود و نه فقط ویژگی‌های سند. اگر ارائه رمزنگاری نشده باشد، مقدار ویژگی همیشه false است. اگر ویژگی‌های سند یک فایل رمزنگاری‌شده عمومی نباشند، مقدار ویژگی همیشه false است. اگر PresentationEx.EncryptDocumentProperties true باشد، مقدار ویژگی IsOnlyDocumentPropertiesLoaded همیشه false است. Read-only Boolean. |
-| [IsWriteProtected](../../aspose.slides/iprotectionmanager/iswriteprotected) { get; } | مقداری را بر می‌گرداند که نشان می‌دهد آیا این ارائه از نوشتن محافظت شده است یا خیر. Read-only Boolean. |
-| [ReadOnlyRecommended](../../aspose.slides/iprotectionmanager/readonlyrecommended) { get; set; } | توصیهٔ فقط خواندنی را بر می‌گرداند یا تنظیم می‌کند. Read/write Boolean. |
+| [EncryptDocumentProperties](../../aspose.slides/iprotectionmanager/encryptdocumentproperties) { get; set; } | اگر ارائه محافظت شده با رمز عبور باشد، این ویژگی معنا دارد. اگر true باشد، خصوصیات سند در فایل ارائه رمزگذاری می‌شود. اگر false باشد، خصوصیات سند عمومی است در حالی که ارائه رمزگذاری شده است. قابل خواندن/نوشتن Boolean. |
+| [EncryptionPassword](../../aspose.slides/iprotectionmanager/encryptionpassword) { get; } | رمز عبور رمزگذاری را برمی‌گرداند. فقط خواندنی String. |
+| [IsEncrypted](../../aspose.slides/iprotectionmanager/isencrypted) { get; } | مقداری را که نشان می‌دهد این نمونه رمزگذاری شده است دریافت می‌کند. فقط خواندنی Boolean. |
+| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/iprotectionmanager/isonlydocumentpropertiesloaded) { get; } | اگر فایل ارائه با رمز عبور محافظت شده باشد و خصوصیات سند این فایل عمومی باشد، این ویژگی معنا دارد. مقدار true به این معنی است که تنها خصوصیات سند بدون استفاده از رمز عبور از فایل ارائه رمزگذاری شده بارگذاری می‌شود. مقدار false به این معنی است که کل ارائه رمزگذاری شده با استفاده از رمز صحیح بارگذاری می‌شود؛ نه فقط خصوصیات سند. اگر ارائه رمزگذاری نشده باشد، مقدار ویژگی دائماً false است. اگر خصوصیات سند یک فایل رمزگذاری شده عمومی نباشند، مقدار ویژگی دائماً false است. اگر PresentationEx.EncryptDocumentProperties برابر true باشد، مقدار ویژگی IsOnlyDocumentPropertiesLoaded همیشه false است. فقط خواندنی Boolean. |
+| [IsWriteProtected](../../aspose.slides/iprotectionmanager/iswriteprotected) { get; } | مقداری را که نشان می‌دهد این ارائه محافظت شده از نوشتن است دریافت می‌کند. فقط خواندنی Boolean. |
+| [ReadOnlyRecommended](../../aspose.slides/iprotectionmanager/readonlyrecommended) { get; set; } | پیشنهاد فقط‌خواندنی را دریافت یا تنظیم می‌کند. قابل خواندن/نوشتن Boolean. |
 
 ## متدها
 
-| نام | توضیح |
+| Name | Description |
 | --- | --- |
-| [CheckWriteProtection](../../aspose.slides/iprotectionmanager/checkwriteprotection)(string) | تعیین می‌کند آیا یک ارائه برای ویرایش با رمز عبور محافظت شده است یا نه. |
-| [Encrypt](../../aspose.slides/iprotectionmanager/encrypt)(string) | ارائه را با رمز عبور مشخص‌شده رمزنگاری می‌کند. |
-| [RemoveEncryption](../../aspose.slides/iprotectionmanager/removeencryption)() | رمزنگاری را حذف می‌کند. |
-| [RemoveWriteProtection](../../aspose.slides/iprotectionmanager/removewriteprotection)() | محافظت نوشتن برای این ارائه را حذف می‌کند. |
-| [SetWriteProtection](../../aspose.slides/iprotectionmanager/setwriteprotection)(string) | محافظت نوشتن برای این ارائه را با رمز عبور مشخص‌شده تنظیم می‌کند. |
+| [CheckWriteProtection](../../aspose.slides/iprotectionmanager/checkwriteprotection)(string) | تعیین می‌کند که آیا یک ارائه برای تغییر با رمز عبور محافظت شده است یا خیر. |
+| [Encrypt](../../aspose.slides/iprotectionmanager/encrypt)(string) | ارائه را با رمز عبور مشخص رمزگذاری می‌کند. |
+| [RemoveEncryption](../../aspose.slides/iprotectionmanager/removeencryption)() | رمزگذاری را حذف می‌کند. |
+| [RemoveWriteProtection](../../aspose.slides/iprotectionmanager/removewriteprotection)() | محافظت نوشتن این ارائه را حذف می‌کند. |
+| [SetWriteProtection](../../aspose.slides/iprotectionmanager/setwriteprotection)(string) | محافظت نوشتن این ارائه را با رمز عبور مشخص تنظیم می‌کند. |
 
 ### موارد مرتبط
 
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* فضای نام [Aspose.Slides](../../aspose.slides)
+* مجوعه [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

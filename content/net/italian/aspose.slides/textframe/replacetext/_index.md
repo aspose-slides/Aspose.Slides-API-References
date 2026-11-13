@@ -1,12 +1,12 @@
 ---
 title: ReplaceText
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Sostituisce tutte le occorrenze del testo specificato con un altro testo specificato.
 type: docs
-weight: 130
+weight: 140
 url: /it/aspose.slides/textframe/replacetext/
 ---
-## TextFrame.ReplaceText metodo
+## Metodo TextFrame.ReplaceText
 
 Sostituisce tutte le occorrenze del testo specificato con un altro testo specificato.
 
@@ -18,18 +18,18 @@ public void ReplaceText(string oldText, string newText, ITextSearchOptions optio
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | oldText | String | La stringa da sostituire. |
-| newText | String | La stringa per sostituire tutte le occorrenze di oldText. |
-| options | ITextSearchOptions | Opzioni di ricerca testo [`ITextSearchOptions`](../../itextsearchoptions). |
+| newText | String | La stringa che sostituisce tutte le occorrenze di oldText. |
+| options | ITextSearchOptions | Opzioni di ricerca del testo [`ITextSearchOptions`](../../itextsearchoptions). |
 | callback | IFindResultCallback | Oggetto di callback per salvare il risultato dell'operazione di sostituzione [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Esempi
 
-Il codice di esempio seguente mostra come sostituire una stringa specificata con un'altra stringa specificata.
+Il seguente codice di esempio mostra come sostituire una stringa specificata con un'altra stringa specificata.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx")){
-	// Sostituisce tutte le occorrenze separate di 'the' con '***'
+	// Sostituisci tutte le occorrenze separate di 'the' con '***'
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.ReplaceText("the", "***", new TextSearchOptions()
 	{ WholeWordsOnly = true }, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);

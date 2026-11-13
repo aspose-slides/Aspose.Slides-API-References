@@ -1,14 +1,14 @@
 ---
 title: IMathBox
-second_title: Aspose.Sildes の .NET API リファレンス
-description: 数式要素の論理的なボックス化（パッケージ化）を指定します。たとえば、ボックス化されたオブジェクトは、配置点の有無にかかわらず演算子エミュレータとして機能したり、改行点として機能したり、内部で改行が許可されないようにグループ化したりできます。例として、演算子は改行を防ぐためにボックス化すべきです。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: 数学要素の論理的なボックス化（パッケージ化）を指定します。例えば、ボックス化されたオブジェクトは、整列点の有無にかかわらず演算子エミュレータとして機能したり、改行点として使用されたり、内部で改行が許可されないようにグループ化されたりします。例として、演算子をボックス化して改行を防ぐ必要があります。
 type: docs
-weight: 8190
+weight: 8210
 url: /ja/aspose.slides.mathtext/imathbox/
 ---
 ## IMathBox インターフェイス
 
-数式要素の論理的なボックス化（パッケージ化）を指定します。たとえば、ボックス化されたオブジェクトは配置点の有無にかかわらず演算子エミュレータとして機能したり、改行点として機能したり、内部で改行が許可されないようにグループ化したりできます。例として、"==" 演算子は改行を防ぐためにボックス化すべきです。
+数学要素の論理的なボックス化（パッケージ化）を指定します。たとえば、ボックス化されたオブジェクトは、整列点の有無にかかわらず演算子エミュレータとして機能したり、改行点として使用されたり、改行を許可しないようにグループ化したりできます。例として、"==" 演算子は改行を防ぐためにボックス化すべきです。
 
 ```csharp
 public interface IMathBox : IMathElement
@@ -16,26 +16,26 @@ public interface IMathBox : IMathElement
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [AlignmentPoint](../../aspose.slides.mathtext/imathbox/alignmentpoint) { get; set; } | true の場合、この演算子エミュレータは配置点として機能します。つまり、他の式で指定された配置点とそれを合わせることができます。デフォルト: false |
-| [AsIMathElement](../../aspose.slides.mathtext/imathbox/asimathelement) { get; } | ベースの IMathElement インターフェイスを取得できます [`IMathElement`](../imathelement) |
+| [AlignmentPoint](../../aspose.slides.mathtext/imathbox/alignmentpoint) { get; set; } | true の場合、この演算子エミュレータは整列点として機能します。つまり、他の式で指定された整列点とそれを合わせることができます。既定値: false |
+| [AsIMathElement](../../aspose.slides.mathtext/imathbox/asimathelement) { get; } | 基本 IMathElement インターフェイス [`IMathElement`](../imathelement) を取得できます |
 | [Base](../../aspose.slides.mathtext/imathbox/base) { get; } | 基本引数 |
-| [Differential](../../aspose.slides.mathtext/imathbox/differential) { get; set; } | 微分。true の場合、ボックスは微分として機能し（例: 積分式の 𝑑𝑥 など）、数学的微分に適切な水平間隔が与えられます。デフォルト: false |
-| [ExplicitBreak](../../aspose.slides.mathtext/imathbox/explicitbreak) { get; set; } | 明示的な改行は、Box オブジェクトの開始位置に改行があるかどうかを指定し、行が Box オブジェクトの開始位置で折り返されるようにします。現在の数式行の配置点として使用される前の行の演算子の番号を指定します。許容値: 1..255 デフォルト: 0 (明示的な改行なし) |
-| [NoBreak](../../aspose.slides.mathtext/imathbox/nobreak) { get; set; } | 改行なし。このプロパティはオブジェクト ボックスの「改行不可」属性を指定します。true の場合、ボックス内部で改行は発生しません。これは、複数の二項演算子からなる演算子エミュレータにとって重要です。この要素が指定されない場合、ボックス内部で改行が発生する可能性があります。デフォルト: true |
-| [OperatorEmulator](../../aspose.slides.mathtext/imathbox/operatoremulator) { get; set; } | 演算子エミュレータ。true の場合、ボックスとその内容は単一の演算子として振る舞い、演算子のプロパティを継承します。つまり、文字は改行点として機能し、他の演算子と整列させることができます。演算子エミュレータは、'==' のように複数の字形が結合して演算子を形成する場合に頻繁に使用されます。デフォルト値: false |
+| [Differential](../../aspose.slides.mathtext/imathbox/differential) { get; set; } | 微分。true の場合、ボックスは微分として機能し（例: 積分被積分関数の 𝑑𝑥）、数学的微分に適した水平間隔が付与されます。既定値: false |
+| [ExplicitBreak](../../aspose.slides.mathtext/imathbox/explicitbreak) { get; set; } | 明示的な改行は、Box オブジェクトの先頭に改行があるかどうかを指定し、行が Box オブジェクトの先頭で折り返されるようにします。また、現在の数式行の整列点として使用される、前の数式行の演算子の番号を指定します。可能な値: 1..255 既定値: 0（明示的な改行なし） |
+| [NoBreak](../../aspose.slides.mathtext/imathbox/nobreak) { get; set; } | 改行なし。このプロパティはオブジェクトボックスの「改行不可」属性を指定します。true の場合、ボックス内で改行は発生しません。これは、複数の二項演算子で構成される演算子エミュレータに重要です。この要素が指定されていない場合、ボックス内で改行が発生する可能性があります。既定値: true |
+| [OperatorEmulator](../../aspose.slides.mathtext/imathbox/operatoremulator) { get; set; } | 演算子エミュレータ。true の場合、ボックスとその内容は単一の演算子として動作し、演算子のプロパティを継承します。つまり、文字が改行点として機能したり、他の演算子と整列できたりします。演算子エミュレータは、'==' のように複数のグリフが結合して演算子を構成する場合に頻繁に使用されます。既定値: false |
 
 ### 例
 
-Example:
+例:
 
 ```csharp
 [C#]
 IMathBox box = new MathematicalText("==").ToBox();
 ```
 
-### 参照
+### 関連項目
 
 * インターフェイス [IMathElement](../imathelement)
 * 名前空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

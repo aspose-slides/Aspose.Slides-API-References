@@ -1,14 +1,14 @@
 ---
 title: ChartDataPointLevelsManager
 second_title: Aspose.Sildes .NET API 參考
-description: 資料點等級的容器。適用於 Treeamp 和 Sunburst 系列。資料點等級的索引從零開始。
+description: 資料點層級的容器。適用於 Treeamp 和 Sunburst 系列。資料點層級的索引從零開始。
 type: docs
-weight: 1360
+weight: 1370
 url: /zh-hant/aspose.slides.charts/chartdatapointlevelsmanager/
 ---
 ## ChartDataPointLevelsManager 類別
 
-容納資料點等級的容器。適用於 Treeamp 和 Sunburst 系列。資料點等級的索引是從零開始的。
+資料點層級的容器。適用於 Treeamp 和 Sunburst 系列。資料點層級的索引從零開始。
 
 ```csharp
 public class ChartDataPointLevelsManager : DomObject<ChartDataPoint>, IChartDataPointLevelsManager
@@ -18,8 +18,8 @@ public class ChartDataPointLevelsManager : DomObject<ChartDataPoint>, IChartData
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartdatapointlevelsmanager/count) { get; } | 傳回資料點等級的計數。 |
-| [Item](../../aspose.slides.charts/chartdatapointlevelsmanager/item) { get; } | 傳回 IChartDataPointLevel 物件，用於已定義的等級。 |
+| [Count](../../aspose.slides.charts/chartdatapointlevelsmanager/count) { get; } | 傳回資料點層級計數。 |
+| [Item](../../aspose.slides.charts/chartdatapointlevelsmanager/item) { get; } | 傳回已定義層級的 IChartDataPointLevel 物件。 |
 
 ### 另請參閱
 

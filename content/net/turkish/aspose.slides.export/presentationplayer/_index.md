@@ -3,12 +3,12 @@ title: PresentationPlayer
 second_title: Aspose.Sildes için .NET API Referansı
 description: Presentation../aspose.slides/presentation ile ilişkili animasyonların oynatıcısını temsil eder.
 type: docs
-weight: 4390
+weight: 4410
 url: /tr/aspose.slides.export/presentationplayer/
 ---
 ## PresentationPlayer sınıfı
 
-[`Presentation`](../../aspose.slides/presentation) ile ilişkili animasyonların oynatıcısını temsil eder.
+İlgili [`Presentation`](../../aspose.slides/presentation) ile ilişkili animasyonların oynatıcısını temsil eder.
 
 ```csharp
 public class PresentationPlayer : IDisposable
@@ -18,7 +18,7 @@ public class PresentationPlayer : IDisposable
 
 | Ad | Açıklama |
 | --- | --- |
-| [PresentationPlayer](presentationplayer)(PresentationAnimationsGenerator, double) | [`PresentationPlayer`](../presentationplayer)'nin yeni bir örneğini oluşturur. |
+| [PresentationPlayer](presentationplayer)(PresentationAnimationsGenerator, double) | Yeni bir [`PresentationPlayer`](../presentationplayer) örneği oluşturur. |
 
 ## Özellikler
 
@@ -26,7 +26,7 @@ public class PresentationPlayer : IDisposable
 | --- | --- |
 | [FrameIndex](../../aspose.slides.export/presentationplayer/frameindex) { get; } | Çerçeve indeksini alır. |
 
-## Yöntemler
+## Metotlar
 
 | Ad | Açıklama |
 | --- | --- |
@@ -36,7 +36,7 @@ public class PresentationPlayer : IDisposable
 
 | Ad | Açıklama |
 | --- | --- |
-| delegate [FrameTickHandler](presentationplayer.frametickhandler) | [`FrameTick`](./frametick) olayının çerçeve tik işleyicisini temsil eder. |
+| delegate [FrameTickHandler](presentationplayer.frametickhandler) | [`FrameTick`](./frametick) etkinliğinin çerçeve tik işleyicisini temsil eder. |
 
 ### Örnekler
 

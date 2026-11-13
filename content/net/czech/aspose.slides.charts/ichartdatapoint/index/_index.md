@@ -1,14 +1,14 @@
 ---
 title: Index
-second_title: Aspose.Sildes pro .NET API Reference
-description: Určuje, ke které položce v kolekci dětí rodiče tento datový bod patří. Vrací UInt32.
+second_title: Aspose.Sildes pro .NET – reference API
+description: Určuje, ke které kolekci potomků nadřazeného objektu tento datový bod patří. Čte UInt32.
 type: docs
-weight: 80
+weight: 120
 url: /cs/aspose.slides.charts/ichartdatapoint/index/
 ---
 ## IChartDataPoint.Index vlastnost
 
-Určuje, ke které položce v kolekci dětí rodiče tento datový bod patří. Vrací UInt32.
+Určuje, ke kterému z kolekce potomků nadřazeného objektu tento datový bod patří. Čte UInt32.
 
 ```csharp
 public uint Index { get; }

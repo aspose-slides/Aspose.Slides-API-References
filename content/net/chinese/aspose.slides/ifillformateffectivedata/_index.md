@@ -3,7 +3,7 @@ title: IFillFormatEffectiveData
 second_title: Aspose.Sildes for .NET API 参考
 description: 不可变对象，包含有效的填充格式属性。
 type: docs
-weight: 5800
+weight: 5820
 url: /zh/aspose.slides/ifillformateffectivedata/
 ---
 ## IFillFormatEffectiveData 接口
@@ -16,7 +16,7 @@ public interface IFillFormatEffectiveData : IFillParamSource
 
 ## 属性
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ifillformateffectivedata/asifillparamsource) { get; } | 返回 IFillParamSource 接口。只读 [`IFillParamSource`](../ifillparamsource)。 |
 | [FillType](../../aspose.slides/ifillformateffectivedata/filltype) { get; } | 返回填充类型。只读 [`FillType`](../filltype)。 |
@@ -31,7 +31,7 @@ public interface IFillFormatEffectiveData : IFillParamSource
 
 此接口与 [`IFillFormat`](../ifillformat) 接口一起使用，以返回应用继承后的有效格式值。
 
-### 另请参见
+### 另见
 
 * 接口 [IFillParamSource](../ifillparamsource)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

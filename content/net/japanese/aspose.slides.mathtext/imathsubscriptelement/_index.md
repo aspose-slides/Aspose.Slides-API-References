@@ -1,14 +1,14 @@
 ---
 title: IMathSubscriptElement
-second_title: Aspose.Sildes の .NET API リファレンス
-description: ベースと右下に配置された縮小サイズのサブスクリプトで構成されるサブスクリプト オブジェクトを指定します。
+second_title: Aspose.Sildes の .NET 用 API リファレンス
+description: 基本と、右下に配置された縮小サイズの下付文字で構成される下付文字オブジェクトを指定します。
 type: docs
-weight: 8470
+weight: 8490
 url: /ja/aspose.slides.mathtext/imathsubscriptelement/
 ---
 ## IMathSubscriptElement インターフェイス
 
-ベースと右下に配置された縮小されたサブスクリプトで構成されるサブスクリプト オブジェクトを指定します。
+基本と、右下に配置された縮小サイズの下付文字で構成される下付文字オブジェクトを指定します。
 
 ```csharp
 public interface IMathSubscriptElement : IMathElement
@@ -18,13 +18,14 @@ public interface IMathSubscriptElement : IMathElement
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathsubscriptelement/asimathelement) { get; } | ベース IMathElement インターフェイスを取得できます [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathsubscriptelement/asimathelement) { get; } | 基本 IMathElement インターフェイスを取得できます [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathsubscriptelement/base) { get; } | ベース引数 |
-| [Subscript](../../aspose.slides.mathtext/imathsubscriptelement/subscript) { get; } | サブスクリプト |
+| [Subscript](../../aspose.slides.mathtext/imathsubscriptelement/subscript) { get; } | 下付き文字 |
 
 ### 例
 
 例:
+
 ```csharp
 [C#]
 IMathSubscriptElement subscriptElement = new MathematicalText("N").SetSubscript("i");

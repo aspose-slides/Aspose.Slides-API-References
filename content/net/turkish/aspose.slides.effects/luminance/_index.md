@@ -1,14 +1,14 @@
 ---
 title: Luminance
-second_title: Aspose.Sildes .NET için API Referansı
-description: Luminance etkisini temsil eder. Parlaklık, tüm renkleri doğrusal olarak beyaza ya da siyaha yaklaştırır. Kontrast ise tüm renkleri birbirine daha yakın ya da daha uzak olacak şekilde ölçeklendirir.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bir Luminance efekti temsil eder. Parlaklık, tüm renkleri lineer olarak beyaza ya da siyaha daha yakın hâle getirir. Kontrast, tüm renkleri daha yakın ya da daha uzak hâle ölçeklendirir.
 type: docs
-weight: 3610
+weight: 3630
 url: /tr/aspose.slides.effects/luminance/
 ---
 ## Luminance sınıfı
 
-Luminance etkisini temsil eder. Parlaklık, tüm renkleri doğrusal olarak beyaza ya da siyaha yaklaştırır. Kontrast ise tüm renkleri birbirine daha yakın ya da daha uzak olacak şekilde ölçeklendirir.
+Represents a Luminance effect. Brightness linearly shifts all colors closer to white or black. Contrast scales all colors to be either closer or further apart.
 
 ```csharp
 public sealed class Luminance : ImageTransformOperation, ILuminance
@@ -18,17 +18,17 @@ public sealed class Luminance : ImageTransformOperation, ILuminance
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almayı sağlar. Yalnızca okunabilir [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almayı sağlar. Yalnızca okunur [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/luminance/equals)(object) | Belirtilen [`Luminance`](../luminance) öğesinin geçerli [`Luminance`](../luminance) ile eşit olup olmadığını belirler. |
-| [GetEffective](../../aspose.slides.effects/luminance/geteffective)() | Kalıtım uygulanmış etkili Luminance efekti verilerini alır. |
-| override [GetHashCode](../../aspose.slides.effects/luminance/gethashcode)() | Belirli bir tür için bir karma işlevi olarak hizmet verir. |
+| override [Equals](../../aspose.slides.effects/luminance/equals)(object) | Belirtilen [`Luminance`](../luminance)'nin mevcut [`Luminance`](../luminance) ile eşit olup olmadığını belirler. |
+| [GetEffective](../../aspose.slides.effects/luminance/geteffective)() | Uygulanan mirasla etkili Luminance efekti verilerini alır. |
+| override [GetHashCode](../../aspose.slides.effects/luminance/gethashcode)() | Belirli bir tür için bir karma işlevi olarak hizmet eder. |
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
 * sınıf [ImageTransformOperation](../imagetransformoperation)
 * arayüz [ILuminance](../iluminance)

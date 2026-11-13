@@ -1,9 +1,9 @@
 ---
 title: FontScheme
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Stocke les polices définies par le thème.
 type: docs
-weight: 11130
+weight: 11150
 url: /fr/aspose.slides.theme/fontscheme/
 ---
 ## FontScheme classe
@@ -18,9 +18,9 @@ public class FontScheme : IFontScheme
 
 | Nom | Description |
 | --- | --- |
-| [Major](../../aspose.slides.theme/fontscheme/major) { get; } | Renvoie la collection de polices pour la partie « heading » de la diapositive. Lecture seule [`IFonts`](../../aspose.slides/ifonts). |
-| [Minor](../../aspose.slides.theme/fontscheme/minor) { get; } | Renvoie la collection de polices pour la partie « body » de la diapositive. Lecture seule [`IFonts`](../../aspose.slides/ifonts). |
-| [Name](../../aspose.slides.theme/fontscheme/name) { get; set; } | Renvoie le nom du schéma de police. Lecture/écriture String. |
+| [Major](../../aspose.slides.theme/fontscheme/major) { get; } | Renvoie la collection de polices pour une partie "heading" de la diapositive. Lecture seule [`IFonts`](../../aspose.slides/ifonts). |
+| [Minor](../../aspose.slides.theme/fontscheme/minor) { get; } | Renvoie la collection de polices pour une partie "body" de la diapositive. Lecture seule [`IFonts`](../../aspose.slides/ifonts). |
+| [Name](../../aspose.slides.theme/fontscheme/name) { get; set; } | Renvoie le nom du jeu de polices. Lecture/écriture String. |
 
 ### Voir aussi
 

@@ -3,7 +3,7 @@ title: IPlaceholder
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示幻灯片上的占位符。
 type: docs
-weight: 6690
+weight: 6710
 url: /zh/aspose.slides/iplaceholder/
 ---
 ## IPlaceholder 接口
@@ -23,7 +23,7 @@ public interface IPlaceholder
 | [Size](../../aspose.slides/iplaceholder/size) { get; } | 获取占位符的大小。只读 [`PlaceholderSize`](../placeholdersize)。 |
 | [Type](../../aspose.slides/iplaceholder/type) { get; } | 获取占位符的类型。只读 [`PlaceholderType`](../placeholdertype)。 |
 
-### 参见
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

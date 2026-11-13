@@ -3,12 +3,12 @@ title: Flavor
 second_title: Aspose.Sildes cho Tham chiếu API .NET
 description: Tất cả các đặc tả markdown được sử dụng trong chương trình.
 type: docs
-weight: 3800
+weight: 3820
 url: /vi/aspose.slides.export/flavor/
 ---
 ## Liệt kê Flavor
 
-Tất cả các đặc tả markdown được sử dụng trong chương trình.
+All markdown specifications used in program.
 
 ```csharp
 public enum Flavor
@@ -18,30 +18,30 @@ public enum Flavor
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| Github | `0` | Định dạng Github. |
-| Gruber | `1` | Định dạng Gruber. |
-| MultiMarkdown | `2` | Định dạng Multi markdown. |
-| CommonMark | `3` | Định dạng Common mark. |
-| MarkdownExtra | `4` | Định dạng Markdown extra. |
-| Pandoc | `5` | Định dạng Pandoc. |
-| Kramdown | `6` | Định dạng Kramdown. |
-| Markua | `7` | Định dạng Markua. |
-| Maruku | `8` | Định dạng Maruku. |
-| Markdown2 | `9` | Định dạng Markdown2. |
-| Remarkable | `10` | Định dạng Remarkable |
-| Showdown | `11` | Định dạng Showdown. |
-| Ghost | `12` | Định dạng Ghost. |
-| GitLab | `13` | Định dạng Gitlab. |
-| Haroopad | `14` | Định dạng Haroopad. |
-| IaWriter | `15` | Định dạng IAWriter. |
-| Redcarpet | `16` | Định dạng Redcarpet. |
-| ScholarlyMarkdown | `17` | Định dạng Scholarly markdown. |
-| Taiga | `18` | Định dạng Taiga. |
-| Trello | `19` | Định dạng Trello. |
-| S9ETextFormatter | `20` | Định dạng S9E text formatter. |
-| XWiki | `21` | Định dạng XWiki. |
-| StackOverflow | `22` | Định dạng Stack overflow. |
-| Default | `23` | Định dạng markdown mặc định. |
+| Github | `0` | Kiểu Github. |
+| Gruber | `1` | Kiểu Gruber. |
+| MultiMarkdown | `2` | Kiểu MultiMarkdown. |
+| CommonMark | `3` | Kiểu CommonMark. |
+| MarkdownExtra | `4` | Kiểu MarkdownExtra. |
+| Pandoc | `5` | Kiểu Pandoc. |
+| Kramdown | `6` | Kiểu Kramdown. |
+| Markua | `7` | Kiểu Markua. |
+| Maruku | `8` | Kiểu Maruku. |
+| Markdown2 | `9` | Kiểu Markdown2. |
+| Remarkable | `10` | Kiểu Remarkable |
+| Showdown | `11` | Kiểu Showdown. |
+| Ghost | `12` | Kiểu Ghost. |
+| GitLab | `13` | Kiểu GitLab. |
+| Haroopad | `14` | Kiểu Haroopad. |
+| IaWriter | `15` | Kiểu IAWriter. |
+| Redcarpet | `16` | Kiểu Redcarpet. |
+| ScholarlyMarkdown | `17` | Kiểu Scholarly markdown. |
+| Taiga | `18` | Kiểu Taiga. |
+| Trello | `19` | Kiểu Trello. |
+| S9ETextFormatter | `20` | Kiểu S9E text formatter. |
+| XWiki | `21` | Kiểu XWiki. |
+| StackOverflow | `22` | Kiểu Stack overflow. |
+| Default | `23` | Kiểu markdown mặc định. |
 
 ### Ví dụ
 

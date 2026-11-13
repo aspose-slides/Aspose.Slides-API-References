@@ -1,20 +1,20 @@
 ---
 title: ISlidesLayoutOptions
-second_title: Aspose.Sildes için .NET API Referansı
-description: Dışa aktarım için sunum düzen modunu temsil eder.
+second_title: Aspose.Sildes .NET için API Referansı
+description: Dışa aktarma için sunum düzeni modunu temsil eder.
 type: docs
-weight: 4100
+weight: 4120
 url: /tr/aspose.slides.export/islideslayoutoptions/
 ---
 ## ISlidesLayoutOptions arayüz
 
-Sunumun dışa aktarım için düzen modunu temsil eder.
+Dışa aktarma için sunum düzeni modunu temsil eder.
 
 ```csharp
 public interface ISlidesLayoutOptions
 ```
 
-### Ayrıca Bakınız
+### Diğer
 
 * ad alanı [Aspose.Slides.Export](../../aspose.slides.export)
 * derleme [Aspose.Slides](../../)

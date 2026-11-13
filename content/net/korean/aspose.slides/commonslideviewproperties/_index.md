@@ -1,14 +1,14 @@
 ---
 title: CommonSlideViewProperties
 second_title: Aspose.Sildes for .NET API 참조
-description: 일반 슬라이드 보기 속성을 나타냅니다.
+description: 공통 슬라이드 보기 속성을 나타냅니다.
 type: docs
-weight: 2660
+weight: 2680
 url: /ko/aspose.slides/commonslideviewproperties/
 ---
 ## CommonSlideViewProperties 클래스
 
-일반 슬라이드 보기 속성을 나타냅니다.
+공통 슬라이드 보기 속성을 나타냅니다.
 
 ```csharp
 public class CommonSlideViewProperties : ICommonSlideViewProperties
@@ -20,11 +20,11 @@ public class CommonSlideViewProperties : ICommonSlideViewProperties
 | --- | --- |
 | [DrawingGuides](../../aspose.slides/commonslideviewproperties/drawingguides) { get; } | 그리기 가이드 컬렉션을 반환합니다. 읽기 전용 [`IDrawingGuidesCollection`](../idrawingguidescollection) |
 | [Scale](../../aspose.slides/commonslideviewproperties/scale) { get; set; } | 뷰 스케일링 비율을 백분율로 지정합니다. 읽기/쓰기 Int32. |
-| [VariableScale](../../aspose.slides/commonslideviewproperties/variablescale) { get; set; } | 뷰 콘텐츠가 현재 창 크기에 가장 잘 맞도록 자동으로 스케일링되도록 지정합니다. 읽기/쓰기 Boolean. |
+| [VariableScale](../../aspose.slides/commonslideviewproperties/variablescale) { get; set; } | 뷰 콘텐츠가 현재 창 크기에 최적에 맞게 자동으로 스케일링되도록 지정합니다. 읽기/쓰기 Boolean. |
 
 ### 예제
 
-다음 예제는 PowerPoint 프레젠테이션 슬라이드의 확대/축소 값을 설정하는 방법을 보여줍니다.
+다음 예제에서는 PowerPoint 프레젠테이션 슬라이드의 확대/축소 값을 설정하는 방법을 보여줍니다.
 
 ```csharp
 [C#]

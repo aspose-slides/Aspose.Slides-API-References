@@ -1,14 +1,14 @@
 ---
 title: InterruptionToken
-second_title: Aspose.Sildes için .NET API Referansı
-description: Bu sınıf, uzun süren görevlerin kesilme isteği olup olmadığını bildirmek için kullanılacak belirteci temsil eder.
+second_title: Aspose.Sildes .NET API Referansı
+description: Bu sınıf, uzun süren görevlerin kesinti isteyip istemediğini bildirmek için kullanılacak belirteci temsil eder.
 type: docs
-weight: 7600
+weight: 7620
 url: /tr/aspose.slides/interruptiontoken/
 ---
-## InterruptionToken sınıf
+## InterruptionToken sınıfı
 
-Bu sınıf, uzun süren görevlerin kesilme isteği olup olmadığını bildirmek için kullanılacak belirteci temsil eder.
+Bu sınıf, uzun süren görevlerin kesinti istenip istenmediğini işaretlemek için kullanılacak belirteci temsil eder.
 
 ```csharp
 public class InterruptionToken : IInterruptionToken
@@ -18,14 +18,14 @@ public class InterruptionToken : IInterruptionToken
 
 | Ad | Açıklama |
 | --- | --- |
-| static [None](../../aspose.slides/interruptiontoken/none) { get; } | Boş bir kesilme belirtecini temsil eder. Bu belirteç kullanıldığında uzun süren işlemler [`Interrupt`](../interruptiontokensource/interrupt) aracılığıyla asla kesilmez. |
-| [IsInterruptionRequested](../../aspose.slides/interruptiontoken/isinterruptionrequested) { get; } | Kesilme isteği gönderildiyse Boolean.true döndürür. |
+| static [None](../../aspose.slides/interruptiontoken/none) { get; } | Boş bir kesinti belirteci temsil eder. Bu belirteç kullanıldığında uzun çalışan işlemler [`Interrupt`](../interruptiontokensource/interrupt) aracılığıyla asla kesintiye uğramaz. |
+| [IsInterruptionRequested](../../aspose.slides/interruptiontoken/isinterruptionrequested) { get; } | Kesintinin istendiği durumda Boolean.true döndürür. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [ThrowIfInterruptionRequested](../../aspose.slides/interruptiontoken/throwifinterruptionrequested)() | Kesilme isteği gönderildiyse bir OperationCanceledException fırlatır. |
+| [ThrowIfInterruptionRequested](../../aspose.slides/interruptiontoken/throwifinterruptionrequested)() | Kesinti istendiğinde bir OperationCanceledException fırlatır. |
 
 ### Ayrıca Bakınız
 

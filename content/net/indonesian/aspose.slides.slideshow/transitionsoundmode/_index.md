@@ -3,10 +3,10 @@ title: TransitionSoundMode
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili mode suara transisi.
 type: docs
-weight: 10430
+weight: 10450
 url: /id/aspose.slides.slideshow/transitionsoundmode/
 ---
-## enumerasi TransitionSoundMode
+## TransitionSoundMode enumerasi
 
 Mewakili mode suara transisi.
 

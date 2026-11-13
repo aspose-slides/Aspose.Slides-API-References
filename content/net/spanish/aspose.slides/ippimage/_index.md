@@ -3,7 +3,7 @@ title: IPPImage
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una imagen en una presentación.
 type: docs
-weight: 6550
+weight: 6570
 url: /es/aspose.slides/ippimage/
 ---
 ## IPPImage interfaz
@@ -18,10 +18,10 @@ public interface IPPImage
 
 | Nombre | Descripción |
 | --- | --- |
-| [BinaryData](../../aspose.slides/ippimage/binarydata) { get; } | Devuelve la copia de los datos de una imagen. Solo lectura Byte[]. |
+| [BinaryData](../../aspose.slides/ippimage/binarydata) { get; } | Devuelve una copia de los datos de una imagen. Solo lectura Byte[]. |
 | [ContentType](../../aspose.slides/ippimage/contenttype) { get; } | Devuelve un tipo MIME de una imagen, codificado en [`BinaryData`](./binarydata). Solo lectura String. |
 | [Height](../../aspose.slides/ippimage/height) { get; } | Devuelve la altura de una imagen. Solo lectura Int32. |
-| [Image](../../aspose.slides/ippimage/image) { get; } | Devuelve la copia de una imagen. Solo lectura [`Image`](./image). |
+| [Image](../../aspose.slides/ippimage/image) { get; } | Devuelve una copia de una imagen. Solo lectura [`Image`](./image). |
 | [SvgImage](../../aspose.slides/ippimage/svgimage) { get; set; } | Devuelve o establece el objeto ISvgImage [`ISvgImage`](../isvgimage) |
 | [Width](../../aspose.slides/ippimage/width) { get; } | Devuelve el ancho de una imagen. Solo lectura Int32. |
 | [X](../../aspose.slides/ippimage/x) { get; } | Devuelve el desplazamiento X de una imagen. Solo lectura Int32. |

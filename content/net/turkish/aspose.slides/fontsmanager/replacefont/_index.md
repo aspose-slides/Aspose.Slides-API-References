@@ -3,12 +3,12 @@ title: ReplaceFont
 second_title: Aspose.Sildes için .NET API Referansı
 description: Sunumda yazı tipini değiştir
 type: docs
-weight: 100
+weight: 110
 url: /tr/aspose.slides/fontsmanager/replacefont/
 ---
 ## ReplaceFont(IFontData, IFontData) {#replacefont}
 
-Sunumdaki yazı tipini değiştir
+Sunumda yazı tipini değiştir
 
 ```csharp
 public void ReplaceFont(IFontData sourceFont, IFontData destFont)
@@ -21,7 +21,7 @@ public void ReplaceFont(IFontData sourceFont, IFontData destFont)
 
 ### Ayrıca Bakınız
 
-* arayüz [IFontData](../../ifontdata)
+* arabirim [IFontData](../../ifontdata)
 * sınıf [FontsManager](../../fontsmanager)
 * ad alanı [Aspose.Slides](../../fontsmanager)
 * derleme [Aspose.Slides](../../../)
@@ -30,7 +30,7 @@ public void ReplaceFont(IFontData sourceFont, IFontData destFont)
 
 ## ReplaceFont(IFontSubstRule) {#replacefont_1}
 
-Sunumdaki yazı tipini, [`FontSubstRule`](../../fontsubstrule) içinde sağlanan bilgileri kullanarak değiştir
+Sunumda yazı tipini, [`FontSubstRule`](../../fontsubstrule) içinde sağlanan bilgileri kullanarak değiştir
 
 ```csharp
 public void ReplaceFont(IFontSubstRule substRule)
@@ -42,7 +42,7 @@ public void ReplaceFont(IFontSubstRule substRule)
 
 ### Ayrıca Bakınız
 
-* arayüz [IFontSubstRule](../../ifontsubstrule)
+* arabirim [IFontSubstRule](../../ifontsubstrule)
 * sınıf [FontsManager](../../fontsmanager)
 * ad alanı [Aspose.Slides](../../fontsmanager)
 * derleme [Aspose.Slides](../../../)
@@ -51,7 +51,7 @@ public void ReplaceFont(IFontSubstRule substRule)
 
 ## ReplaceFont(IFontSubstRuleCollection) {#replacefont_2}
 
-Sunumdaki yazı tipini, [`FontSubstRule`](../../fontsubstrule) koleksiyonunda sağlanan bilgileri kullanarak değiştir
+Sunumda yazı tipini, [`FontSubstRule`](../../fontsubstrule) koleksiyonunda sağlanan bilgileri kullanarak değiştir
 
 ```csharp
 public void ReplaceFont(IFontSubstRuleCollection substRules)
@@ -63,7 +63,7 @@ public void ReplaceFont(IFontSubstRuleCollection substRules)
 
 ### Ayrıca Bakınız
 
-* arayüz [IFontSubstRuleCollection](../../ifontsubstrulecollection)
+* arabirim [IFontSubstRuleCollection](../../ifontsubstrulecollection)
 * sınıf [FontsManager](../../fontsmanager)
 * ad alanı [Aspose.Slides](../../fontsmanager)
 * derleme [Aspose.Slides](../../../)

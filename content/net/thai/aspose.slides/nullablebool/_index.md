@@ -1,28 +1,28 @@
 ---
 title: NullableBool
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แทนค่าบูลีนแบบสามค่า.
+description: แสดงค่าบูลีนแบบสามค่า.
 type: docs
-weight: 9170
+weight: 9190
 url: /th/aspose.slides/nullablebool/
 ---
-## NullableBool enumeration
+## NullableBool enum
 
-แทนค่าบูลีนแบบสามค่า.
+Represents triple boolean values.
 
 ```csharp
 public enum NullableBool : sbyte
 ```
 
-### Values
+### ค่า
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| NotDefined | `-1` | ค่าบูลีนยังไม่ได้กำหนด |
-| False | `0` | ค่าผิด |
-| True | `1` | ค่าจริง |
+| NotDefined | `-1` | ค่าบูลีนยังไม่ได้กำหนด. |
+| False | `0` | ค่า False. |
+| True | `1` | ค่า True. |
 
-### See Also
+### ดูเพิ่มเติม
 
 * เนมสเปซ [Aspose.Slides](../../aspose.slides)
 * แอสเซมบลี [Aspose.Slides](../../)

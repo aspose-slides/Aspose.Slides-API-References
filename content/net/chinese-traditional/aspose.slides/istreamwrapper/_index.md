@@ -1,14 +1,14 @@
 ---
 title: IStreamWrapper
-second_title: Aspose.Sildes for .NET API 參考
-description: Aspose.IO.Stream 為 COM 介面的包裝器。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: Aspose.IO.Stream 包裝器，用於 COM 介面。
 type: docs
-weight: 7130
+weight: 7150
 url: /zh-hant/aspose.slides/istreamwrapper/
 ---
 ## IStreamWrapper 介面
 
-Aspose.IO.Stream 為 COM 介面的包裝器。
+Aspose.IO.Stream 包裝器，用於 COM 介面。
 
 ```csharp
 public interface IStreamWrapper : IDisposable
@@ -20,11 +20,11 @@ public interface IStreamWrapper : IDisposable
 | --- | --- |
 | [AsIDisposable](../../aspose.slides/istreamwrapper/asidisposable) { get; } | 允許取得基礎 IDisposable 介面。唯讀 IDisposable。 |
 | [CanRead](../../aspose.slides/istreamwrapper/canread) { get; } | 取得一個值，指示目前的串流是否支援讀取。唯讀 Boolean。 |
-| [CanSeek](../../aspose.slides/istreamwrapper/canseek) { get; } | 取得一個值，指示目前的串流是否支援定位。唯讀 Boolean。 |
+| [CanSeek](../../aspose.slides/istreamwrapper/canseek) { get; } | 取得一個值，指示目前的串流是否支援尋找。唯讀 Boolean。 |
 | [CanWrite](../../aspose.slides/istreamwrapper/canwrite) { get; } | 取得一個值，指示目前的串流是否支援寫入。唯讀 Boolean。 |
-| [Length](../../aspose.slides/istreamwrapper/length) { get; } | 取得串流的位元組長度。唯讀 Int64。 |
+| [Length](../../aspose.slides/istreamwrapper/length) { get; } | 取得串流的長度（以位元組為單位）。唯讀 Int64。 |
 | [Position](../../aspose.slides/istreamwrapper/position) { get; } | 取得目前串流中的位置。唯讀 Int64。 |
-| [Stream](../../aspose.slides/istreamwrapper/stream) { get; } | 取得串流。唯讀 Stream。 |
+| [Stream](../../aspose.slides/istreamwrapper/stream) { get; } | 取得一個串流。唯讀 Stream。 |
 
 ## 方法
 
@@ -32,11 +32,11 @@ public interface IStreamWrapper : IDisposable
 | --- | --- |
 | [Close](../../aspose.slides/istreamwrapper/close)() | 關閉目前的串流並釋放任何資源。 |
 | [Flush](../../aspose.slides/istreamwrapper/flush)() | 清除此串流的所有緩衝區，並使任何緩衝的資料寫入底層裝置。 |
-| [Read](../../aspose.slides/istreamwrapper/read)(byte[], int, int) | 從目前的串流讀取一系列位元組，並依讀取的位元組數前進串流中的位置。 |
-| [ReadByte](../../aspose.slides/istreamwrapper/readbyte)() | 從串流讀取一個位元組，並將串流位置前進一個位元組；若已到達串流結尾則回傳 -1。 |
-| [Seek](../../aspose.slides/istreamwrapper/seek)(long, SeekOrigin) | 設定目前串流中的位置 |
-| [Write](../../aspose.slides/istreamwrapper/write)(byte[], int, int) | 將一系列位元組寫入目前的串流，並依寫入的位元組數前進此串流中的位置。 |
-| [WriteByte](../../aspose.slides/istreamwrapper/writebyte)(byte) | 將一個位元組寫入串流的目前位置，並將串流位置前進一個位元組。 |
+| [Read](../../aspose.slides/istreamwrapper/read)(byte[], int, int) | 從目前的串流讀取一系列位元組，並將串流內的位置前移已讀取的位元組數。 |
+| [ReadByte](../../aspose.slides/istreamwrapper/readbyte)() | 從串流讀取一個位元組，並將串流內的位置前移一個位元組；如果已到達串流結尾則返回 -1。 |
+| [Seek](../../aspose.slides/istreamwrapper/seek)(long, SeekOrigin) | 設定目前串流中的位置。 |
+| [Write](../../aspose.slides/istreamwrapper/write)(byte[], int, int) | 將一系列位元組寫入目前的串流，並將此串流中的目前位置前移已寫入的位元組數。 |
+| [WriteByte](../../aspose.slides/istreamwrapper/writebyte)(byte) | 將一個位元組寫入串流的目前位置，並將串流內的位置前移一個位元組。 |
 
 ### 另請參閱
 

@@ -1,9 +1,9 @@
 ---
 title: IEffectFactory
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для .NET API Reference
 description: Позволяет создавать экземпляры эффектов
 type: docs
-weight: 3290
+weight: 3310
 url: /ru/aspose.slides.effects/ieffectfactory/
 ---
 ## IEffectFactory интерфейс
@@ -18,20 +18,20 @@ public interface IEffectFactory
 
 | Имя | Описание |
 | --- | --- |
-| [ImageTransformOperationFactory](../../aspose.slides.effects/ieffectfactory/imagetransformoperationfactory) { get; } | Возвращает ImageTransformOperationFactory. Только чтение [`IImageTransformOperationFactory`](../iimagetransformoperationfactory). |
+| [ImageTransformOperationFactory](../../aspose.slides.effects/ieffectfactory/imagetransformoperationfactory) { get; } | Возвращает ImageTransformOperationFactory. Только для чтения [`IImageTransformOperationFactory`](../iimagetransformoperationfactory). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [CreateGlow](../../aspose.slides.effects/ieffectfactory/createglow)() | Создаёт эффект свечения. |
-| [CreateInnerShadow](../../aspose.slides.effects/ieffectfactory/createinnershadow)() | Создаёт эффект внутренней тени. |
-| [CreateOuterShadow](../../aspose.slides.effects/ieffectfactory/createoutershadow)() | Создаёт эффект внешней тени. |
-| [CreatePresetShadow](../../aspose.slides.effects/ieffectfactory/createpresetshadow)() | Создаёт предустановленную тень. |
-| [CreateReflection](../../aspose.slides.effects/ieffectfactory/createreflection)() | Создаёт эффект отражения. |
-| [CreateSoftEdge](../../aspose.slides.effects/ieffectfactory/createsoftedge)() | Создаёт эффект мягкого края. |
+| [CreateGlow](../../aspose.slides.effects/ieffectfactory/createglow)() | Создает эффект Glow. |
+| [CreateInnerShadow](../../aspose.slides.effects/ieffectfactory/createinnershadow)() | Создает эффект Inner shafow. |
+| [CreateOuterShadow](../../aspose.slides.effects/ieffectfactory/createoutershadow)() | Создает эффект Outer shadow. |
+| [CreatePresetShadow](../../aspose.slides.effects/ieffectfactory/createpresetshadow)() | Создает эффект Preset shadow. |
+| [CreateReflection](../../aspose.slides.effects/ieffectfactory/createreflection)() | Создает эффект Reflection. |
+| [CreateSoftEdge](../../aspose.slides.effects/ieffectfactory/createsoftedge)() | Создает эффект Soft Edge. |
 
-### Замечания
+### Примечания
 
 Для совместимости с COM.
 

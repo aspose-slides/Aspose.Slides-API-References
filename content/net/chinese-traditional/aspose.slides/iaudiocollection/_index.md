@@ -3,7 +3,7 @@ title: IAudioCollection
 second_title: Aspose.Sildes for .NET API 參考
 description: 表示嵌入式音訊檔案的集合。
 type: docs
-weight: 5220
+weight: 5240
 url: /zh-hant/aspose.slides/iaudiocollection/
 ---
 ## IAudioCollection 介面
@@ -18,17 +18,17 @@ public interface IAudioCollection : IGenericCollection<IAudio>
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Item](../../aspose.slides/iaudiocollection/item) { get; } | 取得指定索引處的元素。唯讀 [`IAudio`](../iaudio)。 |
+| [Item](../../aspose.slides/iaudiocollection/item) { get; } | 取得指定索引處的元素。 唯讀 [`IAudio`](../iaudio)。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | 從位元組陣列建立並將音訊新增至簡報。 |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | 從位元組陣列建立並將音訊新增到簡報。 |
 | [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio)(IAudio) | 從另一個簡報新增音訊檔案的副本。 |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | 從串流建立並將音訊新增至簡報。 |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | 從串流建立並將音訊新增到簡報。 |
 
-### 參見
+### 另請參閱
 
 * 介面 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 介面 [IAudio](../iaudio)

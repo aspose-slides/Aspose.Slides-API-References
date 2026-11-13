@@ -1,14 +1,14 @@
 ---
 title: IsVisible
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: False는 데이터 레이블이 기본적으로 표시되지 않음을 의미하며, 따라서 DefaultDataLabelFormat 속성의 모든 Show-flags ShowValue ...가 false입니다. 읽기 전용 Boolean.
+description: False는 데이터 레이블이 기본적으로 표시되지 않으며, 따라서 DefaultDataLabelFormat 속성의 모든 Show-flags ShowValue ...가 false입니다. 읽기 전용 Boolean.
 type: docs
-weight: 50
+weight: 60
 url: /ko/aspose.slides.charts/datalabelcollection/isvisible/
 ---
 ## DataLabelCollection.IsVisible 속성
 
-False는 데이터 레이블이 기본적으로 표시되지 않음을 의미합니다(따라서 DefaultDataLabelFormat 속성의 모든 Show*-플래그(ShowValue, ...)가 false입니다). 읽기 전용 Boolean.
+False means that data label is not visible by default (and so all Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property are false). 읽기 전용 Boolean.
 
 ```csharp
 public bool IsVisible { get; }
@@ -16,9 +16,9 @@ public bool IsVisible { get; }
 
 ### 비고
 
-데이터 레이블이 기본적으로 표시되는 경우 Hide() 메서드로 기본적으로 숨길 수 있습니다. 그러나 데이터 레이블이 기본적으로 표시되지 않는 경우(IsVisible가 false) Show*-플래그(ShowValue, ...)를 DefaultDataLabelFormat 속성에서 true 상태로 설정하여 데이터 레이블을 “기본적으로 표시”하도록 만들 수 있습니다.
+If data label is visible by default you can make it hidden by default with Hide() method. But if data label is not visible by default (IsVisible is false) you can make data label "visible by default" with setting Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property to true state.
 
-### 참고
+### 참조
 
 * 클래스 [DataLabelCollection](../../datalabelcollection)
 * 네임스페이스 [Aspose.Slides.Charts](../../datalabelcollection)

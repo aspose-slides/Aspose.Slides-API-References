@@ -3,7 +3,7 @@ title: ISlideText
 second_title: Aspose.Sildes için .NET API Referansı
 description: Slayttan çıkarılan metni temsil eder
 type: docs
-weight: 7100
+weight: 7120
 url: /tr/aspose.slides/islidetext/
 ---
 ## ISlideText arayüz
@@ -20,11 +20,11 @@ public interface ISlideText
 | --- | --- |
 | [CommentsText](../../aspose.slides/islidetext/commentstext) { get; } | Slayt yorumlarının metni |
 | [LayoutText](../../aspose.slides/islidetext/layouttext) { get; } | Bu slayt için düzen sayfasının şekillerindeki metin |
-| [MasterText](../../aspose.slides/islidetext/mastertext) { get; } | Bu slayt için ana sayfa şekillerindeki metin |
+| [MasterText](../../aspose.slides/islidetext/mastertext) { get; } | Bu slayt için ana sayfanın şekillerindeki metin |
 | [NotesText](../../aspose.slides/islidetext/notestext) { get; } | Bu slayt için not sayfasının şekillerindeki metin |
-| [Text](../../aspose.slides/islidetext/text) { get; } | Slayt şekillerindeki metin |
+| [Text](../../aspose.slides/islidetext/text) { get; } | Slaytın şekillerindeki metin |
 
-### Bakınız
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

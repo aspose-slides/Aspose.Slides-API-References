@@ -1,14 +1,14 @@
 ---
 title: ISlideHeaderFooterManager
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แทนผู้จัดการที่ควบคุมพฤติกรรมของส่วนท้ายสไลด์ รวมถึงตัวอักษรสำหรับวันที่-เวลาและหมายเลขหน้า
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+description: แสดงถึงผู้จัดการที่เก็บพฤติกรรมของส่วนท้ายสไลด์, ตัวจับวัน-เวลา, ตัวจับหมายเลขหน้า.
 type: docs
-weight: 7070
+weight: 7090
 url: /th/aspose.slides/islideheaderfootermanager/
 ---
 ## ISlideHeaderFooterManager อินเทอร์เฟซ
 
-แทนผู้จัดการที่ถือพฤติกรรมของส่วนท้ายสไลด์, วันที่-เวลา, ตัวบ่งชี้หมายเลขหน้า
+เป็นผู้จัดการที่ถือพฤติกรรมของส่วนท้ายสไลด์, ตัวจับวัน-เวลา, ตัวจับหมายเลขหน้า.
 
 ```csharp
 public interface ISlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -18,7 +18,7 @@ public interface ISlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/islideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | Returns IBaseSlideHeaderFooterManager อินเทอร์เฟซ. |
+| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/islideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | คืนค่า IBaseSlideHeaderFooterManager อินเทอร์เฟซ. |
 
 ### ดูเพิ่มเติม
 

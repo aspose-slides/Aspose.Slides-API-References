@@ -1,14 +1,14 @@
 ---
 title: NotesSize
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en storlek för notbilden.
+description: Representerar en storlek på en notes-slide.
 type: docs
-weight: 9130
+weight: 9150
 url: /sv/aspose.slides/notessize/
 ---
 ## NotesSize klass
 
-Representerar en storlek för notbilden.
+Representerar en storlek på en notes-slide.
 
 ```csharp
 public class NotesSize : INotesSize
@@ -18,7 +18,7 @@ public class NotesSize : INotesSize
 
 | Namn | Beskrivning |
 | --- | --- |
-| [NotesSize](notessize)() | Standardkonstruktorn. |
+| [NotesSize](notessize)() | Standardkonstruktören. |
 
 ## Egenskaper
 
@@ -26,7 +26,7 @@ public class NotesSize : INotesSize
 | --- | --- |
 | [Size](../../aspose.slides/notessize/size) { get; set; } | Returnerar eller anger storleken i punkter. Läs/skriv SizeF. |
 
-### Se även
+### Se också
 
 * gränssnitt [INotesSize](../inotessize)
 * namnrymd [Aspose.Slides](../../aspose.slides)

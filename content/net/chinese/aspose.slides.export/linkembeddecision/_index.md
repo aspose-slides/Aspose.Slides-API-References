@@ -1,9 +1,9 @@
 ---
 title: LinkEmbedDecision
-second_title: Aspose.Sildes 适用于 .NET 的 API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 确定对象在保存期间将如何处理。
 type: docs
-weight: 4230
+weight: 4250
 url: /zh/aspose.slides.export/linkembeddecision/
 ---
 ## LinkEmbedDecision 枚举
@@ -19,8 +19,8 @@ public enum LinkEmbedDecision
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
 | Link | `0` | 对象将被外部存储，并通过 URL 引用 |
-| Embed | `1` | 如果可能，对象应嵌入生成的文件中。如果嵌入不可行，将调用 GetUrl，并根据结果，对象将通过 URL 引用或被忽略。 |
-| Ignore | `2` | 对象将被忽略。 |
+| Embed | `1` | 如果可能，应该将对象嵌入生成的文件中。如果嵌入不可行，将调用 GetUrl，并根据结果，对象将通过 URL 引用或被忽略 |
+| Ignore | `2` | 对象将被忽略 |
 
 ### 另见
 

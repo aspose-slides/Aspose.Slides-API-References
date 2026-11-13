@@ -1,14 +1,14 @@
 ---
 title: IHSLEffectiveData
 second_title: Aspose.Sildes .NET API hivatkozás
-description: Hue/Saturation/Luminance hatást reprezentál. Az árnyalat, a telítettség és a fényerő mindegyike a jelenlegi értékéhez képest állítható.
+description: Hue/Saturation/Luminance effektust ábrázol. Az árnyalat, a telítettség és a fényesség mindegyike a jelenlegi értékéhez képest állítható.
 type: docs
-weight: 3370
+weight: 3390
 url: /hu/aspose.slides.effects/ihsleffectivedata/
 ---
 ## IHSLEffectiveData interfész
 
-Egy Hue/Saturation/Luminance hatást reprezentál. Az árnyalat, a telítettség és a fényerő mindegyike a jelenlegi értékéhez képest állítható.
+Egy Hue/Saturation/Luminance effektust ábrázol. Az árnyalat, a telítettség és a fényesség minden egyes értéke a jelenlegi értékéhez képest állítható.
 
 ```csharp
 public interface IHSLEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface IHSLEffectiveData : IEffectEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ihsleffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi a base IEffectEffectiveData interfész lekérését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Hue](../../aspose.slides.effects/ihsleffectivedata/hue) { get; } | Visszaadja az árnyalat százalékát. Csak olvasható Single. |
-| [Luminance](../../aspose.slides.effects/ihsleffectivedata/luminance) { get; } | Visszaadja a fényerő százalékát. Csak olvasható Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ihsleffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi az alap IEffectEffectiveData interfész lekérdezését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Hue](../../aspose.slides.effects/ihsleffectivedata/hue) { get; } | Visszaadja a színárnyalat százalékát. Csak olvasható Single. |
+| [Luminance](../../aspose.slides.effects/ihsleffectivedata/luminance) { get; } | Visszaadja a fényesség százalékát. Csak olvasható Single. |
 | [Saturation](../../aspose.slides.effects/ihsleffectivedata/saturation) { get; } | Visszaadja a telítettség százalékát. Csak olvasható Single. |
 
 ### Lásd még

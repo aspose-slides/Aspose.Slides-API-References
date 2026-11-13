@@ -1,9 +1,9 @@
 ---
 title: HandleRepeatedSpaces
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Menentukan bagaimana karakter spasi reguler yang berulang harus ditangani selama ekspor Markdown.
 type: docs
-weight: 3830
+weight: 3850
 url: /id/aspose.slides.export/handlerepeatedspaces/
 ---
 ## HandleRepeatedSpaces enumerasi
@@ -18,7 +18,7 @@ public enum HandleRepeatedSpaces
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| None | `0` | Semua spasi dipertahankan sebagai karakter spasi reguler tanpa perubahan apa pun. Tidak ada transformasi yang diterapkan, dan spasi berurutan banyak diekspor apa adanya. |
+| None | `0` | Semua spasi dipertahankan sebagai karakter spasi reguler tanpa perubahan apa pun. Tidak ada transformasi yang diterapkan, dan spasi berurutan ganda diekspor apa adanya. |
 | AlternateSpacesToNbsp | `1` |  |
 | MultipleSpacesToNbsp | `2` |  |
 

@@ -3,12 +3,12 @@ title: Portion
 second_title: Aspose.Sildes для .NET API Reference
 description: Представляет часть текста внутри текстового абзаца.
 type: docs
-weight: 9460
+weight: 9480
 url: /ru/aspose.slides/portion/
 ---
-## Portion class
+## Portion класс
 
-Представляет часть текста внутри текстового абзаца.
+Представляет часть текста внутри абзаца.
 
 ```csharp
 public class Portion : IPortion
@@ -16,7 +16,7 @@ public class Portion : IPortion
 
 ## Конструкторы
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [Portion](portion#constructor)() | Инициализирует новый экземпляр класса Portion. |
 | [Portion](portion#constructor_1)(Portion) | Инициализирует новый экземпляр класса Portion. |
@@ -24,20 +24,20 @@ public class Portion : IPortion
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [Field](../../aspose.slides/portion/field) { get; } | Возвращает поле этой части. Только для чтения [`IField`](../ifield). |
-| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Возвращает объект форматирования, который содержит явно заданные свойства форматирования текстовой части без применения наследования. Только для чтения [`IPortionFormat`](../iportionformat). |
-| [Text](../../aspose.slides/portion/text) { get; set; } | Получает или задаёт простой текст части. Чтение/запись String. |
+| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Возвращает объект форматирования, который содержит явно установленные свойства форматирования текстовой части без применения наследования. Только для чтения [`IPortionFormat`](../iportionformat). |
+| [Text](../../aspose.slides/portion/text) { get; set; } | Получает или задает простой текст части. Чтение/запись String. |
 
 ## Методы
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [AddField](../../aspose.slides/portion/addfield#addfield)(IFieldType) | Преобразует эту часть в автоматически обновляемое поле. |
 | [AddField](../../aspose.slides/portion/addfield#addfield_1)(string) | Преобразует эту часть в автоматически обновляемое поле. |
-| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Получает координаты начала части. Координата X точки представляет начало части с первого символа, включая левый начальный рычаг. Координата Y включает верхний начальный рычаг. |
-| [GetRect](../../aspose.slides/portion/getrect)() | Получает координаты прямоугольника, ограничивающего часть. Прямоугольник включает все строки текста в части, включая пустые. |
+| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Получить координаты начала части. Координата X точки представляет начало части от первого символа, включая левый боковой отступ. Координата Y включает верхний боковой отступ. |
+| [GetRect](../../aspose.slides/portion/getrect)() | Получить координаты прямоугольника, ограничивающего часть. Прямоугольник включает все строки текста в части, включая пустые. |
 | [RemoveField](../../aspose.slides/portion/removefield)() | Преобразует эту часть поля в простую часть. |
 
 ### См. также

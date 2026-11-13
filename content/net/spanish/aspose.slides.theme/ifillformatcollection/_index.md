@@ -1,12 +1,12 @@
 ---
 title: IFillFormatCollection
-second_title: Referencia de la API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa la colección de estilos de relleno.
 type: docs
-weight: 11230
+weight: 11250
 url: /es/aspose.slides.theme/ifillformatcollection/
 ---
-## interfaz IFillFormatCollection
+## IFillFormatCollection interfaz
 
 Representa la colección de estilos de relleno.
 

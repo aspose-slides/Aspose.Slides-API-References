@@ -1,14 +1,14 @@
 ---
 title: LineArrowheadStyle
 second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Mô tả kiểu của đầu mũi tên.
+description: Biểu diễn kiểu của đầu mũi tên.
 type: docs
-weight: 7740
+weight: 7760
 url: /vi/aspose.slides/linearrowheadstyle/
 ---
 ## LineArrowheadStyle liệt kê
 
-Mô tả kiểu của đầu mũi tên.
+Biểu diễn kiểu của đầu mũi tên.
 
 ```csharp
 public enum LineArrowheadStyle : sbyte

@@ -1,14 +1,14 @@
 ---
 title: EffectStyleCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een verzameling van effectstijlen voor.
+description: Vertegenwoordigt een collectie van effectstijlen.
 type: docs
-weight: 11090
+weight: 11110
 url: /nl/aspose.slides.theme/effectstylecollection/
 ---
 ## EffectStyleCollection klasse
 
-Stelt een verzameling van effectstijlen voor.
+Vertegenwoordigt een collectie van effectstijlen.
 
 ```csharp
 public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyleCollection
@@ -18,8 +18,8 @@ public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyl
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | Retourneert een aantal elementen in de verzameling. Alleen-lezen Int32, Alleen-lezen Int32. |
-| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | Retourneert een waarde die aangeeft of toegang tot de collectie gesynchroniseerd is (thread-safe). Alleen-lezen Boolean. |
+| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | Retourneert een aantal elementen in de collectie. Alleen-lezen Int32, Alleen-lezen Int32. |
+| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | Retourneert een waarde die aangeeft of de toegang tot de collectie gesynchroniseerd is (thread-safe). Alleen-lezen Boolean. |
 | [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | Retourneert een element op de opgegeven positie. Alleen-lezen [`EffectStyle`](../effectstyle). |
 | [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | Retourneert een synchronisatiewortel. Alleen-lezen Object. |
 

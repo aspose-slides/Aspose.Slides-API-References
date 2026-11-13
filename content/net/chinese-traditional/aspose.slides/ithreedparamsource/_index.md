@@ -3,7 +3,7 @@ title: IThreeDParamSource
 second_title: Aspose.Sildes for .NET API 參考
 description: 3D 屬性來源輔助介面
 type: docs
-weight: 7350
+weight: 7370
 url: /zh-hant/aspose.slides/ithreedparamsource/
 ---
 ## IThreeDParamSource 介面
@@ -14,7 +14,7 @@ url: /zh-hant/aspose.slides/ithreedparamsource/
 public interface IThreeDParamSource
 ```
 
-### 另請參閱
+### 參見
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

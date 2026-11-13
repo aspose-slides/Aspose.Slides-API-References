@@ -1,14 +1,14 @@
 ---
 title: InkEffectType
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Especifica un conjunto de efectos visuales predefinidos para la representación de tinta. Cada efecto corresponde a una textura o imagen que simula una apariencia de tinta estilizada. Estos valores pueden usarse para personalizar el estilo visual de los trazos de tinta digital durante la representación.
+second_title: Aspose.Sildes para la referencia de API .NET
+description: Especifica un conjunto de efectos visuales predefinidos para el renderizado de tinta. Cada efecto corresponde a una textura o imagen que simula una apariencia de tinta estilizada. Estos valores pueden usarse para personalizar el estilo visual de los trazos de tinta digital durante el renderizado.
 type: docs
-weight: 7580
+weight: 7600
 url: /es/aspose.slides.ink/inkeffecttype/
 ---
-## Enumeración InkEffectType
+## enumeración InkEffectType
 
-Especifica un conjunto de efectos visuales predefinidos para la representación de tinta. Cada efecto corresponde a una textura o imagen que simula una apariencia de tinta estilizada. Estos valores pueden usarse para personalizar el estilo visual de los trazos de tinta digital durante la representación.
+Especifica un conjunto de efectos visuales predefinidos para el renderizado de tinta. Cada efecto corresponde a una textura o imagen que simula una apariencia de tinta estilizada. Estos valores pueden usarse para personalizar el estilo visual de los trazos de tinta digital durante el renderizado.
 
 ```csharp
 public enum InkEffectType
@@ -18,15 +18,15 @@ public enum InkEffectType
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| NotDefined | `-1` | El efecto no está definido o es desconocido. Este valor puede usarse como predeterminado o de reserva. |
-| Bronze | `0` | Una textura metálica cálida y marrón que se asemeja a tinta de bronce. |
-| Galaxy | `1` | Una textura colorida y brillante que se asemeja a una galaxia, con tonos cósmicos. |
-| Gold | `2` | Una textura metálica dorada y brillante que brinda a los trazos de tinta una apariencia lujosa. |
-| Lava | `3` | Una textura ardiente que se asemeja a lava fundida, con tonos rojos y naranjas. |
-| Ocean | `4` | Una textura azul profunda, similar a un fluido, que imita las olas del océano o tinta a base de agua. |
-| RainbowGlitter | `5` | Un efecto de purpurina arcoíris colorido y brillante utilizado para trazos de tinta festivos o vibrantes. |
-| RoseGold | `6` | Una mezcla suave de rosa y oro, similar al rosado dorado, para trazos de tinta elegantes. |
-| Silver | `7` | Una textura metálica plateada y fresca que simula tinta plateada clásica. |
+| NotDefined | `-1` | El efecto no está definido o es desconocido. Este valor puede usarse como predeterminado o de respaldo. |
+| Bronze | `0` | Una textura metálica cálida y parduzca que se asemeja a tinta de bronce. |
+| Galaxy | `1` | Una textura colorida y brillante que recuerda a una galaxia, con tonos cósmicos. |
+| Gold | `2` | Una textura metálica dorada brillante que otorga a los trazos de tinta una apariencia lujosa. |
+| Lava | `3` | Una textura de fuego que se asemeja a lava fundida, con tonos rojos y naranjas. |
+| Ocean | `4` | Una textura de tono azul profundo, similar a ondas de océano o tinta a base de agua. |
+| RainbowGlitter | `5` | Un efecto de brillo arcoíris colorido y chispeante usado para trazos de tinta festivos o vibrantes. |
+| RoseGold | `6` | Una combinación suave de rosa y oro, similar al rose gold, para trazos de tinta elegantes. |
+| Silver | `7` | Una textura metálica plateada fresca que simula tinta plateada clásica. |
 
 ### Ver también
 

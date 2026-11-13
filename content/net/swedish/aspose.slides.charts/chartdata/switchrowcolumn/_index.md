@@ -1,14 +1,14 @@
 ---
 title: SwitchRowColumn
 second_title: Aspose.Sildes för .NET API-referens
-description: Byt data över axeln. Data som diagrammeras på X-axeln kommer att flyttas till Y-axeln och vice versa.
+description: Växla data över axeln. Data som diagrammeras på X-axeln kommer att flyttas till Y-axeln och vice versa.
 type: docs
-weight: 140
+weight: 150
 url: /sv/aspose.slides.charts/chartdata/switchrowcolumn/
 ---
 ## ChartData.SwitchRowColumn metod
 
-Byt data över axeln. Data som diagrammeras på X-axeln kommer att flyttas till Y-axeln och vice versa.
+Växla data över axeln. Data som diagrammeras på X-axeln kommer att flyttas till Y-axeln och vice versa.
 
 ```csharp
 public void SwitchRowColumn()

@@ -1,14 +1,14 @@
 ---
 title: PictureFrameLock
-second_title: Aspose.Sildes para .NET Referência da API
-description: Determina quais operações são desativadas no PictureFrame pai.
+second_title: Aspose.Sildes para .NET - Referência da API
+description: Determina quais operações são desabilitadas no PictureFrame pai.
 type: docs
-weight: 9420
+weight: 9440
 url: /pt/aspose.slides/pictureframelock/
 ---
 ## PictureFrameLock classe
 
-Determines which operations are disabled on the parent PictureFrame.
+Determina quais operações estão desabilitadas no PictureFrame pai.
 
 ```csharp
 public class PictureFrameLock : BaseShapeLock, IPictureFrameLock
@@ -16,16 +16,16 @@ public class PictureFrameLock : BaseShapeLock, IPictureFrameLock
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/pictureframelock/adjusthandleslocked) { get; set; } | Determina se a alteração de valores de ajuste é proibida. Leitura/gravação Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/pictureframelock/arrowheadslocked) { get; set; } | Determina se a alteração de pontas de seta é proibida. Leitura/gravação Boolean. |
+| [AdjustHandlesLocked](../../aspose.slides/pictureframelock/adjusthandleslocked) { get; set; } | Determina se a alteração dos valores de ajuste é proibida. Leitura/gravação Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/pictureframelock/arrowheadslocked) { get; set; } | Determina se a alteração das pontas de seta é proibida. Leitura/gravação Boolean. |
 | [AspectRatioLocked](../../aspose.slides/pictureframelock/aspectratiolocked) { get; set; } | Determina se uma forma deve preservar a proporção ao redimensionar. Leitura/gravação Boolean. |
 | [CropLocked](../../aspose.slides/pictureframelock/croplocked) { get; set; } | Determina se o recorte de imagem é proibido. Leitura/gravação Boolean. |
 | [EditPointsLocked](../../aspose.slides/pictureframelock/editpointslocked) { get; set; } | Determina se a alteração direta do contorno desta forma é proibida. Leitura/gravação Boolean. |
 | [GroupingLocked](../../aspose.slides/pictureframelock/groupinglocked) { get; set; } | Determina se a adição desta forma a um grupo é proibida. Leitura/gravação Boolean. |
 | [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Retorna true se todas as bandeiras de bloqueio estiverem desativadas. Somente leitura Boolean. |
-| [PositionLocked](../../aspose.slides/pictureframelock/positionlocked) { get; set; } | Determina se mover esta forma é proibido. Leitura/gravação Boolean. |
+| [PositionLocked](../../aspose.slides/pictureframelock/positionlocked) { get; set; } | Determina se o movimento desta forma é proibido. Leitura/gravação Boolean. |
 | [RotationLocked](../../aspose.slides/pictureframelock/rotationlocked) { get; set; } | Determina se a alteração do ângulo de rotação desta forma é proibida. Leitura/gravação Boolean. |
 | [SelectLocked](../../aspose.slides/pictureframelock/selectlocked) { get; set; } | Determina se a seleção desta forma é proibida. Leitura/gravação Boolean. |
 | [ShapeTypeLocked](../../aspose.slides/pictureframelock/shapetypelocked) { get; set; } | Determina se a alteração do tipo de forma é proibida. Leitura/gravação Boolean. |

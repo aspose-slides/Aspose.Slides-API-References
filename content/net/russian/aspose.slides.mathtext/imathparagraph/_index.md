@@ -1,14 +1,14 @@
 ---
 title: IMathParagraph
-second_title: Aspose.Sildes для .NET справочник API
-description: Математический абзац, являющийся контейнером для математических блоков IMathBlock
+second_title: Справочник API Aspose.Sildes для .NET
+description: Математический параграф, являющийся контейнером для математических блоков IMathBlock
 type: docs
-weight: 8390
+weight: 8410
 url: /ru/aspose.slides.mathtext/imathparagraph/
 ---
 ## IMathParagraph интерфейс
 
-Математический абзац, являющийся контейнером для математических блоков (IMathBlock)
+Математический параграф, который является контейнером для математических блоков (IMathBlock)
 
 ```csharp
 public interface IMathParagraph : IMathBlockCollection

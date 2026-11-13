@@ -1,9 +1,9 @@
 ---
 title: IOrientationTransition
-second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: ओरिएंटेशन स्लाइड ट्रांज़िशन प्रभाव।
 type: docs
-weight: 10150
+weight: 10170
 url: /hi/aspose.slides.slideshow/iorientationtransition/
 ---
 ## IOrientationTransition इंटरफ़ेस
@@ -16,12 +16,12 @@ public interface IOrientationTransition : ITransitionValueBase
 
 ## गुण
 
-| नाम | वर्णन |
+| नाम | विवरण |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iorientationtransition/asitransitionvaluebase) { get; } | बेस ITransitionValueBase इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/iorientationtransition/direction) { get; set; } | ट्रांज़िशन की दिशा। पढ़ने/लिखने योग्य [`Orientation`](../../aspose.slides/orientation). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iorientationtransition/asitransitionvaluebase) { get; } | आधार ITransitionValueBase इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`ITransitionValueBase`](../itransitionvaluebase)। |
+| [Direction](../../aspose.slides.slideshow/iorientationtransition/direction) { get; set; } | ट्रांज़िशन की दिशा। पढ़ें/लिखें [`Orientation`](../../aspose.slides/orientation)। |
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [ITransitionValueBase](../itransitionvaluebase)
 * नामस्थान [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

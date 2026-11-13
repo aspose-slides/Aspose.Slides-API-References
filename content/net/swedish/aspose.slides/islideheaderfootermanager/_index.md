@@ -1,14 +1,14 @@
 ---
 title: ISlideHeaderFooterManager
-second_title: Aspose.Slides för .NET API-referens
+second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en hanterare som håller beteendet för bildens sidfot, datum-tid och sidnummer-platshållare.
 type: docs
-weight: 7070
+weight: 7090
 url: /sv/aspose.slides/islideheaderfootermanager/
 ---
 ## ISlideHeaderFooterManager gränssnitt
 
-Representerar en hanterare som håller beteendet för bildens sidfot, datum-tid och sidnummer-platshållare.
+Representerar hanterare som håller beteendet för bildens sidfot, datum-tid, sidnummer-platshållare.
 
 ```csharp
 public interface ISlideHeaderFooterManager : IBaseSlideHeaderFooterManager

@@ -1,14 +1,14 @@
 ---
 title: InterruptionToken
-second_title: Aspose.Sildes для .NET справочник API
-description: Этот класс представляет токен, используемый для сигнализации длительным задачам о том, было ли запрошено прерывание.
+second_title: Aspose.Sildes для .NET справка API
+description: Этот класс представляет токен, используемый для сигнализации длительным задачам, запрошено ли прерывание.
 type: docs
-weight: 7600
+weight: 7620
 url: /ru/aspose.slides/interruptiontoken/
 ---
 ## InterruptionToken класс
 
-Этот класс представляет токен, используемый для сигнализации длительным задачам о том, что было запрошено прерывание.
+Этот класс представляет токен, используемый для сигнализации длительным задачам, запрошено ли прерывание.
 
 ```csharp
 public class InterruptionToken : IInterruptionToken
@@ -18,7 +18,7 @@ public class InterruptionToken : IInterruptionToken
 
 | Имя | Описание |
 | --- | --- |
-| static [None](../../aspose.slides/interruptiontoken/none) { get; } | Представляет пустой токен прерывания. Длительные операции никогда не будут прерваны через [`Interrupt`](../interruptiontokensource/interrupt), используя этот токен. |
+| static [None](../../aspose.slides/interruptiontoken/none) { get; } | Представляет пустой токен прерывания. Длительные операции никогда не будут прерваны через [`Interrupt`](../interruptiontokensource/interrupt) при использовании этого токена. |
 | [IsInterruptionRequested](../../aspose.slides/interruptiontoken/isinterruptionrequested) { get; } | Возвращает Boolean.true, если прерывание было запрошено. |
 
 ## Методы
@@ -27,7 +27,7 @@ public class InterruptionToken : IInterruptionToken
 | --- | --- |
 | [ThrowIfInterruptionRequested](../../aspose.slides/interruptiontoken/throwifinterruptionrequested)() | Выбрасывает OperationCanceledException, если прерывание было запрошено. |
 
-### См. также
+### Смотрите также
 
 * интерфейс [IInterruptionToken](../iinterruptiontoken)
 * пространство имён [Aspose.Slides](../../aspose.slides)

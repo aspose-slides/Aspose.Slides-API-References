@@ -1,14 +1,14 @@
 ---
 title: IAlphaFloorEffectiveData
-second_title: Aspose.Sildes용 .NET API 레퍼런스
-description: Alpha Floor 효과를 나타내는 불변 객체입니다. Alpha 불투명도 값이 100 미만이면 0으로 변경됩니다. 다시 말해 부분적으로 투명한 모든 것이 완전히 투명해집니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 알파 플로어 효과를 나타내는 불변 객체입니다. 알파 불투명도 값이 100 미만인 경우 0으로 변경됩니다. 즉, 부분적으로 투명한 모든 것이 완전히 투명해집니다.
 type: docs
-weight: 3070
+weight: 3090
 url: /ko/aspose.slides.effects/ialphaflooreffectivedata/
 ---
-## IAlphaFloorEffectiveData 인터페이스
+## IAlphaFloorEffectiveData interface
 
-불변 객체로, Alpha (opacity) 값이 100% 미만이면 0으로 변경됩니다. 즉, 부분적으로 투명한 모든 것이 완전히 투명해집니다.
+알파 플로어 효과를 나타내는 불변 객체입니다. 알파(불투명도) 값이 100% 미만인 경우 0으로 변경됩니다. 즉, 부분적으로 투명한 모든 것이 완전히 투명해집니다.
 
 ```csharp
 public interface IAlphaFloorEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IAlphaFloorEffectiveData : IEffectEffectiveData
 
 | 이름 | 설명 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaflooreffectivedata/asieffecteffectivedata) { get; } | 기본 IEffectEffectiveData 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaflooreffectivedata/asieffecteffectivedata) { get; } | 기반 IEffectEffectiveData 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### 참고
 

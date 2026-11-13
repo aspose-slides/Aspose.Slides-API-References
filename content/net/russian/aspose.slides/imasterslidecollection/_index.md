@@ -1,9 +1,9 @@
 ---
 title: IMasterSlideCollection
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет коллекцию мастер-слайдов.
 type: docs
-weight: 6430
+weight: 6450
 url: /ru/aspose.slides/imasterslidecollection/
 ---
 ## IMasterSlideCollection интерфейс
@@ -24,11 +24,11 @@ public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
 
 | Имя | Описание |
 | --- | --- |
-| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | Добавляет копию указанного мастер-слайда в конец коллекции. Связанные слайд-макеты также будут скопированы. |
-| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Вставляет копию указанного мастер-слайда в заданную позицию коллекции. Связанные слайд-макеты также будут скопированы. |
-| [Remove](../../aspose.slides/imasterslidecollection/remove)(IMasterSlide) | Удаляет первое вхождение указанного объекта из коллекции. |
-| [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | Удаляет элемент по указанному индексу в коллекции. |
-| [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | Удаляет неиспользуемые мастер-слайды. |
+| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | Добавляет копию указанного master slide в конец коллекции. Связанные layout slides также будут скопированы. |
+| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Вставляет копию указанного master slide в указанную позицию коллекции. Связанные layout slides также будут скопированы. |
+| [Remove](../../aspose.slides/imasterslidecollection/remove)(IMasterSlide) | Удаляет первое вхождение конкретного объекта из коллекции. |
+| [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | Удаляет элемент по указанному индексу из коллекции. |
+| [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | Удаляет неиспользуемые master slides. |
 
 ### Смотрите также
 

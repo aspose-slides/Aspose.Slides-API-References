@@ -1,12 +1,12 @@
 ---
 title: IReflection
-second_title: مرجع API لـ Aspose.Sildes لل.NET
+second_title: Aspose.Sildes لـ .NET مرجع API
 description: يمثل تأثير انعكاس.
 type: docs
-weight: 3500
+weight: 3520
 url: /ar/aspose.slides.effects/ireflection/
 ---
-## IReflection واجهة
+## واجهة IReflection
 
 يمثل تأثير انعكاس.
 
@@ -19,22 +19,22 @@ public interface IReflection : IAccessiblePVIObject<IReflectionEffectiveData>,
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ireflection/asiaccessiblepviobject) { get; } | يسمح بالحصول على واجهة IAccessiblePVIObject الأساسية. للقراءة فقط [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ireflection/asiimagetransformoperation) { get; } | يسمح بالحصول على واجهة IImageTransformOperation الأساسية. للقراءة فقط [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/ireflection/blurradius) { get; set; } | نطاق الضبابية. قراءة/كتابة Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ireflection/asiaccessiblepviobject) { get; } | يسمح بالحصول على الواجهة الأساسية IAccessiblePVIObject. للقراءة فقط [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ireflection/asiimagetransformoperation) { get; } | يسمح بالحصول على الواجهة الأساسية IImageTransformOperation. للقراءة فقط [`IImageTransformOperation`](../iimagetransformoperation). |
+| [BlurRadius](../../aspose.slides.effects/ireflection/blurradius) { get; set; } | نصف قطر الضبابية. قراءة/كتابة Double. |
 | [Direction](../../aspose.slides.effects/ireflection/direction) { get; set; } | اتجاه الانعكاس. قراءة/كتابة Single. |
 | [Distance](../../aspose.slides.effects/ireflection/distance) { get; set; } | مسافة الانعكاس. قراءة/كتابة Double. |
-| [EndPosAlpha](../../aspose.slides.effects/ireflection/endposalpha) { get; set; } | يحدد موقع النهاية (على طول منحدر تدرج ألفا) لقيمة ألفا النهائية (نسبة مئوية). قراءة/كتابة Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/ireflection/endreflectionopacity) { get; set; } | معتمة الانعكاس النهائية. (نسبة مئوية). قراءة/كتابة Single. |
+| [EndPosAlpha](../../aspose.slides.effects/ireflection/endposalpha) { get; set; } | يحدد موضع النهاية (على طول مسار تدرج ألفا) لقيمة ألفا النهاية (النسب المئوية). قراءة/كتابة Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/ireflection/endreflectionopacity) { get; set; } | شفافية الانعكاس النهائية. (النسب المئوية). قراءة/كتابة Single. |
 | [FadeDirection](../../aspose.slides.effects/ireflection/fadedirection) { get; set; } | يحدد الاتجاه لإزاحة الانعكاس. (زاوية). قراءة/كتابة Single. |
 | [RectangleAlign](../../aspose.slides.effects/ireflection/rectanglealign) { get; set; } | محاذاة المستطيل. قراءة/كتابة [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ireflection/rotateshadowwithshape) { get; set; } | يحدد ما إذا كان يجب أن يدور الانعكاس مع الشكل إذا تم دوران الشكل. قراءة/كتابة Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ireflection/scalehorizontal) { get; set; } | يحدد عامل التحجيم الأفقي، التحجيم السالب يسبب انعكاسًا. (نسبة مئوية) قراءة/كتابة Double. |
-| [ScaleVertical](../../aspose.slides.effects/ireflection/scalevertical) { get; set; } | يحدد عامل التحجيم العمودي، التحجيم السالب يسبب انعكاسًا. (نسبة مئوية) قراءة/كتابة Double. |
+| [RotateShadowWithShape](../../aspose.slides.effects/ireflection/rotateshadowwithshape) { get; set; } | يحدد ما إذا كان يجب أن يدور الانعكاس مع الشكل إذا تم تدوير الشكل. قراءة/كتابة Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ireflection/scalehorizontal) { get; set; } | يحدد عامل التحجيم الأفقي، التحجيم السالب يسبب انعكاسًا. (النسب المئوية) قراءة/كتابة Double. |
+| [ScaleVertical](../../aspose.slides.effects/ireflection/scalevertical) { get; set; } | يحدد عامل التحجيم العمودي، التحجيم السالب يسبب انعكاسًا. (النسب المئوية) قراءة/كتابة Double. |
 | [SkewHorizontal](../../aspose.slides.effects/ireflection/skewhorizontal) { get; set; } | يحدد زاوية الانحراف الأفقي. قراءة/كتابة Double. |
 | [SkewVertical](../../aspose.slides.effects/ireflection/skewvertical) { get; set; } | يحدد زاوية الانحراف العمودي. قراءة/كتابة Double. |
-| [StartPosAlpha](../../aspose.slides.effects/ireflection/startposalpha) { get; set; } | يحدد موقع البداية (على طول منحدر تدرج ألفا) لقيمة ألفا الأولية (نسبة مئوية). قراءة/كتابة Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/ireflection/startreflectionopacity) { get; set; } | معتمة الانعكاس الأولية. (نسبة مئوية). قراءة/كتابة Single. |
+| [StartPosAlpha](../../aspose.slides.effects/ireflection/startposalpha) { get; set; } | يحدد موضع البَدْء (على طول مسار تدرج ألفا) لقيمة ألفا البَدْء (النسب المئوية). قراءة/كتابة Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/ireflection/startreflectionopacity) { get; set; } | شفافية الانعكاس البداية. (النسب المئوية). قراءة/كتابة Single. |
 
 ### انظر أيضًا
 

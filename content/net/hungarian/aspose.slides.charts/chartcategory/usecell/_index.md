@@ -1,14 +1,14 @@
 ---
 title: UseCell
 second_title: Aspose.Sildes .NET API referencia
-description: Ha igaz, akkor az AsCell tulajdonság a tényleges. Más szóval a munkalap a kategória tárolására szolgál; ez az eset több szintű kategóriát támogat. Ha hamis, akkor az AsLiteral tulajdonság a tényleges. Más szóval a munkalap NEM használatos a kategória tárolására, és ez az eset nem támogat több szintű kategóriákat. Csak olvasható Boolean.
+description: Ha igaz, akkor az AsCell tulajdonság érvényes. Más szóval a munkalap a kategória tárolására szolgál, ez az eset több szintű kategóriát támogat. Ha hamis, akkor az AsLiteral tulajdonság érvényes. Más szóval a munkalap NEM használható a kategória tárolására, és ez az eset nem támogat több szintű kategóriákat. Csak olvasható Boolean.
 type: docs
-weight: 40
+weight: 50
 url: /hu/aspose.slides.charts/chartcategory/usecell/
 ---
 ## ChartCategory.UseCell tulajdonság
 
-Ha igaz, akkor az AsCell tulajdonság a tényleges. Más szóval, a munkalap a kategória tárolására szolgál (ez a eset több szintű kategóriát támogat). Ha hamis, akkor az AsLiteral tulajdonság a tényleges. Más szóval, a munkalap NEM használatos a kategória tárolására (és ez a eset nem támogat több szintű kategóriákat). Csak olvasható Boolean.
+Ha igaz, akkor az AsCell tulajdonság érvényes. Más szóval, a munkalap a kategória tárolására szolgál (ez az eset több szintű kategóriát támogat). Ha hamis, akkor az AsLiteral tulajdonság érvényes. Más szóval, a munkalap NEM használatos a kategória tárolására (és ez az eset nem támogat több szintű kategóriákat). Csak olvasható Boolean.
 
 ```csharp
 public bool UseCell { get; }
@@ -16,7 +16,7 @@ public bool UseCell { get; }
 
 ### Megjegyzések
 
-Ennek a tulajdonságnak az értékének megváltoztatásához (a gyűjtemény összes kategóriája számára) állítsa be az új értéket a ChartCategoryCollection.UseCells tulajdonságra.
+Ezen tulajdonság értékének megváltoztatásához (az összes kategória a gyűjteményben) állítsa be az új értéket a ChartCategoryCollection.UseCells tulajdonságra.
 
 ### Lásd még
 

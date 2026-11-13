@@ -1,12 +1,12 @@
 ---
 title: MathLimitLocations
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Localização dos limites subscrito/sobrescrito em operadores n-ários.
 type: docs
-weight: 8840
+weight: 8860
 url: /pt/aspose.slides.mathtext/mathlimitlocations/
 ---
-## MathLimitLocations enumeração
+## Enumeração MathLimitLocations
 
 Localização dos limites (subscrito/sobrescrito) em operadores n-ários.
 
@@ -16,7 +16,7 @@ public enum MathLimitLocations
 
 ### Valores
 
-| Name | Value | Description |
+| Nome | Valor | Descrição |
 | --- | --- | --- |
 | NotDefined | `0` | Não definido |
 | UnderOver | `1` | Limites desenhados na parte superior e inferior do símbolo do operador |

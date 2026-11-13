@@ -1,14 +1,14 @@
 ---
 title: ChartCategory
 second_title: Aspose.Sildes برای مرجع API .NET
-description: دسته‌های نمودار را نشان می‌دهد.
+description: نمایانگر دسته‌بندی‌های نمودار.
 type: docs
-weight: 1270
+weight: 1280
 url: /fa/aspose.slides.charts/chartcategory/
 ---
-## کلاس ChartCategory
+## ChartCategory کلاس
 
-دسته‌های نمودار را نشان می‌دهد.
+دسته‌بندی‌های نمودار را نشان می‌دهد.
 
 ```csharp
 public class ChartCategory : IChartCategory
@@ -18,19 +18,20 @@ public class ChartCategory : IChartCategory
 
 | نام | توضیح |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/chartcategory/ascell) { get; set; } | شیء IChartDataCell را برمی‌گرداند یا تنظیم می‌کند. اگر دسته چندسطحي باشد، سپس از شیء IChartDataCell برای سطح "0" استفاده می‌شود. قابل خواندن/نوشتن [`IChartDataCell`](../ichartdatacell). |
-| [AsLiteral](../../aspose.slides.charts/chartcategory/asliteral) { get; set; } | شیء AsLiteral را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن Object. |
-| [GroupingLevels](../../aspose.slides.charts/chartcategory/groupinglevels) { get; } | محفظه مدیریت‌شده‌ای از مقادیر سطوح گروه‌بندی دسته‌بندی نمودار. دسته‌بندی چندسطحی بیش از یک سطح گروه‌بندی دارد. ایندکس‌گذاری سطوح گروه‌بندی از صفر آغاز می‌شود. فقط خواندنی [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
-| [UseCell](../../aspose.slides.charts/chartcategory/usecell) { get; } | اگر true باشد، خصوصیت AsCell فعّال است. به عبارت دیگر، ورک‌شیت برای ذخیره‌سازی دسته استفاده می‌شود (این حالت از دسته‌بندی چندسطحی پشتیبانی می‌کند). اگر false باشد، خصوصیت AsLiteral فعّال است. به عبارت دیگر، ورک‌شیت برای ذخیره‌سازی دسته استفاده نمی‌شود (و این حالت از دسته‌های چندسطحی پشتیبانی نمی‌کند). فقط خواندنی Boolean. |
-| [Value](../../aspose.slides.charts/chartcategory/value) { get; set; } | اگر UseCell true باشد، این خصوصیت نمایانگر خصوصیت AsCell.Value است. اگر UseCell false باشد، این خصوصیت نمایانگر خصوصیت AsLiteral است. قابل خواندن/نوشتن Object. |
+| [AsCell](../../aspose.slides.charts/chartcategory/ascell) { get; set; } | شی IChartDataCell را برمی‌گرداند یا تنظیم می‌کند. اگر دسته‌بندی چند سطحی باشد، سپس شی IChartDataCell برای سطح "0" استفاده می‌شود. خواندنی/نوشتنی [`IChartDataCell`](../ichartdatacell). |
+| [AsLiteral](../../aspose.slides.charts/chartcategory/asliteral) { get; set; } | شی AsLiteral را برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی شی. |
+| [CachedValue](../../aspose.slides.charts/chartcategory/cachedvalue) { get; } | مقدار کش‌شده یک دسته‌بندی نمودار را دریافت می‌کند. فقط-خواندنی [`ICachedChartValue`](../icachedchartvalue). |
+| [GroupingLevels](../../aspose.slides.charts/chartcategory/groupinglevels) { get; } | محفظهٔ مدیریت‌شدهٔ مقادیر سطوح گروه‌بندی دسته‌بندی نمودار. دسته‌بندی چند سطحی بیش از یک سطح گروه‌بندی دارد. اندیس‌گذاری سطوح گروه‌بندی از صفر آغاز می‌شود. فقط-خواندنی [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
+| [UseCell](../../aspose.slides.charts/chartcategory/usecell) { get; } | اگر درست باشد، خصوصیت AsCell معتبر است. به عبارت دیگر، کاربرگ برای ذخیره‌سازی دسته‌بندی استفاده می‌شود (این حالت از دسته‌بندی چند سطحی پشتیبانی می‌کند). اگر نادرست باشد، خصوصیت AsLiteral معتبر است. به عبارت دیگر، کاربرگ برای ذخیره‌سازی دسته‌بندی استفاده نمی‌شود (و این حالت از دسته‌بندی‌های چند سطحی پشتیبانی نمی‌کند). فقط-خواندنی بولی. |
+| [Value](../../aspose.slides.charts/chartcategory/value) { get; set; } | اگر UseCell درست باشد، این خصوصیت نمایانگر خصوصیت AsCell.Value است. اگر UseCell نادرست باشد، این خصوصیت نمایانگر خصوصیت AsLiteral است. خواندنی/نوشتنی شی. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [Remove](../../aspose.slides.charts/chartcategory/remove)() | دسته را از نمودار حذف می‌کند. |
+| [Remove](../../aspose.slides.charts/chartcategory/remove)() | دسته‌بندی را از نمودار حذف می‌کند. |
 
-### همچنین ببینید
+### مراجع
 
 * رابط [IChartCategory](../ichartcategory)
 * فضای نام [Aspose.Slides.Charts](../../aspose.slides.charts)

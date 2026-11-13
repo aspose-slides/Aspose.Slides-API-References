@@ -1,14 +1,14 @@
 ---
 title: IExtraColorSchemeCollection
-second_title: Aspose.Sildes .NET API 参考
-description: 表示附加颜色方案的集合。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示附加配色方案的集合。
 type: docs
-weight: 11220
+weight: 11240
 url: /zh/aspose.slides.theme/iextracolorschemecollection/
 ---
 ## IExtraColorSchemeCollection 接口
 
-表示附加颜色方案的集合。
+表示一个附加配色方案的集合。
 
 ```csharp
 public interface IExtraColorSchemeCollection : IGenericCollection<IExtraColorScheme>
@@ -18,7 +18,7 @@ public interface IExtraColorSchemeCollection : IGenericCollection<IExtraColorSch
 
 | 名称 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides.theme/iextracolorschemecollection/item) { get; } | 按索引返回颜色方案。只读 [`IExtraColorScheme`](../iextracolorscheme)。 |
+| [Item](../../aspose.slides.theme/iextracolorschemecollection/item) { get; } | 按索引返回配色方案。只读 [`IExtraColorScheme`](../iextracolorscheme)。 |
 
 ### 另见
 

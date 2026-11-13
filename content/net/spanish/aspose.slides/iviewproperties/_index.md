@@ -1,14 +1,14 @@
 ---
 title: IViewProperties
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Propiedades de vista a nivel de presentación.
+description: Propiedades de vista de la presentación.
 type: docs
-weight: 7390
+weight: 7410
 url: /es/aspose.slides/iviewproperties/
 ---
 ## IViewProperties interfaz
 
-Propiedades de vista a nivel de presentación.
+Propiedades de vista de la presentación.
 
 ```csharp
 public interface IViewProperties
@@ -18,12 +18,12 @@ public interface IViewProperties
 
 | Nombre | Descripción |
 | --- | --- |
-| [GridSpacing](../../aspose.slides/iviewproperties/gridspacing) { get; set; } | Devuelve o establece el espaciado de la cuadrícula que debe usarse para la cuadrícula subyacente del documento de presentación, en puntos. Lectura/escritura Single. |
-| [LastView](../../aspose.slides/iviewproperties/lastview) { get; set; } | Especifica el modo de vista que se usó cuando el documento de presentación se guardó por última vez. Lectura/escritura [`ViewType`](../viewtype). |
-| [NormalViewProperties](../../aspose.slides/iviewproperties/normalviewproperties) { get; } | Representa las propiedades de vista normal. La vista normal consta de tres regiones de contenido: la diapositiva misma, una región de contenido lateral y una región de contenido inferior. Solo lectura [`INormalViewProperties`](../inormalviewproperties). |
-| [NotesViewProperties](../../aspose.slides/iviewproperties/notesviewproperties) { get; } | Especifica las propiedades de vista comunes asociadas al modo de vista de notas. Solo lectura [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
-| [ShowComments](../../aspose.slides/iviewproperties/showcomments) { get; set; } | Especifica si los comentarios de la diapositiva deben mostrarse. Lectura/escritura [`NullableBool`](../nullablebool). |
-| [SlideViewProperties](../../aspose.slides/iviewproperties/slideviewproperties) { get; } | Especifica las propiedades de vista comunes asociadas al modo de vista de diapositiva. Solo lectura [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
+| [GridSpacing](../../aspose.slides/iviewproperties/gridspacing) { get; set; } | Devuelve o establece el espaciado de la cuadrícula que se debe usar para la cuadrícula subyacente al documento de presentación, en puntos. Lectura/escritura Single. |
+| [LastView](../../aspose.slides/iviewproperties/lastview) { get; set; } | Especifica el modo de vista que se utilizó cuando el documento de presentación se guardó por última vez. Lectura/escritura [`ViewType`](../viewtype). |
+| [NormalViewProperties](../../aspose.slides/iviewproperties/normalviewproperties) { get; } | Representa las propiedades de vista normal. La vista normal consta de tres regiones de contenido: la diapositiva misma, una región de contenido lateral y una región de contenido inferior. Sólo lectura [`INormalViewProperties`](../inormalviewproperties). |
+| [NotesViewProperties](../../aspose.slides/iviewproperties/notesviewproperties) { get; } | Especifica las propiedades de vista comunes asociadas con el modo de vista de notas. Sólo lectura [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
+| [ShowComments](../../aspose.slides/iviewproperties/showcomments) { get; set; } | Especifica si se deben mostrar los comentarios de la diapositiva. Lectura/escritura [`NullableBool`](../nullablebool). |
+| [SlideViewProperties](../../aspose.slides/iviewproperties/slideviewproperties) { get; } | Especifica las propiedades de vista comunes asociadas con el modo de vista de diapositiva. Sólo lectura [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
 
 ### Ver también
 

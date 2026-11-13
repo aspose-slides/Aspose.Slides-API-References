@@ -3,7 +3,7 @@ title: ILegend
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa las propiedades de la leyenda de los gráficos.
 type: docs
-weight: 2130
+weight: 2150
 url: /es/aspose.slides.charts/ilegend/
 ---
 ## ILegend interfaz
@@ -18,12 +18,12 @@ public interface ILegend : IActualLayout, IFormattedTextContainer, ILayoutable
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | Permite obtener la interfaz base IFormattedTextContainer. Solo lectura [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | Permite obtener la interfaz base ILayoutable. Solo lectura [`ILayoutable`](../ilayoutable). |
-| [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | Obtiene las entradas de la leyenda. Solo lectura [`ILegendEntryCollection`](../ilegendentrycollection). |
-| [Format](../../aspose.slides.charts/ilegend/format) { get; } | Devuelve el formato de una leyenda. Solo lectura [`IFormat`](../iformat). |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | Permite obtener la interfaz base IFormattedTextContainer. Sólo lectura [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | Permite obtener la interfaz base ILayoutable. Sólo lectura [`ILayoutable`](../ilayoutable). |
+| [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | Obtiene las entradas de la leyenda. Sólo lectura [`ILegendEntryCollection`](../ilegendentrycollection). |
+| [Format](../../aspose.slides.charts/ilegend/format) { get; } | Devuelve el formato de una leyenda. Sólo lectura [`IFormat`](../iformat). |
 | [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | Determina si se permite que otros elementos del gráfico se superpongan a la leyenda. Lectura/escritura Boolean. |
-| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Especifica la posición de la leyenda en un gráfico. Los valores no NaN de las propiedades X, Y, Width, Height sobrescriben el efecto de esta propiedad. Lectura/escritura [`LegendPositionType`](../legendpositiontype). |
+| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Especifica la posición de la leyenda en un gráfico. Valores que no son NaN de las propiedades X, Y, Width, Heigt sustituyen el efecto de esta propiedad. Lectura/escritura [`LegendPositionType`](../legendpositiontype). |
 
 ### Ver también
 

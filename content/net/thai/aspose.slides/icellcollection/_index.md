@@ -1,9 +1,9 @@
 ---
 title: ICellCollection
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงคอลเลกชันของเซลล์.
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: แสดงถึงคอลเลกชันของเซลล์.
 type: docs
-weight: 5460
+weight: 5480
 url: /th/aspose.slides/icellcollection/
 ---
 ## ICellCollection อินเทอร์เฟซ
@@ -16,10 +16,10 @@ public interface ICellCollection : IGenericCollection<ICell>, ISlideComponent
 
 ## คุณสมบัติ
 
-| ชื่อ | รายละเอียด |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
 | [AsISlideComponent](../../aspose.slides/icellcollection/asislidecomponent) { get; } | อนุญาตให้ดึงอินเทอร์เฟซฐาน ISlideComponent. อ่านอย่างเดียว [`ISlideComponent`](../islidecomponent). |
-| [Item](../../aspose.slides/icellcollection/item) { get; } | ส่งคืนเซลล์ตามตำแหน่งของมัน. อ่านอย่างเดียว [`ICell`](../icell). |
+| [Item](../../aspose.slides/icellcollection/item) { get; } | คืนค่าเซลล์ตามตำแหน่งของมัน. อ่านอย่างเดียว [`ICell`](../icell). |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: IAudioFrame
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir slayttaki ses klibini temsil eder.
+description: Bir slayt üzerindeki ses klibini temsil eder.
 type: docs
-weight: 5230
+weight: 5250
 url: /tr/aspose.slides/iaudioframe/
 ---
 ## IAudioFrame arayüzü
 
-Bir slaytta ses klibini temsil eder.
+Bir slayt üzerindeki ses klibini temsil eder.
 
 ```csharp
 public interface IAudioFrame : IPictureFrame
@@ -18,28 +18,28 @@ public interface IAudioFrame : IPictureFrame
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIPictureFrame](../../aspose.slides/iaudioframe/asipictureframe) { get; } | Temel IPictureFrame arayüzünü almayı sağlar. Salt okunur [`IPictureFrame`](../ipictureframe). |
-| [AudioCdEndTrack](../../aspose.slides/iaudioframe/audiocdendtrack) { get; set; } | Son iz indeksini döndürür veya ayarlar. Okunur/yazılabilir Int32. |
-| [AudioCdEndTrackTime](../../aspose.slides/iaudioframe/audiocdendtracktime) { get; set; } | Son iz zamanını döndürür veya ayarlar. Okunur/yazılabilir Int32. |
-| [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | Başlangıç iz indeksini döndürür veya ayarlar. Okunur/yazılabilir Int32. |
-| [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | Başlangıç iz zamanını döndürür veya ayarlar. Okunur/yazılabilir Int32. |
-| [CaptionTracks](../../aspose.slides/iaudioframe/captiontracks) { get; } | AudioFrame ile ilişkili kapalı altyazı koleksiyonunu alır. Bu özellik salt okunurdur ve tüm altyazı izlerini içeren bir [`ICaptionsCollection`](../icaptionscollection) döndürür. |
-| [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | Bir sesin sunuma gömülü olup olmadığını belirler. Salt okunur Boolean. |
-| [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | Gömülü ses nesnesini döndürür veya ayarlar. Okunur/yazılabilir [`IAudio`](../iaudio). |
-| [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | Medyanın ilk yumuşak geçiş süresini milisaniye cinsinden belirler. Okunur/yazılabilir Single. |
-| [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | Medyanın bitiş yumuşak geçiş süresini milisaniye cinsinden belirler. Okunur/yazılabilir Single. |
-| [HideAtShowing](../../aspose.slides/iaudioframe/hideatshowing) { get; set; } | Bir AudioFrame'in gizli olup olmadığını belirler. Okunur/yazılabilir Boolean. |
-| [LinkPathLong](../../aspose.slides/iaudioframe/linkpathlong) { get; set; } | AudioFrame'e bağlanan ses dosyasının adını döndürür veya ayarlar. Okunur/yazılabilir String. |
-| [PlayAcrossSlides](../../aspose.slides/iaudioframe/playacrossslides) { get; set; } | Sesin slaytlar arasında çalıp çalmadığını belirler. Okunur/yazılabilir Boolean. |
-| [PlayLoopMode](../../aspose.slides/iaudioframe/playloopmode) { get; set; } | Sesin döngüde olup olmadığını belirler. Okunur/yazılabilir Boolean. |
-| [PlayMode](../../aspose.slides/iaudioframe/playmode) { get; set; } | Ses çalma modunu döndürür veya ayarlar. Okunur/yazılabilir [`AudioPlayModePreset`](../audioplaymodepreset). |
-| [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | Sesin çalındıktan sonra otomatik olarak başa sarılıp sarılmayacağını belirler. Okunur/yazılabilir Boolean. |
-| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | Oynatma sırasında medyanın sonundan kaldırılacak süreyi milisaniye cinsinden belirler. Okunur/yazılabilir Single. |
-| [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | Oynatma sırasında medyanın başından kaldırılacak süreyi milisaniye cinsinden belirler. Okunur/yazılabilir Single. |
-| [Volume](../../aspose.slides/iaudioframe/volume) { get; set; } | Ses seviyesini döndürür veya ayarlar. Okunur/yazılabilir [`AudioVolumeMode`](../audiovolumemode). |
-| [VolumeValue](../../aspose.slides/iaudioframe/volumevalue) { get; set; } | Ses seviyesini yüzde olarak döndürür veya ayarlar. Okunur/yazılabilir Single. |
+| [AsIPictureFrame](../../aspose.slides/iaudioframe/asipictureframe) { get; } | Temel IPictureFrame arayüzünü almaya izin verir. Salt-okunur [`IPictureFrame`](../ipictureframe). |
+| [AudioCdEndTrack](../../aspose.slides/iaudioframe/audiocdendtrack) { get; set; } | Son iz izi indeksini döndürür veya ayarlar. Okunur/yazılır Int32. |
+| [AudioCdEndTrackTime](../../aspose.slides/iaudioframe/audiocdendtracktime) { get; set; } | Son iz süresini döndürür veya ayarlar. Okunur/yazılır Int32. |
+| [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | Başlangıç iz izi indeksini döndürür veya ayarlar. Okunur/yazılır Int32. |
+| [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | Başlangıç iz süresini döndürür veya ayarlar. Okunur/yazılır Int32. |
+| [CaptionTracks](../../aspose.slides/iaudioframe/captiontracks) { get; } | Ses çerçevesiyle ilişkili kapalı altyazıların koleksiyonunu alır. Bu özellik salt-okunurdur ve tüm altyazı izlerini içeren bir [`ICaptionsCollection`](../icaptionscollection) döndürür. |
+| [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | Bir sesin sunuma gömülü olup olmadığını belirler. Salt-okunur Boolean. |
+| [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | Gömülü ses nesnesini döndürür veya ayarlar. Okunur/yazılır [`IAudio`](../iaudio). |
+| [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | Medyanın ilk fade-in süresini milisaniye cinsinden belirtir. Okunur/yazılır Single. |
+| [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | Medyanın son fade-out süresini milisaniye cinsinden belirtir. Okunur/yazılır Single. |
+| [HideAtShowing](../../aspose.slides/iaudioframe/hideatshowing) { get; set; } | Bir AudioFrame’in gizli olup olmadığını belirler. Okunur/yazılır Boolean. |
+| [LinkPathLong](../../aspose.slides/iaudioframe/linkpathlong) { get; set; } | AudioFrame’e bağlı bir ses dosyasının adını döndürür veya ayarlar. Okunur/yazılır String. |
+| [PlayAcrossSlides](../../aspose.slides/iaudioframe/playacrossslides) { get; set; } | Sesin slaytlar arasında çalınıp çalınmadığını belirler. Okunur/yazılır Boolean. |
+| [PlayLoopMode](../../aspose.slides/iaudioframe/playloopmode) { get; set; } | Sesin döngüde çalınıp çalınmadığını belirler. Okunur/yazılır Boolean. |
+| [PlayMode](../../aspose.slides/iaudioframe/playmode) { get; set; } | Ses çalma modunu döndürür veya ayarlar. Okunur/yazılır [`AudioPlayModePreset`](../audioplaymodepreset). |
+| [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | Sesin çalındıktan sonra otomatik olarak başa sarıp sarılmayacağını belirler. Okunur/yazılır Boolean. |
+| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | Oynatma sırasında medyanın sonundan kaldırılması gereken süreyi milisaniye cinsinden belirtir. Okunur/yazılır Single. |
+| [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | Oynatma sırasında medyanın başından kaldırılması gereken süreyi milisaniye cinsinden belirtir. Okunur/yazılır Single. |
+| [Volume](../../aspose.slides/iaudioframe/volume) { get; set; } | Ses seviyesini döndürür veya ayarlar. Okunur/yazılır [`AudioVolumeMode`](../audiovolumemode). |
+| [VolumeValue](../../aspose.slides/iaudioframe/volumevalue) { get; set; } | Ses seviyesini yüzde olarak döndürür veya ayarlar. Okunur/yazılır Single. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * arayüz [IPictureFrame](../ipictureframe)
 * ad alanı [Aspose.Slides](../../aspose.slides)

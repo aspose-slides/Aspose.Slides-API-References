@@ -3,7 +3,7 @@ title: PictureType
 second_title: Aspose.Sildes for .NET API リファレンス
 description: バー画像の塗りつぶしモードを決定します。
 type: docs
-weight: 2360
+weight: 2380
 url: /ja/aspose.slides.charts/picturetype/
 ---
 ## PictureType 列挙体
@@ -19,9 +19,9 @@ public enum PictureType
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
 | NotDefined | `-1` | 未定義です。 |
-| Stack | `0` | 画像は、最も長い積み上げ棒グラフで最大15回繰り返すようにサイズが調整されます。 |
-| StackScale | `1` | 画像は指定された単位数にサイズが設定され、棒グラフの長さに沿って繰り返されます。 |
-| Stretch | `2` | 画像は積み上げ棒グラフの全長にわたって伸長されます。 |
+| Stack | `0` | 画像はサイズが調整され、最長の積み上げバーで最大 15 回繰り返されます。 |
+| StackScale | `1` | 画像は指定された単位数にサイズ変更され、バーの長さに沿って繰り返されます。 |
+| Stretch | `2` | 画像は積み上げバー全体の長さに伸張されます。 |
 
 ### 参照
 

@@ -1,14 +1,14 @@
 ---
 title: TransitionCornerDirectionType
 second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Biểu diễn các loại chuyển hướng góc.
+description: Mô tả các loại chuyển hướng góc.
 type: docs
-weight: 10350
+weight: 10370
 url: /vi/aspose.slides.slideshow/transitioncornerdirectiontype/
 ---
-## TransitionCornerDirectionType kiểu liệt kê
+## TransitionCornerDirectionType liệt kê
 
-Biểu diễn các loại chuyển hướng góc.
+Mô tả các loại chuyển hướng góc.
 
 ```csharp
 public enum TransitionCornerDirectionType

@@ -1,12 +1,12 @@
 ---
 title: TickLabelPositionType
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET API Reference
 description: Reprezentuje typ położenia etykiet znaczników na określonej osi.
 type: docs
-weight: 2440
+weight: 2460
 url: /pl/aspose.slides.charts/ticklabelpositiontype/
 ---
-## TickLabelPositionType wyliczeniowy
+## enumeracja TickLabelPositionType
 
 Reprezentuje typ położenia etykiet znaczników na określonej osi.
 

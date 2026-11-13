@@ -1,14 +1,14 @@
 ---
 title: WarningType
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt einen Warnungstyp dar.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt einen Typ von Warnung dar.
 type: docs
-weight: 11830
+weight: 11850
 url: /de/aspose.slides.warnings/warningtype/
 ---
 ## WarningType Aufzählung
 
-Stellt einen Warnungstyp dar.
+Stellt einen Typ von Warnung dar.
 
 ```csharp
 public enum WarningType
@@ -16,14 +16,14 @@ public enum WarningType
 
 ### Werte
 
-| Name | Wert | Beschreibung |
+| Name | Value | Description |
 | --- | --- | --- |
-| SourceFileCorruption | `0` | Ein Problem wurde im Quelldokument erkannt, das es sehr wahrscheinlich macht, dass das Dokument nicht geöffnet werden kann, wenn es im Originalformat gespeichert wird. |
-| DataLoss | `1` | Text/Diagramm/Bild oder andere Daten werden nach dem Laden im Dokumentbaum oder im erstellten Dokument nach dem Speichern vollständig fehlen. |
-| MajorFormattingLoss | `2` | Großer Formatverlust. |
-| MinorFormattingLoss | `3` | Geringer Formatverlust. |
+| SourceFileCorruption | `0` | Ein Problem wurde im Quelldokument festgestellt, das es sehr wahrscheinlich macht, dass das Dokument nicht geöffnet werden kann, wenn es im ursprünglichen Format gespeichert wird. |
+| DataLoss | `1` | Text-/Diagramm-/Bild- oder andere Daten werden nach dem Laden im Dokumentbaum bzw. nach dem Speichern im erstellten Dokument vollständig fehlen. |
+| MajorFormattingLoss | `2` | Großer Formatierungsverlust. |
+| MinorFormattingLoss | `3` | Geringer Formatierungsverlust. |
 | CompatibilityIssue | `4` | Dies ist ein bekanntes Problem, das verhindert, dass das Dokument von bestimmten Benutzeragenten oder früheren Versionen von Benutzeragenten geöffnet wird. |
-| UnexpectedContent | `99` | Einige Inhalte im Quelldokument konnten nicht erkannt werden (d.h. werden nicht unterstützt); dies kann Probleme verursachen oder zu Daten-/Formatverlust führen. |
+| UnexpectedContent | `99` | Einige Inhalte im Quelldokument konnten nicht erkannt werden (d. h. werden nicht unterstützt); dies kann Probleme verursachen oder zu Daten- bzw. Formatierungsverlust führen. |
 
 ### Siehe auch
 

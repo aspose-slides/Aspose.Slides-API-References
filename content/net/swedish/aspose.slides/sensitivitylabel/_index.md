@@ -1,14 +1,14 @@
 ---
 title: SensitivityLabel
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar känslighetsetiketten från Microsoft Purview Information Protection.
+description: Representerar känslighetsmärkningen från Microsoft Purview Information Protection.
 type: docs
-weight: 9790
+weight: 9810
 url: /sv/aspose.slides/sensitivitylabel/
 ---
 ## SensitivityLabel klass
 
-Representerar känslighetsetiketten från Microsoft Purview Information Protection.
+Representerar känslighetsmärkning från Microsoft Purview Information Protection.
 
 ```csharp
 public sealed class SensitivityLabel : ISensitivityLabel
@@ -16,16 +16,16 @@ public sealed class SensitivityLabel : ISensitivityLabel
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [AssignmentMethodType](../../aspose.slides/sensitivitylabel/assignmentmethodtype) { get; set; } | Returnerar eller anger tilldelningsmetoden för känslighetsetiketten. Läs/skriv [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
-| [ContentMarkTypes](../../aspose.slides/sensitivitylabel/contentmarktypes) { get; } | Returnerar listan med typer av innehållsmarkering som bör tillämpas på en fil. |
-| [Id](../../aspose.slides/sensitivitylabel/id) { get; set; } | Returnerar eller anger id för känslighetsetiketten. Läs/skriv String. |
-| [IsEnabled](../../aspose.slides/sensitivitylabel/isenabled) { get; set; } | Indikerar om känslighetsetiketten är aktiverad. |
-| [IsRemoved](../../aspose.slides/sensitivitylabel/isremoved) { get; set; } | Indikerar om känslighetsetiketten har tagits bort. |
-| [SiteId](../../aspose.slides/sensitivitylabel/siteid) { get; set; } | Returnerar eller anger Azure Active Directory (Azure AD)-platsidentifieraren som motsvarar känslighetsetikettpolicyn som beskriver känslighetsetiketten. Läs/skriv Guid. |
+| [AssignmentMethodType](../../aspose.slides/sensitivitylabel/assignmentmethodtype) { get; set; } | Returnerar eller anger tilldelningsmetoden för känslighetsmärkningen. Läs/skriv [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
+| [ContentMarkTypes](../../aspose.slides/sensitivitylabel/contentmarktypes) { get; } | Returnerar listan över typer av innehållsmärkning som ska tillämpas på en fil. |
+| [Id](../../aspose.slides/sensitivitylabel/id) { get; set; } | Returnerar eller anger id för känslighetsmärkningen. Läs/skriv String. |
+| [IsEnabled](../../aspose.slides/sensitivitylabel/isenabled) { get; set; } | Anger om känslighetsmärkningen är aktiverad. |
+| [IsRemoved](../../aspose.slides/sensitivitylabel/isremoved) { get; set; } | Anger om känslighetsmärkningen har tagits bort. |
+| [SiteId](../../aspose.slides/sensitivitylabel/siteid) { get; set; } | Returnerar eller anger Azure Active Directory (Azure AD) webbplatsidentifieraren som motsvarar policyn för känslighetsmärkning som beskriver känslighetsmärkningen. Läs/skriv Guid. |
 
-### Se också
+### Se även
 
 * gränssnitt [ISensitivityLabel](../isensitivitylabel)
 * namnrymd [Aspose.Slides](../../aspose.slides)

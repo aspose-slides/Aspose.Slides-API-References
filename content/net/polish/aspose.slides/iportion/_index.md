@@ -1,12 +1,12 @@
 ---
 title: IPortion
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET Referencja API
 description: Reprezentuje fragment tekstu wewnątrz akapitu tekstowego.
 type: docs
-weight: 6700
+weight: 6720
 url: /pl/aspose.slides/iportion/
 ---
-## IPortion interfejs
+## Interfejs IPortion
 
 Reprezentuje fragment tekstu wewnątrz akapitu tekstowego.
 
@@ -19,19 +19,19 @@ public interface IPortion : ISlideComponent
 | Nazwa | Opis |
 | --- | --- |
 | [AsISlideComponent](../../aspose.slides/iportion/asislidecomponent) { get; } | Umożliwia pobranie podstawowego interfejsu ISlideComponent. Tylko do odczytu [`ISlideComponent`](../islidecomponent). |
-| [Field](../../aspose.slides/iportion/field) { get; } | Zwraca pole tej części. Tylko do odczytu [`IField`](../ifield). |
-| [PortionFormat](../../aspose.slides/iportion/portionformat) { get; } | Zwraca obiekt formatowania, który zawiera wyraźnie ustawione właściwości formatowania fragmentu tekstu, bez zastosowanego dziedziczenia. Tylko do odczytu [`IPortionFormat`](../iportionformat). |
-| [Text](../../aspose.slides/iportion/text) { get; set; } | Pobiera lub ustawia zwykły tekst części. Odczyt/zapis String. |
+| [Field](../../aspose.slides/iportion/field) { get; } | Zwraca pole tego fragmentu. Tylko do odczytu [`IField`](../ifield). |
+| [PortionFormat](../../aspose.slides/iportion/portionformat) { get; } | Zwraca obiekt formatowania, który zawiera explicite ustawione właściwości formatowania fragmentu tekstu bez zastosowania dziedziczenia. Tylko do odczytu [`IPortionFormat`](../iportionformat). |
+| [Text](../../aspose.slides/iportion/text) { get; set; } | Pobiera lub ustawia zwykły tekst fragmentu. Odczyt i zapis String. |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [AddField](../../aspose.slides/iportion/addfield#addfield)(IFieldType) | Konwertuje tę część na automatycznie aktualizowane pole. |
-| [AddField](../../aspose.slides/iportion/addfield#addfield_1)(string) | Konwertuje tę część na automatycznie aktualizowane pole. |
-| [GetCoordinates](../../aspose.slides/iportion/getcoordinates)() | Uzyskuje współrzędne początku części. Współrzędna X punktu reprezentuje początek części od pierwszego znaku, włączając lewy margines. Współrzędna Y obejmuje górny margines. |
-| [GetRect](../../aspose.slides/iportion/getrect)() | Uzyskuje współrzędne prostokąta otaczającego część. Prostokąt obejmuje wszystkie linie tekstu w części, włączając puste. |
-| [RemoveField](../../aspose.slides/iportion/removefield)() | Konwertuje tę część pola na prostą część. |
+| [AddField](../../aspose.slides/iportion/addfield#addfield)(IFieldType) | Konwertuje ten fragment na automatycznie aktualizowane pole. |
+| [AddField](../../aspose.slides/iportion/addfield#addfield_1)(string) | Konwertuje ten fragment na automatycznie aktualizowane pole. |
+| [GetCoordinates](../../aspose.slides/iportion/getcoordinates)() | Pobiera współrzędne początku fragmentu. Współrzędna X punktu reprezentuje początek fragmentu od pierwszego znaku, uwzględniając lewy margines. Współrzędna Y obejmuje górny margines. |
+| [GetRect](../../aspose.slides/iportion/getrect)() | Pobiera współrzędne prostokąta ograniczającego fragment. Prostokąt zawiera wszystkie wiersze tekstu w fragmencie, w tym puste. |
+| [RemoveField](../../aspose.slides/iportion/removefield)() | Konwertuje ten fragment pola na prosty fragment. |
 
 ### Zobacz także
 

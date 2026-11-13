@@ -1,14 +1,14 @@
 ---
 title: IFontDataFactory
-second_title: Aspose.Sildes .NET için API Referansı
-description: FontData fabrikası arayüzü
+second_title: Aspose.Sildes için .NET API Referansı
+description: FontData fabrika arayüzü
 type: docs
-weight: 5840
+weight: 5860
 url: /tr/aspose.slides/ifontdatafactory/
 ---
-## IFontDataFactory arayüzü
+## IFontDataFactory arayüz
 
-FontData fabrikası arayüzü
+FontData fabrika arayüz
 
 ```csharp
 public interface IFontDataFactory
@@ -18,7 +18,7 @@ public interface IFontDataFactory
 
 | Ad | Açıklama |
 | --- | --- |
-| [CreateFontData](../../aspose.slides/ifontdatafactory/createfontdata)(string) | Belirtilen yazı tipi adıyla FontData oluşturur. |
+| [CreateFontData](../../aspose.slides/ifontdatafactory/createfontdata)(string) | Belirtilen font adıyla FontData oluşturur. |
 
 ### Ayrıca Bakınız
 

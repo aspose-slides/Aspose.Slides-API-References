@@ -1,12 +1,12 @@
 ---
 title: LineFormatCollection
-second_title: Aspose.Sildes لـ .NET مرجع API
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
 description: يمثل مجموعة أنماط الخط.
 type: docs
-weight: 11420
+weight: 11440
 url: /ar/aspose.slides.theme/lineformatcollection/
 ---
-## فئة LineFormatCollection
+## LineFormatCollection الفئة
 
 يمثل مجموعة أنماط الخط.
 
@@ -19,22 +19,22 @@ public sealed class LineFormatCollection : DomObject<FormatScheme>, ILineFormatC
 | الاسم | الوصف |
 | --- | --- |
 | [Count](../../aspose.slides.theme/lineformatcollection/count) { get; } | يحصل على عدد العناصر الفعلية الموجودة في المجموعة. قراءة فقط Int32. |
-| [IsSynchronized](../../aspose.slides.theme/lineformatcollection/issynchronized) { get; } | يعيد قيمة تشير إلى ما إذا كان الوصول إلى المجموعة متزامنًا (آمن للخيوط). قراءة فقط Boolean. |
-| [Item](../../aspose.slides.theme/lineformatcollection/item) { get; } | يحصل على العنصر في الفهرس المحدد. قراءة فقط [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [IsSynchronized](../../aspose.slides.theme/lineformatcollection/issynchronized) { get; } | يعيد قيمة تشير إلى ما إذا كان الوصول إلى المجموعة متزامناً (thread-safe). قراءة فقط Boolean. |
+| [Item](../../aspose.slides.theme/lineformatcollection/item) { get; } | يحصل على العنصر عند الفهرس المحدد. قراءة فقط [`ILineFormat`](../../aspose.slides/ilineformat). |
 | [SyncRoot](../../aspose.slides.theme/lineformatcollection/syncroot) { get; } | يعيد جذر المزامنة. قراءة فقط Object. |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [CopyTo](../../aspose.slides.theme/lineformatcollection/copyto)(Array, int) | ينسخ جميع العناصر من المجموعة إلى المصفوفة المحددة. |
-| [GetEnumerator](../../aspose.slides.theme/lineformatcollection/getenumerator)() | يعيد عدًّا يمر عبر المجموعة. |
+| [CopyTo](../../aspose.slides.theme/lineformatcollection/copyto)(Array, int) | نسخ جميع العناصر من المجموعة إلى المصفوفة المحددة. |
+| [GetEnumerator](../../aspose.slides.theme/lineformatcollection/getenumerator)() | يعيد عدّادًا يتجول عبر المجموعة. |
 
 ### انظر أيضًا
 
-* فئة [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
-* فئة [FormatScheme](../formatscheme)
-* واجهة [ILineFormatCollection](../ilineformatcollection)
+* الفئة [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* الفئة [FormatScheme](../formatscheme)
+* الواجهة [ILineFormatCollection](../ilineformatcollection)
 * مساحة الاسم [Aspose.Slides.Theme](../../aspose.slides.theme)
 * التجميع [Aspose.Slides](../../)
 

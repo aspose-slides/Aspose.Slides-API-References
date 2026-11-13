@@ -1,14 +1,14 @@
 ---
 title: ITabEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: อ็อบเจ็กต์ที่ไม่สามารถเปลี่ยนแปลงได้ซึ่งมีคุณสมบัติการหยุดแท็บของข้อความที่มีผล
+second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
+description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติการหยุดแท็บของข้อความที่มีผล.
 type: docs
-weight: 7210
+weight: 7230
 url: /th/aspose.slides/itabeffectivedata/
 ---
-## ITabEffectiveData interface
+## ITabEffectiveData อินเทอร์เฟซ
 
-อ็อบเจ็กต์ที่ไม่สามารถเปลี่ยนแปลงได้ ซึ่งมีคุณสมบัติของการหยุดแท็บของข้อความที่มีผล
+Immutable object which contains effective text's tabulation stop properties.
 
 ```csharp
 public interface ITabEffectiveData : IComparable
@@ -16,11 +16,11 @@ public interface ITabEffectiveData : IComparable
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
 | [Alignment](../../aspose.slides/itabeffectivedata/alignment) { get; } | ส่งคืนสไตล์การจัดแนวของแท็บ. อ่านอย่างเดียว [`TabAlignment`](../tabalignment). |
 | [AsIComparable](../../aspose.slides/itabeffectivedata/asicomparable) { get; } | ส่งคืนอินเทอร์เฟซ IComparable. อ่านอย่างเดียว IComparable. |
-| [Position](../../aspose.slides/itabeffectivedata/position) { get; } | ส่งคืนตำแหน่งของแท็บ. การกำหนดค่าคุณสมบัตินี้อาจเปลี่ยนดัชนีของแท็บในคอล렉ชันและทำให้ Enumerator ไม่สามารถใช้ได้. อ่านอย่างเดียว Double. |
+| [Position](../../aspose.slides/itabeffectivedata/position) { get; } | ส่งคืนตำแหน่งของแท็บ. การกำหนดค่าคุณสมบัตินี้สามารถเปลี่ยนดัชนีของแท็บในคอลเลกชันและทำให้ Enumerator เป็นโมฆะ. อ่านอย่างเดียว Double. |
 
 ### หมายเหตุ
 

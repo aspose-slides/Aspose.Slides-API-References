@@ -1,9 +1,9 @@
 ---
 title: IMathLimitFactory
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes .NET API hivatkozás
 description: Lehetővé teszi az IMathLimit létrehozását
 type: docs
-weight: 8330
+weight: 8350
 url: /hu/aspose.slides.mathtext/imathlimitfactory/
 ---
 ## IMathLimitFactory interfész
@@ -14,16 +14,16 @@ Lehetővé teszi az IMathLimit létrehozását
 public interface IMathLimitFactory
 ```
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [CreateMathLimit](../../aspose.slides.mathtext/imathlimitfactory/createmathlimit#createmathlimit)(IMathElement, IMathElement) | Létrehozza az IMathLimit-et az alsó korlárral |
-| [CreateMathLimit](../../aspose.slides.mathtext/imathlimitfactory/createmathlimit#createmathlimit_1)(IMathElement, IMathElement, bool) | Létrehozza az IMathLimit-et |
+| [CreateMathLimit](../../aspose.slides.mathtext/imathlimitfactory/createmathlimit#createmathlimit)(IMathElement, IMathElement) | Létrehozza az IMathLimit objektumot a alsó határral |
+| [CreateMathLimit](../../aspose.slides.mathtext/imathlimitfactory/createmathlimit#createmathlimit_1)(IMathElement, IMathElement, bool) | Létrehozza az IMathLimit objektumot |
 
-### Megjegyzés
+### Megjegyzések
 
-COM kompatibilitáshoz
+A COM kompatibilitáshoz
 
 ### Lásd még
 

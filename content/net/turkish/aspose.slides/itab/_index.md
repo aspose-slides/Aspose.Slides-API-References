@@ -1,14 +1,14 @@
 ---
 title: ITab
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir metin için sekme temsil eder.
+description: Bir metin için sekme düzenlemesini temsil eder.
 type: docs
-weight: 7190
+weight: 7210
 url: /tr/aspose.slides/itab/
 ---
-## ITab arayüz
+## ITab arayüzü
 
-Bir metin için sekme temsil eder.
+Bir metin için sekme düzenlemesini temsil eder.
 
 ```csharp
 public interface ITab : IComparable
@@ -18,11 +18,11 @@ public interface ITab : IComparable
 
 | Ad | Açıklama |
 | --- | --- |
-| [Alignment](../../aspose.slides/itab/alignment) { get; set; } | Bir sekmenin hizalama stilini döndürür veya ayarlar. Okunur/Yazılabilir [`TabAlignment`](../tabalignment). |
-| [AsIComparable](../../aspose.slides/itab/asicomparable) { get; } | IComparable arayüzünü döndürür. Salt okunur IComparable. |
-| [Position](../../aspose.slides/itab/position) { get; set; } | Bir sekmenin konumunu döndürür veya ayarlar. Bu özelliği atamak, sekmenin koleksiyondaki dizinini değiştirebilir ve Enumerator'ı geçersiz kılabilir. Okunur/Yazılabilir Double. |
+| [Alignment](../../aspose.slides/itab/alignment) { get; set; } | Bir sekmenin hizalama stilini döndürür veya ayarlar. Okunur/yazılır [`TabAlignment`](../tabalignment). |
+| [AsIComparable](../../aspose.slides/itab/asicomparable) { get; } | IComparable arayüzünü döndürür. Salt-okunur IComparable. |
+| [Position](../../aspose.slides/itab/position) { get; set; } | Bir sekmenin konumunu döndürür veya ayarlar. Bu özelliğin atanması, sekmenin koleksiyondaki dizinini değiştirebilir ve Enumerator'ı geçersiz kılabilir. Okunur/yazılır Double. |
 
-### Bakınız
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

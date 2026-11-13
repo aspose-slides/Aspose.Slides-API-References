@@ -1,14 +1,14 @@
 ---
 title: LayoutSlideThemeManager
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Biedt toegang tot het overschreven lay-out slide-thema.
+description: Biedt toegang tot layout slide theme overschrijving.
 type: docs
-weight: 11410
+weight: 11430
 url: /nl/aspose.slides.theme/layoutslidethememanager/
 ---
 ## LayoutSlideThemeManager klasse
 
-Biedt toegang tot het overschreven lay-out slide-thema.
+Biedt toegang tot layout slide theme overriden.
 
 ```csharp
 public class LayoutSlideThemeManager : BaseOverrideThemeManager
@@ -19,14 +19,14 @@ public class LayoutSlideThemeManager : BaseOverrideThemeManager
 | Naam | Beschrijving |
 | --- | --- |
 | [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Bepaalt of OverrideTheme het geërfde effectieve thema overschrijft of niet. Om OverrideTheme in te schakelen voor overschrijven, gebruik de OverrideTheme.Init*() methoden. Om OverrideTheme uit te schakelen voor overschrijven, gebruik de OverrideTheme.Clear() methode. Alleen-lezen Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Retourneert het overschrijvende thema-object. Lees/schrijven [`IOverrideTheme`](../ioverridetheme). |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Geeft het overschrijfende thema-object terug. Lees/schrijven [`IOverrideTheme`](../ioverridetheme). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Past een extra kleurenschema toe op een dia. |
-| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Retourneert het thema-object. |
+| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Past extra kleurschema toe op een dia. |
+| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Geeft het thema-object terug. |
 
 ### Zie ook
 

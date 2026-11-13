@@ -1,12 +1,12 @@
 ---
 title: TextCapType
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili jenis kapitalisasi teks.
 type: docs
-weight: 10930
+weight: 10950
 url: /id/aspose.slides/textcaptype/
 ---
-## enumerasi TextCapType
+## TextCapType enumerasi
 
 Mewakili jenis kapitalisasi teks.
 

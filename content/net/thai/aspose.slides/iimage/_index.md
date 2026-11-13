@@ -1,14 +1,14 @@
 ---
 title: IImage
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงถึงภาพเรสเตอร์หรือเวกเตอร์
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: เป็นตัวแทนของภาพราสเตอร์หรือเวกเตอร์
 type: docs
-weight: 6150
+weight: 6170
 url: /th/aspose.slides/iimage/
 ---
 ## IImage อินเทอร์เฟซ
 
-แสดงถึงภาพเรสเตอร์หรือเวกเตอร์
+เป็นการแทนภาพแบบราสเตอร์หรือเวกเตอร์
 
 ```csharp
 public interface IImage : IDisposable
@@ -16,15 +16,15 @@ public interface IImage : IDisposable
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
 | [Height](../../aspose.slides/iimage/height) { get; } | รับความสูงของภาพเป็นพิกเซล |
 | [Size](../../aspose.slides/iimage/size) { get; } | รับขนาดของภาพ |
 | [Width](../../aspose.slides/iimage/width) { get; } | รับความกว้างของภาพเป็นพิกเซล |
 
-## วิธีการ
+## เมธอด
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
 | [Save](../../aspose.slides/iimage/save#save_2)(string) | บันทึกภาพลงไฟล์ |
 | [Save](../../aspose.slides/iimage/save#save)(Stream, ImageFormat) | บันทึกภาพลงสตรีมในรูปแบบที่ระบุ |
@@ -34,7 +34,7 @@ public interface IImage : IDisposable
 
 ### หมายเหตุ
 
-อินเทอร์เฟซนี้ให้การนามธรรมทั่วไปสำหรับการจัดการภาพเรสเตอร์และเวกเตอร์ทั้งสองประเภท การทำงานอาจแตกต่างกันขึ้นอยู่กับประเภทภาพพื้นฐาน
+อินเทอร์เฟซนี้ให้การสรุปที่เป็นมาตรฐานสำหรับการจัดการทั้งภาพราสเตอร์และเวกเตอร์ การนำไปใช้อาจแตกต่างกันขึ้นอยู่กับประเภทของภาพพื้นฐาน
 
 ### ดูเพิ่มเติม
 

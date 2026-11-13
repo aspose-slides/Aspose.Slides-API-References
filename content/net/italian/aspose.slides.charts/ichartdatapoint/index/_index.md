@@ -1,14 +1,14 @@
 ---
 title: Index
-second_title: Aspose.Sildes per .NET API Reference
-description: Determina a quale raccolta dei figli del genitore si applica questo punto dati. Legge UInt32.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Determina a quale collezione di figli del genitore si applica questo punto dati. Leggi UInt32.
 type: docs
-weight: 80
+weight: 120
 url: /it/aspose.slides.charts/ichartdatapoint/index/
 ---
 ## IChartDataPoint.Index proprietà
 
-Determina a quale elemento della raccolta dei figli del genitore si applica questo punto dati. Legge UInt32.
+Determina a quale elemento della collezione dei figli del genitore si applica questo punto dati. Leggi UInt32.
 
 ```csharp
 public uint Index { get; }

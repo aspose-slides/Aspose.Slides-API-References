@@ -1,14 +1,14 @@
 ---
 title: LineAlignment
-second_title: Aspose.Sildes .NET API Referansı için
-description: Satır hizalama tipini temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Satır hizalama türünü temsil eder.
 type: docs
-weight: 7720
+weight: 7740
 url: /tr/aspose.slides/linealignment/
 ---
-## LineAlignment enumerasyon
+## LineAlignment enum
 
-Satır hizalama tipini temsil eder.
+Satır hizalama türünü temsil eder.
 
 ```csharp
 public enum LineAlignment : sbyte
@@ -22,7 +22,7 @@ public enum LineAlignment : sbyte
 | Center | `0` |  |
 | Inset | `1` |  |
 
-### Ayrıca Bakınız
+### Ayrıca
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

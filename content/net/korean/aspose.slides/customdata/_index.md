@@ -1,14 +1,14 @@
 ---
 title: CustomData
 second_title: Aspose.Sildes for .NET API 참조
-description: 사용자 지정 데이터에 대한 컨테이너를 나타냅니다.
+description: 사용자 지정 데이터를 위한 컨테이너를 나타냅니다.
 type: docs
-weight: 2730
+weight: 2750
 url: /ko/aspose.slides/customdata/
 ---
 ## CustomData 클래스
 
-사용자 지정 데이터에 대한 컨테이너를 나타냅니다.
+사용자 지정 데이터를 위한 컨테이너를 나타냅니다.
 
 ```csharp
 public class CustomData : ICustomData
@@ -18,8 +18,8 @@ public class CustomData : ICustomData
 
 | 이름 | 설명 |
 | --- | --- |
-| [CustomXmlParts](../../aspose.slides/customdata/customxmlparts) { get; } | custom xml 파트 컬렉션을 반환합니다. 읽기 전용 [`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
-| [Tags](../../aspose.slides/customdata/tags) { get; } | 고객 데이터 태그 컬렉션을 반환합니다. 읽기 전용 [`ITagCollection`](../itagcollection). |
+| [CustomXmlParts](../../aspose.slides/customdata/customxmlparts) { get; } | custom xml parts 컬렉션을 반환합니다. 읽기 전용 [`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
+| [Tags](../../aspose.slides/customdata/tags) { get; } | Customer Data Tags 컬렉션을 반환합니다. 읽기 전용 [`ITagCollection`](../itagcollection). |
 
 ### 참조
 

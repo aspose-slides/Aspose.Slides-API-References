@@ -1,14 +1,14 @@
 ---
 title: Hide
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Κάνει την ετικέτα δεδομένων κρυφή ορίζοντας όλες τις σημαίες Show-flags ShowValue ... σε κατάσταση false. Το IsVisible θα είναι false μετά από αυτό.
+second_title: Aspose.Sildes για .NET API Reference
+description: Κάντε την ετικέτα δεδομένων κρυφή ορίζοντας όλες τις Show-flags ShowValue ... σε κατάσταση false. Το IsVisible θα είναι false μετά από αυτό.
 type: docs
-weight: 200
+weight: 210
 url: /el/aspose.slides.charts/datalabel/hide/
 ---
 ## DataLabel.Hide μέθοδος
 
-Κάντε την ετικέτα δεδομένων κρυφή ορίζοντας όλες τις σημαίες Show*-flags (ShowValue, ...) σε κατάσταση false. Το IsVisible θα είναι false μετά από αυτό.
+Κάντε την ετικέτα δεδομένων κρυφή ορίζοντας όλες τις Show*-flags (ShowValue, ...) σε κατάσταση false. Το IsVisible θα είναι false μετά από αυτό.
 
 ```csharp
 public void Hide()
@@ -16,9 +16,9 @@ public void Hide()
 
 ### Παρατηρήσεις
 
-Εάν η ετικέτα δεδομένων δεν είναι ορατή (IsVisible είναι false) μπορείτε να κάνετε την ετικέτα δεδομένων ορατή ορίζοντας τις σημαίες Show*-flags (ShowValue, ...) σε κατάσταση true.
+Εάν η ετικέτα δεδομένων δεν είναι ορατή (IsVisible είναι false) μπορείτε να κάνετε την ετικέτα δεδομένων ορατή ορίζοντας τις Show*-flags (ShowValue, ...) σε κατάσταση true.
 
-### Δείτε επίσης
+### Δες επίσης
 
 * κλάση [DataLabel](../../datalabel)
 * χώρο ονομάτων [Aspose.Slides.Charts](../../datalabel)

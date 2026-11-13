@@ -1,9 +1,9 @@
 ---
 title: ParentSeries
 second_title: Aspose.Sildes for .NET API 참조
-description: 상위 차트 시리즈를 반환합니다. 읽기 전용 IChartSeriesaspose.slides.charts/ichartseries.
+description: 부모 차트 시리즈를 반환합니다. 읽기 전용 IChartSeriesaspose.slides.charts/ichartseries.
 type: docs
-weight: 90
+weight: 100
 url: /ko/aspose.slides.charts/idatalabelcollection/parentseries/
 ---
 ## IDataLabelCollection.ParentSeries 속성

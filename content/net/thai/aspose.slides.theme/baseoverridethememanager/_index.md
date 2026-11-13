@@ -1,14 +1,14 @@
 ---
 title: BaseOverrideThemeManager
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: คลาสฐานสำหรับคลาสที่ให้การเข้าถึงธีมที่ถูกแทนที่ประเภทต่าง ๆ
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: คลาสฐานสำหรับคลาสที่ให้การเข้าถึงธีมประเภทต่าง ๆ ที่ถูกแทนที่.
 type: docs
-weight: 11040
+weight: 11060
 url: /th/aspose.slides.theme/baseoverridethememanager/
 ---
 ## BaseOverrideThemeManager คลาส
 
-คลาสฐานสำหรับคลาสที่ให้การเข้าถึงธีมที่ถูกแทนที่ประเภทต่าง ๆ
+คลาสฐานสำหรับคลาสที่ให้การเข้าถึงธีมประเภทต่างๆ ที่ถูกแทนที่
 
 ```csharp
 public abstract class BaseOverrideThemeManager : BaseThemeManager, IOverrideThemeManager
@@ -16,17 +16,17 @@ public abstract class BaseOverrideThemeManager : BaseThemeManager, IOverrideThem
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | กำหนดว่า OverrideTheme จะทำการแทนที่ธีมที่สืบทอดที่มีประสิทธิภาพหรือไม่ เพื่อเปิดใช้งาน OverrideTheme สำหรับการแทนที่ให้ใช้เมธอด OverrideTheme.Init*() เพื่อปิดการใช้งาน OverrideTheme จากการแทนที่ให้ใช้เมธอด OverrideTheme.Clear() อ่านอย่างเดียว Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | ส่งคืนอ็อบเจ็กต์ธีมที่กำลังแทนที่. อ่าน/เขียน [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | กำหนดว่าการ OverrideTheme จะทับธีมที่สืบทอดที่มีประสิทธิภาพหรือไม่ เพื่อเปิดใช้ OverrideTheme สำหรับการทับ ให้ใช้เมธอด OverrideTheme.Init*() เพื่อปิดการ OverrideTheme จากการทับ ให้ใช้เมธอด OverrideTheme.Clear() อ่านอย่างเดียว Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | คืนค่าออบเจ็กต์ธีมที่กำลังทับ. อ่าน/เขียน [`IOverrideTheme`](../ioverridetheme). |
 
 ## เมธอด
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | นำชุดสีเพิ่มเติมไปใช้กับสไลด์ |
-| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | ส่งคืนอ็อบเจ็กต์ธีม |
+| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | นำแผนสีเพิ่มเติมไปใช้กับสไลด์หนึ่ง. |
+| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | คืนค่าออบเจ็กต์ธีม. |
 
 ### ดูเพิ่มเติม
 

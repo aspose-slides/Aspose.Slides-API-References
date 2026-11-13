@@ -1,14 +1,14 @@
 ---
 title: OptionalBlackTransition
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Hiệu ứng chuyển tiếp slide màu đen tùy chọn.
+second_title: Aspose.Sildes cho .NET API Tham chiếu
+description: Hiệu ứng chuyển đổi slide màu đen tùy chọn.
 type: docs
-weight: 10260
+weight: 10280
 url: /vi/aspose.slides.slideshow/optionalblacktransition/
 ---
-## Lớp OptionalBlackTransition
+## OptionalBlackTransition lớp
 
-Hiệu ứng chuyển tiếp slide màu đen tùy chọn.
+Hiệu ứng chuyển đổi slide màu đen tùy chọn.
 
 ```csharp
 public class OptionalBlackTransition : TransitionValueBase, IOptionalBlackTransition
@@ -18,16 +18,16 @@ public class OptionalBlackTransition : TransitionValueBase, IOptionalBlackTransi
 
 | Tên | Mô tả |
 | --- | --- |
-| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | Thuộc tính này xác định liệu chuyển tiếp có bắt đầu từ màn hình đen (và sau đó chuyển slide mới qua màu đen) không. Đọc/ghi Boolean. |
+| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | Thuộc tính này xác định liệu chuyển đổi có bắt đầu từ màn hình đen không (và sau đó chuyển slide mới qua màn đen). Đọc/ghi Boolean. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Xác định liệu hai đối tượng TransitionValueBase có bằng nhau hay không. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Hoạt động như một hàm băm cho một kiểu cụ thể, phù hợp để sử dụng trong các thuật toán băm và cấu trúc dữ liệu như bảng băm. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Xác định xem hai thể hiện TransitionValueBase có bằng nhau hay không. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Đóng vai trò là hàm băm cho một kiểu cụ thể, phù hợp để sử dụng trong các thuật toán băm và cấu trúc dữ liệu như bảng băm. |
 
-### Xem thêm
+### Xem Thêm
 
 * lớp [TransitionValueBase](../transitionvaluebase)
 * giao diện [IOptionalBlackTransition](../ioptionalblacktransition)

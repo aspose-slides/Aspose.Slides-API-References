@@ -1,9 +1,9 @@
 ---
 title: ChartDataCell
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Stellt eine Zelle für Diagrammdaten dar.
 type: docs
-weight: 1320
+weight: 1330
 url: /de/aspose.slides.charts/chartdatacell/
 ---
 ## ChartDataCell Klasse
@@ -16,23 +16,23 @@ public class ChartDataCell : IChartDataCell
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [ChartDataWorksheet](../../aspose.slides.charts/chartdatacell/chartdataworksheet) { get; } | Liest das Arbeitsblatt. Nur-Lesen [`IChartDataWorksheet`](../ichartdataworksheet). |
-| [Column](../../aspose.slides.charts/chartdatacell/column) { get; } | Gibt den Index der Spalte des Arbeitsblatts zurück, in der die Zelle befindet. Nur-Lesen Int32. |
-| [CustomNumberFormat](../../aspose.slides.charts/chartdatacell/customnumberformat) { get; set; } | Liest oder setzt das benutzerdefinierte Anzeigeformat von Zahlen und Datumsangaben. Wenn der Wert leer ist, wird der PresetNumberFormat-Wert verwendet. Lesen/Schreiben String. |
-| [Formula](../../aspose.slides.charts/chartdatacell/formula) { get; set; } | Liest oder setzt die Formel im A1-Stil. |
-| [IsHidden](../../aspose.slides.charts/chartdatacell/ishidden) { get; } | Bestimmt, ob die Zelle ausgeblendet ist. Nur-Lesen Boolean. |
-| [PresetNumberFormat](../../aspose.slides.charts/chartdatacell/presetnumberformat) { get; set; } | Liest oder setzt das integrierte Anzeigeformat von Zahlen und Datumsangaben. Voreingestellte Nummer muss im Bereich [0..22] oder [37..49] liegen. Lesen/Schreiben Byte. |
-| [R1C1Formula](../../aspose.slides.charts/chartdatacell/r1c1formula) { get; set; } | Liest oder setzt die Formel im R1C1-Stil. |
-| [Row](../../aspose.slides.charts/chartdatacell/row) { get; } | Gibt den Index der Zeile des Arbeitsblatts zurück, in der die Zelle befindet. Nur-Lesen Int32. |
-| [Value](../../aspose.slides.charts/chartdatacell/value) { get; set; } | Liest oder setzt den Wert einer Zelle. Lesen/Schreiben Object. |
+| [ChartDataWorksheet](../../aspose.slides.charts/chartdatacell/chartdataworksheet) { get; } | Ruft das Arbeitsblatt ab. Nur lesbar [`IChartDataWorksheet`](../ichartdataworksheet). |
+| [Column](../../aspose.slides.charts/chartdatacell/column) { get; } | Gibt den Index der Spalte des Arbeitsblatts zurück, in der sich die Zelle befindet. Nur lesbar Int32. |
+| [CustomNumberFormat](../../aspose.slides.charts/chartdatacell/customnumberformat) { get; set; } | Ruft das benutzerdefinierte Anzeigeformat von Zahlen und Datumsangaben ab oder legt es fest. Wenn der Wert leer ist, wird der PresetNumberFormat-Wert verwendet. Lese/Schreiben String. |
+| [Formula](../../aspose.slides.charts/chartdatacell/formula) { get; set; } | Ruft die Formel im A1-Stil ab oder legt sie fest. |
+| [IsHidden](../../aspose.slides.charts/chartdatacell/ishidden) { get; } | Ermittelt, ob die Zelle ausgeblendet ist. Nur lesbar Boolean. |
+| [PresetNumberFormat](../../aspose.slides.charts/chartdatacell/presetnumberformat) { get; set; } | Ruft das integrierte Anzeigeformat von Zahlen und Datumsangaben ab oder legt es fest. Vorgabezahl muss in [0..22] oder [37..49] liegen. Lese/Schreiben Byte. |
+| [R1C1Formula](../../aspose.slides.charts/chartdatacell/r1c1formula) { get; set; } | Ruft die Formel im R1C1-Stil ab oder legt sie fest. |
+| [Row](../../aspose.slides.charts/chartdatacell/row) { get; } | Gibt den Index der Zeile des Arbeitsblatts zurück, in der sich die Zelle befindet. Nur lesbar Int32. |
+| [Value](../../aspose.slides.charts/chartdatacell/value) { get; set; } | Ruft den Wert einer Zelle ab oder legt ihn fest. Lese/Schreiben Object. |
 
 ## Methoden
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [Calculate](../../aspose.slides.charts/chartdatacell/calculate)(bool) | Wenn die Zelle eine Formel enthält, wird der Wert anhand dieser Formel aktualisiert. |
+| [Calculate](../../aspose.slides.charts/chartdatacell/calculate)(bool) | Wenn die Zelle eine Formel enthält, wird der Wert basierend auf dieser Formel aktualisiert. |
 
 ### Siehe auch
 

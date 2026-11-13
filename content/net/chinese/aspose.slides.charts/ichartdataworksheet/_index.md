@@ -1,9 +1,9 @@
 ---
 title: IChartDataWorksheet
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示与 IChartDataCell./ichartdatacell 关联的工作表
 type: docs
-weight: 1870
+weight: 1890
 url: /zh/aspose.slides.charts/ichartdataworksheet/
 ---
 ## IChartDataWorksheet 接口

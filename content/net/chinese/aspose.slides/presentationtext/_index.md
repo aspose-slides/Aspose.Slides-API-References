@@ -1,9 +1,9 @@
 ---
 title: PresentationText
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示从演示文稿中提取的文本
 type: docs
-weight: 9640
+weight: 9660
 url: /zh/aspose.slides/presentationtext/
 ---
 ## PresentationText 类

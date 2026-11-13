@@ -1,14 +1,14 @@
 ---
 title: BlackWhiteConversionMode
-second_title: Aspose.Sildes a .NET API referencia
-description: Lehetőségeket biztosít, amelyek szabályozzák, hogyan lesznek a diák képei bitonális képekké konvertálva.
+second_title: Aspose.Sildes .NET API referenciája
+description: Lehetővé teszi a beállításokat, amelyek szabályozzák, hogyan konvertálódnak a diák képei bitonális képekké.
 type: docs
-weight: 3720
+weight: 3740
 url: /hu/aspose.slides.export/blackwhiteconversionmode/
 ---
 ## BlackWhiteConversionMode enumeráció
 
-Lehetővé teszi, hogy meghatározza, miként lesznek a diák képei bitonális képekké konvertálva.
+Lehetővé teszi a beállításokat, amelyek szabályozzák, hogyan konvertálódnak a diák képei bitonális képekké.
 
 ```csharp
 public enum BlackWhiteConversionMode
@@ -18,14 +18,14 @@ public enum BlackWhiteConversionMode
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Default | `0` | Megadja, hogy nincs konverziós algoritmus. A TIFF kodekben megvalósított algoritmus lesz használva. (Default) |
-| Dithering | `1` | Megadja a dithering algoritmust (Floyd-Steinberg). |
-| DitheringFloydSteinberg | `2` | Megadja a Floyd-Steinberg dithering algoritmust. |
-| Auto | `3` | Megadja az automatikusan kiszámított küszöb algoritmust (Otsu). |
-| AutoOtsu | `4` | Megadja az automatikusan kiszámított Otsu küszöb algoritmust. |
-| Threshold25 | `5` | Megadja a statikus küszöb algoritmust (25%). |
-| Threshold50 | `6` | Megadja a statikus küszöb algoritmust (50%). |
-| Threshold75 | `7` | Megadja a statikus küszöb algoritmust (75%). |
+| Default | `0` | Nincs konverzió algoritmus. A TIFF codec-ben megvalósított algoritmus lesz használva. (Alapértelmezett) |
+| Dithering | `1` | A dithering algoritmust (Floyd-Steinberg) adja meg. |
+| DitheringFloydSteinberg | `2` | A Floyd-Steinberg dithering algoritmust adja meg. |
+| Auto | `3` | Az automatikusan kiszámított küszöb algoritmust (Otsu) adja meg. |
+| AutoOtsu | `4` | Az automatikusan kiszámított Otsu küszöb algoritmust adja meg. |
+| Threshold25 | `5` | A statikus küszöb algoritmust (25 %) adja meg. |
+| Threshold50 | `6` | A statikus küszöb algoritmust (50 %) adja meg. |
+| Threshold75 | `7` | A statikus küszöb algoritmust (75 %) adja meg. |
 
 ### Lásd még
 

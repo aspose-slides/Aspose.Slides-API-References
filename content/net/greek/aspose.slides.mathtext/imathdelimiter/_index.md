@@ -1,14 +1,14 @@
 ---
 title: IMathDelimiter
-second_title: Αναφορά API Aspose.Sildes για .NET
-description: Καθορίζει το αντικείμενο οριοθέτη που αποτελείται από ανοιχτούς και κλειστούς χαρακτήρες όπως παρενθέσεις, αγκύλες, αγκίστρα και κατακόρυφες γραμμές, καθώς και ένα ή περισσότερα μαθηματικά στοιχεία μέσα, χωρισμένα με καθορισμένο χαρακτήρα. Παραδείγματα 2 2x7C2
+second_title: Aspose.Sildes για .NET Αναφορά API
+description: Καθορίζει το αντικείμενο οριοθέτη που αποτελείται από χαρακτήρες έναρξης και λήξης όπως παρενθέσεις, άγκιστρα, αγκύλες και κατακόρυφες γραμμές και ένα ή περισσότερα μαθηματικά στοιχεία μέσα, διαχωρισμένα με καθορισμένο χαρακτήρα. Παραδείγματα 2 2x7C2
 type: docs
-weight: 8210
+weight: 8230
 url: /el/aspose.slides.mathtext/imathdelimiter/
 ---
 ## IMathDelimiter διεπαφή
 
-Καθορίζει το αντικείμενο οριοθέτη, που αποτελείται από ανοιχτούς και κλειστούς χαρακτήρες (όπως παρενθέσεις, αγκύλες, αγκίστρα και κατακόρυφες γραμμές), και ένα ή περισσότερα μαθηματικά στοιχεία μέσα, χωρισμένα με έναν καθορισμένο χαρακτήρα. Παραδείγματα: (𝑥2); [𝑥2&#x7C;𝑦2]
+Καθορίζει το αντικείμενο οριοθέτη, που αποτελείται από χαρακτήρες έναρξης και λήξης (όπως παρενθέσεις, άγκιστρα, αγκύλες και κατακόρυφες γραμμές) και ένα ή περισσότερα μαθηματικά στοιχεία μέσα, διαχωρισμένα με καθορισμένο χαρακτήρα. Παραδείγματα: (𝑥2); [𝑥2&#x7C;𝑦2]
 
 ```csharp
 public interface IMathDelimiter : IMathElement
@@ -19,18 +19,18 @@ public interface IMathDelimiter : IMathElement
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [Arguments](../../aspose.slides.mathtext/imathdelimiter/arguments) { get; } | Ένα ή περισσότερα μαθηματικά στοιχεία χωρισμένα με χαρακτήρες οριοθέτη |
-| [AsIMathElement](../../aspose.slides.mathtext/imathdelimiter/asimathelement) { get; } | Επιτρέπει την λήψη της βασικής διεπαφής IMathElement [`IMathElement`](../imathelement) |
-| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | Ο χαρακτήρας έναρξης οριοθέτη καθορίζει τον αρχικό, ή ανοιγόμενο, χαρακτήρα οριοθέτη. Οι μαθηματικοί οριοθέτες είναι χαρακτήρες περικλεισμού όπως παρενθέσεις, αγκύλες και αγκίστρα. Η προεπιλεγμένη τιμή: '('. |
-| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | Καθορίζει το σχήμα των οριοθετών στο αντικείμενο οριοθέτη. Όταν είναι MathDelimiterShape.Centered, οι οριοθέτες κεντρώνονται γύρω από τον μαθηματικό άξονα του κειμένου και προσαρμόζονται ώστε να ταιριάζουν στο πλήρες ύψος του περιεχομένου τους. Όταν είναι MathDelimiterShape.Match, το ύψος και το σχήμα τους τροποποιούνται ώστε να ταιριάζουν ακριβώς με το περιεχόμενό τους. |
-| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | Ο χαρακτήρας λήξης οριοθέτη καθορίζει τον τελικό, ή κλειστό, χαρακτήρα οριοθέτη. Οι μαθηματικοί οριοθέτες είναι χαρακτήρες περικλεισμού όπως παρενθέσεις, αγκύλες και αγκίστρα. Η προεπιλεγμένη τιμή: ')' |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | Καθορίζει την ανάπτυξη των χαρακτήρων BeginningCharacter, SeparatorCharacter, EndingCharacter. Όταν είναι true, οι οριοθέτες μεγαλώνουν κάθετα ώστε να ταιριάζουν με το ύψος του τελεστή τους. Η προεπιλεγμένη τιμή είναι true |
-| [SeparatorCharacter](../../aspose.slides.mathtext/imathdelimiter/separatorcharacter) { get; set; } | Ο χαρακτήρας διαχωριστικού οριοθέτη καθορίζει τον χαρακτήρα που χωρίζει τα ορίσματα στο αντικείμενο οριοθέτη. Η προεπιλεγμένη τιμή: '&#x7C;'. |
+| [AsIMathElement](../../aspose.slides.mathtext/imathdelimiter/asimathelement) { get; } | Επιτρέπει την απόκτηση της βασικής διεπαφής IMathElement [`IMathElement`](../imathelement) |
+| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | Ο χαρακτήρας έναρξης οριοθέτη καθορίζει τον αρχικό, ή ανοικτό, χαρακτήρα οριοθέτη. Οι μαθηματικοί οριοθέτες είναι χαρακτήρες περικλεισίματος όπως παρενθέσεις, αγκύλες και άγκιστρα. Η προεπιλεγμένη τιμή: '('. |
+| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | Καθορίζει το σχήμα των οριοθετών στο αντικείμενο οριοθέτη. Όταν είναι MathDelimiterShape.Centered, οι οριοθέτες κεντρίζονται γύρω από τον άξονα των μαθηματικών κειμένων και μπορούν να προσαρμοστούν ώστε να ταιριάζουν στο πλήρες ύψος του περιεχομένου τους. Όταν είναι MathDelimiterShape.Match, το ύψος και το σχήμα τους τροποποιούνται ώστε να ταιριάζουν ακριβώς με το περιεχόμενό τους. |
+| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | Ο χαρακτήρας λήξης οριοθέτη καθορίζει τον τελικό, ή κλειστό, χαρακτήρα οριοθέτη. Οι μαθηματικοί οριοθέτες είναι χαρακτήρες περικλεισίματος όπως παρενθέσεις, αγκύλες και άγκιστρα. Η προεπιλογή: ')'. |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | Καθορίζει την αύξηση των BeginningCharacter, SeparatorCharacter, EndingCharacter. Όταν είναι true, οι οριοθέτες μεγαλώνουν κάθετα για να ταιριάζουν στο ύψος του τελεστή τους. Η προεπιλεγμένη τιμή είναι true |
+| [SeparatorCharacter](../../aspose.slides.mathtext/imathdelimiter/separatorcharacter) { get; set; } | Ο χαρακτήρας διαχωριστικού οριοθέτη καθορίζει τον χαρακτήρα που διαχωρίζει τα επιχειρήματα στο αντικείμενο οριοθέτη. Η προεπιλογή: '&#x7C;'. |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Delimit](../../aspose.slides.mathtext/imathdelimiter/delimit)(char) | Οριοθετεί τα ορίσματα χρησιμοποιώντας τον καθορισμένο χαρακτήρα οριοθέτη |
+| [Delimit](../../aspose.slides.mathtext/imathdelimiter/delimit)(char) | Οριοθετεί τα επιχειρήματα χρησιμοποιώντας τον καθορισμένο χαρακτήρα οριοθέτη |
 
 ### Παραδείγματα
 

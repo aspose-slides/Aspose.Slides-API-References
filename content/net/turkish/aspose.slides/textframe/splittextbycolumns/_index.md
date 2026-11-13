@@ -1,14 +1,14 @@
 ---
 title: SplitTextByColumns
 second_title: Aspose.Sildes için .NET API Referansı
-description: ITextFrameaspose.slides/itextframe öğesinin metin içeriğini, her bir öğenin çerçeve içinde ayrı bir metin sütununa karşılık geldiği dize dizisine ayırır.
+description: ITextFrameaspose.slides/itextframe öğesinin metin içeriğini, çerçeve içinde ayrı bir metin sütununa karşılık gelen her bir öğenin bir dizi stringe bölerek döndürür.
 type: docs
-weight: 140
+weight: 150
 url: /tr/aspose.slides/textframe/splittextbycolumns/
 ---
-## TextFrame.SplitTextByColumns metot
+## TextFrame.SplitTextByColumns method
 
-[`ITextFrame`](../../itextframe) öğesinin metin içeriğini dize dizisine ayırır, her öğe çerçeve içindeki ayrı bir metin sütununa karşılık gelir.
+[`ITextFrame`](../../itextframe) öğesinin metin içeriğini, çerçeve içinde ayrı bir metin sütununa karşılık gelen her bir öğenin bir dizi stringe bölerek döndürür.
 
 ```csharp
 public string[] SplitTextByColumns()
@@ -16,15 +16,15 @@ public string[] SplitTextByColumns()
 
 ### Dönüş Değeri
 
-[`ITextFrame`](../../itextframe) içinde belirli bir sütunun metin içeriğini temsil eden dizelerden oluşan bir dizi.
+[`ITextFrame`](../../itextframe) içinde belirli bir sütunun metin içeriğini temsil eden her bir string'i içeren bir dizi.
 
 ### Açıklamalar
 
-Metin çerçevesi birden fazla sütun içermiyorsa, döndürülen dizi tam metni içeren tek bir öğeye sahip olur. Boş sütunlar dizide boş dizelerle temsil edilir.
+Metin çerçevesi birden çok sütun içermiyorsa, döndürülen dizi tam metni içeren tek bir öğeye sahip olacaktır. Boş sütunlar dizide boş stringler olarak temsil edilecektir.
 
 ### Örnekler
 
-Aşağıdaki örnek `SplitTextByColumns` yönteminin nasıl kullanılacağını gösterir:
+Aşağıdaki örnek, `SplitTextByColumns` yönteminin nasıl kullanılacağını gösterir:
 
 ```csharp
 using (Presentation pres = new Presentation("example.pptx"))
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation("example.pptx"))
 }
 ```
 
-### Bakınız
+### Ayrıca Bakınız
 
 * sınıf [TextFrame](../../textframe)
 * ad alanı [Aspose.Slides](../../textframe)

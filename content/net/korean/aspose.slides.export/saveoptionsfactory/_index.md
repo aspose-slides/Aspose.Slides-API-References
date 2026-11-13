@@ -1,9 +1,9 @@
 ---
 title: SaveOptionsFactory
-second_title: Aspose.Sildes .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 저장 옵션 인스턴스를 생성할 수 있습니다
 type: docs
-weight: 4460
+weight: 4480
 url: /ko/aspose.slides.export/saveoptionsfactory/
 ---
 ## SaveOptionsFactory 클래스
@@ -18,7 +18,7 @@ public class SaveOptionsFactory : ISaveOptionsFactory
 
 | 이름 | 설명 |
 | --- | --- |
-| [SaveOptionsFactory](saveoptionsfactory)() | 기본 생성자. |
+| [SaveOptionsFactory](saveoptionsfactory)() | 기본 생성자입니다. |
 
 ## 메서드
 
@@ -30,7 +30,7 @@ public class SaveOptionsFactory : ISaveOptionsFactory
 
 COM 호환성을 위해.
 
-### 참고
+### 참조
 
 * 인터페이스 [ISaveOptionsFactory](../isaveoptionsfactory)
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)

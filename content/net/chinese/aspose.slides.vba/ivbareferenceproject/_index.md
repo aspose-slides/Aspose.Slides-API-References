@@ -1,9 +1,9 @@
 ---
 title: IVbaReferenceProject
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示对外部 VBA 项目的引用。
 type: docs
-weight: 11620
+weight: 11640
 url: /zh/aspose.slides.vba/ivbareferenceproject/
 ---
 ## IVbaReferenceProject 接口

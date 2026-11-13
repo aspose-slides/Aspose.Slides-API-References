@@ -1,14 +1,14 @@
 ---
 title: TextExtractionArrangingMode
-second_title: Aspose.Sildes for .NET API hivatkozás
-description: A szövegkinyerés során használandó módot jelöli
+second_title: Aspose.Sildes .NET API referencia
+description: A szövegkinyerés során használható mód
 type: docs
-weight: 10940
+weight: 10960
 url: /hu/aspose.slides/textextractionarrangingmode/
 ---
-## TextExtractionArrangingMode enumeráció
+## TextExtractionArrangingMode felsorolás
 
-A szövegkinyerés során használandó módot képviseli
+A szövegkinyerés során használható módot jelöli
 
 ```csharp
 public enum TextExtractionArrangingMode
@@ -18,8 +18,8 @@ public enum TextExtractionArrangingMode
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Unarranged | `0` | A nyers szöveg, amely nem veszi figyelembe a dia helyzetét |
-| Arranged | `1` | A szöveg ugyanabban a sorrendben van elhelyezve, mint a dián |
+| Unarranged | `0` | A nyers szöveg, amely nem veszi figyelembe a dián lévő pozíciót |
+| Arranged | `1` | A szöveg a dián lévő sorrendnek megfelelően helyezkedik el |
 
 ### Lásd még
 

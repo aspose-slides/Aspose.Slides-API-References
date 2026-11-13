@@ -1,14 +1,14 @@
 ---
 title: WebDocumentOptions
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Reprezentuje zestaw opcji dla zapisywania WebDocument./webdocument.
+second_title: Aspose.Sildes dla .NET API Reference
+description: Reprezentuje zestaw opcji dla zapisu WebDocument./webdocument.
 type: docs
-weight: 4690
+weight: 4710
 url: /pl/aspose.slides.export.web/webdocumentoptions/
 ---
 ## WebDocumentOptions klasa
 
-Reprezentuje zestaw opcji dla [`WebDocument`](../webdocument) zapisywania.
+Reprezentuje zestaw opcji dla zapisu [`WebDocument`](../webdocument).
 
 ```csharp
 public class WebDocumentOptions
@@ -27,7 +27,7 @@ public class WebDocumentOptions
 | [AnimateShapes](../../aspose.slides.export.web/webdocumentoptions/animateshapes) { get; set; } | Zwraca lub ustawia opcję animacji kształtów. Odczyt/zapis Boolean. |
 | [AnimateTransitions](../../aspose.slides.export.web/webdocumentoptions/animatetransitions) { get; set; } | Zwraca lub ustawia opcję animacji przejść. Odczyt/zapis Boolean. |
 | [EmbedImages](../../aspose.slides.export.web/webdocumentoptions/embedimages) { get; set; } | Zwraca lub ustawia opcję osadzania obrazów. Odczyt/zapis Boolean. |
-| [OutputSaver](../../aspose.slides.export.web/webdocumentoptions/outputsaver) { get; set; } | Zwraca lub ustawia zapis wyjściowy. Odczyt/zapis [`IOutputSaver`](../ioutputsaver). |
+| [OutputSaver](../../aspose.slides.export.web/webdocumentoptions/outputsaver) { get; set; } | Zwraca lub ustawia zapisywacz wyjścia. Odczyt/zapis [`IOutputSaver`](../ioutputsaver). |
 | [TemplateEngine](../../aspose.slides.export.web/webdocumentoptions/templateengine) { get; set; } | Zwraca lub ustawia silnik szablonów. Odczyt/zapis [`ITemplateEngine`](../itemplateengine). |
 
 ### Zobacz także

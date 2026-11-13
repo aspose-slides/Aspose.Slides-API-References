@@ -1,12 +1,12 @@
 ---
 title: RemoveUnusedLayoutSlides
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Kullanılmayan düzen slaytlarını kaldırarak Presentationaspose.slides/presentation sıkıştırmasını gerçekleştirir.
 type: docs
-weight: 20
+weight: 40
 url: /tr/aspose.slides.lowcode/compress/removeunusedlayoutslides/
 ---
-## Compress.RemoveUnusedLayoutSlides yöntemi
+## Compress.RemoveUnusedLayoutSlides metod
 
 Kullanılmayan düzen slaytlarını kaldırarak [`Presentation`](../../../aspose.slides/presentation) sıkıştırmasını gerçekleştirir.
 

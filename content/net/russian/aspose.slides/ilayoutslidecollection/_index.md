@@ -1,14 +1,14 @@
 ---
 title: ILayoutSlideCollection
-second_title: Aspose.Sildes для .NET справочник API
-description: Представляет базовый класс для коллекции макетных слайдов.
+second_title: Aspose.Sildes для .NET API справка
+description: Представляет базовый класс для коллекции слайдов макета.
 type: docs
-weight: 6230
+weight: 6250
 url: /ru/aspose.slides/ilayoutslidecollection/
 ---
 ## ILayoutSlideCollection интерфейс
 
-Представляет базовый класс для коллекции макетных слайдов.
+Представляет базовый класс для коллекции слайдов макета.
 
 ```csharp
 public interface ILayoutSlideCollection : IGenericCollection<ILayoutSlide>
@@ -18,15 +18,15 @@ public interface ILayoutSlideCollection : IGenericCollection<ILayoutSlide>
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides/ilayoutslidecollection/item) { get; } | Возвращает макетный слайд по индексу. Только для чтения [`ILayoutSlide`](../ilayoutslide). |
+| [Item](../../aspose.slides/ilayoutslidecollection/item) { get; } | Возвращает слайд макета по индексу. Только для чтения [`ILayoutSlide`](../ilayoutslide). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetByType](../../aspose.slides/ilayoutslidecollection/getbytype)(SlideLayoutType) | Возвращает первый макетный слайд указанного типа. |
+| [GetByType](../../aspose.slides/ilayoutslidecollection/getbytype)(SlideLayoutType) | Возвращает первый слайд макета указанного типа. |
 | [Remove](../../aspose.slides/ilayoutslidecollection/remove)(ILayoutSlide) | Удаляет макет из коллекции. |
-| [RemoveUnused](../../aspose.slides/ilayoutslidecollection/removeunused)() | Удаляет неиспользуемые макетные слайды (макетные слайды, у которых HasDependingSlides равно false). |
+| [RemoveUnused](../../aspose.slides/ilayoutslidecollection/removeunused)() | Удаляет неиспользуемые слайды макета (слайды макета, у которых HasDependingSlides равно false). |
 
 ### См. также
 

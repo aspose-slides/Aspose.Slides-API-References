@@ -1,9 +1,9 @@
 ---
 title: TagCollection
-second_title: Aspose.Sildes para la referencia de API de .NET
+second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Representa la colección de etiquetas (pares de cadenas definidos por el usuario)
 type: docs
-weight: 10890
+weight: 10910
 url: /es/aspose.slides/tagcollection/
 ---
 ## TagCollection clase
@@ -18,10 +18,10 @@ public sealed class TagCollection : ITagCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/tagcollection/count) { get; } | Devuelve un número de etiquetas en la colección. Solo lectura Int32. |
+| [Count](../../aspose.slides/tagcollection/count) { get; } | Devuelve un número de etiquetas en la collectoin. Solo lectura Int32. |
 | [IsSynchronized](../../aspose.slides/tagcollection/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (thread-safe). Solo lectura Boolean. |
 | [Item](../../aspose.slides/tagcollection/item) { get; set; } | Devuelve o establece un par clave y valor de una etiqueta. |
-| [SyncRoot](../../aspose.slides/tagcollection/syncroot) { get; } | Devuelve la raíz de sincronización. Solo lectura Object. |
+| [SyncRoot](../../aspose.slides/tagcollection/syncroot) { get; } | Devuelve una raíz de sincronización. Solo lectura Object. |
 
 ## Métodos
 

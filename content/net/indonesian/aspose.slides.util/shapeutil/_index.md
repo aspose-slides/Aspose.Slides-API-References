@@ -1,14 +1,14 @@
 ---
 title: ShapeUtil
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Menawarkan metode yang membantu memproses objek bentuk.
+description: Menawarkan metode yang membantu memproses objek shape.
 type: docs
-weight: 11510
+weight: 11530
 url: /id/aspose.slides.util/shapeutil/
 ---
 ## ShapeUtil kelas
 
-Menawarkan metode yang membantu memproses objek bentuk.
+Menawarkan metode yang membantu memproses objek shape.
 
 ```csharp
 public static class ShapeUtil

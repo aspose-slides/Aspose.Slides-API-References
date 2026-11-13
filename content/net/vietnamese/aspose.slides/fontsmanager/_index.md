@@ -1,14 +1,14 @@
 ---
 title: FontsManager
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Quản lý phông chữ trên toàn bộ bản trình chiếu.
+description: Quản lý phông chữ trong toàn bộ bản trình bày.
 type: docs
-weight: 4940
+weight: 4960
 url: /vi/aspose.slides/fontsmanager/
 ---
-## FontsManager lớp
+## Lớp FontsManager
 
-Quản lý phông chữ trong toàn bộ bản trình chiếu.
+Quản lý phông chữ trong toàn bộ bản trình bày.
 
 ```csharp
 public class FontsManager : IFontsManager
@@ -18,36 +18,37 @@ public class FontsManager : IFontsManager
 
 | Tên | Mô tả |
 | --- | --- |
-| [FontFallBackRulesCollection](../../aspose.slides/fontsmanager/fontfallbackrulescollection) { get; set; } | Đại diện cho bộ sưu tập các quy tắc FontFallBack của người dùng để quản lý các bộ sưu tập phông chữ nhằm thực hiện việc thay thế hợp lý thông qua chức năng fallback Đọc/ghi [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
-| [FontSubstRuleList](../../aspose.slides/fontsmanager/fontsubstrulelist) { get; set; } | Các bản thay thế phông chữ để sử dụng khi render. Đọc/ghi [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
+| [FontFallBackRulesCollection](../../aspose.slides/fontsmanager/fontfallbackrulescollection) { get; set; } | Đại diện cho bộ sưu tập các quy tắc FontFallBack của người dùng để quản lý các bộ phông cho việc thay thế thích hợp bằng chức năng fallback. Đọc/ghi [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
+| [FontSubstRuleList](../../aspose.slides/fontsmanager/fontsubstrulelist) { get; set; } | Các thay thế phông chữ sẽ được sử dụng khi render. Đọc/ghi [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
+| [PreferRegisteredFontsOverEmbedded](../../aspose.slides/fontsmanager/preferregisteredfontsoverembedded) { get; set; } | Xác định xem phông chữ đã đăng ký có nên được ưu tiên hơn phông chữ nhúng có cùng tên và kiểu không. Khi bật, các phông chữ nhúng phù hợp sẽ tạm thời được thay thế bằng các phông chữ đã đăng ký tương ứng trong quá trình xuất. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | Thêm phông chữ đã nhúng. Hãy nhớ rằng khi sao chép bất kỳ phông chữ nào, hầu hết các phông chữ đều được bảo vệ bản quyền. Trước tiên, hãy xác định giấy phép của phông chữ và xác minh chúng có thể được chuyển sang máy khác một cách tự do. Một ArgumentException có thể được ném ra nếu dữ liệu phông chữ là null hoặc phông chữ này đã được nhúng. |
-| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | Thêm phông chữ đã nhúng. Hãy nhớ rằng khi sao chép bất kỳ phông chữ nào, hầu hết các phông chữ đều được bảo vệ bản quyền. Trước tiên, hãy xác định giấy phép của phông chữ và xác minh chúng có thể được chuyển sang máy khác một cách tự do. Một ArgumentException có thể được ném ra nếu dữ liệu phông chữ là null hoặc phông chữ này đã được nhúng. |
-| [GetEmbeddedFonts](../../aspose.slides/fontsmanager/getembeddedfonts)() | Trả về các phông chữ đã được nhúng trong bản trình chiếu |
-| [GetFontBytes](../../aspose.slides/fontsmanager/getfontbytes)(IFontData, FontStyleType) | Lấy mảng byte đại diện cho dữ liệu phông chữ cho kiểu phông chữ và dữ liệu phông chữ được chỉ định. |
+| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | Thêm phông chữ nhúng. Hãy nhớ rằng khi sao chép bất kỳ phông chữ nào, hầu hết phông chữ đều có bản quyền. Trước tiên, hãy xác định giấy phép của phông chữ và xác minh chúng có thể được chuyển giao tự do sang máy khác. Một ArgumentException có thể được ném ra nếu dữ liệu phông chữ là null hoặc phông chữ này đã được nhúng |
+| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | Thêm phông chữ nhúng. Hãy nhớ rằng khi sao chép bất kỳ phông chữ nào, hầu hết phông chữ đều có bản quyền. Trước tiên, hãy xác định giấy phép của phông chữ và xác minh chúng có thể được chuyển giao tự do sang máy khác. Một ArgumentException có thể được ném ra nếu dữ liệu phông chữ là null hoặc phông chữ này đã được nhúng |
+| [GetEmbeddedFonts](../../aspose.slides/fontsmanager/getembeddedfonts)() | Trả về các phông chữ đã được nhúng trong bản trình bày |
+| [GetFontBytes](../../aspose.slides/fontsmanager/getfontbytes)(IFontData, FontStyleType) | Lấy mảng byte đại diện cho dữ liệu phông chữ cho một kiểu phông chữ và dữ liệu phông chữ đã chỉ định. |
 | [GetFontEmbeddingLevel](../../aspose.slides/fontsmanager/getfontembeddinglevel)(byte[], string) | Xác định mức độ nhúng của một phông chữ từ mảng byte và tên phông chữ đã cho. |
-| [GetFonts](../../aspose.slides/fontsmanager/getfonts)() | Trả về các phông chữ được sử dụng trong bản trình chiếu |
-| [GetSubstitutions](../../aspose.slides/fontsmanager/getsubstitutions#getsubstitutions)() | Lấy thông tin về các phông chữ sẽ được thay thế khi render bản trình chiếu. |
-| [GetSubstitutions](../../aspose.slides/fontsmanager/getsubstitutions#getsubstitutions_1)(int[]) | Lấy thông tin về các phông chữ sẽ được thay thế trong quá trình render các slide đã chỉ định. |
-| [RemoveEmbeddedFont](../../aspose.slides/fontsmanager/removeembeddedfont)(IFontData) | Xóa phông chữ đã nhúng. |
-| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_1)(IFontSubstRule) | Thay thế phông chữ trong bản trình chiếu bằng thông tin được cung cấp trong [`FontSubstRule`](../fontsubstrule) |
-| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | Thay thế phông chữ trong bản trình chiếu bằng thông tin được cung cấp trong bộ sưu tập [`FontSubstRule`](../fontsubstrule) |
-| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont)(IFontData, IFontData) | Thay thế phông chữ trong bản trình chiếu |
+| [GetFonts](../../aspose.slides/fontsmanager/getfonts)() | Trả về các phông chữ được sử dụng trong bản trình bày |
+| [GetSubstitutions](../../aspose.slides/fontsmanager/getsubstitutions#getsubstitutions)() | Lấy thông tin về các phông chữ sẽ được thay thế trong quá trình render của bản trình bày. |
+| [GetSubstitutions](../../aspose.slides/fontsmanager/getsubstitutions#getsubstitutions_1)(int[]) | Lấy thông tin về các phông chữ sẽ được thay thế trong quá trình render các slide được chỉ định. |
+| [RemoveEmbeddedFont](../../aspose.slides/fontsmanager/removeembeddedfont)(IFontData) | Xóa phông chữ đã nhúng |
+| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_1)(IFontSubstRule) | Thay thế phông chữ trong bản trình bày bằng thông tin được cung cấp trong [`FontSubstRule`](../fontsubstrule) |
+| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | Thay thế phông chữ trong bản trình bày bằng thông tin được cung cấp trong bộ sưu tập của [`FontSubstRule`](../fontsubstrule) |
+| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont)(IFontData, IFontData) | Thay thế phông chữ trong bản trình bày |
 
 ### Ví dụ
 
-Ví dụ sau minh họa cách thêm phông chữ được nhúng vào Bản trình chiếu PowerPoint.
+Ví dụ sau đây cho thấy cách thêm phông chữ nhúng vào PowerPoint Presentation.
 
 ```csharp
 [C#]
-// Tải bản trình chiếu
+// Tải bản trình bày
 using (Presentation presentation = new Presentation("Fonts.pptx"))
 {
-	// Tải phông chữ nguồn sẽ được thay thế
+	// Tải phông nguồn để thay thế
 	IFontData sourceFont = new FontData("Arial");
 	IFontData[] allFonts = presentation.FontsManager.GetFonts();
 	IFontData[] embeddedFonts = presentation.FontsManager.GetEmbeddedFonts();
@@ -58,12 +59,12 @@ using (Presentation presentation = new Presentation("Fonts.pptx"))
 			presentation.FontsManager.AddEmbeddedFont(font, EmbedFontCharacters.All);
 		}
 	}
-	// Lưu bản trình chiếu
+	// Lưu bản trình bày
 	presentation.Save("AddEmbeddedFont_out.pptx", SaveFormat.Pptx);
 }
 ```
 
-### Xem thêm
+### Xem Thêm
 
 * giao diện [IFontsManager](../ifontsmanager)
 * không gian tên [Aspose.Slides](../../aspose.slides)

@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeiling
 second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایانگر یک اثر Alpha Ceiling است. مقادیر شفافیت Alpha بزرگتر از صفر به ۱۰۰ تغییر می‌یابند. به عبارت دیگر هر چیزی که جزئی شفاف باشد، کاملاً شفاف می‌شود.
+description: نمایانگر یک اثر Alpha Ceiling است. مقادیر شفافیت Alpha بزرگ‌تر از صفر به 100 تغییر می‌یابند. به عبارت دیگر، هر چیزی که به‌طور جزئی شفاف باشد، به‌صورت کامل شفاف می‌شود.
 type: docs
-weight: 3040
+weight: 3060
 url: /fa/aspose.slides.effects/ialphaceiling/
 ---
-## IAlphaCeiling رابط
+## رابط IAlphaCeiling
 
-نمایانگر یک اثر Alpha Ceiling است. مقادیر Alpha (شفافیت) بزرگتر از صفر به ۱۰۰٪ تبدیل می‌شوند. به عبارت دیگر، هر چیزی که جزئی شفاف باشد، کاملاً شفاف می‌شود.
+نمایانگر یک اثر Alpha Ceiling است. مقادیر Alpha (شفافیت) بزرگ‌تر از صفر به 100٪ تغییر می‌کنند. به عبارت دیگر، هر چیزی که به‌طور جزئی شفاف باشد، به‌صورت کامل شفاف می‌شود.
 
 ```csharp
 public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData
 
 | نام | توضیح |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphaceiling/asiaccessiblepviobject) { get; } | اجازه می‌دهد تا رابط IAccessiblePVIObject پایه را دریافت کند. فقط-خواندنی [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphaceiling/asiimagetransformoperation) { get; } | اجازه می‌دهد تا رابط IImageTransformOperationEx پایه را دریافت کند. فقط-خواندنی [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphaceiling/asiaccessiblepviobject) { get; } | به‌دست آوردن رابط پایه IAccessiblePVIObject اجازه می‌دهد. فقط-خواندنی [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphaceiling/asiimagetransformoperation) { get; } | به‌دست آوردن رابط پایه IImageTransformOperationEx اجازه می‌دهد. فقط-خواندنی [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### موارد مرتبط
 

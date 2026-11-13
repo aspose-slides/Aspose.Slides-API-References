@@ -3,7 +3,7 @@ title: Save
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Slaat alle dia's van een presentatie op in een bestand met het opgegeven formaat.
 type: docs
-weight: 380
+weight: 390
 url: /nl/aspose.slides/ipresentation/save/
 ---
 ## Save(string, SaveFormat) {#save_5}
@@ -38,7 +38,7 @@ public void Save(Stream stream, SaveFormat format)
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| stream | Stream | Output stream. |
+| stream | Stream | Uitvoerstroom. |
 | format | SaveFormat | Formaat van de geëxporteerde gegevens. |
 
 ### Zie ook
@@ -62,7 +62,7 @@ public void Save(string fname, SaveFormat format, ISaveOptions options)
 | --- | --- | --- |
 | fname | String | Pad naar het aangemaakte bestand. |
 | format | SaveFormat | Formaat van de geëxporteerde gegevens. |
-| options | ISaveOptions | Extra formaatopties. |
+| options | ISaveOptions | Aanvullende formatopties. |
 
 ### Zie ook
 
@@ -84,15 +84,15 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| stream | Stream | Output stream. |
+| stream | Stream | Uitvoerstroom. |
 | format | SaveFormat | Formaat van de geëxporteerde gegevens. |
-| options | ISaveOptions | Extra formaatopties. |
+| options | ISaveOptions | Aanvullende formatopties. |
 
 ### Uitzonderingen
 
-| exceptie | conditie |
+| uitzondering | conditie |
 | --- | --- |
-| NotSupportedException | Wanneer u probeert een versleuteld bestand op te slaan in een formaat dat geen Office 2007-2010 is |
+| NotSupportedException | Als u probeert een versleuteld bestand op te slaan in een niet-Office 2007-2010 formaat |
 
 ### Zie ook
 
@@ -120,11 +120,11 @@ public void Save(string fname, int[] slides, SaveFormat format)
 
 ### Uitzonderingen
 
-| exceptie | conditie |
+| uitzondering | conditie |
 | --- | --- |
 | ArgumentNullException | Wanneer de stream- of slides-parameter null is. |
 | ArgumentOutOfRangeException | Wanneer de slides-parameter onjuiste paginanummers bevat. |
-| InvalidOperationException | Wanneer een niet-ondersteund SaveFormat wordt gebruikt, bijv. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| InvalidOperationException | Wanneer een niet-ondersteund SaveFormat wordt gebruikt, bv. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### Zie ook
 
@@ -148,15 +148,15 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 | fname | String | Pad naar het aangemaakte bestand. |
 | slides | Int32[] | Array met dia-posities, beginnend bij 1. |
 | format | SaveFormat | Formaat van de geëxporteerde gegevens. |
-| options | ISaveOptions | Extra formaatopties. |
+| options | ISaveOptions | Aanvullende formatopties. |
 
 ### Uitzonderingen
 
-| exceptie | conditie |
+| uitzondering | conditie |
 | --- | --- |
 | ArgumentNullException | Wanneer de stream- of slides-parameter null is. |
 | ArgumentOutOfRangeException | Wanneer de slides-parameter onjuiste paginanummers bevat. |
-| InvalidOperationException | Wanneer een niet-ondersteund SaveFormat wordt gebruikt, bijv. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| InvalidOperationException | Wanneer een niet-ondersteund SaveFormat wordt gebruikt, bv. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### Zie ook
 
@@ -178,17 +178,17 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| stream | Stream | Output stream. |
+| stream | Stream | Uitvoerstroom. |
 | slides | Int32[] | Array met dia-posities, beginnend bij 1. |
 | format | SaveFormat | Formaat van de geëxporteerde gegevens. |
 
 ### Uitzonderingen
 
-| exceptie | conditie |
+| uitzondering | conditie |
 | --- | --- |
 | ArgumentNullException | Wanneer de stream- of slides-parameter null is. |
 | ArgumentOutOfRangeException | Wanneer de slides-parameter onjuiste paginanummers bevat. |
-| InvalidOperationException | Wanneer een niet-ondersteund SaveFormat wordt gebruikt, bijv. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| InvalidOperationException | Wanneer een niet-ondersteund SaveFormat wordt gebruikt, bv. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### Zie ook
 
@@ -209,18 +209,18 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| stream | Stream | Output stream. |
+| stream | Stream | Uitvoerstroom. |
 | slides | Int32[] | Array met dia-posities, beginnend bij 1. |
 | format | SaveFormat | Formaat van de geëxporteerde gegevens. |
-| options | ISaveOptions | Extra formaatopties. |
+| options | ISaveOptions | Aanvullende formatopties. |
 
 ### Uitzonderingen
 
-| exceptie | conditie |
+| uitzondering | conditie |
 | --- | --- |
 | ArgumentNullException | Wanneer de stream- of slides-parameter null is. |
 | ArgumentOutOfRangeException | Wanneer de slides-parameter onjuiste paginanummers bevat. |
-| InvalidOperationException | Wanneer een niet-ondersteund SaveFormat wordt gebruikt, bijv. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| InvalidOperationException | Wanneer een niet-ondersteund SaveFormat wordt gebruikt, bv. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### Zie ook
 
@@ -234,7 +234,7 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 
 ## Save(IXamlOptions) {#save}
 
-Slaat alle dia's van een presentatie op in een reeks bestanden die XAML-markup weergeven.
+Slaat alle dia's van een presentatie op in een set bestanden die XAML-markup vertegenwoordigen.
 
 ```csharp
 public void Save(IXamlOptions options)
@@ -242,7 +242,7 @@ public void Save(IXamlOptions options)
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| options | IXamlOptions | De XAML-formaatopties. |
+| options | IXamlOptions | De XAML-formatopties. |
 
 ### Voorbeelden
 

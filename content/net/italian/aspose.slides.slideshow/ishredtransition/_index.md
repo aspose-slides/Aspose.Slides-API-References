@@ -1,14 +1,14 @@
 ---
 title: IShredTransition
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Effetto di transizione della diapositiva a strappo.
+description: Effetto di transizione a strappo della diapositiva.
 type: docs
-weight: 10180
+weight: 10200
 url: /it/aspose.slides.slideshow/ishredtransition/
 ---
 ## IShredTransition interfaccia
 
-Effetto di transizione della diapositiva a strappo.
+Effetto di transizione a strappo della diapositiva.
 
 ```csharp
 public interface IShredTransition : ITransitionValueBase
@@ -20,7 +20,7 @@ public interface IShredTransition : ITransitionValueBase
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/ishredtransition/asitransitionvaluebase) { get; } | Consente di ottenere l'interfaccia base ITransitionValueBase. Solo lettura [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/ishredtransition/direction) { get; set; } | Direzione della transizione. Lettura/scrittura [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/ishredtransition/pattern) { get; set; } | Specifica la forma delle visualizzazioni utilizzate durante la transizione. Lettura/scrittura [`TransitionShredPattern`](../transitionshredpattern). |
+| [Pattern](../../aspose.slides.slideshow/ishredtransition/pattern) { get; set; } | Specifica la forma degli elementi visivi usati durante la transizione. Lettura/scrittura [`TransitionShredPattern`](../transitionshredpattern). |
 
 ### Vedi anche
 

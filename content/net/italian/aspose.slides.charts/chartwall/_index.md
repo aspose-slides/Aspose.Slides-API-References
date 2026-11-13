@@ -1,14 +1,14 @@
 ---
 title: ChartWall
-second_title: Riferimento API di Aspose.Slides per .NET
-description: Rappresenta i muri sui grafici 3d.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Rappresenta le pareti nei grafici 3d.
 type: docs
-weight: 1520
+weight: 1530
 url: /it/aspose.slides.charts/chartwall/
 ---
 ## ChartWall classe
 
-Rappresenta i muri sui grafici 3d.
+Rappresenta le pareti sui grafici 3d.
 
 ```csharp
 public class ChartWall : DomObject<Chart>, IChartWall

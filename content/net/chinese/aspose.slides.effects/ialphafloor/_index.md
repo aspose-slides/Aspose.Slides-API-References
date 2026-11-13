@@ -1,14 +1,14 @@
 ---
 title: IAlphaFloor
-second_title: Aspose.Sildes .NET API 参考
-description: 表示 Alpha Floor 效果。Alpha 不透明度值小于 100 时会被更改为零。换句话说，任何部分透明的内容都会变为完全透明。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示 Alpha Floor 效果。Alpha 透明度值小于 100 时会被更改为零。换句话说，任何部分透明的对象都会变为完全透明。
 type: docs
-weight: 3060
+weight: 3080
 url: /zh/aspose.slides.effects/ialphafloor/
 ---
 ## IAlphaFloor 接口
 
-表示 Alpha Floor 效果。Alpha（不透明度）值小于 100% 时会被更改为零。换句话说，任何部分透明的内容都会变为完全透明。
+Represents an Alpha Floor effect. Alpha (opacity) values less than 100% are changed to zero. In other words, anything partially transparent becomes fully transparent.
 
 ```csharp
 public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>, 
@@ -19,10 +19,10 @@ public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>,
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphafloor/asiaccessiblepviobject) { get; } | 允许获取基 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphafloor/asiimagetransformoperation) { get; } | 允许获取基 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphafloor/asiaccessiblepviobject) { get; } | Allows to get base IAccessiblePVIObject interface. Read-only [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphafloor/asiimagetransformoperation) { get; } | Allows to get base IImageTransformOperation interface. Read-only [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### 另见
+### 参见
 
 * 接口 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 接口 [IAlphaFloorEffectiveData](../ialphaflooreffectivedata)

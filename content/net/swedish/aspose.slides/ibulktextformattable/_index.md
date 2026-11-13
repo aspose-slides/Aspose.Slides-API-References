@@ -1,14 +1,14 @@
 ---
 title: IBulkTextFormattable
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar ett objekt med möjlighet att massinställa format för underordnade textelement.
+description: Representerar ett objekt med möjlighet att ställa in format för underordnade textelement i bulk.
 type: docs
-weight: 5380
+weight: 5400
 url: /sv/aspose.slides/ibulktextformattable/
 ---
 ## IBulkTextFormattable gränssnitt
 
-Representerar ett objekt som möjliggör massinställning av format för underordnade textelement.
+Representerar ett objekt med möjlighet att ställa in format för underordnade textelement i bulk.
 
 ```csharp
 public interface IBulkTextFormattable
@@ -18,9 +18,9 @@ public interface IBulkTextFormattable
 
 | Namn | Beskrivning |
 | --- | --- |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat)(IParagraphFormat) | Anger de definierade egenskaperna för paragrafformat för alla elementets stycken. |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_1)(IPortionFormat) | Anger de definierade egenskaperna för portionsformat för alla elementets portioner. |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_2)(ITextFrameFormat) | Anger de definierade egenskaperna för textramformat för alla elementets textram. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat)(IParagraphFormat) | Ställer in definierade styckeformatsegenskaper för alla elementets stycken. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_1)(IPortionFormat) | Ställer in definierade delformatsegenskaper för alla elementets delar. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_2)(ITextFrameFormat) | Ställer in definierade textramformatsegenskaper för alla elementets textram. |
 
 ### Se även
 

@@ -3,7 +3,7 @@ title: SlideSizeScaleType
 second_title: Aspose.Sildes for .NET API リファレンス
 description: スライド コンテンツのスケール タイプを表します。
 type: docs
-weight: 10510
+weight: 10530
 url: /ja/aspose.slides/slidesizescaletype/
 ---
 ## SlideSizeScaleType 列挙型

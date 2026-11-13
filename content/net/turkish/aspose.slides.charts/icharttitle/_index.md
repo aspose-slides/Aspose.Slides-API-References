@@ -3,10 +3,10 @@ title: IChartTitle
 second_title: Aspose.Sildes for .NET API Referansı
 description: Grafik başlığı özelliklerini temsil eder.
 type: docs
-weight: 2000
+weight: 2020
 url: /tr/aspose.slides.charts/icharttitle/
 ---
-## IChartTitle arayüzü
+## IChartTitle arayüz
 
 Grafik başlığı özelliklerini temsil eder.
 
@@ -16,14 +16,14 @@ public interface IChartTitle : IActualLayout, ILayoutable, IOverridableText
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
 | [AsILayoutable](../../aspose.slides.charts/icharttitle/asilayoutable) { get; } | Temel ILayoutable arayüzüne erişim sağlar. Salt okunur [`ILayoutable`](../ilayoutable). |
 | [AsIOverridableText](../../aspose.slides.charts/icharttitle/asioverridabletext) { get; } | Temel IOverridableText arayüzüne erişim sağlar. Salt okunur [`IOverridableText`](../ioverridabletext). |
-| [Format](../../aspose.slides.charts/icharttitle/format) { get; } | Bir başlığın dolgu, çizgi ve efekt stillerini döndürür. Salt okunur [`IFormat`](../iformat). |
-| [Overlay](../../aspose.slides.charts/icharttitle/overlay) { get; set; } | Diğer grafik öğelerinin başlıkla çakışmasına izin verilip verilmeyeceğini belirler. Okunur/Yazılabilir Boolean. |
+| [Format](../../aspose.slides.charts/icharttitle/format) { get; } | Bir başlığın doldurma, çizgi ve efekt stillerini döndürür. Salt okunur [`IFormat`](../iformat). |
+| [Overlay](../../aspose.slides.charts/icharttitle/overlay) { get; set; } | Diğer grafik öğelerinin başlığın üzerine örtüşmesine izin verilip verilmeyeceğini belirler. Okuma/Yazma Boolean. |
 
-### Diğer Bağlantılar
+### Diğerlerine Bak
 
 * arayüz [IActualLayout](../iactuallayout)
 * arayüz [ILayoutable](../ilayoutable)

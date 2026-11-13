@@ -1,35 +1,35 @@
 ---
 title: NotesSlideHeaderFooterManager
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Reprezentuje menedżera, który zarządza zachowaniem znaczników slajdu notatek, w tym znacznika nagłówka.
+second_title: Aspose.Sildes dla .NET referencja API
+description: Reprezentuje menedżera, który kontroluje zachowanie znaczników slajdu notatek, w tym znacznika nagłówka.
 type: docs
-weight: 9150
+weight: 9170
 url: /pl/aspose.slides/notesslideheaderfootermanager/
 ---
 ## NotesSlideHeaderFooterManager klasa
 
-Reprezentuje menedżera, który zarządza zachowaniem znaczników notatek slajdu, w tym znacznika nagłówka.
+Reprezentuje menedżer, który zarządza zachowaniem znaczników slajdu notatek, w tym znacznika nagłówka.
 
 ```csharp
 public sealed class NotesSlideHeaderFooterManager : BaseHandoutNotesSlideHeaderFooterManager, 
     INotesSlideHeaderFooterManager
 ```
 
-## Właściwości
+## Properties
 
 | Nazwa | Opis |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Pobiera wartość wskazującą, że znacznik daty-czasu jest obecny. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Pobiera wartość wskazującą, że znacznik stopki jest obecny. Read Boolean. |
-| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Pobiera wartość wskazującą, że znacznik nagłówka jest obecny. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Pobiera wartość wskazującą, że znacznik numeru strony jest obecny. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Zwraca wartość wskazującą, że znacznik daty i czasu jest obecny. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Zwraca wartość wskazującą, że znacznik stopki jest obecny. Read Boolean. |
+| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Zwraca wartość wskazującą, że znacznik nagłówka jest obecny. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Zwraca wartość wskazującą, że znacznik numeru strony jest obecny. ReadBoolean. |
 
-## Metody
+## Methods
 
 | Nazwa | Opis |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Ustawia tekst w znaczniku daty-czasu slajdu. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Zmienia widoczność znacznika daty-czasu slajdu. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Ustawia tekst w znaczniku daty i czasu slajdu. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Zmienia widoczność znacznika daty i czasu slajdu. |
 | [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Ustawia tekst w znaczniku stopki slajdu. |
 | [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Zmienia widoczność znacznika stopki slajdu. |
 | [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Ustawia tekst w znaczniku nagłówka slajdu. |

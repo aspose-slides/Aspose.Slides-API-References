@@ -3,7 +3,7 @@ title: ColumnFormat
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa o formato de uma coluna de tabela.
 type: docs
-weight: 2610
+weight: 2630
 url: /pt/aspose.slides/columnformat/
 ---
 ## ColumnFormat classe

@@ -1,12 +1,12 @@
 ---
 title: LineArrowheadWidth
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: อ้างอิง API Aspose.Sildes สำหรับ .NET
 description: แสดงถึงความกว้างของหัวลูกศร.
 type: docs
-weight: 7750
+weight: 7770
 url: /th/aspose.slides/linearrowheadwidth/
 ---
-## LineArrowheadWidth enumeration
+## LineArrowheadWidth ชนิด enum
 
 แสดงถึงความกว้างของหัวลูกศร.
 

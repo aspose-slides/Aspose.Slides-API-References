@@ -1,14 +1,14 @@
 ---
 title: IMasterNotesSlideManager
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Gestore delle diapositive master delle note.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Gestore delle diapositive di note master.
 type: docs
-weight: 6410
+weight: 6430
 url: /it/aspose.slides/imasternotesslidemanager/
 ---
 ## IMasterNotesSlideManager interfaccia
 
-Gestore delle diapositive master delle note.
+Gestore delle diapositive di note master.
 
 ```csharp
 public interface IMasterNotesSlideManager
@@ -16,16 +16,16 @@ public interface IMasterNotesSlideManager
 
 ## Proprietà
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
-| [MasterNotesSlide](../../aspose.slides/imasternotesslidemanager/masternotesslide) { get; } | Restituisce un master per tutte le diapositive note di questa presentazione se esiste, altrimenti restituisce null. Sola lettura [`IMasterNotesSlide`](../imasternotesslide). |
+| [MasterNotesSlide](../../aspose.slides/imasternotesslidemanager/masternotesslide) { get; } | Restituisce un master per tutte le diapositive di note di questa presentazione se esiste, altrimenti restituisce null. Solo lettura [`IMasterNotesSlide`](../imasternotesslide). |
 
 ## Metodi
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
-| [RemoveMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/removemasternotesslide)() | Rimuove la diapositiva master delle note. |
-| [SetDefaultMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide)() | Imposta la diapositiva master delle note predefinita per la diapositiva note correlata. |
+| [RemoveMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/removemasternotesslide)() | Rimuove la diapositiva di note master. |
+| [SetDefaultMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide)() | Imposta la diapositiva di note master predefinita per la diapositiva di note correlata. |
 
 ### Vedi anche
 

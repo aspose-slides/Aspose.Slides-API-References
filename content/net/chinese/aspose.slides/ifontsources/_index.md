@@ -1,9 +1,9 @@
 ---
 title: IFontSources
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 提供外部字体的文件和内存来源。
 type: docs
-weight: 5870
+weight: 5890
 url: /zh/aspose.slides/ifontsources/
 ---
 ## IFontSources 接口
@@ -19,9 +19,9 @@ public interface IFontSources
 | 名称 | 描述 |
 | --- | --- |
 | [FontFolders](../../aspose.slides/ifontsources/fontfolders) { get; set; } | 包含字体文件的文件夹。位于这些文件夹中的所有字体文件都包含在集合中。递归搜索的文件夹。 |
-| [MemoryFonts](../../aspose.slides/ifontsources/memoryfonts) { get; set; } | 以字节数组形式表示的字体集合。 |
+| [MemoryFonts](../../aspose.slides/ifontsources/memoryfonts) { get; set; } | 以字节数组表示的字体集合。 |
 
-### 另请参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

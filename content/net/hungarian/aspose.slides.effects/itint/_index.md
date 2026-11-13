@@ -1,9 +1,9 @@
 ---
 title: ITint
-second_title: Aspose.Sildes .NET API referencia
-description: Tint effektust képvisel. Az effektus színértékeit a megadott mennyiség szerint a színárnyalathoz közelíti vagy távolítja.
+second_title: Aspose.Sildes .NET API Referenciája
+description: Egy Tint effektust reprezentál. Az effektus színértékeit a megadott mennyiség szerint a színárnyalattól eltolja vagy elközelíti.
 type: docs
-weight: 3540
+weight: 3560
 url: /hu/aspose.slides.effects/itint/
 ---
 ## ITint interfész
@@ -18,8 +18,8 @@ public interface ITint : IAccessiblePVIObject<ITintEffectiveData>, IImageTransfo
 
 | Név | Leírás |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/itint/asiaccessiblepviobject) { get; } | Lehetővé teszi az alap IAccessiblePVIObject interfész lekérését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/itint/asiimagetransformoperation) { get; } | Lehetővé teszi az alap IImageTransformOperation interfész lekérését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/itint/asiaccessiblepviobject) { get; } | Lehetővé teszi a(z) IAccessiblePVIObject interfész elérését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/itint/asiimagetransformoperation) { get; } | Lehetővé teszi a(z) IImageTransformOperation interfész elérését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Lásd még
 

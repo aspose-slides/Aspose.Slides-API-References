@@ -3,12 +3,10 @@ title: AlphaModulateFixed
 second_title: Aspose.Sildes для .NET справочник API
 description: Представляет эффект Alpha Modulate Fixed. Значения альфа-прозрачности эффекта умножаются на фиксированный процент.
 type: docs
-weight: 2890
+weight: 2910
 url: /ru/aspose.slides.effects/alphamodulatefixed/
 ---
 ## AlphaModulateFixed класс
-
-Represents an Alpha Modulate Fixed effect. Effect alpha (opacity) values are multiplied by a fixed percentage.
 
 ```csharp
 public sealed class AlphaModulateFixed : ImageTransformOperation, IAlphaModulateFixed
@@ -19,15 +17,15 @@ public sealed class AlphaModulateFixed : ImageTransformOperation, IAlphaModulate
 | Имя | Описание |
 | --- | --- |
 | [Amount](../../aspose.slides.effects/alphamodulatefixed/amount) { get; set; } | Возвращает величину эффекта в процентах. Чтение/запись Single. |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только чтение [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphamodulatefixed/equals)(object) | Определяет, равен ли указанный [`AlphaModulateFixed`](../alphamodulatefixed) текущему [`AlphaModulateFixed`](../alphamodulatefixed). |
-| [GetEffective](../../aspose.slides.effects/alphamodulatefixed/geteffective)() | Получает данные эффективного эффекта Alpha Modulate Fixed с применённым наследованием. |
-| override [GetHashCode](../../aspose.slides.effects/alphamodulatefixed/gethashcode)() | Служит хеш-функцией для определённого типа. |
+| [GetEffective](../../aspose.slides.effects/alphamodulatefixed/geteffective)() | Получает данные эффекта Alpha Modulate Fixed с учётом наследования. |
+| override [GetHashCode](../../aspose.slides.effects/alphamodulatefixed/gethashcode)() | Служит в качестве хеш-функции для конкретного типа. |
 
 ### См. также
 

@@ -1,9 +1,9 @@
 ---
 title: IGlow
-second_title: Référence API Aspose.Sildes pour .NET
-description: Représente un effet de lueur dans lequel un contour flou de couleur est ajouté à l'extérieur des bords de l'objet.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Représente un effet de lueur, dans lequel un contour flou de couleur est ajouté à l'extérieur des bords de l'objet.
 type: docs
-weight: 3320
+weight: 3340
 url: /fr/aspose.slides.effects/iglow/
 ---
 ## IGlow interface

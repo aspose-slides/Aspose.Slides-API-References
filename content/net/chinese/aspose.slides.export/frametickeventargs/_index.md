@@ -1,9 +1,9 @@
 ---
 title: FrameTickEventArgs
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示 FrameTick./presentationplayer/frametick 事件的参数。
 type: docs
-weight: 3810
+weight: 3830
 url: /zh/aspose.slides.export/frametickeventargs/
 ---
 ## FrameTickEventArgs 类
@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)
 * 程序集 [Aspose.Slides](../../)

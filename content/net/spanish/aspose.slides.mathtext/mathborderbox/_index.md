@@ -1,14 +1,14 @@
 ---
 title: MathBorderBox
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Dibuja un borde rectangular o de otro tipo alrededor del IMathElement.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Dibuja un borde rectangular u otro alrededor del IMathElement.
 type: docs
-weight: 8610
+weight: 8630
 url: /es/aspose.slides.mathtext/mathborderbox/
 ---
 ## MathBorderBox clase
 
-Dibuja un borde rectangular o de otro tipo alrededor del IMathElement.
+Dibuja un borde rectangular u otro alrededor del IMathElement.
 
 ```csharp
 public sealed class MathBorderBox : MathElementBase, IMathBorderBox
@@ -26,14 +26,14 @@ public sealed class MathBorderBox : MathElementBase, IMathBorderBox
 | Nombre | Descripción |
 | --- | --- |
 | [Base](../../aspose.slides.mathtext/mathborderbox/base) { get; } | Argumento base |
-| [HideBottom](../../aspose.slides.mathtext/mathborderbox/hidebottom) { get; set; } | Ocultar borde inferior (el valor predeterminado es false) - especifica el estado oculto o visible del borde inferior de la caja de borde. |
-| [HideLeft](../../aspose.slides.mathtext/mathborderbox/hideleft) { get; set; } | Ocultar borde izquierdo (el valor predeterminado es false) - especifica el estado oculto o visible del borde izquierdo de la caja de borde. |
-| [HideRight](../../aspose.slides.mathtext/mathborderbox/hideright) { get; set; } | Ocultar borde derecho (el valor predeterminado es false) - especifica el estado oculto o visible del borde derecho de la caja de borde. |
-| [HideTop](../../aspose.slides.mathtext/mathborderbox/hidetop) { get; set; } | Ocultar borde superior (el valor predeterminado es false) - especifica el estado oculto o visible del borde superior de la caja de borde. |
-| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/mathborderbox/strikethroughbottomlefttotopright) { get; set; } | Tachar de abajo-izquierda a arriba-derecha (el valor predeterminado es false). Especifica el estado oculto o visible de una línea diagonal de tachado desde la esquina inferior-izquierda hasta la esquina superior-derecha de la caja de borde. |
-| [StrikethroughHorizontal](../../aspose.slides.mathtext/mathborderbox/strikethroughhorizontal) { get; set; } | Tachar horizontal (el valor predeterminado es false) - especifica el estado oculto o visible de una línea horizontal de tachado. |
-| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/mathborderbox/strikethroughtoplefttobottomright) { get; set; } | Tachar de arriba-izquierda a abajo-derecha (el valor predeterminado es false). Especifica el estado oculto o visible de una línea diagonal de tachado desde la esquina superior-izquierda hasta la esquina inferior-derecha de la caja de borde. |
-| [StrikethroughVertical](../../aspose.slides.mathtext/mathborderbox/strikethroughvertical) { get; set; } | Tachar vertical (el valor predeterminado es false) - especifica el estado oculto o visible de una línea vertical de tachado. |
+| [HideBottom](../../aspose.slides.mathtext/mathborderbox/hidebottom) { get; set; } | Ocultar borde inferior (default es false) - especifica el estado oculto o mostrado del borde inferior de la caja de borde. |
+| [HideLeft](../../aspose.slides.mathtext/mathborderbox/hideleft) { get; set; } | Ocultar borde izquierda (default es false) - especifica el estado oculto o mostrado del borde izquierdo de la caja de borde. |
+| [HideRight](../../aspose.slides.mathtext/mathborderbox/hideright) { get; set; } | Ocultar borde derecha (default es false) - especifica el estado oculto o mostrado del borde derecho de la caja de borde. |
+| [HideTop](../../aspose.slides.mathtext/mathborderbox/hidetop) { get; set; } | Ocultar borde superior (default es false) - especifica el estado oculto o mostrado del borde superior de la caja de borde. |
+| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/mathborderbox/strikethroughbottomlefttotopright) { get; set; } | Tachar de abajo a la izquierda a arriba a la derecha (default es false). Especifica el estado oculto o mostrado de una línea diagonal tachada desde la esquina inferior izquierda a la esquina superior derecha de la caja de borde. |
+| [StrikethroughHorizontal](../../aspose.slides.mathtext/mathborderbox/strikethroughhorizontal) { get; set; } | Tachar horizontal (default es false) - especifica el estado oculto o mostrado de una línea horizontal tachada. |
+| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/mathborderbox/strikethroughtoplefttobottomright) { get; set; } | Tachar de arriba a la izquierda a abajo a la derecha (default es false). Especifica el estado oculto o mostrado de una línea diagonal tachada desde la esquina superior izquierda a la esquina inferior derecha de la caja de borde. |
+| [StrikethroughVertical](../../aspose.slides.mathtext/mathborderbox/strikethroughvertical) { get; set; } | Tachar vertical (default es false) - especifica el estado oculto o mostrado de una línea vertical tachada. |
 
 ## Métodos
 
@@ -50,12 +50,12 @@ public sealed class MathBorderBox : MathElementBase, IMathBorderBox
 | [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(IMathElement, MathFractionTypes) | Crea una fracción del tipo especificado con este numerador y el denominador especificado |
 | [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(string, MathFractionTypes) | Crea una fracción del tipo especificado con este numerador y el denominador especificado |
 | [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)() | Encierra un elemento matemático entre paréntesis |
-| virtual [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)(char, char) | Encierra un elemento matemático entre los caracteres especificados, como paréntesis u otros caracteres de encuadre |
+| virtual [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)(char, char) | Encierra un elemento matemático en los caracteres especificados, como paréntesis u otros caracteres como marco |
 | [Function](../../aspose.slides.mathtext/mathelementbase/function)(IMathElement) | Toma una función de un argumento usando esta instancia como nombre de la función |
 | [Function](../../aspose.slides.mathtext/mathelementbase/function)(string) | Toma una función de un argumento usando esta instancia como nombre de la función |
-| [GetChildren](../../aspose.slides.mathtext/mathborderbox/getchildren)() | Obtiene los elementos secundarios |
+| [GetChildren](../../aspose.slides.mathtext/mathborderbox/getchildren)() | Obtiene los elementos hijos |
 | [Group](../../aspose.slides.mathtext/mathelementbase/group)() | Coloca este elemento en un grupo usando una llave inferior |
-| [Group](../../aspose.slides.mathtext/mathelementbase/group)(char, MathTopBotPositions, MathTopBotPositions) | Coloca este elemento en un grupo usando un carácter de agrupación como llave inferior u otro |
+| [Group](../../aspose.slides.mathtext/mathelementbase/group)(char, MathTopBotPositions, MathTopBotPositions) | Coloca este elemento en un grupo usando un carácter de agrupación como una llave inferior u otro |
 | [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes) | Toma la integral sin límites |
 | [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, IMathElement, IMathElement) | Toma la integral |
 | [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, string, string) | Toma la integral |
@@ -63,11 +63,11 @@ public sealed class MathBorderBox : MathElementBase, IMathBorderBox
 | [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, string, string, MathLimitLocations) | Toma la integral |
 | virtual [Join](../../aspose.slides.mathtext/mathelementbase/join)(IMathElement) | Une un elemento matemático y forma un bloque matemático |
 | virtual [Join](../../aspose.slides.mathtext/mathelementbase/join)(string) | Une un texto matemático y forma un bloque matemático |
-| [Nary](../../aspose.slides.mathtext/mathelementbase/nary)(MathNaryOperatorTypes, IMathElement, IMathElement) | Crea un operador n-ario |
-| [Nary](../../aspose.slides.mathtext/mathelementbase/nary)(MathNaryOperatorTypes, string, string) | Crea un operador n-ario |
+| [Nary](../../aspose.slides.mathtext/mathelementbase/nary)(MathNaryOperatorTypes, IMathElement, IMathElement) | Crea un operador N-ario |
+| [Nary](../../aspose.slides.mathtext/mathelementbase/nary)(MathNaryOperatorTypes, string, string) | Crea un operador N-ario |
 | [Overbar](../../aspose.slides.mathtext/mathelementbase/overbar)() | Establece una barra en la parte superior de este elemento |
-| [Radical](../../aspose.slides.mathtext/mathelementbase/radical)(IMathElement) | Especifica la raíz matemática del grado indicado a partir del argumento especificado. |
-| [Radical](../../aspose.slides.mathtext/mathelementbase/radical)(string) | Especifica la raíz matemática del grado indicado a partir del argumento especificado. |
+| [Radical](../../aspose.slides.mathtext/mathelementbase/radical)(IMathElement) | Especifica la raíz matemática del grado dado a partir del argumento especificado |
+| [Radical](../../aspose.slides.mathtext/mathelementbase/radical)(string) | Especifica la raíz matemática del grado dado a partir del argumento especificado |
 | [SetLowerLimit](../../aspose.slides.mathtext/mathelementbase/setlowerlimit)(IMathElement) | Toma el límite inferior |
 | [SetLowerLimit](../../aspose.slides.mathtext/mathelementbase/setlowerlimit)(string) | Toma el límite inferior |
 | [SetSubscript](../../aspose.slides.mathtext/mathelementbase/setsubscript)(IMathElement) | Crea subíndice |
@@ -82,8 +82,8 @@ public sealed class MathBorderBox : MathElementBase, IMathBorderBox
 | [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit)(string) | Toma el límite superior |
 | [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)() | Coloca este elemento en una caja de borde |
 | [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)(bool, bool, bool, bool, bool, bool, bool, bool) | Coloca este elemento en una caja de borde |
-| [ToBox](../../aspose.slides.mathtext/mathelementbase/tobox)() | Coloca este elemento en una caja no visual (agrupación lógica) que se usa para agrupar componentes de una ecuación u otro fragmento de texto matemático. Un objeto encerrado puede (por ejemplo) servir como emulador de operador con o sin punto de alineación, servir como punto de salto de línea o agruparse de forma que no permita saltos de línea dentro. |
-| virtual [ToMathArray](../../aspose.slides.mathtext/mathelementbase/tomatharray)() | Inserta en una matriz vertical |
+| [ToBox](../../aspose.slides.mathtext/mathelementbase/tobox)() | Coloca este elemento en una caja no visual (agrupación lógica) que se usa para agrupar componentes de una ecuación u otra instancia de texto matemático. Un objeto en caja puede (por ejemplo) servir como emulador de operador con o sin punto de alineación, servir como punto de salto de línea, o agruparse de manera que no se permitan saltos de línea dentro. |
+| virtual [ToMathArray](../../aspose.slides.mathtext/mathelementbase/tomatharray)() | Coloca en una matriz vertical |
 | [Underbar](../../aspose.slides.mathtext/mathelementbase/underbar)() | Establece una barra en la parte inferior de este elemento |
 
 ### Ejemplos

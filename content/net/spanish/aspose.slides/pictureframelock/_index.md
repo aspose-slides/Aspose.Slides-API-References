@@ -1,14 +1,14 @@
 ---
 title: PictureFrameLock
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Determina qué operaciones están desactivadas en el PictureFrame padre.
+description: Determina qué operaciones están deshabilitadas en el PictureFrame padre.
 type: docs
-weight: 9420
+weight: 9440
 url: /es/aspose.slides/pictureframelock/
 ---
-## Clase PictureFrameLock
+## PictureFrameLock clase
 
-Determina qué operaciones están desactivadas en el PictureFrame padre.
+Determina qué operaciones están deshabilitadas en el PictureFrame padre.
 
 ```csharp
 public class PictureFrameLock : BaseShapeLock, IPictureFrameLock
@@ -18,20 +18,20 @@ public class PictureFrameLock : BaseShapeLock, IPictureFrameLock
 
 | Nombre | Descripción |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/pictureframelock/adjusthandleslocked) { get; set; } | Determina si se prohíbe cambiar los valores de ajuste. Lectura/escritura Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/pictureframelock/arrowheadslocked) { get; set; } | Determina si se prohíbe cambiar las puntas de flecha. Lectura/escritura Boolean. |
-| [AspectRatioLocked](../../aspose.slides/pictureframelock/aspectratiolocked) { get; set; } | Determina si una forma debe conservar la proporción al redimensionarse. Lectura/escritura Boolean. |
-| [CropLocked](../../aspose.slides/pictureframelock/croplocked) { get; set; } | Determina si se prohíbe recortar la imagen. Lectura/escritura Boolean. |
-| [EditPointsLocked](../../aspose.slides/pictureframelock/editpointslocked) { get; set; } | Determina si se prohíbe cambiar directamente el contorno de esta forma. Lectura/escritura Boolean. |
-| [GroupingLocked](../../aspose.slides/pictureframelock/groupinglocked) { get; set; } | Determina si se prohíbe añadir esta forma a un grupo. Lectura/escritura Boolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Devuelve true si todas las banderas de bloqueo están desactivadas. Solo lectura Boolean. |
-| [PositionLocked](../../aspose.slides/pictureframelock/positionlocked) { get; set; } | Determina si se prohíbe mover esta forma. Lectura/escritura Boolean. |
-| [RotationLocked](../../aspose.slides/pictureframelock/rotationlocked) { get; set; } | Determina si se prohíbe cambiar el ángulo de rotación de esta forma. Lectura/escritura Boolean. |
-| [SelectLocked](../../aspose.slides/pictureframelock/selectlocked) { get; set; } | Determina si se prohíbe seleccionar esta forma. Lectura/escritura Boolean. |
-| [ShapeTypeLocked](../../aspose.slides/pictureframelock/shapetypelocked) { get; set; } | Determina si se prohíbe cambiar el tipo de forma. Lectura/escritura Boolean. |
-| [SizeLocked](../../aspose.slides/pictureframelock/sizelocked) { get; set; } | Determina si se prohíbe redimensionar esta forma. Lectura/escritura Boolean. |
+| [AdjustHandlesLocked](../../aspose.slides/pictureframelock/adjusthandleslocked) { get; set; } | Determina si cambiar los valores de ajuste está prohibido. Lectura/escritura Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/pictureframelock/arrowheadslocked) { get; set; } | Determina si cambiar las puntas de flecha está prohibido. Lectura/escritura Boolean. |
+| [AspectRatioLocked](../../aspose.slides/pictureframelock/aspectratiolocked) { get; set; } | Determina si una forma debe preservar la proporción al redimensionar. Lectura/escritura Boolean. |
+| [CropLocked](../../aspose.slides/pictureframelock/croplocked) { get; set; } | Determina si recortar una imagen está prohibido. Lectura/escritura Boolean. |
+| [EditPointsLocked](../../aspose.slides/pictureframelock/editpointslocked) { get; set; } | Determina si cambiar directamente el contorno de esta forma está prohibido. Lectura/escritura Boolean. |
+| [GroupingLocked](../../aspose.slides/pictureframelock/groupinglocked) { get; set; } | Determina si añadir esta forma a un grupo está prohibido. Lectura/escritura Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Devuelve true si todas las banderas de bloqueo están deshabilitadas. Solo lectura Boolean. |
+| [PositionLocked](../../aspose.slides/pictureframelock/positionlocked) { get; set; } | Determina si mover esta forma está prohibido. Lectura/escritura Boolean. |
+| [RotationLocked](../../aspose.slides/pictureframelock/rotationlocked) { get; set; } | Determina si cambiar el ángulo de rotación de esta forma está prohibido. Lectura/escritura Boolean. |
+| [SelectLocked](../../aspose.slides/pictureframelock/selectlocked) { get; set; } | Determina si seleccionar esta forma está prohibido. Lectura/escritura Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/pictureframelock/shapetypelocked) { get; set; } | Determina si cambiar el tipo de una forma está prohibido. Lectura/escritura Boolean. |
+| [SizeLocked](../../aspose.slides/pictureframelock/sizelocked) { get; set; } | Determina si redimensionar esta forma está prohibido. Lectura/escritura Boolean. |
 
-### Ver también
+### Véase también
 
 * clase [BaseShapeLock](../baseshapelock)
 * interfaz [IPictureFrameLock](../ipictureframelock)

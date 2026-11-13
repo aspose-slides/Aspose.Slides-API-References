@@ -1,14 +1,14 @@
 ---
 title: IBaseHandoutNotesSlideHeaderFooterManag
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa el administrador que contiene el comportamiento de los marcadores de posición, incluido el marcador de posición de encabezado para todos los tipos de diapositivas de folleto y notas.
+second_title: Aspose.Sildes para la referencia de API de .NET
+description: Representa al administrador que mantiene el comportamiento de los marcadores de posición, incluido el marcador de posición de encabezado para todos los tipos de folletos y diapositivas de notas.
 type: docs
-weight: 5290
+weight: 5310
 url: /es/aspose.slides/ibasehandoutnotesslideheaderfootermanag/
 ---
-## Interfaz IBaseHandoutNotesSlideHeaderFooterManag
+## IBaseHandoutNotesSlideHeaderFooterManag interfaz
 
-Representa el administrador que contiene el comportamiento de los marcadores de posición, incluido el marcador de posición de encabezado para todos los tipos de diapositivas de folletos y notas.
+Representa al administrador que mantiene el comportamiento de los marcadores de posición, incluido el marcador de posición de encabezado para todos los tipos de diapositivas de folletos y notas.
 
 ```csharp
 public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFooterManager
@@ -19,18 +19,18 @@ public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFoote
 | Nombre | Descripción |
 | --- | --- |
 | [AsIBaseSlideHeaderFooterManager](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/asibaseslideheaderfootermanager) { get; } | Devuelve la interfaz IBaseSlideHeaderFooterManager. |
-| [IsHeaderVisible](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible) { get; } | Obtiene el valor que indica que un marcador de posición de encabezado está presente. Leer Boolean. |
+| [IsHeaderVisible](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible) { get; } | Obtiene el valor que indica que un marcador de posición de encabezado está presente. Lee Boolean. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [SetHeaderText](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadertext)(string) | Establece el texto del marcador de posición de encabezado de diapositiva. |
+| [SetHeaderText](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadertext)(string) | Establece texto al marcador de posición de encabezado de diapositiva. |
 | [SetHeaderVisibility](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadervisibility)(bool) | Cambia la visibilidad del marcador de posición de encabezado de diapositiva. |
 
 ### Observaciones
 
-El nombre original de la interfaz "IBaseHandoutNotesSlideHeaderFooterManager" se truncó a "IBaseHandoutNotesSlideHeaderFooterManag" para compatibilidad COM (la longitud del nombre del tipo no debe ser superior a 39).
+El nombre original de la interfaz "IBaseHandoutNotesSlideHeaderFooterManager" se trunca a "IBaseHandoutNotesSlideHeaderFooterManag" para compatibilidad COM (la longitud del nombre del tipo no debe superar los 39).
 
 ### Ver también
 

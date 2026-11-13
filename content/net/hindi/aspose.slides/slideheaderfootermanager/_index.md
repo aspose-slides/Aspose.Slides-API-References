@@ -1,14 +1,14 @@
 ---
 title: SlideHeaderFooterManager
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: स्लाइड फ़ुटर, तारीख-समय, पेज नंबर प्लेसहोल्डर्स के व्यवहार को नियंत्रित करने वाले प्रबंधक को दर्शाता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: स्लाइड फुटर, तिथि-समय और पेज नंबर प्लेसहोल्डर के व्यवहार को धारण करने वाले प्रबंधक का प्रतिनिधित्व करता है।
 type: docs
-weight: 9980
+weight: 10000
 url: /hi/aspose.slides/slideheaderfootermanager/
 ---
 ## SlideHeaderFooterManager क्लास
 
-स्लाइड फ़ुटर, तारीख-समय, पेज नंबर प्लेसहोल्डर्स के व्यवहार को नियंत्रित करने वाला प्रबंधक दर्शाता है।
+स्लाइड फुटर, तिथि-समय और पेज नंबर प्लेसहोल्डर के व्यवहार को धारण करने वाले प्रबंधक का प्रतिनिधित्व करता है।
 
 ```csharp
 public sealed class SlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
@@ -19,18 +19,18 @@ public sealed class SlideHeaderFooterManager : BaseSlideHeaderFooterManager,
 
 | नाम | विवरण |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | एक मान प्राप्त करता है जो दर्शाता है कि तारीख-समय प्लेसहोल्डर मौजूद है। ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | एक मान प्राप्त करता है जो दर्शाता है कि फ़ुटर प्लेसहोल्डर मौजूद है। Read Boolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | एक मान प्राप्त करता है जो दर्शाता है कि तिथि-समय प्लेसहोल्डर मौजूद है। ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | एक मान प्राप्त करता है जो दर्शाता है कि फुटर प्लेसहोल्डर मौजूद है। Read Boolean. |
 | [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | एक मान प्राप्त करता है जो दर्शाता है कि पेज नंबर प्लेसहोल्डर मौजूद है। ReadBoolean. |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | स्लाइड तारीख-समय प्लेसहोल्डर पर पाठ सेट करता है। |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | स्लाइड तारीख-समय प्लेसहोल्डर की दृश्यता बदलता है। |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | स्लाइड फ़ुटर प्लेसहोल्डर पर पाठ सेट करता है। |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | स्लाइड फ़ुटर प्लेसहोल्डर की दृश्यता बदलता है। |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | स्लाइड तिथि-समय प्लेसहोल्डर में पाठ सेट करता है। |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | स्लाइड तिथि-समय प्लेसहोल्डर की दृश्यता बदलता है। |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | स्लाइड फुटर प्लेसहोल्डर में पाठ सेट करता है। |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | स्लाइड फुटर प्लेसहोल्डर की दृश्यता बदलता है। |
 | [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | स्लाइड पेज नंबर प्लेसहोल्डर की दृश्यता बदलता है। |
 
 ### संबंधित देखें

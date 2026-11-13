@@ -3,7 +3,7 @@ title: ProtectionManager
 second_title: Aspose.Sildes .NET API 参考
 description: 演示文稿密码保护管理。
 type: docs
-weight: 9680
+weight: 9700
 url: /zh/aspose.slides/protectionmanager/
 ---
 ## ProtectionManager 类
@@ -20,9 +20,9 @@ public sealed class ProtectionManager : IProtectionManager
 | --- | --- |
 | [EncryptDocumentProperties](../../aspose.slides/protectionmanager/encryptdocumentproperties) { get; set; } | 此属性在演示文稿受密码保护时才有意义。如果为 true，则文档属性在演示文稿文件中被加密。如果为 false，则文档属性是公开的，而演示文稿被加密。读/写 Boolean。 |
 | [EncryptionPassword](../../aspose.slides/protectionmanager/encryptionpassword) { get; } | 获取用于演示文稿加密的密码。只读 String。 |
-| [IsEncrypted](../../aspose.slides/protectionmanager/isencrypted) { get; } | 获取指示此实例是否已加密的值。只读 Boolean。 |
-| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/protectionmanager/isonlydocumentpropertiesloaded) { get; } | 如果演示文稿文件受密码保护且该文件的文档属性是公开的，则此属性有意义。true 表示仅从加密的演示文稿文件中加载文档属性而不使用密码。false 表示使用正确的密码加载整个加密的演示文稿，而不仅仅加载文档属性。如果演示文稿未加密，则属性值始终为 false。如果加密文件的文档属性不是公开的，则属性值始终为 false。如果 Presentation.EncryptDocumentProperties 为 true，则 IsOnlyDocumentPropertiesLoaded 属性值始终为 false。只读 Boolean。 |
-| [IsWriteProtected](../../aspose.slides/protectionmanager/iswriteprotected) { get; } | 获取指示此演示文稿是否被写保护的值。只读 Boolean。 |
+| [IsEncrypted](../../aspose.slides/protectionmanager/isencrypted) { get; } | 获取一个值，指示此实例是否已加密。只读 Boolean。 |
+| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/protectionmanager/isonlydocumentpropertiesloaded) { get; } | 如果演示文稿文件受密码保护且该文件的文档属性是公开的，则此属性有意义。值为 true 表示仅从加密的演示文稿文件中加载文档属性，而不使用密码。值为 false 表示使用正确的密码加载整个加密的演示文稿，而不仅仅加载文档属性。如果演示文稿未加密，则属性值始终为 false。如果加密文件的文档属性不是公开的，则属性值始终为 false。如果 Presentation.EncryptDocumentProperties 为 true，则 IsOnlyDocumentPropertiesLoaded 属性值始终为 false。只读 Boolean。 |
+| [IsWriteProtected](../../aspose.slides/protectionmanager/iswriteprotected) { get; } | 获取一个值，指示此演示文稿是否受写保护。只读 Boolean。 |
 | [ReadOnlyRecommended](../../aspose.slides/protectionmanager/readonlyrecommended) { get; set; } | 获取或设置只读建议。读/写 Boolean。 |
 
 ## 方法
@@ -30,10 +30,10 @@ public sealed class ProtectionManager : IProtectionManager
 | 名称 | 描述 |
 | --- | --- |
 | [CheckWriteProtection](../../aspose.slides/protectionmanager/checkwriteprotection)(string) | 确定演示文稿是否受密码保护以进行修改。 |
-| [Encrypt](../../aspose.slides/protectionmanager/encrypt)(string) | 使用指定密码加密 Presentation。 |
+| [Encrypt](../../aspose.slides/protectionmanager/encrypt)(string) | 使用指定的密码加密 Presentation。 |
 | [RemoveEncryption](../../aspose.slides/protectionmanager/removeencryption)() | 移除加密。 |
 | [RemoveWriteProtection](../../aspose.slides/protectionmanager/removewriteprotection)() | 移除此演示文稿的写保护。 |
-| [SetWriteProtection](../../aspose.slides/protectionmanager/setwriteprotection)(string) | 使用指定密码为此演示文稿设置写保护。 |
+| [SetWriteProtection](../../aspose.slides/protectionmanager/setwriteprotection)(string) | 使用指定的密码为此演示文稿设置写保护。 |
 
 ### 另见
 

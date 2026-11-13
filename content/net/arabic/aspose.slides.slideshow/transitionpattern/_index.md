@@ -1,14 +1,14 @@
 ---
 title: TransitionPattern
-second_title: Aspose.Sildes لمرجع API .NET
-description: يحدد نمطًا هندسيًا يتجمع لتغطية مساحة أكبر.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: يحدد نمطًا هندسيًا يُرصّف معًا لملء مساحة أكبر.
 type: docs
-weight: 10400
+weight: 10420
 url: /ar/aspose.slides.slideshow/transitionpattern/
 ---
 ## TransitionPattern تعداد
 
-يحدد نمطًا هندسيًا يُركب معًا لملء مساحة أكبر.
+يحدد نمطًا هندسيًا يُرصّف معًا لملء مساحة أكبر.
 
 ```csharp
 public enum TransitionPattern
@@ -18,8 +18,8 @@ public enum TransitionPattern
 
 | الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| Diamond | `0` | Diamond نمط البلاط |
-| Hexagon | `1` | Hexagon نمط البلاط |
+| Diamond | `0` | نمط بلاط ماسي |
+| Hexagon | `1` | نمط بلاط سداسي |
 
 ### انظر أيضًا
 

@@ -1,14 +1,14 @@
 ---
 title: IGroupShape
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示幻灯片上的形状组。
+second_title: Aspose.Sildes .NET API 参考
+description: 表示幻灯片上形状的组。
 type: docs
-weight: 6080
+weight: 6100
 url: /zh/aspose.slides/igroupshape/
 ---
 ## IGroupShape 接口
 
-表示幻灯片上的形状组。
+表示幻灯片上形状的组。
 
 ```csharp
 public interface IGroupShape : IShape

@@ -1,14 +1,14 @@
 ---
 title: ISlideText
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – referencja API
 description: Reprezentuje tekst wyodrębniony ze slajdu
 type: docs
-weight: 7100
+weight: 7120
 url: /pl/aspose.slides/islidetext/
 ---
 ## ISlideText interfejs
 
-Represents the text extracted from the slide
+Reprezentuje tekst wyodrębniony ze slajdu
 
 ```csharp
 public interface ISlideText
@@ -19,9 +19,9 @@ public interface ISlideText
 | Nazwa | Opis |
 | --- | --- |
 | [CommentsText](../../aspose.slides/islidetext/commentstext) { get; } | Tekst komentarzy slajdu |
-| [LayoutText](../../aspose.slides/islidetext/layouttext) { get; } | Tekst na kształtach strony układu dla tego slajdu |
-| [MasterText](../../aspose.slides/islidetext/mastertext) { get; } | Tekst na kształtach strony wzorca dla tego slajdu |
-| [NotesText](../../aspose.slides/islidetext/notestext) { get; } | Tekst na kształtach strony notatek dla tego slajdu |
+| [LayoutText](../../aspose.slides/islidetext/layouttext) { get; } | Tekst na kształtach strony układu tego slajdu |
+| [MasterText](../../aspose.slides/islidetext/mastertext) { get; } | Tekst na kształtach strony głównej tego slajdu |
+| [NotesText](../../aspose.slides/islidetext/notestext) { get; } | Tekst na kształtach strony notatek tego slajdu |
 | [Text](../../aspose.slides/islidetext/text) { get; } | Tekst na kształtach slajdu |
 
 ### Zobacz także

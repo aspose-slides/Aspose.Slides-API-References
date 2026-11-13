@@ -1,14 +1,14 @@
 ---
 title: FormatScheme
 second_title: Aspose.Sildes för .NET API-referens
-description: Lagrar temadefinierade format för formerna.
+description: Lagrar temabestämda format för formerna.
 type: docs
-weight: 11140
+weight: 11160
 url: /sv/aspose.slides.theme/formatscheme/
 ---
 ## FormatScheme klass
 
-Lagrar temadefinierade format för formerna.
+Lagrar temabestämda format för formerna.
 
 ```csharp
 public class FormatScheme : IFormatScheme
@@ -18,10 +18,10 @@ public class FormatScheme : IFormatScheme
 
 | Namn | Beskrivning |
 | --- | --- |
-| [BackgroundFillStyles](../../aspose.slides.theme/formatscheme/backgroundfillstyles) { get; } | Returnerar en samling av temadefinierade bakgrundsfyllningsstilar. Skrivskyddad [`IFillFormatCollection`](../ifillformatcollection). |
-| [EffectStyles](../../aspose.slides.theme/formatscheme/effectstyles) { get; } | Returnerar en samling av temadefinierade effektstilar. Skrivskyddad [`IEffectStyleCollection`](../ieffectstylecollection). |
-| [FillStyles](../../aspose.slides.theme/formatscheme/fillstyles) { get; } | Returnerar en samling av temadefinierade fyllningsstilar. Skrivskyddad [`IFillFormatCollection`](../ifillformatcollection). |
-| [LineStyles](../../aspose.slides.theme/formatscheme/linestyles) { get; } | Returnerar en samling av temadefinierade linjestilar. Skrivskyddad [`ILineFormatCollection`](../ilineformatcollection). |
+| [BackgroundFillStyles](../../aspose.slides.theme/formatscheme/backgroundfillstyles) { get; } | Returnerar en samling av temabestämda bakgrundsfyllnadsstilar. Skrivskyddad [`IFillFormatCollection`](../ifillformatcollection). |
+| [EffectStyles](../../aspose.slides.theme/formatscheme/effectstyles) { get; } | Returnerar en samling av temabestämda effektstilar. Skrivskyddad [`IEffectStyleCollection`](../ieffectstylecollection). |
+| [FillStyles](../../aspose.slides.theme/formatscheme/fillstyles) { get; } | Returnerar en samling av temabestämda fyllnadsstilar. Skrivskyddad [`IFillFormatCollection`](../ifillformatcollection). |
+| [LineStyles](../../aspose.slides.theme/formatscheme/linestyles) { get; } | Returnerar en samling av temabestämda linjestilar. Skrivskyddad [`ILineFormatCollection`](../ilineformatcollection). |
 | [Presentation](../../aspose.slides.theme/formatscheme/presentation) { get; } | Returnerar den överordnade presentationen. Skrivskyddad [`IPresentation`](../../aspose.slides/ipresentation). |
 | [Slide](../../aspose.slides.theme/formatscheme/slide) { get; } | Returnerar den överordnade bilden. Skrivskyddad [`IBaseSlide`](../../aspose.slides/ibaseslide). |
 

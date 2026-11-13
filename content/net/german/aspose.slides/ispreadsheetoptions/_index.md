@@ -1,14 +1,14 @@
 ---
 title: ISpreadsheetOptions
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt Optionen dar, die verwendet werden können, um zusätzliches Tabellenkalkulationsverhalten festzulegen.
+description: Stellt Optionen dar, die verwendet werden können, um zusätzliches Tabellenblatt-Verhalten anzugeben.
 type: docs
-weight: 7120
+weight: 7140
 url: /de/aspose.slides/ispreadsheetoptions/
 ---
 ## ISpreadsheetOptions Schnittstelle
 
-Stellt Optionen dar, die verwendet werden können, um zusätzliches Tabellenkalkulationsverhalten zu spezifizieren.
+Stellt Optionen dar, die verwendet werden können, um zusätzliches Tabellenblatt-Verhalten anzugeben.
 
 ```csharp
 public interface ISpreadsheetOptions
@@ -18,8 +18,8 @@ public interface ISpreadsheetOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| [PreferredCulture](../../aspose.slides/ispreadsheetoptions/preferredculture) { get; set; } | Liest oder schreibt die bevorzugte Kulturinformation, die für die Berechnung einiger Funktionen verwendet wird, die für Sprachen mit Doppelt-Byte-Zeichensatz (DBCS) vorgesehen sind. |
-| [RecoverWorkbookFromChartCache](../../aspose.slides/ispreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Falls die Datenquelle für das Diagramm eine externe Arbeitsmappe ist und nicht verfügbar ist, wird sie aus dem Diagramm-Cache wiederhergestellt. |
+| [PreferredCulture](../../aspose.slides/ispreadsheetoptions/preferredculture) { get; set; } | Liest oder legt die bevorzugte Kultureinstellung fest, die für die Berechnung einiger Funktionen verwendet wird, die für Sprachen mit doppelbyte-Zeichensatz (DBCS) vorgesehen sind. |
+| [RecoverWorkbookFromChartCache](../../aspose.slides/ispreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Wenn die Datenquelle für das Diagramm eine externe Arbeitsmappe ist und sie nicht verfügbar ist, wird sie aus dem Diagramm-Cache wiederhergestellt. |
 
 ### Siehe auch
 

@@ -1,18 +1,22 @@
 ---
 title: GapWidth
-second_title: Aspose.Sildes .NET API referencia
-description: Meghatározza a sáv- vagy oszlopcsoportok közötti távolságot a sáv vagy oszlop szélességének százalékaként. Olvasás/írás UInt16.
+second_title: Aspose.Sildes a .NET API referencia
+description: Visszaadja vagy beállítja a sáv- vagy oszlopsorok közötti távolságot a sáv vagy oszlop szélességének százalékában. Az értéknek 0 és 500 között kell lennie. Olvasás/írás UInt16.
 type: docs
 weight: 70
 url: /hu/aspose.slides.charts/ichartseriesgroup/gapwidth/
 ---
 ## IChartSeriesGroup.GapWidth tulajdonság
 
-A sáv- vagy oszlopcsoportok közötti térközt határozza meg, a sáv vagy oszlop szélességének százalékaként. Olvasás/írás UInt16.
+A sáv- vagy oszlopsorok közötti távolságot adja vissza vagy állítja be, a sáv vagy oszlop szélességének százalékában. Az értéknek 0 és 500 között kell lennie. Olvasás/írás UInt16.
 
 ```csharp
 public ushort GapWidth { get; set; }
 ```
+
+### Megjegyzések
+
+Ez a tulajdonság a következő típusú sorozatokra vonatkozik: All bar and column subtypes, BarOfPie, PieOfPie, BoxAndWhisker, Funnel, Histogram, Waterfall.
 
 ### Lásd még
 

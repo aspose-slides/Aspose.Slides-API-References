@@ -1,9 +1,9 @@
 ---
 title: IControlPropertiesCollection
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: ActiveX denetimlerinin bir koleksiyonu.
 type: docs
-weight: 5650
+weight: 5670
 url: /tr/aspose.slides/icontrolpropertiescollection/
 ---
 ## IControlPropertiesCollection arayüz
@@ -18,18 +18,18 @@ public interface IControlPropertiesCollection : IEnumerable<KeyValuePair<string,
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides/icontrolpropertiescollection/asienumerable) { get; } | IEnumerable arabirimini döndürür. Salt okunur IEnumerable. |
-| [Count](../../aspose.slides/icontrolpropertiescollection/count) { get; } | Koleksiyondaki özellik sayısını döndürür. Salt okunur Int32. |
+| [AsIEnumerable](../../aspose.slides/icontrolpropertiescollection/asienumerable) { get; } | IEnumerable arabirimini döndürür. Yalnızca okuma IEnumerable. |
+| [Count](../../aspose.slides/icontrolpropertiescollection/count) { get; } | Koleksiyondaki özellik sayısını döndürür. Yalnızca okuma Int32. |
 | [Item](../../aspose.slides/icontrolpropertiescollection/item) { get; set; } | Özelliği döndürür veya ayarlar. |
-| [NamesOfProperties](../../aspose.slides/icontrolpropertiescollection/namesofproperties) { get; } | Koleksiyondaki özellik sayısını döndürür. Salt okunur ICollection. |
+| [NamesOfProperties](../../aspose.slides/icontrolpropertiescollection/namesofproperties) { get; } | Koleksiyondaki özellik sayısını döndürür. Yalnızca okuma ICollection. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [Add](../../aspose.slides/icontrolpropertiescollection/add)(string, string) | Koleksiyona bir özelliği ekler. |
+| [Add](../../aspose.slides/icontrolpropertiescollection/add)(string, string) | Koleksiyona bir özellik ekler. |
 | [Clear](../../aspose.slides/icontrolpropertiescollection/clear)() | Tüm özellikleri kaldırır. |
-| [Remove](../../aspose.slides/icontrolpropertiescollection/remove)(string) | Belirtilen ada sahip bir özelliği kaldırır. |
+| [Remove](../../aspose.slides/icontrolpropertiescollection/remove)(string) | Belirtilen isimdeki özelliği kaldırır. |
 
 ### Ayrıca Bakınız
 

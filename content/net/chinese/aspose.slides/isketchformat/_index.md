@@ -1,9 +1,9 @@
 ---
 title: ISketchFormat
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示线条草图格式的属性。
 type: docs
-weight: 7020
+weight: 7040
 url: /zh/aspose.slides/isketchformat/
 ---
 ## ISketchFormat 接口
@@ -18,9 +18,9 @@ public interface ISketchFormat
 
 | 名称 | 描述 |
 | --- | --- |
-| [SketchType](../../aspose.slides/isketchformat/sketchtype) { get; set; } | 返回或设置草图类型。读写 [`LineSketchType`](../linesketchtype)。 |
+| [SketchType](../../aspose.slides/isketchformat/sketchtype) { get; set; } | 返回或设置草图类型。读/写 [`LineSketchType`](../linesketchtype)。 |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

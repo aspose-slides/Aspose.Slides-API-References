@@ -1,22 +1,22 @@
 ---
 title: AddTextFrameForOverriding
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เริ่มต้น TextFrameForOverriding ด้วยข้อความในพารามิเตอร์ text. หาก TextFrameForOverriding ได้รับการเริ่มต้นแล้วจะเปลี่ยนข้อความของมันโดยง่าย
+description: เริ่มต้น TextFrameForOverriding ด้วยข้อความในพารามิเตอร์ text. หาก TextFrameForOverriding ถูกเริ่มต้นแล้ว ให้เปลี่ยนข้อความของมันอย่างง่าย.
 type: docs
-weight: 180
+weight: 190
 url: /th/aspose.slides.charts/datalabel/addtextframeforoverriding/
 ---
 ## DataLabel.AddTextFrameForOverriding เมธอด
 
-เริ่มต้น TextFrameForOverriding ด้วยข้อความในพารามิเตอร์ "text". หาก TextFrameForOverriding ได้รับการเริ่มต้นแล้ว ให้ทำการเปลี่ยนแปลงข้อความของมันโดยง่าย
+เริ่มต้น TextFrameForOverriding ด้วยข้อความในพารามิเตอร์ "text". หาก TextFrameForOverriding ถูกเริ่มต้นแล้ว ให้เปลี่ยนข้อความของมันอย่างง่าย.
 
 ```csharp
 public ITextFrame AddTextFrameForOverriding(string text)
 ```
 
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| พารามิเตอร์ | ประเภท | คำอธิบาย |
 | --- | --- | --- |
-| text | String | ข้อความสำหรับ TextFrameForOverriding ใหม่ |
+| text | String | ข้อความสำหรับ TextFrameForOverriding ใหม่. |
 
 ### ดูเพิ่มเติม
 

@@ -3,7 +3,7 @@ title: IRowFormat
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar formatet för en tabellrad.
 type: docs
-weight: 6870
+weight: 6890
 url: /sv/aspose.slides/irowformat/
 ---
 ## IRowFormat gränssnitt
@@ -18,7 +18,7 @@ public interface IRowFormat
 
 | Namn | Beskrivning |
 | --- | --- |
-| [GetEffective](../../aspose.slides/irowformat/geteffective)() | Hämtar de effektiva formateringsegenskaperna för en tabellrad med arv och tillämpade tabellstilar. |
+| [GetEffective](../../aspose.slides/irowformat/geteffective)() | Hämtar effektiva formateringsegenskaper för tabellrad med arv och tillämpade tabellstilar. |
 
 ### Se även
 

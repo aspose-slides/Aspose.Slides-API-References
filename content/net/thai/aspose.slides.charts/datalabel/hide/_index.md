@@ -1,14 +1,14 @@
 ---
 title: Hide
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
-description: ทำให้ป้ายข้อมูลถูกซ่อนโดยการตั้งค่าธง Show-flags ทั้งหมด ShowValue ... เป็นสถานะ false. IsVisible จะเป็น false หลังจากนี้.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: ทำให้ data label ถูกซ่อนโดยการตั้งค่า Show-flags ทั้งหมด ShowValue ... ให้เป็นสถานะ false. IsVisible จะเป็น false หลังจากนี้.
 type: docs
-weight: 200
+weight: 210
 url: /th/aspose.slides.charts/datalabel/hide/
 ---
-## เมธอด DataLabel.Hide
+## DataLabel.Hide เมธอด
 
-ทำให้ป้ายข้อมูลถูกซ่อนโดยการตั้งค่าธง Show*-flags ทั้งหมด (ShowValue, ...) เป็นสถานะ false. IsVisible จะเป็น false หลังจากนี้.
+ทำให้ data label ถูกซ่อนโดยการตั้งค่า Show*-flags ทั้งหมด (ShowValue, ...) ให้เป็นสถานะ false. IsVisible จะเป็น false หลังจากนี้.
 
 ```csharp
 public void Hide()
@@ -16,7 +16,7 @@ public void Hide()
 
 ### หมายเหตุ
 
-หากป้ายข้อมูลไม่แสดงผล (IsVisible เป็น false) คุณสามารถทำให้ป้ายข้อมูลแสดงผลได้โดยการตั้งค่าธง Show*-flags (ShowValue, ...) เป็นสถานะ true.
+หาก data label ไม่ปรากฏ (IsVisible เป็น false) คุณสามารถทำให้ data label ปรากฏโดยการตั้งค่า Show*-flags (ShowValue, ...) ให้เป็นสถานะ true.
 
 ### ดูเพิ่มเติม
 

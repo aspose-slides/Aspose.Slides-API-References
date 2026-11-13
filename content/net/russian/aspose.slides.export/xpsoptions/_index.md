@@ -1,14 +1,14 @@
 ---
 title: XpsOptions
 second_title: Aspose.Sildes для .NET справочник API
-description: Предоставляет параметры, которые управляют тем, как презентация сохраняется в формате XPS.
+description: Предоставляет параметры, которые контролируют, как презентация сохраняется в формате XPS.
 type: docs
-weight: 4730
+weight: 4750
 url: /ru/aspose.slides.export/xpsoptions/
 ---
 ## XpsOptions класс
 
-Provides options that control how a presentation is saved in XPS format.
+Предоставляет параметры, которые контролируют, как презентация сохраняется в формате XPS.
 
 ```csharp
 public class XpsOptions : SaveOptions, IXpsOptions
@@ -16,22 +16,22 @@ public class XpsOptions : SaveOptions, IXpsOptions
 
 ## Конструкторы
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
-| [XpsOptions](xpsoptions)() | Default constructor. |
+| [XpsOptions](xpsoptions)() | Конструктор по умолчанию. |
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или задает шрифт, используемый в случае, если исходный шрифт не найден. Чтение-запись String. |
-| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | True, чтобы рисовать черную рамку вокруг каждого слайда. Чтение-запись Boolean. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Возвращает или задает визуальный стиль градиента. Чтение-запись [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для обновления прогресса сохранения в процентах. См. [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | True, чтобы преобразовать все метафайлы, используемые в презентации, в изображения PNG. Чтение-запись Boolean. |
-| [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | Указывает, следует ли включать скрытые слайды в генерируемый документ. По умолчанию `false`. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Указывает, следует ли пропускать гиперссылки с вызовами JavaScript при сохранении презентации. Чтение-запись Boolean. Значение по умолчанию **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает или задает объект, который получает предупреждения и решает, будет ли процесс загрузки продолжен или прерван. Чтение-запись [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или задает шрифт, используемый в случае, если исходный шрифт не найден. Чтение/запись String. |
+| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | True, чтобы рисовать черную рамку вокруг каждого слайда. Чтение/запись Boolean. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Возвращает или задает визуальный стиль градиента. Чтение/запись [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для сохранения обновлений прогресса в процентах. См. [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | True, чтобы преобразовать все метафайлы, используемые в презентации, в изображения PNG. Чтение/запись Boolean. |
+| [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | Указывает, следует ли включать скрытые слайды в сгенерированный документ. По умолчанию `false`. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Указывает, следует ли пропускать гиперссылки с вызовами JavaScript при сохранении презентации. Чтение/запись Boolean. Значение по умолчанию **false**. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает или задает объект, получающий предупреждения и решающий, продолжать ли процесс загрузки или прервать его. Чтение/запись [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Примеры
 
@@ -39,7 +39,7 @@ public class XpsOptions : SaveOptions, IXpsOptions
 
 ```csharp
 [C#]
-// Создать объект Presentation, представляющий файл презентации
+// Создайте объект Presentation, представляющий файл презентации
 using (Presentation pres = new Presentation("Convert_XPS.pptx"))
 {
     // Сохранение презентации в документ XPS
@@ -51,12 +51,12 @@ using (Presentation pres = new Presentation("Convert_XPS.pptx"))
 
 ```csharp
 [C#]
-// Создать объект Presentation, представляющий файл презентации
+// Создайте объект Presentation, представляющий файл презентации
 using (Presentation pres = new Presentation("Convert_XPS_Options.pptx"))
 {
-    // Создать объект класса TiffOptions
+    // Создайте объект класса TiffOptions
     XpsOptions options = new XpsOptions();
-    // Сохранить метафайлы как PNG
+    // Сохранить метафайлы в PNG
     options.SaveMetafilesAsPng = true;
     // Сохранить презентацию в документ XPS
     pres.Save("XPS_With_Options_out.xps", SaveFormat.Xps, options);

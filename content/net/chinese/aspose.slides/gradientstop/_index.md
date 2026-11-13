@@ -1,14 +1,14 @@
 ---
 title: GradientStop
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示一个渐变格式。
+second_title: Aspose.Sildes 的 .NET API 参考
+description: 表示渐变格式。
 type: docs
-weight: 5020
+weight: 5040
 url: /zh/aspose.slides/gradientstop/
 ---
 ## GradientStop 类
 
-表示一个渐变格式。
+表示渐变格式。
 
 ```csharp
 public sealed class GradientStop : PVIObject, IGradientStop
@@ -20,16 +20,16 @@ public sealed class GradientStop : PVIObject, IGradientStop
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基础 IPresentationComponent 接口。只读 [`IPresentationComponent`](../ipresentationcomponent)。 |
 | [Color](../../aspose.slides/gradientstop/color) { get; } | 返回渐变停止点的颜色。只读 [`IColorFormat`](../icolorformat)。 |
-| [Position](../../aspose.slides/gradientstop/position) { get; set; } | 返回或设置渐变停止点的位置 (0..1)。可读写 Single。 |
+| [Position](../../aspose.slides/gradientstop/position) { get; set; } | 返回或设置渐变停止点的位置 (0..1)。读写 Single。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | 比较指定的对象。 |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | 与指定对象进行比较。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 返回哈希码。 |
 
-### 参见
+### 另请参见
 
 * 类 [PVIObject](../pviobject)
 * 接口 [IGradientStop](../igradientstop)

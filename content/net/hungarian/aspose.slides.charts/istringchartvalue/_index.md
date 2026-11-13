@@ -1,14 +1,14 @@
 ---
 title: IStringChartValue
-second_title: Aspose.Sildes .NET API-referencia
-description: "Karakterlánc értéket képvisel, amely két módon tárolható pptx prezentációs dokumentumban: 1) a diagramhoz kapcsolódó munkafüzet celláiban/celláiban, 2) literális értékként."
+second_title: Aspose.Sildes a .NET-hez API hivatkozás
+description: Karakterlánc értéket ábrázol, amely a pptx prezentációs dokumentumban két módon tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban; 2) literális értékként.
 type: docs
-weight: 2220
+weight: 2240
 url: /hu/aspose.slides.charts/istringchartvalue/
 ---
 ## IStringChartValue interfész
 
-A karakterlánc értéket, amely két módon tárolható pptx prezentációs dokumentumban: 1) a diagramhoz kapcsolódó munkafüzet celláiban/celláiban; 2) literális értékként.
+A karakterlánc érték ábrázolása, amely a pptx bemutató dokumentumban két módon tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban; 2) literális értékként.
 
 ```csharp
 public interface IStringChartValue : IMultipleCellChartValue
@@ -18,16 +18,16 @@ public interface IStringChartValue : IMultipleCellChartValue
 
 | Név | Leírás |
 | --- | --- |
-| [AsIMultipleCellChartValue](../../aspose.slides.charts/istringchartvalue/asimultiplecellchartvalue) { get; } | Lehetővé teszi a bázis IMultipleCellChartValue interfész lekérését. Csak olvasható [`IMultipleCellChartValue`](../imultiplecellchartvalue). |
+| [AsIMultipleCellChartValue](../../aspose.slides.charts/istringchartvalue/asimultiplecellchartvalue) { get; } | Lehetővé teszi az alap IMultipleCellChartValue interfész lekérését. Csak olvasható [`IMultipleCellChartValue`](../imultiplecellchartvalue). |
 | [AsLiteralString](../../aspose.slides.charts/istringchartvalue/asliteralstring) { get; set; } | Visszaadja vagy beállítja a literális karakterláncot, ha a DataSourceType tulajdonság értéke DataSourceType.StringLiterals. Olvasás/írás String. |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [GetCellsAddressInWorkbook](../../aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook)() | Ha a DataSourceType tulajdonság értéke DataSourceType.Worksheet, akkor ez a metódus visszaadja a munkafüzetben lévő cellák címét, amelyek a karakterlánc adatot képviselik. Egyébként üres karakterláncot ad vissza. |
+| [GetCellsAddressInWorkbook](../../aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook)() | Ha a DataSourceType tulajdonság értéke DataSourceType.Worksheet, akkor ez a metódus visszaadja a munkafüzetben lévő cellák címét, amelyek a karakterlánc adatot képviselik. Ellenkező esetben üres karakterláncot ad vissza. |
 | [SetFromOneCell](../../aspose.slides.charts/istringchartvalue/setfromonecell)(IChartDataCell) | Beállítja az értéket a megadott cellából. |
-| [ToString](../../aspose.slides.charts/istringchartvalue/tostring)() | Visszaadja a karakterlánc reprezentációt. |
+| [ToString](../../aspose.slides.charts/istringchartvalue/tostring)() | Visszaadja a karakterlánc ábrázolását. |
 
 ### Lásd még
 

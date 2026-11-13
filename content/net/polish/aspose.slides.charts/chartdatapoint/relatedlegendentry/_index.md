@@ -1,9 +1,9 @@
 ---
 title: RelatedLegendEntry
-second_title: Aspose.Sildes dla .NET API Reference
-description: Właściwości odpowiadającego wpisu legendy w przypadku typu wykresu z tej listy ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie. Tylko do odczytu ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
+second_title: Aspose.Sildes dla referencji API .NET
+description: Właściwości odpowiadającego wpisu legendy w przypadku typu wykresu z następującej listy ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie. Tylko do odczytu ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
 type: docs
-weight: 160
+weight: 200
 url: /pl/aspose.slides.charts/chartdatapoint/relatedlegendentry/
 ---
 ## ChartDataPoint.RelatedLegendEntry właściwość

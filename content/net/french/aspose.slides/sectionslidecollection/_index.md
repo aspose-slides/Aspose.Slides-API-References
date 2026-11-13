@@ -1,9 +1,9 @@
 ---
 title: SectionSlideCollection
-second_title: Aspose.Sildes pour .NET Référence API
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente une collection de diapositives dans la section.
 type: docs
-weight: 9770
+weight: 9790
 url: /fr/aspose.slides/sectionslidecollection/
 ---
 ## SectionSlideCollection classe

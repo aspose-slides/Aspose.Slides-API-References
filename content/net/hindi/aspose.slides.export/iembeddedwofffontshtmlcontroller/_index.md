@@ -1,14 +1,14 @@
 ---
 title: IEmbeddedWoffFontsHtmlController
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: इंबेडेड woff फ़ॉन्ट्स html कंट्रोलर।
+second_title: Aspose.Sildes के लिये .NET API संदर्भ
+description: संलग्न woff फ़ॉन्ट्स html नियंत्रक।
 type: docs
-weight: 3910
+weight: 3930
 url: /hi/aspose.slides.export/iembeddedwofffontshtmlcontroller/
 ---
 ## IEmbeddedWoffFontsHtmlController इंटरफ़ेस
 
-इंबेडेड woff फ़ॉन्ट्स html कंट्रोलर।
+संलग्न woff फ़ॉन्ट्स HTML नियंत्रक।
 
 ```csharp
 public interface IEmbeddedWoffFontsHtmlController : IHtmlFormattingController
@@ -18,7 +18,7 @@ public interface IEmbeddedWoffFontsHtmlController : IHtmlFormattingController
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIHtmlFormattingController](../../aspose.slides.export/iembeddedwofffontshtmlcontroller/asihtmlformattingcontroller) { get; } | IHtmlFormattingController इंटरफ़ेस को लौटता है। |
+| [AsIHtmlFormattingController](../../aspose.slides.export/iembeddedwofffontshtmlcontroller/asihtmlformattingcontroller) { get; } | IHtmlFormattingController इंटरफ़ेस को लौटाता है। |
 
 ### देखें
 

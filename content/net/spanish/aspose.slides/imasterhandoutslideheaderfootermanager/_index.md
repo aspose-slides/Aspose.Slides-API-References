@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlideHeaderFooterManager
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa el gestor que mantiene el comportamiento de los marcadores de posición de la diapositiva de notas del esquema maestro, incluido el marcador de posición del encabezado.
+description: Representa al administrador que mantiene el comportamiento de los marcadores de posición de la diapositiva maestra de notas, incluido el marcador de posición del encabezado.
 type: docs
-weight: 6360
+weight: 6380
 url: /es/aspose.slides/imasterhandoutslideheaderfootermanager/
 ---
 ## IMasterHandoutSlideHeaderFooterManager interfaz
 
-Representa el gestor que mantiene el comportamiento de los marcadores de posición de la diapositiva de notas del esquema maestro, incluido el marcador de posición del encabezado.
+Representa el administrador que contiene el comportamiento de los marcadores de posición de la diapositiva maestra de notas, incluido el marcador de posición del encabezado.
 
 ```csharp
 public interface IMasterHandoutSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -18,7 +18,7 @@ public interface IMasterHandoutSlideHeaderFooterManager : IBaseHandoutNotesSlide
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasterhandoutslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Devuelve la interfaz IBaseHandoutNotesSlideHeaderFooterManag. |
+| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasterhandoutslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Devuelve IBaseHandoutNotesSlideHeaderFooterManag interfaz. |
 
 ### Ver también
 

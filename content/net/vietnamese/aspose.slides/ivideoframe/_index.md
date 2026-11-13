@@ -1,9 +1,9 @@
 ---
 title: IVideoFrame
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Aspose.Sildes cho .NET Tham chiếu API
 description: Biểu diễn một đoạn video trên slide.
 type: docs
-weight: 7380
+weight: 7400
 url: /vi/aspose.slides/ivideoframe/
 ---
 ## IVideoFrame giao diện
@@ -18,18 +18,19 @@ public interface IVideoFrame : IPictureFrame
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | Cho phép lấy giao diện IPictureFrame cơ bản. Chỉ đọc [`IPictureFrame`](../ipictureframe). |
-| [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | Lấy bộ sưu tập phụ đề đóng liên quan đến khung âm thanh. Thuộc tính này chỉ đọc và trả về một [`ICaptionsCollection`](../icaptionscollection) chứa tất cả các đoạn phụ đề. |
+| [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | Cho phép lấy giao diện cơ sở IPictureFrame. Chỉ đọc [`IPictureFrame`](../ipictureframe). |
+| [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | Lấy bộ sưu tập phụ đề đóng liên kết với khung âm thanh. Thuộc tính này chỉ đọc và trả về một [`ICaptionsCollection`](../icaptionscollection) chứa tất cả các dải phụ đề. |
 | [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | Trả về hoặc đặt đối tượng video nhúng. Đọc/ghi [`IVideo`](../ivideo). |
-| [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | Xác định xem video có được hiển thị ở chế độ toàn màn hình hay không. Đọc/ghi Boolean. |
-| [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | Xác định xem VideoFrame có bị ẩn hay không. Đọc/ghi Boolean. |
+| [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | Xác định liệu video có được hiển thị ở chế độ toàn màn hình hay không. Đọc/ghi Boolean. |
+| [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | Xác định liệu VideoFrame có bị ẩn hay không. Đọc/ghi Boolean. |
 | [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | Trả về hoặc đặt tên của tệp video được liên kết với VideoFrame. Đọc/ghi String. |
-| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | Xác định xem video có được lặp lại không. Đọc/ghi Boolean. |
+| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | Xác định liệu video có được lặp lại hay không. Đọc/ghi Boolean. |
 | [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | Trả về hoặc đặt chế độ phát video. Đọc/ghi [`VideoPlayModePreset`](../videoplaymodepreset). |
-| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | Xác định xem video có tự động tua lại về đầu khi phim kết thúc phát không. Đọc/ghi Boolean. |
-| [TrimFromEnd](../../aspose.slides/ivideoframe/trimfromend) { get; set; } | Cắt phần cuối [ms] |
-| [TrimFromStart](../../aspose.slides/ivideoframe/trimfromstart) { get; set; } | Cắt phần đầu [ms] |
-| [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | Trả về hoặc đặt mức âm lượng. Đọc/ghi [`AudioVolumeMode`](../audiovolumemode). |
+| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | Xác định liệu video có tự động tua lại về đầu khi phim đã phát xong hay không. Đọc/ghi Boolean. |
+| [TrimFromEnd](../../aspose.slides/ivideoframe/trimfromend) { get; set; } | Cắt kết thúc [ms] |
+| [TrimFromStart](../../aspose.slides/ivideoframe/trimfromstart) { get; set; } | Cắt bắt đầu [ms] |
+| [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | Trả về hoặc đặt âm lượng âm thanh. Đọc/ghi [`AudioVolumeMode`](../audiovolumemode). |
+| [VolumeValue](../../aspose.slides/ivideoframe/volumevalue) { get; set; } | Trả về hoặc đặt âm lượng video chính xác dưới dạng phần trăm. Giá trị được biểu diễn dưới dạng phần trăm từ 0 đến 100. Sử dụng thuộc tính này để đọc hoặc đặt giá trị âm lượng chi tiết hơn các mức đã định sẵn thông qua thuộc tính [`Volume`](./volume). Đọc/ghi Single. |
 
 ### Xem thêm
 

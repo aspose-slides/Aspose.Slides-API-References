@@ -3,7 +3,7 @@ title: DrawingGuidesCollection
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa uma coleção dos guias de desenho ajustáveis.
 type: docs
-weight: 2820
+weight: 2840
 url: /pt/aspose.slides/drawingguidescollection/
 ---
 ## DrawingGuidesCollection classe
@@ -16,22 +16,22 @@ public sealed class DrawingGuidesCollection : IDrawingGuidesCollection
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides/drawingguidescollection/count) { get; } | Retorna o número de elementos na coleção. Somente leitura Int32. |
 | [Item](../../aspose.slides/drawingguidescollection/item) { get; } | Retorna o guia de desenho por índice. Somente leitura [`IDrawingGuide`](../idrawingguide). |
 
 ## Métodos
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/drawingguidescollection/add)(Orientation, float) | Adiciona o guia de desenho ao final da coleção. |
 | [Clear](../../aspose.slides/drawingguidescollection/clear)() | Remove todos os elementos da coleção. |
-| [CopyTo](../../aspose.slides/drawingguidescollection/copyto)(IDrawingGuide[], int) | Copia todos os elementos da coleção para a matriz especificada. |
+| [CopyTo](../../aspose.slides/drawingguidescollection/copyto)(IDrawingGuide[], int) | Copia todos os elementos da coleção para o array especificado. |
 | [GetEnumerator](../../aspose.slides/drawingguidescollection/getenumerator)() | Retorna um enumerador que itera sobre a coleção. |
 | [RemoveAt](../../aspose.slides/drawingguidescollection/removeat)(int) | Remove o guia de desenho no índice especificado. |
 
-### Ver Também
+### Ver também
 
 * interface [IDrawingGuidesCollection](../idrawingguidescollection)
 * namespace [Aspose.Slides](../../aspose.slides)

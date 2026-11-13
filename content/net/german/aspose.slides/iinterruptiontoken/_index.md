@@ -1,14 +1,14 @@
 ---
 title: IInterruptionToken
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Diese Klasse stellt das Token dar, das verwendet wird, um langlaufende Aufgaben darüber zu informieren, ob eine Unterbrechung angefordert wurde.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Diese Klasse repräsentiert das Token, das verwendet wird, um langlaufende Aufgaben darüber zu informieren, ob eine Unterbrechung angefordert wurde.
 type: docs
-weight: 6190
+weight: 6210
 url: /de/aspose.slides/iinterruptiontoken/
 ---
 ## IInterruptionToken Schnittstelle
 
-Diese Klasse stellt das Token dar, das verwendet wird, um langlaufende Aufgaben darüber zu informieren, ob eine Unterbrechung angefordert wurde.
+Diese Klasse repräsentiert das Token, das verwendet wird, um langlaufende Aufgaben darüber zu informieren, ob eine Unterbrechung angefordert wurde.
 
 ```csharp
 public interface IInterruptionToken

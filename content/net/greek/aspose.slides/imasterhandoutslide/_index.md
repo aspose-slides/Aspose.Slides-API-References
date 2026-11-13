@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlide
-second_title: Aspose.Sildes για .NET API Reference
-description: Αντιπροσωπεύει τη διαφάνεια master για σημειώσεις.
+second_title: Aspose.Sildes για .NET Αναφορά API
+description: Αναπαριστά τη κύρια διαφάνεια για σημειώσεις.
 type: docs
-weight: 6350
+weight: 6370
 url: /el/aspose.slides/imasterhandoutslide/
 ---
-## IMasterHandoutSlide διεπαφή
+## IMasterHandoutSlide διασύνδεση
 
-Αντιπροσωπεύει τη διαφάνεια master για σημειώσεις.
+Αναπαριστά τη κύρια διαφάνεια για σημειώσεις.
 
 ```csharp
 public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
@@ -16,17 +16,17 @@ public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
 
 ## Ιδιότητες
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής IBaseSlide. Μόνο για ανάγνωση [`IBaseSlide`](../ibaseslide). |
-| [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | Επιστρέφει τη διεπαφή IMasterThemeable. Μόνο για ανάγνωση [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [DrawingGuides](../../aspose.slides/imasterhandoutslide/drawingguides) { get; } | Επιστρέφει μια συλλογή οδηγών σχεδίασης για τη διαφάνεια master σημειώσεων. Μόνο για ανάγνωση [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | Επιστρέφει το διαχειριστή HeaderFooter της διαφάνειας master σημειώσεων. Μόνο για ανάγνωση [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
+| [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | Επιτρέπει την πρόσβαση στη βασική διασύνδεση IBaseSlide. Μόνο για ανάγνωση [`IBaseSlide`](../ibaseslide). |
+| [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | Επιστρέφει τη διασύνδεση IMasterThemeable. Μόνο για ανάγνωση [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
+| [DrawingGuides](../../aspose.slides/imasterhandoutslide/drawingguides) { get; } | Επιστρέφει μια συλλογή από οδηγούς σχεδίασης για τη κύρια διαφάνεια σημειώσεων. Μόνο για ανάγνωση [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | Επιστρέφει τον διαχειριστή HeaderFooter της κύριας διαφάνειας σημειώσεων. Μόνο για ανάγνωση [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
 
 ### Δείτε επίσης
 
-* διεπαφή [IBaseSlide](../ibaseslide)
-* διεπαφή [IMasterThemeable](../../aspose.slides.theme/imasterthemeable)
+* διασύνδεση [IBaseSlide](../ibaseslide)
+* διασύνδεση [IMasterThemeable](../../aspose.slides.theme/imasterthemeable)
 * χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
 * συγκρότημα [Aspose.Slides](../../)
 

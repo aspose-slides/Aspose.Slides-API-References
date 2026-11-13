@@ -1,14 +1,14 @@
 ---
 title: IMathLeftSubSuperscriptElement
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Specificeert het Sub-Superscript-object dat bestaat uit een basis en een subscript en superscript die links van de basis worden geplaatst.
+description: Specificeert het Sub-Superscript-object dat bestaat uit een base en een subscript en superscript die links van de base zijn geplaatst.
 type: docs
-weight: 8310
+weight: 8330
 url: /nl/aspose.slides.mathtext/imathleftsubsuperscriptelement/
 ---
 ## IMathLeftSubSuperscriptElement interface
 
-Specificeert het Sub-Superscript-object, dat bestaat uit een basis en een subscript en superscript die links van de basis worden geplaatst.
+Specificeert het Sub-Superscript-object, dat bestaat uit een basis en een subscript en superscript die links van de basis zijn geplaatst.
 
 ```csharp
 public interface IMathLeftSubSuperscriptElement : IMathElement
@@ -18,7 +18,7 @@ public interface IMathLeftSubSuperscriptElement : IMathElement
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/asimathelement) { get; } | Stelt in staat de basis IMathElement interface op te halen [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/asimathelement) { get; } | Staat toe de basis IMathElement interface [`IMathElement`](../imathelement) op te halen |
 | [Base](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/base) { get; } | Basisargument |
 | [Subscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/subscript) { get; } | Subscript |
 | [Superscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/superscript) { get; } | Superscript |

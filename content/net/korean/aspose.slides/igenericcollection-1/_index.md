@@ -1,14 +1,14 @@
 ---
 title: IGenericCollectionT
-second_title: Aspose.Sildes for .NET API 참조
-description: 보조 제네릭 컬렉션 인터페이스.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 보조 일반 컬렉션 인터페이스입니다.
 type: docs
-weight: 5960
+weight: 5980
 url: /ko/aspose.slides/igenericcollection-1/
 ---
 ## IGenericCollection&lt;T&gt; 인터페이스
 
-보조 제네릭 컬렉션 인터페이스.
+보조 일반 컬렉션 인터페이스입니다.
 
 ```csharp
 public interface IGenericCollection<T> : ICollection, IEnumerable<T>
@@ -25,7 +25,7 @@ public interface IGenericCollection<T> : ICollection, IEnumerable<T>
 | [AsICollection](../../aspose.slides/igenericcollection`1/asicollection) { get; } | ICollection 인터페이스를 반환합니다. |
 | [AsIEnumerable](../../aspose.slides/igenericcollection`1/asienumerable) { get; } | IEnumerable 인터페이스를 반환합니다. 읽기 전용 IEnumerable. |
 
-### 관련 항목
+### 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

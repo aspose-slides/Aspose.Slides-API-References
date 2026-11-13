@@ -3,12 +3,12 @@ title: MathSpacingRules
 second_title: Referência da API Aspose.Sildes para .NET
 description: Tipos de espaçamento horizontal entre colunas de uma matriz
 type: docs
-weight: 8990
+weight: 9010
 url: /pt/aspose.slides.mathtext/mathspacingrules/
 ---
 ## Enumeração MathSpacingRules
 
-Tipos de espaçamento (espaçamento horizontal) entre colunas de uma matriz
+Tipos de espaço (espaçamento horizontal) entre colunas de uma matriz
 
 ```csharp
 public enum MathSpacingRules
@@ -21,8 +21,8 @@ public enum MathSpacingRules
 | SingleSpacingGap | `0` | Único (1 em para colunas ou 1 linha para linhas) |
 | OneAndHalfSpacingGap | `1` | Um e meio (1,5 em para colunas ou 1,5 linhas para linhas) |
 | DoubleSpacingGap | `2` | Espaçamento duplo (2 em para colunas ou 2 linhas para linhas) |
-| Exactly | `3` | Valor exato Para colunas, baseia-se no valor de ColumnGap, medido em twips. Para linhas, baseia-se no valor de RowGap, medido em twips |
-| Multiple | `4` | Múltiplo Para colunas, baseia-se no valor de ColumnGap, medido em incrementos de 0,5 em. Para linhas, baseia-se no valor de RowGap, medido em linhas |
+| Exactly | `3` | Valor exato Para colunas, depende do valor de ColumnGap, medido em twips Para linhas, depende do valor de RowGap, medido em twips |
+| Multiple | `4` | Múltiplo Para colunas, depende do valor de ColumnGap, medido em incrementos de 0,5 em Para linhas, depende do valor de RowGap, medido em linhas |
 
 ### Veja Também
 

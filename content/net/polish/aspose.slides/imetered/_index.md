@@ -1,14 +1,14 @@
 ---
 title: IMetered
 second_title: Aspose.Sildes dla .NET API Reference
-description: Udostępnia metody do ustawiania metrowanego klucza.
+description: Udostępnia metody do ustawiania klucza mierzonego.
 type: docs
-weight: 6450
+weight: 6470
 url: /pl/aspose.slides/imetered/
 ---
 ## IMetered interfejs
 
-Udostępnia metody do ustawiania metrowanego klucza.
+Udostępnia metody do ustawiania klucza mierzonego.
 
 ```csharp
 public interface IMetered
@@ -18,7 +18,7 @@ public interface IMetered
 
 | Nazwa | Opis |
 | --- | --- |
-| [SetMeteredKey](../../aspose.slides/imetered/setmeteredkey)(string, string) | Ustawia metrowany klucz publiczny i prywatny. |
+| [SetMeteredKey](../../aspose.slides/imetered/setmeteredkey)(string, string) | Ustawia publiczny i prywatny klucz metrowany. |
 
 ### Zobacz także
 

@@ -1,9 +1,9 @@
 ---
 title: ILicense
-second_title: Aspose.Sildes .NET API Referencia
+second_title: Aspose.Sildes .NET API referencia
 description: Metódusokat biztosít a komponens licenceléséhez.
 type: docs
-weight: 6260
+weight: 6280
 url: /hu/aspose.slides/ilicense/
 ---
 ## ILicense interfész
@@ -11,7 +11,7 @@ url: /hu/aspose.slides/ilicense/
 Metódusokat biztosít a komponens licenceléséhez.
 
 ```csharp
-public interface ILicense
+public interface ILLicense
 ```
 
 ## Metódusok
@@ -19,13 +19,13 @@ public interface ILicense
 | Név | Leírás |
 | --- | --- |
 | [IsLicensed](../../aspose.slides/ilicense/islicensed)() | Ellenőrzi, hogy a licenc alkalmazva van-e a komponensre |
-| [ResetLicense](../../aspose.slides/ilicense/resetlicense)() | Visszaállítja a licencet |
+| [ResetLicense](../../aspose.slides/ilicense/resetlicense)() | A licenc visszaállítása |
 | [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense)(Stream) | Licenceli a komponenst. |
 | [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense_1)(string) | Licenceli a komponenst. |
 
 ### Példák
 
-Ebben a példában megpróbálja megtalálni a MyLicense.lic nevű licencfájlt a komponenst tartalmazó mappában, a hívó összeállítást tartalmazó mappában, a belépő összeállítás mappájában, majd a hívó összeállítás beágyazott erőforrásaiban.
+Ebben a példában megpróbálja megtalálni a MyLicense.lic nevű licencfájlt a komponenset tartalmazó mappában, a hívó assembly-t tartalmazó mappában, a belépési assembly mappájában, majd a hívó assembly beágyazott erőforrásaiban.
 
 ```csharp
 [C#]

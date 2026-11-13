@@ -1,20 +1,20 @@
 ---
 title: SetAsTotal
-second_title: Aspose.Sildes .NET API Referansı
-description: Veri noktasını toplam olarak ayarlar. Yalnızca Waterfall serisi türü için uygulanır.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Veri noktasını toplam olarak ayarlar. Yalnızca Waterfall seri tipi için uygulanır.
 type: docs
-weight: 170
+weight: 210
 url: /tr/aspose.slides.charts/chartdatapoint/setastotal/
 ---
-## ChartDataPoint.SetAsTotal özellik
+## ChartDataPoint.SetAsTotal özelliği
 
-Veri noktasını toplam olarak ayarlar. Yalnızca Waterfall serisi tipi için uygulanır.
+Veri noktasını toplam olarak ayarlar. Yalnızca Waterfall seri tipi için uygulanır.
 
 ```csharp
 public bool SetAsTotal { get; set; }
 ```
 
-### Ayrıca Bakınız
+### Ayrıca bakınız
 
 * sınıf [ChartDataPoint](../../chartdatapoint)
 * ad alanı [Aspose.Slides.Charts](../../chartdatapoint)

@@ -1,12 +1,12 @@
 ---
 title: IWheelTransition
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Tekerlek slayt geçiş efekti.
 type: docs
-weight: 10220
+weight: 10240
 url: /tr/aspose.slides.slideshow/iwheeltransition/
 ---
-## IWheelTransition interface
+## IWheelTransition arayüz
 
 Tekerlek slayt geçiş efekti.
 
@@ -18,10 +18,10 @@ public interface IWheelTransition : ITransitionValueBase
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iwheeltransition/asitransitionvaluebase) { get; } | ITransitionValueBase taban arayüzünü almayı sağlar. Salt okunur [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Spokes](../../aspose.slides.slideshow/iwheeltransition/spokes) { get; set; } | Tekerlek geçişinin mil sayısı. Okuma/yazma UInt32. |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iwheeltransition/asitransitionvaluebase) { get; } | Temel ITransitionValueBase arayüzünü almaya izin verir. Yalnızca okunabilir [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Spokes](../../aspose.slides.slideshow/iwheeltransition/spokes) { get; set; } | Tekerlek geçişinin spoke sayısı. Okunabilir/yazılabilir UInt32. |
 
-### Başvurular
+### Ayrıca Bakınız
 
 * arayüz [ITransitionValueBase](../itransitionvaluebase)
 * ad alanı [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

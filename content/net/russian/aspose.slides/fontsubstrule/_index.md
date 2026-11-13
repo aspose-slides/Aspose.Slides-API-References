@@ -1,9 +1,9 @@
 ---
 title: FontSubstRule
-second_title: Aspose.Sildes для .NET Справочник API
+second_title: Справочник API Aspose.Sildes для .NET
 description: Представляет информацию о замене шрифтов
 type: docs
-weight: 4890
+weight: 4910
 url: /ru/aspose.slides/fontsubstrule/
 ---
 ## FontSubstRule класс
@@ -18,8 +18,8 @@ public class FontSubstRule : IFontSubstRule
 
 | Имя | Описание |
 | --- | --- |
-| [FontSubstRule](fontsubstrule#constructor)(IFontData, IFontData) | Создаёт новый экземпляр. |
-| [FontSubstRule](fontsubstrule#constructor_1)(IFontData, IFontData, FontSubstCondition) | Создаёт новый экземпляр. |
+| [FontSubstRule](fontsubstrule#constructor)(IFontData, IFontData) | Создает новый экземпляр. |
+| [FontSubstRule](fontsubstrule#constructor_1)(IFontData, IFontData, FontSubstCondition) | Создает новый экземпляр. |
 
 ## Свойства
 

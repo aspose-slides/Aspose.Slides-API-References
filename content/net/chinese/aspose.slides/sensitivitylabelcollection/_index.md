@@ -1,14 +1,14 @@
 ---
 title: SensitivityLabelCollection
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示应用于文档的敏感度标签集合。
+description: 表示应用于文档的敏感性标签集合。
 type: docs
-weight: 9810
+weight: 9830
 url: /zh/aspose.slides/sensitivitylabelcollection/
 ---
 ## SensitivityLabelCollection 类
 
-表示应用于文档的敏感度标签集合。
+表示应用于文档的敏感性标签集合。
 
 ```csharp
 public sealed class SensitivityLabelCollection : DomObject<Presentation>, 
@@ -20,20 +20,20 @@ public sealed class SensitivityLabelCollection : DomObject<Presentation>,
 | 名称 | 描述 |
 | --- | --- |
 | [Count](../../aspose.slides/sensitivitylabelcollection/count) { get; } | 返回集合中元素的数量。只读 Int32。 |
-| [Item](../../aspose.slides/sensitivitylabelcollection/item) { get; } | 返回按索引获取的敏感度标签。 |
+| [Item](../../aspose.slides/sensitivitylabelcollection/item) { get; } | 通过索引返回敏感性标签。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [Add](../../aspose.slides/sensitivitylabelcollection/add#add_1)(ISensitivityLabel) | 向集合添加 SensitivityLabel。 |
-| [Add](../../aspose.slides/sensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | 在集合末尾添加敏感度标签。 |
+| [Add](../../aspose.slides/sensitivitylabelcollection/add#add_1)(ISensitivityLabel) | 向集合中添加 SensitivityLabel。 |
+| [Add](../../aspose.slides/sensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | 在集合末尾添加敏感性标签。 |
 | [Clear](../../aspose.slides/sensitivitylabelcollection/clear)() | 从集合中移除所有元素。 |
 | [CopyTo](../../aspose.slides/sensitivitylabelcollection/copyto)(ISensitivityLabel[], int) | 将集合中的所有元素复制到指定的数组。 |
-| [GetEnumerator](../../aspose.slides/sensitivitylabelcollection/getenumerator)() | 返回一个遍历集合的枚举器。 |
-| [RemoveAt](../../aspose.slides/sensitivitylabelcollection/removeat)(int) | 移除指定索引处的敏感度标签。 |
+| [GetEnumerator](../../aspose.slides/sensitivitylabelcollection/getenumerator)() | 返回遍历集合的枚举器。 |
+| [RemoveAt](../../aspose.slides/sensitivitylabelcollection/removeat)(int) | 删除指定索引处的敏感性标签。 |
 
-### 另请参阅
+### 参见
 
 * 类 [DomObject&lt;TParent&gt;](../domobject-1)
 * 类 [Presentation](../presentation)

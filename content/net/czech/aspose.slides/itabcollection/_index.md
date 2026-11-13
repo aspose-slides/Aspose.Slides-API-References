@@ -1,14 +1,14 @@
 ---
 title: ITabCollection
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje kolekci tabů.
+second_title: Aspose.Sildes pro .NET – reference API
+description: Representuje kolekci záložek.
 type: docs
-weight: 7200
+weight: 7220
 url: /cs/aspose.slides/itabcollection/
 ---
 ## ITabCollection rozhraní
 
-Representuje kolekci tabů.
+Representuje kolekci záložek.
 
 ```csharp
 public interface ITabCollection : IGenericCollection<ITab>
@@ -16,18 +16,18 @@ public interface ITabCollection : IGenericCollection<ITab>
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [Item](../../aspose.slides/itabcollection/item) { get; } | Získá prvek na zadaném indexu. Pouze ke čtení [`ITab`](../itab). |
+| [Item](../../aspose.slides/itabcollection/item) { get; } | Získá prvek na zadaném indexu. Pouze pro čtení [`ITab`](../itab). |
 
 ## Metody
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/itabcollection/add#add_1)(ITab) | Přidá Tab do kolekce. |
 | [Add](../../aspose.slides/itabcollection/add#add)(double, TabAlignment) | Přidá Tab do kolekce. |
-| [Clear](../../aspose.slides/itabcollection/clear)() | Odstraní všechny prvky z kolekce. |
-| [RemoveAt](../../aspose.slides/itabcollection/removeat)(int) | Odstraní prvek na zadaném indexu v kolekci. |
+| [Clear](../../aspose.slides/itabcollection/clear)() | Odebere všechny prvky z kolekce. |
+| [RemoveAt](../../aspose.slides/itabcollection/removeat)(int) | Odebere prvek na zadaném indexu kolekce. |
 
 ### Viz také
 

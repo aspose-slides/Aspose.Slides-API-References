@@ -1,9 +1,9 @@
 ---
 title: IFormatScheme
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 存储形状的主题定义格式。
 type: docs
-weight: 11270
+weight: 11290
 url: /zh/aspose.slides.theme/iformatscheme/
 ---
 ## IFormatScheme 接口
@@ -19,10 +19,10 @@ public interface IFormatScheme : ISlideComponent
 | 名称 | 描述 |
 | --- | --- |
 | [AsISlideComponent](../../aspose.slides.theme/iformatscheme/asislidecomponent) { get; } | 允许获取基础 ISlideComponent 接口。只读 [`ISlideComponent`](../../aspose.slides/islidecomponent)。 |
-| [BackgroundFillStyles](../../aspose.slides.theme/iformatscheme/backgroundfillstyles) { get; } | 返回主题定义的背景填充样式的集合。只读 [`IFillFormatCollection`](../ifillformatcollection)。 |
-| [EffectStyles](../../aspose.slides.theme/iformatscheme/effectstyles) { get; } | 返回主题定义的效果样式的集合。只读 [`IEffectStyleCollection`](../ieffectstylecollection)。 |
-| [FillStyles](../../aspose.slides.theme/iformatscheme/fillstyles) { get; } | 返回主题定义的填充样式的集合。只读 [`IFillFormatCollection`](../ifillformatcollection)。 |
-| [LineStyles](../../aspose.slides.theme/iformatscheme/linestyles) { get; } | 返回主题定义的线条样式的集合。只读 [`ILineFormatCollection`](../ilineformatcollection)。 |
+| [BackgroundFillStyles](../../aspose.slides.theme/iformatscheme/backgroundfillstyles) { get; } | 返回主题定义的背景填充样式集合。只读 [`IFillFormatCollection`](../ifillformatcollection)。 |
+| [EffectStyles](../../aspose.slides.theme/iformatscheme/effectstyles) { get; } | 返回主题定义的效果样式集合。只读 [`IEffectStyleCollection`](../ieffectstylecollection)。 |
+| [FillStyles](../../aspose.slides.theme/iformatscheme/fillstyles) { get; } | 返回主题定义的填充样式集合。只读 [`IFillFormatCollection`](../ifillformatcollection)。 |
+| [LineStyles](../../aspose.slides.theme/iformatscheme/linestyles) { get; } | 返回主题定义的线条样式集合。只读 [`ILineFormatCollection`](../ilineformatcollection)。 |
 
 ### 另见
 

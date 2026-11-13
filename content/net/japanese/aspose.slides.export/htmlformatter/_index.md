@@ -3,7 +3,7 @@ title: HtmlFormatter
 second_title: Aspose.Sildes for .NET API リファレンス
 description: HTML ファイルテンプレートを表します。
 type: docs
-weight: 3870
+weight: 3890
 url: /ja/aspose.slides.export/htmlformatter/
 ---
 ## HtmlFormatter クラス
@@ -16,11 +16,11 @@ public sealed class HtmlFormatter : IHtmlFormatter
 
 ## メソッド
 
-| Name | 説明 |
+| 名前 | 説明 |
 | --- | --- |
-| static [CreateCustomFormatter](../../aspose.slides.export/htmlformatter/createcustomformatter)(IHtmlFormattingController) | カスタムコールバック駆動の HTML 生成のための HTML フォーマッタを作成し、返します。 |
-| static [CreateDocumentFormatter](../../aspose.slides.export/htmlformatter/createdocumentformatter)(string, bool) | スライドが縦に並んだシンプルなドキュメントビュー用の HTML フォーマッタを作成し、返します。 |
-| static [CreateSlideShowFormatter](../../aspose.slides.export/htmlformatter/createslideshowformatter)(string, bool) | スライドが順番に表示されるシンプルなスライドショー HTML 用の HTML フォーマッタを作成し、返します。 |
+| static [CreateCustomFormatter](../../aspose.slides.export/htmlformatter/createcustomformatter)(IHtmlFormattingController) | カスタム コールバック駆動の HTML 生成用に HTML フォーマッタを作成し、返します。 |
+| static [CreateDocumentFormatter](../../aspose.slides.export/htmlformatter/createdocumentformatter)(string, bool) | スライドが上下に連続するシンプルな文書ビュー用に HTML フォーマッタを作成し、返します。 |
+| static [CreateSlideShowFormatter](../../aspose.slides.export/htmlformatter/createslideshowformatter)(string, bool) | スライドが順に表示されるシンプルなスライドショー HTML 用に HTML フォーマッタを作成し、返します。 |
 
 ### 参照
 

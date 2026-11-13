@@ -1,14 +1,14 @@
 ---
 title: ChartCategoryLevelsManager
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Kontainer terkelola nilai-nilai level kategori diagram.
+description: Kontainer yang dikelola untuk nilai-nilai tingkat kategori diagram.
 type: docs
-weight: 1290
+weight: 1300
 url: /id/aspose.slides.charts/chartcategorylevelsmanager/
 ---
 ## ChartCategoryLevelsManager kelas
 
-Kontainer terkelola nilai-nilai level kategori diagram.
+Kontainer yang dikelola untuk nilai-nilai tingkat kategori diagram.
 
 ```csharp
 public class ChartCategoryLevelsManager : IChartCategoryLevelsManager
@@ -18,14 +18,14 @@ public class ChartCategoryLevelsManager : IChartCategoryLevelsManager
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Item](../../aspose.slides.charts/chartcategorylevelsmanager/item) { get; } | Mengembalikan objek IChartDataCell untuk level yang ditentukan. |
+| [Item](../../aspose.slides.charts/chartcategorylevelsmanager/item) { get; } | Mengembalikan objek IChartDataCell untuk tingkat yang ditentukan. |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
-| [DeleteGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/deletegroupingitem)(int) | Menghapus item pengelompokan untuk level yang ditentukan. |
-| [SetGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/setgroupingitem)(int, object) | Menetapkan item pengelompokan untuk level yang ditentukan. |
+| [DeleteGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/deletegroupingitem)(int) | Menghapus item pengelompokan untuk tingkat yang ditentukan. |
+| [SetGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/setgroupingitem)(int, object) | Mengatur item pengelompokan untuk tingkat yang ditentukan. |
 
 ### Lihat Juga
 

@@ -1,14 +1,14 @@
 ---
 title: IChartWall
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: 3D चार्ट्स पर दीवारों का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: 3d चार्ट पर दीवारों का प्रतिनिधित्व करता है।
 type: docs
-weight: 2010
+weight: 2030
 url: /hi/aspose.slides.charts/ichartwall/
 ---
 ## IChartWall इंटरफ़ेस
 
-3D चार्ट्स पर दीवारों का प्रतिनिधित्व करती है।
+3डी चार्ट पर दीवारों का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IChartWall
@@ -18,9 +18,9 @@ public interface IChartWall
 
 | नाम | विवरण |
 | --- | --- |
-| [Format](../../aspose.slides.charts/ichartwall/format) { get; } | दीवार के भराव, रेखा, प्रभाव और 3D शैलियों को लौटाता है। केवल पढ़ने योग्य [`IFormat`](../iformat). |
-| [PictureType](../../aspose.slides.charts/ichartwall/picturetype) { get; set; } | चित्र प्रकार को वापस देता है या सेट करता है। पढ़ने/लिखने योग्य [`PictureType`](./picturetype). |
-| [Thickness](../../aspose.slides.charts/ichartwall/thickness) { get; set; } | दीवार की मोटाई को प्लॉट आयतन के सबसे बड़े आयाम के प्रतिशत के रूप में लौटाता है या सेट करता है। पढ़ने/लिखने योग्य Int32. |
+| [Format](../../aspose.slides.charts/ichartwall/format) { get; } | दीवार भराव, रेखा, प्रभाव, 3डी शैलियों को लौटाता है। केवल-पढ़ने योग्य [`IFormat`](../iformat)। |
+| [PictureType](../../aspose.slides.charts/ichartwall/picturetype) { get; set; } | चित्र प्रकार को लौटाता या सेट करता है। पढ़ने/लिखने योग्य [`PictureType`](./picturetype)। |
+| [Thickness](../../aspose.slides.charts/ichartwall/thickness) { get; set; } | प्लॉट आयतन के सबसे बड़े आयाम के प्रतिशत के रूप में दीवारों की मोटाई को लौटाता या सेट करता है। पढ़ने/लिखने योग्य Int32। |
 
 ### संबंधित देखें
 

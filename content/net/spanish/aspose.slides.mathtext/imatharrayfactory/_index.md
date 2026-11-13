@@ -1,9 +1,9 @@
 ---
 title: IMathArrayFactory
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para la referencia de API de .NET
 description: Permite crear una matriz matemática
 type: docs
-weight: 8110
+weight: 8130
 url: /es/aspose.slides.mathtext/imatharrayfactory/
 ---
 ## IMathArrayFactory interfaz

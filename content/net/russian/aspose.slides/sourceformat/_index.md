@@ -3,7 +3,7 @@ title: SourceFormat
 second_title: Aspose.Sildes для .NET справочник API
 description: Представляет формат исходного файла.
 type: docs
-weight: 10680
+weight: 10700
 url: /ru/aspose.slides/sourceformat/
 ---
 ## Перечисление SourceFormat
@@ -22,17 +22,17 @@ public enum SourceFormat
 | Pptx | `1` | Microsoft Office Open XML презентация (*.pptx). |
 | Odp | `2` | OpenDocument презентация (*.odp). |
 | Pptm | `3` | Microsoft Office Open XML презентация с поддержкой макросов (*.pptm). |
-| Ppsx | `4` | Microsoft Office Open XML слайд-шоу (*.ppsx). |
-| Ppsm | `5` | Microsoft Office Open XML слайд-шоу с поддержкой макросов (*.ppsm). |
+| Ppsx | `4` | Microsoft Office Open XML показ слайдов (*.ppsx). |
+| Ppsm | `5` | Microsoft Office Open XML показ слайдов с поддержкой макросов (*.ppsm). |
 | Potx | `6` | Microsoft Office Open XML шаблон (*.potx). |
 | Potm | `7` | Microsoft Office Open XML шаблон с поддержкой макросов (*.potm). |
-| Pps | `8` | Microsoft PowerPoint 97-2003 слайд-шоу (*.pps). |
+| Pps | `8` | Microsoft PowerPoint 97-2003 показ слайдов (*.pps). |
 | Pot | `9` | Microsoft PowerPoint 97-2003 шаблон (*.pot). |
 | Otp | `10` | OpenDocument шаблон презентации (*.otp). |
 | Fodp | `11` | Flat XML ODF презентация (*.fodp). |
 | Xml | `12` | PowerPoint XML презентация (*.xml). |
 
-### См. также
+### Смотрите также
 
 * пространство имён [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

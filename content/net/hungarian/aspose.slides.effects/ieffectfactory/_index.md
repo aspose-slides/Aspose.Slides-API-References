@@ -1,9 +1,9 @@
 ---
 title: IEffectFactory
-second_title: Aspose.Sildes a .NET API referenciája
-description: Lehetővé teszi hatások példányainak létrehozását
+second_title: Aspose.Sildes .NET API referencia
+description: Lehetővé teszi a hatások példányainak létrehozását
 type: docs
-weight: 3290
+weight: 3310
 url: /hu/aspose.slides.effects/ieffectfactory/
 ---
 ## IEffectFactory interfész
@@ -24,16 +24,16 @@ public interface IEffectFactory
 
 | Név | Leírás |
 | --- | --- |
-| [CreateGlow](../../aspose.slides.effects/ieffectfactory/createglow)() | Létrehozza a Glow hatást. |
-| [CreateInnerShadow](../../aspose.slides.effects/ieffectfactory/createinnershadow)() | Létrehozza az Inner shafow hatást. |
-| [CreateOuterShadow](../../aspose.slides.effects/ieffectfactory/createoutershadow)() | Létrehozza a Outer shadow hatást. |
-| [CreatePresetShadow](../../aspose.slides.effects/ieffectfactory/createpresetshadow)() | Létrehozza a Preset shadow hatást. |
-| [CreateReflection](../../aspose.slides.effects/ieffectfactory/createreflection)() | Létrehozza a Reflection hatást. |
-| [CreateSoftEdge](../../aspose.slides.effects/ieffectfactory/createsoftedge)() | Létrehozza a Soft Edge hatást. |
+| [CreateGlow](../../aspose.slides.effects/ieffectfactory/createglow)() | Létrehozza a Glow effektust. |
+| [CreateInnerShadow](../../aspose.slides.effects/ieffectfactory/createinnershadow)() | Létrehozza az Inner shafow effektust. |
+| [CreateOuterShadow](../../aspose.slides.effects/ieffectfactory/createoutershadow)() | Létrehozza az Outer shadow effektust. |
+| [CreatePresetShadow](../../aspose.slides.effects/ieffectfactory/createpresetshadow)() | Létrehozza a Preset shadow effektust. |
+| [CreateReflection](../../aspose.slides.effects/ieffectfactory/createreflection)() | Létrehozza a Reflection effektust. |
+| [CreateSoftEdge](../../aspose.slides.effects/ieffectfactory/createsoftedge)() | Létrehozza a Soft Edge effektust. |
 
-### Megjegyzés
+### Megjegyzések
 
-COM kompatibilitáshoz.
+COM-kompatibilitás miatt.
 
 ### Lásd még
 

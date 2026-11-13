@@ -3,7 +3,7 @@ title: Label
 second_title: Aspose.Sildes for .NET API 참조
 description: Label. 읽기 전용 IDataLabelaspose.slides.charts/idatalabel.
 type: docs
-weight: 140
+weight: 180
 url: /ko/aspose.slides.charts/chartdatapoint/label/
 ---
 ## ChartDataPoint.Label 속성
@@ -14,7 +14,7 @@ Label. 읽기 전용 [`IDataLabel`](../../idatalabel).
 public IDataLabel Label { get; }
 ```
 
-### 참고
+### 참조
 
 * 인터페이스 [IDataLabel](../../idatalabel)
 * 클래스 [ChartDataPoint](../../chartdatapoint)

@@ -1,9 +1,9 @@
 ---
 title: FontSubstRule
-second_title: Aspose.Sildes .NET API Referencia
-description: Betűtípus helyettesítési információkat képvisel
+second_title: Aspose.Sildes for .NET API-referencia
+description: A betűtípus helyettesítési információkat képviseli
 type: docs
-weight: 4890
+weight: 4910
 url: /hu/aspose.slides/fontsubstrule/
 ---
 ## FontSubstRule osztály

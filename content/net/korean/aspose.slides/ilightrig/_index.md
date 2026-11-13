@@ -1,9 +1,9 @@
 ---
 title: ILightRig
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: LightRig을 나타냅니다.
 type: docs
-weight: 6270
+weight: 6290
 url: /ko/aspose.slides/ilightrig/
 ---
 ## ILightRig 인터페이스
@@ -18,17 +18,17 @@ public interface ILightRig
 
 | 이름 | 설명 |
 | --- | --- |
-| [Direction](../../aspose.slides/ilightrig/direction) { get; set; } | 광 방향. 읽기/쓰기 [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | 도형에 적용할 수 있는 미리 설정된 라이트 오른쪽을 나타냅니다. 라이트 리그는 3D 씬에 대해 특정 방식으로 방향이 지정된 조명 그룹을 나타냅니다. 읽기/쓰기 [`LightRigPresetType`](../lightrigpresettype). |
+| [Direction](../../aspose.slides/ilightrig/direction) { get; set; } | Light direction. 읽기/쓰기 [`LightingDirection`](../lightingdirection). |
+| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | Represents a preset light right that can be applied to a shape. The light rig represents a group of lights oriented in a specific way relative to a 3D scene. 읽기/쓰기 [`LightRigPresetType`](../lightrigpresettype). |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | 회전은 위도 좌표, 경도 좌표 및 위도와 경도 좌표를 축으로 하는 회전을 사용하여 정의됩니다. 반환 배열의 첫 번째 요소는 위도, 두 번째 요소는 경도, 세 번째 요소는 회전입니다. |
-| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | 회전은 위도 좌표, 경도 좌표 및 위도와 경도 좌표를 축으로 하는 회전을 사용하여 정의됩니다. |
+| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. first element in return array - latitude, second - longitude, third - revolution. |
+| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. |
 
-### 관련 항목
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,9 +1,9 @@
 ---
 title: MathGroupingCharacterFactory
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Ermöglicht das Erstellen eines mathematischen Gruppierungszeichens
 type: docs
-weight: 8770
+weight: 8790
 url: /de/aspose.slides.mathtext/mathgroupingcharacterfactory/
 ---
 ## MathGroupingCharacterFactory Klasse
@@ -16,18 +16,18 @@ public class MathGroupingCharacterFactory : IMathGroupingCharacterFactory
 
 ## Konstruktoren
 
-| Name | Description |
+| Name | Beschreibung |
 | --- | --- |
 | [MathGroupingCharacterFactory](mathgroupingcharacterfactory)() | Der Standardkonstruktor. |
 
 ## Methoden
 
-| Name | Description |
+| Name | Beschreibung |
 | --- | --- |
 | [CreateMathGroupingCharacter](../../aspose.slides.mathtext/mathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter)(IMathElement) | Erstellt ein mathematisches Gruppierungszeichen |
 | [CreateMathGroupingCharacter](../../aspose.slides.mathtext/mathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter_1)(IMathElement, char, MathTopBotPositions, MathTopBotPositions) | Erstellt ein mathematisches Gruppierungszeichen |
 
-### Bemerkungen
+### Hinweise
 
 Für COM-Kompatibilität
 

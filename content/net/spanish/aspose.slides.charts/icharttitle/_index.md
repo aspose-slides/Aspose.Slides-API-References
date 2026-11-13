@@ -1,9 +1,9 @@
 ---
 title: IChartTitle
-second_title: Referencia de la API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa las propiedades del título del gráfico.
 type: docs
-weight: 2000
+weight: 2020
 url: /es/aspose.slides.charts/icharttitle/
 ---
 ## IChartTitle interfaz
@@ -16,7 +16,7 @@ public interface IChartTitle : IActualLayout, ILayoutable, IOverridableText
 
 ## Propiedades
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | [AsILayoutable](../../aspose.slides.charts/icharttitle/asilayoutable) { get; } | Permite obtener la interfaz base ILayoutable. Solo lectura [`ILayoutable`](../ilayoutable). |
 | [AsIOverridableText](../../aspose.slides.charts/icharttitle/asioverridabletext) { get; } | Permite obtener la interfaz base IOverridableText. Solo lectura [`IOverridableText`](../ioverridabletext). |

@@ -1,14 +1,14 @@
 ---
 title: IColorOperationCollection
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 色変換操作のコレクションを表します。
+description: カラー変換操作のコレクションを表します。
 type: docs
-weight: 5510
+weight: 5530
 url: /ja/aspose.slides/icoloroperationcollection/
 ---
 ## IColorOperationCollection インターフェイス
 
-色変換操作のコレクションを表します。
+カラー変換操作のコレクションを表します。
 
 ```csharp
 public interface IColorOperationCollection : IGenericCloneable<IColorOperationCollection>, 
@@ -19,18 +19,18 @@ public interface IColorOperationCollection : IGenericCloneable<IColorOperationCo
 
 | 名前 | 説明 |
 | --- | --- |
-| [Item](../../aspose.slides/icoloroperationcollection/item) { get; set; } | 指定されたインデックスの操作を取得または設定します。読み取り/書き込み [`IColorOperation`](../icoloroperation). |
+| [Item](../../aspose.slides/icoloroperationcollection/item) { get; set; } | 指定されたインデックスの操作を取得または設定します。読み取り/書き込み [`IColorOperation`](../icoloroperation)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [Add](../../aspose.slides/icoloroperationcollection/add#add)(ColorTransformOperation) | 新しい操作をコレクションの末尾に追加します。 |
-| [Add](../../aspose.slides/icoloroperationcollection/add#add_1)(ColorTransformOperation, float) | 新しい操作をコレクションの末尾に追加します。 |
-| [Clear](../../aspose.slides/icoloroperationcollection/clear)() | すべての色操作を削除します。 |
+| [Add](../../aspose.slides/icoloroperationcollection/add#add)(ColorTransformOperation) | コレクションの末尾に新しい操作を追加します。 |
+| [Add](../../aspose.slides/icoloroperationcollection/add#add_1)(ColorTransformOperation, float) | コレクションの末尾に新しい操作を追加します。 |
+| [Clear](../../aspose.slides/icoloroperationcollection/clear)() | すべてのカラー操作を削除します。 |
 | [Insert](../../aspose.slides/icoloroperationcollection/insert#insert)(int, ColorTransformOperation) | 新しい操作をコレクションに挿入します。 |
 | [Insert](../../aspose.slides/icoloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | 新しい操作をコレクションに挿入します。 |
-| [RemoveAt](../../aspose.slides/icoloroperationcollection/removeat)(int) | コレクションから色操作を削除します。 |
+| [RemoveAt](../../aspose.slides/icoloroperationcollection/removeat)(int) | コレクションからカラー操作を削除します。 |
 
 ### 参照
 

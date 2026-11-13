@@ -1,9 +1,9 @@
 ---
 title: TextStrikethroughType
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Aspose.Sildes pour .NET Référence d'API
 description: Représente le type de texte barré.
 type: docs
-weight: 10990
+weight: 11010
 url: /fr/aspose.slides/textstrikethroughtype/
 ---
 ## TextStrikethroughType énumération

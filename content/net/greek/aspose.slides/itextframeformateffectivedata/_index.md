@@ -1,12 +1,12 @@
 ---
 title: ITextFrameFormatEffectiveData
-second_title: Aspose.Sildes για .NET Αναφορά API
+second_title: Aspose.Sildes για .NET API Αναφορά
 description: Αμετάβλητο αντικείμενο που περιέχει τις αποτελεσματικές ιδιότητες μορφοποίησης πλαισίου κειμένου.
 type: docs
-weight: 7290
+weight: 7310
 url: /el/aspose.slides/itextframeformateffectivedata/
 ---
-## ITextFrameFormatEffectiveData διεπαφή
+## ITextFrameFormatEffectiveData διασύνδεση
 
 Αμετάβλητο αντικείμενο που περιέχει τις αποτελεσματικές ιδιότητες μορφοποίησης πλαισίου κειμένου.
 
@@ -16,28 +16,28 @@ public interface ITextFrameFormatEffectiveData
 
 ## Ιδιότητες
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
-| [AnchoringType](../../aspose.slides/itextframeformateffectivedata/anchoringtype) { get; } | Επιστρέφει το κάθετο κείμενο άγκυρας σε ένα TextFrame. Μόνο για ανάγνωση [`TextAnchorType`](../textanchortype). |
-| [AutofitType](../../aspose.slides/itextframeformateffectivedata/autofittype) { get; } | Επιστρέφει τη λειτουργία αυτόματης προσαρμογής του κειμένου. Μόνο για ανάγνωση [`TextAutofitType`](../textautofittype). |
-| [CenterText](../../aspose.slides/itextframeformateffectivedata/centertext) { get; } | Επιστρέφει εάν το κείμενο πρέπει να κεντράρεται οριζόντια στο κουτί. Μόνο για ανάγνωση Boolean. |
-| [ColumnCount](../../aspose.slides/itextframeformateffectivedata/columncount) { get; } | Καθορίζει τον αριθμό των στηλών κειμένου στο ορθογώνιο περιβάλλον. Μόνο για ανάγνωση Int32. |
-| [ColumnSpacing](../../aspose.slides/itextframeformateffectivedata/columnspacing) { get; } | Καθορίζει το διάστημα μεταξύ των στηλών κειμένου στην περιοχή κειμένου (σε points). Μόνο για ανάγνωση Single. |
-| [MarginBottom](../../aspose.slides/itextframeformateffectivedata/marginbottom) { get; } | Επιστρέφει το κάτω περιθώριο (points) σε ένα TextFrame. Μόνο για ανάγνωση Double. |
-| [MarginLeft](../../aspose.slides/itextframeformateffectivedata/marginleft) { get; } | Επιστρέφει το αριστερό περιθώριο (points) σε ένα TextFrame. Μόνο για ανάγνωση Double. |
-| [MarginRight](../../aspose.slides/itextframeformateffectivedata/marginright) { get; } | Επιστρέφει το δεξί περιθώριο (points) σε ένα TextFrame. Μόνο για ανάγνωση Double. |
-| [MarginTop](../../aspose.slides/itextframeformateffectivedata/margintop) { get; } | Επιστρέφει το άνω περιθώριο (points) σε ένα TextFrame. Μόνο για ανάγνωση Double. |
-| [TextStyle](../../aspose.slides/itextframeformateffectivedata/textstyle) { get; } | Επιστρέφει το στυλ του αποτελεσματικού κειμένου. Μόνο για ανάγνωση [`ITextStyleEffectiveData`](../itextstyleeffectivedata). |
-| [TextVerticalType](../../aspose.slides/itextframeformateffectivedata/textverticaltype) { get; } | Επιστρέφει τον προσανατολισμό του κειμένου. Μόνο για ανάγνωση [`TextVerticalType`](../textverticaltype). |
-| [WrapText](../../aspose.slides/itextframeformateffectivedata/wraptext) { get; } | Επιστρέφει εάν το κείμενο είναι αναδιπλωμένο στα περιθώρια του TextFrame. Μόνο για ανάγνωση Boolean. |
+| [AnchoringType](../../aspose.slides/itextframeformateffectivedata/anchoringtype) { get; } | Επιστρέφει το κατακόρυφο άγκυρο κείμενο σε ένα TextFrame. Μόνο ανάγνωση [`TextAnchorType`](../textanchortype). |
+| [AutofitType](../../aspose.slides/itextframeformateffectivedata/autofittype) { get; } | Επιστρέφει τη λειτουργία αυτόματης προσαρμογής κειμένου. Μόνο ανάγνωση [`TextAutofitType`](../textautofittype). |
+| [CenterText](../../aspose.slides/itextframeformateffectivedata/centertext) { get; } | Επιστρέφει αν το κείμενο πρέπει να κεντραριστεί οριζόντια στο πλαίσιο. Μόνο ανάγνωση Boolean. |
+| [ColumnCount](../../aspose.slides/itextframeformateffectivedata/columncount) { get; } | Καθορίζει τον αριθμό των στηλών κειμένου στο οριοθετημένο παραλληλόγραμμο. Μόνο ανάγνωση Int32. |
+| [ColumnSpacing](../../aspose.slides/itextframeformateffectivedata/columnspacing) { get; } | Καθορίζει το διάστημα μεταξύ των στηλών κειμένου στην περιοχή κειμένου (σε σημεία). Μόνο ανάγνωση Single. |
+| [MarginBottom](../../aspose.slides/itextframeformateffectivedata/marginbottom) { get; } | Επιστρέφει το κάτω περιθώριο (σημεία) σε ένα TextFrame. Μόνο ανάγνωση Double. |
+| [MarginLeft](../../aspose.slides/itextframeformateffectivedata/marginleft) { get; } | Επιστρέφει το αριστερό περιθώριο (σημεία) σε ένα TextFrame. Μόνο ανάγνωση Double. |
+| [MarginRight](../../aspose.slides/itextframeformateffectivedata/marginright) { get; } | Επιστρέφει το δεξιό περιθώριο (σημεία) σε ένα TextFrame. Μόνο ανάγνωση Double. |
+| [MarginTop](../../aspose.slides/itextframeformateffectivedata/margintop) { get; } | Επιστρέφει το πάνω περιθώριο (σημεία) σε ένα TextFrame. Μόνο ανάγνωση Double. |
+| [TextStyle](../../aspose.slides/itextframeformateffectivedata/textstyle) { get; } | Επιστρέφει το στυλ του αποτελεσματικού κειμένου. Μόνο ανάγνωση [`ITextStyleEffectiveData`](../itextstyleeffectivedata). |
+| [TextVerticalType](../../aspose.slides/itextframeformateffectivedata/textverticaltype) { get; } | Επιστρέφει τον προσανατολισμό του κειμένου. Μόνο ανάγνωση [`TextVerticalType`](../textverticaltype). |
+| [WrapText](../../aspose.slides/itextframeformateffectivedata/wraptext) { get; } | Επιστρέφει αν το κείμενο περιβάλλεται στα περιθώρια του TextFrame. Μόνο ανάγνωση Boolean. |
 
 ### Παρατηρήσεις
 
-Αυτή η διεπαφή χρησιμοποιείται μαζί με τη διεπαφή [`ITextFrameFormat`](../itextframeformat) για την επιστροφή των αποτελεσματικών τιμών μορφοποίησης με κληρονομικότητα.
+Αυτή η διασύνδεση χρησιμοποιείται μαζί με τη διασύνδεση [`ITextFrameFormat`](../itextframeformat) για να επιστρέψει τις αποτελεσματικές τιμές μορφοποίησης με εφαρμοσμένη κληρονομικότητα.
 
 ### Δείτε επίσης
 
-* χώρος ονομάτων [Aspose.Slides](../../aspose.slides)
-* συγκρότημα [Aspose.Slides](../../)
+* χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
+* συγκρότηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

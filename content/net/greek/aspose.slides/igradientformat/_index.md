@@ -1,14 +1,14 @@
 ---
 title: IGradientFormat
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αναπαριστά ένα μορφότυπο διαβάθμισης.
+description: Αναπαριστά μια μορφή διαβάθμισης.
 type: docs
-weight: 6000
+weight: 6020
 url: /el/aspose.slides/igradientformat/
 ---
 ## IGradientFormat διασύνδεση
 
-Represent a gradient format.
+Αναπαριστά μια μορφή διαβάθμισης.
 
 ```csharp
 public interface IGradientFormat : IFillParamSource
@@ -18,13 +18,13 @@ public interface IGradientFormat : IFillParamSource
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/igradientformat/asifillparamsource) { get; } | Επιτρέπει την απόκτηση της βασικής IFillParamSource διασύνδεσης. Μόνο-ανάγνωση [`IFillParamSource`](../ifillparamsource). |
-| [GradientDirection](../../aspose.slides/igradientformat/gradientdirection) { get; set; } | Επιστρέφει ή ορίζει το στυλ μιας διαβάθμισης. Ανάγνωση/εγγραφή [`GradientDirection`](../gradientdirection). |
-| [GradientShape](../../aspose.slides/igradientformat/gradientshape) { get; set; } | Επιστρέφει ή ορίζει το σχήμα μιας διαβάθμισης. Ανάγνωση/εγγραφή [`GradientShape`](../gradientshape). |
-| [GradientStops](../../aspose.slides/igradientformat/gradientstops) { get; } | Επιστρέφει τη συλλογή των σημείων διαβάθμισης. Μόνο-ανάγνωση [`IGradientStopCollection`](../igradientstopcollection). |
-| [LinearGradientAngle](../../aspose.slides/igradientformat/lineargradientangle) { get; set; } | Επιστρέφει ή ορίζει τη γωνία μιας διαβάθμισης. Ανάγνωση/εγγραφή Single. |
-| [LinearGradientScaled](../../aspose.slides/igradientformat/lineargradientscaled) { get; set; } | Καθορίζει αν μια διαβάθμιση κλιμακώνεται. Ανάγνωση/εγγραφή [`NullableBool`](../nullablebool). |
-| [TileFlip](../../aspose.slides/igradientformat/tileflip) { get; set; } | Επιστρέφει ή ορίζει τη λειτουργία αντιστροφής για μια διαβάθμιση. Ανάγνωση/εγγραφή [`TileFlip`](../tileflip). |
+| [AsIFillParamSource](../../aspose.slides/igradientformat/asifillparamsource) { get; } | Επιτρέπει την λήψη της βασικής διεπαφής IFillParamSource. Μόνο για ανάγνωση [`IFillParamSource`](../ifillparamsource). |
+| [GradientDirection](../../aspose.slides/igradientformat/gradientdirection) { get; set; } | Επιστρέφει ή ορίζει το στυλ μιας διαβάθμισης. Ανάγνωση/Εγγραφή [`GradientDirection`](../gradientdirection). |
+| [GradientShape](../../aspose.slides/igradientformat/gradientshape) { get; set; } | Επιστρέφει ή ορίζει το σχήμα μιας διαβάθμισης. Ανάγνωση/Εγγραφή [`GradientShape`](../gradientshape). |
+| [GradientStops](../../aspose.slides/igradientformat/gradientstops) { get; } | Επιστρέφει τη συλλογή των σημείων διαβάθμισης. Μόνο για ανάγνωση [`IGradientStopCollection`](../igradientstopcollection). |
+| [LinearGradientAngle](../../aspose.slides/igradientformat/lineargradientangle) { get; set; } | Επιστρέφει ή ορίζει τη γωνία μιας διαβάθμισης. Ανάγνωση/Εγγραφή Single. |
+| [LinearGradientScaled](../../aspose.slides/igradientformat/lineargradientscaled) { get; set; } | Καθορίζει αν μια διαβάθμιση είναι κλιμακωμένη. Ανάγνωση/Εγγραφή [`NullableBool`](../nullablebool). |
+| [TileFlip](../../aspose.slides/igradientformat/tileflip) { get; set; } | Επιστρέφει ή ορίζει τη λειτουργία αντεστραμμένου για μια διαβάθμιση. Ανάγνωση/Εγγραφή [`TileFlip`](../tileflip). |
 
 ### Δείτε επίσης
 

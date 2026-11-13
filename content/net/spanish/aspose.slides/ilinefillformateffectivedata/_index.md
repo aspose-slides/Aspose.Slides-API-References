@@ -1,14 +1,14 @@
 ---
 title: ILineFillFormatEffectiveData
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Objeto inmutable que contiene propiedades de relleno de línea efectivas.
+description: Objeto inmutable que contiene propiedades efectivas de relleno de línea.
 type: docs
-weight: 6300
+weight: 6320
 url: /es/aspose.slides/ilinefillformateffectivedata/
 ---
-## ILineFillFormatEffectiveData interface
+## ILineFillFormatEffectiveData interfaz
 
-Objeto inmutable que contiene propiedades de relleno de línea efectivas.
+Objeto inmutable que contiene propiedades efectivas de relleno de línea.
 
 ```csharp
 public interface ILineFillFormatEffectiveData : IFillParamSource
@@ -16,20 +16,20 @@ public interface ILineFillFormatEffectiveData : IFillParamSource
 
 ## Propiedades
 
-| Name | Description |
+| Nombre | Descripción |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ilinefillformateffectivedata/asifillparamsource) { get; } | Devuelve la interfaz IFillParamSource. Solo lectura [`IFillParamSource`](../ifillparamsource). |
 | [FillType](../../aspose.slides/ilinefillformateffectivedata/filltype) { get; } | Devuelve el tipo de relleno. Solo lectura [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/ilinefillformateffectivedata/gradientformat) { get; } | Devuelve el formato de degradado. Solo lectura [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
-| [PatternFormat](../../aspose.slides/ilinefillformateffectivedata/patternformat) { get; } | Devuelve el formato de patrón. Solo lectura [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
+| [GradientFormat](../../aspose.slides/ilinefillformateffectivedata/gradientformat) { get; } | Devuelve el formato de relleno de degradado. Solo lectura [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
+| [PatternFormat](../../aspose.slides/ilinefillformateffectivedata/patternformat) { get; } | Devuelve el formato de relleno de patrón. Solo lectura [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
 | [RotateWithShape](../../aspose.slides/ilinefillformateffectivedata/rotatewithshape) { get; } | Determina si el relleno debe rotarse con una forma. Solo lectura Boolean. |
 | [SolidFillColor](../../aspose.slides/ilinefillformateffectivedata/solidfillcolor) { get; } | Devuelve el color de un relleno sólido. Solo lectura Color. |
 
 ### Observaciones
 
-Esta interfaz se usa como parte de [`ILineFormatEffectiveData`](../ilineformateffectivedata).
+Esta interfaz se utiliza como parte de [`ILineFormatEffectiveData`](../ilineformateffectivedata).
 
-### Véase también
+### Ver también
 
 * interfaz [IFillParamSource](../ifillparamsource)
 * espacio de nombres [Aspose.Slides](../../aspose.slides)

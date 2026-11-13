@@ -1,9 +1,9 @@
 ---
 title: SlideSizeType
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 表示投影片大小的預設值。
 type: docs
-weight: 10520
+weight: 10540
 url: /zh-hant/aspose.slides/slidesizetype/
 ---
 ## SlideSizeType 列舉
@@ -21,8 +21,8 @@ public enum SlideSizeType
 | OnScreen | `0` | 螢幕 4x3 |
 | LetterPaper | `1` | 信紙 |
 | A4Paper | `2` | A4 |
-| Slide35mm | `3` | 35mm 幻燈片 |
-| Overhead | `4` | 投影片 |
+| Slide35mm | `3` | 投影片 35mm |
+| Overhead | `4` | 投影 |
 | Banner | `5` | 橫幅 |
 | Custom | `6` | 自訂大小 |
 | Ledger | `7` | Ledger |

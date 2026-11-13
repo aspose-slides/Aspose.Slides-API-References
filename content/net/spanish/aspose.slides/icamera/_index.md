@@ -1,9 +1,9 @@
 ---
 title: ICamera
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para la referencia de API de .NET
 description: Representa Camera.
 type: docs
-weight: 5410
+weight: 5430
 url: /es/aspose.slides/icamera/
 ---
 ## ICamera interfaz
@@ -18,16 +18,16 @@ public interface ICamera
 
 | Nombre | Descripción |
 | --- | --- |
-| [CameraType](../../aspose.slides/icamera/cameratype) { get; set; } | Tipo de Camera Lectura/escritura [`CameraPresetType`](../camerapresettype). |
-| [FieldOfViewAngle](../../aspose.slides/icamera/fieldofviewangle) { get; set; } | FOV de Camera (0-180 deg, campo de visión) Lectura/escritura Single. |
-| [Zoom](../../aspose.slides/icamera/zoom) { get; set; } | Zoom de Camera (valor positivo en porcentaje) Lectura/escritura Single. |
+| [CameraType](../../aspose.slides/icamera/cameratype) { get; set; } | Camera type Lectura/escritura [`CameraPresetType`](../camerapresettype). |
+| [FieldOfViewAngle](../../aspose.slides/icamera/fieldofviewangle) { get; set; } | Camera FOV (0-180 deg, campo de visión) Lectura/escritura Single. |
+| [Zoom](../../aspose.slides/icamera/zoom) { get; set; } | Camera zoom (valor positivo en porcentaje) Lectura/escritura Single. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetRotation](../../aspose.slides/icamera/getrotation)() | Una rotación se define mediante el uso de una coordenada de latitud, una coordenada de longitud y una revolución alrededor del eje según las coordenadas de latitud y longitud. Primer elemento en el arreglo devuelto - latitud, segundo - longitud, tercero - revolución. Devuelve null si no hay ninguna rotación definida. |
-| [SetRotation](../../aspose.slides/icamera/setrotation)(float, float, float) | Una rotación se define mediante el uso de una coordenada de latitud, una coordenada de longitud y una revolución alrededor del eje según las coordenadas de latitud y longitud. Si alguno de los valores de coordenada es float.NaN, toda la rotación es indefinida. |
+| [GetRotation](../../aspose.slides/icamera/getrotation)() | Una rotación se define mediante el uso de una coordenada de latitud, una coordenada de longitud y una revolución alrededor del eje como las coordenadas de latitud y longitud. primer elemento en el arreglo de retorno - latitud, segundo - longitud, tercero - revolución. Devuelve null si no se ha definido ninguna rotación. |
+| [SetRotation](../../aspose.slides/icamera/setrotation)(float, float, float) | Una rotación se define mediante el uso de una coordenada de latitud, una coordenada de longitud y una revolución alrededor del eje como las coordenadas de latitud y longitud. Si alguno de los valores de coordenada es float.NaN, toda la rotación es indefinida. |
 
 ### Ver también
 

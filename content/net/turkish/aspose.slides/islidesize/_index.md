@@ -1,9 +1,9 @@
 ---
 title: ISlideSize
-second_title: Aspose.Sildes için .NET API Referansı
-description: Bir slaytın boyutunu ve yönünü temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Bir slaydın boyutunu ve yönünü temsil eder.
 type: docs
-weight: 7090
+weight: 7110
 url: /tr/aspose.slides/islidesize/
 ---
 ## ISlideSize arayüzü
@@ -16,20 +16,20 @@ public interface ISlideSize
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
 | [Orientation](../../aspose.slides/islidesize/orientation) { get; set; } | Slayt yönünü alır veya ayarlar. |
-| [Size](../../aspose.slides/islidesize/size) { get; } | Slayt boyutlarını puan cinsinden alır. |
+| [Size](../../aspose.slides/islidesize/size) { get; } | Slayt boyutlarını nokta cinsinden alır. |
 | [Type](../../aspose.slides/islidesize/type) { get; } | Slayt boyut türünü alır. |
 
-## Yöntemler
+## Metotlar
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
 | [SetSize](../../aspose.slides/islidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | Slayt boyutunu türe göre ayarlar ve mevcut içeriği ölçeklendirir. |
 | [SetSize](../../aspose.slides/islidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | Slayt boyutlarını açıkça ayarlar ve mevcut içeriği ölçeklendirir. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

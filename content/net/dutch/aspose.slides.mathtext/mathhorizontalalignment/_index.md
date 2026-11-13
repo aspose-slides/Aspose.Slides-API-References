@@ -3,7 +3,7 @@ title: MathHorizontalAlignment
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Horizontale uitlijning
 type: docs
-weight: 8780
+weight: 8800
 url: /nl/aspose.slides.mathtext/mathhorizontalalignment/
 ---
 ## MathHorizontalAlignment enumeratie
@@ -16,11 +16,11 @@ public enum MathHorizontalAlignment
 
 ### Waarden
 
-| Name | Value | Description |
+| Naam | Waarde | Beschrijving |
 | --- | --- | --- |
 | NotDefined | `0` | Waarde is niet gedefinieerd |
-| Left | `1` | Links uitlijning |
-| Center | `2` | Gecentreerd |
+| Left | `1` | Links uitgelijnd |
+| Center | `2` | Midden |
 | Right | `3` | Rechts |
 
 ### Zie ook

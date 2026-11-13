@@ -1,14 +1,14 @@
 ---
 title: HeadingPair
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een Heading pair-eigenschap van het document voor. Het geeft de groepsnaam van documentonderdelen en het aantal onderdelen in de groep weer.
+description: Stelt een Heading pair eigenschap van het document voor. Het geeft de groepsnaam van documentonderdelen en het aantal onderdelen in de groep weer.
 type: docs
-weight: 5110
+weight: 5130
 url: /nl/aspose.slides/headingpair/
 ---
 ## HeadingPair klasse
 
-Stelt een 'Heading pair'-eigenschap van het document voor. Het geeft de groepsnaam van documentonderdelen en het aantal onderdelen in de groep weer.
+Stelt een 'Heading pair' eigenschap van het document voor. Het geeft de groepsnaam van documentonderdelen en het aantal onderdelen in de groep weer.
 
 ```csharp
 public sealed class HeadingPair : IHeadingPair

@@ -1,14 +1,14 @@
 ---
 title: IBiLevelEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
-description: Bi-Level（白黒）効果を表すイミュータブルオブジェクトです。指定されたしきい値未満の輝度を持つ入力カラーは黒に変更されます。指定されたしきい値以上の輝度を持つ入力カラーは白に設定されます。アルファ効果の値はこの効果の影響を受けません。
+description: Bi-Level（黒/白）エフェクトを表す不変オブジェクトです。指定されたしきい値未満の輝度を持つ入力カラーは黒に変更され、しきい値以上の輝度を持つ入力カラーは白に設定されます。このエフェクトはアルファ効果値には影響しません。
 type: docs
-weight: 3170
+weight: 3190
 url: /ja/aspose.slides.effects/ibileveleffectivedata/
 ---
 ## IBiLevelEffectiveData インターフェイス
 
-Bi-Level（白黒）効果を表すイミュータブルオブジェクトです。指定されたしきい値未満の輝度を持つ入力カラーは黒に変更されます。指定されたしきい値以上の輝度を持つ入力カラーは白に設定されます。アルファ効果の値はこの効果の影響を受けません。
+不変オブジェクトで、Bi-Level（黒/白）エフェクトを表します。輝度が指定されたしきい値未満の入力カラーは黒に変更され、しきい値以上の入力カラーは白に設定されます。アルファ効果値はこのエフェクトの影響を受けません。
 
 ```csharp
 public interface IBiLevelEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IBiLevelEffectiveData : IEffectEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ibileveleffectivedata/asieffecteffectivedata) { get; } | ベースの IEffectEffectiveData インターフェイスを取得できます。読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ibileveleffectivedata/asieffecteffectivedata) { get; } | ベース IEffectEffectiveData インターフェイスを取得できます。読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
 | [Threshold](../../aspose.slides.effects/ibileveleffectivedata/threshold) { get; } | しきい値を返します。読み取り専用 Single。 |
 
 ### 参照

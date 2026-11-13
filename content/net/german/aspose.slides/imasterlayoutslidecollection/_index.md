@@ -1,14 +1,14 @@
 ---
 title: IMasterLayoutSlideCollection
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt eine Sammlung aller Layout-Folien einer definierten Master-Folie dar. Erweitert die ILayoutSlideCollection Schnittstelle um Methoden zum Hinzufügen/Einfuegen/Entfernen/Klonen von Layout-Folien im Kontext der einzelnen Sammlungen der Master-Layout-Folien.
+description: Stellt eine Sammlung aller Layoutfolien der definierten Masterfolie dar. Erweitert die ILayoutSlideCollection Schnittstelle um Methoden zum Hinzufügen/Einf\\u{00AD}ügen/Entfernen/Klonen von Layoutfolien im Kontext der einzelnen Sammlungen der Layoutfolien des Masters.
 type: docs
-weight: 6380
+weight: 6400
 url: /de/aspose.slides/imasterlayoutslidecollection/
 ---
 ## IMasterLayoutSlideCollection Schnittstelle
 
-Stellt eine Sammlung aller Layout-Folien einer definierten Master-Folie dar. Erweitert die ILayoutSlideCollection Schnittstelle um Methoden zum Hinzufügen/Einf��gen/Entfernen/Klonen von Layout-Folien im Kontext der einzelnen Sammlungen der Master-Layout-Folien.
+Stellt eine Sammlung aller Layoutfolien der definierten Masterfolie dar. Erweitert die ILayoutSlideCollection Schnittstelle mit Methoden zum Hinzufügen/Einfgen/Entfernen/Klonen von Layoutfolien im Kontext der einzelnen Sammlungen der Layoutfolien des Masters.
 
 ```csharp
 public interface IMasterLayoutSlideCollection : ILayoutSlideCollection
@@ -24,12 +24,12 @@ public interface IMasterLayoutSlideCollection : ILayoutSlideCollection
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.slides/imasterlayoutslidecollection/add)(SlideLayoutType, string) | Fügt der Sammlung am Ende eine neue Layout-Folie hinzu. |
-| [AddClone](../../aspose.slides/imasterlayoutslidecollection/addclone)(ILayoutSlide) | Fügt der Sammlung am Ende eine Kopie einer angegebenen Layout-Folie hinzu. |
-| [Insert](../../aspose.slides/imasterlayoutslidecollection/insert)(int, SlideLayoutType, string) | Fügt an der angegebenen Position der Sammlung eine neue Layout-Folie ein. |
-| [InsertClone](../../aspose.slides/imasterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Fügt an der angegebenen Position der Sammlung eine Kopie einer angegebenen Layout-Folie ein. |
+| [Add](../../aspose.slides/imasterlayoutslidecollection/add)(SlideLayoutType, string) | Fügt eine neue Layoutfolie am Ende der Sammlung hinzu. |
+| [AddClone](../../aspose.slides/imasterlayoutslidecollection/addclone)(ILayoutSlide) | Fügt eine Kopie einer angegebenen Layoutfolie am Ende der Sammlung hinzu. |
+| [Insert](../../aspose.slides/imasterlayoutslidecollection/insert)(int, SlideLayoutType, string) | Fügt eine neue Layoutfolie an der angegebenen Position in die Sammlung ein. |
+| [InsertClone](../../aspose.slides/imasterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Fügt eine Kopie einer angegebenen Layoutfolie an der angegebenen Position in die Sammlung ein. |
 | [RemoveAt](../../aspose.slides/imasterlayoutslidecollection/removeat)(int) | Entfernt das Element am angegebenen Index der Sammlung. |
-| [Reorder](../../aspose.slides/imasterlayoutslidecollection/reorder)(int, ILayoutSlide) | Verschiebt die Layout-Folie innerhalb der Sammlung an die angegebene Position. |
+| [Reorder](../../aspose.slides/imasterlayoutslidecollection/reorder)(int, ILayoutSlide) | Verschiebt die Layoutfolie aus der Sammlung an die angegebene Position. |
 
 ### Siehe auch
 

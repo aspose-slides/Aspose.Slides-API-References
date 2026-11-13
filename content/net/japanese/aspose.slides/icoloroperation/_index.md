@@ -1,9 +1,9 @@
 ---
 title: IColorOperation
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: .NET 用 Aspose.Sildes API リファレンス
 description: 色変換に使用されるさまざまなカラー操作を表します。
 type: docs
-weight: 5500
+weight: 5520
 url: /ja/aspose.slides/icoloroperation/
 ---
 ## IColorOperation インターフェイス
@@ -19,7 +19,7 @@ public interface IColorOperation
 | 名前 | 説明 |
 | --- | --- |
 | [OperationType](../../aspose.slides/icoloroperation/operationtype) { get; } | 操作のタイプを取得または設定します。読み取り専用 [`ColorTransformOperation`](../colortransformoperation)。 |
-| [Parameter](../../aspose.slides/icoloroperation/parameter) { get; } | 操作のパラメーターを取得します。読み取り専用 Single。 |
+| [Parameter](../../aspose.slides/icoloroperation/parameter) { get; } | 操作のパラメータを取得します。読み取り専用 Single。 |
 
 ### 参照
 

@@ -1,9 +1,9 @@
 ---
 title: IChartCellCollection
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Riferimento API di Aspose.Sildes per .NET
 description: Rappresenta una collezione di celle con dati.
 type: docs
-weight: 1780
+weight: 1800
 url: /it/aspose.slides.charts/ichartcellcollection/
 ---
 ## IChartCellCollection interfaccia
@@ -16,20 +16,20 @@ public interface IChartCellCollection : IEnumerable<IChartDataCell>
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.charts/ichartcellcollection/asienumerable) { get; } | Restituisce l'interfaccia ICollection. Sola lettura IEnumerable. |
-| [Count](../../aspose.slides.charts/ichartcellcollection/count) { get; } | Ottiene il numero di celle nella collezione. Sola lettura Int32. |
+| [AsIEnumerable](../../aspose.slides.charts/ichartcellcollection/asienumerable) { get; } | Restituisce l'interfaccia ICollection. IEnumerable di sola lettura. |
+| [Count](../../aspose.slides.charts/ichartcellcollection/count) { get; } | Ottiene il numero di celle nella collezione. Int32 di sola lettura. |
 | [Item](../../aspose.slides.charts/ichartcellcollection/item) { get; } | Restituisce una cella (IChartDataCell) per indice. |
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides.charts/ichartcellcollection/add#add)(IChartDataCell) | Aggiunge una nuova cella alla collezione. |
 | [Add](../../aspose.slides.charts/ichartcellcollection/add#add_1)(object) | Crea [`IChartDataCell`](../ichartdatacell) dal valore specificato e lo aggiunge alla collezione. |
 | [GetCellsAddress](../../aspose.slides.charts/ichartcellcollection/getcellsaddress)() | Restituisce l'indirizzo del set di celle nella cartella di lavoro. |
-| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | Stringa di concatenazione dei valori di stringa di tutte le celle. |
+| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | Stringa di concatenazione di tutti i valori stringa delle celle. |
 | [RemoveAt](../../aspose.slides.charts/ichartcellcollection/removeat)(int) | Rimuove una cella dalla collezione per indice. |
 
 ### Vedi anche

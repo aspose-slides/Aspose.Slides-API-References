@@ -1,14 +1,14 @@
 ---
 title: SectionSlideCollection
-second_title: Aspose.Sildes .NET API referencia
-description: A szekcióban lévő diák gyűjteményét képviseli.
+second_title: Aspose.Sildes .NET API Referenciája
+description: A szakaszon belüli diák gyűjteményét képviseli.
 type: docs
-weight: 9770
+weight: 9790
 url: /hu/aspose.slides/sectionslidecollection/
 ---
 ## SectionSlideCollection osztály
 
-A szekcióban lévő diák gyűjteményét képviseli.
+A szakaszon belüli diák gyűjteményét képviseli.
 
 ```csharp
 public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCollection
@@ -19,15 +19,15 @@ public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCo
 | Név | Leírás |
 | --- | --- |
 | [Count](../../aspose.slides/sectionslidecollection/count) { get; } | Visszaadja a gyűjteményben ténylegesen tárolt elemek számát. Csak olvasható Int32. |
-| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjtemény elérése szinkronizált (szálbiztos)-e. Csak olvasható Boolean. |
-| [Item](../../aspose.slides/sectionslidecollection/item) { get; } | Visszaadja a megadott indexnél lévő elemet. Csak olvasható [`ISlide`](../islide). |
-| [SyncRoot](../../aspose.slides/sectionslidecollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökeret. Csak olvasható Object. |
+| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált-e (szálbiztos). Csak olvasható Boolean. |
+| [Item](../../aspose.slides/sectionslidecollection/item) { get; } | Visszaadja a megadott indexű elemet. Csak olvasható [`ISlide`](../islide). |
+| [SyncRoot](../../aspose.slides/sectionslidecollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökérobjektumot. Csak olvasható Object. |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [CopyTo](../../aspose.slides/sectionslidecollection/copyto)(Array, int) | Lemásolja a teljes gyűjteményt a megadott tömbbe. |
+| [CopyTo](../../aspose.slides/sectionslidecollection/copyto)(Array, int) | Átmásolja a teljes gyűjteményt a megadott tömbbe. |
 | [GetEnumerator](../../aspose.slides/sectionslidecollection/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |
 
 ### Lásd még

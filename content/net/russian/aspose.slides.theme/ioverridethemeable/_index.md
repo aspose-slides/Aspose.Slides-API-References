@@ -1,9 +1,9 @@
 ---
 title: IOverrideThemeable
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET API справочника
 description: Представляет менеджер переопределения темы.
 type: docs
-weight: 11360
+weight: 11380
 url: /ru/aspose.slides.theme/ioverridethemeable/
 ---
 ## IOverrideThemeable интерфейс

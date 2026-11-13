@@ -1,9 +1,9 @@
 ---
 title: Section
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje sekci snímků.
+second_title: Aspose.Sildes pro .NET referenční dokumentaci API
+description: Representuje sekci snímků.
 type: docs
-weight: 9750
+weight: 9770
 url: /cs/aspose.slides/section/
 ---
 ## Section třída
@@ -16,7 +16,7 @@ public class Section : DomObject<SectionCollection>, ISection
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | [Name](../../aspose.slides/section/name) { get; set; } | Název sekce. |
 | [SectionId](../../aspose.slides/section/sectionid) { get; } | ID sekce. |
@@ -24,7 +24,7 @@ public class Section : DomObject<SectionCollection>, ISection
 
 ## Metody
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | [GetSlidesListOfSection](../../aspose.slides/section/getslideslistofsection)() | Vrací seznam snímků v sekci. |
 

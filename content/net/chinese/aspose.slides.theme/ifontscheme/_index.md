@@ -3,7 +3,7 @@ title: IFontScheme
 second_title: Aspose.Sildes for .NET API 参考
 description: 存储主题定义的字体。
 type: docs
-weight: 11250
+weight: 11270
 url: /zh/aspose.slides.theme/ifontscheme/
 ---
 ## IFontScheme 接口
@@ -18,11 +18,11 @@ public interface IFontScheme
 
 | 名称 | 描述 |
 | --- | --- |
-| [Major](../../aspose.slides.theme/ifontscheme/major) { get; } | 返回幻灯片“标题”部分的字体集合。只读 [`IFonts`](../../aspose.slides/ifonts)。 |
-| [Minor](../../aspose.slides.theme/ifontscheme/minor) { get; } | 返回幻灯片“正文”部分的字体集合。只读 [`IFonts`](../../aspose.slides/ifonts)。 |
-| [Name](../../aspose.slides.theme/ifontscheme/name) { get; set; } | 返回字体方案名称。读/写 String。 |
+| [Major](../../aspose.slides.theme/ifontscheme/major) { get; } | 返回幻灯片“heading”部分的字体集合。只读 [`IFonts`](../../aspose.slides/ifonts)。 |
+| [Minor](../../aspose.slides.theme/ifontscheme/minor) { get; } | 返回幻灯片“body”部分的字体集合。只读 [`IFonts`](../../aspose.slides/ifonts)。 |
+| [Name](../../aspose.slides.theme/ifontscheme/name) { get; set; } | 返回字体方案的名称。可读写 String。 |
 
-### 另请参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.Theme](../../aspose.slides.theme)
 * 程序集 [Aspose.Slides](../../)

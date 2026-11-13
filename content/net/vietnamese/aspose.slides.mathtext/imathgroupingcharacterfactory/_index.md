@@ -3,7 +3,7 @@ title: IMathGroupingCharacterFactory
 second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Cho phép tạo ký tự nhóm toán học
 type: docs
-weight: 8300
+weight: 8320
 url: /vi/aspose.slides.mathtext/imathgroupingcharacterfactory/
 ---
 ## IMathGroupingCharacterFactory giao diện
@@ -23,7 +23,7 @@ public interface IMathGroupingCharacterFactory
 
 ### Ghi chú
 
-Để tương thích với COM
+Đối với tính tương thích COM
 
 ### Xem thêm
 

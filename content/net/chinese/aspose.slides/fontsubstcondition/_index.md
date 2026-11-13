@@ -1,27 +1,27 @@
 ---
 title: FontSubstCondition
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示字体替换的规则
+second_title: Aspose.Sildes .NET API 参考
+description: 表示字体替换规则
 type: docs
-weight: 4880
+weight: 4900
 url: /zh/aspose.slides/fontsubstcondition/
 ---
 ## FontSubstCondition 枚举
 
-表示字体替换的规则
+表示字体替换规则
 
 ```csharp
 public enum FontSubstCondition
 ```
 
-### 值
+### 取值
 
-| 名称 | 值 | 描述 |
+| 名称 | 值 | 说明 |
 | --- | --- | --- |
 | WhenInaccessible | `0` | 当未找到字体时进行替换 |
-| Always | `1` | 始终替换 |
+| Always | `1` | 始终进行替换 |
 
-### 另请参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

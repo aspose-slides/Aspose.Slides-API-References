@@ -1,14 +1,14 @@
 ---
 title: GetAutomaticDataPointColor
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Trả về màu tự động của điểm dữ liệu dựa trên chỉ số chuỗi, chỉ số điểm dữ liệu, thuộc tính ParentSeriesGroup.IsColorVaried và kiểu biểu đồ. Màu này được sử dụng mặc định nếu FillType bằng NotDefined.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Trả về màu tự động của điểm dữ liệu dựa trên chỉ mục chuỗi, chỉ mục điểm dữ liệu, thuộc tính ParentSeriesGroup.IsColorVaried và kiểu biểu đồ. Màu này được sử dụng mặc định nếu FillType bằng NotDefined.
 type: docs
-weight: 220
+weight: 260
 url: /vi/aspose.slides.charts/chartdatapoint/getautomaticdatapointcolor/
 ---
-## Phương thức ChartDataPoint.GetAutomaticDataPointColor
+## ChartDataPoint.GetAutomaticDataPointColor phương thức
 
-Trả về màu tự động của điểm dữ liệu dựa trên chỉ số chuỗi, chỉ số điểm dữ liệu, thuộc tính ParentSeriesGroup.IsColorVaried và kiểu biểu đồ. Màu này được sử dụng mặc định nếu FillType bằng NotDefined.
+Trả về màu tự động của điểm dữ liệu dựa trên chỉ mục chuỗi, chỉ mục điểm dữ liệu, thuộc tính ParentSeriesGroup.IsColorVaried và kiểu biểu đồ. Màu này được sử dụng mặc định nếu FillType bằng NotDefined.
 
 ```csharp
 public Color GetAutomaticDataPointColor()

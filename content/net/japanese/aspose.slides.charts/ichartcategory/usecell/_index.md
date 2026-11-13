@@ -1,14 +1,14 @@
 ---
 title: UseCell
 second_title: Aspose.Sildes for .NET API リファレンス
-description: true の場合は AsCell プロパティが有効です。言い換えれば、ワークシートはカテゴリの保存に使用され、この場合は多層カテゴリをサポートします。false の場合は AsLiteral プロパティが有効です。言い換えれば、ワークシートはカテゴリの保存に使用されず、この場合は多層カテゴリをサポートしません。読み取り専用の Boolean。
+description: true の場合は AsCell プロパティが有効です。言い換えれば、ワークシートはカテゴリの保存に使用され（このケースはマルチレベルカテゴリをサポートします）。false の場合は AsLiteral プロパティが有効です。言い換えれば、ワークシートはカテゴリの保存に使用されず（このケースはマルチレベルカテゴリをサポートしません）。読み取り専用 Boolean。
 type: docs
-weight: 40
+weight: 50
 url: /ja/aspose.slides.charts/ichartcategory/usecell/
 ---
 ## IChartCategory.UseCell プロパティ
 
-true の場合、AsCell プロパティが有効です。つまり、ワークシートはカテゴリの保存に使用されます（この場合、階層化されたカテゴリをサポートします）。false の場合、AsLiteral プロパティが有効です。つまり、ワークシートはカテゴリの保存に使用されません（この場合、階層化されたカテゴリはサポートされません）。読み取り専用の Boolean。
+true の場合、AsCell プロパティが有効になります。言い換えれば、ワークシートはカテゴリの保存に使用されます（この場合はマルチレベルカテゴリをサポートします）。false の場合、AsLiteral プロパティが有効になります。言い換えれば、ワークシートはカテゴリの保存に使用されません（この場合はマルチレベルカテゴリをサポートしません）。読み取り専用の Boolean。
 
 ```csharp
 public bool UseCell { get; }
@@ -16,7 +16,7 @@ public bool UseCell { get; }
 
 ### 備考
 
-このプロパティの値を変更するには（コレクション内のすべてのカテゴリに対して）ChartCategoryCollection.UseCells プロパティに新しい値を設定してください。
+このプロパティの値を変更するには（コレクション内のすべてのカテゴリに対して）、ChartCategoryCollection.UseCells プロパティに新しい値を設定します。
 
 ### 参照
 

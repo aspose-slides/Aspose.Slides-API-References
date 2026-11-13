@@ -1,9 +1,9 @@
 ---
 title: IRowFormat
-second_title: Aspose.Sildes dla .NET Referencja API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje format wiersza tabeli.
 type: docs
-weight: 6870
+weight: 6890
 url: /pl/aspose.slides/irowformat/
 ---
 ## IRowFormat interfejs
@@ -18,7 +18,7 @@ public interface IRowFormat
 
 | Nazwa | Opis |
 | --- | --- |
-| [GetEffective](../../aspose.slides/irowformat/geteffective)() | Pobiera skuteczne właściwości formatowania wiersza tabeli z uwzględnieniem dziedziczenia i zastosowanych stylów tabeli. |
+| [GetEffective](../../aspose.slides/irowformat/geteffective)() | Pobiera efektywne właściwości formatowania wiersza tabeli z zastosowanym dziedziczeniem i stylami tabeli. |
 
 ### Zobacz także
 

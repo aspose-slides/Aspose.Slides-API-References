@@ -1,14 +1,14 @@
 ---
 title: IMathRightSubSuperscriptElement
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: Sub-Superscript ऑब्जेक्ट को निर्दिष्ट करता है, जिसमें एक base और एक subscript तथा superscript शामिल होता है, जो base के दाएँ स्थित होते हैं।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: Sub-Superscript ऑब्जेक्ट को निर्दिष्ट करता है जिसमें एक बेस और एक सबस्क्रिप्ट तथा सुपरस्क्रिप्ट शामिल होते हैं, जो बेस के दाईं ओर स्थित होते हैं।
 type: docs
-weight: 8450
+weight: 8470
 url: /hi/aspose.slides.mathtext/imathrightsubsuperscriptelement/
 ---
 ## IMathRightSubSuperscriptElement इंटरफ़ेस
 
-एक Sub-Superscript ऑब्जेक्ट को निर्दिष्ट करता है, जो एक बेस और एक सबस्क्रिप्ट तथा सुपरसक्रिप्ट से मिलकर बनता है, जो बेस के दाएँ स्थित होते हैं।
+Specifies the Sub-Superscript object, which consists of a base and a subscript and superscript placed to the right of the base.
 
 ```csharp
 public interface IMathRightSubSuperscriptElement : IMathElement
@@ -16,13 +16,13 @@ public interface IMathRightSubSuperscriptElement : IMathElement
 
 ## प्रॉपर्टीज़
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | सबस्क्रिप्ट/सुपरसक्रिप्ट की संरेखण को निर्दिष्ट करता है। जब true हो, तो सबस्क्रिप्ट और सुपरसक्रिप्ट क्षैतिज रूप से एक-दूसरे के सापेक्ष संरेखित होते हैं। जब false हो, तो वे बेस के आकार के अनुसार समायोजित होते हैं। डिफ़ॉल्ट मान false है। |
-| [AsIMathElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement) { get; } | बेस IMathElement इंटरफ़ेस [`IMathElement`](../imathelement) प्राप्त करने की अनुमति देता है। |
+| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | subscript/superscript के संरेखण को निर्दिष्ट करता है। जब true हो, subscript और superscript एक दूसरे के सापेक्ष क्षैतिज रूप से संरेखित होते हैं। जब false हो, वे base के आकार के अनुसार kerned होते हैं। डिफ़ॉल्ट मान false है। |
+| [AsIMathElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement) { get; } | base IMathElement इंटरफ़ेस [`IMathElement`](../imathelement) प्राप्त करने की अनुमति देता है। |
 | [Base](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/base) { get; } | बेस तर्क |
 | [Subscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript) { get; } | सबस्क्रिप्ट तर्क |
-| [Superscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/superscript) { get; } | सुपरसक्रिप्ट तर्क |
+| [Superscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/superscript) { get; } | सुपरस्क्रिप्ट तर्क |
 
 ### उदाहरण
 
@@ -33,7 +33,7 @@ public interface IMathRightSubSuperscriptElement : IMathElement
 IMathRightSubSuperscriptElement subsuperscript = new MathematicalText("N").SetSubSuperscriptOnTheRight("i", "j");
 ```
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IMathElement](../imathelement)
 * नामस्थान [Aspose.Slides.MathText](../../aspose.slides.mathtext)

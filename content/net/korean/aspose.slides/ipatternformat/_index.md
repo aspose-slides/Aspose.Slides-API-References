@@ -1,14 +1,14 @@
 ---
 title: IPatternFormat
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 도형을 채우기 위한 패턴을 나타냅니다.
+description: 쉐이프를 채우기 위한 패턴을 나타냅니다.
 type: docs
-weight: 6620
+weight: 6640
 url: /ko/aspose.slides/ipatternformat/
 ---
-## IPatternFormat interface
+## IPatternFormat 인터페이스
 
-도형을 채우기 위한 패턴을 나타냅니다.
+쉐이프를 채우기 위한 패턴을 나타냅니다.
 
 ```csharp
 public interface IPatternFormat
@@ -18,8 +18,8 @@ public interface IPatternFormat
 
 | 이름 | 설명 |
 | --- | --- |
-| [BackColor](../../aspose.slides/ipatternformat/backcolor) { get; } | 배경 패턴 색상을 반환합니다. 읽기 전용 [`IColorFormat`](../icolorformat). |
-| [ForeColor](../../aspose.slides/ipatternformat/forecolor) { get; } | 전경 패턴 색상을 반환합니다. 읽기 전용 [`IColorFormat`](../icolorformat). |
+| [BackColor](../../aspose.slides/ipatternformat/backcolor) { get; } | 배경 패턴 색을 반환합니다. 읽기 전용 [`IColorFormat`](../icolorformat). |
+| [ForeColor](../../aspose.slides/ipatternformat/forecolor) { get; } | 전경 패턴 색을 반환합니다. 읽기 전용 [`IColorFormat`](../icolorformat). |
 | [PatternStyle](../../aspose.slides/ipatternformat/patternstyle) { get; set; } | 패턴 스타일을 반환하거나 설정합니다. 읽기/쓰기 [`PatternStyle`](../patternstyle). |
 
 ## 메서드
@@ -29,7 +29,7 @@ public interface IPatternFormat
 | [GetTile](../../aspose.slides/ipatternformat/gettile#gettile)(Color) | 패턴 채우기를 위한 타일 이미지를 생성합니다. |
 | [GetTile](../../aspose.slides/ipatternformat/gettile#gettile_1)(Color, Color) | 지정된 색상으로 패턴 채우기를 위한 타일 이미지를 생성합니다. |
 
-### 또 보기
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

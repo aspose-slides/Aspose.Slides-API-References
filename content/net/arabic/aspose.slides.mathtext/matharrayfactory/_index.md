@@ -1,9 +1,9 @@
 ---
 title: MathArrayFactory
-second_title: Aspose.Sildes لـ .NET مرجع API
+second_title: Aspose.Sildes لمرجع API .NET
 description: يسمح بإنشاء مصفوفة رياضية
 type: docs
-weight: 8560
+weight: 8580
 url: /ar/aspose.slides.mathtext/matharrayfactory/
 ---
 ## MathArrayFactory فئة
@@ -14,13 +14,13 @@ url: /ar/aspose.slides.mathtext/matharrayfactory/
 public class MathArrayFactory : IMathArrayFactory
 ```
 
-## المنشئات
+## المُنشئات
 
 | الاسم | الوصف |
 | --- | --- |
-| [MathArrayFactory](matharrayfactory)() | المنشيء الافتراضي. |
+| [MathArrayFactory](matharrayfactory)() | المُنشئ الافتراضي. |
 
-## الأساليب
+## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
@@ -31,7 +31,7 @@ public class MathArrayFactory : IMathArrayFactory
 
 للتوافق مع COM
 
-### انظر أيضًا
+### انظر أيضاً
 
 * واجهة [IMathArrayFactory](../imatharrayfactory)
 * نطاق [Aspose.Slides.MathText](../../aspose.slides.mathtext)

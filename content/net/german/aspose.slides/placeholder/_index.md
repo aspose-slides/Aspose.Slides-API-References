@@ -1,9 +1,9 @@
 ---
 title: Placeholder
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt einen Platzhalter auf einer Folie dar.
 type: docs
-weight: 9430
+weight: 9450
 url: /de/aspose.slides/placeholder/
 ---
 ## Platzhalterklasse
@@ -18,10 +18,10 @@ public class Placeholder : IPlaceholder
 
 | Name | Beschreibung |
 | --- | --- |
-| [Index](../../aspose.slides/placeholder/index) { get; } | Liest oder setzt den Index eines Platzhalters. Nur lesbar UInt32. |
-| [Orientation](../../aspose.slides/placeholder/orientation) { get; } | Liest oder setzt die Ausrichtung eines Platzhalters. Nur lesbar [`Orientation`](../orientation). |
-| [Size](../../aspose.slides/placeholder/size) { get; } | Liest oder setzt die Größe eines Platzhalters. Nur lesbar [`PlaceholderSize`](../placeholdersize). |
-| [Type](../../aspose.slides/placeholder/type) { get; } | Liest oder setzt den Typ eines Platzhalters. Nur lesbar [`PlaceholderType`](../placeholdertype). |
+| [Index](../../aspose.slides/placeholder/index) { get; } | Ruft den Index eines Platzhalters ab oder legt ihn fest. Nur lesend UInt32. |
+| [Orientation](../../aspose.slides/placeholder/orientation) { get; } | Ruft die Orientierung eines Platzhalters ab oder legt sie fest. Nur lesend [`Orientation`](../orientation). |
+| [Size](../../aspose.slides/placeholder/size) { get; } | Ruft die Größe eines Platzhalters ab oder legt sie fest. Nur lesend [`PlaceholderSize`](../placeholdersize). |
+| [Type](../../aspose.slides/placeholder/type) { get; } | Ruft den Typ eines Platzhalters ab oder legt ihn fest. Nur lesend [`PlaceholderType`](../placeholdertype). |
 
 ### Siehe auch
 

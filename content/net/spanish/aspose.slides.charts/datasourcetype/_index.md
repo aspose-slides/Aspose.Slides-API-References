@@ -3,10 +3,10 @@ title: DataSourceType
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Tipos de origen de datos.
 type: docs
-weight: 1580
+weight: 1590
 url: /es/aspose.slides.charts/datasourcetype/
 ---
-## DataSourceType enumeración
+## enumeración DataSourceType
 
 Tipos de origen de datos.
 

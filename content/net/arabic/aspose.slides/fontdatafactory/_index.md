@@ -1,12 +1,12 @@
 ---
 title: FontDataFactory
-second_title: Aspose.Sildes لـ .NET مرجع API
+second_title: Aspose.Sildes لواجهة برمجة التطبيقات .NET
 description: مصنع FontData
 type: docs
-weight: 4830
+weight: 4850
 url: /ar/aspose.slides/fontdatafactory/
 ---
-## FontDataFactory فئة
+## فئة FontDataFactory
 
 مصنع FontData
 
@@ -14,19 +14,19 @@ url: /ar/aspose.slides/fontdatafactory/
 public class FontDataFactory : IFontDataFactory
 ```
 
-## المُنشئات
+## المنشئات
 
 | الاسم | الوصف |
 | --- | --- |
 | [FontDataFactory](fontdatafactory)() | المنشئ الافتراضي. |
 
-## الدوال
+## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [CreateFontData](../../aspose.slides/fontdatafactory/createfontdata)(string) | ينشئ FontData باسم الخط المحدد. |
+| [CreateFontData](../../aspose.slides/fontdatafactory/createfontdata)(string) | ينشئ FontData بالخط المحدد. |
 
-### أنظر أيضًا
+### انظر أيضًا
 
 * واجهة [IFontDataFactory](../ifontdatafactory)
 * مساحة الاسم [Aspose.Slides](../../aspose.slides)

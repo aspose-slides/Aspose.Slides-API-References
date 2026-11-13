@@ -1,9 +1,9 @@
 ---
 title: IExtraColorScheme
-second_title: Aspose.Sildes dla .NET - dokumentacja API
-description: Reprezentuje dodatkowy schemat kolorów, który może być przypisany do slajdu.
+second_title: Aspose.Sildes dla .NET Referencja API
+description: Reprezentuje dodatkowy schemat kolorów, który można przypisać do slajdu.
 type: docs
-weight: 11210
+weight: 11230
 url: /pl/aspose.slides.theme/iextracolorscheme/
 ---
 ## IExtraColorScheme interfejs

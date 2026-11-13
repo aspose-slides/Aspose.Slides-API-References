@@ -1,14 +1,14 @@
 ---
 title: OverrideTheme
-second_title: Aspose.Sildes for .NET – dokumentacja API
-description: Reprezentuje motyw nadpisujący.
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Reprezentuje nadpisujący motyw.
 type: docs
-weight: 11460
+weight: 11480
 url: /pl/aspose.slides.theme/overridetheme/
 ---
 ## OverrideTheme klasa
 
-Reprezentuje motyw nadpisujący.
+Represents a overriding theme.
 
 ```csharp
 public sealed class OverrideTheme : Theme, IOverrideTheme
@@ -20,31 +20,31 @@ public sealed class OverrideTheme : Theme, IOverrideTheme
 | --- | --- |
 | override [ColorScheme](../../aspose.slides.theme/overridetheme/colorscheme) { get; } | Zwraca schemat kolorów. Tylko do odczytu [`IColorScheme`](../icolorscheme). |
 | override [FontScheme](../../aspose.slides.theme/overridetheme/fontscheme) { get; } | Zwraca schemat czcionek. Tylko do odczytu [`IFontScheme`](../ifontscheme). |
-| override [FormatScheme](../../aspose.slides.theme/overridetheme/formatscheme) { get; } | Zwraca schemat formatu kształtu. Tylko do odczytu [`IFormatScheme`](../iformatscheme). |
-| [IsEmpty](../../aspose.slides.theme/overridetheme/isempty) { get; } | Wartość true oznacza, że ColorScheme, FontScheme, FormatScheme jest null i wszelkie nadpisywanie tym obiektem motywu jest wyłączone. Tylko do odczytu Boolean. |
+| override [FormatScheme](../../aspose.slides.theme/overridetheme/formatscheme) { get; } | Zwraca schemat formatu kształtów. Tylko do odczytu [`IFormatScheme`](../iformatscheme). |
+| [IsEmpty](../../aspose.slides.theme/overridetheme/isempty) { get; } | Wartość prawda oznacza, że ColorScheme, FontScheme, FormatScheme jest nullem i wszelkie nadpisywanie przy użyciu tego obiektu motywu jest wyłączone. Boolean tylko do odczytu. |
 | [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Zwraca prezentację nadrzędną. Tylko do odczytu [`IPresentation`](../../aspose.slides/ipresentation). |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [Clear](../../aspose.slides.theme/overridetheme/clear)() | Ustawia ColorScheme, FontScheme, FormatScheme na null, aby wyłączyć wszelkie nadpisywanie tym obiektem motywu. |
-| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Pobiera skuteczne dane motywu z zastosowanym dziedziczeniem. |
-| [InitColorScheme](../../aspose.slides.theme/overridetheme/initcolorscheme)() | Inicjalizuje ColorScheme nowym obiektem w celu nadpisania ColorScheme w InheritedTheme. |
-| [InitColorSchemeFrom](../../aspose.slides.theme/overridetheme/initcolorschemefrom)(IColorScheme) | Inicjalizuje ColorScheme nowym obiektem w celu nadpisania ColorScheme w InheritedTheme. |
-| [InitColorSchemeFromInherited](../../aspose.slides.theme/overridetheme/initcolorschemefrominherited)() | Inicjalizuje ColorScheme nowym obiektem w celu nadpisania ColorScheme w InheritedTheme. I inicjalizuje dane tego nowego obiektu danymi z ColorScheme w InheritedTheme. |
-| [InitFontScheme](../../aspose.slides.theme/overridetheme/initfontscheme)() | Inicjalizuje FontScheme nowym obiektem w celu nadpisania FontScheme w InheritedTheme. |
-| [InitFontSchemeFrom](../../aspose.slides.theme/overridetheme/initfontschemefrom)(IFontScheme) | Inicjalizuje FontScheme nowym obiektem w celu nadpisania FontScheme w InheritedTheme. |
-| [InitFontSchemeFromInherited](../../aspose.slides.theme/overridetheme/initfontschemefrominherited)() | Inicjalizuje FontScheme nowym obiektem w celu nadpisania FontScheme w InheritedTheme. I inicjalizuje dane tego nowego obiektu danymi z FontScheme w InheritedTheme. |
-| [InitFormatScheme](../../aspose.slides.theme/overridetheme/initformatscheme)() | Inicjalizuje FormatScheme nowym obiektem w celu nadpisania FormatScheme w InheritedTheme. |
-| [InitFormatSchemeFrom](../../aspose.slides.theme/overridetheme/initformatschemefrom)(IFormatScheme) | Inicjalizuje FormatScheme nowym obiektem w celu nadpisania FormatScheme w InheritedTheme. |
-| [InitFormatSchemeFromInherited](../../aspose.slides.theme/overridetheme/initformatschemefrominherited)() | Inicjalizuje FormatScheme nowym obiektem w celu nadpisania FormatScheme w InheritedTheme. I inicjalizuje dane tego nowego obiektu danymi z FormatScheme w InheritedTheme. |
+| [Clear](../../aspose.slides.theme/overridetheme/clear)() | Ustawia ColorScheme, FontScheme, FormatScheme na null, aby wyłączyć wszelkie nadpisywanie przy użyciu tego obiektu motywu. |
+| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Pobiera efektywne dane motywu z zastosowanym dziedziczeniem. |
+| [InitColorScheme](../../aspose.slides.theme/overridetheme/initcolorscheme)() | Inicjalizuje ColorScheme nowym obiektem do nadpisywania ColorScheme dziedziczonego tematu. |
+| [InitColorSchemeFrom](../../aspose.slides.theme/overridetheme/initcolorschemefrom)(IColorScheme) | Inicjalizuje ColorScheme nowym obiektem do nadpisywania ColorScheme dziedziczonego tematu. |
+| [InitColorSchemeFromInherited](../../aspose.slides.theme/overridetheme/initcolorschemefrominherited)() | Inicjalizuje ColorScheme nowym obiektem do nadpisywania ColorScheme dziedziczonego tematu i inicjalizuje dane tego nowego obiektu danymi z ColorScheme dziedziczonego tematu. |
+| [InitFontScheme](../../aspose.slides.theme/overridetheme/initfontscheme)() | Inicjalizuje FontScheme nowym obiektem do nadpisywania FontScheme dziedziczonego tematu. |
+| [InitFontSchemeFrom](../../aspose.slides.theme/overridetheme/initfontschemefrom)(IFontScheme) | Inicjalizuje FontScheme nowym obiektem do nadpisywania FontScheme dziedziczonego tematu. |
+| [InitFontSchemeFromInherited](../../aspose.slides.theme/overridetheme/initfontschemefrominherited)() | Inicjalizuje FontScheme nowym obiektem do nadpisywania FontScheme dziedziczonego tematu i inicjalizuje dane tego nowego obiektu danymi z FontScheme dziedziczonego tematu. |
+| [InitFormatScheme](../../aspose.slides.theme/overridetheme/initformatscheme)() | Inicjalizuje FormatScheme nowym obiektem do nadpisywania FormatScheme dziedziczonego tematu. |
+| [InitFormatSchemeFrom](../../aspose.slides.theme/overridetheme/initformatschemefrom)(IFormatScheme) | Inicjalizuje FormatScheme nowym obiektem do nadpisywania FormatScheme dziedziczonego tematu. |
+| [InitFormatSchemeFromInherited](../../aspose.slides.theme/overridetheme/initformatschemefrominherited)() | Inicjalizuje FormatScheme nowym obiektem do nadpisywania FormatScheme dziedziczonego tematu i inicjalizuje dane tego nowego obiektu danymi z FormatScheme dziedziczonego tematu. |
 
-### Zobacz również
+### Zobacz także
 
 * klasa [Theme](../theme)
 * interfejs [IOverrideTheme](../ioverridetheme)
 * przestrzeń nazw [Aspose.Slides.Theme](../../aspose.slides.theme)
-* zestaw [Aspose.Slides](../../)
+* zbiór [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

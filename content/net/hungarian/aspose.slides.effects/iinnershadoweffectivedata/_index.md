@@ -1,9 +1,9 @@
 ---
 title: IInnerShadowEffectiveData
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes .NET API-referencia
 description: Megváltoztathatatlan objektum, amely egy belső árnyékhatást képvisel.
 type: docs
-weight: 3430
+weight: 3450
 url: /hu/aspose.slides.effects/iinnershadoweffectivedata/
 ---
 ## IInnerShadowEffectiveData interfész
@@ -18,13 +18,13 @@ public interface IInnerShadowEffectiveData : IEffectEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iinnershadoweffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi a bázis IEffectEffectiveData interfész lekérését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iinnershadoweffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi a bázis IEffectEffectiveData interfész lekérdezését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [BlurRadius](../../aspose.slides.effects/iinnershadoweffectivedata/blurradius) { get; } | Elmosódási sugár. Csak olvasható Double. |
 | [Direction](../../aspose.slides.effects/iinnershadoweffectivedata/direction) { get; } | Az árnyék iránya. Csak olvasható Single. |
 | [Distance](../../aspose.slides.effects/iinnershadoweffectivedata/distance) { get; } | Az árnyék távolsága. Csak olvasható Double. |
 | [ShadowColor](../../aspose.slides.effects/iinnershadoweffectivedata/shadowcolor) { get; } | Az árnyék színe. Csak olvasható Color. |
 
-### Kapcsolódó elemek
+### Lásd még
 
 * interfész [IEffectEffectiveData](../ieffecteffectivedata)
 * névtér [Aspose.Slides.Effects](../../aspose.slides.effects)

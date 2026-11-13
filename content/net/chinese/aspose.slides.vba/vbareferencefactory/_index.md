@@ -1,9 +1,9 @@
 ---
 title: VbaReferenceFactory
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 允许通过 COM 接口创建 VBA 项目引用
 type: docs
-weight: 11680
+weight: 11700
 url: /zh/aspose.slides.vba/vbareferencefactory/
 ---
 ## VbaReferenceFactory 类
@@ -16,19 +16,19 @@ public class VbaReferenceFactory : IVbaReferenceFactory
 
 ## 构造函数
 
-| Name | Description |
+| 名称 | 描述 |
 | --- | --- |
 | [VbaReferenceFactory](vbareferencefactory)() | 默认构造函数。 |
 
 ## 属性
 
-| Name | Description |
+| 名称 | 描述 |
 | --- | --- |
 | static [Instance](../../aspose.slides.vba/vbareferencefactory/instance) { get; } | VBA 项目引用工厂的静态实例。只读 [`VbaReferenceFactory`](../vbareferencefactory)。 |
 
 ## 方法
 
-| Name | Description |
+| 名称 | 描述 |
 | --- | --- |
 | [CreateOleTypeLibReference](../../aspose.slides.vba/vbareferencefactory/createoletypelibreference)(string, string) | 创建新的 OLE Automation 类型库引用。 |
 

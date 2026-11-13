@@ -1,14 +1,14 @@
 ---
 title: IGradientStopEffectiveData
-second_title: Aspose.Sildes per .NET Riferimento API
-description: oggetto immutabile che rappresenta una fermata di gradiente.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: oggetto immutabile che rappresenta un'interruzione del gradiente.
 type: docs
-weight: 6050
+weight: 6070
 url: /it/aspose.slides/igradientstopeffectivedata/
 ---
 ## IGradientStopEffectiveData interfaccia
 
-oggetto immutabile che rappresenta una fermata di gradiente.
+oggetto immutabile che rappresenta un'interruzione del gradiente.
 
 ```csharp
 public interface IGradientStopEffectiveData
@@ -16,10 +16,10 @@ public interface IGradientStopEffectiveData
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [Color](../../aspose.slides/igradientstopeffectivedata/color) { get; } | Restituisce il colore di una fermata di gradiente. Sola lettura Color. |
-| [Position](../../aspose.slides/igradientstopeffectivedata/position) { get; } | Restituisce la posizione (0..1) di una fermata di gradiente. Sola lettura Single. |
+| [Color](../../aspose.slides/igradientstopeffectivedata/color) { get; } | Restituisce il colore di un'interruzione del gradiente. Solo lettura Color. |
+| [Position](../../aspose.slides/igradientstopeffectivedata/position) { get; } | Restituisce la posizione (0..1) di un'interruzione del gradiente. Solo lettura Single. |
 
 ### Vedi anche
 

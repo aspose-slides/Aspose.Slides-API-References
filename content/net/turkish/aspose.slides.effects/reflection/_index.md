@@ -1,9 +1,9 @@
 ---
 title: Reflection
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir yansıma efekti temsil eder.
+description: Bir Reflection etkisini temsil eder.
 type: docs
-weight: 3640
+weight: 3660
 url: /tr/aspose.slides.effects/reflection/
 ---
 ## Reflection sınıfı
@@ -18,28 +18,28 @@ public sealed class Reflection : IReflection
 
 | Ad | Açıklama |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | Bulanıklık yarıçapı. Okuma/Yazma Double. |
+| [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | Bulanıklaştırma yarıçapı. Okuma/Yazma Double. |
 | [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | Yansıma yönü. Okuma/Yazma Single. |
 | [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | Yansıma mesafesi. Okuma/Yazma Double. |
-| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | Son alfa değerinin (yüzde) bitiş konumunu (alfa gradient merdiveni boyunca) belirtir. Okuma/Yazma Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | Yansıma son saydamlığı. (yüzde). Okuma/Yazma Single. |
-| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | Yansımayı kaydırma yönünü belirtir. (açı). Okuma/Yazma Single. |
+| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | Son alfa değerinin (yüzde) için alfa gradyan rampa boyunca son konumu belirtir. Okuma/Yazma Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | Son yansıma opaklığı. (yüzde) Okuma/Yazma Single. |
+| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | Yansımayı ofsetlemek için yönü belirtir. (açı) Okuma/Yazma Single. |
 | [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | Dikdörtgen hizalaması. Okuma/Yazma [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | Şekil döndürülürse yansımayı şekil ile birlikte döndürülmesi gerekip gerekmediğini belirtir. Okuma/Yazma Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | Yatay ölçekleme faktörünü belirtir, negatif ölçekleme bir çevrim (flip) oluşturur. (yüzde) Okuma/Yazma Double. |
-| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | Dikey ölçekleme faktörünü belirtir, negatif ölçekleme bir çevrim (flip) oluşturur. (yüzde) Okuma/Yazma Double. |
+| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | Şekil döndürülürse yansımaya şekil ile birlikte döndürülmesi gerektiğini belirtir. Okuma/Yazma Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | Yatay ölçekleme faktörünü belirtir, negatif ölçekleme bir çevirme oluşturur. (yüzde) Okuma/Yazma Double. |
+| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | Dikey ölçekleme faktörünü belirtir, negatif ölçekleme bir çevirme oluşturur. (yüzde) Okuma/Yazma Double. |
 | [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | Yatay eğim açısını belirtir. Okuma/Yazma Double. |
 | [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | Dikey eğim açısını belirtir. Okuma/Yazma Double. |
-| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | Alfa gradient merdiveni boyunca başlangıç alfa değerinin (yüzde) başlangıç konumunu belirtir. Okuma/Yazma Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | Başlangıç yansıma saydamlığı. (yüzde). Okuma/Yazma Single. |
+| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | Başlangıç alfa değerinin (yüzde) alfa gradyan rampa boyunca başlangıç konumunu belirtir. Okuma/Yazma Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | Başlangıç yansıma opaklığı. (yüzde) Okuma/Yazma Single. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/reflection/equals)(object) | Belirtilen [`Reflection`](../reflection) mevcut [`Reflection`](../reflection) ile eşit olup olmadığını belirler. |
-| [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | Uygulanan kalıtımla etkili Reflection efekt verilerini alır. |
-| override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | Belirli bir tip için hash işlevi olarak hizmet verir. |
+| override [Equals](../../aspose.slides.effects/reflection/equals)(object) | Belirtilen [`Reflection`](../reflection)'ün mevcut [`Reflection`](../reflection) ile eşit olup olmadığını belirler. |
+| [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | Miras uygulanmış etkili Reflection efekti verilerini alır. |
+| override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | Belirli bir tür için bir hash işlevi olarak hizmet eder. |
 
 ### Ayrıca Bakınız
 

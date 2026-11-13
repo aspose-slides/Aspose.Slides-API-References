@@ -1,14 +1,14 @@
 ---
 title: IFontSchemeEffectiveData
 second_title: Aspose.Sildes için .NET API Referansı
-description: Geçerli yazı tipi şeması özelliklerini içeren değiştirilemez nesne.
+description: Etkili yazı tipi şeması özelliklerini içeren değişmez nesne.
 type: docs
-weight: 11260
+weight: 11280
 url: /tr/aspose.slides.theme/ifontschemeeffectivedata/
 ---
 ## IFontSchemeEffectiveData arayüzü
 
-Değiştirilemez nesne, geçerli yazı tipi şeması özelliklerini içerir.
+Etkili yazı tipi şeması özelliklerini içeren değişmez nesne.
 
 ```csharp
 public interface IFontSchemeEffectiveData
@@ -16,17 +16,17 @@ public interface IFontSchemeEffectiveData
 
 ## Özellikler
 
-| Ad | Açıklama |
+| İsim | Açıklama |
 | --- | --- |
-| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | Slaytın "heading" bölümüne ait yazı tipleri koleksiyonunu döndürür. Salt okunur [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
-| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | Slaytın "body" bölümüne ait yazı tipleri koleksiyonunu döndürür. Salt okunur [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
+| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | Slaytın “heading” bölümüne ait font koleksiyonunu döndürür. Salt okunur [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
+| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | Slaytın “body” bölümüne ait font koleksiyonunu döndürür. Salt okunur [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
 | [Name](../../aspose.slides.theme/ifontschemeeffectivedata/name) { get; } | Yazı tipi şeması adını döndürür. Salt okunur String. |
 
 ### Açıklamalar
 
-Bu arayüz, [`IThemeEffectiveData`](../ithemeeffectivedata)'ın bir parçası olarak kullanılır.
+Bu arayüz [`IThemeEffectiveData`](../ithemeeffectivedata) bir parçası olarak kullanılır.
 
-### Ayrıca Bakınız
+### Diğer
 
 * ad alanı [Aspose.Slides.Theme](../../aspose.slides.theme)
 * derleme [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: Glow
-second_title: Aspose.Sildes para la referencia de la API de .NET
-description: Representa un efecto Glow en el que se agrega un contorno borroso de color fuera de los bordes del objeto.
+second_title: Aspose.Sildes para la referencia de API de .NET
+description: Representa un efecto Glow en el que se agrega un contorno de color difuminado fuera de los bordes del objeto.
 type: docs
-weight: 2990
+weight: 3010
 url: /es/aspose.slides.effects/glow/
 ---
-## Clase Glow
+## Glow clase
 
-Representa un efecto Glow, en el que se agrega un contorno borroso de color fuera de los bordes del objeto.
+Representa un efecto Glow, en el que se agrega un contorno de color difuminado fuera de los bordes del objeto.
 
 ```csharp
 public sealed class Glow : IGlow
@@ -29,7 +29,7 @@ public sealed class Glow : IGlow
 | [GetEffective](../../aspose.slides.effects/glow/geteffective)() | Obtiene los datos efectivos del efecto Glow con la herencia aplicada. |
 | override [GetHashCode](../../aspose.slides.effects/glow/gethashcode)() | Sirve como función hash para un tipo particular. |
 
-### Véase también
+### Ver también
 
 * interfaz [IGlow](../iglow)
 * espacio de nombres [Aspose.Slides.Effects](../../aspose.slides.effects)

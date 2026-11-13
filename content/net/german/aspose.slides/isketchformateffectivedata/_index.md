@@ -1,14 +1,14 @@
 ---
 title: ISketchFormatEffectiveData
-second_title: Aspose.Sildes für .NET API Referenz
-description: Unveränderliches Objekt, das effektive Linien-Skizzen-Eigenschaften enthält.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Unveränderliches Objekt, das effektive Linienstich-Eigenschaften enthält.
 type: docs
-weight: 7030
+weight: 7050
 url: /de/aspose.slides/isketchformateffectivedata/
 ---
 ## ISketchFormatEffectiveData Schnittstelle
 
-Unveränderliches Objekt, das effektive Linien-Skizzen-Eigenschaften enthält.
+Unveränderliches Objekt, das effektive Linienstich-Eigenschaften enthält.
 
 ```csharp
 public interface ISketchFormatEffectiveData
@@ -18,7 +18,7 @@ public interface ISketchFormatEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [SketchType](../../aspose.slides/isketchformateffectivedata/sketchtype) { get; } | Gibt den Skizzentyp zurück. Nur lesend [`LineSketchType`](../linesketchtype). |
+| [SketchType](../../aspose.slides/isketchformateffectivedata/sketchtype) { get; } | Gibt den Skizzentyp zurück. Nur lesbar [`LineSketchType`](../linesketchtype). |
 
 ### Anmerkungen
 

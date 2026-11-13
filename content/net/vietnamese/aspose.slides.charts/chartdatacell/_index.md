@@ -1,14 +1,14 @@
 ---
 title: ChartDataCell
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho ô dữ liệu biểu đồ.
+description: Biểu diễn ô cho dữ liệu biểu đồ.
 type: docs
-weight: 1320
+weight: 1330
 url: /vi/aspose.slides.charts/chartdatacell/
 ---
-## lớp ChartDataCell
+## Lớp ChartDataCell
 
-Đại diện cho ô dữ liệu biểu đồ.
+Biểu diễn ô cho dữ liệu biểu đồ.
 
 ```csharp
 public class ChartDataCell : IChartDataCell
@@ -19,14 +19,14 @@ public class ChartDataCell : IChartDataCell
 | Tên | Mô tả |
 | --- | --- |
 | [ChartDataWorksheet](../../aspose.slides.charts/chartdatacell/chartdataworksheet) { get; } | Lấy worksheet. Chỉ đọc [`IChartDataWorksheet`](../ichartdataworksheet). |
-| [Column](../../aspose.slides.charts/chartdatacell/column) { get; } | Trả về chỉ số cột của worksheet mà ô nằm trong đó. Chỉ đọc Int32. |
-| [CustomNumberFormat](../../aspose.slides.charts/chartdatacell/customnumberformat) { get; set; } | Lấy hoặc đặt định dạng hiển thị tùy chỉnh của số và ngày. Nếu giá trị rỗng sẽ sử dụng giá trị PresetNumberFormat. Đọc/ghi String. |
+| [Column](../../aspose.slides.charts/chartdatacell/column) { get; } | Trả về chỉ mục của cột của worksheet mà ô nằm trong đó. Chỉ đọc Int32. |
+| [CustomNumberFormat](../../aspose.slides.charts/chartdatacell/customnumberformat) { get; set; } | Lấy hoặc đặt định dạng hiển thị tùy chỉnh của số và ngày. Nếu giá trị trống sẽ sử dụng giá trị PresetNumberFormat. Đọc/ghi String. |
 | [Formula](../../aspose.slides.charts/chartdatacell/formula) { get; set; } | Lấy hoặc đặt công thức theo kiểu A1. |
 | [IsHidden](../../aspose.slides.charts/chartdatacell/ishidden) { get; } | Xác định xem ô có bị ẩn hay không. Chỉ đọc Boolean. |
 | [PresetNumberFormat](../../aspose.slides.charts/chartdatacell/presetnumberformat) { get; set; } | Lấy hoặc đặt định dạng hiển thị tích hợp của số và ngày. Số Preset phải nằm trong [0..22] hoặc [37..49]. Đọc/ghi Byte. |
 | [R1C1Formula](../../aspose.slides.charts/chartdatacell/r1c1formula) { get; set; } | Lấy hoặc đặt công thức theo kiểu R1C1. |
-| [Row](../../aspose.slides.charts/chartdatacell/row) { get; } | Trả về chỉ số hàng của worksheet mà ô nằm trong đó. Chỉ đọc Int32. |
-| [Value](../../aspose.slides.charts/chartdatacell/value) { get; set; } | Lấy hoặc đặt giá trị của ô. Đọc/ghi Object. |
+| [Row](../../aspose.slides.charts/chartdatacell/row) { get; } | Trả về chỉ mục của hàng của worksheet mà ô nằm trong đó. Chỉ đọc Int32. |
+| [Value](../../aspose.slides.charts/chartdatacell/value) { get; set; } | Lấy hoặc đặt giá trị của một ô. Đọc/ghi Object. |
 
 ## Phương thức
 

@@ -1,14 +1,14 @@
 ---
 title: TagCollection
 second_title: Aspose.Sildes için .NET API Referansı
-description: Kullanıcı tanımlı string çiftlerinden oluşan etiket koleksiyonunu temsil eder
+description: Kullanıcı tanımlı dize çiftlerinden oluşan etiket koleksiyonunu temsil eder
 type: docs
-weight: 10890
+weight: 10910
 url: /tr/aspose.slides/tagcollection/
 ---
-## TagCollection sınıfı
+## TagCollection sınıf
 
-Etiketlerin (kullanıcı tanımlı string çiftleri) koleksiyonunu temsil eder
+Etiketlerin (kullanıcı tanımlı dize çiftleri) koleksiyonunu temsil eder.
 
 ```csharp
 public sealed class TagCollection : ITagCollection
@@ -18,10 +18,10 @@ public sealed class TagCollection : ITagCollection
 
 | Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides/tagcollection/count) { get; } | Toplam etiket sayısını döndürür. Salt-okunur Int32. |
-| [IsSynchronized](../../aspose.slides/tagcollection/issynchronized) { get; } | Koleksiyona erişimin eşzamanlı (thread-safe) olup olmadığını gösteren bir değer döndürür. Salt-okunur Boolean. |
+| [Count](../../aspose.slides/tagcollection/count) { get; } | Koleksiyondaki etiket sayısını döndürür. Yalnızca okuma Int32. |
+| [IsSynchronized](../../aspose.slides/tagcollection/issynchronized) { get; } | Koleksiyona erişimin eşzamanlı (iş parçacığı güvenli) olup olmadığını gösteren bir değeri döndürür. Yalnızca okuma Boolean. |
 | [Item](../../aspose.slides/tagcollection/item) { get; set; } | Bir etiketin anahtar ve değer çiftini döndürür veya ayarlar. |
-| [SyncRoot](../../aspose.slides/tagcollection/syncroot) { get; } | Bir eşzamanlama kökü döndürür. Salt-okunur Object. |
+| [SyncRoot](../../aspose.slides/tagcollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Yalnızca okuma Object. |
 
 ## Yöntemler
 
@@ -31,13 +31,13 @@ public sealed class TagCollection : ITagCollection
 | [Clear](../../aspose.slides/tagcollection/clear)() | Koleksiyondaki tüm etiketleri kaldırır. |
 | [Contains](../../aspose.slides/tagcollection/contains)(string) | Koleksiyonun belirli bir adı içerip içermediğini belirler. |
 | [CopyTo](../../aspose.slides/tagcollection/copyto)(Array, int) | Koleksiyondaki tüm öğeleri belirtilen diziye kopyalar. |
-| [GetEnumerator](../../aspose.slides/tagcollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |
-| [GetNameByIndex](../../aspose.slides/tagcollection/getnamebyindex)(int) | Belirtilen indeksdeki etiketin anahtarını döndürür. |
+| [GetEnumerator](../../aspose.slides/tagcollection/getenumerator)() | Koleksiyonun içinden geçecek bir enumerator döndürür. |
+| [GetNameByIndex](../../aspose.slides/tagcollection/getnamebyindex)(int) | Belirtilen indeksteki bir etiketin anahtarını döndürür. |
 | [GetNamesOfTags](../../aspose.slides/tagcollection/getnamesoftags)() | Etiketlerin adlarını döndürür. |
-| [GetValueByIndex](../../aspose.slides/tagcollection/getvaluebyindex)(int) | Belirtilen indeksdeki etiketin değerini döndürür. |
+| [GetValueByIndex](../../aspose.slides/tagcollection/getvaluebyindex)(int) | Belirtilen indeksteki bir etiketin değerini döndürür. |
 | [IndexOfName](../../aspose.slides/tagcollection/indexofname)(string) | Koleksiyondaki belirtilen anahtarın sıfır tabanlı indeksini döndürür. |
 | [Remove](../../aspose.slides/tagcollection/remove)(string) | Koleksiyondan belirtilen ada sahip etiketi kaldırır. |
-| [RemoveAt](../../aspose.slides/tagcollection/removeat)(int) | Belirtilen indeksdeki etiketi kaldırır. |
+| [RemoveAt](../../aspose.slides/tagcollection/removeat)(int) | Belirtilen indeksteki etiketi kaldırır. |
 
 ### Örnekler
 

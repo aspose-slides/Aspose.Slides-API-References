@@ -1,14 +1,14 @@
 ---
 title: VbaReferenceCollection
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt eine Sammlung von VBA-Projektreferenzen dar.
+description: Stellt eine Sammlung von VBA-Projektverweisen dar.
 type: docs
-weight: 11670
+weight: 11690
 url: /de/aspose.slides.vba/vbareferencecollection/
 ---
 ## VbaReferenceCollection Klasse
 
-Stellt eine Sammlung von VBA-Projektreferenzen dar.
+Stellt eine Sammlung von VBA-Projektverweisen dar.
 
 ```csharp
 public class VbaReferenceCollection : IVbaReferenceCollection
@@ -18,18 +18,18 @@ public class VbaReferenceCollection : IVbaReferenceCollection
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides.vba/vbareferencecollection/count) { get; } | Gibt die tatsächlich in der Sammlung enthaltene Anzahl von Elementen zurück. Schreibgeschützt Int32. |
-| [IsSynchronized](../../aspose.slides.vba/vbareferencecollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (thread-sicher) ist. Schreibgeschützt Boolean. |
+| [Count](../../aspose.slides.vba/vbareferencecollection/count) { get; } | Gibt die tatsächlich in der Sammlung enthaltene Anzahl von Elementen zurück. Nur-Lesen Int32. |
+| [IsSynchronized](../../aspose.slides.vba/vbareferencecollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (thread-sicher) ist. Nur-Lesen Boolean. |
 | [Item](../../aspose.slides.vba/vbareferencecollection/item) { get; } | Gibt das Element am angegebenen Index zurück. |
-| [SyncRoot](../../aspose.slides.vba/vbareferencecollection/syncroot) { get; } | Gibt ein Synchronisationsgrundobjekt zurück. Schreibgeschützt Object. |
+| [SyncRoot](../../aspose.slides.vba/vbareferencecollection/syncroot) { get; } | Gibt die Synchronisationswurzel zurück. Nur-Lesen Object. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.slides.vba/vbareferencecollection/add)(IVbaReference) | Fügt die neue Referenz zur Referenzsammlung hinzu |
+| [Add](../../aspose.slides.vba/vbareferencecollection/add)(IVbaReference) | Fügt den neuen Verweis zur Referenzsammlung hinzu |
 | [CopyTo](../../aspose.slides.vba/vbareferencecollection/copyto)(Array, int) | Kopiert alle Elemente aus der Sammlung in das angegebene Array. |
-| [GetEnumerator](../../aspose.slides.vba/vbareferencecollection/getenumerator)() | Gibt einen Enumerator zurück, der durch die Sammlung iteriert. |
+| [GetEnumerator](../../aspose.slides.vba/vbareferencecollection/getenumerator)() | Gibt einen Enumerator zurück, der die Sammlung durchläuft. |
 
 ### Siehe auch
 

@@ -1,14 +1,14 @@
 ---
 title: GetFontBytes
-second_title: Aspose.Sildes pro .NET API Reference
-description: Získá pole bajtů představující fontová data pro zadaný styl písma a fontová data.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Načte pole bajtů představující data písma pro zadaný styl písma a data písma.
 type: docs
-weight: 50
+weight: 60
 url: /cs/aspose.slides/ifontsmanager/getfontbytes/
 ---
 ## IFontsManager.GetFontBytes metoda
 
-Získá pole bajtů představující fontová data pro zadaný styl fontu a fontová data.
+Načte pole bajtů představující data písma pro zadaný styl písma a data písma.
 
 ```csharp
 public byte[] GetFontBytes(IFontData fontData, FontStyleType fontStyle)
@@ -16,12 +16,12 @@ public byte[] GetFontBytes(IFontData fontData, FontStyleType fontStyle)
 
 | Parametr | Typ | Popis |
 | --- | --- | --- |
-| fontData | IFontData | Objekt fontových dat obsahující informace o fontu [`IFontData`](../../ifontdata). |
-| fontStyle | FontStyleType | Styl fontu, pro který mají být data načtena [`FontStyleType`](../../fontstyletype). |
+| fontData | IFontData | Objekt dat písma obsahující informace o písmu [`IFontData`](../../ifontdata). |
+| fontStyle | FontStyleType | Styl písma, pro který mají být data načtena [`FontStyleType`](../../fontstyletype). |
 
 ### Návratová hodnota
 
-Pole bajtů obsahující fontová data pro zadaný styl fontu. Pokud nejsou data fontu nebo styl nalezeny, vrátí null.
+Pole bajtů obsahující data písma pro zadaný styl písma. Pokud data písma nebo styl nejsou nalezeny, vrací null.
 
 ### Příklady
 
@@ -29,10 +29,10 @@ Pole bajtů obsahující fontová data pro zadaný styl fontu. Pokud nejsou data
 [C#]
 using (Presentation pres = new Presentation ("Presentation.pptx"))
 {
-    // Načíst všechna písma použité v prezentaci
+    // Načte všechna písma použitá v prezentaci
     IFontData[] fonts = pres.FontsManager.GetFonts();
 
-    // Získat pole bajtů představující běžný styl prvního písma v prezentaci
+    // Získá pole bajtů představující běžný styl prvního písma v prezentaci
     byte[] bytes = pres.FontsManager.GetFontBytes(fonts[0], FontStyleType.Regular);
 }
 ```
@@ -40,7 +40,7 @@ using (Presentation pres = new Presentation ("Presentation.pptx"))
 ### Viz také
 
 * rozhraní [IFontData](../../ifontdata)
-* výčet [FontStyleType](../../fontstyletype)
+* enum [FontStyleType](../../fontstyletype)
 * rozhraní [IFontsManager](../../ifontsmanager)
 * jmenný prostor [Aspose.Slides](../../ifontsmanager)
 * sestavení [Aspose.Slides](../../../)

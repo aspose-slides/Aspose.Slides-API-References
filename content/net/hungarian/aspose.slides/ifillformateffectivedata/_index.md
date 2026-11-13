@@ -1,14 +1,14 @@
 ---
 title: IFillFormatEffectiveData
-second_title: Aspose.Sildes .NET API-referencia
-description: Módosíthatatlan objektum, amely a tényleges kitöltési formázási tulajdonságokat tartalmazza.
+second_title: Aspose.Sildes .NET API referencia
+description: Megváltoztathatatlan objektum, amely hatékony kitöltési formázási tulajdonságokat tartalmaz.
 type: docs
-weight: 5800
+weight: 5820
 url: /hu/aspose.slides/ifillformateffectivedata/
 ---
-## IFillFormatEffectiveData interface
+## IFillFormatEffectiveData interfész
 
-Módosíthatatlan objektum, amely a tényleges kitöltési formázási tulajdonságokat tartalmazza.
+Megváltoztathatatlan objektum, amely hatékony kitöltési formázási tulajdonságokat tartalmaz.
 
 ```csharp
 public interface IFillFormatEffectiveData : IFillParamSource
@@ -18,20 +18,20 @@ public interface IFillFormatEffectiveData : IFillParamSource
 
 | Név | Leírás |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ifillformateffectivedata/asifillparamsource) { get; } | Visszaadja az IFillParamSource interfészt. Csak olvasható [`IFillParamSource`](../ifillparamsource). |
-| [FillType](../../aspose.slides/ifillformateffectivedata/filltype) { get; } | Visszaadja a kitöltés típusát. Csak olvasható [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/ifillformateffectivedata/gradientformat) { get; } | Visszaadja a fokozatos kitöltés formátumát. Csak olvasható [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
-| [PatternFormat](../../aspose.slides/ifillformateffectivedata/patternformat) { get; } | Visszaadja a mintázatos kitöltés formátumát. Csak olvasható [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
-| [PictureFillFormat](../../aspose.slides/ifillformateffectivedata/picturefillformat) { get; } | Visszaadja a képes kitöltés formátumát. Csak olvasható [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata). |
-| [RotateWithShape](../../aspose.slides/ifillformateffectivedata/rotatewithshape) { get; } | Meghatározza, hogy a kitöltés a formával együtt forgatható-e. Csak olvasható Boolean. |
-| [SolidFillColor](../../aspose.slides/ifillformateffectivedata/solidfillcolor) { get; } | Visszaadja a kitöltés színét. Csak olvasható Color. |
-| [SolidFillSchemeColor](../../aspose.slides/ifillformateffectivedata/solidfillschemecolor) { get; } | Visszaadja a színsémával definiált kitöltési színt. A NotDefined érték jelzi, hogy a [`SolidFillColor`](./solidfillcolor) nem színséma szín. Csak olvasható [`SchemeColor`](../schemecolor). |
+| [AsIFillParamSource](../../aspose.slides/ifillformateffectivedata/asifillparamsource) { get; } | Visszaadja az IFillParamSource interfészt. Csak-olvasás [`IFillParamSource`](../ifillparamsource). |
+| [FillType](../../aspose.slides/ifillformateffectivedata/filltype) { get; } | Visszaadja a kitöltés típusát. Csak-olvasás [`FillType`](../filltype). |
+| [GradientFormat](../../aspose.slides/ifillformateffectivedata/gradientformat) { get; } | Visszaadja a színátmenetes kitöltés formátumát. Csak-olvasás [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
+| [PatternFormat](../../aspose.slides/ifillformateffectivedata/patternformat) { get; } | Visszaadja a minta kitöltés formátumát. Csak-olvasás [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
+| [PictureFillFormat](../../aspose.slides/ifillformateffectivedata/picturefillformat) { get; } | Visszaadja a kép kitöltés formátumát. Csak-olvasás [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata). |
+| [RotateWithShape](../../aspose.slides/ifillformateffectivedata/rotatewithshape) { get; } | Meghatározza, hogy a kitöltést a forma forgatni kell-e. Csak-olvasás Boolean. |
+| [SolidFillColor](../../aspose.slides/ifillformateffectivedata/solidfillcolor) { get; } | Visszaadja a kitöltés színét. Csak-olvasás Color. |
+| [SolidFillSchemeColor](../../aspose.slides/ifillformateffectivedata/solidfillschemecolor) { get; } | A színséma által meghatározott kitöltési színt adja vissza. A NotDefined érték jelzi, hogy a [`SolidFillColor`](./solidfillcolor) nem egy sémaszín. Csak-olvasás [`SchemeColor`](../schemecolor). |
 
 ### Megjegyzések
 
-Ez az interfész a(z) [`IFillFormat`](../ifillformat) interfésszel együtt használható a tényleges formázási értékek visszaadásához, öröklődés alkalmazásával.
+Ezt az interfészt a [`IFillFormat`](../ifillformat) interfésszel együtt használják, hogy a öröklődés alkalmazásával visszaadják a hatékony formázási értékeket.
 
-### Kapcsolódó elemek
+### Lásd még
 
 * interfész [IFillParamSource](../ifillparamsource)
 * névtér [Aspose.Slides](../../aspose.slides)

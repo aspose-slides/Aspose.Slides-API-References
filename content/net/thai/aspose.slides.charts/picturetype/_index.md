@@ -1,14 +1,14 @@
 ---
 title: PictureType
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: กำหนดโหมดการเติมรูปภาพของแถบ.
+second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
+description: กำหนดโหมดการเติมรูปภาพแถบ.
 type: docs
-weight: 2360
+weight: 2380
 url: /th/aspose.slides.charts/picturetype/
 ---
-## การนับ PictureType
+## PictureType enum
 
-กำหนดโหมดการเติมรูปภาพของแถบ
+กำหนดโหมดการเติมรูปภาพแถบ.
 
 ```csharp
 public enum PictureType
@@ -18,10 +18,10 @@ public enum PictureType
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| NotDefined | `-1` | ไม่ได้กำหนด |
-| Stack | `0` | รูปภาพจะมีขนาดให้ทำซ้ำได้สูงสุด 15 ครั้งในแถบซ้อนที่ยาวที่สุด |
-| StackScale | `1` | รูปภาพจะมีขนาดตามจำนวนหน่วยที่กำหนดและทำซ้ำตามความยาวของแถบ |
-| Stretch | `2` | รูปภาพจะถูกขยายเต็มความยาวของแถบซ้อน |
+| NotDefined | `-1` | ไม่ได้กำหนด. |
+| Stack | `0` | รูปภาพถูกปรับขนาดให้ทำซ้ำสูงสุด 15 ครั้งในแถบที่ซ้อนกันยาวที่สุด. |
+| StackScale | `1` | รูปภาพถูกปรับขนาดเป็นจำนวนหน่วยที่ระบุและทำซ้ำตามความยาวของแถบ. |
+| Stretch | `2` | รูปภาพถูกยืดเต็มความยาวของแถบที่ซ้อนกัน. |
 
 ### ดูเพิ่มเติม
 

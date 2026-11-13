@@ -1,14 +1,14 @@
 ---
 title: Images
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: เมธอดสำหรับสร้างอินสแตนซ์และทำงานกับ IImage./iimage.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: เมธอดเพื่อสร้างและทำงานกับ IImage./iimage.
 type: docs
-weight: 7460
+weight: 7480
 url: /th/aspose.slides/images/
 ---
-## Images คลาส
+## คลาส Images
 
-เมธอดเพื่อสร้างอินสแตนซ์และทำงานกับ [`IImage`](../iimage).
+เมธอดเพื่อสร้างและทำงานกับ [`IImage`](../iimage).
 
 ```csharp
 public static class Images
@@ -18,11 +18,11 @@ public static class Images
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| static [FromFile](../../aspose.slides/images/fromfile#fromfile)(string) | สร้างภาพจากไฟล์ . |
-| static [FromFile](../../aspose.slides/images/fromfile#fromfile_1)(string, bool) | สร้างภาพจากไฟล์ |
-| static [FromStream](../../aspose.slides/images/fromstream#fromstream)(Stream) | สร้างภาพจากสตรีม. |
-| static [FromStream](../../aspose.slides/images/fromstream#fromstream_1)(Stream, bool) | สร้างภาพจากสตรีม. |
-| static [FromStream](../../aspose.slides/images/fromstream#fromstream_2)(Stream, bool, bool) | สร้างภาพจากสตรีม. |
+| static [FromFile](../../aspose.slides/images/fromfile#fromfile)(string) | สร้างรูปภาพจากไฟล์ . |
+| static [FromFile](../../aspose.slides/images/fromfile#fromfile_1)(string, bool) | สร้างรูปภาพจากไฟล์ |
+| static [FromStream](../../aspose.slides/images/fromstream#fromstream)(Stream) | สร้างรูปภาพจากสตรีม. |
+| static [FromStream](../../aspose.slides/images/fromstream#fromstream_1)(Stream, bool) | สร้างรูปภาพจากสตรีม. |
+| static [FromStream](../../aspose.slides/images/fromstream#fromstream_2)(Stream, bool, bool) | สร้างรูปภาพจากสตรีม. |
 
 ### ดูเพิ่มเติม
 

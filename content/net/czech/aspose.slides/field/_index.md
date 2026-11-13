@@ -1,14 +1,14 @@
 ---
 title: Field
-second_title: Aspose.Sildes pro .NET referenci API
+second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje pole.
 type: docs
-weight: 4750
+weight: 4770
 url: /cs/aspose.slides/field/
 ---
-## Třída Field
+## Field třída
 
-Represents a field.
+Reprezentuje pole.
 
 ```csharp
 public sealed class Field : DomObject<Portion>, IField
@@ -18,7 +18,7 @@ public sealed class Field : DomObject<Portion>, IField
 
 | Název | Popis |
 | --- | --- |
-| [Type](../../aspose.slides/field/type) { get; set; } | Vrací nebo nastavuje typ pole. Čtení/zápis [`IFieldType`](../ifieldtype). |
+| [Type](../../aspose.slides/field/type) { get; set; } | Vrací nebo nastavuje typ pole. Číst/zapisovat [`IFieldType`](../ifieldtype). |
 
 ### Viz také
 

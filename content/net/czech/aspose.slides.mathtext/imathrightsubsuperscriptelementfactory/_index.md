@@ -1,9 +1,9 @@
 ---
 title: IMathRightSubSuperscriptElementFactory
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET referenční dokumentaci API
 description: Umožňuje vytvořit IMathRightSubSuperscriptElementFactory
 type: docs
-weight: 8460
+weight: 8480
 url: /cs/aspose.slides.mathtext/imathrightsubsuperscriptelementfactory/
 ---
 ## IMathRightSubSuperscriptElementFactory rozhraní

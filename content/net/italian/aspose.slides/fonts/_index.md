@@ -1,14 +1,14 @@
 ---
 title: Fonts
-second_title: Riferimento API di Aspose.Sildes per .NET
-description: Raccolta di font.
+second_title: Aspose.Sildes per il riferimento API .NET
+description: Collezione di font.
 type: docs
-weight: 4920
+weight: 4940
 url: /it/aspose.slides/fonts/
 ---
 ## Fonts classe
 
-Raccolta di font.
+Collezione di font.
 
 ```csharp
 public class Fonts : IFonts
@@ -19,17 +19,17 @@ public class Fonts : IFonts
 | Nome | Descrizione |
 | --- | --- |
 | [ComplexScriptFont](../../aspose.slides/fonts/complexscriptfont) { get; set; } | Restituisce o imposta il font per script complessi. Lettura/scrittura [`IFontData`](../ifontdata). |
-| [EastAsianFont](../../aspose.slides/fonts/eastasianfont) { get; set; } | Restituisce o imposta il font dell'Est asiatico. Lettura/scrittura [`IFontData`](../ifontdata). |
+| [EastAsianFont](../../aspose.slides/fonts/eastasianfont) { get; set; } | Restituisce o imposta il font est asiatico. Lettura/scrittura [`IFontData`](../ifontdata). |
 | [LatinFont](../../aspose.slides/fonts/latinfont) { get; set; } | Restituisce o imposta il font latino. Lettura/scrittura [`IFontData`](../ifontdata). |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetScriptFont](../../aspose.slides/fonts/getscriptfont)(string) | Ottiene il nome del font associato a un tag script specifico dal tema della presentazione. |
+| [GetScriptFont](../../aspose.slides/fonts/getscriptfont)(string) | Ottiene il nome del font associato a un tag di script specifico dal tema della presentazione. |
 | [GetScriptFontMap](../../aspose.slides/fonts/getscriptfontmap)() | Restituisce un dizionario di tutte le definizioni di font script nella presentazione. |
-| [RemoveScriptFont](../../aspose.slides/fonts/removescriptfont)(string) | Rimuove l'impostazione del font associata a un tag script specifico dalla collezione di font del tema. |
-| [SetScriptFont](../../aspose.slides/fonts/setscriptfont)(string, string) | Assegna un nome di font a un tag script specifico, che definisce come il testo di quello script verrà visualizzato nella presentazione. |
+| [RemoveScriptFont](../../aspose.slides/fonts/removescriptfont)(string) | Rimuove l'impostazione del font associata a un tag di script specifico dalla raccolta di font del tema. |
+| [SetScriptFont](../../aspose.slides/fonts/setscriptfont)(string, string) | Assegna un nome di font a un tag di script specifico, che definisce come il testo di quello script verrà renderizzato nella presentazione. |
 
 ### Vedi anche
 

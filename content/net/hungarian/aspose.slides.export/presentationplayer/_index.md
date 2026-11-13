@@ -1,14 +1,14 @@
 ---
 title: PresentationPlayer
-second_title: Aspose.Sildes .NET API referencia
-description: Ábrázolja a Presentation../aspose.slides/presentation-hez kapcsolódó animációk lejátszóját.
+second_title: Aspose.Sildes a .NET API hivatkozáshoz
+description: Képviseli a Presentationhez kapcsolódó animációk lejátszóját../aspose.slides/presentation.
 type: docs
-weight: 4390
+weight: 4410
 url: /hu/aspose.slides.export/presentationplayer/
 ---
 ## PresentationPlayer osztály
 
-Ábrázolja a [`Presentation`](../../aspose.slides/presentation) animációihoz kapcsolódó lejátszót.
+Képviseli a [`Presentation`](../../aspose.slides/presentation)-hez kapcsolódó animációk lejátszóját.
 
 ```csharp
 public class PresentationPlayer : IDisposable
@@ -16,27 +16,27 @@ public class PresentationPlayer : IDisposable
 
 ## Konstruktorok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [PresentationPlayer](presentationplayer)(PresentationAnimationsGenerator, double) | Új példányt hoz létre a [`PresentationPlayer`](../presentationplayer) számára. |
+| [PresentationPlayer](presentationplayer)(PresentationAnimationsGenerator, double) | Új példányt hoz létre a [`PresentationPlayer`](../presentationplayer)-ból. |
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [FrameIndex](../../aspose.slides.export/presentationplayer/frameindex) { get; } | Lekérdezi a keret indexét. |
+| [FrameIndex](../../aspose.slides.export/presentationplayer/frameindex) { get; } | Visszaadja a keret indexét. |
 
 ## Metódusok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
 | [Dispose](../../aspose.slides.export/presentationplayer/dispose)() | Felszabadítja a [`PresentationPlayer`](../presentationplayer) példányát. |
 
 ## Egyéb tagok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| delegate [FrameTickHandler](presentationplayer.frametickhandler) | Ábrázolja a [`FrameTick`](./frametick) esemény keret-ütés kezelőjét. |
+| delegált [FrameTickHandler](presentationplayer.frametickhandler) | A [`FrameTick`](./frametick) esemény keret-tick kezelőjét képviseli. |
 
 ### Példák
 

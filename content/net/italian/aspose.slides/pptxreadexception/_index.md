@@ -1,14 +1,14 @@
 ---
 title: PptxReadException
-second_title: Aspose.Sildes per il riferimento API .NET
-description: Rappresenta un'eccezione che viene sollevata in caso di errori di lettura della presentazione.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta un'eccezione che viene sollevata durante errori di lettura della presentazione.
 type: docs
-weight: 9570
+weight: 9590
 url: /it/aspose.slides/pptxreadexception/
 ---
 ## PptxReadException classe
 
-Rappresenta un'eccezione che viene sollevata in caso di errori di lettura della presentazione.
+Rappresenta un'eccezione che viene generata durante errori di lettura della presentazione.
 
 ```csharp
 public class PptxReadException : PptxException
@@ -20,7 +20,7 @@ public class PptxReadException : PptxException
 | --- | --- |
 | [PptxReadException](pptxreadexception#constructor)() | Costruttore predefinito. |
 | [PptxReadException](pptxreadexception#constructor_1)(string) | Costruttore che consente di aggiungere un messaggio a questa eccezione. |
-| [PptxReadException](pptxreadexception#constructor_2)(string, Exception) | Costruttore per un'eccezione che contiene un messaggio e un'Exception incorporata. |
+| [PptxReadException](pptxreadexception#constructor_2)(string, Exception) | Costruttore per un'eccezione contenente un messaggio e un'eccezione incorporata. |
 
 ### Vedi anche
 

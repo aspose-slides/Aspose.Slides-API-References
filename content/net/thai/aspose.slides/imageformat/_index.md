@@ -1,33 +1,33 @@
 ---
 title: ImageFormat
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แสดงถึงรูปแบบไฟล์ของภาพ.
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+description: แสดงถึงรูปแบบไฟล์ของรูปภาพ
 type: docs
-weight: 7430
+weight: 7450
 url: /th/aspose.slides/imageformat/
 ---
-## การนับค่าของ ImageFormat
+## การกำหนดประเภท ImageFormat
 
-แสดงถึงรูปแบบไฟล์ของภาพ.
+แสดงถึงรูปแบบไฟล์ของรูปภาพ.
 
 ```csharp
 public enum ImageFormat
 ```
 
-### ค่าต่างๆ
+### ค่า
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| MemoryBmp | `0` | แสดงถึงรูปแบบของ bitmap ในหน่วยความจำ. |
-| Bmp | `1` | แสดงถึงรูปแบบภาพ bitmap (BMP). |
-| Emf | `2` | แสดงถึงรูปแบบภาพ enhanced metafile (EMF). |
-| Wmf | `3` | แสดงถึงรูปแบบภาพ Windows metafile (WMF). |
-| Gif | `4` | แสดงถึงรูปแบบภาพ Graphics Interchange Format (GIF). |
-| Jpeg | `5` | แสดงถึงรูปแบบภาพ Joint Photographic Experts Group (JPEG). |
-| Png | `6` | แสดงถึงรูปแบบภาพ W3C Portable Network Graphics (PNG). |
-| Tiff | `7` | แสดงถึงรูปแบบภาพ Tagged Image File Format (TIFF). |
-| Exif | `8` | แสดงถึงรูปแบบ Exchangeable Image File (Exif). |
-| Icon | `9` | แสดงถึงรูปแบบภาพไอคอน Windows. |
+| MemoryBmp | `0` | แสดงถึงรูปแบบของบิตแมพในหน่วยความจำ |
+| Bmp | `1` | แสดงถึงรูปแบบภาพบิตแมพ (BMP) |
+| Emf | `2` | แสดงถึงรูปแบบภาพเมต้าไฟล์ที่ขยาย (EMF) |
+| Wmf | `3` | แสดงถึงรูปแบบภาพเมต้าไฟล์ของ Windows (WMF) |
+| Gif | `4` | แสดงถึงรูปแบบภาพ Graphics Interchange Format (GIF) |
+| Jpeg | `5` | แสดงถึงรูปแบบภาพ Joint Photographic Experts Group (JPEG) |
+| Png | `6` | แสดงถึงรูปแบบภาพ W3C Portable Network Graphics (PNG) |
+| Tiff | `7` | แสดงถึงรูปแบบภาพ Tagged Image File Format (TIFF) |
+| Exif | `8` | แสดงถึงรูปแบบไฟล์ภาพที่สามารถแลกเปลี่ยนได้ (Exif) |
+| Icon | `9` | แสดงถึงรูปแบบภาพไอคอนของ Windows |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: LineFormatCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt de collectie van lijnstijlen.
+description: Representeert de collectie van lijnstijlen.
 type: docs
-weight: 11420
+weight: 11440
 url: /nl/aspose.slides.theme/lineformatcollection/
 ---
 ## LineFormatCollection klasse
 
-Vertegenwoordigt de collectie van lijnstijlen.
+Representeert de collectie van lijnstijlen.
 
 ```csharp
 public sealed class LineFormatCollection : DomObject<FormatScheme>, ILineFormatCollection
@@ -18,17 +18,17 @@ public sealed class LineFormatCollection : DomObject<FormatScheme>, ILineFormatC
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Count](../../aspose.slides.theme/lineformatcollection/count) { get; } | Haalt het aantal elementen op dat daadwerkelijk in de collectie zit. Alleen-lezen Int32. |
-| [IsSynchronized](../../aspose.slides.theme/lineformatcollection/issynchronized) { get; } | Retourneert een waarde die aangeeft of de toegang tot de collectie gesynchroniseerd is (thread-safe). Alleen-lezen Boolean. |
+| [Count](../../aspose.slides.theme/lineformatcollection/count) { get; } | Haalt het aantal elementen op dat daadwerkelijk in de collectie voorkomt. Alleen-lezen Int32. |
+| [IsSynchronized](../../aspose.slides.theme/lineformatcollection/issynchronized) { get; } | Retourneert een waarde die aangeeft of de toegang tot de collectie gesynchroniseerd is (thread-veilig). Alleen-lezen Boolean. |
 | [Item](../../aspose.slides.theme/lineformatcollection/item) { get; } | Haalt het element op op de opgegeven index. Alleen-lezen [`ILineFormat`](../../aspose.slides/ilineformat). |
-| [SyncRoot](../../aspose.slides.theme/lineformatcollection/syncroot) { get; } | Retourneert een synchronisatieroot. Alleen-lezen Object. |
+| [SyncRoot](../../aspose.slides.theme/lineformatcollection/syncroot) { get; } | Retourneert een synchronatiewortel. Alleen-lezen Object. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
 | [CopyTo](../../aspose.slides.theme/lineformatcollection/copyto)(Array, int) | Kopieert alle elementen van de collectie naar de opgegeven array. |
-| [GetEnumerator](../../aspose.slides.theme/lineformatcollection/getenumerator)() | Retourneert een enumerator die door de collectie iterereert. |
+| [GetEnumerator](../../aspose.slides.theme/lineformatcollection/getenumerator)() | Retourneert een enumerator die door de collectie itereert. |
 
 ### Zie ook
 

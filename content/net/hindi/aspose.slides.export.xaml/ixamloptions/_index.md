@@ -1,14 +1,14 @@
 ---
 title: IXamlOptions
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: विकल्प जो यह नियंत्रित करते हैं कि XAML दस्तावेज़ कैसे सहेजा जाता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: विकल्प जो नियंत्रित करते हैं कि XAML दस्तावेज़ कैसे सहेजा जाता है।
 type: docs
-weight: 4700
+weight: 4720
 url: /hi/aspose.slides.export.xaml/ixamloptions/
 ---
 ## IXamlOptions इंटरफ़ेस
 
-XAML दस्तावेज़ को सहेजने के तरीके को नियंत्रित करने वाले विकल्प।
+XAML दस्तावेज़ को कैसे सहेजा जाता है, इसे नियंत्रित करने वाले विकल्प।
 
 ```csharp
 public interface IXamlOptions : ISaveOptions
@@ -18,9 +18,9 @@ public interface IXamlOptions : ISaveOptions
 
 | नाम | विवरण |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export.xaml/ixamloptions/asisaveoptions) { get; } | ISaveOptions इंटरफ़ेस लौटाता है। केवल पढ़ने योग्य [`ISaveOptions`](../../aspose.slides.export/isaveoptions)। |
-| [ExportHiddenSlides](../../aspose.slides.export.xaml/ixamloptions/exporthiddenslides) { get; set; } | निर्धारित करता है कि छिपी स्लाइड्स निर्यात की जाएँगी या नहीं। |
-| [OutputSaver](../../aspose.slides.export.xaml/ixamloptions/outputsaver) { get; set; } | IOutputSaver इंटरफ़ेस का कार्यान्वयन दर्शाता है। |
+| [AsISaveOptions](../../aspose.slides.export.xaml/ixamloptions/asisaveoptions) { get; } | ISaveOptions इंटरफ़ेस लौटाता है। केवल-पढ़ने योग्य [`ISaveOptions`](../../aspose.slides.export/isaveoptions)। |
+| [ExportHiddenSlides](../../aspose.slides.export.xaml/ixamloptions/exporthiddenslides) { get; set; } | निर्धारित करता है कि छिपी हुई स्लाइड्स निर्यात की जाएँगी या नहीं। |
+| [OutputSaver](../../aspose.slides.export.xaml/ixamloptions/outputsaver) { get; set; } | IOutputSaver इंटरफ़ेस के एक कार्यान्वयन का प्रतिनिधित्व करता है। |
 
 ### उदाहरण
 
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### संदर्भ
+### देखें
 
 * इंटरफ़ेस [ISaveOptions](../../aspose.slides.export/isaveoptions)
 * नामस्थान [Aspose.Slides.Export.Xaml](../../aspose.slides.export.xaml)

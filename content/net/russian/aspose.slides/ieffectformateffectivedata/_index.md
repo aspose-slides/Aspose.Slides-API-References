@@ -1,14 +1,14 @@
 ---
 title: IEffectFormatEffectiveData
-second_title: Aspose.Sildes для .NET API Reference
-description: Неизменяемый объект, содержащий эффективные свойства форматирования эффектов.
+second_title: Aspose.Sildes для .NET API справочник
+description: Неизменяемый объект, содержащий свойства эффективного форматирования эффектов.
 type: docs
-weight: 5750
+weight: 5770
 url: /ru/aspose.slides/ieffectformateffectivedata/
 ---
 ## IEffectFormatEffectiveData интерфейс
 
-Неизменяемый объект, содержащий эффективные свойства форматирования эффектов.
+Неизменяемый объект, содержащий свойства эффективного форматирования эффектов.
 
 ```csharp
 public interface IEffectFormatEffectiveData : IEffectParamSource
@@ -16,14 +16,14 @@ public interface IEffectFormatEffectiveData : IEffectParamSource
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [AsIEffectParamSource](../../aspose.slides/ieffectformateffectivedata/asieffectparamsource) { get; } | Позволяет получить базовый интерфейс IEffectParamSource. Только для чтения [`IEffectParamSource`](../ieffectparamsource). |
 | [BlurEffect](../../aspose.slides/ieffectformateffectivedata/blureffect) { get; } | Эффект размытия. Только для чтения [`IBlurEffectiveData`](../../aspose.slides.effects/iblureffectivedata). |
 | [FillOverlayEffect](../../aspose.slides/ieffectformateffectivedata/filloverlayeffect) { get; } | Эффект наложения заливки. Только для чтения [`IFillOverlayEffectiveData`](../../aspose.slides.effects/ifilloverlayeffectivedata). |
 | [GlowEffect](../../aspose.slides/ieffectformateffectivedata/gloweffect) { get; } | Эффект свечения. Только для чтения [`IGlowEffectiveData`](../../aspose.slides.effects/igloweffectivedata). |
 | [InnerShadowEffect](../../aspose.slides/ieffectformateffectivedata/innershadoweffect) { get; } | Внутренняя тень. Только для чтения [`IInnerShadowEffectiveData`](../../aspose.slides.effects/iinnershadoweffectivedata). |
-| [IsNoEffects](../../aspose.slides/ieffectformateffectivedata/isnoeffects) { get; } | Возвращает true, если все эффекты отключены (как только создано, объект EffectFormat по умолчанию). Только для чтения Boolean. |
+| [IsNoEffects](../../aspose.slides/ieffectformateffectivedata/isnoeffects) { get; } | Возвращает true, если все эффекты отключены (как только что созданный, объект EffectFormat по умолчанию). Только для чтения Boolean. |
 | [OuterShadowEffect](../../aspose.slides/ieffectformateffectivedata/outershadoweffect) { get; } | Внешняя тень. Только для чтения [`IOuterShadowEffectiveData`](../../aspose.slides.effects/ioutershadoweffectivedata). |
 | [PresetShadowEffect](../../aspose.slides/ieffectformateffectivedata/presetshadoweffect) { get; } | Предустановленная тень. Только для чтения [`IPresetShadowEffectiveData`](../../aspose.slides.effects/ipresetshadoweffectivedata). |
 | [ReflectionEffect](../../aspose.slides/ieffectformateffectivedata/reflectioneffect) { get; } | Отражение. Только для чтения [`IReflectionEffectiveData`](../../aspose.slides.effects/ireflectioneffectivedata). |
@@ -33,7 +33,7 @@ public interface IEffectFormatEffectiveData : IEffectParamSource
 
 Этот интерфейс используется вместе с интерфейсом [`IEffectFormat`](../ieffectformat) для возврата эффективных значений форматирования с учётом наследования.
 
-### Смотрите также
+### См. также
 
 * интерфейс [IEffectParamSource](../ieffectparamsource)
 * пространство имён [Aspose.Slides](../../aspose.slides)

@@ -1,14 +1,14 @@
 ---
 title: IMasterNotesSlideManager
 second_title: Aspose.Sildes för .NET API-referens
-description: Hantera masteranteckningsbilder.
+description: Master-anteckningsbildshanterare.
 type: docs
-weight: 6410
+weight: 6430
 url: /sv/aspose.slides/imasternotesslidemanager/
 ---
 ## IMasterNotesSlideManager gränssnitt
 
-Master notes slide manager.
+Hanterare för master-anteckningsbilder.
 
 ```csharp
 public interface IMasterNotesSlideManager
@@ -18,14 +18,14 @@ public interface IMasterNotesSlideManager
 
 | Namn | Beskrivning |
 | --- | --- |
-| [MasterNotesSlide](../../aspose.slides/imasternotesslidemanager/masternotesslide) { get; } | Returnerar en master för alla anteckningsbilder i den här presentationen om det finns en, annars returneras null. Skrivskyddad [`IMasterNotesSlide`](../imasternotesslide). |
+| [MasterNotesSlide](../../aspose.slides/imasternotesslidemanager/masternotesslide) { get; } | Returnerar en master för alla anteckningsbilder i den här presentationen om en sådan finns, annars returneras null. Skrivskyddad [`IMasterNotesSlide`](../imasternotesslide). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [RemoveMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/removemasternotesslide)() | Tar bort masteranteckningsbilden. |
-| [SetDefaultMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide)() | Ställer in standardmasteranteckningsbild för relaterad anteckningsbild. |
+| [RemoveMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/removemasternotesslide)() | Tar bort master-anteckningsbild. |
+| [SetDefaultMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide)() | Ställer in standard-master-anteckningsbild för relaterad anteckningsbild. |
 
 ### Se även
 

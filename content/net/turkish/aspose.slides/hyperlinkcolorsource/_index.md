@@ -1,9 +1,9 @@
 ---
 title: HyperlinkColorSource
 second_title: Aspose.Sildes için .NET API Referansı
-description: Köprü rengi kaynağını temsil eder.
+description: Köprü renginin kaynağını temsil eder.
 type: docs
-weight: 5140
+weight: 5160
 url: /tr/aspose.slides/hyperlinkcolorsource/
 ---
 ## HyperlinkColorSource enum
@@ -21,7 +21,7 @@ public enum HyperlinkColorSource
 | Styles | `0` | Stiller. |
 | PortionFormat | `1` | Parça biçimi. |
 
-### Ayrıca
+### Diğer Bağlantılar
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

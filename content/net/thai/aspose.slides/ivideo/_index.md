@@ -1,14 +1,14 @@
 ---
 title: IVideo
 second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: เป็นวิดีโอที่ฝังอยู่ในงานนำเสนอ
+description: แทนวิดีโอที่ฝังอยู่ในงานนำเสนอ
 type: docs
-weight: 7360
+weight: 7380
 url: /th/aspose.slides/ivideo/
 ---
-## IVideo อินเทอร์เฟซ
+## IVideo อินเตอร์เฟซ
 
-เป็นวิดีโอที่ฝังอยู่ในงานนำเสนอ
+แทนวิดีโอที่ฝังอยู่ในงานนำเสนอ
 
 ```csharp
 public interface IVideo
@@ -18,14 +18,14 @@ public interface IVideo
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [BinaryData](../../aspose.slides/ivideo/binarydata) { get; } | คืนค่าข้อมูลสำเนาของเสียง ในกรณีที่มีข้อมูลจำนวนมากควรพิจารณาใช้เมธอด [`GetStream`](./getstream) เพื่อป้องกันการโหลดข้อมูลวิดีโอเข้าสู่หน่วยความจำโดยไม่จำเป็นหรือแม้กระทั่ง OutOfMemoryException. อ่านอย่างเดียว Byte[]. |
+| [BinaryData](../../aspose.slides/ivideo/binarydata) { get; } | คืนสำเนาของข้อมูลเสียง หากข้อมูลมีขนาดใหญ่ ควรพิจารณาใช้วิธี [`GetStream`](./getstream) เพื่อป้องกันการโหลดข้อมูลวิดีโอเข้าสู่หน่วยความจำโดยไม่จำเป็นหรือแม้กระทั่ง OutOfMemoryException. อ่านอย่างเดียว Byte[]. |
 | [ContentType](../../aspose.slides/ivideo/contenttype) { get; } | คืนค่า MIME type ของวิดีโอที่เข้ารหัสใน [`BinaryData`](./binarydata). อ่านอย่างเดียว String. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GetStream](../../aspose.slides/ivideo/getstream)() | คืนค่า Stream สำหรับการอ่าน ใช้ 'using' หรือปิด stream หลังจากใช้. |
+| [GetStream](../../aspose.slides/ivideo/getstream)() | คืนค่า Stream สำหรับการอ่าน ใช้ 'using' หรือปิด stream หลังการใช้งาน. |
 
 ### ดูเพิ่มเติม
 

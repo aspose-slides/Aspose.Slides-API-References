@@ -1,14 +1,14 @@
 ---
 title: MasterThemeManager
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – Odniesienie API
 description: Umożliwia dostęp do głównego motywu prezentacji.
 type: docs
-weight: 11440
+weight: 11460
 url: /pl/aspose.slides.theme/masterthememanager/
 ---
 ## MasterThemeManager klasa
 
-Udostępnia dostęp do głównego motywu prezentacji.
+Provides access to presentation master theme.
 
 ```csharp
 public class MasterThemeManager : BaseThemeManager, IMasterThemeManager
@@ -18,14 +18,14 @@ public class MasterThemeManager : BaseThemeManager, IMasterThemeManager
 
 | Nazwa | Opis |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/masterthememanager/isoverridethemeenabled) { get; set; } | Określa, czy OverrideTheme nadpisuje odziedziczony efektywny motyw (Presentation.MasterTheme), czy nie. Odczyt/zapis Boolean. |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/masterthememanager/isoverridethemeenabled) { get; set; } | Określa, czy OverrideTheme nadpisuje odziedziczony efektywny motyw (Presentation.MasterTheme) czy nie. Odczyt/zapis Boolean. |
 | [OverrideTheme](../../aspose.slides.theme/masterthememanager/overridetheme) { get; set; } | Zwraca obiekt nadpisującego motywu. Odczyt/zapis [`IMasterTheme`](../imastertheme). |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/masterthememanager/applycolorscheme)(IExtraColorScheme) | Stosuje dodatkowy schemat kolorów do slajdu. |
+| [ApplyColorScheme](../../aspose.slides.theme/masterthememanager/applycolorscheme)(IExtraColorScheme) | Stosuje dodatkową schemat kolorów do slajdu. |
 | [CreateThemeEffective](../../aspose.slides.theme/masterthememanager/createthemeeffective)() | Zwraca obiekt motywu. |
 
 ### Zobacz także

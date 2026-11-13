@@ -1,14 +1,14 @@
 ---
 title: IMasterNotesSlideHeaderFooterManager
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en manager som hanterar beteendet för master notes slide sidfot datum-tid sidnummer platshållare och alla underordnade platshållare. Underordnade platshållare betyder att platshållare är innehållna på beroende notbilder. Beroende notbilder använder och är beroende av master notes slide.
+description: Representerar manager som håller beteendet för master-anteckningsbildens sidfot, datum-tid och sidnummer-platshållare samt alla barn-platshållare. Barn-platshållare betyder att platshållare är innehållna på beroende anteckningsbilder. Beroende anteckningsbilder använder och är beroende av master-anteckningsbilden.
 type: docs
-weight: 6400
+weight: 6420
 url: /sv/aspose.slides/imasternotesslideheaderfootermanager/
 ---
 ## IMasterNotesSlideHeaderFooterManager gränssnitt
 
-Representerar en manager som hanterar beteendet för master-noter-bildens sidfot, datum-tid, sidnummer-platshållare och alla underordnade platshållare. Underordnade platshållare betyder att platshållare är innehållna på beroende notbilds-bilder. Beroende notbilds-bilder använder och är beroende av master-noter-bilden.
+Representerar manager som innehåller beteendet för master-anteckningsbildens sidfot, datum-tid, sidnummer-platshållare och alla barn-platshållare. Barn-platshållare betyder att platshållare är innehållna på beroende anteckningsbilder. Beroende anteckningsbilder använder och är beroende av master-anteckningsbilden.
 
 ```csharp
 public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -24,13 +24,13 @@ public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHe
 
 | Namn | Beskrivning |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Ställer in text för master-noter-bildens datum-tid-platshållare och alla underordnade datum-tid-platshållare. Underordnade platshållare betyder att platshållare är innehållna på beroende notbilds-bilder. Beroende notbilds-bilder använder och är beroende av master-noter-bilden. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Ändrar synligheten för master-noter-bildens datum-tid-platshållare och alla underordnade datum-tid-platshållare. Underordnade platshållare betyder att platshållare är innehållna på beroende notbilds-bilder. Beroende notbilds-bilder använder och är beroende av master-noter-bilden. |
-| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | Ställer in text för master-noter-bildens sidfot-platshållare och alla underordnade sidfot-platshållare. Underordnade platshållare betyder att platshållare är innehållna på beroende notbilds-bilder. Beroende notbilds-bilder använder och är beroende av master-noter-bilden. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Ändrar synligheten för master-noter-bildens sidfot-platshållare och alla underordnade sidfot-platshållare. Underordnade platshållare betyder att platshållare är innehållna på beroende notbilds-bilder. Beroende notbilds-bilder använder och är beroende av master-noter-bilden. |
-| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | Ställer in text för master-noter-bildens rubrik-platshållare och alla underordnade rubrik-platshållare. Underordnade platshållare betyder att platshållare är innehållna på beroende notbilds-bilder. Beroende notbilds-bilder använder och är beroende av master-noter-bilden. |
-| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | Ändrar synligheten för master-noter-bildens rubrik-platshållare och alla underordnade rubrik-platshållare. Underordnade platshållare betyder att platshållare är innehållna på beroende notbilds-bilder. Beroende notbilds-bilder använder och är beroende av master-noter-bilden. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Ändrar synligheten för master-noter-bildens sidnummer-platshållare och alla underordnade sidnummer-platshållare. Underordnade platshållare betyder att platshållare är innehållna på beroende notbilds-bilder. Beroende notbilds-bilder använder och är beroende av master-noter-bilden. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Sätter text till datum-tid-platshållaren på master-anteckningsbilden och alla barn-datum-tid-platshållare. Barn-platshållare betyder att platshållare är innehållna på beroende anteckningsbilder. Beroende anteckningsbilder använder och är beroende av master-anteckningsbilden. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Ändrar datum-tid-platshållaren på master-anteckningsbilden och synligheten för alla barn-datum-tid-platshållare. |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | Sätter text till fot-platshållaren på master-anteckningsbilden och alla barn-fot-platshållare. Barn-platshållare betyder att platshållare är innehållna på beroende anteckningsbilder. Beroende anteckningsbilder använder och är beroende av master-anteckningsbilden. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Ändrar fot-platshållaren på master-anteckningsbilden och synligheten för alla barn-fot-platshållare. |
+| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | Sätter text till rubrik-platshållaren på master-anteckningsbilden och alla barn-rubrik-platshållare. Barn-platshållare betyder att platshållare är innehållna på beroende anteckningsbilder. Beroende anteckningsbilder använder och är beroende av master-anteckningsbilden. |
+| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | Ändrar rubrik-platshållaren på master-anteckningsbilden och synligheten för alla barn-rubrik-platshållare. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Ändrar sidnummer-platshållaren på master-anteckningsbilden och synligheten för alla barn-sidnummer-platshållare. |
 
 ### Se även
 

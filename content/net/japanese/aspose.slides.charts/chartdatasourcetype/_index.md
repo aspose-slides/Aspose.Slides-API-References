@@ -1,14 +1,14 @@
 ---
 title: ChartDataSourceType
-second_title: Aspose.Sildes の .NET API リファレンス
-description: チャートのデータ ソースの種類を表します
+second_title: Aspose.Sildes for .NET API リファレンス
+description: チャートのデータソースのタイプを表します。
 type: docs
-weight: 1370
+weight: 1380
 url: /ja/aspose.slides.charts/chartdatasourcetype/
 ---
-## ChartDataSourceType 列挙体
+## ChartDataSourceType 列挙型
 
-チャートのデータ ソースの種類を表します。
+チャートのデータソースのタイプを表します。
 
 ```csharp
 public enum ChartDataSourceType
@@ -18,8 +18,8 @@ public enum ChartDataSourceType
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| InternalWorkbook | `0` | 内部データ ソース。 |
-| ExternalWorkbook | `1` | 外部データ ソース。 |
+| InternalWorkbook | `0` | 内部データソース。 |
+| ExternalWorkbook | `1` | 外部データソース。 |
 
 ### 参照
 

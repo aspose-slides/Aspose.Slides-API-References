@@ -1,14 +1,14 @@
 ---
 title: IPieSplitCustomPointCollection
 second_title: Aspose.Sildes for .NET API リファレンス
-description: カスタム スプリットを使用したバーオブパイまたはパイオブパイ チャートの第2のパイまたはバーに描画されるポイントのコレクションを表します。
+description: カスタム スプリットを使用した bar-of-pie または pie-of-pie チャートの 2 番目のパイまたはバーに描画されるポイントのコレクションを表します。
 type: docs
-weight: 2190
+weight: 2210
 url: /ja/aspose.slides.charts/ipiesplitcustompointcollection/
 ---
 ## IPieSplitCustomPointCollection インターフェイス
 
-カスタム スプリットを使用したバーオブパイまたはパイオブパイ グラフの第2のパイまたはバーに描画されるポイントのコレクションを表します。
+カスタム スプリットを使用した bar-of-pie または pie-of-pie チャートの 2 番目のパイまたはバーに描画されるポイントのコレクションを表します。
 
 ```csharp
 public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
@@ -16,17 +16,17 @@ public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.charts/ipiesplitcustompointcollection/asienumerable) { get; } | IEnumerable インターフェイスを返します。 |
 | [Item](../../aspose.slides.charts/ipiesplitcustompointcollection/item) { get; } | インデックスでチャート データ ポイントを返します。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ipiesplitcustompointcollection/add)(int) | 親シリーズ ポイント コレクション内のインデックスでデータ ポイントを追加します。 |
-| [Remove](../../aspose.slides.charts/ipiesplitcustompointcollection/remove)(int) | 親シリーズ ポイント コレクション内のインデックスでコレクションから項目を削除します。 |
+| [Add](../../aspose.slides.charts/ipiesplitcustompointcollection/add)(int) | 親シリーズのポイント コレクション内のインデックスでデータ ポイントを追加します。 |
+| [Remove](../../aspose.slides.charts/ipiesplitcustompointcollection/remove)(int) | 親シリーズのポイント コレクション内のインデックスでコレクションから項目を削除します。 |
 
 ### 参照
 

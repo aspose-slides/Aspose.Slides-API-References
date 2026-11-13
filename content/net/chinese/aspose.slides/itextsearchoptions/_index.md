@@ -1,9 +1,9 @@
 ---
 title: ITextSearchOptions
 second_title: Aspose.Sildes .NET API 参考
-description: 表示可用于在 Presentation Slide 或 TextFrame 中搜索文本的选项。
+description: 表示可用于在 Presentation 幻灯片或 TextFrame 中搜索文本的选项。
 type: docs
-weight: 7300
+weight: 7320
 url: /zh/aspose.slides/itextsearchoptions/
 ---
 ## ITextSearchOptions 接口
@@ -18,11 +18,11 @@ public interface ITextSearchOptions
 
 | 名称 | 描述 |
 | --- | --- |
-| [CaseSensitive](../../aspose.slides/itextsearchoptions/casesensitive) { get; set; } | 设置为 true 以使用区分大小写的搜索，设置为 false 则相反。读/写 Boolean。 |
+| [CaseSensitive](../../aspose.slides/itextsearchoptions/casesensitive) { get; set; } | 设置 true 以使用区分大小写的搜索，false - 否则。读/写 Boolean。 |
 | [IncludeNotes](../../aspose.slides/itextsearchoptions/includenotes) { get; set; } | 设置 `true` 以在执行文本搜索、替换或高亮操作时包含幻灯片备注中的文本。默认值为 `false`。 |
-| [WholeWordsOnly](../../aspose.slides/itextsearchoptions/wholewordsonly) { get; set; } | 设置为 true 以仅匹配完整单词，设置为 false 则相反。读/写 Boolean。 |
+| [WholeWordsOnly](../../aspose.slides/itextsearchoptions/wholewordsonly) { get; set; } | 设置 true 以仅匹配完整单词，false - 否则。读/写 Boolean。 |
 
-### 另请参见
+### 参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

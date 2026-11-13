@@ -1,14 +1,14 @@
 ---
 title: ChartTitle
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Grafik başlığı özelliklerini temsil eder.
 type: docs
-weight: 1490
+weight: 1500
 url: /tr/aspose.slides.charts/charttitle/
 ---
 ## ChartTitle sınıfı
 
-Represents chart title properties.
+Grafik başlığı özelliklerini temsil eder.
 
 ```csharp
 public class ChartTitle : IChartTitle
@@ -18,27 +18,27 @@ public class ChartTitle : IChartTitle
 
 | Ad | Açıklama |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/charttitle/actualheight) { get; } | Grafik öğesinin gerçek yüksekliğini belirtir. Gerçek değerleri almak için önceden IChart.ValidateChartLayout() yöntemini çağırın. Read Single. |
-| [ActualWidth](../../aspose.slides.charts/charttitle/actualwidth) { get; } | Grafik öğesinin gerçek genişliğini belirtir. Gerçek değerleri almak için önceden IChart.ValidateChartLayout() yöntemi çağırın. Read Single. |
-| [ActualX](../../aspose.slides.charts/charttitle/actualx) { get; } | Grafiğin sol üst köşesine göre grafik öğesinin gerçek x konumunu (sol) belirtir. Gerçek değerleri elde etmek için önceden IChart.ValidateChartLayout() yöntemini çağırın. Read Single. |
-| [ActualY](../../aspose.slides.charts/charttitle/actualy) { get; } | Grafiğin sol üst köşesine göre grafik öğesinin gerçek üst konumunu belirtir. Gerçek değerleri elde etmek için önceden IChart.ValidateChartLayout() yöntemini çağırın. Read Single. |
-| [Bottom](../../aspose.slides.charts/charttitle/bottom) { get; } | Alt. Read-only Single. |
-| [Chart](../../aspose.slides.charts/charttitle/chart) { get; } | Üst grafik nesnesini döndürür. Read-only [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/charttitle/format) { get; } | Başlığın doldurma, çizgi ve efekt stillerini döndürür. Read-only [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/charttitle/height) { get; set; } | Başlığın yüksekliğini, grafiğin yüksekliğinin bir kesri olarak döndürür veya ayarlar. Read/write Single. |
-| [Overlay](../../aspose.slides.charts/charttitle/overlay) { get; set; } | Diğer grafik öğelerinin başlığın üzerine çakışmasına izin verilip verilmeyeceğini belirler. Read/write Boolean. |
-| [Right](../../aspose.slides.charts/charttitle/right) { get; } | Sağ. Read-only Single. |
-| [TextFormat](../../aspose.slides.charts/charttitle/textformat) { get; } | Metin biçimini döndürür. Read-only [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | Zengin biçimlendirilmiş metin içerebilir. Bu özellik null değilse, bu biçimlendirilmiş metin değeri otomatik oluşturulan metnin üstüne yazar. Otomatik oluşturulan metin, veri etiketi, değer ekseninin gösterim birimi etiketi, eksen başlığı, grafik başlığı ve trend çizgisi etiketinin örtük bir özelliğidir. Otomatik oluşturulan metin IFormattedTextContainer.TextFormat özelliği ile biçimlendirilir. Read-only [`ITextFrame`](../../aspose.slides/itextframe). |
-| [Width](../../aspose.slides.charts/charttitle/width) { get; set; } | Başlığın genişliğini, grafiğin genişliğinin bir kesri olarak döndürür veya ayarlar. Read/write Single. |
-| [X](../../aspose.slides.charts/charttitle/x) { get; set; } | Başlığın x koordinatını, grafiğin genişliğinin bir kesri olarak döndürür veya ayarlar. Read/write Single. |
-| [Y](../../aspose.slides.charts/charttitle/y) { get; set; } | Başlığın y koordinatını, grafiğin yüksekliğinin bir kesri olarak döndürür veya ayarlar. Read/write Single. |
+| [ActualHeight](../../aspose.slides.charts/charttitle/actualheight) { get; } | Grafik öğesinin gerçek yüksekliğini belirtir. Gerçek değerleri almak için önce IChart.ValidateChartLayout() metodunu çağırın. Okunur Single. |
+| [ActualWidth](../../aspose.slides.charts/charttitle/actualwidth) { get; } | Grafik öğesinin gerçek genişliğini belirtir. Gerçek değerleri almak için önce IChart.ValidateChartLayout() metodunu çağırın. Okunur Single. |
+| [ActualX](../../aspose.slides.charts/charttitle/actualx) { get; } | Grafik öğesinin sol üst köşesine göre gerçek x konumunu (sol) belirtir. Gerçek değerleri almak için önce IChart.ValidateChartLayout() metodunu çağırın. Okunur Single. |
+| [ActualY](../../aspose.slides.charts/charttitle/actualy) { get; } | Grafik öğesinin sol üst köşesine göre gerçek üst konumunu belirtir. Gerçek değerleri almak için önce IChart.ValidateChartLayout() metodunu çağırın. Okunur Single. |
+| [Bottom](../../aspose.slides.charts/charttitle/bottom) { get; } | Alt. Salt okunur Single. |
+| [Chart](../../aspose.slides.charts/charttitle/chart) { get; } | Üst grafiği döndürür. Salt okunur [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/charttitle/format) { get; } | Başlığın dolgu, çizgi, efekt stillerini döndürür. Salt okunur [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/charttitle/height) { get; set; } | Başlığın yüksekliğini, grafiğin yüksekliğinin bir kesri olarak döndürür veya ayarlar. Okunur/yazılabilir Single. |
+| [Overlay](../../aspose.slides.charts/charttitle/overlay) { get; set; } | Diğer grafik öğelerinin başlığın üzerine çakışmasına izin verilip verilmeyeceğini belirler. Okunur/yazılabilir Boolean. |
+| [Right](../../aspose.slides.charts/charttitle/right) { get; } | Sağ. Salt okunur Single. |
+| [TextFormat](../../aspose.slides.charts/charttitle/textformat) { get; } | Metin biçimini döndürür. Salt okunur [`IChartTextFormat`](../icharttextformat). |
+| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | Zengin biçimlendirilmiş metin içerebilir. Bu özellik null değilse bu biçimlendirilmiş metin değeri otomatik oluşturulan metnin üzerine yazar. Otomatik oluşturulan metin, veri etiketi, değer ekseninin gösterge birimi etiketi, eksen başlığı, grafik başlığı, trend çizgisi etiketi gibi örtük bir özelliktir. Otomatik oluşturulan metin IFormattedTextContainer.TextFormat özelliği ile biçimlendirilir. Salt okunur [`ITextFrame`](../../aspose.slides/itextframe). |
+| [Width](../../aspose.slides.charts/charttitle/width) { get; set; } | Başlığın genişliğini, grafiğin genişliğinin bir kesri olarak döndürür veya ayarlar. Okunur/yazılabilir Single. |
+| [X](../../aspose.slides.charts/charttitle/x) { get; set; } | Başlığın x koordinatını, grafiğin genişliğinin bir kesri olarak döndürür veya ayarlar. Okunur/yazılabilir Single. |
+| [Y](../../aspose.slides.charts/charttitle/y) { get; set; } | Başlığın y koordinatını, grafiğin yüksekliğinin bir kesri olarak döndürür veya ayarlar. Okunur/yazılabilir Single. |
 
 ## Metotlar
 
 | Ad | Açıklama |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/charttitle/addtextframeforoverriding)(string) | TextFrameForOverriding'i parametre "text" içindeki metinle başlatır. TextFrameForOverriding zaten başlatılmışsa, yalnızca metnini değiştirir. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/charttitle/addtextframeforoverriding)(string) | "text" parametresindeki metinle TextFrameForOverriding'i başlatır. TextFrameForOverriding zaten başlatılmışsa metni sadece değiştirir. |
 
 ### Ayrıca Bakınız
 

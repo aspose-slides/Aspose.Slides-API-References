@@ -1,9 +1,9 @@
 ---
 title: LegendPositionType
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 차트에서 범례의 위치를 결정합니다.
 type: docs
-weight: 2320
+weight: 2340
 url: /ko/aspose.slides.charts/legendpositiontype/
 ---
 ## LegendPositionType 열거형
@@ -14,17 +14,17 @@ url: /ko/aspose.slides.charts/legendpositiontype/
 public enum LegendPositionType
 ```
 
-### 값
+### Values
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| Bottom | `0` | 차트 하단에 범례가 그려짐을 지정합니다. |
-| Left | `1` | 차트 왼쪽에 범례가 그려짐을 지정합니다. |
-| Right | `2` | 차트 오른쪽에 범례가 그려짐을 지정합니다. |
-| Top | `3` | 차트 상단에 범례가 그려짐을 지정합니다. |
-| TopRight | `4` | 차트 오른쪽 상단에 범례가 그려짐을 지정합니다. |
+| Bottom | `0` | 범례가 차트의 하단에 그려지도록 지정합니다. |
+| Left | `1` | 범례가 차트의 왼쪽에 그려지도록 지정합니다. |
+| Right | `2` | 범례가 차트의 오른쪽에 그려지도록 지정합니다. |
+| Top | `3` | 범례가 차트의 상단에 그려지도록 지정합니다. |
+| TopRight | `4` | 범례가 차트의 오른쪽 상단에 그려지도록 지정합니다. |
 
-### 참조
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 어셈블리 [Aspose.Slides](../../)

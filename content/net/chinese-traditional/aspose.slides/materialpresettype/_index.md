@@ -1,9 +1,9 @@
----
+--- 
 title: MaterialPresetType
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes for .NET API 參考
 description: 定義形狀材質的常數。
 type: docs
-weight: 8060
+weight: 8080
 url: /zh-hant/aspose.slides/materialpresettype/
 ---
 ## MaterialPresetType 列舉
@@ -16,7 +16,7 @@ public enum MaterialPresetType
 
 ### 值
 
-| 名稱 | 值 | 說明 |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Clear | `0` |  |
@@ -35,7 +35,7 @@ public enum MaterialPresetType
 | TranslucentPowder | `13` |  |
 | WarmMatte | `14` |  |
 
-### 另請參閱
+### 參見
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 程式集 [Aspose.Slides](../../)

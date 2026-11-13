@@ -1,14 +1,14 @@
 ---
 title: AlphaBiLevel
-second_title: Aspose.Sildes для .NET справочник API
-description: Представляет эффект Alpha Bi-Level. Значения прозрачности Alpha менее порога изменяются на 0 (полностью прозрачные), а значения alpha, большие или равные порогу, изменяются на 100 (полностью непрозрачные).
+second_title: Aspose.Sildes для .NET API справка
+description: Представляет эффект Alpha Bi-Level. Значения Alpha Opacity, меньшие порога, изменяются на 0 полностью прозрачные, а значения alpha, большие или равные порогу, изменяются на 100 полностью непрозрачные.
 type: docs
-weight: 2840
+weight: 2860
 url: /ru/aspose.slides.effects/alphabilevel/
 ---
 ## AlphaBiLevel класс
 
-Представляет эффект Alpha Bi-Level. Значения Alpha (Opacity) меньше порога изменяются на 0 (полностью прозрачные), а значения alpha, большие или равные порогу, изменяются на 100 % (полностью непрозрачные).
+Представляет эффект Alpha Bi-Level. Значения Alpha (Opacity) меньше порога изменяются на 0 (полностью прозрачно), а значения Alpha, большие или равные порогу, изменяются на 100% (полностью непрозрачно).
 
 ```csharp
 public sealed class AlphaBiLevel : ImageTransformOperation, IAlphaBiLevel
@@ -26,8 +26,8 @@ public sealed class AlphaBiLevel : ImageTransformOperation, IAlphaBiLevel
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphabilevel/equals)(object) | Определяет, равен ли указанный [`AlphaBiLevel`](../alphabilevel) текущему [`AlphaBiLevel`](../alphabilevel). |
-| [GetEffective](../../aspose.slides.effects/alphabilevel/geteffective)() | Получает данные эффективного эффекта Alpha Bi-Level с учётом наследования. |
-| override [GetHashCode](../../aspose.slides.effects/alphabilevel/gethashcode)() | Служит в качестве хеш-функции для конкретного типа. |
+| [GetEffective](../../aspose.slides.effects/alphabilevel/geteffective)() | Получает эффективные данные эффекта Alpha Bi-Level с применённым наследованием. |
+| override [GetHashCode](../../aspose.slides.effects/alphabilevel/gethashcode)() | Служит хеш-функцией для конкретного типа. |
 
 ### См. также
 

@@ -1,9 +1,9 @@
 ---
 title: IMathAccentFactory
-second_title: Referencia de la API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Permite crear un acento matemático
 type: docs
-weight: 8090
+weight: 8110
 url: /es/aspose.slides.mathtext/imathaccentfactory/
 ---
 ## IMathAccentFactory interfaz
@@ -18,14 +18,14 @@ public interface IMathAccentFactory
 
 | Nombre | Descripción |
 | --- | --- |
-| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | Crea un acento matemático aplicándolo a un elemento matemático especificado con el valor de carácter de acento predeterminado |
-| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | Crea un acento matemático aplicándolo a un elemento matemático especificado |
+| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | Crea un acento matemático aplicado a un elemento matemático especificado con el valor predeterminado del carácter de acento |
+| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | Crea un acento matemático aplicado a un elemento matemático especificado |
 
 ### Observaciones
 
 Para compatibilidad COM
 
-### Véase también
+### Ver también
 
 * espacio de nombres [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * ensamblado [Aspose.Slides](../../)

@@ -1,9 +1,9 @@
 ---
 title: ITableFormat
-second_title: Riferimento API .NET di Aspose.Sildes
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta il formato di una tabella.
 type: docs
-weight: 7240
+weight: 7260
 url: /it/aspose.slides/itableformat/
 ---
 ## ITableFormat interfaccia
@@ -18,7 +18,7 @@ public interface ITableFormat
 
 | Nome | Descrizione |
 | --- | --- |
-| [FillFormat](../../aspose.slides/itableformat/fillformat) { get; } | Restituisce un oggetto delle proprietà di riempimento della tabella. Solamente lettura [`IFillFormat`](../ifillformat). |
+| [FillFormat](../../aspose.slides/itableformat/fillformat) { get; } | Restituisce un oggetto delle proprietà di riempimento della tabella. Sola lettura [`IFillFormat`](../ifillformat). |
 | [Transparency](../../aspose.slides/itableformat/transparency) { get; set; } | Ottiene o imposta la trasparenza del colore di riempimento. Lettura/scrittura Single. |
 
 ## Metodi

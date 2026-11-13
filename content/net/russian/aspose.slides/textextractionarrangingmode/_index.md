@@ -1,9 +1,9 @@
 ---
 title: TextExtractionArrangingMode
-second_title: Aspose.Sildes для .NET API Справка
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет режим, используемый при извлечении текста
 type: docs
-weight: 10940
+weight: 10960
 url: /ru/aspose.slides/textextractionarrangingmode/
 ---
 ## TextExtractionArrangingMode перечисление
@@ -18,7 +18,7 @@ public enum TextExtractionArrangingMode
 
 | Имя | Значение | Описание |
 | --- | --- | --- |
-| Unarranged | `0` | Исходный текст без учёта позиции на слайде |
+| Unarranged | `0` | Необработанный текст без учёта позиции на слайде |
 | Arranged | `1` | Текст расположен в том же порядке, что и на слайде |
 
 ### См. также

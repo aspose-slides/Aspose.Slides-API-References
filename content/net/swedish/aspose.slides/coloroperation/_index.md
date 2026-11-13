@@ -3,7 +3,7 @@ title: ColorOperation
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar olika färgoperationer som används för färgtransformeringar. Oföränderligt objekt.
 type: docs
-weight: 2530
+weight: 2550
 url: /sv/aspose.slides/coloroperation/
 ---
 ## ColorOperation klass
@@ -33,7 +33,7 @@ public class ColorOperation : IColorOperation
 | Namn | Beskrivning |
 | --- | --- |
 | override [Equals](../../aspose.slides/coloroperation/equals)(object) | Bestämmer om de två ColorOperation-instanserna är lika. |
-| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | Fungerar som en hashfunktion för en viss typ, lämplig för användning i hash-algoritmer och datastrukturer som en hash-tabell. |
+| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | Fungerar som en hashfunktion för en viss typ, lämplig för användning i hashalgoritmer och datastrukturer såsom en hashtabell. |
 
 ### Se även
 

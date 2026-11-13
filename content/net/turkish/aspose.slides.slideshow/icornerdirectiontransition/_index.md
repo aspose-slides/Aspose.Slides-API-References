@@ -3,7 +3,7 @@ title: ICornerDirectionTransition
 second_title: Aspose.Sildes için .NET API Referansı
 description: Köşe yönü slayt geçiş efekti.
 type: docs
-weight: 10060
+weight: 10080
 url: /tr/aspose.slides.slideshow/icornerdirectiontransition/
 ---
 ## ICornerDirectionTransition arayüz
@@ -18,8 +18,8 @@ public interface ICornerDirectionTransition : ITransitionValueBase
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/icornerdirectiontransition/asitransitionvaluebase) { get; } | Temel ITransitionValueBase arabirimine erişim sağlar. Salt Okunur [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/icornerdirectiontransition/direction) { get; set; } | Geçiş yönü. Okunur/Yazılabilir [`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/icornerdirectiontransition/asitransitionvaluebase) { get; } | Temel ITransitionValueBase arabirimini almaya izin verir. Salt okunur [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/icornerdirectiontransition/direction) { get; set; } | Geçiş yönü. Okunabilir/yazılabilir [`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
 
 ### Ayrıca Bakınız
 

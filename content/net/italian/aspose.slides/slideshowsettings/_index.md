@@ -3,12 +3,12 @@ title: SlideShowSettings
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta le impostazioni della presentazione per lo slideshow.
 type: docs
-weight: 10480
+weight: 10500
 url: /it/aspose.slides/slideshowsettings/
 ---
 ## SlideShowSettings classe
 
-Rappresenta le impostazioni della presentazione.
+Rappresenta le impostazioni della presentazione per lo slideshow.
 
 ```csharp
 public class SlideShowSettings
@@ -16,16 +16,16 @@ public class SlideShowSettings
 
 ## Proprietà
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
 | [Loop](../../aspose.slides/slideshowsettings/loop) { get; set; } | Ripeti presentazione |
-| [PenColor](../../aspose.slides/slideshowsettings/pencolor) { get; } | Colore della penna per la presentazione |
-| [ShowAnimation](../../aspose.slides/slideshowsettings/showanimation) { get; set; } | Mostra animazione nella presentazione |
+| [PenColor](../../aspose.slides/slideshowsettings/pencolor) { get; } | Colore penna per lo slideshow |
+| [ShowAnimation](../../aspose.slides/slideshowsettings/showanimation) { get; set; } | Mostra animazione nello slideshow |
 | [ShowMediaControls](../../aspose.slides/slideshowsettings/showmediacontrols) { get; set; } | Mostra controlli multimediali |
-| [ShowNarration](../../aspose.slides/slideshowsettings/shownarration) { get; set; } | Mostra narrazione nella presentazione |
-| [Slides](../../aspose.slides/slideshowsettings/slides) { get; set; } | Intervallo diapositive |
-| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | Ottiene o imposta il tipo di presentazione. Rappresentato dai seguenti antenati [`SlideShowType`](./slideshowtype): [`BrowsedAtKiosk`](../browsedatkiosk), [`PresentedBySpeaker`](../presentedbyspeaker) e [`BrowsedByIndividual`](../browsedbyindividual) |
-| [UseTimings](../../aspose.slides/slideshowsettings/usetimings) { get; set; } | Usa i tempi nella presentazione |
+| [ShowNarration](../../aspose.slides/slideshowsettings/shownarration) { get; set; } | Mostra narrazione nello slideshow |
+| [Slides](../../aspose.slides/slideshowsettings/slides) { get; set; } | Intervallo di diapositive |
+| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | Ottiene o imposta il tipo di presentazione. Rappresentato dagli antenati [`SlideShowType`](./slideshowtype) seguenti: [`BrowsedAtKiosk`](../browsedatkiosk), [`PresentedBySpeaker`](../presentedbyspeaker) e [`BrowsedByIndividual`](../browsedbyindividual) |
+| [UseTimings](../../aspose.slides/slideshowsettings/usetimings) { get; set; } | Usa i tempi nello slideshow |
 
 ### Vedi anche
 

@@ -1,14 +1,14 @@
 ---
 title: GrayScale
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: Gray Scale इफ़ेक्ट का प्रतिनिधित्व करता है। सभी इफ़ेक्ट रंग मानों को उनकी चमक के अनुरूप ग्रे के शेड में परिवर्तित करता है। इफ़ेक्ट अल्फा अपारदर्शिता मान अपरिवर्तित रहते हैं।
+description: Gray Scale प्रभाव को दर्शाता है। सभी प्रभाव रंग मानों को ग्रे के एक शेड में बदलता है जो उनकी प्रकाशमानता के अनुरूप होता है। प्रभाव अल्फा अपारदर्शिता मान अपरिवर्तित रहते हैं।
 type: docs
-weight: 3000
+weight: 3020
 url: /hi/aspose.slides.effects/grayscale/
 ---
 ## GrayScale क्लास
 
-Gray Scale इफ़ेक्ट का प्रतिनिधित्व करता है। सभी इफ़ेक्ट रंग मानों को उनकी चमक के अनुरूप ग्रे के शेड में परिवर्तित करता है। इफ़ेक्ट अल्फा (अपेयरेंस) मान अपरिवर्तित रहते हैं।
+Gray Scale प्रभाव को दर्शाता है। सभी प्रभाव रंग मानों को ग्रे के एक शेड में बदलता है, जो उनकी प्रकाशमानता के अनुरूप होता है। प्रभाव अल्फा (अपारदर्शिता) मान अपरिवर्तित रहते हैं।
 
 ```csharp
 public sealed class GrayScale : ImageTransformOperation, IGrayScale
@@ -16,19 +16,19 @@ public sealed class GrayScale : ImageTransformOperation, IGrayScale
 
 ## गुण
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | बेस IPresentationComponent इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)। |
 
-## विधि
+## विधियाँ
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/grayscale/equals)(object) | निर्धारित करता है कि निर्दिष्ट [`GrayScale`](../grayscale) वर्तमान [`GrayScale`](../grayscale) के बराबर है या नहीं। |
-| [GetEffective](../../aspose.slides.effects/grayscale/geteffective)() | विरासत लागू होने के साथ प्रभावी Gray Scale इफ़ेक्ट डेटा प्राप्त करता है। |
-| override [GetHashCode](../../aspose.slides.effects/grayscale/gethashcode)() | किसी विशेष प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है। |
+| [GetEffective](../../aspose.slides.effects/grayscale/geteffective)() | विरासत लागू करके प्रभावी Gray Scale प्रभाव डेटा प्राप्त करता है। |
+| override [GetHashCode](../../aspose.slides.effects/grayscale/gethashcode)() | विशिष्ट प्रकार के लिए एक हैश फ़ंक्शन के रूप में कार्य करता है। |
 
-### संबंधित देखें
+### देखें
 
 * क्लास [ImageTransformOperation](../imagetransformoperation)
 * इंटरफ़ेस [IGrayScale](../igrayscale)

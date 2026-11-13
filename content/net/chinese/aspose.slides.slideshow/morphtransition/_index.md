@@ -1,14 +1,14 @@
 ---
 title: MorphTransition
-second_title: Aspose.Sildes for .NET API 参考
-description: 波纹幻灯片过渡效果。
+second_title: Aspose.Sildes .NET API 参考
+description: Ripple 幻灯片切换效果。
 type: docs
-weight: 10250
+weight: 10270
 url: /zh/aspose.slides.slideshow/morphtransition/
 ---
 ## MorphTransition 类
 
-波纹幻灯片过渡效果。
+Ripple 幻灯片切换效果。
 
 ```csharp
 public class MorphTransition : TransitionValueBase, IMorphTransition
@@ -16,18 +16,18 @@ public class MorphTransition : TransitionValueBase, IMorphTransition
 
 ## 属性
 
-| Name | Description |
+| 名称 | 描述 |
 | --- | --- |
-| [MorphType](../../aspose.slides.slideshow/morphtransition/morphtype) { get; set; } | 形变过渡的类型。可读/可写 [`TransitionMorphType`](../transitionmorphtype)。 |
+| [MorphType](../../aspose.slides.slideshow/morphtransition/morphtype) { get; set; } | MorphTransition 的类型。读/写 [`TransitionMorphType`](../transitionmorphtype)。 |
 
 ## 方法
 
-| Name | Description |
+| 名称 | 描述 |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 确定两个 TransitionValueBase 实例是否相等。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 作为特定类型的哈希函数，适用于哈希算法和诸如哈希表的数据结构。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 作为特定类型的哈希函数，适用于散列算法和诸如哈希表的数据结构。 |
 
-### 另见
+### 另请参见
 
 * 类 [TransitionValueBase](../transitionvaluebase)
 * 接口 [IMorphTransition](../imorphtransition)

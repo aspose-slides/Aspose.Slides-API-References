@@ -3,7 +3,7 @@ title: ILeftRightDirectionTransition
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Efek transisi slide arah kiri-kanan.
 type: docs
-weight: 10120
+weight: 10140
 url: /id/aspose.slides.slideshow/ileftrightdirectiontransition/
 ---
 ## ILeftRightDirectionTransition antarmuka
@@ -18,7 +18,7 @@ public interface ILeftRightDirectionTransition : ITransitionValueBase
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ileftrightdirectiontransition/asitransitionvaluebase) { get; } | Mengizinkan mendapatkan antarmuka dasar ITransitionValueBase. Hanya-baca [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ileftrightdirectiontransition/asitransitionvaluebase) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar ITransitionValueBase. Hanya-baca [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/ileftrightdirectiontransition/direction) { get; set; } | Arah transisi. Baca/tulis [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
 
 ### Lihat Juga

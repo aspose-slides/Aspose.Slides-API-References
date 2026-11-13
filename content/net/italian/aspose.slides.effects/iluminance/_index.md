@@ -1,14 +1,14 @@
 ---
 title: ILuminance
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta un effetto Luminance. La luminosità sposta linearmente tutti i colori verso il bianco o il nero. Il contrasto ridimensiona tutti i colori per avvicinarli o allontanarli tra loro.
+description: Rappresenta un effetto Luminance. La luminosità sposta linearmente tutti i colori più vicino al bianco o al nero. Il contrasto scala tutti i colori rendendoli più vicini o più distanti tra loro.
 type: docs
-weight: 3440
+weight: 3460
 url: /it/aspose.slides.effects/iluminance/
 ---
 ## ILuminance interfaccia
 
-Rappresenta un effetto Luminance. La luminosità sposta linearmente tutti i colori verso il bianco o il nero. Il contrasto ridimensiona tutti i colori per avvicinarli o allontanarli tra loro.
+Rappresenta un effetto Luminance. La luminosità sposta linearmente tutti i colori più vicino al bianco o al nero. Il contrasto scala tutti i colori rendendoli più vicini o più distanti tra loro.
 
 ```csharp
 public interface ILuminance : IAccessiblePVIObject<ILuminanceEffectiveData>, 
@@ -19,8 +19,8 @@ public interface ILuminance : IAccessiblePVIObject<ILuminanceEffectiveData>,
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iluminance/asiaccessiblepviobject) { get; } | Consente di ottenere l'interfaccia base IAccessiblePVIObject. Solo lettura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iluminance/asiimagetransformoperation) { get; } | Consente di ottenere l'interfaccia base IImageTransformOperation. Solo lettura [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iluminance/asiaccessiblepviobject) { get; } | Consente di ottenere l'interfaccia base IAccessiblePVIObject. Sola lettura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iluminance/asiimagetransformoperation) { get; } | Consente di ottenere l'interfaccia base IImageTransformOperation. Sola lettura [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Vedi anche
 

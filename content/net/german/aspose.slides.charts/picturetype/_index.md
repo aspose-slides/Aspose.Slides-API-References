@@ -1,14 +1,14 @@
 ---
 title: PictureType
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Bestimmt den Modus der Bildfüllung für Balken.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Bestimmt den Modus der Balkenbildfüllung.
 type: docs
-weight: 2360
+weight: 2380
 url: /de/aspose.slides.charts/picturetype/
 ---
 ## PictureType Aufzählung
 
-Bestimmt den Modus der Bildfüllung für Balken.
+Bestimmt den Modus der Balkenbildfüllung.
 
 ```csharp
 public enum PictureType
@@ -19,8 +19,8 @@ public enum PictureType
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | NotDefined | `-1` | Nicht definiert. |
-| Stack | `0` | Das Bild wird so skaliert, dass es maximal 15-mal in dem längsten gestapelten Balken wiederholt wird. |
-| StackScale | `1` | Das Bild wird auf eine angegebene Anzahl von Einheiten skaliert und über die gesamte Balkenlänge wiederholt. |
+| Stack | `0` | Das Bild wird so skaliert, dass es maximal 15 Mal in dem längsten gestapelten Balken wiederholt wird. |
+| StackScale | `1` | Das Bild wird auf eine angegebene Anzahl von Einheiten skaliert und über die gesamte Länge des Balkens wiederholt. |
 | Stretch | `2` | Das Bild wird über die gesamte Länge des gestapelten Balkens gestreckt. |
 
 ### Siehe auch

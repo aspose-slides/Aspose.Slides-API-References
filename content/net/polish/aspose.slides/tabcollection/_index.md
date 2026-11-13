@@ -3,7 +3,7 @@ title: TabCollection
 second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje kolekcję zakładek.
 type: docs
-weight: 10840
+weight: 10860
 url: /pl/aspose.slides/tabcollection/
 ---
 ## TabCollection klasa
@@ -18,20 +18,20 @@ public sealed class TabCollection : ITabCollection
 
 | Nazwa | Opis |
 | --- | --- |
-| [Count](../../aspose.slides/tabcollection/count) { get; } | Pobiera liczbę elementów faktycznie zawartych w kolekcji. Tylko do odczytu Int32. |
-| [IsSynchronized](../../aspose.slides/tabcollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest zsynchronizowany (wątkowo bezpieczny). Tylko do odczytu Boolean. |
-| [Item](../../aspose.slides/tabcollection/item) { get; } | Pobiera element o określonym indeksie. Tylko do odczytu [`Tab`](../tab). |
+| [Count](../../aspose.slides/tabcollection/count) { get; } | Zwraca liczbę elementów faktycznie zawartych w kolekcji. Tylko do odczytu Int32. |
+| [IsSynchronized](../../aspose.slides/tabcollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest zsynchronizowany (wątkowo-bezpieczny). Tylko do odczytu Boolean. |
+| [Item](../../aspose.slides/tabcollection/item) { get; } | Zwraca element o określonym indeksie. Tylko do odczytu [`Tab`](../tab). |
 | [SyncRoot](../../aspose.slides/tabcollection/syncroot) { get; } | Zwraca korzeń synchronizacji. Tylko do odczytu Object. |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [Add](../../aspose.slides/tabcollection/add#add_1)(ITab) | Dodaje Tab do kolekcji. |
-| [Add](../../aspose.slides/tabcollection/add#add)(double, TabAlignment) | Dodaje Tab do kolekcji. |
+| [Add](../../aspose.slides/tabcollection/add#add_1)(ITab) | Dodaje zakładkę do kolekcji. |
+| [Add](../../aspose.slides/tabcollection/add#add)(double, TabAlignment) | Dodaje zakładkę do kolekcji. |
 | [Clear](../../aspose.slides/tabcollection/clear)() | Usuwa wszystkie elementy z kolekcji. |
 | [CopyTo](../../aspose.slides/tabcollection/copyto)(Array, int) | Kopiuje wszystkie elementy z kolekcji do określonej tablicy. |
-| override [Equals](../../aspose.slides/tabcollection/equals)(object) | Określa, czy dwa wystąpienia TabsEx są równe. |
+| override [Equals](../../aspose.slides/tabcollection/equals)(object) | Określa, czy dwie instancje TabsEx są równe. |
 | [GetEnumerator](../../aspose.slides/tabcollection/getenumerator)() | Zwraca enumerator, który iteruje po kolekcji. |
 | override [GetHashCode](../../aspose.slides/tabcollection/gethashcode)() | Zwraca kod skrótu dla tego obiektu. |
 | [RemoveAt](../../aspose.slides/tabcollection/removeat)(int) | Usuwa element o określonym indeksie w kolekcji. |

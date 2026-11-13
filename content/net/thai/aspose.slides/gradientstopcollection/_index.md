@@ -1,14 +1,14 @@
 ---
 title: GradientStopCollection
-second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
-description: เป็นตัวแทนของคอลเลกชันของจุดไล่สี.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: เป็นคอลเลกชันของจุดไล่ระดับสี.
 type: docs
-weight: 5030
+weight: 5050
 url: /th/aspose.slides/gradientstopcollection/
 ---
 ## GradientStopCollection คลาส
 
-เป็นตัวแทนของคอลเลกชันของจุดไล่สี
+เป็นคอลเลกชันของจุดไล่ระดับสี
 
 ```csharp
 public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
@@ -18,28 +18,28 @@ public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. อ่านอย่างเดียว [`IPresentationComponent`](../ipresentationcomponent). |
-| [Count](../../aspose.slides/gradientstopcollection/count) { get; } | คืนค่าจำนวนจุดไล่สีในคอลเลกชัน. อ่านอย่างเดียว Int32. |
-| [IsSynchronized](../../aspose.slides/gradientstopcollection/issynchronized) { get; } | คืนค่าที่บ่งชี้ว่าการเข้าถึงคอลเลกชันนี้ถูกซิงโครไนซ์ (thread-safe) หรือไม่. อ่านอย่างเดียว Boolean. |
-| [Item](../../aspose.slides/gradientstopcollection/item) { get; } | คืนค่าจุดไล่สีตามดัชนี. |
-| [SyncRoot](../../aspose.slides/gradientstopcollection/syncroot) { get; } | คืนค่ารากของการซิงโครไนซ์. อ่านอย่างเดียว Object. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้ดึงอินเทอร์เฟซพื้นฐาน IPresentationComponent. อ่านอย่างเดียว [`IPresentationComponent`](../ipresentationcomponent). |
+| [Count](../../aspose.slides/gradientstopcollection/count) { get; } | ให้ค่าจำนวนจุดไล่ระดับสีในคอลเลกชัน. อ่านอย่างเดียว Int32. |
+| [IsSynchronized](../../aspose.slides/gradientstopcollection/issynchronized) { get; } | ให้ค่าที่บ่งชี้ว่าการเข้าถึงคอลเลกชันนี้เป็นแบบประสาน (ปลอดภัยต่อเธรด). อ่านอย่างเดียว Boolean. |
+| [Item](../../aspose.slides/gradientstopcollection/item) { get; } | ให้จุดไล่ระดับสีตามดัชนี. |
+| [SyncRoot](../../aspose.slides/gradientstopcollection/syncroot) { get; } | ให้รากของการประสาน. อ่านอย่างเดียว Object. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Add](../../aspose.slides/gradientstopcollection/add#add_2)(float, Color) | สร้างจุดไล่สีใหม่และเพิ่มไปยังส่วนท้ายของคอลเลกชัน. |
-| [Add](../../aspose.slides/gradientstopcollection/add#add)(float, PresetColor) | สร้างจุดไล่สีใหม่และเพิ่มไปยังส่วนท้ายของคอลเลกชัน. |
-| [Add](../../aspose.slides/gradientstopcollection/add#add_1)(float, SchemeColor) | สร้างจุดไล่สีใหม่และเพิ่มไปยังส่วนท้ายของคอลเลกชัน. |
-| [Clear](../../aspose.slides/gradientstopcollection/clear)() | ลบจุดไล่สีทั้งหมดจากคอลเลกชัน. |
-| [CopyTo](../../aspose.slides/gradientstopcollection/copyto)(Array, int) | คัดลอกองค์ประกอบทั้งหมดจากคอลเลกชันไปยังอาเรย์ที่ระบุ. |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | เปรียบเทียบกับอ็อบเจ็กต์ที่ระบุ. |
-| [GetEnumerator](../../aspose.slides/gradientstopcollection/getenumerator)() | คืนค่า enumerator ที่ทำการวนผ่านคอลเลกชัน. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | คืนค่า hash code. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | สร้างจุดไล่สีใหม่และแทรกที่ดัชนีที่ระบุในคอลเลกชัน. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | สร้างจุดไล่สีใหม่และแทรกที่ดัชนีที่ระบุในคอลเลกชัน. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | สร้างจุดไล่สีใหม่และแทรกที่ดัชนีที่ระบุในคอลเลกชัน. |
-| [RemoveAt](../../aspose.slides/gradientstopcollection/removeat)(int) | ลบจุดไล่สีที่ดัชนีที่ระบุ. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add_2)(float, Color) | สร้างจุดไล่ระดับสีใหม่และเพิ่มลงในส่วนสุดท้ายของคอลเลกชัน. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add)(float, PresetColor) | สร้างจุดไล่ระดับสีใหม่และเพิ่มลงในส่วนสุดท้ายของคอลเลกชัน. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add_1)(float, SchemeColor) | สร้างจุดไล่ระดับสีใหม่และเพิ่มลงในส่วนสุดท้ายของคอลเลกชัน. |
+| [Clear](../../aspose.slides/gradientstopcollection/clear)() | ลบจุดไล่ระดับสีทั้งหมดจากคอลเลกชัน. |
+| [CopyTo](../../aspose.slides/gradientstopcollection/copyto)(Array, int) | คัดลอกทุกองค์ประกอบจากคอลเลกชันไปยังอาร์เรย์ที่ระบุ. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | เปรียบเทียบกับอ็อบเจกต์ที่กำหนด. |
+| [GetEnumerator](../../aspose.slides/gradientstopcollection/getenumerator)() | ให้ตัววนซ้ำที่ทำการวนผ่านคอลเลกชัน. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | ให้ค่าแฮชโค้ด. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | สร้างจุดไล่ระดับสีใหม่และแทรกที่ดัชนีที่ระบุในคอลเลกชัน. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | สร้างจุดไล่ระดับสีใหม่และแทรกที่ดัชนีที่ระบุในคอลเลกชัน. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | สร้างจุดไล่ระดับสีใหม่และแทรกที่ดัชนีที่ระบุในคอลเลกชัน. |
+| [RemoveAt](../../aspose.slides/gradientstopcollection/removeat)(int) | ลบจุดไล่ระดับสีที่ดัชนีที่ระบุ. |
 
 ### ดูเพิ่มเติม
 

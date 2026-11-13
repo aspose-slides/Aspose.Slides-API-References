@@ -1,9 +1,9 @@
 ---
 title: IPresentationComponent
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक प्रस्तुति के घटक का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: प्रस्तुति के एक घटक को दर्शाता है।
 type: docs
-weight: 6760
+weight: 6780
 url: /hi/aspose.slides/ipresentationcomponent/
 ---
 ## IPresentationComponent इंटरफ़ेस
@@ -18,9 +18,9 @@ public interface IPresentationComponent
 
 | नाम | विवरण |
 | --- | --- |
-| [Presentation](../../aspose.slides/ipresentationcomponent/presentation) { get; } | प्रस्तुति लौटाता है। केवल-पढ़ने योग्य [`IPresentation`](../ipresentation). |
+| [Presentation](../../aspose.slides/ipresentationcomponent/presentation) { get; } | प्रस्तुति को लौटाता है। केवल-पढ़ने योग्य [`IPresentation`](../ipresentation)। |
 
-### देखें भी
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

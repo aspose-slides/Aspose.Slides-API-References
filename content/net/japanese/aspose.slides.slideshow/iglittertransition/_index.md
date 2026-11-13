@@ -1,14 +1,14 @@
 ---
 title: IGlitterTransition
 second_title: Aspose.Sildes for .NET API リファレンス
-description: グリッタースライド遷移効果。
+description: グリッター スライド トランジション効果。
 type: docs
-weight: 10100
+weight: 10120
 url: /ja/aspose.slides.slideshow/iglittertransition/
 ---
 ## IGlitterTransition インターフェイス
 
-グリッタースライド遷移効果。
+グリッター スライド トランジション効果。
 
 ```csharp
 public interface IGlitterTransition : ITransitionValueBase
@@ -19,8 +19,8 @@ public interface IGlitterTransition : ITransitionValueBase
 | 名前 | 説明 |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/iglittertransition/asitransitionvaluebase) { get; } | ベース ITransitionValueBase インターフェイスを取得できます。読み取り専用 [`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [Direction](../../aspose.slides.slideshow/iglittertransition/direction) { get; set; } | 遷移の方向。読み取り/書き込み [`TransitionSideDirectionType`](../transitionsidedirectiontype)。 |
-| [Pattern](../../aspose.slides.slideshow/iglittertransition/pattern) { get; set; } | 遷移中に使用されるビジュアルの形状を指定します。読み取り/書き込み [`TransitionPattern`](../transitionpattern)。 |
+| [Direction](../../aspose.slides.slideshow/iglittertransition/direction) { get; set; } | トランジションの方向。読み取り/書き込み [`TransitionSideDirectionType`](../transitionsidedirectiontype)。 |
+| [Pattern](../../aspose.slides.slideshow/iglittertransition/pattern) { get; set; } | トランジション中に使用されるビジュアルの形状を指定します。読み取り/書き込み [`TransitionPattern`](../transitionpattern)。 |
 
 ### 参照
 

@@ -1,14 +1,14 @@
 ---
 title: CategoryAxisType
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示类别轴的类型。
+description: 表示分类轴的类型。
 type: docs
-weight: 1250
+weight: 1260
 url: /zh/aspose.slides.charts/categoryaxistype/
 ---
 ## CategoryAxisType 枚举
 
-表示类别轴的类型。
+表示分类轴的类型。
 
 ```csharp
 public enum CategoryAxisType
@@ -18,10 +18,10 @@ public enum CategoryAxisType
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Text | `0` | 指定类别轴是文本轴。 |
-| Date | `1` | 指定类别轴是日期轴。 |
+| Text | `0` | 指定分类轴为文本轴。 |
+| Date | `1` | 指定分类轴为日期轴。 |
 
-### 另请参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 程序集 [Aspose.Slides](../../)

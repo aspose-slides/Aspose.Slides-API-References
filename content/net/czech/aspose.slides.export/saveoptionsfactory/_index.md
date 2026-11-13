@@ -1,14 +1,14 @@
 ---
 title: SaveOptionsFactory
-second_title: Aspose.Sildes pro .NET API referenci
+second_title: Aspose.Sildes pro .NET API Reference
 description: Umožňuje vytvářet instance možností uložení
 type: docs
-weight: 4460
+weight: 4480
 url: /cs/aspose.slides.export/saveoptionsfactory/
 ---
 ## SaveOptionsFactory třída
 
-Umožňuje vytvářet instance možností uložení
+Umožňuje vytvořit instance možností uložení
 
 ```csharp
 public class SaveOptionsFactory : ISaveOptionsFactory

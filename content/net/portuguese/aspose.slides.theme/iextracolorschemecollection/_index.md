@@ -1,9 +1,9 @@
 ---
 title: IExtraColorSchemeCollection
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa uma coleção de esquemas de cores adicionais.
 type: docs
-weight: 11220
+weight: 11240
 url: /pt/aspose.slides.theme/iextracolorschemecollection/
 ---
 ## IExtraColorSchemeCollection interface

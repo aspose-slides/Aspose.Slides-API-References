@@ -1,12 +1,12 @@
 ---
 title: MathBorderBoxFactory
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
+second_title: Aspose.Sildes لمرجع API .NET
 description: يسمح بإنشاء صندوق حدود رياضي
 type: docs
-weight: 8620
+weight: 8640
 url: /ar/aspose.slides.mathtext/mathborderboxfactory/
 ---
-## فئة MathBorderBoxFactory
+## MathBorderBoxFactory فئة
 
 يسمح بإنشاء صندوق حدود رياضي
 
@@ -14,13 +14,13 @@ url: /ar/aspose.slides.mathtext/mathborderboxfactory/
 public class MathBorderBoxFactory : IMathBorderBoxFactory
 ```
 
-## المنشئون
+## المنشئات
 
 | الاسم | الوصف |
 | --- | --- |
 | [MathBorderBoxFactory](mathborderboxfactory)() | المنشئ الافتراضي. |
 
-## الطرق
+## الأساليب
 
 | الاسم | الوصف |
 | --- | --- |

@@ -1,14 +1,14 @@
 ---
 title: GraphicalObjectLock
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Aspose.Sildes para .NET API Referência
 description: Determina quais operações são desativadas no GraphicalObject pai.
 type: docs
-weight: 5080
+weight: 5100
 url: /pt/aspose.slides/graphicalobjectlock/
 ---
-## classe GraphicalObjectLock
+## GraphicalObjectLock classe
 
-Determina quais operações são desativadas no GraphicalObject pai.
+Determina quais operações estão desativadas no GraphicalObject pai.
 
 ```csharp
 public class GraphicalObjectLock : BaseShapeLock, IGraphicalObjectLock
@@ -21,12 +21,12 @@ public class GraphicalObjectLock : BaseShapeLock, IGraphicalObjectLock
 | [AspectRatioLocked](../../aspose.slides/graphicalobjectlock/aspectratiolocked) { get; set; } | Determina se a forma deve preservar a proporção ao redimensionar. Leitura/gravação Boolean. |
 | [DrilldownLocked](../../aspose.slides/graphicalobjectlock/drilldownlocked) { get; set; } | Determina se a seleção de subformas deste objeto é proibida. Leitura/gravação Boolean. |
 | [GroupingLocked](../../aspose.slides/graphicalobjectlock/groupinglocked) { get; set; } | Determina se a adição desta forma a um grupo é proibida. Leitura/gravação Boolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Retorna true se todas as bandeiras de bloqueio estiverem desativadas. Somente leitura Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Retorna verdadeiro se todas as bandeiras de bloqueio estiverem desativadas. Somente leitura Boolean. |
 | [PositionLocked](../../aspose.slides/graphicalobjectlock/positionlocked) { get; set; } | Determina se mover esta forma é proibido. Leitura/gravação Boolean. |
-| [SelectLocked](../../aspose.slides/graphicalobjectlock/selectlocked) { get; set; } | Determina se selecionar esta forma é proibido. Leitura/gravação Boolean. |
-| [SizeLocked](../../aspose.slides/graphicalobjectlock/sizelocked) { get; set; } | Determina se redimensionar esta forma é proibido. Leitura/gravação Boolean. |
+| [SelectLocked](../../aspose.slides/graphicalobjectlock/selectlocked) { get; set; } | Determina se a seleção desta forma é proibida. Leitura/gravação Boolean. |
+| [SizeLocked](../../aspose.slides/graphicalobjectlock/sizelocked) { get; set; } | Determina se o redimensionamento desta forma é proibido. Leitura/gravação Boolean. |
 
-### Ver também
+### Veja Também
 
 * classe [BaseShapeLock](../baseshapelock)
 * interface [IGraphicalObjectLock](../igraphicalobjectlock)

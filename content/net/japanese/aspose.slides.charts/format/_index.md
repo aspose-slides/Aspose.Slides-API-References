@@ -3,7 +3,7 @@ title: Format
 second_title: Aspose.Sildes for .NET API リファレンス
 description: チャートの書式プロパティを表します。
 type: docs
-weight: 1680
+weight: 1690
 url: /ja/aspose.slides.charts/format/
 ---
 ## Format クラス
@@ -16,17 +16,17 @@ public sealed class Format : PVIObject, IFormat
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースのIPresentationComponentインターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
-| [Effect](../../aspose.slides.charts/format/effect) { get; } | チャートで使用されるエフェクトを返します。読み取り専用 [`IEffectFormat`](../../aspose.slides/ieffectformat)。 |
-| [Effect3D](../../aspose.slides.charts/format/effect3d) { get; } | チャートの3D書式を返します。読み取り専用 [`IThreeDFormat`](../../aspose.slides/ithreedformat)。 |
-| [Fill](../../aspose.slides.charts/format/fill) { get; } | チャートの塗りつぶしスタイルプロパティを返します。読み取り専用 [`IFillFormat`](../../aspose.slides/ifillformat)。 |
-| [Line](../../aspose.slides.charts/format/line) { get; } | チャートの線スタイルプロパティを返します。読み取り専用 [`ILineFormat`](../../aspose.slides/ilineformat)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。 読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [Effect](../../aspose.slides.charts/format/effect) { get; } | チャートに使用されるエフェクトを返します。 読み取り専用 [`IEffectFormat`](../../aspose.slides/ieffectformat)。 |
+| [Effect3D](../../aspose.slides.charts/format/effect3d) { get; } | チャートの 3D 書式を返します。 読み取り専用 [`IThreeDFormat`](../../aspose.slides/ithreedformat)。 |
+| [Fill](../../aspose.slides.charts/format/fill) { get; } | チャートの塗りつぶしスタイルプロパティを返します。 読み取り専用 [`IFillFormat`](../../aspose.slides/ifillformat)。 |
+| [Line](../../aspose.slides.charts/format/line) { get; } | チャートの線スタイルプロパティを返します。 読み取り専用 [`ILineFormat`](../../aspose.slides/ilineformat)。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 指定されたオブジェクトと比較します。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | ハッシュコードを返します。 |

@@ -1,28 +1,28 @@
 ---
 title: LegendPositionType
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes .NET API hivatkozás
 description: Meghatározza a jelmagyarázat pozícióját egy diagramon.
 type: docs
-weight: 2320
+weight: 2340
 url: /hu/aspose.slides.charts/legendpositiontype/
 ---
 ## LegendPositionType enumeráció
 
-Meghatározza a jelmagyarázat pozícióját a diagramon.
+Meghatározza a jelmagyarázat pozícióját egy diagramon.
 
 ```csharp
 public enum LegendPositionType
 ```
 
-### Értékek
+### Values
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Bottom | `0` | Megadja, hogy a jelmagyarázat a diagram alján jelenik meg. |
-| Left | `1` | Megadja, hogy a jelmagyarázat a diagram bal oldalán jelenik meg. |
-| Right | `2` | Megadja, hogy a jelmagyarázat a diagram jobb oldalán jelenik meg. |
-| Top | `3` | Megadja, hogy a jelmagyarázat a diagram tetején jelenik meg. |
-| TopRight | `4` | Megadja, hogy a jelmagyarázat a diagram jobb felső sarkában jelenik meg. |
+| Bottom | `0` | Megadja, hogy a jelmagyarázat a diagram alján legyen megjelenítve. |
+| Left | `1` | Megadja, hogy a jelmagyarázat a diagram bal oldalán legyen megjelenítve. |
+| Right | `2` | Megadja, hogy a jelmagyarázat a diagram jobb oldalán legyen megjelenítve. |
+| Top | `3` | Megadja, hogy a jelmagyarázat a diagram tetején legyen megjelenítve. |
+| TopRight | `4` | Megadja, hogy a jelmagyarázat a diagram jobb felső sarkában legyen megjelenítve. |
 
 ### Lásd még
 

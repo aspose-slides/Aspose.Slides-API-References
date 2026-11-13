@@ -1,14 +1,14 @@
 ---
 title: AddEmbeddedFont
 second_title: Aspose.Sildes för .NET API-referens
-description: Lägger till det inbäddade typsnittet. Tänk på att när du kopierar typsnitt är de flesta typsnitt upphovsrättsskyddade. Lokalisera först licensen för ett typsnitt i förväg och verifiera att de kan överföras fritt till en annan maskin. Ett ArgumentException kan kastas om typsnittsdata är null eller om detta typsnitt redan är inbäddat
+description: Lägger till den inbäddade fonten. Tänk på att de flesta teckensnitt är upphovsrättsskyddade när du kopierar dem. Lokalisera först licensen för ett teckensnitt i förväg och verifiera att det kan överföras fritt till en annan maskin. Ett ArgumentException kan kastas om fontdata är null eller om detta teckensnitt redan är inbäddat.
 type: docs
-weight: 30
+weight: 40
 url: /sv/aspose.slides/fontsmanager/addembeddedfont/
 ---
 ## AddEmbeddedFont(IFontData, EmbedFontCharacters) {#addembeddedfont}
 
-Lägger till det inbäddade typsnittet. Tänk på att när du kopierar typsnitt är de flesta typsnitt upphovsrättsskyddade. Lokalisera först licensen för ett typsnitt i förväg och verifiera att de kan överföras fritt till en annan maskin. Ett ArgumentException kan kastas om typsnittsdata är null eller om detta typsnitt redan är inbäddat
+Lägger till den inbäddade fonten Tänk på när du kopierar teckensnitt som oftast är upphovsrättsskyddade. Lokalisera först licensen för ett teckensnitt i förväg och verifiera att de kan överföras fritt till en annan maskin. Ett ArgumentException kan kastas om font data är null eller detta font redan är inbäddat
 
 ```csharp
 public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRule)
@@ -26,7 +26,7 @@ public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRul
 
 ## AddEmbeddedFont(byte[], EmbedFontCharacters) {#addembeddedfont_1}
 
-Lägger till det inbäddade typsnittet. Tänk på att när du kopierar typsnitt är de flesta typsnitt upphovsrättsskyddade. Lokalisera först licensen för ett typsnitt i förväg och verifiera att de kan överföras fritt till en annan maskin. Ett ArgumentException kan kastas om typsnittsdata är null eller om detta typsnitt redan är inbäddat
+Lägger till den inbäddade fonten Tänk på när du kopierar teckensnitt som oftast är upphovsrättsskyddade. Lokalisera först licensen för ett teckensnitt i förväg och verifiera att de kan överföras fritt till en annan maskin. Ett ArgumentException kan kastas om font data är null eller detta font redan är inbäddat
 
 ```csharp
 public void AddEmbeddedFont(byte[] fontData, EmbedFontCharacters embedFontRule)

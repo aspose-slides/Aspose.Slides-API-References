@@ -1,14 +1,14 @@
 ---
 title: IVideoCollection
 second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایشگر مجموعه‌ای از اشیای Video.
+description: نمایش‌دهنده یک مجموعه از اشیای Video است.
 type: docs
-weight: 7370
+weight: 7390
 url: /fa/aspose.slides/ivideocollection/
 ---
 ## IVideoCollection رابط
 
-نمایشگر مجموعه‌ای از اشیای Video.
+یک مجموعه از اشیای Video را توصیف می‌کند.
 
 ```csharp
 public interface IVideoCollection : IGenericCollection<IVideo>
@@ -18,17 +18,17 @@ public interface IVideoCollection : IGenericCollection<IVideo>
 
 | نام | توضیح |
 | --- | --- |
-| [Item](../../aspose.slides/ivideocollection/item) { get; } | عنصر را در ایندکس مشخص‌شده برمی‌گرداند. فقط-خواندنی [`IVideo`](../ivideo). |
+| [Item](../../aspose.slides/ivideocollection/item) { get; } | عنصری را که در شاخص مشخص شده است دریافت می‌کند. فقط خواندنی [`IVideo`](../ivideo). |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
 | [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_1)(byte[]) | یک ویدیو را از آرایه بایت ایجاد و به ارائه اضافه می‌کند. |
-| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo)(IVideo) | یک کپی از فایل ویدیو را از ارائه دیگری اضافه می‌کند. |
-| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | یک ویدیو را از استریم ایجاد و به ارائه اضافه می‌کند. |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo)(IVideo) | یک نسخه از یک فایل ویدیو را از یک ارائه دیگر اضافه می‌کند. |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | یک ویدیو را از یک جریان ایجاد و به ارائه اضافه می‌کند. |
 
-### موارد مرتبط
+### مراجع
 
 * رابط [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * رابط [IVideo](../ivideo)

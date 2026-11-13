@@ -1,15 +1,14 @@
 ---
 title: MathFraction
 second_title: Aspose.Sildes برای .NET مرجع API
-description: شیء کسر را مشخص می‌کند که از صورت و مخرج تشکیل شده و توسط یک خط کسر از هم جدا می‌شوند. خط کسر می‌تواند افقی یا قطری باشد، بسته به ویژگی‌های کسر. شیء کسر همچنین برای نمایش تابع پشته استفاده می‌شود که یک عنصر را بالای عنصر دیگر قرار می‌دهد بدون خط کسر.
+description: شیء کسر را که از یک صورت و مخرج تشکیل شده و توسط یک خط کسری از هم جدا می‌شوند، مشخص می‌کند. خط کسری می‌تواند افقی یا مورب باشد، بسته به ویژگی‌های کسر. شیء کسر همچنین برای نمایش تابع پشته استفاده می‌شود که یک عنصر را بالای عنصر دیگر بدون خط کسری قرار می‌دهد.
 type: docs
-weight: 8690
+weight: 8710
 url: /fa/aspose.slides.mathtext/mathfraction/
 ---
-
 ## کلاس MathFraction
 
-شیء کسر را مشخص می‌کند که از صورت و مخرج تشکیل شده و توسط یک خط کسر از هم جدا می‌شوند. خط کسر می‌تواند افقی یا قطری باشد، بسته به ویژگی‌های کسر. شیء کسر همچنین برای نمایش تابع پشته استفاده می‌شود که یک عنصر را بالای عنصر دیگر قرار می‌دهد بدون خط کسر.
+شیء کسر را مشخص می‌کند که از یک صورت و مخرج تشکیل شده و توسط یک خط کسری از هم جدا می‌شوند. خط کسری می‌تواند افقی یا مورب باشد، بسته به ویژگی‌های کسر. شیء کسر همچنین برای نمایش تابع انباشته استفاده می‌شود که یک عنصر را بالای عنصر دیگر قرار می‌دهد، بدون خط کسری.
 
 ```csharp
 public sealed class MathFraction : MathElementBase, IMathFraction
@@ -19,8 +18,8 @@ public sealed class MathFraction : MathElementBase, IMathFraction
 
 | نام | توضیح |
 | --- | --- |
-| [MathFraction](mathfraction#constructor)(IMathElement, IMathElement) | یک MathFraction از نوع 'Bar' را با صورت و مخرج مشخص‌شده مقداردهی اولیه می‌کند |
-| [MathFraction](mathfraction#constructor_1)(IMathElement, IMathElement, MathFractionTypes) | MathFraction را با صورت، مخرج و نوع مشخص‌شده مقداردهی اولیه می‌کند |
+| [MathFraction](mathfraction#constructor)(IMathElement, IMathElement) | یک MathFraction از نوع 'Bar' را با صورت و مخرج مشخص شده مقداردهی اولیه می‌کند |
+| [MathFraction](mathfraction#constructor_1)(IMathElement, IMathElement, MathFractionTypes) | MathFraction را با صورت، مخرج و نوع مشخص شده مقداردهی اولیه می‌کند |
 
 ## ویژگی‌ها
 
@@ -34,52 +33,52 @@ public sealed class MathFraction : MathElementBase, IMathFraction
 
 | نام | توضیح |
 | --- | --- |
-| [Accent](../../aspose.slides.mathtext/mathelementbase/accent)(char) | یک علامت تاکید را تنظیم می‌کند (یک کاراکتر در بالای این عنصر) |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(IMathElement) | تابع مشخص‌شده را می‌گیرد که این نمونه به عنوان آرگومان استفاده می‌شود |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfOneArgument) | تابع مشخص‌شده را می‌گیرد که این نمونه به عنوان آرگومان استفاده می‌شود |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(string) | تابع مشخص‌شده را می‌گیرد که این نمونه به عنوان آرگومان استفاده می‌شود |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfTwoArguments, IMathElement) | تابع مشخص‌شده را می‌گیرد که این نمونه به عنوان آرگومان و آرگومان اضافی مشخص‌شده استفاده می‌شود |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfTwoArguments, string) | تابع مشخص‌شده را می‌گیرد که این نمونه به عنوان آرگومان و آرگومان اضافی مشخص‌شده استفاده می‌شود |
-| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(IMathElement) | کسر را با این صورت و مخرج مشخص‌شده ایجاد می‌کند |
-| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(string) | کسر را با این صورت و مخرج مشخص‌شده ایجاد می‌کند |
-| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(IMathElement, MathFractionTypes) | کسر را از نوع مشخص‌شده با این صورت و مخرج مشخص‌شده ایجاد می‌کند |
-| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(string, MathFractionTypes) | کسر را از نوع مشخص‌شده با این صورت و مخرج مشخص‌شده ایجاد می‌کند |
-| [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)() | یک عنصر ریاضی را در پرانتز می‌گذارد |
-| virtual [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)(char, char) | یک عنصر ریاضی را در کاراکترهای مشخص مانند پرانتز یا کاراکترهای دیگر به عنوان قاب می‌گیرد |
-| [Function](../../aspose.slides.mathtext/mathelementbase/function)(IMathElement) | یک تابع را می‌گیرد که این نمونه به عنوان نام تابع استفاده می‌شود |
-| [Function](../../aspose.slides.mathtext/mathelementbase/function)(string) | یک تابع را می‌گیرد که این نمونه به عنوان نام تابع استفاده می‌شود |
-| [GetChildren](../../aspose.slides.mathtext/mathfraction/getchildren)() | عناصر فرزند را دریافت می‌کند |
-| [Group](../../aspose.slides.mathtext/mathelementbase/group)() | این عنصر را در یک گروه با استفاده از آکولاد پایین قرار می‌دهد |
-| [Group](../../aspose.slides.mathtext/mathelementbase/group)(char, MathTopBotPositions, MathTopBotPositions) | این عنصر را در یک گروه با استفاده از کاراکتر گروه‌بندی مانند آکولاد پایین یا کاراکتر دیگری قرار می‌دهد |
+| [Accent](../../aspose.slides.mathtext/mathelementbase/accent)(char) | یک علامت اکسنت تنظیم می‌کند (یک کاراکتر در بالای این عنصر) |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(IMathElement) | تابع مشخص‌شده‌ای را می‌گیرد و این نمونه را به عنوان آرگومان استفاده می‌کند |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfOneArgument) | تابع مشخص‌شده‌ای را می‌گیرد و این نمونه را به عنوان آرگومان استفاده می‌کند |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(string) | تابع مشخص‌شده‌ای را می‌گیرد و این نمونه را به عنوان آرگومان استفاده می‌کند |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfTwoArguments, IMathElement) | تابع مشخص‌شده‌ای را می‌گیرد که این نمونه را به عنوان آرگومان و آرگومان اضافی مشخص‌شده استفاده می‌کند |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfTwoArguments, string) | تابع مشخص‌شده‌ای را می‌گیرد که این نمونه را به عنوان آرگومان و آرگومان اضافی مشخص‌شده استفاده می‌کند |
+| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(IMathElement) | کسر را با این صورت و مخرج مشخص شده ایجاد می‌کند |
+| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(string) | کسر را با این صورت و مخرج مشخص شده ایجاد می‌کند |
+| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(IMathElement, MathFractionTypes) | کسر از نوع مشخص‌شده را با این صورت و مخرج مشخص شده ایجاد می‌کند |
+| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(string, MathFractionTypes) | کسر از نوع مشخص‌شده را با این صورت و مخرج مشخص شده ایجاد می‌کند |
+| [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)() | یک عنصر ریاضی را در پرانتز می‌گیرد |
+| virtual [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)(char, char) | عنصر ریاضی را در کاراکترهای مشخص‌شده مانند پرانتز یا سایر کاراکترها به‌عنوان قاب می‌گیرد |
+| [Function](../../aspose.slides.mathtext/mathelementbase/function)(IMathElement) | تابعی از آرگومان می‌گیرد که این نمونه را به عنوان نام تابع استفاده می‌کند |
+| [Function](../../aspose.slides.mathtext/mathelementbase/function)(string) | تابعی از آرگومان می‌گیرد که این نمونه را به عنوان نام تابع استفاده می‌کند |
+| [GetChildren](../../aspose.slides.mathtext/mathfraction/getchildren)() | دریافت عناصر فرزند |
+| [Group](../../aspose.slides.mathtext/mathelementbase/group)() | این عنصر را با استفاده از یک کروشه پایین در یک گروه قرار می‌دهد |
+| [Group](../../aspose.slides.mathtext/mathelementbase/group)(char, MathTopBotPositions, MathTopBotPositions) | این عنصر را با استفاده از یک کاراکتر گروه‌بندی مانند کروشه پایین یا دیگری در یک گروه قرار می‌دهد |
 | [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes) | انتگرال بدون حدود را می‌گیرد |
 | [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, IMathElement, IMathElement) | انتگرال را می‌گیرد |
 | [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, string, string) | انتگرال را می‌گیرد |
 | [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, IMathElement, IMathElement, MathLimitLocations) | انتگرال را می‌گیرد |
 | [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, string, string, MathLimitLocations) | انتگرال را می‌گیرد |
-| virtual [Join](../../aspose.slides.mathtext/mathelementbase/join)(IMathElement) | یک عنصر ریاضی را می‌پیوندد و یک بلوک ریاضی تشکیل می‌دهد |
-| virtual [Join](../../aspose.slides.mathtext/mathelementbase/join)(string) | متن ریاضی را می‌پیوندد و یک بلوک ریاضی تشکیل می‌دهد |
-| [Nary](../../aspose.slides.mathtext/mathelementbase/nary)(MathNaryOperatorTypes, IMathElement, IMathElement) | یک عملگر N-ary ایجاد می‌کند |
-| [Nary](../../aspose.slides.mathtext/mathelementbase/nary)(MathNaryOperatorTypes, string, string) | یک عملگر N-ary ایجاد می‌کند |
-| [Overbar](../../aspose.slides.mathtext/mathelementbase/overbar)() | یک خط بالا بر روی این عنصر قرار می‌دهد |
-| [Radical](../../aspose.slides.mathtext/mathelementbase/radical)(IMathElement) | ریشه ریاضی به درجهٔ داده‌شده را از آرگومان مشخص‌شده تعیین می‌کند |
-| [Radical](../../aspose.slides.mathtext/mathelementbase/radical)(string) | ریشه ریاضی به درجهٔ داده‌شده را از آرگومان مشخص‌شده تعیین می‌کند |
+| virtual [Join](../../aspose.slides.mathtext/mathelementbase/join)(IMathElement) | یک عنصر ریاضی را می‌پیوندد و یک بلوک ریاضی ایجاد می‌کند |
+| virtual [Join](../../aspose.slides.mathtext/mathelementbase/join)(string) | متن ریاضی را می‌پیوندد و یک بلوک ریاضی ایجاد می‌کند |
+| [Nary](../../aspose.slides.mathtext/mathelementbase/nary)(MathNaryOperatorTypes, IMathElement, IMathElement) | یک عملگر N-ارگی ایجاد می‌کند |
+| [Nary](../../aspose.slides.mathtext/mathelementbase/nary)(MathNaryOperatorTypes, string, string) | یک عملگر N-ارگی ایجاد می‌کند |
+| [Overbar](../../aspose.slides.mathtext/mathelementbase/overbar)() | یک خط بالایی برای این عنصر تنظیم می‌کند |
+| [Radical](../../aspose.slides.mathtext/mathelementbase/radical)(IMathElement) | ریشه ریاضی از درجه داده شده را از آرگومان مشخص‌شده تعیین می‌کند |
+| [Radical](../../aspose.slides.mathtext/mathelementbase/radical)(string) | ریشه ریاضی از درجه داده شده را از آرگومان مشخص‌شده تعیین می‌کند |
 | [SetLowerLimit](../../aspose.slides.mathtext/mathelementbase/setlowerlimit)(IMathElement) | حد پایین را می‌گیرد |
 | [SetLowerLimit](../../aspose.slides.mathtext/mathelementbase/setlowerlimit)(string) | حد پایین را می‌گیرد |
-| [SetSubscript](../../aspose.slides.mathtext/mathelementbase/setsubscript)(IMathElement) | زیرنویس را ایجاد می‌کند |
-| [SetSubscript](../../aspose.slides.mathtext/mathelementbase/setsubscript)(string) | زیرنویس را ایجاد می‌کند |
-| [SetSubSuperscriptOnTheLeft](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheleft)(IMathElement, IMathElement) | زیرنویس و فوق‌نویس را در سمت چپ ایجاد می‌کند |
-| [SetSubSuperscriptOnTheLeft](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheleft)(string, string) | زیرنویس و فوق‌نویس را در سمت چپ ایجاد می‌کند |
-| [SetSubSuperscriptOnTheRight](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheright)(IMathElement, IMathElement) | زیرنویس و فوق‌نویس را در سمت راست ایجاد می‌کند |
-| [SetSubSuperscriptOnTheRight](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheright)(string, string) | زیرنویس و فوق‌نویس را در سمت راست ایجاد می‌کند |
-| [SetSuperscript](../../aspose.slides.mathtext/mathelementbase/setsuperscript)(IMathElement) | فوق‌نویس ایجاد می‌کند |
-| [SetSuperscript](../../aspose.slides.mathtext/mathelementbase/setsuperscript)(string) | فوق‌نویس ایجاد می‌کند |
-| [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit)(IMathElement) | حد بالا را می‌گیرد |
-| [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit)(string) | حد بالا را می‌گیرد |
-| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)() | این عنصر را در یک جعبه حاشیه‌دار قرار می‌دهد |
-| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)(bool, bool, bool, bool, bool, bool, bool, bool) | این عنصر را در یک جعبه حاشیه‌دار قرار می‌دهد |
-| [ToBox](../../aspose.slides.mathtext/mathelementbase/tobox)() | این عنصر را در یک جعبهٔ غیر‌دیداری (گروه‌بندی منطقی) قرار می‌دهد که برای گروه‌بندی اجزای یک معادله یا نمونهٔ دیگر متن ریاضی استفاده می‌شود. یک شیء جعبه‌دار می‌تواند (به عنوان مثال) به عنوان شبیه‌ساز عملگر با یا بدون نقطهٔ تراز عمل کند، به عنوان نقطهٔ شکست خط عمل کند، یا به‌طور خاص گروه‌بندی شود تا از شکست خطوط درون آن جلوگیری شود. |
+| [SetSubscript](../../aspose.slides.mathtext/mathelementbase/setsubscript)(IMathElement) | پایین‌نویس ایجاد می‌کند |
+| [SetSubscript](../../aspose.slides.mathtext/mathelementbase/setsubscript)(string) | پایین‌نویس ایجاد می‌کند |
+| [SetSubSuperscriptOnTheLeft](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheleft)(IMathElement, IMathElement) | پایین‌نویس و بالانویس را در سمت چپ ایجاد می‌کند |
+| [SetSubSuperscriptOnTheLeft](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheleft)(string, string) | پایین‌نویس و بالانویس را در سمت چپ ایجاد می‌کند |
+| [SetSubSuperscriptOnTheRight](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheright)(IMathElement, IMathElement) | پایین‌نویس و بالانویس را در سمت راست ایجاد می‌کند |
+| [SetSubSuperscriptOnTheRight](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheright)(string, string) | پایین‌نویس و بالانویس را در سمت راست ایجاد می‌کند |
+| [SetSuperscript](../../aspose.slides.mathtext/mathelementbase/setsuperscript)(IMathElement) | بالانویس ایجاد می‌کند |
+| [SetSuperscript](../../aspose.slides.mathtext/mathelementbase/setsuperscript)(string) | بالانویس ایجاد می‌کند |
+| [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit)(IMathElement) | حد بالایی را می‌گیرد |
+| [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit)(string) | حد بالایی را می‌گیرد |
+| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)() | این عنصر را در یک جعبه مرزی قرار می‌دهد |
+| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)(bool, bool, bool, bool, bool, bool, bool, bool) | این عنصر را در یک جعبه مرزی قرار می‌دهد |
+| [ToBox](../../aspose.slides.mathtext/mathelementbase/tobox)() | این عنصر را در یک جعبه غیر‌دیداری (گروه‌بندی منطقی) قرار می‌دهد که برای گروه‌بندی اجزای یک معادله یا سایر نمونه‌های متن ریاضی استفاده می‌شود. یک شیء جعبه‌شده می‌تواند (به عنوان مثال) به عنوان شبیه‌ساز عملگر با یا بدون نقطه تراز عمل کند، به عنوان نقطه شکست خط عمل کند، یا به‌گونه‌ای گروه‌بندی شود که از شکست خط درون آن جلوگیری شود. |
 | virtual [ToMathArray](../../aspose.slides.mathtext/mathelementbase/tomatharray)() | در یک آرایه عمودی قرار می‌دهد |
-| [Underbar](../../aspose.slides.mathtext/mathelementbase/underbar)() | یک خط زیرین بر روی این عنصر قرار می‌دهد |
+| [Underbar](../../aspose.slides.mathtext/mathelementbase/underbar)() | یک خط پایین به این عنصر تنظیم می‌کند |
 
 ### مثال‌ها
 
@@ -90,7 +89,7 @@ public sealed class MathFraction : MathElementBase, IMathFraction
 MathFraction mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes.Linear);
 ```
 
-### همچنین ببینید
+## موارد مرتبط
 
 * کلاس [MathElementBase](../mathelementbase)
 * رابط [IMathFraction](../imathfraction)

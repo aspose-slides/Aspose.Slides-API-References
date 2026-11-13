@@ -3,7 +3,7 @@ title: LineFormatCollection
 second_title: Aspose.Sildes для .NET справочник API
 description: Представляет коллекцию стилей линий.
 type: docs
-weight: 11420
+weight: 11440
 url: /ru/aspose.slides.theme/lineformatcollection/
 ---
 ## LineFormatCollection класс
@@ -18,10 +18,10 @@ public sealed class LineFormatCollection : DomObject<FormatScheme>, ILineFormatC
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.theme/lineformatcollection/count) { get; } | Получает количество элементов, реально содержащихся в коллекции. Только чтение Int32. |
-| [IsSynchronized](../../aspose.slides.theme/lineformatcollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потокобезопасный). Только чтение Boolean. |
-| [Item](../../aspose.slides.theme/lineformatcollection/item) { get; } | Получает элемент по указанному индексу. Только чтение [`ILineFormat`](../../aspose.slides/ilineformat). |
-| [SyncRoot](../../aspose.slides.theme/lineformatcollection/syncroot) { get; } | Возвращает объект синхронизации. Только чтение Object. |
+| [Count](../../aspose.slides.theme/lineformatcollection/count) { get; } | Возвращает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32. |
+| [IsSynchronized](../../aspose.slides.theme/lineformatcollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потокобезопасный). Только для чтения Boolean. |
+| [Item](../../aspose.slides.theme/lineformatcollection/item) { get; } | Возвращает элемент по указанному индексу. Только для чтения [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [SyncRoot](../../aspose.slides.theme/lineformatcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
 
 ## Методы
 

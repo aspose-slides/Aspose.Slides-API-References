@@ -1,14 +1,14 @@
 ---
 title: IMathBar
-second_title: Aspose.Sildes pro .NET API referenci
-description: Určuje funkci pruhu, která se skládá ze základního argumentu a horního nebo spodního pruhu
+second_title: Aspose.Sildes pro .NET API Reference
+description: Specifikuje funkci čáry, která se skládá ze základního argumentu a nadčáry nebo podčáry
 type: docs
-weight: 8120
+weight: 8140
 url: /cs/aspose.slides.mathtext/imathbar/
 ---
 ## IMathBar rozhraní
 
-Specifies the bar function, consisting of a base argument and an overbar or underbar
+Specifikuje funkci čáry, sestávající ze základního argumentu a nadčáry nebo podčáry
 
 ```csharp
 public interface IMathBar : IMathElement
@@ -20,7 +20,7 @@ public interface IMathBar : IMathElement
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathbar/asimathelement) { get; } | Umožňuje získat základní rozhraní IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathbar/base) { get; } | Základní argument |
-| [Position](../../aspose.slides.mathtext/imathbar/position) { get; set; } | Pozice čáry pruhu. Výchozí: Top |
+| [Position](../../aspose.slides.mathtext/imathbar/position) { get; set; } | Pozice čáry. Výchozí: Horní |
 
 ### Příklady
 

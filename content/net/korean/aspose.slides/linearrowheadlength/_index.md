@@ -3,7 +3,7 @@ title: LineArrowheadLength
 second_title: Aspose.Sildes for .NET API 참조
 description: 화살촉의 길이를 나타냅니다.
 type: docs
-weight: 7730
+weight: 7750
 url: /ko/aspose.slides/linearrowheadlength/
 ---
 ## LineArrowheadLength 열거형
@@ -23,7 +23,7 @@ public enum LineArrowheadLength : sbyte
 | Medium | `1` |  |
 | Long | `2` |  |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

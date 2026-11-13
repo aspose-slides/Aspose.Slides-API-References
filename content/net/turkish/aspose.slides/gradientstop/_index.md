@@ -1,14 +1,14 @@
 ---
 title: GradientStop
-second_title: Aspose.Sildes .NET API Referansı
-description: Bir degrade biçimini temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bir gradient formatını temsil eder.
 type: docs
-weight: 5020
+weight: 5040
 url: /tr/aspose.slides/gradientstop/
 ---
 ## GradientStop sınıfı
 
-Bir degrade biçimini temsil eder.
+Bir gradient formatını temsil eder.
 
 ```csharp
 public sealed class GradientStop : PVIObject, IGradientStop
@@ -18,18 +18,18 @@ public sealed class GradientStop : PVIObject, IGradientStop
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzüne erişim sağlar. Salt okunur [`IPresentationComponent`](../ipresentationcomponent). |
-| [Color](../../aspose.slides/gradientstop/color) { get; } | Bir degrade durağının rengini döndürür. Salt okunur [`IColorFormat`](../icolorformat). |
-| [Position](../../aspose.slides/gradientstop/position) { get; set; } | Bir degrade durağının konumunu (0..1) döndürür veya ayarlar. Okunur/yazılır Single. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almaya izin verir. Yalnızca okunabilir [`IPresentationComponent`](../ipresentationcomponent). |
+| [Color](../../aspose.slides/gradientstop/color) { get; } | Bir gradient durak noktasının rengini döndürür. Yalnızca okunabilir [`IColorFormat`](../icolorformat). |
+| [Position](../../aspose.slides/gradientstop/position) { get; set; } | Bir gradient durak noktasının konumunu (0..1) döndürür veya ayarlar. Okunabilir/Yazılabilir Single. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Belirtilen nesneyle karşılaştırır. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Karma kodunu döndürür. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Karma kodu döndürür. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * sınıf [PVIObject](../pviobject)
 * arayüz [IGradientStop](../igradientstop)

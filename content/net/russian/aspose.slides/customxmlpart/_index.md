@@ -1,14 +1,14 @@
 ---
 title: CustomXmlPart
-second_title: Aspose.Sildes для .NET справочника API
-description: Представляет пользовательскую xml-часть.
+second_title: Aspose.Sildes для .NET справочник API
+description: Представляет пользовательскую часть xml.
 type: docs
-weight: 2740
+weight: 2760
 url: /ru/aspose.slides/customxmlpart/
 ---
 ## CustomXmlPart класс
 
-Представляет пользовательскую xml-часть.
+Представляет пользовательскую часть xml.
 
 ```csharp
 public class CustomXmlPart : ICustomXmlPart
@@ -16,20 +16,20 @@ public class CustomXmlPart : ICustomXmlPart
 
 ## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [ItemId](../../aspose.slides/customxmlpart/itemid) { get; set; } | Указывает глобальный уникальный идентификатор (GUID), который однозначно идентифицирует одну пользовательскую XML часть в документе Office Open XML. Только для чтения Guid. |
-| [NamespaceSchemas](../../aspose.slides/customxmlpart/namespaceschemas) { get; } | Возвращает коллекцию схем XML, связанных с пользовательской XML частью. Только для чтения String[]. |
-| [XmlAsString](../../aspose.slides/customxmlpart/xmlasstring) { get; set; } | Возвращает или задает данные xml в виде строки UTF-8. Чтение/запись String. значение равно `null`.значение пусто или xml-данные недействительны. |
-| [XmlData](../../aspose.slides/customxmlpart/xmldata) { get; set; } | Возвращает или задает данные xml. Чтение/запись Byte[]. значение равно `null`.значение пусто или xml-данные недействительны. |
+| [ItemId](../../aspose.slides/customxmlpart/itemid) { get; set; } | Указывает глобальный уникальный идентификатор (GUID), который уникально идентифицирует отдельную пользовательскую часть XML в документе Office Open XML. Только для чтения Guid. |
+| [NamespaceSchemas](../../aspose.slides/customxmlpart/namespaceschemas) { get; } | Возвращает набор XML-схем, связанных с пользовательской частью XML. Только для чтения String[]. |
+| [XmlAsString](../../aspose.slides/customxmlpart/xmlasstring) { get; set; } | Возвращает или задает данные xml в виде строки UTF-8. Чтение/запись String. значение `null`. значение пусто или xml-данные недействительны. |
+| [XmlData](../../aspose.slides/customxmlpart/xmldata) { get; set; } | Возвращает или задает данные xml. Чтение/запись Byte[]. значение `null`. значение пусто или xml-данные недействительны. |
 
 ## Методы
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [Remove](../../aspose.slides/customxmlpart/remove)() | Удаляет пользовательскую xml-часть из презентации. |
+| [Remove](../../aspose.slides/customxmlpart/remove)() | Удаляет пользовательскую часть xml из презентации. |
 
-### См. также
+### Смотрите также
 
 * интерфейс [ICustomXmlPart](../icustomxmlpart)
 * пространство имён [Aspose.Slides](../../aspose.slides)

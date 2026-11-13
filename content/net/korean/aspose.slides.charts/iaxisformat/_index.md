@@ -3,7 +3,7 @@ title: IAxisFormat
 second_title: Aspose.Sildes for .NET API 참조
 description: 차트 형식 속성을 나타냅니다.
 type: docs
-weight: 1720
+weight: 1730
 url: /ko/aspose.slides.charts/iaxisformat/
 ---
 ## IAxisFormat 인터페이스

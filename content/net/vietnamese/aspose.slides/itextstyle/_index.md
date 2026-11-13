@@ -1,14 +1,14 @@
 ---
 title: ITextStyle
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Các thuộc tính định dạng kiểu văn bản.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Thuộc tính định dạng kiểu văn bản.
 type: docs
-weight: 7310
+weight: 7330
 url: /vi/aspose.slides/itextstyle/
 ---
 ## ITextStyle giao diện
 
-Các thuộc tính định dạng kiểu văn bản.
+Thuộc tính định dạng kiểu văn bản.
 
 ```csharp
 public interface ITextStyle
@@ -18,13 +18,13 @@ public interface ITextStyle
 
 | Tên | Mô tả |
 | --- | --- |
-| [DefaultParagraphFormat](../../aspose.slides/itextstyle/defaultparagraphformat) { get; } | Thuộc tính đoạn văn mặc định. Chỉ đọc [`IParagraphFormat`](../iparagraphformat). |
+| [DefaultParagraphFormat](../../aspose.slides/itextstyle/defaultparagraphformat) { get; } | Thuộc tính mặc định của đoạn văn. Chỉ đọc [`IParagraphFormat`](../iparagraphformat). |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [GetEffective](../../aspose.slides/itextstyle/geteffective)() | Lấy dữ liệu định dạng kiểu văn bản hiệu quả với kế thừa được áp dụng. |
+| [GetEffective](../../aspose.slides/itextstyle/geteffective)() | Lấy dữ liệu định dạng kiểu văn bản hiệu quả với việc áp dụng kế thừa. |
 | [GetLevel](../../aspose.slides/itextstyle/getlevel)(int) | Nếu mức độ kiểu tồn tại, trả về nó; nếu không, trả về null. |
 
 ### Xem thêm

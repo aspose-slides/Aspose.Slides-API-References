@@ -1,14 +1,14 @@
 ---
 title: IBasePortionFormatEffectiveData
 second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: واجهة أساسية للكائنات غير القابلة للتغيير التي تحتوي على خصائص تنسيق جزء النص الفعلي.
+description: واجهة أساسية للكائنات غير القابلة للتغيير التي تحتوي على خصائص تنسيق الجزء النصي الفعّال.
 type: docs
-weight: 5320
+weight: 5340
 url: /ar/aspose.slides/ibaseportionformateffectivedata/
 ---
 ## IBasePortionFormatEffectiveData واجهة
 
-الواجهة الأساسية للكائنات غير القابلة للتغيير التي تحتوي على خصائص تنسيق جزء النص الفعلي.
+Base interface for immutable objects which contain effective text portion formatting properties.
 
 ```csharp
 public interface IBasePortionFormatEffectiveData
@@ -18,37 +18,37 @@ public interface IBasePortionFormatEffectiveData
 
 | الاسم | الوصف |
 | --- | --- |
-| [AlternativeLanguageId](../../aspose.slides/ibaseportionformateffectivedata/alternativelanguageid) { get; } | يرجع معرّف لغة بديلة. قراءة فقط String. |
-| [ComplexScriptFont](../../aspose.slides/ibaseportionformateffectivedata/complexscriptfont) { get; } | يرجع معلومات خط النص المعقّد. قراءة فقط [`IFontData`](../ifontdata). |
-| [EastAsianFont](../../aspose.slides/ibaseportionformateffectivedata/eastasianfont) { get; } | يرجع معلومات خط شرق آسيا. قراءة فقط [`IFontData`](../ifontdata). |
-| [EffectFormat](../../aspose.slides/ibaseportionformateffectivedata/effectformat) { get; } | يرجع خصائص EffectFormat للنص. قراءة فقط [`IEffectFormatEffectiveData`](../ieffectformateffectivedata). |
-| [Escapement](../../aspose.slides/ibaseportionformateffectivedata/escapement) { get; } | يرجع النص أعلى السطر أو أسفل السطر. القيمة من -100٪ (أسفل السطر) إلى 100٪ (أعلى السطر). قراءة فقط Single. |
-| [FillFormat](../../aspose.slides/ibaseportionformateffectivedata/fillformat) { get; } | يرجع خصائص FillFormat للنص. قراءة فقط [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
-| [FontBold](../../aspose.slides/ibaseportionformateffectivedata/fontbold) { get; } | يحدد ما إذا كان الخط عريضًا. قراءة فقط Boolean. |
-| [FontHeight](../../aspose.slides/ibaseportionformateffectivedata/fontheight) { get; } | يرجع ارتفاع الخط لجزء النص، بالنقاط. قراءة فقط Single. |
-| [FontItalic](../../aspose.slides/ibaseportionformateffectivedata/fontitalic) { get; } | يحدد ما إذا كان الخط مائلًا. قراءة فقط Boolean. |
-| [FontUnderline](../../aspose.slides/ibaseportionformateffectivedata/fontunderline) { get; } | يرجع نوع توضيح النص. قراءة فقط [`TextUnderlineType`](../textunderlinetype). |
-| [HighlightColor](../../aspose.slides/ibaseportionformateffectivedata/highlightcolor) { get; } | يرجع اللون المستخدم لتظليل النص. قراءة فقط Color. |
-| [IsHardUnderlineFill](../../aspose.slides/ibaseportionformateffectivedata/ishardunderlinefill) { get; } | يحدد ما إذا كان نمط التسطير يمتلك خصائص FillFormat الخاصة به أو يرثها من خصائص FillFormat للنص. قراءة فقط Boolean. |
-| [IsHardUnderlineLine](../../aspose.slides/ibaseportionformateffectivedata/ishardunderlineline) { get; } | يحدد ما إذا كان نمط التسطير يمتلك خصائص LineFormat الخاصة به أو يرثها من خصائص LineFormat للنص. قراءة فقط Boolean. |
-| [KerningMinimalSize](../../aspose.slides/ibaseportionformateffectivedata/kerningminimalsize) { get; } | يرجع الحد الأدنى لحجم الخط الذي يجب تشغيل تعديل المسافات (kerning) من أجله. قراءة فقط Single. |
-| [Kumimoji](../../aspose.slides/ibaseportionformateffectivedata/kumimoji) { get; } | يحدد ما إذا كان يجب أن تتجاهل الأرقام تخطيط النص العمودي الخاص بلغات الشرق. قراءة فقط Boolean. |
-| [LanguageId](../../aspose.slides/ibaseportionformateffectivedata/languageid) { get; } | يرجع معرّف لغة. قراءة فقط String. |
-| [LatinFont](../../aspose.slides/ibaseportionformateffectivedata/latinfont) { get; } | يرجع معلومات خط اللاتينية. قراءة فقط [`IFontData`](../ifontdata). |
-| [LineFormat](../../aspose.slides/ibaseportionformateffectivedata/lineformat) { get; } | يرجع خصائص LineFormat لتحديد حدود النص. قراءة فقط [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [NormaliseHeight](../../aspose.slides/ibaseportionformateffectivedata/normaliseheight) { get; } | يحدد ما إذا كان يجب تطبيع ارتفاع النص. قراءة فقط Boolean. |
-| [ProofDisabled](../../aspose.slides/ibaseportionformateffectivedata/proofdisabled) { get; } | يحدد ما إذا لا ينبغي تدقيق النص. قراءة فقط Boolean. |
-| [SmartTagClean](../../aspose.slides/ibaseportionformateffectivedata/smarttagclean) { get; } | يحدد ما إذا كان يجب مسح العلامة الذكية. قراءة فقط Boolean. |
-| [Spacing](../../aspose.slides/ibaseportionformateffectivedata/spacing) { get; } | يرجع الزيادة في مسافة الحروف، بالنقاط. قراءة فقط Single. |
-| [StrikethroughType](../../aspose.slides/ibaseportionformateffectivedata/strikethroughtype) { get; } | يرجع نوع الشطب للنص. قراءة فقط [`TextStrikethroughType`](../textstrikethroughtype). |
-| [SymbolFont](../../aspose.slides/ibaseportionformateffectivedata/symbolfont) { get; } | يرجع معلومات الخط الرمزي. قراءة فقط [`IFontData`](../ifontdata). |
-| [TextCapType](../../aspose.slides/ibaseportionformateffectivedata/textcaptype) { get; } | يرجع نوع كتابة النص بالحروف الكبيرة. قراءة فقط [`TextCapType`](../textcaptype). |
-| [UnderlineFillFormat](../../aspose.slides/ibaseportionformateffectivedata/underlinefillformat) { get; } | يرجع خصائص FillFormat لخط التسطير. قراءة فقط [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
-| [UnderlineLineFormat](../../aspose.slides/ibaseportionformateffectivedata/underlinelineformat) { get; } | يرجع خصائص LineFormat المستخدمة لتحديد حدود خط التسطير. قراءة فقط [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [AlternativeLanguageId](../../aspose.slides/ibaseportionformateffectivedata/alternativelanguageid) { get; } | يعيد معرف اللغة البديلة. للقراءة فقط String. |
+| [ComplexScriptFont](../../aspose.slides/ibaseportionformateffectivedata/complexscriptfont) { get; } | يعيد معلومات خط النص المعقد. للقراءة فقط [`IFontData`](../ifontdata). |
+| [EastAsianFont](../../aspose.slides/ibaseportionformateffectivedata/eastasianfont) { get; } | يعيد معلومات خط شرق آسيا. للقراءة فقط [`IFontData`](../ifontdata). |
+| [EffectFormat](../../aspose.slides/ibaseportionformateffectivedata/effectformat) { get; } | يعيد خصائص EffectFormat للنص. للقراءة فقط [`IEffectFormatEffectiveData`](../ieffectformateffectivedata). |
+| [Escapement](../../aspose.slides/ibaseportionformateffectivedata/escapement) { get; } | يعيد النص العلوي أو السفلي. القيمة من -100% (سفلي) إلى 100% (علوي). للقراءة فقط Single. |
+| [FillFormat](../../aspose.slides/ibaseportionformateffectivedata/fillformat) { get; } | يعيد خصائص FillFormat للنص. للقراءة فقط [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [FontBold](../../aspose.slides/ibaseportionformateffectivedata/fontbold) { get; } | يحدد ما إذا كان الخط عريضًا. للقراءة فقط Boolean. |
+| [FontHeight](../../aspose.slides/ibaseportionformateffectivedata/fontheight) { get; } | يعيد ارتفاع الخط لجزء النص، بالنقاط. للقراءة فقط Single. |
+| [FontItalic](../../aspose.slides/ibaseportionformateffectivedata/fontitalic) { get; } | يحدد ما إذا كان الخط مائلًا. للقراءة فقط Boolean. |
+| [FontUnderline](../../aspose.slides/ibaseportionformateffectivedata/fontunderline) { get; } | يعيد نوع الخط السفلي للنص. للقراءة فقط [`TextUnderlineType`](../textunderlinetype). |
+| [HighlightColor](../../aspose.slides/ibaseportionformateffectivedata/highlightcolor) { get; } | يعيد اللون المستخدم لتظليل النص. للقراءة فقط Color. |
+| [IsHardUnderlineFill](../../aspose.slides/ibaseportionformateffectivedata/ishardunderlinefill) { get; } | يحدد ما إذا كان نمط الخط السفلي يمتلك خصائص FillFormat الخاصة به أو يرثها من خصائص FillFormat للنص. للقراءة فقط Boolean. |
+| [IsHardUnderlineLine](../../aspose.slides/ibaseportionformateffectivedata/ishardunderlineline) { get; } | يحدد ما إذا كان نمط الخط السفلي يمتلك خصائص LineFormat الخاصة به أو يرثها من خصائص LineFormat للنص. للقراءة فقط Boolean. |
+| [KerningMinimalSize](../../aspose.slides/ibaseportionformateffectivedata/kerningminimalsize) { get; } | يعيد الحد الأدنى لحجم الخط الذي يجب تشغيل التراصف له. للقراءة فقط Single. |
+| [Kumimoji](../../aspose.slides/ibaseportionformateffectivedata/kumimoji) { get; } | يحدد ما إذا كان يجب على الأرقام تجاهل تخطيط النص العمودي الخاص باللغات الشرقية. للقراءة فقط Boolean. |
+| [LanguageId](../../aspose.slides/ibaseportionformateffectivedata/languageid) { get; } | يعيد معرف اللغة. للقراءة فقط String. |
+| [LatinFont](../../aspose.slides/ibaseportionformateffectivedata/latinfont) { get; } | يعيد معلومات خط اللاتينية. للقراءة فقط [`IFontData`](../ifontdata). |
+| [LineFormat](../../aspose.slides/ibaseportionformateffectivedata/lineformat) { get; } | يعيد خصائص LineFormat لتحديد حدود النص. للقراءة فقط [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [NormaliseHeight](../../aspose.slides/ibaseportionformateffectivedata/normaliseheight) { get; } | يحدد ما إذا كان يجب تطبيع ارتفاع النص. للقراءة فقط Boolean. |
+| [ProofDisabled](../../aspose.slides/ibaseportionformateffectivedata/proofdisabled) { get; } | يحدد ما إذا كان لا يجب تدقيق النص. للقراءة فقط Boolean. |
+| [SmartTagClean](../../aspose.slides/ibaseportionformateffectivedata/smarttagclean) { get; } | يحدد ما إذا كان يجب تنظيف العلامة الذكية. للقراءة فقط Boolean. |
+| [Spacing](../../aspose.slides/ibaseportionformateffectivedata/spacing) { get; } | يعيد مقدار زيادة التباعد بين الأحرف، بالنقاط. للقراءة فقط Single. |
+| [StrikethroughType](../../aspose.slides/ibaseportionformateffectivedata/strikethroughtype) { get; } | يعيد نوع الخط المشطوب للنص. للقراءة فقط [`TextStrikethroughType`](../textstrikethroughtype). |
+| [SymbolFont](../../aspose.slides/ibaseportionformateffectivedata/symbolfont) { get; } | يعيد معلومات الخط الرمزي. للقراءة فقط [`IFontData`](../ifontdata). |
+| [TextCapType](../../aspose.slides/ibaseportionformateffectivedata/textcaptype) { get; } | يعيد نوع كتابة النص بالحروف الكبيرة. للقراءة فقط [`TextCapType`](../textcaptype). |
+| [UnderlineFillFormat](../../aspose.slides/ibaseportionformateffectivedata/underlinefillformat) { get; } | يعيد خصائص FillFormat لخط الخط السفلي. للقراءة فقط [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [UnderlineLineFormat](../../aspose.slides/ibaseportionformateffectivedata/underlinelineformat) { get; } | يعيد خصائص LineFormat المستخدمة لتحديد حدود خط الخط السفلي. للقراءة فقط [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
 
-### انظر أيضًا
+### انظر أيضا
 
-* مساحة الاسم [Aspose.Slides](../../aspose.slides)
+* النطاق [Aspose.Slides](../../aspose.slides)
 * التجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

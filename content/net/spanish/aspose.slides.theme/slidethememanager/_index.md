@@ -1,14 +1,14 @@
 ---
 title: SlideThemeManager
-second_title: Aspose.Sildes para la referencia API de .NET
-description: Proporciona acceso al tema de diapositiva sobrescrito.
+second_title: Aspose.Sildes para la referencia de API .NET
+description: Proporciona acceso a la sobrescritura del tema de la diapositiva.
 type: docs
-weight: 11470
+weight: 11490
 url: /es/aspose.slides.theme/slidethememanager/
 ---
 ## SlideThemeManager clase
 
-Proporciona acceso al tema de diapositiva sobrescrito.
+Proporciona acceso a la sobrescritura del tema de la diapositiva.
 
 ```csharp
 public class SlideThemeManager : BaseOverrideThemeManager
@@ -18,14 +18,14 @@ public class SlideThemeManager : BaseOverrideThemeManager
 
 | Nombre | Descripción |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Determina si OverrideTheme sobrescribe el tema efectivo heredado o no. Para habilitar OverrideTheme para sobrescribir, use los métodos OverrideTheme.Init*(). Para deshabilitar OverrideTheme de sobrescribir, use el método OverrideTheme.Clear(). Boolean de solo lectura. |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Determina si OverrideTheme sobrescribe el tema efectivo heredado o no. Para habilitar OverrideTheme para sobrescribir use los métodos OverrideTheme.Init*(). Para deshabilitar OverrideTheme de sobrescribir use el método OverrideTheme.Clear(). Solo lectura Boolean. |
 | [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Devuelve el objeto de tema sobrescrito. Lectura/escritura [`IOverrideTheme`](../ioverridetheme). |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Aplica un esquema de color extra a una diapositiva. |
+| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Aplica esquema de color adicional a una diapositiva. |
 | [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Devuelve el objeto de tema. |
 
 ### Ver también

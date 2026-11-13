@@ -1,14 +1,14 @@
 ---
 title: GradientStopCollectionEffectiveData
-second_title: Αναφορά API Aspose.Sildes για .NET
+second_title: Aspose.Sildes για .NET API Αναφορά
 description: Αναπαριστά μια συλλογή αντικειμένων GradientStopData.
 type: docs
-weight: 5040
+weight: 5060
 url: /el/aspose.slides/gradientstopcollectioneffectivedata/
 ---
 ## GradientStopCollectionEffectiveData κλάση
 
-Αναπαριστά μια συλλογή αντικειμένων GradientStopData.
+Represents a collection of GradientStopData objects.
 
 ```csharp
 public class GradientStopCollectionEffectiveData : IGradientStopCollectionEffectiveData
@@ -18,21 +18,21 @@ public class GradientStopCollectionEffectiveData : IGradientStopCollectionEffect
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Count](../../aspose.slides/gradientstopcollectioneffectivedata/count) { get; } | Επιστρέφει τον αριθμό των gradient stops σε μια συλλογή. Μόνο ανάγνωση Int32. |
-| [IsSynchronized](../../aspose.slides/gradientstopcollectioneffectivedata/issynchronized) { get; } | Επιστρέφει τιμή που υποδεικνύει αν η πρόσβαση στη συλλογή είναι συγχρονισμένη (thread-safe). Μόνο ανάγνωση Boolean. |
-| [Item](../../aspose.slides/gradientstopcollectioneffectivedata/item) { get; } | Επιστρέφει το gradient stop με βάση τον δείκτη. |
-| [SyncRoot](../../aspose.slides/gradientstopcollectioneffectivedata/syncroot) { get; } | Επιστρέφει τη ρίζα συγχρονισμού. Μόνο ανάγνωση Object. |
+| [Count](../../aspose.slides/gradientstopcollectioneffectivedata/count) { get; } | Επιστρέφει τον αριθμό των σημείων διαβάθμισης σε μια συλλογή. Μόνο για ανάγνωση Int32. |
+| [IsSynchronized](../../aspose.slides/gradientstopcollectioneffectivedata/issynchronized) { get; } | Επιστρέφει μια τιμή που υποδεικνύει εάν η πρόσβαση στη συλλογή είναι συγχρονισμένη (thread-safe). Μόνο για ανάγνωση Boolean. |
+| [Item](../../aspose.slides/gradientstopcollectioneffectivedata/item) { get; } | Επιστρέφει το σημείο διαβάθμισης βάσει δείκτη. |
+| [SyncRoot](../../aspose.slides/gradientstopcollectioneffectivedata/syncroot) { get; } | Επιστρέφει ένα αντικείμενο ρίζας συγχρονισμού. Μόνο για ανάγνωση Object. |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [CopyTo](../../aspose.slides/gradientstopcollectioneffectivedata/copyto)(Array, int) | Αντιγράφει όλα τα στοιχεία από τη συλλογή στον καθορισμένο πίνακα. |
-| [GetEnumerator](../../aspose.slides/gradientstopcollectioneffectivedata/getenumerator)() | Επιστρέφει έναν αριθμητή που διατρέχει τη συλλογή. |
+| [GetEnumerator](../../aspose.slides/gradientstopcollectioneffectivedata/getenumerator)() | Επιστρέφει έναν enumerator που διατρέχει τη συλλογή. |
 
 ### Δείτε επίσης
 
-* διασύνδεση [IGradientStopCollectionEffectiveData](../igradientstopcollectioneffectivedata)
+* διεπαφή [IGradientStopCollectionEffectiveData](../igradientstopcollectioneffectivedata)
 * χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
 * συστατικό [Aspose.Slides](../../)
 

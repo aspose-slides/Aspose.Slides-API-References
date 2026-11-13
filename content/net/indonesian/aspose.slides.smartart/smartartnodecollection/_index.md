@@ -1,14 +1,14 @@
 ---
 title: SmartArtNodeCollection
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili kumpulan node SmartArt.
+description: Mewakili koleksi node SmartArt.
 type: docs
-weight: 10640
+weight: 10660
 url: /id/aspose.slides.smartart/smartartnodecollection/
 ---
 ## SmartArtNodeCollection kelas
 
-Mewakili kumpulan node SmartArt.
+Mewakili koleksi node SmartArt.
 
 ```csharp
 public sealed class SmartArtNodeCollection : ISmartArtNodeCollection
@@ -18,10 +18,10 @@ public sealed class SmartArtNodeCollection : ISmartArtNodeCollection
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Count](../../aspose.slides.smartart/smartartnodecollection/count) { get; } | Mengembalikan jumlah node dalam koleksi Baca-saja Int32 Baca-saja Int32. |
-| [IsSynchronized](../../aspose.slides.smartart/smartartnodecollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (thread-safe). Baca-saja Boolean. |
+| [Count](../../aspose.slides.smartart/smartartnodecollection/count) { get; } | Mengembalikan jumlah node dalam koleksi Read-only Int32. |
+| [IsSynchronized](../../aspose.slides.smartart/smartartnodecollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (thread-safe). Read-only Boolean. |
 | [Item](../../aspose.slides.smartart/smartartnodecollection/item) { get; } | Mengembalikan node berdasarkan indeks |
-| [SyncRoot](../../aspose.slides.smartart/smartartnodecollection/syncroot) { get; } | Mengembalikan akar sinkronisasi. Baca-saja Object. |
+| [SyncRoot](../../aspose.slides.smartart/smartartnodecollection/syncroot) { get; } | Mengembalikan root sinkronisasi. Read-only Object. |
 
 ## Metode
 

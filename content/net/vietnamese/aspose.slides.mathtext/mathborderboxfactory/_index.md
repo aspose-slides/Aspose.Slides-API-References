@@ -1,31 +1,31 @@
 ---
 title: MathBorderBoxFactory
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Cho phép tạo một hộp viền toán học
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Cho phép tạo một math border box
 type: docs
-weight: 8620
+weight: 8640
 url: /vi/aspose.slides.mathtext/mathborderboxfactory/
 ---
 ## MathBorderBoxFactory lớp
 
-Cho phép tạo một hộp viền toán học
+Cho phép tạo một math border box
 
 ```csharp
 public class MathBorderBoxFactory : IMathBorderBoxFactory
 ```
 
-## Các hàm khởi tạo
+## Các hàm tạo
 
 | Tên | Mô tả |
 | --- | --- |
-| [MathBorderBoxFactory](mathborderboxfactory)() | Hàm khởi tạo mặc định. |
+| [MathBorderBoxFactory](mathborderboxfactory)() | Hàm tạo mặc định. |
 
-## Các phương thức
+## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Tạo một hộp viền toán học bằng cách áp dụng cho phần tử |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Tạo một hộp viền toán học bằng cách áp dụng cho phần tử |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Tạo một math border box bằng cách áp dụng vào phần tử |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Tạo một math border box bằng cách áp dụng vào phần tử |
 
 ### Ghi chú
 

@@ -1,9 +1,9 @@
 ---
 title: MathVerticalAlignment
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для .NET справка API
 description: Вертикальное выравнивание
 type: docs
-weight: 9050
+weight: 9070
 url: /ru/aspose.slides.mathtext/mathverticalalignment/
 ---
 ## MathVerticalAlignment перечисление
@@ -19,9 +19,9 @@ public enum MathVerticalAlignment
 | Имя | Значение | Описание |
 | --- | --- | --- |
 | NotDefined | `0` | Значение не определено |
-| Top | `1` | Верх |
-| Center | `2` | Центр |
-| Bottom | `3` | Низ |
+| Top | `1` | Top |
+| Center | `2` | Center |
+| Bottom | `3` | Bottom |
 
 ### См. также
 

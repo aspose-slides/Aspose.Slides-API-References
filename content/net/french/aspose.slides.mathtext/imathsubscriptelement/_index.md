@@ -1,9 +1,9 @@
 ---
 title: IMathSubscriptElement
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Spécifie l'objet indice qui se compose d'une base et d'un indice de taille réduite placé en dessous et à droite.
 type: docs
-weight: 8470
+weight: 8490
 url: /fr/aspose.slides.mathtext/imathsubscriptelement/
 ---
 ## IMathSubscriptElement interface

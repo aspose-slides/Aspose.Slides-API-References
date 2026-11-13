@@ -1,9 +1,9 @@
 ---
 title: IFonts
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes for .NET API 參考
 description: 表示字型集合。
 type: docs
-weight: 5900
+weight: 5920
 url: /zh-hant/aspose.slides/ifonts/
 ---
 ## IFonts 介面
@@ -26,12 +26,12 @@ public interface IFonts
 
 | 名稱 | 說明 |
 | --- | --- |
-| [GetScriptFont](../../aspose.slides/ifonts/getscriptfont)(string) | 取得與簡報主題中特定腳本標籤相關聯的字型名稱。 |
+| [GetScriptFont](../../aspose.slides/ifonts/getscriptfont)(string) | 取得與特定腳本標記相關聯的字型名稱，來源於簡報主題。 |
 | [GetScriptFontMap](../../aspose.slides/ifonts/getscriptfontmap)() | 返回簡報中所有腳本字型定義的字典。 |
-| [RemoveScriptFont](../../aspose.slides/ifonts/removescriptfont)(string) | 從主題的字型集合中移除與特定腳本標籤相關聯的字型設定。 |
-| [SetScriptFont](../../aspose.slides/ifonts/setscriptfont)(string, string) | 將字型名稱指派給特定腳本標籤，定義簡報中該腳本文字的呈現方式。 |
+| [RemoveScriptFont](../../aspose.slides/ifonts/removescriptfont)(string) | 從主題的字型集合中移除與特定腳本標記相關聯的字型設定。 |
+| [SetScriptFont](../../aspose.slides/ifonts/setscriptfont)(string, string) | 將字型名稱指派給特定腳本標記，以定義簡報中該腳本文字的呈現方式。 |
 
-### 參見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

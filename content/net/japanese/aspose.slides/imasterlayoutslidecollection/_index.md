@@ -1,9 +1,9 @@
 ---
 title: IMasterLayoutSlideCollection
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 定義されたマスタースライドのすべてのレイアウトスライドのコレクションを表します。ILayoutSlideCollection インターフェイスを拡張し、マスターのレイアウトスライドの個々のコレクションのコンテキストでレイアウトスライドを追加/挿入/削除/クローンするメソッドを提供します。
+description: 定義されたマスタースライドのすべてのレイアウトスライドのコレクションを表します。ILayoutSlideCollection インターフェイスを拡張し、マスターのレイアウトスライド個別コレクションのコンテキストでレイアウトスライドを追加/挿入/削除/クローンするメソッドを提供します。
 type: docs
-weight: 6380
+weight: 6400
 url: /ja/aspose.slides/imasterlayoutslidecollection/
 ---
 ## IMasterLayoutSlideCollection インターフェイス
@@ -24,14 +24,14 @@ public interface IMasterLayoutSlideCollection : ILayoutSlideCollection
 
 | 名前 | 説明 |
 | --- | --- |
-| [Add](../../aspose.slides/imasterlayoutslidecollection/add)(SlideLayoutType, string) | コレクションの末尾に新しいレイアウトスライドを追加します。 |
+| [Add](../../aspose.slides/imasterlayoutslidecollection/add)(SlideLayoutType, string) | 新しいレイアウトスライドをコレクションの末尾に追加します。 |
 | [AddClone](../../aspose.slides/imasterlayoutslidecollection/addclone)(ILayoutSlide) | 指定されたレイアウトスライドのコピーをコレクションの末尾に追加します。 |
-| [Insert](../../aspose.slides/imasterlayoutslidecollection/insert)(int, SlideLayoutType, string) | コレクションの指定位置に新しいレイアウトスライドを挿入します。 |
+| [Insert](../../aspose.slides/imasterlayoutslidecollection/insert)(int, SlideLayoutType, string) | 新しいレイアウトスライドをコレクションの指定位置に挿入します。 |
 | [InsertClone](../../aspose.slides/imasterlayoutslidecollection/insertclone)(int, ILayoutSlide) | 指定されたレイアウトスライドのコピーをコレクションの指定位置に挿入します。 |
 | [RemoveAt](../../aspose.slides/imasterlayoutslidecollection/removeat)(int) | コレクションの指定インデックスにある要素を削除します。 |
-| [Reorder](../../aspose.slides/imasterlayoutslidecollection/reorder)(int, ILayoutSlide) | レイアウトスライドをコレクションから指定位置へ移動します。 |
+| [Reorder](../../aspose.slides/imasterlayoutslidecollection/reorder)(int, ILayoutSlide) | コレクションからレイアウトスライドを指定位置に移動します。 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [ILayoutSlideCollection](../ilayoutslidecollection)
 * 名前空間 [Aspose.Slides](../../aspose.slides)

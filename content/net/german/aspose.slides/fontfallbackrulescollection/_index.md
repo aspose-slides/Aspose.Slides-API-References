@@ -3,10 +3,10 @@ title: FontFallBackRulesCollection
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine vom Benutzer definierte Sammlung von FontFallBack-Regeln dar
 type: docs
-weight: 4850
+weight: 4870
 url: /de/aspose.slides/fontfallbackrulescollection/
 ---
-## FontFallBackRulesCollection Klasse
+## FontFallBackRulesCollection class
 
 Stellt eine Sammlung von FontFallBack-Regeln dar, die vom Benutzer definiert wurden.
 
@@ -24,19 +24,19 @@ public class FontFallBackRulesCollection : IFontFallBackRulesCollection
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides/fontfallbackrulescollection/count) { get; } | Gibt die Anzahl der tatsächlich in der Sammlung enthaltenen Regeln zurück. Nur lesbar Int32. |
-| [IsSynchronized](../../aspose.slides/fontfallbackrulescollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (thread-sicher) ist. Nur lesbar Boolean. |
-| [Item](../../aspose.slides/fontfallbackrulescollection/item) { get; } | Gibt die Regel am angegebenen Index zurück. Nur lesbar [`IFontFallBackRule`](../ifontfallbackrule). |
-| [SyncRoot](../../aspose.slides/fontfallbackrulescollection/syncroot) { get; } | Gibt eine Synchronisationswurzel zurück. Nur lesbar Object. |
+| [Count](../../aspose.slides/fontfallbackrulescollection/count) { get; } | Gibt die tatsächlich in der Sammlung enthaltene Anzahl von Regeln zurück. Nur-Lesen Int32. |
+| [IsSynchronized](../../aspose.slides/fontfallbackrulescollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (thread-sicher) ist. Nur-Lesen Boolean. |
+| [Item](../../aspose.slides/fontfallbackrulescollection/item) { get; } | Gibt die Regel am angegebenen Index zurück. Nur-Lesen [`IFontFallBackRule`](../ifontfallbackrule). |
+| [SyncRoot](../../aspose.slides/fontfallbackrulescollection/syncroot) { get; } | Gibt ein Synchronisationsobjekt zurück. Nur-Lesen Object. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
 | [Add](../../aspose.slides/fontfallbackrulescollection/add)(IFontFallBackRule) | Fügt eine angegebene FallBack-Regel am Ende der Sammlung hinzu. |
-| [CopyTo](../../aspose.slides/fontfallbackrulescollection/copyto)(Array, int) | Kopiert alle Elemente der Sammlung in das angegebene Array. |
+| [CopyTo](../../aspose.slides/fontfallbackrulescollection/copyto)(Array, int) | Kopiert alle Elemente aus der Sammlung in das angegebene Array. |
 | [GetEnumerator](../../aspose.slides/fontfallbackrulescollection/getenumerator)() | Gibt einen Enumerator zurück, der die Sammlung durchläuft. |
-| [Remove](../../aspose.slides/fontfallbackrulescollection/remove)(IFontFallBackRule) | Entfernt das erste Auftreten einer bestimmten FallBack-Regel aus der Sammlung. |
+| [Remove](../../aspose.slides/fontfallbackrulescollection/remove)(IFontFallBackRule) | Entfernt das erste Vorkommen einer bestimmten FallBack-Regel aus der Sammlung. |
 
 ### Siehe auch
 

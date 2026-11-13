@@ -1,9 +1,9 @@
 ---
 title: IPPImage
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
 description: एक प्रस्तुति में छवि का प्रतिनिधित्व करता है।
 type: docs
-weight: 6550
+weight: 6570
 url: /hi/aspose.slides/ippimage/
 ---
 ## IPPImage इंटरफ़ेस
@@ -18,22 +18,22 @@ public interface IPPImage
 
 | नाम | विवरण |
 | --- | --- |
-| [BinaryData](../../aspose.slides/ippimage/binarydata) { get; } | एक छवि के डेटा की प्रति लौटाता है। केवल-पढ़ने योग्य Byte[]. |
-| [ContentType](../../aspose.slides/ippimage/contenttype) { get; } | एक छवि का MIME प्रकार लौटाता है, जो [`BinaryData`](./binarydata) में एन्कोड किया गया है। केवल-पढ़ने योग्य String. |
-| [Height](../../aspose.slides/ippimage/height) { get; } | एक छवि की ऊँचाई लौटाता है। केवल-पढ़ने योग्य Int32. |
-| [Image](../../aspose.slides/ippimage/image) { get; } | एक छवि की प्रति लौटाता है। केवल-पढ़ने योग्य [`Image`](./image). |
-| [SvgImage](../../aspose.slides/ippimage/svgimage) { get; set; } | ISvgImage ऑब्जेक्ट [`ISvgImage`](../isvgimage) लौटाता है या सेट करता है। |
-| [Width](../../aspose.slides/ippimage/width) { get; } | एक छवि की चौड़ाई लौटाता है। केवल-पढ़ने योग्य Int32. |
-| [X](../../aspose.slides/ippimage/x) { get; } | एक छवि का X-ऑफ़सेट लौटाता है। केवल-पढ़ने योग्य Int32. |
-| [Y](../../aspose.slides/ippimage/y) { get; } | एक छवि का Y-ऑफ़सेट लौटाता है। केवल-पढ़ने योग्य Int32. |
+| [BinaryData](../../aspose.slides/ippimage/binarydata) { get; } | छवि के डेटा की प्रति लौटाता है। केवल पढ़ने योग्य Byte[]. |
+| [ContentType](../../aspose.slides/ippimage/contenttype) { get; } | छवि के MIME प्रकार को लौटाता है, जो [`BinaryData`](./binarydata) में एन्कोड किया गया है। केवल पढ़ने योग्य String। |
+| [Height](../../aspose.slides/ippimage/height) { get; } | छवि की ऊँचाई लौटाता है। केवल पढ़ने योग्य Int32। |
+| [Image](../../aspose.slides/ippimage/image) { get; } | छवि की प्रति लौटाता है। केवल पढ़ने योग्य [`Image`](./image)। |
+| [SvgImage](../../aspose.slides/ippimage/svgimage) { get; set; } | ISvgImage ऑब्जेक्ट [`ISvgImage`](../isvgimage) को लौटाता है या सेट करता है |
+| [Width](../../aspose.slides/ippimage/width) { get; } | छवि की चौड़ाई लौटाता है। केवल पढ़ने योग्य Int32। |
+| [X](../../aspose.slides/ippimage/x) { get; } | छवि का X-ऑफ़सेट लौटाता है। केवल पढ़ने योग्य Int32। |
+| [Y](../../aspose.slides/ippimage/y) { get; } | छवि का Y-ऑफ़सेट लौटाता है। केवल पढ़ने योग्य Int32। |
 
-## विधियाँ
+## विधियां
 
 | नाम | विवरण |
 | --- | --- |
-| [ReplaceImage](../../aspose.slides/ippimage/replaceimage#replaceimage_2)(byte[]) | छवि डेटा को प्रतिस्थापित करता है। |
-| [ReplaceImage](../../aspose.slides/ippimage/replaceimage#replaceimage)(IImage) | छवि को प्रतिस्थापित करता है। |
-| [ReplaceImage](../../aspose.slides/ippimage/replaceimage#replaceimage_1)(IPPImage) | छवि को प्रतिस्थापित करता है। |
+| [ReplaceImage](../../aspose.slides/ippimage/replaceimage#replaceimage_2)(byte[]) | छवि डेटा को बदलता है। |
+| [ReplaceImage](../../aspose.slides/ippimage/replaceimage#replaceimage)(IImage) | छवि को बदलता है। |
+| [ReplaceImage](../../aspose.slides/ippimage/replaceimage#replaceimage_1)(IPPImage) | छवि को बदलता है। |
 
 ### देखें
 

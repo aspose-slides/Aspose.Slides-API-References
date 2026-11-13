@@ -1,9 +1,9 @@
 ---
 title: SectionSlideCollection
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет коллекцию слайдов в разделе.
 type: docs
-weight: 9770
+weight: 9790
 url: /ru/aspose.slides/sectionslidecollection/
 ---
 ## SectionSlideCollection класс

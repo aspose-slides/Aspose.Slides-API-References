@@ -3,12 +3,12 @@ title: Images
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Métodos para instanciar y trabajar con IImage./iimage.
 type: docs
-weight: 7460
+weight: 7480
 url: /es/aspose.slides/images/
 ---
-## Clase Images
+## Images clase
 
-Métodos para instanciar y trabajar con [`IImage`](../iimage).
+Methods to instantiate and work with [`IImage`](../iimage).
 
 ```csharp
 public static class Images
@@ -18,11 +18,11 @@ public static class Images
 
 | Nombre | Descripción |
 | --- | --- |
-| static [FromFile](../../aspose.slides/images/fromfile#fromfile)(string) | Crear una imagen a partir del archivo. |
-| static [FromFile](../../aspose.slides/images/fromfile#fromfile_1)(string, bool) | Crear una imagen a partir del archivo |
-| static [FromStream](../../aspose.slides/images/fromstream#fromstream)(Stream) | Crear una imagen a partir del Stream. |
-| static [FromStream](../../aspose.slides/images/fromstream#fromstream_1)(Stream, bool) | Crear una imagen a partir del Stream. |
-| static [FromStream](../../aspose.slides/images/fromstream#fromstream_2)(Stream, bool, bool) | Crear una imagen a partir del Stream. |
+| static [FromFile](../../aspose.slides/images/fromfile#fromfile)(string) | Crea una imagen desde el archivo . |
+| static [FromFile](../../aspose.slides/images/fromfile#fromfile_1)(string, bool) | Crea una imagen desde el archivo |
+| static [FromStream](../../aspose.slides/images/fromstream#fromstream)(Stream) | Crea una imagen desde el flujo. |
+| static [FromStream](../../aspose.slides/images/fromstream#fromstream_1)(Stream, bool) | Crea una imagen desde el flujo. |
+| static [FromStream](../../aspose.slides/images/fromstream#fromstream_2)(Stream, bool, bool) | Crea una imagen desde el flujo. |
 
 ### Ver también
 

@@ -1,14 +1,14 @@
 ---
 title: SaveOptionsFactory
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Permet de créer des instances d'options de sauvegarde
+second_title: Référence API Aspose.Sildes pour .NET
+description: Permet de créer des instances d'options d'enregistrement
 type: docs
-weight: 4460
+weight: 4480
 url: /fr/aspose.slides.export/saveoptionsfactory/
 ---
-## SaveOptionsFactory classe
+## classe SaveOptionsFactory
 
-Permet de créer des instances d'options de sauvegarde
+Permet de créer des instances d'options d'enregistrement
 
 ```csharp
 public class SaveOptionsFactory : ISaveOptionsFactory
@@ -18,13 +18,13 @@ public class SaveOptionsFactory : ISaveOptionsFactory
 
 | Nom | Description |
 | --- | --- |
-| [SaveOptionsFactory](saveoptionsfactory)() | Le constructeur par défaut. |
+| [SaveOptionsFactory](saveoptionsfactory)() | Constructeur par défaut. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [CreatePptxOptions](../../aspose.slides.export/saveoptionsfactory/createpptxoptions)() | Crée des options de sauvegarde PPTX. |
+| [CreatePptxOptions](../../aspose.slides.export/saveoptionsfactory/createpptxoptions)() | Crée des options d'enregistrement PPTX. |
 
 ### Remarques
 

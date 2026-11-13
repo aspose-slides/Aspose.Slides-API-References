@@ -3,7 +3,7 @@ title: IMathematicalTextFactory
 second_title: Aspose.Sildes a .NET API referencia
 description: Lehetővé teszi egy MathematicalText elem létrehozását
 type: docs
-weight: 8520
+weight: 8540
 url: /hu/aspose.slides.mathtext/imathematicaltextfactory/
 ---
 ## IMathematicalTextFactory interfész
@@ -14,18 +14,18 @@ Lehetővé teszi egy MathematicalText elem létrehozását
 public interface IMathematicalTextFactory
 ```
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Üres MathematicalText elemet hoz létre |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | MathematicalText elemet hoz létre a megadott értékkel |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Üres MathematicalText elemet hoz létre a megadott értékkel |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Üres MathematicalText elemet hoz létre a megadott értékkel és formázási tulajdonságokkal |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Üres matematikai szöveg elem létrehozása |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Matematikai szöveg elem létrehozása a megadott értékkel |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Üres matematikai szöveg elem létrehozása a megadott értékkel |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Üres matematikai szöveg elem létrehozása a megadott értékkel és formázási tulajdonságokkal |
 
-### Megjegyzés
+### Megjegyzések
 
-COM kompatibilitáshoz
+A COM kompatibilitáshoz
 
 ### Lásd még
 

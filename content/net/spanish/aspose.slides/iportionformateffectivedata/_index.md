@@ -1,14 +1,14 @@
 ---
 title: IPortionFormatEffectiveData
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Objeto inmutable que contiene propiedades de formato efectivas de la porción de texto.
+description: Objeto inmutable que contiene propiedades de formato de porción de texto efectivas.
 type: docs
-weight: 6740
+weight: 6760
 url: /es/aspose.slides/iportionformateffectivedata/
 ---
 ## IPortionFormatEffectiveData interfaz
 
-Objeto inmutable que contiene las propiedades de formato efectivas de la porción de texto.
+Objeto inmutable que contiene propiedades de formato de porción de texto efectivas.
 
 ```csharp
 public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
@@ -18,16 +18,16 @@ public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIBasePortionFormatEffectiveData](../../aspose.slides/iportionformateffectivedata/asibaseportionformateffectivedata) { get; } | Devuelve la interfaz IBasePortionFormatEffectiveData. |
+| [AsIBasePortionFormatEffectiveData](../../aspose.slides/iportionformateffectivedata/asibaseportionformateffectivedata) { get; } | Devuelve IBasePortionFormatEffectiveData interfaz. |
 | [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | Devuelve el identificador del marcador. Solo lectura String. |
-| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | Devuelve el hipervínculo definido para el clic del ratón. Solo lectura [`IHyperlink`](../ihyperlink). |
-| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | Devuelve el hipervínculo definido para pasar el ratón por encima. Solo lectura [`IHyperlink`](../ihyperlink). |
+| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | Devuelve el hipervínculo definido para clic del ratón. Solo lectura [`IHyperlink`](../ihyperlink). |
+| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | Devuelve el hipervínculo definido para pasar el ratón. Solo lectura [`IHyperlink`](../ihyperlink). |
 
 ### Observaciones
 
-Esta interfaz se utiliza junto con la interfaz [`IPortionFormat`](../iportionformat) para devolver valores de formato efectivos con herencia aplicada.
+Esta interfaz se usa junto con la [`IPortionFormat`](../iportionformat) interfaz para devolver valores de formato efectivos con herencia aplicada.
 
-### Ver también
+### Véase también
 
 * interfaz [IBasePortionFormatEffectiveData](../ibaseportionformateffectivedata)
 * espacio de nombres [Aspose.Slides](../../aspose.slides)

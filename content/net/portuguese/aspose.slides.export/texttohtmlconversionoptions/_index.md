@@ -1,14 +1,14 @@
 ---
 title: TextToHtmlConversionOptions
-second_title: Aspose.Sildes para a referência da API .NET
-description: Opções para extrair HTML do texto do Pptx.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Opções para extrair HTML do texto Pptx.
 type: docs
-weight: 4550
+weight: 4570
 url: /pt/aspose.slides.export/texttohtmlconversionoptions/
 ---
 ## TextToHtmlConversionOptions classe
 
-Opções para extrair HTML do texto do Pptx.
+Opções para extrair HTML do texto Pptx.
 
 ```csharp
 public sealed class TextToHtmlConversionOptions : ITextToHtmlConversionOptions
@@ -24,12 +24,12 @@ public sealed class TextToHtmlConversionOptions : ITextToHtmlConversionOptions
 
 | Nome | Descrição |
 | --- | --- |
-| [AddClipboardFragmentHeader](../../aspose.slides.export/texttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | Retorna ou define o valor, indicando se os cabeçalhos da Área de Transferência devem ser adicionados. Leitura/Gravação Boolean. |
-| [EncodingName](../../aspose.slides.export/texttohtmlconversionoptions/encodingname) { get; set; } | Retorna ou define o nome da codificação HTML. Este valor será salvo no arquivo HTML gerado, mas cabe ao chamador garantir que o arquivo seja salvo nesta codificação. Leitura/Gravação String. |
-| [LinkEmbedController](../../aspose.slides.export/texttohtmlconversionoptions/linkembedcontroller) { get; set; } | Retorna ou define um objeto de retorno de chamada que controla como o objeto externo será armazenado. Leitura/Gravação [`ILinkEmbedController`](../ilinkembedcontroller). |
-| [TextInheritanceLimit](../../aspose.slides.export/texttohtmlconversionoptions/textinheritancelimit) { get; set; } | Retorna ou define a profundidade herdada para propriedades de texto. Leitura/Gravação [`TextInheritanceLimit`](../textinheritancelimit). |
+| [AddClipboardFragmentHeader](../../aspose.slides.export/texttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | Retorna ou define o valor, indicando se os cabeçalhos da área de transferência devem ser adicionados. Leitura/gravação Boolean. |
+| [EncodingName](../../aspose.slides.export/texttohtmlconversionoptions/encodingname) { get; set; } | Retorna ou define o nome da codificação html. Este valor será salvo no arquivo HTML gerado, mas cabe ao chamador garantir que o arquivo será salvo nesta codificação. Leitura/gravação String. |
+| [LinkEmbedController](../../aspose.slides.export/texttohtmlconversionoptions/linkembedcontroller) { get; set; } | Retorna ou define um objeto de retorno de chamada que controla como o objeto externo será armazenado. Leitura/gravação [`ILinkEmbedController`](../ilinkembedcontroller). |
+| [TextInheritanceLimit](../../aspose.slides.export/texttohtmlconversionoptions/textinheritancelimit) { get; set; } | Retorna ou define a profundidade inerente para propriedades de texto. Leitura/gravação [`TextInheritanceLimit`](../textinheritancelimit). |
 
-### Ver também
+### Veja Também
 
 * interface [ITextToHtmlConversionOptions](../itexttohtmlconversionoptions)
 * namespace [Aspose.Slides.Export](../../aspose.slides.export)

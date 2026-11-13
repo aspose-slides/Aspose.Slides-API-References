@@ -1,14 +1,14 @@
 ---
 title: ILegacyDiagram
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Reprezentuje obiekt starszego diagramu
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
+description: Reprezentuje starszy obiekt diagramu
 type: docs
-weight: 6250
+weight: 6270
 url: /pl/aspose.slides/ilegacydiagram/
 ---
 ## ILegacyDiagram interfejs
 
-Reprezentuje obiekt starego diagramu
+Reprezentuje starszy obiekt diagramu
 
 ```csharp
 public interface ILegacyDiagram : IGraphicalObject
@@ -16,18 +16,18 @@ public interface ILegacyDiagram : IGraphicalObject
 
 ## Właściwości
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/ilegacydiagram/asigraphicalobject) { get; } | Umożliwia pobranie podstawowego interfejsu IGraphicalObject. Tylko do odczytu [`IGraphicalObject`](../igraphicalobject). |
+| [AsIGraphicalObject](../../aspose.slides/ilegacydiagram/asigraphicalobject) { get; } | Umożliwia pobranie bazowego interfejsu IGraphicalObject. Tylko do odczytu [`IGraphicalObject`](../igraphicalobject). |
 
 ## Metody
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
-| [ConvertToGroupShape](../../aspose.slides/ilegacydiagram/converttogroupshape)() | Konwertuje starszy diagram na edytowalny kształt grupy. Utworzony obiekt GroupShape jest dodawany do rodzicielskiego kształtu grupy w tej samej pozycji. |
-| [ConvertToSmartArt](../../aspose.slides/ilegacydiagram/converttosmartart)() | Konwertuje starszy diagram na edytowalny obiekt SmartArt. Utworzony obiekt SmartArt jest dodawany do rodzicielskiego kształtu grupy w tej samej pozycji. |
+| [ConvertToGroupShape](../../aspose.slides/ilegacydiagram/converttogroupshape)() | Konwertuje starszy diagram na edytowalny GroupShape. Utworzony obiekt GroupShape jest dodawany do grupy nadrzędnej w tej samej pozycji. |
+| [ConvertToSmartArt](../../aspose.slides/ilegacydiagram/converttosmartart)() | Konwertuje starszy diagram na edytowalny SmartArt. Utworzony obiekt SmartArt jest dodawany do grupy nadrzędnej w tej samej pozycji. |
 
-### Zobacz także
+### Zobacz również
 
 * interfejs [IGraphicalObject](../igraphicalobject)
 * przestrzeń nazw [Aspose.Slides](../../aspose.slides)

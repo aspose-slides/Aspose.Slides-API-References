@@ -1,14 +1,14 @@
 ---
 title: IEffectStyleEffectiveData
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Onveranderlijk object dat effectieve effectstijleigenschappen bevat.
+description: Onveranderlijk object dat effectieve effectstijl-eigenschappen bevat.
 type: docs
-weight: 11200
+weight: 11220
 url: /nl/aspose.slides.theme/ieffectstyleeffectivedata/
 ---
 ## IEffectStyleEffectiveData interface
 
-Onveranderlijk object dat effectieve effectstijleigenschappen bevat.
+Onveranderlijk object dat effectieve effectstijl-eigenschappen bevat.
 
 ```csharp
 public interface IEffectStyleEffectiveData

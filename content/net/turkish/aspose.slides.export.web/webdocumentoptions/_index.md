@@ -3,7 +3,7 @@ title: WebDocumentOptions
 second_title: Aspose.Sildes için .NET API Referansı
 description: WebDocument./webdocument kaydetme için bir seçenek kümesini temsil eder.
 type: docs
-weight: 4690
+weight: 4710
 url: /tr/aspose.slides.export.web/webdocumentoptions/
 ---
 ## WebDocumentOptions sınıfı
@@ -16,19 +16,19 @@ public class WebDocumentOptions
 
 ## Yapıcılar
 
-| İsim | Açıklama |
+| Ad | Açıklama |
 | --- | --- |
 | [WebDocumentOptions](webdocumentoptions)() | Varsayılan yapıcı. |
 
 ## Özellikler
 
-| İsim | Açıklama |
+| Ad | Açıklama |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export.web/webdocumentoptions/animateshapes) { get; set; } | Şekiller animasyon seçeneğini getirir veya ayarlar. Okuma/Yazma Boolean. |
-| [AnimateTransitions](../../aspose.slides.export.web/webdocumentoptions/animatetransitions) { get; set; } | Geçişler animasyon seçeneğini getirir veya ayarlar. Okuma/Yazma Boolean. |
-| [EmbedImages](../../aspose.slides.export.web/webdocumentoptions/embedimages) { get; set; } | Görüntü yerleştirme seçeneğini getirir veya ayarlar. Okuma/Yazma Boolean. |
-| [OutputSaver](../../aspose.slides.export.web/webdocumentoptions/outputsaver) { get; set; } | Çıktı kaydediciyi getirir veya ayarlar. Okuma/Yazma [`IOutputSaver`](../ioutputsaver). |
-| [TemplateEngine](../../aspose.slides.export.web/webdocumentoptions/templateengine) { get; set; } | Şablon motorunu getirir veya ayarlar. Okuma/Yazma [`ITemplateEngine`](../itemplateengine). |
+| [AnimateShapes](../../aspose.slides.export.web/webdocumentoptions/animateshapes) { get; set; } | Şekiller animasyon seçeneğini alır veya ayarlar. Okunur/yazılır Boolean. |
+| [AnimateTransitions](../../aspose.slides.export.web/webdocumentoptions/animatetransitions) { get; set; } | Geçişler animasyon seçeneğini alır veya ayarlar. Okunur/yazılır Boolean. |
+| [EmbedImages](../../aspose.slides.export.web/webdocumentoptions/embedimages) { get; set; } | Görüntü gömme seçeneğini alır veya ayarlar. Okunur/yazılır Boolean. |
+| [OutputSaver](../../aspose.slides.export.web/webdocumentoptions/outputsaver) { get; set; } | Çıktı kaydediciyi alır veya ayarlar. Okunur/yazılır [`IOutputSaver`](../ioutputsaver). |
+| [TemplateEngine](../../aspose.slides.export.web/webdocumentoptions/templateengine) { get; set; } | Şablon motorunu alır veya ayarlar. Okunur/yazılır [`ITemplateEngine`](../itemplateengine). |
 
 ### Ayrıca Bakınız
 

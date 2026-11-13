@@ -1,14 +1,14 @@
 ---
 title: LegendPositionType
-second_title: Aspose.Sildes 的 .NET API 参考
-description: 确定图表中图例的位置。
+second_title: Aspose.Sildes for .NET API 参考
+description: 确定图表上图例的位置。
 type: docs
-weight: 2320
+weight: 2340
 url: /zh/aspose.slides.charts/legendpositiontype/
 ---
 ## LegendPositionType 枚举
 
-确定图表中图例的位置。
+确定图表上图例的位置。
 
 ```csharp
 public enum LegendPositionType
@@ -18,13 +18,13 @@ public enum LegendPositionType
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Bottom | `0` | 指定图例应绘制在图表的底部。 |
-| Left | `1` | 指定图例应绘制在图表的左侧。 |
-| Right | `2` | 指定图例应绘制在图表的右侧。 |
-| Top | `3` | 指定图例应绘制在图表的顶部。 |
-| TopRight | `4` | 指定图例应绘制在图表的右上角。 |
+| Bottom | `0` | 指定应在图表的底部绘制图例。 |
+| Left | `1` | 指定应在图表的左侧绘制图例。 |
+| Right | `2` | 指定应在图表的右侧绘制图例。 |
+| Top | `3` | 指定应在图表的顶部绘制图例。 |
+| TopRight | `4` | 指定应在图表的右上角绘制图例。 |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 程序集 [Aspose.Slides](../../)

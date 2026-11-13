@@ -1,9 +1,9 @@
 ---
 title: MaterialPresetType
-second_title: Aspose.Sildes pro .NET referenční příručku API
+second_title: Aspose.Sildes pro .NET API Reference
 description: Konstanty, které definují materiál tvaru.
 type: docs
-weight: 8060
+weight: 8080
 url: /cs/aspose.slides/materialpresettype/
 ---
 ## MaterialPresetType výčet

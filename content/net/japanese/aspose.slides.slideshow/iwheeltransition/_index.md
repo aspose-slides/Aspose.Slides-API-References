@@ -3,12 +3,12 @@ title: IWheelTransition
 second_title: Aspose.Sildes for .NET API リファレンス
 description: ホイールスライド遷移効果。
 type: docs
-weight: 10220
+weight: 10240
 url: /ja/aspose.slides.slideshow/iwheeltransition/
 ---
 ## IWheelTransition インターフェイス
 
-ホイールスライド遷移効果。
+ホイールスライド遷移エフェクト。
 
 ```csharp
 public interface IWheelTransition : ITransitionValueBase
@@ -19,7 +19,7 @@ public interface IWheelTransition : ITransitionValueBase
 | 名前 | 説明 |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/iwheeltransition/asitransitionvaluebase) { get; } | ベース ITransitionValueBase インターフェイスを取得できます。読み取り専用 [`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [Spokes](../../aspose.slides.slideshow/iwheeltransition/spokes) { get; set; } | ホイール遷移のスポーク数。読み書き可能 UInt32。 |
+| [Spokes](../../aspose.slides.slideshow/iwheeltransition/spokes) { get; set; } | ホイール遷移のスポークの数。読み取り/書き込み UInt32。 |
 
 ### 参照
 

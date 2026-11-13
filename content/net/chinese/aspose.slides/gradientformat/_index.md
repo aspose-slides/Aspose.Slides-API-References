@@ -1,9 +1,9 @@
 ---
 title: GradientFormat
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示渐变格式。
 type: docs
-weight: 5000
+weight: 5020
 url: /zh/aspose.slides/gradientformat/
 ---
 ## GradientFormat 类
@@ -16,24 +16,24 @@ public sealed class GradientFormat : PVIObject, IGradientFormat
 
 ## 属性
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基础 IPresentationComponent 接口。只读 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [GradientDirection](../../aspose.slides/gradientformat/gradientdirection) { get; set; } | 返回或设置渐变的样式。读写 [`GradientDirection`](../gradientdirection)。 |
-| [GradientShape](../../aspose.slides/gradientformat/gradientshape) { get; set; } | 返回或设置渐变的形状。读写 [`GradientShape`](../gradientshape)。 |
+| [GradientDirection](../../aspose.slides/gradientformat/gradientdirection) { get; set; } | 返回或设置渐变的样式。可读写 [`GradientDirection`](../gradientdirection)。 |
+| [GradientShape](../../aspose.slides/gradientformat/gradientshape) { get; set; } | 返回或设置渐变的形状。可读写 [`GradientShape`](../gradientshape)。 |
 | [GradientStops](../../aspose.slides/gradientformat/gradientstops) { get; } | 返回渐变停止点的集合。只读 [`IGradientStopCollection`](../igradientstopcollection)。 |
-| [LinearGradientAngle](../../aspose.slides/gradientformat/lineargradientangle) { get; set; } | 返回或设置渐变的角度。读写 Single。 |
-| [LinearGradientScaled](../../aspose.slides/gradientformat/lineargradientscaled) { get; set; } | 确定渐变是否已缩放。读写 [`NullableBool`](../nullablebool)。 |
-| [TileFlip](../../aspose.slides/gradientformat/tileflip) { get; set; } | 返回或设置渐变的翻转模式。读写 [`TileFlip`](../tileflip)。 |
+| [LinearGradientAngle](../../aspose.slides/gradientformat/lineargradientangle) { get; set; } | 返回或设置渐变的角度。可读写 Single。 |
+| [LinearGradientScaled](../../aspose.slides/gradientformat/lineargradientscaled) { get; set; } | 确定渐变是否已缩放。可读写 [`NullableBool`](../nullablebool)。 |
+| [TileFlip](../../aspose.slides/gradientformat/tileflip) { get; set; } | 返回或设置渐变的翻转模式。可读写 [`TileFlip`](../tileflip)。 |
 
 ## 方法
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | 与指定的对象进行比较。 |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | 与指定对象进行比较。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 返回哈希码。 |
 
-### 参见
+### 另见
 
 * 类 [PVIObject](../pviobject)
 * 接口 [IGradientFormat](../igradientformat)

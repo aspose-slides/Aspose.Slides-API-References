@@ -3,7 +3,7 @@ title: SectionCollection
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente une collection de sections.
 type: docs
-weight: 9760
+weight: 9780
 url: /fr/aspose.slides/sectioncollection/
 ---
 ## SectionCollection classe
@@ -28,13 +28,13 @@ public sealed class SectionCollection : DomObject<Presentation>, ISectionCollect
 | Nom | Description |
 | --- | --- |
 | [AddEmptySection](../../aspose.slides/sectioncollection/addemptysection)(string, int) | Ajoute une section vide à la position spécifiée de la collection. |
-| [AddSection](../../aspose.slides/sectioncollection/addsection)(string, ISlide) | Ajoute une section de diapositives démarrant à partir d'une diapositive spécifique. |
+| [AddSection](../../aspose.slides/sectioncollection/addsection)(string, ISlide) | Ajoute une section de diapositives démarrée à partir d'une diapositive spécifique. |
 | [AppendEmptySection](../../aspose.slides/sectioncollection/appendemptysection)(string) | Ajoute une section vide à la fin de la collection. |
 | [Clear](../../aspose.slides/sectioncollection/clear)() | Supprime toutes les sections de la collection. |
 | [CopyTo](../../aspose.slides/sectioncollection/copyto)(Array, int) | Copie l'intégralité de la collection dans le tableau spécifié. |
 | [GetEnumerator](../../aspose.slides/sectioncollection/getenumerator)() | Renvoie un énumérateur qui parcourt la collection. |
 | [IndexOf](../../aspose.slides/sectioncollection/indexof)(ISection) | Renvoie l'index de la section spécifiée dans la collection. |
-| [RemoveSection](../../aspose.slides/sectioncollection/removesection)(ISection) | Supprime la section. Les diapositives contenues dans la section seront fusionnées avec la section précédente. |
+| [RemoveSection](../../aspose.slides/sectioncollection/removesection)(ISection) | Supprime la section. Les diapositives contenues dans la section seront fusionnées à la section précédente. |
 | [RemoveSectionWithSlides](../../aspose.slides/sectioncollection/removesectionwithslides)(ISection) | Supprime la section et les diapositives qu'elle contient. |
 | [ReorderSectionWithSlides](../../aspose.slides/sectioncollection/reordersectionwithslides)(ISection, int) | Déplace la section et ses diapositives de la collection vers la position spécifiée. |
 

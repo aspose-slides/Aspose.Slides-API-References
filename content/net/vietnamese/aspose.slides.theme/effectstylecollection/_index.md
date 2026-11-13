@@ -1,14 +1,14 @@
 ---
 title: EffectStyleCollection
-second_title: Aspose.Sildes cho .NET API Tham chiếu
-description: Đại diện cho một bộ sưu tập các kiểu hiệu ứng.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu diễn một bộ sưu tập các kiểu hiệu ứng.
 type: docs
-weight: 11090
+weight: 11110
 url: /vi/aspose.slides.theme/effectstylecollection/
 ---
 ## EffectStyleCollection lớp
 
-Đại diện cho một bộ sưu tập các kiểu hiệu ứng.
+Biểu diễn một bộ sưu tập các kiểu hiệu ứng.
 
 ```csharp
 public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyleCollection
@@ -19,16 +19,16 @@ public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyl
 | Tên | Mô tả |
 | --- | --- |
 | [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | Trả về số lượng phần tử trong bộ sưu tập. Chỉ đọc Int32, Chỉ đọc Int32. |
-| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | Trả về giá trị cho biết việc truy cập bộ sưu tập được đồng bộ (an toàn đa luồng). Chỉ đọc Boolean. |
+| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | Trả về một giá trị cho biết liệu việc truy cập vào bộ sưu tập có được đồng bộ (an toàn với đa luồng) hay không. Chỉ đọc Boolean. |
 | [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | Trả về một phần tử tại vị trí được chỉ định. Chỉ đọc [`EffectStyle`](../effectstyle). |
-| [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | Trả về một gốc đồng bộ. Chỉ đọc Object. |
+| [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | Trả về gốc đồng bộ. Chỉ đọc Object. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
 | [CopyTo](../../aspose.slides.theme/effectstylecollection/copyto)(Array, int) | Sao chép tất cả các phần tử từ bộ sưu tập vào mảng được chỉ định. |
-| [GetEnumerator](../../aspose.slides.theme/effectstylecollection/getenumerator)() | Trả về một enumerator duyệt qua bộ sưu tập. |
+| [GetEnumerator](../../aspose.slides.theme/effectstylecollection/getenumerator)() | Trả về một enumerator cho phép duyệt qua bộ sưu tập. |
 
 ### Xem thêm
 

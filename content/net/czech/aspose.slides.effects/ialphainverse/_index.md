@@ -1,9 +1,9 @@
 ---
 title: IAlphaInverse
-second_title: Aspose.Sildes pro .NET – referenční dokumentace API
-description: Představuje efekt Alpha Inverse. Hodnoty průhlednosti Alpha jsou invertovány odečtením od 100.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Představuje efekt Alpha Inverse. Hodnoty alfa průhlednosti jsou invertovány odečtením od 100.
 type: docs
-weight: 3080
+weight: 3100
 url: /cs/aspose.slides.effects/ialphainverse/
 ---
 ## IAlphaInverse rozhraní

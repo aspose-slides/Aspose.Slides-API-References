@@ -3,7 +3,7 @@ title: MathSpacingRules
 second_title: Aspose.Sildes لـ .NET مرجع API
 description: أنواع الفجوة الأفقية بين أعمدة المصفوفة
 type: docs
-weight: 8990
+weight: 9010
 url: /ar/aspose.slides.mathtext/mathspacingrules/
 ---
 ## MathSpacingRules تعداد
@@ -18,13 +18,13 @@ public enum MathSpacingRules
 
 | الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| SingleSpacingGap | `0` | مفرد (1 em للأعمدة أو سطر واحد للصفوف) |
-| OneAndHalfSpacingGap | `1` | واحد ونصف (1.5 em للأعمدة أو 1.5 سطر للصفوف) |
-| DoubleSpacingGap | `2` | تباعد مزدوج (2 em للأعمدة أو سطرين للصفوف) |
-| Exactly | `3` | قيمة محددة. بالنسبة للأعمدة، يعتمد على قيمة ColumnGap، مقاسة بوحدة twips. بالنسبة للصفوف، يعتمد على قيمة RowGap، مقاسة بوحدة twips |
-| Multiple | `4` | متعدد. بالنسبة للأعمدة، يعتمد على قيمة ColumnGap، مقاسة بزيادات 0.5 em. بالنسبة للصفوف، يعتمد على قيمة RowGap، مقاسة بالسطور |
+| SingleSpacingGap | `0` | واحد (1 em للأعمدة أو سطر واحد للصفوف) |
+| OneAndHalfSpacingGap | `1` | واحد ونصف (1.5 ems للأعمدة أو 1.5 سطر للصفوف) |
+| DoubleSpacingGap | `2` | تباعد مزدوج (2 ems للأعمدة أو 2 سطر للصفوف) |
+| Exactly | `3` | قيمة محددة للعمود، تعتمد على قيمة ColumnGap، مقاسة بوحدة twips؛ للصفوف، تعتمد على قيمة RowGap، مقاسة بوحدة twips |
+| Multiple | `4` | متعدد للعمود، يعتمد على قيمة ColumnGain، مقاس بزيادات 0.5 em؛ للصفوف، يعتمد على قيمة RowGap، مقاس بالأسطر |
 
-### انظر أيضًا
+### انظر أيضاً
 
 * النطاق [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * التجميع [Aspose.Slides](../../)

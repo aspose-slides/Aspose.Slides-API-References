@@ -1,9 +1,9 @@
 ---
 title: IHtmlFormattingController
-second_title: Aspose.Sildes .NET API Referenciája
+second_title: Aspose.Sildes .NET API hivatkozás
 description: HTML-fájl generálását vezérli.
 type: docs
-weight: 3950
+weight: 3970
 url: /hu/aspose.slides.export/ihtmlformattingcontroller/
 ---
 ## IHtmlFormattingController interfész
@@ -18,12 +18,12 @@ public interface IHtmlFormattingController
 
 | Név | Leírás |
 | --- | --- |
-| [WriteDocumentEnd](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | HTML dokumentum láblécének írásához hívják. A prezentáció konvertálása során egyszer hívódik meg. |
-| [WriteDocumentStart](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | HTML dokumentum fejlécének írásához hívják. A prezentáció konvertálása során egyszer hívódik meg. |
-| [WriteShapeEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeshapeend)(IHtmlGenerator, IShape) | Az alak renderelése előtt hívják. Minden egyes alaknál egyszer hívódik meg. Ha ez a függvény bármit ír a generátorba, az aktuális dia képgenerálás befejeződik, a hozzáadott HTML töredék beillesztésre kerül, és egy új kép kezdődik az előző felett. |
-| [WriteShapeStart](../../aspose.slides.export/ihtmlformattingcontroller/writeshapestart)(IHtmlGenerator, IShape) | Az alak renderelése előtt hívják. Minden egyes alaknál egyszer hívódik meg. Ha ez a függvény bármit ír a generátorba, az aktuális dia képgenerálás befejeződik, a hozzáadott HTML töredék beillesztésre kerül, és egy új kép kezdődik az előző felett. |
-| [WriteSlideEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeslideend)(IHtmlGenerator, ISlide) | HTML dia láblécének írásához hívják. Minden dián egyszer hívódik meg. |
-| [WriteSlideStart](../../aspose.slides.export/ihtmlformattingcontroller/writeslidestart)(IHtmlGenerator, ISlide) | HTML dia fejlécének írásához hívják. Minden dián egyszer hívódik meg. |
+| [WriteDocumentEnd](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | Az html dokumentum láblécének írásához hívják. Minden bemutatókonverzióra egyszer hívódik. |
+| [WriteDocumentStart](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | Az html dokumentum fejléce írásához hívják. Minden bemutatókonverzióra egyszer hívódik. |
+| [WriteShapeEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeshapeend)(IHtmlGenerator, IShape) | Az alakzat renderelése előtt hívják. Minden alakzatra egyszer hívódik. Ha ez a függvény bármit ír a generátorba, a jelenlegi dia képgenerálása befejeződik, a hozzáadott html töredék beillesztésre kerül, és egy új kép indul a korábbi tetején. |
+| [WriteShapeStart](../../aspose.slides.export/ihtmlformattingcontroller/writeshapestart)(IHtmlGenerator, IShape) | Az alakzat renderelése előtt hívják. Minden alakzatra egyszer hívódik. Ha ez a függvény bármit ír a generátorba, a jelenlegi dia képgenerálása befejeződik, a hozzáadott html töredék beillesztésre kerül, és egy új kép indul a korábbi tetején. |
+| [WriteSlideEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeslideend)(IHtmlGenerator, ISlide) | Az html dia láblécének írásához hívják. Minden diára egyszer hívódik. |
+| [WriteSlideStart](../../aspose.slides.export/ihtmlformattingcontroller/writeslidestart)(IHtmlGenerator, ISlide) | Az html dia fejléce írásához hívják. Minden diára egyszer hívódik. |
 
 ### Lásd még
 

@@ -1,12 +1,12 @@
 ---
 title: Compress
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa um grupo de métodos destinados a comprimir Presentation../aspose.slides/presentation.
 type: docs
-weight: 7870
+weight: 7890
 url: /pt/aspose.slides.lowcode/compress/
 ---
-## classe Compress
+## Compress classe
 
 Representa um grupo de métodos destinados a comprimir [`Presentation`](../../aspose.slides/presentation).
 
@@ -18,9 +18,11 @@ public static class Compress
 
 | Nome | Descrição |
 | --- | --- |
-| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | Realiza a compressão do [`Presentation`](../../aspose.slides/presentation) removendo caracteres não utilizados de fontes incorporadas. |
-| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | Realiza a compressão do [`Presentation`](../../aspose.slides/presentation) removendo slides de layout não utilizados. |
-| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | Realiza a compressão do [`Presentation`](../../aspose.slides/presentation) removendo slides mestre não utilizados. |
+| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | Executa compressão do [`Presentation`](../../aspose.slides/presentation) removendo caracteres não usados das fontes incorporadas. |
+| static [CompressImages](../../aspose.slides.lowcode/compress/compressimages)(IPresentation, PicturesCompression) | Reduz a resolução das imagens na apresentação e exclui suas áreas recortadas, semelhante ao “Compress Pictures” do PowerPoint aplicado a todas as imagens. Imagens em slides, slides de layout e slides mestre são processadas, incluindo imagens dentro de formas de grupo e preenchimentos de imagens de formas. |
+| static [CompressPresentation](../../aspose.slides.lowcode/compress/compresspresentation)(Presentation) | Reduz o tamanho de uma apresentação aplicando todas as etapas de compressão disponíveis: |
+| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | Executa compressão do [`Presentation`](../../aspose.slides/presentation) removendo slides de layout não usados. |
+| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | Executa compressão do [`Presentation`](../../aspose.slides/presentation) removendo slides mestres não usados. |
 
 ### Exemplos
 
@@ -33,7 +35,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Veja Também
+### Ver também
 
 * namespace [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
 * assembly [Aspose.Slides](../../)

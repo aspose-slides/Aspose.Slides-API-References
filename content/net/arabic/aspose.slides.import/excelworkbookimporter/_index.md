@@ -1,14 +1,14 @@
 ---
 title: ExcelWorkbookImporter
-second_title: Aspose.Sildes لمرجع API .NET
+second_title: Aspose.Sildes مرجع API لـ .NET
 description: يوفر وظائف لاستيراد المحتوى من مصنف Excel إلى عرض تقديمي.
 type: docs
-weight: 7470
+weight: 7490
 url: /ar/aspose.slides.import/excelworkbookimporter/
 ---
-## فئة ExcelWorkbookImporter
+## ExcelWorkbookImporter فئة
 
-يوفر وظائف لاستيراد المحتوى من مصنف Excel إلى عرض تقديمي.
+يُوفر وظائف لاستيراد المحتوى من مصنف Excel إلى عرض تقديمي.
 
 ```csharp
 public static class ExcelWorkbookImporter
@@ -18,13 +18,13 @@ public static class ExcelWorkbookImporter
 
 | الاسم | الوصف |
 | --- | --- |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, int, bool) | يسترجع مخططًا من مصنف Excel المحدد ويضيفه إلى نهاية مجموعة الأشكال المحددة عند الإحداثيات المحددة. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_1)(IShapeCollection, float, float, IExcelDataWorkbook, string, string, bool) | يسترجع مخططًا من مصنف Excel المحدد ويضيفه إلى نهاية مجموعة الأشكال المحددة عند الإحداثيات المحددة. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_2)(IShapeCollection, float, float, Stream, string, string, bool) | يسترجع مخططًا من مصنف Excel المحدد ويضيفه إلى نهاية مجموعة الأشكال المحددة عند الإحداثيات المحددة. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_3)(IShapeCollection, float, float, string, string, string, bool) | يسترجع مخططًا من مصنف Excel المحدد ويضيفه إلى نهاية مجموعة الأشكال المحددة عند الإحداثيات المحددة. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, string) | يسترجع جدولًا من مصنف Excel المحدد ويضيفه إلى نهاية مجموعة الأشكال المحددة عند الإحداثيات المحددة. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_1)(IShapeCollection, float, float, Stream, string, string) | يسترجع جدولًا من ملف مصنف Excel المحدد ويضيفه إلى نهاية مجموعة الأشكال المحددة عند الإحداثيات المحددة. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_2)(IShapeCollection, float, float, string, string, string) | يسترجع جدولًا من ملف مصنف Excel المحدد ويضيفه إلى نهاية مجموعة الأشكال المحددة عند الإحداثيات المحددة. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, int, bool) | يقوم بجلب مخطط من مصنف Excel المحدد ويضيفه إلى نهاية مجموعة الأشكال المحددة في الإحداثيات المحددة. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_1)(IShapeCollection, float, float, IExcelDataWorkbook, string, string, bool) | يقوم بجلب مخطط من مصنف Excel المحدد ويضيفه إلى نهاية مجموعة الأشكال المحددة في الإحداثيات المحددة. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_2)(IShapeCollection, float, float, Stream, string, string, bool) | يقوم بجلب مخطط من مصنف Excel المحدد ويضيفه إلى نهاية مجموعة الأشكال المحددة في الإحداثيات المحددة. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_3)(IShapeCollection, float, float, string, string, string, bool) | يقوم بجلب مخطط من مصنف Excel المحدد ويضيفه إلى نهاية مجموعة الأشكال المحددة في الإحداثيات المحددة. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, string) | يقوم بجلب جدول من مصنف Excel المحدد ويضيفه إلى نهاية مجموعة الأشكال المحددة في الإحداثيات المحددة. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_1)(IShapeCollection, float, float, Stream, string, string) | يقوم بجلب جدول من ملف مصنف Excel المحدد ويضيفه إلى نهاية مجموعة الأشكال المحددة في الإحداثيات المحددة. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_2)(IShapeCollection, float, float, string, string, string) | يقوم بجلب جدول من ملف مصنف Excel المحدد ويضيفه إلى نهاية مجموعة الأشكال المحددة في الإحداثيات المحددة. |
 
 ### انظر أيضًا
 

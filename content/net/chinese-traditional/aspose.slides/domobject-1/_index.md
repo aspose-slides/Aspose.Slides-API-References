@@ -3,7 +3,7 @@ title: DomObjectTParent
 second_title: Aspose.Sildes for .NET API 參考
 description: 基礎 DOM 物件
 type: docs
-weight: 2800
+weight: 2820
 url: /zh-hant/aspose.slides/domobject-1/
 ---
 ## DomObject<TParent> 類別
@@ -16,9 +16,9 @@ public abstract class DomObject<TParent>
 
 | 參數 | 說明 |
 | --- | --- |
-| TParent | 父級 DOM 物件的類型 |
+| TParent | 父 DOM 物件的類型 |
 
-### 另見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

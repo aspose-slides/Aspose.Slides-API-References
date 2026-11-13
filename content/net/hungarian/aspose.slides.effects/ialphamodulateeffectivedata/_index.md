@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulateEffectiveData
-second_title: Aspose.Sildes a .NET API hivatkozás
-description: Megváltoztathatatlan objektum, amely egy Alpha Modulate hatást képvisel. A hatás alfa (átlátszóság) értékeit egy rögzített százalékkal szorozzák. A hatáskonténer meghatároz egy olyan hatást, amely alfa értékeket modulál.
+second_title: Aspose.Sildes .NET API referenciája
+description: Módosíthatatlan objektum, amely egy Alpha Modulate hatást képvisel. A hatás alfa átlátszóság értékeit egy rögzített százalékkal szorozzák. A határeset egy olyan hatást határoz meg, amely alfa értékeket modulál.
 type: docs
-weight: 3110
+weight: 3130
 url: /hu/aspose.slides.effects/ialphamodulateeffectivedata/
 ---
 ## IAlphaModulateEffectiveData interfész
 
-Megváltoztathatatlan objektum, amely egy Alpha Modulate hatást képvisel. A hatás alfa (átlátszóság) értékeit egy rögzített százalékkal szorozzák. A hatáskonténer meghatároz egy olyan hatást, amely alfa értékeket modulál.
+Módosíthatatlan objektum, amely egy Alpha Modulate hatást képvisel. A hatás alfa (átlátszóság) értékeit egy rögzített százalékkal szorozzák. A határeset tartalmaz egy olyan hatást, amely alfa értékeket modulál.
 
 ```csharp
 public interface IAlphaModulateEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IAlphaModulateEffectiveData : IEffectEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulateeffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi a bázis IEffectEffectiveData interfész lekérését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulateeffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi a base IEffectEffectiveData interfész lekérdezését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Lásd még
 

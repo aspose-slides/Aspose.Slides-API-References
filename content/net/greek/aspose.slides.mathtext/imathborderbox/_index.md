@@ -1,9 +1,9 @@
 ---
 title: IMathBorderBox
-second_title: Αναφορά API Aspose.Sildes για .NET
+second_title: Aspose.Sildes για .NET API Αναφορά
 description: Σχεδιάζει ένα ορθογώνιο ή κάποιο άλλο περίγραμμα γύρω από το IMathElement.
 type: docs
-weight: 8170
+weight: 8190
 url: /el/aspose.slides.mathtext/imathborderbox/
 ---
 ## IMathBorderBox διασύνδεση
@@ -19,15 +19,15 @@ public interface IMathBorderBox : IMathElement
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathborderbox/asimathelement) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής IMathElement [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathborderbox/base) { get; } | Βασική παράμετρος |
-| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | Απόκρυψη κάτω άκρου (default is false) - καθορίζει την κρυφή ή την εμφανιζόμενη κατάσταση του κάτω άκρου του πλαισίου περιγράμματος. |
-| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | Απόκρυψη αριστερού άκρου (default is false) - καθορίζει την κρυφή ή την εμφανιζόμενη κατάσταση του αριστερού άκρου του πλαισίου περιγράμματος. |
-| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | Απόκρυψη δεξιού άκρου (default is false) - καθορίζει την κρυφή ή την εμφανιζόμενη κατάσταση του δεξιού άκρου του πλαισίου περιγράμματος. |
-| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | Απόκρυψη πάνω άκρου (default is false) - καθορίζει την κρυφή ή την εμφανιζόμενη κατάσταση του πάνω άκρου του πλαισίου περιγράμματος. |
-| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | Διαγώνια γραμμή διαγράμμισης από κάτω αριστερό προς πάνω δεξί (default is false). Καθορίζει την κρυφή ή την εμφανιζόμενη κατάσταση μιας διαγώνιας γραμμής διαγράμμισης από την κάτω αριστερή γωνία στην πάνω δεξιά γωνία του πλαισίου περιγράμματος. |
-| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | Οριζόντια γραμμή διαγράμμισης (default is false) - καθορίζει την κρυφή ή την εμφανιζόμενη κατάσταση μιας οριζόντιας γραμμής διαγράμμισης. |
-| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | Διαγώνια γραμμή διαγράμμισης από πάνω αριστερό προς κάτω δεξί (default is false). Καθορίζει την κρυφή ή την εμφανιζόμενη κατάσταση μιας διαγώνιας γραμμής διαγράμμισης από την πάνω αριστερή γωνία στην κάτω δεξιά γωνία του πλαισίου περιγράμματος. |
-| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | Κατακόρυφη γραμμή διαγράμμισης (default is false) - καθορίζει την κρυφή ή την εμφανιζόμενη κατάσταση μιας κατακόρυφης γραμμής διαγράμμισης. |
+| [Base](../../aspose.slides.mathtext/imathborderbox/base) { get; } | Βασικό όρισμα |
+| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | Απόκρυψη κάτω άκρου (default is false) - καθορίζει την κατάσταση κρυμμένου ή εμφανιζόμενου του κάτω άκρου του πλαισίου περιθωρίου. |
+| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | Απόκρυψη αριστερού άκρου (default is false) - καθορίζει την κατάσταση κρυμμένου ή εμφανιζόμενου του αριστερού άκρου του πλαισίου περιθωρίου. |
+| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | Απόκρυψη δεξιού άκρου (default is false) - καθορίζει την κατάσταση κρυμμένου ή εμφανιζόμενου του δεξιού άκρου του πλαισίου περιθωρίου. |
+| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | Απόκρυψη πάνω άκρου (default is false) - καθορίζει την κατάσταση κρυμμένου ή εμφανιζόμενου του πάνω άκρου του πλαισίου περιθωρίου. |
+| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | Διαγώνια γραμμή διαγράμματος από κάτω-αριστερά προς πάνω-δεξιά (default is false). Καθορίζει την κατάσταση κρυμμένου ή εμφανιζόμενου μιας διαγώνιας γραμμής διαγράμματος από την κάτω αριστερή γωνία προς την πάνω δεξιά γωνία του πλαισίου περιθωρίου. |
+| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | Οριζόντια γραμμή διαγράμματος (default is false) - καθορίζει την κατάσταση κρυμμένου ή εμφανιζόμενου μιας οριζόντιας γραμμής διαγράμματος. |
+| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | Διαγώνια γραμμή διαγράμματος από πάνω-αριστερά προς κάτω-δεξιά (default is false). Καθορίζει την κατάσταση κρυμμένου ή εμφανιζόμενου μιας διαγώνιας γραμμής διαγράμματος από την πάνω αριστερή γωνία προς την κάτω δεξιά γωνία του πλαισίου περιθωρίου. |
+| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | Κατακόρυφη γραμμή διαγράμματος (default is false) - καθορίζει την κατάσταση κρυμμένου ή εμφανιζόμενου μιας κάθετης γραμμής διαγράμματος. |
 
 ### Παραδείγματα
 
@@ -41,7 +41,7 @@ IMathBorderBox borderBox = new MathematicalText("x+y+z").ToBorderBox();
 ### Δείτε επίσης
 
 * διασύνδεση [IMathElement](../imathelement)
-* χώρος ονομάτων [Aspose.Slides.MathText](../../aspose.slides.mathtext)
+* χώρο ονομάτων [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * συναρμολόγηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

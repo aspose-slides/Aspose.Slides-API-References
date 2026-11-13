@@ -1,9 +1,9 @@
 ---
 title: SmartArtNode
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt einen Knoten eines SmartArt-Objekts dar
 type: docs
-weight: 10630
+weight: 10650
 url: /de/aspose.slides.smartart/smartartnode/
 ---
 ## SmartArtNode Klasse
@@ -16,28 +16,28 @@ public sealed class SmartArtNode : ISmartArtNode
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [BulletFillFormat](../../aspose.slides.smartart/smartartnode/bulletfillformat) { get; } | Gibt das FillFormat-Objekt zurück, das Füllformatierungs-Eigenschaften für ein Knoten-Aufzählungszeichen enthält. Hinweis: Kann null zurückgeben für bestimmte Typen von SmartArt-Layout, die keine Aufzählungszeichen für Knoten bereitstellen. Nur-Lesen [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [ChildNodes](../../aspose.slides.smartart/smartartnode/childnodes) { get; } | Gibt Sammlungen aller untergeordneten Knoten des aktuellen Knotens zurück. Nur-Lesen [`ISmartArtNodeCollection`](../ismartartnodecollection). |
-| [IsAssistant](../../aspose.slides.smartart/smartartnode/isassistant) { get; set; } | Gibt den Knoten als Assistent zurück oder legt ihn fest. Lesen/Schreiben Boolean. |
-| [IsHidden](../../aspose.slides.smartart/smartartnode/ishidden) { get; } | Gibt true zurück, wenn dieser Knoten im Datenmodell ein versteckter Knoten ist. Nur-Lesen Boolean. |
-| [Level](../../aspose.slides.smartart/smartartnode/level) { get; } | Gibt die Verschachtelungsebene des Knotens zurück. Nur-Lesen Int32. |
-| [OrganizationChartLayout](../../aspose.slides.smartart/smartartnode/organizationchartlayout) { get; set; } | Gibt den Organisation-Diagramm-Layouttyp zurück, der dem aktuellen Knoten zugeordnet ist, oder legt ihn fest. Lesen/Schreiben [`OrganizationChartLayoutType`](../organizationchartlayouttype). |
-| [Position](../../aspose.slides.smartart/smartartnode/position) { get; set; } | Gibt die nullbasierte Position des Knotens unter Geschwisterknoten zurück oder legt sie fest. Lesen/Schreiben Int32. |
-| [Shapes](../../aspose.slides.smartart/smartartnode/shapes) { get; } | Gibt Sammlungen aller dem Knoten zugeordneten Formen zurück. Nur-Lesen [`ISmartArtShapeCollection`](../ismartartshapecollection). |
-| [TextFrame](../../aspose.slides.smartart/smartartnode/textframe) { get; } | Gibt den Textrahmen des Knotens zurück. Nur-Lesen [`ITextFrame`](../../aspose.slides/itextframe). |
+| [BulletFillFormat](../../aspose.slides.smartart/smartartnode/bulletfillformat) { get; } | Gibt das FillFormat-Objekt zurück, das Füllformat-Eigenschaften für ein Knoten-Aufzählungszeichen enthält. Hinweis: kann null zurückgeben für bestimmte Arten von SmartArt-Layout, die keine Aufzählungszeichen für Knoten bereitstellen. Nur lesbar [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [ChildNodes](../../aspose.slides.smartart/smartartnode/childnodes) { get; } | Gibt Sammlungen aller untergeordneten Knoten des aktuellen Knotens zurück. Nur lesbar [`ISmartArtNodeCollection`](../ismartartnodecollection). |
+| [IsAssistant](../../aspose.slides.smartart/smartartnode/isassistant) { get; set; } | Gibt den Knoten als Assistent zurück oder setzt ihn. Lesen/Schreiben Boolean. |
+| [IsHidden](../../aspose.slides.smartart/smartartnode/ishidden) { get; } | Gibt true zurück, wenn dieser Knoten ein versteckter Knoten im Datenmodell ist. Nur lesbar Boolean. |
+| [Level](../../aspose.slides.smartart/smartartnode/level) { get; } | Gibt die Verschachtelungsebene des Knotens zurück. Nur lesbar Int32. |
+| [OrganizationChartLayout](../../aspose.slides.smartart/smartartnode/organizationchartlayout) { get; set; } | Gibt den mit dem aktuellen Knoten verbundenen Organisationsdiagramm-Layouttyp zurück oder setzt ihn. Lesen/Schreiben [`OrganizationChartLayoutType`](../organizationchartlayouttype). |
+| [Position](../../aspose.slides.smartart/smartartnode/position) { get; set; } | Gibt die nullbasierte Position des Knotens unter den Geschwisterknoten zurück oder setzt sie. Lesen/Schreiben Int32. |
+| [Shapes](../../aspose.slides.smartart/smartartnode/shapes) { get; } | Gibt Sammlungen aller mit dem Knoten verbundenen Shapes zurück. Nur lesbar [`ISmartArtShapeCollection`](../ismartartshapecollection). |
+| [TextFrame](../../aspose.slides.smartart/smartartnode/textframe) { get; } | Gibt den Textrahmen des Knotens zurück. Nur lesbar [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ## Methoden
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
 | [Remove](../../aspose.slides.smartart/smartartnode/remove)() | Entfernt den aktuellen Knoten. |
 
 ### Siehe auch
 
-* Schnittstelle [ISmartArtNode](../ismartartnode)
-* Namensraum [Aspose.Slides.SmartArt](../../aspose.slides.smartart)
-* Assembly [Aspose.Slides](../../)
+* interface [ISmartArtNode](../ismartartnode)
+* namespace [Aspose.Slides.SmartArt](../../aspose.slides.smartart)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

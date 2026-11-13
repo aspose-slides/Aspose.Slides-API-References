@@ -3,7 +3,7 @@ title: SlideOrientation
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta l'orientamento della diapositiva.
 type: docs
-weight: 10000
+weight: 10020
 url: /it/aspose.slides/slideorientation/
 ---
 ## SlideOrientation enumerazione
@@ -18,8 +18,8 @@ public enum SlideOrientation
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Landscape | `0` | Orientamento orizzontale. |
-| Portrait | `1` | Orientamento verticale. |
+| Landscape | `0` | Orientamento Landscape. |
+| Portrait | `1` | Orientamento Portrait. |
 
 ### Vedi anche
 

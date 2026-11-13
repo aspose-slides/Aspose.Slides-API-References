@@ -1,14 +1,14 @@
 ---
 title: IRow
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt een rij in een tabel.
+description: Stelt een rij in een tabel voor.
 type: docs
-weight: 6850
+weight: 6870
 url: /nl/aspose.slides/irow/
 ---
 ## IRow interface
 
-Vertegenwoordigt een rij in een tabel.
+Stelt een rij in een tabel voor.
 
 ```csharp
 public interface IRow : IBulkTextFormattable, ICellCollection
@@ -18,11 +18,11 @@ public interface IRow : IBulkTextFormattable, ICellCollection
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/irow/asibulktextformattable) { get; } | Stelt toe om de basis IBulkTextFormattable interface op te halen. Alleen-lezen [`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsICellCollection](../../aspose.slides/irow/asicellcollection) { get; } | Stelt toe om de basis ICellCollection interface op te halen. Alleen-lezen [`ICellCollection`](../icellcollection). |
-| [Height](../../aspose.slides/irow/height) { get; } | Geeft de hoogte van een rij terug. Alleen-lezen Double. |
-| [MinimalHeight](../../aspose.slides/irow/minimalheight) { get; set; } | Geeft de minimaal mogelijke hoogte van een rij terug of stelt deze in. Lezen/schrijven Double. |
-| [RowFormat](../../aspose.slides/irow/rowformat) { get; } | Geeft het RowFormat-object terug dat opmaak-eigenschappen voor deze rij bevat. Alleen-lezen [`IRowFormat`](../irowformat). |
+| [AsIBulkTextFormattable](../../aspose.slides/irow/asibulktextformattable) { get; } | Maakt het mogelijk om de basis IBulkTextFormattable interface op te halen. Alleen-lezen [`IBulkTextFormattable`](../ibulktextformattable). |
+| [AsICellCollection](../../aspose.slides/irow/asicellcollection) { get; } | Maakt het mogelijk om de basis ICellCollection interface op te halen. Alleen-lezen [`ICellCollection`](../icellcollection). |
+| [Height](../../aspose.slides/irow/height) { get; } | Retourneert de hoogte van een rij. Alleen-lezen Double. |
+| [MinimalHeight](../../aspose.slides/irow/minimalheight) { get; set; } | Retourneert of stelt de minimaal mogelijke hoogte van een rij in. Lezen/Schrijven Double. |
+| [RowFormat](../../aspose.slides/irow/rowformat) { get; } | Retourneert het RowFormat-object dat opmaak-eigenschappen voor deze rij bevat. Alleen-lezen [`IRowFormat`](../irowformat). |
 
 ### Zie ook
 

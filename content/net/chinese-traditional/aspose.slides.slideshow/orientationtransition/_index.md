@@ -1,14 +1,14 @@
 ---
 title: OrientationTransition
-second_title: Aspose.Sildes 用於 .NET 的 API 參考
-description: 方向投影片轉場效果。
+second_title: Aspose.Slides for .NET API 參考
+description: 方向投影片過渡效果。
 type: docs
-weight: 10270
+weight: 10290
 url: /zh-hant/aspose.slides.slideshow/orientationtransition/
 ---
 ## OrientationTransition 類別
 
-方向投影片轉場效果。
+方向投影片過渡效果。
 
 ```csharp
 public class OrientationTransition : TransitionValueBase, IOrientationTransition
@@ -18,16 +18,16 @@ public class OrientationTransition : TransitionValueBase, IOrientationTransition
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/orientationtransition/direction) { get; set; } | 轉場方向。可讀寫 [`Orientation`](../../aspose.slides/orientation)。 |
+| [Direction](../../aspose.slides.slideshow/orientationtransition/direction) { get; set; } | 過渡方向。可讀寫 [`Orientation`](../../aspose.slides/orientation)。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 判定兩個 TransitionValueBase 實例是否相等。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 作為特定類型的雜湊函式，適用於雜湊演算法及類似雜湊表之資料結構。 |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 判斷兩個 TransitionValueBase 實例是否相等。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 作為特定類型的雜湊函式，適用於雜湊演算法及雜湊表等資料結構。 |
 
-### 另見
+### 參見
 
 * 類別 [TransitionValueBase](../transitionvaluebase)
 * 介面 [IOrientationTransition](../iorientationtransition)

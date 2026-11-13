@@ -3,7 +3,7 @@ title: ICaptions
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente les sous-titres fermés WebVTT.
 type: docs
-weight: 5430
+weight: 5450
 url: /fr/aspose.slides/icaptions/
 ---
 ## ICaptions interface
@@ -18,10 +18,10 @@ public interface ICaptions
 
 | Nom | Description |
 | --- | --- |
-| [BinaryData](../../aspose.slides/icaptions/binarydata) { get; } | Retourne les données binaires des sous-titres fermés. Lecture seule Byte[]. |
-| [CaptionId](../../aspose.slides/icaptions/captionid) { get; } | Retourne l’identifiant unique global (GUID) des sous-titres fermés. Lecture seule Guid. |
-| [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | Retourne les données des sous-titres fermés sous forme de chaîne encodée UTF-8. Lecture seule String. |
-| [Label](../../aspose.slides/icaptions/label) { get; set; } | Retourne ou définit l’étiquette des sous-titres fermés. Lecture/écriture String. |
+| [BinaryData](../../aspose.slides/icaptions/binarydata) { get; } | Renvoie les données binaires des sous-titres fermés. Lecture seule Byte[]. |
+| [CaptionId](../../aspose.slides/icaptions/captionid) { get; } | Renvoie l'identifiant global unique (GUID) des sous-titres fermés. Lecture seule Guid. |
+| [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | Renvoie les données des sous-titres fermés sous forme de chaîne encodée UTF-8 Lecture seule String. |
+| [Label](../../aspose.slides/icaptions/label) { get; set; } | Renvoie ou définit l'étiquette des sous-titres fermés. Lecture/écriture String. |
 
 ### Voir aussi
 

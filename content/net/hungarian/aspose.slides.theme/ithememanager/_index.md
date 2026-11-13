@@ -1,14 +1,14 @@
 ---
 title: IThemeManager
-second_title: Aspose.Sildes .NET API referencia
-description: A téma tulajdonságait reprezentálja.
+second_title: Aspose.Sildes .NET API Referenciája
+description: Képviseli a téma tulajdonságait.
 type: docs
-weight: 11390
+weight: 11410
 url: /hu/aspose.slides.theme/ithememanager/
 ---
 ## IThemeManager interfész
 
-A téma tulajdonságait reprezentálja.
+Képviseli a téma tulajdonságait.
 
 ```csharp
 public interface IThemeManager
@@ -18,8 +18,8 @@ public interface IThemeManager
 
 | Név | Leírás |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/ithememanager/applycolorscheme)(IExtraColorScheme) | Extra színsémát alkalmaz egy diára. |
-| [CreateThemeEffective](../../aspose.slides.theme/ithememanager/createthemeeffective)() | Visszaadja a téma objektumát. |
+| [ApplyColorScheme](../../aspose.slides.theme/ithememanager/applycolorscheme)(IExtraColorScheme) | Alkalmaz egy extra színsémát a diára. |
+| [CreateThemeEffective](../../aspose.slides.theme/ithememanager/createthemeeffective)() | Visszaadja a téma objektumot. |
 
 ### Lásd még
 

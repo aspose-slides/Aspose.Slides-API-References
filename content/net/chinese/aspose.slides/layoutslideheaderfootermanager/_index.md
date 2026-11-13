@@ -1,14 +1,14 @@
 ---
 title: LayoutSlideHeaderFooterManager
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示管理器，负责布局幻灯片的页脚、日期时间、页码占位符以及所有子占位符的行为。子占位符表示占位符包含在依赖幻灯片上。依赖幻灯片使用并依赖于布局幻灯片。
+description: 表示管理器，保存布局幻灯片页脚、日期时间、页码占位符以及所有子占位符的行为。子占位符表示占位符位于依赖幻灯片上。依赖幻灯片使用并依赖于布局幻灯片。
 type: docs
-weight: 7660
+weight: 7680
 url: /zh/aspose.slides/layoutslideheaderfootermanager/
 ---
 ## LayoutSlideHeaderFooterManager 类
 
-表示管理器，负责布局幻灯片的页脚、日期时间、页码占位符以及所有子占位符的行为。子占位符表示占位符包含在依赖幻灯片上。依赖幻灯片使用并依赖于布局幻灯片。
+表示管理器，保存布局幻灯片页脚、日期时间、页码占位符以及所有子占位符的行为。子占位符表示占位符位于依赖幻灯片上。依赖幻灯片使用并依赖于布局幻灯片。
 
 ```csharp
 public sealed class LayoutSlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
@@ -17,25 +17,25 @@ public sealed class LayoutSlideHeaderFooterManager : BaseSlideHeaderFooterManage
 
 ## 属性
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | 获取指示是否存在日期时间占位符的值。ReadBoolean。 |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | 获取指示是否存在页脚占位符的值。Read Boolean。 |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | 获取指示是否存在页码占位符的值。ReadBoolean。 |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | 获取指示日期时间占位符是否存在的值。ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | 获取指示页脚占位符是否存在的值。Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | 获取指示页码占位符是否存在的值。ReadBoolean. |
 
 ## 方法
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | 设置布局幻灯片日期时间占位符以及所有子日期时间占位符的文本。子占位符表示占位符包含在依赖幻灯片上。依赖幻灯片使用并依赖于布局幻灯片。 |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | 更改布局幻灯片日期时间占位符以及所有子日期时间占位符的可见性。子占位符表示占位符包含在依赖幻灯片上。依赖幻灯片使用并依赖于布局幻灯片。 |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | 设置幻灯片日期时间占位符的文本。 |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | 将文本设置到布局幻灯片的日期时间占位符以及所有子日期时间占位符。子占位符表示占位符位于依赖幻灯片上。依赖幻灯片使用并依赖于布局幻灯片。 |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | 更改布局幻灯片的日期时间占位符以及所有子日期时间占位符的可见性。子占位符表示占位符位于依赖幻灯片上。依赖幻灯片使用并依赖于布局幻灯片。 |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | 将文本设置到幻灯片的日期时间占位符。 |
 | [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | 更改幻灯片日期时间占位符的可见性。 |
-| [SetFooterAndChildFootersText](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | 设置布局幻灯片页脚占位符以及所有子页脚占位符的文本。子占位符表示占位符包含在依赖幻灯片上。依赖幻灯片使用并依赖于布局幻灯片。 |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | 更改布局幻灯片页脚占位符以及所有子页脚占位符的可见性。子占位符表示占位符包含在依赖幻灯片上。依赖幻灯片使用并依赖于母版幻灯片。 |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | 设置幻灯片页脚占位符的文本。 |
+| [SetFooterAndChildFootersText](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | 将文本设置到布局幻灯片的页脚占位符以及所有子页脚占位符。子占位符表示占位符位于依赖幻灯片上。依赖幻灯片使用并依赖于布局幻灯片。 |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | 更改布局幻灯片的页脚占位符以及所有子页脚占位符的可见性。子占位符表示占位符位于依赖幻灯片上。依赖幻灯片使用并依赖于 master slide。 |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | 将文本设置到幻灯片的页脚占位符。 |
 | [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | 更改幻灯片页脚占位符的可见性。 |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | 更改布局幻灯片页码占位符以及所有子页码占位符的可见性。子占位符表示占位符包含在依赖幻灯片上。依赖幻灯片使用并依赖于布局幻灯片。 |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | 更改布局幻灯片的页码占位符以及所有子页码占位符的可见性。子占位符表示占位符位于依赖幻灯片上。依赖幻灯片使用并依赖于布局幻灯片。 |
 | [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | 更改幻灯片页码占位符的可见性。 |
 
 ### 另见

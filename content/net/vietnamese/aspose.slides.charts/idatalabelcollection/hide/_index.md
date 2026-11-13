@@ -1,14 +1,14 @@
 ---
 title: Hide
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Ẩn nhãn dữ liệu theo mặc định bằng cách đặt tất cả các cờ Show-flags ShowValue ... của thuộc tính DefaultDataLabelFormat về trạng thái false. IsVisible sẽ là false sau thao tác này.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đặt nhãn dữ liệu mặc định là ẩn bằng cách đặt tất cả các cờ Show-flags ShowValue ... của thuộc tính DefaultDataLabelFormat thành trạng thái false. IsVisible sẽ là false sau thao tác này.
 type: docs
-weight: 100
+weight: 110
 url: /vi/aspose.slides.charts/idatalabelcollection/hide/
 ---
 ## IDataLabelCollection.Hide phương thức
 
-Ẩn nhãn dữ liệu theo mặc định bằng cách đặt tất cả các cờ Show*- (ShowValue, ...) của thuộc tính DefaultDataLabelFormat về trạng thái false. IsVisible sẽ là false sau thao tác này.
+Tạo nhãn dữ liệu ẩn theo mặc định bằng cách đặt tất cả các cờ Show*-flags (ShowValue, ...) của thuộc tính DefaultDataLabelFormat thành trạng thái false. IsVisible sẽ là false sau thao tác này.
 
 ```csharp
 public void Hide()
@@ -16,7 +16,7 @@ public void Hide()
 
 ### Ghi chú
 
-Nếu nhãn dữ liệu không hiển thị theo mặc định (IsVisible là false) bạn có thể làm cho nhãn dữ liệu "hiển thị theo mặc định" bằng cách đặt các cờ Show*- (ShowValue, ...) của thuộc tính DefaultDataLabelFormat về trạng thái true.
+Nếu nhãn dữ liệu không hiển thị theo mặc định (IsVisible là false) bạn có thể làm nhãn dữ liệu "hiển thị theo mặc định" bằng cách đặt các cờ Show*-flags (ShowValue, ...) của thuộc tính DefaultDataLabelFormat thành trạng thái true.
 
 ### Xem thêm
 

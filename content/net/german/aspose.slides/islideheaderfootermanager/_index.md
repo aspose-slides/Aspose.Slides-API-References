@@ -1,9 +1,9 @@
 ---
 title: ISlideHeaderFooterManager
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt einen Manager dar, der das Verhalten der Folienfußzeile, des Datums-Uhrzeit- und Seitenzahl-Platzhalters verwaltet.
 type: docs
-weight: 7070
+weight: 7090
 url: /de/aspose.slides/islideheaderfootermanager/
 ---
 ## ISlideHeaderFooterManager Schnittstelle

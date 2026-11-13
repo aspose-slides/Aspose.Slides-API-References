@@ -3,7 +3,7 @@ title: DataLabelCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: シリーズのラベルを表します。
 type: docs
-weight: 1560
+weight: 1570
 url: /ja/aspose.slides.charts/datalabelcollection/
 ---
 ## DataLabelCollection クラス
@@ -18,21 +18,22 @@ public class DataLabelCollection : DomObject<ChartSeries>, IDataLabelCollection
 
 | 名前 | 説明 |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/datalabelcollection/chart) { get; } | 親チャートを返します。読み取り専用 [`IChart`](../ichart)。 |
-| [Count](../../aspose.slides.charts/datalabelcollection/count) { get; } | コレクション内のすべてのデータラベルの数を取得します。読み取り専用 Int32。 |
-| [CountOfVisibleDataLabels](../../aspose.slides.charts/datalabelcollection/countofvisibledatalabels) { get; } | コレクション内の表示されているデータラベルの数を取得します。読み取り専用 Int32。 |
-| [DefaultDataLabelFormat](../../aspose.slides.charts/datalabelcollection/defaultdatalabelformat) { get; } | デフォルトのデータラベル形式を取得します。読み取り専用 [`IDataLabelFormat`](../idatalabelformat)。 |
-| [IsVisible](../../aspose.slides.charts/datalabelcollection/isvisible) { get; } | False はデフォルトでデータラベルが表示されないことを意味します (そのため DefaultDataLabelFormat プロパティのすべての Show*-フラグ (ShowValue, ...) が false になります)。読み取り専用 Boolean。 |
-| [Item](../../aspose.slides.charts/datalabelcollection/item) { get; } | 指定されたインデックスを持つデータポイントのデータラベルを取得します。 |
-| [LeaderLinesFormat](../../aspose.slides.charts/datalabelcollection/leaderlinesformat) { get; } | データラベルのリーダーライン形式を表します。読み取り専用 [`IChartLinesFormat`](../ichartlinesformat)。 |
-| [ParentSeries](../../aspose.slides.charts/datalabelcollection/parentseries) { get; } | 親シリーズを取得します。読み取り専用 [`IChartSeries`](../ichartseries)。 |
+| [Chart](../../aspose.slides.charts/datalabelcollection/chart) { get; } | 親チャートを返します。 読み取り専用 [`IChart`](../ichart)。 |
+| [Count](../../aspose.slides.charts/datalabelcollection/count) { get; } | コレクション内のすべての DataLabel の数を取得します。 読み取り専用 Int32。 |
+| [CountOfVisibleDataLabels](../../aspose.slides.charts/datalabelcollection/countofvisibledatalabels) { get; } | コレクション内の表示されている DataLabel の数を取得します。 読み取り専用 Int32。 |
+| [DefaultDataLabelFormat](../../aspose.slides.charts/datalabelcollection/defaultdatalabelformat) { get; } | デフォルトの DataLabel フォーマットを取得します。 読み取り専用 [`IDataLabelFormat`](../idatalabelformat)。 |
+| [DefaultLabelShapeType](../../aspose.slides.charts/datalabelcollection/defaultlabelshapetype) { get; set; } | DataLabel のデフォルト形状タイプを取得または設定します。 形状が定義されていない場合は NotDefined を返します。 |
+| [IsVisible](../../aspose.slides.charts/datalabelcollection/isvisible) { get; } | False は、デフォルトで DataLabel が表示されないことを意味します (そのため DefaultDataLabelFormat プロパティのすべての Show*-フラグ (ShowValue, ...) が false になります)。 読み取り専用 Boolean。 |
+| [Item](../../aspose.slides.charts/datalabelcollection/item) { get; } | 指定されたインデックスを持つデータポイントの DataLabel を取得します。 |
+| [LeaderLinesFormat](../../aspose.slides.charts/datalabelcollection/leaderlinesformat) { get; } | DataLabel のリーダーライン形式を表します。 読み取り専用 [`IChartLinesFormat`](../ichartlinesformat)。 |
+| [ParentSeries](../../aspose.slides.charts/datalabelcollection/parentseries) { get; } | 親シリーズを取得します。 読み取り専用 [`IChartSeries`](../ichartseries)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
 | [GetEnumerator](../../aspose.slides.charts/datalabelcollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
-| [Hide](../../aspose.slides.charts/datalabelcollection/hide)() | DefaultDataLabelFormat プロパティのすべての Show*-フラグ (ShowValue, ...) を false に設定して、データラベルをデフォルトで非表示にします。この操作後は IsVisible が false になります。 |
+| [Hide](../../aspose.slides.charts/datalabelcollection/hide)() | DefaultDataLabelFormat プロパティのすべての Show*-フラグ (ShowValue, ...) を false に設定して、DataLabel をデフォルトで非表示にします。これにより IsVisible は false になります。 |
 | [IndexOf](../../aspose.slides.charts/datalabelcollection/indexof)(IDataLabel) | コレクション内の指定された DataLabel のインデックスを返します。 |
 
 ### 参照

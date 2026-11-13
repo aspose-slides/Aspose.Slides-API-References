@@ -1,9 +1,9 @@
 ---
 title: GetEmbeddedFonts
-second_title: Aspose.Sildes per .NET - Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Restituisce i font incorporati nella presentazione
 type: docs
-weight: 40
+weight: 50
 url: /it/aspose.slides/fontsmanager/getembeddedfonts/
 ---
 ## FontsManager.GetEmbeddedFonts metodo

@@ -1,32 +1,32 @@
 ---
 title: IPieSplitCustomPointCollection
 second_title: Référence API Aspose.Sildes pour .NET
-description: Représente une collection de points qui doivent être dessinés dans le deuxième camembert ou barre d'un graphique camembert-sur-barre ou camembert-sur-camembert avec une division personnalisée.
+description: Représente une collection de points qui seront dessinés dans le deuxième secteur ou barre d'un graphique en barre-en-pie ou secteur-en-secteur avec une division personnalisée.
 type: docs
-weight: 2190
+weight: 2210
 url: /fr/aspose.slides.charts/ipiesplitcustompointcollection/
 ---
 ## IPieSplitCustomPointCollection interface
 
-Représente une collection de points qui doivent être dessinés dans le second camembert ou barre d'un graphique en camembert-sur-barre ou camembert-sur-camembert avec une division personnalisée.
+Représente une collection de points qui seront dessinés dans le deuxième secteur ou barre d'un graphique en barre-en-pie ou secteur-en-secteur avec une division personnalisée.
 
 ```csharp
 public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
 ```
 
-## Propriétés
+## Properties
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.charts/ipiesplitcustompointcollection/asienumerable) { get; } | Renvoie l'interface IEnumerable. |
-| [Item](../../aspose.slides.charts/ipiesplitcustompointcollection/item) { get; } | Renvoie le point de données du graphique par indice. |
+| [Item](../../aspose.slides.charts/ipiesplitcustompointcollection/item) { get; } | Renvoie le point de données du graphique par index. |
 
-## Méthodes
+## Methods
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ipiesplitcustompointcollection/add)(int) | Ajoute un point de données par son indice dans la collection de points de la série parente. |
-| [Remove](../../aspose.slides.charts/ipiesplitcustompointcollection/remove)(int) | Supprime l'élément de la collection par son indice dans la collection de points de la série parente. |
+| [Add](../../aspose.slides.charts/ipiesplitcustompointcollection/add)(int) | Ajoute un point de données par son index dans la collection de points de la série parente. |
+| [Remove](../../aspose.slides.charts/ipiesplitcustompointcollection/remove)(int) | Supprime l'élément de la collection par son index dans la collection de points de la série parente. |
 
 ### Voir aussi
 

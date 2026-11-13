@@ -1,9 +1,9 @@
 ---
 title: StringOrDoubleChartValue
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: "pptx प्रस्तुति दस्तावेज़ में स्ट्रिंग या डबल मान को दो तरीकों से संग्रहीत किया जा सकता है: 1) चार्ट से संबंधित वर्कबुक की सेल/सेल्स में, 2) लिटरल मान के रूप में।"
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: pptx प्रस्तुति दस्तावेज़ में स्ट्रिंग या डबल मान को दो तरीकों से संग्रहीत किया जा सकता है: 1) चार्ट से संबंधित वर्कबुक की सेल/सेल्स में, 2) लिटरल मान के रूप में।
 type: docs
-weight: 2420
+weight: 2440
 url: /hi/aspose.slides.charts/stringordoublechartvalue/
 ---
 ## StringOrDoubleChartValue क्लास
@@ -14,21 +14,21 @@ pptx प्रस्तुति दस्तावेज़ में स्ट
 public class StringOrDoubleChartValue : BaseChartValue, IStringOrDoubleChartValue
 ```
 
-## प्रॉपर्टीज़
+## गुण
 
 | नाम | विवरण |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/stringordoublechartvalue/ascell) { get; set; } | चार्ट डेटा सेल को प्राप्त करता है या सेट करता है। पढ़ने/लिखने योग्य [`IChartDataCell`](../ichartdatacell)। |
-| [AsLiteralDouble](../../aspose.slides.charts/stringordoublechartvalue/asliteraldouble) { get; set; } | मान को लिटरल डबल के रूप में प्राप्त करता है या सेट करता है। पढ़ने/लिखने योग्य Double। |
-| [AsLiteralString](../../aspose.slides.charts/stringordoublechartvalue/asliteralstring) { get; set; } | मान को लिटरल स्ट्रिंग के रूप में प्राप्त करता है या सेट करता है। पढ़ने/लिखने योग्य String। |
-| override [Data](../../aspose.slides.charts/stringordoublechartvalue/data) { get; set; } | Data ऑब्जेक्ट को प्राप्त करता है या सेट करता है। पढ़ने/लिखने योग्य Object। |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | निर्दिष्ट करता है कि AsCell, AsCells, AsLiteralString या AsLiteralDouble प्रॉपर्टी उत्तराधिकारियों में वास्तविक है या नहीं। दूसरे शब्दों में यह Data प्रॉपर्टी के मान के प्रकार को निर्दिष्ट करता है। पढ़ने/लिखने योग्य [`DataSourceType`](../datasourcetype)। |
+| [AsCell](../../aspose.slides.charts/stringordoublechartvalue/ascell) { get; set; } | चार्ट डेटा सेल को लौटाता है या सेट करता है। पढ़ें/लिखें [`IChartDataCell`](../ichartdatacell)। |
+| [AsLiteralDouble](../../aspose.slides.charts/stringordoublechartvalue/asliteraldouble) { get; set; } | मान को लिटरल डबल के रूप में लौटाता है या सेट करता है। पढ़ें/लिखें Double। |
+| [AsLiteralString](../../aspose.slides.charts/stringordoublechartvalue/asliteralstring) { get; set; } | मान को लिटरल स्ट्रिंग के रूप में लौटाता है या सेट करता है। पढ़ें/लिखें String। |
+| override [Data](../../aspose.slides.charts/stringordoublechartvalue/data) { get; set; } | Data ऑब्जेक्ट को लौटाता है या सेट करता है। पढ़ें/लिखें Object। |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | निर्दिष्ट करता है कि AsCell, AsCells, AsLiteralString या AsLiteralDouble प्रॉपर्टी वंशजों में वास्तविक है या नहीं। दूसरे शब्दों में यह Data प्रॉपर्टी के मान के प्रकार को निर्दिष्ट करता है। पढ़ें/लिखें [`DataSourceType`](../datasourcetype)। |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [ToDouble](../../aspose.slides.charts/stringordoublechartvalue/todouble)() | डबल में परिवर्तित करता है। |
+| [ToDouble](../../aspose.slides.charts/stringordoublechartvalue/todouble)() | डबल में बदलता है। |
 
 ### देखें
 

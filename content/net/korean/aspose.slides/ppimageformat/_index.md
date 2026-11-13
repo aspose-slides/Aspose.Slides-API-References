@@ -3,12 +3,12 @@ title: PPImageFormat
 second_title: Aspose.Sildes for .NET API 참조
 description: 이미지 형식. 이 열거형은 System.Drawing.Imaging.ImageFormat 클래스를 대체합니다. COM 호환성을 위해 필요합니다.
 type: docs
-weight: 9260
+weight: 9280
 url: /ko/aspose.slides/ppimageformat/
 ---
 ## PPImageFormat 열거형
 
-이미지 형식. 이 열거형은 `System.Drawing.Imaging.ImageFormat` 클래스를 대체합니다. COM 호환성을 위해 필요합니다.
+이미지 형식. 이 열거형은 `System.Drawing.Imaging.ImageFormat` 클래스를 대신합니다. COM 호환성을 위해 필요합니다.
 
 ```csharp
 public enum PPImageFormat
@@ -18,18 +18,18 @@ public enum PPImageFormat
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| Bmp | `0` | 비트맵(BMP) 이미지 형식을 가져옵니다. |
-| Emf | `1` | 향상된 메타파일(EMF) 이미지 형식을 가져옵니다. |
-| Exif | `2` | 교환 이미지 파일(Exif) 형식을 가져옵니다. |
-| Gif | `3` | 그래픽 교환 형식(GIF) 이미지 형식을 가져옵니다. |
+| Bmp | `0` | 비트맵 (BMP) 이미지 형식을 가져옵니다. |
+| Emf | `1` | 향상된 메타파일 (EMF) 이미지 형식을 가져옵니다. |
+| Exif | `2` | 교환 가능한 이미지 파일 (Exif) 형식을 가져옵니다. |
+| Gif | `3` | 그래픽 교환 형식 (GIF) 이미지 형식을 가져옵니다. |
 | Icon | `4` | Windows 아이콘 이미지 형식을 가져옵니다. |
-| Jpeg | `5` | Joint Photographic Experts Group(JPEG) 이미지 형식을 가져옵니다. |
-| MemoryBmp | `6` | 메모리 내 비트맵의 형식을 가져옵니다. |
-| Png | `7` | W3C Portable Network Graphics(PNG) 이미지 형식을 가져옵니다. |
-| Tiff | `8` | Tagged Image File Format(TIFF) 이미지 형식을 가져옵니다. |
-| Wmf | `9` | Windows 메타파일(WMF) 이미지 형식을 가져옵니다. |
+| Jpeg | `5` | 공동 사진 전문가 그룹 (JPEG) 이미지 형식을 가져옵니다. |
+| MemoryBmp | `6` | 메모리 내 비트맵 형식을 가져옵니다. |
+| Png | `7` | W3C 포터블 네트워크 그래픽스 (PNG) 이미지 형식을 가져옵니다. |
+| Tiff | `8` | 태그된 이미지 파일 포맷 (TIFF) 이미지 형식을 가져옵니다. |
+| Wmf | `9` | Windows 메타파일 (WMF) 이미지 형식을 가져옵니다. |
 
-### 자세히 보기
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IErrorBarsFormat
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt foutbalken van grafiekreeksen voor. Aangepaste waarden voor ErrorBars staan in IChartDataPointCollection in de ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues eigenschap.
+description: Stelt foutbalken van diagramreeksen voor. Foutbalken aangepaste waarden staan in IChartDataPointCollection in de ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues eigenschap.
 type: docs
-weight: 2090
+weight: 2110
 url: /nl/aspose.slides.charts/ierrorbarsformat/
 ---
 ## IErrorBarsFormat interface
 
-Stelt foutbalken van een grafieksreeks voor. Aangepaste waarden voor ErrorBars staan in IChartDataPointCollection (in [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) eigenschap).
+Stelt foutbalken van diagramreeksen voor. Foutbalken aangepaste waarden staan in IChartDataPointCollection (in [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) eigenschap).
 
 ```csharp
 public interface IErrorBarsFormat : IChartComponent
@@ -19,12 +19,12 @@ public interface IErrorBarsFormat : IChartComponent
 | Naam | Beschrijving |
 | --- | --- |
 | [AsIChartComponent](../../aspose.slides.charts/ierrorbarsformat/asichartcomponent) { get; } | Retourneert IChartComponent interface. Alleen-lezen [`IChartComponent`](../ichartcomponent). |
-| [Format](../../aspose.slides.charts/ierrorbarsformat/format) { get; set; } | Representeert het formaat van de foutbalken. Lezen/Schrijven [`IFormat`](../iformat). |
-| [HasEndCap](../../aspose.slides.charts/ierrorbarsformat/hasendcap) { get; set; } | Specificeert dat er geen eindkap wordt getekend op de foutbalken. Lezen/Schrijven Boolean. |
-| [IsVisible](../../aspose.slides.charts/ierrorbarsformat/isvisible) { get; set; } | Krijgt of stelt de zichtbaarheid van Error Bars in. Lezen/Schrijven Boolean. |
-| [Type](../../aspose.slides.charts/ierrorbarsformat/type) { get; set; } | Krijgt of stelt het type van foutbalken in. Lezen/Schrijven [`ErrorBarType`](../errorbartype). |
-| [Value](../../aspose.slides.charts/ierrorbarsformat/value) { get; set; } | Krijgt of stelt de waarde in die wordt gebruikt met de waarde types Fixed, Percentage en StandardDeviation om de lengte van de foutbalken te bepalen. Lezen/Schrijven Single. |
-| [ValueType](../../aspose.slides.charts/ierrorbarsformat/valuetype) { get; set; } | Stelt mogelijke manieren voor om de lengte van de foutbalken te bepalen. In het geval van een aangepast waarde type om een waarde op te geven, gebruik de [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) eigenschap van een specifiek gegevenspunt in de DataPoints collectie van de reeks. Lezen/Schrijven [`ErrorBarValueType`](../errorbarvaluetype). |
+| [Format](../../aspose.slides.charts/ierrorbarsformat/format) { get; set; } | Stelt het formaat van de foutbalken voor. Lezen/Schrijven [`IFormat`](../iformat). |
+| [HasEndCap](../../aspose.slides.charts/ierrorbarsformat/hasendcap) { get; set; } | Specificeert dat een eindkap niet wordt getekend op de foutbalken. Lezen/Schrijven Boolean. |
+| [IsVisible](../../aspose.slides.charts/ierrorbarsformat/isvisible) { get; set; } | Haalt op of stelt de zichtbaarheid van foutbalken in. Lezen/Schrijven Boolean. |
+| [Type](../../aspose.slides.charts/ierrorbarsformat/type) { get; set; } | Haalt op of stelt het type van foutbalken in. Lezen/Schrijven [`ErrorBarType`](../errorbartype). |
+| [Value](../../aspose.slides.charts/ierrorbarsformat/value) { get; set; } | Haalt op of stelt de waarde in die wordt gebruikt met Fixed, Percentage en StandardDeviation waardetypen om de lengte van de foutbalken te bepalen. Lezen/Schrijven Single. |
+| [ValueType](../../aspose.slides.charts/ierrorbarsformat/valuetype) { get; set; } | Stelt mogelijke manieren voor om de lengte van de foutbalken te bepalen. In het geval van een aangepast waardetype om een waarde op te geven, gebruik [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) eigenschap van een specifiek datapunt in de DataPoints-collectie van de reeks. Lezen/Schrijven [`ErrorBarValueType`](../errorbarvaluetype). |
 
 ### Zie ook
 

@@ -1,14 +1,14 @@
 ---
 title: TextAnchorType
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: محاذاة صندوق النص داخل منطقة النص.
+second_title: Aspose.Sildes لمرجع API الخاص بـ .NET
+description: محاذاة صندوق النص داخل مساحة النص.
 type: docs
-weight: 10910
+weight: 10930
 url: /ar/aspose.slides/textanchortype/
 ---
-## تعداد TextAnchorType
+## TextAnchorType تعداد
 
-محاذاة صندوق النص داخل منطقة النص.
+محاذاة صندوق النص داخل مساحة النص.
 
 ```csharp
 public enum TextAnchorType : sbyte

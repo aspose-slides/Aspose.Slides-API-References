@@ -1,14 +1,14 @@
 ---
 title: IVbaReferenceFactory
-second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
-description: อนุญาตให้สร้างการอ้างอิงโครงการ VBA ผ่าน COM อินเทอร์เฟซ
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: อนุญาตให้สร้างการอ้างอิงโครงการ VBA ผ่านอินเทอร์เฟซ COM
 type: docs
-weight: 11590
+weight: 11610
 url: /th/aspose.slides.vba/ivbareferencefactory/
 ---
 ## IVbaReferenceFactory อินเทอร์เฟซ
 
-อนุญาตให้สร้างการอ้างอิงโครงการ VBA ผ่าน COM อินเทอร์เฟซ
+อนุญาตให้สร้างอ้างอิงโครงการ VBA ผ่าน COM อินเทอร์เฟซ
 
 ```csharp
 public interface IVbaReferenceFactory

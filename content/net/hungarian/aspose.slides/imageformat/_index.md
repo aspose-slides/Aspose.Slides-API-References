@@ -1,14 +1,14 @@
 ---
 title: ImageFormat
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes .NET API hivatkozás
 description: A kép fájlformátumát jelöli.
 type: docs
-weight: 7430
+weight: 7450
 url: /hu/aspose.slides/imageformat/
 ---
 ## ImageFormat enumeráció
 
-A kép fájlformátumát jelöli.
+Az képfájl formátumát jelöli.
 
 ```csharp
 public enum ImageFormat
@@ -26,7 +26,7 @@ public enum ImageFormat
 | Jpeg | `5` | A Joint Photographic Experts Group (JPEG) képfájl formátumát jelöli. |
 | Png | `6` | A W3C Portable Network Graphics (PNG) képfájl formátumát jelöli. |
 | Tiff | `7` | A Tagged Image File Format (TIFF) képfájl formátumát jelöli. |
-| Exif | `8` | A Exchangeable Image File (Exif) formátumot jelöli. |
+| Exif | `8` | Az Exchangeable Image File (Exif) formátumot jelöli. |
 | Icon | `9` | A Windows ikon képfájl formátumát jelöli. |
 
 ### Lásd még

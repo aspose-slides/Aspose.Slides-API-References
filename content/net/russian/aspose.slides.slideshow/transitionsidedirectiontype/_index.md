@@ -1,14 +1,14 @@
 ---
 title: TransitionSideDirectionType
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет типы переходов боковых направлений.
+second_title: Aspose.Sildes для .NET справочник API
+description: Представляет типы переходов по направлению стороны.
 type: docs
-weight: 10420
+weight: 10440
 url: /ru/aspose.slides.slideshow/transitionsidedirectiontype/
 ---
 ## TransitionSideDirectionType перечисление
 
-Представляет типы переходов боковых направлений.
+Представляет типы переходов по направлению стороны.
 
 ```csharp
 public enum TransitionSideDirectionType

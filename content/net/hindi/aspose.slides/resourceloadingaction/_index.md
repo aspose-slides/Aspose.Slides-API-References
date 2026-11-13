@@ -1,14 +1,14 @@
 ---
 title: ResourceLoadingAction
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: बाहरी संसाधन लोडिंग के मोड को निर्दिष्ट करता है।
+second_title: Aspose.Sildes .NET API संदर्भ
+description: बाहरी संसाधन लोडिंग के मोड को निर्धारित करता है।
 type: docs
-weight: 9700
+weight: 9720
 url: /hi/aspose.slides/resourceloadingaction/
 ---
-## ResourceLoadingAction एन्नुमरेशन
+## ResourceLoadingAction एन्यूमरेशन
 
-बाहरी संसाधन लोडिंग के मोड को निर्दिष्ट करता है।
+बाहरी संसाधन लोडिंग के मोड को निर्धारित करता है।
 
 ```csharp
 public enum ResourceLoadingAction
@@ -16,11 +16,11 @@ public enum ResourceLoadingAction
 
 ### मान
 
-| नाम | मूल्य | विवरण |
+| नाम | मान | विवरण |
 | --- | --- | --- |
-| Default | `0` | Aspose.Slides सामान्य रूप से बाहरी संसाधन लोड करेगा। |
-| Skip | `1` | Aspose.Slides बाहरी संसाधन के लोडिंग को छोड़ देगा। केवल डेटा के बिना लिंक एक छवि के लिए संग्रहीत किया जाएगा। |
-| UserProvided | `2` | Aspose.Slides उपयोगकर्ता द्वारा [`SetData`](../iresourceloadingargs/setdata) में प्रदान किए गए बाइट एरे को छवि डेटा के रूप में उपयोग करेगा। |
+| Default | `0` | Aspose.Slides सामान्य रूप से बाहरी संसाधन को लोड करेगा। |
+| Skip | `1` | Aspose.Slides बाहरी संसाधन का लोडिंग छोड़ देगा। केवल डेटा के बिना लिंक को एक छवि के लिए संग्रहित किया जाएगा। |
+| UserProvided | `2` | Aspose.Slides उपयोगकर्ता द्वारा [`SetData`](../iresourceloadingargs/setdata) में प्रदान की गई बाइट एरे को छवि डेटा के रूप में उपयोग करेगा। |
 
 ### देखें
 

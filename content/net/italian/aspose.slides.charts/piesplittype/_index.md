@@ -1,14 +1,14 @@
 ---
 title: PieSplitType
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta un tipo di punti di divisione nella seconda torta o barra su un grafico pie-of-pie o bar-of-pie.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Rappresenta un tipo di punti di divisione nel secondo grafico a torta o a barre su un grafico torta-di-torta o barra-di-torta.
 type: docs
-weight: 2380
+weight: 2400
 url: /it/aspose.slides.charts/piesplittype/
 ---
 ## PieSplitType enumerazione
 
-Rappresenta un tipo di punti di divisione nella seconda torta o barra su un grafico pie-of-pie o bar-of-pie.
+Rappresenta un tipo di punti di divisione nel secondo grafico a torta o a barre su un grafico torta-di-torta o barra-di-torta.
 
 ```csharp
 public enum PieSplitType
@@ -18,11 +18,11 @@ public enum PieSplitType
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Default | `0` | Specifica che i punti dati devono essere suddivisi utilizzando il meccanismo predefinito per questo tipo di grafico. |
-| Custom | `1` | Specifica che i punti dati devono essere suddivisi tra la torta e il secondo grafico in base ai valori Custom Split. |
-| ByPercentage | `2` | Specifica che i punti dati devono essere suddivisi tra la torta e il secondo grafico posizionando i punti con percentuale inferiore a Split Position percent nel secondo grafico. |
-| ByPos | `3` | Specifica che i punti dati devono essere suddivisi tra la torta e il secondo grafico posizionando l'ultimo Split Position dei punti dati nel secondo grafico. |
-| ByValue | `4` | Specifica che i punti dati devono essere suddivisi tra la torta e il secondo grafico posizionando i punti dati con valore inferiore a Split Position nel secondo grafico. |
+| Default | `0` | Specifica che i punti dati devono essere divisi usando il meccanismo predefinito per questo tipo di grafico. |
+| Custom | `1` | Specifica che i punti dati devono essere divisi tra la torta e il secondo grafico secondo i valori Custom Split. |
+| ByPercentage | `2` | Specifica che i punti dati devono essere divisi tra la torta e il secondo grafico inserendo i punti con percentuale inferiore a Split Position percent nel secondo grafico. |
+| ByPos | `3` | Specifica che i punti dati devono essere divisi tra la torta e il secondo grafico inserendo l'ultimo Split Position dei punti dati nel secondo grafico. |
+| ByValue | `4` | Specifica che i punti dati devono essere divisi tra la torta e il secondo grafico inserendo i punti dati con valore inferiore a Split Position nel secondo grafico. |
 
 ### Vedi anche
 

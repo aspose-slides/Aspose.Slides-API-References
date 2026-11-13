@@ -1,14 +1,14 @@
 ---
 title: TextFrameForOverriding
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: สามารถบรรจุข้อความที่มีการจัดรูปแบบอย่างหลากหลายได้ หากคุณสมบัตินี้ไม่เป็นค่า null แล้วค่าข้อความที่จัดรูปแบบนี้จะทับข้อความที่สร้างอัตโนมัติของป้ายข้อมูล ข้อความที่สร้างอัตโนมัติของป้ายข้อมูลหมายถึงข้อความที่จัดการโดยคุณสมบัติ ShowSeriesName ShowValue ... และถูกจัดรูปแบบด้วยคุณสมบัติ TextFormatManager.TextFormat อ่านอย่างเดียว ITextFrameaspose.slides/itextframe.
+description: สามารถบรรจุข้อความที่มีการจัดรูปแบบอย่างหลากหลายได้ หากคุณสมบัตินี้ไม่เป็น null แล้วค่าข้อความที่จัดรูปแบบนี้จะทับข้อความที่สร้างโดยอัตโนมัติของป้ายข้อมูล ข้อความที่สร้างโดยอัตโนมัติของป้ายข้อมูลหมายถึงข้อความที่จัดการโดย ShowSeriesName ShowValue ... properties และถูกจัดรูปแบบด้วย TextFormatManager.TextFormat property. อ่านอย่างเดียว ITextFrameaspose.slides/itextframe.
 type: docs
-weight: 130
+weight: 140
 url: /th/aspose.slides.charts/datalabel/textframeforoverriding/
 ---
 ## DataLabel.TextFrameForOverriding คุณสมบัติ
 
-สามารถบรรจุข้อความที่มีการจัดรูปแบบอย่างหลากหลายได้ หากคุณสมบัตินี้ไม่เป็นค่า null แล้วค่าข้อความที่จัดรูปแบบนี้จะทับข้อความที่สร้างอัตโนมัติของป้ายข้อมูล ข้อความที่สร้างอัตโนมัติของป้ายข้อมูลหมายถึงข้อความที่จัดการโดยคุณสมบัติ ShowSeriesName, ShowValue, ... และถูกจัดรูปแบบด้วยคุณสมบัติ TextFormatManager.TextFormat อ่านอย่างเดียว [`ITextFrame`](../../../aspose.slides/itextframe).
+สามารถบรรจุข้อความที่มีการจัดรูปแบบอย่างหลายรูปแบบได้ หากคุณสมบัตินี้ไม่เป็น null แล้วค่าข้อความที่จัดรูปแบบนี้จะทับข้อความที่สร้างโดยอัตโนมัติของป้ายข้อมูล ข้อความที่สร้างโดยอัตโนมัติของป้ายข้อมูลหมายถึงข้อความที่จัดการโดย ShowSeriesName, ShowValue, ... คุณสมบัติ และถูกจัดรูปแบบด้วย TextFormatManager.TextFormat คุณสมบัติ. อ่านอย่างเดียว [`ITextFrame`](../../../aspose.slides/itextframe).
 
 ```csharp
 public ITextFrame TextFrameForOverriding { get; }

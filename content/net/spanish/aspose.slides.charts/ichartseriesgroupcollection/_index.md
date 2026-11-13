@@ -1,9 +1,9 @@
 ---
 title: IChartSeriesGroupCollection
-second_title: Aspose.Sildes para la referencia de API de .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Representa la colección de grupos de series combinables.
 type: docs
-weight: 1960
+weight: 1980
 url: /es/aspose.slides.charts/ichartseriesgroupcollection/
 ---
 ## IChartSeriesGroupCollection interfaz
@@ -22,9 +22,9 @@ public interface IChartSeriesGroupCollection : IGenericCollection<IChartSeriesGr
 
 ### Observaciones
 
-1) Cada grupo de series contiene series con tipos combinables. Los grupos de tipos de series combinables están definidos y descritos con el enumerado CombinableSeriesTypesGroup. Además, cada grupo de series contiene series que se trazan ya sea en los ejes primarios o en los ejes secundarios (no ambos casos en un mismo grupo). Por lo tanto, el principio de agrupamiento de series es un agrupamiento por los grupos de tipos mencionados anteriormente y por el tipo de trazado primario/segundario. 2) Un grupo de series contiene algunas propiedades de series que son comunes a cada serie del grupo ("propiedades del grupo de series"). "Propiedades del grupo de series" en la clase ChartSeriesGroup es read/write. Cada una de las "propiedades del grupo de series" puede tener una proyección read-only en la clase ChartSeries.
+1) Cada grupo de series contiene series con tipos combinables. Los grupos de tipos de series combinables se definen y describen con el enum CombinableSeriesTypesGroup. Además, cada grupo de series contiene series que se trazan ya sea en los ejes primarios o en los ejes secundarios (no ambos casos en un mismo grupo). Por lo tanto, el principio de agrupación de series es un agrupamiento por los tipos de grupos mencionados anteriormente y por el tipo de trazado primario/secundario. 2) El grupo de series contiene algunas propiedades de serie que son comunes para cada serie en el grupo ("propiedades del grupo de series"). Las "propiedades del grupo de series" en la clase ChartSeriesGroup son de lectura/escritura. Cada una de las "propiedades del grupo de series" puede tener una proyección de solo lectura en la clase ChartSeries.
 
-### Ver también
+### Véase también
 
 * interfaz [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * interfaz [IChartSeriesGroup](../ichartseriesgroup)

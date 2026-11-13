@@ -1,14 +1,14 @@
 ---
 title: MasterLayoutSlideCollection
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt eine Sammlung aller Layout-Folien des definierten Master-Slides dar. Erweitert die LayoutSlideCollection-Klasse mit Methoden zum Hinzufügen, Einfügen, Entfernen, Klonen und Umordnen von Layout-Folien im Kontext der einzelnen Sammlungen der Master-Layout-Folien.
+description: Stellt eine Sammlung aller Layout-Folien einer definierten Master-Folie dar. Erweitert die Klasse LayoutSlideCollection um Methoden zum Hinzufügen, Einfügen, Entfernen, Klonen und Neuordnen von Layout-Folien im Kontext der einzelnen Sammlungen der Layout-Folien des Masters.
 type: docs
-weight: 8000
+weight: 8020
 url: /de/aspose.slides/masterlayoutslidecollection/
 ---
 ## MasterLayoutSlideCollection Klasse
 
-Stellt eine Sammlung aller Layout-Folien eines definierten Master-Slides dar. Erweitert die LayoutSlideCollection Klasse mit Methoden zum Hinzufügen, Einfügen, Entfernen, Klonen und Umordnen von Layout-Folien im Kontext der einzelnen Sammlungen der Master-Layout-Folien.
+Stellt eine Sammlung aller Layout-Folien einer definierten Master-Folie dar. Erweitert die Klasse LayoutSlideCollection um Methoden zum Hinzufügen/Einfgen/Entfernen/Klonen/Neuordnen von Layout-Folien im Kontext der einzelnen Sammlungen der Layout-Folien des Masters.
 
 ```csharp
 public sealed class MasterLayoutSlideCollection : LayoutSlideCollection, 
@@ -21,8 +21,8 @@ public sealed class MasterLayoutSlideCollection : LayoutSlideCollection,
 | --- | --- |
 | [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Gibt die Anzahl der Layout-Folien in einer Sammlung zurück. Nur-Lesen Int32. |
 | [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (Thread-sicher) ist. Nur-Lesen Boolean. |
-| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Gibt die Layout-Folie anhand des Index zurück. Nur-Lesen [`LayoutSlide`](../layoutslide). |
-| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Gibt ein Synchronisations-Root zurück. Nur-Lesen Object. |
+| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Gibt die Layout-Folie nach Index zurück. Nur-Lesen [`LayoutSlide`](../layoutslide). |
+| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Gibt die Synchronisationswurzel zurück. Nur-Lesen Object. |
 
 ## Methoden
 
@@ -31,14 +31,14 @@ public sealed class MasterLayoutSlideCollection : LayoutSlideCollection,
 | [Add](../../aspose.slides/masterlayoutslidecollection/add)(SlideLayoutType, string) | Fügt eine neue Layout-Folie am Ende der Sammlung hinzu. |
 | [AddClone](../../aspose.slides/masterlayoutslidecollection/addclone)(ILayoutSlide) | Fügt eine Kopie einer angegebenen Layout-Folie am Ende der Sammlung hinzu. |
 | [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Kopiert alle Elemente der Sammlung in das angegebene Array. |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Gibt die erste Layout-Folie des angegebenen Typs zurück. Ein Typ von Layout-Folien, der gesucht werden soll.[`LayoutSlide`](../layoutslide) mit angegebenem Typ oder null, wenn keine Layout-Folien gefunden wurden. |
-| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Gibt einen Aufzählungs-Iterator zurück, der die Sammlung durchläuft. |
-| [Insert](../../aspose.slides/masterlayoutslidecollection/insert)(int, SlideLayoutType, string) | Fügt eine neue Layout-Folie an der angegebenen Position in die Sammlung ein. |
-| [InsertClone](../../aspose.slides/masterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Fügt eine Kopie einer angegebenen Layout-Folie an der angegebenen Position in die Sammlung ein. |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Gibt die erste Layout-Folie des angegebenen Typs zurück. Ein Typ der gesuchten Layout-Folie.[`LayoutSlide`](../layoutslide) mit angegebenem Typ oder null, wenn keine Layouts gefunden wurden. |
+| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Gibt einen Enumerator zurück, der die Sammlung durchläuft. |
+| [Insert](../../aspose.slides/masterlayoutslidecollection/insert)(int, SlideLayoutType, string) | Fügt eine neue Layout-Folie an der angegebenen Position der Sammlung ein. |
+| [InsertClone](../../aspose.slides/masterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Fügt eine Kopie einer angegebenen Layout-Folie an der angegebenen Position der Sammlung ein. |
 | [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Entfernt ein Layout aus der Sammlung. |
 | [RemoveAt](../../aspose.slides/masterlayoutslidecollection/removeat)(int) | Entfernt das Element am angegebenen Index der Sammlung. |
-| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Entfernt unbenutzte Layout-Folien (Layout-Folien, deren HasDependingSlides false ist). |
-| [Reorder](../../aspose.slides/masterlayoutslidecollection/reorder)(int, ILayoutSlide) | Verschiebt eine Layout-Folie innerhalb der Sammlung an die angegebene Position. |
+| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Entfernt ungenutzte Layout-Folien (Layout-Folien, deren HasDependingSlides false ist). |
+| [Reorder](../../aspose.slides/masterlayoutslidecollection/reorder)(int, ILayoutSlide) | Verschiebt die Layout-Folie aus der Sammlung an die angegebene Position. |
 
 ### Siehe auch
 

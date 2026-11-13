@@ -1,14 +1,14 @@
 ---
 title: ShredTransition
-second_title: Aspose.Sildes لمرجع API .NET
-description: تأثير انتقال قص الشريحة.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: تأثير انتقال الشريحة المتقطعة.
 type: docs
-weight: 10300
+weight: 10320
 url: /ar/aspose.slides.slideshow/shredtransition/
 ---
 ## ShredTransition فئة
 
-تأثير انتقال شريحة القص.
+تأثير انتقال الشريحة المتقطعة.
 
 ```csharp
 public class ShredTransition : TransitionValueBase, IShredTransition
@@ -16,16 +16,16 @@ public class ShredTransition : TransitionValueBase, IShredTransition
 
 ## الخصائص
 
-| Name | Description |
+| الاسم | الوصف |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/shredtransition/direction) { get; set; } | اتجاه الانتقال. قراءة/كتابة [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 | [Pattern](../../aspose.slides.slideshow/shredtransition/pattern) { get; set; } | يحدد شكل العناصر البصرية المستخدمة أثناء الانتقال. قراءة/كتابة [`TransitionShredPattern`](../transitionshredpattern). |
 
 ## الطرق
 
-| Name | Description |
+| الاسم | الوصف |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | يحدد ما إذا كانت المثيلتين من TransitionValueBase متساويتين. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | يحدد ما إذا كانت كائني TransitionValueBase متساويين. |
 | override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | يعمل كدالة تجزئة لنوع معين، مناسبة للاستخدام في خوارزميات التجزئة وهياكل البيانات مثل جدول التجزئة. |
 
 ### انظر أيضًا

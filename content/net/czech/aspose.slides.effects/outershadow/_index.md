@@ -1,14 +1,14 @@
 ---
 title: OuterShadow
-second_title: Aspose.Sildes pro .NET – reference API
-description: Reprezentuje efekt vnějšího stínu.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Představuje efekt vnějšího stínu.
 type: docs
-weight: 3620
+weight: 3640
 url: /cs/aspose.slides.effects/outershadow/
 ---
-## OuterShadow třída
+## třída OuterShadow
 
-Reprezentuje efekt vnějšího stínu.
+Představuje efekt vnějšího stínu.
 
 ```csharp
 public sealed class OuterShadow : IOuterShadow
@@ -18,23 +18,23 @@ public sealed class OuterShadow : IOuterShadow
 
 | Název | Popis |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | Poloměr rozostření v bodech. Výchozí hodnota – 0 pt. Čtení/Zápis Double. |
-| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | Směr stínu v stupních. Výchozí hodnota – 0 ° (zleva doprava). Čtení/Zápis Single. |
-| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | Vzdálenost stínu od objektu v bodech. Výchozí hodnota – 0 pt. Čtení/Zápis Double. |
-| [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | Zarovnání obdélníku. Výchozí hodnota – Bottom. Čtení/Zápis [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | Určuje, zda se stín otáčí spolu s tvarem. Výchozí hodnota – true. Čtení/Zápis Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | Horizontální faktor měřítka v procentech původní velikosti. Negativní měřítko způsobí převrácení. Výchozí hodnota – 100 %. Čtení/Zápis Double. |
-| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | Vertikální faktor měřítka v procentech původní velikosti. Negativní měřítko způsobí převrácení. Výchozí hodnota – 100 %. Čtení/Zápis Double. |
-| [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | Barva stínu. Výchozí hodnota – automatická černá (závisí na motivu). Pouze pro čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | Horizontální úhel sklonu v stupních. Výchozí hodnota – 0 °. Čtení/Zápis Double. |
-| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | Vertikální úhel sklonu v stupních. Výchozí hodnota – 0 °. Čtení/Zápis Double. |
+| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | Poloměr rozostření v bodech. Výchozí hodnota – 0 pt. Číst / zapisovat Double. |
+| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | Směr stínu ve stupních. Výchozí hodnota – 0 ° (zleva doprava). Číst / zapisovat Single. |
+| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | Vzdálenost stínu od objektu v bodech. Výchozí hodnota – 0 pt. Číst / zapisovat Double. |
+| [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | Zarovnání obdélníka. Výchozí hodnota – Bottom. Číst / zapisovat [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | Určuje, zda se stín otáčí spolu s tvarem. Výchozí hodnota – true. Číst / zapisovat Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | Horizontální faktor měřítka v procentech původní velikosti. Záporné měřítko způsobí převrácení. Výchozí hodnota – 100 %. Číst / zapisovat Double. |
+| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | Vertikální faktor měřítka v procentech původní velikosti. Záporné měřítko způsobí převrácení. Výchozí hodnota – 100 %. Číst / zapisovat Double. |
+| [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | Barva stínu. Výchozí hodnota – automatická černá (theme-dependent). Pouze pro čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | Horizontální úhel zkosení ve stupních. Výchozí hodnota – 0 °. Číst / zapisovat Double. |
+| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | Vertikální úhel zkosení ve stupních. Výchozí hodnota – 0 °. Číst / zapisovat Double. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | Určuje, zda je zadaný [`OuterShadow`](../outershadow) roven aktuálnímu [`OuterShadow`](../outershadow). |
-| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | Získá účinná data efektu Vnějšího stínu s aplikovaným děděním. |
+| override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | Určuje, zda zadaný [`OuterShadow`](../outershadow) je roven aktuálnímu [`OuterShadow`](../outershadow). |
+| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | Získá efektivní data efektu vnějšího stínu s aplikovaným děděním. |
 | override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ. |
 
 ### Viz také

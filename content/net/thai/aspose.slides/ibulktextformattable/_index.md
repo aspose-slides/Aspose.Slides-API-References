@@ -1,14 +1,14 @@
 ---
 title: IBulkTextFormattable
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงอ็อบเจ็กต์ที่สามารถตั้งค่าฟอร์แมตขององค์ประกอบข้อความย่อยเป็นกลุ่มได้.
+description: แสดงถึงอ็อบเจกต์ที่มีความสามารถในการตั้งค่ารูปแบบขององค์ประกอบข้อความลูกเป็นกลุ่ม
 type: docs
-weight: 5380
+weight: 5400
 url: /th/aspose.slides/ibulktextformattable/
 ---
 ## IBulkTextFormattable อินเทอร์เฟซ
 
-แสดงถึงอ็อบเจ็กต์ที่สามารถตั้งค่าฟอร์แมตขององค์ประกอบข้อความย่อยเป็นกลุ่มได้
+แสดงถึงอ็อบเจกต์ที่สามารถตั้งค่ารูปแบบขององค์ประกอบข้อความลูกได้เป็นกลุ่ม
 
 ```csharp
 public interface IBulkTextFormattable
@@ -18,9 +18,9 @@ public interface IBulkTextFormattable
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat)(IParagraphFormat) | ตั้งค่าคุณสมบัติฟอร์แมตของย่อหน้าที่กำหนดให้กับย่อหน้าทั้งหมดขององค์ประกอบ |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_1)(IPortionFormat) | ตั้งค่าคุณสมบัติฟอร์แมตของส่วนที่กำหนดให้กับส่วนย่อยทั้งหมดขององค์ประกอบ |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_2)(ITextFrameFormat) | ตั้งค่าคุณสมบัติฟอร์แมตของกรอบข้อความที่กำหนดให้กับกรอบข้อความทั้งหมดขององค์ประกอบ |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat)(IParagraphFormat) | กำหนดคุณสมบัติรูปแบบของ paragraph ที่กำหนดไว้ให้กับย่อหน้าทั้งหมดของ element |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_1)(IPortionFormat) | กำหนดคุณสมบัติรูปแบบของ portion ที่กำหนดไว้ให้กับส่วนทั้งหมดของ element |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_2)(ITextFrameFormat) | กำหนดคุณสมบัติรูปแบบของ text frame ที่กำหนดไว้ให้กับ text frame ทั้งหมดของ element |
 
 ### ดูเพิ่มเติม
 

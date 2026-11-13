@@ -1,41 +1,41 @@
 ---
 title: IMasterNotesSlideHeaderFooterManager
-second_title: مرجع API Aspose.Sildes برای .NET
-description: نماینده مدیری است که رفتار فوتر اسلاید یادداشت اصلی، نگهدارنده‌های تاریخ-زمان، شماره صفحه و تمام نگهدارنده‌های فرزند را در بر می‌گیرد. نگهدارنده‌های فرزند به این معنی است که نگهدارنده‌ها در اسلایدهای یادداشت وابسته قرار دارند. اسلایدهای یادداشت وابسته از اسلاید یادداشت اصلی استفاده می‌کنند و به آن وابسته هستند.
+second_title: Aspose.Sildes برای .NET مرجع API
+description: نماینده‌ای که مدیریت رفتار پاصفحه اسلاید یادداشت اصلی، محل نگهدارنده تاریخ-زمان، شماره صفحه و تمام محل نگهدارنده‌های فرعی را در بر می‌گیرد. محل نگهدارنده‌های فرعی به این معنی است که این محل‌ها در اسلایدهای یادداشت وابسته قرار دارند. اسلایدهای یادداشت وابسته از اسلاید یادداشت اصلی استفاده می‌کنند و به آن وابسته هستند.
 type: docs
-weight: 6400
+weight: 6420
 url: /fa/aspose.slides/imasternotesslideheaderfootermanager/
 ---
 ## IMasterNotesSlideHeaderFooterManager رابط
 
-نماینده مدیری است که رفتار فوتر اسلاید یادداشت‌های اصلی، نگهدارنده‌های تاریخ-زمان، شماره صفحه و تمام نگهدارنده‌های فرزند را در بر می‌گیرد. نگهدارنده‌های فرزند به این معنی است که نگهدارنده‌ها در اسلایدهای یادداشت وابسته قرار دارند. اسلایدهای یادداشت وابسته از اسلاید یادداشت اصلی استفاده می‌کنند و به آن وابسته هستند.
+نمایش‌دهندهٔ مدیری است که رفتار پاصفحه اسلاید یادداشت اصلی، محل نگهدارنده تاریخ-زمان، شماره صفحه و تمام محل نگهدارنده‌های فرعی را در اختیار دارد. محل نگهدارنده‌های فرعی به این معنی است که این محل‌ها در اسلایدهای یادداشت وابسته قرار دارند. اسلایدهای یادداشت وابسته از اسلاید یادداشت اصلی استفاده می‌کنند و به آن وابسته هستند.
 
 ```csharp
 public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
 ```
 
-## خصوصیات
+## ویژگی‌ها
 
 | نام | توضیح |
 | --- | --- |
 | [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasternotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | باز می‌گرداند IBaseHandoutNotesSlideHeaderFooterManag رابط. |
 
-## متدها
+## روش‌ها
 
 | نام | توضیح |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | متن را در نگهدارنده تاریخ-زمان اسلاید یادداشت اصلی و تمام نگهدارنده‌های تاریخ-زمان فرزند تنظیم می‌کند. نگهدارنده‌های فرزند به این معنی است که نگهدارنده‌ها در اسلایدهای یادداشت وابسته قرار دارند. اسلایدهای یادداشت وابسته از اسلاید یادداشت اصلی استفاده می‌کنند و به آن وابسته هستند. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | وضعیت نمایش نگهدارنده تاریخ-زمان اسلاید یادداشت اصلی و تمام نگهدارنده‌های تاریخ-زمان فرزند را تغییر می‌دهد. نگهدارنده‌های فرزند به این معنی است که نگهدارنده‌ها در اسلایدهای یادداشت وابسته قرار دارند. اسلایدهای یادداشت وابسته از اسلاید یادداشت اصلی استفاده می‌کنند و به آن وابسته هستند. |
-| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | متن را در نگهدارنده فوتر اسلاید یادداشت اصلی و تمام نگهدارنده‌های فوتر فرزند تنظیم می‌کند. نگهدارنده‌های فرزند به این معنی است که نگهدارنده‌ها در اسلایدهای یادداشت وابسته قرار دارند. اسلایدهای یادداشت وابسته از اسلاید یادداشت اصلی استفاده می‌کنند و به آن وابسته هستند. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | وضعیت نمایش نگهدارنده فوتر اسلاید یادداشت اصلی و تمام نگهدارنده‌های فوتر فرزند را تغییر می‌دهد. نگهدارنده‌های فرزند به این معنی است که نگهدارنده‌ها در اسلایدهای یادداشت وابسته قرار دارند. اسلایدهای یادداشت وابسته از اسلاید یادداشت اصلی استفاده می‌کنند و به آن وابسته هستند. |
-| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | متن را در نگهدارنده هدر اسلاید یادداشت اصلی و تمام نگهدارنده‌های هدر فرزند تنظیم می‌کند. نگهدارنده‌های فرزند به این معنی است که نگهدارنده‌ها در اسلایدهای یادداشت وابسته قرار دارند. اسلایدهای یادداشت وابسته از اسلاید یادداشت اصلی استفاده می‌کنند و به آن وابسته هستند. |
-| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | وضعیت نمایش نگهدارنده هدر اسلاید یادداشت اصلی و تمام نگهدارنده‌های هدر فرزند را تغییر می‌دهد. نگهدارنده‌های فرزند به این معنی است که نگهدارنده‌ها در اسلایدهای یادداشت وابسته قرار دارند. اسلایدهای یادداشت وابسته از اسلاید یادداشت اصلی استفاده می‌کنند و به آن وابسته هستند. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | وضعیت نمایش نگهدارنده شماره صفحه اسلاید یادداشت اصلی و تمام نگهدارنده‌های شماره صفحه فرزند را تغییر می‌دهد. نگهدارنده‌های فرزند به این معنی است که نگهدارنده‌ها در اسلایدهای یادداشت وابسته قرار دارند. اسلایدهای یادداشت وابسته از اسلاید یادداشت اصلی استفاده می‌کنند و به آن وابسته هستند. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | متن را در محل نگهدارنده تاریخ-زمان اسلاید یادداشت اصلی و تمام محل نگهدارنده‌های تاریخ-زمان فرعی تنظیم می‌کند. محل نگهدارنده‌های فرعی به این معنی است که این محل‌ها در اسلایدهای یادداشت وابسته قرار دارند. اسلایدهای یادداشت وابسته از اسلاید یادداشت اصلی استفاده می‌کنند و به آن وابسته هستند. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | نمایانگی محل نگهدارنده تاریخ-زمان اسلاید یادداشت اصلی و تمام محل نگهدارنده‌های تاریخ-زمان فرعی را تغییر می‌دهد. محل نگهدارنده‌های فرعی به این معنی است که این محل‌ها در اسلایدهای یادداشت وابسته قرار دارند. اسلایدهای یادداشت وابسته از اسلاید یادداشت اصلی استفاده می‌کنند و به آن وابسته هستند. |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | متن را در محل نگهدارنده پاصفحه اسلاید یادداشت اصلی و تمام محل نگهدارنده‌های پاصفحه فرعی تنظیم می‌کند. محل نگهدارنده‌های فرعی به این معنی است که این محل‌ها در اسلایدهای یادداشت وابسته قرار دارند. اسلایدهای یادداشت وابسته از اسلاید یادداشت اصلی استفاده می‌کنند و به آن وابسته هستند. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | نمایانگی محل نگهدارنده پاصفحه اسلاید یادداشت اصلی و تمام محل نگهدارنده‌های پاصفحه فرعی را تغییر می‌دهد. محل نگهدارنده‌های فرعی به این معنی است که این محل‌ها در اسلایدهای یادداشت وابسته قرار دارند. اسلایدهای یادداشت وابسته از اسلاید یادداشت اصلی استفاده می‌کنند و به آن وابسته هستند. |
+| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | متن را در محل نگهدارنده سرصفحه اسلاید یادداشت اصلی و تمام محل نگهدارنده‌های سرصفحه فرعی تنظیم می‌کند. محل نگهدارنده‌های فرعی به این معنی است که این محل‌ها در اسلایدهای یادداشت وابسته قرار دارند. اسلایدهای یادداشت وابسته از اسلاید یادداشت اصلی استفاده می‌کنند و به آن وابسته هستند. |
+| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | نمایانگی محل نگهدارنده سرصفحه اسلاید یادداشت اصلی و تمام محل نگهدارنده‌های سرصفحه فرعی را تغییر می‌دهد. محل نگهدارنده‌های فرعی به این معنی است که این محل‌ها در اسلایدهای یادداشت وابسته قرار دارند. اسلایدهای یادداشت وابسته از اسلاید یادداشت اصلی استفاده می‌کنند و به آن وابسته هستند. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | نمایانگی محل نگهدارنده شماره صفحه اسلاید یادداشت اصلی و تمام محل نگهدارنده‌های شماره صفحه فرعی را تغییر می‌دهد. محل نگهدارنده‌های فرعی به این معنی است که این محل‌ها در اسلایدهای یادداشت وابسته قرار دارند. اسلایدهای یادداشت وابسته از اسلاید یادداشت اصلی استفاده می‌کنند و به آن وابسته هستند. |
 
-### موارد مرتبط
+### مراجع دیگر
 
 * رابط [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
-* فضای نام [Aspose.Slides](../../aspose.slides)
-* مجمع [Aspose.Slides](../../)
+* فضای‌نام [Aspose.Slides](../../aspose.slides)
+* مجموعه [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

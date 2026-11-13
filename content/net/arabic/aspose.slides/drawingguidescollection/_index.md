@@ -1,14 +1,14 @@
 ---
 title: DrawingGuidesCollection
-second_title: Aspose.Sildes لمرجع API .NET
-description: يمثل مجموعة من الأدلة القابلة للتعديل في الرسم.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: يمثل مجموعة من أدلة الرسم القابلة للتعديل.
 type: docs
-weight: 2820
+weight: 2840
 url: /ar/aspose.slides/drawingguidescollection/
 ---
 ## DrawingGuidesCollection فئة
 
-يمثل مجموعة من الأدلة القابلة للتعديل في الرسم.
+Represents a collection of the adjustable drawing guides.
 
 ```csharp
 public sealed class DrawingGuidesCollection : IDrawingGuidesCollection
@@ -18,20 +18,20 @@ public sealed class DrawingGuidesCollection : IDrawingGuidesCollection
 
 | الاسم | الوصف |
 | --- | --- |
-| [Count](../../aspose.slides/drawingguidescollection/count) { get; } | إرجاع عدد العناصر في المجموعة. Int32 للقراءة فقط. |
-| [Item](../../aspose.slides/drawingguidescollection/item) { get; } | إرجاع دليل الرسم حسب الفهرس. [`IDrawingGuide`](../idrawingguide) للقراءة فقط. |
+| [Count](../../aspose.slides/drawingguidescollection/count) { get; } | يعيد عدد العناصر في المجموعة. قراءة فقط Int32. |
+| [Item](../../aspose.slides/drawingguidescollection/item) { get; } | يعيد دليل الرسم حسب الفهرس. قراءة فقط [`IDrawingGuide`](../idrawingguide). |
 
-## الطرق
+## الأساليب
 
 | الاسم | الوصف |
 | --- | --- |
 | [Add](../../aspose.slides/drawingguidescollection/add)(Orientation, float) | يضيف دليل الرسم في نهاية المجموعة. |
 | [Clear](../../aspose.slides/drawingguidescollection/clear)() | يزيل جميع العناصر من المجموعة. |
-| [CopyTo](../../aspose.slides/drawingguidescollection/copyto)(IDrawingGuide[], int) | نسخ جميع العناصر من المجموعة إلى المصفوفة المحددة. |
-| [GetEnumerator](../../aspose.slides/drawingguidescollection/getenumerator)() | إرجاع كائن عداد يدور عبر المجموعة. |
+| [CopyTo](../../aspose.slides/drawingguidescollection/copyto)(IDrawingGuide[], int) | ينسخ جميع العناصر من المجموعة إلى المصفوفة المحددة. |
+| [GetEnumerator](../../aspose.slides/drawingguidescollection/getenumerator)() | يعيد مُكرّرًا يتنقل عبر المجموعة. |
 | [RemoveAt](../../aspose.slides/drawingguidescollection/removeat)(int) | يزيل دليل الرسم في الفهرس المحدد. |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * واجهة [IDrawingGuidesCollection](../idrawingguidescollection)
 * مساحة الاسم [Aspose.Slides](../../aspose.slides)

@@ -3,7 +3,7 @@ title: ModernCommentStatus
 second_title: Aspose.Sildes .NET API 参考
 description: 表示现代评论的状态。
 type: docs
-weight: 9100
+weight: 9120
 url: /zh/aspose.slides/moderncommentstatus/
 ---
 ## ModernCommentStatus 枚举
@@ -14,12 +14,12 @@ url: /zh/aspose.slides/moderncommentstatus/
 public enum ModernCommentStatus : sbyte
 ```
 
-### 值
+### Values
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
 | NotDefined | `0` | 未定义。 |
-| Active | `1` | 已激活。 |
+| Active | `1` | 活动。 |
 | Resolved | `2` | 已解决。 |
 | Closed | `3` | 已关闭。 |
 

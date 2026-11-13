@@ -3,7 +3,7 @@ title: MathVerticalAlignment
 second_title: Aspose.Sildes cho Tham chiếu API .NET
 description: Căn dọc
 type: docs
-weight: 9050
+weight: 9070
 url: /vi/aspose.slides.mathtext/mathverticalalignment/
 ---
 ## MathVerticalAlignment liệt kê
@@ -18,7 +18,7 @@ public enum MathVerticalAlignment
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| NotDefined | `0` | Giá trị chưa được xác định |
+| NotDefined | `0` | Giá trị chưa được định nghĩa |
 | Top | `1` | Trên |
 | Center | `2` | Giữa |
 | Bottom | `3` | Dưới |

@@ -1,9 +1,9 @@
 ---
 title: ChartTitle
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa las propiedades del título del gráfico.
 type: docs
-weight: 1490
+weight: 1500
 url: /es/aspose.slides.charts/charttitle/
 ---
 ## ChartTitle clase
@@ -18,10 +18,10 @@ public class ChartTitle : IChartTitle
 
 | Nombre | Descripción |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/charttitle/actualheight) { get; } | Especifica la altura real del elemento del gráfico. Llama al método IChart.ValidateChartLayout() antes para obtener los valores reales. Solo lectura Single. |
-| [ActualWidth](../../aspose.slides.charts/charttitle/actualwidth) { get; } | Especifica el ancho real del elemento del gráfico. Llama al método IChart.ValidateChartLayout() antes para obtener los valores reales. Solo lectura Single. |
-| [ActualX](../../aspose.slides.charts/charttitle/actualx) { get; } | Especifica la ubicación x real (izquierda) del elemento del gráfico relativa a la esquina superior izquierda del gráfico. Llama al método IChart.ValidateChartLayout() antes para obtener los valores reales. Solo lectura Single. |
-| [ActualY](../../aspose.slides.charts/charttitle/actualy) { get; } | Especifica la parte superior real del elemento del gráfico relativa a la esquina superior izquierda del gráfico. Llama al método IChart.ValidateChartLayout() antes para obtener los valores reales. Solo lectura Single. |
+| [ActualHeight](../../aspose.slides.charts/charttitle/actualheight) { get; } | Especifica la altura real del elemento del gráfico. Llame al método IChart.ValidateChartLayout() antes para obtener los valores reales. Solo lectura Single. |
+| [ActualWidth](../../aspose.slides.charts/charttitle/actualwidth) { get; } | Especifica el ancho real del elemento del gráfico. Llame al método IChart.ValidateChartLayout() antes para obtener los valores reales. Solo lectura Single. |
+| [ActualX](../../aspose.slides.charts/charttitle/actualx) { get; } | Especifica la ubicación x real (izquierda) del elemento del gráfico relativa a la esquina superior izquierda del gráfico. Llame al método IChart.ValidateChartLayout() antes para obtener los valores reales. Solo lectura Single. |
+| [ActualY](../../aspose.slides.charts/charttitle/actualy) { get; } | Especifica la parte superior real del elemento del gráfico relativa a la esquina superior izquierda del gráfico. Llame al método IChart.ValidateChartLayout() antes para obtener los valores reales. Solo lectura Single. |
 | [Bottom](../../aspose.slides.charts/charttitle/bottom) { get; } | Parte inferior. Solo lectura Single. |
 | [Chart](../../aspose.slides.charts/charttitle/chart) { get; } | Devuelve el gráfico padre. Solo lectura [`IChart`](../ichart). |
 | [Format](../../aspose.slides.charts/charttitle/format) { get; } | Devuelve los estilos de relleno, línea y efecto de un título. Solo lectura [`IFormat`](../iformat). |
@@ -29,7 +29,7 @@ public class ChartTitle : IChartTitle
 | [Overlay](../../aspose.slides.charts/charttitle/overlay) { get; set; } | Determina si se permite que otros elementos del gráfico se superpongan al título. Lectura/escritura Boolean. |
 | [Right](../../aspose.slides.charts/charttitle/right) { get; } | Derecha. Solo lectura Single. |
 | [TextFormat](../../aspose.slides.charts/charttitle/textformat) { get; } | Devuelve el formato de texto. Solo lectura [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | Puede contener un texto con formato enriquecido. Si esta propiedad no es nula, entonces este valor de texto con formato sobrescribe el texto autogenerado. El texto autogenerado es una propiedad implícita de la etiqueta de datos, la etiqueta de unidad de visualización del eje de valores, el título del eje, el título del gráfico, la etiqueta de la línea de tendencia. El texto autogenerado se formatea con la propiedad IFormattedTextContainer.TextFormat. Solo lectura [`ITextFrame`](../../aspose.slides/itextframe). |
+| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | Puede contener un texto con formato enriquecido. Si esta propiedad no es nula, entonces este valor de texto con formato sobrescribe el texto generado automáticamente. El texto generado automáticamente es una propiedad implícita de la etiqueta de datos, la etiqueta de unidad de visualización del eje de valores, el título del eje, el título del gráfico, la etiqueta de la línea de tendencia. El texto generado automáticamente se formatea con la propiedad IFormattedTextContainer.TextFormat. Solo lectura [`ITextFrame`](../../aspose.slides/itextframe). |
 | [Width](../../aspose.slides.charts/charttitle/width) { get; set; } | Devuelve o establece el ancho de un título como una fracción del ancho del gráfico. Lectura/escritura Single. |
 | [X](../../aspose.slides.charts/charttitle/x) { get; set; } | Devuelve o establece la coordenada x de un título como una fracción del ancho del gráfico. Lectura/escritura Single. |
 | [Y](../../aspose.slides.charts/charttitle/y) { get; set; } | Devuelve o establece la coordenada y de un título como una fracción de la altura del gráfico. Lectura/escritura Single. |
@@ -38,7 +38,7 @@ public class ChartTitle : IChartTitle
 
 | Nombre | Descripción |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/charttitle/addtextframeforoverriding)(string) | Inicializa TextFrameForOverriding con el texto en el parámetro "text". Si TextFrameForOverriding ya está inicializado, simplemente cambia su texto. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/charttitle/addtextframeforoverriding)(string) | Inicializa TextFrameForOverriding con el texto del parámetro "text". Si TextFrameForOverriding ya está inicializado, simplemente cambia su texto. |
 
 ### Ver también
 

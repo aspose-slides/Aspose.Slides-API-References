@@ -1,14 +1,14 @@
 ---
 title: RelatedLegendEntry
 second_title: Aspose.Sildes for .NET API リファレンス
-description: "このリストのチャートタイプの場合の対応する凡例エントリのプロパティ: ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie。読み取り専用 ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties."
+description: このリストのチャートタイプの場合、対応する凡例エントリのプロパティ ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie。読み取り専用 ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
 type: docs
-weight: 160
+weight: 200
 url: /ja/aspose.slides.charts/chartdatapoint/relatedlegendentry/
 ---
 ## ChartDataPoint.RelatedLegendEntry プロパティ
 
-このリストのチャートタイプの場合の対応する凡例エントリのプロパティ: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. 読み取り専用 [`ILegendEntryProperties`](../../ilegendentryproperties)。
+このリストのチャートタイプの場合、対応する凡例エントリのプロパティ: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie。読み取り専用 [`ILegendEntryProperties`](../../ilegendentryproperties)。
 
 ```csharp
 public ILegendEntryProperties RelatedLegendEntry { get; }

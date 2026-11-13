@@ -3,10 +3,10 @@ title: IChartDataPoint
 second_title: Aspose.Sildes için .NET API Referansı
 description: Seri veri noktasını temsil eder.
 type: docs
-weight: 1820
+weight: 1840
 url: /tr/aspose.slides.charts/ichartdatapoint/
 ---
-## IChartDataPoint arayüzü
+## IChartDataPoint arayüz
 
 Seri veri noktasını temsil eder.
 
@@ -16,33 +16,37 @@ public interface IChartDataPoint : IActualLayout
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [AsIActualLayout](../../aspose.slides.charts/ichartdatapoint/asiactuallayout) { get; } | IActualLayout arabirimini döndürür. |
-| [BubbleSize](../../aspose.slides.charts/ichartdatapoint/bubblesize) { get; } | Grafik veri noktasının baloncuk boyutunu döndürür. Salt okunur [`IDoubleChartValue`](../idoublechartvalue). |
-| [ColorValue](../../aspose.slides.charts/ichartdatapoint/colorvalue) { get; } | Grafik veri noktasının renk değerini döndürür. Harita grafiklerinde kullanılır. Salt okunur [`IDoubleChartValue`](../idoublechartvalue). |
-| [DataPointLevels](../../aspose.slides.charts/ichartdatapoint/datapointlevels) { get; } | Veri noktası seviyelerinin kapsayıcısını döndürür. Treeamp ve Sunburst serileri için uygulanır. Veri noktası seviyesi indekslemesi sıfır tabanlıdır. |
-| [ErrorBarsCustomValues](../../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) { get; } | Özel değer tipi durumunda seri hata çubukları değerlerini temsil eder. Salt okunur [`IErrorBarsCustomValues`](../ierrorbarscustomvalues). |
-| [Explosion](../../aspose.slides.charts/ichartdatapoint/explosion) { get; set; } | Veri noktasının pasta merkezinden ne kadar kaydırılacağını belirtir. Okunur/yazılır Int32. |
-| [Format](../../aspose.slides.charts/ichartdatapoint/format) { get; set; } | Biçimlendirme özelliklerini temsil eder. Okunur/yazılır [`IFormat`](../iformat). |
-| [Index](../../aspose.slides.charts/ichartdatapoint/index) { get; } | Bu veri noktasının ebeveynin çocuklar koleksiyonunun hangisine uygulandığını belirler. Okunur UInt32. |
-| [InvertIfNegative](../../aspose.slides.charts/ichartdatapoint/invertifnegative) { get; set; } | Değer negatif olduğunda veri noktasının renklerini tersine çevireceğini belirtir. Okunur/yazılır Boolean. |
-| [IsBubble3D](../../aspose.slides.charts/ichartdatapoint/isbubble3d) { get; set; } | Baloncukların 3B efektine sahip olduğunu belirtir. Okunur/yazılır Boolean. |
-| [Label](../../aspose.slides.charts/ichartdatapoint/label) { get; } | Grafik veri noktasının etiketini temsil eder. Salt okunur [`IDataLabel`](../idatalabel). |
-| [Marker](../../aspose.slides.charts/ichartdatapoint/marker) { get; } | Bir veri işaretleyicisini belirtir. Salt okunur [`IMarker`](../imarker). |
-| [RelatedLegendEntry](../../aspose.slides.charts/ichartdatapoint/relatedlegendentry) { get; } | Bu listedeki grafik tiplerinden biri olduğunda ilgili lejand girişi özellikleri: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Salt okunur [`ILegendEntryProperties`](../ilegendentryproperties). |
-| [SetAsTotal](../../aspose.slides.charts/ichartdatapoint/setastotal) { get; set; } | Veri noktasını toplam olarak ayarlar. Yalnızca Waterfall seri tipi için uygulanır. |
-| [SizeValue](../../aspose.slides.charts/ichartdatapoint/sizevalue) { get; } | Grafik veri noktasının boyut değerini döndürür. Treemap ve Sunburst grafiklerinde kullanılır. Salt okunur [`IDoubleChartValue`](../idoublechartvalue). |
-| [Value](../../aspose.slides.charts/ichartdatapoint/value) { get; } | Grafik veri noktasının değerini döndürür. Salt okunur [`IDoubleChartValue`](../idoublechartvalue). |
-| [XValue](../../aspose.slides.charts/ichartdatapoint/xvalue) { get; } | Grafik veri noktasının x değerini döndürür. Salt okunur [`IStringOrDoubleChartValue`](../istringordoublechartvalue). |
-| [YValue](../../aspose.slides.charts/ichartdatapoint/yvalue) { get; } | Grafik veri noktasının y değerini döndürür. Salt okunur [`IDoubleChartValue`](../idoublechartvalue). |
+| [AsIActualLayout](../../aspose.slides.charts/ichartdatapoint/asiactuallayout) { get; } | IActualLayout arayüzünü döndürür. |
+| [BubbleSize](../../aspose.slides.charts/ichartdatapoint/bubblesize) { get; } | Bir grafik veri noktasının baloncuk boyutunu alır. Sadece okuma [`IDoubleChartValue`](../idoublechartvalue). |
+| [CachedBubbleSize](../../aspose.slides.charts/ichartdatapoint/cachedbubblesize) { get; } | Bir grafik veri noktasının önbelleğe alınmış baloncuk boyutunu alır. Sadece okuma [`ICachedChartValue`](../icachedchartvalue). |
+| [CachedValue](../../aspose.slides.charts/ichartdatapoint/cachedvalue) { get; } | Bir grafik veri noktasının önbelleğe alınmış değerini alır. Sadece okuma [`ICachedChartValue`](../icachedchartvalue). |
+| [CachedXValue](../../aspose.slides.charts/ichartdatapoint/cachedxvalue) { get; } | Bir grafik veri noktasının önbelleğe alınmış X değerini alır. Sadece okuma [`ICachedChartValue`](../icachedchartvalue). |
+| [CachedYValue](../../aspose.slides.charts/ichartdatapoint/cachedyvalue) { get; } | Bir grafik veri noktasının önbelleğe alınmış Y değerini alır. Sadece okuma [`ICachedChartValue`](../icachedchartvalue). |
+| [ColorValue](../../aspose.slides.charts/ichartdatapoint/colorvalue) { get; } | Bir grafik veri noktasının renk değerini alır. Harita grafiklerinde kullanılır. Sadece okuma [`IDoubleChartValue`](../idoublechartvalue). |
+| [DataPointLevels](../../aspose.slides.charts/ichartdatapoint/datapointlevels) { get; } | Veri noktası seviyelerinin konteynerini döndürür. Treeamp ve Sunburst serileri için uygulanır. Veri noktası seviyesi indekslemesi sıfır tabanlıdır. |
+| [ErrorBarsCustomValues](../../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) { get; } | Özel değer türü durumunda seri hata çubukları değerlerini temsil eder. Sadece okuma [`IErrorBarsCustomValues`](../ierrorbarscustomvalues). |
+| [Explosion](../../aspose.slides.charts/ichartdatapoint/explosion) { get; set; } | Veri noktasının pasta merkezinden ne kadar taşınacağını belirtir. Okunur/yazılabilir Int32. |
+| [Format](../../aspose.slides.charts/ichartdatapoint/format) { get; set; } | Biçimlendirme özelliklerini temsil eder. Okunur/yazılabilir [`IFormat`](../iformat). |
+| [Index](../../aspose.slides.charts/ichartdatapoint/index) { get; } | Bu veri noktasının ebeveynin çocuk koleksiyonundan hangisine uygulandığını belirler. Okunur UInt32. |
+| [InvertIfNegative](../../aspose.slides.charts/ichartdatapoint/invertifnegative) { get; set; } | Değer negatifse veri noktasının renklerini tersine çevireceğini belirtir. Okunur/yazılabilir Boolean. |
+| [IsBubble3D](../../aspose.slides.charts/ichartdatapoint/isbubble3d) { get; set; } | Baloncukların 3-B etkisine sahip olacağını belirtir. Okunur/yazılabilir Boolean. |
+| [Label](../../aspose.slides.charts/ichartdatapoint/label) { get; } | Bir grafik veri noktasının etiketini temsil eder. Sadece okuma [`IDataLabel`](../idatalabel). |
+| [Marker](../../aspose.slides.charts/ichartdatapoint/marker) { get; } | Bir veri işaretçisini belirtir. Sadece okuma [`IMarker`](../imarker). |
+| [RelatedLegendEntry](../../aspose.slides.charts/ichartdatapoint/relatedlegendentry) { get; } | Bu listedeki grafik türlerinden biri olduğunda ilgili lejand girişinin özellikleri: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Sadece okuma [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [SetAsTotal](../../aspose.slides.charts/ichartdatapoint/setastotal) { get; set; } | Veri noktasını toplam olarak ayarlar. Yalnızca Waterfall seri türü için uygulanır. |
+| [SizeValue](../../aspose.slides.charts/ichartdatapoint/sizevalue) { get; } | Bir grafik veri noktasının boyut değerini alır. Treemap ve Sunburst grafiklerinde kullanılır. Sadece okuma [`IDoubleChartValue`](../idoublechartvalue). |
+| [Value](../../aspose.slides.charts/ichartdatapoint/value) { get; } | Bir grafik veri noktasının değerini alır. Sadece okuma [`IDoubleChartValue`](../idoublechartvalue). |
+| [XValue](../../aspose.slides.charts/ichartdatapoint/xvalue) { get; } | Bir grafik veri noktasının x değerini alır. Sadece okuma [`IStringOrDoubleChartValue`](../istringordoublechartvalue). |
+| [YValue](../../aspose.slides.charts/ichartdatapoint/yvalue) { get; } | Bir grafik veri noktasının y değerini alır. Sadece okuma [`IDoubleChartValue`](../idoublechartvalue). |
 
-## Yöntemler
+## Metotlar
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [GetAutomaticDataPointColor](../../aspose.slides.charts/ichartdatapoint/getautomaticdatapointcolor)() | Veri noktasının seri indeksi, veri noktası indeksi, ParentSeriesGroup.IsColorVaried özelliği ve grafik stiline dayanarak otomatik bir renk döndürür. FillType NotDefined olduğunda bu renk varsayılan olarak kullanılır. |
-| [Remove](../../aspose.slides.charts/ichartdatapoint/remove)() | DataPoint'i grafik serisinden kaldırır. |
+| [GetAutomaticDataPointColor](../../aspose.slides.charts/ichartdatapoint/getautomaticdatapointcolor)() | Seri indeksine, veri noktası indeksine, ParentSeriesGroup.IsColorVaried özelliğine ve grafik stiline göre veri noktasının otomatik rengini döndürür. Bu renk, FillType NotDefined olduğunda varsayılan olarak kullanılır. |
+| [Remove](../../aspose.slides.charts/ichartdatapoint/remove)() | Veri noktasını grafik serisinden kaldırır. |
 
 ### Ayrıca Bakınız
 

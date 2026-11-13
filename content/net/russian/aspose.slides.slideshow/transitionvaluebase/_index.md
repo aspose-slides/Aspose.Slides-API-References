@@ -1,9 +1,9 @@
 ---
 title: TransitionValueBase
-second_title: Aspose.Sildes для справочника API .NET
+second_title: Aspose.Sildes для .NET справка по API
 description: Базовый класс для эффектов перехода слайдов.
 type: docs
-weight: 10460
+weight: 10480
 url: /ru/aspose.slides.slideshow/transitionvaluebase/
 ---
 ## TransitionValueBase класс

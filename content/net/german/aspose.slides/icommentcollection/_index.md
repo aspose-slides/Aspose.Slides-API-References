@@ -3,7 +3,7 @@ title: ICommentCollection
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Sammlung von Kommentaren eines Autors dar.
 type: docs
-weight: 5590
+weight: 5610
 url: /de/aspose.slides/icommentcollection/
 ---
 ## ICommentCollection Schnittstelle
@@ -18,7 +18,7 @@ public interface ICommentCollection : IGenericCollection<IComment>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Item](../../aspose.slides/icommentcollection/item) { get; } | Ruft das Element am angegebenen Index ab. Nur lesend [`IComment`](../icomment). |
+| [Item](../../aspose.slides/icommentcollection/item) { get; } | Gibt das Element am angegebenen Index zurück. Nur-Lesen [`IComment`](../icomment). |
 
 ## Methoden
 
@@ -29,10 +29,10 @@ public interface ICommentCollection : IGenericCollection<IComment>
 | [Clear](../../aspose.slides/icommentcollection/clear)() | Entfernt alle Kommentare aus einer Sammlung. |
 | [InsertComment](../../aspose.slides/icommentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | Fügt einen neuen Kommentar in eine Sammlung an dem angegebenen Index ein. |
 | [InsertModernComment](../../aspose.slides/icommentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | Fügt einen neuen modernen Kommentar in eine Sammlung an dem angegebenen Index ein. |
-| [Remove](../../aspose.slides/icommentcollection/remove)(IComment) | Entfernt das erste Vorkommen des angegebenen Kommentars aus einer Sammlung. |
-| [RemoveAt](../../aspose.slides/icommentcollection/removeat)(int) | Entfernt das Element am angegebenen Index aus einer Sammlung. |
-| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray)() | Erstellt und gibt ein Array mit allen Kommentaren zurück. |
-| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray_1)(int, int) | Erstellt und gibt ein Array mit allen Kommentaren aus dem angegebenen Bereich zurück. |
+| [Remove](../../aspose.slides/icommentcollection/remove)(IComment) | Entfernt das erste Vorkommen des angegebenen Kommentars in einer Sammlung. |
+| [RemoveAt](../../aspose.slides/icommentcollection/removeat)(int) | Entfernt das Element am angegebenen Index in einer Sammlung. |
+| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray)() | Erstellt und liefert ein Array mit allen Kommentaren. |
+| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray_1)(int, int) | Erstellt und liefert ein Array mit allen Kommentaren aus dem angegebenen Bereich. |
 
 ### Siehe auch
 

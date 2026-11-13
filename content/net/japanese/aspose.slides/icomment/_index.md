@@ -3,7 +3,7 @@ title: IComment
 second_title: Aspose.Sildes for .NET API リファレンス
 description: スライド上のコメントを表します。
 type: docs
-weight: 5560
+weight: 5580
 url: /ja/aspose.slides/icomment/
 ---
 ## IComment インターフェイス
@@ -18,8 +18,8 @@ public interface IComment
 
 | 名前 | 説明 |
 | --- | --- |
-| [Author](../../aspose.slides/icomment/author) { get; } | コメントの作成者を返します。読み取り専用 [`ICommentAuthor`](../icommentauthor)。 |
-| [CreatedTime](../../aspose.slides/icomment/createdtime) { get; set; } | コメント作成時刻を取得または設定します。このプロパティに MinValue を設定すると、コメント時刻が設定されていないことを意味します。読み書き可能 DateTime。 |
+| [Author](../../aspose.slides/icomment/author) { get; } | コメントの作成者を取得します。読み取り専用 [`ICommentAuthor`](../icommentauthor)。 |
+| [CreatedTime](../../aspose.slides/icomment/createdtime) { get; set; } | コメント作成時刻を取得または設定します。プロパティを MinValue に設定すると、コメント時刻が設定されていないことを意味します。読み書き可能 DateTime。 |
 | [ParentComment](../../aspose.slides/icomment/parentcomment) { get; set; } | 親コメントを取得または設定します。読み書き可能 [`IComment`](../icomment)。 |
 | [Position](../../aspose.slides/icomment/position) { get; set; } | スライド上のコメントの位置を取得または設定します。読み書き可能 PointF。 |
 | [Slide](../../aspose.slides/icomment/slide) { get; } | コメントの親スライドを取得または設定します。読み取り専用 [`ISlide`](../islide)。 |
@@ -29,7 +29,7 @@ public interface IComment
 
 | 名前 | 説明 |
 | --- | --- |
-| [Remove](../../aspose.slides/icomment/remove)() | 親コレクションからコメントとそのすべての返信を削除します。 |
+| [Remove](../../aspose.slides/icomment/remove)() | コメントとそのすべての返信を親コレクションから削除します。 |
 
 ### 参照
 

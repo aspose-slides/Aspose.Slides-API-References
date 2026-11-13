@@ -1,14 +1,14 @@
 ---
 title: LineFillFormat
-second_title: مرجع API لـ Aspose.Sildes للـ .NET
-description: يمثل خصائص تعبئة الخطوط.
+second_title: Aspose.Sildes لمرجع API .NET
+description: يمثل الخصائص لتعبئة الخطوط.
 type: docs
-weight: 7780
+weight: 7800
 url: /ar/aspose.slides/linefillformat/
 ---
 ## فئة LineFillFormat
 
-يمثل خصائص تعبئة الخطوط.
+يمثل الخصائص لتعبئة الخطوط.
 
 ```csharp
 public sealed class LineFillFormat : PVIObject, ILineFillFormat
@@ -19,18 +19,18 @@ public sealed class LineFillFormat : PVIObject, ILineFillFormat
 | الاسم | الوصف |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | يسمح بالحصول على واجهة IPresentationComponent الأساسية. للقراءة فقط [`IPresentationComponent`](../ipresentationcomponent). |
-| [FillType](../../aspose.slides/linefillformat/filltype) { get; set; } | يُعيد أو يضبط نوع التعبئة. قراءة/كتابة [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/linefillformat/gradientformat) { get; } | يُعيد تنسيق تعبئة التدرج. للقراءة فقط [`IGradientFormat`](../igradientformat). |
-| [PatternFormat](../../aspose.slides/linefillformat/patternformat) { get; } | يُعيد تنسيق تعبئة النمط. للقراءة فقط [`IPatternFormat`](../ipatternformat). |
+| [FillType](../../aspose.slides/linefillformat/filltype) { get; set; } | يعيد أو يحدد نوع التعبئة. قراءة/كتابة [`FillType`](../filltype). |
+| [GradientFormat](../../aspose.slides/linefillformat/gradientformat) { get; } | يعيد تنسيق التعبئة المتدرجة. للقراءة فقط [`IGradientFormat`](../igradientformat). |
+| [PatternFormat](../../aspose.slides/linefillformat/patternformat) { get; } | يعيد تنسيق التعبئة النمطية. للقراءة فقط [`IPatternFormat`](../ipatternformat). |
 | [RotateWithShape](../../aspose.slides/linefillformat/rotatewithshape) { get; set; } | يحدد ما إذا كان يجب تدوير التعبئة مع الشكل. قراءة/كتابة [`NullableBool`](../nullablebool). |
-| [SolidFillColor](../../aspose.slides/linefillformat/solidfillcolor) { get; } | يُعيد لون التعبئة الصلبة. للقراءة فقط [`IColorFormat`](../icolorformat). |
+| [SolidFillColor](../../aspose.slides/linefillformat/solidfillcolor) { get; } | يعيد لون التعبئة الصلبة. للقراءة فقط [`IColorFormat`](../icolorformat). |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | يقارن مع الكائن المحدد. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | يُعيد قيمة تجزئة الكود. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | يعيد رمز التجزئة. |
 
 ### انظر أيضًا
 

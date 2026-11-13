@@ -1,14 +1,14 @@
 ---
 title: Portion
-second_title: Aspose.Sildes para .NET – Referência da API
-description: Representa uma porção de texto dentro de um parágrafo de texto.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Representa uma parte de texto dentro de um parágrafo de texto.
 type: docs
-weight: 9460
+weight: 9480
 url: /pt/aspose.slides/portion/
 ---
 ## Portion classe
 
-Representa uma porção de texto dentro de um parágrafo de texto.
+Representa uma parte de texto dentro de um parágrafo de texto.
 
 ```csharp
 public class Portion : IPortion
@@ -26,21 +26,21 @@ public class Portion : IPortion
 
 | Nome | Descrição |
 | --- | --- |
-| [Field](../../aspose.slides/portion/field) { get; } | Retorna um campo desta porção. Somente leitura [`IField`](../ifield). |
-| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Retorna o objeto de formatação que contém propriedades de formatação definidas explicitamente da porção de texto sem herança aplicada. Somente leitura [`IPortionFormat`](../iportionformat). |
-| [Text](../../aspose.slides/portion/text) { get; set; } | Obtém ou define o texto simples de uma porção. Leitura/gravação String. |
+| [Field](../../aspose.slides/portion/field) { get; } | Retorna um campo desta parte. Somente leitura [`IField`](../ifield). |
+| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Retorna o objeto de formatação que contém propriedades de formatação definidas explicitamente da parte de texto sem herança aplicada. Somente leitura [`IPortionFormat`](../iportionformat). |
+| [Text](../../aspose.slides/portion/text) { get; set; } | Obtém ou define o texto simples de uma parte. Leitura/escrita String. |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
-| [AddField](../../aspose.slides/portion/addfield#addfield)(IFieldType) | Converte esta porção para o campo atualizado automaticamente. |
-| [AddField](../../aspose.slides/portion/addfield#addfield_1)(string) | Converte esta porção para o campo atualizado automaticamente. |
-| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Obtém as coordenadas do início da porção. A coordenada X do ponto representa o início da porção a partir do primeiro caractere, incluindo a largura lateral esquerda. A coordenada Y inclui a largura superior. |
-| [GetRect](../../aspose.slides/portion/getrect)() | Obtém as coordenadas do retângulo que delimita a porção. O retângulo inclui todas as linhas de texto na porção, incluindo linhas vazias. |
-| [RemoveField](../../aspose.slides/portion/removefield)() | Converte esta porção de campo para a porção simples. |
+| [AddField](../../aspose.slides/portion/addfield#addfield)(IFieldType) | Converte esta parte em um campo atualizado automaticamente. |
+| [AddField](../../aspose.slides/portion/addfield#addfield_1)(string) | Converte esta parte em um campo atualizado automaticamente. |
+| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Obtém as coordenadas do início da parte. A coordenada X do ponto representa o início da parte a partir do primeiro caractere, incluindo a margem à esquerda. A coordenada Y inclui a margem superior. |
+| [GetRect](../../aspose.slides/portion/getrect)() | Obtém as coordenadas do retângulo que delimita a parte. O retângulo inclui todas as linhas de texto na parte, incluindo as vazias. |
+| [RemoveField](../../aspose.slides/portion/removefield)() | Converte esta parte de campo em uma parte simples. |
 
-### Ver também
+### Veja Também
 
 * interface [IPortion](../iportion)
 * namespace [Aspose.Slides](../../aspose.slides)

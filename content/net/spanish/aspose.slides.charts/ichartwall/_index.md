@@ -3,7 +3,7 @@ title: IChartWall
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa paredes en gráficos 3d.
 type: docs
-weight: 2010
+weight: 2030
 url: /es/aspose.slides.charts/ichartwall/
 ---
 ## IChartWall interfaz
@@ -18,7 +18,7 @@ public interface IChartWall
 
 | Nombre | Descripción |
 | --- | --- |
-| [Format](../../aspose.slides.charts/ichartwall/format) { get; } | Devuelve el relleno de la pared, línea, efecto, estilos 3d. Solo lectura [`IFormat`](../iformat). |
+| [Format](../../aspose.slides.charts/ichartwall/format) { get; } | Devuelve el relleno de la pared, la línea, el efecto, los estilos 3d. Solo lectura [`IFormat`](../iformat). |
 | [PictureType](../../aspose.slides.charts/ichartwall/picturetype) { get; set; } | Devuelve o establece el tipo de imagen. Lectura/escritura [`PictureType`](./picturetype). |
 | [Thickness](../../aspose.slides.charts/ichartwall/thickness) { get; set; } | Devuelve o establece el grosor de las paredes como un porcentaje de la mayor dimensión del volumen del gráfico. Lectura/escritura Int32. |
 

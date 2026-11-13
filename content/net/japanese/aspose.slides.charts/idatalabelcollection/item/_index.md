@@ -1,14 +1,14 @@
 ---
 title: Item
-second_title: Aspose.Sildes for .NET API リファレンス
-description: 指定されたインデックスを持つデータポイントのデータラベルを取得します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: 指定されたインデックスを持つデータ ポイントのデータ ラベルを取得します。
 type: docs
-weight: 70
+weight: 80
 url: /ja/aspose.slides.charts/idatalabelcollection/item/
 ---
 ## IDataLabelCollection インデクサ
 
-指定されたインデックスを持つデータポイントのデータラベルを取得します。
+指定されたインデックスを持つデータ ポイントのデータ ラベルを取得します。
 
 ```csharp
 public IDataLabel this[int index] { get; }
@@ -16,7 +16,9 @@ public IDataLabel this[int index] { get; }
 
 ### 備考
 
-データラベルにアクセスする別の方法は次のとおりです: - SeriesEx.DataPoints[i].Label - ラベル プロパティを管理します。
+データ ラベルにアクセスする代替方法は次のとおりです:
+- SeriesEx.DataPoints[i].Label
+- ラベル プロパティを管理する。
 
 ### 参照
 

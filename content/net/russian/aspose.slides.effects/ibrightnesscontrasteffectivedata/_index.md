@@ -3,7 +3,7 @@ title: IBrightnessContrastEffectiveData
 second_title: Aspose.Sildes для .NET справочник API
 description: Неизменяемый объект, представляющий эффект BrightnessContrast. Регулирует яркость и контраст
 type: docs
-weight: 3210
+weight: 3230
 url: /ru/aspose.slides.effects/ibrightnesscontrasteffectivedata/
 ---
 ## IBrightnessContrastEffectiveData интерфейс

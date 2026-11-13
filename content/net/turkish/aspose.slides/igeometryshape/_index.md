@@ -1,14 +1,14 @@
 ---
 title: IGeometryShape
-second_title: Aspose.Slides için .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Tüm geometrik şekiller için üst sınıfı temsil eder.
 type: docs
-weight: 5980
+weight: 6000
 url: /tr/aspose.slides/igeometryshape/
 ---
-## IGeometryShape arayüzü
+## IGeometryShape arayüz
 
-Tüm geometrik şekiller için üst sınıfı temsil eder.
+Represents the parent class for all geometric shapes.
 
 ```csharp
 public interface IGeometryShape : IShape
@@ -21,16 +21,16 @@ public interface IGeometryShape : IShape
 | [Adjustments](../../aspose.slides/igeometryshape/adjustments) { get; } | Şeklin ayar değerlerinin bir koleksiyonunu döndürür. Salt okunur [`IAdjustValueCollection`](../iadjustvaluecollection). |
 | [AsIShape](../../aspose.slides/igeometryshape/asishape) { get; } | Temel IShape arayüzünü almayı sağlar. Salt okunur [`IShape`](../ishape). |
 | [ShapeStyle](../../aspose.slides/igeometryshape/shapestyle) { get; } | Şeklin stil nesnesini döndürür. Salt okunur [`IShapeStyle`](../ishapestyle). |
-| [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | Geometri ön ayar tipini döndürür veya ayarlar. Not: değer değiştiğinde tüm ayar değerleri varsayılan değerlerine sıfırlanır. Okunur/yazılabilir [`ShapeType`](../shapetype). |
+| [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | Geometri ön ayar tipini döndürür veya ayarlar. Not: değer değiştiğinde tüm ayar değerleri varsayılan değerlerine geri sıfırlanır. Okunur/Yazılır [`ShapeType`](../shapetype). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | [CreateShapeElements](../../aspose.slides/igeometryshape/createshapeelements)() | Şeklin öğelerinin bir dizisini oluşturur ve döndürür. |
-| [GetGeometryPaths](../../aspose.slides/igeometryshape/getgeometrypaths)() | Geometri şeklinin yolunun bir kopyasını döndürür. Koordinatlar şeklin sol üst köşesine göre relatiftir. |
-| [SetGeometryPath](../../aspose.slides/igeometryshape/setgeometrypath)(IGeometryPath) | Şekil geometrisini [`IGeometryPath`](../igeometrypath) nesnesinden günceller. Koordinatlar şeklin sol üst köşesine göre relatiftir. Şeklin tipini ([`ShapeType`](./shapetype)) Custom olarak değiştirir. |
-| [SetGeometryPaths](../../aspose.slides/igeometryshape/setgeometrypaths)(IGeometryPath[]) | Şekil geometrisini [`IGeometryPath`](../igeometrypath) dizisinden günceller. Koordinatlar şeklin sol üst köşesine göre relatiftir. Şeklin tipini ([`ShapeType`](./shapetype)) Custom olarak değiştirir. |
+| [GetGeometryPaths](../../aspose.slides/igeometryshape/getgeometrypaths)() | Geometri şeklinin yolunun bir kopyasını döndürür. Koordinatlar, şeklin sol üst köşesine göre görecelidir. |
+| [SetGeometryPath](../../aspose.slides/igeometryshape/setgeometrypath)(IGeometryPath) | [`IGeometryPath`](../igeometrypath) nesnesinden şekil geometrisini günceller. Koordinatlar, şeklin sol üst köşesine göre göreceli olmalıdır. Şeklin tipini ([`ShapeType`](./shapetype)) Custom'e değiştirir. |
+| [SetGeometryPaths](../../aspose.slides/igeometryshape/setgeometrypaths)(IGeometryPath[]) | [`IGeometryPath`](../igeometrypath) dizisinden şekil geometrisini günceller. Koordinatlar, şeklin sol üst köşesine göre göreceli olmalıdır. Şeklin tipini ([`ShapeType`](./shapetype)) Custom'e değiştirir. |
 
 ### Ayrıca Bakınız
 

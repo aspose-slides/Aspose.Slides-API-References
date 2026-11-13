@@ -3,7 +3,7 @@ title: IShapeElement
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en del av en form med samma kontur- och fyllningsegenskaper.
 type: docs
-weight: 6990
+weight: 7010
 url: /sv/aspose.slides/ishapeelement/
 ---
 ## IShapeElement gränssnitt

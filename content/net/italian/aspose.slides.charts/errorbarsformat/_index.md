@@ -1,14 +1,14 @@
 ---
 title: ErrorBarsFormat
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta le barre di errore delle serie di grafico. I valori personalizzati di ErrorBars si trovano in IChartDataPointCollection nella proprietà ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues.
+second_title: Aspose.Sildes for .NET API Riferimento
+description: Rappresenta le barre di errore delle serie del grafico. I valori personalizzati di ErrorBars si trovano in IChartDataPointCollection nella proprietà ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues.
 type: docs
-weight: 1670
+weight: 1680
 url: /it/aspose.slides.charts/errorbarsformat/
 ---
 ## classe ErrorBarsFormat
 
-Rappresenta le barre di errore di una serie di grafico. I valori personalizzati di ErrorBars si trovano in IChartDataPointCollection (nella proprietà [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues)).
+Rappresenta le barre di errore delle serie del grafico. I valori personalizzati di ErrorBars sono in IChartDataPointCollection (nella proprietà [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues)).
 
 ```csharp
 public class ErrorBarsFormat : DomObject<ChartSeries>, IErrorBarsFormat
@@ -19,12 +19,12 @@ public class ErrorBarsFormat : DomObject<ChartSeries>, IErrorBarsFormat
 | Nome | Descrizione |
 | --- | --- |
 | [Chart](../../aspose.slides.charts/errorbarsformat/chart) { get; } | Restituisce il grafico padre. Solo lettura [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/errorbarsformat/format) { get; set; } | Rappresenta il formato delle barre di errore. Lettura/Scrittura [`IFormat`](../iformat). |
-| [HasEndCap](../../aspose.slides.charts/errorbarsformat/hasendcap) { get; set; } | Specifica che non viene disegnata una copertura terminale sulle barre di errore. Lettura/Scrittura Boolean. |
-| [IsVisible](../../aspose.slides.charts/errorbarsformat/isvisible) { get; set; } | Ottiene o imposta la visibilità delle barre di errore. Lettura/Scrittura Boolean. |
-| [Type](../../aspose.slides.charts/errorbarsformat/type) { get; set; } | Ottiene o imposta il tipo di barre di errore. Lettura/Scrittura [`ErrorBarType`](../errorbartype). |
-| [Value](../../aspose.slides.charts/errorbarsformat/value) { get; set; } | Ottiene o imposta il valore utilizzato con i tipi Fixed, Percentage e StandardDeviation per determinare la lunghezza delle barre di errore. In tutti gli altri casi restituisce NaN. Lettura/Scrittura Single. |
-| [ValueType](../../aspose.slides.charts/errorbarsformat/valuetype) { get; set; } | Rappresenta i modi possibili per determinare la lunghezza delle barre di errore. In caso di tipo valore custom, usare la proprietà [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) del punto dati specifico nella collezione DataPoints della serie. In caso di tipo Fixed, Percentage o StandardDeviation, usare la proprietà Value per specificare il valore. Lettura/Scrittura [`ErrorBarValueType`](../errorbarvaluetype). |
+| [Format](../../aspose.slides.charts/errorbarsformat/format) { get; set; } | Rappresenta il formato delle barre di errore. Lettura/scrittura [`IFormat`](../iformat). |
+| [HasEndCap](../../aspose.slides.charts/errorbarsformat/hasendcap) { get; set; } | Specifica che un cap finale non viene disegnato sulle barre di errore. Lettura/scrittura Boolean. |
+| [IsVisible](../../aspose.slides.charts/errorbarsformat/isvisible) { get; set; } | Ottiene o imposta la visibilità delle barre di errore. Lettura/scrittura Boolean. |
+| [Type](../../aspose.slides.charts/errorbarsformat/type) { get; set; } | Ottiene o imposta il tipo di barre di errore. Lettura/scrittura [`ErrorBarType`](../errorbartype). |
+| [Value](../../aspose.slides.charts/errorbarsformat/value) { get; set; } | Ottiene o imposta il valore utilizzato con i tipi di valore Fixed, Percentage e StandardDeviation per determinare la lunghezza delle barre di errore. In qualsiasi altro caso restituisce NaN. Lettura/scrittura Single. |
+| [ValueType](../../aspose.slides.charts/errorbarsformat/valuetype) { get; set; } | Rappresenta i possibili metodi per determinare la lunghezza delle barre di errore. Nel caso di tipo di valore personalizzato per specificare il valore, utilizzare la proprietà [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) del punto dati specifico nella raccolta DataPoints della serie. Nel caso di tipo di valore Fixed, Percentage o StandardDeviation, utilizzare la proprietà Value per specificare il valore. Lettura/scrittura [`ErrorBarValueType`](../errorbarvaluetype). |
 
 ### Vedi anche
 

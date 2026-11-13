@@ -3,7 +3,7 @@ title: Picture
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt ein Bild in einer Präsentation dar.
 type: docs
-weight: 9380
+weight: 9400
 url: /de/aspose.slides/picture/
 ---
 ## Picture Klasse
@@ -18,19 +18,19 @@ public sealed class Picture : ISlidesPicture
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/picture/asipresentationcomponent) { get; } | Ermöglicht das Abrufen der Basisschnittstelle IPresentationComponent. Nur lesbar [`IPresentationComponent`](../ipresentationcomponent). |
-| [Image](../../aspose.slides/picture/image) { get; set; } | Gibt das eingebettete Bild zurück oder setzt es. Lesen/Schreiben [`IPPImage`](../ippimage). |
-| [ImageTransform](../../aspose.slides/picture/imagetransform) { get; } | Gibt die Sammlung der Bildtransformations-Effekte zurück. Nur lesbar [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
-| [LinkPathLong](../../aspose.slides/picture/linkpathlong) { get; set; } | Gibt die URL des verknüpften Bildes zurück oder setzt sie. Lesen/Schreiben String. |
-| [Presentation](../../aspose.slides/picture/presentation) { get; } | Gibt die Präsentation zurück. Nur lesbar [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/picture/slide) { get; } | Gibt die übergeordnete Folie eines Bildes zurück. Nur lesbar [`IBaseSlide`](../ibaseslide). |
+| [AsIPresentationComponent](../../aspose.slides/picture/asipresentationcomponent) { get; } | Ermöglicht den Zugriff auf die Basis IPresentationComponent Schnittstelle. Nur lesbar [`IPresentationComponent`](../ipresentationcomponent). |
+| [Image](../../aspose.slides/picture/image) { get; set; } | Liefert oder setzt das eingebettete Bild. Lese-/Schreib [`IPPImage`](../ippimage). |
+| [ImageTransform](../../aspose.slides/picture/imagetransform) { get; } | Liefert die Sammlung von Bildtransformations-Effekten. Nur lesbar [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
+| [LinkPathLong](../../aspose.slides/picture/linkpathlong) { get; set; } | Liefert oder setzt die URL des verknüpften Bildes. Lese-/Schreib String. |
+| [Presentation](../../aspose.slides/picture/presentation) { get; } | Liefert die Präsentation. Nur lesbar [`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/picture/slide) { get; } | Liefert die übergeordnete Folie eines Bildes. Nur lesbar [`IBaseSlide`](../ibaseslide). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
 | override [Equals](../../aspose.slides/picture/equals)(object) | Vergleicht mit dem angegebenen Objekt. |
-| override [GetHashCode](../../aspose.slides/picture/gethashcode)() | Gibt den Hash zurück. |
+| override [GetHashCode](../../aspose.slides/picture/gethashcode)() | Liefert den Hash. |
 
 ### Siehe auch
 

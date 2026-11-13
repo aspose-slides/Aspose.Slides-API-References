@@ -1,14 +1,14 @@
 ---
 title: ICellFormatEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติการจัดรูปแบบเซลล์ตารางที่มีผล.
+second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงได้ซึ่งประกอบด้วยคุณสมบัติการจัดรูปแบบเซลล์ตารางที่มีผล
 type: docs
-weight: 5480
+weight: 5500
 url: /th/aspose.slides/icellformateffectivedata/
 ---
 ## ICellFormatEffectiveData อินเทอร์เฟซ
 
-อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติการจัดรูปแบบเซลล์ตารางที่มีผล.
+อ็อบเจ็กต์ที่ไม่สามารถเปลี่ยนแปลงได้ซึ่งประกอบด้วยคุณสมบัติการจัดรูปแบบเซลล์ตารางที่มีผล
 
 ```csharp
 public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -16,14 +16,14 @@ public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | อนุญาตให้รับค่าฐานของอินเทอร์เฟซ IBaseTableFormatEffectiveData. อ่านอย่างเดียว [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
-| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | รับค่าความโปร่งใสของสีเติม. อ่าน Single. |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IBaseTableFormatEffectiveData พื้นฐาน. อ่านอย่างเดียว [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | ดึงค่าความโปร่งใสของสีเติม. อ่านแบบ Single. |
 
 ### หมายเหตุ
 
-อินเทอร์เฟซนี้ใช้ร่วมกับอินเทอร์เฟซ [`ICellFormat`](../icellformat) เพื่อส่งคืนค่าการจัดรูปแบบที่มีผลโดยใช้การสืบทอดและสไตล์ตารางที่นำไปใช้.
+อินเทอร์เฟซนี้ใช้ร่วมกับอินเทอร์เฟซ [`ICellFormat`](../icellformat) เพื่อคืนค่าการจัดรูปแบบที่มีผลพร้อมกับการสืบทอดและรูปแบบตารางที่ใช้.
 
 ### ดูเพิ่มเติม
 

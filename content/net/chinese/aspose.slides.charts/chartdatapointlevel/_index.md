@@ -3,7 +3,7 @@ title: ChartDataPointLevel
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示数据点级别。适用于 Treemap 和 Sunburst 图表。
 type: docs
-weight: 1350
+weight: 1360
 url: /zh/aspose.slides.charts/chartdatapointlevel/
 ---
 ## ChartDataPointLevel 类
@@ -19,9 +19,9 @@ public class ChartDataPointLevel : DomObject<ChartDataPointLevelsManager>, IChar
 | 名称 | 描述 |
 | --- | --- |
 | [Format](../../aspose.slides.charts/chartdatapointlevel/format) { get; } | 表示数据点级别的格式属性。读/写 [`IFormat`](../iformat)。 |
-| [Label](../../aspose.slides.charts/chartdatapointlevel/label) { get; } | 表示数据点级别的数据标签。适用于 Treemap 和 Sunburst 系列类型。只读 [`IDataLabel`](../idatalabel)。 |
+| [Label](../../aspose.slides.charts/chartdatapointlevel/label) { get; } | 表示数据点级别的数据标签。适用于 Treemap 和 Sunburst sereis 类型。只读 [`IDataLabel`](../idatalabel)。 |
 
-### 另请参见
+### 另见
 
 * 类 [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * 类 [ChartDataPointLevelsManager](../chartdatapointlevelsmanager)

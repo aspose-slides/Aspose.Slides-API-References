@@ -1,12 +1,12 @@
 ---
 title: Input
-second_title: Aspose.Sildes dla .NET API Reference
+second_title: Aspose.Sildes dla .NET – referencja API
 description: Reprezentuje kolekcję szablonów elementów wejściowych.
 type: docs
-weight: 4630
+weight: 4650
 url: /pl/aspose.slides.export.web/input/
 ---
-## Input klasa
+## Klasa Input
 
 Reprezentuje kolekcję elementów wejściowych (szablonów).
 
@@ -20,7 +20,7 @@ public sealed class Input
 | --- | --- |
 | [AddTemplate&lt;TContextObject&gt;](../../aspose.slides.export.web/input/addtemplate)(string, string) | Dodaje szablon do kolekcji. |
 
-### Zobacz także
+### Zobacz również
 
 * przestrzeń nazw [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * zbiór [Aspose.Slides](../../)

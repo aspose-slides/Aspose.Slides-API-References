@@ -3,10 +3,10 @@ title: IEightDirectionTransition
 second_title: Aspose.Sildes için .NET API Referansı
 description: Sekiz yönlü slayt geçiş efekti.
 type: docs
-weight: 10070
+weight: 10090
 url: /tr/aspose.slides.slideshow/ieightdirectiontransition/
 ---
-## IEightDirectionTransition arayüzü
+## IEightDirectionTransition arayüz
 
 Sekiz yönlü slayt geçiş efekti.
 
@@ -18,10 +18,10 @@ public interface IEightDirectionTransition : ITransitionValueBase
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ieightdirectiontransition/asitransitionvaluebase) { get; } | Temel ITransitionValueBase arayüzünü almayı sağlar. Salt okunur [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/ieightdirectiontransition/direction) { get; set; } | Geçiş yönü. Okunabilir/Yazılabilir [`TransitionEightDirectionType`](../transitioneightdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ieightdirectiontransition/asitransitionvaluebase) { get; } | Temel ITransitionValueBase arayüzünü almaya izin verir. Yalnızca okuma [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/ieightdirectiontransition/direction) { get; set; } | Geçişin yönü. Okuma/yazma [`TransitionEightDirectionType`](../transitioneightdirectiontype). |
 
-### Ayrıca Bakınız
+### Ayrıca
 
 * arayüz [ITransitionValueBase](../itransitionvaluebase)
 * ad alanı [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

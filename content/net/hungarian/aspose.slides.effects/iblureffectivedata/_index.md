@@ -1,14 +1,14 @@
 ---
 title: IBlurEffectiveData
 second_title: Aspose.Sildes .NET API referencia
-description: Módosíthatatlan objektum, amely egy elmosási hatást képvisel, amely az egész alakzatra, beleértve a kitöltését is, vonatkozik. Az összes színcsatorna, beleértve az alfát is, érintett.
+description: Megváltoztathatatlan objektum, amely a teljes alakra, beleértve a kitöltést is, alkalmazott Blur hatást képviseli. Minden színcsatorna, beleértve az alfát is, érintett.
 type: docs
-weight: 3190
+weight: 3210
 url: /hu/aspose.slides.effects/iblureffectivedata/
 ---
 ## IBlurEffectiveData interfész
 
-Módosíthatatlan objektum, amely egy elmosási hatást képvisel, amely az egész alakzatra, beleértve a kitöltését is, vonatkozik. Az összes színcsatorna, beleértve az alfát is, érintett.
+Megváltoztathatatlan objektum, amely egy Blur effektust képvisel, amely az egész alakra, beleértve a kitöltést is, alkalmazva van. Minden színcsatorna, beleértve az alfát is, érintett.
 
 ```csharp
 public interface IBlurEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface IBlurEffectiveData : IEffectEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iblureffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi az alap IEffectEffectiveData interfész lekérését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | Meghatározza, hogy az objektum határai növekedjenek-e az elmosás következtében. Az igaz érték jelzi, hogy a határok növekednek, míg a hamis azt jelzi, hogy nem. Csak olvasható logikai. |
-| [Radius](../../aspose.slides.effects/iblureffectivedata/radius) { get; } | Visszaadja vagy beállítja az elmosás sugarát. Csak olvasható Double. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iblureffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi a base IEffectEffectiveData interfész lekérését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | Meghatározza, hogy az objektum határai a homályosítás eredményeként növekedjenek-e. A True jelzi, hogy a határok növekednek, míg a false jelzi, hogy nem növekednek. Csak olvasható Boolean. |
+| [Radius](../../aspose.slides.effects/iblureffectivedata/radius) { get; } | Visszaadja vagy beállítja a homály sugárát. Csak olvasható Double. |
 
 ### Lásd még
 

@@ -1,9 +1,9 @@
 ---
 title: NullableBool
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili nilai boolean tiga nilai.
 type: docs
-weight: 9170
+weight: 9190
 url: /id/aspose.slides/nullablebool/
 ---
 ## NullableBool enumerasi
@@ -14,13 +14,13 @@ Mewakili nilai boolean tiga nilai.
 public enum NullableBool : sbyte
 ```
 
-### Values
+### Nilai
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| NotDefined | `-1` | Nilai boolean tidak terdefinisi. |
-| False | `0` | Nilai false. |
-| True | `1` | Nilai true. |
+| NotDefined | `-1` | Nilai Boolean tidak terdefinisi. |
+| False | `0` | Nilai False. |
+| True | `1` | Nilai True. |
 
 ### Lihat Juga
 

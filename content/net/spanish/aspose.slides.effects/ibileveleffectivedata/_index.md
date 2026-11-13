@@ -1,14 +1,14 @@
 ---
 title: IBiLevelEffectiveData
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Objeto inmutable que representa un efecto Bi-Level blanco/negro. Los colores de entrada cuya luminancia es menor que el valor de umbral especificado se cambian a negro. Los colores de entrada cuya luminancia es mayor o igual al valor especificado se establecen a blanco. Los valores del efecto alfa no se ven afectados por este efecto.
+description: Objeto inmutable que representa un efecto Bi-Nivel negro/blanco. Los colores de entrada cuya luminancia es menor que el valor umbral especificado se cambian a negro. Los colores de entrada cuya luminancia es mayor o igual al valor especificado se establecen en blanco. Los valores de efecto alfa no se ven afectados por este efecto.
 type: docs
-weight: 3170
+weight: 3190
 url: /es/aspose.slides.effects/ibileveleffectivedata/
 ---
 ## IBiLevelEffectiveData interfaz
 
-Objeto inmutable que representa un efecto Bi-Level (blanco/negro). Los colores de entrada cuya luminancia es menor que el valor de umbral especificado se cambian a negro. Los colores de entrada cuya luminancia es mayor o igual al valor especificado se establecen a blanco. Los valores de efecto alfa no se ven afectados por este efecto.
+Objeto inmutable que representa un efecto Bi-Nivel (blanco/negro). Los colores de entrada cuya luminancia es menor que el valor umbral especificado se cambian a negro. Los colores de entrada cuya luminancia es mayor o igual al valor especificado se establecen en blanco. Los valores de efecto alfa no se ven afectados por este efecto.
 
 ```csharp
 public interface IBiLevelEffectiveData : IEffectEffectiveData
@@ -18,8 +18,8 @@ public interface IBiLevelEffectiveData : IEffectEffectiveData
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ibileveleffectivedata/asieffecteffectivedata) { get; } | Permite obtener la interfaz base IEffectEffectiveData. Solo lectura [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Threshold](../../aspose.slides.effects/ibileveleffectivedata/threshold) { get; } | Devuelve el valor del umbral. Solo lectura Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ibileveleffectivedata/asieffecteffectivedata) { get; } | Permite obtener la interfaz base IEffectEffectiveData. Solo de lectura [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Threshold](../../aspose.slides.effects/ibileveleffectivedata/threshold) { get; } | Devuelve el valor umbral. Solo de lectura Single. |
 
 ### Ver también
 

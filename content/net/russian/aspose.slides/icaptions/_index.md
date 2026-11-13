@@ -1,9 +1,9 @@
 ---
 title: ICaptions
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет закрытые субтитры WebVTT.
 type: docs
-weight: 5430
+weight: 5450
 url: /ru/aspose.slides/icaptions/
 ---
 ## ICaptions интерфейс
@@ -16,14 +16,14 @@ public interface ICaptions
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
-| [BinaryData](../../aspose.slides/icaptions/binarydata) { get; } | Возвращает бинарные данные закрытых субтитров. Только для чтения Byte[]. |
-| [CaptionId](../../aspose.slides/icaptions/captionid) { get; } | Возвращает глобально уникальный идентификатор (GUID) закрытых субтитров. Только для чтения Guid. |
-| [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | Возвращает данные закрытых субтитров в виде строки, закодированной в UTF-8. Только для чтения String. |
+| [BinaryData](../../aspose.slides/icaptions/binarydata) { get; } | Возвращает двоичные данные закрытых субтитров. Только для чтения Byte[]. |
+| [CaptionId](../../aspose.slides/icaptions/captionid) { get; } | Возвращает глобальный уникальный идентификатор (GUID) закрытых субтитров. Только для чтения Guid. |
+| [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | Возвращает данные закрытых субтитров в виде строки, закодированной UTF-8. Только для чтения String. |
 | [Label](../../aspose.slides/icaptions/label) { get; set; } | Возвращает или задает метку закрытых субтитров. Чтение/запись String. |
 
-### См. также
+### Смотрите также
 
 * пространство имён [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

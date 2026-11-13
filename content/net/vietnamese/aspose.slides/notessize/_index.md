@@ -1,24 +1,24 @@
 ---
 title: NotesSize
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Biểu thị kích thước của slide ghi chú.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu diễn kích thước của slide ghi chú.
 type: docs
-weight: 9130
+weight: 9150
 url: /vi/aspose.slides/notessize/
 ---
-## NotesSize lớp
+## Lớp NotesSize
 
-Biểu thị kích thước của slide ghi chú.
+Biểu diễn kích thước của slide ghi chú.
 
 ```csharp
 public class NotesSize : INotesSize
 ```
 
-## Các hàm tạo
+## Bộ khởi tạo
 
 | Tên | Mô tả |
 | --- | --- |
-| [NotesSize](notessize)() | Hàm tạo mặc định. |
+| [NotesSize](notessize)() | Bộ khởi tạo mặc định. |
 
 ## Thuộc tính
 

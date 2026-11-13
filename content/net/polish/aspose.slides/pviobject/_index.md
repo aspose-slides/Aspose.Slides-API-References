@@ -1,14 +1,14 @@
 ---
 title: PVIObject
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
-description: Umożliwia dostęp do podstawowej infrastruktury usługowej dla obiektów, które mogą być przedmiotem dziedziczenia wartości właściwości.
+second_title: Aspose.Sildes dla .NET – referencja API
+description: Enkapsuluje podstawową infrastrukturę serwisową dla obiektów, które mogą być przedmiotem dziedziczenia wartości właściwości.
 type: docs
-weight: 9270
+weight: 9290
 url: /pl/aspose.slides/pviobject/
 ---
 ## PVIObject klasa
 
-Umożliwia dostęp do podstawowej infrastruktury usługowej dla obiektów, które mogą być przedmiotem dziedziczenia wartości właściwości.
+Enkapsuluje podstawową infrastrukturę serwisową dla obiektów, które mogą być przedmiotem dziedziczenia wartości właściwości.
 
 ```csharp
 public abstract class PVIObject : ISlideComponent
@@ -16,16 +16,16 @@ public abstract class PVIObject : ISlideComponent
 
 ## Właściwości
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umożliwia pobranie bazowego interfejsu IPresentationComponent. Tylko do odczytu [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umożliwia pobranie podstawowego interfejsu IPresentationComponent. Tylko do odczytu [`IPresentationComponent`](../ipresentationcomponent). |
 
 ## Metody
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Porównuje z określonym obiektem. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Zwraca kod hash. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Zwraca kod skrótu. |
 
 ### Zobacz także
 

@@ -3,7 +3,7 @@ title: IInk
 second_title: Aspose.Sildes .NET API 参考
 description: 表示幻灯片上的墨水对象。
 type: docs
-weight: 7510
+weight: 7530
 url: /zh/aspose.slides.ink/iink/
 ---
 ## IInk 接口
@@ -18,7 +18,7 @@ public interface IInk : IGraphicalObject
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides.ink/iink/asigraphicalobject) { get; } | 允许获取基础 IGraphicalObject 接口。只读 [`IGraphicalObject`](../../aspose.slides/igraphicalobject)。 |
+| [AsIGraphicalObject](../../aspose.slides.ink/iink/asigraphicalobject) { get; } | 允许获取基 IGraphicalObject 接口。只读 [`IGraphicalObject`](../../aspose.slides/igraphicalobject)。 |
 | [Traces](../../aspose.slides.ink/iink/traces) { get; } | 获取 IInk 元素中包含的所有痕迹 [`IInkTrace`](../iinktrace)。只读。 |
 
 ### 另见

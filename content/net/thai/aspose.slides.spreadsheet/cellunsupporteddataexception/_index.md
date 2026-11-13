@@ -1,14 +1,14 @@
 ---
 title: CellUnsupportedDataException
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ข้อยกเว้นที่ถูกโยนเมื่อพบข้อมูลที่ไม่รองรับในเซลล์สเปรดชีต
+description: ข้อยกเว้นที่เกิดขึ้นเมื่อพบข้อมูลที่ไม่รองรับในเซลล์ของสเปรดชีต.
 type: docs
-weight: 10730
+weight: 10750
 url: /th/aspose.slides.spreadsheet/cellunsupporteddataexception/
 ---
 ## CellUnsupportedDataException คลาส
 
-ข้อยกเว้นที่ถูกโยนเมื่อพบข้อมูลที่ไม่รองรับในเซลล์สเปรดชีต
+ข้อยกเว้นที่เกิดขึ้นเมื่อพบข้อมูลที่ไม่รองรับในเซลล์ของสเปรดชีต
 
 ```csharp
 public class CellUnsupportedDataException : PptxEditException
@@ -18,9 +18,9 @@ public class CellUnsupportedDataException : PptxEditException
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CellUnsupportedDataException](cellunsupporteddataexception#constructor)() | เริ่มต้นอินสแตนซ์ใหม่ของคลาส [`CellUnsupportedDataException`](../cellunsupporteddataexception) |
-| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_1)(string) | เริ่มต้นอินสแตนซ์ใหม่ของคลาส [`CellUnsupportedDataException`](../cellunsupporteddataexception) พร้อมข้อความแสดงข้อผิดพลาดที่ระบุ |
-| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_2)(string, Exception) | เริ่มต้นอินสแตนซ์ใหม่ของคลาส [`CellUnsupportedDataException`](../cellunsupporteddataexception) พร้อมข้อความแสดงข้อผิดพลาดที่ระบุและการอ้างอิงถึงข้อยกเว้นภายในที่เป็นสาเหตุของข้อยกเว้นนี้ |
+| [CellUnsupportedDataException](cellunsupporteddataexception#constructor)() | สร้างอินสแตนซ์ใหม่ของคลาส [`CellUnsupportedDataException`](../cellunsupporteddataexception) |
+| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_1)(string) | สร้างอินสแตนซ์ใหม่ของคลาส [`CellUnsupportedDataException`](../cellunsupporteddataexception) พร้อมข้อความแสดงข้อผิดพลาดที่ระบุ |
+| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_2)(string, Exception) | สร้างอินสแตนซ์ใหม่ของคลาส [`CellUnsupportedDataException`](../cellunsupporteddataexception) พร้อมข้อความแสดงข้อผิดพลาดที่ระบุและอ้างอิงถึงข้อยกเว้นภายในที่เป็นสาเหตุของข้อยกเว้นนี้ |
 
 ### ดูเพิ่มเติม
 

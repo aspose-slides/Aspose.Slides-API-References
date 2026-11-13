@@ -1,14 +1,14 @@
 ---
 title: LayoutSlideHeaderFooterManager
-second_title: Aspose.Sildes .NET API 레퍼런스
-description: 레이아웃 슬라이드 바닥글, 날짜-시간, 페이지 번호 자리표시자 및 모든 하위 자리표시자의 동작을 관리하는 매니저를 나타냅니다. 하위 자리표시자는 의존 슬라이드에 포함된 자리표시자를 의미합니다. 의존 슬라이드는 레이아웃 슬라이드를 사용하고 의존합니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 레이아웃 슬라이드 바닥글, 날짜-시간, 페이지 번호 자리 표시자 및 모든 하위 자리 표시자의 동작을 관리하는 관리자를 나타냅니다. 하위 자리 표시자는 종속 슬라이드에 포함된 자리 표시자를 의미합니다. 종속 슬라이드는 레이아웃 슬라이드를 사용하고 의존합니다.
 type: docs
-weight: 7660
+weight: 7680
 url: /ko/aspose.slides/layoutslideheaderfootermanager/
 ---
 ## LayoutSlideHeaderFooterManager 클래스
 
-레이아웃 슬라이드 바닥글, 날짜-시간, 페이지 번호 자리표시자 및 모든 하위 자리표시자의 동작을 관리하는 매니저를 나타냅니다. 하위 자리표시자는 의존 슬라이드에 포함된 자리표시자를 의미합니다. 의존 슬라이드는 레이아웃 슬라이드를 사용하고 의존합니다.
+레이아웃 슬라이드 바닥글, 날짜-시간, 페이지 번호 자리 표시자 및 모든 하위 자리 표시자의 동작을 관리하는 관리자를 나타냅니다. 하위 자리 표시자는 종속 슬라이드에 포함된 자리 표시자를 의미합니다. 종속 슬라이드는 레이아웃 슬라이드를 사용하고 의존합니다.
 
 ```csharp
 public sealed class LayoutSlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
@@ -19,26 +19,26 @@ public sealed class LayoutSlideHeaderFooterManager : BaseSlideHeaderFooterManage
 
 | 이름 | 설명 |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | 날짜-시간 자리표시자가 있는지 나타내는 값을 가져옵니다. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | 바닥글 자리표시자가 있는지 나타내는 값을 가져옵니다. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | 페이지 번호 자리표시자가 있는지 나타내는 값을 가져옵니다. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | 날짜-시간 자리 표시자가 존재함을 나타내는 값을 가져옵니다. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | 바닥글 자리 표시자가 존재함을 나타내는 값을 가져옵니다. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | 페이지 번호 자리 표시자가 존재함을 나타내는 값을 가져옵니다. ReadBoolean. |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | 레이아웃 슬라이드 날짜-시간 자리표시자와 모든 하위 날짜-시간 자리표시자에 텍스트를 설정합니다. 하위 자리표시자는 의존 슬라이드에 포함된 자리표시자를 의미합니다. 의존 슬라이드는 레이아웃 슬라이드를 사용하고 의존합니다. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | 레이아웃 슬라이드 날짜-시간 자리표시자와 모든 하위 날짜-시간 자리표시자의 가시성을 변경합니다. 하위 자리표시자는 의존 슬라이드에 포함된 자리표시자를 의미합니다. 의존 슬라이드는 레이아웃 슬라이드를 사용하고 의존합니다. |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | 슬라이드 날짜-시간 자리표시자에 텍스트를 설정합니다. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | 슬라이드 날짜-시간 자리표시자의 가시성을 변경합니다. |
-| [SetFooterAndChildFootersText](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | 레이아웃 슬라이드 바닥글 자리표시자와 모든 하위 바닥글 자리표시자에 텍스트를 설정합니다. 하위 자리표시자는 의존 슬라이드에 포함된 자리표시자를 의미합니다. 의존 슬라이드는 레이아웃 슬라이드를 사용하고 의존합니다. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | 레이아웃 슬라이드 바닥글 자리표시자와 모든 하위 바닥글 자리표시자의 가시성을 변경합니다. 하위 자리표시자는 의존 슬라이드에 포함된 자리표시자를 의미합니다. 의존 슬라이드는 마스터 슬라이드를 사용하고 의존합니다. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | 슬라이드 바닥글 자리표시자에 텍스트를 설정합니다. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | 슬라이드 바닥글 자리표시자의 가시성을 변경합니다. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | 레이아웃 슬라이드 페이지 번호 자리표시자와 모든 하위 페이지 번호 자리표시자의 가시성을 변경합니다. 하위 자리표시자는 의존 슬라이드에 포함된 자리표시자를 의미합니다. 의존 슬라이드는 레이아웃 슬라이드를 사용하고 의존합니다. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | 슬라이드 페이지 번호 자리표시자의 가시성을 변경합니다. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | 레이아웃 슬라이드 날짜-시간 자리 표시자와 모든 하위 날짜-시간 자리 표시자에 텍스트를 설정합니다. 하위 자리 표시자는 종속 슬라이드에 포함된 자리 표시자를 의미합니다. 종속 슬라이드는 레이아웃 슬라이드를 사용하고 의존합니다. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | 레이아웃 슬라이드 날짜-시간 자리 표시자 및 모든 하위 날짜-시간 자리 표시자의 가시성을 변경합니다. 하위 자리 표시자는 종속 슬라이드에 포함된 자리 표시자를 의미합니다. 종속 슬라이드는 레이아웃 슬라이드를 사용하고 의존합니다. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | 슬라이드 날짜-시간 자리 표시자에 텍스트를 설정합니다. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | 슬라이드 날짜-시간 자리 표시자의 가시성을 변경합니다. |
+| [SetFooterAndChildFootersText](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | 레이아웃 슬라이드 바닥글 자리 표시자와 모든 하위 바닥글 자리 표시자에 텍스트를 설정합니다. 하위 자리 표시자는 종속 슬라이드에 포함된 자리 표시자를 의미합니다. 종속 슬라이드는 레이아웃 슬라이드를 사용하고 의존합니다. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | 레이아웃 슬라이드 바닥글 자리 표시자 및 모든 하위 바닥글 자리 표시자의 가시성을 변경합니다. 하위 자리 표시자는 종속 슬라이드에 포함된 자리 표시자를 의미합니다. 종속 슬라이드는 마스터 슬라이드를 사용하고 의존합니다. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | 슬라이드 바닥글 자리 표시자에 텍스트를 설정합니다. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | 슬라이드 바닥글 자리 표시자의 가시성을 변경합니다. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | 레이아웃 슬라이드 페이지 번호 자리 표시자 및 모든 하위 페이지 번호 자리 표시자의 가시성을 변경합니다. 하위 자리 표시자는 종속 슬라이드에 포함된 자리 표시자를 의미합니다. 종속 슬라이드는 레이아웃 슬라이드를 사용하고 의존합니다. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | 슬라이드 페이지 번호 자리 표시자의 가시성을 변경합니다. |
 
-### 참고
+### 참조
 
 * 클래스 [BaseSlideHeaderFooterManager](../baseslideheaderfootermanager)
 * 인터페이스 [ILayoutSlideHeaderFooterManager](../ilayoutslideheaderfootermanager)

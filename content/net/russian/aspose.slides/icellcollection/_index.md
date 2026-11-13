@@ -1,9 +1,9 @@
 ---
 title: ICellCollection
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET – справочник API
 description: Представляет коллекцию ячеек.
 type: docs
-weight: 5460
+weight: 5480
 url: /ru/aspose.slides/icellcollection/
 ---
 ## ICellCollection интерфейс

@@ -1,14 +1,14 @@
 ---
 title: ICellFormatEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 有効なテーブルセル書式設定プロパティを含む不変オブジェクト。
+description: 有効なテーブルセルの書式設定プロパティを含むイミュータブルオブジェクトです。
 type: docs
-weight: 5480
+weight: 5500
 url: /ja/aspose.slides/icellformateffectivedata/
 ---
 ## ICellFormatEffectiveData インターフェイス
 
-有効なテーブルセルの書式設定プロパティを含む不変オブジェクト。
+有効なテーブルセルの書式設定プロパティを含むイミュータブルオブジェクトです。
 
 ```csharp
 public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -18,14 +18,14 @@ public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | ベースのIBaseTableFormatEffectiveDataインターフェイスを取得できます。読み取り専用[`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata)。 |
-| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | 塗りつぶし色の透明度を取得します。単一の値を読み取ります。 |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | ベースの IBaseTableFormatEffectiveData インターフェイスを取得できます。読み取り専用 [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata)。 |
+| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | 塗りつぶしカラーの透明度を取得します。Single を読み取ります。 |
 
 ### 備考
 
-このインターフェイスは [`ICellFormat`](../icellformat) インターフェイスと組み合わせて使用され、継承とテーブルスタイルが適用された有効な書式設定値を返します。
+このインターフェイスは [`ICellFormat`](../icellformat) インターフェイスと一緒に使用され、継承およびテーブル スタイルが適用された有効な書式設定値を返します。
 
-### 参照
+### 関連項目
 
 * インターフェイス [IBaseTableFormatEffectiveData](../ibasetableformateffectivedata)
 * 名前空間 [Aspose.Slides](../../aspose.slides)

@@ -1,14 +1,14 @@
 ---
 title: ICornerDirectionTransition
-second_title: Aspose.Sildes dla .NET - dokumentacja API
-description: Efekt przejścia slajdu w kierunku narożnika.
+second_title: Aspose.Sildes dla .NET Referencja API
+description: Efekt przejścia slajdu w kierunku narożnym.
 type: docs
-weight: 10060
+weight: 10080
 url: /pl/aspose.slides.slideshow/icornerdirectiontransition/
 ---
 ## ICornerDirectionTransition interfejs
 
-Efekt przejścia slajdu w kierunku narożnika.
+Efekt przejścia slajdu w kierunku narożnym.
 
 ```csharp
 public interface ICornerDirectionTransition : ITransitionValueBase
@@ -18,7 +18,7 @@ public interface ICornerDirectionTransition : ITransitionValueBase
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/icornerdirectiontransition/asitransitionvaluebase) { get; } | Umożliwia pobranie podstawowego interfejsu ITransitionValueBase. Tylko do odczytu [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/icornerdirectiontransition/asitransitionvaluebase) { get; } | Pozwala uzyskać bazowy interfejs ITransitionValueBase. Tylko do odczytu [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/icornerdirectiontransition/direction) { get; set; } | Kierunek przejścia. Odczyt/zapis [`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
 
 ### Zobacz także

@@ -1,14 +1,14 @@
 ---
 title: INormalViewProperties
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: "सामान्य दृश्य गुणों का प्रतिनिधित्व करता है। सामान्य दृश्य तीन सामग्री क्षेत्रों से मिलकर बनता है: स्वयं स्लाइड, एक साइड सामग्री क्षेत्र और एक नीचे सामग्री क्षेत्र।"
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: सामान्य दृश्य विशेषताओं का प्रतिनिधित्व करता है। सामान्य दृश्य में तीन कंटेंट क्षेत्र होते हैं: स्वयं स्लाइड, एक साइड कंटेंट क्षेत्र और एक नीचे का कंटेंट क्षेत्र।
 type: docs
-weight: 6470
+weight: 6490
 url: /hi/aspose.slides/inormalviewproperties/
 ---
 ## INormalViewProperties इंटरफ़ेस
 
-सामान्य दृश्य गुणों का प्रतिनिधित्व करता है। सामान्य दृश्य में तीन सामग्री क्षेत्रों होते हैं: स्वयं स्लाइड, एक साइड सामग्री क्षेत्र, और एक नीचे सामग्री क्षेत्र।
+सामान्य दृश्य विशेषताओं का प्रतिनिधित्व करता है। सामान्य दृश्य में तीन कंटेंट क्षेत्र होते हैं: स्वयं स्लाइड, साइड कंटेंट क्षेत्र, और नीचे का कंटेंट क्षेत्र।
 
 ```csharp
 public interface INormalViewProperties
@@ -18,17 +18,17 @@ public interface INormalViewProperties
 
 | नाम | विवरण |
 | --- | --- |
-| [HorizontalBarState](../../aspose.slides/inormalviewproperties/horizontalbarstate) { get; set; } | यह निर्दिष्ट करता है कि क्षैतिज विभाजन बार किस अवस्था में दिखाया जाना चाहिए। एक क्षैतिज विभाजन बार स्लाइड को स्लाइड के नीचे स्थित सामग्री क्षेत्र से अलग करता है। |
-| [PreferSingleView](../../aspose.slides/inormalviewproperties/prefersingleview) { get; set; } | यह निर्दिष्ट करता है कि उपयोगकर्ता तीन सामग्री क्षेत्रों वाले मानक सामान्य दृश्य के बजाय पूर्ण-खिड़की एकल-सामग्री क्षेत्र देखना पसंद करता है या नहीं। यदि सक्षम किया जाता है, तो अनुप्रयोग पूरे विंडो में किसी एक सामग्री क्षेत्र को प्रदर्शित करने का चयन कर सकता है। पढ़ें/लिखें Boolean. |
-| [RestoredLeft](../../aspose.slides/inormalviewproperties/restoredleft) { get; } | यह तत्व सामान्य दृश्य के साइड सामग्री क्षेत्र का आकार निर्दिष्ट करता है, जब क्षेत्र का आकार एक परिवर्तनीय पुनर्स्थापित आकार (न तो न्यूनतम और न ही अधिकतम) हो। केवल पढ़ें [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [RestoredTop](../../aspose.slides/inormalviewproperties/restoredtop) { get; } | यह तत्व सामान्य दृश्य के शीर्ष स्लाइड क्षेत्र का आकार निर्दिष्ट करता है, जब क्षेत्र का आकार एक परिवर्तनीय पुनर्स्थापित आकार (न तो न्यूनतम और न ही अधिकतम) हो। केवल पढ़ें [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [ShowOutlineIcons](../../aspose.slides/inormalviewproperties/showoutlineicons) { get; set; } | यह निर्दिष्ट करता है कि सामान्य दृश्य मोड में किसी भी सामग्री क्षेत्र में रूपरेखा सामग्री प्रदर्शित करने पर अनुप्रयोग को आइकन दिखाना चाहिए या नहीं। पढ़ें/लिखें Boolean. |
-| [SnapVerticalSplitter](../../aspose.slides/inormalviewproperties/snapverticalsplitter) { get; set; } | यह निर्दिष्ट करता है कि जब साइड क्षेत्र पर्याप्त छोटा हो तो लंबवत विभाजन को न्यूनतम अवस्था में स्नैप करना चाहिए या नहीं। पढ़ें/लिखें Boolean. |
-| [VerticalBarState](../../aspose.slides/inormalviewproperties/verticalbarstate) { get; set; } | यह निर्दिष्ट करता है कि लंबवत विभाजन बार किस अवस्था में दिखाया जाना चाहिए। एक लंबवत विभाजन बार स्लाइड को साइड सामग्री क्षेत्र से अलग करता है। |
+| [HorizontalBarState](../../aspose.slides/inormalviewproperties/horizontalbarstate) { get; set; } | होरिज़ोंटल स्प्लिटर बार को किस स्थिति में दिखाया जाना चाहिए, इसे निर्दिष्ट करता है। एक होरिज़ोंटल स्प्लिटर बार स्लाइड को स्लाइड के नीचे के कंटेंट क्षेत्र से अलग करता है। |
+| [PreferSingleView](../../aspose.slides/inormalviewproperties/prefersingleview) { get; set; } | उपयोगकर्ता को मानक सामान्य दृश्य जिसमें तीन कंटेंट क्षेत्र होते हैं, के ऊपर पूर्ण-विंडो एकल-कंटेंट क्षेत्र देखना पसंद है या नहीं, इसे निर्दिष्ट करता है। यदि सक्षम किया जाता है, तो एप्लिकेशन पूरे विंडो में किसी एक कंटेंट क्षेत्र को प्रदर्शित कर सकता है। पढ़ें/लिखें Boolean. |
+| [RestoredLeft](../../aspose.slides/inormalviewproperties/restoredleft) { get; } | यह तत्व सामान्य दृश्य के साइड कंटेंट क्षेत्र का आकार निर्धारित करता है, जब क्षेत्र का आकार परिवर्तनशील पुनर्स्थापित आकार (न तो छोटा किया गया और न ही बड़ा किया गया) हो। केवल पढ़ने योग्य [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [RestoredTop](../../aspose.slides/inormalviewproperties/restoredtop) { get; } | यह तत्व सामान्य दृश्य के टॉप स्लाइड क्षेत्र का आकार निर्धारित करता है, जब क्षेत्र का आकार परिवर्तनशील पुनर्स्थापित आकार (न तो छोटा किया गया और न ही बड़ा किया गया) हो। केवल पढ़ने योग्य [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [ShowOutlineIcons](../../aspose.slides/inormalviewproperties/showoutlineicons) { get; set; } | यदि सामान्य दृश्य मोड के किसी भी कंटेंट क्षेत्र में रूपरेखा कंटेंट प्रदर्शित किया जा रहा है, तो एप्लिकेशन को आइकन दिखाने चाहिए या नहीं, इसे निर्दिष्ट करता है। पढ़ें/लिखें Boolean. |
+| [SnapVerticalSplitter](../../aspose.slides/inormalviewproperties/snapverticalsplitter) { get; set; } | जब साइड क्षेत्र पर्याप्त छोटा हो, तो वर्टिकल स्प्लिटर को न्यूनतम स्थिति में स्नैप करना चाहिए या नहीं, इसे निर्दिष्ट करता है। पढ़ें/लिखें Boolean. |
+| [VerticalBarState](../../aspose.slides/inormalviewproperties/verticalbarstate) { get; set; } | वर्टिकल स्प्लिटर बार को किस स्थिति में दिखाया जाना चाहिए, इसे निर्धारित करता है। एक वर्टिकल स्प्लिटर बार स्लाइड को साइड कंटेंट क्षेत्र से अलग करता है। |
 
-### देखें भी
+### देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
-* असेंबली [Aspose.Slides](../../)
+* असेंब्ली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

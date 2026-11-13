@@ -3,7 +3,7 @@ title: ChartDataWorksheetCollection
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente la collection de feuilles de calcul du classeur de données de graphique.
 type: docs
-weight: 1400
+weight: 1410
 url: /fr/aspose.slides.charts/chartdataworksheetcollection/
 ---
 ## ChartDataWorksheetCollection classe
@@ -21,7 +21,7 @@ public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
 | [Count](../../aspose.slides.charts/chartdataworksheetcollection/count) { get; } | Renvoie le nombre. Lecture seule Int32. |
 | [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (thread-safe). Lecture seule Boolean. |
 | [Item](../../aspose.slides.charts/chartdataworksheetcollection/item) { get; } | Renvoie la feuille de calcul par indice. |
-| [SyncRoot](../../aspose.slides.charts/chartdataworksheetcollection/syncroot) { get; } | Renvoie une racine de synchronisation. Lecture seule Object. |
+| [SyncRoot](../../aspose.slides.charts/chartdataworksheetcollection/syncroot) { get; } | Renvoie la racine de synchronisation. Lecture seule Object. |
 
 ## Méthodes
 

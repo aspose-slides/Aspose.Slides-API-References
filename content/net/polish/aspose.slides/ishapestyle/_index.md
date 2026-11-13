@@ -1,14 +1,14 @@
 ---
 title: IShapeStyle
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET Referencja API
 description: Reprezentuje odwołanie do stylu kształtów.
 type: docs
-weight: 7010
+weight: 7030
 url: /pl/aspose.slides/ishapestyle/
 ---
 ## IShapeStyle interfejs
 
-Reprezentuje referencję stylu kształtu.
+Reprezentuje odwołanie do stylu kształtu.
 
 ```csharp
 public interface IShapeStyle
@@ -24,7 +24,7 @@ public interface IShapeStyle
 | [FillStyleIndex](../../aspose.slides/ishapestyle/fillstyleindex) { get; set; } | Zwraca lub ustawia indeks kolumny wypełnienia kształtu w macierzach stylu. 0 oznacza brak wypełnienia, wartość dodatnia – indeks w stylach wypełnienia motywu, wartość ujemna – indeks w stylach tła motywu. Odczyt/zapis Int16. |
 | [FontCollectionIndex](../../aspose.slides/ishapestyle/fontcollectionindex) { get; set; } | Zwraca lub ustawia indeks czcionki kształtu w kolekcji czcionek. Odczyt/zapis [`FontCollectionIndex`](../fontcollectionindex). |
 | [FontColor](../../aspose.slides/ishapestyle/fontcolor) { get; } | Zwraca kolor czcionki kształtu. Tylko do odczytu [`IColorFormat`](../icolorformat). |
-| [LineColor](../../aspose.slides/ishapestyle/linecolor) { get; } | Zwraca kolor konturu kształtu. Tylko do odczytu [`IColorFormat`](../icolorformat). |
+| [LineColor](../../aspose.slides/ishapestyle/linecolor) { get; } | Zwraca kolor obrysu kształtu. Tylko do odczytu [`IColorFormat`](../icolorformat). |
 | [LineStyleIndex](../../aspose.slides/ishapestyle/linestyleindex) { get; set; } | Zwraca lub ustawia indeks kolumny linii w macierzy stylu. Odczyt/zapis UInt16. |
 
 ### Zobacz także

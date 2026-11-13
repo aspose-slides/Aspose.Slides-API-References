@@ -1,14 +1,14 @@
 ---
 title: IShapeStyle
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示形状样式的引用。
+description: 表示形状样式引用。
 type: docs
-weight: 7010
+weight: 7030
 url: /zh/aspose.slides/ishapestyle/
 ---
 ## IShapeStyle 接口
 
-表示形状样式的引用。
+表示形状的样式引用。
 
 ```csharp
 public interface IShapeStyle
@@ -27,7 +27,7 @@ public interface IShapeStyle
 | [LineColor](../../aspose.slides/ishapestyle/linecolor) { get; } | 返回形状的轮廓颜色。只读 [`IColorFormat`](../icolorformat)。 |
 | [LineStyleIndex](../../aspose.slides/ishapestyle/linestyleindex) { get; set; } | 返回或设置线条在样式矩阵中的列索引。读写 UInt16。 |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

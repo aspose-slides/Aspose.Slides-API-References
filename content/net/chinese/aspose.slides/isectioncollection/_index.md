@@ -1,14 +1,14 @@
 ---
 title: ISectionCollection
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示一组节的集合。
+description: 表示一个节的集合。
 type: docs
-weight: 6900
+weight: 6920
 url: /zh/aspose.slides/isectioncollection/
 ---
 ## ISectionCollection 接口
 
-表示一组节的集合。
+表示一个节的集合。
 
 ```csharp
 public interface ISectionCollection : IGenericCollection<ISection>
@@ -24,12 +24,12 @@ public interface ISectionCollection : IGenericCollection<ISection>
 
 | 名称 | 描述 |
 | --- | --- |
-| [AddEmptySection](../../aspose.slides/isectioncollection/addemptysection)(string, int) | 向集合的指定位置添加空节。 |
-| [AddSection](../../aspose.slides/isectioncollection/addsection)(string, ISlide) | 添加以特定幻灯片为起始的新节。 |
-| [AppendEmptySection](../../aspose.slides/isectioncollection/appendemptysection)(string) | 向集合末尾添加空节。 |
+| [AddEmptySection](../../aspose.slides/isectioncollection/addemptysection)(string, int) | 在集合的指定位置添加空节。 |
+| [AddSection](../../aspose.slides/isectioncollection/addsection)(string, ISlide) | 添加从特定幻灯片开始的新节。 |
+| [AppendEmptySection](../../aspose.slides/isectioncollection/appendemptysection)(string) | 在集合末尾添加空节。 |
 | [Clear](../../aspose.slides/isectioncollection/clear)() | 从集合中移除所有节。 |
 | [IndexOf](../../aspose.slides/isectioncollection/indexof)(ISection) | 返回集合中指定节的索引。 |
-| [RemoveSection](../../aspose.slides/isectioncollection/removesection)(ISection) | 移除节。该节包含的幻灯片将合并到前一个节中。 |
+| [RemoveSection](../../aspose.slides/isectioncollection/removesection)(ISection) | 移除节。节中包含的幻灯片将合并到前一个节。 |
 | [RemoveSectionWithSlides](../../aspose.slides/isectioncollection/removesectionwithslides)(ISection) | 移除节及其包含的幻灯片。 |
 | [ReorderSectionWithSlides](../../aspose.slides/isectioncollection/reordersectionwithslides)(ISection, int) | 将节及其幻灯片从集合中移动到指定位置。 |
 

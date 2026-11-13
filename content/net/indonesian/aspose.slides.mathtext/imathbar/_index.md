@@ -1,9 +1,9 @@
 ---
 title: IMathBar
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Menentukan fungsi bar yang terdiri dari argumen dasar dan overbar atau underbar
 type: docs
-weight: 8120
+weight: 8140
 url: /id/aspose.slides.mathtext/imathbar/
 ---
 ## IMathBar antarmuka

@@ -1,14 +1,14 @@
 ---
 title: SlideShowType
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Configuración básica de la presentación de diapositivas. Los ancestros representan tipos de la presentación de diapositivas PresentedBySpeaker./presentedbyspeaker Presentado por un orador pantalla completa BrowsedByIndividual./browsedbyindividual Navegado por un individuo ventana BrowsedAtKiosk./browsedatkiosk Navegado en un quiosco pantalla completa
+description: Configuración básica de la presentación. Los ancestros representan tipos de la presentación PresentedBySpeaker./presentedbyspeaker Presentado por un orador pantalla completa BrowsedByIndividual./browsedbyindividual Navegado por un individuo ventana BrowsedAtKiosk./browsedatkiosk Navegado en un quiosco pantalla completa
 type: docs
-weight: 10490
+weight: 10510
 url: /es/aspose.slides/slideshowtype/
 ---
 ## SlideShowType clase
 
-Configuración básica de la presentación de diapositivas. Los ancestros representan tipos de la presentación de diapositivas: [`PresentedBySpeaker`](../presentedbyspeaker) Presentado por un orador (pantalla completa) [`BrowsedByIndividual`](../browsedbyindividual) Navegado por un individuo (ventana) [`BrowsedAtKiosk`](../browsedatkiosk) Navegado en un quiosco (pantalla completa)
+Configuración básica de la presentación. Los ancestros representan tipos de la presentación: [`PresentedBySpeaker`](../presentedbyspeaker) Presentado por un orador (pantalla completa) [`BrowsedByIndividual`](../browsedbyindividual) Navegado por un individuo (ventana) [`BrowsedAtKiosk`](../browsedatkiosk) Navegado en un quiosco (pantalla completa)
 
 ```csharp
 public abstract class SlideShowType

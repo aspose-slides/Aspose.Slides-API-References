@@ -1,14 +1,14 @@
 ---
 title: MasterHandoutSlideHeaderFooterManager
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示管理器，负责维护母版讲义幻灯片占位符的行为，包括页眉占位符。
+description: 表示管理器，负责保持母版讲义幻灯片占位符的行为，包括页眉占位符。
 type: docs
-weight: 7990
+weight: 8010
 url: /zh/aspose.slides/masterhandoutslideheaderfootermanager/
 ---
 ## MasterHandoutSlideHeaderFooterManager 类
 
-表示管理器，负责维护母版讲义幻灯片占位符的行为，包括页眉占位符。
+表示管理器，负责保持母版讲义幻灯片占位符的行为，包括页眉占位符。
 
 ```csharp
 public class MasterHandoutSlideHeaderFooterManager : BaseHandoutNotesSlideHeaderFooterManager, 
@@ -19,10 +19,10 @@ public class MasterHandoutSlideHeaderFooterManager : BaseHandoutNotesSlideHeader
 
 | 名称 | 描述 |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | 获取指示日期时间占位符是否存在的值。ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | 获取指示页脚占位符是否存在的值。Read Boolean. |
-| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | 获取指示页眉占位符是否存在的值。Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | 获取指示页码占位符是否存在的值。ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | 获取指示存在日期时间占位符的值。ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | 获取指示存在页脚占位符的值。Read Boolean. |
+| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | 获取指示存在页眉占位符的值。Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | 获取指示存在页码占位符的值。ReadBoolean. |
 
 ## 方法
 

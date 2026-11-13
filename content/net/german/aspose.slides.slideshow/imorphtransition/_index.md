@@ -3,7 +3,7 @@ title: IMorphTransition
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Ripple-Folienübergangseffekt.
 type: docs
-weight: 10130
+weight: 10150
 url: /de/aspose.slides.slideshow/imorphtransition/
 ---
 ## IMorphTransition Schnittstelle
@@ -18,8 +18,8 @@ public interface IMorphTransition : ITransitionValueBase
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/imorphtransition/asitransitionvaluebase) { get; } | Ermöglicht das Abrufen der Basis-ITransitionValueBase-Schnittstelle. Nur lesbar [`ITransitionValueBase`](../itransitionvaluebase). |
-| [MorphType](../../aspose.slides.slideshow/imorphtransition/morphtype) { get; set; } | Typ des Morph-Übergangs. Lese/Schreib [`TransitionMorphType`](../transitionmorphtype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/imorphtransition/asitransitionvaluebase) { get; } | Ermöglicht das Abrufen der Basis-ITransitionValueBase-Schnittstelle. Nur-Lesen [`ITransitionValueBase`](../itransitionvaluebase). |
+| [MorphType](../../aspose.slides.slideshow/imorphtransition/morphtype) { get; set; } | Typ des Morph-Übergangs. Lesen/Schreiben [`TransitionMorphType`](../transitionmorphtype). |
 
 ### Siehe auch
 

@@ -1,9 +1,9 @@
 ---
 title: IMasterHandoutSlideManager
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 마스터 핸드아웃 슬라이드 관리자.
 type: docs
-weight: 6370
+weight: 6390
 url: /ko/aspose.slides/imasterhandoutslidemanager/
 ---
 ## IMasterHandoutSlideManager 인터페이스
@@ -16,18 +16,18 @@ public interface IMasterHandoutSlideManager
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | 이 프레젠테이션에 노트 슬라이드가 있는 경우 모든 노트 슬라이드의 마스터를 반환하고, 없으면 null을 반환합니다. 읽기 전용 [`IMasterHandoutSlide`](../imasterhandoutslide). |
+| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | 프레젠테이션의 모든 노트 슬라이드에 대한 마스터가 있으면 반환하고, 없으면 null을 반환합니다. 읽기 전용 [`IMasterHandoutSlide`](../imasterhandoutslide). |
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | 마스터 핸드아웃 슬라이드를 제거합니다. |
 | [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | 기본 마스터 핸드아웃 슬라이드를 관련 핸드아웃 슬라이드로 설정합니다. |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

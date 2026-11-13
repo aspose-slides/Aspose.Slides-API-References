@@ -1,14 +1,14 @@
 ---
 title: IMasterNotesSlideHeaderFooterManager
-second_title: Aspose.Sildes for .NET API 참조
-description: 마스터 노트 슬라이드 바닥글, 날짜-시간, 페이지 번호 자리표시자 및 모든 하위 자리표시자의 동작을 보유하는 관리자를 나타냅니다. 하위 자리표시자는 종속 노트 슬라이드에 포함된 자리표시자를 의미합니다. 종속 노트 슬라이드는 마스터 노트 슬라이드를 사용하고 의존합니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 마스터 노트 슬라이드 푸터, 날짜-시간, 페이지 번호 자리표시자와 모든 자식 자리표시자를 보유하는 관리자 역할을 합니다. 자식 자리표시자는 종속 노트 슬라이드에 포함된 자리표시자를 의미합니다. 종속 노트 슬라이드는 마스터 노트 슬라이드를 사용하고 의존합니다.
 type: docs
-weight: 6400
+weight: 6420
 url: /ko/aspose.slides/imasternotesslideheaderfootermanager/
 ---
 ## IMasterNotesSlideHeaderFooterManager 인터페이스
 
-마스터 노트 슬라이드의 바닥글, 날짜-시간, 페이지 번호 자리표시자 및 모든 하위 자리표시자의 동작을 관리하는 매니저를 나타냅니다. 하위 자리표시자는 종속 노트 슬라이드에 포함된 자리표시자를 의미합니다. 종속 노트 슬라이드는 마스터 노트 슬라이드를 사용하고 의존합니다.
+마스터 노트 슬라이드 푸터, 날짜-시간, 페이지 번호 자리표시자와 모든 자식 자리표시자의 동작을 관리하는 관리자입니다. 자식 자리표시자는 종속 노트 슬라이드에 포함된 자리표시자를 의미합니다. 종속 노트 슬라이드는 마스터 노트 슬라이드를 사용하고 의존합니다.
 
 ```csharp
 public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -24,13 +24,13 @@ public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHe
 
 | 이름 | 설명 |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | 마스터 노트 슬라이드 날짜-시간 자리표시자 및 모든 하위 날짜-시간 자리표시자에 텍스트를 설정합니다. 하위 자리표시자는 종속 노트 슬라이드에 포함된 자리표시자를 의미합니다. 종속 노트 슬라이드는 마스터 노트 슬라이드를 사용하고 의존합니다. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | 마스터 노트 슬라이드 날짜-시간 자리표시자 및 모든 하위 날짜-시간 자리표시자의 표시 여부를 변경합니다. 하위 자리표시자는 종속 노트 슬라이드에 포함된 자리표시자를 의미합니다. 종속 노트 슬라이드는 마스터 노트 슬라이드를 사용하고 의존합니다. |
-| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | 마스터 노트 슬라이드 바닥글 자리표시자 및 모든 하위 바닥글 자리표시자에 텍스트를 설정합니다. 하위 자리표시자는 종속 노트 슬라이드에 포함된 자리표시자를 의미합니다. 종속 노트 슬라이드는 마스터 노트 슬라이드를 사용하고 의존합니다. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | 마스터 노트 슬라이드 바닥글 자리표시자 및 모든 하위 바닥글 자리표시자의 표시 여부를 변경합니다. 하위 자리표시자는 종속 노트 슬라이드에 포함된 자리표시자를 의미합니다. 종속 노트 슬라이드는 마스터 노트 슬라이드를 사용하고 의존합니다. |
-| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | 마스터 노트 슬라이드 머리글 자리표시자 및 모든 하위 머리글 자리표시자에 텍스트를 설정합니다. 하위 자리표시자는 종속 노트 슬라이드에 포함된 자리표시자를 의미합니다. 종속 노트 슬라이드는 마스터 노트 슬라이드를 사용하고 의존합니다. |
-| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | 마스터 노트 슬라이드 머리글 자리표시자 및 모든 하위 머리글 자리표시자의 표시 여부를 변경합니다. 하위 자리표시자는 종속 노트 슬라이드에 포함된 자리표시자를 의미합니다. 종속 노트 슬라이드는 마스터 노트 슬라이드를 사용하고 의존합니다. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | 마스터 노트 슬라이드 페이지 번호 자리표시자 및 모든 하위 페이지 번호 자리표시자의 표시 여부를 변경합니다. 하위 자리표시자는 종속 노트 슬라이드에 포함된 자리표시자를 의미합니다. 종속 노트 슬라이드는 마스터 노트 슬라이드를 사용하고 의존합니다. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | 마스터 노트 슬라이드 날짜-시간 자리표시자와 모든 자식 날짜-시간 자리표시자에 텍스트를 설정합니다. 자식 자리표시자는 종속 노트 슬라이드에 포함된 자리표시자를 의미합니다. 종속 노트 슬라이드는 마스터 노트 슬라이드를 사용하고 의존합니다. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | 마스터 노트 슬라이드 날짜-시간 자리표시자와 모든 자식 날짜-시간 자리표시자의 가시성을 변경합니다. 자식 자리표시자는 종속 노트 슬라이드에 포함된 자리표시자를 의미합니다. 종속 노트 슬라이드는 마스터 노트 슬라이드를 사용하고 의존합니다. |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | 마스터 노트 슬라이드 푸터 자리표시자와 모든 자식 푸터 자리표시자에 텍스트를 설정합니다. 자식 자리표시자는 종속 노트 슬라이드에 포함된 자리표시자를 의미합니다. 종속 노트 슬라이드는 마스터 노트 슬라이드를 사용하고 의존합니다. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | 마스터 노트 슬라이드 푸터 자리표시자와 모든 자식 푸터 자리표시자의 가시성을 변경합니다. 자식 자리표시자는 종속 노트 슬라이드에 포함된 자리표시자를 의미합니다. 종속 노트 슬라이드는 마스터 노트 슬라이드를 사용하고 의존합니다. |
+| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | 마스터 노트 슬라이드 헤더 자리표시자와 모든 자식 헤더 자리표시자에 텍스트를 설정합니다. 자식 자리표시자는 종속 노트 슬라이드에 포함된 자리표시자를 의미합니다. 종속 노트 슬라이드는 마스터 노트 슬라이드를 사용하고 의존합니다. |
+| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | 마스터 노트 슬라이드 헤더 자리표시자와 모든 자식 헤더 자리표시자의 가시성을 변경합니다. 자식 자리표시자는 종속 노트 슬라이드에 포함된 자리표시자를 의미합니다. 종속 노트 슬라이드는 마스터 노트 슬라이드를 사용하고 의존합니다. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | 마스터 노트 슬라이드 페이지 번호 자리표시자와 모든 자식 페이지 번호 자리표시자의 가시성을 변경합니다. 자식 자리표시자는 종속 노트 슬라이드에 포함된 자리표시자를 의미합니다. 종속 노트 슬라이드는 마스터 노트 슬라이드를 사용하고 의존합니다. |
 
 ### 참조
 

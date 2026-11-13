@@ -1,12 +1,12 @@
 ---
 title: TextStyle
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Aspose.Sildes per il riferimento API .NET
 description: Questa classe contiene le proprietà di formattazione dello stile del testo.
 type: docs
-weight: 11000
+weight: 11020
 url: /it/aspose.slides/textstyle/
 ---
-## classe TextStyle
+## TextStyle classe
 
 Questa classe contiene le proprietà di formattazione dello stile del testo.
 
@@ -18,15 +18,15 @@ public sealed class TextStyle : PVIObject, ITextStyle
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia base IPresentationComponent. Di sola lettura [`IPresentationComponent`](../ipresentationcomponent). |
-| [DefaultParagraphFormat](../../aspose.slides/textstyle/defaultparagraphformat) { get; } | Proprietà predefinite del paragrafo. Di sola lettura [`IParagraphFormat`](../iparagraphformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia base IPresentationComponent. Solo lettura [`IPresentationComponent`](../ipresentationcomponent). |
+| [DefaultParagraphFormat](../../aspose.slides/textstyle/defaultparagraphformat) { get; } | Proprietà predefinite del paragrafo. Solo lettura [`IParagraphFormat`](../iparagraphformat). |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Confronta con l'oggetto specificato. |
-| [GetEffective](../../aspose.slides/textstyle/geteffective)() | Ottiene i dati di formattazione dello stile del testo effettivo con l'ereditarietà applicata. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Confronta con l'object specificato. |
+| [GetEffective](../../aspose.slides/textstyle/geteffective)() | Ottiene i dati di formattazione effettiva dello stile del testo con l'ereditarietà applicata. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Restituisce il codice hash. |
 | [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | Se il livello di stile esiste lo restituisce, altrimenti restituisce null. |
 

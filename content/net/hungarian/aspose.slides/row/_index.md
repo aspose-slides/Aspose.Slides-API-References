@@ -1,14 +1,14 @@
 ---
 title: Row
-second_title: Aspose.Sildes a .NET API hivatkozás
-description: Egy sor ábrázolása egy táblázatban.
+second_title: Aspose.Sildes .NET API referenciája
+description: Egy sor reprezentálása egy táblázatban.
 type: docs
-weight: 9710
+weight: 9730
 url: /hu/aspose.slides/row/
 ---
 ## Row osztály
 
-Egy táblázat sorát reprezentálja.
+Egy sor táblában való ábrázolásáért felelős.
 
 ```csharp
 public sealed class Row : CellCollection, IRow
@@ -18,12 +18,12 @@ public sealed class Row : CellCollection, IRow
 
 | Név | Leírás |
 | --- | --- |
-| [Count](../../aspose.slides/cellcollection/count) { get; } | Visszaadja a cellák számát a gyűjteményben. Csak olvasható Int32. |
+| [Count](../../aspose.slides/cellcollection/count) { get; } | Visszaadja a gyűjteményben lévő cellák számát. Csak olvasható Int32. |
 | [Height](../../aspose.slides/row/height) { get; } | Visszaadja a sor magasságát. Csak olvasható Double. |
 | [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált (szálbiztos). Csak olvasható Boolean. |
 | [Item](../../aspose.slides/cellcollection/item) { get; } | Visszaad egy cellát a pozíciója alapján. Csak olvasható [`Cell`](../cell). |
-| [MinimalHeight](../../aspose.slides/row/minimalheight) { get; set; } | Visszaadja vagy beállítja a sor minimálisan lehetséges magasságát. Olvasható/írható Double. |
-| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Visszaadja a CellCollection szülő előadását. Csak olvasható [`IPresentation`](../ipresentation). |
+| [MinimalHeight](../../aspose.slides/row/minimalheight) { get; set; } | Visszaadja vagy beállítja a sor minimális lehetséges magasságát. Olvasható/írható Double. |
+| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Visszaadja a CellCollection szülő prezentációját. Csak olvasható [`IPresentation`](../ipresentation). |
 | [RowFormat](../../aspose.slides/row/rowformat) { get; } | Visszaadja a RowFormat objektumot, amely a sor formázási tulajdonságait tartalmazza. Csak olvasható [`IRowFormat`](../irowformat). |
 | [Slide](../../aspose.slides/cellcollection/slide) { get; } | Visszaadja a CellCollection szülő diáját. Csak olvasható [`IBaseSlide`](../ibaseslide). |
 | [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökeret. Csak olvasható Object. |
@@ -33,10 +33,10 @@ public sealed class Row : CellCollection, IRow
 | Név | Leírás |
 | --- | --- |
 | [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Átmásolja a gyűjtemény összes elemét a megadott tömbbe. |
-| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Visszaad egy enumerátort, amely bejárja a gyűjteményt. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat)(IParagraphFormat) | Beállítja a meghatározott bekezdésformázási tulajdonságokat az összes sorcellában lévő bekezdésekre. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_1)(IPortionFormat) | Beállítja a meghatározott részformázási tulajdonságokat az összes sorcellában lévő részekre. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_2)(ITextFrameFormat) | Beállítja a meghatározott szövegkeret-formázási tulajdonságokat az összes sorcellában lévő szövegkeretekre. |
+| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Visszaad egy enumerátort, amely végig iterál a gyűjteményen. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat)(IParagraphFormat) | Beállítja a meghatározott bekezdésformázási tulajdonságokat az összes sorcellához tartozó bekezdésekre. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_1)(IPortionFormat) | Beállítja a meghatározott szakaszformázási tulajdonságokat az összes sorcellához tartozó szakaszokra. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_2)(ITextFrameFormat) | Beállítja a meghatározott szövegkeret-formázási tulajdonságokat az összes sorcellához tartozó szövegkeretekre. |
 
 ### Lásd még
 

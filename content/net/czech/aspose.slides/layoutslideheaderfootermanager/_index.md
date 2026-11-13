@@ -1,14 +1,14 @@
 ---
 title: LayoutSlideHeaderFooterManager
-second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje správce, který obsahuje chování zástupných symbolů zápatí snímku rozvržení, data-času, čísla stránky a všech podřízených zástupných symbolů. Podřízené zástupné symboly znamenají, že zástupné symboly jsou obsaženy na závislých snímcích. Závislé snímky používají a závisí na snímku rozvržení.
+second_title: Aspose.Sildes pro .NET - referenční dokumentace API
+description: Representuje manažera, který drží chování zástupných znaků zápatí snímku rozvržení, datum-čas, číslo stránky a všech podřízených zástupných znaků. Podřízené zástupné znaky znamenají, že jsou obsaženy na závislých snímcích. Závislé snímky používají a závisí na snímku rozvržení.
 type: docs
-weight: 7660
+weight: 7680
 url: /cs/aspose.slides/layoutslideheaderfootermanager/
 ---
 ## LayoutSlideHeaderFooterManager třída
 
-Představuje správce, který obsahuje chování zástupných symbolů zápatí snímku rozvržení, data-času, čísla stránky a všech podřízených zástupných symbolů. Podřízené zástupné symboly znamenají, že zástupné symboly jsou obsaženy na závislých snímcích. Závislé snímky používají a závisí na snímku rozvržení.
+Represents manager which holds behavior of the layout slide footer, date-time, page number placeholders and all child placeholders. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide.
 
 ```csharp
 public sealed class LayoutSlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
@@ -19,24 +19,24 @@ public sealed class LayoutSlideHeaderFooterManager : BaseSlideHeaderFooterManage
 
 | Název | Popis |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Získá hodnotu označující, že je přítomen zástupný symbol data-času. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Získá hodnotu označující, že je přítomen zástupný symbol zápatí. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Získá hodnotu označující, že je přítomen zástupný symbol čísla stránky. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Získá hodnotu označující, že je přítomen zástupný znak datum-čas. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Získá hodnotu označující, že je přítomen zástupný znak zápatí. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Získá hodnotu označující, že je přítomen zástupný znak čísla stránky. ReadBoolean. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Nastaví text do zástupného symbolu data-času snímku rozvržení a všech podřízených zástupných symbolů data-času. Podřízené zástupné symboly znamenají, že zástupné symboly jsou obsaženy na závislých snímcích. Závislé snímky používají a závisí na snímku rozvržení. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Mění viditelnost zástupného symbolu data-času snímku rozvržení a všech podřízených zástupných symbolů data-času. Podřízené zástupné symboly znamenají, že zástupné symboly jsou obsaženy na závislých snímcích. Závislé snímky používají a závisí na snímku rozvržení. |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Nastaví text do zástupného symbolu data-času snímku. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Mění viditelnost zástupného symbolu data-času snímku. |
-| [SetFooterAndChildFootersText](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | Nastaví text do zástupného symbolu zápatí snímku rozvržení a všech podřízených zástupných symbolů zápatí. Podřízené zástupné symboly znamenají, že zástupné symboly jsou obsaženy na závislých snímcích. Závislé snímky používají a závisí na snímku rozvržení. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Mění viditelnost zástupného symbolu zápatí snímku rozvržení a všech podřízených zástupných symbolů zápatí. Podřízené zástupné symboly znamenají, že zástupné symboly jsou obsaženy na závislých snímcích. Závislé snímky používají a závisí na hlavním snímku. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Nastaví text do zástupného symbolu zápatí snímku. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Mění viditelnost zástupného symbolu zápatí snímku. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Mění viditelnost zástupného symbolu čísla stránky snímku rozvržení a všech podřízených zástupných symbolů čísla stránky. Podřízené zástupné symboly znamenají, že zástupné symboly jsou obsaženy na závislých snímcích. Závislé snímky používají a závisí na snímku rozvržení. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Mění viditelnost zástupného symbolu čísla stránky snímku. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Nastaví text do zástupného znaku datum-čas snímku rozvržení a všech podřízených zástupných znaků datum-čas. Podřízené zástupné znaky znamenají, že zástupné znaky jsou obsaženy na závislých snímcích. Závislé snímky používají a závisí na snímku rozvržení. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Mění viditelnost zástupného znaku datum-čas snímku rozvržení a všech podřízených zástupných znaků datum-čas. Podřízené zástupné znaky znamenají, že zástupné znaky jsou obsaženy na závislých snímcích. Závislé snímky používají a závisí na snímku rozvržení. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Nastaví text do zástupného znaku datum-čas snímku. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Mění viditelnost zástupného znaku datum-čas snímku. |
+| [SetFooterAndChildFootersText](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | Nastaví text do zástupného znaku zápatí snímku rozvržení a všech podřízených zástupných znaků zápatí. Podřízené zástupné znaky znamenají, že zástupné znaky jsou obsaženy na závislých snímcích. Závislé snímky používají a závisí na snímku rozvržení. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Mění viditelnost zástupného znaku zápatí snímku rozvržení a všech podřízených zástupných znaků zápatí. Podřízené zástupné znaky znamenají, že zástupné znaky jsou obsaženy na závislých snímcích. Závislé snímky používají a závisí na hlavním snímku. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Nastaví text do zástupného znaku zápatí snímku. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Mění viditelnost zástupného znaku zápatí snímku. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Mění viditelnost zástupného znaku čísla stránky snímku rozvržení a všech podřízených zástupných znaků čísla stránky. Podřízené zástupné znaky znamenají, že zástupné znaky jsou obsaženy na závislých snímcích. Závislé snímky používají a závisí na snímku rozvržení. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Mění viditelnost zástupného znaku čísla stránky snímku. |
 
 ### Viz také
 

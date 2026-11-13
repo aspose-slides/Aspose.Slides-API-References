@@ -3,7 +3,7 @@ title: IXamlOptions
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Opzioni che controllano come viene salvato un documento XAML.
 type: docs
-weight: 4700
+weight: 4720
 url: /it/aspose.slides.export.xaml/ixamloptions/
 ---
 ## IXamlOptions interfaccia
@@ -18,8 +18,8 @@ public interface IXamlOptions : ISaveOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export.xaml/ixamloptions/asisaveoptions) { get; } | Restituisce l'interfaccia ISaveOptions. Sola lettura [`ISaveOptions`](../../aspose.slides.export/isaveoptions). |
-| [ExportHiddenSlides](../../aspose.slides.export.xaml/ixamloptions/exporthiddenslides) { get; set; } | Determina se le diapositive nascoste saranno esportate. |
+| [AsISaveOptions](../../aspose.slides.export.xaml/ixamloptions/asisaveoptions) { get; } | Restituisce l'interfaccia ISaveOptions. Solo lettura [`ISaveOptions`](../../aspose.slides.export/isaveoptions). |
+| [ExportHiddenSlides](../../aspose.slides.export.xaml/ixamloptions/exporthiddenslides) { get; set; } | Determina se le diapositive nascoste verranno esportate. |
 | [OutputSaver](../../aspose.slides.export.xaml/ixamloptions/outputsaver) { get; set; } | Rappresenta un'implementazione dell'interfaccia IOutputSaver. |
 
 ### Esempi

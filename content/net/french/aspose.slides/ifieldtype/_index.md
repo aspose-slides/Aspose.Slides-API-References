@@ -1,14 +1,14 @@
 ---
 title: IFieldType
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Représente un type de champ. Cette valeur détermine le texte qui sera placé dans la partie du champ lorsqu’il sera mis à jour.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Représente un type de champ. Cette valeur détermine le texte qui sera affecté à la partie du champ lorsqu’il sera mis à jour.
 type: docs
-weight: 5780
+weight: 5800
 url: /fr/aspose.slides/ifieldtype/
 ---
 ## IFieldType interface
 
-Représente un type de champ. Cette valeur détermine le texte qui sera placé dans la partie du champ lorsqu’il sera mis à jour.
+Représente un type de champ. Cette valeur détermine le texte qui sera affecté à la partie du champ lorsqu’il sera mis à jour.
 
 ```csharp
 public interface IFieldType
@@ -16,7 +16,7 @@ public interface IFieldType
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [InternalString](../../aspose.slides/ifieldtype/internalstring) { get; set; } | Renvoie le nom interne de cet objet FieldTypeEx. Lecture/écriture String. |
 

@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Aspose.Sildes för .NET API-referens
-description: Value. Endast läsning IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+description: Värde. Skrivskyddad IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 190
+weight: 230
 url: /sv/aspose.slides.charts/chartdatapoint/value/
 ---
 ## ChartDataPoint.Value egenskap
 
-Value. Endast läsning [`IDoubleChartValue`](../../idoublechartvalue).
+Värde. Skrivskyddad [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue Value { get; }

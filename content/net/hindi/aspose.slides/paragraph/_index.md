@@ -3,12 +3,12 @@ title: Paragraph
 second_title: Aspose.Sildes for .NET API संदर्भ
 description: पाठ का एक पैराग्राफ दर्शाता है।
 type: docs
-weight: 9280
+weight: 9300
 url: /hi/aspose.slides/paragraph/
 ---
-## Paragraph वर्ग
+## Paragraph क्लास
 
-पाठ का एक पैराग्राफ दर्शाता है।
+एक पैराग्राफ का पाठ दर्शाता है।
 
 ```csharp
 public sealed class Paragraph : IParagraph
@@ -16,27 +16,29 @@ public sealed class Paragraph : IParagraph
 
 ## कंस्ट्रक्टर
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [Paragraph](paragraph#constructor)() | डिफ़ॉल्ट प्रॉपर्टीज़ के साथ Paragraph वर्ग का नया उदाहरण आरंभ करता है। |
-| [Paragraph](paragraph#constructor_1)(Paragraph) | कॉपी कंस्ट्रक्टर जो Paragraph वर्ग का नया उदाहरण आरंभ करता है। |
+| [Paragraph](paragraph#constructor)() | डिफॉल्ट गुणों के साथ Paragraph क्लास का नया इंस्टेंस प्रारंभ करता है। |
+| [Paragraph](paragraph#constructor_1)(Paragraph) | कॉपी कंस्ट्रक्टर जो Paragraph क्लास का नया इंस्टेंस प्रारंभ करता है। |
 
 ## गुण
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [EndParagraphPortionFormat](../../aspose.slides/paragraph/endparagraphportionformat) { get; set; } | निर्दिष्ट करता है कि भाग गुणों का उपयोग किया जाना चाहिए यदि अंतिम भाग के बाद कोई अन्य भाग डाला जाए। |
-| [ParagraphFormat](../../aspose.slides/paragraph/paragraphformat) { get; } | इस पैराग्राफ के लिए फ़ॉर्मेटिंग ऑब्जेक्ट लौटाता है। केवल पढ़ने योग्य [`IParagraphFormat`](../iparagraphformat)। |
-| [Portions](../../aspose.slides/paragraph/portions) { get; } | पाठ भागों का संग्रह लौटाता है। केवल पढ़ने योग्य [`IPortionCollection`](../iportioncollection)। |
-| [Text](../../aspose.slides/paragraph/text) { get; set; } | पैराग्राफ के साधारण पाठ को प्राप्त करता है या सेट करता है। पढ़ने/लिखने योग्य String। |
+| [EndParagraphPortionFormat](../../aspose.slides/paragraph/endparagraphportionformat) { get; set; } | निर्दिष्ट करता है कि किस हिस्से की विशेषताएँ उपयोग की जाएँगी यदि अंतिम हिस्से के बाद एक और हिस्सा सम्मिलित किया जाता है। |
+| [ParagraphFormat](../../aspose.slides/paragraph/paragraphformat) { get; } | इस पैराग्राफ के लिए फॉर्मेटिंग ऑब्जेक्ट लौटाता है। केवल- पढ़ने योग्य [`IParagraphFormat`](../iparagraphformat)। |
+| [Portions](../../aspose.slides/paragraph/portions) { get; } | पाठ हिस्सों का संग्रह लौटाता है। केवल- पढ़ने योग्य [`IPortionCollection`](../iportioncollection)। |
+| [Text](../../aspose.slides/paragraph/text) { get; set; } | एक पैराग्राफ का सादा पाठ प्राप्त करता है या सेट करता है। पढ़ने/लिखने योग्य String। |
 
 ## विधियाँ
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [GetLinesCount](../../aspose.slides/paragraph/getlinescount)() | पैराग्राफ में लाइनों की संख्या प्राप्त करें। |
-| [GetRect](../../aspose.slides/paragraph/getrect)() | पैराग्राफ को घेरने वाले आयत के निर्देशांक प्राप्त करें। आयत में पैराग्राफ की सभी लाइनों को शामिल किया गया है, जिसमें खाली लाइनों भी शामिल हैं। |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/paragraph/joinportionswithsameformatting)() | समान फ़ॉर्मेटिंग वाले रन को जोड़ता है। |
+| [GetImage](../../aspose.slides/paragraph/getimage#getimage)() | पैराग्राफ की एक छवि लौटाता है। |
+| [GetImage](../../aspose.slides/paragraph/getimage#getimage_1)(float, float) | निर्दिष्ट स्केल के साथ पैराग्राफ की एक छवि लौटाता है। |
+| [GetLinesCount](../../aspose.slides/paragraph/getlinescount)() | एक पैराग्राफ में पंक्तियों की संख्या प्राप्त करें। |
+| [GetRect](../../aspose.slides/paragraph/getrect)() | पैराग्राफ को सीमित करने वाले आयत के निर्देशांक प्राप्त करें। आयत में पैराग्राफ की सभी पंक्तियों का पाठ शामिल है, यहाँ तक कि खाली पंक्तियां भी। |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/paragraph/joinportionswithsameformatting)() | एक ही फ़ॉर्मेटिंग वाले रन को जोड़ता है। |
 
 ### संबंधित देखें
 

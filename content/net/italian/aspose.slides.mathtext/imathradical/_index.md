@@ -1,14 +1,14 @@
 ---
 title: IMathRadical
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Specifica la funzione radice composta da una base e da un grado opzionale. Esempio di oggetto radice è .
+description: Specifica la funzione radice costituita da una base e da un grado opzionale. Esempio di oggetto radice è .
 type: docs
-weight: 8430
+weight: 8450
 url: /it/aspose.slides.mathtext/imathradical/
 ---
 ## IMathRadical interfaccia
 
-Specifica la funzione radice, composta da una base e un grado opzionale. Un esempio di oggetto radice è √𝑥.
+Specifica la funzione radice, composta da una base e da un grado opzionale. Un esempio di oggetto radice è √𝑥.
 
 ```csharp
 public interface IMathRadical : IMathElement

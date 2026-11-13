@@ -1,14 +1,14 @@
 ---
 title: FillFormat
 second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Biểu diễn các tùy chọn định dạng tô đầy.
+description: Biểu diễn các tùy chọn định dạng tô màu.
 type: docs
-weight: 4780
+weight: 4800
 url: /vi/aspose.slides/fillformat/
 ---
-## Lớp FillFormat
+## FillFormat lớp
 
-Biểu diễn các tùy chọn định dạng tô đầy.
+Represents a fill formatting options.
 
 ```csharp
 public sealed class FillFormat : PVIObject, IFillFormat
@@ -19,11 +19,11 @@ public sealed class FillFormat : PVIObject, IFillFormat
 | Tên | Mô tả |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Cho phép lấy giao diện IPresentationComponent cơ bản. Chỉ đọc [`IPresentationComponent`](../ipresentationcomponent). |
-| [FillType](../../aspose.slides/fillformat/filltype) { get; set; } | Trả về hoặc thiết lập loại tô đầy. Đọc/ghi [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/fillformat/gradientformat) { get; } | Trả về định dạng tô gradient. Chỉ đọc [`IGradientFormat`](../igradientformat). |
-| [PatternFormat](../../aspose.slides/fillformat/patternformat) { get; } | Trả về định dạng tô mẫu. Chỉ đọc [`IPatternFormat`](../ipatternformat). |
-| [PictureFillFormat](../../aspose.slides/fillformat/picturefillformat) { get; } | Trả về định dạng tô ảnh. Chỉ đọc [`IPictureFillFormat`](../ipicturefillformat). |
-| [RotateWithShape](../../aspose.slides/fillformat/rotatewithshape) { get; set; } | Xác định liệu việc tô có quay theo hình dạng hay không. Đọc/ghi [`NullableBool`](../nullablebool). |
+| [FillType](../../aspose.slides/fillformat/filltype) { get; set; } | Trả về hoặc đặt kiểu tô màu. Đọc/ghi [`FillType`](../filltype). |
+| [GradientFormat](../../aspose.slides/fillformat/gradientformat) { get; } | Trả về định dạng tô màu gradient. Chỉ đọc [`IGradientFormat`](../igradientformat). |
+| [PatternFormat](../../aspose.slides/fillformat/patternformat) { get; } | Trả về định dạng tô màu mẫu. Chỉ đọc [`IPatternFormat`](../ipatternformat). |
+| [PictureFillFormat](../../aspose.slides/fillformat/picturefillformat) { get; } | Trả về định dạng tô màu hình ảnh. Chỉ đọc [`IPictureFillFormat`](../ipicturefillformat). |
+| [RotateWithShape](../../aspose.slides/fillformat/rotatewithshape) { get; set; } | Xác định liệu việc tô màu có nên quay cùng hình dạng không. Đọc/ghi [`NullableBool`](../nullablebool). |
 | [SolidFillColor](../../aspose.slides/fillformat/solidfillcolor) { get; } | Trả về màu tô. Chỉ đọc [`IColorFormat`](../icolorformat). |
 
 ## Phương thức
@@ -31,7 +31,7 @@ public sealed class FillFormat : PVIObject, IFillFormat
 | Tên | Mô tả |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | So sánh với đối tượng được chỉ định. |
-| [GetEffective](../../aspose.slides/fillformat/geteffective)() | Lấy dữ liệu định dạng tô đầy hiệu quả với tính kế thừa được áp dụng. |
+| [GetEffective](../../aspose.slides/fillformat/geteffective)() | Lấy dữ liệu định dạng tô màu hiệu quả với kế thừa đã áp dụng. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Trả về mã băm. |
 
 ### Xem thêm

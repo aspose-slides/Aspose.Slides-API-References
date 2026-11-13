@@ -3,7 +3,7 @@ title: ExcelWorkbookImporter
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Proporciona funcionalidad para importar contenido de un libro de Excel a una presentación.
 type: docs
-weight: 7470
+weight: 7490
 url: /es/aspose.slides.import/excelworkbookimporter/
 ---
 ## ExcelWorkbookImporter clase
@@ -18,13 +18,13 @@ public static class ExcelWorkbookImporter
 
 | Nombre | Descripción |
 | --- | --- |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, int, bool) | Recupera un gráfico del libro de Excel especificado y lo agrega al final de la colección de formas proporcionada en las coordenadas especificadas. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_1)(IShapeCollection, float, float, IExcelDataWorkbook, string, string, bool) | Recupera un gráfico del libro de Excel especificado y lo agrega al final de la colección de formas proporcionada en las coordenadas especificadas. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_2)(IShapeCollection, float, float, Stream, string, string, bool) | Recupera un gráfico del libro de Excel especificado y lo agrega al final de la colección de formas proporcionada en las coordenadas especificadas. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_3)(IShapeCollection, float, float, string, string, string, bool) | Recupera un gráfico del libro de Excel especificado y lo agrega al final de la colección de formas proporcionada en las coordenadas especificadas. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, string) | Recupera una tabla del libro de Excel especificado y la agrega al final de la colección de formas proporcionada en las coordenadas especificadas. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_1)(IShapeCollection, float, float, Stream, string, string) | Recupera una tabla del archivo de libro de Excel especificado y la agrega al final de la colección de formas proporcionada en las coordenadas especificadas. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_2)(IShapeCollection, float, float, string, string, string) | Recupera una tabla del archivo de libro de Excel especificado y la agrega al final de la colección de formas proporcionada en las coordenadas especificadas. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, int, bool) | Obtiene un gráfico del libro de Excel especificado y lo agrega al final de la colección de formas proporcionada en las coordenadas especificadas. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_1)(IShapeCollection, float, float, IExcelDataWorkbook, string, string, bool) | Obtiene un gráfico del libro de Excel especificado y lo agrega al final de la colección de formas proporcionada en las coordenadas especificadas. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_2)(IShapeCollection, float, float, Stream, string, string, bool) | Obtiene un gráfico del libro de Excel especificado y lo agrega al final de la colección de formas proporcionada en las coordenadas especificadas. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_3)(IShapeCollection, float, float, string, string, string, bool) | Obtiene un gráfico del libro de Excel especificado y lo agrega al final de la colección de formas proporcionada en las coordenadas especificadas. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, string) | Obtiene una tabla del libro de Excel especificado y la agrega al final de la colección de formas proporcionada en las coordenadas especificadas. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_1)(IShapeCollection, float, float, Stream, string, string) | Obtiene una tabla del archivo de libro de Excel especificado y la agrega al final de la colección de formas proporcionada en las coordenadas especificadas. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_2)(IShapeCollection, float, float, string, string, string) | Obtiene una tabla del archivo de libro de Excel especificado y la agrega al final de la colección de formas proporcionada en las coordenadas especificadas. |
 
 ### Ver también
 

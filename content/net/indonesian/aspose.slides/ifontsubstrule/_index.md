@@ -1,14 +1,14 @@
 ---
 title: IFontSubstRule
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili informasi substitusi font
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili informasi subtitusi font
 type: docs
-weight: 5880
+weight: 5900
 url: /id/aspose.slides/ifontsubstrule/
 ---
 ## IFontSubstRule antarmuka
 
-Mewakili informasi substitusi font
+Mewakili informasi subtitusi font
 
 ```csharp
 public interface IFontSubstRule
@@ -18,9 +18,9 @@ public interface IFontSubstRule
 
 | Nama | Deskripsi |
 | --- | --- |
-| [DestFont](../../aspose.slides/ifontsubstrule/destfont) { get; } | Font yang akan digunakan untuk substitusi (Hanya baca) [`IFontData`](../ifontdata). |
-| [ReplaceFontCondition](../../aspose.slides/ifontsubstrule/replacefontcondition) { get; } | Aturan yang diterapkan untuk substitusi (Hanya baca) [`FontSubstCondition`](../fontsubstcondition). |
-| [SourceFont](../../aspose.slides/ifontsubstrule/sourcefont) { get; } | Font untuk substitusi (Hanya baca) [`IFontData`](../ifontdata). |
+| [DestFont](../../aspose.slides/ifontsubstrule/destfont) { get; } | Font yang digunakan untuk substitusi Hanya-baca [`IFontData`](../ifontdata). |
+| [ReplaceFontCondition](../../aspose.slides/ifontsubstrule/replacefontcondition) { get; } | Aturan yang diterapkan untuk substitusi Hanya-baca [`FontSubstCondition`](../fontsubstcondition). |
+| [SourceFont](../../aspose.slides/ifontsubstrule/sourcefont) { get; } | Font untuk menggantikan Hanya-baca [`IFontData`](../ifontdata). |
 
 ### Lihat Juga
 

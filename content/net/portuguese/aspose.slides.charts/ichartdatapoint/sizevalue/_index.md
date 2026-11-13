@@ -1,20 +1,20 @@
 ---
 title: SizeValue
-second_title: Aspose.Sildes para .NET Referência da API
-description: Retorna o valor de tamanho do ponto de dados do gráfico. Usado com gráficos Treemap e Sunburst. Somente leitura IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Obtém o valor de tamanho de um ponto de dados do gráfico. Usado com gráficos Treemap e Sunburst. Somente leitura IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 150
+weight: 190
 url: /pt/aspose.slides.charts/ichartdatapoint/sizevalue/
 ---
 ## IChartDataPoint.SizeValue propriedade
 
-Retorna o valor de tamanho do ponto de dados do gráfico. Usado com gráficos Treemap e Sunburst. Somente leitura [`IDoubleChartValue`](../../idoublechartvalue).
+Obtém o valor de tamanho de um ponto de dados do gráfico. Usado com gráficos Treemap e Sunburst. Somente leitura [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue SizeValue { get; }
 ```
 
-### Veja Também
+### Ver também
 
 * interface [IDoubleChartValue](../../idoublechartvalue)
 * interface [IChartDataPoint](../../ichartdatapoint)

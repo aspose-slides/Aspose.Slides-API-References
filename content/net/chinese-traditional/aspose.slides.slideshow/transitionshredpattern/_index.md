@@ -1,14 +1,14 @@
 ---
 title: TransitionShredPattern
-second_title: Aspose.Sildes for .NET API 參考
-description: 指定一種幾何形狀，能相互拼貼以填滿較大的區域。
+second_title: Aspose.Sildes .NET API 參考
+description: 指定一種幾何形狀，將其平鋪以填滿較大的區域。
 type: docs
-weight: 10410
+weight: 10430
 url: /zh-hant/aspose.slides.slideshow/transitionshredpattern/
 ---
 ## TransitionShredPattern 列舉
 
-指定一種幾何形狀，能相互拼貼以填滿較大的區域。
+指定一種幾何形狀，將其平鋪以填滿較大的區域。
 
 ```csharp
 public enum TransitionShredPattern
@@ -16,9 +16,9 @@ public enum TransitionShredPattern
 
 ### 值
 
-| 名稱 | 數值 | 說明 |
+| 名稱 | 值 | 說明 |
 | --- | --- | --- |
-| Strip | `0` | 垂直條帶 |
+| Strip | `0` | 垂直條紋 |
 | Rectangle | `1` | 小矩形 |
 
 ### 另請參閱

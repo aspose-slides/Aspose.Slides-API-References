@@ -1,14 +1,14 @@
 ---
 title: GetActualLabelText
-second_title: Aspose.Sildes .NET API referenciája
-description: Visszaadja a tényleges címkeszöveget a DataLabelFormat beállítások vagy a TextFrameForOverriding.Text érték alapján.
+second_title: Aspose.Sildes .NET API referencia
+description: Visszaadja a tényleges címke szöveget a DataLabelFormat beállítások vagy a TextFrameForOverriding.Text értéke alapján.
 type: docs
-weight: 70
+weight: 80
 url: /hu/aspose.slides.charts/idatalabel/getactuallabeltext/
 ---
-## IDataLabel.GetActualLabelText metódus
+## IDataLabel.GetActualLabelText method
 
-Visszaadja a tényleges címkeszöveget a DataLabelFormat beállítások vagy a TextFrameForOverriding.Text érték alapján.
+Visszaadja a tényleges címke szöveget a DataLabelFormat beállítások vagy a TextFrameForOverriding.Text értéke alapján.
 
 ```csharp
 public string GetActualLabelText()
@@ -16,7 +16,7 @@ public string GetActualLabelText()
 
 ### Visszatérési érték
 
-Tényleges címkeszöveg String
+Az aktuális címke szövege String
 
 ### Lásd még
 

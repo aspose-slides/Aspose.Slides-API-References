@@ -1,14 +1,14 @@
 ---
 title: HtmlFormatter
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho mẫu tệp HTML.
+second_title: Aspose.Sildes for .NET Tham chiếu API
+description: Đại diện mẫu tệp HTML.
 type: docs
-weight: 3870
+weight: 3890
 url: /vi/aspose.slides.export/htmlformatter/
 ---
-## Lớp HtmlFormatter
+## HtmlFormatter lớp
 
-Đại diện cho mẫu tệp HTML.
+Đại diện mẫu tệp HTML.
 
 ```csharp
 public sealed class HtmlFormatter : IHtmlFormatter
@@ -18,9 +18,9 @@ public sealed class HtmlFormatter : IHtmlFormatter
 
 | Tên | Mô tả |
 | --- | --- |
-| static [CreateCustomFormatter](../../aspose.slides.export/htmlformatter/createcustomformatter)(IHtmlFormattingController) | Tạo và trả về bộ định dạng HTML cho việc tạo HTML tùy chỉnh dựa trên callback. |
-| static [CreateDocumentFormatter](../../aspose.slides.export/htmlformatter/createdocumentformatter)(string, bool) | Tạo và trả về bộ định dạng HTML cho chế độ xem tài liệu đơn giản, bao gồm chuỗi các slide xếp chồng lên nhau. |
-| static [CreateSlideShowFormatter](../../aspose.slides.export/htmlformatter/createslideshowformatter)(string, bool) | Tạo và trả về bộ định dạng HTML cho một slideshow đơn giản, hiển thị các slide lần lượt. |
+| static [CreateCustomFormatter](../../aspose.slides.export/htmlformatter/createcustomformatter)(IHtmlFormattingController) | Tạo và trả về bộ định dạng HTML cho việc tạo HTML dựa trên callback tùy chỉnh. |
+| static [CreateDocumentFormatter](../../aspose.slides.export/htmlformatter/createdocumentformatter)(string, bool) | Tạo và trả về bộ định dạng HTML cho chế độ xem tài liệu đơn giản, bao gồm các chuỗi slide xếp chồng lên nhau. |
+| static [CreateSlideShowFormatter](../../aspose.slides.export/htmlformatter/createslideshowformatter)(string, bool) | Tạo và trả về bộ định dạng HTML cho một trình chiếu slide đơn giản, hiển thị các slide liên tiếp. |
 
 ### Xem thêm
 

@@ -1,14 +1,14 @@
 ---
 title: OOXMLCorruptFileException
 second_title: Aspose.Sildes pro .NET API Reference
-description: Výjimka, která je vyvolána, když je poškozen formát souboru Office Open XML.
+description: Výjimka, která je vyvolána, když je poškozený formát souboru Office Open XML.
 type: docs
-weight: 9190
+weight: 9210
 url: /cs/aspose.slides/ooxmlcorruptfileexception/
 ---
 ## OOXMLCorruptFileException třída
 
-Výjimka, která je vyvolána, když je poškozen formát souboru Office Open XML.
+Výjimka, která je vyvolána, když je poškozený formát souboru Office Open XML.
 
 ```csharp
 public class OOXMLCorruptFileException : OOXMLException

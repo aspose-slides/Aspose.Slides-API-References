@@ -1,14 +1,14 @@
 ---
 title: License
-second_title: Aspose.Sildes için .NET API Referansı
-description: Bileşeni lisanslamak için metodlar sağlar.
+second_title: Aspose.Sildes .NET için API Referansı
+description: Bileşeni lisanslamak için yöntemler sağlar.
 type: docs
-weight: 7680
+weight: 7700
 url: /tr/aspose.slides/license/
 ---
-## License sınıfı
+## Lisans sınıfı
 
-Bileşeni lisanslamak için metodlar sağlar.
+Bileşeni lisanslamak için yöntemler sağlar.
 
 ```csharp
 public class License : ILicense
@@ -20,18 +20,18 @@ public class License : ILicense
 | --- | --- |
 | [License](license)() | Bu sınıfın yeni bir örneğini başlatır. |
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [IsLicensed](../../aspose.slides/license/islicensed)() | Lisansın bileşene uygulanıp uygulanmadığını kontrol eder |
+| [IsLicensed](../../aspose.slides/license/islicensed)() | Bileşene lisans uygulanıp uygulanmadığını kontrol eder |
 | [ResetLicense](../../aspose.slides/license/resetlicense)() | Lisansı sıfırlar |
 | [SetLicense](../../aspose.slides/license/setlicense#setlicense)(Stream) | Bileşeni lisanslar. |
 | [SetLicense](../../aspose.slides/license/setlicense#setlicense_1)(string) | Bileşeni lisanslar. |
 
 ### Örnekler
 
-Bu örnekte, bileşeni içeren klasörde, çağıran derlemeyi içeren klasörde, giriş derlemesinin klasöründe ve ardından çağıran derlemenin gömülü kaynaklarında MyLicense.lic adlı bir lisans dosyası bulunmaya çalışılacaktır.
+Bu örnekte, bileşeni içeren klasörde, çağıran derlemenin bulunduğu klasörde, giriş derlemesinin bulunduğu klasörde ve ardından çağıran derlemenin gömülü kaynaklarında MyLicense.lic adlı bir lisans dosyası bulunmaya çalışılacaktır.
 
 ```csharp
 [C#]
@@ -46,7 +46,7 @@ Dim license As license = New license
 License.SetLicense("MyLicense.lic")
 ```
 
-### Diğer Bağlantılar
+### Ayrıca bakınız
 
 * arayüz [ILicense](../ilicense)
 * ad alanı [Aspose.Slides](../../aspose.slides)

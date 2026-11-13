@@ -3,10 +3,10 @@ title: SchemeColor
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt kleuren in een kleurschema voor.
 type: docs
-weight: 9740
+weight: 9760
 url: /nl/aspose.slides/schemecolor/
 ---
-## SchemeColor-enumeratie
+## SchemeColor enumeratie
 
 Stelt kleuren in een kleurschema voor.
 

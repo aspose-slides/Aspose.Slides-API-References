@@ -1,14 +1,14 @@
 ---
 title: ChartDataPointLevelsManager
-second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: คอนเทนเนอร์ของระดับจุดข้อมูล. ใช้กับซีรีส์ Treeamp และ Sunburst. การทำดัชนีระดับจุดข้อมูลเริ่มจากศูนย์.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: คอนเทนเนอร์ของระดับจุดข้อมูล ใช้กับซีรีส์ Treeamp และ Sunburst การจัดดัชนีระดับจุดข้อมูลเริ่มจากศูนย์.
 type: docs
-weight: 1360
+weight: 1370
 url: /th/aspose.slides.charts/chartdatapointlevelsmanager/
 ---
 ## ChartDataPointLevelsManager คลาส
 
-คอนเทนเนอร์ของระดับจุดข้อมูล ใช้กับ Treeamp และ Sunburst ซีรีส์ การทำดัชนีระดับจุดข้อมูลเริ่มจากศูนย์
+Container of data point levels. Applied for Treeamp and Sunburst series. Data point levels indexing is zero-based.
 
 ```csharp
 public class ChartDataPointLevelsManager : DomObject<ChartDataPoint>, IChartDataPointLevelsManager
@@ -18,8 +18,8 @@ public class ChartDataPointLevelsManager : DomObject<ChartDataPoint>, IChartData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartdatapointlevelsmanager/count) { get; } | ส่งคืนจำนวนระดับจุดข้อมูล |
-| [Item](../../aspose.slides.charts/chartdatapointlevelsmanager/item) { get; } | ส่งคืนอ็อบเจ็กต์ IChartDataPointLevel สำหรับระดับที่กำหนด |
+| [Count](../../aspose.slides.charts/chartdatapointlevelsmanager/count) { get; } | ส่งคืนจำนวนระดับจุดข้อมูล. |
+| [Item](../../aspose.slides.charts/chartdatapointlevelsmanager/item) { get; } | ส่งคืนอ็อบเจกต์ IChartDataPointLevel สำหรับระดับที่กำหนด. |
 
 ### ดูเพิ่มเติม
 

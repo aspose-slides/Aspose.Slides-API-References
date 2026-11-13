@@ -1,14 +1,14 @@
 ---
 title: INotImplementedWarningInfo
-second_title: Aspose.Sildes для .NET справочник API
-description: Представляет предупреждение о известной не реализованной функции, которая не будет реализована в ближайшем будущем.
+second_title: Aspose.Sildes для .NET: справочник API
+description: Представляет предупреждение о известной не реализованной функции, которая не будет реализована в ближайшее времени.
 type: docs
-weight: 11770
+weight: 11790
 url: /ru/aspose.slides.warnings/inotimplementedwarninginfo/
 ---
 ## INotImplementedWarningInfo интерфейс
 
-Представляет предупреждение о известной не реализованной функции, которая не будет реализована в ближайшем будущем.
+Представляет предупреждение о известной не реализованной функции, которая не будет реализована в ближайшее время.
 
 ```csharp
 public interface INotImplementedWarningInfo : IWarningInfo
@@ -18,7 +18,7 @@ public interface INotImplementedWarningInfo : IWarningInfo
 
 | Имя | Описание |
 | --- | --- |
-| [AsIWarningInfo](../../aspose.slides.warnings/inotimplementedwarninginfo/asiwarninginfo) { get; } | Возвращает IWarningInfo интерфейс. Только для чтения [`IWarningInfo`](../iwarninginfo). |
+| [AsIWarningInfo](../../aspose.slides.warnings/inotimplementedwarninginfo/asiwarninginfo) { get; } | Возвращает интерфейс IWarningInfo. Только для чтения [`IWarningInfo`](../iwarninginfo). |
 
 ### См. также
 

@@ -3,7 +3,7 @@ title: IMathAccentFactory
 second_title: Aspose.Sildes لـ .NET مرجع API
 description: يسمح بإنشاء لهجة رياضية
 type: docs
-weight: 8090
+weight: 8110
 url: /ar/aspose.slides.mathtext/imathaccentfactory/
 ---
 ## IMathAccentFactory واجهة
@@ -18,14 +18,14 @@ public interface IMathAccentFactory
 
 | الاسم | الوصف |
 | --- | --- |
-| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | ينشئ لهجة رياضية تُطبق على عنصر رياضي محدد باستخدام قيمة حرف اللكنة الافتراضية |
+| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | ينشئ لهجة رياضية تُطبق على عنصر رياضي محدد مع قيمة حرف اللكنة الافتراضية |
 | [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | ينشئ لهجة رياضية تُطبق على عنصر رياضي محدد |
 
 ### ملاحظات
 
 للتوافق مع COM
 
-### راجع أيضًا
+### انظر أيضًا
 
 * مساحة الاسم [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * التجميع [Aspose.Slides](../../)

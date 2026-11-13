@@ -1,14 +1,14 @@
 ---
 title: GradientStop
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET Справочник API
 description: Представляет градиентный формат.
 type: docs
-weight: 5020
+weight: 5040
 url: /ru/aspose.slides/gradientstop/
 ---
 ## GradientStop класс
 
-Represents a gradient format.
+Представляет градиентный формат.
 
 ```csharp
 public sealed class GradientStop : PVIObject, IGradientStop
@@ -18,16 +18,16 @@ public sealed class GradientStop : PVIObject, IGradientStop
 
 | Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только чтение [`IPresentationComponent`](../ipresentationcomponent). |
-| [Color](../../aspose.slides/gradientstop/color) { get; } | Возвращает цвет градиентной остановки. Только чтение [`IColorFormat`](../icolorformat). |
-| [Position](../../aspose.slides/gradientstop/position) { get; set; } | Возвращает или задает позицию (0..1) градиентной остановки. Чтение/запись Single. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../ipresentationcomponent). |
+| [Color](../../aspose.slides/gradientstop/color) { get; } | Возвращает цвет градиентной остановки. Только для чтения [`IColorFormat`](../icolorformat). |
+| [Position](../../aspose.slides/gradientstop/position) { get; set; } | Возвращает или задает положение (0..1) градиентной остановки. Чтение/запись Single. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Сравнивает с указанным объектом. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает хеш-код. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает код хэша. |
 
 ### См. также
 

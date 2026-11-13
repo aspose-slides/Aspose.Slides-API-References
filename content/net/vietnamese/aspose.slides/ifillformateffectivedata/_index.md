@@ -1,14 +1,14 @@
 ---
 title: IFillFormatEffectiveData
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đối tượng bất biến chứa các thuộc tính định dạng tô đầy hiệu quả.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Đối tượng bất biến chứa các thuộc tính định dạng tô đầy hiệu lực.
 type: docs
-weight: 5800
+weight: 5820
 url: /vi/aspose.slides/ifillformateffectivedata/
 ---
-## Giao diện IFillFormatEffectiveData
+## IFillFormatEffectiveData interface
 
-Đối tượng bất biến chứa các thuộc tính định dạng tô đầy hiệu quả.
+Đối tượng bất biến chứa các thuộc tính định dạng tô đầy hiệu lực.
 
 ```csharp
 public interface IFillFormatEffectiveData : IFillParamSource
@@ -23,13 +23,13 @@ public interface IFillFormatEffectiveData : IFillParamSource
 | [GradientFormat](../../aspose.slides/ifillformateffectivedata/gradientformat) { get; } | Trả về định dạng tô gradient. Chỉ đọc [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
 | [PatternFormat](../../aspose.slides/ifillformateffectivedata/patternformat) { get; } | Trả về định dạng tô mẫu. Chỉ đọc [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
 | [PictureFillFormat](../../aspose.slides/ifillformateffectivedata/picturefillformat) { get; } | Trả về định dạng tô hình ảnh. Chỉ đọc [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata). |
-| [RotateWithShape](../../aspose.slides/ifillformateffectivedata/rotatewithshape) { get; } | Xác định xem việc tô có nên quay cùng hình dạng hay không. Boolean chỉ đọc. |
-| [SolidFillColor](../../aspose.slides/ifillformateffectivedata/solidfillcolor) { get; } | Trả về màu tô. Color chỉ đọc. |
-| [SolidFillSchemeColor](../../aspose.slides/ifillformateffectivedata/solidfillschemecolor) { get; } | Lấy màu tô được định nghĩa bởi một lược đồ màu. Giá trị NotDefined cho biết rằng [`SolidFillColor`](./solidfillcolor) không phải là màu trong lược đồ. Chỉ đọc [`SchemeColor`](../schemecolor). |
+| [RotateWithShape](../../aspose.slides/ifillformateffectivedata/rotatewithshape) { get; } | Xác định xem việc tô có nên xoay cùng hình dạng không. Chỉ đọc Boolean. |
+| [SolidFillColor](../../aspose.slides/ifillformateffectivedata/solidfillcolor) { get; } | Trả về màu tô. Chỉ đọc Color. |
+| [SolidFillSchemeColor](../../aspose.slides/ifillformateffectivedata/solidfillschemecolor) { get; } | Lấy màu tô được định nghĩa bởi bảng màu. Giá trị NotDefined cho biết rằng [`SolidFillColor`](./solidfillcolor) không phải là màu trong bảng màu. Chỉ đọc [`SchemeColor`](../schemecolor). |
 
 ### Ghi chú
 
-Giao diện này được sử dụng cùng với giao diện [`IFillFormat`](../ifillformat) để trả về các giá trị định dạng hiệu quả có áp dụng kế thừa.
+Giao diện này được sử dụng cùng với giao diện [`IFillFormat`](../ifillformat) để trả về các giá trị định dạng hiệu lực với kế thừa được áp dụng.
 
 ### Xem thêm
 

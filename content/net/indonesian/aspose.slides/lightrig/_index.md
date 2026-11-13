@@ -1,9 +1,9 @@
 ---
 title: LightRig
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili LightRig.
 type: docs
-weight: 7690
+weight: 7710
 url: /id/aspose.slides/lightrig/
 ---
 ## LightRig kelas
@@ -20,7 +20,7 @@ public sealed class LightRig : PVIObject, ILightRig
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Mengizinkan untuk mendapatkan antarmuka IPresentationComponent dasar. Hanya-baca [`IPresentationComponent`](../ipresentationcomponent). |
 | [Direction](../../aspose.slides/lightrig/direction) { get; set; } | Arah cahaya. Baca/tulis [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/lightrig/lighttype) { get; set; } | Mewakili preset cahaya kanan yang dapat diterapkan pada bentuk. Light rig mewakili sekelompok cahaya yang diarahkan dengan cara tertentu relatif terhadap adegan 3D. Baca/tulis [`LightRigPresetType`](../lightrigpresettype). |
+| [LightType](../../aspose.slides/lightrig/lighttype) { get; set; } | Mewakili preset cahaya kanan yang dapat diterapkan pada sebuah bentuk. Light rig mewakili sekelompok cahaya yang diarahkan dengan cara tertentu relatif terhadap adegan 3D. Baca/tulis [`LightRigPresetType`](../lightrigpresettype). |
 
 ## Metode
 
@@ -29,7 +29,7 @@ public sealed class LightRig : PVIObject, ILightRig
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Membandingkan dengan objek yang ditentukan. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Mengembalikan kode hash. |
 | [GetRotation](../../aspose.slides/lightrig/getrotation)() | Rotasi didefinisikan melalui penggunaan koordinat lintang, koordinat bujur, dan revolusi sekitar sumbu sebagai koordinat lintang dan bujur. elemen pertama dalam array yang dikembalikan - lintang, kedua - bujur, ketiga - revolusi. Mengembalikan null jika tidak ada rotasi yang didefinisikan. |
-| [SetRotation](../../aspose.slides/lightrig/setrotation)(float, float, float) | Rotasi didefinisikan melalui penggunaan koordinat lintang, koordinat bujur, dan revolusi sekitar sumbu sebagai koordinat lintang dan bujur. Jika nilai koordinat mana pun adalah float.NaN, semua rotasi tidak terdefinisi. |
+| [SetRotation](../../aspose.slides/lightrig/setrotation)(float, float, float) | Rotasi didefinisikan melalui penggunaan koordinat lintang, koordinat bujur, dan revolusi sekitar sumbu sebagai koordinat lintang dan bujur. Jika salah satu nilai koordinat adalah float.NaN, semua rotasi tidak terdefinisi. |
 
 ### Lihat Juga
 

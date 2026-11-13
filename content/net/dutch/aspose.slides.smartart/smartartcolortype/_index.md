@@ -1,14 +1,14 @@
 ---
 title: SmartArtColorType
-second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft het kleurschema van een SmartArt-diagram weer.
+second_title: Aspose.Sildes voor .NET API Referentie
+description: Geeft het kleurenschema van een SmartArt-diagram weer.
 type: docs
-weight: 10610
+weight: 10630
 url: /nl/aspose.slides.smartart/smartartcolortype/
 ---
 ## SmartArtColorType enumeratie
 
-Geeft het kleurschema van een SmartArt-diagram weer.
+Geeft het kleurenschema van een SmartArt-diagram weer.
 
 ```csharp
 public enum SmartArtColorType

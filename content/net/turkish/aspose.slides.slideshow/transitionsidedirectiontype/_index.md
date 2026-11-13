@@ -1,14 +1,14 @@
 ---
 title: TransitionSideDirectionType
-second_title: Aspose.Sildes için .NET API Referansı
-description: Taraf yönü geçiş tiplerini temsil eder.
+second_title: Aspose.Sildes .NET API Referansı
+description: Yan yön geçiş türlerini temsil eder.
 type: docs
-weight: 10420
+weight: 10440
 url: /tr/aspose.slides.slideshow/transitionsidedirectiontype/
 ---
-## TransitionSideDirectionType enumerasyonu
+## TransitionSideDirectionType sayım türü
 
-Taraf yönü geçiş tiplerini temsil eder.
+Yan yön geçiş türlerini temsil eder.
 
 ```csharp
 public enum TransitionSideDirectionType
@@ -23,7 +23,7 @@ public enum TransitionSideDirectionType
 | Down | `2` |  |
 | Right | `3` |  |
 
-### Ayrıca Bakınız
+### İlgili
 
 * ad alanı [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * derleme [Aspose.Slides](../../)

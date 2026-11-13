@@ -1,14 +1,14 @@
 ---
 title: AlphaModulate
-second_title: Aspose.Sildes für .NET API Referenz
-description: Stellt einen Alpha Modulate-Effekt dar. Effekt-Alpha-Opazitätswerte werden mit einem festen Prozentsatz multipliziert. Der Effekt-Container gibt einen Effekt an, der Alpha-Werte zum Modulieren enthält.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt einen Alpha-Modulate-Effekt dar. Effekt-Alpha-Deckkraft-Werte werden mit einem festen Prozentsatz multipliziert. Der Effekt-Container gibt einen Effekt an, der Alpha-Werte zur Modulation enthält.
 type: docs
-weight: 2880
+weight: 2900
 url: /de/aspose.slides.effects/alphamodulate/
 ---
 ## AlphaModulate Klasse
 
-Stellt einen Alpha Modulate-Effekt dar. Effekt-Alpha-(Opazität)-Werte werden mit einem festen Prozentsatz multipliziert. Der Effekt-Container gibt einen Effekt mit Alpha-Werten an, die moduliert werden sollen.
+Stellt einen Alpha-Modulate-Effekt dar. Effekt-Alpha-(Deckkraft-)Werte werden mit einem festen Prozentsatz multipliziert. Der Effekt-Container gibt einen Effekt an, der Alpha-Werte zur Modulation enthält.
 
 ```csharp
 public sealed class AlphaModulate : ImageTransformOperation, IAlphaModulate
@@ -25,7 +25,7 @@ public sealed class AlphaModulate : ImageTransformOperation, IAlphaModulate
 | Name | Beschreibung |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphamodulate/equals)(object) | Bestimmt, ob das angegebene [`AlphaModulate`](../alphamodulate) dem aktuellen [`AlphaModulate`](../alphamodulate) entspricht. |
-| [GetEffective](../../aspose.slides.effects/alphamodulate/geteffective)() | Ruft wirksame Alpha Modulate-Effektdaten mit angewandter Vererbung ab. |
+| [GetEffective](../../aspose.slides.effects/alphamodulate/geteffective)() | Ruft die effektiven Alpha-Modulate-Effektdaten mit angewandter Vererbung ab. |
 | override [GetHashCode](../../aspose.slides.effects/alphamodulate/gethashcode)() | Dient als Hash-Funktion für einen bestimmten Typ. |
 
 ### Siehe auch

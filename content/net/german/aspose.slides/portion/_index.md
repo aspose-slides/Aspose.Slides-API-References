@@ -1,14 +1,14 @@
 ---
 title: Portion
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt einen Textabschnitt innerhalb eines Textabsatzes dar.
+description: Stellt einen Teil des Textes innerhalb eines Textabsatzes dar.
 type: docs
-weight: 9460
+weight: 9480
 url: /de/aspose.slides/portion/
 ---
 ## Portion Klasse
 
-Stellt einen Textabschnitt innerhalb eines Textabsatzes dar.
+Stellt einen Teil des Textes innerhalb eines Textabsatzes dar.
 
 ```csharp
 public class Portion : IPortion
@@ -26,19 +26,19 @@ public class Portion : IPortion
 
 | Name | Beschreibung |
 | --- | --- |
-| [Field](../../aspose.slides/portion/field) { get; } | Gibt ein Feld dieses Abschnitts zurück. Nur lesbar [`IField`](../ifield). |
-| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Gibt ein Formatierungsobjekt zurück, das explizit gesetzte Formatierungseigenschaften des Textabschnitts enthält, ohne dass Vererbung angewendet wird. Nur lesbar [`IPortionFormat`](../iportionformat). |
-| [Text](../../aspose.slides/portion/text) { get; set; } | Liest oder setzt den Klartext eines Abschnitts. Lesen/Schreiben String. |
+| [Field](../../aspose.slides/portion/field) { get; } | Gibt ein Feld dieser Portion zurück. Nur lesbar [`IField`](../ifield). |
+| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Gibt ein Formatierungsobjekt zurück, das explizit festgelegte Formatierungseigenschaften des Textabschnitts enthält, ohne dass Vererbung angewendet wird. Nur lesbar [`IPortionFormat`](../iportionformat). |
+| [Text](../../aspose.slides/portion/text) { get; set; } | Liest oder setzt den Klartext einer Portion. Lese/Schreib String. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [AddField](../../aspose.slides/portion/addfield#addfield)(IFieldType) | Konvertiert diesen Abschnitt in das automatisch aktualisierte Feld. |
-| [AddField](../../aspose.slides/portion/addfield#addfield_1)(string) | Konvertiert diesen Abschnitt in das automatisch aktualisierte Feld. |
-| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Ermittelt die Koordinaten des Beginns des Abschnitts. Die X-Koordinate des Punktes gibt den Abschnittsbeginn ab dem ersten Zeichen einschließlich des linken Seitenabstands an. Die Y-Koordinate enthält den oberen Seitenabstand. |
-| [GetRect](../../aspose.slides/portion/getrect)() | Ermittelt die Koordinaten des Rechtecks, das den Abschnitt begrenzt. Das Rechteck enthält alle Textzeilen im Abschnitt, einschließlich leerer Zeilen. |
-| [RemoveField](../../aspose.slides/portion/removefield)() | Konvertiert diesen Feldabschnitt in den einfachen Abschnitt. |
+| [AddField](../../aspose.slides/portion/addfield#addfield)(IFieldType) | Konvertiert diese Portion in das automatisch aktualisierte Feld. |
+| [AddField](../../aspose.slides/portion/addfield#addfield_1)(string) | Konvertiert diese Portion in das automatisch aktualisierte Feld. |
+| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Ermittelt die Koordinaten des Beginns der Portion. Die X-Koordinate des Punktes stellt den Beginn der Portion vom ersten Zeichen einschließlich des linken Seitenabstands dar. Die Y-Koordinate schließt den oberen Seitenabstand ein. |
+| [GetRect](../../aspose.slides/portion/getrect)() | Ermittelt die Koordinaten des Rechtecks, das die Portion begrenzt. Das Rechteck umfasst alle Textzeilen der Portion, einschließlich leerer. |
+| [RemoveField](../../aspose.slides/portion/removefield)() | Konvertiert diese Feldportion in die einfache Portion. |
 
 ### Siehe auch
 

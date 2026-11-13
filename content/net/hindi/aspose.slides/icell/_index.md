@@ -1,14 +1,14 @@
 ---
 title: ICell
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक तालिका में सेल का प्रतिनिधित्व करता है।
+description: एक टेबल में एक सेल का प्रतिनिधित्व करता है।
 type: docs
-weight: 5450
+weight: 5470
 url: /hi/aspose.slides/icell/
 ---
 ## ICell इंटरफ़ेस
 
-एक तालिका में सेल का प्रतिनिधित्व करता है।
+एक तालिका में एक सेल का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface ICell : ISlideComponent
@@ -18,40 +18,40 @@ public interface ICell : ISlideComponent
 
 | नाम | विवरण |
 | --- | --- |
-| [AnchorCenter](../../aspose.slides/icell/anchorcenter) { get; set; } | निर्धारित करता है कि क्या टेक्स्ट बॉक्स को सेल के भीतर केंद्रित किया गया है। पढ़ें/लिखें Boolean. |
-| [AsISlideComponent](../../aspose.slides/icell/asislidecomponent) { get; } | आधार ISlideComponent इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`ISlideComponent`](../islidecomponent). |
-| [CellFormat](../../aspose.slides/icell/cellformat) { get; } | CellFormat ऑब्जेक्ट वापस देता है जिसमें इस सेल के फ़ॉर्मेटिंग गुण होते हैं। केवल-पढ़ने योग्य [`ICellFormat`](../icellformat). |
-| [ColSpan](../../aspose.slides/icell/colspan) { get; } | पैरेंट टेबल की टेबल ग्रिड में कॉलम की संख्या वापस देता है जो वर्तमान सेल द्वारा विस्तारित होगी। यह गुण सेल को मर्ज किए जाने जैसा रूप देता है, क्योंकि यह टेबल में अन्य सेल्स की लंबवत सीमाओं को कवर करता है। केवल-पढ़ने योग्य Int32. |
-| [FirstColumn](../../aspose.slides/icell/firstcolumn) { get; } | सेल का पहला कॉलम प्राप्त करता है। केवल-पढ़ने योग्य [`IColumn`](../icolumn). |
-| [FirstColumnIndex](../../aspose.slides/icell/firstcolumnindex) { get; } | सेल द्वारा कवर किए गए पहले कॉलम का सूचकांक वापस देता है। केवल-पढ़ने योग्य Int32. |
-| [FirstRow](../../aspose.slides/icell/firstrow) { get; } | सेल की पहली पंक्ति प्राप्त करता है। केवल-पढ़ने योग्य [`IRow`](../irow). |
-| [FirstRowIndex](../../aspose.slides/icell/firstrowindex) { get; } | सेल द्वारा कवर की गई पहली पंक्ति का सूचकांक वापस देता है। केवल-पढ़ने योग्य Int32. |
-| [Height](../../aspose.slides/icell/height) { get; } | सेल की ऊँचाई वापस देता है। केवल-पढ़ने योग्य Double. |
-| [IsMergedCell](../../aspose.slides/icell/ismergedcell) { get; } | यदि सेल किसी समायोजित सेल के साथ मर्ज किया गया है तो true, अन्यथा false वापस देता है। केवल-पढ़ने योग्य Boolean. |
-| [MarginBottom](../../aspose.slides/icell/marginbottom) { get; set; } | TextFrame में निचला मार्जिन प्राप्त करता या सेट करता है। पढ़ें/लिखें Double. |
-| [MarginLeft](../../aspose.slides/icell/marginleft) { get; set; } | TextFrame में बायाँ मार्जिन प्राप्त करता या सेट करता है। पढ़ें/लिखें Double. |
-| [MarginRight](../../aspose.slides/icell/marginright) { get; set; } | TextFrame में दायाँ मार्जिन प्राप्त करता या सेट करता है। पढ़ें/लिखें Double. |
-| [MarginTop](../../aspose.slides/icell/margintop) { get; set; } | TextFrame में शीर्ष मार्जिन प्राप्त करता या सेट करता है। पढ़ें/लिखें Double. |
-| [MinimalHeight](../../aspose.slides/icell/minimalheight) { get; } | सेल की न्यूनतम ऊँचाई वापस देता है। यह सेल द्वारा कवर की गई सभी पंक्तियों की न्यूनतम ऊँचाइयों का योग है। केवल-पढ़ने योग्य Double. |
-| [OffsetX](../../aspose.slides/icell/offsetx) { get; } | टेबल की बाएँ ओर से सेल के बाएँ ओर तक की दूरी वापस देता है। केवल-पढ़ने योग्य Double. |
-| [OffsetY](../../aspose.slides/icell/offsety) { get; } | टेबल के शीर्ष पक्ष से सेल के शीर्ष पक्ष तक की दूरी वापस देता है। केवल-पढ़ने योग्य Double. |
-| [RowSpan](../../aspose.slides/icell/rowspan) { get; } | मर्ज किए गए सेल द्वारा कवर की गई पंक्तियों की संख्या वापस देता है। यह अन्य सेल्स पर vMerge एट्रिब्यूट के साथ संयोजन में उपयोग किया जाता है ताकि क्षैतिज मर्ज की शुरुआती सेल को निर्दिष्ट किया जा सके। केवल-पढ़ने योग्य Int32. |
-| [Table](../../aspose.slides/icell/table) { get; } | सेल के लिए पैरेंट Table ऑब्जेक्ट लौटाता है। केवल-पढ़ने योग्य [`ITable`](../itable). |
-| [TextAnchorType](../../aspose.slides/icell/textanchortype) { get; set; } | टेक्स्ट एंकर प्रकार को प्राप्त करता या सेट करता है। पढ़ें/लिखें [`TextAnchorType`](../textanchortype). |
-| [TextFrame](../../aspose.slides/icell/textframe) { get; } | सेल के टेक्स्ट फ्रेम को लौटाता है। केवल-पढ़ने योग्य [`ITextFrame`](../itextframe). |
-| [TextVerticalType](../../aspose.slides/icell/textverticaltype) { get; set; } | वर्टिकल टेक्स्ट के प्रकार को प्राप्त करता या सेट करता है। पढ़ें/लिखें [`TextVerticalType`](../textverticaltype). |
-| [Width](../../aspose.slides/icell/width) { get; } | सेल की चौड़ाई वापस देता है। केवल-पढ़ने योग्य Double. |
+| [AnchorCenter](../../aspose.slides/icell/anchorcenter) { get; set; } | निर्धारित करता है कि टेक्स्ट बॉक्स सेल के भीतर केंद्रित है या नहीं। पढ़ने/लिखने योग्य Boolean। |
+| [AsISlideComponent](../../aspose.slides/icell/asislidecomponent) { get; } | बेस ISlideComponent इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`ISlideComponent`](../islidecomponent)। |
+| [CellFormat](../../aspose.slides/icell/cellformat) { get; } | इस सेल के लिए फॉर्मेटिंग प्रॉपर्टीज़ शामिल करने वाले CellFormat ऑब्जेक्ट को लौटाता है। केवल-पढ़ने योग्य [`ICellFormat`](../icellformat)। |
+| [ColSpan](../../aspose.slides/icell/colspan) { get; } | वर्तमान सेल द्वारा कवर किए जाने वाले पैरेंट टेबल की टेबल ग्रिड में ग्रिड कॉलम की संख्या लौटाता है। यह प्रॉपर्टी सेल्स को मर्ज किए हुए दिखने की अनुमति देती है, क्योंकि वे टेबल में अन्य सेल्स की लंबवत सीमाओं को पार करती हैं। केवल-पढ़ने योग्य Int32। |
+| [FirstColumn](../../aspose.slides/icell/firstcolumn) { get; } | सेल का पहला कॉलम प्राप्त करता है। केवल-पढ़ने योग्य [`IColumn`](../icolumn)। |
+| [FirstColumnIndex](../../aspose.slides/icell/firstcolumnindex) { get; } | सेल द्वारा कवर किए गए पहले कॉलम का इंडेक्स लौटाता है। केवल-पढ़ने योग्य Int32। |
+| [FirstRow](../../aspose.slides/icell/firstrow) { get; } | सेल की पहली पंक्ति प्राप्त करता है। केवल-पढ़ने योग्य [`IRow`](../irow)। |
+| [FirstRowIndex](../../aspose.slides/icell/firstrowindex) { get; } | सेल द्वारा कवर किए गए पहले पंक्ति का इंडेक्स लौटाता है। केवल-पढ़ने योग्य Int32। |
+| [Height](../../aspose.slides/icell/height) { get; } | सेल की ऊँचाई लौटाता है। केवल-पढ़ने योग्य Double। |
+| [IsMergedCell](../../aspose.slides/icell/ismergedcell) { get; } | यदि सेल किसी समायोजित सेल के साथ मर्ज्ड है तो true, अन्यथा false लौटाता है। केवल-पढ़ने योग्य Boolean। |
+| [MarginBottom](../../aspose.slides/icell/marginbottom) { get; set; } | TextFrame में बॉटम मार्जिन को प्राप्त करता या सेट करता है। पढ़ने/लिखने योग्य Double। |
+| [MarginLeft](../../aspose.slides/icell/marginleft) { get; set; } | TextFrame में लेफ्ट मार्जिन को प्राप्त करता या सेट करता है। पढ़ने/लिखने योग्य Double। |
+| [MarginRight](../../aspose.slides/icell/marginright) { get; set; } | TextFrame में राइट मार्जिन को प्राप्त करता या सेट करता है। पढ़ने/लिखने योग्य Double। |
+| [MarginTop](../../aspose.slides/icell/margintop) { get; set; } | TextFrame में टॉप मार्जिन को प्राप्त करता या सेट करता है। पढ़ने/लिखने योग्य Double। |
+| [MinimalHeight](../../aspose.slides/icell/minimalheight) { get; } | सेल की न्यूनतम ऊँचाई लौटाता है। यह सेल द्वारा कवर किए गए सभी पंक्तियों की न्यूनतम ऊँचाइयों का योग है। केवल-पढ़ने योग्य Double। |
+| [OffsetX](../../aspose.slides/icell/offsetx) { get; } | टेबल के बाएँ पक्ष से सेल के बाएँ पक्ष तक की दूरी लौटाता है। केवल-पढ़ने योग्य Double। |
+| [OffsetY](../../aspose.slides/icell/offsety) { get; } | टेबल के शीर्ष पक्ष से सेल के शीर्ष पक्ष तक की दूरी लौटाता है। केवल-पढ़ने योग्य Double। |
+| [RowSpan](../../aspose.slides/icell/rowspan) { get; } | एक मर्ज्ड सेल द्वारा कवर की गई पंक्तियों की संख्या लौटाता है। यह अन्य सेल्स पर vMerge एट्रिब्यूट के साथ प्रयोग किया जाता है ताकि क्षैतिज मर्ज की प्रारंभिक सेल निर्दिष्ट की जा सके। केवल-पढ़ने योग्य Int32। |
+| [Table](../../aspose.slides/icell/table) { get; } | सेल के लिए पैरेंट Table ऑब्जेक्ट लौटाता है। केवल-पढ़ने योग्य [`ITable`](../itable)। |
+| [TextAnchorType](../../aspose.slides/icell/textanchortype) { get; set; } | टेक्स्ट एंकर प्रकार को प्राप्त करता या सेट करता है। पढ़ने/लिखने योग्य [`TextAnchorType`](../textanchortype)। |
+| [TextFrame](../../aspose.slides/icell/textframe) { get; } | सेल का टेक्स्ट फ्रेम लौटाता है। केवल-पढ़ने योग्य [`ITextFrame`](../itextframe)। |
+| [TextVerticalType](../../aspose.slides/icell/textverticaltype) { get; set; } | वर्टिकल टेक्स्ट प्रकार को प्राप्त करता या सेट करता है। पढ़ने/लिखने योग्य [`TextVerticalType`](../textverticaltype)। |
+| [Width](../../aspose.slides/icell/width) { get; } | सेल की चौड़ाई लौटाता है। केवल-पढ़ने योग्य Double। |
 
-## विधियां
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| [SplitByColSpan](../../aspose.slides/icell/splitbycolspan)(int) | कॉलम के सूचकांक के आधार पर सेल को दो सेल में विभाजित करता है। |
-| [SplitByHeight](../../aspose.slides/icell/splitbyheight)(double) | सेल को ऊँचाई के अनुसार विभाजित करता है। |
-| [SplitByRowSpan](../../aspose.slides/icell/splitbyrowspan)(int) | पंक्ति के सूचकांक के आधार पर सेल को दो सेल में विभाजित करता है। |
-| [SplitByWidth](../../aspose.slides/icell/splitbywidth)(double) | सेल को चौड़ाई के अनुसार विभाजित करता है। |
+| [SplitByColSpan](../../aspose.slides/icell/splitbycolspan)(int) | सेल को कॉलम अनुक्रमांक के आधार पर दो सेल में विभाजित करता है। |
+| [SplitByHeight](../../aspose.slides/icell/splitbyheight)(double) | सेल को ऊँचाई के आधार पर विभाजित करता है। |
+| [SplitByRowSpan](../../aspose.slides/icell/splitbyrowspan)(int) | सेल को पंक्ति अनुक्रमांक के आधार पर दो सेल में विभाजित करता है। |
+| [SplitByWidth](../../aspose.slides/icell/splitbywidth)(double) | सेल को चौड़ाई के आधार पर विभाजित करता है। |
 
-### देखें भी
+### देखें
 
 * इंटरफ़ेस [ISlideComponent](../islidecomponent)
 * नामस्थान [Aspose.Slides](../../aspose.slides)

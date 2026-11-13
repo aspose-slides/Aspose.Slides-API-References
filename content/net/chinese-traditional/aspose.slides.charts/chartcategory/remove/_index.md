@@ -1,9 +1,9 @@
 ---
 title: Remove
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 從圖表中移除類別。
 type: docs
-weight: 60
+weight: 70
 url: /zh-hant/aspose.slides.charts/chartcategory/remove/
 ---
 ## ChartCategory.Remove 方法
@@ -18,9 +18,9 @@ public void Remove()
 
 | 例外 | 條件 |
 | --- | --- |
-| [PptxEditException](../../../aspose.slides/pptxeditexception) | 如果類別已經從圖表中移除，則拋出此例外。 |
+| [PptxEditException](../../../aspose.slides/pptxeditexception) | 如果類別已經從圖表中移除，則會拋出此例外。 |
 
-### 參見
+### 另請參閱
 
 * 類別 [ChartCategory](../../chartcategory)
 * 命名空間 [Aspose.Slides.Charts](../../chartcategory)

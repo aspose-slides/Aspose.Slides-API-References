@@ -1,12 +1,12 @@
 ---
 title: ForEach.ForEachLayoutSlideCallback
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Callback yang akan dipanggil untuk setiap LayoutSlide./foreach/layoutslide dalam Presentation../aspose.slides/presentation.
 type: docs
-weight: 7910
+weight: 7930
 url: /id/aspose.slides.lowcode/foreach.foreachlayoutslidecallback/
 ---
-## ForEach.ForEachLayoutSlideCallback delegate
+## ForEach.ForEachLayoutSlideCallback delegasi
 
 Callback yang akan dipanggil untuk setiap [`LayoutSlide`](../foreach/layoutslide) dalam [`Presentation`](../../aspose.slides/presentation).
 
@@ -16,8 +16,8 @@ public delegate void ForEachLayoutSlideCallback(LayoutSlide layoutSlide, int ind
 
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| layoutSlide | LayoutSlide | Layout slide yang sedang diiterasi |
-| index | Int32 | Indeks dari layout slide saat ini |
+| layoutSlide | LayoutSlide | Slide tata letak yang sedang diiterasi |
+| index | Int32 | Indeks slide tata letak saat ini |
 
 ### Lihat Juga
 

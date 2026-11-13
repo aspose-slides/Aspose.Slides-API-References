@@ -1,9 +1,9 @@
 ---
 title: IAutoShape
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示一个 AutoShape。
 type: docs
-weight: 5240
+weight: 5260
 url: /zh/aspose.slides/iautoshape/
 ---
 ## IAutoShape 接口
@@ -19,19 +19,19 @@ public interface IAutoShape : IGeometryShape
 | 名称 | 描述 |
 | --- | --- |
 | [AsIGeometryShape](../../aspose.slides/iautoshape/asigeometryshape) { get; } | 允许获取基础 IGeometryShape 接口。只读 [`IGeometryShape`](../igeometryshape)。 |
-| [AutoShapeLock](../../aspose.slides/iautoshape/autoshapelock) { get; } | 返回 AutoShape 的锁定。只读 [`IAutoShapeLock`](../iautoshapelock)。 |
+| [AutoShapeLock](../../aspose.slides/iautoshape/autoshapelock) { get; } | 返回 AutoShape 的锁。只读 [`IAutoShapeLock`](../iautoshapelock)。 |
 | [IsTextBox](../../aspose.slides/iautoshape/istextbox) { get; } | 指定形状是否为文本框。 |
-| [ShapeLock](../../aspose.slides/iautoshape/shapelock) { get; } | 返回 shape 的锁定。只读 [`IAutoShapeLock`](../iautoshapelock)。 |
+| [ShapeLock](../../aspose.slides/iautoshape/shapelock) { get; } | 返回形状的锁。只读 [`IAutoShapeLock`](../iautoshapelock)。 |
 | [TextFrame](../../aspose.slides/iautoshape/textframe) { get; } | 返回 AutoShape 的 TextFrame 对象。只读 [`ITextFrame`](../itextframe)。 |
-| [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | 确定是否应使用幻灯片的背景填充而不是样式或填充格式指定的填充来填充此 autoshape。读写 Boolean。 |
+| [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | 确定此 autoshape 是否应使用幻灯片的背景填充，而不是由样式或填充格式指定的填充。读/写 Boolean。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [AddTextFrame](../../aspose.slides/iautoshape/addtextframe)(string) | 向形状添加一个新的 TextFrame。如果形状已经拥有 TextFrame，则仅更改其文本。 |
+| [AddTextFrame](../../aspose.slides/iautoshape/addtextframe)(string) | 向形状添加新的 TextFrame。若形状已经有 TextFrame，则仅更改其文本。 |
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IGeometryShape](../igeometryshape)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

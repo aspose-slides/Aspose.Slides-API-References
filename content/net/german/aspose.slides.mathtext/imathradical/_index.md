@@ -1,14 +1,14 @@
 ---
 title: IMathRadical
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt die radikale Funktion an, die aus einer Basis und einem optionalen Grad besteht. Beispiel für ein radikales Objekt ist .
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt die Radikalfunktion an, die aus einer Basis und einem optionalen Grad besteht. Beispiel für ein Radikalobjekt ist .
 type: docs
-weight: 8430
+weight: 8450
 url: /de/aspose.slides.mathtext/imathradical/
 ---
 ## IMathRadical Schnittstelle
 
-Gibt die radikale Funktion an, die aus einer Basis und einem optionalen Grad besteht. Beispiel für ein radikales Objekt ist √𝑥.
+Gibt die Radikalfunktion an, die aus einem Basiselement und einem optionalen Grad besteht. Beispiel für ein Radikalobjekt ist √𝑥.
 
 ```csharp
 public interface IMathRadical : IMathElement
@@ -18,10 +18,10 @@ public interface IMathRadical : IMathElement
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathradical/asimathelement) { get; } | Erlaubt das Abrufen der Basis IMathElement Schnittstelle [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathradical/asimathelement) { get; } | Ermöglicht das Abrufen der Basis-IMathElement-Schnittstelle [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathradical/base) { get; } | Basisargument |
 | [Degree](../../aspose.slides.mathtext/imathradical/degree) { get; } | Gradargument |
-| [HideDegree](../../aspose.slides.mathtext/imathradical/hidedegree) { get; set; } | Grad ausblenden. Wenn true, wird der Grad nicht angezeigt, wie bei √𝑥 |
+| [HideDegree](../../aspose.slides.mathtext/imathradical/hidedegree) { get; set; } | Grad ausblenden Wenn true ist, wird der Grad nicht angezeigt, wie in √𝑥 |
 
 ### Beispiele
 

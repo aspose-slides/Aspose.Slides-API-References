@@ -3,7 +3,7 @@ title: IAnimationTimeLine
 second_title: Aspose.Sildes for .NET API 참조
 description: 애니메이션의 타임라인을 나타냅니다.
 type: docs
-weight: 5200
+weight: 5220
 url: /ko/aspose.slides/ianimationtimeline/
 ---
 ## IAnimationTimeLine 인터페이스
@@ -18,8 +18,8 @@ public interface IAnimationTimeLine
 
 | 이름 | 설명 |
 | --- | --- |
-| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | 대화형 시퀀스 컬렉션을 반환합니다. 이 시퀀스는 지정된 대상 도형에 대한 \"click on shape\" 효과만 포함할 수 있습니다. 읽기 전용 [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection). |
-| [MainSequence](../../aspose.slides/ianimationtimeline/mainsequence) { get; } | 주 시퀀스를 반환합니다. 이 시퀀스는 기본 효과 컬렉션만 포함할 수 있습니다. 읽기 전용 [`ISequence`](../../aspose.slides.animation/isequence). |
+| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | 대화형 시퀀스 컬렉션을 반환합니다. 이 시퀀스는 \"도형 클릭\"에 의해 지정된 대상 도형에 대한 효과만 포함할 수 있습니다. 읽기 전용 [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection). |
+| [MainSequence](../../aspose.slides/ianimationtimeline/mainsequence) { get; } | 주된 시퀀스를 반환하며, 이는 메인 효과 컬렉션만 포함할 수 있습니다. 읽기 전용 [`ISequence`](../../aspose.slides.animation/isequence). |
 | [TextAnimationCollection](../../aspose.slides/ianimationtimeline/textanimationcollection) { get; } | 텍스트 애니메이션 컬렉션을 반환합니다. 읽기 전용 [`ITextAnimationCollection`](../../aspose.slides.animation/itextanimationcollection). |
 
 ### 참고

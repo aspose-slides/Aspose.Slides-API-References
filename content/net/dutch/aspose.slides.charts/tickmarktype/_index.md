@@ -1,14 +1,14 @@
 ---
 title: TickMarkType
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt het type tickmark voor de opgegeven as voor.
+description: Geeft het type tick mark voor de opgegeven as weer.
 type: docs
-weight: 2450
+weight: 2470
 url: /nl/aspose.slides.charts/tickmarktype/
 ---
 ## TickMarkType enumeratie
 
-Stelt het type tickmark voor de opgegeven as voor.
+Geeft het type tickmark voor de opgegeven as weer.
 
 ```csharp
 public enum TickMarkType
@@ -18,10 +18,10 @@ public enum TickMarkType
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| Cross | `0` | Geeft aan dat de tikmarkeringen de as kruisen. |
-| Inside | `1` | Geeft aan dat de tikmarkeringen zich binnen het plotgebied bevinden. |
-| None | `2` | Geeft aan dat er geen tikmarkeringen zijn. |
-| Outside | `3` | Geeft aan dat de tikmarkeringen zich buiten het plotgebied bevinden. |
+| Cross | `0` | Specifieert dat de tick marks de as moeten kruisen. |
+| Inside | `1` | Specifieert dat de tick marks zich binnen het plotgebied bevinden. |
+| None | `2` | Specifieert dat er geen tick marks zijn. |
+| Outside | `3` | Specifieert dat de tick marks zich buiten het plotgebied bevinden. |
 
 ### Zie ook
 

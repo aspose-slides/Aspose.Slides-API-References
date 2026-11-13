@@ -1,14 +1,14 @@
 ---
 title: IFlyThroughTransition
-second_title: Aspose.Sildes .NET API referencia
-description: Átmeneti hatás, amely áthalad a dián.
+second_title: Aspose.Sildes a .NET API referencia
+description: Átfutó diaátmeneti hatás.
 type: docs
-weight: 10090
+weight: 10110
 url: /hu/aspose.slides.slideshow/iflythroughtransition/
 ---
 ## IFlyThroughTransition interfész
 
-Átmeneti hatás, amely a dián áthalad.
+Átfutó diaátmeneti hatás.
 
 ```csharp
 public interface IFlyThroughTransition : ITransitionValueBase
@@ -18,9 +18,9 @@ public interface IFlyThroughTransition : ITransitionValueBase
 
 | Név | Leírás |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iflythroughtransition/asitransitionvaluebase) { get; } | Lehetővé teszi a base ITransitionValueBase interfész lekérdezését. Csak olvasható [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iflythroughtransition/asitransitionvaluebase) { get; } | Lehetővé teszi a base ITransitionValueBase interfész lekérését. Csak olvasható [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/iflythroughtransition/direction) { get; set; } | Az átmenet iránya. Olvasás/írás [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [HasBounce](../../aspose.slides.slideshow/iflythroughtransition/hasbounce) { get; set; } | Megadja, hogy a prezentáció diáinak mozgása az átmenet során tartalmaz egy ugrást. Olvasás/írás Boolean. |
+| [HasBounce](../../aspose.slides.slideshow/iflythroughtransition/hasbounce) { get; set; } | Megadja, hogy az átmenet során a prezentáció diák mozgása tartalmaz egy visszapattanást. Olvasás/írás Boolean. |
 
 ### Lásd még
 

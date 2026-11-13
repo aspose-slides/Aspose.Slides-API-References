@@ -1,14 +1,14 @@
 ---
 title: EmptyTransition
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: เอฟเฟกต์การเปลี่ยนสไลด์ที่ว่างเปล่า
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: เอฟเฟ็กต์การเปลี่ยนสไลด์เปล่า.
 type: docs
-weight: 10030
+weight: 10050
 url: /th/aspose.slides.slideshow/emptytransition/
 ---
 ## EmptyTransition คลาส
 
-เอฟเฟกต์การเปลี่ยนสไลด์ที่ว่างเปล่า
+เอฟเฟกต์การเปลี่ยนสไลด์เปล่า.
 
 ```csharp
 public class EmptyTransition : TransitionValueBase, IEmptyTransition
@@ -18,8 +18,8 @@ public class EmptyTransition : TransitionValueBase, IEmptyTransition
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | กำหนดว่าอินสแตนซ์สองตัวของ TransitionValueBase เท่ากันหรือไม่ |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทเฉพาะ ที่เหมาะสำหรับใช้ในอัลกอริทึมการแฮชและโครงสร้างข้อมูลเช่นตารางแฮช |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | กำหนดว่าตัวอย่าง TransitionValueBase สองตัวเท่ากันหรือไม่ |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทเฉพาะที่เหมาะสำหรับใช้ในอัลกอริธึมแฮชและโครงสร้างข้อมูลเช่น ตารางแฮช |
 
 ### ดูเพิ่มเติม
 

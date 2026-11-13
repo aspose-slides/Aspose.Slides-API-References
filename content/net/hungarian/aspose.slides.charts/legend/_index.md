@@ -1,14 +1,14 @@
 ---
 title: Legend
-second_title: Aspose.Sildes .NET API referenciája
-description: A diagramok legendájának tulajdonságait képviseli.
+second_title: Aspose.Slides .NET API referenciája
+description: A diagram legend tulajdonságait képviseli.
 type: docs
-weight: 2280
+weight: 2300
 url: /hu/aspose.slides.charts/legend/
 ---
 ## Legend osztály
 
-Represents chart's legend properties.
+A diagram legend tulajdonságait képviseli.
 
 ```csharp
 public class Legend : DomObject<Chart>, ILegend
@@ -18,22 +18,22 @@ public class Legend : DomObject<Chart>, ILegend
 
 | Név | Leírás |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/legend/actualheight) { get; } | Megadja a diagram elem tényleges magasságát. Hívja meg az IChart.ValidateChartLayout() metódust előtte a tényleges értékek lekéréséhez. Olvasás Single. |
-| [ActualWidth](../../aspose.slides.charts/legend/actualwidth) { get; } | Megadja a diagram elem tényleges szélességét. Hívja meg az IChart.ValidateChartLayout() metódust előtte a tényleges értékek lekéréséhez. Olvasás Single. |
-| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | Megadja a diagram elem tényleges x helyzetét (bal) a diagram bal felső sarkához képest. Hívja meg az IChart.ValidateChartLayout() metódust előtte a tényleges értékek lekéréséhez. Olvasás Single. |
-| [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | Megadja a diagram elem tényleges felső szélét a diagram bal felső sarkához képest. Hívja meg az IChart.ValidateChartLayout() metódust előtte a tényleges értékek lekéréséhez. Olvasás Single. |
-| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | Alsó. Csak olvasható Single. |
+| [ActualHeight](../../aspose.slides.charts/legend/actualheight) { get; } | Megadja a diagram elem tényleges magasságát. Hívja meg előtte az IChart.ValidateChartLayout() metódust a tényleges értékek lekéréséhez. Olvasás Single. |
+| [ActualWidth](../../aspose.slides.charts/legend/actualwidth) { get; } | Megadja a diagram elem tényleges szélességét. Hívja meg előtte az IChart.ValidateChartLayout() metódust a tényleges értékek lekéréséhez. Olvasás Single. |
+| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | Megadja a diagram elem tényleges x helyzetét (bal), a diagram bal felső sarkához viszonyítva. Hívja meg előtte az IChart.ValidateChartLayout() metódust a tényleges értékek lekéréséhez. Olvasás Single. |
+| [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | Megadja a diagram elem tényleges tetejét a diagram bal felső sarkához viszonyítva. Hívja meg előtte az IChart.ValidateChartLayout() metódust a tényleges értékek lekéréséhez. Olvasás Single. |
+| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | Alul. Csak olvasható Single. |
 | [Chart](../../aspose.slides.charts/legend/chart) { get; } | Visszaadja a diagramot. Csak olvasható [`IChart`](../ichart). |
-| [Entries](../../aspose.slides.charts/legend/entries) { get; } | Lekéri a legenda bejegyzéseit. Csak olvasható [`ILegendEntryCollection`](../ilegendentrycollection). |
-| [Format](../../aspose.slides.charts/legend/format) { get; } | Visszaadja a legenda formátumát. Csak olvasható [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/legend/height) { get; set; } | Visszaadja vagy beállítja a legenda magasságát a diagram magasságának tört részeként. Olvasás/írás Single. |
-| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | Meghatározza, hogy más diagram elemek átfedhetik-e a legendát. Olvasás/írás Boolean. |
-| [Position](../../aspose.slides.charts/legend/position) { get; set; } | Megadja a legenda pozícióját a diagramon. A X, Y, Width, Heigt tulajdonságok nem NaN értékei felülírják e tulajdonság hatását. Olvasás/írás [`LegendPositionType`](../legendpositiontype). |
+| [Entries](../../aspose.slides.charts/legend/entries) { get; } | Lekéri a legend bejegyzéseket. Csak olvasható [`ILegendEntryCollection`](../ilegendentrycollection). |
+| [Format](../../aspose.slides.charts/legend/format) { get; } | Visszaadja egy legend formátumát. Csak olvasható [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/legend/height) { get; set; } | Visszaadja vagy beállítja egy legend magasságát a diagram magasságának arányaként. Olvasás/írás Single. |
+| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | Meghatározza, hogy más diagram elemek átfedhetik-e a legendet. Olvasás/írás Boolean. |
+| [Position](../../aspose.slides.charts/legend/position) { get; set; } | Meghatározza a legend pozícióját egy diagramon. A X, Y, Width, Height tulajdonságok nem-NaN értékei felülírják ennek a tulajdonságnak a hatását. Olvasás/írás [`LegendPositionType`](../legendpositiontype). |
 | [Right](../../aspose.slides.charts/legend/right) { get; } | Jobb. Csak olvasható Single. |
-| [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | Szöveg formátum. Csak olvasható [`IChartTextFormat`](../icharttextformat). |
-| [Width](../../aspose.slides.charts/legend/width) { get; set; } | Visszaadja vagy beállítja a legenda szélességét a diagram szélességének tört részeként. Olvasás/írás Single. |
-| [X](../../aspose.slides.charts/legend/x) { get; set; } | Visszaadja vagy beállítja a legenda x koordinátáját a diagram szélességének tört részeként. Olvasás/írás Single. |
-| [Y](../../aspose.slides.charts/legend/y) { get; set; } | Visszaadja vagy beállítja a legenda y koordinátáját a diagram magasságának tört részeként. Olvasás/írás Single. |
+| [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | Szövegformátum. Csak olvasható [`IChartTextFormat`](../icharttextformat). |
+| [Width](../../aspose.slides.charts/legend/width) { get; set; } | Visszaadja vagy beállítja egy legend szélességét a diagram szélességének arányaként. Olvasás/írás Single. |
+| [X](../../aspose.slides.charts/legend/x) { get; set; } | Visszaadja vagy beállítja egy legend x koordinátáját a diagram szélességének arányaként. Olvasás/írás Single. |
+| [Y](../../aspose.slides.charts/legend/y) { get; set; } | Visszaadja vagy beállítja egy legend y koordinátáját a diagram magasságának arányaként. Olvasás/írás Single. |
 
 ### Lásd még
 

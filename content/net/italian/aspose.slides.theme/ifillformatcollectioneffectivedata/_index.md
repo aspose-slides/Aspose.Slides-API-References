@@ -1,14 +1,14 @@
 ---
 title: IFillFormatCollectionEffectiveData
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Oggetto immutabile che rappresenta una collezione in sola lettura di formati di riempimento efficaci.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Oggetto immutabile che rappresenta una raccolta in sola lettura di formati di riempimento effettivi.
 type: docs
-weight: 11240
+weight: 11260
 url: /it/aspose.slides.theme/ifillformatcollectioneffectivedata/
 ---
 ## IFillFormatCollectionEffectiveData interfaccia
 
-Oggetto immutabile che rappresenta una collezione in sola lettura di formati di riempimento efficaci.
+Oggetto immutabile che rappresenta una raccolta in sola lettura di formati di riempimento effettivi.
 
 ```csharp
 public interface IFillFormatCollectionEffectiveData : IGenericCollection<IFillFormatEffectiveData>

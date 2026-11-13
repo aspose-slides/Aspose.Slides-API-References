@@ -3,7 +3,7 @@ title: RemoveEmbeddedFont
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 埋め込みフォントを削除します
 type: docs
-weight: 90
+weight: 100
 url: /ja/aspose.slides/ifontsmanager/removeembeddedfont/
 ---
 ## IFontsManager.RemoveEmbeddedFont メソッド
@@ -14,9 +14,9 @@ url: /ja/aspose.slides/ifontsmanager/removeembeddedfont/
 public void RemoveEmbeddedFont(IFontData fontData)
 ```
 
-| パラメータ | 型 | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| fontData | IFontData | フォントデータ オブジェクト [`IFontData`](../../ifontdata) |
+| fontData | IFontData | フォント データ オブジェクト [`IFontData`](../../ifontdata) |
 
 ### 参照
 

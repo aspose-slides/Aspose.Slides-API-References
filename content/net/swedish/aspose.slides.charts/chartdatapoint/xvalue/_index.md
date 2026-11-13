@@ -3,7 +3,7 @@ title: XValue
 second_title: Aspose.Sildes för .NET API-referens
 description: XValue. Skrivskyddad IStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue.
 type: docs
-weight: 200
+weight: 240
 url: /sv/aspose.slides.charts/chartdatapoint/xvalue/
 ---
 ## ChartDataPoint.XValue egenskap
@@ -14,7 +14,7 @@ XValue. Skrivskyddad [`IStringOrDoubleChartValue`](../../istringordoublechartval
 public IStringOrDoubleChartValue XValue { get; }
 ```
 
-### Se också
+### Se även
 
 * gränssnitt [IStringOrDoubleChartValue](../../istringordoublechartvalue)
 * klass [ChartDataPoint](../../chartdatapoint)

@@ -1,9 +1,9 @@
 ---
 title: FillBlendMode
-second_title: Aspose.Sildes para la referencia de API de .NET
+second_title: Aspose.Sildes para la Referencia API de .NET
 description: Determina el modo de fusión.
 type: docs
-weight: 4770
+weight: 4790
 url: /es/aspose.slides/fillblendmode/
 ---
 ## FillBlendMode enumeración
@@ -18,13 +18,13 @@ public enum FillBlendMode
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Darken | `0` | Modo de fusión Darken. |
-| Lighten | `1` | Modo de fusión Lighten. |
-| Multiply | `2` | Modo de fusión Multiply. |
-| Overlay | `3` | Modo de fusión Overlay. |
-| Screen | `4` | Modo de fusión Screen. |
+| Darken | `0` | Darken modo de fusión. |
+| Lighten | `1` | Lighten modo de fusión. |
+| Multiply | `2` | Multiply modo de fusión. |
+| Overlay | `3` | Overlay modo de fusión. |
+| Screen | `4` | Screen modo de fusión. |
 
-### Véase también
+### Ver también
 
 * espacio de nombres [Aspose.Slides](../../aspose.slides)
 * ensamblado [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: TextShapeType
-second_title: Aspose.Sildes pro .NET API Reference
-description: Zastupuje tvar obtečení textu.
+second_title: Aspose.Sildes pro .NET API Referenci
+description: Representuje tvar zalamování textu.
 type: docs
-weight: 10980
+weight: 11000
 url: /cs/aspose.slides/textshapetype/
 ---
-## TextShapeType výčet
+## TextShapeType enumerace
 
-Representuje tvar obtečení textu.
+Reprezentuje tvar zalamování textu.
 
 ```csharp
 public enum TextShapeType : sbyte
@@ -20,7 +20,7 @@ public enum TextShapeType : sbyte
 | --- | --- | --- |
 | NotDefined | `-1` | Není definováno |
 | None | `0` | Žádný tvar |
-| Plain | `1` | Jednoduchý |
+| Plain | `1` | Prostý |
 | Stop | `2` | Zastavovací značka |
 | Triangle | `3` | Trojúhelník |
 | TriangleInverted | `4` | Obrácený trojúhelník |
@@ -32,14 +32,14 @@ public enum TextShapeType : sbyte
 | ArchDown | `10` | Dolní oblouk |
 | Circle | `11` | Kruh |
 | Button | `12` | Tlačítko |
-| ArchUpPour | `13` | Horní přelívový oblouk |
-| ArchDownPour | `14` | Dolní přelívový oblouk |
-| CirclePour | `15` | Kruh s přelivem |
-| ButtonPour | `16` | Tlačítko s přelivem |
+| ArchUpPour | `13` | Horní přetékající oblouk |
+| ArchDownPour | `14` | Dolní přetékající oblouk |
+| CirclePour | `15` | Kruhové přelití |
+| ButtonPour | `16` | Tlačítko přelití |
 | CurveUp | `17` | Horní křivka |
 | CurveDown | `18` | Dolní křivka |
-| CanUp | `19` | Horní plech |
-| CanDown | `20` | Dolní plech |
+| CanUp | `19` | Horní Can |
+| CanDown | `20` | Dolní Can |
 | Wave1 | `21` | Vlna 1 |
 | Wave2 | `22` | Vlna 2 |
 | DoubleWave1 | `23` | Dvojitá vlna 1 |
@@ -56,8 +56,8 @@ public enum TextShapeType : sbyte
 | FadeLeft | `34` | Levý přechod |
 | FadeUp | `35` | Horní přechod |
 | FadeDown | `36` | Dolní přechod |
-| SlantUp | `37` | Horní šikmost |
-| SlantDown | `38` | Dolní šikmost |
+| SlantUp | `37` | Horní sklon |
+| SlantDown | `38` | Dolní sklon |
 | CascadeUp | `39` | Horní kaskáda |
 | CascadeDown | `40` | Dolní kaskáda |
 | Custom | `41` | Vlastní |

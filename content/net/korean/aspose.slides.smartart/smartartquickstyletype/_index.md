@@ -1,9 +1,9 @@
 ---
 title: SmartArtQuickStyleType
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: SmartArt 다이어그램의 스타일 스킴을 나타냅니다.
 type: docs
-weight: 10650
+weight: 10670
 url: /ko/aspose.slides.smartart/smartartquickstyletype/
 ---
 ## SmartArtQuickStyleType 열거형
@@ -33,7 +33,7 @@ public enum SmartArtQuickStyleType
 | SunsetScene | `12` | SunsetScene |
 | BirdsEyeScene | `13` | BirdsEyeScene |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides.SmartArt](../../aspose.slides.smartart)
 * 어셈블리 [Aspose.Slides](../../)

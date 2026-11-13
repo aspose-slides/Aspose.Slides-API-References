@@ -3,7 +3,7 @@ title: FormatFactory
 second_title: Référence API Aspose.Sildes pour .NET
 description: Permet de créer des formats via l'interface COM.
 type: docs
-weight: 4950
+weight: 4970
 url: /fr/aspose.slides/formatfactory/
 ---
 ## FormatFactory classe
@@ -16,19 +16,19 @@ public class FormatFactory : IFormatFactory
 
 ## Constructeurs
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
-| [FormatFactory](formatfactory)() | Le constructeur par défaut. |
+| [FormatFactory](formatfactory)() | Constructeur par défaut. |
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
-| static [Instance](../../aspose.slides/formatfactory/instance) { get; } | Instance statique du format factory. Lecture seule [`FormatFactory`](../formatfactory). |
+| static [Instance](../../aspose.slides/formatfactory/instance) { get; } | Instance statique de la fabrique de formats. Lecture seule [`FormatFactory`](../formatfactory). |
 
 ## Méthodes
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [CreateParagraphFormat](../../aspose.slides/formatfactory/createparagraphformat)() | Crée un nouveau [`IParagraphFormat`](../iparagraphformat). |
 | [CreatePortionFormat](../../aspose.slides/formatfactory/createportionformat)() | Crée un nouveau [`IPortionFormat`](../iportionformat). |

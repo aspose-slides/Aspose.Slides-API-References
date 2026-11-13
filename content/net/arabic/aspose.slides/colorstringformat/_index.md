@@ -1,14 +1,14 @@
 ---
 title: ColorStringFormat
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: يمثل نوعًا من إجراء الارتباط التشعبي.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: يمثل نوعًا من إجراءات الارتباط التشعبي.
 type: docs
-weight: 2560
+weight: 2580
 url: /ar/aspose.slides/colorstringformat/
 ---
-## ColorStringFormat تعداد
+## ColorStringFormat التعداد
 
-يمثل نوعًا من إجراء الارتباط التشعبي.
+يمثل نوعًا من إجراءات الارتباط التشعبي.
 
 ```csharp
 public enum ColorStringFormat
@@ -18,7 +18,7 @@ public enum ColorStringFormat
 
 | الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| Vml | `0` | تنسيق سلسلة لون VML. |
+| Vml | `0` | تنسيق سلسلة اللون VML. |
 
 ### انظر أيضًا
 

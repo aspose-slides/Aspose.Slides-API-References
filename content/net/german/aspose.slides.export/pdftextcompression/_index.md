@@ -3,7 +3,7 @@ title: PdfTextCompression
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Konstanten, die den Typ einer Kompression definieren, die auf alle Inhalte in der PDF-Datei außer Bildern angewendet wird.
 type: docs
-weight: 4340
+weight: 4360
 url: /de/aspose.slides.export/pdftextcompression/
 ---
 ## PdfTextCompression Aufzählung

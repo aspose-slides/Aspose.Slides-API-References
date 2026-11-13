@@ -1,14 +1,14 @@
 ---
 title: ITagCollection
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt die Sammlung von Tags (benutzerdefinierte Paare von Zeichenketten) dar.
+description: Stellt die Sammlung von Tags (benutzerdefinierte Paare von Zeichenfolgen) dar.
 type: docs
-weight: 7260
+weight: 7280
 url: /de/aspose.slides/itagcollection/
 ---
-## ITagCollection Schnittstelle
+## ITagCollection interface
 
-Stellt die Sammlung von Tags (benutzerdefinierte Paare von Zeichenketten) dar.
+Stellt die Sammlung von Tags (benutzerdefinierte Paare von Zeichenfolgen) dar.
 
 ```csharp
 public interface ITagCollection : IGenericCollection<KeyValuePair<string, string>>
@@ -26,12 +26,12 @@ public interface ITagCollection : IGenericCollection<KeyValuePair<string, string
 | --- | --- |
 | [Add](../../aspose.slides/itagcollection/add)(string, string) | Fügt der Sammlung ein neues Tag hinzu. |
 | [Clear](../../aspose.slides/itagcollection/clear)() | Entfernt alle Tags aus der Sammlung. |
-| [Contains](../../aspose.slides/itagcollection/contains)(string) | Ermittelt, ob die Sammlung einen bestimmten Namen enthält. |
+| [Contains](../../aspose.slides/itagcollection/contains)(string) | Bestimmt, ob die Sammlung einen bestimmten Namen enthält. |
 | [GetNameByIndex](../../aspose.slides/itagcollection/getnamebyindex)(int) | Gibt den Schlüssel eines Tags am angegebenen Index zurück. |
 | [GetNamesOfTags](../../aspose.slides/itagcollection/getnamesoftags)() | Gibt die Namen der Tags zurück. |
 | [GetValueByIndex](../../aspose.slides/itagcollection/getvaluebyindex)(int) | Gibt den Wert eines Tags am angegebenen Index zurück. |
 | [IndexOfName](../../aspose.slides/itagcollection/indexofname)(string) | Gibt den nullbasierten Index des angegebenen Schlüssels in der Sammlung zurück. |
-| [Remove](../../aspose.slides/itagcollection/remove)(string) | Entfernt das Tag mit dem angegebenen Namen aus der Sammlung. |
+| [Remove](../../aspose.slides/itagcollection/remove)(string) | Entfernt das Tag mit einem angegebenen Namen aus der Sammlung. |
 | [RemoveAt](../../aspose.slides/itagcollection/removeat)(int) | Entfernt das Tag am angegebenen Index. |
 
 ### Siehe auch

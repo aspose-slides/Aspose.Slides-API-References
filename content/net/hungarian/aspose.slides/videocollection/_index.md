@@ -1,14 +1,14 @@
 ---
 title: VideoCollection
 second_title: Aspose.Sildes .NET API referencia
-description: Videó objektumok gyűjteményét képviseli.
+description: A Video objektumok gyűjteményét képviseli.
 type: docs
-weight: 11710
+weight: 11730
 url: /hu/aspose.slides/videocollection/
 ---
 ## VideoCollection osztály
 
-Videó objektumok gyűjteményét képviseli.
+A Video objektumok gyűjteményét képviseli.
 
 ```csharp
 public class VideoCollection : DomObject<Presentation>, IVideoCollection
@@ -16,21 +16,21 @@ public class VideoCollection : DomObject<Presentation>, IVideoCollection
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [Count](../../aspose.slides/videocollection/count) { get; } | A gyűjteményben lévő videofájlok számát adja vissza. Csak olvasható Int32. |
-| [IsSynchronized](../../aspose.slides/videocollection/issynchronized) { get; } | Egy értéket ad vissza, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált-e (szálbiztos). Csak olvasható Boolean. |
-| [Item](../../aspose.slides/videocollection/item) { get; } | A megadott indexnél lévő elemet adja vissza. Csak olvasható [`IVideo`](../ivideo). |
-| [SyncRoot](../../aspose.slides/videocollection/syncroot) { get; } | Szinkronizációs gyökér objektumot ad vissza. Csak olvasható Object. |
+| [Count](../../aspose.slides/videocollection/count) { get; } | Visszaadja a gyűjteményben lévő videofájlok számát. Csak olvasható Int32. |
+| [IsSynchronized](../../aspose.slides/videocollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált (szálbiztos). Csak olvasható Boolean. |
+| [Item](../../aspose.slides/videocollection/item) { get; } | Lekéri a megadott indexű elemet. Csak olvasható [`IVideo`](../ivideo). |
+| [SyncRoot](../../aspose.slides/videocollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökért. Csak olvasható Object. |
 
-## Metódusok
+## Módszerek
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_1)(byte[]) | Létrehozza és hozzáad egy videót a prezentációhoz egy bájttömbből. |
-| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo)(IVideo) | Egy videofájl másolata hozzáad egy másik prezentációból. |
-| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | Létrehozza és hozzáad egy videót a prezentációhoz egy folyamatról. |
-| [CopyTo](../../aspose.slides/videocollection/copyto)(Array, int) | Videókat másol a megadott tömbbe, a megadott indextől kezdve. |
+| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_1)(byte[]) | Létrehoz egy videót, és hozzáadja a prezentációhoz egy bájttömbből. |
+| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo)(IVideo) | Videófájl másolatát adja hozzá egy másik prezentációból. |
+| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | Létrehoz egy videót, és hozzáadja a prezentációhoz egy folyamról. |
+| [CopyTo](../../aspose.slides/videocollection/copyto)(Array, int) | Videókat másol egy megadott tömbbe a megadott indextől kezdve. |
 | [GetEnumerator](../../aspose.slides/videocollection/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |
 
 ### Lásd még

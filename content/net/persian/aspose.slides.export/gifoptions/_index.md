@@ -1,14 +1,14 @@
 ---
 title: GifOptions
 second_title: مرجع API Aspose.Sildes برای .NET
-description: نمایش‌دهنده گزینه‌های خروجی GIF.
+description: گزینه‌های صادرات GIF را نشان می‌دهد.
 type: docs
-weight: 3820
+weight: 3840
 url: /fa/aspose.slides.export/gifoptions/
 ---
 ## کلاس GifOptions
 
-نمایش‌دهندهٔ گزینه‌های خروجی GIF.
+گزینه‌های صادرات GIF را نشان می‌دهد.
 
 ```csharp
 public class GifOptions : SaveOptions, IGifOptions
@@ -24,19 +24,19 @@ public class GifOptions : SaveOptions, IGifOptions
 
 | نام | توضیح |
 | --- | --- |
-| [DefaultDelay](../../aspose.slides.export/gifoptions/defaultdelay) { get; set; } | زمان تأخیر پیش‌فرض را بر حسب میلی‌ثانیه دریافت یا تنظیم می‌کند. این مقدار در صورتی که [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) تنظیم نشده باشد استفاده می‌شود. مقدار پیش‌فرض 1000 است. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | فونتی را که در صورت عدم یافتن فونت منبع استفاده می‌شود دریافت یا تنظیم می‌کند. رشته قابل خواندن و نوشتن String. |
-| [ExportHiddenSlides](../../aspose.slides.export/gifoptions/exporthiddenslides) { get; set; } | تعیین می‌کند آیا اسلایدهای پنهان صادر شوند یا خیر. مقدار پیش‌فرض false است. |
-| [FrameSize](../../aspose.slides.export/gifoptions/framesize) { get; set; } | اندازه فریم را دریافت یا تنظیم می‌کند. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | سبک بصری گرادیان را دریافت یا تنظیم می‌کند. قابل خواندن/نوشتن [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | یک شیء بازخورد برای ذخیره‌سازی به‌روزرسانی‌های پیشرفت به درصد را نمایندگی می‌کند. نگاه کنید به [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | مشخص می‌کند آیا هنگام ذخیره‌سازی ارائه، پیوندهای ابرمتن با فراخوانی‌های JavaScript رد شوند یا نه. قابل خواندن/نوشتن Boolean. مقدار پیش‌فرض **false** است. |
-| [TransitionFps](../../aspose.slides.export/gifoptions/transitionfps) { get; set; } | FPS انتقال را بر حسب فریم در ثانیه دریافت یا تنظیم می‌کند. مقدار پیش‌فرض 25 است. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | شیئی را که هشدارها را دریافت می‌کند و تصمیم می‌گیرد آیا فرآیند بارگذاری ادامه یابد یا متوقف شود، دریافت یا تنظیم می‌کند. قابل خواندن/نوشتن [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultDelay](../../aspose.slides.export/gifoptions/defaultdelay) { get; set; } | مقدار زمان تأخیر پیش‌فرض [ms] را می‌گیرد یا تنظیم می‌کند. اگر [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) تنظیم نشده باشد، این مقدار استفاده می‌شود. مقدار پیش‌فرض 1000 است. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | قلمی را که در صورت یافت نشدن قلم منبع استفاده می‌شود، می‌گیرد یا تنظیم می‌کند. رشته قابل خواندن/نوشتن. |
+| [ExportHiddenSlides](../../aspose.slides.export/gifoptions/exporthiddenslides) { get; set; } | تعیین می‌کند که آیا اسلایدهای مخفی صادر شوند یا خیر. مقدار پیش‌فرض false است. |
+| [FrameSize](../../aspose.slides.export/gifoptions/framesize) { get; set; } | اندازه فریم را می‌گیرد یا تنظیم می‌کند. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | سبک بصری گرادیان را می‌گیرد یا تنظیم می‌کند. قابل خواندن/نوشتن [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | شیء بازخوردی برای ذخیره‌سازی به‌روزرسانی‌های پیشرفت به‌صورت درصد را نشان می‌دهد. به [`IProgressCallback`](../../aspose.slides/iprogresscallback) مراجعه کنید. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | مشخص می‌کند که آیا هنگام ذخیره‌سازی ارائه، پیوندهای دارای فراخوانی‌های جاوااسکریپت رد شوند یا نه. قابل خواندن/نوشتن Boolean. مقدار پیش‌فرض **false** است. |
+| [TransitionFps](../../aspose.slides.export/gifoptions/transitionfps) { get; set; } | FPS انتقال [frames/sec] را می‌گیرد یا تنظیم می‌کند. مقدار پیش‌فرض 25 است. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | شیئی را که هشدارها را دریافت می‌کند و تصمیم می‌گیرد آیا فرآیند بارگذاری ادامه یابد یا متوقف شود، می‌گیرد یا تنظیم می‌کند. قابل خواندن/نوشتن [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### مثال‌ها
 
-مثال زیر نشان می‌دهد چگونه ارائه‌ها را با تنظیمات سفارشی به GIFهای انیمیشنی تبدیل کنیم.
+مثال زیر نشان می‌دهد چگونه ارائه‌ها را به GIF متحرک با استفاده از تنظیمات سفارشی تبدیل کنیم.
 
 ```csharp
 [C#]
@@ -44,7 +44,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     pres.Save("pres.gif", SaveFormat.Gif, new GifOptions
     {
-        FrameSize = new Size(960, 720), // اندازهٔ GIF حاصل
+        FrameSize = new Size(960, 720), // اندازه GIF حاصل
         DefaultDelay = 2000, // مدت زمانی که هر اسلاید نمایش داده می‌شود تا به اسلاید بعدی تغییر کند
         TransitionFps = 35 // FPS را افزایش دهید تا کیفیت انیمیشن انتقال بهتر شود
     });
@@ -54,8 +54,8 @@ using (Presentation pres = new Presentation("pres.pptx"))
 ### موارد مرتبط
 
 * کلاس [SaveOptions](../saveoptions)
-* واسط [IGifOptions](../igifoptions)
-* فضای‌نام [Aspose.Slides.Export](../../aspose.slides.export)
-* مجوعه [Aspose.Slides](../../)
+* رابط [IGifOptions](../igifoptions)
+* فضای نام [Aspose.Slides.Export](../../aspose.slides.export)
+* مونتاژ [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

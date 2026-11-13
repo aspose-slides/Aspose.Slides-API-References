@@ -1,14 +1,14 @@
 ---
 title: IMathPhantom
-second_title: Referência da API Aspose.Sildes para .NET
-description: Representa um objeto matemático fantasma ltmphantgt que afeta o layout de seu elemento filho sem necessariamente exibi-lo. Um fantasma pode ocultar sua expressão base enquanto preserva sua largura, altura ou profundidade para alinhar fórmulas ou reservar espaço. A visibilidade e o comportamento geométrico são controlados por propriedades como Show, ZeroWid, ZeroAsc, ZeroDesc e Transp.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Representa um objeto matemático fantasma ltmphantgt que afeta o layout de seu elemento filho sem necessariamente exibi-lo. Um fantasma pode ocultar sua expressão base enquanto preserva sua largura, altura ou profundidade para alinhar fórmulas ou reservar espaço. Visibilidade e comportamento geométrico são controlados por propriedades como Show ZeroWid ZeroAsc ZeroDesc e Transp.
 type: docs
-weight: 8410
+weight: 8430
 url: /pt/aspose.slides.mathtext/imathphantom/
 ---
 ## IMathPhantom interface
 
-Representa um objeto matemático fantasma (&lt;m:phant&gt;) que afeta o layout de seu elemento filho sem necessariamente exibi-lo. Um fantasma pode ocultar sua expressão base enquanto preserva sua largura, altura ou profundidade para alinhar fórmulas ou reservar espaço. A visibilidade e o comportamento geométrico são controlados por propriedades como Show, ZeroWid, ZeroAsc, ZeroDesc e Transp.
+Representa um objeto matemático fantasma (&lt;m:phant&gt;) que afeta o layout de seu elemento filho sem necessariamente exibi-lo. Um fantasma pode ocultar sua expressão base enquanto preserva sua largura, altura ou profundidade para alinhar fórmulas ou reservar espaço. Visibilidade e comportamento geométrico são controlados por propriedades como Show, ZeroWid, ZeroAsc, ZeroDesc e Transp.
 
 ```csharp
 public interface IMathPhantom : IMathElement

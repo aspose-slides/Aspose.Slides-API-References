@@ -1,14 +1,14 @@
 ---
 title: SlideLayoutType
 second_title: Referência da API Aspose.Sildes para .NET
-description: Representa o tipo de layout de slide.
+description: Representa o tipo de layout do slide.
 type: docs
-weight: 9990
+weight: 10010
 url: /pt/aspose.slides/slidelayouttype/
 ---
-## SlideLayoutType enumeração
+## enumeração SlideLayoutType
 
-Representa o tipo de layout de slide.
+Representa o tipo de layout do slide.
 
 ```csharp
 public enum SlideLayoutType : sbyte
@@ -21,39 +21,39 @@ public enum SlideLayoutType : sbyte
 | Custom | `-1` | Custom |
 | Title | `0` | Title |
 | Text | `1` | Text |
-| TwoColumnText | `2` | Texto de duas colunas |
+| TwoColumnText | `2` | Two Column Text |
 | Table | `3` | Table |
-| TextAndChart | `4` | Texto e Gráfico |
-| ChartAndText | `5` | Gráfico e Texto |
-| Diagram | `6` | Diagrama |
-| Chart | `7` | Gráfico |
-| TextAndClipArt | `8` | Texto e Clip Art |
-| ClipArtAndText | `9` | Clip Art e Texto |
-| TitleOnly | `10` | Somente Título |
-| Blank | `11` | Em branco |
-| TextAndObject | `12` | Texto e Objeto |
-| ObjectAndText | `13` | Objeto e Texto |
-| Object | `14` | Objeto |
-| TitleAndObject | `15` | Título e Objeto |
-| TextAndMedia | `16` | Texto e Mídia |
-| MediaAndText | `17` | Mídia e Texto |
-| ObjectOverText | `18` | Objeto sobre Texto |
-| TextOverObject | `19` | Texto sobre Objeto |
-| TextAndTwoObjects | `20` | Texto e Dois Objetos |
-| TwoObjectsAndText | `21` | Dois Objetos e Texto |
-| TwoObjectsOverText | `22` | Dois Objetos sobre Texto |
-| FourObjects | `23` | Quatro Objetos |
-| VerticalText | `24` | Texto Vertical |
-| ClipArtAndVerticalText | `25` | Clip Art e Texto Vertical |
-| VerticalTitleAndText | `26` | Título Vertical e Texto |
-| VerticalTitleAndTextOverChart | `27` | Título Vertical e Texto sobre Gráfico |
-| TwoObjects | `28` | Dois Objetos |
-| ObjectAndTwoObject | `29` | Objeto e Dois Objetos |
-| TwoObjectsAndObject | `30` | Dois Objetos e Objeto |
-| SectionHeader | `31` | Cabeçalho de Seção |
-| TwoTextAndTwoObjects | `32` | Dois Textos e Dois Objetos |
-| TitleObjectAndCaption | `33` | Título, Objeto e Legenda |
-| PictureAndCaption | `34` | Imagem e Legenda |
+| TextAndChart | `4` | Text and Chart |
+| ChartAndText | `5` | Chart and Text |
+| Diagram | `6` | Diagram |
+| Chart | `7` | Chart |
+| TextAndClipArt | `8` | Text and Clip Art |
+| ClipArtAndText | `9` | Clip Art and Text |
+| TitleOnly | `10` | Title Only |
+| Blank | `11` | Blank |
+| TextAndObject | `12` | Text and Object |
+| ObjectAndText | `13` | Object and Text |
+| Object | `14` | Object |
+| TitleAndObject | `15` | Title and Object |
+| TextAndMedia | `16` | Text and Media |
+| MediaAndText | `17` | Media and Text |
+| ObjectOverText | `18` | Object over Text |
+| TextOverObject | `19` | Text over Object |
+| TextAndTwoObjects | `20` | Text and Two Objects |
+| TwoObjectsAndText | `21` | Two Objects and Text |
+| TwoObjectsOverText | `22` | Two Objects over Text |
+| FourObjects | `23` | Four Objects |
+| VerticalText | `24` | Vertical Text |
+| ClipArtAndVerticalText | `25` | Clip Art and Vertical Text |
+| VerticalTitleAndText | `26` | Vertical Title and Text |
+| VerticalTitleAndTextOverChart | `27` | Vertical Title and Text Over Chart |
+| TwoObjects | `28` | Two Objects |
+| ObjectAndTwoObject | `29` | Object and Two Object |
+| TwoObjectsAndObject | `30` | Two Objects and Object |
+| SectionHeader | `31` | Section Header |
+| TwoTextAndTwoObjects | `32` | Two Text and Two Objects |
+| TitleObjectAndCaption | `33` | Title, Object, and Caption |
+| PictureAndCaption | `34` | Picture and Caption |
 
 ### Veja Também
 

@@ -3,7 +3,7 @@ title: ChartCategoryLevelsManager
 second_title: Aspose.Sildes для .NET справочник API
 description: Управляемый контейнер значений уровней категорий диаграммы.
 type: docs
-weight: 1290
+weight: 1300
 url: /ru/aspose.slides.charts/chartcategorylevelsmanager/
 ---
 ## ChartCategoryLevelsManager класс
@@ -16,18 +16,18 @@ public class ChartCategoryLevelsManager : IChartCategoryLevelsManager
 
 ## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides.charts/chartcategorylevelsmanager/item) { get; } | Возвращает объект IChartDataCell для определённого уровня. |
+| [Item](../../aspose.slides.charts/chartcategorylevelsmanager/item) { get; } | Возвращает объект IChartDataCell для указанного уровня. |
 
 ## Методы
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [DeleteGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/deletegroupingitem)(int) | Удаляет элемент группировки для определённого уровня. |
-| [SetGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/setgroupingitem)(int, object) | Устанавливает элемент группировки для определённого уровня. |
+| [DeleteGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/deletegroupingitem)(int) | Удаляет элемент группировки для указанного уровня. |
+| [SetGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/setgroupingitem)(int, object) | Устанавливает элемент группировки для указанного уровня. |
 
-### См. также
+### Смотрите также
 
 * интерфейс [IChartCategoryLevelsManager](../ichartcategorylevelsmanager)
 * пространство имён [Aspose.Slides.Charts](../../aspose.slides.charts)

@@ -3,7 +3,7 @@ title: ParagraphFactory
 second_title: Aspose.Sildes .NET API 参考
 description: 允许创建段落
 type: docs
-weight: 9300
+weight: 9320
 url: /zh/aspose.slides/paragraphfactory/
 ---
 ## ParagraphFactory 类
@@ -16,13 +16,13 @@ public class ParagraphFactory : IParagraphFactory
 
 ## 构造函数
 
-| 名称 | 说明 |
+| 名称 | 描述 |
 | --- | --- |
 | [ParagraphFactory](paragraphfactory)() | 默认构造函数。 |
 
 ## 方法
 
-| 名称 | 说明 |
+| 名称 | 描述 |
 | --- | --- |
 | [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph#createparagraph)() | 创建一个新的空段落。 |
 | [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph#createparagraph_1)(IParagraph) | 使用指定的段落数据创建一个新段落。 |
@@ -31,7 +31,7 @@ public class ParagraphFactory : IParagraphFactory
 
 用于 COM 兼容性。
 
-### 另请参见
+### 另见
 
 * 接口 [IParagraphFactory](../iparagraphfactory)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

@@ -1,14 +1,14 @@
 ---
 title: ErrorBarType
 second_title: Aspose.Sildes for .NET API リファレンス
-description: エラーバーの種類を表します
+description: エラーバーのタイプを表します
 type: docs
-weight: 1640
+weight: 1650
 url: /ja/aspose.slides.charts/errorbartype/
 ---
-## ErrorBarType 列挙体
+## ErrorBarType 列挙型
 
-エラーバーの種類を表します
+エラーバーのタイプを表します
 
 ```csharp
 public enum ErrorBarType
@@ -18,9 +18,9 @@ public enum ErrorBarType
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| Both | `0` | エラーバーが正方向および負方向の両方に表示されることを指定します。 |
-| Minus | `1` | エラーバーが負方向のみで表示されることを指定します。 |
-| Plus | `2` | エラーバーが正方向のみで表示されることを指定します。 |
+| Both | `0` | エラーバーが正方向と負方向の両方に表示されることを指定します。 |
+| Minus | `1` | エラーバーが負方向にのみ表示されることを指定します。 |
+| Plus | `2` | エラーバーが正方向にのみ表示されることを指定します。 |
 
 ### 参照
 

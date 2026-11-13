@@ -1,9 +1,9 @@
 ---
 title: InkOptions
-second_title: Aspose.Sildes .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考
 description: 提供控制匯出文件中 Ink 物件外觀的選項。
 type: docs
-weight: 4220
+weight: 4240
 url: /zh-hant/aspose.slides.export/inkoptions/
 ---
 ## InkOptions 類別
@@ -16,12 +16,12 @@ public class InkOptions : IInkOptions
 
 ## 屬性
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
-| [HideInk](../../aspose.slides.export/inkoptions/hideink) { get; set; } | 在匯出的文件中顯示或隱藏 Ink 元素。 |
+| [HideInk](../../aspose.slides.export/inkoptions/hideink) { get; set; } | 在匯出文件中顯示或隱藏 Ink 元素。 |
 | [InterpretMaskOpAsOpacity](../../aspose.slides.export/inkoptions/interpretmaskopasopacity) { get; set; } | 使用 ROP 操作或 Opacity 來渲染筆刷。 |
 
-### 另見
+### 另請參閱
 
 * 介面 [IInkOptions](../iinkoptions)
 * 命名空間 [Aspose.Slides.Export](../../aspose.slides.export)

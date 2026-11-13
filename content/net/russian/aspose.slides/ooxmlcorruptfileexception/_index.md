@@ -1,9 +1,9 @@
 ---
 title: OOXMLCorruptFileException
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для .NET справочника API
 description: Исключение, которое выбрасывается, когда формат файла Office Open XML повреждён.
 type: docs
-weight: 9190
+weight: 9210
 url: /ru/aspose.slides/ooxmlcorruptfileexception/
 ---
 ## OOXMLCorruptFileException класс
@@ -22,7 +22,7 @@ public class OOXMLCorruptFileException : OOXMLException
 | [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_1)(string) | Конструктор, позволяющий добавить сообщение к этому исключению. |
 | [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_2)(string, Exception) | Конструктор для исключения, содержащего сообщение и вложенное исключение. |
 
-### См. также
+### Смотрите также
 
 * класс [OOXMLException](../ooxmlexception)
 * пространство имён [Aspose.Slides](../../aspose.slides)

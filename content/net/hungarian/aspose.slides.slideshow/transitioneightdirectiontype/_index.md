@@ -1,14 +1,14 @@
 ---
 title: TransitionEightDirectionType
-second_title: Aspose.Sildes .NET API referenciája
-description: Nyolc irányú átmenettípusokat képvisel.
+second_title: Aspose.Sildes .NET API referencia
+description: Nyolc irányú átmeneti típusokat reprezentál.
 type: docs
-weight: 10360
+weight: 10380
 url: /hu/aspose.slides.slideshow/transitioneightdirectiontype/
 ---
 ## TransitionEightDirectionType enumeráció
 
-Nyolc irányú átmenettípusokat képvisel.
+Nyolc irányú átmeneti típusokat reprezentál.
 
 ```csharp
 public enum TransitionEightDirectionType

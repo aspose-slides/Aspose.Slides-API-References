@@ -1,43 +1,43 @@
 ---
 title: IThreeDFormatEffectiveData
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Onveranderlijk object dat effectieve 3-D-opmaak eigenschappen vertegenwoordigt.
+description: Onveranderlijk object dat de effectieve 3-D-opmaak eigenschappen vertegenwoordigt.
 type: docs
-weight: 7340
+weight: 7360
 url: /nl/aspose.slides/ithreedformateffectivedata/
 ---
 ## IThreeDFormatEffectiveData interface
 
-Onveranderlijk object dat effectieve 3-D opmaak eigenschappen vertegenwoordigt.
+Onveranderlijk object dat de effectieve 3-D-opmaak eigenschappen vertegenwoordigt.
 
 ```csharp
 public interface IThreeDFormatEffectiveData : IThreeDParamSource
 ```
 
-## Properties
+## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [AsIThreeDParamSource](../../aspose.slides/ithreedformateffectivedata/asithreedparamsource) { get; } | Staat toe de basise IThreeDParamSource interface op te halen. Alleen-lezen [`IThreeDParamSource`](../ithreedparamsource). |
-| [BevelBottom](../../aspose.slides/ithreedformateffectivedata/bevelbottom) { get; } | Retourneert het type van een onderste 3D schuine kant. Alleen-lezen [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
-| [BevelTop](../../aspose.slides/ithreedformateffectivedata/beveltop) { get; } | Retourneert het type van een bovenste 3D schuine kant. Alleen-lezen [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
-| [Camera](../../aspose.slides/ithreedformateffectivedata/camera) { get; } | Retourneert de instellingen van een camera. Alleen-lezen [`ICameraEffectiveData`](../icameraeffectivedata). |
-| [ContourColor](../../aspose.slides/ithreedformateffectivedata/contourcolor) { get; } | Retourneert de kleur van een contour. Alleen-lezen Color. |
-| [ContourWidth](../../aspose.slides/ithreedformateffectivedata/contourwidth) { get; } | Retourneert de breedte van een 3D contour. Alleen-lezen Double. |
-| [Depth](../../aspose.slides/ithreedformateffectivedata/depth) { get; } | Retourneert de diepte van een 3D vorm. Alleen-lezen Double. |
-| [ExtrusionColor](../../aspose.slides/ithreedformateffectivedata/extrusioncolor) { get; } | Retourneert de kleur van een extrusie. Alleen-lezen Color. |
-| [ExtrusionHeight](../../aspose.slides/ithreedformateffectivedata/extrusionheight) { get; } | Retourneert de hoogte van een extrusie-effect. Alleen-lezen Double. |
-| [LightRig](../../aspose.slides/ithreedformateffectivedata/lightrig) { get; } | Retourneert het type van een licht. Alleen-lezen [`ILightRigEffectiveData`](../ilightrigeffectivedata). |
-| [Material](../../aspose.slides/ithreedformateffectivedata/material) { get; } | Retourneert het type van een materiaal. Alleen-lezen [`MaterialPresetType`](../materialpresettype). |
+| [AsIThreeDParamSource](../../aspose.slides/ithreedformateffectivedata/asithreedparamsource) { get; } | Staat toe de basis IThreeDParamSource interface op te halen. Alleen-lezen [`IThreeDParamSource`](../ithreedparamsource). |
+| [BevelBottom](../../aspose.slides/ithreedformateffectivedata/bevelbottom) { get; } | Geeft het type van een onderste 3D-afschuiningsrand terug. Alleen-lezen [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
+| [BevelTop](../../aspose.slides/ithreedformateffectivedata/beveltop) { get; } | Geeft het type van een bovenste 3D-afschuiningsrand terug. Alleen-lezen [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
+| [Camera](../../aspose.slides/ithreedformateffectivedata/camera) { get; } | Geeft de instellingen van een camera terug. Alleen-lezen [`ICameraEffectiveData`](../icameraeffectivedata). |
+| [ContourColor](../../aspose.slides/ithreedformateffectivedata/contourcolor) { get; } | Geeft de kleur van een contour terug. Alleen-lezen Color. |
+| [ContourWidth](../../aspose.slides/ithreedformateffectivedata/contourwidth) { get; } | Geeft de breedte van een 3D-contour terug. Alleen-lezen Double. |
+| [Depth](../../aspose.slides/ithreedformateffectivedata/depth) { get; } | Geeft de diepte van een 3D-vorm terug. Alleen-lezen Double. |
+| [ExtrusionColor](../../aspose.slides/ithreedformateffectivedata/extrusioncolor) { get; } | Geeft de kleur van een extrusie terug. Alleen-lezen Color. |
+| [ExtrusionHeight](../../aspose.slides/ithreedformateffectivedata/extrusionheight) { get; } | Geeft de hoogte van een extrusie-effect terug. Alleen-lezen Double. |
+| [LightRig](../../aspose.slides/ithreedformateffectivedata/lightrig) { get; } | Geeft het type van een licht terug. Alleen-lezen [`ILightRigEffectiveData`](../ilightrigeffectivedata). |
+| [Material](../../aspose.slides/ithreedformateffectivedata/material) { get; } | Geeft het type van een materiaal terug. Alleen-lezen [`MaterialPresetType`](../materialpresettype). |
 
-### Remarks
+### Opmerkingen
 
-Deze interface wordt samen met de [`IThreeDFormat`](../ithreedformat) interface gebruikt om effectieve opmaakwaarden met toegepaste overerving te retourneren.
+Deze interface wordt samen met de [`IThreeDFormat`](../ithreedformat) interface gebruikt om effectieve opmaakwaarden terug te geven met toegepast overerven.
 
-### See Also
+### Zie ook
 
 * interface [IThreeDParamSource](../ithreedparamsource)
-* namespace [Aspose.Slides](../../aspose.slides)
+* naamruimte [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,12 +1,12 @@
 ---
 title: ImageFormat
-second_title: Aspose.Sildes için .NET API Referansı
-description: Görselin dosya formatını temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Görüntünün dosya biçimini temsil eder.
 type: docs
-weight: 7430
+weight: 7450
 url: /tr/aspose.slides/imageformat/
 ---
-## ImageFormat enum
+## ImageFormat enumı
 
 Görüntünün dosya biçimini temsil eder.
 
@@ -27,9 +27,9 @@ public enum ImageFormat
 | Png | `6` | W3C Portable Network Graphics (PNG) görüntü biçimini temsil eder. |
 | Tiff | `7` | Tagged Image File Format (TIFF) görüntü biçimini temsil eder. |
 | Exif | `8` | Exchangeable Image File (Exif) biçimini temsil eder. |
-| Icon | `9` | Windows ikon görüntü biçimini temsil eder. |
+| Icon | `9` | Windows simgesi görüntü biçimini temsil eder. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

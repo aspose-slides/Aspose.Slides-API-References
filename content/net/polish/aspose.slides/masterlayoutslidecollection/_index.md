@@ -1,14 +1,14 @@
 ---
 title: MasterLayoutSlideCollection
-second_title: Aspose.Sildes dla .NET – Referencja API
-description: Reprezentuje kolekcję wszystkich slajdów układu zdefiniowanego slajdu nadrzędnego. Rozszerza klasę LayoutSlideCollection metodami dodawania, wstawiania, usuwania, klonowania i zmiany kolejności slajdów układu w kontekście poszczególnych kolekcji układów slajdów nadrzędnych.
+second_title: Aspose.Sildes dla .NET – referencja API
+description: Reprezentuje kolekcję wszystkich slajdów układu zdefiniowanego slajdu master. Rozszerza klasę LayoutSlideCollection metodami dodawania, wstawiania, usuwania, klonowania i ponownego porządkowania slajdów układu w kontekście poszczególnych kolekcji układów slajdów mastera.
 type: docs
-weight: 8000
+weight: 8020
 url: /pl/aspose.slides/masterlayoutslidecollection/
 ---
 ## MasterLayoutSlideCollection klasa
 
-Reprezentuje kolekcję wszystkich slajdów układu zdefiniowanego slajdu macierzystego. Rozszerza klasę LayoutSlideCollection metodami dodawania, wstawiania, usuwania, klonowania i zmiany kolejności slajdów układu w kontekście poszczególnych kolekcji układów slajdów macierzy.
+Reprezentuje kolekcję wszystkich slajdów układu zdefiniowanego slajdu master. Rozszerza klasę LayoutSlideCollection metodami dodawania/wstawiania/usuwania/klonowania/ponownego porządkowania slajdów układu w kontekście poszczególnych kolekcji układów slajdów mastera.
 
 ```csharp
 public sealed class MasterLayoutSlideCollection : LayoutSlideCollection, 
@@ -19,10 +19,10 @@ public sealed class MasterLayoutSlideCollection : LayoutSlideCollection,
 
 | Nazwa | Opis |
 | --- | --- |
-| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Zwraca liczbę slajdów układu w kolekcji. Int32 tylko do odczytu. |
-| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest zsynchronizowany (wątkowo bezpieczny). Boolean tylko do odczytu. |
-| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Zwraca slajd układu według indeksu. [`LayoutSlide`](../layoutslide) tylko do odczytu. |
-| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Zwraca korzeń synchronizacji. Object tylko do odczytu. |
+| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Zwraca liczbę slajdów układu w kolekcji. Tylko do odczytu Int32. |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest synchronizowany (wątkowo bezpieczny). Tylko do odczytu Boolean. |
+| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Zwraca slajd układu według indeksu. Tylko do odczytu [`LayoutSlide`](../layoutslide). |
+| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Zwraca korzeń synchronizacji. Tylko do odczytu Object. |
 
 ## Metody
 
@@ -31,20 +31,20 @@ public sealed class MasterLayoutSlideCollection : LayoutSlideCollection,
 | [Add](../../aspose.slides/masterlayoutslidecollection/add)(SlideLayoutType, string) | Dodaje nowy slajd układu na koniec kolekcji. |
 | [AddClone](../../aspose.slides/masterlayoutslidecollection/addclone)(ILayoutSlide) | Dodaje kopię określonego slajdu układu na koniec kolekcji. |
 | [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Kopiuje wszystkie elementy z kolekcji do określonej tablicy. |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Zwraca pierwszy slajd układu określonego typu. Typ slajdu układu do znalezienia.[`LayoutSlide`](../layoutslide) o określonym typie lub null, jeśli nie znaleziono slajdów układu. |
-| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Zwraca enumerator iterujący po kolekcji. |
-| [Insert](../../aspose.slides/masterlayoutslidecollection/insert)(int, SlideLayoutType, string) | Wstawia nowy slajd układu we wskazane miejsce w kolekcji. |
-| [InsertClone](../../aspose.slides/masterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Wstawia kopię określonego slajdu układu we wskazane miejsce w kolekcji. |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Zwraca pierwszy slajd układu określonego typu. Typ slajdu układu do znalezienia.[`LayoutSlide`](../layoutslide) z określonym typem lub null, jeśli nie znaleziono układów. |
+| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Zwraca enumerator, który iteruje po kolekcji. |
+| [Insert](../../aspose.slides/masterlayoutslidecollection/insert)(int, SlideLayoutType, string) | Wstawia nowy slajd układu w określone miejsce w kolekcji. |
+| [InsertClone](../../aspose.slides/masterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Wstawia kopię określonego slajdu układu w określone miejsce w kolekcji. |
 | [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Usuwa układ z kolekcji. |
-| [RemoveAt](../../aspose.slides/masterlayoutslidecollection/removeat)(int) | Usuwa element o podanym indeksie w kolekcji. |
+| [RemoveAt](../../aspose.slides/masterlayoutslidecollection/removeat)(int) | Usuwa element pod wskazanym indeksem w kolekcji. |
 | [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Usuwa nieużywane slajdy układu (slajdy układu, których HasDependingSlides jest false). |
-| [Reorder](../../aspose.slides/masterlayoutslidecollection/reorder)(int, ILayoutSlide) | Przenosi slajd układu z kolekcji do wskazanego miejsca. |
+| [Reorder](../../aspose.slides/masterlayoutslidecollection/reorder)(int, ILayoutSlide) | Przenosi slajd układu z kolekcji do określonej pozycji. |
 
 ### Zobacz także
 
 * klasa [LayoutSlideCollection](../layoutslidecollection)
 * interfejs [IMasterLayoutSlideCollection](../imasterlayoutslidecollection)
 * przestrzeń nazw [Aspose.Slides](../../aspose.slides)
-* zbiór [Aspose.Slides](../../)
+* zestaw [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

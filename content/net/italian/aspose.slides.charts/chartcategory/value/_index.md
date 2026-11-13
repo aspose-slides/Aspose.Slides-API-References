@@ -1,9 +1,9 @@
 ---
 title: Value
-second_title: Aspose.Sildes per .NET API Reference
+second_title: Aspose.Sildes per il riferimento API .NET
 description: Se UseCell è true allora questa proprietà rappresenta la proprietà AsCell.Value. Se UseCell è false allora questa proprietà rappresenta la proprietà AsLiteral. Lettura/scrittura Object.
 type: docs
-weight: 50
+weight: 60
 url: /it/aspose.slides.charts/chartcategory/value/
 ---
 ## ChartCategory.Value proprietà

@@ -1,14 +1,14 @@
 ---
 title: GeometryPath
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje geometrickou cestu objektu GeometryShape
+second_title: Aspose.Slides pro .NET referenční příručka API
+description: Zastupuje geometrickou cestu tvaru GeometryShape
 type: docs
-weight: 4960
+weight: 4980
 url: /cs/aspose.slides/geometrypath/
 ---
 ## GeometryPath třída
 
-Reprezentuje geometrickou cestu objektu GeometryShape
+Zastupuje geometrickou cestu tvaru GeometryShape
 
 ```csharp
 public sealed class GeometryPath : IGeometryPath
@@ -16,39 +16,39 @@ public sealed class GeometryPath : IGeometryPath
 
 ## Konstruktory
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | [GeometryPath](geometrypath)() | Vytvoří instanci GeometryPath |
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | [FillMode](../../aspose.slides/geometrypath/fillmode) { get; set; } | Nastavuje režim výplně |
-| [PathData](../../aspose.slides/geometrypath/pathdata) { get; } | Vrací geometrickou cestu objektu GeometryShape jako pole úseků cesty. |
+| [PathData](../../aspose.slides/geometrypath/pathdata) { get; } | Vrací geometrickou cestu tvaru GeometryShape jako pole segmentů cesty. |
 | [Stroke](../../aspose.slides/geometrypath/stroke) { get; set; } | Nastavuje vzhled tahu |
 
 ## Metody
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | [ArcTo](../../aspose.slides/geometrypath/arcto)(float, float, float, float) | Přidá zadaný oblouk na cestu. |
 | [CloseFigure](../../aspose.slides/geometrypath/closefigure)() | Uzavře aktuální útvar této cesty |
 | [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_2)(PointF, PointF, PointF) | Přidá kubickou Bezierovu křivku na konec cesty |
-| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | Přidá kubickou Bezierovu křivku na zadané místo cesty |
+| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | Přidá kubickou Bezierovu křivku na určené místo v cestě |
 | [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto)(float, float, float, float, float, float) | Přidá kubickou Bezierovu křivku na konec cesty |
-| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | Přidá kubickou Bezierovu křivku na zadané místo cesty |
+| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | Přidá kubickou Bezierovu křivku na určené místo v cestě |
 | [LineTo](../../aspose.slides/geometrypath/lineto#lineto_2)(PointF) | Přidá čáru na konec cesty |
 | [LineTo](../../aspose.slides/geometrypath/lineto#lineto)(float, float) | Přidá čáru na konec cesty |
-| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_3)(PointF, uint) | Přidá čáru na zadané místo cesty |
-| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_1)(float, float, uint) | Přidá čáru na zadané místo cesty |
+| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_3)(PointF, uint) | Přidá čáru na určené místo v cestě |
+| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_1)(float, float, uint) | Přidá čáru na určené místo v cestě |
 | [MoveTo](../../aspose.slides/geometrypath/moveto#moveto_1)(PointF) | Nastaví pozici dalšího bodu. |
 | [MoveTo](../../aspose.slides/geometrypath/moveto#moveto)(float, float) | Nastaví pozici dalšího bodu. |
 | [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | Přidá kvadratickou Bezierovu křivku na konec cesty |
-| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | Přidá kvadratickou Bezierovu křivku na zadané místo cesty |
+| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | Přidá kvadratickou Bezierovu křivku na určené místo v cestě |
 | [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | Přidá kvadratickou Bezierovu křivku na konec cesty |
-| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | Přidá kvadratickou Bezierovu křivku na zadané místo cesty |
-| [RemoveAt](../../aspose.slides/geometrypath/removeat)(int) | Odstraní úsek na zadaném indexu geometrické cesty. |
+| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | Přidá kvadratickou Bezierovu křivku na určené místo v cestě |
+| [RemoveAt](../../aspose.slides/geometrypath/removeat)(int) | Odstraní segment na zadaném indexu geometrické cesty. |
 
 ### Viz také
 

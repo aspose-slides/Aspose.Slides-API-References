@@ -1,14 +1,14 @@
 ---
 title: MasterSlide
-second_title: Aspose.Sildes for .NET API リファレンス
-description: プレゼンテーション内のマスタースライドを表します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: プレゼンテーション内のマスタ スライドを表します。
 type: docs
-weight: 8030
+weight: 8050
 url: /ja/aspose.slides/masterslide/
 ---
 ## MasterSlide クラス
 
-プレゼンテーション内のマスタースライドを表します。
+プレゼンテーション内のマスタ スライドを表します。
 
 ```csharp
 public class MasterSlide : BaseSlide, IMasterSlide
@@ -21,35 +21,35 @@ public class MasterSlide : BaseSlide, IMasterSlide
 | [Background](../../aspose.slides/baseslide/background) { get; } | スライドの背景を返します。読み取り専用 [`IBackground`](../ibackground)。 |
 | [BodyStyle](../../aspose.slides/masterslide/bodystyle) { get; } | 本文テキストのスタイルを返します。読み取り専用 [`ITextStyle`](../itextstyle)。 |
 | [Controls](../../aspose.slides/baseslide/controls) { get; } | スライド上の ActiveX コントロールのコレクションを返します。読み取り専用 [`IControlCollection`](../icontrolcollection)。 |
-| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | スライドのカスタムデータを返します。読み取り専用 [`ICustomData`](../icustomdata)。 |
-| [DrawingGuides](../../aspose.slides/masterslide/drawingguides) { get; } | マスタースライドの描画ガイドのコレクションを返します。読み取り専用 [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HasDependingSlides](../../aspose.slides/masterslide/hasdependingslides) { get; } | このマスタースライドに依存するスライドが少なくとも1つ存在する場合に true を返します。読み取り専用 Boolean. |
-| [HeaderFooterManager](../../aspose.slides/masterslide/headerfootermanager) { get; } | マスタースライドの HeaderFooter マネージャーを返します。読み取り専用 [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager)。 |
+| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | スライドのカスタム データを返します。読み取り専用 [`ICustomData`](../icustomdata)。 |
+| [DrawingGuides](../../aspose.slides/masterslide/drawingguides) { get; } | マスタ スライド用の描画ガイドのコレクションを返します。読み取り専用 [`IDrawingGuidesCollection`](../idrawingguidescollection)。 |
+| [HasDependingSlides](../../aspose.slides/masterslide/hasdependingslides) { get; } | このマスタ スライドに依存するスライドが少なくとも1枚存在する場合に true を返します。読み取り専用 Boolean。 |
+| [HeaderFooterManager](../../aspose.slides/masterslide/headerfootermanager) { get; } | マスタ スライドの HeaderFooter マネージャーを返します。読み取り専用 [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager)。 |
 | [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | 含まれるハイパーリンクへの簡単なアクセスを提供します。読み取り専用 [`IHyperlinkQueries`](../ihyperlinkqueries)。 |
-| [LayoutSlides](../../aspose.slides/masterslide/layoutslides) { get; } | このマスタースライドの子レイアウトスライドのコレクションを返します。読み取り専用 [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection)。 |
-| override [Name](../../aspose.slides/masterslide/name) { get; set; } | マスタースライドの名前を取得または設定します。読み取り/書き込み String. |
+| [LayoutSlides](../../aspose.slides/masterslide/layoutslides) { get; } | このマスタ スライドの子レイアウト スライドのコレクションを返します。読み取り専用 [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection)。 |
+| override [Name](../../aspose.slides/masterslide/name) { get; set; } | マスタ スライドの名前を取得または設定します。読み書き可能 String。 |
 | [OtherStyle](../../aspose.slides/masterslide/otherstyle) { get; } | 別のテキストのスタイルを返します。読み取り専用 [`ITextStyle`](../itextstyle)。 |
 | [Presentation](../../aspose.slides/baseslide/presentation) { get; } | IPresentation インターフェイスを返します。読み取り専用 [`IPresentation`](../ipresentation)。 |
-| [Preserve](../../aspose.slides/masterslide/preserve) { get; set; } | すべてのスライドが削除されたときに対応するマスターが削除されるかどうかを決定します。注: Aspose.Slides は未使用のマスターを自動的に削除しません。未使用のマスターを実際に削除するには [`RemoveUnused`](../masterslidecollection/removeunused) を呼び出してください。読み取り/書き込み Boolean. |
+| [Preserve](../../aspose.slides/masterslide/preserve) { get; set; } | 対応するマスタが、そのマスタに続くすべてのスライドが削除されたときに削除されるかどうかを決定します。注: Aspose.Slides は未使用のマスタを自動的に削除することはありません。未使用のマスタを実際に削除するには [`RemoveUnused`](../masterslidecollection/removeunused) を呼び出してください。読み書き可能 Boolean。 |
 | [Shapes](../../aspose.slides/baseslide/shapes) { get; } | スライドのシェイプを返します。読み取り専用 [`IShapeCollection`](../ishapecollection)。 |
-| override [ShowMasterShapes](../../aspose.slides/masterslide/showmastershapes) { get; set; } | マスタースライド上のシェイプをスライドに表示するかどうかを指定します。マスタースライド自体に対してはこのプロパティは常に `false` を返します。読み取り/書き込み Boolean. |
-| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | スライドの ID を返します。読み取り専用 UInt32. |
-| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | スライドショー中に指定したスライドがどのように進行するかに関する情報を含む Transition オブジェクトを返します。読み取り専用 [`ISlideShowTransition`](../islideshowtransition). |
-| [ThemeManager](../../aspose.slides/masterslide/thememanager) { get; } | テーママネージャーを返します。読み取り専用 [`IMasterThemeManager`](../../aspose.slides.theme/imasterthememanager). |
-| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | アニメーションタイムラインオブジェクトを返します。読み取り専用 [`IAnimationTimeLine`](../ianimationtimeline). |
-| [TitleStyle](../../aspose.slides/masterslide/titlestyle) { get; } | タイトルテキストのスタイルを返します。読み取り専用 [`ITextStyle`](../itextstyle). |
+| override [ShowMasterShapes](../../aspose.slides/masterslide/showmastershapes) { get; set; } | マスタ スライド上のシェイプをスライド上に表示するかどうかを指定します。マスタ スライド自体ではこのプロパティは常に `false` を返します。読み書き可能 Boolean。 |
+| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | スライドの ID を返します。読み取り専用 UInt32。 |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | 指定されたスライドがスライドショー中にどのように進行するかに関する情報を含む Transition オブジェクトを返します。読み取り専用 [`ISlideShowTransition`](../islideshowtransition)。 |
+| [ThemeManager](../../aspose.slides/masterslide/thememanager) { get; } | テーマ マネージャーを返します。読み取り専用 [`IMasterThemeManager`](../../aspose.slides.theme/imasterthememanager)。 |
+| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | アニメーション タイムライン オブジェクトを返します。読み取り専用 [`IAnimationTimeLine`](../ianimationtimeline)。 |
+| [TitleStyle](../../aspose.slides/masterslide/titlestyle) { get; } | タイトル テキストのスタイルを返します。読み取り専用 [`ITextStyle`](../itextstyle)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [ApplyExternalThemeToDependingSlides](../../aspose.slides/masterslide/applyexternalthemetodependingslides)(string) | 現在のマスタースライドを元に新しいマスタースライドを作成し、外部テーマを適用して、作成したマスタースライドをすべての依存スライドに適用します。 |
+| [ApplyExternalThemeToDependingSlides](../../aspose.slides/masterslide/applyexternalthemetodependingslides)(string) | 現在のマスタ スライドを基に新しいマスタ スライドを作成し、外部テーマを適用して、作成されたマスタ スライドをすべての依存スライドに適用します。 |
 | [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | このスライドの有効なテーマを返します。 |
-| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | 二つの IBaseSlide インスタンスが等しいかどうかを判定します。戻り値はスライドの構造と静的コンテンツに基づいて計算されます。すべてのシェイプ、スタイル、テキスト、アニメーションおよびその他の設定が等しい場合、スライドは等しいとみなされます。比較は SlideId などの固有識別子や、日付プレースホルダーの現在の日付値などの動的コンテンツは考慮しません。 |
+| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | 2 つの IBaseSlide インスタンスが等しいかどうかを判断します。戻り値はスライドの構造と静的コンテンツに基づいて計算されます。すべてのシェイプ、スタイル、テキスト、アニメーションおよびその他の設定などが等しい場合、スライドは等しいとみなされます。比較では SlideId などの一意の識別子や、日付プレースホルダーの現在の日付値などの動的コンテンツは考慮されません。 |
 | [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | 指定された代替テキストを持つシェイプの最初の出現を検索します。 |
-| [GetDependingSlides](../../aspose.slides/masterslide/getdependingslides)() | このマスタースライドに依存するすべてのスライドを含む配列を返します。 |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | すべての許容可能なシェイプのすべての段落で、同じ書式のランを結合します。 |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | すべての許容可能なシェイプのすべての段落で、同じ書式のランを結合します。 |
+| [GetDependingSlides](../../aspose.slides/masterslide/getdependingslides)() | このマスタ スライドに依存するすべてのスライドの配列を返します。 |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | すべての受け入れ可能なシェイプのすべての段落において、同じ書式設定のランを結合します。 |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | すべての受け入れ可能なシェイプのすべての段落において、同じ書式設定のランを結合します。 |
 
 ### 参照
 

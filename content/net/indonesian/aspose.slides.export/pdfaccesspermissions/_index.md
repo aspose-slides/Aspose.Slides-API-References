@@ -3,7 +3,7 @@ title: PdfAccessPermissions
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Berisi sekumpulan flag yang menentukan izin akses mana yang harus diberikan ketika dokumen dibuka dengan akses pengguna.
 type: docs
-weight: 4310
+weight: 4330
 url: /id/aspose.slides.export/pdfaccesspermissions/
 ---
 ## PdfAccessPermissions enumerasi
@@ -17,17 +17,17 @@ public enum PdfAccessPermissions
 
 ### Nilai
 
-| Nama | Nilai | Deskripsi |
+| Name | Value | Description |
 | --- | --- | --- |
 | None | `0` | Menentukan bahwa pengguna tidak memiliki izin akses. |
-| PrintDocument | `4` | Menentukan apakah pengguna dapat mencetak dokumen (mungkin tidak pada tingkat kualitas tertinggi, tergantung apakah bit HighQualityPrint juga diatur). |
-| ModifyContent | `8` | Menentukan apakah pengguna dapat memodifikasi isi dokumen melalui operasi selain yang dikendalikan oleh bit AddOrModifyFields, FillExistingFields, AssembleDocument. |
-| CopyTextAndGraphics | `10` | Menentukan apakah pengguna dapat menyalin atau mengekstrak teks dan grafik dari dokumen melalui operasi selain yang dikendalikan oleh bit ExtractTextAndGraphics. |
-| AddOrModifyFields | `20` | Menentukan apakah pengguna dapat menambahkan atau memodifikasi anotasi teks, mengisi bidang formulir interaktif, dan, jika bit ModifyContent juga diatur, membuat atau memodifikasi bidang formulir interaktif (termasuk bidang tanda tangan). |
-| FillExistingFields | `100` | Menentukan apakah pengguna dapat mengisi bidang formulir interaktif yang sudah ada (termasuk bidang tanda tangan), bahkan jika bit AddOrModifyFields tidak diatur. |
-| ExtractTextAndGraphics | `200` | Menentukan apakah pengguna dapat mengekstrak teks dan grafik untuk mendukung aksesibilitas bagi pengguna dengan disabilitas atau untuk tujuan lain. |
-| AssembleDocument | `400` | Menentukan apakah pengguna dapat menyusun dokumen (menyisipkan, memutar, atau menghapus halaman serta membuat penanda atau gambar miniatur), bahkan jika bit ModifyContent tidak diatur. |
-| HighQualityPrint | `800` | Menentukan apakah pengguna dapat mencetak dokumen ke representasi yang dapat menghasilkan salinan digital yang akurat dari konten PDF. Ketika bit ini tidak diatur (dan bit PrintDocument diatur), pencetakan dibatasi pada representasi tingkat rendah dari tampilan, mungkin dengan kualitas yang menurun. |
+| PrintDocument | `4` | Menentukan apakah pengguna boleh mencetak dokumen (mungkin tidak pada tingkat kualitas tertinggi, tergantung pada apakah bit HighQualityPrint juga diatur). |
+| ModifyContent | `8` | Menentukan apakah pengguna boleh memodifikasi isi dokumen melalui operasi selain yang dikendalikan oleh bit AddOrModifyFields, FillExistingFields, AssembleDocument. |
+| CopyTextAndGraphics | `10` | Menentukan apakah pengguna boleh menyalin atau mengekstrak teks dan grafik dari dokumen melalui operasi selain yang dikendalikan oleh bit ExtractTextAndGraphics. |
+| AddOrModifyFields | `20` | Menentukan apakah pengguna boleh menambahkan atau memodifikasi anotasi teks, mengisi bidang formulir interaktif, dan, jika bit ModifyContent juga diatur, membuat atau memodifikasi bidang formulir interaktif (termasuk bidang tanda tangan). |
+| FillExistingFields | `100` | Menentukan apakah pengguna boleh mengisi bidang formulir interaktif yang ada (termasuk bidang tanda tangan), bahkan jika bit AddOrModifyFields tidak diatur. |
+| ExtractTextAndGraphics | `200` | Menentukan apakah pengguna boleh mengekstrak teks dan grafik untuk mendukung aksesibilitas bagi pengguna dengan disabilitas atau untuk tujuan lain. |
+| AssembleDocument | `400` | Menentukan apakah pengguna boleh menyusun dokumen (menyisipkan, memutar, atau menghapus halaman serta membuat penanda buku atau gambar mini), bahkan jika bit ModifyContent tidak diatur. |
+| HighQualityPrint | `800` | Menentukan apakah pengguna boleh mencetak dokumen ke representasi yang dapat menghasilkan salinan digital yang akurat dari konten PDF. Ketika bit ini tidak diatur (dan bit PrintDocument diatur), pencetakan dibatasi pada representasi tingkat rendah dari tampilan, mungkin dengan kualitas yang menurun. |
 
 ### Lihat Juga
 

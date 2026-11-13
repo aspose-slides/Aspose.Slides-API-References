@@ -1,14 +1,14 @@
 ---
 title: IOverrideThemeable
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje správce přepsání motivu.
+description: Představuje správce přepsaného motivu.
 type: docs
-weight: 11360
+weight: 11380
 url: /cs/aspose.slides.theme/ioverridethemeable/
 ---
 ## IOverrideThemeable rozhraní
 
-Představuje správce přepsání motivu.
+Představuje správce přepsaného motivu.
 
 ```csharp
 public interface IOverrideThemeable : IThemeable
@@ -19,7 +19,7 @@ public interface IOverrideThemeable : IThemeable
 | Název | Popis |
 | --- | --- |
 | [AsIThemeable](../../aspose.slides.theme/ioverridethemeable/asithemeable) { get; } | Vrací rozhraní IThemeable. Pouze pro čtení [`IThemeable`](../ithemeable). |
-| [ThemeManager](../../aspose.slides.theme/ioverridethemeable/thememanager) { get; } | Vrací přepsaný správce motivu. Pouze pro čtení [`IOverrideThemeManager`](../ioverridethememanager). |
+| [ThemeManager](../../aspose.slides.theme/ioverridethemeable/thememanager) { get; } | Vrací správce přepsaného motivu. Pouze pro čtení [`IOverrideThemeManager`](../ioverridethememanager). |
 
 ### Viz také
 

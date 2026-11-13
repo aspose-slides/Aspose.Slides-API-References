@@ -1,14 +1,14 @@
 ---
 title: MathJustification
 second_title: Aspose.Sildes för .NET API-referens
-description: Anger justeringen av matematikstycket, en serie av intilliggande instanser av matematisk text inom samma stycke
+description: Anger justering av matematikavsnittet, en serie av intilliggande instanser av matematisk text inom samma stycke
 type: docs
-weight: 8800
+weight: 8820
 url: /sv/aspose.slides.mathtext/mathjustification/
 ---
 ## MathJustification uppräkning
 
-Anger justeringen av matematikstycket (en serie av intilliggande instanser av matematisk text inom samma stycke)
+Anger justeringen av matematikavsnittet (en serie av intilliggande instanser av matematisk text inom samma stycke)
 
 ```csharp
 public enum MathJustification
@@ -18,12 +18,12 @@ public enum MathJustification
 
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |
-| LeftJustified | `1` | Justera matematisk text till vänster |
-| RightJustified | `2` | Justera matematisk text till höger |
+| LeftJustified | `1` | Justera matematisk text åt vänster |
+| RightJustified | `2` | Justera matematisk text åt höger |
 | Centered | `3` | Justera matematisk text till mitten |
-| CenteredAsGroup | `4` | Centrera hela gruppen av matematikblock på sidan som en enhet. Detta innebär att instanserna av matematisk text kan justeras i förhållande till varandra, men hela gruppen av matematisk text är centrerad som helhet. |
+| CenteredAsGroup | `4` | Centrera hela gruppen av matematiska block på sidan som en enhet. Detta innebär att förekomster av matematisk text kan justeras i förhållande till varandra, men hela gruppen av matematisk text centreras som en helhet. |
 
-### Se även
+### Se också
 
 * namnrymd [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * samling [Aspose.Slides](../../)

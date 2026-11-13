@@ -1,20 +1,20 @@
 ---
 title: ParentSeries
-second_title: Aspose.Sildes para .NET Referência da API
-description: Retorna a série de gráfico pai. Somente leitura IChartSeriesaspose.slides.charts/ichartseries.
+second_title: Aspose.Sildes for .NET Referência da API
+description: Retorna a série do gráfico pai. Somente leitura IChartSeriesaspose.slides.charts/ichartseries.
 type: docs
-weight: 90
+weight: 100
 url: /pt/aspose.slides.charts/idatalabelcollection/parentseries/
 ---
 ## IDataLabelCollection.ParentSeries propriedade
 
-Retorna a série de gráfico pai. Somente leitura [`IChartSeries`](../../ichartseries).
+Retorna a série do gráfico pai. Somente leitura [`IChartSeries`](../../ichartseries).
 
 ```csharp
 public IChartSeries ParentSeries { get; }
 ```
 
-### Ver também
+### Veja também
 
 * interface [IChartSeries](../../ichartseries)
 * interface [IDataLabelCollection](../../idatalabelcollection)

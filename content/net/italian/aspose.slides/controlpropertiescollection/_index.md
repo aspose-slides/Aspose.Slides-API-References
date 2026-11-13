@@ -3,7 +3,7 @@ title: ControlPropertiesCollection
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Una raccolta di proprietà AcitveX.
 type: docs
-weight: 2710
+weight: 2730
 url: /it/aspose.slides/controlpropertiescollection/
 ---
 ## ControlPropertiesCollection classe
@@ -18,9 +18,9 @@ public class ControlPropertiesCollection : IControlPropertiesCollection
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides/controlpropertiescollection/count) { get; } | Restituisce il numero di proprietà nella raccolta. Solo lettura Int32. |
+| [Count](../../aspose.slides/controlpropertiescollection/count) { get; } | Restituisce un numero di proprietà nella raccolta. Sola lettura Int32. |
 | [Item](../../aspose.slides/controlpropertiescollection/item) { get; set; } | Restituisce o imposta la proprietà. |
-| [NamesOfProperties](../../aspose.slides/controlpropertiescollection/namesofproperties) { get; } | Restituisce la raccolta dei nomi delle proprietà. Solo lettura ICollection. |
+| [NamesOfProperties](../../aspose.slides/controlpropertiescollection/namesofproperties) { get; } | Restituisce la raccolta dei nomi delle proprietà. Sola lettura ICollection. |
 
 ## Metodi
 

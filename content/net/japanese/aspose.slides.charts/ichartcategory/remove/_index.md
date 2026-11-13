@@ -1,9 +1,9 @@
 ---
 title: Remove
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: チャートからカテゴリを削除します。
 type: docs
-weight: 60
+weight: 70
 url: /ja/aspose.slides.charts/ichartcategory/remove/
 ---
 ## IChartCategory.Remove メソッド
@@ -20,7 +20,7 @@ public void Remove()
 | --- | --- |
 | [PptxEditException](../../../aspose.slides/pptxeditexception) | カテゴリがすでにチャートから削除されている場合にスローされます。 |
 
-### 関連項目
+### 参照
 
 * インターフェイス [IChartCategory](../../ichartcategory)
 * 名前空間 [Aspose.Slides.Charts](../../ichartcategory)

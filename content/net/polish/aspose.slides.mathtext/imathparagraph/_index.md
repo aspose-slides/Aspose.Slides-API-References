@@ -1,14 +1,14 @@
 ---
 title: IMathParagraph
-second_title: Aspose.Sildes dla .NET – referencja API
-description: Matematyczny akapit będący kontenerem dla bloków matematycznych IMMathBlock
+second_title: Aspose.Sildes dla .NET API Referencja
+description: Matematyczny akapit będący kontenerem dla bloków matematycznych IMathBlock
 type: docs
-weight: 8390
+weight: 8410
 url: /pl/aspose.slides.mathtext/imathparagraph/
 ---
-## interfejs IMathParagraph
+## IMathParagraph interfejs
 
-Matematyczny akapit będący kontenerem dla bloków matematycznych (IMathBlock)
+Mathematical paragraph that is a container for mathematical blocks (IMathBlock)
 
 ```csharp
 public interface IMathParagraph : IMathBlockCollection
@@ -19,7 +19,7 @@ public interface IMathParagraph : IMathBlockCollection
 | Nazwa | Opis |
 | --- | --- |
 | [AsIMathBlockCollection](../../aspose.slides.mathtext/imathparagraph/asimathblockcollection) { get; } | Umożliwia pobranie podstawowego interfejsu IMathBlockCollection [`IMathBlockCollection`](../imathblockcollection) |
-| [Justification](../../aspose.slides.mathtext/imathparagraph/justification) { get; set; } | Paragraph Justification Wartość domyślna: CenteredAsGroup |
+| [Justification](../../aspose.slides.mathtext/imathparagraph/justification) { get; set; } | Paragraph Justification Domyślna wartość: CenteredAsGroup |
 
 ## Metody
 
@@ -39,7 +39,7 @@ IMathParagraph mathParagraph = (shape.TextFrame.Paragraphs[0].Portions[0] as Mat
 mathParagraph.Justification = MathJustification.LeftJustified;
 ```
 
-### Zobacz też
+### Zobacz także
 
 * interfejs [IMathBlockCollection](../imathblockcollection)
 * przestrzeń nazw [Aspose.Slides.MathText](../../aspose.slides.mathtext)

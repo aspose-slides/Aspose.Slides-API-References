@@ -1,9 +1,9 @@
 ---
 title: ShapeFrame
-second_title: Aspose.Sildes для .NET API справочника
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет свойства рамок фигур.
 type: docs
-weight: 9900
+weight: 9920
 url: /ru/aspose.slides/shapeframe/
 ---
 ## ShapeFrame класс
@@ -18,22 +18,22 @@ public class ShapeFrame : IShapeFrame
 
 | Имя | Описание |
 | --- | --- |
-| [ShapeFrame](shapeframe)(float, float, float, float, NullableBool, NullableBool, float) | Создаёт новые свойства рамки фигуры. |
+| [ShapeFrame](shapeframe)(float, float, float, float, NullableBool, NullableBool, float) | Создает новые свойства рамки фигуры. |
 
 ## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [CenterX](../../aspose.slides/shapeframe/centerx) { get; } | Возвращает координату X центра кадра. Только для чтения Single. |
-| [CenterY](../../aspose.slides/shapeframe/centery) { get; } | Возвращает координату Y центра кадра. Только для чтения Single. |
-| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | Определяет, перевёрнут ли кадр по горизонтали. Только для чтения [`NullableBool`](../nullablebool). |
-| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | Определяет, перевёрнут ли кадр по вертикали. Только для чтения [`NullableBool`](../nullablebool). |
-| [Height](../../aspose.slides/shapeframe/height) { get; } | Возвращает высоту кадра. Только для чтения Single. |
-| [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | Возвращает координаты кадра. Только для чтения RectangleF. |
-| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | Возвращает количество градусов, на которое кадр повернут вокруг оси z. Положительное значение указывает на вращение по часовой стрелке; отрицательное значение указывает на вращение против часовой стрелки. Только для чтения Single. |
-| [Width](../../aspose.slides/shapeframe/width) { get; } | Возвращает ширину кадра. Только для чтения Single. |
-| [X](../../aspose.slides/shapeframe/x) { get; } | Возвращает координату X верхнего левого угла кадра. Только для чтения Single. |
-| [Y](../../aspose.slides/shapeframe/y) { get; } | Возвращает координату Y верхнего левого угла кадра. Только для чтения Single. |
+| [CenterX](../../aspose.slides/shapeframe/centerx) { get; } | Возвращает координату X центра рамки. Только для чтения Single. |
+| [CenterY](../../aspose.slides/shapeframe/centery) { get; } | Возвращает координату Y центра рамки. Только для чтения Single. |
+| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | Определяет, перевёрнута ли рамка по горизонтали. Только для чтения [`NullableBool`](../nullablebool). |
+| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | Определяет, перевёрнута ли рамка по вертикали. Только для чтения [`NullableBool`](../nullablebool). |
+| [Height](../../aspose.slides/shapeframe/height) { get; } | Возвращает высоту рамки. Только для чтения Single. |
+| [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | Возвращает координаты рамки. Только для чтения RectangleF. |
+| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | Возвращает количество градусов, на которое рамка вращена вокруг оси z. Положительное значение указывает на вращение по часовой стрелке; отрицательное — против часовой стрелки. Только для чтения Single. |
+| [Width](../../aspose.slides/shapeframe/width) { get; } | Возвращает ширину рамки. Только для чтения Single. |
+| [X](../../aspose.slides/shapeframe/x) { get; } | Возвращает координату X левого верхнего угла рамки. Только для чтения Single. |
+| [Y](../../aspose.slides/shapeframe/y) { get; } | Возвращает координату Y левого верхнего угла рамки. Только для чтения Single. |
 
 ## Методы
 
@@ -41,14 +41,14 @@ public class ShapeFrame : IShapeFrame
 | --- | --- |
 | [Clone](../../aspose.slides/shapeframe/clone)() | Клонирует |
 | [CloneT](../../aspose.slides/shapeframe/clonet)() | Клонирует. |
-| override [Equals](../../aspose.slides/shapeframe/equals#equals_1)(object) | Возвращает значение, указывающее, равен ли данный экземпляр указанному объекту. |
-| [Equals](../../aspose.slides/shapeframe/equals#equals)(ShapeFrame) | Возвращает значение, указывающее, равен ли данный экземпляр указанному объекту. |
-| override [GetHashCode](../../aspose.slides/shapeframe/gethashcode)() | Возвращает хэш-код для этого объекта. |
+| override [Equals](../../aspose.slides/shapeframe/equals#equals_1)(object) | Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту. |
+| [Equals](../../aspose.slides/shapeframe/equals#equals)(ShapeFrame) | Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту. |
+| override [GetHashCode](../../aspose.slides/shapeframe/gethashcode)() | Возвращает код хэша для этого объекта. |
 
-### См. также
+### Смотрите также
 
-* interface [IShapeFrame](../ishapeframe)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* интерфейс [IShapeFrame](../ishapeframe)
+* пространство имён [Aspose.Slides](../../aspose.slides)
+* сборка [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

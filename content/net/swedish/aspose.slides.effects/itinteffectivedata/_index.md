@@ -1,14 +1,14 @@
 ---
 title: ITintEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
-description: Oföränderligt objekt som representerar en Tint-effekt. Skiftar effektens färgvärden mot eller bort från nyans med det angivna värdet.
+description: Oföränderligt objekt som representerar en Tint-effekt. Skiftar effektens färgvärden mot/ifrån nyansen med det angivna beloppet.
 type: docs
-weight: 3550
+weight: 3570
 url: /sv/aspose.slides.effects/itinteffectivedata/
 ---
 ## ITintEffectiveData gränssnitt
 
-Oföränderligt objekt som representerar en Tint-effekt. Skiftar effektens färgvärden mot eller bort från nyans med det angivna värdet.
+Oföränderligt objekt som representerar en Tint-effekt. Skiftar effekternas färgvärden mot/ifrån nyansen med det angivna beloppet.
 
 ```csharp
 public interface ITintEffectiveData : IEffectEffectiveData
@@ -19,10 +19,10 @@ public interface ITintEffectiveData : IEffectEffectiveData
 | Namn | Beskrivning |
 | --- | --- |
 | [Amount](../../aspose.slides.effects/itinteffectivedata/amount) { get; } | Returnerar effektens mängd. Skrivskyddad Single. |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/itinteffectivedata/asieffecteffectivedata) { get; } | Tillåter att hämta bas IEffectEffectiveData gränssnitt. Skrivskyddad [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/itinteffectivedata/asieffecteffectivedata) { get; } | Tillåter att hämta bas-IEffectEffectiveData gränssnitt. Skrivskyddad [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Hue](../../aspose.slides.effects/itinteffectivedata/hue) { get; } | Returnerar nyans. Skrivskyddad Single. |
 
-### Se även
+### Se också
 
 * gränssnitt [IEffectEffectiveData](../ieffecteffectivedata)
 * namnrymd [Aspose.Slides.Effects](../../aspose.slides.effects)

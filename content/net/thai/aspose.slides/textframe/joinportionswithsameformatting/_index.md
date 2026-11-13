@@ -1,14 +1,14 @@
 ---
 title: JoinPortionsWithSameFormatting
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: รวมรันที่มีการจัดรูปแบบเดียวกันในทุกย่อหน้า.
+description: รวมช่วงข้อความที่มีการจัดรูปแบบเดียวกันในทุกย่อหน้า.
 type: docs
-weight: 110
+weight: 120
 url: /th/aspose.slides/textframe/joinportionswithsameformatting/
 ---
 ## TextFrame.JoinPortionsWithSameFormatting เมธอด
 
-รวมรันที่มีการจัดรูปแบบเดียวกันในทุกย่อหน้า.
+รวมช่วงข้อความที่มีการจัดรูปแบบเดียวกันในทุกย่อหน้า.
 
 ```csharp
 public void JoinPortionsWithSameFormatting()

@@ -1,9 +1,9 @@
 ---
 title: IOutputFile
-second_title: Aspose.Sildes para la referencia de la API de .NET
+second_title: Aspose.Sildes para la referencia de API de .NET
 description: Representa un archivo de salida.
 type: docs
-weight: 4600
+weight: 4620
 url: /es/aspose.slides.export.web/ioutputfile/
 ---
 ## IOutputFile interfaz

@@ -1,9 +1,9 @@
 ---
 title: IVbaProjectFactory
-second_title: Aspose.Sildes 用於 .NET 的 API 參考
+second_title: Aspose.Sildes for .NET API 參考
 description: 允許透過 COM 介面建立 VBA 專案
 type: docs
-weight: 11560
+weight: 11580
 url: /zh-hant/aspose.slides.vba/ivbaprojectfactory/
 ---
 ## IVbaProjectFactory 介面
@@ -16,12 +16,12 @@ public interface IVbaProjectFactory
 
 ## 方法
 
-| 名稱 | 描述 |
+| Name | Description |
 | --- | --- |
 | [CreateVbaProject](../../aspose.slides.vba/ivbaprojectfactory/createvbaproject)() | 建立新的 VBA 專案。 |
 | [ReadVbaProject](../../aspose.slides.vba/ivbaprojectfactory/readvbaproject)(byte[]) | 從 OLE 容器讀取 VBA 專案。 |
 
-### 另見
+### 另請參閱
 
 * namespace [Aspose.Slides.Vba](../../aspose.slides.vba)
 * assembly [Aspose.Slides](../../)

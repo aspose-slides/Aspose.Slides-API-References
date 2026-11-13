@@ -1,14 +1,14 @@
 ---
 title: GlitterTransition
-second_title: Справочник API Aspose.Sildes для .NET
-description: Эффект перехода со блёстками.
+second_title: Aspose.Sildes для .NET API Reference
+description: Эффект перехода с блестками для слайда.
 type: docs
-weight: 10050
+weight: 10070
 url: /ru/aspose.slides.slideshow/glittertransition/
 ---
 ## GlitterTransition класс
 
-Эффект перехода с блёстками.
+Эффект перехода с блестками для слайда.
 
 ```csharp
 public class GlitterTransition : TransitionValueBase, IGlitterTransition
@@ -16,17 +16,17 @@ public class GlitterTransition : TransitionValueBase, IGlitterTransition
 
 ## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/glittertransition/direction) { get; set; } | Направление перехода. Чтение/запись [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
 | [Pattern](../../aspose.slides.slideshow/glittertransition/pattern) { get; set; } | Указывает форму визуальных элементов, используемых во время перехода. Чтение/запись [`TransitionPattern`](../transitionpattern). |
 
 ## Методы
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли два экземпляра TransitionValueBase. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хеш-функцией для конкретного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хеш-таблица. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хеш-функцией для определённого типа, пригодной для использования в алгоритмах хеширования и структурах данных, таких как хеш-таблица. |
 
 ### См. также
 

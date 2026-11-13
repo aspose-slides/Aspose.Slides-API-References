@@ -1,9 +1,9 @@
 ---
 title: Label
-second_title: Aspose.Sildes a .NET API hivatkozás
-description: Címke. Csak olvasható IDataLabelaspose.slides.charts/idatalabel.
+second_title: Aspose.Sildes .NET API referenciája
+description: Label. Csak olvasható IDataLabelaspose.slides.charts/idatalabel.
 type: docs
-weight: 140
+weight: 180
 url: /hu/aspose.slides.charts/chartdatapoint/label/
 ---
 ## ChartDataPoint.Label tulajdonság

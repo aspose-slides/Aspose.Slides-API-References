@@ -3,10 +3,10 @@ title: SensitivityLabelCollection
 second_title: Aspose.Sildes .NET API Referansı
 description: Belgeye uygulanan hassasiyet etiketlerinin bir koleksiyonunu temsil eder.
 type: docs
-weight: 9810
+weight: 9830
 url: /tr/aspose.slides/sensitivitylabelcollection/
 ---
-## SensitivityLabelCollection sınıfı
+## SensitivityLabelCollection sınıf
 
 Belgeye uygulanan hassasiyet etiketlerinin bir koleksiyonunu temsil eder.
 
@@ -19,21 +19,21 @@ public sealed class SensitivityLabelCollection : DomObject<Presentation>,
 
 | Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides/sensitivitylabelcollection/count) { get; } | Koleksiyondaki öğelerin sayısını döndürür. Salt-okunur Int32. |
-| [Item](../../aspose.slides/sensitivitylabelcollection/item) { get; } | Dizine göre hassasiyet etiketini döndürür. |
+| [Count](../../aspose.slides/sensitivitylabelcollection/count) { get; } | Koleksiyondaki öğelerin sayısını döndürür. Salt okunur Int32. |
+| [Item](../../aspose.slides/sensitivitylabelcollection/item) { get; } | İndeks ile hassasiyet etiketini döndürür. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | [Add](../../aspose.slides/sensitivitylabelcollection/add#add_1)(ISensitivityLabel) | Bir SensitivityLabel'ı koleksiyona ekler. |
-| [Add](../../aspose.slides/sensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | Koleksiyonun sonuna hassasiyet etiketini ekler. |
-| [Clear](../../aspose.slides/sensitivitylabelcollection/clear)() | Koleksiyondaki tüm öğeleri siler. |
-| [CopyTo](../../aspose.slides/sensitivitylabelcollection/copyto)(ISensitivityLabel[], int) | Koleksiyondan tüm öğeleri belirtilen diziye kopyalar. |
+| [Add](../../aspose.slides/sensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | Hassasiyet etiketini koleksiyonun sonuna ekler. |
+| [Clear](../../aspose.slides/sensitivitylabelcollection/clear)() | Koleksiyondaki tüm öğeleri kaldırır. |
+| [CopyTo](../../aspose.slides/sensitivitylabelcollection/copyto)(ISensitivityLabel[], int) | Koleksiyondaki tüm öğeleri belirtilen diziye kopyalar. |
 | [GetEnumerator](../../aspose.slides/sensitivitylabelcollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |
-| [RemoveAt](../../aspose.slides/sensitivitylabelcollection/removeat)(int) | Belirtilen dizindeki hassasiyet etiketini kaldırır. |
+| [RemoveAt](../../aspose.slides/sensitivitylabelcollection/removeat)(int) | Belirtilen indeksdeki hassasiyet etiketini kaldırır. |
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
 * sınıf [DomObject&lt;TParent&gt;](../domobject-1)
 * sınıf [Presentation](../presentation)

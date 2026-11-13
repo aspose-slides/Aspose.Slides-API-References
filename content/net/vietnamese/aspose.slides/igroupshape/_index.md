@@ -1,14 +1,14 @@
 ---
 title: IGroupShape
-second_title: Aspose.Sildes for .NET Tham chiếu API
-description: Biểu diễn một nhóm các shape trên một slide.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Mô tả một nhóm các hình dạng trên một slide.
 type: docs
-weight: 6080
+weight: 6100
 url: /vi/aspose.slides/igroupshape/
 ---
-## IGroupShape interface
+## IGroupShape giao diện
 
-Biểu diễn một nhóm các shape trên một slide.
+Mô tả một nhóm các hình dạng trên một slide.
 
 ```csharp
 public interface IGroupShape : IShape
@@ -19,11 +19,11 @@ public interface IGroupShape : IShape
 | Tên | Mô tả |
 | --- | --- |
 | [AsIShape](../../aspose.slides/igroupshape/asishape) { get; } | Cho phép lấy giao diện IShape cơ bản. Chỉ đọc [`IShape`](../ishape). |
-| [GroupShapeLock](../../aspose.slides/igroupshape/groupshapelock) { get; } | Trả về khóa của shape. Chỉ đọc [`IGroupShapeLock`](../igroupshapelock). |
-| [ShapeLock](../../aspose.slides/igroupshape/shapelock) { get; } | Trả về khóa của shape. Chỉ đọc [`IGroupShapeLock`](../igroupshapelock). |
-| [Shapes](../../aspose.slides/igroupshape/shapes) { get; } | Trả về tập hợp các shape bên trong nhóm. Chỉ đọc [`IShapeCollection`](../ishapecollection). |
+| [GroupShapeLock](../../aspose.slides/igroupshape/groupshapelock) { get; } | Trả về các khóa của hình dạng. Chỉ đọc [`IGroupShapeLock`](../igroupshapelock). |
+| [ShapeLock](../../aspose.slides/igroupshape/shapelock) { get; } | Trả về các khóa của hình dạng. Chỉ đọc [`IGroupShapeLock`](../igroupshapelock). |
+| [Shapes](../../aspose.slides/igroupshape/shapes) { get; } | Trả về bộ sưu tập các hình dạng bên trong nhóm. Chỉ đọc [`IShapeCollection`](../ishapecollection). |
 
-### Xem thêm
+### Xem Thêm
 
 * giao diện [IShape](../ishape)
 * không gian tên [Aspose.Slides](../../aspose.slides)

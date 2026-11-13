@@ -1,14 +1,14 @@
 ---
 title: LineAlignment
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje typ zarovnání řádků.
+description: Representuje typ zarovnání řádků.
 type: docs
-weight: 7720
+weight: 7740
 url: /cs/aspose.slides/linealignment/
 ---
-## výčet LineAlignment
+## výčtový typ LineAlignment
 
-Reprezentuje typ zarovnání řádků.
+Representuje typ zarovnání řádků.
 
 ```csharp
 public enum LineAlignment : sbyte

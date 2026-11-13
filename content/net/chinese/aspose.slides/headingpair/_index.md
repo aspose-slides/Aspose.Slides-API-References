@@ -1,14 +1,14 @@
 ---
 title: HeadingPair
-second_title: Aspose.Sildes 面向 .NET 的 API 参考
-description: 表示文档的 Heading pair 属性。它指示文档零件组的名称以及组中零件的数量。
+second_title: Aspose.Sildes .NET API 参考
+description: 表示文档的 Heading pair 属性。它指示文档部件的组名以及组中部件的数量。
 type: docs
-weight: 5110
+weight: 5130
 url: /zh/aspose.slides/headingpair/
 ---
 ## HeadingPair 类
 
-表示文档的“Heading pair”属性。它指示文档零件组的名称以及组中零件的数量。
+表示文档的“Heading pair”属性。它指示文档部件的组名以及组中部件的数量。
 
 ```csharp
 public sealed class HeadingPair : IHeadingPair
@@ -18,8 +18,8 @@ public sealed class HeadingPair : IHeadingPair
 
 | 名称 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides/headingpair/count) { get; } | 返回组中零件的数量。只读 Int32。 |
-| [Name](../../aspose.slides/headingpair/name) { get; } | 返回文档零件的组名称。只读 String。 |
+| [Count](../../aspose.slides/headingpair/count) { get; } | 返回组中部件的数量。只读 Int32。 |
+| [Name](../../aspose.slides/headingpair/name) { get; } | 返回文档部件的组名。只读 String。 |
 
 ### 另请参阅
 

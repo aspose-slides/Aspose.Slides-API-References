@@ -1,37 +1,37 @@
 ---
 title: MathBorderBoxFactory
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Staat toe een wiskundige randvak te maken
+description: Staat toe een math border box te maken
 type: docs
-weight: 8620
+weight: 8640
 url: /nl/aspose.slides.mathtext/mathborderboxfactory/
 ---
 ## MathBorderBoxFactory klasse
 
-Staat toe een wiskundige randvak te maken
+Staat toe een math border box te maken
 
 ```csharp
 public class MathBorderBoxFactory : IMathBorderBoxFactory
 ```
 
-## Constructoren
+## Constructors
 
 | Naam | Beschrijving |
 | --- | --- |
 | [MathBorderBoxFactory](mathborderboxfactory)() | De standaardconstructor. |
 
-## Methoden
+## Methods
 
 | Naam | Beschrijving |
 | --- | --- |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Maak een wiskundige randvak door deze toe te passen op het element |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Maak een wiskundige randvak door deze toe te passen op het element |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Maak een math border box door deze toe te passen op het element |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Maak een math border box door deze toe te passen op het element |
 
-### Opmerkingen
+### Remarks
 
 Voor COM-compatibiliteit
 
-### Zie ook
+### See Also
 
 * interface [IMathBorderBoxFactory](../imathborderboxfactory)
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

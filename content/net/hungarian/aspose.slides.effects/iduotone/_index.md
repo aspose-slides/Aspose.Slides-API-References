@@ -1,14 +1,14 @@
 ---
 title: IDuotone
 second_title: Aspose.Sildes .NET API hivatkozás
-description: Egy Duotone effektust reprezentál.
+description: Képviseli a Duotone hatást.
 type: docs
-weight: 3260
+weight: 3280
 url: /hu/aspose.slides.effects/iduotone/
 ---
 ## IDuotone interfész
 
-Egy Duotone effektust reprezentál.
+Képviseli a Duotone hatást.
 
 ```csharp
 public interface IDuotone : IAccessiblePVIObject<IDuotoneEffectiveData>, IImageTransformOperation
@@ -18,12 +18,12 @@ public interface IDuotone : IAccessiblePVIObject<IDuotoneEffectiveData>, IImageT
 
 | Név | Leírás |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iduotone/asiaccessiblepviobject) { get; } | Lehetővé teszi az alap IAccessiblePVIObject interfész elérését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iduotone/asiimagetransformoperation) { get; } | Lehetővé teszi az alap IImageTransformOperation interfész elérését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Color1](../../aspose.slides.effects/iduotone/color1) { get; } | Visszaadja a cél színformátumot a sötét pixelekhez. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Color2](../../aspose.slides.effects/iduotone/color2) { get; } | Visszaadja a cél színformátumot a világos pixelekhez. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iduotone/asiaccessiblepviobject) { get; } | Lehetővé teszi az alap IAccessiblePVIObject interfész lekérdezését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iduotone/asiimagetransformoperation) { get; } | Lehetővé teszi az alap IImageTransformOperation interfész lekérdezését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Color1](../../aspose.slides.effects/iduotone/color1) { get; } | Visszaadja a sötét pixelek cél színformátumát. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Color2](../../aspose.slides.effects/iduotone/color2) { get; } | Visszaadja a világos pixelek cél színformátumát. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
 
-### További hivatkozások
+### Lásd még
 
 * interfész [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * interfész [IDuotoneEffectiveData](../iduotoneeffectivedata)

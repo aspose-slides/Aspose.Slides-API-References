@@ -1,14 +1,14 @@
 ---
 title: NotesSlide
-second_title: Aspose.Sildes pro .NET – referenční příručka API
-description: Reprezentuje poznámkový snímek v prezentaci.
+second_title: Aspose.Sildes pro .NET referenci API
+description: Představuje poznámkový snímek v prezentaci.
 type: docs
-weight: 9140
+weight: 9160
 url: /cs/aspose.slides/notesslide/
 ---
 ## NotesSlide třída
 
-Reprezentuje poznámkový snímek v prezentaci.
+Představuje poznámkový snímek v prezentaci.
 
 ```csharp
 public class NotesSlide : BaseSlide, INotesSlide
@@ -21,14 +21,14 @@ public class NotesSlide : BaseSlide, INotesSlide
 | [Background](../../aspose.slides/baseslide/background) { get; } | Vrací pozadí snímku. Pouze pro čtení [`IBackground`](../ibackground). |
 | [Controls](../../aspose.slides/baseslide/controls) { get; } | Vrací kolekci ovládacích prvků ActiveX na snímku. Pouze pro čtení [`IControlCollection`](../icontrolcollection). |
 | [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Vrací vlastní data snímku. Pouze pro čtení [`ICustomData`](../icustomdata). |
-| [HeaderFooterManager](../../aspose.slides/notesslide/headerfootermanager) { get; } | Vrací správce HeaderFooter poznámkového snímku. Pouze pro čtení [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
+| [HeaderFooterManager](../../aspose.slides/notesslide/headerfootermanager) { get; } | Vrací správce záhlaví a zápatí poznámkového snímku. Pouze pro čtení [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
 | [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Poskytuje snadný přístup k obsaženým hypertextovým odkazům. Pouze pro čtení [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Vrací nebo nastavuje název snímku. Čtení/zápis String. |
+| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Vrací nebo nastavuje název snímku. Čtení/Zápis String. |
 | [NotesTextFrame](../../aspose.slides/notesslide/notestextframe) { get; } | Vrací TextFrame s textem poznámek, pokud existuje. Pouze pro čtení [`ITextFrame`](../itextframe). |
 | [ParentSlide](../../aspose.slides/notesslide/parentslide) { get; } | Vrací nadřazený snímek. Pouze pro čtení [`ISlide`](../islide). |
 | [Presentation](../../aspose.slides/baseslide/presentation) { get; } | Vrací rozhraní IPresentation. Pouze pro čtení [`IPresentation`](../ipresentation). |
 | [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Vrací tvary snímku. Pouze pro čtení [`IShapeCollection`](../ishapecollection). |
-| override [ShowMasterShapes](../../aspose.slides/notesslide/showmastershapes) { get; set; } | Určuje, zda se tvary na hlavním snímku mají zobrazit na snímcích, nebo ne. Čtení/zápis Boolean. |
+| override [ShowMasterShapes](../../aspose.slides/notesslide/showmastershapes) { get; set; } | Určuje, zda mají být tvary na hlavním snímku zobrazeny na snímcích, nebo ne. Čtení/Zápis Boolean. |
 | [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Vrací ID snímku. Pouze pro čtení UInt32. |
 | virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Vrací objekt Transition, který obsahuje informace o tom, jak se určený snímek posouvá během prezentace. Pouze pro čtení [`ISlideShowTransition`](../islideshowtransition). |
 | [ThemeManager](../../aspose.slides/notesslide/thememanager) { get; } | Vrací správce přepisujícího motivu. Pouze pro čtení [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager). |
@@ -39,10 +39,10 @@ public class NotesSlide : BaseSlide, INotesSlide
 | Název | Popis |
 | --- | --- |
 | [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | Vrací efektivní motiv pro tento snímek. |
-| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Určuje, zda jsou dvě instance IBaseSlide stejné. Návratová hodnota je vypočítána na základě struktury snímku a statického obsahu. Dva snímky jsou stejné, pokud jsou všechny tvary, styly, texty, animace a další nastavení atd. stejné. Porovnání nebere v úvahu jedinečné identifikátory, např. SlideId, a dynamický obsah, např. aktuální hodnotu data v Date Placeholder. |
-| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Vyhledá první výskyt tvaru se zadaným alternativním textem. |
+| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Určuje, zda jsou dvě instance IBaseSlide rovny. Návratová hodnota je vypočtena na základě struktury snímku a statického obsahu. Dva snímky jsou rovny, pokud jsou všechny tvary, styly, texty, animace a další nastavení atd. rovny. Porovnání nebere v úvahu hodnoty jedinečných identifikátorů, např. SlideId a dynamický obsah, např. current date value v Date Placeholder. |
+| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Najde první výskyt tvaru se zadaným alternativním textem. |
 | virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Spojí běhy se stejným formátováním ve všech odstavcích všech vhodných tvarů. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Spojí běhy se stejným formátováním ve všech odstavcích všech vhodných tvarů. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Spojí běhy se stejným formátováním ve všech odstavcích ve všech vhodných tvarech. |
 
 ### Viz také
 

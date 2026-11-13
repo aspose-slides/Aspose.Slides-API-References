@@ -3,7 +3,7 @@ title: IPatternFormat
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa un patrón para rellenar una forma.
 type: docs
-weight: 6620
+weight: 6640
 url: /es/aspose.slides/ipatternformat/
 ---
 ## IPatternFormat interfaz
@@ -16,18 +16,18 @@ public interface IPatternFormat
 
 ## Propiedades
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
-| [BackColor](../../aspose.slides/ipatternformat/backcolor) { get; } | Devuelve el color de fondo del patrón. Solo lectura [`IColorFormat`](../icolorformat). |
-| [ForeColor](../../aspose.slides/ipatternformat/forecolor) { get; } | Devuelve el color de primer plano del patrón. Solo lectura [`IColorFormat`](../icolorformat). |
+| [BackColor](../../aspose.slides/ipatternformat/backcolor) { get; } | Devuelve el color de patrón de fondo. Solo lectura [`IColorFormat`](../icolorformat). |
+| [ForeColor](../../aspose.slides/ipatternformat/forecolor) { get; } | Devuelve el color de patrón de primer plano. Solo lectura [`IColorFormat`](../icolorformat). |
 | [PatternStyle](../../aspose.slides/ipatternformat/patternstyle) { get; set; } | Devuelve o establece el estilo del patrón. Lectura/escritura [`PatternStyle`](../patternstyle). |
 
 ## Métodos
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
-| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile)(Color) | Crea una imagen de mosaico para el llenado del patrón. |
-| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile_1)(Color, Color) | Crea una imagen de mosaico para el llenado del patrón con colores especificados. |
+| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile)(Color) | Crea una imagen de mosaico para el relleno de patrón. |
+| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile_1)(Color, Color) | Crea una imagen de mosaico para el relleno de patrón con colores especificados. |
 
 ### Ver también
 

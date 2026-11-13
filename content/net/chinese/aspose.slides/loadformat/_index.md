@@ -3,7 +3,7 @@ title: LoadFormat
 second_title: Aspose.Sildes .NET API 参考
 description: 指示要加载的文档的格式。
 type: docs
-weight: 7830
+weight: 7850
 url: /zh/aspose.slides/loadformat/
 ---
 ## LoadFormat 枚举
@@ -14,9 +14,9 @@ url: /zh/aspose.slides/loadformat/
 public enum LoadFormat
 ```
 
-### 值
+### 取值
 
-| 名称 | 值 | 描述 |
+| Name | Value | Description |
 | --- | --- | --- |
 | Auto | `0` | 指示 Aspose.Slides 自动识别格式。 |
 | Ppt | `1` | Microsoft PowerPoint 97-2003 演示文稿。 |
@@ -31,10 +31,10 @@ public enum LoadFormat
 | Otp | `10` | OpenOffice OTP 演示文稿模板。 |
 | Ppt95 | `11` | Microsoft PowerPoint 95 演示文稿。 |
 | Pot | `12` | Microsoft PowerPoint 97-2003 演示文稿模板。 |
-| Fodp | `13` | Flat XML ODF 演示文稿。 |
+| Fodp | `13` | 平面 XML ODF 演示文稿。 |
 | Unknown | `255` | 未知文件格式 |
 
-### 另见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

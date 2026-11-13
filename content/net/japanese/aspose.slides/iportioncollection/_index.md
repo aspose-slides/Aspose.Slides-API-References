@@ -1,14 +1,14 @@
 ---
 title: IPortionCollection
 second_title: Aspose.Sildes for .NET API リファレンス
-description: ポーションのコレクションを表します。
+description: Portion のコレクションを表します。
 type: docs
-weight: 6710
+weight: 6730
 url: /ja/aspose.slides/iportioncollection/
 ---
 ## IPortionCollection インターフェイス
 
-ポーションのコレクションを表します。
+Portion のコレクションを表します。
 
 ```csharp
 public interface IPortionCollection : IEnumerable<IPortion>
@@ -16,15 +16,15 @@ public interface IPortionCollection : IEnumerable<IPortion>
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides/iportioncollection/asienumerable) { get; } | 読み取り専用の IEnumerable。 |
-| [Count](../../aspose.slides/iportioncollection/count) { get; } | コレクションに実際に含まれる要素数を取得します。読み取り専用の Int32。 |
-| [Item](../../aspose.slides/iportioncollection/item) { get; } | 指定されたインデックスにある要素を取得します。 |
+| [AsIEnumerable](../../aspose.slides/iportioncollection/asienumerable) { get; } | IEnumerable インターフェイスを返します。読み取り専用 IEnumerable。 |
+| [Count](../../aspose.slides/iportioncollection/count) { get; } | コレクションに実際に含まれる要素数を取得します。読み取り専用 Int32。 |
+| [Item](../../aspose.slides/iportioncollection/item) { get; } | 指定されたインデックスの要素を取得します。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/iportioncollection/add)(IPortion) | コレクションの末尾に Portion を追加します。 |
 | [Clear](../../aspose.slides/iportioncollection/clear)() | コレクションからすべての要素を削除します。 |
@@ -32,7 +32,7 @@ public interface IPortionCollection : IEnumerable<IPortion>
 | [IndexOf](../../aspose.slides/iportioncollection/indexof)(IPortion) | コレクション内の特定の Portion のインデックスを判断します。 |
 | [Insert](../../aspose.slides/iportioncollection/insert)(int, IPortion) | 指定されたインデックスに Portion を挿入します。 |
 | [Remove](../../aspose.slides/iportioncollection/remove)(IPortion) | ICollection から特定のオブジェクトの最初の出現を削除します。 |
-| [RemoveAt](../../aspose.slides/iportioncollection/removeat)(int) | コレクションの指定されたインデックスにある要素を削除します。 |
+| [RemoveAt](../../aspose.slides/iportioncollection/removeat)(int) | コレクションの指定されたインデックスの要素を削除します。 |
 
 ### 参照
 

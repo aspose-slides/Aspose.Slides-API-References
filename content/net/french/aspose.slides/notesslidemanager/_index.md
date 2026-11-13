@@ -1,9 +1,9 @@
 ---
 title: NotesSlideManager
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Gestionnaire de diapositive de notes.
 type: docs
-weight: 9160
+weight: 9180
 url: /fr/aspose.slides/notesslidemanager/
 ---
 ## NotesSlideManager classe
@@ -16,20 +16,20 @@ public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
-| [NotesSlide](../../aspose.slides/notesslidemanager/notesslide) { get; } | Renvoie la diapositive de notes pour la diapositive actuelle. Renvoie null si la diapositive n’a pas de diapositive de notes. Lecture seule [`INotesSlide`](../inotesslide). |
+| [NotesSlide](../../aspose.slides/notesslidemanager/notesslide) { get; } | Renvoie la diapositive de notes de la diapositive actuelle. Renvoie null si la diapositive n'a pas de diapositive de notes. Lecture seule [`INotesSlide`](../inotesslide). |
 
 ## Méthodes
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
-| [AddNotesSlide](../../aspose.slides/notesslidemanager/addnotesslide)() | Renvoie la diapositive de notes pour la diapositive actuelle, en créant une si elle n’existe pas. |
+| [AddNotesSlide](../../aspose.slides/notesslidemanager/addnotesslide)() | Renvoie la diapositive de notes de la diapositive actuelle, en en créant une si elle n'existe pas. |
 | [RemoveNotesSlide](../../aspose.slides/notesslidemanager/removenotesslide)() | Supprime la diapositive de notes de la diapositive actuelle. |
 
 ### Exemples
 
-L’exemple suivant montre comment ajouter des notes à une diapositive spécifique d’une présentation PowerPoint.
+L'exemple suivant montre comment ajouter des notes à une diapositive spécifique d'une présentation PowerPoint.
 
 ```csharp
 [C#]
@@ -44,7 +44,7 @@ L’exemple suivant montre comment ajouter des notes à une diapositive spécifi
 	}
 ```
 
-L’exemple suivant montre comment supprimer les notes d’une diapositive spécifique d’une présentation PowerPoint.
+L'exemple suivant montre comment supprimer les notes d'une diapositive spécifique d'une présentation PowerPoint.
 
 ```csharp
 [C#]

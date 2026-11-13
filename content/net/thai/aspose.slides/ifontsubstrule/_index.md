@@ -1,14 +1,14 @@
 ---
 title: IFontSubstRule
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงข้อมูลการทดแทนแบบอักษร
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: แสดงข้อมูลการแทนที่แบบอักษร
 type: docs
-weight: 5880
+weight: 5900
 url: /th/aspose.slides/ifontsubstrule/
 ---
 ## IFontSubstRule อินเทอร์เฟซ
 
-แสดงข้อมูลการทดแทนแบบอักษร
+แสดงข้อมูลการแทนที่แบบอักษร
 
 ```csharp
 public interface IFontSubstRule
@@ -18,9 +18,9 @@ public interface IFontSubstRule
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [DestFont](../../aspose.slides/ifontsubstrule/destfont) { get; } | แบบอักษรที่จะใช้สำหรับการทดแทน อ่านอย่างเดียว [`IFontData`](../ifontdata). |
-| [ReplaceFontCondition](../../aspose.slides/ifontsubstrule/replacefontcondition) { get; } | กฎที่จะใช้สำหรับการทดแทน อ่านอย่างเดียว [`FontSubstCondition`](../fontsubstcondition). |
-| [SourceFont](../../aspose.slides/ifontsubstrule/sourcefont) { get; } | แบบอักษรที่จะทดแทน อ่านอย่างเดียว [`IFontData`](../ifontdata). |
+| [DestFont](../../aspose.slides/ifontsubstrule/destfont) { get; } | แบบอักษรที่จะใช้สำหรับการแทนที่ Read-only [`IFontData`](../ifontdata). |
+| [ReplaceFontCondition](../../aspose.slides/ifontsubstrule/replacefontcondition) { get; } | กฎที่ใช้สำหรับการแทนที่ Read-only [`FontSubstCondition`](../fontsubstcondition). |
+| [SourceFont](../../aspose.slides/ifontsubstrule/sourcefont) { get; } | แบบอักษรที่จะแทนที่ Read-only [`IFontData`](../ifontdata). |
 
 ### ดูเพิ่มเติม
 

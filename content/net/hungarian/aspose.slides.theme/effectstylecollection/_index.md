@@ -1,14 +1,14 @@
 ---
 title: EffectStyleCollection
-second_title: Aspose.Sildes for .NET API referenciája
-description: Egy effektusstílus-gyűjteményt képvisel.
+second_title: Aspose.Sildes .NET API referenciája
+description: Egy hatásstílusok gyűjteményét képviseli.
 type: docs
-weight: 11090
+weight: 11110
 url: /hu/aspose.slides.theme/effectstylecollection/
 ---
 ## EffectStyleCollection osztály
 
-Egy effektusstílusok gyűjteményét képviseli.
+Egy hatásstílusok gyűjteményét képviseli.
 
 ```csharp
 public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyleCollection
@@ -18,16 +18,16 @@ public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyl
 
 | Név | Leírás |
 | --- | --- |
-| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | Visszaadja a gyűjtemény elemeinek számát. Csak olvasható Int32, Csak olvasható Int32. |
-| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált-e (szálbiztos). Csak olvasható Boolean. |
+| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | Visszaadja a gyűjteményben lévő elemek számát. Csak olvasható Int32, Csak olvasható Int32. |
+| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált (szálbiztos). Csak olvasható Boolean. |
 | [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | Visszaad egy elemet a megadott pozíción. Csak olvasható [`EffectStyle`](../effectstyle). |
-| [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökér elemet. Csak olvasható Object. |
+| [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökérobjektumot. Csak olvasható Object. |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [CopyTo](../../aspose.slides.theme/effectstylecollection/copyto)(Array, int) | Átmásolja a gyűjtemény összes elemét a megadott tömbbe. |
+| [CopyTo](../../aspose.slides.theme/effectstylecollection/copyto)(Array, int) | A gyűjtemény összes elemét a megadott tömbbe másolja. |
 | [GetEnumerator](../../aspose.slides.theme/effectstylecollection/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |
 
 ### Lásd még

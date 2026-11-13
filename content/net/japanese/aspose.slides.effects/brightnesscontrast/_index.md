@@ -1,14 +1,14 @@
 ---
 title: BrightnessContrast
-second_title: Aspose.Sildes for .NET API リファレンス
-description: BrightnessContrast エフェクトを表します。明るさとコントラストを調整します
+second_title: Aspose.Sildes の .NET 用 API リファレンス
+description: BrightnessContrast 効果を表します。 明るさとコントラストを調整します
 type: docs
-weight: 2930
+weight: 2950
 url: /ja/aspose.slides.effects/brightnesscontrast/
 ---
 ## BrightnessContrast クラス
 
-BrightnessContrast エフェクトを表します。明るさとコントラストを調整します。
+BrightnessContrast 効果を表します。 明るさとコントラストを調整します
 
 ```csharp
 public sealed class BrightnessContrast : ImageTransformOperation, IBrightnessContrast
@@ -18,14 +18,14 @@ public sealed class BrightnessContrast : ImageTransformOperation, IBrightnessCon
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。 読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/brightnesscontrast/equals)(object) | 指定された [`BrightnessContrast`](../brightnesscontrast) が現在の [`BrightnessContrast`](../brightnesscontrast) と等しいかどうかを判断します。 |
-| [GetEffective](../../aspose.slides.effects/brightnesscontrast/geteffective)() | 継承が適用された有効な BrightnessContrast エフェクトデータを取得します。 |
+| [GetEffective](../../aspose.slides.effects/brightnesscontrast/geteffective)() | 継承が適用された有効な BrightnessContrast 効果データを取得します。 |
 | override [GetHashCode](../../aspose.slides.effects/brightnesscontrast/gethashcode)() | 特定の型に対するハッシュ関数として機能します。 |
 
 ### 参照

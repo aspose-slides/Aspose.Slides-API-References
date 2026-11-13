@@ -1,14 +1,14 @@
 ---
 title: IColorChange
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa un efecto de cambio de color. Las instancias de FromColor se reemplazan con instancias de ToColor.
+second_title: Aspose.Sildes para la referencia de API de .NET
+description: Representa un efecto de cambio de color. Las instancias de FromColor son reemplazadas por instancias de ToColor.
 type: docs
-weight: 3220
+weight: 3240
 url: /es/aspose.slides.effects/icolorchange/
 ---
-## IColorChange interfaz
+## Interfaz IColorChange
 
-Representa un efecto de cambio de color. Las instancias de FromColor se reemplazan con instancias de ToColor.
+Representa un efecto de cambio de color. Las instancias de FromColor son reemplazadas por instancias de ToColor.
 
 ```csharp
 public interface IColorChange : IAccessiblePVIObject<IColorChangeEffectiveData>, 
@@ -22,7 +22,7 @@ public interface IColorChange : IAccessiblePVIObject<IColorChangeEffectiveData>,
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorchange/asiaccessiblepviobject) { get; } | Permite obtener la interfaz base IAccessiblePVIObject. Solo lectura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/icolorchange/asiimagetransformoperation) { get; } | Permite obtener la interfaz base IImageTransformOperation. Solo lectura [`IImageTransformOperation`](../iimagetransformoperation). |
 | [FromColor](../../aspose.slides.effects/icolorchange/fromcolor) { get; } | Color que será reemplazado. Solo lectura [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [ToColor](../../aspose.slides.effects/icolorchange/tocolor) { get; } | Color que la reemplazará. Solo lectura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [ToColor](../../aspose.slides.effects/icolorchange/tocolor) { get; } | Color que reemplazará. Solo lectura [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Ver también
 

@@ -1,14 +1,14 @@
 ---
 title: CommentsPositions
-second_title: Aspose.Sildes a .NET API referencia
-description: A szabályt reprezentálja, amely meghatározza, hogyan jelennek meg a megjegyzések az exportált dokumentumban
+second_title: Aspose.Sildes .NET API referencia
+description: A szabályt jelöli, amely meghatározza a megjegyzések exportált dokumentumba való megjelenítését
 type: docs
-weight: 3730
+weight: 3750
 url: /hu/aspose.slides.export/commentspositions/
 ---
 ## CommentsPositions enumeráció
 
-A szabályt jelöli, amely meghatározza, hogyan jelenjenek meg a megjegyzések az exportált dokumentumban
+A szabályt jelöli, amely meghatározza a megjegyzések exportált dokumentumba való megjelenítését
 
 ```csharp
 public enum CommentsPositions
@@ -18,9 +18,9 @@ public enum CommentsPositions
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| None | `0` | Megadja, hogy a megjegyzések egyáltalán ne jelenjenek meg. |
-| Bottom | `1` | Megadja, hogy a megjegyzések az oldal alján jelenjenek meg. |
-| Right | `2` | Megadja, hogy a megjegyzések az oldal jobb oldalán jelenjenek meg. |
+| None | `0` | Megadja, hogy a megjegyzések egyáltalán ne legyenek megjelenítve. |
+| Bottom | `1` | Megadja, hogy a megjegyzések a lap alján legyenek megjelenítve. |
+| Right | `2` | Megadja, hogy a megjegyzések a lap jobb oldalán legyenek megjelenítve. |
 
 ### Lásd még
 

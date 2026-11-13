@@ -1,22 +1,22 @@
 ---
 title: PptxEditException
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar ett undantag som kastas när ett fel vid redigering av presentation upptäcks.
+description: Representerar ett undantag som kastas när ett redigeringsfel i presentationen upptäcks.
 type: docs
-weight: 9550
+weight: 9570
 url: /sv/aspose.slides/pptxeditexception/
 ---
 ## PptxEditException klass
 
-Representerar ett undantag som kastas när ett fel vid redigering av presentation upptäcks.
+Representerar ett undantag som kastas när ett redigeringsfel i presentationen upptäcks.
 
 ```csharp
 public class PptxEditException : PptxException
 ```
 
-## Konstruktorer
+## Konstruktörer
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
 | [PptxEditException](pptxeditexception#constructor)() | Standardkonstruktor. |
 | [PptxEditException](pptxeditexception#constructor_1)(string) | Konstruktor som tillåter ett meddelande att läggas till i detta undantag. |

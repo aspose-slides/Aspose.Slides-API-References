@@ -1,14 +1,14 @@
 ---
 title: INotImplementedWarningInfo
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta un avviso su una funzionalità nota non implementata che non sarà implementata nel prossimo futuro.
+description: Rappresenta un avviso su una funzionalità nota non implementata che non verrà implementata nel prossimo futuro.
 type: docs
-weight: 11770
+weight: 11790
 url: /it/aspose.slides.warnings/inotimplementedwarninginfo/
 ---
 ## INotImplementedWarningInfo interfaccia
 
-Rappresenta un avviso su una funzionalità nota non implementata che non sarà implementata nel prossimo futuro.
+Rappresenta un avviso su una funzionalità conosciuta non implementata che non sarà implementata nel prossimo futuro.
 
 ```csharp
 public interface INotImplementedWarningInfo : IWarningInfo

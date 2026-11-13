@@ -1,14 +1,14 @@
 ---
 title: FontSubstRule
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt Informationen zur Schriftart-Substitution bereit
+second_title: Aspose.Sildes für .NET API Referenz
+description: Repräsentiert Informationen zur Schriftartsubstitution
 type: docs
-weight: 4890
+weight: 4910
 url: /de/aspose.slides/fontsubstrule/
 ---
 ## FontSubstRule Klasse
 
-Stellt Informationen zur Schriftart-Substitution bereit
+Repräsentiert Informationen zur Schriftartsubstitution
 
 ```csharp
 public class FontSubstRule : IFontSubstRule
@@ -25,9 +25,9 @@ public class FontSubstRule : IFontSubstRule
 
 | Name | Beschreibung |
 | --- | --- |
-| [DestFont](../../aspose.slides/fontsubstrule/destfont) { get; } | Schriftart, die für die Substitution verwendet wird. Nur lesbar [`IFontData`](../ifontdata). |
-| [ReplaceFontCondition](../../aspose.slides/fontsubstrule/replacefontcondition) { get; } | Regel, die für die Substitution angewendet wird. Nur lesbar [`FontSubstCondition`](../fontsubstcondition). |
-| [SourceFont](../../aspose.slides/fontsubstrule/sourcefont) { get; } | Zu ersetzende Schriftart. Nur lesbar [`IFontData`](../ifontdata). |
+| [DestFont](../../aspose.slides/fontsubstrule/destfont) { get; } | Schriftart, die für die Ersetzung verwendet wird. Nur lesbar [`IFontData`](../ifontdata). |
+| [ReplaceFontCondition](../../aspose.slides/fontsubstrule/replacefontcondition) { get; } | Regel, die für die Ersetzung angewendet wird. Nur lesbar [`FontSubstCondition`](../fontsubstcondition). |
+| [SourceFont](../../aspose.slides/fontsubstrule/sourcefont) { get; } | Schriftart, die ersetzt wird. Nur lesbar [`IFontData`](../ifontdata). |
 
 ### Siehe auch
 

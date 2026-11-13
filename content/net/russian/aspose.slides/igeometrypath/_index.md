@@ -1,14 +1,14 @@
 ---
 title: IGeometryPath
 second_title: Aspose.Sildes для .NET справочник API
-description: Представляет путь геометрии GeometryShape
+description: Представляет геометрический путь GeometryShape
 type: docs
-weight: 5970
+weight: 5990
 url: /ru/aspose.slides/igeometrypath/
 ---
 ## IGeometryPath интерфейс
 
-Представляет путь геометрии GeometryShape
+Представляет геометрический путь GeometryShape
 
 ```csharp
 public interface IGeometryPath
@@ -18,9 +18,9 @@ public interface IGeometryPath
 
 | Имя | Описание |
 | --- | --- |
-| [FillMode](../../aspose.slides/igeometrypath/fillmode) { get; set; } | Устанавливает режим заливки |
-| [PathData](../../aspose.slides/igeometrypath/pathdata) { get; } | Возвращает путь геометрии GeometryShape как массив сегментов пути. |
-| [Stroke](../../aspose.slides/igeometrypath/stroke) { get; set; } | Устанавливает внешний вид контура |
+| [FillMode](../../aspose.slides/igeometrypath/fillmode) { get; set; } | Задает режим заполнения |
+| [PathData](../../aspose.slides/igeometrypath/pathdata) { get; } | Возвращает геометрический путь GeometryShape в виде массива сегментов пути. |
+| [Stroke](../../aspose.slides/igeometrypath/stroke) { get; set; } | Задает вид обводки |
 
 ## Методы
 
@@ -42,7 +42,7 @@ public interface IGeometryPath
 | [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | Добавляет квадратичную кривую Безье в указанное место пути |
 | [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | Добавляет квадратичную кривую Безье в конец пути |
 | [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | Добавляет квадратичную кривую Безье в указанное место пути |
-| [RemoveAt](../../aspose.slides/igeometrypath/removeat)(int) | Удаляет сегмент с указанным индексом в пути геометрии. |
+| [RemoveAt](../../aspose.slides/igeometrypath/removeat)(int) | Удаляет сегмент в указанном индексе геометрического пути. |
 
 ### См. также
 

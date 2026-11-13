@@ -1,27 +1,27 @@
 ---
 title: Save
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 指定された形式でプレゼンテーションのすべてのスライドをファイルに保存します。
+description: プレゼンテーションのすべてのスライドを、指定された形式でファイルに保存します。
 type: docs
-weight: 390
+weight: 400
 url: /ja/aspose.slides/presentation/save/
 ---
 ## Save(string, SaveFormat) {#save_5}
 
-指定された形式でプレゼンテーションのすべてのスライドをファイルに保存します。
+プレゼンテーションのすべてのスライドを、指定された形式でファイルに保存します。
 
 ```csharp
 public void Save(string fname, SaveFormat format)
 ```
 
-| パラメーター | 型 | 説明 |
+| パラメータ | 型 | 説明 |
 | --- | --- | --- |
-| fname | String | 作成されるファイルへのパス。 |
-| format | SaveFormat | エクスポートデータの形式。 |
+| fname | String | 作成されたファイルへのパス。 |
+| format | SaveFormat | エクスポート データの形式。 |
 
 ### 参照
 
-* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* 列挙体 [SaveFormat](../../../aspose.slides.export/saveformat)
 * クラス [Presentation](../../presentation)
 * 名前空間 [Aspose.Slides](../../presentation)
 * アセンブリ [Aspose.Slides](../../../)
@@ -30,20 +30,20 @@ public void Save(string fname, SaveFormat format)
 
 ## Save(Stream, SaveFormat) {#save_1}
 
-指定された形式でプレゼンテーションのすべてのスライドをストリームに保存します。
+プレゼンテーションのすべてのスライドを、指定された形式でストリームに保存します。
 
 ```csharp
 public void Save(Stream stream, SaveFormat format)
 ```
 
-| パラメーター | 型 | 説明 |
+| パラメータ | 型 | 説明 |
 | --- | --- | --- |
 | stream | Stream | 出力ストリーム。 |
-| format | SaveFormat | エクスポートデータの形式。 |
+| format | SaveFormat | エクスポート データの形式。 |
 
 ### 参照
 
-* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* 列挙体 [SaveFormat](../../../aspose.slides.export/saveformat)
 * クラス [Presentation](../../presentation)
 * 名前空間 [Aspose.Slides](../../presentation)
 * アセンブリ [Aspose.Slides](../../../)
@@ -58,7 +58,7 @@ public void Save(string fname, SaveFormat format, ISaveOptions options)
 
 ### 参照
 
-* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* 列挙体 [SaveFormat](../../../aspose.slides.export/saveformat)
 * インターフェイス [ISaveOptions](../../../aspose.slides.export/isaveoptions)
 * クラス [Presentation](../../presentation)
 * 名前空間 [Aspose.Slides](../../presentation)
@@ -68,27 +68,27 @@ public void Save(string fname, SaveFormat format, ISaveOptions options)
 
 ## Save(Stream, SaveFormat, ISaveOptions) {#save_2}
 
-指定された形式でプレゼンテーションのすべてのスライドをストリームに保存し、追加オプションを適用します。
+プレゼンテーションのすべてのスライドを、指定された形式で、追加オプションとともにストリームに保存します。
 
 ```csharp
 public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 ```
 
-| パラメーター | 型 | 説明 |
+| パラメータ | 型 | 説明 |
 | --- | --- | --- |
 | stream | Stream | 出力ストリーム。 |
-| format | SaveFormat | エクスポートデータの形式。 |
+| format | SaveFormat | エクスポート データの形式。 |
 | options | ISaveOptions | 追加の形式オプション。 |
 
 ### 例外
 
 | 例外 | 条件 |
 | --- | --- |
-| NotSupportedException | Office 2007-2010 形式ではない形式で暗号化されたファイルを保存しようとした場合 |
+| NotSupportedException | Office 2007-2010 形式以外で暗号化されたファイルを保存しようとした場合 |
 
 ### 参照
 
-* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* 列挙体 [SaveFormat](../../../aspose.slides.export/saveformat)
 * インターフェイス [ISaveOptions](../../../aspose.slides.export/isaveoptions)
 * クラス [Presentation](../../presentation)
 * 名前空間 [Aspose.Slides](../../presentation)
@@ -98,13 +98,13 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 
 ## Save(IXamlOptions) {#save}
 
-指定された XAML マークアップを表すファイル群にプレゼンテーションのすべてのスライドを保存します。
+プレゼンテーションのすべてのスライドを、XAML マークアップを表すファイルセットに保存します。
 
 ```csharp
 public void Save(IXamlOptions options)
 ```
 
-| パラメーター | 型 | 説明 |
+| パラメータ | 型 | 説明 |
 | --- | --- | --- |
 | options | IXamlOptions | XAML 形式のオプション。 |
 
@@ -129,29 +129,29 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## Save(string, int[], SaveFormat) {#save_7}
 
-指定された形式でページ番号を保持しながら、プレゼンテーションの特定のスライドをファイルに保存します。
+指定したスライドを、ページ番号を保持したまま、指定された形式でファイルに保存します。
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format)
 ```
 
-| パラメーター | 型 | 説明 |
+| パラメータ | 型 | 説明 |
 | --- | --- | --- |
-| fname | String | 作成されるファイルへのパス。 |
-| slides | Int32[] | 1 から始まるスライド位置の配列。 |
-| format | SaveFormat | エクスポートデータの形式。 |
+| fname | String | 作成されたファイルへのパス。 |
+| slides | Int32[] | スライド位置の配列（1 から開始）。 |
+| format | SaveFormat | エクスポート データの形式。 |
 
 ### 例外
 
 | 例外 | 条件 |
 | --- | --- |
-| ArgumentNullException | stream または slides パラメーターが null のとき。 |
-| ArgumentOutOfRangeException | slides パラメーターに無効なページ番号が含まれるとき。 |
-| InvalidOperationException | PPTX、PPTM、PPSX、PPSM、POTX、POTM、PPT、ODP など、サポートされていない SaveFormat が使用されたとき。 |
+| ArgumentNullException | ストリームまたはスライド パラメータが null のとき。 |
+| ArgumentOutOfRangeException | スライド パラメータに無効なページ番号が含まれているとき。 |
+| InvalidOperationException | サポートされていない SaveFormat が使用されたとき（例：PPTX、PPTM、PPSX、PPSM、POTX、POTM、PPT、ODP）。 |
 
 ### 参照
 
-* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* 列挙体 [SaveFormat](../../../aspose.slides.export/saveformat)
 * クラス [Presentation](../../presentation)
 * 名前空間 [Aspose.Slides](../../presentation)
 * アセンブリ [Aspose.Slides](../../../)
@@ -160,22 +160,22 @@ public void Save(string fname, int[] slides, SaveFormat format)
 
 ## Save(string, int[], SaveFormat, ISaveOptions) {#save_8}
 
-指定された形式でページ番号を保持しながら、プレゼンテーションの特定のスライドをファイルに保存し、追加オプションを適用します。
+指定したスライドを、ページ番号を保持したまま、指定された形式でファイルに保存します。
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions options)
 ```
 
-| パラメーター | 型 | 説明 |
+| パラメータ | 型 | 説明 |
 | --- | --- | --- |
-| fname | String | 作成されるファイルへのパス。 |
-| slides | Int32[] | 1 から始まるスライド位置の配列。 |
-| format | SaveFormat | エクスポートデータの形式。 |
+| fname | String | 作成されたファイルへのパス。 |
+| slides | Int32[] | スライド位置の配列（1 から開始）。 |
+| format | SaveFormat | エクスポート データの形式。 |
 | options | ISaveOptions | 追加の形式オプション。 |
 
 ### 参照
 
-* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* 列挙体 [SaveFormat](../../../aspose.slides.export/saveformat)
 * インターフェイス [ISaveOptions](../../../aspose.slides.export/isaveoptions)
 * クラス [Presentation](../../presentation)
 * 名前空間 [Aspose.Slides](../../presentation)
@@ -185,21 +185,21 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 
 ## Save(Stream, int[], SaveFormat) {#save_3}
 
-指定された形式でページ番号を保持しながら、プレゼンテーションの特定のスライドをストリームに保存します。
+指定したスライドを、ページ番号を保持したまま、指定された形式でストリームに保存します。
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format)
 ```
 
-| パラメーター | 型 | 説明 |
+| パラメータ | 型 | 説明 |
 | --- | --- | --- |
 | stream | Stream | 出力ストリーム。 |
-| slides | Int32[] | 1 から始まるスライド位置の配列。 |
-| format | SaveFormat | エクスポートデータの形式。 |
+| slides | Int32[] | スライド位置の配列（1 から開始）。 |
+| format | SaveFormat | エクスポート データの形式。 |
 
 ### 参照
 
-* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* 列挙体 [SaveFormat](../../../aspose.slides.export/saveformat)
 * クラス [Presentation](../../presentation)
 * 名前空間 [Aspose.Slides](../../presentation)
 * アセンブリ [Aspose.Slides](../../../)
@@ -208,26 +208,26 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 
 ## Save(Stream, int[], SaveFormat, ISaveOptions) {#save_4}
 
-指定された形式でページ番号を保持しながら、プレゼンテーションの特定のスライドをストリームに保存し、追加オプションを適用します。
+指定したスライドを、ページ番号を保持したまま、指定された形式でストリームに保存します。
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions options)
 ```
 
-| パラメーター | 型 | 説明 |
+| パラメータ | 型 | 説明 |
 | --- | --- | --- |
 | stream | Stream | 出力ストリーム。 |
-| slides | Int32[] | 1 から始まるスライド位置の配列。 |
-| format | SaveFormat | エクスポートデータの形式。 |
+| slides | Int32[] | スライド位置の配列（1 から開始）。 |
+| format | SaveFormat | エクスポート データの形式。 |
 | options | ISaveOptions | 追加の形式オプション。 |
 
 ### 例外
 
 | 例外 | 条件 |
 | --- | --- |
-| ArgumentNullException | stream または slides パラメーターが null のとき。 |
-| ArgumentOutOfRangeException | slides パラメーターに無効なページ番号が含まれるとき。 |
-| InvalidOperationException | PPTX、PPTM、PPSX、PPSM、POTX、POTM、PPT、ODP など、サポートされていない SaveFormat が使用されたとき。 |
+| ArgumentNullException | ストリームまたはスライド パラメータが null のとき。 |
+| ArgumentOutOfRangeException | スライド パラメータに無効なページ番号が含まれているとき。 |
+| InvalidOperationException | サポートされていない SaveFormat が使用されたとき（例：PPTX、PPTM、PPSX、PPSM、POTX、POTM、PPT、ODP）。 |
 
 ### 例
 
@@ -278,7 +278,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ### 参照
 
-* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* 列挙体 [SaveFormat](../../../aspose.slides.export/saveformat)
 * インターフェイス [ISaveOptions](../../../aspose.slides.export/isaveoptions)
 * クラス [Presentation](../../presentation)
 * 名前空間 [Aspose.Slides](../../presentation)

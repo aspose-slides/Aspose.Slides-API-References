@@ -1,14 +1,14 @@
 ---
 title: IMathSubscriptElementFactory
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mengizinkan pembuatan IMathSubscriptElement
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Memungkinkan untuk membuat IMathSubscriptElement
 type: docs
-weight: 8480
+weight: 8500
 url: /id/aspose.slides.mathtext/imathsubscriptelementfactory/
 ---
 ## IMathSubscriptElementFactory antarmuka
 
-Mengizinkan pembuatan IMathSubscriptElement
+Memungkinkan untuk membuat IMathSubscriptElement
 
 ```csharp
 public interface IMathSubscriptElementFactory
@@ -20,7 +20,7 @@ public interface IMathSubscriptElementFactory
 | --- | --- |
 | [CreateMathSubscriptElement](../../aspose.slides.mathtext/imathsubscriptelementfactory/createmathsubscriptelement)(IMathElement, IMathElement) | Membuat IMathSubscriptElement |
 
-### Catatan
+### Keterangan
 
 Untuk kompatibilitas COM
 

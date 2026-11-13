@@ -1,9 +1,9 @@
 ---
 title: IMathRadicalFactory
-second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
 description: อนุญาตให้สร้างรากคณิตศาสตร์
 type: docs
-weight: 8440
+weight: 8460
 url: /th/aspose.slides.mathtext/imathradicalfactory/
 ---
 ## IMathRadicalFactory อินเทอร์เฟซ
@@ -22,7 +22,7 @@ public interface IMathRadicalFactory
 
 ### หมายเหตุ
 
-เพื่อความเข้ากันได้กับ COM
+สำหรับความเข้ากันได้ของ COM
 
 ### ดูเพิ่มเติม
 

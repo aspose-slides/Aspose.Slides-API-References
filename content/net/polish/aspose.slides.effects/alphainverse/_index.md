@@ -1,14 +1,14 @@
 ---
 title: AlphaInverse
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Reprezentuje efekt Alpha Inverse. Wartości przezroczystości Alpha są odwracane przez odjęcie od 100.
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Reprezentuje efekt Alpha Inverse. Wartości przezroczystości Alpha są odwracane poprzez odjęcie od 100.
 type: docs
-weight: 2870
+weight: 2890
 url: /pl/aspose.slides.effects/alphainverse/
 ---
 ## AlphaInverse klasa
 
-Reprezentuje efekt Alpha Inverse. Wartości Alpha (przezroczystość) są odwracane przez odjęcie od 100%.
+Reprezentuje efekt Alpha Inverse. Wartości Alpha (przezroczystość) są odwracane poprzez odjęcie od 100%.
 
 ```csharp
 public sealed class AlphaInverse : ImageTransformOperation, IAlphaInverse
@@ -16,16 +16,16 @@ public sealed class AlphaInverse : ImageTransformOperation, IAlphaInverse
 
 ## Właściwości
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umożliwia pobranie podstawowego interfejsu IPresentationComponent. Tylko do odczytu [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Metody
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphainverse/equals)(object) | Określa, czy podany [`AlphaInverse`](../alphainverse) jest równy bieżącemu [`AlphaInverse`](../alphainverse). |
-| [GetEffective](../../aspose.slides.effects/alphainverse/geteffective)() | Pobiera dane efektywnego efektu Alpha Inverse z uwzględnieniem dziedziczenia. |
+| override [Equals](../../aspose.slides.effects/alphainverse/equals)(object) | Określa, czy określony [`AlphaInverse`](../alphainverse) jest równy bieżącemu [`AlphaInverse`](../alphainverse). |
+| [GetEffective](../../aspose.slides.effects/alphainverse/geteffective)() | Pobiera skuteczne dane efektu Alpha Inverse z zastosowanym dziedziczeniem. |
 | override [GetHashCode](../../aspose.slides.effects/alphainverse/gethashcode)() | Służy jako funkcja skrótu dla określonego typu. |
 
 ### Zobacz także

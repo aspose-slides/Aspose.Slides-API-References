@@ -3,7 +3,7 @@ title: IEmptyTransition
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Leerer Folienübergangseffekt.
 type: docs
-weight: 10080
+weight: 10100
 url: /de/aspose.slides.slideshow/iemptytransition/
 ---
 ## IEmptyTransition Schnittstelle
@@ -18,7 +18,7 @@ public interface IEmptyTransition : ITransitionValueBase
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iemptytransition/asitransitionvaluebase) { get; } | Ermöglicht das Abrufen der Basis-ITransitionValueBase-Schnittstelle. Nur lesend [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iemptytransition/asitransitionvaluebase) { get; } | Ermöglicht das Abrufen der Basisschnittstelle ITransitionValueBase. Nur lesbar [`ITransitionValueBase`](../itransitionvaluebase). |
 
 ### Siehe auch
 

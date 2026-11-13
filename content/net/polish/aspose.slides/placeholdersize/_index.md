@@ -3,10 +3,10 @@ title: PlaceholderSize
 second_title: Aspose.Sildes dla .NET referencja API
 description: Reprezentuje rozmiar pola zastępczego.
 type: docs
-weight: 9440
+weight: 9460
 url: /pl/aspose.slides/placeholdersize/
 ---
-## enumeracja PlaceholderSize
+## PlaceholderSize enumeracja
 
 Reprezentuje rozmiar pola zastępczego.
 
@@ -18,9 +18,9 @@ public enum PlaceholderSize : sbyte
 
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
-| Full | `0` | Pełny. |
-| Half | `1` | Połowa. |
-| Quarter | `2` | Ćwierć. |
+| Full | `0` | Full. |
+| Half | `1` | Half. |
+| Quarter | `2` | Quarter. |
 
 ### Zobacz także
 

@@ -3,7 +3,7 @@ title: ImageTransformOperationFactory
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 이미지 변환 작업을 생성할 수 있습니다
 type: docs
-weight: 3590
+weight: 3610
 url: /ko/aspose.slides.effects/imagetransformoperationfactory/
 ---
 ## ImageTransformOperationFactory 클래스
@@ -44,7 +44,7 @@ public class ImageTransformOperationFactory : IImageTransformOperationFactory
 
 ### 비고
 
-COM 호환성을 위한 것입니다.
+COM 호환성을 위해.
 
 ### 참고
 

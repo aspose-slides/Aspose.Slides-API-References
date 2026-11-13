@@ -3,7 +3,7 @@ title: NotesSize
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示备注幻灯片的尺寸。
 type: docs
-weight: 9130
+weight: 9150
 url: /zh/aspose.slides/notessize/
 ---
 ## NotesSize 类
@@ -24,7 +24,7 @@ public class NotesSize : INotesSize
 
 | 名称 | 描述 |
 | --- | --- |
-| [Size](../../aspose.slides/notessize/size) { get; set; } | 返回或设置以点为单位的大小。可读写 SizeF。 |
+| [Size](../../aspose.slides/notessize/size) { get; set; } | 返回或设置以点为单位的大小。读/写 SizeF。 |
 
 ### 另请参见
 

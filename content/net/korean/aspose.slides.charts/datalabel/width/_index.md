@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 제목의 너비를 차트 너비의 비율로 반환하거나 설정합니다. 읽기/쓰기 Single.
+description: 제목의 너비를 차트 너비의 일부 비율로 반환하거나 설정합니다. 읽기/쓰기 Single.
 type: docs
-weight: 150
+weight: 160
 url: /ko/aspose.slides.charts/datalabel/width/
 ---
 ## DataLabel.Width 속성
 
-제목의 너비를 차트 너비의 비율로 반환하거나 설정합니다. 읽기/쓰기 Single.
+제목의 너비를 차트 너비의 일부 비율로 반환하거나 설정합니다. 읽기/쓰기 Single.
 
 ```csharp
 public float Width { get; set; }

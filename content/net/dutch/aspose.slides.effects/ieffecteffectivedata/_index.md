@@ -1,14 +1,14 @@
 ---
 title: IEffectEffectiveData
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Basisklasse voor onveranderlijke objecten die een effect vertegenwoordigen.
+description: Basisklasse voor onmutabele objecten die een effect vertegenwoordigen.
 type: docs
-weight: 3280
+weight: 3300
 url: /nl/aspose.slides.effects/ieffecteffectivedata/
 ---
 ## IEffectEffectiveData interface
 
-Basisklasse voor onveranderlijke objecten die een effect vertegenwoordigen.
+Basisklasse voor onmutabele objecten, die een effect vertegenwoordigen.
 
 ```csharp
 public interface IEffectEffectiveData

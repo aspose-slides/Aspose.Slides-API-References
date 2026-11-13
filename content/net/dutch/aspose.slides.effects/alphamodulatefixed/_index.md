@@ -1,33 +1,33 @@
 ---
 title: AlphaModulateFixed
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt een Alpha Modulate Fixed effect. Effect alpha opacity waarden worden vermenigvuldigd met een vast percentage.
+description: Stelt een Alpha Modulate Fixed effect voor. Effect alpha (doorzichtigheid) waarden worden vermenigvuldigd met een vast percentage.
 type: docs
-weight: 2890
+weight: 2910
 url: /nl/aspose.slides.effects/alphamodulatefixed/
 ---
-## AlphaModulateFixed klasse
+## AlphaModulateFixed class
 
-Represents an Alpha Modulate Fixed effect. Effect alpha (opacity) values are multiplied by a fixed percentage.
+Stelt een Alpha Modulate Fixed effect voor. Effect alpha (doorzichtigheid) waarden worden vermenigvuldigd met een vast percentage.
 
 ```csharp
 public sealed class AlphaModulateFixed : ImageTransformOperation, IAlphaModulateFixed
 ```
 
-## Eigenschappen
+## Properties
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/alphamodulatefixed/amount) { get; set; } | Geeft een hoeveelheid effect in procenten terug. Lezen/Schrijven Single. |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Staat toe om de basis-IPresentationComponent-interface op te halen. Alleen-lezen [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Amount](../../aspose.slides.effects/alphamodulatefixed/amount) { get; set; } | Geeft een hoeveelheid effect in procenten terug. Lezen/schrijven Single. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Staat toe de basis IPresentationComponent interface op te halen. Alleen-lezen [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
-## Methoden
+## Methods
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphamodulatefixed/equals)(object) | Bepaalt of de opgegeven [`AlphaModulateFixed`](../alphamodulatefixed) gelijk is aan de huidige [`AlphaModulateFixed`](../alphamodulatefixed). |
-| [GetEffective](../../aspose.slides.effects/alphamodulatefixed/geteffective)() | Haalt effectieve Alpha Modulate Fixed-effectgegevens op met toegepaste overerving. |
-| override [GetHashCode](../../aspose.slides.effects/alphamodulatefixed/gethashcode)() | Dient als een hash-functie voor een bepaald type. |
+| [GetEffective](../../aspose.slides.effects/alphamodulatefixed/geteffective)() | Haalt effectieve Alpha Modulate Fixed effectgegevens op met de toegepaste overerving. |
+| override [GetHashCode](../../aspose.slides.effects/alphamodulatefixed/gethashcode)() | Dient als hash-functie voor een bepaald type. |
 
 ### Zie ook
 

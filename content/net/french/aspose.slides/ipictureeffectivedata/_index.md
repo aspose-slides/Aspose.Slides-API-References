@@ -1,14 +1,14 @@
 ---
 title: IPictureEffectiveData
-second_title: Référence API Aspose.Sildes pour .NET
-description: Objet immuable contenant les propriétés d'image effectives.
+second_title: Référence d'API Aspose.Sildes pour .NET
+description: Objet immuable qui contient les propriétés effectives de l'image.
 type: docs
-weight: 6640
+weight: 6660
 url: /fr/aspose.slides/ipictureeffectivedata/
 ---
-## interface IPictureEffectiveData
+## IPictureEffectiveData interface
 
-Objet immuable qui contient les propriétés d'image effectives.
+Objet immuable qui contient les propriétés effectives de l'image.
 
 ```csharp
 public interface IPictureEffectiveData
@@ -18,7 +18,7 @@ public interface IPictureEffectiveData
 
 | Nom | Description |
 | --- | --- |
-| [Image](../../aspose.slides/ipictureeffectivedata/image) { get; } | Renvoie l'image incorporée. Lecture seule [`IPPImage`](../ippimage). |
+| [Image](../../aspose.slides/ipictureeffectivedata/image) { get; } | Renvoie l'image intégrée. Lecture seule [`IPPImage`](../ippimage). |
 | [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | Renvoie la collection des effets de transformation d'image. Lecture seule [`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata). |
 | [LinkPathLong](../../aspose.slides/ipictureeffectivedata/linkpathlong) { get; } | Renvoie l'URL de l'image liée. Lecture seule String. |
 

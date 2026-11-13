@@ -1,14 +1,14 @@
 ---
 title: IStringOrDoubleChartValue
 second_title: Aspose.Sildes pro .NET API Reference
-description: "Reprezentuje řetězcovou nebo číselnou hodnotu, která může být uložena v dokumentu pptx prezentace dvěma způsoby: 1) v buňce/buňkách sešitu souvisejícího s grafem; 2) jako literál."
+description: Reprezentuje řetězcovou nebo double hodnotu, která může být uložena v pptx prezentačním dokumentu dvěma způsoby: 1) v buňce/buňkách sešitu souvisejících s grafem; 2) jako doslovná hodnota.
 type: docs
-weight: 2230
+weight: 2250
 url: /cs/aspose.slides.charts/istringordoublechartvalue/
 ---
 ## IStringOrDoubleChartValue rozhraní
 
-Reprezentuje řetězcovou nebo číselnou hodnotu, která může být uložena v dokumentu pptx prezentace dvěma způsoby: 1) v buňce/buňkách sešitu souvisejícího s grafem; 2) jako literál.
+Reprezentuje hodnotu typu string nebo double, která může být uložena v pptx prezentačním dokumentu dvěma způsoby: 1) v buňce/buňkách sešitu souvisejících s grafem; 2) jako doslovná hodnota.
 
 ```csharp
 public interface IStringOrDoubleChartValue : ISingleCellChartValue
@@ -19,14 +19,14 @@ public interface IStringOrDoubleChartValue : ISingleCellChartValue
 | Název | Popis |
 | --- | --- |
 | [AsISingleCellChartValue](../../aspose.slides.charts/istringordoublechartvalue/asisinglecellchartvalue) { get; } | Umožňuje získat základní rozhraní ISingleCellChartValue. Pouze pro čtení [`ISingleCellChartValue`](../isinglecellchartvalue). |
-| [AsLiteralDouble](../../aspose.slides.charts/istringordoublechartvalue/asliteraldouble) { get; set; } | Vrací nebo nastavuje literál double, pokud je vlastnost DataSourceType nastavena na DataSourceType.DoubleLiterals. Čtení/zápis Double. |
-| [AsLiteralString](../../aspose.slides.charts/istringordoublechartvalue/asliteralstring) { get; set; } | Vrací nebo nastavuje literál string, pokud je vlastnost DataSourceType nastavena na DataSourceType.StringLiterals. Čtení/zápis String. |
+| [AsLiteralDouble](../../aspose.slides.charts/istringordoublechartvalue/asliteraldouble) { get; set; } | Vrací nebo nastavuje doslovnou hodnotu double, pokud je vlastnost DataSourceType nastavena na DataSourceType.DoubleLiterals. Čtení/zápis Double. |
+| [AsLiteralString](../../aspose.slides.charts/istringordoublechartvalue/asliteralstring) { get; set; } | Vrací nebo nastavuje doslovnou hodnotu string, pokud je vlastnost DataSourceType nastavena na DataSourceType.StringLiterals. Čtení/zápis String. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [ToDouble](../../aspose.slides.charts/istringordoublechartvalue/todouble)() | Převádí hodnotu na double. |
+| [ToDouble](../../aspose.slides.charts/istringordoublechartvalue/todouble)() | Převede hodnotu na double. |
 
 ### Viz také
 

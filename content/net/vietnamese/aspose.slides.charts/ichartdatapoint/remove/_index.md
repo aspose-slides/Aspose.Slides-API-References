@@ -3,10 +3,10 @@ title: Remove
 second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Xóa DataPoint khỏi chuỗi biểu đồ.
 type: docs
-weight: 200
+weight: 240
 url: /vi/aspose.slides.charts/ichartdatapoint/remove/
 ---
-## IChartDataPoint.Remove phương thức
+## IChartDataPoint.Remove method
 
 Xóa DataPoint khỏi chuỗi biểu đồ.
 
@@ -18,7 +18,7 @@ public void Remove()
 
 | ngoại lệ | điều kiện |
 | --- | --- |
-| [PptxEditException](../../../aspose.slides/pptxeditexception) | Bị ném ra nếu điểm dữ liệu đã được xóa khỏi chuỗi biểu đồ. |
+| [PptxEditException](../../../aspose.slides/pptxeditexception) | Bị ném nếu điểm dữ liệu đã được xóa khỏi chuỗi biểu đồ. |
 
 ### Xem thêm
 

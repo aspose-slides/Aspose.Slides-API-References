@@ -1,14 +1,14 @@
 ---
 title: Video
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示嵌入至簡報中的圖像。
+description: 表示嵌入於簡報中的圖像。
 type: docs
-weight: 11700
+weight: 11720
 url: /zh-hant/aspose.slides/video/
 ---
 ## Video 類別
 
-表示嵌入至簡報中的圖像。
+表示嵌入於簡報中的圖像。
 
 ```csharp
 public class Video : IVideo
@@ -18,14 +18,14 @@ public class Video : IVideo
 
 | 名稱 | 說明 |
 | --- | --- |
-| [BinaryData](../../aspose.slides/video/binarydata) { get; } | 返回音訊資料的副本。若資料量龐大，請考慮使用 [`GetStream`](./getstream) 方法，以防止不必要地將視訊資料載入記憶體，甚至發生 OutOfMemoryException。唯讀 Byte[]. |
-| [ContentType](../../aspose.slides/video/contenttype) { get; } | 返回視訊的 MIME 類型，已在 [`BinaryData`](./binarydata) 中編碼。唯讀 String. |
+| [BinaryData](../../aspose.slides/video/binarydata) { get; } | 傳回音訊資料的副本。若資料量龐大，請考慮使用 [`GetStream`](./getstream) 方法，以免不必要地將影片資料載入記憶體，甚至導致 OutOfMemoryException。唯讀 Byte[]. |
+| [ContentType](../../aspose.slides/video/contenttype) { get; } | 傳回影片的 MIME 類型，由 [`BinaryData`](./binarydata) 編碼。唯讀 String。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [GetStream](../../aspose.slides/video/getstream)() | 返回用於讀取的 Stream。使用 'using' 或在使用後關閉 stream。 |
+| [GetStream](../../aspose.slides/video/getstream)() | 傳回用於讀取的 Stream。使用 'using' 或在使用後關閉 stream。 |
 
 ### 另見
 

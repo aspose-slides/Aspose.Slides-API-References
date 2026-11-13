@@ -3,7 +3,7 @@ title: ISlideSize
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili ukuran dan orientasi slide.
 type: docs
-weight: 7090
+weight: 7110
 url: /id/aspose.slides/islidesize/
 ---
 ## ISlideSize antarmuka
@@ -16,18 +16,18 @@ public interface ISlideSize
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [Orientation](../../aspose.slides/islidesize/orientation) { get; set; } | Mendapatkan atau menetapkan orientasi slide. |
+| [Orientation](../../aspose.slides/islidesize/orientation) { get; set; } | Mendapatkan atau mengatur orientasi slide. |
 | [Size](../../aspose.slides/islidesize/size) { get; } | Mendapatkan dimensi slide dalam poin. |
 | [Type](../../aspose.slides/islidesize/type) { get; } | Mendapatkan tipe ukuran slide. |
 
 ## Metode
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [SetSize](../../aspose.slides/islidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | Menetapkan ukuran slide berdasarkan tipe dan skala konten yang ada. |
-| [SetSize](../../aspose.slides/islidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | Menetapkan dimensi slide secara eksplisit dan skala konten yang ada. |
+| [SetSize](../../aspose.slides/islidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | Mengatur ukuran slide berdasarkan tipe dan menskalakan konten yang ada. |
+| [SetSize](../../aspose.slides/islidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | Mengatur dimensi slide secara eksplisit dan menskalakan konten yang ada. |
 
 ### Lihat Juga
 

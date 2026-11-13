@@ -1,14 +1,14 @@
 ---
 title: ConnectorLock
 second_title: Aspose.Sildes .NET API 参考
-description: 确定在父 Connector 上禁用哪些操作。
+description: 确定父 Connector 上哪些操作被禁用。
 type: docs
-weight: 2680
+weight: 2700
 url: /zh/aspose.slides/connectorlock/
 ---
 ## ConnectorLock 类
 
-确定在父 Connector 上禁用哪些操作。
+确定父 Connector 上哪些操作被禁用。
 
 ```csharp
 public class ConnectorLock : BaseShapeLock, IConnectorLock
@@ -18,19 +18,19 @@ public class ConnectorLock : BaseShapeLock, IConnectorLock
 
 | 名称 | 描述 |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/connectorlock/adjusthandleslocked) { get; set; } | 确定是否禁止更改调整值。可读写 Boolean。 |
-| [ArrowheadsLocked](../../aspose.slides/connectorlock/arrowheadslocked) { get; set; } | 确定是否禁止更改箭头。可读写 Boolean。 |
-| [AspectRatioLocked](../../aspose.slides/connectorlock/aspectratiolocked) { get; set; } | 确定在调整大小时是否必须保持形状的宽高比。可读写 Boolean。 |
+| [AdjustHandlesLocked](../../aspose.slides/connectorlock/adjusthandleslocked) { get; set; } | 确定是否禁止更改调节值。可读写 Boolean。 |
+| [ArrowheadsLocked](../../aspose.slides/connectorlock/arrowheadslocked) { get; set; } | 确定是否禁止更改箭头形状。可读写 Boolean。 |
+| [AspectRatioLocked](../../aspose.slides/connectorlock/aspectratiolocked) { get; set; } | 确定在调整大小时形状是否必须保持宽高比。可读写 Boolean。 |
 | [EditPointsLocked](../../aspose.slides/connectorlock/editpointslocked) { get; set; } | 确定是否禁止直接更改此形状的轮廓。可读写 Boolean。 |
 | [GroupingLocked](../../aspose.slides/connectorlock/groupinglocked) { get; set; } | 确定是否禁止将此形状添加到组中。可读写 Boolean。 |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | 如果所有锁标志均已禁用，则返回 true。只读 Boolean。 |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | 如果所有锁标志均已禁用则返回 true。只读 Boolean。 |
 | [PositionMove](../../aspose.slides/connectorlock/positionmove) { get; set; } | 确定是否禁止移动此形状。可读写 Boolean。 |
 | [RotateLocked](../../aspose.slides/connectorlock/rotatelocked) { get; set; } | 确定是否禁止更改此形状的旋转角度。可读写 Boolean。 |
 | [SelectLocked](../../aspose.slides/connectorlock/selectlocked) { get; set; } | 确定是否禁止选择此形状。可读写 Boolean。 |
 | [ShapeTypeLocked](../../aspose.slides/connectorlock/shapetypelocked) { get; set; } | 确定是否禁止更改形状类型。可读写 Boolean。 |
 | [SizeLocked](../../aspose.slides/connectorlock/sizelocked) { get; set; } | 确定是否禁止调整此形状的大小。可读写 Boolean。 |
 
-### 另请参见
+### 另见
 
 * 类 [BaseShapeLock](../baseshapelock)
 * 接口 [IConnectorLock](../iconnectorlock)

@@ -1,14 +1,14 @@
 ---
 title: CellInvalidReferenceException
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: ข้อยกเว้นที่ถูกโยนเมื่อพบอ้างอิงเซลล์ที่ไม่ถูกต้อง.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: ข้อยกเว้นที่ถูกโยนเมื่อพบการอ้างอิงเซลล์ที่ไม่ถูกต้อง.
 type: docs
-weight: 10720
+weight: 10740
 url: /th/aspose.slides.spreadsheet/cellinvalidreferenceexception/
 ---
 ## CellInvalidReferenceException คลาส
 
-ข้อยกเว้นที่ถูกโยนเมื่อพบอ้างอิงเซลล์ที่ไม่ถูกต้อง.
+ข้อยกเว้นที่ถูกโยนเมื่อพบการอ้างอิงเซลล์ที่ไม่ถูกต้อง.
 
 ```csharp
 public class CellInvalidReferenceException : PptxEditException
@@ -16,18 +16,18 @@ public class CellInvalidReferenceException : PptxEditException
 
 ## คอนสตรัคเตอร์
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
 | [CellInvalidReferenceException](cellinvalidreferenceexception#constructor)() | สร้างอินสแตนซ์ใหม่ของคลาส [`CellInvalidReferenceException`](../cellinvalidreferenceexception). |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_1)(string) | สร้างอินสแตนซ์ใหม่ของคลาส [`CellInvalidReferenceException`](../cellinvalidreferenceexception) พร้อมข้อความแสดงข้อผิดพลาดที่ระบุ. |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_2)(string, Exception) | สร้างอินสแตนซ์ใหม่ของคลาส [`CellInvalidReferenceException`](../cellinvalidreferenceexception) พร้อมข้อความแสดงข้อผิดพลาดที่ระบุและอ้างอิงถึงข้อยกเว้นภายในที่เป็นสาเหตุของข้อยกเว้นนี้. |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_3)(string, string) | สร้างอินสแตนซ์ใหม่ของคลาส [`CellCircularReferenceException`](../cellcircularreferenceexception) พร้อมข้อความแสดงข้อผิดพลาดที่ระบุและอ้างอิงเซลล์ที่ไม่ถูกต้อง. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_1)(string) | สร้างอินสแตนซ์ใหม่ของคลาส [`CellInvalidReferenceException`](../cellinvalidreferenceexception) พร้อมข้อความผิดพลาดที่ระบุ. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_2)(string, Exception) | สร้างอินสแตนซ์ใหม่ของคลาส [`CellInvalidReferenceException`](../cellinvalidreferenceexception) พร้อมข้อความผิดพลาดที่ระบุและอ้างอิงถึงข้อยกเว้นภายในที่เป็นสาเหตุของข้อยกเว้นนี้. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_3)(string, string) | สร้างอินสแตนซ์ใหม่ของคลาส [`CellCircularReferenceException`](../cellcircularreferenceexception) พร้อมข้อความผิดพลาดที่ระบุและอ้างอิงเซลล์ที่ไม่ถูกต้อง. |
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [Reference](../../aspose.slides.spreadsheet/cellinvalidreferenceexception/reference) { get; } | รับค่าอ้างอิงเซลล์ที่ไม่ถูกต้อง. |
+| [Reference](../../aspose.slides.spreadsheet/cellinvalidreferenceexception/reference) { get; } | รับอ้างอิงเซลล์ที่ไม่ถูกต้อง. |
 
 ### ดูเพิ่มเติม
 

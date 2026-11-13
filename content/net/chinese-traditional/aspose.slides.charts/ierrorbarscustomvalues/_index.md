@@ -1,14 +1,14 @@
 ---
 title: IErrorBarsCustomValues
-second_title: Aspose.Sildes for .NET API 參考
-description: 指定誤差條的值。僅在誤差條值類型為 Custom 時使用。
+second_title: Aspose.Sildes .NET API 參考
+description: 指定誤差棒值。僅在錯誤棒值類型為 Custom 時使用。
 type: docs
-weight: 2080
+weight: 2100
 url: /zh-hant/aspose.slides.charts/ierrorbarscustomvalues/
 ---
 ## IErrorBarsCustomValues 介面
 
-指定誤差條的值。僅在誤差條值類型為 Custom 時使用。
+指定誤差棒值。僅在錯誤棒值類型為 Custom 時使用。
 
 ```csharp
 public interface IErrorBarsCustomValues
@@ -18,10 +18,10 @@ public interface IErrorBarsCustomValues
 
 | 名稱 | 說明 |
 | --- | --- |
-| [XMinus](../../aspose.slides.charts/ierrorbarscustomvalues/xminus) { get; } | 指定負方向的誤差條值。若誤差條值類型為 Custom 且允許 ErrorBarsXFormat，則可用。否則此屬性會傳回 null。唯讀 [`IDoubleChartValue`](../idoublechartvalue)。 |
-| [XPlus](../../aspose.slides.charts/ierrorbarscustomvalues/xplus) { get; } | 指定正方向的誤差條值。若誤差條值類型為 Custom 且允許 ErrorBarsXFormat，則可用。否則此屬性會傳回 null。唯讀 [`IDoubleChartValue`](../idoublechartvalue)。 |
-| [YMinus](../../aspose.slides.charts/ierrorbarscustomvalues/yminus) { get; } | 指定負方向的誤差條值。若誤差條值類型為 Custom 且允許 ErrorBarsYFormat，則可用。否則此屬性會傳回 null。唯讀 [`IDoubleChartValue`](../idoublechartvalue)。 |
-| [YPlus](../../aspose.slides.charts/ierrorbarscustomvalues/yplus) { get; } | 指定正方向的誤差條值。若誤差條值類型為 Custom 且允許 ErrorBarsYFormat，則可用。否則此屬性會傳回 null。唯讀 [`IDoubleChartValue`](../idoublechartvalue)。 |
+| [XMinus](../../aspose.slides.charts/ierrorbarscustomvalues/xminus) { get; } | 指定負方向的誤差棒值。如果錯誤棒值類型為 Custom 且允許 ErrorBarsXFormat，則可用。否則此屬性返回 null。唯讀 [`IDoubleChartValue`](../idoublechartvalue)。 |
+| [XPlus](../../aspose.slides.charts/ierrorbarscustomvalues/xplus) { get; } | 指定正方向的誤差棒值。如果錯誤棒值類型為 Custom 且允許 ErrorBarsXFormat，則可用。否則此屬性返回 null。唯讀 [`IDoubleChartValue`](../idoublechartvalue)。 |
+| [YMinus](../../aspose.slides.charts/ierrorbarscustomvalues/yminus) { get; } | 指定負方向的誤差棒值。如果錯誤棒值類型為 Custom 且允許 ErrorBarsYFormat，則可用。否則此屬性返回 null。唯讀 [`IDoubleChartValue`](../idoublechartvalue)。 |
+| [YPlus](../../aspose.slides.charts/ierrorbarscustomvalues/yplus) { get; } | 指定正方向的誤差棒值。如果錯誤棒值類型為 Custom 且允許 ErrorBarsYFormat，則可用。否則此屬性返回 null。唯讀 [`IDoubleChartValue`](../idoublechartvalue)。 |
 
 ### 另請參閱
 

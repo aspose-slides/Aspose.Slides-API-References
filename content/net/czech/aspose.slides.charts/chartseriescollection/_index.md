@@ -3,12 +3,12 @@ title: ChartSeriesCollection
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje kolekci ChartSeries./chartseries
 type: docs
-weight: 1450
+weight: 1460
 url: /cs/aspose.slides.charts/chartseriescollection/
 ---
 ## ChartSeriesCollection třída
 
-Representuje kolekci [`ChartSeries`](../chartseries)
+Reprezentuje kolekci [`ChartSeries`](../chartseries)
 
 ```csharp
 public class ChartSeriesCollection : DomObject<ChartData>, IChartSeriesCollection
@@ -18,10 +18,10 @@ public class ChartSeriesCollection : DomObject<ChartData>, IChartSeriesCollectio
 
 | Název | Popis |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartseriescollection/count) { get; } | Vrací počet objektů v kolekci. Pouze ke čtení Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartseriescollection/issynchronized) { get; } | Vrací hodnotu označující, zda je přístup ke kolekci synchronizován (thread-safe). Pouze ke čtení Boolean. |
-| [Item](../../aspose.slides.charts/chartseriescollection/item) { get; } | Získá prvek na určeném indexu. |
-| [SyncRoot](../../aspose.slides.charts/chartseriescollection/syncroot) { get; } | Vrací kořen synchronizace. Pouze ke čtení Object. |
+| [Count](../../aspose.slides.charts/chartseriescollection/count) { get; } | Vrací počet objektů v kolekci. Pouze pro čtení Int32. |
+| [IsSynchronized](../../aspose.slides.charts/chartseriescollection/issynchronized) { get; } | Vrací hodnotu označující, zda je přístup ke kolekci synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
+| [Item](../../aspose.slides.charts/chartseriescollection/item) { get; } | Získá prvek na zadaném indexu. |
+| [SyncRoot](../../aspose.slides.charts/chartseriescollection/syncroot) { get; } | Vrací kořen synchronizace. Pouze pro čtení Object. |
 
 ## Metody
 
@@ -32,12 +32,12 @@ public class ChartSeriesCollection : DomObject<ChartData>, IChartSeriesCollectio
 | [Add](../../aspose.slides.charts/chartseriescollection/add#add_2)(IChartDataCell, ChartType) | Vytvoří novou řadu grafu z [`ChartDataCell`](../chartdatacell) a přidá ji do kolekce. |
 | [Add](../../aspose.slides.charts/chartseriescollection/add#add_3)(string, ChartType) | Vytvoří novou řadu grafu z hodnoty a přidá ji do kolekce. |
 | [Clear](../../aspose.slides.charts/chartseriescollection/clear)() | Odstraní všechny ovládací prvky z kolekce. |
-| [CopyTo](../../aspose.slides.charts/chartseriescollection/copyto)(Array, int) | Zkopíruje celou kolekci do určeného pole. |
+| [CopyTo](../../aspose.slides.charts/chartseriescollection/copyto)(Array, int) | Kopíruje celou kolekci do určeného pole. |
 | [GetEnumerator](../../aspose.slides.charts/chartseriescollection/getenumerator)() | Vrací enumerátor, který prochází kolekcí. |
-| [IndexOf](../../aspose.slides.charts/chartseriescollection/indexof)(IChartSeries) | Vyhledá určený [`ChartSeries`](../chartseries) a vrátí nulově založený index první výskytu v celé kolekci. |
+| [IndexOf](../../aspose.slides.charts/chartseriescollection/indexof)(IChartSeries) | Vyhledá zadaný [`ChartSeries`](../chartseries) a vrátí nulový index prvního výskytu v celé kolekci |
 | [Insert](../../aspose.slides.charts/chartseriescollection/insert)(int, ChartType) | Vytvoří novou řadu grafu a vloží ji do kolekce. |
-| [Remove](../../aspose.slides.charts/chartseriescollection/remove)(IChartSeries) | Odstraní určenou hodnotu. |
-| [RemoveAt](../../aspose.slides.charts/chartseriescollection/removeat)(int) | Odstraní ActiveX ovládací prvek uložený na určené pozici z kolekce. |
+| [Remove](../../aspose.slides.charts/chartseriescollection/remove)(IChartSeries) | Odstraní zadanou hodnotu. |
+| [RemoveAt](../../aspose.slides.charts/chartseriescollection/removeat)(int) | Odstraní ActiveX ovládací prvek uložený na zadané pozici z kolekce. |
 
 ### Viz také
 

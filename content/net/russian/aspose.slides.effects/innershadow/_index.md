@@ -1,9 +1,9 @@
 ---
 title: InnerShadow
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для .NET API
 description: Представляет эффект внутренней тени.
 type: docs
-weight: 3600
+weight: 3620
 url: /ru/aspose.slides.effects/innershadow/
 ---
 ## InnerShadow класс
@@ -28,8 +28,8 @@ public sealed class InnerShadow : IInnerShadow
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/innershadow/equals)(object) | Определяет, равен ли указанный [`InnerShadow`](../innershadow) текущему [`InnerShadow`](../innershadow). |
-| [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | Получает эффективные данные эффекта Inner Shadow с применённым наследованием. |
-| override [GetHashCode](../../aspose.slides.effects/innershadow/gethashcode)() | Служит в качестве хеш-функции для конкретного типа. |
+| [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | Получает данные эффективного эффекта Inner Shadow с учётом наследования. |
+| override [GetHashCode](../../aspose.slides.effects/innershadow/gethashcode)() | Служит в качестве функции хэширования для определённого типа. |
 
 ### См. также
 

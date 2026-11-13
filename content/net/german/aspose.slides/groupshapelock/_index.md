@@ -1,14 +1,14 @@
 ---
 title: GroupShapeLock
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Bestimmt, welche Vorgänge im übergeordneten GroupShape deaktiviert sind.
+description: Bestimmt, welche Vorgänge für das übergeordnete GroupShape deaktiviert sind.
 type: docs
-weight: 5100
+weight: 5120
 url: /de/aspose.slides/groupshapelock/
 ---
 ## GroupShapeLock Klasse
 
-Bestimmt, welche Vorgänge im übergeordneten GroupShape deaktiviert sind.
+Bestimmt, welche Vorgänge für das übergeordnete GroupShape deaktiviert sind.
 
 ```csharp
 public class GroupShapeLock : BaseShapeLock, IGroupShapeLock
@@ -18,13 +18,13 @@ public class GroupShapeLock : BaseShapeLock, IGroupShapeLock
 
 | Name | Beschreibung |
 | --- | --- |
-| [AspectRatioLocked](../../aspose.slides/groupshapelock/aspectratiolocked) { get; set; } | Bestimmt, ob die Form das Seitenverhältnis beim Ändern der Größe beibehalten muss. Lese/Schreib Boolean. |
+| [AspectRatioLocked](../../aspose.slides/groupshapelock/aspectratiolocked) { get; set; } | Bestimmt, ob die Form beim Skalieren das Seitenverhältnis beibehalten muss. Lese/Schreib Boolean. |
 | [GroupingLocked](../../aspose.slides/groupshapelock/groupinglocked) { get; set; } | Bestimmt, ob das Hinzufügen dieser Form zu einer Gruppe verboten ist. Lese/Schreib Boolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Gibt true zurück, wenn alle Sperr-Flags deaktiviert sind. Nur-Lese Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Gibt true zurück, wenn alle Sperr-Flags deaktiviert sind. Nur-Lesen Boolean. |
 | [PositionLocked](../../aspose.slides/groupshapelock/positionlocked) { get; set; } | Bestimmt, ob das Verschieben dieser Form verboten ist. Lese/Schreib Boolean. |
 | [RotationLocked](../../aspose.slides/groupshapelock/rotationlocked) { get; set; } | Bestimmt, ob das Ändern des Rotationswinkels dieser Form verboten ist. Lese/Schreib Boolean. |
 | [SelectLocked](../../aspose.slides/groupshapelock/selectlocked) { get; set; } | Bestimmt, ob das Auswählen dieser Form verboten ist. Lese/Schreib Boolean. |
-| [SizeLocked](../../aspose.slides/groupshapelock/sizelocked) { get; set; } | Bestimmt, ob das Ändern der Größe dieser Form verboten ist. Lese/Schreib Boolean. |
+| [SizeLocked](../../aspose.slides/groupshapelock/sizelocked) { get; set; } | Bestimmt, ob das Skalieren dieser Form verboten ist. Lese/Schreib Boolean. |
 | [UngroupingLocked](../../aspose.slides/groupshapelock/ungroupinglocked) { get; set; } | Bestimmt, ob das Aufteilen dieses GroupShape verboten ist. Lese/Schreib Boolean. |
 
 ### Siehe auch

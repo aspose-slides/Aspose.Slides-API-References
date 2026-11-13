@@ -1,9 +1,9 @@
 ---
 title: SmartArtNodeCollection
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Sammlung von SmartArt-Knoten dar.
 type: docs
-weight: 10640
+weight: 10660
 url: /de/aspose.slides.smartart/smartartnodecollection/
 ---
 ## SmartArtNodeCollection Klasse
@@ -18,21 +18,21 @@ public sealed class SmartArtNodeCollection : ISmartArtNodeCollection
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides.smartart/smartartnodecollection/count) { get; } | Gibt die Anzahl der Knoten in der Sammlung zurück. Nur-Lesen Int32 Nur-Lesen Int32. |
-| [IsSynchronized](../../aspose.slides.smartart/smartartnodecollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (Thread-sicher) ist. Nur-Lesen Boolean. |
-| [Item](../../aspose.slides.smartart/smartartnodecollection/item) { get; } | Gibt den Knoten nach Index zurück. |
-| [SyncRoot](../../aspose.slides.smartart/smartartnodecollection/syncroot) { get; } | Gibt das Synchronisations-Root zurück. Nur-Lesen Object. |
+| [Count](../../aspose.slides.smartart/smartartnodecollection/count) { get; } | Gibt die Anzahl der Knoten in der Sammlung zurück Nur lesbar Int32 Nur lesbar Int32. |
+| [IsSynchronized](../../aspose.slides.smartart/smartartnodecollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert ist (thread-sicher). Nur lesbar Boolean. |
+| [Item](../../aspose.slides.smartart/smartartnodecollection/item) { get; } | Gibt den Knoten anhand des Index zurück |
+| [SyncRoot](../../aspose.slides.smartart/smartartnodecollection/syncroot) { get; } | Gibt die Synchronisationswurzel zurück. Nur lesbar Object. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
 | [AddNode](../../aspose.slides.smartart/smartartnodecollection/addnode)() | Fügt einen neuen SmartArt-Knoten oder Unterknoten hinzu. |
-| [AddNodeByPosition](../../aspose.slides.smartart/smartartnodecollection/addnodebyposition)(int) | Fügt einen neuen Knoten an der ausgewählten Position der Knotensammlung hinzu. |
-| [CopyTo](../../aspose.slides.smartart/smartartnodecollection/copyto)(Array, int) | Kopiert alle Elemente der Sammlung in das angegebene Array. |
+| [AddNodeByPosition](../../aspose.slides.smartart/smartartnodecollection/addnodebyposition)(int) | Fügt einen neuen Knoten an der ausgewählten Position der Knotensammlung hinzu |
+| [CopyTo](../../aspose.slides.smartart/smartartnodecollection/copyto)(Array, int) | Kopiert alle Elemente aus der Sammlung in das angegebene Array. |
 | [GetEnumerator](../../aspose.slides.smartart/smartartnodecollection/getenumerator)() | Gibt einen Enumerator zurück, der die Sammlung durchläuft. |
-| [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode_1)(int) | Entfernt Knoten oder Unterknoten nach Index. |
-| [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode)(ISmartArtNode) | Entfernt Knoten oder Unterknoten. |
+| [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode_1)(int) | Entfernt einen Knoten oder Unterknoten anhand des Index. |
+| [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode)(ISmartArtNode) | Entfernt einen Knoten oder Unterknoten |
 
 ### Siehe auch
 

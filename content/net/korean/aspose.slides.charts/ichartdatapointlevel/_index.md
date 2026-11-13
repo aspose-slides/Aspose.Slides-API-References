@@ -1,9 +1,9 @@
 ---
 title: IChartDataPointLevel
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 데이터 포인트 레벨을 나타냅니다. Treemap 및 Sunburst 차트에 적용됩니다.
 type: docs
-weight: 1840
+weight: 1860
 url: /ko/aspose.slides.charts/ichartdatapointlevel/
 ---
 ## IChartDataPointLevel 인터페이스
@@ -19,7 +19,7 @@ public interface IChartDataPointLevel
 | 이름 | 설명 |
 | --- | --- |
 | [Format](../../aspose.slides.charts/ichartdatapointlevel/format) { get; } | 데이터 포인트 레벨의 서식 속성을 나타냅니다. 읽기/쓰기 [`IFormat`](../iformat). |
-| [Label](../../aspose.slides.charts/ichartdatapointlevel/label) { get; } | 데이터 포인트 레벨의 데이터 레이블을 나타냅니다. Treemap 및 Sunburst series 유형에 적용됩니다. 읽기 전용 [`IDataLabel`](../idatalabel). |
+| [Label](../../aspose.slides.charts/ichartdatapointlevel/label) { get; } | 데이터 포인트 레벨의 데이터 레이블을 나타냅니다. Treemap 및 Sunburst 시리즈 유형에 적용됩니다. 읽기 전용 [`IDataLabel`](../idatalabel). |
 
 ### 참고
 

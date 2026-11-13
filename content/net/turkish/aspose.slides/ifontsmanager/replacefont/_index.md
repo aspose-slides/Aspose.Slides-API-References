@@ -1,9 +1,9 @@
 ---
 title: ReplaceFont
-second_title: Aspose.Slides için .NET API Referansı
+second_title: Aspose.Sildes .NET için API Referansı
 description: Sunumda yazı tipini değiştir
 type: docs
-weight: 100
+weight: 110
 url: /tr/aspose.slides/ifontsmanager/replacefont/
 ---
 ## ReplaceFont(IFontData, IFontData) {#replacefont}
@@ -16,8 +16,8 @@ public void ReplaceFont(IFontData sourceFont, IFontData destFont)
 
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| sourceFont | IFontData | Source font |
-| destFont | IFontData | Destination font |
+| sourceFont | IFontData | Kaynak yazı tipi |
+| destFont | IFontData | Hedef yazı tipi |
 
 ### Ayrıca Bakınız
 
@@ -30,7 +30,7 @@ public void ReplaceFont(IFontData sourceFont, IFontData destFont)
 
 ## ReplaceFont(IFontSubstRule) {#replacefont_1}
 
-Sunumda yazı tipini, [`IFontSubstRule`](../../ifontsubstrule) içinde sağlanan bilgilerle değiştir
+Sunumda, [`IFontSubstRule`](../../ifontsubstrule) içinde sağlanan bilgiler kullanılarak yazı tipini değiştir
 
 ```csharp
 public void ReplaceFont(IFontSubstRule substRule)
@@ -38,7 +38,7 @@ public void ReplaceFont(IFontSubstRule substRule)
 
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| substRule | IFontSubstRule | Font substitution info |
+| substRule | IFontSubstRule | Yazı tipi değişim bilgisi |
 
 ### Ayrıca Bakınız
 
@@ -51,7 +51,7 @@ public void ReplaceFont(IFontSubstRule substRule)
 
 ## ReplaceFont(IFontSubstRuleCollection) {#replacefont_2}
 
-Sunumda yazı tipini, [`IFontSubstRule`](../../ifontsubstrule) koleksiyonunda sağlanan bilgilerle değiştir
+Sunumda, [`IFontSubstRule`](../../ifontsubstrule) koleksiyonunda sağlanan bilgiler kullanılarak yazı tipini değiştir
 
 ```csharp
 public void ReplaceFont(IFontSubstRuleCollection substRules)
@@ -59,7 +59,7 @@ public void ReplaceFont(IFontSubstRuleCollection substRules)
 
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| substRules | IFontSubstRuleCollection | Font substitution info collection |
+| substRules | IFontSubstRuleCollection | Yazı tipi değişim bilgisi koleksiyonu |
 
 ### Ayrıca Bakınız
 

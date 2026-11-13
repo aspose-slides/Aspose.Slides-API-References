@@ -1,14 +1,14 @@
 ---
 title: IObsoletePresLockingBehaviorWarningInfo
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 이 경고는 사용되지 않는 프레젠테이션 잠금 동작이 사용되고 있음을 나타냅니다.
+description: 이 경고는 오래된 프레젠테이션 잠금 동작이 사용되고 있음을 나타냅니다.
 type: docs
-weight: 11780
+weight: 11800
 url: /ko/aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/
 ---
 ## IObsoletePresLockingBehaviorWarningInfo 인터페이스
 
-이 경고는 사용되지 않는 프레젠테이션 잠금 동작이 사용되고 있음을 나타냅니다.
+이 경고는 오래된 프레젠테이션 잠금 동작이 사용되고 있음을 나타냅니다.
 
 ```csharp
 public interface IObsoletePresLockingBehaviorWarningInfo : IWarningInfo

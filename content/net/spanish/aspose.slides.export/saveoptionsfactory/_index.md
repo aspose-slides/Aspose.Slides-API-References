@@ -1,12 +1,12 @@
 ---
 title: SaveOptionsFactory
-second_title: Aspose.Sildes para la referencia de API .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Permite crear instancias de opciones de guardado
 type: docs
-weight: 4460
+weight: 4480
 url: /es/aspose.slides.export/saveoptionsfactory/
 ---
-## Clase SaveOptionsFactory
+## SaveOptionsFactory clase
 
 Permite crear instancias de opciones de guardado
 
@@ -26,7 +26,7 @@ public class SaveOptionsFactory : ISaveOptionsFactory
 | --- | --- |
 | [CreatePptxOptions](../../aspose.slides.export/saveoptionsfactory/createpptxoptions)() | Crea opciones de guardado PPTX. |
 
-### Comentarios
+### Observaciones
 
 Para compatibilidad con COM.
 

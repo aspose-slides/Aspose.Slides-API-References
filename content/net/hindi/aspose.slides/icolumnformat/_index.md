@@ -1,26 +1,26 @@
 ---
 title: IColumnFormat
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक टेबल कॉलम का प्रारूप दर्शाता है।
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
+description: एक तालिका कॉलम का स्वरूप दर्शाता है।
 type: docs
-weight: 5540
+weight: 5560
 url: /hi/aspose.slides/icolumnformat/
 ---
 ## IColumnFormat इंटरफ़ेस
 
-एक टेबल कॉलम का प्रारूप दर्शाता है।
+एक तालिका कॉलम का स्वरूप दर्शाता है।
 
 ```csharp
 public interface IColumnFormat
 ```
 
-## मेथड्स
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [GetEffective](../../aspose.slides/icolumnformat/geteffective)() | विरासत और तालिका शैलियों के लागू होने के साथ प्रभावी टेबल कॉलम फ़ॉर्मेटिंग गुण प्राप्त करता है। |
+| [GetEffective](../../aspose.slides/icolumnformat/geteffective)() | विरासत और तालिका शैलियों के लागू होने के साथ प्रभावी तालिका कॉलम स्वरूपण गुण प्राप्त करता है। |
 
-### संबंधित देखें
+### देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

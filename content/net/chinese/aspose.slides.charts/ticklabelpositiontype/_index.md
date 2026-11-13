@@ -1,29 +1,29 @@
 ---
 title: TickLabelPositionType
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示在指定轴上刻度标记标签的位置类型。
+description: 表示指定轴上刻度标签的定位类型。
 type: docs
-weight: 2440
+weight: 2460
 url: /zh/aspose.slides.charts/ticklabelpositiontype/
 ---
 ## TickLabelPositionType 枚举
 
-表示指定轴上刻度标签的位置类型。
+表示指定轴上刻度标签的定位类型。
 
 ```csharp
 public enum TickLabelPositionType
 ```
 
-### 值
+### 取值
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| High | `0` | 指定轴标签应位于垂直轴的高端。 |
-| Low | `1` | 指定轴标签应位于垂直轴的低端。 |
-| NextTo | `2` | 指定轴标签应位于轴的旁边。 |
-| None | `3` | 指定轴标签不绘制。 |
+| High | `0` | 指定轴标签位于垂直轴的高端。 |
+| Low | `1` | 指定轴标签位于垂直轴的低端。 |
+| NextTo | `2` | 指定轴标签位于轴的旁边。 |
+| None | `3` | 指定不绘制轴标签。 |
 
-### 另见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 程序集 [Aspose.Slides](../../)

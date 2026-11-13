@@ -1,14 +1,14 @@
 ---
 title: IFlyThroughTransition
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Fly-through dia overgangseffect.
+description: Fly-through diaovergangseffect.
 type: docs
-weight: 10090
+weight: 10110
 url: /nl/aspose.slides.slideshow/iflythroughtransition/
 ---
 ## IFlyThroughTransition interface
 
-Fly-through dia overgangseffect.
+Fly-through diaovergangseffect.
 
 ```csharp
 public interface IFlyThroughTransition : ITransitionValueBase
@@ -18,9 +18,9 @@ public interface IFlyThroughTransition : ITransitionValueBase
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iflythroughtransition/asitransitionvaluebase) { get; } | Hiermee kan de basis ITransitionValueBase interface worden opgehaald. Alleen-lezen [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/iflythroughtransition/direction) { get; set; } | Richting van de overgang. Lezen/schrijven [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [HasBounce](../../aspose.slides.slideshow/iflythroughtransition/hasbounce) { get; set; } | Specificeert dat de beweging van de presentatiedia's tijdens de overgang een rebound bevat. Lezen/schrijven Boolean. |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iflythroughtransition/asitransitionvaluebase) { get; } | Staat toe de basis ITransitionValueBase interface op te halen. Alleen-lezen [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/iflythroughtransition/direction) { get; set; } | Richting van de overgang. Lezen/Schrijven [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [HasBounce](../../aspose.slides.slideshow/iflythroughtransition/hasbounce) { get; set; } | Specificeert dat de beweging van de presentatiedia's tijdens de overgang een stuiter bevat. Lezen/Schrijven Boolean. |
 
 ### Zie ook
 

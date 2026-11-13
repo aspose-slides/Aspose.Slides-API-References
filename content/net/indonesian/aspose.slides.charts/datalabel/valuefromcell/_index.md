@@ -1,14 +1,14 @@
 ---
 title: ValueFromCell
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mendapatkan atau mengatur sel data workbook. Diterapkan jika properti IDataLabelFormat.ShowLabelValueFromCell bernilai true.
+description: Mendapatkan atau mengatur sel data buku kerja. Diterapkan jika IDataLabelFormat.ShowLabelValueFromCell properti bernilai true.
 type: docs
-weight: 140
+weight: 150
 url: /id/aspose.slides.charts/datalabel/valuefromcell/
 ---
 ## DataLabel.ValueFromCell properti
 
-Mendapatkan atau mengatur sel data workbook. Diterapkan jika properti IDataLabelFormat.ShowLabelValueFromCell bernilai true.
+Mendapatkan atau mengatur sel data buku kerja. Diterapkan jika IDataLabelFormat.ShowLabelValueFromCell properti bernilai true.
 
 ```csharp
 public IChartDataCell ValueFromCell { get; set; }

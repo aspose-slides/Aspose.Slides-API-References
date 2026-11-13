@@ -1,14 +1,14 @@
 ---
 title: AlphaCeiling
 second_title: Aspose.Sildes for .NET API リファレンス
-description: Alpha Ceiling 効果を表します。アルファの不透明度が 0 より大きい場合は 100 に変更されます。つまり、部分的に不透明なものはすべて完全に不透明になります。
+description: Alpha Ceiling エフェクトを表します。0 より大きい Alpha の不透明度の値は 100 に変更されます。言い換えれば、部分的に不透明なものはすべて完全に不透明になります。
 type: docs
-weight: 2850
+weight: 2870
 url: /ja/aspose.slides.effects/alphaceiling/
 ---
 ## AlphaCeiling クラス
 
-Alpha Ceiling 効果を表します。アルファ (不透明度) が 0 より大きい値は 100% に変更されます。つまり、部分的に不透明なものはすべて完全に不透明になります。
+Alpha Ceilingエフェクトを表します。0より大きいAlpha（不透明度）値は100%に変更されます。言い換えれば、部分的に不透明なものはすべて完全に不透明になります。
 
 ```csharp
 public sealed class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
@@ -16,16 +16,16 @@ public sealed class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースのIPresentationComponentインターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphaceiling/equals)(object) | 指定された [`AlphaCeiling`](../alphaceiling) が現在の [`AlphaCeiling`](../alphaceiling) と等しいかどうかを判断します。 |
-| [GetEffective](../../aspose.slides.effects/alphaceiling/geteffective)() | 継承が適用された有効な Alpha Ceiling 効果データを取得します。 |
+| [GetEffective](../../aspose.slides.effects/alphaceiling/geteffective)() | 継承が適用された有効なAlpha Ceilingエフェクトデータを取得します。 |
 | override [GetHashCode](../../aspose.slides.effects/alphaceiling/gethashcode)() | 特定の型に対するハッシュ関数として機能します。 |
 
 ### 参照

@@ -1,9 +1,9 @@
 ---
 title: IBackgroundEffectiveData
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Onveranderlijk object dat effectieve achtergrondeigenschappen bevat.
+description: Onveranderlijk object dat effectieve achtergrond eigenschappen bevat.
 type: docs
-weight: 5280
+weight: 5300
 url: /nl/aspose.slides/ibackgroundeffectivedata/
 ---
 ## IBackgroundEffectiveData interface
@@ -19,12 +19,12 @@ public interface IBackgroundEffectiveData : IFillParamSource
 | Naam | Beschrijving |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ibackgroundeffectivedata/asifillparamsource) { get; } | Retourneert IFillParamSource interface. |
-| [EffectFormat](../../aspose.slides/ibackgroundeffectivedata/effectformat) { get; } | Retourneert effectief effectformaat. Alleen-lezen [`IEffectFormatEffectiveData`](../ieffectformateffectivedata). |
-| [FillFormat](../../aspose.slides/ibackgroundeffectivedata/fillformat) { get; } | Retourneert effectief opvulformaat. Alleen-lezen [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [EffectFormat](../../aspose.slides/ibackgroundeffectivedata/effectformat) { get; } | Retourneert effectieve effectindeling. Alleen-lezen [`IEffectFormatEffectiveData`](../ieffectformateffectivedata). |
+| [FillFormat](../../aspose.slides/ibackgroundeffectivedata/fillformat) { get; } | Retourneert effectieve vulindeling. Alleen-lezen [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 
 ### Opmerkingen
 
-Deze interface wordt samen met de [`IBackground`](../ibackground) interface gebruikt om effectieve opmaakwaarden met toegepaste overerving te retourneren.
+Deze interface wordt samen met de [`IBackground`](../ibackground) interface gebruikt om effectieve opmaakwaarden te retourneren met erfenis toegepast.
 
 ### Zie ook
 

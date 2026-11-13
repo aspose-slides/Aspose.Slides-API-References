@@ -1,14 +1,14 @@
 ---
 title: IChartPortionFormat
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt die Formatierungseigenschaften für Diagrammabschnitte dar, die in Diagrammen verwendet werden.
+description: Stellt die Formatierungseigenschaften für Diagrammabschnitte bereit, die in Diagrammen verwendet werden.
 type: docs
-weight: 1920
+weight: 1940
 url: /de/aspose.slides.charts/ichartportionformat/
 ---
 ## IChartPortionFormat Schnittstelle
 
-Stellt die Formatierungseigenschaften für Diagrammabschnitte dar, die in Diagrammen verwendet werden.
+Stellt die Formatierungseigenschaften für Diagrammabschnitte bereit, die in Diagrammen verwendet werden.
 
 ```csharp
 public interface IChartPortionFormat : IBasePortionFormat
@@ -18,7 +18,7 @@ public interface IChartPortionFormat : IBasePortionFormat
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIBasePortionFormat](../../aspose.slides.charts/ichartportionformat/asibaseportionformat) { get; } | Gibt die IBasePortionFormat Schnittstelle zurück. |
+| [AsIBasePortionFormat](../../aspose.slides.charts/ichartportionformat/asibaseportionformat) { get; } | Gibt die Schnittstelle IBasePortionFormat zurück. |
 
 ### Siehe auch
 

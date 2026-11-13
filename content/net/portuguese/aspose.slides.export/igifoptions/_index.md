@@ -1,9 +1,9 @@
 ---
 title: IGifOptions
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Aspose.Sildes para referência da API .NET
 description: Representa as opções de exportação de GIF.
 type: docs
-weight: 3920
+weight: 3940
 url: /pt/aspose.slides.export/igifoptions/
 ---
 ## IGifOptions interface
@@ -22,7 +22,7 @@ public interface IGifOptions : ISaveOptions
 | [DefaultDelay](../../aspose.slides.export/igifoptions/defaultdelay) { get; set; } | Obtém ou define o tempo de atraso padrão [ms]. Este valor será usado se [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) não estiver definido. O valor padrão é 1000. |
 | [ExportHiddenSlides](../../aspose.slides.export/igifoptions/exporthiddenslides) { get; set; } | Determina se os slides ocultos serão exportados. O valor padrão é false. |
 | [FrameSize](../../aspose.slides.export/igifoptions/framesize) { get; set; } | Obtém ou define o tamanho do quadro. |
-| [TransitionFps](../../aspose.slides.export/igifoptions/transitionfps) { get; set; } | Obtém ou define FPS de transição [frames/sec]. O valor padrão é 25. |
+| [TransitionFps](../../aspose.slides.export/igifoptions/transitionfps) { get; set; } | Obtém ou define o FPS da transição [frames/sec] O valor padrão é 25. |
 
 ### Veja Também
 

@@ -1,14 +1,14 @@
 ---
 title: DrawingGuidesCollection
-second_title: Riferimento API di Aspose.Sildes per .NET
-description: Rappresenta una raccolta di guide di disegno regolabili.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta una collezione delle guide di disegno regolabili.
 type: docs
-weight: 2820
+weight: 2840
 url: /it/aspose.slides/drawingguidescollection/
 ---
 ## DrawingGuidesCollection classe
 
-Rappresenta una raccolta di guide di disegno regolabili.
+Rappresenta una collezione delle guide di disegno regolabili.
 
 ```csharp
 public sealed class DrawingGuidesCollection : IDrawingGuidesCollection
@@ -18,17 +18,17 @@ public sealed class DrawingGuidesCollection : IDrawingGuidesCollection
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides/drawingguidescollection/count) { get; } | Restituisce il numero di elementi nella raccolta. Solo lettura Int32. |
+| [Count](../../aspose.slides/drawingguidescollection/count) { get; } | Restituisce il numero di elementi nella collezione. Solo lettura Int32. |
 | [Item](../../aspose.slides/drawingguidescollection/item) { get; } | Restituisce la guida di disegno per indice. Solo lettura [`IDrawingGuide`](../idrawingguide). |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.slides/drawingguidescollection/add)(Orientation, float) | Aggiunge la guida di disegno alla fine della raccolta. |
-| [Clear](../../aspose.slides/drawingguidescollection/clear)() | Rimuove tutti gli elementi dalla raccolta. |
-| [CopyTo](../../aspose.slides/drawingguidescollection/copyto)(IDrawingGuide[], int) | Copia tutti gli elementi dalla raccolta nell'array specificato. |
-| [GetEnumerator](../../aspose.slides/drawingguidescollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la raccolta. |
+| [Add](../../aspose.slides/drawingguidescollection/add)(Orientation, float) | Aggiunge la guida di disegno alla fine della collezione. |
+| [Clear](../../aspose.slides/drawingguidescollection/clear)() | Rimuove tutti gli elementi dalla collezione. |
+| [CopyTo](../../aspose.slides/drawingguidescollection/copyto)(IDrawingGuide[], int) | Copia tutti gli elementi dalla collezione nell'array specificato. |
+| [GetEnumerator](../../aspose.slides/drawingguidescollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la collezione. |
 | [RemoveAt](../../aspose.slides/drawingguidescollection/removeat)(int) | Rimuove la guida di disegno all'indice specificato. |
 
 ### Vedi anche

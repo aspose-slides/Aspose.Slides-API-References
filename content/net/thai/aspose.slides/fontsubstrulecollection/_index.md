@@ -1,42 +1,42 @@
 ---
 title: FontSubstRuleCollection
-second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
-description: แทนคอลเลกชันของการทดแทนแบบอักษร.
+second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
+description: แสดงถึงคอลเลกชันของการแทนฟอนต์.
 type: docs
-weight: 4900
+weight: 4920
 url: /th/aspose.slides/fontsubstrulecollection/
 ---
 ## FontSubstRuleCollection คลาส
 
-แทนคอลเลกชันของการทดแทนแบบอักษร
+แสดงถึงคอลเลกชันของการแทนฟอนต์
 
 ```csharp
 public class FontSubstRuleCollection : IFontSubstRuleCollection
 ```
 
-## คอนสตรัคเตอร์
+## คอนสตรักเตอร์
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [FontSubstRuleCollection](fontsubstrulecollection)() | คอนสตรัคเตอร์เริ่มต้น |
+| [FontSubstRuleCollection](fontsubstrulecollection)() | คอนสตรักเตอร์เริ่มต้น. |
 
 ## คุณสมบัติ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Count](../../aspose.slides/fontsubstrulecollection/count) { get; } | รับจำนวนขององค์ประกอบที่อยู่ในคอลเลกชันจริง ๆ. อ่านอย่างเดียว Int32. |
-| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | คืนค่าที่บ่งชี้ว่าการเข้าถึงคอลเลกชันนี้ถูกซิงโครไนซ์ (ปลอดภัยต่อเธรด) หรือไม่. อ่านอย่างเดียว Boolean. |
+| [Count](../../aspose.slides/fontsubstrulecollection/count) { get; } | รับจำนวนขององค์ประกอบที่อยู่ในคอลเลกชันจริงๆ อ่านอย่างเดียว Int32. |
+| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | ส่งคืนค่าที่ระบุว่าการเข้าถึงคอลเลกชันเป็นแบบซิงโครไนซ์ (ปลอดภัยจากเธรด) อ่านอย่างเดียว Boolean. |
 | [Item](../../aspose.slides/fontsubstrulecollection/item) { get; } | รับองค์ประกอบที่ตำแหน่งที่ระบุ. |
-| [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) { get; } | คืนค่ารากของการซิงโครไนซ์. อ่านอย่างเดียว Object. |
+| [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) { get; } | ส่งคืนรากการซิงโครไนซ์ อ่านอย่างเดียว Object. |
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | เพิ่มกฎการทดแทนแบบอักษรใหม่เข้าไปในคอลเลกชัน |
-| [CopyTo](../../aspose.slides/fontsubstrulecollection/copyto)(Array, int) | คัดลอกทุกองค์ประกอบจากคอลเลกชันไปยังอาร์เรย์ที่ระบุ. |
-| [GetEnumerator](../../aspose.slides/fontsubstrulecollection/getenumerator)() | คืนค่า enumerator ที่วนซ้ำผ่านคอลเลกชัน. |
-| [Remove](../../aspose.slides/fontsubstrulecollection/remove)(IFontSubstRule) | ลบการเกิดขึ้นครั้งแรกของอ็อบเจ็กต์ที่ระบุจากคอลเลกชัน. |
+| [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | เพิ่มกฎการแทนฟอนต์ใหม่ไปยังคอลเลกชัน |
+| [CopyTo](../../aspose.slides/fontsubstrulecollection/copyto)(Array, int) | คัดลอกทุกองค์ประกอบจากคอลเลกชันไปยังอาเรย์ที่ระบุ. |
+| [GetEnumerator](../../aspose.slides/fontsubstrulecollection/getenumerator)() | ส่งคืน enumerator ที่วนซ้ำผ่านคอลเลกชัน. |
+| [Remove](../../aspose.slides/fontsubstrulecollection/remove)(IFontSubstRule) | ลบการเกิดขึ้นครั้งแรกของวัตถุที่ระบุจากคอลเลกชัน. |
 
 ### ดูเพิ่มเติม
 

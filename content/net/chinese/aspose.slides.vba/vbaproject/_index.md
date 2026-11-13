@@ -1,9 +1,9 @@
 ---
 title: VbaProject
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示具有演示文稿宏的 VBA 项目。
+second_title: Aspose.Sildes .NET API 参考
+description: 表示具有演示宏的 VBA 项目。
 type: docs
-weight: 11650
+weight: 11670
 url: /zh/aspose.slides.vba/vbaproject/
 ---
 ## VbaProject 类
@@ -16,25 +16,25 @@ public sealed class VbaProject : IVbaProject
 
 ## 构造函数
 
-| Name | Description |
+| 名称 | 描述 |
 | --- | --- |
-| [VbaProject](vbaproject#constructor)() | 此构造函数从头创建新的 VBA 项目。项目将使用 1252 Windows Latin 1 (ANSI) 代码页创建。 |
+| [VbaProject](vbaproject#constructor)() | 此构造函数从头创建新的 VBA 项目。项目将使用 1252 Windows Latin 1 (ANSI) 代码页创建 |
 | [VbaProject](vbaproject#constructor_1)(byte[]) | 此构造函数从 OLE 容器的二进制表示加载 VBA 项目。 |
 
 ## 属性
 
-| Name | Description |
+| 名称 | 描述 |
 | --- | --- |
-| [IsPasswordProtected](../../aspose.slides.vba/vbaproject/ispasswordprotected) { get; } | 指示 VBAProject 是否受密码保护以查看项目属性。只读 Boolean。 |
-| [Modules](../../aspose.slides.vba/vbaproject/modules) { get; } | 返回 VBA 项目中包含的所有模块的列表。只读 [`IVbaModuleCollection`](../ivbamodulecollection)。 |
-| [Name](../../aspose.slides.vba/vbaproject/name) { get; } | 返回 VBA 项目的名称。只读 String。 |
-| [References](../../aspose.slides.vba/vbaproject/references) { get; } | 返回 VBA 项目中包含的所有引用的列表。只读 [`IVbaReferenceCollection`](../ivbareferencecollection)。 |
+| [IsPasswordProtected](../../aspose.slides.vba/vbaproject/ispasswordprotected) { get; } | 指示 VBAProject 是否受密码保护以查看项目属性。只读 Boolean |
+| [Modules](../../aspose.slides.vba/vbaproject/modules) { get; } | 返回 VBA 项目中包含的所有模块的列表。只读 [`IVbaModuleCollection`](../ivbamodulecollection) |
+| [Name](../../aspose.slides.vba/vbaproject/name) { get; } | 返回 VBA 项目的名称。只读 String |
+| [References](../../aspose.slides.vba/vbaproject/references) { get; } | 返回 VBA 项目中包含的所有引用的列表。只读 [`IVbaReferenceCollection`](../ivbareferencecollection) |
 
 ## 方法
 
-| Name | Description |
+| 名称 | 描述 |
 | --- | --- |
-| [ToBinary](../../aspose.slides.vba/vbaproject/tobinary)() | 返回 VBA 项目的二进制表示（OLE 容器）。 |
+| [ToBinary](../../aspose.slides.vba/vbaproject/tobinary)() | 返回 VBA 项目的二进制表示，作为 OLE 容器 |
 
 ### 另请参阅
 

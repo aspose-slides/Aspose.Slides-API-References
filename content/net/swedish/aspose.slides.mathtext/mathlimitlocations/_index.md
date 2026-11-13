@@ -1,14 +1,14 @@
 ---
 title: MathLimitLocations
 second_title: Aspose.Sildes för .NET API-referens
-description: Placering av gränser subscript/superscript i n-ära operatorer.
+description: Plats för gränser (nedsänkt/upphöjt) i n-ary-operatorer.
 type: docs
-weight: 8840
+weight: 8860
 url: /sv/aspose.slides.mathtext/mathlimitlocations/
 ---
-## MathLimitLocations uppräkning
+## MathLimitLocations enumeration
 
-Placering av gränser (subscript/superscript) i n-ära operatorer.
+Plats för gränser (nedsänkt/upphöjt) i n-ary-operatorer.
 
 ```csharp
 public enum MathLimitLocations

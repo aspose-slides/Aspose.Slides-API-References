@@ -1,12 +1,12 @@
 ---
 title: IPresetShadowEffectiveData
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Objek tak dapat diubah yang mewakili efek Preset Shadow.
 type: docs
-weight: 3490
-url: /id/aspose.slides.effects/ipresetshadoweffectivedata/
+weight: 3510
+url: /id/aspose.slides.effects/ippresetshadoweffectivedata/
 ---
-## IPresetShadowEffectiveData interface
+## IPresetShadowEffectiveData antarmuka
 
 Objek tak dapat diubah yang mewakili efek Preset Shadow.
 
@@ -18,11 +18,11 @@ public interface IPresetShadowEffectiveData : IEffectEffectiveData
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ipresetshadoweffectivedata/asieffecteffectivedata) { get; } | Memungkinkan untuk mendapatkan antarmuka IEffectEffectiveData dasar. Hanya-baca [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Direction](../../aspose.slides.effects/ipresetshadoweffectivedata/direction) { get; } | Arah bayangan. Hanya-baca Single. |
-| [Distance](../../aspose.slides.effects/ipresetshadoweffectivedata/distance) { get; } | Jarak bayangan. Hanya-baca Double. |
-| [Preset](../../aspose.slides.effects/ipresetshadoweffectivedata/preset) { get; } | Preset. Hanya-baca [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
-| [ShadowColor](../../aspose.slides.effects/ipresetshadoweffectivedata/shadowcolor) { get; } | Warna bayangan. Hanya-baca Color. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ipresetshadoweffectivedata/asieffecteffectivedata) { get; } | Memungkinkan mendapatkan antarmuka dasar IEffectEffectiveData. Baca-saja [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Direction](../../aspose.slides.effects/ipresetshadoweffectivedata/direction) { get; } | Arah bayangan. Baca-saja Single. |
+| [Distance](../../aspose.slides.effects/ipresetshadoweffectivedata/distance) { get; } | Jarak bayangan. Baca-saja Double. |
+| [Preset](../../aspose.slides.effects/ipresetshadoweffectivedata/preset) { get; } | Preset. Baca-saja [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
+| [ShadowColor](../../aspose.slides.effects/ipresetshadoweffectivedata/shadowcolor) { get; } | Warna bayangan. Baca-saja Color. |
 
 ### Lihat Juga
 

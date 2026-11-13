@@ -1,14 +1,14 @@
 ---
 title: ISoftEdge
-second_title: Aspose.Sildes .NET API referenciája
-description: Soft Edge hatást reprezentál. Az alakzat szélei elmosódnak, míg a kitöltés nem változik.
+second_title: Aspose.Sildes .NET API Referencia
+description: Soft Edge effektust képvisel. A forma szélei elmosódnak, míg a kitöltés nem érintett.
 type: docs
-weight: 3520
+weight: 3540
 url: /hu/aspose.slides.effects/isoftedge/
 ---
 ## ISoftEdge interfész
 
-Soft Edge effektet képviseli. Az alakzat szélei elmosódnak, míg a kitöltés nem érintett.
+Soft Edge effektust képvisel. A forma szélei elmosódnak, míg a kitöltés nem érintett.
 
 ```csharp
 public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImageTransformOperation
@@ -16,11 +16,11 @@ public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImag
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | Lehetővé teszi az alapszintű IAccessiblePVIObject interfész lekérését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | Lehetővé teszi az alapszintű IImageTransformOperation interfész lekérését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | Megadja a szélekre alkalmazandó elmosódás sugarát. Olvasás/írás Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | Lehetővé teszi az IAccessiblePVIObject interfész alapjának lekérdezését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | Lehetővé teszi az IImageTransformOperation interfész alapjának lekérdezését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | Megadja a szélekre alkalmazandó elmosódás sugarát. Olvasható/írható Double. |
 
 ### Lásd még
 

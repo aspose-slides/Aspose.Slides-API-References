@@ -1,14 +1,14 @@
 ---
 title: IVbaModule
-second_title: Aspose.Sildes a .NET API referenciája
-description: A VBA projektben szereplő modult képviseli.
+second_title: Aspose.Sildes .NET API referencia
+description: A VBA projektben található modult reprezentálja.
 type: docs
-weight: 11530
+weight: 11550
 url: /hu/aspose.slides.vba/ivbamodule/
 ---
 ## IVbaModule interfész
 
-A VBA projekthez tartozó modult képviseli.
+A VBA projektben található modult reprezentálja.
 
 ```csharp
 public interface IVbaModule

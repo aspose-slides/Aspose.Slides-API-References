@@ -1,14 +1,14 @@
 ---
 title: IShapeFrame
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt die Eigenschaften von Shape-Frames dar.
+description: Stellt die Eigenschaften von ShapeFrames dar.
 type: docs
-weight: 7000
+weight: 7020
 url: /de/aspose.slides/ishapeframe/
 ---
 ## IShapeFrame Schnittstelle
 
-Stellt die Eigenschaften des Shape-Frames dar.
+Stellt die Eigenschaften des ShapeFrames dar.
 
 ```csharp
 public interface IShapeFrame : IGenericCloneable<IShapeFrame>
@@ -18,16 +18,16 @@ public interface IShapeFrame : IGenericCloneable<IShapeFrame>
 
 | Name | Beschreibung |
 | --- | --- |
-| [CenterX](../../aspose.slides/ishapeframe/centerx) { get; } | Gibt die X-Koordinate des Mittelpunkts eines Rahmens zurück. Nur lesbar Single. |
-| [CenterY](../../aspose.slides/ishapeframe/centery) { get; } | Gibt die Y-Koordinate des Mittelpunkts eines Rahmens zurück. Nur lesbar Single. |
-| [FlipH](../../aspose.slides/ishapeframe/fliph) { get; } | Bestimmt, ob ein Rahmen horizontal gespiegelt ist. Nur lesbar [`NullableBool`](../nullablebool). |
-| [FlipV](../../aspose.slides/ishapeframe/flipv) { get; } | Bestimmt, ob ein Rahmen vertikal gespiegelt ist. Nur lesbar [`NullableBool`](../nullablebool). |
-| [Height](../../aspose.slides/ishapeframe/height) { get; } | Gibt die Höhe eines Rahmens zurück. Nur lesbar Single. |
-| [Rectangle](../../aspose.slides/ishapeframe/rectangle) { get; } | Gibt die Koordinaten eines Rahmens zurück. Nur lesbar RectangleF. |
-| [Rotation](../../aspose.slides/ishapeframe/rotation) { get; } | Gibt die Anzahl der Grad zurück, um die ein Rahmen um die Z-Achse rotiert ist. Ein positiver Wert steht für eine Drehung im Uhrzeigersinn; ein negativer Wert steht für eine Drehung gegen den Uhrzeigersinn. Nur lesbar Single. |
-| [Width](../../aspose.slides/ishapeframe/width) { get; } | Gibt die Breite eines Rahmens zurück. Nur lesbar Single. |
-| [X](../../aspose.slides/ishapeframe/x) { get; } | Gibt die X-Koordinate der oberen linken Ecke eines Rahmens zurück. Nur lesbar Single. |
-| [Y](../../aspose.slides/ishapeframe/y) { get; } | Gibt die Y-Koordinate der oberen linken Ecke eines Rahmens zurück. Nur lesbar Single. |
+| [CenterX](../../aspose.slides/ishapeframe/centerx) { get; } | Gibt die X-Koordinate des Mittelpunkts eines Frames zurück. Nur-Lesen Single. |
+| [CenterY](../../aspose.slides/ishapeframe/centery) { get; } | Gibt die Y-Koordinate des Mittelpunkts eines Frames zurück. Nur-Lesen Single. |
+| [FlipH](../../aspose.slides/ishapeframe/fliph) { get; } | Bestimmt, ob ein Frame horizontal gespiegelt ist. Nur-Lesen [`NullableBool`](../nullablebool). |
+| [FlipV](../../aspose.slides/ishapeframe/flipv) { get; } | Bestimmt, ob ein Frame vertikal gespiegelt ist. Nur-Lesen [`NullableBool`](../nullablebool). |
+| [Height](../../aspose.slides/ishapeframe/height) { get; } | Gibt die Höhe eines Frames zurück. Nur-Lesen Single. |
+| [Rectangle](../../aspose.slides/ishapeframe/rectangle) { get; } | Gibt die Koordinaten eines Frames zurück. Nur-Lesen RectangleF. |
+| [Rotation](../../aspose.slides/ishapeframe/rotation) { get; } | Gibt die Anzahl der Grad zurück, um die ein Frame um die Z-Achse gedreht ist. Ein positiver Wert bedeutet eine Drehung im Uhrzeigersinn; ein negativer Wert bedeutet eine Drehung gegen den Uhrzeigersinn. Nur-Lesen Single. |
+| [Width](../../aspose.slides/ishapeframe/width) { get; } | Gibt die Breite eines Frames zurück. Nur-Lesen Single. |
+| [X](../../aspose.slides/ishapeframe/x) { get; } | Gibt die X-Koordinate der oberen linken Ecke eines Frames zurück. Nur-Lesen Single. |
+| [Y](../../aspose.slides/ishapeframe/y) { get; } | Gibt die Y-Koordinate der oberen linken Ecke eines Frames zurück. Nur-Lesen Single. |
 
 ### Siehe auch
 

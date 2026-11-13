@@ -1,9 +1,9 @@
 ---
 title: Label
 second_title: Aspose.Sildes for .NET API リファレンス
-description: ラベル。 読み取り専用 IDataLabelaspose.slides.charts/idatalabel.
+description: Label. 読み取り専用 IDataLabelaspose.slides.charts/idatalabel.
 type: docs
-weight: 140
+weight: 180
 url: /ja/aspose.slides.charts/chartdatapoint/label/
 ---
 ## ChartDataPoint.Label プロパティ
@@ -14,7 +14,7 @@ Label. 読み取り専用 [`IDataLabel`](../../idatalabel).
 public IDataLabel Label { get; }
 ```
 
-### 関連項目
+### 参照
 
 * インターフェイス [IDataLabel](../../idatalabel)
 * クラス [ChartDataPoint](../../chartdatapoint)

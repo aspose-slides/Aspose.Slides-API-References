@@ -1,14 +1,14 @@
 ---
 title: IRowFormat
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक तालिका पंक्ति के फ़ॉर्मेट का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: एक तालिका पंक्ति के स्वरूप का प्रतिनिधित्व करता है।
 type: docs
-weight: 6870
+weight: 6890
 url: /hi/aspose.slides/irowformat/
 ---
 ## IRowFormat इंटरफ़ेस
 
-एक तालिका पंक्ति के फ़ॉर्मेट का प्रतिनिधित्व करता है।
+एक तालिका पंक्ति के स्वरूप का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IRowFormat
@@ -18,9 +18,9 @@ public interface IRowFormat
 
 | नाम | विवरण |
 | --- | --- |
-| [GetEffective](../../aspose.slides/irowformat/geteffective)() | विरासत और तालिका शैलियों लागू होने के साथ प्रभावी तालिका पंक्ति फ़ॉर्मेटिंग गुण प्राप्त करता है। |
+| [GetEffective](../../aspose.slides/irowformat/geteffective)() | विरासत और तालिका शैलियों के लागू होने के साथ प्रभावी तालिका पंक्ति स्वरूप गुण प्राप्त करता है। |
 
-### संबंधी देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

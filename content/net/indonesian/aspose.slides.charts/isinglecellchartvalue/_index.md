@@ -1,14 +1,14 @@
 ---
 title: ISingleCellChartValue
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili sel data diagram.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili sel data bagan.
 type: docs
-weight: 2210
+weight: 2230
 url: /id/aspose.slides.charts/isinglecellchartvalue/
 ---
 ## ISingleCellChartValue antarmuka
 
-Mewakili sel data diagram.
+Mewakili sel data bagan.
 
 ```csharp
 public interface ISingleCellChartValue : IBaseChartValue
@@ -16,10 +16,10 @@ public interface ISingleCellChartValue : IBaseChartValue
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/isinglecellchartvalue/ascell) { get; set; } | Mengembalikan atau mengatur sel data diagram. Baca/tulis [`IChartDataCell`](../ichartdatacell). |
-| [AsIBaseChartValue](../../aspose.slides.charts/isinglecellchartvalue/asibasechartvalue) { get; } | Memungkinkan memperoleh antarmuka dasar IBaseChartValue. Baca-saja [`IBaseChartValue`](../ibasechartvalue). |
+| [AsCell](../../aspose.slides.charts/isinglecellchartvalue/ascell) { get; set; } | Mengembalikan atau mengatur sel data bagan. Baca/tulis [`IChartDataCell`](../ichartdatacell). |
+| [AsIBaseChartValue](../../aspose.slides.charts/isinglecellchartvalue/asibasechartvalue) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar IBaseChartValue. Baca-saja [`IBaseChartValue`](../ibasechartvalue). |
 
 ### Lihat Juga
 

@@ -1,14 +1,14 @@
 ---
 title: IPresentationAnimationPlayer
 second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje přehrávač animace. Animace jsou generovány PresentationAnimationsGenerator./presentationanimationsgenerator pomocí její události NewAnimation./presentationanimationsgenerator/newanimation.
+description: Reprezentuje přehrávač animace. Animace jsou generovány PresentationAnimationsGenerator./presentationanimationsgenerator prostřednictvím jeho události NewAnimation./presentationanimationsgenerator/newanimation.
 type: docs
-weight: 4030
+weight: 4050
 url: /cs/aspose.slides.export/ipresentationanimationplayer/
 ---
 ## IPresentationAnimationPlayer rozhraní
 
-Representuje přehrávač animace. Animace jsou generovány [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) pomocí jejího [`NewAnimation`](../presentationanimationsgenerator/newanimation) události.
+Reprezentuje přehrávač animace. Animace jsou generovány [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) prostřednictvím jeho události [`NewAnimation`](../presentationanimationsgenerator/newanimation).
 
 ```csharp
 public interface IPresentationAnimationPlayer
@@ -24,7 +24,7 @@ public interface IPresentationAnimationPlayer
 
 | Název | Popis |
 | --- | --- |
-| [GetFrame](../../aspose.slides.export/ipresentationanimationplayer/getframe)() | Získá snímek pro aktuální časovou pozici předtím nastavenou pomocí metody [`SetTimePosition`](./settimeposition). |
+| [GetFrame](../../aspose.slides.export/ipresentationanimationplayer/getframe)() | Získá snímek pro aktuální časovou pozici dříve nastavenou metodou [`SetTimePosition`](./settimeposition). |
 | [SetTimePosition](../../aspose.slides.export/ipresentationanimationplayer/settimeposition)(double) | Nastaví časovou pozici animace v rámci [`Duration`](./duration). |
 
 ### Příklady

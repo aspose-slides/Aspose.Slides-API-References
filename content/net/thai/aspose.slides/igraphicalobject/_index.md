@@ -1,14 +1,14 @@
 ---
 title: IGraphicalObject
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แสดงถึงอ็อบเจกต์กราฟิกเชิงนามธรรม
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงวัตถุกราฟิกแบบนามธรรม
 type: docs
-weight: 6060
+weight: 6080
 url: /th/aspose.slides/igraphicalobject/
 ---
 ## IGraphicalObject อินเทอร์เฟซ
 
-แสดงถึงอ็อบเจกต์กราฟิกเชิงนามธรรม
+Represents abstract graphical object.
 
 ```csharp
 public interface IGraphicalObject : IShape
@@ -18,11 +18,11 @@ public interface IGraphicalObject : IShape
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIShape](../../aspose.slides/igraphicalobject/asishape) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IShape พื้นฐานได้. อ่านอย่างเดียว [`IShape`](../ishape). |
-| [GraphicalObjectLock](../../aspose.slides/igraphicalobject/graphicalobjectlock) { get; } | ส่งคืนการล็อกของรูปทรง. อ่านอย่างเดียว [`IGraphicalObjectLock`](../igraphicalobjectlock). |
-| [ShapeLock](../../aspose.slides/igraphicalobject/shapelock) { get; } | ส่งคืนการล็อกของรูปทรง. อ่านอย่างเดียว [`IGraphicalObjectLock`](../igraphicalobjectlock). |
+| [AsIShape](../../aspose.slides/igraphicalobject/asishape) { get; } | Allows to get base IShape interface. อ่านอย่างเดียว [`IShape`](../ishape). |
+| [GraphicalObjectLock](../../aspose.slides/igraphicalobject/graphicalobjectlock) { get; } | Returns shape's locks. อ่านอย่างเดียว [`IGraphicalObjectLock`](../igraphicalobjectlock). |
+| [ShapeLock](../../aspose.slides/igraphicalobject/shapelock) { get; } | Returns shape's locks. อ่านอย่างเดียว [`IGraphicalObjectLock`](../igraphicalobjectlock). |
 
-### ดูเพิ่มเติม
+### ดูเพิ่ม
 
 * อินเทอร์เฟซ [IShape](../ishape)
 * เนมสเปซ [Aspose.Slides](../../aspose.slides)

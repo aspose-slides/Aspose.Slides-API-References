@@ -1,14 +1,14 @@
 ---
 title: IPatternFormat
-second_title: Aspose.Sildes の .NET API リファレンス
-description: シェイプを塗りつぶすパターンを表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: シェイプを塗りつぶすためのパターンを表します。
 type: docs
-weight: 6620
+weight: 6640
 url: /ja/aspose.slides/ipatternformat/
 ---
 ## IPatternFormat インターフェイス
 
-シェイプを塗りつぶすパターンを表します。
+シェイプを塗りつぶすためのパターンを表します。
 
 ```csharp
 public interface IPatternFormat
@@ -18,16 +18,16 @@ public interface IPatternFormat
 
 | 名前 | 説明 |
 | --- | --- |
-| [BackColor](../../aspose.slides/ipatternformat/backcolor) { get; } | 背景パターンの色を返します。読み取り専用 [`IColorFormat`](../icolorformat). |
-| [ForeColor](../../aspose.slides/ipatternformat/forecolor) { get; } | 前景パターンの色を返します。読み取り専用 [`IColorFormat`](../icolorformat). |
-| [PatternStyle](../../aspose.slides/ipatternformat/patternstyle) { get; set; } | パターンのスタイルを取得または設定します。読み取り/書き込み [`PatternStyle`](../patternstyle). |
+| [BackColor](../../aspose.slides/ipatternformat/backcolor) { get; } | 背景パターンの色を返します。読み取り専用 [`IColorFormat`](../icolorformat)。 |
+| [ForeColor](../../aspose.slides/ipatternformat/forecolor) { get; } | 前景パターンの色を返します。読み取り専用 [`IColorFormat`](../icolorformat)。 |
+| [PatternStyle](../../aspose.slides/ipatternformat/patternstyle) { get; set; } | パターンスタイルを取得または設定します。読み書き可能 [`PatternStyle`](../patternstyle)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
 | [GetTile](../../aspose.slides/ipatternformat/gettile#gettile)(Color) | パターン塗りつぶし用のタイル画像を作成します。 |
-| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile_1)(Color, Color) | 指定された色でパターン塗りつぶし用のタイル画像を作成します。 |
+| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile_1)(Color, Color) | 指定した色でパターン塗りつぶし用のタイル画像を作成します。 |
 
 ### 参照
 

@@ -1,14 +1,14 @@
 ---
 title: ISoftEdgeEffectiveData
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Objet immuable qui représente un effet de bord doux. Les bords de la forme sont flous tandis que le remplissage n'est pas affecté.
 type: docs
-weight: 3530
+weight: 3550
 url: /fr/aspose.slides.effects/isoftedgeeffectivedata/
 ---
 ## ISoftEdgeEffectiveData interface
 
-Objet immuable qui représente un effet de bord doux. Les bords de la forme sont flous, tandis que le remplissage n’est pas affecté.
+Objet immuable qui représente un effet de bord doux. Les bords de la forme sont flous, tandis que le remplissage n'est pas affecté.
 
 ```csharp
 public interface ISoftEdgeEffectiveData : IEffectEffectiveData
@@ -18,8 +18,8 @@ public interface ISoftEdgeEffectiveData : IEffectEffectiveData
 
 | Nom | Description |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/isoftedgeeffectivedata/asieffecteffectivedata) { get; } | Permet d’obtenir l’interface de base IEffectEffectiveData. Lecture seule [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | Spécifie le rayon du flou à appliquer aux bords. Lecture seule Double. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/isoftedgeeffectivedata/asieffecteffectivedata) { get; } | Permet d'obtenir l'interface IEffectEffectiveData de base. Lecture seule [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | Spécifie le rayon de flou à appliquer aux bords. Lecture seule Double. |
 
 ### Voir aussi
 

@@ -1,9 +1,9 @@
 ---
 title: MathHorizontalAlignment
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 水平对齐
 type: docs
-weight: 8780
+weight: 8800
 url: /zh/aspose.slides.mathtext/mathhorizontalalignment/
 ---
 ## MathHorizontalAlignment 枚举
@@ -14,16 +14,16 @@ url: /zh/aspose.slides.mathtext/mathhorizontalalignment/
 public enum MathHorizontalAlignment
 ```
 
-### 取值
+### 值
 
-| Name | Value | Description |
+| 名称 | 值 | 描述 |
 | --- | --- | --- |
 | NotDefined | `0` | 值未定义 |
-| Left | `1` | Left Justification |
-| Center | `2` | Center |
-| Right | `3` | Right |
+| Left | `1` | 左对齐 |
+| Center | `2` | 居中 |
+| Right | `3` | 右对齐 |
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 程序集 [Aspose.Slides](../../)

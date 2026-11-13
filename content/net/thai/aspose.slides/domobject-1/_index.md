@@ -1,14 +1,14 @@
 ---
 title: DomObjectTParent
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: วัตถุ DOM พื้นฐาน
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: อ็อบเจ็กต์ DOM พื้นฐาน
 type: docs
-weight: 2800
+weight: 2820
 url: /th/aspose.slides/domobject-1/
 ---
-## DomObject<TParent> คลาส
+## DomObject&lt;TParent&gt; คลาส
 
-วัตถุ DOM พื้นฐาน
+อ็อบเจ็กต์ DOM พื้นฐาน
 
 ```csharp
 public abstract class DomObject<TParent>
@@ -16,7 +16,7 @@ public abstract class DomObject<TParent>
 
 | พารามิเตอร์ | คำอธิบาย |
 | --- | --- |
-| TParent | ประเภทของวัตถุ DOM พาเรนท์ |
+| TParent | ประเภทของอ็อบเจ็กต์ DOM พาเรนต์ |
 
 ### ดูเพิ่มเติม
 

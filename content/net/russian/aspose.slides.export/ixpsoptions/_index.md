@@ -1,9 +1,9 @@
 ---
 title: IXpsOptions
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для .NET API справочник
 description: Предоставляет параметры, которые управляют тем, как презентация сохраняется в формате XPS.
 type: docs
-weight: 4200
+weight: 4220
 url: /ru/aspose.slides.export/ixpsoptions/
 ---
 ## IXpsOptions интерфейс
@@ -16,14 +16,14 @@ public interface IXpsOptions : ISaveOptions
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/ixpsoptions/asisaveoptions) { get; } | Возвращает интерфейс ISaveOptions. Только для чтения [`ISaveOptions`](../isaveoptions). |
-| [DrawSlidesFrame](../../aspose.slides.export/ixpsoptions/drawslidesframe) { get; set; } | True, чтобы рисовать черную рамку вокруг каждого слайда. Чтение/запись Boolean. |
-| [SaveMetafilesAsPng](../../aspose.slides.export/ixpsoptions/savemetafilesaspng) { get; set; } | True, чтобы преобразовать все метафайлы, используемые в презентации, в изображения PNG. Чтение/запись Boolean. |
+| [AsISaveOptions](../../aspose.slides.export/ixpsoptions/asisaveoptions) { get; } | Возвращает ISaveOptions интерфейс. Только для чтения [`ISaveOptions`](../isaveoptions). |
+| [DrawSlidesFrame](../../aspose.slides.export/ixpsoptions/drawslidesframe) { get; set; } | True, если нужно рисовать черную рамку вокруг каждого слайда. Чтение/запись Boolean. |
+| [SaveMetafilesAsPng](../../aspose.slides.export/ixpsoptions/savemetafilesaspng) { get; set; } | True, если нужно преобразовать все метафайлы, использованные в презентации, в изображения PNG. Чтение/запись Boolean. |
 | [ShowHiddenSlides](../../aspose.slides.export/ixpsoptions/showhiddenslides) { get; set; } | Указывает, следует ли включать скрытые слайды в сгенерированный документ. По умолчанию `false`. |
 
-### См. также
+### Смотрите также
 
 * интерфейс [ISaveOptions](../isaveoptions)
 * пространство имён [Aspose.Slides.Export](../../aspose.slides.export)

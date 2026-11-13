@@ -1,14 +1,14 @@
 ---
 title: LineArrowheadLength
-second_title: Aspose.Sildes .NET API referencia
-description: A nyílhegy hosszát jelenti.
+second_title: Aspose.Sildes a .NET API referencia
+description: A nyílhegy hosszát jelöli.
 type: docs
-weight: 7730
+weight: 7750
 url: /hu/aspose.slides/linearrowheadlength/
 ---
-## LineArrowheadLength felsorolás
+## LineArrowheadLength enumeráció
 
-Az nyílhegy hosszát jelenti.
+A nyílhegy hosszát jelöli.
 
 ```csharp
 public enum LineArrowheadLength : sbyte

@@ -1,9 +1,9 @@
 ---
 title: ChartLinesFormat
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: グリッドラインの書式プロパティを表します。
 type: docs
-weight: 1410
+weight: 1420
 url: /ja/aspose.slides.charts/chartlinesformat/
 ---
 ## ChartLinesFormat クラス
@@ -19,9 +19,9 @@ public class ChartLinesFormat : IChartLinesFormat
 | 名前 | 説明 |
 | --- | --- |
 | [Effect](../../aspose.slides.charts/chartlinesformat/effect) { get; } | チャートラインで使用されるエフェクトを返します。読み取り専用 [`IEffectFormat`](../../aspose.slides/ieffectformat)。 |
-| [Line](../../aspose.slides.charts/chartlinesformat/line) { get; } | チャートラインの線スタイルプロパティを返します。読み取り専用 [`ILineFormat`](../../aspose.slides/ilineformat)。 |
+| [Line](../../aspose.slides.charts/chartlinesformat/line) { get; } | チャートラインの線スタイル プロパティを返します。読み取り専用 [`ILineFormat`](../../aspose.slides/ilineformat)。 |
 
-### 関連項目
+### 参照
 
 * インターフェイス [IChartLinesFormat](../ichartlinesformat)
 * 名前空間 [Aspose.Slides.Charts](../../aspose.slides.charts)

@@ -3,7 +3,7 @@ title: PresetShadowType
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示阴影效果的预设。
 type: docs
-weight: 9670
+weight: 9690
 url: /zh/aspose.slides/presetshadowtype/
 ---
 ## PresetShadowType 枚举
@@ -14,30 +14,30 @@ url: /zh/aspose.slides/presetshadowtype/
 public enum PresetShadowType
 ```
 
-### 值
+### Values
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
 | TopLeftDropShadow | `0` | 表示左上投影。 |
-| TopLeftLargeDropShadow | `1` | 表示左上大型投影。 |
+| TopLeftLargeDropShadow | `1` | 表示左上大投影。 |
 | BackLeftLongPerspectiveShadow | `2` | 表示后左长透视阴影。 |
 | BackRightLongPerspectiveShadow | `3` | 表示后右长透视阴影。 |
-| TopLeftDoubleDropShadow | `4` | 表示左上双重投影。 |
-| BottomRightSmallDropShadow | `5` | 表示右下小型投影。 |
+| TopLeftDoubleDropShadow | `4` | 表示左上双投影。 |
+| BottomRightSmallDropShadow | `5` | 表示右下小投影。 |
 | FrontLeftLongPerspectiveShadow | `6` | 表示前左长透视阴影。 |
 | FrontRightLongPerspectiveShadow | `7` | 表示前右长透视阴影。 |
-| OuterBoxShadow3D | `8` | 表示外部盒子 3D 阴影。 |
-| InnerBoxShadow3D | `9` | 表示内部盒子 3D 阴影。 |
+| OuterBoxShadow3D | `8` | 表示外部盒子阴影 3D。 |
+| InnerBoxShadow3D | `9` | 表示内部盒子阴影 3D。 |
 | BackCenterPerspectiveShadow | `10` | 表示后中心透视阴影。 |
 | TopRightDropShadow | `11` | 表示右上投影。 |
-| FrontBottomShadow | `12` | 表示前下阴影。 |
+| FrontBottomShadow | `12` | 表示前底部阴影。 |
 | BackLeftPerspectiveShadow | `13` | 表示后左透视阴影。 |
 | BackRightPerspectiveShadow | `14` | 表示后右透视阴影。 |
 | BottomLeftDropShadow | `15` | 表示左下投影。 |
 | BottomRightDropShadow | `16` | 表示右下投影。 |
 | FrontLeftPerspectiveShadow | `17` | 表示前左透视阴影。 |
 | FrontRightPerspectiveShadow | `18` | 表示前右透视阴影。 |
-| TopLeftSmallDropShadow | `19` | 表示左上小型投影。 |
+| TopLeftSmallDropShadow | `19` | 表示左上小投影。 |
 
 ### 另请参见
 

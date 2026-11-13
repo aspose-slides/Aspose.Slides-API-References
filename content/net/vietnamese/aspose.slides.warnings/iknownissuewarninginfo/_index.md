@@ -1,9 +1,9 @@
 ---
 title: IKnownIssueWarningInfo
-second_title: Aspose.Sildes cho .NET Tham chiếu API
+second_title: Tham khảo API Aspose.Sildes cho .NET
 description: Biểu thị một cảnh báo về vấn đề đã biết sẽ không được sửa trong tương lai gần.
 type: docs
-weight: 11760
+weight: 11780
 url: /vi/aspose.slides.warnings/iknownissuewarninginfo/
 ---
 ## IKnownIssueWarningInfo giao diện
@@ -16,7 +16,7 @@ public interface IKnownIssueWarningInfo : IWarningInfo
 
 ## Thuộc tính
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
 | [AsIWarningInfo](../../aspose.slides.warnings/iknownissuewarninginfo/asiwarninginfo) { get; } | Trả về giao diện IWarningInfo. Chỉ đọc [`IWarningInfo`](../iwarninginfo). |
 

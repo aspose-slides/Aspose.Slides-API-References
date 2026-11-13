@@ -1,14 +1,14 @@
 ---
 title: YValue
 second_title: Aspose.Sildes용 .NET API 레퍼런스
-description: 차트 데이터 포인트의 y 값을 반환합니다. 읽기 전용 IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+description: 차트 데이터 포인트의 y 값을 가져옵니다. 읽기 전용 IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 180
+weight: 220
 url: /ko/aspose.slides.charts/ichartdatapoint/yvalue/
 ---
-## IChartDataPoint.YValue property
+## IChartDataPoint.YValue 속성
 
-차트 데이터 포인트의 y 값을 반환합니다. 읽기 전용 [`IDoubleChartValue`](../../idoublechartvalue).
+차트 데이터 포인트의 y 값을 가져옵니다. 읽기 전용 [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue YValue { get; }

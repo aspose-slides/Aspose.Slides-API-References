@@ -3,7 +3,7 @@ title: ISmartArtShape
 second_title: Aspose.Sildes .NET API 参考
 description: 表示 SmartArt 图表中的形状
 type: docs
-weight: 10570
+weight: 10590
 url: /zh/aspose.slides.smartart/ismartartshape/
 ---
 ## ISmartArtShape 接口
@@ -21,7 +21,7 @@ public interface ISmartArtShape : IGeometryShape
 | [AsIGeometryShape](../../aspose.slides.smartart/ismartartshape/asigeometryshape) { get; } | 允许获取基础 IGeometryShape 接口。只读 [`IGeometryShape`](../../aspose.slides/igeometryshape)。 |
 | [TextFrame](../../aspose.slides.smartart/ismartartshape/textframe) { get; } | 返回 SmartArt 形状的文本。只读 [`ITextFrame`](../../aspose.slides/itextframe)。 |
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IGeometryShape](../../aspose.slides/igeometryshape)
 * 命名空间 [Aspose.Slides.SmartArt](../../aspose.slides.smartart)

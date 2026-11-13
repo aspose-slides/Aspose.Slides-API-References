@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions.MarkdownImageSavingHandler
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: Markdown 내보내기 중 비SVG 이미지(비트맵 또는 메타파일)마다 호출됩니다. true를 반환하면 지정된 링크를 사용하고, false를 반환하면 기본 저장 로직을 적용합니다.
+description: Markdown 내보내기 중 SVG가 아닌 각 이미지(비트맵 또는 메타파일)가 호출됩니다. 지정된 링크를 사용하려면 true를 반환하고, 기본 저장 논리를 적용하려면 false를 반환합니다.
 type: docs
-weight: 4260
+weight: 4280
 url: /ko/aspose.slides.export/markdownsaveoptions.markdownimagesavinghandler/
 ---
-## MarkdownSaveOptions.MarkdownImageSavingHandler delegate
+## MarkdownSaveOptions.MarkdownImageSavingHandler 대리자
 
-Markdown 내보내기 중 non-SVG 이미지(비트맵 또는 메타파일)마다 호출됩니다. `true`를 반환하면 지정된 *link*를 사용하고, `false`를 반환하면 기본 저장 로직을 적용합니다.
+Markdown 내보내기 중 SVG가 아닌 각 이미지(비트맵 또는 메타파일)가 호출됩니다. `true`를 반환하면 지정된 *링크*를 사용하고, `false`를 반환하면 기본 저장 로직을 적용합니다.
 
 ```csharp
 public delegate bool MarkdownImageSavingHandler(IImage image, ImageFormat format, ref string link);
@@ -16,11 +16,11 @@ public delegate bool MarkdownImageSavingHandler(IImage image, ImageFormat format
 
 | 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| image | IImage | 내보내는 이미지(비트맵 또는 메타파일). |
+| image | IImage | 내보내는 이미지 (bitmap 또는 metafile). |
 | format | ImageFormat | 이미지 형식. |
-| link | String& | `true`를 반환할 때 사용할 Markdown 링크. |
+| link | String& | 반환값이 `true`일 때 사용할 Markdown 링크. |
 
-### 참조
+### 관련 항목
 
 * 인터페이스 [IImage](../../aspose.slides/iimage)
 * 열거형 [ImageFormat](../../aspose.slides/imageformat)

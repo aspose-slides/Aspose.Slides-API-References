@@ -1,12 +1,12 @@
 ---
 title: HighlightRegex
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Belirtilen renk ile düzenli ifadenin tüm eşleşmelerini vurgular.
 type: docs
-weight: 80
+weight: 90
 url: /tr/aspose.slides/itextframe/highlightregex/
 ---
-## ITextFrame.HighlightRegex metot
+## ITextFrame.HighlightRegex yöntemi
 
 Belirtilen renk ile düzenli ifadenin tüm eşleşmelerini vurgular.
 
@@ -16,13 +16,13 @@ public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallbac
 
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| regex | Regex | Vurgulanacak dizeleri elde etmek için kullanılan düzenli ifade Regex. |
-| highlightColor | Color | Metni vurgulamak için kullanılacak renk. |
-| callback | IFindResultCallback | Arama sonuçlarını almak için kullanılan geri arama nesnesi [`IFindResultCallback`](../../ifindresultcallback). |
+| regex | Regex | Vurgulanacak dizeleri almak için kullanılan düzenli ifade Regex. |
+| highlightColor | Color | Metni vurgulamak için kullanılan renk. |
+| callback | IFindResultCallback | Arama sonuçlarını almak için kullanılan geri çağırma nesnesi [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Örnekler
 
-Aşağıdaki kod örneği, bir TextFrame içinde metni düzenli ifade kullanarak nasıl vurgulayacağınızı gösterir.
+Aşağıdaki kod örneği, bir TextFrame içinde düzenli ifade kullanarak metni nasıl vurgulayacağınızı gösterir.
 
 ```csharp
 [C#]
@@ -35,7 +35,7 @@ using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 }
 ```
 
-### İlgili
+### Ayrıca Bakınız
 
 * arayüz [IFindResultCallback](../../ifindresultcallback)
 * arayüz [ITextFrame](../../itextframe)

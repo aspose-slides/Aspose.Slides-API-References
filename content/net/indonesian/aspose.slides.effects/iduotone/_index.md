@@ -3,7 +3,7 @@ title: IDuotone
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili efek Duotone.
 type: docs
-weight: 3260
+weight: 3280
 url: /id/aspose.slides.effects/iduotone/
 ---
 ## IDuotone antarmuka
@@ -18,8 +18,8 @@ public interface IDuotone : IAccessiblePVIObject<IDuotoneEffectiveData>, IImageT
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iduotone/asiaccessiblepviobject) { get; } | Memungkinkan untuk mendapatkan antarmuka IAccessiblePVIObject dasar. Hanya-baca [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iduotone/asiimagetransformoperation) { get; } | Memungkinkan untuk mendapatkan antarmuka IImageTransformOperation dasar. Hanya-baca [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iduotone/asiaccessiblepviobject) { get; } | Mengizinkan untuk mendapatkan antarmuka IAccessiblePVIObject dasar. Hanya-baca [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iduotone/asiimagetransformoperation) { get; } | Mengizinkan untuk mendapatkan antarmuka IImageTransformOperation dasar. Hanya-baca [`IImageTransformOperation`](../iimagetransformoperation). |
 | [Color1](../../aspose.slides.effects/iduotone/color1) { get; } | Mengembalikan format warna target untuk piksel gelap. Hanya-baca [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Color2](../../aspose.slides.effects/iduotone/color2) { get; } | Mengembalikan format warna target untuk piksel terang. Hanya-baca [`IColorFormat`](../../aspose.slides/icolorformat). |
 

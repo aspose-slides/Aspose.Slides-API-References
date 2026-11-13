@@ -1,14 +1,14 @@
 ---
 title: IFillOverlay
-second_title: Aspose.Sildes für .NET API Referenz
-description: Stellt einen Fill Overlay-Effekt dar. Ein Fill Overlay kann verwendet werden, um eine zusätzliche Füllung für ein Objekt anzugeben und die beiden Füllungen miteinander zu mischen.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt einen Fill Overlay-Effekt dar. Ein Fill Overlay kann verwendet werden, um eine zusätzliche Füllung für ein Objekt anzugeben und die beiden Füllungen zu mischen.
 type: docs
-weight: 3300
+weight: 3320
 url: /de/aspose.slides.effects/ifilloverlay/
 ---
 ## IFillOverlay Schnittstelle
 
-Represents a Fill Overlay effect. A fill overlay may be used to specify an additional fill for an object and blend the two fills together.
+Stellt einen Fill Overlay-Effekt dar. Ein Fill Overlay kann verwendet werden, um eine zusätzliche Füllung für ein Objekt anzugeben und die beiden Füllungen zu mischen.
 
 ```csharp
 public interface IFillOverlay : IAccessiblePVIObject<IFillOverlayEffectiveData>, 
@@ -21,7 +21,7 @@ public interface IFillOverlay : IAccessiblePVIObject<IFillOverlayEffectiveData>,
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ifilloverlay/asiaccessiblepviobject) { get; } | Ermöglicht das Abrufen der Basis-IAccessiblePVIObject-Schnittstelle. Nur lesbar [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ifilloverlay/asiimagetransformoperation) { get; } | Ermöglicht das Abrufen der Basis-IImageTransformOperation-Schnittstelle. Nur lesbar [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Blend](../../aspose.slides.effects/ifilloverlay/blend) { get; set; } | FillBlendMode. Lesen/Schreiben [`FillBlendMode`](../../aspose.slides/fillblendmode). |
+| [Blend](../../aspose.slides.effects/ifilloverlay/blend) { get; set; } | FillBlendMode. Lese-/Schreib [`FillBlendMode`](../../aspose.slides/fillblendmode). |
 | [FillFormat](../../aspose.slides.effects/ifilloverlay/fillformat) { get; } | Fill-Format. Nur lesbar [`IFillFormat`](../../aspose.slides/ifillformat). |
 
 ### Siehe auch

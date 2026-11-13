@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Verwijdert categorie van diagram.
+description: Verwijdert een categorie uit de grafiek.
 type: docs
-weight: 60
+weight: 70
 url: /nl/aspose.slides.charts/ichartcategory/remove/
 ---
 ## IChartCategory.Remove methode
 
-Verwijdert categorie van diagram.
+Verwijdert een categorie uit de grafiek.
 
 ```csharp
 public void Remove()
@@ -16,9 +16,9 @@ public void Remove()
 
 ### Uitzonderingen
 
-| exceptie | conditie |
+| uitzondering | conditie |
 | --- | --- |
-| [PptxEditException](../../../aspose.slides/pptxeditexception) | Wordt gegooid als de categorie al uit het diagram is verwijderd. |
+| [PptxEditException](../../../aspose.slides/pptxeditexception) | Wordt opgegooid als de categorie al uit de grafiek is verwijderd. |
 
 ### Zie ook
 

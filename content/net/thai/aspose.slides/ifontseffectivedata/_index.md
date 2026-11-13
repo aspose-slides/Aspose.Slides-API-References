@@ -1,14 +1,14 @@
 ---
 title: IFontsEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: อ็อบเจ็กต์ไม่เปลี่ยนแปลงที่บรรจุชุดแบบอักษรที่ใช้จริง
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุชุดแบบอักษรที่ใช้จริง
 type: docs
-weight: 5910
+weight: 5930
 url: /th/aspose.slides/ifontseffectivedata/
 ---
 ## IFontsEffectiveData อินเทอร์เฟซ
 
-อ็อบเจ็กต์ไม่เปลี่ยนแปลงซึ่งบรรจุชุดแบบอักษรที่ใช้จริง
+อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุชุดแบบอักษรที่ใช้จริง
 
 ```csharp
 public interface IFontsEffectiveData
@@ -18,9 +18,9 @@ public interface IFontsEffectiveData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/ifontseffectivedata/complexscriptfont) { get; } | ส่งคืนแบบอักษรสคริปต์ที่ซับซ้อน. อ่านอย่างเดียว [`IFontData`](../ifontdata). |
-| [EastAsianFont](../../aspose.slides/ifontseffectivedata/eastasianfont) { get; } | ส่งคืนแบบอักษรเอเชียตะวันออก. อ่านอย่างเดียว [`IFontData`](../ifontdata). |
-| [LatinFont](../../aspose.slides/ifontseffectivedata/latinfont) { get; } | ส่งคืนแบบอักษรละติน. อ่านอย่างเดียว [`IFontData`](../ifontdata). |
+| [ComplexScriptFont](../../aspose.slides/ifontseffectivedata/complexscriptfont) { get; } | คืนค่าแบบอักษรสคริปต์เชิงซ้อน. อ่านอย่างเดียว [`IFontData`](../ifontdata). |
+| [EastAsianFont](../../aspose.slides/ifontseffectivedata/eastasianfont) { get; } | คืนค่าแบบอักษรเอเชียตะวันออก. อ่านอย่างเดียว [`IFontData`](../ifontdata). |
+| [LatinFont](../../aspose.slides/ifontseffectivedata/latinfont) { get; } | คืนค่าแบบอักษรละติน. อ่านอย่างเดียว [`IFontData`](../ifontdata). |
 
 ### หมายเหตุ
 

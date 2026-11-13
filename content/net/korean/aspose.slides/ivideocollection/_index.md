@@ -3,7 +3,7 @@ title: IVideoCollection
 second_title: Aspose.Sildes for .NET API 참조
 description: Video 개체의 컬렉션을 나타냅니다.
 type: docs
-weight: 7370
+weight: 7390
 url: /ko/aspose.slides/ivideocollection/
 ---
 ## IVideoCollection 인터페이스
@@ -24,11 +24,11 @@ public interface IVideoCollection : IGenericCollection<IVideo>
 
 | 이름 | 설명 |
 | --- | --- |
-| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_1)(byte[]) | 바이트 배열에서 비디오를 생성하여 프레젠테이션에 추가합니다. |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_1)(byte[]) | 바이트 배열에서 비디오를 만들어 프레젠테이션에 추가합니다. |
 | [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo)(IVideo) | 다른 프레젠테이션에서 비디오 파일의 복사본을 추가합니다. |
-| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | 스트림에서 비디오를 생성하여 프레젠테이션에 추가합니다. |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | 스트림에서 비디오를 만들어 프레젠테이션에 추가합니다. |
 
-### 자세히 보기
+### 참고
 
 * 인터페이스 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 인터페이스 [IVideo](../ivideo)

@@ -1,14 +1,14 @@
 ---
 title: ICommentAuthor
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 주석 작성자를 나타냅니다.
 type: docs
-weight: 5570
+weight: 5590
 url: /ko/aspose.slides/icommentauthor/
 ---
 ## ICommentAuthor 인터페이스
 
-주석의 작성자를 나타냅니다.
+작성자 주석을 나타냅니다.
 
 ```csharp
 public interface ICommentAuthor
@@ -18,7 +18,7 @@ public interface ICommentAuthor
 
 | 이름 | 설명 |
 | --- | --- |
-| [Comments](../../aspose.slides/icommentauthor/comments) { get; } | 이 작성자가 만든 주석의 컬렉션을 반환합니다. 읽기 전용 [`ICommentCollection`](../icommentcollection). |
+| [Comments](../../aspose.slides/icommentauthor/comments) { get; } | 이 작성자가 만든 주석 컬렉션을 반환합니다. 읽기 전용 [`ICommentCollection`](../icommentcollection). |
 | [Initials](../../aspose.slides/icommentauthor/initials) { get; set; } | 작성자의 이니셜을 반환하거나 설정합니다. 읽기/쓰기 String. |
 | [Name](../../aspose.slides/icommentauthor/name) { get; set; } | 작성자의 이름을 반환하거나 설정합니다. 읽기/쓰기 String. |
 
@@ -26,7 +26,7 @@ public interface ICommentAuthor
 
 | 이름 | 설명 |
 | --- | --- |
-| [Remove](../../aspose.slides/icommentauthor/remove)() | 작성자를 상위 컬렉션에서 제거합니다. |
+| [Remove](../../aspose.slides/icommentauthor/remove)() | 부모 컬렉션에서 작성자를 제거합니다. |
 
 ### 참조
 

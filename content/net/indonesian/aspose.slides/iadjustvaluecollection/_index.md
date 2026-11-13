@@ -3,12 +3,12 @@ title: IAdjustValueCollection
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili koleksi penyesuaian shape.
 type: docs
-weight: 5190
+weight: 5210
 url: /id/aspose.slides/iadjustvaluecollection/
 ---
 ## IAdjustValueCollection antarmuka
 
-Mewakili koleksi penyesuaian shape.
+Mewakili koleksi penyesuaian Shape.
 
 ```csharp
 public interface IAdjustValueCollection : ICollection
@@ -16,10 +16,10 @@ public interface IAdjustValueCollection : ICollection
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [AsICollection](../../aspose.slides/iadjustvaluecollection/asicollection) { get; } | Mengizinkan mendapatkan antarmuka dasar ICollection. Hanya baca ICollection. |
-| [AsIEnumerable](../../aspose.slides/iadjustvaluecollection/asienumerable) { get; } | Mengembalikan antarmuka IEnumerable. Hanya baca IEnumerable. |
+| [AsICollection](../../aspose.slides/iadjustvaluecollection/asicollection) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar ICollection. ICollection hanya-baca. |
+| [AsIEnumerable](../../aspose.slides/iadjustvaluecollection/asienumerable) { get; } | Mengembalikan antarmuka IEnumerable. IEnumerable hanya-baca. |
 | [Item](../../aspose.slides/iadjustvaluecollection/item) { get; } | Mengembalikan penyesuaian berdasarkan indeks. |
 
 ### Lihat Juga

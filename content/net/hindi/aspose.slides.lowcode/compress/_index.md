@@ -1,28 +1,30 @@
 ---
 title: Compress
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: Presentation../aspose.slides/presentation को संपीड़ित करने के लिए अभिप्रेत विधियों के समूह का प्रतिनिधित्व करता है।
+description: Presentation../aspose.slides/presentation को संपीड़ित करने के लिए अभिप्रेत मेथड्स के समूह का प्रतिनिधित्व करता है
 type: docs
-weight: 7870
+weight: 7890
 url: /hi/aspose.slides.lowcode/compress/
 ---
-## Compress क्लास
+## Compress class
 
-[`Presentation`](../../aspose.slides/presentation) को संपीड़ित करने के लिए अभिप्रेत विधियों के समूह का प्रतिनिधित्व करता है।
+[`Presentation`](../../aspose.slides/presentation) को संकुचित करने के लिए अभिप्रेत मेथड्स के समूह का प्रतिनिधित्व करता है।
 
 ```csharp
 public static class Compress
 ```
 
-## विधियां
+## Methods
 
 | नाम | विवरण |
 | --- | --- |
-| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | निहित फ़ॉन्ट्स से अनावश्यक अक्षरों को हटाकर [`Presentation`](../../aspose.slides/presentation) का संपीड़न करता है। |
-| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | अनुपयोगी लेआउट स्लाइड्स को हटाकर [`Presentation`](../../aspose.slides/presentation) का संपीड़न करता है। |
-| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | अनुपयोगी मास्टर स्लाइड्स को हटाकर [`Presentation`](../../aspose.slides/presentation) का संपीड़न करता है। |
+| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | [`Presentation`](../../aspose.slides/presentation) का संपीड़न करता है, एम्बेडेड फ़ॉन्ट्स से उपयोग न किए गए अक्षरों को हटाकर। |
+| static [CompressImages](../../aspose.slides.lowcode/compress/compressimages)(IPresentation, PicturesCompression) | प्रेज़ेंटेशन में चित्रों का रिज़ॉल्यूशन कम करता है और उनके कटे हुए क्षेत्रों को हटाता है, PowerPoint के “Compress Pictures” के समान, जो सभी चित्रों पर लागू होता है। स्लाइड्स, लेआउट स्लाइड्स और मास्टर स्लाइड्स पर चित्रों को प्रोसेस किया जाता है, जिसमें समूह आकारों के भीतर के चित्र और आकारों की पिक्चर फिल्स शामिल हैं। |
+| static [CompressPresentation](../../aspose.slides.lowcode/compress/compresspresentation)(Presentation) | सभी उपलब्ध संपीड़न चरणों को लागू करके प्रेज़ेंटेशन का आकार कम करता है। |
+| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | [`Presentation`](../../aspose.slides/presentation) का संपीड़न करता है, अप्रयुक्त लेआउट स्लाइड्स को हटाकर। |
+| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | [`Presentation`](../../aspose.slides/presentation) का संपीड़न करता है, अप्रयुक्त मास्टर स्लाइड्स को हटाकर। |
 
-### उदाहरण
+### Examples
 
 ```csharp
 using (Presentation pres = new Presentation("pres.pptx"))
@@ -33,7 +35,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### संबंधित देखें
+### See Also
 
 * नामस्थान [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
 * असेंबली [Aspose.Slides](../../)

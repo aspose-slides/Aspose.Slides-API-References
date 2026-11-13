@@ -3,12 +3,12 @@ title: HyperlinkQueries
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Biedt gemakkelijke toegang tot ingesloten hyperlinks.
 type: docs
-weight: 5160
+weight: 5180
 url: /nl/aspose.slides/hyperlinkqueries/
 ---
 ## HyperlinkQueries klasse
 
-Biedt gemakkelijke toegang tot ingesloten hyperlinks.
+Biedt gemakkelijke toegang tot de ingesloten hyperlinks.
 
 ```csharp
 public sealed class HyperlinkQueries : IHyperlinkQueries
@@ -18,9 +18,9 @@ public sealed class HyperlinkQueries : IHyperlinkQueries
 
 | Naam | Beschrijving |
 | --- | --- |
-| [GetAnyHyperlinks](../../aspose.slides/hyperlinkqueries/getanyhyperlinks)() | Haalt alle IHyperlinkContainer-subobjecten op die een niet-null HyperlinkMouseOver bevatten. Met een gegeven IHyperlinkContainer-object kun je de hyperlink beheren (lezen, bijwerken of verwijderen). Zie IHyperlinkContainer interface. |
-| [GetHyperlinkClicks](../../aspose.slides/hyperlinkqueries/gethyperlinkclicks)() | Haalt alle IHyperlinkContainer-subobjecten op die een niet-null HyperlinkClick bevatten. Met een gegeven IHyperlinkContainer-object kun je de hyperlink beheren (lezen, bijwerken of verwijderen). Zie IHyperlinkContainer interface. |
-| [GetHyperlinkMouseOvers](../../aspose.slides/hyperlinkqueries/gethyperlinkmouseovers)() | Haalt alle IHyperlinkContainer-subobjecten op die een niet-null HyperlinkMouseOver bevatten. Met een gegeven IHyperlinkContainer-object kun je de hyperlink beheren (lezen, bijwerken of verwijderen). Zie IHyperlinkContainer interface. |
+| [GetAnyHyperlinks](../../aspose.slides/hyperlinkqueries/getanyhyperlinks)() | Haal alle IHyperlinkContainer subobjecten op die een niet null HyperlinkMouseOver bevatten. Met een gegeven IHyperlinkContainer-object kun je de hyperlink beheren (lezen, bijwerken of verwijderen). Zie IHyperlinkContainer interface. |
+| [GetHyperlinkClicks](../../aspose.slides/hyperlinkqueries/gethyperlinkclicks)() | Haal alle IHyperlinkContainer subobjecten op die een niet null HyperlinkClick bevatten. Met een gegeven IHyperlinkContainer-object kun je de hyperlink beheren (lezen, bijwerken of verwijderen). Zie IHyperlinkContainer interface. |
+| [GetHyperlinkMouseOvers](../../aspose.slides/hyperlinkqueries/gethyperlinkmouseovers)() | Haal alle IHyperlinkContainer subobjecten op die een niet null HyperlinkMouseOver bevatten. Met een gegeven IHyperlinkContainer-object kun je de hyperlink beheren (lezen, bijwerken of verwijderen). Zie IHyperlinkContainer interface. |
 | [RemoveAllHyperlinks](../../aspose.slides/hyperlinkqueries/removeallhyperlinks)() | Verwijdert alle ingesloten HyperlinkClick- en HyperlinkMouseOver-hyperlinks (in alle IHyperlinkContainer-subobjecten). |
 
 ### Zie ook

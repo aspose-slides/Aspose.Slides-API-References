@@ -1,14 +1,14 @@
 ---
 title: IMetered
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Fornisce metodi per impostare la chiave misurata.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Fornisce metodi per impostare la chiave a consumo.
 type: docs
-weight: 6450
+weight: 6470
 url: /it/aspose.slides/imetered/
 ---
 ## IMetered interfaccia
 
-Fornisce metodi per impostare la chiave misurata.
+Fornisce metodi per impostare la chiave a consumo.
 
 ```csharp
 public interface IMetered
@@ -18,7 +18,7 @@ public interface IMetered
 
 | Nome | Descrizione |
 | --- | --- |
-| [SetMeteredKey](../../aspose.slides/imetered/setmeteredkey)(string, string) | Imposta la chiave pubblica e privata misurata. |
+| [SetMeteredKey](../../aspose.slides/imetered/setmeteredkey)(string, string) | Imposta la chiave pubblica e privata a consumo. |
 
 ### Vedi anche
 

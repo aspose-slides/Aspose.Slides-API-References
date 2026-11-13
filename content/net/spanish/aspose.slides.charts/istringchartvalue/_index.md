@@ -1,14 +1,14 @@
 ---
 title: IStringChartValue
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: "Representa un valor de cadena que puede almacenarse en un documento de presentación pptx de dos maneras: 1) en la(s) celda(s) del libro de trabajo relacionado con el gráfico; 2) como valor literal."
+description: Representa un valor de cadena que puede almacenarse en un documento de presentación pptx de dos maneras: 1) en una o varias celdas del libro de trabajo relacionado con el gráfico; 2) como valor literal.
 type: docs
-weight: 2220
+weight: 2240
 url: /es/aspose.slides.charts/istringchartvalue/
 ---
 ## IStringChartValue interfaz
 
-Representa un valor de cadena que puede almacenarse en un documento de presentación pptx de dos maneras: 1) en la(s) celda(s) del libro de trabajo relacionado con el gráfico; 2) como valor literal.
+Representa un valor de cadena que puede almacenarse en un documento de presentación pptx de dos maneras: 1) en una o varias celdas del libro de trabajo relacionado con el gráfico; 2) como valor literal.
 
 ```csharp
 public interface IStringChartValue : IMultipleCellChartValue
@@ -26,7 +26,7 @@ public interface IStringChartValue : IMultipleCellChartValue
 | Nombre | Descripción |
 | --- | --- |
 | [GetCellsAddressInWorkbook](../../aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook)() | Si la propiedad DataSourceType es DataSourceType.Worksheet entonces este método devuelve la dirección de las celdas en el libro de trabajo que representan los datos de cadena. De lo contrario, devuelve una cadena vacía. |
-| [SetFromOneCell](../../aspose.slides.charts/istringchartvalue/setfromonecell)(IChartDataCell) | Establece el valor desde la celda especificada. |
+| [SetFromOneCell](../../aspose.slides.charts/istringchartvalue/setfromonecell)(IChartDataCell) | Establece el valor a partir de la celda especificada. |
 | [ToString](../../aspose.slides.charts/istringchartvalue/tostring)() | Devuelve la representación de cadena. |
 
 ### Ver también

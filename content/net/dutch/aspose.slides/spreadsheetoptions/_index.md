@@ -1,20 +1,20 @@
 ---
 title: SpreadsheetOptions
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt opties voor die kunnen worden gebruikt om extra spreadsheet-gedrag te specificeren.
+description: Stelt opties voor die kunnen worden gebruikt om extra spreadsheetgedrag te specificeren.
 type: docs
-weight: 10740
+weight: 10760
 url: /nl/aspose.slides/spreadsheetoptions/
 ---
 ## SpreadsheetOptions klasse
 
-Stelt opties voor die kunnen worden gebruikt om extra spreadsheet-gedrag te specificeren.
+Stelt opties voor die kunnen worden gebruikt om extra spreadsheetgedrag te specificeren.
 
 ```csharp
 public class SpreadsheetOptions : ISpreadsheetOptions
 ```
 
-## Constructoren
+## Constructors
 
 | Naam | Beschrijving |
 | --- | --- |
@@ -24,8 +24,8 @@ public class SpreadsheetOptions : ISpreadsheetOptions
 
 | Naam | Beschrijving |
 | --- | --- |
-| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | Haalt of stelt de voorkeurcultuur-informatie in voor het berekenen van enkele functies die bedoeld zijn voor gebruik met talen die de double-byte-character-set (DBCS) gebruiken. |
-| [RecoverWorkbookFromChartCache](../../aspose.slides/spreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Als de gegevensbron voor de grafiek een extern werkblad is en deze niet beschikbaar is, wordt deze hersteld vanuit de grafiek-cache. |
+| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | Haalt de voorkeurscultuur-informatie op of stelt deze in voor het berekenen van enkele functies die bedoeld zijn voor gebruik met talen die de dubbel-byte tekenset (DBCS) gebruiken. |
+| [RecoverWorkbookFromChartCache](../../aspose.slides/spreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Als de gegevensbron voor de grafiek een extern werkmap is en deze niet beschikbaar is, wordt deze hersteld uit de grafiekcache. |
 
 ### Zie ook
 

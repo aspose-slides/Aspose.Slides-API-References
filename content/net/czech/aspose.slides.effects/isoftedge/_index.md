@@ -1,14 +1,14 @@
 ---
 title: ISoftEdge
 second_title: Aspose.Sildes pro .NET API referenci
-description: Představuje efekt měkkých hran. Hrany tvaru jsou rozostřeny, zatímco výplň není ovlivněna.
+description: Reprezentuje efekt měkkých okrajů. Okraje tvaru jsou rozmazané, zatímco výplň není ovlivněna.
 type: docs
-weight: 3520
+weight: 3540
 url: /cs/aspose.slides.effects/isoftedge/
 ---
 ## ISoftEdge rozhraní
 
-Představuje efekt měkkých hran. Hrany tvaru jsou rozostřeny, zatímco výplň není ovlivněna.
+Reprezentuje efekt měkkých okrajů. Okraje tvaru jsou rozmazané, zatímco výplň není ovlivněna.
 
 ```csharp
 public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImageTransformOperation
@@ -18,9 +18,9 @@ public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImag
 
 | Název | Popis |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | Umožňuje získat základní rozhraní IAccessiblePVIObject. Pouze ke čtení [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | Umožňuje získat základní rozhraní IImageTransformOperation. Pouze ke čtení [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | Určuje poloměr rozostření, který se použije na okraje. Čtení/zápis Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | Umožňuje získat základní IAccessiblePVIObject rozhraní. Pouze ke čtení [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | Umožňuje získat základní IImageTransformOperation rozhraní. Pouze ke čtení [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | Specifikuje poloměr rozostření, který se použije na okraje. Čtení/zápis Double. |
 
 ### Viz také
 

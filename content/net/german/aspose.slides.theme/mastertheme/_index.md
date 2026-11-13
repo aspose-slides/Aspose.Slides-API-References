@@ -1,14 +1,14 @@
 ---
 title: MasterTheme
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt ein Master-Thema dar.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt ein Master-Theme dar.
 type: docs
-weight: 11430
+weight: 11450
 url: /de/aspose.slides.theme/mastertheme/
 ---
 ## MasterTheme Klasse
 
-Stellt ein Master-Thema dar.
+Stellt ein Master-Theme dar.
 
 ```csharp
 public sealed class MasterTheme : Theme, IMasterTheme
@@ -18,18 +18,18 @@ public sealed class MasterTheme : Theme, IMasterTheme
 
 | Name | Beschreibung |
 | --- | --- |
-| override [ColorScheme](../../aspose.slides.theme/mastertheme/colorscheme) { get; } | Gibt das Farbschema zurück. Nur lesbar [`IColorScheme`](../icolorscheme). |
-| [ExtraColorSchemes](../../aspose.slides.theme/mastertheme/extracolorschemes) { get; } | Gibt die Sammlung zusätzlicher Farbschemas zurück. Diese Schemata beeinflussen das Aussehen der Präsentation nicht, sie können als Hauptfarbschema für eine Folie ausgewählt werden. Nur lesbar [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
-| override [FontScheme](../../aspose.slides.theme/mastertheme/fontscheme) { get; } | Gibt das Schriftartenschema zurück. Nur lesbar [`IFontScheme`](../ifontscheme). |
-| override [FormatScheme](../../aspose.slides.theme/mastertheme/formatscheme) { get; } | Gibt das Formformat-Schema zurück. Nur lesbar [`IFormatScheme`](../iformatscheme). |
-| [Name](../../aspose.slides.theme/mastertheme/name) { get; set; } | Gibt den Namen eines Themas zurück. Lesen/Schreiben String. |
-| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Gibt die übergeordnete Präsentation zurück. Nur lesbar [`IPresentation`](../../aspose.slides/ipresentation). |
+| override [ColorScheme](../../aspose.slides.theme/mastertheme/colorscheme) { get; } | Gibt das Farbschema zurück. Nur-Lesen [`IColorScheme`](../icolorscheme). |
+| [ExtraColorSchemes](../../aspose.slides.theme/mastertheme/extracolorschemes) { get; } | Gibt die Sammlung zusätzlicher Farbschemata zurück. Diese Schemata beeinflussen das Aussehen der Präsentation nicht, sie können als Hauptfarbschema für eine Folie ausgewählt werden. Nur-Lesen [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
+| override [FontScheme](../../aspose.slides.theme/mastertheme/fontscheme) { get; } | Gibt das Schriftartschema zurück. Nur-Lesen [`IFontScheme`](../ifontscheme). |
+| override [FormatScheme](../../aspose.slides.theme/mastertheme/formatscheme) { get; } | Gibt das Formatierungsschema für Formen zurück. Nur-Lesen [`IFormatScheme`](../iformatscheme). |
+| [Name](../../aspose.slides.theme/mastertheme/name) { get; set; } | Gibt den Namen eines Themes zurück. Lesen/Schreiben String. |
+| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Gibt die übergeordnete Präsentation zurück. Nur-Lesen [`IPresentation`](../../aspose.slides/ipresentation). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Liefert die effektiven Theme-Daten unter Anwendung der Vererbung. |
+| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Ruft effektive Themendaten mit angewandter Vererbung ab. |
 
 ### Siehe auch
 

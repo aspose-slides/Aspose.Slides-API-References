@@ -1,14 +1,14 @@
 ---
 title: TransitionSideDirectionType
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft de overgangstypen voor zijrichting weer.
+description: Geeft overgangstypen voor zijrichtingen weer.
 type: docs
-weight: 10420
+weight: 10440
 url: /nl/aspose.slides.slideshow/transitionsidedirectiontype/
 ---
 ## TransitionSideDirectionType enumeratie
 
-Geeft de overgangstypen voor zijrichting weer.
+Geeft overgangstypen voor zijrichtingen weer.
 
 ```csharp
 public enum TransitionSideDirectionType

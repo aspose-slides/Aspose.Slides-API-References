@@ -3,10 +3,10 @@ title: ChartDataWorksheetCollection
 second_title: Aspose.Sildes para .NET Referência da API
 description: Representa a coleção de planilhas da pasta de trabalho de dados do gráfico.
 type: docs
-weight: 1400
+weight: 1410
 url: /pt/aspose.slides.charts/chartdataworksheetcollection/
 ---
-## classe ChartDataWorksheetCollection
+## ChartDataWorksheetCollection classe
 
 Representa a coleção de planilhas da pasta de trabalho de dados do gráfico.
 
@@ -16,19 +16,19 @@ public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
 
 ## Propriedades
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [Count](../../aspose.slides.charts/chartdataworksheetcollection/count) { get; } | Retorna a contagem. Somente leitura Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | Retorna um valor que indica se o acesso à coleção está sincronizado (thread-safe). Somente leitura Boolean. |
+| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | Retorna um valor indicando se o acesso à coleção é sincronizado (thread-safe). Somente leitura Boolean. |
 | [Item](../../aspose.slides.charts/chartdataworksheetcollection/item) { get; } | Retorna a planilha pelo índice. |
 | [SyncRoot](../../aspose.slides.charts/chartdataworksheetcollection/syncroot) { get; } | Retorna uma raiz de sincronização. Somente leitura Object. |
 
 ## Métodos
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
-| [CopyTo](../../aspose.slides.charts/chartdataworksheetcollection/copyto)(Array, int) | Copia para o array especificado. |
-| [GetEnumerator](../../aspose.slides.charts/chartdataworksheetcollection/getenumerator)() | Retorna um enumerador que itera pela coleção. |
+| [CopyTo](../../aspose.slides.charts/chartdataworksheetcollection/copyto)(Array, int) | Copia para a matriz especificada. |
+| [GetEnumerator](../../aspose.slides.charts/chartdataworksheetcollection/getenumerator)() | Retorna um enumerador que itera através da coleção. |
 
 ### Exemplos
 
@@ -47,7 +47,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Ver também
+### Veja Também
 
 * interface [IChartDataWorksheetCollection](../ichartdataworksheetcollection)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)

@@ -1,14 +1,14 @@
 ---
 title: FontStyleType
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Define los estilos de formato que pueden aplicarse al texto.
+description: Define estilos de formato que se pueden aplicar al texto.
 type: docs
-weight: 4870
+weight: 4890
 url: /es/aspose.slides/fontstyletype/
 ---
 ## FontStyleType enumeración
 
-Define los estilos de formato que pueden aplicarse al texto.
+Define estilos de formato que se pueden aplicar al texto.
 
 ```csharp
 [Flags]

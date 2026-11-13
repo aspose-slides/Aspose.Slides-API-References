@@ -1,14 +1,14 @@
 ---
 title: IParagraph
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: テキストの段落を表します。
 type: docs
-weight: 6560
+weight: 6580
 url: /ja/aspose.slides/iparagraph/
 ---
 ## IParagraph インターフェイス
 
-Represents a paragraph of a text.
+テキストの段落を表します。
 
 ```csharp
 public interface IParagraph : ISlideComponent
@@ -22,15 +22,17 @@ public interface IParagraph : ISlideComponent
 | [EndParagraphPortionFormat](../../aspose.slides/iparagraph/endparagraphportionformat) { get; set; } | 最後の部分の後に別の部分が挿入された場合に使用される部分プロパティを指定します。 |
 | [ParagraphFormat](../../aspose.slides/iparagraph/paragraphformat) { get; } | この段落の書式設定オブジェクトを返します。読み取り専用 [`IParagraphFormat`](../iparagraphformat)。 |
 | [Portions](../../aspose.slides/iparagraph/portions) { get; } | テキスト部分のコレクションを返します。読み取り専用 [`IPortionCollection`](../iportioncollection)。 |
-| [Text](../../aspose.slides/iparagraph/text) { get; set; } | 段落のプレーンテキストを取得または設定します。読み書き可能 String. |
+| [Text](../../aspose.slides/iparagraph/text) { get; set; } | 段落のプレーンテキストを取得または設定します。読み書き可能 String。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
+| [GetImage](../../aspose.slides/iparagraph/getimage#getimage)() | 段落の画像を返します。 |
+| [GetImage](../../aspose.slides/iparagraph/getimage#getimage_1)(float, float) | 指定されたスケールで段落の画像を返します。 |
 | [GetLinesCount](../../aspose.slides/iparagraph/getlinescount)() | 段落の行数を取得します。 |
-| [GetRect](../../aspose.slides/iparagraph/getrect)() | 段落を囲む矩形の座標を取得します。矩形には空行を含む、段落内のすべてのテキスト行が含まれます。 |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/iparagraph/joinportionswithsameformatting)() | 同じ書式設定を持つランを結合します。 |
+| [GetRect](../../aspose.slides/iparagraph/getrect)() | 段落を囲む矩形の座標を取得します。矩形には段落内のすべてのテキスト行が含まれ、空行も含まれます。 |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/iparagraph/joinportionswithsameformatting)() | 同じ書式設定のランを結合します。 |
 
 ### 参照
 

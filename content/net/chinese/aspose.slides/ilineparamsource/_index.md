@@ -1,9 +1,9 @@
 ---
 title: ILineParamSource
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 辅助线参数接口。
 type: docs
-weight: 6330
+weight: 6350
 url: /zh/aspose.slides/ilineparamsource/
 ---
 ## ILineParamSource 接口
@@ -14,7 +14,7 @@ url: /zh/aspose.slides/ilineparamsource/
 public interface ILineParamSource
 ```
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

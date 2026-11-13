@@ -1,9 +1,9 @@
 ---
 title: ChartDataCell
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar cell för diagramdata.
+description: Representerar en cell för diagramdata.
 type: docs
-weight: 1320
+weight: 1330
 url: /sv/aspose.slides.charts/chartdatacell/
 ---
 ## ChartDataCell klass
@@ -18,23 +18,23 @@ public class ChartDataCell : IChartDataCell
 
 | Namn | Beskrivning |
 | --- | --- |
-| [ChartDataWorksheet](../../aspose.slides.charts/chartdatacell/chartdataworksheet) { get; } | Hämtar kalkylbladet. Endast läsning [`IChartDataWorksheet`](../ichartdataworksheet). |
-| [Column](../../aspose.slides.charts/chartdatacell/column) { get; } | Returnerar index för kolumnen i kalkylbladet där cellen är placerad. Endast läsning Int32. |
+| [ChartDataWorksheet](../../aspose.slides.charts/chartdatacell/chartdataworksheet) { get; } | Hämtar arbetsbladet. Skrivskyddad [`IChartDataWorksheet`](../ichartdataworksheet). |
+| [Column](../../aspose.slides.charts/chartdatacell/column) { get; } | Returnerar kolumnindex i arbetsbladet där cellen är placerad. Skrivskyddad Int32. |
 | [CustomNumberFormat](../../aspose.slides.charts/chartdatacell/customnumberformat) { get; set; } | Hämtar eller anger det anpassade visningsformatet för tal och datum. Om värdet är tomt används PresetNumberFormat-värdet. Läs/skriv String. |
 | [Formula](../../aspose.slides.charts/chartdatacell/formula) { get; set; } | Hämtar eller anger formeln i A1-stil. |
-| [IsHidden](../../aspose.slides.charts/chartdatacell/ishidden) { get; } | Bestämmer om cellen är gömd. Endast läsning Boolean. |
-| [PresetNumberFormat](../../aspose.slides.charts/chartdatacell/presetnumberformat) { get; set; } | Hämtar eller anger det inbyggda visningsformatet för tal och datum. Förinställt nummer måste vara i [0..22] eller [37..49]. Läs/skriv Byte. |
+| [IsHidden](../../aspose.slides.charts/chartdatacell/ishidden) { get; } | Avgör om cellen är dold. Skrivskyddad Boolean. |
+| [PresetNumberFormat](../../aspose.slides.charts/chartdatacell/presetnumberformat) { get; set; } | Hämtar eller anger det inbyggda visningsformatet för tal och datum. Förinställt nummer måste ligga i [0..22] eller [37..49]. Läs/skriv Byte. |
 | [R1C1Formula](../../aspose.slides.charts/chartdatacell/r1c1formula) { get; set; } | Hämtar eller anger formeln i R1C1-stil. |
-| [Row](../../aspose.slides.charts/chartdatacell/row) { get; } | Returnerar index för raden i kalkylbladet där cellen är placerad. Endast läsning Int32. |
+| [Row](../../aspose.slides.charts/chartdatacell/row) { get; } | Returnerar radindex i arbetsbladet där cellen är placerad. Skrivskyddad Int32. |
 | [Value](../../aspose.slides.charts/chartdatacell/value) { get; set; } | Hämtar eller anger värdet på en cell. Läs/skriv Object. |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Calculate](../../aspose.slides.charts/chartdatacell/calculate)(bool) | Om cellen innehåller en formel kommer värdet att uppdateras baserat på den formeln. |
+| [Calculate](../../aspose.slides.charts/chartdatacell/calculate)(bool) | Om cellen innehåller en formel uppdateras värdet baserat på den formeln. |
 
-### Se också
+### Se även
 
 * gränssnitt [IChartDataCell](../ichartdatacell)
 * namnrymd [Aspose.Slides.Charts](../../aspose.slides.charts)

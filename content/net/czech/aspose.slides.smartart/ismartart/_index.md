@@ -3,10 +3,10 @@ title: ISmartArt
 second_title: Aspose.Sildes pro .NET API Reference
 description: Představuje diagram SmartArt.
 type: docs
-weight: 10540
+weight: 10560
 url: /cs/aspose.slides.smartart/ismartart/
 ---
-## ISmartArt rozhraní
+## rozhraní ISmartArt
 
 Představuje diagram SmartArt.
 
@@ -20,11 +20,11 @@ public interface ISmartArt : IGraphicalObject
 | --- | --- |
 | [AllNodes](../../aspose.slides.smartart/ismartart/allnodes) { get; } | Vrací kolekce všech uzlů v objektu SmartArt. Pouze pro čtení [`ISmartArtNodeCollection`](../ismartartnodecollection). |
 | [AsIGraphicalObject](../../aspose.slides.smartart/ismartart/asigraphicalobject) { get; } | Umožňuje získat základní rozhraní IGraphicalObject. Pouze pro čtení [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
-| [ColorStyle](../../aspose.slides.smartart/ismartart/colorstyle) { get; set; } | Vrací nebo nastavuje barevný styl objektu SmartArt. Čtení/zápis [`SmartArtColorType`](../smartartcolortype). |
-| [IsReversed](../../aspose.slides.smartart/ismartart/isreversed) { get; set; } | Vrací nebo nastavuje stav diagramu SmartArt z hlediska (zleva doprava) LTR nebo (zprava doleva) RTL, pokud diagram podporuje obrácení. Čtení/zápis Boolean. |
-| [Layout](../../aspose.slides.smartart/ismartart/layout) { get; set; } | Vrací nebo nastavuje rozložení objektu SmartArt. Čtení/zápis [`SmartArtLayoutType`](../smartartlayouttype). |
+| [ColorStyle](../../aspose.slides.smartart/ismartart/colorstyle) { get; set; } | Vrátí nebo nastaví styl barvy objektu SmartArt. Čtení a zápis [`SmartArtColorType`](../smartartcolortype). |
+| [IsReversed](../../aspose.slides.smartart/ismartart/isreversed) { get; set; } | Vrátí nebo nastaví stav diagramu SmartArt s ohledem na (zleva doprava) LTR nebo (zprava doleva) RTL, pokud diagram podporuje obrácení. Čtení a zápis Boolean. |
+| [Layout](../../aspose.slides.smartart/ismartart/layout) { get; set; } | Vrátí nebo nastaví rozvržení objektu SmartArt. Čtení a zápis [`SmartArtLayoutType`](../smartartlayouttype). |
 | [Nodes](../../aspose.slides.smartart/ismartart/nodes) { get; } | Vrací kolekce kořenových uzlů v objektu SmartArt. Pouze pro čtení [`ISmartArtNodeCollection`](../ismartartnodecollection). |
-| [QuickStyle](../../aspose.slides.smartart/ismartart/quickstyle) { get; set; } | Vrací nebo nastavuje rychlý styl objektu SmartArt. Čtení/zápis [`SmartArtQuickStyleType`](../smartartquickstyletype). |
+| [QuickStyle](../../aspose.slides.smartart/ismartart/quickstyle) { get; set; } | Vrátí nebo nastaví rychlý styl objektu SmartArt. Čtení a zápis [`SmartArtQuickStyleType`](../smartartquickstyletype). |
 
 ### Viz také
 

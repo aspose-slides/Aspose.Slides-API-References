@@ -1,14 +1,14 @@
 ---
 title: HandleRepeatedSpaces
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Specificeert hoe herhaalde gewone spatie-tekens moeten worden behandeld tijdens Markdown-export.
+description: Specificeert hoe herhaalde reguliere spatiekarakters moeten worden behandeld tijdens Markdown-export.
 type: docs
-weight: 3830
+weight: 3850
 url: /nl/aspose.slides.export/handlerepeatedspaces/
 ---
 ## HandleRepeatedSpaces enumeratie
 
-Specificeert hoe herhaalde gewone spatie-tekens moeten worden behandeld tijdens Markdown-export.
+Specificeert hoe herhaalde reguliere spatiekarakters moeten worden behandeld tijdens Markdown-export.
 
 ```csharp
 public enum HandleRepeatedSpaces
@@ -18,7 +18,7 @@ public enum HandleRepeatedSpaces
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| None | `0` | Alle spaties worden bewaard als reguliere spatie-tekens zonder enige wijziging. Er wordt geen transformatie toegepast, en meerdere opeenvolgende spaties worden geëxporteerd zoals ze zijn. |
+| None | `0` | Alle spaties worden bewaard als reguliere spatiekarakters zonder enige wijziging. Er wordt geen transformatie toegepast en meerdere opeenvolgende spaties worden ongewijzigd geëxporteerd. |
 | AlternateSpacesToNbsp | `1` |  |
 | MultipleSpacesToNbsp | `2` |  |
 

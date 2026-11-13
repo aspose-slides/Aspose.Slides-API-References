@@ -1,27 +1,27 @@
 ---
 title: DoubleChartValue
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: "डबल मान का प्रतिनिधित्व करता है जिसे pptx प्रस्तुति दस्तावेज़ में दो तरीकों से संग्रहीत किया जा सकता है: 1) चार्ट से संबंधित वर्कबुक की सेल/सेल्स में, 2) लिटरल मान के रूप में।"
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: pptx प्रस्तुति दस्तावेज़ में दो तरीकों से डबल मान को संग्रहीत किया जा सकता है: 1) चार्ट से संबंधित workbook की cell/cells में; 2) एक लिटरल मान के रूप में.
 type: docs
-weight: 1630
+weight: 1640
 url: /hi/aspose.slides.charts/doublechartvalue/
 ---
-## DoubleChartValue क्लास
+## DoubleChartValue वर्ग
 
-दोहरे मान का प्रतिनिधित्व करता है जिसे pptx प्रस्तुति दस्तावेज़ में दो तरीकों से संग्रहीत किया जा सकता है: 1) चार्ट से संबंधित वर्कबुक की सेल/सेल्स में; 2) लिटरेल मान के रूप में।
+pptx प्रस्तुति दस्तावेज़ में दो तरीकों से डबल मान को संग्रहीत किया जा सकता है: 1) चार्ट से संबंधित workbook के cell/cells में; 2) एक लिटरल मान के रूप में।
 
 ```csharp
 public class DoubleChartValue : BaseChartValue, IDoubleChartValue
 ```
 
-## प्रॉपर्टी
+## गुण
 
 | नाम | विवरण |
 | --- | --- |
 | [AsCell](../../aspose.slides.charts/doublechartvalue/ascell) { get; set; } | चार्ट डेटा सेल को लौटाता है या सेट करता है। पढ़ें/लिखें [`IChartDataCell`](../ichartdatacell)। |
-| [AsLiteralDouble](../../aspose.slides.charts/doublechartvalue/asliteraldouble) { get; set; } | मान को लिटरेल डबल के रूप में लौटाता है या सेट करता है। पढ़ें/लिखें Double। |
+| [AsLiteralDouble](../../aspose.slides.charts/doublechartvalue/asliteraldouble) { get; set; } | मान को लिटरल डबल के रूप में लौटाता है या सेट करता है। पढ़ें/लिखें Double। |
 | override [Data](../../aspose.slides.charts/doublechartvalue/data) { get; set; } | Data ऑब्जेक्ट को लौटाता है या सेट करता है। पढ़ें/लिखें Object। |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | निर्दिष्ट करता है कि AsCell, AsCells, AsLiteralString या AsLiteralDouble प्रॉपर्टी वंशजों में वास्तविक है या नहीं। दूसरे शब्दों में यह Data प्रॉपर्टी के मान के प्रकार को निर्दिष्ट करता है। पढ़ें/लिखें [`DataSourceType`](../datasourcetype)। |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | निर्दिष्ट करता है कि AsCell, AsCells, AsLiteralString या AsLiteralDouble प्रॉपर्टी विरासत में वास्तविक है या नहीं। अन्य शब्दों में यह Data प्रॉपर्टी के मान के प्रकार को निर्दिष्ट करता है। पढ़ें/लिखें [`DataSourceType`](../datasourcetype)। |
 
 ## विधियाँ
 
@@ -29,9 +29,9 @@ public class DoubleChartValue : BaseChartValue, IDoubleChartValue
 | --- | --- |
 | [ToDouble](../../aspose.slides.charts/doublechartvalue/todouble)() | Double में परिवर्तित करता है। |
 
-### संबंधित देखें
+### देखें
 
-* क्लास [BaseChartValue](../basechartvalue)
+* वर्ग [BaseChartValue](../basechartvalue)
 * इंटरफ़ेस [IDoubleChartValue](../idoublechartvalue)
 * नेमस्पेस [Aspose.Slides.Charts](../../aspose.slides.charts)
 * असेंबली [Aspose.Slides](../../)

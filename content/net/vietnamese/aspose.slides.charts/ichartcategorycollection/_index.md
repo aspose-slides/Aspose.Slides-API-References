@@ -1,14 +1,14 @@
 ---
 title: IChartCategoryCollection
-second_title: Tham chiếu API Aspose.Slides cho .NET
-description: Đại diện cho bộ sưu tập của IChartCategory./ichartcategory
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Biểu diễn tập hợp của IChartCategory./ichartcategory
 type: docs
-weight: 1760
+weight: 1780
 url: /vi/aspose.slides.charts/ichartcategorycollection/
 ---
-## IChartCategoryCollection interface
+## IChartCategoryCollection giao diện
 
-Đại diện cho bộ sưu tập của [`IChartCategory`](../ichartcategory)
+Biểu diễn tập hợp của [`IChartCategory`](../ichartcategory)
 
 ```csharp
 public interface IChartCategoryCollection : IGenericCollection<IChartCategory>
@@ -18,20 +18,20 @@ public interface IChartCategoryCollection : IGenericCollection<IChartCategory>
 
 | Tên | Mô tả |
 | --- | --- |
-| [GroupingLevelCount](../../aspose.slides.charts/ichartcategorycollection/groupinglevelcount) { get; } | Trả về số đếm các mức nhóm danh mục được sử dụng. Lớn hơn một cho các danh mục đa cấp. Chỉ đọc Int32. |
-| [Item](../../aspose.slides.charts/ichartcategorycollection/item) { get; } | Lấy phần tử tại chỉ mục được chỉ định. |
-| [UseCells](../../aspose.slides.charts/ichartcategorycollection/usecells) { get; set; } | Nếu true thì worksheet được dùng để lưu trữ các danh mục (trường hợp này hỗ trợ danh mục đa cấp). Nếu false thì worksheet KHÔNG được dùng để lưu trữ các giá trị (và trường hợp này không hỗ trợ danh mục đa cấp). Đọc/ghi Boolean. |
+| [GroupingLevelCount](../../aspose.slides.charts/ichartcategorycollection/groupinglevelcount) { get; } | Trả về số lượng mức nhóm danh mục được sử dụng. Lớn hơn một cho các danh mục đa cấp. Chỉ đọc Int32. |
+| [Item](../../aspose.slides.charts/ichartcategorycollection/item) { get; } | Lấy phần tử tại chỉ số được chỉ định. |
+| [UseCells](../../aspose.slides.charts/ichartcategorycollection/usecells) { get; set; } | Nếu true thì worksheet được sử dụng để lưu trữ các danh mục (trường hợp này hỗ trợ danh mục đa cấp). Nếu false thì worksheet KHÔNG được sử dụng để lưu trữ các giá trị (và trường hợp này không hỗ trợ danh mục đa cấp). Đọc/ghi Boolean. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ichartcategorycollection/add#add)(IChartDataCell) | Nếu danh mục tồn tại trong bộ sưu tập, trả về nó. Nếu không, tạo danh mục biểu đồ mới từ [`IChartDataCell`](../ichartdatacell) và thêm vào bộ sưu tập. |
-| [Add](../../aspose.slides.charts/ichartcategorycollection/add#add_1)(object) | Tạo [`IChartCategory`](../ichartcategory) mới từ giá trị và thêm vào bộ sưu tập. |
-| [Clear](../../aspose.slides.charts/ichartcategorycollection/clear)() | Xóa tất cả các phần tử khỏi bộ sưu tập. |
-| [IndexOf](../../aspose.slides.charts/ichartcategorycollection/indexof)(IChartCategory) | Tìm kiếm [`IChartCategory`](../ichartcategory) được chỉ định và trả về chỉ mục bắt đầu từ 0 của lần xuất hiện đầu tiên trong toàn bộ Collection |
+| [Add](../../aspose.slides.charts/ichartcategorycollection/add#add)(IChartDataCell) | Nếu danh mục tồn tại trong tập hợp, trả về nó. Nếu không, tạo danh mục biểu đồ mới từ [`IChartDataCell`](../ichartdatacell) và thêm vào tập hợp. |
+| [Add](../../aspose.slides.charts/ichartcategorycollection/add#add_1)(object) | Tạo [`IChartCategory`](../ichartcategory) mới từ giá trị và thêm vào tập hợp. |
+| [Clear](../../aspose.slides.charts/ichartcategorycollection/clear)() | Xóa tất cả các phần tử khỏi tập hợp. |
+| [IndexOf](../../aspose.slides.charts/ichartcategorycollection/indexof)(IChartCategory) | Tìm kiếm [`IChartCategory`](../ichartcategory) được chỉ định và trả về chỉ số bắt đầu từ 0 của lần xuất hiện đầu tiên trong toàn bộ Collection |
 | [Remove](../../aspose.slides.charts/ichartcategorycollection/remove)(IChartCategory) | Xóa giá trị được chỉ định. |
-| [RemoveAt](../../aspose.slides.charts/ichartcategorycollection/removeat)(int) | Xóa phần tử tại chỉ mục cho trước. |
+| [RemoveAt](../../aspose.slides.charts/ichartcategorycollection/removeat)(int) | Xóa phần tử tại chỉ số đã cho. |
 
 ### Xem thêm
 

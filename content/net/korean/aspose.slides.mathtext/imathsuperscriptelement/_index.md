@@ -1,14 +1,14 @@
 ---
 title: IMathSuperscriptElement
 second_title: Aspose.Sildes for .NET API 참조
-description: 베이스와 위쪽 및 오른쪽에 배치된 축소된 크기의 위첨자로 구성된 위첨자 객체를 지정합니다.
+description: 기본과 오른쪽 위에 배치된 축소된 크기의 위 첨자로 구성된 위 첨자 객체를 지정합니다
 type: docs
-weight: 8490
+weight: 8510
 url: /ko/aspose.slides.mathtext/imathsuperscriptelement/
 ---
 ## IMathSuperscriptElement 인터페이스
 
-베이스와 위쪽 및 오른쪽에 배치된 축소된 크기의 위첨자로 구성된 위첨자 객체를 지정합니다.
+기본과 오른쪽 위에 배치된 축소된 크기의 위 첨자로 구성된 위 첨자 객체를 지정합니다
 
 ```csharp
 public interface IMathSuperscriptElement : IMathElement
@@ -18,13 +18,13 @@ public interface IMathSuperscriptElement : IMathElement
 
 | 이름 | 설명 |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathsuperscriptelement/asimathelement) { get; } | 베이스 IMathElement 인터페이스를 가져올 수 있음 [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathsuperscriptelement/base) { get; } | 베이스 인수 |
-| [Superscript](../../aspose.slides.mathtext/imathsuperscriptelement/superscript) { get; } | 위첨자 |
+| [AsIMathElement](../../aspose.slides.mathtext/imathsuperscriptelement/asimathelement) { get; } | 기본 IMathElement 인터페이스 [`IMathElement`](../imathelement)를 가져올 수 있습니다 |
+| [Base](../../aspose.slides.mathtext/imathsuperscriptelement/base) { get; } | 기본 인수 |
+| [Superscript](../../aspose.slides.mathtext/imathsuperscriptelement/superscript) { get; } | 위 첨자 |
 
 ### 예제
 
-Example:
+예시:
 
 ```csharp
 [C#]

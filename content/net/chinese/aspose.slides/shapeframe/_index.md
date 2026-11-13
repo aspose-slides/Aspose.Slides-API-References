@@ -1,14 +1,14 @@
 ---
 title: ShapeFrame
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示形状框架的属性。
+second_title: Aspose.Sildes .NET API 参考
+description: 表示形状帧的属性。
 type: docs
-weight: 9900
+weight: 9920
 url: /zh/aspose.slides/shapeframe/
 ---
 ## ShapeFrame 类
 
-表示形状框架的属性。
+表示形状帧的属性。
 
 ```csharp
 public class ShapeFrame : IShapeFrame
@@ -18,22 +18,22 @@ public class ShapeFrame : IShapeFrame
 
 | 名称 | 描述 |
 | --- | --- |
-| [ShapeFrame](shapeframe)(float, float, float, float, NullableBool, NullableBool, float) | 创建新的形状框架属性。 |
+| [ShapeFrame](shapeframe)(float, float, float, float, NullableBool, NullableBool, float) | 创建新的形状帧属性。 |
 
 ## 属性
 
 | 名称 | 描述 |
 | --- | --- |
-| [CenterX](../../aspose.slides/shapeframe/centerx) { get; } | 返回框中心的 X 坐标。只读 Single。 |
-| [CenterY](../../aspose.slides/shapeframe/centery) { get; } | 返回框中心的 Y 坐标。只读 Single。 |
-| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | 确定框是否水平翻转。只读 [`NullableBool`](../nullablebool)。 |
-| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | 确定框是否垂直翻转。只读 [`NullableBool`](../nullablebool)。 |
-| [Height](../../aspose.slides/shapeframe/height) { get; } | 返回框的高度。只读 Single。 |
-| [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | 返回框的坐标。只读 RectangleF。 |
-| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | 返回框绕 z 轴旋转的角度（度）。正值表示顺时针旋转；负值表示逆时针旋转。只读 Single。 |
-| [Width](../../aspose.slides/shapeframe/width) { get; } | 返回框的宽度。只读 Single。 |
-| [X](../../aspose.slides/shapeframe/x) { get; } | 返回框左上角的 X 坐标。只读 Single。 |
-| [Y](../../aspose.slides/shapeframe/y) { get; } | 返回框左上角的 Y 坐标。只读 Single。 |
+| [CenterX](../../aspose.slides/shapeframe/centerx) { get; } | 返回帧中心的 X 坐标。只读 Single。 |
+| [CenterY](../../aspose.slides/shapeframe/centery) { get; } | 返回帧中心的 Y 坐标。只读 Single。 |
+| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | 确定帧是否水平翻转。只读 [`NullableBool`](../nullablebool)。 |
+| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | 确定帧是否垂直翻转。只读 [`NullableBool`](../nullablebool)。 |
+| [Height](../../aspose.slides/shapeframe/height) { get; } | 返回帧的高度。只读 Single。 |
+| [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | 返回帧的坐标。只读 RectangleF。 |
+| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | 返回帧围绕 z 轴旋转的角度（度）。正值表示顺时针旋转；负值表示逆时针旋转。只读 Single。 |
+| [Width](../../aspose.slides/shapeframe/width) { get; } | 返回帧的宽度。只读 Single。 |
+| [X](../../aspose.slides/shapeframe/x) { get; } | 返回帧左上角的 X 坐标。只读 Single。 |
+| [Y](../../aspose.slides/shapeframe/y) { get; } | 返回帧左上角的 Y 坐标。只读 Single。 |
 
 ## 方法
 
@@ -45,7 +45,7 @@ public class ShapeFrame : IShapeFrame
 | [Equals](../../aspose.slides/shapeframe/equals#equals)(ShapeFrame) | 返回一个值，指示此实例是否等于指定的对象。 |
 | override [GetHashCode](../../aspose.slides/shapeframe/gethashcode)() | 返回此对象的哈希码。 |
 
-### 另请参阅
+### 另见
 
 * 接口 [IShapeFrame](../ishapeframe)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

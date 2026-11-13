@@ -1,14 +1,14 @@
 ---
 title: TextSearchOptions
-second_title: Aspose.Sildes .NET API referencia
-description: Az opciókat jelöli, amelyeket a szöveg keresésére lehet használni egy Presentation Slide vagy TextFrame esetén.
+second_title: Aspose.Sildes .NET API Referencia
+description: A Presentation Slide vagy TextFrame szövegének keresésére használható beállításokat reprezentálja.
 type: docs
-weight: 10970
+weight: 10990
 url: /hu/aspose.slides/textsearchoptions/
 ---
 ## TextSearchOptions osztály
 
-Az opciókat jelöli, amelyeket a szöveg keresésére lehet használni egy Presentation, Slide vagy TextFrame esetén.
+A Presentation, Slide vagy TextFrame szövegének keresésére használható beállításokat reprezentálja.
 
 ```csharp
 public class TextSearchOptions : ITextSearchOptions
@@ -18,15 +18,15 @@ public class TextSearchOptions : ITextSearchOptions
 
 | Név | Leírás |
 | --- | --- |
-| [TextSearchOptions](textsearchoptions)() | Létrehoz egy új alapértelmezett szövegkeresési opciót. |
+| [TextSearchOptions](textsearchoptions)() | Létrehozza az alapértelmezett szövegkeresési beállításokat. |
 
 ## Tulajdonságok
 
 | Név | Leírás |
 | --- | --- |
-| [CaseSensitive](../../aspose.slides/textsearchoptions/casesensitive) { get; set; } | Állítsa true-ra az érzékeny keresés használatához, false - egyébként. Olvasás/írás Boolean. |
-| [IncludeNotes](../../aspose.slides/textsearchoptions/includenotes) { get; set; } | Állítsa `true`-ra a diavetítés jegyzetekben ([`NotesSlide`](../notesslide)) lévő szöveg belefoglalásához szövegkeresés, csere vagy kiemelés műveletei során. Az alapértelmezett érték `false`. |
-| [WholeWordsOnly](../../aspose.slides/textsearchoptions/wholewordsonly) { get; set; } | Állítsa true-ra, hogy csak teljes szavakat egyeztesen, false - egyébként. Olvasás/írás Boolean. |
+| [CaseSensitive](../../aspose.slides/textsearchoptions/casesensitive) { get; set; } | Állítsa true értékre az érzékeny keresés használatához, egyébként false. Olvasás/írás Boolean. |
+| [IncludeNotes](../../aspose.slides/textsearchoptions/includenotes) { get; set; } | Állítsa `true` értékre a diavázlat jegyzeteiben ([`NotesSlide`](../notesslide)) található szöveg belefoglalásához szövegkeresés, helyettesítés vagy kiemelés végrehajtásakor. Az alapértelmezett érték `false`. |
+| [WholeWordsOnly](../../aspose.slides/textsearchoptions/wholewordsonly) { get; set; } | Állítsa true értékre, hogy csak teljes szavakat egyeztesen, egyébként false. Olvasás/írás Boolean. |
 
 ### Lásd még
 

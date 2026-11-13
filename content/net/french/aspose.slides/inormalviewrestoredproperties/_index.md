@@ -1,14 +1,14 @@
 ---
 title: INormalViewRestoredProperties
-second_title: Aspose.Sildes pour .NET Référence API
-description: Spécifie la taille de la région de diapositive, largeur lorsqu'elle est enfant de restoredTop, hauteur lorsqu'elle est enfant de restoredLeft, de la vue normale lorsque la région a une taille restaurée variable, ni réduite ni agrandie.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Spécifie la taille de la région de la diapositive, largeur lorsqu'elle est enfant de restoredTop, hauteur lorsqu'elle est enfant de restoredLeft, de la vue normale lorsque la région a une taille restaurée variable, ni réduite ni agrandie.
 type: docs
-weight: 6480
+weight: 6500
 url: /fr/aspose.slides/inormalviewrestoredproperties/
 ---
 ## INormalViewRestoredProperties interface
 
-Spécifie la taille de la région de diapositive ((largeur lorsqu’elle est enfant de restoredTop, hauteur lorsqu’elle est enfant de restoredLeft) de la vue normale, lorsque la région a une taille restaurée variable (ni réduite ni agrandie).
+Spécifie la taille de la région de la diapositive ((largeur lorsqu'elle est enfant de restoredTop, hauteur lorsqu'elle est enfant de restoredLeft) de la vue normale, lorsque la région a une taille restaurée variable (ni réduite ni agrandie).
 
 ```csharp
 public interface INormalViewRestoredProperties
@@ -18,8 +18,8 @@ public interface INormalViewRestoredProperties
 
 | Nom | Description |
 | --- | --- |
-| [AutoAdjust](../../aspose.slides/inormalviewrestoredproperties/autoadjust) { get; set; } | Spécifie si la taille de la région de contenu latéral doit compenser la nouvelle taille lors du redimensionnement de la fenêtre contenant la vue dans l'application Lecture/écriture Boolean. |
-| [DimensionSize](../../aspose.slides/inormalviewrestoredproperties/dimensionsize) { get; set; } | Spécifie la taille de la région de diapositive (largeur lorsqu’elle est enfant de RestoredTop, hauteur lorsqu’elle est enfant de RestoredLeft). Lecture/écriture Single. Lève une exception lorsque la valeur est inférieure à 0 ou supérieure à 100. |
+| [AutoAdjust](../../aspose.slides/inormalviewrestoredproperties/autoadjust) { get; set; } | Spécifie si la taille de la région de contenu latéral doit compenser la nouvelle taille lors du redimensionnement de la fenêtre contenant la vue dans l'application. Read/write Boolean. |
+| [DimensionSize](../../aspose.slides/inormalviewrestoredproperties/dimensionsize) { get; set; } | Spécifie la taille de la région de la diapositive (largeur lorsqu'elle est enfant de RestoredTop, hauteur lorsqu'elle est enfant de RestoredLeft). Read/write Single. Throws when value less than 0 ar greater than 100. |
 
 ### Voir aussi
 

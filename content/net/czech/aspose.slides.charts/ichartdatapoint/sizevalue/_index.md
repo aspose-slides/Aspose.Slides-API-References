@@ -1,14 +1,14 @@
 ---
 title: SizeValue
 second_title: Aspose.Sildes pro .NET API Reference
-description: Vrací hodnotu velikosti datového bodu grafu. Používá se s grafy Treemap a Sunburst. Pouze pro čtení IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+description: Získává hodnotu velikosti datového bodu v grafu. Používá se s grafy Treemap a Sunburst. Pouze pro čtení IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 150
+weight: 190
 url: /cs/aspose.slides.charts/ichartdatapoint/sizevalue/
 ---
 ## IChartDataPoint.SizeValue vlastnost
 
-Vrací hodnotu velikosti datového bodu grafu. Používá se s grafy Treemap a Sunburst. Pouze pro čtení [`IDoubleChartValue`](../../idoublechartvalue).
+Získává hodnotu velikosti datového bodu v grafu. Používá se s grafy Treemap a Sunburst. Pouze pro čtení [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue SizeValue { get; }

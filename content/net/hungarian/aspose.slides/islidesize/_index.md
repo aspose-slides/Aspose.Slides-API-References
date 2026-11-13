@@ -1,9 +1,9 @@
 ---
 title: ISlideSize
-second_title: Aspose.Sildes a .NET API hivatkozáshoz
+second_title: Aspose.Sildes .NET API referencia
 description: A dia méretét és tájolását képviseli.
 type: docs
-weight: 7090
+weight: 7110
 url: /hu/aspose.slides/islidesize/
 ---
 ## ISlideSize interfész
@@ -16,18 +16,18 @@ public interface ISlideSize
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [Orientation](../../aspose.slides/islidesize/orientation) { get; set; } | A dia tájolását kapja vagy állítja be. |
-| [Size](../../aspose.slides/islidesize/size) { get; } | A dia méreteit pontokban kapja. |
-| [Type](../../aspose.slides/islidesize/type) { get; } | A dia mérettípusát kapja. |
+| [Orientation](../../aspose.slides/islidesize/orientation) { get; set; } | A dia tájolását adja vissza vagy állítja be. |
+| [Size](../../aspose.slides/islidesize/size) { get; } | A dia méreteket pontokban adja vissza. |
+| [Type](../../aspose.slides/islidesize/type) { get; } | A dia mérettípust adja vissza. |
 
 ## Módszerek
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [SetSize](../../aspose.slides/islidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | A dia méretét típus szerint állítja be, és átméretezi a meglévő tartalmat. |
-| [SetSize](../../aspose.slides/islidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | A dia méreteit kifejezetten állítja be, és átméretezi a meglévő tartalmat. |
+| [SetSize](../../aspose.slides/islidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | Beállítja a dia méretét típussal, és átméretezi a meglévő tartalmat. |
+| [SetSize](../../aspose.slides/islidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | Kifejezetten beállítja a dia méreteit, és átméretezi a meglévő tartalmat. |
 
 ### Lásd még
 

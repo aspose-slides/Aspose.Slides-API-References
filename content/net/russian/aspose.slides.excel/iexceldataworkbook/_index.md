@@ -1,9 +1,9 @@
 ---
 title: IExcelDataWorkbook
-second_title: Aspose.Sildes для .NET справочник API
-description: Представляет книгу, которая предоставляет доступ к данным Excel для общего использования.
+second_title: Справочник API Aspose.Sildes для .NET
+description: Представляет книгу, предоставляющую доступ к данным Excel для общего использования.
 type: docs
-weight: 3710
+weight: 3730
 url: /ru/aspose.slides.excel/iexceldataworkbook/
 ---
 ## IExcelDataWorkbook интерфейс
@@ -16,17 +16,17 @@ public interface IExcelDataWorkbook
 
 ## Методы
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_1)(int, string) | Получает ячейку из указанного листа, используя её индекс и имя ячейки в стиле Excel (например, "B2"). |
 | [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_3)(string, string) | Получает ячейку из указанного листа, используя имя ячейки в стиле Excel (например, "B2"). |
 | [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell)(int, int, int) | Получает ячейку из указанного листа, используя её индекс и координаты ячейки. |
 | [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_2)(string, int, int) | Получает ячейку из указанного листа, используя её имя и координаты ячейки. |
-| [GetCells](../../aspose.slides.excel/iexceldataworkbook/getcells)(string, bool) | Получает коллекцию ячеек из книги, соответствующих указанной формуле. |
-| [GetChartsFromWorksheet](../../aspose.slides.excel/iexceldataworkbook/getchartsfromworksheet)(string) | Получает словарь, содержащий индексы и имена всех диаграмм в указанном листе Excel-книги. |
-| [GetWorksheetNames](../../aspose.slides.excel/iexceldataworkbook/getworksheetnames)() | Получает имена всех листов, содержащихся в Excel-книге. |
+| [GetCells](../../aspose.slides.excel/iexceldataworkbook/getcells)(string, bool) | Получает коллекцию ячеек из книги, которые соответствуют указанной формуле. |
+| [GetChartsFromWorksheet](../../aspose.slides.excel/iexceldataworkbook/getchartsfromworksheet)(string) | Получает словарь, содержащий индексы и имена всех диаграмм на указанном листе Excel книги. |
+| [GetWorksheetNames](../../aspose.slides.excel/iexceldataworkbook/getworksheetnames)() | Получает имена всех листов, содержащихся в книге Excel. |
 
-### Смотрите также
+### См. также
 
 * пространство имён [Aspose.Slides.Excel](../../aspose.slides.excel)
 * сборка [Aspose.Slides](../../)

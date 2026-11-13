@@ -1,14 +1,14 @@
 ---
 title: DataPointLevels
-second_title: Riferimento API di Aspose.Sildes per .NET
-description: Restituisce il contenitore dei livelli dei punti dati. Applicato alle serie Treeamp e Sunburst. L'indicizzazione dei livelli dei punti dati è basata su zero.
+second_title: Aspose.Sildes for .NET API Reference
+description: Restituisce il contenitore dei livelli del punto dati. Applicato alle serie Treeamp e Sunburst. L'indicizzazione dei livelli del punto dati è basata su zero.
 type: docs
-weight: 70
+weight: 110
 url: /it/aspose.slides.charts/chartdatapoint/datapointlevels/
 ---
 ## ChartDataPoint.DataPointLevels proprietà
 
-Restituisce il contenitore dei livelli dei punti dati. Applicato alle serie Treeamp e Sunburst. L'indicizzazione dei livelli dei punti dati è basata su zero.
+Restituisce il contenitore dei livelli del punto dati. Applicato alle serie Treeamp e Sunburst. L'indicizzazione dei livelli del punto dati è basata su zero.
 
 ```csharp
 public IChartDataPointLevelsManager DataPointLevels { get; }

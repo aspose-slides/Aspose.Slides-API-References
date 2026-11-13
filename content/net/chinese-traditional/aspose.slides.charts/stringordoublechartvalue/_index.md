@@ -1,14 +1,14 @@
 ---
 title: StringOrDoubleChartValue
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示可在 pptx 簡報文件中以兩種方式儲存的字串或 double 值：1）儲存在與圖表相關的活頁簿的儲存格/儲存格群組中；2）作為文字值。
+description: 表示可以兩種方式儲存在 pptx 簡報文件中的字串或雙精度值：1. 在與圖表相關的活頁簿的儲存格/儲存格中；2. 作為文字值。
 type: docs
-weight: 2420
+weight: 2440
 url: /zh-hant/aspose.slides.charts/stringordoublechartvalue/
 ---
 ## StringOrDoubleChartValue 類別
 
-代表可在 pptx 簡報文件中以兩種方式儲存的字串或 double 值：1）儲存在與圖表相關的活頁簿的儲存格/儲存格群組中；2）作為文字值。
+表示可以以兩種方式儲存在 pptx 簡報文件中的字串或雙精度值：1) 在與圖表相關的活頁簿的儲存格中；2) 作為文字值。
 
 ```csharp
 public class StringOrDoubleChartValue : BaseChartValue, IStringOrDoubleChartValue
@@ -19,10 +19,10 @@ public class StringOrDoubleChartValue : BaseChartValue, IStringOrDoubleChartValu
 | 名稱 | 說明 |
 | --- | --- |
 | [AsCell](../../aspose.slides.charts/stringordoublechartvalue/ascell) { get; set; } | 取得或設定圖表資料儲存格。讀/寫 [`IChartDataCell`](../ichartdatacell)。 |
-| [AsLiteralDouble](../../aspose.slides.charts/stringordoublechartvalue/asliteraldouble) { get; set; } | 取得或設定值為文字 double。讀/寫 Double。 |
-| [AsLiteralString](../../aspose.slides.charts/stringordoublechartvalue/asliteralstring) { get; set; } | 取得或設定值為文字字串。讀/寫 String。 |
+| [AsLiteralDouble](../../aspose.slides.charts/stringordoublechartvalue/asliteraldouble) { get; set; } | 取得或設定作為文字雙精度的值。讀/寫 Double。 |
+| [AsLiteralString](../../aspose.slides.charts/stringordoublechartvalue/asliteralstring) { get; set; } | 取得或設定作為文字字串的值。讀/寫 String。 |
 | override [Data](../../aspose.slides.charts/stringordoublechartvalue/data) { get; set; } | 取得或設定 Data 物件。讀/寫 Object。 |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | 指定在衍生類別中實際使用 AsCell、AsCells、AsLiteralString 或 AsLiteralDouble 屬性。換句話說，它指定 Data 屬性的值類型。讀/寫 [`DataSourceType`](../datasourcetype)。 |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | 指定衍生類別中實際使用的 AsCell、AsCells、AsLiteralString 或 AsLiteralDouble 屬性。換句話說，它指定 Data 屬性的值類型。讀/寫 [`DataSourceType`](../datasourcetype)。 |
 
 ## 方法
 
@@ -30,7 +30,7 @@ public class StringOrDoubleChartValue : BaseChartValue, IStringOrDoubleChartValu
 | --- | --- |
 | [ToDouble](../../aspose.slides.charts/stringordoublechartvalue/todouble)() | 轉換為 double。 |
 
-### 另見
+### 另請參閱
 
 * 類別 [BaseChartValue](../basechartvalue)
 * 介面 [IStringOrDoubleChartValue](../istringordoublechartvalue)

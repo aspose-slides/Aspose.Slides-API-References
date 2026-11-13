@@ -1,14 +1,14 @@
 ---
 title: ShapesAlignmentType
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Definieert een manier om de plaatsing van geselecteerde vormen op de dia te wijzigen.
+description: Definieert een manier om de plaatsing van geselecteerde shapes op de dia te wijzigen.
 type: docs
-weight: 9940
+weight: 9960
 url: /nl/aspose.slides/shapesalignmenttype/
 ---
 ## ShapesAlignmentType enumeratie
 
-Definieert een manier om de plaatsing van geselecteerde vormen op de dia te wijzigen.
+Definieert een manier om de plaatsing van geselecteerde shapes op de dia te wijzigen.
 
 ```csharp
 public enum ShapesAlignmentType
@@ -20,10 +20,10 @@ public enum ShapesAlignmentType
 | --- | --- | --- |
 | AlignLeft | `0` | Links uitlijnen |
 | AlignRight | `1` | Rechts uitlijnen |
-| AlignCenter | `2` | Centreren |
+| AlignCenter | `2` | Gecentreerd uitlijnen |
 | AlignTop | `3` | Boven uitlijnen |
 | AlignMiddle | `4` | Midden uitlijnen |
-| AlignBottom | `5` | Onder uitlijnen |
+| AlignBottom | `5` | Onderaan uitlijnen |
 | DistributeHorizontally | `6` | Horizontaal verdelen |
 | DistributeVertically | `7` | Verticaal verdelen |
 

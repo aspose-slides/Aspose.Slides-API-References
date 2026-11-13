@@ -1,14 +1,14 @@
 ---
 title: IEmbeddedWoffFontsHtmlController
-second_title: Aspose.Sildes for .NET API 参考
-description: 嵌入式 WOFF 字体 HTML 控制器。
+second_title: Aspose.Sildes 用于 .NET 的 API 参考
+description: 嵌入 woff 字体的 html 控制器。
 type: docs
-weight: 3910
+weight: 3930
 url: /zh/aspose.slides.export/iembeddedwofffontshtmlcontroller/
 ---
 ## IEmbeddedWoffFontsHtmlController 接口
 
-嵌入式 WOFF 字体 HTML 控制器。
+嵌入 woff 字体的 html 控制器。
 
 ```csharp
 public interface IEmbeddedWoffFontsHtmlController : IHtmlFormattingController
@@ -20,7 +20,7 @@ public interface IEmbeddedWoffFontsHtmlController : IHtmlFormattingController
 | --- | --- |
 | [AsIHtmlFormattingController](../../aspose.slides.export/iembeddedwofffontshtmlcontroller/asihtmlformattingcontroller) { get; } | 返回 IHtmlFormattingController 接口。 |
 
-### 参见
+### 另请参见
 
 * 接口 [IHtmlFormattingController](../ihtmlformattingcontroller)
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)

@@ -1,14 +1,14 @@
 ---
 title: EmbedAllFontsHtmlController
-second_title: Aspose.Sildes для .NET — справочник API
-description: Класс контроллера форматирования, используемый для встраивания всех шрифтов презентации в формате WOFF.
+second_title: Справка API Aspose.Sildes для .NET
+description: Класс контроллера форматирования, используемый для встраивания всех шрифтов презентации в формат WOFF.
 type: docs
-weight: 3760
+weight: 3780
 url: /ru/aspose.slides.export/embedallfontshtmlcontroller/
 ---
 ## EmbedAllFontsHtmlController класс
 
-Контроллер форматирования, используемый для встраивания всех шрифтов презентации в формате WOFF.
+Класс контроллера форматирования, используемый для встраивания всех шрифтов презентации в формат WOFF.
 
 ```csharp
 public class EmbedAllFontsHtmlController : IHtmlFormattingController
@@ -18,26 +18,26 @@ public class EmbedAllFontsHtmlController : IHtmlFormattingController
 
 | Имя | Описание |
 | --- | --- |
-| [EmbedAllFontsHtmlController](embedallfontshtmlcontroller#constructor)() | Создаёт новый экземпляр |
-| [EmbedAllFontsHtmlController](embedallfontshtmlcontroller#constructor_1)(string[]) | Создаёт новый экземпляр |
+| [EmbedAllFontsHtmlController](embedallfontshtmlcontroller#constructor)() | Создает новый экземпляр |
+| [EmbedAllFontsHtmlController](embedallfontshtmlcontroller#constructor_1)(string[]) | Создает новый экземпляр |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | virtual [WriteAllFonts](../../aspose.slides.export/embedallfontshtmlcontroller/writeallfonts)(IHtmlGenerator, IPresentation) | Записывает все шрифты, содержащиеся в [`Presentation`](../../aspose.slides/presentation). |
-| virtual [WriteDocumentEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | Вызывается для записи нижнего колонтитула HTML-документа. Вызывается один раз за конвертацию презентации. |
-| virtual [WriteDocumentStart](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | Вызывается для записи верхнего колонтитула HTML-документа. Вызывается один раз за конвертацию презентации. |
-| virtual [WriteFont](../../aspose.slides.export/embedallfontshtmlcontroller/writefont)(IHtmlGenerator, IFontData, IFontData, string, string, byte[]) | Записывает данные в виде base64 непосредственно в HTML-документ. |
-| virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | Вызывается перед рендерингом фигуры. Вызывается один раз для каждой фигуры. Если эта функция записывает что-либо в генератор, текущая генерация изображения слайда будет завершена, добавленный HTML-фрагмент будет вставлен, и новое изображение будет начато поверх предыдущего. |
-| virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | Вызывается перед рендерингом фигуры. Вызывается один раз для каждой фигуры. Если эта функция записывает что-либо в генератор, текущая генерация изображения слайда будет завершена, добавленный HTML-фрагмент будет вставлен, и новое изображение будет начато поверх предыдущего. |
+| virtual [WriteDocumentEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | Вызывается для записи нижнего колонтитула HTML-документа. Вызывается один раз за преобразование презентации. |
+| virtual [WriteDocumentStart](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | Вызывается для записи верхнего колонтитула HTML-документа. Вызывается один раз за преобразование презентации. |
+| virtual [WriteFont](../../aspose.slides.export/embedallfontshtmlcontroller/writefont)(IHtmlGenerator, IFontData, IFontData, string, string, byte[]) | Записывает данные в виде base64 непосредственно в HTML-документ |
+| virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | Вызывается перед рендерингом shape. Вызывается один раз для каждой shape. Если эта функция записывает что-либо в generator, текущая генерация изображения слайда будет завершена, добавленный HTML-фрагмент будет вставлен, и новое изображение будет начато поверх предыдущего. |
+| virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | Вызывается перед рендерингом shape. Вызывается один раз для каждой shape. Если эта функция записывает что-либо в generator, текущая генерация изображения слайда будет завершена, добавленный HTML-фрагмент будет вставлен, и новое изображение будет начато поверх предыдущего. |
 | virtual [WriteSlideEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeslideend)(IHtmlGenerator, ISlide) | Вызывается для записи нижнего колонтитула HTML-слайда. Вызывается один раз для каждого слайда. |
 | virtual [WriteSlideStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeslidestart)(IHtmlGenerator, ISlide) | Вызывается для записи верхнего колонтитула HTML-слайда. Вызывается один раз для каждого слайда. |
 
 ### См. также
 
 * интерфейс [IHtmlFormattingController](../ihtmlformattingcontroller)
-* пространство имён [Aspose.Slides.Export](../../aspose.slides.export)
+* пространство имен [Aspose.Slides.Export](../../aspose.slides.export)
 * сборка [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

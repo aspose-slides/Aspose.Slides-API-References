@@ -1,14 +1,14 @@
 ---
 title: InkEffectType
 second_title: Aspose.Sildes pro .NET API Reference
-description: Specifikuje sadu předdefinovaných vizuálních efektů pro vykreslování ink. Každý efekt odpovídá textuře nebo obrázku, který simuluje stylizovaný vzhled ink. Tyto hodnoty lze použít k přizpůsobení vizuálního stylu digitálních tahů ink během vykreslování.
+description: Specifikuje sadu předdefinovaných vizuálních efektů pro vykreslování inkoustu. Každý efekt odpovídá textuře nebo obrázku, který simuluje stylizovaný vzhled inkoustu. Tyto hodnoty lze použít k přizpůsobení vizuálního stylu digitálních tahů inkoustu při vykreslování.
 type: docs
-weight: 7580
+weight: 7600
 url: /cs/aspose.slides.ink/inkeffecttype/
 ---
-## InkEffectType výčet
+## Výčet InkEffectType
 
-Specifikuje sadu předdefinovaných vizuálních efektů pro vykreslování ink. Každý efekt odpovídá textuře nebo obrázku, který simuluje stylizovaný vzhled ink. Tyto hodnoty lze použít k přizpůsobení vizuálního stylu digitálních tahů ink během vykreslování.
+Specifikuje sadu předdefinovaných vizuálních efektů pro vykreslování inkoustu. Každý efekt odpovídá textuře nebo obrázku, který simuluje stylizovaný vzhled inkoustu. Tyto hodnoty lze použít k přizpůsobení vizuálního stylu digitálních tahů inkoustem při vykreslování.
 
 ```csharp
 public enum InkEffectType
@@ -19,14 +19,14 @@ public enum InkEffectType
 | Název | Hodnota | Popis |
 | --- | --- | --- |
 | NotDefined | `-1` | Efekt není definován nebo je neznámý. Tuto hodnotu lze použít jako výchozí nebo náhradní. |
-| Bronze | `0` | Teplá, hnědavá kovová textura připomínající bronzové ink. |
+| Bronze | `0` | Teplá, hnědavá kovová textura připomínající bronzový inkoust. |
 | Galaxy | `1` | Barevná, třpytivá textura připomínající galaxii, s kosmickými tóny. |
-| Gold | `2` | Jasná, kovová zlatá textura, která dává tahům inku luxusní vzhled. |
-| Lava | `3` | Plamenná textura připomínající roztavenou lávu, s červenými a oranžovými odstíny. |
-| Ocean | `4` | Hluboká modrá, tekutá textura napodobující oceánské vlny nebo vodní ink. |
-| RainbowGlitter | `5` | Barevný, jiskřivý efekt duhového třpytu používaný pro slavnostní nebo živé tahy inku. |
-| RoseGold | `6` | Měkká růžovo-zlatá kombinace, podobná rose gold, pro elegantní tahy inku. |
-| Silver | `7` | Chladná, kovová stříbrná textura, která simuluje klasické stříbrné ink. |
+| Gold | `2` | Zářivá, kovová zlatá textura, která dává tahům inkoustu luxusní vzhled. |
+| Lava | `3` | Ohnivá textura připomínající tekoucí lávu, s červenými a oranžovými odstíny. |
+| Ocean | `4` | Tmavě modrá, tekutá textura napodobující oceánské vlny nebo vodou založený inkoust. |
+| RainbowGlitter | `5` | Barevný, jiskřivý efekt duhového třpytu používaný pro slavnostní nebo živé tahy inkoustu. |
+| RoseGold | `6` | Jemná růžovozlatá kombinace, podobná růžovému zlatu, pro elegantní tahy inkoustu. |
+| Silver | `7` | Chladná, kovová stříbrná textura, která simuluje klasický stříbrný inkoust. |
 
 ### Viz také
 

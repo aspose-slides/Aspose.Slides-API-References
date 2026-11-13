@@ -1,14 +1,14 @@
 ---
 title: TransitionCornerAndCenterDirectionType
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ระบุทิศทางที่จำกัดอยู่ที่มุมและศูนย์กลาง.
+description: ระบุทิศทางที่จำกัดไว้ที่มุมและศูนย์กลาง.
 type: docs
-weight: 10340
+weight: 10360
 url: /th/aspose.slides.slideshow/transitioncornerandcenterdirectiontype/
 ---
-## TransitionCornerAndCenterDirectionType enum
+## TransitionCornerAndCenterDirectionType ชนิด enum
 
-ระบุทิศทางที่จำกัดอยู่ที่มุมและศูนย์กลาง
+กำหนดทิศทางที่จำกัดไว้ที่มุมและศูนย์กลาง.
 
 ```csharp
 public enum TransitionCornerAndCenterDirectionType

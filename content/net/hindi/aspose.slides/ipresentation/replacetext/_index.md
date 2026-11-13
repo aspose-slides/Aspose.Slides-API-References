@@ -1,14 +1,14 @@
 ---
 title: ReplaceText
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: निर्दिष्ट पाठ की सभी घटनाओं को अन्य निर्दिष्ट पाठ से बदलता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: निर्दिष्ट टेक्स्ट के सभी उदाहरणों को किसी अन्य निर्दिष्ट टेक्स्ट से बदलता है।
 type: docs
-weight: 370
+weight: 380
 url: /hi/aspose.slides/ipresentation/replacetext/
 ---
 ## IPresentation.ReplaceText मेथड
 
-निर्दिष्ट पाठ की सभी घटनाओं को अन्य निर्दिष्ट पाठ से बदलता है।
+निर्दिष्ट टेक्स्ट के सभी उदाहरणों को किसी अन्य निर्दिष्ट टेक्स्ट से बदलता है।
 
 ```csharp
 public void ReplaceText(string oldText, string newText, ITextSearchOptions options, 
@@ -17,24 +17,26 @@ public void ReplaceText(string oldText, string newText, ITextSearchOptions optio
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| oldText | String | बदले जाने वाली स्ट्रिंग। |
-| newText | String | स्ट्रिंग जो oldText की सभी घटनाओं को बदलती है। |
-| options | ITextSearchOptions | पाठ खोज विकल्प [`ITextSearchOptions`](../../itextsearchoptions)। |
-| callback | IFindResultCallback | खोज परिणाम प्राप्त करने के लिए कॉलबैक ऑब्जेक्ट [`IFindResultCallback`](../../ifindresultcallback)। |
+| oldText | String | बदलने के लिए स्ट्रिंग। |
+| newText | String | oldText के सभी उदाहरणों को बदलने के लिए स्ट्रिंग। |
+| options | ITextSearchOptions | टेक्स्ट खोज विकल्प [`ITextSearchOptions`](../../itextsearchoptions)। |
+| callback | IFindResultCallback | सर्च परिणाम प्राप्त करने के लिए कॉलबैक ऑब्जेक्ट [`IFindResultCallback`](../../ifindresultcallback)। |
 
 ### उदाहरण
+
+निम्नलिखित नमूना कोड दर्शाता है कि कैसे एक निर्दिष्ट स्ट्रिंग को दूसरी निर्दिष्ट स्ट्रिंग से बदलें।
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// सभी अलग-अलग 'the' घटनाओं को '***' से बदलें
+	// सभी अलग 'the' उदाहरणों को '***' से बदलें
 	presentation.ReplaceText("the", "***", new TextSearchOptions() {WholeWordsOnly = true}, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 }
 ```
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [ITextSearchOptions](../../itextsearchoptions)
 * इंटरफ़ेस [IFindResultCallback](../../ifindresultcallback)

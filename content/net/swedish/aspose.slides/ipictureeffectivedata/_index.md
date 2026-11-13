@@ -3,7 +3,7 @@ title: IPictureEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
 description: Oföränderligt objekt som innehåller effektiva bildegenskaper.
 type: docs
-weight: 6640
+weight: 6660
 url: /sv/aspose.slides/ipictureeffectivedata/
 ---
 ## IPictureEffectiveData gränssnitt
@@ -20,13 +20,13 @@ public interface IPictureEffectiveData
 | --- | --- |
 | [Image](../../aspose.slides/ipictureeffectivedata/image) { get; } | Returnerar den inbäddade bilden. Skrivskyddad [`IPPImage`](../ippimage). |
 | [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | Returnerar samlingen av bildtransformeringseffekter. Skrivskyddad [`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata). |
-| [LinkPathLong](../../aspose.slides/ipictureeffectivedata/linkpathlong) { get; } | Returnerar länkat bildens URL. Skrivskyddad String. |
+| [LinkPathLong](../../aspose.slides/ipictureeffectivedata/linkpathlong) { get; } | Returnerar länkad bilds URL. Skrivskyddad String. |
 
 ### Anmärkningar
 
 Detta gränssnitt används som en del av [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata) och [`IBulletFormatEffectiveData`](../ibulletformateffectivedata).
 
-### Se även
+### Se också
 
 * namnrymd [Aspose.Slides](../../aspose.slides)
 * samling [Aspose.Slides](../../)

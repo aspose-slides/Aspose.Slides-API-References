@@ -1,14 +1,14 @@
 ---
 title: Duotone
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงเอฟเฟกต์ Duotone. สำหรับแต่ละพิกเซล จะผสาน Color1 และ Color2 ผ่านการแทรกเชิงเส้นเพื่อกำหนดสีใหม่สำหรับพิกเซลนั้น.
+description: แสดงถึงเอฟเฟกต์ Duotone. สำหรับแต่ละพิกเซล จะผสาน Color1 และ Color2 ผ่านการเชื่อมต่อเชิงเส้นเพื่อกำหนดสีใหม่สำหรับพิกเซลนั้น.
 type: docs
-weight: 2960
+weight: 2980
 url: /th/aspose.slides.effects/duotone/
 ---
-## คลาส Duotone
+## Duotone คลาส
 
-แสดงถึงเอฟเฟกต์ Duotone. สำหรับแต่ละพิกเซล จะผสาน Color1 และ Color2 ผ่านการแทรกเชิงเส้นเพื่อกำหนดสีใหม่สำหรับพิกเซลนั้น.
+แสดงถึงเอฟเฟกต์ Duotone. สำหรับแต่ละพิกเซล จะผสม Color1 และ Color2 ผ่านการเชื่อมแบบเชิงเส้นเพื่อกำหนดสีใหม่สำหรับพิกเซลนั้น
 
 ```csharp
 public sealed class Duotone : ImageTransformOperation, IDuotone
@@ -19,15 +19,15 @@ public sealed class Duotone : ImageTransformOperation, IDuotone
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้รับอินเทอร์เฟซ IPresentationComponent พื้นฐาน. อ่านอย่างเดียว [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Color1](../../aspose.slides.effects/duotone/color1) { get; } | ส่งคืนรูปแบบสีเป้าหมายสำหรับพิกเซลสีมืด. อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Color2](../../aspose.slides.effects/duotone/color2) { get; } | ส่งคืนรูปแบบสีเป้าหมายสำหรับพิกเซลสีอ่อน. อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Color1](../../aspose.slides.effects/duotone/color1) { get; } | คืนค่ารูปแบบสีเป้าหมายสำหรับพิกเซลมืด. อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Color2](../../aspose.slides.effects/duotone/color2) { get; } | คืนค่ารูปแบบสีเป้าหมายสำหรับพิกเซลสว่าง. อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/duotone/equals)(object) | กำหนดว่าค่า [`Duotone`](../duotone) ที่ระบุเท่ากับ [`Duotone`](../duotone) ปัจจุบันหรือไม่. |
-| [GetEffective](../../aspose.slides.effects/duotone/geteffective)() | รับข้อมูลเอฟเฟกต์ Duotone ที่มีผลโดยมีการสืบทอดที่นำไปใช้. |
+| override [Equals](../../aspose.slides.effects/duotone/equals)(object) | กำหนดว่าข้อมูล [`Duotone`](../duotone) ที่ระบุนั้นเท่ากับ [`Duotone`](../duotone) ปัจจุบันหรือไม่. |
+| [GetEffective](../../aspose.slides.effects/duotone/geteffective)() | รับข้อมูลเอฟเฟกต์ Duotone ที่มีผลพร้อมการสืบทอดที่นำมาใช้. |
 | override [GetHashCode](../../aspose.slides.effects/duotone/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทเฉพาะ. |
 
 ### ดูเพิ่มเติม

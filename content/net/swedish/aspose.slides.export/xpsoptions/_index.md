@@ -3,7 +3,7 @@ title: XpsOptions
 second_title: Aspose.Sildes för .NET API-referens
 description: Tillhandahåller alternativ som styr hur en presentation sparas i XPS-format.
 type: docs
-weight: 4730
+weight: 4750
 url: /sv/aspose.slides.export/xpsoptions/
 ---
 ## XpsOptions klass
@@ -14,7 +14,7 @@ Tillhandahåller alternativ som styr hur en presentation sparas i XPS-format.
 public class XpsOptions : SaveOptions, IXpsOptions
 ```
 
-## Konstruktörer
+## Konstruktorer
 
 | Namn | Beskrivning |
 | --- | --- |
@@ -25,13 +25,13 @@ public class XpsOptions : SaveOptions, IXpsOptions
 | Namn | Beskrivning |
 | --- | --- |
 | [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Returnerar eller anger teckensnitt som används om källteckensnittet inte hittas. Läs-skriv String. |
-| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | True för att rita en svart ram runt varje bild. Läs/skriv Boolean. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Returnerar eller anger den visuella stilen för gradienten. Läs/skriv [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Representerar ett återuppringningsobjekt för att spara framstegsuppdateringar i procent. Se [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | True för att konvertera alla metafiler som används i en presentation till PNG-bilder. Läs/skriv Boolean. |
+| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | Sant för att rita en svart ram runt varje bild. Läs-skriv Boolean. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Returnerar eller anger den visuella stilen för gradienten. Läs-skriv [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Representerar ett återuppringningsobjekt för sparande av progressuppdateringar i procent. Se [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | Sant för att konvertera alla metafiler som används i en presentation till PNG-bilder. Läs-skriv Boolean. |
 | [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | Anger om det genererade dokumentet ska inkludera dolda bilder eller inte. Standard är `false`. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Anger om hyperlänkar med JavaScript-anrop ska hoppas över när presentationen sparas. Läs/skriv Boolean. Standardvärdet är **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Returnerar eller anger ett objekt som tar emot varningar och bestämmer om inläsningsprocessen ska fortsätta eller avbrytas. Läs/skriv [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Anger om hyperlänkar med JavaScript-anrop ska hoppas över när presentationen sparas. Läs-skriv Boolean. Standardvärdet är **false**. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Returnerar eller anger ett objekt som tar emot varningar och bestämmer om laddningsprocessen ska fortsätta eller avbrytas. Läs-skriv [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Exempel
 
@@ -39,10 +39,10 @@ Följande exempel visar hur man konverterar presentationer till XPS med standard
 
 ```csharp
 [C#]
-// Instansiera ett Presentation-objekt som representerar en presentationsfil
+// Skapa ett Presentation-objekt som representerar en presentationsfil
 using (Presentation pres = new Presentation("Convert_XPS.pptx"))
 {
-    // Sparar presentationen till XPS-dokument
+    // Sparar presentationen till ett XPS-dokument
     pres.Save("XPS_Output_Without_XPSOption_out.xps", SaveFormat.Xps);
 }
 ```
@@ -51,7 +51,7 @@ Följande exempel visar hur man konverterar presentationer till XPS med anpassad
 
 ```csharp
 [C#]
-// Instansiera ett Presentation-objekt som representerar en presentationsfil
+// Skapa ett Presentation-objekt som representerar en presentationsfil
 using (Presentation pres = new Presentation("Convert_XPS_Options.pptx"))
 {
     // Instansiera TiffOptions-klassen

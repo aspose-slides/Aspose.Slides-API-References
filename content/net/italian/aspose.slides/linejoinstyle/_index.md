@@ -1,14 +1,14 @@
 ---
 title: LineJoinStyle
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta lo stile di unione delle linee.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta lo stile di giunzione delle linee.
 type: docs
-weight: 7800
+weight: 7820
 url: /it/aspose.slides/linejoinstyle/
 ---
-## Enumerazione LineJoinStyle
+## enumerazione LineJoinStyle
 
-Rappresenta lo stile di unione delle linee.
+Rappresenta lo stile di giunzione delle linee.
 
 ```csharp
 public enum LineJoinStyle : sbyte

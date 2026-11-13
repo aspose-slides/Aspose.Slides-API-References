@@ -1,14 +1,14 @@
 ---
 title: IProtectionManager
-second_title: Aspose.Sildes voor .NET API-referentie
-description: Beheer van presentatiewachtwoordbeveiliging.
+second_title: Aspose.Sildes voor .NET API Referentie
+description: Beheer van wachtwoordbeveiliging voor presentaties.
 type: docs
-weight: 6820
+weight: 6840
 url: /nl/aspose.slides/iprotectionmanager/
 ---
 ## IProtectionManager interface
 
-Beheer van presentatiewachtwoordbeveiliging.
+Presentation password protection management.
 
 ```csharp
 public interface IProtectionManager
@@ -16,24 +16,24 @@ public interface IProtectionManager
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [EncryptDocumentProperties](../../aspose.slides/iprotectionmanager/encryptdocumentproperties) { get; set; } | Deze eigenschap is zinvol als de presentatie met wachtwoord is beveiligd. Als true dan zijn de documenteigenschappen versleuteld in het presentatiebestand. Als false dan zijn de documenteigenschappen openbaar terwijl de presentatie versleuteld is. Read/write Boolean. |
-| [EncryptionPassword](../../aspose.slides/iprotectionmanager/encryptionpassword) { get; } | Retourneert het encryptiewachtwoord. Read-only String. |
-| [IsEncrypted](../../aspose.slides/iprotectionmanager/isencrypted) { get; } | Haalt een waarde op die aangeeft of deze instantie versleuteld is. Read-only Boolean. |
-| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/iprotectionmanager/isonlydocumentpropertiesloaded) { get; } | Deze eigenschap is zinvol als het presentatiebestand met wachtwoord is beveiligd en de documenteigenschappen van dit bestand openbaar zijn. De waarde true betekent dat alleen documenteigenschappen worden geladen uit een versleuteld presentatiebestand zonder gebruik van een wachtwoord. De waarde false betekent dat de volledige versleutelde presentatie wordt geladen met het juiste wachtwoord, niet alleen de documenteigenschappen. Als de presentatie niet versleuteld is, is de eigenschapswaarde altijd false. Als de documenteigenschappen van een versleuteld bestand niet openbaar zijn, is de eigenschapswaarde altijd false. Als PresentationEx.EncryptDocumentProperties true is, dan is de IsOnlyDocumentPropertiesLoaded-eigenschap altijd false. Read-only Boolean. |
-| [IsWriteProtected](../../aspose.slides/iprotectionmanager/iswriteprotected) { get; } | Haalt een waarde op die aangeeft of deze presentatie tegen schrijven is beschermd. Read-only Boolean. |
-| [ReadOnlyRecommended](../../aspose.slides/iprotectionmanager/readonlyrecommended) { get; set; } | Haalt op of stelt een alleen-lezen aanbeveling in. Read/write Boolean. |
+| [EncryptDocumentProperties](../../aspose.slides/iprotectionmanager/encryptdocumentproperties) { get; set; } | Deze eigenschap heeft zin, als de presentatie met een wachtwoord is beveiligd. Als true dan is documenteigenschappen versleuteld in het presentatiebestand. Als false dan is documenteigenschappen openbaar terwijl de presentatie versleuteld is. Lezen/schrijven Boolean. |
+| [EncryptionPassword](../../aspose.slides/iprotectionmanager/encryptionpassword) { get; } | Retourneert versleutelingswachtwoord. Alleen-lezen String. |
+| [IsEncrypted](../../aspose.slides/iprotectionmanager/isencrypted) { get; } | Haalt een waarde op die aangeeft of deze instantie versleuteld is. Alleen-lezen Boolean. |
+| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/iprotectionmanager/isonlydocumentpropertiesloaded) { get; } | Deze eigenschap heeft zin, als het presentatiebestand met een wachtwoord is beveiligd en documenteigenschappen van dit bestand openbaar zijn. Een waarde van true betekent dat alleen documenteigenschappen worden geladen uit een versleuteld presentatiebestand zonder wachtwoord. Een waarde van false betekent dat de volledige versleutelde presentatie wordt geladen met het juiste wachtwoord, niet alleen documenteigenschappen worden geladen. Als de presentatie niet versleuteld is, is de eigenschapswaarde altijd false. Als documenteigenschappen van een versleuteld bestand niet openbaar zijn, is de eigenschapswaarde altijd false. Als PresentationEx.EncryptDocumentProperties true is, dan is de eigenschapswaarde van IsOnlyDocumentPropertiesLoaded altijd false. Alleen-lezen Boolean. |
+| [IsWriteProtected](../../aspose.slides/iprotectionmanager/iswriteprotected) { get; } | Haalt een waarde op die aangeeft of deze presentatie schrijf-beveiligd is. Alleen-lezen Boolean. |
+| [ReadOnlyRecommended](../../aspose.slides/iprotectionmanager/readonlyrecommended) { get; set; } | Haalt of stelt alleen-lezen aanbeveling in. Lezen/schrijven Boolean. |
 
 ## Methoden
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [CheckWriteProtection](../../aspose.slides/iprotectionmanager/checkwriteprotection)(string) | Bepaalt of een presentatie met wachtwoord is beveiligd om te wijzigen. |
-| [Encrypt](../../aspose.slides/iprotectionmanager/encrypt)(string) | Versleutelt de presentatie met het opgegeven wachtwoord. |
-| [RemoveEncryption](../../aspose.slides/iprotectionmanager/removeencryption)() | Verwijdert de encryptie. |
-| [RemoveWriteProtection](../../aspose.slides/iprotectionmanager/removewriteprotection)() | Verwijdert de schrijfbescherming voor deze presentatie. |
-| [SetWriteProtection](../../aspose.slides/iprotectionmanager/setwriteprotection)(string) | Stelt de schrijfbescherming voor deze presentatie in met het opgegeven wachtwoord. |
+| [CheckWriteProtection](../../aspose.slides/iprotectionmanager/checkwriteprotection)(string) | Bepaalt of een presentatie met een wachtwoord is beveiligd om te wijzigen. |
+| [Encrypt](../../aspose.slides/iprotectionmanager/encrypt)(string) | Versleutelt Presentatie met het opgegeven wachtwoord. |
+| [RemoveEncryption](../../aspose.slides/iprotectionmanager/removeencryption)() | Verwijdert de versleuteling. |
+| [RemoveWriteProtection](../../aspose.slides/iprotectionmanager/removewriteprotection)() | Verwijdert de schrijfbeveiliging voor deze presentatie. |
+| [SetWriteProtection](../../aspose.slides/iprotectionmanager/setwriteprotection)(string) | Stelt schrijfbeveiliging in voor deze presentatie met het opgegeven wachtwoord. |
 
 ### Zie ook
 

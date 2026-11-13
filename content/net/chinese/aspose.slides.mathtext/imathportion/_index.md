@@ -1,9 +1,9 @@
 ---
 title: IMathPortion
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示具有数学上下文的部分。
 type: docs
-weight: 8420
+weight: 8440
 url: /zh/aspose.slides.mathtext/imathportion/
 ---
 ## IMathPortion 接口
@@ -35,7 +35,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 程序集 [Aspose.Slides](../../)

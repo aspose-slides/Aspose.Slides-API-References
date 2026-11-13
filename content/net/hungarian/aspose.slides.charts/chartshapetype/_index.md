@@ -1,14 +1,14 @@
 ---
 title: ChartShapeType
-second_title: Aspose.Sildes .NET API Referenciája
-description: A diagram alakját jelöli.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: A diagram alakját képviseli.
 type: docs
-weight: 1470
+weight: 1480
 url: /hu/aspose.slides.charts/chartshapetype/
 ---
 ## ChartShapeType enumeráció
 
-A chart alakját képviseli.
+A diagram alakját képviseli.
 
 ```csharp
 public enum ChartShapeType
@@ -18,13 +18,13 @@ public enum ChartShapeType
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| NotDefined | `-1` | Chart shape nincs definiálva. |
-| Box | `0` | Megadja, hogy a chart Box alakban legyen megrajzolva. |
-| Cone | `1` | Megadja, hogy a chart Cone alakban legyen megrajzolva, a Cone alapja a talajon, a csúcs a data marker tetején. |
-| ConeToMax | `2` | Megadja, hogy a chart levágott Cone-okkal legyen megrajzolva úgy, hogy a csúcs a maximális adatérték legyen. |
-| Cylinder | `3` | Megadja, hogy a chart Cylinder alakban legyen megrajzolva. |
-| Pyramid | `4` | Megadja, hogy a chart Pyramid alakban legyen megrajzolva, a Pyramid alapja a talajon, a csúcs a data marker tetején. |
-| PyramidToMaximum | `5` | Megadja, hogy a chart levágott Pyramid-okkal legyen megrajzolva úgy, hogy a csúcs a maximális adatérték legyen. |
+| NotDefined | `-1` | A diagram alakja nincs definiálva. |
+| Box | `0` | Azt határozza meg, hogy a diagram doboz alakban legyen megrajzolva. |
+| Cone | `1` | Azt határozza meg, hogy a diagram kúpként legyen megrajzolva, a kúp alappal a padlón és a kúp hegyével az adatjelző tetején. |
+| ConeToMax | `2` | Azt határozza meg, hogy a diagram levágott kúppal legyen megrajzolva úgy, hogy a kúp hegyének a maximális adatértéknek kellene lennie. |
+| Cylinder | `3` | Azt határozza meg, hogy a diagram hengerként legyen megrajzolva. |
+| Pyramid | `4` | Azt határozza meg, hogy a diagram téglalap alapú piramisként legyen megrajzolva, a piramis alappal a padlón és a piramis hegyével az adatjelző tetején. |
+| PyramidToMaximum | `5` | Azt határozza meg, hogy a diagram levágott kúppal legyen megrajzolva úgy, hogy a kúp hegyének a maximális adatértéknek kellene lennie. |
 
 ### Lásd még
 

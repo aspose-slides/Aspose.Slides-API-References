@@ -3,7 +3,7 @@ title: TableFormat
 second_title: Aspose.Sildes для .NET справочник API
 description: Представляет формат таблицы.
 type: docs
-weight: 10870
+weight: 10890
 url: /ru/aspose.slides/tableformat/
 ---
 ## TableFormat класс
@@ -16,14 +16,14 @@ public sealed class TableFormat : DomObject<Table>, ITableFormat
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
-| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | Возвращает объект свойств заливки таблицы. Только чтение [`IFillFormat`](../ifillformat). |
+| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | Возвращает объект свойств заливки таблицы. Только для чтения [`IFillFormat`](../ifillformat). |
 | [Transparency](../../aspose.slides/tableformat/transparency) { get; set; } | Получает или задает прозрачность цвета заливки. Чтение/запись Single. |
 
 ## Методы
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [GetEffective](../../aspose.slides/tableformat/geteffective)() | Получает эффективные свойства форматирования таблицы с учётом наследования и применённых стилей таблицы. |
 

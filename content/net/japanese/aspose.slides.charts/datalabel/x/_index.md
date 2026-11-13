@@ -1,14 +1,14 @@
 ---
 title: X
-second_title: Aspose.Sildes の .NET API リファレンス
-description: タイトルの x 座標を、チャートの幅に対する比率として取得または設定します。 読み取り/書き込み Single.
+second_title: Aspose.Sildes for .NET API リファレンス
+description: タイトルの x 座標を、チャートの幅の割合として取得または設定します。読み取り/書き込み Single.
 type: docs
-weight: 160
+weight: 170
 url: /ja/aspose.slides.charts/datalabel/x/
 ---
 ## DataLabel.X プロパティ
 
-タイトルの x 座標を、チャートの幅に対する比率として取得または設定します。 読み取り/書き込み Single.
+タイトルの x 座標を、チャートの幅の割合として取得または設定します。 読み取り/書き込み Single.
 
 ```csharp
 public float X { get; set; }

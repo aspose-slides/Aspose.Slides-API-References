@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Restituisce un enumeratore che itera attraverso la collezione.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Restituisce un enumeratore che itera attraverso la raccolta.
 type: docs
-weight: 90
+weight: 100
 url: /it/aspose.slides.charts/datalabelcollection/getenumerator/
 ---
 ## DataLabelCollection.GetEnumerator metodo
 
-Restituisce un enumeratore che itera attraverso la collezione.
+Restituisce un enumeratore che itera attraverso la raccolta.
 
 ```csharp
 public IEnumerator<IDataLabel> GetEnumerator()
@@ -16,7 +16,7 @@ public IEnumerator<IDataLabel> GetEnumerator()
 
 ### Valore di ritorno
 
-Un IEnumerator che può essere utilizzato per iterare attraverso la collezione.
+Un IEnumerator che può essere usato per iterare attraverso la raccolta.
 
 ### Vedi anche
 

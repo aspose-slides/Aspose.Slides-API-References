@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeiling
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt einen Alpha-Ceiling-Effekt dar. Alpha-Deckkraftwerte größer als Null werden auf 100 geändert. Mit anderen Worten, alles, das teilweise undurchsichtig ist, wird vollständig undurchsichtig.
+second_title: Aspose.Sildes für .NET API Reference
+description: Stellt einen Alpha-Decken-Effekt dar. Alpha-Opazitätswerte größer als Null werden auf 100 geändert. Mit anderen Worten wird alles, das teilweise undurchsichtig ist, vollständig undurchsichtig.
 type: docs
-weight: 3040
+weight: 3060
 url: /de/aspose.slides.effects/ialphaceiling/
 ---
-## IAlphaCeiling interface
+## IAlphaCeiling Schnittstelle
 
-Stellt einen Alpha-Ceiling-Effekt dar. Alpha- (Deckkraft-) Werte größer als Null werden auf 100 % geändert. Mit anderen Worten, alles, das teilweise undurchsichtig ist, wird vollständig undurchsichtig.
+Stellt einen Alpha-Decken-Effekt dar. Alpha (Opazität) Werte größer als Null werden auf 100 % geändert. Mit anderen Worten wird alles, das teilweise undurchsichtig ist, vollständig undurchsichtig.
 
 ```csharp
 public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphaceiling/asiaccessiblepviobject) { get; } | Ermöglicht das Abrufen der Basis-IAccessiblePVIObject-Schnittstelle. Nur-Lesen [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphaceiling/asiimagetransformoperation) { get; } | Ermöglicht das Abrufen der Basis-IImageTransformOperationEx-Schnittstelle. Nur-Lesen [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphaceiling/asiaccessiblepviobject) { get; } | Ermöglicht das Abrufen der Basis-IAccessiblePVIObject-Schnittstelle. Nur lesbar [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphaceiling/asiimagetransformoperation) { get; } | Ermöglicht das Abrufen der Basis-IImageTransformOperationEx-Schnittstelle. Nur lesbar [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Siehe auch
 

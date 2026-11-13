@@ -3,7 +3,7 @@ title: IField
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 필드를 나타냅니다.
 type: docs
-weight: 5770
+weight: 5790
 url: /ko/aspose.slides/ifield/
 ---
 ## IField 인터페이스
@@ -21,7 +21,7 @@ public interface IField : ISlideComponent
 | [AsISlideComponent](../../aspose.slides/ifield/asislidecomponent) { get; } | 기본 ISlideComponent 인터페이스를 가져올 수 있습니다. 읽기 전용 [`ISlideComponent`](../islidecomponent). |
 | [Type](../../aspose.slides/ifield/type) { get; set; } | 필드 유형을 반환하거나 설정합니다. 읽기/쓰기 [`IFieldType`](../ifieldtype). |
 
-### 참고
+### 참조
 
 * 인터페이스 [ISlideComponent](../islidecomponent)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

@@ -1,14 +1,14 @@
 ---
 title: IBlurEffectiveData
-second_title: Aspose.Sildes для .NET API Reference
-description: Неизменяемый объект, представляющий эффект размытия, применяемый ко всей фигуре, включая её заливку. Затрагиваются все цветовые каналы, включая альфа-канал.
+second_title: Aspose.Sildes для .NET Справочник API
+description: Неизменяемый объект, представляющий эффект размытия, применяемый ко всей фигуре, включая её заливку. Все цветовые каналы, включая альфа-канал, затронуты.
 type: docs
-weight: 3190
+weight: 3210
 url: /ru/aspose.slides.effects/iblureffectivedata/
 ---
 ## IBlurEffectiveData интерфейс
 
-Неизменяемый объект, представляющий эффект размытия, применяемый ко всей фигуре, включая её заливку. Затрагиваются все цветовые каналы, включая альфа-канал.
+Неизменяемый объект, представляющий эффект размытия, применяемый ко всей фигуре, включая её заливку. Все цветовые каналы, включая альфа-канал, затронуты.
 
 ```csharp
 public interface IBlurEffectiveData : IEffectEffectiveData
@@ -19,10 +19,10 @@ public interface IBlurEffectiveData : IEffectEffectiveData
 | Имя | Описание |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/iblureffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | Определяет, должны ли границы объекта расширяться в результате размытия. True указывает, что границы расширяются, тогда как false указывает, что они не расширяются. Только для чтения Boolean. |
+| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | Определяет, должны ли границы объекта расширяться в результате размытия. True указывает, что границы расширены, а false — что они не расширены. Только для чтения Boolean. |
 | [Radius](../../aspose.slides.effects/iblureffectivedata/radius) { get; } | Возвращает или задает радиус размытия. Только для чтения Double. |
 
-### Смотрите также
+### См. также
 
 * интерфейс [IEffectEffectiveData](../ieffecteffectivedata)
 * пространство имён [Aspose.Slides.Effects](../../aspose.slides.effects)

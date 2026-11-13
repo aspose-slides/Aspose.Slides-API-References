@@ -1,14 +1,14 @@
 ---
 title: IFontSubstRule
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft informatie over fontvervanging weer
+description: Representeert informatie over lettertypevervanging
 type: docs
-weight: 5880
+weight: 5900
 url: /nl/aspose.slides/ifontsubstrule/
 ---
 ## IFontSubstRule interface
 
-Geeft informatie over fontvervanging weer
+Representeert informatie over lettertypevervanging
 
 ```csharp
 public interface IFontSubstRule
@@ -18,9 +18,9 @@ public interface IFontSubstRule
 
 | Naam | Beschrijving |
 | --- | --- |
-| [DestFont](../../aspose.slides/ifontsubstrule/destfont) { get; } | Lettertype om te gebruiken voor vervanging Alleen-lezen [`IFontData`](../ifontdata). |
-| [ReplaceFontCondition](../../aspose.slides/ifontsubstrule/replacefontcondition) { get; } | Regel die moet worden toegepast voor vervanging Alleen-lezen [`FontSubstCondition`](../fontsubstcondition). |
-| [SourceFont](../../aspose.slides/ifontsubstrule/sourcefont) { get; } | Lettertype om te vervangen Alleen-lezen [`IFontData`](../ifontdata). |
+| [DestFont](../../aspose.slides/ifontsubstrule/destfont) { get; } | Lettertype dat gebruikt wordt voor substitutie Alleen-lezen [`IFontData`](../ifontdata). |
+| [ReplaceFontCondition](../../aspose.slides/ifontsubstrule/replacefontcondition) { get; } | Regel die toegepast wordt voor substitutie Alleen-lezen [`FontSubstCondition`](../fontsubstcondition). |
+| [SourceFont](../../aspose.slides/ifontsubstrule/sourcefont) { get; } | Lettertype om te substitueren Alleen-lezen [`IFontData`](../ifontdata). |
 
 ### Zie ook
 

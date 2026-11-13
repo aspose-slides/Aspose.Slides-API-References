@@ -1,14 +1,14 @@
 ---
 title: MathTopBotPositions
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Enumerasi posisi atas/bawah
 type: docs
-weight: 9040
+weight: 9060
 url: /id/aspose.slides.mathtext/mathtopbotpositions/
 ---
-## MathTopBotPositions enumerasi
+## enumerasi MathTopBotPositions
 
-Enumerasi posisi atas/bawah
+enumerasi posisi atas/bawah
 
 ```csharp
 public enum MathTopBotPositions
@@ -18,7 +18,7 @@ public enum MathTopBotPositions
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| NotDefined | `0` | Tidak terdefinisi |
+| NotDefined | `0` | Tidak didefinisikan |
 | Top | `1` | Atas |
 | Bottom | `2` | Bawah |
 

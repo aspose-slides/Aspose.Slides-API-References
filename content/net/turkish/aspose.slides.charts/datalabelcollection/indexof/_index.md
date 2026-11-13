@@ -1,14 +1,14 @@
 ---
 title: IndexOf
 second_title: Aspose.Sildes için .NET API Referansı
-description: Koleksiyondaki belirtilen DataLabel'ın indeksini döndürür.
+description: Belirtilen DataLabel'ın koleksiyondaki bir indeksini döndürür.
 type: docs
-weight: 110
+weight: 120
 url: /tr/aspose.slides.charts/datalabelcollection/indexof/
 ---
-## DataLabelCollection.IndexOf metodu
+## DataLabelCollection.IndexOf yöntemi
 
-Belirtilen DataLabel'ın koleksiyondaki indeksini döndürür.
+Belirtilen DataLabel'ın koleksiyondaki bir indeksini döndürür.
 
 ```csharp
 public int IndexOf(IDataLabel value)
@@ -20,7 +20,7 @@ public int IndexOf(IDataLabel value)
 
 ### Dönüş Değeri
 
-Bir DataLabel'ın indeksi ya da -1, eğer DataLabel bu koleksiyondan değilse.
+Bir DataLabel'ın indeksi veya DataLabel bu koleksiyona ait değilse -1.
 
 ### Ayrıca Bakınız
 

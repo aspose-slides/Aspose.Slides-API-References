@@ -1,14 +1,14 @@
 ---
 title: ITable
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示幻灯片上的表格。
 type: docs
-weight: 7230
+weight: 7250
 url: /zh/aspose.slides/itable/
 ---
 ## ITable 接口
 
-表示幻灯片中的表格。
+表示幻灯片上的表格。
 
 ```csharp
 public interface ITable : IBulkTextFormattable, IGraphicalObject
@@ -16,30 +16,30 @@ public interface ITable : IBulkTextFormattable, IGraphicalObject
 
 ## 属性
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/itable/asibulktextformattable) { get; } | 允许获取基 IBulkTextFormattable 接口。只读 [`IBulkTextFormattable`](../ibulktextformattable)。 |
-| [AsIGraphicalObject](../../aspose.slides/itable/asigraphicalobject) { get; } | 允许获取基 IGraphicalObject 接口。只读 [`IGraphicalObject`](../igraphicalobject)。 |
+| [AsIBulkTextFormattable](../../aspose.slides/itable/asibulktextformattable) { get; } | 允许获取基础 IBulkTextFormattable 接口。只读 [`IBulkTextFormattable`](../ibulktextformattable)。 |
+| [AsIGraphicalObject](../../aspose.slides/itable/asigraphicalobject) { get; } | 允许获取基础 IGraphicalObject 接口。只读 [`IGraphicalObject`](../igraphicalobject)。 |
 | [Columns](../../aspose.slides/itable/columns) { get; } | 返回列的集合。只读 [`IColumnCollection`](../icolumncollection)。 |
-| [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | 确定表格的第一列是否需要使用特殊格式绘制。读/写 Boolean。 |
-| [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | 确定表格的第一行是否需要使用特殊格式绘制。读/写 Boolean。 |
-| [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | 确定偶数行是否需要使用不同的格式绘制。读/写 Boolean。 |
+| [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | 确定表格的第一列是否需要使用特殊格式绘制。可读写 Boolean。 |
+| [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | 确定表格的第一行是否需要使用特殊格式绘制。可读写 Boolean。 |
+| [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | 确定偶数行是否需要使用不同的格式绘制。可读写 Boolean。 |
 | [Item](../../aspose.slides/itable/item) { get; } | 返回指定列和行索引处的单元格。只读 [`ICell`](../icell)。 |
-| [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | 确定表格的最后一列是否需要使用特殊格式绘制。读/写 Boolean。 |
-| [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | 确定表格的最后一行是否需要使用特殊格式绘制。读/写 Boolean。 |
-| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | 确定表格是否使用从右到左的阅读顺序。读写 Boolean。 |
+| [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | 确定表格的最后一列是否需要使用特殊格式绘制。可读写 Boolean。 |
+| [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | 确定表格的最后一行是否需要使用特殊格式绘制。可读写 Boolean。 |
+| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | 确定表格是否具有从右到左的阅读顺序。可读写 Boolean。 |
 | [Rows](../../aspose.slides/itable/rows) { get; } | 返回行的集合。只读 [`IRowCollection`](../irowcollection)。 |
-| [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | 获取或设置内置表格样式。读/写 [`TableStylePreset`](../tablestylepreset)。 |
+| [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | 获取或设置内置表格样式。可读写 [`TableStylePreset`](../tablestylepreset)。 |
 | [TableFormat](../../aspose.slides/itable/tableformat) { get; } | 返回包含此表格格式属性的 TableFormat 对象。只读 [`ITableFormat`](../itableformat)。 |
-| [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | 确定偶数列是否需要使用不同的格式绘制。读/写 Boolean。 |
+| [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | 确定偶数列是否需要使用不同的格式绘制。可读写 Boolean。 |
 
 ## 方法
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [MergeCells](../../aspose.slides/itable/mergecells)(ICell, ICell, bool) | 合并相邻单元格。 |
 
-### 参见
+### 另见
 
 * 接口 [IBulkTextFormattable](../ibulktextformattable)
 * 接口 [IGraphicalObject](../igraphicalobject)

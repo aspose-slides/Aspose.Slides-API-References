@@ -1,14 +1,14 @@
 ---
 title: CompressionLevel
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt ZIP-Komprimierungsstufen für OpenXML-Dateien an. Höhere Stufen bieten eine bessere Komprimierung auf Kosten einer langsameren Verarbeitung.
+description: Gibt die ZIP-Komprimierungsstufen für OpenXML-Datei an. Höhere Stufen bieten eine bessere Komprimierung auf Kosten einer langsameren Verarbeitung.
 type: docs
-weight: 3740
+weight: 3760
 url: /de/aspose.slides.export/compressionlevel/
 ---
 ## CompressionLevel Aufzählung
 
-Gibt ZIP-Komprimierungsstufen für OpenXML-Dateien an. Höhere Stufen bieten eine bessere Komprimierung auf Kosten einer langsameren Verarbeitung.
+Gibt die ZIP-Komprimierungsstufen für OpenXML-Datei an. Höhere Stufen bieten bessere Komprimierung auf Kosten einer langsameren Verarbeitung.
 
 ```csharp
 public enum CompressionLevel
@@ -18,18 +18,18 @@ public enum CompressionLevel
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| None | `0` | Keine Komprimierung wird angewendet. Dateien werden unverändert gespeichert. |
+| None | `0` | Es wird keine Komprimierung angewendet. Dateien werden unverändert gespeichert. |
 | Level1 | `1` | Schnellste Komprimierung mit dem niedrigsten Komprimierungsgrad. |
 | Level2 | `2` | Schnellere Komprimierung mit leicht besserem Komprimierungsgrad als Level1. |
-| Level3 | `3` | Bietet bessere Komprimierung als Level2 mit moderatem Leistungseinfluss. |
-| Level4 | `4` | Bietet bessere Komprimierung als Level3. |
-| Level5 | `5` | Bietet verbesserte Komprimierung gegenüber Level4 mit zusätzlicher Verarbeitungszeit. |
-| Level6 | `6` | Standardkomprimierung, die ein gutes Gleichgewicht zwischen Komprimierungsgeschwindigkeit und Dateigröße bietet. Die Standardkomprimierungsstufe. |
-| Level7 | `7` | Bietet höhere Komprimierung als Level6 bei langsamerer Verarbeitung. |
-| Level8 | `8` | Bietet höhere Komprimierung als Level7. |
+| Level3 | `3` | Bietet eine bessere Komprimierung als Level2 bei moderatem Leistungseinfluss. |
+| Level4 | `4` | Bietet eine bessere Komprimierung als Level3. |
+| Level5 | `5` | Bietet eine verbesserte Komprimierung gegenüber Level4 mit zusätzlicher Verarbeitungszeit. |
+| Level6 | `6` | Standardkomprimierung, die ein gutes Gleichgewicht zwischen Komprimierungsgeschwindigkeit und Dateigröße bietet. Die Standard-Komprimierungsstufe. |
+| Level7 | `7` | Bietet eine höhere Komprimierung als Level6 bei langsamerer Verarbeitung. |
+| Level8 | `8` | Bietet eine höhere Komprimierung als Level7. |
 | Level9 | `9` | Maximale Komprimierung. Erzeugt die kleinste Dateigröße bei der langsamsten Verarbeitungsgeschwindigkeit. |
 
-### Siehe Auch
+### Siehe auch
 
 * Namensraum [Aspose.Slides.Export](../../aspose.slides.export)
 * Assembly [Aspose.Slides](../../)

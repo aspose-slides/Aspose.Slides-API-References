@@ -1,14 +1,14 @@
 ---
 title: PVIObject
-second_title: Aspose.Sildes for .NET API 参考
-description: 封装了对象可能成为属性值继承主体的基本服务基础设施。
+second_title: Aspose.Sildes 的 .NET API 参考
+description: 封装了对象可以作为属性值继承主体的基本服务基础设施。
 type: docs
-weight: 9270
+weight: 9290
 url: /zh/aspose.slides/pviobject/
 ---
 ## PVIObject 类
 
-封装了对象可能成为属性值继承主体的基本服务基础设施。
+封装了对象可以作为属性值继承主体的基本服务基础设施。
 
 ```csharp
 public abstract class PVIObject : ISlideComponent
@@ -18,7 +18,7 @@ public abstract class PVIObject : ISlideComponent
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基础 IPresentationComponent 接口。只读 [`IPresentationComponent`](../ipresentationcomponent)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基 IPresentationComponent 接口。只读 [`IPresentationComponent`](../ipresentationcomponent)。 |
 
 ## 方法
 
@@ -27,7 +27,7 @@ public abstract class PVIObject : ISlideComponent
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 与指定对象进行比较。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 返回哈希码。 |
 
-### 另见
+### 参见
 
 * 接口 [ISlideComponent](../islidecomponent)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

@@ -1,14 +1,14 @@
 ---
 title: IBlobManagementOptions
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Binary Large Object BLOB adalah data biner yang disimpan sebagai satu entitas—yaitu BLOB dapat berupa audio, video, atau presentasi itu sendiri. Berbagai teknik digunakan untuk mengoptimalkan konsumsi memori saat bekerja dengan BLOBs—yang sudah disimpan dalam presentasi atau akan ditambahkan kemudian secara programatis. Dengan menggunakan IBlobManagementOptions./iblobmanagementoptions Anda dapat mengubah berbagai aspek perilaku terkait penanganan BLOBs untuk masa hidup instance IPresentation./ipresentation.
+description: BLOB (Binary Large Object) adalah data biner yang disimpan sebagai satu entitas – yaitu BLOB dapat berupa audio, video, atau presentasi itu sendiri. Beberapa teknik digunakan untuk mengoptimalkan konsumsi memori saat bekerja dengan BLOB – yang sudah disimpan dalam presentasi atau akan ditambahkan kemudian secara programatis. Dengan menggunakan IBlobManagementOptions./iblobmanagementoptions Anda dapat mengubah berbagai aspek perilaku terkait penanganan BLOB untuk masa hidup instance IPresentation./ipresentation.
 type: docs
-weight: 5370
+weight: 5390
 url: /id/aspose.slides/iblobmanagementoptions/
 ---
 ## IBlobManagementOptions antarmuka
 
-Binary Large Object (BLOB) adalah data biner yang disimpan sebagai satu entitas—yaitu BLOB dapat berupa audio, video, atau presentasi itu sendiri. Berbagai teknik digunakan untuk mengoptimalkan konsumsi memori saat bekerja dengan BLOBs—yang sudah disimpan dalam presentasi atau akan ditambahkan kemudian secara programatis. Menggunakan [`IBlobManagementOptions`](../iblobmanagementoptions) Anda dapat mengubah aspek perilaku yang berbeda terkait penanganan BLOBs untuk masa hidup instance [`IPresentation`](../ipresentation).
+Binary Large Object (BLOB) adalah data biner yang disimpan sebagai satu entitas – yaitu BLOB dapat berupa audio, video, atau presentasi itu sendiri. Sejumlah teknik digunakan untuk mengoptimalkan konsumsi memori saat bekerja dengan BLOB – yang sudah disimpan dalam presentasi atau akan ditambahkan secara terprogram nanti. Menggunakan [`IBlobManagementOptions`](../iblobmanagementoptions) Anda dapat mengubah berbagai aspek perilaku terkait penanganan BLOB untuk masa hidup instance [`IPresentation`](../ipresentation).
 
 ```csharp
 public interface IBlobManagementOptions
@@ -18,14 +18,14 @@ public interface IBlobManagementOptions
 
 | Nama | Deskripsi |
 | --- | --- |
-| [IsTemporaryFilesAllowed](../../aspose.slides/iblobmanagementoptions/istemporaryfilesallowed) { get; set; } | Properti ini menentukan apakah file sementara dapat dibuat saat bekerja dengan BLOBs, yang secara signifikan mengurangi konsumsi memori tetapi memerlukan izin untuk membuat file. Semua file akan dihapus setelah pekerjaan dengan Presentation selesai. |
-| [MaxBlobsBytesInMemory](../../aspose.slides/iblobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Menentukan ukuran total maksimum (dalam byte) yang dapat ditempati semua BLOBs di memori. Secara default, semua BLOBs dimuat ke memori; hanya setelah batas ini tercapai mekanisme alternatif (seperti file sementara) akan digunakan. Menyimpan BLOBs di memori memaksimalkan kinerja namun dapat menyebabkan penggunaan memori yang tinggi. Gunakan properti ini untuk menyesuaikan perilaku dengan lingkungan atau persyaratan Anda. |
-| [PresentationLockingBehavior](../../aspose.slides/iblobmanagementoptions/presentationlockingbehavior) { get; set; } | Properti ini menentukan apakah sebuah instance dari kelas Presentation dapat menjadi pemilik sumber—file atau stream—selama masa hidup instance. Jika instance menjadi pemilik, ia mengunci sumber tersebut. Hal ini membantu meningkatkan konsumsi memori dan kinerja saat bekerja dengan BLOBs, tetapi sumber (stream atau file) tidak dapat diubah selama masa hidup Presentation. Ini adalah contoh: |
+| [IsTemporaryFilesAllowed](../../aspose.slides/iblobmanagementoptions/istemporaryfilesallowed) { get; set; } | Properti ini menentukan apakah file sementara dapat dibuat saat bekerja dengan BLOB, yang secara signifikan mengurangi konsumsi memori tetapi memerlukan izin untuk membuat file. Semua file akan dihapus setelah pekerjaan dengan presentasi selesai. |
+| [MaxBlobsBytesInMemory](../../aspose.slides/iblobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Mendefinisikan ukuran total maksimum (dalam byte) yang dapat ditempati semua BLOB di memori. Secara default, semua BLOB dimuat ke memori; hanya ketika batas ini tercapai mekanisme alternatif (seperti file sementara) digunakan. Menyimpan BLOB di memori memaksimalkan kinerja tetapi dapat menyebabkan penggunaan memori yang tinggi. Gunakan properti ini untuk menyesuaikan perilaku dengan lingkungan atau persyaratan Anda. |
+| [PresentationLockingBehavior](../../aspose.slides/iblobmanagementoptions/presentationlockingbehavior) { get; set; } | Properti ini menentukan apakah sebuah instance dari kelas Presentation dapat menjadi pemilik sumber – file atau stream selama masa hidup instance. Jika instance menjadi pemilik, ia mengunci sumber. Hal ini membantu meningkatkan konsumsi memori dan kinerja saat bekerja dengan BLOB, tetapi sumber (stream atau file) tidak dapat diubah selama masa hidup instance Presentation. Ini adalah contoh: |
 | [TempFilesRootPath](../../aspose.slides/iblobmanagementoptions/tempfilesrootpath) { get; set; } | Jalur root tempat file sementara akan dibuat. Direktori sementara sistem akan digunakan secara default. Proses hosting harus memiliki izin untuk membuat file dan folder di sana. |
 
 ### Lihat Juga
 
-* ruang nama [Aspose.Slides](../../aspose.slides)
+* ruangnama [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

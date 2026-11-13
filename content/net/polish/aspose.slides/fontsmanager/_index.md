@@ -1,9 +1,9 @@
 ---
 title: FontsManager
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET – referencja API
 description: Zarządza czcionkami w całej prezentacji.
 type: docs
-weight: 4940
+weight: 4960
 url: /pl/aspose.slides/fontsmanager/
 ---
 ## FontsManager klasa
@@ -16,35 +16,36 @@ public class FontsManager : IFontsManager
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
-| [FontFallBackRulesCollection](../../aspose.slides/fontsmanager/fontfallbackrulescollection) { get; set; } | Reprezentuje kolekcję reguł FontFallBack użytkownika służącą do zarządzania zbiorami czcionek w celu prawidłowych podstawień przy użyciu funkcji zastępczej Odczyt/zapis [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
-| [FontSubstRuleList](../../aspose.slides/fontsmanager/fontsubstrulelist) { get; set; } | Substitucje czcionek używane podczas renderowania. Odczyt/zapis [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
+| [FontFallBackRulesCollection](../../aspose.slides/fontsmanager/fontfallbackrulescollection) { get; set; } | Reprezentuje kolekcję reguł FontFallBack użytkownika służących do zarządzania zbiorami czcionek w celu właściwych podstawień przy użyciu funkcji awaryjnej Odczyt/zapis [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
+| [FontSubstRuleList](../../aspose.slides/fontsmanager/fontsubstrulelist) { get; set; } | Podstawienia czcionek używane podczas renderowania. Odczyt/zapis [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
+| [PreferRegisteredFontsOverEmbedded](../../aspose.slides/fontsmanager/preferregisteredfontsoverembedded) { get; set; } | Określa, czy zarejestrowane czcionki powinny mieć pierwszeństwo przed osadzonymi czcionkami o tej samej nazwie i stylu. Gdy jest włączone, pasujące osadzone czcionki są tymczasowo zastępowane odpowiednimi zarejestrowanymi czcionkami podczas eksportu. |
 
 ## Metody
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
-| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | Dodaje wbudowaną czcionkę. Pamiętaj, że przy kopiowaniu czcionek większość z nich jest objęta prawami autorskimi. Najpierw znajdź licencję czcionki i sprawdź, czy może być swobodnie przeniesiona na inny komputer. ArgumentException może zostać rzucony, jeśli dane czcionki są null lub czcionka jest już wbudowana. |
-| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | Dodaje wbudowaną czcionkę. Pamiętaj, że przy kopiowaniu czcionek większość z nich jest objęta prawami autorskimi. Najpierw znajdź licencję czcionki i sprawdź, czy może być swobodnie przeniesiona na inny komputer. ArgumentException może zostać rzucony, jeśli dane czcionki są null lub czcionka jest już wbudowana. |
-| [GetEmbeddedFonts](../../aspose.slides/fontsmanager/getembeddedfonts)() | Zwraca czcionki wbudowane w prezentację. |
+| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | Dodaje czcionkę osadzoną. Należy pamiętać przy kopiowaniu jakichkolwiek czcionek, że większość z nich jest objęta prawami autorskimi. Najpierw należy zlokalizować licencję czcionki i upewnić się, że może być ona swobodnie przeniesiona na inny komputer. ArgumentException może zostać rzucony, jeśli dane czcionki są null lub czcionka jest już osadzona. |
+| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | Dodaje czcionkę osadzoną. Należy pamiętać przy kopiowaniu jakichkolwiek czcionek, że większość z nich jest objęta prawami autorskimi. Najpierw należy zlokalizować licencję czcionki i upewnić się, że może być ona swobodnie przeniesiona na inny komputer. ArgumentException może zostać rzucony, jeśli dane czcionki są null lub czcionka jest już osadzona. |
+| [GetEmbeddedFonts](../../aspose.slides/fontsmanager/getembeddedfonts)() | Zwraca czcionki osadzone w prezentacji |
 | [GetFontBytes](../../aspose.slides/fontsmanager/getfontbytes)(IFontData, FontStyleType) | Pobiera tablicę bajtów reprezentującą dane czcionki dla określonego stylu czcionki i danych czcionki. |
 | [GetFontEmbeddingLevel](../../aspose.slides/fontsmanager/getfontembeddinglevel)(byte[], string) | Określa poziom osadzenia czcionki na podstawie podanej tablicy bajtów i nazwy czcionki. |
-| [GetFonts](../../aspose.slides/fontsmanager/getfonts)() | Zwraca czcionki użyte w prezentacji. |
+| [GetFonts](../../aspose.slides/fontsmanager/getfonts)() | Zwraca czcionki użyte w prezentacji |
 | [GetSubstitutions](../../aspose.slides/fontsmanager/getsubstitutions#getsubstitutions)() | Pobiera informacje o czcionkach, które zostaną zastąpione podczas renderowania prezentacji. |
 | [GetSubstitutions](../../aspose.slides/fontsmanager/getsubstitutions#getsubstitutions_1)(int[]) | Pobiera informacje o czcionkach, które zostaną zastąpione podczas renderowania określonych slajdów. |
-| [RemoveEmbeddedFont](../../aspose.slides/fontsmanager/removeembeddedfont)(IFontData) | Usuwa wbudowaną czcionkę. |
-| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_1)(IFontSubstRule) | Zastępuje czcionkę w prezentacji przy użyciu informacji podanych w [`FontSubstRule`](../fontsubstrule). |
-| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | Zastępuje czcionkę w prezentacji przy użyciu informacji podanych w kolekcji [`FontSubstRule`](../fontsubstrule). |
-| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont)(IFontData, IFontData) | Zastępuje czcionkę w prezentacji. |
+| [RemoveEmbeddedFont](../../aspose.slides/fontsmanager/removeembeddedfont)(IFontData) | Usuwa osadzoną czcionkę |
+| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_1)(IFontSubstRule) | Zastępuje czcionkę w prezentacji, używając informacji podanych w [`FontSubstRule`](../fontsubstrule) |
+| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | Zastępuje czcionkę w prezentacji, używając informacji podanych w zbiorze [`FontSubstRule`](../fontsubstrule) |
+| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont)(IFontData, IFontData) | Zastępuje czcionkę w prezentacji |
 
 ### Przykłady
 
-Poniższy przykład pokazuje, jak dodać wbudowane czcionki do prezentacji PowerPoint.
+Poniższy przykład pokazuje, jak dodać osadzone czcionki do prezentacji PowerPoint.
 
 ```csharp
 [C#]
-// Załaduj prezentację
+// Wczytaj prezentację
 using (Presentation presentation = new Presentation("Fonts.pptx"))
 {
 	// Wczytaj czcionkę źródłową do zastąpienia

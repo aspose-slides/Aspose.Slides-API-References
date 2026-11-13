@@ -1,12 +1,12 @@
 ---
 title: ISmartArtNodeCollection
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: SmartArt düğümlerinin bir koleksiyonunu temsil eder.
 type: docs
-weight: 10560
+weight: 10580
 url: /tr/aspose.slides.smartart/ismartartnodecollection/
 ---
-## ISmartArtNodeCollection arayüz
+## ISmartArtNodeCollection arayüzü
 
 SmartArt düğümlerinin bir koleksiyonunu temsil eder.
 
@@ -18,18 +18,18 @@ public interface ISmartArtNodeCollection : IGenericCollection<ISmartArtNode>
 
 | Ad | Açıklama |
 | --- | --- |
-| [Item](../../aspose.slides.smartart/ismartartnodecollection/item) { get; } | Dizine göre düğüm döndürür. Yalnızca okuma [`ISmartArtNode`](../ismartartnode) |
+| [Item](../../aspose.slides.smartart/ismartartnodecollection/item) { get; } | Dizindeki düğümü döndürür. Salt okunur [`ISmartArtNode`](../ismartartnode) |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [AddNode](../../aspose.slides.smartart/ismartartnodecollection/addnode)() | Yeni düğüm veya alt düğüm ekler. |
-| [AddNodeByPosition](../../aspose.slides.smartart/ismartartnodecollection/addnodebyposition)(int) | Seçilen konumda düğüm koleksiyonuna yeni düğüm ekler. |
-| [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode_1)(int) | Dizine göre düğüm veya alt düğüm kaldırır. |
-| [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode)(ISmartArtNode) | Düğüm veya alt düğüm kaldırır. |
+| [AddNode](../../aspose.slides.smartart/ismartartnodecollection/addnode)() | Yeni bir düğüm veya alt düğüm ekler. |
+| [AddNodeByPosition](../../aspose.slides.smartart/ismartartnodecollection/addnodebyposition)(int) | Düğümler koleksiyonundaki seçilen konuma yeni bir düğüm ekler. |
+| [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode_1)(int) | Dizinden düğüm veya alt düğümü kaldırır. |
+| [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode)(ISmartArtNode) | Düğüm veya alt düğümü kaldırır. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * arayüz [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * arayüz [ISmartArtNode](../ismartartnode)

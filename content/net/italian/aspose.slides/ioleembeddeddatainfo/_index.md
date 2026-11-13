@@ -1,14 +1,14 @@
 ---
 title: IOleEmbeddedDataInfo
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta le informazioni dei dati incorporati per l'oggetto OLE.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Rappresenta le informazioni sui dati incorporati per l'oggetto OLE.
 type: docs
-weight: 6530
+weight: 6550
 url: /it/aspose.slides/ioleembeddeddatainfo/
 ---
 ## IOleEmbeddedDataInfo interfaccia
 
-Rappresenta le informazioni dei dati incorporati per l'oggetto OLE.
+Rappresenta le informazioni sui dati incorporati dell'oggetto OLE.
 
 ```csharp
 public interface IOleEmbeddedDataInfo

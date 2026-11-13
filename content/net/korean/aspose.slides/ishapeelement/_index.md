@@ -1,20 +1,20 @@
 ---
 title: IShapeElement
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 동일한 외곽선 및 채우기 속성을 가진 도형의 일부를 나타냅니다.
+description: 같은 외곽선 및 채우기 속성을 가진 도형의 일부를 나타냅니다.
 type: docs
-weight: 6990
+weight: 7010
 url: /ko/aspose.slides/ishapeelement/
 ---
 ## IShapeElement 인터페이스
 
-동일한 외곽선 및 채우기 속성을 가진 도형의 일부를 나타냅니다.
+같은 외곽선 및 채우기 속성을 가진 도형의 일부를 나타냅니다.
 
 ```csharp
 public interface IShapeElement
 ```
 
-### 참조
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

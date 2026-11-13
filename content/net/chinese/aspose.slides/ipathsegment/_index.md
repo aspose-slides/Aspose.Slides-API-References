@@ -1,9 +1,9 @@
 ---
 title: IPathSegment
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes 的 .NET API 参考
 description: 表示 GeometryShape 的图形路径段
 type: docs
-weight: 6610
+weight: 6630
 url: /zh/aspose.slides/ipathsegment/
 ---
 ## IPathSegment 接口
@@ -21,7 +21,7 @@ public interface IPathSegment
 | [PathCommand](../../aspose.slides/ipathsegment/pathcommand) { get; } | 段的路径类型 |
 | [SegmentData](../../aspose.slides/ipathsegment/segmentdata) { get; } | 段的路径数据 |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

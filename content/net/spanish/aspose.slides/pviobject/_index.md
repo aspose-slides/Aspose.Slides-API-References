@@ -1,14 +1,14 @@
 ---
 title: PVIObject
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Encapsula la infraestructura básica de servicio para objetos que pueden ser objeto de herencia de valores de propiedad.
+description: Encapsula la infraestructura básica de servicio para objetos que pueden ser objeto de herencia de valores de propiedades.
 type: docs
-weight: 9270
+weight: 9290
 url: /es/aspose.slides/pviobject/
 ---
 ## PVIObject clase
 
-Encapsula la infraestructura básica de servicio para objetos que pueden ser objeto de herencia de valores de propiedad.
+Encapsula la infraestructura de servicio básica para objetos que pueden ser sujetos a la herencia de valores de propiedades.
 
 ```csharp
 public abstract class PVIObject : ISlideComponent

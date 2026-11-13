@@ -1,14 +1,14 @@
 ---
 title: IGenericCloneableT
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: ICloneable의 일반화된 버전을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: ICloneable의 일반 버전을 나타냅니다
 type: docs
-weight: 5950
+weight: 5970
 url: /ko/aspose.slides/igenericcloneable-1/
 ---
 ## IGenericCloneable<T> 인터페이스
 
-ICloneable의 일반화된 버전을 나타냅니다.
+ICloneable의 일반 버전을 나타냅니다
 
 ```csharp
 public interface IGenericCloneable<T> : ICloneable
@@ -16,7 +16,7 @@ public interface IGenericCloneable<T> : ICloneable
 
 | 매개변수 | 설명 |
 | --- | --- |
-| T | 복제할 객체의 유형 |
+| T | 복제할 객체의 형식 |
 
 ## 속성
 
@@ -30,7 +30,7 @@ public interface IGenericCloneable<T> : ICloneable
 | --- | --- |
 | [CloneT](../../aspose.slides/igenericcloneable`1/clonet)() | 현재 인스턴스의 복사본인 새 객체를 생성합니다. |
 
-### 또 보기
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

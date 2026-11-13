@@ -3,7 +3,7 @@ title: IChartCellCollection
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Sammlung von Zellen mit Daten dar.
 type: docs
-weight: 1780
+weight: 1800
 url: /de/aspose.slides.charts/ichartcellcollection/
 ---
 ## IChartCellCollection Schnittstelle
@@ -18,8 +18,8 @@ public interface IChartCellCollection : IEnumerable<IChartDataCell>
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.charts/ichartcellcollection/asienumerable) { get; } | Gibt das ICollection-Interface zurück. Nur lesbar IEnumerable. |
-| [Count](../../aspose.slides.charts/ichartcellcollection/count) { get; } | Ermittelt die Anzahl der Zellen in der Sammlung. Nur lesbar Int32. |
+| [AsIEnumerable](../../aspose.slides.charts/ichartcellcollection/asienumerable) { get; } | Gibt das ICollection-Interface zurück. Nur-Lese IEnumerable. |
+| [Count](../../aspose.slides.charts/ichartcellcollection/count) { get; } | Ermittelt die Anzahl der Zellen in der Sammlung. Nur-Lese Int32. |
 | [Item](../../aspose.slides.charts/ichartcellcollection/item) { get; } | Gibt eine Zelle (IChartDataCell) nach Index zurück. |
 
 ## Methoden
@@ -29,10 +29,10 @@ public interface IChartCellCollection : IEnumerable<IChartDataCell>
 | [Add](../../aspose.slides.charts/ichartcellcollection/add#add)(IChartDataCell) | Fügt der Sammlung eine neue Zelle hinzu. |
 | [Add](../../aspose.slides.charts/ichartcellcollection/add#add_1)(object) | Erstellt [`IChartDataCell`](../ichartdatacell) aus dem angegebenen Wert und fügt es der Sammlung hinzu. |
 | [GetCellsAddress](../../aspose.slides.charts/ichartcellcollection/getcellsaddress)() | Gibt die Adresse des Zellensatzes in der Arbeitsmappe zurück. |
-| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | Verkettungszeichenfolge aus allen Zeichenfolgenwerten der Zellen. |
+| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | Verkettungszeichenfolge aus allen Zellwerten. |
 | [RemoveAt](../../aspose.slides.charts/ichartcellcollection/removeat)(int) | Entfernt eine Zelle aus der Sammlung nach Index. |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IChartDataCell](../ichartdatacell)
 * Namensraum [Aspose.Slides.Charts](../../aspose.slides.charts)

@@ -1,14 +1,14 @@
 ---
 title: NotesCommentsLayoutingOptions
 second_title: Aspose.Sildes for .NET API 参考
-description: 提供用于控制导出文档中备注和注释布局外观的选项。
+description: 提供控制导出文档中批注和注释布局外观的选项。
 type: docs
-weight: 4290
+weight: 4310
 url: /zh/aspose.slides.export/notescommentslayoutingoptions/
 ---
 ## NotesCommentsLayoutingOptions 类
 
-提供控制导出文档中备注和注释布局外观的选项。
+提供控制导出文档中批注和注释布局外观的选项。
 
 ```csharp
 public class NotesCommentsLayoutingOptions : ISlidesLayoutOptions
@@ -24,13 +24,13 @@ public class NotesCommentsLayoutingOptions : ISlidesLayoutOptions
 
 | 名称 | 描述 |
 | --- | --- |
-| [CommentsAreaColor](../../aspose.slides.export/notescommentslayoutingoptions/commentsareacolor) { get; set; } | 获取或设置注释区域的颜色（仅在注释显示在右侧时适用）。 |
-| [CommentsAreaWidth](../../aspose.slides.export/notescommentslayoutingoptions/commentsareawidth) { get; set; } | 获取或设置注释输出区域的宽度（单位为像素）（仅在注释显示在右侧时适用）。 |
-| [CommentsPosition](../../aspose.slides.export/notescommentslayoutingoptions/commentsposition) { get; set; } | 获取或设置页面上注释的位置。 |
-| [NotesPosition](../../aspose.slides.export/notescommentslayoutingoptions/notesposition) { get; set; } | 获取或设置页面上备注的位置。 |
-| [ShowCommentsByNoAuthor](../../aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | 获取或设置没有作者的注释的可见性。如果为 true，则会显示注释。（仅在显示注释时适用） |
+| [CommentsAreaColor](../../aspose.slides.export/notescommentslayoutingoptions/commentsareacolor) { get; set; } | 获取或设置批注区域的颜色（仅在批注显示在右侧时适用）。 |
+| [CommentsAreaWidth](../../aspose.slides.export/notescommentslayoutingoptions/commentsareawidth) { get; set; } | 获取或设置批注输出区域的宽度，以像素为单位（仅在批注显示在右侧时适用）。 |
+| [CommentsPosition](../../aspose.slides.export/notescommentslayoutingoptions/commentsposition) { get; set; } | 获取或设置批注在页面上的位置。 |
+| [NotesPosition](../../aspose.slides.export/notescommentslayoutingoptions/notesposition) { get; set; } | 获取或设置备注在页面上的位置。 |
+| [ShowCommentsByNoAuthor](../../aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | 获取或设置没有作者的批注的可见性。如果为 true，则显示批注。（仅在显示批注时适用）。 |
 
-### 另请参阅
+### 另请参见
 
 * 接口 [ISlidesLayoutOptions](../islideslayoutoptions)
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)

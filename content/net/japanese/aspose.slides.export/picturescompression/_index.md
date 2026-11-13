@@ -3,10 +3,10 @@ title: PicturesCompression
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 画像の圧縮レベルを表します
 type: docs
-weight: 4350
+weight: 4370
 url: /ja/aspose.slides.export/picturescompression/
 ---
-## PicturesCompression 列挙型
+## PicturesCompression 列挙体
 
 画像圧縮レベルを表します
 
@@ -19,13 +19,13 @@ public enum PicturesCompression
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
 | Dpi330 | `0` | 高解像度（HD）ディスプレイ向けの高品質 |
-| Dpi220 | `1` | ほとんどのプリンターや画面で優れた品質 |
-| Dpi150 | `2` | ウェブページやプロジェクター向けに適しています |
-| Dpi96 | `3` | 共有用に文書サイズを最小化します |
+| Dpi220 | `1` | ほとんどのプリンタや画面での優れた品質 |
+| Dpi150 | `2` | ウェブページやプロジェクター向けに適した品質 |
+| Dpi96 | `3` | 共有のために文書サイズを最小化 |
 | Dpi72 | `4` | デフォルトの圧縮レベル |
-| DocumentResolution | `5` | 文書の解像度を使用します - 画像は圧縮されず、そのまま文書に使用されます |
+| DocumentResolution | `5` | ドキュメント解像度を使用 - 画像は圧縮されず、そのまま文書に使用されます |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides.Export](../../aspose.slides.export)
 * アセンブリ [Aspose.Slides](../../)

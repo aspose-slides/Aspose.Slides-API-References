@@ -1,14 +1,14 @@
 ---
 title: HighlightRegex
 second_title: Aspose.Sildes .NET API Referansı
-description: Belirtilen renk ile düzenli ifadenin tüm eşleşmelerini vurgular.
+description: Belirtilen renk ile regular expression'ın tüm eşleşmelerini vurgular.
 type: docs
-weight: 90
+weight: 100
 url: /tr/aspose.slides/textframe/highlightregex/
 ---
-## TextFrame.HighlightRegex method
+## TextFrame.HighlightRegex metodu
 
-Belirtilen renk ile düzenli ifadenin tüm eşleşmelerini vurgular.
+Belirtilen renk ile regular expression'ın tüm eşleşmelerini vurgular.
 
 ```csharp
 public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallback callback)
@@ -16,7 +16,7 @@ public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallbac
 
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| regex | Regex | Vurgulanacak dizeleri elde etmek için kullanılan düzenli ifade Regex. |
+| regex | Regex | Vurgulanacak dizeleri elde etmek için kullanılan regular expression Regex. |
 | highlightColor | Color | Metni vurgulamak için kullanılan renk. |
 | callback | IFindResultCallback | Arama sonuçlarını almak için kullanılan callback nesnesi [`IFindResultCallback`](../../ifindresultcallback). |
 
@@ -35,7 +35,7 @@ using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 }
 ```
 
-### İlgili
+### Ayrıca Bakınız
 
 * interface [IFindResultCallback](../../ifindresultcallback)
 * class [TextFrame](../../textframe)

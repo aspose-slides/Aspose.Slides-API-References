@@ -3,12 +3,12 @@ title: IDataLabel
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt een reeks labels voor.
 type: docs
-weight: 2020
+weight: 2040
 url: /nl/aspose.slides.charts/idatalabel/
 ---
 ## IDataLabel interface
 
-Represents a series labels.
+Stelt een reeks labels voor.
 
 ```csharp
 public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
@@ -22,15 +22,16 @@ public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
 | [AsILayoutable](../../aspose.slides.charts/idatalabel/asilayoutable) { get; } | Retourneert ILayoutable interface. Alleen-lezen [`ILayoutable`](../ilayoutable). |
 | [AsIOverridableText](../../aspose.slides.charts/idatalabel/asioverridabletext) { get; } | Retourneert IOverridableText interface. Alleen-lezen [`IOverridableText`](../ioverridabletext). |
 | [DataLabelFormat](../../aspose.slides.charts/idatalabel/datalabelformat) { get; } | Retourneert het formaat van het gegevenslabel. Alleen-lezen [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | False betekent dat het gegevenslabel niet zichtbaar is (en dus alle Show*-vlaggen (ShowValue, ...) onwaar zijn). Alleen-lezen Boolean. |
-| [ValueFromCell](../../aspose.slides.charts/idatalabel/valuefromcell) { get; set; } | Haalt of stelt werkboekgegevenscel in. Toegepast als de eigenschap IDataLabelFormat.ShowLabelValueFromCell true is. |
+| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | False betekent dat het gegevenslabel niet zichtbaar is (en dus alle Show*-flags (ShowValue, ...) false zijn). Alleen-lezen Boolean. |
+| [LabelShapeType](../../aspose.slides.charts/idatalabel/labelshapetype) { get; set; } | Haalt of stelt het vormtype van het gegevenslabel in. Retourneert NotDefined als er geen vorm is gedefinieerd. |
+| [ValueFromCell](../../aspose.slides.charts/idatalabel/valuefromcell) { get; set; } | Haalt of stelt de werkboekgegevenscel in. Wordt toegepast als de IDataLabelFormat.ShowLabelValueFromCell eigenschap true is. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [GetActualLabelText](../../aspose.slides.charts/idatalabel/getactuallabeltext)() | Retourneert de actuele labeltekst op basis van de DataLabelFormat-instellingen of de waarde van TextFrameForOverriding.Text. |
-| [Hide](../../aspose.slides.charts/idatalabel/hide)() | Verberg het gegevenslabel door alle Show*-vlaggen (ShowValue, ...) op de onwaar-toestand te zetten. IsVisible zal daarna onwaar zijn. |
+| [GetActualLabelText](../../aspose.slides.charts/idatalabel/getactuallabeltext)() | Retourneert de werkelijke labeltekst op basis van de DataLabelFormat-instellingen of de TextFrameForOverriding.Text-waarde. |
+| [Hide](../../aspose.slides.charts/idatalabel/hide)() | Verberg het gegevenslabel door alle Show*-flags (ShowValue, ...) op false te zetten. IsVisible zal daarna false zijn. |
 
 ### Zie ook
 

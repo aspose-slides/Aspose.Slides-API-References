@@ -1,12 +1,12 @@
 ---
 title: Collect
-second_title: Riferimento API di Aspose.Sildes per .NET
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta un gruppo di metodi destinati a raccogliere oggetti modello di diversi tipi da Presentation../aspose.slides/presentation.
 type: docs
-weight: 7860
+weight: 7880
 url: /it/aspose.slides.lowcode/collect/
 ---
-## Collect classe
+## Classe Collect
 
 Rappresenta un gruppo di metodi destinati a raccogliere oggetti modello di diversi tipi da [`Presentation`](../../aspose.slides/presentation).
 

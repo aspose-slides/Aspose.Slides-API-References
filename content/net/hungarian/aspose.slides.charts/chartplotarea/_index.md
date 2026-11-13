@@ -1,14 +1,14 @@
 ---
 title: ChartPlotArea
-second_title: Aspose.Sildes for .NET API referencia
-description: Az a téglalap, amelyben a diagramot meg kell jeleníteni.
+second_title: Aspose.Sildes for .NET API hivatkozás
+description: A diagram megjelenítéséhez használandó téglalapot jelöli.
 type: docs
-weight: 1420
+weight: 1430
 url: /hu/aspose.slides.charts/chartplotarea/
 ---
 ## ChartPlotArea osztály
 
-A téglalap, amelyben a diagramot kell megjeleníteni.
+Represents rectangle where chart should be plotted.
 
 ```csharp
 public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
@@ -16,22 +16,22 @@ public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | Meghatározza a diagram elem tényleges magasságát. Hívja az IChart.ValidateChartLayout() metódust előtte a tényleges értékek lekéréséhez. Olvasás Single. |
-| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | Meghatározza a diagram elem tényleges szélességét. Hívja az IChart.ValidateChartLayout() metódust előtte a tényleges értékek lekéréséhez. Olvasás Single. |
-| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | Meghatározza a diagram elem tényleges x helyzetét (bal) a diagram bal felső sarkához viszonyítva. Hívja az IChart.ValidateChartLayout() metódust előtte a tényleges értékek lekéréséhez. Olvasás Single. |
-| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | Meghatározza a diagram elem tényleges felső részét a diagram bal felső sarkához viszonyítva. Hívja az IChart.ValidateChartLayout() metódust előtte a tényleges értékek lekéréséhez. Olvasás Single. |
-| [Bottom](../../aspose.slides.charts/chartplotarea/bottom) { get; } | Alul. Csak olvasható Single. |
+| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | Meghatározza a diagram elem tényleges magasságát. Hívja meg előtte az IChart.ValidateChartLayout() metódust a tényleges értékek lekéréséhez. Olvas Single. |
+| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | Meghatározza a diagram elem tényleges szélességét. Hívja meg előtte az IChart.ValidateChartLayout() metódust a tényleges értékek lekéréséhez. Olvas Single. |
+| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | Meghatározza a diagram elem tényleges x helyzetét (bal), a diagram bal felső sarkához viszonyítva. Hívja meg előtte az IChart.ValidateChartLayout() metódust a tényleges értékek lekéréséhez. Olvas Single. |
+| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | Meghatározza a diagram elem tényleges felső pozícióját a diagram bal felső sarkához viszonyítva. Hívja meg előtte az IChart.ValidateChartLayout() metódust a tényleges értékek lekéréséhez. Olvas Single. |
+| [Bottom](../../aspose.slides.charts/chartplotarea/bottom) { get; } | Alsó. Csak olvasható Single. |
 | [Chart](../../aspose.slides.charts/chartplotarea/chart) { get; } | Diagram. Csak olvasható [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | Visszaadja a plot terület formátumát. Csak olvasható [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | Visszaadja vagy beállítja a plot terület határoló doboz magasságát a diagram magasságának hányadában (0 és 1 között). Olvasás/írás Single. |
-| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | Meghatározza, hogy a helyzetet hogyan kell számítani: true – automatikusan számítva; az X, Y, Width, Height tulajdonságok által definiált. Csak olvasható Boolean. |
-| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | Ha a plot terület elrendezését manuálisan definiálják, ez a tulajdonság meghatározza, hogy a plot területet a belső (a tengelyeket és tengelycímkéket nem tartalmazó) vagy a külső (tengelyeket és tengelycímkéket tartalmazó) módon kell-e elrendezni. Olvasás/írás [`LayoutTargetType`](./layouttargettype). |
+| [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | Visszaadja a diagramterület formátumát. Csak olvasható [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | Visszaadja vagy beállítja a diagramterület körülhatároló keret magasságát a diagram magasságának hányadaként (0 és 1 között). Olvas/írás Single. |
+| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | Meghatározza, hogyan kell kiszámítani a helyzetet: true – automatikusan számítva; az X, Y, Width, Height tulajdonságok által meghatározva. Csak olvasható Boolean. |
+| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | Ha a diagramterület elrendezése kézzel van meghatározva, ez a tulajdonság azt határozza meg, hogy a diagramterületet a belső (tengelyek és tengelycímkék nélkül) vagy a külső (tengelyek és tengelycímkék beleértve) részen kell-e elrendezni. Olvas/írás [`LayoutTargetType`](./layouttargettype). |
 | [Right](../../aspose.slides.charts/chartplotarea/right) { get; } | Jobb. Csak olvasható Single. |
-| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | Visszaadja vagy beállítja a plot terület határoló doboz szélességét a diagram szélességének hányadában (0 és 1 között). Olvasás/írás Single. |
-| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | Visszaadja vagy beállítja a plot terület határoló doboz bal felső sarkának x koordinátáját a diagram szélességének hányadában (0 és 1 között). Olvasás/írás Single. |
-| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | Visszaadja vagy beállítja a plot terület határoló doboz bal felső sarkának y koordinátáját a diagram magasságának hányadában (0 és 1 között). Olvasás/írás Single. |
+| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | Visszaadja vagy beállítja a diagramterület körülhatároló keret szélességét a diagram szélességének hányadaként (0 és 1 között). Olvas/írás Single. |
+| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | Visszaadja vagy beállítja a diagramterület körülhatároló keret bal felső sarkának x koordinátáját a diagram szélességének hányadaként (0 és 1 között). Olvas/írás Single. |
+| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | Visszaadja vagy beállítja a diagramterület körülhatároló keret bal felső sarkának y koordinátáját a diagram magasságának hányadaként (0 és 1 között). Olvas/írás Single. |
 
 ### Lásd még
 

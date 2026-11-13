@@ -1,14 +1,14 @@
 ---
 title: IMathNaryOperator
 second_title: Aspose.Sildes для .NET справочник API
-description: "Указывает N-арный математический объект, такой как Summation и Integral. Он состоит из оператора, базы или операнда и необязательных верхних и нижних пределов. Примеры N-арных операторов: Summation, Union, Intersection, Integral"
+description: Определяет N-арный математический объект, такой как Summation и Integral. Он состоит из оператора, базы или операнда и необязательных верхних и нижних пределов. Примеры N-арных операторов: Summation Union Intersection Integral
 type: docs
-weight: 8360
+weight: 8380
 url: /ru/aspose.slides.mathtext/imathnaryoperator/
 ---
 ## IMathNaryOperator интерфейс
 
-Указывает N-арный математический объект, такой как суммирование и интеграл. Состоит из оператора, базы (или операнда) и необязательных верхних и нижних пределов. Примерами N-арных операторов являются: суммирование, объединение, пересечение, интеграл
+Определяет N-арный математический объект, такой как Summation и Integral. Он состоит из оператора, базы (или операнда) и необязательных верхних и нижних пределов. Примеры N-арных операторов: Summation, Union, Intersection, Integral
 
 ```csharp
 public interface IMathNaryOperator : IMathElement, IMathNaryOperatorProperties
@@ -16,24 +16,24 @@ public interface IMathNaryOperator : IMathElement, IMathNaryOperatorProperties
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathnaryoperator/asimathelement) { get; } | Позволяет получить базовый интерфейс IMathElement [`IMathElement`](../imathelement) |
 | [AsIMathNaryOperatorProperties](../../aspose.slides.mathtext/imathnaryoperator/asimathnaryoperatorproperties) { get; } | Позволяет получить базовый интерфейс IMathNaryOperatorProperties [`IMathNaryOperatorProperties`](../imathnaryoperatorproperties) |
 | [Base](../../aspose.slides.mathtext/imathnaryoperator/base) { get; } | Базовый аргумент |
-| [Subscript](../../aspose.slides.mathtext/imathnaryoperator/subscript) { get; } | Указывает аргумент нижнего индекса, который, например, в случае интеграла, задаёт нижний предел |
-| [Superscript](../../aspose.slides.mathtext/imathnaryoperator/superscript) { get; } | Указывает аргумент верхнего индекса, который, например, в случае интеграла, задаёт верхний предел |
+| [Subscript](../../aspose.slides.mathtext/imathnaryoperator/subscript) { get; } | Указывает аргумент подстрочника, который, например, в случае интеграла, задает нижний предел |
+| [Superscript](../../aspose.slides.mathtext/imathnaryoperator/superscript) { get; } | Указывает аргумент надстрочника, который, например, в случае интеграла, задает верхний предел |
 
 ### Примеры
 
-Пример:
+Example:
 
 ```csharp
 [C#]
 IMathNaryOperator naryOperator = new MathematicalText("x").Nary(MathNaryOperatorTypes.Summation, "x=1", "100");
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IMathElement](../imathelement)
 * интерфейс [IMathNaryOperatorProperties](../imathnaryoperatorproperties)

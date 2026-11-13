@@ -1,9 +1,9 @@
 ---
 title: PptReadException
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa uma exceção que é lançada em erros de leitura de apresentação.
 type: docs
-weight: 9530
+weight: 9550
 url: /pt/aspose.slides/pptreadexception/
 ---
 ## PptReadException classe
@@ -19,10 +19,10 @@ public class PptReadException : PptException
 | Nome | Descrição |
 | --- | --- |
 | [PptReadException](pptreadexception#constructor)() | Construtor padrão. |
-| [PptReadException](pptreadexception#constructor_1)(string) | Construtor que permite adicionar uma mensagem a essa exceção. |
+| [PptReadException](pptreadexception#constructor_1)(string) | Construtor que permite adicionar uma mensagem a esta exceção. |
 | [PptReadException](pptreadexception#constructor_2)(string, Exception) | Construtor para uma exceção que contém uma mensagem e uma exceção incorporada. |
 
-### Veja Também
+### Veja também
 
 * classe [PptException](../pptexception)
 * espaço de nomes [Aspose.Slides](../../aspose.slides)

@@ -1,9 +1,9 @@
 ---
 title: ICustomData
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: يمثّل حاوية للبيانات المخصصة.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: يمثل حاوية للبيانات المخصصة.
 type: docs
-weight: 5660
+weight: 5680
 url: /ar/aspose.slides/icustomdata/
 ---
 ## ICustomData واجهة
@@ -19,7 +19,7 @@ public interface ICustomData
 | الاسم | الوصف |
 | --- | --- |
 | [CustomXmlParts](../../aspose.slides/icustomdata/customxmlparts) { get; } | يعيد مجموعة أجزاء XML المخصصة. للقراءة فقط [`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
-| [Tags](../../aspose.slides/icustomdata/tags) { get; } | يعيد مجموعة وسوم بيانات العميل. للقراءة فقط [`ITagCollection`](../itagcollection). |
+| [Tags](../../aspose.slides/icustomdata/tags) { get; } | يعيد مجموعة علامات بيانات العملاء. للقراءة فقط [`ITagCollection`](../itagcollection). |
 
 ### انظر أيضًا
 

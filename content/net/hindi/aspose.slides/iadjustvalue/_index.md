@@ -1,9 +1,9 @@
 ---
 title: IAdjustValue
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक ज्यामितीय आकार के समायोजन मान का प्रतिनिधित्व करता है। ये मान आकार के रूप को प्रभावित करते हैं।
+description: ज्यामितीय आकारों के समायोजन मान का प्रतिनिधित्व करता है। ये मान आकार के रूप को प्रभावित करते हैं।
 type: docs
-weight: 5180
+weight: 5200
 url: /hi/aspose.slides/iadjustvalue/
 ---
 ## IAdjustValue इंटरफ़ेस
@@ -18,10 +18,10 @@ public interface IAdjustValue
 
 | नाम | विवरण |
 | --- | --- |
-| [AngleValue](../../aspose.slides/iadjustvalue/anglevalue) { get; set; } | मान को लौटाता या सेट करता है, इसे डिग्री में कोण के रूप में व्याख्यायित करता है। पढ़ने/लिखने वाला Single. |
+| [AngleValue](../../aspose.slides/iadjustvalue/anglevalue) { get; set; } | मान को लौटाता या सेट करता है, इसे डिग्री में कोण के रूप में व्याख्यायित करता है। पढ़ें/लिखें Single. |
 | [Name](../../aspose.slides/iadjustvalue/name) { get; } | इस समायोजन मान का नाम लौटाता है। केवल-पढ़ने योग्य String. |
-| [RawValue](../../aspose.slides/iadjustvalue/rawvalue) { get; set; } | समायोजन मान को "जैसा है" वैसा ही लौटाता या सेट करता है। पढ़ने/लिखने वाला Int64. |
-| [Type](../../aspose.slides/iadjustvalue/type) { get; } | आकार समायोजन के प्रकार को लौटाता है। केवल-पढ़ने योग्य [`ShapeAdjustmentType`](../shapeadjustmenttype). |
+| [RawValue](../../aspose.slides/iadjustvalue/rawvalue) { get; set; } | समायोजन मान को "जैसा है" लौटाता या सेट करता है। पढ़ें/लिखें Int64. |
+| [Type](../../aspose.slides/iadjustvalue/type) { get; } | आकार समायोजन का प्रकार लौटाता है। केवल-पढ़ने योग्य [`ShapeAdjustmentType`](../shapeadjustmenttype). |
 
 ### संबंधित देखें
 

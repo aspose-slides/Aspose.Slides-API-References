@@ -1,14 +1,14 @@
 ---
 title: IMorphTransition
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Slides için .NET API Referansı
 description: Ripple slayt geçiş efekti.
 type: docs
-weight: 10130
+weight: 10150
 url: /tr/aspose.slides.slideshow/imorphtransition/
 ---
-## IMorphTransition arayüzü
+## IMorphTransition arayüz
 
-Ripple slayt geçiş efekti.
+Ripple slide transition effect.
 
 ```csharp
 public interface IMorphTransition : ITransitionValueBase
@@ -19,7 +19,7 @@ public interface IMorphTransition : ITransitionValueBase
 | Ad | Açıklama |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/imorphtransition/asitransitionvaluebase) { get; } | Temel ITransitionValueBase arayüzünü almaya izin verir. Salt okunur [`ITransitionValueBase`](../itransitionvaluebase). |
-| [MorphType](../../aspose.slides.slideshow/imorphtransition/morphtype) { get; set; } | Morph geçişinin türü. Okunur/Yazılabilir [`TransitionMorphType`](../transitionmorphtype). |
+| [MorphType](../../aspose.slides.slideshow/imorphtransition/morphtype) { get; set; } | Morph geçişinin türü. Okunabilir/Yazılabilir [`TransitionMorphType`](../transitionmorphtype). |
 
 ### Ayrıca Bakınız
 

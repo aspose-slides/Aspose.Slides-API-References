@@ -1,14 +1,14 @@
 ---
 title: MathSpacingRules
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: मैट्रिक्स के कॉलमों के बीच क्षैतिज स्पेसिंग गैप के प्रकार
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: मैट्रिक्स की कॉलम के बीच अंतराल के क्षैतिज स्पेसिंग के प्रकार
 type: docs
-weight: 8990
+weight: 9010
 url: /hi/aspose.slides.mathtext/mathspacingrules/
 ---
 ## MathSpacingRules एन्यूमरेशन
 
-कॉलमों के बीच (क्षैतिज स्पेसिंग) अंतर के प्रकार
+मैट्रिक्स की कॉलम के बीच अंतर (क्षैतिज स्पेसिंग) के प्रकार
 
 ```csharp
 public enum MathSpacingRules
@@ -16,15 +16,15 @@ public enum MathSpacingRules
 
 ### मान
 
-| नाम | मान | विवरण |
+| Name | Value | Description |
 | --- | --- | --- |
-| SingleSpacingGap | `0` | एकल (कॉलम के लिए 1 एम्ब या पंक्ति के लिए 1 लाइन) |
-| OneAndHalfSpacingGap | `1` | एक और आधा (कॉलम के लिए 1.5 एम्ब या पंक्ति के लिए 1.5 लाइन्स) |
-| DoubleSpacingGap | `2` | दुगुना स्पेसिंग (कॉलम के लिए 2 एम्ब या पंक्ति के लिए 2 लाइन्स) |
-| Exactly | `3` | ठीक मान कॉलम के लिए, ColumnGap के मान पर निर्भर करता है, टविप्स में मापा जाता है; पंक्ति के लिए, RowGap के मान पर निर्भर करता है, टविप्स में मापा जाता है |
-| Multiple | `4` | एकाधिक कॉलम के लिए, ColumnGap के मान पर निर्भर करता है, 0.5 एम्ब वृद्धि में मापा जाता है; पंक्ति के लिए, RowGap के मान पर निर्भर करता है, लाइन्स में मापा जाता है |
+| SingleSpacingGap | `0` | एकल (कॉलम के लिए 1 em या 1 line) |
+| OneAndHalfSpacingGap | `1` | एक और आधा (कॉलम के लिए 1.5 ems या 1.5 lines) |
+| DoubleSpacingGap | `2` | डबल स्पेसिंग (कॉलम के लिए 2 ems या 2 lines) |
+| Exactly | `3` | बिल्कुल मान: कॉलम के लिए, ColumnGap के मान पर निर्भर, twips में मापा गया; पंक्तियों के लिए, RowGap के मान पर निर्भर, twips में मापा गया |
+| Multiple | `4` | कई: कॉलम के लिए, ColumnGap के मान पर निर्भर, 0.5 em वृद्धि में मापा गया; पंक्तियों के लिए, RowGap के मान पर निर्भर, पंक्तियों में मापा गया |
 
-### संबंधित देखें
+### देखें
 
 * नामस्थान [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * असेंबली [Aspose.Slides](../../)

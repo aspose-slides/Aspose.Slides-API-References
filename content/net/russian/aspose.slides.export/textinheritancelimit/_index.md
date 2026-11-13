@@ -1,9 +1,9 @@
 ---
 title: TextInheritanceLimit
-second_title: Aspose.Sildes для справки API .NET
+second_title: Aspose.Sildes для .NET — справочник API
 description: Управляет глубиной наследования свойств текста.
 type: docs
-weight: 4540
+weight: 4560
 url: /ru/aspose.slides.export/textinheritancelimit/
 ---
 ## TextInheritanceLimit перечисление

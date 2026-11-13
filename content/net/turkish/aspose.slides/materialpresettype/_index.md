@@ -1,9 +1,9 @@
 ---
 title: MaterialPresetType
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Şeklin malzemesini tanımlayan sabitler.
 type: docs
-weight: 8060
+weight: 8080
 url: /tr/aspose.slides/materialpresettype/
 ---
 ## MaterialPresetType enum

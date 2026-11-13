@@ -1,14 +1,14 @@
 ---
 title: IGenericCollectionT
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Hilfsinterface für generische Sammlungen.
+description: Hilfs-generische Sammlungs-Schnittstelle.
 type: docs
-weight: 5960
+weight: 5980
 url: /de/aspose.slides/igenericcollection-1/
 ---
-## IGenericCollection&lt;T&gt; Schnittstelle
+## IGenericCollection<T> Schnittstelle
 
-Hilfsinterface für generische Sammlungen.
+Hilfs-generische Sammlungs-Schnittstelle.
 
 ```csharp
 public interface IGenericCollection<T> : ICollection, IEnumerable<T>
@@ -22,8 +22,8 @@ public interface IGenericCollection<T> : ICollection, IEnumerable<T>
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsICollection](../../aspose.slides/igenericcollection`1/asicollection) { get; } | Gibt die ICollection Schnittstelle zurück. |
-| [AsIEnumerable](../../aspose.slides/igenericcollection`1/asienumerable) { get; } | Gibt die IEnumerable Schnittstelle zurück. Nur lesendes IEnumerable. |
+| [AsICollection](../../aspose.slides/igenericcollection`1/asicollection) { get; } | Gibt die ICollection-Schnittstelle zurück. |
+| [AsIEnumerable](../../aspose.slides/igenericcollection`1/asienumerable) { get; } | Gibt die IEnumerable-Schnittstelle zurück. Nur-lesbare IEnumerable. |
 
 ### Siehe auch
 

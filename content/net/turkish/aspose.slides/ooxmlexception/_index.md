@@ -1,14 +1,14 @@
 ---
 title: OOXMLException
-second_title: Aspose.Sildes için .NET API Referansı
-description: Office Open XML dosya formatı ile ilgili standart bir iç istisna türünü temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Office Open XML dosya formatıyla ilgili standart dahili bir istisna türünü temsil eder.
 type: docs
-weight: 9200
+weight: 9220
 url: /tr/aspose.slides/ooxmlexception/
 ---
-## OOXMLException sınıf
+## OOXMLException sınıfı
 
-Office Open XML dosya formatı ile ilgili standart bir iç istisna türünü temsil eder.
+Office Open XML dosya formatıyla ilgili standart dahili bir istisna türünü temsil eder.
 
 ```csharp
 public class OOXMLException : Exception
@@ -19,8 +19,8 @@ public class OOXMLException : Exception
 | Ad | Açıklama |
 | --- | --- |
 | [OOXMLException](ooxmlexception#constructor)() | Varsayılan yapıcı. |
-| [OOXMLException](ooxmlexception#constructor_1)(string) | Bu istisna için bir ileti eklemeye izin veren yapıcı. |
-| [OOXMLException](ooxmlexception#constructor_2)(string, Exception) | Bir ileti ve gömülü bir istisna içeren bir istisna için yapıcı. |
+| [OOXMLException](ooxmlexception#constructor_1)(string) | Bu istisna için bir mesaj eklenmesini sağlayan yapıcı. |
+| [OOXMLException](ooxmlexception#constructor_2)(string, Exception) | Bir mesaj ve gömülü bir istisna içeren bir istisna için yapıcı. |
 
 ### Ayrıca Bakınız
 

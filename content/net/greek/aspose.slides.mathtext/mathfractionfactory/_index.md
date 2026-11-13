@@ -1,9 +1,9 @@
 ---
 title: MathFractionFactory
-second_title: Αναφορά API Aspose.Sildes για .NET
+second_title: Aspose.Sildes για .NET API Αναφορά
 description: Επιτρέπει τη δημιουργία ενός μαθηματικού κλάσματος
 type: docs
-weight: 8700
+weight: 8720
 url: /el/aspose.slides.mathtext/mathfractionfactory/
 ---
 ## MathFractionFactory κλάση

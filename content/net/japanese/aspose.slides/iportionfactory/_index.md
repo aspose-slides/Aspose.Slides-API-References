@@ -1,14 +1,14 @@
 ---
 title: IPortionFactory
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: テスト部分を作成できます
 type: docs
-weight: 6720
+weight: 6740
 url: /ja/aspose.slides/iportionfactory/
 ---
 ## IPortionFactory インターフェイス
 
-テスト部分を作成できます
+テスト部分を作成できます。
 
 ```csharp
 public interface IPortionFactory
@@ -26,7 +26,7 @@ public interface IPortionFactory
 
 COM 互換性のため
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

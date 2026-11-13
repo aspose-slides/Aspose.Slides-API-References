@@ -1,14 +1,14 @@
 ---
 title: ISoftEdge
 second_title: Aspose.Sildes .NET API 参考
-description: 表示软边缘效果。形状的边缘被模糊，而填充不受影响。
+description: 表示 Soft Edge 效果。形状的边缘被模糊，而填充不受影响。
 type: docs
-weight: 3520
+weight: 3540
 url: /zh/aspose.slides.effects/isoftedge/
 ---
 ## ISoftEdge 接口
 
-表示软边缘效果。形状的边缘被模糊，而填充不受影响。
+表示 Soft Edge 效果。形状的边缘被模糊，而填充不受影响。
 
 ```csharp
 public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImageTransformOperation
@@ -18,11 +18,11 @@ public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImag
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | 允许获取基 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | 允许获取基 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation)。 |
-| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | 指定要应用于边缘的模糊半径。读/写 Double。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | 允许获取基准 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
+| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | 允许获取基准 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | 指定要应用于边缘的模糊半径。可读写 Double。 |
 
-### 另请参见
+### 另见
 
 * 接口 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 接口 [ISoftEdgeEffectiveData](../isoftedgeeffectivedata)

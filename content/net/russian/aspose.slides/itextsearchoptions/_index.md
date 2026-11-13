@@ -1,14 +1,14 @@
 ---
 title: ITextSearchOptions
-second_title: Aspose.Sildes для .NET API справка
-description: Представляет параметры, которые можно использовать для поиска текста в Presentation Slide или TextFrame.
+second_title: Aspose.Sildes для .NET API справки
+description: Представляет параметры, которые могут использоваться для поиска текста в Presentation, Slide или TextFrame.
 type: docs
-weight: 7300
+weight: 7320
 url: /ru/aspose.slides/itextsearchoptions/
 ---
 ## ITextSearchOptions интерфейс
 
-Представляет параметры, которые можно использовать для поиска текста в Presentation, Slide или TextFrame.
+Represents options that can be used to search for text in a Presentation, Slide or TextFrame.
 
 ```csharp
 public interface ITextSearchOptions
@@ -19,8 +19,8 @@ public interface ITextSearchOptions
 | Имя | Описание |
 | --- | --- |
 | [CaseSensitive](../../aspose.slides/itextsearchoptions/casesensitive) { get; set; } | Установите true для поиска с учётом регистра, false — иначе. Чтение/запись Boolean. |
-| [IncludeNotes](../../aspose.slides/itextsearchoptions/includenotes) { get; set; } | Установите `true`, чтобы включить текст, содержащийся в заметках слайда, при выполнении поиска текста, заменах или выделении. Значение по умолчанию — `false`. |
-| [WholeWordsOnly](../../aspose.slides/itextsearchoptions/wholewordsonly) { get; set; } | Установите true, чтобы соответствовать только целым словам, false — иначе. Чтение/запись Boolean. |
+| [IncludeNotes](../../aspose.slides/itextsearchoptions/includenotes) { get; set; } | Установите `true`, чтобы включить текст из примечаний к слайдам при выполнении поиска текста, замены или подсветки. Значение по умолчанию — `false`. |
+| [WholeWordsOnly](../../aspose.slides/itextsearchoptions/wholewordsonly) { get; set; } | Установите true для сопоставления только целых слов, false — иначе. Чтение/запись Boolean. |
 
 ### См. также
 

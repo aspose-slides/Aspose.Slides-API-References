@@ -3,12 +3,12 @@ title: AddTextFrameForOverriding
 second_title: Aspose.Sildes för .NET API-referens
 description: Initierar TextFrameForOverriding med texten i parametern text. Om TextFrameForOverriding redan är initierad ändras dess text helt enkelt.
 type: docs
-weight: 180
+weight: 190
 url: /sv/aspose.slides.charts/datalabel/addtextframeforoverriding/
 ---
-## DataLabel.AddTextFrameForOverriding method
+## DataLabel.AddTextFrameForOverriding metod
 
-Initialiserar TextFrameForOverriding med texten i parametern "text". Om TextFrameForOverriding redan är initierad ändras texten helt enkelt.
+Initierar TextFrameForOverriding med texten i parametern "text". Om TextFrameForOverriding redan har initierats ändras dess text helt enkelt.
 
 ```csharp
 public ITextFrame AddTextFrameForOverriding(string text)

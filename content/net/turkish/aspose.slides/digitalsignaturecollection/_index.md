@@ -1,14 +1,14 @@
 ---
 title: DigitalSignatureCollection
 second_title: Aspose.Sildes for .NET API Referansı
-description: Bir belgeye eklenmiş dijital imzaların koleksiyonunu temsil eder.
+description: Bir belgeye eklenmiş dijital imzaların bir koleksiyonunu temsil eder.
 type: docs
-weight: 2780
+weight: 2800
 url: /tr/aspose.slides/digitalsignaturecollection/
 ---
-## DigitalSignatureCollection sınıf
+## DigitalSignatureCollection sınıfı
 
-Bir belgeye eklenmiş dijital imzaların koleksiyonunu temsil eder.
+Bir belgeye eklenmiş dijital imzaların bir koleksiyonunu temsil eder.
 
 ```csharp
 public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSignatureCollection
@@ -18,9 +18,9 @@ public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSigna
 
 | Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides/digitalsignaturecollection/count) { get; } | Koleksiyondaki öğelerin sayısını döndürür. Salt okunur Int32. |
+| [Count](../../aspose.slides/digitalsignaturecollection/count) { get; } | Koleksiyondaki öğe sayısını döndürür. Salt okunur Int32. |
 | [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını gösteren bir değer döndürür. Salt okunur Boolean. |
-| [Item](../../aspose.slides/digitalsignaturecollection/item) { get; } | İndexe göre imzayı döndürür. |
+| [Item](../../aspose.slides/digitalsignaturecollection/item) { get; } | İndekse göre imzayı döndürür. |
 | [SyncRoot](../../aspose.slides/digitalsignaturecollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt okunur Object. |
 
 ## Yöntemler
@@ -30,8 +30,8 @@ public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSigna
 | [Add](../../aspose.slides/digitalsignaturecollection/add)(IDigitalSignature) | İmzayı koleksiyonun sonuna ekler. |
 | [Clear](../../aspose.slides/digitalsignaturecollection/clear)() | Koleksiyondaki tüm imzaları kaldırır. |
 | [CopyTo](../../aspose.slides/digitalsignaturecollection/copyto)(Array, int) | Koleksiyondaki tüm öğeleri belirtilen diziye kopyalar. |
-| [GetEnumerator](../../aspose.slides/digitalsignaturecollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |
-| [RemoveAt](../../aspose.slides/digitalsignaturecollection/removeat)(int) | Belirtilen indexteki imzayı kaldırır. |
+| [GetEnumerator](../../aspose.slides/digitalsignaturecollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir dökümcü (enumerator) döndürür. |
+| [RemoveAt](../../aspose.slides/digitalsignaturecollection/removeat)(int) | Belirtilen indeksteki imzayı kaldırır. |
 
 ### Ayrıca Bakınız
 

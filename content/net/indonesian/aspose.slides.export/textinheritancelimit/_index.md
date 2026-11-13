@@ -1,20 +1,20 @@
 ---
 title: TextInheritanceLimit
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mengontrol kedalaman warisan properti teks.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mengontrol kedalaman pewarisan properti teks.
 type: docs
-weight: 4540
+weight: 4560
 url: /id/aspose.slides.export/textinheritancelimit/
 ---
-## TextInheritanceLimit enumeration
+## enumerasi TextInheritanceLimit
 
-Mengontrol kedalaman warisan properti teks.
+Mengontrol kedalaman pewarisan properti teks.
 
 ```csharp
 public enum TextInheritanceLimit
 ```
 
-### Values
+### Nilai
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |

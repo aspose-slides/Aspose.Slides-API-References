@@ -1,14 +1,14 @@
 ---
 title: IHSL
-second_title: Aspose.Slides för .NET API-referens
-description: Representerar en färgton/mättnad/luminans-effekt. Färgton, mättnad och luminans kan var och en justeras relativt till sitt nuvarande värde.
+second_title: Aspose.Sildes för .NET API-referens
+description: Representerar en Hue/Saturation/Luminance-effekt. Hue, saturation och luminance kan var och en justeras relativt till sitt nuvarande värde.
 type: docs
-weight: 3360
+weight: 3380
 url: /sv/aspose.slides.effects/ihsl/
 ---
-## IHSL-gränssnitt
+## IHSL gränssnitt
 
-Representerar en färgton/mättnad/luminans-effekt. Färgtonen, mättnaden och luminansen kan var och en justeras relativt till sitt nuvarande värde.
+Representerar en Hue/Saturation/Luminance-effekt. Hue, saturation och luminance kan var och en justeras relativt till sitt nuvarande värde.
 
 ```csharp
 public interface IHSL : IAccessiblePVIObject<IHSLEffectiveData>, IImageTransformOperation
@@ -16,10 +16,10 @@ public interface IHSL : IAccessiblePVIObject<IHSLEffectiveData>, IImageTransform
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ihsl/asiaccessiblepviobject) { get; } | Tillåter att hämta bas IAccessiblePVIObject interface. Skrivskyddad [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ihsl/asiimagetransformoperation) { get; } | Returnerar IImageTransformOperation interface. Skrivskyddad [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ihsl/asiaccessiblepviobject) { get; } | Tillåter att hämta bas IAccessiblePVIObject gränssnitt. Skrivskyddad [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ihsl/asiimagetransformoperation) { get; } | Returnerar IImageTransformOperation gränssnitt. Skrivskyddad [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Se även
 

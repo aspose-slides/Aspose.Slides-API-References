@@ -1,9 +1,9 @@
 ---
 title: LineFormatCollection
-second_title: Aspose.Sildes para a referência da API .NET
+second_title: Aspose.Sildes para Referência da API .NET
 description: Representa a coleção de estilos de linha.
 type: docs
-weight: 11420
+weight: 11440
 url: /pt/aspose.slides.theme/lineformatcollection/
 ---
 ## LineFormatCollection classe
@@ -19,7 +19,7 @@ public sealed class LineFormatCollection : DomObject<FormatScheme>, ILineFormatC
 | Nome | Descrição |
 | --- | --- |
 | [Count](../../aspose.slides.theme/lineformatcollection/count) { get; } | Obtém o número de elementos realmente contidos na coleção. Somente leitura Int32. |
-| [IsSynchronized](../../aspose.slides.theme/lineformatcollection/issynchronized) { get; } | Retorna um valor que indica se o acesso à coleção é sincronizado (thread-safe). Somente leitura Boolean. |
+| [IsSynchronized](../../aspose.slides.theme/lineformatcollection/issynchronized) { get; } | Retorna um valor que indica se o acesso à coleção está sincronizado (thread-safe). Somente leitura Boolean. |
 | [Item](../../aspose.slides.theme/lineformatcollection/item) { get; } | Obtém o elemento no índice especificado. Somente leitura [`ILineFormat`](../../aspose.slides/ilineformat). |
 | [SyncRoot](../../aspose.slides.theme/lineformatcollection/syncroot) { get; } | Retorna uma raiz de sincronização. Somente leitura Object. |
 
@@ -27,8 +27,8 @@ public sealed class LineFormatCollection : DomObject<FormatScheme>, ILineFormatC
 
 | Nome | Descrição |
 | --- | --- |
-| [CopyTo](../../aspose.slides.theme/lineformatcollection/copyto)(Array, int) | Copia todos os elementos da coleção para o array especificado. |
-| [GetEnumerator](../../aspose.slides.theme/lineformatcollection/getenumerator)() | Retorna um enumerador que percorre a coleção. |
+| [CopyTo](../../aspose.slides.theme/lineformatcollection/copyto)(Array, int) | Copia todos os elementos da coleção para a matriz especificada. |
+| [GetEnumerator](../../aspose.slides.theme/lineformatcollection/getenumerator)() | Retorna um enumerador que itera através da coleção. |
 
 ### Veja Também
 

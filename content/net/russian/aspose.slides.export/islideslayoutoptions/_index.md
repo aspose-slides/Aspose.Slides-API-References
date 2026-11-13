@@ -1,9 +1,9 @@
 ---
 title: ISlidesLayoutOptions
-second_title: Aspose.Sildes для .NET — справка API
+second_title: Aspose.Sildes для .NET справка по API
 description: Представляет режим компоновки презентации для экспорта.
 type: docs
-weight: 4100
+weight: 4120
 url: /ru/aspose.slides.export/islideslayoutoptions/
 ---
 ## ISlidesLayoutOptions интерфейс
@@ -14,7 +14,7 @@ url: /ru/aspose.slides.export/islideslayoutoptions/
 public interface ISlidesLayoutOptions
 ```
 
-### Смотрите также
+### См. также
 
 * пространство имён [Aspose.Slides.Export](../../aspose.slides.export)
 * сборка [Aspose.Slides](../../)

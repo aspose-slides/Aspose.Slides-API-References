@@ -1,9 +1,9 @@
 ---
 title: IMathLimit
-second_title: Aspose.Slides dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
 description: Określa obiekt Limit składający się z tekstu na linii bazowej oraz tekstu o zmniejszonym rozmiarze bezpośrednio powyżej lub poniżej niego.
 type: docs
-weight: 8320
+weight: 8340
 url: /pl/aspose.slides.mathtext/imathlimit/
 ---
 ## IMathLimit interfejs
@@ -20,7 +20,7 @@ public interface IMathLimit : IMathElement
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathlimit/asimathelement) { get; } | Umożliwia pobranie podstawowego interfejsu IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathlimit/base) { get; } | Argument bazowy |
-| [Limit](../../aspose.slides.mathtext/imathlimit/limit) { get; } | Argument Limit |
+| [Limit](../../aspose.slides.mathtext/imathlimit/limit) { get; } | Argument limitu |
 | [UpperLimit](../../aspose.slides.mathtext/imathlimit/upperlimit) { get; set; } | Określa górny lub dolny limit |
 
 ### Przykłady
@@ -32,7 +32,7 @@ Przykład:
 IMathLimit limitElement = new MathLimit(new MathematicalText("lim"), new MathematicalText("𝑛→∞"));
 ```
 
-### Zobacz również
+### Zobacz także
 
 * interfejs [IMathElement](../imathelement)
 * przestrzeń nazw [Aspose.Slides.MathText](../../aspose.slides.mathtext)

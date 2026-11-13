@@ -1,12 +1,12 @@
 ---
 title: ColumnFormat
-second_title: مرجع API لـ Aspose.Sildes للـ .NET
+second_title: Aspose.Sildes لـ .NET مرجع API
 description: يمثل تنسيق عمود جدول.
 type: docs
-weight: 2610
+weight: 2630
 url: /ar/aspose.slides/columnformat/
 ---
-## فئة ColumnFormat
+## ColumnFormat فئة
 
 يمثل تنسيق عمود جدول.
 
@@ -18,7 +18,7 @@ public sealed class ColumnFormat : DomObject<Column>, IColumnFormat
 
 | الاسم | الوصف |
 | --- | --- |
-| [GetEffective](../../aspose.slides/columnformat/geteffective)() | يسترجع خصائص تنسيق عمود الجدول الفعّالة مع تطبيق الوراثة وأنماط الجدول. |
+| [GetEffective](../../aspose.slides/columnformat/geteffective)() | يحصل على خصائص تنسيق عمود الجدول الفعالة مع تطبيق الوراثة وأنماط الجدول. |
 
 ### انظر أيضًا
 

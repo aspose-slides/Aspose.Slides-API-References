@@ -1,14 +1,14 @@
 ---
 title: IDuotoneEffectiveData
-second_title: Aspose.Sildes para .NET Referência da API
-description: Objeto imutável que representa um efeito Duotone. Para cada pixel combina clr1 e clr2 através de uma interpolação linear para determinar a nova cor desse pixel.
+second_title: Aspose.Sildes para a Referência da API .NET
+description: Objeto imutável que representa um efeito Duotone. Para cada pixel combina clr1 e clr2 por meio de uma interpolação linear para determinar a nova cor desse pixel.
 type: docs
-weight: 3270
+weight: 3290
 url: /pt/aspose.slides.effects/iduotoneeffectivedata/
 ---
 ## IDuotoneEffectiveData interface
 
-Objeto imutável que representa um efeito Duotone. Para cada pixel, combina clr1 e clr2 através de uma interpolação linear para determinar a nova cor desse pixel.
+Objeto imutável que representa um efeito Duotone. Para cada pixel, combina clr1 e clr2 por meio de uma interpolação linear para determinar a nova cor desse pixel.
 
 ```csharp
 public interface IDuotoneEffectiveData : IEffectEffectiveData
@@ -22,7 +22,7 @@ public interface IDuotoneEffectiveData : IEffectEffectiveData
 | [Color1](../../aspose.slides.effects/iduotoneeffectivedata/color1) { get; } | Retorna o formato de cor de destino para pixels escuros. Somente leitura Color. |
 | [Color2](../../aspose.slides.effects/iduotoneeffectivedata/color2) { get; } | Retorna o formato de cor de destino para pixels claros. Somente leitura Color. |
 
-### Ver também
+### Ver Também
 
 * interface [IEffectEffectiveData](../ieffecteffectivedata)
 * namespace [Aspose.Slides.Effects](../../aspose.slides.effects)

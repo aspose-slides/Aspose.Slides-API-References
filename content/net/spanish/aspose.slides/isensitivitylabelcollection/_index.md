@@ -3,7 +3,7 @@ title: ISensitivityLabelCollection
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una colección de etiquetas de sensibilidad aplicadas al documento.
 type: docs
-weight: 6940
+weight: 6960
 url: /es/aspose.slides/isensitivitylabelcollection/
 ---
 ## ISensitivityLabelCollection interfaz
@@ -18,15 +18,15 @@ public interface ISensitivityLabelCollection : IEnumerable<ISensitivityLabel>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Count](../../aspose.slides/isensitivitylabelcollection/count) { get; } | Obtiene el número de todos los elementos en la colección. Solo lectura Int32. |
-| [Item](../../aspose.slides/isensitivitylabelcollection/item) { get; } | Devuelve la etiqueta de sensibilidad por índice. Solo lectura [`ISensitivityLabel`](../isensitivitylabel). |
+| [Count](../../aspose.slides/isensitivitylabelcollection/count) { get; } | Obtiene el número de todos los elementos de la colección. Sólo lectura Int32. |
+| [Item](../../aspose.slides/isensitivitylabelcollection/item) { get; } | Devuelve la etiqueta de sensibilidad por índice. Sólo lectura [`ISensitivityLabel`](../isensitivitylabel). |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.slides/isensitivitylabelcollection/add#add_1)(ISensitivityLabel) | Agrega una SensitivityLabel a la colección. |
-| [Add](../../aspose.slides/isensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | Agrega la etiqueta de sensibilidad al final de la colección. |
+| [Add](../../aspose.slides/isensitivitylabelcollection/add#add_1)(ISensitivityLabel) | Añade una SensitivityLabel a la colección. |
+| [Add](../../aspose.slides/isensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | Añade la etiqueta de sensibilidad al final de la colección. |
 | [Clear](../../aspose.slides/isensitivitylabelcollection/clear)() | Elimina todos los elementos de la colección. |
 | [RemoveAt](../../aspose.slides/isensitivitylabelcollection/removeat)(int) | Elimina la etiqueta de sensibilidad en el índice especificado. |
 

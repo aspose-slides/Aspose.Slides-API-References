@@ -1,14 +1,14 @@
 ---
 title: ErrorBarsCustomValues
-second_title: Aspose.Sildes a .NET API referencia
-description: Megadja a hibasáv értékeit. Csak akkor használható, ha a hibasáv értéktípusa Custom.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Megadja a hibasáv értékeket. Csak akkor kell használni, ha a hibasávok értéktípusa Custom.
 type: docs
-weight: 1660
+weight: 1670
 url: /hu/aspose.slides.charts/errorbarscustomvalues/
 ---
 ## ErrorBarsCustomValues osztály
 
-Megadja a hibasáv értékeit. Csak akkor használható, ha a hibasáv értéktípusa Custom.
+Megadja a hibasáv értékeket. Csak akkor kell használni, ha a hibasávok értéktípusa Custom.
 
 ```csharp
 public class ErrorBarsCustomValues : DomObject<ChartDataPoint>, IErrorBarsCustomValues
@@ -18,10 +18,10 @@ public class ErrorBarsCustomValues : DomObject<ChartDataPoint>, IErrorBarsCustom
 
 | Név | Leírás |
 | --- | --- |
-| [XMinus](../../aspose.slides.charts/errorbarscustomvalues/xminus) { get; } | Megadja a hibasáv értékét a negatív irányban. Elérhető, ha a hibasáv értéktípusa Custom és az ErrorBarsXFormat engedélyezett. Bármely más esetben ez a tulajdonság null értéket ad vissza. Csak olvasható [`IDoubleChartValue`](../idoublechartvalue). |
-| [XPlus](../../aspose.slides.charts/errorbarscustomvalues/xplus) { get; } | Megadja a hibasáv értékét a pozitív irányban. Elérhető, ha a hibasáv értéktípusa Custom és az ErrorBarsXFormat engedélyezett. Bármely más esetben ez a tulajdonság null értéket ad vissza. Csak olvasható [`IDoubleChartValue`](../idoublechartvalue). |
-| [YMinus](../../aspose.slides.charts/errorbarscustomvalues/yminus) { get; } | Megadja a hibasáv értékét a negatív irányban. Elérhető, ha a hibasáv értéktípusa Custom és az ErrorBarsYFormat engedélyezett. Bármely más esetben ez a tulajdonság null értéket ad vissza. Csak olvasható [`IDoubleChartValue`](../idoublechartvalue). |
-| [YPlus](../../aspose.slides.charts/errorbarscustomvalues/yplus) { get; } | Megadja a hibasáv értékét a pozitív irányban. Elérhető, ha a hibasáv értéktípusa Custom és az ErrorBarsYFormat engedélyezett. Bármely más esetben ez a tulajdonság null értéket ad vissza. Csak olvasható [`IDoubleChartValue`](../idoublechartvalue). |
+| [XMinus](../../aspose.slides.charts/errorbarscustomvalues/xminus) { get; } | Megadja a hibasáv értékét a negatív irányban. Elérhető, ha a hibasávok értéktípusa Custom és az ErrorBarsXFormat engedélyezett. Minden más esetben ez a tulajdonság null értéket ad vissza. Csak olvasható [`IDoubleChartValue`](../idoublechartvalue). |
+| [XPlus](../../aspose.slides.charts/errorbarscustomvalues/xplus) { get; } | Megadja a hibasáv értékét a pozitív irányban. Elérhető, ha a hibasávok értéktípusa Custom és az ErrorBarsXFormat engedélyezett. Minden más esetben ez a tulajdonság null értéket ad vissza. Csak olvasható [`IDoubleChartValue`](../idoublechartvalue). |
+| [YMinus](../../aspose.slides.charts/errorbarscustomvalues/yminus) { get; } | Megadja a hibasáv értékét a negatív irányban. Elérhető, ha a hibasávok értéktípusa Custom és az ErrorBarsYFormat engedélyezett. Minden más esetben ez a tulajdonság null értéket ad vissza. Csak olvasható [`IDoubleChartValue`](../idoublechartvalue). |
+| [YPlus](../../aspose.slides.charts/errorbarscustomvalues/yplus) { get; } | Megadja a hibasáv értékét a pozitív irányban. Elérhető, ha a hibasávok értéktípusa Custom és az ErrorBarsYFormat engedélyezett. Minden más esetben ez a tulajdonság null értéket ad vissza. Csak olvasható [`IDoubleChartValue`](../idoublechartvalue). |
 
 ### Lásd még
 

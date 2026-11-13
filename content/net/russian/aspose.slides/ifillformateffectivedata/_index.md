@@ -1,14 +1,14 @@
 ---
 title: IFillFormatEffectiveData
 second_title: Aspose.Sildes для .NET справочник API
-description: Неизменяемый объект, содержащий эффективные свойства форматирования заполнения.
+description: Неизменяемый объект, содержащий эффективные свойства форматирования заливки.
 type: docs
-weight: 5800
+weight: 5820
 url: /ru/aspose.slides/ifillformateffectivedata/
 ---
-## IFillFormatEffectiveData интерфейс
+## интерфейс IFillFormatEffectiveData
 
-Неизменяемый объект, содержащий эффективные свойства форматирования заполнения.
+Неизменяемый объект, содержащий эффективные свойства форматирования заливки.
 
 ```csharp
 public interface IFillFormatEffectiveData : IFillParamSource
@@ -19,17 +19,17 @@ public interface IFillFormatEffectiveData : IFillParamSource
 | Имя | Описание |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ifillformateffectivedata/asifillparamsource) { get; } | Возвращает интерфейс IFillParamSource. Только для чтения [`IFillParamSource`](../ifillparamsource). |
-| [FillType](../../aspose.slides/ifillformateffectivedata/filltype) { get; } | Возвращает тип заполнения. Только для чтения [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/ifillformateffectivedata/gradientformat) { get; } | Возвращает формат градиентного заполнения. Только для чтения [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
-| [PatternFormat](../../aspose.slides/ifillformateffectivedata/patternformat) { get; } | Возвращает формат паттерна заполнения. Только для чтения [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
-| [PictureFillFormat](../../aspose.slides/ifillformateffectivedata/picturefillformat) { get; } | Возвращает формат заполнения картинкой. Только для чтения [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata). |
-| [RotateWithShape](../../aspose.slides/ifillformateffectivedata/rotatewithshape) { get; } | Определяет, должно ли заполнение поворачиваться вместе с фигурой. Только для чтения Boolean. |
-| [SolidFillColor](../../aspose.slides/ifillformateffectivedata/solidfillcolor) { get; } | Возвращает цвет заполнения. Только для чтения Color. |
-| [SolidFillSchemeColor](../../aspose.slides/ifillformateffectivedata/solidfillschemecolor) { get; } | Получает цвет заполнения, определенный цветовой схемой. Значение NotDefined указывает, что [`SolidFillColor`](./solidfillcolor) не является цветом схемы. Только для чтения [`SchemeColor`](../schemecolor). |
+| [FillType](../../aspose.slides/ifillformateffectivedata/filltype) { get; } | Возвращает тип заливки. Только для чтения [`FillType`](../filltype). |
+| [GradientFormat](../../aspose.slides/ifillformateffectivedata/gradientformat) { get; } | Возвращает формат градиентной заливки. Только для чтения [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
+| [PatternFormat](../../aspose.slides/ifillformateffectivedata/patternformat) { get; } | Возвращает формат узорной заливки. Только для чтения [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
+| [PictureFillFormat](../../aspose.slides/ifillformateffectivedata/picturefillformat) { get; } | Возвращает формат заливки изображением. Только для чтения [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata). |
+| [RotateWithShape](../../aspose.slides/ifillformateffectivedata/rotatewithshape) { get; } | Определяет, должна ли заливка вращаться вместе с фигурой. Только для чтения Boolean. |
+| [SolidFillColor](../../aspose.slides/ifillformateffectivedata/solidfillcolor) { get; } | Возвращает цвет заливки. Только для чтения Color. |
+| [SolidFillSchemeColor](../../aspose.slides/ifillformateffectivedata/solidfillschemecolor) { get; } | Получает цвет заливки, определенный цветовой схемой. Значение NotDefined указывает, что [`SolidFillColor`](./solidfillcolor) не является цветом схемы. Только для чтения [`SchemeColor`](../schemecolor). |
 
 ### Примечания
 
-Этот интерфейс используется совместно с интерфейсом [`IFillFormat`](../ifillformat) для возвращения эффективных значений форматирования с учётом наследования.
+Этот интерфейс используется вместе с интерфейсом [`IFillFormat`](../ifillformat) для возврата эффективных значений форматирования с учётом наследования.
 
 ### См. также
 

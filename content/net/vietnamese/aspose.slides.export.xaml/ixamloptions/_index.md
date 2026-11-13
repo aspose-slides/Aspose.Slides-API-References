@@ -1,14 +1,14 @@
 ---
 title: IXamlOptions
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Các tùy chọn kiểm soát cách tài liệu XAML được lưu.
+description: Các tùy chọn kiểm soát cách lưu tài liệu XAML.
 type: docs
-weight: 4700
+weight: 4720
 url: /vi/aspose.slides.export.xaml/ixamloptions/
 ---
 ## IXamlOptions giao diện
 
-Các tùy chọn kiểm soát cách tài liệu XAML được lưu.
+Các tùy chọn kiểm soát cách lưu tài liệu XAML.
 
 ```csharp
 public interface IXamlOptions : ISaveOptions
@@ -18,9 +18,9 @@ public interface IXamlOptions : ISaveOptions
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export.xaml/ixamloptions/asisaveoptions) { get; } | Trả về giao diện ISaveOptions. Chỉ đọc [`ISaveOptions`](../../aspose.slides.export/isaveoptions). |
-| [ExportHiddenSlides](../../aspose.slides.export.xaml/ixamloptions/exporthiddenslides) { get; set; } | Xác định xem các slide ẩn có được xuất ra hay không. |
-| [OutputSaver](../../aspose.slides.export.xaml/ixamloptions/outputsaver) { get; set; } | Đại diện cho một triển khai của giao diện IOutputSaver. |
+| [AsISaveOptions](../../aspose.slides.export.xaml/ixamloptions/asisaveoptions) { get; } | Returns ISaveOptions interface. Chỉ đọc [`ISaveOptions`](../../aspose.slides.export/isaveoptions). |
+| [ExportHiddenSlides](../../aspose.slides.export.xaml/ixamloptions/exporthiddenslides) { get; set; } | Xác định xem các slide ẩn có được xuất hay không. |
+| [OutputSaver](../../aspose.slides.export.xaml/ixamloptions/outputsaver) { get; set; } | Biểu diễn một triển khai của IOutputSaver giao diện. |
 
 ### Ví dụ
 

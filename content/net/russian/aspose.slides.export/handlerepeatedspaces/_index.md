@@ -1,12 +1,12 @@
 ---
 title: HandleRepeatedSpaces
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для .NET справочника API
 description: Указывает, как следует обрабатывать повторяющиеся обычные пробельные символы при экспорте в Markdown.
 type: docs
-weight: 3830
+weight: 3850
 url: /ru/aspose.slides.export/handlerepeatedspaces/
 ---
-## Перечисление HandleRepeatedSpaces
+## HandleRepeatedSpaces перечисление
 
 Указывает, как следует обрабатывать повторяющиеся обычные пробельные символы при экспорте в Markdown.
 
@@ -18,7 +18,7 @@ public enum HandleRepeatedSpaces
 
 | Имя | Значение | Описание |
 | --- | --- | --- |
-| None | `0` | Все пробелы сохраняются как обычные пробельные символы без каких-либо изменений. Преобразования не применяются, и несколько последовательных пробелов экспортируются как есть. |
+| None | `0` | Все пробелы сохраняются как обычные пробельные символы без каких-либо изменений. Преобразование не применяется, и несколько последовательных пробелов экспортируются как есть. |
 | AlternateSpacesToNbsp | `1` |  |
 | MultipleSpacesToNbsp | `2` |  |
 

@@ -1,14 +1,14 @@
 ---
 title: IChartDataWorksheet
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: IChartDataCell に関連付けられたワークシートを表します./ichartdatacell
 type: docs
-weight: 1870
+weight: 1890
 url: /ja/aspose.slides.charts/ichartdataworksheet/
 ---
 ## IChartDataWorksheet インターフェイス
 
-関連付けられたワークシートを表します [`IChartDataCell`](../ichartdatacell)
+[`IChartDataCell`](../ichartdatacell) に関連付けられたワークシートを表します
 
 ```csharp
 public interface IChartDataWorksheet
@@ -18,8 +18,8 @@ public interface IChartDataWorksheet
 
 | 名前 | 説明 |
 | --- | --- |
-| [Index](../../aspose.slides.charts/ichartdataworksheet/index) { get; } | インデックスを取得します。読み取り専用の Int32。 |
-| [Name](../../aspose.slides.charts/ichartdataworksheet/name) { get; } | 名前を取得します。読み取り専用の String。 |
+| [Index](../../aspose.slides.charts/ichartdataworksheet/index) { get; } | インデックスを取得します。読み取り専用 Int32。 |
+| [Name](../../aspose.slides.charts/ichartdataworksheet/name) { get; } | 名前を取得します。読み取り専用 String。 |
 
 ### 参照
 

@@ -1,9 +1,9 @@
 ---
 title: IFillParamSource
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET справочник API
 description: Вспомогательный интерфейс параметров заполнения.
 type: docs
-weight: 5810
+weight: 5830
 url: /ru/aspose.slides/ifillparamsource/
 ---
 ## IFillParamSource интерфейс

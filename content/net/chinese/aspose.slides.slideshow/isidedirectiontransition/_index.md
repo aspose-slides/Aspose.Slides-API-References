@@ -3,7 +3,7 @@ title: ISideDirectionTransition
 second_title: Aspose.Sildes .NET API 参考
 description: 侧向幻灯片过渡效果。
 type: docs
-weight: 10190
+weight: 10210
 url: /zh/aspose.slides.slideshow/isidedirectiontransition/
 ---
 ## ISideDirectionTransition 接口
@@ -19,7 +19,7 @@ public interface ISideDirectionTransition : ITransitionValueBase
 | 名称 | 描述 |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/isidedirectiontransition/asitransitionvaluebase) { get; } | 允许获取基 ITransitionValueBase 接口。只读 [`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [Direction](../../aspose.slides.slideshow/isidedirectiontransition/direction) { get; set; } | 过渡方向。可读写 [`TransitionSideDirectionType`](../transitionsidedirectiontype)。 |
+| [Direction](../../aspose.slides.slideshow/isidedirectiontransition/direction) { get; set; } | 转换的方向。读/写 [`TransitionSideDirectionType`](../transitionsidedirectiontype)。 |
 
 ### 另见
 

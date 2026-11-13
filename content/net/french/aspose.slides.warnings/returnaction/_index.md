@@ -1,14 +1,14 @@
 ---
 title: ReturnAction
 second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Représente les options de décision du rappel d’avertissement.
+description: Représente les options de décision du rappel d'avertissement.
 type: docs
-weight: 11820
+weight: 11840
 url: /fr/aspose.slides.warnings/returnaction/
 ---
-## Énumération ReturnAction
+## ReturnAction énumération
 
-Représente les options de décision du rappel d’avertissement.
+Représente les options de décision du rappel d'avertissement.
 
 ```csharp
 public enum ReturnAction
@@ -18,10 +18,10 @@ public enum ReturnAction
 
 | Nom | Valeur | Description |
 | --- | --- | --- |
-| Continue | `0` | L’opération doit être poursuivie. |
-| Abort | `1` | L’opération doit être interrompue. |
+| Continue | `0` | L'opération doit se poursuivre. |
+| Abort | `1` | L'opération doit être abandonnée. |
 
-### Voir également
+### Voir aussi
 
 * espace de noms [Aspose.Slides.Warnings](../../aspose.slides.warnings)
 * assembly [Aspose.Slides](../../)

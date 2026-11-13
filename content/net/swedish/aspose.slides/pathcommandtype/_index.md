@@ -1,29 +1,29 @@
 ---
 title: PathCommandType
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar grafikvägkommandon
+description: Representerar grafikens sökvägskommandon
 type: docs
-weight: 9320
+weight: 9340
 url: /sv/aspose.slides/pathcommandtype/
 ---
-## PathCommandType enumeration
+## PathCommandType-enumeration
 
-Representerar grafikvägkommandon
+Representerar grafikens sökvägskommandon
 
 ```csharp
 public enum PathCommandType : byte
 ```
 
-### Values
+### Värden
 
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Close | `0` | Stänger geometrisk sökväg |
-| MoveTo | `1` | Ställer in nästa punkts position i den geometriska sökvägen |
-| LineTo | `2` | Lägger till en linje till den geometriska sökvägen |
-| ArcTo | `3` | Lägger till den angivna bågen till den geometriska sökvägen. |
-| QuadBezierTo | `4` | Lägger till en kvadratisk Bezier-kurva till den geometriska sökvägen |
-| CubicBezierTo | `5` | Lägger till en kubisk Bezier-kurva till den geometriska sökvägen |
+| Close | `0` | Stänger geometrisk bana |
+| MoveTo | `1` | Ställer in nästa punkts position för den geometriska banan |
+| LineTo | `2` | Lägger till en linje till den geometriska banan |
+| ArcTo | `3` | Lägger till den angivna bågen till den geometriska banan. |
+| QuadBezierTo | `4` | Lägger till en kvadratisk Bezier-kurva till den geometriska banan |
+| CubicBezierTo | `5` | Lägger till en kubisk Bezier-kurva till den geometriska banan |
 
 ### Se också
 

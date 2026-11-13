@@ -1,14 +1,14 @@
 ---
 title: DoubleChartValue
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: "pptx 프레젠테이션 문서에 두 가지 방법으로 저장될 수 있는 double 값을 나타냅니다: 1) 차트와 연결된 워크북의 셀/셀들에, 2) 리터럴 값으로."
+description: pptx 프레젠테이션 문서에 두 가지 방법으로 저장될 수 있는 double 값을 나타냅니다: 1) 차트와 관련된 워크북의 셀/셀에, 2) 리터럴 값으로.
 type: docs
-weight: 1630
+weight: 1640
 url: /ko/aspose.slides.charts/doublechartvalue/
 ---
 ## DoubleChartValue 클래스
 
-pptx 프레젠테이션 문서에 두 가지 방법으로 저장될 수 있는 double 값을 나타냅니다: 1) 차트와 연결된 워크북의 셀/셀들에 저장; 2) 리터럴 값으로 저장.
+pptx 프레젠테이션 문서에 두 가지 방법으로 저장될 수 있는 double 값을 나타냅니다: 1) 차트와 관련된 워크북의 셀/셀들에; 2) 리터럴 값으로.
 
 ```csharp
 public class DoubleChartValue : BaseChartValue, IDoubleChartValue
@@ -16,18 +16,18 @@ public class DoubleChartValue : BaseChartValue, IDoubleChartValue
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [AsCell](../../aspose.slides.charts/doublechartvalue/ascell) { get; set; } | 차트 데이터 셀을 반환하거나 설정합니다. 읽기/쓰기 [`IChartDataCell`](../ichartdatacell). |
 | [AsLiteralDouble](../../aspose.slides.charts/doublechartvalue/asliteraldouble) { get; set; } | 값을 리터럴 double로 반환하거나 설정합니다. 읽기/쓰기 Double. |
 | override [Data](../../aspose.slides.charts/doublechartvalue/data) { get; set; } | Data 객체를 반환하거나 설정합니다. 읽기/쓰기 Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | 자손에서 AsCell, AsCells, AsLiteralString 또는 AsLiteralDouble 속성이 실제인지 지정합니다. 다시 말해 Data 속성의 값 유형을 지정합니다. 읽기/쓰기 [`DataSourceType`](../datasourcetype). |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Descendants에서 AsCell, AsCells, AsLiteralString 또는 AsLiteralDouble 속성이 실제인지 지정합니다. 다시 말해 Data 속성의 값 유형을 지정합니다. 읽기/쓰기 [`DataSourceType`](../datasourcetype). |
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [ToDouble](../../aspose.slides.charts/doublechartvalue/todouble)() | Double 로 변환합니다. |
+| [ToDouble](../../aspose.slides.charts/doublechartvalue/todouble)() | Double로 변환합니다. |
 
 ### 참조
 

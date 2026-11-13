@@ -1,14 +1,14 @@
 ---
 title: IGlobalLayoutSlideCollection
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta una raccolta di tutte le layout slide nella presentazione. Estende l'interfaccia ILayoutSlideCollection con metodi per aggiungere/clonare layout slide nel contesto dell'unione delle singole raccolte di layout slide dei master.
+description: Rappresenta una raccolta di tutte le diapositive di layout nella presentazione. Estende l'interfaccia ILayoutSlideCollection con metodi per aggiungere/clonare diapositive di layout nel contesto dell'unione delle collezioni individuali di diapositive di layout dei master.
 type: docs
-weight: 5990
+weight: 6010
 url: /it/aspose.slides/igloballayoutslidecollection/
 ---
 ## IGlobalLayoutSlideCollection interfaccia
 
-Rappresenta una raccolta di tutte le layout slide nella presentazione. Estende l'interfaccia ILayoutSlideCollection con metodi per aggiungere/clonare layout slide nel contesto dell'unione delle collezioni individuali di layout slide del master.
+Rappresenta una raccolta di tutte le diapositive di layout nella presentazione. Estende l'interfaccia ILayoutSlideCollection con metodi per aggiungere/clonare diapositive di layout nel contesto dell'unione delle collezioni individuali di diapositive di layout del master.
 
 ```csharp
 public interface IGlobalLayoutSlideCollection : ILayoutSlideCollection
@@ -24,9 +24,9 @@ public interface IGlobalLayoutSlideCollection : ILayoutSlideCollection
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.slides/igloballayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | Aggiunge una nuova layout slide alla presentazione. |
-| [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone)(ILayoutSlide) | Aggiunge una copia di una layout slide specificata alla presentazione. |
-| [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | Aggiunge una copia di una layout slide specificata alla presentazione. |
+| [Add](../../aspose.slides/igloballayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | Aggiunge una nuova diapositiva di layout alla presentazione. |
+| [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone)(ILayoutSlide) | Aggiunge una copia di una diapositiva di layout specificata alla presentazione. |
+| [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | Aggiunge una copia di una diapositiva di layout specificata alla presentazione. |
 
 ### Vedi anche
 

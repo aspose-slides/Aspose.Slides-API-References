@@ -1,14 +1,14 @@
 ---
 title: IMultipleCellChartValue
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงคอลเลกชันของเซลล์แผนภูมิ.
+description: แสดงคอลเลกชันของเซลล์แผนภูมิ
 type: docs
-weight: 2170
+weight: 2190
 url: /th/aspose.slides.charts/imultiplecellchartvalue/
 ---
 ## IMultipleCellChartValue อินเทอร์เฟซ
 
-Represents a collection of a chart cells.
+แสดงคอลเลกชันของเซลล์แผนภูมิ
 
 ```csharp
 public interface IMultipleCellChartValue : IBaseChartValue
@@ -18,8 +18,8 @@ public interface IMultipleCellChartValue : IBaseChartValue
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsCells](../../aspose.slides.charts/imultiplecellchartvalue/ascells) { get; set; } | คืนค่าหรือกำหนดคอลเลกชันของเซลล์แผนภูมิ. อ่าน/เขียน [`IChartCellCollection`](../ichartcellcollection). |
-| [AsIBaseChartValue](../../aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue) { get; } | อนุญาตให้รับอินเทอร์เฟซ IBaseChartValue พื้นฐาน. อ่านอย่างเดียว [`IBaseChartValue`](../ibasechartvalue). |
+| [AsCells](../../aspose.slides.charts/imultiplecellchartvalue/ascells) { get; set; } | คืนค่า หรือกำหนดคอลเลกชันของเซลล์แผนภูมิ. อ่าน/เขียน [`IChartCellCollection`](../ichartcellcollection). |
+| [AsIBaseChartValue](../../aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue) { get; } | อนุญาตให้ได้รับอินเทอร์เฟซ IBaseChartValue พื้นฐาน. อ่านอย่างเดียว [`IBaseChartValue`](../ibasechartvalue). |
 
 ### ดูเพิ่มเติม
 

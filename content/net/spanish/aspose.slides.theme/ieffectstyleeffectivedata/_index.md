@@ -1,12 +1,12 @@
 ---
 title: IEffectStyleEffectiveData
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Objeto inmutable que contiene propiedades de estilo de efecto efectivas.
+description: Objeto inmutable que contiene propiedades de estilo de efecto efectivo.
 type: docs
-weight: 11200
+weight: 11220
 url: /es/aspose.slides.theme/ieffectstyleeffectivedata/
 ---
-## Interfaz IEffectStyleEffectiveData
+## IEffectStyleEffectiveData interfaz
 
 Objeto inmutable que contiene propiedades del estilo de efecto efectivo.
 
@@ -23,7 +23,7 @@ public interface IEffectStyleEffectiveData
 
 ### Observaciones
 
-Esta interfaz se usa como parte de [`IEffectStyleCollectionEffectiveData`](../ieffectstylecollectioneffectivedata).
+Esta interfaz se utiliza como parte de [`IEffectStyleCollectionEffectiveData`](../ieffectstylecollectioneffectivedata).
 
 ### Ver también
 

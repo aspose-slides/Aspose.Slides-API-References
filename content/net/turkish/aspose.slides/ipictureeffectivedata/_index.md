@@ -1,14 +1,14 @@
 ---
 title: IPictureEffectiveData
 second_title: Aspose.Sildes için .NET API Referansı
-description: Etkin resim özelliklerini içeren değişmez nesne.
+description: Etkili resim özelliklerini içeren değiştirilemez nesne.
 type: docs
-weight: 6640
+weight: 6660
 url: /tr/aspose.slides/ipictureeffectivedata/
 ---
 ## IPictureEffectiveData arayüzü
 
-Etkin resim özelliklerini içeren değişmez nesne.
+Etkili resim özelliklerini içeren değiştirilemez nesne.
 
 ```csharp
 public interface IPictureEffectiveData
@@ -19,12 +19,12 @@ public interface IPictureEffectiveData
 | Ad | Açıklama |
 | --- | --- |
 | [Image](../../aspose.slides/ipictureeffectivedata/image) { get; } | Gömülü resmi döndürür. Salt okunur [`IPPImage`](../ippimage). |
-| [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | Resim dönüşüm efektlerinin koleksiyonunu döndürür. Salt okunur [`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata). |
+| [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | Görüntü dönüşüm efektleri koleksiyonunu döndürür. Salt okunur [`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata). |
 | [LinkPathLong](../../aspose.slides/ipictureeffectivedata/linkpathlong) { get; } | Bağlantılı resmin URL'sini döndürür. Salt okunur String. |
 
 ### Açıklamalar
 
-Bu arayüz [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata) ve [`IBulletFormatEffectiveData`](../ibulletformateffectivedata) bir parçası olarak kullanılır.
+Bu arayüz [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata) ve [`IBulletFormatEffectiveData`](../ibulletformateffectivedata)'nin bir parçası olarak kullanılır.
 
 ### Ayrıca Bakınız
 

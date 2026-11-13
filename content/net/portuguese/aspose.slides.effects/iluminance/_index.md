@@ -1,14 +1,14 @@
 ---
 title: ILuminance
-second_title: Aspose.Sildes para .NET Referência da API
-description: Representa um efeito Luminance. Brilho desloca linearmente todas as cores mais próximas do branco ou do preto. Contraste escala todas as cores para que fiquem mais próximas ou mais distantes umas das outras.
+second_title: Aspose.Sildes para Referência da API .NET
+description: Representa um efeito de Luminance. Brilho desloca linearmente todas as cores mais próximas do branco ou preto. Contraste escala todas as cores para que fiquem mais próximas ou mais distantes umas das outras.
 type: docs
-weight: 3440
+weight: 3460
 url: /pt/aspose.slides.effects/iluminance/
 ---
-## interface ILuminance
+## ILuminance interface
 
-Representa um efeito Luminance. Brilho desloca linearmente todas as cores mais próximas do branco ou do preto. Contraste escala todas as cores para que fiquem mais próximas ou mais distantes umas das outras.
+Representa um efeito de Luminance. Brilho desloca linearmente todas as cores mais próximas do branco ou preto. Contraste escala todas as cores para que fiquem mais próximas ou mais distantes umas das outras.
 
 ```csharp
 public interface ILuminance : IAccessiblePVIObject<ILuminanceEffectiveData>, 
@@ -22,7 +22,7 @@ public interface ILuminance : IAccessiblePVIObject<ILuminanceEffectiveData>,
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/iluminance/asiaccessiblepviobject) { get; } | Permite obter a interface base IAccessiblePVIObject. Somente leitura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/iluminance/asiimagetransformoperation) { get; } | Permite obter a interface base IImageTransformOperation. Somente leitura [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### Ver também
+### Veja Também
 
 * interface [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * interface [ILuminanceEffectiveData](../iluminanceeffectivedata)

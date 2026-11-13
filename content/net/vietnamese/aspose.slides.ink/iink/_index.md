@@ -1,14 +1,14 @@
 ---
 title: IInk
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Biểu diễn một đối tượng mực trên một slide.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu diễn một đối tượng mực trên một trang chiếu.
 type: docs
-weight: 7510
+weight: 7530
 url: /vi/aspose.slides.ink/iink/
 ---
 ## IInk giao diện
 
-Biểu diễn một đối tượng mực trên một slide.
+Biểu thị một đối tượng mực trên một trang chiếu.
 
 ```csharp
 public interface IInk : IGraphicalObject
@@ -18,8 +18,8 @@ public interface IInk : IGraphicalObject
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides.ink/iink/asigraphicalobject) { get; } | Cho phép lấy giao diện IGraphicalObject cơ bản. Chỉ đọc [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
-| [Traces](../../aspose.slides.ink/iink/traces) { get; } | Lấy tất cả các dấu vết chứa trong phần tử IInk [`IInkTrace`](../iinktrace). Chỉ đọc. |
+| [AsIGraphicalObject](../../aspose.slides.ink/iink/asigraphicalobject) { get; } | Cho phép lấy giao diện IGraphicalObject cơ bản. Chỉ-đọc [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [Traces](../../aspose.slides.ink/iink/traces) { get; } | Lấy tất cả các dấu vết chứa trong phần tử IInk [`IInkTrace`](../iinktrace). Chỉ-đọc. |
 
 ### Xem thêm
 

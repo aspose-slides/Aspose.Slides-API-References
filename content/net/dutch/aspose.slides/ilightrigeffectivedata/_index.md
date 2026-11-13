@@ -1,14 +1,14 @@
 ---
 title: ILightRigEffectiveData
-second_title: Aspose.Slides voor .NET API-referentie
-description: Onveranderlijk object dat effectieve lichtrig-eigenschappen bevat.
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Onveranderlijk object dat effectieve light rig-eigenschappen bevat.
 type: docs
-weight: 6280
+weight: 6300
 url: /nl/aspose.slides/ilightrigeffectivedata/
 ---
 ## ILightRigEffectiveData interface
 
-Onveranderlijk object dat effectieve lichtrig-eigenschappen bevat.
+Onveranderlijk object dat effectieve light rig-eigenschappen bevat.
 
 ```csharp
 public interface ILightRigEffectiveData
@@ -19,13 +19,13 @@ public interface ILightRigEffectiveData
 | Naam | Beschrijving |
 | --- | --- |
 | [Direction](../../aspose.slides/ilightrigeffectivedata/direction) { get; } | Lichtrichting. Alleen-lezen [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | Stelt een vooraf ingestelde lichtinstelling voor die op een vorm kan worden toegepast. Het lichtrig vertegenwoordigt een groep lichten die op een specifieke manier ten opzichte van een 3D-scene zijn georiënteerd. Alleen-lezen [`LightRigPresetType`](../lightrigpresettype). |
+| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | Stelt een vooraf ingestelde lichtinstelling voor die op een vorm kan worden toegepast. Het lichtrig vertegenwoordigt een groep lampen die op een specifieke manier ten opzichte van een 3D-scene zijn georiënteerd. Alleen-lezen [`LightRigPresetType`](../lightrigpresettype). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | Een rotatie wordt gedefinieerd met behulp van een breedtegraadcoördinaat, een lengtegraadcoördinaat en een omwenteling rond de as als de breedte- en lengtegraadcoördinaten. Het eerste element in de geretourneerde array - breedtegraad, het tweede - lengtegraad, het derde - omwenteling. |
+| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | Een rotatie wordt gedefinieerd door gebruik te maken van een breedtegraadcoördinaat, een lengtegraadcoördinaat en een revolutie rond de as zoals de breedtegraad- en lengtegraadcoördinaten. Eerste element in retourarray – breedtegraad, tweede – lengtegraad, derde – revolutie. |
 
 ### Opmerkingen
 

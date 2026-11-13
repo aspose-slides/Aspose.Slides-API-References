@@ -3,7 +3,7 @@ title: DisplayUnitType
 second_title: Aspose.Sildes pro .NET API Reference
 description: Určuje násobnost zobrazovaných dat.
 type: docs
-weight: 1620
+weight: 1630
 url: /cs/aspose.slides.charts/displayunittype/
 ---
 ## DisplayUnitType výčet
@@ -20,14 +20,14 @@ public enum DisplayUnitType
 | --- | --- | --- |
 | None | `0` | Hodnoty budou zobrazeny tak, jak jsou. |
 | Hundreds | `1` | Určuje, že hodnoty v grafu budou děleny 100. |
-| Thousands | `2` | Určuje, že hodnoty v grafu budou děleny 1 000. |
-| TenThousands | `3` | Určuje, že hodnoty v grafu budou děleny 10 000. |
-| HundredThousands | `4` | Určuje, že hodnoty v grafu budou děleny 100 000. |
-| Millions | `5` | Určuje, že hodnoty v grafu budou děleny 1 000 000. |
-| TenMillions | `6` | Určuje, že hodnoty v grafu budou děleny 10 000 000. |
-| HundredMillions | `7` | Určuje, že hodnoty v grafu budou děleny 100 000 000. |
-| Billions | `8` | Určuje, že hodnoty v grafu budou děleny 1 000 000 000. |
-| Trillions | `9` | Určuje, že hodnoty v grafu budou děleny 1 000 000 000 000. |
+| Thousands | `2` | Určuje, že hodnoty v grafu budou děleny 1,000. |
+| TenThousands | `3` | Určuje, že hodnoty v grafu budou děleny 10,000. |
+| HundredThousands | `4` | Určuje, že hodnoty v grafu budou děleny 100,000. |
+| Millions | `5` | Určuje, že hodnoty v grafu budou děleny 1,000,000. |
+| TenMillions | `6` | Určuje, že hodnoty v grafu budou děleny 10,000,000. |
+| HundredMillions | `7` | Určuje, že hodnoty v grafu budou děleny 100,000,000. |
+| Billions | `8` | Určuje, že hodnoty v grafu budou děleny 1,000,000,000. |
+| Trillions | `9` | Určuje, že hodnoty v grafu budou děleny 1,000,000,000,000. |
 | CustomValue | `10` | Určuje, že hodnoty v grafu budou děleny vlastní hodnotou. |
 
 ### Viz také

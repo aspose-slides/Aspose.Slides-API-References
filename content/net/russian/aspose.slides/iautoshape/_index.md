@@ -1,9 +1,9 @@
 ---
 title: IAutoShape
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для справочника API .NET
 description: Представляет AutoShape.
 type: docs
-weight: 5240
+weight: 5260
 url: /ru/aspose.slides/iautoshape/
 ---
 ## IAutoShape интерфейс
@@ -16,22 +16,22 @@ public interface IAutoShape : IGeometryShape
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [AsIGeometryShape](../../aspose.slides/iautoshape/asigeometryshape) { get; } | Позволяет получить базовый интерфейс IGeometryShape. Только для чтения [`IGeometryShape`](../igeometryshape). |
 | [AutoShapeLock](../../aspose.slides/iautoshape/autoshapelock) { get; } | Возвращает блокировки AutoShape. Только для чтения [`IAutoShapeLock`](../iautoshapelock). |
-| [IsTextBox](../../aspose.slides/iautoshape/istextbox) { get; } | Указывает, является ли фигура текстовым полем. |
+| [IsTextBox](../../aspose.slides/iautoshape/istextbox) { get; } | Указывает, является ли объект текстовым полем. |
 | [ShapeLock](../../aspose.slides/iautoshape/shapelock) { get; } | Возвращает блокировки фигуры. Только для чтения [`IAutoShapeLock`](../iautoshapelock). |
 | [TextFrame](../../aspose.slides/iautoshape/textframe) { get; } | Возвращает объект TextFrame для AutoShape. Только для чтения [`ITextFrame`](../itextframe). |
-| [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | Определяет, должна ли эта автокривая быть заполнена фоном слайда вместо заполнения, указанного стилем или форматом заливки. Чтение/запись Boolean. |
+| [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | Определяет, следует ли заполнять эту автоскульку фоном слайда вместо заполнения, указанного стилем или форматом заполнения. Чтение/запись Boolean. |
 
 ## Методы
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
-| [AddTextFrame](../../aspose.slides/iautoshape/addtextframe)(string) | Добавляет новый TextFrame к фигуре. Если у фигуры уже есть TextFrame, то просто изменяет его текст. |
+| [AddTextFrame](../../aspose.slides/iautoshape/addtextframe)(string) | Добавляет новый TextFrame к фигуре. Если фигура уже имеет TextFrame, то просто изменяет его текст. |
 
-### См. также
+### Смотрите также
 
 * интерфейс [IGeometryShape](../igeometryshape)
 * пространство имён [Aspose.Slides](../../aspose.slides)

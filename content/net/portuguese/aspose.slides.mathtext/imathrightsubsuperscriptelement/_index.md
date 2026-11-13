@@ -1,14 +1,14 @@
 ---
 title: IMathRightSubSuperscriptElement
-second_title: Referência da API Aspose.Sildes for .NET
-description: Especifica o objeto Sub-Superscript, que consiste em uma base e um subscript e superscript posicionados à direita da base.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Especifica o objeto Sub-Sobrescrito que consiste em uma base e um subscrito e sobrescrito posicionados à direita da base.
 type: docs
-weight: 8450
+weight: 8470
 url: /pt/aspose.slides.mathtext/imathrightsubsuperscriptelement/
 ---
 ## IMathRightSubSuperscriptElement interface
 
-Especifica o objeto Sub-Superscript, que consiste em uma base e um subscript e superscript posicionados à direita da base.
+Especifica o objeto Sub-Sobrescrito, que consiste em uma base e um subscrito e sobrescrito posicionados à direita da base.
 
 ```csharp
 public interface IMathRightSubSuperscriptElement : IMathElement
@@ -18,11 +18,11 @@ public interface IMathRightSubSuperscriptElement : IMathElement
 
 | Nome | Descrição |
 | --- | --- |
-| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | Especifica o alinhamento de subscript/superscript. Quando verdadeiro, subscript e superscript são alinhados horizontalmente entre si. Quando falso, são ajustados à forma da base. O valor padrão é falso. |
-| [AsIMathElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement) { get; } | Permite obter a interface IMathElement base [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/base) { get; } | Argumento da base |
-| [Subscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript) { get; } | Argumento de subscript |
-| [Superscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/superscript) { get; } | Argumento de superscript |
+| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | Especifica o alinhamento de subscrito/sobrescrito. Quando true, subscrito e sobrescrito são alinhados horizontalmente entre si. Quando false, são ajustados à forma da base. O valor padrão é false. |
+| [AsIMathElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement) { get; } | Permite obter a base IMathElement interface [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/base) { get; } | Argumento base |
+| [Subscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript) { get; } | Argumento subscrito |
+| [Superscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/superscript) { get; } | Argumento sobrescrito |
 
 ### Exemplos
 
@@ -33,7 +33,7 @@ Exemplo:
 IMathRightSubSuperscriptElement subsuperscript = new MathematicalText("N").SetSubSuperscriptOnTheRight("i", "j");
 ```
 
-### Veja Também
+### Ver também
 
 * interface [IMathElement](../imathelement)
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

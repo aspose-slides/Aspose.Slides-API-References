@@ -1,9 +1,9 @@
 ---
 title: RowCollection
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en samling av tabellrader.
+description: Representerar samling av tabellrader.
 type: docs
-weight: 9720
+weight: 9740
 url: /sv/aspose.slides/rowcollection/
 ---
 ## RowCollection klass
@@ -20,8 +20,8 @@ public sealed class RowCollection : DomObject<Table>, IRowCollection
 | --- | --- |
 | [Count](../../aspose.slides/rowcollection/count) { get; } | Hämtar antalet rader som faktiskt finns i samlingen. Skrivskyddad Int32. |
 | [IsSynchronized](../../aspose.slides/rowcollection/issynchronized) { get; } | Returnerar ett värde som indikerar om åtkomst till samlingen är synkroniserad (trådsäker). Skrivskyddad Boolean. |
-| [Item](../../aspose.slides/rowcollection/item) { get; } | Returnerar raden på det angivna indexet. Skrivskyddad [`Row`](../row). |
-| [SyncRoot](../../aspose.slides/rowcollection/syncroot) { get; } | Returnerar en synkroniseringsrot. Skrivskyddad Object. |
+| [Item](../../aspose.slides/rowcollection/item) { get; } | Returnerar raden på angivet index. Skrivskyddad [`Row`](../row). |
+| [SyncRoot](../../aspose.slides/rowcollection/syncroot) { get; } | Returnerar ett synkroniseringsrot. Skrivskyddad Object. |
 
 ## Metoder
 
@@ -33,7 +33,7 @@ public sealed class RowCollection : DomObject<Table>, IRowCollection
 | [InsertClone](../../aspose.slides/rowcollection/insertclone)(int, IRow, bool) | Skapar en kopia av den angivna mallraden och infogar den på den angivna positionen i en tabell. |
 | [RemoveAt](../../aspose.slides/rowcollection/removeat)(int, bool) | Tar bort en rad på den angivna positionen från en tabell. |
 
-### Se också
+### Se även
 
 * klass [DomObject&lt;TParent&gt;](../domobject-1)
 * klass [Table](../table)

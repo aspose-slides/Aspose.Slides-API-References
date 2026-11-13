@@ -1,9 +1,9 @@
 ---
 title: LineAlignment
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 表示行對齊類型。
 type: docs
-weight: 7720
+weight: 7740
 url: /zh-hant/aspose.slides/linealignment/
 ---
 ## LineAlignment 列舉
@@ -22,7 +22,7 @@ public enum LineAlignment : sbyte
 | Center | `0` |  |
 | Inset | `1` |  |
 
-### 另請參閱
+### 另見
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

@@ -1,20 +1,20 @@
 ---
 title: MathTopBotPositions
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 顶部/底部 位置 枚举
 type: docs
-weight: 9040
+weight: 9060
 url: /zh/aspose.slides.mathtext/mathtopbotpositions/
 ---
 ## MathTopBotPositions 枚举
 
-顶部/底部 位置枚举
+顶部/底部 位置 枚举
 
 ```csharp
 public enum MathTopBotPositions
 ```
 
-### 取值
+### 值
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
@@ -22,7 +22,7 @@ public enum MathTopBotPositions
 | Top | `1` | 顶部 |
 | Bottom | `2` | 底部 |
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 程序集 [Aspose.Slides](../../)

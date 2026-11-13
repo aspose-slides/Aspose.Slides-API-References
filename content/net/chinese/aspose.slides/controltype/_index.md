@@ -3,12 +3,12 @@ title: ControlType
 second_title: Aspose.Sildes for .NET API 参考
 description: 定义应由 AddControl./icontrolcollection/addcontrol 嵌入的控件类型。
 type: docs
-weight: 2720
+weight: 2740
 url: /zh/aspose.slides/controltype/
 ---
 ## ControlType 枚举
 
-定义应由 [`AddControl`](../icontrolcollection/addcontrol) 嵌入的控件类型。
+定义一个应由 [`AddControl`](../icontrolcollection/addcontrol) 嵌入的控件类型。
 
 ```csharp
 public enum ControlType
@@ -20,7 +20,7 @@ public enum ControlType
 | --- | --- | --- |
 | WindowsMediaPlayer | `0` | Windows Media Player 控件。 |
 
-### 另请参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

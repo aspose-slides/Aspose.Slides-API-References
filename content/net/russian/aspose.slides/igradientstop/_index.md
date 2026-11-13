@@ -1,14 +1,14 @@
 ---
 title: IGradientStop
 second_title: Aspose.Sildes для .NET API Reference
-description: Представляет градиентный формат.
+description: Представляет формат градиента.
 type: docs
-weight: 6020
+weight: 6040
 url: /ru/aspose.slides/igradientstop/
 ---
-## IGradientStop интерфейс
+## IGradientStop interface
 
-Представляет градиентный формат.
+Представляет формат градиента.
 
 ```csharp
 public interface IGradientStop
@@ -18,8 +18,8 @@ public interface IGradientStop
 
 | Имя | Описание |
 | --- | --- |
-| [Color](../../aspose.slides/igradientstop/color) { get; } | Возвращает цвет точки градиента. Только для чтения [`IColorFormat`](../icolorformat). |
-| [Position](../../aspose.slides/igradientstop/position) { get; set; } | Возвращает или задает позицию (0..1) точки градиента. Чтение/запись Single. |
+| [Color](../../aspose.slides/igradientstop/color) { get; } | Возвращает цвет градиентной остановки. Только чтение [`IColorFormat`](../icolorformat). |
+| [Position](../../aspose.slides/igradientstop/position) { get; set; } | Возвращает или задает позицию (0..1) градиентной остановки. Чтение/запись Single. |
 
 ### См. также
 

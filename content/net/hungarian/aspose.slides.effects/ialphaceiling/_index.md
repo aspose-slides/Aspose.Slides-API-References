@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeiling
-second_title: Aspose.Sildes .NET API referencia
-description: Alpha Ceiling hatást reprezentál. A nulla feletti alfa átlátszatlanság értékek 100-ra változnak. Más szóval, minden részben átlátszatlan teljesen átlátszatlanná válik.
+second_title: Aspose.Slides .NET API Referencia
+description: Egy Alpha Ceiling hatást reprezentál. A nulla feletti alfa átlátszatlanság értékek 100-ra módosulnak. Más szóval, minden részben átlátszó teljesen átlátszatlanná válik.
 type: docs
-weight: 3040
+weight: 3060
 url: /hu/aspose.slides.effects/ialphaceiling/
 ---
 ## IAlphaCeiling interfész
 
-Az Alpha Ceiling effektust reprezentálja. Az nulla feletti Alpha (átlátszatlanság) értékek 100%-ra változnak. Más szóval, minden részben átlátszatlan teljesen átlátszatlanná válik.
+Az Alpha Ceiling hatást reprezentálja. A nulla feletti alfa (átlátszatlanság) értékek 100%-ra módosulnak. Más szóval, minden részlegesen átlátszó teljesen átlátszatlanná válik.
 
 ```csharp
 public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData>, 

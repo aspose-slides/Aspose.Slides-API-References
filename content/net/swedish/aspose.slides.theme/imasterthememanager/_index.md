@@ -1,14 +1,14 @@
 ---
 title: IMasterThemeManager
 second_title: Aspose.Sildes för .NET API-referens
-description: Tillhandahåller åtkomst till presentationens huvudtema.
+description: Tillhandahåller åtkomst till presentationens mastertema.
 type: docs
-weight: 11320
+weight: 11340
 url: /sv/aspose.slides.theme/imasterthememanager/
 ---
 ## IMasterThemeManager gränssnitt
 
-Tillhandahåller åtkomst till presentationens huvudtema.
+Tillhandahåller åtkomst till presentationens mastertema.
 
 ```csharp
 public interface IMasterThemeManager : IThemeManager
@@ -22,7 +22,7 @@ public interface IMasterThemeManager : IThemeManager
 | [IsOverrideThemeEnabled](../../aspose.slides.theme/imasterthememanager/isoverridethemeenabled) { get; set; } | Bestämmer om OverrideTheme åsidosätter ärvt effektivt tema (Presentation.MasterTheme) eller inte. Läs/skriv Boolean. |
 | [OverrideTheme](../../aspose.slides.theme/imasterthememanager/overridetheme) { get; set; } | Returnerar det åsidosättande temaobjektet. Läs/skriv [`IMasterTheme`](../imastertheme). |
 
-### Se även
+### Se också
 
 * gränssnitt [IThemeManager](../ithememanager)
 * namnrymd [Aspose.Slides.Theme](../../aspose.slides.theme)

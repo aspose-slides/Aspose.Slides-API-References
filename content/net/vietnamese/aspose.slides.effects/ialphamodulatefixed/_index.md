@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulateFixed
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn một hiệu ứng Alpha Modulate Fixed. Các giá trị alpha (độ trong suốt) của hiệu ứng được nhân với một tỷ lệ phần trăm cố định.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Biểu diễn một hiệu ứng Alpha Modulate Fixed. Các giá trị alpha (độ mờ) của hiệu ứng được nhân với một tỷ lệ phần trăm cố định.
 type: docs
-weight: 3120
+weight: 3140
 url: /vi/aspose.slides.effects/ialphamodulatefixed/
 ---
 ## IAlphaModulateFixed giao diện
 
-Biểu diễn một hiệu ứng Alpha Modulate Fixed. Giá trị alpha (độ mờ) của hiệu ứng được nhân với một tỷ lệ phần trăm cố định.
+Biểu diễn một hiệu ứng Alpha Modulate Fixed. Các giá trị alpha (độ mờ) của hiệu ứng được nhân với một tỷ lệ phần trăm cố định.
 
 ```csharp
 public interface IAlphaModulateFixed : IAccessiblePVIObject<IAlphaModulateFixedEffectiveData>, 
@@ -20,10 +20,10 @@ public interface IAlphaModulateFixed : IAccessiblePVIObject<IAlphaModulateFixedE
 | Tên | Mô tả |
 | --- | --- |
 | [Amount](../../aspose.slides.effects/ialphamodulatefixed/amount) { get; set; } | Trả về một lượng hiệu ứng tính bằng phần trăm. Đọc/ghi Single. |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject) { get; } | Cho phép lấy giao diện IAccessiblePVIObject cơ bản. Chỉ đọc [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation) { get; } | Cho phép lấy giao diện IImageTransformOperation cơ bản. Chỉ đọc [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject) { get; } | Cho phép lấy giao diện IAccessiblePVIObject cơ sở. Chỉ đọc [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation) { get; } | Cho phép lấy giao diện IImageTransformOperation cơ sở. Chỉ đọc [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### Xem thêm
+### Xem Thêm
 
 * giao diện [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * giao diện [IAlphaModulateFixedEffectiveData](../ialphamodulatefixedeffectivedata)

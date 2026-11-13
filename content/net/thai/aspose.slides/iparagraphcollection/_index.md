@@ -1,14 +1,14 @@
 ---
 title: IParagraphCollection
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงคอลเลกชันของย่อหน้า
+description: แสดงชุดของย่อหน้า
 type: docs
-weight: 6570
+weight: 6590
 url: /th/aspose.slides/iparagraphcollection/
 ---
 ## IParagraphCollection อินเทอร์เฟซ
 
-แสดงถึงคอลเลกชันของย่อหน้า
+แสดงชุดของย่อหน้า
 
 ```csharp
 public interface IParagraphCollection : IEnumerable<IParagraph>, ISlideComponent
@@ -18,25 +18,25 @@ public interface IParagraphCollection : IEnumerable<IParagraph>, ISlideComponent
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides/iparagraphcollection/asienumerable) { get; } | คืนค่าอินเทอร์เฟซ IEnumerable. เพียงอ่านเท่านั้น IEnumerable. |
-| [AsISlideComponent](../../aspose.slides/iparagraphcollection/asislidecomponent) { get; } | อนุญาตให้รับอินเทอร์เฟซ ISlideComponent ฐาน. เพียงอ่านเท่านั้น [`ISlideComponent`](../islidecomponent). |
-| [Count](../../aspose.slides/iparagraphcollection/count) { get; } | รับจำนวนขององค์ประกอบที่อยู่จริงในคอลเลกชัน. เพียงอ่านเท่านั้น Int32. |
+| [AsIEnumerable](../../aspose.slides/iparagraphcollection/asienumerable) { get; } | คืนค่าอินเทอร์เฟซ IEnumerable. อ่านอย่างเดียว IEnumerable. |
+| [AsISlideComponent](../../aspose.slides/iparagraphcollection/asislidecomponent) { get; } | อนุญาตให้รับอินเทอร์เฟซ ISlideComponent พื้นฐาน. อ่านอย่างเดียว [`ISlideComponent`](../islidecomponent). |
+| [Count](../../aspose.slides/iparagraphcollection/count) { get; } | รับจำนวนขององค์ประกอบที่อยู่ในชุดจริง. อ่านอย่างเดียว Int32. |
 | [Item](../../aspose.slides/iparagraphcollection/item) { get; } | รับองค์ประกอบที่ตำแหน่งที่ระบุ. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Add](../../aspose.slides/iparagraphcollection/add#add_1)(IParagraph) | เพิ่ม Paragraph ไปยังส่วนท้ายของคอลเลกชัน. |
-| [Add](../../aspose.slides/iparagraphcollection/add#add)(IParagraphCollection) | เพิ่มเนื้อหาของ ParagraphCollection ไปยังส่วนท้ายของคอลเลกชัน. |
-| [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml#addfromhtml)(string) | เพิ่มข้อความจากสตริง html ที่ระบุไปยังคอลเลกชัน. |
-| [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | เพิ่มข้อความจากสตริง html ที่ระบุไปยังคอลเลกชัน. |
-| [Clear](../../aspose.slides/iparagraphcollection/clear)() | ลบองค์ประกอบทั้งหมดจากคอลเลกชัน. |
-| [ExportToHtml](../../aspose.slides/iparagraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | แปลงย่อหน้าที่ระบุเป็น HTML และคืนค่าเป็นอ็อบเจ็กต์ String. |
-| [Insert](../../aspose.slides/iparagraphcollection/insert#insert)(int, IParagraph) | แทรก Paragraph เข้าไปในคอลเลกชันที่ตำแหน่งที่ระบุ. |
-| [Insert](../../aspose.slides/iparagraphcollection/insert#insert_1)(int, IParagraphCollection) | แทรกเนื้อหาของ ParagraphCollection เข้าไปในคอลเลกชันที่ตำแหน่งที่ระบุ. |
-| [Remove](../../aspose.slides/iparagraphcollection/remove)(IParagraph) | ลบการปรากฏครั้งแรกของย่อหน้าเฉพาะ. |
-| [RemoveAt](../../aspose.slides/iparagraphcollection/removeat)(int) | ลบองค์ประกอบที่ตำแหน่งที่ระบุของคอลเลกชัน. |
+| [Add](../../aspose.slides/iparagraphcollection/add#add_1)(IParagraph) | เพิ่ม Paragraph ไปยังส่วนท้ายของชุด. |
+| [Add](../../aspose.slides/iparagraphcollection/add#add)(IParagraphCollection) | เพิ่มเนื้อหาของ ParagraphCollection ไปยังส่วนท้ายของชุด. |
+| [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml#addfromhtml)(string) | เพิ่มข้อความจากสตริง html ที่ระบุไปยังชุด. |
+| [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | เพิ่มข้อความจากสตริง html ที่ระบุไปยังชุด. |
+| [Clear](../../aspose.slides/iparagraphcollection/clear)() | ลบทุกองค์ประกอบออกจากชุด. |
+| [ExportToHtml](../../aspose.slides/iparagraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | แปลงย่อหน้าที่ระบุเป็น HTML และคืนค่าเป็นวัตถุ String. |
+| [Insert](../../aspose.slides/iparagraphcollection/insert#insert)(int, IParagraph) | แทรก Paragraph ลงในชุดที่ตำแหน่งที่ระบุ. |
+| [Insert](../../aspose.slides/iparagraphcollection/insert#insert_1)(int, IParagraphCollection) | แทรกเนื้อหาของ ParagraphCollection ลงในชุดที่ตำแหน่งที่ระบุ. |
+| [Remove](../../aspose.slides/iparagraphcollection/remove)(IParagraph) | ลบการพบครั้งแรกของย่อหน้าเฉพาะ. |
+| [RemoveAt](../../aspose.slides/iparagraphcollection/removeat)(int) | ลบองค์ประกอบที่ตำแหน่งที่ระบุของชุด. |
 
 ### ดูเพิ่มเติม
 

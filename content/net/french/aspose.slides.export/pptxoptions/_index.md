@@ -1,14 +1,14 @@
 ---
 title: PptxOptions
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Représente les options pour l'enregistrement des présentations OpenXml PPTX PPSX POTX PPTM PPSM POTM.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Représente les options de sauvegarde des présentations OpenXml PPTX PPSX POTX PPTM PPSM POTM.
 type: docs
-weight: 4370
+weight: 4390
 url: /fr/aspose.slides.export/pptxoptions/
 ---
-## PptxOptions classe
+## classe PptxOptions
 
-Représente les options pour l'enregistrement des présentations OpenXml (PPTX, PPSX, POTX, PPTM, PPSM, POTM).
+Représente les options de sauvegarde des présentations OpenXml (PPTX, PPSX, POTX, PPTM, PPSM, POTM).
 
 ```csharp
 public sealed class PptxOptions : SaveOptions, IPptxOptions
@@ -16,22 +16,22 @@ public sealed class PptxOptions : SaveOptions, IPptxOptions
 
 ## Constructeurs
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [PptxOptions](pptxoptions)() | Crée une nouvelle instance de PptxOptions |
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
-| [CompressionLevel](../../aspose.slides.export/pptxoptions/compressionlevel) { get; set; } | Spécifie le niveau de compression utilisé lors de l'enregistrement du document de présentation. La valeur par défaut est Level6. |
+| [CompressionLevel](../../aspose.slides.export/pptxoptions/compressionlevel) { get; set; } | Spécifie le niveau de compression utilisé lors de la sauvegarde du document de présentation. La valeur par défaut est Level6. |
 | [Conformance](../../aspose.slides.export/pptxoptions/conformance) { get; set; } | Spécifie la classe de conformité à laquelle le document de présentation se conforme. La valeur par défaut est Ecma376_2006 |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Renvoie ou définit la police utilisée si la police source n'est pas trouvée. Lecture/écriture String. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Renvoie ou définit la police utilisée si la police source n'est pas trouvée. Chaîne en lecture-écriture. |
 | [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Renvoie ou définit le style visuel du dégradé. Lecture/écriture [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Représente un objet de rappel pour les mises à jour de progression d'enregistrement en pourcentage. Voir [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [RefreshThumbnail](../../aspose.slides.export/pptxoptions/refreshthumbnail) { get; set; } | Spécifie si la miniature de la présentation sera actualisée. Lecture/écriture Boolean. La valeur par défaut est **true**. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Spécifie s'il faut ignorer les hyperliens contenant des appels JavaScript lors de l'enregistrement de la présentation. Lecture/écriture Boolean. La valeur par défaut est **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Renvoie ou définit un objet qui reçoit les avertissements et décide si le processus de chargement doit se poursuivre ou être interrompu. Lecture/écriture [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Représente un objet de rappel pour les mises à jour de progression de sauvegarde en pourcentage. Voir [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [RefreshThumbnail](../../aspose.slides.export/pptxoptions/refreshthumbnail) { get; set; } | Spécifie si la vignette de la présentation sera rafraîchie. Booléen en lecture/écriture. La valeur par défaut est **true**. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Spécifie s'il faut ignorer les hyperliens avec des appels JavaScript lors de la sauvegarde de la présentation. Booléen en lecture/écriture. La valeur par défaut est **false**. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Renvoie ou définit un objet qui reçoit les avertissements et décide si le processus de chargement continue ou est interrompu. Lecture/écriture [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 | [Zip64Mode](../../aspose.slides.export/pptxoptions/zip64mode) { get; set; } | Spécifie si le format ZIP64 est utilisé pour le document de présentation. La valeur par défaut est IfNecessary |
 
 ### Voir aussi
@@ -39,6 +39,6 @@ public sealed class PptxOptions : SaveOptions, IPptxOptions
 * classe [SaveOptions](../saveoptions)
 * interface [IPptxOptions](../ipptxoptions)
 * espace de noms [Aspose.Slides.Export](../../aspose.slides.export)
-* assemblage [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

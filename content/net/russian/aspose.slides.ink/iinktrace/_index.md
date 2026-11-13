@@ -3,7 +3,7 @@ title: IInkTrace
 second_title: Справочник API Aspose.Sildes для .NET
 description: Представляет рукописную линию в объекте Ink.
 type: docs
-weight: 7540
+weight: 7560
 url: /ru/aspose.slides.ink/iinktrace/
 ---
 ## IInkTrace интерфейс
@@ -16,10 +16,10 @@ public interface IInkTrace
 
 ## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [Brush](../../aspose.slides.ink/iinktrace/brush) { get; } | Возвращает Brush для IInkLine [`IInkBrush`](../iinkbrush) только для чтения. |
-| [Points](../../aspose.slides.ink/iinktrace/points) { get; } | Возвращает точки для IInkLine PointF только для чтения. |
+| [Brush](../../aspose.slides.ink/iinktrace/brush) { get; } | Получает Brush для IInkLine [`IInkBrush`](../iinkbrush) только для чтения. |
+| [Points](../../aspose.slides.ink/iinktrace/points) { get; } | Получает points для IInkLine PointF только для чтения. |
 
 ### См. также
 

@@ -1,14 +1,14 @@
 ---
 title: IMasterSlideHeaderFooterManager
-second_title: Aspose.Sildes .NET API hivatkozás
-description: A menedzsert képviseli, amely a mester dia lábléc, dátum-idő és oldalszám helyőrzőinek, valamint az összes gyermek helyőrzőnek a viselkedését kezeli. A gyermek helyőrzők olyan helyőrzők, amelyek a függő elrendezési diákon és a függő diákon találhatók. A függő elrendezési diákok és diákok a mester diát használják és tőle függenek.
+second_title: Aspose.Sildes a .NET API hivatkozás
+description: A menedzser, amely a mester dia lábléc, dátum-idő és oldalszám helyőrzőinek, valamint az összes gyermek helyőrzőnek a viselkedését kezeli. A gyermek helyőrzők olyan helyőrzők, amelyek a függő elrendezésű diákon és a függő diákon találhatók. A függő elrendezésű diák és a diák a mester diát használják és tőle függenek.
 type: docs
-weight: 6440
+weight: 6460
 url: /hu/aspose.slides/imasterslideheaderfootermanager/
 ---
 ## IMasterSlideHeaderFooterManager interfész
 
-A menedzsert képviseli, amely a mester dia lábléc, dátum-idő és oldalszám helyőrzőinek, valamint az összes gyermek helyőrzőnek a viselkedését kezeli. A gyermek helyőrzők olyan helyőrzők, amelyek a függő elrendezési diákon és a függő diákon találhatók. A függő elrendezési diákok és diákok a mester diát használják és tőle függenek.
+A menedzser, amely a mester dia lábléc, dátum-idő és oldalszám helyőrzőinek, valamint az összes gyermek helyőrzőnek a viselkedését kezeli. A gyermek helyőrzők olyan helyőrzők, amelyek a függő elrendezésű diákon és a függő diákon találhatók. A függő elrendezésű diák és a diák a mester diát használják és függnek tőle.
 
 ```csharp
 public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -20,15 +20,15 @@ public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 | --- | --- |
 | [AsIBaseSlideHeaderFooterManager](../../aspose.slides/imasterslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | Visszaadja az IBaseSlideHeaderFooterManager interfészt. |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Beállítja a szöveget a mester dia dátum-idő helyőrzőjébe és az összes gyermek dátum-idő helyőrzőbe. A gyermek helyőrzők olyan helyőrzők, amelyek a függő elrendezési diákon és a függő diákon találhatók. A függő elrendezési diákok és diákok a mester diát használják és tőle függenek. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Megváltoztatja a mester dia dátum-idő helyőrző és az összes gyermek dátum-idő helyőrző láthatóságát. A gyermek helyőrzők olyan helyőrzők, amelyek a függő elrendezési diákon és a függő diákon találhatók. A függő elrendezési diákok és diákok a mester diát használják és tőle függenek. |
-| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | Beállítja a szöveget a mester dia lábléc helyőrzőjébe és az összes gyermek lábléc helyőrzőbe. A gyermek helyőrzők olyan helyőrzők, amelyek a függő elrendezési diákon és a függő diákon találhatók. A függő elrendezési diákok és diákok a mester diát használják és tőle függenek. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Megváltoztatja a mester dia lábléc helyőrző és az összes gyermek lábléc helyőrző láthatóságát. A gyermek helyőrzők olyan helyőrzők, amelyek a függő elrendezési diákon és a függő diákon találhatók. A függő elrendezési diákok és diákok a mester diát használják és tőle függenek. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Megváltoztatja a mester dia oldalszám helyőrző és az összes gyermek oldalszám helyőrző láthatóságát. A gyermek helyőrzők olyan helyőrzők, amelyek a függő elrendezési diákon és a függő diákon találhatók. A függő elrendezési diákok és diákok a mester diát használják és tőle függenek. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Beállítja a szöveget a mester dia dátum-idő helyőrzőjéhez és az összes gyermek dátum-idő helyőrzőhöz. A gyermek helyőrzők olyan helyőrzők, amelyek a függő elrendezésű diákon és a függő diákon találhatók. A függő elrendezésű diák és a diák a mester diát használják és függnek tőle. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Módosítja a mester dia dátum-idő helyőrzőjének és az összes gyermek dátum-idő helyőrzőnek a láthatóságát. A gyermek helyőrzők olyan helyőrzők, amelyek a függő elrendezésű diákon és a függő diákon találhatók. A függő elrendezésű diák és a diák a mester diát használják és függnek tőle. |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | Beállítja a szöveget a mester dia lábléc helyőrzőjéhez és az összes gyermek lábléc helyőrzőhöz. A gyermek helyőrzők olyan helyőrzők, amelyek a függő elrendezésű diákon és a függő diákon találhatók. A függő elrendezésű diák és a diák a mester diát használják és függnek tőle. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Módosítja a mester dia lábléc helyőrzőjének és az összes gyermek lábléc helyőrzőnek a láthatóságát. A gyermek helyőrzők olyan helyőrzők, amelyek a függő elrendezésű diákon és a függő diákon találhatók. A függő elrendezésű diák és a diák a mester diát használják és függnek tőle. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Módosítja a mester dia oldalszám helyőrzőjének és az összes gyermek oldalszám helyőrzőnek a láthatóságát. A gyermek helyőrzők olyan helyőrzők, amelyek a függő elrendezésű diákon és a függő diákon találhatók. A függő elrendezésű diák és a diák a mester diát használják és függnek tőlük. |
 
 ### Lásd még
 

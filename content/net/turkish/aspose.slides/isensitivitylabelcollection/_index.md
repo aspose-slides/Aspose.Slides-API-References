@@ -1,9 +1,9 @@
 ---
 title: ISensitivityLabelCollection
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Belgeye uygulanan duyarlılık etiketlerinin bir koleksiyonunu temsil eder.
 type: docs
-weight: 6940
+weight: 6960
 url: /tr/aspose.slides/isensitivitylabelcollection/
 ---
 ## ISensitivityLabelCollection arayüz
@@ -16,21 +16,21 @@ public interface ISensitivityLabelCollection : IEnumerable<ISensitivityLabel>
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/isensitivitylabelcollection/count) { get; } | Koleksiyondaki tüm öğelerin sayısını alır. Yalnızca-okunur Int32. |
-| [Item](../../aspose.slides/isensitivitylabelcollection/item) { get; } | Duyarlılık etiketini dizine göre döndürür. Yalnızca-okunur [`ISensitivityLabel`](../isensitivitylabel). |
+| [Count](../../aspose.slides/isensitivitylabelcollection/count) { get; } | Koleksiyondaki tüm öğelerin sayısını alır. Salt okunur Int32. |
+| [Item](../../aspose.slides/isensitivitylabelcollection/item) { get; } | Dizine göre duyarlılık etiketini döndürür. Salt okunur [`ISensitivityLabel`](../isensitivitylabel). |
 
 ## Yöntemler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/isensitivitylabelcollection/add#add_1)(ISensitivityLabel) | Koleksiyona bir SensitivityLabel ekler. |
-| [Add](../../aspose.slides/isensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | Koleksiyonun sonuna duyarlılık etiketini ekler. |
+| [Add](../../aspose.slides/isensitivitylabelcollection/add#add_1)(ISensitivityLabel) | Bir SensitivityLabel'ı koleksiyona ekler. |
+| [Add](../../aspose.slides/isensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | Duyarlılık etiketini koleksiyonun sonuna ekler. |
 | [Clear](../../aspose.slides/isensitivitylabelcollection/clear)() | Koleksiyondaki tüm öğeleri kaldırır. |
-| [RemoveAt](../../aspose.slides/isensitivitylabelcollection/removeat)(int) | Belirtilen indeksteki duyarlılık etiketini kaldırır. |
+| [RemoveAt](../../aspose.slides/isensitivitylabelcollection/removeat)(int) | Belirtilen dizindeki duyarlılık etiketini kaldırır. |
 
-### Ayrıca bakınız
+### Ayrıca
 
 * arayüz [ISensitivityLabel](../isensitivitylabel)
 * ad alanı [Aspose.Slides](../../aspose.slides)

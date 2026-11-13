@@ -1,14 +1,14 @@
 ---
 title: IMathBar
-second_title: Aspose.Sildes for .NET API Referansı
-description: Temel bir argüman ve bir üst çubuk veya alt çubuk içeren bar fonksiyonunu belirtir.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Temel bir argüman ve üst çizgi ya da alt çizgi içeren bar işlevini belirtir
 type: docs
-weight: 8120
+weight: 8140
 url: /tr/aspose.slides.mathtext/imathbar/
 ---
 ## IMathBar arayüz
 
-Bar fonksiyonunu belirtir; bir temel argüman ve bir üst çubuk ya da alt çubuk içerir.
+Temel argüman ve üst çizgi ya da alt çizgi içeren bar işlevini belirtir
 
 ```csharp
 public interface IMathBar : IMathElement
@@ -18,13 +18,13 @@ public interface IMathBar : IMathElement
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathbar/asimathelement) { get; } | Temel IMathElement arayüzünü almayı sağlar [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathbar/asimathelement) { get; } | Temel IMathElement arayüzünü [`IMathElement`](../imathelement) almayı sağlar |
 | [Base](../../aspose.slides.mathtext/imathbar/base) { get; } | Temel argüman |
-| [Position](../../aspose.slides.mathtext/imathbar/position) { get; set; } | Bar çizgisinin konumu. Varsayılan: Üst |
+| [Position](../../aspose.slides.mathtext/imathbar/position) { get; set; } | Bar çizgisinin konumu. Varsayılan: Top |
 
 ### Örnekler
 
-Örnek:
+Example:
 
 ```csharp
 [C#]

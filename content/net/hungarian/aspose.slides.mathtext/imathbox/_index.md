@@ -1,14 +1,14 @@
 ---
 title: IMathBox
-second_title: Aspose.Sildes .NET API-referencia
-description: Megadja a matematikai elem logikai dobozolását (csomagolását). Például egy dobozolt objektum szolgálhat operátor-emulátorként igazítási ponttal vagy anélkül, szolgálhat sortörési pontként, vagy csoportosítható úgy, hogy ne engedélyezze a sortöréseket belül. Például a operátort dobozolni kell a sortörések megelőzése érdekében.
+second_title: Aspose.Sildes .NET API referenciája
+description: Meghatározza a matematikai elem logikai dobozzalását (csomagolását). Például egy dobozolt objektum szolgálhat operátoremulátorként igazítási ponttal vagy anélkül, szolgálhat sortörés pontként, vagy csoportosítható úgy, hogy a dobozon belül ne legyenek sortörések. Például az operátort dobozni kell, hogy megakadályozzuk a sortöréseket.
 type: docs
-weight: 8190
+weight: 8210
 url: /hu/aspose.slides.mathtext/imathbox/
 ---
 ## IMathBox interfész
 
-Megadja a matematikai elem logikai dobozolását (csomagolását). Például egy dobozolt objektum szolgálhat operátor-emulátorként igazítási ponttal vagy annak nélkül, szolgálhat sortörési pontként, vagy csoportosítható úgy, hogy ne engedjen sorbontást belül. Például a "==" operátort dobozolni kell a sorbontások megelőzése érdekében.
+Meghatározza a matematikai elem logikai dobozzalását (csomagolását). Például egy dobozolt objektum szolgálhat operátoremulátorként igazítási ponttal vagy anélkül, szolgálhat sortörés pontként, vagy csoportosítható úgy, hogy ne legyenek sortörések benne. Például a "==" operátort dobozni kell, hogy megakadályozzuk a sortöréseket.
 
 ```csharp
 public interface IMathBox : IMathElement
@@ -16,15 +16,15 @@ public interface IMathBox : IMathElement
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [AlignmentPoint](../../aspose.slides.mathtext/imathbox/alignmentpoint) { get; set; } | Ha igaz, ez az operátor-emulátor igazítási pontként szolgál; vagyis a többi egyenletben kijelölt igazítási pontok ezzel összhangba hozhatók. Alapértelmezett: false |
-| [AsIMathElement](../../aspose.slides.mathtext/imathbox/asimathelement) { get; } | Lehetővé teszi az alap IMathElement interfész [`IMathElement`](../imathelement) lekérdezését |
+| [AlignmentPoint](../../aspose.slides.mathtext/imathbox/alignmentpoint) { get; set; } | Amikor igaz, ez az operátoremulátor igazítási pontként működik; vagyis a többi egyenletben kijelölt igazítási pontok ezzel igazíthatók. Alapértelmezett: false |
+| [AsIMathElement](../../aspose.slides.mathtext/imathbox/asimathelement) { get; } | Lehetővé teszi a bázis IMathElement interfész [`IMathElement`](../imathelement) lekérdezését |
 | [Base](../../aspose.slides.mathtext/imathbox/base) { get; } | Alap argumentum |
-| [Differential](../../aspose.slides.mathtext/imathbox/differential) { get; set; } | Differenciál. Ha igaz, a doboz differenciálként (pl. 𝑑𝑥 egy integrandban) működik, és a megfelelő vízszintes távolságot kapja a matematikai differenciálhoz. Alapértelmezett: false |
-| [ExplicitBreak](../../aspose.slides.mathtext/imathbox/explicitbreak) { get; set; } | Kifejezett törés megadja, hogy van-e sortörés a Box objektum elején, így a sor a doboz elején törik. Megadja az előző sor matematikai szövegén lévő operátor számát, amely a jelenlegi sor matematikai szövegének igazítási pontjaként szolgál. Lehetséges értékek: 1..255 Alapértelmezett: 0 (nincs explicit break) |
-| [NoBreak](../../aspose.slides.mathtext/imathbox/nobreak) { get; set; } | Nincs törés. Ez a tulajdonság meghatározza a "unbreakable" (törhetetlen) tulajdonságot az objektumdobozon. Ha igaz, a dobozon belül nem fordulhat elő sortörés. Ez fontos lehet több bináris operátorból álló operátor-emulátoroknál. Ha ez az elem nincs megadva, a dobozon belül előfordulhatnak törések. Alapértelmezett: true |
-| [OperatorEmulator](../../aspose.slides.mathtext/imathbox/operatoremulator) { get; set; } | Operátor-emulátor. Ha igaz, a doboz és tartalma egyetlen operátorként viselkedik, és örökli az operátor tulajdonságait. Ez azt jelenti, például, hogy a karakter szolgálhat sortörési pontként, és igazítható más operátorokhoz. Az operátor-emulátorokat gyakran használják, amikor egy vagy több glif kombinálódik egy operátor létrehozásához, például '=='. Alapértelmezett érték: false |
+| [Differential](../../aspose.slides.mathtext/imathbox/differential) { get; set; } | Differenciál. Amikor igaz, a doboz differenciálként működik (például 𝑑𝑥 egy integrandusban), és megkapja a megfelelő vízszintes távolságot a matematikai differenciál számára. Alapértelmezett: false |
+| [ExplicitBreak](../../aspose.slides.mathtext/imathbox/explicitbreak) { get; set; } | Kifejezett sortörés meghatározza, hogy van-e sortörés a Box objektum elején, így a sor a doboz elején törik. Megadja az előző sorban lévő operátor számát, amely a jelenlegi sor matematikai szövegének igazítási pontjaként szolgál. Lehetséges értékek: 1..255 Alapértelmezett: 0 (nincs kifejezett sortörés) |
+| [NoBreak](../../aspose.slides.mathtext/imathbox/nobreak) { get; set; } | Nincs sortörés. Ez a tulajdonság meghatározza a "unbreakable" (törhetetlen) tulajdonságot az objektumdobozon. Amikor igaz, a dobozon belül nem lehet sorvége. Ez fontos lehet több bináris operátorból álló operátoremulátoroknál. Ha ez az elem nincs megadva, a dobozon belül előfordulhatnak sortörések. Alapértelmezett: true |
+| [OperatorEmulator](../../aspose.slides.mathtext/imathbox/operatoremulator) { get; set; } | Operátoremulátor. Amikor igaz, a doboz és tartalma egyetlen operátorként viselkedik, és örökli az operátor tulajdonságait. Ez azt jelenti például, hogy a karakter szolgálhat sortörés pontként, és igazítható más operátorokhoz. Az Operátoremulátorokat gyakran használják, amikor egy vagy több glif kombinálódik egy operátor létrehozásához, például '=='. Alapértelmezett érték: false |
 
 ### Példák
 

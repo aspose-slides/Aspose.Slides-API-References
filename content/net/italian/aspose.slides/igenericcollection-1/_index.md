@@ -1,14 +1,14 @@
 ---
 title: IGenericCollectionT
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Interfaccia generica ausiliaria per collezioni.
+description: Interfaccia di raccolta generica ausiliaria.
 type: docs
-weight: 5960
+weight: 5980
 url: /it/aspose.slides/igenericcollection-1/
 ---
-## IGenericCollection<T> interfaccia
+## IGenericCollection&lt;T&gt; interfaccia
 
-Interfaccia generica ausiliaria per collezioni.
+Interfaccia di raccolta generica ausiliaria.
 
 ```csharp
 public interface IGenericCollection<T> : ICollection, IEnumerable<T>

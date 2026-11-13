@@ -1,14 +1,14 @@
 ---
 title: IMathFraction
 second_title: Aspose.Sildes para .NET Referência da API
-description: Especifica o objeto de fração composto por um numerador e um denominador separados por uma barra de fração. A barra de fração pode ser horizontal ou diagonal, dependendo das propriedades da fração. O objeto de fração também é usado para representar a função de empilhamento, que coloca um elemento acima de outro sem barra de fração.
+description: Especifica o objeto de fração constituído por um numerador e um denominador separados por uma barra de fração. A barra de fração pode ser horizontal ou diagonal, dependendo das propriedades da fração. O objeto de fração também é usado para representar a função de pilha, que coloca um elemento acima de outro sem barra de fração.
 type: docs
-weight: 8250
+weight: 8270
 url: /pt/aspose.slides.mathtext/imathfraction/
 ---
 ## IMathFraction interface
 
-Especifica o objeto de fração, composto por um numerador e um denominador separados por uma barra de fração. A barra de fração pode ser horizontal ou diagonal, dependendo das propriedades da fração. O objeto de fração também é usado para representar a função de empilhamento, que coloca um elemento acima de outro, sem barra de fração.
+Especifica o objeto de fração, constituído por um numerador e um denominador separados por uma barra de fração. A barra de fração pode ser horizontal ou diagonal, dependendo das propriedades da fração. O objeto de fração também é usado para representar a função pilha, que coloca um elemento acima de outro, sem barra de fração.
 
 ```csharp
 public interface IMathFraction : IMathElement
@@ -33,7 +33,7 @@ IMathFraction mathFraction = new MathematicalText("x").Divide("y");
 IMathFraction mathFraction2 = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes.Linear);
 ```
 
-### Ver também
+### Veja Também
 
 * interface [IMathElement](../imathelement)
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

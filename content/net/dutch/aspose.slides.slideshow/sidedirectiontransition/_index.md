@@ -1,14 +1,14 @@
 ---
 title: SideDirectionTransition
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Zijwaartse dia-overgangseffect.
+description: Zijwaartse slide-overgangseffect.
 type: docs
-weight: 10310
+weight: 10330
 url: /nl/aspose.slides.slideshow/sidedirectiontransition/
 ---
 ## SideDirectionTransition klasse
 
-Side direction slide transition effect.
+Side direction slide overgangseffect.
 
 ```csharp
 public class SideDirectionTransition : TransitionValueBase, ISideDirectionTransition
@@ -18,14 +18,14 @@ public class SideDirectionTransition : TransitionValueBase, ISideDirectionTransi
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/sidedirectiontransition/direction) { get; set; } | Richting van de overgang. Lezen/Schrijven [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
+| [Direction](../../aspose.slides.slideshow/sidedirectiontransition/direction) { get; set; } | Richting van de overgang. Lezen/schrijven [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bepaalt of de twee TransitionValueBase-instanties gelijk zijn. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als een hash-functie voor een bepaald type, geschikt voor gebruik in hash-algoritmen en datastructuren zoals een hashtabel. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als een hash-functie voor een bepaald type, geschikt voor gebruik in hash-algoritmen en datastructuren zoals een hash-tabel. |
 
 ### Zie ook
 

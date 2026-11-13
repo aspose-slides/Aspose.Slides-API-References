@@ -1,14 +1,14 @@
 ---
 title: FontSubstitutionInfo
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Struktur ini mewakili informasi tentang penggantian font ketika akan dirender.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Struktur ini mewakili informasi tentang penggantian font saat akan dirender.
 type: docs
-weight: 4910
+weight: 4930
 url: /id/aspose.slides/fontsubstitutioninfo/
 ---
 ## FontSubstitutionInfo kelas
 
-Struktur ini mewakili informasi tentang penggantian font ketika akan dirender.
+Struktur ini mewakili informasi tentang penggantian font saat akan dirender.
 
 ```csharp
 public class FontSubstitutionInfo

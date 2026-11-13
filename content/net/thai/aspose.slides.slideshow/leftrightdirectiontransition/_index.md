@@ -3,12 +3,12 @@ title: LeftRightDirectionTransition
 second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: เอฟเฟกต์การเปลี่ยนสไลด์ในทิศทางซ้าย-ขวา.
 type: docs
-weight: 10240
+weight: 10260
 url: /th/aspose.slides.slideshow/leftrightdirectiontransition/
 ---
 ## LeftRightDirectionTransition คลาส
 
-ทิศทางซ้าย-ขวาของเอฟเฟกต์การเปลี่ยนสไลด์.
+เอฟเฟกต์การเปลี่ยนสไลด์ในทิศทางซ้าย-ขวา.
 
 ```csharp
 public class LeftRightDirectionTransition : TransitionValueBase, ILeftRightDirectionTransition
@@ -16,16 +16,16 @@ public class LeftRightDirectionTransition : TransitionValueBase, ILeftRightDirec
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/leftrightdirectiontransition/direction) { get; set; } | ทิศทางของการเปลี่ยนภาพ. อ่าน/เขียน [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/leftrightdirectiontransition/direction) { get; set; } | ทิศทางของการเปลี่ยนแปลง. อ่าน/เขียน [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
 
 ## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | ตรวจสอบว่าอินสแตนซ์ TransitionValueBase สองตัวเท่ากันหรือไม่. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทเฉพาะที่เหมาะสำหรับใช้ในอัลกอริธึมแฮชและโครงสร้างข้อมูลเช่น ตารางแฮช. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | กำหนดว่าตัวอย่าง TransitionValueBase สองตัวเท่ากันหรือไม่. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทเฉพาะที่เหมาะสำหรับการใช้ในอัลกอริธึมแฮชและโครงสร้างข้อมูลเช่น ตารางแฮช. |
 
 ### ดูเพิ่มเติม
 

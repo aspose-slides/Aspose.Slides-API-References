@@ -3,7 +3,7 @@ title: ILeftRightDirectionTransition
 second_title: Aspose.Sildes for .NET API 참조
 description: 좌우 방향 슬라이드 전환 효과.
 type: docs
-weight: 10120
+weight: 10140
 url: /ko/aspose.slides.slideshow/ileftrightdirectiontransition/
 ---
 ## ILeftRightDirectionTransition 인터페이스
@@ -21,7 +21,7 @@ public interface ILeftRightDirectionTransition : ITransitionValueBase
 | [AsITransitionValueBase](../../aspose.slides.slideshow/ileftrightdirectiontransition/asitransitionvaluebase) { get; } | 기본 ITransitionValueBase 인터페이스를 가져올 수 있습니다. 읽기 전용 [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/ileftrightdirectiontransition/direction) { get; set; } | 전환 방향. 읽기/쓰기 [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
 
-### 관련 항목
+### 참고
 
 * 인터페이스 [ITransitionValueBase](../itransitionvaluebase)
 * 네임스페이스 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

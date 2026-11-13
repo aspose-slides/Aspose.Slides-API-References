@@ -1,12 +1,12 @@
 ---
 title: StringChartValue
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: "Representa un valor de cadena que puede almacenarse en un documento de presentación pptx de dos maneras: 1) en celda/celdas del libro de trabajo relacionado con el gráfico; 2) como valor literal."
+description: Representa un valor de cadena que puede almacenarse en un documento de presentación pptx de dos maneras: 1) en celda/celdas del libro de trabajo relacionado con el gráfico; 2) como valor literal.
 type: docs
-weight: 2410
+weight: 2430
 url: /es/aspose.slides.charts/stringchartvalue/
 ---
-## StringChartValue clase
+## Clase StringChartValue
 
 Representa un valor de cadena que puede almacenarse en un documento de presentación pptx de dos maneras: 1) en celda/celdas del libro de trabajo relacionado con el gráfico; 2) como valor literal.
 
@@ -16,19 +16,19 @@ public class StringChartValue : BaseChartValue, IStringChartValue
 
 ## Propiedades
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
-| [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | No se permite asignar un valor nulo. El valor devuelto siempre no es nulo. Lectura/escritura [`IChartCellCollection`](../ichartcellcollection). |
+| [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | Asignar un valor nulo no está permitido. El valor devuelto siempre no es nulo. Lectura/escritura [`IChartCellCollection`](../ichartcellcollection). |
 | [AsLiteralString](../../aspose.slides.charts/stringchartvalue/asliteralstring) { get; set; } | Devuelve o asigna el valor como cadena literal. Lectura/escritura String. |
 | override [Data](../../aspose.slides.charts/stringchartvalue/data) { get; set; } | Devuelve o asigna el objeto Data. Lectura/escritura Object. |
 | [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Especifica si la propiedad AsCell, AsCells, AsLiteralString o AsLiteralDouble está activa en los descendientes. En otras palabras, especifica el tipo de valor de la propiedad Data. Lectura/escritura [`DataSourceType`](../datasourcetype). |
 
 ## Métodos
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
-| [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | Si la propiedad DataSourceType es DataSourceType.Worksheet entonces este método devuelve la dirección de las celdas en el libro de trabajo que representan los datos de cadena. En caso contrario devuelve una cadena vacía. |
-| [SetFromOneCell](../../aspose.slides.charts/stringchartvalue/setfromonecell)(IChartDataCell) | Asigna el valor desde la celda especificada. |
+| [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | Si la propiedad DataSourceType es DataSourceType.Worksheet, este método devuelve la dirección de las celdas en el libro de trabajo que representan los datos de cadena. De lo contrario, devuelve una cadena vacía. |
+| [SetFromOneCell](../../aspose.slides.charts/stringchartvalue/setfromonecell)(IChartDataCell) | Establece el valor desde la celda especificada. |
 | override [ToString](../../aspose.slides.charts/stringchartvalue/tostring)() | Devuelve los datos del valor de cadena. Devuelve null si DataSourceType es false y no se asignó ningún valor de cadena. |
 
 ### Ver también

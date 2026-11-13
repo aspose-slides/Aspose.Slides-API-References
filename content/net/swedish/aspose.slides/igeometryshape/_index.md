@@ -1,14 +1,14 @@
 ---
 title: IGeometryShape
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar föräldraklassen för alla geometriska former.
+description: Representerar den överordnade klassen för alla geometriska former.
 type: docs
-weight: 5980
+weight: 6000
 url: /sv/aspose.slides/igeometryshape/
 ---
 ## IGeometryShape gränssnitt
 
-Representerar föräldraklassen för alla geometriska former.
+Representerar den överordnade klassen för alla geometriska former.
 
 ```csharp
 public interface IGeometryShape : IShape
@@ -18,19 +18,19 @@ public interface IGeometryShape : IShape
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Adjustments](../../aspose.slides/igeometryshape/adjustments) { get; } | Returnerar en samling av figurens justeringsvärden. Skrivskyddad [`IAdjustValueCollection`](../iadjustvaluecollection). |
-| [AsIShape](../../aspose.slides/igeometryshape/asishape) { get; } | Tillåter att hämta bas IShape gränssnitt. Skrivskyddad [`IShape`](../ishape). |
-| [ShapeStyle](../../aspose.slides/igeometryshape/shapestyle) { get; } | Returnerar figurens stilobjekt. Skrivskyddad [`IShapeStyle`](../ishapestyle). |
-| [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | Returnerar eller anger geometrins förinställda typ. Observera: vid värdeförändring återställs alla justeringsvärden till sina standardvärden. Läs/skriv [`ShapeType`](../shapetype). |
+| [Adjustments](../../aspose.slides/igeometryshape/adjustments) { get; } | Returnerar en samling av figurens justeringsvärden. Endast läsning [`IAdjustValueCollection`](../iadjustvaluecollection). |
+| [AsIShape](../../aspose.slides/igeometryshape/asishape) { get; } | Tillåter att hämta bas IShape-gränssnittet. Endast läsning [`IShape`](../ishape). |
+| [ShapeStyle](../../aspose.slides/igeometryshape/shapestyle) { get; } | Returnerar figurens stilobjekt. Endast läsning [`IShapeStyle`](../ishapestyle). |
+| [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | Returnerar eller anger den förinställda geometritypen. Obs! Vid värdeförändring återställs alla justeringsvärden till sina standardvärden. Läs/skriv [`ShapeType`](../shapetype). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [CreateShapeElements](../../aspose.slides/igeometryshape/createshapeelements)() | Skapar och returnerar en array av figurens element. |
-| [GetGeometryPaths](../../aspose.slides/igeometryshape/getgeometrypaths)() | Returnerar en kopia av geometrisk figurens bana. Koordinaterna är relativa till figurens vänstra övre hörn. |
-| [SetGeometryPath](../../aspose.slides/igeometryshape/setgeometrypath)(IGeometryPath) | Uppdaterar figurens geometri från [`IGeometryPath`](../igeometrypath)-objekt. Koordinaterna måste vara relativa till figurens vänstra övre hörn. Ändrar typ av figuren ([`ShapeType`](./shapetype)) till Custom. |
-| [SetGeometryPaths](../../aspose.slides/igeometryshape/setgeometrypaths)(IGeometryPath[]) | Uppdaterar figurens geometri från en array av [`IGeometryPath`](../igeometrypath). Koordinaterna måste vara relativa till figurens vänstra övre hörn. Ändrar typ av figuren ([`ShapeType`](./shapetype)) till Custom. |
+| [CreateShapeElements](../../aspose.slides/igeometryshape/createshapeelements)() | Skapar och returnerar en matris av figurens element. |
+| [GetGeometryPaths](../../aspose.slides/igeometryshape/getgeometrypaths)() | Returnerar en kopia av geometrifigurens bana. Koordinaterna är relativt till figurens övre vänstra hörn. |
+| [SetGeometryPath](../../aspose.slides/igeometryshape/setgeometrypath)(IGeometryPath) | Uppdaterar figurens geometri från [`IGeometryPath`](../igeometrypath)-objektet. Koordinaterna måste vara relativt till figurens övre vänstra hörn. Ändrar figurens typ ([`ShapeType`](./shapetype)) till Custom. |
+| [SetGeometryPaths](../../aspose.slides/igeometryshape/setgeometrypaths)(IGeometryPath[]) | Uppdaterar figurens geometri från en matris av [`IGeometryPath`](../igeometrypath). Koordinaterna måste vara relativt till figurens övre vänstra hörn. Ändrar figurens typ ([`ShapeType`](./shapetype)) till Custom. |
 
 ### Se även
 

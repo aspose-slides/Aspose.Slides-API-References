@@ -1,12 +1,12 @@
 ---
 title: EffectFactory
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
 description: Umożliwia tworzenie efektów
 type: docs
-weight: 2970
+weight: 2990
 url: /pl/aspose.slides.effects/effectfactory/
 ---
-## Klasa EffectFactory
+## EffectFactory klasa
 
 Umożliwia tworzenie efektów
 
@@ -39,7 +39,7 @@ public class EffectFactory : IEffectFactory
 
 ### Uwagi
 
-For COM compatibility.
+Dla zgodności z COM.
 
 ### Zobacz także
 

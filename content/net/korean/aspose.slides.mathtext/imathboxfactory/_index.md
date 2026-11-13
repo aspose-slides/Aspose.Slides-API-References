@@ -3,12 +3,12 @@ title: IMathBoxFactory
 second_title: Aspose.Sildes for .NET API 참조
 description: 수학 상자를 생성할 수 있습니다
 type: docs
-weight: 8200
+weight: 8220
 url: /ko/aspose.slides.mathtext/imathboxfactory/
 ---
 ## IMathBoxFactory 인터페이스
 
-요소에 대한 수학 상자를 생성할 수 있습니다
+수학 상자를 생성할 수 있습니다
 
 ```csharp
 public interface IMathBoxFactory
@@ -20,9 +20,9 @@ public interface IMathBoxFactory
 | --- | --- |
 | [CreateMathBox](../../aspose.slides.mathtext/imathboxfactory/createmathbox)(IMathElement) | 요소에 적용하여 수학 상자를 생성합니다 |
 
-### 비고
+### 참고
 
-COM 호환성을 위한
+COM 호환성을 위해
 
 ### 참조
 

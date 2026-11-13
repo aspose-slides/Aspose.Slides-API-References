@@ -1,14 +1,14 @@
 ---
 title: ILegend
 second_title: Aspose.Sildes .NET API referencia
-description: A diagramok jelmagyarázatának tulajdonságait képviseli.
+description: A diagram legendájának tulajdonságait reprezentálja.
 type: docs
-weight: 2130
+weight: 2150
 url: /hu/aspose.slides.charts/ilegend/
 ---
 ## ILegend interfész
 
-A diagram jelmagyarázatának tulajdonságait képviseli.
+A diagram legendájának tulajdonságait reprezentálja.
 
 ```csharp
 public interface ILegend : IActualLayout, IFormattedTextContainer, ILayoutable
@@ -18,12 +18,12 @@ public interface ILegend : IActualLayout, IFormattedTextContainer, ILayoutable
 
 | Név | Leírás |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | Lehetővé teszi a bázis IFormattedTextContainer interfész elérését. Csak olvasható [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | Lehetővé teszi a bázis ILayoutable interfész elérését. Csak olvasható [`ILayoutable`](../ilayoutable). |
-| [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | Visszaadja a jelmagyarázat bejegyzéseit. Csak olvasható [`ILegendEntryCollection`](../ilegendentrycollection). |
-| [Format](../../aspose.slides.charts/ilegend/format) { get; } | Visszaadja a jelmagyarázat formátumát. Csak olvasható [`IFormat`](../iformat). |
-| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | Meghatározza, hogy a diagram egyéb elemei átfedhetik-e a jelmagyarázatot. Olvasás/írás Boolean. |
-| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Meghatározza a jelmagyarázat pozícióját a diagramon. A X, Y, Width, Heigt tulajdonságok nem-NaN értékei felülírják ennek a tulajdonságnak a hatását. Olvasás/írás [`LegendPositionType`](../legendpositiontype). |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | Lehetővé teszi az alap IFormattedTextContainer interfész elérését. Csak olvasható [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | Lehetővé teszi az alap ILayoutable interfész elérését. Csak olvasható [`ILayoutable`](../ilayoutable). |
+| [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | Lekéri a legend bejegyzéseit. Csak olvasható [`ILegendEntryCollection`](../ilegendentrycollection). |
+| [Format](../../aspose.slides.charts/ilegend/format) { get; } | Visszaadja a legend formátumát. Csak olvasható [`IFormat`](../iformat). |
+| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | Meghatározza, hogy a diagram egyéb elemei átfedhetik-e a legendát. Olvasás/írás Boolean. |
+| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Meghatározza a legend pozícióját egy diagramon. A X, Y, Width, Heigt tulajdonságok nem-NaN értékei felülírják ennek a tulajdonságnak a hatását. Olvasás/írás [`LegendPositionType`](../legendpositiontype). |
 
 ### Lásd még
 

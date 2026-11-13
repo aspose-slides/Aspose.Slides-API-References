@@ -1,14 +1,14 @@
 ---
 title: MathMatrixFactory
-second_title: Aspose.Sildes a .NET API Referenciához
-description: Lehetővé teszi matematikai mátrix létrehozását
+second_title: Aspose.Sildes a .NET API referencia
+description: Lehetővé teszi egy matematikai mátrix létrehozását
 type: docs
-weight: 8860
+weight: 8880
 url: /hu/aspose.slides.mathtext/mathmatrixfactory/
 ---
 ## MathMatrixFactory osztály
 
-Lehetővé teszi matematikai mátrix létrehozását
+Lehetővé teszi egy matematikai mátrix létrehozását
 
 ```csharp
 public class MathMatrixFactory : IMathMatrixFactory
@@ -16,19 +16,19 @@ public class MathMatrixFactory : IMathMatrixFactory
 
 ## Konstruktorok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
 | [MathMatrixFactory](mathmatrixfactory)() | Az alapértelmezett konstruktor. |
 
 ## Metódusok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [CreateMathMatrix](../../aspose.slides.mathtext/mathmatrixfactory/createmathmatrix)(int, int) | Létrehozza a matematikai mátrixot |
+| [CreateMathMatrix](../../aspose.slides.mathtext/mathmatrixfactory/createmathmatrix)(int, int) | Létrehoz egy matematikai mátrixot |
 
 ### Megjegyzések
 
-COM kompatibilitáshoz
+A COM kompatibilitáshoz
 
 ### Lásd még
 

@@ -1,9 +1,9 @@
 ---
 title: IGifOptions
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
 description: แสดงตัวเลือกการส่งออก GIF.
 type: docs
-weight: 3920
+weight: 3940
 url: /th/aspose.slides.export/igifoptions/
 ---
 ## IGifOptions อินเทอร์เฟซ
@@ -16,13 +16,13 @@ public interface IGifOptions : ISaveOptions
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/igifoptions/asisaveoptions) { get; } | ส่งคืนอินเทอร์เฟซ ISaveOptions. อ่านอย่างเดียว [`ISaveOptions`](../isaveoptions). |
-| [DefaultDelay](../../aspose.slides.export/igifoptions/defaultdelay) { get; set; } | รับหรือกำหนดเวลา delay เริ่มต้น [ms]. ค่านี้จะถูกใช้หาก [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) ไม่ได้ตั้งค่า. ค่าเริ่มต้นคือ 1000. |
-| [ExportHiddenSlides](../../aspose.slides.export/igifoptions/exporthiddenslides) { get; set; } | กำหนดว่าจะส่งออกสไลด์ที่ซ่อนหรือไม่. ค่าเริ่มต้นคือ false. |
+| [AsISaveOptions](../../aspose.slides.export/igifoptions/asisaveoptions) { get; } | ส่งคืน ISaveOptions อินเทอร์เฟซ. อ่านอย่างเดียว [`ISaveOptions`](../isaveoptions). |
+| [DefaultDelay](../../aspose.slides.export/igifoptions/defaultdelay) { get; set; } | รับหรือกำหนดเวลาหน่วงค่าเริ่มต้น [ms]. ค่านี้จะถูกใช้หาก [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) ไม่ได้ตั้งค่า. ค่าปริยายคือ 1000. |
+| [ExportHiddenSlides](../../aspose.slides.export/igifoptions/exporthiddenslides) { get; set; } | กำหนดว่าจะส่งออกสไลด์ที่ซ่อนหรือไม่. ค่าปริยายคือ false. |
 | [FrameSize](../../aspose.slides.export/igifoptions/framesize) { get; set; } | รับหรือกำหนดขนาดเฟรม. |
-| [TransitionFps](../../aspose.slides.export/igifoptions/transitionfps) { get; set; } | รับหรือกำหนด FPS การเปลี่ยนผ่าน [frames/sec] ค่าเริ่มต้นคือ 25. |
+| [TransitionFps](../../aspose.slides.export/igifoptions/transitionfps) { get; set; } | รับหรือกำหนด FPS การเปลี่ยนแปลง [frames/sec] ค่าปริยายคือ 25. |
 
 ### ดูเพิ่มเติม
 

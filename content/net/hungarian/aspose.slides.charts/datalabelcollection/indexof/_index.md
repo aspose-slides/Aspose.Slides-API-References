@@ -1,9 +1,9 @@
 ---
 title: IndexOf
-second_title: Aspose.Sildes .NET API Referenciája
+second_title: Aspose.Sildes .NET API referenciája
 description: Visszaadja a megadott DataLabel indexét a gyűjteményben.
 type: docs
-weight: 110
+weight: 120
 url: /hu/aspose.slides.charts/datalabelcollection/indexof/
 ---
 ## DataLabelCollection.IndexOf metódus
@@ -16,11 +16,11 @@ public int IndexOf(IDataLabel value)
 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| value | IDataLabel | Megkeresendő DataLabel. |
+| value | IDataLabel | A keresendő DataLabel. |
 
 ### Visszatérési érték
 
-A DataLabel indexe, vagy -1, ha a DataLabel nem ebből a gyűjteményből származik.
+A DataLabel indexe, vagy -1, ha a DataLabel nem ebben a gyűjteményben található.
 
 ### Lásd még
 

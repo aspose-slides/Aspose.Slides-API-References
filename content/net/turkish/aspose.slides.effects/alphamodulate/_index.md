@@ -1,14 +1,14 @@
 ---
 title: AlphaModulate
-second_title: Aspose.Sildes for .NET API Referansı
-description: Alpha Modulate etkisini temsil eder. Etki alfa opaklık değerleri sabit bir yüzde ile çarpılır. Etki konteyneri, modüle edilecek alfa değerlerini içeren bir etkiyi belirtir.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Alpha Modulate etkisini temsil eder. Etkinin alfa şeffaflık değerleri sabit bir yüzdeyle çarpılır. Etki kapsayıcısı, modüle edilecek alfa değerlerini içeren bir etki belirtir.
 type: docs
-weight: 2880
+weight: 2900
 url: /tr/aspose.slides.effects/alphamodulate/
 ---
 ## AlphaModulate sınıf
 
-Alpha Modulate etkisini temsil eder. Etki alfa (opaklık) değerleri sabit bir yüzdeyle çarpılır. Etki kapsayıcısı, modüle edilecek alfa değerlerini içeren bir etkiyi belirtir.
+Represents an Alpha Modulate effect. Effect alpha (opacity) values are multiplied by a fixed percentage. The effect container specifies an effect containing alpha values to modulate.
 
 ```csharp
 public sealed class AlphaModulate : ImageTransformOperation, IAlphaModulate
@@ -18,15 +18,15 @@ public sealed class AlphaModulate : ImageTransformOperation, IAlphaModulate
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arabirimine erişim sağlar. Yalnızca okuma [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arabirimini almayı sağlar. Salt okunur [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphamodulate/equals)(object) | Belirtilen [`AlphaModulate`](../alphamodulate) geçerli [`AlphaModulate`](../alphamodulate) ile eşit olup olmadığını belirler. |
-| [GetEffective](../../aspose.slides.effects/alphamodulate/geteffective)() | Uygulanan kalıtımla etkili Alpha Modulate etki verilerini alır. |
-| override [GetHashCode](../../aspose.slides.effects/alphamodulate/gethashcode)() | Belirli bir tip için bir karmalama işlevi olarak hizmet eder. |
+| override [Equals](../../aspose.slides.effects/alphamodulate/equals)(object) | Belirtilen [`AlphaModulate`](../alphamodulate)'nin mevcut [`AlphaModulate`](../alphamodulate) ile eşit olup olmadığını belirler. |
+| [GetEffective](../../aspose.slides.effects/alphamodulate/geteffective)() | Kalıtım uygulanmış etkili Alpha Modulate efekt verilerini alır. |
+| override [GetHashCode](../../aspose.slides.effects/alphamodulate/gethashcode)() | Belirli bir tür için hash işlevi olarak hizmet eder. |
 
 ### Ayrıca Bakınız
 

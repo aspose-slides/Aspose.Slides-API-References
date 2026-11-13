@@ -1,12 +1,12 @@
 ---
 title: ChartShapeType
-second_title: "Référence de l'API Aspose.Sildes pour .NET"
-description: "Représente une forme de graphique."
+second_title: Référence API Aspose.Sildes pour .NET
+description: Représente une forme de graphique.
 type: docs
-weight: 1470
+weight: 1480
 url: /fr/aspose.slides.charts/chartshapetype/
 ---
-## Enumération ChartShapeType
+## Énumération ChartShapeType
 
 Représente une forme de graphique.
 
@@ -16,15 +16,15 @@ public enum ChartShapeType
 
 ### Valeurs
 
-| Nom | Valeur | Description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` | La forme du graphique n'est pas définie. |
 | Box | `0` | Spécifie que le graphique doit être dessiné avec une forme de boîte. |
-| Cone | `1` | Spécifie que le graphique doit être dessiné sous forme de cône, la base du cône étant au sol et la pointe du cône au sommet du repère de données. |
-| ConeToMax | `2` | Spécifie que le graphique doit être dessiné avec des cônes tronqués de façon que la pointe du cône corresponde à la valeur maximale des données. |
+| Cone | `1` | Spécifie que le graphique doit être dessiné sous forme de cône, la base du cône étant au sol et le sommet du cône au-dessus du marqueur de données. |
+| ConeToMax | `2` | Spécifie que le graphique doit être dessiné avec des cônes tronqués de sorte que le sommet du cône corresponde à la valeur maximale des données. |
 | Cylinder | `3` | Spécifie que le graphique doit être dessiné sous forme de cylindre. |
-| Pyramid | `4` | Spécifie que le graphique doit être dessiné sous forme de pyramide rectangulaire, la base de la pyramide étant au sol et la pointe de la pyramide au sommet du repère de données. |
-| PyramidToMaximum | `5` | Spécifie que le graphique doit être dessiné avec des pyramides tronquées de façon que la pointe de la pyramide corresponde à la valeur maximale des données. |
+| Pyramid | `4` | Spécifie que le graphique doit être dessiné sous forme de pyramide rectangulaire, la base de la pyramide étant au sol et le sommet de la pyramide au-dessus du marqueur de données. |
+| PyramidToMaximum | `5` | Spécifie que le graphique doit être dessiné avec des pyramides tronquées de sorte que le sommet de la pyramide corresponde à la valeur maximale des données. |
 
 ### Voir aussi
 

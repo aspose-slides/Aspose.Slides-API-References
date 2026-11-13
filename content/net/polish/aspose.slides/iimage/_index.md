@@ -1,9 +1,9 @@
 ---
 title: IImage
-second_title: Aspose.Sildes dla .NET – Referencja API
+second_title: Aspose.Sildes dla .NET - referencja API
 description: Reprezentuje obraz rastrowy lub wektorowy.
 type: docs
-weight: 6150
+weight: 6170
 url: /pl/aspose.slides/iimage/
 ---
 ## interfejs IImage
@@ -18,9 +18,9 @@ public interface IImage : IDisposable
 
 | Nazwa | Opis |
 | --- | --- |
-| [Height](../../aspose.slides/iimage/height) { get; } | Zwraca wysokość obrazu w pikselach. |
-| [Size](../../aspose.slides/iimage/size) { get; } | Zwraca rozmiar obrazu. |
-| [Width](../../aspose.slides/iimage/width) { get; } | Zwraca szerokość obrazu w pikselach. |
+| [Height](../../aspose.slides/iimage/height) { get; } | Pobiera wysokość obrazu w pikselach. |
+| [Size](../../aspose.slides/iimage/size) { get; } | Pobiera rozmiar obrazu. |
+| [Width](../../aspose.slides/iimage/width) { get; } | Pobiera szerokość obrazu w pikselach. |
 
 ## Metody
 
@@ -34,7 +34,7 @@ public interface IImage : IDisposable
 
 ### Uwagi
 
-Ten interfejs zapewnia wspólną abstrakcję do obsługi zarówno rastrowych, jak i wektorowych obrazów. Implementacje mogą się różnić w zależności od podstawowego typu obrazu.
+Ten interfejs zapewnia wspólną abstrakcję do obsługi zarówno obrazów rastrowych, jak i wektorowych. Implementacje mogą się różnić w zależności od podstawowego typu obrazu.
 
 ### Zobacz także
 

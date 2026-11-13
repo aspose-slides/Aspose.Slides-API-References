@@ -1,14 +1,14 @@
 ---
 title: IChartSeriesCollection
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta una collezione di IChartSeries./ichartseries
+description: Rappresenta la raccolta di IChartSeries./ichartseries
 type: docs
-weight: 1940
+weight: 1960
 url: /it/aspose.slides.charts/ichartseriescollection/
 ---
 ## IChartSeriesCollection interfaccia
 
-Rappresenta una collezione di [`IChartSeries`](../ichartseries)
+Rappresenta la raccolta di [`IChartSeries`](../ichartseries)
 
 ```csharp
 public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
@@ -24,15 +24,15 @@ public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add)(ChartType) | Crea una nuova serie di grafico e la aggiunge alla collezione. |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_1)(IChartCellCollection, ChartType) | Crea una nuova serie di grafico da [`IChartCellCollection`](../ichartcellcollection) e la aggiunge alla collezione. |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_2)(IChartDataCell, ChartType) | Crea una nuova serie di grafico da [`IChartDataCell`](../ichartdatacell) e la aggiunge alla collezione. |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_3)(string, ChartType) | Crea una nuova serie di grafico dal valore e la aggiunge alla collezione. |
-| [Clear](../../aspose.slides.charts/ichartseriescollection/clear)() | Rimuove tutti gli elementi (incluso lo stile del grafico) dalla collezione. |
-| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | Cerca il [`IChartSeries`](../ichartseries) specificato e restituisce l'indice base zero della prima occorrenza all'interno dell'intera Collection |
-| [Insert](../../aspose.slides.charts/ichartseriescollection/insert)(int, ChartType) | Crea una nuova serie di grafico e la inserisce nella collezione. |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add)(ChartType) | Crea una nuova serie di grafico e la aggiunge alla raccolta. |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_1)(IChartCellCollection, ChartType) | Crea una nuova serie di grafico da [`IChartCellCollection`](../ichartcellcollection) e la aggiunge alla raccolta. |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_2)(IChartDataCell, ChartType) | Crea una nuova serie di grafico da [`IChartDataCell`](../ichartdatacell) e la aggiunge alla raccolta. |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_3)(string, ChartType) | Crea una nuova serie di grafico dal valore e la aggiunge alla raccolta. |
+| [Clear](../../aspose.slides.charts/ichartseriescollection/clear)() | Rimuove tutti gli elementi (incluso lo stile del grafico) dalla raccolta. |
+| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | Cerca il [`IChartSeries`](../ichartseries) specificato e restituisce l'indice basato su zero della prima occorrenza all'interno dell'intera Collection |
+| [Insert](../../aspose.slides.charts/ichartseriescollection/insert)(int, ChartType) | Crea una nuova serie di grafico e la inserisce nella raccolta. |
 | [Remove](../../aspose.slides.charts/ichartseriescollection/remove)(IChartSeries) | Rimuove il valore specificato. |
-| [RemoveAt](../../aspose.slides.charts/ichartseriescollection/removeat)(int) | Rimuove l'elemento all'indice specificato |
+| [RemoveAt](../../aspose.slides.charts/ichartseriescollection/removeat)(int) | Rimuove l'elemento all'indice specificato. |
 
 ### Vedi anche
 

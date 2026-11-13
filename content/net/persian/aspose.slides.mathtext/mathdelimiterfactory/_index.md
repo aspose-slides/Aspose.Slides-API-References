@@ -1,14 +1,14 @@
 ---
 title: MathDelimiterFactory
 second_title: Aspose.Sildes برای مرجع API .NET
-description: به شما امکان ایجاد یک تقسیم‌کننده ریاضی را می‌دهد
+description: به شما امکان می‌دهد یک جداکننده ریاضی ایجاد کنید
 type: docs
-weight: 8660
+weight: 8680
 url: /fa/aspose.slides.mathtext/mathdelimiterfactory/
 ---
 ## MathDelimiterFactory کلاس
 
-به شما امکان ایجاد یک تقسیم‌کننده ریاضی را می‌دهد
+به شما اجازه می‌دهد تا یک جداکننده ریاضی ایجاد کنید
 
 ```csharp
 public class MathDelimiterFactory : IMathDelimiterFactory
@@ -16,24 +16,24 @@ public class MathDelimiterFactory : IMathDelimiterFactory
 
 ## سازنده‌ها
 
-| نام | توضیحات |
+| نام | توضیح |
 | --- | --- |
 | [MathDelimiterFactory](mathdelimiterfactory)() | سازنده پیش‌فرض. |
 
 ## متدها
 
-| نام | توضیحات |
+| نام | توضیح |
 | --- | --- |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMMathElement) | یک تقسیم‌کننده ریاضی را با اعمال بر عنصر ایجاد می‌کند |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMMathElementCollection) | یک تقسیم‌کننده ریاضی را با اعمال بر عنصر ایجاد می‌کند |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | یک جداکننده ریاضی را با اعمال بر عنصر ایجاد می‌کند |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | یک جداکننده ریاضی را با اعمال بر مجموعه عنصر ایجاد می‌کند |
 
-### ملاحظات
+### توضیحات
 
-برای سازگاری با COM
+برای سازگاری COM
 
-### مراجع
+### موارد مرتبط
 
-* رابط [IMathDelimiterFactory](../imathdelimiterfactory)
+* اینترفیس [IMathDelimiterFactory](../imathdelimiterfactory)
 * فضای‌نام [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * مجمع [Aspose.Slides](../../)
 

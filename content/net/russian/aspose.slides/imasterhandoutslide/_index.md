@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlide
 second_title: Aspose.Sildes для .NET справочник API
-description: Представляет главный слайд для раздаточных материалов.
+description: Представляет мастер-слайд для раздаточных материалов.
 type: docs
-weight: 6350
+weight: 6370
 url: /ru/aspose.slides/imasterhandoutslide/
 ---
 ## IMasterHandoutSlide интерфейс
 
-Представляет главный слайд для раздаточных материалов.
+Представляет мастер-слайд для раздаточных материалов.
 
 ```csharp
 public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
@@ -20,8 +20,8 @@ public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
 | --- | --- |
 | [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | Позволяет получить базовый интерфейс IBaseSlide. Только для чтения [`IBaseSlide`](../ibaseslide). |
 | [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | Возвращает интерфейс IMasterThemeable. Только для чтения [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [DrawingGuides](../../aspose.slides/imasterhandoutslide/drawingguides) { get; } | Возвращает коллекцию направляющих для главного слайда раздаточных материалов. Только для чтения [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | Возвращает менеджер HeaderFooter главного слайда раздаточных материалов. Только для чтения [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
+| [DrawingGuides](../../aspose.slides/imasterhandoutslide/drawingguides) { get; } | Возвращает коллекцию руководящих линий рисования для главного раздаточного слайда. Только для чтения [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | Возвращает менеджер HeaderFooter главного раздаточного слайда. Только для чтения [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
 
 ### См. также
 

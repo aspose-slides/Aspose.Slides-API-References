@@ -1,14 +1,14 @@
 ---
 title: MasterNotesSlideHeaderFooterManager
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een manager voor die het gedrag van de voettekst, datum-tijd- en paginanummer-ruimtehouders van de master-notitieslide en alle onderliggende ruimtehouders beheert. Onderliggende ruimtehouders betekenen dat de ruimtehouders zich bevinden op afhankelijke notitieslides. Afhankelijke notitieslides gebruiken en zijn afhankelijk van de master-notitieslide.
+description: Representeert een manager die het gedrag van de voettekst-, datum-tijd- en paginanummer-plaatshouders van de master-notitieslide en alle kind-plaatshouders bevat. Kind-plaatshouders betekenen dat de plaatshouders zich bevinden op afhankelijke notitieslides. Afhankelijke notitieslides gebruiken en zijn afhankelijk van de master-notitieslide.
 type: docs
-weight: 8020
+weight: 8040
 url: /nl/aspose.slides/masternotesslideheaderfootermanager/
 ---
 ## MasterNotesSlideHeaderFooterManager klasse
 
-Stelt een manager voor die het gedrag van de voettekst van de master-notitiesslide, datum-tijd, paginanummer-ruimtehouders en alle onderliggende ruimtehouders bevat. Onderliggende ruimtehouders betekenen dat de ruimtehouders zich bevinden op afhankelijke notitieslides. Afhankelijke notitieslides gebruiken en zijn afhankelijk van de master-notitieslide.
+Stelt een manager voor die het gedrag van de voettekst-, datum-tijd- en paginanummer-plaatshouders van de master-notitieslide en alle kind-plaatshouders bevat. Kind-plaatshouders betekenen dat de plaatshouders zich bevinden op afhankelijke notitieslides. Afhankelijke notitieslides gebruiken en zijn afhankelijk van de master-notitieslide.
 
 ```csharp
 public sealed class MasterNotesSlideHeaderFooterManager : BaseHandoutNotesSlideHeaderFooterManager, 
@@ -19,35 +19,35 @@ public sealed class MasterNotesSlideHeaderFooterManager : BaseHandoutNotesSlideH
 
 | Naam | Beschrijving |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Haalt de waarde op die aangeeft dat een datum-tijd-ruimtehouder aanwezig is. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Haalt de waarde op die aangeeft dat een voettekst-ruimtehouder aanwezig is. Read Boolean. |
-| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Haalt de waarde op die aangeeft dat een kop-ruimtehouder aanwezig is. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Haalt de waarde op die aangeeft dat een paginanummer-ruimtehouder aanwezig is. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Haalt waarde op die aangeeft dat een datum-tijd plaatshouder aanwezig is. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Haalt waarde op die aangeeft dat een voettekstplaatshouder aanwezig is. Read Boolean. |
+| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Haalt waarde op die aangeeft dat een kopplaatshouder aanwezig is. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Haalt waarde op die aangeeft dat een paginanummerplaatshouder aanwezig is. ReadBoolean. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Stelt tekst in voor de datum-tijd-ruimtehouder van de masterslide en alle onderliggende datum-tijd-ruimtehouders. Onderliggende ruimtehouders betekenen dat de ruimtehouders zich bevinden op afhankelijke notitieslides. Afhankelijke notitieslides gebruiken en zijn afhankelijk van de master-notitieslide. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Wijzigt de zichtbaarheid van de datum-tijd-ruimtehouder van de masterslide en alle onderliggende datum-tijd-ruimtehouders. Onderliggende ruimtehouders betekenen dat de ruimtehouders zich bevinden op afhankelijke notitieslides. Afhankelijke notitieslides gebruiken en zijn afhankelijk van de master-notitieslide. |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Stelt tekst in voor de datum-tijd-ruimtehouder van de slide. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Wijzigt de zichtbaarheid van de datum-tijd-ruimtehouder van de slide. |
-| [SetFooterAndChildFootersText](../../aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | Stelt tekst in voor de voettekst-ruimtehouder van de masterslide en alle onderliggende voettekst-ruimtehouders. Onderliggende ruimtehouders betekenen dat de ruimtehouders zich bevinden op afhankelijke notitieslides. Afhankelijke notitieslides gebruiken en zijn afhankelijk van de master-notitieslide. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Wijzigt de zichtbaarheid van de voettekst-ruimtehouder van de masterslide en alle onderliggende voettekst-ruimtehouders. Onderliggende ruimtehouders betekenen dat de ruimtehouders zich bevinden op afhankelijke notitieslides. Afhankelijke notitieslides gebruiken en zijn afhankelijk van de master-notitieslide. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Stelt tekst in voor de voettekst-ruimtehouder van de slide. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Wijzigt de zichtbaarheid van de voettekst-ruimtehouder van de slide. |
-| [SetHeaderAndChildHeadersText](../../aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | Stelt tekst in voor de kop-ruimtehouder van de master-notitieslide en alle onderliggende kop-ruimtehouders. Onderliggende ruimtehouders betekenen dat de ruimtehouders zich bevinden op afhankelijke notitieslides. Afhankelijke notitieslides gebruiken en zijn afhankelijk van de master-notitieslide. |
-| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | Wijzigt de zichtbaarheid van de kop-ruimtehouder van de master-notitieslide en alle onderliggende kop-ruimtehouders. Onderliggende ruimtehouders betekenen dat de ruimtehouders zich bevinden op afhankelijke notitieslides. Afhankelijke notitieslides gebruiken en zijn afhankelijk van de master-notitieslide. |
-| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Stelt tekst in voor de kop-ruimtehouder van de slide. |
-| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Wijzigt de zichtbaarheid van de kop-ruimtehouder van de slide. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Wijzigt de zichtbaarheid van de paginanummer-ruimtehouder van de masterslide en alle onderliggende paginanummer-ruimtehouders. Onderliggende ruimtehouders betekenen dat de ruimtehouders zich bevinden op afhankelijke notitieslides. Afhankelijke notitieslides gebruiken en zijn afhankelijk van de master-notitieslide. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Wijzigt de zichtbaarheid van de paginanummer-ruimtehouder van de slide. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Stelt de tekst in voor de datum-tijd plaatshouder van de master-slide en alle kind-datum-tijd plaatshouders. Kind-plaatshouders betekenen dat de plaatshouders zich bevinden op afhankelijke notitieslides. Afhankelijke notitieslides gebruiken en zijn afhankelijk van de master-notitieslide. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Wijzigt de zichtbaarheid van de datum-tijd plaatshouder van de master-slide en alle kind-datum-tijd plaatshouders. Kind-plaatshouders betekenen dat de plaatshouders zich bevinden op afhankelijke notitieslides. Afhankelijke notitieslides gebruiken en zijn afhankelijk van de master-notitieslide. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Stelt de tekst in voor de datum-tijd plaatshouder van de slide. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Wijzigt de zichtbaarheid van de datum-tijd plaatshouder van de slide. |
+| [SetFooterAndChildFootersText](../../aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | Stelt de tekst in voor de voettekstplaatshouder van de master-slide en alle kind-voettekstplaatshouders. Kind-plaatshouders betekenen dat de plaatshouders zich bevinden op afhankelijke notitieslides. Afhankelijke notitieslides gebruiken en zijn afhankelijk van de master-notitieslide. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Wijzigt de zichtbaarheid van de voettekstplaatshouder van de master-slide en alle kind-voettekstplaatshouders. Kind-plaatshouders betekenen dat de plaatshouders zich bevinden op afhankelijke notitieslides. Afhankelijke notitieslides gebruiken en zijn afhankelijk van de master-notitieslide. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Stelt de tekst in voor de voettekstplaatshouder van de slide. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Wijzigt de zichtbaarheid van de voettekstplaatshouder van de slide. |
+| [SetHeaderAndChildHeadersText](../../aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | Stelt de tekst in voor de kopplaatshouder van de master-notitieslide en alle kind-kopplaatshouders. Kind-plaatshouders betekenen dat de plaatshouders zich bevinden op afhankelijke notitieslides. Afhankelijke notitieslides gebruiken en zijn afhankelijk van de master-notitieslide. |
+| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | Wijzigt de zichtbaarheid van de kopplaatshouder van de master-notitieslide en alle kind-kopplaatshouders. Kind-plaatshouders betekenen dat de plaatshouders zich bevinden op afhankelijke notitieslides. Afhankelijke notitieslides gebruiken en zijn afhankelijk van de master-notitieslide. |
+| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Stelt de tekst in voor de kopplaatshouder van de slide. |
+| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Wijzigt de zichtbaarheid van de kopplaatshouder van de slide. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Wijzigt de zichtbaarheid van de paginanummerplaatshouder van de master-slide en alle kind-paginanummerplaatshouders. Kind-plaatshouders betekenen dat de plaatshouders zich bevinden op afhankelijke notitieslides. Afhankelijke notitieslides gebruiken en zijn afhankelijk van de master-notitieslide. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Wijzigt de zichtbaarheid van de paginanummerplaatshouder van de slide. |
 
 ### Zie ook
 
 * klasse [BaseHandoutNotesSlideHeaderFooterManager](../basehandoutnotesslideheaderfootermanager)
 * interface [IMasterNotesSlideHeaderFooterManager](../imasternotesslideheaderfootermanager)
-* naamruimte [Aspose.Slides](../../aspose.slides)
-* assemblage [Aspose.Slides](../../)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

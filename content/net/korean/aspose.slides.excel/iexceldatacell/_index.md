@@ -1,9 +1,9 @@
 ---
 title: IExcelDataCell
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: Excel 통합 문서의 단일 셀을 나타냅니다.
+description: Excel 통합 문서에서 단일 셀을 나타냅니다.
 type: docs
-weight: 3700
+weight: 3720
 url: /ko/aspose.slides.excel/iexceldatacell/
 ---
 ## IExcelDataCell 인터페이스
@@ -23,7 +23,7 @@ public interface IExcelDataCell
 | [Row](../../aspose.slides.excel/iexceldatacell/row) { get; } | 셀이 위치한 워크시트에서 행의 0 기반 인덱스를 가져옵니다. 읽기 전용 Int32. |
 | [Value](../../aspose.slides.excel/iexceldatacell/value) { get; } | Excel 셀에 포함된 값을 가져옵니다. 읽기 전용 Object. |
 
-### 또 보기
+### 참고
 
 * 네임스페이스 [Aspose.Slides.Excel](../../aspose.slides.excel)
 * 어셈블리 [Aspose.Slides](../../)

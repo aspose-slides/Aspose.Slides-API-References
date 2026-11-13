@@ -3,7 +3,7 @@ title: ISectionCollection
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Sammlung von Abschnitten dar.
 type: docs
-weight: 6900
+weight: 6920
 url: /de/aspose.slides/isectioncollection/
 ---
 ## ISectionCollection Schnittstelle
@@ -18,20 +18,20 @@ public interface ISectionCollection : IGenericCollection<ISection>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Item](../../aspose.slides/isectioncollection/item) { get; } | Ruft das Element am angegebenen Index ab. Nur lesend [`ISection`](../isection). |
+| [Item](../../aspose.slides/isectioncollection/item) { get; } | Liefert das Element am angegebenen Index. Schreibgeschützt [`ISection`](../isection). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [AddEmptySection](../../aspose.slides/isectioncollection/addemptysection)(string, int) | Fügt der Sammlung an der angegebenen Position einen leeren Abschnitt hinzu. |
-| [AddSection](../../aspose.slides/isectioncollection/addsection)(string, ISlide) | Fügt einen neuen Abschnitt hinzu, der von einer bestimmten Folie ausgeht. |
-| [AppendEmptySection](../../aspose.slides/isectioncollection/appendemptysection)(string) | Fügt der Sammlung am Ende einen leeren Abschnitt hinzu. |
+| [AddEmptySection](../../aspose.slides/isectioncollection/addemptysection)(string, int) | Fügt einen leeren Abschnitt an der angegebenen Position der Sammlung hinzu. |
+| [AddSection](../../aspose.slides/isectioncollection/addsection)(string, ISlide) | Fügt einen neuen Abschnitt hinzu, der an einer bestimmten Folie beginnt. |
+| [AppendEmptySection](../../aspose.slides/isectioncollection/appendemptysection)(string) | Fügt einen leeren Abschnitt am Ende der Sammlung hinzu. |
 | [Clear](../../aspose.slides/isectioncollection/clear)() | Entfernt alle Abschnitte aus der Sammlung. |
 | [IndexOf](../../aspose.slides/isectioncollection/indexof)(ISection) | Gibt den Index des angegebenen Abschnitts in der Sammlung zurück. |
-| [RemoveSection](../../aspose.slides/isectioncollection/removesection)(ISection) | Entfernt den Abschnitt. Folien, die im Abschnitt enthalten sind, werden mit dem vorherigen Abschnitt zusammengeführt. |
-| [RemoveSectionWithSlides](../../aspose.slides/isectioncollection/removesectionwithslides)(ISection) | Entfernt den Abschnitt und die enthaltenen Folien. |
-| [ReorderSectionWithSlides](../../aspose.slides/isectioncollection/reordersectionwithslides)(ISection, int) | Verschiebt den Abschnitt und seine Folien aus der Sammlung an die angegebene Position. |
+| [RemoveSection](../../aspose.slides/isectioncollection/removesection)(ISection) | Entfernt den Abschnitt. Folien, die im Abschnitt enthalten sind, werden in den vorherigen Abschnitt zusammengeführt. |
+| [RemoveSectionWithSlides](../../aspose.slides/isectioncollection/removesectionwithslides)(ISection) | Entfernt den Abschnitt und die im Abschnitt enthaltenen Folien. |
+| [ReorderSectionWithSlides](../../aspose.slides/isectioncollection/reordersectionwithslides)(ISection, int) | Verschiebt den Abschnitt und seine Folien innerhalb der Sammlung an die angegebene Position. |
 
 ### Siehe auch
 

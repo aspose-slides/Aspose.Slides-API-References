@@ -3,7 +3,7 @@ title: LineArrowheadWidth
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente la largeur d'une pointe de flèche.
 type: docs
-weight: 7750
+weight: 7770
 url: /fr/aspose.slides/linearrowheadwidth/
 ---
 ## LineArrowheadWidth énumération
@@ -16,7 +16,7 @@ public enum LineArrowheadWidth : sbyte
 
 ### Valeurs
 
-| Nom | Valeur | Description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Narrow | `0` |  |

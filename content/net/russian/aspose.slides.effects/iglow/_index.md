@@ -1,14 +1,14 @@
 ---
 title: IGlow
-second_title: Aspose.Sildes для .NET API справка
-description: Представляет эффект свечения, при котором за краями объекта добавляется цветная размытая окантовка.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет эффект свечения, при котором цветная размытая окантовка добавляется за пределы краев объекта.
 type: docs
-weight: 3320
+weight: 3340
 url: /ru/aspose.slides.effects/iglow/
 ---
 ## IGlow интерфейс
 
-Представляет эффект свечения, при котором за краями объекта добавляется цветная размытая окантовка.
+Представляет эффект свечения, при котором цветная размазанная граница добавляется за пределами краев объекта.
 
 ```csharp
 public interface IGlow : IAccessiblePVIObject<IGlowEffectiveData>, IImageTransformOperation
@@ -20,7 +20,7 @@ public interface IGlow : IAccessiblePVIObject<IGlowEffectiveData>, IImageTransfo
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/iglow/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/iglow/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Color](../../aspose.slides.effects/iglow/color) { get; } | Формат цвета. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Color](../../aspose.slides.effects/iglow/color) { get; } | Цветовой формат. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Radius](../../aspose.slides.effects/iglow/radius) { get; set; } | Радиус. Чтение/запись Double. |
 
 ### См. также

@@ -1,18 +1,22 @@
 ---
 title: GapWidth
 second_title: Aspose.Sildes for .NET API リファレンス
-description: バーまたは列クラスター間の間隔を、バーまたは列の幅のパーセンテージとして指定します。読み取り/書き込み UInt16.
+description: バーまたは列のクラスター間のスペースを取得または設定します。これはバーまたは列の幅のパーセンテージです。値は0から500の間でなければなりません。読み書き UInt16.
 type: docs
 weight: 70
 url: /ja/aspose.slides.charts/ichartseriesgroup/gapwidth/
 ---
 ## IChartSeriesGroup.GapWidth プロパティ
 
-バーまたは列クラスター間の間隔を、バーまたは列の幅のパーセンテージとして指定します。読み取り/書き込み UInt16.
+バーまたは列のクラスター間のスペースを取得または設定します。これはバーまたは列の幅のパーセンテージです。値は0から500の間でなければなりません。読み書き UInt16.
 
 ```csharp
 public ushort GapWidth { get; set; }
 ```
+
+### 備考
+
+このプロパティは、次のタイプのシリーズに適用されます：すべてのバーおよび列のサブタイプ, BarOfPie, PieOfPie, BoxAndWhisker, Funnel, Histogram, Waterfall.
 
 ### 参照
 

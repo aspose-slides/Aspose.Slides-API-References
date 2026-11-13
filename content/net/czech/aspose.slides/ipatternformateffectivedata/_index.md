@@ -1,14 +1,14 @@
 ---
 title: IPatternFormatEffectiveData
-second_title: Aspose.Sildes pro .NET – referenční dokumentace API
-description: Neměnný objekt, který obsahuje efektivní vlastnosti výplně vzoru.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Neměnný objekt, který obsahuje účinné vlastnosti výplně vzoru.
 type: docs
-weight: 6630
+weight: 6650
 url: /cs/aspose.slides/ipatternformateffectivedata/
 ---
 ## IPatternFormatEffectiveData rozhraní
 
-Neměnný objekt, který obsahuje efektivní vlastnosti výplně vzoru.
+Neměnný objekt, který obsahuje účinné vlastnosti výplně vzoru.
 
 ```csharp
 public interface IPatternFormatEffectiveData

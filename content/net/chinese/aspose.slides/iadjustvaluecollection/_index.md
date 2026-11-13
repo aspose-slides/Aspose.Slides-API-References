@@ -3,7 +3,7 @@ title: IAdjustValueCollection
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示形状调整的集合。
 type: docs
-weight: 5190
+weight: 5210
 url: /zh/aspose.slides/iadjustvaluecollection/
 ---
 ## IAdjustValueCollection 接口
@@ -18,9 +18,9 @@ public interface IAdjustValueCollection : ICollection
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsICollection](../../aspose.slides/iadjustvaluecollection/asicollection) { get; } | 允许获取基 ICollection 接口。只读 ICollection。 |
+| [AsICollection](../../aspose.slides/iadjustvaluecollection/asicollection) { get; } | 允许获取基础 ICollection 接口。只读 ICollection。 |
 | [AsIEnumerable](../../aspose.slides/iadjustvaluecollection/asienumerable) { get; } | 返回 IEnumerable 接口。只读 IEnumerable。 |
-| [Item](../../aspose.slides/iadjustvaluecollection/item) { get; } | 按索引返回调整。 |
+| [Item](../../aspose.slides/iadjustvaluecollection/item) { get; } | 返回按索引的调整。 |
 
 ### 另见
 

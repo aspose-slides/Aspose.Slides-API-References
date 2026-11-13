@@ -1,37 +1,37 @@
 ---
 title: IMathBorderBox
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: วาดกรอบสี่เหลี่ยมหรือกรอบรูปแบบอื่นรอบ ๆ IMathElement.
+second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: วาดกรอบสี่เหลี่ยมหรือกรอบรูปแบบอื่น ๆ รอบ IMathElement.
 type: docs
-weight: 8170
+weight: 8190
 url: /th/aspose.slides.mathtext/imathborderbox/
 ---
 ## IMathBorderBox อินเทอร์เฟซ
 
-วาดกรอบสี่เหลี่ยมหรือกรอบรูปแบบอื่นรอบ ๆ IMathElement
+วาดกรอบสี่เหลี่ยม หรือกรอบรูปแบบอื่น ๆ รอบ IMathElement.
 
 ```csharp
 public interface IMathBorderBox : IMathElement
 ```
 
-## Properties
+## คุณสมบัติ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathborderbox/asimathelement) { get; } | อนุญาตให้เรียกดูอินเทอร์เฟซฐาน IMathElement [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathborderbox/asimathelement) { get; } | อนุญาตให้รับอินเทอร์เฟซฐาน IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathborderbox/base) { get; } | อาร์กิวเมนต์ฐาน |
-| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | ซ่อนขอบด้านล่าง (ค่าเริ่มต้นคือ false) – ระบุสถานะซ่อนหรือแสดงของขอบด้านล่างของกล่องกรอบ |
-| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | ซ่อนขอบด้านซ้าย (ค่าเริ่มต้นคือ false) – ระบุสถานะซ่อนหรือแสดงของขอบด้านซ้ายของกล่องกรอบ |
-| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | ซ่อนขอบด้านขวา (ค่าเริ่มต้นคือ false) – ระบุสถานะซ่อนหรือแสดงของขอบด้านขวาของกล่องกรอบ |
-| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | ซ่อนขอบด้านบน (ค่าเริ่มต้นคือ false) – ระบุสถานะซ่อนหรือแสดงของขอบด้านบนของกล่องกรอบ |
-| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | เส้นขีดทับจากด้านล่างซ้ายไปด้านขวาบน (ค่าเริ่มต้นคือ false) – ระบุสถานะซ่อนหรือแสดงของเส้นทแยงมุมจากมุมล่างซ้ายไปมุมบนขวาของกล่องกรอบ |
-| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | เส้นขีดทับแนวนอน (ค่าเริ่มต้นคือ false) – ระบุสถานะซ่อนหรือแสดงของเส้นขีดทับแนวนอน |
-| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | เส้นขีดทับจากด้านบนซ้ายไปด้านล่างขวา (ค่าเริ่มต้นคือ false) – ระบุสถานะซ่อนหรือแสดงของเส้นทแยงมุมจากมุมบนซ้ายไปมุมล่างขวาของกล่องกรอบ |
-| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | เส้นขีดทับแนวตั้ง (ค่าเริ่มต้นคือ false) – ระบุสถานะซ่อนหรือแสดงของเส้นขีดทับแนวตั้ง |
+| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | ซ่อนขอบด้านล่าง (ค่าเริ่มต้นคือ false) - ระบุสถานะการซ่อนหรือแสดงของขอบด้านล่างของกล่องกรอบ |
+| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | ซ่อนขอบด้านซ้าย (ค่าเริ่มต้นคือ false) - ระบุสถานะการซ่อนหรือแสดงของขอบด้านซ้ายของกล่องกรอบ |
+| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | ซ่อนขอบด้านขวา (ค่าเริ่มต้นคือ false) - ระบุสถานะการซ่อนหรือแสดงของขอบด้านขวาของกล่องกรอบ |
+| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | ซ่อนขอบด้านบน (ค่าเริ่มต้นคือ false) - ระบุสถานะการซ่อนหรือแสดงของขอบด้านบนของกล่องกรอบ |
+| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | ขีดทับจากด้านล่างซ้ายไปด้านบนขวา (ค่าเริ่มต้นคือ false) - ระบุสถานะการซ่อนหรือแสดงของเส้นทับทานแนวทแยงจากมุมล่างซ้ายไปมุมบนขวาของกล่องกรอบ |
+| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | ขีดทับแนวนอน (ค่าเริ่มต้นคือ false) - ระบุสถานะการซ่อนหรือแสดงของเส้นทับแนวนอน |
+| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | ขีดทับจากด้านบนซ้ายไปด้านล่างขวา (ค่าเริ่มต้นคือ false) - ระบุสถานะการซ่อนหรือแสดงของเส้นทับทานแนวทแยงจากมุมบนซ้ายไปมุมล่างขวาของกล่องกรอบ |
+| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | ขีดทับแนวดิ่ง (ค่าเริ่มต้นคือ false) - ระบุสถานะการซ่อนหรือแสดงของเส้นทับแนวดิ่ง |
 
 ### ตัวอย่าง
 
-Example:
+ตัวอย่าง:
 
 ```csharp
 [C#]

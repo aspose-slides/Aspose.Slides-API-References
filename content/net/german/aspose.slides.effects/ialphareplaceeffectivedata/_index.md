@@ -1,14 +1,14 @@
 ---
 title: IAlphaReplaceEffectiveData
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Unverändliches Objekt, das einen Alpha-Replace-Effekt darstellt. Alpha-Opazitätswerte des Effekts werden durch einen festen Alpha-Wert ersetzt.
+description: Unveränderliches Objekt, das einen Alpha Replace-Effekt darstellt. Effekt Alpha Deckkraftwerte werden durch ein festes Alpha ersetzt.
 type: docs
-weight: 3150
+weight: 3170
 url: /de/aspose.slides.effects/ialphareplaceeffectivedata/
 ---
 ## IAlphaReplaceEffectiveData Schnittstelle
 
-Unveränderliches Objekt, das einen Alpha-Replace-Effekt darstellt. Alpha-Werte (Opacity) des Effekts werden durch einen festen Alpha-Wert ersetzt.
+Unveränderliches Objekt, das einen Alpha Replace-Effekt darstellt. Effekt-Alpha-(Deckkraft-)Werte werden durch ein festes Alpha ersetzt.
 
 ```csharp
 public interface IAlphaReplaceEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IAlphaReplaceEffectiveData : IEffectEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [Alpha](../../aspose.slides.effects/ialphareplaceeffectivedata/alpha) { get; } | Gibt den neuen Alpha-Wert im Intervall [0..1] zurück. Nur lesbar Single. |
+| [Alpha](../../aspose.slides.effects/ialphareplaceeffectivedata/alpha) { get; } | Gibt den neuen Alpha-Wert im Intervall [0..1] zurück Nur lesbar Single. |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/ialphareplaceeffectivedata/asieffecteffectivedata) { get; } | Ermöglicht das Abrufen der Basis-IEffectEffectiveData-Schnittstelle. Nur lesbar [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Siehe auch

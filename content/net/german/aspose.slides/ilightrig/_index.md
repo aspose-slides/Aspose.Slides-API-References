@@ -3,7 +3,7 @@ title: ILightRig
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt LightRig dar.
 type: docs
-weight: 6270
+weight: 6290
 url: /de/aspose.slides/ilightrig/
 ---
 ## ILightRig Schnittstelle
@@ -19,14 +19,14 @@ public interface ILightRig
 | Name | Beschreibung |
 | --- | --- |
 | [Direction](../../aspose.slides/ilightrig/direction) { get; set; } | Lichtrichtung. Lesen/Schreiben [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | Stellt ein vordefiniertes Licht rechts dar, das auf eine Form angewendet werden kann. Der LightRig stellt eine Gruppe von Lichtern dar, die in einer bestimmten Weise relativ zu einer 3D-Szene ausgerichtet sind. Lesen/Schreiben [`LightRigPresetType`](../lightrigpresettype). |
+| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | Stellt ein voreingestelltes Lichtrecht dar, das auf eine Form angewendet werden kann. Das LightRig stellt eine Gruppe von Lichtern dar, die in einer bestimmten Weise relativ zu einer 3D-Szene ausgerichtet sind. Lesen/Schreiben [`LightRigPresetType`](../lightrigpresettype). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | Eine Rotation wird definiert durch die Verwendung einer Breitengrad-Koordinate, einer Längengrad-Koordinate und einer Umdrehung um die Achse als Breitengrad- und Längengradkoordinaten. Erstes Element im Rückgabe-Array – Breitengrad, zweites – Längengrad, drittes – Umdrehung. |
-| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | Eine Rotation wird definiert durch die Verwendung einer Breitengrad-Koordinate, einer Längengrad-Koordinate und einer Umdrehung um die Achse als Breitengrad- und Längengradkoordinaten. |
+| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | Eine Drehung wird durch die Verwendung einer Breitengrad-Koordinate, einer Längengrad-Koordinate und einer Drehung um die Achse als Breitengrad- und Längengrad-Koordinaten definiert. Erstes Element im Rückgabe-Array – Breitengrad, zweites – Längengrad, drittes – Drehung. |
+| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | Eine Drehung wird durch die Verwendung einer Breitengrad-Koordinate, einer Längengrad-Koordinate und einer Drehung um die Achse als Breitengrad- und Längengrad-Koordinaten definiert. |
 
 ### Siehe auch
 

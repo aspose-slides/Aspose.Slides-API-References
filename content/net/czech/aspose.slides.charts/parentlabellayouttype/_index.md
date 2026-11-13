@@ -1,14 +1,14 @@
 ---
 title: ParentLabelLayoutType
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje rozvržení popisků kategorií dat. Používá se pouze u řady Treemap.
+description: Reprezentuje rozložení popisků datových kategorií. Používá se pouze se sériemi Treemap.
 type: docs
-weight: 2350
+weight: 2370
 url: /cs/aspose.slides.charts/parentlabellayouttype/
 ---
 ## ParentLabelLayoutType výčet
 
-Reprezentuje rozvržení popisků kategorií dat. Používá se pouze u řady Treemap.
+Reprezentuje rozložení popisků kategorií. Používá se pouze se sériemi Treemap.
 
 ```csharp
 public enum ParentLabelLayoutType
@@ -20,7 +20,7 @@ public enum ParentLabelLayoutType
 | --- | --- | --- |
 | Banner | `0` | Určuje, že popisky nadřazených kategorií jsou zobrazeny jako banner |
 | None | `1` | Určuje, že popisky nadřazených kategorií nejsou vykresleny |
-| Overlapping | `2` | Určuje, že popisky nadřazených kategorií jsou zobrazeny jako překrývající se |
+| Overlapping | `2` | Určuje, že popisky nadřazených kategorií jsou zobrazeny překrývajícím se způsobem |
 
 ### Viz také
 

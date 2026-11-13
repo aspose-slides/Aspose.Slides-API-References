@@ -1,14 +1,14 @@
 ---
 title: HighlightText
 second_title: Aspose.Sildes for .NET API 참조
-description: 샘플 텍스트와 일치하는 모든 항목을 지정된 색상으로 강조 표시합니다.
+description: 지정된 색상으로 샘플 텍스트와 일치하는 모든 항목을 강조 표시합니다.
 type: docs
-weight: 90
+weight: 100
 url: /ko/aspose.slides/itextframe/highlighttext/
 ---
 ## HighlightText(string, Color) {#highlighttext}
 
-샘플 텍스트와 일치하는 모든 부분을 지정된 색상으로 강조 표시합니다.
+지정된 색상으로 샘플 텍스트와 일치하는 모든 항목을 강조 표시합니다.
 
 ```csharp
 public void HighlightText(string text, Color highlightColor)
@@ -19,7 +19,7 @@ public void HighlightText(string text, Color highlightColor)
 | text | String | 강조 표시할 텍스트입니다. |
 | highlightColor | Color | 텍스트를 강조 표시할 색상입니다. |
 
-### 참고
+### 참조
 
 * 인터페이스 [ITextFrame](../../itextframe)
 * 네임스페이스 [Aspose.Slides](../../itextframe)
@@ -29,7 +29,7 @@ public void HighlightText(string text, Color highlightColor)
 
 ## HighlightText(string, Color, ITextSearchOptions, IFindResultCallback) {#highlighttext_2}
 
-샘플 텍스트와 일치하는 모든 부분을 지정된 색상으로 강조 표시합니다.
+지정된 색상으로 샘플 텍스트와 일치하는 모든 항목을 강조 표시합니다.
 
 ```csharp
 public void HighlightText(string text, Color highlightColor, ITextSearchOptions options, 
@@ -45,22 +45,22 @@ public void HighlightText(string text, Color highlightColor, ITextSearchOptions 
 
 ### 예제
 
-다음 코드 샘플은 TextFrame에서 텍스트를 강조 표시하는 방법을 보여줍니다.
+다음 코드 샘플은 TextFrame에서 텍스트를 강조 표시하는 방법을 보여 줍니다.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// 모든 'important' 단어를 강조합니다
+	// 모든 'important' 단어를 강조
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("important", Color.LightBlue);
-	// 모든 개별 'the' 발생을 강조합니다
+	// 모든 별도 'the' 발생을 강조
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("the", Color.Violet, new TextSearchOptions()
 	{ WholeWordsOnly = true }, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 }
 ```
 
-### 참고
+### 참조
 
 * 인터페이스 [ITextSearchOptions](../../itextsearchoptions)
 * 인터페이스 [IFindResultCallback](../../ifindresultcallback)

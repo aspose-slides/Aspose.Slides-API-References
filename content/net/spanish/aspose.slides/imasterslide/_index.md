@@ -1,12 +1,12 @@
 ---
 title: IMasterSlide
-second_title: Aspose.Sildes para .NET Referencia de API
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una diapositiva maestra en una presentación.
 type: docs
-weight: 6420
+weight: 6440
 url: /es/aspose.slides/imasterslide/
 ---
-## IMasterSlide interfaz
+## Interfaz IMasterSlide
 
 Representa una diapositiva maestra en una presentación.
 
@@ -19,14 +19,14 @@ public interface IMasterSlide : IBaseSlide, IMasterThemeable
 | Nombre | Descripción |
 | --- | --- |
 | [AsIBaseSlide](../../aspose.slides/imasterslide/asibaseslide) { get; } | Permite obtener la interfaz base IBaseSlide. Solo lectura [`IBaseSlide`](../ibaseslide). |
-| [AsIMasterThemeable](../../aspose.slides/imasterslide/asimasterthemeable) { get; } | Devuelve la interfaz IMatsterThemeable. Solo lectura [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [BodyStyle](../../aspose.slides/imasterslide/bodystyle) { get; } | Devuelve el estilo de un texto de cuerpo. Solo lectura [`ITextStyle`](../itextstyle). |
+| [AsIMasterThemeable](../../aspose.slides/imasterslide/asimasterthemeable) { get; } | Devuelve la interfaz IMasterThemeable. Solo lectura [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
+| [BodyStyle](../../aspose.slides/imasterslide/bodystyle) { get; } | Devuelve el estilo de un texto del cuerpo. Solo lectura [`ITextStyle`](../itextstyle). |
 | [DrawingGuides](../../aspose.slides/imasterslide/drawingguides) { get; } | Devuelve una colección de guías de dibujo para la diapositiva maestra. Solo lectura [`IDrawingGuidesCollection`](../idrawingguidescollection) |
 | [HasDependingSlides](../../aspose.slides/imasterslide/hasdependingslides) { get; } | Devuelve true si existe al menos una diapositiva que depende de esta diapositiva maestra. Solo lectura Boolean. |
 | [HeaderFooterManager](../../aspose.slides/imasterslide/headerfootermanager) { get; } | Devuelve el gestor HeaderFooter de la diapositiva maestra. Solo lectura [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager). |
-| [LayoutSlides](../../aspose.slides/imasterslide/layoutslides) { get; } | Devuelve la colección de diapositivas de diseño hijo para esta diapositiva maestra. Solo lectura [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection). |
+| [LayoutSlides](../../aspose.slides/imasterslide/layoutslides) { get; } | Devuelve la colección de diapositivas de diseño secundarias para esta diapositiva maestra. Solo lectura [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection). |
 | [OtherStyle](../../aspose.slides/imasterslide/otherstyle) { get; } | Devuelve el estilo de otro texto. Solo lectura [`ITextStyle`](../itextstyle). |
-| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | Determina si la maestra correspondiente se elimina cuando se eliminan todas las diapositivas que siguen a esa maestra. Nota: Aspose.Slides nunca eliminará ninguna maestra sin usar por sí mismo; para eliminar realmente las maestras sin usar llame a [`RemoveUnused`](../imasterslidecollection/removeunused) Lectura/escritura Boolean. |
+| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | Determina si la maestra correspondiente se elimina cuando todas las diapositivas que siguen a esa maestra son eliminadas. Nota: Aspose.Slides nunca eliminará ninguna maestra sin usar por sí mismo; para eliminar realmente maestras sin usar, llame a [`RemoveUnused`](../imasterslidecollection/removeunused). Boolean de lectura/escritura. |
 | [TitleStyle](../../aspose.slides/imasterslide/titlestyle) { get; } | Devuelve el estilo de un texto de título. Solo lectura [`ITextStyle`](../itextstyle). |
 
 ## Métodos

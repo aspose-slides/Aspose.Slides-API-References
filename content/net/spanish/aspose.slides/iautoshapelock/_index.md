@@ -1,9 +1,9 @@
 ---
 title: IAutoShapeLock
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Referencia de API Aspose.Sildes para .NET
 description: Determina qué operaciones están deshabilitadas en el AutoshapeEx principal.
 type: docs
-weight: 5250
+weight: 5270
 url: /es/aspose.slides/iautoshapelock/
 ---
 ## IAutoShapeLock interfaz
@@ -18,18 +18,18 @@ public interface IAutoShapeLock : IBaseShapeLock
 
 | Nombre | Descripción |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/iautoshapelock/adjusthandleslocked) { get; set; } | Determina si cambiar los valores de ajuste está prohibido. Booleano de lectura-escritura. |
-| [ArrowheadsLocked](../../aspose.slides/iautoshapelock/arrowheadslocked) { get; set; } | Determina si cambiar las puntas de flecha está prohibido. Booleano de lectura-escritura. |
+| [AdjustHandlesLocked](../../aspose.slides/iautoshapelock/adjusthandleslocked) { get; set; } | Determina si está prohibido cambiar los valores de ajuste. Booleano de lectura-escritura. |
+| [ArrowheadsLocked](../../aspose.slides/iautoshapelock/arrowheadslocked) { get; set; } | Determina si está prohibido cambiar las puntas de flecha. Booleano de lectura-escritura. |
 | [AsIBaseShapeLock](../../aspose.slides/iautoshapelock/asibaseshapelock) { get; } | Permite obtener la interfaz base IBaseShapeLock. Solo lectura [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/iautoshapelock/aspectratiolocked) { get; set; } | Determina si una forma debe preservar la proporción al redimensionar. Booleano de lectura-escritura. |
-| [EditPointsLocked](../../aspose.slides/iautoshapelock/editpointslocked) { get; set; } | Determina si cambiar directamente el contorno de esta forma está prohibido. Booleano de lectura-escritura. |
-| [GroupingLocked](../../aspose.slides/iautoshapelock/groupinglocked) { get; set; } | Determina si agregar esta forma a un grupo está prohibido. Booleano de lectura-escritura. |
-| [PositionLocked](../../aspose.slides/iautoshapelock/positionlocked) { get; set; } | Determina si mover esta forma está prohibido. Booleano de lectura-escritura. |
-| [RotateLocked](../../aspose.slides/iautoshapelock/rotatelocked) { get; set; } | Determina si cambiar el ángulo de rotación de esta forma está prohibido. Booleano de lectura-escritura. |
-| [SelectLocked](../../aspose.slides/iautoshapelock/selectlocked) { get; set; } | Determina si seleccionar esta forma está prohibido. Booleano de lectura-escritura. |
-| [ShapeTypeLocked](../../aspose.slides/iautoshapelock/shapetypelocked) { get; set; } | Determina si cambiar el tipo de una forma está prohibido. Booleano de lectura-escritura. |
-| [SizeLocked](../../aspose.slides/iautoshapelock/sizelocked) { get; set; } | Determina si redimensionar esta forma está prohibido. Booleano de lectura-escritura. |
-| [TextLocked](../../aspose.slides/iautoshapelock/textlocked) { get; set; } | Determina si editar el texto está prohibido. Booleano de lectura-escritura. |
+| [AspectRatioLocked](../../aspose.slides/iautoshapelock/aspectratiolocked) { get; set; } | Determina si una forma debe conservar la relación de aspecto al redimensionar. Booleano de lectura-escritura. |
+| [EditPointsLocked](../../aspose.slides/iautoshapelock/editpointslocked) { get; set; } | Determina si está prohibido cambiar directamente el contorno de esta forma. Booleano de lectura-escritura. |
+| [GroupingLocked](../../aspose.slides/iautoshapelock/groupinglocked) { get; set; } | Determina si está prohibido añadir esta forma a un grupo. Booleano de lectura-escritura. |
+| [PositionLocked](../../aspose.slides/iautoshapelock/positionlocked) { get; set; } | Determina si está prohibido mover esta forma. Booleano de lectura-escritura. |
+| [RotateLocked](../../aspose.slides/iautoshapelock/rotatelocked) { get; set; } | Determina si está prohibido cambiar el ángulo de rotación de esta forma. Booleano de lectura-escritura. |
+| [SelectLocked](../../aspose.slides/iautoshapelock/selectlocked) { get; set; } | Determina si está prohibido seleccionar esta forma. Booleano de lectura-escritura. |
+| [ShapeTypeLocked](../../aspose.slides/iautoshapelock/shapetypelocked) { get; set; } | Determina si está prohibido cambiar el tipo de una forma. Booleano de lectura-escritura. |
+| [SizeLocked](../../aspose.slides/iautoshapelock/sizelocked) { get; set; } | Determina si está prohibido redimensionar esta forma. Booleano de lectura-escritura. |
+| [TextLocked](../../aspose.slides/iautoshapelock/textlocked) { get; set; } | Determina si está prohibido editar texto. Booleano de lectura-escritura. |
 
 ### Ver también
 

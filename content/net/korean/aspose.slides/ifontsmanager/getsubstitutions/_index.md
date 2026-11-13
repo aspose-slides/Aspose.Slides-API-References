@@ -1,9 +1,9 @@
 ---
 title: GetSubstitutions
-second_title: Aspose.Sildes .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 프레젠테이션 렌더링 시 교체될 글꼴에 대한 정보를 가져옵니다.
 type: docs
-weight: 80
+weight: 90
 url: /ko/aspose.slides/ifontsmanager/getsubstitutions/
 ---
 ## GetSubstitutions() {#getsubstitutions}
@@ -14,9 +14,9 @@ url: /ko/aspose.slides/ifontsmanager/getsubstitutions/
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions()
 ```
 
-### 반환값
+### 반환 값
 
-모든 글꼴 교체 컬렉션 [`FontSubstitutionInfo`](../../fontsubstitutioninfo).
+전체 글꼴 교체 컬렉션 [`FontSubstitutionInfo`](../../fontsubstitutioninfo).
 
 ### 예제
 
@@ -30,7 +30,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }        
 ```
 
-### 참고
+### 참조
 
 * 클래스 [FontSubstitutionInfo](../../fontsubstitutioninfo)
 * 인터페이스 [IFontsManager](../../ifontsmanager)
@@ -41,7 +41,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## GetSubstitutions(int[]) {#getsubstitutions_1}
 
-지정된 슬라이드 렌더링 중 교체될 글꼴에 대한 정보를 가져옵니다.
+지정된 슬라이드의 렌더링 중 교체될 글꼴에 대한 정보를 가져옵니다.
 
 ```csharp
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions(int[] slides)
@@ -49,11 +49,11 @@ public IEnumerable<FontSubstitutionInfo> GetSubstitutions(int[] slides)
 
 | 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| slides | Int32[] | 글꼴 교체 정보를 검색할 슬라이드 인덱스 배열이며, 인덱스는 1부터 시작합니다. |
+| slides | Int32[] | 1부터 시작하는 슬라이드 인덱스 배열로, 글꼴 교체 정보를 검색할 슬라이드를 지정합니다. |
 
-### 반환값
+### 반환 값
 
-지정된 슬라이드에 대한 모든 글꼴 교체 컬렉션 ([`FontSubstitutionInfo`](../../fontsubstitutioninfo))입니다.
+지정된 슬라이드에 대한 전체 글꼴 교체 컬렉션 ([`FontSubstitutionInfo`](../../fontsubstitutioninfo))입니다.
 
 ### 예제
 
@@ -68,7 +68,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 참고
+### 참조
 
 * 클래스 [FontSubstitutionInfo](../../fontsubstitutioninfo)
 * 인터페이스 [IFontsManager](../../ifontsmanager)

@@ -3,7 +3,7 @@ title: DigitalSignatureCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: ドキュメントに添付されたデジタル署名のコレクションを表します。
 type: docs
-weight: 2780
+weight: 2800
 url: /ja/aspose.slides/digitalsignaturecollection/
 ---
 ## DigitalSignatureCollection クラス
@@ -18,10 +18,10 @@ public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSigna
 
 | 名前 | 説明 |
 | --- | --- |
-| [Count](../../aspose.slides/digitalsignaturecollection/count) { get; } | コレクション内の要素数を返します。読み取り専用の Int32。 |
-| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | コレクションへのアクセスが同期されているか（スレッドセーフ）を示す値を返します。読み取り専用の Boolean。 |
+| [Count](../../aspose.slides/digitalsignaturecollection/count) { get; } | コレクション内の要素数を返します。読み取り専用 Int32。 |
+| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | コレクションへのアクセスが同期 (スレッドセーフ) されているかどうかを示す値を返します。読み取り専用 Boolean。 |
 | [Item](../../aspose.slides/digitalsignaturecollection/item) { get; } | インデックスで署名を返します。 |
-| [SyncRoot](../../aspose.slides/digitalsignaturecollection/syncroot) { get; } | 同期ルートを返します。読み取り専用の Object。 |
+| [SyncRoot](../../aspose.slides/digitalsignaturecollection/syncroot) { get; } | 同期ルートを返します。読み取り専用 Object。 |
 
 ## メソッド
 
@@ -30,10 +30,10 @@ public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSigna
 | [Add](../../aspose.slides/digitalsignaturecollection/add)(IDigitalSignature) | コレクションの末尾に署名を追加します。 |
 | [Clear](../../aspose.slides/digitalsignaturecollection/clear)() | コレクションからすべての署名を削除します。 |
 | [CopyTo](../../aspose.slides/digitalsignaturecollection/copyto)(Array, int) | コレクションのすべての要素を指定された配列にコピーします。 |
-| [GetEnumerator](../../aspose.slides/digitalsignaturecollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
+| [GetEnumerator](../../aspose.slides/digitalsignaturecollection/getenumerator)() | コレクションを反復する列挙子を返します。 |
 | [RemoveAt](../../aspose.slides/digitalsignaturecollection/removeat)(int) | 指定されたインデックスの署名を削除します。 |
 
-### 関連項目
+### 参照
 
 * クラス [DomObject&lt;TParent&gt;](../domobject-1)
 * クラス [Presentation](../presentation)

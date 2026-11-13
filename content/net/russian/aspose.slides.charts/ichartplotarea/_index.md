@@ -1,9 +1,9 @@
 ---
 title: IChartPlotArea
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет свойства заголовка диаграммы.
 type: docs
-weight: 1910
+weight: 1930
 url: /ru/aspose.slides.charts/ichartplotarea/
 ---
 ## IChartPlotArea интерфейс
@@ -18,10 +18,10 @@ public interface IChartPlotArea : IActualLayout, ILayoutable
 
 | Имя | Описание |
 | --- | --- |
-| [AsIActualLayout](../../aspose.slides.charts/ichartplotarea/asiactuallayout) { get; } | Возвращает интерфейс IActualLayout. |
-| [AsILayoutable](../../aspose.slides.charts/ichartplotarea/asilayoutable) { get; } | Позволяет получить базовый интерфейс ILayoutable. Только для чтения [`ILayoutable`](../ilayoutable). |
+| [AsIActualLayout](../../aspose.slides.charts/ichartplotarea/asiactuallayout) { get; } | Возвращает IActualLayout интерфейс. |
+| [AsILayoutable](../../aspose.slides.charts/ichartplotarea/asilayoutable) { get; } | Позволяет получить базовый ILayoutable интерфейс. Только для чтения [`ILayoutable`](../ilayoutable). |
 | [Format](../../aspose.slides.charts/ichartplotarea/format) { get; } | Возвращает формат области построения. Только для чтения [`IFormat`](../iformat). |
-| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | Если расположение области построения определено вручную, это свойство указывает, следует ли размещать область построения по её внутренней части (не включая оси и подписи осей) или по внешней части (включая оси и подписи осей). Чтение/запись [`LayoutTargetType`](./layouttargettype). |
+| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | Если расположение области построения задано вручную, это свойство определяет, следует ли размещать область построения внутри (не включая оси и подписи осей) или снаружи (включая оси и подписи осей). Чтение/запись [`LayoutTargetType`](./layouttargettype). |
 
 ### См. также
 

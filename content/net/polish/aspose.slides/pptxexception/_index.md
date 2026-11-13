@@ -1,9 +1,9 @@
 ---
 title: PptxException
-second_title: Aspose.Sildes dla .NET Dokumentacja API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje standardowy wewnętrzny typ wyjątku.
 type: docs
-weight: 9560
+weight: 9580
 url: /pl/aspose.slides/pptxexception/
 ---
 ## PptxException klasa
@@ -18,9 +18,9 @@ public class PptxException : OOXMLException
 
 | Nazwa | Opis |
 | --- | --- |
-| [PptxException](pptxexception#constructor)() | Konstruktor domyślny. |
+| [PptxException](pptxexception#constructor)() | Domyślny konstruktor. |
 | [PptxException](pptxexception#constructor_1)(string) | Konstruktor umożliwiający dodanie komunikatu do tego wyjątku. |
-| [PptxException](pptxexception#constructor_2)(string, Exception) | Konstruktor wyjątku zawierającego komunikat i zagnieżdżony wyjątek. |
+| [PptxException](pptxexception#constructor_2)(string, Exception) | Konstruktor wyjątku zawierającego komunikat i wbudowany wyjątek. |
 
 ### Zobacz także
 

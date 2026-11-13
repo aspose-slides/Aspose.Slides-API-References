@@ -1,9 +1,9 @@
 ---
 title: ISlidesPicture
-second_title: Aspose.Sildes .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考
 description: 表示簡報中的圖片。
 type: docs
-weight: 7110
+weight: 7130
 url: /zh-hant/aspose.slides/islidespicture/
 ---
 ## ISlidesPicture 介面
@@ -19,9 +19,9 @@ public interface ISlidesPicture : ISlideComponent
 | 名稱 | 說明 |
 | --- | --- |
 | [AsISlideComponent](../../aspose.slides/islidespicture/asislidecomponent) { get; } | 允許取得基礎 ISlideComponent 介面。唯讀 [`ISlideComponent`](../islidecomponent)。 |
-| [Image](../../aspose.slides/islidespicture/image) { get; set; } | 取得或設定內嵌圖像。可讀寫 [`IPPImage`](../ippimage)。 |
-| [ImageTransform](../../aspose.slides/islidespicture/imagetransform) { get; } | 取得圖像變換效果的集合。唯讀 [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection)。 |
-| [LinkPathLong](../../aspose.slides/islidespicture/linkpathlong) { get; set; } | 取得或設定已連結圖像的 URL。可讀寫 String。 |
+| [Image](../../aspose.slides/islidespicture/image) { get; set; } | 返回或設定嵌入的影像。可讀寫 [`IPPImage`](../ippimage)。 |
+| [ImageTransform](../../aspose.slides/islidespicture/imagetransform) { get; } | 返回影像變換效果的集合。唯讀 [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection)。 |
+| [LinkPathLong](../../aspose.slides/islidespicture/linkpathlong) { get; set; } | 返回或設定鏈結影像的 URL。可讀寫 String。 |
 
 ### 另見
 

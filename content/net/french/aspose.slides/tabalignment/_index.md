@@ -1,14 +1,14 @@
 ---
 title: TabAlignment
 second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Représente l'alignement des tabulations.
+description: Représente l'alignement d'onglet.
 type: docs
-weight: 10830
+weight: 10850
 url: /fr/aspose.slides/tabalignment/
 ---
-## Énumération TabAlignment
+## TabAlignment énumération
 
-Représente l'alignement des tabulations.
+Représente l'alignement d'onglet.
 
 ```csharp
 public enum TabAlignment
@@ -18,10 +18,10 @@ public enum TabAlignment
 
 | Nom | Valeur | Description |
 | --- | --- | --- |
-| Left | `0` | Alignement à gauche |
-| Center | `1` | Alignement centré |
-| Right | `2` | Alignement à droite |
-| Decimal | `3` | Alignement décimal |
+| Left | `0` | alignement à gauche |
+| Center | `1` | alignement centré |
+| Right | `2` | alignement à droite |
+| Decimal | `3` | alignement décimal |
 
 ### Voir aussi
 

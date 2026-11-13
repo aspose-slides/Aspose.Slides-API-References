@@ -1,14 +1,14 @@
 ---
 title: PdfTextCompression
-second_title: Aspose.Sildes для .NET Справочник API
-description: Константы, определяющие тип сжатия, применяемого ко всему содержимому PDF-файла, за исключением изображений.
+second_title: Aspose.Sildes для .NET справка API
+description: Константы, определяющие тип сжатия, применяемого ко всему содержимому PDF-файла, кроме изображений.
 type: docs
-weight: 4340
+weight: 4360
 url: /ru/aspose.slides.export/pdftextcompression/
 ---
-## Перечисление PdfTextCompression
+## PdfTextCompression перечисление
 
-Константы, определяющие тип сжатия, применяемого ко всему содержимому PDF-файла, за исключением изображений.
+Константы, определяющие тип сжатия, применяемого ко всему содержимому PDF-файла, кроме изображений.
 
 ```csharp
 public enum PdfTextCompression
@@ -18,7 +18,7 @@ public enum PdfTextCompression
 
 | Имя | Значение | Описание |
 | --- | --- | --- |
-| None | `0` | Без сжатия. |
+| None | `0` | Нет сжатия. |
 | Flate | `1` | Сжатие Flate (ZIP). |
 
 ### См. также

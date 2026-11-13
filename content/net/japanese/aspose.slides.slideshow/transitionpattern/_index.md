@@ -1,14 +1,14 @@
 ---
 title: TransitionPattern
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 幾何学的なパターンを指定し、タイル状に配置して広い領域を埋めます。
+description: 幾何学的パターンを指定し、結合して大きな領域を埋めるためにタイル状に配置します。
 type: docs
-weight: 10400
+weight: 10420
 url: /ja/aspose.slides.slideshow/transitionpattern/
 ---
-## TransitionPattern 列挙型
+## TransitionPattern 列挙
 
-幾何学的なパターンを指定し、タイル状に配置して広い領域を埋めます。
+幾何学的パターンを指定し、結合して大きな領域を埋めるためにタイル状に配置します。
 
 ```csharp
 public enum TransitionPattern
@@ -16,12 +16,12 @@ public enum TransitionPattern
 
 ### 値
 
-| 名前 | 値 | 説明 |
+| Name | Value | Description |
 | --- | --- | --- |
 | Diamond | `0` | Diamond タイル パターン |
 | Hexagon | `1` | Hexagon タイル パターン |
 
-### 参照
+### 参考
 
 * 名前空間 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * アセンブリ [Aspose.Slides](../../)

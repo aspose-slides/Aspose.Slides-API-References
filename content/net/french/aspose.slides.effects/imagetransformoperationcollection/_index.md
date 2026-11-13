@@ -3,7 +3,7 @@ title: ImageTransformOperationCollection
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente une collection d'effets appliqués à une image.
 type: docs
-weight: 3580
+weight: 3600
 url: /fr/aspose.slides.effects/imagetransformoperationcollection/
 ---
 ## ImageTransformOperationCollection classe
@@ -20,9 +20,9 @@ public sealed class ImageTransformOperationCollection : PVIObject,
 | Nom | Description |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'obtenir l'interface de base IPresentationComponent. Lecture seule [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Count](../../aspose.slides.effects/imagetransformoperationcollection/count) { get; } | Renvoie le nombre d'effets d'image dans une collection. Lecture seule Int32. |
-| [IsReadOnly](../../aspose.slides.effects/imagetransformoperationcollection/isreadonly) { get; } | Obtient une valeur indiquant si la ICollection est en lecture seule. Lecture seule Boolean. |
-| [Item](../../aspose.slides.effects/imagetransformoperationcollection/item) { get; } | Renvoie un [`ImageTransformOperation`](../imagetransformoperation) de la collection par son index. |
+| [Count](../../aspose.slides.effects/imagetransformoperationcollection/count) { get; } | Retourne le nombre d'effets d'image dans une collection. Lecture seule Int32. |
+| [IsReadOnly](../../aspose.slides.effects/imagetransformoperationcollection/isreadonly) { get; } | Obtient une valeur indiquant si l'ICollection est en lecture seule. Lecture seule Boolean. |
+| [Item](../../aspose.slides.effects/imagetransformoperationcollection/item) { get; } | Retourne un [`ImageTransformOperation`](../imagetransformoperation) de la collection par son indice. |
 
 ## Méthodes
 
@@ -48,13 +48,13 @@ public sealed class ImageTransformOperationCollection : PVIObject,
 | [AddLuminanceEffect](../../aspose.slides.effects/imagetransformoperationcollection/addluminanceeffect)(float, float) | Ajoute le nouvel effet Luminance à la fin d'une collection. |
 | [AddTintEffect](../../aspose.slides.effects/imagetransformoperationcollection/addtinteffect)(float, float) | Ajoute le nouvel effet Tint à la fin d'une collection. |
 | [Clear](../../aspose.slides.effects/imagetransformoperationcollection/clear)() | Supprime tous les effets d'image d'une collection. |
-| [Contains](../../aspose.slides.effects/imagetransformoperationcollection/contains)(IImageTransformOperation) | Détermine si la ICollection contient une valeur spécifique. |
-| [CopyTo](../../aspose.slides.effects/imagetransformoperationcollection/copyto)(IImageTransformOperation[], int) | Copie les éléments de la ICollection dans un tableau, à partir d'un indice de tableau particulier. |
+| [Contains](../../aspose.slides.effects/imagetransformoperationcollection/contains)(IImageTransformOperation) | Détermine si l'ICollection contient une valeur spécifique. |
+| [CopyTo](../../aspose.slides.effects/imagetransformoperationcollection/copyto)(IImageTransformOperation[], int) | Copie les éléments de l'ICollection dans un tableau, en commençant à un indice de tableau particulier. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compare avec l'objet spécifié. |
-| [GetEnumerator](../../aspose.slides.effects/imagetransformoperationcollection/getenumerator)() | Renvoie un énumérateur qui parcourt la collection. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Renvoie le code de hachage. |
-| [Remove](../../aspose.slides.effects/imagetransformoperationcollection/remove)(IImageTransformOperation) | Supprime la première occurrence d'un objet spécifique de la ICollection. |
-| [RemoveAt](../../aspose.slides.effects/imagetransformoperationcollection/removeat)(int) | Supprime un effet d'image d'une collection à l'index spécifié. |
+| [GetEnumerator](../../aspose.slides.effects/imagetransformoperationcollection/getenumerator)() | Retourne un énumérateur qui parcourt la collection. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Retourne le code de hachage. |
+| [Remove](../../aspose.slides.effects/imagetransformoperationcollection/remove)(IImageTransformOperation) | Supprime la première occurrence d'un objet spécifique de l'ICollection. |
+| [RemoveAt](../../aspose.slides.effects/imagetransformoperationcollection/removeat)(int) | Supprime un effet d'image d'une collection à l'indice spécifié. |
 
 ### Voir aussi
 

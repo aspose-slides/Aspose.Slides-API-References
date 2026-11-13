@@ -1,9 +1,9 @@
 ---
 title: EightDirectionTransition
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Aspose.Sildes pour l'API .NET
 description: Effet de transition de diapositive à huit directions.
 type: docs
-weight: 10020
+weight: 10040
 url: /fr/aspose.slides.slideshow/eightdirectiontransition/
 ---
 ## EightDirectionTransition classe
@@ -24,8 +24,8 @@ public class EightDirectionTransition : TransitionValueBase, IEightDirectionTran
 
 | Nom | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Détermine si les deux instances TransitionValueBase sont égales. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Sert de fonction de hachage pour un type particulier, adaptée à une utilisation dans les algorithmes de hachage et les structures de données comme une table de hachage. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Détermine si les deux instances de TransitionValueBase sont égales. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Servit de fonction de hachage pour un type particulier, adaptée à une utilisation dans les algorithmes de hachage et les structures de données comme une table de hachage. |
 
 ### Voir aussi
 

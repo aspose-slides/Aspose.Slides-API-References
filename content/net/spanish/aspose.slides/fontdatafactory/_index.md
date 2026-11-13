@@ -1,14 +1,14 @@
 ---
 title: FontDataFactory
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Fábrica FontData
+second_title: Aspose.Sildes para la referencia de API de .NET
+description: Fábrica de FontData
 type: docs
-weight: 4830
+weight: 4850
 url: /es/aspose.slides/fontdatafactory/
 ---
-## Clase FontDataFactory
+## FontDataFactory clase
 
-Fábrica FontData
+Fábrica de FontData
 
 ```csharp
 public class FontDataFactory : IFontDataFactory

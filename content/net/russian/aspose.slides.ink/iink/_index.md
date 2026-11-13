@@ -1,9 +1,9 @@
 ---
 title: IInk
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Справочник API Aspose.Sildes для .NET
 description: Представляет объект чернил на слайде.
 type: docs
-weight: 7510
+weight: 7530
 url: /ru/aspose.slides.ink/iink/
 ---
 ## IInk интерфейс

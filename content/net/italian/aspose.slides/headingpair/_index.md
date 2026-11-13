@@ -1,9 +1,9 @@
 ---
 title: HeadingPair
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta una proprietà Heading pair del documento. Indica il nome del gruppo di parti del documento e il numero di parti nel gruppo.
+second_title: Aspose.Sildes per il riferimento API .NET
+description: Rappresenta una proprietà 'Heading pair' del documento. Indica il nome del gruppo di parti del documento e il numero di parti nel gruppo.
 type: docs
-weight: 5110
+weight: 5130
 url: /it/aspose.slides/headingpair/
 ---
 ## HeadingPair classe
@@ -21,7 +21,7 @@ public sealed class HeadingPair : IHeadingPair
 | [Count](../../aspose.slides/headingpair/count) { get; } | Restituisce il numero di parti nel gruppo. Solo lettura Int32. |
 | [Name](../../aspose.slides/headingpair/name) { get; } | Restituisce il nome del gruppo di parti del documento. Solo lettura String. |
 
-### Vedere anche
+### Vedi anche
 
 * interfaccia [IHeadingPair](../iheadingpair)
 * spazio dei nomi [Aspose.Slides](../../aspose.slides)

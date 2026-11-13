@@ -1,14 +1,14 @@
 ---
 title: IGeometryShape
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje nadtřídu pro všechny geometrické tvary.
+description: Reprezentuje rodičovskou třídu pro všechny geometrické tvary.
 type: docs
-weight: 5980
+weight: 6000
 url: /cs/aspose.slides/igeometryshape/
 ---
 ## IGeometryShape rozhraní
 
-Reprezentuje nadtřídu pro všechny geometrické tvary.
+Reprezentuje rodičovskou třídu pro všechny geometrické tvary.
 
 ```csharp
 public interface IGeometryShape : IShape
@@ -16,21 +16,21 @@ public interface IGeometryShape : IShape
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [Adjustments](../../aspose.slides/igeometryshape/adjustments) { get; } | Vrací kolekci hodnot úprav tvaru. Pouze pro čtení [`IAdjustValueCollection`](../iadjustvaluecollection). |
-| [AsIShape](../../aspose.slides/igeometryshape/asishape) { get; } | Umožňuje získat základní rozhraní IShape. Pouze pro čtení [`IShape`](../ishape). |
-| [ShapeStyle](../../aspose.slides/igeometryshape/shapestyle) { get; } | Vrací objekt stylu tvaru. Pouze pro čtení [`IShapeStyle`](../ishapestyle). |
+| [Adjustments](../../aspose.slides/igeometryshape/adjustments) { get; } | Vrací kolekci hodnot úprav tvaru. Pouze ke čtení [`IAdjustValueCollection`](../iadjustvaluecollection). |
+| [AsIShape](../../aspose.slides/igeometryshape/asishape) { get; } | Umožňuje získat základní rozhraní IShape. Pouze ke čtení [`IShape`](../ishape). |
+| [ShapeStyle](../../aspose.slides/igeometryshape/shapestyle) { get; } | Vrací objekt stylu tvaru. Pouze ke čtení [`IShapeStyle`](../ishapestyle). |
 | [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | Vrací nebo nastavuje předdefinovaný typ geometrie. Poznámka: při změně hodnoty se všechny hodnoty úprav resetují na výchozí hodnoty. Čtení/zápis [`ShapeType`](../shapetype). |
 
 ## Metody
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | [CreateShapeElements](../../aspose.slides/igeometryshape/createshapeelements)() | Vytvoří a vrátí pole prvků tvaru. |
-| [GetGeometryPaths](../../aspose.slides/igeometryshape/getgeometrypaths)() | Vrací kopii cesty geometrického tvaru. Souřadnice jsou relativní k levému hornímu rohu tvaru. |
-| [SetGeometryPath](../../aspose.slides/igeometryshape/setgeometrypath)(IGeometryPath) | Aktualizuje geometrii tvaru z objektu [`IGeometryPath`](../igeometrypath). Souřadnice musí být relativní k levému hornímu rohu tvaru. Změní typ tvaru ([`ShapeType`](./shapetype)) na Custom. |
-| [SetGeometryPaths](../../aspose.slides/igeometryshape/setgeometrypaths)(IGeometryPath[]) | Aktualizuje geometrii tvaru z pole [`IGeometryPath`](../igeometrypath). Souřadnice musí být relativní k levému hornímu rohu tvaru. Změní typ tvaru ([`ShapeType`](./shapetype)) na Custom. |
+| [GetGeometryPaths](../../aspose.slides/igeometryshape/getgeometrypaths)() | Vrací kopii cesty geometrického tvaru. Souřadnice jsou vzhledem k levému hornímu rohu tvaru. |
+| [SetGeometryPath](../../aspose.slides/igeometryshape/setgeometrypath)(IGeometryPath) | Aktualizuje geometrii tvaru z objektu [`IGeometryPath`](../igeometrypath). Souřadnice musí být vzhledem k levému hornímu rohu tvaru. Změní typ tvaru ([`ShapeType`](./shapetype)) na Custom. |
+| [SetGeometryPaths](../../aspose.slides/igeometryshape/setgeometrypaths)(IGeometryPath[]) | Aktualizuje geometrii tvaru z pole [`IGeometryPath`](../igeometrypath). Souřadnice musí být vzhledem k levému hornímu rohu tvaru. Změní typ tvaru ([`ShapeType`](./shapetype)) na Custom. |
 
 ### Viz také
 

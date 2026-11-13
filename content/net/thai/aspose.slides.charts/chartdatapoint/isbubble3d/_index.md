@@ -1,14 +1,14 @@
 ---
 title: IsBubble3D
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ระบุว่าฟองอากาศมีเอฟเฟกต์ 3-D ที่ใช้กับพวกมัน. อ่าน/เขียน Boolean.
+second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: ระบุว่าฟองมีเอฟเฟกต์ 3-D ที่ใช้กับพวกมัน. อ่าน/เขียน Boolean.
 type: docs
-weight: 130
+weight: 170
 url: /th/aspose.slides.charts/chartdatapoint/isbubble3d/
 ---
 ## ChartDataPoint.IsBubble3D คุณสมบัติ
 
-ระบุว่าฟองอากาศมีเอฟเฟกต์ 3-D ที่ใช้กับพวกมัน. อ่าน/เขียน Boolean.
+ระบุว่าฟองมีเอฟเฟกต์ 3-D ที่ใช้กับพวกมัน. อ่าน/เขียน Boolean.
 
 ```csharp
 public bool IsBubble3D { get; set; }

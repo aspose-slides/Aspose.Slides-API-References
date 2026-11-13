@@ -1,12 +1,12 @@
 ---
 title: IBackground
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta lo sfondo di una diapositiva.
 type: docs
-weight: 5270
+weight: 5290
 url: /it/aspose.slides/ibackground/
 ---
-## Interfaccia IBackground
+## IBackground interfaccia
 
 Rappresenta lo sfondo di una diapositiva.
 
@@ -23,7 +23,7 @@ public interface IBackground : IFillParamSource, ISlideComponent
 | [EffectFormat](../../aspose.slides/ibackground/effectformat) { get; } | Restituisce un EffectFormat per il riempimento BackgroundType.OwnBackground. Sola lettura [`IEffectFormat`](../ieffectformat). |
 | [FillFormat](../../aspose.slides/ibackground/fillformat) { get; } | Restituisce un FillFormat per il riempimento BackgroundType.OwnBackground. Sola lettura [`IFillFormat`](../ifillformat). |
 | [StyleColor](../../aspose.slides/ibackground/stylecolor) { get; } | Restituisce un ColorFormat per il riempimento BackgroundType.Themed. Sola lettura [`IColorFormat`](../icolorformat). |
-| [StyleIndex](../../aspose.slides/ibackground/styleindex) { get; set; } | Restituisce un indice del riempimento BackgroundType.Themed nella raccolta dei temi di sfondo. 0 indica nessun riempimento. 1..999 - indice. Lettura/scrittura UInt16. |
+| [StyleIndex](../../aspose.slides/ibackground/styleindex) { get; set; } | Restituisce un indice del riempimento BackgroundType.Themed nella collezione del tema di sfondo. 0 indica nessun riempimento. 1..999 - indice. Lettura/scrittura UInt16. |
 | [Type](../../aspose.slides/ibackground/type) { get; set; } | Restituisce un tipo di riempimento di sfondo. Lettura/scrittura [`BackgroundType`](../backgroundtype). |
 
 ## Metodi

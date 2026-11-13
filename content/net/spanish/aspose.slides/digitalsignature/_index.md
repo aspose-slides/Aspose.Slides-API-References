@@ -3,10 +3,10 @@ title: DigitalSignature
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Firma digital en archivo firmado.
 type: docs
-weight: 2770
+weight: 2790
 url: /es/aspose.slides/digitalsignature/
 ---
-## Clase DigitalSignature
+## DigitalSignature clase
 
 Firma digital en archivo firmado.
 
@@ -16,18 +16,18 @@ public class DigitalSignature : IDigitalSignature
 
 ## Constructores
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | [DigitalSignature](digitalsignature#constructor)(X509Certificate2) | Crea un nuevo objeto DigitalSignature con el certificado especificado. |
-| [DigitalSignature](digitalsignature#constructor_1)(string, string) | Crea un nuevo objeto DigitalSignature con la ruta de archivo del certificado y la contraseña especificados. |
+| [DigitalSignature](digitalsignature#constructor_1)(string, string) | Crea un nuevo objeto DigitalSignature con la ruta del archivo de certificado y la contraseña especificados. |
 
 ## Propiedades
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | Objeto de certificado que se utilizó para firmar el documento. Solo lectura X509Certificate2. |
 | [Comments](../../aspose.slides/digitalsignature/comments) { get; set; } | El propósito de la firma. Lectura/escritura String. |
-| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | Si esta firma digital es válida y el documento no ha sido alterado, este valor será verdadero. Solo lectura Boolean. |
+| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | Si esta firma digital es válida y el documento no ha sido manipulado, este valor será true. Solo lectura Boolean. |
 | [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | La hora en que se firmó el documento. Solo lectura DateTime. |
 
 ### Ejemplos
@@ -36,25 +36,25 @@ El siguiente ejemplo muestra cómo agregar una firma digital a partir de un cert
 
 ```csharp
 [C#]
-// Inicializar instancia de Presentation
+// Inicializar la instancia de Presentation
 using (Presentation pres = new Presentation())
 {
-    // Crear objeto DigitalSignature con archivo PFX y contraseña PFX
+    // Crear un objeto DigitalSignature con el archivo PFX y la contraseña PFX
     DigitalSignature signature = new DigitalSignature("testsignature1.pfx", @"testpass1");
-    // Comentario de la nueva firma digital
+    // Agregar comentario a la nueva firma digital
     signature.Comments = "Aspose.Slides digital signing test.";
-    // Añadir firma digital a la presentación
+    // Agregar la firma digital a la presentación
     pres.DigitalSignatures.Add(signature);
-    // Guardar presentación
+    // Guardar la presentación
     pres.Save("SomePresentationSigned.pptx", SaveFormat.Pptx);
 }
 ```
 
-El siguiente código de ejemplo muestra cómo validar la firma digital de una presentación de PowerPoint.
+El siguiente código de muestra muestra cómo validar la firma digital de una presentación de PowerPoint.
 
 ```csharp
 [C#]
-// Inicializar instancia de Presentation
+// Inicializar la instancia de Presentation
 using (Presentation pres = new Presentation("SomePresentationSigned.pptx"))
 {
     if (pres.DigitalSignatures.Count < 0)
@@ -76,7 +76,7 @@ using (Presentation pres = new Presentation("SomePresentationSigned.pptx"))
 }
 ```
 
-### Véase también
+### Ver también
 
 * interfaz [IDigitalSignature](../idigitalsignature)
 * espacio de nombres [Aspose.Slides](../../aspose.slides)

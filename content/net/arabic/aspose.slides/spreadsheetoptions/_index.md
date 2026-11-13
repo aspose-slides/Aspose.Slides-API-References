@@ -1,12 +1,12 @@
 ---
 title: SpreadsheetOptions
-second_title: Aspose.Sildes لمرجع API .NET
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
 description: يمثل الخيارات التي يمكن استخدامها لتحديد سلوك إضافي لجداول البيانات.
 type: docs
-weight: 10740
+weight: 10760
 url: /ar/aspose.slides/spreadsheetoptions/
 ---
-## SpreadsheetOptions فئة
+## فئة SpreadsheetOptions
 
 يمثل الخيارات التي يمكن استخدامها لتحديد سلوك إضافي لجداول البيانات.
 
@@ -14,20 +14,20 @@ url: /ar/aspose.slides/spreadsheetoptions/
 public class SpreadsheetOptions : ISpreadsheetOptions
 ```
 
-## المُنشئات
+## المنشئات
 
 | الاسم | الوصف |
 | --- | --- |
-| [SpreadsheetOptions](spreadsheetoptions)() | ينشئ مثيلاً جديدًا من الفئة [`SpreadsheetOptions`](../spreadsheetoptions). |
+| [SpreadsheetOptions](spreadsheetoptions)() | يُنشئ مثالا جديدًا من فئة [`SpreadsheetOptions`](../spreadsheetoptions). |
 
 ## الخصائص
 
 | الاسم | الوصف |
 | --- | --- |
-| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | يحصل أو يحدد معلومات الثقافة المفضلة لحساب بعض الدوال المخصصة للاستخدام مع اللغات التي تستخدم مجموعة الأحرف ذات البايت المزدوج (DBCS). |
-| [RecoverWorkbookFromChartCache](../../aspose.slides/spreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | إذا كان مصدر البيانات للمخطط هو دفتر عمل خارجي غير متوفر، فسيتم استرداده من ذاكرة التخزين المؤقت للمخطط. |
+| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | يحصل أو يضبط معلومات الثقافة المفضلة لحساب بعض الدوال المخصصة للاستخدام مع اللغات التي تستخدم مجموعة الأحرف ذات البايتين (DBCS). |
+| [RecoverWorkbookFromChartCache](../../aspose.slides/spreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | إذا كان مصدر البيانات للمخطط مصنفًا خارجيًا وكان غير متوفر، فسيتم استعادته من مخزن المؤقت للمخطط. |
 
-### انظر أيضًا
+### انظر أيضاً
 
 * واجهة [ISpreadsheetOptions](../ispreadsheetoptions)
 * مساحة الاسم [Aspose.Slides](../../aspose.slides)

@@ -1,14 +1,14 @@
 ---
 title: WriteWorkbookStream
 second_title: Aspose.Sildes pro .NET API Reference
-description: Inicializuje interně obsažený sešit Excel s hodnotou zadanou uživatelem.
+description: Inicializuje interně obsažený sešit Excelu hodnotou zadanou uživatelem.
 type: docs
-weight: 150
+weight: 160
 url: /cs/aspose.slides.charts/ichartdata/writeworkbookstream/
 ---
 ## IChartData.WriteWorkbookStream metoda
 
-Inicializuje interně obsažený sešit Excel s hodnotou zadanou uživatelem.
+Inicializuje interně obsažený sešit Excelu s hodnotou zadanou uživatelem.
 
 ```csharp
 public void WriteWorkbookStream(MemoryStream ms)
@@ -16,7 +16,7 @@ public void WriteWorkbookStream(MemoryStream ms)
 
 | Parametr | Typ | Popis |
 | --- | --- | --- |
-| ms | MemoryStream | Uživatelem dodaný proud obsahující celý sešit Excel. |
+| ms | MemoryStream | Uživatelem dodaný proud obsahující celý sešit Excelu. |
 
 ### Viz také
 

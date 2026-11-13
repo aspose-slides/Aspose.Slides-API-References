@@ -1,9 +1,9 @@
 ---
 title: IDataLabelFormat
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: يمثل خيارات تنسيق لتسمية البيانات.
+description: يمثل خيارات التنسيق لتسمية البيانات.
 type: docs
-weight: 2040
+weight: 2060
 url: /ar/aspose.slides.charts/idatalabelformat/
 ---
 ## IDataLabelFormat واجهة
@@ -20,24 +20,24 @@ public interface IDataLabelFormat : IFormattedTextContainer
 | --- | --- |
 | [AsIFormattedTextContainer](../../aspose.slides.charts/idatalabelformat/asiformattedtextcontainer) { get; } | يسمح بالحصول على الواجهة الأساسية IFormattedTextContainer. للقراءة فقط [`IFormattedTextContainer`](../iformattedtextcontainer). |
 | [Format](../../aspose.slides.charts/idatalabelformat/format) { get; } | يمثل تنسيق تسمية البيانات. للقراءة فقط [`IFormat`](../iformat). |
-| [IsNumberFormatLinkedToSource](../../aspose.slides.charts/idatalabelformat/isnumberformatlinkedtosource) { get; set; } | قابل للقراءة والكتابة Boolean. |
-| [NumberFormat](../../aspose.slides.charts/idatalabelformat/numberformat) { get; set; } | يمثل سلسلة التنسيق لكائن DataLabels. قابل للقراءة والكتابة String. |
-| [Position](../../aspose.slides.charts/idatalabelformat/position) { get; set; } | يمثل موضع تسمية البيانات. قابل للقراءة والكتابة [`LegendDataLabelPosition`](../legenddatalabelposition). |
-| [Separator](../../aspose.slides.charts/idatalabelformat/separator) { get; set; } | يضبط أو يُرجع Variant يمثل الفاصل المستخدم لتسميات البيانات على المخطط. قابل للقراءة والكتابة String. |
-| [ShowBubbleSize](../../aspose.slides.charts/idatalabelformat/showbubblesize) { get; set; } | يمثل سلوك عرض قيمة حجم الفقاعة لتسمية البيانات في مخطط محدد. True يعرض قيمة حجم الفقاعة. False لإخفائها. قابل للقراءة والكتابة Boolean. |
-| [ShowCategoryName](../../aspose.slides.charts/idatalabelformat/showcategoryname) { get; set; } | يمثل سلوك عرض اسم الفئة لتسمية البيانات في مخطط محدد. True لعرض اسم الفئة لتسميات البيانات على المخطط. False لإخفائه. قابل للقراءة والكتابة Boolean. |
-| [ShowLabelAsDataCallout](../../aspose.slides.charts/idatalabelformat/showlabelasdatacallout) { get; set; } | يحدد ما إذا كانت تسمية البيانات في المخطط المحدد ستُعرض كإشارة بيانات أو كتسمية بيانات. إذا كان الوالد لهذا الكائن DataLabelFormat هو مجموعة DataLabelCollection من تسميات البيانات فإن هذه الخاصية تحصل أو تضبط القيمة الافتراضية لخاصية ShowLabelAsDataCallout للتسميات الجديدة في مجموعة DataLabelCollection. ضبط هذه الخاصية بالقيمة يضبط أيضًا هذه القيمة لخاصية ShowLabelAsDataCallout لجميع تسميات البيانات في مجموعة DataLabelCollection (مثال: "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" يؤدي إلى أن جميع DataLabels[i].ShowLabelAsDataCallout تساوي val). |
-| [ShowLabelValueFromCell](../../aspose.slides.charts/idatalabelformat/showlabelvaluefromcell) { get; set; } | يمثل سلوك عرض قيمة خلية تسمية البيانات في مخطط محدد. True يعرض قيمة الخلية. False لإخفائها. قابل للقراءة والكتابة Boolean. |
-| [ShowLeaderLines](../../aspose.slides.charts/idatalabelformat/showleaderlines) { get; set; } | يمثل سلوك عرض خطوط القائد لتسمية البيانات في مخطط محدد. True يعرض خطوط القائد. False لإخفائها. قابل للقراءة والكتابة Boolean. |
-| [ShowLegendKey](../../aspose.slides.charts/idatalabelformat/showlegendkey) { get; set; } | يمثل سلوك عرض مفتاح وسيلة الإيضاح لتسمية البيانات في مخطط محدد. True إذا كان مفتاح وسيلة الإيضاح مرئيًا. قابل للقراءة والكتابة Boolean. |
-| [ShowPercentage](../../aspose.slides.charts/idatalabelformat/showpercentage) { get; set; } | يمثل سلوك عرض قيمة النسبة المئوية لتسمية البيانات في مخطط محدد. True يعرض القيمة النسبية. False لإخفائها. قابل للقراءة والكتابة Boolean. |
-| [ShowSeriesName](../../aspose.slides.charts/idatalabelformat/showseriesname) { get; set; } | يعيد أو يضبط Boolean لتحديد سلوك عرض اسم السلسلة لتسميات البيانات على مخطط. True لإظهار اسم السلسلة. False لإخفائه. قابل للقراءة والكتابة Boolean. |
-| [ShowValue](../../aspose.slides.charts/idatalabelformat/showvalue) { get; set; } | يمثل سلوك عرض قيمة النسبة المئوية لتسمية البيانات في مخطط محدد. True يعرض القيمة النسبية. False لإخفائها. قابل للقراءة والكتابة Boolean. |
+| [IsNumberFormatLinkedToSource](../../aspose.slides.charts/idatalabelformat/isnumberformatlinkedtosource) { get; set; } | قراءة/كتابة Boolean. |
+| [NumberFormat](../../aspose.slides.charts/idatalabelformat/numberformat) { get; set; } | يمثل سلسلة التنسيق لكائن DataLabels. قراءة/كتابة String. |
+| [Position](../../aspose.slides.charts/idatalabelformat/position) { get; set; } | يمثل موضع تسمية البيانات. قراءة/كتابة [`LegendDataLabelPosition`](../legenddatalabelposition). |
+| [Separator](../../aspose.slides.charts/idatalabelformat/separator) { get; set; } | يضبط أو يرجع Variant يمثل الفاصل المستخدم لتسميات البيانات على المخطط. قراءة/كتابة String. |
+| [ShowBubbleSize](../../aspose.slides.charts/idatalabelformat/showbubblesize) { get; set; } | يمثل سلوك عرض قيمة حجم الفقاعات لتسمية البيانات في مخطط محدد. True يعرض قيمة حجم الفقاعات. False لإخفائها. قراءة/كتابة Boolean. |
+| [ShowCategoryName](../../aspose.slides.charts/idatalabelformat/showcategoryname) { get; set; } | يمثل سلوك عرض اسم الفئة لتسمية البيانات في مخطط محدد. True لعرض اسم الفئة لتسميات البيانات على المخطط. False للإخفاء. قراءة/كتابة Boolean. |
+| [ShowLabelAsDataCallout](../../aspose.slides.charts/idatalabelformat/showlabelasdatacallout) { get; set; } | يحدد ما إذا كانت تسمية البيانات في مخطط محدد ستُعرض كقائمة بيانات أو كتسمية بيانات. إذا كان أصل كائن DataLabelFormat هذا هو مجموعة DataLabelCollection من تسميات البيانات فإن هذه الخاصية تحصل أو تضبط القيمة الافتراضية لخاصية ShowLabelAsDataCallout للتسميات البيانات الجديدة في مجموعة DataLabelCollection. ضبط هذه الخاصية بالقيمة يضبط أيضًا هذه القيمة لخاصية ShowLabelAsDataCallout لجميع تسميات البيانات في مجموعة DataLabelCollection (مثال: "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" يؤدي إلى أن جميع DataLabels[i].ShowLabelAsDataCallout تساوي val). |
+| [ShowLabelValueFromCell](../../aspose.slides.charts/idatalabelformat/showlabelvaluefromcell) { get; set; } | يمثل سلوك عرض قيمة خلية تسمية البيانات في مخطط معين. True يعرض قيمة الخلية. False للإخفاء. قراءة/كتابة Boolean. |
+| [ShowLeaderLines](../../aspose.slides.charts/idatalabelformat/showleaderlines) { get; set; } | يمثل سلوك عرض خطوط القائد لتسمية البيانات في مخطط معين. True يعرض خطوط القائد. False للإخفاء. قراءة/كتابة Boolean. |
+| [ShowLegendKey](../../aspose.slides.charts/idatalabelformat/showlegendkey) { get; set; } | يمثل سلوك عرض مفتاح وسيلة إيضاح تسمية البيانات في مخطط معين. True إذا كان مفتاح وسيلة الإيضاح مرئيًا. قراءة/كتابة Boolean. |
+| [ShowPercentage](../../aspose.slides.charts/idatalabelformat/showpercentage) { get; set; } | يمثل سلوك عرض قيمة النسبة المئوية لتسمية البيانات في مخطط معين. True يعرض قيمة النسبة المئوية. False للإخفاء. قراءة/كتابة Boolean. |
+| [ShowSeriesName](../../aspose.slides.charts/idatalabelformat/showseriesname) { get; set; } | يرجع أو يضبط Boolean لتحديد سلوك عرض اسم السلسلة لتسميات البيانات على مخطط. True لعرض اسم السلسلة. False للإخفاء. قراءة/كتابة Boolean. |
+| [ShowValue](../../aspose.slides.charts/idatalabelformat/showvalue) { get; set; } | يمثل سلوك عرض قيمة النسبة المئوية لتسمية البيانات في مخطط معين. True يعرض قيمة النسبة المئوية. False للإخفاء. قراءة/كتابة Boolean. |
 
-### انظر أيضًا
+### أنظر أيضًا
 
 * واجهة [IFormattedTextContainer](../iformattedtextcontainer)
 * مساحة الاسم [Aspose.Slides.Charts](../../aspose.slides.charts)
-* التجميع [Aspose.Slides](../../)
+* تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

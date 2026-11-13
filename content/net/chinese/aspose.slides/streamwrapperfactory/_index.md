@@ -1,9 +1,9 @@
 ---
 title: StreamWrapperFactory
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: StreamWrappers 的工厂。用于 COM 接口。
 type: docs
-weight: 10760
+weight: 10780
 url: /zh/aspose.slides/streamwrapperfactory/
 ---
 ## StreamWrapperFactory 类
@@ -29,7 +29,7 @@ public class StreamWrapperFactory : IStreamWrapperFactory
 | [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | 创建 MemoryStream 包装器。 |
 | [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | 基于指定的字节数组创建 MemoryStream 包装器。 |
 
-### 另见
+### 参见
 
 * 接口 [IStreamWrapperFactory](../istreamwrapperfactory)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

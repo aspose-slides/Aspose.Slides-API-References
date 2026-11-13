@@ -3,7 +3,7 @@ title: ReplaceText
 second_title: Aspose.Sildes pro .NET API Reference
 description: Nahrazuje všechny výskyty zadaného textu jiným zadaným textem.
 type: docs
-weight: 130
+weight: 140
 url: /cs/aspose.slides/textframe/replacetext/
 ---
 ## TextFrame.ReplaceText metoda
@@ -18,7 +18,7 @@ public void ReplaceText(string oldText, string newText, ITextSearchOptions optio
 | Parametr | Typ | Popis |
 | --- | --- | --- |
 | oldText | String | Řetězec, který má být nahrazen. |
-| newText | String | Řetězec, který nahradí všechny výskyty oldText. |
+| newText | String | Řetězec, který nahrazuje všechny výskyty oldText. |
 | options | ITextSearchOptions | Možnosti vyhledávání textu [`ITextSearchOptions`](../../itextsearchoptions). |
 | callback | IFindResultCallback | Objekt zpětného volání pro uložení výsledku operace nahrazení [`IFindResultCallback`](../../ifindresultcallback). |
 
@@ -29,7 +29,7 @@ Následující ukázkový kód ukazuje, jak nahradit jeden specifikovaný řetě
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx")){
-	// Nahradit všechny samostatné výskyty 'the' řetězcem '***'
+	// Nahradí všechny samostatné výskyty 'the' řetězcem '***'
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.ReplaceText("the", "***", new TextSearchOptions()
 	{ WholeWordsOnly = true }, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);

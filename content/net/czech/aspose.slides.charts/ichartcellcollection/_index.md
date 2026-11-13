@@ -1,14 +1,14 @@
 ---
 title: IChartCellCollection
-second_title: Aspose.Sildes pro .NET – referenční příručka API
-description: Reprezentuje kolekci buněk s daty.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Představuje kolekci buněk s daty.
 type: docs
-weight: 1780
+weight: 1800
 url: /cs/aspose.slides.charts/ichartcellcollection/
 ---
 ## IChartCellCollection rozhraní
 
-Reprezentuje kolekci buněk s daty.
+Represents collection of a cells with data.
 
 ```csharp
 public interface IChartCellCollection : IEnumerable<IChartDataCell>
@@ -19,18 +19,18 @@ public interface IChartCellCollection : IEnumerable<IChartDataCell>
 | Název | Popis |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.charts/ichartcellcollection/asienumerable) { get; } | Vrací rozhraní ICollection. Pouze pro čtení IEnumerable. |
-| [Count](../../aspose.slides.charts/ichartcellcollection/count) { get; } | Získá počet buněk v kolekci. Pouze pro čtení Int32. |
+| [Count](../../aspose.slides.charts/ichartcellcollection/count) { get; } | Získá počet buněk ve sbírce. Pouze pro čtení Int32. |
 | [Item](../../aspose.slides.charts/ichartcellcollection/item) { get; } | Vrací buňku (IChartDataCell) podle indexu. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ichartcellcollection/add#add)(IChartDataCell) | Přidá novou buňku do kolekce. |
-| [Add](../../aspose.slides.charts/ichartcellcollection/add#add_1)(object) | Vytvoří [`IChartDataCell`](../ichartdatacell) ze zadané hodnoty a přidá jej do kolekce. |
-| [GetCellsAddress](../../aspose.slides.charts/ichartcellcollection/getcellsaddress)() | Vrací adresu sady buněk v sešitu. |
-| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | Řetězec spojený ze všech textových hodnot buněk. |
-| [RemoveAt](../../aspose.slides.charts/ichartcellcollection/removeat)(int) | Odstraní buňku z kolekce podle indexu. |
+| [Add](../../aspose.slides.charts/ichartcellcollection/add#add)(IChartDataCell) | Přidá novou buňku do sbírky. |
+| [Add](../../aspose.slides.charts/ichartcellcollection/add#add_1)(object) | Vytvoří [`IChartDataCell`](../ichartdatacell) ze zadané hodnoty a přidá jej do sbírky. |
+| [GetCellsAddress](../../aspose.slides.charts/ichartcellcollection/getcellsaddress)() | Vrací adresu sady buněk ve sešitu. |
+| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | Slučuje řetězec z hodnot všech buněk. |
+| [RemoveAt](../../aspose.slides.charts/ichartcellcollection/removeat)(int) | Odstraní buňku ze sbírky podle indexu. |
 
 ### Viz také
 

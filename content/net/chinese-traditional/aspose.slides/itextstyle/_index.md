@@ -3,7 +3,7 @@ title: ITextStyle
 second_title: Aspose.Sildes for .NET API 參考
 description: 文字樣式格式屬性。
 type: docs
-weight: 7310
+weight: 7330
 url: /zh-hant/aspose.slides/itextstyle/
 ---
 ## ITextStyle 介面

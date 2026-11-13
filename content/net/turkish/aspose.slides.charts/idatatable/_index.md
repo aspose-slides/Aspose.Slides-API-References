@@ -3,10 +3,10 @@ title: IDataTable
 second_title: Aspose.Sildes için .NET API Referansı
 description: Veri tablosu özelliklerini temsil eder.
 type: docs
-weight: 2060
+weight: 2080
 url: /tr/aspose.slides.charts/idatatable/
 ---
-## IDataTable arayüzü
+## IDataTable arayüz
 
 Veri tablosu özelliklerini temsil eder.
 
@@ -18,14 +18,14 @@ public interface IDataTable : IFormattedTextContainer
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/idatatable/asiformattedtextcontainer) { get; } | Temel IFormattedTextContainer arayüzünü almayı sağlar. Yalnızca okuma [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [Format](../../aspose.slides.charts/idatatable/format) { get; } | Bir nesnenin çizgi, dolgu ve efekt stillerini döndürür. Yalnızca okuma [`IFormat`](../iformat). |
-| [HasBorderHorizontal](../../aspose.slides.charts/idatatable/hasborderhorizontal) { get; set; } | Grafik veri tablosunun yatay hücre kenarlıkları varsa True. Okuma/yazma Boolean. |
-| [HasBorderOutline](../../aspose.slides.charts/idatatable/hasborderoutline) { get; set; } | Grafik veri tablosunun dış kenarlıkları varsa True. Okuma/yazma Boolean. |
-| [HasBorderVertical](../../aspose.slides.charts/idatatable/hasbordervertical) { get; set; } | Grafik veri tablosunun dikey hücre kenarlıkları varsa True. Okuma/yazma Boolean. |
-| [ShowLegendKey](../../aspose.slides.charts/idatatable/showlegendkey) { get; set; } | Veri etiketi lejand anahtarı görünürse True. Okuma/yazma Boolean. |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/idatatable/asiformattedtextcontainer) { get; } | Temel IFormattedTextContainer arayüzünü almayı sağlar. Salt okunur [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [Format](../../aspose.slides.charts/idatatable/format) { get; } | Nesnenin çizgi, dolgu ve efekt stillerini döndürür. Salt okunur [`IFormat`](../iformat). |
+| [HasBorderHorizontal](../../aspose.slides.charts/idatatable/hasborderhorizontal) { get; set; } | Grafik veri tablosunun yatay hücre kenarlıkları varsa doğru. Okunur/yazılır Boolean. |
+| [HasBorderOutline](../../aspose.slides.charts/idatatable/hasborderoutline) { get; set; } | Grafik veri tablosunun dış kenarlıkları varsa doğru. Okunur/yazılır Boolean. |
+| [HasBorderVertical](../../aspose.slides.charts/idatatable/hasbordervertical) { get; set; } | Grafik veri tablosunun dikey hücre kenarlıkları varsa doğru. Okunur/yazılır Boolean. |
+| [ShowLegendKey](../../aspose.slides.charts/idatatable/showlegendkey) { get; set; } | Veri etiketi açıklama anahtarı görünürse doğru. Okunur/yazılır Boolean. |
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
 * arayüz [IFormattedTextContainer](../iformattedtextcontainer)
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)

@@ -1,9 +1,9 @@
 ---
 title: ColorOperationCollection
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta una raccolta di operazioni di trasformazione del colore.
 type: docs
-weight: 2540
+weight: 2560
 url: /it/aspose.slides/coloroperationcollection/
 ---
 ## ColorOperationCollection classe
@@ -18,10 +18,10 @@ public sealed class ColorOperationCollection : IColorOperationCollection
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides/coloroperationcollection/count) { get; } | Restituisce il numero di operazioni nella raccolta. Sola lettura Int32. |
-| [IsSynchronized](../../aspose.slides/coloroperationcollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla raccolta è sincronizzato (thread-safe). Sola lettura Boolean. |
+| [Count](../../aspose.slides/coloroperationcollection/count) { get; } | Restituisce il numero di operazioni in una raccolta. Solo lettura Int32. |
+| [IsSynchronized](../../aspose.slides/coloroperationcollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla raccolta è sincronizzato (thread-safe). Solo lettura Boolean. |
 | [Item](../../aspose.slides/coloroperationcollection/item) { get; set; } | Restituisce o imposta l'operazione all'indice specificato. Lettura/scrittura [`ColorOperation`](../coloroperation). |
-| [SyncRoot](../../aspose.slides/coloroperationcollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Sola lettura Object. |
+| [SyncRoot](../../aspose.slides/coloroperationcollection/syncroot) { get; } | Restituisce la radice di sincronizzazione. Solo lettura Object. |
 
 ## Metodi
 
@@ -31,8 +31,8 @@ public sealed class ColorOperationCollection : IColorOperationCollection
 | [Add](../../aspose.slides/coloroperationcollection/add#add_1)(ColorTransformOperation, float) | Aggiunge una nuova operazione alla fine della raccolta. |
 | [Clear](../../aspose.slides/coloroperationcollection/clear)() | Rimuove tutte le operazioni di colore. |
 | [Clone](../../aspose.slides/coloroperationcollection/clone)() | Crea una copia di una raccolta ColorOperationCollection. |
-| [CloneT](../../aspose.slides/coloroperationcollection/clonet)() | Clona l'oggetto corrente |
-| [CopyTo](../../aspose.slides/coloroperationcollection/copyto)(Array, int) | Copia tutti gli elementi dalla raccolta all'array specificato. |
+| [CloneT](../../aspose.slides/coloroperationcollection/clonet)() | Clona l'oggetto corrente. |
+| [CopyTo](../../aspose.slides/coloroperationcollection/copyto)(Array, int) | Copia tutti gli elementi dalla raccolta nell'array specificato. |
 | [GetEnumerator](../../aspose.slides/coloroperationcollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la raccolta. |
 | [Insert](../../aspose.slides/coloroperationcollection/insert#insert)(int, ColorTransformOperation) | Inserisce la nuova operazione in una raccolta. |
 | [Insert](../../aspose.slides/coloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | Inserisce la nuova operazione in una raccolta. |

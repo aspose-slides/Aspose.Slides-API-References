@@ -1,14 +1,14 @@
 ---
 title: ResourceLoadingAction
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt den Modus für das Laden externer Ressourcen an.
+description: Gibt den Modus des Ladens externer Ressourcen an.
 type: docs
-weight: 9700
+weight: 9720
 url: /de/aspose.slides/resourceloadingaction/
 ---
 ## ResourceLoadingAction Aufzählung
 
-Gibt den Modus für das Laden externer Ressourcen an.
+Gibt den Modus des Ladens externer Ressourcen an.
 
 ```csharp
 public enum ResourceLoadingAction
@@ -18,7 +18,7 @@ public enum ResourceLoadingAction
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Default | `0` | Aspose.Slides lädt externe Ressourcen wie üblich. |
+| Default | `0` | Aspose.Slides lädt die externe Ressource wie üblich. |
 | Skip | `1` | Aspose.Slides überspringt das Laden externer Ressourcen. Für ein Bild wird nur ein Link ohne Daten gespeichert. |
 | UserProvided | `2` | Aspose.Slides verwendet das vom Benutzer in [`SetData`](../iresourceloadingargs/setdata) bereitgestellte Byte-Array als Bilddaten. |
 

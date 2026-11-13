@@ -1,14 +1,14 @@
 ---
 title: IChartTextFormat
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Los gráficos operan con un conjunto restringido de propiedades de formato de texto. Las interfaces IChartTextFormat IChartTextBlockFormat IChartParagraphFormat IChartPortionFormat describen este conjunto restringido.
+second_title: Aspose.Sildes para la referencia de la API de .NET
+description: Chart opera con un conjunto restringido de propiedades de formato de texto. IChartTextFormat IChartTextBlockFormat IChartParagraphFormat IChartPortionFormat interfaces describen este conjunto restringido.
 type: docs
-weight: 1990
+weight: 2010
 url: /es/aspose.slides.charts/icharttextformat/
 ---
 ## IChartTextFormat interfaz
 
-Los gráficos operan con un conjunto restringido de propiedades de formato de texto. Las interfaces IChartTextFormat, IChartTextBlockFormat, IChartParagraphFormat, IChartPortionFormat describen este conjunto restringido.
+Chart opera con un conjunto restringido de propiedades de formato de texto. IChartTextFormat, IChartTextBlockFormat, IChartParagraphFormat, IChartPortionFormat interfaces describen este conjunto restringido.
 
 ```csharp
 public interface IChartTextFormat
@@ -18,9 +18,9 @@ public interface IChartTextFormat
 
 | Nombre | Descripción |
 | --- | --- |
-| [ParagraphFormat](../../aspose.slides.charts/icharttextformat/paragraphformat) { get; } | Devuelve el formato de párrafo. Solo lectura [`IChartParagraphFormat`](../ichartparagraphformat). |
-| [PortionFormat](../../aspose.slides.charts/icharttextformat/portionformat) { get; } | Devuelve el formato de porción. Solo lectura [`IChartPortionFormat`](../ichartportionformat). |
-| [TextBlockFormat](../../aspose.slides.charts/icharttextformat/textblockformat) { get; } | Devuelve el formato de los elementos de texto del gráfico. Solo lectura [`IChartTextBlockFormat`](../icharttextblockformat). |
+| [ParagraphFormat](../../aspose.slides.charts/icharttextformat/paragraphformat) { get; } | Devuelve el formato de párrafo. Sólo lectura [`IChartParagraphFormat`](../ichartparagraphformat). |
+| [PortionFormat](../../aspose.slides.charts/icharttextformat/portionformat) { get; } | Devuelve el formato de porción. Sólo lectura [`IChartPortionFormat`](../ichartportionformat). |
+| [TextBlockFormat](../../aspose.slides.charts/icharttextformat/textblockformat) { get; } | Devuelve el formato para los elementos de texto del chart. Sólo lectura [`IChartTextBlockFormat`](../icharttextblockformat). |
 
 ## Métodos
 

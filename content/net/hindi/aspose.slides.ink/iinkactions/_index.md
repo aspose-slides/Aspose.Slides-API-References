@@ -1,14 +1,14 @@
 ---
 title: IInkActions
-second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
-description: स्लाइड पर एक स्याही ऑब्जेक्ट का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: एक स्लाइड पर इंक ऑब्जेक्ट का प्रतिनिधित्व करता है।
 type: docs
-weight: 7520
+weight: 7540
 url: /hi/aspose.slides.ink/iinkactions/
 ---
 ## IInkActions इंटरफ़ेस
 
-एक स्लाइड पर स्याही ऑब्जेक्ट का प्रतिनिधित्व करता है।
+एक स्लाइड पर इंक ऑब्जेक्ट का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IInkActions : IGraphicalObject
@@ -18,9 +18,9 @@ public interface IInkActions : IGraphicalObject
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides.ink/iinkactions/asigraphicalobject) { get; } | बेस IGraphicalObject इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [AsIGraphicalObject](../../aspose.slides.ink/iinkactions/asigraphicalobject) { get; } | आधार IGraphicalObject इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IGraphicalObject`](../../aspose.slides/igraphicalobject)। |
 
-### संबंधित देखें
+### और देखें
 
 * इंटरफ़ेस [IGraphicalObject](../../aspose.slides/igraphicalobject)
 * नेमस्पेस [Aspose.Slides.Ink](../../aspose.slides.ink)

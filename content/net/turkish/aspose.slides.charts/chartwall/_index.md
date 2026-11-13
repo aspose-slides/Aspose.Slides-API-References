@@ -1,9 +1,9 @@
 ---
 title: ChartWall
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: 3d grafiklerdeki duvarları temsil eder.
 type: docs
-weight: 1520
+weight: 1530
 url: /tr/aspose.slides.charts/chartwall/
 ---
 ## ChartWall sınıfı
@@ -22,11 +22,11 @@ public class ChartWall : DomObject<Chart>, IChartWall
 | [PictureType](../../aspose.slides.charts/chartwall/picturetype) { get; set; } | Resim türünü döndürür veya ayarlar. Okuma/yazma [`PictureType`](../picturetype). |
 | [Thickness](../../aspose.slides.charts/chartwall/thickness) { get; set; } | Duvar kalınlığını, çizim hacminin en büyük boyutunun yüzdesi olarak döndürür veya ayarlar. Okuma/yazma Int32. |
 
-### Ayrıca Bakınız
+### Diğer Bağlantılar
 
 * sınıf [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * sınıf [Chart](../chart)
-* arayüz [IChartWall](../ichartwall)
+* arabirim [IChartWall](../ichartwall)
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)
 * derleme [Aspose.Slides](../../)
 

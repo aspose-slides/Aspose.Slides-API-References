@@ -3,7 +3,7 @@ title: ImageTransformOperation
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 추상 이미지 변환 효과를 나타냅니다.
 type: docs
-weight: 3570
+weight: 3590
 url: /ko/aspose.slides.effects/imagetransformoperation/
 ---
 ## ImageTransformOperation 클래스
@@ -27,7 +27,7 @@ public abstract class ImageTransformOperation : PVIObject, IImageTransformOperat
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 지정된 객체와 비교합니다. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 해시 코드를 반환합니다. |
 
-### 참조
+### 또 보기
 
 * 클래스 [PVIObject](../../aspose.slides/pviobject)
 * 인터페이스 [IImageTransformOperation](../iimagetransformoperation)

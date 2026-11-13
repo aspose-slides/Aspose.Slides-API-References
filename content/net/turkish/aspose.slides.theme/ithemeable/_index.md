@@ -3,12 +3,12 @@ title: IThemeable
 second_title: Aspose.Sildes için .NET API Referansı
 description: ITheme./itheme ile temalanabilen nesneleri temsil eder.
 type: docs
-weight: 11400
+weight: 11420
 url: /tr/aspose.slides.theme/ithemeable/
 ---
 ## IThemeable arayüz
 
-Temalanabilen nesneleri temsil eder [`ITheme`](../itheme).
+[`ITheme`](../itheme) ile temalanabilen nesneleri temsil eder.
 
 ```csharp
 public interface IThemeable : ISlideComponent
@@ -16,15 +16,15 @@ public interface IThemeable : ISlideComponent
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
 | [AsISlideComponent](../../aspose.slides.theme/ithemeable/asislidecomponent) { get; } | ISlideComponent arayüzünü döndürür. Yalnızca okuma [`ISlideComponent`](../../aspose.slides/islidecomponent). |
 
 ## Yöntemler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [CreateThemeEffective](../../aspose.slides.theme/ithemeable/createthemeeffective)() | Bu temalanabilir nesne için etkili bir temayı döndürür. |
+| [CreateThemeEffective](../../aspose.slides.theme/ithemeable/createthemeeffective)() | Bu temalandırılabilir nesne için etkili bir temayı döndürür. |
 
 ### Ayrıca Bakınız
 

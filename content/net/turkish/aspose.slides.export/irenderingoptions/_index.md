@@ -1,14 +1,14 @@
 ---
 title: IRenderingOptions
-second_title: Aspose.Sildes for .NET API Referansı
-description: Sunum/slaytın nasıl işlendiğini kontrol eden seçenekler sağlar.
+second_title: Aspose.Sildes .NET için API Referansı
+description: Bir sunum/slaytın nasıl render edildiğini kontrol eden seçenekler sağlar.
 type: docs
-weight: 4040
+weight: 4060
 url: /tr/aspose.slides.export/irenderingoptions/
 ---
-## IRenderingOptions arayüz
+## IRenderingOptions arayüzü
 
-Sunum/slayt nasıl işleneceğini kontrol eden seçenekler sağlar.
+Sunum/slaytın nasıl render edildiğini kontrol eden seçenekler sağlar.
 
 ```csharp
 public interface IRenderingOptions : ISaveOptions
@@ -18,10 +18,10 @@ public interface IRenderingOptions : ISaveOptions
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/irenderingoptions/asisaveoptions) { get; } | ISaveOptions arabirimi döndürür. Salt okunur [`ISaveOptions`](../isaveoptions). |
-| [DisableFontLigatures](../../aspose.slides.export/irenderingoptions/disablefontligatures) { get; set; } | Metnin ligatürler kullanılmadan işlenip işlenmediğini belirten bir değeri alır veya ayarlar. `true` olarak ayarlandığında, işlenen çıktıda ligatürler devre dışı bırakılır. Varsayılan olarak, bu özellik `false` değerine sahiptir. |
-| [InkOptions](../../aspose.slides.export/irenderingoptions/inkoptions) { get; } | Dışa aktarılan belgede Ink nesnelerinin görünümünü kontrol eden seçenekler sağlar. Salt okunur [`IInkOptions`](../iinkoptions) |
-| [SlidesLayoutOptions](../../aspose.slides.export/irenderingoptions/slideslayoutoptions) { get; set; } | Sunum dışa aktarılırken slaytların sayfada yerleştirileceği modu alır veya ayarlar [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [AsISaveOptions](../../aspose.slides.export/irenderingoptions/asisaveoptions) { get; } | ISaveOptions arayüzünü döndürür. Yalnızca okuma [`ISaveOptions`](../isaveoptions). |
+| [DisableFontLigatures](../../aspose.slides.export/irenderingoptions/disablefontligatures) { get; set; } | Metnin ligatürler kullanılmadan render edilip edilmediğini gösteren bir değeri alır veya ayarlar. `true` olarak ayarlandığında, render çıktısında ligatürler devre dışı bırakılır. Varsayılan olarak, bu özellik `false` olarak ayarlanır. |
+| [InkOptions](../../aspose.slides.export/irenderingoptions/inkoptions) { get; } | Dışa aktarılan belgede Ink nesnelerinin görünümünü kontrol eden seçenekler sağlar. Yalnızca okuma [`IInkOptions`](../iinkoptions) |
+| [SlidesLayoutOptions](../../aspose.slides.export/irenderingoptions/slideslayoutoptions) { get; set; } | Sunum dışa aktarılırken slaytların sayfaya yerleştirildiği modu alır veya ayarlar [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### Örnekler
 

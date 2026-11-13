@@ -1,14 +1,14 @@
 ---
 title: LinkEmbedDecision
 second_title: Aspose.Sildes for .NET API 參考文件
-description: 決定物件在儲存過程中將如何被處理。
+description: 決定在儲存過程中如何處理物件。
 type: docs
-weight: 4230
+weight: 4250
 url: /zh-hant/aspose.slides.export/linkembeddecision/
 ---
 ## LinkEmbedDecision 列舉
 
-決定物件在儲存過程中將如何被處理。
+決定在儲存過程中如何處理物件。
 
 ```csharp
 public enum LinkEmbedDecision
@@ -16,13 +16,13 @@ public enum LinkEmbedDecision
 
 ### 值
 
-| 名稱 | 值 | 說明 |
+| 名稱 | 值 | 描述 |
 | --- | --- | --- |
-| Link | `0` | 物件將以外部方式儲存，通過 URL 進行引用 |
-| Embed | `1` | 如果可能，應將物件嵌入生成的檔案中。如果無法嵌入，將呼叫 GetUrl，根據結果，物件將透過 URL 被引用或被忽略。 |
+| Link | `0` | 物件會以外部方式儲存，透過 URL 參照 |
+| Embed | `1` | 如果可能，物件應嵌入產生的檔案。若無法嵌入，將呼叫 GetUrl，根據結果，物件將以 URL 參照或被忽略。 |
 | Ignore | `2` | 物件將被忽略。 |
 
-### 另請參閱
+### 參見
 
 * 命名空間 [Aspose.Slides.Export](../../aspose.slides.export)
 * 程序集 [Aspose.Slides](../../)

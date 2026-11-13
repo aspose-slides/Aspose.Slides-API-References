@@ -1,14 +1,14 @@
 ---
 title: IVideoFrame
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir slaytta video klibi temsil eder.
+description: Bir slayttaki video klibi temsil eder.
 type: docs
-weight: 7380
+weight: 7400
 url: /tr/aspose.slides/ivideoframe/
 ---
-## IVideoFrame arayüzü
+## IVideoFrame arayüz
 
-Bir slaytta video klibi temsil eder.
+Bir slayttaki video klibi temsil eder.
 
 ```csharp
 public interface IVideoFrame : IPictureFrame
@@ -18,18 +18,19 @@ public interface IVideoFrame : IPictureFrame
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | Temel IPictureFrame arayüzünü almaya izin verir. Salt okunur [`IPictureFrame`](../ipictureframe). |
-| [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | Ses çerçevesiyle ilişkili kapalı altyazıların koleksiyonunu alır. Bu özellik salt okunurdur ve tüm altyazı izlerini içeren bir [`ICaptionsCollection`](../icaptionscollection) döndürür. |
-| [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | Gömülü video nesnesini alır veya ayarlar. Okunur/yazılabilir [`IVideo`](../ivideo). |
-| [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | Videonun tam ekran modunda gösterilip gösterilmediğini belirler. Okunur/yazılabilir Boolean. |
-| [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | VideoFrame'in gizli olup olmadığını belirler. Okunur/yazılabilir Boolean. |
-| [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | VideoFrame'e bağlı video dosyasının adını alır veya ayarlar. Okunur/yazılabilir String. |
-| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | Videonun döngüde olup olmadığını belirler. Okunur/yazılabilir Boolean. |
-| [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | Video oynatma modunu alır veya ayarlar. Okunur/yazılabilir [`VideoPlayModePreset`](../videoplaymodepreset). |
-| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | Film oynatımı bittiğinde videonun otomatik olarak başa sarılıp sarılmayacağını belirler. Okunur/yazılabilir Boolean. |
-| [TrimFromEnd](../../aspose.slides/ivideoframe/trimfromend) { get; set; } | Bitiş kesimi [ms] |
-| [TrimFromStart](../../aspose.slides/ivideoframe/trimfromstart) { get; set; } | Başlangıç kesimi [ms] |
-| [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | Ses seviyesini alır veya ayarlar. Okunur/yazılabilir [`AudioVolumeMode`](../audiovolumemode). |
+| [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | Temel IPictureFrame arayüzünü almayı sağlar. Sadece okuma [`IPictureFrame`](../ipictureframe). |
+| [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | Ses çerçevesiyle ilişkili kapalı altyazıların koleksiyonunu alır. Bu özellik sadece okuma olup, tüm altyazı izlerini içeren bir [`ICaptionsCollection`](../icaptionscollection) döndürür. |
+| [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | Gömülü video nesnesini döndürür veya ayarlar. Okuma/yazma [`IVideo`](../ivideo). |
+| [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | Bir videonun tam ekran modunda gösterilip gösterilmediğini belirler. Okuma/yazma Boolean. |
+| [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | Bir VideoFrame'in gizli olup olmadığını belirler. Okuma/yazma Boolean. |
+| [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | Bir VideoFrame'e bağlanan video dosyasının adını döndürür veya ayarlar. Okuma/yazma String. |
+| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | Bir videonun döngüye alınıp alınmadığını belirler. Okuma/yazma Boolean. |
+| [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | Video oynatma modunu döndürür veya ayarlar. Okuma/yazma [`VideoPlayModePreset`](../videoplaymodepreset). |
+| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | Film oynatımı bittiğinde videonun otomatik olarak başa sarılıp sarılmayacağını belirler. Okuma/yazma Boolean. |
+| [TrimFromEnd](../../aspose.slides/ivideoframe/trimfromend) { get; set; } | Kesme sonu [ms] |
+| [TrimFromStart](../../aspose.slides/ivideoframe/trimfromstart) { get; set; } | Kesme başlangıcı [ms] |
+| [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | Ses seviyesini döndürür veya ayarlar. Okuma/yazma [`AudioVolumeMode`](../audiovolumemode). |
+| [VolumeValue](../../aspose.slides/ivideoframe/volumevalue) { get; set; } | Video ses seviyesini yüzde olarak döndürür veya ayarlar. Değer 0 ile 100 arasında yüzde olarak ifade edilir. Bu özelliği, [`Volume`](./volume) özelliği aracılığıyla mevcut önceden tanımlı seviyelerden daha kesin ses seviyesi değerlerini okumak veya ayarlamak için kullanın. Okuma/yazma Single. |
 
 ### Ayrıca Bakınız
 

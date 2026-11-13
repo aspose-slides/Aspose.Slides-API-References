@@ -1,14 +1,14 @@
 ---
 title: Conformance
-second_title: Aspose.Sildes .NET API referenciája
-description: Megadja, hogy a PresentationML dokumentum melyik megfelelőségi osztályhoz tartozik.
+second_title: Aspose.Sildes for .NET API referencia
+description: Megadja, hogy a PresentationML dokumentum melyik konformitási osztályhoz tartozik.
 type: docs
-weight: 3750
+weight: 3770
 url: /hu/aspose.slides.export/conformance/
 ---
-## Megfelelőségi felsorolás
+## Konformitási felsorolás
 
-Megadja, hogy a PresentationML dokumentum melyik megfelelőségi osztályhoz tartozik.
+Megadja, hogy a PresentationML dokumentum melyik konformitási osztályhoz tartozik.
 
 ```csharp
 public enum Conformance
@@ -19,8 +19,8 @@ public enum Conformance
 | Név | Érték | Leírás |
 | --- | --- | --- |
 | Ecma376_2006 | `0` | Megadja, hogy a dokumentum megfelel az ECMA376:2006 szabványnak. |
-| Iso29500_2008_Transitional | `1` | Megadja, hogy a dokumentum megfelel az ISO/IEC 29500:2008 Transitional megfelelőségi osztálynak. |
-| Iso29500_2008_Strict | `2` | Megadja, hogy a dokumentum megfelel az ISO/IEC 29500:2008 Strict megfelelőségi osztálynak. |
+| Iso29500_2008_Transitional | `1` | Megadja, hogy a dokumentum megfelel az ISO/IEC 29500:2008 Transitional konformitási osztálynak. |
+| Iso29500_2008_Strict | `2` | Megadja, hogy a dokumentum megfelel az ISO/IEC 29500:2008 Strict konformitási osztálynak. |
 
 ### Lásd még
 

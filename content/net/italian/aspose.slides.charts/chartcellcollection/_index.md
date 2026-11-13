@@ -1,14 +1,14 @@
 ---
 title: ChartCellCollection
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta una collezione di celle con dati.
+second_title: Aspose.Sildes per il riferimento API .NET
+description: Rappresenta una raccolta di celle con dati.
 type: docs
-weight: 1300
+weight: 1310
 url: /it/aspose.slides.charts/chartcellcollection/
 ---
 ## ChartCellCollection classe
 
-Rappresenta una collezione di celle con dati.
+Rappresenta una raccolta di celle con dati.
 
 ```csharp
 public class ChartCellCollection : IChartCellCollection
@@ -18,19 +18,19 @@ public class ChartCellCollection : IChartCellCollection
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartcellcollection/count) { get; } | Ottiene il conteggio delle celle nella collezione. Int32 di sola lettura. |
+| [Count](../../aspose.slides.charts/chartcellcollection/count) { get; } | Ottiene il conteggio delle celle nella raccolta. Solo lettura Int32. |
 | [Item](../../aspose.slides.charts/chartcellcollection/item) { get; } | Restituisce una cella (IChartDataCell) per indice. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.slides.charts/chartcellcollection/add#add)(IChartDataCell) | Aggiunge una nuova cella alla collezione. |
-| [Add](../../aspose.slides.charts/chartcellcollection/add#add_1)(object) | Crea [`ChartDataCell`](../chartdatacell) dal valore specificato e lo aggiunge alla collezione. |
-| [GetCellsAddress](../../aspose.slides.charts/chartcellcollection/getcellsaddress)() | Restituisce l'indirizzo del set di celle nella cartella di lavoro. |
-| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells)() | Stringa di concatenazione di tutti i valori stringa delle celle. |
-| [GetEnumerator](../../aspose.slides.charts/chartcellcollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la collezione. |
-| [RemoveAt](../../aspose.slides.charts/chartcellcollection/removeat)(int) | Rimuove una cella dalla collezione per indice. |
+| [Add](../../aspose.slides.charts/chartcellcollection/add#add)(IChartDataCell) | Aggiunge una nuova cella alla raccolta. |
+| [Add](../../aspose.slides.charts/chartcellcollection/add#add_1)(object) | Crea [`ChartDataCell`](../chartdatacell) dal valore specificato e lo aggiunge alla raccolta. |
+| [GetCellsAddress](../../aspose.slides.charts/chartcellcollection/getcellsaddress)() | Restituisce l'indirizzo del gruppo di celle nella cartella di lavoro. |
+| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells)() | Stringa di concatenazione da tutti i valori stringa delle celle. |
+| [GetEnumerator](../../aspose.slides.charts/chartcellcollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la raccolta. |
+| [RemoveAt](../../aspose.slides.charts/chartcellcollection/removeat)(int) | Rimuove una cella dalla raccolta per indice. |
 
 ### Vedi anche
 

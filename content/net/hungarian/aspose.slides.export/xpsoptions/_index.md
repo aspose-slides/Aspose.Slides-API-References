@@ -1,45 +1,45 @@
 ---
 title: XpsOptions
-second_title: Aspose.Sildes a .NET API Referenciához
-description: Opciókat biztosít, amelyek szabályozzák, hogyan kerül mentésre egy prezentáció XPS formátumban.
+second_title: Aspose.Sildes a .NET API hivatkozás
+description: Lehetőségeket biztosít, amelyek szabályozzák, hogy a prezentáció hogyan legyen elmentve XPS formátumban.
 type: docs
-weight: 4730
+weight: 4750
 url: /hu/aspose.slides.export/xpsoptions/
 ---
-## XpsOptions osztály
+## XpsOptions class
 
-Az opciókat biztosítja, amelyek szabályozzák, hogyan kerül mentésre egy prezentáció XPS formátumban.
+Lehetőségeket biztosít, amelyek szabályozzák, hogy a prezentáció hogyan legyen elmentve XPS formátumban.
 
 ```csharp
 public class XpsOptions : SaveOptions, IXpsOptions
 ```
 
-## Konstruktorok
+## Constructors
 
 | Név | Leírás |
 | --- | --- |
 | [XpsOptions](xpsoptions)() | Alapértelmezett konstruktor. |
 
-## Tulajdonságok
+## Properties
 
 | Név | Leírás |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Visszaadja vagy beállítja a betűtípust, amelyet akkor használnak, ha a forrásbetűtípus nem található. Olvasás-írás String. |
-| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | Igaz, ha fekete keretet kell rajzolni minden diára. Olvasás/írás Boolean. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Visszaadja vagy beállítja a színátmenet vizuális stílusát. Olvasás/írás [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Egy visszahívási objektumot képvisel a mentés előrehaladásának százalékos frissítéseihez. Lásd [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Visszaadja vagy beállítja a betűkészletet, ha a forrás betűkészlet nem található. Olvasás-írás String. |
+| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | Igaz, ha fekete keretet kell rajzolni minden dia köré. Olvasás/írás Boolean. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Visszaadja vagy beállítja a gradient vizuális stílusát. Olvasás/írás [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Egy visszahívási objektumot képvisel a mentési folyamat százalékos frissítéseihez. Lásd [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
 | [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | Igaz, ha a prezentációban használt összes metafájlt PNG képekké kell konvertálni. Olvasás/írás Boolean. |
-| [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | Megadja, hogy a generált dokumentum tartalmazzon-e rejtett diákat vagy sem. Alapértelmezett érték a `false`. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Megadja, hogy a prezentáció mentésekor kihagyja-e a JavaScript hívású hivatkozásokat. Olvasás/írás Boolean. Az alapértelmezett érték **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Visszaadja vagy beállítja azt az objektumot, amely figyelmeztetéseket kap, és eldönti, hogy a betöltési folyamat folytatódik-e vagy megszakad. Olvasás/írás [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | Megadja, hogy a generált dokumentum tartalmazza-e a rejtett diákat vagy sem. Alapértelmezett `false`. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Megadja, hogy a prezentáció mentésekor kihagyjuk-e a JavaScript hívásokat tartalmazó hiperhivatkozásokat. Olvasás/írás Boolean. Az alapértelmezett érték **false**. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Visszaadja vagy beállítja azt az objektumot, amely figyelmeztetéseket kap és eldönti, hogy a betöltési folyamat folytatódik-e vagy megszakad. Olvasás/írás [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
-### Példák
+### Examples
 
-A következő példa bemutatja, hogyan konvertálhatók a prezentációk XPS formátumba az alapértelmezett beállításokkal.
+Az alábbi példa bemutatja, hogyan lehet prezentációkat XPS formátumba konvertálni alapértelmezett beállításokkal.
 
 ```csharp
 [C#]
-// Egy Presentation objektum példányosítása, amely egy prezentációs fájlt képvisel
+// Példányosít egy Presentation objektumot, amely egy prezentációs fájlt képvisel
 using (Presentation pres = new Presentation("Convert_XPS.pptx"))
 {
     // A prezentáció mentése XPS dokumentumba
@@ -47,27 +47,27 @@ using (Presentation pres = new Presentation("Convert_XPS.pptx"))
 }
 ```
 
-A következő példa bemutatja, hogyan konvertálhatók a prezentációk XPS formátumba egyéni beállításokkal.
+Az alábbi példa bemutatja, hogyan lehet prezentációkat XPS formátumba konvertálni egyéni beállításokkal.
 
 ```csharp
 [C#]
-// Egy Presentation objektum példányosítása, amely egy prezentációs fájlt képvisel
+// Példányosít egy Presentation objektumot, amely egy prezentációs fájlt képvisel
 using (Presentation pres = new Presentation("Convert_XPS_Options.pptx"))
 {
-    // A TiffOptions osztály példányosítása
+    // Példányosítja a TiffOptions osztályt
     XpsOptions options = new XpsOptions();
-    // A MetaFiles mentése PNG formátumba
+    // Mentse a MetaFiles-okat PNG formátumban
     options.SaveMetafilesAsPng = true;
-    // A prezentáció mentése XPS dokumentumba
+    // Mentse a prezentációt XPS dokumentumba
     pres.Save("XPS_With_Options_out.xps", SaveFormat.Xps, options);
 }
 ```
 
-### Lásd még
+### See Also
 
 * osztály [SaveOptions](../saveoptions)
 * interfész [IXpsOptions](../ixpsoptions)
 * névtér [Aspose.Slides.Export](../../aspose.slides.export)
-* összeállítás [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

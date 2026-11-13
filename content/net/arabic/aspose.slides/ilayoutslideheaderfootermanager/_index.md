@@ -1,14 +1,14 @@
 ---
 title: ILayoutSlideHeaderFooterManager
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: يمثل المدير الذي يتحكم بسلوك عناصر نائبة تذييل شريحة التخطيط وتاريخ-الوقت ورقم الصفحة وجميع عناصر النائب الأطفال. تعني عناصر النائب الأطفال أن العناصر النائبة موجودة في الشرائح المعتمدة. تستخدم الشرائح المعتمدة وتَعتمد على شريحة التخطيط.
+description: يمثل المدير الذي يتحكم في سلوك عناصر نائب تذييل شريحة التخطيط وتاريخ ووقت ورقم الصفحة وجميع عناصر النائب الفرعية. تعني عناصر النائب الفرعية أن العناصر النائبة موجودة في الشرائح المعتمدة. تستخدم الشرائح المعتمدة وتعتمد على شريحة التخطيط.
 type: docs
-weight: 6240
+weight: 6260
 url: /ar/aspose.slides/ilayoutslideheaderfootermanager/
 ---
-## واجهة ILayoutSlideHeaderFooterManager
+## ILayoutSlideHeaderFooterManager واجهة
 
-يمثل المدير الذي يتحكم بسلوك عنصر نائبة تذييل شريحة التخطيط، وعناصر نائبة التاريخ والوقت، وعناصر نائبة رقم الصفحة، وجميع عناصر النائب الأطفال. تعني عناصر النائب الأطفال أن العناصر النائبة موجودة في الشرائح المعتمدة. تستخدم الشرائح المعتمدة وتعتمد على شريحة التخطيط.
+يمثل المدير الذي يتحكم في سلوك عناصر نائب تذييل شريحة التخطيط، وتاريخ ووقت، ورقم الصفحة وجميع عناصر النائب الفرعية. تعني عناصر النائب الفرعية أن العناصر النائبة موجودة في الشرائح المعتمدة. تستخدم الشرائح المعتمدة وتعتمد على شريحة التخطيط.
 
 ```csharp
 public interface ILayoutSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -18,22 +18,22 @@ public interface ILayoutSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/ilayoutslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | إرجاع واجهة IBaseSlideHeaderFooterManager. |
+| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/ilayoutslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | يرجع واجهة IBaseSlideHeaderFooterManager. |
 
-## الأساليب
+## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | يضبط النص لعنصر نائبة التاريخ والوقت في شريحة التخطيط وكل عناصر النائب للأطفال المتعلقة بالتاريخ والوقت. تعني عناصر النائب الأطفال أن العناصر النائبة موجودة في الشرائح المعتمدة. تستخدم الشرائح المعتمدة وت依赖 على شريحة التخطيط. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | يغيّر رؤية عنصر نائبة التاريخ والوقت في شريحة التخطيط وكل عناصر النائب للأطفال المتعلقة بالتاريخ والوقت. تعني عناصر النائب الأطفال أن العناصر النائبة موجودة في الشرائح المعتمدة. تستخدم الشرائح المعتمدة وت依赖 على شريحة التخطيط. |
-| [SetFooterAndChildFootersText](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | يضبط النص لعنصر نائبة تذييل شريحة التخطيط وكل عناصر النائب للأطفال المتعلقة بالتذييل. تعني عناصر النائب الأطفال أن العناصر النائبة موجودة في الشرائح المعتمدة. تستخدم الشرائح المعتمدة وت依赖 على شريحة التخطيط. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | يغيّر رؤية عنصر نائبة تذييل شريحة التخطيط وكل عناصر النائب للأطفال المتعلقة بالتذييل. تعني عناصر النائب الأطفال أن العناصر النائبة موجودة في الشرائح المعتمدة. تستخدم الشرائح المعتمدة وت依赖 على شريحة الرئيس. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | يغيّر رؤية عنصر نائبة رقم الصفحة في شريحة التخطيط وكل عناصر النائب للأطفال المتعلقة برقم الصفحة. تعني عناصر النائب الأطفال أن العناصر النائبة موجودة في الشرائح المعتمدة. تستخدم الشرائح المعتمدة وت依赖 على شريحة التخطيط. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | يضبط النص في عنصر نائب تاريخ ووقت شريحة التخطيط وجميع عناصر نائب تاريخ ووقت الطفل. عناصر النائب الفرعية تعني أن العناصر النائبة موجودة في الشرائح المعتمدة. تستخدم الشرائح المعتمدة وتعتمد على شريحة التخطيط. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | يغيّر ظهور عنصر نائب تاريخ ووقت شريحة التخطيط وجميع عناصر نائب تاريخ ووقت الطفل. عناصر النائب الفرعية تعني أن العناصر النائبة موجودة في الشرائح المعتمدة. تستخدم الشرائح المعتمدة وتعتمد على شريحة التخطيط. |
+| [SetFooterAndChildFootersText](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | يضبط النص في عنصر نائب تذييل شريحة التخطيط وجميع عناصر نائب التذييل الفرعية. عناصر النائب الفرعية تعني أن العناصر النائبة موجودة في الشرائح المعتمدة. تستخدم الشرائح المعتمدة وتعتمد على شريحة التخطيط. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | يغيّر ظهور عنصر نائب تذييل شريحة التخطيط وجميع عناصر نائب التذييل الفرعية. عناصر النائب الفرعية تعني أن العناصر النائبة موجودة في الشرائح المعتمدة. تستخدم الشرائح المعتمدة وتعتمد على شريحة الماستر. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | يغيّر ظهور عنصر نائب رقم الصفحة شريحة التخطيط وجميع عناصر نائب رقم الصفحة الفرعية. عناصر النائب الفرعية تعني أن العناصر النائبة موجودة في الشرائح المعتمدة. تستخدم الشرائح المعتمدة وتعتمد على شريحة التخطيط. |
 
-### راجع أيضاً
+### انظر أيضًا
 
 * واجهة [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
-* نطاق [Aspose.Slides](../../aspose.slides)
-* تجميع [Aspose.Slides](../../)
+* مساحة الاسم [Aspose.Slides](../../aspose.slides)
+* التجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

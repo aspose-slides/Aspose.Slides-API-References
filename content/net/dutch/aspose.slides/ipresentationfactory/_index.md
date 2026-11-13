@@ -1,14 +1,14 @@
 ---
 title: IPresentationFactory
-second_title: Aspose.Sildes voor .NET API-referentie
-description: Staat toe om een presentatie te maken via een COM interface
+second_title: Aspose.Sildes voor .NET API Referentie
+description: Staat toe een presentatie te maken via COM-interface
 type: docs
-weight: 6770
+weight: 6790
 url: /nl/aspose.slides/ipresentationfactory/
 ---
 ## IPresentationFactory interface
 
-Staat toe om een presentatie te maken via een COM interface
+Staat toe een presentatie te maken via COM-interface
 
 ```csharp
 public interface IPresentationFactory
@@ -22,9 +22,9 @@ public interface IPresentationFactory
 | [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Maakt een nieuwe presentatie met extra laadopties |
 | [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Haalt informatie over de presentatie op in de opgegeven stream. |
 | [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Haalt informatie over de presentatie op in het opgegeven bestand. |
-| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Haal de ruwe tekst op van de dia's |
-| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Haal de ruwe tekst op van de dia's |
-| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Haal de ruwe tekst op van de dia's |
+| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Haalt de ruwe tekst van de dia's op |
+| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Haalt de ruwe tekst van de dia's op |
+| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Haalt de ruwe tekst van de dia's op |
 | [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation)(byte[]) | Leest een bestaande presentatie uit een array |
 | [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_2)(Stream) | Leest een bestaande presentatie uit een stream |
 | [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_4)(string) | Leest een bestaande presentatie uit een bestand |

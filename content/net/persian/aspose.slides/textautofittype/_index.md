@@ -1,14 +1,14 @@
 ---
 title: TextAutofitType
-second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایانگر حالت خودتنظیم متن است.
+second_title: مرجع API Aspose.Sildes برای .NET
+description: نمایش می‌دهد حالت خودتنظیم متن.
 type: docs
-weight: 10920
+weight: 10940
 url: /fa/aspose.slides/textautofittype/
 ---
 ## TextAutofitType شمارش
 
-نمایانگر حالت خودتنظیم متن است.
+نمایش می‌دهد حالت خودتنظیم متن.
 
 ```csharp
 public enum TextAutofitType : sbyte
@@ -18,9 +18,9 @@ public enum TextAutofitType : sbyte
 
 | نام | مقدار | توضیح |
 | --- | --- | --- |
-| NotDefined | `-1` | تعریف نشده است. |
-| None | `0` | عدم خودتنظیم. |
-| Normal | `1` | خودتنظیم معمولی. اندازه فونت و فاصله خطوط برای متناسب شدن با شکل کاهش می‌یابد. |
+| NotDefined | `-1` | تعریف نشده. |
+| None | `0` | بدون خودتنظیم. |
+| Normal | `1` | خودتنظیم معمولی. اندازه قلم و فاصله خطوط برای متناسب شدن با شکل کاهش خواهد یافت. |
 | Shape | `2` | خودتنظیم شکل. اندازه شکل برای متناسب شدن با متن تغییر خواهد کرد. |
 
 ### موارد مرتبط

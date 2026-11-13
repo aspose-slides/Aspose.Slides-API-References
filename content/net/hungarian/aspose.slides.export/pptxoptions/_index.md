@@ -1,14 +1,14 @@
 ---
 title: PptxOptions
-second_title: Aspose.Sildes a .NET API Referenciához
+second_title: Aspose.Sildes .NET API referencia
 description: Az OpenXml prezentációk (PPTX, PPSX, POTX, PPTM, PPSM, POTM) mentésének beállításait képviseli.
 type: docs
-weight: 4370
+weight: 4390
 url: /hu/aspose.slides.export/pptxoptions/
 ---
 ## PptxOptions osztály
 
-A OpenXml prezentációk (PPTX, PPSX, POTX, PPTM, PPSM, POTM) mentésének beállításait képviseli.
+Az OpenXml prezentációk (PPTX, PPSX, POTX, PPTM, PPSM, POTM) mentésének beállításait képviseli.
 
 ```csharp
 public sealed class PptxOptions : SaveOptions, IPptxOptions
@@ -24,15 +24,15 @@ public sealed class PptxOptions : SaveOptions, IPptxOptions
 
 | Név | Leírás |
 | --- | --- |
-| [CompressionLevel](../../aspose.slides.export/pptxoptions/compressionlevel) { get; set; } | Meghatározza a prezentációdokumentum mentésekor használt tömörítési szintet. Az alapértelmezett érték a Level6. |
-| [Conformance](../../aspose.slides.export/pptxoptions/conformance) { get; set; } | Meghatározza a konformitási osztályt, amelynek a prezentációdokumentum megfelel. Az alapértelmezett érték az Ecma376_2006. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Visszaadja vagy beállítja azt a betűtípust, amelyet akkor használunk, ha a forrásbetűtípus nem található. Olvasás-írás String. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Visszaadja vagy beállítja a gradiens vizuális stílusát. Olvasás/írás [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Képviseli a mentési folyamat százalékos előrehaladásának visszahívási objektumát. Lásd [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [RefreshThumbnail](../../aspose.slides.export/pptxoptions/refreshthumbnail) { get; set; } | Meghatározza, hogy a prezentáció miniatűrje frissítve legyen-e. Olvasás/írás Boolean. Az alapértelmezett érték **true**. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Meghatározza, hogy a mentés során a JavaScript hívásokat tartalmazó hiperhivatkozásokat kihagyja-e a prezentáció. Olvasás/írás Boolean. Az alapértelmezett érték **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Visszaadja vagy beállítja azt az objektumot, amely figyelmeztetéseket kap, és eldönti, hogy a betöltési folyamat folytatódjon-e vagy megszakadjon. Olvasás/írás [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
-| [Zip64Mode](../../aspose.slides.export/pptxoptions/zip64mode) { get; set; } | Meghatározza, hogy a prezentációdokumentumban a ZIP64 formátum használatos-e. Az alapértelmezett érték IfNecessary. |
+| [CompressionLevel](../../aspose.slides.export/pptxoptions/compressionlevel) { get; set; } | Megadja a prezentáció dokumentum mentésekor használt tömörítési szintet. Alapértelmezett érték a Level6. |
+| [Conformance](../../aspose.slides.export/pptxoptions/conformance) { get; set; } | Megadja azt a megfelelőségi osztályt, amelyhez a Presentation dokumentum tartozik. Alapértelmezett érték az Ecma376_2006. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Visszaadja vagy beállítja a forrás betűtípus hiányában használt betűtípust. Olvasás-írás String. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Visszaadja vagy beállítja a gradiens vizuális stílusát. Olvasás-írás [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Egy visszahívási objektumot képvisel a mentés előrehaladásának százalékos frissítéséhez. Lásd [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [RefreshThumbnail](../../aspose.slides.export/pptxoptions/refreshthumbnail) { get; set; } | Megadja, hogy a prezentáció bélyegképét frissíteni kell-e. Olvasás-írás Boolean. Alapértelmezett érték **true**. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Megadja, hogy a prezentáció mentésekor kihagyja-e a JavaScript hívásokat tartalmazó hivatkozásokat. Olvasás-írás Boolean. Alapértelmezett érték **false**. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Visszaadja vagy beállítja azt az objektumot, amely figyelmeztetéseket kap, és eldönti, hogy a betöltési folyamat folytatódik-e vagy megszakad. Olvasás-írás [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [Zip64Mode](../../aspose.slides.export/pptxoptions/zip64mode) { get; set; } | Megadja, hogy a Presentation dokumentumhoz ZIP64 formátumot használjon-e. Alapértelmezett érték IfNecessary. |
 
 ### Lásd még
 

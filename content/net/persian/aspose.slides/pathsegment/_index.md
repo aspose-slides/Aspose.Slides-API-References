@@ -1,25 +1,25 @@
 ---
 title: PathSegment
-second_title: Aspose.Sildes برای مرجع API .NET
-description: نمایش بخش از مسیر گرافیکی GeometryShape
+second_title: Aspose.Sildes برای .NET مرجع API
+description: نمایانگر بخش مسیر گرافیکی GeometryShape
 type: docs
-weight: 9340
+weight: 9360
 url: /fa/aspose.slides/pathsegment/
 ---
 ## PathSegment کلاس
 
-نمایش می‌دهد بخش از مسیر گرافیکی GeometryShape
+نمایانگر بخش مسیر گرافیکی GeometryShape
 
 ```csharp
 public sealed class PathSegment : IPathSegment
 ```
 
-## ویژگی‌ها
+## خواص
 
 | نام | توضیح |
 | --- | --- |
-| [PathCommand](../../aspose.slides/pathsegment/pathcommand) { get; } | نوع Path بخش |
-| [SegmentData](../../aspose.slides/pathsegment/segmentdata) { get; } | داده Path بخش |
+| [PathCommand](../../aspose.slides/pathsegment/pathcommand) { get; } | نوع مسیر بخش |
+| [SegmentData](../../aspose.slides/pathsegment/segmentdata) { get; } | دادهٔ مسیر بخش |
 
 ### موارد مرتبط
 

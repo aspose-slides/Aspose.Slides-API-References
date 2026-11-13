@@ -3,7 +3,7 @@ title: IDataLabel
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 시리즈 레이블을 나타냅니다.
 type: docs
-weight: 2020
+weight: 2040
 url: /ko/aspose.slides.charts/idatalabel/
 ---
 ## IDataLabel 인터페이스
@@ -22,8 +22,9 @@ public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
 | [AsILayoutable](../../aspose.slides.charts/idatalabel/asilayoutable) { get; } | ILayoutable 인터페이스를 반환합니다. 읽기 전용 [`ILayoutable`](../ilayoutable). |
 | [AsIOverridableText](../../aspose.slides.charts/idatalabel/asioverridabletext) { get; } | IOverridableText 인터페이스를 반환합니다. 읽기 전용 [`IOverridableText`](../ioverridabletext). |
 | [DataLabelFormat](../../aspose.slides.charts/idatalabel/datalabelformat) { get; } | 데이터 레이블의 형식을 반환합니다. 읽기 전용 [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | False는 데이터 레이블이 보이지 않음을 의미합니다(따라서 모든 Show*-플래그(ShowValue 등)가 false가 됩니다). 읽기 전용 Boolean. |
-| [ValueFromCell](../../aspose.slides.charts/idatalabel/valuefromcell) { get; set; } | 워크북 데이터 셀을 가져오거나 설정합니다. IDataLabelFormat.ShowLabelValueFromCell 속성이 true인 경우에 적용됩니다. |
+| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | False는 데이터 레이블이 보이지 않음을 의미합니다(따라서 모든 Show*-플래그(ShowValue, ...)가 false가 됩니다). 읽기 전용 Boolean. |
+| [LabelShapeType](../../aspose.slides.charts/idatalabel/labelshapetype) { get; set; } | 데이터 레이블의 모양 유형을 가져오거나 설정합니다. 모양이 정의되지 않은 경우 NotDefined를 반환합니다. |
+| [ValueFromCell](../../aspose.slides.charts/idatalabel/valuefromcell) { get; set; } | 워크북 데이터 셀을 가져오거나 설정합니다. IDataLabelFormat.ShowLabelValueFromCell 속성이 true인 경우 적용됩니다. |
 
 ## 메서드
 

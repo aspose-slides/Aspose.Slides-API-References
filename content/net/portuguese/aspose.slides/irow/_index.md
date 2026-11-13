@@ -1,12 +1,12 @@
 ---
 title: IRow
-second_title: Aspose.Sildes for .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa uma linha em uma tabela.
 type: docs
-weight: 6850
+weight: 6870
 url: /pt/aspose.slides/irow/
 ---
-## Interface IRow
+## IRow interface
 
 Representa uma linha em uma tabela.
 
@@ -21,10 +21,10 @@ public interface IRow : IBulkTextFormattable, ICellCollection
 | [AsIBulkTextFormattable](../../aspose.slides/irow/asibulktextformattable) { get; } | Permite obter a interface base IBulkTextFormattable. Somente leitura [`IBulkTextFormattable`](../ibulktextformattable). |
 | [AsICellCollection](../../aspose.slides/irow/asicellcollection) { get; } | Permite obter a interface base ICellCollection. Somente leitura [`ICellCollection`](../icellcollection). |
 | [Height](../../aspose.slides/irow/height) { get; } | Retorna a altura de uma linha. Somente leitura Double. |
-| [MinimalHeight](../../aspose.slides/irow/minimalheight) { get; set; } | Retorna ou define a altura mínima possível de uma linha. Leitura/gravação Double. |
+| [MinimalHeight](../../aspose.slides/irow/minimalheight) { get; set; } | Retorna ou define a altura mínima possível de uma linha. Leitura/Gravação Double. |
 | [RowFormat](../../aspose.slides/irow/rowformat) { get; } | Retorna o objeto RowFormat que contém propriedades de formatação para esta linha. Somente leitura [`IRowFormat`](../irowformat). |
 
-### Ver também
+### Veja também
 
 * interface [IBulkTextFormattable](../ibulktextformattable)
 * interface [ICellCollection](../icellcollection)

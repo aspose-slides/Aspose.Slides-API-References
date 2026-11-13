@@ -1,14 +1,14 @@
 ---
 title: Value
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Aspose.Sildes cho Tham chiếu API .NET
 description: Nếu UseCell là true thì thuộc tính này đại diện cho thuộc tính AsCell.Value. Nếu UseCell là false thì thuộc tính này đại diện cho thuộc tính AsLiteral. Đọc/ghi Object.
 type: docs
-weight: 50
+weight: 60
 url: /vi/aspose.slides.charts/chartcategory/value/
 ---
-## Thuộc tính ChartCategory.Value
+## ChartCategory.Value thuộc tính
 
-Nếu UseCell là true thì thuộc tính này đại diện cho thuộc tính AsCell.Value. Nếu UseCell là false thì thuộc tính này đại diện cho thuộc tính AsLiteral. Đọc/ghi Object.
+If UseCell is true then this property represents AsCell.Value property. If UseCell is false then this property represents AsLiteral property. Đọc/ghi Object.
 
 ```csharp
 public object Value { get; set; }

@@ -3,7 +3,7 @@ title: SlidesRange
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Diareeks
 type: docs
-weight: 10530
+weight: 10550
 url: /nl/aspose.slides/slidesrange/
 ---
 ## SlidesRange klasse
@@ -16,13 +16,13 @@ public class SlidesRange
 
 ## Constructors
 
-| Naam | Beschrijving |
+| Naam | Omschrijving |
 | --- | --- |
 | [SlidesRange](slidesrange)() | De standaardconstructor. |
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Naam | Omschrijving |
 | --- | --- |
 | [End](../../aspose.slides/slidesrange/end) { get; set; } | Einde |
 | [Start](../../aspose.slides/slidesrange/start) { get; set; } | Begin |

@@ -1,14 +1,14 @@
 ---
 title: DrawingGuide
-second_title: Aspose.Sildes pro .NET – referenční příručka API
-description: Představuje nastavitelnou kreslicí vodící čáru.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Představuje nastavitelný kreslicí vodítko.
 type: docs
-weight: 2810
+weight: 2830
 url: /cs/aspose.slides/drawingguide/
 ---
 ## DrawingGuide třída
 
-Představuje nastavitelnou kreslicí vodící čáru.
+Představuje nastavitelný kreslicí vodítko.
 
 ```csharp
 public sealed class DrawingGuide : IDrawingGuide
@@ -18,9 +18,9 @@ public sealed class DrawingGuide : IDrawingGuide
 
 | Název | Popis |
 | --- | --- |
-| [Color](../../aspose.slides/drawingguide/color) { get; set; } | Vrací nebo nastavuje barvu kreslicí vodící čáry. Čtení/zápis Color. |
-| [Orientation](../../aspose.slides/drawingguide/orientation) { get; set; } | Vrací nebo nastavuje orientaci kreslicí vodící čáry. Čtení/zápis [`Orientation`](../orientation). |
-| [Position](../../aspose.slides/drawingguide/position) { get; set; } | Vrací nebo nastavuje pozici kreslicí vodící čáry v bodech od levého horního rohu snímku. Čtení/zápis Single. |
+| [Color](../../aspose.slides/drawingguide/color) { get; set; } | Vrací nebo nastavuje barvu kreslicího vodítka. Čtení/zápis Color. |
+| [Orientation](../../aspose.slides/drawingguide/orientation) { get; set; } | Vrací nebo nastavuje orientaci kreslicího vodítka. Čtení/zápis [`Orientation`](../orientation). |
+| [Position](../../aspose.slides/drawingguide/position) { get; set; } | Vrací nebo nastavuje pozici kreslicího vodítka v bodech od horního levého rohu snímku. Čtení/zápis Single. |
 
 ### Viz také
 

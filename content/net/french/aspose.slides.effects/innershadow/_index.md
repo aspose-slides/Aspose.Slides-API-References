@@ -1,14 +1,14 @@
 ---
 title: InnerShadow
-second_title: Aspose.Sildes pour la référence API .NET
-description: Représente un effet Inner Shadow.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Représente un effet d'ombre interne.
 type: docs
-weight: 3600
+weight: 3620
 url: /fr/aspose.slides.effects/innershadow/
 ---
 ## InnerShadow classe
 
-Représente un effet Inner Shadow.
+Représente un effet d'ombre interne.
 
 ```csharp
 public sealed class InnerShadow : IInnerShadow
@@ -16,7 +16,7 @@ public sealed class InnerShadow : IInnerShadow
 
 ## Propriétés
 
-| Name | Description |
+| Nom | Description |
 | --- | --- |
 | [BlurRadius](../../aspose.slides.effects/innershadow/blurradius) { get; set; } | Rayon de flou. Lecture/écriture Double. |
 | [Direction](../../aspose.slides.effects/innershadow/direction) { get; set; } | Direction de l'ombre. Lecture/écriture Single. |
@@ -25,13 +25,13 @@ public sealed class InnerShadow : IInnerShadow
 
 ## Méthodes
 
-| Name | Description |
+| Nom | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/innershadow/equals)(object) | Détermine si le [`InnerShadow`](../innershadow) spécifié est égal au [`InnerShadow`](../innershadow) actuel. |
-| [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | Obtient les données d'effet Inner Shadow effectives avec l'héritage appliqué. |
-| override [GetHashCode](../../aspose.slides.effects/innershadow/gethashcode)() | Sert de fonction de hachage pour un type particulier. |
+| [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | Obtient les données effectives de l'effet d'ombre interne avec l'héritage appliqué. |
+| override [GetHashCode](../../aspose.slides.effects/innershadow/gethashcode)() | Fonctionne comme une fonction de hachage pour un type particulier. |
 
-### Voir également
+### Voir aussi
 
 * interface [IInnerShadow](../iinnershadow)
 * espace de noms [Aspose.Slides.Effects](../../aspose.slides.effects)

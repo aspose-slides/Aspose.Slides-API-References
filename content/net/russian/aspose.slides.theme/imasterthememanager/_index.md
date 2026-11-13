@@ -1,14 +1,14 @@
 ---
 title: IMasterThemeManager
-second_title: Aspose.Sildes для .NET справочник API
-description: Обеспечивает доступ к главной теме презентации.
+second_title: Aspose.Sildes для .NET справка API
+description: Обеспечивает доступ к основной теме презентации.
 type: docs
-weight: 11320
+weight: 11340
 url: /ru/aspose.slides.theme/imasterthememanager/
 ---
 ## IMasterThemeManager интерфейс
 
-Предоставляет доступ к главной теме презентации.
+Обеспечивает доступ к основной теме презентации.
 
 ```csharp
 public interface IMasterThemeManager : IThemeManager
@@ -22,7 +22,7 @@ public interface IMasterThemeManager : IThemeManager
 | [IsOverrideThemeEnabled](../../aspose.slides.theme/imasterthememanager/isoverridethemeenabled) { get; set; } | Определяет, переопределяет ли OverrideTheme унаследованную эффективную тему (Presentation.MasterTheme) или нет. Чтение/запись Boolean. |
 | [OverrideTheme](../../aspose.slides.theme/imasterthememanager/overridetheme) { get; set; } | Возвращает объект переопределяющей темы. Чтение/запись [`IMasterTheme`](../imastertheme). |
 
-### Смотрите также
+### См. также
 
 * интерфейс [IThemeManager](../ithememanager)
 * пространство имён [Aspose.Slides.Theme](../../aspose.slides.theme)

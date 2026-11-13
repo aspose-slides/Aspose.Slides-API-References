@@ -1,14 +1,14 @@
 ---
 title: ILineFormatEffectiveData
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αμετάβλητο αντικείμενο που περιέχει αποτελεσματικά χαρακτηριστικά μορφοποίησης γραμμής.
+description: Αμετάβλητο αντικείμενο που περιέχει τις αποτελεσματικές ιδιότητες μορφοποίησης γραμμής.
 type: docs
-weight: 6320
+weight: 6340
 url: /el/aspose.slides/ilineformateffectivedata/
 ---
 ## ILineFormatEffectiveData διεπαφή
 
-Αμετάβλητο αντικείμενο που περιέχει αποτελεσματικά χαρακτηριστικά μορφοποίησης γραμμής.
+Αμετάβλητο αντικείμενο που περιέχει τις αποτελεσματικές ιδιότητες μορφοποίησης γραμμής.
 
 ```csharp
 public interface ILineFormatEffectiveData : ILineParamSource
@@ -19,37 +19,37 @@ public interface ILineFormatEffectiveData : ILineParamSource
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [Alignment](../../aspose.slides/ilineformateffectivedata/alignment) { get; } | Επιστρέφει την ευθυγράμμιση της γραμμής. Μόνο για ανάγνωση [`LineAlignment`](../linealignment). |
-| [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής ILineParamSource. Μόνο για ανάγνωση [`ILineParamSource`](../ilineparamsource). |
+| [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | Επιτρέπει την πρόσβαση στη βάση της διεπαφής ILineParamSource. Μόνο για ανάγνωση [`ILineParamSource`](../ilineparamsource). |
 | [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | Επιστρέφει το μήκος της κεφαλής βέλους στην αρχή μιας γραμμής. Μόνο για ανάγνωση [`LineArrowheadLength`](../linearrowheadlength). |
 | [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | Επιστρέφει το στυλ της κεφαλής βέλους στην αρχή μιας γραμμής. Μόνο για ανάγνωση [`LineArrowheadStyle`](../linearrowheadstyle). |
 | [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | Επιστρέφει το πλάτος της κεφαλής βέλους στην αρχή μιας γραμμής. Μόνο για ανάγνωση [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | Επιστρέφει το στυλ άκρης γραμμής. Μόνο για ανάγνωση [`LineCapStyle`](../linecapstyle). |
-| [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | Επιστρέφει το προσαρμοσμένο μοτίβο παύλας. Μόνο για ανάγνωση Single[]. |
-| [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | Επιστρέφει το στυλ παύλας γραμμής. Μόνο για ανάγνωση [`LineDashStyle`](../linedashstyle). |
+| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | Επιστρέφει το στυλ άκρου γραμμής. Μόνο για ανάγνωση [`LineCapStyle`](../linecapstyle). |
+| [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | Επιστρέφει το προσαρμοσμένο μοτίβο παύσης. Μόνο για ανάγνωση Single[]. |
+| [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | Επιστρέφει το στυλ παύσης γραμμής. Μόνο για ανάγνωση [`LineDashStyle`](../linedashstyle). |
 | [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | Επιστρέφει το μήκος της κεφαλής βέλους στο τέλος μιας γραμμής. Μόνο για ανάγνωση [`LineArrowheadLength`](../linearrowheadlength). |
 | [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | Επιστρέφει το στυλ της κεφαλής βέλους στο τέλος μιας γραμμής. Μόνο για ανάγνωση [`LineArrowheadStyle`](../linearrowheadstyle). |
 | [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | Επιστρέφει το πλάτος της κεφαλής βέλους στο τέλος μιας γραμμής. Μόνο για ανάγνωση [`LineArrowheadWidth`](../linearrowheadwidth). |
 | [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | Επιστρέφει τη μορφή γεμίσματος μιας γραμμής. Μόνο για ανάγνωση [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata). |
 | [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | Επιστρέφει το στυλ ένωσης γραμμών. Μόνο για ανάγνωση [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | Επιστρέφει το όριο μύτης μιας γραμμής. Μόνο για ανάγνωση Single. |
+| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | Επιστρέφει το όριο μιτέρ μιας γραμμής. Μόνο για ανάγνωση Single. |
 | [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | Επιστρέφει τη μορφή σκίτσου μιας γραμμής. Μόνο για ανάγνωση [`ISketchFormatEffectiveData`](../isketchformateffectivedata). |
-| [Style](../../aspose.slides/ilineformateffectivedata/style) { get; } | Επιστρέφει το στυλ της γραμμής. Μόνο για ανάγνωση [`LineStyle`](../linestyle). |
+| [Style](../../aspose.slides/ilineformateffectivedata/style) { get; } | Επιστρέφει το στυλ γραμμής. Μόνο για ανάγνωση [`LineStyle`](../linestyle). |
 | [Width](../../aspose.slides/ilineformateffectivedata/width) { get; } | Επιστρέφει το πλάτος μιας γραμμής. Μόνο για ανάγνωση Double. |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Equals](../../aspose.slides/ilineformateffectivedata/equals)(ILineFormatEffectiveData) | Καθορίζει αν τα δύο στιγμιότυπα ILineFormatEffectiveData είναι ίσα. |
+| [Equals](../../aspose.slides/ilineformateffectivedata/equals)(ILineFormatEffectiveData) | Καθορίζει εάν τα δύο δείγματα ILineFormatEffectiveData είναι ίσα. |
 
-### Σημειώσεις
+### Παρατηρήσεις
 
-Αυτή η διεπαφή χρησιμοποιείται μαζί με τη διεπαφή [`ILineFormat`](../ilineformat) για την επιστροφή των αποτελεσματικών τιμών μορφοποίησης με εφαρμοσμένη κληρονομικότητα.
+Αυτή η διεπαφή χρησιμοποιείται μαζί με τη διεπαφή [`ILineFormat`](../ilineformat) για την επιστροφή αποτελεσματικών τιμών μορφοποίησης με εφαρμοσμένη κληρονομικότητα.
 
 ### Δείτε επίσης
 
 * διασύνδεση [ILineParamSource](../ilineparamsource)
 * χώρος ονομάτων [Aspose.Slides](../../aspose.slides)
-* συναρμολόγηση [Aspose.Slides](../../)
+* συγκρότημα [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: HtmlFormatter
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: แสดงเทมเพลตไฟล์ HTML.
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: เป็นตัวแทนของเทมเพลตไฟล์ HTML
 type: docs
-weight: 3870
+weight: 3890
 url: /th/aspose.slides.export/htmlformatter/
 ---
 ## HtmlFormatter คลาส
 
-แสดงเทมเพลตไฟล์ HTML.
+เป็นตัวแทนของเทมเพลตไฟล์ HTML
 
 ```csharp
 public sealed class HtmlFormatter : IHtmlFormatter
@@ -18,9 +18,9 @@ public sealed class HtmlFormatter : IHtmlFormatter
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| static [CreateCustomFormatter](../../aspose.slides.export/htmlformatter/createcustomformatter)(IHtmlFormattingController) | สร้างและส่งคืนตัวจัดรูปแบบ HTML สำหรับการสร้าง HTML ที่ขับเคลื่อนด้วย callback แบบกำหนดเอง. |
-| static [CreateDocumentFormatter](../../aspose.slides.export/htmlformatter/createdocumentformatter)(string, bool) | สร้างและส่งคืนตัวจัดรูปแบบ HTML สำหรับมุมมองเอกสารแบบง่ายที่ประกอบด้วยลำดับของสไลด์เรียงต่อกันในแนวตั้ง. |
-| static [CreateSlideShowFormatter](../../aspose.slides.export/htmlformatter/createslideshowformatter)(string, bool) | สร้างและส่งคืนตัวจัดรูปแบบ HTML สำหรับการแสดงสไลด์แบบง่ายที่แสดงสไลด์ต่อเนื่องกัน. |
+| static [CreateCustomFormatter](../../aspose.slides.export/htmlformatter/createcustomformatter)(IHtmlFormattingController) | สร้างและคืนค่า HTML formatter สำหรับการสร้าง HTML ที่กำหนดโดย callback แบบกำหนดเอง |
+| static [CreateDocumentFormatter](../../aspose.slides.export/htmlformatter/createdocumentformatter)(string, bool) | สร้างและคืนค่า HTML formatter สำหรับมุมมองเอกสารแบบง่ายที่ประกอบด้วยลำดับของสไลด์ต่อเนื่องกันตั้งแต่บนลงล่าง |
+| static [CreateSlideShowFormatter](../../aspose.slides.export/htmlformatter/createslideshowformatter)(string, bool) | สร้างและคืนค่า HTML formatter สำหรับ HTML สไลด์โชว์แบบง่ายที่แสดงสไลด์ต่อเนื่องกัน |
 
 ### ดูเพิ่มเติม
 

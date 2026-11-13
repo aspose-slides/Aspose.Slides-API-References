@@ -1,12 +1,12 @@
 ---
 title: MasterTheme
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir master temayı temsil eder.
+description: Bir ana temayı temsil eder.
 type: docs
-weight: 11430
+weight: 11450
 url: /tr/aspose.slides.theme/mastertheme/
 ---
-## MasterTheme sınıf
+## MasterTheme sınıfı
 
 Bir ana tema temsil eder.
 
@@ -18,20 +18,20 @@ public sealed class MasterTheme : Theme, IMasterTheme
 
 | Ad | Açıklama |
 | --- | --- |
-| override [ColorScheme](../../aspose.slides.theme/mastertheme/colorscheme) { get; } | Renk şemasını döndürür. Sadece okuma [`IColorScheme`](../icolorscheme). |
-| [ExtraColorSchemes](../../aspose.slides.theme/mastertheme/extracolorschemes) { get; } | Ek renk şemalarının koleksiyonunu döndürür. Bu şemalar sunumun görünümünü etkilemez, bir slayt için ana renk şeması olarak seçilebilirler. Sadece okuma [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
-| override [FontScheme](../../aspose.slides.theme/mastertheme/fontscheme) { get; } | Yazı tipi şemasını döndürür. Sadece okuma [`IFontScheme`](../ifontscheme). |
-| override [FormatScheme](../../aspose.slides.theme/mastertheme/formatscheme) { get; } | Şekil formatı şemasını döndürür. Sadece okuma [`IFormatScheme`](../iformatscheme). |
+| override [ColorScheme](../../aspose.slides.theme/mastertheme/colorscheme) { get; } | Renk şemasını döndürür. Yalnızca okuma [`IColorScheme`](../icolorscheme). |
+| [ExtraColorSchemes](../../aspose.slides.theme/mastertheme/extracolorschemes) { get; } | Ek renk şemalarının koleksiyonunu döndürür. Bu şemalar sunumun görünümünü etkilemez, bir slayt için ana renk şeması olarak seçilebilir. Yalnızca okuma [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
+| override [FontScheme](../../aspose.slides.theme/mastertheme/fontscheme) { get; } | Yazı tipi şemasını döndürür. Yalnızca okuma [`IFontScheme`](../ifontscheme). |
+| override [FormatScheme](../../aspose.slides.theme/mastertheme/formatscheme) { get; } | Şekil biçim şemasını döndürür. Yalnızca okuma [`IFormatScheme`](../iformatscheme). |
 | [Name](../../aspose.slides.theme/mastertheme/name) { get; set; } | Bir temanın adını döndürür. Okuma/yazma String. |
-| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Üst sunumu döndürür. Sadece okuma [`IPresentation`](../../aspose.slides/ipresentation). |
+| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Üst sunumu döndürür. Yalnızca okuma [`IPresentation`](../../aspose.slides/ipresentation). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Uygulanan kalıtımla etkili tema verilerini alır. |
+| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Kalıtım uygulanmış etkili tema verilerini alır. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * sınıf [Theme](../theme)
 * arayüz [IMasterTheme](../imastertheme)

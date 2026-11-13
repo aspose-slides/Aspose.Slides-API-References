@@ -1,9 +1,9 @@
 ---
 title: ChartDataWorksheetCollection
-second_title: Aspose.Sildes dla .NET - dokumentacja API
+second_title: Aspose.Sildes dla .NET API Reference
 description: Reprezentuje kolekcję arkuszy danych wykresu w skoroszycie.
 type: docs
-weight: 1400
+weight: 1410
 url: /pl/aspose.slides.charts/chartdataworksheetcollection/
 ---
 ## ChartDataWorksheetCollection klasa
@@ -19,7 +19,7 @@ public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
 | Nazwa | Opis |
 | --- | --- |
 | [Count](../../aspose.slides.charts/chartdataworksheetcollection/count) { get; } | Zwraca liczbę. Tylko do odczytu Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest zsynchronizowany (bezpieczny wątkowo). Tylko do odczytu Boolean. |
+| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest zsynchronizowany (wątkowo-bezpieczny). Tylko do odczytu Boolean. |
 | [Item](../../aspose.slides.charts/chartdataworksheetcollection/item) { get; } | Zwraca arkusz roboczy według indeksu. |
 | [SyncRoot](../../aspose.slides.charts/chartdataworksheetcollection/syncroot) { get; } | Zwraca korzeń synchronizacji. Tylko do odczytu Object. |
 
@@ -47,7 +47,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Zobacz też
+### Zobacz także
 
 * interfejs [IChartDataWorksheetCollection](../ichartdataworksheetcollection)
 * przestrzeń nazw [Aspose.Slides.Charts](../../aspose.slides.charts)

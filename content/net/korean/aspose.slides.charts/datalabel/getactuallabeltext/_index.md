@@ -1,20 +1,20 @@
 ---
 title: GetActualLabelText
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: DataLabelFormat 설정 또는 TextFrameForOverriding.Text 값에 따라 실제 레이블 텍스트를 반환합니다.
+second_title: Aspose.Slides for .NET API 레퍼런스
+description: DataLabelFormat 설정이나 TextFrameForOverriding.Text 값을 기반으로 실제 라벨 텍스트를 반환합니다.
 type: docs
-weight: 190
+weight: 200
 url: /ko/aspose.slides.charts/datalabel/getactuallabeltext/
 ---
 ## DataLabel.GetActualLabelText 메서드
 
-DataLabelFormat 설정 또는 TextFrameForOverriding.Text 값에 따라 실제 레이블 텍스트를 반환합니다.
+실제 라벨 텍스트를 DataLabelFormat 설정이나 TextFrameForOverriding.Text 값에 따라 반환합니다.
 
 ```csharp
 public string GetActualLabelText()
 ```
 
-### 참고
+### 참조
 
 * 클래스 [DataLabel](../../datalabel)
 * 네임스페이스 [Aspose.Slides.Charts](../../datalabel)

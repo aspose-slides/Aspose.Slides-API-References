@@ -1,14 +1,14 @@
 ---
 title: IPathSegment
 second_title: Aspose.Sildes .NET API 레퍼런스
-description: GeometryShape의 그래픽 경로 세그먼트를 나타냅니다
+description: GeometryShape의 그래픽 경로 세그먼트를 나타냅니다.
 type: docs
-weight: 6610
+weight: 6630
 url: /ko/aspose.slides/ipathsegment/
 ---
 ## IPathSegment 인터페이스
 
-GeometryShape의 그래픽 경로 세그먼트를 나타냅니다
+GeometryShape의 그래픽 경로 세그먼트를 나타냅니다.
 
 ```csharp
 public interface IPathSegment
@@ -21,7 +21,7 @@ public interface IPathSegment
 | [PathCommand](../../aspose.slides/ipathsegment/pathcommand) { get; } | 세그먼트의 경로 유형 |
 | [SegmentData](../../aspose.slides/ipathsegment/segmentdata) { get; } | 세그먼트의 경로 데이터 |
 
-### 참조
+### 또 다른 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

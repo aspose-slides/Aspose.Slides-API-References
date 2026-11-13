@@ -1,14 +1,14 @@
 ---
 title: PptxException
 second_title: Aspose.Sildes .NET API 参考
-description: 表示一种标准内部异常类型。
+description: 表示一种标准的内部异常类型。
 type: docs
-weight: 9560
+weight: 9580
 url: /zh/aspose.slides/pptxexception/
 ---
 ## PptxException 类
 
-表示一种标准内部异常类型。
+表示一种标准的内部异常类型。
 
 ```csharp
 public class PptxException : OOXMLException
@@ -20,7 +20,7 @@ public class PptxException : OOXMLException
 | --- | --- |
 | [PptxException](pptxexception#constructor)() | 默认构造函数。 |
 | [PptxException](pptxexception#constructor_1)(string) | 允许向此异常添加消息的构造函数。 |
-| [PptxException](pptxexception#constructor_2)(string, Exception) | 用于包含消息和嵌入 Exception 的异常的构造函数。 |
+| [PptxException](pptxexception#constructor_2)(string, Exception) | 用于包含消息和嵌入异常的构造函数。 |
 
 ### 另请参见
 

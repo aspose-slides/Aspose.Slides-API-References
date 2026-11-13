@@ -3,12 +3,12 @@ title: CellUnsupportedDataException
 second_title: Aspose.Sildes için .NET API Referansı
 description: Bir elektronik tablo hücresinde desteklenmeyen bir veriyle karşılaşıldığında atılan istisna.
 type: docs
-weight: 10730
+weight: 10750
 url: /tr/aspose.slides.spreadsheet/cellunsupporteddataexception/
 ---
-## CellUnsupportedDataException sınıfı
+## CellUnsupportedDataException sınıf
 
-Bir elektronik tablo hücresinde desteklenmeyen bir veriyle karşılaşıldığında atılan istisna.
+Desteklenmeyen bir veri bir elektronik tablo hücresinde karşılaşıldığında atılan istisna.
 
 ```csharp
 public class CellUnsupportedDataException : PptxEditException
@@ -18,11 +18,11 @@ public class CellUnsupportedDataException : PptxEditException
 
 | Ad | Açıklama |
 | --- | --- |
-| [CellUnsupportedDataException](cellunsupporteddataexception#constructor)() | Yeni bir [`CellUnsupportedDataException`](../cellunsupporteddataexception) sınıfının örneğini başlatır. |
-| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_1)(string) | Belirtilen bir hata mesajı ile yeni bir [`CellUnsupportedDataException`](../cellunsupporteddataexception) sınıfının örneğini başlatır. |
-| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_2)(string, Exception) | Belirtilen bir hata mesajı ve bu istisnanın nedeni olan iç istisna referansı ile yeni bir [`CellUnsupportedDataException`](../cellunsupporteddataexception) sınıfının örneğini başlatır. |
+| [CellUnsupportedDataException](cellunsupporteddataexception#constructor)() | Yeni bir [`CellUnsupportedDataException`](../cellunsupporteddataexception) sınıf örneği oluşturur. |
+| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_1)(string) | Belirtilen hata mesajı ile yeni bir [`CellUnsupportedDataException`](../cellunsupporteddataexception) sınıf örneği oluşturur. |
+| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_2)(string, Exception) | Belirtilen hata mesajı ve bu istisnanın nedeni olan iç istisnaya bir referans ile yeni bir [`CellUnsupportedDataException`](../cellunsupporteddataexception) sınıf örneği oluşturur. |
 
-### Ayrıca Bakınız
+### Ayrıca
 
 * sınıf [PptxEditException](../../aspose.slides/pptxeditexception)
 * ad alanı [Aspose.Slides.Spreadsheet](../../aspose.slides.spreadsheet)

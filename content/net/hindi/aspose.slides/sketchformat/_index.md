@@ -1,25 +1,25 @@
 ---
 title: SketchFormat
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: पंक्तियों के स्केच फ़ॉर्मेट के लिए गुणों का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
+description: लाइनों के स्केच फ़ॉर्मेट के लिए गुणधर्म का प्रतिनिधित्व करता है।
 type: docs
-weight: 9950
+weight: 9970
 url: /hi/aspose.slides/sketchformat/
 ---
 ## SketchFormat क्लास
 
-पंक्तियों के स्केच फ़ॉर्मेट के लिए गुणों का प्रतिनिधित्व करता है।
+लाइन स्केच फ़ॉर्मेट के लिए गुणधर्म का प्रतिनिधित्व करता है।
 
 ```csharp
 public sealed class SketchFormat : PVIObject, ISketchFormat
 ```
 
-## गुण
+## गुणधर्म
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | बेस IPresentationComponent इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने-योग्य [`IPresentationComponent`](../ipresentationcomponent)। |
-| [SketchType](../../aspose.slides/sketchformat/sketchtype) { get; set; } | स्केच प्रकार को लौटाता है या सेट करता है। पढ़ने/लिखने-योग्य [`LineSketchType`](../linesketchtype)। |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | बेस IPresentationComponent इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IPresentationComponent`](../ipresentationcomponent)। |
+| [SketchType](../../aspose.slides/sketchformat/sketchtype) { get; set; } | स्केच प्रकार को लौटाता या सेट करता है। पढ़ने/लिखने योग्य [`LineSketchType`](../linesketchtype)। |
 
 ## विधियाँ
 
@@ -28,7 +28,7 @@ public sealed class SketchFormat : PVIObject, ISketchFormat
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | निर्दिष्ट ऑब्जेक्ट के साथ तुलना करता है। |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | हैश कोड लौटाता है। |
 
-### देखें भी
+### संबंधित देखें
 
 * क्लास [PVIObject](../pviobject)
 * इंटरफ़ेस [ISketchFormat](../isketchformat)

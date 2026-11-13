@@ -3,7 +3,7 @@ title: IMathBlockCollection
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Collectie van wiskundige blokken IMathBlock
 type: docs
-weight: 8150
+weight: 8170
 url: /nl/aspose.slides.mathtext/imathblockcollection/
 ---
 ## IMathBlockCollection interface
@@ -18,7 +18,7 @@ public interface IMathBlockCollection : IEnumerable<IMathBlock>
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.mathtext/imathblockcollection/asienumerable) { get; } | Staat toe om de basis-IEnumerable-interface IEnumerable op te halen |
+| [AsIEnumerable](../../aspose.slides.mathtext/imathblockcollection/asienumerable) { get; } | Staat toe om de basis IEnumerable interface IEnumerable op te halen |
 | [Count](../../aspose.slides.mathtext/imathblockcollection/count) { get; } | Haalt het aantal elementen op dat daadwerkelijk in de collectie zit. Alleen-lezen Int32. |
 | [Item](../../aspose.slides.mathtext/imathblockcollection/item) { get; set; } | Haalt het item op op de opgegeven index. Alleen-lezen [`IMathBlock`](../imathblock). |
 
@@ -31,7 +31,7 @@ public interface IMathBlockCollection : IEnumerable<IMathBlock>
 | [Contains](../../aspose.slides.mathtext/imathblockcollection/contains)(IMathBlock) | Bepaalt of de collectie een specifieke waarde bevat. |
 | [IndexOf](../../aspose.slides.mathtext/imathblockcollection/indexof)(IMathBlock) | Bepaalt de index van een specifieke IMathBlock in de collectie. |
 | [Insert](../../aspose.slides.mathtext/imathblockcollection/insert)(int, IMathBlock) | Voegt IMathBlock in de collectie in op de opgegeven index. |
-| [Remove](../../aspose.slides.mathtext/imathblockcollection/remove)(IMathBlock) | Verwijdert de eerste instantie van een specifiek object uit de collectie. |
+| [Remove](../../aspose.slides.mathtext/imathblockcollection/remove)(IMathBlock) | Verwijdert het eerste voorkomen van een specifiek object uit de collectie/&gt;. |
 | [RemoveAt](../../aspose.slides.mathtext/imathblockcollection/removeat)(int) | Verwijdert een item op de opgegeven index van de collectie. |
 
 ### Voorbeelden

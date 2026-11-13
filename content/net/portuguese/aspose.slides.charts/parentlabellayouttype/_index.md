@@ -1,12 +1,12 @@
 ---
 title: ParentLabelLayoutType
-second_title: Referência da API Aspose.Sildes para .NET
-description: Representa o layout dos rótulos de dados da categoria. Usado apenas com séries Treemap.
+second_title: Aspose.Sildes para .NET Referência de API
+description: Representa o layout dos rótulos de dados da categoria. Usado somente com séries Treemap.
 type: docs
-weight: 2350
+weight: 2370
 url: /pt/aspose.slides.charts/parentlabellayouttype/
 ---
-## Enumeração ParentLabelLayoutType
+## ParentLabelLayoutType enumeração
 
 Representa o layout dos rótulos de dados da categoria. Usado somente com séries Treemap.
 
@@ -18,9 +18,9 @@ public enum ParentLabelLayoutType
 
 | Nome | Valor | Descrição |
 | --- | --- | --- |
-| Banner | `0` | Especifica que os rótulos da categoria pai são exibidos como banner |
-| None | `1` | Especifica que os rótulos da categoria pai não são desenhados |
-| Overlapping | `2` | Especifica que os rótulos da categoria pai são exibidos sobrepostos |
+| Banner | `0` | Especifica que os rótulos de categoria pai são exibidos como banner |
+| None | `1` | Especifica que os rótulos de categoria pai não são desenhados |
+| Overlapping | `2` | Especifica que os rótulos de categoria pai são exibidos sobrepostos |
 
 ### Veja Também
 

@@ -3,12 +3,12 @@ title: IAutoShape
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt ein AutoShape dar.
 type: docs
-weight: 5240
+weight: 5260
 url: /de/aspose.slides/iautoshape/
 ---
 ## IAutoShape Schnittstelle
 
-Stellt ein AutoShape dar.
+Represents an AutoShape.
 
 ```csharp
 public interface IAutoShape : IGeometryShape
@@ -18,18 +18,18 @@ public interface IAutoShape : IGeometryShape
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides/iautoshape/asigeometryshape) { get; } | Ermöglicht das Abrufen der Basis-IGeometryShape-Schnittstelle. Nur-Lesen [`IGeometryShape`](../igeometryshape). |
-| [AutoShapeLock](../../aspose.slides/iautoshape/autoshapelock) { get; } | Gibt die Sperren des AutoShape zurück. Nur-Lesen [`IAutoShapeLock`](../iautoshapelock). |
+| [AsIGeometryShape](../../aspose.slides/iautoshape/asigeometryshape) { get; } | Ermöglicht das Abrufen der Basis-IGeometryShape-Schnittstelle. Schreibgeschützt [`IGeometryShape`](../igeometryshape). |
+| [AutoShapeLock](../../aspose.slides/iautoshape/autoshapelock) { get; } | Gibt die Sperren des AutoShape zurück. Schreibgeschützt [`IAutoShapeLock`](../iautoshapelock). |
 | [IsTextBox](../../aspose.slides/iautoshape/istextbox) { get; } | Gibt an, ob die Form ein Textfeld ist. |
-| [ShapeLock](../../aspose.slides/iautoshape/shapelock) { get; } | Gibt die Sperren der Form zurück. Nur-Lesen [`IAutoShapeLock`](../iautoshapelock). |
-| [TextFrame](../../aspose.slides/iautoshape/textframe) { get; } | Gibt das TextFrame-Objekt für das AutoShape zurück. Nur-Lesen [`ITextFrame`](../itextframe). |
-| [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | Bestimmt, ob dieses AutoShape mit dem Hintergrund-Füllformat der Folie anstelle von Stil- oder Füllformat ausgefüllt werden soll. Lesen/Schreiben Boolean. |
+| [ShapeLock](../../aspose.slides/iautoshape/shapelock) { get; } | Gibt die Sperren der Form zurück. Schreibgeschützt [`IAutoShapeLock`](../iautoshapelock). |
+| [TextFrame](../../aspose.slides/iautoshape/textframe) { get; } | Gibt das TextFrame-Objekt für das AutoShape zurück. Schreibgeschützt [`ITextFrame`](../itextframe). |
+| [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | Legt fest, ob dieses AutoShape mit der Hintergrundfüllung der Folie anstelle von Stil- oder Füllformat gefüllt werden soll. Lese-/Schreib-Boolean. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [AddTextFrame](../../aspose.slides/iautoshape/addtextframe)(string) | Fügt einer Form ein neues TextFrame hinzu. Wenn die Form bereits ein TextFrame hat, wird einfach ihr Text geändert. |
+| [AddTextFrame](../../aspose.slides/iautoshape/addtextframe)(string) | Fügt einer Form ein neues TextFrame hinzu. Wenn die Form bereits ein TextFrame hat, wird lediglich ihr Text geändert. |
 
 ### Siehe auch
 

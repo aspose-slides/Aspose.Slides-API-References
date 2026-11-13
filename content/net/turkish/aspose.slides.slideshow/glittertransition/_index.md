@@ -3,7 +3,7 @@ title: GlitterTransition
 second_title: Aspose.Sildes için .NET API Referansı
 description: Glitter slayt geçiş efekti.
 type: docs
-weight: 10050
+weight: 10070
 url: /tr/aspose.slides.slideshow/glittertransition/
 ---
 ## GlitterTransition sınıfı
@@ -18,17 +18,17 @@ public class GlitterTransition : TransitionValueBase, IGlitterTransition
 
 | Ad | Açıklama |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/glittertransition/direction) { get; set; } | Geçiş yönü. Okunabilir/Yazılabilir [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/glittertransition/pattern) { get; set; } | Geçiş sırasında kullanılan görsellerin şeklini belirtir. Okunabilir/Yazılabilir [`TransitionPattern`](../transitionpattern). |
+| [Direction](../../aspose.slides.slideshow/glittertransition/direction) { get; set; } | Geçiş yönü. Okunur/yazılabilir [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
+| [Pattern](../../aspose.slides.slideshow/glittertransition/pattern) { get; set; } | Geçiş sırasında kullanılan görsellerin şeklini belirtir. Okunur/yazılabilir [`TransitionPattern`](../transitionpattern). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | İki TransitionValueBase örneğinin eşit olup olmadığını belirler. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Belirli bir tip için bir karma işlevi olarak hizmet eder ve karma algoritmaları ve karma tablosu gibi veri yapılarında kullanılmaya uygundur. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Belirli bir tip için hash işlevi olarak hizmet eder; hash algoritmaları ve hash tablosu gibi veri yapılarında kullanılmaya uygundur. |
 
-### İlgili
+### Ayrıca bakınız
 
 * sınıf [TransitionValueBase](../transitionvaluebase)
 * arayüz [IGlitterTransition](../iglittertransition)

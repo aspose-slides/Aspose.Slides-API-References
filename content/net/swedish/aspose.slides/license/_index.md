@@ -3,7 +3,7 @@ title: License
 second_title: Aspose.Sildes för .NET API-referens
 description: Tillhandahåller metoder för att licensiera komponenten.
 type: docs
-weight: 7680
+weight: 7700
 url: /sv/aspose.slides/license/
 ---
 ## Licensklass
@@ -14,24 +14,24 @@ Tillhandahåller metoder för att licensiera komponenten.
 public class License : ILicense
 ```
 
-## Konstruktörer
+## Konstruktorer
 
 | Name | Description |
 | --- | --- |
-| [License](license)() | Initierar en ny instans av den här klassen. |
+| [License](license)() | Initierar en ny instans av denna klass. |
 
 ## Metoder
 
 | Name | Description |
 | --- | --- |
-| [IsLicensed](../../aspose.slides/license/islicensed)() | Kontrollerar om licensen har tillämpats på komponenten |
+| [IsLicensed](../../aspose.slides/license/islicensed)() | Kontrollera om licensen har tillämpats på komponenten |
 | [ResetLicense](../../aspose.slides/license/resetlicense)() | Återställ licensen |
 | [SetLicense](../../aspose.slides/license/setlicense#setlicense)(Stream) | Licensierar komponenten. |
 | [SetLicense](../../aspose.slides/license/setlicense#setlicense_1)(string) | Licensierar komponenten. |
 
 ### Exempel
 
-I det här exemplet kommer ett försök att hitta en licensfil med namnet MyLicense.lic i mappen som innehåller komponenten, i mappen som innehåller det anropande assemblyt, i mappen för startassemblyt och sedan i de inbäddade resurserna i det anropande assemblyt.
+I det här exemplet kommer ett försök att hitta en licensfil med namnet MyLicense.lic i mappen som innehåller komponenten, i mappen som innehåller den anropande assemblyn, i mappen för entry assembly och sedan i de inbäddade resurserna i den anropande assemblyn.
 
 ```csharp
 [C#]
@@ -46,7 +46,7 @@ Dim license As license = New license
 License.SetLicense("MyLicense.lic")
 ```
 
-### Se också
+### Se även
 
 * gränssnitt [ILicense](../ilicense)
 * namnrymd [Aspose.Slides](../../aspose.slides)

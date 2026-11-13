@@ -1,14 +1,14 @@
 ---
 title: IFormattedTextContainer
 second_title: Aspose.Sildes için .NET API Referansı
-description: Grafik metin biçimini temsil eder.
+description: Çizelge metin biçimini temsil eder.
 type: docs
-weight: 2110
+weight: 2130
 url: /tr/aspose.slides.charts/iformattedtextcontainer/
 ---
-## IFormattedTextContainer arayüzü
+## IFormattedTextContainer arayüz
 
-Grafik metin biçimini temsil eder.
+Çizelge metin biçimini temsil eder.
 
 ```csharp
 public interface IFormattedTextContainer : IChartComponent
@@ -18,8 +18,8 @@ public interface IFormattedTextContainer : IChartComponent
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/iformattedtextcontainer/asichartcomponent) { get; } | IChartComponent arayüzünü döndürür. Salt okunur [`IChartComponent`](../ichartcomponent). |
-| [TextFormat](../../aspose.slides.charts/iformattedtextcontainer/textformat) { get; } | Grafik metin biçimini döndürür. Salt okunur [`IChartTextFormat`](../icharttextformat). |
+| [AsIChartComponent](../../aspose.slides.charts/iformattedtextcontainer/asichartcomponent) { get; } | Döndürür IChartComponent arayüz. Yalnızca okunabilir [`IChartComponent`](../ichartcomponent). |
+| [TextFormat](../../aspose.slides.charts/iformattedtextcontainer/textformat) { get; } | Döndürür çizelge metin biçimi. Yalnızca okunabilir [`IChartTextFormat`](../icharttextformat). |
 
 ### Ayrıca Bakınız
 

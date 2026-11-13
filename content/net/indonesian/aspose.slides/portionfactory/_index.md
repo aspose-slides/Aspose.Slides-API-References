@@ -1,14 +1,14 @@
 ---
 title: PortionFactory
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Memungkinkan membuat bagian pengujian
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Memungkinkan membuat bagian tes
 type: docs
-weight: 9480
+weight: 9500
 url: /id/aspose.slides/portionfactory/
 ---
 ## PortionFactory kelas
 
-Memungkinkan pembuatan bagian pengujian
+Mengizinkan membuat bagian tes
 
 ```csharp
 public class PortionFactory : IPortionFactory
@@ -25,7 +25,7 @@ public class PortionFactory : IPortionFactory
 | Nama | Deskripsi |
 | --- | --- |
 | [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion)() | Membuat bagian teks kosong. |
-| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_1)(IPortion) | Membuat sebuah bagian dengan menggunakan data bagian yang ditentukan. |
+| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_1)(IPortion) | Membuat bagian dengan menggunakan data bagian yang ditentukan. |
 | [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_2)(string) | Membuat bagian teks dari string yang ditentukan. |
 
 ### Keterangan

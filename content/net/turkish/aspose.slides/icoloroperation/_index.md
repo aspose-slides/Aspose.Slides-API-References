@@ -1,9 +1,9 @@
 ---
 title: IColorOperation
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Slides için .NET API Referansı
 description: Renk dönüşümleri için kullanılan farklı renk işlemlerini temsil eder.
 type: docs
-weight: 5500
+weight: 5520
 url: /tr/aspose.slides/icoloroperation/
 ---
 ## IColorOperation arayüzü
@@ -18,8 +18,8 @@ public interface IColorOperation
 
 | Ad | Açıklama |
 | --- | --- |
-| [OperationType](../../aspose.slides/icoloroperation/operationtype) { get; } | Bir işlemin türünü alır veya ayarlar. Salt okunur [`ColorTransformOperation`](../colortransformoperation). |
-| [Parameter](../../aspose.slides/icoloroperation/parameter) { get; } | Bir işlemin parametresini döndürür. Salt okunur Single. |
+| [OperationType](../../aspose.slides/icoloroperation/operationtype) { get; } | Bir işlemin türünü döndürür veya ayarlar. Yalnızca okuma [`ColorTransformOperation`](../colortransformoperation). |
+| [Parameter](../../aspose.slides/icoloroperation/parameter) { get; } | Bir işlemin parametresini döndürür. Yalnızca okuma Single. |
 
 ### Ayrıca Bakınız
 

@@ -1,14 +1,14 @@
 ---
 title: IMorphTransition
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Effetto di transizione della diapositiva a increspatura.
+description: Effetto di transizione slide a increspatura.
 type: docs
-weight: 10130
+weight: 10150
 url: /it/aspose.slides.slideshow/imorphtransition/
 ---
-## IMorphTransition interfaccia
+## Interfaccia IMorphTransition
 
-Effetto di transizione della diapositiva a increspatura.
+Effetto di transizione slide a increspatura.
 
 ```csharp
 public interface IMorphTransition : ITransitionValueBase
@@ -18,8 +18,8 @@ public interface IMorphTransition : ITransitionValueBase
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/imorphtransition/asitransitionvaluebase) { get; } | Consente di ottenere l'interfaccia base ITransitionValueBase. Sola lettura [`ITransitionValueBase`](../itransitionvaluebase). |
-| [MorphType](../../aspose.slides.slideshow/imorphtransition/morphtype) { get; set; } | Tipo di transizione morph. Lettura/Scrittura [`TransitionMorphType`](../transitionmorphtype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/imorphtransition/asitransitionvaluebase) { get; } | Consente di ottenere l'interfaccia base ITransitionValueBase. Solo lettura [`ITransitionValueBase`](../itransitionvaluebase). |
+| [MorphType](../../aspose.slides.slideshow/imorphtransition/morphtype) { get; set; } | Tipo di transizione morph. Lettura/scrittura [`TransitionMorphType`](../transitionmorphtype). |
 
 ### Vedi anche
 

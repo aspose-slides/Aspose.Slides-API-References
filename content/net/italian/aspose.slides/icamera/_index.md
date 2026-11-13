@@ -1,14 +1,14 @@
 ---
 title: ICamera
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta la Camera.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta Camera.
 type: docs
-weight: 5410
+weight: 5430
 url: /it/aspose.slides/icamera/
 ---
-## ICamera interface
+## ICamera interfaccia
 
-Rappresenta la Camera.
+Rappresenta Camera.
 
 ```csharp
 public interface ICamera
@@ -18,16 +18,16 @@ public interface ICamera
 
 | Nome | Descrizione |
 | --- | --- |
-| [CameraType](../../aspose.slides/icamera/cameratype) { get; set; } | Tipo Camera Lettura/scrittura [`CameraPresetType`](../camerapresettype). |
-| [FieldOfViewAngle](../../aspose.slides/icamera/fieldofviewangle) { get; set; } | Camera FOV (0-180 deg, campo visivo) Lettura/scrittura Single. |
-| [Zoom](../../aspose.slides/icamera/zoom) { get; set; } | Camera zoom (valore positivo in percentuale) Lettura/scrittura Single. |
+| [CameraType](../../aspose.slides/icamera/cameratype) { get; set; } | Tipo di Camera Lettura/Scrittura [`CameraPresetType`](../camerapresettype). |
+| [FieldOfViewAngle](../../aspose.slides/icamera/fieldofviewangle) { get; set; } | Camera FOV (0-180 gradi, campo visivo) Lettura/Scrittura Single. |
+| [Zoom](../../aspose.slides/icamera/zoom) { get; set; } | Zoom della Camera (valore positivo in percentuale) Lettura/Scrittura Single. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetRotation](../../aspose.slides/icamera/getrotation)() | Una rotazione è definita mediante l'uso di una coordinata di latitudine, una coordinata di longitudine e una rivoluzione attorno all'asse come le coordinate di latitudine e longitudine. primo elemento nell'array restituito - latitudine, secondo - longitudine, terzo - rivoluzione. Restituisce null se nessuna rotazione è definita. |
-| [SetRotation](../../aspose.slides/icamera/setrotation)(float, float, float) | Una rotazione è definita mediante l'uso di una coordinata di latitudine, una coordinata di longitudine e una rivoluzione attorno all'asse come le coordinate di latitudine e longitudine. Se uno qualsiasi dei valori delle coordinate è float.NaN, l'intera rotazione è indefinita. |
+| [GetRotation](../../aspose.slides/icamera/getrotation)() | Una rotazione è definita mediante l'uso di una coordinata di latitudine, una coordinata di longitudine e una rivoluzione attorno all'asse come le coordinate di latitudine e longitudine. primo elemento nell'array restituito - latitudine, secondo - longitudine, terzo - rivoluzione. Restituisce null se non è definita alcuna rotazione. |
+| [SetRotation](../../aspose.slides/icamera/setrotation)(float, float, float) | Una rotazione è definita mediante l'uso di una coordinata di latitudine, una coordinata di longitudine e una rivoluzione attorno all'asse come le coordinate di latitudine e longitudine. Se uno qualsiasi dei valori delle coordinate è float.NaN, tutta la rotazione è indefinita. |
 
 ### Vedi anche
 

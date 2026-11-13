@@ -1,12 +1,12 @@
 ---
 title: TextFrame
-second_title: Aspose.Sildes لـ .NET مرجع واجهة برمجة التطبيقات
+second_title: مرجع API Aspose.Sildes لـ .NET
 description: يمثل TextFrame.
 type: docs
-weight: 10950
+weight: 10970
 url: /ar/aspose.slides/textframe/
 ---
-## فئة TextFrame
+## TextFrame فئة
 
 يمثل TextFrame.
 
@@ -18,31 +18,32 @@ public sealed class TextFrame : ITextFrame
 
 | الاسم | الوصف |
 | --- | --- |
-| [HyperlinkQueries](../../aspose.slides/textframe/hyperlinkqueries) { get; } | يوفر وصولًا سهلاً إلى الروابط التشعبية المحتواة. للقراءة فقط [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [HyperlinkQueries](../../aspose.slides/textframe/hyperlinkqueries) { get; } | يوفر وصولًا سهلاً إلى الروابط التشعبية المضمنة. للقراءة فقط [`IHyperlinkQueries`](../ihyperlinkqueries). |
 | [Paragraphs](../../aspose.slides/textframe/paragraphs) { get; } | يعيد قائمة بجميع الفقرات في الإطار. للقراءة فقط [`IParagraphCollection`](../iparagraphcollection). |
-| [ParentCell](../../aspose.slides/textframe/parentcell) { get; } | يعيد الخلية الأصل أو null إذا لم يقم الكائن الأصلي بتنفيذ واجهة ICell. للقراءة فقط [`ICell`](../icell). |
-| [ParentShape](../../aspose.slides/textframe/parentshape) { get; } | يعيد الشكل الأصلي أو null إذا لم يقم الكائن الأصلي بتنفيذ واجهة IShape. للقراءة فقط [`IShape`](../ishape). |
-| [Presentation](../../aspose.slides/textframe/presentation) { get; } | يعيد العرض التقديمي الأصلي لـ TextFrame. للقراءة فقط [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/textframe/slide) { get; } | يعيد الشريحة الأصلية لـ TextFrame. للقراءة فقط [`IBaseSlide`](../ibaseslide). |
-| [Text](../../aspose.slides/textframe/text) { get; set; } | يحصل أو يضبط النص العادي لـ TextFrame. قراءة/كتابة String. |
-| [TextFrameFormat](../../aspose.slides/textframe/textframeformat) { get; } | يعيد كائن التنسيق لهذا الكائن TextFrame. للقراءة فقط [`ITextFrameFormat`](../itextframeformat). |
+| [ParentCell](../../aspose.slides/textframe/parentcell) { get; } | يعيد الخلية الأب أو null إذا لم يكن الكائن الأب يطبق واجهة ICell. للقراءة فقط [`ICell`](../icell). |
+| [ParentShape](../../aspose.slides/textframe/parentshape) { get; } | يعيد الشكل الأب أو null إذا لم يكن الكائن الأب يطبق واجهة IShape. للقراءة فقط [`IShape`](../ishape). |
+| [Presentation](../../aspose.slides/textframe/presentation) { get; } | يعيد العرض التقديمي الأب لإطار النص. للقراءة فقط [`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/textframe/slide) { get; } | يعيد الشريحة الأب لإطار نصي. للقراءة فقط [`IBaseSlide`](../ibaseslide). |
+| [Text](../../aspose.slides/textframe/text) { get; set; } | يحصل أو يضبط النص العادي لإطار نصي. قراءة/كتابة String. |
+| [TextFrameFormat](../../aspose.slides/textframe/textframeformat) { get; } | يعيد كائن التنسيق لهذا كائن TextFrame. للقراءة فقط [`ITextFrameFormat`](../itextframeformat). |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [HighlightRegex](../../aspose.slides/textframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | يُبرز جميع التطابقات للتعبير النمطي باللون المحدد. |
-| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext)(string, Color) | يُبرز جميع التطابقات للنص العيني باللون المحدد. |
-| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | يُبرز جميع التطابقات للنص العيني باللون المحدد. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/textframe/joinportionswithsameformatting)() | ينضمّ المقاطع التي لها نفس التنسيق في جميع الفقرات. |
+| [GetTextRect](../../aspose.slides/textframe/gettextrect)() | يحصل على مستطيل النص المحدد بواسطة هندسة الشكل الأب. |
+| [HighlightRegex](../../aspose.slides/textframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | يبرز جميع التطابقات للتعبير النمطي باللون المحدد. |
+| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext)(string, Color) | يبرز جميع التطابقات للنص العيني باللون المحدد. |
+| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | يبرز جميع التطابقات للنص العيني باللون المحدد. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/textframe/joinportionswithsameformatting)() | يجمع المقاطع ذات التنسيق نفسه في جميع الفقرات. |
 | [ReplaceRegex](../../aspose.slides/textframe/replaceregex)(Regex, string, IFindResultCallback) | يستبدل جميع التطابقات للتعبير النمطي بالسلسلة المحددة. |
-| [ReplaceText](../../aspose.slides/textframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | يستبدل جميع حالات النص المحدد بنص آخر محدد. |
-| [SplitTextByColumns](../../aspose.slides/textframe/splittextbycolumns)() | يقسم محتوى النص لـ [`ITextFrame`](../itextframe) إلى مصفوفة من السلاسل، حيث يتطابق كل عنصر مع عمود نص منفصل داخل الإطار. |
+| [ReplaceText](../../aspose.slides/textframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | يستبدل جميع حدوث النص المحدد بنص محدد آخر. |
+| [SplitTextByColumns](../../aspose.slides/textframe/splittextbycolumns)() | يقسم محتوى النص لـ [`ITextFrame`](../itextframe) إلى مصفوفة من السلاسل، حيث يمثل كل عنصر عمود نص منفصل داخل الإطار. |
 
 ### انظر أيضًا
 
 * واجهة [ITextFrame](../itextframe)
-* مساحة اسم [Aspose.Slides](../../aspose.slides)
+* مساحة أسماء [Aspose.Slides](../../aspose.slides)
 * تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

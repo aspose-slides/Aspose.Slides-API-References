@@ -1,14 +1,14 @@
 ---
 title: IGradientStopCollection
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje kolekci gradientových zastávek.
+description: Reprezentuje kolekci gradientových zastávek.
 type: docs
-weight: 6030
+weight: 6050
 url: /cs/aspose.slides/igradientstopcollection/
 ---
 ## IGradientStopCollection rozhraní
 
-Representuje kolekci gradientových zastávek.
+Reprezentuje kolekci gradientových zastávek.
 
 ```csharp
 public interface IGradientStopCollection : IGenericCollection<IGradientStop>

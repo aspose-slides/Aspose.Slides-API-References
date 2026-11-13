@@ -1,13 +1,14 @@
 ---
 title: ErrorBarValueType
 second_title: Aspose.Sildes for .NET API Referansı
-description: Hata çubuğu değerinin tipini temsil eder
+description: Hata çubuğu değerinin türünü temsil eder
 type: docs
-weight: 1650
+weight: 1660
 url: /tr/aspose.slides.charts/errorbarvaluetype/
 ---
 ## ErrorBarValueType enum
-Hata çubuğu değeri tipini temsil eder
+
+Hata çubuğu değerinin türünü temsil eder
 
 ```csharp
 public enum ErrorBarValueType
@@ -17,13 +18,13 @@ public enum ErrorBarValueType
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Custom | `0` | Hata çubuklarının uzunluğunun Plus ve Minus öğeleri tarafından belirlenmesini belirtir. |
-| Fixed | `1` | Hata çubuklarının uzunluğunun Error Bar Value tarafından belirlenen sabit değer olmasını belirtir. |
-| Percentage | `2` | Hata çubuklarının uzunluğunun verinin Error Bar Value yüzdesi olmasını belirtir. |
-| StandardDeviation | `3` | Hata çubuklarının uzunluğunun verinin Error Bar Value standart sapması olmasını belirtir. |
-| StandardError | `4` | Hata çubuklarının uzunluğunun verinin Error Bar Value standart hatası olmasını belirtir. |
+| Custom | `0` | Hata çubuklarının uzunluğunun Plus ve Minus öğeleriyle belirleneceğini belirtir. |
+| Fixed | `1` | Hata çubuklarının uzunluğunun Error Bar Value tarafından belirlenen sabit değer olacağını belirtir. |
+| Percentage | `2` | Hata çubuklarının uzunluğunun verinin Error Bar Value yüzdesi olacağını belirtir. |
+| StandardDeviation | `3` | Hata çubuklarının uzunluğunun verinin Error Bar Value standart sapması olacağını belirtir. |
+| StandardError | `4` | Hata çubuklarının uzunluğunun verinin Error Bar Value standart hatası olacağını belirtir. |
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)
 * derleme [Aspose.Slides](../../)

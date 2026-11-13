@@ -3,7 +3,7 @@ title: HighlightRegex
 second_title: Aspose.Sildes pro .NET API Reference
 description: Zvýrazní všechny shody regulárního výrazu určenou barvou.
 type: docs
-weight: 80
+weight: 90
 url: /cs/aspose.slides/itextframe/highlightregex/
 ---
 ## ITextFrame.HighlightRegex metoda
@@ -16,13 +16,13 @@ public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallbac
 
 | Parametr | Typ | Popis |
 | --- | --- | --- |
-| regex | Regex | Regulární výraz Regex pro získání řetězců, které se mají zvýraznit. |
+| regex | Regex | Regulární výraz Regex pro získání řetězců, které mají být zvýrazněny. |
 | highlightColor | Color | Barva pro zvýraznění textu. |
-| callback | IFindResultCallback | Objekt zpětného volání pro přijímání výsledků hledání [`IFindResultCallback`](../../ifindresultcallback). |
+| callback | IFindResultCallback | Objekt zpětného volání pro přijímání výsledků vyhledávání [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Příklady
 
-Následující ukázkový kód ukazuje, jak zvýraznit text v TextFrame pomocí regulárního výrazu.
+Následující ukázka kódu ukazuje, jak zvýraznit text v TextFrame pomocí regulárního výrazu.
 
 ```csharp
 [C#]

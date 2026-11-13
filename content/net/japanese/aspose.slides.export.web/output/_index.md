@@ -1,14 +1,14 @@
 ---
 title: Output
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: IWebDocument の出力要素のコレクションを表します。
 type: docs
-weight: 4640
+weight: 4660
 url: /ja/aspose.slides.export.web/output/
 ---
 ## 出力クラス
 
-!:**IWebDocument** の出力要素のコレクションを表します。
+!:IWebDocument の出力要素のコレクションを表します。
 
 ```csharp
 public sealed class Output
@@ -18,16 +18,17 @@ public sealed class Output
 
 | 名前 | 説明 |
 | --- | --- |
-| [Add](../../aspose.slides.export.web/output/add#add_1)(string, IImage) | 画像の出力要素を追加します。 |
-| [Add](../../aspose.slides.export.web/output/add#add_2)(string, IPPImage) | 画像の出力要素を追加します。 |
-| [Add](../../aspose.slides.export.web/output/add#add_3)(string, IVideo) | 動画の出力要素を追加します。 |
-| [Add](../../aspose.slides.export.web/output/add#add_4)(string, string) | テキストコンテンツの出力要素を追加します。 |
-| [Add](../../aspose.slides.export.web/output/add#add)(string, IFontData, FontStyleType) | 指定されたフォントの出力ファイル要素を作成し、追加します。 |
-| [Add&lt;TContextObject&gt;](../../aspose.slides.export.web/output/add#add_5)(string, string, TContextObject) | コンテキストオブジェクトの出力要素を追加します。 |
+| [Add](../../aspose.slides.export.web/output/add#add)(string, IAudio) | 音声の出力要素を追加します。 |
+| [Add](../../aspose.slides.export.web/output/add#add_2)(string, IImage) | 画像の出力要素を追加します。 |
+| [Add](../../aspose.slides.export.web/output/add#add_3)(string, IPPImage) | 画像の出力要素を追加します。 |
+| [Add](../../aspose.slides.export.web/output/add#add_4)(string, IVideo) | ビデオの出力要素を追加します。 |
+| [Add](../../aspose.slides.export.web/output/add#add_5)(string, string) | テキストコンテンツの出力要素を追加します。 |
+| [Add](../../aspose.slides.export.web/output/add#add_1)(string, IFontData, FontStyleType) | 指定されたフォントの出力ファイル要素を作成して追加します。 |
+| [Add&lt;TContextObject&gt;](../../aspose.slides.export.web/output/add#add_6)(string, string, TContextObject) | コンテキストオブジェクトの出力要素を追加します。 |
 | [BindResource](../../aspose.slides.export.web/output/bindresource)(IOutputFile, object) | リソースを出力ファイルにバインドします。 |
 | [GetResourcePath](../../aspose.slides.export.web/output/getresourcepath)(object) | 指定されたリソースのパスを返します。 |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * アセンブリ [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IPictureFrame
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: चित्र के साथ एक फ्रेम को दर्शाता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: चित्र के साथ एक फ्रेम का प्रतिनिधित्व करता है।
 type: docs
-weight: 6670
+weight: 6690
 url: /hi/aspose.slides/ipictureframe/
 ---
 ## IPictureFrame इंटरफ़ेस
 
-एक फ्रेम को दर्शाता है जिसमें अंदर एक चित्र है।
+एक फ्रेम को दर्शाता है जिसमें एक चित्र शामिल है।
 
 ```csharp
 public interface IPictureFrame : IGeometryShape
@@ -18,14 +18,14 @@ public interface IPictureFrame : IGeometryShape
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides/ipictureframe/asigeometryshape) { get; } | आधार IGeometryShape इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IGeometryShape`](../igeometryshape). |
-| [PictureFormat](../../aspose.slides/ipictureframe/pictureformat) { get; } | एक चित्र फ्रेम के लिए PictureFillFormat ऑब्जेक्ट को लौटाता है। केवल-पढ़ने योग्य [`IPictureFillFormat`](../ipicturefillformat). |
-| [PictureFrameLock](../../aspose.slides/ipictureframe/pictureframelock) { get; } | PictureFrame के लॉक को लौटाता है। केवल-पढ़ने योग्य [`IPictureFrameLock`](../ipictureframelock). |
-| [RelativeScaleHeight](../../aspose.slides/ipictureframe/relativescaleheight) { get; set; } | चित्र फ्रेम की ऊँचाई (मूल चित्र आकार के सापेक्ष) का मापदंड लौटाता या सेट करता है। मान 1.0 100% के बराबर है। पढ़ने/लिखने योग्य Single. |
-| [RelativeScaleWidth](../../aspose.slides/ipictureframe/relativescalewidth) { get; set; } | चित्र फ्रेम की चौड़ाई (मूल चित्र आकार के सापेक्ष) का मापदंड लौटाता या सेट करता है। मान 1.0 100% के बराबर है। पढ़ने/लिखने योग्य Single. |
-| [ShapeLock](../../aspose.slides/ipictureframe/shapelock) { get; } | शैप के लॉक को लौटाता है। केवल-पढ़ने योग्य [`IPictureFrameLock`](../ipictureframelock). |
+| [AsIGeometryShape](../../aspose.slides/ipictureframe/asigeometryshape) { get; } | बेस IGeometryShape इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IGeometryShape`](../igeometryshape)। |
+| [PictureFormat](../../aspose.slides/ipictureframe/pictureformat) { get; } | एक चित्र फ्रेम के लिए PictureFillFormat ऑब्जेक्ट लौटाता है। केवल-पढ़ने योग्य [`IPictureFillFormat`](../ipicturefillformat)। |
+| [PictureFrameLock](../../aspose.slides/ipictureframe/pictureframelock) { get; } | PictureFrame के लॉक लौटाता है। केवल-पढ़ने योग्य [`IPictureFrameLock`](../ipictureframelock)। |
+| [RelativeScaleHeight](../../aspose.slides/ipictureframe/relativescaleheight) { get; set; } | चित्र फ्रेम की ऊँचाई (मूल चित्र आकार के सापेक्ष) के स्केल को लौटाता है या सेट करता है। मान 1.0 100% के बराबर है। पढ़ना/लिखना Single। |
+| [RelativeScaleWidth](../../aspose.slides/ipictureframe/relativescalewidth) { get; set; } | चित्र फ्रेम की चौड़ाई (मूल चित्र आकार के सापेक्ष) के स्केल को लौटाता है या सेट करता है। मान 1.0 100% के बराबर है। पढ़ना/लिखना Single। |
+| [ShapeLock](../../aspose.slides/ipictureframe/shapelock) { get; } | शेप के लॉक लौटाता है। केवल-पढ़ने योग्य [`IPictureFrameLock`](../ipictureframelock)। |
 
-### देखें भी
+### संबंधित देखें
 
 * इंटरफ़ेस [IGeometryShape](../igeometryshape)
 * नामस्थान [Aspose.Slides](../../aspose.slides)

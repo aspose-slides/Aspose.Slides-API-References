@@ -1,44 +1,44 @@
 ---
 title: SaveFormat
-second_title: Aspose.Sildes .NET API referenciája
-description: Azok a konstansok, amelyek meghatározzák egy mentett prezentáció formátumát.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Állandók, amelyek meghatározzák a mentett prezentáció formátumát.
 type: docs
-weight: 4440
+weight: 4460
 url: /hu/aspose.slides.export/saveformat/
 ---
-## SaveFormat felsorolás
+## SaveFormat enumeráció
 
-Azok a konstansok, amelyek meghatározzák egy mentett prezentáció formátumát.
+Állandók, amelyek meghatározzák a mentett prezentáció formátumát.
 
 ```csharp
 public enum SaveFormat
 ```
 
-### Értékek
+### Values
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Ppt | `0` | Prezentáció mentése PPT formátumban. |
-| Pdf | `1` | Prezentáció mentése PDF formátumban. |
-| Xps | `2` | Prezentáció mentése XPS formátumban. |
-| Pptx | `3` | Prezentáció mentése PPTX formátumban. |
-| Ppsx | `4` | Prezentáció mentése PPSX (diavetítés) formátumban. |
-| Tiff | `5` | Prezentáció mentése többoldalas TIFF képként. |
-| Odp | `6` | Prezentáció mentése ODP formátumban. |
-| Pptm | `7` | Prezentáció mentése PPTM (makrók engedélyezett prezentáció) formátumban. |
-| Ppsm | `9` | Prezentáció mentése PPSM (makrók engedélyezett diavetítés) formátumban. |
-| Potx | `10` | Prezentáció mentése POTX (sablon) formátumban. |
-| Potm | `11` | Prezentáció mentése POTM (makrók engedélyezett sablon) formátumban. |
-| Html | `13` | Prezentáció mentése HTML formátumban. |
-| Swf | `15` | Prezentáció mentése SWF formátumban. |
-| Otp | `17` | Prezentáció mentése OTP (prezentációs sablon) formátumban. |
-| Pps | `19` | Prezentáció mentése PPS formátumban. |
-| Pot | `20` | Prezentáció mentése POT formátumban. |
-| Fodp | `21` | Prezentáció mentése FODP formátumban. |
-| Gif | `22` | Prezentáció mentése GIF formátumban. |
-| Html5 | `23` | Prezentáció mentése HTML formátumban az új HTML5 sablonrendszer használatával. |
-| Md | `24` | Prezentáció mentése Markdown formátumban |
-| Xml | `25` | Prezentáció mentése PowerPoint XML Prezentáció formátumban. |
+| Ppt | `0` | Mentse a prezentációt PPT formátumban. |
+| Pdf | `1` | Mentse a prezentációt PDF formátumban. |
+| Xps | `2` | Mentse a prezentációt XPS formátumban. |
+| Pptx | `3` | Mentse a prezentációt PPTX formátumban. |
+| Ppsx | `4` | Mentse a prezentációt PPSX (diavetítés) formátumban. |
+| Tiff | `5` | Mentse a prezentációt többoldalas TIFF képként. |
+| Odp | `6` | Mentse a prezentációt ODP formátumban. |
+| Pptm | `7` | Mentse a prezentációt PPTM (makróval ellátott prezentáció) formátumban. |
+| Ppsm | `9` | Mentse a prezentációt PPSM (makróval ellátott diavetítés) formátumban. |
+| Potx | `10` | Mentse a prezentációt POTX (sablon) formátumban. |
+| Potm | `11` | Mentse a prezentációt POTM (makróval ellátott sablon) formátumban. |
+| Html | `13` | Mentse a prezentációt HTML formátumban. |
+| Swf | `15` | Mentse a prezentációt SWF formátumban. |
+| Otp | `17` | Mentse a prezentációt OTP (prezentációs sablon) formátumban. |
+| Pps | `19` | Mentse a prezentációt PPS formátumban. |
+| Pot | `20` | Mentse a prezentációt POT formátumban. |
+| Fodp | `21` | Mentse a prezentációt FODP formátumban. |
+| Gif | `22` | Mentse a prezentációt GIF formátumban. |
+| Html5 | `23` | Mentse a prezentációt HTML formátumban az új HTML5 sablonrendszerrel. |
+| Md | `24` | Mentse a prezentációt Markdown formátumban |
+| Xml | `25` | Mentse a prezentációt PowerPoint XML Presentation formátumban. |
 
 ### Lásd még
 

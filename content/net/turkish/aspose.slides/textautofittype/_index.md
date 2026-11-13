@@ -3,7 +3,7 @@ title: TextAutofitType
 second_title: Aspose.Sildes için .NET API Referansı
 description: Metin otomatik sığdırma modunu temsil eder.
 type: docs
-weight: 10920
+weight: 10940
 url: /tr/aspose.slides/textautofittype/
 ---
 ## TextAutofitType sayımı
@@ -20,10 +20,10 @@ public enum TextAutofitType : sbyte
 | --- | --- | --- |
 | NotDefined | `-1` | Tanımlanmamış. |
 | None | `0` | Otomatik sığdırma yok. |
-| Normal | `1` | Normal otomatik sığdırma. Yazı tipi boyutu ve satır aralığı, şekle sığacak şekilde azaltılır. |
-| Shape | `2` | Şekil otomatik sığdırma. Şekil boyutu, metne sığacak şekilde değiştirilecektir. |
+| Normal | `1` | Normal otomatik sığdırma. Yazı tipi boyutu ve satır aralığı şekle sığacak şekilde küçültülecektir. |
+| Shape | `2` | Şekil otomatik sığdırma. Şekil boyutu metne sığacak şekilde değiştirilecektir. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

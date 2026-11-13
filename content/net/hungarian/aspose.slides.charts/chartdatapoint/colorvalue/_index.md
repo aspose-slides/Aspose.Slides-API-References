@@ -1,14 +1,14 @@
 ---
 title: ColorValue
-second_title: Aspose.Sildes a .NET API referenciához
-description: Visszaadja a diagram adatpont színértékét. Térképdiagramokhoz használható. Csak olvasható IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+second_title: Aspose.Sildes .NET API referencia
+description: Visszaadja a diagram adatpont színértékét. Map diagramokhoz használható. Csak olvasható IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 60
+weight: 100
 url: /hu/aspose.slides.charts/chartdatapoint/colorvalue/
 ---
 ## ChartDataPoint.ColorValue tulajdonság
 
-Visszaadja a diagram adatpont színértékét. Térképdiagramokhoz használható. Csak olvasható [`IDoubleChartValue`](../../idoublechartvalue).
+Visszaadja a diagram adatpont színértékét. Map diagramokhoz használható. Csak olvasható [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue ColorValue { get; }

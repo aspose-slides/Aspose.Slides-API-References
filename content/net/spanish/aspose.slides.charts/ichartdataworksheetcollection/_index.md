@@ -1,12 +1,12 @@
 ---
 title: IChartDataWorksheetCollection
-second_title: Referencia API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa la colección de hojas de cálculo del libro de datos del gráfico.
 type: docs
-weight: 1880
+weight: 1900
 url: /es/aspose.slides.charts/ichartdataworksheetcollection/
 ---
-## IChartDataWorksheetCollection interfaz
+## interfaz IChartDataWorksheetCollection
 
 Representa la colección de hojas de cálculo del libro de datos del gráfico.
 

@@ -1,9 +1,9 @@
 ---
 title: PresentationText
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET справочника API
 description: Представляет текст, извлечённый из презентации
 type: docs
-weight: 9640
+weight: 9660
 url: /ru/aspose.slides/presentationtext/
 ---
 ## PresentationText класс

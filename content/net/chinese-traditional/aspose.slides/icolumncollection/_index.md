@@ -1,14 +1,14 @@
 ---
 title: IColumnCollection
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes 的 .NET API 參考
 description: 代表表格中欄的集合。
 type: docs
-weight: 5530
+weight: 5550
 url: /zh-hant/aspose.slides/icolumncollection/
 ---
 ## IColumnCollection 介面
 
-代表表格中欄的集合。
+代表表格中的欄集合。
 
 ```csharp
 public interface IColumnCollection : IGenericCollection<IColumn>
@@ -16,13 +16,13 @@ public interface IColumnCollection : IGenericCollection<IColumn>
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides/icolumncollection/item) { get; } | 傳回指定索引處的欄。唯讀 [`IColumn`](../icolumn). |
+| [Item](../../aspose.slides/icolumncollection/item) { get; } | 傳回指定索引處的欄。唯讀 [`IColumn`](../icolumn)。 |
 
 ## 方法
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
 | [AddClone](../../aspose.slides/icolumncollection/addclone)(IColumn, bool) | 建立指定範本列的副本，並將其插入表格底部。 |
 | [InsertClone](../../aspose.slides/icolumncollection/insertclone)(int, IColumn, bool) | 建立指定範本欄的副本，並將其插入表格中指定的位置。 |

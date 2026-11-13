@@ -1,14 +1,14 @@
 ---
 title: NormalViewRestoredProperties
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 일반 보기에서 영역이 가변 복원 크기(최소화되지도 최대화되지도 않음)일 때, 복원된 상단(restoredTop)의 자식인 경우 슬라이드 영역의 너비, 복원된 왼쪽(restoredLeft)의 자식인 경우 높이를 지정합니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 슬라이드 영역의 크기를 지정합니다. 정상 보기에서 restoredTop의 자식이면 너비, restoredLeft의 자식이면 높이를 사용하며, 영역이 가변 복원 크기(축소되지도 않고 최대화되지도 않음)일 때 적용됩니다.
 type: docs
-weight: 9120
+weight: 9140
 url: /ko/aspose.slides/normalviewrestoredproperties/
 ---
 ## NormalViewRestoredProperties 클래스
 
-일반 보기에서 영역이 가변 복원 크기(최소화되지도 최대화되지도 않음)인 경우 슬라이드 영역의 크기를 지정합니다((restoredTop의 자식인 경우 너비, restoredLeft의 자식인 경우 높이)).
+정상 보기에서 슬라이드 영역의 크기를 지정합니다 ((width when a child of restoredTop, height when a child of restoredLeft)의 경우이며, 영역이 가변 복원 크기(축소되지도 않고 최대화되지도 않음)일 때 적용됩니다).
 
 ```csharp
 public class NormalViewRestoredProperties : INormalViewRestoredProperties
@@ -18,8 +18,8 @@ public class NormalViewRestoredProperties : INormalViewRestoredProperties
 
 | 이름 | 설명 |
 | --- | --- |
-| [AutoAdjust](../../aspose.slides/normalviewrestoredproperties/autoadjust) { get; set; } | 응용 프로그램 내에서 보기를 포함하는 창의 크기를 조정할 때 측면 콘텐츠 영역의 크기가 새로운 크기를 보완해야 하는지 여부를 지정합니다. 읽기/쓰기 Boolean. |
-| [DimensionSize](../../aspose.slides/normalviewrestoredproperties/dimensionsize) { get; set; } | 슬라이드 영역의 크기를 지정합니다 (RestoredTop의 자식인 경우 너비, RestoredLeft의 자식인 경우 높이). 읽기/쓰기 Single. |
+| [AutoAdjust](../../aspose.slides/normalviewrestoredproperties/autoadjust) { get; set; } | 애플리케이션 내에서 뷰를 포함하는 창을 크기 조정할 때 측면 콘텐츠 영역의 크기가 새로운 크기를 보상해야 하는지 여부를 지정합니다 읽기/쓰기 Boolean. |
+| [DimensionSize](../../aspose.slides/normalviewrestoredproperties/dimensionsize) { get; set; } | 슬라이드 영역의 크기를 지정합니다 (width when a child of RestoredTop, height when a child of RestoredLeft). 읽기/쓰기 Single. |
 
 ### 참고
 

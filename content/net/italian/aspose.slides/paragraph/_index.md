@@ -1,9 +1,9 @@
 ---
 title: Paragraph
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta un paragrafo di testo.
 type: docs
-weight: 9280
+weight: 9300
 url: /it/aspose.slides/paragraph/
 ---
 ## Paragraph classe
@@ -16,26 +16,28 @@ public sealed class Paragraph : IParagraph
 
 ## Costruttori
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
-| [Paragraph](paragraph#constructor)() | Inizializza una nuova istanza della classe Paragraph con proprietà predefinite. |
+| [Paragraph](paragraph#constructor)() | Inizializza una nuova istanza della classe Paragraph con le proprietà predefinite. |
 | [Paragraph](paragraph#constructor_1)(Paragraph) | Costruttore di copia che inizializza una nuova istanza della classe Paragraph. |
 
 ## Proprietà
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
 | [EndParagraphPortionFormat](../../aspose.slides/paragraph/endparagraphportionformat) { get; set; } | Specifica le proprietà della porzione da utilizzare se un'altra porzione viene inserita dopo l'ultima. |
-| [ParagraphFormat](../../aspose.slides/paragraph/paragraphformat) { get; } | Restituisce l'oggetto di formattazione per questo paragrafo. Solo lettura [`IParagraphFormat`](../iparagraphformat). |
-| [Portions](../../aspose.slides/paragraph/portions) { get; } | Restituisce la raccolta di porzioni di testo. Solo lettura [`IPortionCollection`](../iportioncollection). |
+| [ParagraphFormat](../../aspose.slides/paragraph/paragraphformat) { get; } | Restituisce l'oggetto di formattazione per questo paragrafo. Sola lettura [`IParagraphFormat`](../iparagraphformat). |
+| [Portions](../../aspose.slides/paragraph/portions) { get; } | Restituisce la collezione di porzioni di testo. Sola lettura [`IPortionCollection`](../iportioncollection). |
 | [Text](../../aspose.slides/paragraph/text) { get; set; } | Ottiene o imposta il testo semplice di un paragrafo. Lettura/scrittura String. |
 
 ## Metodi
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
-| [GetLinesCount](../../aspose.slides/paragraph/getlinescount)() | Ottiene il numero di righe in un paragrafo. |
-| [GetRect](../../aspose.slides/paragraph/getrect)() | Ottiene le coordinate del rettangolo che delimitano il paragrafo. Il rettangolo include tutte le righe di testo nel paragrafo, incluse quelle vuote. |
+| [GetImage](../../aspose.slides/paragraph/getimage#getimage)() | Restituisce un'immagine del paragrafo. |
+| [GetImage](../../aspose.slides/paragraph/getimage#getimage_1)(float, float) | Restituisce un'immagine del paragrafo con la scala specificata. |
+| [GetLinesCount](../../aspose.slides/paragraph/getlinescount)() | Restituisce il numero di righe in un paragrafo. |
+| [GetRect](../../aspose.slides/paragraph/getrect)() | Restituisce le coordinate del rettangolo che delimita il paragrafo. Il rettangolo include tutte le righe di testo nel paragrafo, comprese quelle vuote. |
 | [JoinPortionsWithSameFormatting](../../aspose.slides/paragraph/joinportionswithsameformatting)() | Unisce le sequenze con la stessa formattazione. |
 
 ### Vedi anche

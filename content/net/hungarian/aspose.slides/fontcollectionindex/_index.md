@@ -1,9 +1,9 @@
 ---
 title: FontCollectionIndex
-second_title: Aspose.Sildes .NET API Referenciához
-description: A betűkészlet indexét jelöli egy gyűjteményben.
+second_title: Aspose.Sildes .NET API referencia
+description: A betűkészletek indexét jelöli egy gyűjteményben.
 type: docs
-weight: 4810
+weight: 4830
 url: /hu/aspose.slides/fontcollectionindex/
 ---
 ## FontCollectionIndex enumeráció

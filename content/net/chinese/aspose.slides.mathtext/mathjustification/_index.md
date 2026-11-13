@@ -1,14 +1,14 @@
 ---
 title: MathJustification
 second_title: Aspose.Sildes .NET API 参考
-description: 指定数学段落的对齐方式，即同一段落中相邻的数学文本实例的系列。
+description: 指定数学段落的对齐方式，即同一段落内相邻的数学文本实例的系列
 type: docs
-weight: 8800
+weight: 8820
 url: /zh/aspose.slides.mathtext/mathjustification/
 ---
 ## MathJustification 枚举
 
-指定数学段落的对齐方式（同一段落中相邻的数学文本实例的系列）
+指定数学段落的对齐方式（同一段落内相邻的数学文本实例的系列）
 
 ```csharp
 public enum MathJustification
@@ -21,9 +21,9 @@ public enum MathJustification
 | LeftJustified | `1` | 将数学文本左对齐 |
 | RightJustified | `2` | 将数学文本右对齐 |
 | Centered | `3` | 将数学文本居中对齐 |
-| CenteredAsGroup | `4` | 在页面上将整组数学块视为单个单元居中。这意味着数学文本的各实例可以相互对齐，但整组数学文本整体居中。 |
+| CenteredAsGroup | `4` | 在页面上将整个数学块组作为一个单元居中。这意味着数学文本实例可以相互对齐，但整个数学文本组整体居中。 |
 
-### 另请参阅
+### 另请参见
 
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 程序集 [Aspose.Slides](../../)

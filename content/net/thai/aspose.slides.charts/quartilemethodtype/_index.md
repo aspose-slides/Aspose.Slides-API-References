@@ -1,27 +1,27 @@
 ---
 title: QuartileMethodType
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: คืนค่าชนิดของวิธี quartile
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: ส่งคืนประเภทของวิธี quartile
 type: docs
-weight: 2390
+weight: 2410
 url: /th/aspose.slides.charts/quartilemethodtype/
 ---
 ## QuartileMethodType enumeration
 
-คืนค่าชนิดของวิธี quartile
+ส่งคืนประเภทของวิธี quartile
 
 ```csharp
 public enum QuartileMethodType
 ```
 
-### ค่า
+### Values
 
-| ชื่อ | ค่า | คำอธิบาย |
+| Name | Value | Description |
 | --- | --- | --- |
-| Exclusive | `0` | แสดงถึง exclusive quartile method. |
-| Inclusive | `1` | แสดงถึง inclusive quartile method. |
+| Exclusive | `0` | แสดงถึงวิธี quartile แบบ exclusive |
+| Inclusive | `1` | แสดงถึงวิธี quartile แบบ inclusive |
 
-### ดูเพิ่มเติม
+### See Also
 
 * เนมสเปซ [Aspose.Slides.Charts](../../aspose.slides.charts)
 * แอสเซมบลี [Aspose.Slides](../../)

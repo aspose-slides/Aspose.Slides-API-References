@@ -3,10 +3,10 @@ title: DisplayBlanksAsType
 second_title: Aspose.Sildes için .NET API Referansı
 description: Eksik verilerin nasıl görüntüleneceğini belirler.
 type: docs
-weight: 1610
+weight: 1620
 url: /tr/aspose.slides.charts/displayblanksastype/
 ---
-## DisplayBlanksAsType enum
+## DisplayBlanksAsType enumerasyonu
 
 Eksik verilerin nasıl görüntüleneceğini belirler.
 
@@ -18,8 +18,8 @@ public enum DisplayBlanksAsType
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Gap | `0` | Boş değerlerin boşluk olarak bırakılacağını belirtir. |
-| Span | `1` | Boş değerlerin bir çizgiyle doldurulacağını belirtir. |
+| Gap | `0` | Boş değerlerin bir boşluk olarak bırakılacağını belirtir. |
+| Span | `1` | Boş değerlerin bir çizgiyle genişletileceğini belirtir. |
 | Zero | `2` | Boş değerlerin sıfır olarak ele alınacağını belirtir. |
 
 ### Ayrıca Bakınız

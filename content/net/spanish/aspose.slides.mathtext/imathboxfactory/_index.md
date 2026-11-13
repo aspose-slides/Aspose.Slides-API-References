@@ -1,9 +1,9 @@
 ---
 title: IMathBoxFactory
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Permite crear una caja matemática
 type: docs
-weight: 8200
+weight: 8220
 url: /es/aspose.slides.mathtext/imathboxfactory/
 ---
 ## IMathBoxFactory interfaz
@@ -20,7 +20,7 @@ public interface IMathBoxFactory
 | --- | --- |
 | [CreateMathBox](../../aspose.slides.mathtext/imathboxfactory/createmathbox)(IMathElement) | Crea una caja matemática aplicándola al elemento |
 
-### Comentarios
+### Observaciones
 
 Para compatibilidad COM
 

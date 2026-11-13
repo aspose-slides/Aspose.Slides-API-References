@@ -1,9 +1,9 @@
 ---
 title: OdpException
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API справочник
 description: Представляет стандартный внутренний тип исключения.
 type: docs
-weight: 9210
+weight: 9230
 url: /ru/aspose.slides/odpexception/
 ---
 ## OdpException класс
@@ -19,10 +19,10 @@ public class OdpException : Exception
 | Имя | Описание |
 | --- | --- |
 | [OdpException](odpexception#constructor)() | Конструктор по умолчанию |
-| [OdpException](odpexception#constructor_1)(string) | Конструктор, позволяющий добавить сообщение к этому Exception. |
-| [OdpException](odpexception#constructor_2)(string, Exception) | Конструктор для исключения, содержащего сообщение и встроенное исключение. |
+| [OdpException](odpexception#constructor_1)(string) | Конструктор, позволяющий добавить сообщение к этому исключению. |
+| [OdpException](odpexception#constructor_2)(string, Exception) | Конструктор исключения, содержащего сообщение и вложенное исключение. |
 
-### См. также
+### Смотрите также
 
 * пространство имён [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

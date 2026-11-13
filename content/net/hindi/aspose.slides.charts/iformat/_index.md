@@ -3,7 +3,7 @@ title: IFormat
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: चार्ट फ़ॉर्मेट गुणों का प्रतिनिधित्व करता है।
 type: docs
-weight: 2100
+weight: 2120
 url: /hi/aspose.slides.charts/iformat/
 ---
 ## IFormat इंटरफ़ेस
@@ -18,12 +18,12 @@ public interface IFormat
 
 | नाम | विवरण |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/iformat/effect) { get; } | एक चार्ट के लिए उपयोग किए गए प्रभाव लौटाता है। केवल पढ़ने योग्य [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Effect](../../aspose.slides.charts/iformat/effect) { get; } | चार्ट के लिए उपयोग किए गए इफ़ेक्ट्स लौटाता है। केवल पढ़ने योग्य [`IEffectFormat`](../../aspose.slides/ieffectformat). |
 | [Effect3D](../../aspose.slides.charts/iformat/effect3d) { get; } | एक चार्ट के 3D फ़ॉर्मेट को लौटाता है। केवल पढ़ने योग्य [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
-| [Fill](../../aspose.slides.charts/iformat/fill) { get; } | एक चार्ट की भराव शैली गुणों को लौटाता है। केवल पढ़ने योग्य [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [Line](../../aspose.slides.charts/iformat/line) { get; } | एक चार्ट की रेखा शैली गुणों को लौटाता है। केवल पढ़ने योग्य [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Fill](../../aspose.slides.charts/iformat/fill) { get; } | एक चार्ट की फ़िल स्टाइल गुणों को लौटाता है। केवल पढ़ने योग्य [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Line](../../aspose.slides.charts/iformat/line) { get; } | एक चार्ट की लाइन स्टाइल गुणों को लौटाता है। केवल पढ़ने योग्य [`ILineFormat`](../../aspose.slides/ilineformat). |
 
-### देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides.Charts](../../aspose.slides.charts)
 * असेंबली [Aspose.Slides](../../)

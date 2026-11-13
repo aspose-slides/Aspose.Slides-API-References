@@ -3,7 +3,7 @@ title: MasterSlideCollection
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Sammlung von Masterfolien dar.
 type: docs
-weight: 8040
+weight: 8060
 url: /de/aspose.slides/masterslidecollection/
 ---
 ## MasterSlideCollection Klasse
@@ -18,10 +18,10 @@ public sealed class MasterSlideCollection : DomObject<Presentation>, IMasterSlid
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides/masterslidecollection/count) { get; } | Ruft die tatsächlich in der Sammlung enthaltene Anzahl von Elementen ab. Nur-Lese Int32. |
-| [IsSynchronized](../../aspose.slides/masterslidecollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (thread-sicher) ist. Nur-Lese Boolean. |
-| [Item](../../aspose.slides/masterslidecollection/item) { get; } | Ruft das Element am angegebenen Index ab. Nur-Lese [`MasterSlide`](../masterslide). |
-| [SyncRoot](../../aspose.slides/masterslidecollection/syncroot) { get; } | Gibt ein Synchronisations-Root zurück. Nur-Lese Object. |
+| [Count](../../aspose.slides/masterslidecollection/count) { get; } | Gibt die tatsächlich in der Sammlung enthaltene Anzahl von Elementen zurück. Nur Lesezugriff Int32. |
+| [IsSynchronized](../../aspose.slides/masterslidecollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (thread-sicher) ist. Nur Lesezugriff Boolean. |
+| [Item](../../aspose.slides/masterslidecollection/item) { get; } | Gibt das Element am angegebenen Index zurück. Nur Lesezugriff [`MasterSlide`](../masterslide). |
+| [SyncRoot](../../aspose.slides/masterslidecollection/syncroot) { get; } | Gibt eine Synchronisationswurzel zurück. Nur Lesezugriff Object. |
 
 ## Methoden
 
@@ -29,11 +29,11 @@ public sealed class MasterSlideCollection : DomObject<Presentation>, IMasterSlid
 | --- | --- |
 | [AddClone](../../aspose.slides/masterslidecollection/addclone)(IMasterSlide) | Fügt eine Kopie einer angegebenen Masterfolie am Ende der Sammlung hinzu. Verknüpfte Layoutfolien werden ebenfalls kopiert. |
 | [CopyTo](../../aspose.slides/masterslidecollection/copyto)(Array, int) | Kopiert alle Elemente aus der Sammlung in das angegebene Array. |
-| [GetEnumerator](../../aspose.slides/masterslidecollection/getenumerator)() | Gibt einen Enumerator zurück, der durch die Sammlung iteriert. |
+| [GetEnumerator](../../aspose.slides/masterslidecollection/getenumerator)() | Gibt einen Enumerator zurück, der die Sammlung durchläuft. |
 | [InsertClone](../../aspose.slides/masterslidecollection/insertclone)(int, IMasterSlide) | Fügt eine Kopie einer angegebenen Masterfolie an der angegebenen Position der Sammlung ein. Verknüpfte Layoutfolien werden ebenfalls kopiert. |
 | [Remove](../../aspose.slides/masterslidecollection/remove)(IMasterSlide) | Entfernt das erste Vorkommen eines bestimmten Objekts aus der Sammlung. |
-| [RemoveAt](../../aspose.slides/masterslidecollection/removeat)(int) | Entfernt das Element am angegebenen Index der Sammlung. |
-| [RemoveUnused](../../aspose.slides/masterslidecollection/removeunused)(bool) | Entfernt unbelegte Masterfolien. |
+| [RemoveAt](../../aspose.slides/masterslidecollection/removeat)(int) | Entfernt das Element am angegebenen Index aus der Sammlung. |
+| [RemoveUnused](../../aspose.slides/masterslidecollection/removeunused)(bool) | Entfernt nicht verwendete Masterfolien. |
 
 ### Siehe auch
 

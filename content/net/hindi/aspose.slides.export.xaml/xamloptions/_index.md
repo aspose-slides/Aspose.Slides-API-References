@@ -1,14 +1,14 @@
 ---
 title: XamlOptions
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: ऐसे विकल्प जो निर्धारित करते हैं कि XAML दस्तावेज़ कैसे सहेजा जाता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: विकल्प जो नियंत्रित करते हैं कि XAML दस्तावेज़ कैसे सहेजा जाता है।
 type: docs
-weight: 4720
+weight: 4740
 url: /hi/aspose.slides.export.xaml/xamloptions/
 ---
 ## XamlOptions वर्ग
 
-ऐसे विकल्प जो निर्धारित करते हैं कि XAML दस्तावेज़ कैसे सहेजा जाता है।
+विकल्प जो नियंत्रित करते हैं कि XAML दस्तावेज़ कैसे सहेजा जाता है।
 
 ```csharp
 public class XamlOptions : SaveOptions, IXamlOptions
@@ -18,19 +18,19 @@ public class XamlOptions : SaveOptions, IXamlOptions
 
 | नाम | विवरण |
 | --- | --- |
-| [XamlOptions](xamloptions)() | XamlOptions उदाहरण बनाता है। |
+| [XamlOptions](xamloptions)() | XamlOptions इंस्टैंस बनाता है। |
 
 ## गुण
 
 | नाम | विवरण |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | स्रोत फ़ॉन्ट न मिलने पर उपयोग किए जाने वाले फ़ॉन्ट को लौटाता या सेट करता है। पढ़ें/लिखें String। |
-| [ExportHiddenSlides](../../aspose.slides.export.xaml/xamloptions/exporthiddenslides) { get; set; } | तय करता है कि छिपी हुई स्लाइड्स निर्यात की जाएँगी या नहीं। |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | ग्रेडिएंट की दृश्य शैली को लौटाता या सेट करता है। पढ़ें/लिखें [`GradientStyle`](../../aspose.slides/gradientstyle)। |
-| [OutputSaver](../../aspose.slides.export.xaml/xamloptions/outputsaver) { get; set; } | IOutputSaver इंटरफ़ेस का एक कार्यान्वयन दर्शाता है। |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | प्रगति अपडेट को प्रतिशत में सहेजने के लिए एक कॉलबैक ऑब्जेक्ट दर्शाता है। देखें [`IProgressCallback`](../../aspose.slides/iprogresscallback)। |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | प्रस्तुति सहेजते समय जावास्क्रिप्ट कॉल वाली हाइपरलिंक को छोड़ना है या नहीं, निर्दिष्ट करता है। पढ़ें/लिखें Boolean। डिफ़ॉल्ट मान **false** है। |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | एक वस्तु को लौटाता या सेट करता है जो चेतावनी प्राप्त करती है और तय करती है कि लोडिंग प्रक्रिया जारी रहे या रद्द हो। पढ़ें/लिखें [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)। |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | स्रोत फ़ॉन्ट न मिलने पर उपयोग किए जाने वाले फ़ॉन्ट को लौटाता या सेट करता है। पढ़ने-लिखने योग्य String. |
+| [ExportHiddenSlides](../../aspose.slides.export.xaml/xamloptions/exporthiddenslides) { get; set; } | निर्धारित करता है कि छिपी स्लाइड्स निर्यात की जाएँगी या नहीं। |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | ग्रेडिएंट की दृश्य शैली को लौटाता या सेट करता है। पढ़ने/लिखने योग्य [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [OutputSaver](../../aspose.slides.export.xaml/xamloptions/outputsaver) { get; set; } | IOutputSaver इंटरफ़ेस के एक कार्यान्वयन को दर्शाता है। |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | प्रगति प्रतिशत में सहेजने के अपडेट्स के लिए एक कॉलबैक ऑब्जेक्ट दर्शाता है। देखें [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | प्रेज़ेंटेशन सहेजते समय JavaScript कॉल वाले हाइपरलिंक को छोड़ना है या नहीं, निर्धारित करता है। पढ़ने/लिखने योग्य Boolean। डिफ़ॉल्ट मान **false** है। |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | चेतावनियाँ प्राप्त करने और यह तय करने वाला ऑब्जेक्ट को लौटाता या सेट करता है कि लोडिंग प्रक्रिया जारी रहेगी या रद्द की जाएगी। पढ़ने/लिखने योग्य [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### उदाहरण
 
@@ -42,7 +42,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### संबंधित
+### देखें
 
 * वर्ग [SaveOptions](../../aspose.slides.export/saveoptions)
 * इंटरफ़ेस [IXamlOptions](../ixamloptions)

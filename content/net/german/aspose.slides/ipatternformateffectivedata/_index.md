@@ -1,14 +1,14 @@
 ---
 title: IPatternFormatEffectiveData
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Unveränderliches Objekt, das effektive Musterfüll-Eigenschaften enthält.
+description: Unveränderliches Objekt, das wirksame Musterfüll-Eigenschaften enthält.
 type: docs
-weight: 6630
+weight: 6650
 url: /de/aspose.slides/ipatternformateffectivedata/
 ---
 ## IPatternFormatEffectiveData Schnittstelle
 
-Unveränderliches Objekt, das effektive Musterfüll-Eigenschaften enthält.
+Unveränderliches Objekt, das wirksame Musterfüll-Eigenschaften enthält.
 
 ```csharp
 public interface IPatternFormatEffectiveData
@@ -16,15 +16,15 @@ public interface IPatternFormatEffectiveData
 
 ## Eigenschaften
 
-| Name | Description |
+| Name | Beschreibung |
 | --- | --- |
-| [BackColor](../../aspose.slides/ipatternformateffectivedata/backcolor) { get; } | Gibt die Hintergrund-Musterfarbe zurück. Nur-Lese Color. |
-| [ForeColor](../../aspose.slides/ipatternformateffectivedata/forecolor) { get; } | Gibt die Vordergrund-Musterfarbe zurück. Nur-Lese Color. |
-| [PatternStyle](../../aspose.slides/ipatternformateffectivedata/patternstyle) { get; } | Gibt den Musterstil zurück. Nur-Lese [`PatternStyle`](../patternstyle). |
+| [BackColor](../../aspose.slides/ipatternformateffectivedata/backcolor) { get; } | Gibt die Hintergrundmusterfarbe zurück. Nur lesbar Color. |
+| [ForeColor](../../aspose.slides/ipatternformateffectivedata/forecolor) { get; } | Gibt die Vordergrundmusterfarbe zurück. Nur lesbar Color. |
+| [PatternStyle](../../aspose.slides/ipatternformateffectivedata/patternstyle) { get; } | Gibt den Musterstil zurück. Nur lesbar [`PatternStyle`](../patternstyle). |
 
 ## Methoden
 
-| Name | Description |
+| Name | Beschreibung |
 | --- | --- |
 | [GetTileIImage](../../aspose.slides/ipatternformateffectivedata/gettileiimage)(Color, Color) | Erstellt ein Kachelbild für die Musterfüllung mit angegebenen Farben. |
 

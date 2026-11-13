@@ -1,12 +1,12 @@
 ---
 title: MathArray
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Especifica una matriz vertical de ecuaciones o cualquier objeto matemático
 type: docs
-weight: 8550
+weight: 8570
 url: /es/aspose.slides.mathtext/matharray/
 ---
-## clase MathArray
+## MathArray clase
 
 Especifica una matriz vertical de ecuaciones o cualquier objeto matemático
 
@@ -25,11 +25,11 @@ public sealed class MathArray : MathElementBase, IMathArray
 
 | Nombre | Descripción |
 | --- | --- |
-| [Arguments](../../aspose.slides.mathtext/matharray/arguments) { get; } | Conjunto de elementos de la matriz |
-| [BaseJustification](../../aspose.slides.mathtext/matharray/basejustification) { get; set; } | Especifica alineación de la matriz respecto al texto circundante. El texto fuera de la matriz puede alinearse con la parte inferior, superior o central del objeto matriz. Valor predeterminado: Center |
-| [MaximumDistribution](../../aspose.slides.mathtext/matharray/maximumdistribution) { get; set; } | Distribución máxima. Cuando es verdadero, la matriz se espacia al ancho máximo del elemento contenedor (página, columna, celda, etc.). |
-| [ObjectDistribution](../../aspose.slides.mathtext/matharray/objectdistribution) { get; set; } | Distribución de objeto. Cuando es verdadero, el contenido de la matriz se espacia al ancho máximo del objeto matriz. |
-| [RowSpacing](../../aspose.slides.mathtext/matharray/rowspacing) { get; set; } | Espaciado entre filas de una matriz. Se usa solo cuando RowSpacingRule está establecida en 3 Exactly, caso en el que la unidad de medida son puntos, o Multiple, caso en el que la unidad es medias líneas. Valor predeterminado: 0 |
+| [Arguments](../../aspose.slides.mathtext/matharray/arguments) { get; } | El conjunto de elementos de la matriz |
+| [BaseJustification](../../aspose.slides.mathtext/matharray/basejustification) { get; set; } | Especifica la alineación de la matriz con respecto al texto circundante. El texto fuera de la matriz puede alinearse con la parte inferior, superior o central de un objeto matriz. Valor predeterminado: Center |
+| [MaximumDistribution](../../aspose.slides.mathtext/matharray/maximumdistribution) { get; set; } | Distribución máxima. Cuando es true, la matriz se distribuye al ancho máximo del elemento contenedor (página, columna, celda, etc.). |
+| [ObjectDistribution](../../aspose.slides.mathtext/matharray/objectdistribution) { get; set; } | Distribución del objeto. Cuando es true, el contenido de la matriz se distribuye al ancho máximo del objeto matriz. |
+| [RowSpacing](../../aspose.slides.mathtext/matharray/rowspacing) { get; set; } | Espaciado entre filas de una matriz. Se utiliza solo cuando RowSpacingRule está configurado en 3, caso en el que la unidad de medida es puntos, o Multiple, caso en el que la unidad es medio-líneas. Valor predeterminado: 0 |
 | [RowSpacingRule](../../aspose.slides.mathtext/matharray/rowspacingrule) { get; set; } | Tipo de espaciado vertical entre los elementos de la matriz. Valor predeterminado: SingleLineGap |
 
 ## Métodos
@@ -52,7 +52,7 @@ public sealed class MathArray : MathElementBase, IMathArray
 | [Function](../../aspose.slides.mathtext/mathelementbase/function)(string) | Toma una función de un argumento usando esta instancia como nombre de la función |
 | [GetChildren](../../aspose.slides.mathtext/matharray/getchildren)() | Obtiene los elementos hijos |
 | [Group](../../aspose.slides.mathtext/mathelementbase/group)() | Coloca este elemento en un grupo usando una llave inferior |
-| [Group](../../aspose.slides.mathtext/mathelementbase/group)(char, MathTopBotPositions, MathTopBotPositions) | Coloca este elemento en un grupo usando un carácter de agrupación como una llave inferior u otro |
+| [Group](../../aspose.slides.mathtext/mathelementbase/group)(char, MathTopBotPositions, MathTopBotPositions) | Coloca este elemento en un grupo usando un carácter de agrupación como llave inferior u otro |
 | [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes) | Toma la integral sin límites |
 | [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, IMathElement, IMathElement) | Toma la integral |
 | [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, string, string) | Toma la integral |
@@ -65,8 +65,8 @@ public sealed class MathArray : MathElementBase, IMathArray
 | [Overbar](../../aspose.slides.mathtext/mathelementbase/overbar)() | Establece una barra en la parte superior de este elemento |
 | [Radical](../../aspose.slides.mathtext/mathelementbase/radical)(IMathElement) | Especifica la raíz matemática del grado dado a partir del argumento especificado. |
 | [Radical](../../aspose.slides.mathtext/mathelementbase/radical)(string) | Especifica la raíz matemática del grado dado a partir del argumento especificado. |
-| [SetLowerLimit](../../aspose.slides.mathtext/mathelementbase/setlowerlimit)(IMathElement) | Toma el límite inferior |
-| [SetLowerLimit](../../aspose.slides.mathtext/mathelementbase/setlowerlimit)(string) | Toma el límite inferior |
+| [SetLowerLimit](../../aspose.slides.mathtext/mathelementbase/setlowerlimit)(IMathElement) | Toma límite inferior |
+| [SetLowerLimit](../../aspose.slides.mathtext/mathelementbase/setlowerlimit)(string) | Toma límite inferior |
 | [SetSubscript](../../aspose.slides.mathtext/mathelementbase/setsubscript)(IMathElement) | Crea subíndice |
 | [SetSubscript](../../aspose.slides.mathtext/mathelementbase/setsubscript)(string) | Crea subíndice |
 | [SetSubSuperscriptOnTheLeft](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheleft)(IMathElement, IMathElement) | Crea subíndice y superíndice a la izquierda |
@@ -75,11 +75,11 @@ public sealed class MathArray : MathElementBase, IMathArray
 | [SetSubSuperscriptOnTheRight](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheright)(string, string) | Crea subíndice y superíndice a la derecha |
 | [SetSuperscript](../../aspose.slides.mathtext/mathelementbase/setsuperscript)(IMathElement) | Crea superíndice |
 | [SetSuperscript](../../aspose.slides.mathtext/mathelementbase/setsuperscript)(string) | Crea superíndice |
-| [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit)(IMathElement) | Toma el límite superior |
-| [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit)(string) | Toma el límite superior |
-| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)() | Coloca este elemento en un recuadro con bordes |
-| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)(bool, bool, bool, bool, bool, bool, bool, bool) | Coloca este elemento en un recuadro con bordes |
-| [ToBox](../../aspose.slides.mathtext/mathelementbase/tobox)() | Coloca este elemento en un cuadro no visual (agrupación lógica) que se utiliza para agrupar componentes de una ecuación u otra instancia de texto matemático. Un objeto en cuadro puede (por ejemplo) servir como emulador de operador con o sin punto de alineación, servir como punto de salto de línea, o agruparse de forma que no se permitan saltos de línea dentro. |
+| [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit)(IMathElement) | Toma límite superior |
+| [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit)(string) | Toma límite superior |
+| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)() | Coloca este elemento en una caja con bordes |
+| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)(bool, bool, bool, bool, bool, bool, bool, bool) | Coloca este elemento en una caja con bordes |
+| [ToBox](../../aspose.slides.mathtext/mathelementbase/tobox)() | Coloca este elemento en una caja no visual (agrupación lógica) que se usa para agrupar componentes de una ecuación u otra instancia de texto matemático. Un objeto en caja puede (por ejemplo) servir como un emulador de operador con o sin punto de alineación, servir como punto de corte de línea, o agruparse de forma que no permita saltos de línea dentro. |
 | virtual [ToMathArray](../../aspose.slides.mathtext/mathelementbase/tomatharray)() | Coloca en una matriz vertical |
 | [Underbar](../../aspose.slides.mathtext/mathelementbase/underbar)() | Establece una barra en la parte inferior de este elemento |
 
@@ -92,7 +92,7 @@ Ejemplo:
 MathArray mathArray = new MathArray(new MathematicalText("item1"));
 ```
 
-### Ver también
+### Véase también
 
 * clase [MathElementBase](../mathelementbase)
 * interfaz [IMathArray](../imatharray)

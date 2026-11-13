@@ -1,14 +1,14 @@
 ---
 title: IReflectionEffectiveData
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Đối tượng bất biến đại diện cho hiệu ứng Phản chiếu.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Đối tượng bất biến đại diện cho hiệu ứng Reflection.
 type: docs
-weight: 3510
+weight: 3530
 url: /vi/aspose.slides.effects/ireflectioneffectivedata/
 ---
 ## IReflectionEffectiveData giao diện
 
-Immutable object which represents a Reflection effect.
+Đối tượng bất biến đại diện cho hiệu ứng Reflection.
 
 ```csharp
 public interface IReflectionEffectiveData : IEffectEffectiveData
@@ -18,26 +18,26 @@ public interface IReflectionEffectiveData : IEffectEffectiveData
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ireflectioneffectivedata/asieffecteffectivedata) { get; } | Cho phép lấy giao diện IEffectEffectiveData cơ bản. Chỉ đọc [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ireflectioneffectivedata/asieffecteffectivedata) { get; } | Cho phép lấy giao diện cơ sở IEffectEffectiveData. Chỉ đọc [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [BlurRadius](../../aspose.slides.effects/ireflectioneffectivedata/blurradius) { get; } | Bán kính làm mờ. Chỉ đọc Double. |
 | [Direction](../../aspose.slides.effects/ireflectioneffectivedata/direction) { get; } | Hướng của phản chiếu. Chỉ đọc Single. |
 | [Distance](../../aspose.slides.effects/ireflectioneffectivedata/distance) { get; } | Khoảng cách của phản chiếu. Chỉ đọc Double. |
-| [EndPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/endposalpha) { get; } | Xác định vị trí cuối (trên ramp gradient alpha) của giá trị alpha cuối (phần trăm). Chỉ đọc Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity) { get; } | Độ mờ của phản chiếu cuối. (phần trăm). Chỉ đọc Single. |
-| [FadeDirection](../../aspose.slides.effects/ireflectioneffectivedata/fadedirection) { get; } | Xác định hướng lệch của phản chiếu. (góc). Chỉ đọc Single. |
-| [RectangleAlign](../../aspose.slides.effects/ireflectioneffectivedata/rectanglealign) { get; } | Căn chỉnh hình chữ nhật. Chỉ đọc [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [EndPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/endposalpha) { get; } | Xác định vị trí cuối (trên dải gradient alpha) của giá trị alpha cuối (phần trăm). Chỉ đọc Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity) { get; } | Độ mờ cuối của phản chiếu. (phần trăm). Chỉ đọc Single. |
+| [FadeDirection](../../aspose.slides.effects/ireflectioneffectivedata/fadedirection) { get; } | Xác định hướng để dịch chuyển phản chiếu. (góc). Chỉ đọc Single. |
+| [RectangleAlign](../../aspose.slides.effects/ireflectioneffectivedata/rectanglealign) { get; } | Canh lề hình chữ nhật. Chỉ đọc [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
 | [RotateShadowWithShape](../../aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape) { get; } | Xác định liệu phản chiếu có nên quay cùng hình dạng nếu hình dạng được quay. Chỉ đọc Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/scalehorizontal) { get; } | Xác định hệ số co dọc ngang, co âm gây lật. (phần trăm) Chỉ đọc Double. |
-| [ScaleVertical](../../aspose.slides.effects/ireflectioneffectivedata/scalevertical) { get; } | Xác định hệ số co dọc, co âm gây lật. (phần trăm) Chỉ đọc Double. |
+| [ScaleHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/scalehorizontal) { get; } | Xác định hệ số co dọc ngang, scaling âm gây lật. (phần trăm) Chỉ đọc Double. |
+| [ScaleVertical](../../aspose.slides.effects/ireflectioneffectivedata/scalevertical) { get; } | Xác định hệ số co dọc chiều dọc, scaling âm gây lật. (phần trăm) Chỉ đọc Double. |
 | [SkewHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/skewhorizontal) { get; } | Xác định góc nghiêng chiều ngang. Chỉ đọc Double. |
 | [SkewVertical](../../aspose.slides.effects/ireflectioneffectivedata/skewvertical) { get; } | Xác định góc nghiêng chiều dọc. Chỉ đọc Double. |
-| [StartPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/startposalpha) { get; } | Xác định vị trí bắt đầu (trên ramp gradient alpha) của giá trị alpha bắt đầu (phần trăm). Chỉ đọc Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity) { get; } | Độ mờ phản chiếu bắt đầu. (phần trăm). Chỉ đọc Single. |
+| [StartPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/startposalpha) { get; } | Xác định vị trí bắt đầu (trên dải gradient alpha) của giá trị alpha bắt đầu (phần trăm). Chỉ đọc Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity) { get; } | Độ mờ bắt đầu của phản chiếu. (phần trăm). Chỉ đọc Single. |
 
-### Xem thêm
+### Xem Thêm
 
 * giao diện [IEffectEffectiveData](../ieffecteffectivedata)
 * không gian tên [Aspose.Slides.Effects](../../aspose.slides.effects)
-* tập hợp [Aspose.Slides](../../)
+* bộ [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

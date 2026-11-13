@@ -1,14 +1,14 @@
 ---
 title: BiLevel
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक Bi-Level काला/सफेद प्रभाव का प्रतिनिधित्व करता है। इनपुट रंग जिनकी चमक निर्दिष्ट थ्रेशोल्ड मान से कम है, काले में बदल दिए जाते हैं। इनपुट रंग जिनकी चमक निर्दिष्ट मान के बराबर या अधिक है, सफेद में सेट किए जाते हैं। इस प्रभाव द्वारा अल्फा इफ़ेक्ट मान अप्रभावित रहते हैं।
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
+description: एक बाय-लेवल काला/सफ़ेद इफ़ेक्ट का प्रतिनिधित्व करता है। उन इनपुट रंगों की luminance जो निर्दिष्ट थ्रेशोल्ड मान से कम है, उन्हें काले रंग में बदल दिया जाता है। उन इनपुट रंगों की luminance जो निर्दिष्ट मान से अधिक या बराबर है, उन्हें सफ़ेद रंग में सेट किया जाता है। इस इफ़ेक्ट द्वारा alpha इफ़ेक्ट मान अपरिवर्तित रहते हैं।
 type: docs
-weight: 2910
+weight: 2930
 url: /hi/aspose.slides.effects/bilevel/
 ---
 ## BiLevel क्लास
 
-एक Bi-Level (काला/सफेद) इफ़ेक्ट का प्रतिनिधित्व करता है। इनपुट रंग जिनकी चमक निर्दिष्ट थ्रेशोल्ड मान से कम है, काले में बदल दिए जाते हैं। इनपुट रंग जिनकी चमक निर्दिष्ट मान के बराबर या अधिक है, सफेद में सेट किए जाते हैं। इस प्रभाव द्वारा अल्फा इफ़ेक्ट मान अप्रभावित रहते हैं।
+एक बाय-लेवल (black/white) इफ़ेक्ट का प्रतिनिधित्व करता है। जिन इनपुट रंगों की luminance निर्दिष्ट threshold मान से कम है, उन्हें काले रंग में बदल दिया जाता है। जिन इनपुट रंगों की luminance निर्दिष्ट मान से अधिक या बराबर है, उन्हें सफेद रंग सेट किया जाता है। alpha इफ़ेक्ट मान इस इफ़ेक्ट से अपरिवर्तित रहते हैं।
 
 ```csharp
 public sealed class BiLevel : ImageTransformOperation, IBiLevel
@@ -18,14 +18,14 @@ public sealed class BiLevel : ImageTransformOperation, IBiLevel
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | आधार IPresentationComponent इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)। |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | बेस IPresentationComponent इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पठनीय [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)। |
 
-## विधियाँ
+## विधियां
 
 | नाम | विवरण |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/bilevel/equals)(object) | निर्धारित करता है कि निर्दिष्ट [`BiLevel`](../bilevel) वर्तमान [`BiLevel`](../bilevel) के बराबर है या नहीं। |
-| [GetEffective](../../aspose.slides.effects/bilevel/geteffective)() | विरासत लागू होने पर प्रभावी Bi-Level प्रभाव डेटा प्राप्त करता है। |
+| [GetEffective](../../aspose.slides.effects/bilevel/geteffective)() | वारिसी लागू होने पर प्रभावी Bi-Level इफ़ेक्ट डेटा प्राप्त करता है। |
 | override [GetHashCode](../../aspose.slides.effects/bilevel/gethashcode)() | एक विशिष्ट प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है। |
 
 ### संबंधित देखें

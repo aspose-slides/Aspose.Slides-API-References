@@ -3,7 +3,7 @@ title: ICameraEffectiveData
 second_title: Aspose.Sildes für .NET API Referenz
 description: Unveränderliches Objekt, das effektive Kameraeigenschaften enthält.
 type: docs
-weight: 5420
+weight: 5440
 url: /de/aspose.slides/icameraeffectivedata/
 ---
 ## ICameraEffectiveData Schnittstelle
@@ -26,7 +26,7 @@ public interface ICameraEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | Eine Rotation wird durch die Verwendung einer Breitengradkoordinate, einer Längengradkoordinate und einer Umdrehung um die Achse definiert, wobei die Breitengrad- und Längengradkoordinaten verwendet werden. Erstes Element im Rückgabearray – Breitengrad, zweites – Längengrad, drittes – Umdrehung. Gibt null zurück, wenn keine Rotation definiert ist. |
+| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | Eine Drehung wird definiert durch die Verwendung einer Breitenkoordinate, einer Längenskoordinate und einer Umdrehung um die Achse als Breiten- und Längenskoordinaten. Das erste Element im Rückgabe-Array – Breite, das zweite – Länge, das dritte – Umdrehung. Gibt null zurück, wenn keine Drehung definiert ist. |
 
 ### Anmerkungen
 

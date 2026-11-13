@@ -1,14 +1,14 @@
----  
-title: HandoutType  
-second_title: Aspose.Sildes untuk Referensi API .NET  
-description: Menentukan berapa banyak slide dan dalam urutan apa yang akan ditempatkan pada halaman.  
-type: docs  
-weight: 3850  
-url: /id/aspose.slides.export/handouttype/  
+---
+title: HandoutType
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Menentukan berapa banyak slide dan urutan apa yang akan ditempatkan pada halaman.
+type: docs
+weight: 3870
+url: /id/aspose.slides.export/handouttype/
 ---
 ## enumerasi HandoutType
 
-Menentukan berapa banyak slide dan dalam urutan apa yang akan ditempatkan pada halaman.
+Menentukan berapa banyak slide dan urutan apa yang akan ditempatkan pada halaman.
 
 ```csharp
 public enum HandoutType

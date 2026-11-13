@@ -3,10 +3,10 @@ title: HighlightRegex
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Markeert alle overeenkomsten van de reguliere expressie met de opgegeven kleur.
 type: docs
-weight: 80
+weight: 90
 url: /nl/aspose.slides/itextframe/highlightregex/
 ---
-## ITextFrame.HighlightRegex method
+## ITextFrame.HighlightRegex methode
 
 Markeert alle overeenkomsten van de reguliere expressie met de opgegeven kleur.
 
@@ -16,13 +16,13 @@ public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallbac
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| regex | Regex | De reguliere expressie Regex om strings te markeren. |
+| regex | Regex | De reguliere expressie Regex om de te markeren tekenreeksen te verkrijgen. |
 | highlightColor | Color | De kleur om de tekst te markeren. |
 | callback | IFindResultCallback | Het callback-object voor het ontvangen van zoekresultaten [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Voorbeelden
 
-De volgende codevoorbeeld toont hoe u tekst in een TextFrame kunt markeren met behulp van een reguliere expressie.
+De volgende codevoorbeeld laat zien hoe je tekst in een TextFrame kunt markeren met behulp van een reguliere expressie.
 
 ```csharp
 [C#]

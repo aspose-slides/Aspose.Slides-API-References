@@ -1,14 +1,14 @@
 ---
 title: CornerDirectionTransition
-second_title: Aspose.Sildes .NET API referencia
-description: Sarokirányú diaátmenet hatás.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Sarokirányú diavetítési átmenet hatása.
 type: docs
-weight: 10010
+weight: 10030
 url: /hu/aspose.slides.slideshow/cornerdirectiontransition/
 ---
 ## CornerDirectionTransition osztály
 
-Sarokirányú diaátmenet hatás.
+Sarokirányú diavetítési átmenet hatás.
 
 ```csharp
 public class CornerDirectionTransition : TransitionValueBase, ICornerDirectionTransition
@@ -18,14 +18,14 @@ public class CornerDirectionTransition : TransitionValueBase, ICornerDirectionTr
 
 | Név | Leírás |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/cornerdirectiontransition/direction) { get; set; } | Az átlépés iránya. Olvasás/írás [`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/cornerdirectiontransition/direction) { get; set; } | Az átmenet iránya. Olvasás/írás [`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
 
 ## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Meghatározza, hogy a két TransitionValueBase példány egyenlő-e. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Hash függvényként szolgál egy adott típushoz, amely alkalmas hash algoritmusokban és adatstruktúrákban, például hash táblában való használatra. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Megállapítja, hogy a két TransitionValueBase példány egyenlő-e. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Hashfüggvényként szolgál egy adott típushoz, amely alkalmas hash-algoritmusokban és adatstruktúrákban, például egy hash tábla használatára. |
 
 ### Lásd még
 

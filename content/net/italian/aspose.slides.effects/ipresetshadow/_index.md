@@ -1,14 +1,14 @@
 ---
 title: IPresetShadow
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta un effetto di ombra preimpostata.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta un effetto di ombra predefinita.
 type: docs
-weight: 3480
+weight: 3500
 url: /it/aspose.slides.effects/ippresetshadow/
 ---
 ## IPresetShadow interfaccia
 
-Represents a Preset Shadow effect.
+Rappresenta un effetto di ombra predefinita.
 
 ```csharp
 public interface IPresetShadow : IAccessiblePVIObject<IPresetShadowEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IPresetShadow : IAccessiblePVIObject<IPresetShadowEffectiveData
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ipresetshadow/asiaccessiblepviobject) { get; } | Consente di ottenere l'interfaccia IAccessiblePVIObject di base. Sola lettura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ipresetshadow/asiimagetransformoperation) { get; } | Consente di ottenere l'interfaccia IImageTransformOperation di base. Sola lettura [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ipresetshadow/asiaccessiblepviobject) { get; } | Consente di ottenere l'interfaccia base IAccessiblePVIObject. Sola lettura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ipresetshadow/asiimagetransformoperation) { get; } | Consente di ottenere l'interfaccia base IImageTransformOperation. Sola lettura [`IImageTransformOperation`](../iimagetransformoperation). |
 | [Direction](../../aspose.slides.effects/ipresetshadow/direction) { get; set; } | Direzione dell'ombra. Lettura/scrittura Single. |
 | [Distance](../../aspose.slides.effects/ipresetshadow/distance) { get; set; } | Distanza dell'ombra. Lettura/scrittura Double. |
 | [Preset](../../aspose.slides.effects/ipresetshadow/preset) { get; set; } | Preimpostazione. Lettura/scrittura [`PresetShadowType`](../../aspose.slides/presetshadowtype). |

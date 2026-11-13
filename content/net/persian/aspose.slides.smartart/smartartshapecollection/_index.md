@@ -1,14 +1,14 @@
 ---
 title: SmartArtShapeCollection
-second_title: مرجع API Aspose.Sildes برای .NET
-description: نمایانگر مجموعه‌ای از اشکال SmartArt
+second_title: Aspose.Sildes برای .NET مرجع API
+description: نمایانگر یک مجموعه از اشکال SmartArt است
 type: docs
-weight: 10670
+weight: 10690
 url: /fa/aspose.slides.smartart/smartartshapecollection/
 ---
 ## SmartArtShapeCollection کلاس
 
-یک مجموعه از اشکال SmartArt را نشان می‌دهد
+نمایانگر یک مجموعه از اشکال SmartArt است
 
 ```csharp
 public class SmartArtShapeCollection : ISmartArtShapeCollection
@@ -18,21 +18,21 @@ public class SmartArtShapeCollection : ISmartArtShapeCollection
 
 | نام | توضیح |
 | --- | --- |
-| [Count](../../aspose.slides.smartart/smartartshapecollection/count) { get; } | تعداد عناصری که در واقع در مجموعه موجود است را برمی‌گرداند. فقط-خواندنی Int32. |
-| [IsSynchronized](../../aspose.slides.smartart/smartartshapecollection/issynchronized) { get; } | مقداری را برمی‌گرداند که نشان می‌دهد آیا دسترسی به مجموعه همگام‌سازی شده است (thread-safe). فقط-خواندنی Boolean. |
-| [Item](../../aspose.slides.smartart/smartartshapecollection/item) { get; } | عنصر در ایندکس مشخص شده را برمی‌گرداند. فقط-خواندنی [`SmartArtShape`](../smartartshape).&gt;. |
-| [SyncRoot](../../aspose.slides.smartart/smartartshapecollection/syncroot) { get; } | ریشه همگام‌سازی را برمی‌گرداند. فقط-خواندنی Object. |
+| [Count](../../aspose.slides.smartart/smartartshapecollection/count) { get; } | تعداد عناصر واقعاً موجود در مجموعه را به‌دست می‌آورد. فقط خواندنی Int32. |
+| [IsSynchronized](../../aspose.slides.smartart/smartartshapecollection/issynchronized) { get; } | مقداری را برمی‌گرداند که نشان می‌دهد آیا دسترسی به مجموعه همگام‌سازی شده است (thread-safe). فقط خواندنی Boolean. |
+| [Item](../../aspose.slides.smartart/smartartshapecollection/item) { get; } | عنصر موجود در اندیس مشخص‌شده را به‌دست می‌آورد. فقط خواندنی [`SmartArtShape`](../smartartshape).&gt;. |
+| [SyncRoot](../../aspose.slides.smartart/smartartshapecollection/syncroot) { get; } | ریشهٔ همگام‌سازی را برمی‌گرداند. فقط خواندنی Object. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [CopyTo](../../aspose.slides.smartart/smartartshapecollection/copyto)(Array, int) | تمام عناصر را از مجموعه به آرایه مشخص شده کپی می‌کند. |
-| [GetEnumerator](../../aspose.slides.smartart/smartartshapecollection/getenumerator)() | یک enumerator را برمی‌گرداند که در مجموعه پیمایش می‌کند. |
+| [CopyTo](../../aspose.slides.smartart/smartartshapecollection/copyto)(Array, int) | تمام عناصر را از مجموعه به آرایهٔ مشخص‌شده رونوشت می‌کند. |
+| [GetEnumerator](../../aspose.slides.smartart/smartartshapecollection/getenumerator)() | یک شمارشگر را برمی‌گرداند که از طریق مجموعه پیمایش می‌کند. |
 
 ### موارد مرتبط
 
-* اینترفیس [ISmartArtShapeCollection](../ismartartshapecollection)
+* رابط [ISmartArtShapeCollection](../ismartartshapecollection)
 * فضای‌نام [Aspose.Slides.SmartArt](../../aspose.slides.smartart)
 * مونتاژ [Aspose.Slides](../../)
 

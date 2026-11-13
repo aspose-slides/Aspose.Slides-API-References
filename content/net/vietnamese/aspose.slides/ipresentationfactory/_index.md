@@ -1,14 +1,14 @@
 ---
 title: IPresentationFactory
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Cho phép tạo bài thuyết trình qua giao diện COM
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Cho phép tạo bản trình bày thông qua giao diện COM
 type: docs
-weight: 6770
+weight: 6790
 url: /vi/aspose.slides/ipresentationfactory/
 ---
-## IPresentationFactory giao diện
+## IPresentationFactory interface
 
-Cho phép tạo bài thuyết trình qua giao diện COM
+Cho phép tạo bản trình bày thông qua giao diện COM
 
 ```csharp
 public interface IPresentationFactory
@@ -18,23 +18,23 @@ public interface IPresentationFactory
 
 | Tên | Mô tả |
 | --- | --- |
-| [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation)() | Tạo bài thuyết trình mới. |
-| [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Tạo bài thuyết trình mới với các tùy chọn tải bổ sung |
-| [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Lấy thông tin về bài thuyết trình trong luồng được chỉ định. |
-| [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Lấy thông tin về bài thuyết trình trong tệp được chỉ định. |
-| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Truy xuất văn bản thô từ các slide |
-| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Truy xuất văn bản thô từ các slide |
-| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Truy xuất văn bản thô từ các slide |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation)(byte[]) | Đọc một bài thuyết trình hiện có từ mảng |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_2)(Stream) | Đọc một bài thuyết trình hiện có từ luồng |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_4)(string) | Đọc một bài thuyết trình hiện có từ tệp |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | Đọc một bài thuyết trình hiện có từ mảng với các tùy chọn tải bổ sung |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | Đọc một bài thuyết trình hiện có từ luồng với các tùy chọn tải bổ sung |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | Đọc một bài thuyết trình hiện có từ luồng với các tùy chọn tải bổ sung |
+| [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation)() | Tạo bản trình bày mới. |
+| [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Tạo bản trình bày mới với các tùy chọn tải bổ sung |
+| [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Lấy thông tin về bản trình bày trong luồng đã chỉ định. |
+| [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Lấy thông tin về bản trình bày trong tệp đã chỉ định. |
+| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Trích xuất văn bản thô từ các slide |
+| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Trích xuất văn bản thô từ các slide |
+| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Trích xuất văn bản thô từ các slide |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation)(byte[]) | Đọc bản trình bày hiện có từ mảng |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_2)(Stream) | Đọc bản trình bày hiện có từ luồng |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_4)(string) | Đọc bản trình bày hiện có từ tệp |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | Đọc bản trình bày hiện có từ mảng với các tùy chọn tải bổ sung |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | Đọc bản trình bày hiện có từ luồng với các tùy chọn tải bổ sung |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | Đọc bản trình bày hiện có từ luồng với các tùy chọn tải bổ sung |
 
 ### Xem thêm
 
-* namespace [Aspose.Slides](../../aspose.slides)
+* không gian tên [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

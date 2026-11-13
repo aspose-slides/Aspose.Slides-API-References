@@ -1,14 +1,14 @@
 ---
 title: AlphaCeiling
 second_title: Aspose.Sildes için .NET API Referansı
-description: Alpha Ceiling etkisini temsil eder. Sıfırdan büyük alfa opaklık değerleri %100'e değiştirilir. Başka bir deyişle, kısmen opak olan her şey tamamen opak olur.
+description: Alpha Ceiling etkisini temsil eder. Sıfırdan büyük alfa opaklık değerleri %100'e değiştirilir. Başka bir deyişle, kısmen opak olan her şey tamamen opak hâle gelir.
 type: docs
-weight: 2850
+weight: 2870
 url: /tr/aspose.slides.effects/alphaceiling/
 ---
 ## AlphaCeiling sınıf
 
-Bir Alpha Ceiling etkisini temsil eder. Sıfırdan büyük Alpha (opaklık) değerleri %100'e değiştirilir. Başka bir deyişle, kısmen opak olan her şey tamamen opak olur.
+Alpha Ceiling etkisini temsil eder. Sıfırdan büyük alfa (opaklık) değerleri %100’e değiştirilir. Başka bir deyişle, kısmen opak olan her şey tamamen opak hâle gelir.
 
 ```csharp
 public sealed class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
@@ -18,15 +18,15 @@ public sealed class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almayı sağlar. Salt okunur [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arabirimine erişim sağlar. Salt okunur [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphaceiling/equals)(object) | Belirtilen [`AlphaCeiling`](../alphaceiling) öğesinin geçerli [`AlphaCeiling`](../alphaceiling) ile eşit olup olmadığını belirler. |
-| [GetEffective](../../aspose.slides.effects/alphaceiling/geteffective)() | Uygulanan kalıtımla birlikte etkili Alpha Ceiling etkisi verilerini alır. |
-| override [GetHashCode](../../aspose.slides.effects/alphaceiling/gethashcode)() | Belirli bir tür için bir karma işlevi olarak hizmet eder. |
+| override [Equals](../../aspose.slides.effects/alphaceiling/equals)(object) | Belirtilen [`AlphaCeiling`](../alphaceiling)'nin mevcut [`AlphaCeiling`](../alphaceiling) ile eşit olup olmadığını belirler. |
+| [GetEffective](../../aspose.slides.effects/alphaceiling/geteffective)() | Uygulanan kalıtımla etkili Alpha Ceiling efekti verilerini alır. |
+| override [GetHashCode](../../aspose.slides.effects/alphaceiling/gethashcode)() | Belirli bir tip için hash işlevi olarak hizmet eder. |
 
 ### Ayrıca Bakınız
 

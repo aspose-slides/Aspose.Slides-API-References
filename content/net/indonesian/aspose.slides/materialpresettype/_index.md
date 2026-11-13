@@ -1,20 +1,20 @@
 ---
 title: MaterialPresetType
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Konstanta yang mendefinisikan material bentuk.
+description: Konstanta yang menentukan material bentuk.
 type: docs
-weight: 8060
+weight: 8080
 url: /id/aspose.slides/materialpresettype/
 ---
 ## MaterialPresetType enumerasi
 
-Konstanta yang mendefinisikan material bentuk.
+Konstanta yang menentukan material bentuk.
 
 ```csharp
 public enum MaterialPresetType
 ```
 
-### Values
+### Nilai
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |

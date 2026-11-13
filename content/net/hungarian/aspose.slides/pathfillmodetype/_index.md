@@ -1,29 +1,29 @@
 ---
 title: PathFillModeType
-second_title: Aspose.Sildes .NET API referenciája
-description: Megadja, hogy egy útvonalat milyen módon kell kitölteni
+second_title: Aspose.Sildes a .NET-hez API referencia
+description: Megadja, hogy milyen módon kell kitölteni egy útvonalat
 type: docs
-weight: 9330
+weight: 9350
 url: /hu/aspose.slides/pathfillmodetype/
 ---
-## PathFillModeType felsorolás
+## PathFillModeType enumeráció
 
-Megadja, hogyan kell kitölteni egy útvonalat
+Megadja, hogy milyen módon kell kitölteni egy útvonalat
 
 ```csharp
 public enum PathFillModeType : byte
 ```
 
-### Értékek
+### Values
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| None | `0` | Nincs út kitöltés. Ez azt jelzi, hogy a megfelelő útvonalnak nincs kitöltése. |
-| Normal | `1` | Normál út kitöltés. Ez azt jelzi, hogy a megfelelő útvonalra normál árnyalatú szín kerüljön a kitöltésére. |
-| Lighten | `2` | Világosabb út kitöltés. Ez azt jelzi, hogy a megfelelő útvonalra enyhén árnyalt szín kerüljön a kitöltésére. |
-| LightenLess | `3` | Enyhébb világos út kitöltés. Ez azt jelzi, hogy a megfelelő útvonalra kissé világosabb árnyalatú szín kerüljön a kitöltésére. |
-| Darken | `4` | Sötétebb út kitöltés. Ez azt jelzi, hogy a megfelelő útvonalra sötétebb árnyalatú szín kerüljön a kitöltésére. |
-| DarkenLess | `5` | Enyhébb sötétebb út kitöltés. Ez azt jelzi, hogy a megfelelő útvonalra kissé sötétebb árnyalatú szín kerüljön a kitöltésére. |
+| None | `0` | Nincs útvonal-kitöltés. Ez megadja, hogy a megfelelő útvonalnak ne legyen kitöltése. |
+| Normal | `1` | Normál útvonal-kitöltés. Ez megadja, hogy a megfelelő útvonalra normál árnyalattal rendelkező színt kell alkalmazni a kitöltésére. |
+| Lighten | `2` | Világosabb útvonal-kitöltés. Ez megadja, hogy a megfelelő útvonalra enyhén árnyalt színt kell alkalmazni a kitöltésére. |
+| LightenLess | `3` | Könnyen világosabb útvonal-kitöltés. Ez megadja, hogy a megfelelő útvonalra kissé világosabb árnyalatú színt kell alkalmazni a kitöltésére. |
+| Darken | `4` | Sötétebb útvonal-kitöltés. Ez megadja, hogy a megfelelő útvonalra sötétebb árnyalatú színt kell alkalmazni a kitöltésére. |
+| DarkenLess | `5` | Könnyen sötétebb útvonal-kitöltés. Ez megadja, hogy a megfelelő útvonalra kissé sötétebb árnyalatú színt kell alkalmazni a kitöltésére. |
 
 ### Lásd még
 

@@ -3,12 +3,12 @@ title: ModernComment
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 슬라이드에 대한 주석을 나타냅니다.
 type: docs
-weight: 9090
+weight: 9110
 url: /ko/aspose.slides/moderncomment/
 ---
 ## ModernComment 클래스
 
-슬라이드에 대한 주석을 나타냅니다.
+슬라이드에 달린 주석을 나타냅니다.
 
 ```csharp
 public sealed class ModernComment : Comment, IModernComment
@@ -16,12 +16,12 @@ public sealed class ModernComment : Comment, IModernComment
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [Author](../../aspose.slides/comment/author) { get; } | 주석의 작성자를 반환합니다. 읽기 전용 [`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | 주석 작성 시간을 반환하거나 설정합니다. 이 속성을 MinValue로 설정하면 주석 시간이 설정되지 않은 것입니다. 읽기/쓰기 DateTime. |
-| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | 부모 주석을 가져오거나 설정합니다. 읽기/쓰기 [`IComment`](../icomment). |
-| [Position](../../aspose.slides/comment/position) { get; set; } | 주석이 슬라이드에 표시되는 위치를 반환하거나 설정합니다. 읽기/쓰기 PointF. |
+| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | 주석 생성 시간을 반환하거나 설정합니다. 이 속성을 MinValue로 설정하면 주석 시간이 설정되지 않은 것입니다. 읽기/쓰기 DateTime. |
+| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | 상위 주석을 가져오거나 설정합니다. 읽기/쓰기 [`IComment`](../icomment). |
+| [Position](../../aspose.slides/comment/position) { get; set; } | 슬라이드에 달린 주석의 위치를 반환하거나 설정합니다. 읽기/쓰기 PointF. |
 | [Shape](../../aspose.slides/moderncomment/shape) { get; } | 주석과 연결된 도형을 반환합니다. 읽기 전용 [`IShape`](../ishape). |
 | [Slide](../../aspose.slides/comment/slide) { get; } | 주석의 상위 슬라이드를 반환하거나 설정합니다. 읽기 전용 [`ISlide`](../islide). |
 | [Status](../../aspose.slides/moderncomment/status) { get; set; } | 주석의 상태를 가져오거나 설정합니다. 읽기/쓰기 [`ModernCommentStatus`](../moderncommentstatus). |
@@ -31,9 +31,9 @@ public sealed class ModernComment : Comment, IModernComment
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [Remove](../../aspose.slides/comment/remove)() | 주석과 해당 주석의 모든 회신을 상위 컬렉션에서 제거합니다. |
+| [Remove](../../aspose.slides/comment/remove)() | 주석 및 해당 답글을 상위 컬렉션에서 제거합니다. |
 
 ### 예제
 
@@ -48,7 +48,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 참조
+### 관련 항목
 
 * 클래스 [Comment](../comment)
 * 인터페이스 [IModernComment](../imoderncomment)

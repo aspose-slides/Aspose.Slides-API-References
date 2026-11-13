@@ -1,9 +1,9 @@
 ---
 title: ChartCategoryLevelsManager
-second_title: Aspose.Sildes pro .NET API referenci
+second_title: Aspose.Sildes pro .NET API Reference
 description: Spravovaný kontejner hodnot úrovní kategorií grafu.
 type: docs
-weight: 1290
+weight: 1300
 url: /cs/aspose.slides.charts/chartcategorylevelsmanager/
 ---
 ## ChartCategoryLevelsManager třída
@@ -24,8 +24,8 @@ public class ChartCategoryLevelsManager : IChartCategoryLevelsManager
 
 | Název | Popis |
 | --- | --- |
-| [DeleteGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/deletegroupingitem)(int) | Odstraní prvek seskupení pro definovanou úroveň. |
-| [SetGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/setgroupingitem)(int, object) | Nastaví prvek seskupení pro definovanou úroveň. |
+| [DeleteGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/deletegroupingitem)(int) | Odstraní položku seskupení pro definovanou úroveň. |
+| [SetGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/setgroupingitem)(int, object) | Nastaví položku seskupení pro definovanou úroveň. |
 
 ### Viz také
 

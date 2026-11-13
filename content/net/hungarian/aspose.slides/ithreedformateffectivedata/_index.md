@@ -1,14 +1,14 @@
 ---
 title: IThreeDFormatEffectiveData
-second_title: Aspose.Sildes .NET API Referencia
-description: Módosíthatatlan objektum, amely a hatékony 3-D formázási tulajdonságokat képviseli.
+second_title: Aspose.Sildes .NET API referencia
+description: Változtathatatlan objektum, amely a hatékony 3-D formázási tulajdonságokat képviseli.
 type: docs
-weight: 7340
+weight: 7360
 url: /hu/aspose.slides/ithreedformateffectivedata/
 ---
 ## IThreeDFormatEffectiveData interfész
 
-Módosíthatatlan objektum, amely a hatékony 3-D formázási tulajdonságokat képviseli.
+Változtathatatlan objektum, amely a hatékony 3-D formázási tulajdonságokat képviseli.
 
 ```csharp
 public interface IThreeDFormatEffectiveData : IThreeDParamSource
@@ -18,21 +18,21 @@ public interface IThreeDFormatEffectiveData : IThreeDParamSource
 
 | Név | Leírás |
 | --- | --- |
-| [AsIThreeDParamSource](../../aspose.slides/ithreedformateffectivedata/asithreedparamsource) { get; } | Lehetővé teszi az alap IThreeDParamSource interfész lekérdezését. Csak olvasható [`IThreeDParamSource`](../ithreedparamsource). |
-| [BevelBottom](../../aspose.slides/ithreedformateffectivedata/bevelbottom) { get; } | Visszaadja az alsó 3D domborítás típusát. Csak olvasható [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
-| [BevelTop](../../aspose.slides/ithreedformateffectivedata/beveltop) { get; } | Visszaadja a felső 3D domborítás típusát. Csak olvasható [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
+| [AsIThreeDParamSource](../../aspose.slides/ithreedformateffectivedata/asithreedparamsource) { get; } | Lehetővé teszi a bázis IThreeDParamSource interfész lekérését. Csak olvasható [`IThreeDParamSource`](../ithreedparamsource). |
+| [BevelBottom](../../aspose.slides/ithreedformateffectivedata/bevelbottom) { get; } | Visszaadja az alsó 3D bevel típusát. Csak olvasható [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
+| [BevelTop](../../aspose.slides/ithreedformateffectivedata/beveltop) { get; } | Visszaadja a felső 3D bevel típusát. Csak olvasható [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
 | [Camera](../../aspose.slides/ithreedformateffectivedata/camera) { get; } | Visszaadja egy kamera beállításait. Csak olvasható [`ICameraEffectiveData`](../icameraeffectivedata). |
 | [ContourColor](../../aspose.slides/ithreedformateffectivedata/contourcolor) { get; } | Visszaadja egy kontúr színét. Csak olvasható Color. |
-| [ContourWidth](../../aspose.slides/ithreedformateffectivedata/contourwidth) { get; } | Visszaadja egy 3D kontúr szélességét. Csak olvasható Double. |
-| [Depth](../../aspose.slides/ithreedformateffectivedata/depth) { get; } | Visszaadja egy 3D alak mélységét. Csak olvasható Double. |
-| [ExtrusionColor](../../aspose.slides/ithreedformateffectivedata/extrusioncolor) { get; } | Visszaadja egy extrusion színét. Csak olvasható Color. |
-| [ExtrusionHeight](../../aspose.slides/ithreedformateffectivedata/extrusionheight) { get; } | Visszaadja egy extrusion hatás magasságát. Csak olvasható Double. |
-| [LightRig](../../aspose.slides/ithreedformateffectivedata/lightrig) { get; } | Visszaadja egy fény típusát. Csak olvasható [`ILightRigEffectiveData`](../ilightrigeffectivedata). |
-| [Material](../../aspose.slides/ithreedformateffectivedata/material) { get; } | Visszaadja egy anyag típusát. Csak olvasható [`MaterialPresetType`](../materialpresettype). |
+| [ContourWidth](../../aspose.slides/ithreedformateffectivedata/contourwidth) { get; } | Visszaadja a 3D kontúr szélességét. Csak olvasható Double. |
+| [Depth](../../aspose.slides/ithreedformateffectivedata/depth) { get; } | Visszaadja a 3D alak mélységét. Csak olvasható Double. |
+| [ExtrusionColor](../../aspose.slides/ithreedformateffectivedata/extrusioncolor) { get; } | Visszaadja egy extrúzió színét. Csak olvasható Color. |
+| [ExtrusionHeight](../../aspose.slides/ithreedformateffectivedata/extrusionheight) { get; } | Visszaadja egy extrúziós effektus magasságát. Csak olvasható Double. |
+| [LightRig](../../aspose.slides/ithreedformateffectivedata/lightrig) { get; } | Visszaadja a fény típusát. Csak olvasható [`ILightRigEffectiveData`](../ilightrigeffectivedata). |
+| [Material](../../aspose.slides/ithreedformateffectivedata/material) { get; } | Visszaadja az anyag típusát. Csak olvasható [`MaterialPresetType`](../materialpresettype). |
 
 ### Megjegyzés
 
-Ez az interfész a(z) [`IThreeDFormat`](../ithreedformat) interfésszel együtt használható a hatékón formázási értékek visszaadásához öröklődéssel.
+Ez az interfész a [`IThreeDFormat`](../ithreedformat) interfészzel együtt használható a hatékony formázási értékek visszaadására, öröklődéssel alkalmazva.
 
 ### Lásd még
 

@@ -1,14 +1,14 @@
 ---
 title: PptException
-second_title: Aspose.Sildes dla .NET - odniesienie API
+second_title: Aspose.Sildes dla .NET – referencja API
 description: Reprezentuje standardowy wewnętrzny typ wyjątku.
 type: docs
-weight: 9520
+weight: 9540
 url: /pl/aspose.slides/pptexception/
 ---
-## Klasa PptException
+## PptException klasa
 
-Reprezentuje standardowy wewnętrzny typ wyjątku.
+Reprezentuje standardowy typ wewnętrznego wyjątku.
 
 ```csharp
 public class PptException : Exception
@@ -18,9 +18,9 @@ public class PptException : Exception
 
 | Nazwa | Opis |
 | --- | --- |
-| [PptException](pptexception#constructor)() | Konstruktor domyślny. |
-| [PptException](pptexception#constructor_1)(string) | Konstruktor umożliwiający dodanie wiadomości do tego wyjątku. |
-| [PptException](pptexception#constructor_2)(string, Exception) | Konstruktor wyjątku zawierającego wiadomość i wbudowany wyjątek. |
+| [PptException](pptexception#constructor)() | Domyślny konstruktor. |
+| [PptException](pptexception#constructor_1)(string) | Konstruktor umożliwiający dodanie komunikatu do tego wyjątku. |
+| [PptException](pptexception#constructor_2)(string, Exception) | Konstruktor wyjątku zawierającego komunikat i zagnieżdżony wyjątek. |
 
 ### Zobacz także
 

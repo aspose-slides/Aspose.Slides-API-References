@@ -1,14 +1,14 @@
 ---
 title: PresentationFactory
-second_title: Aspose.Sildes para referência de API .NET
-description: Permite criar apresentações via interface COM
+second_title: Aspose.Sildes para .NET Referência da API
+description: Permite criar apresentação via interface COM
 type: docs
-weight: 9600
+weight: 9620
 url: /pt/aspose.slides/presentationfactory/
 ---
 ## classe PresentationFactory
 
-Permite criar apresentações via interface COM
+Permite criar apresentação via interface COM
 
 ```csharp
 public class PresentationFactory : IPresentationFactory
@@ -30,10 +30,10 @@ public class PresentationFactory : IPresentationFactory
 
 | Nome | Descrição |
 | --- | --- |
-| [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation)() | Cria uma nova apresentação. |
-| [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Cria uma nova apresentação com opções de carregamento adicionais |
-| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Cria um objeto PresentationInfo a partir de um fluxo e vincula a apresentação a ele. Obtém informações sobre a apresentação no fluxo especificado. |
-| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Cria um objeto PresentationInfo a partir de um arquivo e vincula a apresentação a ele. |
+| [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation)() | Cria nova apresentação. |
+| [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Cria nova apresentação com opções de carregamento adicionais |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Cria um objeto PresentationInfo a partir de um fluxo e associa a apresentação a ele. Obtém informações sobre a apresentação no fluxo especificado. |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Cria um objeto PresentationInfo a partir de um arquivo e associa a apresentação a ele. |
 | [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Recupera o texto bruto dos slides |
 | [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Recupera o texto bruto dos slides |
 | [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Recupera o texto bruto dos slides |
@@ -46,7 +46,7 @@ public class PresentationFactory : IPresentationFactory
 
 ### Exemplos
 
-O exemplo a seguir mostra como verificar um formato de apresentação.
+O exemplo a seguir mostra como verificar um Formato de Apresentação.
 
 ```csharp
 [C#]
@@ -58,7 +58,7 @@ IPresentationInfo info3 = PresentationFactory.Instance.GetPresentationInfo("pres
 Console.WriteLine(info3.LoadFormat); // ODP
 ```
 
-O exemplo a seguir mostra como obter as propriedades de uma apresentação.
+O exemplo a seguir mostra como obter as propriedades de uma Apresentação.
 
 ```csharp
 [C#]
@@ -70,7 +70,7 @@ Console.WriteLine(props.Title);
 // ..
 ```
 
-O exemplo a seguir mostra como atualizar as propriedades de uma apresentação.
+O exemplo a seguir mostra como atualizar as propriedades de uma Apresentação.
 
 ```csharp
 [C#]

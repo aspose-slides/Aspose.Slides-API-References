@@ -1,14 +1,14 @@
 ---
 title: TextStrikethroughType
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta il tipo di barrato del testo.
+description: Rappresenta il tipo di barratura del testo.
 type: docs
-weight: 10990
+weight: 11010
 url: /it/aspose.slides/textstrikethroughtype/
 ---
-## Enumerazione TextStrikethroughType
+## TextStrikethroughType enumerazione
 
-Rappresenta il tipo di barrato del testo.
+Rappresenta il tipo di barratura del testo.
 
 ```csharp
 public enum TextStrikethroughType : sbyte
@@ -16,7 +16,7 @@ public enum TextStrikethroughType : sbyte
 
 ### Valori
 
-| Nome | Valore | Descrizione |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | None | `0` |  |

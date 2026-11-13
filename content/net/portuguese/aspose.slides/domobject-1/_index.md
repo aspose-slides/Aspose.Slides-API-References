@@ -1,9 +1,9 @@
 ---
 title: DomObjectTParent
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência de API
 description: Objeto DOM base
 type: docs
-weight: 2800
+weight: 2820
 url: /pt/aspose.slides/domobject-1/
 ---
 ## DomObject<TParent> classe
@@ -18,7 +18,7 @@ public abstract class DomObject<TParent>
 | --- | --- |
 | TParent | Tipo do objeto DOM pai |
 
-### Ver também
+### Veja também
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

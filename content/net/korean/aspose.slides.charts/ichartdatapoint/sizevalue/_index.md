@@ -1,14 +1,14 @@
 ---
 title: SizeValue
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 차트 데이터 포인트의 크기 값을 반환합니다. Treemap 및 Sunburst 차트와 함께 사용됩니다. 읽기 전용 IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+second_title: Aspose.Sildes for .NET API 참조
+description: 차트 데이터 포인트의 크기 값을 가져옵니다. Treemap 및 Sunburst 차트와 함께 사용됩니다. 읽기 전용 IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 150
+weight: 190
 url: /ko/aspose.slides.charts/ichartdatapoint/sizevalue/
 ---
 ## IChartDataPoint.SizeValue 속성
 
-차트 데이터 포인트의 크기 값을 반환합니다. Treemap 및 Sunburst 차트와 함께 사용됩니다. 읽기 전용 [`IDoubleChartValue`](../../idoublechartvalue).
+차트 데이터 포인트의 크기 값을 가져옵니다. Treemap 및 Sunburst 차트와 함께 사용됩니다. 읽기 전용 [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue SizeValue { get; }

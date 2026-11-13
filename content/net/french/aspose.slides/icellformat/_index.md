@@ -1,14 +1,14 @@
 ---
 title: ICellFormat
-second_title: Aspose.Sildes pour .NET Référence API
-description: Représente le format d'une cellule de tableau.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Représente le format d’une cellule de tableau.
 type: docs
-weight: 5470
+weight: 5490
 url: /fr/aspose.slides/icellformat/
 ---
 ## ICellFormat interface
 
-Représente le format d'une cellule de tableau.
+Représente le format d’une cellule de tableau.
 
 ```csharp
 public interface ICellFormat
@@ -18,12 +18,12 @@ public interface ICellFormat
 
 | Nom | Description |
 | --- | --- |
-| [BorderBottom](../../aspose.slides/icellformat/borderbottom) { get; } | Renvoie un objet de propriétés de ligne de bordure inférieure. Lecture seule [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalDown](../../aspose.slides/icellformat/borderdiagonaldown) { get; } | Renvoie un objet de propriétés de ligne diagonale du coin supérieur gauche au coin inférieur droit. Lecture seule [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalUp](../../aspose.slides/icellformat/borderdiagonalup) { get; } | Renvoie un objet de propriétés de ligne diagonale du coin inférieur gauche au coin supérieur droit. Lecture seule [`ILineFormat`](../ilineformat). |
-| [BorderLeft](../../aspose.slides/icellformat/borderleft) { get; } | Renvoie un objet de propriétés de ligne de bordure gauche. Lecture seule [`ILineFormat`](../ilineformat). |
-| [BorderRight](../../aspose.slides/icellformat/borderright) { get; } | Renvoie un objet de propriétés de ligne de bordure droite. Lecture seule [`ILineFormat`](../ilineformat). |
-| [BorderTop](../../aspose.slides/icellformat/bordertop) { get; } | Renvoie un objet de propriétés de ligne de bordure supérieure. Lecture seule [`ILineFormat`](../ilineformat). |
+| [BorderBottom](../../aspose.slides/icellformat/borderbottom) { get; } | Renvoie un objet de propriétés de la ligne de bordure inférieure. Lecture seule [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalDown](../../aspose.slides/icellformat/borderdiagonaldown) { get; } | Renvoie un objet de propriétés de la ligne diagonale du coin supérieur gauche au coin inférieur droit. Lecture seule [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalUp](../../aspose.slides/icellformat/borderdiagonalup) { get; } | Renvoie un objet de propriétés de la ligne diagonale du coin inférieur gauche au coin supérieur droit. Lecture seule [`ILineFormat`](../ilineformat). |
+| [BorderLeft](../../aspose.slides/icellformat/borderleft) { get; } | Renvoie un objet de propriétés de la ligne de bordure gauche. Lecture seule [`ILineFormat`](../ilineformat). |
+| [BorderRight](../../aspose.slides/icellformat/borderright) { get; } | Renvoie un objet de propriétés de la ligne de bordure droite. Lecture seule [`ILineFormat`](../ilineformat). |
+| [BorderTop](../../aspose.slides/icellformat/bordertop) { get; } | Renvoie un objet de propriétés de la ligne de bordure supérieure. Lecture seule [`ILineFormat`](../ilineformat). |
 | [FillFormat](../../aspose.slides/icellformat/fillformat) { get; } | Renvoie un objet de propriétés de remplissage de cellule. Lecture seule [`IFillFormat`](../ifillformat). |
 | [Transparency](../../aspose.slides/icellformat/transparency) { get; set; } | Obtient ou définit la transparence de la couleur de remplissage. Lecture/écriture Single. |
 
@@ -31,7 +31,7 @@ public interface ICellFormat
 
 | Nom | Description |
 | --- | --- |
-| [GetEffective](../../aspose.slides/icellformat/geteffective)() | Obtient les propriétés de formatage effectif de la cellule de tableau avec héritage et styles de tableau appliqués. |
+| [GetEffective](../../aspose.slides/icellformat/geteffective)() | Obtient les propriétés de mise en forme effectives d’une cellule de tableau avec héritage et styles de tableau appliqués. |
 
 ### Voir aussi
 

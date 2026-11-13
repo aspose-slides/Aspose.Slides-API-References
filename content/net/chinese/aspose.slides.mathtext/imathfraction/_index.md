@@ -1,14 +1,14 @@
 ---
 title: IMathFraction
 second_title: Aspose.Sildes for .NET API 参考
-description: 指定分数对象，由分子和分母通过分数线分隔。分数线可以是水平的或对角的，取决于分数属性。分数对象还用于表示堆叠函数，该函数将一个元素放在另一个之上且没有分数线。
+description: 指定由分子和分母通过分数线分隔的分数对象。分数线可以是水平的或对角的，取决于分数属性。该分数对象还用于表示堆叠函数，该函数将一个元素放在另一个之上且没有分数线。
 type: docs
-weight: 8250
+weight: 8270
 url: /zh/aspose.slides.mathtext/imathfraction/
 ---
 ## IMathFraction 接口
 
-指定分数对象，由分子和分母通过分数线分隔。分数线可水平或对角，取决于分数属性。分数对象还用于表示堆叠函数，将一个元素放在另一个之上，且不使用分数线。
+指定分数对象，由分子和分母通过分数线分隔。分数线可以是水平的或对角的，取决于分数属性。分数对象也用于表示堆叠函数，该函数将一个元素放在另一个之上，且没有分数线。
 
 ```csharp
 public interface IMathFraction : IMathElement
@@ -20,7 +20,7 @@ public interface IMathFraction : IMathElement
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathfraction/asimathelement) { get; } | 允许获取基础 IMathElement 接口 [`IMathElement`](../imathelement) |
 | [Denominator](../../aspose.slides.mathtext/imathfraction/denominator) { get; } | 分母 |
-| [FractionType](../../aspose.slides.mathtext/imathfraction/fractiontype) { get; set; } | 分数类型 Default: Bar |
+| [FractionType](../../aspose.slides.mathtext/imathfraction/fractiontype) { get; set; } | 分数类型 默认: Bar |
 | [Numerator](../../aspose.slides.mathtext/imathfraction/numerator) { get; } | 分子 |
 
 ### 示例
@@ -33,7 +33,7 @@ IMathFraction mathFraction = new MathematicalText("x").Divide("y");
 IMathFraction mathFraction2 = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes.Linear);
 ```
 
-### 参见
+### 另见
 
 * 接口 [IMathElement](../imathelement)
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

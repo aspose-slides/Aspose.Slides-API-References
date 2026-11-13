@@ -1,14 +1,14 @@
 ---
 title: ITextStyleEffectiveData
-second_title: Aspose.Sildes .NET API referencia
-description: Módosíthatatlan objektum, amely hatékony szövegstílus-tulajdonságokat tartalmaz.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Változatlan objektum, amely a hatékony szövegstílus tulajdonságokat tartalmaz.
 type: docs
-weight: 7320
+weight: 7340
 url: /hu/aspose.slides/itextstyleeffectivedata/
 ---
 ## ITextStyleEffectiveData interfész
 
-Módosíthatatlan objektum, amely hatékony szövegstílus-tulajdonságokat tartalmaz.
+Változatlan objektum, amely a hatékony szövegstílus tulajdonságokat tartalmaz.
 
 ```csharp
 public interface ITextStyleEffectiveData
@@ -18,7 +18,7 @@ public interface ITextStyleEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [DefaultParagraphFormat](../../aspose.slides/itextstyleeffectivedata/defaultparagraphformat) { get; } | Visszaadja a hatékony alapértelmezett bekezdéstulajdonságokat. Csak olvasható [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata). |
+| [DefaultParagraphFormat](../../aspose.slides/itextstyleeffectivedata/defaultparagraphformat) { get; } | Visszaadja a hatékony alapértelmezett bekezdés tulajdonságokat. Csak olvasható [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata). |
 
 ## Módszerek
 
@@ -26,9 +26,9 @@ public interface ITextStyleEffectiveData
 | --- | --- |
 | [GetLevel](../../aspose.slides/itextstyleeffectivedata/getlevel)(int) | Visszaadja a hatékony stílus szintjét. |
 
-### Megjegyzés
+### Megjegyzések
 
-Ez az interfész a [`ITextStyle`](../itextstyle) interfésssel együtt használható, hogy visszaadja a öröklődés alkalmazott hatékony formázási értékeket.
+Ez az interfész a [`ITextStyle`](../itextstyle) interfészzel együtt használható a hatékony formázási értékek visszaadására, öröklődéssel alkalmazva.
 
 ### Lásd még
 

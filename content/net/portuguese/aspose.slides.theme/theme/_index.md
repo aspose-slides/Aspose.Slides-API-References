@@ -1,12 +1,12 @@
 ---
 title: Theme
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa um tema.
 type: docs
-weight: 11480
+weight: 11500
 url: /pt/aspose.slides.theme/theme/
 ---
-## classe Theme
+## Theme classe
 
 Representa um tema.
 

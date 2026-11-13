@@ -3,10 +3,10 @@ title: LineArrowheadWidth
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa el ancho de una punta de flecha.
 type: docs
-weight: 7750
+weight: 7770
 url: /es/aspose.slides/linearrowheadwidth/
 ---
-## Enumeración LineArrowheadWidth
+## LineArrowheadWidth enumeración
 
 Representa el ancho de una punta de flecha.
 

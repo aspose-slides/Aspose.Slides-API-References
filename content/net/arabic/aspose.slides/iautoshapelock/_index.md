@@ -1,15 +1,14 @@
 ---
 title: IAutoShapeLock
 second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: يحدد العمليات التي تم تعطيلها على العنصر AutoshapeEx الأصلي.
+description: يحدد العمليات التي تم تعطيلها على العنصر الأصلي AutoshapeEx.
 type: docs
-weight: 5250
+weight: 5270
 url: /ar/aspose.slides/iautoshapelock/
 ---
+## IAutoShapeLock واجهة
 
-## واجهة IAutoShapeLock
-
-يحدد العمليات التي تم تعطيلها على العنصر AutoshapeEx الأصلي.
+يحدد أي العمليات معطلة على العنصر الأب AutoshapeEx.
 
 ```csharp
 public interface IAutoShapeLock : IBaseShapeLock
@@ -17,25 +16,25 @@ public interface IAutoShapeLock : IBaseShapeLock
 
 ## الخصائص
 
-| الاسم | الوصف |
+| Name | Description |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/iautoshapelock/adjusthandleslocked) { get; set; } | يحدد ما إذا كان تعديل قيم الضبط محظورًا. قابل للقراءة والكتابة Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/iautoshapelock/arrowheadslocked) { get; set; } | يحدد ما إذا كان تغيير رؤوس السهام محظورًا. قابل للقراءة والكتابة Boolean. |
-| [AsIBaseShapeLock](../../aspose.slides/iautoshapelock/asibaseshapelock) { get; } | يسمح بالحصول على واجهة IBaseShapeLock الأساسية. قابل للقراءة فقط [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/iautoshapelock/aspectratiolocked) { get; set; } | يحدد ما إذا كان يجب على الشكل الحفاظ على نسبة العرض إلى الارتفاع عند تغيير الحجم. قابل للقراءة والكتابة Boolean. |
-| [EditPointsLocked](../../aspose.slides/iautoshapelock/editpointslocked) { get; set; } | يحدد ما إذا كان تعديل مباشر لمحیط هذا الشكل محظورًا. قابل للقراءة والكتابة Boolean. |
-| [GroupingLocked](../../aspose.slides/iautoshapelock/groupinglocked) { get; set; } | يحدد ما إذا كان إضافة هذا الشكل إلى مجموعة محظورة. قابل للقراءة والكتابة Boolean. |
-| [PositionLocked](../../aspose.slides/iautoshapelock/positionlocked) { get; set; } | يحدد ما إذا كان تحريك هذا الشكل محظورًا. قابل للقراءة والكتابة Boolean. |
-| [RotateLocked](../../aspose.slides/iautoshapelock/rotatelocked) { get; set; } | يحدد ما إذا كان تغيير زاوية الدوران لهذا الشكل محظورًا. قابل للقراءة والكتابة Boolean. |
-| [SelectLocked](../../aspose.slides/iautoshapelock/selectlocked) { get; set; } | يحدد ما إذا كان تحديد هذا الشكل محظورًا. قابل للقراءة والكتابة Boolean. |
-| [ShapeTypeLocked](../../aspose.slides/iautoshapelock/shapetypelocked) { get; set; } | يحدد ما إذا كان تغيير نوع الشكل محظورًا. قابل للقراءة والكتابة Boolean. |
-| [SizeLocked](../../aspose.slides/iautoshapelock/sizelocked) { get; set; } | يحدد ما إذا كان تغيير حجم هذا الشكل محظورًا. قابل للقراءة والكتابة Boolean. |
-| [TextLocked](../../aspose.slides/iautoshapelock/textlocked) { get; set; } | يحدد ما إذا كان تحرير النص محظورًا. قابل للقراءة والكتابة Boolean. |
+| [AdjustHandlesLocked](../../aspose.slides/iautoshapelock/adjusthandleslocked) { get; set; } | يحدد ما إذا كان تعديل قيم الضبط محظورًا. Boolean قابل للقراءة والكتابة. |
+| [ArrowheadsLocked](../../aspose.slides/iautoshapelock/arrowheadslocked) { get; set; } | يحدد ما إذا كان تعديل رؤوس السهام محظورًا. Boolean قابل للقراءة والكتابة. |
+| [AsIBaseShapeLock](../../aspose.slides/iautoshapelock/asibaseshapelock) { get; } | يسمح بالحصول على الواجهة الأساسية IBaseShapeLock. Boolean للقراءة فقط [`IBaseShapeLock`](../ibaseshapelock). |
+| [AspectRatioLocked](../../aspose.slides/iautoshapelock/aspectratiolocked) { get; set; } | يحدد ما إذا كان يجب الحفاظ على نسبة أبعاد الشكل عند تغيير الحجم. Boolean قابل للقراءة والكتابة. |
+| [EditPointsLocked](../../aspose.slides/iautoshapelock/editpointslocked) { get; set; } | يحدد ما إذا كان تعديل contour الشكل مباشرة محظورًا. Boolean قابل للقراءة والكتابة. |
+| [GroupingLocked](../../aspose.slides/iautoshapelock/groupinglocked) { get; set; } | يحدد ما إذا كان إضافة هذا الشكل إلى مجموعة محظورًا. Boolean قابل للقراءة والكتابة. |
+| [PositionLocked](../../aspose.slides/iautoshapelock/positionlocked) { get; set; } | يحدد ما إذا كان نقل هذا الشكل محظورًا. Boolean قابل للقراءة والكتابة. |
+| [RotateLocked](../../aspose.slides/iautoshapelock/rotatelocked) { get; set; } | يحدد ما إذا كان تعديل زاوية دوران هذا الشكل محظورًا. Boolean قابل للقراءة والكتابة. |
+| [SelectLocked](../../aspose.slides/iautoshapelock/selectlocked) { get; set; } | يحدد ما إذا كان اختيار هذا الشكل محظورًا. Boolean قابل للقراءة والكتابة. |
+| [ShapeTypeLocked](../../aspose.slides/iautoshapelock/shapetypelocked) { get; set; } | يحدد ما إذا كان تعديل نوع الشكل محظورًا. Boolean قابل للقراءة والكتابة. |
+| [SizeLocked](../../aspose.slides/iautoshapelock/sizelocked) { get; set; } | يحدد ما إذا كان تغيير حجم هذا الشكل محظورًا. Boolean قابل للقراءة والكتابة. |
+| [TextLocked](../../aspose.slides/iautoshapelock/textlocked) { get; set; } | يحدد ما إذا كان تحرير النص محظورًا. Boolean قابل للقراءة والكتابة. |
 
 ### انظر أيضًا
 
 * واجهة [IBaseShapeLock](../ibaseshapelock)
-* مساحة الاسم [Aspose.Slides](../../aspose.slides)
+* النطاق [Aspose.Slides](../../aspose.slides)
 * التجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

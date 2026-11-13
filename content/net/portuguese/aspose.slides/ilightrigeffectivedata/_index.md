@@ -1,9 +1,9 @@
 ---
 title: ILightRigEffectiveData
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Objeto imutável que contém propriedades efetivas do rig de luz.
 type: docs
-weight: 6280
+weight: 6300
 url: /pt/aspose.slides/ilightrigeffectivedata/
 ---
 ## ILightRigEffectiveData interface
@@ -19,19 +19,19 @@ public interface ILightRigEffectiveData
 | Nome | Descrição |
 | --- | --- |
 | [Direction](../../aspose.slides/ilightrigeffectivedata/direction) { get; } | Direção da luz. Somente leitura [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | Representa uma luz predefinida que pode ser aplicada a uma forma. O rig de luz representa um grupo de luzes orientadas de maneira específica em relação a uma cena 3D. Somente leitura [`LightRigPresetType`](../lightrigpresettype). |
+| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | Representa uma luz predefinida que pode ser aplicada a uma forma. O rig de luz representa um grupo de luzes orientado de uma maneira específica em relação a uma cena 3D. Somente leitura [`LightRigPresetType`](../lightrigpresettype). |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | Uma rotação é definida através do uso de uma coordenada de latitude, uma coordenada de longitude e uma revolução ao redor do eixo conforme as coordenadas de latitude e longitude. Primeiro elemento no array retornado - latitude, segundo - longitude, terceiro - revolução. |
+| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | Uma rotação é definida através do uso de uma coordenada de latitude, uma coordenada de longitude e uma revolução em torno do eixo conforme as coordenadas de latitude e longitude. Primeiro elemento no array de retorno – latitude, segundo – longitude, terceiro – revolução. |
 
 ### Observações
 
 Esta interface é usada como parte de [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata).
 
-### Veja Também
+### Ver também
 
 * espaço de nomes [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

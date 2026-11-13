@@ -1,9 +1,9 @@
 ---
 title: GroupShapeLock
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET справочник API
 description: Определяет, какие операции отключены у родительского GroupShape.
 type: docs
-weight: 5100
+weight: 5120
 url: /ru/aspose.slides/groupshapelock/
 ---
 ## GroupShapeLock класс
@@ -18,14 +18,14 @@ public class GroupShapeLock : BaseShapeLock, IGroupShapeLock
 
 | Имя | Описание |
 | --- | --- |
-| [AspectRatioLocked](../../aspose.slides/groupshapelock/aspectratiolocked) { get; set; } | Определяет, должна ли фигура сохранять соотношение сторон при изменении размера. Чтение/запись Boolean. |
-| [GroupingLocked](../../aspose.slides/groupshapelock/groupinglocked) { get; set; } | Определяет, запрещено ли добавление этой фигуры в группу. Чтение/запись Boolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Возвращает true, если все флаги блокировки отключены. Только чтение Boolean. |
-| [PositionLocked](../../aspose.slides/groupshapelock/positionlocked) { get; set; } | Определяет, запрещено ли перемещение этой фигуры. Чтение/запись Boolean. |
-| [RotationLocked](../../aspose.slides/groupshapelock/rotationlocked) { get; set; } | Определяет, запрещено ли изменение угла поворота этой фигуры. Чтение/запись Boolean. |
-| [SelectLocked](../../aspose.slides/groupshapelock/selectlocked) { get; set; } | Определяет, запрещено ли выделение этой фигуры. Чтение/запись Boolean. |
-| [SizeLocked](../../aspose.slides/groupshapelock/sizelocked) { get; set; } | Определяет, запрещено ли изменение размера этой фигуры. Чтение/запись Boolean. |
-| [UngroupingLocked](../../aspose.slides/groupshapelock/ungroupinglocked) { get; set; } | Определяет, запрещено ли разбиение этой groupshape. Чтение/запись Boolean. |
+| [AspectRatioLocked](../../aspose.slides/groupshapelock/aspectratiolocked) { get; set; } | Определяет, должна ли форма сохранять соотношение сторон при изменении размера. Чтение/запись Boolean. |
+| [GroupingLocked](../../aspose.slides/groupshapelock/groupinglocked) { get; set; } | Определяет, запрещено ли добавлять эту форму в группу. Чтение/запись Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Возвращает true, если все lock-flags отключены. Только чтение Boolean. |
+| [PositionLocked](../../aspose.slides/groupshapelock/positionlocked) { get; set; } | Определяет, запрещено ли перемещение этой формы. Чтение/запись Boolean. |
+| [RotationLocked](../../aspose.slides/groupshapelock/rotationlocked) { get; set; } | Определяет, запрещено ли изменять угол поворота этой формы. Чтение/запись Boolean. |
+| [SelectLocked](../../aspose.slides/groupshapelock/selectlocked) { get; set; } | Определяет, запрещено ли выбирать эту форму. Чтение/запись Boolean. |
+| [SizeLocked](../../aspose.slides/groupshapelock/sizelocked) { get; set; } | Определяет, запрещено ли изменять размер этой формы. Чтение/запись Boolean. |
+| [UngroupingLocked](../../aspose.slides/groupshapelock/ungroupinglocked) { get; set; } | Определяет, запрещено ли разбивать эту groupshape. Чтение/запись Boolean. |
 
 ### См. также
 

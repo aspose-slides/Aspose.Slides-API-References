@@ -3,7 +3,7 @@ title: GeometryPath
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示 GeometryShape 的几何路径
 type: docs
-weight: 4960
+weight: 4980
 url: /zh/aspose.slides/geometrypath/
 ---
 ## GeometryPath 类
@@ -18,7 +18,7 @@ public sealed class GeometryPath : IGeometryPath
 
 | 名称 | 描述 |
 | --- | --- |
-| [GeometryPath](geometrypath)() | 创建 GeometryPath 的实例 |
+| [GeometryPath](geometrypath)() | 创建 GeometryPath 实例 |
 
 ## 属性
 
@@ -32,25 +32,25 @@ public sealed class GeometryPath : IGeometryPath
 
 | 名称 | 描述 |
 | --- | --- |
-| [ArcTo](../../aspose.slides/geometrypath/arcto)(float, float, float, float) | 将指定的弧追加到路径。 |
+| [ArcTo](../../aspose.slides/geometrypath/arcto)(float, float, float, float) | 将指定弧追加到路径。 |
 | [CloseFigure](../../aspose.slides/geometrypath/closefigure)() | 关闭此路径的当前图形 |
-| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_2)(PointF, PointF, PointF) | 在路径末尾添加三次 Bézier 曲线 |
-| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | 在路径的指定位置添加三次 Bézier 曲线 |
-| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto)(float, float, float, float, float, float) | 在路径末尾添加三次 Bézier 曲线 |
-| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | 在路径的指定位置添加三次 Bézier 曲线 |
-| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_2)(PointF) | 在路径末尾添加线段 |
-| [LineTo](../../aspose.slides/geometrypath/lineto#lineto)(float, float) | 在路径末尾添加线段 |
-| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_3)(PointF, uint) | 在路径的指定位置添加线段 |
-| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_1)(float, float, uint) | 在路径的指定位置添加线段 |
+| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_2)(PointF, PointF, PointF) | 在路径末尾添加三次贝塞尔曲线 |
+| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | 在路径的指定位置添加三次贝塞尔曲线 |
+| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto)(float, float, float, float, float, float) | 在路径末尾添加三次贝塞尔曲线 |
+| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | 在路径的指定位置添加三次贝塞尔曲线 |
+| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_2)(PointF) | 在路径末尾添加直线 |
+| [LineTo](../../aspose.slides/geometrypath/lineto#lineto)(float, float) | 在路径末尾添加直线 |
+| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_3)(PointF, uint) | 在路径的指定位置添加直线 |
+| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_1)(float, float, uint) | 在路径的指定位置添加直线 |
 | [MoveTo](../../aspose.slides/geometrypath/moveto#moveto_1)(PointF) | 设置下一个点的位置。 |
 | [MoveTo](../../aspose.slides/geometrypath/moveto#moveto)(float, float) | 设置下一个点的位置。 |
-| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | 在路径末尾添加二次 Bézier 曲线 |
-| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | 在路径的指定位置添加二次 Bézier 曲线 |
-| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | 在路径末尾添加二次 Bézier 曲线 |
-| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | 在路径的指定位置添加二次 Bézier 曲线 |
+| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | 在路径末尾添加二次贝塞尔曲线 |
+| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | 在路径的指定位置添加二次贝塞尔曲线 |
+| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | 在路径末尾添加二次贝塞尔曲线 |
+| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | 在路径的指定位置添加二次贝塞尔曲线 |
 | [RemoveAt](../../aspose.slides/geometrypath/removeat)(int) | 移除几何路径中指定索引的段。 |
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IGeometryPath](../igeometrypath)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

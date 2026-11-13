@@ -1,14 +1,14 @@
 ---
 title: DataLabel
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa las etiquetas de una serie.
+description: Representa etiquetas de serie.
 type: docs
-weight: 1550
+weight: 1560
 url: /es/aspose.slides.charts/datalabel/
 ---
-## Clase DataLabel
+## DataLabel clase
 
-Representa las etiquetas de una serie.
+Representa etiquetas de serie.
 
 ```csharp
 public class DataLabel : IDataLabel
@@ -24,19 +24,20 @@ public class DataLabel : IDataLabel
 
 | Nombre | Descripción |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/datalabel/actualheight) { get; } | Especifica la altura real del elemento del gráfico. Llame al método IChart.ValidateChartLayout() antes para obtener los valores reales. Lectura Single. |
-| [ActualWidth](../../aspose.slides.charts/datalabel/actualwidth) { get; } | Especifica el ancho real del elemento del gráfico. Llame al método IChart.ValidateChartLayout() antes para obtener los valores reales. Lectura Single. |
-| [ActualX](../../aspose.slides.charts/datalabel/actualx) { get; } | Especifica la ubicación x real (izquierda) del elemento del gráfico relativo a la esquina superior izquierda del gráfico. Llame al método IChart.ValidateChartLayout() antes para obtener los valores reales. Lectura Single. |
-| [ActualY](../../aspose.slides.charts/datalabel/actualy) { get; } | Especifica la parte superior real del elemento del gráfico relativo a la esquina superior izquierda del gráfico. Llame al método IChart.ValidateChartLayout() antes para obtener los valores reales. Lectura Single. |
-| [Bottom](../../aspose.slides.charts/datalabel/bottom) { get; } | Bottom. Solo lectura Single. |
-| [Chart](../../aspose.slides.charts/datalabel/chart) { get; } | Devuelve el gráfico principal. Solo lectura [`IChart`](../ichart). |
-| [DataLabelFormat](../../aspose.slides.charts/datalabel/datalabelformat) { get; } | Devuelve el formato de la etiqueta de datos. Solo lectura [`IDataLabelFormat`](../idatalabelformat). |
+| [ActualHeight](../../aspose.slides.charts/datalabel/actualheight) { get; } | Especifica la altura real del elemento del gráfico. Llame al método IChart.ValidateChartLayout() antes para obtener los valores reales. Solo lectura Single. |
+| [ActualWidth](../../aspose.slides.charts/datalabel/actualwidth) { get; } | Especifica el ancho real del elemento del gráfico. Llame al método IChart.ValidateChartLayout() antes para obtener los valores reales. Solo lectura Single. |
+| [ActualX](../../aspose.slides.charts/datalabel/actualx) { get; } | Especifica la ubicación x real (izquierda) del elemento del gráfico relativo a la esquina superior izquierda del gráfico. Llame al método IChart.ValidateChartLayout() antes para obtener los valores reales. Solo lectura Single. |
+| [ActualY](../../aspose.slides.charts/datalabel/actualy) { get; } | Especifica la parte superior real del elemento del gráfico relativo a la esquina superior izquierda del gráfico. Llame al método IChart.ValidateChartLayout() antes para obtener los valores reales. Solo lectura Single. |
+| [Bottom](../../aspose.slides.charts/datalabel/bottom) { get; } | Inferior. Solo lectura Single. |
+| [Chart](../../aspose.slides.charts/datalabel/chart) { get; } | Devuelve el gráfico padre. Solo lectura [`IChart`](../ichart). |
+| [DataLabelFormat](../../aspose.slides.charts/datalabel/datalabelformat) { get; } | Devuelve el formato de etiqueta de datos. Solo lectura [`IDataLabelFormat`](../idatalabelformat). |
 | [Height](../../aspose.slides.charts/datalabel/height) { get; set; } | Devuelve o establece la altura de un título como una fracción de la altura del gráfico. Lectura/escritura Single. |
-| [IsVisible](../../aspose.slides.charts/datalabel/isvisible) { get; } | False significa que la etiqueta de datos no es visible (y por lo tanto todas las banderas Show*-flags (ShowValue, ...) son false). Solo lectura Boolean. |
-| [Right](../../aspose.slides.charts/datalabel/right) { get; } | Right. Solo lectura Single. |
+| [IsVisible](../../aspose.slides.charts/datalabel/isvisible) { get; } | Falso indica que la etiqueta de datos no es visible (y por lo tanto todas las banderas Show*- (ShowValue, ...) son falsas). Solo lectura Boolean. |
+| [LabelShapeType](../../aspose.slides.charts/datalabel/labelshapetype) { get; set; } | Obtiene o establece el tipo de forma de la etiqueta de datos. Devuelve NotDefined si no se ha definido una forma. |
+| [Right](../../aspose.slides.charts/datalabel/right) { get; } | Derecha. Solo lectura Single. |
 | [TextFormat](../../aspose.slides.charts/datalabel/textformat) { get; } | Devuelve el formato de texto. Solo lectura [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/datalabel/textframeforoverriding) { get; } | Puede contener un texto con formato enriquecido. Si esta propiedad no es nula, entonces este valor de texto con formato sobrescribe el texto generado automáticamente de la etiqueta de datos. El texto generado automáticamente de la etiqueta de datos significa texto que es gestionado por las propiedades ShowSeriesName, ShowValue, ... y está formateado con la propiedad TextFormatManager.TextFormat. Solo lectura [`ITextFrame`](../../aspose.slides/itextframe). |
-| [ValueFromCell](../../aspose.slides.charts/datalabel/valuefromcell) { get; set; } | Obtiene o establece la celda de datos del libro de trabajo. Se aplica si la propiedad IDataLabelFormat.ShowLabelValueFromCell es true. |
+| [TextFrameForOverriding](../../aspose.slides.charts/datalabel/textframeforoverriding) { get; } | Puede contener un texto con formato enriquecido. Si esta propiedad no es nula, entonces este valor de texto con formato anula el texto generado automáticamente de la etiqueta de datos. El texto generado automáticamente de la etiqueta de datos significa el texto gestionado por las propiedades ShowSeriesName, ShowValue, ... y se formatea con la propiedad TextFormatManager.TextFormat. Solo lectura [`ITextFrame`](../../aspose.slides/itextframe). |
+| [ValueFromCell](../../aspose.slides.charts/datalabel/valuefromcell) { get; set; } | Obtiene o establece la celda de datos del libro de trabajo. Se aplica si la propiedad IDataLabelFormat.ShowLabelValueFromCell es verdadera. |
 | [Width](../../aspose.slides.charts/datalabel/width) { get; set; } | Devuelve o establece el ancho de un título como una fracción del ancho del gráfico. Lectura/escritura Single. |
 | [X](../../aspose.slides.charts/datalabel/x) { get; set; } | Devuelve o establece la coordenada x de un título como una fracción del ancho del gráfico. Lectura/escritura Single. |
 | [Y](../../aspose.slides.charts/datalabel/y) { get; set; } | Devuelve o establece la coordenada y de un título como una fracción de la altura del gráfico. Lectura/escritura Single. |
@@ -46,8 +47,8 @@ public class DataLabel : IDataLabel
 | Nombre | Descripción |
 | --- | --- |
 | [AddTextFrameForOverriding](../../aspose.slides.charts/datalabel/addtextframeforoverriding)(string) | Inicializa TextFrameForOverriding con el texto del parámetro "text". Si TextFrameForOverriding ya está inicializado, simplemente cambia su texto. |
-| [GetActualLabelText](../../aspose.slides.charts/datalabel/getactuallabeltext)() | Devuelve el texto real de la etiqueta basado en la configuración de DataLabelFormat o el valor TextFrameForOverriding.Text. |
-| [Hide](../../aspose.slides.charts/datalabel/hide)() | Oculta la etiqueta de datos estableciendo todas las banderas Show*-flags (ShowValue, ...) a estado false. IsVisible será false después de esto. |
+| [GetActualLabelText](../../aspose.slides.charts/datalabel/getactuallabeltext)() | Devuelve el texto real de la etiqueta basado en la configuración de DataLabelFormat o el valor de TextFrameForOverriding.Text. |
+| [Hide](../../aspose.slides.charts/datalabel/hide)() | Oculta la etiqueta de datos estableciendo todas las banderas Show*- (ShowValue, ...) al estado falso. IsVisible será falso después de esto. |
 
 ### Ver también
 

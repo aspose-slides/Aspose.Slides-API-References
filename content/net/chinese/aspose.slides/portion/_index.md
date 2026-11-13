@@ -1,14 +1,14 @@
 ---
 title: Portion
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示文本段落中一段文本。
+description: 表示文本段落中的一段文字。
 type: docs
-weight: 9460
+weight: 9480
 url: /zh/aspose.slides/portion/
 ---
 ## Portion 类
 
-表示文本段落中一段文本。
+表示文本段落中的一段文字。
 
 ```csharp
 public class Portion : IPortion
@@ -27,7 +27,7 @@ public class Portion : IPortion
 | 名称 | 描述 |
 | --- | --- |
 | [Field](../../aspose.slides/portion/field) { get; } | 返回此部分的字段。只读 [`IField`](../ifield)。 |
-| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | 返回格式对象，该对象包含文本部分显式设置的格式属性，未应用继承。只读 [`IPortionFormat`](../iportionformat)。 |
+| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | 返回格式对象，其中包含未应用继承的文本部分的显式设置的格式属性。只读 [`IPortionFormat`](../iportionformat)。 |
 | [Text](../../aspose.slides/portion/text) { get; set; } | 获取或设置部分的纯文本。读/写 String。 |
 
 ## 方法
@@ -36,8 +36,8 @@ public class Portion : IPortion
 | --- | --- |
 | [AddField](../../aspose.slides/portion/addfield#addfield)(IFieldType) | 将此部分转换为自动更新的字段。 |
 | [AddField](../../aspose.slides/portion/addfield#addfield_1)(string) | 将此部分转换为自动更新的字段。 |
-| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | 获取部分起始位置的坐标。点的 X 坐标表示从第一个字符起包括左侧间距的部分起始。Y 坐标包括顶部间距。 |
-| [GetRect](../../aspose.slides/portion/getrect)() | 获取限定部分的矩形坐标。该矩形包含部分中所有文本行，包括空行。 |
+| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | 获取部分起始位置的坐标。点的 X 坐标表示从第一个字符开始的部分起点，包括左侧间距。Y 坐标包括顶部间距。 |
+| [GetRect](../../aspose.slides/portion/getrect)() | 获取包围部分的矩形坐标。该矩形包括部分中的所有文本行，包括空行。 |
 | [RemoveField](../../aspose.slides/portion/removefield)() | 将此字段部分转换为普通部分。 |
 
 ### 另请参阅

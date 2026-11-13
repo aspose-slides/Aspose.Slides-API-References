@@ -3,7 +3,7 @@ title: ISaveOptionsFactory
 second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: อนุญาตให้สร้างอินสแตนซ์ของตัวเลือกการบันทึก
 type: docs
-weight: 4080
+weight: 4100
 url: /th/aspose.slides.export/isaveoptionsfactory/
 ---
 ## ISaveOptionsFactory อินเทอร์เฟซ
@@ -18,7 +18,7 @@ public interface ISaveOptionsFactory
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CreatePptxOptions](../../aspose.slides.export/isaveoptionsfactory/createpptxoptions)() | สร้างตัวเลือกการบันทึก PPTX |
+| [CreatePptxOptions](../../aspose.slides.export/isaveoptionsfactory/createpptxoptions)() | สร้างตัวเลือกการบันทึก PPTX. |
 
 ### หมายเหตุ
 

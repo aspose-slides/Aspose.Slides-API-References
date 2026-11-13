@@ -1,9 +1,9 @@
 ---
 title: IHtmlFormattingController
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Controla la generación de un archivo html.
 type: docs
-weight: 3950
+weight: 3970
 url: /es/aspose.slides.export/ihtmlformattingcontroller/
 ---
 ## IHtmlFormattingController interfaz
@@ -18,11 +18,11 @@ public interface IHtmlFormattingController
 
 | Nombre | Descripción |
 | --- | --- |
-| [WriteDocumentEnd](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | Se llama para escribir el pie de página del documento html. Se llama una vez por conversión de presentación. |
+| [WriteDocumentEnd](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | Se llama para escribir el pie del documento html. Se llama una vez por conversión de presentación. |
 | [WriteDocumentStart](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | Se llama para escribir el encabezado del documento html. Se llama una vez por conversión de presentación. |
-| [WriteShapeEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeshapeend)(IHtmlGenerator, IShape) | Se llama antes de renderizar la forma. Se llama una vez por cada forma. Si esta función escribe algo en el generador, la generación de la imagen de la diapositiva actual se terminará, se insertará el fragmento html añadido y se iniciará una nueva imagen encima de la anterior. |
-| [WriteShapeStart](../../aspose.slides.export/ihtmlformattingcontroller/writeshapestart)(IHtmlGenerator, IShape) | Se llama antes de renderizar la forma. Se llama una vez por cada forma. Si esta función escribe algo en el generador, la generación de la imagen de la diapositiva actual se terminará, se insertará el fragmento html añadido y se iniciará una nueva imagen encima de la anterior. |
-| [WriteSlideEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeslideend)(IHtmlGenerator, ISlide) | Se llama para escribir el pie de página de la diapositiva html. Se llama una vez por cada diapositiva. |
+| [WriteShapeEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeshapeend)(IHtmlGenerator, IShape) | Se llama antes de la renderización del shape. Se llama una vez por cada shape. Si esta función escribe algo en el generador, la generación de la imagen de la diapositiva actual se completará, se insertará el fragmento html añadido y se iniciará una nueva imagen sobre la anterior. |
+| [WriteShapeStart](../../aspose.slides.export/ihtmlformattingcontroller/writeshapestart)(IHtmlGenerator, IShape) | Se llama antes de la renderización del shape. Se llama una vez por cada shape. Si esta función escribe algo en el generador, la generación de la imagen de la diapositiva actual se completará, se insertará el fragmento html añadido y se iniciará una nueva imagen sobre la anterior. |
+| [WriteSlideEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeslideend)(IHtmlGenerator, ISlide) | Se llama para escribir el pie de la diapositiva html. Se llama una vez por cada diapositiva. |
 | [WriteSlideStart](../../aspose.slides.export/ihtmlformattingcontroller/writeslidestart)(IHtmlGenerator, ISlide) | Se llama para escribir el encabezado de la diapositiva html. Se llama una vez por cada diapositiva. |
 
 ### Ver también

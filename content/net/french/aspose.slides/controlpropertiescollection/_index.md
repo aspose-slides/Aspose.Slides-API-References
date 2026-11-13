@@ -3,7 +3,7 @@ title: ControlPropertiesCollection
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Une collection de propriétés AcitveX.
 type: docs
-weight: 2710
+weight: 2730
 url: /fr/aspose.slides/controlpropertiescollection/
 ---
 ## ControlPropertiesCollection classe
@@ -16,19 +16,19 @@ public class ControlPropertiesCollection : IControlPropertiesCollection
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/controlpropertiescollection/count) { get; } | Renvoie un nombre de propriétés dans la collection. Lecture seule Int32. |
+| [Count](../../aspose.slides/controlpropertiescollection/count) { get; } | Renvoie le nombre de propriétés dans la collection. Lecture seule Int32. |
 | [Item](../../aspose.slides/controlpropertiescollection/item) { get; set; } | Renvoie ou définit la propriété. |
 | [NamesOfProperties](../../aspose.slides/controlpropertiescollection/namesofproperties) { get; } | Renvoie la collection des noms de propriétés. Lecture seule ICollection. |
 
 ## Méthodes
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/controlpropertiescollection/add)(string, string) | Ajoute une propriété à la collection. |
 | [Clear](../../aspose.slides/controlpropertiescollection/clear)() | Supprime toutes les propriétés. |
-| [GetEnumerator](../../aspose.slides/controlpropertiescollection/getenumerator)() | Renvoie un itérateur qui parcourt la collection. |
+| [GetEnumerator](../../aspose.slides/controlpropertiescollection/getenumerator)() | Renvoie un énumérateur qui parcourt la collection. |
 | [Remove](../../aspose.slides/controlpropertiescollection/remove)(string) | Supprime une propriété avec le nom spécifié. |
 
 ### Voir aussi

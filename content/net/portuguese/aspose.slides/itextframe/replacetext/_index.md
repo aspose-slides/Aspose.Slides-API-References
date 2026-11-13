@@ -3,7 +3,7 @@ title: ReplaceText
 second_title: Referência da API Aspose.Sildes para .NET
 description: Substitui todas as ocorrências do texto especificado por outro texto especificado.
 type: docs
-weight: 120
+weight: 130
 url: /pt/aspose.slides/itextframe/replacetext/
 ---
 ## ITextFrame.ReplaceText método
@@ -20,7 +20,7 @@ public void ReplaceText(string oldText, string newText, ITextSearchOptions optio
 | oldText | String | A string a ser substituída. |
 | newText | String | A string que substitui todas as ocorrências de oldText. |
 | options | ITextSearchOptions | Opções de pesquisa de texto [`ITextSearchOptions`](../../itextsearchoptions). |
-| callback | IFindResultCallback | O objeto de retorno de chamada para receber os resultados da pesquisa [`IFindResultCallback`](../../ifindresultcallback). |
+| callback | IFindResultCallback | O objeto de retorno de chamada para receber resultados de pesquisa [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Exemplos
 
@@ -30,14 +30,14 @@ O código de exemplo a seguir mostra como substituir uma string especificada por
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// Substitui todas as ocorrências separadas de 'the' por '***'
+	// Substitua todas as ocorrências separadas de 'the' por '***'
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.ReplaceText("the", "***", new TextSearchOptions()
 	{ WholeWordsOnly = true }, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 }
 ```
 
-### Veja Também
+### Ver também
 
 * interface [ITextSearchOptions](../../itextsearchoptions)
 * interface [IFindResultCallback](../../ifindresultcallback)

@@ -1,14 +1,14 @@
 ---
 title: CustomXmlPartCollection
-second_title: Aspose.Sildes 的 .NET API 参考
-description: 表示自定义 XML 部件的集合。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示自定义 xml 部分的集合。
 type: docs
-weight: 2750
+weight: 2770
 url: /zh/aspose.slides/customxmlpartcollection/
 ---
 ## CustomXmlPartCollection 类
 
-表示自定义 XML 部件的集合。
+表示自定义 xml 部分的集合。
 
 ```csharp
 public class CustomXmlPartCollection : ICustomXmlPartCollection
@@ -18,8 +18,8 @@ public class CustomXmlPartCollection : ICustomXmlPartCollection
 
 | 名称 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides/customxmlpartcollection/count) { get; } | 返回集合中自定义 XML 部件的计数。只读 Int32。 |
-| [IsSynchronized](../../aspose.slides/customxmlpartcollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否已同步（线程安全）。只读 Boolean。 |
+| [Count](../../aspose.slides/customxmlpartcollection/count) { get; } | 返回集合中自定义 xml 部分的计数。只读 Int32。 |
+| [IsSynchronized](../../aspose.slides/customxmlpartcollection/issynchronized) { get; } | 返回一个指示对集合的访问是否同步（线程安全）的值。只读 Boolean。 |
 | [Item](../../aspose.slides/customxmlpartcollection/item) { get; } | 返回指定索引处的元素。 |
 | [SyncRoot](../../aspose.slides/customxmlpartcollection/syncroot) { get; } | 返回同步根。只读 Object。 |
 
@@ -27,16 +27,16 @@ public class CustomXmlPartCollection : ICustomXmlPartCollection
 
 | 名称 | 描述 |
 | --- | --- |
-| [Add](../../aspose.slides/customxmlpartcollection/add#add)(byte[]) | 添加新的自定义 XML 部件。 |
-| [Add](../../aspose.slides/customxmlpartcollection/add#add_1)(Stream) | 添加新的自定义 XML 部件。 |
-| [Add](../../aspose.slides/customxmlpartcollection/add#add_2)(string) | 添加新的自定义 XML 部件。 |
+| [Add](../../aspose.slides/customxmlpartcollection/add#add)(byte[]) | 添加新的自定义 xml 部分。 |
+| [Add](../../aspose.slides/customxmlpartcollection/add#add_1)(Stream) | 添加新的自定义 xml 部分。 |
+| [Add](../../aspose.slides/customxmlpartcollection/add#add_2)(string) | 添加新的自定义 xml 部分。 |
 | [Clear](../../aspose.slides/customxmlpartcollection/clear)() | 从集合中移除所有项。 |
 | [CopyTo](../../aspose.slides/customxmlpartcollection/copyto)(Array, int) | 复制到指定的数组。 |
-| [GetEnumerator](../../aspose.slides/customxmlpartcollection/getenumerator)() | 返回一个枚举器，用于遍历集合。 |
-| [Remove](../../aspose.slides/customxmlpartcollection/remove)(ICustomXmlPart) | 从集合中移除特定对象的第一次出现。 |
-| [RemoveAt](../../aspose.slides/customxmlpartcollection/removeat)(int) | 移除指定索引处的自定义 XML 部件。 |
+| [GetEnumerator](../../aspose.slides/customxmlpartcollection/getenumerator)() | 返回一个遍历集合的枚举器。 |
+| [Remove](../../aspose.slides/customxmlpartcollection/remove)(ICustomXmlPart) | 从集合中删除特定对象的第一次出现。 |
+| [RemoveAt](../../aspose.slides/customxmlpartcollection/removeat)(int) | 删除指定索引处的自定义 xml 部分。 |
 
-### 参见
+### 另请参见
 
 * 接口 [ICustomXmlPartCollection](../icustomxmlpartcollection)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

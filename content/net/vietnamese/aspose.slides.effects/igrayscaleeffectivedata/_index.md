@@ -1,14 +1,14 @@
 ---
 title: IGrayScaleEffectiveData
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Đối tượng bất biến đại diện cho hiệu ứng Đen trắng. Chuyển đổi tất cả các giá trị màu của hiệu ứng thành một sắc độ xám tương ứng với độ sáng của chúng. Các giá trị alpha (độ trong suốt) của hiệu ứng không bị ảnh hưởng.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Đối tượng bất biến đại diện cho hiệu ứng Gray Scale. Chuyển đổi tất cả các giá trị màu của hiệu ứng thành một sắc độ xám tương ứng với độ sáng của chúng. Các giá trị alpha (độ trong suốt) của hiệu ứng không bị ảnh hưởng.
 type: docs
-weight: 3350
+weight: 3370
 url: /vi/aspose.slides.effects/igrayscaleeffectivedata/
 ---
 ## IGrayScaleEffectiveData giao diện
 
-Đối tượng bất biến đại diện cho hiệu ứng Đen trắng. Chuyển đổi tất cả các giá trị màu của hiệu ứng thành một sắc độ xám, tương ứng với độ sáng của chúng. Giá trị alpha (độ trong suốt) của hiệu ứng không bị ảnh hưởng.
+Đối tượng bất biến đại diện cho hiệu ứng Gray Scale. Chuyển đổi tất cả các giá trị màu của hiệu ứng thành một sắc độ xám, tương ứng với độ sáng của chúng. Các giá trị alpha (độ trong suốt) của hiệu ứng không bị ảnh hưởng.
 
 ```csharp
 public interface IGrayScaleEffectiveData : IEffectEffectiveData
@@ -20,7 +20,7 @@ public interface IGrayScaleEffectiveData : IEffectEffectiveData
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/igrayscaleeffectivedata/asieffecteffectivedata) { get; } | Cho phép lấy giao diện IEffectEffectiveData cơ bản. Chỉ đọc [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [IEffectEffectiveData](../ieffecteffectivedata)
 * không gian tên [Aspose.Slides.Effects](../../aspose.slides.effects)

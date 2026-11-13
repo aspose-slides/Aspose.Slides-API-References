@@ -3,7 +3,7 @@ title: IResourceLoadingArgs
 second_title: Aspose.Sildes .NET API referencia
 description: Külső erőforrás betöltési argumentumok interfésze.
 type: docs
-weight: 6830
+weight: 6850
 url: /hu/aspose.slides/iresourceloadingargs/
 ---
 ## IResourceLoadingArgs interfész
@@ -19,13 +19,13 @@ public interface IResourceLoadingArgs
 | Név | Leírás |
 | --- | --- |
 | [OriginalUri](../../aspose.slides/iresourceloadingargs/originaluri) { get; } | Az erőforrás eredeti URI-ja, ahogyan az importált prezentációban meg van adva. |
-| [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | Az erőforrás URI-ja, amely a letöltéshez használatos, ha a [`ResourceLoading`](../iresourceloadingcallback/resourceloading) alapértelmezettet ad vissza. Kiindulásként az erőforrás eredeti URI-jára van beállítva, de később bármilyen értékre felülírható. |
+| [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | Az erőforrás URI-ja, amelyet a letöltéshez használnak, ha [`ResourceLoading`](../iresourceloadingcallback/resourceloading) Default értéket ad vissza. Kezdetben az erőforrás eredeti URI-jára van beállítva, de bármilyen értékre újra meghatározható. |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [SetData](../../aspose.slides/iresourceloadingargs/setdata)(byte[]) | A felhasználó által megadott erőforrás adatot állít be, amely akkor használatos, ha a [`ResourceLoading`](../iresourceloadingcallback/resourceloading) a UserProvided értéket adja vissza. |
+| [SetData](../../aspose.slides/iresourceloadingargs/setdata)(byte[]) | Beállítja a felhasználó által megadott adatokat az erőforráshoz, amelyet akkor használnak, ha [`ResourceLoading`](../iresourceloadingcallback/resourceloading) UserProvided értéket ad vissza. |
 
 ### Lásd még
 

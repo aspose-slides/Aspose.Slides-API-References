@@ -1,14 +1,14 @@
 ---
 title: GetActualLabelText
 second_title: Aspose.Sildes pro .NET API Reference
-description: Vrací aktuální text popisku na základě nastavení DataLabelFormat nebo hodnoty TextFrameForOverriding.Text.
+description: Vrací skutečný text popisku na základě nastavení DataLabelFormat nebo hodnoty TextFrameForOverriding.Text.
 type: docs
-weight: 70
+weight: 80
 url: /cs/aspose.slides.charts/idatalabel/getactuallabeltext/
 ---
 ## IDataLabel.GetActualLabelText metoda
 
-Vrací aktuální text popisku na základě nastavení DataLabelFormat nebo hodnoty TextFrameForOverriding.Text.
+Vrací skutečný text popisku na základě nastavení DataLabelFormat nebo hodnoty TextFrameForOverriding.Text.
 
 ```csharp
 public string GetActualLabelText()
@@ -16,7 +16,7 @@ public string GetActualLabelText()
 
 ### Návratová hodnota
 
-Aktuální text popisku String
+Skutečný text popisku String
 
 ### Viz také
 

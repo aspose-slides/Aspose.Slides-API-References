@@ -1,14 +1,14 @@
 ---
 title: ICaptions
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: يمثل الترجمات المغلقة بصيغة WebVTT.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: يمثل الترجمات المغلقة بتنسيق WebVTT.
 type: docs
-weight: 5430
+weight: 5450
 url: /ar/aspose.slides/icaptions/
 ---
-## ICaptions واجهة
+## واجهة ICaptions
 
-يمثل الترجمات المغلقة بصيغة WebVTT.
+يمثل الترجمات المغلقة بتنسيق WebVTT.
 
 ```csharp
 public interface ICaptions
@@ -20,8 +20,8 @@ public interface ICaptions
 | --- | --- |
 | [BinaryData](../../aspose.slides/icaptions/binarydata) { get; } | يعيد البيانات الثنائية للترجمات المغلقة. للقراءة فقط Byte[]. |
 | [CaptionId](../../aspose.slides/icaptions/captionid) { get; } | يعيد المعرف الفريد عالميًا (GUID) للترجمات المغلقة. للقراءة فقط Guid. |
-| [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | يعيد بيانات الترجمات المغلقة كسلسلة مشفرة بترميز UTF-8. للقراءة فقط String. |
-| [Label](../../aspose.slides/icaptions/label) { get; set; } | يعيد أو يضبط تسمية الترجمات المغلقة. قراءة/كتابة String. |
+| [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | يعيد بيانات الترجمات المغلقة كسلسلة مشفرة بـ UTF-8. للقراءة فقط String. |
+| [Label](../../aspose.slides/icaptions/label) { get; set; } | يعيد أو يحدد تسمية الترجمات المغلقة. قراءة/كتابة String. |
 
 ### انظر أيضًا
 

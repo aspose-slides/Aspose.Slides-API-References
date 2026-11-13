@@ -1,25 +1,25 @@
 ---
 title: CannotCombine2DAnd3DChartsException
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ข้อยกเว้นที่ถูกโยนเมื่อพยายามรวมประเภทแผนภูมิ 2D และ 3D
+description: ข้อยกเว้นที่เกิดขึ้นเมื่อพยายามผสานประเภทแผนภูมิ 2D และ 3D
 type: docs
-weight: 1240
+weight: 1250
 url: /th/aspose.slides.charts/cannotcombine2dand3dchartsexception/
 ---
 ## CannotCombine2DAnd3DChartsException คลาส
 
-ข้อยกเว้นที่ถูกโยนเมื่อพยายามรวมประเภทแผนภูมิ 2D และ 3D
+ข้อยกเว้นที่ถูกโยนเมื่อพยายามผสานประเภทแผนภูมิ 2D และ 3D
 
 ```csharp
 public class CannotCombine2DAnd3DChartsException : InvalidOperationException
 ```
 
-## ตัวสร้าง
+## คอนสตรัคเตอร์
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor)() | คอนสตรัคเตอร์เริ่มต้น. |
-| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_1)(string) | คอนสตรัคเตอร์ที่อนุญาตเพิ่มข้อความให้กับข้อยกเว้นนี้. |
+| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_1)(string) | คอนสตรัคเตอร์ที่อนุญาตให้เพิ่มข้อความไปยังข้อยกเว้นนี้. |
 | [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_2)(string, Exception) | คอนสตรัคเตอร์สำหรับข้อยกเว้นที่มีข้อความและข้อยกเว้นที่ฝังอยู่. |
 
 ### ดูเพิ่มเติม

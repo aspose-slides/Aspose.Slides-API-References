@@ -1,12 +1,12 @@
 ---
 title: LightRig
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa LightRig.
 type: docs
-weight: 7690
+weight: 7710
 url: /pt/aspose.slides/lightrig/
 ---
-## LightRig classe
+## classe LightRig
 
 Representa LightRig.
 
@@ -20,7 +20,7 @@ public sealed class LightRig : PVIObject, ILightRig
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obter a interface base IPresentationComponent. Somente leitura [`IPresentationComponent`](../ipresentationcomponent). |
 | [Direction](../../aspose.slides/lightrig/direction) { get; set; } | Direção da luz. Leitura/gravação [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/lightrig/lighttype) { get; set; } | Representa uma luz predefinida que pode ser aplicada a uma forma. O light rig representa um grupo de luzes orientadas de uma maneira específica em relação a uma cena 3D. Leitura/gravação [`LightRigPresetType`](../lightrigpresettype). |
+| [LightType](../../aspose.slides/lightrig/lighttype) { get; set; } | Representa uma luz predefinida que pode ser aplicada a uma forma. O conjunto de luzes representa um grupo de luzes orientadas de forma específica em relação a uma cena 3D. Leitura/gravação [`LightRigPresetType`](../lightrigpresettype). |
 
 ## Métodos
 
@@ -28,8 +28,8 @@ public sealed class LightRig : PVIObject, ILightRig
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compara com o objeto especificado. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Retorna o código hash. |
-| [GetRotation](../../aspose.slides/lightrig/getrotation)() | Uma rotação é definida usando uma coordenada de latitude, uma coordenada de longitude e uma revolução ao redor do eixo como as coordenadas de latitude e longitude. primeiro elemento no array retornado - latitude, segundo - longitude, terceiro - revolução. Retorna null se nenhuma rotação estiver definida. |
-| [SetRotation](../../aspose.slides/lightrig/setrotation)(float, float, float) | Uma rotação é definida usando uma coordenada de latitude, uma coordenada de longitude e uma revolução ao redor do eixo como as coordenadas de latitude e longitude. Se algum valor de coordenada for float.NaN, toda a rotação fica indefinida. |
+| [GetRotation](../../aspose.slides/lightrig/getrotation)() | Uma rotação é definida pelo uso de uma coordenada de latitude, uma coordenada de longitude e uma revolução em torno do eixo como as coordenadas de latitude e longitude. Primeiro elemento no array retornado - latitude, segundo - longitude, terceiro - revolução. Retorna null se nenhuma rotação estiver definida. |
+| [SetRotation](../../aspose.slides/lightrig/setrotation)(float, float, float) | Uma rotação é definida pelo uso de uma coordenada de latitude, uma coordenada de longitude e uma revolução em torno do eixo como as coordenadas de latitude e longitude. Se qualquer valor da coordenada for float.NaN, toda a rotação será indefinida. |
 
 ### Ver também
 

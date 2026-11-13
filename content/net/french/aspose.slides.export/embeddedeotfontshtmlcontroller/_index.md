@@ -1,14 +1,14 @@
 ---
 title: EmbeddedEotFontsHtmlController
-second_title: Aspose.Sildes pour .NET Référence d'API
-description: La classe de contrôleur de formatage à utiliser pour l’intégration des polices au format EOT
+second_title: Référence API Aspose.Sildes pour .NET
+description: La classe de contrôleur de formatage à utiliser pour l'intégration de polices au format EOT
 type: docs
-weight: 3780
+weight: 3800
 url: /fr/aspose.slides.export/embeddedeotfontshtmlcontroller/
 ---
 ## EmbeddedEotFontsHtmlController classe
 
-La classe de contrôleur de formatage à utiliser pour l’intégration des polices au format EOT
+Le contrôleur de formatage à utiliser pour l'intégration de polices au format EOT
 
 ```csharp
 public class EmbeddedEotFontsHtmlController : IEmbeddedEotFontsHtmlController

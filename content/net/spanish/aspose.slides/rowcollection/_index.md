@@ -3,10 +3,10 @@ title: RowCollection
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa la colección de filas de tabla.
 type: docs
-weight: 9720
+weight: 9740
 url: /es/aspose.slides/rowcollection/
 ---
-## RowCollection clase
+## Clase RowCollection
 
 Representa la colección de filas de tabla.
 
@@ -27,10 +27,10 @@ public sealed class RowCollection : DomObject<Table>, IRowCollection
 
 | Nombre | Descripción |
 | --- | --- |
-| [AddClone](../../aspose.slides/rowcollection/addclone)(IRow, bool) | Crea una copia de la fila de plantilla especificada e la inserta al final de una tabla. |
+| [AddClone](../../aspose.slides/rowcollection/addclone)(IRow, bool) | Crea una copia de la fila de plantilla especificada y la inserta al final de una tabla. |
 | [CopyTo](../../aspose.slides/rowcollection/copyto)(Array, int) | Copia todos los elementos de la colección al array especificado. |
-| [GetEnumerator](../../aspose.slides/rowcollection/getenumerator)() | Devuelve un enumerador que recorre la colección. |
-| [InsertClone](../../aspose.slides/rowcollection/insertclone)(int, IRow, bool) | Crea una copia de la fila de plantilla especificada e inserta en la posición especificada de una tabla. |
+| [GetEnumerator](../../aspose.slides/rowcollection/getenumerator)() | Devuelve un enumerador que itera a través de la colección. |
+| [InsertClone](../../aspose.slides/rowcollection/insertclone)(int, IRow, bool) | Crea una copia de la fila de plantilla especificada y la inserta en la posición especificada de una tabla. |
 | [RemoveAt](../../aspose.slides/rowcollection/removeat)(int, bool) | Elimina una fila en la posición especificada de una tabla. |
 
 ### Ver también

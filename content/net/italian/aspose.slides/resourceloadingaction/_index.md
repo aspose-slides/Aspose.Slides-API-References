@@ -3,10 +3,10 @@ title: ResourceLoadingAction
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Specifica la modalità di caricamento delle risorse esterne.
 type: docs
-weight: 9700
+weight: 9720
 url: /it/aspose.slides/resourceloadingaction/
 ---
-## enumerazione ResourceLoadingAction
+## Enumerazione ResourceLoadingAction
 
 Specifica la modalità di caricamento delle risorse esterne.
 
@@ -18,8 +18,8 @@ public enum ResourceLoadingAction
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Default | `0` | Aspose.Slides caricherà la risorsa esterna come di consueto. |
-| Skip | `1` | Aspose.Slides salterà il caricamento della risorsa esterna. Verrà memorizzato solo il collegamento senza dati per un'immagine. |
+| Default | `0` | Aspose.Slides caricherà le risorse esterne come di consueto. |
+| Skip | `1` | Aspose.Slides salterà il caricamento delle risorse esterne. Verrà memorizzato solo il collegamento senza dati per un'immagine. |
 | UserProvided | `2` | Aspose.Slides utilizzerà l'array di byte fornito dall'utente in [`SetData`](../iresourceloadingargs/setdata) come dati dell'immagine. |
 
 ### Vedi anche

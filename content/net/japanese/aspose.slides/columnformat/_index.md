@@ -1,9 +1,9 @@
 ---
 title: ColumnFormat
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: テーブル列の書式を表します。
 type: docs
-weight: 2610
+weight: 2630
 url: /ja/aspose.slides/columnformat/
 ---
 ## ColumnFormat クラス
@@ -18,13 +18,13 @@ public sealed class ColumnFormat : DomObject<Column>, IColumnFormat
 
 | 名前 | 説明 |
 | --- | --- |
-| [GetEffective](../../aspose.slides/columnformat/geteffective)() | 継承およびテーブル スタイルが適用された有効なテーブル列書式プロパティを取得します。 |
+| [GetEffective](../../aspose.slides/columnformat/geteffective)() | 継承とテーブル スタイルが適用された、有効なテーブル列書式プロパティを取得します。 |
 
 ### 参照
 
 * クラス [DomObject&lt;TParent&gt;](../domobject-1)
 * クラス [Column](../column)
-* インターフェイス [IColumnFormat](../icolumnformat)
+* インターフェース [IColumnFormat](../icolumnformat)
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)
 

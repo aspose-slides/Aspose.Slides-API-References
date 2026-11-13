@@ -1,14 +1,14 @@
 ---
 title: LegendEntryProperties
-second_title: Aspose.Sildes untuk .NET Referensi API
-description: Mewakili properti legenda dari sebuah grafik.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili properti legenda dari sebuah diagram.
 type: docs
-weight: 2310
+weight: 2330
 url: /id/aspose.slides.charts/legendentryproperties/
 ---
 ## LegendEntryProperties kelas
 
-Mewakili properti legenda dari sebuah grafik.
+Mewakili properti legenda dari sebuah diagram.
 
 ```csharp
 public class LegendEntryProperties : ILegendEntryProperties
@@ -18,9 +18,9 @@ public class LegendEntryProperties : ILegendEntryProperties
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/legendentryproperties/chart) { get; } | Mengembalikan diagram induk. Hanya-baca [`IChart`](../ichart). |
+| [Chart](../../aspose.slides.charts/legendentryproperties/chart) { get; } | Mengembalikan diagram induk. Baca-saja [`IChart`](../ichart). |
 | [Hide](../../aspose.slides.charts/legendentryproperties/hide) { get; set; } | Menentukan apakah entri legenda disembunyikan. Baca/tulis Boolean. |
-| [TextFormat](../../aspose.slides.charts/legendentryproperties/textformat) { get; } | Mengembalikan format teks. Hanya-baca [`IChartTextFormat`](../icharttextformat). |
+| [TextFormat](../../aspose.slides.charts/legendentryproperties/textformat) { get; } | Mengembalikan format teks. Baca-saja [`IChartTextFormat`](../icharttextformat). |
 
 ### Lihat Juga
 

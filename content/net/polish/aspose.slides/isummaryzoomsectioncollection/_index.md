@@ -1,9 +1,9 @@
 ---
 title: ISummaryZoomSectionCollection
-second_title: Aspose.Sildes dla .NET – referencja API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje kolekcję obiektów Summary Zoom Section.
 type: docs
-weight: 7170
+weight: 7190
 url: /pl/aspose.slides/isummaryzoomsectioncollection/
 ---
 ## ISummaryZoomSectionCollection interfejs
@@ -16,13 +16,13 @@ public interface ISummaryZoomSectionCollection : IGenericCollection<ISummaryZoom
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
-| [Item](../../aspose.slides/isummaryzoomsectioncollection/item) { get; } | Pobiera element pod określonym indeksem. Tylko do odczytu [`ISummaryZoomSection`](../isummaryzoomsection). |
+| [Item](../../aspose.slides/isummaryzoomsectioncollection/item) { get; } | Pobiera element o podanym indeksie. Tylko do odczytu [`ISummaryZoomSection`](../isummaryzoomsection). |
 
 ## Metody
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [AddSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection)(ISection) | Tworzy nowy obiekt Summary Zoom Section i dodaje go do kolekcji |
 | [Clear](../../aspose.slides/isummaryzoomsectioncollection/clear)() | Usuwa wszystkie obiekty SummaryZoomSection z kolekcji. |

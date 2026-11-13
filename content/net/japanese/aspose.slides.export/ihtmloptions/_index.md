@@ -1,9 +1,9 @@
 ---
 title: IHtmlOptions
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: HTML エクスポート オプションを表します。
 type: docs
-weight: 3970
+weight: 3990
 url: /ja/aspose.slides.export/ihtmloptions/
 ---
 ## IHtmlOptions インターフェイス
@@ -16,21 +16,21 @@ public interface IHtmlOptions : ISaveOptions
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/ihtmloptions/asisaveoptions) { get; } | ISaveOptions インターフェイスを返します。読み取り専用 [`ISaveOptions`](../isaveoptions)。 |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/ihtmloptions/deletepicturescroppedareas) { get; set; } | ブール フラグは、切り取られた部分がドキュメントの一部として残るかどうかを示します。true の場合、切り取られた部分は削除され、false の場合はドキュメントにシリアライズされます（ファイルが大きくなる可能性があります）。読み書き可能 Boolean。 |
-| [DisableFontLigatures](../../aspose.slides.export/ihtmloptions/disablefontligatures) { get; set; } | テキストが合字を使用せずにレンダリングされるかどうかを示す値を取得または設定します。`true` に設定すると、レンダリング出力で合字が無効になります。既定では、このプロパティは `false` に設定されています。 |
-| [HtmlFormatter](../../aspose.slides.export/ihtmloptions/htmlformatter) { get; set; } | HTML テンプレートを取得または設定します。読み書き可能 [`IHtmlFormatter`](../ihtmlformatter)。 |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/ihtmloptions/deletepicturescroppedareas) { get; set; } | ブールフラグは、切り取られた部分がドキュメントの一部として残るかどうかを示します。true の場合、切り取られた部分は削除され、false の場合はドキュメントにシリアライズされます（これによりファイルサイズが大きくなる可能性があります）。読み書き Boolean。 |
+| [DisableFontLigatures](../../aspose.slides.export/ihtmloptions/disablefontligatures) { get; set; } | テキストが合字を使用せずにレンダリングされるかどうかを示す値を取得または設定します。`true` に設定すると、レンダリングされた出力で合字が無効になります。既定では、このプロパティは `false` に設定されています。 |
+| [HtmlFormatter](../../aspose.slides.export/ihtmloptions/htmlformatter) { get; set; } | HTML テンプレートを取得または設定します。読み書き [`IHtmlFormatter`](../ihtmlformatter)。 |
 | [InkOptions](../../aspose.slides.export/ihtmloptions/inkoptions) { get; } | エクスポートされたドキュメント内の Ink オブジェクトの外観を制御するオプションを提供します。読み取り専用 [`IInkOptions`](../iinkoptions) |
-| [JpegQuality](../../aspose.slides.export/ihtmloptions/jpegquality) { get; set; } | PDF ドキュメント内の JPEG 画像の品質を決定する値を取得または設定します。読み書き可能 Byte。 |
-| [PicturesCompression](../../aspose.slides.export/ihtmloptions/picturescompression) { get; set; } | 画像の圧縮レベルを表します。読み書き可能 [`PicturesCompression`](./picturescompression)。 |
+| [JpegQuality](../../aspose.slides.export/ihtmloptions/jpegquality) { get; set; } | PDF ドキュメント内の JPEG 画像の品質を決定する値を取得または設定します。読み書き Byte。 |
+| [PicturesCompression](../../aspose.slides.export/ihtmloptions/picturescompression) { get; set; } | 画像の圧縮レベルを表します。読み書き [`PicturesCompression`](./picturescompression)。 |
 | [ShowHiddenSlides](../../aspose.slides.export/ihtmloptions/showhiddenslides) { get; set; } | 生成されたドキュメントに非表示スライドを含めるかどうかを指定します。既定は `false` です。 |
-| [SlideImageFormat](../../aspose.slides.export/ihtmloptions/slideimageformat) { get; set; } | スライド画像形式オプションを取得または設定します。読み書き可能 [`ISlideImageFormat`](../islideimageformat)。 |
+| [SlideImageFormat](../../aspose.slides.export/ihtmloptions/slideimageformat) { get; set; } | スライド画像フォーマットオプションを取得または設定します。読み書き [`ISlideImageFormat`](../islideimageformat)。 |
 | [SlidesLayoutOptions](../../aspose.slides.export/ihtmloptions/slideslayoutoptions) { get; set; } | プレゼンテーションをエクスポートする際に、スライドがページ上に配置されるモードを取得または設定します [`ISlidesLayoutOptions`](../islideslayoutoptions)。 |
-| [SvgResponsiveLayout](../../aspose.slides.export/ihtmloptions/svgresponsivelayout) { get; set; } | SVG コンテナから幅と高さ属性を除外する場合は true に設定します。これによりレイアウトがレスポンシブになります。false の場合は除外しません。読み書き可能 Boolean。 |
+| [SvgResponsiveLayout](../../aspose.slides.export/ihtmloptions/svgresponsivelayout) { get; set; } | 幅と高さの属性を SVG コンテナから除外するには true に設定します—これによりレイアウトがレスポンシブになります。false の場合は除外しません。読み書き Boolean。 |
 
-### 関連項目
+### 参照
 
 * インターフェイス [ISaveOptions](../isaveoptions)
 * 名前空間 [Aspose.Slides.Export](../../aspose.slides.export)

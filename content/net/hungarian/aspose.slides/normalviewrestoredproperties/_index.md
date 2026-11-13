@@ -1,14 +1,14 @@
 ---
 title: NormalViewRestoredProperties
-second_title: Aspose.Sildes .NET API hivatkozás
-description: "Meghatározza a dia régió méretezését: a width, ha a restoredTop gyermekeként, a height, ha a restoredLeft gyermekeként a normál nézetben, amikor a régió változó helyreállított méretű, sem minimalizált, sem maximalizált."
+second_title: Aspose.Sildes .NET API referencia
+description: Megadja a dia terület méretezését: a szélesség, ha a RestoredTop gyermek, a magasság, ha a RestoredLeft gyermek a normál nézetben, amikor a terület változó visszaállított méretű, sem minimalizált, sem maximalizált.
 type: docs
-weight: 9120
+weight: 9140
 url: /hu/aspose.slides/normalviewrestoredproperties/
 ---
 ## NormalViewRestoredProperties osztály
 
-Meghatározza a dia régió méretezését ((width, ha a restoredTop gyermekeként, height, ha a restoredLeft gyermekeként) a normál nézetben, amikor a régió változó helyreállított méretű (sem minimalizált, sem maximalizált).
+Megadja a dia terület méretezését (szélesség, ha a RestoredTop gyermek, magasság, ha a RestoredLeft gyermek) a normál nézetben, amikor a terület változó visszaállított méretű (sem minimalizált, sem maximalizált).
 
 ```csharp
 public class NormalViewRestoredProperties : INormalViewRestoredProperties
@@ -18,8 +18,8 @@ public class NormalViewRestoredProperties : INormalViewRestoredProperties
 
 | Név | Leírás |
 | --- | --- |
-| [AutoAdjust](../../aspose.slides/normalviewrestoredproperties/autoadjust) { get; set; } | Megadja, hogy a side content régió mérete kompenzálja-e az új méretet az alkalmazáson belül a nézetet tartalmazó ablak átméretezésekor. Olvasás/írás Boolean. |
-| [DimensionSize](../../aspose.slides/normalviewrestoredproperties/dimensionsize) { get; set; } | Megadja a dia régió méretét (width, ha a RestoredTop gyermekeként, height, ha a RestoredLeft gyermekeként). Olvasás/írás Single. |
+| [AutoAdjust](../../aspose.slides/normalviewrestoredproperties/autoadjust) { get; set; } | Megadja, hogy a mellékelt tartalomtartomány méretének kompenzálni kell-e az új méretet, amikor az alkalmazáson belül a nézetet tartalmazó ablakot átméretezik. Olvasás/írás Boolean. |
+| [DimensionSize](../../aspose.slides/normalviewrestoredproperties/dimensionsize) { get; set; } | Megadja a dia terület méretét (szélesség, ha a RestoredTop gyermek, magasság, ha a RestoredLeft gyermek). Olvasás/írás Single. |
 
 ### Lásd még
 

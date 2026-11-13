@@ -1,14 +1,14 @@
 ---
 title: ILeftRightDirectionTransition
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Diaovergangseffect met links-rechtsrichting.
+description: Slide-overgangseffect van links naar rechts.
 type: docs
-weight: 10120
+weight: 10140
 url: /nl/aspose.slides.slideshow/ileftrightdirectiontransition/
 ---
 ## ILeftRightDirectionTransition interface
 
-Diaovergangseffect met links-rechtsrichting.
+Slide-overgangseffect van links naar rechts.
 
 ```csharp
 public interface ILeftRightDirectionTransition : ITransitionValueBase
@@ -16,10 +16,10 @@ public interface ILeftRightDirectionTransition : ITransitionValueBase
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ileftrightdirectiontransition/asitransitionvaluebase) { get; } | Stelt toe de basis ITransitionValueBase interface op te halen. Alleen-lezen [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/ileftrightdirectiontransition/direction) { get; set; } | Richting van de overgang. Lezen/Schrijven [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ileftrightdirectiontransition/asitransitionvaluebase) { get; } | Maakt het mogelijk om de basis-ITransitionValueBase-interface op te halen. Alleen-lezen [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/ileftrightdirectiontransition/direction) { get; set; } | Richting van de overgang. Lezen/schrijven [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
 
 ### Zie ook
 

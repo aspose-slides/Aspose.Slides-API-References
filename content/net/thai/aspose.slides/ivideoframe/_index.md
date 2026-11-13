@@ -1,14 +1,14 @@
 ---
 title: IVideoFrame
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงคลิปวิดีโอบนสไลด์.
+second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
+description: แสดงถึงคลิปวิดีโอบนสไลด์.
 type: docs
-weight: 7380
+weight: 7400
 url: /th/aspose.slides/ivideoframe/
 ---
 ## IVideoFrame อินเทอร์เฟซ
 
-แสดงคลิปวิดีโอบนสไลด์หนึ่ง
+แสดงถึงคลิปวิดีโอบนสไลด์หนึ่ง
 
 ```csharp
 public interface IVideoFrame : IPictureFrame
@@ -16,20 +16,21 @@ public interface IVideoFrame : IPictureFrame
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IPictureFrame พื้นฐานได้ อ่านอย่างเดียว [`IPictureFrame`](../ipictureframe) |
-| [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | ดึงคอลเลกชันของคำบรรยายปิดที่เชื่อมกับเฟรมเสียง คุณสมบัตินี้อ่านอย่างเดียวและคืนค่า [`ICaptionsCollection`](../icaptionscollection) ที่มีแทร็กคำบรรยายทั้งหมด |
-| [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | คืนค่า หรือกำหนดออบเจ็กต์วิดีโอที่ฝังอยู่ อ่าน/เขียน [`IVideo`](../ivideo) |
-| [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | กำหนดว่าวิดีโอจะแสดงในโหมดเต็มจอหรือไม่ อ่าน/เขียน Boolean |
-| [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | กำหนดว่า VideoFrame จะถูกซ่อนหรือไม่ อ่าน/เขียน Boolean |
-| [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | คืนค่า หรือกำหนดชื่อไฟล์วิดีโอที่เชื่อมกับ VideoFrame อ่าน/เขียน String |
-| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | กำหนดว่าวิดีโอจะวนซ้ำหรือไม่ อ่าน/เขียน Boolean |
-| [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | คืนค่า หรือกำหนดโหมดการเล่นวิดีโอ อ่าน/เขียน [`VideoPlayModePreset`](../videoplaymodepreset) |
-| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | กำหนดว่าวิดีโอจะกลับไปเริ่มต้นอัตโนมัติเมื่อเล่นจบหรือไม่ อ่าน/เขียน Boolean |
+| [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | อนุญาตให้รับอินเทอร์เฟซ IPictureFrame พื้นฐาน อ่านอย่างเดียว [`IPictureFrame`](../ipictureframe). |
+| [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | รับคอลเลกชันของคำบรรยายปิดที่เชื่อมโยงกับเฟรมเสียง คุณสมบัตินี้เป็นแบบอ่านอย่างเดียวและส่งกลับ [`ICaptionsCollection`](../icaptionscollection) ที่มีแทร็กคำบรรยายทั้งหมด. |
+| [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | รับหรือกำหนดวัตถุวิดีโอที่ฝังอยู่ อ่าน/เขียน [`IVideo`](../ivideo). |
+| [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | กำหนดว่าวิดีโอจะแสดงในโหมดเต็มหน้าจอหรือไม่ อ่าน/เขียน Boolean. |
+| [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | กำหนดว่า VideoFrame จะถูกซ่อนหรือไม่ อ่าน/เขียน Boolean. |
+| [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | รับหรือกำหนดชื่อไฟล์วิดีโอที่เชื่อมโยงกับ VideoFrame อ่าน/เขียน String. |
+| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | กำหนดว่าวิดีโอจะทำซ้ำหรือไม่ อ่าน/เขียน Boolean. |
+| [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | รับหรือกำหนดโหมดการเล่นวิดีโอ อ่าน/เขียน [`VideoPlayModePreset`](../videoplaymodepreset). |
+| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | กำหนดว่าวิดีโอจะทำการรีเวิร์นด์อัตโนมัติเพื่อเริ่มต้นใหม่ทันทีที่ภาพยนตร์เล่นจบแล้วหรือไม่ อ่าน/เขียน Boolean. |
 | [TrimFromEnd](../../aspose.slides/ivideoframe/trimfromend) { get; set; } | ตัดท้าย [ms] |
 | [TrimFromStart](../../aspose.slides/ivideoframe/trimfromstart) { get; set; } | ตัดเริ่มต้น [ms] |
-| [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | คืนค่า หรือกำหนดระดับเสียงอ่าน/เขียน [`AudioVolumeMode`](../audiovolumemode) |
+| [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | รับหรือกำหนดระดับเสียงของออดิโอ อ่าน/เขียน [`AudioVolumeMode`](../audiovolumemode). |
+| [VolumeValue](../../aspose.slides/ivideoframe/volumevalue) { get; set; } | รับหรือกำหนดระดับเสียงวิดีโอที่แม่นยำเป็นเปอร์เซ็นต์ ค่าถูกแสดงเป็นเปอร์เซ็นต์ตั้งแต่ 0 ถึง 100 ใช้คุณสมบัตินี้เพื่ออ่านหรือกำหนดค่าระดับเสียงที่มีความละเอียดมากกว่าระดับที่กำหนดไว้ล่วงหน้าผ่านคุณสมบัติ [`Volume`](./volume) อ่าน/เขียน Single. |
 
 ### ดูเพิ่มเติม
 

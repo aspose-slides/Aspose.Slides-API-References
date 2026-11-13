@@ -1,27 +1,27 @@
 ---
 title: UpDownBarsManager
 second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: ให้การเข้าถึงแถบ up/down ของแผนภูมิ Line หรือ Stock
+description: ให้การเข้าถึงแถบขึ้น/ลงของแผนภูมิ Line หรือ Stock-chart.
 type: docs
-weight: 2500
+weight: 2520
 url: /th/aspose.slides.charts/updownbarsmanager/
 ---
 ## UpDownBarsManager คลาส
 
-ให้การเข้าถึงแถบ up/down ของแผนภูมิ Line หรือ Stock
+ให้การเข้าถึงแถบขึ้น/ลงของแผนภูมิ Line หรือ Stock-chart.
 
 ```csharp
 public class UpDownBarsManager : DomObject<ChartSeriesGroup>, IUpDownBarsManager
 ```
 
-## คุณสมบัติ
+## Properties
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [DownBarsFormat](../../aspose.slides.charts/updownbarsmanager/downbarsformat) { get; } | ส่งคืนรูปแบบ DownBars. อ่านอย่างเดียว [`IFormat`](../iformat). |
+| [DownBarsFormat](../../aspose.slides.charts/updownbarsmanager/downbarsformat) { get; } | คืนค่ารูปแบบ DownBars. อ่านอย่างเดียว [`IFormat`](../iformat). |
 | [GapWidth](../../aspose.slides.charts/updownbarsmanager/gapwidth) { get; set; } | GapWidth. อ่าน/เขียน Int32. |
 | [HasUpDownBars](../../aspose.slides.charts/updownbarsmanager/hasupdownbars) { get; set; } | HasUpDownBars. อ่าน/เขียน Boolean. |
-| [UpBarsFormat](../../aspose.slides.charts/updownbarsmanager/upbarsformat) { get; } | ส่งคืนรูปแบบ UpBars. อ่านอย่างเดียว [`IFormat`](../iformat). |
+| [UpBarsFormat](../../aspose.slides.charts/updownbarsmanager/upbarsformat) { get; } | คืนค่ารูปแบบ UpBars. อ่านอย่างเดียว [`IFormat`](../iformat). |
 
 ### ดูเพิ่มเติม
 

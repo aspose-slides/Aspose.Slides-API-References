@@ -1,14 +1,14 @@
 ---
 title: RippleTransition
 second_title: Aspose.Sildes for .NET API 参考
-description: Ripple 幻灯片过渡效果。
+description: 波纹幻灯片过渡效果。
 type: docs
-weight: 10290
+weight: 10310
 url: /zh/aspose.slides.slideshow/rippletransition/
 ---
 ## RippleTransition 类
 
-Ripple 幻灯片过渡效果。
+波纹幻灯片过渡效果。
 
 ```csharp
 public class RippleTransition : TransitionValueBase, IRippleTransition
@@ -18,16 +18,16 @@ public class RippleTransition : TransitionValueBase, IRippleTransition
 
 | 名称 | 描述 |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/rippletransition/direction) { get; set; } | 过渡的方向。读/写 [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype)。 |
+| [Direction](../../aspose.slides.slideshow/rippletransition/direction) { get; set; } | 过渡方向。读/写 [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 确定两个 TransitionValueBase 实例是否相等。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 作为特定类型的哈希函数，可用于散列算法和诸如哈希表之类的数据结构。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 用作特定类型的哈希函数，适用于哈希算法和诸如哈希表之类的数据结构。 |
 
-### 另请参见
+### 另见
 
 * 类 [TransitionValueBase](../transitionvaluebase)
 * 接口 [IRippleTransition](../irippletransition)

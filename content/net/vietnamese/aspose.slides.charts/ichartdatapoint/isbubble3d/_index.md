@@ -1,14 +1,14 @@
 ---
 title: IsBubble3D
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Xác định rằng các bong bóng có hiệu ứng 3D được áp dụng cho chúng. Đọc/ghi Boolean.
+description: Xác định rằng các bong bóng có hiệu ứng 3-D được áp dụng lên chúng. Đọc/ghi Boolean.
 type: docs
-weight: 100
+weight: 140
 url: /vi/aspose.slides.charts/ichartdatapoint/isbubble3d/
 ---
 ## IChartDataPoint.IsBubble3D thuộc tính
 
-Xác định rằng các bong bóng có hiệu ứng 3D được áp dụng cho chúng. Đọc/ghi Boolean.
+Xác định rằng các bong bóng có hiệu ứng 3-D được áp dụng lên chúng. Đọc/ghi Boolean.
 
 ```csharp
 public bool IsBubble3D { get; set; }

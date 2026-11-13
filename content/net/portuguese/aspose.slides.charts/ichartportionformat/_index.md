@@ -3,7 +3,7 @@ title: IChartPortionFormat
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa as propriedades de formatação de porções de gráfico usadas em gráficos.
 type: docs
-weight: 1920
+weight: 1940
 url: /pt/aspose.slides.charts/ichartportionformat/
 ---
 ## IChartPortionFormat interface
@@ -20,7 +20,7 @@ public interface IChartPortionFormat : IBasePortionFormat
 | --- | --- |
 | [AsIBasePortionFormat](../../aspose.slides.charts/ichartportionformat/asibaseportionformat) { get; } | Retorna a interface IBasePortionFormat. |
 
-### Ver também
+### Veja Também
 
 * interface [IBasePortionFormat](../../aspose.slides/ibaseportionformat)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)

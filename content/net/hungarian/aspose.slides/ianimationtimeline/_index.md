@@ -3,7 +3,7 @@ title: IAnimationTimeLine
 second_title: Aspose.Sildes .NET API referencia
 description: Az animáció idővonalát képviseli.
 type: docs
-weight: 5200
+weight: 5220
 url: /hu/aspose.slides/ianimationtimeline/
 ---
 ## IAnimationTimeLine interfész
@@ -18,7 +18,7 @@ public interface IAnimationTimeLine
 
 | Név | Leírás |
 | --- | --- |
-| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | Visszaadja az interaktív szekvenciák gyűjteményét. Ezek a szekvenciák csak a "kattintás az alakzatra" hatásokat tartalmazhatják, meghatározott célalakzattal. Csak olvasható [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection). |
+| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | Visszaadja az interaktív szekvenciák gyűjteményét. Ezek a szekvenciák csak a "click on shape" hatásokat tartalmazhatják, amely meghatározott célalakzatra vonatkozik. Csak olvasható [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection). |
 | [MainSequence](../../aspose.slides/ianimationtimeline/mainsequence) { get; } | Visszaadja a fő szekvenciát, amely csak a fő hatások gyűjteményét tartalmazhatja. Csak olvasható [`ISequence`](../../aspose.slides.animation/isequence). |
 | [TextAnimationCollection](../../aspose.slides/ianimationtimeline/textanimationcollection) { get; } | Visszaadja a szöveganimációk gyűjteményét. Csak olvasható [`ITextAnimationCollection`](../../aspose.slides.animation/itextanimationcollection). |
 

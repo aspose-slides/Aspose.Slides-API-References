@@ -3,10 +3,10 @@ title: GetFonts
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Retourneert de lettertypen die in de presentatie worden gebruikt
 type: docs
-weight: 70
+weight: 80
 url: /nl/aspose.slides/fontsmanager/getfonts/
 ---
-## FontsManager.GetFonts method
+## FontsManager.GetFonts methode
 
 Retourneert de lettertypen die in de presentatie worden gebruikt
 
@@ -16,7 +16,7 @@ public IFontData[] GetFonts()
 
 ### Retourwaarde
 
-Een array van lettertypen
+Een array met lettertypen
 
 ### Zie ook
 

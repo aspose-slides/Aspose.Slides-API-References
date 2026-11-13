@@ -1,14 +1,14 @@
 ---
 title: ImageCollection
-second_title: Référence API Aspose.Sildes pour .NET
-description: Représente une collection de PPImage.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Représente la collection de PPImage.
 type: docs
-weight: 7420
+weight: 7440
 url: /fr/aspose.slides/imagecollection/
 ---
 ## ImageCollection classe
 
-Représente une collection de PPImage.
+Représente la collection de PPImage.
 
 ```csharp
 public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
@@ -21,7 +21,7 @@ public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
 | [Count](../../aspose.slides/imagecollection/count) { get; } | Renvoie le nombre d'images dans la collection. Lecture seule Int32. |
 | [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (thread-safe). Lecture seule Boolean. |
 | [Item](../../aspose.slides/imagecollection/item) { get; } | Obtient l'élément à l'index spécifié. Lecture seule [`IPPImage`](../ippimage). |
-| [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | Renvoie une racine de synchronisation. Lecture seule Object. |
+| [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | Renvoie la racine de synchronisation. Lecture seule Object. |
 
 ## Méthodes
 
@@ -29,11 +29,11 @@ public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
 | --- | --- |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_3)(byte[]) | Ajoute une image à une présentation à partir du tampon spécifié. |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage)(IImage) | Ajoute une image à une présentation. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_1)(IPPImage) | Ajoute une copie d'une image d'une autre présentation. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_1)(IPPImage) | Ajoute une copie d'une image provenant d'une autre présentation. |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_2)(ISvgImage) | Ajoute une image à une présentation à partir d'un objet Svg. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_4)(MemoryStream) | Ajoute une image à une présentation à partir du flux. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_5)(Stream) | Ajoute une image à une présentation à partir du flux. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | Crée et ajoute une image à une présentation à partir du flux. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_4)(MemoryStream) | Ajoute une image à une présentation à partir d'un flux. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_5)(Stream) | Ajoute une image à une présentation à partir d'un flux. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | Crée et ajoute une image à une présentation à partir d'un flux. |
 | [CopyTo](../../aspose.slides/imagecollection/copyto)(Array, int) | Copie tous les éléments de la collection dans le tableau spécifié. |
 | [GetEnumerator](../../aspose.slides/imagecollection/getenumerator)() | Renvoie un énumérateur qui parcourt la collection. |
 

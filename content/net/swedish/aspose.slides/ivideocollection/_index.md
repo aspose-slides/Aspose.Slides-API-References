@@ -1,9 +1,9 @@
 ---
 title: IVideoCollection
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en samling av Video-objekt.
+description: Representerar en samling Video-objekt.
 type: docs
-weight: 7370
+weight: 7390
 url: /sv/aspose.slides/ivideocollection/
 ---
 ## IVideoCollection gränssnitt

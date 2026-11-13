@@ -1,14 +1,14 @@
 ---
 title: XValue
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: คืนค่า x ของจุดข้อมูลแผนภูมิ. อ่านอย่างเดียว IStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue.
+second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: รับค่า x ของจุดข้อมูลแผนภูมิ. อ่านอย่างเดียว IStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue.
 type: docs
-weight: 170
+weight: 210
 url: /th/aspose.slides.charts/ichartdatapoint/xvalue/
 ---
 ## IChartDataPoint.XValue คุณสมบัติ
 
-คืนค่า x ของจุดข้อมูลแผนภูมิ. อ่านอย่างเดียว [`IStringOrDoubleChartValue`](../../istringordoublechartvalue).
+รับค่า x ของจุดข้อมูลแผนภูมิ. เฉพาะการอ่าน [`IStringOrDoubleChartValue`](../../istringordoublechartvalue).
 
 ```csharp
 public IStringOrDoubleChartValue XValue { get; }

@@ -1,14 +1,14 @@
 ---
 title: Compress
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa un grupo de métodos destinados a comprimir Presentation../aspose.slides/presentation.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Representa un conjunto de métodos destinados a comprimir Presentation../aspose.slides/presentation.
 type: docs
-weight: 7870
+weight: 7890
 url: /es/aspose.slides.lowcode/compress/
 ---
 ## Compress clase
 
-Representa un grupo de métodos destinados a comprimir [`Presentation`](../../aspose.slides/presentation).
+Representa un conjunto de métodos destinados a comprimir [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public static class Compress
@@ -18,9 +18,11 @@ public static class Compress
 
 | Nombre | Descripción |
 | --- | --- |
-| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | Realiza la compresión del [`Presentation`](../../aspose.slides/presentation) eliminando los caracteres no utilizados de las fuentes incrustadas. |
-| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | Realiza la compresión del [`Presentation`](../../aspose.slides/presentation) eliminando las diapositivas de diseño no utilizadas. |
-| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | Realiza la compresión del [`Presentation`](../../aspose.slides/presentation) eliminando las diapositivas maestras no utilizadas. |
+| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | Realiza la compresión del [`Presentation`](../../aspose.slides/presentation) eliminando caracteres no utilizados de las fuentes incrustadas. |
+| static [CompressImages](../../aspose.slides.lowcode/compress/compressimages)(IPresentation, PicturesCompression) | Reduce la resolución de las imágenes en la presentación y elimina sus áreas recortadas, similar a "Compress Pictures" de PowerPoint aplicado a todas las imágenes. Se procesan las imágenes en diapositivas, diapositivas de diseño y diapositivas maestras, incluidas las imágenes dentro de formas grupales y los rellenos de imagen de las formas. |
+| static [CompressPresentation](../../aspose.slides.lowcode/compress/compresspresentation)(Presentation) | Reduce el tamaño de una presentación aplicando todos los pasos de compresión disponibles: |
+| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | Realiza la compresión del [`Presentation`](../../aspose.slides/presentation) eliminando diapositivas de diseño no utilizadas. |
+| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | Realiza la compresión del [`Presentation`](../../aspose.slides/presentation) eliminando diapositivas maestras no utilizadas. |
 
 ### Ejemplos
 

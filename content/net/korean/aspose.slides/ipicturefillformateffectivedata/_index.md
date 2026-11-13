@@ -1,9 +1,9 @@
 ---
 title: IPictureFillFormatEffectiveData
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 그림 채우기의 속성을 포함하는 불변 객체입니다.
 type: docs
-weight: 6660
+weight: 6680
 url: /ko/aspose.slides/ipicturefillformateffectivedata/
 ---
 ## IPictureFillFormatEffectiveData 인터페이스
@@ -19,10 +19,10 @@ public interface IPictureFillFormatEffectiveData : IFillParamSource
 | 이름 | 설명 |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ipicturefillformateffectivedata/asifillparamsource) { get; } | 기본 IFillParamSource 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IFillParamSource`](../ifillparamsource). |
-| [CropBottom](../../aspose.slides/ipicturefillformateffectivedata/cropbottom) { get; } | 그림의 하단에서 잘려 나간 실제 이미지 높이의 백분율 수를 반환합니다. 읽기 전용 Single. |
-| [CropLeft](../../aspose.slides/ipicturefillformateffectivedata/cropleft) { get; } | 그림의 왼쪽에서 잘려 나간 실제 이미지 너비의 백분율 수를 반환합니다. 읽기 전용 Single. |
-| [CropRight](../../aspose.slides/ipicturefillformateffectivedata/cropright) { get; } | 그림의 오른쪽에서 잘려 나간 실제 이미지 너비의 백분율 수를 반환합니다. 읽기 전용 Single. |
-| [CropTop](../../aspose.slides/ipicturefillformateffectivedata/croptop) { get; } | 그림의 상단에서 잘려 나간 실제 이미지 높이의 백분율 수를 반환합니다. 읽기 전용 Single. |
+| [CropBottom](../../aspose.slides/ipicturefillformateffectivedata/cropbottom) { get; } | 그림의 하단이 잘려 나간 실제 이미지 높이의 퍼센트 수를 반환합니다. 읽기 전용 Single. |
+| [CropLeft](../../aspose.slides/ipicturefillformateffectivedata/cropleft) { get; } | 그림의 왼쪽이 잘려 나간 실제 이미지 너비의 퍼센트 수를 반환합니다. 읽기 전용 Single. |
+| [CropRight](../../aspose.slides/ipicturefillformateffectivedata/cropright) { get; } | 그림의 오른쪽이 잘려 나간 실제 이미지 너비의 퍼센트 수를 반환합니다. 읽기 전용 Single. |
+| [CropTop](../../aspose.slides/ipicturefillformateffectivedata/croptop) { get; } | 그림의 상단이 잘려 나간 실제 이미지 높이의 퍼센트 수를 반환합니다. 읽기 전용 Single. |
 | [Dpi](../../aspose.slides/ipicturefillformateffectivedata/dpi) { get; } | 그림을 채우는 데 사용되는 dpi를 반환합니다. 읽기 전용 Int32. |
 | [Picture](../../aspose.slides/ipicturefillformateffectivedata/picture) { get; } | 그림을 반환합니다. 읽기 전용 [`IPictureEffectiveData`](../ipictureeffectivedata). |
 | [PictureFillMode](../../aspose.slides/ipicturefillformateffectivedata/picturefillmode) { get; } | 그림 채우기 모드를 반환합니다. 읽기 전용 [`PictureFillMode`](../picturefillmode). |
@@ -31,7 +31,7 @@ public interface IPictureFillFormatEffectiveData : IFillParamSource
 
 이 인터페이스는 [`IFillFormatEffectiveData`](../ifillformateffectivedata)의 일부로 사용됩니다.
 
-### 참조
+### 참고
 
 * 인터페이스 [IFillParamSource](../ifillparamsource)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

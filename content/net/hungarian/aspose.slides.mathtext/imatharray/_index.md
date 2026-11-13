@@ -1,14 +1,14 @@
 ---
 title: IMathArray
-second_title: Aspose.Sildes a .NET API referencia
-description: Megadja a függőleges tömböt egyenletekkel vagy bármilyen matematikai objektummal
+second_title: Aspose.Sildes .NET API referencia
+description: Megadja egy függőleges tömböt egyenletekkel vagy bármilyen matematikai objektummal
 type: docs
-weight: 8100
+weight: 8120
 url: /hu/aspose.slides.mathtext/imatharray/
 ---
 ## IMathArray interfész
 
-Megadja a függőleges tömböt egyenletekkel vagy bármilyen matematikai objektummal
+Megadja egy függőleges tömböt egyenletekkel vagy bármilyen matematikai objektummal
 
 ```csharp
 public interface IMathArray : IMathElement
@@ -16,26 +16,26 @@ public interface IMathArray : IMathElement
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
 | [Arguments](../../aspose.slides.mathtext/imatharray/arguments) { get; } | A tömb elemeinek halmaza |
-| [AsIMathElement](../../aspose.slides.mathtext/imatharray/asimathelement) { get; } | Lehetővé teszi az alap IMathElement interfész elérését [`IMathElement`](../imathelement) |
-| [BaseJustification](../../aspose.slides.mathtext/imatharray/basejustification) { get; set; } | Megadja a tömb igazítását a környező szöveghez képest. A tömbön kívüli szöveg igazítható a tömb objektum aljához, tetejéhez vagy közepéhez. Alapértelmezett érték: Center |
-| [MaximumDistribution](../../aspose.slides.mathtext/imatharray/maximumdistribution) { get; set; } | Maximum elosztás: Ha igaz, a tömb a tartalmazó elem (oldal, oszlop, cella stb.) maximális szélességéhez lesz igazítva. |
-| [ObjectDistribution](../../aspose.slides.mathtext/imatharray/objectdistribution) { get; set; } | Objektum elosztás: Ha igaz, a tömb tartalma a tömb objektum maximális szélességéhez lesz igazítva. |
-| [RowSpacing](../../aspose.slides.mathtext/imatharray/rowspacing) { get; set; } | Sorok közötti távolság a tömbben. Csak akkor használható, ha a RowSpacingRule 3-ra van állítva. Ebben az esetben a mértékegység pont, vagy ha Multiple, akkor fél sor. Alapértelmezett: 0 |
+| [AsIMathElement](../../aspose.slides.mathtext/imatharray/asimathelement) { get; } | Lehetővé teszi a base IMathElement interfész [`IMathElement`](../imathelement) lekérését |
+| [BaseJustification](../../aspose.slides.mathtext/imatharray/basejustification) { get; set; } | Megadja a tömb igazítását a környező szöveghez képest. A tömbön kívüli szöveg igazítható a tömb objektum alja, teteje vagy középpontja szerint. Alapértelmezett érték: Center |
+| [MaximumDistribution](../../aspose.slides.mathtext/imatharray/maximumdistribution) { get; set; } | Maximum eloszlás. Ha igaz, a tömb a tartalmazó elem (oldal, oszlop, cella stb.) maximális szélességéhez lesz igazítva. |
+| [ObjectDistribution](../../aspose.slides.mathtext/imatharray/objectdistribution) { get; set; } | Objektum eloszlás. Ha igaz, a tömb tartalma a tömb objektum maximális szélességéhez lesz igazítva. |
+| [RowSpacing](../../aspose.slides.mathtext/imatharray/rowspacing) { get; set; } | A sorok közti távolság a tömbben. Csak akkor használatos, ha a RowSpacingRule 3-ra van állítva. Ebben az esetben a mértékegység pont, vagy ha Multiple, akkor fél sor. Alapértelmezett: 0 |
 | [RowSpacingRule](../../aspose.slides.mathtext/imatharray/rowspacingrule) { get; set; } | A tömb elemei közötti függőleges távolság típusa |
 
 ### Példák
 
-Példa:
+Example:
 
 ```csharp
 [C#]
 IMathArray mathArray = new MathArray(new MathematicalText("item1"));
 ```
 
-### Kapcsolódó
+### Lásd még
 
 * interfész [IMathElement](../imathelement)
 * névtér [Aspose.Slides.MathText](../../aspose.slides.mathtext)

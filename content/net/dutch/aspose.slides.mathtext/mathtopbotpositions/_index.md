@@ -1,14 +1,14 @@
 ---
 title: MathTopBotPositions
-second_title: Aspose.Sildes voor .NET API-referentie
-description: Enumeratie van top/bottom posities
+second_title: Aspose.Sildes voor .NET API Referentie
+description: Enumeratie van top/onder posities
 type: docs
-weight: 9040
+weight: 9060
 url: /nl/aspose.slides.mathtext/mathtopbotpositions/
 ---
 ## MathTopBotPositions enumeratie
 
-Enumeratie van top/bottom posities
+Enumeratie van top/onder posities
 
 ```csharp
 public enum MathTopBotPositions
@@ -19,8 +19,8 @@ public enum MathTopBotPositions
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
 | NotDefined | `0` | Niet gedefinieerd |
-| Top | `1` | Top |
-| Bottom | `2` | Bottom |
+| Top | `1` | Boven |
+| Bottom | `2` | Onder |
 
 ### Zie ook
 

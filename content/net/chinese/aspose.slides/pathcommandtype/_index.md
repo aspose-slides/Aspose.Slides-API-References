@@ -1,9 +1,9 @@
 ---
 title: PathCommandType
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示图形路径命令
 type: docs
-weight: 9320
+weight: 9340
 url: /zh/aspose.slides/pathcommandtype/
 ---
 ## PathCommandType 枚举
@@ -21,11 +21,11 @@ public enum PathCommandType : byte
 | Close | `0` | 关闭几何路径 |
 | MoveTo | `1` | 设置几何路径的下一个点位置 |
 | LineTo | `2` | 向几何路径追加直线 |
-| ArcTo | `3` | 向几何路径追加指定的弧线。 |
+| ArcTo | `3` | 向几何路径追加指定的弧段。 |
 | QuadBezierTo | `4` | 向几何路径追加二次贝塞尔曲线 |
 | CubicBezierTo | `5` | 向几何路径追加三次贝塞尔曲线 |
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

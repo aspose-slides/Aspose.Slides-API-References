@@ -1,31 +1,32 @@
 ---
 title: Output
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
 description: แสดงถึงคอลเลกชันขององค์ประกอบผลลัพธ์สำหรับ IWebDocument.
 type: docs
-weight: 4640
+weight: 4660
 url: /th/aspose.slides.export.web/output/
 ---
 ## คลาส Output
 
-Represents a collection of output elements for !:IWebDocument.
+แสดงถึงคอลเลกชันขององค์ประกอบผลลัพธ์สำหรับ !:IWebDocument.
 
 ```csharp
 public sealed class Output
 ```
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Add](../../aspose.slides.export.web/output/add#add_1)(string, IImage) | เพิ่มองค์ประกอบผลลัพธ์สำหรับรูปภาพ |
-| [Add](../../aspose.slides.export.web/output/add#add_2)(string, IPPImage) | เพิ่มองค์ประกอบผลลัพธ์สำหรับรูปภาพ |
-| [Add](../../aspose.slides.export.web/output/add#add_3)(string, IVideo) | เพิ่มองค์ประกอบผลลัพธ์สำหรับวิดีโอ |
-| [Add](../../aspose.slides.export.web/output/add#add_4)(string, string) | เพิ่มองค์ประกอบผลลัพธ์สำหรับเนื้อหาข้อความ |
-| [Add](../../aspose.slides.export.web/output/add#add)(string, IFontData, FontStyleType) | สร้างและเพิ่มองค์ประกอบไฟล์ผลลัพธ์สำหรับแบบอักษรที่ระบุ |
-| [Add&lt;TContextObject&gt;](../../aspose.slides.export.web/output/add#add_5)(string, string, TContextObject) | เพิ่มองค์ประกอบผลลัพธ์สำหรับอ็อบเจ็กต์บริบท |
-| [BindResource](../../aspose.slides.export.web/output/bindresource)(IOutputFile, object) | ผูกทรัพยากรกับไฟล์ผลลัพธ์ |
-| [GetResourcePath](../../aspose.slides.export.web/output/getresourcepath)(object) | คืนค่าเส้นทางสำหรับทรัพยากรที่กำหนด |
+| [Add](../../aspose.slides.export.web/output/add#add)(string, IAudio) | เพิ่มองค์ประกอบผลลัพธ์สำหรับเสียง. |
+| [Add](../../aspose.slides.export.web/output/add#add_2)(string, IImage) | เพิ่มองค์ประกอบผลลัพธ์สำหรับรูปภาพ. |
+| [Add](../../aspose.slides.export.web/output/add#add_3)(string, IPPImage) | เพิ่มองค์ประกอบผลลัพธ์สำหรับรูปภาพ. |
+| [Add](../../aspose.slides.export.web/output/add#add_4)(string, IVideo) | เพิ่มองค์ประกอบผลลัพธ์สำหรับวิดีโอ. |
+| [Add](../../aspose.slides.export.web/output/add#add_5)(string, string) | เพิ่มองค์ประกอบผลลัพธ์สำหรับเนื้อหาข้อความ. |
+| [Add](../../aspose.slides.export.web/output/add#add_1)(string, IFontData, FontStyleType) | สร้างและเพิ่มองค์ประกอบไฟล์ผลลัพธ์สำหรับฟอนต์ที่ระบุ. |
+| [Add&lt;TContextObject&gt;](../../aspose.slides.export.web/output/add#add_6)(string, string, TContextObject) | เพิ่มองค์ประกอบผลลัพธ์สำหรับวัตถุบริบท. |
+| [BindResource](../../aspose.slides.export.web/output/bindresource)(IOutputFile, object) | ผูกแหล่งข้อมูลกับไฟล์ผลลัพธ์. |
+| [GetResourcePath](../../aspose.slides.export.web/output/getresourcepath)(object) | ส่งคืนเส้นทางสำหรับแหล่งข้อมูลที่กำหนด. |
 
 ### ดูเพิ่มเติม
 

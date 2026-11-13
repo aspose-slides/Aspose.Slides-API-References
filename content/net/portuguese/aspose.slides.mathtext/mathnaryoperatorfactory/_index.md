@@ -1,9 +1,9 @@
 ---
 title: MathNaryOperatorFactory
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Aspose.Sildes para Referência da API .NET
 description: Permite criar IMathNaryOperator
 type: docs
-weight: 8880
+weight: 8900
 url: /pt/aspose.slides.mathtext/mathnaryoperatorfactory/
 ---
 ## MathNaryOperatorFactory classe
@@ -16,13 +16,13 @@ public class MathNaryOperatorFactory : IMathNaryOperatorFactory
 
 ## Construtores
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [MathNaryOperatorFactory](mathnaryoperatorfactory)() | O construtor padrão. |
 
 ## Métodos
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [CreateMathNaryOperator](../../aspose.slides.mathtext/mathnaryoperatorfactory/createmathnaryoperator#createmathnaryoperator)(char, IMathElement) | Cria IMathNaryOperator |
 | [CreateMathNaryOperator](../../aspose.slides.mathtext/mathnaryoperatorfactory/createmathnaryoperator#createmathnaryoperator_1)(char, IMathElement, IMathElement) | Cria IMathNaryOperator |
@@ -32,7 +32,7 @@ public class MathNaryOperatorFactory : IMathNaryOperatorFactory
 
 Para compatibilidade COM
 
-### Veja também
+### Veja Também
 
 * interface [IMathNaryOperatorFactory](../imathnaryoperatorfactory)
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

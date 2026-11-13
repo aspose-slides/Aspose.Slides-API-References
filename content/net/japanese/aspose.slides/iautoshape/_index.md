@@ -3,12 +3,12 @@ title: IAutoShape
 second_title: Aspose.Sildes for .NET API リファレンス
 description: AutoShape を表します。
 type: docs
-weight: 5240
+weight: 5260
 url: /ja/aspose.slides/iautoshape/
 ---
-## IAutoShape インターフェイス
+## IAutoShape interface
 
-AutoShapeを表します。
+AutoShape を表します。
 
 ```csharp
 public interface IAutoShape : IGeometryShape
@@ -18,18 +18,18 @@ public interface IAutoShape : IGeometryShape
 
 | Name | Description |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides/iautoshape/asigeometryshape) { get; } | IGeometryShapeインターフェイスの基底を取得できます。読み取り専用 [`IGeometryShape`](../igeometryshape)。 |
-| [AutoShapeLock](../../aspose.slides/iautoshape/autoshapelock) { get; } | AutoShapeのロックを返します。読み取り専用 [`IAutoShapeLock`](../iautoshapelock)。 |
-| [IsTextBox](../../aspose.slides/iautoshape/istextbox) { get; } | シェイプがテキスト ボックスかどうかを指定します。 |
+| [AsIGeometryShape](../../aspose.slides/iautoshape/asigeometryshape) { get; } | ベース IGeometryShape インターフェイスを取得できます。読み取り専用 [`IGeometryShape`](../igeometryshape)。 |
+| [AutoShapeLock](../../aspose.slides/iautoshape/autoshapelock) { get; } | AutoShape のロックを返します。読み取り専用 [`IAutoShapeLock`](../iautoshapelock)。 |
+| [IsTextBox](../../aspose.slides/iautoshape/istextbox) { get; } | シェイプがテキスト ボックスであるかどうかを指定します。 |
 | [ShapeLock](../../aspose.slides/iautoshape/shapelock) { get; } | シェイプのロックを返します。読み取り専用 [`IAutoShapeLock`](../iautoshapelock)。 |
-| [TextFrame](../../aspose.slides/iautoshape/textframe) { get; } | AutoShapeのTextFrameオブジェクトを返します。読み取り専用 [`ITextFrame`](../itextframe)。 |
-| [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | この自動シェイプを、スタイルや塗りつぶし形式で指定する代わりにスライドの背景塗りで塗りつぶすかどうかを決定します。読み書き可能 Boolean。 |
+| [TextFrame](../../aspose.slides/iautoshape/textframe) { get; } | AutoShape の TextFrame オブジェクトを返します。読み取り専用 [`ITextFrame`](../itextframe)。 |
+| [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | このオートシェイプを、スタイルや塗りつぶし形式で指定する代わりに、スライドの背景塗りつぶしで塗りつぶすかどうかを決定します。読み書き Boolean。 |
 
 ## メソッド
 
 | Name | Description |
 | --- | --- |
-| [AddTextFrame](../../aspose.slides/iautoshape/addtextframe)(string) | シェイプに新しいTextFrameを追加します。シェイプにすでにTextFrameがある場合は、テキストを変更するだけです。 |
+| [AddTextFrame](../../aspose.slides/iautoshape/addtextframe)(string) | シェイプに新しい TextFrame を追加します。シェイプに既に TextFrame がある場合は、テキストを単に変更します。 |
 
 ### 関連項目
 

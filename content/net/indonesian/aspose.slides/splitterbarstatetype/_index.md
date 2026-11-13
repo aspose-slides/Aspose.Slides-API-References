@@ -1,26 +1,26 @@
 ---
 title: SplitterBarStateType
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Menentukan keadaan di mana splitter bar harus ditampilkan. Splitter bar memisahkan wilayah primer dan sekunder dalam area tampilan.
+description: Menentukan keadaan di mana splitter bar harus ditampilkan. Splitter bar memisahkan wilayah utama dan sekunder dalam area tampilan.
 type: docs
-weight: 10690
+weight: 10710
 url: /id/aspose.slides/splitterbarstatetype/
 ---
-## SplitterBarStateType enumerasi
+## SplitterBarStateType enumeration
 
-Menentukan keadaan di mana splitter bar harus ditampilkan. Splitter bar memisahkan wilayah primer dan sekunder dalam area tampilan.
+Menentukan keadaan di mana splitter bar harus ditampilkan. Splitter bar memisahkan wilayah utama dan sekunder dalam area tampilan.
 
 ```csharp
 public enum SplitterBarStateType
 ```
 
-### Values
+### Nilai
 
-| Name | Value | Description |
+| Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| Minimized | `0` | Wilayah primer menempati jumlah terkecil area tampilan yang diizinkan oleh aplikasi. |
-| Restored | `1` | Wilayah primer memiliki ukuran menengah tertentu. |
-| Maximized | `2` | Wilayah primer menempati jumlah terbesar area tampilan yang diizinkan oleh aplikasi. |
+| Minimized | `0` | Wilayah utama menempati jumlah area tampilan terkecil yang diizinkan oleh aplikasi. |
+| Restored | `1` | Wilayah utama memiliki ukuran menengah yang spesifik. |
+| Maximized | `2` | Wilayah utama menempati jumlah area tampilan terbesar yang diizinkan oleh aplikasi. |
 
 ### Lihat Juga
 

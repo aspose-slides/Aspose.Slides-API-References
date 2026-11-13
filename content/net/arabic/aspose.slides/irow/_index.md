@@ -3,7 +3,7 @@ title: IRow
 second_title: مرجع API لـ Aspose.Sildes لـ .NET
 description: يمثل صفًا في جدول.
 type: docs
-weight: 6850
+weight: 6870
 url: /ar/aspose.slides/irow/
 ---
 ## IRow واجهة
@@ -18,10 +18,10 @@ public interface IRow : IBulkTextFormattable, ICellCollection
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/irow/asibulktextformattable) { get; } | يسمح بالحصول على واجهة IBulkTextFormattable الأساسية. للقراءة فقط [`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsICellCollection](../../aspose.slides/irow/asicellcollection) { get; } | يسمح بالحصول على واجهة ICellCollection الأساسية. للقراءة فقط [`ICellCollection`](../icellcollection). |
+| [AsIBulkTextFormattable](../../aspose.slides/irow/asibulktextformattable) { get; } | يسمح بالحصول على الواجهة الأساسية IBulkTextFormattable. للقراءة فقط [`IBulkTextFormattable`](../ibulktextformattable). |
+| [AsICellCollection](../../aspose.slides/irow/asicellcollection) { get; } | يسمح بالحصول على الواجهة الأساسية ICellCollection. للقراءة فقط [`ICellCollection`](../icellcollection). |
 | [Height](../../aspose.slides/irow/height) { get; } | يعيد ارتفاع الصف. للقراءة فقط Double. |
-| [MinimalHeight](../../aspose.slides/irow/minimalheight) { get; set; } | يعيد أو يضبط الحد الأدنى للارتفاع المحتمل للصف. قراءة/كتابة Double. |
+| [MinimalHeight](../../aspose.slides/irow/minimalheight) { get; set; } | يعيد أو يحدد الحد الأدنى الممكن لارتفاع الصف. للقراءة والكتابة Double. |
 | [RowFormat](../../aspose.slides/irow/rowformat) { get; } | يعيد كائن RowFormat الذي يحتوي على خصائص التنسيق لهذا الصف. للقراءة فقط [`IRowFormat`](../irowformat). |
 
 ### انظر أيضًا

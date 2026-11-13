@@ -1,14 +1,14 @@
 ---
 title: ICellCollection
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en samling av celler.
+description: Representerar en samling celler.
 type: docs
-weight: 5460
+weight: 5480
 url: /sv/aspose.slides/icellcollection/
 ---
 ## ICellCollection gränssnitt
 
-Representerar en samling av celler.
+Representerar en samling celler.
 
 ```csharp
 public interface ICellCollection : IGenericCollection<ICell>, ISlideComponent
@@ -21,7 +21,7 @@ public interface ICellCollection : IGenericCollection<ICell>, ISlideComponent
 | [AsISlideComponent](../../aspose.slides/icellcollection/asislidecomponent) { get; } | Tillåter att hämta bas-ISlideComponent-gränssnittet. Skrivskyddad [`ISlideComponent`](../islidecomponent). |
 | [Item](../../aspose.slides/icellcollection/item) { get; } | Returnerar en cell efter dess position. Skrivskyddad [`ICell`](../icell). |
 
-### Se även
+### Se också
 
 * gränssnitt [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * gränssnitt [ICell](../icell)

@@ -1,9 +1,9 @@
 ---
 title: IFormatSchemeEffectiveData
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Etkili format şeması özelliklerini içeren değişmez nesne.
 type: docs
-weight: 11280
+weight: 11300
 url: /tr/aspose.slides.theme/iformatschemeeffectivedata/
 ---
 ## IFormatSchemeEffectiveData arayüz
@@ -14,18 +14,18 @@ Etkili format şeması özelliklerini içeren değişmez nesne.
 public interface IFormatSchemeEffectiveData
 ```
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [GetBackgroundFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles)(Color) | Tema tarafından tanımlanan arka plan dolgu stillerinin bir koleksiyonunu döndürür. |
+| [GetBackgroundFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles)(Color) | Tema tarafından tanımlanan arka plan doldurma stillerinin bir koleksiyonunu döndürür. |
 | [GetEffectStyles](../../aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles)(Color) | Tema tarafından tanımlanan efekt stillerinin bir koleksiyonunu döndürür. |
-| [GetFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getfillstyles)(Color) | Tema tarafından tanımlanan dolgu stillerinin bir koleksiyonunu döndürür. |
+| [GetFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getfillstyles)(Color) | Tema tarafından tanımlanan doldurma stillerinin bir koleksiyonunu döndürür. |
 | [GetLineStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getlinestyles)(Color) | Tema tarafından tanımlanan çizgi stillerinin bir koleksiyonunu döndürür. |
 
 ### Açıklamalar
 
-Bu arayüz, [`IThemeEffectiveData`](../ithemeeffectivedata)'ın bir parçası olarak kullanılır.
+Bu arayüz, [`IThemeEffectiveData`](../ithemeeffectivedata) öğesinin bir parçası olarak kullanılır.
 
 ### Ayrıca Bakınız
 

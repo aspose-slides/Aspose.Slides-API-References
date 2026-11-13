@@ -1,14 +1,14 @@
 ---
 title: IColorOperationCollection
-second_title: Aspose.Sildes .NET API 레퍼런스
-description: 색 변환 작업의 컬렉션을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 색상 변환 연산의 컬렉션을 나타냅니다.
 type: docs
-weight: 5510
+weight: 5530
 url: /ko/aspose.slides/icoloroperationcollection/
 ---
 ## IColorOperationCollection 인터페이스
 
-색 변환 작업의 컬렉션을 나타냅니다.
+색상 변환 연산의 컬렉션을 나타냅니다.
 
 ```csharp
 public interface IColorOperationCollection : IGenericCloneable<IColorOperationCollection>, 
@@ -19,20 +19,20 @@ public interface IColorOperationCollection : IGenericCloneable<IColorOperationCo
 
 | 이름 | 설명 |
 | --- | --- |
-| [Item](../../aspose.slides/icoloroperationcollection/item) { get; set; } | 지정된 인덱스에 있는 작업을 반환하거나 설정합니다. 읽기/쓰기 [`IColorOperation`](../icoloroperation). |
+| [Item](../../aspose.slides/icoloroperationcollection/item) { get; set; } | 지정된 인덱스에서 연산을 반환하거나 설정합니다. 읽기/쓰기 [`IColorOperation`](../icoloroperation). |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [Add](../../aspose.slides/icoloroperationcollection/add#add)(ColorTransformOperation) | 새 작업을 컬렉션의 끝에 추가합니다. |
-| [Add](../../aspose.slides/icoloroperationcollection/add#add_1)(ColorTransformOperation, float) | 새 작업을 컬렉션의 끝에 추가합니다. |
-| [Clear](../../aspose.slides/icoloroperationcollection/clear)() | 모든 색 작업을 제거합니다. |
-| [Insert](../../aspose.slides/icoloroperationcollection/insert#insert)(int, ColorTransformOperation) | 새 작업을 컬렉션에 삽입합니다. |
-| [Insert](../../aspose.slides/icoloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | 새 작업을 컬렉션에 삽입합니다. |
-| [RemoveAt](../../aspose.slides/icoloroperationcollection/removeat)(int) | 컬렉션에서 색 작업을 제거합니다. |
+| [Add](../../aspose.slides/icoloroperationcollection/add#add)(ColorTransformOperation) | 새 연산을 컬렉션의 끝에 추가합니다. |
+| [Add](../../aspose.slides/icoloroperationcollection/add#add_1)(ColorTransformOperation, float) | 새 연산을 컬렉션의 끝에 추가합니다. |
+| [Clear](../../aspose.slides/icoloroperationcollection/clear)() | 모든 색상 연산을 제거합니다. |
+| [Insert](../../aspose.slides/icoloroperationcollection/insert#insert)(int, ColorTransformOperation) | 새 연산을 컬렉션에 삽입합니다. |
+| [Insert](../../aspose.slides/icoloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | 새 연산을 컬렉션에 삽입합니다. |
+| [RemoveAt](../../aspose.slides/icoloroperationcollection/removeat)(int) | 컬렉션에서 색상 연산을 제거합니다. |
 
-### 참고
+### 참조
 
 * 인터페이스 [IGenericCloneable&lt;T&gt;](../igenericcloneable-1)
 * 인터페이스 [IGenericCollection&lt;T&gt;](../igenericcollection-1)

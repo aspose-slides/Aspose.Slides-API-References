@@ -1,14 +1,14 @@
 ---
 title: Zip64Mode
-second_title: Aspose.Sildes .NET API 参考
-description: 指定何时对 OpenXML 文件使用 ZIP64 格式扩展。
+second_title: Aspose.Sildes for .NET API 参考
+description: 指定何时为 OpenXML 文件使用 ZIP64 格式扩展。
 type: docs
-weight: 4740
+weight: 4760
 url: /zh/aspose.slides.export/zip64mode/
 ---
 ## Zip64Mode 枚举
 
-指定何时对 OpenXML 文件使用 ZIP64 格式扩展。
+指定在何时为 OpenXML 文件使用 ZIP64 格式扩展。
 
 ```csharp
 public enum Zip64Mode
@@ -19,12 +19,12 @@ public enum Zip64Mode
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
 | Never | `0` | 不要使用 ZIP64 格式扩展。 |
-| IfNecessary | `1` | 在必要时使用 ZIP64 格式扩展。 |
+| IfNecessary | `1` | 如有必要，使用 ZIP64 格式扩展。 |
 | Always | `2` | 始终使用 ZIP64 格式扩展。 |
 
 ### 备注
 
-OpenXML 文件是一个 ZIP 存档，对文件的未压缩大小、压缩大小以及存档的总大小均有限制为 4 GB（2^32 字节），并且存档中的文件数量上限为 65,535（2^16-1）。ZIP64 格式扩展将这些限制提升至 2^64。
+OpenXML 文件是一个 ZIP 存档，其未压缩文件大小、压缩文件大小以及存档的总大小均限制为 4 GB（2^32 字节），并且存档中文件数量限制为 65,535（2^16-1）个。ZIP64 格式扩展将这些限制提升至 2^64。
 
 ### 另请参见
 

@@ -1,14 +1,14 @@
 ---
 title: IXpsOptions
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir sunumun XPS formatında nasıl kaydedileceğini kontrol eden seçenekler sağlar.
+description: Bir sunumun XPS formatında nasıl kaydedileceğini kontrol eden seçenekleri sağlar.
 type: docs
-weight: 4200
+weight: 4220
 url: /tr/aspose.slides.export/ixpsoptions/
 ---
-## IXpsOptions arayüz
+## IXpsOptions arabirimi
 
-Sunumun XPS biçiminde kaydedilmesini kontrol eden seçenekleri sağlar.
+Bir sunumun XPS formatında nasıl kaydedileceğini kontrol eden seçenekleri sağlar.
 
 ```csharp
 public interface IXpsOptions : ISaveOptions
@@ -18,14 +18,14 @@ public interface IXpsOptions : ISaveOptions
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/ixpsoptions/asisaveoptions) { get; } | ISaveOptions arabirimini döndürür. Salt okunur [`ISaveOptions`](../isaveoptions). |
-| [DrawSlidesFrame](../../aspose.slides.export/ixpsoptions/drawslidesframe) { get; set; } | True, her slaytın etrafına siyah çerçeve çizmeyi sağlar. Okunur/yazılabilir Boolean. |
-| [SaveMetafilesAsPng](../../aspose.slides.export/ixpsoptions/savemetafilesaspng) { get; set; } | True, bir sunumda kullanılan tüm metafileleri PNG görüntülerine dönüştürmeyi sağlar. Okunur/yazılabilir Boolean. |
-| [ShowHiddenSlides](../../aspose.slides.export/ixpsoptions/showhiddenslides) { get; set; } | Oluşturulan belgenin gizli slaytları içerip içermeyeceğini belirler. Varsayılan değeri `false`. |
+| [AsISaveOptions](../../aspose.slides.export/ixpsoptions/asisaveoptions) { get; } | ISaveOptions arabirimini döndürür. Yalnızca okuma [`ISaveOptions`](../isaveoptions). |
+| [DrawSlidesFrame](../../aspose.slides.export/ixpsoptions/drawslidesframe) { get; set; } | Her slaytın etrafına siyah çerçeve çizmek için true. Okuma/yazma Boolean. |
+| [SaveMetafilesAsPng](../../aspose.slides.export/ixpsoptions/savemetafilesaspng) { get; set; } | Sunumda kullanılan tüm metafile'ları PNG görüntülerine dönüştürmek için true. Okuma/yazma Boolean. |
+| [ShowHiddenSlides](../../aspose.slides.export/ixpsoptions/showhiddenslides) { get; set; } | Oluşturulan belgenin gizli slaytları içerip içermeyeceğini belirtir. Varsayılan `false`. |
 
 ### Ayrıca Bakınız
 
-* arayüz [ISaveOptions](../isaveoptions)
+* arabirimi [ISaveOptions](../isaveoptions)
 * ad alanı [Aspose.Slides.Export](../../aspose.slides.export)
 * derleme [Aspose.Slides](../../)
 

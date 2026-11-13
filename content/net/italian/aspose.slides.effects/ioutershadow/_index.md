@@ -1,14 +1,14 @@
 ---
 title: IOuterShadow
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta un effetto di ombra esterna.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta un effetto Ombra Esterna.
 type: docs
-weight: 3460
+weight: 3480
 url: /it/aspose.slides.effects/ioutershadow/
 ---
 ## IOuterShadow interfaccia
 
-Rappresenta un effetto di ombra esterna.
+Rappresenta un effetto Ombra Esterna.
 
 ```csharp
 public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>, 
@@ -21,14 +21,14 @@ public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>,
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | Consente di ottenere l'interfaccia base IAccessiblePVIObject. Solo lettura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | Consente di ottenere l'interfaccia base IImageTransformOperation. Solo lettura [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | Raggio sfocatura, in punti. Valore predefinito – 0 pt. Lettura/Scrittura Double. |
+| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | Raggio di sfocatura, in punti. Valore predefinito – 0 pt. Lettura/Scrittura Double. |
 | [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | Direzione dell'ombra, in gradi. Valore predefinito – 0 ° (da sinistra a destra). Lettura/Scrittura Single. |
 | [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | Distanza dell'ombra dall'oggetto, in punti. Valore predefinito – 0 pt. Lettura/Scrittura Double. |
 | [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | Allineamento del rettangolo. Valore predefinito – Bottom. Lettura/Scrittura [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
 | [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | Indica se l'ombra ruota insieme alla forma. Valore predefinito – true. Lettura/Scrittura Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Fattore di scala orizzontale, in percentuale della dimensione originale. Una scala negativa provoca un ribaltamento. Valore predefinito – 100 %. Lettura/Scrittura Double. |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Fattore di scala verticale, in percentuale della dimensione originale. Una scala negativa provoca un ribaltamento. Valore predefinito – 100 %. Lettura/Scrittura Double. |
-| [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | Colore dell'ombra. Valore predefinito – nero automatico (dipendente dal tema). Solo lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Fattore di scala orizzontale, in percentuale della dimensione originale. Una scala negativa provoca un'inversione. Valore predefinito – 100 %. Lettura/Scrittura Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Fattore di scala verticale, in percentuale della dimensione originale. Una scala negativa provoca un'inversione. Valore predefinito – 100 %. Lettura/Scrittura Double. |
+| [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | Colore dell'ombra. Valore predefinito – automatic black (theme-dependent). Solo lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | Angolo di inclinazione orizzontale, in gradi. Valore predefinito – 0 °. Lettura/Scrittura Double. |
 | [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | Angolo di inclinazione verticale, in gradi. Valore predefinito – 0 °. Lettura/Scrittura Double. |
 

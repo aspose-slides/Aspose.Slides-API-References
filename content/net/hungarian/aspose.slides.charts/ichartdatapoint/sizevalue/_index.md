@@ -1,14 +1,14 @@
 ---
 title: SizeValue
-second_title: Aspose.Sildes .NET API referencia
-description: Visszaadja a diagram adatpont méretértékét. A Treemap és Sunburst diagramokhoz használható. Csak olvasható IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+second_title: Aspose.Sildes a .NET API hivatkozáshoz
+description: Visszaadja egy diagram adatpont méretértékét. Treemap és Sunburst diagramokkal használható. Csak olvasható IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 150
+weight: 190
 url: /hu/aspose.slides.charts/ichartdatapoint/sizevalue/
 ---
-## IChartDataPoint.SizeValue tulajdonság
+## IChartDataPoint.SizeValue property
 
-Visszaadja a diagram adatpont méretértékét. A Treemap és Sunburst diagramokhoz használható. Csak olvasható [`IDoubleChartValue`](../../idoublechartvalue).
+Visszaadja egy diagram adatpont méretértékét. Treemap és Sunburst diagramoknál használható. Csak olvasható [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue SizeValue { get; }

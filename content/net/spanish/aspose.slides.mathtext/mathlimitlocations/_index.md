@@ -1,12 +1,12 @@
 ---
 title: MathLimitLocations
-second_title: Aspose.Sildes para la referencia de API de .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Ubicación de los límites subíndice/superíndice en operadores n-arios.
 type: docs
-weight: 8840
+weight: 8860
 url: /es/aspose.slides.mathtext/mathlimitlocations/
 ---
-## MathLimitLocations enumeración
+## Enumeración MathLimitLocations
 
 Ubicación de los límites (subíndice/superíndice) en operadores n-arios.
 

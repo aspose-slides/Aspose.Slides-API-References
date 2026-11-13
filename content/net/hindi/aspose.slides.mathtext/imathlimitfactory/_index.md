@@ -1,31 +1,31 @@
 ---
 title: IMathLimitFactory
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: IMathLimit बनाने की अनुमति देता है
 type: docs
-weight: 8330
+weight: 8350
 url: /hi/aspose.slides.mathtext/imathlimitfactory/
 ---
-## IMMathLimitFactory इंटरफ़ेस
+## IMathLimitFactory इंटरफ़ेस
 
-IMMathLimit बनाने के लिए अनुमति देता है
+बनाने की अनुमति देता है IMMathLimit
 
 ```csharp
 public interface IMathLimitFactory
 ```
 
-## मेथड्स
+## विधियां
 
 | नाम | विवरण |
 | --- | --- |
-| [CreateMathLimit](../../aspose.slides.mathtext/imathlimitfactory/createmathlimit#createmathlimit)(IMathElement, IMathElement) | निचले भाग में सीमा के साथ IMMathLimit बनाता है |
-| [CreateMathLimit](../../aspose.slides.mathtext/imathlimitfactory/createmathlimit#createmathlimit_1)(IMathElement, IMathElement, bool) | IMMathLimit बनाता है |
+| [CreateMathLimit](../../aspose.slides.mathtext/imathlimitfactory/createmathlimit#createmathlimit)(IMathElement, IMathElement) | निचले भाग में सीमा के साथ IMathLimit बनाता है |
+| [CreateMathLimit](../../aspose.slides.mathtext/imathlimitfactory/createmathlimit#createmathlimit_1)(IMathElement, IMathElement, bool) | IMathLimit बनाता है |
 
-### टिप्पणी
+### टिप्पणियां
 
 COM संगतता के लिए
 
-### देखें
+### और देखें
 
 * नामस्थान [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * असेंबली [Aspose.Slides](../../)

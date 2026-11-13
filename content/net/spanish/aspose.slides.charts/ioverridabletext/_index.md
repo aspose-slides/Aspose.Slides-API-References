@@ -1,14 +1,14 @@
 ---
 title: IOverridableText
-second_title: Referencia de la API de Aspose.Sildes para .NET
-description: Representa texto que se puede sobrescribir para un gráfico.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Representa texto sobrescribible para un gráfico.
 type: docs
-weight: 2180
+weight: 2200
 url: /es/aspose.slides.charts/ioverridabletext/
 ---
 ## IOverridableText interfaz
 
-Representa texto que se puede sobrescribir para un gráfico.
+Representa texto sobrescribible para un gráfico.
 
 ```csharp
 public interface IOverridableText : IFormattedTextContainer
@@ -19,7 +19,7 @@ public interface IOverridableText : IFormattedTextContainer
 | Name | Description |
 | --- | --- |
 | [AsIFormattedTextContainer](../../aspose.slides.charts/ioverridabletext/asiformattedtextcontainer) { get; } | Permite obtener la interfaz base IFormattedTextContainer. Solo lectura [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | Puede contener un texto rico formateado. Si esta propiedad no es nula, entonces este valor de texto formateado sobrescribe el texto generado automáticamente. El texto generado automáticamente es una propiedad implícita de la etiqueta de datos, la etiqueta de unidad de visualización del eje de valores, el título del eje, el título del gráfico, la etiqueta de la línea de tendencia. El texto generado automáticamente se formatea con la propiedad IFormattedTextContainer.TextFormat. Sólo lectura [`ITextFrame`](../../aspose.slides/itextframe). |
+| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | Puede contener un texto con formato enriquecido. Si esta propiedad no es nula, entonces este valor de texto con formato sobrescribe el texto generado automáticamente. El texto generado automáticamente es una propiedad implícita de la etiqueta de datos, la etiqueta de unidad de visualización del eje de valores, el título del eje, el título del gráfico, la etiqueta de la línea de tendencia. El texto generado automáticamente se formatea con la propiedad IFormattedTextContainer.TextFormat. Solo lectura [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ## Métodos
 

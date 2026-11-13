@@ -3,7 +3,7 @@ title: GradientFormat
 second_title: Aspose.Sildes for .NET API Referansı
 description: Bir degrade biçimini temsil eder.
 type: docs
-weight: 5000
+weight: 5020
 url: /tr/aspose.slides/gradientformat/
 ---
 ## GradientFormat sınıfı
@@ -18,20 +18,20 @@ public sealed class GradientFormat : PVIObject, IGradientFormat
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arabirimini almayı sağlar. Yalnızca okuma [`IPresentationComponent`](../ipresentationcomponent). |
-| [GradientDirection](../../aspose.slides/gradientformat/gradientdirection) { get; set; } | Bir degrade stilini döndürür veya ayarlar. Okuma/yazma [`GradientDirection`](../gradientdirection). |
-| [GradientShape](../../aspose.slides/gradientformat/gradientshape) { get; set; } | Bir degrade şekli döndürür veya ayarlar. Okuma/yazma [`GradientShape`](../gradientshape). |
-| [GradientStops](../../aspose.slides/gradientformat/gradientstops) { get; } | Degrade durakları koleksiyonunu döndürür. Yalnızca okuma [`IGradientStopCollection`](../igradientstopcollection). |
-| [LinearGradientAngle](../../aspose.slides/gradientformat/lineargradientangle) { get; set; } | Bir degrade açısını döndürür veya ayarlar. Okuma/yazma Single. |
-| [LinearGradientScaled](../../aspose.slides/gradientformat/lineargradientscaled) { get; set; } | Bir degrade ölçeklenip ölçeklenmediğini belirler. Okuma/yazma [`NullableBool`](../nullablebool). |
-| [TileFlip](../../aspose.slides/gradientformat/tileflip) { get; set; } | Bir degrade için çevirme modunu döndürür veya ayarlar. Okuma/yazma [`TileFlip`](../tileflip). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almayı sağlar. Salt okunur [`IPresentationComponent`](../ipresentationcomponent). |
+| [GradientDirection](../../aspose.slides/gradientformat/gradientdirection) { get; set; } | Bir degrade stilini alır veya ayarlar. Okunur/yazılabilir [`GradientDirection`](../gradientdirection). |
+| [GradientShape](../../aspose.slides/gradientformat/gradientshape) { get; set; } | Bir degrade şekli alır veya ayarlar. Okunur/yazılabilir [`GradientShape`](../gradientshape). |
+| [GradientStops](../../aspose.slides/gradientformat/gradientstops) { get; } | Degrade durakları koleksiyonunu döndürür. Salt okunur [`IGradientStopCollection`](../igradientstopcollection). |
+| [LinearGradientAngle](../../aspose.slides/gradientformat/lineargradientangle) { get; set; } | Bir degrade açısını alır veya ayarlar. Okunur/yazılabilir Single. |
+| [LinearGradientScaled](../../aspose.slides/gradientformat/lineargradientscaled) { get; set; } | Bir degrade'nin ölçeklenip ölçeklenmediğini belirler. Okunur/yazılabilir [`NullableBool`](../nullablebool). |
+| [TileFlip](../../aspose.slides/gradientformat/tileflip) { get; set; } | Bir degrade için çevirme modunu alır veya ayarlar. Okunur/yazılabilir [`TileFlip`](../tileflip). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Belirtilen nesne ile karşılaştırır. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Karma kodu döndürür. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Belirtilen nesneyle karşılaştırır. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Karma kod döndürür. |
 
 ### Ayrıca Bakınız
 

@@ -3,7 +3,7 @@ title: OutputFile
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 出力ファイルを表します。
 type: docs
-weight: 4650
+weight: 4670
 url: /ja/aspose.slides.export.web/outputfile/
 ---
 ## OutputFile クラス

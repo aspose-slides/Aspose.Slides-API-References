@@ -3,7 +3,7 @@ title: ViewType
 second_title: Aspose.Sildes .NET API 参考
 description: 演示文稿视图类型
 type: docs
-weight: 11750
+weight: 11770
 url: /zh/aspose.slides/viewtype/
 ---
 ## ViewType 枚举
@@ -14,21 +14,21 @@ url: /zh/aspose.slides/viewtype/
 public enum ViewType
 ```
 
-### 值
+### 取值
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| NotDefined | `0` | 值未定义 |
-| SlideView | `1` | 普通幻灯片视图 |
+| NotDefined | `0` | 未定义值 |
+| SlideView | `1` | 正常幻灯片视图 |
 | SlideMasterView | `2` | 幻灯片母版视图 |
-| NotesView | `3` | 备注视图 |
+| NotesView | `3` | 注释视图 |
 | HandoutView | `4` | 讲义视图 |
-| NotesMasterView | `5` | 备注母版视图 |
+| NotesMasterView | `5` | 注释母版视图 |
 | OutlineView | `6` | 大纲视图 |
-| SlideSorterView | `7` | 幻灯片排序视图 |
+| SlideSorterView | `7` | 幻灯片浏览视图 |
 | SlideThumbnailView | `8` | 幻灯片缩略图视图 |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

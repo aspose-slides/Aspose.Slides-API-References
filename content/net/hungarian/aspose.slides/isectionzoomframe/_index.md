@@ -1,14 +1,14 @@
 ---
 title: ISectionZoomFrame
-second_title: Aspose.Sildes .NET API Referencia
-description: Egy dián lévő Section Zoom objektumot képvisel.
+second_title: Aspose.Sildes .NET API referencia
+description: Egy dián a Section Zoom objektumot ábrázolja.
 type: docs
-weight: 6920
+weight: 6940
 url: /hu/aspose.slides/isectionzoomframe/
 ---
 ## ISectionZoomFrame interfész
 
-Képviseli a Section Zoom objektumot egy dián.
+Egy dián a Section Zoom objektumot ábrázolja.
 
 ```csharp
 public interface ISectionZoomFrame : IZoomObject
@@ -19,7 +19,7 @@ public interface ISectionZoomFrame : IZoomObject
 | Név | Leírás |
 | --- | --- |
 | [AsIZoomObject](../../aspose.slides/isectionzoomframe/asizoomobject) { get; } | Visszaadja az IZoomObject interfészt. |
-| [TargetSection](../../aspose.slides/isectionzoomframe/targetsection) { get; set; } | Megkapja vagy beállítja a szekcióobjektumot, amelyhez a Section Zoom objektum kapcsolva van. Olvasás/írás [`ISection`](../isection). |
+| [TargetSection](../../aspose.slides/isectionzoomframe/targetsection) { get; set; } | Lekérdezi vagy beállítja a szakasz objektumot, amelyhez a Section Zoom objektum kapcsolódik. Olvasási/írási [`ISection`](../isection). |
 
 ### Lásd még
 

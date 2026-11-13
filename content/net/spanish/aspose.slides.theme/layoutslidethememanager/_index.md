@@ -1,12 +1,12 @@
 ---
 title: LayoutSlideThemeManager
-second_title: Aspose.Sildes para la referencia de API de .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Proporciona acceso a la anulación del tema de diapositiva de diseño.
 type: docs
-weight: 11410
+weight: 11430
 url: /es/aspose.slides.theme/layoutslidethememanager/
 ---
-## Clase LayoutSlideThemeManager
+## LayoutSlideThemeManager clase
 
 Proporciona acceso a la anulación del tema de diapositiva de diseño.
 
@@ -18,7 +18,7 @@ public class LayoutSlideThemeManager : BaseOverrideThemeManager
 
 | Nombre | Descripción |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Determina si OverrideTheme anula el tema efectivo heredado o no. Para habilitar OverrideTheme para anulación use los métodos OverrideTheme.Init*(). Para deshabilitar OverrideTheme de anular use el método OverrideTheme.Clear(). Booleano de solo lectura. |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Determina si OverrideTheme anula el tema efectivo heredado o no. Para habilitar OverrideTheme para la anulación, use los métodos OverrideTheme.Init*(). Para deshabilitar OverrideTheme de la anulación, use el método OverrideTheme.Clear(). Boolean de solo lectura. |
 | [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Devuelve el objeto de tema de anulación. Lectura/escritura [`IOverrideTheme`](../ioverridetheme). |
 
 ## Métodos

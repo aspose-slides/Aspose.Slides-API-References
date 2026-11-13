@@ -1,14 +1,14 @@
 ---
 title: IImageTransformOperationCollection
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 画像に適用されるエフェクトのコレクションを表します。
+description: 画像に適用されたエフェクトのコレクションを表します。
 type: docs
-weight: 3400
+weight: 3420
 url: /ja/aspose.slides.effects/iimagetransformoperationcollection/
 ---
 ## IImageTransformOperationCollection インターフェイス
 
-画像に適用される効果のコレクションを表します。
+画像に適用されるエフェクトのコレクションを表します。
 
 ```csharp
 public interface IImageTransformOperationCollection : ICollection<IImageTransformOperation>
@@ -25,25 +25,25 @@ public interface IImageTransformOperationCollection : ICollection<IImageTransfor
 
 | 名前 | 説明 |
 | --- | --- |
-| [AddAlphaBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphabileveleffect)(float) | 新しい Alpha Bi-Level エフェクトをコレクションの末尾に追加します。 |
-| [AddAlphaCeilingEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaceilingeffect)() | 新しい Alpha Ceiling エフェクトをコレクションの末尾に追加します。 |
-| [AddAlphaFloorEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaflooreffect)() | 新しい Alpha Floor エフェクトをコレクションの末尾に追加します。 |
-| [AddAlphaInverseEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphainverseeffect)() | 新しい Alpha Inverse エフェクトをコレクションの末尾に追加します。 |
-| [AddAlphaModulateEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulateeffect)() | 新しい Alpha Modulate エフェクトをコレクションの末尾に追加します。 |
-| [AddAlphaModulateFixedEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulatefixedeffect)(float) | 新しい Alpha Modulate Fixed エフェクトをコレクションの末尾に追加します。 |
-| [AddAlphaReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphareplaceeffect)(float) | 新しい Alpha Replace エフェクトをコレクションの末尾に追加します。 |
-| [AddBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbileveleffect)(float) | 新しい Bi-Level (black/white) エフェクトをコレクションの末尾に追加します。 |
-| [AddBlurEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addblureffect)(double, bool) | 新しい Blur エフェクトをコレクションの末尾に追加します。 |
-| [AddBrightnessContrastEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbrightnesscontrasteffect)(float, float) | 新しい BrightnessContrast エフェクトをコレクションの末尾に追加します。 |
-| [AddColorChangeEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorchangeeffect)() | 新しい Color Change エフェクトをコレクションの末尾に追加します。 |
-| [AddColorReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorreplaceeffect)() | 新しい Color Replacement エフェクトをコレクションの末尾に追加します。 |
-| [AddDuotoneEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addduotoneeffect)() | 新しい Duotone エフェクトをコレクションの末尾に追加します。 |
-| [AddFillOverlayEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addfilloverlayeffect)() | 新しい Fill Overlay エフェクトをコレクションの末尾に追加します。 |
-| [AddGrayScaleEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addgrayscaleeffect)() | 新しい Gray Scale エフェクトをコレクションの末尾に追加します。 |
-| [AddHSLEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addhsleffect)(float, float, float) | 新しい Hue/Saturation/Luminance エフェクトをコレクションの末尾に追加します。 |
-| [AddLuminanceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addluminanceeffect)(float, float) | 新しい Luminance エフェクトをコレクションの末尾に追加します。 |
-| [AddTintEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addtinteffect)(float, float) | 新しい Tint エフェクトをコレクションの末尾に追加します。 |
-| [RemoveAt](../../aspose.slides.effects/iimagetransformoperationcollection/removeat)(int) | コレクションの指定されたインデックスの画像エフェクトを削除します。 |
+| [AddAlphaBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphabileveleffect)(float) | コレクションの末尾に新しい Alpha Bi-Level エフェクトを追加します。 |
+| [AddAlphaCeilingEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaceilingeffect)() | コレクションの末尾に新しい Alpha Ceiling エフェクトを追加します。 |
+| [AddAlphaFloorEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaflooreffect)() | コレクションの末尾に新しい Alpha Floor エフェクトを追加します。 |
+| [AddAlphaInverseEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphainverseeffect)() | コレクションの末尾に新しい Alpha Inverse エフェクトを追加します。 |
+| [AddAlphaModulateEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulateeffect)() | コレクションの末尾に新しい Alpha Modulate エフェクトを追加します。 |
+| [AddAlphaModulateFixedEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulatefixedeffect)(float) | コレクションの末尾に新しい Alpha Modulate Fixed エフェクトを追加します。 |
+| [AddAlphaReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphareplaceeffect)(float) | コレクションの末尾に新しい Alpha Replace エフェクトを追加します。 |
+| [AddBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbileveleffect)(float) | コレクションの末尾に新しい Bi-Level (black/white) エフェクトを追加します。 |
+| [AddBlurEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addblureffect)(double, bool) | コレクションの末尾に新しい Blur エフェクトを追加します。 |
+| [AddBrightnessContrastEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbrightnesscontrasteffect)(float, float) | コレクションの末尾に新しい BrightnessContrast エフェクトを追加します。 |
+| [AddColorChangeEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorchangeeffect)() | コレクションの末尾に新しい Color Change エフェクトを追加します。 |
+| [AddColorReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorreplaceeffect)() | コレクションの末尾に新しい Color Replacement エフェクトを追加します。 |
+| [AddDuotoneEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addduotoneeffect)() | コレクションの末尾に新しい Duotone エフェクトを追加します。 |
+| [AddFillOverlayEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addfilloverlayeffect)() | コレクションの末尾に新しい Fill Overlay エフェクトを追加します。 |
+| [AddGrayScaleEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addgrayscaleeffect)() | コレクションの末尾に新しい Gray Scale エフェクトを追加します。 |
+| [AddHSLEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addhsleffect)(float, float, float) | コレクションの末尾に新しい Hue/Saturation/Luminance エフェクトを追加します。 |
+| [AddLuminanceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addluminanceeffect)(float, float) | コレクションの末尾に新しい Luminance エフェクトを追加します。 |
+| [AddTintEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addtinteffect)(float, float) | コレクションの末尾に新しい Tint エフェクトを追加します。 |
+| [RemoveAt](../../aspose.slides.effects/iimagetransformoperationcollection/removeat)(int) | 指定されたインデックスのコレクションから画像エフェクトを削除します。 |
 
 ### 参照
 

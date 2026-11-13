@@ -1,14 +1,14 @@
 ---
 title: TileFlip
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Definiert den Tile-Flip-Modus.
+description: Definiert den TileFlip-Modus.
 type: docs
-weight: 11500
+weight: 11520
 url: /de/aspose.slides/tileflip/
 ---
-## TileFlip-Aufzählung
+## TileFlip Aufzählung
 
-Definiert den Kachel-Flip-Modus.
+Definiert den TileFlip-Modus.
 
 ```csharp
 public enum TileFlip

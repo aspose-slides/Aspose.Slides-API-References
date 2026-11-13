@@ -1,14 +1,14 @@
 ---
 title: IChartDataWorksheet
-second_title: Aspose.Sildes для .NET справочник API
-description: Представляет лист, связанный с IChartDataCell./ichartdatacell
+second_title: Aspose.Sildes для .NET API справочник
+description: Представляет рабочий лист, связанный с IChartDataCell./ichartdatacell
 type: docs
-weight: 1870
+weight: 1890
 url: /ru/aspose.slides.charts/ichartdataworksheet/
 ---
 ## IChartDataWorksheet интерфейс
 
-Представляет лист, связанный с [`IChartDataCell`](../ichartdatacell)
+Представляет рабочий лист, связанный с [`IChartDataCell`](../ichartdatacell)
 
 ```csharp
 public interface IChartDataWorksheet

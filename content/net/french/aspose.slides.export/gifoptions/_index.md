@@ -3,10 +3,10 @@ title: GifOptions
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente les options d'exportation GIF.
 type: docs
-weight: 3820
+weight: 3840
 url: /fr/aspose.slides.export/gifoptions/
 ---
-## GifOptions classe
+## classe GifOptions
 
 Représente les options d'exportation GIF.
 
@@ -16,23 +16,23 @@ public class GifOptions : SaveOptions, IGifOptions
 
 ## Constructeurs
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [GifOptions](gifoptions)() | Initialise une nouvelle instance de la classe GifOptions. |
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [DefaultDelay](../../aspose.slides.export/gifoptions/defaultdelay) { get; set; } | Obtient ou définit le délai par défaut [ms]. Cette valeur sera utilisée si [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) n'est pas défini. La valeur par défaut est 1000. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Obtient ou définit la police utilisée si la police source n'est pas trouvée. Lecture/écriture String. |
-| [ExportHiddenSlides](../../aspose.slides.export/gifoptions/exporthiddenslides) { get; set; } | Détermine si les diapositives masquées seront exportées. La valeur par défaut est false. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Obtient ou définit la police utilisée si la police source n'est pas trouvée. Lecture/Écriture String. |
+| [ExportHiddenSlides](../../aspose.slides.export/gifoptions/exporthiddenslides) { get; set; } | Détermine si les diapositives cachées seront exportées. La valeur par défaut est false. |
 | [FrameSize](../../aspose.slides.export/gifoptions/framesize) { get; set; } | Obtient ou définit la taille du cadre. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Obtient ou définit le style visuel du dégradé. Lecture/écriture [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Obtient ou définit le style visuel du dégradé. Lecture/Écriture [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Représente un objet de rappel pour enregistrer les mises à jour de progression en pourcentage. Voir [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Spécifie s'il faut ignorer les hyperliens contenant des appels JavaScript lors de l'enregistrement de la présentation. Lecture/écriture Boolean. La valeur par défaut est **false**. |
-| [TransitionFps](../../aspose.slides.export/gifoptions/transitionfps) { get; set; } | Obtient ou définit le FPS de transition [frames/sec]. La valeur par défaut est 25. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Obtient ou définit un objet qui reçoit les avertissements et décide si le processus de chargement doit continuer ou être abandonné. Lecture/écriture [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Spécifie s'il faut ignorer les hyperliens avec des appels JavaScript lors de l'enregistrement de la présentation. Lecture/Écriture Boolean. La valeur par défaut est **false**. |
+| [TransitionFps](../../aspose.slides.export/gifoptions/transitionfps) { get; set; } | Obtient ou définit les FPS de transition [frames/sec]. La valeur par défaut est 25. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Obtient ou définit un objet qui reçoit les avertissements et décide si le processus de chargement continue ou est interrompu. Lecture/Écriture [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Exemples
 
@@ -45,8 +45,8 @@ using (Presentation pres = new Presentation("pres.pptx"))
     pres.Save("pres.gif", SaveFormat.Gif, new GifOptions
     {
         FrameSize = new Size(960, 720), // la taille du GIF résultant
-        DefaultDelay = 2000, // la durée pendant laquelle chaque diapositive sera affichée jusqu'à ce qu'elle soit remplacée par la suivante
-        TransitionFps = 35 // augmenter le FPS pour une meilleure qualité d'animation de transition
+        DefaultDelay = 2000, // durée d'affichage de chaque diapositive avant de passer à la suivante
+        TransitionFps = 35 // augmenter les FPS pour améliorer la qualité de l'animation de transition
     });
 }
 ```

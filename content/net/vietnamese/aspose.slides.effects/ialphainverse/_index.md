@@ -1,14 +1,14 @@
 ---
 title: IAlphaInverse
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Đại diện cho hiệu ứng Alpha Inverse. Các giá trị độ mờ Alpha được đảo ngược bằng cách trừ từ 100.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu diễn hiệu ứng Alpha Inverse. Các giá trị độ mờ Alpha được đảo ngược bằng cách trừ khỏi 100.
 type: docs
-weight: 3080
+weight: 3100
 url: /vi/aspose.slides.effects/ialphainverse/
 ---
 ## IAlphaInverse giao diện
 
-Đại diện cho hiệu ứng Alpha Inverse. Các giá trị Alpha (độ mờ) được đảo ngược bằng cách trừ từ 100%.
+Biểu diễn hiệu ứng Alpha Inverse. Giá trị Alpha (độ mờ) được đảo ngược bằng cách trừ khỏi 100%.
 
 ```csharp
 public interface IAlphaInverse : IAccessiblePVIObject<IAlphaInverseEffectiveData>, 

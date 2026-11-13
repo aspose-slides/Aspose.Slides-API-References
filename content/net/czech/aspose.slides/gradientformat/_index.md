@@ -3,12 +3,12 @@ title: GradientFormat
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje formát gradientu.
 type: docs
-weight: 5000
+weight: 5020
 url: /cs/aspose.slides/gradientformat/
 ---
 ## GradientFormat třída
 
-Represent a gradient format.
+Reprezentuje formát gradientu.
 
 ```csharp
 public sealed class GradientFormat : PVIObject, IGradientFormat
@@ -18,19 +18,19 @@ public sealed class GradientFormat : PVIObject, IGradientFormat
 
 | Název | Popis |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze ke čtení [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze pro čtení [`IPresentationComponent`](../ipresentationcomponent). |
 | [GradientDirection](../../aspose.slides/gradientformat/gradientdirection) { get; set; } | Vrací nebo nastavuje styl gradientu. Čtení/Zápis [`GradientDirection`](../gradientdirection). |
 | [GradientShape](../../aspose.slides/gradientformat/gradientshape) { get; set; } | Vrací nebo nastavuje tvar gradientu. Čtení/Zápis [`GradientShape`](../gradientshape). |
-| [GradientStops](../../aspose.slides/gradientformat/gradientstops) { get; } | Vrací kolekci zastávek gradientu. Pouze ke čtení [`IGradientStopCollection`](../igradientstopcollection). |
+| [GradientStops](../../aspose.slides/gradientformat/gradientstops) { get; } | Vrací kolekci zastávek gradientu. Pouze pro čtení [`IGradientStopCollection`](../igradientstopcollection). |
 | [LinearGradientAngle](../../aspose.slides/gradientformat/lineargradientangle) { get; set; } | Vrací nebo nastavuje úhel gradientu. Čtení/Zápis Single. |
 | [LinearGradientScaled](../../aspose.slides/gradientformat/lineargradientscaled) { get; set; } | Určuje, zda je gradient škálován. Čtení/Zápis [`NullableBool`](../nullablebool). |
-| [TileFlip](../../aspose.slides/gradientformat/tileflip) { get; set; } | Vrací nebo nastavuje režim otáčení pro gradient. Čtení/Zápis [`TileFlip`](../tileflip). |
+| [TileFlip](../../aspose.slides/gradientformat/tileflip) { get; set; } | Vrací nebo nastavuje režim převrácení gradientu. Čtení/Zápis [`TileFlip`](../tileflip). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Porovnává s určeným objektem. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Porovnává se se zadaným objektem. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Vrací hash kód. |
 
 ### Viz také

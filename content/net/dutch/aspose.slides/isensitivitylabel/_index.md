@@ -1,29 +1,29 @@
 ---
 title: ISensitivityLabel
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Representeert het gevoeligheidslabel van Microsoft Purview Information Protection.
+description: Geeft het gevoeligheidslabel van Microsoft Purview Information Protection weer.
 type: docs
-weight: 6930
+weight: 6950
 url: /nl/aspose.slides/isensitivitylabel/
 ---
 ## ISensitivityLabel interface
 
-Representeert het gevoeligheidslabel van Microsoft Purview Information Protection.
+Represents the sensitivity label from Microsoft Purview Information Protection.
 
 ```csharp
 public interface ISensitivityLabel
 ```
 
-## Properties
+## Eigenschappen
 
-| Naam | Omschrijving |
+| Naam | Beschrijving |
 | --- | --- |
-| [AssignmentMethodType](../../aspose.slides/isensitivitylabel/assignmentmethodtype) { get; set; } | Retourneert of stelt de toewijzingsmethode in voor het gevoeligheidslabel. Lezen/schrijven [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
-| [ContentMarkTypes](../../aspose.slides/isensitivitylabel/contentmarktypes) { get; } | Retourneert de lijst met typen inhoudsmarkering die op een bestand moeten worden toegepast. |
-| [Id](../../aspose.slides/isensitivitylabel/id) { get; set; } | Retourneert of stelt de id van het gevoeligheidslabel in. Lezen/schrijven String. |
+| [AssignmentMethodType](../../aspose.slides/isensitivitylabel/assignmentmethodtype) { get; set; } | Geeft de toewijzingsmethode voor het gevoeligheidslabel terug of stelt deze in. Lezen/schrijven [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
+| [ContentMarkTypes](../../aspose.slides/isensitivitylabel/contentmarktypes) { get; } | Geeft de lijst met typen inhoudsmarkering terug die op een bestand moet worden toegepast. |
+| [Id](../../aspose.slides/isensitivitylabel/id) { get; set; } | Geeft de id van het gevoeligheidslabel terug of stelt deze in. Lezen/schrijven String. |
 | [IsEnabled](../../aspose.slides/isensitivitylabel/isenabled) { get; set; } | Geeft aan of het gevoeligheidslabel is ingeschakeld. |
 | [IsRemoved](../../aspose.slides/isensitivitylabel/isremoved) { get; set; } | Geeft aan of het gevoeligheidslabel is verwijderd. |
-| [SiteId](../../aspose.slides/isensitivitylabel/siteid) { get; set; } | Retourneert of stelt de Azure Active Directory (Azure AD) site-identifier in die overeenkomt met het gevoeligheidslabel-beleid dat het gevoeligheidslabel beschrijft. Lezen/schrijven Guid. |
+| [SiteId](../../aspose.slides/isensitivitylabel/siteid) { get; set; } | Geeft de Azure Active Directory (Azure AD) site-identificatie terug of stelt deze in die overeenkomt met het gevoeligheidslabelbeleid dat het gevoeligheidslabel beschrijft. Lezen/schrijven Guid. |
 
 ### Zie ook
 

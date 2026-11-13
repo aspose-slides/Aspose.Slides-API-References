@@ -1,14 +1,14 @@
 ---
 title: ICommentAuthor
-second_title: Aspose.Sildes برای مرجع API .NET
-description: نویسنده نظرات را نمایش می‌دهد.
+second_title: Aspose.Sildes برای .NET مرجع API
+description: نمایندهٔ نویسندهٔ نظرات.
 type: docs
-weight: 5570
+weight: 5590
 url: /fa/aspose.slides/icommentauthor/
 ---
 ## ICommentAuthor رابط
 
-یک نویسنده از نظرات را نمایش می‌دهد.
+نمایش‌دهندهٔ نویسندهٔ نظرات.
 
 ```csharp
 public interface ICommentAuthor
@@ -18,9 +18,9 @@ public interface ICommentAuthor
 
 | نام | توضیح |
 | --- | --- |
-| [Comments](../../aspose.slides/icommentauthor/comments) { get; } | مجموعه نظرات نوشته شده توسط این نویسنده را برمی‌گرداند. فقط-خواندنی [`ICommentCollection`](../icommentcollection). |
-| [Initials](../../aspose.slides/icommentauthor/initials) { get; set; } | مقدار یا تنظیم می‌کند ابتدایی‌های نویسنده. قابل خواندن/قابل نوشتن رشته. |
-| [Name](../../aspose.slides/icommentauthor/name) { get; set; } | مقدار یا تنظیم می‌کند نام نویسنده. قابل خواندن/قابل نوشتن رشته. |
+| [Comments](../../aspose.slides/icommentauthor/comments) { get; } | کلکسیونی از نظراتی که این نویسنده نوشته است را برمی‌گرداند. فقط-خواندنی [`ICommentCollection`](../icommentcollection). |
+| [Initials](../../aspose.slides/icommentauthor/initials) { get; set; } | حروف اولیه نویسنده را برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی String. |
+| [Name](../../aspose.slides/icommentauthor/name) { get; set; } | نام نویسنده را برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی String. |
 
 ## متدها
 
@@ -28,7 +28,7 @@ public interface ICommentAuthor
 | --- | --- |
 | [Remove](../../aspose.slides/icommentauthor/remove)() | نویسنده را از مجموعه والد حذف می‌کند. |
 
-### مراجع
+### همچنین ببینید
 
 * فضای‌نام [Aspose.Slides](../../aspose.slides)
 * مجمع [Aspose.Slides](../../)

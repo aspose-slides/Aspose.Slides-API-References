@@ -1,14 +1,14 @@
 ---
 title: IMathBlock
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Spécifie une instance de texte mathématique contenue dans un MathParagraph et qui commence sur sa propre ligne. Toutes les zones mathématiques, y compris les équations, les expressions, les tableaux d'équations ou d'expressions et les formules, sont représentées par un bloc mathématique.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Spécifie une instance de texte mathématique contenue dans un MathParagraph et commençant sur une ligne séparée. Toutes les zones mathématiques, y compris les équations, les expressions, les tableaux d’équations ou d’expressions et les formules, sont représentées par un bloc mathématique.
 type: docs
-weight: 8140
+weight: 8160
 url: /fr/aspose.slides.mathtext/imathblock/
 ---
 ## IMathBlock interface
 
-Spécifie une instance de texte mathématique contenue dans un MathParagraph et qui commence sur sa propre ligne. Toutes les zones mathématiques, y compris les équations, les expressions, les tableaux d'équations ou d'expressions et les formules, sont représentées par un bloc mathématique.
+Spécifie une instance de texte mathématique contenue dans un MathParagraph et qui commence sur une ligne séparée. Toutes les zones mathématiques, y compris les équations, les expressions, les tableaux d’équations ou d’expressions et les formules sont représentées par un bloc mathématique.
 
 ```csharp
 public interface IMathBlock : IMathElement, IMathElementCollection
@@ -16,19 +16,19 @@ public interface IMathBlock : IMathElement, IMathElementCollection
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathblock/asimathelement) { get; } | Permet d'obtenir l'interface de base IMathElement [`IMathElement`](../imathelement) |
-| [AsIMathElementCollection](../../aspose.slides.mathtext/imathblock/asimathelementcollection) { get; } | Permet d'obtenir l'interface de base IMathElementCollection [`IMathElementCollection`](../imathelementcollection) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathblock/asimathelement) { get; } | Permet d’obtenir l’interface de base IMathElement [`IMathElement`](../imathelement) |
+| [AsIMathElementCollection](../../aspose.slides.mathtext/imathblock/asimathelementcollection) { get; } | Permet d’obtenir l’interface de base IMathElementCollection [`IMathElementCollection`](../imathelementcollection) |
 
 ## Méthodes
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [Delimit](../../aspose.slides.mathtext/imathblock/delimit)(char) | Délimite tous les éléments enfants avec le caractère séparateur (sans les crochets) |
-| [Enclose](../../aspose.slides.mathtext/imathblock/enclose)(char, char, char) | Encadre les éléments enfants de ce bloc avec les caractères spécifiés tels que les parenthèses ou d’autres comme cadre et les délimite avec un caractère séparateur |
+| [Enclose](../../aspose.slides.mathtext/imathblock/enclose)(char, char, char) | Encadre les éléments enfants de ce bloc avec les caractères spécifiés, tels que les parenthèses ou d’autres, et les délimite avec un caractère séparateur |
 | [JoinBlock](../../aspose.slides.mathtext/imathblock/joinblock)(IMathBlock) | Joint un autre bloc mathématique à celui-ci |
-| [WriteAsMathMl](../../aspose.slides.mathtext/imathblock/writeasmathml)(Stream) | Enregistre le contenu de ce [`IMathBlock`](../imathblock) en tant que MathML |
+| [WriteAsMathMl](../../aspose.slides.mathtext/imathblock/writeasmathml)(Stream) | Enregistre le contenu de ce [`IMathBlock`](../imathblock) au format MathML |
 
 ### Exemples
 

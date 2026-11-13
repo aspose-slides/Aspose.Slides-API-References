@@ -1,14 +1,14 @@
 ---
 title: IFillFormatCollectionEffectiveData
-second_title: Aspose.Sildes para .NET Referência da API
-description: Objeto imutável que representa uma coleção somente leitura de formatos de preenchimento efetivos.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Objeto imutável que representa uma coleção somente-leitura de formatos de preenchimento efetivos.
 type: docs
-weight: 11240
+weight: 11260
 url: /pt/aspose.slides.theme/ifillformatcollectioneffectivedata/
 ---
 ## IFillFormatCollectionEffectiveData interface
 
-Objeto imutável que representa uma coleção somente leitura de formatos de preenchimento efetivos.
+Objeto imutável que representa uma coleção somente-leitura de formatos de preenchimento efetivos.
 
 ```csharp
 public interface IFillFormatCollectionEffectiveData : IGenericCollection<IFillFormatEffectiveData>
@@ -18,13 +18,13 @@ public interface IFillFormatCollectionEffectiveData : IGenericCollection<IFillFo
 
 | Nome | Descrição |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ifillformatcollectioneffectivedata/item) { get; } | Obtém o elemento no índice especificado. Somente leitura [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
+| [Item](../../aspose.slides.theme/ifillformatcollectioneffectivedata/item) { get; } | Obtém o elemento no índice especificado. Só-leitura [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
 
 ### Observações
 
 Esta interface é usada como parte de [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata).
 
-### Ver também
+### Veja também
 
 * interface [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * interface [IFillFormatEffectiveData](../../aspose.slides/ifillformateffectivedata)

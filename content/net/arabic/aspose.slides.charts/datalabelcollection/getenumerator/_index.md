@@ -3,12 +3,12 @@ title: GetEnumerator
 second_title: Aspose.Sildes لـ .NET مرجع API
 description: يرجع عدادًا يتنقل عبر المجموعة.
 type: docs
-weight: 90
+weight: 100
 url: /ar/aspose.slides.charts/datalabelcollection/getenumerator/
 ---
-## DataLabelCollection.GetEnumerator طريقة
+## DataLabelCollection.GetEnumerator الطريقة
 
-يرجع عدّادًا يمكنه التنقل عبر المجموعة.
+يرجع عدادًا يتنقل عبر المجموعة.
 
 ```csharp
 public IEnumerator<IDataLabel> GetEnumerator()
@@ -16,7 +16,7 @@ public IEnumerator<IDataLabel> GetEnumerator()
 
 ### قيمة الإرجاع
 
-كائن IEnumerator يمكن استخدامه للتنقل عبر المجموعة.
+IEnumerator يمكن استخدامها للتنقل عبر المجموعة.
 
 ### انظر أيضًا
 

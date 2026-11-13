@@ -1,9 +1,9 @@
 ---
 title: HighlightRegex
-second_title: Aspose.Sildes dla .NET – referencja API
+second_title: Referencja API Aspose.Sildes dla .NET
 description: Podświetla wszystkie dopasowania wyrażenia regularnego określonym kolorem.
 type: docs
-weight: 90
+weight: 100
 url: /pl/aspose.slides/textframe/highlightregex/
 ---
 ## TextFrame.HighlightRegex metoda
@@ -16,20 +16,20 @@ public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallbac
 
 | Parametr | Typ | Opis |
 | --- | --- | --- |
-| regex | Regex | Wyrażenie regularne Regex używane do uzyskania ciągów do podświetlenia. |
-| highlightColor | Color | Kolor używany do podświetlenia tekstu. |
-| callback | IFindResultCallback | Obiekt callback służący do odbierania wyników wyszukiwania [`IFindResultCallback`](../../ifindresultcallback). |
+| regex | Regex | Wyrażenie regularne Regex służące do pobierania łańcuchów do podświetlenia. |
+| highlightColor | Color | Kolor używany do podświetlania tekstu. |
+| callback | IFindResultCallback | Obiekt wywołania zwrotnego odbierający wyniki wyszukiwania [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Przykłady
 
-Poniższy przykład kodu pokazuje, jak podświetlić tekst w obiekcie TextFrame przy użyciu wyrażenia regularnego.
+Poniższy przykład kodu pokazuje, jak podświetlić tekst w TextFrame przy użyciu wyrażenia regularnego.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// podświetlanie wszystkich słów o długości 10 lub więcej znaków
+	// podświetlanie wszystkich słów mających 10 lub więcej znaków
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightRegex(regex, Color.Blue, null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }

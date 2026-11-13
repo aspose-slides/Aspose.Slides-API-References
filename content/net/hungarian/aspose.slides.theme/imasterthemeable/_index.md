@@ -1,14 +1,14 @@
 ---
 title: IMasterThemeable
-second_title: Aspose.Sildes .NET API referenciája
-description: Képviseli a master theme manager-t.
+second_title: Aspose.Sildes .NET API referencia
+description: A mester téma kezelő képviselete.
 type: docs
-weight: 11330
+weight: 11350
 url: /hu/aspose.slides.theme/imasterthemeable/
 ---
 ## IMasterThemeable interfész
 
-Képviseli a master theme manager-t.
+A mester téma kezelő képviselete.
 
 ```csharp
 public interface IMasterThemeable : IThemeable
@@ -19,7 +19,7 @@ public interface IMasterThemeable : IThemeable
 | Név | Leírás |
 | --- | --- |
 | [AsIThemeable](../../aspose.slides.theme/imasterthemeable/asithemeable) { get; } | Visszaadja az IThemeable interfészt. Csak olvasható [`IThemeable`](../ithemeable). |
-| [ThemeManager](../../aspose.slides.theme/imasterthemeable/thememanager) { get; } | Visszaadja a master theme manager-t. Csak olvasható [`IMasterThemeManager`](../imasterthememanager). |
+| [ThemeManager](../../aspose.slides.theme/imasterthemeable/thememanager) { get; } | Visszaadja a mester téma kezelőt. Csak olvasható [`IMasterThemeManager`](../imasterthememanager). |
 
 ### Lásd még
 

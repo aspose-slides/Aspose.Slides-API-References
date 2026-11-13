@@ -3,7 +3,7 @@ title: IChartData
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente les données utilisées pour le traçage d'un graphique.
 type: docs
-weight: 1800
+weight: 1820
 url: /fr/aspose.slides.charts/ichartdata/
 ---
 ## IChartData interface
@@ -16,31 +16,32 @@ public interface IChartData
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [Categories](../../aspose.slides.charts/ichartdata/categories) { get; } | Obtient les catégories primaires (ou les catégories primaires et secondaires si la propriété [`UseSecondaryCategories`](./usesecondarycategories) est false). Lecture seule [`IChartCategoryCollection`](../ichartcategorycollection). |
-| [ChartDataWorkbook](../../aspose.slides.charts/ichartdata/chartdataworkbook) { get; } | Obtient la fabrique de cellules pour créer des cellules utilisées pour les séries ou les catégories du graphique. Lecture seule [`IChartDataWorkbook`](../ichartdataworkbook). |
+| [ChartDataWorkbook](../../aspose.slides.charts/ichartdata/chartdataworkbook) { get; } | Obtient la fabrique de cellules pour créer les cellules utilisées pour les séries ou les catégories du graphique. Lecture seule [`IChartDataWorkbook`](../ichartdataworkbook). |
 | [DataSourceType](../../aspose.slides.charts/ichartdata/datasourcetype) { get; } | Représente la source de données du graphique |
 | [EmbeddedWorkbookType](../../aspose.slides.charts/ichartdata/embeddedworkbooktype) { get; } | Obtient le type du classeur intégré. Retourne NotDefined si [`DataSourceType`](./datasourcetype) est ExternalWorkbook. Lecture seule [`WorkbookType`](../workbooktype). |
-| [ExternalWorkbookPath](../../aspose.slides.charts/ichartdata/externalworkbookpath) { get; } | Représente le chemin du classeur externe si la source de données est externe, sinon null |
+| [ExternalWorkbookPath](../../aspose.slides.charts/ichartdata/externalworkbookpath) { get; } | Représente le chemin du classeur externe si la source de données est externe, null sinon |
 | [SecondaryCategories](../../aspose.slides.charts/ichartdata/secondarycategories) { get; } | Obtient les catégories secondaires si la propriété [`UseSecondaryCategories`](./usesecondarycategories) est true. Lecture seule [`IChartCategoryCollection`](../ichartcategorycollection). |
 | [Series](../../aspose.slides.charts/ichartdata/series) { get; } | Obtient les séries. Lecture seule [`IChartSeriesCollection`](../ichartseriescollection). |
 | [SeriesGroups](../../aspose.slides.charts/ichartdata/seriesgroups) { get; } | Obtient les groupes de séries. Lecture seule [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection). |
-| [UseSecondaryCategories](../../aspose.slides.charts/ichartdata/usesecondarycategories) { get; set; } | Si false alors la propriété [`SecondaryCategories`](./secondarycategories) renvoie null et les données de la propriété [`Categories`](./categories) sont utilisées à la fois pour les séries primaires et secondaires. Si true alors les données de la propriété [`SecondaryCategories`](./secondarycategories) sont utilisées pour les séries secondaires et les données de la propriété [`Categories`](./categories) sont utilisées pour les séries primaires. Lecture/écriture Boolean. |
+| [UseSecondaryCategories](../../aspose.slides.charts/ichartdata/usesecondarycategories) { get; set; } | Si false, la propriété [`SecondaryCategories`](./secondarycategories) renvoie null et les données de la propriété [`Categories`](./categories) sont utilisées à la fois pour les séries primaires et secondaires. Si true, les données de la propriété [`SecondaryCategories`](./secondarycategories) sont utilisées pour les séries secondaires et les données de la propriété [`Categories`](./categories) sont utilisées pour les séries primaires. Lecture/écriture Boolean. |
 
 ## Méthodes
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [GetRange](../../aspose.slides.charts/ichartdata/getrange)() | Obtient la plage de données du graphique. |
-| [ReadWorkbookStream](../../aspose.slides.charts/ichartdata/readworkbookstream)() | Écrit le classeur Excel intégré dans un flux en mémoire. |
+| [ReadWorkbookStream](../../aspose.slides.charts/ichartdata/readworkbookstream)() | Écrit le classeur Excel interne dans un flux en mémoire. |
+| [RefreshData](../../aspose.slides.charts/ichartdata/refreshdata)() | Actualise les données du graphique en les rechargeant depuis le classeur source. |
 | [SetExternalWorkbook](../../aspose.slides.charts/ichartdata/setexternalworkbook#setexternalworkbook)(string) | Définit le classeur externe comme source de données pour le graphique. Les données du graphique seront mises à jour à partir du classeur cible. |
 | [SetExternalWorkbook](../../aspose.slides.charts/ichartdata/setexternalworkbook#setexternalworkbook_1)(string, bool) | Définit le classeur externe comme source de données pour le graphique. |
-| [SetRange](../../aspose.slides.charts/ichartdata/setrange)(string) | Définit la plage de données du graphique. Les séries et les catégories seront mises à jour en fonction de la nouvelle plage de données. Si le nombre de séries dans la plage de données est supérieur au nombre de séries dans les données du graphique, des séries supplémentaires avec le même type que la dernière série de la collection actuelle seront ajoutées à la fin de la collection. |
-| [SwitchRowColumn](../../aspose.slides.charts/ichartdata/switchrowcolumn)() | Échange les données entre les axes. Les données tracées sur l'axe X seront déplacées vers l'axe Y et vice versa. |
-| [WriteWorkbookStream](../../aspose.slides.charts/ichartdata/writeworkbookstream)(MemoryStream) | Initialise le classeur Excel intégré avec la valeur spécifiée par l'utilisateur. |
+| [SetRange](../../aspose.slides.charts/ichartdata/setrange)(string) | Définit la plage de données du graphique. Les séries et les catégories seront mises à jour en fonction de la nouvelle plage de données. Si le nombre de séries dans la plage de données est supérieur au nombre de séries dans les données du graphique, alors des séries supplémentaires du même type que la dernière série de la collection actuelle seront ajoutées à la fin de la collection. |
+| [SwitchRowColumn](../../aspose.slides.charts/ichartdata/switchrowcolumn)() | Échange les données entre les axes. Les données tracées sur l'axe X seront déplacées vers l'axe Y et inversement. |
+| [WriteWorkbookStream](../../aspose.slides.charts/ichartdata/writeworkbookstream)(MemoryStream) | Initialise le classeur Excel interne avec la valeur spécifiée par l'utilisateur. |
 
-### Voir également
+### Voir aussi
 
 * espace de noms [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assemblage [Aspose.Slides](../../)

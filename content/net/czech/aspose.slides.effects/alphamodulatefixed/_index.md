@@ -1,14 +1,14 @@
 ---
 title: AlphaModulateFixed
-second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje efekt Alpha Modulate Fixed. Hodnoty alfa (průhlednosti) jsou vynásobeny pevnou procentuální hodnotou.
+second_title: Aspose.Sildes pro .NET referenční příručka API
+description: Zastupuje efekt Alpha Modulate Fixed. Hodnoty alfa (průhlednosti) efektu jsou násobeny pevnou procentuální hodnotou.
 type: docs
-weight: 2890
+weight: 2910
 url: /cs/aspose.slides.effects/alphamodulatefixed/
 ---
-## AlphaModulateFixed třída
+## AlphaModulateFixed class
 
-Representuje efekt Alpha Modulate Fixed. Hodnoty alfa (průhlednosti) jsou vynásobeny pevnou procentuální hodnotou.
+Zastupuje efekt Alpha Modulate Fixed. Hodnoty alfa (průhlednosti) efektu jsou násobeny pevnou procentuální hodnotou.
 
 ```csharp
 public sealed class AlphaModulateFixed : ImageTransformOperation, IAlphaModulateFixed
@@ -25,7 +25,7 @@ public sealed class AlphaModulateFixed : ImageTransformOperation, IAlphaModulate
 
 | Název | Popis |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphamodulatefixed/equals)(object) | Určuje, zda je specifikovaný [`AlphaModulateFixed`](../alphamodulatefixed) roven aktuálnímu [`AlphaModulateFixed`](../alphamodulatefixed). |
+| override [Equals](../../aspose.slides.effects/alphamodulatefixed/equals)(object) | Určuje, zda je zadaný [`AlphaModulateFixed`](../alphamodulatefixed) roven aktuálnímu [`AlphaModulateFixed`](../alphamodulatefixed). |
 | [GetEffective](../../aspose.slides.effects/alphamodulatefixed/geteffective)() | Získá efektivní data efektu Alpha Modulate Fixed s aplikovaným děděním. |
 | override [GetHashCode](../../aspose.slides.effects/alphamodulatefixed/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ. |
 

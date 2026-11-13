@@ -1,14 +1,14 @@
 ---
 title: IEffectStyleEffectiveData
-second_title: Aspose.Sildes .NET API referenciája
-description: Megváltoztathatatlan objektum, amely hatékony effektus stílus tulajdonságokat tartalmaz.
+second_title: Aspose.Sildes a .NET API hivatkozáshoz
+description: Változtathatatlan objektum, amely a hatékony effektusstílus tulajdonságokat tartalmazza.
 type: docs
-weight: 11200
+weight: 11220
 url: /hu/aspose.slides.theme/ieffectstyleeffectivedata/
 ---
 ## IEffectStyleEffectiveData interfész
 
-Megváltoztathatatlan objektum, amely hatékony effektus stílus tulajdonságokat tartalmaz.
+Változtathatatlan objektum, amely a hatékony effektusstílus tulajdonságokat tartalmazza.
 
 ```csharp
 public interface IEffectStyleEffectiveData
@@ -18,7 +18,7 @@ public interface IEffectStyleEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [EffectFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/effectformat) { get; } | Visszaad egy effekt formátumot. Csak olvasható [`IEffectFormatEffectiveData`](../../aspose.slides/ieffectformateffectivedata). |
+| [EffectFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/effectformat) { get; } | Visszaad egy effektusformátumot. Csak olvasható [`IEffectFormatEffectiveData`](../../aspose.slides/ieffectformateffectivedata). |
 | [ThreeDFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/threedformat) { get; } | Visszaad egy 3D formátumot. Csak olvasható [`IThreeDFormatEffectiveData`](../../aspose.slides/ithreedformateffectivedata). |
 
 ### Megjegyzés

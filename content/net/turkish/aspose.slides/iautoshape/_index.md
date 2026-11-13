@@ -1,12 +1,12 @@
 ---
 title: IAutoShape
-second_title: Aspose.Sildes için .NET API Referansı
-description: Bir AutoShape'i temsil eder.
+second_title: Aspose.Sildes .NET API Referansı
+description: "Bir AutoShape'i temsil eder."
 type: docs
-weight: 5240
+weight: 5260
 url: /tr/aspose.slides/iautoshape/
 ---
-## IAutoShape arayüzü
+## IAutoShape arayüz
 
 Bir AutoShape'i temsil eder.
 
@@ -23,15 +23,15 @@ public interface IAutoShape : IGeometryShape
 | [IsTextBox](../../aspose.slides/iautoshape/istextbox) { get; } | Şeklin bir metin kutusu olup olmadığını belirtir. |
 | [ShapeLock](../../aspose.slides/iautoshape/shapelock) { get; } | Şeklin kilitlerini döndürür. Salt okunur [`IAutoShapeLock`](../iautoshapelock). |
 | [TextFrame](../../aspose.slides/iautoshape/textframe) { get; } | AutoShape için TextFrame nesnesini döndürür. Salt okunur [`ITextFrame`](../itextframe). |
-| [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | Bu autoshape'in stil veya dolgu biçimi tarafından belirlenmiş yerine slaytın arka plan dolgusuyla doldurulup doldurulmayacağını belirler. Okunabilir/Yazılabilir Boolean. |
+| [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | Bu autoshape'in stil veya doldurma biçimi ile belirtilen yerine slaytın arka plan doldurmasıyla doldurulup doldurulmayacağını belirler. Okunur/yazılır Boolean. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [AddTextFrame](../../aspose.slides/iautoshape/addtextframe)(string) | Bir şekle yeni bir TextFrame ekler. Şeklin zaten bir TextFrame'i varsa yalnızca metnini değiştirir. |
+| [AddTextFrame](../../aspose.slides/iautoshape/addtextframe)(string) | Şekle yeni bir TextFrame ekler. Şekilde zaten bir TextFrame varsa sadece metnini değiştirir. |
 
-### Ayrıca Bakınız
+### Ayrıca bkz
 
 * arayüz [IGeometryShape](../igeometryshape)
 * ad alanı [Aspose.Slides](../../aspose.slides)

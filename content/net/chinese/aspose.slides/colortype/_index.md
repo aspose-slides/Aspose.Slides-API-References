@@ -3,7 +3,7 @@ title: ColorType
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示不同的颜色模式。
 type: docs
-weight: 2580
+weight: 2600
 url: /zh/aspose.slides/colortype/
 ---
 ## ColorType 枚举
@@ -14,11 +14,11 @@ url: /zh/aspose.slides/colortype/
 public enum ColorType
 ```
 
-### 取值
+### 值
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| NotDefined | `-1` | 颜色根本未定义。 |
+| NotDefined | `-1` | 颜色未定义。 |
 | RGB | `0` | 标准 24 位 RGB 颜色。 |
 | RGBPercentage | `1` | 高分辨率 RGB 颜色。 |
 | HSL | `2` | 高分辨率 HSL 颜色。 |

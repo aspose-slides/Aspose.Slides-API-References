@@ -1,14 +1,14 @@
 ---
 title: ErrorBarType
-second_title: Aspose.Sildes .NET API 참조
-description: 오류 막대의 유형을 나타냅니다
+second_title: Aspose.Sildes for .NET API 참조
+description: 오류 막대 유형을 나타냅니다
 type: docs
-weight: 1640
+weight: 1650
 url: /ko/aspose.slides.charts/errorbartype/
 ---
 ## ErrorBarType 열거형
 
-오류 막대의 유형을 나타냅니다
+오류 막대의 유형을 나타냅니다.
 
 ```csharp
 public enum ErrorBarType
@@ -18,11 +18,11 @@ public enum ErrorBarType
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| Both | `0` | 오류 막대가 양쪽 및 음쪽 방향 모두에 표시되도록 지정합니다. |
-| Minus | `1` | 오류 막대가 음쪽 방향에만 표시되도록 지정합니다. |
-| Plus | `2` | 오류 막대가 양쪽 방향에만 표시되도록 지정합니다. |
+| Both | `0` | 오류 막대가 양 방향 및 음 방향 모두에 표시되도록 지정합니다. |
+| Minus | `1` | 오류 막대가 음 방향에만 표시되도록 지정합니다. |
+| Plus | `2` | 오류 막대가 양 방향에만 표시되도록 지정합니다. |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,12 +1,12 @@
 ---
 title: IDataLabelCollection
-second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje popisky řady.
+second_title: Aspose.Sildes pro .NET – referenční příručka API
+description: Zastupuje popisky řady.
 type: docs
-weight: 2030
+weight: 2050
 url: /cs/aspose.slides.charts/idatalabelcollection/
 ---
-## IDataLabelCollection rozhraní
+## Rozhraní IDataLabelCollection
 
 Represents a series labels.
 
@@ -18,21 +18,22 @@ public interface IDataLabelCollection : IChartComponent, IEnumerable<IDataLabel>
 
 | Název | Popis |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/idatalabelcollection/asichartcomponent) { get; } | Umožňuje získat základní rozhraní IChartComponent. Jen pro čtení [`IChartComponent`](../ichartcomponent). |
-| [AsIEnumerable](../../aspose.slides.charts/idatalabelcollection/asienumerable) { get; } | Umožňuje získat základní rozhraní IEnumerable. Jen pro čtení IEnumerable. |
-| [Count](../../aspose.slides.charts/idatalabelcollection/count) { get; } | Získá počet všech popisků dat ve sbírce. Jen pro čtení Int32. |
-| [CountOfVisibleDataLabels](../../aspose.slides.charts/idatalabelcollection/countofvisibledatalabels) { get; } | Získá počet viditelných popisků dat ve sbírce. Jen pro čtení Int32. |
-| [DefaultDataLabelFormat](../../aspose.slides.charts/idatalabelcollection/defaultdatalabelformat) { get; } | Vrací výchozí formát všech popisků dat ve sbírce. Jen pro čtení [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/idatalabelcollection/isvisible) { get; } | False znamená, že popisek dat není ve výchozím nastavení viditelný (a proto jsou všechny příznaky Show*- (ShowValue, ...) vlastnosti DefaultDataLabelFormat nastaveny na false). Jen pro čtení Boolean. |
-| [Item](../../aspose.slides.charts/idatalabelcollection/item) { get; } | Získá popisek dat pro datový bod se zadaným indexem. |
-| [LeaderLinesFormat](../../aspose.slides.charts/idatalabelcollection/leaderlinesformat) { get; } | Reprezentuje formát vodících čar popisků dat. Jen pro čtení [`IChartLinesFormat`](../ichartlinesformat). |
-| [ParentSeries](../../aspose.slides.charts/idatalabelcollection/parentseries) { get; } | Vrací nadřazenou sérii grafu. Jen pro čtení [`IChartSeries`](../ichartseries). |
+| [AsIChartComponent](../../aspose.slides.charts/idatalabelcollection/asichartcomponent) { get; } | Umožňuje získat základní rozhraní IChartComponent. Pouze ke čtení [`IChartComponent`](../ichartcomponent). |
+| [AsIEnumerable](../../aspose.slides.charts/idatalabelcollection/asienumerable) { get; } | Umožňuje získat základní rozhraní IEnumerable. Pouze ke čtení IEnumerable. |
+| [Count](../../aspose.slides.charts/idatalabelcollection/count) { get; } | Vrací počet všech datových popisků ve sbírce. Pouze ke čtení Int32. |
+| [CountOfVisibleDataLabels](../../aspose.slides.charts/idatalabelcollection/countofvisibledatalabels) { get; } | Vrací počet viditelných datových popisků ve sbírce. Pouze ke čtení Int32. |
+| [DefaultDataLabelFormat](../../aspose.slides.charts/idatalabelcollection/defaultdatalabelformat) { get; } | Vrací výchozí formát všech datových popisků ve sbírce. Pouze ke čtení [`IDataLabelFormat`](../idatalabelformat). |
+| [DefaultLabelShapeType](../../aspose.slides.charts/idatalabelcollection/defaultlabelshapetype) { get; set; } | Získá nebo nastaví výchozí typ tvaru pro datové popisky. Vrací NotDefined, pokud není tvar definován. |
+| [IsVisible](../../aspose.slides.charts/idatalabelcollection/isvisible) { get; } | False znamená, že datový popisek není ve výchozím nastavení viditelný (a proto jsou všechna příznaky Show*- (ShowValue, ...) vlastnosti DefaultDataLabelFormat nastaveny na false). Pouze ke čtení Boolean. |
+| [Item](../../aspose.slides.charts/idatalabelcollection/item) { get; } | Vrací datový popisek pro datový bod se zadaným indexem. |
+| [LeaderLinesFormat](../../aspose.slides.charts/idatalabelcollection/leaderlinesformat) { get; } | Reprezentuje formát vodicích čar datových popisků. Pouze ke čtení [`IChartLinesFormat`](../ichartlinesformat). |
+| [ParentSeries](../../aspose.slides.charts/idatalabelcollection/parentseries) { get; } | Vrací nadřazenou sérii grafu. Pouze ke čtení [`IChartSeries`](../ichartseries). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [Hide](../../aspose.slides.charts/idatalabelcollection/hide)() | Zpřístupní popisek dat jako ve výchozím nastavení skrytý nastavením všech příznaků Show*- (ShowValue, ...) vlastnosti DefaultDataLabelFormat na false. IsVisible bude po tomto nastavení false. |
+| [Hide](../../aspose.slides.charts/idatalabelcollection/hide)() | Skryje datový popisek ve výchozím nastavení nastavením všech příznaků Show*- (ShowValue, ...) vlastnosti DefaultDataLabelFormat na hodnotu false. Po této operaci bude IsVisible false. |
 | [IndexOf](../../aspose.slides.charts/idatalabelcollection/indexof)(IDataLabel) | Vrací index zadaného DataLabel ve sbírce. |
 
 ### Viz také
@@ -40,6 +41,6 @@ public interface IDataLabelCollection : IChartComponent, IEnumerable<IDataLabel>
 * rozhraní [IChartComponent](../ichartcomponent)
 * rozhraní [IDataLabel](../idatalabel)
 * jmenný prostor [Aspose.Slides.Charts](../../aspose.slides.charts)
-* sestava [Aspose.Slides](../../)
+* sestavení [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -3,7 +3,7 @@ title: VbaReferenceCollection
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una colección de referencias de un proyecto VBA.
 type: docs
-weight: 11670
+weight: 11690
 url: /es/aspose.slides.vba/vbareferencecollection/
 ---
 ## VbaReferenceCollection clase
@@ -29,7 +29,7 @@ public class VbaReferenceCollection : IVbaReferenceCollection
 | --- | --- |
 | [Add](../../aspose.slides.vba/vbareferencecollection/add)(IVbaReference) | Agrega la nueva referencia a la colección de referencias |
 | [CopyTo](../../aspose.slides.vba/vbareferencecollection/copyto)(Array, int) | Copia todos los elementos de la colección al array especificado. |
-| [GetEnumerator](../../aspose.slides.vba/vbareferencecollection/getenumerator)() | Devuelve un enumerador que recorre la colección. |
+| [GetEnumerator](../../aspose.slides.vba/vbareferencecollection/getenumerator)() | Devuelve un enumerador que itera a través de la colección. |
 
 ### Ver también
 

@@ -3,10 +3,10 @@ title: SvgEvent
 second_title: Aspose.Sildes için .NET API Referansı
 description: SVG şekli için seçenekleri temsil eder.
 type: docs
-weight: 4490
+weight: 4510
 url: /tr/aspose.slides.export/svgevent/
 ---
-## SvgEvent enumerasyonu
+## SvgEvent numaralandırması
 
 SVG şekli için seçenekleri temsil eder.
 
@@ -18,27 +18,27 @@ public enum SvgEvent
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| OnFocusIn | `0` | Bir öğe odak aldığında meydana gelir, örneğin bir metin seçildiğinde. |
-| OnFocusOut | `1` | Bir öğe odağını kaybettiğinde meydana gelir, örneğin bir metin seçimi kaldırıldığında. |
-| OnActivate | `2` | Bir öğe etkinleştirildiğinde meydana gelir, örneğin bir fare tıklaması veya tuşa basma ile. |
-| OnClick | `3` | İşaretleme aygıtı düğmesi bir öğe üzerinde tıklandığında meydana gelir. |
-| OnMouseDown | `4` | İşaretleme aygıtı düğmesi bir öğe üzerinde basıldığında meydana gelir. |
-| OnMouseUp | `5` | İşaretleme aygıtı düğmesi bir öğe üzerinde bırakıldığında meydana gelir. |
-| OnMouseOver | `6` | İşaretleme aygıtı bir öğe üzerine getirildiğinde meydana gelir. |
-| OnMouseMove | `7` | İşaretleme aygıtı bir öğe üzerindeyken hareket ettiğinde meydana gelir. |
-| OnMouseOut | `8` | İşaretleme aygıtı bir öğeden uzaklaştırıldığında meydana gelir. |
-| OnLoad | `9` | Kullanıcı aracısı öğeyi ve alt öğelerini ve onu renderlemek için gerekli tüm referanslı kaynakları tamamen ayrıştırdığında meydana gelir. |
-| OnUnload | `10` | DOM uygulaması bir belgeyi bir pencereden veya çerçeveden kaldırdığında meydana gelir. Yalnızca en dış svg öğeleri için geçerlidir. |
+| OnFocusIn | `0` | Bir eleman odaklandığında meydana gelir, örneğin bir metin seçildiğinde. |
+| OnFocusOut | `1` | Bir eleman odak kaybettiğinde meydana gelir, örneğin bir metin seçimi kaldırıldığında. |
+| OnActivate | `2` | Bir eleman etkinleştirildiğinde meydana gelir; örneğin fare tıklamasıyla veya tuşa basılarak. |
+| OnClick | `3` | İşaretleme aygıtının düğmesi bir elemanın üzerindeyken tıklandığında meydana gelir. |
+| OnMouseDown | `4` | İşaretleme aygıtının düğmesi bir elemanın üzerindeyken basıldığında meydana gelir. |
+| OnMouseUp | `5` | İşaretleme aygıtının düğmesi bir elemanın üzerindeyken bırakıldığında meydana gelir. |
+| OnMouseOver | `6` | İşaretleme aygıtı bir elemanın üzerine taşındığında meydana gelir. |
+| OnMouseMove | `7` | İşaretleme aygıtı bir elemanın üzerindeyken hareket ettiğinde meydana gelir. |
+| OnMouseOut | `8` | İşaretleme aygıtı bir elemandan uzaklaştığında meydana gelir. |
+| OnLoad | `9` | Kullanıcı aracısı öğeyi ve alt öğelerini ve onu oluşturmak için gereken tüm referanslı kaynakları tamamen ayrıştırdığında meydana gelir. |
+| OnUnload | `10` | DOM uygulaması bir belgeyi bir pencere veya çerçeveden kaldırdığında meydana gelir. Yalnızca en dış svg öğeleri için geçerlidir. |
 | OnAbort | `11` | Bir öğenin tamamen yüklenmesine izin verilmeden sayfa yüklemesi durdurulduğunda meydana gelir. |
-| OnError | `12` | Bir öğe düzgün yüklenmediğinde veya script yürütmesi sırasında bir hata oluştuğunda meydana gelir. |
+| OnError | `12` | Bir öğe düzgün yüklenmediğinde veya betik çalışması sırasında bir hata oluştuğunda meydana gelir. |
 | OnResize | `13` | Bir belge görünümü yeniden boyutlandırıldığında meydana gelir. Yalnızca en dış svg öğeleri için geçerlidir. |
-| OnScroll | `14` | Bir belge görünümü X veya Y ekseninde ya da her ikisinde kaydırıldığında meydana gelir. Yalnızca en dış svg öğeleri için geçerlidir. |
+| OnScroll | `14` | Bir belge görünümü X veya Y ya da her iki eksen boyunca kaydırıldığında meydana gelir. Yalnızca en dış svg öğeleri için geçerlidir. |
 | OnZoom | `15` | Bir belge görünümünün yakınlaştırma seviyesi değiştirildiğinde meydana gelir. Yalnızca en dış svg öğeleri için geçerlidir. |
 | OnBegin | `16` | Bir animasyon öğesi başladığında meydana gelir. |
 | OnEnd | `17` | Bir animasyon öğesi bittiğinde meydana gelir. |
 | OnRepeat | `18` | Bir animasyon öğesi tekrarlandığında meydana gelir. |
 
-### Ayrıca Bakınız
+### Diğer Bilgiler
 
 * ad alanı [Aspose.Slides.Export](../../aspose.slides.export)
 * derleme [Aspose.Slides](../../)

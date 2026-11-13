@@ -1,14 +1,14 @@
 ---
 title: LegendDataLabelPosition
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Determina la posizione delle etichette dei dati.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Determina la posizione delle etichette dati.
 type: docs
-weight: 2290
+weight: 2310
 url: /it/aspose.slides.charts/legenddatalabelposition/
 ---
 ## LegendDataLabelPosition enumerazione
 
-Determina la posizione delle etichette dei dati.
+Determina la posizione delle etichette dati.
 
 ```csharp
 public enum LegendDataLabelPosition
@@ -19,15 +19,15 @@ public enum LegendDataLabelPosition
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | NotDefined | `-1` | La posizione non è definita. |
-| Bottom | `0` | Specifica che le etichette dei dati devono essere visualizzate sotto il marcatore dei dati. |
-| BestFit | `1` | Specifica che le etichette dei dati devono essere visualizzate nella posizione migliore. |
-| Center | `2` | Specifica che le etichette dei dati devono essere visualizzate centrate sul marcatore dei dati. |
-| InsideBase | `3` | Specifica che le etichette dei dati devono essere visualizzate all'interno della base del marcatore dei dati. |
-| InsideEnd | `4` | Specifica che le etichette dei dati devono essere visualizzate all'interno dell'estremità del marcatore dei dati. |
-| Left | `5` | Specifica che le etichette dei dati devono essere visualizzate a sinistra del marcatore dei dati. |
-| OutsideEnd | `6` | Specifica che le etichette dei dati devono essere visualizzate all'esterno dell'estremità del marcatore dei dati. |
-| Right | `7` | Specifica che le etichette dei dati devono essere visualizzate a destra del marcatore dei dati. |
-| Top | `8` | Specifica che le etichette dei dati devono essere visualizzate sopra il marcatore dei dati. |
+| Bottom | `0` | Specifica che le etichette dati devono essere visualizzate sotto il marcatore dati. |
+| BestFit | `1` | Specifica che le etichette dati devono essere visualizzate nella posizione migliore. |
+| Center | `2` | Specifica che le etichette dati devono essere visualizzate centrate sul marcatore dati. |
+| InsideBase | `3` | Specifica che le etichette dati devono essere visualizzate all'interno della base del marcatore dati. |
+| InsideEnd | `4` | Specifica che le etichette dati devono essere visualizzate all'interno dell'estremità del marcatore dati. |
+| Left | `5` | Specifica che le etichette dati devono essere visualizzate a sinistra del marcatore dati. |
+| OutsideEnd | `6` | Specifica che le etichette dati devono essere visualizzate all'esterno dell'estremità del marcatore dati. |
+| Right | `7` | Specifica che le etichette dati devono essere visualizzate a destra del marcatore dati. |
+| Top | `8` | Specifica che le etichette dati devono essere visualizzate sopra il marcatore dati. |
 
 ### Vedi anche
 

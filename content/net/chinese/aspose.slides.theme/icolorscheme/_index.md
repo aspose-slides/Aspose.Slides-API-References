@@ -1,9 +1,9 @@
 ---
 title: IColorScheme
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 存储主题定义的颜色。
 type: docs
-weight: 11150
+weight: 11170
 url: /zh/aspose.slides.theme/icolorscheme/
 ---
 ## IColorScheme 接口
@@ -18,20 +18,20 @@ public interface IColorScheme : ISlideComponent
 
 | 名称 | 描述 |
 | --- | --- |
-| [Accent1](../../aspose.slides.theme/icolorscheme/accent1) { get; } | 方案中的第一强调颜色。只读 [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent2](../../aspose.slides.theme/icolorscheme/accent2) { get; } | 方案中的第二强调颜色。只读 [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent3](../../aspose.slides.theme/icolorscheme/accent3) { get; } | 方案中的第三强调颜色。只读 [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent4](../../aspose.slides.theme/icolorscheme/accent4) { get; } | 方案中的第四强调颜色。只读 [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent5](../../aspose.slides.theme/icolorscheme/accent5) { get; } | 方案中的第五强调颜色。只读 [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent6](../../aspose.slides.theme/icolorscheme/accent6) { get; } | 方案中的第六强调颜色。只读 [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [AsISlideComponent](../../aspose.slides.theme/icolorscheme/asislidecomponent) { get; } | 返回 ISlideComponent 接口。只读 [`ISlideComponent`](../../aspose.slides/islidecomponent). |
-| [Dark1](../../aspose.slides.theme/icolorscheme/dark1) { get; } | 方案中的第一暗色。只读 [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Dark2](../../aspose.slides.theme/icolorscheme/dark2) { get; } | 方案中的第二暗色。只读 [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [FollowedHyperlink](../../aspose.slides.theme/icolorscheme/followedhyperlink) { get; } | 已访问超链接的颜色。只读 [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Hyperlink](../../aspose.slides.theme/icolorscheme/hyperlink) { get; } | 超链接的颜色。只读 [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Item](../../aspose.slides.theme/icolorscheme/item) { get; } | 获取指定索引处的元素。只读 [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Light1](../../aspose.slides.theme/icolorscheme/light1) { get; } | 方案中的第一浅色。只读 [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Light2](../../aspose.slides.theme/icolorscheme/light2) { get; } | 方案中的第二浅色。只读 [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent1](../../aspose.slides.theme/icolorscheme/accent1) { get; } | 方案中的第一强调颜色。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [Accent2](../../aspose.slides.theme/icolorscheme/accent2) { get; } | 方案中的第二强调颜色。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [Accent3](../../aspose.slides.theme/icolorscheme/accent3) { get; } | 方案中的第三强调颜色。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [Accent4](../../aspose.slides.theme/icolorscheme/accent4) { get; } | 方案中的第四强调颜色。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [Accent5](../../aspose.slides.theme/icolorscheme/accent5) { get; } | 方案中的第五强调颜色。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [Accent6](../../aspose.slides.theme/icolorscheme/accent6) { get; } | 方案中的第六强调颜色。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [AsISlideComponent](../../aspose.slides.theme/icolorscheme/asislidecomponent) { get; } | 返回 ISlideComponent 接口。只读 [`ISlideComponent`](../../aspose.slides/islidecomponent)。 |
+| [Dark1](../../aspose.slides.theme/icolorscheme/dark1) { get; } | 方案中的第一暗色。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [Dark2](../../aspose.slides.theme/icolorscheme/dark2) { get; } | 方案中的第二暗色。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [FollowedHyperlink](../../aspose.slides.theme/icolorscheme/followedhyperlink) { get; } | 已访问超链接的颜色。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [Hyperlink](../../aspose.slides.theme/icolorscheme/hyperlink) { get; } | 超链接的颜色。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [Item](../../aspose.slides.theme/icolorscheme/item) { get; } | 获取指定索引处的元素。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [Light1](../../aspose.slides.theme/icolorscheme/light1) { get; } | 方案中的第一浅色。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [Light2](../../aspose.slides.theme/icolorscheme/light2) { get; } | 方案中的第二浅色。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
 
 ### 参见
 

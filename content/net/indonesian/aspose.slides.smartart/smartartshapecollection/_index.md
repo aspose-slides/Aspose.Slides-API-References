@@ -1,14 +1,14 @@
 ---
 title: SmartArtShapeCollection
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili kumpulan bentuk SmartArt
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili koleksi bentuk SmartArt
 type: docs
-weight: 10670
+weight: 10690
 url: /id/aspose.slides.smartart/smartartshapecollection/
 ---
 ## SmartArtShapeCollection kelas
 
-Mewakili kumpulan bentuk SmartArt
+Mewakili koleksi bentuk SmartArt
 
 ```csharp
 public class SmartArtShapeCollection : ISmartArtShapeCollection
@@ -18,17 +18,17 @@ public class SmartArtShapeCollection : ISmartArtShapeCollection
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Count](../../aspose.slides.smartart/smartartshapecollection/count) { get; } | Mendapatkan jumlah elemen yang sebenarnya terkandung dalam koleksi. Hanya-baca Int32. |
-| [IsSynchronized](../../aspose.slides.smartart/smartartshapecollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (aman untuk thread). Hanya-baca Boolean. |
-| [Item](../../aspose.slides.smartart/smartartshapecollection/item) { get; } | Mendapatkan elemen pada indeks yang ditentukan. Hanya-baca [`SmartArtShape`](../smartartshape).&gt;. |
-| [SyncRoot](../../aspose.slides.smartart/smartartshapecollection/syncroot) { get; } | Mengembalikan akar sinkronisasi. Hanya-baca Object. |
+| [Count](../../aspose.slides.smartart/smartartshapecollection/count) { get; } | Mendapatkan jumlah elemen yang sebenarnya terdapat dalam koleksi. Baca-saja Int32. |
+| [IsSynchronized](../../aspose.slides.smartart/smartartshapecollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (thread-safe). Baca-saja Boolean. |
+| [Item](../../aspose.slides.smartart/smartartshapecollection/item) { get; } | Mendapatkan elemen pada indeks yang ditentukan. Baca-saja [`SmartArtShape`](../smartartshape).&gt;. |
+| [SyncRoot](../../aspose.slides.smartart/smartartshapecollection/syncroot) { get; } | Mengembalikan akar sinkronisasi. Baca-saja Object. |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
 | [CopyTo](../../aspose.slides.smartart/smartartshapecollection/copyto)(Array, int) | Menyalin semua elemen dari koleksi ke array yang ditentukan. |
-| [GetEnumerator](../../aspose.slides.smartart/smartartshapecollection/getenumerator)() | Mengembalikan enumerator yang mengiterasi melalui koleksi. |
+| [GetEnumerator](../../aspose.slides.smartart/smartartshapecollection/getenumerator)() | Mengembalikan enumerator yang mengiterasi koleksi. |
 
 ### Lihat Juga
 

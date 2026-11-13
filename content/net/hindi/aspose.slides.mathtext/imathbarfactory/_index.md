@@ -3,7 +3,7 @@ title: IMathBarFactory
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: गणित बार बनाने की अनुमति देता है
 type: docs
-weight: 8130
+weight: 8150
 url: /hi/aspose.slides.mathtext/imathbarfactory/
 ---
 ## IMathBarFactory इंटरफ़ेस
@@ -25,7 +25,7 @@ public interface IMathBarFactory
 
 COM संगतता के लिए
 
-### देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * असेंबली [Aspose.Slides](../../)

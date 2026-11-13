@@ -1,14 +1,14 @@
 ---
 title: TabCollection
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: タブのコレクションを表します。
 type: docs
-weight: 10840
+weight: 10860
 url: /ja/aspose.slides/tabcollection/
 ---
 ## TabCollection クラス
 
-コレクションのタブを表します。
+タブのコレクションを表します。
 
 ```csharp
 public sealed class TabCollection : ITabCollection
@@ -18,10 +18,10 @@ public sealed class TabCollection : ITabCollection
 
 | 名前 | 説明 |
 | --- | --- |
-| [Count](../../aspose.slides/tabcollection/count) { get; } | コレクションに実際に含まれる要素数を取得します。読み取り専用 Int32。 |
-| [IsSynchronized](../../aspose.slides/tabcollection/issynchronized) { get; } | コレクションへのアクセスが同期化 (スレッド セーフ) されているかどうかを示す値を返します。読み取り専用 Boolean。 |
+| [Count](../../aspose.slides/tabcollection/count) { get; } | コレクションに実際に含まれている要素数を取得します。読み取り専用 Int32。 |
+| [IsSynchronized](../../aspose.slides/tabcollection/issynchronized) { get; } | コレクションへのアクセスが同期化 (スレッドセーフ) されているかどうかを示す値を返します。読み取り専用 Boolean。 |
 | [Item](../../aspose.slides/tabcollection/item) { get; } | 指定されたインデックスの要素を取得します。読み取り専用 [`Tab`](../tab)。 |
-| [SyncRoot](../../aspose.slides/tabcollection/syncroot) { get; } | 同期ルートを返します。読み取り専用 Object。 |
+| [SyncRoot](../../aspose.slides/tabcollection/syncroot) { get; } | 同期化ルートを返します。読み取り専用 Object。 |
 
 ## メソッド
 
@@ -30,8 +30,8 @@ public sealed class TabCollection : ITabCollection
 | [Add](../../aspose.slides/tabcollection/add#add_1)(ITab) | コレクションに Tab を追加します。 |
 | [Add](../../aspose.slides/tabcollection/add#add)(double, TabAlignment) | コレクションに Tab を追加します。 |
 | [Clear](../../aspose.slides/tabcollection/clear)() | コレクションからすべての要素を削除します。 |
-| [CopyTo](../../aspose.slides/tabcollection/copyto)(Array, int) | コレクションのすべての要素を指定された配列にコピーします。 |
-| override [Equals](../../aspose.slides/tabcollection/equals)(object) | 二つの TabsEx インスタンスが等しいかどうかを判定します。 |
+| [CopyTo](../../aspose.slides/tabcollection/copyto)(Array, int) | コレクションのすべての要素を指定された配列へコピーします。 |
+| override [Equals](../../aspose.slides/tabcollection/equals)(object) | 2 つの TabsEx インスタンスが等しいかどうかを判定します。 |
 | [GetEnumerator](../../aspose.slides/tabcollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
 | override [GetHashCode](../../aspose.slides/tabcollection/gethashcode)() | このオブジェクトのハッシュコードを返します。 |
 | [RemoveAt](../../aspose.slides/tabcollection/removeat)(int) | コレクションの指定されたインデックスの要素を削除します。 |

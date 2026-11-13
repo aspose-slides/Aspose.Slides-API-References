@@ -1,14 +1,14 @@
 ---
 title: RevealTransition
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Reveal diaátmeneti effektus.
+second_title: Aspose.Sildes .NET API-referencia
+description: Diafelfedő átmeneti hatás.
 type: docs
-weight: 10280
+weight: 10300
 url: /hu/aspose.slides.slideshow/revealtransition/
 ---
 ## RevealTransition osztály
 
-Reveal diaátmeneti effektus.
+Felfedő diaátmeneti hatás.
 
 ```csharp
 public class RevealTransition : TransitionValueBase, IRevealTransition
@@ -16,14 +16,14 @@ public class RevealTransition : TransitionValueBase, IRevealTransition
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/revealtransition/direction) { get; set; } | Az átmenet iránya. Olvasás/írás [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
 | [ThroughBlack](../../aspose.slides.slideshow/revealtransition/throughblack) { get; set; } | Megadja, hogy az átmenet feketén keresztül halványul-e. Olvasás/írás Boolean. |
 
 ## Módszerek
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Megállapítja, hogy a két TransitionValueBase példány egyenlő-e. |
 | override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Hash függvényként szolgál egy adott típushoz, amely alkalmas hash algoritmusokban és adatstruktúrákban, például hash táblában való használatra. |

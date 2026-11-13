@@ -1,14 +1,14 @@
 ---
 title: ImageTransformOperationFactory
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Consente di creare operazioni di trasformazione dell'immagine
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Consente di creare operazioni di trasformazione delle immagini
 type: docs
-weight: 3590
+weight: 3610
 url: /it/aspose.slides.effects/imagetransformoperationfactory/
 ---
 ## ImageTransformOperationFactory classe
 
-Consente di creare operazioni di trasformazione dell'immagine
+Consente di creare operazioni di trasformazione delle immagini
 
 ```csharp
 public class ImageTransformOperationFactory : IImageTransformOperationFactory
@@ -16,13 +16,13 @@ public class ImageTransformOperationFactory : IImageTransformOperationFactory
 
 ## Costruttori
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
 | [ImageTransformOperationFactory](imagetransformoperationfactory)() | Il costruttore predefinito. |
 
 ## Metodi
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
 | [CreateAlphaBiLevel](../../aspose.slides.effects/imagetransformoperationfactory/createalphabilevel)(float) | Crea l'effetto Alpha BiLevel. |
 | [CreateAlphaFloor](../../aspose.slides.effects/imagetransformoperationfactory/createalphafloor)() | Crea l'effetto Alpha floor. |
@@ -42,9 +42,9 @@ public class ImageTransformOperationFactory : IImageTransformOperationFactory
 | [CreateLuminance](../../aspose.slides.effects/imagetransformoperationfactory/createluminance)(float, float) | Crea l'effetto Luminance. |
 | [CreateTint](../../aspose.slides.effects/imagetransformoperationfactory/createtint)(float, float) | Crea l'effetto Tint. |
 
-### Osservazioni
+### Note
 
-Per la compatibilità COM.
+Per compatibilità COM.
 
 ### Vedi anche
 

@@ -1,14 +1,14 @@
 ---
 title: IInk
-second_title: Aspose.Sildes の .NET API リファレンス
-description: スライド上のインク オブジェクトを表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: スライド上のインクオブジェクトを表します。
 type: docs
-weight: 7510
+weight: 7530
 url: /ja/aspose.slides.ink/iink/
 ---
 ## IInk インターフェイス
 
-スライド上のインク オブジェクトを表します。
+スライド上のインクオブジェクトを表します。
 
 ```csharp
 public interface IInk : IGraphicalObject
@@ -18,8 +18,8 @@ public interface IInk : IGraphicalObject
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides.ink/iink/asigraphicalobject) { get; } | ベース IGraphicalObject インターフェイスを取得できます。読み取り専用 [`IGraphicalObject`](../../aspose.slides/igraphicalobject)。 |
-| [Traces](../../aspose.slides.ink/iink/traces) { get; } | IInk 要素に含まれるすべてのトレースを取得します [`IInkTrace`](../iinktrace)。読み取り専用。 |
+| [AsIGraphicalObject](../../aspose.slides.ink/iink/asigraphicalobject) { get; } | ベースの IGraphicalObject インターフェイスを取得できます。読み取り専用 [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [Traces](../../aspose.slides.ink/iink/traces) { get; } | IInk 要素 [`IInkTrace`](../iinktrace) に含まれるすべてのトレースを取得します。読み取り専用. |
 
 ### 参照
 

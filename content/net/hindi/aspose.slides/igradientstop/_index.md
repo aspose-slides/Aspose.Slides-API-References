@@ -1,14 +1,14 @@
 ---
 title: IGradientStop
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: ग्रेडिएंट फ़ॉर्मेट का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: एक ग्रेडिएंट फ़ॉर्मेट का प्रतिनिधित्व करता है।
 type: docs
-weight: 6020
+weight: 6040
 url: /hi/aspose.slides/igradientstop/
 ---
 ## IGradientStop इंटरफ़ेस
 
-ग्रेडिएंट फ़ॉर्मेट का प्रतिनिधित्व करता है।
+एक ग्रेडिएंट फ़ॉर्मेट का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IGradientStop
@@ -19,7 +19,7 @@ public interface IGradientStop
 | नाम | विवरण |
 | --- | --- |
 | [Color](../../aspose.slides/igradientstop/color) { get; } | ग्रेडिएंट स्टॉप का रंग लौटाता है। केवल-पढ़ने योग्य [`IColorFormat`](../icolorformat). |
-| [Position](../../aspose.slides/igradientstop/position) { get; set; } | ग्रेडिएंट स्टॉप की स्थिति (0..1) को लौटाता या सेट करता है। पढ़ने/लिखने योग्य Single. |
+| [Position](../../aspose.slides/igradientstop/position) { get; set; } | ग्रेडिएंट स्टॉप की स्थिति (0..1) को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य Single. |
 
 ### देखें
 

@@ -1,9 +1,9 @@
 ---
 title: SystemColor
-second_title: Aspose.Sildes для .NET API справка
+second_title: Aspose.Sildes для .NET справка API
 description: Представляет предопределённые системные цвета.
 type: docs
-weight: 10810
+weight: 10830
 url: /ru/aspose.slides/systemcolor/
 ---
 ## SystemColor перечисление
@@ -14,7 +14,7 @@ url: /ru/aspose.slides/systemcolor/
 public enum SystemColor
 ```
 
-### Значения
+### Values
 
 | Имя | Значение | Описание |
 | --- | --- | --- |
@@ -50,7 +50,7 @@ public enum SystemColor
 | MenuHighlight | `29` |  |
 | MenuBar | `30` |  |
 
-### Смотрите также
+### См. также
 
 * пространство имён [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

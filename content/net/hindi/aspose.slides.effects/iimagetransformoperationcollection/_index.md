@@ -1,14 +1,14 @@
 ---
 title: IImageTransformOperationCollection
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक छवि पर लागू प्रभावों के संग्रह का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: एक छवि पर लागू किए गए प्रभावों के संग्रह का प्रतिनिधित्व करता है।
 type: docs
-weight: 3400
+weight: 3420
 url: /hi/aspose.slides.effects/iimagetransformoperationcollection/
 ---
 ## IImageTransformOperationCollection इंटरफ़ेस
 
-एक छवि पर लागू प्रभावों के संग्रह को दर्शाता है।
+एक चित्र पर लागू किए गए प्रभावों के संग्रह का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IImageTransformOperationCollection : ICollection<IImageTransformOperation>
@@ -18,37 +18,37 @@ public interface IImageTransformOperationCollection : ICollection<IImageTransfor
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.effects/iimagetransformoperationcollection/asienumerable) { get; } | IEnumerable इंटरफ़ेस लौटाता है। केवल-पढ़ने योग्य IEnumerable। |
-| [Item](../../aspose.slides.effects/iimagetransformoperationcollection/item) { get; } | संग्रह से उसके सूचकांक द्वारा एक [`IImageTransformOperation`](../iimagetransformoperation) लौटाता है। |
+| [AsIEnumerable](../../aspose.slides.effects/iimagetransformoperationcollection/asienumerable) { get; } | IEnumerable इंटरफ़ेस लौटाता है। केवल-पढ़ने-योग्य IEnumerable। |
+| [Item](../../aspose.slides.effects/iimagetransformoperationcollection/item) { get; } | [`IImageTransformOperation`](../iimagetransformoperation) को संग्रह से उसके सूचकांक द्वारा लौटाता है। |
 
-## विधियाँ
+## विधियां
 
 | नाम | विवरण |
 | --- | --- |
-| [AddAlphaBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphabileveleffect)(float) | नए Alpha Bi-Level प्रभाव को संग्रह के अंत में जोड़ता है। |
-| [AddAlphaCeilingEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaceilingeffect)() | नए Alpha Ceiling प्रभाव को संग्रह के अंत में जोड़ता है। |
-| [AddAlphaFloorEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaflooreffect)() | नए Alpha Floor प्रभाव को संग्रह के अंत में जोड़ता है। |
-| [AddAlphaInverseEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphainverseeffect)() | नए Alpha Inverse प्रभाव को संग्रह के अंत में जोड़ता है। |
-| [AddAlphaModulateEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulateeffect)() | नए Alpha Modulate प्रभाव को संग्रह के अंत में जोड़ता है। |
-| [AddAlphaModulateFixedEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulatefixedeffect)(float) | नए Alpha Modulate Fixed प्रभाव को संग्रह के अंत में जोड़ता है। |
-| [AddAlphaReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphareplaceeffect)(float) | नए Alpha Replace प्रभाव को संग्रह के अंत में जोड़ता है। |
-| [AddBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbileveleffect)(float) | नए Bi-Level (काला/सफेद) प्रभाव को संग्रह के अंत में जोड़ता है। |
-| [AddBlurEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addblureffect)(double, bool) | नए Blur प्रभाव को संग्रह के अंत में जोड़ता है। |
-| [AddBrightnessContrastEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbrightnesscontrasteffect)(float, float) | नए BrightnessContrast प्रभाव को संग्रह के अंत में जोड़ता है। |
-| [AddColorChangeEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorchangeeffect)() | नए Color Change प्रभाव को संग्रह के अंत में जोड़ता है। |
-| [AddColorReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorreplaceeffect)() | नए Color Replacement प्रभाव को संग्रह के अंत में जोड़ता है। |
-| [AddDuotoneEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addduotoneeffect)() | नए Duotone प्रभाव को संग्रह के अंत में जोड़ता है। |
-| [AddFillOverlayEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addfilloverlayeffect)() | नए Fill Overlay प्रभाव को संग्रह के अंत में जोड़ता है। |
-| [AddGrayScaleEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addgrayscaleeffect)() | नए Gray Scale प्रभाव को संग्रह के अंत में जोड़ता है। |
-| [AddHSLEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addhsleffect)(float, float, float) | नए Hue/Saturation/Luminance प्रभाव को संग्रह के अंत में जोड़ता है। |
-| [AddLuminanceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addluminanceeffect)(float, float) | नए Luminance प्रभाव को संग्रह के अंत में जोड़ता है। |
-| [AddTintEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addtinteffect)(float, float) | नए Tint प्रभाव को संग्रह के अंत में जोड़ता है। |
-| [RemoveAt](../../aspose.slides.effects/iimagetransformoperationcollection/removeat)(int) | निर्दिष्ट सूचकांक पर संग्रह से एक इमेज प्रभाव को हटाता है। |
+| [AddAlphaBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphabileveleffect)(float) | किसी संग्रह के अंत में नया Alpha Bi-Level प्रभाव जोड़ता है। |
+| [AddAlphaCeilingEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaceilingeffect)() | किसी संग्रह के अंत में नया Alpha Ceiling प्रभाव जोड़ता है। |
+| [AddAlphaFloorEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaflooreffect)() | किसी संग्रह के अंत में नया Alpha Floor प्रभाव जोड़ता है। |
+| [AddAlphaInverseEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphainverseeffect)() | किसी संग्रह के अंत में नया Alpha Inverse प्रभाव जोड़ता है। |
+| [AddAlphaModulateEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulateeffect)() | किसी संग्रह के अंत में नया Alpha Modulate प्रभाव जोड़ता है। |
+| [AddAlphaModulateFixedEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulatefixedeffect)(float) | किसी संग्रह के अंत में नया Alpha Modulate Fixed प्रभाव जोड़ता है। |
+| [AddAlphaReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphareplaceeffect)(float) | किसी संग्रह के अंत में नया Alpha Replace प्रभाव जोड़ता है। |
+| [AddBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbileveleffect)(float) | किसी संग्रह के अंत में नया Bi-Level (black/white) प्रभाव जोड़ता है। |
+| [AddBlurEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addblureffect)(double, bool) | किसी संग्रह के अंत में नया Blur प्रभाव जोड़ता है। |
+| [AddBrightnessContrastEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbrightnesscontrasteffect)(float, float) | किसी संग्रह के अंत में नया BrightnessContrast प्रभाव जोड़ता है। |
+| [AddColorChangeEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorchangeeffect)() | किसी संग्रह के अंत में नया Color Change प्रभाव जोड़ता है। |
+| [AddColorReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorreplaceeffect)() | किसी संग्रह के अंत में नया Color Replacement प्रभाव जोड़ता है। |
+| [AddDuotoneEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addduotoneeffect)() | किसी संग्रह के अंत में नया Duotone प्रभाव जोड़ता है। |
+| [AddFillOverlayEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addfilloverlayeffect)() | किसी संग्रह के अंत में नया Fill Overlay प्रभाव जोड़ता है। |
+| [AddGrayScaleEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addgrayscaleeffect)() | किसी संग्रह के अंत में नया Gray Scale प्रभाव जोड़ता है। |
+| [AddHSLEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addhsleffect)(float, float, float) | किसी संग्रह के अंत में नया Hue/Saturation/Luminance प्रभाव जोड़ता है। |
+| [AddLuminanceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addluminanceeffect)(float, float) | किसी संग्रह के अंत में नया Luminance प्रभाव जोड़ता है। |
+| [AddTintEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addtinteffect)(float, float) | किसी संग्रह के अंत में नया Tint प्रभाव जोड़ता है। |
+| [RemoveAt](../../aspose.slides.effects/iimagetransformoperationcollection/removeat)(int) | निर्दिष्ट सूचकांक पर संग्रह से एक चित्र प्रभाव हटाता है। |
 
-### और देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IImageTransformOperation](../iimagetransformoperation)
 * नामस्थान [Aspose.Slides.Effects](../../aspose.slides.effects)
-* असेंबली [Aspose.Slides](../../)
+* असेंब्ली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

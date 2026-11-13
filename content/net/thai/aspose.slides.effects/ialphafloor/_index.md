@@ -1,14 +1,14 @@
 ---
 title: IAlphaFloor
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงเอฟเฟกต์ Alpha Floor. ค่าความโปร่งใส Alpha ที่น้อยกว่า 100 จะถูกเปลี่ยนเป็นศูนย์. กล่าวคือ สิ่งใดที่โปร่งใสบางส่วนจะกลายเป็นโปร่งใสเต็มที่.
+description: แทนค่าเอฟเฟ็กต์ Alpha Floor. ค่า Alpha opacity ที่น้อยกว่า 100 จะถูกเปลี่ยนเป็นศูนย์. อีกนัยหนึ่ง สิ่งที่มีความโปร่งใสบางส่วนจะกลายเป็นโปร่งใสเต็มที่.
 type: docs
-weight: 3060
+weight: 3080
 url: /th/aspose.slides.effects/ialphafloor/
 ---
 ## IAlphaFloor อินเทอร์เฟซ
 
-แสดงถึงเอฟเฟกต์ Alpha Floor. ค่าความโปร่งใส (Alpha) ที่น้อยกว่า 100% จะถูกเปลี่ยนเป็นศูนย์. กล่าวคือ สิ่งใดที่โปร่งใสบางส่วนจะกลายเป็นโปร่งใสเต็มที่.
+แทนค่าเอฟเฟ็กต์ Alpha Floor. ค่า Alpha (opacity) ที่น้อยกว่า 100% จะถูกเปลี่ยนเป็นศูนย์. อีกนัยหนึ่ง สิ่งที่มีความโปร่งใสบางส่วนจะกลายเป็นโปร่งใสเต็มที่.
 
 ```csharp
 public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>,
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphafloor/asiaccessiblepviobject) { get; } | อนุญาตให้รับ interface IAccessiblePVIObject พื้นฐาน. อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphafloor/asiimagetransformoperation) { get; } | อนุญาตให้รับ interface IImageTransformOperation พื้นฐาน. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphafloor/asiaccessiblepviobject) { get; } | อนุญาตให้รับอินเทอร์เฟซ IAccessiblePVIObject พื้นฐาน. อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphafloor/asiimagetransformoperation) { get; } | อนุญาตให้รับอินเทอร์เฟซ IImageTransformOperation พื้นฐาน. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: INotesSlideHeaderFooterManager
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงผู้จัดการที่ควบคุมพฤติกรรมของตัวแสดงตำแหน่งสไลด์โน้ตรวมถึงตัวแสดงตำแหน่งส่วนหัว
+description: แสดงถึงผู้จัดการที่ควบคุมพฤติกรรมของตัวยึดตำแหน่งสไลด์บันทึกย่อรวมถึงตัวยึดส่วนหัว
 type: docs
-weight: 6510
+weight: 6530
 url: /th/aspose.slides/inotesslideheaderfootermanager/
 ---
 ## INotesSlideHeaderFooterManager อินเทอร์เฟซ
 
-แสดงถึงผู้จัดการที่ควบคุมพฤติกรรมของตัวแสดงตำแหน่งสไลด์โน้ต รวมถึงตัวแสดงตำแหน่งส่วนหัว
+แสดงถึงผู้จัดการที่ควบคุมพฤติกรรมของตัวยึดตำแหน่งสไลด์บันทึกย่อ รวมถึงตัวยึดส่วนหัว
 
 ```csharp
 public interface INotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag

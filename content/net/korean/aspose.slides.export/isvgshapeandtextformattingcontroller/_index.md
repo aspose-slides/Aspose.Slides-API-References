@@ -1,14 +1,14 @@
 ---
 title: ISvgShapeAndTextFormattingController
-second_title: Aspose.Sildes용 .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: SVG 모양 및 텍스트 생성을 제어합니다.
 type: docs
-weight: 4120
+weight: 4140
 url: /ko/aspose.slides.export/isvgshapeandtextformattingcontroller/
 ---
 ## ISvgShapeAndTextFormattingController 인터페이스
 
-SVG 모양과 텍스트 생성을 제어합니다.
+SVG 모양 및 텍스트 생성을 제어합니다.
 
 ```csharp
 public interface ISvgShapeAndTextFormattingController : ISvgShapeFormattingController
@@ -24,11 +24,11 @@ public interface ISvgShapeAndTextFormattingController : ISvgShapeFormattingContr
 
 | 이름 | 설명 |
 | --- | --- |
-| [FormatText](../../aspose.slides.export/isvgshapeandtextformattingcontroller/formattext)(ISvgTSpan, IPortion, ITextFrame) | 이 함수는 텍스트 부분을 SVG로 렌더링하기 전에 호출되어 사용자가 결과 SVG를 제어할 수 있게 합니다. |
+| [FormatText](../../aspose.slides.export/isvgshapeandtextformattingcontroller/formattext)(ISvgTSpan, IPortion, ITextFrame) | 이 함수는 텍스트 부분을 SVG로 렌더링하기 전에 호출되어 사용자가 결과 SVG를 제어할 수 있도록 합니다. |
 
 ### 예제
 
-Example:
+예제:
 
 ```csharp
 [C#]
@@ -63,7 +63,7 @@ class CustomSvgShapeFormattingController : ISvgShapeAndTextFormattingController
 }
 ```
 
-### 참조
+### 참고
 
 * 인터페이스 [ISvgShapeFormattingController](../isvgshapeformattingcontroller)
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)

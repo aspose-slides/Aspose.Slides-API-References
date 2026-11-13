@@ -1,14 +1,14 @@
 ---
 title: CategoryAxisType
-second_title: Aspose.Sildes für .NET API Referenz
-description: Stellt einen Typ einer Kategorieachse dar.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt einen Typ einer Kategorienachse dar.
 type: docs
-weight: 1250
+weight: 1260
 url: /de/aspose.slides.charts/categoryaxistype/
 ---
 ## CategoryAxisType Aufzählung
 
-Stellt einen Typ einer Kategorieachse dar.
+Stellt einen Typ einer Kategorienachse dar.
 
 ```csharp
 public enum CategoryAxisType
@@ -18,8 +18,8 @@ public enum CategoryAxisType
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Text | `0` | Gibt an, dass die Kategorieachse eine Textachse ist. |
-| Date | `1` | Gibt an, dass die Kategorieachse eine Datumsachse ist. |
+| Text | `0` | Gibt an, dass die Kategorienachse eine Textachse ist. |
+| Date | `1` | Gibt an, dass die Kategorienachse eine Datumsachse ist. |
 
 ### Siehe auch
 

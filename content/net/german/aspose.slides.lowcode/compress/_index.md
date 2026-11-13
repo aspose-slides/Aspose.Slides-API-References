@@ -3,10 +3,10 @@ title: Compress
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Gruppe von Methoden dar, die dazu bestimmt sind, Presentation../aspose.slides/presentation zu komprimieren.
 type: docs
-weight: 7870
+weight: 7890
 url: /de/aspose.slides.lowcode/compress/
 ---
-## Compress Klasse
+## Compress-Klasse
 
 Stellt eine Gruppe von Methoden dar, die dazu bestimmt sind, [`Presentation`](../../aspose.slides/presentation) zu komprimieren.
 
@@ -16,9 +16,11 @@ public static class Compress
 
 ## Methoden
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
 | static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | Komprimiert das [`Presentation`](../../aspose.slides/presentation) durch Entfernen nicht verwendeter Zeichen aus eingebetteten Schriftarten. |
+| static [CompressImages](../../aspose.slides.lowcode/compress/compressimages)(IPresentation, PicturesCompression) | Reduziert die Auflösung von Bildern in der Präsentation und löscht deren beschnittene Bereiche, ähnlich wie PowerPoints "Compress Pictures" auf alle Bilder angewendet wird. Bilder auf Folien, Layout-Folien und Master-Folien werden verarbeitet, einschließlich Bilder in Gruppierungen und Bildfüllungen von Formen. |
+| static [CompressPresentation](../../aspose.slides.lowcode/compress/compresspresentation)(Presentation) | Reduziert die Größe einer Präsentation, indem alle verfügbaren Komprimierungsschritte angewendet werden: |
 | static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | Komprimiert das [`Presentation`](../../aspose.slides/presentation) durch Entfernen nicht verwendeter Layout-Folien. |
 | static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | Komprimiert das [`Presentation`](../../aspose.slides/presentation) durch Entfernen nicht verwendeter Master-Folien. |
 

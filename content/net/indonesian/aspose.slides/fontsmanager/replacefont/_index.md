@@ -3,7 +3,7 @@ title: ReplaceFont
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Ganti font dalam presentasi
 type: docs
-weight: 100
+weight: 110
 url: /id/aspose.slides/fontsmanager/replacefont/
 ---
 ## ReplaceFont(IFontData, IFontData) {#replacefont}

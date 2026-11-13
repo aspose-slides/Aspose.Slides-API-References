@@ -3,7 +3,7 @@ title: MathMatrixFactory
 second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Cho phép tạo một ma trận toán học
 type: docs
-weight: 8860
+weight: 8880
 url: /vi/aspose.slides.mathtext/mathmatrixfactory/
 ---
 ## MathMatrixFactory lớp
@@ -14,13 +14,13 @@ Cho phép tạo một ma trận toán học
 public class MathMatrixFactory : IMathMatrixFactory
 ```
 
-## Các hàm tạo
+## Các hàm khởi tạo
 
 | Tên | Mô tả |
 | --- | --- |
-| [MathMatrixFactory](mathmatrixfactory)() | Hàm tạo mặc định. |
+| [MathMatrixFactory](mathmatrixfactory)() | Hàm khởi tạo mặc định. |
 
-## Phương thức
+## Các phương thức
 
 | Tên | Mô tả |
 | --- | --- |

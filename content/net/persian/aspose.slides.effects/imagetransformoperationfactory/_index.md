@@ -1,14 +1,14 @@
 ---
 title: ImageTransformOperationFactory
-second_title: Aspose.Sildes برای .NET مرجع API
-description: امکان ایجاد عملیات تبدیل تصویر را فراهم می‌کند
+second_title: Aspose.Sildes برای مرجع API .NET
+description: اجازه می‌دهد عملیات تبدیل تصویر ایجاد شود
 type: docs
-weight: 3590
+weight: 3610
 url: /fa/aspose.slides.effects/imagetransformoperationfactory/
 ---
-## کلاس ImageTransformOperationFactory
+## ImageTransformOperationFactory کلاس
 
-به شما امکان می‌دهد عملیات تبدیل تصویر ایجاد کنید
+اجازه می‌دهد عملیات تبدیل تصویر را ایجاد کند
 
 ```csharp
 public class ImageTransformOperationFactory : IImageTransformOperationFactory
@@ -18,38 +18,38 @@ public class ImageTransformOperationFactory : IImageTransformOperationFactory
 
 | نام | توضیح |
 | --- | --- |
-| [ImageTransformOperationFactory](imagetransformoperationfactory)() | سازنده پیش‌فرض. |
+| [ImageTransformOperationFactory](imagetransformoperationfactory)() | سازندهٔ پیش‌فرض. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [CreateAlphaBiLevel](../../aspose.slides.effects/imagetransformoperationfactory/createalphabilevel)(float) | یک اثر Alpha BiLevel ایجاد می‌کند. |
-| [CreateAlphaFloor](../../aspose.slides.effects/imagetransformoperationfactory/createalphafloor)() | یک اثر Alpha floor ایجاد می‌کند. |
-| [CreateAlphaInverse](../../aspose.slides.effects/imagetransformoperationfactory/createalphainverse)() | یک اثر Alpha inverse ایجاد می‌کند. |
-| [CreateAlphaModulate](../../aspose.slides.effects/imagetransformoperationfactory/createalphamodulate)() | یک اثر Alpha modulate ایجاد می‌کند. |
-| [CreateAlphaModulateFixed](../../aspose.slides.effects/imagetransformoperationfactory/createalphamodulatefixed)(float) | یک اثر Alpha modulate fixed ایجاد می‌کند. |
-| [CreateAlphaReplace](../../aspose.slides.effects/imagetransformoperationfactory/createalphareplace)(float) | یک اثر Alpha replace ایجاد می‌کند. |
-| [CreateAlphCeiling](../../aspose.slides.effects/imagetransformoperationfactory/createalphceiling)() | یک اثر Alpha Ceiling ایجاد می‌کند. |
-| [CreateBiLevel](../../aspose.slides.effects/imagetransformoperationfactory/createbilevel)(float) | یک اثر BiLevel ایجاد می‌کند. |
-| [CreateBlur](../../aspose.slides.effects/imagetransformoperationfactory/createblur)(double, bool) | یک اثر Blur ایجاد می‌کند. |
-| [CreateColorChange](../../aspose.slides.effects/imagetransformoperationfactory/createcolorchange)() | یک اثر Color change ایجاد می‌کند. |
-| [CreateColorReplace](../../aspose.slides.effects/imagetransformoperationfactory/createcolorreplace)() | یک اثر Color replace ایجاد می‌کند. |
-| [CreateDuotone](../../aspose.slides.effects/imagetransformoperationfactory/createduotone)() | یک اثر Duotone ایجاد می‌کند. |
-| [CreateFillOverlay](../../aspose.slides.effects/imagetransformoperationfactory/createfilloverlay)() | یک اثر Fill overlay ایجاد می‌کند. |
-| [CreateGrayScale](../../aspose.slides.effects/imagetransformoperationfactory/creategrayscale)() | یک اثر Gray scale ایجاد می‌کند. |
-| [CreateHSL](../../aspose.slides.effects/imagetransformoperationfactory/createhsl)(float, float, float) | یک اثر Hue Saturation Luminance ایجاد می‌کند. |
-| [CreateLuminance](../../aspose.slides.effects/imagetransformoperationfactory/createluminance)(float, float) | یک اثر Luminance ایجاد می‌کند. |
-| [CreateTint](../../aspose.slides.effects/imagetransformoperationfactory/createtint)(float, float) | یک اثر Tint ایجاد می‌کند. |
+| [CreateAlphaBiLevel](../../aspose.slides.effects/imagetransformoperationfactory/createalphabilevel)(float) | اثر Alpha BiLevel را ایجاد می‌کند. |
+| [CreateAlphaFloor](../../aspose.slides.effects/imagetransformoperationfactory/createalphafloor)() | اثر Alpha floor را ایجاد می‌کند. |
+| [CreateAlphaInverse](../../aspose.slides.effects/imagetransformoperationfactory/createalphainverse)() | اثر Alpha inverse را ایجاد می‌کند. |
+| [CreateAlphaModulate](../../aspose.slides.effects/imagetransformoperationfactory/createalphamodulate)() | اثر Alpha modulate را ایجاد می‌کند. |
+| [CreateAlphaModulateFixed](../../aspose.slides.effects/imagetransformoperationfactory/createalphamodulatefixed)(float) | اثر Alpha modulate fixed را ایجاد می‌کند. |
+| [CreateAlphaReplace](../../aspose.slides.effects/imagetransformoperationfactory/createalphareplace)(float) | اثر Alpha replace را ایجاد می‌کند. |
+| [CreateAlphCeiling](../../aspose.slides.effects/imagetransformoperationfactory/createalphceiling)() | اثر Alpha Ceiling را ایجاد می‌کند. |
+| [CreateBiLevel](../../aspose.slides.effects/imagetransformoperationfactory/createbilevel)(float) | اثر BiLevel را ایجاد می‌کند. |
+| [CreateBlur](../../aspose.slides.effects/imagetransformoperationfactory/createblur)(double, bool) | اثر Blur را ایجاد می‌کند. |
+| [CreateColorChange](../../aspose.slides.effects/imagetransformoperationfactory/createcolorchange)() | اثر Color change را ایجاد می‌کند. |
+| [CreateColorReplace](../../aspose.slides.effects/imagetransformoperationfactory/createcolorreplace)() | اثر Color replace را ایجاد می‌کند. |
+| [CreateDuotone](../../aspose.slides.effects/imagetransformoperationfactory/createduotone)() | اثر Duotone را ایجاد می‌کند. |
+| [CreateFillOverlay](../../aspose.slides.effects/imagetransformoperationfactory/createfilloverlay)() | اثر Fill overlay را ایجاد می‌کند. |
+| [CreateGrayScale](../../aspose.slides.effects/imagetransformoperationfactory/creategrayscale)() | اثر Gray scale را ایجاد می‌کند. |
+| [CreateHSL](../../aspose.slides.effects/imagetransformoperationfactory/createhsl)(float, float, float) | اثر Hue Saturation Luminance را ایجاد می‌کند. |
+| [CreateLuminance](../../aspose.slides.effects/imagetransformoperationfactory/createluminance)(float, float) | اثر Luminance را ایجاد می‌کند. |
+| [CreateTint](../../aspose.slides.effects/imagetransformoperationfactory/createtint)(float, float) | اثر Tint را ایجاد می‌کند. |
 
 ### ملاحظات
 
 برای سازگاری با COM.
 
-### مراجع
+### موارد مرتبط
 
 * رابط [IImageTransformOperationFactory](../iimagetransformoperationfactory)
 * فضای‌نام [Aspose.Slides.Effects](../../aspose.slides.effects)
-* اسمبلی [Aspose.Slides](../../)
+* مجوعه [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,9 +1,9 @@
 ---
 title: IWarningCallback
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET – referenční dokumentace API
 description: Rozhraní pro třídy, které přijímají varování
 type: docs
-weight: 11800
+weight: 11820
 url: /cs/aspose.slides.warnings/iwarningcallback/
 ---
 ## IWarningCallback rozhraní

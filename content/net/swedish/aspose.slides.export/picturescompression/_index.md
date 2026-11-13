@@ -3,10 +3,10 @@ title: PicturesCompression
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar bildkomprimeringsnivån
 type: docs
-weight: 4350
+weight: 4370
 url: /sv/aspose.slides.export/picturescompression/
 ---
-## PicturesCompression uppräkning
+## PicturesCompression-enumeration
 
 Representerar bildkomprimeringsnivån
 
@@ -18,10 +18,10 @@ public enum PicturesCompression
 
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Dpi330 | `0` | God kvalitet för högupplösta (HD) skärmar |
+| Dpi330 | `0` | God kvalitet för högupplösta (HD) bildskärmar |
 | Dpi220 | `1` | Utmärkt kvalitet på de flesta skrivare och skärmar |
 | Dpi150 | `2` | Bra för webbsidor och projektorer |
-| Dpi96 | `3` | Minimera dokumentstorleken för delning |
+| Dpi96 | `3` | Minska dokumentstorleken för delning |
 | Dpi72 | `4` | Standardkomprimeringsnivå |
 | DocumentResolution | `5` | Använd dokumentupplösning - bilden komprimeras inte och används i dokumentet som den är |
 

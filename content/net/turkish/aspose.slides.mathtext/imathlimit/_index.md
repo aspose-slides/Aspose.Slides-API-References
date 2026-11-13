@@ -1,14 +1,14 @@
 ---
 title: IMathLimit
-second_title: Aspose.Sildes için .NET API Referansı
-description: Alt çizgi üzerindeki metin ve hemen üstünde veya altında bulunan küçültülmüş metinden oluşan Limit nesnesini belirtir.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Temel çizgi üzerindeki metin ve hemen üstünde ya da altında bulunan küçültülmüş boyutlu metinden oluşan Limit nesnesini belirtir.
 type: docs
-weight: 8320
+weight: 8340
 url: /tr/aspose.slides.mathtext/imathlimit/
 ---
-## IMathLimit arayüz
+## IMathLimit arayüzü
 
-Alt çizgi üzerindeki metin ve hemen üstünde veya altında bulunan küçültülmüş metinden oluşan Limit nesnesini belirtir.
+Limit nesnesini belirtir; bu nesne temel çizgi üzerindeki metin ve hemen üstünde ya da altında bulunan küçültülmüş boyutlu metinden oluşur.
 
 ```csharp
 public interface IMathLimit : IMathElement
@@ -16,9 +16,9 @@ public interface IMathLimit : IMathElement
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathlimit/asimathelement) { get; } | Temel IMathElement arayüzünü almayı sağlar [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathlimit/asimathelement) { get; } | Temel IMathElement arayüzünü [`IMathElement`](../imathelement) almayı sağlar |
 | [Base](../../aspose.slides.mathtext/imathlimit/base) { get; } | Temel argüman |
 | [Limit](../../aspose.slides.mathtext/imathlimit/limit) { get; } | Limit argümanı |
 | [UpperLimit](../../aspose.slides.mathtext/imathlimit/upperlimit) { get; set; } | Üst veya alt limiti belirtir |
@@ -32,7 +32,7 @@ public interface IMathLimit : IMathElement
 IMathLimit limitElement = new MathLimit(new MathematicalText("lim"), new MathematicalText("𝑛→∞"));
 ```
 
-### Bakınız
+### Diğer Bölümler
 
 * arayüz [IMathElement](../imathelement)
 * ad alanı [Aspose.Slides.MathText](../../aspose.slides.mathtext)

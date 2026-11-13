@@ -1,14 +1,14 @@
 ---
 title: DigitalSignatureCollection
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Biểu diễn một tập hợp các chữ ký số được đính kèm vào tài liệu.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đại diện cho một tập hợp các chữ ký số được gắn vào tài liệu.
 type: docs
-weight: 2780
+weight: 2800
 url: /vi/aspose.slides/digitalsignaturecollection/
 ---
 ## DigitalSignatureCollection lớp
 
-Biểu diễn một tập hợp các chữ ký số được đính kèm vào tài liệu.
+Đại diện cho một tập hợp các chữ ký số được gắn vào tài liệu.
 
 ```csharp
 public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSignatureCollection
@@ -18,19 +18,19 @@ public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSigna
 
 | Tên | Mô tả |
 | --- | --- |
-| [Count](../../aspose.slides/digitalsignaturecollection/count) { get; } | Trả về số lượng phần tử trong bộ sưu tập. Chỉ đọc Int32. |
-| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | Trả về giá trị cho biết việc truy cập bộ sưu tập có được đồng bộ (an toàn đa luồng) hay không. Chỉ đọc Boolean. |
+| [Count](../../aspose.slides/digitalsignaturecollection/count) { get; } | Trả về số lượng phần tử trong tập hợp. Chỉ đọc Int32. |
+| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | Trả về giá trị cho biết việc truy cập vào tập hợp có được đồng bộ hoá (thread-safe) hay không. Chỉ đọc Boolean. |
 | [Item](../../aspose.slides/digitalsignaturecollection/item) { get; } | Trả về chữ ký theo chỉ mục. |
-| [SyncRoot](../../aspose.slides/digitalsignaturecollection/syncroot) { get; } | Trả về gốc đồng bộ. Chỉ đọc Object. |
+| [SyncRoot](../../aspose.slides/digitalsignaturecollection/syncroot) { get; } | Trả về một gốc đồng bộ hoá. Chỉ đọc Object. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [Add](../../aspose.slides/digitalsignaturecollection/add)(IDigitalSignature) | Thêm chữ ký vào cuối bộ sưu tập. |
-| [Clear](../../aspose.slides/digitalsignaturecollection/clear)() | Xóa tất cả các chữ ký khỏi bộ sưu tập. |
-| [CopyTo](../../aspose.slides/digitalsignaturecollection/copyto)(Array, int) | Sao chép tất cả các phần tử từ bộ sưu tập vào mảng được chỉ định. |
-| [GetEnumerator](../../aspose.slides/digitalsignaturecollection/getenumerator)() | Trả về một enumerator cho phép duyệt qua bộ sưu tập. |
+| [Add](../../aspose.slides/digitalsignaturecollection/add)(IDigitalSignature) | Thêm chữ ký vào cuối tập hợp. |
+| [Clear](../../aspose.slides/digitalsignaturecollection/clear)() | Xóa mọi chữ ký khỏi tập hợp. |
+| [CopyTo](../../aspose.slides/digitalsignaturecollection/copyto)(Array, int) | Sao chép tất cả các phần tử từ tập hợp vào mảng được chỉ định. |
+| [GetEnumerator](../../aspose.slides/digitalsignaturecollection/getenumerator)() | Trả về một enumerator cho phép duyệt qua tập hợp. |
 | [RemoveAt](../../aspose.slides/digitalsignaturecollection/removeat)(int) | Xóa chữ ký tại chỉ mục được chỉ định. |
 
 ### Xem thêm

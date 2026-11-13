@@ -1,14 +1,14 @@
 ---
 title: ISlideComponent
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili komponen sebuah slide.
+description: Mewakili komponen dari sebuah slide.
 type: docs
-weight: 7060
+weight: 7080
 url: /id/aspose.slides/islidecomponent/
 ---
 ## ISlideComponent antarmuka
 
-Mewakili komponen sebuah slide.
+Represents a component of a slide.
 
 ```csharp
 public interface ISlideComponent : IPresentationComponent
@@ -18,7 +18,7 @@ public interface ISlideComponent : IPresentationComponent
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/islidecomponent/asipresentationcomponent) { get; } | Memungkinkan untuk mengambil antarmuka IPresentationComponent dasar. Hanya-baca [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/islidecomponent/asipresentationcomponent) { get; } | Memungkinkan mendapatkan antarmuka dasar IPresentationComponent. Hanya-baca [`IPresentationComponent`](../ipresentationcomponent). |
 | [Slide](../../aspose.slides/islidecomponent/slide) { get; } | Mengembalikan slide dasar. Hanya-baca [`IBaseSlide`](../ibaseslide). |
 
 ### Lihat Juga

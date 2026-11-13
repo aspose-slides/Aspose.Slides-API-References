@@ -1,14 +1,14 @@
 ---
 title: IsBubble3D
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: निर्दिष्ट करता है कि बुलबुलों पर 3-D प्रभाव लागू किया गया है। Read/write Boolean.
+description: निर्दिष्ट करता है कि बबल्स पर 3-D प्रभाव लागू किया गया है। पढ़ें/लिखें Boolean.
 type: docs
-weight: 100
+weight: 140
 url: /hi/aspose.slides.charts/ichartdatapoint/isbubble3d/
 ---
 ## IChartDataPoint.IsBubble3D प्रॉपर्टी
 
-निर्दिष्ट करता है कि बुलबुले पर 3-D प्रभाव लागू किया गया है। पढ़ें/लिखें Boolean.
+निर्दिष्ट करता है कि बबल्स पर 3-D प्रभाव लागू किया गया है। पढ़ें/लिखें Boolean.
 
 ```csharp
 public bool IsBubble3D { get; set; }

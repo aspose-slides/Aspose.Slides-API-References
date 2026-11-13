@@ -1,14 +1,14 @@
 ---
 title: WheelTransition
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Efecto de transición de diapositiva de rueda.
+description: Efecto de transición de rueda deslizante.
 type: docs
-weight: 10470
+weight: 10490
 url: /es/aspose.slides.slideshow/wheeltransition/
 ---
 ## WheelTransition clase
 
-Efecto de transición de diapositiva de rueda.
+Efecto de transición de rueda.
 
 ```csharp
 public class WheelTransition : TransitionValueBase, IWheelTransition
@@ -25,9 +25,9 @@ public class WheelTransition : TransitionValueBase, IWheelTransition
 | Nombre | Descripción |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina si las dos instancias de TransitionValueBase son iguales. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funciona como una función hash para un tipo particular, adecuada para su uso en algoritmos de hash y estructuras de datos como una tabla hash. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Sirve como función hash para un tipo particular, adecuada para su uso en algoritmos de hash y estructuras de datos como una tabla hash. |
 
-### Véase también
+### Ver también
 
 * clase [TransitionValueBase](../transitionvaluebase)
 * interfaz [IWheelTransition](../iwheeltransition)

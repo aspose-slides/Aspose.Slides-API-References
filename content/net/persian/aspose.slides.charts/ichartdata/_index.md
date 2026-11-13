@@ -1,48 +1,49 @@
 ---
 title: IChartData
-second_title: Aspose.Sildes برای مرجع API .NET
-description: داده‌هایی را که برای رسم نمودار استفاده می‌شود، نمایندگی می‌کند.
+second_title: Aspose.Sildes برای .NET مرجع API
+description: داده‌های مورد استفاده برای رسم نمودار را نمایندگی می‌کند.
 type: docs
-weight: 1800
+weight: 1820
 url: /fa/aspose.slides.charts/ichartdata/
 ---
 ## IChartData رابط
 
-Represents data used for a chart plotting.
+داده‌های مورد استفاده برای رسم نمودار را نمایندگی می‌کند.
 
 ```csharp
 public interface IChartData
 ```
 
-## ویژگی‌ها
+## خواص
 
-| نام | توضیح |
+| Name | Description |
 | --- | --- |
-| [Categories](../../aspose.slides.charts/ichartdata/categories) { get; } | دریافت دسته‌های اصلی (یا هر دو دسته اصلی و ثانویه اگر ویژگی [`UseSecondaryCategories`](./usesecondarycategories) برابر false باشد). فقط-خواندنی [`IChartCategoryCollection`](../ichartcategorycollection). |
-| [ChartDataWorkbook](../../aspose.slides.charts/ichartdata/chartdataworkbook) { get; } | کارخانهٔ سلول‌ها را برای ایجاد سلول‌های مورد استفاده در سری‌های نمودار یا دسته‌ها دریافت می‌کند. فقط-خواندنی [`IChartDataWorkbook`](../ichartdataworkbook). |
-| [DataSourceType](../../aspose.slides.charts/ichartdata/datasourcetype) { get; } | منبع دادهٔ نمودار را نمایندگی می‌کند. |
-| [EmbeddedWorkbookType](../../aspose.slides.charts/ichartdata/embeddedworkbooktype) { get; } | نوع کتاب کار جاسازی‌شده را دریافت می‌کند. اگر [`DataSourceType`](./datasourcetype) برابر با ExternalWorkbook باشد، NotDefined باز می‌گردد. فقط-خواندنی [`WorkbookType`](../workbooktype). |
-| [ExternalWorkbookPath](../../aspose.slides.charts/ichartdata/externalworkbookpath) { get; } | مسیر کتاب کار خارجی را اگر منبع داده خارجی باشد، نمایندگی می‌کند؛ در غیر این صورت مقدار null دارد. |
-| [SecondaryCategories](../../aspose.slides.charts/ichartdata/secondarycategories) { get; } | دریافت دسته‌های ثانویه اگر ویژگی [`UseSecondaryCategories`](./usesecondarycategories) برابر true باشد. فقط-خواندنی [`IChartCategoryCollection`](../ichartcategorycollection). |
-| [Series](../../aspose.slides.charts/ichartdata/series) { get; } | سری‌ها را دریافت می‌کند. فقط-خواندنی [`IChartSeriesCollection`](../ichartseriescollection). |
-| [SeriesGroups](../../aspose.slides.charts/ichartdata/seriesgroups) { get; } | گروه‌های سری‌ها را دریافت می‌کند. فقط-خواندنی [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection). |
-| [UseSecondaryCategories](../../aspose.slides.charts/ichartdata/usesecondarycategories) { get; set; } | اگر false باشد، ویژگی [`SecondaryCategories`](./secondarycategories) مقدار null باز می‌گرداند و داده‌های موجود در ویژگی [`Categories`](./categories) برای هر دو سری اصلی و ثانویه استفاده می‌شود. اگر true باشد، داده‌های موجود در ویژگی [`SecondaryCategories`](./secondarycategories) برای سری‌های ثانویه و داده‌های موجود در ویژگی [`Categories`](./categories) برای سری‌های اصلی استفاده می‌شود. قابل خواندن/نوشتن Boolean. |
+| [Categories](../../aspose.slides.charts/ichartdata/categories) { get; } | دسته‌های اصلی را دریافت می‌کند (یا هر دو دستهٔ اصلی و فرعی اگر ویژگی [`UseSecondaryCategories`](./usesecondarycategories) نادرست باشد). فقط‌خواندنی [`IChartCategoryCollection`](../ichartcategorycollection). |
+| [ChartDataWorkbook](../../aspose.slides.charts/ichartdata/chartdataworkbook) { get; } | کارخانهٔ سلول‌ها را برای ایجاد سلول‌های مورد استفاده در سری یا دسته‌های نمودار دریافت می‌کند. فقط‌خواندنی [`IChartDataWorkbook`](../ichartdataworkbook). |
+| [DataSourceType](../../aspose.slides.charts/ichartdata/datasourcetype) { get; } | منبع دادهٔ نمودار را نمایندگی می‌کند |
+| [EmbeddedWorkbookType](../../aspose.slides.charts/ichartdata/embeddedworkbooktype) { get; } | نوع کتاب‌کار توکار را دریافت می‌کند. اگر [`DataSourceType`](./datasourcetype) برابر ExternalWorkbook باشد، مقدار NotDefined باز می‌گردد. فقط‌خواندنی [`WorkbookType`](../workbooktype). |
+| [ExternalWorkbookPath](../../aspose.slides.charts/ichartdata/externalworkbookpath) { get; } | مسیر کتاب‌کار خارجی را نمایندگی می‌کند اگر منبع داده خارجی باشد، در غیر این صورت مقدار null است |
+| [SecondaryCategories](../../aspose.slides.charts/ichartdata/secondarycategories) { get; } | دسته‌های ثانویه را دریافت می‌کند اگر ویژگی [`UseSecondaryCategories`](./usesecondarycategories) true باشد. فقط‌خواندنی [`IChartCategoryCollection`](../ichartcategorycollection). |
+| [Series](../../aspose.slides.charts/ichartdata/series) { get; } | سری‌ها را دریافت می‌کند. فقط‌خواندنی [`IChartSeriesCollection`](../ichartseriescollection). |
+| [SeriesGroups](../../aspose.slides.charts/ichartdata/seriesgroups) { get; } | گروه‌های سری‌ها را دریافت می‌کند. فقط‌خواندنی [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection). |
+| [UseSecondaryCategories](../../aspose.slides.charts/ichartdata/usesecondarycategories) { get; set; } | اگر false باشد ویژگی [`SecondaryCategories`](./secondarycategories) مقدار null برمی‌گرداند و داده در ویژگی [`Categories`](./categories) برای سری‌های اصلی و فرعی استفاده می‌شود. اگر true باشد داده در ویژگی [`SecondaryCategories`](./secondarycategories) برای سری‌های فرعی و داده در ویژگی [`Categories`](./categories) برای سری‌های اصلی استفاده می‌شود. خواندنی/نوشتنی Boolean. |
 
 ## متدها
 
-| نام | توضیح |
+| Name | Description |
 | --- | --- |
-| [GetRange](../../aspose.slides.charts/ichartdata/getrange)() | بازهٔ دادهٔ نمودار را دریافت می‌کند. |
-| [ReadWorkbookStream](../../aspose.slides.charts/ichartdata/readworkbookstream)() | کتاب کار داخلی Excel را در یک جریان حافظه‌ای می‌نویسد. |
-| [SetExternalWorkbook](../../aspose.slides.charts/ichartdata/setexternalworkbook#setexternalworkbook)(string) | کتاب کار خارجی را به عنوان منبع داده برای نمودار تنظیم می‌کند. داده‌های نمودار از کتاب کار هدف به‌روز می‌شوند. |
-| [SetExternalWorkbook](../../aspose.slides.charts/ichartdata/setexternalworkbook#setexternalworkbook_1)(string, bool) | کتاب کار خارجی را به عنوان منبع داده برای نمودار تنظیم می‌کند. |
-| [SetRange](../../aspose.slides.charts/ichartdata/setrange)(string) | بازهٔ دادهٔ نمودار را تنظیم می‌کند. سری‌ها و دسته‌ها بر اساس بازهٔ دادهٔ جدید به‌روز می‌شوند. اگر تعداد سری‌های موجود در بازهٔ داده بیشتر از تعداد سری‌های دادهٔ نمودار باشد، سری‌های اضافی با همان نوع سری آخر در مجموعهٔ فعلی به انتهای مجموعه اضافه می‌شوند. |
-| [SwitchRowColumn](../../aspose.slides.charts/ichartdata/switchrowcolumn)() | داده‌ها را بر روی محورها جابجا می‌کند. داده‌هایی که بر محور X نمودار شده‌اند به محور Y منتقل می‌شوند و بالعکس. |
-| [WriteWorkbookStream](../../aspose.slides.charts/ichartdata/writeworkbookstream)(MemoryStream) | کتاب کار داخلی Excel را با مقدار مشخص‌شده توسط کاربر مقداردهی اولیه می‌کند. |
+| [GetRange](../../aspose.slides.charts/ichartdata/getrange)() | محدودهٔ داده‌های نمودار را دریافت می‌کند. |
+| [ReadWorkbookStream](../../aspose.slides.charts/ichartdata/readworkbookstream)() | کتاب‌کار داخلی Excel را در یک جریان درون‌حافظه‌ای می‌نویسد. |
+| [RefreshData](../../aspose.slides.charts/ichartdata/refreshdata)() | داده‌های نمودار را با بارگذاری مجدد از کتاب‌کار منبع تازه‌سازی می‌کند. |
+| [SetExternalWorkbook](../../aspose.slides.charts/ichartdata/setexternalworkbook#setexternalworkbook)(string) | کتاب‌کار خارجی را به عنوان منبع داده برای نمودار تنظیم می‌کند. داده‌های نمودار از کتاب‌کار هدف به‌روزرسانی می‌شوند. |
+| [SetExternalWorkbook](../../aspose.slides.charts/ichartdata/setexternalworkbook#setexternalworkbook_1)(string, bool) | کتاب‌کار خارجی را به عنوان منبع داده برای نمودار تنظیم می‌کند. |
+| [SetRange](../../aspose.slides.charts/ichartdata/setrange)(string) | محدودهٔ داده‌های نمودار را تنظیم می‌کند. سری‌ها و دسته‌ها بر اساس محدودهٔ جدید به‌روزرسانی می‌شوند. اگر تعداد سری‌ها در محدودهٔ داده بیشتر از تعداد سری‌های موجود باشد، سری‌های اضافی با همان نوع سری آخر در مجموعهٔ جاری به انتهای مجموعه افزوده می‌شوند. |
+| [SwitchRowColumn](../../aspose.slides.charts/ichartdata/switchrowcolumn)() | داده‌ها را بر روی محور جابه‌جا می‌کند. داده‌های رسم‌شده بر محور X به محور Y منتقل می‌شوند و بالعکس. |
+| [WriteWorkbookStream](../../aspose.slides.charts/ichartdata/writeworkbookstream)(MemoryStream) | کتاب‌کار داخلی Excel را با مقدار مشخص‌شده توسط کاربر مقداردهی اولیه می‌کند. |
 
-### موارد مرتبط
+### مراجع
 
 * فضای‌نام [Aspose.Slides.Charts](../../aspose.slides.charts)
-* مجوعه [Aspose.Slides](../../)
+* مجمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

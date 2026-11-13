@@ -1,14 +1,14 @@
 ---
 title: IFontSubstRuleCollection
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Biểu thị bộ sưu tập các phép thay thế phông chữ.
+second_title: Aspose.Sildes cho .NET API Reference
+description: Biểu diễn bộ sưu tập các thay thế phông chữ.
 type: docs
-weight: 5890
+weight: 5910
 url: /vi/aspose.slides/ifontsubstrulecollection/
 ---
 ## IFontSubstRuleCollection giao diện
 
-Biểu thị bộ sưu tập các phép thay thế phông chữ.
+Biểu diễn bộ sưu tập các thay thế phông chữ.
 
 ```csharp
 public interface IFontSubstRuleCollection : IGenericCollection<IFontSubstRule>
@@ -18,7 +18,7 @@ public interface IFontSubstRuleCollection : IGenericCollection<IFontSubstRule>
 
 | Tên | Mô tả |
 | --- | --- |
-| [Item](../../aspose.slides/ifontsubstrulecollection/item) { get; } | Lấy phần tử tại chỉ mục được chỉ định. |
+| [Item](../../aspose.slides/ifontsubstrulecollection/item) { get; } | Lấy phần tử tại chỉ mục đã chỉ định. |
 
 ## Phương thức
 

@@ -1,14 +1,14 @@
 ---
 title: IFillFormat
-second_title: "Aspose.Sildes для .NET: справочник API"
+second_title: Aspose.Sildes для .NET API справочник
 description: Представляет параметры форматирования заливки.
 type: docs
-weight: 5790
+weight: 5810
 url: /ru/aspose.slides/ifillformat/
 ---
 ## IFillFormat интерфейс
 
-Представляет параметры заливки.
+Представляет параметры форматирования заливки.
 
 ```csharp
 public interface IFillFormat : IFillParamSource
@@ -19,18 +19,18 @@ public interface IFillFormat : IFillParamSource
 | Имя | Описание |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ifillformat/asifillparamsource) { get; } | Позволяет получить базовый интерфейс IFillParamSource. Только для чтения [`IFillParamSource`](../ifillparamsource). |
-| [FillType](../../aspose.slides/ifillformat/filltype) { get; set; } | Возвращает или задает тип заливки. Чтение/запись [`FillType`](../filltype). |
+| [FillType](../../aspose.slides/ifillformat/filltype) { get; set; } | Возвращает или задаёт тип заливки. Чтение/запись [`FillType`](../filltype). |
 | [GradientFormat](../../aspose.slides/ifillformat/gradientformat) { get; } | Возвращает формат градиентной заливки. Только для чтения [`IGradientFormat`](../igradientformat). |
 | [PatternFormat](../../aspose.slides/ifillformat/patternformat) { get; } | Возвращает формат узорчатой заливки. Только для чтения [`IPatternFormat`](../ipatternformat). |
 | [PictureFillFormat](../../aspose.slides/ifillformat/picturefillformat) { get; } | Возвращает формат заливки изображением. Только для чтения [`IPictureFillFormat`](../ipicturefillformat). |
-| [RotateWithShape](../../aspose.slides/ifillformat/rotatewithshape) { get; set; } | Определяет, следует ли вращать заливку вместе с фигурой. Чтение/запись [`NullableBool`](../nullablebool). |
+| [RotateWithShape](../../aspose.slides/ifillformat/rotatewithshape) { get; set; } | Определяет, должна ли заливка вращаться вместе с фигурой. Чтение/запись [`NullableBool`](../nullablebool). |
 | [SolidFillColor](../../aspose.slides/ifillformat/solidfillcolor) { get; } | Возвращает цвет заливки. Только для чтения [`IColorFormat`](../icolorformat). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetEffective](../../aspose.slides/ifillformat/geteffective)() | Получает эффективные данные форматирования заливки с учётом наследования. |
+| [GetEffective](../../aspose.slides/ifillformat/geteffective)() | Получает эффективные данные форматирования заливки с применённым наследованием. |
 
 ### См. также
 

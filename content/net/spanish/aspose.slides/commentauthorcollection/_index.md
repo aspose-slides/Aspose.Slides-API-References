@@ -1,9 +1,9 @@
 ---
 title: CommentAuthorCollection
-second_title: Referencia de la API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una colección de autores de comentarios.
 type: docs
-weight: 2640
+weight: 2660
 url: /es/aspose.slides/commentauthorcollection/
 ---
 ## CommentAuthorCollection clase
@@ -27,7 +27,7 @@ public sealed class CommentAuthorCollection : DomObject<Presentation>, ICommentA
 
 | Nombre | Descripción |
 | --- | --- |
-| [AddAuthor](../../aspose.slides/commentauthorcollection/addauthor)(string, string) | Añade un nuevo autor al final de una colección. |
+| [AddAuthor](../../aspose.slides/commentauthorcollection/addauthor)(string, string) | Agrega un nuevo autor al final de una colección. |
 | [Clear](../../aspose.slides/commentauthorcollection/clear)() | Elimina todos los autores de una colección. |
 | [CopyTo](../../aspose.slides/commentauthorcollection/copyto)(Array, int) | Copia todos los elementos de la colección al array especificado. |
 | [FindByName](../../aspose.slides/commentauthorcollection/findbyname)(string) | Busca un autor en una colección por nombre. |

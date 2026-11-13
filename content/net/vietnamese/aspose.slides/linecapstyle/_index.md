@@ -1,14 +1,14 @@
 ---
 title: LineCapStyle
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn kiểu đầu dòng.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Mô tả kiểu đầu dòng.
 type: docs
-weight: 7760
+weight: 7780
 url: /vi/aspose.slides/linecapstyle/
 ---
 ## LineCapStyle liệt kê
 
-Biểu diễn kiểu đầu dòng.
+Mô tả kiểu đầu dòng.
 
 ```csharp
 public enum LineCapStyle : sbyte

@@ -1,14 +1,14 @@
 ---
 title: IBaseSlideHeaderFooterManager
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Biểu diễn bộ quản lý giữ hành vi của các placeholder chân trang, ngày-giờ, số trang cho tất cả các loại slide.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đại diện cho trình quản lý giữ hành vi của các trình giữ chỗ footer, ngày giờ, số trang cho tất cả các loại slide.
 type: docs
-weight: 5350
+weight: 5370
 url: /vi/aspose.slides/ibaseslideheaderfootermanager/
 ---
 ## IBaseSlideHeaderFooterManager giao diện
 
-Biểu diễn bộ quản lý giữ hành vi của các placeholder chân trang, ngày-giờ, số trang cho tất cả các loại slide.
+Đại diện cho trình quản lý giữ hành vi của các trình giữ chỗ footer, ngày giờ, số trang cho tất cả các loại slide.
 
 ```csharp
 public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
@@ -16,22 +16,22 @@ public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
 
 ## Thuộc tính
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
 | [AsIBaseHeaderFooterManager](../../aspose.slides/ibaseslideheaderfootermanager/asibaseheaderfootermanager) { get; } | Trả về giao diện IBaseHeaderFooterManager. |
-| [IsDateTimeVisible](../../aspose.slides/ibaseslideheaderfootermanager/isdatetimevisible) { get; } | Lấy giá trị cho biết một placeholder ngày-giờ có mặt. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/ibaseslideheaderfootermanager/isfootervisible) { get; } | Lấy giá trị cho biết một placeholder chân trang có mặt. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/ibaseslideheaderfootermanager/isslidenumbervisible) { get; } | Lấy giá trị cho biết một placeholder số trang có mặt. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/ibaseslideheaderfootermanager/isdatetimevisible) { get; } | Lấy giá trị cho biết rằng một trình giữ chỗ ngày giờ có mặt. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/ibaseslideheaderfootermanager/isfootervisible) { get; } | Lấy giá trị cho biết rằng một trình giữ chỗ footer có mặt. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/ibaseslideheaderfootermanager/isslidenumbervisible) { get; } | Lấy giá trị cho biết rằng một trình giữ chỗ số trang có mặt. ReadBoolean. |
 
 ## Phương thức
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimetext)(string) | Đặt văn bản vào placeholder ngày-giờ của slide. |
-| [SetDateTimeVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimevisibility)(bool) | Thay đổi khả năng hiển thị của placeholder ngày-giờ trên slide. |
-| [SetFooterText](../../aspose.slides/ibaseslideheaderfootermanager/setfootertext)(string) | Đặt văn bản vào placeholder chân trang của slide. |
-| [SetFooterVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setfootervisibility)(bool) | Thay đổi khả năng hiển thị của placeholder chân trang trên slide. |
-| [SetSlideNumberVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setslidenumbervisibility)(bool) | Thay đổi khả năng hiển thị của placeholder số trang trên slide. |
+| [SetDateTimeText](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimetext)(string) | Đặt văn bản cho trình giữ chỗ ngày giờ của slide. |
+| [SetDateTimeVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimevisibility)(bool) | Thay đổi khả năng hiển thị của trình giữ chỗ ngày giờ trên slide. |
+| [SetFooterText](../../aspose.slides/ibaseslideheaderfootermanager/setfootertext)(string) | Đặt văn bản cho trình giữ chỗ footer của slide. |
+| [SetFooterVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setfootervisibility)(bool) | Thay đổi khả năng hiển thị của trình giữ chỗ footer trên slide. |
+| [SetSlideNumberVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setslidenumbervisibility)(bool) | Thay đổi khả năng hiển thị của trình giữ chỗ số trang trên slide. |
 
 ### Xem thêm
 

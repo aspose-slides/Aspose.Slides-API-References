@@ -1,12 +1,12 @@
 ---
 title: PPImage
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para la referencia de API de .NET
 description: Representa una imagen en una presentación.
 type: docs
-weight: 9250
+weight: 9270
 url: /es/aspose.slides/ppimage/
 ---
-## PPImage clase
+## clase PPImage
 
 Representa una imagen en una presentación.
 
@@ -31,11 +31,11 @@ public class PPImage : IDisposable, IPPImage
 
 | Nombre | Descripción |
 | --- | --- |
-| [Dispose](../../aspose.slides/ppimage/dispose)() | Libera el objeto. |
+| [Dispose](../../aspose.slides/ppimage/dispose)() | Descarta el objeto. |
 | override [GetHashCode](../../aspose.slides/ppimage/gethashcode)() | Devuelve el código hash de una imagen. |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_2)(byte[]) | Reemplaza los datos de la imagen. Los datos de la nueva imagen. Cuando el parámetro newImageData es nulo. |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage)(IImage) | Reemplaza los datos de la imagen. Atención: cuando Image es metafile, se rasterizará. Use ReplaceImage(byte[]) en su lugar La nueva imagen. Cuando el parámetro newImage es nulo. |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_1)(IPPImage) | Reemplaza los datos de la imagen. El nuevo IPPImage. Cuando el parámetro newImage es nulo. |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_2)(byte[]) | Reemplaza los datos de la imagen. Los datos de la nueva imagen.Cuando el parámetro newImageData es nulo. |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage)(IImage) | Reemplaza los datos de la imagen. Atención: cuando Image es metafile - se rasterizará. Use ReplaceImage(byte[]) instead La nueva imagen.Cuando el parámetro newImage es nulo. |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_1)(IPPImage) | Reemplaza los datos de la imagen. El nuevo IPPImage.Cuando el parámetro newImage es nulo. |
 
 ### Ver también
 

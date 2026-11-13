@@ -1,12 +1,12 @@
 ---
 title: ColorSchemeIndex
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
+second_title: Odwołanie API Aspose.Sildes dla .NET
 description: Reprezentuje indeks w schemacie kolorów.
 type: docs
-weight: 2550
+weight: 2570
 url: /pl/aspose.slides/colorschemeindex/
 ---
-## ColorSchemeIndex wyliczenie
+## Wyliczenie ColorSchemeIndex
 
 Reprezentuje indeks w schemacie kolorów.
 
@@ -28,8 +28,8 @@ public enum ColorSchemeIndex : byte
 | Accent4 | `7` | Akcent 4. |
 | Accent5 | `8` | Akcent 5. |
 | Accent6 | `9` | Akcent 6. |
-| Hyperlink | `10` | Hiperłącze. |
-| FollowedHyperlink | `11` | Śledzone hiperłącze. |
+| Hyperlink | `10` | Odnośnik. |
+| FollowedHyperlink | `11` | Odwiedzony odnośnik. |
 
 ### Zobacz także
 

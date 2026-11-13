@@ -1,24 +1,24 @@
 ---
 title: ISvgShapeFormattingController
-second_title: Aspose.Sildes .NET API Referansı
-description: SVG şekil oluşturulmasını kontrol eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: SVG şekil oluşturmayı kontrol eder.
 type: docs
-weight: 4130
+weight: 4150
 url: /tr/aspose.slides.export/isvgshapeformattingcontroller/
 ---
-## ISvgShapeFormattingController arayüz
+## ISvgShapeFormattingController arayüzü
 
-SVG şekil oluşturma işlemini kontrol eder.
+SVG şekil oluşturmayı kontrol eder.
 
 ```csharp
 public interface ISvgShapeFormattingController
 ```
 
-## Metodlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [FormatShape](../../aspose.slides.export/isvgshapeformattingcontroller/formatshape)(ISvgShape, IShape) | Bu fonksiyon, şeklin SVG'ye render edilmesinden önce çağrılır ve kullanıcının ortaya çıkan SVG'yi kontrol etmesine izin verir. |
+| [FormatShape](../../aspose.slides.export/isvgshapeformattingcontroller/formatshape)(ISvgShape, IShape) | Bu işlev, şeklin SVG'ye çizilmesinden önce çağrılır ve kullanıcının ortaya çıkan SVG'yi kontrol etmesine olanak tanır. |
 
 ### Ayrıca Bakınız
 

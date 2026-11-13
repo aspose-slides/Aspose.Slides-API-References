@@ -1,9 +1,9 @@
 ---
 title: IMathArray
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para la referencia de API de .NET
 description: Especifica una matriz vertical de ecuaciones o cualquier objeto matemático
 type: docs
-weight: 8100
+weight: 8120
 url: /es/aspose.slides.mathtext/imatharray/
 ---
 ## IMathArray interfaz
@@ -20,10 +20,10 @@ public interface IMathArray : IMathElement
 | --- | --- |
 | [Arguments](../../aspose.slides.mathtext/imatharray/arguments) { get; } | El conjunto de elementos de la matriz |
 | [AsIMathElement](../../aspose.slides.mathtext/imatharray/asimathelement) { get; } | Permite obtener la interfaz base IMathElement [`IMathElement`](../imathelement) |
-| [BaseJustification](../../aspose.slides.mathtext/imatharray/basejustification) { get; set; } | Especifica la alineación de la matriz con respecto al texto circundante. El texto fuera de la matriz puede alinearse con la parte inferior, superior o centrada de un objeto de matriz. Valor predeterminado: Center |
-| [MaximumDistribution](../../aspose.slides.mathtext/imatharray/maximumdistribution) { get; set; } | Distribución máxima. Cuando es true, la matriz se extiende al ancho máximo del elemento contenedor (página, columna, celda, etc.). |
-| [ObjectDistribution](../../aspose.slides.mathtext/imatharray/objectdistribution) { get; set; } | Distribución de objeto. Cuando es true, el contenido de la matriz se extiende al ancho máximo del objeto matriz. |
-| [RowSpacing](../../aspose.slides.mathtext/imatharray/rowspacing) { get; set; } | Espaciado entre filas de una matriz. Se usa solo cuando RowSpacingRule está configurado en 3 Exactly, caso en el que la unidad de medida son puntos, o en Multiple, caso en el que la unidad de medida son medias líneas. Predeterminado: 0 |
+| [BaseJustification](../../aspose.slides.mathtext/imatharray/basejustification) { get; set; } | Especifica la alineación de la matriz con respecto al texto circundante. El texto fuera de la matriz puede alinearse con la parte inferior, superior o el centro de un objeto de matriz. Valor predeterminado: Center |
+| [MaximumDistribution](../../aspose.slides.mathtext/imatharray/maximumdistribution) { get; set; } | Distribución máxima Cuando es verdadero, la matriz se espacía al ancho máximo del elemento contenedor (página, columna, celda, etc.). |
+| [ObjectDistribution](../../aspose.slides.mathtext/imatharray/objectdistribution) { get; set; } | Distribución de objeto Cuando es verdadero, el contenido de la matriz se ajusta al ancho máximo del objeto matriz. |
+| [RowSpacing](../../aspose.slides.mathtext/imatharray/rowspacing) { get; set; } | Espaciado entre filas de una matriz Se utiliza solo cuando RowSpacingRule está establecido en 3 Exactamente, en cuyo caso la unidad de medida son puntos o Multiple, en cuyo caso la unidad de medida son medias líneas. Valor predeterminado: 0 |
 | [RowSpacingRule](../../aspose.slides.mathtext/imatharray/rowspacingrule) { get; set; } | El tipo de espaciado vertical entre los elementos de la matriz |
 
 ### Ejemplos

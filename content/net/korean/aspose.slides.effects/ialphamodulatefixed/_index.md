@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulateFixed
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: Alpha Modulate Fixed 효과를 나타냅니다. 효과 알파 불투명도 값은 고정된 비율로 곱해집니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: Alpha Modulate Fixed 효과를 나타냅니다. 효과 알파 불투명도 값은 고정 비율로 곱해집니다.
 type: docs
-weight: 3120
+weight: 3140
 url: /ko/aspose.slides.effects/ialphamodulatefixed/
 ---
 ## IAlphaModulateFixed 인터페이스
 
-Alpha Modulate Fixed 효과를 나타냅니다. 효과 알파(불투명도) 값은 고정된 비율로 곱해집니다.
+Alpha Modulate Fixed 효과를 나타냅니다. 효과 알파(불투명도) 값은 고정 비율로 곱해집니다.
 
 ```csharp
 public interface IAlphaModulateFixed : IAccessiblePVIObject<IAlphaModulateFixedEffectiveData>, 
@@ -19,7 +19,7 @@ public interface IAlphaModulateFixed : IAccessiblePVIObject<IAlphaModulateFixedE
 
 | 이름 | 설명 |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/ialphamodulatefixed/amount) { get; set; } | 퍼센트 단위의 효과 양을 반환합니다. 읽기/쓰기 Single. |
+| [Amount](../../aspose.slides.effects/ialphamodulatefixed/amount) { get; set; } | 퍼센트 단위로 효과 양을 반환합니다. 읽기/쓰기 Single. |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject) { get; } | 기본 IAccessiblePVIObject 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation) { get; } | 기본 IImageTransformOperation 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IImageTransformOperation`](../iimagetransformoperation). |
 

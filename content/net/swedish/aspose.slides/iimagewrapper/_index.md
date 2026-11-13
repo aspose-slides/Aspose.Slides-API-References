@@ -1,12 +1,12 @@
 ---
 title: IImageWrapper
 second_title: Aspose.Sildes för .NET API-referens
-description: System.Drawing.Image-omslag för COM-gränssnittet.
+description: System.Drawing.Image wrapper för COM-gränssnitt.
 type: docs
-weight: 6170
+weight: 6190
 url: /sv/aspose.slides/iimagewrapper/
 ---
-## IImageWrapper-gränssnitt
+## IImageWrapper gränssnitt
 
 System.Drawing.Image omslag för COM-gränssnitt.
 
@@ -19,18 +19,18 @@ public interface IImageWrapper : IDisposable
 | Namn | Beskrivning |
 | --- | --- |
 | [AsIDisposable](../../aspose.slides/iimagewrapper/asidisposable) { get; } | Returnerar IDisposable-gränssnittet. Skrivskyddad IDisposable. |
-| [ImageSource](../../aspose.slides/iimagewrapper/imagesource) { get; } | Hämtar bilden Skrivskyddad Image. |
-| [Size](../../aspose.slides/iimagewrapper/size) { get; } | Hämtar bredden och höjden i pixlar för Image Skrivskyddad [`Size`](./size). |
+| [ImageSource](../../aspose.slides/iimagewrapper/imagesource) { get; } | Hämtar bilden. Skrivskyddad Image. |
+| [Size](../../aspose.slides/iimagewrapper/size) { get; } | Hämtar bildens bredd och höjd i pixlar. Skrivskyddad [`Size`](./size). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Save](../../aspose.slides/iimagewrapper/save#save_1)(string) | Sparar Image till den specificerade filen |
-| [Save](../../aspose.slides/iimagewrapper/save#save)(Stream, PPImageFormat) | Sparar Image till den specificerade strömmen i det specificerade formatet. |
-| [Save](../../aspose.slides/iimagewrapper/save#save_2)(string, PPImageFormat) | Sparar Image till den specificerade filen i det specificerade formatet. |
+| [Save](../../aspose.slides/iimagewrapper/save#save_1)(string) | Sparar Image till den angivna filen |
+| [Save](../../aspose.slides/iimagewrapper/save#save)(Stream, PPImageFormat) | Sparar Image till den angivna strömmen i det angivna formatet. |
+| [Save](../../aspose.slides/iimagewrapper/save#save_2)(string, PPImageFormat) | Sparar Image till den angivna filen i det angivna formatet. |
 
-### Se också
+### Se även
 
 * namnrymd [Aspose.Slides](../../aspose.slides)
 * samling [Aspose.Slides](../../)

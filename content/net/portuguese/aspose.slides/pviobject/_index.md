@@ -1,14 +1,14 @@
 ---
 title: PVIObject
-second_title: Referência da API Aspose.Sildes para .NET
-description: Encapsula a infraestrutura básica de serviço para objetos que podem ser sujeitos à herança de valores de propriedades.
+second_title: Referência da API Aspose.Slides para .NET
+description: Encapsula a infraestrutura básica de serviço para objetos que podem ser objeto de herança de valor de propriedade.
 type: docs
-weight: 9270
+weight: 9290
 url: /pt/aspose.slides/pviobject/
 ---
 ## PVIObject classe
 
-Encapsula a infraestrutura básica de serviço para objetos que podem ser sujeitos à herança de valores de propriedades.
+Encapsula a infraestrutura básica de serviço para objetos que podem ser objeto de herança de valor de propriedade.
 
 ```csharp
 public abstract class PVIObject : ISlideComponent
@@ -16,13 +16,13 @@ public abstract class PVIObject : ISlideComponent
 
 ## Propriedades
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obter a interface base IPresentationComponent. Somente leitura [`IPresentationComponent`](../ipresentationcomponent). |
 
 ## Métodos
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compara com o objeto especificado. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Retorna o código hash. |

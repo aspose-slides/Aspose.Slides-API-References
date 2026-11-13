@@ -3,7 +3,7 @@ title: DrawingGuide
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili panduan gambar yang dapat disesuaikan.
 type: docs
-weight: 2810
+weight: 2830
 url: /id/aspose.slides/drawingguide/
 ---
 ## DrawingGuide kelas

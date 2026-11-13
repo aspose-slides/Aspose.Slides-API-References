@@ -3,10 +3,10 @@ title: ViewType
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Präsentationsansichtstypen
 type: docs
-weight: 11750
+weight: 11770
 url: /de/aspose.slides/viewtype/
 ---
-## ViewType-Enumeration
+## ViewType-Aufzählung
 
 Präsentationsansichtstypen
 
@@ -19,14 +19,14 @@ public enum ViewType
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | NotDefined | `0` | Wert ist nicht definiert |
-| SlideView | `1` | Normaler Folienansicht |
-| SlideMasterView | `2` | Folienmaster-Ansicht |
+| SlideView | `1` | Normale Folienansicht |
+| SlideMasterView | `2` | Folienmasteransicht |
 | NotesView | `3` | Notizansicht |
 | HandoutView | `4` | Handzettelansicht |
-| NotesMasterView | `5` | Notizmaster-Ansicht |
+| NotesMasterView | `5` | Notizmasteransicht |
 | OutlineView | `6` | Gliederungsansicht |
 | SlideSorterView | `7` | Foliensortieransicht |
-| SlideThumbnailView | `8` | Folienvorschauansicht |
+| SlideThumbnailView | `8` | Folienminiaturansicht |
 
 ### Siehe auch
 

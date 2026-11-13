@@ -3,7 +3,7 @@ title: ChartCategory
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示图表类别。
 type: docs
-weight: 1270
+weight: 1280
 url: /zh/aspose.slides.charts/chartcategory/
 ---
 ## ChartCategory 类
@@ -18,17 +18,18 @@ public class ChartCategory : IChartCategory
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/chartcategory/ascell) { get; set; } | 返回或设置 IChartDataCell 对象。如果类别是多层级的，则在级别 "0" 使用 IChartDataCell 对象。读/写 [`IChartDataCell`](../ichartdatacell)。 |
+| [AsCell](../../aspose.slides.charts/chartcategory/ascell) { get; set; } | 返回或设置 IChartDataCell 对象。如果类别是多层级的，则使用层级 "0" 的 IChartDataCell 对象。读/写 [`IChartDataCell`](../ichartdatacell)。 |
 | [AsLiteral](../../aspose.slides.charts/chartcategory/asliteral) { get; set; } | 返回或设置 AsLiteral 对象。读/写 Object。 |
-| [GroupingLevels](../../aspose.slides.charts/chartcategory/groupinglevels) { get; } | 图表类别分组级别值的托管容器。多层级类别包含多个分组级别。分组级别索引从零开始。只读 [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager)。 |
-| [UseCell](../../aspose.slides.charts/chartcategory/usecell) { get; } | 如果为 true，则 AsCell 属性生效。换句话说，工作表用于存储类别（此情况支持多层级类别）。如果为 false，则 AsLiteral 属性生效。换句话说，工作表不用于存储类别（此情况不支持多层级类别）。只读 Boolean。 |
+| [CachedValue](../../aspose.slides.charts/chartcategory/cachedvalue) { get; } | 获取图表类别的缓存值。只读 [`ICachedChartValue`](../icachedchartvalue)。 |
+| [GroupingLevels](../../aspose.slides.charts/chartcategory/groupinglevels) { get; } | 管理图表类别分组层级值的容器。多层级类别包含多个分组层级。分组层级索引从零开始。只读 [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager)。 |
+| [UseCell](../../aspose.slides.charts/chartcategory/usecell) { get; } | 如果为 true 则 AsCell 属性有效。换句话说，工作表用于存储类别（此情况支持多层级类别）。如果为 false 则 AsLiteral 属性有效。换句话说，工作表不用于存储类别（此情况不支持多层级类别）。只读 Boolean。 |
 | [Value](../../aspose.slides.charts/chartcategory/value) { get; set; } | 如果 UseCell 为 true，则此属性表示 AsCell.Value 属性。如果 UseCell 为 false，则此属性表示 AsLiteral 属性。读/写 Object。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [Remove](../../aspose.slides.charts/chartcategory/remove)() | 从图表中移除类别。 |
+| [Remove](../../aspose.slides.charts/chartcategory/remove)() | 从图表中删除类别。 |
 
 ### 另见
 

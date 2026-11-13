@@ -1,27 +1,27 @@
 ---
 title: IHyperlinkQueries
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ให้การเข้าถึงไฮเปอร์ลิงก์ที่บรรจุอยู่ได้อย่างง่ายดาย.
+description: ให้การเข้าถึง hyperlink ที่อยู่ในคอนเทนเนอร์อย่างง่ายดาย.
 type: docs
-weight: 6140
+weight: 6160
 url: /th/aspose.slides/ihyperlinkqueries/
 ---
 ## IHyperlinkQueries อินเทอร์เฟซ
 
-ให้การเข้าถึงไฮเปอร์ลิงก์ที่บรรจุอยู่ได้อย่างง่ายดาย.
+ให้การเข้าถึง hyperlink ที่อยู่ในคอนเทนเนอร์อย่างง่ายดาย.
 
 ```csharp
 public interface IHyperlinkQueries
 ```
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GetAnyHyperlinks](../../aspose.slides/ihyperlinkqueries/getanyhyperlinks)() | รับ IHyperlinkContainer ย่อยทั้งหมดที่มี HyperlinkMouseOver ไม่เป็นค่า null. ด้วยออบเจ็กต์ IHyperlinkContainer ที่ระบุคุณสามารถจัดการไฮเปอร์ลิงก์ของมัน (อ่าน, อัปเดตหรือเอาออก). ดูอินเทอร์เฟซ IHyperlinkContainer. |
-| [GetHyperlinkClicks](../../aspose.slides/ihyperlinkqueries/gethyperlinkclicks)() | รับ IHyperlinkContainer ย่อยทั้งหมดที่มี HyperlinkClick ไม่เป็นค่า null. ด้วยออบเจ็กต์ IHyperlinkContainer ที่ระบุคุณสามารถจัดการไฮเปอร์ลิงก์ของมัน (อ่าน, อัปเดตหรือเอาออก). ดูอินเทอร์เฟซ IHyperlinkContainer. |
-| [GetHyperlinkMouseOvers](../../aspose.slides/ihyperlinkqueries/gethyperlinkmouseovers)() | รับ IHyperlinkContainer ย่อยทั้งหมดที่มี HyperlinkMouseOver ไม่เป็นค่า null. ด้วยออบเจ็กต์ IHyperlinkContainer ที่ระบุคุณสามารถจัดการไฮเปอร์ลิงก์ของมัน (อ่าน, อัปเดตหรือเอาออก). ดูอินเทอร์เฟซ IHyperlinkContainer. |
-| [RemoveAllHyperlinks](../../aspose.slides/ihyperlinkqueries/removeallhyperlinks)() | ลบไฮเปอร์ลิงก์ HyperlinkClick และ HyperlinkMouseOver ทั้งหมดที่บรรจุอยู่ (ใน IHyperlinkContainer ย่อยทั้งหมด). |
+| [GetAnyHyperlinks](../../aspose.slides/ihyperlinkqueries/getanyhyperlinks)() | รับทุก IHyperlinkContainer subobjects ที่มี HyperlinkMouseOver ไม่เป็น null. ด้วยอ็อบเจกต์ IHyperlinkContainer ที่กำหนด คุณสามารถจัดการ hyperlink ของมัน (อ่าน, อัปเดต หรือ ลบ). ดู IHyperlinkContainer อินเทอร์เฟซ. |
+| [GetHyperlinkClicks](../../aspose.slides/ihyperlinkqueries/gethyperlinkclicks)() | รับทุก IHyperlinkContainer subobjects ที่มี HyperlinkClick ไม่เป็น null. ด้วยอ็อบเจกต์ IHyperlinkContainer ที่กำหนด คุณสามารถจัดการ hyperlink ของมัน (อ่าน, อัปเดต หรือ ลบ). ดู IHyperlinkContainer อินเทอร์เฟซ. |
+| [GetHyperlinkMouseOvers](../../aspose.slides/ihyperlinkqueries/gethyperlinkmouseovers)() | รับทุก IHyperlinkContainer subobjects ที่มี HyperlinkMouseOver ไม่เป็น null. ด้วยอ็อบเจกต์ IHyperlinkContainer ที่กำหนด คุณสามารถจัดการ hyperlink ของมัน (อ่าน, อัปเดต หรือ ลบ). ดู IHyperlinkContainer อินเทอร์เฟซ. |
+| [RemoveAllHyperlinks](../../aspose.slides/ihyperlinkqueries/removeallhyperlinks)() | ลบ HyperlinkClick และ HyperlinkMouseOver ทั้งหมด (ในทุก IHyperlinkContainer subobjects). |
 
 ### ดูเพิ่มเติม
 

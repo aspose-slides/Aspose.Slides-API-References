@@ -1,14 +1,14 @@
 ---
 title: SetRange
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: กำหนดช่วงข้อมูลของแผนภูมิ. Series และ categories จะถูกอัปเดตตามช่วงข้อมูลใหม่. หากจำนวน series ในช่วงข้อมูลมากกว่าจำนวน series ใน chart data แล้ว series เพิ่มเติมที่มีประเภทเดียวกับ series ตัวสุดท้ายในคอลเลกชันปัจจุบันจะถูกเพิ่มไปที่ส่วนท้ายของคอลเลกชัน.
+description: ตั้งค่า chart data range. Series และ categories จะถูกอัปเดตตาม data range ใหม่ หากจำนวน series ใน data range มากกว่าจำนวน series ใน chart data แล้ว series เพิ่มเติมที่มีประเภทเดียวกับ series สุดท้ายในคอลเลกชันปัจจุบันจะถูกเพิ่มที่ส่วนท้ายของคอลเลกชัน.
 type: docs
-weight: 130
+weight: 140
 url: /th/aspose.slides.charts/ichartdata/setrange/
 ---
 ## IChartData.SetRange เมธอด
 
-ตั้งค่าช่วงข้อมูลแผนภูมิ. Series และ categories จะถูกอัปเดตตามช่วงข้อมูลใหม่. หากจำนวน series ในช่วงข้อมูลมากกว่าจำนวน series ใน chart data แล้ว series เพิ่มเติมที่มีประเภทเดียวกับ series สุดท้ายในคอลเลกชันปัจจุบันจะถูกเพิ่มไปที่ส่วนท้ายของคอลเลกชัน.
+ตั้งค่า chart data range. Series และ categories จะถูกอัปเดตตาม data range ใหม่. หากจำนวน series ใน data range มากกว่าจำนวน series ใน chart data จะเพิ่ม series เพิ่มเติมที่มีประเภทเดียวกับ series สุดท้ายในคอลเลกชันปัจจุบันไปที่ส่วนท้ายของคอลเลกชัน.
 
 ```csharp
 public void SetRange(string formula)
@@ -16,13 +16,13 @@ public void SetRange(string formula)
 
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
 | --- | --- | --- |
-| formula | String | สูตรช่วงข้อมูลของเซลล์. เช่น: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
+| formula | String | สูตร data range ของ cells. ตัวอย่าง: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
 
 ### ข้อยกเว้น
 
-| ข้อยกเว้น | เงื่อนไข |
+| exception | เงื่อนไข |
 | --- | --- |
-| ArgumentNullException | formula เป็นค่า null. |
+| ArgumentNullException | formula เป็น null. |
 | ArgumentException | formula มีรูปแบบไม่ถูกต้อง. |
 
 ### ดูเพิ่มเติม

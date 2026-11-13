@@ -1,9 +1,9 @@
 ---
 title: GraphicalObjectLock
-second_title: Tham khảo API Aspose.Sildes cho .NET
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Xác định các thao tác nào bị vô hiệu hoá trên GraphicalObject cha.
 type: docs
-weight: 5080
+weight: 5100
 url: /vi/aspose.slides/graphicalobjectlock/
 ---
 ## GraphicalObjectLock lớp
@@ -16,7 +16,7 @@ public class GraphicalObjectLock : BaseShapeLock, IGraphicalObjectLock
 
 ## Thuộc tính
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
 | [AspectRatioLocked](../../aspose.slides/graphicalobjectlock/aspectratiolocked) { get; set; } | Xác định liệu hình dạng có phải giữ tỷ lệ khi thay đổi kích thước hay không. Đọc/ghi Boolean. |
 | [DrilldownLocked](../../aspose.slides/graphicalobjectlock/drilldownlocked) { get; set; } | Xác định liệu việc chọn các hình con của đối tượng này có bị cấm hay không. Đọc/ghi Boolean. |
@@ -24,7 +24,7 @@ public class GraphicalObjectLock : BaseShapeLock, IGraphicalObjectLock
 | [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Trả về true nếu tất cả các cờ khóa đều bị vô hiệu hoá. Chỉ đọc Boolean. |
 | [PositionLocked](../../aspose.slides/graphicalobjectlock/positionlocked) { get; set; } | Xác định liệu việc di chuyển hình này có bị cấm hay không. Đọc/ghi Boolean. |
 | [SelectLocked](../../aspose.slides/graphicalobjectlock/selectlocked) { get; set; } | Xác định liệu việc chọn hình này có bị cấm hay không. Đọc/ghi Boolean. |
-| [SizeLocked](../../aspose.slides/graphicalobjectlock/sizelocked) { get; set; } | Xác định liệu việc thay đổi kích thước hình này có bị cấm hay không. Đọc/ghi Boolean. |
+| [SizeLocked](../../aspose.slides/graphicalobjectlock/sizelocked) { get; set; } | Xác định liệu việc thay đổi kích thước của hình này có bị cấm hay không. Đọc/ghi Boolean. |
 
 ### Xem thêm
 

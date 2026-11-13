@@ -1,14 +1,14 @@
 ---
 title: InOutTransition
-second_title: Aspose.Sildes voor .NET API Referentie
-description: In-Out dia-overgangseffect.
+second_title: Aspose.Sildes voor .NET API-referentie
+description: In-Out dia overgangseffect.
 type: docs
-weight: 10230
+weight: 10250
 url: /nl/aspose.slides.slideshow/inouttransition/
 ---
 ## InOutTransition klasse
 
-In-Out dia-overgangseffect.
+In-Out dia overgangseffect.
 
 ```csharp
 public class InOutTransition : TransitionValueBase, IInOutTransition
@@ -16,16 +16,16 @@ public class InOutTransition : TransitionValueBase, IInOutTransition
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/inouttransition/direction) { get; set; } | Richting van een overgangseffect. Lezen/Schrijven [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/inouttransition/direction) { get; set; } | Richting van een overgangseffect. Lezen/schrijven [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 
 ## Methoden
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bepaalt of de twee TransitionValueBase-instanties gelijk zijn. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als een hashfunctie voor een specifiek type, geschikt voor gebruik in hash-algoritmen en datastructuren zoals een hashtabel. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als hash-functie voor een bepaald type, geschikt voor gebruik in hash-algoritmen en datastructuren zoals een hashtabel. |
 
 ### Zie ook
 

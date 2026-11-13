@@ -1,14 +1,14 @@
 ---
 title: SlideSizeScaleType
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft het schaaltype van de dia-inhoud weer.
+description: Stelt het schaaltype van dia-inhoud voor.
 type: docs
-weight: 10510
+weight: 10530
 url: /nl/aspose.slides/slidesizescaletype/
 ---
-## SlideSizeScaleType-enumeratie
+## SlideSizeScaleType enumeratie
 
-Geeft het schaaltype van de dia-inhoud weer.
+Stelt het schaaltype van de dia-inhoud voor.
 
 ```csharp
 public enum SlideSizeScaleType

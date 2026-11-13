@@ -1,38 +1,38 @@
 ---
 title: FontData
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes .NET API के लिए संदर्भ
 description: फ़ॉन्ट परिभाषा का प्रतिनिधित्व करता है। अपरिवर्तनीय।
 type: docs
-weight: 4820
+weight: 4840
 url: /hi/aspose.slides/fontdata/
 ---
-## FontData क्लास
+## FontData वर्ग
 
-एक फ़ॉन्ट परिभाषा का प्रतिनिधित्व करता है। अपरिवर्तनीय।
+फ़ॉन्ट परिभाषा को दर्शाता है। अपरिवर्तनीय।
 
 ```csharp
 public sealed class FontData : IFontData
 ```
 
-## Constructors
+## निर्माता
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [FontData](fontdata)(string) | निर्दिष्ट फ़ॉन्ट नाम के साथ एक नया FontData ऑब्जेक्ट बनाता है। |
+| [FontData](fontdata)(string) | निर्दिष्ट फ़ॉन्ट नाम के साथ नया FontData ऑब्जेक्ट बनाता है। |
 
-## Properties
+## गुण
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [FontName](../../aspose.slides/fontdata/fontname) { get; } | फ़ॉन्ट नाम लौटाता है। पढ़ने/लिखने योग्य स्ट्रिंग। |
+| [FontName](../../aspose.slides/fontdata/fontname) { get; } | फ़ॉन्ट नाम लौटाता है। पढ़ें/लिखें String। |
 
-## Methods
+## विधियाँ
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
 | override [Equals](../../aspose.slides/fontdata/equals)(object) | निर्धारित करता है कि दो FontData इंस्टेंस समान हैं या नहीं। |
 | [GetFontName](../../aspose.slides/fontdata/getfontname)(IThemeEffectiveData) | फ़ॉन्ट नाम लौटाता है, थीम संदर्भ को वास्तविक उपयोग किए गए फ़ॉन्ट से बदलता है। |
-| override [GetHashCode](../../aspose.slides/fontdata/gethashcode)() | एक विशिष्ट प्रकार के लिए हैश फ़ंक्शन प्रदान करता है, जो हैशिंग एल्गोरिदम और डेटा संरचनाओं जैसे हैश टेबल में उपयोग के लिए उपयुक्त है। |
+| override [GetHashCode](../../aspose.slides/fontdata/gethashcode)() | एक विशेष प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है, हैशिंग एल्गोरिदम और हैश टेबल जैसे डेटा संरचनाओं में उपयोग के लिए उपयुक्त। |
 | override [ToString](../../aspose.slides/fontdata/tostring)() | स्ट्रिंग प्रतिनिधित्व लौटाता है। |
 
 ### संबंधित देखें

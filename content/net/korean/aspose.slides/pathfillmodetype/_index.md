@@ -1,14 +1,14 @@
 ---
 title: PathFillModeType
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 경로를 채우는 방식을 지정합니다
+description: 경로가 채워지는 방식을 지정합니다.
 type: docs
-weight: 9330
+weight: 9350
 url: /ko/aspose.slides/pathfillmodetype/
 ---
 ## PathFillModeType 열거형
 
-Specifies the manner in which a path should be filled
+경로가 채워지는 방식을 지정합니다.
 
 ```csharp
 public enum PathFillModeType : byte
@@ -18,12 +18,12 @@ public enum PathFillModeType : byte
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| None | `0` | 경로 채우기 없음. 해당 경로에 채우기가 없어야 함을 지정합니다. |
-| Normal | `1` | 보통 경로 채우기. 해당 경로의 채우기에 일반적인 색조가 적용되어야 함을 지정합니다. |
-| Lighten | `2` | 밝게 경로 채우기. 해당 경로의 채우기에 가벼운 색조가 적용되어야 함을 지정합니다. |
-| LightenLess | `3` | 덜 밝게 경로 채우기. 해당 경로의 채우기에 약간 더 밝은 색조가 적용되어야 함을 지정합니다. |
-| Darken | `4` | 어둡게 경로 채우기. 해당 경로의 채우기에 더 어두운 색조가 적용되어야 함을 지정합니다. |
-| DarkenLess | `5` | 덜 어둡게 경로 채우기. 해당 경로의 채우기에 약간 더 어두운 색조가 적용되어야 함을 지정합니다. |
+| None | `0` | 채우기 없음. 이는 해당 경로에 채우기가 없도록 지정합니다. |
+| Normal | `1` | 일반 채우기. 이는 해당 경로에 일반적인 음영 색상이 채우기에 적용되도록 지정합니다. |
+| Lighten | `2` | 밝게 채우기. 이는 해당 경로에 가벼운 음영 색상이 채우기에 적용되도록 지정합니다. |
+| LightenLess | `3` | 덜 밝게 채우기. 이는 해당 경로에 약간 더 밝은 음영 색상이 채우기에 적용되도록 지정합니다. |
+| Darken | `4` | 어둡게 채우기. 이는 해당 경로에 더 어두운 음영 색상이 채우기에 적용되도록 지정합니다. |
+| DarkenLess | `5` | 덜 어둡게 채우기. 이는 해당 경로에 약간 더 어두운 음영 색상이 채우기에 적용되도록 지정합니다. |
 
 ### 참조
 

@@ -1,14 +1,14 @@
 ---
 title: Label
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Label. Hanya baca IDataLabelaspose.slides.charts/idatalabel.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Label. hanya-baca IDataLabelaspose.slides.charts/idatalabel.
 type: docs
-weight: 140
+weight: 180
 url: /id/aspose.slides.charts/chartdatapoint/label/
 ---
 ## ChartDataPoint.Label properti
 
-Label. Hanya baca [`IDataLabel`](../../idatalabel).
+Label. hanya-baca [`IDataLabel`](../../idatalabel).
 
 ```csharp
 public IDataLabel Label { get; }

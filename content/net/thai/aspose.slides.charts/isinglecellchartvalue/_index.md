@@ -1,14 +1,14 @@
 ---
 title: ISingleCellChartValue
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: เป็นตัวแทนของเซลล์ข้อมูลแผนภูมิ.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงเซลล์ข้อมูลแผนภูมิ.
 type: docs
-weight: 2210
+weight: 2230
 url: /th/aspose.slides.charts/isinglecellchartvalue/
 ---
 ## ISingleCellChartValue อินเทอร์เฟซ
 
-เป็นตัวแทนของเซลล์ข้อมูลแผนภูมิ
+แสดงถึงเซลล์ข้อมูลแผนภูมิ.
 
 ```csharp
 public interface ISingleCellChartValue : IBaseChartValue
@@ -18,8 +18,8 @@ public interface ISingleCellChartValue : IBaseChartValue
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/isinglecellchartvalue/ascell) { get; set; } | คืนค่า หรือ ตั้งค่าเซลล์ข้อมูลแผนภูมิ อ่าน/เขียน [`IChartDataCell`](../ichartdatacell). |
-| [AsIBaseChartValue](../../aspose.slides.charts/isinglecellchartvalue/asibasechartvalue) { get; } | อนุญาตให้ดึงอินเทอร์เฟซพื้นฐาน IBaseChartValue อ่านอย่างเดียว [`IBaseChartValue`](../ibasechartvalue). |
+| [AsCell](../../aspose.slides.charts/isinglecellchartvalue/ascell) { get; set; } | คืนค่า หรือ ตั้งค่าเซลล์ข้อมูลแผนภูมิ. อ่าน/เขียน [`IChartDataCell`](../ichartdatacell). |
+| [AsIBaseChartValue](../../aspose.slides.charts/isinglecellchartvalue/asibasechartvalue) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IBaseChartValue พื้นฐาน. อ่านอย่างเดียว [`IBaseChartValue`](../ibasechartvalue). |
 
 ### ดูเพิ่มเติม
 

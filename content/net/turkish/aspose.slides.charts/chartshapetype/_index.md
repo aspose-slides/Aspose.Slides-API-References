@@ -1,12 +1,12 @@
 ---
 title: ChartShapeType
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir grafiğin şeklini temsil eder.
+description: Bir grafik şekli temsil eder.
 type: docs
-weight: 1470
+weight: 1480
 url: /tr/aspose.slides.charts/chartshapetype/
 ---
-## ChartShapeType sayımı
+## ChartShapeType enum
 
 Bir grafik şekli temsil eder.
 
@@ -18,15 +18,15 @@ public enum ChartShapeType
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| NotDefined | `-1` | Grafik şekli tanımlanmamış. |
+| NotDefined | `-1` | Grafik şekli tanımlanmamıştır. |
 | Box | `0` | Grafiğin kutu şekliyle çizileceğini belirtir. |
-| Cone | `1` | Grafiğin bir koni olarak çizileceğini, koninin tabanının zeminde ve koni ucunun veri işaretçisinin üstünde olacağını belirtir. |
-| ConeToMax | `2` | Grafiğin, koni ucunun en yüksek veri değerine denk gelecek şekilde kesik konilerle çizileceğini belirtir. |
-| Cylinder | `3` | Grafiğin bir silindir olarak çizileceğini belirtir. |
-| Pyramid | `4` | Grafiğin bir dikdörtgen piramit olarak çizileceğini, piramidin tabanının zeminde ve piramit ucunun veri işaretçisinin üstünde olacağını belirtir. |
-| PyramidToMaximum | `5` | Grafiğin, piramit ucunun en yüksek veri değerine denk gelecek şekilde kesik piramitlerle çizileceğini belirtir. |
+| Cone | `1` | Grafiğin koni olarak çizileceğini, koninin tabanının zeminde ve koni ucunun veri işaretçisinin üstünde olacak şekilde belirtir. |
+| ConeToMax | `2` | Grafiğin kesik konilerle çizileceğini, koninin ucunun maksimum veri değeri olacak şekilde belirtir. |
+| Cylinder | `3` | Grafiğin silindir olarak çizileceğini belirtir. |
+| Pyramid | `4` | Grafiğin dikdörtgen piramit olarak çizileceğini, piramidin tabanının zeminde ve piramit ucunun veri işaretçisinin üstünde olacak şekilde belirtir. |
+| PyramidToMaximum | `5` | Grafiğin kesik konilerle çizileceğini, koninin ucunun maksimum veri değeri olacak şekilde belirtir. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)
 * derleme [Aspose.Slides](../../)

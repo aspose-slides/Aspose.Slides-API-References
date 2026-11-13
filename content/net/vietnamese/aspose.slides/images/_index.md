@@ -1,9 +1,9 @@
 ---
 title: Images
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Các phương thức để khởi tạo và làm việc với IImage./iimage.
+description: Các phương thức để tạo và làm việc với IImage./iimage.
 type: docs
-weight: 7460
+weight: 7480
 url: /vi/aspose.slides/images/
 ---
 ## Lớp Images
@@ -24,7 +24,7 @@ public static class Images
 | static [FromStream](../../aspose.slides/images/fromstream#fromstream_1)(Stream, bool) | Tạo một hình ảnh từ luồng. |
 | static [FromStream](../../aspose.slides/images/fromstream#fromstream_2)(Stream, bool, bool) | Tạo một hình ảnh từ luồng. |
 
-### Xem Thêm
+### Xem thêm
 
 * không gian tên [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

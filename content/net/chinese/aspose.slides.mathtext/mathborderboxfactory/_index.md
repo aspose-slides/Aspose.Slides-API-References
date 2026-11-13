@@ -1,9 +1,9 @@
 ---
 title: MathBorderBoxFactory
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 允许创建数学边框盒
 type: docs
-weight: 8620
+weight: 8640
 url: /zh/aspose.slides.mathtext/mathborderboxfactory/
 ---
 ## MathBorderBoxFactory 类
@@ -24,14 +24,14 @@ public class MathBorderBoxFactory : IMathBorderBoxFactory
 
 | 名称 | 描述 |
 | --- | --- |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | 通过将其应用于元素来创建数学边框盒 |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | 通过将其应用于元素来创建数学边框盒 |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | 通过应用于元素来创建数学边框盒 |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | 通过应用于元素来创建数学边框盒 |
 
 ### 备注
 
 用于 COM 兼容性
 
-### 另请参见
+### 另见
 
 * 接口 [IMathBorderBoxFactory](../imathborderboxfactory)
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

@@ -1,41 +1,41 @@
 ---
 title: ReplaceRegex
-second_title: Aspose.Sildes for .NET API リファレンス
-description: 正規表現に一致するすべての箇所を指定された文字列に置き換えます。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: 正規表現のすべての一致を指定した文字列に置き換えます。
 type: docs
-weight: 110
+weight: 120
 url: /ja/aspose.slides/itextframe/replaceregex/
 ---
 ## ITextFrame.ReplaceRegex メソッド
 
-正規表現に一致するすべての箇所を指定された文字列に置き換えます。
+正規表現のすべての一致を指定した文字列に置き換えます。
 
 ```csharp
 public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callback)
 ```
 
-| パラメーター | 型 | 説明 |
+| パラメータ | 型 | 説明 |
 | --- | --- | --- |
-| regex | Regex | 置換対象文字列を取得するための正規表現 Regex。 |
-| newText | String | 置換対象文字列のすべての出現箇所を置き換える文字列。 |
-| callback | IFindResultCallback | 検索結果を受け取るためのコールバックオブジェクト [`IFindResultCallback`](../../ifindresultcallback)。 |
+| regex | Regex | 置換対象文字列を取得する正規表現 Regex。 |
+| newText | String | 置換対象文字列のすべての出現箇所を置き換える String。 |
+| callback | IFindResultCallback | 検索結果 [`IFindResultCallback`](../../ifindresultcallback) を受け取るコールバック オブジェクト。 |
 
 ### 例
 
-以下のコードサンプルは、正規表現を使用してテキストを指定された文字列に置き換える方法を示しています。
+次のコード例は、正規表現を使用してテキストを指定した文字列に置き換える方法を示しています。
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// 10文字以上の単語をすべて'***'に置き換える
+	// 10文字以上の単語をすべて'***'に置き換えます
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.ReplaceRegex(regex, "***", null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }
 ```
 
-### 参照
+### 関連項目
 
 * インターフェイス [IFindResultCallback](../../ifindresultcallback)
 * インターフェイス [ITextFrame](../../itextframe)

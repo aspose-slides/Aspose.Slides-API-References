@@ -1,14 +1,14 @@
 ---
 title: PresentationPlayer
-second_title: Aspose.Sildes for .NET API 참조
-description: Presentation../aspose.slides/presentation와 연관된 애니메이션 플레이어를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: Presentation../aspose.slides/presentation와 관련된 애니메이션의 플레이어를 나타냅니다.
 type: docs
-weight: 4390
+weight: 4410
 url: /ko/aspose.slides.export/presentationplayer/
 ---
 ## PresentationPlayer 클래스
 
-연관된 [`Presentation`](../../aspose.slides/presentation)의 애니메이션 플레이어를 나타냅니다.
+[`Presentation`](../../aspose.slides/presentation)와 관련된 애니메이션의 플레이어를 나타냅니다.
 
 ```csharp
 public class PresentationPlayer : IDisposable
@@ -18,7 +18,7 @@ public class PresentationPlayer : IDisposable
 
 | 이름 | 설명 |
 | --- | --- |
-| [PresentationPlayer](presentationplayer)(PresentationAnimationsGenerator, double) | 새 인스턴스를 생성합니다 [`PresentationPlayer`](../presentationplayer). |
+| [PresentationPlayer](presentationplayer)(PresentationAnimationsGenerator, double) | 새로운 [`PresentationPlayer`](../presentationplayer) 인스턴스를 생성합니다. |
 
 ## 속성
 
@@ -30,7 +30,7 @@ public class PresentationPlayer : IDisposable
 
 | 이름 | 설명 |
 | --- | --- |
-| [Dispose](../../aspose.slides.export/presentationplayer/dispose)() | [`PresentationPlayer`](../presentationplayer)의 인스턴스를 해제합니다. |
+| [Dispose](../../aspose.slides.export/presentationplayer/dispose)() | [`PresentationPlayer`](../presentationplayer) 인스턴스를 해제합니다. |
 
 ## 기타 멤버
 
@@ -71,7 +71,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 참조
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)
 * 어셈블리 [Aspose.Slides](../../)

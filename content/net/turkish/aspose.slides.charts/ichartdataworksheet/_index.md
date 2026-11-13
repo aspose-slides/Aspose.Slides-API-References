@@ -1,14 +1,14 @@
 ---
 title: IChartDataWorksheet
-second_title: Aspose.Sildes için .NET API Referansı
-description: IChartDataCell ile ilişkilendirilmiş çalışma sayfasını temsil eder./ichartdatacell
+second_title: Aspose.Sildes for .NET API Referansı
+description: IChartDataCell ile ilişkili çalışma sayfasını temsil eder./ichartdatacell
 type: docs
-weight: 1870
+weight: 1890
 url: /tr/aspose.slides.charts/ichartdataworksheet/
 ---
-## IChartDataWorksheet arayüz
+## IChartDataWorksheet arayüzü
 
-İlgili [`IChartDataCell`](../ichartdatacell) ile ilişkilendirilmiş çalışma sayfasını temsil eder.
+[`IChartDataCell`](../ichartdatacell) ile ilişkili çalışma sayfasını temsil eder.
 
 ```csharp
 public interface IChartDataWorksheet
@@ -18,10 +18,10 @@ public interface IChartDataWorksheet
 
 | Ad | Açıklama |
 | --- | --- |
-| [Index](../../aspose.slides.charts/ichartdataworksheet/index) { get; } | İndeksi alır. Salt-okunur Int32. |
-| [Name](../../aspose.slides.charts/ichartdataworksheet/name) { get; } | Adı alır. Salt-okunur String. |
+| [Index](../../aspose.slides.charts/ichartdataworksheet/index) { get; } | Dizini alır. Salt okunur Int32. |
+| [Name](../../aspose.slides.charts/ichartdataworksheet/name) { get; } | Adı alır. Salt okunur String. |
 
-### Ayrıca Bakınız
+### ayrıca bakınız
 
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)
 * derleme [Aspose.Slides](../../)

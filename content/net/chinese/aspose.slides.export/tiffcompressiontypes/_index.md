@@ -3,7 +3,7 @@ title: TiffCompressionTypes
 second_title: Aspose.Sildes for .NET API 参考
 description: 提供控制演示文稿在 TIFF 格式下压缩方式的选项。
 type: docs
-weight: 4560
+weight: 4580
 url: /zh/aspose.slides.export/tiffcompressiontypes/
 ---
 ## TiffCompressionTypes 枚举
@@ -16,16 +16,16 @@ public enum TiffCompressionTypes
 
 ### 值
 
-| Name | Value | Description |
+| 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Default | `0` | 指定默认的压缩方案（LZW）。 |
+| Default | `0` | 指定默认压缩方案（LZW）。 |
 | None | `1` | 指定无压缩。 |
 | CCITT3 | `2` | 指定 CCITT3 压缩方案。 |
 | CCITT4 | `3` | 指定 CCITT4 压缩方案。 |
 | LZW | `4` | 指定 LZW 压缩方案（默认）。 |
 | RLE | `5` | 指定 RLE 压缩方案。 |
 
-### 参见
+### 另请参见
 
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)
 * 程序集 [Aspose.Slides](../../)

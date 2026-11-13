@@ -1,9 +1,9 @@
 ---
 title: OleEmbeddedDataInfo
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: OLE ऑब्जेक्ट के लिए एंबेडेड डेटा जानकारी का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: OLE ऑब्जेक्ट के लिए एम्बेडेड डेटा जानकारी का प्रतिनिधित्व करता है।
 type: docs
-weight: 2760
+weight: 2780
 url: /hi/aspose.slides.dom.ole/oleembeddeddatainfo/
 ---
 ## OleEmbeddedDataInfo क्लास
@@ -16,17 +16,17 @@ public class OleEmbeddedDataInfo : IOleEmbeddedDataInfo
 
 ## निर्माता
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor)() | OLE ऑब्जेक्ट के लिए नई एम्बेडेड डेटा सूचना बनाता है। |
-| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor_1)(byte[], string) | OLE ऑब्जेक्ट के लिए एम्बेडेड डेटा सूचना का नया उदाहरण बनाता है। एम्बेडेड OLE ऑब्जेक्ट का फ़ाइल डेटा Byte[]। वर्तमान एम्बेडेड OLE ऑब्जेक्ट के लिए फ़ाइल एक्सटेंशन String। |
+| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor)() | OLE ऑब्जेक्ट के लिए नई एम्बेडेड डेटा जानकारी बनाता है। |
+| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor_1)(byte[], string) | OLE ऑब्जेक्ट के लिए एम्बेडेड डेटा जानकारी का नया उदाहरण बनाता है। एम्बेडेड OLE ऑब्जेक्ट का फ़ाइल डेटा Byte[]. वर्तमान एम्बेडेड OLE ऑब्जेक्ट का फ़ाइल एक्सटेंशन String। |
 
 ## गुण
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
 | [EmbeddedFileData](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata) { get; } | एक एम्बेडेड OLE ऑब्जेक्ट का फ़ाइल डेटा लौटाता है केवल पढ़ने योग्य Byte[]. |
-| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | वर्तमान एम्बेडेड OLE ऑब्जेक्ट के लिए फ़ाइल एक्सटेंशन लौटाता है केवल पढ़ने योग्य String। |
+| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | वर्तमान एम्बेडेड OLE ऑब्जेक्ट के लिए फ़ाइल एक्सटेंशन लौटाता है केवल पढ़ने योग्य String. |
 
 ### देखें
 

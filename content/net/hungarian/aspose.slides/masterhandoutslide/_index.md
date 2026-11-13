@@ -1,14 +1,14 @@
 ---
 title: MasterHandoutSlide
-second_title: Aspose.Sildes .NET API referencia
-description: A kézikönyvekhez használt mesterdia.
+second_title: Aspose.Sildes .NET API-referencia
+description: A kézikönyvekhez használt mesterdiát képviseli.
 type: docs
-weight: 7980
+weight: 8000
 url: /hu/aspose.slides/masterhandoutslide/
 ---
 ## MasterHandoutSlide osztály
 
-A kézikönyvekhez használt mesterdia.
+Represents master slide for handouts.
 
 ```csharp
 public class MasterHandoutSlide : BaseSlide, IMasterHandoutSlide
@@ -19,17 +19,17 @@ public class MasterHandoutSlide : BaseSlide, IMasterHandoutSlide
 | Név | Leírás |
 | --- | --- |
 | [Background](../../aspose.slides/baseslide/background) { get; } | Visszaadja a dia háttérét. Csak olvasható [`IBackground`](../ibackground). |
-| [Controls](../../aspose.slides/baseslide/controls) { get; } | Visszaadja a dia ActiveX vezérlőinek gyűjteményét. Csak olvasható [`IControlCollection`](../icontrolcollection). |
+| [Controls](../../aspose.slides/baseslide/controls) { get; } | Visszaadja a dián lévő ActiveX vezérlők gyűjteményét. Csak olvasható [`IControlCollection`](../icontrolcollection). |
 | [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Visszaadja a dia egyéni adatait. Csak olvasható [`ICustomData`](../icustomdata). |
-| [DrawingGuides](../../aspose.slides/masterhandoutslide/drawingguides) { get; } | Visszaadja a mesterkézikönyv dia rajzsegédleteinek gyűjteményét. Csak olvasható [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HeaderFooterManager](../../aspose.slides/masterhandoutslide/headerfootermanager) { get; } | Visszaadja a mesterkézikönyv dia fejléc/lábléc kezelőjét. Csak olvasható [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
-| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Könnyű hozzáférést biztosít a tartalmazott hiperhivatkozásokhoz. Csak olvasható [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Visszaadja vagy beállítja a dia nevét. Olvasás/írás String. |
-| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | Visszaadja az IPresentation interfészt. Csak olvasható [`IPresentation`](../ipresentation). |
-| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Visszaadja a dia alakzatát. Csak olvasható [`IShapeCollection`](../ishapecollection). |
-| override [ShowMasterShapes](../../aspose.slides/masterhandoutslide/showmastershapes) { get; set; } | Megadja, hogy a mesterdia alakzatai megjelenjenek-e a diákon vagy sem. A mesterdia esetében ez a tulajdonság mindig `false` értéket ad vissza. Olvasás/írás Boolean. |
+| [DrawingGuides](../../aspose.slides/masterhandoutslide/drawingguides) { get; } | Visszaadja a mesterosztalom diák rajzolási segédvonásainak gyűjteményét. Csak olvasható [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HeaderFooterManager](../../aspose.slides/masterhandoutslide/headerfootermanager) { get; } | Visszaadja a mesterosztalom diák HeaderFooter kezelőjét. Csak olvasható [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
+| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Könnyű hozzáférést biztosít a beágyazott hiperhivatkozásokhoz. Csak olvasható [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Visszaadja vagy beállítja a dia nevét. Olvasható/írható String. |
+| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | Visszaadja az IPresentation felületet. Csak olvasható [`IPresentation`](../ipresentation). |
+| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Visszaadja a dia alakzatait. Csak olvasható [`IShapeCollection`](../ishapecollection). |
+| override [ShowMasterShapes](../../aspose.slides/masterhandoutslide/showmastershapes) { get; set; } | Megadja, hogy a mesterdia alakzatai megjelenjenek-e a diákon vagy sem. A mesterdián ez a tulajdonság mindig `false` értéket ad vissza. Olvasható/írható Boolean. |
 | [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Visszaadja egy dia azonosítóját. Csak olvasható UInt32. |
-| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Visszaadja a Transition objektumot, amely információt tartalmaz arról, hogyan halad tovább a megadott dia a diavetítés során. Csak olvasható [`ISlideShowTransition`](../islideshowtransition). |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Visszaadja a Transition objektumot, amely információt tartalmaz a megadott dia előrehaladásáról a diavetítés során. Csak olvasható [`ISlideShowTransition`](../islideshowtransition). |
 | [ThemeManager](../../aspose.slides/masterhandoutslide/thememanager) { get; } | Visszaadja a téma kezelőt. Csak olvasható [`IMasterThemeManager`](../../aspose.slides.theme/imasterthememanager). |
 | [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Visszaadja az animáció idővonal objektumot. Csak olvasható [`IAnimationTimeLine`](../ianimationtimeline). |
 
@@ -38,10 +38,10 @@ public class MasterHandoutSlide : BaseSlide, IMasterHandoutSlide
 | Név | Leírás |
 | --- | --- |
 | [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | Visszaad egy hatékony témát ehhez a diához. |
-| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Meghatározza, hogy a két IBaseSlide példány egyenlő-e. A visszatérési érték a dia felépítése és statikus tartalma alapján számítódik. Két dia akkor egyenlő, ha minden alakzat, stílus, szöveg, animáció és egyéb beállítás stb. egyenlő. Az összehasonlítás nem veszi figyelembe az egyedi azonosító értékeket, például a SlideId-t, és a dinamikus tartalmat, például a dátumhelyőrző aktuális dátumértékét. |
+| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Meghatározza, hogy a két IBaseSlide példány egyenlő-e. A visszatérő érték a dia felépítése és statikus tartalma alapján kerül kiszámításra. Két dia akkor egyenlő, ha minden alakzat, stílus, szöveg, animáció és egyéb beállítás stb. megegyezik. Az összehasonlítás nem veszi figyelembe az egyedi azonosító értékeket, például a SlideId-t, valamint a dinamikus tartalmakat, például a Dátum helyőrzőben jelenlegi dátumértéket. |
 | [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Megkeresi a megadott alternatív szöveggel rendelkező alakzat első előfordulását. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Összevonja az azonos formázású futamokat minden bekezdésben az összes alkalmas alakzaton. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Összevonja az azonos formázású futamokat minden bekezdésben az összes alkalmas alakzatban. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Összevonja a ugyanazt formázást tartalmazó futamokat az összes bekezdésben az összes megfelelő alakzatban. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Összevonja a ugyanazt formázást tartalmazó futamokat az összes bekezdésben az összes megfelelő alakzatban. |
 
 ### Lásd még
 

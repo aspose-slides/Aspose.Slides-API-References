@@ -3,10 +3,10 @@ title: ITable
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente un tableau sur une diapositive.
 type: docs
-weight: 7230
+weight: 7250
 url: /fr/aspose.slides/itable/
 ---
-## ITable interface
+## Interface ITable
 
 Représente un tableau sur une diapositive.
 
@@ -21,29 +21,29 @@ public interface ITable : IBulkTextFormattable, IGraphicalObject
 | [AsIBulkTextFormattable](../../aspose.slides/itable/asibulktextformattable) { get; } | Permet d'obtenir l'interface de base IBulkTextFormattable. Lecture seule [`IBulkTextFormattable`](../ibulktextformattable). |
 | [AsIGraphicalObject](../../aspose.slides/itable/asigraphicalobject) { get; } | Permet d'obtenir l'interface de base IGraphicalObject. Lecture seule [`IGraphicalObject`](../igraphicalobject). |
 | [Columns](../../aspose.slides/itable/columns) { get; } | Renvoie la collection de colonnes. Lecture seule [`IColumnCollection`](../icolumncollection). |
-| [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | Détermine si la première colonne d'un tableau doit être dessinée avec un formatage spécial. Lecture/écriture Booléen. |
-| [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | Détermine si la première ligne d'un tableau doit être dessinée avec un formatage spécial. Lecture/écriture Booléen. |
-| [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | Détermine si les lignes paires doivent être dessinées avec un formatage différent. Lecture/écriture Booléen. |
+| [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | Détermine si la première colonne d'un tableau doit être dessinée avec un format spécial. Lecture/écriture Boolean. |
+| [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | Détermine si la première ligne d'un tableau doit être dessinée avec un format spécial. Lecture/écriture Boolean. |
+| [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | Détermine si les lignes paires doivent être dessinées avec un format différent. Lecture/écriture Boolean. |
 | [Item](../../aspose.slides/itable/item) { get; } | Renvoie la cellule aux index de colonne et de ligne spécifiés. Lecture seule [`ICell`](../icell). |
-| [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | Détermine si la dernière colonne d'un tableau doit être dessinée avec un formatage spécial. Lecture/écriture Booléen. |
-| [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | Détermine si la dernière ligne d'un tableau doit être dessinée avec un formatage spécial. Lecture/écriture Booléen. |
-| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | Détermine si le tableau a un ordre de lecture de droite à gauche. Lecture/écriture Booléen. |
+| [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | Détermine si la dernière colonne d'un tableau doit être dessinée avec un format spécial. Lecture/écriture Boolean. |
+| [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | Détermine si la dernière ligne d'un tableau doit être dessinée avec un format spécial. Lecture/écriture Boolean. |
+| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | Détermine si le tableau a un ordre de lecture de droite à gauche. Lecture/écriture Boolean. |
 | [Rows](../../aspose.slides/itable/rows) { get; } | Renvoie la collection de lignes. Lecture seule [`IRowCollection`](../irowcollection). |
 | [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | Obtient ou définit le style de tableau intégré. Lecture/écriture [`TableStylePreset`](../tablestylepreset). |
-| [TableFormat](../../aspose.slides/itable/tableformat) { get; } | Renvoie l'objet TableFormat qui contient les propriétés de formatage de ce tableau. Lecture seule [`ITableFormat`](../itableformat). |
-| [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | Détermine si les colonnes paires doivent être dessinées avec un formatage différent. Lecture/écriture Booléen. |
+| [TableFormat](../../aspose.slides/itable/tableformat) { get; } | Renvoie l'objet TableFormat qui contient les propriétés de formatage pour ce tableau. Lecture seule [`ITableFormat`](../itableformat). |
+| [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | Détermine si les colonnes paires doivent être dessinées avec un format différent. Lecture/écriture Boolean. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [MergeCells](../../aspose.slides/itable/mergecells)(ICell, ICell, bool) | Fusionne les cellules voisines. |
+| [MergeCells](../../aspose.slides/itable/mergecells)(ICell, ICell, bool) | Fusionne les cellules adjacentes. |
 
 ### Voir aussi
 
 * interface [IBulkTextFormattable](../ibulktextformattable)
 * interface [IGraphicalObject](../igraphicalobject)
 * espace de noms [Aspose.Slides](../../aspose.slides)
-* assemblage [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

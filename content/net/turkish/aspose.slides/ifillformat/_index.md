@@ -1,14 +1,14 @@
 ---
 title: IFillFormat
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Dolgu biçimlendirme seçeneklerini temsil eder.
 type: docs
-weight: 5790
+weight: 5810
 url: /tr/aspose.slides/ifillformat/
 ---
 ## IFillFormat arayüz
 
-Dolgu formatlama seçeneklerini temsil eder.
+Dolgu biçimlendirme seçeneklerini temsil eder.
 
 ```csharp
 public interface IFillFormat : IFillParamSource
@@ -30,9 +30,9 @@ public interface IFillFormat : IFillParamSource
 
 | Ad | Açıklama |
 | --- | --- |
-| [GetEffective](../../aspose.slides/ifillformat/geteffective)() | Uygulanan kalıtımla etkili dolgu formatlama verilerini alır. |
+| [GetEffective](../../aspose.slides/ifillformat/geteffective)() | Kalıtım uygulanmış etkili dolgu biçimlendirme verilerini alır. |
 
-### Ayrıca Bakınız
+### Bakınız
 
 * arayüz [IFillParamSource](../ifillparamsource)
 * ad alanı [Aspose.Slides](../../aspose.slides)

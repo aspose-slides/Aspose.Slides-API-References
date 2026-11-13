@@ -1,14 +1,14 @@
 ---
 title: FillOverlay
-second_title: Aspose.Sildes для .NET справочник API
-description: Представляет эффект Fill Overlay. Fill overlay может использоваться для указания дополнительного заполнения объекта и смешения двух заполнений.
+second_title: Aspose.Sildes для .NET справка API
+description: Представляет эффект Fill Overlay. Fill overlay может использоваться для указания дополнительного заполнения объекта и смешивания двух заполнений вместе.
 type: docs
-weight: 2980
+weight: 3000
 url: /ru/aspose.slides.effects/filloverlay/
 ---
-## Класс FillOverlay
+## FillOverlay класс
 
-Представляет эффект Fill Overlay. Fill overlay может использоваться для указания дополнительного заполнения объекта и смешения двух заполнений.
+Представляет эффект Fill Overlay. Fill overlay может использоваться для указания дополнительного заполнения объекта и смешивания двух заполнений вместе.
 
 ```csharp
 public sealed class FillOverlay : ImageTransformOperation, IFillOverlay
@@ -16,7 +16,7 @@ public sealed class FillOverlay : ImageTransformOperation, IFillOverlay
 
 ## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 | [Blend](../../aspose.slides.effects/filloverlay/blend) { get; set; } | FillBlendMode. Чтение/запись [`FillBlendMode`](../../aspose.slides/fillblendmode). |
@@ -24,11 +24,11 @@ public sealed class FillOverlay : ImageTransformOperation, IFillOverlay
 
 ## Методы
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/filloverlay/equals)(object) | Определяет, равен ли указанный [`FillOverlay`](../filloverlay) текущему [`FillOverlay`](../filloverlay). |
 | [GetEffective](../../aspose.slides.effects/filloverlay/geteffective)() | Получает эффективные данные эффекта Fill Overlay с учётом наследования. |
-| override [GetHashCode](../../aspose.slides.effects/filloverlay/gethashcode)() | Служит хеш-функцией для конкретного типа. |
+| override [GetHashCode](../../aspose.slides.effects/filloverlay/gethashcode)() | Служит в качестве функции хеширования для конкретного типа. |
 
 ### См. также
 

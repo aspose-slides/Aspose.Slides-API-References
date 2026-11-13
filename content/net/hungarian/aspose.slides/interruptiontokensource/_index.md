@@ -1,14 +1,14 @@
 ---
 title: InterruptionTokenSource
-second_title: Aspose.Sildes .NET API hivatkozás
+second_title: Aspose.Sildes .NET API Referenciája
 description: A InterruptionToken forrását képviseli./interruptiontoken.
 type: docs
-weight: 7610
+weight: 7630
 url: /hu/aspose.slides/interruptiontokensource/
 ---
 ## InterruptionTokenSource osztály
 
-A [`InterruptionToken`](../interruptiontoken) forrását reprezentálja.
+A [`InterruptionToken`](../interruptiontoken) forrását képviseli.
 
 ```csharp
 public class InterruptionTokenSource : IInterruptionTokenSource
@@ -18,20 +18,20 @@ public class InterruptionTokenSource : IInterruptionTokenSource
 
 | Név | Leírás |
 | --- | --- |
-| [InterruptionTokenSource](interruptiontokensource)() | Új [`InterruptionTokenSource`](../interruptiontokensource) példányt hoz létre. |
+| [InterruptionTokenSource](interruptiontokensource)() | Létrehoz egy új [`InterruptionTokenSource`](../interruptiontokensource). |
 
 ## Tulajdonságok
 
 | Név | Leírás |
 | --- | --- |
-| [IsInterruptionRequested](../../aspose.slides/interruptiontokensource/isinterruptionrequested) { get; } | Igaz értéket ad vissza, ha megszakítás kérve van, egyébként hamis. |
-| [Token](../../aspose.slides/interruptiontokensource/token) { get; } | Új tokenet ad vissza, amely ehhez a [`InterruptionTokenSource`](../interruptiontokensource)-hez kapcsolódik. |
+| [IsInterruptionRequested](../../aspose.slides/interruptiontokensource/isinterruptionrequested) { get; } | Igaz értéket ad vissza, ha a megszakítás kérve van, egyébként false. |
+| [Token](../../aspose.slides/interruptiontokensource/token) { get; } | Új tokent ad vissza, amely ehhez a [`InterruptionTokenSource`](../interruptiontokensource)-hez van kötve. |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [Interrupt](../../aspose.slides/interruptiontokensource/interrupt)() | Inicializálja a megszakítási kérést. |
+| [Interrupt](../../aspose.slides/interruptiontokensource/interrupt)() | Megszakítási kérés inicializálása. |
 
 ### Lásd még
 

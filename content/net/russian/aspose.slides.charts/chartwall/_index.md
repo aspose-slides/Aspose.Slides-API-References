@@ -1,14 +1,14 @@
 ---
 title: ChartWall
 second_title: Aspose.Sildes для .NET справка API
-description: Представляет стены на 3D-диаграммах.
+description: Представляет стены на 3D диаграммах.
 type: docs
-weight: 1520
+weight: 1530
 url: /ru/aspose.slides.charts/chartwall/
 ---
 ## ChartWall класс
 
-Представляет стены на 3D-диаграммах.
+Represents walls on 3d charts.
 
 ```csharp
 public class ChartWall : DomObject<Chart>, IChartWall
@@ -16,11 +16,11 @@ public class ChartWall : DomObject<Chart>, IChartWall
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
-| [Format](../../aspose.slides.charts/chartwall/format) { get; } | Возвращает заливку стены, линию, эффект, 3D-стили. Только для чтения [`IFormat`](../iformat). |
+| [Format](../../aspose.slides.charts/chartwall/format) { get; } | Возвращает заливку стены, линию, эффект, 3d-стили. Только для чтения [`IFormat`](../iformat). |
 | [PictureType](../../aspose.slides.charts/chartwall/picturetype) { get; set; } | Возвращает или задает тип изображения. Чтение/запись [`PictureType`](../picturetype). |
-| [Thickness](../../aspose.slides.charts/chartwall/thickness) { get; set; } | Возвращает или задает толщину стен как процент от наибольшего измерения объёма построения. Чтение/запись Int32. |
+| [Thickness](../../aspose.slides.charts/chartwall/thickness) { get; set; } | Возвращает или задает толщину стенок в виде процента от наибольшего измерения объёма графика. Чтение/запись Int32. |
 
 ### См. также
 

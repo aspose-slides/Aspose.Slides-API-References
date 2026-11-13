@@ -1,14 +1,14 @@
 ---
 title: PresentedBySpeaker
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: स्पीकर द्वारा प्रस्तुत पूर्ण स्क्रीन
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: स्पीकर द्वारा पूर्ण स्क्रीन पर प्रस्तुत
 type: docs
-weight: 9650
+weight: 9670
 url: /hi/aspose.slides/presentedbyspeaker/
 ---
 ## PresentedBySpeaker क्लास
 
-स्पीकर द्वारा प्रस्तुत (फ़ुल स्क्रीन)
+स्पीकर द्वारा प्रस्तुत (पूरा स्क्रीन)
 
 ```csharp
 public class PresentedBySpeaker : SlideShowType
@@ -16,13 +16,14 @@ public class PresentedBySpeaker : SlideShowType
 
 ## निर्माता
 
-| नाम | विवरण |
+| नाम | वर्णन |
 | --- | --- |
-| [PresentedBySpeaker](presentedbyspeaker)() | PresentedBySpeaker क्लास की एक नई इंस्टेंस को इनिशियलाइज़ करता है। |
+| [PresentedBySpeaker](presentedbyspeaker)() | PresentedBySpeaker क्लास का नया उदाहरण आरंभ करता है। |
 
 ### उदाहरण
 
 ```csharp
+[C#]
 using (Presentation pres = new Presentation())
 {
     pres.SlideShowSettings.SlideShowType = new PresentedBySpeaker();
@@ -30,7 +31,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### अन्य देखें
+### संबंधित देखें
 
 * क्लास [SlideShowType](../slideshowtype)
 * नेमस्पेस [Aspose.Slides](../../aspose.slides)

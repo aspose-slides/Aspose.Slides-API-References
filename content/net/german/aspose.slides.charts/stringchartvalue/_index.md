@@ -1,14 +1,14 @@
 ---
 title: StringChartValue
-second_title: Aspose.Sildes für .NET API-Referenz
-description: "Stellt einen Zeichenfolgenwert dar, der in einer pptx-Präsentationsdatei auf zwei Arten gespeichert werden kann: 1) in Zelle/Zellen der Arbeitsmappe, die dem Diagramm zugeordnet ist, 2) als wörtlicher Wert."
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt einen Zeichenfolgenwert dar, der in einer pptx Präsentationsdatei auf zwei Arten gespeichert werden kann: 1 in Zelle(n) der zum Diagramm zugehörigen Arbeitsmappe 2 als wörtlicher Wert.
 type: docs
-weight: 2410
+weight: 2430
 url: /de/aspose.slides.charts/stringchartvalue/
 ---
 ## StringChartValue Klasse
 
-Stellt einen Zeichenfolgenwert dar, der in einer pptx-Präsentationsdatei auf zwei Arten gespeichert werden kann: 1) in Zelle/Zellen der Arbeitsmappe, die dem Diagramm zugeordnet ist; 2) als wörtlicher Wert.
+Stellt einen Zeichenfolgenwert dar, der in einer pptx-Präsentationsdatei auf zwei Arten gespeichert werden kann: 1) in Zelle(n) einer zum Diagramm zugehörigen Arbeitsmappe; 2) als wörtlicher Wert.
 
 ```csharp
 public class StringChartValue : BaseChartValue, IStringChartValue
@@ -16,20 +16,20 @@ public class StringChartValue : BaseChartValue, IStringChartValue
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | Zuweisung eines Nullwerts ist nicht erlaubt. Der zurückgegebene Wert ist immer nicht null. Lesen/Schreiben [`IChartCellCollection`](../ichartcellcollection). |
+| [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | Das Zuweisen eines Nullwerts ist nicht erlaubt. Der zurückgegebene Wert ist stets nicht null. Lesen/Schreiben [`IChartCellCollection`](../ichartcellcollection). |
 | [AsLiteralString](../../aspose.slides.charts/stringchartvalue/asliteralstring) { get; set; } | Gibt den Wert als wörtliche Zeichenfolge zurück oder setzt ihn. Lesen/Schreiben String. |
 | override [Data](../../aspose.slides.charts/stringchartvalue/data) { get; set; } | Gibt das Data-Objekt zurück oder setzt es. Lesen/Schreiben Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Gibt an, ob die Eigenschaft AsCell, AsCells, AsLiteralString oder AsLiteralDouble in abgeleiteten Klassen tatsächlich ist. Mit anderen Worten gibt sie den Typ des Werts der Data-Eigenschaft an. Lesen/Schreiben [`DataSourceType`](../datasourcetype). |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Gibt an, ob die Eigenschaft AsCell, AsCells, AsLiteralString oder AsLiteralDouble in Ableitungen tatsächlich ist. Mit anderen Worten wird der Typ des Wertes der Data-Eigenschaft festgelegt. Lesen/Schreiben [`DataSourceType`](../datasourcetype). |
 
 ## Methoden
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | Wenn die Eigenschaft DataSourceType den Wert DataSourceType.Worksheet hat, gibt diese Methode die Adresse der Zellen in der Arbeitsmappe zurück, die die Zeichenfolgendaten darstellen. Andernfalls wird ein leerer String zurückgegeben. |
+| [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | Wenn die Eigenschaft DataSourceType den Wert DataSourceType.Worksheet hat, gibt diese Methode die Adresse der Zellen in der Arbeitsmappe zurück, die die Zeichenfolgendaten darstellen. Andernfalls wird eine leere Zeichenfolge zurückgegeben. |
 | [SetFromOneCell](../../aspose.slides.charts/stringchartvalue/setfromonecell)(IChartDataCell) | Setzt den Wert aus der angegebenen Zelle. |
-| override [ToString](../../aspose.slides.charts/stringchartvalue/tostring)() | Gibt die Zeichenfolgendaten zurück. Gibt null zurück, wenn DataSourceType falsch ist und kein Zeichenfolgenwert zugewiesen wurde. |
+| override [ToString](../../aspose.slides.charts/stringchartvalue/tostring)() | Gibt die Zeichenfolgendaten zurück. Gibt null zurück, wenn DataSourceType false ist und kein Zeichenwert zugewiesen wurde. |
 
 ### Siehe auch
 

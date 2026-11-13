@@ -1,14 +1,14 @@
 ---
 title: ShredTransition
-second_title: Aspose.Sildes for .NET API リファレンス
-description: Shred スライド遷移効果。
+second_title: Aspose.Sildes for .NET APIリファレンス
+description: スライドのシャード遷移効果。
 type: docs
-weight: 10300
+weight: 10320
 url: /ja/aspose.slides.slideshow/shredtransition/
 ---
 ## ShredTransition クラス
 
-スレッドスライド遷移効果。
+スライドのシャード遷移効果。
 
 ```csharp
 public class ShredTransition : TransitionValueBase, IShredTransition

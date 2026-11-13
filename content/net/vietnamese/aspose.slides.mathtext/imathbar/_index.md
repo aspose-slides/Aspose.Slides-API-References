@@ -1,14 +1,14 @@
 ---
 title: IMathBar
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Xác định hàm thanh bao gồm một đối số cơ sở và một thanh trên hoặc thanh dưới
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Xác định hàm gạch thanh bao gồm một đối số cơ bản và một gạch trên hoặc gạch dưới
 type: docs
-weight: 8120
+weight: 8140
 url: /vi/aspose.slides.mathtext/imathbar/
 ---
 ## IMathBar giao diện
 
-Xác định hàm thanh, bao gồm một đối số cơ sở và một thanh trên hoặc thanh dưới
+Specifies the bar function, consisting of a base argument and an overbar or underbar
 
 ```csharp
 public interface IMathBar : IMathElement
@@ -18,9 +18,9 @@ public interface IMathBar : IMathElement
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathbar/asimathelement) { get; } | Cho phép lấy giao diện cơ sở IMathElement [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathbar/base) { get; } | Đối số cơ sở |
-| [Position](../../aspose.slides.mathtext/imathbar/position) { get; set; } | Vị trí của đường thanh. Mặc định: Trên |
+| [AsIMathElement](../../aspose.slides.mathtext/imathbar/asimathelement) { get; } | Cho phép lấy giao diện IMathElement cơ bản [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathbar/base) { get; } | Đối số cơ bản |
+| [Position](../../aspose.slides.mathtext/imathbar/position) { get; set; } | Vị trí của đường gạch. Default: Top |
 
 ### Ví dụ
 
@@ -31,7 +31,7 @@ Ví dụ:
 IMathBar mathBar = new MathBar(new MathematicalText("x"));
 ```
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [IMathElement](../imathelement)
 * không gian tên [Aspose.Slides.MathText](../../aspose.slides.mathtext)

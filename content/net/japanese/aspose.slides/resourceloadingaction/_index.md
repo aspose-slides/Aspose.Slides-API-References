@@ -1,14 +1,14 @@
 ---
 title: ResourceLoadingAction
-second_title: Aspose.Sildes の .NET API リファレンス
-description: 外部リソースの読み込みモードを指定します。
+second_title: Aspose.Sildes 用 .NET API リファレンス
+description: 外部リソースのロードモードを指定します。
 type: docs
-weight: 9700
+weight: 9720
 url: /ja/aspose.slides/resourceloadingaction/
 ---
 ## ResourceLoadingAction 列挙型
 
-外部リソースの読み込みモードを指定します。
+外部リソースのロードモードを指定します。
 
 ```csharp
 public enum ResourceLoadingAction
@@ -18,8 +18,8 @@ public enum ResourceLoadingAction
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| Default | `0` | Aspose.Slides は外部リソースを通常通り読み込みます。 |
-| Skip | `1` | Aspose.Slides は外部リソースの読み込みをスキップします。画像の場合、データのないリンクのみが保存されます。 |
+| Default | `0` | Aspose.Slides は外部リソースを通常どおりロードします。 |
+| Skip | `1` | Aspose.Slides は外部リソースのロードをスキップします。データのないリンクのみが画像として保存されます。 |
 | UserProvided | `2` | Aspose.Slides は [`SetData`](../iresourceloadingargs/setdata) でユーザーが提供したバイト配列を画像データとして使用します。 |
 
 ### 参照

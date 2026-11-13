@@ -1,9 +1,9 @@
 ---
 title: MathGroupingCharacterFactory
-second_title: Aspose.Sildes per .NET API Reference
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Consente di creare un carattere di raggruppamento matematico
 type: docs
-weight: 8770
+weight: 8790
 url: /it/aspose.slides.mathtext/mathgroupingcharacterfactory/
 ---
 ## MathGroupingCharacterFactory classe

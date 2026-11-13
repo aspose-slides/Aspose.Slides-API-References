@@ -3,7 +3,7 @@ title: ITabCollection
 second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Biểu diễn một tập hợp các tab.
 type: docs
-weight: 7200
+weight: 7220
 url: /vi/aspose.slides/itabcollection/
 ---
 ## ITabCollection giao diện
@@ -18,16 +18,16 @@ public interface ITabCollection : IGenericCollection<ITab>
 
 | Tên | Mô tả |
 | --- | --- |
-| [Item](../../aspose.slides/itabcollection/item) { get; } | Lấy phần tử tại chỉ mục được chỉ định. Chỉ đọc [`ITab`](../itab). |
+| [Item](../../aspose.slides/itabcollection/item) { get; } | Trả về phần tử tại chỉ mục được chỉ định. Chỉ đọc [`ITab`](../itab). |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [Add](../../aspose.slides/itabcollection/add#add_1)(ITab) | Thêm một Tab vào tập hợp. |
-| [Add](../../aspose.slides/itabcollection/add#add)(double, TabAlignment) | Thêm một Tab vào tập hợp. |
-| [Clear](../../aspose.slides/itabcollection/clear)() | Xóa tất cả các phần tử khỏi tập hợp. |
-| [RemoveAt](../../aspose.slides/itabcollection/removeat)(int) | Xóa phần tử tại chỉ mục được chỉ định của tập hợp. |
+| [Add](../../aspose.slides/itabcollection/add#add_1)(ITab) | Thêm một Tab vào bộ sưu tập. |
+| [Add](../../aspose.slides/itabcollection/add#add)(double, TabAlignment) | Thêm một Tab vào bộ sưu tập. |
+| [Clear](../../aspose.slides/itabcollection/clear)() | Xóa tất cả các phần tử khỏi bộ sưu tập. |
+| [RemoveAt](../../aspose.slides/itabcollection/removeat)(int) | Xóa phần tử tại chỉ mục được chỉ định của bộ sưu tập. |
 
 ### Xem thêm
 

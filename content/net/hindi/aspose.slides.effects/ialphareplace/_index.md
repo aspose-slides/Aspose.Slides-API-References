@@ -1,28 +1,28 @@
 ---
 title: IAlphaReplace
-second_title: Aspose.Sildes के लिये .NET API संदर्भ
-description: बेस IImageTransformOperation इंटरफ़ेस का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: आधार IImageTransformOperation इंटरफ़ेस को दर्शाता है।
 type: docs
-weight: 3140
+weight: 3160
 url: /hi/aspose.slides.effects/ialphareplace/
 ---
 ## IAlphaReplace इंटरफ़ेस
 
-IImageTransformOperation इंटरफ़ेस का बेस प्रतिनिधित्व करता है।
+आधार IImageTransformOperation इंटरफ़ेस को दर्शाता है।
 
 ```csharp
 public interface IAlphaReplace : IAccessiblePVIObject<IAlphaReplaceEffectiveData>, 
     IImageTransformOperation
 ```
 
-## गुण
+## गुणधर्म
 
-| नाम | विवरण |
+| नाम | वर्णन |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphareplace/asiaccessiblepviobject) { get; } | IAccessiblePVIObject इंटरफ़ेस का बेस प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)। |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphareplace/asiimagetransformoperation) { get; } | IImageTransformOperation इंटरफ़ेस का बेस प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IImageTransformOperation`](../iimagetransformoperation)। |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphareplace/asiaccessiblepviobject) { get; } | आधार IAccessiblePVIObject इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पठन [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)। |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphareplace/asiimagetransformoperation) { get; } | आधार IImageTransformOperation इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पठन [`IImageTransformOperation`](../iimagetransformoperation)। |
 
-### देखें
+### और देखें
 
 * इंटरफ़ेस [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * इंटरफ़ेस [IAlphaReplaceEffectiveData](../ialphareplaceeffectivedata)

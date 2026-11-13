@@ -1,14 +1,14 @@
 ---
 title: HSL
-second_title: Référence API Aspose.Sildes pour .NET
-description: Représente un effet Hue/Saturation/Luminance. Le hue, la saturation et la luminance peuvent chacun être ajustés par rapport à leur valeur actuelle.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Représente un effet de teinte/saturation/luminance. La teinte, la saturation et la luminance peuvent chacune être ajustées par rapport à leur valeur actuelle.
 type: docs
-weight: 3010
+weight: 3030
 url: /fr/aspose.slides.effects/hsl/
 ---
 ## HSL classe
 
-Représente un effet Hue/Saturation/Luminance. Le hue, la saturation et la luminance peuvent chacun être ajustés par rapport à leur valeur actuelle.
+Représente un effet de teinte/saturation/luminance. La teinte, la saturation et la luminance peuvent chacune être ajustées par rapport à leur valeur actuelle.
 
 ```csharp
 public sealed class HSL : ImageTransformOperation, IHSL

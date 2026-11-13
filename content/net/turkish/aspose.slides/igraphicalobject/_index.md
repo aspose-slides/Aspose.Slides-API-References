@@ -1,14 +1,14 @@
 ---
 title: IGraphicalObject
 second_title: Aspose.Sildes için .NET API Referansı
-description: Soyut grafik nesneyi temsil eder.
+description: Soyut grafiksel nesneyi temsil eder.
 type: docs
-weight: 6060
+weight: 6080
 url: /tr/aspose.slides/igraphicalobject/
 ---
-## IGraphicalObject arayüz
+## IGraphicalObject arayüzü
 
-Soyut grafik nesneyi temsil eder.
+Soyut grafiksel nesneyi temsil eder.
 
 ```csharp
 public interface IGraphicalObject : IShape
@@ -18,11 +18,11 @@ public interface IGraphicalObject : IShape
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIShape](../../aspose.slides/igraphicalobject/asishape) { get; } | Temel IShape arayüzünü almayı sağlar. Salt okunur [`IShape`](../ishape). |
+| [AsIShape](../../aspose.slides/igraphicalobject/asishape) { get; } | İstemci temel IShape arayüzünü almasına izin verir. Salt okunur [`IShape`](../ishape). |
 | [GraphicalObjectLock](../../aspose.slides/igraphicalobject/graphicalobjectlock) { get; } | Şeklin kilitlerini döndürür. Salt okunur [`IGraphicalObjectLock`](../igraphicalobjectlock). |
 | [ShapeLock](../../aspose.slides/igraphicalobject/shapelock) { get; } | Şeklin kilitlerini döndürür. Salt okunur [`IGraphicalObjectLock`](../igraphicalobjectlock). |
 
-### İlgili
+### Ayrıca Bakınız
 
 * arayüz [IShape](../ishape)
 * ad alanı [Aspose.Slides](../../aspose.slides)

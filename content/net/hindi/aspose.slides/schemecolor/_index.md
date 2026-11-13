@@ -3,10 +3,10 @@ title: SchemeColor
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: रंग योजना में रंगों को दर्शाता है।
 type: docs
-weight: 9740
+weight: 9760
 url: /hi/aspose.slides/schemecolor/
 ---
-## SchemeColor एन्‍यु‍मरेशन
+## SchemeColor एन्‍यूमरेशन
 
 रंग योजना में रंगों को दर्शाता है।
 
@@ -16,7 +16,7 @@ public enum SchemeColor
 
 ### मान
 
-| नाम | मान | विवरण |
+| नाम | मूल्य | विवरण |
 | --- | --- | --- |
 | NotDefined | `-1` | रंग योजना परिभाषित नहीं है। |
 | Background1 | `0` |  |

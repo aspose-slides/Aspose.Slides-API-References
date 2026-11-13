@@ -1,14 +1,14 @@
 ---
 title: IChartParagraphFormat
 second_title: Aspose.Sildes .NET API 参考
-description: 表示图表的段落格式属性。
+description: 表示图表段落的格式属性。
 type: docs
-weight: 1900
+weight: 1920
 url: /zh/aspose.slides.charts/ichartparagraphformat/
 ---
 ## IChartParagraphFormat 接口
 
-表示图表的段落格式属性。
+表示图表段落的格式属性。
 
 ```csharp
 public interface IChartParagraphFormat
@@ -18,20 +18,20 @@ public interface IChartParagraphFormat
 
 | 名称 | 描述 |
 | --- | --- |
-| [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | 返回或设置段落中的文本对齐方式。读/写 [`TextAlignment`](../../aspose.slides/textalignment)。 |
-| [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | 返回或设置默认制表位大小。读/写 Single。 |
-| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | 确定段落中是否使用东亚换行。读/写 [`NullableBool`](../../aspose.slides/nullablebool)。 |
-| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | 返回或设置段落中的字体对齐方式。读/写 [`FontAlignment`](../../aspose.slides/fontalignment)。 |
-| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | 确定段落中是否使用悬挂标点。读/写 [`NullableBool`](../../aspose.slides/nullablebool)。 |
-| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | 返回或设置段落的首行缩进/悬挂缩进。悬挂缩进可以使用负值。读/写 Single。 |
-| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | 确定段落中是否使用拉丁换行。读/写 [`NullableBool`](../../aspose.slides/nullablebool)。 |
-| [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | 返回或设置段落的左边距。读/写 Single。 |
-| [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | 返回或设置段落的右边距。读/写 Single。 |
-| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | 确定段落中是否使用从右向左书写。读/写 [`NullableBool`](../../aspose.slides/nullablebool)。 |
-| [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | 返回或设置段落最后一行之后的间距。读/写 Single。 |
-| [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | 返回或设置段落第一行之前的间距。读/写 Single。 |
-| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | 返回或设置段落基线之间的间距。读/写 Single。 |
-| [Tabs](../../aspose.slides.charts/ichartparagraphformat/tabs) { get; } | 返回段落的制表位。只读 [`ITabCollection`](../../aspose.slides/itabcollection)。 |
+| [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | 返回或设置段落中的文本对齐方式。Read/write [`TextAlignment`](../../aspose.slides/textalignment)。 |
+| [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | 返回或设置默认制表符大小。Read/write Single。 |
+| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | 确定段落中是否使用东亚换行。Read/write [`NullableBool`](../../aspose.slides/nullablebool)。 |
+| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | 返回或设置段落中的字体对齐方式。Read/write [`FontAlignment`](../../aspose.slides/fontalignment)。 |
+| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | 确定段落中是否使用悬挂标点。Read/write [`NullableBool`](../../aspose.slides/nullablebool)。 |
+| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | 返回或设置段落的首行缩进/悬挂缩进。悬挂缩进可以使用负值定义。Read/write Single。 |
+| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | 确定段落中是否使用拉丁换行。Read/write [`NullableBool`](../../aspose.slides/nullablebool)。 |
+| [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | 返回或设置段落的左边距。Read/write Single。 |
+| [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | 返回或设置段落的右边距。Read/write Single。 |
+| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | 确定段落中是否使用从右向左书写。Read/write [`NullableBool`](../../aspose.slides/nullablebool)。 |
+| [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | 返回或设置段落最后一行之后的空白量。Read/write Single。 |
+| [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | 返回或设置段落第一行之前的空白量。Read/write Single。 |
+| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | 返回或设置段落基线之间的空白量。Read/write Single。 |
+| [Tabs](../../aspose.slides.charts/ichartparagraphformat/tabs) { get; } | 返回段落的制表符。Read-only [`ITabCollection`](../../aspose.slides/itabcollection)。 |
 
 ### 另见
 

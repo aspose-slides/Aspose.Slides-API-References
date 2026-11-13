@@ -1,9 +1,9 @@
 ---
 title: ReplaceText
-second_title: Referência da API Aspose.Sildes for .NET
+second_title: Aspose.Sildes for .NET Referência da API
 description: Substitui todas as ocorrências do texto especificado por outro texto especificado.
 type: docs
-weight: 130
+weight: 140
 url: /pt/aspose.slides/textframe/replacetext/
 ---
 ## TextFrame.ReplaceText método
@@ -17,10 +17,10 @@ public void ReplaceText(string oldText, string newText, ITextSearchOptions optio
 
 | Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
-| oldText | String | A string a ser substituída. |
-| newText | String | A string que substituirá todas as ocorrências de oldText. |
+| oldText | String | A String a ser substituída. |
+| newText | String | A String que substitui todas as ocorrências de oldText. |
 | options | ITextSearchOptions | Opções de pesquisa de texto [`ITextSearchOptions`](../../itextsearchoptions). |
-| callback | IFindResultCallback | Objeto de retorno de chamada para salvar o resultado da operação de substituição [`IFindResultCallback`](../../ifindresultcallback). |
+| callback | IFindResultCallback | Objeto de callback para salvar o resultado da operação de substituição [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Exemplos
 
@@ -29,14 +29,14 @@ O código de exemplo a seguir mostra como substituir uma string especificada por
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx")){
-	// Substitua todas as ocorrências separadas de 'the' por '***'
+	// Substitui todas as ocorrências separadas de 'the' por '***'
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.ReplaceText("the", "***", new TextSearchOptions()
 	{ WholeWordsOnly = true }, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 }
 ```
 
-### Veja Também
+### Ver também
 
 * interface [ITextSearchOptions](../../itextsearchoptions)
 * interface [IFindResultCallback](../../ifindresultcallback)

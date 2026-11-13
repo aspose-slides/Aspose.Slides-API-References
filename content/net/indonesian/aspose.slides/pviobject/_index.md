@@ -1,14 +1,14 @@
 ---
 title: PVIObject
-second_title: Aspose.Sildes untuk .NET Referensi API
-description: Mengkapsulkan infrastruktur layanan dasar untuk objek yang dapat menjadi subjek pewarisan nilai properti.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Menyatukan infrastruktur layanan dasar untuk objek yang dapat menjadi subjek pewarisan nilai properti.
 type: docs
-weight: 9270
+weight: 9290
 url: /id/aspose.slides/pviobject/
 ---
 ## PVIObject kelas
 
-Mengkapsulkan infrastruktur layanan dasar untuk objek yang dapat menjadi subjek pewarisan nilai properti.
+Menyatukan infrastruktur layanan dasar untuk objek yang dapat menjadi subjek pewarisan nilai properti.
 
 ```csharp
 public abstract class PVIObject : ISlideComponent
@@ -18,7 +18,7 @@ public abstract class PVIObject : ISlideComponent
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Mengizinkan untuk mendapatkan antarmuka IPresentationComponent dasar. Hanya-baca [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Memungkinkan untuk mendapatkan antarmuka IPresentationComponent dasar. Hanya-baca [`IPresentationComponent`](../ipresentationcomponent). |
 
 ## Metode
 

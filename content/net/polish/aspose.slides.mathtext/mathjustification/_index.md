@@ -1,14 +1,14 @@
 ---
 title: MathJustification
-second_title: Aspose.Sildes dla .NET – referencja API
-description: Określa justowanie akapitu matematycznego, czyli serii sąsiadujących wystąpień tekstu matematycznego w ramach tego samego akapitu
+second_title: Aspose.Sildes dla odniesienia API .NET
+description: Określa justowanie akapitu matematycznego, czyli serii sąsiadujących wystąpień tekstu matematycznego w tym samym akapicie
 type: docs
-weight: 8800
+weight: 8820
 url: /pl/aspose.slides.mathtext/mathjustification/
 ---
-## Wyliczenie MathJustification
+## MathJustification enumeracja
 
-Określa justowanie akapitu matematycznego (ciągu sąsiadujących wystąpień tekstu matematycznego w ramach tego samego akapitu)
+Określa justowanie akapitu matematycznego (ciąg sąsiadujących wystąpień tekstu matematycznego w tym samym akapicie)
 
 ```csharp
 public enum MathJustification

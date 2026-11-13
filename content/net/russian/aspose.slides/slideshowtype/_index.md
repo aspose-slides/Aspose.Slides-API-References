@@ -1,14 +1,14 @@
 ---
 title: SlideShowType
-second_title: Aspose.Sildes для .NET Справочник API
-description: Базовые настройки слайд-шоу. Предки представляют типы слайд-шоу PresentedBySpeaker./presentedbyspeaker Представлено спикером в полноэкранном режиме BrowsedByIndividual./browsedbyindividual Просмотр отдельным пользователем в окне BrowsedAtKiosk./browsedatkiosk Просмотр в киоске в полноэкранном режиме
+second_title: Aspose.Sildes для .NET справочник API
+description: Базовые настройки слайд-шоу. Предки представляют типы слайд-шоу PresentedBySpeaker./presentedbyspeaker Представлено спикером полный экран BrowsedByIndividual./browsedbyindividual Просматривается отдельным пользователем окно BrowsedAtKiosk./browsedatkiosk Просматривается в киоске полный экран
 type: docs
-weight: 10490
+weight: 10510
 url: /ru/aspose.slides/slideshowtype/
 ---
 ## SlideShowType класс
 
-Базовые настройки слайд-шоу. Предки представляют типы слайд-шоу: [`PresentedBySpeaker`](../presentedbyspeaker) Представлено спикером (полный экран) [`BrowsedByIndividual`](../browsedbyindividual) Просмотр отдельным пользователем (окно) [`BrowsedAtKiosk`](../browsedatkiosk) Просмотр в киоске (полный экран)
+Базовые настройки слайд-шоу. Предки представляют типы слайд-шоу: [`PresentedBySpeaker`](../presentedbyspeaker) Предоставлено спикером (полный экран) [`BrowsedByIndividual`](../browsedbyindividual) Просматривается пользователем (окно) [`BrowsedAtKiosk`](../browsedatkiosk) Просматривается в киоске (полный экран)
 
 ```csharp
 public abstract class SlideShowType

@@ -1,14 +1,14 @@
 ---
 title: PersistenceType
 second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Określa metodę używaną do przechowywania właściwości kontrolki ActiveX.
+description: Określa metodę używaną do przechowywania właściwości kontroli ActiveX.
 type: docs
-weight: 9370
+weight: 9390
 url: /pl/aspose.slides/persistencetype/
 ---
 ## Wyliczenie PersistenceType
 
-Określa metodę używaną do przechowywania właściwości kontrolki ActiveX.
+Określa metodę używaną do przechowywania właściwości kontroli ActiveX.
 
 ```csharp
 public enum PersistenceType
@@ -16,13 +16,13 @@ public enum PersistenceType
 
 ### Wartości
 
-| Nazwa | Wartość | Opis |
+| Name | Value | Description |
 | --- | --- | --- |
-| NotDefined | `-1` | Nie określono identyfikatora persystencji. |
-| PersistPropertyBag | `0` | Określa, że kontrolka ActiveX jest przechowywana przy użyciu persystencji opartej na property-bag. Persystencja oparta na property-bag przechowuje kontrolkę ActiveX za pomocą kolekcji par nazw i wartości określających dane przechowywane przez kontrolkę ActiveX. |
-| PersistStream | `1` | Określa, że kontrolka ActiveX jest przechowywana przy użyciu persystencji opartej na strumieniu, która nie obsługuje inicjalizacji kontrolki ActiveX do stanu domyślnego. |
-| PersistStreamInit | `2` | Określa, że kontrolka ActiveX jest przechowywana przy użyciu persystencji opartej na strumieniu, która obsługuje inicjalizację kontrolki ActiveX do stanu domyślnego. |
-| PersistStorage | `3` | Określa, że kontrolka ActiveX jest przechowywana przy użyciu persystencji opartej na przechowywaniu. |
+| NotDefined | `-1` | Identyfikator persystencji nie został określony. |
+| PersistPropertyBag | `0` | Określa, że kontrola ActiveX jest utrwalana przy użyciu trwałości opartej na paczce właściwości. Trwałość oparta na paczce właściwości przechowuje kontrolę ActiveX za pomocą kolekcji par nazwa-wartość, które określają dane utrwalane przez kontrolę ActiveX. |
+| PersistStream | `1` | Określa, że kontrola ActiveX jest utrwalana przy użyciu trwałości opartej na strumieniu, która nie obsługuje inicjalizacji kontroli ActiveX do stanu domyślnego. |
+| PersistStreamInit | `2` | Określa, że kontrola ActiveX jest utrwalana przy użyciu trwałości opartej na strumieniu, która obsługuje inicjalizację kontroli ActiveX do stanu domyślnego. |
+| PersistStorage | `3` | Określa, że kontrola ActiveX jest utrwalana przy użyciu trwałości opartej na magazynie. |
 
 ### Zobacz także
 

@@ -1,14 +1,14 @@
 ---
 title: IColumnFormat
-second_title: Aspose.Sildes for .NET API 참조
-description: 테이블 열의 형식을 나타냅니다.
+second_title: Aspose.Sildes .NET API 참조
+description: 테이블 열의 서식을 나타냅니다.
 type: docs
-weight: 5540
+weight: 5560
 url: /ko/aspose.slides/icolumnformat/
 ---
 ## IColumnFormat 인터페이스
 
-테이블 열의 형식을 나타냅니다.
+테이블 열의 서식을 나타냅니다.
 
 ```csharp
 public interface IColumnFormat
@@ -18,7 +18,7 @@ public interface IColumnFormat
 
 | 이름 | 설명 |
 | --- | --- |
-| [GetEffective](../../aspose.slides/icolumnformat/geteffective)() | 상속 및 테이블 스타일이 적용된 효과적인 테이블 열 서식 속성을 가져옵니다. |
+| [GetEffective](../../aspose.slides/icolumnformat/geteffective)() | 상속 및 표 스타일이 적용된 효과적인 테이블 열 서식 속성을 가져옵니다. |
 
 ### 참고
 

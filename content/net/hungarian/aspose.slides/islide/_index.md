@@ -1,9 +1,9 @@
 ---
 title: ISlide
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes a .NET API Referenciához
 description: Egy diát képvisel egy prezentációban.
 type: docs
-weight: 7040
+weight: 7060
 url: /hu/aspose.slides/islide/
 ---
 ## ISlide interfész
@@ -22,27 +22,27 @@ public interface ISlide : IBaseSlide, IOverrideThemeable
 | [AsIOverrideThemeable](../../aspose.slides/islide/asioverridethemeable) { get; } | Visszaadja az IOverrideThemeable interfészt. Csak olvasható [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
 | [HeaderFooterManager](../../aspose.slides/islide/headerfootermanager) { get; } | Visszaadja a dia HeaderFooter kezelőjét. Csak olvasható [`ISlideHeaderFooterManager`](../islideheaderfootermanager). |
 | [Hidden](../../aspose.slides/islide/hidden) { get; set; } | Meghatározza, hogy a megadott dia rejtett-e a diavetítés során. Olvasás/írás Boolean. |
-| [LayoutSlide](../../aspose.slides/islide/layoutslide) { get; set; } | Visszaadja vagy beállítja a jelenlegi dia elrendezését. Olvasás/írás [`ILayoutSlide`](../ilayoutslide). |
-| [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | Lehetővé teszi a jegyzetdiát elérni, hozzáadni és eltávolítani. Csak olvasható [`INotesSlideManager`](../inotesslidemanager). |
-| [SlideNumber](../../aspose.slides/islide/slidenumber) { get; set; } | Visszaadja a dia számát. A [`Slides`](../ipresentation/slides) gyűjteményben a dia indexe mindig megegyezik a SlideNumber - 1 értékével. Olvasás/írás Int32. |
+| [LayoutSlide](../../aspose.slides/islide/layoutslide) { get; set; } | Visszaadja vagy beállítja az aktuális dia elrendezését. Olvasás/írás [`ILayoutSlide`](../ilayoutslide). |
+| [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | Lehetővé teszi a jegyzetdia elérését, hozzáadását és eltávolítását. Csak olvasható [`INotesSlideManager`](../inotesslidemanager). |
+| [SlideNumber](../../aspose.slides/islide/slidenumber) { get; set; } | Visszaadja a dia számát. A [`Slides`](../ipresentation/slides) gyűjteményben a dia indexe mindig egyenlő a SlideNumber - 1 értékével. Olvasás/írás Int32. |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [GetImage](../../aspose.slides/islide/getimage#getimage)() | Visszaad egy miniatűr képobjektumot (az eredeti méret 20%-a). |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_1)(IRenderingOptions) | Visszaad egy miniatűr bitmap objektumot. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage)() | Visszaad egy miniatűr kép objektumot (a valós méret 20%-a). |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_1)(IRenderingOptions) | Visszaad egy miniatűr Bitmap objektumot. |
 | [GetImage](../../aspose.slides/islide/getimage#getimage_4)(ITiffOptions) | Visszaad egy miniatűr tiff bitmap objektumot a megadott paraméterekkel. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_6)(Size) | Visszaad egy képobjektumot a megadott mérettel. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_5)(float, float) | Visszaad egy képobjektumot egyéni méretezéssel. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_3)(IRenderingOptions, Size) | Visszaad egy miniatűr bitmap objektumot a megadott mérettel. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_2)(IRenderingOptions, float, float) | Visszaad egy miniatűr bitmap objektumot egyéni méretezéssel. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_6)(Size) | Visszaad egy kép objektumot a megadott mérettel. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_5)(float, float) | Visszaad egy kép objektumot egyéni méretezéssel. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_3)(IRenderingOptions, Size) | Visszaad egy miniatűr Bitmap objektumot a megadott mérettel. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_2)(IRenderingOptions, float, float) | Visszaad egy miniatűr Bitmap objektumot egyéni méretezéssel. |
 | [GetSlideComments](../../aspose.slides/islide/getslidecomments)(ICommentAuthor) | Visszaadja az adott szerző által hozzáadott összes dia megjegyzést. |
 | [Remove](../../aspose.slides/islide/remove)() | Eltávolítja a diát a prezentációból. |
-| [Reset](../../aspose.slides/islide/reset)() | Visszaállítja a pozíciót, méretet és formázást minden alakzatra, amelynek prototípusa van a LayoutSlide-on. |
-| [WriteAsEmf](../../aspose.slides/islide/writeasemf)(Stream) | A dia tartalmát EMF fájlként menti. |
-| [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg)(Stream) | A dia tartalmát SVG fájlként menti. |
-| [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg_1)(Stream, ISVGOptions) | A dia tartalmát SVG fájlként menti. |
+| [Reset](../../aspose.slides/islide/reset)() | Visszaállítja a pozíciót, méretet és formázást minden olyan alakzatra, amelynek prototípusa van a LayoutSlide-on. |
+| [WriteAsEmf](../../aspose.slides/islide/writeasemf)(Stream) | A diat tartalmat EMF fájlként menti. |
+| [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg)(Stream) | A diat tartalmat SVG fájlként menti. |
+| [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg_1)(Stream, ISVGOptions) | A diat tartalmat SVG fájlként menti. |
 
 ### Lásd még
 

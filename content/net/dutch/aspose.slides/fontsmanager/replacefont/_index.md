@@ -3,7 +3,7 @@ title: ReplaceFont
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Vervang lettertype in presentatie
 type: docs
-weight: 100
+weight: 110
 url: /nl/aspose.slides/fontsmanager/replacefont/
 ---
 ## ReplaceFont(IFontData, IFontData) {#replacefont}
@@ -30,7 +30,7 @@ public void ReplaceFont(IFontData sourceFont, IFontData destFont)
 
 ## ReplaceFont(IFontSubstRule) {#replacefont_1}
 
-Vervang lettertype in presentatie met behulp van de informatie die is opgegeven in [`FontSubstRule`](../../fontsubstrule)
+Vervang lettertype in presentatie met informatie die wordt verstrekt in [`FontSubstRule`](../../fontsubstrule)
 
 ```csharp
 public void ReplaceFont(IFontSubstRule substRule)
@@ -38,7 +38,7 @@ public void ReplaceFont(IFontSubstRule substRule)
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| substRule | IFontSubstRule | Info over lettertypevervanging |
+| substRule | IFontSubstRule | Informatie over lettertype-substitutie |
 
 ### Zie ook
 
@@ -51,7 +51,7 @@ public void ReplaceFont(IFontSubstRule substRule)
 
 ## ReplaceFont(IFontSubstRuleCollection) {#replacefont_2}
 
-Vervang lettertype in presentatie met behulp van de informatie die is opgegeven in de collectie [`FontSubstRule`](../../fontsubstrule)
+Vervang lettertype in presentatie met informatie die wordt verstrekt in collectie van [`FontSubstRule`](../../fontsubstrule)
 
 ```csharp
 public void ReplaceFont(IFontSubstRuleCollection substRules)
@@ -59,7 +59,7 @@ public void ReplaceFont(IFontSubstRuleCollection substRules)
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| substRules | IFontSubstRuleCollection | Collectie met lettertypevervangingsregels |
+| substRules | IFontSubstRuleCollection | Collectie van lettertype-substitutieregels |
 
 ### Zie ook
 

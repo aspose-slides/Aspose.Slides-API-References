@@ -1,14 +1,14 @@
 ---
 title: ITagCollection
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa la colección de etiquetas, pares de cadenas definidos por el usuario
+second_title: Referencia de la API de Aspose.Sildes para .NET
+description: Representa la colección de etiquetas definidas por el usuario como pares de cadenas
 type: docs
-weight: 7260
+weight: 7280
 url: /es/aspose.slides/itagcollection/
 ---
 ## ITagCollection interfaz
 
-Representa la colección de etiquetas (pares de cadenas definidas por el usuario)
+Representa la colección de etiquetas (pares de cadenas definidos por el usuario)
 
 ```csharp
 public interface ITagCollection : IGenericCollection<KeyValuePair<string, string>>
@@ -18,7 +18,7 @@ public interface ITagCollection : IGenericCollection<KeyValuePair<string, string
 
 | Nombre | Descripción |
 | --- | --- |
-| [Item](../../aspose.slides/itagcollection/item) { get; set; } | Devuelve o establece un par clave y valor de una etiqueta. |
+| [Item](../../aspose.slides/itagcollection/item) { get; set; } | Devuelve o establece un par clave-valor de una etiqueta. |
 
 ## Métodos
 

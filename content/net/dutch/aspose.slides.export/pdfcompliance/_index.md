@@ -1,14 +1,14 @@
 ---
 title: PdfCompliance
-second_title: Aspose.Sildes for .NET API Referentie
-description: Constanten die het nalevingsniveau van de PDF-standaarden definiëren.
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Constanten die het PDF-standaardconformiteitsniveau definiëren.
 type: docs
-weight: 4320
+weight: 4340
 url: /nl/aspose.slides.export/pdfcompliance/
 ---
 ## PdfCompliance enumeratie
 
-Constanten die het nalevingsniveau van de PDF-standaarden definiëren.
+Constanten die het PDF-standaardconformiteitsniveau definiëren.
 
 ```csharp
 public enum PdfCompliance

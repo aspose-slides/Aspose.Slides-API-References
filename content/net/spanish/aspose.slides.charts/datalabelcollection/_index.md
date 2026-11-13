@@ -1,9 +1,9 @@
 ---
 title: DataLabelCollection
-second_title: Aspose.Sildes para la referencia de API de .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa las etiquetas de una serie.
 type: docs
-weight: 1560
+weight: 1570
 url: /es/aspose.slides.charts/datalabelcollection/
 ---
 ## DataLabelCollection clase
@@ -16,24 +16,25 @@ public class DataLabelCollection : DomObject<ChartSeries>, IDataLabelCollection
 
 ## Propiedades
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | [Chart](../../aspose.slides.charts/datalabelcollection/chart) { get; } | Devuelve el gráfico principal. Solo lectura [`IChart`](../ichart). |
 | [Count](../../aspose.slides.charts/datalabelcollection/count) { get; } | Obtiene el número de todas las etiquetas de datos en la colección. Solo lectura Int32. |
 | [CountOfVisibleDataLabels](../../aspose.slides.charts/datalabelcollection/countofvisibledatalabels) { get; } | Obtiene el número de etiquetas de datos visibles en la colección. Solo lectura Int32. |
-| [DefaultDataLabelFormat](../../aspose.slides.charts/datalabelcollection/defaultdatalabelformat) { get; } | Obtiene el formato de etiqueta de datos predeterminado. Solo lectura [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/datalabelcollection/isvisible) { get; } | False indica que la etiqueta de datos no es visible por defecto (y por lo tanto todas las banderas Show* (ShowValue, ...) de la propiedad DefaultDataLabelFormat son falsas). Solo lectura Boolean. |
+| [DefaultDataLabelFormat](../../aspose.slides.charts/datalabelcollection/defaultdatalabelformat) { get; } | Obtiene el formato predeterminado de la etiqueta de datos. Solo lectura [`IDataLabelFormat`](../idatalabelformat). |
+| [DefaultLabelShapeType](../../aspose.slides.charts/datalabelcollection/defaultlabelshapetype) { get; set; } | Obtiene o establece el tipo de forma predeterminado para las etiquetas de datos. Devuelve NotDefined si no se define una forma. |
+| [IsVisible](../../aspose.slides.charts/datalabelcollection/isvisible) { get; } | False significa que la etiqueta de datos no es visible por defecto (y por lo tanto todos los indicadores Show*- (ShowValue, ...) de la propiedad DefaultDataLabelFormat son false). Solo lectura Boolean. |
 | [Item](../../aspose.slides.charts/datalabelcollection/item) { get; } | Obtiene la etiqueta de datos para el punto de datos con el índice especificado. |
-| [LeaderLinesFormat](../../aspose.slides.charts/datalabelcollection/leaderlinesformat) { get; } | Representa el formato de líneas guía de etiquetas de datos. Solo lectura [`IChartLinesFormat`](../ichartlinesformat). |
+| [LeaderLinesFormat](../../aspose.slides.charts/datalabelcollection/leaderlinesformat) { get; } | Representa el formato de líneas guías de las etiquetas de datos. Solo lectura [`IChartLinesFormat`](../ichartlinesformat). |
 | [ParentSeries](../../aspose.slides.charts/datalabelcollection/parentseries) { get; } | Obtiene la serie principal. Solo lectura [`IChartSeries`](../ichartseries). |
 
 ## Métodos
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | [GetEnumerator](../../aspose.slides.charts/datalabelcollection/getenumerator)() | Devuelve un enumerador que itera a través de la colección. |
-| [Hide](../../aspose.slides.charts/datalabelcollection/hide)() | Oculta la etiqueta de datos por defecto estableciendo todas las banderas Show* (ShowValue, ...) de la propiedad DefaultDataLabelFormat a estado falso. IsVisible será false después de esto. |
-| [IndexOf](../../aspose.slides.charts/datalabelcollection/indexof)(IDataLabel) | Devuelve un índice del DataLabel especificado en la colección. |
+| [Hide](../../aspose.slides.charts/datalabelcollection/hide)() | Oculta la etiqueta de datos por defecto configurando todos los indicadores Show*- (ShowValue, ...) de la propiedad DefaultDataLabelFormat al estado false. IsVisible será false después de esto. |
+| [IndexOf](../../aspose.slides.charts/datalabelcollection/indexof)(IDataLabel) | Devuelve el índice del DataLabel especificado en la colección. |
 
 ### Ver también
 

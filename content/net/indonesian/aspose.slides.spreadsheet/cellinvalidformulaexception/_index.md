@@ -1,14 +1,14 @@
 ---
 title: CellInvalidFormulaException
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Pengecualian yang dilemparkan ketika formula yang dihitung tidak benar atau tidak dapat diparsir.
+description: Pengecualian yang dilemparkan ketika rumus yang dihitung tidak benar atau tidak dapat diparse.
 type: docs
-weight: 10710
+weight: 10730
 url: /id/aspose.slides.spreadsheet/cellinvalidformulaexception/
 ---
 ## CellInvalidFormulaException kelas
 
-Pengecualian yang dilemparkan ketika formula yang dihitung tidak benar atau tidak dapat diparsir.
+Pengecualian yang dilemparkan ketika rumus yang dihitung tidak benar atau tidak dapat diparse.
 
 ```csharp
 public class CellInvalidFormulaException : PptxEditException
@@ -18,16 +18,16 @@ public class CellInvalidFormulaException : PptxEditException
 
 | Nama | Deskripsi |
 | --- | --- |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor)() | Menginisialisasi instance baru dari kelas [`CellInvalidFormulaException`](../cellinvalidformulaexception). |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_1)(string) | Menginisialisasi instance baru dari kelas [`CellInvalidFormulaException`](../cellinvalidformulaexception) dengan pesan kesalahan yang ditentukan. |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_2)(string, Exception) | Menginisialisasi instance baru dari kelas [`CellInvalidFormulaException`](../cellinvalidformulaexception) dengan pesan kesalahan yang ditentukan dan referensi ke pengecualian internal yang menjadi penyebab pengecualian ini. |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_3)(string, string) | Menginisialisasi instance baru dari kelas [`CellInvalidFormulaException`](../cellinvalidformulaexception) dengan pesan kesalahan yang ditentukan serta referensi sel yang berisi formula tidak valid. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor)() | Menginisialisasi sebuah instance baru dari kelas [`CellInvalidFormulaException`](../cellinvalidformulaexception). |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_1)(string) | Menginisialisasi sebuah instance baru dari kelas [`CellInvalidFormulaException`](../cellinvalidformulaexception) dengan pesan kesalahan yang ditentukan. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_2)(string, Exception) | Menginisialisasi sebuah instance baru dari kelas [`CellInvalidFormulaException`](../cellinvalidformulaexception) dengan pesan kesalahan yang ditentukan dan referensi ke pengecualian internal yang menjadi penyebab pengecualian ini. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_3)(string, string) | Menginisialisasi sebuah instance baru dari kelas [`CellInvalidFormulaException`](../cellinvalidformulaexception) dengan pesan kesalahan yang ditentukan dan referensi sel yang berisi rumus tidak valid. |
 
 ## Properti
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Reference](../../aspose.slides.spreadsheet/cellinvalidformulaexception/reference) { get; } | Mendapatkan referensi sel yang berisi formula tidak valid. |
+| [Reference](../../aspose.slides.spreadsheet/cellinvalidformulaexception/reference) { get; } | Mendapatkan referensi sel yang berisi rumus tidak valid. |
 
 ### Lihat Juga
 

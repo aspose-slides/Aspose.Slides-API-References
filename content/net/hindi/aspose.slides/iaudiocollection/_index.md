@@ -1,14 +1,14 @@
 ---
 title: IAudioCollection
-second_title: Aspose.Sildes .NET API संदर्भ
-description: एम्बेडेड ऑडियो फ़ाइलों के संग्रह को प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: एम्बेडेड ऑडियो फ़ाइलों का संग्रह दर्शाता है।
 type: docs
-weight: 5220
+weight: 5240
 url: /hi/aspose.slides/iaudiocollection/
 ---
 ## IAudioCollection इंटरफ़ेस
 
-एम्बेडेड ऑडियो फ़ाइलों का संग्रह दर्शाता है।
+Embedded audio files का संग्रह दर्शाता है।
 
 ```csharp
 public interface IAudioCollection : IGenericCollection<IAudio>
@@ -18,17 +18,17 @@ public interface IAudioCollection : IGenericCollection<IAudio>
 
 | नाम | विवरण |
 | --- | --- |
-| [Item](../../aspose.slides/iaudiocollection/item) { get; } | निर्दिष्ट अनुक्रमांक पर तत्व प्राप्त करता है। केवल पढ़ने योग्य [`IAudio`](../iaudio). |
+| [Item](../../aspose.slides/iaudiocollection/item) { get; } | निर्दिष्ट सूचकांक पर तत्व प्राप्त करता है। केवल पढ़ने योग्य [`IAudio`](../iaudio). |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | बाइट एरे से एक ऑडियो बनाता है और प्रस्तुति में जोड़ता है। |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio)(IAudio) | दूसरी प्रस्तुति से एक ऑडियो फ़ाइल की प्रति जोड़ता है। |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | बाइट ऐरे से एक ऑडियो बनाता है और प्रस्तुति में जोड़ता है। |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio)(IAudio) | एक अन्य प्रस्तुति से ऑडियो फ़ाइल की प्रतिलिपि जोड़ता है। |
 | [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | स्ट्रीम से एक ऑडियो बनाता है और प्रस्तुति में जोड़ता है। |
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * इंटरफ़ेस [IAudio](../iaudio)

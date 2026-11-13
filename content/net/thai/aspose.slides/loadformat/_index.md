@@ -1,12 +1,12 @@
 ---
 title: LoadFormat
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
-description: บ่งบอกรูปแบบของเอกสารที่ต้องการโหลด
+second_title: อ้างอิง API Aspose.Sildes สำหรับ .NET
+description: บ่งบอกรูปแบบของเอกสารที่ต้องการโหลด.
 type: docs
-weight: 7830
+weight: 7850
 url: /th/aspose.slides/loadformat/
 ---
-## LoadFormat การนับค่า
+## LoadFormat enumeration
 
 บ่งบอกรูปแบบของเอกสารที่ต้องการโหลด.
 
@@ -18,21 +18,21 @@ public enum LoadFormat
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| Auto | `0` | สั่งให้ Aspose.Slides จดจำรูปแบบโดยอัตโนมัติ |
-| Ppt | `1` | Microsoft PowerPoint 97-2003 การนำเสนอ |
-| Pps | `2` | Microsoft PowerPoint 97-2003 การแสดงสไลด์ |
-| Pptx | `3` | Microsoft Office Open XML PresentationML เอกสาร |
-| Ppsx | `4` | Microsoft Office Open XML PresentationML การแสดงสไลด์ |
-| Odp | `5` | OpenOffice ODF การนำเสนอ |
-| Potx | `6` | Microsoft Office Open XML PresentationML เทมเพลต |
-| Pptm | `7` | Microsoft Office Open XML PresentationML เอกสารที่รองรับมาโคร |
-| Ppsm | `8` | Microsoft Office Open XML PresentationML การแสดงสไลด์ที่รองรับมาโคร |
-| Potm | `9` | Microsoft Office Open XML PresentationML เทมเพลตที่รองรับมาโคร |
-| Otp | `10` | OpenOffice OTP เทมเพลตการนำเสนอ |
-| Ppt95 | `11` | Microsoft PowerPoint 95 การนำเสนอ |
-| Pot | `12` | Microsoft PowerPoint 97-2003 เทมเพลตการนำเสนอ |
-| Fodp | `13` | Flat XML ODF การนำเสนอ |
-| Unknown | `255` | รูปแบบไฟล์ที่ไม่รู้จัก |
+| Auto | `0` | สั่งให้ Aspose.Slides ตรวจจับรูปแบบโดยอัตโนมัติ. |
+| Ppt | `1` | งานนำเสนอ Microsoft PowerPoint 97-2003. |
+| Pps | `2` | การแสดงสไลด์ Microsoft PowerPoint 97-2003. |
+| Pptx | `3` | เอกสาร Microsoft Office Open XML PresentationML. |
+| Ppsx | `4` | การแสดงสไลด์ Microsoft Office Open XML PresentationML. |
+| Odp | `5` | งานนำเสนอ OpenOffice ODF. |
+| Potx | `6` | เทมเพลต Microsoft Office Open XML PresentationML. |
+| Pptm | `7` | เอกสาร Microsoft Office Open XML PresentationML ที่เปิดใช้งานแมโคร. |
+| Ppsm | `8` | การแสดงสไลด์ Microsoft Office Open XML PresentationML ที่เปิดใช้งานแมโคร. |
+| Potm | `9` | เทมเพลต Microsoft Office Open XML PresentationML ที่เปิดใช้งานแมโคร. |
+| Otp | `10` | เทมเพลตงานนำเสนอ OpenOffice OTP. |
+| Ppt95 | `11` | งานนำเสนอ Microsoft PowerPoint 95. |
+| Pot | `12` | เทมเพลตงานนำเสนอ Microsoft PowerPoint 97-2003. |
+| Fodp | `13` | งานนำเสนอ Flat XML ODF. |
+| Unknown | `255` | รูปแบบไฟล์ที่ไม่ทราบ |
 
 ### ดูเพิ่มเติม
 

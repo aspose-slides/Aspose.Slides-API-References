@@ -1,14 +1,14 @@
 ---
 title: IColorChange
-second_title: Aspose.Sildes .NET API 参考
-description: 表示一种颜色更改效果。FromColor 的实例将被 ToColor 的实例取代。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示一种颜色更改效果。FromColor 的实例将被 ToColor 的实例替换。
 type: docs
-weight: 3220
+weight: 3240
 url: /zh/aspose.slides.effects/icolorchange/
 ---
 ## IColorChange 接口
 
-表示一种颜色更改效果。FromColor 的实例将被 ToColor 的实例取代。
+表示一种颜色更改效果。FromColor 的实例将被 ToColor 的实例替换。
 
 ```csharp
 public interface IColorChange : IAccessiblePVIObject<IColorChangeEffectiveData>, 
@@ -17,14 +17,14 @@ public interface IColorChange : IAccessiblePVIObject<IColorChangeEffectiveData>,
 
 ## 属性
 
-| 名称 | 说明 |
+| 名称 | 描述 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorchange/asiaccessiblepviobject) { get; } | 允许获取基础 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/icolorchange/asiimagetransformoperation) { get; } | 允许获取基础 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation). |
-| [FromColor](../../aspose.slides.effects/icolorchange/fromcolor) { get; } | 将被替换的颜色。只读 [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [ToColor](../../aspose.slides.effects/icolorchange/tocolor) { get; } | 将用于替换的颜色。只读 [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorchange/asiaccessiblepviobject) { get; } | 允许获取基础 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
+| [AsIImageTransformOperation](../../aspose.slides.effects/icolorchange/asiimagetransformoperation) { get; } | 允许获取基础 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [FromColor](../../aspose.slides.effects/icolorchange/fromcolor) { get; } | 将被替换的颜色。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [ToColor](../../aspose.slides.effects/icolorchange/tocolor) { get; } | 将用于替换的颜色。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 接口 [IColorChangeEffectiveData](../icolorchangeeffectivedata)

@@ -1,9 +1,9 @@
 ---
 title: SvgTSpan
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: SVG 텍스트 부분 tspan에 대한 옵션을 나타냅니다.
 type: docs
-weight: 4520
+weight: 4540
 url: /ko/aspose.slides.export/svgtspan/
 ---
 ## SvgTSpan 클래스
@@ -18,9 +18,9 @@ public sealed class SvgTSpan : ISvgTSpan
 
 | 이름 | 설명 |
 | --- | --- |
-| [Id](../../aspose.slides.export/svgtspan/id) { get; set; } | "tspan" 요소 ID를 가져옵니다. |
+| [Id](../../aspose.slides.export/svgtspan/id) { get; set; } | "tspan" 요소 ID를 가져옵니다 |
 
-### 참조
+### 관련 항목
 
 * 인터페이스 [ISvgTSpan](../isvgtspan)
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)

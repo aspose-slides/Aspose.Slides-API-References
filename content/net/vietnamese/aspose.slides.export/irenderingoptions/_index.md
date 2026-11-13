@@ -1,14 +1,14 @@
 ---
 title: IRenderingOptions
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Cung cấp các tùy chọn kiểm soát cách một bản trình chiếu/slide được hiển thị.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Cung cấp các tùy chọn kiểm soát cách một bản trình bày/trang chiếu được hiển thị.
 type: docs
-weight: 4040
+weight: 4060
 url: /vi/aspose.slides.export/irenderingoptions/
 ---
 ## IRenderingOptions giao diện
 
-Cung cấp các tùy chọn kiểm soát cách một bản trình chiếu/slide được hiển thị.
+Cung cấp các tùy chọn kiểm soát cách một bản trình bày/trang chiếu được hiển thị.
 
 ```csharp
 public interface IRenderingOptions : ISaveOptions
@@ -19,9 +19,9 @@ public interface IRenderingOptions : ISaveOptions
 | Tên | Mô tả |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/irenderingoptions/asisaveoptions) { get; } | Trả về giao diện ISaveOptions. Chỉ đọc [`ISaveOptions`](../isaveoptions). |
-| [DisableFontLigatures](../../aspose.slides.export/irenderingoptions/disablefontligatures) { get; set; } | Lấy hoặc đặt một giá trị cho biết liệu văn bản có được hiển thị mà không sử dụng các ligature hay không. Khi đặt thành `true`, các ligature sẽ bị tắt trong đầu ra đã hiển thị. Mặc định, thuộc tính này được đặt thành `false`. |
+| [DisableFontLigatures](../../aspose.slides.export/irenderingoptions/disablefontligatures) { get; set; } | Lấy hoặc đặt giá trị cho biết liệu văn bản có được hiển thị mà không sử dụng các ligature hay không. Khi đặt thành `true`, các ligature sẽ bị tắt trong đầu ra đã render. Mặc định, thuộc tính này được đặt thành `false`. |
 | [InkOptions](../../aspose.slides.export/irenderingoptions/inkoptions) { get; } | Cung cấp các tùy chọn kiểm soát giao diện của các đối tượng Ink trong tài liệu đã xuất. Chỉ đọc [`IInkOptions`](../iinkoptions) |
-| [SlidesLayoutOptions](../../aspose.slides.export/irenderingoptions/slideslayoutoptions) { get; set; } | Lấy hoặc đặt chế độ mà các slide được đặt trên trang khi xuất một bản trình chiếu [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [SlidesLayoutOptions](../../aspose.slides.export/irenderingoptions/slideslayoutoptions) { get; set; } | Lấy hoặc đặt chế độ mà các slide được đặt trên trang khi xuất bản trình bày [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### Ví dụ
 

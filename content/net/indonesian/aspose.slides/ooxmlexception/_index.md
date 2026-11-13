@@ -1,9 +1,9 @@
 ---
 title: OOXMLException
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili tipe pengecualian internal standar yang terkait dengan format file Office Open XML.
 type: docs
-weight: 9200
+weight: 9220
 url: /id/aspose.slides/ooxmlexception/
 ---
 ## OOXMLException kelas

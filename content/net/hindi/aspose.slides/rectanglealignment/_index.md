@@ -1,14 +1,14 @@
 ---
 title: RectangleAlignment
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: 2-आयामी संरेखण को परिभाषित करता है।
+description: 2-डायमेंशन संरेखण को परिभाषित करता है।
 type: docs
-weight: 9690
+weight: 9710
 url: /hi/aspose.slides/rectanglealignment/
 ---
-## RectangleAlignment एन्युमरेशन
+## RectangleAlignment एन्यूमेरेशन
 
-2-आयामी संरेखण को परिभाषित करता है।
+2-डायमेंशन संरेखण को परिभाषित करता है।
 
 ```csharp
 public enum RectangleAlignment : sbyte
@@ -29,7 +29,7 @@ public enum RectangleAlignment : sbyte
 | Bottom | `7` |  |
 | BottomRight | `8` |  |
 
-### देखें भी
+### संबंधित देखें
 
 * नेमस्पेस [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

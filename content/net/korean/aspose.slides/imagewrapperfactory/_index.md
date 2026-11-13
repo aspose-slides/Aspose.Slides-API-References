@@ -1,14 +1,14 @@
 ---
 title: ImageWrapperFactory
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 이 클래스는 IBitmapWrapper를 초기화할 수 있습니다.
+description: 이 클래스는 IBitmapWrapper를 초기화할 수 있게 합니다.
 type: docs
-weight: 7450
+weight: 7470
 url: /ko/aspose.slides/imagewrapperfactory/
 ---
 ## ImageWrapperFactory 클래스
 
-이 클래스는 IBitmapWrapper를 초기화할 수 있습니다.
+This class allows to initialize IBitmapWrapper.
 
 ```csharp
 public class ImageWrapperFactory : IImageWrapperFactory
@@ -28,7 +28,7 @@ public class ImageWrapperFactory : IImageWrapperFactory
 | [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | 지정된 데이터 스트림에서 BitmapWrapper 클래스를 새 인스턴스로 초기화합니다. |
 | [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | 지정된 파일에서 BitmapWrapper 클래스를 새 인스턴스로 초기화합니다. |
 
-### 추가 참고
+### 참조
 
 * 인터페이스 [IImageWrapperFactory](../iimagewrapperfactory)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

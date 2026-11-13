@@ -1,9 +1,9 @@
 ---
 title: ImageWrapperFactory
-second_title: Aspose.Sildes για .NET API Αναφορά
+second_title: Aspose.Sildes για .NET Αναφορά API
 description: Αυτή η κλάση επιτρέπει την αρχικοποίηση του IBitmapWrapper.
 type: docs
-weight: 7450
+weight: 7470
 url: /el/aspose.slides/imagewrapperfactory/
 ---
 ## ImageWrapperFactory κλάση
@@ -24,9 +24,9 @@ public class ImageWrapperFactory : IImageWrapperFactory
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | Αρχικοποιεί ένα νέο αντικείμενο της κλάσης ImageWrapper από την καθορισμένη υπάρχουσα εικόνα. |
-| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | Αρχικοποιεί ένα νέο αντικείμενο της κλάσης BitmapWrapper από το καθορισμένο ρεύμα δεδομένων. |
-| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | Αρχικοποιεί ένα νέο αντικείμενο της κλάσης BitmapWrapper από το καθορισμένο αρχείο. |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | Αρχικοποιεί ένα νέο στιγμιότυπο της ImageWrapper κλάσης από την καθορισμένη υπάρχουσα εικόνα. |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | Αρχικοποιεί ένα νέο στιγμιότυπο της BitmapWrapper κλάσης από το καθορισμένο ρεύμα δεδομένων. |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | Αρχικοποιεί ένα νέο στιγμιότυπο της BitmapWrapper κλάσης από το καθορισμένο αρχείο. |
 
 ### Δείτε επίσης
 

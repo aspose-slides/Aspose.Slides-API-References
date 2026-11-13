@@ -1,9 +1,9 @@
 ---
 title: SvgShape
-second_title: Tham khảo API Aspose.Sildes cho .NET
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Biểu diễn các tùy chọn cho hình dạng SVG.
 type: docs
-weight: 4510
+weight: 4530
 url: /vi/aspose.slides.export/svgshape/
 ---
 ## SvgShape lớp
@@ -24,7 +24,7 @@ public sealed class SvgShape : ISvgShape
 
 | Tên | Mô tả |
 | --- | --- |
-| [SetEventHandler](../../aspose.slides.export/svgshape/seteventhandler)(SvgEvent, string) | Đặt bộ xử lý sự kiện cho hình dạng |
+| [SetEventHandler](../../aspose.slides.export/svgshape/seteventhandler)(SvgEvent, string) | Đặt trình xử lý sự kiện cho hình dạng |
 
 ### Xem thêm
 

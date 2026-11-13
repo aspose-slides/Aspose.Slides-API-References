@@ -1,14 +1,14 @@
 ---
 title: VbaReferenceOleTypeLib
-second_title: Aspose.Sildes .NET API Referansı
-description: OLE Automation tip kitaplığı referansını temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: OLE Automation tür kitaplığı referansını temsil eder.
 type: docs
-weight: 11690
+weight: 11710
 url: /tr/aspose.slides.vba/vbareferenceoletypelib/
 ---
 ## VbaReferenceOleTypeLib sınıf
 
-OLE Automation tip kitaplığı referansını temsil eder.
+OLE Automation tür kitaplığı referansını temsil eder.
 
 ```csharp
 public class VbaReferenceOleTypeLib : IVbaReferenceOleTypeLib
@@ -16,16 +16,16 @@ public class VbaReferenceOleTypeLib : IVbaReferenceOleTypeLib
 
 ## Yapıcılar
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [VbaReferenceOleTypeLib](vbareferenceoletypelib)(string, string) | Bu yapıcı, yeni bir OLE Automation tip kitaplığı referansı oluşturur. |
+| [VbaReferenceOleTypeLib](vbareferenceoletypelib)(string, string) | Bu yapıcı yeni bir OLE Automation tür kitaplığı referansı oluşturur. |
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [Libid](../../aspose.slides.vba/vbareferenceoletypelib/libid) { get; set; } | Bir Automation tip kitaplığının tanımlayıcısını temsil eder. Okunur/Yazılabilir Dize. |
-| [Name](../../aspose.slides.vba/vbareferenceoletypelib/name) { get; set; } | VBA proje referansının adını temsil eder. Okunur/Yazılabilir Dize. |
+| [Libid](../../aspose.slides.vba/vbareferenceoletypelib/libid) { get; set; } | Automation tür kitaplığının tanımlayıcısını temsil eder. Okuma/yazma String. |
+| [Name](../../aspose.slides.vba/vbareferenceoletypelib/name) { get; set; } | VBA proje referansının adını temsil eder. Okuma/yazma String. |
 
 ### Ayrıca Bakınız
 

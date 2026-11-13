@@ -1,14 +1,14 @@
 ---
 title: ISplitTransition
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Effetto di transizione a divisione della diapositiva.
+description: Effetto di transizione della diapositiva divisa.
 type: docs
-weight: 10200
+weight: 10220
 url: /it/aspose.slides.slideshow/isplittransition/
 ---
 ## ISplitTransition interfaccia
 
-Effetto di transizione a divisione della diapositiva.
+Effetto di transizione della diapositiva divisa.
 
 ```csharp
 public interface ISplitTransition : ITransitionValueBase

@@ -1,14 +1,14 @@
 ---
 title: IEffectStyleCollection
-second_title: Aspose.Sildes .NET API referencia
-description: Egy effektusstílusok gyűjteményét reprezentálja.
+second_title: Aspose.Sildes .NET API referenciája
+description: Egy hatásstílus-gyűjteményt reprezentál.
 type: docs
-weight: 11180
+weight: 11200
 url: /hu/aspose.slides.theme/ieffectstylecollection/
 ---
 ## IEffectStyleCollection interfész
 
-Az effektusstílusok gyűjteményét reprezentálja.
+Represents a collection of effect styles.
 
 ```csharp
 public interface IEffectStyleCollection : IGenericCollection<IEffectStyle>

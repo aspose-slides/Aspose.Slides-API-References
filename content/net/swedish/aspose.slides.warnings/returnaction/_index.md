@@ -1,14 +1,14 @@
 ---
 title: ReturnAction
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar varningsåteruppringningsalternativ.
+description: Representerar varningscallback-beslutsalternativ.
 type: docs
-weight: 11820
+weight: 11840
 url: /sv/aspose.slides.warnings/returnaction/
 ---
-## ReturnAction uppräkning
+## ReturnAction-enumeration
 
-Representerar varningsåteruppringningsalternativ.
+Representerar varningscallback-beslutsalternativ.
 
 ```csharp
 public enum ReturnAction
@@ -18,10 +18,10 @@ public enum ReturnAction
 
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Continue | `0` | Operationen bör fortsätta. |
+| Continue | `0` | Operationen bör fortsättas. |
 | Abort | `1` | Operationen bör avbrytas. |
 
-### Se även
+### Se också
 
 * namnrymd [Aspose.Slides.Warnings](../../aspose.slides.warnings)
 * samling [Aspose.Slides](../../)

@@ -1,9 +1,9 @@
 ---
 title: ExcelDataWorkbook
-second_title: Aspose.Sildes pour .NET Référence d'API
-description: Représente un classeur qui fournit un accès aux données Excel pour une utilisation générale.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Représente un classeur qui offre un accès aux données Excel pour une utilisation générale.
 type: docs
-weight: 3690
+weight: 3710
 url: /fr/aspose.slides.excel/exceldataworkbook/
 ---
 ## ExcelDataWorkbook classe
@@ -18,19 +18,19 @@ public class ExcelDataWorkbook : IExcelDataWorkbook
 
 | Nom | Description |
 | --- | --- |
-| [ExcelDataWorkbook](exceldataworkbook#constructor)(Stream) | Initialise une nouvelle instance de la classe à l’aide du flux fourni. |
-| [ExcelDataWorkbook](exceldataworkbook#constructor_1)(string) | Initialise une nouvelle instance à l’aide du chemin de fichier spécifié. |
+| [ExcelDataWorkbook](exceldataworkbook#constructor)(Stream) | Initialise une nouvelle instance de la classe en utilisant le flux fourni. |
+| [ExcelDataWorkbook](exceldataworkbook#constructor_1)(string) | Initialise une nouvelle instance en utilisant le chemin de fichier spécifié. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_1)(int, string) | Récupère une cellule de la feuille de calcul spécifiée en utilisant son index et le nom de cellule au format Excel (par exemple, "B2"). |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_3)(string, string) | Récupère une cellule de la feuille de calcul spécifiée en utilisant le nom de cellule au format Excel (par exemple, "B2"). |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_1)(int, string) | Récupère une cellule de la feuille de calcul spécifiée en utilisant son index et le nom de cellule au format Excel (p. ex., "B2"). |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_3)(string, string) | Récupère une cellule de la feuille de calcul spécifiée en utilisant le nom de cellule au format Excel (p. ex., "B2"). |
 | [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell)(int, int, int) | Récupère une cellule de la feuille de calcul spécifiée en utilisant son index et ses coordonnées de cellule. |
 | [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_2)(string, int, int) | Récupère une cellule de la feuille de calcul spécifiée en utilisant son nom et ses coordonnées de cellule. |
 | [GetCells](../../aspose.slides.excel/exceldataworkbook/getcells)(string, bool) | Récupère une collection de cellules du classeur correspondant à la formule spécifiée. |
-| [GetChartsFromWorksheet](../../aspose.slides.excel/exceldataworkbook/getchartsfromworksheet)(string) | Récupère un dictionnaire contenant les index et les noms de tous les graphiques de la feuille de calcul spécifiée d’un classeur Excel. |
+| [GetChartsFromWorksheet](../../aspose.slides.excel/exceldataworkbook/getchartsfromworksheet)(string) | Récupère un dictionnaire contenant les index et les noms de tous les graphiques dans la feuille de calcul spécifiée d'un classeur Excel. |
 | [GetWorksheetNames](../../aspose.slides.excel/exceldataworkbook/getworksheetnames)() | Récupère les noms de toutes les feuilles de calcul contenues dans le classeur Excel. |
 
 ### Voir aussi

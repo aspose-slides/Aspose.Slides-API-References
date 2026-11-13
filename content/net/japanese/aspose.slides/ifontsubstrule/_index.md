@@ -3,7 +3,7 @@ title: IFontSubstRule
 second_title: Aspose.Sildes for .NET API リファレンス
 description: フォント置換情報を表します
 type: docs
-weight: 5880
+weight: 5900
 url: /ja/aspose.slides/ifontsubstrule/
 ---
 ## IFontSubstRule インターフェイス

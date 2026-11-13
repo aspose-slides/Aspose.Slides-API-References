@@ -3,7 +3,7 @@ title: Paragraph
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt einen Absatz von Text dar.
 type: docs
-weight: 9280
+weight: 9300
 url: /de/aspose.slides/paragraph/
 ---
 ## Paragraph Klasse
@@ -18,25 +18,27 @@ public sealed class Paragraph : IParagraph
 
 | Name | Beschreibung |
 | --- | --- |
-| [Paragraph](paragraph#constructor)() | Initialisiert eine neue Instanz der Paragraph Klasse mit Standard-Eigenschaften. |
-| [Paragraph](paragraph#constructor_1)(Paragraph) | Kopierkonstruktor, der eine neue Instanz einer Paragraph Klasse initialisiert. |
+| [Paragraph](paragraph#constructor)() | Initialisiert eine neue Instanz der Paragraph Klasse mit den Standard-Eigenschaften. |
+| [Paragraph](paragraph#constructor_1)(Paragraph) | Copy-Konstruktor, der eine neue Instanz einer Paragraph Klasse initialisiert. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [EndParagraphPortionFormat](../../aspose.slides/paragraph/endparagraphportionformat) { get; set; } | Gibt die Portionseigenschaften an, die verwendet werden sollen, wenn ein weiterer Abschnitt nach dem letzten eingefügt wird. |
-| [ParagraphFormat](../../aspose.slides/paragraph/paragraphformat) { get; } | Gibt das Formatierungsobjekt für diesen Absatz zurück. Schreibgeschützt [`IParagraphFormat`](../iparagraphformat). |
-| [Portions](../../aspose.slides/paragraph/portions) { get; } | Gibt die Sammlung von Textabschnitten zurück. Schreibgeschützt [`IPortionCollection`](../iportioncollection). |
-| [Text](../../aspose.slides/paragraph/text) { get; set; } | Liest oder setzt den Klartext eines Absatzes. Lesen/Schreiben String. |
+| [EndParagraphPortionFormat](../../aspose.slides/paragraph/endparagraphportionformat) { get; set; } | Gibt die Portionseigenschaften an, die verwendet werden sollen, wenn nach dem letzten eine weitere Portion eingefügt wird. |
+| [ParagraphFormat](../../aspose.slides/paragraph/paragraphformat) { get; } | Gibt das Formatierungsobjekt für diesen Absatz zurück. Nur-Lese [`IParagraphFormat`](../iparagraphformat). |
+| [Portions](../../aspose.slides/paragraph/portions) { get; } | Gibt die Sammlung der Textportionen zurück. Nur-Lese [`IPortionCollection`](../iportioncollection). |
+| [Text](../../aspose.slides/paragraph/text) { get; set; } | Liest oder setzt den reinen Text eines Absatzes. Lesen/Schreiben String. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetLinesCount](../../aspose.slides/paragraph/getlinescount)() | Ermittelt die Anzahl der Zeilen in einem Absatz. |
+| [GetImage](../../aspose.slides/paragraph/getimage#getimage)() | Gibt ein Bild des Absatzes zurück. |
+| [GetImage](../../aspose.slides/paragraph/getimage#getimage_1)(float, float) | Gibt ein Bild des Absatzes mit der angegebenen Skalierung zurück. |
+| [GetLinesCount](../../aspose.slides/paragraph/getlinescount)() | Ermittelt die Zeilenanzahl in einem Absatz. |
 | [GetRect](../../aspose.slides/paragraph/getrect)() | Ermittelt die Koordinaten des Rechtecks, das den Absatz begrenzt. Das Rechteck umfasst alle Textzeilen im Absatz, einschließlich leerer Zeilen. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/paragraph/joinportionswithsameformatting)() | Verbindet Textläufe mit gleicher Formatierung. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/paragraph/joinportionswithsameformatting)() | Fügt Laufabschnitte mit gleicher Formatierung zusammen. |
 
 ### Siehe auch
 

@@ -1,20 +1,24 @@
 ---
 title: GapWidth
-second_title: Aspose.Sildes for .NET API Referansı
-description: Bar veya sütun kümeleri arasındaki boşluğu, çubuk veya sütun genişliğinin yüzdesi olarak belirtir. Okunur/Yazılır UInt16.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bar veya sütun kümeleri arasındaki boşluğu, çubuk veya sütun genişliğinin bir yüzdesi olarak alır veya ayarlar. Değer 0 ile 500 arasında olmalıdır. Okunabilir/Yazılabilir UInt16.
 type: docs
 weight: 70
 url: /tr/aspose.slides.charts/ichartseriesgroup/gapwidth/
 ---
 ## IChartSeriesGroup.GapWidth özelliği
 
-Bar veya sütun kümeleri arasındaki boşluğu, çubuk veya sütun genişliğinin yüzdesi olarak belirtir. Okunur/Yazılır UInt16.
+Sütun veya bar kümeleri arasındaki boşluğu, çubuk veya sütun genişliğinin bir yüzdesi olarak alır veya ayarlar. Değer 0 ile 500 arasında olmalıdır. Okunabilir/Yazılabilir UInt16.
 
 ```csharp
 public ushort GapWidth { get; set; }
 ```
 
-### İlgili Bağlantılar
+### Açıklamalar
+
+Bu özellik aşağıdaki tiplerdeki serilere uygulanır: Tüm bar ve sütun alt tipleri, BarOfPie, PieOfPie, BoxAndWhisker, Funnel, Histogram, Waterfall.
+
+### Diğer Bağlantılar
 
 * arayüz [IChartSeriesGroup](../../ichartseriesgroup)
 * ad alanı [Aspose.Slides.Charts](../../ichartseriesgroup)

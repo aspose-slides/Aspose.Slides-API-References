@@ -1,14 +1,14 @@
 ---
 title: IMasterThemeManager
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ให้การเข้าถึงธีมหลักของงานนำเสนอ
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: ให้การเข้าถึงธีมมาสเตอร์ของการนำเสนอ.
 type: docs
-weight: 11320
+weight: 11340
 url: /th/aspose.slides.theme/imasterthememanager/
 ---
 ## IMasterThemeManager อินเทอร์เฟซ
 
-ให้การเข้าถึงธีมหลักของงานนำเสนอ
+Provides access to presentation master theme.
 
 ```csharp
 public interface IMasterThemeManager : IThemeManager

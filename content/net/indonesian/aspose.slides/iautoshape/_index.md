@@ -1,12 +1,12 @@
 ---
 title: IAutoShape
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili sebuah AutoShape.
 type: docs
-weight: 5240
+weight: 5260
 url: /id/aspose.slides/iautoshape/
 ---
-## IAutoShape antarmuka
+## IAutoShape interface
 
 Mewakili sebuah AutoShape.
 
@@ -16,20 +16,20 @@ public interface IAutoShape : IGeometryShape
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides/iautoshape/asigeometryshape) { get; } | Mengizinkan mendapatkan antarmuka dasar IGeometryShape. Hanya-baca [`IGeometryShape`](../igeometryshape). |
+| [AsIGeometryShape](../../aspose.slides/iautoshape/asigeometryshape) { get; } | Memungkinkan untuk mendapatkan antarmuka IGeometryShape dasar. Hanya-baca [`IGeometryShape`](../igeometryshape). |
 | [AutoShapeLock](../../aspose.slides/iautoshape/autoshapelock) { get; } | Mengembalikan kunci AutoShape. Hanya-baca [`IAutoShapeLock`](../iautoshapelock). |
-| [IsTextBox](../../aspose.slides/iautoshape/istextbox) { get; } | Menentukan apakah bentuk merupakan kotak teks. |
-| [ShapeLock](../../aspose.slides/iautoshape/shapelock) { get; } | Mengembalikan kunci bentuk. Hanya-baca [`IAutoShapeLock`](../iautoshapelock). |
+| [IsTextBox](../../aspose.slides/iautoshape/istextbox) { get; } | Menentukan apakah shape merupakan kotak teks. |
+| [ShapeLock](../../aspose.slides/iautoshape/shapelock) { get; } | Mengembalikan kunci shape. Hanya-baca [`IAutoShapeLock`](../iautoshapelock). |
 | [TextFrame](../../aspose.slides/iautoshape/textframe) { get; } | Mengembalikan objek TextFrame untuk AutoShape. Hanya-baca [`ITextFrame`](../itextframe). |
-| [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | Menentukan apakah autoshape ini harus diisi dengan isian latar belakang slide alih-alih yang ditentukan oleh gaya atau format isian. Baca/tulis Boolean. |
+| [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | Menentukan apakah autoshape ini harus diisi dengan isi latar belakang slide alih-alih yang ditentukan oleh gaya atau format isi. Baca/tulis Boolean. |
 
 ## Metode
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [AddTextFrame](../../aspose.slides/iautoshape/addtextframe)(string) | Menambahkan TextFrame baru ke sebuah bentuk. Jika bentuk sudah memiliki TextFrame maka cukup mengubah teksnya. |
+| [AddTextFrame](../../aspose.slides/iautoshape/addtextframe)(string) | Menambahkan TextFrame baru ke sebuah shape. Jika shape sudah memiliki TextFrame maka cukup mengubah teksnya. |
 
 ### Lihat Juga
 

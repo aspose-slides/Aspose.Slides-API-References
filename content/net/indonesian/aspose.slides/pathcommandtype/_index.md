@@ -3,10 +3,10 @@ title: PathCommandType
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili perintah jalur grafik
 type: docs
-weight: 9320
+weight: 9340
 url: /id/aspose.slides/pathcommandtype/
 ---
-## PathCommandType enumerasi
+## PathCommandType enumeration
 
 Mewakili perintah jalur grafik
 
@@ -19,7 +19,7 @@ public enum PathCommandType : byte
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
 | Close | `0` | Menutup jalur geometri |
-| MoveTo | `1` | Menetapkan posisi titik berikutnya pada jalur geometri |
+| MoveTo | `1` | Menetapkan posisi titik berikutnya dari jalur geometri |
 | LineTo | `2` | Menambahkan garis ke jalur geometri |
 | ArcTo | `3` | Menambahkan busur yang ditentukan ke jalur geometri. |
 | QuadBezierTo | `4` | Menambahkan kurva Bezier kuadratik ke jalur geometri |

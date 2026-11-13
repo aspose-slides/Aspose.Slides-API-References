@@ -3,7 +3,7 @@ title: SmartArtNodeCollection
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en samling av SmartArt-noder.
 type: docs
-weight: 10640
+weight: 10660
 url: /sv/aspose.slides.smartart/smartartnodecollection/
 ---
 ## SmartArtNodeCollection klass
@@ -16,19 +16,19 @@ public sealed class SmartArtNodeCollection : ISmartArtNodeCollection
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides.smartart/smartartnodecollection/count) { get; } | Returnerar antalet noder i samlingen Skrivskyddad Int32 Skrivskyddad Int32. |
 | [IsSynchronized](../../aspose.slides.smartart/smartartnodecollection/issynchronized) { get; } | Returnerar ett värde som indikerar om åtkomst till samlingen är synkroniserad (trådsäker). Skrivskyddad Boolean. |
-| [Item](../../aspose.slides.smartart/smartartnodecollection/item) { get; } | Returnerar noden efter index |
-| [SyncRoot](../../aspose.slides.smartart/smartartnodecollection/syncroot) { get; } | Returnerar ett synkroniseringsrot. Skrivskyddad Object. |
+| [Item](../../aspose.slides.smartart/smartartnodecollection/item) { get; } | Returnerar nod efter index |
+| [SyncRoot](../../aspose.slides.smartart/smartartnodecollection/syncroot) { get; } | Returnerar en synkroniseringsrot. Skrivskyddad Object. |
 
 ## Metoder
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [AddNode](../../aspose.slides.smartart/smartartnodecollection/addnode)() | Lägg till ny smart art-nod eller undernod. |
-| [AddNodeByPosition](../../aspose.slides.smartart/smartartnodecollection/addnodebyposition)(int) | Lägg till ny nod i den valda positionen i nodsamlingen |
+| [AddNode](../../aspose.slides.smartart/smartartnodecollection/addnode)() | Lägg till en ny smart art-nod eller undernod. |
+| [AddNodeByPosition](../../aspose.slides.smartart/smartartnodecollection/addnodebyposition)(int) | Lägg till en ny nod på den valda positionen i nodsamlingen |
 | [CopyTo](../../aspose.slides.smartart/smartartnodecollection/copyto)(Array, int) | Kopierar alla element från samlingen till den angivna arrayen. |
 | [GetEnumerator](../../aspose.slides.smartart/smartartnodecollection/getenumerator)() | Returnerar en enumerator som itererar genom samlingen. |
 | [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode_1)(int) | Ta bort nod eller undernod efter index |

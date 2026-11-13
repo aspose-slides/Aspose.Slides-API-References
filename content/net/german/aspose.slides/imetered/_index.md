@@ -3,7 +3,7 @@ title: IMetered
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt Methoden zum Festlegen des gemessenen Schlüssels bereit.
 type: docs
-weight: 6450
+weight: 6470
 url: /de/aspose.slides/imetered/
 ---
 ## IMetered Schnittstelle

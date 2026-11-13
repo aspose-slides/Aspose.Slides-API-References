@@ -1,14 +1,14 @@
 ---
 title: ITableFormatEffectiveData
-second_title: Aspose.Sildes for .NET API リファレンス
-description: 有効なテーブル書式設定プロパティを含む不変オブジェクトです。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: 効果的なテーブル書式設定プロパティを含む不変オブジェクトです。
 type: docs
-weight: 7250
+weight: 7270
 url: /ja/aspose.slides/itableformateffectivedata/
 ---
 ## ITableFormatEffectiveData インターフェイス
 
-有効なテーブル書式設定プロパティを含む不変オブジェクトです。
+効果的なテーブル書式設定プロパティを含む不変オブジェクトです。
 
 ```csharp
 public interface ITableFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -18,12 +18,12 @@ public interface ITableFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/itableformateffectivedata/asibasetableformateffectivedata) { get; } | ベースの IBaseTableFormatEffectiveData インターフェイスを取得できます。読み取り専用 [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata)。 |
-| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | 塗りつぶしカラーの透明度を取得します。Single を読み取ります。 |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/itableformateffectivedata/asibasetableformateffectivedata) { get; } | ベースのIBaseTableFormatEffectiveDataインターフェイスを取得できます。読み取り専用[`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata)。 |
+| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | 塗りつぶし色の透明度を取得します。単一 (Single) です。 |
 
 ### 備考
 
-このインターフェイスは [`ITableFormat`](../itableformat) インターフェイスと共に使用され、継承およびテーブル スタイルが適用された有効な書式設定値を返します。
+このインターフェイスは[`ITableFormat`](../itableformat) インターフェイスと併せて、継承およびテーブルスタイルが適用された効果的な書式設定値を返すために使用されます。
 
 ### 参照
 

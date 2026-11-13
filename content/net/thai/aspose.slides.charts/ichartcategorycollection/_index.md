@@ -3,7 +3,7 @@ title: IChartCategoryCollection
 second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
 description: แสดงถึงคอลเลกชันของ IChartCategory./ichartcategory
 type: docs
-weight: 1760
+weight: 1780
 url: /th/aspose.slides.charts/ichartcategorycollection/
 ---
 ## IChartCategoryCollection อินเทอร์เฟซ
@@ -14,24 +14,24 @@ url: /th/aspose.slides.charts/ichartcategorycollection/
 public interface IChartCategoryCollection : IGenericCollection<IChartCategory>
 ```
 
-## คุณสมบัติ
+## Properties
 
 | Name | Description |
 | --- | --- |
-| [GroupingLevelCount](../../aspose.slides.charts/ichartcategorycollection/groupinglevelcount) { get; } | คืนค่าจำนวนระดับการจัดกลุ่มประเภทที่ใช้. มีค่ามากกว่าหนึ่งสำหรับประเภทหลายระดับ. อ่านอย่างเดียว Int32. |
-| [Item](../../aspose.slides.charts/ichartcategorycollection/item) { get; } | รับองค์ประกอบที่ตำแหน่งดัชนีที่ระบุ. |
-| [UseCells](../../aspose.slides.charts/ichartcategorycollection/usecells) { get; set; } | ถ้าเป็น true จะใช้ worksheet สำหรับเก็บประเภท (กรณีนี้รองรับประเภทหลายระดับ). ถ้าเป็น false worksheet จะไม่ใช้สำหรับเก็บค่า (และกรณีนี้ไม่รองรับประเภทหลายระดับ). อ่าน/เขียน Boolean. |
+| [GroupingLevelCount](../../aspose.slides.charts/ichartcategorycollection/groupinglevelcount) { get; } | ส่งคืนจำนวนระดับการจัดกลุ่มของหมวดที่ใช้. มีมากกว่าหนึ่งสำหรับหมวดหลายระดับ. อ่านอย่างเดียว Int32. |
+| [Item](../../aspose.slides.charts/ichartcategorycollection/item) { get; } | รับองค์ประกอบที่ตำแหน่งที่ระบุ. |
+| [UseCells](../../aspose.slides.charts/ichartcategorycollection/usecells) { get; set; } | ถ้าเป็น true แล้ว worksheet จะใช้สำหรับเก็บหมวด (กรณีนี้รองรับหมวดหลายระดับ). ถ้าเป็น false แล้ว worksheet จะไม่ใช้สำหรับเก็บค่า (และกรณีนี้ไม่รองรับหมวดหลายระดับ). อ่าน/เขียน Boolean. |
 
-## วิธีการ
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ichartcategorycollection/add#add)(IChartDataCell) | หากประเภทมีอยู่ในคอลเลกชันแล้วให้คืนค่า. มิฉะนั้นสร้างประเภทแผนภูมิใหม่จาก [`IChartDataCell`](../ichartdatacell) และเพิ่มลงในคอลเลกชัน. |
+| [Add](../../aspose.slides.charts/ichartcategorycollection/add#add)(IChartDataCell) | หากมีหมวดอยู่ในคอลเลกชัน จะส่งคืนมัน. หากไม่มี จะสร้างหมวดแผนภูมิใหม่จาก [`IChartDataCell`](../ichartdatacell) แล้วเพิ่มลงในคอลเลกชัน. |
 | [Add](../../aspose.slides.charts/ichartcategorycollection/add#add_1)(object) | สร้าง [`IChartCategory`](../ichartcategory) ใหม่จากค่าและเพิ่มลงในคอลเลกชัน. |
-| [Clear](../../aspose.slides.charts/ichartcategorycollection/clear)() | ลบทุกองค์ประกอบออกจากคอลเลกชัน. |
-| [IndexOf](../../aspose.slides.charts/ichartcategorycollection/indexof)(IChartCategory) | ค้นหา [`IChartCategory`](../ichartcategory) ที่ระบุและคืนค่าดัชนีเริ่มจากศูนย์ของการพบครั้งแรกในคอลเลกชันทั้งหมด |
+| [Clear](../../aspose.slides.charts/ichartcategorycollection/clear)() | ลบทุกองค์ประกอบจากคอลเลกชัน. |
+| [IndexOf](../../aspose.slides.charts/ichartcategorycollection/indexof)(IChartCategory) | ค้นหา [`IChartCategory`](../ichartcategory) ที่ระบุและส่งคืนดัชนีเริ่มจากศูนย์ของการเกิดครั้งแรกภายใน Collection ทั้งหมด |
 | [Remove](../../aspose.slides.charts/ichartcategorycollection/remove)(IChartCategory) | ลบค่าที่ระบุ. |
-| [RemoveAt](../../aspose.slides.charts/ichartcategorycollection/removeat)(int) | ลบองค์ประกอบที่ตำแหน่งดัชนีที่กำหนด. |
+| [RemoveAt](../../aspose.slides.charts/ichartcategorycollection/removeat)(int) | ลบองค์ประกอบที่ตำแหน่งที่กำหนด. |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: ImageWrapperFactory
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Cette classe permet d'initialiser IBitmapWrapper.
 type: docs
-weight: 7450
+weight: 7470
 url: /fr/aspose.slides/imagewrapperfactory/
 ---
 ## ImageWrapperFactory classe
 
-This class allows to initialize IBitmapWrapper.
+Cette classe permet d'initialiser IBitmapWrapper.
 
 ```csharp
 public class ImageWrapperFactory : IImageWrapperFactory

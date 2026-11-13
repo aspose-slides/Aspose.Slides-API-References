@@ -3,7 +3,7 @@ title: IExtraColorScheme
 second_title: Aspose.Sildes için .NET API Referansı
 description: Bir slayta atanabilen ek bir renk şemasını temsil eder.
 type: docs
-weight: 11210
+weight: 11230
 url: /tr/aspose.slides.theme/iextracolorscheme/
 ---
 ## IExtraColorScheme arayüz

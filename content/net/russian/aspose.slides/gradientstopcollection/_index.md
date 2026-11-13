@@ -1,9 +1,9 @@
 ---
 title: GradientStopCollection
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для справки API .NET
 description: Представляет коллекцию градиентных остановок.
 type: docs
-weight: 5030
+weight: 5050
 url: /ru/aspose.slides/gradientstopcollection/
 ---
 ## GradientStopCollection класс
@@ -16,17 +16,17 @@ public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../ipresentationcomponent). |
 | [Count](../../aspose.slides/gradientstopcollection/count) { get; } | Возвращает количество градиентных остановок в коллекции. Только для чтения Int32. |
 | [IsSynchronized](../../aspose.slides/gradientstopcollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потокобезопасный). Только для чтения Boolean. |
 | [Item](../../aspose.slides/gradientstopcollection/item) { get; } | Возвращает градиентную остановку по индексу. |
-| [SyncRoot](../../aspose.slides/gradientstopcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
+| [SyncRoot](../../aspose.slides/gradientstopcollection/syncroot) { get; } | Возвращает объект синхронизации. Только для чтения Object. |
 
 ## Методы
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/gradientstopcollection/add#add_2)(float, Color) | Создает новую градиентную остановку и добавляет её в конец коллекции. |
 | [Add](../../aspose.slides/gradientstopcollection/add#add)(float, PresetColor) | Создает новую градиентную остановку и добавляет её в конец коллекции. |
@@ -34,14 +34,14 @@ public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
 | [Clear](../../aspose.slides/gradientstopcollection/clear)() | Удаляет все градиентные остановки из коллекции. |
 | [CopyTo](../../aspose.slides/gradientstopcollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Сравнивает с указанным объектом. |
-| [GetEnumerator](../../aspose.slides/gradientstopcollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает хэш-код. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | Создает новую градиентную остановку и вставляет её в указанном индексе в коллекцию. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | Создает новую градиентную остановку и вставляет её в указанном индексе в коллекцию. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Создает новую градиентную остановку и вставляет её в указанном индексе в коллекцию. |
+| [GetEnumerator](../../aspose.slides/gradientstopcollection/getenumerator)() | Возвращает перечислитель, который перебирает элементы коллекции. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает код хеша. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | Создает новую градиентную остановку и вставляет её в указанную позицию в коллекцию. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | Создает новую градиентную остановку и вставляет её в указанную позицию в коллекцию. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Создает новую градиентную остановку и вставляет её в указанную позицию в коллекцию. |
 | [RemoveAt](../../aspose.slides/gradientstopcollection/removeat)(int) | Удаляет градиентную остановку по указанному индексу. |
 
-### Смотрите также
+### См. также
 
 * класс [PVIObject](../pviobject)
 * интерфейс [IGradientStopCollection](../igradientstopcollection)

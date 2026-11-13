@@ -1,20 +1,20 @@
 ---
 title: Portion
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
-description: แสดง Portion ของข้อความภายในย่อหน้าข้อความ.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงส่วนของข้อความภายในย่อหน้าข้อความ.
 type: docs
-weight: 9460
+weight: 9480
 url: /th/aspose.slides/portion/
 ---
-## Portion คลาส
+## คลาส Portion
 
-แสดง Portion ของข้อความภายในย่อหน้าข้อความ.
+Represents a portion of text inside a text paragraph.
 
 ```csharp
 public class Portion : IPortion
 ```
 
-## คอนสตรัคเตอร์
+## ตัวสร้าง
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
@@ -26,19 +26,19 @@ public class Portion : IPortion
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Field](../../aspose.slides/portion/field) { get; } | คืนค่าฟิลด์ของ Portion นี้. อ่านอย่างเดียว [`IField`](../ifield). |
-| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | คืนค่าอ็อบเจ็กต์การจัดรูปแบบที่มีคุณสมบัติการจัดรูปแบบที่กำหนดโดยชัดเจนของ Portion ข้อความที่ไม่มีการสืบทอดใด ๆ. อ่านอย่างเดียว [`IPortionFormat`](../iportionformat). |
-| [Text](../../aspose.slides/portion/text) { get; set; } | รับหรือกำหนดข้อความธรรมดาของ Portion. อ่าน/เขียน String. |
+| [Field](../../aspose.slides/portion/field) { get; } | คืนค่าฟิลด์ของส่วนนี้ อ่านอย่างเดียว [`IField`](../ifield). |
+| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | คืนค่าอ็อบเจ็กต์การจัดรูปแบบซึ่งบรรจุคุณสมบัติการจัดรูปแบบที่ตั้งค่าอย่างชัดเจนของส่วนข้อความโดยไม่มีการสืบทอดใด ๆ อ่านอย่างเดียว [`IPortionFormat`](../iportionformat). |
+| [Text](../../aspose.slides/portion/text) { get; set; } | รับหรือกำหนดข้อความธรรมดาของส่วน อ่าน/เขียน String. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AddField](../../aspose.slides/portion/addfield#addfield)(IFieldType) | แปลง Portion นี้ให้เป็นฟิลด์ที่อัปเดตโดยอัตโนมัติ. |
-| [AddField](../../aspose.slides/portion/addfield#addfield_1)(string) | แปลง Portion นี้ให้เป็นฟิลด์ที่อัปเดตโดยอัตโนมัติ. |
-| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | รับพิกัดของจุดเริ่มต้นของ Portion. พิกัด X ของจุดแสดงตำแหน่งเริ่มต้นของ Portion จากอักขระแรกรวมถึงการเว้นระยะด้านซ้าย. พิกัด Y รวมถึงการเว้นระยะด้านบน. |
-| [GetRect](../../aspose.slides/portion/getrect)() | รับพิกัดของสี่เหลี่ยมที่ล้อมรอบ Portion. สี่เหลี่ยมนี้รวมบรรทัดข้อความทั้งหมดใน Portion รวมถึงบรรทัดว่าง. |
-| [RemoveField](../../aspose.slides/portion/removefield)() | แปลง Portion ฟิลด์นี้เป็น Portion ธรรมดา. |
+| [AddField](../../aspose.slides/portion/addfield#addfield)(IFieldType) | แปลงส่วนนี้เป็นฟิลด์ที่อัปเดตโดยอัตโนมัติ. |
+| [AddField](../../aspose.slides/portion/addfield#addfield_1)(string) | แปลงส่วนนี้เป็นฟิลด์ที่อัปเดตโดยอัตโนมัติ. |
+| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | รับพิกัดของจุดเริ่มต้นของส่วน. พิกัด X ของจุดแสดงจุดเริ่มต้นของส่วนจากอักขระแรกรวมถึงการบรรจุด้านซ้าย. พิกัด Y รวมถึงการบรรจุด้านบน. |
+| [GetRect](../../aspose.slides/portion/getrect)() | รับพิกัดของสี่เหลี่ยมที่ล้อมรอบส่วน. สี่เหลี่ยมนี้รวมทุกบรรทัดของข้อความในส่วน รวมถึงบรรทัดว่าง. |
+| [RemoveField](../../aspose.slides/portion/removefield)() | แปลงส่วนฟิลด์นี้เป็นส่วนธรรมดา. |
 
 ### ดูเพิ่มเติม
 

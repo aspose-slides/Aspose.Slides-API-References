@@ -1,14 +1,14 @@
 ---
 title: IPictureFrameLock
-second_title: Aspose.Sildes の .NET API リファレンス
-description: 親 PictureFrameEx 上で無効化されている操作を決定します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: 親 PictureFrameEx で無効になる操作を決定します。
 type: docs
-weight: 6680
+weight: 6700
 url: /ja/aspose.slides/ipictureframelock/
 ---
 ## IPictureFrameLock インターフェイス
 
-親 PictureFrameEx 上で無効化されている操作を決定します。
+Determines which operations are disabled on the parent PictureFrameEx.
 
 ```csharp
 public interface IPictureFrameLock : IBaseShapeLock
@@ -18,18 +18,18 @@ public interface IPictureFrameLock : IBaseShapeLock
 
 | 名前 | 説明 |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/ipictureframelock/adjusthandleslocked) { get; set; } | 調整値の変更が禁止されているかどうかを決定します。読み書き可能な Boolean。 |
-| [ArrowheadsLocked](../../aspose.slides/ipictureframelock/arrowheadslocked) { get; set; } | 矢じりの変更が禁止されているかどうかを決定します。読み書き可能な Boolean。 |
-| [AsIBaseShapeLock](../../aspose.slides/ipictureframelock/asibaseshapelock) { get; } | ベースの IBaseShapeLock インターフェイスの取得を許可します。読み取り専用 [`IBaseShapeLock`](../ibaseshapelock)。 |
-| [AspectRatioLocked](../../aspose.slides/ipictureframelock/aspectratiolocked) { get; set; } | リサイズ時に形状がアスペクト比を維持しなければならないかどうかを決定します。読み書き可能な Boolean。 |
-| [CropLocked](../../aspose.slides/ipictureframelock/croplocked) { get; set; } | 画像のトリミングが禁止されているかどうかを決定します。読み書き可能な Boolean。 |
-| [EditPointsLocked](../../aspose.slides/ipictureframelock/editpointslocked) { get; set; } | この形状の輪郭の直接変更が禁止されているかどうかを決定します。読み書き可能な Boolean。 |
-| [GroupingLocked](../../aspose.slides/ipictureframelock/groupinglocked) { get; set; } | この形状をグループに追加することが禁止されているかどうかを決定します。読み書き可能な Boolean。 |
-| [PositionLocked](../../aspose.slides/ipictureframelock/positionlocked) { get; set; } | この形状の移動が禁止されているかどうかを決定します。読み書き可能な Boolean。 |
-| [RotationLocked](../../aspose.slides/ipictureframelock/rotationlocked) { get; set; } | この形状の回転角の変更が禁止されているかどうかを決定します。読み書き可能な Boolean。 |
-| [SelectLocked](../../aspose.slides/ipictureframelock/selectlocked) { get; set; } | この形状の選択が禁止されているかどうかを決定します。読み書き可能な Boolean。 |
-| [ShapeTypeLocked](../../aspose.slides/ipictureframelock/shapetypelocked) { get; set; } | 形状タイプの変更が禁止されているかどうかを決定します。読み書き可能な Boolean。 |
-| [SizeLocked](../../aspose.slides/ipictureframelock/sizelocked) { get; set; } | この形状のサイズ変更が禁止されているかどうかを決定します。読み書き可能な Boolean。 |
+| [AdjustHandlesLocked](../../aspose.slides/ipictureframelock/adjusthandleslocked) { get; set; } | 調整値の変更が禁止されているかどうかを決定します。読み書き可能 Boolean。 |
+| [ArrowheadsLocked](../../aspose.slides/ipictureframelock/arrowheadslocked) { get; set; } | 矢印ヘッドの変更が禁止されているかどうかを決定します。読み書き可能 Boolean。 |
+| [AsIBaseShapeLock](../../aspose.slides/ipictureframelock/asibaseshapelock) { get; } | ベースのIBaseShapeLockインターフェイスの取得を許可します。読み取り専用 [`IBaseShapeLock`](../ibaseshapelock)。 |
+| [AspectRatioLocked](../../aspose.slides/ipictureframelock/aspectratiolocked) { get; set; } | 形状がリサイズ時にアスペクト比を保持する必要があるかどうかを決定します。読み書き可能 Boolean。 |
+| [CropLocked](../../aspose.slides/ipictureframelock/croplocked) { get; set; } | 画像のトリミングが禁止されているかどうかを決定します。読み書き可能 Boolean。 |
+| [EditPointsLocked](../../aspose.slides/ipictureframelock/editpointslocked) { get; set; } | この形状の輪郭の直接変更が禁止されているかどうかを決定します。読み書き可能 Boolean。 |
+| [GroupingLocked](../../aspose.slides/ipictureframelock/groupinglocked) { get; set; } | この形状をグループに追加することが禁止されているかどうかを決定します。読み書き可能 Boolean。 |
+| [PositionLocked](../../aspose.slides/ipictureframelock/positionlocked) { get; set; } | この形状の移動が禁止されているかどうかを決定します。読み書き可能 Boolean。 |
+| [RotationLocked](../../aspose.slides/ipictureframelock/rotationlocked) { get; set; } | この形状の回転角度の変更が禁止されているかどうかを決定します。読み書き可能 Boolean。 |
+| [SelectLocked](../../aspose.slides/ipictureframelock/selectlocked) { get; set; } | この形状の選択が禁止されているかどうかを決定します。読み書き可能 Boolean。 |
+| [ShapeTypeLocked](../../aspose.slides/ipictureframelock/shapetypelocked) { get; set; } | 形状タイプの変更が禁止されているかどうかを決定します。読み書き可能 Boolean。 |
+| [SizeLocked](../../aspose.slides/ipictureframelock/sizelocked) { get; set; } | この形状のサイズ変更が禁止されているかどうかを決定します。読み書き可能 Boolean。 |
 
 ### 参照
 

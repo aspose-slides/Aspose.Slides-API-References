@@ -1,14 +1,14 @@
 ---
 title: IEmbeddedEotFontsHtmlController
 second_title: Aspose.Sildes için .NET API Referansı
-description: Gömülü Eot yazı tipleri HTML denetleyicisi.
+description: Gömülü Eot fontları HTML denetleyicisi.
 type: docs
-weight: 3900
+weight: 3920
 url: /tr/aspose.slides.export/iembeddedeotfontshtmlcontroller/
 ---
 ## IEmbeddedEotFontsHtmlController arayüz
 
-Gömülü Eot yazı tipleri HTML denetleyicisi.
+Embedded Eot fonts HTML controller.
 
 ```csharp
 public interface IEmbeddedEotFontsHtmlController : IHtmlFormattingController
@@ -18,7 +18,7 @@ public interface IEmbeddedEotFontsHtmlController : IHtmlFormattingController
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIHtmlFormattingController](../../aspose.slides.export/iembeddedeotfontshtmlcontroller/asihtmlformattingcontroller) { get; } | Döndürür IHtmlFormattingController arayüz. |
+| [AsIHtmlFormattingController](../../aspose.slides.export/iembeddedeotfontshtmlcontroller/asihtmlformattingcontroller) { get; } | IHtmlFormattingController arayüzünü döndürür. |
 
 ### Ayrıca Bakınız
 

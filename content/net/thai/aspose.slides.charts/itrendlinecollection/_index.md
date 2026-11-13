@@ -1,9 +1,9 @@
 ---
 title: ITrendlineCollection
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
 description: แสดงถึงคอลเลกชันของ TrendlineEx
 type: docs
-weight: 2250
+weight: 2270
 url: /th/aspose.slides.charts/itrendlinecollection/
 ---
 ## ITrendlineCollection อินเทอร์เฟซ
@@ -18,15 +18,15 @@ public interface ITrendlineCollection : IEnumerable<ITrendline>
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.charts/itrendlinecollection/asienumerable) { get; } | อนุญาตให้รับอินเทอร์เฟซ IEnumerable พื้นฐานได้. อ่านอย่างเดียว IEnumerable. |
-| [Count](../../aspose.slides.charts/itrendlinecollection/count) { get; } | รับจำนวนขององค์ประกอบที่จริง ๆ แล้วอยู่ในคอลเลกชัน. อ่านอย่างเดียว Int32. |
+| [AsIEnumerable](../../aspose.slides.charts/itrendlinecollection/asienumerable) { get; } | Allows to get base IEnumerable interface. อ่านอย่างเดียว IEnumerable. |
+| [Count](../../aspose.slides.charts/itrendlinecollection/count) { get; } | รับจำนวนขององค์ประกอบที่จริง ๆ อยู่ในคอลเลกชัน. อ่านอย่างเดียว Int32. |
 | [Item](../../aspose.slides.charts/itrendlinecollection/item) { get; } | รับองค์ประกอบที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`ITrendline`](../itrendline). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Add](../../aspose.slides.charts/itrendlinecollection/add)(TrendlineType) | เพิ่ม Trendline ใหม่ที่ส่วนท้ายของคอลเลกชันและส่งกลับมัน. |
+| [Add](../../aspose.slides.charts/itrendlinecollection/add)(TrendlineType) | เพิ่ม Trendline ใหม่ที่ส่วนท้ายของคอลเลกชันและส่งคืนมัน. |
 | [Remove](../../aspose.slides.charts/itrendlinecollection/remove)(ITrendline) | ลบค่าที่ระบุ. |
 
 ### ดูเพิ่มเติม

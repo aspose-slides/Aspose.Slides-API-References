@@ -1,14 +1,14 @@
 ---
 title: IPortionFormat
-second_title: Aspose.Sildes para la referencia de API de .NET
-description: Esta clase contiene las propiedades de formato de la porción de texto. A diferencia de IPortionFormatEffectiveData./iportionformateffectivedata, todas las propiedades de esta clase son escribibles.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Esta clase contiene las propiedades de formato de porción de texto. A diferencia de IPortionFormatEffectiveData./iportionformateffectivedata, todas las propiedades de esta clase son escribibles.
 type: docs
-weight: 6730
+weight: 6750
 url: /es/aspose.slides/iportionformat/
 ---
 ## IPortionFormat interfaz
 
-Esta clase contiene las propiedades de formato de la porción de texto. A diferencia de [`IPortionFormatEffectiveData`](../iportionformateffectivedata), todas las propiedades de esta clase son escribibles.
+Esta clase contiene las propiedades de formato de porción de texto. A diferencia de [`IPortionFormatEffectiveData`](../iportionformateffectivedata), todas las propiedades de esta clase son escribibles.
 
 ```csharp
 public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
@@ -18,22 +18,22 @@ public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIBasePortionFormat](../../aspose.slides/iportionformat/asibaseportionformat) { get; } | Devuelve la interfaz IBasePortionFormat. Sólo lectura [`IBasePortionFormat`](../ibaseportionformat). |
-| [AsIHyperlinkContainer](../../aspose.slides/iportionformat/asihyperlinkcontainer) { get; } | Permite obtener la interfaz base IHyperlinkContainer. Sólo lectura [`IHyperlinkContainer`](../ihyperlinkcontainer). |
-| [BookmarkId](../../aspose.slides/iportionformat/bookmarkid) { get; set; } | Devuelve o establece el identificador del marcador. Lectura/escritura String. |
+| [AsIBasePortionFormat](../../aspose.slides/iportionformat/asibaseportionformat) { get; } | Devuelve la interfaz IBasePortionFormat. Solo lectura [`IBasePortionFormat`](../ibaseportionformat). |
+| [AsIHyperlinkContainer](../../aspose.slides/iportionformat/asihyperlinkcontainer) { get; } | Permite obtener la interfaz base IHyperlinkContainer. Solo lectura [`IHyperlinkContainer`](../ihyperlinkcontainer). |
+| [BookmarkId](../../aspose.slides/iportionformat/bookmarkid) { get; set; } | Devuelve o establece el identificador de marcador. Lectura/escritura String. |
 | [SmartTagClean](../../aspose.slides/iportionformat/smarttagclean) { get; set; } | Determina si la etiqueta inteligente debe limpiarse. No se aplica herencia. Lectura/escritura Boolean. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetEffective](../../aspose.slides/iportionformat/geteffective)() | Obtiene los datos de formato de la porción efectiva con la herencia aplicada. |
+| [GetEffective](../../aspose.slides/iportionformat/geteffective)() | Obtiene los datos de formato de porción efectivos con la herencia aplicada. |
 
 ### Observaciones
 
-Esta clase se utiliza para devolver y manipular las propiedades de formato de la porción de texto definidas para la porción particular. Esto significa que no se aplica herencia al obtener valores, por lo que en la mayoría de los casos obtendrá valores que indican "indefinido".
+Esta clase se usa para devolver y manipular las propiedades de formato de porción de texto definidas para la porción particular. Esto significa que no se aplica herencia al obtener valores, por lo que en la mayoría de los casos obtendrá valores que significan "indefinido".
 
-Para obtener los valores de los parámetros de formato efectivos, incluidos los heredados, necesita usar el método [`GetEffective`](./geteffective) que devuelve una instancia [`IPortionFormatEffectiveData`](../iportionformateffectivedata).
+Para obtener los valores efectivos de los parámetros de formato, incluidos los heredados, necesita usar el método [`GetEffective`](./geteffective) que devuelve una instancia [`IPortionFormatEffectiveData`](../iportionformateffectivedata).
 
 ### Ver también
 

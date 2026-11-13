@@ -3,10 +3,10 @@ title: PdfCompliance
 second_title: Aspose.Sildes для .NET справочник API
 description: Константы, определяющие уровень соответствия стандартам PDF.
 type: docs
-weight: 4320
+weight: 4340
 url: /ru/aspose.slides.export/pdfcompliance/
 ---
-## Перечисление PdfCompliance
+## PdfCompliance перечисление
 
 Константы, определяющие уровень соответствия стандартам PDF.
 

@@ -1,14 +1,14 @@
 ---
 title: IMathFraction
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
-description: ระบุวัตถุส่วนที่ประกอบด้วยตัวเศษและตัวหารที่แยกกันด้วยเส้นส่วน เส้นส่วนอาจเป็นแนวนอนหรือแนวทแยงมุมขึ้นอยู่กับคุณสมบัติของส่วน วัตถุส่วนนี้ยังใช้เพื่อแทนฟังก์ชันสแตกที่วางองค์ประกอบหนึ่งเหนืออีกองค์ประกอบหนึ่งโดยไม่มีเส้นส่วน
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: ระบุวัตถุเศษส่วนที่ประกอบด้วยตัวเศษและตัวส่วนโดยคั่นด้วยเส้นเศษส่วน เส้นเศษส่วนอาจเป็นแนวนอนหรือแนวทแยงมุมขึ้นอยู่กับคุณสมบัติของเศษส่วน วัตถุเศษส่วนนี้ยังใช้เป็นตัวแทนของฟังก์ชันสแตกที่วางองค์ประกอบหนึ่งเหนืออีกองค์ประกอบหนึ่งโดยไม่มีเส้นเศษส่วน
 type: docs
-weight: 8250
+weight: 8270
 url: /th/aspose.slides.mathtext/imathfraction/
 ---
 ## IMathFraction อินเทอร์เฟซ
 
-ระบุวัตถุส่วนที่ประกอบด้วยตัวเศษและตัวหารที่แยกกันด้วยเส้นส่วน เส้นส่วนอาจเป็นแนวนอนหรือแนวทแยงมมาขึ้นอยู่กับคุณสมบัติของส่วน วัตถุส่วนนี้ยังใช้เพื่อแทนฟังก์ชันสแตก ซึ่งวางองค์ประกอบหนึ่งเหนืออีกองค์ประกอบหนึ่งโดยไม่มีเส้นส่วน
+ระบุวัตถุเศษส่วนซึ่งประกอบด้วยตัวเศษและตัวส่วนที่ถูกคั่นด้วยเส้นเศษส่วน เส้นเศษส่วนสามารถเป็นแนวนอนหรือแนวทแยงมุม ขึ้นอยู่กับคุณสมบัติของเศษส่วน วัตถุเศษส่วนนี้ยังใช้เป็นตัวแทนของฟังก์ชันสแตก ซึ่งวางองค์ประกอบหนึ่งเหนืออีกองค์ประกอบหนึ่งโดยไม่มีเส้นเศษส่วน
 
 ```csharp
 public interface IMathFraction : IMathElement
@@ -19,13 +19,13 @@ public interface IMathFraction : IMathElement
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathfraction/asimathelement) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IMathElement พื้นฐาน [`IMathElement`](../imathelement) |
-| [Denominator](../../aspose.slides.mathtext/imathfraction/denominator) { get; } | ตัวหาร |
-| [FractionType](../../aspose.slides.mathtext/imathfraction/fractiontype) { get; set; } | ประเภทส่วน ค่าเริ่มต้น: Bar |
+| [Denominator](../../aspose.slides.mathtext/imathfraction/denominator) { get; } | ตัวส่วน |
+| [FractionType](../../aspose.slides.mathtext/imathfraction/fractiontype) { get; set; } | ประเภทเศษส่วน ค่าเริ่มต้น: Bar |
 | [Numerator](../../aspose.slides.mathtext/imathfraction/numerator) { get; } | ตัวเศษ |
 
 ### ตัวอย่าง
 
-ตัวอย่าง:
+Example:
 
 ```csharp
 [C#]

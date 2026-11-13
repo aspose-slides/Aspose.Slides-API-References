@@ -3,7 +3,7 @@ title: TextFrame
 second_title: Aspose.Sildes для .NET справочник API
 description: Представляет TextFrame.
 type: docs
-weight: 10950
+weight: 10970
 url: /ru/aspose.slides/textframe/
 ---
 ## TextFrame класс
@@ -16,7 +16,7 @@ public sealed class TextFrame : ITextFrame
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [HyperlinkQueries](../../aspose.slides/textframe/hyperlinkqueries) { get; } | Обеспечивает простой доступ к содержащимся гиперссылкам. Только для чтения [`IHyperlinkQueries`](../ihyperlinkqueries). |
 | [Paragraphs](../../aspose.slides/textframe/paragraphs) { get; } | Возвращает список всех абзацев в кадре. Только для чтения [`IParagraphCollection`](../iparagraphcollection). |
@@ -29,15 +29,16 @@ public sealed class TextFrame : ITextFrame
 
 ## Методы
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
+| [GetTextRect](../../aspose.slides/textframe/gettextrect)() | Получает прямоугольник текста, определенный геометрией родительской формы. |
 | [HighlightRegex](../../aspose.slides/textframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | Выделяет все совпадения регулярного выражения указанным цветом. |
 | [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext)(string, Color) | Выделяет все совпадения образца текста указанным цветом. |
 | [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | Выделяет все совпадения образца текста указанным цветом. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/textframe/joinportionswithsameformatting)() | Объединяет участки с одинаковым форматированием во всех абзацах. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/textframe/joinportionswithsameformatting)() | Объединяет последовательности с одинаковым форматированием во всех абзацах. |
 | [ReplaceRegex](../../aspose.slides/textframe/replaceregex)(Regex, string, IFindResultCallback) | Заменяет все совпадения регулярного выражения указанной строкой. |
 | [ReplaceText](../../aspose.slides/textframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | Заменяет все вхождения указанного текста другим указанным текстом. |
-| [SplitTextByColumns](../../aspose.slides/textframe/splittextbycolumns)() | Разделяет текстовое содержимое [`ITextFrame`](../itextframe) на массив строк, где каждый элемент соответствует отдельной текстовой колонке в рамках кадра. |
+| [SplitTextByColumns](../../aspose.slides/textframe/splittextbycolumns)() | Разбивает текстовое содержимое [`ITextFrame`](../itextframe) на массив строк, где каждый элемент соответствует отдельной текстовой колонке внутри кадра. |
 
 ### См. также
 

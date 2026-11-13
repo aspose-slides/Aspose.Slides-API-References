@@ -3,7 +3,7 @@ title: SmartArtShapeCollection
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una colección de formas SmartArt
 type: docs
-weight: 10670
+weight: 10690
 url: /es/aspose.slides.smartart/smartartshapecollection/
 ---
 ## SmartArtShapeCollection clase
@@ -19,7 +19,7 @@ public class SmartArtShapeCollection : ISmartArtShapeCollection
 | Nombre | Descripción |
 | --- | --- |
 | [Count](../../aspose.slides.smartart/smartartshapecollection/count) { get; } | Obtiene el número de elementos realmente contenidos en la colección. Solo lectura Int32. |
-| [IsSynchronized](../../aspose.slides.smartart/smartartshapecollection/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (thread-safe). Solo lectura Boolean. |
+| [IsSynchronized](../../aspose.slides.smartart/smartartshapecollection/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (seguro para subprocesos). Solo lectura Boolean. |
 | [Item](../../aspose.slides.smartart/smartartshapecollection/item) { get; } | Obtiene el elemento en el índice especificado. Solo lectura [`SmartArtShape`](../smartartshape).&gt;. |
 | [SyncRoot](../../aspose.slides.smartart/smartartshapecollection/syncroot) { get; } | Devuelve una raíz de sincronización. Solo lectura Object. |
 

@@ -3,10 +3,10 @@ title: Remove
 second_title: Aspose.Sildes .NET API referencia
 description: Eltávolítja a DataPoint-ot a diagram sorozatból.
 type: docs
-weight: 200
+weight: 240
 url: /hu/aspose.slides.charts/ichartdatapoint/remove/
 ---
-## IChartDataPoint.Remove metódus
+## IChartDataPoint.Remove módszer
 
 Eltávolítja a DataPoint-ot a diagram sorozatból.
 

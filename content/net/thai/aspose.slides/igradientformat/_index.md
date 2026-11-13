@@ -1,14 +1,14 @@
 ---
 title: IGradientFormat
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงรูปแบบการไล่สี.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงรูปแบบไล่ระดับสี.
 type: docs
-weight: 6000
+weight: 6020
 url: /th/aspose.slides/igradientformat/
 ---
 ## IGradientFormat อินเทอร์เฟซ
 
-แสดงรูปแบบการไล่สี.
+แสดงรูปแบบไล่ระดับสี
 
 ```csharp
 public interface IGradientFormat : IFillParamSource
@@ -18,13 +18,13 @@ public interface IGradientFormat : IFillParamSource
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/igradientformat/asifillparamsource) { get; } | อนุญาตให้รับอินเทอร์เฟซ IFillParamSource พื้นฐานได้ อ่านอย่างเดียว [`IFillParamSource`](../ifillparamsource). |
-| [GradientDirection](../../aspose.slides/igradientformat/gradientdirection) { get; set; } | ส่งคืนหรือกำหนดสไตล์ของการไล่สี อ่าน/เขียน [`GradientDirection`](../gradientdirection). |
-| [GradientShape](../../aspose.slides/igradientformat/gradientshape) { get; set; } | ส่งคืนหรือกำหนดรูปร่างของการไล่สี อ่าน/เขียน [`GradientShape`](../gradientshape). |
-| [GradientStops](../../aspose.slides/igradientformat/gradientstops) { get; } | ส่งคืนคอลเลกชันของจุดไล่สี อ่านอย่างเดียว [`IGradientStopCollection`](../igradientstopcollection). |
-| [LinearGradientAngle](../../aspose.slides/igradientformat/lineargradientangle) { get; set; } | ส่งคืนหรือกำหนดมุมของการไล่สี อ่าน/เขียน Single. |
-| [LinearGradientScaled](../../aspose.slides/igradientformat/lineargradientscaled) { get; set; } | กำหนดว่าการไล่สีมีการปรับสเกลหรือไม่ อ่าน/เขียน [`NullableBool`](../nullablebool). |
-| [TileFlip](../../aspose.slides/igradientformat/tileflip) { get; set; } | ส่งคืนหรือกำหนดโหมดการพลิกของการไล่สี อ่าน/เขียน [`TileFlip`](../tileflip). |
+| [AsIFillParamSource](../../aspose.slides/igradientformat/asifillparamsource) { get; } | อนุญาตให้รับอินเทอร์เฟซ IFillParamSource พื้นฐาน. อ่านอย่างเดียว [`IFillParamSource`](../ifillparamsource). |
+| [GradientDirection](../../aspose.slides/igradientformat/gradientdirection) { get; set; } | คืนค่า หรือกำหนดสไตล์ของไล่ระดับสี. อ่าน/เขียน [`GradientDirection`](../gradientdirection). |
+| [GradientShape](../../aspose.slides/igradientformat/gradientshape) { get; set; } | คืนค่า หรือกำหนดรูปทรงของไล่ระดับสี. อ่าน/เขียน [`GradientShape`](../gradientshape). |
+| [GradientStops](../../aspose.slides/igradientformat/gradientstops) { get; } | คืนค่าชุดรวมของจุดหยุดไล่ระดับสี. อ่านอย่างเดียว [`IGradientStopCollection`](../igradientstopcollection). |
+| [LinearGradientAngle](../../aspose.slides/igradientformat/lineargradientangle) { get; set; } | คืนค่า หรือกำหนดมุมของไล่ระดับสี. อ่าน/เขียน Single. |
+| [LinearGradientScaled](../../aspose.slides/igradientformat/lineargradientscaled) { get; set; } | กำหนดว่าไล่ระดับสีมีการสเกลหรือไม่. อ่าน/เขียน [`NullableBool`](../nullablebool). |
+| [TileFlip](../../aspose.slides/igradientformat/tileflip) { get; set; } | คืนค่า หรือกำหนดโหมดการพลิกสำหรับไล่ระดับสี. อ่าน/เขียน [`TileFlip`](../tileflip). |
 
 ### ดูเพิ่มเติม
 

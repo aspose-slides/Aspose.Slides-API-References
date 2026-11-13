@@ -1,20 +1,24 @@
 ---
 title: GapDepth
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: إرجاع أو ضبط المسافة كنسبة مئوية من عرض العلامة بين سلاسل البيانات في مخطط ثلاثي الأبعاد. قراءة/كتابة UInt16.
+description: يحصل أو يعيّن المسافة بين سلاسل البيانات في مخطط ثلاثي الأبعاد، كنسبة مئوية من عرض العلامة. يجب أن تكون القيمة بين 0 و 500. قراءة/كتابة UInt16.
 type: docs
 weight: 60
 url: /ar/aspose.slides.charts/chartseriesgroup/gapdepth/
 ---
-## ChartSeriesGroup.GapDepth الخاصية
+## خاصية ChartSeriesGroup.GapDepth
 
-إرجاع أو ضبط المسافة، كنسبة مئوية من عرض العلامة، بين سلاسل البيانات في مخطط ثلاثي الأبعاد. قراءة/كتابة UInt16.
+يحصل أو يعيّن المسافة بين سلاسل البيانات في مخطط ثلاثي الأبعاد، كنسبة مئوية من عرض العلامة. يجب أن تكون القيمة بين 0 و 500. قراءة/كتابة UInt16.
 
 ```csharp
 public ushort GapDepth { get; set; }
 ```
 
-### انظر أيضا
+### ملاحظات
+
+تنطبق هذه الخاصية على سلاسل الأنواع التالية: الأنواع الفرعية 3D للعمود والبار (انظر أيضًا طريقة [`IsBar3DChart`](../../charttypecharacterizer/isbar3dchart))، Line3D، Area3D، StackedArea3D، PercentsStackedArea3D.
+
+### انظر أيضًا
 
 * الفئة [ChartSeriesGroup](../../chartseriesgroup)
 * النطاق [Aspose.Slides.Charts](../../chartseriesgroup)

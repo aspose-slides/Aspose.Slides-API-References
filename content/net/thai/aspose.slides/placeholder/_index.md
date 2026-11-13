@@ -1,14 +1,14 @@
 ---
 title: Placeholder
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: เป็นตัวแทนของ placeholder บนสไลด์.
 type: docs
-weight: 9430
+weight: 9450
 url: /th/aspose.slides/placeholder/
 ---
 ## คลาส Placeholder
 
-เป็นตัวแทนของ placeholder บนสไลด์.
+Represents a placeholder on a slide.
 
 ```csharp
 public class Placeholder : IPlaceholder
@@ -16,12 +16,12 @@ public class Placeholder : IPlaceholder
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Index](../../aspose.slides/placeholder/index) { get; } | รับหรือกำหนดดัชนีของ placeholder. อ่านเท่านั้น UInt32. |
-| [Orientation](../../aspose.slides/placeholder/orientation) { get; } | รับหรือกำหนดการวางแนวของ placeholder. อ่านเท่านั้น [`Orientation`](../orientation). |
-| [Size](../../aspose.slides/placeholder/size) { get; } | รับหรือกำหนดขนาดของ placeholder. อ่านเท่านั้น [`PlaceholderSize`](../placeholdersize). |
-| [Type](../../aspose.slides/placeholder/type) { get; } | รับหรือกำหนดประเภทของ placeholder. อ่านเท่านั้น [`PlaceholderType`](../placeholdertype). |
+| [Index](../../aspose.slides/placeholder/index) { get; } | รับหรือกำหนดดัชนีของ placeholder. อ่านอย่างเดียว UInt32. |
+| [Orientation](../../aspose.slides/placeholder/orientation) { get; } | รับหรือกำหนดทิศทางของ placeholder. อ่านอย่างเดียว [`Orientation`](../orientation). |
+| [Size](../../aspose.slides/placeholder/size) { get; } | รับหรือกำหนดขนาดของ placeholder. อ่านอย่างเดียว [`PlaceholderSize`](../placeholdersize). |
+| [Type](../../aspose.slides/placeholder/type) { get; } | รับหรือกำหนดประเภทของ placeholder. อ่านอย่างเดียว [`PlaceholderType`](../placeholdertype). |
 
 ### ดูเพิ่มเติม
 

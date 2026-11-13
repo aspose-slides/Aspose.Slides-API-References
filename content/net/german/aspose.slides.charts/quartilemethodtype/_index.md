@@ -1,12 +1,12 @@
 ---
 title: QuartileMethodType
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Gibt den Typ der Quartilmethode zurück
 type: docs
-weight: 2390
+weight: 2410
 url: /de/aspose.slides.charts/quartilemethodtype/
 ---
-## QuartileMethodType Aufzählung
+## Aufzählung QuartileMethodType
 
 Gibt den Typ der Quartilmethode zurück
 
@@ -18,8 +18,8 @@ public enum QuartileMethodType
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Exclusive | `0` | Repräsentiert die exklusive Quartilmethode. |
-| Inclusive | `1` | Repräsentiert die inklusive Quartilmethode. |
+| Exclusive | `0` | Stellt die exklusive Quartilmethode dar. |
+| Inclusive | `1` | Stellt die inklusive Quartilmethode dar. |
 
 ### Siehe auch
 

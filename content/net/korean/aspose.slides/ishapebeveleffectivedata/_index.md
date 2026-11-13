@@ -1,14 +1,14 @@
 ---
 title: IShapeBevelEffectiveData
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 유효한 셰이프의 면 릴리프 속성을 포함하는 불변 객체입니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 실제 모양의 면 릴리프 속성을 포함하는 불변 객체.
 type: docs
-weight: 6970
+weight: 6990
 url: /ko/aspose.slides/ishapebeveleffectivedata/
 ---
 ## IShapeBevelEffectiveData 인터페이스
 
-유효한 셰이프의 면 릴리프 속성을 포함하는 불변 객체입니다.
+실제 모양의 면 릴리프 속성을 포함하는 불변 객체.
 
 ```csharp
 public interface IShapeBevelEffectiveData
@@ -22,11 +22,11 @@ public interface IShapeBevelEffectiveData
 | [Height](../../aspose.slides/ishapebeveleffectivedata/height) { get; } | 베벨 높이. 읽기 전용 Double. |
 | [Width](../../aspose.slides/ishapebeveleffectivedata/width) { get; } | 베벨 너비. 읽기 전용 Double. |
 
-### 참고
+### 비고
 
 이 인터페이스는 [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata)의 일부로 사용됩니다.
 
-### 또 보기
+### 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

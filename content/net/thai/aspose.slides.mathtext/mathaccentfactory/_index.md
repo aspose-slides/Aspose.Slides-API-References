@@ -1,31 +1,31 @@
 ---
 title: MathAccentFactory
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: อนุญาตให้สร้างสัญลักษณ์คณิตศาสตร์
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: อนุญาตให้สร้างตัวเน้นคณิตศาสตร์
 type: docs
-weight: 8540
+weight: 8560
 url: /th/aspose.slides.mathtext/mathaccentfactory/
 ---
 ## MathAccentFactory คลาส
 
-อนุญาตให้สร้างสัญลักษณ์คณิตศาสตร์
+อนุญาตให้สร้างตัวเน้นคณิตศาสตร์
 
 ```csharp
 public class MathAccentFactory : IMathAccentFactory
 ```
 
-## คอนสตรัคเตอร์
+## ตัวสร้าง
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [MathAccentFactory](mathaccentfactory)() | คอนสตรัคเตอร์เริ่มต้น |
+| [MathAccentFactory](mathaccentfactory)() | คอนสตรัคเตอร์เริ่มต้น. |
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | สร้างสัญลักษณ์คณิตศาสตร์ที่ใช้กับองค์ประกอบคณิตศาสตร์ที่ระบุโดยใช้ค่าอักขระสัญลักษณ์เริ่มต้น |
-| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | สร้างสัญลักษณ์คณิตศาสตร์ที่ใช้กับองค์ประกอบคณิตศาสตร์ที่ระบุ |
+| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | สร้างตัวเน้นคณิตศาสตร์ที่ใช้กับองค์ประกอบคณิตศาสตร์ที่ระบุพร้อมค่าตัวอักขระเน้นเริ่มต้น |
+| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | สร้างตัวเน้นคณิตศาสตร์ที่ใช้กับองค์ประกอบคณิตศาสตร์ที่ระบุ |
 
 ### หมายเหตุ
 

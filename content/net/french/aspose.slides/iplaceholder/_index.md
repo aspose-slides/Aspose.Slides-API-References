@@ -1,9 +1,9 @@
 ---
 title: IPlaceholder
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente un espace réservé sur une diapositive.
 type: docs
-weight: 6690
+weight: 6710
 url: /fr/aspose.slides/iplaceholder/
 ---
 ## IPlaceholder interface

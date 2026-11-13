@@ -1,14 +1,14 @@
 ---
 title: Hide
-second_title: Aspose.Sildes .NET için API Referansı
-description: Veri etiketini varsayılan olarak gizli yapmak için DefaultDataLabelFormat özelliğinin tüm Show-flags (ShowValue ...) false durumuna ayarlayın. IsVisible bu işlemden sonra false olacaktır.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Veri etiketini varsayılan olarak gizlemek için DefaultDataLabelFormat özelliğinin tüm Show-flags ShowValue ... öğesini false durumuna ayarlayın. IsVisible bu işlemden sonra false olacaktır.
 type: docs
-weight: 100
+weight: 110
 url: /tr/aspose.slides.charts/idatalabelcollection/hide/
 ---
-## IDataLabelCollection.Hide metodu
+## IDataLabelCollection.Hide metot
 
-Veri etiketini varsayılan olarak gizli yapmak için DefaultDataLabelFormat özelliğinin tüm Show*-bayraklarını (ShowValue, ...) false durumuna ayarlayın. IsVisible bu işlemden sonra false olacaktır.
+Veri etiketini varsayılan olarak gizli yapmak için DefaultDataLabelFormat özelliğinin tüm Show*-flags (ShowValue, ...) false durumuna ayarlayın. IsVisible bu işlemden sonra false olacaktır.
 
 ```csharp
 public void Hide()
@@ -16,9 +16,9 @@ public void Hide()
 
 ### Açıklamalar
 
-Veri etiketi varsayılan olarak görünür değilse (IsVisible false) Show*-bayraklarını (ShowValue, ...) DefaultDataLabelFormat özelliğinde true durumuna ayarlayarak veri etiketini “varsayılan olarak görünür” hâle getirebilirsiniz.
+Veri etiketi varsayılan olarak görünür değilse (IsVisible false ise) Show*-flags (ShowValue, ...) DefaultDataLabelFormat özelliğini true durumuna ayarlayarak veri etiketini "varsayılan olarak görünür" yapabilirsiniz.
 
-### Diğer Bağlantılar
+### Bakınız
 
 * arayüz [IDataLabelCollection](../../idatalabelcollection)
 * ad alanı [Aspose.Slides.Charts](../../idatalabelcollection)

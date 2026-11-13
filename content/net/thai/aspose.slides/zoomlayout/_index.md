@@ -1,14 +1,14 @@
 ---
 title: ZoomLayout
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: ระบุรูปแบบการซูมสรุป
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: ระบุการซูมสรุปของเลย์เอาต์.
 type: docs
-weight: 11860
+weight: 11880
 url: /th/aspose.slides/zoomlayout/
 ---
-## การนับ ZoomLayout
+## ZoomLayout การกำหนดค่า
 
-ระบุรูปแบบการซูมสรุป
+ระบุการซูมสรุปของเลย์เอาต์.
 
 ```csharp
 public enum ZoomLayout
@@ -18,8 +18,8 @@ public enum ZoomLayout
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| GridLayout | `0` | ระบุเค้าโครงเป็นการจัดวางแบบตารางสำหรับรายการของวัตถุ |
-| FixedLayout | `1` | ระบุเค้าโครงโดยใช้การกำหนดตำแหน่ง Zoom ที่ผู้ใช้กำหนด |
+| GridLayout | `0` | ระบุการจัดวางเป็นการจัดเรียงแบบตารางสำหรับรายการของออบเจ็กต์. |
+| FixedLayout | `1` | ระบุการจัดวางด้วยตำแหน่ง Zoom ที่ผู้ใช้กำหนดเอง. |
 
 ### ดูเพิ่มเติม
 

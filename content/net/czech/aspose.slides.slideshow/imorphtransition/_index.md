@@ -1,14 +1,14 @@
 ---
 title: IMorphTransition
-second_title: Aspose.Sildes pro .NET API Reference
-description: Efekt vlnitého přechodu snímku.
+second_title: Aspose.Sildes pro .NET – referenční příručka API
+description: Efekt přechodu snímku Ripple.
 type: docs
-weight: 10130
+weight: 10150
 url: /cs/aspose.slides.slideshow/imorphtransition/
 ---
 ## IMorphTransition rozhraní
 
-Efekt vlnitého přechodu snímku.
+Efekt přechodu snímku Ripple.
 
 ```csharp
 public interface IMorphTransition : ITransitionValueBase
@@ -19,7 +19,7 @@ public interface IMorphTransition : ITransitionValueBase
 | Název | Popis |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/imorphtransition/asitransitionvaluebase) { get; } | Umožňuje získat základní rozhraní ITransitionValueBase. Pouze pro čtení [`ITransitionValueBase`](../itransitionvaluebase). |
-| [MorphType](../../aspose.slides.slideshow/imorphtransition/morphtype) { get; set; } | Typ morph přechodu. Čtení/zápis [`TransitionMorphType`](../transitionmorphtype). |
+| [MorphType](../../aspose.slides.slideshow/imorphtransition/morphtype) { get; set; } | Typ morph přechodu. Číst/Zapisovat [`TransitionMorphType`](../transitionmorphtype). |
 
 ### Viz také
 

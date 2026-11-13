@@ -3,12 +3,12 @@ title: ITextFrameFormatEffectiveData
 second_title: Aspose.Sildes için .NET API Referansı
 description: Etkili metin çerçevesi biçimlendirme özelliklerini içeren değiştirilemez nesne.
 type: docs
-weight: 7290
+weight: 7310
 url: /tr/aspose.slides/itextframeformateffectivedata/
 ---
-## ITextFrameFormatEffectiveData arayüzü
+## ITextFrameFormatEffectiveData arayüz
 
-Etkili metin çerçevesi biçimlendirme özelliklerini içeren değiştirilemez nesne.
+Gerçek etkili metin çerçevesi biçimlendirme özelliklerini içeren değiştirilemez nesne.
 
 ```csharp
 public interface ITextFrameFormatEffectiveData
@@ -18,24 +18,24 @@ public interface ITextFrameFormatEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [AnchoringType](../../aspose.slides/itextframeformateffectivedata/anchoringtype) { get; } | Bir TextFrame içinde dikey çapa metnini döndürür. Salt okunur [`TextAnchorType`](../textanchortype). |
-| [AutofitType](../../aspose.slides/itextframeformateffectivedata/autofittype) { get; } | Metin otomatik sığdırma modunu döndürür. Salt okunur [`TextAutofitType`](../textautofittype). |
-| [CenterText](../../aspose.slides/itextframeformateffectivedata/centertext) { get; } | Metnin kutuda yatay olarak ortalanıp ortalanmadığını döndürür. Salt okunur Boolean. |
-| [ColumnCount](../../aspose.slides/itextframeformateffectivedata/columncount) { get; } | Sınırlayıcı dikdörtgen içinde metnin sütun sayısını belirtir. Salt okunur Int32. |
-| [ColumnSpacing](../../aspose.slides/itextframeformateffectivedata/columnspacing) { get; } | Metin alanındaki metin sütunları arasındaki boşluğu (nokta cinsinden) belirtir. Salt okunur Single. |
-| [MarginBottom](../../aspose.slides/itextframeformateffectivedata/marginbottom) { get; } | Bir TextFrame içindeki alt kenar boşluğunu (nokta) döndürür. Salt okunur Double. |
-| [MarginLeft](../../aspose.slides/itextframeformateffectivedata/marginleft) { get; } | Bir TextFrame içindeki sol kenar boşluğunu (nokta) döndürür. Salt okunur Double. |
-| [MarginRight](../../aspose.slides/itextframeformateffectivedata/marginright) { get; } | Bir TextFrame içindeki sağ kenar boşluğunu (nokta) döndürür. Salt okunur Double. |
-| [MarginTop](../../aspose.slides/itextframeformateffectivedata/margintop) { get; } | Bir TextFrame içindeki üst kenar boşluğunu (nokta) döndürür. Salt okunur Double. |
-| [TextStyle](../../aspose.slides/itextframeformateffectivedata/textstyle) { get; } | Etkin metnin stilini döndürür. Salt okunur [`ITextStyleEffectiveData`](../itextstyleeffectivedata). |
-| [TextVerticalType](../../aspose.slides/itextframeformateffectivedata/textverticaltype) { get; } | Metin yönlendirmesini döndürür. Salt okunur [`TextVerticalType`](../textverticaltype). |
-| [WrapText](../../aspose.slides/itextframeformateffectivedata/wraptext) { get; } | Metnin TextFrame kenar boşluklarında sarılıp sarılmadığını döndürür. Salt okunur Boolean. |
+| [AnchoringType](../../aspose.slides/itextframeformateffectivedata/anchoringtype) { get; } | Bir TextFrame içinde dikey tutma metnini döndürür. Salt okunur [`TextAnchorType`](../textanchortype). |
+| [AutofitType](../../aspose.slides/itextframeformateffectivedata/autofittype) { get; } | Metin otomatik sığdırma kipini döndürür. Salt okunur [`TextAutofitType`](../textautofittype). |
+| [CenterText](../../aspose.slides/itextframeformateffectivedata/centertext) { get; } | Metnin kutu içinde yatay olarak ortalanması gerekip gerekmediğini döndürür. Salt okunur Boolean. |
+| [ColumnCount](../../aspose.slides/itextframeformateffectivedata/columncount) { get; } | Sınırlayıcı dikdörtgen içindeki metin sütun sayısını belirler. Salt okunur Int32. |
+| [ColumnSpacing](../../aspose.slides/itextframeformateffectivedata/columnspacing) { get; } | Metin alanındaki metin sütunları arasındaki boşluğu (puan cinsinden) belirler. Salt okunur Single. |
+| [MarginBottom](../../aspose.slides/itextframeformateffectivedata/marginbottom) { get; } | Bir TextFrame içindeki alt kenar boşluğunu (puan) döndürür. Salt okunur Double. |
+| [MarginLeft](../../aspose.slides/itextframeformateffectivedata/marginleft) { get; } | Bir TextFrame içindeki sol kenar boşluğunu (puan) döndürür. Salt okunur Double. |
+| [MarginRight](../../aspose.slides/itextframeformateffectivedata/marginright) { get; } | Bir TextFrame içindeki sağ kenar boşluğunu (puan) döndürür. Salt okunur Double. |
+| [MarginTop](../../aspose.slides/itextframeformateffectivedata/margintop) { get; } | Bir TextFrame içindeki üst kenar boşluğunu (puan) döndürür. Salt okunur Double. |
+| [TextStyle](../../aspose.slides/itextframeformateffectivedata/textstyle) { get; } | Etkili metnin stilini döndürür. Salt okunur [`ITextStyleEffectiveData`](../itextstyleeffectivedata). |
+| [TextVerticalType](../../aspose.slides/itextframeformateffectivedata/textverticaltype) { get; } | Metin yönelimini döndürür. Salt okunur [`TextVerticalType`](../textverticaltype). |
+| [WrapText](../../aspose.slides/itextframeformateffectivedata/wraptext) { get; } | Metnin TextFrame kenar boşluklarında kaydırılıp kaydırılmadığını döndürür. Salt okunur Boolean. |
 
 ### Açıklamalar
 
-Bu arayüz, [`ITextFrameFormat`](../itextframeformat) arayüzüyle birlikte, miras uygulanmış etkili biçimlendirme değerlerini döndürmek için kullanılır.
+Bu arayüz, [`ITextFrameFormat`](../itextframeformat) arayüzü ile birlikte, kalıtım uygulanmış etkili biçimlendirme değerlerini döndürmek için kullanılır.
 
-### Ayrıca Bakınız
+### İlgili
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

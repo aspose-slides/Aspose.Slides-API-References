@@ -3,12 +3,12 @@ title: IRippleTransition
 second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: เอฟเฟกต์การเปลี่ยนสไลด์แบบ Ripple.
 type: docs
-weight: 10170
+weight: 10190
 url: /th/aspose.slides.slideshow/irippletransition/
 ---
 ## IRippleTransition อินเทอร์เฟซ
 
-เอฟเฟกต์การเปลี่ยนสไลด์แบบ Ripple.
+Ripple slide transition effect.
 
 ```csharp
 public interface IRippleTransition : ITransitionValueBase
@@ -18,7 +18,7 @@ public interface IRippleTransition : ITransitionValueBase
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/irippletransition/asitransitionvaluebase) { get; } | อนุญาตให้รับอินเทอร์เฟซ ITransitionValueBase พื้นฐาน. อ่านอย่างเดียว [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/irippletransition/asitransitionvaluebase) { get; } | อนุญาตให้ดึงค่า base ITransitionValueBase อินเทอร์เฟซ. อ่านอย่างเดียว [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/irippletransition/direction) { get; set; } | ทิศทางของการเปลี่ยนแปลง. อ่าน/เขียน [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
 
 ### ดูเพิ่มเติม

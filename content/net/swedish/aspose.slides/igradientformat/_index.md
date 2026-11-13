@@ -3,10 +3,12 @@ title: IGradientFormat
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar ett gradientformat.
 type: docs
-weight: 6000
+weight: 6020
 url: /sv/aspose.slides/igradientformat/
 ---
 ## IGradientFormat gränssnitt
+
+Representerar ett gradientformat.
 
 ```csharp
 public interface IGradientFormat : IFillParamSource
@@ -14,15 +16,15 @@ public interface IGradientFormat : IFillParamSource
 
 ## Egenskaper
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/igradientformat/asifillparamsource) { get; } | Tillåter att hämta bas-IFillParamSource-gränssnittet. Skrivskyddad [`IFillParamSource`](../ifillparamsource). |
-| [GradientDirection](../../aspose.slides/igradientformat/gradientdirection) { get; set; } | Returnerar eller anger stilen för en gradient. Läs/skriv [`GradientDirection`](../gradientdirection). |
-| [GradientShape](../../aspose.slides/igradientformat/gradientshape) { get; set; } | Returnerar eller anger formen på en gradient. Läs/skriv [`GradientShape`](../gradientshape). |
+| [AsIFillParamSource](../../aspose.slides/igradientformat/asifillparamsource) { get; } | Tillåter att hämta base-IFillParamSource-gränssnittet. Skrivskyddad [`IFillParamSource`](../ifillparamsource). |
+| [GradientDirection](../../aspose.slides/igradientformat/gradientdirection) { get; set; } | Returnerar eller sätter gradientens stil. Läs/skriv [`GradientDirection`](../gradientdirection). |
+| [GradientShape](../../aspose.slides/igradientformat/gradientshape) { get; set; } | Returnerar eller sätter gradientens form. Läs/skriv [`GradientShape`](../gradientshape). |
 | [GradientStops](../../aspose.slides/igradientformat/gradientstops) { get; } | Returnerar samlingen av gradientstopp. Skrivskyddad [`IGradientStopCollection`](../igradientstopcollection). |
-| [LinearGradientAngle](../../aspose.slides/igradientformat/lineargradientangle) { get; set; } | Returnerar eller anger vinkeln för en gradient. Läs/skriv Single. |
+| [LinearGradientAngle](../../aspose.slides/igradientformat/lineargradientangle) { get; set; } | Returnerar eller sätter vinkeln på en gradient. Läs/skriv Single. |
 | [LinearGradientScaled](../../aspose.slides/igradientformat/lineargradientscaled) { get; set; } | Bestämmer om en gradient är skalad. Läs/skriv [`NullableBool`](../nullablebool). |
-| [TileFlip](../../aspose.slides/igradientformat/tileflip) { get; set; } | Returnerar eller anger vändningsläget för en gradient. Läs/skriv [`TileFlip`](../tileflip). |
+| [TileFlip](../../aspose.slides/igradientformat/tileflip) { get; set; } | Returnerar eller sätter vändningsläget för en gradient. Läs/skriv [`TileFlip`](../tileflip). |
 
 ### Se även
 

@@ -3,7 +3,7 @@ title: XamlOptions
 second_title: Aspose.Sildes .NET API 参考
 description: 控制 XAML 文档保存方式的选项。
 type: docs
-weight: 4720
+weight: 4740
 url: /zh/aspose.slides.export.xaml/xamloptions/
 ---
 ## XamlOptions 类
@@ -16,21 +16,21 @@ public class XamlOptions : SaveOptions, IXamlOptions
 
 ## 构造函数
 
-| 名称 | 说明 |
+| 名称 | 描述 |
 | --- | --- |
 | [XamlOptions](xamloptions)() | 创建 XamlOptions 实例。 |
 
 ## 属性
 
-| 名称 | 说明 |
+| 名称 | 描述 |
 | --- | --- |
 | [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 返回或设置在未找到源字体时使用的字体。读写 String。 |
-| [ExportHiddenSlides](../../aspose.slides.export.xaml/xamloptions/exporthiddenslides) { get; set; } | 确定是否导出隐藏的幻灯片。 |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 返回或设置渐变的可视样式。读写 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
+| [ExportHiddenSlides](../../aspose.slides.export.xaml/xamloptions/exporthiddenslides) { get; set; } | 确定是否导出隐藏幻灯片。 |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 返回或设置渐变的视觉样式。读写 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
 | [OutputSaver](../../aspose.slides.export.xaml/xamloptions/outputsaver) { get; set; } | 表示 IOutputSaver 接口的实现。 |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 表示用于以百分比保存进度更新的回调对象。参见 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定在保存演示文稿时是否跳过包含 JavaScript 调用的超链接。读写 Boolean。默认值为 **false**。 |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 返回或设置一个接收警告并决定加载过程是继续还是中止的对象。读写 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 表示用于保存进度更新（百分比）的回调对象。参见 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定在保存演示文稿时是否跳过带有 JavaScript 调用的超链接。读写 Boolean。默认值为 **false**。 |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 返回或设置接收警告并决定加载过程是继续还是中止的对象。读写 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
 
 ### 示例
 

@@ -1,14 +1,14 @@
 ---
 title: PVIObject
-second_title: Aspose.Sildes for .NET API リファレンス
-description: プロパティ値の継承対象となり得るオブジェクトの基本的なサービスインフラストラクチャをカプセル化します。
+second_title: Aspose.Sildes の .NET 用 API リファレンス
+description: オブジェクトがプロパティ値の継承対象となる基本的なサービスインフラストラクチャをカプセル化します。
 type: docs
-weight: 9270
+weight: 9290
 url: /ja/aspose.slides/pviobject/
 ---
 ## PVIObject クラス
 
-オブジェクトがプロパティ値の継承対象となる場合の基本的なサービスインフラストラクチャをカプセル化します。
+オブジェクトがプロパティ値の継承対象となる基本的なサービスインフラストラクチャをカプセル化します。
 
 ```csharp
 public abstract class PVIObject : ISlideComponent
@@ -16,13 +16,13 @@ public abstract class PVIObject : ISlideComponent
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 指定されたオブジェクトと比較します。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | ハッシュコードを返します。 |

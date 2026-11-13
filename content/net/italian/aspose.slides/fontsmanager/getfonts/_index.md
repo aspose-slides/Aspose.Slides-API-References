@@ -1,20 +1,20 @@
 ---
 title: GetFonts
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Restituisce i font utilizzati nella presentazione
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Restituisce i font usati nella presentazione
 type: docs
-weight: 70
+weight: 80
 url: /it/aspose.slides/fontsmanager/getfonts/
 ---
-## FontsManager.GetFonts metodo
+## FontsManager.GetFonts method
 
-Restituisce i font utilizzati nella presentazione
+Restituisce i font usati nella presentazione
 
 ```csharp
 public IFontData[] GetFonts()
 ```
 
-### Valore di ritorno
+### Valore restituito
 
 Un array di font
 

@@ -1,9 +1,9 @@
 ---
 title: RowFormat
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes .NET API 레퍼런스
 description: 테이블 행의 형식을 나타냅니다.
 type: docs
-weight: 9730
+weight: 9750
 url: /ko/aspose.slides/rowformat/
 ---
 ## RowFormat 클래스
@@ -20,7 +20,7 @@ public sealed class RowFormat : DomObject<Row>, IRowFormat
 | --- | --- |
 | [GetEffective](../../aspose.slides/rowformat/geteffective)() | 상속 및 테이블 스타일이 적용된 효과적인 테이블 행 서식 속성을 가져옵니다. |
 
-### 관련 항목
+### 참조
 
 * 클래스 [DomObject&lt;TParent&gt;](../domobject-1)
 * 클래스 [Row](../row)

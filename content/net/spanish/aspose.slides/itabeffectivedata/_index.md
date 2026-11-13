@@ -1,14 +1,14 @@
 ---
 title: ITabEffectiveData
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Objeto inmutable que contiene las propiedades de parada de tabulación de los textos efectivos.
+description: Objeto inmutable que contiene las propiedades de detención de tabulación del texto efectivo.
 type: docs
-weight: 7210
+weight: 7230
 url: /es/aspose.slides/itabeffectivedata/
 ---
 ## ITabEffectiveData interfaz
 
-Objeto inmutable que contiene las propiedades de parada de tabulación del texto efectivo.
+Objeto inmutable que contiene las propiedades de detención de tabulación del texto efectivo.
 
 ```csharp
 public interface ITabEffectiveData : IComparable
@@ -20,13 +20,13 @@ public interface ITabEffectiveData : IComparable
 | --- | --- |
 | [Alignment](../../aspose.slides/itabeffectivedata/alignment) { get; } | Devuelve el estilo de alineación de una tabulación. Solo lectura [`TabAlignment`](../tabalignment). |
 | [AsIComparable](../../aspose.slides/itabeffectivedata/asicomparable) { get; } | Devuelve la interfaz IComparable. Solo lectura IComparable. |
-| [Position](../../aspose.slides/itabeffectivedata/position) { get; } | Devuelve la posición de una tabulación. Asignar esta propiedad puede cambiar el índice de la tabulación en la colección e invalidar el Enumerator. Solo lectura Double. |
+| [Position](../../aspose.slides/itabeffectivedata/position) { get; } | Devuelve la posición de una tabulación. Asignar esta propiedad puede cambiar el índice de la tabulación en la colección e invalidar el enumerador. Solo lectura Double. |
 
 ### Observaciones
 
 Esta interfaz se usa como parte de [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata).
 
-### Ver también
+### Véase también
 
 * espacio de nombres [Aspose.Slides](../../aspose.slides)
 * ensamblado [Aspose.Slides](../../)

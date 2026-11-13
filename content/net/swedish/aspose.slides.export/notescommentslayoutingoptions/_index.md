@@ -1,14 +1,14 @@
 ---
 title: NotesCommentsLayoutingOptions
 second_title: Aspose.Sildes för .NET API-referens
-description: Tillhandahåller alternativ som styr utseendet på layouten av anteckningar och kommentarer i det exporterade dokumentet.
+description: Tillhandahåller alternativ som styr utseendet på layouten av anteckningar och kommentarer i exporterade dokument.
 type: docs
-weight: 4290
+weight: 4310
 url: /sv/aspose.slides.export/notescommentslayoutingoptions/
 ---
 ## NotesCommentsLayoutingOptions klass
 
-Tillhandahåller alternativ som styr utseendet på layouten av anteckningar och kommentarer i det exporterade dokumentet.
+Tillhandahåller alternativ som styr utseendet på layouten av anteckningar och kommentarer i exporterade dokument.
 
 ```csharp
 public class NotesCommentsLayoutingOptions : ISlidesLayoutOptions
@@ -18,7 +18,7 @@ public class NotesCommentsLayoutingOptions : ISlidesLayoutOptions
 
 | Namn | Beskrivning |
 | --- | --- |
-| [NotesCommentsLayoutingOptions](notescommentslayoutingoptions)() | Standardkonstruktor. |
+| [NotesCommentsLayoutingOptions](notescommentslayoutingoptions)() | Standardkonstruktör. |
 
 ## Egenskaper
 
@@ -26,11 +26,11 @@ public class NotesCommentsLayoutingOptions : ISlidesLayoutOptions
 | --- | --- |
 | [CommentsAreaColor](../../aspose.slides.export/notescommentslayoutingoptions/commentsareacolor) { get; set; } | Hämtar eller anger färgen på kommentarsområdet (Gäller endast om kommentarer visas till höger). |
 | [CommentsAreaWidth](../../aspose.slides.export/notescommentslayoutingoptions/commentsareawidth) { get; set; } | Hämtar eller anger bredden på kommentarsutmatningsområdet i pixlar (Gäller endast om kommentarer visas till höger). |
-| [CommentsPosition](../../aspose.slides.export/notescommentslayoutingoptions/commentsposition) { get; set; } | Hämtar eller anger positionen för kommentarerna på sidan. |
-| [NotesPosition](../../aspose.slides.export/notescommentslayoutingoptions/notesposition) { get; set; } | Hämtar eller anger positionen för anteckningarna på sidan. |
-| [ShowCommentsByNoAuthor](../../aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | Hämtar eller anger synligheten för kommentarer utan författare. Om true visas kommentarerna. (Gäller endast om kommentarer visas). |
+| [CommentsPosition](../../aspose.slides.export/notescommentslayoutingoptions/commentsposition) { get; set; } | Hämtar eller anger positionen för kommentarer på sidan. |
+| [NotesPosition](../../aspose.slides.export/notescommentslayoutingoptions/notesposition) { get; set; } | Hämtar eller anger positionen för anteckningar på sidan. |
+| [ShowCommentsByNoAuthor](../../aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | Hämtar eller anger synligheten för kommentarer utan en författare. Om true visas kommentarer. (Gäller endast om kommentarer visas). |
 
-### Se också
+### Se även
 
 * gränssnitt [ISlidesLayoutOptions](../islideslayoutoptions)
 * namnrymd [Aspose.Slides.Export](../../aspose.slides.export)

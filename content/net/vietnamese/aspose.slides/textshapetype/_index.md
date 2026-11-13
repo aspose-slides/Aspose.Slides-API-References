@@ -1,14 +1,14 @@
 ---
 title: TextShapeType
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn hình dạng bọc văn bản.
+description: Biểu thị hình dạng bao văn bản.
 type: docs
-weight: 10980
+weight: 11000
 url: /vi/aspose.slides/textshapetype/
 ---
-## TextShapeType enum
+## TextShapeType liệt kê
 
-Biểu diễn hình dạng bọc văn bản.
+Biểu thị hình dạng bao văn bản.
 
 ```csharp
 public enum TextShapeType : sbyte
@@ -16,50 +16,50 @@ public enum TextShapeType : sbyte
 
 ### Các giá trị
 
-| Tên | Giá trị | Mô tả |
+| Name | Value | Description |
 | --- | --- | --- |
-| NotDefined | `-1` | Không xác định |
-| None | `0` | Không hình dạng |
-| Plain | `1` | Bình thường |
+| NotDefined | `-1` | Không được định nghĩa |
+| None | `0` | Không có hình dạng |
+| Plain | `1` | Đơn giản |
 | Stop | `2` | Biển dừng |
 | Triangle | `3` | Tam giác |
 | TriangleInverted | `4` | Tam giác ngược |
 | Chevron | `5` | Chevron |
 | ChevronInverted | `6` | Chevron ngược |
-| RingInside | `7` | Vòng trong |
-| RingOutside | `8` | Vòng ngoài |
-| ArchUp | `9` | Vòng cung lên |
-| ArchDown | `10` | Vòng cung xuống |
+| RingInside | `7` | Vòng bên trong |
+| RingOutside | `8` | Vòng bên ngoài |
+| ArchUp | `9` | Cung lên |
+| ArchDown | `10` | Cung xuống |
 | Circle | `11` | Vòng tròn |
 | Button | `12` | Nút |
-| ArchUpPour | `13` | Vòng cung rót lên |
-| ArchDownPour | `14` | Vòng cung rót xuống |
-| CirclePour | `15` | Rót vòng tròn |
-| ButtonPour | `16` | Rót nút |
+| ArchUpPour | `13` | Cung đổ lên |
+| ArchDownPour | `14` | Cung đổ xuống |
+| CirclePour | `15` | Đổ vòng tròn |
+| ButtonPour | `16` | Đổ nút |
 | CurveUp | `17` | Đường cong lên |
 | CurveDown | `18` | Đường cong xuống |
-| CanUp | `19` | Cán lên |
-| CanDown | `20` | Cán xuống |
+| CanUp | `19` | Ly lên |
+| CanDown | `20` | Ly xuống |
 | Wave1 | `21` | Sóng 1 |
 | Wave2 | `22` | Sóng 2 |
 | DoubleWave1 | `23` | Sóng đôi 1 |
 | Wave4 | `24` | Sóng 4 |
 | Inflate | `25` | Bơm phồng |
-| Deflate | `26` | Xả hơi |
+| Deflate | `26` | Thả hơi |
 | InflateBottom | `27` | Bơm phồng dưới |
-| DeflateBottom | `28` | Xả hơi dưới |
+| DeflateBottom | `28` | Thả hơi dưới |
 | InflateTop | `29` | Bơm phồng trên |
-| DeflateTop | `30` | Xả hơi trên |
-| DeflateInflate | `31` | Xả-Bơm |
-| DeflateInflateDeflate | `32` | Xả-Bơm-Xả |
+| DeflateTop | `30` | Thả hơi trên |
+| DeflateInflate | `31` | Thả hơi - Bơm phồng |
+| DeflateInflateDeflate | `32` | Thả hơi - Bơm phồng - Thả hơi |
 | FadeRight | `33` | Mờ dần bên phải |
 | FadeLeft | `34` | Mờ dần bên trái |
 | FadeUp | `35` | Mờ dần lên |
 | FadeDown | `36` | Mờ dần xuống |
-| SlantUp | `37` | Nghiêng lên |
-| SlantDown | `38` | Nghiêng xuống |
-| CascadeUp | `39` | Đổ thác lên |
-| CascadeDown | `40` | Đổ thác xuống |
+| SlantUp | `37` | Góc nghiêng lên |
+| SlantDown | `38` | Góc nghiêng xuống |
+| CascadeUp | `39` | Thác lên |
+| CascadeDown | `40` | Thác xuống |
 | Custom | `41` | Tùy chỉnh |
 
 ### Xem thêm

@@ -1,12 +1,12 @@
 ---
 title: IStreamWrapperFactory
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: StreamWrappers fabrikası. COM arayüzü için.
 type: docs
-weight: 7140
+weight: 7160
 url: /tr/aspose.slides/istreamwrapperfactory/
 ---
-## IStreamWrapperFactory arayüz
+## IStreamWrapperFactory interface
 
 StreamWrappers fabrikası. COM arayüzü için.
 
@@ -14,14 +14,14 @@ StreamWrappers fabrikası. COM arayüzü için.
 public interface IStreamWrapperFactory
 ```
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Belirtilen yol ve oluşturma modu ile FileStream oluşturur. |
-| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Belirtilen yol, oluşturma modu ve okuma/yazma izni ile FileStream oluşturur. |
+| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Belirtilen yol ve oluşturma modu kullanılarak FileStream oluşturur. |
+| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Belirtilen yol, oluşturma modu ve okuma/yazma izniyle FileStream oluşturur. |
 | [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | MemoryStream sarmalayıcısını oluşturur. |
-| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Belirtilen bayt dizisine dayalı MemoryStream sarmalayıcısı oluşturur. |
+| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Belirtilen byte dizisine dayanarak MemoryStream sarmalayıcısını oluşturur. |
 
 ### Ayrıca Bakınız
 

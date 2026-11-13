@@ -1,9 +1,9 @@
 ---
 title: ICommentAuthorCollection
-second_title: Aspose.Sildes per .NET API Reference
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta una raccolta di autori di commenti.
 type: docs
-weight: 5580
+weight: 5600
 url: /it/aspose.slides/icommentauthorcollection/
 ---
 ## ICommentAuthorCollection interfaccia
@@ -24,7 +24,7 @@ public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
 
 | Nome | Descrizione |
 | --- | --- |
-| [AddAuthor](../../aspose.slides/icommentauthorcollection/addauthor)(string, string) | Aggiunge un nuovo autore alla fine di una raccolta. |
+| [AddAuthor](../../aspose.slides/icommentauthorcollection/addauthor)(string, string) | Aggiunge un nuovo autore alla fine della raccolta. |
 | [Clear](../../aspose.slides/icommentauthorcollection/clear)() | Rimuove tutti gli autori da una raccolta. |
 | [FindByName](../../aspose.slides/icommentauthorcollection/findbyname)(string) | Trova l'autore in una raccolta per nome. |
 | [FindByNameAndInitials](../../aspose.slides/icommentauthorcollection/findbynameandinitials)(string, string) | Trova l'autore in una raccolta per nome e iniziali. |

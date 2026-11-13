@@ -1,14 +1,14 @@
 ---
 title: IChartDataWorkbook
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Zapewnia dostęp do wbudowanego skoroszytu Excel
+second_title: Aspose.Sildes dla .NET – referencja API
+description: Zapewnia dostęp do osadzonego skoroszytu Excel
 type: docs
-weight: 1860
+weight: 1880
 url: /pl/aspose.slides.charts/ichartdataworkbook/
 ---
 ## IChartDataWorkbook interfejs
 
-Zapewnia dostęp do wbudowanego skoroszytu Excel
+Zapewnia dostęp do osadzonego skoroszytu Excel
 
 ```csharp
 public interface IChartDataWorkbook

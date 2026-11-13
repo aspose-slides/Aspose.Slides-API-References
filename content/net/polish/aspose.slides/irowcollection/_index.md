@@ -1,9 +1,9 @@
 ---
 title: IRowCollection
-second_title: Aspose.Sildes dla .NET - Dokumentacja API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Reprezentuje kolekcję wierszy tabeli.
 type: docs
-weight: 6860
+weight: 6880
 url: /pl/aspose.slides/irowcollection/
 ---
 ## IRowCollection interfejs
@@ -18,15 +18,15 @@ public interface IRowCollection : IGenericCollection<IRow>
 
 | Nazwa | Opis |
 | --- | --- |
-| [Item](../../aspose.slides/irowcollection/item) { get; } | Pobiera element o określonym indeksie. |
+| [Item](../../aspose.slides/irowcollection/item) { get; } | Zwraca element o określonym indeksie. |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
 | [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | Tworzy kopię określonego wiersza szablonu i wstawia ją na końcu tabeli. |
-| [InsertClone](../../aspose.slides/irowcollection/insertclone)(int, IRow, bool) | Tworzy kopię określonego wiersza szablonu i wstawia ją w określonej pozycji w tabeli. |
-| [RemoveAt](../../aspose.slides/irowcollection/removeat)(int, bool) | Usuwa wiersz w określonej pozycji z tabeli. |
+| [InsertClone](../../aspose.slides/irowcollection/insertclone)(int, IRow, bool) | Tworzy kopię określonego wiersza szablonu i wstawia ją na określonej pozycji w tabeli. |
+| [RemoveAt](../../aspose.slides/irowcollection/removeat)(int, bool) | Usuwa wiersz o określonej pozycji z tabeli. |
 
 ### Zobacz także
 

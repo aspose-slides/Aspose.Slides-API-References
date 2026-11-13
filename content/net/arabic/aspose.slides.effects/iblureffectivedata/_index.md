@@ -1,14 +1,14 @@
 ---
 title: IBlurEffectiveData
-second_title: Aspose.Sildes لـ .NET مرجع API
-description: كائن غير قابل للتغيير يمثل تأثير Blur يُطبق على الشكل بالكامل بما في ذلك التعبئة. جميع قنوات اللون بما في ذلك ألفا متأثرة.
+second_title: Aspose.Sildes لواجهة برمجة التطبيقات .NET
+description: كائن ثابت يمثل تأثير الضبابية المطبق على الشكل بالكامل بما في ذلك التعبئة. جميع قنوات اللون بما فيها ألفا تتأثر.
 type: docs
-weight: 3190
+weight: 3210
 url: /ar/aspose.slides.effects/iblureffectivedata/
 ---
 ## واجهة IBlurEffectiveData
 
-كائن غير قابل للتغيير يُمثِّل تأثير Blur يُطبَّق على الشكل بأكمله، بما في ذلك التعبئة. جميع قنوات اللون، بما في ذلك ألفا، متأثرة.
+كائن ثابت يمثل تأثير الضبابية الذي يُطبق على الشكل بالكامل، بما في ذلك التعبئة. جميع قنوات اللون، بما فيها ألفا، تتأثر.
 
 ```csharp
 public interface IBlurEffectiveData : IEffectEffectiveData
@@ -19,10 +19,10 @@ public interface IBlurEffectiveData : IEffectEffectiveData
 | الاسم | الوصف |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/iblureffectivedata/asieffecteffectivedata) { get; } | يسمح بالحصول على واجهة IEffectEffectiveData الأساسية. للقراءة فقط [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | يحدد ما إذا كان يجب توسيع حدود الكائن نتيجةً للتمويه. True تشير إلى أن الحدود تُوسع بينما false تشير إلى عدم ذلك. للقراءة فقط Boolean. |
-| [Radius](../../aspose.slides.effects/iblureffectivedata/radius) { get; } | إرجاع أو تعيين نصف قطر التمويه. للقراءة فقط Double. |
+| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | يحدد ما إذا كان يجب توسيع حدود الكائن نتيجةً للضبابية. True يشير إلى أن الحدود قد تم توسيعها بينما false يشير إلى أنها لم تُوسع. Boolean للقراءة فقط. |
+| [Radius](../../aspose.slides.effects/iblureffectivedata/radius) { get; } | يرجع أو يحدد نصف قطر الضبابية. Double للقراءة فقط. |
 
-### راجع أيضًا
+### انظر أيضًا
 
 * واجهة [IEffectEffectiveData](../ieffecteffectivedata)
 * مساحة الاسم [Aspose.Slides.Effects](../../aspose.slides.effects)

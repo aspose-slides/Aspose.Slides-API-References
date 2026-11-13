@@ -1,14 +1,14 @@
 ---
 title: IFillFormatEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 効果的な塗りつぶし書式プロパティを含む不変オブジェクトです。
+description: 有効な塗りつぶし書式設定プロパティを含む不変オブジェクトです。
 type: docs
-weight: 5800
+weight: 5820
 url: /ja/aspose.slides/ifillformateffectivedata/
 ---
 ## IFillFormatEffectiveData インターフェイス
 
-効果的な塗りつぶし書式プロパティを含む不変オブジェクトです。
+Immutable object which contains effective fill formatting properties.
 
 ```csharp
 public interface IFillFormatEffectiveData : IFillParamSource
@@ -22,16 +22,16 @@ public interface IFillFormatEffectiveData : IFillParamSource
 | [FillType](../../aspose.slides/ifillformateffectivedata/filltype) { get; } | 塗りつぶしのタイプを返します。読み取り専用 [`FillType`](../filltype)。 |
 | [GradientFormat](../../aspose.slides/ifillformateffectivedata/gradientformat) { get; } | グラデーション塗りつぶし形式を返します。読み取り専用 [`IGradientFormatEffectiveData`](../igradientformateffectivedata)。 |
 | [PatternFormat](../../aspose.slides/ifillformateffectivedata/patternformat) { get; } | パターン塗りつぶし形式を返します。読み取り専用 [`IPatternFormatEffectiveData`](../ipatternformateffectivedata)。 |
-| [PictureFillFormat](../../aspose.slides/ifillformateffectivedata/picturefillformat) { get; } | ピクチャー塗りつぶし形式を返します。読み取り専用 [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata)。 |
-| [RotateWithShape](../../aspose.slides/ifillformateffectivedata/rotatewithshape) { get; } | 塗りつぶしがシェイプとともに回転するかどうかを決定します。読み取り専用 Boolean。 |
+| [PictureFillFormat](../../aspose.slides/ifillformateffectivedata/picturefillformat) { get; } | 画像塗りつぶし形式を返します。読み取り専用 [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata)。 |
+| [RotateWithShape](../../aspose.slides/ifillformateffectivedata/rotatewithshape) { get; } | 塗りつぶしがシェイプとともに回転すべきかどうかを決定します。読み取り専用 Boolean。 |
 | [SolidFillColor](../../aspose.slides/ifillformateffectivedata/solidfillcolor) { get; } | 塗りつぶしの色を返します。読み取り専用 Color。 |
-| [SolidFillSchemeColor](../../aspose.slides/ifillformateffectivedata/solidfillschemecolor) { get; } | カラースキームで定義された塗りつぶし色を取得します。NotDefined 値は [`SolidFillColor`](./solidfillcolor) がスキームカラーでないことを示します。読み取り専用 [`SchemeColor`](../schemecolor)。 |
+| [SolidFillSchemeColor](../../aspose.slides/ifillformateffectivedata/solidfillschemecolor) { get; } | カラースキームで定義された塗りつぶしの色を取得します。NotDefined 値は [`SolidFillColor`](./solidfillcolor) がスキームカラーでないことを示します。読み取り専用 [`SchemeColor`](../schemecolor)。 |
 
-### Remarks
+### 備考
 
-このインターフェイスは [`IFillFormat`](../ifillformat) インターフェイスと組み合わせて使用され、継承が適用された効果的な書式値を返します。
+This interface is used together with the [`IFillFormat`](../ifillformat) interface to return effective formatting values with inheritance applied.
 
-### See Also
+### 参照
 
 * インターフェイス [IFillParamSource](../ifillparamsource)
 * 名前空間 [Aspose.Slides](../../aspose.slides)

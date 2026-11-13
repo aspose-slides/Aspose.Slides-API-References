@@ -1,14 +1,14 @@
 ---
 title: IOverrideTheme
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje přepisovaný motiv.
+description: Představuje přepisující motiv.
 type: docs
-weight: 11340
+weight: 11360
 url: /cs/aspose.slides.theme/ioverridetheme/
 ---
 ## IOverrideTheme rozhraní
 
-Představuje přepisovaný motiv.
+Represents a overriding theme.
 
 ```csharp
 public interface IOverrideTheme : ITheme
@@ -18,28 +18,28 @@ public interface IOverrideTheme : ITheme
 
 | Název | Popis |
 | --- | --- |
-| [AsITheme](../../aspose.slides.theme/ioverridetheme/asitheme) { get; } | Umožňuje získat základní rozhraní ITheme. Pouze pro čtení [`ITheme`](../itheme). |
-| [IsEmpty](../../aspose.slides.theme/ioverridetheme/isempty) { get; } | Hodnota True znamená, že ColorScheme, FontScheme, FormatScheme je null a jakékoli přepsání pomocí tohoto objektu motivu je zakázáno. Pouze pro čtení Boolean. |
+| [AsITheme](../../aspose.slides.theme/ioverridetheme/asitheme) { get; } | Umožňuje získat základní rozhraní ITheme. Pouze ke čtení [`ITheme`](../itheme). |
+| [IsEmpty](../../aspose.slides.theme/ioverridetheme/isempty) { get; } | Hodnota true znamená, že ColorScheme, FontScheme a FormatScheme jsou null a jakékoli přepsání s tímto objektem motivu je zakázáno. Pouze ke čtení Boolean. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [Clear](../../aspose.slides.theme/ioverridetheme/clear)() | Nastaví ColorScheme, FontScheme, FormatScheme na null, aby zakázal jakékoli přepsání pomocí tohoto objektu motivu. |
-| [InitColorScheme](../../aspose.slides.theme/ioverridetheme/initcolorscheme)() | Inicializuje ColorScheme novým objektem pro přepsání ColorScheme InheritedTheme. |
-| [InitColorSchemeFrom](../../aspose.slides.theme/ioverridetheme/initcolorschemefrom)(IColorScheme) | Inicializuje ColorScheme novým objektem pro přepsání ColorScheme InheritedTheme. |
-| [InitColorSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initcolorschemefrominherited)() | Inicializuje ColorScheme novým objektem pro přepsání ColorScheme InheritedTheme a inicializuje data tohoto nového objektu daty ColorScheme InheritedTheme. |
-| [InitFontScheme](../../aspose.slides.theme/ioverridetheme/initfontscheme)() | Inicializuje FontScheme novým objektem pro přepsání FontScheme InheritedTheme. |
-| [InitFontSchemeFrom](../../aspose.slides.theme/ioverridetheme/initfontschemefrom)(IFontScheme) | Inicializuje FontScheme novým objektem pro přepsání FontScheme InheritedTheme. |
-| [InitFontSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initfontschemefrominherited)() | Inicializuje FontScheme novým objektem pro přepsání FontScheme InheritedTheme a inicializuje data tohoto nového objektu daty FontScheme InheritedTheme. |
-| [InitFormatScheme](../../aspose.slides.theme/ioverridetheme/initformatscheme)() | Inicializuje FormatScheme novým objektem pro přepsání FormatScheme InheritedTheme. |
-| [InitFormatSchemeFrom](../../aspose.slides.theme/ioverridetheme/initformatschemefrom)(IFormatScheme) | Inicializuje FormatScheme novým objektem pro přepsání FormatScheme InheritedTheme. |
-| [InitFormatSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initformatschemefrominherited)() | Inicializuje FormatScheme novým objektem pro přepsání FormatScheme InheritedTheme a inicializuje data tohoto nového objektu daty FormatScheme InheritedTheme. |
+| [Clear](../../aspose.slides.theme/ioverridetheme/clear)() | Nastaví ColorScheme, FontScheme a FormatScheme na null, aby se zakázalo jakékoli přepsání s tímto objektem motivu. |
+| [InitColorScheme](../../aspose.slides.theme/ioverridetheme/initcolorscheme)() | Inicializuje ColorScheme novým objektem pro přepsání ColorScheme z InheritedTheme. |
+| [InitColorSchemeFrom](../../aspose.slides.theme/ioverridetheme/initcolorschemefrom)(IColorScheme) | Inicializuje ColorScheme novým objektem pro přepsání ColorScheme z InheritedTheme. |
+| [InitColorSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initcolorschemefrominherited)() | Inicializuje ColorScheme novým objektem pro přepsání ColorScheme z InheritedTheme. A také inicializuje data tohoto nového objektu daty ColorScheme z InheritedTheme. |
+| [InitFontScheme](../../aspose.slides.theme/ioverridetheme/initfontscheme)() | Inicializuje FontScheme novým objektem pro přepsání FontScheme z InheritedTheme. |
+| [InitFontSchemeFrom](../../aspose.slides.theme/ioverridetheme/initfontschemefrom)(IFontScheme) | Inicializuje FontScheme novým objektem pro přepsání FontScheme z InheritedTheme. |
+| [InitFontSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initfontschemefrominherited)() | Inicializuje FontScheme novým objektem pro přepsání FontScheme z InheritedTheme. A také inicializuje data tohoto nového objektu daty FontScheme z InheritedTheme. |
+| [InitFormatScheme](../../aspose.slides.theme/ioverridetheme/initformatscheme)() | Inicializuje FormatScheme novým objektem pro přepsání FormatScheme z InheritedTheme. |
+| [InitFormatSchemeFrom](../../aspose.slides.theme/ioverridetheme/initformatschemefrom)(IFormatScheme) | Inicializuje FormatScheme novým objektem pro přepsání FormatScheme z InheritedTheme. |
+| [InitFormatSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initformatschemefrominherited)() | Inicializuje FormatScheme novým objektem pro přepsání FormatScheme z InheritedTheme. A také inicializuje data tohoto nového objektu daty FormatScheme z InheritedTheme. |
 
 ### Viz také
 
 * rozhraní [ITheme](../itheme)
 * jmenný prostor [Aspose.Slides.Theme](../../aspose.slides.theme)
-* assemblie [Aspose.Slides](../../)
+* sestavení [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

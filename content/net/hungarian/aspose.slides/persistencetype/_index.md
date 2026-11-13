@@ -1,14 +1,14 @@
 ---
 title: PersistenceType
-second_title: Aspose.Sildes a .NET API referenciához
-description: Megadja a módszert, amelyet az ActiveX vezérlő tulajdonságainak tárolására használnak.
+second_title: Aspose.Sildes .NET API referencia
+description: Megadja az ActiveX vezérlő tulajdonságainak tárolására használt módszert.
 type: docs
-weight: 9370
+weight: 9390
 url: /hu/aspose.slides/persistencetype/
 ---
 ## PersistenceType enumeráció
 
-Meghatározza a módszert az ActiveX control tulajdonságainak tárolására.
+Megadja a módszert, amely az ActiveX vezérlő tulajdonságainak tárolására használható.
 
 ```csharp
 public enum PersistenceType
@@ -19,10 +19,10 @@ public enum PersistenceType
 | Név | Érték | Leírás |
 | --- | --- | --- |
 | NotDefined | `-1` | A perzisztencia azonosító nincs megadva. |
-| PersistPropertyBag | `0` | Meghatározza, hogy az ActiveX control a property-bag-alapú perzisztencia használatával van tárolva. A property-bag-alapú perzisztencia egy név-érték párokból álló gyűjtemény segítségével tárolja az ActiveX control adatot. |
-| PersistStream | `1` | Meghatározza, hogy az ActiveX control stream-alapú perzisztencia használatával van tárolva, amely nem támogatja az ActiveX control alapértelmezett állapotra történő inicializálását. |
-| PersistStreamInit | `2` | Meghatározza, hogy az ActiveX control stream-alapú perzisztencia használatával van tárolva, amely támogatja az ActiveX control alapértelmezett állapotra történő inicializálását. |
-| PersistStorage | `3` | Meghatározza, hogy az ActiveX control storage-alapú perzisztencia használatával van tárolva. |
+| PersistPropertyBag | `0` | Megadja, hogy az ActiveX vezérlő a property-bag-alapú perzisztenciával kerül mentésre. A property-bag-alapú perzisztencia egy név-érték párokból álló gyűjtemény segítségével tárolja az ActiveX vezérlő adatait. |
+| PersistStream | `1` | Megadja, hogy az ActiveX vezérlő stream-alapú perzisztenciával kerül mentésre, amely nem támogatja az ActiveX vezérlő alapértelmezett állapotra történő inicializálását. |
+| PersistStreamInit | `2` | Megadja, hogy az ActiveX vezérlő stream-alapú perzisztenciával kerül mentésre, amely támogatja az ActiveX vezérlő alapértelmezett állapotra történő inicializálását. |
+| PersistStorage | `3` | Megadja, hogy az ActiveX vezérlő storage-alapú perzisztenciával kerül mentésre. |
 
 ### Lásd még
 

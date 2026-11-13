@@ -1,14 +1,14 @@
 ---
 title: LineSketchType
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft weer welk schets-type of effect een vorm heeft gekregen.
+description: Geeft aan welk schetstype of effect aan een vorm is toegewezen.
 type: docs
-weight: 7810
+weight: 7830
 url: /nl/aspose.slides/linesketchtype/
 ---
 ## LineSketchType enumeratie
 
-Geeft aan welk schets- of effecttype een vorm heeft gekregen.
+Geeft weer welk schetstype of effect aan een vorm is toegewezen.
 
 ```csharp
 public enum LineSketchType
@@ -18,11 +18,11 @@ public enum LineSketchType
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| NotDefined | `-1` | Geeft aan dat een vorm Sketch-effect niet is gedefinieerd. |
-| None | `0` | Geeft aan dat een vorm geen Sketch-effect heeft. Dit is equivalent aan een lege eigenschap. |
-| Curved | `1` | Geeft aan dat een vorm het Curved-effect heeft, waardoor elke rand van de vorm wordt omgezet in één grote zachte curve. |
-| Freehand | `2` | Geeft aan dat een vorm het Freehand-effect heeft, dat het dichtst in de buurt komt van een onregelmatig getekende lijn. |
-| Scribble | `3` | Geeft aan dat een vorm het Scribble-effect heeft, met een overdreven oscillatie alsof het expres rommelig is getekend. |
+| NotDefined | `-1` | Geeft aan dat een Sketch-effect van een vorm niet gedefinieerd is. |
+| None | `0` | Geeft aan dat een vorm geen Sketch-effect heeft. Dit is gelijk aan het leeg zijn van deze eigenschap. |
+| Curved | `1` | Geeft aan dat een vorm het Curved-effect heeft, dat elke rand van de vorm verandert in één grote zachte curve. |
+| Freehand | `2` | Geeft aan dat een vorm het Freehand-effect heeft, wat het dichtst bij een onvolmaakt getekende lijn ligt. |
+| Scribble | `3` | Geeft aan dat een vorm het Scribble-effect heeft, met overdreven oscillatie alsof het expres slordig getekend is. |
 
 ### Zie ook
 

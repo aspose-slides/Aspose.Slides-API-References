@@ -1,14 +1,14 @@
 ---
 title: IMasterLayoutSlideCollection
-second_title: Referencia de la API de Aspose.Sildes para .NET
-description: Representa una colección de todas las diapositivas de diseño de la diapositiva maestra definida. Extiende la interfaz ILayoutSlideCollection con métodos para agregar/insertar/eliminar/clonar diapositivas de diseño en el contexto de las colecciones individuales de diapositivas de diseño de las maestras.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Representa una colección de todas las diapositivas de diseño de la diapositiva maestra definida. Amplía la interfaz ILayoutSlideCollection con métodos para agregar/insertar/eliminar/clonar diapositivas de diseño en el contexto de las colecciones individuales de diapositivas de diseño de los maestros.
 type: docs
-weight: 6380
+weight: 6400
 url: /es/aspose.slides/imasterlayoutslidecollection/
 ---
 ## IMasterLayoutSlideCollection interfaz
 
-Representa una colección de todas las diapositivas de diseño de la diapositiva maestra definida. Extiende la interfaz ILayoutSlideCollection con métodos para agregar/insertar/eliminar/clonar diapositivas de diseño en el contexto de las colecciones individuales de diapositivas de diseño de la maestra.
+Representa una colección de todas las diapositivas de diseño de la diapositiva maestra definida. Amplía la interfaz ILayoutSlideCollection con métodos para agregar/insertar/eliminar/clonar diapositivas de diseño en el contexto de las colecciones individuales de diapositivas de diseño de la maestra.
 
 ```csharp
 public interface IMasterLayoutSlideCollection : ILayoutSlideCollection
@@ -18,20 +18,20 @@ public interface IMasterLayoutSlideCollection : ILayoutSlideCollection
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsILayoutSlideCollection](../../aspose.slides/imasterlayoutslidecollection/asilayoutslidecollection) { get; } | Devuelve la interfaz ILayoutSlideCollection. Solo lectura [`ILayoutSlideCollection`](../ilayoutslidecollection). |
+| [AsILayoutSlideCollection](../../aspose.slides/imasterlayoutslidecollection/asilayoutslidecollection) { get; } | Devuelve la interfaz ILayoutSlideCollection. Sólo lectura [`ILayoutSlideCollection`](../ilayoutslidecollection). |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.slides/imasterlayoutslidecollection/add)(SlideLayoutType, string) | Agrega una nueva diapositiva de diseño al final de la colección. |
-| [AddClone](../../aspose.slides/imasterlayoutslidecollection/addclone)(ILayoutSlide) | Agrega una copia de una diapositiva de diseño especificada al final de la colección. |
+| [Add](../../aspose.slides/imasterlayoutslidecollection/add)(SlideLayoutType, string) | Añade una nueva diapositiva de diseño al final de la colección. |
+| [AddClone](../../aspose.slides/imasterlayoutslidecollection/addclone)(ILayoutSlide) | Añade una copia de una diapositiva de diseño especificada al final de la colección. |
 | [Insert](../../aspose.slides/imasterlayoutslidecollection/insert)(int, SlideLayoutType, string) | Inserta una nueva diapositiva de diseño en la posición especificada de la colección. |
 | [InsertClone](../../aspose.slides/imasterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Inserta una copia de una diapositiva de diseño especificada en la posición especificada de la colección. |
 | [RemoveAt](../../aspose.slides/imasterlayoutslidecollection/removeat)(int) | Elimina el elemento en el índice especificado de la colección. |
 | [Reorder](../../aspose.slides/imasterlayoutslidecollection/reorder)(int, ILayoutSlide) | Mueve la diapositiva de diseño de la colección a la posición especificada. |
 
-### Ver también
+### Véase también
 
 * interfaz [ILayoutSlideCollection](../ilayoutslidecollection)
 * espacio de nombres [Aspose.Slides](../../aspose.slides)

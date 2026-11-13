@@ -1,14 +1,14 @@
 ---
 title: UseCell
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: หากเป็น true แล้วคุณสมบัติ AsCell จะทำงาน ในแง่อื่น worksheet จะถูกใช้เพื่อเก็บ category กรณีนี้สนับสนุน category แบบหลายระดับ หากเป็น false แล้วคุณสมบัติ AsLiteral จะทำงาน ในแง่อื่น worksheet จะ NOT ถูกใช้เพื่อเก็บ category และกรณีนี้ไม่สนับสนุน category แบบหลายระดับ อ่านอย่างเดียว Boolean.
+description: หากเป็น true แล้วคุณสมบัติ AsCell จะเป็นค่าจริง กล่าวคือ worksheet ถูกใช้เพื่อเก็บ category ซึ่งกรณีนี้รองรับ category แบบหลายระดับ หากเป็น false แล้วคุณสมบัติ AsLiteral จะเป็นค่าจริง กล่าวคือ worksheet ไม่ได้ถูกใช้เพื่อเก็บ category และกรณีนี้ไม่รองรับ category แบบหลายระดับ อ่านอย่างเดียว Boolean.
 type: docs
-weight: 40
+weight: 50
 url: /th/aspose.slides.charts/chartcategory/usecell/
 ---
 ## ChartCategory.UseCell คุณสมบัติ
 
-หากเป็น true แล้วคุณสมบัติ AsCell จะทำงาน ในแง่อื่น worksheet จะถูกใช้สำหรับเก็บ category (กรณีนี้สนับสนุน category แบบหลายระดับ) หากเป็น false แล้วคุณสมบัติ AsLiteral จะทำงาน ในแง่อื่น worksheet จะ NOT ถูกใช้สำหรับเก็บ category (และกรณีนี้ไม่สนับสนุน category แบบหลายระดับ) Boolean แบบอ่านอย่างเดียว.
+ถ้าเป็น true แล้วคุณสมบัติ AsCell จะเป็นค่าจริง. กล่าวคือ worksheet ถูกใช้เพื่อเก็บ category (กรณีนี้รองรับ category แบบหลายระดับ). ถ้าเป็น false แล้วคุณสมบัติ AsLiteral จะเป็นค่าจริง. กล่าวคือ worksheet ไม่ได้ถูกใช้เพื่อเก็บ category (และกรณีนี้ไม่รองรับ category แบบหลายระดับ). Boolean แบบอ่านอย่างเดียว.
 
 ```csharp
 public bool UseCell { get; }
@@ -16,7 +16,7 @@ public bool UseCell { get; }
 
 ### หมายเหตุ
 
-เพื่อเปลี่ยนค่า ของคุณสมบัตินี้ (สำหรับทุก category ใน collection) ให้ตั้งค่ใหม่ให้กับคุณสมบัติ ChartCategoryCollection.UseCells.
+เพื่อเปลี่ยนค่าให้กับคุณสมบัตินี้ (สำหรับทุก category ใน collection) ตั้งค่าที่ใหม่ให้กับ ChartCategoryCollection.UseCells คุณสมบัติ.
 
 ### ดูเพิ่มเติม
 

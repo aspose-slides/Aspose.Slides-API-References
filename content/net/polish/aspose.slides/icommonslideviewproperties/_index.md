@@ -1,9 +1,9 @@
 ---
 title: ICommonSlideViewProperties
-second_title: Aspose.Sildes dla .NET - odniesienie API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje wspólne właściwości widoku slajdu.
 type: docs
-weight: 5600
+weight: 5620
 url: /pl/aspose.slides/icommonslideviewproperties/
 ---
 ## ICommonSlideViewProperties interfejs
@@ -18,9 +18,9 @@ public interface ICommonSlideViewProperties
 
 | Nazwa | Opis |
 | --- | --- |
-| [DrawingGuides](../../aspose.slides/icommonslideviewproperties/drawingguides) { get; } | Zwraca kolekcję prowadnic rysunkowych. Tylko do odczytu [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | Określa współczynnik skalowania widoku w procentach. Odczyt/zapis Int32. |
-| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | Określa, że zawartość widoku powinna być automatycznie skalowana, aby najlepiej pasować do bieżącego rozmiaru okna. Odczyt/zapis Boolean. |
+| [DrawingGuides](../../aspose.slides/icommonslideviewproperties/drawingguides) { get; } | Zwraca kolekcję przewodników rysunkowych. tylko do odczytu [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | Określa współczynnik skalowania widoku w procentach. odczyt/zapis Int32. |
+| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | Określa, że zawartość widoku powinna automatycznie skalować się, aby najlepiej pasować do bieżącego rozmiaru okna. odczyt/zapis Boolean. |
 
 ### Zobacz także
 

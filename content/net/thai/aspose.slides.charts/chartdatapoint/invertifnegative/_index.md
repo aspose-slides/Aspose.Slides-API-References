@@ -1,14 +1,14 @@
 ---
 title: InvertIfNegative
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: ระบุว่าจุดข้อมูลจะสลับสีหากค่ามีค่าเป็นลบ. อ่าน/เขียน Boolean.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: ระบุว่าจุดข้อมูลจะสลับสีของมันหากค่ามีค่าเป็นลบ. อ่าน/เขียน Boolean.
 type: docs
-weight: 120
+weight: 160
 url: /th/aspose.slides.charts/chartdatapoint/invertifnegative/
 ---
 ## ChartDataPoint.InvertIfNegative คุณสมบัติ
 
-กำหนดว่าจุดข้อมูลจะทำการสลับสีหากค่ามีค่าเป็นลบ. อ่าน/เขียน Boolean.
+ระบุว่าจุดข้อมูลจะสลับสีของมันหากค่ามีค่าเป็นลบ. อ่าน/เขียน Boolean.
 
 ```csharp
 public bool InvertIfNegative { get; set; }

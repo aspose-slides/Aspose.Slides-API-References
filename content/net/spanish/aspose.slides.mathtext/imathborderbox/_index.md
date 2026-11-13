@@ -1,14 +1,14 @@
 ---
 title: IMathBorderBox
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Dibuja un borde rectangular u otro alrededor de IMathElement.
+description: Dibuja un borde rectangular u otro alrededor del IMathElement.
 type: docs
-weight: 8170
+weight: 8190
 url: /es/aspose.slides.mathtext/imathborderbox/
 ---
-## interfaz IMathBorderBox
+## Interfaz IMathBorderBox
 
-Dibuja un borde rectangular u otro alrededor de IMathElement.
+Dibuja un borde rectangular u otro alrededor del IMathElement.
 
 ```csharp
 public interface IMathBorderBox : IMathElement
@@ -20,14 +20,14 @@ public interface IMathBorderBox : IMathElement
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathborderbox/asimathelement) { get; } | Permite obtener la interfaz base IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathborderbox/base) { get; } | Argumento base |
-| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | Ocultar el borde inferior (el valor predeterminado es false) - especifica el estado oculto o visible del borde inferior de la caja de borde. |
-| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | Ocultar el borde izquierdo (el valor predeterminado es false) - especifica el estado oculto o visible del borde izquierdo de la caja de borde. |
-| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | Ocultar el borde derecho (el valor predeterminado es false) - especifica el estado oculto o visible del borde derecho de la caja de borde. |
-| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | Ocultar el borde superior (el valor predeterminado es false) - especifica el estado oculto o visible del borde superior de la caja de borde. |
-| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | Tachar diagonal de abajo-izquierda a arriba-derecha (el valor predeterminado es false). Especifica el estado oculto o visible de una línea diagonal tachada desde la esquina inferior-izquierda hasta la esquina superior-derecha de la caja de borde. |
-| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | Tachar horizontal (el valor predeterminado es false) - especifica el estado oculto o visible de una línea horizontal tachada. |
-| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | Tachar diagonal de arriba-izquierda a abajo-derecha (el valor predeterminado es false). Especifica el estado oculto o visible de una línea diagonal tachada desde la esquina superior-izquierda hasta la esquina inferior-derecha de la caja de borde. |
-| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | Tachar vertical (el valor predeterminado es false) - especifica el estado oculto o visible de una línea vertical tachada. |
+| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | Ocultar borde inferior (valor predeterminado es false) - especifica el estado oculto o visible del borde inferior del cuadro de borde. |
+| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | Ocultar borde izquierdo (valor predeterminado es false) - especifica el estado oculto o visible del borde izquierdo del cuadro de borde. |
+| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | Ocultar borde derecho (valor predeterminado es false) - especifica el estado oculto o visible del borde derecho del cuadro de borde. |
+| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | Ocultar borde superior (valor predeterminado es false) - especifica el estado oculto o visible del borde superior del cuadro de borde. |
+| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | Tachar diagonal de abajo-izquierda a arriba-derecha (valor predeterminado es false). Especifica el estado oculto o visible de una línea diagonal de tachado desde la esquina inferior izquierda a la esquina superior derecha del cuadro de borde. |
+| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | Tachar horizontal (valor predeterminado es false) - especifica el estado oculto o visible de una línea horizontal de tachado. |
+| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | Tachar diagonal de arriba-izquierda a abajo-derecha (valor predeterminado es false). Especifica el estado oculto o visible de una línea diagonal de tachado desde la esquina superior izquierda a la esquina inferior derecha del cuadro de borde. |
+| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | Tachar vertical (valor predeterminado es false) - especifica el estado oculto o visible de una línea vertical de tachado. |
 
 ### Ejemplos
 
@@ -38,7 +38,7 @@ Ejemplo:
 IMathBorderBox borderBox = new MathematicalText("x+y+z").ToBorderBox();
 ```
 
-### Véase también
+### Ver también
 
 * interfaz [IMathElement](../imathelement)
 * espacio de nombres [Aspose.Slides.MathText](../../aspose.slides.mathtext)

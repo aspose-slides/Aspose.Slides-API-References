@@ -1,12 +1,12 @@
 ---
 title: TextSearchOptions
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa opciones que pueden usarse para buscar texto en una Presentation, Slide o TextFrame.
+description: Representa opciones que pueden usarse para buscar texto en una Presentation Slide o TextFrame.
 type: docs
-weight: 10970
+weight: 10990
 url: /es/aspose.slides/textsearchoptions/
 ---
-## Clase TextSearchOptions
+## TextSearchOptions clase
 
 Representa opciones que pueden usarse para buscar texto en una Presentation, Slide o TextFrame.
 
@@ -24,9 +24,9 @@ public class TextSearchOptions : ITextSearchOptions
 
 | Nombre | Descripción |
 | --- | --- |
-| [CaseSensitive](../../aspose.slides/textsearchoptions/casesensitive) { get; set; } | Establezca true para usar una búsqueda que distinga mayúsculas y minúsculas, false en caso contrario. Lectura/escritura Boolean. |
-| [IncludeNotes](../../aspose.slides/textsearchoptions/includenotes) { get; set; } | Establezca `true` para incluir el texto contenido en las notas de la diapositiva ([`NotesSlide`](../notesslide)) al realizar búsquedas de texto, reemplazos o resaltados. El valor predeterminado es `false`. |
-| [WholeWordsOnly](../../aspose.slides/textsearchoptions/wholewordsonly) { get; set; } | Establezca true para coincidir solo palabras completas, false en caso contrario. Lectura/escritura Boolean. |
+| [CaseSensitive](../../aspose.slides/textsearchoptions/casesensitive) { get; set; } | Establezca true para usar búsqueda que distingue mayúsculas y minúsculas, false en caso contrario. Boolean de lectura/escritura. |
+| [IncludeNotes](../../aspose.slides/textsearchoptions/includenotes) { get; set; } | Establezca `true` para incluir el texto contenido en las notas de la diapositiva ([`NotesSlide`](../notesslide)) al realizar búsquedas de texto, reemplazos o operaciones de resaltado. El valor predeterminado es `false`. |
+| [WholeWordsOnly](../../aspose.slides/textsearchoptions/wholewordsonly) { get; set; } | Establezca true para coincidir solo palabras completas, false en caso contrario. Boolean de lectura/escritura. |
 
 ### Ver también
 

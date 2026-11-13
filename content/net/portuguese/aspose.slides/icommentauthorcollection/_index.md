@@ -1,14 +1,14 @@
 ---
 title: ICommentAuthorCollection
-second_title: Aspose.Sildes para Referência da API .NET
-description: Representa uma coleção de autores de comentário.
+second_title: Aspose.Sildes para .NET Referência de API
+description: Representa uma coleção de autores de comentários.
 type: docs
-weight: 5580
+weight: 5600
 url: /pt/aspose.slides/icommentauthorcollection/
 ---
 ## ICommentAuthorCollection interface
 
-Representa uma coleção de autores de comentário.
+Representa uma coleção de autores de comentários.
 
 ```csharp
 public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
@@ -32,7 +32,7 @@ public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
 | [RemoveAt](../../aspose.slides/icommentauthorcollection/removeat)(int) | Remove o autor no índice especificado da coleção. |
 | [ToArray](../../aspose.slides/icommentauthorcollection/toarray)() | Cria e retorna um array com todos os autores. |
 
-### Ver Também
+### Veja Também
 
 * interface [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * interface [ICommentAuthor](../icommentauthor)

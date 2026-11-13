@@ -3,7 +3,7 @@ title: GradientStopCollectionEffectiveData
 second_title: Aspose.Sildes .NET API 参考
 description: 表示 GradientStopData 对象的集合。
 type: docs
-weight: 5040
+weight: 5060
 url: /zh/aspose.slides/gradientstopcollectioneffectivedata/
 ---
 ## GradientStopCollectionEffectiveData 类
@@ -11,16 +11,16 @@ url: /zh/aspose.slides/gradientstopcollectioneffectivedata/
 表示 GradientStopData 对象的集合。
 
 ```csharp
-public class GradientStopCollectionEffectiveData : IGradientStopEffectiveData
+public class GradientStopCollectionEffectiveData : IGradientStopCollectionEffectiveData
 ```
 
 ## 属性
 
 | 名称 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides/gradientstopcollectioneffectivedata/count) { get; } | 返回集合中渐变停止点的数量。只读 Int32。 |
+| [Count](../../aspose.slides/gradientstopcollectioneffectivedata/count) { get; } | 返回集合中梯度停止点的数量。只读 Int32。 |
 | [IsSynchronized](../../aspose.slides/gradientstopcollectioneffectivedata/issynchronized) { get; } | 返回一个值，指示对集合的访问是否已同步（线程安全）。只读 Boolean。 |
-| [Item](../../aspose.slides/gradientstopcollectioneffectivedata/item) { get; } | 按索引返回渐变停止点。 |
+| [Item](../../aspose.slides/gradientstopcollectioneffectivedata/item) { get; } | 按索引返回梯度停止点。 |
 | [SyncRoot](../../aspose.slides/gradientstopcollectioneffectivedata/syncroot) { get; } | 返回同步根。只读 Object。 |
 
 ## 方法
@@ -30,7 +30,7 @@ public class GradientStopCollectionEffectiveData : IGradientStopEffectiveData
 | [CopyTo](../../aspose.slides/gradientstopcollectioneffectivedata/copyto)(Array, int) | 将集合中的所有元素复制到指定的数组。 |
 | [GetEnumerator](../../aspose.slides/gradientstopcollectioneffectivedata/getenumerator)() | 返回一个遍历集合的枚举器。 |
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IGradientStopCollectionEffectiveData](../igradientstopcollectioneffectivedata)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

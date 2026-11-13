@@ -3,7 +3,7 @@ title: MathArrayFactory
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Permite crear una matriz matemática
 type: docs
-weight: 8560
+weight: 8580
 url: /es/aspose.slides.mathtext/matharrayfactory/
 ---
 ## MathArrayFactory clase

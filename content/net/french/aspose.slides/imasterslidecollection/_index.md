@@ -1,9 +1,9 @@
 ---
 title: IMasterSlideCollection
-second_title: Aspose.Sildes pour .NET Référence de l'API
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente une collection de diapositives maîtres.
 type: docs
-weight: 6430
+weight: 6450
 url: /fr/aspose.slides/imasterslidecollection/
 ---
 ## IMasterSlideCollection interface
@@ -16,19 +16,19 @@ public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
 
 ## Propriétés
 
-| Name | Description |
+| Nom | Description |
 | --- | --- |
 | [Item](../../aspose.slides/imasterslidecollection/item) { get; } | Obtient l'élément à l'index spécifié. Lecture seule [`IMasterSlide`](../imasterslide). |
 
 ## Méthodes
 
-| Name | Description |
+| Nom | Description |
 | --- | --- |
-| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | Adds a copy of a specified master slide to the end of the collection. Linked layout slides will be copied too. |
-| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Inserts a copy of a specified master slide to specified position of the collection. Linked layout slides will be copied too. |
-| [Remove](../../aspose.slides/imasterslidecollection/remove)(IMasterSlide) | Removes the first occurrence of a specific object from the collection. |
-| [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | Removes the element at the specified index of the collection. |
-| [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | Removes unused master slides. |
+| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | Ajoute une copie d'une diapositive maître spécifiée à la fin de la collection. Les diapositives de mise en page liées seront également copiées. |
+| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Insère une copie d'une diapositive maître spécifiée à la position indiquée de la collection. Les diapositives de mise en page liées seront également copiées. |
+| [Remove](../../aspose.slides/imasterslidecollection/remove)(IMasterSlide) | Supprime la première occurrence d'un objet spécifique de la collection. |
+| [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | Supprime l'élément à l'index spécifié de la collection. |
+| [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | Supprime les diapositives maîtres inutilisées. |
 
 ### Voir aussi
 

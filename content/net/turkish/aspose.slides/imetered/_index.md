@@ -1,9 +1,9 @@
 ---
 title: IMetered
-second_title: Aspose.Sildes için .NET API Referansı
-description: Metreli anahtar ayarlamak için yöntemler sağlar.
+second_title: Aspose.Sildes .NET API Referansı
+description: Metreli anahtarı ayarlamak için yöntemler sağlar.
 type: docs
-weight: 6450
+weight: 6470
 url: /tr/aspose.slides/imetered/
 ---
 ## IMetered arayüz
@@ -18,7 +18,7 @@ public interface IMetered
 
 | Ad | Açıklama |
 | --- | --- |
-| [SetMeteredKey](../../aspose.slides/imetered/setmeteredkey)(string, string) | Metreli ortak ve özel anahtarı ayarlar. |
+| [SetMeteredKey](../../aspose.slides/imetered/setmeteredkey)(string, string) | Metreli public ve private anahtarı ayarlar. |
 
 ### Ayrıca Bakınız
 

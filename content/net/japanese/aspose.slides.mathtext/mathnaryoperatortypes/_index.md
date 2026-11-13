@@ -1,14 +1,14 @@
 ---
 title: MathNaryOperatorTypes
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 積分を除く Nary 演算子 IMathNaryOperator の種類。積分については MathIntegralTypes./mathintegraltypes
+description: 積分を除く Nary 演算子 IMathNaryOperator のタイプ。積分については MathIntegralTypes./mathintegraltypes
 type: docs
-weight: 8890
+weight: 8910
 url: /ja/aspose.slides.mathtext/mathnaryoperatortypes/
 ---
 ## MathNaryOperatorTypes 列挙型
 
-Nary 演算子 IMathNaryOperator の種類（積分を除く）積分については [`MathIntegralTypes`](../mathintegraltypes)
+Nary 演算子 IMathNaryOperator のタイプ（積分を除く）。積分については [`MathIntegralTypes`](../mathintegraltypes)
 
 ```csharp
 public enum MathNaryOperatorTypes
@@ -18,13 +18,13 @@ public enum MathNaryOperatorTypes
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| Summation | `0` | Summation: '∑' |
-| Product | `1` | Product: '∏' |
-| CoProduct | `2` | Coproduct: '∐' |
-| Intersection | `3` | Intersection: '∩' |
-| Union | `4` | Union: '∪' |
-| LogicalAnd | `5` | Logical And: '∧' |
-| LogicalOr | `6` | Logical Or: '∨' |
+| Summation | `0` | 総和: '∑' |
+| Product | `1` | 積: '∏' |
+| CoProduct | `2` | 共積: '∐' |
+| Intersection | `3` | 交差: '∩' |
+| Union | `4` | 和集合: '∪' |
+| LogicalAnd | `5` | 論理積: '∧' |
+| LogicalOr | `6` | 論理和: '∨' |
 
 ### 参照
 

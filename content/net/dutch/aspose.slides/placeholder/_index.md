@@ -1,9 +1,9 @@
 ---
 title: Placeholder
-second_title: Aspose.Sildes voor .NET API-referentie
+second_title: Aspose.Sildes voor .NET API Referentie
 description: Stelt een placeholder op een dia voor.
 type: docs
-weight: 9430
+weight: 9450
 url: /nl/aspose.slides/placeholder/
 ---
 ## Placeholder klasse

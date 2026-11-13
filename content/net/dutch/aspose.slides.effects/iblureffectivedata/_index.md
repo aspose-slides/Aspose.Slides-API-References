@@ -3,12 +3,12 @@ title: IBlurEffectiveData
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Onveranderlijk object dat een Blur-effect vertegenwoordigt dat wordt toegepast op de volledige vorm, inclusief de vulling. Alle kleurkanalen, inclusief alfa, worden beïnvloed.
 type: docs
-weight: 3190
+weight: 3210
 url: /nl/aspose.slides.effects/iblureffectivedata/
 ---
 ## IBlurEffectiveData interface
 
-Onveranderlijk object dat een Blur-effect vertegenwoordigt dat wordt toegepast op de hele vorm, inclusief de vulling. Alle kleurkanalen, inclusief alfa, worden beïnvloed.
+Onveranderlijk object dat een Blur-effect vertegenwoordigt dat wordt toegepast op de volledige vorm, inclusief de vulling. Alle kleurkanalen, inclusief alfa, worden beïnvloed.
 
 ```csharp
 public interface IBlurEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface IBlurEffectiveData : IEffectEffectiveData
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iblureffectivedata/asieffecteffectivedata) { get; } | Standaard IEffectEffectiveData-interface verkrijgen. Alleen-lezen [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | Bepaalt of de grenzen van het object moeten worden uitgebreid als gevolg van de vervaging. True geeft aan dat de grenzen worden uitgebreid, terwijl false aangeeft dat dat niet het geval is. Alleen-lezen Boolean. |
-| [Radius](../../aspose.slides.effects/iblureffectivedata/radius) { get; } | Retourneert of stelt de vervagingsradius in. Alleen-lezen Double. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iblureffectivedata/asieffecteffectivedata) { get; } | Staat toe om de basis IEffectEffectiveData interface te verkrijgen. Alleen-lezen [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | Bepaalt of de grenzen van het object moeten worden vergroot als gevolg van het vervagen. Waar betekent dat de grenzen worden vergroot, terwijl onwaar betekent dat ze dat niet zijn. Alleen-lezen Boolean. |
+| [Radius](../../aspose.slides.effects/iblureffectivedata/radius) { get; } | Geeft de blur radius terug of stelt deze in. Alleen-lezen Double. |
 
 ### Zie ook
 

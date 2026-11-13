@@ -1,14 +1,14 @@
 ---
 title: IFormatSchemeEffectiveData
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Unveränderliches Objekt, das effektive Format-Schemen-Eigenschaften enthält.
+description: Unveränderliches Objekt, das effektive Format-Schema-Eigenschaften enthält.
 type: docs
-weight: 11280
+weight: 11300
 url: /de/aspose.slides.theme/iformatschemeeffectivedata/
 ---
 ## IFormatSchemeEffectiveData Schnittstelle
 
-Unveränderliches Objekt, das effektive Format-Schemen-Eigenschaften enthält.
+Unveränderliches Objekt, das effektive Format-Schema-Eigenschaften enthält.
 
 ```csharp
 public interface IFormatSchemeEffectiveData
@@ -18,14 +18,14 @@ public interface IFormatSchemeEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetBackgroundFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles)(Color) | Gibt eine Sammlung von themendefinierten Hintergrundfüllstilen zurück. |
+| [GetBackgroundFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles)(Color) | Gibt eine Sammlung von themendefinierten Hintergrundfüllungsstilen zurück. |
 | [GetEffectStyles](../../aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles)(Color) | Gibt eine Sammlung von themendefinierten Effektstilen zurück. |
 | [GetFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getfillstyles)(Color) | Gibt eine Sammlung von themendefinierten Füllstilen zurück. |
 | [GetLineStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getlinestyles)(Color) | Gibt eine Sammlung von themendefinierten Linienstilen zurück. |
 
 ### Hinweise
 
-Diese Schnittstelle wird als Teil von [`IThemeEffectiveData`](../ithemeeffectivedata) verwendet.
+Dieses Interface wird als Teil von [`IThemeEffectiveData`](../ithemeeffectivedata) verwendet.
 
 ### Siehe auch
 

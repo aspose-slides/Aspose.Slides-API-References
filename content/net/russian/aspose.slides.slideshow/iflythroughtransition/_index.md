@@ -1,14 +1,14 @@
 ---
 title: IFlyThroughTransition
-second_title: "Aspose.Sildes для .NET: справочник API"
-description: Эффект перехода Fly-through для слайдов.
+second_title: Aspose.Sildes для .NET справочник API
+description: Эффект перехода с пролётом слайда.
 type: docs
-weight: 10090
+weight: 10110
 url: /ru/aspose.slides.slideshow/iflythroughtransition/
 ---
 ## IFlyThroughTransition интерфейс
 
-Эффект перехода Fly-through для слайдов.
+Эффект перехода с пролётом слайда.
 
 ```csharp
 public interface IFlyThroughTransition : ITransitionValueBase
@@ -20,7 +20,7 @@ public interface IFlyThroughTransition : ITransitionValueBase
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/iflythroughtransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/iflythroughtransition/direction) { get; set; } | Направление перехода. Чтение/запись [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [HasBounce](../../aspose.slides.slideshow/iflythroughtransition/hasbounce) { get; set; } | Определяет, что перемещение слайдов презентации во время перехода включает отскок. Чтение/запись Boolean. |
+| [HasBounce](../../aspose.slides.slideshow/iflythroughtransition/hasbounce) { get; set; } | Указывает, что перемещение слайдов презентации во время перехода включает отскок. Чтение/запись Boolean. |
 
 ### См. также
 

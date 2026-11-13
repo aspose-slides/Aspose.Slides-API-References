@@ -1,14 +1,14 @@
 ---
 title: IObsoletePresLockingBehaviorWarningInfo
 second_title: Aspose.Sildes for .NET API 参考
-description: 此警告指示使用了过时的演示文稿锁定行为。
+description: 此警告表明使用了已弃用的演示文稿锁定行为。
 type: docs
-weight: 11780
+weight: 11800
 url: /zh/aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/
 ---
 ## IObsoletePresLockingBehaviorWarningInfo 接口
 
-此警告指示使用了过时的演示文稿锁定行为。
+此警告表明使用了已弃用的演示文稿锁定行为。
 
 ```csharp
 public interface IObsoletePresLockingBehaviorWarningInfo : IWarningInfo
@@ -20,7 +20,7 @@ public interface IObsoletePresLockingBehaviorWarningInfo : IWarningInfo
 | --- | --- |
 | [AsIWarningInfo](../../aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/asiwarninginfo) { get; } | 返回 IWarningInfo 接口。只读 [`IWarningInfo`](../iwarninginfo)。 |
 
-### 另请参见
+### 另见
 
 * 接口 [IWarningInfo](../iwarninginfo)
 * 命名空间 [Aspose.Slides.Warnings](../../aspose.slides.warnings)

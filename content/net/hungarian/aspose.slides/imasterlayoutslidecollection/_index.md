@@ -1,14 +1,14 @@
 ---
 title: IMasterLayoutSlideCollection
-second_title: Aspose.Sildes .NET API referenciája
-description: Egy meghatározott mesterdia összes elrendezési diáját tartalmazó gyűjteményt reprezentál. Kiterjeszti az ILayoutSlideCollection interfészt olyan módszerekkel, amelyek lehetővé teszik elrendezési diák hozzáadását, beszúrását, eltávolítását és klónozását a mesterdiák egyedi elrendezési diagyűjteményeinek kontextusában.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Egy meghatározott mesterdia összes elrendezési diájának gyűjteményét képviseli. Kiterjeszti az ILayoutSlideCollection interfészt olyan metódusokkal, amelyek lehetővé teszik elrendezési diák hozzáadását, beszúrását, eltávolítását és klónozását a mesterdiák elrendezési diáinak egyedi gyűjteményei kontextusában.
 type: docs
-weight: 6380
+weight: 6400
 url: /hu/aspose.slides/imasterlayoutslidecollection/
 ---
 ## IMasterLayoutSlideCollection interfész
 
-Egy meghatározott mesterdiának összes elrendezési diáját tartalmazó gyűjteményt reprezentál. Kiterjeszti az ILayoutSlideCollection interfészt olyan módszerekkel, amelyek lehetővé teszik elrendezési diák hozzáadását, beszúrását, eltávolítását és klónozását a mester diák egyedi elrendezési diagyűjteményeinek kontextusában.
+Represents a collections of all layout slides of defined master slide. Extends ILayoutSlideCollection interface with methods for adding/inserting/removing/cloning layout slides in context of the individual collections of master's layout slides.
 
 ```csharp
 public interface IMasterLayoutSlideCollection : ILayoutSlideCollection
@@ -18,16 +18,16 @@ public interface IMasterLayoutSlideCollection : ILayoutSlideCollection
 
 | Név | Leírás |
 | --- | --- |
-| [AsILayoutSlideCollection](../../aspose.slides/imasterlayoutslidecollection/asilayoutslidecollection) { get; } | Visszaadja az ILayoutSlideCollection interfészt. Csak olvasható [`ILayoutSlideCollection`](../ilayoutslidecollection). |
+| [AsILayoutSlideCollection](../../aspose.slides/imasterlayoutslidecollection/asilayoutslidecollection) { get; } | Visszaadja az ILayoutSlideCollection interfészt. Csak-olvasású [`ILayoutSlideCollection`](../ilayoutslidecollection). |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
 | [Add](../../aspose.slides/imasterlayoutslidecollection/add)(SlideLayoutType, string) | Új elrendezési diát ad a gyűjtemény végéhez. |
-| [AddClone](../../aspose.slides/imasterlayoutslidecollection/addclone)(ILayoutSlide) | A megadott elrendezési diának egy másolatát adja a gyűjtemény végéhez. |
+| [AddClone](../../aspose.slides/imasterlayoutslidecollection/addclone)(ILayoutSlide) | Megadott elrendezési dia másolatát adja a gyűjtemény végéhez. |
 | [Insert](../../aspose.slides/imasterlayoutslidecollection/insert)(int, SlideLayoutType, string) | Új elrendezési diát szúr be a gyűjtemény megadott pozíciójába. |
-| [InsertClone](../../aspose.slides/imasterlayoutslidecollection/insertclone)(int, ILayoutSlide) | A megadott elrendezési diának egy másolatát szúrja be a gyűjtemény megadott pozíciójába. |
+| [InsertClone](../../aspose.slides/imasterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Megadott elrendezési dia másolatát szúrja be a gyűjtemény megadott pozíciójába. |
 | [RemoveAt](../../aspose.slides/imasterlayoutslidecollection/removeat)(int) | Eltávolítja a megadott indexű elemet a gyűjteményből. |
 | [Reorder](../../aspose.slides/imasterlayoutslidecollection/reorder)(int, ILayoutSlide) | Áthelyezi az elrendezési diát a gyűjteményből a megadott pozícióba. |
 

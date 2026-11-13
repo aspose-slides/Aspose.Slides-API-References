@@ -1,14 +1,14 @@
 ---
 title: LineDashStyle
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa el estilo de guión de línea.
+description: Representa el estilo de guión de la línea.
 type: docs
-weight: 7770
+weight: 7790
 url: /es/aspose.slides/linedashstyle/
 ---
-## LineDashStyle enumeración
+## Enumeración LineDashStyle
 
-Representa el estilo de guión de línea.
+Representa el estilo de guión de la línea.
 
 ```csharp
 public enum LineDashStyle : sbyte

@@ -3,7 +3,7 @@ title: IParagraphFactory
 second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Permite crear párrafos
 type: docs
-weight: 6580
+weight: 6600
 url: /es/aspose.slides/iparagraphfactory/
 ---
 ## IParagraphFactory interfaz
@@ -19,7 +19,7 @@ public interface IParagraphFactory
 | Nombre | Descripción |
 | --- | --- |
 | [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph#createparagraph)() | Crea un nuevo párrafo vacío. |
-| [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph#createparagraph_1)(IParagraph) | Crea un nuevo párrafo con los datos del párrafo especificado usando. |
+| [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph#createparagraph_1)(IParagraph) | Crea un nuevo párrafo con los datos de párrafo especificados. |
 
 ### Observaciones
 

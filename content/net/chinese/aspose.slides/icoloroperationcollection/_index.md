@@ -1,14 +1,14 @@
 ---
 title: IColorOperationCollection
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示颜色转换操作的集合。
+description: 表示颜色变换操作的集合。
 type: docs
-weight: 5510
+weight: 5530
 url: /zh/aspose.slides/icoloroperationcollection/
 ---
 ## IColorOperationCollection 接口
 
-表示颜色转换操作的集合。
+表示颜色变换操作的集合。
 
 ```csharp
 public interface IColorOperationCollection : IGenericCloneable<IColorOperationCollection>, 
@@ -32,7 +32,7 @@ public interface IColorOperationCollection : IGenericCloneable<IColorOperationCo
 | [Insert](../../aspose.slides/icoloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | 将新操作插入集合。 |
 | [RemoveAt](../../aspose.slides/icoloroperationcollection/removeat)(int) | 从集合中移除颜色操作。 |
 
-### 参见
+### 另请参见
 
 * 接口 [IGenericCloneable&lt;T&gt;](../igenericcloneable-1)
 * 接口 [IGenericCollection&lt;T&gt;](../igenericcollection-1)

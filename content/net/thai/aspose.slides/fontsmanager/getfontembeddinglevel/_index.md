@@ -1,33 +1,33 @@
 ---
 title: GetFontEmbeddingLevel
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
-description: กำหนดระดับการฝังตัวของฟอนต์จากอาร์เรย์ไบต์ที่ให้และชื่อฟอนต์
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: กำหนดระดับการฝังของแบบอักษรจากอาร์เรย์ไบต์และชื่อแบบอักษรที่ให้มา.
 type: docs
-weight: 60
+weight: 70
 url: /th/aspose.slides/fontsmanager/getfontembeddinglevel/
 ---
 ## FontsManager.GetFontEmbeddingLevel เมธอด
 
-กำหนดระดับการฝังตัวของฟอนต์จากอาร์เรย์ไบต์ที่ให้และชื่อฟอนต์
+กำหนดระดับการฝังของแบบอักษรจากอาร์เรย์ไบต์และชื่อแบบอักษรที่ให้มา.
 
 ```csharp
 public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
 ```
 
-| Parameter | Type | Description |
+| พารามิเตอร์ | ประเภท | คำอธิบาย |
 | --- | --- | --- |
-| fontBytes | Byte[] | อาร์เรย์ไบต์ที่บรรจุข้อมูลฟอนต์ |
-| fontName | String | ชื่อของฟอนต์ |
+| fontBytes | Byte[] | อาร์เรย์ไบต์ที่มีข้อมูลแบบอักษร. |
+| fontName | String | ชื่อของแบบอักษร. |
 
-### ค่าที่ส่งคืน
+### ค่าที่คืนกลับ
 
-ระดับการฝังตัวของฟอนต์ที่ระบุ
+ระดับการฝังของแบบอักษรที่ระบุ.
 
 ### ข้อยกเว้น
 
-| exception | condition |
+| ข้อยกเว้น | เงื่อนไข |
 | --- | --- |
-| ArgumentNullException | จะให้ข้อยกเว้นเมื่อ *fontBytes* เป็นค่า null |
+| ArgumentNullException | เกิดเมื่อ *fontBytes* มีค่า null. |
 
 ### ตัวอย่าง
 
@@ -35,13 +35,13 @@ public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
 [C#]
 using (Presentation pres = new Presentation(pptxFileName))
 {
-    // ดึงฟอนต์ทั้งหมดที่ใช้ในงานนำเสนอ
+    // ดึงแบบอักษรทั้งหมดที่ใช้ในงานนำเสนอ
     IFontData[] fontDatas = pres.FontsManager.GetFonts();
 
-    // รับอาร์เรย์ไบต์ที่แสดงสไตล์ปกติของฟอนต์แรกในงานนำเสนอ
+    // รับอาร์เรย์ไบต์ที่แสดงสไตล์ปกติของแบบอักษรตัวแรกในงานนำเสนอ
     byte[] bytes = pres.FontsManager.GetFontBytes(fontDatas[0], FontStyle.Regular);
 
-    // กำหนดระดับการฝังตัวของฟอนต์
+    // กำหนดระดับการฝังของแบบอักษร
     EmbeddingLevel embeddingLevel = pres.FontsManager.GetFontEmbeddingLevel(bytes, fontDatas[0].FontName);
 }
 ```

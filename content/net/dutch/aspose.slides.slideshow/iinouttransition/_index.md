@@ -1,14 +1,14 @@
 ---
 title: IInOutTransition
-second_title: Aspose.Sildes voor .NET API-referentie
-description: In-Out diaovergangseffect.
+second_title: Aspose.Sildes voor .NET API Referentie
+description: In-Out dia overgangseffect.
 type: docs
-weight: 10110
+weight: 10130
 url: /nl/aspose.slides.slideshow/iinouttransition/
 ---
 ## IInOutTransition interface
 
-In-Out diaovergangseffect.
+In-Out dia overgangseffect.
 
 ```csharp
 public interface IInOutTransition : ITransitionValueBase
@@ -18,8 +18,8 @@ public interface IInOutTransition : ITransitionValueBase
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iinouttransition/asitransitionvaluebase) { get; } | Staat toe de basis ITransitionValueBase interface op te halen. Alleen-lezen [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/iinouttransition/direction) { get; set; } | Richting van een overgangseffect. Lezen/Schrijven [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iinouttransition/asitransitionvaluebase) { get; } | Stelt toe om de basisklasse ITransitionValueBase interface op te halen. Alleen-lezen [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/iinouttransition/direction) { get; set; } | Richting van een overgangseffect. Lezen/schrijven [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 
 ### Zie ook
 

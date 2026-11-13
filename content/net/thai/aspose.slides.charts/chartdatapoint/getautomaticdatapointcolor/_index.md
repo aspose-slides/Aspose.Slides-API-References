@@ -1,14 +1,14 @@
 ---
 title: GetAutomaticDataPointColor
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: ส่งคืนสีอัตโนมัติของจุดข้อมูลโดยอิงจากดัชนีซีรีส์, ดัชนีจุดข้อมูล, คุณสมบัติ ParentSeriesGroup.IsColorVaried และสไตล์แผนภูมิ. สีนี้จะถูกใช้เป็นค่าเริ่มต้นหาก FillType เท่ากับ NotDefined.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: คืนค่าสีอัตโนมัติของจุดข้อมูลโดยอิงจากดัชนีซีรีส์ ดัชนีจุดข้อมูล คุณสมบัติ ParentSeriesGroup.IsColorVaried และสไตล์แผนภูมิ สีนี้จะถูกใช้เป็นค่าเริ่มต้นหาก FillType มีค่าเท่ากับ NotDefined.
 type: docs
-weight: 220
+weight: 260
 url: /th/aspose.slides.charts/chartdatapoint/getautomaticdatapointcolor/
 ---
 ## ChartDataPoint.GetAutomaticDataPointColor เมธอด
 
-ส่งคืนสีอัตโนมัติของจุดข้อมูลโดยอิงจากดัชนีซีรีส์, ดัชนีจุดข้อมูล, คุณสมบัติ ParentSeriesGroup.IsColorVaried และสไตล์แผนภูมิ สีนี้จะถูกใช้เป็นค่าเริ่มต้นหาก FillType มีค่าเท่ากับ NotDefined.
+คืนค่าสีอัตโนมัติของจุดข้อมูลโดยอิงจากดัชนีซีรีส์, ดัชนีจุดข้อมูล, คุณสมบัติ ParentSeriesGroup.IsColorVaried และสไตล์แผนภูมิ สีนี้จะถูกใช้เป็นค่าเริ่มต้นหาก FillType มีค่าเท่ากับ NotDefined.
 
 ```csharp
 public Color GetAutomaticDataPointColor()

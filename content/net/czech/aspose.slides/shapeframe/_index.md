@@ -1,14 +1,14 @@
 ---
 title: ShapeFrame
-second_title: Aspose.Sildes pro .NET API referenci
-description: Reprezentuje vlastnosti rámců tvaru.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Reprezentuje vlastnosti rámců tvarů.
 type: docs
-weight: 9900
+weight: 9920
 url: /cs/aspose.slides/shapeframe/
 ---
 ## ShapeFrame třída
 
-Reprezentuje vlastnosti rámce tvaru.
+Představuje vlastnosti rámečku tvaru.
 
 ```csharp
 public class ShapeFrame : IShapeFrame
@@ -18,7 +18,7 @@ public class ShapeFrame : IShapeFrame
 
 | Název | Popis |
 | --- | --- |
-| [ShapeFrame](shapeframe)(float, float, float, float, NullableBool, NullableBool, float) | Vytváří nové vlastnosti rámce tvaru. |
+| [ShapeFrame](shapeframe)(float, float, float, float, NullableBool, NullableBool, float) | Vytvoří nové vlastnosti rámce tvaru. |
 
 ## Vlastnosti
 
@@ -26,11 +26,11 @@ public class ShapeFrame : IShapeFrame
 | --- | --- |
 | [CenterX](../../aspose.slides/shapeframe/centerx) { get; } | Vrací souřadnici X středu rámce. Pouze pro čtení Single. |
 | [CenterY](../../aspose.slides/shapeframe/centery) { get; } | Vrací souřadnici Y středu rámce. Pouze pro čtení Single. |
-| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | Určuje, zda je rámec horizontálně přetočen. Pouze pro čtení [`NullableBool`](../nullablebool). |
-| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | Určuje, zda je rámec vertikálně přetočen. Pouze pro čtení [`NullableBool`](../nullablebool). |
+| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | Určuje, zda je rámec horizontálně převrácen. Pouze pro čtení [`NullableBool`](../nullablebool). |
+| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | Určuje, zda je rámec vertikálně převrácen. Pouze pro čtení [`NullableBool`](../nullablebool). |
 | [Height](../../aspose.slides/shapeframe/height) { get; } | Vrací výšku rámce. Pouze pro čtení Single. |
 | [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | Vrací souřadnice rámce. Pouze pro čtení RectangleF. |
-| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | Vrací počet stupňů, o které je rámec otočen kolem osy z. Kladná hodnota označuje otáčení po směru hodinových ručiček; záporná hodnota označuje otáčení proti směru hodinových ručiček. Pouze pro čtení Single. |
+| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | Vrací počet stupňů, o který je rámec otočen kolem osy z. Kladná hodnota značí otočení po směru hodinových ručiček; záporná hodnota značí otočení proti směru hodinových ručiček. Pouze pro čtení Single. |
 | [Width](../../aspose.slides/shapeframe/width) { get; } | Vrací šířku rámce. Pouze pro čtení Single. |
 | [X](../../aspose.slides/shapeframe/x) { get; } | Vrací souřadnici X levého horního rohu rámce. Pouze pro čtení Single. |
 | [Y](../../aspose.slides/shapeframe/y) { get; } | Vrací souřadnici Y levého horního rohu rámce. Pouze pro čtení Single. |

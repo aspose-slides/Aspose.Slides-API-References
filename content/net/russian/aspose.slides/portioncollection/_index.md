@@ -1,14 +1,14 @@
 ---
 title: PortionCollection
-second_title: Aspose.Sildes для .NET API Справка
-description: Представляет коллекцию фрагментов.
+second_title: Aspose.Sildes для .NET справочник API
+description: Представляет коллекцию частей.
 type: docs
-weight: 9470
+weight: 9490
 url: /ru/aspose.slides/portioncollection/
 ---
 ## PortionCollection класс
 
-Представляет коллекцию фрагментов.
+Представляет коллекцию частей.
 
 ```csharp
 public sealed class PortionCollection : DomObject<Paragraph>, IPortionCollection
@@ -26,14 +26,14 @@ public sealed class PortionCollection : DomObject<Paragraph>, IPortionCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.slides/portioncollection/add)(IPortion) | Добавляет объект Portion в конец коллекции. |
+| [Add](../../aspose.slides/portioncollection/add)(IPortion) | Добавляет Portion в конец коллекции. |
 | [Clear](../../aspose.slides/portioncollection/clear)() | Удаляет все элементы из коллекции. |
-| [Contains](../../aspose.slides/portioncollection/contains)(IPortion) | Определяет, содержит ли ICollection конкретное значение. |
-| [CopyTo](../../aspose.slides/portioncollection/copyto)(IPortion[], int) | Копирует элементы ICollection в Array, начиная с определённого индекса массива. |
-| [GetEnumerator](../../aspose.slides/portioncollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [Contains](../../aspose.slides/portioncollection/contains)(IPortion) | Определяет, содержит ли ICollection указанное значение. |
+| [CopyTo](../../aspose.slides/portioncollection/copyto)(IPortion[], int) | Копирует элементы ICollection в массив, начиная с определённого индекса массива. |
+| [GetEnumerator](../../aspose.slides/portioncollection/getenumerator)() | Возвращает перечислитель, который перебирает элементы коллекции. |
 | [IndexOf](../../aspose.slides/portioncollection/indexof)(IPortion) | Определяет индекс конкретного элемента в IList. |
-| [Insert](../../aspose.slides/portioncollection/insert)(int, IPortion) | Вставляет объект Portion в коллекцию по указанному индексу. |
-| [Remove](../../aspose.slides/portioncollection/remove)(IPortion) | Удаляет первое вхождение конкретного объекта из ICollection. |
+| [Insert](../../aspose.slides/portioncollection/insert)(int, IPortion) | Вставляет Portion в коллекцию по указанному индексу. |
+| [Remove](../../aspose.slides/portioncollection/remove)(IPortion) | Удаляет первое вхождение указанного объекта из ICollection. |
 | [RemoveAt](../../aspose.slides/portioncollection/removeat)(int) | Удаляет элемент по указанному индексу коллекции. |
 
 ### См. также

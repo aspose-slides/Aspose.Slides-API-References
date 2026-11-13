@@ -1,9 +1,9 @@
 ---
 title: TabAlignment
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes 的 .NET API 参考
 description: 表示制表符对齐方式。
 type: docs
-weight: 10830
+weight: 10850
 url: /zh/aspose.slides/tabalignment/
 ---
 ## TabAlignment 枚举

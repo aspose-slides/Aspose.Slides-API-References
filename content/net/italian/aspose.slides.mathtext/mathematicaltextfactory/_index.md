@@ -3,7 +3,7 @@ title: MathematicalTextFactory
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Consente di creare un elemento MathematicalText
 type: docs
-weight: 9070
+weight: 9090
 url: /it/aspose.slides.mathtext/mathematicaltextfactory/
 ---
 ## MathematicalTextFactory classe
@@ -24,14 +24,14 @@ public class MathematicalTextFactory : IMathematicalTextFactory
 
 | Nome | Descrizione |
 | --- | --- |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Crea un elemento di testo matematico vuoto |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Crea un elemento di testo matematico con il valore specificato |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Crea un elemento di testo matematico vuoto con il valore specificato |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Crea un elemento di testo matematico vuoto con il valore specificato e le proprietà di formattazione |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Crea un elemento MathematicalText vuoto |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Crea un elemento MathematicalText con il valore specificato |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Crea un elemento MathematicalText vuoto con il valore specificato |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Crea un elemento MathematicalText vuoto con il valore specificato e le proprietà di formattazione |
 
 ### Osservazioni
 
-Per la compatibilità COM
+Per compatibilità COM
 
 ### Vedi anche
 

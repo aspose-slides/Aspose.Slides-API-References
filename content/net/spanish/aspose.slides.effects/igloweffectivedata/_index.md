@@ -3,12 +3,12 @@ title: IGlowEffectiveData
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Objeto inmutable que representa un efecto Glow en el que se añade un contorno difuminado de color fuera de los bordes del objeto.
 type: docs
-weight: 3330
+weight: 3350
 url: /es/aspose.slides.effects/igloweffectivedata/
 ---
 ## IGlowEffectiveData interfaz
 
-Objeto inmutable que representa un efecto Glow, en el que se añade un contorno de color difuminado fuera de los bordes del objeto.
+Objeto inmutable que representa un efecto Glow, en el que se añade un contorno difuminado de color fuera de los bordes del objeto.
 
 ```csharp
 public interface IGlowEffectiveData : IEffectEffectiveData

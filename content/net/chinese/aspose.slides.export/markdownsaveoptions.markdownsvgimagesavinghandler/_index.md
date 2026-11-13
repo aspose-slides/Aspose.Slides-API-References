@@ -1,25 +1,25 @@
 ---
 title: MarkdownSaveOptions.MarkdownSvgImageSavingHandler
-second_title: Aspose.Sildes .NET API 参考
-description: 在 Markdown 导出期间对每个 SVG 图像调用。返回 true 使用指定的链接，或返回 false 应用默认的保存逻辑。
+second_title: Aspose.Sildes for .NET API 参考
+description: 在 Markdown 导出期间为每个 SVG 图像调用。返回 true 以使用指定的链接，或返回 false 以应用默认的保存逻辑。
 type: docs
-weight: 4270
+weight: 4290
 url: /zh/aspose.slides.export/markdownsaveoptions.markdownsvgimagesavinghandler/
 ---
 ## MarkdownSaveOptions.MarkdownSvgImageSavingHandler 委托
 
-在 Markdown 导出期间对每个 SVG 图像调用。返回 `true` 以使用指定的 *link*，或返回 `false` 以应用默认的保存逻辑。
+在 Markdown 导出期间为每个 SVG 图像调用。返回 `true` 以使用指定的 *link*，或返回 `false` 以应用默认的保存逻辑。
 
 ```csharp
 public delegate bool MarkdownSvgImageSavingHandler(ISvgImage svgImage, ref string link);
 ```
 
-| 参数 | 类型 | 说明 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | svgImage | ISvgImage | 正在导出的 SVG 图像。 |
-| link | String& | 返回 `true` 时使用的 Markdown 链接。 |
+| link | String& | 在返回 `true` 时使用的 Markdown 链接。 |
 
-### 另见
+### 参见
 
 * 接口 [ISvgImage](../../aspose.slides/isvgimage)
 * 类 [MarkdownSaveOptions](../markdownsaveoptions)

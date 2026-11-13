@@ -1,9 +1,9 @@
 ---
 title: IPictureFrame
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt einen Rahmen mit einem Bild darin dar.
 type: docs
-weight: 6670
+weight: 6690
 url: /de/aspose.slides/ipictureframe/
 ---
 ## IPictureFrame Schnittstelle
@@ -18,12 +18,12 @@ public interface IPictureFrame : IGeometryShape
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides/ipictureframe/asigeometryshape) { get; } | Ermöglicht das Abrufen der Basis-IGeometryShape-Schnittstelle. Nur-lesen [`IGeometryShape`](../igeometryshape). |
-| [PictureFormat](../../aspose.slides/ipictureframe/pictureformat) { get; } | Gibt das PictureFillFormat-Objekt für einen Bildrahmen zurück. Nur-lesen [`IPictureFillFormat`](../ipicturefillformat). |
-| [PictureFrameLock](../../aspose.slides/ipictureframe/pictureframelock) { get; } | Gibt die Sperren des PictureFrame zurück. Nur-lesen [`IPictureFrameLock`](../ipictureframelock). |
-| [RelativeScaleHeight](../../aspose.slides/ipictureframe/relativescaleheight) { get; set; } | Gibt den Skalierungsfaktor für die Höhe (relativ zur ursprünglichen Bildgröße) des Bildrahmens zurück oder legt ihn fest. Der Wert 1.0 entspricht 100%. Lese/Schreib Single. |
-| [RelativeScaleWidth](../../aspose.slides/ipictureframe/relativescalewidth) { get; set; } | Gibt den Skalierungsfaktor für die Breite (relativ zur ursprünglichen Bildgröße) des Bildrahmens zurück oder legt ihn fest. Der Wert 1.0 entspricht 100%. Lese/Schreib Single. |
-| [ShapeLock](../../aspose.slides/ipictureframe/shapelock) { get; } | Gibt die Sperren der Form zurück. Nur-lesen [`IPictureFrameLock`](../ipictureframelock). |
+| [AsIGeometryShape](../../aspose.slides/ipictureframe/asigeometryshape) { get; } | Ermöglicht das Abrufen der Basis-IGeometryShape-Schnittstelle. Schreibgeschützt [`IGeometryShape`](../igeometryshape). |
+| [PictureFormat](../../aspose.slides/ipictureframe/pictureformat) { get; } | Gibt das PictureFillFormat-Objekt für einen Bilderrahmen zurück. Schreibgeschützt [`IPictureFillFormat`](../ipicturefillformat). |
+| [PictureFrameLock](../../aspose.slides/ipictureframe/pictureframelock) { get; } | Gibt die Sperren von PictureFrame zurück. Schreibgeschützt [`IPictureFrameLock`](../ipictureframelock). |
+| [RelativeScaleHeight](../../aspose.slides/ipictureframe/relativescaleheight) { get; set; } | Gibt die Höhe-Skalierung (relativ zur Originalgröße des Bildes) des Bilderrahmens zurück oder legt sie fest. Der Wert 1.0 entspricht 100 %. Lesen/Schreiben Single. |
+| [RelativeScaleWidth](../../aspose.slides/ipictureframe/relativescalewidth) { get; set; } | Gibt die Breiten-Skalierung (relativ zur Originalgröße des Bildes) des Bilderrahmens zurück oder legt sie fest. Der Wert 1.0 entspricht 100 %. Lesen/Schreiben Single. |
+| [ShapeLock](../../aspose.slides/ipictureframe/shapelock) { get; } | Gibt die Sperren der Form zurück. Schreibgeschützt [`IPictureFrameLock`](../ipictureframelock). |
 
 ### Siehe auch
 

@@ -3,10 +3,10 @@ title: IImageTransformOperationFactory
 second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: อนุญาตให้สร้างอินสแตนซ์ของเอฟเฟกต์ภาพ
 type: docs
-weight: 3410
+weight: 3430
 url: /th/aspose.slides.effects/iimagetransformoperationfactory/
 ---
-## IImageTransformOperationFactory อินเทอร์เฟซ
+## IImageTransformOperationFactory interface
 
 อนุญาตให้สร้างอินสแตนซ์ของเอฟเฟกต์ภาพ
 
@@ -18,31 +18,31 @@ public interface IImageTransformOperationFactory
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CreateAlphaBiLevel](../../aspose.slides.effects/iimagetransformoperationfactory/createalphabilevel)(float) | สร้างเอฟเฟกต์ Alpha BiLevel |
-| [CreateAlphaFloor](../../aspose.slides.effects/iimagetransformoperationfactory/createalphafloor)() | สร้างเอฟเฟกต์ Alpha floor |
-| [CreateAlphaInverse](../../aspose.slides.effects/iimagetransformoperationfactory/createalphainverse)() | สร้างเอฟเฟกต์ Alpha inverse |
-| [CreateAlphaModulate](../../aspose.slides.effects/iimagetransformoperationfactory/createalphamodulate)() | สร้างเอฟเฟกต์ Alpha modulate |
-| [CreateAlphaModulateFixed](../../aspose.slides.effects/iimagetransformoperationfactory/createalphamodulatefixed)(float) | สร้างเอฟเฟกต์ Alpha modulate fixed |
-| [CreateAlphaReplace](../../aspose.slides.effects/iimagetransformoperationfactory/createalphareplace)(float) | สร้างเอฟเฟกต์ Alpha replace |
-| [CreateAlphCeiling](../../aspose.slides.effects/iimagetransformoperationfactory/createalphceiling)() | สร้างเอฟเฟกต์ Alpha Ceiling |
-| [CreateBiLevel](../../aspose.slides.effects/iimagetransformoperationfactory/createbilevel)(float) | สร้างเอฟเฟกต์ BiLevel |
-| [CreateBlur](../../aspose.slides.effects/iimagetransformoperationfactory/createblur)(double, bool) | สร้างเอฟเฟกต์ Blur |
-| [CreateColorChange](../../aspose.slides.effects/iimagetransformoperationfactory/createcolorchange)() | สร้างเอฟเฟกต์ Color change |
-| [CreateColorReplace](../../aspose.slides.effects/iimagetransformoperationfactory/createcolorreplace)() | สร้างเอฟเฟกต์ Color replace |
-| [CreateDuotone](../../aspose.slides.effects/iimagetransformoperationfactory/createduotone)() | สร้างเอฟเฟกต์ Duotone |
-| [CreateFillOverlay](../../aspose.slides.effects/iimagetransformoperationfactory/createfilloverlay)() | สร้างเอฟเฟกต์ Fill overlay |
-| [CreateGrayScale](../../aspose.slides.effects/iimagetransformoperationfactory/creategrayscale)() | สร้างเอฟเฟกต์ Gray scale |
-| [CreateHSL](../../aspose.slides.effects/iimagetransformoperationfactory/createhsl)(float, float, float) | สร้างเอฟเฟกต์ Hue Saturation Luminance |
-| [CreateLuminance](../../aspose.slides.effects/iimagetransformoperationfactory/createluminance)(float, float) | สร้างเอฟเฟกต์ Luminance |
-| [CreateTint](../../aspose.slides.effects/iimagetransformoperationfactory/createtint)(float, float) | สร้างเอฟเฟกต์ Tint |
+| [CreateAlphaBiLevel](../../aspose.slides.effects/iimagetransformoperationfactory/createalphabilevel)(float) | สร้าง Alpha BiLevel เอฟเฟกต์. |
+| [CreateAlphaFloor](../../aspose.slides.effects/iimagetransformoperationfactory/createalphafloor)() | สร้าง Alpha floor เอฟเฟกต์. |
+| [CreateAlphaInverse](../../aspose.slides.effects/iimagetransformoperationfactory/createalphainverse)() | สร้าง Alpha inverse เอฟเฟกต์. |
+| [CreateAlphaModulate](../../aspose.slides.effects/iimagetransformoperationfactory/createalphamodulate)() | สร้าง Alpha modulate เอฟเฟกต์. |
+| [CreateAlphaModulateFixed](../../aspose.slides.effects/iimagetransformoperationfactory/createalphamodulatefixed)(float) | สร้าง Alpha modulate fixed เอฟเฟกต์. |
+| [CreateAlphaReplace](../../aspose.slides.effects/iimagetransformoperationfactory/createalphareplace)(float) | สร้าง Alpha replace เอฟเฟกต์. |
+| [CreateAlphCeiling](../../aspose.slides.effects/iimagetransformoperationfactory/createalphceiling)() | สร้าง Alpha Ceiling เอฟเฟกต์. |
+| [CreateBiLevel](../../aspose.slides.effects/iimagetransformoperationfactory/createbilevel)(float) | สร้าง BiLevel เอฟเฟกต์. |
+| [CreateBlur](../../aspose.slides.effects/iimagetransformoperationfactory/createblur)(double, bool) | สร้าง Blur เอฟเฟกต์. |
+| [CreateColorChange](../../aspose.slides.effects/iimagetransformoperationfactory/createcolorchange)() | สร้าง Color change เอฟเฟกต์. |
+| [CreateColorReplace](../../aspose.slides.effects/iimagetransformoperationfactory/createcolorreplace)() | สร้าง Color replace เอฟเฟกต์. |
+| [CreateDuotone](../../aspose.slides.effects/iimagetransformoperationfactory/createduotone)() | สร้าง Duotone เอฟเฟกต์. |
+| [CreateFillOverlay](../../aspose.slides.effects/iimagetransformoperationfactory/createfilloverlay)() | สร้าง Fill overlay เอฟเฟกต์. |
+| [CreateGrayScale](../../aspose.slides.effects/iimagetransformoperationfactory/creategrayscale)() | สร้าง Gray scale เอฟเฟกต์. |
+| [CreateHSL](../../aspose.slides.effects/iimagetransformoperationfactory/createhsl)(float, float, float) | สร้าง Hue Saturation Luminance เอฟเฟกต์. |
+| [CreateLuminance](../../aspose.slides.effects/iimagetransformoperationfactory/createluminance)(float, float) | สร้าง Luminance เอฟเฟกต์. |
+| [CreateTint](../../aspose.slides.effects/iimagetransformoperationfactory/createtint)(float, float) | สร้าง Tint เอฟเฟกต์. |
 
 ### หมายเหตุ
 
-สำหรับอินเทอร์เฟซ COM
+สำหรับ COM interface.
 
 ### ดูเพิ่มเติม
 
 * เนมสเปซ [Aspose.Slides.Effects](../../aspose.slides.effects)
-* แอสเซ็มบลี [Aspose.Slides](../../)
+* แอสเซมบลี [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

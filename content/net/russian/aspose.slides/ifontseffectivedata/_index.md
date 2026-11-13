@@ -1,9 +1,9 @@
 ---
 title: IFontsEffectiveData
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API справка
 description: Неизменяемый объект, содержащий набор эффективных шрифтов.
 type: docs
-weight: 5910
+weight: 5930
 url: /ru/aspose.slides/ifontseffectivedata/
 ---
 ## IFontsEffectiveData интерфейс
@@ -16,10 +16,10 @@ public interface IFontsEffectiveData
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/ifontseffectivedata/complexscriptfont) { get; } | Возвращает шрифт сложных сценариев. Только для чтения [`IFontData`](../ifontdata). |
-| [EastAsianFont](../../aspose.slides/ifontseffectivedata/eastasianfont) { get; } | Возвращает шрифт восточно-азиатского. Только для чтения [`IFontData`](../ifontdata). |
+| [ComplexScriptFont](../../aspose.slides/ifontseffectivedata/complexscriptfont) { get; } | Возвращает шрифт комплексного сценария. Только для чтения [`IFontData`](../ifontdata). |
+| [EastAsianFont](../../aspose.slides/ifontseffectivedata/eastasianfont) { get; } | Возвращает восточноазиатский шрифт. Только для чтения [`IFontData`](../ifontdata). |
 | [LatinFont](../../aspose.slides/ifontseffectivedata/latinfont) { get; } | Возвращает латинский шрифт. Только для чтения [`IFontData`](../ifontdata). |
 
 ### Примечания

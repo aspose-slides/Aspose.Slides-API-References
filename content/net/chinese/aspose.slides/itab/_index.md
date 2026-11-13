@@ -1,9 +1,9 @@
 ---
 title: ITab
-second_title: Aspose.Sildes 的 .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示文本的制表符。
 type: docs
-weight: 7190
+weight: 7210
 url: /zh/aspose.slides/itab/
 ---
 ## ITab 接口
@@ -18,11 +18,11 @@ public interface ITab : IComparable
 
 | 名称 | 描述 |
 | --- | --- |
-| [Alignment](../../aspose.slides/itab/alignment) { get; set; } | 返回或设置选项卡的对齐样式。可读写 [`TabAlignment`](../tabalignment)。 |
+| [Alignment](../../aspose.slides/itab/alignment) { get; set; } | 返回或设置制表符的对齐样式。可读写 [`TabAlignment`](../tabalignment)。 |
 | [AsIComparable](../../aspose.slides/itab/asicomparable) { get; } | 返回 IComparable 接口。只读 IComparable。 |
-| [Position](../../aspose.slides/itab/position) { get; set; } | 返回或设置选项卡的位置。为此属性赋值可能会更改集合中选项卡的索引并使枚举器失效。可读写 Double。 |
+| [Position](../../aspose.slides/itab/position) { get; set; } | 返回或设置制表符的位置。为此属性赋值可能会更改集合中制表符的索引并使 Enumerator 失效。可读写 Double。 |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

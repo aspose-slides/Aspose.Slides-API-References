@@ -1,9 +1,9 @@
 ---
 title: CustomData
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili wadah untuk data khusus.
 type: docs
-weight: 2730
+weight: 2750
 url: /id/aspose.slides/customdata/
 ---
 ## CustomData kelas
@@ -18,8 +18,8 @@ public class CustomData : ICustomData
 
 | Nama | Deskripsi |
 | --- | --- |
-| [CustomXmlParts](../../aspose.slides/customdata/customxmlparts) { get; } | Mengembalikan koleksi bagian xml khusus. Hanya-baca [`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
-| [Tags](../../aspose.slides/customdata/tags) { get; } | Mengembalikan koleksi Tag Data Pelanggan. Hanya-baca [`ITagCollection`](../itagcollection). |
+| [CustomXmlParts](../../aspose.slides/customdata/customxmlparts) { get; } | Mengembalikan koleksi bagian xml khusus. Baca-saja [`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
+| [Tags](../../aspose.slides/customdata/tags) { get; } | Mengembalikan koleksi Tag Data Pelanggan. Baca-saja [`ITagCollection`](../itagcollection). |
 
 ### Lihat Juga
 

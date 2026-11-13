@@ -1,14 +1,14 @@
 ---
 title: IMathNaryOperator
-second_title: Aspose.Sildes için .NET API Referansı
-description: "Summation ve Integral gibi N-ary matematiksel bir nesneyi belirtir. Bir operatör, bir temel (veya operand) ve isteğe bağlı üst ve alt sınırları içerir. N-ary operatör örnekleri: Summation Union Intersection Integral"
+second_title: Aspose.Sildes .NET API Referansı
+description: Toplama ve Integral gibi N-terimli bir matematiksel nesneyi belirtir. Bir operatör, bir temel (veya operand) ve isteğe bağlı üst ve alt limitlerden oluşur. N-terimli operatör örnekleri Toplama, Birleşim, Kesişim, Integral'dir.
 type: docs
-weight: 8360
+weight: 8380
 url: /tr/aspose.slides.mathtext/imathnaryoperator/
 ---
-## IMathNaryOperator arayüzü
+## IMathNaryOperator arayüz
 
-Bir N-ary matematiksel nesneyi belirtir; örneğin Summation ve Integral. Bir operatör, bir temel (veya operand) ve isteğe bağlı üst ve alt sınırları içerir. N-ary operatör örnekleri: Summation, Union, Intersection, Integral
+Specifies an N-ary mathematical object, such as Summation and Integral. It consists of an operator, a base (or operand), and optional upper and lower limits. Examples of N-ary operators are: Summation, Union, Intersection, Integral
 
 ```csharp
 public interface IMathNaryOperator : IMathElement, IMathNaryOperatorProperties
@@ -18,11 +18,11 @@ public interface IMathNaryOperator : IMathElement, IMathNaryOperatorProperties
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathnaryoperator/asimathelement) { get; } | Temel IMathElement arayüzüne erişim sağlar [`IMathElement`](../imathelement) |
-| [AsIMathNaryOperatorProperties](../../aspose.slides.mathtext/imathnaryoperator/asimathnaryoperatorproperties) { get; } | Temel IMathNaryOperatorProperties arayüzüne erişim sağlar [`IMathNaryOperatorProperties`](../imathnaryoperatorproperties) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathnaryoperator/asimathelement) { get; } | Temel IMathElement arayüzünü almayı sağlar [`IMathElement`](../imathelement) |
+| [AsIMathNaryOperatorProperties](../../aspose.slides.mathtext/imathnaryoperator/asimathnaryoperatorproperties) { get; } | Temel IMathNaryOperatorProperties arayüzünü almayı sağlar [`IMathNaryOperatorProperties`](../imathnaryoperatorproperties) |
 | [Base](../../aspose.slides.mathtext/imathnaryoperator/base) { get; } | Temel argüman |
-| [Subscript](../../aspose.slides.mathtext/imathnaryoperator/subscript) { get; } | Bir alt simge argümanını belirtir; örneğin integral durumunda, alt sınırı ayarlar |
-| [Superscript](../../aspose.slides.mathtext/imathnaryoperator/superscript) { get; } | Bir üst simge argümanını belirtir; örneğin integral durumunda, üst sınırı ayarlar |
+| [Subscript](../../aspose.slides.mathtext/imathnaryoperator/subscript) { get; } | Alt simge argümanını belirtir; örneğin bir integral durumunda, alt sınırı ayarlar |
+| [Superscript](../../aspose.slides.mathtext/imathnaryoperator/superscript) { get; } | Üst simge argümanını belirtir; örneğin bir integral durumunda, üst sınırı ayarlar |
 
 ### Örnekler
 

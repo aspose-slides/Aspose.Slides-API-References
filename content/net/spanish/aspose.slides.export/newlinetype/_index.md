@@ -1,14 +1,14 @@
 ---
 title: NewLineType
-second_title: Aspose.Sildes para la referencia de API de .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Tipo de nueva línea que se utilizará en el documento generado.
 type: docs
-weight: 4280
+weight: 4300
 url: /es/aspose.slides.export/newlinetype/
 ---
 ## NewLineType enumeración
 
-Tipo de nueva línea que se utilizará en el documento generado.
+Tipo de nueva línea que se usará en el documento generado.
 
 ```csharp
 public enum NewLineType
@@ -45,7 +45,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Véase también
+### Ver también
 
 * espacio de nombres [Aspose.Slides.Export](../../aspose.slides.export)
 * ensamblado [Aspose.Slides](../../)

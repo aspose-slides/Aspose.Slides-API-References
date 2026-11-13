@@ -3,12 +3,12 @@ title: ISmartArtShapeCollection
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en samling av SmartArt former
 type: docs
-weight: 10580
+weight: 10600
 url: /sv/aspose.slides.smartart/ismartartshapecollection/
 ---
 ## ISmartArtShapeCollection gränssnitt
 
-Representerar en samling av SmartArt-former
+Representerar en samling av SmartArt former
 
 ```csharp
 public interface ISmartArtShapeCollection : IGenericCollection<ISmartArtShape>
@@ -20,7 +20,7 @@ public interface ISmartArtShapeCollection : IGenericCollection<ISmartArtShape>
 | --- | --- |
 | [Item](../../aspose.slides.smartart/ismartartshapecollection/item) { get; } | Hämtar elementet på det angivna indexet. Skrivskyddad [`ISmartArtShape`](../ismartartshape). Nollbaserat index för elementet |
 
-### Se även
+### Se också
 
 * gränssnitt [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * gränssnitt [ISmartArtShape](../ismartartshape)

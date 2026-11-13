@@ -1,14 +1,14 @@
 ---
 title: Collect
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: Presentation../aspose.slides/presentation에서 다양한 유형의 모델 객체를 수집하기 위한 메서드 그룹을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: Presentation../aspose.slides/presentation에서 다양한 유형의 모델 개체를 수집하기 위한 메서드 그룹을 나타냅니다.
 type: docs
-weight: 7860
+weight: 7880
 url: /ko/aspose.slides.lowcode/collect/
 ---
 ## Collect 클래스
 
-[`Presentation`](../../aspose.slides/presentation)에서 다양한 유형의 모델 객체를 수집하기 위한 메서드 그룹을 나타냅니다.
+[`Presentation`](../../aspose.slides/presentation)에서 다양한 유형의 모델 개체를 수집하기 위한 메서드 그룹을 나타냅니다.
 
 ```csharp
 public static class Collect
@@ -27,12 +27,12 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     foreach (Shape shape in Collect.Shapes(pres))
     {
-        // ... 모양 서식이나 기타 속성을 변경합니다
+        // ... 도형 서식을 변경하거나 기타 속성을 변경
     }
 }    
 ```
 
-### 참고
+### 또 보기
 
 * 네임스페이스 [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,9 +1,9 @@
 ---
 title: AlphaBiLevel
-second_title: Aspose.Sildes dla .NET - odniesienie API
-description: Reprezentuje efekt Alpha Bi-Level. Wartości alfa (przezroczystość) mniejsze niż próg są zmieniane na 0 - w pełni przezroczyste, a wartości alfa większe lub równe progowi są zmieniane na 100 - w pełni nieprzezroczyste.
+second_title: Aspose.Sildes dla .NET API Reference
+description: Reprezentuje efekt Alpha Bi-Level. Wartości Alpha Opacity mniejsze niż próg są zamieniane na 0 (całkowicie przezroczyste), a wartości alpha większe lub równe progowi są zamieniane na 100 (całkowicie nieprzezroczyste).
 type: docs
-weight: 2840
+weight: 2860
 url: /pl/aspose.slides.effects/alphabilevel/
 ---
 ## AlphaBiLevel klasa
@@ -16,17 +16,17 @@ public sealed class AlphaBiLevel : ImageTransformOperation, IAlphaBiLevel
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umożliwia pobranie podstawowego interfejsu IPresentationComponent. Tylko do odczytu [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 | [Threshold](../../aspose.slides.effects/alphabilevel/threshold) { get; set; } | Zwraca próg efektu. Odczyt/zapis Single. |
 
 ## Metody
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphabilevel/equals)(object) | Określa, czy podany [`AlphaBiLevel`](../alphabilevel) jest równy bieżącemu [`AlphaBiLevel`](../alphabilevel). |
-| [GetEffective](../../aspose.slides.effects/alphabilevel/geteffective)() | Pobiera skuteczne dane efektu Alpha Bi-Level z zastosowanym dziedziczeniem. |
+| [GetEffective](../../aspose.slides.effects/alphabilevel/geteffective)() | Pobiera efektywne dane efektu Alpha Bi-Level z zastosowanym dziedziczeniem. |
 | override [GetHashCode](../../aspose.slides.effects/alphabilevel/gethashcode)() | Służy jako funkcja skrótu dla określonego typu. |
 
 ### Zobacz także

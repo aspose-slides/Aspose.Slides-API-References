@@ -1,14 +1,14 @@
 ---
 title: IPictureFrame
 second_title: Aspose.Sildes .NET API 参考
-description: 表示一个内部带有图片的框架。
+description: 表示一个内部包含图片的框架。
 type: docs
-weight: 6670
+weight: 6690
 url: /zh/aspose.slides/ipictureframe/
 ---
 ## IPictureFrame 接口
 
-表示一个内部带有图片的框架。
+表示一个内部包含图片的框架。
 
 ```csharp
 public interface IPictureFrame : IGeometryShape
@@ -19,10 +19,10 @@ public interface IPictureFrame : IGeometryShape
 | 名称 | 描述 |
 | --- | --- |
 | [AsIGeometryShape](../../aspose.slides/ipictureframe/asigeometryshape) { get; } | 允许获取基础 IGeometryShape 接口。只读 [`IGeometryShape`](../igeometryshape)。 |
-| [PictureFormat](../../aspose.slides/ipictureframe/pictureformat) { get; } | 返回图片框架的 PictureFillFormat 对象。只读 [`IPictureFillFormat`](../ipicturefillformat)。 |
+| [PictureFormat](../../aspose.slides/ipictureframe/pictureformat) { get; } | 返回图片框的 PictureFillFormat 对象。只读 [`IPictureFillFormat`](../ipicturefillformat)。 |
 | [PictureFrameLock](../../aspose.slides/ipictureframe/pictureframelock) { get; } | 返回 PictureFrame 的锁定。只读 [`IPictureFrameLock`](../ipictureframelock)。 |
-| [RelativeScaleHeight](../../aspose.slides/ipictureframe/relativescaleheight) { get; set; } | 返回或设置图片框架的高度缩放比例（相对于原始图片大小）。值 1.0 对应 100%。可读写 Single。 |
-| [RelativeScaleWidth](../../aspose.slides/ipictureframe/relativescalewidth) { get; set; } | 返回或设置图片框架的宽度缩放比例（相对于原始图片大小）。值 1.0 对应 100%。可读写 Single。 |
+| [RelativeScaleHeight](../../aspose.slides/ipictureframe/relativescaleheight) { get; set; } | 返回或设置图片框高度的比例（相对于原始图片大小）。值 1.0 对应 100%。可读写 Single。 |
+| [RelativeScaleWidth](../../aspose.slides/ipictureframe/relativescalewidth) { get; set; } | 返回或设置图片框宽度的比例（相对于原始图片大小）。值 1.0 对应 100%。可读写 Single。 |
 | [ShapeLock](../../aspose.slides/ipictureframe/shapelock) { get; } | 返回形状的锁定。只读 [`IPictureFrameLock`](../ipictureframelock)。 |
 
 ### 另见

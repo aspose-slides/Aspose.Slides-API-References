@@ -1,14 +1,14 @@
 ---
 title: IGenericCollectionT
-second_title: Aspose.Sildes pro .NET – referenční příručka API
-description: Pomocné rozhraní generické kolekce.
+second_title: Aspose.Sildes pro .NET API Referenci
+description: Pomocné obecné rozhraní kolekce.
 type: docs
-weight: 5960
+weight: 5980
 url: /cs/aspose.slides/igenericcollection-1/
 ---
-## IGenericCollection&lt;T&gt; rozhraní
+## IGenericCollection<T> rozhraní
 
-Pomocné rozhraní generické kolekce.
+Pomocné obecné rozhraní kolekce.
 
 ```csharp
 public interface IGenericCollection<T> : ICollection, IEnumerable<T>
@@ -23,7 +23,7 @@ public interface IGenericCollection<T> : ICollection, IEnumerable<T>
 | Název | Popis |
 | --- | --- |
 | [AsICollection](../../aspose.slides/igenericcollection`1/asicollection) { get; } | Vrací rozhraní ICollection. |
-| [AsIEnumerable](../../aspose.slides/igenericcollection`1/asienumerable) { get; } | Vrací rozhraní IEnumerable. IEnumerable pouze pro čtení. |
+| [AsIEnumerable](../../aspose.slides/igenericcollection`1/asienumerable) { get; } | Vrací rozhraní IEnumerable. Pouze pro čtení IEnumerable. |
 
 ### Viz také
 

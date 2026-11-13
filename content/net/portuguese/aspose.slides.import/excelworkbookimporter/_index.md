@@ -1,9 +1,9 @@
 ---
 title: ExcelWorkbookImporter
-second_title: Aspose.Sildes para Referência da API .NET
+second_title: Referência da API Aspose.Sildes para .NET
 description: Fornece funcionalidade para importar conteúdo de uma pasta de trabalho do Excel para uma apresentação.
 type: docs
-weight: 7470
+weight: 7490
 url: /pt/aspose.slides.import/excelworkbookimporter/
 ---
 ## ExcelWorkbookImporter classe
@@ -18,17 +18,17 @@ public static class ExcelWorkbookImporter
 
 | Nome | Descrição |
 | --- | --- |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, int, bool) | Recupera um gráfico da pasta de trabalho do Excel especificada e o adiciona ao final da coleção de formas fornecida nas coordenadas especificadas. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_1)(IShapeCollection, float, float, IExcelDataWorkbook, string, string, bool) | Recupera um gráfico da pasta de trabalho do Excel especificada e o adiciona ao final da coleção de formas fornecida nas coordenadas especificadas. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_2)(IShapeCollection, float, float, Stream, string, string, bool) | Recupera um gráfico da pasta de trabalho do Excel especificada e o adiciona ao final da coleção de formas fornecida nas coordenadas especificadas. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_3)(IShapeCollection, float, float, string, string, string, bool) | Recupera um gráfico da pasta de trabalho do Excel especificada e o adiciona ao final da coleção de formas fornecida nas coordenadas especificadas. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, string) | Recupera uma tabela da pasta de trabalho do Excel especificada e a adiciona ao final da coleção de formas fornecida nas coordenadas especificadas. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_1)(IShapeCollection, float, float, Stream, string, string) | Recupera uma tabela do arquivo da pasta de trabalho do Excel especificado e a adiciona ao final da coleção de formas fornecida nas coordenadas especificadas. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_2)(IShapeCollection, float, float, string, string, string) | Recupera uma tabela do arquivo da pasta de trabalho do Excel especificado e a adiciona ao final da coleção de formas fornecida nas coordenadas especificadas. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, int, bool) | Recupera um gráfico do workbook do Excel especificado e o adiciona ao final da coleção de shapes fornecida nas coordenadas especificadas. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_1)(IShapeCollection, float, float, IExcelDataWorkbook, string, string, bool) | Recupera um gráfico do workbook do Excel especificado e o adiciona ao final da coleção de shapes fornecida nas coordenadas especificadas. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_2)(IShapeCollection, float, float, Stream, string, string, bool) | Recupera um gráfico do workbook do Excel especificado e o adiciona ao final da coleção de shapes fornecida nas coordenadas especificadas. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_3)(IShapeCollection, float, float, string, string, string, bool) | Recupera um gráfico do workbook do Excel especificado e o adiciona ao final da coleção de shapes fornecida nas coordenadas especificadas. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, string) | Recupera uma tabela do workbook do Excel especificado e a adiciona ao final da coleção de shapes fornecida nas coordenadas especificadas. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_1)(IShapeCollection, float, float, Stream, string, string) | Recupera uma tabela do arquivo de workbook do Excel especificado e a adiciona ao final da coleção de shapes fornecida nas coordenadas especificadas. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_2)(IShapeCollection, float, float, string, string, string) | Recupera uma tabela do arquivo de workbook do Excel especificado e a adiciona ao final da coleção de shapes fornecida nas coordenadas especificadas. |
 
 ### Veja Também
 
-* namespace [Aspose.Slides.Import](../../aspose.slides.import)
+* espaço de nomes [Aspose.Slides.Import](../../aspose.slides.import)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

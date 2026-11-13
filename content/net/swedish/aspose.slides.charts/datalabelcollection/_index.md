@@ -1,14 +1,14 @@
 ---
 title: DataLabelCollection
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar serietiketter.
+description: Representerar serieetiketter.
 type: docs
-weight: 1560
+weight: 1570
 url: /sv/aspose.slides.charts/datalabelcollection/
 ---
 ## DataLabelCollection klass
 
-Representerar serietiketter.
+Representerar serieetiketter.
 
 ```csharp
 public class DataLabelCollection : DomObject<ChartSeries>, IDataLabelCollection
@@ -18,21 +18,22 @@ public class DataLabelCollection : DomObject<ChartSeries>, IDataLabelCollection
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/datalabelcollection/chart) { get; } | Returnerar det överordnade diagrammet. Läs-endast [`IChart`](../ichart). |
-| [Count](../../aspose.slides.charts/datalabelcollection/count) { get; } | Hämtar antalet alla datatetiketter i samlingen. Läs-endast Int32. |
-| [CountOfVisibleDataLabels](../../aspose.slides.charts/datalabelcollection/countofvisibledatalabels) { get; } | Hämtar antalet synliga datatetiketter i samlingen. Läs-endast Int32. |
-| [DefaultDataLabelFormat](../../aspose.slides.charts/datalabelcollection/defaultdatalabelformat) { get; } | Hämtar standardformatet för datatetikett. Läs-endast [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/datalabelcollection/isvisible) { get; } | Falskt betyder att datatetiketten inte är synlig som standard (och så är alla Show*-flaggor (ShowValue, ...) för egenskapen DefaultDataLabelFormat falska). Läs-endast Boolean. |
-| [Item](../../aspose.slides.charts/datalabelcollection/item) { get; } | Hämtar datatetiketten för datapunkten med det angivna indexet. |
-| [LeaderLinesFormat](../../aspose.slides.charts/datalabelcollection/leaderlinesformat) { get; } | Representerar formatet för ledlinjer för datatetiketter. Läs-endast [`IChartLinesFormat`](../ichartlinesformat). |
-| [ParentSeries](../../aspose.slides.charts/datalabelcollection/parentseries) { get; } | Hämtar föräldra-serien. Läs-endast [`IChartSeries`](../ichartseries). |
+| [Chart](../../aspose.slides.charts/datalabelcollection/chart) { get; } | Returnerar den överordnade diagrammet. Skrivskyddad [`IChart`](../ichart). |
+| [Count](../../aspose.slides.charts/datalabelcollection/count) { get; } | Hämtar antalet alla datamärkningar i samlingen. Skrivskyddad Int32. |
+| [CountOfVisibleDataLabels](../../aspose.slides.charts/datalabelcollection/countofvisibledatalabels) { get; } | Hämtar antalet synliga datamärkningar i samlingen. Skrivskyddad Int32. |
+| [DefaultDataLabelFormat](../../aspose.slides.charts/datalabelcollection/defaultdatalabelformat) { get; } | Hämtar standardformatet för datamärkning. Skrivskyddad [`IDataLabelFormat`](../idatalabelformat). |
+| [DefaultLabelShapeType](../../aspose.slides.charts/datalabelcollection/defaultlabelshapetype) { get; set; } | Hämtar eller anger standardformtypen för datamärkningar. Returnerar NotDefined om ingen form är definierad. |
+| [IsVisible](../../aspose.slides.charts/datalabelcollection/isvisible) { get; } | False betyder att datamärkning inte är synlig som standard (och att alla Show*-flaggor (ShowValue, ...) för egenskapen DefaultDataLabelFormat är falska). Skrivskyddad Boolean. |
+| [Item](../../aspose.slides.charts/datalabelcollection/item) { get; } | Hämtar datamärkningen för datapunkten med angivet index. |
+| [LeaderLinesFormat](../../aspose.slides.charts/datalabelcollection/leaderlinesformat) { get; } | Representerar formatet för ledarlinjer för datamärkningar. Skrivskyddad [`IChartLinesFormat`](../ichartlinesformat). |
+| [ParentSeries](../../aspose.slides.charts/datalabelcollection/parentseries) { get; } | Hämtar den överordnade serien. Skrivskyddad [`IChartSeries`](../ichartseries). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
 | [GetEnumerator](../../aspose.slides.charts/datalabelcollection/getenumerator)() | Returnerar en enumerator som itererar genom samlingen. |
-| [Hide](../../aspose.slides.charts/datalabelcollection/hide)() | Gör datatetiketten dold som standard genom att sätta alla Show*-flaggor (ShowValue, ...) för egenskapen DefaultDataLabelFormat till falskt läge. IsVisible kommer att vara falskt efter detta. |
+| [Hide](../../aspose.slides.charts/datalabelcollection/hide)() | Gör datamärkning dold som standard genom att sätta alla Show*-flaggor (ShowValue, ...) för egenskapen DefaultDataLabelFormat till falskt läge. IsVisible blir falskt efter detta. |
 | [IndexOf](../../aspose.slides.charts/datalabelcollection/indexof)(IDataLabel) | Returnerar ett index för den angivna DataLabel i samlingen. |
 
 ### Se även
@@ -40,7 +41,7 @@ public class DataLabelCollection : DomObject<ChartSeries>, IDataLabelCollection
 * klass [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * klass [ChartSeries](../chartseries)
 * gränssnitt [IDataLabelCollection](../idatalabelcollection)
-* namnutrymme [Aspose.Slides.Charts](../../aspose.slides.charts)
+* namnrymd [Aspose.Slides.Charts](../../aspose.slides.charts)
 * samling [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

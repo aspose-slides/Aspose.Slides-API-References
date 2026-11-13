@@ -1,9 +1,9 @@
 ---
 title: ImageFormat
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Représente le format de fichier de l'image.
 type: docs
-weight: 7430
+weight: 7450
 url: /fr/aspose.slides/imageformat/
 ---
 ## Énumération ImageFormat
@@ -20,14 +20,14 @@ public enum ImageFormat
 | --- | --- | --- |
 | MemoryBmp | `0` | Représente le format d'un bitmap en mémoire. |
 | Bmp | `1` | Représente le format d'image bitmap (BMP). |
-| Emf | `2` | Représente le format d'image métafile amélioré (EMF). |
-| Wmf | `3` | Représente le format d'image métafile Windows (WMF). |
+| Emf | `2` | Représente le format d'image metafile amélioré (EMF). |
+| Wmf | `3` | Représente le format d'image metafile Windows (WMF). |
 | Gif | `4` | Représente le format d'image Graphics Interchange Format (GIF). |
 | Jpeg | `5` | Représente le format d'image Joint Photographic Experts Group (JPEG). |
-| Png | `6` | Représente le format d'image Portable Network Graphics (PNG) du W3C. |
+| Png | `6` | Représente le format d'image W3C Portable Network Graphics (PNG). |
 | Tiff | `7` | Représente le format d'image Tagged Image File Format (TIFF). |
 | Exif | `8` | Représente le format Exchangeable Image File (Exif). |
-| Icon | `9` | Représente le format d'image d'icône Windows. |
+| Icon | `9` | Représente le format d'image icône Windows. |
 
 ### Voir aussi
 

@@ -1,9 +1,9 @@
 ---
 title: ParentSeries
-second_title: Aspose.Sildes för .NET API-referens
+second_title: Aspose.Slides för .NET API-referens
 description: Hämtar den överordnade serien. Skrivskyddad IChartSeriesaspose.slides.charts/ichartseries.
 type: docs
-weight: 80
+weight: 90
 url: /sv/aspose.slides.charts/datalabelcollection/parentseries/
 ---
 ## DataLabelCollection.ParentSeries egenskap
@@ -14,7 +14,7 @@ Hämtar den överordnade serien. Skrivskyddad [`IChartSeries`](../../ichartserie
 public IChartSeries ParentSeries { get; }
 ```
 
-### Se även
+### Se också
 
 * gränssnitt [IChartSeries](../../ichartseries)
 * klass [DataLabelCollection](../../datalabelcollection)

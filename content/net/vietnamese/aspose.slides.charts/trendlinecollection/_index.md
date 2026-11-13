@@ -1,14 +1,14 @@
 ---
 title: TrendlineCollection
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Biểu diễn một bộ sưu tập các Trendline
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu diễn một tập hợp các Trendline
 type: docs
-weight: 2480
+weight: 2500
 url: /vi/aspose.slides.charts/trendlinecollection/
 ---
 ## TrendlineCollection lớp
 
-Biểu diễn một bộ sưu tập các Trendline
+Biểu diễn một tập hợp các Trendline
 
 ```csharp
 public class TrendlineCollection : DomObject<ChartSeries>, ITrendlineCollection
@@ -18,15 +18,15 @@ public class TrendlineCollection : DomObject<ChartSeries>, ITrendlineCollection
 
 | Tên | Mô tả |
 | --- | --- |
-| [Count](../../aspose.slides.charts/trendlinecollection/count) { get; } | Lấy số phần tử thực tế trong bộ sưu tập. Chỉ đọc Int32. |
-| [Item](../../aspose.slides.charts/trendlinecollection/item) { get; } | Lấy phần tử tại chỉ mục được chỉ định. Chỉ đọc [`Trendline`](../trendline). |
+| [Count](../../aspose.slides.charts/trendlinecollection/count) { get; } | Lấy số lượng phần tử thực sự chứa trong tập hợp. Chỉ-đọc Int32. |
+| [Item](../../aspose.slides.charts/trendlinecollection/item) { get; } | Lấy phần tử tại chỉ mục được chỉ định. Chỉ-đọc [`Trendline`](../trendline). |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [Add](../../aspose.slides.charts/trendlinecollection/add)(TrendlineType) | Thêm Trendline mới vào cuối bộ sưu tập và trả về nó. |
-| [GetEnumerator](../../aspose.slides.charts/trendlinecollection/getenumerator)() | Trả về một enumerator duyệt qua bộ sưu tập. |
+| [Add](../../aspose.slides.charts/trendlinecollection/add)(TrendlineType) | Thêm Trendline mới vào cuối tập hợp và trả về nó. |
+| [GetEnumerator](../../aspose.slides.charts/trendlinecollection/getenumerator)() | Trả về một enumerator duyệt qua tập hợp. |
 | [Remove](../../aspose.slides.charts/trendlinecollection/remove)(ITrendline) | Xóa giá trị được chỉ định. |
 
 ### Xem thêm

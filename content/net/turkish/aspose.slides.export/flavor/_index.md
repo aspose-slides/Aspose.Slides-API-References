@@ -3,10 +3,10 @@ title: Flavor
 second_title: Aspose.Sildes için .NET API Referansı
 description: Programda kullanılan tüm markdown spesifikasyonları.
 type: docs
-weight: 3800
+weight: 3820
 url: /tr/aspose.slides.export/flavor/
 ---
-## Flavor enumerasyonu
+## Biçim enumarasyonu
 
 Programda kullanılan tüm markdown spesifikasyonları.
 
@@ -18,30 +18,30 @@ public enum Flavor
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Github | `0` | Github çeşidi. |
-| Gruber | `1` | Gruber çeşidi. |
-| MultiMarkdown | `2` | Multi markdown çeşidi. |
-| CommonMark | `3` | Common mark çeşidi. |
-| MarkdownExtra | `4` | Markdown extra çeşidi. |
-| Pandoc | `5` | Pandoc çeşidi. |
-| Kramdown | `6` | Kramdown çeşidi. |
-| Markua | `7` | Markua çeşidi. |
-| Maruku | `8` | Maruku çeşidi. |
-| Markdown2 | `9` | Markdown2 çeşidi. |
-| Remarkable | `10` | Remarkable çeşidi |
-| Showdown | `11` | Showdown çeşidi. |
-| Ghost | `12` | Ghost çeşidi. |
-| GitLab | `13` | GitLab çeşidi. |
-| Haroopad | `14` | Haroopad çeşidi. |
-| IaWriter | `15` | IaWriter çeşidi. |
-| Redcarpet | `16` | Redcarpet çeşidi. |
-| ScholarlyMarkdown | `17` | Scholarly markdown çeşidi. |
-| Taiga | `18` | Taiga çeşidi. |
-| Trello | `19` | Trello çeşidi. |
-| S9ETextFormatter | `20` | S9E text formatter çeşidi. |
-| XWiki | `21` | XWiki çeşidi. |
-| StackOverflow | `22` | Stack overflow çeşidi. |
-| Default | `23` | Default markdown çeşidi. |
+| Github | `0` | Github biçimi. |
+| Gruber | `1` | Gruber biçimi. |
+| MultiMarkdown | `2` | Multi markdown biçimi. |
+| CommonMark | `3` | CommonMark biçimi. |
+| MarkdownExtra | `4` | Markdown Extra biçimi. |
+| Pandoc | `5` | Pandoc biçimi. |
+| Kramdown | `6` | Kramdown biçimi. |
+| Markua | `7` | Markua biçimi. |
+| Maruku | `8` | Maruku biçimi. |
+| Markdown2 | `9` | Markdown2 biçimi. |
+| Remarkable | `10` | Remarkable biçimi |
+| Showdown | `11` | Showdown biçimi. |
+| Ghost | `12` | Ghost biçimi. |
+| GitLab | `13` | Gitlab biçimi. |
+| Haroopad | `14` | Haroopad biçimi. |
+| IaWriter | `15` | IAWriter biçimi. |
+| Redcarpet | `16` | Redcarpet biçimi. |
+| ScholarlyMarkdown | `17` | Scholarly markdown biçimi. |
+| Taiga | `18` | Taiga biçimi. |
+| Trello | `19` | Trello biçimi. |
+| S9ETextFormatter | `20` | S9E text formatter biçimi. |
+| XWiki | `21` | XWiki biçimi. |
+| StackOverflow | `22` | Stack overflow biçimi. |
+| Default | `23` | Varsayılan markdown biçimi. |
 
 ### Örnekler
 
@@ -66,7 +66,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Ayrıca Bakınız
+### Diğer Bağlantılar
 
 * ad alanı [Aspose.Slides.Export](../../aspose.slides.export)
 * derleme [Aspose.Slides](../../)

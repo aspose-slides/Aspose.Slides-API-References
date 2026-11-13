@@ -1,12 +1,12 @@
 ---
 title: Format
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
+second_title: مرجع API لـ Aspose.Sildes للـ .NET
 description: يمثل خصائص التنسيق. قراءة/كتابة IFormataspose.slides.charts/iformat.
 type: docs
-weight: 100
+weight: 140
 url: /ar/aspose.slides.charts/chartdatapoint/format/
 ---
-## خاصية ChartDataPoint.Format
+## ChartDataPoint.Format خاصية
 
 يمثل خصائص التنسيق. قراءة/كتابة [`IFormat`](../../iformat).
 

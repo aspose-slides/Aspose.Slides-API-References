@@ -1,14 +1,14 @@
 ---
 title: DataPointLevels
 second_title: Aspose.Sildes for .NET API 참조
-description: 데이터 포인트 레벨의 컨테이너를 반환합니다. Treeamp 및 Sunburst 시리즈에 적용됩니다. 데이터 포인트 레벨의 인덱싱은 0부터 시작합니다.
+description: 데이터 포인트 레벨의 컨테이너를 반환합니다. Treeamp 및 Sunburst 시리즈에 적용됩니다. 데이터 포인트 레벨 인덱스는 0부터 시작합니다.
 type: docs
-weight: 40
+weight: 80
 url: /ko/aspose.slides.charts/ichartdatapoint/datapointlevels/
 ---
 ## IChartDataPoint.DataPointLevels 속성
 
-데이터 포인트 레벨의 컨테이너를 반환합니다. Treeamp 및 Sunburst 시리즈에 적용됩니다. 데이터 포인트 레벨의 인덱싱은 0부터 시작합니다.
+데이터 포인트 레벨의 컨테이너를 반환합니다. Treeamp 및 Sunburst 시리즈에 적용됩니다. 데이터 포인트 레벨 인덱스는 0부터 시작합니다.
 
 ```csharp
 public IChartDataPointLevelsManager DataPointLevels { get; }

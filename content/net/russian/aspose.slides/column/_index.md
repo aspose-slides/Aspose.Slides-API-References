@@ -1,9 +1,9 @@
 ---
 title: Column
 second_title: Aspose.Sildes для .NET Справочник API
-description: Представляет колонку в таблице.
+description: Представляет столбец в таблице.
 type: docs
-weight: 2590
+weight: 2610
 url: /ru/aspose.slides/column/
 ---
 ## Column класс
@@ -16,7 +16,7 @@ public sealed class Column : CellCollection, IColumn
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [ColumnFormat](../../aspose.slides/column/columnformat) { get; } | Возвращает объект ColumnFormat, содержащий свойства форматирования для этой колонки. Только для чтения [`IColumnFormat`](../icolumnformat). |
 | [Count](../../aspose.slides/cellcollection/count) { get; } | Возвращает количество ячеек в коллекции. Только для чтения Int32. |
@@ -25,14 +25,14 @@ public sealed class Column : CellCollection, IColumn
 | [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Возвращает родительскую презентацию CellCollection. Только для чтения [`IPresentation`](../ipresentation). |
 | [Slide](../../aspose.slides/cellcollection/slide) { get; } | Возвращает родительский слайд CellCollection. Только для чтения [`IBaseSlide`](../ibaseslide). |
 | [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Возвращает корневой объект синхронизации. Только для чтения Object. |
-| [Width](../../aspose.slides/column/width) { get; set; } | Возвращает или задаёт ширину колонки. Чтение/запись Double. |
+| [Width](../../aspose.slides/column/width) { get; set; } | Возвращает или задает ширину колонки. Чтение/запись Double. |
 
 ## Методы
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
-| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Возвращает перечислитель, который перебирает элементы коллекции. |
+| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Возвращает перечислитель, который проходит по коллекции. |
 | [SetTextFormat](../../aspose.slides/column/settextformat#settextformat)(IParagraphFormat) | Устанавливает определённые свойства формата абзаца для всех абзацев ячеек колонки. |
 | [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_1)(IPortionFormat) | Устанавливает определённые свойства формата фрагмента для всех фрагментов ячеек колонки. |
 | [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_2)(ITextFrameFormat) | Устанавливает определённые свойства формата текстового фрейма для всех текстовых фреймов ячеек колонки. |

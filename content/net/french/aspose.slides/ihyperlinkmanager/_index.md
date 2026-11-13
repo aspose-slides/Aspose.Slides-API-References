@@ -3,12 +3,12 @@ title: IHyperlinkManager
 second_title: Référence API Aspose.Sildes pour .NET
 description: Fournit la gestion des hyperliens, ajout et suppression.
 type: docs
-weight: 6130
+weight: 6150
 url: /fr/aspose.slides/ihyperlinkmanager/
 ---
-## interface IHyperlinkManager
+## IHyperlinkManager interface
 
-Fournit la gestion des hyperliens (ajout, retrait).
+Fournit la gestion des hyperliens (ajout, suppression).
 
 ```csharp
 public interface IHyperlinkManager
@@ -18,13 +18,13 @@ public interface IHyperlinkManager
 
 | Nom | Description |
 | --- | --- |
-| [RemoveHyperlinkClick](../../aspose.slides/ihyperlinkmanager/removehyperlinkclick)() | Supprime le lien hypertexte au clic. |
+| [RemoveHyperlinkClick](../../aspose.slides/ihyperlinkmanager/removehyperlinkclick)() | Supprime le lien hypertexte lors du clic. |
 | [RemoveHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/removehyperlinkmouseover)() | Supprime le lien hypertexte au survol de la souris. |
-| [SetExternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkclick)(string) | Définit le lien hypertexte externe au clic. |
+| [SetExternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkclick)(string) | Définit le lien hypertexte externe lors du clic. |
 | [SetExternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkmouseover)(string) | Définit le lien hypertexte externe au survol de la souris. |
-| [SetInternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkclick)(ISlide) | Définit le lien hypertexte interne au clic. |
+| [SetInternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkclick)(ISlide) | Définit le lien hypertexte interne lors du clic. |
 | [SetInternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | Définit le lien hypertexte interne au survol de la souris. |
-| [SetMacroHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setmacrohyperlinkclick)(string) | Définit le lien hypertexte Macro au clic. |
+| [SetMacroHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setmacrohyperlinkclick)(string) | Définit le lien hypertexte Macro lors d'un clic. |
 
 ### Voir aussi
 

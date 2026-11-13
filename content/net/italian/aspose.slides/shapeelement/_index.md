@@ -1,9 +1,9 @@
 ---
 title: ShapeElement
-second_title: Aspose.Sildes per il riferimento API .NET
-description: Rappresenta una parte della forma con le stesse proprietà di contorno e di riempimento.
+second_title: Riferimento API di Aspose.Sildes per .NET
+description: Rappresenta una parte della forma con le stesse proprietà di contorno e riempimento.
 type: docs
-weight: 9870
+weight: 9890
 url: /it/aspose.slides/shapeelement/
 ---
 ## ShapeElement classe
@@ -18,11 +18,11 @@ public class ShapeElement : IShapeElement
 
 | Nome | Descrizione |
 | --- | --- |
-| [FillSource](../../aspose.slides/shapeelement/fillsource) { get; } | Restituisce informazioni su come riempire un elemento. Sola lettura [`ShapeElementFillSource`](../shapeelementfillsource). |
-| [ParentShape](../../aspose.slides/shapeelement/parentshape) { get; } | Restituisce un Shape_PPT per il quale è stato creato l'elemento. Sola lettura [`Shape`](../shape). |
-| [PathPoints](../../aspose.slides/shapeelement/pathpoints) { get; } | Ottiene un array di punti che definiscono la geometria del percorso dell'elemento. |
-| [PathTypes](../../aspose.slides/shapeelement/pathtypes) { get; } | Ottiene un array di valori byte che specificano il tipo di ogni punto nel percorso dell'elemento. |
-| [StrokeSource](../../aspose.slides/shapeelement/strokesource) { get; } | Restituisce informazioni su come tracciare un elemento. Sola lettura [`ShapeElementStrokeSource`](../shapeelementstrokesource). |
+| [FillSource](../../aspose.slides/shapeelement/fillsource) { get; } | Restituisce informazioni su come riempire un elemento. Solo lettura [`ShapeElementFillSource`](../shapeelementfillsource). |
+| [ParentShape](../../aspose.slides/shapeelement/parentshape) { get; } | Restituisce un Shape_PPT per il quale l'elemento è stato creato. Solo lettura [`Shape`](../shape). |
+| [PathPoints](../../aspose.slides/shapeelement/pathpoints) { get; } | Restituisce un array di punti che definiscono la geometria del percorso dell'elemento. |
+| [PathTypes](../../aspose.slides/shapeelement/pathtypes) { get; } | Restituisce un array di valori byte che specificano il tipo di ciascun punto nel percorso dell'elemento. |
+| [StrokeSource](../../aspose.slides/shapeelement/strokesource) { get; } | Restituisce informazioni su come tracciare un elemento. Solo lettura [`ShapeElementStrokeSource`](../shapeelementstrokesource). |
 
 ### Vedi anche
 

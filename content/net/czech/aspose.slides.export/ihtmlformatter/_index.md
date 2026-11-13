@@ -1,14 +1,14 @@
 ---
 title: IHtmlFormatter
-second_title: Aspose.Sildes pro .NET – reference API
-description: Představuje šablonu HTML souboru.
+second_title: Aspose.Sildes pro .NET API Referenci
+description: Představuje šablonu souboru HTML.
 type: docs
-weight: 3940
+weight: 3960
 url: /cs/aspose.slides.export/ihtmlformatter/
 ---
 ## IHtmlFormatter rozhraní
 
-Představuje šablonu HTML souboru.
+Představuje šablonu souboru HTML.
 
 ```csharp
 public interface IHtmlFormatter

@@ -1,9 +1,9 @@
 ---
 title: ILayoutable
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: チャート要素の正確な位置を指定します。
 type: docs
-weight: 2120
+weight: 2140
 url: /ja/aspose.slides.charts/ilayoutable/
 ---
 ## ILayoutable インターフェイス
@@ -18,15 +18,15 @@ public interface ILayoutable : IChartComponent
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/ilayoutable/asichartcomponent) { get; } | ベース IChartComponent インターフェイスを取得できます。読み取り専用 [`IChartComponent`](../ichartcomponent). |
-| [Bottom](../../aspose.slides.charts/ilayoutable/bottom) { get; } | チャート要素の上部を、チャートの高さの割合として取得します。読み取り専用 Single. |
-| [Height](../../aspose.slides.charts/ilayoutable/height) { get; set; } | チャート要素の高さを、チャートの高さの割合として指定します。読み取り/書き込み Single. |
-| [Right](../../aspose.slides.charts/ilayoutable/right) { get; } | チャート要素の右側を、チャートの幅の割合として取得します。読み取り専用 Single. |
-| [Width](../../aspose.slides.charts/ilayoutable/width) { get; set; } | チャート要素の幅を、チャートの幅の割合として指定します。読み取り/書き込み Single. |
-| [X](../../aspose.slides.charts/ilayoutable/x) { get; set; } | チャート要素の x 位置（左）を、チャートの幅の割合として指定します。読み取り/書き込み Single. |
-| [Y](../../aspose.slides.charts/ilayoutable/y) { get; set; } | チャート要素の上部を、チャートの高さの割合として指定します。読み取り/書き込み Single. |
+| [AsIChartComponent](../../aspose.slides.charts/ilayoutable/asichartcomponent) { get; } | 基本 IChartComponent インターフェイスを取得できます。 読み取り専用 [`IChartComponent`](../ichartcomponent)。 |
+| [Bottom](../../aspose.slides.charts/ilayoutable/bottom) { get; } | チャート要素の上部を、チャートの高さの割合として取得します。 読み取り専用 Single。 |
+| [Height](../../aspose.slides.charts/ilayoutable/height) { get; set; } | チャート要素の高さを、チャートの高さの割合として指定します。 読み取り/書き込み Single。 |
+| [Right](../../aspose.slides.charts/ilayoutable/right) { get; } | チャート要素の右側を、チャートの幅の割合として取得します。 読み取り専用 Single。 |
+| [Width](../../aspose.slides.charts/ilayoutable/width) { get; set; } | チャート要素の幅を、チャートの幅の割合として指定します。 読み取り/書き込み Single。 |
+| [X](../../aspose.slides.charts/ilayoutable/x) { get; set; } | チャート要素の x 位置 (左) を、チャートの幅の割合として指定します。 読み取り/書き込み Single。 |
+| [Y](../../aspose.slides.charts/ilayoutable/y) { get; set; } | チャート要素の上部を、チャートの高さの割合として指定します。 読み取り/書き込み Single。 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [IChartComponent](../ichartcomponent)
 * 名前空間 [Aspose.Slides.Charts](../../aspose.slides.charts)

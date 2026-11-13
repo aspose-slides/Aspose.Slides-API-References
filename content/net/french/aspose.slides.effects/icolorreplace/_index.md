@@ -1,9 +1,9 @@
 ---
 title: IColorReplace
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Représente un effet de remplacement de couleur.
 type: docs
-weight: 3240
+weight: 3260
 url: /fr/aspose.slides.effects/icolorreplace/
 ---
 ## IColorReplace interface
@@ -19,8 +19,8 @@ public interface IColorReplace : IAccessiblePVIObject<IColorReplaceEffectiveData
 
 | Nom | Description |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorreplace/asiaccessiblepviobject) { get; } | Permet d'obtenir l'interface IAccessiblePVIObject de base. Lecture seule [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/icolorreplace/asiimagetransformoperation) { get; } | Permet d'obtenir l'interface IImageTransformOperation de base. Lecture seule [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorreplace/asiaccessiblepviobject) { get; } | Permet d'obtenir l'interface de base IAccessiblePVIObject. Lecture seule [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/icolorreplace/asiimagetransformoperation) { get; } | Permet d'obtenir l'interface de base IImageTransformOperation. Lecture seule [`IImageTransformOperation`](../iimagetransformoperation). |
 | [Color](../../aspose.slides.effects/icolorreplace/color) { get; } | Renvoie le format de couleur qui remplacera la couleur de chaque pixel. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Voir aussi

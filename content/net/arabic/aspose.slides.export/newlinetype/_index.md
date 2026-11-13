@@ -3,10 +3,10 @@ title: NewLineType
 second_title: Aspose.Sildes لمرجع API .NET
 description: نوع السطر الجديد الذي سيُستخدم في المستند المُولَّد.
 type: docs
-weight: 4280
+weight: 4300
 url: /ar/aspose.slides.export/newlinetype/
 ---
-## تعداد NewLineType
+## NewLineType تعداد
 
 نوع السطر الجديد الذي سيُستخدم في المستند المُولَّد.
 

@@ -1,14 +1,14 @@
 ---
 title: ChartDataWorksheetCollection
-second_title: Aspose.Sildes .NET API referencia
-description: A diagram adatok munkafüzetének munkalapjait tartalmazó gyűjteményt képviseli.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: A diagramadatok munkafüzetének munkalapjainak gyűjteményét reprezentálja.
 type: docs
-weight: 1400
+weight: 1410
 url: /hu/aspose.slides.charts/chartdataworksheetcollection/
 ---
 ## ChartDataWorksheetCollection osztály
 
-A diagram adatok munkafüzetének munkalapjainak gyűjteménye.
+Represents the collection of worksheets of chart data workbook.
 
 ```csharp
 public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
@@ -19,16 +19,16 @@ public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
 | Név | Leírás |
 | --- | --- |
 | [Count](../../aspose.slides.charts/chartdataworksheetcollection/count) { get; } | Visszaadja a számot. Csak olvasható Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | Visszaad egy értéket, amely azt jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált (szálbiztos). Csak olvasható Boolean. |
+| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált (szálbiztonságos). Csak olvasható Boolean. |
 | [Item](../../aspose.slides.charts/chartdataworksheetcollection/item) { get; } | Visszaadja a munkalapot index szerint. |
-| [SyncRoot](../../aspose.slides.charts/chartdataworksheetcollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökeret. Csak olvasható Object. |
+| [SyncRoot](../../aspose.slides.charts/chartdataworksheetcollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökér objektumot. Csak olvasható Object. |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [CopyTo](../../aspose.slides.charts/chartdataworksheetcollection/copyto)(Array, int) | Átmásolja a megadott tömbbe. |
-| [GetEnumerator](../../aspose.slides.charts/chartdataworksheetcollection/getenumerator)() | Visszaad egy felsorolót, amely végigiterál a gyűjteményen. |
+| [CopyTo](../../aspose.slides.charts/chartdataworksheetcollection/copyto)(Array, int) | Másolja a megadott tömbbe. |
+| [GetEnumerator](../../aspose.slides.charts/chartdataworksheetcollection/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |
 
 ### Példák
 

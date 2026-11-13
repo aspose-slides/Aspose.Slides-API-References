@@ -1,14 +1,14 @@
 ---
 title: TextAutofitType
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: पाठ ऑटोफ़िट मोड को दर्शाता है।
+description: टेक्स्ट ऑटोफिट मोड को दर्शाता है।
 type: docs
-weight: 10920
+weight: 10940
 url: /hi/aspose.slides/textautofittype/
 ---
-## TextAutofitType एन्उमरेशन
+## TextAutofitType एन्नुमरेशन
 
-पाठ ऑटोफ़िट मोड को दर्शाता है।
+टेक्स्ट ऑटोफिट मोड का प्रतिनिधित्व करता है।
 
 ```csharp
 public enum TextAutofitType : sbyte
@@ -19,11 +19,11 @@ public enum TextAutofitType : sbyte
 | नाम | मान | विवरण |
 | --- | --- | --- |
 | NotDefined | `-1` | परिभाषित नहीं है। |
-| None | `0` | कोई ऑटोफ़िट नहीं। |
-| Normal | `1` | सामान्य ऑटोफ़िट। फ़ॉन्ट आकार और लाइन स्पेसिंग को आकार में फिट करने के लिए घटाया जाएगा। |
-| Shape | `2` | शेप ऑटोफ़िट। टेक्स्ट में फिट होने के लिए शेप का आकार बदला जाएगा। |
+| None | `0` | कोई ऑटोफिट नहीं। |
+| Normal | `1` | सामान्य ऑटोफिट। फ़ॉन्ट आकार और लाइन स्पेसिंग को आकार में फिट करने के लिए घटाया जाएगा। |
+| Shape | `2` | आकार ऑटोफिट। आकार को टेक्स्ट में फिट होने के लिए बदला जाएगा। |
 
-### देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

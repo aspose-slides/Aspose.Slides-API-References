@@ -1,14 +1,14 @@
 ---
 title: IEffectStyleCollectionEffectiveData
-second_title: Aspose.Sildes の .NET API リファレンス
-description: 効果的なエフェクトスタイルの読み取り専用コレクションを表すイミュータブルオブジェクトです。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: 有効なエフェクトスタイルの読み取り専用コレクションを表すイミュータブルオブジェクトです。
 type: docs
-weight: 11190
+weight: 11210
 url: /ja/aspose.slides.theme/ieffectstylecollectioneffectivedata/
 ---
 ## IEffectStyleCollectionEffectiveData インターフェイス
 
-効果的なエフェクトスタイルの読み取り専用コレクションを表すイミュータブルオブジェクトです。
+有効なエフェクトスタイルの読み取り専用コレクションを表すイミュータブルオブジェクトです。
 
 ```csharp
 public interface IEffectStyleCollectionEffectiveData : IGenericCollection<IEffectStyleEffectiveData>

@@ -1,14 +1,14 @@
 ---
 title: Hide
-second_title: Aspose.Sildes for .NET Referência da API
-description: Tornar o rótulo de dados oculto definindo todas as flags Show-flags ShowValue ... para o estado false. IsVisible será false após isso.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Torne o rótulo de dados oculto definindo todas as flags Show-flags ShowValue ... para o estado false. IsVisible será false após isso.
 type: docs
-weight: 200
+weight: 210
 url: /pt/aspose.slides.charts/datalabel/hide/
 ---
 ## DataLabel.Hide método
 
-Faça o rótulo de dados ficar oculto definindo todas as flags Show*- (ShowValue, ...) para o estado false. IsVisible será false após isso.
+Torne o rótulo de dados oculto definindo todas as flags Show*- (ShowValue, ...) para o estado false. IsVisible será false após isso.
 
 ```csharp
 public void Hide()

@@ -1,14 +1,14 @@
 ---
 title: EmbedFontCharacters
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt de regel voor die wordt gebruikt om een nieuw ingesloten lettertype toe te voegen aan IPresentation../aspose.slides/ipresentation
+description: Vertegenwoordigt de regel die gebruikt moet worden voor het toevoegen van een nieuw ingesloten lettertype aan IPresentation../aspose.slides/ipresentation
 type: docs
-weight: 3770
+weight: 3790
 url: /nl/aspose.slides.export/embedfontcharacters/
 ---
 ## EmbedFontCharacters enumeratie
 
-Stelt de regel voor die wordt gebruikt om een nieuw ingesloten lettertype toe te voegen aan [`IPresentation`](../../aspose.slides/ipresentation)
+Representeert de regel die gebruikt wordt voor het toevoegen van een nieuw ingesloten lettertype aan [`IPresentation`](../../aspose.slides/ipresentation)
 
 ```csharp
 public enum EmbedFontCharacters
@@ -18,8 +18,8 @@ public enum EmbedFontCharacters
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| OnlyUsed | `0` | Alleen de tekens insluiten die in de presentatie worden gebruikt (het beste om de bestandsgrootte te verkleinen). |
-| All | `1` | Alle tekens insluiten (het beste voor bewerking door andere personen). |
+| OnlyUsed | `0` | Embed alleen de tekens die in de presentatie worden gebruikt (beste voor het verkleinen van de bestandsgrootte). |
+| All | `1` | Embed alle tekens (beste voor bewerken door andere mensen). |
 
 ### Zie ook
 

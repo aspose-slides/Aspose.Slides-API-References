@@ -1,14 +1,14 @@
 ---
 title: ILegacyDiagram
-second_title: Aspose.Sildes .NET için API Referansı
-description: Eski bir diyagram nesnesini temsil eder
+second_title: Aspose.Sildes için .NET API Referansı
+description: Eski nesil bir diyagram nesnesini temsil eder
 type: docs
-weight: 6250
+weight: 6270
 url: /tr/aspose.slides/ilegacydiagram/
 ---
 ## ILegacyDiagram arayüz
 
-Eski bir diyagram nesnesini temsil eder
+Eski nesil bir diyagram nesnesini temsil eder
 
 ```csharp
 public interface ILegacyDiagram : IGraphicalObject
@@ -18,16 +18,16 @@ public interface ILegacyDiagram : IGraphicalObject
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/ilegacydiagram/asigraphicalobject) { get; } | Temel IGraphicalObject arayüzüne erişim sağlar. Salt okunur [`IGraphicalObject`](../igraphicalobject). |
+| [AsIGraphicalObject](../../aspose.slides/ilegacydiagram/asigraphicalobject) { get; } | Temel IGraphicalObject arayüzüne erişim sağlar. Yalnızca [`IGraphicalObject`](../igraphicalobject) okunur. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [ConvertToGroupShape](../../aspose.slides/ilegacydiagram/converttogroupshape)() | Eski diyagramı düzenlenebilir grup şekline dönüştürür. Oluşturulan GroupShape nesnesi aynı konumda üst grup şekline eklenir. |
-| [ConvertToSmartArt](../../aspose.slides/ilegacydiagram/converttosmartart)() | Eski diyagramı düzenlenebilir SmartArt nesnesine dönüştürür. Oluşturulan SmartArt nesnesi aynı konumda üst grup şekline eklenir. |
+| [ConvertToGroupShape](../../aspose.slides/ilegacydiagram/converttogroupshape)() | Eski nesil diyagramı düzenlenebilir grup şekline dönüştürür. Oluşturulan GroupShape nesnesi aynı konumda üst grup şekline eklenir. |
+| [ConvertToSmartArt](../../aspose.slides/ilegacydiagram/converttosmartart)() | Eski nesil diyagramı düzenlenebilir SmartArt nesnesine dönüştürür. Oluşturulan SmartArt nesnesi aynı konumda üst grup şekline eklenir. |
 
-### Ayrıca Bakınız
+### Bkz.
 
 * arayüz [IGraphicalObject](../igraphicalobject)
 * ad alanı [Aspose.Slides](../../aspose.slides)

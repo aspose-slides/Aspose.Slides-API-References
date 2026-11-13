@@ -1,14 +1,14 @@
 ---
 title: IBulkTextFormattable
 second_title: Aspose.Sildes für .NET API Referenz
-description: Stellt ein Objekt dar, das die Möglichkeit bietet, Formate von untergeordneten Textelementen in einem Schritt festzulegen.
+description: Stellt ein Objekt dar, das die Möglichkeit bietet, die Formate von untergeordneten Textelementen in großen Mengen festzulegen.
 type: docs
-weight: 5380
+weight: 5400
 url: /de/aspose.slides/ibulktextformattable/
 ---
 ## IBulkTextFormattable Schnittstelle
 
-Stellt ein Objekt dar, das die Möglichkeit bietet, Formate von untergeordneten Textelementen in einem Schritt festzulegen.
+Stellt ein Objekt dar, das die Möglichkeit bietet, die Formate von untergeordneten Textelementen in großen Mengen festzulegen.
 
 ```csharp
 public interface IBulkTextFormattable
@@ -18,11 +18,11 @@ public interface IBulkTextFormattable
 
 | Name | Beschreibung |
 | --- | --- |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat)(IParagraphFormat) | Setzt die definierten Absatzformat-Eigenschaften für alle Absätze des Elements. |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_1)(IPortionFormat) | Setzt die definierten Portion-Format-Eigenschaften für alle Portionen des Elements. |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_2)(ITextFrameFormat) | Setzt die definierten Textfeld-Format-Eigenschaften für alle Textfelder des Elements. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat)(IParagraphFormat) | Legt definierte Absatzformat-Eigenschaften für alle Absätze des Elements fest. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_1)(IPortionFormat) | Legt definierte Abschnittsformat-Eigenschaften für alle Abschnitte des Elements fest. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_2)(ITextFrameFormat) | Legt definierte Textfeldformat-Eigenschaften für alle Textfelder des Elements fest. |
 
-### Siehe auch
+### Siehe Auch
 
 * Namensraum [Aspose.Slides](../../aspose.slides)
 * Assembly [Aspose.Slides](../../)

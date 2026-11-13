@@ -1,18 +1,22 @@
 ---
 title: GapWidth
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Specificeert de ruimte tussen balk- of kolomclusters als een percentage van de breedte van de balk of kolom. Lezen/schrijven UInt16.
+description: Haalt de ruimte op of stelt de ruimte in tussen balk- of kolomclusters als een percentage van de breedte van de balk of kolom. De waarde moet tussen 0 en 500 liggen. Lezen/schrijven UInt16.
 type: docs
 weight: 70
 url: /nl/aspose.slides.charts/chartseriesgroup/gapwidth/
 ---
 ## ChartSeriesGroup.GapWidth eigenschap
 
-Specificeert de ruimte tussen balk- of kolomclusters, als een percentage van de breedte van de balk of kolom. Lezen/schrijven UInt16.
+Haalt de ruimte op of stelt de ruimte in tussen balk- of kolomclusters, als een percentage van de breedte van de balk of kolom. De waarde moet tussen 0 en 500 liggen. Lezen/schrijven UInt16.
 
 ```csharp
 public ushort GapWidth { get; set; }
 ```
+
+### Opmerkingen
+
+Deze eigenschap is van toepassing op series van de volgende types: Bar-subtypen (zie ook [`IsChartTypeBar`](../../charttypecharacterizer/ischarttypebar) methode), Column-subtypen (zie ook [`IsChartTypeColumn`](../../charttypecharacterizer/ischarttypecolumn) methode), BarOfPie, PieOfPie, BoxAndWhisker, Funnel, Histogram, Waterfall.
 
 ### Zie ook
 

@@ -1,14 +1,14 @@
 ---
 title: IDrawingGuide
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt eine anpassbare Zeichenhilfe dar.
+description: Stellt einen einstellbaren Zeichenleitfaden dar.
 type: docs
-weight: 5720
+weight: 5740
 url: /de/aspose.slides/idrawingguide/
 ---
 ## IDrawingGuide Schnittstelle
 
-Stellt eine anpassbare Zeichenhilfe dar.
+Stellt einen einstellbaren Zeichenleitfaden dar.
 
 ```csharp
 public interface IDrawingGuide
@@ -18,9 +18,9 @@ public interface IDrawingGuide
 
 | Name | Beschreibung |
 | --- | --- |
-| [Color](../../aspose.slides/idrawingguide/color) { get; set; } | Liefert oder legt die Farbe der Zeichenhilfe fest. Lesen/Schreiben Color. |
-| [Orientation](../../aspose.slides/idrawingguide/orientation) { get; set; } | Liefert oder legt die Ausrichtung der Zeichenhilfe fest. Lesen/Schreiben [`Orientation`](../orientation). |
-| [Position](../../aspose.slides/idrawingguide/position) { get; set; } | Liefert oder legt die Position der Zeichenhilfe in Punkten vom oberen, linken Eck der Folie fest. Lesen/Schreiben Single. |
+| [Color](../../aspose.slides/idrawingguide/color) { get; set; } | Gibt die Farbe des Zeichenleitfadens zurück oder legt sie fest. Lesen/Schreiben Color. |
+| [Orientation](../../aspose.slides/idrawingguide/orientation) { get; set; } | Gibt die Ausrichtung des Zeichenleitfadens zurück oder legt sie fest. Lesen/Schreiben [`Orientation`](../orientation). |
+| [Position](../../aspose.slides/idrawingguide/position) { get; set; } | Gibt die Position des Zeichenleitfadens in Punkten vom oberen linken Eckpunkt der Folie zurück oder legt sie fest. Lesen/Schreiben Single. |
 
 ### Siehe auch
 

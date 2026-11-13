@@ -1,14 +1,14 @@
 ---
 title: GetAutomaticDataPointColor
-second_title: Aspose.Sildes .NET API Referenciája
-description: Visszaad egy automatikus színt az adatponthoz a sorozat index, adatpont index, a ParentSeriesGroup.IsColorVaried tulajdonság és a diagram stílus alapján. Ez a szín alapértelmezés szerint akkor használatos, ha a FillType egyenlő a NotDefined értékkel.
+second_title: Aspose.Sildes a .NET számára API-referencia
+description: Visszaad egy automatikus színt az adatponthoz a sorozat indexe, adatpont indexe, a ParentSeriesGroup.IsColorVaried tulajdonság és a diagram stílus alapján. Ez a szín alapértelmezés szerint akkor kerül használatra, ha a FillType megegyezik a NotDefined értékkel.
 type: docs
-weight: 220
+weight: 260
 url: /hu/aspose.slides.charts/chartdatapoint/getautomaticdatapointcolor/
 ---
 ## ChartDataPoint.GetAutomaticDataPointColor metódus
 
-Visszaad egy automatikus színt az adatponthoz a sorozatindex, adatpontindex, a ParentSeriesGroup.IsColorVaried tulajdonság és a diagramstílus alapján. Ez a szín alapértelmezés szerint akkor használatos, ha a FillType egyenlő a NotDefined értékkel.
+Visszaad egy automatikus színt az adatponthoz a sorozat indexe, adatpont indexe, a ParentSeriesGroup.IsColorVaried tulajdonság és a diagram stílus alapján. Ez a szín alapértelmezés szerint akkor kerül használatra, ha a FillType megegyezik a NotDefined értékkel.
 
 ```csharp
 public Color GetAutomaticDataPointColor()

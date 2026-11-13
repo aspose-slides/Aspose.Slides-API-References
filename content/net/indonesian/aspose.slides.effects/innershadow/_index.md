@@ -1,9 +1,9 @@
 ---
 title: InnerShadow
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili efek Inner Shadow.
 type: docs
-weight: 3600
+weight: 3620
 url: /id/aspose.slides.effects/innershadow/
 ---
 ## InnerShadow kelas
@@ -21,7 +21,7 @@ public sealed class InnerShadow : IInnerShadow
 | [BlurRadius](../../aspose.slides.effects/innershadow/blurradius) { get; set; } | Radius blur. Baca/tulis Double. |
 | [Direction](../../aspose.slides.effects/innershadow/direction) { get; set; } | Arah bayangan. Baca/tulis Single. |
 | [Distance](../../aspose.slides.effects/innershadow/distance) { get; set; } | Jarak bayangan. Baca/tulis Double. |
-| [ShadowColor](../../aspose.slides.effects/innershadow/shadowcolor) { get; } | Color bayangan. Baca-saja [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [ShadowColor](../../aspose.slides.effects/innershadow/shadowcolor) { get; } | Warna bayangan. Baca-saja [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## Metode
 

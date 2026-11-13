@@ -1,14 +1,14 @@
 ---
 title: CannotCombine2DAnd3DChartsException
-second_title: Aspose.Sildes для .NET API Reference
-description: Исключение, которое выбрасывается при попытке объединить 2D и 3D типы диаграмм.
+second_title: Aspose.Sildes для .NET справка API
+description: Исключение, которое бросается при попытке комбинировать 2D и 3D типы диаграмм.
 type: docs
-weight: 1240
+weight: 1250
 url: /ru/aspose.slides.charts/cannotcombine2dand3dchartsexception/
 ---
-## CannotCombine2DAnd3DChartsException класс
+## Класс CannotCombine2DAnd3DChartsException
 
-Exception, которое выбрасывается при попытке объединить 2D и 3D типы диаграмм.
+Исключение, которое бросается при попытке комбинировать 2D и 3D типы диаграмм.
 
 ```csharp
 public class CannotCombine2DAnd3DChartsException : InvalidOperationException

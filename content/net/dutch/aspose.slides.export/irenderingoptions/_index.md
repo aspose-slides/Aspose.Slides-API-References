@@ -3,7 +3,7 @@ title: IRenderingOptions
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Biedt opties die bepalen hoe een presentatie/slide wordt gerenderd.
 type: docs
-weight: 4040
+weight: 4060
 url: /nl/aspose.slides.export/irenderingoptions/
 ---
 ## IRenderingOptions interface
@@ -18,10 +18,10 @@ public interface IRenderingOptions : ISaveOptions
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/irenderingoptions/asisaveoptions) { get; } | Retourneert ISaveOptions interface. Alleen-lezen [`ISaveOptions`](../isaveoptions). |
-| [DisableFontLigatures](../../aspose.slides.export/irenderingoptions/disablefontligatures) { get; set; } | Haalt een waarde op of stelt een waarde in die aangeeft of tekst wordt gerenderd zonder ligaturen te gebruiken. Wanneer ingesteld op `true`, worden ligaturen uitgeschakeld in de gerenderde uitvoer. Standaard is deze eigenschap ingesteld op `false`. |
+| [AsISaveOptions](../../aspose.slides.export/irenderingoptions/asisaveoptions) { get; } | Retourneert de ISaveOptions interface. Alleen-lezen [`ISaveOptions`](../isaveoptions). |
+| [DisableFontLigatures](../../aspose.slides.export/irenderingoptions/disablefontligatures) { get; set; } | Haalt een waarde op of stelt een waarde in die aangeeft of tekst wordt gerenderd zonder ligaturen te gebruiken. Wanneer ingesteld op `true`, worden ligaturen uitgeschakeld in de gerenderde output. Standaard is deze eigenschap ingesteld op `false`. |
 | [InkOptions](../../aspose.slides.export/irenderingoptions/inkoptions) { get; } | Biedt opties die het uiterlijk van Ink-objecten in het geëxporteerde document regelen. Alleen-lezen [`IInkOptions`](../iinkoptions) |
-| [SlidesLayoutOptions](../../aspose.slides.export/irenderingoptions/slideslayoutoptions) { get; set; } | Haalt een modus op of stelt de modus in waarin dia's op de pagina worden geplaatst bij het exporteren van een presentatie [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [SlidesLayoutOptions](../../aspose.slides.export/irenderingoptions/slideslayoutoptions) { get; set; } | Haalt een waarde op of stelt de modus in waarin slides op de pagina worden geplaatst bij het exporteren van een presentatie [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### Voorbeelden
 

@@ -1,19 +1,18 @@
 ---
 title: ILeftRightDirectionTransition
-second_title: Aspose.Sildes para Referência da API .NET
-description: Efeito de transição de slide em direção esquerda-direita.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Efeito de transição de slide na direção esquerda-direita.
 type: docs
-weight: 10120
+weight: 10140
 url: /pt/aspose.slides.slideshow/ileftrightdirectiontransition/
 ---
 ## ILeftRightDirectionTransition interface
 
-Efeito de transição de slide em direção esquerda-direita.
+Efeito de transição de slide na direção esquerda-direita.
 
 ```csharp
 public interface ILeftRightDirectionTransition : ITransitionValueBase
 ```
-
 
 ## Propriedades
 
@@ -22,7 +21,7 @@ public interface ILeftRightDirectionTransition : ITransitionValueBase
 | [AsITransitionValueBase](../../aspose.slides.slideshow/ileftrightdirectiontransition/asitransitionvaluebase) { get; } | Permite obter a interface base ITransitionValueBase. Somente leitura [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/ileftrightdirectiontransition/direction) { get; set; } | Direção da transição. Leitura/gravação [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
 
-### Veja Também
+### Ver também
 
 * interface [ITransitionValueBase](../itransitionvaluebase)
 * namespace [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

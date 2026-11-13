@@ -3,7 +3,7 @@ title: IRippleTransition
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Efek transisi slide Ripple.
 type: docs
-weight: 10170
+weight: 10190
 url: /id/aspose.slides.slideshow/irippletransition/
 ---
 ## IRippleTransition antarmuka
@@ -18,7 +18,7 @@ public interface IRippleTransition : ITransitionValueBase
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/irippletransition/asitransitionvaluebase) { get; } | Mengizinkan untuk mendapatkan antarmuka ITransitionValueBase dasar. Hanya-baca [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/irippletransition/asitransitionvaluebase) { get; } | Mengizinkan mendapatkan antarmuka ITransitionValueBase dasar. Hanya-baca [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/irippletransition/direction) { get; set; } | Arah transisi. Baca/tulis [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
 
 ### Lihat Juga

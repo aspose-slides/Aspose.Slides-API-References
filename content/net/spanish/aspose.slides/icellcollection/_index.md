@@ -3,10 +3,10 @@ title: ICellCollection
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una colección de celdas.
 type: docs
-weight: 5460
+weight: 5480
 url: /es/aspose.slides/icellcollection/
 ---
-## ICellCollection interface
+## ICellCollection interfaz
 
 Representa una colección de celdas.
 

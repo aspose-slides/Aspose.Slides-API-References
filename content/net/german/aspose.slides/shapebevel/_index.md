@@ -3,7 +3,7 @@ title: ShapeBevel
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Enthält die Eigenschaften des Hauptflächenreliefs von Formen.
 type: docs
-weight: 9850
+weight: 9870
 url: /de/aspose.slides/shapebevel/
 ---
 ## ShapeBevel Klasse
@@ -24,10 +24,10 @@ public sealed class ShapeBevel : PVIObject, IShapeBevel
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Erlaubt den Zugriff auf die Basis-IPresentationComponent-Schnittstelle. Nur lesbar [`IPresentationComponent`](../ipresentationcomponent). |
-| [BevelType](../../aspose.slides/shapebevel/beveltype) { get; set; } | Bevel-Typ. Lese/Schreib [`BevelPresetType`](../bevelpresettype). |
-| [Height](../../aspose.slides/shapebevel/height) { get; set; } | Bevel-Höhe. Lese/Schreib Double. |
-| [Width](../../aspose.slides/shapebevel/width) { get; set; } | Bevel-Breite. Lese/Schreib Double. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht das Abrufen der Basis IPresentationComponent Schnittstelle. Nur lesbar [`IPresentationComponent`](../ipresentationcomponent). |
+| [BevelType](../../aspose.slides/shapebevel/beveltype) { get; set; } | Fasenart. Lesen/Schreiben [`BevelPresetType`](../bevelpresettype). |
+| [Height](../../aspose.slides/shapebevel/height) { get; set; } | Fasenhöhe. Lesen/Schreiben Double. |
+| [Width](../../aspose.slides/shapebevel/width) { get; set; } | Fasenbreite. Lesen/Schreiben Double. |
 
 ## Methoden
 

@@ -1,14 +1,14 @@
 ---
 title: IFontsLoader
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: คลาสสำหรับโหลดฟอนต์ที่กำหนดโดยผู้ใช้. ควรใช้ก่อนสร้างวัตถุการนำเสนอใด ๆ.
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: คลาสสำหรับโหลดแบบอักษรที่กำหนดโดยผู้ใช้. ควรใช้ก่อนสร้างวัตถุการนำเสนอใดๆ.
 type: docs
-weight: 5920
+weight: 5940
 url: /th/aspose.slides/ifontsloader/
 ---
 ## IFontsLoader อินเทอร์เฟซ
 
-คลาสสำหรับโหลดฟอนต์ที่กำหนดโดยผู้ใช้. ควรใช้ก่อนสร้างวัตถุการนำเสนอใด ๆ
+คลาสสำหรับการโหลดแบบอักษรแบบกำหนดเองที่ผู้ใช้กำหนดไว้. ควรใช้ก่อนการสร้างวัตถุการนำเสนอใดๆ.
 
 ```csharp
 public interface IFontsLoader

@@ -1,14 +1,14 @@
 ---
 title: WebDocumentOptions
-second_title: Aspose.Sildes .NET API-referencia
+second_title: Aspose.Sildes .NET API referencia
 description: A WebDocument./webdocument mentéséhez használt beállítások halmazát képviseli.
 type: docs
-weight: 4690
+weight: 4710
 url: /hu/aspose.slides.export.web/webdocumentoptions/
 ---
 ## WebDocumentOptions osztály
 
-A [`WebDocument`](../webdocument) mentéséhez használt beállítások halmazát képviseli.
+[`WebDocument`](../webdocument) mentéséhez használt beállítások halmazát képviseli.
 
 ```csharp
 public class WebDocumentOptions
@@ -24,11 +24,11 @@ public class WebDocumentOptions
 
 | Név | Leírás |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export.web/webdocumentoptions/animateshapes) { get; set; } | Visszaadja vagy beállítja a formák animációs beállítását. Olvasás/írás Boolean. |
-| [AnimateTransitions](../../aspose.slides.export.web/webdocumentoptions/animatetransitions) { get; set; } | Visszaadja vagy beállítja az áttűnések animációs beállítását. Olvasás/írás Boolean. |
+| [AnimateShapes](../../aspose.slides.export.web/webdocumentoptions/animateshapes) { get; set; } | Visszaadja vagy beállítja az alakzatok animációs beállítását. Olvasás/írás Boolean. |
+| [AnimateTransitions](../../aspose.slides.export.web/webdocumentoptions/animatetransitions) { get; set; } | Visszaadja vagy beállítja az átmenetek animációs beállítását. Olvasás/írás Boolean. |
 | [EmbedImages](../../aspose.slides.export.web/webdocumentoptions/embedimages) { get; set; } | Visszaadja vagy beállítja a képek beágyazási beállítását. Olvasás/írás Boolean. |
-| [OutputSaver](../../aspose.slides.export.web/webdocumentoptions/outputsaver) { get; set; } | Visszaadja vagy beállítja a kimenet mentőjét. Olvasás/írás [`IOutputSaver`](../ioutputsaver). |
-| [TemplateEngine](../../aspose.slides.export.web/webdocumentoptions/templateengine) { get; set; } | Visszaadja vagy beállítja a sablonmotor-t. Olvasás/írás [`ITemplateEngine`](../itemplateengine). |
+| [OutputSaver](../../aspose.slides.export.web/webdocumentoptions/outputsaver) { get; set; } | Visszaadja vagy beállítja a kimenet mentőt. Olvasás/írás [`IOutputSaver`](../ioutputsaver). |
+| [TemplateEngine](../../aspose.slides.export.web/webdocumentoptions/templateengine) { get; set; } | Visszaadja vagy beállítja a sablonmotorot. Olvasás/írás [`ITemplateEngine`](../itemplateengine). |
 
 ### Lásd még
 

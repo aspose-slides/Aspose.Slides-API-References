@@ -1,9 +1,9 @@
 ---
 title: LegendEntryProperties
-second_title: Aspose.Sildes - referencja API .NET
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje właściwości legendy wykresu.
 type: docs
-weight: 2310
+weight: 2330
 url: /pl/aspose.slides.charts/legendentryproperties/
 ---
 ## LegendEntryProperties klasa
@@ -16,7 +16,7 @@ public class LegendEntryProperties : ILegendEntryProperties
 
 ## Właściwości
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
 | [Chart](../../aspose.slides.charts/legendentryproperties/chart) { get; } | Zwraca wykres nadrzędny. Tylko do odczytu [`IChart`](../ichart). |
 | [Hide](../../aspose.slides.charts/legendentryproperties/hide) { get; set; } | Określa, czy pozycja legendy jest ukryta. Odczyt/zapis Boolean. |

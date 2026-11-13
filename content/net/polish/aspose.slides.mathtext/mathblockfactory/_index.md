@@ -1,9 +1,9 @@
 ---
 title: MathBlockFactory
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET - Referencja API
 description: Umożliwia tworzenie bloku matematycznego
 type: docs
-weight: 8600
+weight: 8620
 url: /pl/aspose.slides.mathtext/mathblockfactory/
 ---
 ## MathBlockFactory klasa
@@ -24,9 +24,9 @@ public class MathBlockFactory : IMathBlockFactory
 
 | Nazwa | Opis |
 | --- | --- |
-| [CreateMathBlock](../../aspose.slides.mathtext/mathblockfactory/createmathblock#createmathblock)() | Tworzy blok matematyczny |
-| [CreateMathBlock](../../aspose.slides.mathtext/mathblockfactory/createmathblock#createmathblock_1)(IMathElement) | Tworzy blok matematyczny i umieszcza w nim element |
-| [CreateMathBlock](../../aspose.slides.mathtext/mathblockfactory/createmathblock#createmathblock_2)(IMathElementCollection) | Tworzy blok matematyczny i umieszcza w nim elementy |
+| [CreateMathBlock](../../aspose.slides.mathtext/mathblockfactory/createmathblock#createmathblock)() | Utwórz blok matematyczny |
+| [CreateMathBlock](../../aspose.slides.mathtext/mathblockfactory/createmathblock#createmathblock_1)(IMathElement) | Utwórz blok matematyczny i umieść w nim element |
+| [CreateMathBlock](../../aspose.slides.mathtext/mathblockfactory/createmathblock#createmathblock_2)(IMathElementCollection) | Utwórz blok matematyczny i umieść w nim elementy |
 
 ### Uwagi
 

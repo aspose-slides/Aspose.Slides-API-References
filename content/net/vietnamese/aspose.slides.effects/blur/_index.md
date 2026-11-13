@@ -1,14 +1,14 @@
 ---
 title: Blur
-second_title: Aspose.Sildes cho .NET Tham khảo API
-description: Đại diện cho hiệu ứng Blur được áp dụng cho toàn bộ hình dạng bao gồm cả phần tô. Tất cả các kênh màu, bao gồm cả alpha, đều bị ảnh hưởng.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đại diện cho một hiệu ứng Blur được áp dụng cho toàn bộ hình dạng bao gồm cả phần tô màu. Tất cả các kênh màu bao gồm cả alpha đều bị ảnh hưởng.
 type: docs
-weight: 2920
+weight: 2940
 url: /vi/aspose.slides.effects/blur/
 ---
 ## Lớp Blur
 
-Đại diện cho hiệu ứng Blur được áp dụng cho toàn bộ hình dạng, bao gồm cả phần tô. Tất cả các kênh màu, bao gồm cả alpha, đều bị ảnh hưởng.
+Đại diện cho một hiệu ứng Blur được áp dụng cho toàn bộ hình dạng, bao gồm cả phần tô màu. Tất cả các kênh màu, bao gồm cả alpha, đều bị ảnh hưởng.
 
 ```csharp
 public sealed class Blur : ImageTransformOperation, IBlur
@@ -19,16 +19,16 @@ public sealed class Blur : ImageTransformOperation, IBlur
 | Tên | Mô tả |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Cho phép lấy giao diện IPresentationComponent cơ bản. Chỉ đọc [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | Xác định liệu các giới hạn của đối tượng có được mở rộng do hiệu ứng làm mờ hay không. True cho biết các giới hạn được mở rộng trong khi false cho biết không được mở rộng. Đọc/ghi Boolean. |
+| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | Xác định xem giới hạn của đối tượng có nên được mở rộng do hiệu ứng làm mờ hay không. True chỉ ra giới hạn được mở rộng trong khi false chỉ ra chúng không được mở rộng. Đọc/ghi Boolean. |
 | [Radius](../../aspose.slides.effects/blur/radius) { get; set; } | Trả về hoặc đặt bán kính làm mờ. Đọc/ghi Double. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/blur/equals)(object) | Xác định liệu [`Blur`](../blur) được chỉ định có bằng với [`Blur`](../blur) hiện tại hay không. |
-| [GetEffective](../../aspose.slides.effects/blur/geteffective)() | Lấy dữ liệu hiệu ứng Blur thực tế với việc kế thừa được áp dụng. |
-| override [GetHashCode](../../aspose.slides.effects/blur/gethashcode)() | Đóng vai trò như một hàm băm cho một kiểu nhất định. |
+| override [Equals](../../aspose.slides.effects/blur/equals)(object) | Xác định xem [`Blur`](../blur) được chỉ định có bằng với [`Blur`](../blur) hiện tại hay không. |
+| [GetEffective](../../aspose.slides.effects/blur/geteffective)() | Lấy dữ liệu hiệu ứng Blur thực tế với kế thừa được áp dụng. |
+| override [GetHashCode](../../aspose.slides.effects/blur/gethashcode)() | Đóng vai trò là hàm băm cho một kiểu cụ thể. |
 
 ### Xem thêm
 

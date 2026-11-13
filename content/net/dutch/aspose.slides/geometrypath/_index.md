@@ -3,7 +3,7 @@ title: GeometryPath
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt het geometrische pad van GeometryShape voor
 type: docs
-weight: 4960
+weight: 4980
 url: /nl/aspose.slides/geometrypath/
 ---
 ## GeometryPath klasse
@@ -14,40 +14,40 @@ Stelt het geometrische pad van GeometryShape voor
 public sealed class GeometryPath : IGeometryPath
 ```
 
-## Constructoren
+## Constructors
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
 | [GeometryPath](geometrypath)() | Maakt een instantie van GeometryPath |
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [FillMode](../../aspose.slides/geometrypath/fillmode) { get; set; } | Stelt vulmodus in |
-| [PathData](../../aspose.slides/geometrypath/pathdata) { get; } | Retourneert geometrisch pad van GeometryShape als een array van padsegmenten. |
-| [Stroke](../../aspose.slides/geometrypath/stroke) { get; set; } | Stelt lijnweergave in |
+| [FillMode](../../aspose.slides/geometrypath/fillmode) { get; set; } | Stelt de vullingsmodus in |
+| [PathData](../../aspose.slides/geometrypath/pathdata) { get; } | Retourneert het geometrische pad van GeometryShape als een array van padsegmenten. |
+| [Stroke](../../aspose.slides/geometrypath/stroke) { get; set; } | Stelt de weergave van de stroke in |
 
 ## Methoden
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
 | [ArcTo](../../aspose.slides/geometrypath/arcto)(float, float, float, float) | Voegt de opgegeven boog toe aan het pad. |
 | [CloseFigure](../../aspose.slides/geometrypath/closefigure)() | Sluit de huidige figuur van dit pad |
 | [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_2)(PointF, PointF, PointF) | Voegt een kubieke Bezier-curve toe aan het einde van het pad |
-| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | Voegt een kubieke Bezier-curve toe op de opgegeven plaats van het pad |
+| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | Voegt een kubieke Bezier-curve toe op de opgegeven plaats in het pad |
 | [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto)(float, float, float, float, float, float) | Voegt een kubieke Bezier-curve toe aan het einde van het pad |
-| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | Voegt een kubieke Bezier-curve toe op de opgegeven plaats van het pad |
+| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | Voegt een kubieke Bezier-curve toe op de opgegeven plaats in het pad |
 | [LineTo](../../aspose.slides/geometrypath/lineto#lineto_2)(PointF) | Voegt een lijn toe aan het einde van het pad |
 | [LineTo](../../aspose.slides/geometrypath/lineto#lineto)(float, float) | Voegt een lijn toe aan het einde van het pad |
-| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_3)(PointF, uint) | Voegt een lijn toe op de opgegeven plaats van het pad |
-| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_1)(float, float, uint) | Voegt een lijn toe op de opgegeven plaats van het pad |
+| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_3)(PointF, uint) | Voegt een lijn toe op de opgegeven plaats in het pad |
+| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_1)(float, float, uint) | Voegt een lijn toe op de opgegeven plaats in het pad |
 | [MoveTo](../../aspose.slides/geometrypath/moveto#moveto_1)(PointF) | Stelt de positie van het volgende punt in. |
 | [MoveTo](../../aspose.slides/geometrypath/moveto#moveto)(float, float) | Stelt de positie van het volgende punt in. |
 | [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | Voegt een kwadratische Bezier-curve toe aan het einde van het pad |
-| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | Voegt een kwadratische Bezier-curve toe op de opgegeven plaats van het pad |
+| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | Voegt een kwadratische Bezier-curve toe op de opgegeven plaats in het pad |
 | [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | Voegt een kwadratische Bezier-curve toe aan het einde van het pad |
-| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | Voegt een kwadratische Bezier-curve toe op de opgegeven plaats van het pad |
+| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | Voegt een kwadratische Bezier-curve toe op de opgegeven plaats in het pad |
 | [RemoveAt](../../aspose.slides/geometrypath/removeat)(int) | Verwijdert segment op de opgegeven index van het geometrische pad. |
 
 ### Zie ook

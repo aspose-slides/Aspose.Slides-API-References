@@ -3,7 +3,7 @@ title: TextVerticalType
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Menentukan mode penulisan vertikal untuk teks.
 type: docs
-weight: 11030
+weight: 11050
 url: /id/aspose.slides/textverticaltype/
 ---
 ## Enumerasi TextVerticalType
@@ -18,7 +18,7 @@ public enum TextVerticalType : sbyte
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| NotDefined | `-1` | Tidak terdefinisi. |
+| NotDefined | `-1` | Tidak didefinisikan. |
 | Horizontal | `0` | Teks horizontal. |
 | Vertical | `1` | Teks vertikal. |
 | Vertical270 | `2` | Teks vertikal 270 derajat. |

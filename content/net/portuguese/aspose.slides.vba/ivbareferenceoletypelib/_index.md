@@ -1,14 +1,14 @@
 ---
 title: IVbaReferenceOleTypeLib
-second_title: Referência de API Aspose.Sildes para .NET
-description: Representa uma referência a uma biblioteca de tipos OLE Automation.
+second_title: Aspose.Sildes para a Referência de API .NET
+description: Representa a referência da biblioteca de tipos OLE Automation.
 type: docs
-weight: 11610
+weight: 11630
 url: /pt/aspose.slides.vba/ivbareferenceoletypelib/
 ---
 ## IVbaReferenceOleTypeLib interface
 
-Representa uma referência a uma biblioteca de tipos OLE Automation.
+Representa a referência da biblioteca de tipos OLE Automation.
 
 ```csharp
 public interface IVbaReferenceOleTypeLib : IVbaReference
@@ -19,9 +19,9 @@ public interface IVbaReferenceOleTypeLib : IVbaReference
 | Nome | Descrição |
 | --- | --- |
 | [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletypelib/asivbareference) { get; } | Retorna a interface IVbaReference. Somente leitura [`IVbaReference`](../ivbareference). |
-| [Libid](../../aspose.slides.vba/ivbareferenceoletypelib/libid) { get; set; } | Representa o identificador de uma biblioteca de tipos Automation. Leitura/Gravação String. |
+| [Libid](../../aspose.slides.vba/ivbareferenceoletypelib/libid) { get; set; } | Representa o identificador de uma biblioteca de tipos Automation. Leitura/gravação String. |
 
-### Ver também
+### Veja Também
 
 * interface [IVbaReference](../ivbareference)
 * namespace [Aspose.Slides.Vba](../../aspose.slides.vba)

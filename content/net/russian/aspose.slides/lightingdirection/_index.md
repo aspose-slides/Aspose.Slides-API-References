@@ -1,9 +1,9 @@
 ---
 title: LightingDirection
-second_title: Aspose.Sildes для .NET API справка
+second_title: Aspose.Sildes для .NET справочник API
 description: Константы, определяющие направления света.
 type: docs
-weight: 7710
+weight: 7730
 url: /ru/aspose.slides/lightingdirection/
 ---
 ## LightingDirection перечисление
@@ -28,7 +28,7 @@ public enum LightingDirection
 | BottomLeft | `6` |  |
 | Left | `7` |  |
 
-### Смотрите также
+### См. также
 
 * пространство имён [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

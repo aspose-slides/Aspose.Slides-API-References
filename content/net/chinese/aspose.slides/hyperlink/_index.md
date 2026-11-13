@@ -3,7 +3,7 @@ title: Hyperlink
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示一个超链接。
 type: docs
-weight: 5120
+weight: 5140
 url: /zh/aspose.slides/hyperlink/
 ---
 ## Hyperlink 类
@@ -20,32 +20,32 @@ public sealed class Hyperlink : PVIObject, IHyperlink
 | --- | --- |
 | [Hyperlink](hyperlink#constructor_1)(ISlide) | 创建一个指向特定幻灯片的超链接实例。注意：创建的超链接应分配给同一演示文稿中的某个对象，否则链接将保存为 NoAction。 |
 | [Hyperlink](hyperlink#constructor_2)(string) | 创建一个超链接实例。 |
-| [Hyperlink](hyperlink#constructor)(Hyperlink, string, string, bool, bool, bool) | 使用另一个超链接作为来源创建超链接实例，覆盖次要属性。 |
+| [Hyperlink](hyperlink#constructor)(Hyperlink, string, string, bool, bool, bool) | 使用另一个超链接作为源并覆盖次要属性，创建一个超链接实例。 |
 
 ## 属性
 
 | 名称 | 描述 |
 | --- | --- |
-| static [EndShow](../../aspose.slides/hyperlink/endshow) { get; } | 返回一个结束放映的超链接。只读 [`Hyperlink`](../hyperlink)。 |
+| static [EndShow](../../aspose.slides/hyperlink/endshow) { get; } | 返回一个结束演示的超链接。只读 [`Hyperlink`](../hyperlink)。 |
 | static [FirstSlide](../../aspose.slides/hyperlink/firstslide) { get; } | 返回指向演示文稿第一张幻灯片的超链接。只读 [`Hyperlink`](../hyperlink)。 |
 | static [LastSlide](../../aspose.slides/hyperlink/lastslide) { get; } | 返回指向演示文稿最后一张幻灯片的超链接。只读 [`Hyperlink`](../hyperlink)。 |
 | static [LastVievedSlide](../../aspose.slides/hyperlink/lastvievedslide) { get; } | 返回指向上一次查看的幻灯片的超链接。只读 [`Hyperlink`](../hyperlink)。 |
-| static [Media](../../aspose.slides/hyperlink/media) { get; } | 返回一个特殊的“播放媒体文件”超链接。用于 AudioFrame 和 VideoFrame。只读 [`Hyperlink`](../hyperlink)。 |
+| static [Media](../../aspose.slides/hyperlink/media) { get; } | 返回一个特殊的 “播放媒体文件” 超链接。用于 AudioFrame 和 VideoFrame。只读 [`Hyperlink`](../hyperlink)。 |
 | static [NextSlide](../../aspose.slides/hyperlink/nextslide) { get; } | 返回指向下一张幻灯片的超链接。只读 [`Hyperlink`](../hyperlink)。 |
-| static [NoAction](../../aspose.slides/hyperlink/noaction) { get; } | 返回一个特殊的“不执行任何操作”超链接。只读 [`Hyperlink`](../hyperlink)。 |
+| static [NoAction](../../aspose.slides/hyperlink/noaction) { get; } | 返回一个特殊的 “不执行任何操作” 超链接。只读 [`Hyperlink`](../hyperlink)。 |
 | static [PreviousSlide](../../aspose.slides/hyperlink/previousslide) { get; } | 返回指向上一张幻灯片的超链接。只读 [`Hyperlink`](../hyperlink)。 |
-| [ActionType](../../aspose.slides/hyperlink/actiontype) { get; } | 返回 Hyperlink 操作的类型。只读 [`HyperlinkActionType`](../hyperlinkactiontype)。 |
+| [ActionType](../../aspose.slides/hyperlink/actiontype) { get; } | 返回 Hyperlink 动作的类型。只读 [`HyperlinkActionType`](../hyperlinkactiontype)。 |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基础 IPresentationComponent 接口。只读 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [ColorSource](../../aspose.slides/hyperlink/colorsource) { get; set; } | 表示超链接颜色的来源——样式或部分格式。读/写 [`HyperlinkColorSource`](../hyperlinkcolorsource)。 |
-| [ExternalUrl](../../aspose.slides/hyperlink/externalurl) { get; } | 指定外部 URL。只读 String。 |
-| [ExternalUrlOriginal](../../aspose.slides/hyperlink/externalurloriginal) { get; } | 表示为此文本段设置的超链接，而不考虑该段的实际内容。PowerPoint 对链接及其对应的文本段有特定行为。它允许以有效 URL 的形式为超链接创建文本，该文本不同于链接的真实地址。在这种情况下，当在编辑窗口中查看链接时，它会被更改为匹配文本段。此属性表示超链接的原始值。 |
-| [HighlightClick](../../aspose.slides/hyperlink/highlightclick) { get; set; } | 确定单击时是否应突出显示超链接。读/写 Boolean。 |
-| [History](../../aspose.slides/hyperlink/history) { get; set; } | 确定在调用时是否将父超链接的目标添加到已查看超链接列表中。读/写 Boolean。 |
-| [Sound](../../aspose.slides/hyperlink/sound) { get; set; } | 表示超链接的播放声音。读/写 [`IAudio`](../iaudio)。 |
-| [StopSoundOnClick](../../aspose.slides/hyperlink/stopsoundonclick) { get; set; } | 确定单击超链接时是否应停止声音。读/写 Boolean。 |
-| [TargetFrame](../../aspose.slides/hyperlink/targetframe) { get; set; } | 返回父 HTML frameset 中父超链接目标所在的框架（如果存在）。读/写 String。 |
+| [ColorSource](../../aspose.slides/hyperlink/colorsource) { get; set; } | 表示超链接颜色的来源——样式或部分格式。可读写 [`HyperlinkColorSource`](../hyperlinkcolorsource)。 |
+| [ExternalUrl](../../aspose.slides/hyperlink/externalurl) { get; } | 指定外部 URL。只读字符串。 |
+| [ExternalUrlOriginal](../../aspose.slides/hyperlink/externalurloriginal) { get; } | 表示为该部分设置的超链接，而不考虑该部分的实际内容。PowerPoint 对部分中的链接及其对应文本有特定行为。它允许以有效 URL 的形式创建超链接文本，该文本与链接的真实地址不同。在这种情况下，当您在编辑窗口中查看链接时，它将被更改为匹配文本部分。此属性表示超链接的原始值。 |
+| [HighlightClick](../../aspose.slides/hyperlink/highlightclick) { get; set; } | 确定单击时是否应突出显示超链接。可读写布尔值。 |
+| [History](../../aspose.slides/hyperlink/history) { get; set; } | 确定在调用时，父超链接的目标是否应添加到已查看超链接列表中。可读写布尔值。 |
+| [Sound](../../aspose.slides/hyperlink/sound) { get; set; } | 表示超链接的播放声音。可读写 [`IAudio`](../iaudio)。 |
+| [StopSoundOnClick](../../aspose.slides/hyperlink/stopsoundonclick) { get; set; } | 确定单击超链接时是否应停止声音。可读写布尔值。 |
+| [TargetFrame](../../aspose.slides/hyperlink/targetframe) { get; set; } | 返回父 HTML frameset 中父超链接目标所在的框架（如果存在）。可读写 String。 |
 | [TargetSlide](../../aspose.slides/hyperlink/targetslide) { get; } | 如果 Hyperlink 指向特定幻灯片，则返回该幻灯片。只读 [`ISlide`](../islide)。 |
-| [Tooltip](../../aspose.slides/hyperlink/tooltip) { get; set; } | 返回可在用户界面中显示的、与父超链接关联的字符串。读/写 String。 |
+| [Tooltip](../../aspose.slides/hyperlink/tooltip) { get; set; } | 返回可能在用户界面中显示的、与父超链接关联的字符串。可读写 String。 |
 
 ## 方法
 
@@ -53,11 +53,11 @@ public sealed class Hyperlink : PVIObject, IHyperlink
 | --- | --- |
 | [Equals](../../aspose.slides/hyperlink/equals#equals)(IHyperlink) | 确定两个 Hyperlink 实例是否相等。 |
 | override [Equals](../../aspose.slides/hyperlink/equals#equals_1)(object) | 确定两个 Hyperlink 实例是否相等。 |
-| override [GetHashCode](../../aspose.slides/hyperlink/gethashcode)() | 充当特定类型的哈希函数，适用于哈希算法和诸如哈希表的数据结构。 |
+| override [GetHashCode](../../aspose.slides/hyperlink/gethashcode)() | 充当特定类型的哈希函数，适用于哈希算法和诸如哈希表之类的数据结构。 |
 | [operator ==](../../aspose.slides/hyperlink/op_equality) | 测试两个超链接是否相等。 |
 | [operator !=](../../aspose.slides/hyperlink/op_inequality) | 测试两个超链接是否不相等。 |
 
-### 另见
+### 另请参见
 
 * 类 [PVIObject](../pviobject)
 * 接口 [IHyperlink](../ihyperlink)

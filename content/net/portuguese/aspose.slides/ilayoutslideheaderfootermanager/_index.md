@@ -1,14 +1,14 @@
 ---
 title: ILayoutSlideHeaderFooterManager
-second_title: Aspose.Sildes para .NET - Referência da API
-description: Representa o gerenciador que contém o comportamento do rodapé do slide de layout, dos marcadores de data e hora, número da página e todos os marcadores filhos. Marcadores filhos significam que os marcadores estão contidos em slides dependentes. Slides dependentes usam e dependem do slide de layout.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Representa o gerenciador que contém o comportamento dos marcadores de rodapé, data e hora, número de página do slide de layout e de todos os marcadores filho. Marcadores filho significam que os marcadores estão contidos em slides dependentes. Slides dependentes usam e dependem do slide de layout.
 type: docs
-weight: 6240
+weight: 6260
 url: /pt/aspose.slides/ilayoutslideheaderfootermanager/
 ---
 ## ILayoutSlideHeaderFooterManager interface
 
-Representa o gerenciador que contém o comportamento do rodapé do slide de layout, dos marcadores de data e hora, número da página e todos os marcadores filhos. Marcadores filhos significam que os marcadores estão contidos em slides dependentes. Slides dependentes usam e dependem do slide de layout.
+Representa o gerenciador que contém o comportamento do rodapé do slide de layout, dos marcadores de data e hora, número de página e de todos os marcadores filho. Marcadores filho significam que os marcadores estão contidos em slides dependentes. Slides dependentes usam e dependem do slide de layout.
 
 ```csharp
 public interface ILayoutSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -18,17 +18,17 @@ public interface ILayoutSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 | Nome | Descrição |
 | --- | --- |
-| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/ilayoutslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | Retorna IBaseSlideHeaderFooterManager interface. |
+| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/ilayoutslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | Retorna a interface IBaseSlideHeaderFooterManager. |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Define o texto no placeholder de data e hora do slide de layout e em todos os placeholders de data e hora filhos. Marcadores filhos significam que os marcadores estão contidos em slides dependentes. Slides dependentes usam e dependem do slide de layout. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Altera a visibilidade do placeholder de data e hora do slide de layout e de todos os placeholders de data e hora filhos. Marcadores filhos significam que os marcadores estão contidos em slides dependentes. Slides dependentes usam e dependem do slide de layout. |
-| [SetFooterAndChildFootersText](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | Define o texto no placeholder de rodapé do slide de layout e em todos os placeholders de rodapé filhos. Marcadores filhos significam que os marcadores estão contidos em slides dependentes. Slides dependentes usam e dependem do slide de layout. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Altera a visibilidade do placeholder de rodapé do slide de layout e de todos os placeholders de rodapé filhos. Marcadores filhos significam que os marcadores estão contidos em slides dependentes. Slides dependentes usam e dependem do slide mestre. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Altera a visibilidade do placeholder de número da página do slide de layout e de todos os placeholders de número da página filhos. Marcadores filhos significam que os marcadores estão contidos em slides dependentes. Slides dependentes usam e dependem do slide de layout. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Define o texto no marcador de data e hora do slide de layout e em todos os marcadores de data e hora filhos. Marcadores filho significam que os marcadores estão contidos em slides dependentes. Slides dependentes usam e dependem do slide de layout. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Altera a visibilidade do marcador de data e hora do slide de layout e de todos os marcadores de data e hora filhos. Marcadores filho significam que os marcadores estão contidos em slides dependentes. Slides dependentes usam e dependem do slide de layout. |
+| [SetFooterAndChildFootersText](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | Define o texto no marcador de rodapé do slide de layout e em todos os marcadores de rodapé filhos. Marcadores filho significam que os marcadores estão contidos em slides dependentes. Slides dependentes usam e dependem do slide de layout. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Altera a visibilidade do marcador de rodapé do slide de layout e de todos os marcadores de rodapé filhos. Marcadores filho significam que os marcadores estão contidos em slides dependentes. Slides dependentes usam e dependem do slide mestre. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Altera a visibilidade do marcador de número de página do slide de layout e de todos os marcadores de número de página filhos. Marcadores filho significam que os marcadores estão contidos em slides dependentes. Slides dependentes usam e dependem do slide de layout. |
 
 ### Veja Também
 

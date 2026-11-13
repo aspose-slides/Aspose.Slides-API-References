@@ -1,9 +1,9 @@
 ---
 title: ImageTransformOperationCollection
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta una raccolta di effetti applicati a un'immagine.
 type: docs
-weight: 3580
+weight: 3600
 url: /it/aspose.slides.effects/imagetransformoperationcollection/
 ---
 ## ImageTransformOperationCollection classe
@@ -19,9 +19,9 @@ public sealed class ImageTransformOperationCollection : PVIObject,
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia base IPresentationComponent. Solo lettura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Count](../../aspose.slides.effects/imagetransformoperationcollection/count) { get; } | Restituisce il numero di effetti immagine in una raccolta. Solo lettura Int32. |
-| [IsReadOnly](../../aspose.slides.effects/imagetransformoperationcollection/isreadonly) { get; } | Restituisce un valore che indica se l'ICollection è di sola lettura. Solo lettura Boolean. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia base IPresentationComponent. Sola lettura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Count](../../aspose.slides.effects/imagetransformoperationcollection/count) { get; } | Restituisce il numero di effetti immagine in una raccolta. Sola lettura Int32. |
+| [IsReadOnly](../../aspose.slides.effects/imagetransformoperationcollection/isreadonly) { get; } | Ottiene un valore che indica se l'ICollection è di sola lettura. Sola lettura Boolean. |
 | [Item](../../aspose.slides.effects/imagetransformoperationcollection/item) { get; } | Restituisce un [`ImageTransformOperation`](../imagetransformoperation) dalla raccolta per il suo indice. |
 
 ## Metodi
@@ -36,7 +36,7 @@ public sealed class ImageTransformOperationCollection : PVIObject,
 | [AddAlphaModulateEffect](../../aspose.slides.effects/imagetransformoperationcollection/addalphamodulateeffect)() | Aggiunge il nuovo effetto Alpha Modulate alla fine di una raccolta. |
 | [AddAlphaModulateFixedEffect](../../aspose.slides.effects/imagetransformoperationcollection/addalphamodulatefixedeffect)(float) | Aggiunge il nuovo effetto Alpha Modulate Fixed alla fine di una raccolta. |
 | [AddAlphaReplaceEffect](../../aspose.slides.effects/imagetransformoperationcollection/addalphareplaceeffect)(float) | Aggiunge il nuovo effetto Alpha Replace alla fine di una raccolta. |
-| [AddBiLevelEffect](../../aspose.slides.effects/imagetransformoperationcollection/addbileveleffect)(float) | Aggiunge il nuovo effetto Bi-Level (nero/bianco) alla fine di una raccolta. |
+| [AddBiLevelEffect](../../aspose.slides.effects/imagetransformoperationcollection/addbileveleffect)(float) | Aggiunge il nuovo effetto Bi-Level (black/white) alla fine di una raccolta. |
 | [AddBlurEffect](../../aspose.slides.effects/imagetransformoperationcollection/addblureffect)(double, bool) | Aggiunge il nuovo effetto Blur alla fine di una raccolta. |
 | [AddBrightnessContrastEffect](../../aspose.slides.effects/imagetransformoperationcollection/addbrightnesscontrasteffect)(float, float) | Aggiunge il nuovo effetto BrightnessContrast alla fine di una raccolta. |
 | [AddColorChangeEffect](../../aspose.slides.effects/imagetransformoperationcollection/addcolorchangeeffect)() | Aggiunge il nuovo effetto Color Change alla fine di una raccolta. |
@@ -48,12 +48,12 @@ public sealed class ImageTransformOperationCollection : PVIObject,
 | [AddLuminanceEffect](../../aspose.slides.effects/imagetransformoperationcollection/addluminanceeffect)(float, float) | Aggiunge il nuovo effetto Luminance alla fine di una raccolta. |
 | [AddTintEffect](../../aspose.slides.effects/imagetransformoperationcollection/addtinteffect)(float, float) | Aggiunge il nuovo effetto Tint alla fine di una raccolta. |
 | [Clear](../../aspose.slides.effects/imagetransformoperationcollection/clear)() | Rimuove tutti gli effetti immagine da una raccolta. |
-| [Contains](../../aspose.slides.effects/imagetransformoperationcollection/contains)(IImageTransformOperation) | Determina se l'ICollection contiene un valore specifico. |
-| [CopyTo](../../aspose.slides.effects/imagetransformoperationcollection/copyto)(IImageTransformOperation[], int) | Copia gli elementi dell'ICollection in un Array, a partire da un indice specifico dell'Array. |
+| [Contains](../../aspose.slides.effects/imagetransformoperationcollection/contains)(IImageTransformOperation) | Determina se la ICollection contiene un valore specifico. |
+| [CopyTo](../../aspose.slides.effects/imagetransformoperationcollection/copyto)(IImageTransformOperation[], int) | Copia gli elementi della ICollection in un Array, iniziando da un indice specifico dell'Array. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Confronta con l'oggetto specificato. |
-| [GetEnumerator](../../aspose.slides.effects/imagetransformoperationcollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la raccolta. |
+| [GetEnumerator](../../aspose.slides.effects/imagetransformoperationcollection/getenumerator)() | Restituisce un enumeratore che scorre la raccolta. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Restituisce il codice hash. |
-| [Remove](../../aspose.slides.effects/imagetransformoperationcollection/remove)(IImageTransformOperation) | Rimuove la prima occorrenza di un oggetto specifico dall'ICollection. |
+| [Remove](../../aspose.slides.effects/imagetransformoperationcollection/remove)(IImageTransformOperation) | Rimuove la prima occorrenza di un oggetto specifico dalla ICollection. |
 | [RemoveAt](../../aspose.slides.effects/imagetransformoperationcollection/removeat)(int) | Rimuove un effetto immagine da una raccolta all'indice specificato. |
 
 ### Vedi anche

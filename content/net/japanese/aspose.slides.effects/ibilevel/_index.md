@@ -1,14 +1,14 @@
 ---
 title: IBiLevel
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 基本的な IImageTransformOperation インターフェイスを表します。
+description: ベースの IImageTransformOperation インターフェイスを表します。
 type: docs
-weight: 3160
+weight: 3180
 url: /ja/aspose.slides.effects/ibilevel/
 ---
 ## IBiLevel インターフェイス
 
-IImageTransformOperation インターフェイスの基本を表します。
+ベースの IImageTransformOperation インターフェイスを表します。
 
 ```csharp
 public interface IBiLevel : IAccessiblePVIObject<IBiLevelEffectiveData>, IImageTransformOperation

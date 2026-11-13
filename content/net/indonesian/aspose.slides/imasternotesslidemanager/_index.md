@@ -1,14 +1,14 @@
 ---
 title: IMasterNotesSlideManager
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Manajer slide catatan master.
+description: Pengelola slide catatan master.
 type: docs
-weight: 6410
+weight: 6430
 url: /id/aspose.slides/imasternotesslidemanager/
 ---
 ## IMasterNotesSlideManager antarmuka
 
-Manajer slide catatan master.
+Pengelola slide catatan master.
 
 ```csharp
 public interface IMasterNotesSlideManager

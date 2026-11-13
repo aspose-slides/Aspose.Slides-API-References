@@ -3,7 +3,7 @@ title: ChartWall
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili dinding pada diagram 3d.
 type: docs
-weight: 1520
+weight: 1530
 url: /id/aspose.slides.charts/chartwall/
 ---
 ## ChartWall kelas
@@ -18,9 +18,9 @@ public class ChartWall : DomObject<Chart>, IChartWall
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Format](../../aspose.slides.charts/chartwall/format) { get; } | Mengembalikan isi dinding, garis, efek, gaya 3d. Baca-saja [`IFormat`](../iformat). |
-| [PictureType](../../aspose.slides.charts/chartwall/picturetype) { get; set; } | Mengembalikan atau mengatur tipe gambar. Baca/tulis [`PictureType`](../picturetype). |
-| [Thickness](../../aspose.slides.charts/chartwall/thickness) { get; set; } | Mengembalikan atau mengatur ketebalan dinding sebagai persentase dari dimensi terbesar dari volume plot. Baca/tulis Int32. |
+| [Format](../../aspose.slides.charts/chartwall/format) { get; } | Mengembalikan isian dinding, garis, efek, gaya 3d. Hanya baca [`IFormat`](../iformat). |
+| [PictureType](../../aspose.slides.charts/chartwall/picturetype) { get; set; } | Mengembalikan atau mengatur jenis gambar. Baca/tulis [`PictureType`](../picturetype). |
+| [Thickness](../../aspose.slides.charts/chartwall/thickness) { get; set; } | Mengembalikan atau mengatur ketebalan dinding sebagai persentase dimensi terbesar dari volume plot. Baca/tulis Int32. |
 
 ### Lihat Juga
 

@@ -1,14 +1,14 @@
 ---
 title: ITrendline
 second_title: Riferimento API Aspose.Sildes per .NET
-description: La classe rappresenta la linea di tendenza della serie del grafico
+description: La classe rappresenta la linea di tendenza della serie di grafico
 type: docs
-weight: 2240
+weight: 2260
 url: /it/aspose.slides.charts/itrendline/
 ---
-## Interfaccia ITrendline
+## ITrendline interfaccia
 
-La classe rappresenta la linea di tendenza della serie del grafico
+La classe rappresenta la linea di tendenza della serie di grafico
 
 ```csharp
 public interface ITrendline : IOverridableText
@@ -18,18 +18,18 @@ public interface ITrendline : IOverridableText
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIOverridableText](../../aspose.slides.charts/itrendline/asioverridabletext) { get; } | Restituisce l'interfaccia IOverridableText. Solo lettura [`IOverridableText`](../ioverridabletext). |
-| [Backward](../../aspose.slides.charts/itrendline/backward) { get; set; } | Specifica il numero di categorie (o unità su un grafico a dispersione) che la linea di tendenza si estende prima dei dati per la serie che viene tendenza. Su grafici a dispersione e non a dispersione, il valore deve essere qualsiasi valore non negativo. Lettura/Scrittura Double. |
-| [DisplayEquation](../../aspose.slides.charts/itrendline/displayequation) { get; set; } | Specifica che l'equazione per la linea di tendenza è visualizzata sul grafico (nella stessa etichetta del valore di R al quadrato). Lettura/Scrittura Boolean. |
-| [DisplayRSquaredValue](../../aspose.slides.charts/itrendline/displayrsquaredvalue) { get; set; } | Specifica che il valore di R al quadrato della linea di tendenza è visualizzato sul grafico (nella stessa etichetta dell'equazione). Lettura/Scrittura Boolean. |
-| [Format](../../aspose.slides.charts/itrendline/format) { get; set; } | Rappresenta il formato della linea di tendenza. Lettura/Scrittura [`IFormat`](../iformat). |
-| [Forward](../../aspose.slides.charts/itrendline/forward) { get; set; } | Specifica il numero di categorie (o unità su un grafico a dispersione) che la linea di tendenza si estende dopo i dati per la serie che viene tendenza. Su grafici a dispersione e non a dispersione, il valore deve essere qualsiasi valore non negativo. Lettura/Scrittura Double. |
-| [Intercept](../../aspose.slides.charts/itrendline/intercept) { get; set; } | Specifica il valore in cui la linea di tendenza deve attraversare l'asse y. Questa proprietà è supportata solo quando il tipo di linea di tendenza è exp, linear o poly. Lettura/Scrittura Double. |
-| [Order](../../aspose.slides.charts/itrendline/order) { get; set; } | Specifica l'ordine della linea di tendenza polinomiale. È ignorato per altri tipi di linea di tendenza. Il valore deve essere compreso tra 2 e 6. Lettura/Scrittura Byte. |
-| [Period](../../aspose.slides.charts/itrendline/period) { get; set; } | Specifica il periodo della linea di tendenza per una linea di tendenza a media mobile. È ignorato per altre varianti di linea di tendenza. Il valore deve essere compreso tra 2 e 255. Lettura/Scrittura Byte. |
-| [RelatedLegendEntry](../../aspose.slides.charts/itrendline/relatedlegendentry) { get; } | Rappresenta la voce della legenda associata a questa linea di tendenza. Solo lettura [`ILegendEntryProperties`](../ilegendentryproperties). |
-| [TrendlineName](../../aspose.slides.charts/itrendline/trendlinename) { get; set; } | Ottiene o imposta il nome della linea di tendenza. Lettura/Scrittura String. |
-| [TrendlineType](../../aspose.slides.charts/itrendline/trendlinetype) { get; set; } | Ottiene o imposta il tipo di linea di tendenza. Lettura/Scrittura [`TrendlineType`](./trendlinetype). |
+| [AsIOverridableText](../../aspose.slides.charts/itrendline/asioverridabletext) { get; } | Restituisce IOverridableText interfaccia. Solo lettura [`IOverridableText`](../ioverridabletext). |
+| [Backward](../../aspose.slides.charts/itrendline/backward) { get; set; } | Specifica il numero di categorie (o unità su un grafico a dispersione) che la linea di tendenza si estende prima dei dati per la serie di cui si traccia la tendenza. Su grafici a dispersione e non a dispersione, il valore deve essere qualsiasi valore non negativo. Lettura/scrittura Double. |
+| [DisplayEquation](../../aspose.slides.charts/itrendline/displayequation) { get; set; } | Specifica che l'equazione per la linea di tendenza è visualizzata sul grafico (nella stessa etichetta del valore Rsquaredvalue). Lettura/scrittura Boolean. |
+| [DisplayRSquaredValue](../../aspose.slides.charts/itrendline/displayrsquaredvalue) { get; set; } | Specifica che il valore R-squared della linea di tendenza è visualizzato sul grafico (nella stessa etichetta dell'equazione). Lettura/scrittura Boolean. |
+| [Format](../../aspose.slides.charts/itrendline/format) { get; set; } | Rappresenta il formato della linea di tendenza. Lettura/scrittura [`IFormat`](../iformat). |
+| [Forward](../../aspose.slides.charts/itrendline/forward) { get; set; } | Specifica il numero di categorie (o unità su un grafico a dispersione) che la linea di tendenza si estende dopo i dati per la serie di cui si traccia la tendenza. Su grafici a dispersione e non a dispersione, il valore deve essere qualsiasi valore non negativo. Lettura/scrittura Double. |
+| [Intercept](../../aspose.slides.charts/itrendline/intercept) { get; set; } | Specifica il valore in cui la linea di tendenza deve attraversare l'asse y. Questa proprietà è supportata solo quando il tipo di linea di tendenza è exp, linear o poly. Lettura/scrittura Double. |
+| [Order](../../aspose.slides.charts/itrendline/order) { get; set; } | Specifica l'ordine della linea di tendenza polinomiale. È ignorato per altri tipi di linea di tendenza. Il valore deve essere compreso tra 2 e 6. Lettura/scrittura Byte. |
+| [Period](../../aspose.slides.charts/itrendline/period) { get; set; } | Specifica il periodo della linea di tendenza per una linea di tendenza a media mobile. È ignorato per altre varianti di linea di tendenza. Il valore deve essere compreso tra 2 e 255. Lettura/scrittura Byte. |
+| [RelatedLegendEntry](../../aspose.slides.charts/itrendline/relatedlegendentry) { get; } | Rappresenta la voce della legenda correlata a questa linea di tendenza. Solo lettura [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [TrendlineName](../../aspose.slides.charts/itrendline/trendlinename) { get; set; } | Ottiene o imposta il nome della linea di tendenza. Lettura/scrittura String. |
+| [TrendlineType](../../aspose.slides.charts/itrendline/trendlinetype) { get; set; } | Ottiene o imposta il tipo di linea di tendenza. Lettura/scrittura [`TrendlineType`](./trendlinetype). |
 
 ### Vedi anche
 

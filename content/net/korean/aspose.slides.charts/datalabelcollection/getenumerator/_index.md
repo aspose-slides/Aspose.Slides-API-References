@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Sildes for .NET API 참조
-description: 컬렉션을 반복하는 열거자를 반환합니다.
+description: 컬렉션을 순회하는 열거자를 반환합니다.
 type: docs
-weight: 90
+weight: 100
 url: /ko/aspose.slides.charts/datalabelcollection/getenumerator/
 ---
 ## DataLabelCollection.GetEnumerator 메서드
 
-컬렉션을 반복하는 열거자를 반환합니다.
+컬렉션을 순회하는 열거자를 반환합니다.
 
 ```csharp
 public IEnumerator<IDataLabel> GetEnumerator()
@@ -16,9 +16,9 @@ public IEnumerator<IDataLabel> GetEnumerator()
 
 ### 반환 값
 
-컬렉션을 반복하는 데 사용할 수 있는 IEnumerator입니다.
+컬렉션을 순회하는 데 사용할 수 있는 IEnumerator입니다.
 
-### 참고
+### 또 보기
 
 * 인터페이스 [IDataLabel](../../idatalabel)
 * 클래스 [DataLabelCollection](../../datalabelcollection)

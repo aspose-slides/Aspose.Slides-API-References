@@ -1,27 +1,27 @@
 ---
 title: ISlideText
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: เป็นตัวแทนข้อความที่สกัดจากสไลด์
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงข้อความที่ดึงมาจากสไลด์
 type: docs
-weight: 7100
+weight: 7120
 url: /th/aspose.slides/islidetext/
 ---
 ## ISlideText อินเทอร์เฟซ
 
-เป็นการแทนข้อความที่สกัดจากสไลด์
+แสดงข้อความที่ดึงมาจากสไลด์
 
 ```csharp
 public interface ISlideText
 ```
 
-## คุณสมบัติ
+## Properties
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [CommentsText](../../aspose.slides/islidetext/commentstext) { get; } | ข้อความของความคิดเห็นสไลด์ |
-| [LayoutText](../../aspose.slides/islidetext/layouttext) { get; } | ข้อความบนรูปร่างของหน้าเค้าโครงสำหรับสไลด์นี้ |
+| [LayoutText](../../aspose.slides/islidetext/layouttext) { get; } | ข้อความบนรูปร่างของหน้าเลย์เอาต์สำหรับสไลด์นี้ |
 | [MasterText](../../aspose.slides/islidetext/mastertext) { get; } | ข้อความบนรูปร่างของหน้าแม่สำหรับสไลด์นี้ |
-| [NotesText](../../aspose.slides/islidetext/notestext) { get; } | ข้อความบนรูปร่างของหน้าบันทึกสำหรับสไลด์นี้ |
+| [NotesText](../../aspose.slides/islidetext/notestext) { get; } | ข้อความบนรูปร่างของหน้าบันทึกย่อสำหรับสไลด์นี้ |
 | [Text](../../aspose.slides/islidetext/text) { get; } | ข้อความบนรูปร่างของสไลด์ |
 
 ### ดูเพิ่มเติม

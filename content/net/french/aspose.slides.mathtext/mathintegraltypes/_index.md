@@ -1,14 +1,14 @@
 ---
 title: MathIntegralTypes
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Types d'intégrales mathématiques
 type: docs
-weight: 8790
+weight: 8810
 url: /fr/aspose.slides.mathtext/mathintegraltypes/
 ---
-## Énumération MathIntegralTypes
+## MathIntegralTypes énumération
 
-Types d'intégrale mathématiques
+Types d'intégrales mathématiques
 
 ```csharp
 public enum MathIntegralTypes
@@ -18,12 +18,12 @@ public enum MathIntegralTypes
 
 | Nom | Valeur | Description |
 | --- | --- | --- |
-| Simple | `0` | Intégrale : '∫' |
-| Double | `1` | Double intégrale : '∬' |
-| Triple | `2` | Triple intégrale : '∭' |
-| Contour | `3` | Intégrale de contour : '∮' |
-| Surface | `4` | Intégrale de surface : '∯' |
-| Volume | `5` | VolumeIntegral : '∰' |
+| Simple | `0` | Intégrale: '∫' |
+| Double | `1` | Double intégrale: '∬' |
+| Triple | `2` | Triple intégrale: '∭' |
+| Contour | `3` | Intégrale de contour: '∮' |
+| Surface | `4` | Intégrale de surface: '∯' |
+| Volume | `5` | Intégrale de volume: '∰' |
 
 ### Voir aussi
 

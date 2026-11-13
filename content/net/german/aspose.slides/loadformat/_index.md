@@ -3,7 +3,7 @@ title: LoadFormat
 second_title: Aspose.Sildes für .NET API Referenz
 description: Gibt das Format des zu ladenden Dokuments an.
 type: docs
-weight: 7830
+weight: 7850
 url: /de/aspose.slides/loadformat/
 ---
 ## LoadFormat Aufzählung
@@ -19,15 +19,15 @@ public enum LoadFormat
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | Auto | `0` | Weist Aspose.Slides an, das Format automatisch zu erkennen. |
-| Ppt | `1` | Microsoft PowerPoint 97-2003 Präsentation. |
-| Pps | `2` | Microsoft PowerPoint 97-2003 Diashow. |
+| Ppt | `1` | Microsoft PowerPoint 97-2003-Präsentation. |
+| Pps | `2` | Microsoft PowerPoint 97-2003-Diashow. |
 | Pptx | `3` | Microsoft Office Open XML PresentationML Dokument. |
 | Ppsx | `4` | Microsoft Office Open XML PresentationML Diashow. |
 | Odp | `5` | OpenOffice ODF Präsentation. |
 | Potx | `6` | Microsoft Office Open XML PresentationML Vorlage. |
-| Pptm | `7` | Microsoft Office Open XML PresentationML makroaktiviertes Dokument. |
-| Ppsm | `8` | Microsoft Office Open XML PresentationML makroaktivierte Diashow. |
-| Potm | `9` | Microsoft Office Open XML PresentationML makroaktivierte Vorlage. |
+| Pptm | `7` | Microsoft Office Open XML PresentationML Makroaktiviertes Dokument. |
+| Ppsm | `8` | Microsoft Office Open XML PresentationML Makroaktivierte Diashow. |
+| Potm | `9` | Microsoft Office Open XML PresentationML Makroaktivierte Vorlage. |
 | Otp | `10` | OpenOffice OTP Präsentationsvorlage. |
 | Ppt95 | `11` | Microsoft PowerPoint 95 Präsentation. |
 | Pot | `12` | Microsoft PowerPoint 97-2003 Präsentationsvorlage. |

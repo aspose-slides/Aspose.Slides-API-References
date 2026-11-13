@@ -1,14 +1,14 @@
 ---
 title: GradientStopCollection
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili kumpulan gradient stop.
+description: Mewakili koleksi gradient stop.
 type: docs
-weight: 5030
+weight: 5050
 url: /id/aspose.slides/gradientstopcollection/
 ---
 ## GradientStopCollection kelas
 
-Mewakili kumpulan gradient stop.
+Mewakili koleksi gradient stop.
 
 ```csharp
 public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
@@ -18,7 +18,7 @@ public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Mengizinkan untuk mendapatkan antarmuka IPresentationComponent dasar. Hanya-baca [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IPresentationComponent. Hanya-baca [`IPresentationComponent`](../ipresentationcomponent). |
 | [Count](../../aspose.slides/gradientstopcollection/count) { get; } | Mengembalikan jumlah gradient stop dalam koleksi. Hanya-baca Int32. |
 | [IsSynchronized](../../aspose.slides/gradientstopcollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (thread-safe). Hanya-baca Boolean. |
 | [Item](../../aspose.slides/gradientstopcollection/item) { get; } | Mengembalikan gradient stop berdasarkan indeks. |

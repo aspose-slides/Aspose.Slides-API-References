@@ -3,7 +3,7 @@ title: IThemeable
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar objekt som kan tematiseras med ITheme./itheme.
 type: docs
-weight: 11400
+weight: 11420
 url: /sv/aspose.slides.theme/ithemeable/
 ---
 ## IThemeable gränssnitt
@@ -18,7 +18,7 @@ public interface IThemeable : ISlideComponent
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides.theme/ithemeable/asislidecomponent) { get; } | Returnerar ISlideComponent gränssnitt. Endast läsning [`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [AsISlideComponent](../../aspose.slides.theme/ithemeable/asislidecomponent) { get; } | Returnerar ISlideComponent-gränssnittet. Skrivskyddad [`ISlideComponent`](../../aspose.slides/islidecomponent). |
 
 ## Metoder
 

@@ -1,14 +1,14 @@
 ---
 title: ILeftRightDirectionTransition
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Εφέ μετάβασης διαφάνειας με κατεύθυνση αριστερά-δεξιά.
+description: Επίδραση μετάβασης διαφάνειας με κατεύθυνση αριστερά-δεξιά.
 type: docs
-weight: 10120
+weight: 10140
 url: /el/aspose.slides.slideshow/ileftrightdirectiontransition/
 ---
-## ILeftRightDirectionTransition διασύνδεση
+## ILeftRightDirectionTransition διεπαφή
 
-Εφέ μετάβασης διαφάνειας με κατεύθυνση αριστερά-δεξιά.
+Left-right direction slide transition effect.
 
 ```csharp
 public interface ILeftRightDirectionTransition : ITransitionValueBase
@@ -18,12 +18,12 @@ public interface ILeftRightDirectionTransition : ITransitionValueBase
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ileftrightdirectiontransition/asitransitionvaluebase) { get; } | Επιτρέπει την ανάκτηση της βασικής διασύνδεσης ITransitionValueBase. Μόνο για ανάγνωση [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/ileftrightdirectiontransition/direction) { get; set; } | Κατεύθυνση της μετάβασης. Ανάγνωση/εγγραφή [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ileftrightdirectiontransition/asitransitionvaluebase) { get; } | Επιτρέπει την ανάκτηση της βασικής ITransitionValueBase διεπαφής. Μόνο ανάγνωση [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/ileftrightdirectiontransition/direction) { get; set; } | Κατεύθυνση μετάβασης. Ανάγνωση/εγγραφή [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
 
 ### Δείτε επίσης
 
-* διασύνδεση [ITransitionValueBase](../itransitionvaluebase)
+* διεσύνδεση [ITransitionValueBase](../itransitionvaluebase)
 * χώρο ονομάτων [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * συγκρότηση [Aspose.Slides](../../)
 

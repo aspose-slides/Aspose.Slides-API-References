@@ -1,14 +1,14 @@
 ---
 title: ITabCollection
-second_title: Aspose.Sildes สำหรับ .NET API เอกสารอ้างอิง
-description: แสดงถึงคอลเลกชันของแท็บ
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+description: แสดงถึงคอลเลกชันของแท็บ.
 type: docs
-weight: 7200
+weight: 7220
 url: /th/aspose.slides/itabcollection/
 ---
 ## ITabCollection อินเทอร์เฟซ
 
-แสดงถึงคอลเลกชันของแท็บ
+แสดงถึงคอลเลกชันของ tabs.
 
 ```csharp
 public interface ITabCollection : IGenericCollection<ITab>
@@ -18,16 +18,16 @@ public interface ITabCollection : IGenericCollection<ITab>
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Item](../../aspose.slides/itabcollection/item) { get; } | รับรายการที่ตำแหน่งที่ระบุ อ่านอย่างเดียว [`ITab`](../itab). |
+| [Item](../../aspose.slides/itabcollection/item) { get; } | รับองค์ประกอบที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`ITab`](../itab). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Add](../../aspose.slides/itabcollection/add#add_1)(ITab) | เพิ่ม Tab ไปยังคอลเลกชัน |
-| [Add](../../aspose.slides/itabcollection/add#add)(double, TabAlignment) | เพิ่ม Tab ไปยังคอลเลกชัน |
-| [Clear](../../aspose.slides/itabcollection/clear)() | ลบทุกองค์ประกอบจากคอลเลกชัน |
-| [RemoveAt](../../aspose.slides/itabcollection/removeat)(int) | ลบองค์ประกอบที่ตำแหน่งที่ระบุจากคอลเลกชัน |
+| [Add](../../aspose.slides/itabcollection/add#add_1)(ITab) | เพิ่ม Tab ลงในคอลเลกชัน. |
+| [Add](../../aspose.slides/itabcollection/add#add)(double, TabAlignment) | เพิ่ม Tab ลงในคอลเลกชัน. |
+| [Clear](../../aspose.slides/itabcollection/clear)() | ลบองค์ประกอบทั้งหมดจากคอลเลกชัน. |
+| [RemoveAt](../../aspose.slides/itabcollection/removeat)(int) | ลบองค์ประกอบที่ตำแหน่งที่ระบุในคอลเลกชัน. |
 
 ### ดูเพิ่มเติม
 

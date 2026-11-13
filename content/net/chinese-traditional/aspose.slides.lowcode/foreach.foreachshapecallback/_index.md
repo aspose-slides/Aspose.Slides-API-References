@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachShapeCallback
 second_title: Aspose.Sildes .NET API 參考
-description: 回呼會在簡報中的每個 Shape./foreach/shape 被呼叫../aspose.slides/presentation.
+description: 回呼將在 Presentation 中對每個 Shape./foreach/shape 呼叫 ../aspose.slides/presentation.
 type: docs
-weight: 7950
+weight: 7970
 url: /zh-hant/aspose.slides.lowcode/foreach.foreachshapecallback/
 ---
-## ForEach.ForEachShapeCallback 委派
+## ForEach.ForEachShapeCallback delegate
 
-回呼會對每個 [`Shape`](../foreach/shape) 在 [`Presentation`](../../aspose.slides/presentation) 中被呼叫。
+回呼將在 [`Presentation`](../../aspose.slides/presentation) 中對每個 [`Shape`](../foreach/shape) 呼叫。
 
 ```csharp
 public delegate void ForEachShapeCallback(Shape shape, BaseSlide slide, int index);
@@ -19,7 +19,7 @@ public delegate void ForEachShapeCallback(Shape shape, BaseSlide slide, int inde
 | slide |  |
 | index |  |
 
-### 另請參閱
+### 另見
 
 * 類別 [Shape](../../aspose.slides/shape)
 * 類別 [BaseSlide](../../aspose.slides/baseslide)

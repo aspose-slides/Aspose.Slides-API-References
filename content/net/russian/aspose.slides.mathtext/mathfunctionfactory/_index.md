@@ -1,14 +1,14 @@
 ---
 title: MathFunctionFactory
 second_title: Aspose.Sildes для .NET справочник API
-description: Позволяет создать математическую функцию
+description: Позволяет создавать математическую функцию
 type: docs
-weight: 8730
+weight: 8750
 url: /ru/aspose.slides.mathtext/mathfunctionfactory/
 ---
 ## MathFunctionFactory класс
 
-Позволяет создать математическую функцию
+Позволяет создавать математическую функцию
 
 ```csharp
 public class MathFunctionFactory : IMathFunctionFactory
@@ -24,14 +24,14 @@ public class MathFunctionFactory : IMathFunctionFactory
 
 | Имя | Описание |
 | --- | --- |
-| [CreateMathFunction](../../aspose.slides.mathtext/mathfunctionfactory/createmathfunction#createmathfunction)(IMathElement, IMathElement) | Создает математическую функцию |
-| [CreateMathFunction](../../aspose.slides.mathtext/mathfunctionfactory/createmathfunction#createmathfunction_1)(string, IMathElement) | Создает математическую функцию |
+| [CreateMathFunction](../../aspose.slides.mathtext/mathfunctionfactory/createmathfunction#createmathfunction)(IMathElement, IMathElement) | Создаёт математическую функцию |
+| [CreateMathFunction](../../aspose.slides.mathtext/mathfunctionfactory/createmathfunction#createmathfunction_1)(string, IMathElement) | Создаёт математическую функцию |
 
 ### Примечания
 
 Для совместимости с COM
 
-### См. также
+### Смотрите также
 
 * интерфейс [IMathFunctionFactory](../imathfunctionfactory)
 * пространство имён [Aspose.Slides.MathText](../../aspose.slides.mathtext)

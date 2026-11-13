@@ -1,14 +1,14 @@
 ---
 title: IObsoletePresLockingBehaviorWarningInfo
-second_title: Aspose.Sildes pro .NET – referenční příručka API
+second_title: Aspose.Sildes pro .NET API Reference
 description: Toto varování naznačuje, že je použito zastaralé chování zamykání prezentace.
 type: docs
-weight: 11780
+weight: 11800
 url: /cs/aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/
 ---
 ## IObsoletePresLockingBehaviorWarningInfo rozhraní
 
-Toto varování poukazuje na to, že se používá zastaralé chování zamykání prezentace.
+Toto varování naznačuje, že je použito zastaralé chování zamykání prezentace.
 
 ```csharp
 public interface IObsoletePresLockingBehaviorWarningInfo : IWarningInfo
@@ -18,9 +18,9 @@ public interface IObsoletePresLockingBehaviorWarningInfo : IWarningInfo
 
 | Název | Popis |
 | --- | --- |
-| [AsIWarningInfo](../../aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/asiwarninginfo) { get; } | Vrací rozhraní IWarningInfo. Pouze pro čtení [`IWarningInfo`](../iwarninginfo). |
+| [AsIWarningInfo](../../aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/asiwarninginfo) { get; } | Vrací rozhraní IWarningInfo. Jen pro čtení [`IWarningInfo`](../iwarninginfo). |
 
-### Viz také
+### Další informace
 
 * rozhraní [IWarningInfo](../iwarninginfo)
 * jmenný prostor [Aspose.Slides.Warnings](../../aspose.slides.warnings)

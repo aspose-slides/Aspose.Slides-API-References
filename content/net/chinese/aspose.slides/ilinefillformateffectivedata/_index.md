@@ -1,9 +1,9 @@
 ---
 title: ILineFillFormatEffectiveData
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 不可变对象，包含有效的线条填充属性。
 type: docs
-weight: 6300
+weight: 6320
 url: /zh/aspose.slides/ilinefillformateffectivedata/
 ---
 ## ILineFillFormatEffectiveData 接口
@@ -23,11 +23,11 @@ public interface ILineFillFormatEffectiveData : IFillParamSource
 | [GradientFormat](../../aspose.slides/ilinefillformateffectivedata/gradientformat) { get; } | 返回渐变填充格式。只读 [`IGradientFormatEffectiveData`](../igradientformateffectivedata)。 |
 | [PatternFormat](../../aspose.slides/ilinefillformateffectivedata/patternformat) { get; } | 返回图案填充格式。只读 [`IPatternFormatEffectiveData`](../ipatternformateffectivedata)。 |
 | [RotateWithShape](../../aspose.slides/ilinefillformateffectivedata/rotatewithshape) { get; } | 确定填充是否应随形状旋转。只读 Boolean。 |
-| [SolidFillColor](../../aspose.slides/ilinefillformateffectivedata/solidfillcolor) { get; } | 返回纯色填充的颜色。只读 Color。 |
+| [SolidFillColor](../../aspose.slides/ilinefillformateffectivedata/solidfillcolor) { get; } | 返回实心填充的颜色。只读 Color。 |
 
 ### 备注
 
-此接口作为 [`ILineFormatEffectiveData`](../ilineformateffectivedata) 的一部分使用。
+此接口用作 [`ILineFormatEffectiveData`](../ilineformateffectivedata) 的一部分。
 
 ### 另见
 

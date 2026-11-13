@@ -1,14 +1,14 @@
 ---
 title: IRippleTransition
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: रिपल स्लाइड ट्रांज़िशन प्रभाव।
+description: Ripple स्लाइड संक्रमण प्रभाव।
 type: docs
-weight: 10170
+weight: 10190
 url: /hi/aspose.slides.slideshow/irippletransition/
 ---
 ## IRippleTransition इंटरफ़ेस
 
-रिपल स्लाइड ट्रांज़िशन प्रभाव।
+Ripple स्लाइड संक्रमण प्रभाव।
 
 ```csharp
 public interface IRippleTransition : ITransitionValueBase
@@ -18,8 +18,8 @@ public interface IRippleTransition : ITransitionValueBase
 
 | नाम | विवरण |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/irippletransition/asitransitionvaluebase) { get; } | बेस ITransitionValueBase इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/irippletransition/direction) { get; set; } | ट्रांज़िशन की दिशा। पढ़ने/लिखने योग्य [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/irippletransition/asitransitionvaluebase) { get; } | बेस ITransitionValueBase इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`ITransitionValueBase`](../itransitionvaluebase)। |
+| [Direction](../../aspose.slides.slideshow/irippletransition/direction) { get; set; } | संक्रमण की दिशा। पढ़ें/लिखें [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype)। |
 
 ### संबंधित देखें
 

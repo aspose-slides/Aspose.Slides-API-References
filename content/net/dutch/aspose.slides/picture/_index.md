@@ -1,9 +1,9 @@
 ---
 title: Picture
-second_title: Aspose.Sildes voor .NET API-referentie
+second_title: Aspose.Sildes voor .NET API Referentie
 description: Stelt een afbeelding in een presentatie voor.
 type: docs
-weight: 9380
+weight: 9400
 url: /nl/aspose.slides/picture/
 ---
 ## Picture klasse
@@ -18,9 +18,9 @@ public sealed class Picture : ISlidesPicture
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/picture/asipresentationcomponent) { get; } | Geeft toegang tot de basale IPresentationComponent interface. Alleen-lezen [`IPresentationComponent`](../ipresentationcomponent). |
-| [Image](../../aspose.slides/picture/image) { get; set; } | Geeft de ingebedde afbeelding terug of stelt deze in. Lezen/schrijven [`IPPImage`](../ippimage). |
-| [ImageTransform](../../aspose.slides/picture/imagetransform) { get; } | Geeft de verzameling van beeldtransformatie-effecten terug. Alleen-lezen [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
+| [AsIPresentationComponent](../../aspose.slides/picture/asipresentationcomponent) { get; } | Staat toe om de basis IPresentationComponent interface op te halen. Alleen-lezen [`IPresentationComponent`](../ipresentationcomponent). |
+| [Image](../../aspose.slides/picture/image) { get; set; } | Geeft de ingesloten afbeelding terug of stelt deze in. Lezen/schrijven [`IPPImage`](../ippimage). |
+| [ImageTransform](../../aspose.slides/picture/imagetransform) { get; } | Geeft de collectie van beeldtransformatie-effecten terug. Alleen-lezen [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
 | [LinkPathLong](../../aspose.slides/picture/linkpathlong) { get; set; } | Geeft de URL van de gekoppelde afbeelding terug of stelt deze in. Lezen/schrijven String. |
 | [Presentation](../../aspose.slides/picture/presentation) { get; } | Geeft de presentatie terug. Alleen-lezen [`IPresentation`](../ipresentation). |
 | [Slide](../../aspose.slides/picture/slide) { get; } | Geeft de bovenliggende dia van een afbeelding terug. Alleen-lezen [`IBaseSlide`](../ibaseslide). |

@@ -1,14 +1,14 @@
 ---
 title: WheelTransition
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Wheel-Slide-Übergangseffekt.
+description: Wheel-Folienübergangseffekt.
 type: docs
-weight: 10470
+weight: 10490
 url: /de/aspose.slides.slideshow/wheeltransition/
 ---
 ## WheelTransition Klasse
 
-Wheel-Slide-Übergangseffekt.
+Wheel-Folienübergangseffekt.
 
 ```csharp
 public class WheelTransition : TransitionValueBase, IWheelTransition
@@ -18,14 +18,14 @@ public class WheelTransition : TransitionValueBase, IWheelTransition
 
 | Name | Beschreibung |
 | --- | --- |
-| [Spokes](../../aspose.slides.slideshow/wheeltransition/spokes) { get; set; } | Anzahl der Speichen des WheelTransition. Lesen/Schreiben UInt32. |
+| [Spokes](../../aspose.slides.slideshow/wheeltransition/spokes) { get; set; } | Anzahl der Speichen des Radübergangs. Lesen/Schreiben UInt32. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bestimmt, ob die beiden TransitionValueBase-Instanzen gleich sind. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als Hashfunktion für einen bestimmten Typ, geeignet für den Einsatz in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als Hash-Funktion für einen bestimmten Typ, geeignet für die Verwendung in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle. |
 
 ### Siehe auch
 

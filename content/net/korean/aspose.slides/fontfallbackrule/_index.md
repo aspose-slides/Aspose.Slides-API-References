@@ -1,14 +1,14 @@
 ---
 title: FontFallBackRule
-second_title: Aspose.Sildes .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참고
 description: 폰트 폴백 규칙을 나타냅니다
 type: docs
-weight: 4840
+weight: 4860
 url: /ko/aspose.slides/fontfallbackrule/
 ---
 ## FontFallBackRule 클래스
 
-폰트 폴백 규칙을 나타냅니다.
+폰트 폴백 규칙을 나타냅니다
 
 ```csharp
 public class FontFallBackRule : IFontFallBackRule
@@ -16,14 +16,14 @@ public class FontFallBackRule : IFontFallBackRule
 
 ## 생성자
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [FontFallBackRule](fontfallbackrule#constructor)(uint, uint, string) | 새 인스턴스를 생성합니다. |
 | [FontFallBackRule](fontfallbackrule#constructor_1)(uint, uint, string[]) | 새 인스턴스를 생성합니다. |
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides/fontfallbackrule/count) { get; } | 범위에 실제로 정의된 폰트 수를 가져옵니다. 읽기 전용 Int32. |
 | [Item](../../aspose.slides/fontfallbackrule/item) { get; } | 지정된 인덱스의 폰트 이름을 가져옵니다. 읽기 전용 [`IFontFallBackRule`](../ifontfallbackrule). |
@@ -32,7 +32,7 @@ public class FontFallBackRule : IFontFallBackRule
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | 새 폰트를 FallBack 폰트 목록에 추가합니다. |
 | [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | 새 폰트를 FallBack 폰트 목록에 추가합니다. |
@@ -40,10 +40,10 @@ public class FontFallBackRule : IFontFallBackRule
 | [IndexOf](../../aspose.slides/fontfallbackrule/indexof)(string) | 컬렉션에서 지정된 규칙의 인덱스를 반환합니다. |
 | [Remove](../../aspose.slides/fontfallbackrule/remove)(string) | 목록에서 특정 FallBack 폰트의 첫 번째 항목을 제거합니다. |
 | [RemoveAt](../../aspose.slides/fontfallbackrule/removeat)(int) | 목록에서 지정된 인덱스의 FallBack 폰트를 제거합니다. |
-| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray)() | 이 규칙에 대한 모든 FallBack 폰트를 포함하는 배열을 생성하고 반환합니다. |
-| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray_1)(int, int) | 목록에서 지정된 범위의 모든 FallBack 폰트를 포함하는 배열을 생성하고 반환합니다. |
+| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray)() | 이 규칙에 대한 모든 FallBack 폰트가 포함된 배열을 생성하고 반환합니다. |
+| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray_1)(int, int) | 목록에서 지정된 범위의 모든 FallBack 폰트가 포함된 배열을 생성하고 반환합니다. |
 
-### 참조
+### 참고
 
 * 인터페이스 [IFontFallBackRule](../ifontfallbackrule)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

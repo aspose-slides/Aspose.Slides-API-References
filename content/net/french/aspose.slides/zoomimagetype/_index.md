@@ -1,9 +1,9 @@
 ---
 title: ZoomImageType
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Définit si l'objet Zoom utilise l'aperçu de la diapositive ou une image de couverture.
 type: docs
-weight: 11850
+weight: 11870
 url: /fr/aspose.slides/zoomimagetype/
 ---
 ## ZoomImageType énumération

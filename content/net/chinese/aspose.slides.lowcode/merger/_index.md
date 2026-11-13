@@ -1,9 +1,9 @@
 ---
 title: Merger
-second_title: Aspose.Sildes 的 .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示一组用于将相同格式的 PowerPoint 演示文稿合并为一个文件的方法。
 type: docs
-weight: 7970
+weight: 7990
 url: /zh/aspose.slides.lowcode/merger/
 ---
 ## Merger 类
@@ -23,7 +23,7 @@ public static class Merger
 | static [Process](../../aspose.slides.lowcode/merger/process#process_1)(string[], Stream, ISaveOptions) | 将多个相同格式的 PowerPoint 演示文稿合并为单个演示文稿文件。 |
 | static [Process](../../aspose.slides.lowcode/merger/process#process_3)(string[], string, ISaveOptions) | 将多个相同格式的 PowerPoint 演示文稿合并为单个演示文稿文件。 |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
 * 程序集 [Aspose.Slides](../../)

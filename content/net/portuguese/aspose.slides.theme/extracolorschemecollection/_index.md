@@ -1,12 +1,12 @@
 ---
 title: ExtraColorSchemeCollection
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para referência da API .NET
 description: Representa uma coleção de esquemas de cores adicionais.
 type: docs
-weight: 11110
+weight: 11130
 url: /pt/aspose.slides.theme/extracolorschemecollection/
 ---
-## ExtraColorSchemeCollection classe
+## classe ExtraColorSchemeCollection
 
 Representa uma coleção de esquemas de cores adicionais.
 
@@ -19,7 +19,7 @@ public class ExtraColorSchemeCollection : IExtraColorSchemeCollection
 | Nome | Descrição |
 | --- | --- |
 | [Count](../../aspose.slides.theme/extracolorschemecollection/count) { get; } | Retorna um número de elementos na coleção. Somente leitura Int32. |
-| [IsSynchronized](../../aspose.slides.theme/extracolorschemecollection/issynchronized) { get; } | Retorna um valor que indica se o acesso ao ArrayList é sincronizado (thread safe). Somente leitura Boolean. |
+| [IsSynchronized](../../aspose.slides.theme/extracolorschemecollection/issynchronized) { get; } | Retorna um valor que indica se o acesso ao ArrayList está sincronizado (thread safe). Somente leitura Boolean. |
 | [Item](../../aspose.slides.theme/extracolorschemecollection/item) { get; } | Retorna um esquema de cores por índice. Somente leitura [`ExtraColorScheme`](../extracolorscheme). |
 | [SyncRoot](../../aspose.slides.theme/extracolorschemecollection/syncroot) { get; } | Retorna um objeto que pode ser usado para sincronizar o acesso à coleção. Somente leitura Object. |
 
@@ -28,7 +28,7 @@ public class ExtraColorSchemeCollection : IExtraColorSchemeCollection
 | Nome | Descrição |
 | --- | --- |
 | [CopyTo](../../aspose.slides.theme/extracolorschemecollection/copyto)(Array, int) | Copia todos os elementos da coleção para o array especificado. |
-| [GetEnumerator](../../aspose.slides.theme/extracolorschemecollection/getenumerator)() | Retorna um enumerador que itera através da coleção. |
+| [GetEnumerator](../../aspose.slides.theme/extracolorschemecollection/getenumerator)() | Retorna um enumerador que itera pela coleção. |
 
 ### Veja Também
 

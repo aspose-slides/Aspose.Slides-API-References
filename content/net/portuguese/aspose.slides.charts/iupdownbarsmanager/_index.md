@@ -1,12 +1,12 @@
 ---
 title: IUpDownBarsManager
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Fornece acesso às barras de alta/baixa de gráfico de linha ou de ações.
 type: docs
-weight: 2260
+weight: 2280
 url: /pt/aspose.slides.charts/iupdownbarsmanager/
 ---
-## interface IUpDownBarsManager
+## IUpDownBarsManager interface
 
 Fornece acesso às barras de alta/baixa de gráfico de linha ou de ações.
 
@@ -19,11 +19,11 @@ public interface IUpDownBarsManager
 | Nome | Descrição |
 | --- | --- |
 | [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | Retorna o formato das barras de baixa. Somente leitura [`IFormat`](../iformat). |
-| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | Retorna ou define a largura do espaço. Leitura/gravação Int32. |
+| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | Retorna ou define a largura do intervalo. Leitura/gravação Int32. |
 | [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | Determina se o gráfico possui barras de alta/baixa. Leitura/gravação Boolean. |
 | [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | Retorna o formato das barras de alta. Somente leitura [`IFormat`](../iformat). |
 
-### Veja Também
+### Veja também
 
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

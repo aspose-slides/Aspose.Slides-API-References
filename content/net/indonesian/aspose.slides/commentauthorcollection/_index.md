@@ -1,14 +1,14 @@
 ---
 title: CommentAuthorCollection
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili kumpulan penulis komentar.
+description: Mewakili koleksi penulis komentar.
 type: docs
-weight: 2640
+weight: 2660
 url: /id/aspose.slides/commentauthorcollection/
 ---
 ## CommentAuthorCollection kelas
 
-Mewakili kumpulan penulis komentar.
+Represents a collection of comment authors.
 
 ```csharp
 public sealed class CommentAuthorCollection : DomObject<Presentation>, ICommentAuthorCollection
@@ -18,10 +18,10 @@ public sealed class CommentAuthorCollection : DomObject<Presentation>, ICommentA
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Count](../../aspose.slides/commentauthorcollection/count) { get; } | Mendapatkan jumlah elemen yang sebenarnya terkandung dalam koleksi. Hanya-baca Int32. |
-| [IsSynchronized](../../aspose.slides/commentauthorcollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (aman terhadap thread). Hanya-baca Boolean. |
-| [Item](../../aspose.slides/commentauthorcollection/item) { get; } | Mendapatkan elemen pada indeks yang ditentukan. Hanya-baca [`ICommentAuthor`](../icommentauthor). |
-| [SyncRoot](../../aspose.slides/commentauthorcollection/syncroot) { get; } | Mengembalikan akar sinkronisasi. Hanya-baca Object. |
+| [Count](../../aspose.slides/commentauthorcollection/count) { get; } | Mendapatkan jumlah elemen yang sebenarnya terkandung dalam koleksi. Hanya baca Int32. |
+| [IsSynchronized](../../aspose.slides/commentauthorcollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (thread-safe). Hanya baca Boolean. |
+| [Item](../../aspose.slides/commentauthorcollection/item) { get; } | Mendapatkan elemen pada indeks yang ditentukan. Hanya baca [`ICommentAuthor`](../icommentauthor). |
+| [SyncRoot](../../aspose.slides/commentauthorcollection/syncroot) { get; } | Mengembalikan akar sinkronisasi. Hanya baca Object. |
 
 ## Metode
 

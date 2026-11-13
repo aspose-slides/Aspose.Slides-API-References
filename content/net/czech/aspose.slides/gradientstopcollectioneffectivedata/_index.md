@@ -1,9 +1,9 @@
 ---
 title: GradientStopCollectionEffectiveData
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET – referenční příručka API
 description: Představuje kolekci objektů GradientStopData.
 type: docs
-weight: 5040
+weight: 5060
 url: /cs/aspose.slides/gradientstopcollectioneffectivedata/
 ---
 ## GradientStopCollectionEffectiveData třída
@@ -19,7 +19,7 @@ public class GradientStopCollectionEffectiveData : IGradientStopCollectionEffect
 | Název | Popis |
 | --- | --- |
 | [Count](../../aspose.slides/gradientstopcollectioneffectivedata/count) { get; } | Vrací počet gradientových zastávek v kolekci. Pouze pro čtení Int32. |
-| [IsSynchronized](../../aspose.slides/gradientstopcollectioneffectivedata/issynchronized) { get; } | Vrací hodnotu označující, zda je přístup ke kolekci synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
+| [IsSynchronized](../../aspose.slides/gradientstopcollectioneffectivedata/issynchronized) { get; } | Vrací hodnotu, která udává, zda je přístup ke kolekci synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
 | [Item](../../aspose.slides/gradientstopcollectioneffectivedata/item) { get; } | Vrací gradientovou zastávku podle indexu. |
 | [SyncRoot](../../aspose.slides/gradientstopcollectioneffectivedata/syncroot) { get; } | Vrací kořen synchronizace. Pouze pro čtení Object. |
 
@@ -27,8 +27,8 @@ public class GradientStopCollectionEffectiveData : IGradientStopCollectionEffect
 
 | Název | Popis |
 | --- | --- |
-| [CopyTo](../../aspose.slides/gradientstopcollectioneffectivedata/copyto)(Array, int) | Zkopíruje všechny prvky z kolekce do zadaného pole. |
-| [GetEnumerator](../../aspose.slides/gradientstopcollectioneffectivedata/getenumerator)() | Vrací enumerátor, který prochází kolekcí. |
+| [CopyTo](../../aspose.slides/gradientstopcollectioneffectivedata/copyto)(Array, int) | Zkopíruje všechny prvky ze sbírky do určeného pole. |
+| [GetEnumerator](../../aspose.slides/gradientstopcollectioneffectivedata/getenumerator)() | Vrací enumerátor, který iteruje přes kolekci. |
 
 ### Viz také
 

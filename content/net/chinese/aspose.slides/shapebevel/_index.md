@@ -1,14 +1,14 @@
 ---
 title: ShapeBevel
 second_title: Aspose.Sildes for .NET API 参考
-description: 包含形状主面浮雕的属性。
+description: 包含形状主要面浮雕的属性。
 type: docs
-weight: 9850
+weight: 9870
 url: /zh/aspose.slides/shapebevel/
 ---
 ## ShapeBevel 类
 
-包含形状主面浮雕的属性。
+包含形状主要面浮雕的属性。
 
 ```csharp
 public sealed class ShapeBevel : PVIObject, IShapeBevel
@@ -24,10 +24,10 @@ public sealed class ShapeBevel : PVIObject, IShapeBevel
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取 base IPresentationComponent 接口。只读 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [BevelType](../../aspose.slides/shapebevel/beveltype) { get; set; } | 斜面类型。读写 [`BevelPresetType`](../bevelpresettype)。 |
-| [Height](../../aspose.slides/shapebevel/height) { get; set; } | 斜面高度。读写 Double。 |
-| [Width](../../aspose.slides/shapebevel/width) { get; set; } | 斜面宽度。读写 Double。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基础 IPresentationComponent 接口。只读 [`IPresentationComponent`](../ipresentationcomponent)。 |
+| [BevelType](../../aspose.slides/shapebevel/beveltype) { get; set; } | 倒角类型。读/写 [`BevelPresetType`](../bevelpresettype)。 |
+| [Height](../../aspose.slides/shapebevel/height) { get; set; } | 倒角高度。读/写 Double。 |
+| [Width](../../aspose.slides/shapebevel/width) { get; set; } | 倒角宽度。读/写 Double。 |
 
 ## 方法
 
@@ -36,7 +36,7 @@ public sealed class ShapeBevel : PVIObject, IShapeBevel
 | override [Equals](../../aspose.slides/shapebevel/equals)(object) |  |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 返回哈希码。 |
 
-### 另请参阅
+### 另请参见
 
 * 类 [PVIObject](../pviobject)
 * 接口 [IShapeBevel](../ishapebevel)

@@ -3,7 +3,7 @@ title: TabAlignment
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt de tabuitlijning voor.
 type: docs
-weight: 10830
+weight: 10850
 url: /nl/aspose.slides/tabalignment/
 ---
 ## TabAlignment enumeratie
@@ -18,9 +18,9 @@ public enum TabAlignment
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| Left | `0` | Linker uitlijning |
+| Left | `0` | Linkeruitlijning |
 | Center | `1` | Centrale uitlijning |
-| Right | `2` | Rechter uitlijning |
+| Right | `2` | Rechteruitlijning |
 | Decimal | `3` | Decimale uitlijning |
 
 ### Zie ook

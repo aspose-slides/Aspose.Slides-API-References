@@ -3,7 +3,7 @@ title: ValueFromCell
 second_title: Aspose.Sildes pro .NET API Reference
 description: Získá nebo nastaví buňku dat sešitu. Použije se, pokud je vlastnost IDataLabelFormat.ShowLabelValueFromCell nastavena na true.
 type: docs
-weight: 60
+weight: 70
 url: /cs/aspose.slides.charts/idatalabel/valuefromcell/
 ---
 ## IDataLabel.ValueFromCell vlastnost

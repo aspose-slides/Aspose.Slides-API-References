@@ -1,9 +1,9 @@
 ---
 title: ILineFormat
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente le format d'une ligne.
 type: docs
-weight: 6310
+weight: 6330
 url: /fr/aspose.slides/ilineformat/
 ---
 ## ILineFormat interface
@@ -16,7 +16,7 @@ public interface ILineFormat : ILineParamSource
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [Alignment](../../aspose.slides/ilineformat/alignment) { get; set; } | Renvoie ou définit l'alignement de la ligne. Lecture/écriture [`LineAlignment`](../linealignment). |
 | [AsILineParamSource](../../aspose.slides/ilineformat/asilineparamsource) { get; } | Permet d'obtenir l'interface de base ILineParamSource. Lecture seule [`ILineParamSource`](../ilineparamsource). |
@@ -24,22 +24,22 @@ public interface ILineFormat : ILineParamSource
 | [BeginArrowheadStyle](../../aspose.slides/ilineformat/beginarrowheadstyle) { get; set; } | Renvoie ou définit le style de la pointe de flèche au début d'une ligne. Lecture/écriture [`LineArrowheadStyle`](../linearrowheadstyle). |
 | [BeginArrowheadWidth](../../aspose.slides/ilineformat/beginarrowheadwidth) { get; set; } | Renvoie ou définit la largeur de la pointe de flèche au début d'une ligne. Lecture/écriture [`LineArrowheadWidth`](../linearrowheadwidth). |
 | [CapStyle](../../aspose.slides/ilineformat/capstyle) { get; set; } | Renvoie ou définit le style de terminaison de ligne. Lecture/écriture [`LineCapStyle`](../linecapstyle). |
-| [CustomDashPattern](../../aspose.slides/ilineformat/customdashpattern) { get; set; } | Renvoie ou définit le motif de tiret personnalisé. Lecture/écriture Single[]. |
-| [DashStyle](../../aspose.slides/ilineformat/dashstyle) { get; set; } | Renvoie ou définit le style de tiret de la ligne. Lecture/écriture [`LineDashStyle`](../linedashstyle). |
+| [CustomDashPattern](../../aspose.slides/ilineformat/customdashpattern) { get; set; } | Renvoie ou définit le motif de tirets personnalisé. Lecture/écriture Single[]. |
+| [DashStyle](../../aspose.slides/ilineformat/dashstyle) { get; set; } | Renvoie ou définit le style de tirets de ligne. Lecture/écriture [`LineDashStyle`](../linedashstyle). |
 | [EndArrowheadLength](../../aspose.slides/ilineformat/endarrowheadlength) { get; set; } | Renvoie ou définit la longueur de la pointe de flèche à la fin d'une ligne. Lecture/écriture [`LineArrowheadLength`](../linearrowheadlength). |
 | [EndArrowheadStyle](../../aspose.slides/ilineformat/endarrowheadstyle) { get; set; } | Renvoie ou définit le style de la pointe de flèche à la fin d'une ligne. Lecture/écriture [`LineArrowheadStyle`](../linearrowheadstyle). |
 | [EndArrowheadWidth](../../aspose.slides/ilineformat/endarrowheadwidth) { get; set; } | Renvoie ou définit la largeur de la pointe de flèche à la fin d'une ligne. Lecture/écriture [`LineArrowheadWidth`](../linearrowheadwidth). |
 | [FillFormat](../../aspose.slides/ilineformat/fillformat) { get; } | Renvoie le format de remplissage d'une ligne. Lecture seule [`ILineFillFormat`](../ilinefillformat). |
-| [IsFormatNotDefined](../../aspose.slides/ilineformat/isformatnotdefined) { get; } | Renvoie true si le format de ligne n'est pas défini (tel que vient d'être créé, valeur par défaut). Lecture seule Boolean. |
-| [JoinStyle](../../aspose.slides/ilineformat/joinstyle) { get; set; } | Renvoie ou définit le style d'assemblage des lignes. Lecture/écriture [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/ilineformat/miterlimit) { get; set; } | Renvoie ou définit la limite d'onglet d'une ligne. Lecture/écriture Single. |
+| [IsFormatNotDefined](../../aspose.slides/ilineformat/isformatnotdefined) { get; } | Renvoie vrai si le format de ligne n'est pas défini (comme juste créé, défaut). Lecture seule Boolean. |
+| [JoinStyle](../../aspose.slides/ilineformat/joinstyle) { get; set; } | Renvoie ou définit le style de jonction des lignes. Lecture/écriture [`LineJoinStyle`](../linejoinstyle). |
+| [MiterLimit](../../aspose.slides/ilineformat/miterlimit) { get; set; } | Renvoie ou définit la limite d'angle d'une ligne. Lecture/écriture Single. |
 | [SketchFormat](../../aspose.slides/ilineformat/sketchformat) { get; } | Renvoie le format de croquis d'une ligne. Lecture seule [`ISketchFormat`](../isketchformat). |
-| [Style](../../aspose.slides/ilineformat/style) { get; set; } | Renvoie ou définit le style de la ligne. Lecture/écriture [`LineStyle`](../linestyle). |
+| [Style](../../aspose.slides/ilineformat/style) { get; set; } | Renvoie ou définit le style de ligne. Lecture/écriture [`LineStyle`](../linestyle). |
 | [Width](../../aspose.slides/ilineformat/width) { get; set; } | Renvoie ou définit la largeur d'une ligne. Lecture/écriture Double. |
 
 ## Méthodes
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [Equals](../../aspose.slides/ilineformat/equals)(ILineFormat) | Détermine si les deux instances de LineFormat sont égales. |
 | [GetEffective](../../aspose.slides/ilineformat/geteffective)() | Obtient les données de format de ligne effectives avec l'héritage appliqué. |

@@ -1,14 +1,14 @@
 ---
 title: IProgressCallback
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 進捗状況の更新（パーセンテージ）を保存するためのコールバックオブジェクトを表します。
+description: 進捗更新をパーセンテージで保存するためのコールバック オブジェクトを表します。
 type: docs
-weight: 6810
+weight: 6830
 url: /ja/aspose.slides/iprogresscallback/
 ---
-## IProgressCallback インターフェイス
+## IProgressCallback インターフェース
 
-進捗状況の更新（パーセンテージ）を保存するためのコールバックオブジェクトを表します。
+パーセンテージでの進捗更新を保存するコールバック オブジェクトを表します。
 
 ```csharp
 public interface IProgressCallback
@@ -18,7 +18,7 @@ public interface IProgressCallback
 
 | 名前 | 説明 |
 | --- | --- |
-| [Reporting](../../aspose.slides/iprogresscallback/reporting)(double) | 進行状況の更新を報告します。 |
+| [Reporting](../../aspose.slides/iprogresscallback/reporting)(double) | 進捗更新を報告します。 |
 
 ### 参照
 
