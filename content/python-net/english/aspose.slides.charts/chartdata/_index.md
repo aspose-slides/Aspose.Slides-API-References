@@ -37,6 +37,7 @@ The ChartData type exposes the following members:
 | [`write_workbook_stream(self, ms)`](/slides/python-net/aspose.slides.charts/chartdata/write_workbook_stream/#iorawiobase) | Initializes the internally contained Excel workbook with user-specified value. |
 | [`get_range(self)`](/slides/python-net/aspose.slides.charts/chartdata/get_range/#) | Gets chart data range. |
 | [`set_range(self, formula)`](/slides/python-net/aspose.slides.charts/chartdata/set_range/#str) | Set chart data range. Series and categories will be updated based on new data range.<br/>            If amount of series in data range greater than count of series in the chart data then additional series with the same type<br/>            as a last series in the current collection will be added to the end of the collection. |
+| [`refresh_data(self)`](/slides/python-net/aspose.slides.charts/chartdata/refresh_data/#) | Refreshes the chart data by reloading it from the source workbook. |
 | [`switch_row_column(self)`](/slides/python-net/aspose.slides.charts/chartdata/switch_row_column/#) | Swap the data over the axis.<br/>            Data being charted on the X axis will move to the Y axis and vice versa. |
 
 

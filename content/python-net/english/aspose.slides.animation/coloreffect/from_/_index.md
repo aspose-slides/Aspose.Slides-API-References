@@ -1,0 +1,32 @@
+﻿---
+title: from_ property
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides.animation/coloreffect/from_/
+weight: 80
+---
+
+
+## from_ property
+This value is used to specify the starting color of behavior.
+            Read/write [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat).
+
+### Definition:
+```python
+@property
+def from_(self):
+    ...
+
+@from_.setter
+def from_(self, value):
+    ...
+```
+
+
+### See Also
+* class [`ColorEffect`](/slides/python-net/aspose.slides.animation/coloreffect)
+* class [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat)
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)
+

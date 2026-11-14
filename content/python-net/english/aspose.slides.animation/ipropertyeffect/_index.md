@@ -17,7 +17,7 @@ The IPropertyEffect type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`from_address`](/slides/python-net/aspose.slides.animation/ipropertyeffect/from_address/) | Specifies the starting value of the animation.<br/>            Read/write **str**. |
+| [`from_`](/slides/python-net/aspose.slides.animation/ipropertyeffect/from_/) | Specifies the starting value of the animation.<br/>            Read/write **str**. |
 | [`to`](/slides/python-net/aspose.slides.animation/ipropertyeffect/to/) | Specifies the ending value for the animation.<br/>            Read/write **str**. |
 | [`by`](/slides/python-net/aspose.slides.animation/ipropertyeffect/by/) | Specifies a relative offset value for the animation with respect to its<br/>            position before the start of the animation.<br/>            Read/write **str**. |
 | [`value_type`](/slides/python-net/aspose.slides.animation/ipropertyeffect/value_type/) | Specifies the type of a property value.<br/>            Read/write [`PropertyValueType`](/slides/python-net/aspose.slides.animation/propertyvaluetype). |

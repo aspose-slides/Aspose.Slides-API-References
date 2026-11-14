@@ -23,6 +23,7 @@ The IDataLabelCollection type exposes the following members:
 | [`count_of_visible_data_labels`](/slides/python-net/aspose.slides.charts/idatalabelcollection/count_of_visible_data_labels/) | Gets the number of visible data labels in the collection.<br/>            Read-only **int**. |
 | [`count`](/slides/python-net/aspose.slides.charts/idatalabelcollection/count/) | Gets the number of all data labels in the collection.<br/>            Read-only **int**. |
 | [`parent_series`](/slides/python-net/aspose.slides.charts/idatalabelcollection/parent_series/) | Returns parent chart series.<br/>            Read-only [`IChartSeries`](/slides/python-net/aspose.slides.charts/ichartseries). |
+| [`default_label_shape_type`](/slides/python-net/aspose.slides.charts/idatalabelcollection/default_label_shape_type/) | Gets or sets the default shape type for data labels.<br/>             Returns [`ShapeType.NOT_DEFINED`](/slides/python-net/aspose.slides/shapetype/NOT_DEFINED) if no shape is defined. |
 | [`chart`](/slides/python-net/aspose.slides.charts/idatalabelcollection/chart/) |  |
 | [`slide`](/slides/python-net/aspose.slides.charts/idatalabelcollection/slide/) |  |
 | [`presentation`](/slides/python-net/aspose.slides.charts/idatalabelcollection/presentation/) |  |

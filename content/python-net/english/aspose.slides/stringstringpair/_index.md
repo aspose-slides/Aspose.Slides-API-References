@@ -13,12 +13,6 @@ Structure contains string key and string value and is temporary replacement of K
 
 The StringStringPair type exposes the following members:
 
-## Constructors
-
-| Constructor | Description |
-| :- | :- |
-| [`__init__(self)`](/slides/python-net/aspose.slides/stringstringpair/__init__/#) |  |
-
 ## Properties
 
 | Property | Description |

@@ -21,6 +21,7 @@ The IChartCategory type exposes the following members:
 | [`as_cell`](/slides/python-net/aspose.slides.charts/ichartcategory/as_cell/) | Returns or sets IChartDataCell object.<br/>            If category is multi-level then used IChartDataCell object for level "0".<br/>            Read/write [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell). |
 | [`as_literal`](/slides/python-net/aspose.slides.charts/ichartcategory/as_literal/) | Returns or sets AsLiteral if UseCell is false.<br/>            Read/write **any**. |
 | [`value`](/slides/python-net/aspose.slides.charts/ichartcategory/value/) | If UseCell is true then this property represents AsCell.Value property.<br/>            If UseCell is false then this property represents AsLiteral property.<br/>            Read/write **any**. |
+| [`cached_value`](/slides/python-net/aspose.slides.charts/ichartcategory/cached_value/) | Gets the cached value of a chart category.<br/>            Read-only [`ICachedChartValue`](/slides/python-net/aspose.slides.charts/icachedchartvalue). |
 | [`grouping_levels`](/slides/python-net/aspose.slides.charts/ichartcategory/grouping_levels/) | Managed container of the values of the chart category grouping levels.<br/>            Multi-level category contain more then one grouping level.<br/>            Grouping levels indexing is zero-based.<br/>            Read-only [`IChartCategoryLevelsManager`](/slides/python-net/aspose.slides.charts/ichartcategorylevelsmanager). |
 
 ## Methods

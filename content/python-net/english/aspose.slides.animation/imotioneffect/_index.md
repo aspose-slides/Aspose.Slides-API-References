@@ -17,7 +17,7 @@ The IMotionEffect type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`from_address`](/slides/python-net/aspose.slides.animation/imotioneffect/from_address/) | Specifies an x/y co-ordinate to start the animation from (in percents). <br/>            Read/write [`PointF`](/slides/python-net/aspose.slides/pointf). |
+| [`from_`](/slides/python-net/aspose.slides.animation/imotioneffect/from_/) | Specifies an x/y co-ordinate to start the animation from (in percents). <br/>            Read/write [`PointF`](/slides/python-net/aspose.slides/pointf). |
 | [`to`](/slides/python-net/aspose.slides.animation/imotioneffect/to/) | Specifies the target location for an animation motion effect (in percents).<br/>            Read/write [`PointF`](/slides/python-net/aspose.slides/pointf). |
 | [`by`](/slides/python-net/aspose.slides.animation/imotioneffect/by/) | Describes the relative offset value for the animation (in percents).<br/>            Read/write [`PointF`](/slides/python-net/aspose.slides/pointf). |
 | [`rotation_center`](/slides/python-net/aspose.slides.animation/imotioneffect/rotation_center/) | Describes the center of the rotation used to rotate a motion path by X angle.<br/>            Read/write [`PointF`](/slides/python-net/aspose.slides/pointf). |

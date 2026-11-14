@@ -9,8 +9,19 @@ weight: 100
 
 
 ## gap_depth property
-Returns or sets the distance, as a percentage of the marker width, between the data series in a 3D chart.
+Gets or sets the distance between data series in a 3D chart, as a percentage of the marker width.
+            The value must be between 0 and 500.
             Read/write **int**.
+
+
+### Remarks
+
+This property applies to series of the following types:
+            3D bar and column subtypes (see also **Aspose.Slides.Charts.ChartTypeCharacterizer.IsBar3DChart(Aspose.Slides.Chart** method), 
+            [`ChartType.LINE_3D`](/slides/python-net/aspose.slides.charts/charttype/LINE_3D),
+            [`ChartType.AREA_3D`](/slides/python-net/aspose.slides.charts/charttype/AREA_3D),
+            [`ChartType.STACKED_AREA_3D`](/slides/python-net/aspose.slides.charts/charttype/STACKED_AREA_3D),
+            [`ChartType.PERCENTS_STACKED_AREA_3D`](/slides/python-net/aspose.slides.charts/charttype/PERCENTS_STACKED_AREA_3D).
 
 ### Definition:
 ```python
