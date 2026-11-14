@@ -381,7 +381,6 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`PptException`](/slides/python-net/aspose.slides/pptexception/) | Represents a standard internal exception type. |
 | [`PptReadException`](/slides/python-net/aspose.slides/pptreadexception/) | Represents an exception which thrown on presentation reading errors. |
 | [`PptUnsupportedFormatException`](/slides/python-net/aspose.slides/pptunsupportedformatexception/) | Exception which thrown when presentation file format is unsupported. |
-| [`PptxCorruptFileException`](/slides/python-net/aspose.slides/pptxcorruptfileexception/) | Exception which thrown when presentation file is probably corrupt. |
 | [`PptxEditException`](/slides/python-net/aspose.slides/pptxeditexception/) | Represents an exception thrown when edit presentation error is detected. |
 | [`PptxException`](/slides/python-net/aspose.slides/pptxexception/) | Represents a standard internal exception type. |
 | [`PptxReadException`](/slides/python-net/aspose.slides/pptxreadexception/) | Represents an exception which thrown on presentation reading errors. |

@@ -44,8 +44,8 @@ The MathDelimiter type exposes the following members:
 | [`divide(self, denominator)`](/slides/python-net/aspose.slides.mathtext/mathdelimiter/divide/#str) | Creates a fraction with this numerator and specified denominator |
 | [`divide(self, denominator, fraction_type)`](/slides/python-net/aspose.slides.mathtext/mathdelimiter/divide/#imathelement-mathfractiontypes) | Creates a fraction of the specified type with this numerator and specified denominator |
 | [`divide(self, denominator, fraction_type)`](/slides/python-net/aspose.slides.mathtext/mathdelimiter/divide/#str-mathfractiontypes) | Creates a fraction of the specified type with this numerator and specified denominator |
-| [`enclose(self, beginning_character, ending_character)`](/slides/python-net/aspose.slides.mathtext/mathdelimiter/enclose/#char-char) | Encloses a math element in specified characters such as parenthesis or another characters as framing |
 | [`enclose(self)`](/slides/python-net/aspose.slides.mathtext/mathdelimiter/enclose/#) | Encloses a math element in parenthesis |
+| [`enclose(self, beginning_character, ending_character)`](/slides/python-net/aspose.slides.mathtext/mathdelimiter/enclose/#char-char) | Encloses a math element in specified characters such as parenthesis or another characters as framing |
 | [`function(self, function_argument)`](/slides/python-net/aspose.slides.mathtext/mathdelimiter/function/#imathelement) | Takes a function of an argument using this instance as the function name |
 | [`function(self, function_argument)`](/slides/python-net/aspose.slides.mathtext/mathdelimiter/function/#str) | Takes a function of an argument using this instance as the function name |
 | [`as_argument_of_function(self, function_name)`](/slides/python-net/aspose.slides.mathtext/mathdelimiter/as_argument_of_function/#imathelement) | Takes specified function using this instance as the argument |

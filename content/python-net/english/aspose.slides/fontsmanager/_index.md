@@ -19,6 +19,7 @@ The FontsManager type exposes the following members:
 | :- | :- |
 | [`font_subst_rule_list`](/slides/python-net/aspose.slides/fontsmanager/font_subst_rule_list/) | Font substitutions to use when rendering.<br/>            Read/write [`IFontSubstRuleCollection`](/slides/python-net/aspose.slides/ifontsubstrulecollection). |
 | [`font_fall_back_rules_collection`](/slides/python-net/aspose.slides/fontsmanager/font_fall_back_rules_collection/) | Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality<br/>            Read/write [`IFontFallBackRulesCollection`](/slides/python-net/aspose.slides/ifontfallbackrulescollection). |
+| [`prefer_registered_fonts_over_embedded`](/slides/python-net/aspose.slides/fontsmanager/prefer_registered_fonts_over_embedded/) | Specifies whether registered fonts should be preferred over embedded fonts with the same font name and style.<br/>            When enabled, matching embedded fonts are temporarily replaced with corresponding registered fonts during export. |
 
 ## Methods
 

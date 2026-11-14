@@ -4,12 +4,12 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/ichartdatapoint/y_value/
-weight: 240
+weight: 280
 ---
 
 
 ## y_value property
-Returns the y value of chart data point.
+Gets the y value of a chart data point.
             Read-only [`IDoubleChartValue`](/slides/python-net/aspose.slides.charts/idoublechartvalue).
 
 ### Definition:

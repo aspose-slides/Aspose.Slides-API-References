@@ -73,6 +73,7 @@ The IPresentation type exposes the following members:
 | [`highlight_regex(self, regex, highlight_color)`](/slides/python-net/aspose.slides/ipresentation/highlight_regex/#str-asposeslidescolor) | Highlights all matches of the regular expression with the specified color. |
 | [`replace_text(self, old_text, new_text, options, callback)`](/slides/python-net/aspose.slides/ipresentation/replace_text/#str-str-itextsearchoptions-ifindresultcallback) | Replaces all occurrences of the specified text with another specified text. |
 | [`replace_regex(self, regex, new_text)`](/slides/python-net/aspose.slides/ipresentation/replace_regex/#str-str) | Replaces all matches of the regular expression with the specified string. |
+| [`refresh_charts_data(self, skip_failed_charts)`](/slides/python-net/aspose.slides/ipresentation/refresh_charts_data/#bool) | Reloads the data for all charts in the presentation from their source workbooks. |
 
 
 ### See Also

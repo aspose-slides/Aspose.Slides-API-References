@@ -24,6 +24,7 @@ The DataLabelCollection type exposes the following members:
 | [`default_data_label_format`](/slides/python-net/aspose.slides.charts/datalabelcollection/default_data_label_format/) | Gets the default data label format.<br/>            Read-only [`IDataLabelFormat`](/slides/python-net/aspose.slides.charts/idatalabelformat). |
 | [`leader_lines_format`](/slides/python-net/aspose.slides.charts/datalabelcollection/leader_lines_format/) | Represents data labels leader lines format.<br/>             Read-only [`IChartLinesFormat`](/slides/python-net/aspose.slides.charts/ichartlinesformat). |
 | [`parent_series`](/slides/python-net/aspose.slides.charts/datalabelcollection/parent_series/) | Gets the parent series.<br/>            Read-only [`IChartSeries`](/slides/python-net/aspose.slides.charts/ichartseries). |
+| [`default_label_shape_type`](/slides/python-net/aspose.slides.charts/datalabelcollection/default_label_shape_type/) | Gets or sets the default shape type for data labels.<br/>             Returns [`ShapeType.NOT_DEFINED`](/slides/python-net/aspose.slides/shapetype/NOT_DEFINED) if no shape is defined. |
 | [`slide`](/slides/python-net/aspose.slides.charts/datalabelcollection/slide/) |  |
 | [`presentation`](/slides/python-net/aspose.slides.charts/datalabelcollection/presentation/) |  |
 

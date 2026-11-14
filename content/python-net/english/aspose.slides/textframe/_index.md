@@ -39,6 +39,7 @@ The TextFrame type exposes the following members:
 | [`split_text_by_columns(self)`](/slides/python-net/aspose.slides/textframe/split_text_by_columns/#) | Splits the text content of the [`ITextFrame`](/slides/python-net/aspose.slides/itextframe) into an array of strings,  <br/>            where each element corresponds to a separate text column within the frame. |
 | [`replace_text(self, old_text, new_text, options, callback)`](/slides/python-net/aspose.slides/textframe/replace_text/#str-str-itextsearchoptions-ifindresultcallback) | Replaces all occurrences of the specified text with another specified text. |
 | [`replace_regex(self, regex, new_text)`](/slides/python-net/aspose.slides/textframe/replace_regex/#str-str) | Replaces all matches of regular expression with specified string. |
+| [`get_text_rect(self)`](/slides/python-net/aspose.slides/textframe/get_text_rect/#) | Gets the text rectangle defined by the geometry of the parent shape. |
 
 
 ### See Also

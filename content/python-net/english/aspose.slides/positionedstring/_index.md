@@ -13,12 +13,6 @@ Structure contains integer key and string value and is temporary replacement of 
 
 The PositionedString type exposes the following members:
 
-## Constructors
-
-| Constructor | Description |
-| :- | :- |
-| [`__init__(self)`](/slides/python-net/aspose.slides/positionedstring/__init__/#) |  |
-
 ## Properties
 
 | Property | Description |

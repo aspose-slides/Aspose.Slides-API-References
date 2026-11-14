@@ -49,9 +49,9 @@ Gets or sets IMathElement at the specified index.
 | [`divide(self, denominator)`](/slides/python-net/aspose.slides.mathtext/mathblock/divide/#str) | Creates a fraction with this numerator and specified denominator |
 | [`divide(self, denominator, fraction_type)`](/slides/python-net/aspose.slides.mathtext/mathblock/divide/#imathelement-mathfractiontypes) | Creates a fraction of the specified type with this numerator and specified denominator |
 | [`divide(self, denominator, fraction_type)`](/slides/python-net/aspose.slides.mathtext/mathblock/divide/#str-mathfractiontypes) | Creates a fraction of the specified type with this numerator and specified denominator |
+| [`enclose(self)`](/slides/python-net/aspose.slides.mathtext/mathblock/enclose/#) | Encloses a math element in parenthesis |
 | [`enclose(self, beginning_character, ending_character)`](/slides/python-net/aspose.slides.mathtext/mathblock/enclose/#char-char) | Encloses child elements of this block in specified characters such as parenthesis or another characters as framing |
 | [`enclose(self, beginning_character, ending_character, separator_character)`](/slides/python-net/aspose.slides.mathtext/mathblock/enclose/#char-char-char) | Encloses child elements of this block in specified characters such as parenthesis or another as framing<br/>            and delimit with a separator character |
-| [`enclose(self)`](/slides/python-net/aspose.slides.mathtext/mathblock/enclose/#) | Encloses a math element in parenthesis |
 | [`function(self, function_argument)`](/slides/python-net/aspose.slides.mathtext/mathblock/function/#imathelement) | Takes a function of an argument using this instance as the function name |
 | [`function(self, function_argument)`](/slides/python-net/aspose.slides.mathtext/mathblock/function/#str) | Takes a function of an argument using this instance as the function name |
 | [`as_argument_of_function(self, function_name)`](/slides/python-net/aspose.slides.mathtext/mathblock/as_argument_of_function/#imathelement) | Takes specified function using this instance as the argument |

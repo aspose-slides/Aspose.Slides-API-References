@@ -4,12 +4,12 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/ichartdatapoint/x_value/
-weight: 230
+weight: 270
 ---
 
 
 ## x_value property
-Returns the x value of chart data point.
+Gets the x value of a chart data point.
             Read-only [`IStringOrDoubleChartValue`](/slides/python-net/aspose.slides.charts/istringordoublechartvalue).
 
 ### Definition:

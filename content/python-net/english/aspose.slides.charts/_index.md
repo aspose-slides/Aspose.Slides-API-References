@@ -17,6 +17,7 @@ Contains classes for work with charts in Microsoft PowerPoint presentations.
 | [`Axis`](/slides/python-net/aspose.slides.charts/axis/) | Encapsulates the object that represents a chart's axis. |
 | [`AxisFormat`](/slides/python-net/aspose.slides.charts/axisformat/) | Represents chart format properties. |
 | [`BaseChartValue`](/slides/python-net/aspose.slides.charts/basechartvalue/) | Represents a value of a chart. |
+| [`CachedChartValue`](/slides/python-net/aspose.slides.charts/cachedchartvalue/) | Represents a cached chart value (e.g., X, Y, bubble size, or the main value). |
 | [`CannotCombine2DAnd3DChartsException`](/slides/python-net/aspose.slides.charts/cannotcombine2dand3dchartsexception/) | Exception which thrown when trying to combine 2D and 3D chart types. |
 | [`Chart`](/slides/python-net/aspose.slides.charts/chart/) | Represents an graphic chart on a slide. |
 | [`ChartCategory`](/slides/python-net/aspose.slides.charts/chartcategory/) | Represents chart categories. |
@@ -56,6 +57,7 @@ Contains classes for work with charts in Microsoft PowerPoint presentations.
 | [`IAxis`](/slides/python-net/aspose.slides.charts/iaxis/) | Encapsulates the object that represents a chart's axis. |
 | [`IAxisFormat`](/slides/python-net/aspose.slides.charts/iaxisformat/) | Represents chart format properties. |
 | [`IBaseChartValue`](/slides/python-net/aspose.slides.charts/ibasechartvalue/) | Represents a value of a chart. |
+| [`ICachedChartValue`](/slides/python-net/aspose.slides.charts/icachedchartvalue/) | Represents a cached chart value (e.g., X, Y, bubble size, or the main value). |
 | [`IChart`](/slides/python-net/aspose.slides.charts/ichart/) | Represents an graphic chart on a slide. |
 | [`IChartCategory`](/slides/python-net/aspose.slides.charts/ichartcategory/) | Represents chart categories. |
 | [`IChartCategoryCollection`](/slides/python-net/aspose.slides.charts/ichartcategorycollection/) | Represents collection of [`IChartCategory`](/slides/python-net/aspose.slides.charts/ichartcategory) |

@@ -17,7 +17,7 @@ The IRotationEffect type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`from_address`](/slides/python-net/aspose.slides.animation/irotationeffect/from_address/) | Describes the starting value for the animation.<br/>            Read/write **float**. |
+| [`from_`](/slides/python-net/aspose.slides.animation/irotationeffect/from_/) | Describes the starting value for the animation.<br/>            Read/write **float**. |
 | [`to`](/slides/python-net/aspose.slides.animation/irotationeffect/to/) | Describes the ending value for the animation.<br/>            Read/write **float**. |
 | [`by`](/slides/python-net/aspose.slides.animation/irotationeffect/by/) | Describes the relative offset value for the animation.<br/>            Read/write **float**. |
 | [`accumulate`](/slides/python-net/aspose.slides.animation/irotationeffect/accumulate/) |  |

@@ -9,7 +9,7 @@ weight: 80
 
 
 ## bubble_size property
-Returns the bubble size of chart data point.
+Gets the bubble size of a chart data point.
             Read-only [`IDoubleChartValue`](/slides/python-net/aspose.slides.charts/idoublechartvalue).
 
 ### Definition:

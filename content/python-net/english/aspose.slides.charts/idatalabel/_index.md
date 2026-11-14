@@ -20,6 +20,7 @@ The IDataLabel type exposes the following members:
 | [`is_visible`](/slides/python-net/aspose.slides.charts/idatalabel/is_visible/) | False means that data label is not visible (and so all Show*-flags (ShowValue, ...) are false).<br/>            Read-only **bool**. |
 | [`data_label_format`](/slides/python-net/aspose.slides.charts/idatalabel/data_label_format/) | Returns format of the data label.<br/>            Read-only [`IDataLabelFormat`](/slides/python-net/aspose.slides.charts/idatalabelformat). |
 | [`value_from_cell`](/slides/python-net/aspose.slides.charts/idatalabel/value_from_cell/) | Gets or sets workbook data cell. Applied if IDataLabelFormat.ShowLabelValueFromCell property equals true. |
+| [`label_shape_type`](/slides/python-net/aspose.slides.charts/idatalabel/label_shape_type/) | Gets or sets the shape type of the data label.<br/>             Returns [`ShapeType.NOT_DEFINED`](/slides/python-net/aspose.slides/shapetype/NOT_DEFINED) if no shape is defined. |
 | [`x`](/slides/python-net/aspose.slides.charts/idatalabel/x/) |  |
 | [`y`](/slides/python-net/aspose.slides.charts/idatalabel/y/) |  |
 | [`width`](/slides/python-net/aspose.slides.charts/idatalabel/width/) |  |
